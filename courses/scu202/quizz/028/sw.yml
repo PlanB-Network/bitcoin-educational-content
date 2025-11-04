@@ -6,4 +6,4 @@ wrong_answers:
   - sakinisha-programu
 explanation: |
   Amri ya "sudo apt install" inasanikisha kifurushi cha programu kupitia kidhibiti cha kifurushi cha APT, njia asilia kwenye Ubuntu.
-reviewed: false
+reviewed: true

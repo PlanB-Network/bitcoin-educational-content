@@ -6,4 +6,4 @@ wrong_answers:
   - 128 Gio
 explanation: |
   Les fichiers blkNNNNN.dat stockent les blocs séquentiellement et atteignent une taille d’environ 128 Mio avant que Bitcoin Core n’ouvre le suivant.
-reviewed: false
+reviewed: true 

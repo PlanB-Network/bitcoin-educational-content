@@ -20,6 +20,38 @@ Geniet van je ontdekking!
 
 +++
 
+# Inleiding
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Cursusoverzicht
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Welkom bij de cursus PRO 202 _**Programming Bitcoin**_, een intensieve reis die je meeneemt van eindige-veldaritmetiek tot het bouwen en uitzenden van echte transacties op het testnet van Bitcoin.
+
+In deze cursus bouw je stap voor stap een Bitcoin-bibliotheek in Python, terwijl je de cryptografische, protocol- en softwarebasis verwerft die nodig is om nauwkeurig te redeneren over de veiligheid en interne werking van Bitcoin. De PRO 202-aanpak is volledig praktisch: elk concept wordt direct geïmplementeerd in Jupyter-notebooks, zodat theorie en code elkaar versterken.
+
+### Essentiële wiskundige concepten voor Bitcoin
+
+Deze eerste sectie legt de onmisbare wiskundige basis. Je zult de rekenkunde van eindige velden en elliptische krommebewerkingen implementeren (groepwet, optelling, verdubbeling, scalair vermenigvuldigen...) — de vereisten voor ECDSA. Het doel is tweeledig: de algebraïsche structuur begrijpen die cryptografische handtekeningen mogelijk maakt en betrouwbare Python-hulpmiddelen bouwen om deze te manipuleren.
+
+Vervolgens formaliseer je de componenten van ECDSA: sleutelaanmaak, puntopmaak, hashing, handtekeningcreatie en verificatie. Deze sectie verbindt theorie direct met praktijk en benadrukt implementatiedetails en de robuustheid van het onderliggende beveiligingsmodel.
+
+### De interne werking van een Bitcoin-transactie
+
+In het tweede deel zal je de structuur van een Bitcoin-transactie ontleden: UTXO’s, inputs/outputs, sequenties, scripts, coderingen en meer. Je zult code schrijven om transacties te bouwen, te ondertekenen en te verifiëren, en zo een nauwkeurig begrip krijgen van wat de hash vastlegt en waarom.
+
+Vervolgens implementeer je een minimale _Script_-uitvoerder, bekijk je belangrijke opcodes en valideer je de uitgavenpaden. Het doel is dat je in staat bent het transactiegedrag te auditen, validatiefouten te diagnosticeren en te redeneren over de veiligheid van bestedingsbeleid.
+
+### De interne werking van het Bitcoin-netwerk
+
+In het derde deel plaats je de transactie binnen het bredere systeem: blokstructuur, headers, moeilijkheidsgraad en het Proof-of-Work-mechanisme. Je zult protocolberichten, blokheaders en Merkle-bomen behandelen.
+
+Tot slot bestudeer je peer-to-peer-knooppuntcommunicatie, berichtoptimalisatie en de introductie van SegWit.
+
+Zoals bij elke cursus op Plan ₿ Academy bevat het laatste gedeelte een evaluatie die is ontworpen om je begrip te versterken. Klaar om de interne werking van Bitcoin te ontdekken en de code te schrijven die het aandrijft? Laten we beginnen!
+
 # Essentiële wiskundige concepten voor Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

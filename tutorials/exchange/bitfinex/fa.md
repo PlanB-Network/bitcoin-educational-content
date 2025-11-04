@@ -32,12 +32,12 @@ description: چگونه از Bitfinex استفاده کنم؟
 برای نکاتی در مورد استفاده و حفاظت از رمزهای عبور قوی و منحصر به فرد، به این آموزش نیز مراجعه کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 اکنون قصد داریم 2FA را برای ایمن‌سازی حساب پیکربندی کنیم. از یک برنامه احراز هویت روی گوشی هوشمند خود استفاده کنید، مانند Google Authenticator یا Authy به عنوان مثال. یک آموزش در مورد این ابزار را در اینجا خواهید یافت:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 کد QR را با برنامه خود اسکن کنید و ۶ رقم ارائه شده را وارد کنید.
 
@@ -245,9 +245,9 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 اگر به Lightning Network علاقه‌مند هستید، ما همچنین یک دوره آموزشی کامل داریم تا به شما کمک کند بفهمید چگونه کار می‌کند:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-پس از خرید اولین بیت‌کوین‌های خود، شما به‌طور واضح گزینه‌ی نگهداری آن‌ها در پلتفرم را دارید، اما من به شدت توصیه می‌کنم که آن‌ها را به Wallet خودتان در نگهداری شخصی منتقل کنید. اگر هنوز نمی‌دانید چگونه از Bitcoin Wallet استفاده کنید، از شما دعوت می‌کنم که [بخش "Wallet" در Plan ₿ Network](https://planb.network/tutorials/wallet) را بررسی کنید.
+پس از خرید اولین بیت‌کوین‌های خود، شما به‌طور واضح گزینه‌ی نگهداری آن‌ها در پلتفرم را دارید، اما من به شدت توصیه می‌کنم که آن‌ها را به Wallet خودتان در نگهداری شخصی منتقل کنید. اگر هنوز نمی‌دانید چگونه از Bitcoin Wallet استفاده کنید، از شما دعوت می‌کنم که [بخش "Wallet" در Plan ₿ Academy](https://planb.academy/tutorials/wallet) را بررسی کنید.
 
 
 ## ۶ - خرید و فروش بیت‌کوین در بیت‌فینکس

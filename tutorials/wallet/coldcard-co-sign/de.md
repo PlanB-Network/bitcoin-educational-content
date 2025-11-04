@@ -289,9 +289,9 @@ Falls erforderlich, machen Sie sich anhand der nachstehenden Anleitungen mit der
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Ausfuhr Wallet Multisig 2-sur-3 bis Sparrow wallet
 
@@ -464,7 +464,7 @@ Diesmal gibt es keine Probleme, es erscheint keine Warnmeldung, und wenn wir die
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Web 2FA und Adressen auf der Whitelist
 
@@ -506,11 +506,11 @@ Mit dieser Funktion können Sie eine TOTP RFC-6238-konforme Anwendung wie Google
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Konkret heißt das: Bevor Sie eine Transaktion unterschreiben, müssen Sie Ihr NFC-fähiges, internetfähiges Gerät in die Nähe Ihrer Coldcard bringen. Dadurch werden Sie automatisch auf eine Webseite von coldcard.com weitergeleitet, wo Sie aufgefordert werden, den 6-stelligen Code für Ihre Anwendung einzugeben. Wenn Sie den richtigen Code eingeben, zeigt Ihnen die Webseite entweder einen QR-Code, den Sie für die ColdCardQ scannen müssen, oder einen 8-stelligen Code, den Sie auf Ihrem Mk4 eingeben müssen, um Ihr Gerät zum Unterschreiben zu autorisieren.
 

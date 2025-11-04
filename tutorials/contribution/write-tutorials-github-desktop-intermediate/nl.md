@@ -1,6 +1,6 @@
 ---
 name: Bijdrage - tutorial met GitHub Desktop (intermediair)
-description: Complete handleiding om een tutorial voor te stellen op Plan ₿ Network met GitHub Desktop
+description: Complete handleiding om een tutorial voor te stellen op Plan ₿ Academy met GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
@@ -8,24 +8,24 @@ description: Complete handleiding om een tutorial voor te stellen op Plan ₿ Ne
 Voordat je deze tutorial over het toevoegen van een nieuwe tutorial volgt, moet je een aantal voorbereidende stappen hebben doorlopen. Als je dat nog niet gedaan hebt, raadpleeg dan eerst deze inleidende handleiding en kom dan hier terug:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Dat heb je al gedaan:
 
 
 - Kies het thema van je tutorial;
-- Neem contact op met het Plan ₿ Network team via [de Telegram groep](https://t.me/PlanBNetwork_ContentBuilder) of paolo@planb.network;
+- Neem contact op met het Plan ₿ Academy team via [de Telegram groep](https://t.me/PlanBNetwork_ContentBuilder) of paolo@planb.network;
 - Kies je bijdragehulpmiddelen.
 
 
-In deze tutorial zullen we zien hoe je je tutorial op Plan ₿ Network kunt toevoegen door je lokale omgeving in te stellen met GitHub Desktop. Als je al bedreven bent met Git, is deze zeer gedetailleerde tutorial misschien niet nodig voor je. Ik zou eerder aanraden om deze andere tutorial te raadplegen, waar ik alleen de belangrijkste richtlijnen presenteer, zonder gedetailleerde stap-voor-stap begeleiding:
+In deze tutorial zullen we zien hoe je je tutorial op Plan ₿ Academy kunt toevoegen door je lokale omgeving in te stellen met GitHub Desktop. Als je al bedreven bent met Git, is deze zeer gedetailleerde tutorial misschien niet nodig voor je. Ik zou eerder aanraden om deze andere tutorial te raadplegen, waar ik alleen de belangrijkste richtlijnen presenteer, zonder gedetailleerde stap-voor-stap begeleiding:
 
 
 
 - **Ervaren gebruikers**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Als je liever niet je lokale omgeving instelt, volg dan deze andere tutorial, ontworpen voor beginners, waar we de wijzigingen direct via GitHub's web interface maken:
 
@@ -34,7 +34,7 @@ Als je liever niet je lokale omgeving instelt, volg dan deze andere tutorial, on
 - **Beginners (web interface)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Vereisten
 
@@ -56,21 +56,21 @@ Vereisten voordat u de tutorial start:
 
 
 - Een [GitHub account] hebben (https://github.com/signup);
-- Neem een fork van het [Plan ₿ Network bronarchief] (https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Heb [een professorprofiel op Plan ₿ Network](https://planb.network/professors) (alleen als je een complete tutorial voorstelt).
+- Neem een fork van het [Plan ₿ Academy bronarchief] (https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Heb [een professorprofiel op Plan ₿ Academy](https://planb.academy/professors) (alleen als je een complete tutorial voorstelt).
 
 
 Als je hulp nodig hebt bij het verkrijgen van deze vereisten, kun je terecht in mijn andere tutorials:
 
 
 
-Zodra alles klaar is en je lokale omgeving goed is ingesteld met je eigen fork van Plan ₿ Network, kun je beginnen met het toevoegen van de tutorial.
+Zodra alles klaar is en je lokale omgeving goed is ingesteld met je eigen fork van Plan ₿ Academy, kun je beginnen met het toevoegen van de tutorial.
 
 
 ## 1 - Maak een nieuwe tak
 
 
-Open je browser en ga naar de pagina van je fork van de Plan ₿ Network repository. Dit is de fork die je hebt aangemaakt op GitHub. De URL van je fork zou er als volgt uit moeten zien: `https://github.com/[your-username]/bitcoin-educational-content`:
+Open je browser en ga naar de pagina van je fork van de Plan ₿ Academy repository. Dit is de fork die je hebt aangemaakt op GitHub. De URL van je fork zou er als volgt uit moeten zien: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ Klik op deze branch en klik vervolgens op de knop `New branch`:
 ![TUTO](assets/fr/08.webp)
 
 
-Zorg ervoor dat de nieuwe branch gebaseerd is op de bronrepository, namelijk `PlanB-Network/Bitcoin-educational-content`.
+Zorg ervoor dat de nieuwe branch gebaseerd is op de bronrepository, namelijk `Plan ₿ Academy/Bitcoin-educational-content`.
 
 
 Geef je branch een naam zodat de titel duidelijk is over het doel en gebruik streepjes om elk woord te scheiden. Bijvoorbeeld, laten we zeggen dat ons doel is om een tutorial te schrijven over het gebruik van de Sparrow wallet software. In dit geval zou de werk branch die gewijd is aan het schrijven van deze tutorial de naam `tuto-Sparrow-Wallet-loic` kunnen krijgen. Zodra de juiste naam is ingevoerd, klik je op `Create branch` om het aanmaken van de branch te bevestigen:
@@ -143,7 +143,7 @@ Je moet het volgende installeren op je machine:
 - Python 3.8 of hoger.
 
 
-Om het script te gebruiken, navigeer je naar de map waar het is opgeslagen. Het script bevindt zich in de Plan ₿ Network data repository op het pad: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Om het script te gebruiken, navigeer je naar de map waar het is opgeslagen. Het script bevindt zich in de Plan ₿ Academy data repository op het pad: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 
 Van zodra je in de map bent, installeer je de afhankelijkheden:
@@ -203,7 +203,7 @@ Deze actie vult automatisch je docent UUID in in het overeenkomstige veld.
 Als je nog geen docentprofiel hebt, bekijk dan deze tutorial:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Klik dan op de knop "New Tutorial".
 
@@ -229,7 +229,7 @@ Kies een naam voor de map die speciaal voor je tutorial is gemaakt. De naam van 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die in de tutorial behandeld wordt, beschikbaar [in de lijst van projecten] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Bijvoorbeeld, voor een tutorial over Sparrow wallet, kun je het `project_id` vinden in het bestand: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van bedrijven en organisaties die actief zijn in Bitcoin of gerelateerde projecten. Door het bijbehorende `project_id` toe te voegen, koppel je je inhoud aan de relevante entiteit.
+Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die in de tutorial behandeld wordt, beschikbaar [in de lijst van projecten] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Bijvoorbeeld, voor een tutorial over Sparrow wallet, kun je het `project_id` vinden in het bestand: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van bedrijven en organisaties die actief zijn in Bitcoin of gerelateerde projecten. Door het bijbehorende `project_id` toe te voegen, koppel je je inhoud aan de relevante entiteit.
 
 
 ***Update:*** In de nieuwe versie van het script hoef je niet langer handmatig het `project_id` in te voeren. Er is een zoekfunctie toegevoegd om het project op naam te vinden en automatisch de bijbehorende `project_id` op te halen. Typ het begin van de naam van het project in het veld "Project Name" om het te zoeken en selecteer vervolgens het gewenste bedrijf in het vervolgkeuzemenu. Het `project_id` wordt automatisch ingevuld in het onderstaande veld. Je kunt het indien nodig ook handmatig invoeren.
@@ -238,7 +238,7 @@ Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Voor tags selecteer je 2 of 3 relevante trefwoorden die verband houden met de inhoud van je tutorial en kies je uitsluitend uit [de Plan ₿ Network taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). De software biedt ook een zoekfunctie voor trefwoorden met een vervolgkeuzelijst.
+Voor tags selecteer je 2 of 3 relevante trefwoorden die verband houden met de inhoud van je tutorial en kies je uitsluitend uit [de Plan ₿ Academy taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). De software biedt ook een zoekfunctie voor trefwoorden met een vervolgkeuzelijst.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,7 +262,7 @@ Voor meer informatie over dit Python-script kun je ook de [README](https://githu
 Open je bestandsbeheerder en navigeer naar de `Bitcoin-educational-content` map, die de lokale kloon van je repository representeert. Je kunt deze map normaal gesproken vinden onder `Documents\GitHub\Bitcoin-educational-content`.
 
 
-In deze map moet je de juiste submap vinden om je tutorial in te plaatsen. De mapindeling weerspiegelt de verschillende secties van de Plan ₿ Network website. In ons voorbeeld, omdat we een tutorial over Sparrow wallet willen toevoegen, moeten we naar het volgende pad navigeren: `bitcoin-educational-content\tutorials\wallet`, wat overeenkomt met de `Wallet` sectie op de website:
+In deze map moet je de juiste submap vinden om je tutorial in te plaatsen. De mapindeling weerspiegelt de verschillende secties van de Plan ₿ Academy website. In ons voorbeeld, omdat we een tutorial over Sparrow wallet willen toevoegen, moeten we naar het volgende pad navigeren: `bitcoin-educational-content\tutorials\wallet`, wat overeenkomt met de `Wallet` sectie op de website:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -344,15 +344,15 @@ Dit zijn de verplichte velden:
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je het overeenstemmend `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door het `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je het overeenstemmend `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door het `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
 
 
 
-- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Network taglijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Academy taglijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **category**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Academy websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -383,7 +383,7 @@ Dit zijn de verplichte velden:
 Raadpleeg de bijbehorende handleiding voor meer informatie over je docenten-ID:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -518,7 +518,7 @@ Om een diagram in je document in te voegen, gebruik je de volgende markdown opdr
 Het uitroepteken aan het begin geeft aan dat het om een afbeelding gaat. De alternatieve tekst, die helpt bij toegankelijkheid en SEO, wordt tussen de haakjes geplaatst. Tenslotte wordt het pad naar de afbeelding aangegeven tussen de haakjes.
 
 
-Als je je eigen diagrammen wilt maken, zorg er dan voor dat je je houdt aan het grafische handvest van Plan ₿ Network om visuele consistentie te garanderen:
+Als je je eigen diagrammen wilt maken, zorg er dan voor dat je je houdt aan het grafische handvest van Plan ₿ Academy om visuele consistentie te garanderen:
 
 
 - **Font**: Gebruik [Rubik](https://fonts.google.com/specimen/Rubik);
@@ -528,7 +528,7 @@ Als je je eigen diagrammen wilt maken, zorg er dan voor dat je je houdt aan het 
   - White: #FFFFFF
 
 
-**Het is noodzakelijk dat alle afbeeldingen die je in je tutorials opneemt vrij zijn van rechten of de licentie van het bronbestand respecteren**. Ook worden alle diagrammen die op Plan ₿ Network gepubliceerd zijn, beschikbaar gesteld onder de CC-BY-SA-licentie, op dezelfde manier als de tekst.
+**Het is noodzakelijk dat alle afbeeldingen die je in je tutorials opneemt vrij zijn van rechten of de licentie van het bronbestand respecteren**. Ook worden alle diagrammen die op Plan ₿ Academy gepubliceerd zijn, beschikbaar gesteld onder de CC-BY-SA-licentie, op dezelfde manier als de tekst.
 
 **-> Tip:** Als je bestanden, zoals afbeeldingen, openbaar deelt, is het belangrijk om onnodige metadata te verwijderen. Deze kunnen gevoelige informatie bevatten, zoals locatiegegevens, aanmaakdata of details over de auteur. Om je privacy te beschermen, is het aan te raden om deze metadata te verwijderen. Om dit proces te vereenvoudigen, kun je gespecialiseerde tools gebruiken zoals [Exif Cleaner] (https://exifcleaner.com/), waarmee je de metadata van een document kunt opschonen met een eenvoudige sleep-en neerzetprocedure.
 
@@ -571,7 +571,7 @@ Je kunt nog een laatste keer controleren of je wijzigingen correct zijn en dan o
 ![TUTO](assets/fr/32.webp)
 
 
-Een Pull Request is een verzoek om de wijzigingen van jouw branch te integreren in de hoofdbranch van de Plan ₿ Network repository, waardoor de wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
+Een Pull Request is een verzoek om de wijzigingen van jouw branch te integreren in de hoofdbranch van de Plan ₿ Academy repository, waardoor de wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
 
 
 Je wordt automatisch doorgestuurd naar je browser op GitHub naar de voorbereidingspagina van je Pull Request:
@@ -584,7 +584,7 @@ Geef een titel op die kort de wijzigingen samenvat die je wilt samenvoegen met h
 ![TUTO](assets/fr/34.webp)
 
 
-Je PR zal dan zichtbaar zijn op het tabblad `Pull Request` van de Plan ₿ Network repository. Je hoeft alleen maar te wachten tot een beheerder contact met je opneemt om de samenvoeging van je bijdrage te bevestigen of om aanvullende wijzigingen aan te vragen.
+Je PR zal dan zichtbaar zijn op het tabblad `Pull Request` van de Plan ₿ Academy repository. Je hoeft alleen maar te wachten tot een beheerder contact met je opneemt om de samenvoeging van je bijdrage te bevestigen of om aanvullende wijzigingen aan te vragen.
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ Als je je bijdrage wilt wijzigen nadat je je PR al hebt ingediend, hangt de proc
 
 
 - Als je PR nog open is en nog niet samengevoegd, voer de wijzigingen dan lokaal door terwijl je op dezelfde branch blijft. Als de wijzigingen afgerond zijn, gebruik dan de `Push origin` knop om een nieuwe commit toe te voegen aan je nog open PR;
-- Als je PR al samengevoegd is met de hoofdbranch, dan moet je het proces opnieuw beginnen door een nieuwe branch aan te maken en dan een nieuw PR in te dienen. Zorg ervoor dat je lokale repository gesynchroniseerd is met de Plan ₿ Network broncode repository voordat je verder gaat.
+- Als je PR al samengevoegd is met de hoofdbranch, dan moet je het proces opnieuw beginnen door een nieuwe branch aan te maken en dan een nieuw PR in te dienen. Zorg ervoor dat je lokale repository gesynchroniseerd is met de Plan ₿ Academy broncode repository voordat je verder gaat.
 
 
 Als je technische problemen ondervindt bij het indienen van je tutorial, aarzel dan niet om hulp te vragen op [onze speciale Telegram-groep voor bijdragen](https://t.me/PlanBNetwork_ContentBuilder). Hartelijk dank!

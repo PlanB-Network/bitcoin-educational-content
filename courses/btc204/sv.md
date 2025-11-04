@@ -500,9 +500,9 @@ Så vi måste också kunna hantera Blockchain-analys i vår användning av Bitco
 Finns det något bättre sätt att motverka Blockchain-analys än att lära sig om de metoder som används i den? Om du vill veta hur du kan förbättra din integritet på Bitcoin måste du förstå dessa metoder. Detta kommer att ge dig en bättre förståelse för tekniker som CoinJoin eller PayJoin (tekniker som vi kommer att titta på i de sista delarna av kursen) och minska de misstag du kan göra.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 I detta kan vi dra en analogi med kryptografi och kryptoanalys. En duktig kryptograf är först och främst en duktig kryptoanalytiker. För att ta fram en ny krypteringsalgoritm måste du veta vilka attacker den kommer att utsättas för och även studera varför tidigare algoritmer har brutits. Samma princip gäller för Bitcoin-sekretess. Att förstå Blockchain-analysmetoder är nyckeln till att skydda sig mot dem. Det är därför jag har inkluderat ett helt avsnitt on chain-analys i den här utbildningen.
 
@@ -1823,7 +1823,7 @@ Alla dessa automatiska UTXO-urvalsmetoder kan vara effektiva för att minska tra
 Om du vill ta reda på hur du taggar dina UTXO:er har vi gjort en omfattande handledning om den viktigaste Bitcoin Wallet-programvaran som finns där ute:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC och nyckelidentifiering
 
@@ -2062,7 +2062,7 @@ När det gäller lösningar har jag personligen alltid använt [Bisq](https://bi
 -> Se vår Bisq-handledning.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 För ett enklare alternativ kan du prova [Peach] (https://peachbitcoin.com/), en mobilapp som kopplar samman köpare och säljare med ett inbyggt konfliktlösningssystem. Processen är mer intuitiv än Bisqs.
 
@@ -2070,7 +2070,7 @@ För ett enklare alternativ kan du prova [Peach] (https://peachbitcoin.com/), en
 -> Se vår handledning för Peach.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Ett annat onlinealternativ är [HodlHodl] (https://hodlhodl.com/), en väletablerad plattform som erbjuder god likviditet, även om jag inte personligen har testat den.
 
@@ -2078,7 +2078,7 @@ Ett annat onlinealternativ är [HodlHodl] (https://hodlhodl.com/), en väletable
 -> Se vår HodlHodl-handledning.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 För Lightning Network-baserade lösningar, prova [RoboSats](https://learn.robosats.com/) och [LNP2PBot](https://lnp2pbot.com/). RoboSats är tillgänglig via en webbplats och är relativt enkel att använda. LNP2PBot är mer atypisk, eftersom den fungerar via ett Exchange-system på meddelandeprogrammet Telegram.
 
@@ -2089,9 +2089,9 @@ För Lightning Network-baserade lösningar, prova [RoboSats](https://learn.robos
 -> Se vår handledning för LNP2PBot.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/sv/096.webp)
 
@@ -2105,7 +2105,7 @@ Beroende på vilket land du bor i kan du ha tillgång till reglerade plattformar
 -> Se vår handledning om Relai.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Som vi såg i föregående kapitel sparar denna typ av plattform dig från riskerna i samband med KYC-förfaranden, men de utgör en högre risknivå för nyckelidentifiering. När det gäller Bitcoin-konfidentialitet erbjuder dessa plattformar därför bättre skydd än köpmetoder med KYC, men de är fortfarande mindre attraktiva än P2P-börser.
 
@@ -2140,7 +2140,7 @@ Det bästa sättet att spendera BTC är naturligtvis att använda Bitcoin eller 
 Flera plattformar som inte kräver KYC-förfaranden erbjuder möjligheten att växla bitcoins mot presentkort som kan användas hos större återförsäljare. Dessa inkluderar [CoinsBee] (https://www.coinsbee.com/), [The Bitcoin Company] (https://thebitcoincompany.com/) och [Bitrefill] (https://www.bitrefill.com/). Dessa plattformar gör det mycket enklare att använda dina bitcoins dagligen, vilket ger dig tillgång till ett brett utbud av produkter och tjänster utan att behöva konvertera dem till fiatvaluta.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/sv/098.webp)
 
@@ -2154,7 +2154,7 @@ Andra sätt att förvärva bitcoins samtidigt som du skyddar din integritet inkl
 En annan metod är att arbeta i Exchange för bitcoins. Denna förvärvsmetod kan vara intressant, men den grad av identifiering som krävs varierar avsevärt beroende på omständigheterna.
 
 
-*För att skriva det här kapitlet använde jag BTC205-kursen som ges av [@pivi___](https://x.com/pivi___) på Plan ₿ Network (endast tillgänglig på franska för tillfället)*
+*För att skriva det här kapitlet använde jag BTC205-kursen som ges av [@pivi___](https://x.com/pivi___) på Plan ₿ Academy (endast tillgänglig på franska för tillfället)*
 
 
 ## Konsolidering, UTXO-hantering och CIOH
@@ -3143,7 +3143,7 @@ I nästa kapitel tar vi reda på vad "anonsets" är, hur dessa indikatorer berä
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3575,7 +3575,7 @@ Efter gripandet av Samourais grundare är dessa verktyg tyvärr inte längre i d
 Nu när vi har täckt coinjoins i detalj kommer vi att titta på de andra sekretessteknikerna som finns tillgängliga på Bitcoin i det sista avsnittet av vår kurs. Vi kommer att titta på payjoins, specifika pseudo-CoinJoin-transaktionstyper, statiska Address-protokoll samt åtgärder för att förstärka sekretessen inte på transaktionsnivån utan på nivån för nätverket av noder.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Förstå utmaningarna med andra avancerade sekretesstekniker
 
@@ -3715,7 +3715,7 @@ En lösning skulle kunna vara att använda transaktionsstrukturer som skapar tve
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Betalning mini-CoinJoin
 
@@ -3896,9 +3896,9 @@ Det är också möjligt att utföra denna typ av transaktion manuellt från vilk
 I nästa kapitel tar vi en titt på en annan sekretessteknik som är relativt okänd, men som är mycket användbar som komplement till det vi redan har studerat.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Rikoschetter
 
@@ -4009,7 +4009,7 @@ Ricocheting betyder helt enkelt att skicka bitcoins till dig själv. Det är ful
 I nästa kapitel tittar vi på olika tekniker för hemliga överföringar av Ownership. Dessa metoder skiljer sig radikalt från dem vi hittills har undersökt, både när det gäller funktion och resultat.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Hemliga överföringar av Ownership
 
@@ -4417,10 +4417,10 @@ Dessa avatarer kan också representeras som bilder:
 
 
 ---
-*I följande avsnitt i detta kapitel om BIP47 tar vi en detaljerad titt på hur det fungerar, med särskild tonvikt på de kryptografiska metoder som används. För att fullt ut förstå dessa något tekniska förklaringar är det viktigt att först förstå strukturen i HD-plånböcker, nyckelavledningsförfaranden och grunderna i elliptisk kurvkryptografi. Om du vill fördjupa dig i dessa begrepp finns en annan kostnadsfri utbildning tillgänglig på Plan ₿ Network :*
+*I följande avsnitt i detta kapitel om BIP47 tar vi en detaljerad titt på hur det fungerar, med särskild tonvikt på de kryptografiska metoder som används. För att fullt ut förstå dessa något tekniska förklaringar är det viktigt att först förstå strukturen i HD-plånböcker, nyckelavledningsförfaranden och grunderna i elliptisk kurvkryptografi. Om du vill fördjupa dig i dessa begrepp finns en annan kostnadsfri utbildning tillgänglig på Plan ₿ Academy :*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Jag råder dig ändå att följa dem, eftersom det blir mycket lättare för dig att förstå andra liknande förslag, som vi kommer att diskutera i följande kapitel*, om du förstår hur BIP47 fungerar tekniskt
 
@@ -5493,7 +5493,7 @@ Bob kan sedan ersätta Alice på samma sätt som hon skickade betalningar till h
 *Stort tack till [Fanis Michalakis](https://x.com/FanisMichalakis) för hans korrekturläsning och expertråd om den artikel som inspirerade till skrivandet av detta kapitel!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Tysta betalningar
 

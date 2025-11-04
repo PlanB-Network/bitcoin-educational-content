@@ -11,7 +11,7 @@ description: Potpuni vodič za korišćenje Bisq 2 i razmenu bitkoina P2P
 Peer-to-peer razmene bez KYC (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Šta je Bisq 2?
 
@@ -117,7 +117,7 @@ Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni pro
 - Proverite autentičnost preuzete datoteke (preporučuje se). Za detaljan vodič o verifikaciji potpisa, pogledajte sledeći tutorijal:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalacija prema vašem sistemu
 

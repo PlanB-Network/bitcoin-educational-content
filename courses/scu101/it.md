@@ -30,6 +30,8 @@ Théo; contributo
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Obiettivo: aggiornamento!**
 
 Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
@@ -40,7 +42,7 @@ Questa formazione è uno sforzo congiunto di tre dei nostri professori:
 
 - Renaud Lifchitz, esperto in sicurezza informatica
 - Théo Pantamis, dottore in matematica applicata
-- Rogzy, Co-fondatore di Plan ₿ Network
+- Rogzy, Co-fondatore di Plan ₿ Academy
 
 La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante il costante aumento di casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
 Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile: ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
@@ -91,6 +93,8 @@ Pronto a rafforzare la tua sicurezza digitale e riprendere il controllo dei tuoi
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Durante la navigazione su internet, è importante evitare alcuni errori comuni per preservare la propria sicurezza online. Ecco alcuni consigli per evitarli:
 
 ### Attenzione ai download di software:
@@ -129,11 +133,13 @@ TOR è legale ed è utilizzato da giornalisti, attivisti per la libertà e altre
 
 ![image](assets/it/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN e connessione Internet
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### i VPN
 
@@ -153,9 +159,9 @@ Tuttavia, l'uso di una VPN per il grande pubblico non garantisce un anonimato co
 
 Infine, una VPN può anche essere utilizzata per bloccare la pubblicità online, offrendo così un'esperienza di navigazione più piacevole e sicura. Tuttavia, è importante fare le proprie ricerche per trovare la VPN più adatta alle proprie esigenze specifiche. L'uso di una VPN è consigliato per rafforzare la sicurezza, anche quando si naviga su Internet da casa. Ciò contribuisce a garantire un livello più elevato di sicurezza per i dati scambiati online. Infine, assicurati di verificare gli URL e il lucchetto nella barra degli indirizzi per confermare di essere sul sito che pensi di visitare.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS e le reti Wi-Fi pubbliche
 
@@ -176,6 +182,8 @@ In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza onli
 ## Utilizzo del computer
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 La sicurezza dei nostri computer è una questione fondamentale nel mondo digitale odierno. Oggi affronteremo tre punti chiave:
 
@@ -227,6 +235,8 @@ In conclusione, è fondamentale optare per un sistema operativo adatto alle prop
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Come attaccano gli hacker?
 
 Per proteggersi adeguatamente, è fondamentale capire come i pirati informatici cercano di infiltrarsi nel tuo computer. Infatti, i virus non arrivano spesso per magia, ma sono piuttosto il risultato delle nostre azioni, anche involontarie!
@@ -263,9 +273,9 @@ NO, di solito è sconsigliato pagare gli hacker in caso di ransomware o altri ti
 
 Se rilevi un virus sul tuo computer, disconnettilo da Internet, effettua una scansione antivirus completa ed elimina i file infetti. Successivamente, aggiorna i tuoi software e il sistema operativo e cambia le tue password per evitare ulteriori intrusioni.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementazione delle soluzioni.
 
@@ -274,6 +284,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Gestione delle caselle di posta
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Inizio della sezione 2 del corso!
 
@@ -306,11 +318,13 @@ Si consiglia di utilizzare il sito Have I Been Pwned (Sono stato violato) - http
 In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro è una pratica giusta, e addirittura necessaria se si desidera ripartire da basi sane.
 Bonus Bitcoin: può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i punti di attività nelle nostre vite.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Gestore di password
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Cosa è un gestore di password?
 
@@ -353,13 +367,15 @@ Per creare una password forte, si consiglia di utilizzare un gran numero di cara
 
 Le password generate casualmente offrono un livello di sicurezza superiore, anche se possono essere più difficili da ricordare. I gestori di password possono generare password casuali più sicure. Utilizzando un gestore di password, non è necessario memorizzare tutte le password. È importante sostituire gradualmente le vecchie password con quelle generate dal gestore, poiché sono più forti e più lunghe. Assicurarsi che la password principale del gestore di password sia anche forte e sicura.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## I 2 fattori di autenticazione
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Perché implementare il 2FA
 
@@ -402,9 +418,9 @@ Continuate ad imparare e ad implementare gradualmente le buone pratiche!
 
 Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatta al vostro percorso di apprendimento!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Sezione Pratica
 
@@ -416,7 +432,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Proteggere la propria casella di posta elettronica è un passaggio importante per mettere in sicurezza le proprie attività online e preservare i propri dati personali. Questo tutorial vi guiderà, passo dopo passo, nella creazione e configurazione di un account ProtonMail, un fornitore riconosciuto per il suo alto livello di sicurezza che offre la crittografia end-to-end delle vostre comunicazioni. Che siate principianti o utenti esperti, le buone pratiche proposte qui vi aiuteranno a rafforzare la sicurezza della vostra casella di posta, sfruttando al contempo le funzionalità avanzate di ProtonMail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Sicurezza con 2FA
 
@@ -424,11 +440,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 L'autenticazione a due fattori (2FA) è diventata essenziale per proteggere i tuoi account online. In questo tutorial imparerai a configurare e utilizzare l'app 2FA Authy, che genera codici dinamici a 6 cifre per proteggere i tuoi account. Authy è molto semplice da usare e si sincronizza su più dispositivi. Scopri come installare e configurare Authy e rafforza la sicurezza dei tuoi account online fin da subito:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Un'altra opzione è utilizzare una chiave di sicurezza fisica. Questo altro tutorial ti mostra come configurare e utilizzare una chiave di sicurezza come secondo fattore di autenticazione:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Creazione di un gestore di password
 
@@ -438,11 +454,11 @@ La gestione delle password è una sfida nell'era digitale. Abbiamo tutti numeros
 
 In questo tutorial, scopri come configurare Bitwarden, un gestore di password open-source, e come sincronizzare le tue credenziali su tutti i tuoi dispositivi per semplificare l'uso quotidiano:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Per gli utenti più esperti, offro anche un tutorial su un altro software gratuito e open-source da utilizzare localmente per gestire le tue password:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Sicurezza dei tuoi account
 
@@ -450,9 +466,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 In questi due tutorial, ti guiderò anche nella sicurezza dei tuoi account online e ti spiegherò come adottare gradualmente pratiche più sicure per la gestione quotidiana delle tue password.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Cambio di browser e VPN
 
@@ -462,13 +478,13 @@ La protezione della tua privacy online è anche un punto da considerare per gara
 
 Ti propongo di scoprire due soluzioni VPN affidabili e pagabili in bitcoin, ovvero IVPN e Mullvad. Questi tutorial ti guidano nell'installare, configurare e utilizzare Mullvad o IVPN su tutti i tuoi dispositivi:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Scopri inoltre come utilizzare Tor Browser, un browser specificamente progettato per proteggere la tua privacy online:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Configurazione del backup
 
@@ -476,11 +492,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Proteggere i tuoi file personali è anche un punto essenziale. Questo tutorial ti mostra come implementare una strategia di backup efficace grazie a Proton Drive. Scopri come utilizzare questa soluzione cloud sicura per applicare il metodo 3-2-1: tre copie dei tuoi dati su due supporti diversi, di cui una copia fuori sede. In questo modo garantisci l'accessibilità e la sicurezza dei tuoi file sensibili:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 E per proteggere i tuoi file archiviati su supporti rimovibili come una chiavetta USB o un disco rigido esterno, ti mostro anche come crittografare e decrittografare facilmente questi supporti grazie a VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Andare oltre
 
@@ -489,6 +505,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Come lavorare in questa industria della sicurezza informatica
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 La cybersecurity, un settore in forte crescita, offre molte opportunità per coloro che sono appassionati della protezione dei sistemi e dei dati. Se questo settore ti intriga, ecco alcuni passaggi chiave per orientarti.
 
@@ -525,6 +543,8 @@ Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare 
 ## Intervista a Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
 

@@ -20,7 +20,7 @@ ten samouczek służy wyłącznie celom edukacyjnym i informacyjnym. Nie popiera
 
 W poprzednim samouczku wyjaśniliśmy już procedurę instalacji i korzystania z RoninDojo v1. Jednak w ciągu ostatniego roku zespoły RoninDojo uruchomiły wersję 2 swojej implementacji, co stanowiło znaczący punkt zwrotny w architekturze oprogramowania. Rzeczywiście, odeszli od dystrybucji Linux Manjaro na rzecz Debiana. W związku z tym nie oferują już wstępnie skonfigurowanego obrazu do automatycznej instalacji na Raspberry Pi. Wciąż jednak istnieje metoda ręcznej instalacji. Tego właśnie użyłem dla mojego własnego węzła i od tego czasu RoninDojo v2 działa wspaniale na moim Raspberry Pi 4. Dlatego oferuję nowy samouczek dotyczący ręcznej instalacji RoninDojo v2 na Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Spis treści:
 
@@ -333,7 +333,7 @@ Po wejściu na stronę główną RoninUI zostaniesz poproszony o rozpoczęcie in
 ![lets start](assets/notext/25.webp)
 
 
-Na tym etapie RoninUI przedstawia hasło `root`. Ważne jest, aby zachować je w bezpiecznym miejscu. Możesz zdecydować się na fizyczną kopię zapasową na papierze lub zapisać ją w [menedżerze haseł](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Na tym etapie RoninUI przedstawia hasło `root`. Ważne jest, aby zachować je w bezpiecznym miejscu. Możesz zdecydować się na fizyczną kopię zapasową na papierze lub zapisać ją w [menedżerze haseł](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Po wykonaniu coinjoinów za pomocą Whirlpool warto dokładnie ocenić poziom pr
 Aby pogłębić zrozumienie mechanizmów obliczeniowych tych indeksów, polecam przeczytanie artykułu: REMIX - Whirlpool, który szczegółowo opisuje działanie tych indeksów.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

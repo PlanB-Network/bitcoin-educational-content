@@ -1,0 +1,27 @@
+id: 9d0e605a-63c6-40e9-85af-30ded31bf3bc
+
+project_id: 0fbcc87c-3be1-4e2f-8f3f-5116db036d32
+
+tags:
+  - hardware
+  - mining
+  - proof-of-work
+
+category: hardware
+
+level: advanced
+
+professor_id: 298e3da6-90af-11f0-b369-5b85d1355450
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

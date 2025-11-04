@@ -26,7 +26,7 @@ Il momento della spesa è dunque il più critico: **spendere bitcoin è un atto 
 
 Nel protocollo Bitcoin, elementi come _conto_ o _unità monetarie_ non esistono. Il concetto di UTXO è spiegato egregiamente nel seguente corso che ti consiglio vivamente:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Con Bitcoin ciò che accumuli e in seguito spenderai, sono piccole o grandi unità di conto misurate in satoshi, rappresentati da `output di transazione non spesi`, gli **UTXO**, detti anche `coins`. Quando si utilizzano UTXO per creare una transazione, questi vengono completamente distrutti e si creano altri UTXO al loro posto.
 
@@ -285,7 +285,7 @@ Ognuno dei software wallet visti in questa guida può essere l'interfaccia watch
 
 Il coin control è una pratica molto efficace per selezionare gli input delle tue transazioni. La selezione manuale è ancor più efficiente se, in fase di acquisto/ricezione dei tuoi fondi, hai etichettato bene la provenienza dei tuoi satoshi. Se desideri imparare bene questa tecnica, ti consiglio il seguente tutorial:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Abbiamo parlato in precedenza della `segregazione dei resti`. Se vuoi bloccare i resti per poi trattarli e riguadagnare privacy (swap su layer 2), devi aver cura di "etichettarli" ogni volta che ne ricevi uno. Dei software wallet visti fin qui, solo Electrum colora graficamente gli UTXO di resto per renderli visibili a colpo d'occhio. Altri, come Sparrow, ti indicano la catena nel derivation path del singolo UTXO (`m/84'/0'/0'/1/11`). 
 

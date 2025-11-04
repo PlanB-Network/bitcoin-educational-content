@@ -124,12 +124,12 @@ Wallet 지원과 관련된 추가 정보로 백업을 강화할 수도 있습니
 반면에 passphrase을 사용하는 경우에는 Mnemonic 문구와 같은 매체에 적어 두지 마세요. passphrase의 목적은 도난 시 Wallet를 보호하기 위한 것입니다. passphrase 사용 방법에 대해 자세히 알아보려면 이 보조 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mnemonic 문구를 실제 미디어에 저장한 후에는 새로 만든 Wallet이 아직 비어 있는 상태에서 복구 테스트를 수행하는 것이 좋습니다. 이 테스트는 샘플 정보를 적고, 비어 있는 Wallet을 일부러 삭제한 다음, Mnemonic 문구의 물리적 백업만을 사용하여 복원을 시도하는 것으로 구성됩니다. 이렇게 하면 백업이 완전하고 입력 오류가 없는지 확인할 수 있습니다. 또한 복구 프로세스에 익숙해질 수 있습니다. 이렇게 하면 나중에 복구해야 할 때 더 잘 준비할 수 있고 실제 상황에서 처음 시도하는 스트레스를 피할 수 있습니다. 이 테스트를 수행하는 방법에 대해 자세히 알아보려면 이 다른 튜토리얼 을 참조하세요:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 마지막으로 백업 횟수에 대한 질문이 있습니다. 이 선택은 전적으로 개인의 상황에 따라 달라집니다. 예를 들어 Mnemonic 문구를 미디어에 한 번만 기록하는 등 사본 수를 제한하면 도난 위험은 줄어들지만 분실 위험은 높아집니다. 반대로 여러 장 복사하면 분실 위험은 줄어들지만 도난 위험은 증가합니다. 따라서 필요에 맞는 적절한 균형을 찾고 가장 적절하다고 생각되는 사본 수를 결정하는 것은 사용자의 몫입니다.
 
@@ -173,6 +173,6 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 그렇기 때문에 Plan ₿ Network에서 제공하는 무료 CYP201 교육 과정에 여러분을 초대합니다. 이 교육 과정에서는 Bitcoin 지갑의 모든 작동 방식을 자세히 설명하여 자금을 효과적으로 보호하는 데 필수적인 기술적 측면을 익힐 수 있습니다:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 이 튜토리얼이 유용했다면 아래에 Green 엄지손가락을 남겨주시면 감사하겠습니다. 이 글을 소셜 네트워크에 자유롭게 공유해 주세요. 정말 감사합니다!

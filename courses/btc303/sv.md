@@ -75,7 +75,7 @@ Att navigera i det komplexa styrningslandskapet i Bitcoin kräver mer än teknis
 Är du redo att ta nästa steg i din Bitcoin-resa? Låt oss börja!
 
 
-***N.B.**: Om du stöter på några obekanta termer relaterade till Bitcoin under kursen, vänligen se [ordlistan](https://planb.network/resources/glossary) för att hitta definitioner.*
+***N.B.**: Om du stöter på några obekanta termer relaterade till Bitcoin under kursen, vänligen se [ordlistan](https://planb.academy/resources/glossary) för att hitta definitioner.*
 
 
 
@@ -154,7 +154,7 @@ Om de lyckas kommer samma problem troligen att dyka upp igen någon gång i fram
 Inget av dessa alternativ är till nytta för användaren.
 
 
-Censurmotstånd genom decentralisering är det som skiljer Bitcoin från andra penningsystem, men det är inte lätt att åstadkomma på grund av *Double-spending-problemet*. Detta är problemet med att se till att ingen kan spendera samma mynt två gånger, en fråga som många trodde var omöjlig att lösa på ett decentraliserat sätt. Satoshi Nakamoto skriver i sin [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) om hur man löser Double-spending-problemet:
+Censurmotstånd genom decentralisering är det som skiljer Bitcoin från andra penningsystem, men det är inte lätt att åstadkomma på grund av *Double-spending-problemet*. Detta är problemet med att se till att ingen kan spendera samma mynt två gånger, en fråga som många trodde var omöjlig att lösa på ett decentraliserat sätt. Satoshi Nakamoto skriver i sin [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) om hur man löser Double-spending-problemet:
 
 
 > I det här dokumentet föreslår vi en lösning på Double-spending-problemet genom att använda en peer-to-peer-distribuerad Timestamp-server för att generate beräkna bevis för den kronologiska ordningen på transaktioner.
@@ -652,7 +652,7 @@ För att minska riskerna för att dina personuppgifter avslöjas är det bäst a
 Artikeln föreslår att du undviker att använda börser som kräver KYC/AML och istället handlar privat, eller använder decentraliserade börser som [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 För mer ingående läsning om motåtgärder, se den tidigare nämnda [wiki-artikeln om integritet](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), med början på "Metoder för att förbättra integriteten (ej Blockchain)".
 

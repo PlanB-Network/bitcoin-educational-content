@@ -8,13 +8,13 @@ description: Ni gute wokwongerako ivy’ugusubiramwo inama ku rubuga rwa PlanB?
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku Bitcoin mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni ivy’inkomoko yuguruye kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese gutanga umusanzu mu gutunganya urubuga.
 
 
-Woba ushaka kwongerako replay y’inama yawe ya Bitcoin ku rubuga rwa PlanB Network maze ugatanga visibilité kuri iki gikorwa, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
+Woba ushaka kwongerako replay y’inama yawe ya Bitcoin ku rubuga rwa Plan ₿ Academy maze ugatanga visibilité kuri iki gikorwa, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
 
 
 Ariko rero, nimba ushaka kwongerako inama izoba muri kazoza, ndaguhanura ngo usome iyi yindi nyigisho aho tubasigurira ingene wokwongerako ikintu gishasha ku rubuga.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - Ubwa mbere, ukeneye kugira konti kuri GitHub. Niba utazi uko wokora konti, twakoze inyigisho ido n’ido kugira ngo ikuyobore.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo PlanB Network mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![conference](assets/04.webp)
 
@@ -105,7 +105,7 @@ tags:
 Niba utararonka ikimenyetso ca "*umugambi*" c'ishirahamwe ryawe, urashobora kugishiramwo ukurikije iyi yindi nyigisho.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -190,7 +190,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Paje nshasha izofunguka. Kurura ushire ishusho iserukira inama yawe kandi izogaragara ku rubuga rwa PlanB Network: ![inama](itunga/26.webp)
+- Paje nshasha izofunguka. Kurura ushire ishusho iserukira inama yawe kandi izogaragara ku rubuga rwa Plan ₿ Academy: ![inama](itunga/26.webp)
 - Bishobora kuba ikimenyetso, akashusho gato, canke mbere igicapo:
 
 ![conference](assets/27.webp)
@@ -299,7 +299,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- Mu ntango y'inyandiko yawe, mu "kibazo c'imbere," wuzuze `izina:` izina ry'inama yawe n'umwaka w'ivyo gusubiramwo. Mu `insobanuro:` umwanya, wandike insobanuro ngufi y'ivyabaye mu rurimi rwa dosiye. Nk'akarorero, kuri dosiye yitwa `en.md`, insobanuro ikwiye kuba mu congereza. Ishirahamwe rya PlanB Network rizokwitwararika guhindura insobanuro yawe rikoresheje akarorero kabo.
+- Mu ntango y'inyandiko yawe, mu "kibazo c'imbere," wuzuze `izina:` izina ry'inama yawe n'umwaka w'ivyo gusubiramwo. Mu `insobanuro:` umwanya, wandike insobanuro ngufi y'ivyabaye mu rurimi rwa dosiye. Nk'akarorero, kuri dosiye yitwa `en.md`, insobanuro ikwiye kuba mu congereza. Ishirahamwe rya Plan ₿ Academy rizokwitwararika guhindura insobanuro yawe rikoresheje akarorero kabo.
 - Amazina y'urugero rwa mbere, yerekanwa n'akamenyetso ka `#`, akoreshwa mu gutunganya inama hakurikijwe ibice. Nk'akarorero, `# Intambwe Nkuru` ku ntambwe nyamukuru na `# Icumba c'Amahugurwa` ku ntambwe yihariye y'amahugurwa.
 
 
@@ -357,10 +357,10 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoca ayisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa PlanB Network. Ushobora kubona amasubiramwo y’inama yawe aboneka ku rubuga haciye imisi mikeyi.
+Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoca ayisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona amasubiramwo y’inama yawe aboneka ku rubuga haciye imisi mikeyi.
 
 
-Ndagusavye urabe ko ukurikirana ingene PR yawe itera imbere. Birashoboka ko umuyobozi yoshobora gusiga igitekerezo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona munsi y'agace ka `Pull requests` ku bubiko bwa GitHub bwa PlanB Network:
+Ndagusavye urabe ko ukurikirana ingene PR yawe itera imbere. Birashoboka ko umuyobozi yoshobora gusiga igitekerezo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona munsi y'agace ka `Pull requests` ku bubiko bwa GitHub bwa Plan ₿ Academy:
 
 ![conference](assets/46.webp)
 

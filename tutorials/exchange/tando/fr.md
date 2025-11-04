@@ -37,11 +37,11 @@ Avec son interface intuitive et minimaliste, Tando vous permet d'utiliser n'impo
 
 Tando vous permet d'utiliser vos bitcoins pour acheter tout ce que le M-Pesa peut acheter au Kenya. En plus, les frais de transaction sont quasi nuls comparativement aux transactions natives en M-Pesa. Lorsque vous utilisez Tando, vous payez l'équivalent KES avec votre portefeuille Lightning et, à partir de leur infrastructure, Tando se chargera de convertir votre paiement Lightning en shillings kényans (KES) puis se chargera d'envoyer la somme au numéro M-Pesa que vous aurez spécifié.
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 - **Scanner pour Payer** :
 
@@ -79,5 +79,5 @@ Dans le menu de l'application, retrouvez également toutes les informations rel
 
 De plus en plus d'initiatives comme Tando naissent dans les communautés africaines, découvrez BitSpenda, une initiative ghanéenne qui vise à utiliser bitcoin pour effectuer des paiements au Ghana, au Nigeria et au Kenya.
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
 

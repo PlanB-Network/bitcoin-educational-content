@@ -6,7 +6,7 @@ description: Comment acheter des biens et des services en BTC avec Bitrefill ?
 
 Bien que le bitcoin soit aujourd'hui principalement considéré comme un moyen d'épargne, il n'en demeure pas moins une monnaie, dont l'utilité réside dans sa capacité à circuler de main en main. Si les commerçants autour de chez vous acceptent le bitcoin comme moyen de paiement, vous avez la possibilité de les dépenser directement chez eux. Malheureusement, cette pratique n'est pas encore très répandue, et la plupart des commerçants n'acceptent pas encore le BTC de manière native.
 
-La meilleure solution reste évidemment d'orange pill les commerçants locaux pour qu'ils acceptent le bitcoin, en leur expliquant les avantages de ce système. Vous pouvez d'ailleurs utiliser comme support les tutoriels disponibles dans [la section "*commerçants*"](https://planb.network/tutorials/merchant) de notre site. Cette stratégie peut être efficace avec les petits commerçants indépendants, mais elle s'avère plus complexe pour les grandes enseignes nationales, car les interlocuteurs sur place ne sont généralement pas ceux qui prennent les décisions relatives aux moyens de paiement.
+La meilleure solution reste évidemment d'orange pill les commerçants locaux pour qu'ils acceptent le bitcoin, en leur expliquant les avantages de ce système. Vous pouvez d'ailleurs utiliser comme support les tutoriels disponibles dans [la section "*commerçants*"](https://planb.academy/tutorials/merchant) de notre site. Cette stratégie peut être efficace avec les petits commerçants indépendants, mais elle s'avère plus complexe pour les grandes enseignes nationales, car les interlocuteurs sur place ne sont généralement pas ceux qui prennent les décisions relatives aux moyens de paiement.
 
 En attendant une adoption plus massive de la part de ces enseignes, vous pouvez y dépenser vos bitcoins en utilisant un moyen de paiement intermédiaire : les cartes-cadeaux. Et c'est justement ce que propose de vous fournir Bitrefill.
 
@@ -30,9 +30,9 @@ Renseignez une adresse email. Si vous souhaitez conserver l'anonymat de votre co
 ![BITREFILL](assets/notext/05.webp)
 Si vous souhaitez découvrir comment créer facilement une boite mail sécurisée et comment gérer vos mots de passe, je vous recommande de consulter ces 2 autres tutoriels :
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ensuite, cliquez sur le bouton "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -52,7 +52,7 @@ Dans la section "*Two factor authentication*", cliquez sur le bouton "*Enable*" 
 ![BITREFILL](assets/notext/13.webp)
 Pour en savoir plus sur comment utiliser l'authentification à deux facteurs pour sécuriser vos comptes en ligne, je vous conseille de découvrir cet autre tutoriel :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Comment acheter une carte-cadeau en BTC sur Bitrefill ?
 
@@ -93,5 +93,5 @@ Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de
 
 Si vous souhaitez contribuer à la popularisation de Bitcoin et encourager un commerçant indépendant à adopter cette méthode de paiement, je vous recommande de consulter notre tutoriel complet sur Swiss Bitcoin Pay. Il s'agit d'une solution tout-en-un pour les processeurs de paiement en BTC, facile à installer et à gérer au quotidien :
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 

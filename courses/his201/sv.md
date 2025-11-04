@@ -32,6 +32,8 @@ Naturligtvis är denna kurs centrerad kring figuren Satoshi Nakamoto, vars ord o
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Välkommen till kursen HIS201!
 
 Den här kursen syftar till att berätta historien om Bitcoin:s skapelse på ett sätt som du aldrig har läst förut. Trots att den är fylld av fascinerande detaljer förbises den ofta. Vi kommer att sträva efter att beskriva den i all sin komplexitet, från Satoshi Nakamotos skapande till hans tidiga försvinnande och överlämnandet till samhället.
@@ -125,6 +127,8 @@ Observera att för den icke-engelska versionen av denna kurs kommer de flesta ci
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 
 Innan vi fördjupar oss i den faktiska historien om Bitcoin:s skapande av Satoshi Nakamoto är det lämpligt att diskutera vad som föregick det. Vi kommer att Address ämnet i tre steg: först kommer vi att introducera begreppet Chaumian digitala kontanter som vanligtvis kallas *eCash*; sedan kommer vi att prata om privata valutor baserade på centraliserade system som e-guld; slutligen kommer vi att beskriva de tekniska modeller som föreställdes innan implementeringen av det robusta distribuerade systemet som är Bitcoin.
 
@@ -179,7 +183,7 @@ Upptäckten av asymmetrisk kryptografi motiverade också skapandet av envägsfun
 
 De grundläggande kryptografiska Elements i Bitcoin härrör från denna forskning. ECDSA-signaturschemat, som gör det möjligt att auktorisera utgifter för en traditionell transaktion, skapades 1992 för NIST. Funktionen SHA-256 Hash, som används på flera ställen i protokollet, publicerades 2001 som en del av algoritmsviten SHA-2 som offentliggjordes av NSA. För mer information om detta ämne, se kursen CYP201 som ges av Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Blinda signaturer och elektroniska kontanter
@@ -288,7 +292,7 @@ Andra alternativa centraliserade system, som e-gold och Liberty Reserve, dök oc
 Sedan inspirerade eCash cypherpunks som utvecklade modeller som b-money, bit gold och RPOW. De lade till Proof of Work och andra Elements som senare hittades i Bitcoin. Vi kommer att studera dessa begrepp i kapitel 3.
 
 
-Slutligen hade David Chaums modell ett betydande inflytande på Satoshi Nakamoto när han utvecklade sitt koncept med valuta. Detta framgår av de många referenserna i [vitboken](assets/pdf/Bitcoin-20090324.pdf) (titeln, beskrivningen av problemet i avsnitt 2, namnet på den PDF som [skickades](https://gwern.net/doc/Bitcoin/2008-nakamoto) till Wei Dai i augusti 2008), samt hans privata och offentliga interventioner. På så sätt är eCash den främsta föregångaren till Bitcoin, även om det inte är den enda.
+Slutligen hade David Chaums modell ett betydande inflytande på Satoshi Nakamoto när han utvecklade sitt koncept med valuta. Detta framgår av de många referenserna i [vitboken](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (titeln, beskrivningen av problemet i avsnitt 2, namnet på den PDF som [skickades](https://gwern.net/doc/Bitcoin/2008-nakamoto) till Wei Dai i augusti 2008), samt hans privata och offentliga interventioner. På så sätt är eCash den främsta föregångaren till Bitcoin, även om det inte är den enda.
 
 
 Satoshi Nakamoto skapade en robust och konfidentiell digital valuta, riktiga elektroniska kontanter, med Bitcoin. På så sätt förverkligade han [prediktionen](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) av Milton Friedman, Nobelpristagare i ekonomi och grundare av Chicagoskolan, som sa i en intervju med National Taxpayers Union Foundation 1999:
@@ -299,6 +303,8 @@ Satoshi Nakamoto skapade en robust och konfidentiell digital valuta, riktiga ele
 ## Privata digitala valutor
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 
 I det föregående kapitlet utforskade vi den första formen av elektroniska kontanter som uppstod i och med internet och modern kryptografi: David Chaums eCash-modell. Denna modell påverkade Satoshi Nakamoto avsevärt och var en viktig milstolpe på vägen som ledde till Bitcoin. Historien om kryptovalutans ursprung slutar dock inte med eCash; den inkluderar också experiment med privata valutor som fungerar på Internet och som utvecklades i slutet av 1990-talet.
@@ -416,6 +422,8 @@ Eftersom centraliserade system är bräckliga försökte frihetsförespråkare, 
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 
 Bitcoin representerar en decentraliserad modell för digital valuta. På så sätt undviker man behovet av en betrodd tredje part, som skulle utgöra en enda felkälla i systemet. Som exemplen eCash, digitala guldvalutor och Liberty Reserve visar leder centralisering av ett system som är tänkt att vara ett alternativ till det befintliga systemet oundvikligen till att det stängs.
 
@@ -471,7 +479,7 @@ Exempel på certifierad tidsstämpling (källa: [Wikimedia](https://en.m.wikiped
 
 Haber och Stornetta förverkligade sin idé genom att publicera kryptografiska fingeravtryck (resultatet av hashning av användbar data) i radannonserna i New York Times 1992. De grundade sedan sitt eget företag, Surety Technologies, 1994 för att helt kunna ägna sig åt denna verksamhet. De är därmed [kända](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain) för att ha skapat den första Timestamp-kedjan, där det tidigare fingeravtrycket togs med i beräkningen av det nya fingeravtryck som skulle publiceras i tidningen, vilket förebådade Bitcoin Blockchain.
 
-Tre artiklar av Haber och Stornetta citerades av Satoshi Nakamoto i [Bitcoin white paper](assets/pdf/Bitcoin-20090324.pdf): den tidigare nämnda artikeln från 1991, en [artikel](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) från 1993 som förbättrade de protokoll som föreslogs i den tidigare artikeln, särskilt genom användning av Merkle-träd, och en [artikel](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) från 1997 som presenterade ett sätt att namnge filer med hjälp av envägsfunktioner universellt. Dessutom citerades ett [paper] (https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) som beskrev ett nytt tidsstämplingssystem och som skrevs 1999 av Henri Massias, Xavier Serret-Avila och Jean-Jacques Quisquater, tre män som arbetade för forskningsgruppen för kryptografi vid Catholic University of Louvain i Belgien.
+Tre artiklar av Haber och Stornetta citerades av Satoshi Nakamoto i [Bitcoin white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): den tidigare nämnda artikeln från 1991, en [artikel](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) från 1993 som förbättrade de protokoll som föreslogs i den tidigare artikeln, särskilt genom användning av Merkle-träd, och en [artikel](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) från 1997 som presenterade ett sätt att namnge filer med hjälp av envägsfunktioner universellt. Dessutom citerades ett [paper] (https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) som beskrev ett nytt tidsstämplingssystem och som skrevs 1999 av Henri Massias, Xavier Serret-Avila och Jean-Jacques Quisquater, tre män som arbetade för forskningsgruppen för kryptografi vid Catholic University of Louvain i Belgien.
 
 ### Proof of Work och Hashcash
 
@@ -624,6 +632,8 @@ Bitcoin utgör därmed kulmen på en strävan efter cybervaluta, en valuta som e
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Efter att ha lärt oss var Bitcoin kom ifrån kommer vi att fokusera på dess historia. Detta har varit föremål för många artiklar, podcasts och videor, så mycket att det nästan har blivit en grundande myt. Som vi har sett är Bitcoin oskiljaktigt från det sammanhang där det skapades; detsamma gäller för de händelser som ägde rum under dess tidiga år, som har format vad det är idag, med sina kvaliteter och brister.
 
@@ -677,7 +687,7 @@ Satoshi avslutar för sin del förberedelserna för att offentliggöra sin uppfi
 ### Offentliggörande av vitboken
 
 
-Den 31 oktober 2008 publicerar Satoshi Nakamoto [den första versionen av vitboken](assets/pdf/Bitcoin-20081003.pdf) på en e-postlista för kryptografi, som helt enkelt kallas "Cryptography mailing list" Listan har skötts av utvecklaren Perry Metzger sedan 1996, då den [skapades](https://cypherpunks.venona.com/date/1996/12/msg00102.html), och har funnits på hans personliga webbplats Metdowd.com sedan [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Det är efterföljaren till cypherpunks-listan, med skillnaden att den är föremål för strikt moderering. Under 2008 deltog fortfarande flera tidigare cypherpunks, såsom John Gilmore, Hal Finney och Len Sassaman.
+Den 31 oktober 2008 publicerar Satoshi Nakamoto [den första versionen av vitboken](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) på en e-postlista för kryptografi, som helt enkelt kallas "Cryptography mailing list" Listan har skötts av utvecklaren Perry Metzger sedan 1996, då den [skapades](https://cypherpunks.venona.com/date/1996/12/msg00102.html), och har funnits på hans personliga webbplats Metdowd.com sedan [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Det är efterföljaren till cypherpunks-listan, med skillnaden att den är föremål för strikt moderering. Under 2008 deltog fortfarande flera tidigare cypherpunks, såsom John Gilmore, Hal Finney och Len Sassaman.
 
 
 I sitt första [email] (https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) till listan skriver Satoshi:
@@ -729,7 +739,7 @@ Bitcoin använder en distribuerad konsensusalgoritm som gör det möjligt för a
 
 Denna konsensusmekanism gör det möjligt att införa alla typer av regler och incitament (för att använda den sista frasen i vitboken) inom systemet. Eftersom Bitcoin utgör en distribuerad tidsstämplingstjänst är det också möjligt att låta dessa regler interagera med tiden. Därav svårighetsjusteringsalgoritmen som spelar in för att reglera produktionen av nya block och tillhörande bitcoins: om antalet block som produceras under en viss period är för högt ökar produktionssvårigheten; i motsatt fall minskar den. Bitcoin skiljer sig alltså från RPOW, där arbetsbevisen utgör kontoenheterna.
 
-Tack vare denna svårighetsjustering kan Bitcoin ha en penningpolitik, vilket innebär att mängden nya enheter som utfärdas av protokollet kan förutbestämmas. Inledningsvis är det planerat att den monetära emissionen ska vara konstant för att uppmuntra producerande noder att bidra med sin datorkraft till nätverket, och det finns inga transaktionsavgifter. Som Satoshi Nakamoto skriver i avsnittet "Incitament" i [vitboken] (assets/pdf/Bitcoin-20081003.pdf):
+Tack vare denna svårighetsjustering kan Bitcoin ha en penningpolitik, vilket innebär att mängden nya enheter som utfärdas av protokollet kan förutbestämmas. Inledningsvis är det planerat att den monetära emissionen ska vara konstant för att uppmuntra producerande noder att bidra med sin datorkraft till nätverket, och det finns inga transaktionsavgifter. Som Satoshi Nakamoto skriver i avsnittet "Incitament" i [vitboken] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 
 > "Det stadiga tillskottet av en konstant mängd nya mynt är analogt med guldgrävare som lägger resurser på att tillföra guld till cirkulationen."
 
@@ -812,6 +822,8 @@ Detta arbete var dock otillräckligt och det krävdes Satoshi:s uthållighet fö
 ## Presentation för världen
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Efter att ha undersökt hur Bitcoin utformades och lanserades av Satoshi Nakamoto, låt oss fokusera på hur det presenterades offentligt. Efter lanseringen i början av 2009 var nätverket i drift. Det fanns dock få genererande noder (Satoshi minade de flesta blocken) och aktiviteten var i stort sett obefintlig (32 faktiska transaktioner ägde rum under januari). Projektet hade bara en enkel webbplats och en SourceForge-sida för nedladdning av programvaran. Dessutom var kommunikationen om Bitcoin begränsad till Metzdowd Cryptography mailing list, som i bästa fall följdes av några hundra personer med passion för kryptografi.
@@ -1049,6 +1061,8 @@ Under hösten 2009 verkade Bitcoin redo att växa. Det var just då som den ekon
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 
 I de föregående kapitlen såg vi hur Satoshi Nakamoto implementerade sin idé och kommunicerade om den för att introducera Bitcoin för världen. Men allt berodde inte på honom: människor behövde också tilldela värde till beräkningsenheten. Eftersom detta möjliggjorde ersättning till gruvarbetare genom transaktionsavgifter och belönade handlare genom naturlig deflation, var en sådan uppskattning avgörande för systemets säkerhet.
 
@@ -1222,6 +1236,8 @@ Denna fråga störde dock aldrig Satoshi, som såg uppstarten av en ny valuta so
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 I den föregående delen utforskade vi hur Bitcoin uppstod, hur det introducerades för allmänheten och hur det initierades ekonomiskt. Under våren 2010, när handeln med Bitcoin började blomstra, var Satoshi Nakamoto och de få personer som stödde honom fast beslutna att hålla lågan vid liv. Lyckligtvis anslöt sig andra individer till ansträngningen, i synnerhet Miner Laszlo Hanyecz och utvecklaren Gavin Andresen, som utmärkte sig för sina handlingar.
 
@@ -1372,6 +1388,8 @@ I slutet av juni hade dock aktiviteten i nätverket förblivit ganska blygsam. D
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 
 I början av sommaren 2010 stod Bitcoin på en skakig grund trots en del uppmuntrande inledande utveckling. Mjukvaran hade få utvecklare förutom Satoshi Nakamoto. Miners var amatörer som arbetade med sina persondatorer. Det fanns ett tjugotal tjänster relaterade till Bitcoin, och faktiska utbyten var lika sällsynta. Saker och ting skulle dock förändras drastiskt under årets andra hälft.
 
@@ -1478,6 +1496,8 @@ Under de följande månaderna blomstrade tekniska, ekonomiska och Mining förbä
 ## De första tekniska frågorna
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Som nämndes i det förra kapitlet orsakade tillströmningen av användare från Slashdot den 11 juli 2010 en enorm våg av intresse för Satoshi Nakamotos projekt. Användningen av nätverket exploderade och Exchange-frekvensen ökade tiofaldigt, liksom den datorkraft som var avsedd för systemet. Således upplevde Bitcoin en oöverträffad tillväxt under sommaren.
@@ -1599,6 +1619,8 @@ Under de följande månaderna uppstod tekniska, ekonomiska och Mining-förbättr
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 I den förra delen studerade vi vilken effekt publiceringen av Bitcoin:s presentation på Slashdot (slashdotting) hade och hur Satoshi och hans medhjälpare hanterade de inledande tekniska problemen. I slutet av sommaren hade projektet ridit ut stormen och var redo att välkomna ett ökande antal personer. Hösten 2010 var således en framgångsrik period för Bitcoin.
 
@@ -1701,6 +1723,8 @@ Hösten var dock inte den enda framgångsrika Mining-metoden. Det var också en 
 ## Ekosystemets uppblomstring
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 I det föregående kapitlet undersökte vi hur Mining utvecklades under andra halvåret 2010. På hösten var denna utveckling väl etablerad. Mining var dock inte den enda aspekten av Bitcoin som var framgångsrik, utan det var dess ekosystem.
@@ -1846,6 +1870,8 @@ Under hösten 2010 förändrades ekosystemet kring Bitcoin avsevärt. Kommunikat
 ## Försvinnandet av Satoshi
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 Vi såg hur Bitcoin tog fart efter att texten publicerats på Slashdot i juli 2010. Med olika framsteg inom mjukvara, Mining och ekonomin under hösten var projektet äntligen på rätt väg. Det är därför denna period sammanföll med Satoshi Nakamotos gradvisa tillbakadragande.
@@ -2015,6 +2041,8 @@ Denna mystiska aspekt kring skaparen av Bitcoin sammanfattades väl av Hal Finne
 ## Gemenskapen tar över
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 
 Efter Satoshi Nakamotos avgång blev det nödvändigt att fortsätta utan honom. Lyckligtvis var Bitcoin ett öppet projekt som vem som helst kunde bidra till, så dess grundares försvinnande var inte dödligt. Som utvecklaren Jeff Garzik skrev i juli 2010 (angående möjligheten av grundarens frånvaro):

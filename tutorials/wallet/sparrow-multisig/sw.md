@@ -48,7 +48,7 @@ Katika somo hili, tutajifunza jinsi ya kuunda na kutumia Wallet ya aina nyingi y
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Masharti
 
@@ -58,7 +58,7 @@ Kwa mafunzo haya, nitakuonyesha jinsi ya kutengeneza Multisig kwa [Programu ya u
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Ili kusanidi Wallet yenye saini nyingi, utahitaji Wallet tofauti za maunzi. Kwa Multisig 2-de-3, kwa mfano, unaweza kutumia :
 
@@ -101,11 +101,11 @@ Kabla ya kusanidi Multisig Wallet yako, hakikisha kwamba kila Hardware Wallet im
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Kama tutakavyoona baadaye katika somo hili, inawezekana pia kujumuisha kwenye usanidi wako wa multisig kipengele ambacho hakihusishwi na hardware wallet, lakini ambacho funguo zake za faragha zimehifadhiwa kwenye kompyuta yako. Njia hii bila shaka si salama kama matumizi ya pekee ya hardware wallet, lakini inaweza kuwa na manufaa katika hali fulani. Kwa mfano, kwa multisig 2-of-3, unaweza kuchagua hardware Wallet mbili za vifaa na software wallet moja.
 
@@ -375,7 +375,7 @@ Kando na kuhifadhi *Descriptor*, usisahau kuzingatia mahususi kuhifadhi vifungu 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Kabla ya kupokea bitcoins zako za kwanza kwenye multisig yako, nakushauri sana kufanya jaribio tupu la urejeshaji. Andika maelezo fulani ya marejeleo, kama vile anwani ya kwanza ya kupokea, kisha weka upya pochi zako za vifaa huku wallet ikiwa bado tupu. Baadaye, jaribu kurejesha multisig wallet yako kwenye pochi za vifaa ukitumia nakala zako za karatasi za maneno ya mnemonic, kisha kwenye Sparrow ukitumia descriptor. Hakikisha kuwa anwani ya kwanza iliyotolewa baada ya urejeshaji inalingana na uliyoandika hapo awali. Ikiwa inalingana, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminikac.
 
@@ -385,7 +385,7 @@ Ili kupata maelezo zaidi kuhusu jinsi ya kufanya jaribio la urejeshi, ninapendek
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Pokea bitcoins kwenye Multisig yako
 
@@ -619,4 +619,4 @@ Ili kwenda mbali zaidi, ninapendekeza kwamba usome mafunzo haya kuhusu mbinu nyi
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

@@ -11,7 +11,7 @@ description: Komplett guide till LNP2PBot och P2P Bitcoin-handel
 KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Att köpa och sälja Bitcoin peer-to-peer (P2P) är en av de mest privata metoderna för att förvärva eller avyttra bitcoins. LNP2PBot är en Telegram-bot med öppen källkod som underlättar P2P-utbyten på Lightning Network, vilket möjliggör snabba, billiga och KYC-fria transaktioner.
 
@@ -71,7 +71,7 @@ Börja med att installera en kompatibel Lightning Wallet. Här är våra detalje
 Nedan finns en länk till handledningen för denna Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Phoenix](https://phoenix.acinq.co)**:**
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Nedan finns en länk till handledningen för denna Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Blixt](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Nedan finns en länk till handledningen för denna Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Viktigt om andra plånböcker**
 

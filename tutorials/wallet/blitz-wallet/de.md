@@ -44,7 +44,7 @@ Hier beginnen wir mit der Erstellung eines neuen Portfolios. Weiter unten finden
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**WICHTIG**: Diese 12 / 24 Wiederherstellungswörter sind für den Zugriff auf Ihre Bitcoins unerlässlich. Wenn Sie sie verlieren, sind Sie nicht mehr berechtigt, Ihre Bitcoins auszugeben.
 
@@ -109,7 +109,7 @@ Eine der Besonderheiten des Blitz Wallet ist, dass er verschiedene Netzwerke und
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Standardmäßig werden alle Ihre Transaktionen über Liquid Network abgewickelt, aber Blitz lässt Sie das Netzwerk festlegen, über das Sie Satoshis empfangen möchten, indem Sie auf die Schaltfläche **Format wählen** klicken.
 
@@ -197,9 +197,9 @@ Zusätzlich zu den Bitcoin-Überweisungen bietet Ihnen Blitz Wallet einen Shop, 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz hinter den Kulissen: Weiter gehen
 
@@ -221,7 +221,7 @@ Dieser Ansatz ist durch den Wunsch gerechtfertigt, den Einstieg zu erleichtern u
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Sie können die Aufschlüsselung Ihres Guthabens im Menü **Einstellungen>Guthabeninfo** einsehen.
 
@@ -269,4 +269,4 @@ Wenn Ihnen dieses Tutorial geholfen hat, sich mit Blitz zurechtzufinden, dann wi
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

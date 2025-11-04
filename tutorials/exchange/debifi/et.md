@@ -132,9 +132,9 @@ Võite kasutada Aqua, Bitcoin ja Liquid Wallet, mis toetab ka USDT stabiilse mü
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 
 
@@ -152,9 +152,9 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 
 
@@ -276,7 +276,7 @@ Turvalisuse tagamiseks palub Debifi teil järgida kolme sammu.
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Pange tähele, et ainult teie registreeritud nutitelefon saab teie konto avada (täiendav turvameede).
 
@@ -640,4 +640,4 @@ Soovitan teil läbida selle kursuse, kus käsitletakse põhjalikult Bitcoin, Sta
 
 
 
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46
+https://planb.academy/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46

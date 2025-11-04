@@ -14,7 +14,7 @@ description: Mwongozo kamili wa kutumia Peach na kubadilishana bitcoins P2P
 Mabadilishano ya bure ya KYC-kwa-rika (P2P) ni muhimu kwa kuhifadhi usiri na uhuru wa kifedha wa watumiaji. Huwezesha miamala ya moja kwa moja kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, ambao ni muhimu kwa wale wanaothamini ufaragha. Kwa ufahamu wa kina zaidi wa dhana za kinadharia, angalia kozi ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Peach ni nini?
 
@@ -47,7 +47,7 @@ Kama ukumbusho, Hash ni data iliyotolewa bila kutambulika, sawa na usimbaji fich
 *Kwa habari zaidi juu ya hashing, unaweza kufuata kozi hii:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Ni nani anayeweza kuona maelezo yangu ya malipo?**
 

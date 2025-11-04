@@ -17,7 +17,7 @@ Bu eğitim videosu, bir miras planı oluşturmak için Tapsigners ile Bitcoin Ke
 
 Bitcoin Keeper Wallet eğitiminin tamamını görmek için buradaki eğitime bakın:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 İlgili diğer bağlantılara buradan göz atın:
 

@@ -8,7 +8,7 @@ description: How to use an awesome tool
 
 To write bold text follow the two examples below: the "Info" and "Note" words would appear in bold
 
-**Info**: I strongly advise you to read all of this markdown file, it contains precious examples about how the markdown is rendered within the Plan ₿ Network platform. While some of the rules are the same of markdown syntax, others aren't.
+**Info**: I strongly advise you to read all of this markdown file, it contains precious examples about how the markdown is rendered within the Plan ₿ Academy platform. While some of the rules are the same of markdown syntax, others aren't.
 
 **Note**: _This sentence appears in italic on the platform_
 
@@ -26,11 +26,11 @@ As you can see, no need of the `"` signs, they will be automatically rendered by
 
 ### Information about explaining words
 
-Whenever you mention a word proper of the bitcoin space, you may decide to further explain it be clearer. Well, this is something encouraged, but please instead of writing yourself such text, if possible mention it from the Plan ₿ Network [Glossary](https://planb.network/en/resources/glossary). For example, let's say you are going to explain the `Ark` term:
+Whenever you mention a word proper of the bitcoin space, you may decide to further explain it be clearer. Well, this is something encouraged, but please instead of writing yourself such text, if possible mention it from the Plan ₿ Academy [Glossary](https://planb.academy/en/resources/glossary). For example, let's say you are going to explain the `Ark` term:
 
-**Example:** ..if you don't know what Ark is, please take a look at the [following definition](https://planb.network/resources/glossary/ark) from the Plan ₿ Network Glossary..
+**Example:** ..if you don't know what Ark is, please take a look at the [following definition](https://planb.academy/resources/glossary/ark) from the Plan ₿ Academy Glossary..
 
-**Note** be sure to remove the `/en` path (or any other language selected) from the link you copy: https://planb.network/en/resources/glossary/ark → becomes → https://planb.network/resources/glossary/ark
+**Note** be sure to remove the `/en` path (or any other language selected) from the link you copy: https://planb.academy/en/resources/glossary/ark → becomes → https://planb.academy/resources/glossary/ark
 
 ## Paragraph Number 2
 
@@ -40,8 +40,8 @@ Some text before an image. Please note how the image paths are written, the imag
 
 Other text after an image.
 
-If you want to mention a Plan ₿ Network tutorial, put the link in this way (remember the empty line, as if it were a paragraph):
+If you want to mention a Plan ₿ Academy tutorial, put the link in this way (remember the empty line, as if it were a paragraph):
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 You will also need to put a new line after, then you can go on writing your text..

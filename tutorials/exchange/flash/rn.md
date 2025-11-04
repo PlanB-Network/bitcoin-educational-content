@@ -110,7 +110,7 @@ Bandanya kwishura, hanyuma winjize Lightning Address yawe kugira ngo wemeze Exch
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Gukora amafaranga kuri Flash bizokutwara iminota 5 gushika kuri 10 kugira ngo ubone amafaranga yawe kuri Lightning Wallet yawe.
 
@@ -202,4 +202,4 @@ Niwaba wasanze iyi nyigisho ifasha mu kumenya neza Flash, turagusavye utuhe uruk
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

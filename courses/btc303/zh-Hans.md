@@ -75,7 +75,7 @@ Bitcoin 不仅仅是一种加密货币，它还体现了关于去中心化、隐
 准备好在 Bitcoin 之旅中迈出下一步了吗？让我们开始吧
 
 
-***注**：如果您在课程中遇到任何与 Bitcoin 相关的陌生术语，请参阅[词汇表](https://planb.network/resources/glossary)以查找定义*。
+***注**：如果您在课程中遇到任何与 Bitcoin 相关的陌生术语，请参阅[词汇表](https://planb.academy/resources/glossary)以查找定义*。
 
 
 
@@ -154,7 +154,7 @@ Bitcoin 中的 Miner 去中心化意味着*交易排序*不是由任何单一实
 这些选项都不利于用户。
 
 
-通过去中心化抵制审查是 Bitcoin 与其他货币系统的不同之处，但由于 Double-spending 的*问题*，要做到这一点并不容易。这个问题就是确保没有人能把同一个硬币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。Satoshi 中本聪在其 [Bitcoin 白皮书](https://planb.network/bitcoin.pdf) 中写道，如何解决 Double-spending 问题：
+通过去中心化抵制审查是 Bitcoin 与其他货币系统的不同之处，但由于 Double-spending 的*问题*，要做到这一点并不容易。这个问题就是确保没有人能把同一个硬币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。Satoshi 中本聪在其 [Bitcoin 白皮书](https://planb.academy/bitcoin.pdf) 中写道，如何解决 Double-spending 问题：
 
 
 > 在本文中，我们针对 Double-spending 问题提出了一种解决方案，即使用点对点分布式 Timestamp 服务器对交易的时间顺序进行 generate 计算证明。
@@ -652,7 +652,7 @@ Bitcoin 的隐私保护功能并不完美。私下交易需要大量的工作。
 文章建议你避免使用需要 KYC/AML 的交易所，而是进行私下交易，或者使用 [bisq](https://bisq.network/) 这样的去中心化交易所。
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 有关对策的更深入阅读，请参阅前面提到的[维基隐私文章](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29)，从 "改善隐私的方法（非 Blockchain）"开始。
 

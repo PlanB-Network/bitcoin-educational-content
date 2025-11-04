@@ -16,7 +16,7 @@ _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannus
 
 Edellisessä oppaassa olimme jo selittäneet menettelyn RoninDojo v1:n asentamiseksi ja käyttämiseksi. Viime vuoden aikana RoninDojon tiimit ovat kuitenkin julkaisseet version 2 heidän toteutuksestaan, mikä merkitsi merkittävää käännekohtaa ohjelmiston arkkitehtuurissa. Todellakin, he siirtyivät pois Linux Manjaro -jakelusta Debianin hyväksi. Tämän seurauksena he eivät enää tarjoa esiasennettua kuvaa automaattiseen asennukseen Raspberry Pi:lle. Mutta on edelleen olemassa menetelmä manuaaliseen asennukseen. Tätä menetelmää käytin oman solmun asentamiseen, ja siitä lähtien RoninDojo v2 on toiminut upeasti Raspberry Pi 4:ssäni. Tarjoan siis uuden oppaan RoninDojo v2:n manuaaliseen asentamiseen Raspberry Pi:lle.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -211,7 +211,7 @@ RoninUI:n kotisivulla sinua pyydetään aloittamaan asetusten määrittäminen. 
 
 ![lets start](assets/notext/25.webp)
 
-Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -330,7 +330,7 @@ Suoritettuasi coinjoineja Whirlpoolin kanssa, on hyödyllistä arvioida tarkasti
 
 Syvemmän ymmärryksen saamiseksi näiden anonsettien laskentamekanismeista suosittelen lukemaan artikkelin: REMIX - WHIRLPOOL, joka yksityiskohtaisesti käsittelee näiden indeksien toimintaa.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

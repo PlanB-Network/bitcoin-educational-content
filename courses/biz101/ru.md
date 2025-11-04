@@ -34,7 +34,7 @@ objectives:
 
 Готовы погрузиться в мир Биткойна для бизнеса? Вперёд!
 
-**Примечание**: Если во время курса вы столкнетесь с незнакомыми терминами, обратитесь к [глоссарию](https://planb.network/resources/glossary) за определениями.
+**Примечание**: Если во время курса вы столкнетесь с незнакомыми терминами, обратитесь к [глоссарию](https://planb.academy/resources/glossary) за определениями.
 
 # Валюта, платежные системы и биткойн
 
@@ -242,7 +242,7 @@ objectives:
 
 Для получения более подробной информации о биткойне, его истории, принципах работы и использовании я также предлагаю ознакомиться с другим полным курсом:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Знакомство с сетью Lightning
 
@@ -324,7 +324,7 @@ Lightning предлагает заглянуть в будущее, где вс
 
 Для получения более подробной информации о технических аспектах работы сети Lightning Network я также предлагаю ознакомиться с другим полным курсом:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Биткойн в казначействе
 
@@ -444,11 +444,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Дополнительная информация по этой теме:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Держать биткойн в казначействе
 
@@ -600,7 +600,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 Это предполагает получение вознаграждения за эксплуатацию горных машин. Для неспециализированных предприятий этот вид деятельности остается относительно незначительным. Вы можете участвовать в проекте через посредников, которые будут продавать или сдавать вам в аренду вычислительную технику, сеть и техническое обслуживание. Если вы владеете машинами, вы можете учитывать их как амортизируемое имущество. В крупных масштабах вам придется тщательно просчитывать окупаемость инвестиций, поскольку рынок высококонкурентный и требует хорошего предвидения затрат, особенно на электроэнергию.
 
-Чтобы узнать больше о методах добычи, вы можете [обратиться к разделу "Добыча" в наших учебниках] (https://planb.network/tutorials/mining).
+Чтобы узнать больше о методах добычи, вы можете [обратиться к разделу "Добыча" в наших учебниках] (https://planb.academy/tutorials/mining).
 
 
 - **Покупка биткойна:**
@@ -609,11 +609,11 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 Чтобы узнать, как открыть бизнес-счет и использовать его для покупки, продажи и перевода биткоинов, вы можете ознакомиться с этими двумя учебными пособиями, разработанными специально для предприятий и охватывающими платформы Kraken и Bitfinex в их корпоративных версиях:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Чтобы узнать больше о способах приобретения биткоинов через биржу или пиринговую сеть, вы можете [обратиться к разделу "Обмен" в наших учебниках](https://planb.network/tutorials/exchange).
+Чтобы узнать больше о способах приобретения биткоинов через биржу или пиринговую сеть, вы можете [обратиться к разделу "Обмен" в наших учебниках](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/ru/012.webp)
 
@@ -872,21 +872,21 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 **Самостоятельные LN-кошельки/узлы:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Опекунские кошельки LN:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Основные
 
@@ -918,15 +918,15 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 Наиболее подходящим гибридным решением для вашего профиля, скорее всего, будет Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Еще одно простое в реализации решение, но с тем недостатком, что оно на 100 % является кастодиальным, - это Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Если вы готовы испачкать руки и хотите полностью контролировать процесс, то программное обеспечение BTCPay Server - отличный вариант. Однако главным недостатком BTCPay Server является то, что его настройка и управление занимают много времени и требуют определенного уровня технических знаний, но вы можете следовать нашим руководствам:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Наконец, в качестве дополнения к физическим торговым точкам вы можете рассмотреть возможность создания [Bitcoinize PoS](https://bitcoinize.com/).
 
@@ -964,7 +964,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 Чтобы углубиться в специфику реализации и изучить практические конфигурации BTC Pay Server, обратитесь к следующему курсу:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Предприятие
 
@@ -1215,7 +1215,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 Для тех, кто самостоятельно хранит свой биткоин, управление UTXO (*Unspent Transaction Outputs*) является важным шагом. Правильная маркировка UTXO помогает отследить происхождение каждого фрагмента BTC, отличить транзакции, связанные с профессиональной деятельностью, от транзакций на личные расходы, а также облегчить отслеживание для юридических или налоговых целей. Большинство хороших программ для работы с биткоин-кошельками позволяют импортировать кошелек с помощью файла резервной копии (или xpub, в зависимости от настроек) и маркировать UTXO в зависимости от их происхождения или назначения. Чтобы помочь вам, вот полное руководство, посвященное этой практике:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Наконец, независимо от того, являетесь ли вы мелким торговцем или более солидным предприятием, вы можете **выставить счет в биткойне**. Главное - правильно задокументировать транзакцию. Если вы платите с собственного кошелька, идеальным вариантом будет создание транзакции с указанием номера счета и назначения платежа в ваших ярлыках. Если вы предпочитаете оплачивать счет через обменник, у вас также будет возможность экспортировать квитанцию или историю транзакций для включения в бухгалтерскую отчетность. Такая прозрачность упростит отслеживание и отчетность по всем вашим операциям с BTC.
 

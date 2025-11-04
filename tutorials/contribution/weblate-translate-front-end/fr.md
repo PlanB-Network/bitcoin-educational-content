@@ -4,7 +4,7 @@ description: Comment participer à la traduction des éléments statiques sur pl
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network a pour mission de fournir des ressources éducatives de premier ordre sur Bitcoin et de les traduire dans le plus grand nombre de langues possible. Une grande partie du contenu publié sur le site est open-source et hébergé sur GitHub, ce qui permet à chacun de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre différentes formes : correction et relecture du contenu existant, mise à jour des informations ou création de nouveaux tutoriels à ajouter sur la plateforme.
+Plan ₿ Academy a pour mission de fournir des ressources éducatives de premier ordre sur Bitcoin et de les traduire dans le plus grand nombre de langues possible. Une grande partie du contenu publié sur le site est open-source et hébergé sur GitHub, ce qui permet à chacun de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre différentes formes : correction et relecture du contenu existant, mise à jour des informations ou création de nouveaux tutoriels à ajouter sur la plateforme.
 
 Dans ce tutoriel, nous allons vous montrer comment contribuer facilement à la traduction des éléments statiques de notre site web. Les données de la plateforme sont divisées en deux catégories principales :
 
@@ -14,22 +14,22 @@ Dans ce tutoriel, nous allons vous montrer comment contribuer facilement à la t
 
 Pour traduire le contenu éducatif, nous utilisons [l'intelligence artificielle] (https://github.com/Asi0Flammeus/LLM-Translator). Ensuite, pour corriger les éventuelles erreurs dans ces fichiers, nous invitons les relecteurs à contribuer. Si vous souhaitez relire certains contenus, consultez le tutoriel suivant :
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 En revanche, si vous souhaitez traduire les éléments statiques du site web (à l'exclusion du contenu éducatif), vous êtes au bon endroit ! Pour traduire efficacement le frontend, nous utilisons l'outil Weblate, qui est très simple à utiliser et facilite l'approche de la traduction.
 
-Si vous souhaitez ajouter une toute nouvelle langue sur Plan ₿ Network, vous pouvez contacter notre équipe via notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si vous n'avez pas de compte Telegram, vous pouvez envoyer un e-mail à mari@planb.network. N'oubliez pas d'écrire une petite présentation sur qui vous êtes et les langues que vous parlez.
+Si vous souhaitez ajouter une toute nouvelle langue sur Plan ₿ Academy, vous pouvez contacter notre équipe via notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si vous n'avez pas de compte Telegram, vous pouvez envoyer un e-mail à mari@planb.network. N'oubliez pas d'écrire une petite présentation sur qui vous êtes et les langues que vous parlez.
 
 Les membres de notre équipe vous donneront des instructions spécifiques et ouvriront les "issues" correspondantes sur Github afin de coordonner votre travail.
 
 Vous pouvez également suivre ce tutoriel spécifique pour ajouter une nouvelle langue sur notre Weblate.
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et passez en revue les points suivants.
 
 ## S'inscrire sur Weblate
 
 
-- Allez sur [le Weblate auto-hébergé de Plan ₿ Network](https://weblate.planb.network/) :
+- Allez sur [le Weblate auto-hébergé de Plan ₿ Academy](https://weblate.planb.network/) :
 
 ![weblate](assets/01.webp)
 
@@ -59,7 +59,7 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 ![weblate](assets/06.webp)
 
 
-- Vous pouvez maintenant retourner sur le tableau de bord de Plan ₿ Network :
+- Vous pouvez maintenant retourner sur le tableau de bord de Plan ₿ Academy :
 
 ![weblate](assets/07.webp)
 
@@ -144,7 +144,7 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 
 
 - Lorsque des mots sont insérés entre des accolades "{", il n'est pas nécessaire de les traduire. Par exemple, dans "Your account has been created, {{userName}} !", vous traduisez toute la phrase, mais vous conservez "userName" en anglais.
-- Lorsque vous trouvez "Plan ₿ Network" dans une chaîne de caractères, assurez-vous de ne PAS traduire le mot "network" (considérez Plan ₿ Network comme une marque déposée). Par ailleurs, utilisez toujours le "₿" barré de Bitcoin !
+- Lorsque vous trouvez "Plan ₿ Academy" dans une chaîne de caractères, assurez-vous de ne PAS traduire le mot "network" (considérez Plan ₿ Academy comme une marque déposée). Par ailleurs, utilisez toujours le "₿" barré de Bitcoin !
 - Si vous trouvez le mot "réseau" seul, vous pouvez le traduire.
 - Ne pas traduire "B-CERT", car il s'agit d'un autre mot fixe.
 - Si vous trouvez des chaînes qui se terminent par un espace, vous pouvez le laisser.
@@ -157,5 +157,5 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 
 ![weblate](assets/23.webp)
 
-Merci d'avance pour votre contribution à la traduction de Plan ₿ Network ! Si vous avez des questions ou des commentaires spécifiques à nous adresser, n'hésitez pas à nous contacter via le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+Merci d'avance pour votre contribution à la traduction de Plan ₿ Academy ! Si vous avez des questions ou des commentaires spécifiques à nous adresser, n'hésitez pas à nous contacter via le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder).
 

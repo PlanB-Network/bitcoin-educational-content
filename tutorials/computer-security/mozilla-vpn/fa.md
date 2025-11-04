@@ -18,7 +18,7 @@ description: از دستگاه‌ها و داده‌های مرور اینترن
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 بر اساس این اصل، [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) یک سرویس VPN متن‌باز است که در سال 2020 توسط بنیاد موزیلا توسعه یافته است. این سرویس در دسترس است بر روی:
 
@@ -191,4 +191,4 @@ Mozilla VPN به شما امکان می‌دهد مکان خود را در دو 
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

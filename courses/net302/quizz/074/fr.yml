@@ -6,4 +6,4 @@ wrong_answers:
   - ARIN
 explanation: |
   L’IANA se trouve au sommet de la hiérarchie d’attribution et délègue les blocs IPv6 aux cinq registres régionaux (RIR).
-reviewed: false
+reviewed: true 

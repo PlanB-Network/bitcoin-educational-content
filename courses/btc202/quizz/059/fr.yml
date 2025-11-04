@@ -6,4 +6,4 @@ wrong_answers:
   - Exposer un serveur Electrum
 explanation: |
   L’exposition du port RPC en clair présente un risque majeur de sécurité. Tor ou VPN sont préférables.
-reviewed: false
+reviewed: true 

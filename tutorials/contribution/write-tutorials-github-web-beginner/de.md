@@ -6,25 +6,25 @@ description: Vollständige Anleitung zum Planen von ₿ Netzwerk-Tutorials mit G
 
 Bevor Sie dieses Tutorial zum Hinzufügen eines neuen Tutorials lesen, müssen Sie einige vorbereitende Schritte durchgeführt haben. Falls Sie dies noch nicht getan haben, sehen Sie sich bitte zuerst dieses einführende Tutorial an und kommen Sie dann hierher zurück:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sie haben bereits:
 
 
 - Wählen Sie ein Thema für Ihr Lernprogramm;
-- Kontaktieren Sie das Plan ₿ Network Team über [Telegram group] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
+- Kontaktieren Sie das Plan ₿ Academy Team über [Telegram group] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
 - Wählen Sie Ihre Beitragstools.
 
-In diesem Tutorial zeigen wir Ihnen, wie Sie Ihr Tutorial mit der Web-Version von GitHub zum Plan ₿ Network hinzufügen. Wenn Sie Git bereits beherrschen, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Stattdessen empfehle ich Ihnen, sich eines der beiden anderen Tutorials anzusehen, in denen ich die zu befolgenden Richtlinien und die Schritte zum Vornehmen von Änderungen von einem lokalen:
+In diesem Tutorial zeigen wir Ihnen, wie Sie Ihr Tutorial mit der Web-Version von GitHub zum Plan ₿ Academy hinzufügen. Wenn Sie Git bereits beherrschen, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Stattdessen empfehle ich Ihnen, sich eines der beiden anderen Tutorials anzusehen, in denen ich die zu befolgenden Richtlinien und die Schritte zum Vornehmen von Änderungen von einem lokalen:
 
 
 - **Erfahrene Benutzer**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Fortgeschrittene (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Voraussetzungen
 
@@ -32,23 +32,23 @@ Voraussetzungen vor Beginn des Tutorials:
 
 
 - Sie haben ein [GitHub-Konto] (https://github.com/signup);
-- Haben Sie einen Fork des [Plan ₿ Network source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Haben Sie [ein Lehrerprofil im Plan ₿ Network] (https://planb.network/professors) (nur wenn Sie ein vollständiges Tutorium anbieten).
+- Haben Sie einen Fork des [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
+- Haben Sie [ein Lehrerprofil im Plan ₿ Academy] (https://planb.academy/professors) (nur wenn Sie ein vollständiges Tutorium anbieten).
 
 Wenn Sie Hilfe brauchen, um diese Voraussetzungen zu schaffen, helfen Ihnen meine anderen Tutorials:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Sobald alles an Ort und Stelle ist und Sie Ihren Fork des Plan ₿ Network Repository haben, können Sie mit dem Hinzufügen des Tutorials beginnen.
+Sobald alles an Ort und Stelle ist und Sie Ihren Fork des Plan ₿ Academy Repository haben, können Sie mit dem Hinzufügen des Tutorials beginnen.
 
 ## 1 - Einen neuen Zweig erstellen
 
-Öffnen Sie Ihren Browser und navigieren Sie zu Ihrer Fork-Seite im Plan ₿ Network Repository. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihrer Abspaltung sollte wie folgt aussehen: `https://github.com/[Ihr-Benutzername]/bitcoin-educational-content`:
+Öffnen Sie Ihren Browser und navigieren Sie zu Ihrer Fork-Seite im Plan ₿ Academy Repository. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihrer Abspaltung sollte wie folgt aussehen: `https://github.com/[Ihr-Benutzername]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,7 +74,7 @@ Ein Zweig in Git stellt eine parallele Version des Projekts dar, die es Ihnen er
 
 Nun, da der Arbeitszweig erstellt wurde, ist es an der Zeit, das neue Tutorial zu integrieren.
 
-Innerhalb Ihrer Verzweigungsdateien müssen Sie den passenden Unterordner für die Platzierung Ihres Tutorials finden. Die Organisation der Ordner spiegelt die verschiedenen Bereiche der Plan ₿ Network Website wider. In unserem Beispiel, da wir ein Tutorial über Green Wallet hinzufügen, gehen Sie zu folgendem Pfad: `bitcoin-educational-content\tutorials\wallet`, was dem Abschnitt `WALLET` auf der Website entspricht:
+Innerhalb Ihrer Verzweigungsdateien müssen Sie den passenden Unterordner für die Platzierung Ihres Tutorials finden. Die Organisation der Ordner spiegelt die verschiedenen Bereiche der Plan ₿ Academy Website wider. In unserem Beispiel, da wir ein Tutorial über Green Wallet hinzufügen, gehen Sie zu folgendem Pfad: `bitcoin-educational-content\tutorials\wallet`, was dem Abschnitt `WALLET` auf der Website entspricht:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -147,11 +147,11 @@ Hier sind die erforderlichen Felder:
 
 - **id**: Ein UUID (_Universally Unique Identifier_), der das Tutorial eindeutig identifiziert. Sie können ihn mit [einem Online-Tool](https://www.uuidgenerator.net/version4) generieren. Die einzige Bedingung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
 
-- **project_id**: Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
+- **project_id**: Die UUID des Unternehmens oder der Organisation hinter dem in dem Tutorial vorgestellten Tool [aus der Projektliste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Software Green Wallet erstellen, können Sie das `project_id` in der folgenden Datei finden: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Diese Information wird zur YAML-Datei Ihres Tutorials hinzugefügt, da Plan ₿ Academy eine Datenbank aller Unternehmen und Organisationen, die auf Bitcoin oder verwandten Projekten arbeiten, unterhält. Durch das Hinzufügen des `project_id` der mit Ihrem Tutorial verbundenen Entität erstellen Sie eine Verbindung zwischen den beiden Elementen;
 
-- **tags**: 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 oder 3 relevante Schlüsselwörter im Zusammenhang mit dem Tutorial-Inhalt, ausschließlich ausgewählt [aus der Liste der Tags von Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Network-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, gemäß der Struktur der Plan ₿ Academy-Website (zum Beispiel für Wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Der Schwierigkeitsgrad des Tutorials, aus folgenden Optionen ausgewählt:
     - `beginner`
@@ -172,7 +172,7 @@ Hier sind die erforderlichen Felder:
 
 Weitere Einzelheiten zu Ihrer Lehrer-ID finden Sie in der entsprechenden Anleitung:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -343,7 +343,7 @@ Das Ausrufezeichen am Anfang weist auf ein Bild hin. Der alternative Text, der d
 
 ![GITHUB](assets/fr/35.webp)
 
-Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafischen Richtlinien des Plan ₿ Network halten, um die visuelle Konsistenz zu gewährleisten:
+Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafischen Richtlinien des Plan ₿ Academy halten, um die visuelle Konsistenz zu gewährleisten:
 
 
 - **Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -352,7 +352,7 @@ Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafi
  - Schwarz: #000000
  - Weiß: #FFFFFF
 
-**Es ist unbedingt erforderlich, dass alle in Ihre Tutorials integrierten Grafiken frei von Urheberrechten sind oder die Lizenz für die Quelldatei respektieren**. Daher werden alle Diagramme, die im Plan ₿ Network veröffentlicht werden, unter einer CC-BY-SA-Lizenz zur Verfügung gestellt, genau wie der Text.
+**Es ist unbedingt erforderlich, dass alle in Ihre Tutorials integrierten Grafiken frei von Urheberrechten sind oder die Lizenz für die Quelldatei respektieren**. Daher werden alle Diagramme, die im Plan ₿ Academy veröffentlicht werden, unter einer CC-BY-SA-Lizenz zur Verfügung gestellt, genau wie der Text.
 
 **-> Tipp:** Wenn Sie Dateien, wie z. B. Bilder, öffentlich zugänglich machen, ist es wichtig, überflüssige Metadaten zu entfernen. Diese können sensible Informationen enthalten, z. B. Standortdaten, Erstellungsdaten und Angaben zum Autor. Um Ihre Privatsphäre zu schützen, ist es eine gute Idee, diese Metadaten zu entfernen. Um diesen Vorgang zu vereinfachen, können Sie spezielle Werkzeuge wie [Exif Cleaner] (https://exifcleaner.com/) verwenden, mit denen Sie die Metadaten eines Dokuments durch einfaches Ziehen und Ablegen bereinigen können.
 
@@ -364,19 +364,19 @@ Um mit dem Pull Request fortzufahren, klicken Sie, nachdem Sie alle Änderungen 
 
 ![GITHUB](assets/fr/36.webp)
 
-Ein Pull Request ist eine Anfrage, um Änderungen aus Ihrem Zweig in den Hauptzweig des Plan ₿ Network Repository zu integrieren, was eine Überprüfung und Diskussion der Änderungen ermöglicht, bevor sie zusammengeführt werden.
+Ein Pull Request ist eine Anfrage, um Änderungen aus Ihrem Zweig in den Hauptzweig des Plan ₿ Academy Repository zu integrieren, was eine Überprüfung und Diskussion der Änderungen ermöglicht, bevor sie zusammengeführt werden.
 
 Bevor Sie fortfahren, vergewissern Sie sich am unteren Rand der Benutzeroberfläche, dass diese Änderungen Ihren Erwartungen entsprechen:
 
 ![GITHUB](assets/fr/37.webp)
 
-Vergewissern Sie sich, dass Ihr Arbeitszweig oben in der Schnittstelle mit dem Zweig `dev` des Plan ₿ Network Repository (dem Hauptzweig) zusammengeführt wird.
+Vergewissern Sie sich, dass Ihr Arbeitszweig oben in der Schnittstelle mit dem Zweig `dev` des Plan ₿ Academy Repository (dem Hauptzweig) zusammengeführt wird.
 
 Geben Sie einen Titel ein, der kurz die Änderungen zusammenfasst, die Sie mit dem Quell-Repository zusammenführen möchten. Fügen Sie einen kurzen Kommentar hinzu, der diese Änderungen beschreibt (wenn Sie eine Ausgabenummer haben, die mit der Erstellung Ihres Tutorials verbunden ist, denken Sie daran, "Schließt #{Ausgabenummer}" als Kommentar zu vermerken), und klicken Sie dann auf die grüne Schaltfläche "*Create pull request*", um die Zusammenführungsanfrage zu bestätigen:
 
 ![GITHUB](assets/fr/38.webp)
 
-Ihr PR wird dann auf der Registerkarte "*Pull Request*" des Plan ₿ Network Repository sichtbar sein. Jetzt müssen Sie nur noch warten, bis ein Administrator Sie kontaktiert, um zu bestätigen, dass Ihr Beitrag zusammengeführt wurde, oder um weitere Änderungen anzufordern.
+Ihr PR wird dann auf der Registerkarte "*Pull Request*" des Plan ₿ Academy Repository sichtbar sein. Jetzt müssen Sie nur noch warten, bis ein Administrator Sie kontaktiert, um zu bestätigen, dass Ihr Beitrag zusammengeführt wurde, oder um weitere Änderungen anzufordern.
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -388,6 +388,6 @@ Wenn Sie Änderungen an Ihrem Beitrag vornehmen möchten, nachdem Sie Ihren PR b
 
 
 - Wenn Ihr PR noch offen ist und noch nicht zusammengeführt wurde, nehmen Sie die Änderungen in demselben Arbeitszweig vor. Die übertragenen Änderungen werden zu Ihrem noch offenen PR hinzugefügt;
-- Falls Ihr PR bereits mit dem Hauptzweig zusammengeführt wurde, müssen Sie den Prozess von Anfang an wiederholen, indem Sie einen neuen Zweig erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr Fork mit dem Plan ₿ Network Source Repository auf dem `dev`-Zweig synchronisiert ist, bevor Sie fortfahren.
+- Falls Ihr PR bereits mit dem Hauptzweig zusammengeführt wurde, müssen Sie den Prozess von Anfang an wiederholen, indem Sie einen neuen Zweig erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr Fork mit dem Plan ₿ Academy Source Repository auf dem `dev`-Zweig synchronisiert ist, bevor Sie fortfahren.
 
 Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!

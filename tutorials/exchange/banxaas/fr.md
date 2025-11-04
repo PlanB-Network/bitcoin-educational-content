@@ -13,11 +13,11 @@ Dans ce tutoriel, nous partons à la découverte de **Banxaas**, une plateforme 
 Banxaas vient du dialecte sénégalais (Wolof) qui signifie une branche. Idéologiquement, nous pouvons voir Banxaas comme une branche qui relie les sénégalais à l'utilisation de Bitcoin. Une branche sur laquelle vous pouvez vous reposer pour protéger vos épargnes de l'inflation, de la censure. Développé par une startup sénégalaise (Yité Technologies), [Banxaas](https://banxaas.com) propose un service d'échange instantané entre bitcoin et le Franc CFA (XOF) vice-versa grâce à la puissance de Lightning Network. Banxaas vient avec une approche peu commune des plateformes d'échanges de la sous région ouest Africaine.
 - Banxaas est une plateforme non-custodial : Vous n'avez pas besoin de créer un compte ni de posséder un portefeuille sur la plateforme. Vous restez maître de votre argent et renforcez votre anonymat.
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 - Une comptabilité transparente : Banxaas prône la transparence tout en renforçant l'anonymat des transactions financières.
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Faire ses premiers échanges avec Banxaas
 
@@ -42,9 +42,9 @@ Banxaas couvre l'ensemble du territoire Sénégalais avec deux opérateurs mobil
 
 Lorsque vous initiez une conversion de franc CFA vers bitcoin, vous ajouterai dans le champ de destination votre adresse Lightning ou une facture sans montant créée depuis votre portefeuille Lightning.
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 Banxaas vous permet de vérifier l'exactitude de votre adresse de réception bitcoin en cliquant sur le bouton **Valider la destination**.
 
@@ -90,4 +90,4 @@ Vous avez désormais la prise en main de la plateforme Banxaas pour échanger vo
 
 Découvrez également notre tutoriel sur Peach, une plateforme d'échanges pair-à-pair qui vous permet aussi d'acheter et de vendre des bitcoins sans compromettre votre confidentialité.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

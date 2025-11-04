@@ -38,7 +38,7 @@ Mchoro hapa chini unaonyesha utendakazi wa Wallet na njia mbili za matumizi:
 Hatua hii hukuruhusu kusanidi usanidi anuwai, pamoja na:
 
 
-- Mpango wa urithi (au kurithi), unaowawezesha warithi kurejesha fedha katika tukio la kifo cha mtumiaji. Kwa maelezo zaidi kuhusu somo hili, tunapendekeza usome [sehemu ya 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a20901) kozi ya BTC318.
+- Mpango wa urithi (au kurithi), unaowawezesha warithi kurejesha fedha katika tukio la kifo cha mtumiaji. Kwa maelezo zaidi kuhusu somo hili, tunapendekeza usome [sehemu ya 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a20901) kozi ya BTC318.
 - Hifadhi rudufu iliyoimarishwa na muda wa kurejesha, ikimpa mtumiaji uwezekano wa kutumia Wallet yake bila kulazimika kuweka maneno ya siri yanayolingana na kuhatarisha kuibiwa, wakati wa wizi kwa mfano.
 - Wavu ya usalama kwa watu wanaoanza na Bitcoin: watasimamia Wallet yao wenyewe, na "mlezi" wao (jamaa, kwa mfano) atahifadhi haki ya kurejesha pesa zao baada ya kipindi fulani.
 - Mpango wa sahihi wa vyama vingi (*Multisig*) na mahitaji yaliyopunguzwa kwa wakati, ili kukabiliana na kutoweka kwa mshiriki mmoja au zaidi, kama vile washirika wa kampuni.
@@ -62,13 +62,13 @@ Katika somo hili, tutaweka mpango wa urithi. Tutatumia:
 - Ledger Nano S Plus, kwa gharama za kila siku;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - Jade ya Blockstream, iliyotumika kurejesha fedha;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Vyombo vya habari viwili vya kuhifadhi (vijiti vya USB) kuhifadhi maelezo ya Wallet;
@@ -88,7 +88,7 @@ Tembelea tovuti rasmi ya Wizardsardine na upakue Liana katika https://wizardsard
 Ili kujua jinsi ya kuthibitisha wewe mwenyewe uhalisi na uadilifu wa programu kabla ya kusakinisha, tunapendekeza usome mafunzo haya :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sakinisha programu kwenye mashine yako na uzindue. Chagua chaguo la "*Unda mpya Liana Wallet*" ili kusanidi Wallet yako.
 
@@ -277,7 +277,7 @@ Unaweza kuangalia hali ya mwisho wa matumizi ya pesa zako kwa kwenda kwenye kich
 Ili kuelewa vyema muundo wa uwakilishi wa UTXO unaotumika katika Bitcoin, unaweza kushauriana na sehemu ya kwanza ya kozi ya usiri katika Bitcoin iliyoandikwa na Loïc Morel :
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Matumizi ya sasa
 
@@ -477,7 +477,7 @@ Maandishi yaliyoundwa na Wallet hii yatachukua fomu ifuatayo:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Kwa kuwa usalama wa Bitcoin Wallet yako pia unategemea uelewa wako wa jinsi inavyofanya kazi, ninapendekeza usome taratibu za wallet za kuamua na za viwango vya juu kwa kuchukua kozi hii ya mafunzo bila malipo kwenye Plan ₿ Network :
+Kwa kuwa usalama wa Bitcoin Wallet yako pia unategemea uelewa wako wa jinsi inavyofanya kazi, ninapendekeza usome taratibu za wallet za kuamua na za viwango vya juu kwa kuchukua kozi hii ya mafunzo bila malipo kwenye Plan ₿ Academy :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

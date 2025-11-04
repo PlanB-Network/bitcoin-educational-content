@@ -6,7 +6,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 소개
+## 소개
 
 
 
@@ -18,7 +18,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### BMM 100 개요
+## BMM 100 개요
 
 
 
@@ -46,7 +46,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 미니 Miner 연결하기
+## 미니 Miner 연결하기
 
 
 
@@ -54,7 +54,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 구성
+## 구성
 
 
 
@@ -74,7 +74,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 일반 설정
+## 일반 설정
 
 
 
@@ -110,7 +110,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### Mining pool에 연결
+## Mining pool에 연결
 
 
 
@@ -134,15 +134,15 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 두 번째 옵션은 공용 풀과 같이 미나가 혼자 있는 Mining pool에 연결하는 것으로, 이 가이드에 따라 연결할 수 있습니다:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### 브라인즈 풀
+### 브라인즈 풀
 
 
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 이 작업이 완료되면 브라이인스 풀 대시보드에 표시됩니다. 풀에 마이너 중 한 명과 연결하고 싶다고 말하면 화면 왼쪽에 여러 항목이 표시됩니다. "작업자"로 이동해야 합니다
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-미니 Miner를 풀에 연결하는 데 필요한 정보가 담긴 창이 나타납니다. 여기서 우리가 할 수 있는 유일한 변경은 Stratum V2를 선택하는 것입니다. Stratum v2가 무엇인지 알아보려면 [용어집](https://planb.network/en/resources/glossary/stratum-v2)에서 이 항목을 참조하세요.
+미니 Miner를 풀에 연결하는 데 필요한 정보가 담긴 창이 나타납니다. 여기서 우리가 할 수 있는 유일한 변경은 Stratum V2를 선택하는 것입니다. Stratum v2가 무엇인지 알아보려면 [용어집](https://planb.academy/en/resources/glossary/stratum-v2)에서 이 항목을 참조하세요.
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### 공용 풀
+### 공용 풀
 
 
 

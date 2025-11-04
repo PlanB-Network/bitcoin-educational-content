@@ -6,4 +6,4 @@ wrong_answers:
   - /24
 explanation: |
   L’IANA divise l’espace IPv4 en blocs de taille /8, soit 2^24 adresses par bloc.
-reviewed: false
+reviewed: true 

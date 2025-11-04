@@ -289,9 +289,9 @@ Hvis det er nødvendig, kan du se veiledningene nedenfor for å gjøre deg kjent
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Eksport Wallet Multisig 2-sur-3 til Sparrow wallet
 
@@ -464,7 +464,7 @@ Ingen problemer denne gangen, ingen advarsel vises, og når vi importerer den si
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Web 2FA og hvitelistede adresser
 
@@ -506,11 +506,11 @@ Med denne funksjonen kan du bruke et TOTP RFC-6238-kompatibelt program, for ekse
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Helt konkret må du, før du signerer en transaksjon, bringe den NFC-aktiverte, internettilkoblede enheten din i nærheten av Coldcard. Da kommer du automatisk til en nettside på coldcard.com, der du blir bedt om å taste inn den sekssifrede koden for søknaden din. Hvis du skriver inn riktig kode, vil nettsiden vise deg enten en QR-kode som du kan skanne for ColdCardQ, eller en 8-sifret kode som du kan skrive inn på Mk4-enheten din for å autorisere enheten din til å signere.
 

@@ -51,7 +51,7 @@ Lightning Network'in nasıl çalıştığına dair daha fazla ayrıntı için ö
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### İş modeli
 
@@ -149,7 +149,7 @@ Bu eksiksiz Wallet hakkında daha fazla bilgi edinmek için Zeus eğitimimize ba
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Web yapılandırması
 

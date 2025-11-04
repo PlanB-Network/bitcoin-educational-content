@@ -36,7 +36,7 @@ Multisig is particularly suited to bitcoiners looking for enhanced security or c
 In this tutorial, we'll learn how to create and use a classic multisignature wallet with **Sparrow Wallet**. If you'd like to create a customized multisignature wallet with timelocks, I recommend using Liana instead:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 For this tutorial, I'm going to show you how to make a Multisig with [Sparrow Wallet wallet management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 To set up a multi-signature wallet, you'll need different hardware wallets. For a Multisig 2-de-3, for example, you could use :
 
@@ -75,11 +75,11 @@ It's a good idea to use different makes of Hardware Wallet in your Multisig conf
 Before configuring your Multisig wallet, make sure that each Hardware Wallet is correctly configured (mnemonic generation and saving, PIN definition). For detailed instructions, you can consult our tutorials for each Hardware Wallet, for example :
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 As we'll see later in this tutorial, it's also possible to integrate into your Multisig configuration a factor which is not associated with a Hardware Wallet, but whose private keys are stored on your PC. This method is obviously less secure than the exclusive use of hardware wallets, but it may be relevant in certain cases. For example, for a Multisig 2-de-3, you could opt for two hardware wallets and one Software Wallet.
 
@@ -282,7 +282,7 @@ Your Multisig is now correctly saved in your Coldcard. If you have several Coldc
 In addition to saving the *Descriptor*, don't forget to pay particular attention to saving the mnemonic phrases for each of your signature devices. If you're just starting out, I highly recommend that you consult this other tutorial to learn how to save and manage them correctly:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Before receiving your first bitcoins on your Multisig, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as the first receiving address, then reset your hardware wallets while the wallet is still empty. Next, try restoring your Multisig wallet on the Hardware Wallets using your mnemonic phrase paper backups, then on Sparrow using the *Descriptor*. Check that the first address generated after restoration matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable.
 
@@ -290,7 +290,7 @@ Before receiving your first bitcoins on your Multisig, **I strongly advise you t
 To learn more about how to perform a recovery test, I suggest you consult this other tutorial:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Receive bitcoins on your Multisig
 
@@ -466,4 +466,4 @@ Congratulations, you now know how to set up and use a multisignature wallet on S
 To go further, I recommend that you consult this tutorial on another method for increasing the security of your Bitcoin wallet, the passphrase BIP39 :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

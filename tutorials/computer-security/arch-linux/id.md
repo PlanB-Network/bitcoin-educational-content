@@ -506,6 +506,6 @@ Arch Linux menonjol karena stabilitas yang luar biasa, filosofi minimalis, dan k
 
 Jika Anda menikmati pengalaman memulai dengan Arch Linux, Anda akan menyukai tutorial kami tentang **Fedora OS**, sebuah sistem operasi modular, aman, dan tangguh yang beradaptasi dengan kebutuhan dan penggunaan Anda.
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

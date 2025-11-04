@@ -185,7 +185,7 @@ Ennen kuin käytät tätä sähköpostia kirjautumispalveluun, voit testata sen 
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Jos haluat poistaa testinä luodun aliaksen, sinun tarvitsee vain kirjautua sisään `Kotiin`, sitten `Luottotiedot` ja napsauttaa identiteettiä, jonka haluat poistaa. Oikeaan yläkulmaan ilmestyy _Poista_-komento, jonka jälkeen voit jatkaa.
 

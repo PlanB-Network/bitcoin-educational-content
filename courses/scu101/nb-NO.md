@@ -30,6 +30,8 @@ Théo; bidrag
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Mål: Oppdater dine sikkerhetsferdigheter!**
 
 Velkommen til dette introduksjonskurset i digital sikkerhet. Denne opplæringen er designet for å være tilgjengelig for alle, så forkunnskaper i datavitenskap er ikke nødvendig. Vårt hovedmål er å gi dere kunnskapen og ferdighetene som er nødvendige for å navigere i den digitale verden på en tryggere og mer privat måte.
@@ -40,7 +42,7 @@ Denne opplæringen er et samarbeid mellom tre av våre professorer:
 
 - Renaud Lifchitz, ekspert på cybersikkerhet
 - Théo Pantamis, PhD i anvendt matematikk
-- Rogzy, Medgründer av Plan ₿ Network
+- Rogzy, Medgründer av Plan ₿ Academy
 
 Din digitale hygiene er avgjørende i en stadig mer digital verden. Til tross for den konstante økningen i hacking og masseovervåkning, er det ikke for sent å ta det første steget og beskytte deg selv.
 I denne opplæringen prøver vi ikke å gjøre deg til en ekspert, anonym eller usårbar, da dette er umulig. I stedet tilbyr vi deg noen enkle og tilgjengelige løsninger for å starte transformasjonen av dine nettvaner og gjenvinne kontrollen over din digitale suverenitet.
@@ -85,6 +87,8 @@ KEr du klar til å styrke din digitale sikkerhet og ta tilbake kontrollen over d
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Når du surfer på internett, er det viktig å unngå visse vanlige feil for å bevare nettsikkerheten din. Her er noen tips for å unngå dem:
 
 ### Vær forsiktig med nedlastinger av programvare:
@@ -123,11 +127,13 @@ TOR er lovlig og brukes av journalister, frihetsaktivister og andre som ønsker 
 
 ![image](assets/nb-NO/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN og internettforbindelse
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN-er
 
@@ -147,9 +153,9 @@ Det er to hovedtyper av VPN-er: bedrifts-VPN-er og forbruker-VPN-er, som NordVPN
 
 VPN kan også brukes til å blokkere nettannonser, noe som gir en mer behagelig og sikker nettsurfingsopplevelse. Det er imidlertid viktig å gjøre din egne undersøkelser for å finne den VPN-en som passer dine spesifikke behov best. Å bruke en VPN anbefales for å forbedre sikkerheten, selv når du surfer på internett hjemme. Dette bidrar til å sikre et høyere sikkerhetsnivå for utvekslet data online. Til slutt, sørg for å sjekke URL-ene og det lille hengelåsikonet i adresselinjen for å bekrefte at du er på det nettstedet du har til hensikt å besøke.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & offentlige Wi-Fi-nettverk
 
@@ -170,6 +176,8 @@ Oppsummert kan bruk av VPN i stor grad forbedre online sikkerhet, både for bedr
 ## Datamaskinbruk
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Sikkerheten til våre datamaskiner er en stor bekymring i dagens digitale verden. I dag vil vi ta for oss tre nøkkelpunkter:
 
@@ -221,6 +229,8 @@ For å konkludere så er det essensielt å velge et operativsystem som passer di
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Hvordan angriper hackere?
 
 For å beskytte deg godt, er det essensielt å forstå hvordan hackere forsøker å infiltrere datamaskinen din. Viruser dukker ikke opp på magisk vis, men er heller konsekvensene av våre handlinger, selv utilsiktet!
@@ -257,9 +267,9 @@ NEI, det anbefales generelt ikke å betale hackere i tilfelle løsepengevirus el
 
 Hvis du oppdager et virus på datamaskinen din, koble den fra internett, utfør en fullstendig antivirus-skanning, og slett infiserte filer. Deretter, oppdater programvaren og operativsystemet ditt, og endre passordene dine for å forhindre ytterligere inntrengninger.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementering av løsninger.
 
@@ -268,6 +278,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Håndtering av e-postkontoer
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Opprette en ny e-postkonto!
 
@@ -297,11 +309,13 @@ Generelt er det å begynne å bruke en ny, sikrere e-postadresse ikke en dårlig
 
 Bonus Bitcoin: Det kan være lurt å opprette en spesifikk e-postadresse for dine Bitcoin-aktiviteter (opprette børs-kontoer) for å virkelig skille disse av livets aktiviteter med resten av livet.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Passordbehandler
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Hva er en passordbehandler?
 
@@ -343,13 +357,15 @@ For å lage et sterkt passord, anbefales det å bruke et stort antall tilfeldige
 
 Tilfeldig genererte passord tilbyr et høyere nivå av sikkerhet, selv om de kan være vanskeligere å huske. Passordbehandlere kan generere mer sikre tilfeldige passord. Ved å bruke en passordbehandler, trenger du ikke å huske alle passordene dine. Det er viktig å gradvis erstatte dine gamle passord med de som er generert av behandleren, da de er sterkere og lengre. Sørg for at hovedpassordet til passordbehandleren din også er sterkt og sikkert.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## To-Faktor Autentisering (2FA)
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Hvorfor implementere 2FA
 
@@ -394,9 +410,9 @@ Fortsett å lære og gradvis implementer gode vaner!
 
 En gylden regel: Nettsikkerhet er et bevegelig mål som vil tilpasse seg din læringsreise!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktisk del
 
@@ -408,7 +424,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Å beskytte e-postkontoen din er et viktig skritt for å sikre dine nettaktiviteter og beskytte dine personlige data. Denne veiledningen vil lede deg, steg for steg, i å opprette og sette opp en ProtonMail-konto, en leverandør kjent for sitt høye sikkerhetsnivå som tilbyr ende-til-ende-kryptering av dine kommunikasjoner. Enten du er en nybegynner eller en erfaren bruker, vil de stegene som presenteres her hjelpe deg med å styrke sikkerheten til din e-post, samtidig som du tar fordel av ProtonMails avanserte funksjoner:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Sikre med 2FA
 
@@ -416,10 +432,10 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Tofaktorautentisering (2FA) har blitt essensielt for å sikre dine nettbaserte kontoer. I denne veiledningen vil du lære hvordan du setter opp og bruker 2FA-appen Authy, som genererer dynamiske 6-sifrede koder for å beskytte kontoene dine. Authy er veldig enkel å bruke og synkroniseres på tvers av flere enheter. Oppdag hvordan du installerer og konfigurerer Authy, og dermed styrker sikkerheten til dine nettbaserte kontoer nå:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 En annen mulighet er å bruke en fysisk sikkerhetsnøkkel. Denne tilleggsveiledningen viser deg hvordan du setter opp og bruker en sikkerhetsnøkkel som en sekundær autentiseringsfaktor:
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Opprette en passordbehandler
 
@@ -429,11 +445,11 @@ Passordhåndtering er en utfordring i den digitale tidsalderen. Vi har alle mang
 
 I denne veiledningen lærer du hvordan du setter opp Bitwarden, en åpen kildekode passordbehandler, og hvordan du synkroniserer påloggingsinformasjonen din på tvers av alle enhetene dine for å forenkle den daglige bruken:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 For mer avanserte brukere tilbyr jeg også en veiledning for en annen gratis og åpen kildekode programvare for å bruke lokalt til håndtering av passordene dine:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Sikre kontoene dine
 
@@ -441,9 +457,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 I disse to veiledningene guider jeg deg også i å sikre dine nettkontoer og forklarer hvordan du gradvis kan adoptere sikrere vaner for å håndtere passordene dine på daglig basis.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Oppsett av sikkerhetskopi
 
@@ -451,11 +467,11 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Beskyttelse av dine personlige filer er også et kritisk punkt. Denne veiledningen viser deg hvordan du implementerer en effektiv sikkerhetskopieringsstrategi ved bruk av Proton Drive. Oppdag hvordan du bruker denne sikre sky-løsningen for å anvende 3-2-1 metoden: tre kopier av dataene dine på to forskjellige medier, med en kopi offsite. Dette sikrer tilgjengeligheten og sikkerheten til dine sensitive filer:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Og for å sikre filene dine som er lagret på flyttbare medier som en USB-stasjon eller ekstern harddisk, viser jeg deg også hvordan du enkelt kan kryptere og dekryptere disse mediene ved bruk av VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Bytte av nettleser & VPN
 
@@ -465,13 +481,13 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 Jeg foreslår å oppdage to pålitelige VPN-løsninger som kan betales i Bitcoin, nemlig IVPN og Mullvad. Disse veiledningene viser deg på hvordan du installerer, konfigurerer og bruker Mullvad eller IVPN på alle enhetene dine:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lær også hvordan du bruker Tor Browser, en nettleser spesielt designet for å beskytte ditt privatliv på nett:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Gå videre
 
@@ -480,6 +496,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 ## Hvordan jobbe i cybersikkerhetsindustrien
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### Cybersikkerhet: Et voksende felt med uendelige muligheter
 
@@ -518,6 +536,8 @@ Ved å mestre disse ferdighetene og verktøyene, vil du være godt rustet til å
 ## Intervju med Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Effektiv passordhåndtering og styrking av autentisering: En akademisk tilnærming
 

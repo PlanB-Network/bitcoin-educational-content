@@ -86,7 +86,7 @@ Dosyayı indirdikten sonra, diğer yazılımları yüklediğiniz gibi yükleyin.
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonix'i içe aktarma
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Elektrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix bir işletim sisteminden daha fazlasıdır: anonimliğinizi, gizliliğinizi ve hassas faaliyetlerinizi korumak için tasarlanmış gerçek bir **güvenli ortamdır**. Tor tabanlı mimarisi, Ağ Geçidi ve İş İstasyonu arasındaki akıllı bölümleme ve Tor Browser, KeePassXC ve Electrum gibi önceden yüklenmiş araçlar sayesinde, **anonim olarak gezinmek**, **güvenli çalışmak** veya **gizli verileri işlemek** isteyen herkes için anahtar teslimi bir çözüm sunar.
 
@@ -244,4 +244,4 @@ Unix sisteminizde güvenliğinizi güçlendirmek için makinenizi denetleme eği
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

@@ -98,7 +98,7 @@ Nunchuk 會識別您的 Portal。然後按一下「*繼續*」。
 如需更多關於儲存和管理 Mnemonic 詞組正確方法的資訊，我強烈建議您參考這篇教學，尤其是對於初學者而言：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **_當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。_**
 
@@ -340,4 +340,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 要瞭解更多資訊，請參閱我們關於 HD 錢包如何運作的完整訓練課程：
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -172,7 +172,7 @@ Namun, metode ini memiliki dua kelemahan yang mencolok:
 - Coinjoin hanya akan terjadi ketika Samourai berjalan di latar belakang dan terhubung. Ini berarti jika Anda ingin mencampur dan mencampur ulang bitcoin Anda 24/7, Anda harus terus menjaga Samourai tetap aktif;
 - Jika Anda menggunakan Whirlpool dengan Samourai Wallet tanpa berhati-hati untuk menghubungkan Dojo Anda sendiri, maka aplikasi Anda harus terhubung ke server yang dipelihara oleh tim Samourai, dan Anda akan mengungkapkan `xpub` dari dompet Anda kepada mereka. Informasi anonim ini diperlukan agar aplikasi Anda dapat menemukan transaksi Anda.
 
-Solusi ideal untuk mengatasi keterbatasan ini adalah mengoperasikan Dojo Anda sendiri yang terkait dengan instansi Whirlpool CLI di node Bitcoin pribadi Anda. Dengan cara ini, Anda akan menghindari kebocoran informasi dan mencapai kemandirian penuh. Meskipun tutorial yang disajikan di bawah ini berguna untuk tujuan tertentu atau untuk pemula, untuk benar-benar mengoptimalkan sesi coinjoin Anda, menggunakan Dojo Anda sendiri disarankan. Panduan terperinci tentang pengaturan konfigurasi ini akan segera tersedia di PlanB Network.
+Solusi ideal untuk mengatasi keterbatasan ini adalah mengoperasikan Dojo Anda sendiri yang terkait dengan instansi Whirlpool CLI di node Bitcoin pribadi Anda. Dengan cara ini, Anda akan menghindari kebocoran informasi dan mencapai kemandirian penuh. Meskipun tutorial yang disajikan di bawah ini berguna untuk tujuan tertentu atau untuk pemula, untuk benar-benar mengoptimalkan sesi coinjoin Anda, menggunakan Dojo Anda sendiri disarankan. Panduan terperinci tentang pengaturan konfigurasi ini akan segera tersedia di Plan ₿ Academy.
 
 ### Menginstal Samourai Wallet
 Untuk memulai, Anda tentu saja akan memerlukan aplikasi Samourai Wallet. Anda dapat mengunduhnya langsung dari situs web resmi menggunakan APK, dari GitLab mereka, atau dari Google Play Store.
@@ -301,7 +301,7 @@ Setelah `Tx0` dikonfirmasi, UTXO Anda akan secara otomatis terdaftar dengan koor
 
 ![samourai](assets/notext/34.webp)
 
-Dengan memeriksa tab `Remixing`, yang sesuai dengan akun **Postmix**, Anda akan melihat UTXO hasil dari pencampuran awal. Koin-koin ini akan tetap siap untuk pencampuran ulang, yang tidak akan menimbulkan biaya tambahan. Saya merekomendasikan untuk membaca artikel lain ini untuk mempelajari lebih lanjut tentang proses remixing dan efisiensi dari siklus coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
+Dengan memeriksa tab `Remixing`, yang sesuai dengan akun **Postmix**, Anda akan melihat UTXO hasil dari pencampuran awal. Koin-koin ini akan tetap siap untuk pencampuran ulang, yang tidak akan menimbulkan biaya tambahan. Saya merekomendasikan untuk membaca artikel lain ini untuk mempelajari lebih lanjut tentang proses remixing dan efisiensi dari siklus coinjoin: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
 
 ![samourai](assets/notext/35.webp)
 
@@ -338,7 +338,7 @@ Masukkan informasi yang diperlukan untuk transaksi pengeluaran Anda, kemudian kl
 
 ![samourai](assets/notext/43.webp)
 Pada langkah selanjutnya, Anda memiliki opsi untuk mengubah tarif biaya yang terkait dengan transaksi Anda. Anda juga dapat mengaktifkan opsi Stonewall dengan menandai kotak yang sesuai. Jika opsi Stonewall tidak dapat dipilih, itu berarti akun **Postmix** Anda tidak memiliki UTXO dengan ukuran yang cukup untuk mendukung struktur transaksi tertentu ini.
-[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Jika semuanya sesuai dengan kepuasan Anda, klik tombol hijau `KIRIM ... BTC`.
 
@@ -370,7 +370,7 @@ Whirlpool akan secara otomatis tertutup. Tunggu sampai Samourai selesai memuat, 
 Pastikan SCODE Anda telah terdaftar dengan benar dengan mengklik sekali lagi pada tiga titik kecil, kemudian memilih `SCODE (kode promo) Whirlpool`. Jika semuanya sudah beres, Anda siap untuk memulai siklus Whirlpool baru dengan diskon pada biaya layanan. Penting untuk dicatat bahwa SCODE ini bersifat sementara: mereka tetap valid selama beberapa hari sebelum menjadi usang.
 
 ## Bagaimana mengetahui kualitas siklus coinjoin kami?
-Agar coinjoin benar-benar efektif, sangat penting bahwa ia menunjukkan keseragaman yang baik antara jumlah input dan output. Keseragaman ini memperkuat jumlah interpretasi yang mungkin di mata pengamat eksternal, sehingga meningkatkan ketidakpastian seputar transaksi. Untuk mengkuantifikasi ketidakpastian yang dihasilkan oleh coinjoin, seseorang dapat menggunakan perhitungan entropi transaksi. Untuk eksplorasi mendalam tentang indikator-indikator ini, saya merujuk Anda ke tutorial: [KALKULATOR BOLTZMANN](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool diakui sebagai salah satu yang membawa homogenitas terbanyak ke coinjoins.
+Agar coinjoin benar-benar efektif, sangat penting bahwa ia menunjukkan keseragaman yang baik antara jumlah input dan output. Keseragaman ini memperkuat jumlah interpretasi yang mungkin di mata pengamat eksternal, sehingga meningkatkan ketidakpastian seputar transaksi. Untuk mengkuantifikasi ketidakpastian yang dihasilkan oleh coinjoin, seseorang dapat menggunakan perhitungan entropi transaksi. Untuk eksplorasi mendalam tentang indikator-indikator ini, saya merujuk Anda ke tutorial: [KALKULATOR BOLTZMANN](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool diakui sebagai salah satu yang membawa homogenitas terbanyak ke coinjoins.
 Selanjutnya, kinerja dari beberapa siklus coinjoin dievaluasi berdasarkan sejauh mana kelompok-kelompok di mana sebuah koin disembunyikan. Ukuran dari kelompok-kelompok ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh melawan analisis retrospektif (dari masa sekarang ke masa lalu) dan yang kedua, melawan analisis prospektif (dari masa lalu ke masa sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk berkonsultasi dengan tutorial: WHIRLPOOL STATS TOOLS - ANONSETS.
 
 ## Bagaimana cara mengelola postmix?
@@ -396,7 +396,7 @@ Selanjutnya, Anda harus berhati-hati dalam mengelola perubahan doxxic, perubahan
 - **Konsolidasikan pada Monero:** Samourai Wallet kini menawarkan layanan pertukaran atomik antara BTC dan XMR. Ini ideal untuk mengelola UTXO beracun dengan mengkonsolidasikannya pada Monero, tanpa mengompromikan privasi Anda melalui KYC, sebelum mengirimkannya kembali ke Bitcoin. Namun, opsi ini bisa mahal dalam hal biaya penambangan dan premi karena kendala likuiditas;
 - **Kirimkan ke Lightning Network:** Memindahkan UTXO ini ke Lightning Network untuk mendapatkan keuntungan dari biaya transaksi yang lebih rendah adalah opsi yang bisa menarik. Namun, metode ini mungkin mengungkapkan informasi tertentu tergantung pada penggunaan Lightning Anda dan oleh karena itu harus dilakukan dengan hati-hati.
 
-Tutorial terperinci tentang penerapan teknik-teknik berbeda ini akan segera ditawarkan di PlanB Network.
+Tutorial terperinci tentang penerapan teknik-teknik berbeda ini akan segera ditawarkan di Plan ₿ Academy.
 
 **Sumber daya tambahan:**
 - [Tutorial video Samourai Wallet]();

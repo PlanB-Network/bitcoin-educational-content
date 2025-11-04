@@ -30,6 +30,8 @@ Théo; đóng góp
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!**
 
 Chào mừng mọi người đến với chương trình đào tạo được thiết kế riêng cho bảo mật số. Khóa học này được thiết kế để ai cũng có thể tiếp cận được, vì vậy không yêu phải có kiến thức về khoa học máy tính để tham gia. Mục tiêu chính của chúng tôi là cung cấp cho bạn những kiến thức và kỹ năng cần thiết để khám phá thế giới số một cách an toàn và riêng tư hơn.
@@ -40,7 +42,7 @@ Khóa học này là nỗ lực hợp tác từ ba giáo sư của chúng tôi:
 
 - Renaud Lifchitz, chuyên gia bảo mật mạng
 - Théo Pantamis, Tiến sĩ toán ứng dụng
-- Rogzy, Người đồng sáng lập Plan ₿ Network
+- Rogzy, Người đồng sáng lập Plan ₿ Academy
 
 Sức khoẻ số của bạn rất quan trọng trong một thế giới ngày càng số hóa. Mặc dù số lượng các vụ hack và giám sát hàng loạt không ngừng tăng lên, không bao giờ là quá muộn để bắt đầu bảo vệ bản thân.
 Trong khóa học này, chúng tôi không có mục tiêu biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bạn bắt đầu thay đổi thói quen trực tuyến của bản thân và lấy lại quyền kiểm soát chủ quyền số của mình.
@@ -83,6 +85,8 @@ Sẵn sàng tăng cường bảo mật số của bạn và giành lại quyền
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Khi duyệt web trên internet, việc tránh được một số sai lầm phổ biến để bảo vệ an ninh trực tuyến của bạn là rất quan trọng. Dưới đây là một số mẹo để tránh chúng:
 
 ### Hãy cẩn thận với việc tải phần mềm:
@@ -121,11 +125,13 @@ TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà ho�
 
 ![image](assets/vi/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN và kết nối internet
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPNs
 
@@ -145,9 +151,9 @@ Tuy nhiên, sử dụng VPN cho người dùng cá nhân không đảm bảo s�
 
 Cuối cùng, VPN cũng có thể được sử dụng để chặn quảng cáo trực tuyến, mang lại trải nghiệm duyệt web thú vị và an toàn hơn. Tuy nhiên, điều quan trọng là phải tự mình nghiên cứu để tìm ra công cụ VPN phù hợp nhất với nhu cầu cụ thể của bạn. Người dùng được khuyến nghị sử dụng VPN để tăng cường bảo mật, ngay cả khi duyệt web tại nhà. Điều này giúp đảm bảo mức độ bảo mật cao hơn cho dữ liệu trao đổi trực tuyến. Cuối cùng, hãy đảm bảo rằng bạn đã kiểm tra URL và biểu tượng ổ khóa nhỏ trong thanh địa chỉ để xác nhận việc bạn đang truy cập vào trang web mà bạn muốn.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & mạng Wi-Fi công cộng
 
@@ -168,6 +174,8 @@ Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo m�
 ## Sử dụng máy tính
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Bảo mật cho máy tính của chúng ta là một mối quan tâm lớn trong thế giới số hóa ngày nay. Hôm nay, chúng ta sẽ đề cập đến ba điểm chính:
 
@@ -218,6 +226,8 @@ Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Hacker tấn công như thế nào?
 
 Để bảo vệ bản thân một cách tốt nhất, bạn cần hiểu về cách mà hacker có thể xâm nhập vào máy tính của bạn. Thực tế, vi rút thường không xuất hiện như một phép thuật, mà nó thực sự là hậu quả phát sinh từ các hành vi sử dụng của chúng ta, kể cả không cố ý!
@@ -254,9 +264,9 @@ KHÔNG, nói chung bạn được khuyến khích không trả tiền cho hacker
 
 Nếu bạn phát hiện vi rút trên máy tính, hãy ngắt kết nối khỏi internet, thực hiện quét toàn bộ bằng phần mềm diệt vi rút và xóa các tệp tin bị nhiễm. Sau đó, cập nhật phần mềm và hệ điều hành của bạn, rồi thay đổi mật khẩu để ngăn chặn sự xâm nhập lần sau.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Triển khai giải pháp.
 
@@ -265,6 +275,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Quản lý tài khoản email
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Thiết lập một tài khoản email mới!
 
@@ -293,11 +305,13 @@ Nên sử dụng trang web Have I Been Pwned (https://haveibeenpwned.com/) để
 Nói chung, bắt đầu sử dụng một địa chỉ email mới, an toàn hơn không phải là một việc gì đó quá tệ và thậm chí là rất cần thiết nếu muốn bắt đầu lại trên một nền tảng lành mạnh hơn.
 Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các hoạt động Bitcoin của chúng ta (tạo tài khoản giao dịch) để thực sự tách biệt các lĩnh vực trong cuộc sống của chúng ta.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Trình quản lý mật khẩu
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Trình quản lý mật khẩu là gì?
 
@@ -340,13 +354,15 @@ Một mật khẩu tốt thường là:
 
 Mật khẩu được tạo ra một cách ngẫu nhiên cung cấp một mức độ an toàn cao hơn, mặc dù chúng có thể khó nhớ hơn. Các trình quản lý mật khẩu có thể tạo ra mật khẩu ngẫu nhiên an toàn hơn. Bằng cách sử dụng trình quản lý mật khẩu, bạn không cần phải nhớ tất cả mật khẩu của mình. Quan trọng là phải dần dần thay thế mật khẩu cũ của bạn bằng những mật khẩu được trình quản lý tạo ra, vì chúng mạnh mẽ và dài hơn. Đảm bảo rằng mật khẩu chính của trình quản lý mật khẩu của bạn cũng mạnh mẽ và an toàn.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Xác thực hai yếu tố
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Tại sao cần sử dụng xác thực hai yếu tố
 
@@ -389,9 +405,9 @@ Hãy tiếp tục học hỏi và dần dần thực hiện các hành vi đúng
 
 Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thích nghi với hành trình học hỏi của bạn!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Phần Thực Hành
 
@@ -403,7 +419,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Bảo vệ hộp thư điện tử của bạn là một bước quan trọng để đảm bảo an toàn cho các hoạt động trực tuyến và bảo vệ dữ liệu cá nhân của bạn. Hướng dẫn này sẽ hướng dẫn bạn, từng bước một, trong việc tạo và cấu hình tài khoản ProtonMail, một nhà cung cấp được công nhận với mức độ bảo mật cao, cung cấp mã hóa đầu cuối cho các cuộc giao tiếp của bạn. Dù bạn là người mới bắt đầu hay người dùng có kinh nghiệm, các thực hành tốt được đề xuất ở đây sẽ giúp bạn tăng cường bảo mật cho hộp thư điện tử của mình, đồng thời tận dụng các tính năng nâng cao của ProtonMail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Bảo mật 2FA
 
@@ -411,11 +427,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Xác thực hai yếu tố (2FA) đã trở nên thiết yếu để bảo vệ các tài khoản trực tuyến của bạn. Trong hướng dẫn này, bạn sẽ học cách thiết lập và sử dụng ứng dụng 2FA Authy, ứng dụng tạo mã động 6 chữ số để bảo vệ các tài khoản của bạn. Authy rất dễ sử dụng và đồng bộ hóa trên nhiều thiết bị. Tìm hiểu cách cài đặt và cấu hình Authy, và do đó tăng cường bảo mật cho các tài khoản trực tuyến của bạn ngay bây giờ:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Một tùy chọn khác là sử dụng khóa bảo mật vật lý. Hướng dẫn bổ sung này cho bạn thấy cách thiết lập và sử dụng khóa bảo mật như một yếu tố xác thực thứ hai:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Tạo quản lý mật khẩu
 
@@ -425,11 +441,11 @@ Quản lý mật khẩu là một thách thức trong kỷ nguyên số. Tất c
 
 Trong hướng dẫn này, hãy tìm hiểu cách cấu hình Bitwarden, một trình quản lý mật khẩu mã nguồn mở, và cách đồng bộ hóa thông tin đăng nhập của bạn trên tất cả các thiết bị để đơn giản hóa việc sử dụng hàng ngày:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Đối với người dùng có kinh nghiệm hơn, tôi cũng cung cấp một hướng dẫn về phần mềm miễn phí và mã nguồn mở khác để sử dụng cục bộ trong việc quản lý mật khẩu của bạn:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Bảo vệ tài khoản của bạn
 
@@ -437,9 +453,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Trong hai hướng dẫn này, tôi cũng hướng dẫn bạn cách bảo vệ các tài khoản trực tuyến của mình và giải thích cách dần dần áp dụng các thực hành an toàn hơn để quản lý mật khẩu hàng ngày.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Thay đổi trình duyệt & VPN
 
@@ -449,13 +465,13 @@ Bảo vệ quyền riêng tư trực tuyến của bạn cũng là một điểm
 
 Tôi đề xuất bạn khám phá hai giải pháp VPN đáng tin cậy và có thể thanh toán bằng bitcoin, đó là IVPN và Mullvad. Những hướng dẫn này sẽ hướng dẫn bạn cách cài đặt, cấu hình và sử dụng Mullvad hoặc IVPN trên tất cả các thiết bị của bạn:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Ngoài ra, hãy tìm hiểu cách sử dụng Tor Browser, một trình duyệt được thiết kế đặc biệt để bảo vệ quyền riêng tư trực tuyến của bạn:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Thiết lập sao lưu
 
@@ -463,11 +479,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Bảo vệ các tệp cá nhân của bạn cũng là một điểm quan trọng. Hướng dẫn này chỉ cho bạn cách triển khai một chiến lược sao lưu hiệu quả nhờ Proton Drive. Tìm hiểu cách sử dụng giải pháp đám mây an toàn này để áp dụng phương pháp 3-2-1: ba bản sao dữ liệu của bạn trên hai phương tiện khác nhau, trong đó một bản sao nằm ngoài địa điểm. Như vậy, bạn đảm bảo khả năng truy cập và an ninh cho các tệp nhạy cảm của mình:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Và để bảo mật các tệp của bạn lưu trữ trên các phương tiện di động như ổ USB hoặc ổ cứng di động, tôi cũng sẽ chỉ cho bạn cách mã hóa và giải mã các phương tiện này dễ dàng bằng VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Đi sâu hơn
 
@@ -476,6 +492,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Làm thế nào để làm việc trong ngành an ninh mạng
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### An ninh mạng: Một lĩnh vực đang phát triển với rất nhiều cơ hội
 
@@ -514,6 +532,8 @@ Khi thành thạo những kỹ năng và các công cụ này, bạn sẽ đư�
 ## Phỏng vấn với Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Quản lý mật khẩu hiệu quả và xác thực tăng cường: Tiếp cận ở góc độ học thuật
 

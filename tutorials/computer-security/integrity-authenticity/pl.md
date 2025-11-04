@@ -234,4 +234,4 @@ Jeśli ten poradnik okazał się pomocny, będę wdzięczny za kciuk w górę po
 Polecam również zapoznanie się z tym innym samouczkiem na temat VeraCrypt, oprogramowania umożliwiającego szyfrowanie i odszyfrowywanie urządzeń pamięci masowej.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

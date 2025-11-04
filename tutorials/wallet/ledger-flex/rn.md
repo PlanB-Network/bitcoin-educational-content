@@ -262,7 +262,7 @@ passphrase ni igikoresho gikomeye cane co kwongereza umutekano w’amahera yawe 
 passphrase ni igikoresho gikomeye cane co gukomeza umutekano w’ama bitcoins yawe. Ariko rero, ni ngombwa cane gutahura ingene ikora imbere yo kuyishira mu ngiro, kugira ngo wirinde gutakaza uburenganzira bwo gukoresha Wallet yawe. Ni co gituma vyose ndabisigura mu nyigisho yihariye:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Ubwa nyuma, urupapuro rwa nyuma rw'imiterere ruraguha uburenganzira bwo gusubiramwo Ledger yawe. Gusa genda n’iyi reset nimba uzi neza ko ata mfunguruzo zikingira bitcoins zirimwo, kuko woshobora gutakaza ubuziraherezo uburenganzira bwo kuronka amahera yawe.
 
@@ -473,7 +473,7 @@ Ushobora kwongerako "*Label*" kugira ngo udondore inkomoko y'ama bitcoins azokin
 Kugira ngo umenye vyinshi ku bijanye no gushirako amazina, ndaguhanura kandi ngo urabe iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ushobora rero gukoresha iyi Address kugira ngo uronke amafaranga y’ibiceri.
 

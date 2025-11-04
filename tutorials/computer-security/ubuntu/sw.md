@@ -328,4 +328,4 @@ Sasa uko tayari kutumia Ubuntu kila siku: linda mfumo wako, vinjari, fanya kazi 
 Ili kupiga hatua zaidi usalama wa maisha yako ya kidijitali, tunapendekeza uangalie huduma yetu ya ujumbe iliyosimbwa kwa njia fiche, ambayo inafaa kikamilifu kulinda faragha yako na inayosaidia usakinishaji wako wa Ubuntu:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

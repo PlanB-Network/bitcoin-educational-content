@@ -20,7 +20,7 @@ En su núcleo, Git permite a los desarrolladores rastrear los cambios realizados
 Una de las características clave de Git es la gestión de ramas. Una rama es una especie de línea paralela donde los desarrolladores pueden trabajar independientemente del resto del proyecto. Esto facilita enormemente la adición de nuevas características o la corrección de errores sin perturbar el código principal. Una vez que las modificaciones son probadas y validadas, pueden fusionarse con la rama principal.
 
 Una de las peculiaridades de Git es su capacidad para operar de manera distribuida. Cada desarrollador tiene una copia completa del proyecto en el disco duro de su propio ordenador, lo que les permite trabajar sin conexión y fusionar los cambios más tarde cuando esté disponible una conexión a Internet. Esto reduce el riesgo de conflictos y permite que varios desarrolladores trabajen simultáneamente en el mismo proyecto sin estorbarse mutuamente.
-Inicialmente, Git fue diseñado principalmente para proyectos de desarrollo de software. Sin embargo, también se puede utilizar para gestionar proyectos de escritura de contenido. En lugar de colaborar en código, colaboramos en texto. Y es precisamente este método el que PlanB Network ha adoptado para gestionar su contenido. Git facilita la colaboración en la escritura de cursos y tutoriales, ya que permite un seguimiento preciso de los cambios, una gestión eficiente de versiones y también habilita la revisión y mejora del contenido por otros colaboradores.
+Inicialmente, Git fue diseñado principalmente para proyectos de desarrollo de software. Sin embargo, también se puede utilizar para gestionar proyectos de escritura de contenido. En lugar de colaborar en código, colaboramos en texto. Y es precisamente este método el que Plan ₿ Academy ha adoptado para gestionar su contenido. Git facilita la colaboración en la escritura de cursos y tutoriales, ya que permite un seguimiento preciso de los cambios, una gestión eficiente de versiones y también habilita la revisión y mejora del contenido por otros colaboradores.
 ## ¿Qué es GitHub?
 
 GitHub es una plataforma de gestión y alojamiento de código fuente basada en el sistema de control de versiones Git del que acabamos de hablar. Lanzado en 2008, GitHub rápidamente ganó popularidad y se ha convertido en una referencia esencial para desarrolladores en todo el mundo. Pero, ¿En qué se diferencia GitHub de Git y por qué es tan crucial en nuestro método de producción de contenido?
@@ -31,7 +31,7 @@ Primero, es importante entender que GitHub está construido sobre Git (del cual 
 
 Imagina Git como una especie de libro de registro que cada desarrollador usa en su propio ordenador para registrar todos los cambios en su proyecto. GitHub, por otro lado, es como una biblioteca pública donde todos estos libros de registro pueden ser compartidos, comparados y combinados.
 La diferencia fundamental entre Git y GitHub radica en su función: Git es la herramienta utilizada localmente por cada desarrollador para gestionar sus versiones de código, mientras que GitHub es la plataforma en línea que aloja estas versiones y facilita la colaboración.
-GitHub es mucho más que un simple servicio de alojamiento de código. Es una plataforma de colaboración que permite a los desarrolladores trabajar juntos de manera eficiente. Y de hecho, PlanB Network utiliza esta plataforma para alojar no solo todo el código que impulsa el sitio web, sino también, y esto es lo que nos interesa, todo el contenido (tutoriales, formación, recursos...).
+GitHub es mucho más que un simple servicio de alojamiento de código. Es una plataforma de colaboración que permite a los desarrolladores trabajar juntos de manera eficiente. Y de hecho, Plan ₿ Academy utiliza esta plataforma para alojar no solo todo el código que impulsa el sitio web, sino también, y esto es lo que nos interesa, todo el contenido (tutoriales, formación, recursos...).
 
 ## Algunos Términos Técnicos
 
@@ -64,7 +64,7 @@ Después de leer este artículo, es posible que algunos aspectos de Git y GitHub
 
 ## Cómo crear una cuenta de GitHub
 
-Si deseas contribuir a PlanB Network, necesitarás una cuenta de GitHub. En este tutorial, te guiaremos paso a paso sobre cómo crear tu propia cuenta, configurarla y asegurarla adecuadamente.
+Si deseas contribuir a Plan ₿ Academy, necesitarás una cuenta de GitHub. En este tutorial, te guiaremos paso a paso sobre cómo crear tu propia cuenta, configurarla y asegurarla adecuadamente.
 
 - Ve a [https://github.com/signup](https://github.com/signup). 
 - Ingresa tu dirección de correo electrónico, luego haz clic en el botón verde `Continue`:

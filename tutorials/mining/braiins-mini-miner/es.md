@@ -4,7 +4,9 @@ description: Minar Bitcoin fácilmente desde casa.
 ---
 ![cover](assets/cover.webp)
 
-### Introducción
+
+
+## Introducción
 
 El Mini Miner braiins BMM 100 es un producto creado por Mining pool Braiins. Este dispositivo tiene un diseño atractivo y es extremadamente silencioso. Produce 1,1 Th/s de potencia de cálculo y consume unos 40 vatios. A diferencia de otros dispositivos, no es de código abierto, pero es realmente fácil de instalar, ¡realmente sólo se necesitan unos pocos clics! El Mini Miner BMM 100 es la primera versión que salió al mercado. Ahora está en producción la versión 2, llamada BMM 101, que se diferencia de la primera por tener una pantalla más grande y la presencia de Wi-Fi, pero los procedimientos de instalación son los mismos.
 
@@ -22,11 +24,13 @@ Y por la parte trasera tenemos: el agujero para la alimentación, espacio para u
 
 ![image](assets/en/03.webp)
 
-### Conexión del Mini Miner
+
+
+## Conexión del Mini Miner
 
 Será necesario conectar el dispositivo a internet vía ethernet, ten en cuenta que con la nueva versión (BMM 101) esto ya no es necesario. Volviendo a este mini Miner, una vez localizada la ubicación tendremos que conectarlo primero a la línea de internet y después a la corriente: el dispositivo se encenderá automáticamente y mostrará su dirección IP en la pantalla.
 
-### Configuración
+## Configuración
 
 Tenemos que abrir un navegador e introducir la dirección IP que nos muestra el mini Miner en la barra de búsqueda. Te recordamos que para encontrar el dispositivo en la red tendrá que ser local, por lo que tendrás que tener el ordenador que estés utilizando conectado a la misma red que el mini Miner. Una vez introducida la dirección IP pulsamos enter y nos aparecerá en pantalla la página de login al sistema operativo del mini Miner, que es Braiins OS.
 
@@ -66,7 +70,7 @@ y la primera entrada es simplemente `Pools`.
 
 Aquí tendremos que decidir qué poola utilizar. En este tutorial mostraremos dos opciones. La primera es conectarnos a Mining pool Braiins que también es utilizado por mineros profesionales, como puedes ver en este tutorial:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 La segunda opción es conectarnos a un Mining pool que mina en solitario, como Public Pool, sigue esta guía para hacerlo:
 
@@ -76,7 +80,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 Para conectarnos a este pool necesitamos crear una cuenta. Este pool también realiza pagos utilizando Lightning Network, por lo que podremos recibir unos cuantos Sats al día. Para ello necesitamos crear una drección Lightning en la que se recibirán las recompensas. Si no sabes cómo crear una cuenta en braiins pool o cómo configurar tu dirección lightning puedes seguir esta guía:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Una vez hecho esto nos encontramos en el dashboard del pool de Braiins. Lo que tenemos que hacer es decirle al pool que queremos conectarnos con uno de nuestros Mineros, para ello en la parte izquierda de la pantalla encontraremos una serie de entradas. Tenemos que ir a "trabajadores"
 
@@ -120,7 +124,7 @@ si volvemos al dashboard deberíamos empezar a ver movimiento en el gráfico y v
 
 ![image](assets/en/16.webp)
 
-#### Piscina pública
+#### Pool pública
 
 A través de este pool uno puede probar suerte y minar en solitario, apoyándose en un pool. En este caso no recibiremos recompensa, pero sí la recompensa completa si alguna vez conseguimos minar un bloque. A continuación enlazaremos con el pool público, un pool exclusivo para Mining que es completamente de código abierto. Abrimos una nueva ventana en el navegador y vamos a [web.public-pool.io](https://web.public-pool.io/#/).
 

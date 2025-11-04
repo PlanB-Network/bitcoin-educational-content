@@ -10,13 +10,13 @@ U ovom vodiču ćete otkriti sve što treba da znate o označavanju UTXO-a u va�
 
 ## Šta je UTXO označavanje?
 
-[Označavanje, engl. "labelling"](https://planb.network/resources/glossary/labeling), je tehnika koja uključuje povezivanje anotacije ili oznake sa specifičnim UTXO-om unutar Bitcoin novčanika. Ove anotacije se čuvaju lokalno od strane softvera novčanika i nikada se ne prenose preko Bitcoin mreže. Označavanje je stoga alat za lično upravljanje.
+[Označavanje, engl. "labelling"](https://planb.academy/resources/glossary/labeling), je tehnika koja uključuje povezivanje anotacije ili oznake sa specifičnim UTXO-om unutar Bitcoin novčanika. Ove anotacije se čuvaju lokalno od strane softvera novčanika i nikada se ne prenose preko Bitcoin mreže. Označavanje je stoga alat za lično upravljanje.
 
 
 Na primer, ako primim UTXO iz P2P transakcije putem Bisq-a sa Charlesom, mogao bih UTXO-u dodeliti oznaku `Bisq P2P Purchase Charles`.
 
 
-Označavanje omogućava da se zapamti poreklo ili predviđena destinacija UTXO-a, što pojednostavljuje upravljanje fondovima i optimizuje privatnost korisnika. Označavanje postaje još relevantnije kada se kombinuje sa funkcionalnošću ["kontrole novčića"](https://planb.network/resources/glossary/coin-control). Kontrola novčića je opcija dostupna u dobrim Bitcoin novčanicima, koja korisniku daje mogućnost da ručno izabere koje će specifične UTXO koristiti kao ulazi prilikom kreiranja transakcije.
+Označavanje omogućava da se zapamti poreklo ili predviđena destinacija UTXO-a, što pojednostavljuje upravljanje fondovima i optimizuje privatnost korisnika. Označavanje postaje još relevantnije kada se kombinuje sa funkcionalnošću ["kontrole novčića"](https://planb.academy/resources/glossary/coin-control). Kontrola novčića je opcija dostupna u dobrim Bitcoin novčanicima, koja korisniku daje mogućnost da ručno izabere koje će specifične UTXO koristiti kao ulazi prilikom kreiranja transakcije.
 
 
 Korišćenje novčanika sa kontrolom novčića, u kombinaciji sa UTXO označavanjem, omogućava korisnicima da precizno razlikuju i biraju UTXO-e za svoje transakcije, čime se izbegava spajanje UTXO-a iz različitih izvora. Ova praksa smanjuje rizike povezane sa heuristikom zajedničkog vlasništva nad ulazima (CIOH), koja pretpostavlja da svi ulazi u jednoj transakciji pripadaju istoj osobi, što može ugroziti privatnost korisnika.

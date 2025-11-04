@@ -200,9 +200,9 @@ Linux 使用者請參閱 [this page](https://www.ivpn.net/en/apps-linux/) 上針
 就這樣，您就可以完全享受 IVPN 的樂趣了。如果您還想使用本地密碼管理器來增強您的線上帳戶的安全性，我邀請您查看我們關於 KeePass 的教程，這是一個免費的開源解決方案：
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 如果您有興趣發現另一個與 IVPN 相似的 VPN 供應商，無論是在功能還是價格方面，我也建議您查看我們關於 Mullvad 的教程：
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

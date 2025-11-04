@@ -329,9 +329,9 @@ Zostanie wyświetlona 12-wyrazowa fraza seed, którą można zapisać.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Sprawdź zdanie seed
 
@@ -346,7 +346,7 @@ Aby to zrobić, zapiszemy referencję, usuniemy Wallet, przywrócimy ją za pomo
 
 
 
-- Na ekranie głównym Wallet kliknij zakładkę "Ustawienia", a następnie "Szczegóły Wallet" i skopiuj zPub ([rozszerzony klucz publiczny] (https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
+- Na ekranie głównym Wallet kliknij zakładkę "Ustawienia", a następnie "Szczegóły Wallet" i skopiuj zPub ([rozszerzony klucz publiczny] (https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -370,7 +370,7 @@ Uwaga: zpub Address można zaimportować do aplikacji Blockstream dla funkcji "W
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.4. Zabezpieczenie dostępu do aplikacji
 
@@ -521,19 +521,19 @@ Korzystanie z sieci Onchain
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Importowanie i śledzenie Wallet w trybie "Tylko zegarek"
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Wersja na komputery stacjonarne
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 
@@ -552,9 +552,9 @@ Aby bezpiecznie i wydajnie korzystać z **Aplikacji Blockstream**, należy przes
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -629,32 +629,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Nauka i samouczki: **[Plan ₿ Network](https://planb.network/)**
+- Nauka i samouczki: **[Plan ₿ Academy](https://planb.academy/)**
  - Zabezpieczanie frazy odzyskiwania
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Glosariusz](https://planb.network/fr/resources/glossary/liquid-network)
+- [Glosariusz](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Glosariusz](https://planb.network/fr/resources/glossary/lightning-network)
+- [Glosariusz](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

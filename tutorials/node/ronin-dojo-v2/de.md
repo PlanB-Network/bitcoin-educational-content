@@ -16,7 +16,7 @@ _Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. W
 
 In einem vorherigen Tutorial hatten wir bereits das Verfahren zur Installation und Nutzung von RoninDojo v1 erklärt. Im letzten Jahr jedoch haben die RoninDojo-Teams Version 2 ihrer Implementierung herausgebracht, was einen signifikanten Wendepunkt in der Softwarearchitektur markierte. Tatsächlich wechselten sie von der Linux Manjaro-Distribution zu Debian. Folglich bieten sie kein vorkonfiguriertes Image mehr für die automatische Installation auf dem Raspberry Pi an. Es gibt jedoch immer noch eine Methode für die manuelle Installation. Diese habe ich für meinen eigenen Knoten verwendet, und seitdem funktioniert RoninDojo v2 wunderbar auf meinem Raspberry Pi 4. Daher biete ich ein neues Tutorial an, wie man RoninDojo v2 manuell auf einem Raspberry Pi installiert.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -211,7 +211,7 @@ Sobald Sie auf der RoninUI-Startseite sind, werden Sie aufgefordert, die Einrich
 
 ![lets start](assets/notext/25.webp)
 
-In diesem Stadium präsentiert Ihnen RoninUI Ihr `root`-Passwort. Es ist wesentlich, dieses sicher aufzubewahren. Sie können sich für eine physische Sicherung auf Papier entscheiden oder es in einem [Passwort-Manager](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) speichern.
+In diesem Stadium präsentiert Ihnen RoninUI Ihr `root`-Passwort. Es ist wesentlich, dieses sicher aufzubewahren. Sie können sich für eine physische Sicherung auf Papier entscheiden oder es in einem [Passwort-Manager](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) speichern.
 
 ![root password](assets/notext/26.webp)
 
@@ -334,7 +334,7 @@ Nachdem Sie Coinjoins mit Whirlpool durchgeführt haben, ist es nützlich, das e
 
 Um Ihr Verständnis der Berechnungsmechanismen dieser Anonsets zu vertiefen, empfehle ich, den Artikel zu lesen: REMIX - WHIRLPOOL, der die Funktionsweise dieser Indizes detailliert beschreibt.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

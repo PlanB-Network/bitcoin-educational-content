@@ -102,7 +102,7 @@ Questo e' il tuo LNURL Address.
 Complimenti! Hai creato il tuo Avatar in modo definitivo e qui puoi visualizzare il riepilogo.
 Ancora una volta ti raccomando di salvare con cura sia il tuo Avatar che la password, come ti ho già suggerito in precedenza.
 
-Clicca su “i’ve saved my credentials, continue” (“ho salvato le mie credenziali, continua)
+Clicca su “i’ve saved my credentials, continue” (“ho salvato le mie credenziali, continua")
 
 ![image](assets/it/07.webp)
 
@@ -110,11 +110,22 @@ Ti trovi ora nel cuore della piattaforma, dove puoi visualizzare tutti i match d
 
 Per una visualizzazione piu chiara, qui sotto vedrai le immagini inerenti al sito web da computer desktop.
 
+- "Type" ("Tipo") definisce se si tratta di una vendita "Sell"("vendi") oppure un acquisto "buy"("compra")
 - “Amount” (“Ammontare”): indica quanti sats l’utente sta vendendo se il match è di tipo “Sell” (Vendi), oppure quanti Bitcoin è disposto ad acquistare se il match è di tipo “Buy” (Compra).
-- “BTC Price with Margin” (“Prezzo BTC con margine”): mostra il prezzo rispetto al valore di mercato.
-- Con un segno meno (-) ottieni uno sconto sul prezzo di mercato.
-- Con un segno più (+) viene applicato un premio sul prezzo di mercato.
+- “BTC Price with Margin” (“Prezzo BTC con margine”): mostra il prezzo tenendo conto del margine applicato sopra il valore di marcato.
+- "Margin" ("Margine") e' la percentuale che viene applicata al prezzo di mercato, con un segno meno (-) ottieni uno sconto sul prezzo di mercato, Con un segno più (+) viene applicato un premio sul prezzo di mercato.
 - “Status” (“Stato”): indica lo stato del match. Nella schermata di esempio tutti i match risultano “Open” (“Aperti”).
+- "Creator" si tratta dell'avatar univoco utilizzato dall'utente sulla piattaforma.
 - “Expiration” (“Scadenza”): mostra quanto tempo resta prima che il match scada e venga cancellato se non è stato scelto da nessuno.
 
-    
+![image](assets/it/08.webp)
+
+Nella parte superiore a destra clicca sul tuo Avatar per accedere al profilo.
+
+![image](assets/it/09.webp)
+
+- Qui puoi vedere il tuo nome Avatar, il tuo User ID, la data di creazione e la tua reputazione, che rifletterà positivamente o negativamente il tuo comportamento nelle trattative.
+- Nella sezione Settings puoi visualizzare il tuo “Lightning Address”, inserito durante la registrazione, e modificarlo se necessario.
+- Hai anche la possibilità di creare una Public Key, che – come accennato – va impostata solo se possiedi le competenze adeguate. Essa serve per crittografare i messaggi che scambierai con la controparte direttamente dal computer.
+- La funzione Telegram Notification te la consiglio vivamente.
+Attivandola, ti comparirà un QR code da inquadrare con l’app di Telegram: in questo modo riceverai notifiche in tempo reale su tutte le azioni relative ai tuoi match, direttamente nella chat del bot su Telegram.

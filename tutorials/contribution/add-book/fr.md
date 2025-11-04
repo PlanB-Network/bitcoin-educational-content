@@ -16,7 +16,7 @@ La mission de Plan₿ est de mettre à disposition des ressources éducatives de
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) dans la section `resources/books/` :
+- Rendez-vous sur [le dépôt GitHub de Plan₿ dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) dans la section `resources/books/` :
 
 ![book](assets/02.webp)
 
@@ -36,7 +36,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![book](assets/06.webp)
 
-- Pour valider la création du dossier, il suffit de noter un slash à la suite de votre nom de livre dans la même case, par exemple : `my-bitcoin-book/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
+- Pour valider la création du dossier, il suffit d'ajouter un slash à la suite de votre nom de livre dans la même case, par exemple : `my-bitcoin-book/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
 
 ![book](assets/07.webp)
 
@@ -251,8 +251,11 @@ contributors:
 
 ![book](assets/44.webp)
 
+
 Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant la vérifier et, si tout est conforme, l'intégrer au dépôt principal de Plan ₿ Academy. Vous devriez voir votre livre apparaître sur le site web quelques jours plus tard.
 
 Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de Plan ₿ Academy :
+
 ![book](assets/45.webp)
+
 Merci beaucoup pour votre précieuse contribution ! :)

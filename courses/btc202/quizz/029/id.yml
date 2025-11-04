@@ -1,7 +1,7 @@
 question: Apa karakteristik utama dari Full node?
-answer: Ini mengunduh dan memvalidasi seluruh Blockchain
+answer: Node ini mengunduh dan memvalidasi seluruh Blockchain
 wrong_answers:
-  - Ini hanya mempertahankan header blok
+  - Node ini hanya mempertahankan header blok
   - Menghapus blok lama setelah verifikasi
   - Tergantung pada node lain untuk memvalidasi transaksi
 explanation: |

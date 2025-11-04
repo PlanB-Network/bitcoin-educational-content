@@ -11,7 +11,7 @@ Ha reconstruido el funcionamiento del famoso Antminer S19 de Bitmain, el líder 
 
 Hay varias versiones de BitAxe, con diferentes chips y rendimientos:
 
-| Serie del Modelo Bitaxe  | Chip ASIC | Usado En                     | Tasa de Hash Esperada       | Ideal Para                                                                                                  |
+| Serie del Modelo Bitaxe  | Chip ASIC | Usado En                     | Tasa de Hash Esperada       | Ideal Para                                                                                                 |
 | ------------------------ | --------- | --------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Bitaxe Max (Serie 100)   | 1 x BM1397| Serie Antminer 17           | 400 GH/s (hasta 450 GH/s)   | Principiantes en minería de Bitcoin, ofreciendo una sólida tasa de hash con un consumo de energía moderado.|
 | Bitaxe Ultra (Serie 200) | 1 x BM1366| Antminer S19 XP y S19k Pro  | 500 GH/s (hasta 550 GH/s)   | Mineros serios que buscan equilibrar eficiencia y mayor tasa de hash.                                      |

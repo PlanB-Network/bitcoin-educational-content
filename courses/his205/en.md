@@ -109,7 +109,7 @@ A tribe with no division of labor, no specialization, where each individual is r
 That's why I think it's interesting to start our exploration in the Neolithic period. We'll see how sedentarization gradually gave rise to villages, then cities and finally great civilizations. It was this sedentarization and the production of food surpluses that made labor specialization possible, creating the fertile ground essential to the emergence and evolution of the first monetary concepts.
 
 
-Just as human interaction gives rise to language, we can consider that money appears naturally, or not (Incas, Spartans), in the course of the formation and organization of civilizations. In my opinion, the appearance or non-appearance of money has everything to do with the form of social and economic organization of each society.
+Just as human interactions give rise to language, we can consider that money appears naturally, or not (Incas, Spartans), in the course of the formation and organization of civilizations. In my opinion, the appearance or non-appearance of money has everything to do with the form of social and economic organization of each society.
 
 
 ### Chronology of human evolution
@@ -126,39 +126,39 @@ So, let's take a look at the evolution of mankind from prehistoric times onwards
 An overview of human evolution from Australopithecus to modern man, following technological advances and population movements up to the Neolithic period.
 
 
-### Human history
+### Historical context of mankind
 
 
 
-- 3 million years ago** - Appearance of *Australopithecus*.
-- 2 million years ago** - Hominins begin to leave Africa.
-- 1.6 million years ago** - Hominins reach southern Europe and Asia.
-- 1 million years ago** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk cave, South Africa).
-- Around 400,000 BC** - Neanderthals live in Europe and Asia.
-- Around 300,000 B.C.** - Appearance of *Homo sapiens*.
-- 80,000 years ago** - *Homo sapiens* began migrating to all parts of the world.
-- 73,000 years ago** - Blombos Caves in South Africa (oldest known art forms).
-- 50,000 years ago** - *Homo sapiens* reached Europe.
-- 30,000 years ago** - Cave paintings from the Chauvet cave in France.
-- 15,000 years ago** - Lascaux cave paintings in France and Australian rock art.
-- Around 9000 B.C.** - Domestication of barley in the Fertile Crescent.
-- Around 9000 B.C.** - Corn cultivation in Mexico.
-- Around 8000 B.C.** - Domestication of goats and sheep in the Fertile Crescent.
-- Around 7250 B.C.** - Ain Ghazal (Jordan) reveals a village of a few hundred inhabitants.
-- Around 7000 B.C.** - Çatalhöyük (Turkey) has up to 8,000 inhabitants.
-- Around 6500 BC ** - Sedentary life begins in Greece.
-- 6000 years ago** - Beginning of river irrigation in Egypt and Mesopotamia.
-- Around 5000 B.C.** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
-- Around 4000 B.C.** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas and vicuñas).
-- Around 3500-3000 B.C.** - The Botai people begin to domesticate and breed horses.
-- Around the beginning of the Bronze Age** - The Sumerians had already invented the wheel and the sailboat, and developed arithmetic, astronomy and the first form of writing.
-- Around 2800 BC** - Uruk, at its peak, reached a population of up to 80,000.
-- 2600-2200 B.C.** - First signs of urban development in the Greek world. Expansion of Mediterranean crops (wheat, vines, olives).
-- 2560 BC ** - Construction of the Great Pyramid of Giza.
-- Around 1500 B.C.** - Minoan civilization.
-- Around 1300 B.C.** - Mycenaean civilization.
-- Around 1250 to 1150 B.C.** - Collapse of Bronze Age civilizations.
-- 1st century AD** - North African Berbers domesticate the camel.
+- **3 million years ago** - Appearance of *Australopithecus*.
+- **2 million years ago** - Hominins begin to leave Africa.
+- **1.6 million years ago** - Hominins reach southern Europe and Asia.
+- **1 million years ago** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk cave, South Africa).
+- **Around 400,000 BC** - Neanderthals live in Europe and Asia.
+- **Around 300,000 B.C.** - Appearance of *Homo sapiens*.
+- **80,000 years ago** - *Homo sapiens* began migrating to all parts of the world.
+- **73,000 years ago** - Blombos Caves in South Africa (oldest known art forms).
+- **50,000 years ago** - *Homo sapiens* reached Europe.
+- **30,000 years ago** - Cave paintings from the Chauvet cave in France.
+- **15,000 years ago** - Lascaux cave paintings in France and Australian rock art.
+- **Around 9000 B.C.** - Domestication of barley in the Fertile Crescent.
+- **Around 9000 B.C.** - Corn cultivation in Mexico.
+- **Around 8000 B.C.** - Domestication of goats and sheep in the Fertile Crescent.
+- **Around 7250 B.C.** - Ain Ghazal (Jordan) reveals a village of a few hundred inhabitants.
+- **Around 7000 B.C.** - Çatalhöyük (Turkey) has up to 8,000 inhabitants.
+- **Around 6500 B.C.** - Sedentary life begins in Greece.
+- **6000 years ago** - Beginning of river irrigation in Egypt and Mesopotamia.
+- **Around 5000 B.C.** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
+- **Around 4000 B.C.** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas and vicuñas).
+- **Around 3500-3000 B.C.** - The Botai people begin to domesticate and breed horses.
+- **Around the beginning of the Bronze Age** - The Sumerians had already invented the wheel and the sailboat, and developed arithmetic, astronomy and the first form of writing.
+- **Around 2800 BC** - Uruk, at its peak, reached a population of up to 80,000.
+- **2600-2200 B.C.** - First signs of urban development in the Greek world. Expansion of Mediterranean crops (wheat, vines, olives).
+- **2560 B.C.** - Construction of the Great Pyramid of Giza.
+- **Around 1500 B.C.** - Minoan civilization.
+- **Around 1300 B.C.** - Mycenaean civilization.
+- **Around 1250 to 1150 B.C.** - Collapse of the Bronze Age civilizations.
+- **1st century AD** - North African Berbers domesticate the camel.
 
 
 So, here's this historical overview to give us a perspective on the emergence of certain technologies, domestication of certain animals and cultures, to put it in context with the emergence of writing and money, which will be the subject of our next section.

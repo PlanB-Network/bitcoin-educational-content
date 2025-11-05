@@ -101,7 +101,7 @@ saved to wallet.jmdat
 ```
 Se si verifica un errore, è probabile che i quattro campi RPC specificati siano stati impostati in modo errato. In tal caso puà essere utile seguire [questa guida](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) presente nella documentazione originale di JoinMarket.
 
-Abbiamo completato il setup del nostro ambiente di lavoro e possiamo cominciare ad esplorare i comandi che ci saranno più utili. Tutti gli script di cui parleremo possono essere lanciati in console seguiti da `--help` per avere una spiegazione approfondita.
+Abbiamo completato il setup del nostro ambiente di lavoro e possiamo cominciare ad esplorare i comandi che ci saranno più utili. Tutti gli script di cui parleremo possono essere eseguiti nel terminale seguiti da `--help` per avere una spiegazione approfondita.
 
 Possiamo ora provare a lanciare:
 

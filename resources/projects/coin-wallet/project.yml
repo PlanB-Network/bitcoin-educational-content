@@ -1,0 +1,23 @@
+name: Coin Wallet
+
+address_line_1: Georgia, USA
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+  - en
+
+links:
+  website: https://coin.space/
+  twitter: https://x.com/CoinAppWallet
+  Github: https://github.com/CoinSpace/
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - software
+  - user-friendly
+
+category: wallet

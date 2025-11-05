@@ -5,5 +5,5 @@ wrong_answers:
   - Satoshi Nakamoto
   - Kolam Mining
 explanation: |
-  Seed DNS dikelola oleh pengembang terkenal (Wuille, Corallo, Dashjr, dll.) dan menyediakan IP simpul aktif untuk memulai koneksi.
+  Seed DNS dikelola oleh pengembang terkenal (Wuille, Corallo, Dashjr, dll.) dan menyediakan IP node aktif untuk memulai koneksi.
 reviewed: true

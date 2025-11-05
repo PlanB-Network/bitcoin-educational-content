@@ -1,12 +1,6 @@
+id: f0016480-25eb-4e05-9103-0fafaa6c222b
 name: Coin Wallet
-
-address_line_1: Georgia, USA
-address_line_2:
-address_line_3: 
-
-language:
-  - fr
-  - en
+category: wallet
 
 links:
   website: https://coin.space/
@@ -16,8 +10,15 @@ links:
   nostr:
 
 tags:
-  - bitcoin
   - software
   - user-friendly
+  - onchain
 
-category: wallet
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - Dolorozo
+    reward: 0

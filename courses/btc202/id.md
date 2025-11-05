@@ -215,149 +215,80 @@ Secara teori, Bitcoin Core tidak mewakili protokol Bitcoin; melainkan, ini hanya
 
 Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin Core. Sisa jaringan bergantung pada klien yang lebih marjinal (meskipun bagian Knots telah meningkat tajam dalam beberapa bulan terakhir). Implementasi alternatif ini sering dikelola oleh satu orang atau tim kecil.
 
-**Catatan:** Angka-angka ini masih merupakan perkiraan, namun, karena mereka terutama didasarkan pada *listening node*, yaitu node yang menerima koneksi yang masuk (dengan port 8333 terbuka). Node yang tidak mendengarkan *non-listening nodes* jauh lebih rumit untuk dihitung, karena tidak mungkin untuk terhubung dengan mereka secara langsung: Anda harus menunggu inisiatif datang dari mereka, dalam bentuk koneksi keluar. Situs Luke Dashjr mengklaim bahwa mereka juga mencoba untuk menghitung *non-listening node* ini, tetapi tetap tidak mungkin untuk mendapatkan data yang benar-benar akurat tentang mereka, dan pembaharuan statistik ini pasti akan tertinggal dari kenyataan.
-
-
+**Catatan**: Angka-angka ini masih berupa perkiraan, karena terutama didasarkan pada _listening nodes_, yaitu node yang menerima koneksi masuk (dengan port 8333 terbuka). Non-listening nodes jauh lebih kompleks untuk dihitung, karena tidak mungkin untuk terhubung langsung dengannya: Anda harus menunggu inisiatif datang dari mereka, dalam bentuk koneksi keluar.
+Situs web Luke Dashjr mengklaim mencoba menghitung _non-listening nodes_ ini juga, tetapi tetap tidak mungkin mendapatkan data yang akurat sempurna tentang mereka, dan pembaruan statistik ini pasti akan tertinggal dari kenyataan."
 
 ### Pengoperasian internal Bitcoin core
 
+Bitcoin Core adalah perangkat lunak yang ditulis dalam bahasa C++. Ini juga merupakan proyek open-source yang dikelola oleh komunitas pengembang yang merupakan sukarelawan atau didanai oleh berbagai entitas (seringkali perusahaan di dalam ekosistem yang memiliki kepentingan untuk memastikan bahwa pengembangan Core berjalan baik). [Kode tersebut di-host di GitHub](https://github.com/bitcoin/bitcoin), dan pengembangan mengikuti model yang ketat:
 
-
-Bitcoin Core adalah perangkat lunak yang ditulis dalam C++. Ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang — baik sukarelawan maupun yang didanai oleh berbagai entitas (sering kali perusahaan dalam ekosistem yang berkepentingan agar pengembangan Core berjalan dengan baik). [Kode di-host di GitHub](https://github.com/bitcoin/bitcoin), dan pengembangannya mengikuti model yang ketat:
-
-
-
-
-- Kontributor** mengajukan proposal dalam bentuk _pull request_ (PR). Pada prinsipnya, setiap orang dapat mengajukan usulan perubahan, tetapi harus diuji, didokumentasikan, dan melalui proses peninjauan sejawat.
-- Para **pengelola** memiliki hak untuk menyetujui dan menggabungkan PR. Merekalah yang menjamin koherensi dan stabilitas proyek. Pada bulan Juli 2025, ada lima orang: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao, dan Ryan Ofsky.
-- Tidak ada **pemelihara utama** sejak Februari 2023. Peran ini awalnya dipegang oleh Satoshi Nakamoto saat peluncuran Bitcoin, kemudian oleh Gavin Andresen setelah kepergian Nakamoto pada awal 2011, dan akhirnya oleh Wladimir J. Van Der Laan dari tahun 2014 hingga 2023.
-
-
+- **Kontributor** mengajukan proposal dalam bentuk _pull request_ (PR). Siapa pun pada prinsipnya dapat mengusulkan perubahan, tetapi harus diuji, didokumentasikan, dan melalui proses peninjauan sejawat (peer review).
+- **Pengelola** memiliki hak untuk menyetujui dan menggabungkan PR. Merekalah yang menjamin koherensi dan stabilitas proyek. Pada Juli 2025, ada lima maintainer: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao, dan Ryan Ofsky.
+- Tidak ada **pemelihara utama** sejak Februari 2023. Peran ini awalnya dipegang oleh Satoshi Nakamoto, kemudian oleh Gavin Andresen, dan akhirnya oleh Wladimir J. Van Der Laan dari 2014 hingga 2023.
 
 ![Image](assets/fr/057.webp)
 
-
-
-Pengembangan Bitcoin core mengikuti logika meritokrasi: kontributor baru didorong untuk meninjau dan menguji kode sebelum mengusulkan perubahan apa pun. Keputusan didasarkan pada konsensus teknis, dan modifikasi besar (terutama di bidang konsensus) memerlukan diskusi hulu di saluran publik, seperti milis atau klub peninjau PR.
-
-
+Pengembangan Bitcoin Core mengikuti logika meritokratis: kontributor baru didorong untuk meninjau dan menguji kode sebelum mengusulkan perubahan apa pun. Keputusan didasarkan pada konsensus teknis, dan modifikasi besar (terutama dalam area konsensus) memerlukan diskusi serius di saluran publik,seperti milis atau kelompok peninjau PR.
 
 ### Implementasi Bitcoin lainnya
 
-
-
-Meskipun marjinal dalam hal adopsi, klien lain tetap ada. Yang utama adalah Bitcoin Knots, yang dikembangkan oleh Luke Dashjr, sebuah Fork dari Bitcoin core yang menggabungkan opsi tambahan dan pendekatan yang lebih konservatif untuk pengembangan. Ini termasuk pembatasan yang lebih ketat pada format transaksi.
-
-
+Meskipun marjinal dalam hal adopsi, klien lain memang ada. Yang terbanyak adalah Bitcoin Knots, yang dikembangkan oleh Luke Dashjr, sebuah fork dari Bitcoin Core yang menggabungkan opsi tambahan dan pendekatan pengembangan yang lebih konservatif. Ini termasuk pembatasan yang lebih ketat pada format transaksi.
 
 ![Image](assets/fr/058.webp)
 
+Kita juga dapat menyebutkan:
 
+- **Libbitcoin**: library C++ yang modular yang dikembangkan oleh Amir Taaki dan dipelihara oleh Eric Voskuil;
+- **Bcoin**: Implementasi JavaScript (tidak lagi aktif dipelihara).
+- **BTCD/btcsuite**: Implementasi dalam Go.
 
-Kami juga dapat menyebutkan:
-
-
-
-
-- Libbitcoin**: sebuah pustaka C++ modular yang dikembangkan oleh Amir Taaki dan dikelola oleh Eric Voskuil;
-- Bcoin**: implementasi JavaScript, tidak lagi dikelola secara aktif;
-- **BTCD/btcsuite** : sebuah implementasi dalam Go.
-
-
-
-Proyek-proyek ini berkontribusi pada keragaman ekosistem, namun pengadopsiannya masih sangat terbatas, sehingga menyulitkan Bitcoin core untuk berkembang secara mandiri.
-
-
+Proyek-proyek ini berkontribusi pada keragaman ekosistem, tetapi adopsi mereka tetap sangat terbatas, sehingga menyulitkan Bitcoin Core untuk berevolusi secara mandiri.
 
 ### Kekuatan pengembang Core
 
+Anda mungkin berpikir bahwa pengembang Bitcoin Core memiliki kendali langsung atas Bitcoin, tetapi kenyataannya tidak demikian. Mereka tidak dapat memaksakan perubahan pada protokol. Peran mereka adalah mengusulkan kode. Terserah pada setiap pengguna, melalui node mereka, untuk memutuskan apakah akan menggunakan kode ini atau tidak.
 
+Ini berarti bahwa jika perubahan dalam Bitcoin Core tidak memenuhi konsensus, itu dapat diabaikan oleh node, baik dengan tidak memperbarui Bitcoin Core atau hanya dengan mengganti implementasi. Sebaliknya, jika fitur yang diinginkan pengguna terhalang dalam proses pengembangan Core, hal ini memungkinkan untuk beralih ke implementasi lain atau fork proyek.
 
-Anda mungkin berpikir bahwa pengembang Bitcoin core memiliki kendali langsung atas Bitcoin, tetapi kenyataannya tidak demikian. Mereka tidak dapat memaksakan perubahan pada protokol. Peran mereka adalah mengusulkan kode. Terserah kepada setiap pengguna, melalui node mereka, untuk memutuskan apakah akan menggunakan kode ini atau tidak.
-
-
-
-Ini berarti bahwa jika perubahan dalam Bitcoin core tidak memenuhi konsensus, perubahan tersebut dapat diabaikan oleh node, baik dengan tidak memperbarui Bitcoin core atau dengan hanya mengubah implementasinya. Sebaliknya, jika sebuah fitur yang diinginkan oleh pengguna diblokir dalam proses pengembangan Core, selalu memungkinkan untuk beralih ke implementasi lain atau Fork proyek.
-
-
-
-Seperti yang akan kita bahas nanti dalam kursus ini, node-node, menurut bobot ekonomi mereka (yaitu, pedagang), yang memberikan kegunaan pada versi protokol (dan oleh karena itu pada mata uang yang sesuai), dengan menerima unit-unit yang mematuhi aturan-aturannya. Oleh karena itu, kekuatan tata kelola yang sebenarnya atas Bitcoin terletak pada para pedagang ini, bukan pada pengembang.
-
-
-
+Seperti yang akan kita bahas nanti dalam kursus ini, Node-node, sesuai dengan bobot ekonominya (yaitu, para pedagang), yang memberikan utilitas pada versi protokol (dan karenanya pada mata uang yang sesuai), dengan menerima unit yang mematuhi aturannya. Oleh karena itu, kekuatan tata kelola yang sebenarnya atas Bitcoin terletak pada para pedagang ini, bukan pada para pengembang.
 
 # Menjadi seorang bitcoiner yang berdaulat
 
-
 <partId>df64cad2-e92d-4949-9cca-14394aad0bc6</partId>
-
-
-
 
 ## Mengapa menjalankan node sendiri?
 
-
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
 
+Ada kepercayaan yang dipegang secara luas bahwa mengoperasikan Node Bitcoin adalah tindakan yang murni altruistik, tanpa keuntungan pribadi, semata-mata demi desentralisasi jaringan. Beberapa menganggapnya sebagai bentuk kewajiban bagi para bitcoiner untuk mendukung sistem dan menunjukkan rasa terima kasih mereka kepada Bitcoin.
 
-
-Ada kepercayaan yang dipegang secara luas bahwa mengoperasikan node Bitcoin adalah tindakan yang murni altruistik, tanpa keuntungan pribadi, semata-mata untuk melayani desentralisasi jaringan. Beberapa orang menganggapnya sebagai bentuk kewajiban bagi para pengguna bitcoin untuk mendukung sistem dan menunjukkan rasa terima kasih mereka kepada Bitcoin.
-
-
-
-Seperti yang telah kami tekankan dalam bab-bab sebelumnya, menjalankan node tidak memberikan keuntungan finansial langsung. Oleh karena itu, seseorang mungkin berpikir tidak ada manfaat pribadi untuk melakukannya. Namun, mengoperasikan node sendiri membawa banyak keuntungan individu. Untuk meyakinkan Anda, saya akan memaparkan dalam bab ini semua alasan, baik teknis maupun strategis, yang seharusnya mendorong Anda untuk menginstal dan menggunakan node Bitcoin Anda sendiri.
-
-
+Seperti yang telah kita tekankan di bab-bab sebelumnya, menjalankan node tidak memberikan keuntungan finansial langsung. Oleh karena itu, orang mungkin berpikir tidak ada manfaat pribadi dalam melakukannya. Namun, mengoperasikan node Anda sendiri membawa banyak keuntungan individual. Untuk meyakinkan Anda tentang hal ini, dalam bab ini saya akan menyajikan semua alasan—baik teknis maupun strategis—yang seharusnya mendorong Anda untuk memasang dan menggunakan Node Bitcoin Anda sendiri.
 
 ### Penyebaran transaksi yang lebih rahasia
 
+Ketika perangkat lunak wallet terhubung ke node eksternal, perangkat lunak ini mengirimkan transaksinya ke infrastruktur yang tidak berada di bawah kendali Anda. Hal ini menimbulkan risiko pengawasan yang jelas: operator node jarak jauh dapat menganalisis detail transaksi Anda, termasuk jumlah dan frekuensi, dan, dengan mencocokkan metadata tertentu (seperti alamat IP, waktu, dan lokasi), berpotensi mengaitkannya dengan identitas Anda.
 
-
-Ketika perangkat lunak Wallet terhubung ke node eksternal, perangkat lunak ini mentransmisikan transaksinya ke infrastruktur yang tidak berada di bawah kendali Anda. Hal ini menimbulkan risiko pengawasan yang jelas: operator node jarak jauh dapat menganalisis rincian transaksi Anda, termasuk jumlah dan frekuensi, dan, dengan memeriksa ulang metadata tertentu (seperti alamat IP, waktu, dan lokasi), berpotensi mengaitkannya dengan identitas Anda.
-
-
-
-Memang, seperti yang telah dijelaskan pada bab sebelumnya, dompet tidak berkomunikasi dengan jaringan Bitcoin secara ajaib; dompet harus terhubung ke sebuah node untuk melihat saldo atau menyiarkan transaksi. Jika Anda belum pernah membuat node Anda sendiri, ini berarti Wallet Anda bergantung pada infrastruktur pihak ketiga (biasanya perusahaan di balik perangkat lunak). Pihak ketiga ini, terutama jika itu adalah perusahaan, dapat mengamati, mengeksploitasi, atau bahkan mengungkapkan data ini: baik untuk alasan komersial, di bawah batasan hukum, atau sebagai akibat dari pembajakan.
-
-
+Memang, seperti yang ditunjukkan di bab sebelumnya, wallet tidak berkomunikasi dengan Jaringan Bitcoin secara ajaib; wallet harus terhubung ke node untuk melihat saldo atau menyiarkan transaksi. Jika Anda belum pernah mengatur node Anda sendiri, ini berarti wallet Anda bergantung pada infrastruktur pihak ketiga (biasanya perusahaan di belakang perangkat lunak). Pihak ketiga ini, terutama jika itu adalah perusahaan, dapat mengamati, mengeksploitasi, atau bahkan mengungkapkan data ini: baik untuk alasan komersial, di bawah batasan hukum, atau sebagai akibat dari peretasan.
 
 ![Image](assets/fr/059.webp)
 
-
-
-Dengan menggunakan node Anda sendiri, Anda menyiarkan transaksi Anda secara langsung ke jaringan, melewati perantara. Asalkan Anda mengamankan node Anda dengan benar (yang akan kita bahas nanti) atau mematuhi standar tertentu, tidak ada informasi yang terpapar: baik IP Address maupun detail transaksi Anda tidak melewati entitas yang tidak Anda kendalikan. Ini adalah prasyarat dasar untuk menjaga kerahasiaan Anda di Bitcoin.
-
-
+Dengan menggunakan node Anda sendiri, Anda menyiarkan transaksi Anda langsung ke jaringan, tanpa perantara. Asalkan Anda mengamankan node Anda dengan benar (yang akan kita bahas nanti) atau mematuhi standar tertentu, tidak ada informasi yang terekspos: baik alamat IP Anda maupun detail transaksi Anda tidak melewati entitas yang tidak Anda kontrol. Ini adalah prasyarat dasar untuk menjaga kerahasiaan Anda di Bitcoin.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transaksi yang tidak dapat disensor
 
+Untuk alasan yang sama yang disebutkan di atas, perangkat lunak wallet yang didasarkan pada node pihak ketiga rentan terhadap risiko sensor: operator node jarak jauh dapat menolak untuk meneruskan transaksi tertentu karena berbagai alasan. Mereka dapat menganggapnya mencurigakan atau bertentangan dengan kebijakan mereka. Transaksi juga dapat diblokir jika tidak mematuhi aturan relay node. Terakhir, operator dapat secara spesifik menargetkan alamat IP Anda untuk memblokir penyiaran transaksi Anda.
 
-
-Untuk alasan yang sama yang disebutkan di atas, perangkat lunak Wallet yang berbasis pada node pihak ketiga rentan terhadap risiko penyensoran: operator node jarak jauh dapat menolak untuk menyampaikan transaksi tertentu karena berbagai alasan. Operator mungkin menganggapnya mencurigakan atau bertentangan dengan kebijakannya. Transaksi juga dapat diblokir jika tidak sesuai dengan aturan relai node. Terakhir, operator mungkin secara khusus menargetkan IP Address Anda untuk memblokir siaran transaksi Anda.
-
-
-
-Sebaliknya, dengan menggunakan node Anda sendiri, Anda memastikan penyebaran transaksi Anda dalam jaringan peer-to-peer. Ini berarti Anda memiliki kontrol penuh atas distribusi transaksi Anda, tanpa ketergantungan pada perantara. Selama transaksi sesuai dengan aturan konsensus dan relai dari node yang terhubung dengan node Anda, transaksi tersebut akan disiarkan di jaringan dan kemudian, asalkan biaya yang cukup disertakan, diintegrasikan ke dalam blok oleh Miner. Memiliki node Anda sendiri menjamin konfirmasi netral dan bebas izin atas transaksi Anda.
-
-
+Sebaliknya, dengan menggunakan node Anda sendiri, Anda memastikan penyebaran transaksi Anda di dalam jaringan peer-to-peer. Ini berarti Anda mempertahankan kontrol total atas distribusi transaksi Anda, tanpa ketergantungan pada perantara. Selama transaksi mematuhi aturan konsensus dan relay dari node yang terhubung dengan node Anda, transaksi itu akan disiarkan di jaringan, dan kemudian, asalkan biaya yang cukup disertakan, diintegrasikan ke dalam blok oleh miner. Memiliki node Anda sendiri menjamin konfirmasi transaksi Anda yang netral dan bebas izin.
 
 ### Verifikasi data independen
 
-
-
-Tanpa personal node, Anda tetap bergantung pada pihak ketiga untuk mengakses informasi, seperti saldo Address, status konfirmasi transaksi, dan validitas blok. Hal ini menyiratkan kepercayaan implisit terhadap keakuratan dan integritas node eksternal.
-
-
+Tanpa node pribadi, Anda tetap bergantung pada pihak ketiga untuk akses ke informasi, seperti saldo alamat Anda, status konfirmasi transaksi, dan validitas blok. Hal ini menyiratkan kepercayaan implisit pada keakuratan dan integritas node eksternal.
 
 ![Image](assets/fr/060.webp)
 
-
-
-Menjalankan Full node berarti Anda dapat memeriksa semua aturan protokol sendiri, untuk setiap transaksi dan setiap blok. Hasilnya, saldo yang ditampilkan oleh Wallet Anda bukanlah data yang diterima dari server jarak jauh, melainkan hasil yang dihitung secara lokal dari salinan lengkap Blockchain, yang telah divalidasi blok demi blok. Pendekatan ini memberikan makna penuh pada pepatah bitcoiners:
-
-
+Menjalankan full node berarti Anda dapat memeriksa semua aturan protokol sendiri, untuk setiap transaksi dan setiap blok. Akibatnya, saldo yang ditampilkan oleh wallet Anda bukanlah data yang diterima dari server jarak jauh, tetapi hasil yang dihitung secara lokal dari salinan Blockchain lengkap, yang divalidasi blok demi blok. Pendekatan ini memberikan makna penuh pada pepatah para bitcoiner:
 
 > Jangan percaya, verifikasi.
 

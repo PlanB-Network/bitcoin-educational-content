@@ -168,95 +168,52 @@ Namun, dengan popularisasi Bitcoin secara bertahap dan peningkatan jumlah miner,
 
 ![Image](assets/fr/053.webp)
 
-Dalam menghadapi evolusi ini, peran node Bitcoin dan Miner menjadi jelas berbeda. Seperti yang ditunjukkan di atas, peran node Bitcoin murni berbasis informasi dan validasi. Peran Miner berbeda:
+Dalam enghadapi evolusi ini, peran Node Bitcoin dan Miner telah menjadi jelas berbeda. Seperti yang ditunjukkan di atas, peran Node Bitcoin murni bersifat informasional dan berbasis validasi. Peran miner berbeda:
 
+- Miner memilih transaksi yang tertunda di Mempool.
+- Miner membangun blok kandidat yang mengintegrasikan transaksi ini.
+- Miner mencari proof of work yang valid melalui coba-coba.
+- Jika Miner menemukan proof yang valid, Miner menyiarkan blok tersebut melalui node-nya ke node lain.
 
+Seorang miner membutuhkan Node Bitcoin untuk berinteraksi dengan jaringan.
 
-
-- Ini memilih transaksi yang tertunda di Mempool.
-- Ini membangun blok kandidat yang mengintegrasikan transaksi-transaksi ini.
-- Dia mencari dengan cara coba-coba untuk mendapatkan Proof of Work yang valid.
-- Jika ia menemukan bukti yang valid, ia akan menyiarkan blok tersebut melalui node-nya ke node lainnya.
-
-
-
-Miner membutuhkan node Bitcoin untuk berinteraksi dengan jaringan.
-
-
-
-Peran Miner juga terkadang dibedakan dengan peran pencacah. Pencacah adalah sebuah mesin yang bertugas untuk membuat template blok yang disediakan oleh server pool, mencari hash yang memenuhi target tingkat kesulitan yang ditentukan untuk saham, dan bukan untuk Bitcoin. Sisa dari proses Mining, yang meliputi konstruksi blok aktual, pemilihan transaksi, atau pencarian Proof-of-Work sesuai dengan tingkat kesulitan Bitcoin, serta distribusi, dilakukan secara langsung oleh pool.
-
-
+Peran miner juga terkadang dibedakan dari peran pemotong (mincer). Mincer adalah mesin yang tugasnya adalah hashing template blocks yang disediakan oleh server pool, mencari hash yang memenuhi target kesulitan yang ditentukan untuk shares, dan bukan target kesulitan Bitcoin. Sisa dari proses mining, yang mencakup konstruksi blok yang sebenarnya, pemilihan transaksi, atau pencarian proof-of-work sesuai dengan kesulitan Bitcoin sendiri, serta distribusi, dilakukan langsung oleh pool.
 
 ![Image](assets/fr/054.webp)
 
+Terakhir, ada perbedaan penting dalam hal insentif ekonomi antara miner dan node. Menjalankan Node Bitcoin tidak memberikan manfaat moneter langsung. Di sisi lain, mengambil bagian dalam mining memberikan hadiah (subsidi dan biaya transaksi) untuk setiap blok yang ditemukan.
 
-
-Terakhir, ada perbedaan penting dalam hal insentif ekonomi antara Miner dan node. Menjalankan node Bitcoin tidak memberikan keuntungan moneter secara langsung. Di sisi lain, ikut serta dalam Mining memberikan imbalan (subsidi dan biaya transaksi) untuk setiap blok yang ditemukan.
-
-
-
-Di Bagian 2, kita akan mengeksplorasi secara lebih rinci manfaat praktis dan pribadi dari pemasangan dan penggunaan node Bitcoin, di luar manfaat finansial semata.
-
-
+Dalam Bagian 2, kita akan menjelajahi lebih detail manfaat praktis dan pribadi dari memasang dan menggunakan Node Bitcoin, di luar manfaat finansialnya saja.
 
 ## Bitcoin core dan implementasi protokol
 
-
 <chapterId>72381876-9317-4faa-8d41-2b252a945b8a</chapterId>
 
+Protokol Bitcoin bukanlah perangkat lunak: ini adalah sekumpulan aturan tersirat (tacit rules) yang dibagikan di antara pengguna jaringan. Protokol ini mendefinisikan kondisi validitas transaksi, mekanisme penciptaan uang, format blok, kondisi proof-of-work, dan banyak spesifikasi lainnya. Untuk berinteraksi dengan protokol ini, pengguna harus menjalankan perangkat lunak yang mengimplementasikan aturan-aturan ini: inilah yang dikenal sebagai **Implementasi** dari Bitcoin.
 
-
-Protokol Bitcoin bukanlah sebuah perangkat lunak: protokol ini merupakan sebuah set aturan diam-diam yang digunakan bersama oleh para pengguna jaringan. Protokol ini mendefinisikan kondisi validitas transaksi, mekanisme pembuatan uang, format blok, kondisi Proof-of-Work, dan banyak spesifikasi lainnya. Untuk berinteraksi dengan protokol ini, pengguna harus menjalankan perangkat lunak yang mengimplementasikan aturan-aturan ini: ini dikenal sebagai **implementasi** Bitcoin.
-
-
-
-Oleh karena itu, implementasi adalah perangkat lunak node: program yang mampu berinteraksi dengan mesin lain di jaringan Bitcoin, mengunduh, memverifikasi, menyimpan, dan menyebarkan blok dan transaksi, dan secara lokal memberlakukan aturan konsensus dan relai. Setiap implementasi adalah interpretasi konkret dari protokol, yang ditulis dalam bahasa pemrograman tertentu, dengan arsitektur, kinerja, dan ergonomisnya sendiri. Setiap implementasi juga akan memiliki organisasi pengembangannya sendiri, dengan pembagian tanggung jawabnya sendiri.
-
-
+Oleh karena itu, implementasi adalah perangkat lunak node: program yang mampu berinteraksi dengan mesin lain di Jaringan Bitcoin, mengunduh, memverifikasi, menyimpan, dan menyebarkan blok serta transaksi, dan secara lokal memberlakukan aturan konsensus dan relay. Setiap implementasi adalah interpretasi konkret dari protokol, ditulis dalam bahasa pemrograman tertentu, dengan arsitektur, kinerja, dan ergonominya sendiri. Setiap implementasi juga akan memiliki organisasi pengembangannya sendiri, dengan pembagian tanggung jawabnya.
 
 Di antara semua implementasi ini, ada satu yang paling mendominasi: **Bitcoin core**.
 
-
-
 ![Image](assets/fr/055.webp)
-
-
 
 ### Implementasi bersejarah yang telah menjadi tolok ukur
 
+Bitcoin Core adalah perangkat lunak referensi untuk protokol Bitcoin. Ia berasal dari kode asli yang ditulis oleh Satoshi Nakamoto pada 2008-2009, dan merupakan kelanjutan langsung darinya. Awalnya dikenal sebagai "Bitcoin", kemudian _"Bitcoin QT_" (karena penambahan Graphical Interface melalui library Qt), namanya diganti menjadi "Bitcoin Core" pada tahun 2014 untuk membedakan perangkat lunak secara jelas dari jaringan. Sejak versi 0.5, Bitcoin Core didistribusikan dengan dua komponen: Bitcoin-qt (Graphical Interface) dan bitcoind (Command-line Interface).
 
-
-Bitcoin core adalah perangkat lunak referensi untuk protokol Bitcoin. Ini berasal dari kode asli yang ditulis oleh Satoshi Nakamoto pada tahun 2008-2009, dan merupakan kelanjutan langsung darinya. Awalnya dikenal sebagai "*Bitcoin*", kemudian "*Bitcoin QT*" (karena penambahan Interface grafis melalui perpustakaan Qt), kemudian diubah namanya menjadi "*Bitcoin core*" pada tahun 2014 untuk membedakan perangkat lunak dengan jelas dari jaringan. Sejak versi 0.5, telah didistribusikan dengan dua komponen: `Bitcoin-qt` (Interface grafis) dan `bitcoind` (Interface baris perintah).
-
-
-
-Secara teori, Bitcoin core tidak mewakili protokol Bitcoin; melainkan hanya satu implementasi di antara banyak implementasi lainnya. Namun, Bitcoin core dibedakan dari pengadopsiannya yang masif, usianya, kekokohan kodenya, dan ketelitian proses pengembangannya. Akibatnya, dalam praktiknya, aturan yang diterapkan oleh Bitcoin core secara de facto adalah aturan protokol Bitcoin: pengguna, pengembang, penambang, dan layanan ekosistem mengacu pada protokol tersebut hampir secara eksklusif.
-
-
+Secara teori, Bitcoin Core tidak mewakili protokol Bitcoin; melainkan, ini hanyalah salah satu implementasi di antara banyak lainnya. Namun, Bitcoin core dibedakan oleh adopsi masifnya, usianya, kekokohan kodenya, dan ketelitian proses pengembangannya. Akibatnya, dalam praktiknya, aturan yang diterapkan oleh Bitcoin Core secara de facto adalah aturan Protokol Bitcoin: pengguna, pengembang, miner, dan layanan ekosistem merujuk padanya hampir secara eksklusif.
 
 ### Distribusi implementasi saat ini
 
+[Menurut data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr]https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (seorang pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
 
-
-Menurut [data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr] (https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
-
-
-
-
-- Bitcoin core**: 87.3% dari node
-- Bitcoin Knots**: 12.5
-- Implementasi kumulatif lainnya**: 0.2% (btcsuite, Bcoin, BTCD...)
-
-
+- **Bitcoin Core**: 87.3% dari node
+- **Bitcoin Knots**: 12.5%
+- Implementasi Kumulatif Lainnya: 0.2% (btcsuite, Bcoin, BTCD...)
 
 ![Image](assets/fr/056.webp)
 
-
-
-Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin core. Sisa jaringan lainnya bergantung pada klien yang lebih marjinal (meskipun pangsa Knot telah meningkat tajam dalam beberapa bulan terakhir, paling tidak setelah perdebatan mengenai batas ukuran `OP_RETURN`). Implementasi alternatif ini sering kali dikelola oleh satu orang atau tim kecil.
-
-
+Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin Core. Sisa jaringan bergantung pada klien yang lebih marjinal (meskipun bagian Knots telah meningkat tajam dalam beberapa bulan terakhir). Implementasi alternatif ini sering dikelola oleh satu orang atau tim kecil.
 
 **Catatan:** Angka-angka ini masih merupakan perkiraan, namun, karena mereka terutama didasarkan pada *listening node*, yaitu node yang menerima koneksi yang masuk (dengan port 8333 terbuka). Node yang tidak mendengarkan *non-listening nodes* jauh lebih rumit untuk dihitung, karena tidak mungkin untuk terhubung dengan mereka secara langsung: Anda harus menunggu inisiatif datang dari mereka, dalam bentuk koneksi keluar. Situs Luke Dashjr mengklaim bahwa mereka juga mencoba untuk menghitung *non-listening node* ini, tetapi tetap tidak mungkin untuk mendapatkan data yang benar-benar akurat tentang mereka, dan pembaharuan statistik ini pasti akan tertinggal dari kenyataan.
 

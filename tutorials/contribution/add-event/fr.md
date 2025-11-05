@@ -40,7 +40,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![event](assets/06.webp)
 
-- Pour valider la création du dossier, il suffit d'ajouter0 un slash à la suite de votre nom dans la même case, par exemple : `paris-bitcoin-conference-2024/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
+- Pour valider la création du dossier, il suffit d'ajouter un slash à la suite de votre nom dans la même case, par exemple : `paris-bitcoin-conference-2024/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
 
 ![event](assets/07.webp)
 

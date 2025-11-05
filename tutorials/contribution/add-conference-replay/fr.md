@@ -154,7 +154,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![conference](assets/25.webp)
 
-- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image qui représente votre conférence et sera affichée sur le site de Plan ₿ Academy :
+- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image qui représente votre conférence et qui sera affichée sur le site de Plan ₿ Academy :
 
 ![conference](assets/26.webp)
 

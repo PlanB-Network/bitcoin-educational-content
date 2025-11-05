@@ -1,7 +1,7 @@
 ---
-name: JoinMarket
+nome: JoinMarket
 
-description: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitcoin tramite linea di comando
+descrizione: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitcoin tramite linea di comando
 ---
 
 ![cover](assets/cover.webp)
@@ -59,10 +59,10 @@ vim joinmarket.cfg
 
 una volta aperto noteremo numerose righe con varie impostazioni e relativa spiegazione in inglese. Nello specifico analizzeremo qua sotto le variabili piú interessanti:
 
-- `merge_algorithm` in caso facessimo da maker questo campo regola con quanta aggressivitá il software consoliderá gli Output non spesi. In caso avessimo molti UTXO da consolidare, potrebbe aver senso switchare da _gradual_ a _greedy_
-- `tx_fees` regola come taker le fees con cui pagare la transazione, é molto utile modificare questo setting in caso usaste spesso il tumbler (ne parleremo in seguito) in quanto se ci fosse uno spike delle fees durante l’esecuzione di quest’ultimo, se non settassimo correttamente questo campo, rischieremmo di andare a spendere tantissimi sats per i coinjoin. Settando valori in migliaia (come per esempio 2000) questo equivarrá a 2 sats/vByte, 3500 a 3.5 sats/vByte e cosi via. Mi sento di consigliare un numero che va da 1500 a 6000 in base alle vostre necessitá.
-- `max_cj_fee_abs` serve a specificare quanto siamo disposti a pagare in termini assoluti i maker che scegliamo durante il coinjoin. Di default questo campo per i maker é 200 sats, una buona opzione potrebbe essere un numero variabile da 200 a 1000 sats per controparte (questo in base a quanto volete spendere e quanto anon-set ricercate per i vostri coinjoin)
-- `max_cj_fee_rel` ha la stessa funzione del campo sopra ma specifica le fees relative (percentuali) che siamo disposti a pagare ad ogni controparte. Essendo questo un valore “percentuale”, state attenti a non settare valori alti per evitare costi elevati nei coinjoin con grossi importi. Il valore di default per i maker é _0.00002_, consiglio un valore simile o leggermente superiore.
+- `merge_algorithm` in caso facessimo da maker questo campo regola con quanta aggressivitá il software consoliderá gli Output non spesi. In caso avessimo molti UTXO da consolidare, potrebbe aver senso passare da _gradual_ a _greedy_
+- `tx_fees` regola le commissioni che un taker deve pagare le transazioni. È molto utile modificare questa impostazione se si utilizza frequentemente il tumbler (di cui parleremo più avanti). Se desideriamo impostare un limite massimo al numero di satoshi da pagare, è fondamentale configurare correttamente questo campo. In caso contrario, potremmo ritrovarci a spendere più del necessario per i coinjoin. Settando valori in migliaia (come per esempio 2000) questo equivarrá a 2 sats/vByte, 3500 a 3.5 sats/vByte e cosi via. Mi sento di consigliare un numero che va da 1500 a 6000 in base alle necessitá.
+- `max_cj_fee_abs`  consente di specificare l'importo massimo che siamo disposti a pagare in modo assoluto ai maker scelti durante il coinjoin.  Di default questo campo per i maker é 200 sats, una buona opzione potrebbe essere un numero variabile da 200 a 1000 sats per ogni controparte, a seconda di quanto desiderate spendere e del livello di anonimato che cercate per i vostri coinjoin.
+- `max_cj_fee_rel` ha la stessa funzione di 'max_cj_fee_abs', ma specifica le fees relative che siamo disposti a pagare ad ogni controparte. Essendo questo un valore percentuale, è importante non impostare valori alti per evitare costi elevati nei coinjoin con grossi importi. Il valore di default per i maker é _0.00002_, consiglio un valore simile o leggermente superiore.
 - `minimum_makers` é il campo che specifica con quante altre controparti facciamo coinjoin, di default joinMarket sceglie sempre da 4 a 9 controparti, volendo, per una maggiore privacy, possiamo alzare questo valore a 5 o 6 (renderá però le transazioni piú costose).
 - `cjfee_a` specifica, in caso facessimo da maker, quanti sats in termini assoluti vogliamo incassare per l’affitto della nostra liquiditá. Questo campo é totalmente soggettivo, il valore di default é gia ottimo (avremo così miglior privacy come maker) possiamo valutare di portarlo a 0 se vogliamo fare piú coinjoin in meno tempo.
 - `cjfee_r` uguale al campo sopra citato ma in termini percentuali e non assoluti. Anche qua consiglio di lasciare il valore di default o abbassarlo per attrarre piú takers.

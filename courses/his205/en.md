@@ -161,7 +161,7 @@ An overview of human evolution from Australopithecus to modern man, following te
 - **1st century AD** - North African Berbers domesticate the camel.
 
 
-So, here's this historical overview to give us a perspective on the emergence of certain technologies, domestication of certain animals and cultures, to put it in context with the emergence of writing and money, which will be the subject of our next section.
+So, here's this historical overview to give us a perspective on the emergence of certain technologies, domestication of certain animals, and cultures, to put it in context with the emergence of writing and money, which will be the subject of our next section.
 
 
 ## From Hunter-Gatherer to Farmer: The Dawn of Civilization
@@ -173,7 +173,7 @@ So, here's this historical overview to give us a perspective on the emergence of
 ### The transition to agriculture and sedentarization
 
 
-In this chapter, we're going to talk about the transition from hunting and gathering to subsistence agriculture, crafts and trade. I felt it was important to explain this transition to sedentary life and agriculture, to understand how the first cities were built, which eventually led to the creation and emergence of certain monetary systems during Antiquity.
+In this chapter, we're going to talk about the transition from hunting and gathering to subsistence agriculture, crafts and trade. I felt it was important to explain this transition to a sedentary life and agriculture, to understand how the first cities were built, which eventually led to the creation and emergence of certain monetary systems during Antiquity.
 
 
 This section is an extract from a course available on The Great Courses website called Ancient Mesopotamia, Life in the Cradle of Civilization, given by Professor Amanda Podany of California State Polytechnic University, Ponoma.
@@ -182,10 +182,10 @@ This section is an extract from a course available on The Great Courses website 
 ### The paradoxes of adopting agriculture
 
 
-Primitive agriculture appeared around 10,500 years ago in the Near East, around north-western Syria and southern Turkey. Today, modern hunter-gatherer groups are in no hurry to adopt agriculture, and the same was probably true during the Neolithic period.
+Primitive agriculture appeared around 10,500 years ago in the Near East, around northwestern Syria and southern Turkey. Today, modern hunter-gatherer groups are in no hurry to adopt agriculture, and the same was probably true during the Neolithic period.
 
 
-**The first villages were clearly built before the domestication of plants and animals.** People didn't settle because agriculture allowed them to; on the contrary, they settled first and only much later, 3,000 years later, did they start farming.
+**The first villages were clearly built before the domestication of plants and animals.** People didn't settle because agriculture allowed them to; on the contrary, they settled first and only much later, about 3,000 years later, did they start farming.
 
 
 Hunting and gathering simply worked very well, so they didn't need to plant seeds to produce their food. Today, hunter-gatherers have much more free time than the first farmers, who used very rudimentary technologies.
@@ -203,10 +203,10 @@ Those who follow the "keto" diet will agree: eating a lot of bread is probably n
 ### Theories on the adoption of agriculture
 
 
-Given all these disadvantages, who would have chosen to become a farmer back then? Well, some popular theories suggest that humans were forced to adopt agriculture and that it wasn't really a choice. Even with wild grains, there was a major problem. Large quantities of grain could not be transported easily. They had to be stored somewhere. Once the grain was stored, it made sense to stay close by. So you grow wild grain, which isn't necessarily agriculture, and when you grow it in large quantities, you have to store it somewhere, and it's not easy to transport. This is probably what contributed to the first phases of sedentarization. It may well have been the initial reason why people settled in a particular place. If this place provided food all year round, there was no need to follow herds or travel constantly.
+Given all these disadvantages, who would have chosen to become a farmer back then? Well, some popular theories suggest that humans were forced to adopt agriculture and that it wasn't really a choice. Even with wild grains, there was a major problem. Large quantities of grain could not be transported easily. They had to be stored somewhere. Once the grain was stored, it made sense to stay close by. So, you grew wild grain, which wasn't necessarily agriculture, and when you grew it in large quantities, you had to store it somewhere, making it difficult to transport. This likely contributed to the first phases of sedentarization. It may well have been the initial reason why people settled in a particular place. If this place provided food all year round, there was no need to follow herds or travel constantly.
 
 
-In the Natoufian culture, up to a hundred people lived together in villages made up of round houses. A popular theory explaining the beginnings of agriculture is that this change was stimulated by climate change. Around 11,000 years ago, the climate in the Near East became colder and drier than before. Plants and animals that had previously been abundant became rarer. Communities would then have begun to cultivate the plants on which they depended, or to keep young animals to raise and profit from them, such as sheep, goats and cattle, which would lend themselves well to such breeding. This would have been a very gradual process. So there wasn't a precise moment when they all became farmers who domesticated animals.
+In the Natoufian culture, up to a hundred people lived together in villages made up of round houses. A popular theory explaining the beginnings of agriculture is that this change was stimulated by climate change. Around 11,000 years ago, the climate in the Near East became colder and drier than before. Plants and animals that had previously been abundant became rarer. Communities would then have begun to cultivate the plants on which they dependeded, or to keep young animals to raise and profit from them, such as sheep, goats and cattle, which would lend themselves well to such breeding. This would have been a very gradual process. So, there wasn't a precise moment when they all became farmers who domesticated animals.
 
 
 Another theory is that the villages themselves created the problem solved by domestication. Intensive hunting and gathering would have destabilized the natural environment. According to one hypothesis, the Natoufians had achieved such demographic success that they had become too numerous for their immediate environment. Thus, the swamps and areas where natural crops were grown may not have been productive enough for the village's population. The immediate environment was not able to provide for everyone. They would then have started to cultivate directly on site and increase their food supply.
@@ -252,7 +252,7 @@ Archaeological remains bear witness to this growing stratification: burials evol
 ### The emergence of distance exchanges
 
 
-Archaeological analysis reveals surprising exchange networks for the time. Materials such as obsidian, green rock (dolerite, jadeite), shells and bitumen were found hundreds of kilometers from their extraction sites. Polished green rock axes, essential for deforestation and the construction of early villages, circulated throughout Neolithic Europe.
+Archaeological analysis reveals surprising exchange networks for the time. Materials such as obsidian, green rock (dolerite, jadeite), shells, and bitumen were found hundreds of kilometers from their extraction sites. Polished green rock axes, essential for deforestation and the construction of early villages, circulated throughout Neolithic Europe.
 
 
 These exchanges concern both raw materials and finished objects, revealing an appreciation of artisanal specialization. The value attributed integrates both the rarity of the material and the technical skill required to transform it.
@@ -264,12 +264,12 @@ The organization of exchanges varies according to the scale considered. **Within
 There are several types of barter:
 
 
-- The **troc direct**: immediate exchange of good for good
-- The **extended troc**: exchanging goods for services or promises
-- The **deferred token**: interpersonal debt with subsequent repayment
+- The **direct barter**: immediate exchange of good for good
+- The **extended barter**: exchanging goods for services or promises
+- The **deferred barter**: interpersonal debt with subsequent repayment
 
 
-**Between different communities**, the absence of bonds of personal trust favored the emergence of more formalized exchanges. Certain goods gradually acquired a special status through their ability to be demanded by outside groups, prefiguring the first forms of proto-currency.
+**Between different communities**, the absence of bonds of personal trust favored the emergence of more formalized exchanges. Certain goods gradually acquired a special status through their ability to be demanded by foreign groups, prefiguring the first forms of proto-currency.
 
 
 The Austrian school of economics interprets this evolution as the spontaneous emergence of privileged exchange goods. Shells, archaeologically attested as early as the Mesolithic, illustrate this phenomenon: found far from their geographical origin (Mediterranean shells in western France, Nordic shells on other sites), they testify to a common recognition of their exchange value.
@@ -278,7 +278,7 @@ The Austrian school of economics interprets this evolution as the spontaneous em
 These goods are distinguished by their **ability to be demanded by others**, an essential quality that prefigures the monetary function. Although they did not achieve the standardization of historical currencies, they were the first steps towards depersonalized exchange systems, a prerequisite for the development of complex societies beyond the tribal framework.
 
 
-The Neolithic thus laid the foundations of the modern economy: specialization of labor, private property, accumulation of wealth, social hierarchization and the emergence of sophisticated exchange systems that transcended the bonds of kinship and direct neighborliness.
+The Neolithic thus laid the foundations of the modern economy: specialization of labor, private property, accumulation of wealth, social hierarchization, and the emergence of sophisticated exchange systems that transcended the bonds of kinship and direct neighborliness.
 
 
 ## The formation of the first cities and the emergence of writing

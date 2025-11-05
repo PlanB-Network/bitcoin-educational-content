@@ -383,46 +383,46 @@ Lightning Network ituma ama  rungika nama rungikwa aba anyaruka  nku muvuduko w�
 ![BIZ101](assets/rn/006.webp)
 
 
-**Ivyiza vy'ingenzi:**
+**akamaro kurufunguruzo:**
 
 
 
-- **Umuvuduko:** Ibikorwa vy'ubuhinga.
-- **Amafaranga make:** Amafaranga make cane ugereranije n'imirongo y'amabanki ya kera.
-- **Kworoshe kwemera:** Ubucuruzi burashobora kwihuta gushinga amahera yo kwemera amahera ya Lightning hakoreshejwe gusa porogarama ya telefone ngendanwa canke buto yo kwishura ku rubuga rwabo.
+- **Umuvuduko:** irungika ryihuse
+- **Amafaranga make:** Amafaranga akatwa ni make cane ugereranije n'uburyo bwokuriha baciye mumabanki( ubuhinga busa nuburiko burasaza).
+- **Kworosha ivyikoreshwa ryayo:** Uruganda rurashobora kwihuta kwemeza amarihwa   yamahera  ya Lightning hakoreshejwe gusa urubuga rwayo ruri muri telefone ngendanwa canke mugukanda kwibuto yemeza igikorwa cokuriha  ku rubuga rwabo rwo kuri internet.
 
 
-Ivyubatswe vya Lightning biraruta uburyo bwa kera bwo kwishura mu bijanye n’umuvuduko, igiciro, n’ugukoresha neza inguvu. Kubera ko abacuruzi bariko bararushiriza kwemera, inguvu zizokwihuta: nimba ukwishyura gushobora guca ku nzira y’amabanki y’inyagano, ni kuki twobandanya gutanga igice kinini c’amahera yinjira ku bacuruzi b’ubu?
+Inyubako ya Lightning iraruta uburyo bwa kera bwo kwishura mu bijanye n’umuvuduko, igiciro, n’ugukoresha neza inguvu. Kubera ko abacuruzi bariko bararushiriza gukoresha ubwo buhinga bwanone , inguvu zizokwiyongera cane: nimba uko kwishura  gushobora kuba kudaciye munzira y’amabanki y’ifatiye abantu, ni kuki twobandanya gutanga igice kinini c’amahera banki ikata tumannje kuyicako?
 
 
-**Ibikoresho bitagira iherezo:**
+**Ikoreshwa itagira imbibe:**
 
-Ibikorwa vya Lightning birarenga kure cane amafaranga make n’umuvuduko. Mu gutanga inzira y’igariyamoshi y’ubuntu kandi yishurwa ubwo nyene, bifungura amahirwe menshi mu bukungu bwose.
-
-
-**Kwongera ubushobozi bwa Bitcoin bwa Exchange:**
-
-Umuravyo ukomeza uruhara rwa Bitcoin nk'"umurongozi wa Exchange." Mu kwongera incuro n’umwidegemvyo w’ugucuruza, birakomeza igikorwa nyamukuru c’amahera: kworohereza uguhanahana ubutunzi no kurema agaciro ku bari muri iyo nama bose.
+Ibikorwa vya Lightning birarenga kure cane amafaranga make n’umuvuduko biduha. Mu gutanga inzira y’ihuse kandi y’ubuntu kandi ikora ubwo nyene, bifungura amahirwe menshi mu bukungu bwose.
 
 
-Iterambere ry'imbere ry'"ubutunzi bw'imashini y'ubwenge" rizosaba uburyo bwo kwishura bwihuta cane, bukoreshwa incuro nyinshi, urugero rw'ubuhinga Lightning yonyene ishobora gushitsa. Ivyo bituma habaho uguhingura ibintu n’ibikorwa vyinshi. Uko Supply ya Bitcoin iguma ari nto, ubushobozi bwo kugura bw’ikigo kimwekimwe cose buzokwongerekana. Bitcoin na Lightning birakomera hamwe uko imihora yabo igenda irakura.
+**Kwongera ubushobozi bwoguhana hana  Bitcoin :**
+
+Lightning yongereza akamaro ka Bitcoin nk'"uburyo bwoguhana hana amafaranga ." Mu kwongera  umuvuduko hamwe numwidegevyo wayo , birakomeza igikorwa nyamukuru c’amahera: kworohereza uguhanahana ubutunzi no kurema agaciro ku bantu bose bayikoresha.
 
 
-Lightning itanga akarorero k’akazoza aho ubucuruzi bwose bwacitse bushingiye kuri internet na bwo buzoba bushingiye kuri Bitcoin.
+Iterambere ryo muri kazoza ry'"ubutunzi bw'amashini y'ubwenge" rizosaba uburyo bwo kwishura bwihuta cane, bukoreshwa incuro nyinshi, urugero rw'ubuhinga Lightning yonyene ishobora gushitsa. Ivyo bituma habaho uguhingura ibintu n’ibikorwa vyinshi. Bitcoin iguma ari nto, bisigura ko agaciro kayo kazoca kongerekana . Bitcoin na Lightning birihabmwe bica vyongereza inguvu uko imihora yabo igenda irakura.
 
 
-**Ivyishyurwa vya Bitcoin ku Muravyo: Igikoresho gisanzwe c'Umucuruzi**
+Lightning itanga ishusho y’akazoza aho inganda  zose  zishingiye kuri internet na zo zizoba zishingiye kuri Bitcoin.
+
+
+**Ivyi yishura rya Bitcoin biciye kuri Lightning: **
 
 
 Lightning Network ni nziza cane ku kwishura Bitcoin mu maduka agaragara canke yo kuri internet kubera umuvuduko wayo n’iherezo ry’ukwishura.
 
 
-- Umuvuduko: **Umuravyo** (~500ms gushika ku masegonda make) uranyaruka cane kuruta urubuga rwa Bitcoin, aho amafaranga ashobora gutwara nk'iminota 30 kugira ngo yemezwe. Ku bijanye n'ugugura ibintu vyinshi (birenga cane amadolari 1.000), uruja n'uruza rwa Bitcoin rushobora kuba rukiri rwo gukundwa, kuko umuvuduko udahambaye cane. Ariko rero, ivyo bintu akenshi birahishwa umuntu asanzwe abikoresha, kuko porogarama zifata izo ngingo ata nkomanzi mu nyuma.
-- **Iherezo:** Iyo umuntu amaze kwishura kuri Lightning, ni iherezo. Nta n'ubushobozi bwo gusubizwa amahera n'abandi canke amatati ajanye n'ubuhendanyi.
-- **Amafaranga:** Amafaranga y'ugucuruza kuri Lightning Network ni make cane kandi arihwa n'uwukoresha, atari umucuruzi. Abacuruzi bararonka amahera gusa iyo mu nyuma bakeneye kwimurira Bitcoin yabo ku yindi nzira canke ku yindi nzira.
+- Umuvuduko: **Umuravyo** (~500ms gushika ku masegonda make) uranyaruka cane kuruta urubuga rwa Bitcoin, aho amafaranga ashobora gutwara nk'iminota 30 kugira ngo yemezwe. Ku bijanye n'ukugura ibintu vyinshi (birenga cane amadolari 1.000), umuhora nyamukuru wa Bitcoin niwe ukuzwa gukoreshwa murico gihe kubera ariwe wizewe kurusha kuvyumutekano , kuko umuvuduko mwicogihe siwe aba ari wingenzi. Ariko rero, ivyo bintu akenshi birahishwa umuntu asanzwe abikoresha, kuko ubuhinga zifata izo ngingo mumuco atabusuma burimwo.
+- **Iherezo:** Iyo umuntu amaze kwishura kuri Lightning, ni burundu. Nta n'ubushobozi bwo gusubizwa amahera n'abandi canke amatati ajanye n'ubuhendanyi.
+- **Amafaranga:** Amafaranga y'ugucuruza kuri Lightning Network ni make cane kandi arihwa n'uwukoresha, atari umucuruzi. Abacuruzi bariha amahera gusa iyo mu nyuma bakeneye kwimurira Bitcoin yabo ku yindi nzira canke ku yundi muhora .
 
 
-**IKARITA Y'AKANDAMUKA Y'UMURAHO**
+**IKARITA NDANGA YA LIGHTNING**
 
 
 
@@ -461,7 +461,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 <chapterId>656ad88f-3c27-4054-a94e-b29727009b8e</chapterId>
 
 
-### Ishirahamwe rifise amagara meza
+### Ishirahamwe yikwije 
 
 
 **Kazoza ntikamenyekana**, kandi ubucuruzi butegerezwa guca muri ukwo kutamenyekana bushimikiye cane ku kuronka inyungu no kuzigama umutungo. Dushingiye ku bukungu bwa Otirishiya, **inyungu ni ikimenyetso nyamukuru c’amagara y’ishirahamwe**—vyerekana ko ubucuruzi buriko burashitsa neza ivyo abaguzi bakeneye. Iyo ishirahamwe ritagira inyungu, ntirishobora kwitunga, n’ugukura n’ukuvuga. Kugira ubucuruzi bugumye bufise amagara meza, ntibutegerezwa gusa kuronka inyungu za generate ariko kandi butegerezwa kwiyumvira imbere, **kubika umutungo wo gukoresha mu gihe kizoza n’ingorane**.
@@ -476,16 +476,16 @@ Ibimenyetso vy’isoko nk’ibiciro n’uguhiganwa biyobora ubucuruzi mu gufata 
 Amaherezo, kuguma ufise ubudandaji bwiza bisobanura kuguma ushobora guhindura uko ubona ibintu, guhitamwo neza ivy’amahera, no kwama ubona kazoza. **Mu kwibanda ku nyungu, mu kuzigama umutungo, no mu kwishura ku bimenyetso vy’isoko, ubudandaji—bunini canke buto—burashobora gutera imbere mbere no mu gihe hari ukudakeka**.
 
 
-### Mbega Capital irafise ingeso nziza ?
+### Mbega umutungo n'ingeso nziza ?
 
 
 **Uko umutungo mukuru ugaragazwa muri rusangi**
 
 
-Reka dusubire kumenya ico umutungo ari co vy’ukuri—ijambo rikunda gutahurwa nabi kandi ribonwa nabi mu kibano cacu.
+Reka dusubire kumenya ico umutungo ico ari co  vy’ukuri—ijambo rikunda gutahurwa nabi kandi ribonwa nabi mu kibano cacu.
 
 
-Mu nyigisho y’ubutunzi ya kera (Keynesian), umutungo ubonwa kenshi mu majambo yoroshe nk’ububiko bumwe bw’itunga ry’umubiri canke ry’ivy’amahera, ahanini rikoreshwa mu gutuma habaho ugusaba kwose biciye mu gushora imari mu bikorwa. Akenshi bifatanywa n’ugushira hamwe ubutunzi n’ububasha bw’ubutunzi bufiswe n’abantu bakeyi b’abanyacubahiro. Mu gihe ubukene bw’ubutunzi bubandanya kwaguka, benshi babona ko umutungo ari ikimenyetso c’ubusumbane mu vy’ubutunzi, cane cane iyo ubutunzi bwirundanijwe busa n’ubutagira akamaro ku bantu benshi.
+Mu nyigisho y’ubutunzi ya kera (Keynesian), umutungo ubonwa kenshi mu majambo yoroshe nk’ububiko bumwe bw’itunga ry’umubiri canke ry’ivy’amahera, ahanini rikoreshwa mu gutuma habaho ugusaba kwose biciye mu gushora imari mu bikorwa. Akenshi bifatanywa n’ugushira hamwe ubutunzi n’ububasha bw’ubutunzi bufiswe n’abantu bakeyi b’abanyacubahiro. Mu gihe uburushane  bw’ubutunzi bubandanya kwaguka, benshi babona ko umutungo ari ikimenyetso c’ubusumbane mu vy’ubutunzi, cane cane iyo ubutunzi bwirundanijwe busa n’ubutagira akamaro ku bantu benshi.
 
 
 "Umutungo" akenshi werekanwa nk'igikoresho co gukoresha nabi, kandi iyo nzira yaragize ico ikoze cane ku migwi itandukanye ibona ko umutungo urwanya inyungu z'abakozi. Ariko none ivyo vyoba ari ukuri? Canke iyo nzira yo gutahura ibintu yoshobora kugoramwa n’ibi:

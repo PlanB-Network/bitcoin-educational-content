@@ -1,7 +1,7 @@
 question: Apa alasan utama untuk memasang Block explorer lokal seperti Mempool.Space pada Umbrel?
 answer: Menjaga kerahasiaan dan menggunakan data dari node Anda sendiri
 wrong_answers:
-  - Mempercepat sinkronisasi Bitcoin core awal
+  - Mempercepat sinkronisasi Bitcoin core di awal
   - Meningkatkan kapasitas penyimpanan yang tersedia untuk blok
   - Mendapatkan saluran Lightning
 explanation: |

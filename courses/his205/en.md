@@ -6,7 +6,7 @@ objectives:
   - Understand the emergence and evolution of different forms of money throughout history
   - Analyze the monetary systems of great civilizations and empires
   - Study the transition from metallic to paper money and the fiat system
-  - Examining the role of banks and central banks in monetary development
+  - Examine the role of banks and central banks in monetary development
   - Establish links between monetary history and contemporary economic crises
 
 ---

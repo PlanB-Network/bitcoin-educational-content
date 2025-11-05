@@ -1,17 +1,18 @@
 ---
 name: LineageOS
-description: Sistema operativo non legato ad Android, gratuito per gli smartphone
+description: Sistema operativo per gli smartphone, gratuito e derivato da Android
 ---
 
 ![cover](assets/cover.webp)
 
-I sistemi Android convenzionali preinstallati sui nostri smartphone pongono una serie di problemi ben noti: l'integrazione intensiva dei servizi Google che porta a un costante tracciamento dei dati, le applicazioni sponsorizzate indesiderate (bloatware) imposte dai produttori e l'abbandono del tracciamento degli aggiornamenti dopo pochi anni, condannando i dispositivi ancora funzionanti a un'obsolescenza programmata.
+I sistemi Android convenzionali preinstallati sui nostri smartphone pongono una serie di problemi ben noti: l'integrazione intensiva dei servizi Google che porta a un costante tracciamento dei dati, le applicazioni sponsorizzate indesiderate (bloatware) imposte dai produttori e l'abbandono del supporto degli aggiornamenti dopo pochi anni, condannando i dispositivi ancora funzionanti a un'obsolescenza programmata.
 
 LineageOS si presenta come una risposta elegante a questi problemi. Prodotto della comunità open source e diretto successore di CyanogenMod (dismesso alla fine del 2016), LineageOS è un sistema operativo mobile gratuito basato su Android che riporta gli utenti al controllo dei propri smartphone. Lanciato ufficialmente nel dicembre 2016, il progetto vanta oggi oltre 4,4 milioni di installazioni attive in tutto il mondo e supporta centinaia di modelli di telefono di oltre 20 marchi diversi.
 
 ![lineageos-homepage](assets/fr/01.webp)
 
 *Il sito ufficiale di LineageOS presenta il progetto e i suoi obiettivi*
+
 
 ## Che cos'è LineageOS?
 
@@ -30,7 +31,7 @@ Le statistiche ufficiali rivelano la portata del progetto: con oltre 4,4 milioni
 
 ## Caratteristiche principali
 
-### Interface e esperienza utente
+### Interfacci e esperienza utente
 
 **Android puro**: LineageOS offre un'autentica esperienza Android vicina ad AOSP, senza sovrapposizioni di produttori o applicazioni superflue. Il Interface rimane familiare agli utenti Android e offre una fluidità ottimale grazie all'assenza di bloatware.
 
@@ -51,7 +52,7 @@ LineageOS supporta centinaia di dispositivi di oltre 20 produttori: Samsung, Xia
 
 ![devices-compatibility](assets/fr/02.webp)
 
-*Pagina dei dispositivi compatibili con LineageOS con filtri per produttori*
+*Pagina dei dispositivi compatibili con LineageOS con filtro per scegliere i produttori*
 
 ![google-devices](assets/fr/03.webp)
 
@@ -65,7 +66,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 **Bootloader sbloccabile**: Verificare che il produttore/operatore consenta lo sblocco. Alcuni marchi, come Huawei, hanno eliminato questa possibilità sui modelli più recenti, mentre altri impongono procedure specifiche.
 
-**Modello esatto**: È fondamentale scaricare la ROM che corrisponde esattamente al vostro dispositivo. Due modelli con nomi commerciali simili possono differire dal punto di vista tecnico (Galaxy S10 vs S10 5G ad esempio) e richiedere immagini diverse.
+**Modello esatto**: È fondamentale scaricare la ROM che corrisponde esattamente al vostro dispositivo. Due modelli con nomi commerciali simili possono differire dal punto di vista tecnico (Galaxy S10 vs S10 5G ad esempio) e richiedere file immagini diversi.
 
 **Supporto scalabile**: I dispositivi più recenti potrebbero non essere supportati immediatamente, poiché il porting richiede uno sviluppatore volontario che se ne occupi. Al contrario, il supporto può cessare se il manutentore di un dispositivo si ritira dal progetto.
 
@@ -76,35 +77,33 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 ⚠️ **Leggere completamente queste istruzioni prima di iniziare** per evitare qualsiasi problema!
 
-**Ripristino del firmware stock (se necessario) :**
+**Ripristino del firmware stock (se necessario):**
 
-- Strumento Android Flash**: Utilizzare lo strumento ufficiale di Google [flash.android.com] (https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
-- Alternativa**: Immagini di fabbrica manualmente da [developers.google.com/android/images](https://developers.google.com/android/images)
+- **Strumento Android Flash**: utilizza lo strumento ufficiale di Google [flash.android.com] (https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
+- **Alternativa**: scarica manualmente il file immagine di fabbrica da [developers.google.com/android/images](https://developers.google.com/android/images)
 
 **Test prerequisiti obbligatori:**
-
-- Avviare il dispositivo almeno una volta** con il sistema stock originale
-- Test di tutte le funzioni**: SMS, chiamate, Wi-Fi, dati mobili
-- Importante**: Verificare che sia possibile inviare/ricevere SMS ed effettuare/ricevere chiamate (anche via WiFi e 4G/5G). Se non funziona con il sistema stock, non funzionerà nemmeno con LineageOS!
-- Dispositivi recenti**: Alcuni richiedono l'utilizzo di VoLTE/VoWiFi almeno una volta sul sistema stock per fornire IMS
+- **Avvia il dispositivo almeno una volta** con il sistema stock originale
+- **Test di tutte le funzioni**: SMS, chiamate, Wi-Fi, dati mobili
+- **Importante**: verifica che sia possibile inviare/ricevere SMS ed effettuare/ricevere chiamate (anche via WiFi e 4G/5G). Se non funziona con il sistema stock, non funzionerà nemmeno con LineageOS!
+- **Dispositivi recenti**: alcuni richiedono l'utilizzo di VoLTE/VoWiFi almeno una volta sul sistema stock per fornire IMS.
 
 **Preparazione del sistema**
+- **Rimuovere tutti gli account Google** dal dispositivo per evitare la protezione del ripristino di fabbrica, che potrebbe bloccare l'attivazione
+- **Backup completo**: il processo cancella completamente il telefono. Fai un backup di foto, contatti, applicazioni e file importanti
 
-- Rimuovere tutti gli account Google** dal dispositivo per evitare la protezione del ripristino di fabbrica, che potrebbe bloccare l'attivazione
-- Backup completo** : Il processo cancella completamente il telefono. Backup di foto, contatti, applicazioni e file importanti
-
-**Strumenti ADB e Fastboot:** Seguire la [guida ufficiale LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) per installare gli strumenti della piattaforma Android SDK. Verificare l'installazione con `adb version` e `fastboot --version`.
+**Strumenti ADB e Fastboot**: segui la [guida ufficiale LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) per installare gli strumenti della piattaforma Android SDK. Verificare l'installazione con `adb version` e `fastboot --version`.
 
 **Configurazione del telefono**
 
-- Attivare le **Opzioni sviluppatore**: Impostazioni > Informazioni > toccare 7 volte "Numero di build"
+- Attiva le **Opzioni sviluppatore**: Impostazioni > Informazioni > toccare 7 volte la voce "Numero di build"
 
 ![android-version](assets/fr/06.webp)
 
-*Passare a Impostazioni > Informazioni sul telefono per attivare la modalità sviluppatore*
+*Passa a Impostazioni > Informazioni sul telefono per attivare la modalità sviluppatore*
 
-- Abilitare il **debug USB** nelle opzioni dello sviluppatore
-- Attivare **OEM Unlock** (essenziale per sbloccare il bootloader)
+- Abilita il **debug USB** nelle opzioni dello sviluppatore
+- Attiva **OEM Unlock** (essenziale per sbloccare il bootloader)
 
 ![developer-options](assets/fr/07.webp)
 
@@ -112,57 +111,56 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 ### Installazione dettagliata
 
-⚠️ **Queste istruzioni sono specifiche per LineageOS 22.2. Seguire con precisione ogni passo. Non andare avanti se qualcosa non funziona!
+⚠️ **Queste istruzioni sono specifiche per LineageOS 22.2. Segui con precisione ogni passo. Non andare avanti se qualcosa non funziona!**
 
 #### Passo 1: Controllo del firmware
 
-**Richiesta di firmware**: Il dispositivo deve avere installato Android 13 prima di continuare (per Pixel 4). Il firmware si riferisce alle immagini specifiche del dispositivo incluse nel sistema stock.
+**Richiesta di firmware**: il dispositivo deve avere installato Android 13 prima di continuare (per Pixel 4). Il firmware si riferisce alle immagini specifiche del dispositivo incluse nel sistema stock.
 
 ![pixel4-info](assets/fr/04.webp)
 
-*Pagina ufficiale del Pixel 4 con link per il download e guide per l'installazione*
+*Pagina ufficiale del Pixel 4 con link per il download e le guide per l'installazione*
 
 ![downloads-page](assets/fr/05.webp)
 
-*Pagina di download della build di LineageOS e file*
+*Pagina di download della build di LineageOS e altri file*
 
 **Download specifici di Pixel 4**
-
-- Costruire LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- File richiesti**: Scaricate i 3 file necessari da questa pagina (verranno utilizzati nei passaggi successivi):
+- **Build LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
+- **File richiesti**: ccarica i 3 file necessari da questa pagina (verranno utilizzati nei passaggi successivi):
   - `lineage-22.2-YYYMMDD-nightly-flame-signed.zip` (ROM principale)
-  - dtbo.img` (blob della struttura dei dispositivi di partizione)
+  - `dtbo.img` (blob della struttura dei dispositivi di partizione)
   - `boot.img` (LineageOS di ripristino)
 
-⚠️ **Importante**: Controllare la versione di Android, non la versione del sistema operativo del produttore. L'utilizzo di una ROM personalizzata (anche LineageOS) non garantisce che questo requisito sia soddisfatto.
+⚠️ **Importante**: controlla la versione di Android, non la versione del sistema operativo del produttore. L'utilizzo di una ROM personalizzata (anche LineageOS) non garantisce che questo requisito sia soddisfatto.
 
-💡 **Tip**: In caso di dubbi sul firmware, tornare al sistema stock prima di continuare!
+💡 **Tip**: In caso di dubbi sul firmware, torna al sistema stock prima di continuare!
 
 #### Passo 2: sblocco del bootloader
 
 ⚠️ **Questo passaggio cancella tutti i dati!**
 
-- Testare la connessione ADB**: Collegare il dispositivo via USB e testare con il comando `adb devices` dal terminale del computer
+- **Testare la connessione ADB**: Collegare il dispositivo via USB e testare con il comando `adb devices` dal terminale del computer
 
 ![adb-devices](assets/fr/08.webp)
 
 *Controllare la connessione ADB con il comando `adb devices`*
 
-- Autorizzare la connessione** sul telefono
+- **Autorizza la connessione** sul telefono
 
 ![usb-debugging-auth](assets/fr/09.webp)
 
 *Debug USB abilitato con l'impronta digitale RSA del computer*
 
-- Avvio in modalità bootloader** :
+- **Avvio in modalità bootloader**:
 
 ```
 adb -d reboot bootloader
 ```
 
-Oppure tenere premuto **Volume giù + Accensione** per spegnere il dispositivo
+Oppure tieni premuto **Volume giù + Accensione** per spegnere il dispositivo
 
-- Controllare la connessione fastboot**:
+- **Controlla la connessione fastboot**:
 
 ```
 fastboot devices
@@ -176,13 +174,13 @@ fastboot devices
 
 *Display fastboot del Pixel 4 con informazioni di sistema*
 
-- Sbloccare il bootloader** :
+- **Sbloccare il bootloader**:
 
 ```
 fastboot flashing unlock
 ```
 
-Sul dispositivo, utilizzare i tasti del volume per navigare e premere il tasto **Power** per selezionare "Unlock the bootloader" e confermare l'operazione
+Sul dispositivo, utilizza i tasti del volume per navigare e premere il tasto **Power** per selezionare "Unlock the bootloader" e conferma l'operazione
 
 ![unlock-bootloader](assets/fr/12.webp)
 
@@ -190,14 +188,14 @@ Sul dispositivo, utilizzare i tasti del volume per navigare e premere il tasto *
 
 ⚠️ **Il telefono si riavvierà automaticamente** dopo la conferma dello sblocco
 
-- Dopo il riavvio automatico**, riabilitare il debug USB nelle opzioni sviluppatore
+- **Dopo il riavvio automatico**, riabilita il debug USB nelle opzioni sviluppatore
 
 #### Passo 3: Flash di partizioni aggiuntive
 
-⚠️ **Richiesta per il corretto funzionamento del recupero**
+⚠️ **Richieste per il corretto funzionamento del recupero**
 
-- Riavviare il bootloader**: Volume giù + alimentazione
-- Flash** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file) :
+- **Riavviare il bootloader**: volume giù + alimentazione
+- **Flash** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file):
 
 ```
 fastboot flash dtbo /chemin/vers/dtbo.img
@@ -209,13 +207,13 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 
 #### Passo 4: Installazione del ripristino di LineageOS
 
-- Flash recovery** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file) :
+- Flash recovery** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file):
 
 ```
 fastboot flash boot /chemin/vers/boot.img
 ```
 
-- Riavviare in recovery** per verificare
+- **Riavviare in recovery** per verificare
 
 #### Passo 5: Installazione di LineageOS
 
@@ -223,22 +221,22 @@ fastboot flash boot /chemin/vers/boot.img
 
 ![recovery-mode](assets/fr/14.webp)
 
-*Interface da LineageOS con il menu principale*
+*Interfaccia di LineageOS dal menu principale*
 
-- Reset di fabbrica** : Digitare "Reset di fabbrica" → "Formattazione dati / reset di fabbrica"
+- **Reset di fabbrica**: Digita "Reset di fabbrica" → "Formattazione dati / reset di fabbrica"
 
 ![factory-reset](assets/fr/15.webp)
 
-*Procedura di ripristino della fabbrica in LineageOS* recovery
+*Procedura di ripristino di fabbrica in LineageOS*
 
-- Ritorno al menu principale**
-- Caricamento automatico di LineageOS** :
+- **Ritorno al menu principale**
+- **Caricamento automatico di LineageOS**:
    - Sul dispositivo: "Applica aggiornamento" → "Applica da ADB"
    - Sul PC: `adb -d sideload /path/to/lineageos.zip`
 
 ![apply-update](assets/fr/16.webp)
 
-*Selezionare "Applica aggiornamento" e poi "Applica da ADB" nel ripristino*
+*Seleziona "Applica aggiornamento" e poi "Applica da ADB" nel ripristino*
 
 ![sideload-process](assets/fr/17.webp)
 
@@ -246,49 +244,48 @@ fastboot flash boot /chemin/vers/boot.img
 
 ![sideload-terminal](assets/fr/18.webp)
 
-*Comando Sideload nel terminale con l'avanzamento dell'installazione
+*Comando Sideload nel terminale con l'avanzamento dell'installazione*
 
-💡 **Normale**: Il processo potrebbe arrestarsi al 47% o visualizzare errori di "Successo": questo è normale!
+💡 **Normalità**: il processo potrebbe arrestarsi al 47% o visualizzare errori di "Successo": questo è normale!
 
 #### Fase 6: primo avvio
 
-- Riavvio**: "Riavvia subito il sistema"
-- Primo avvio**: Può richiedere fino a 15 minuti
+- **Riavvio**: "Riavvia subito il sistema"
+- **Primo avvio**: Può richiedere fino a 15 minuti
 
-🎉 **Installazione completata!
+🎉 **Installazione completata!**
 
-### Punti di attenzione
+### Punti di interesse
 
 ⚠️ **Attenzione**: LineageOS viene fornito "così com'è" senza alcuna garanzia. Sebbene ci impegniamo al massimo per garantire che tutto funzioni, l'installazione avviene a proprio rischio e pericolo!
 
 **Controlli critici**
-
-- Compatibilità del firmware**: Assicurarsi di verificare la versione del firmware richiesta nella pagina di download del proprio modello
-- Mai ribloccare** il bootloader dopo l'installazione di LineageOS
-- Seguire le istruzioni specifiche** per il dispositivo in uso
+- **Compatibilità del firmware**: assicurarti di verificare la versione del firmware richiesta dal proprio modello nella pagina di download
+- **Mai ribloccare** il bootloader dopo l'installazione di LineageOS
+- **Segui le istruzioni specifiche** per il dispositivo in uso
 
 
 ## Configurazione e applicazioni
 
 ### Primo avvio
 
-Interface semplificato, vicino ad Android stock, senza Google. Configurazione semplice: lingua, Wi-Fi, nessun account richiesto.
+Interfaccia semplificata, simile ad Android stock, senza Google. Configurazione semplice: lingua, Wi-Fi, nessun account richiesto.
 
 ### Applicazioni alternative
 
-**Sorgenti applicative sicure:**
+**Sorgenti sicure delle applicazione:**
 
-**F-Droid** : Il negozio di applicazioni open source di riferimento, preinstallato con LineageOS per microG o scaricabile direttamente. F-Droid offre solo software open source verificato e compilato in modo trasparente, garantendo l'assenza di tracker o componenti dannosi.
+**F-Droid**: il negozio di applicazioni open source di riferimento, preinstallato con LineageOS per microG o scaricabile direttamente. F-Droid offre solo software open source verificato e compilato in modo trasparente, garantendo l'assenza di tracker o componenti dannosi.
 
-**Aurora Store**: Client anonimo per accedere al Google Play Store senza un account Google. Aurora prende in prestito gli account anonimi condivisi, consentendo di scaricare le applicazioni più diffuse preservando la propria privacy.
+**Aurora Store**: client anonimo per accedere al Google Play Store senza un account Google. Aurora prende in prestito gli account anonimi condivisi, consentendo di scaricare le applicazioni più diffuse preservando la propria privacy.
 
-**Applicazioni alternative essenziali
+**Applicazioni alternative essenziali**
 
-- Navigazione**: Organic Maps (mappe offline basate su OpenStreetMap)
-- Comunicazione**: Signal (messaggi crittografati end-to-end), K-9 Mail (client di posta elettronica gratuito)
-- Media**: NewPipe (YouTube senza pubblicità e senza tracciamento), VLC (lettore multimediale universale)
-- Produttività**: Nextcloud (cloud self-hosting), Simple Calendar (sincronizzazione CalDAV)
-- Sicurezza**: Bitwarden (gestore di password), Aegis Authenticator (codici 2FA)
+- **Navigazione**: Organic Maps (mappe offline basate su OpenStreetMap)
+- **Comunicazione**: Signal (messaggi crittografati end-to-end), K-9 Mail (client di posta elettronica gratuito)
+- **Media**: NewPipe (YouTube senza pubblicità e senza tracciamento), VLC (lettore multimediale universale)
+- **Produttività**: Nextcloud (cloud self-hosting), Simple Calendar (sincronizzazione CalDAV)
+- **Sicurezza**: Bitwarden (gestore di password), Aegis Authenticator (codici 2FA)
 
 Queste applicazioni, la maggior parte delle quali sono disponibili tramite F-Droid, formano un ecosistema coerente che può sostituire completamente i servizi di Google, offrendo al contempo un'esperienza utente moderna e funzionale.
 
@@ -297,7 +294,7 @@ Queste applicazioni, la maggior parte delle quali sono disponibili tramite F-Dro
 
 ### Esperienza quotidiana
 
-LineageOS trasforma l'esperienza Android, dando priorità alla fluidità e alla reattività. La snella Interface è particolarmente efficace sui dispositivi più vecchi, che ricevono una nuova vita, con prestazioni generalmente superiori alle ROM del produttore grazie all'assenza di pesanti overlay e processi superflui.
+LineageOS trasforma l'esperienza Android, dando priorità alla fluidità e alla reattività. La snella interfaccia è particolarmente efficace sui dispositivi più vecchi, che ricevono una nuova vita, con prestazioni generalmente superiori alle ROM del produttore grazie all'assenza di pesanti overlay e processi superflui.
 
 Le funzionalità di base (chiamate, SMS, foto, navigazione) funzionano senza problemi, mentre gli strumenti di personalizzazione consentono di adattare il sistema alle preferenze individuali senza comprometterne la stabilità.
 
@@ -310,13 +307,11 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 ### Migliori pratiche consigliate
 
 **Sicurezza post-installazione:**
-
 - Impostare un PIN o una password forte per lo sblocco
 - Verificare che la crittografia dello storage sia abilitata (di solito è un'impostazione predefinita)
 - Installare un gestore di password come Bitwarden tramite F-Droid
 
 **Manutenzione preventiva**
-
 - Aggiornamenti OTA regolari per la sicurezza
 - Limitare l'installazione delle applicazioni a fonti affidabili (F-Droid, Aurora Store)
 - Rivedere periodicamente le autorizzazioni concesse alle applicazioni
@@ -325,22 +320,21 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 ## Vantaggi e limiti
 
-✅ **Benefici:**
-
+✅ **Benefici**:
 - Privacy predefinita (nessun tracciamento da parte di Google)
 - Ampia compatibilità (oltre 300 modelli)
 - Prestazioni superiori (nessun bloatware)
 - Aggiornamenti estesi sui dispositivi più vecchi
 
-❌ **Limitazioni:**
-
+❌ **Limitazioni**:
 - Installazione tecnica
 - Niente Android Auto/Google Pay
 - Le app bancarie possono essere problematiche
 
+
 ## GrapheneOS vs LineageOS: qual è la differenza?
 
-### Approcci distinti
+### Approcci diversi
 
 **GrapheneOS** si concentra esclusivamente sulla massima sicurezza e viene eseguito solo sui Google Pixel per sfruttare i loro chip di sicurezza dedicati. Il sistema incorpora numerose mitigazioni avanzate contro gli exploit e rafforza notevolmente il sandboxing delle applicazioni.
 
@@ -354,13 +348,13 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 ### Confronto tecnico
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
-|------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+|    **Aspect**     | **GrapheneOS**       | **LineageOS**                   |
+|-------------------|:--------------------:|:-------------------------------:|
+| **Compatibilité** | Pixels uniquement    | Centaines d'appareils           |
+| **Sécurité**      | Mitigations avancées | Sécurité AOSP standard          |
+| **Google Play**   | Sandboxé optionnel   | Installation classique possible |
+| **Installation**  | Interface web + USB  | Procédure manuelle technique    |
+| **Philosophie**   | Sécurité avant tout  | Équilibre et liberté de choix   |
 
 ### Raccomandazioni per l'uso
 
@@ -370,7 +364,7 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 ## Conclusione
 
-LineageOS offre un'alternativa matura per riprendere il controllo del vostro smartphone Android. Esperienza libera, prestazioni ottimali, ampia compatibilità: la scelta ideale per combinare privacy e praticità quotidiana.
+LineageOS offre un'alternativa matura per riprendere il controllo del tuo smartphone Android. Esperienza libera, prestazioni ottimali, ampia compatibilità: la scelta ideale per combinare privacy e praticità quotidiana.
 
 
 ## Risorse
@@ -378,10 +372,10 @@ LineageOS offre un'alternativa matura per riprendere il controllo del vostro sma
 ### Documentazione ufficiale
 
 - [Sito ufficiale di LineageOS](https://lineageos.org)
-- [Wiki LineageOS](https://wiki.lineageos.org) - Guide all'installazione per modello
+- [Wiki LineageOS](https://wiki.lineageos.org) - Guide all'installazione per i modelli supportati
 - [LineageOS per microG](https://lineage.microg.org) - Versione con microG integrato
 
-### Comunità
+### Community
 
 - [Subreddit r/LineageOS](https://reddit.com/r/LineageOS)
 - [Account Mastodon @LineageOS](https://fosstodon.org/@LineageOS)

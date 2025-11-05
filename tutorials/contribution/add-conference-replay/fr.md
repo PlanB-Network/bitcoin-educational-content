@@ -4,7 +4,7 @@ description: Comment ajouter le replay d'une conférence sur Plan ₿ Academy ?
 ---
 ![conference](assets/cover.webp)
 
-La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
+La mission de Plan₿ est de mettre à disposition des ressources pédagogique de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
 Vous souhaitez ajouter le replay de votre conférence Bitcoin sur le site de Plan ₿ Academy et donner de la visibilité à cet évènement, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 
@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
+- Rendez-vous sur [le dépôt GitHub de Plan₿ dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
 
 ![conference](assets/02.webp)
 
@@ -174,11 +174,11 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![conference](assets/30.webp)
 
-- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite puis sur `Delete file` :
+- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite, puis sur `Delete file` :
 
 ![conference](assets/31.webp)
 
-- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes` :
+- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes...` :
 
 ![conference](assets/32.webp)
 
@@ -263,7 +263,7 @@ Speaker: Satoshi Nakamoto
 
 - Sous chaque titre de second niveau, insérez un lien vers la vidéo de replay correspondante. La syntaxe doit être : `![video](https://youtu.be/XXXXXXXXXXXX)`, en remplaçant `XXXXXXXXXXXX` par le véritable lien de la vidéo.
 
-- Si le format le permet (conférences individuelles), vous pouvez ajouter le nom des intervenants. Pour cela, ajoutez le champs `Speaker:` suivi du nom ou du pseudonyme de l'intervenant sous le lien de la vidéo. En cas de multiples intervenants, séparez chaque nom par une virgule, comme cela par exemple : `Speaker: Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto`.
+- Si le format le permet (conférences individuelles), vous pouvez ajouter le nom des intervenants. Pour cela, ajoutez le champ `Speaker:` suivi du nom ou du pseudonyme de l'intervenant sous le lien de la vidéo. En cas de multiples intervenants, séparez chaque nom par une virgule, comme dans cet exemple : `Speaker: Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto`.
 
 ---
 

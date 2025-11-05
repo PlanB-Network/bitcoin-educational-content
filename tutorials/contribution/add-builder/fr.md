@@ -15,7 +15,7 @@ Vous souhaitez ajouter un nouveau "project" Bitcoin sur le site de Plan ₿ Acad
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) dans la section `resources/project/` :
+- Rendez-vous sur [le dépôt GitHub de Plan₿ dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) dans la section `resources/project/` :
 
 ![project](assets/02.webp)
 
@@ -64,9 +64,10 @@ links:
 
 tags:
   - 
-  - 
+  -
 
 category:
+
 ```
 
 Voici ce qu'il faut remplir dans chaque clé :
@@ -183,8 +184,7 @@ category: education
 
 ![project](assets/25.webp)
 
-- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image de votre entreprise ou de votre logiciel. C'est cette image qui sera affichée sur le site de Plan ₿
-Academy :
+- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image de votre entreprise ou de votre logiciel. C'est cette image qui sera affichée sur le site de Plan ₿ Academy :
 
 ![project](assets/26.webp)
 
@@ -204,11 +204,11 @@ Academy :
 
 ![project](assets/30.webp)
 
-- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite puis sur `Delete file` :
+- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite, puis sur `Delete file` :
 
 ![project](assets/31.webp)
 
-- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes` :
+- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes...` :
 
 ![project](assets/32.webp)
 
@@ -238,7 +238,7 @@ contributors:
 ```
 
 - Pour la clé `contributors`, vous pouvez ajouter votre identifiant de contributeur à Plan ₿ Academy si vous en avez un. Si vous n'en avez pas, laissez ce champ vide.
-- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre entreprise ou votre logiciel. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de PlanB le feront avec leur modèle. Par exemple, voici à quoi pourrait ressembler votre fichier :
+- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre entreprise ou votre logiciel. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de Plan₿ le feront avec leur modèle. Par exemple, voici à quoi pourrait ressembler votre fichier :
 
 ```yaml
 description: |
@@ -249,7 +249,7 @@ contributors:
 
 ![project](assets/37.webp)
 
-- Cliquez sur le bouton `Commit changes` :
+- Cliquez sur le bouton `Commit changes...` :
 
 ![project](assets/38.webp)
 

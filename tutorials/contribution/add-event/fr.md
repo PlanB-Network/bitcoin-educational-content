@@ -4,7 +4,7 @@ description: Comment proposer l'ajout d'un nouvel évènement sur Plan ₿ Acade
 ---
 ![event](assets/cover.webp)
 
-La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
+La mission de Plan₿ est de mettre à disposition des ressources pédagogiques de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
 Vous souhaitez ajouter une conférence Bitcoin sur le site de Plan ₿ Academy et donner de la visibilité à votre évènement, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 
@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/resource/add-conference-replay-3282
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
+- Rendez-vous sur [le dépôt GitHub de Plan₿ dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
 
 ![event](assets/02.webp)
 
@@ -40,7 +40,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![event](assets/06.webp)
 
-- Pour valider la création du dossier, il suffit de noter un slash à la suite de votre nom dans la même case, par exemple : `paris-bitcoin-conference-2024/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
+- Pour valider la création du dossier, il suffit d'ajouter0 un slash à la suite de votre nom dans la même case, par exemple : `paris-bitcoin-conference-2024/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
 
 ![event](assets/07.webp)
 
@@ -175,7 +175,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/25.webp)
 
-- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image qui représente votre conférence et sera affichée sur le site de Plan ₿ Academy :
+- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image représentant votre conférence, qui sera affichée sur le site de Plan ₿ Academy :
 
 ![event](assets/26.webp)
 
@@ -195,11 +195,11 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/30.webp)
 
-- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite puis sur `Delete file` :
+- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite, puis sur `Delete file` :
 
 ![event](assets/31.webp)
 
-- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes` :
+- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes...` :
 
 ![event](assets/32.webp)
 

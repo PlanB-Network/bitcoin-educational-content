@@ -106,7 +106,7 @@ Node Bitcoin secara kolektif membentuk apa yang dikenal sebagai Jaringan Bitcoin
 
 Sejak awal, Bitcoin dirancang untuk memungkinkan setiap pengguna menjalankan node pribadi. Kasus ini tetap valid dengan perangkat lunak Bitcoin Core saat ini, yang menggabungkan peran wallet dan node. Namun saat ini, fungsi ini sering dipisahkan: banyak wallet Bitcoin modern hanyalah wallet yang terhubung ke node eksternal (milik orang yang sama atau bukan).
 
-### Pertahankan Blockchain
+### Mengamankan Blockchain
 
 Tugas pertama node adalah memelihara salinan lokal dari Blockchain. Untuk mencegah double-spending pada Bitcoin tanpa melibatkan otoritas pusat, setiap pengguna harus memeriksa bahwa tidak ada transaksi yang sudah ada dalam sistem. Satu-satunya cara untuk yakin akan hal ini adalah dengan mengetahui semua transaksi yang telah dilakukan di Bitcoin. Untuk alasan ini, semua transaksi diberi timestamp dan dikelompokkan ke dalam blok, dan setiap node menyimpan seluruh Blockchain.
 
@@ -213,7 +213,7 @@ Secara teori, Bitcoin Core tidak mewakili protokol Bitcoin; melainkan, ini hanya
 
 ![Image](assets/fr/056.webp)
 
-Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin Core. Sisa jaringan bergantung pada klien yang lebih marjinal (meskipun bagian Knots telah meningkat tajam dalam beberapa bulan terakhir). Implementasi alternatif ini sering dikelola oleh satu orang atau tim kecil.
+Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin Core. Sisa jaringan bergantung pada aplikasi lebih marjinal (meskipun bagian Knots telah meningkat tajam dalam beberapa bulan terakhir). Implementasi alternatif ini sering dikelola oleh satu orang atau tim kecil.
 
 **Catatan**: Angka-angka ini masih berupa perkiraan, karena terutama didasarkan pada _listening nodes_, yaitu node yang menerima koneksi masuk (dengan port 8333 terbuka). Non-listening nodes jauh lebih kompleks untuk dihitung, karena tidak mungkin untuk terhubung langsung dengannya: Anda harus menunggu inisiatif datang dari mereka, dalam bentuk koneksi keluar.
 Situs web Luke Dashjr mengklaim mencoba menghitung _non-listening nodes_ ini juga, tetapi tetap tidak mungkin mendapatkan data yang akurat sempurna tentang mereka, dan pembaruan statistik ini pasti akan tertinggal dari kenyataan."
@@ -232,7 +232,7 @@ Pengembangan Bitcoin Core mengikuti logika meritokratis: kontributor baru didoro
 
 ### Implementasi Bitcoin lainnya
 
-Meskipun marjinal dalam hal adopsi, klien lain memang ada. Yang terbanyak adalah Bitcoin Knots, yang dikembangkan oleh Luke Dashjr, sebuah fork dari Bitcoin Core yang menggabungkan opsi tambahan dan pendekatan pengembangan yang lebih konservatif. Ini termasuk pembatasan yang lebih ketat pada format transaksi.
+Meskipun marjinal dalam hal adopsi, aplikasi lain memang ada. Yang terbanyak adalah Bitcoin Knots, yang dikembangkan oleh Luke Dashjr, sebuah fork dari Bitcoin Core yang menggabungkan opsi tambahan dan pendekatan pengembangan yang lebih konservatif. Ini termasuk pembatasan yang lebih ketat pada format transaksi.
 
 ![Image](assets/fr/058.webp)
 
@@ -294,511 +294,268 @@ Menjalankan full node berarti Anda dapat memeriksa semua aturan protokol sendiri
 
 ### Distribusi keamanan sistem yang lebih baik
 
+Setiap node yang bergabung dengan jaringan memperkuat redudansi dan ketahanan Bitcoin. Ini memfasilitasi penyebaran informasi dan memungkinkan peer baru untuk terhubung satu sama lain. Tanpa node, sistem tidak akan dapat dioperasikan.
 
+Seperti yang telah kita lihat, keamanan Bitcoin tidak didasarkan pada desentralisasi, mining, atau kriptografi: seperti sistem apa pun, ia bergantung pada individu. Lebih tepatnya, ia bergantung pada kemampuan operator node untuk melawan paksaan.
 
-Setiap node yang bergabung dalam jaringan memperkuat redundansi dan ketahanan Bitcoin. Ini memfasilitasi penyebaran informasi dan memungkinkan rekan-rekan baru untuk terhubung satu sama lain. Tanpa node, sistem tidak akan dapat dioperasikan.
+Apa yang membedakan sistem terdesentralisasi seperti Bitcoin adalah distribusi risiko di antara semua yang terlibat dalam operasinya. Menjalankan Node Bitcoin Anda sendiri berarti menerima bagian dari risiko ini dengan memastikan keamanan instans Anda; dengan melakukan itu, Anda juga meringankan beban risiko bagi operator node lain.
 
-
-
-Seperti yang telah kita lihat, keamanan Bitcoin tidak didasarkan pada desentralisasi, Mining, atau kriptografi: seperti halnya sistem apa pun, ia bergantung pada individu. Lebih tepatnya, ini bergantung pada kemampuan operator node untuk menolak paksaan.
-
-
-
-Yang membedakan sistem terdesentralisasi seperti Bitcoin adalah distribusi risiko di antara semua pihak yang terlibat dalam pengoperasiannya. Menjalankan node Bitcoin Anda sendiri berarti menerima bagian dari risiko ini dengan memastikan keamanan instance Anda; dengan demikian, Anda juga meringankan beban risiko bagi operator node lainnya.
-
-
-
-Jadi, ini bukan keuntungan pribadi secara langsung: menjalankan sebuah node membuat Anda ikut bertanggung jawab atas keamanan jaringan. Yang terpenting, ini adalah manfaat kolektif, karena keterlibatan Anda membantu menyebarkan risiko. Pada gilirannya, Anda meningkatkan kemampuan Anda sendiri untuk menggunakan Bitcoin dengan andal.
-
-
+Jadi ini bukan manfaat pribadi secara langsung: menjalankan node membuat Anda sebagian bertanggung jawab atas keamanan jaringan. Yang terpenting, ini adalah manfaat kolektif, karena keterlibatan Anda membantu menyebarkan risiko. Pada gilirannya, Anda meningkatkan kemampuan Anda sendiri untuk menggunakan Bitcoin secara andal.
 
 ### Memperdalam pemahaman Anda tentang sistem
 
+Menginstalasi full node bukanlah operasi sepele. Ini melibatkan pemasangan perangkat lunak, memahami operasi dasar, memantau sinkronisasi, memeriksa log jika terjadi masalah, dan bahkan menggunakan terminal. Ini pasti akan menuntun Anda untuk memperdalam pemahaman Anda tentang protokol. Ini adalah keuntungan tidak langsung, tetapi bukan keuntungan yang signifikan.
 
-
-Menginstalasi Full node bukanlah operasi yang sepele. Ini melibatkan penginstalan perangkat lunak, memahami pengoperasian dasar, memantau sinkronisasi, memeriksa log jika terjadi masalah, dan bahkan menggunakan terminal. Hal ini tentu saja akan menuntun Anda untuk memperdalam pemahaman Anda tentang protokol. Ini adalah keuntungan tidak langsung, tetapi bukan keuntungan yang tidak signifikan.
-
-
-
-Memperoleh pengetahuan ini memperkuat kepercayaan Anda terhadap alat dan dapat mengurangi risiko kesalahan atau paparan terhadap penipuan. Menjalankan node sendiri juga berarti belajar.
-
-
+Memperoleh pengetahuan ini memperkuat kepercayaan Anda pada programnya dan dapat mengurangi risiko kesalahan atau paparan terhadap penipuan. Menjalankan node Anda sendiri juga berarti proses belajar.
 
 ### Memilih aturan mana yang akan diterapkan
 
+Aspek penting, yang sering disalahpahami, adalah bahwa mengoperasikan node memungkinkan Anda memilih aturan yang Anda terapkan secara lokal. Ada dua jenis aturan utama:
 
+- **Aturan Konsensus:**
 
-Aspek penting yang sering disalahpahami adalah bahwa mengoperasikan sebuah node memungkinkan Anda untuk memilih aturan yang Anda terapkan secara lokal. Ada dua jenis aturan utama:
+Ini adalah aturan fundamental dari protokol Bitcoin, memastikan integritas sistem dan menetapkan kriteria untuk memvalidasi transaksi dan blok. Setiap transaksi yang tidak mematuhi aturan konsensus ini tidak akan pernah dapat dimasukkan dalam blok yang valid. Misalnya, transaksi dengan tanda tangan yang tidak valid akan secara sistematis dikecualikan.
 
+Mengubah aturan ini setara dengan mengubah protokol, dan ternasuk juga mata uang (Hard Fork). Namun, fakta sederhana untuk secara ketat menerapkan aturan yang ada memberikan kekuatan tertentu: jika sebuah blok melanggar aturan, node segera menolaknya.
 
+- **Aturan Relai**:
 
+Ini adalah aturan spesifik untuk setiap Node Bitcoin, yang ditambahkan ke aturan konsensus untuk mendefinisikan struktur transaksi yang belum dikonfirmasi yang diterima di Mempool dan diteruskan ke peer. Setiap node mengonfigurasi dan menerapkan aturan ini secara lokal, yang menjelaskan mengapa aturan tersebut mungkin berbeda dari satu node ke node lain. Aturan ini hanya berlaku untuk transaksi yang belum dikonfirmasi: transaksi yang dianggap "tidak standar" oleh node hanya akan diterima jika sudah muncul dalam blok yang valid. Mengubah aturan ini tidak mengecualikan node dari sistem Bitcoin. Mengubah aturan ini tidak mengeluarkan node dari sistem Bitcoin.
 
-
-- Aturan konsensus**:
-
-
-
-Ini adalah aturan dasar dari protokol Bitcoin, memastikan integritas sistem dan menetapkan kriteria untuk memvalidasi transaksi dan blok. Setiap transaksi yang tidak sesuai dengan aturan konsensus ini tidak akan pernah dimasukkan ke dalam blok yang valid. Sebagai contoh, sebuah transaksi dengan tanda tangan yang tidak valid pada salah satu entri akan secara sistematis dikecualikan.
-
-
-
-Mengubah aturan ini sama dengan mengubah protokol, dan oleh karena itu mata uang (Hard Fork). Akan tetapi, bahkan tanpa mencoba untuk memodifikasinya, fakta sederhana dari penerapan aturan yang ada secara ketat memberikan kekuatan tertentu: jika sebuah blok melanggar aturan, node akan segera menolaknya.
-
-
-
-
-
-- Aturan estafet**:
-
-
-
-Ini adalah aturan khusus untuk setiap node Bitcoin, yang ditambahkan ke aturan konsensus untuk mendefinisikan struktur transaksi yang belum dikonfirmasi yang diterima di Mempool dan diteruskan ke rekan-rekan. Setiap node mengonfigurasi dan menerapkan aturan-aturan ini secara lokal, yang menjelaskan mengapa aturan-aturan ini mungkin berbeda dari satu node ke node lainnya. Aturan ini hanya berlaku untuk transaksi yang belum dikonfirmasi: transaksi yang dianggap "tidak standar" oleh sebuah node hanya akan diterima jika transaksi tersebut telah muncul dalam blok yang valid. Mengubah aturan ini tidak mengecualikan node dari sistem Bitcoin.
-
-
-
-Sebagai contoh, sebuah transaksi tanpa biaya, menurut aturan konsensus, sangat valid, tetapi akan ditolak secara default menurut kebijakan relai Bitcoin core, karena parameter `minRelayTxFee` disetel ke `0,00001` (dalam BTC/kB). Namun, dimungkinkan, pada node Anda sendiri, untuk menurunkan ambang batas ini untuk merelay transaksi dengan biaya yang lebih rendah, atau, sebaliknya, untuk meningkatkan batas, misalnya, menjadi 2 Sats/vB, untuk menghindari merelay transaksi dengan biaya rendah.
-
+Contoh: Transaksi tanpa biaya, menurut aturan konsensus, sepenuhnya valid, tetapi secara default akan ditolak menurut kebijakan relay Bitcoin Core, karena parameter `minRelayTxFee` diatur ke `0,00001` (dalam BTC/kB). Namun, dimungkinkan, pada node Anda sendiri, untuk menurunkan ambang batas ini untuk meneruskan transaksi dengan biaya lebih rendah, atau, sebaliknya, meningkatkan batas, misalnya, menjadi 2 Sats/vB, untuk menghindari merelay transaksi dengan biaya rendah.
 
 
 Memutar simpul Anda sendiri berarti menegaskan: "Saya memvalidasi apa yang saya pilih untuk divalidasi, sesuai dengan aturan yang saya terapkan sendiri "*. Dengan demikian, Anda menjadi aktor dalam tata kelola sistem, dapat menolak evolusi yang tampaknya tidak dapat Anda terima, atau menyetujui pembaruan sesuai dengan kriteria Anda sendiri.
 
+Menjalankan node Anda sendiri berarti menegaskan: _"Saya memvalidasi apa yang saya pilih untuk divalidasi, sesuai dengan aturan yang saya adopsi sendiri"_. Dengan demikian, Anda menjadi aktor dalam tata kelola sistem, mampu menolak evolusi yang tampaknya tidak dapat diterima oleh Anda, atau menyetujui pembaruan sesuai dengan kriteria Anda sendiri.
 
-
-Jadi, kami dapat dengan cepat mencoba memahami seberapa besar kekuatan yang Anda miliki atas aturan berkat node Anda. Dan sejauh mana kekuatan ini akan tergantung pada jenis aturan.
-
-
+Jadi, kita dapat dengan cepat mencoba memahami seberapa besar berkat dari kekuatan yang Anda miliki atas aturan dari node Anda. Dan tingkat kekuatan ini akan bergantung pada jenis aturannya.
 
 #### Untuk aturan relai
 
+Sejauh menyangkut aturan relay, hal mendasar adalah memiliki node, terlepas dari aktivitas ekonominya. Yang dipertaruhkan di sini adalah apakah Anda setuju atau tidak untuk meneruskan jenis transaksi tertentu.
 
+Jika, misalnya, Anda yakin bahwa transaksi dengan biaya kurang dari 1 sat/vB harus diterima di Bitcoin, Anda dapat menyesuaikan aturan ini pada node Anda sehingga menyiarkan transaksi tersebut, dengan demikian memfasilitasi penyebarannya di jaringan sampai miner pada akhirnya memasukkannya ke dalam blok yang valid. Pada dasarnya, ini adalah masalah kekuatan atas penyebaran transaksi: setiap node memiliki kekuatan pengambilan keputusan, karena menyetujui untuk meneruskan jenis transaksi sama saja dengan mempromosikan penerimaannya di Jaringan Bitcoin. Akibatnya, jika Anda mengoperasikan beberapa node, Anda memiliki pengaruh yang lebih besar terhadap kebijakan relay, karena setiap node memiliki koneksi dan area dampaknya sendiri pada jaringan.
 
-Sejauh menyangkut aturan relaying, hal yang penting adalah memiliki node, terlepas dari aktivitas ekonominya. Yang dipertaruhkan di sini adalah apakah Anda setuju untuk merelay jenis transaksi tertentu atau tidak.
-
-
-
-Jika, misalnya, Anda yakin bahwa transaksi dengan biaya kurang dari 1 sat/vB harus diterima di Bitcoin, Anda dapat menyesuaikan aturan ini di node Anda sehingga node tersebut menyiarkan transaksi ini, dengan demikian memfasilitasi penyebarannya di jaringan hingga Miner akhirnya memasukkannya ke dalam blok yang valid. Pada dasarnya, ini adalah pertanyaan tentang kekuasaan atas penyebaran transaksi: setiap node memiliki kekuasaan untuk mengambil keputusan, karena menyetujui untuk menyiarkan suatu jenis transaksi sama saja dengan mempromosikan penerimaannya di jaringan Bitcoin. Akibatnya, jika Anda mengoperasikan beberapa node, Anda memiliki pengaruh yang lebih besar terhadap kebijakan relai, karena setiap node memiliki koneksi dan area dampaknya sendiri pada jaringan.
-
-
-
-Memang, memiliki satu atau lebih node yang dikonfigurasikan dengan aturan relai tertentu berarti menentukan bagian mana dari jaringan yang menerima untuk menyebarkan jenis transaksi tertentu. Menyebarkan pesan dalam grafik peer-to-peer, seperti halnya transaksi Bitcoin, mengikuti logika teori perkolasi. Bayangkan setiap node sebagai sebuah situs yang dapat aktif (`p` = ia merelay) atau tidak aktif (`1-p`). Segera setelah proporsi `p` melewati ambang batas kritis (`p_c`), sebuah komponen raksasa muncul: transaksi berhasil melintasi jaringan dan memiliki peluang untuk mencapai Miner. Dalam jaringan seperti Bitcoin, di mana setiap node memiliki rata-rata 8 koneksi keluar, ambang batas `p_c` biasanya ditetapkan hanya beberapa persen, bahkan lebih rendah jika beberapa node memiliki jumlah koneksi yang sangat besar.
-
-
+Memang, Memiliki satu atau lebih node yang dikonfigurasi dengan aturan relay spesifik berarti menentukan bagian mana dari jaringan yang menerima untuk menyebarkan jenis transaksi tertentu. Menyebarkan pesan dalam grafik peer-to-peer, seperti halnya untuk transaksi Bitcoin, mengikuti logika teori perkolasi. Bayangkan setiap node sebagai situs yang dapat aktif (`p` = ia merelay) atau tidak aktif (`1-p`). Segera setelah proporsi `p` melewati ambang batas kritis (`p_c`), komponen raksasa muncul: transaksi berhasil melintasi jaringan dan memiliki setiap peluang untuk mencapai miner. Dalam jaringan seperti Bitcoin, di mana setiap node memelihara rata-rata 8 koneksi keluar, ambang batas `p_c` umumnya ditetapkan hanya pada beberapa persen, bahkan lebih rendah jika beberapa node memiliki jumlah koneksi yang sangat besar.
 
 ![Image](assets/fr/061.webp)
 
+Selama `p` tetap berada di bawah `p_c`, transaksi tetap terbatas pada kantong-kantong terisolasi dan tidak mencapai miner. Segera setelah ambang batas ini terlampaui, transaksi menyebar hampir seketika ke seluruh jaringan.
 
+Pada akhirnya, selalu para miner yang memutuskan apakah akan menyertakan transaksi dalam blok atau tidak. Namun, para node melakukan intervensi di bagian hulu dengan memengaruhi distribusi transaksi: mereka menentukan apakah para miner akan mengetahui transaksi tertentu atau tidak. Jika transaksi tidak diteruskan ke miner, jelas tidak mungkin bagi mereka untuk memasukkannya ke dalam blok.
 
-Selama `p` tetap berada di bawah `p_c`, sebuah transaksi tetap terbatas pada kantong-kantong yang terisolasi dan tidak mencapai Miner. Begitu ambang batas ini terlampaui, transaksi akan menyebar hampir seketika ke seluruh jaringan.
-
-
-
-Pada akhirnya, para penambanglah yang memutuskan apakah akan memasukkan sebuah transaksi ke dalam blok atau tidak. Akan tetapi, node mengintervensi dari hulu dengan mempengaruhi distribusi transaksi: node menentukan apakah para penambang akan mengetahui adanya transaksi tertentu atau tidak. Jika sebuah transaksi tidak diteruskan kepada para penambang, maka jelas tidak mungkin bagi mereka untuk memasukkannya ke dalam blok.
-
-
-
-Oleh karena itu, menambahkan beberapa node lagi hanya akan memberikan dampak yang kecil jika jaringan sudah berada dalam fase perkolasi untuk jenis transaksi tertentu, tetapi hal tersebut dapat menjadi penentu ketika ambang batas perkolasi semakin dekat. Memiliki atau mempengaruhi beberapa node, terutama jika node tersebut terhubung dengan baik, dapat menambah atau mengurangi nilai `p` dan, akibatnya, secara tidak langsung mengarahkan aturan relai yang menentukan transaksi mana yang dilihat dan akhirnya diterima oleh penambang.
-
-
+Menambahkan beberapa node lagi karena itu hanya akan memiliki dampak marjinal jika jaringan sudah berada dalam fase perkolasi untuk jenis transaksi tertentu, tetapi dapat terbukti menentukan karena ambang batas perkolasi mendekat. Memiliki atau memengaruhi beberapa node, terutama jika node terhubung dengan baik, dapat meningkatkan atau mengurangi nilai `p` dan, akibatnya, secara tidak langsung mengarahkan aturan relay yang menentukan transaksi mana yang dilihat dan pada akhirnya diterima oleh miner.
 
 #### Untuk aturan konsensus
 
+Ketika menyangkut pengaruh node Anda pada aturan konsensus, bobot ekonominya lah, di atas segalanya, yang akan menjadi penentu. Ini adalah konsep krusial: nilai mata uang apa pun secara langsung terkait dengan kemampuannya untuk memfasilitasi pertukaran. Memang, jika suatu objek tidak diterima oleh siapa pun dalam pertukaran barang atau jasa, secara teoretis ia tidak memiliki utilitas moneter. Misalnya, jika tidak ada pedagang yang menerima kerikil sebagai alat pembayaran, kerikil tersebut tidak berguna sebagai uang. Tentu saja, utilitas tetap merupakan gagasan subjektif pada skala individu, tetapi di wilayah tertentu, semakin besar jumlah pedagang yang menerima suatu objek sebagai alat tukar, semakin besar kemungkinan objek tersebut memiliki utilitas moneter bagi orang-orang yang tinggal di wilayah ini.
 
+Mari kita ambil contoh desa di mana banyak pedagang menerima emas sebagai ganti membeli barang: kemungkinan besar emas memiliki utilitas moneter bagi penduduk desa. Ini menunjukkan bahwa utilitas mata uang bergantung langsung pada keputusan para pedagang untuk menerima atau menolak mata uang tersebut.
 
-Dalam hal pengaruh node Anda terhadap aturan konsensus, bobot ekonominya, di atas segalanya, adalah hal yang paling menentukan. Ini adalah konsep yang sangat penting: nilai mata uang apa pun secara langsung terkait dengan kemampuannya untuk memfasilitasi Exchange. Memang, jika sebuah objek tidak diterima oleh siapa pun di Exchange untuk barang atau jasa, secara teoritis objek tersebut tidak memiliki utilitas moneter. Sebagai contoh, jika tidak ada pedagang yang menerima kerikil sebagai alat pembayaran, maka kerikil tidak memiliki kegunaan sebagai uang. Tentu saja, utilitas tetap merupakan gagasan subjektif dalam skala individu, tetapi di wilayah tertentu, semakin banyak jumlah pedagang yang menerima suatu objek sebagai alat Exchange, semakin besar kemungkinan objek tersebut memiliki utilitas moneter bagi orang-orang yang tinggal di wilayah ini.
-
-
-
-Mari kita ambil contoh sebuah desa di mana banyak pedagang menerima emas dalam Exchange untuk membeli barang: kemungkinan besar emas memiliki utilitas moneter bagi penduduk desa. Hal ini mengindikasikan bahwa utilitas mata uang bergantung secara langsung pada keputusan para pedagang untuk menerima atau menolak mata uang tersebut.
-
-
-
-Konsep ini sangat penting untuk memahami dinamika kekuatan yang berperan dalam sistem Bitcoin. Satoshi memperjelas: Bitcoin adalah sistem uang elektronik; dengan kata lain, sistem ini menyediakan layanan yang menawarkan bentuk mata uang, Bitcoin (atau BTC). Ketika aturan protokol dimodifikasi dengan cara yang tidak kompatibel dengan Hard Fork (Hard Fork), hal ini sama saja dengan menciptakan sebuah sistem baru dan oleh karena itu, sebuah mata uang baru. Keberhasilan atau kegagalan Fork ini kemudian bergantung pada ukuran ekonominya, yang pada gilirannya ditentukan oleh jumlah pedagang yang menerima bentuk mata uang baru ini.
-
-
+Konsep ini sangat penting untuk memahami dinamika kekuasaan yang dimainkan dalam sistem Bitcoin. Satoshi menjelaskan: Bitcoin adalah sistem uang elektronik; dengan kata lain, sistem ini menyediakan layanan yang menawarkan bentuk mata uang, Bitcoin (atau BTC). Ketika aturan protokol dimodifikasi dengan cara yang tidak kompatibel ke belakang (Hard Fork), ini sama saja dengan menciptakan sistem baru dan karenanya mata uang baru. Keberhasilan atau kegagalan Fork ini kemudian bergantung pada ukuran ekonominya, yang pada gilirannya ditentukan oleh jumlah pedagang yang menerima bentuk mata uang baru ini.
 
 ![Image](assets/fr/062.webp)
 
+Mari kita ambil contoh: anggaplah Bitcoin mengalami Hard Fork. Maka akan ada 2 bentuk mata uang yang berbeda: BTC-1 (versi asli, tidak berubah) dan BTC-2 (mata uang baru dengan aturan konsensus yang berbeda). Jika semua pedagang yang menerima BTC-1 terus melakukannya, tetapi menolak BTC-2, maka yang terakhir secara teoretis, memiliki utilitas moneter yang sangat terbatas. Sebagai pengguna, saya tidak akan tertarik untuk menyimpan dan menggunakan BTC-2, karena mengetahui bahwa tidak ada pedagang yang menginginkannya sebagai ganti barang atau jasa. Sebaliknya, jika 50% pedagang memilih untuk menerima BTC-2 secara eksklusif dan 50% sisanya hanya mengambil BTC-1, maka utilitas BTC-1 akan, secara teoretis, berkurang setengahnya. Saya menggunakan istilah "secara teoretis" karena utilitas tetap merupakan gagasan subjektif pada tingkat individu dan bergantung pada banyak faktor (seperti wilayah dan kebiasaan konsumsi) yang sulit dipahami berdasarkan kasus per kasus.
 
+Pada Bitcoin, peran "pedagang", dipahami sebagai entitas apa pun dengan bobot ekonomi tertentu, tentu saja termasuk bisnis (toko fisik, situs penjualan online, penyedia layanan, dll.), tetapi juga platform exchange, karena mereka menerima Bitcoin sebagai ganti mata uang lain, dan miner, karena mereka menerima Bitcoin melalui biaya sebagai ganti layanan memasukkan transaksi ke dalam blok.
 
-Mari kita ambil contoh: anggap saja Bitcoin memiliki Hard Fork. Maka akan ada 2 bentuk mata uang yang berbeda: BTC-1 (versi asli yang tidak berubah) dan BTC-2 (mata uang baru dengan aturan konsensus yang berbeda). Jika semua pedagang yang menerima BTC-1 terus melakukannya, tetapi menolak BTC-2, maka BTC-2, secara teori, akan memiliki utilitas moneter yang sangat terbatas. Sebagai pengguna, saya tidak tertarik untuk menyimpan dan menggunakan BTC-2, karena saya tahu bahwa tidak ada pedagang yang menginginkannya di Exchange untuk barang atau jasa. Sebaliknya, jika 50% pedagang memilih untuk menerima BTC-2 secara eksklusif dan 50% sisanya hanya menerima BTC-1, maka utilitas BTC-1, secara teori, akan berkurang setengahnya. Saya menggunakan istilah "secara teori" karena utilitas tetap subjektif di tingkat individu dan bergantung pada banyak faktor (seperti wilayah dan kebiasaan konsumsi) yang sulit untuk dipahami berdasarkan kasus per kasus.
+Sejauh menyangkut aturan konsensus, node Anda memungkinkan Anda mengarahkan aktivitas ekonomi Anda menuju satu mata uang atau mata uang lain. Misalnya, jika Anda memiliki 10 full node di rumah, tetapi tidak ada aktivitas ekonomi yang signifikan, pengaruh Anda selama Fork akan hampir nol. Sebaliknya, satu node yang digunakan untuk mengelola rantai 200 toko yang menerima Bitcoin memberikan bobot ekonomi yang signifikan.
 
+Jadi, bukan jumlah node yang penting, tetapi pentingnya aktivitas ekonomi yang mereka dukung. Terlebih lagi, jika aktivitas ekonomi Anda bergantung pada node yang tidak Anda kontrol, pemiliknya akan memutuskan mata uang apa yang Anda gunakan, selama Anda tetap terhubung ke node tersebut. Inilah mengapa menjalankan dan menggunakan node Anda sendiri sangat penting dalam konteks tata kelola sistem:
 
-
-Pada Bitcoin, peran "pedagang", yang dipahami sebagai entitas apa pun dengan bobot ekonomi tertentu, tentu saja termasuk bisnis (toko fisik, situs penjualan online, penyedia layanan, dll.), tetapi juga platform Exchange, karena mereka menerima Bitcoin dalam Exchange untuk mata uang lain, dan penambang, karena mereka menerima Bitcoin melalui biaya dalam Exchange untuk layanan memasukkan transaksi dalam blok.
-
-
-
-Sejauh menyangkut aturan konsensus, node Anda memungkinkan Anda untuk mengarahkan aktivitas ekonomi Anda ke satu mata uang atau mata uang lainnya. Sebagai contoh, jika Anda memiliki 10 node penuh di rumah, tetapi tidak ada aktivitas ekonomi yang signifikan, pengaruh Anda selama Fork akan hampir nihil. Sebaliknya, satu node yang digunakan untuk mengelola rantai 200 toko yang menerima Bitcoin akan memberikan bobot ekonomi yang signifikan.
-
-
-
-Jadi, yang penting bukanlah jumlah node, tetapi pentingnya aktivitas ekonomi yang mereka dukung. Terlebih lagi, jika aktivitas ekonomi Anda bergantung pada node yang tidak Anda kendalikan, pemiliknya akan memutuskan mata uang apa yang Anda gunakan, selama Anda tetap terhubung ke node tersebut. Inilah sebabnya mengapa menjalankan dan menggunakan node Anda sendiri sangat penting dalam konteks tata kelola sistem:
-
-
-
-> Bukan node-mu, bukan aturannya kamu.
-
+> Bukan node Anda, bukan aturan Anda. 
 
 ## Berbagai jenis node Bitcoin yang berbeda
 
-
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
 
+Node Bitcoin, oleh karena itu, adalah mesin yang menjalankan implementasi dari protokol Bitcoin. Di balik definisi umum node ini, terdapat beberapa kemungkinan konfigurasi, yang tidak semuanya menawarkan tingkat otonomi, konsumsi sumber daya, dan kegunaan yang sama untuk jaringan. Dalam bab ini, kami akan mencoba memahami perbedaan-perbedaan ini untuk membantu Anda memilih arsitektur node yang sesuai dengan penggunaan dan kendala perangkat keras Anda.
 
+### Full Node
 
-Oleh karena itu, sebuah node Bitcoin adalah sebuah mesin yang menjalankan implementasi protokol Bitcoin. Di balik definisi umum tentang node ini, ada beberapa konfigurasi yang memungkinkan, yang tidak semuanya menawarkan tingkat otonomi, konsumsi sumber daya, dan kegunaan yang sama untuk jaringan. Pada bab ini, kami akan mencoba memahami perbedaan ini untuk membantu Anda memilih arsitektur node yang sesuai dengan penggunaan dan batasan perangkat keras Anda.
-
-
-
-### Node lengkap
-
-
-
-Sebuah Full node hanyalah sebuah node Bitcoin yang mengunduh seluruh Blockchain dari blok Genesis, memvalidasi setiap blok secara independen, dan menyimpan riwayat semua Blockchain tersebut secara lokal. Ini adalah bentuk "normal" dari node Bitcoin, seperti yang dibayangkan oleh Satoshi Nakamoto.
-
-
+Full Node adalah Node Bitcoin yang secara sederhana mengunduh seluruh Blockchain dari blok Genesis, memvalidasi setiap blok secara independen, dan menyimpan seluruh riwayat Blockchain tersebut secara lokal. Ini adalah bentuk node yang "normal", seperti yang dibayangkan oleh Satoshi Nakamoto.
 
 ![Image](assets/fr/063.webp)
 
+Full Node tidak perlu memercayai siapa pun karena ia memvalidasi dan mengetahui semua informasi dalam sistem. Ini adalah jenis node yang memberi Anda jaminan paling besar: Anda tahu, tanpa bergantung pada pihak ketiga, apakah pembayaran valid, apakah blok valid, apakah reorganisasi sah, dan sebagainya.
 
+Dalam praktiknya, Full Node membutuhkan sumber daya yang tidak sedikit, termasuk beberapa ratus gigabyte untuk file blok, prosesor yang mampu memvalidasi script, RAM untuk Mempool dan cache, serta bandwidth yang stabil. Sinkronisasi pertama (IBD – Initial Block Download) membaca dan memverifikasi riwayat lengkap: ini intensif, tetapi hanya terjadi sekali. Full Node secara aktif berpartisipasi dalam jaringan, meneruskan blok dan transaksi, dan dapat menerima koneksi masuk untuk membantu peer lain.
 
-Full node tidak perlu mempercayai siapa pun karena ia memvalidasi dan mengetahui semua informasi di dalam sistem. Ini adalah jenis node yang memberikan Anda jaminan yang paling besar: Anda tahu, tanpa bergantung pada pihak ketiga, apakah sebuah pembayaran valid, apakah sebuah blok valid, apakah sebuah reorganisasi sah, dan seterusnya.
+Tergantung pada kebutuhan Anda, Anda dapat menambahkan indexer ke Full Node Anda. Bitcoin Core menawarkan pengindeksan transaksi sebagai fitur opsional (dinonaktifkan secara default), yang dapat berguna untuk tujuan tertentu. Namun, ini tidak menyertakan pengindeks alamat (address indexer), yang seringkali merupakan fitur yang paling dicari untuk pengguna individu. Untuk mengatasinya, Anda dapat memasang perangkat lunak khusus pada node Anda, seperti Electrs atau Fulcrum, untuk mempercepat query verifikasi saldo alamat dari UTXO yang terkait. Kita akan kembali membahas peran indexer secara lebih rinci dalam bab terpisah.
 
+### Pruned Node
 
-
-Dalam praktiknya, Full node membutuhkan sumber daya yang tidak sepele, termasuk beberapa ratus gigabyte untuk file blok, prosesor yang mampu memvalidasi skrip, RAM untuk Mempool dan cache, dan bandwidth yang stabil. Sinkronisasi pertama (*IBD*) membaca dan memverifikasi riwayat lengkap: ini intensif, tetapi hanya terjadi sekali. Full node secara aktif berpartisipasi dalam jaringan, menyampaikan blok dan transaksi, dan dapat menerima koneksi yang masuk untuk membantu rekan-rekan lainnya.
-
-
-
-Tergantung pada kebutuhan Anda, Anda dapat menambahkan pengindeks ke Full node Anda. Bitcoin core menawarkan pengindeksan transaksi sebagai fitur opsional (dinonaktifkan secara default), yang dapat berguna untuk tujuan tertentu. Namun, ini tidak termasuk pengindeks Address, yang sering kali merupakan fitur yang paling dicari oleh pengguna perorangan. Untuk mengatasinya, Anda dapat menginstal perangkat lunak khusus pada node Anda, seperti Electrs atau Fulcrum, untuk mempercepat permintaan verifikasi saldo Address dari UTXO terkait. Kita akan kembali ke peran pengindeks secara lebih rinci dalam bab terpisah.
-
-
-
-### Node yang dipangkas
-
-
-
-Node pruned memvalidasi semuanya sebagai Full node, mulai dari blok Genesis hingga kepala rantai yang paling banyak bekerja, tetapi **hanya menyimpan bagian terbaru dari file-file blok**. Setelah blok lama diperiksa, node ini secara bertahap akan menghapusnya agar tetap berada di bawah batas ruang yang dapat Anda tetapkan. Konfigurasi ini sangat ideal jika Anda memiliki keterbatasan ruang disk: Anda dapat mempertahankan independensi validasi blok, tanpa menyimpan arsip riwayat Blockchain yang lengkap. Opsi ini sangat berguna jika Anda hanya ingin menginstal Bitcoin core pada komputer pribadi Anda, tanpa menggunakan mesin khusus.
-
-
+Pruned Node memvalidasi semuanya seperti Full Node, mulai dari blok Genesis hingga puncak rantai dengan proof-of-work terbanyak, **tetapi hanya menyimpan bagian yang paling baru dari file blok**. Setelah blok-blok lama diperiksa, node akan secara bertahap menghapusnya untuk tetap berada di bawah batas ruang yang dapat Anda tentukan. Konfigurasi ini ideal jika Anda memiliki keterbatasan ruang disk: Anda mempertahankan independensi validasi blok, tanpa perlu menyimpan arsip riwayat Blockchain lengkap. Opsi ini sangat berguna jika Anda hanya ingin memasang Bitcoin Core di komputer pribadi Anda, tanpa menggunakan mesin khusus.
 
 ![Image](assets/fr/064.webp)
 
+Implikasi teknis dari opsi ini cukup jelas: pruned node mampu menyiarkan transaksi Anda dengan sempurna, berpartisipasi dalam relay, memverifikasi blok dan transaksi, serta melacak chain. Di sisi lain, ia tidak dapat berfungsi sebagai sumber data historis di luar batasnya untuk aplikasi lain (misalnya, explorer penuh, indexer, wallet). Oleh karena itu, fungsi yang memerlukan arsip (atau indeks global) tidak akan tersedia.
 
+Secara praktis, Anda dapat menggunakan pruned node untuk menghubungkan perangkat lunak manajemen wallet seperti Sparrow wallet. Namun, Anda tidak akan dapat memindai transaksi pada wallet Anda yang mendahului batas pemangkasan. Misalnya, jika Anda memiliki transaksi yang terdaftar di blok 901.458, tetapi node Anda hanya menyimpan blok dari 905.402 ke atas (karena yang tertua telah dipangkas), Anda tidak akan dapat memindai transaksi ini. Di sisi lain, jika Anda sudah memindainya ketika node Anda masih memiliki blok tingkat ini, maka perangkat lunak manajemen wallet Anda akan menyimpan informasi tersebut dan menampilkan saldo UTXO yang sesuai dengan benar.
 
-Implikasi teknis dari opsi ini cukup mudah: node pruned sangat mampu menyiarkan transaksi Anda, berpartisipasi dalam relai, memverifikasi blok dan transaksi, dan melacak rantai. Di sisi lain, node ini tidak dapat berfungsi sebagai sumber data historis di luar batas kemampuannya untuk aplikasi lain (misalnya, penjelajah penuh, pengindeks, dompet). Oleh karena itu, fungsi-fungsi yang membutuhkan arsip (atau indeks global) tidak akan tersedia.
-
-
-
-Secara praktis, Anda dapat menggunakan node pruned untuk menghubungkan perangkat lunak manajemen Wallet seperti Sparrow wallet. Akan tetapi, Anda tidak akan dapat memindai transaksi pada Wallet Anda yang mendahului batas pemangkasan. Sebagai contoh, jika Anda memiliki transaksi yang terdaftar di blok 901 458, tetapi node Anda hanya menyimpan blok dari 905 402 ke atas (karena yang tertua adalah pruned), Anda tidak akan dapat memindai transaksi ini. Di sisi lain, jika Anda telah memindainya ketika node Anda masih memiliki ketinggian blok ini, maka perangkat lunak manajemen Wallet Anda akan menyimpan informasi dan menampilkan saldo UTXO yang sesuai dengan benar.
-
-
-
-Singkatnya, pelacakan Wallet bekerja tanpa hambatan pada node pruned jika Anda membuat Wallet baru sementara perangkat lunak Anda sudah terhubung ke node tersebut. Di sisi lain, Anda mungkin mengalami kesulitan jika Anda memulihkan Wallet lama, karena transaksi masa lalu yang tidak lagi disimpan oleh node jelas tidak dapat diambil.
-
-
+Singkatnya, pelacakan wallet berfungsi tanpa hambatan pada pruned node jika Anda membuat wallet baru saat perangkat lunak Anda sudah terhubung ke node tersebut. Namun, Anda mungkin menghadapi kesulitan jika Anda memulihkan wallet lama, karena transaksi masa lalu yang tidak lagi disimpan oleh node, jelas tidak akan dapat diambil.
 
 ### Node ringan / SPV
 
-
-
-Sebuah node SPV (*Simplified Payment Verification*), atau node ringan, hanya menyimpan header blok, bukan detail transaksi, dan bergantung pada node penuh lainnya untuk mendapatkan bukti bahwa sebuah transaksi ada di dalam sebuah blok (bukti Merkle melalui pohon) yang memiliki header tersebut. Konsep verifikasi pembayaran yang disederhanakan bukanlah hal yang baru, karena telah diusulkan oleh Satoshi Nakamoto sendiri di bagian 8 dari White Paper.
-
-
+Node SPV (_Simplified Payment Verification_), atau node ringan, hanya menyimpan header blok, bukan detail transaksi, dan bergantung pada full node lain untuk mendapatkan bukti bahwa suatu transaksi ada dalam blok (Merkle proofs melalui tree) yang headernya dimilikinya. Konsep verifikasi pembayaran sederhana ini bukanlah hal baru, karena telah diusulkan oleh Satoshi Nakamoto sendiri di Bagian 8 dari White Paper.
 
 ![Image](assets/fr/066.webp)
 
+Nakamoto, S. (2008). _Bitcoin: A Peer-to-Peer Electronic Cash System_. https://Bitcoin.org/Bitcoin.pdf
 
+Jenis node ini jelas jauh lebih ringan dalam hal penggunaan penyimpanan dan CPU daripada full node atau bahkan pruned node. Oleh karena itu, node SPV sangat cocok untuk perangkat yang lebih kecil dan koneksi yang terputus-putus (intermittent connections). Faktanya, node ini seringkali diintegrasikan langsung ke dalam wallet, terutama perangkat lunak seluler seperti Blockstream App.
 
-Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
-
-
-
-Jenis node ini jelas jauh lebih ringan dalam hal penyimpanan dan penggunaan CPU daripada node Full node atau bahkan pruned. Oleh karena itu, node SPV sangat cocok untuk perangkat yang lebih kecil dan koneksi yang terputus-putus. Bahkan, sering kali diintegrasikan langsung ke dalam Wallet, terutama perangkat lunak seluler seperti Aplikasi Blockstream.
-
-
-
-Trade-off-nya adalah kepercayaan dan kerahasiaan: klien SPV tidak memeriksa skrip atau kebijakan validasi itu sendiri; ia mengasumsikan bahwa rantai yang paling banyak bekerja adalah valid, dan bergantung pada satu atau lebih node penuh untuk mendapatkan respons. Oleh karena itu, menggunakan jenis node ini merupakan pilihan yang lebih baik daripada menghubungkan ke node pihak ketiga; namun, ini masih kurang menguntungkan dibandingkan dengan memiliki node Full node atau bahkan pruned.
-
-
+Konsekuensinya adalah mengorbankan kepercayaan dan kerahasiaan: Aplikasi SPV tidak memeriksa script atau kebijakan validasi sendiri; ia mengasumsikan bahwa chain dengan proof-of-work terbanyak adalah valid, dan bergantung pada satu atau lebih full node untuk mendapatkan respons. Menggunakan jenis node ini adalah opsi yang lebih baik daripada terhubung ke node pihak ketiga; namun, ini masih kurang menguntungkan daripada memiliki full node atau bahkan pruned node.
 
 ![Image](assets/fr/065.webp)
 
-
-
-### Simpul mana untuk kebutuhan yang mana?
-
-
-
-
+### Node mana untuk kebutuhan yang mana?
 
 - Pengguna seluler / pemula
 
-
-
-Untuk pengguna pemula yang hanya memiliki Wallet di aplikasi seluler, menggunakan node SPV jelas merupakan cara terbaik untuk memulai. Pemasangannya cepat, hanya membutuhkan sedikit sumber daya, dan pengalamannya sederhana dan lancar. Ini berarti Anda dapat memverifikasi informasi tertentu sendiri dan, oleh karena itu, tidak terlalu bergantung pada node pihak ketiga sekaligus menjadi lebih mandiri dalam hal menyiarkan transaksi.
-
-
-
-
+Bagi pengguna pemula yang hanya memiliki wallet di aplikasi seluler, menggunakan Node SPV (Simplified Payment Verification) sudah pasti merupakan cara terbaik untuk memulai. Pemasangannya cepat, membutuhkan sedikit sumber daya, dan pengalamannya sederhana serta lancar. Ini berarti Anda dapat memverifikasi informasi tertentu sendiri dan, oleh karena itu, mengurangi ketergantungan pada node pihak ketiga sekaligus lebih independen dalam hal penyiaran transaksi.
 
 - PC / pengguna menengah
 
-
-
-Pengguna menengah yang memiliki PC dapat memasang node pruned untuk mendapatkan keuntungan dari hampir semua keuntungan Full node, tanpa membebani mesin mereka setiap hari: validasi penuh, penggunaan disk yang moderat, dan perawatan yang sederhana. Ini adalah solusi ideal untuk menghubungkan dompet desktop Anda dan tetap independen dalam distribusi transaksi Anda, tanpa berinvestasi pada mesin khusus atau membebani ruang disk Anda.
-
-
-
-
+Pengguna tingkat menengah dengan PC dapat memasang Pruned Node (Node Terpangkas) untuk mendapatkan hampir semua keuntungan dari Full Node, tanpa membebani mesin mereka setiap hari: validasi penuh, penggunaan disk yang moderat, dan pemeliharaan yang sederhana. Ini adalah solusi ideal untuk menghubungkan desktop wallet Anda dan tetap independen dalam distribusi transaksi Anda, tanpa berinvestasi pada mesin khusus atau membebani ruang disk Anda.
 
 - Bitcoiner berdaulat / mahir
 
-
-
-Full node tetap merupakan solusi terbaik jika Anda ingin benar-benar mandiri dalam penggunaan Bitcoin dan tidak membatasi diri Anda sendiri di kemudian hari untuk penggunaan tingkat lanjut seperti pengindeks, simpul Lightning, atau bahkan Block explorer. Itulah yang akan kita jelajahi dalam kursus ini!
-
-
+Full Node (Node Penuh) tetap merupakan solusi terbaik jika Anda ingin sepenuhnya independen dalam penggunaan Bitcoin Anda dan tidak membatasi diri Anda di kemudian hari untuk penggunaan lanjutan seperti indexer, Node Lightning, atau bahkan block explorer. Itulah yang akan kita jelajahi secara mendalam dalam kursus ini!
 
 ## Gambaran umum solusi perangkat lunak
 
-
 <chapterId>0d48b89a-e8b5-441e-a707-537a035fc15e</chapterId>
 
+Dari sisi perangkat lunak, ada 2 cara utama untuk menjalankan Node Bitcoin:
 
+- Menginstal langsung implementasi protokol, seperti Bitcoin Core (direkomendasikan), atau Bitcoin Knots,
+- Atau menggunakan distribusi turnkey (sering disebut "_node-in-a-box_") yang mengintegrasikan implementasi Bitcoin dengan cara yang sama, tetapi juga mencakup sistem administrasi Interface, toko aplikasi, dan alat siap pakai (Lightning, browser, server indexer, bahkan aplikasi self-hosting di luar Bitcoin...).
 
-Di sisi perangkat lunak, ada 2 cara utama untuk menjalankan node Bitcoin:
+Kedua pendekatan ini mengarah pada tujuan yang sama: memiliki node Anda sendiri, tetapi keduanya berbeda dalam hal pemasangan dan penggunaan Interface, pemeliharaan, pengembangan, dan biaya. Itulah yang akan kita jelajahi dalam bab ini.
 
+### Implementasi node Bitcoin manual
 
+Memasang implementasi manual berarti langsung menggunakan perangkat lunak dari implementasi protokol Bitcoin (seperti Core), tanpa lapisan perangkat lunak tambahan apa pun. Anda mengelola sendiri konfigurasi, pembaruan, dan layanan terkait (indexing, API, Lightning, backup, dll.), sesuai dengan kebutuhan Anda.
 
+Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa yang berjalan, di mana data berada, dan bagaimana semuanya bekerja. Di sisi lain, ini menjadi lebih kompleks segera setelah Anda ingin melampaui operasi sederhana dari Node Bitcoin. Jika tujuan Anda hanya untuk memiliki node, kompleksitasnya sebanding dengan node-in-a-box, atau bahkan kurang, karena ini hanyalah masalah memasang perangkat lunak.
 
-- langsung menginstal implementasi protokol, seperti Bitcoin core (disarankan), atau Bitcoin Knots,
-- atau menggunakan distribusi siap pakai (sering disebut "_node-in-a-box_") yang mengintegrasikan implementasi Bitcoin dengan cara yang sama, tetapi juga menyertakan sistem administrasi Interface, toko aplikasi, dan alat yang siap digunakan (Lightning, browser, server indeks, bahkan aplikasi hosting mandiri di luar Bitcoin...).
+#### Bitcoin Core (Aplikasi Dominan)
 
+[Bitcoin Core adalah client yang sangat mayoritas di jaringan](https://bitcoincore.org/). Bitcoin Core mengunduh, memvalidasi, dan memelihara Blockchain, menyediakan API RPC/REST, dan dapat mengintegrasikan wallet. Jika Anda lebih memilih alat standar dan merasa nyaman menambahkan layanan sendiri (seperti server Electrum, explorer, dan LND), sebaiknya Anda menggunakan Core apa adanya.
 
+**Keuntungan:** Stabilitas maksimum, perilaku yang dapat diprediksi, raw experience, mudah dipasang dan dikonfigurasi.
 
-Kedua pendekatan tersebut mengarah pada tujuan yang sama: memiliki node Anda sendiri, tetapi keduanya berbeda dalam hal instalasi dan penggunaan Interface, pemeliharaan, pengembangan, dan biaya. Itulah yang akan kita bahas dalam bab ini.
-
-
-
-### Implementasi node Bitcoin mentah
-
-
-
-Menginstal implementasi mentah berarti secara langsung menggunakan perangkat lunak implementasi protokol Bitcoin (seperti Core), tanpa perangkat lunak tambahan Layer. Anda mengelola konfigurasi, pembaruan, dan layanan terkait (pengindeksan, API, Lightning, cadangan, dll.) sendiri, sesuai dengan kebutuhan Anda.
-
-
-
-Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa yang berjalan, di mana datanya, dan bagaimana semuanya bekerja. Di sisi lain, ini menjadi lebih kompleks segera setelah Anda ingin melampaui operasi sederhana dari node Bitcoin. Jika tujuan Anda hanya untuk memiliki node, kompleksitasnya sebanding dengan node-in-a-box, atau bahkan lebih sedikit, karena ini hanya masalah penginstalan perangkat lunak.
-
-
-
-#### Bitcoin Core (klien mayoritas mutlak)
-
-
-
-[Bitcoin core adalah klien ultra-mayoritas jaringan] (https://bitcoincore.org/). Ini mengunduh, memvalidasi, dan memelihara Blockchain, menyediakan RPC/REST API, dan dapat mengintegrasikan Wallet. Jika Anda lebih suka alat standar dan merasa nyaman untuk menambahkan layanan sendiri (seperti server Electrum, penjelajah, dan LND), Anda lebih baik menggunakan Core apa adanya.
-
-
-
-**Manfaat:** Stabilitas maksimum, perilaku yang dapat diprediksi, pengalaman mentah, mudah dipasang dan dikonfigurasi.
-
-
-
-**Kekurangan:** Anda harus membangun sisa stack secara manual untuk membuat lingkungan aplikasi yang lengkap, bukan hanya node Bitcoin.
-
-
+**Kerugian:** Anda harus membangun sisa stack secara manual untuk membuat lingkungan aplikasi yang lengkap, bukan hanya node Bitcoin.
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (klien alternatif utama)
+#### Bitcoin Knots (Aplikasi alternatif utama)
 
+[Bitcoin Knots adalah Fork dari Bitcoin core](https://bitcoinknots.org/), yang dikelola oleh Luke Dashjr. Ini adalah aplikasi alternatif utama untuk Core dalam mengimplementasikan protokol Bitcoin. Sepenuhnya kompatibel dengan sisa jaringan (sama sekali bukan Hard Fork seperti Bitcoin Cash), namun ia menawarkan fitur tambahan, termasuk opsi kebijakan relay yang tidak ada di Core, atau diterapkan lebih ketat secara default untuk membatasi apa yang oleh beberapa orang dianggap sebagai spam.
 
+Ada 2 alasan yang mungkin untuk memilih Knots daripada Core:
 
-[Bitcoin Knots adalah Fork dari Bitcoin core] (https://bitcoinknots.org/), dikelola oleh Luke Dashjr. Ini adalah klien alternatif utama untuk Core untuk mengimplementasikan protokol Bitcoin. Sepenuhnya kompatibel dengan jaringan lainnya (sama sekali bukan Hard Fork seperti Bitcoin Cash), namun menawarkan fitur tambahan, termasuk opsi kebijakan relai yang tidak ada pada Core, atau diterapkan secara lebih ketat secara default untuk membatasi apa yang dianggap sebagai spam.
-
-
-
-Ada 2 alasan yang memungkinkan untuk memilih Knot daripada Core:
-
-
-
-
-- Teknik**: Opsi yang berbeda dari Core, terutama dalam hal manajemen relai, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
-- Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core pernah dikompromikan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terawat dengan baik, tetapi juga untuk mengetahui cara menggunakannya secara efektif. Yang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak menyetujui sebagian besar manajemen klien.
-
+- **Teknis:** Opsi yang berbeda dari Core, terutama dalam hal manajemen relay, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
+- **Kebijakan**: Beberapa orang lebih suka menggunakan aplikasi alternatif seperti Knots untuk alasan non-teknis, terutama untuk mendukung alternatif Core dan dengan demikian mengurangi monopolinya. Jika Core suatu saat disusupi, akan berguna tidak hanya memiliki aplikasi alternatif yang solid dan terawat dengan baik tetapi juga tahu cara memanfaatkannya secara efektif. Yang lain menggunakan Knots untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak menyetujui manajemen mayoritas aplikasi.
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Secara pribadi, saya sarankan Anda memilih Core, terutama untuk mendapatkan manfaat dari patch keamanan lebih cepat. Memang, beberapa kerentanan yang ditemukan di Knot diperbaiki dengan penundaan. Secara umum, proses pengembangan Core terstruktur dengan kuat dan didukung oleh sejumlah besar kontributor, sedangkan Knot dikelola oleh satu orang dan memiliki komunitas yang jauh lebih kecil. Di sisi lain, aturan relai cenderung kehilangan kegunaannya saat ini, terutama ketika diterapkan oleh sebagian kecil jaringan (sesuai dengan teori perkolasi).
+Secara pribadi, saya merekomendasikan Anda memilih Core, terutama untuk mendapatkan manfaat dari patch keamanan lebih cepat. Memang, beberapa kerentanan yang ditemukan di Knots dikoreksi dengan penundaan. Secara umum, proses pengembangan Core terstruktur dengan kokoh dan didukung oleh sejumlah besar kontributor, sedangkan Knots dikelola oleh satu orang dan memiliki komunitas yang jauh lebih kecil. Di sisi lain, aturan relay cenderung kehilangan kegunaannya saat ini, terutama ketika diterapkan hanya oleh sebagian kecil dari jaringan (sesuai teori perkolasi).
 
+### Node-in-a-box distributions
 
+Node-in-a-box menggabungkan Bitcoin Core (atau Knots) dengan sistem operasi yang telah dikonfigurasi sebelumnya, Interface Web, dan Toko Aplikasi (App Store) layanan self-hosting (Lightning, explorer, server Electrum, Mempool, BTCPay Server, Nextcloud, dll.). Hanya dengan satu klik, Anda dapat memasang, memperbarui, dan menghubungkan berbagai modul yang beragam ini.
 
-### Distribusi node-in-a-box
+Ini adalah solusi yang jauh lebih sederhana untuk memulai dan mengelola banyak aplikasi tambahan sehari-hari. Sisi negatifnya adalah ketika masalah terjadi (misalnya, konflik image Docker, pembaruan yang salah, database yang rusak), debugging bisa menjadi sangat kompleks, karena Anda bergantung pada integrasi distribusi itu sendiri. Terlebih lagi, dukungan komunitas atau resmi seringkali rumit.
 
-
-
-Node-in-a-box menggabungkan Bitcoin core (atau Knot) dengan sistem operasi yang telah dikonfigurasi sebelumnya, Web Interface, dan App Store untuk layanan hosting mandiri (Lightning, penjelajah, server Electrum, Mempool, Server BTCPay, Nextcloud, dll.). Hanya dengan satu klik, Anda dapat menginstal, memperbarui, dan menginterkoneksikan modul-modul yang berbeda ini.
-
-
-
-Ini adalah solusi yang jauh lebih sederhana untuk memulai dan mengelola banyak aplikasi tambahan setiap hari. Kelemahannya adalah ketika terjadi masalah (misalnya, konflik citra Docker, pembaruan yang salah, basis data yang rusak), debugging dapat menjadi sangat rumit, karena Anda bergantung pada integrasi distribusi itu sendiri. Terlebih lagi, dukungan komunitas atau resmi sering kali rumit.
-
-
-
-Jadi, node-in-a-box sangat mudah digunakan selama semuanya berfungsi dengan baik, tetapi jika terjadi bug, Anda harus bersiap-siap untuk melakukan pencarian yang panjang, menunggu bantuan, dan mengotori tangan Anda.
-
-
+Jadi, node-in-a-box sangat mudah digunakan selama semuanya berjalan dengan baik, tetapi jika terjadi bug, Anda harus siap untuk melakukan pencarian panjang, menunggu bantuan, dan "mengotori tangan Anda".
 
 Sebagian besar solusi ini tersedia dalam dua format:
 
+- Mesin yang Sudah Dirakit (Pre-assembled machine): Komputer lengkap dengan OS sudah terinstal. Mesin berbayar ini hanya perlu disambungkan ke listrik dan dihubungkan ke Internet agar dapat beroperasi. Jika anggaran Anda memungkinkan, opsi ini memiliki keunggulan pengaturan yang sangat sederhana, seringkali menawarkan dukungan prioritas, dan berkontribusi pada pendanaan pengembangan, karena model bisnis perusahaan-perusahaan ini umumnya didasarkan pada penjualan hardware.
 
+- DIY (Do It Yourself): Memasang OS distribusi pada mesin Anda sendiri (PC lama, NUC, Raspberry Pi, home server...). Ini adalah solusi yang paling ekonomis, karena Anda dapat mendaur ulang mesin lama atau memilih hardware yang secara tepat sesuai dengan kebutuhan dan anggaran Anda. Ini juga merupakan opsi yang paling fleksibel, dan yang paling memuaskan untuk dikonfigurasi. Pendekatan inilah yang akan kita jelajahi di bagian praktis kursus.
 
+Berikut adalah gambaran umum dari solusi node-in-a-box utama yang tersedia (pada tahun 2025):
 
-- Mesin yang sudah dirakit: komputer lengkap dengan OS yang sudah terinstal. Mesin yang dibayar sesuai penggunaan ini hanya perlu dicolokkan ke listrik dan terhubung ke Internet untuk beroperasi. Jika anggaran Anda memungkinkan, opsi ini memiliki keuntungan karena sangat mudah diatur, sering kali menawarkan dukungan prioritas, dan berkontribusi pada pembiayaan pengembangan, karena model bisnis perusahaan-perusahaan ini umumnya didasarkan pada penjualan perangkat keras.
-- DIY: instal OS distribusi di mesin Anda sendiri (PC lama, NUC, Raspberry Pi, server rumah...). Ini adalah solusi yang paling ekonomis, karena Anda bisa mendaur ulang mesin lama atau memilih perangkat keras yang sesuai dengan kebutuhan dan anggaran Anda. Ini juga merupakan opsi yang paling fleksibel, dan paling memuaskan untuk dikonfigurasi. Pendekatan inilah yang akan kita jelajahi di bagian praktis dari kursus ini.
+### Umbrel (umbrelOS & Umbrel Home)
 
-
-
-Berikut ini adalah ikhtisar solusi node-in-a-box utama yang tersedia (pada tahun 2025):
-
-
-
-### Payung (umbrelOS & Umbrel Home)
-
-
-
-[Saat ini, Umbrel adalah pemimpin dalam solusi node-in-a-box (https://umbrel.com/). Keberhasilannya sebagian besar disebabkan oleh kesederhanaan instalasinya (saat diluncurkan pada Raspberry Pi yang sederhana), Interface yang elegan dan intuitif, dan ekosistem aplikasi yang telah berkembang pesat dan sekarang sangat luas.
-
-
+[Saat ini, Umbrel adalah pemimpin dalam solusi node-in-a-box](https://umbrel.com/). Keberhasilannya sebagian besar berkat kesederhanaan pemasangannya (saat pertama kali diluncurkan pada Raspberry Pi sederhana), Interface-nya yang elegan dan intuitif, serta ekosistem aplikasi yang telah berkembang pesat dan kini sangat luas.
 
 ![Image](assets/fr/067.webp)
 
+Diluncurkan pada tahun 2020 sebagai node Bitcoin sederhana yang disertai dengan beberapa aplikasi tambahan, Umbrel secara bertahap berevolusi menjadi home cloud modern yang berfitur lengkap.
 
-
-Diluncurkan pada tahun 2020 sebagai node Bitcoin sederhana yang disertai dengan beberapa aplikasi tambahan, Umbrel secara bertahap berevolusi menjadi cloud rumahan modern dengan fitur lengkap.
-
-
-
-Saya tidak akan membahas lebih detail di sini tentang cara kerjanya dan fitur-fitur spesifiknya, karena kita akan membahasnya secara lebih mendalam di bab pertama dari bagian selanjutnya. Memang, untuk tujuan kursus BTC 202 ini, saya telah memilih untuk menggunakan UmbrelOS, yang saya yakini sebagai solusi node-in-a-box terbaik saat ini untuk pengguna pemula dan menengah.
-
-
+Saya tidak akan membahas lebih detail di sini tentang cara kerjanya dan fitur spesifiknya, karena kita akan memeriksanya lebih dalam di bab pertama bagian selanjutnya. Memang, untuk tujuan kursus BTC 202 ini, saya telah memilih untuk menggunakan UmbrelOS, yang saya yakini sebagai solusi node-in-a-box terbaik saat ini untuk pengguna pemula dan menengah.
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
+[Start9 menawarkan StartOS](https://start9.com/), sebuah sistem yang dirancang untuk "komputasi berdaulat" (sovereign computing): tujuannya adalah agar setiap orang memiliki dan mengelola server pribadi mereka sendiri, ditingkatkan dengan pasar aplikasi self-hosted. Anda dapat membeli server Start9 (Server One seharga $619, Server Pure seharga $899) atau merakitnya sendiri dalam mode DIY pada komputer Anda.
 
-
-[Start9 menawarkan StartOS (https://start9.com/), sebuah sistem yang dirancang untuk "komputasi berdaulat": tujuannya adalah agar setiap orang memiliki dan mengelola server pribadi mereka sendiri, yang diperkuat dengan pasar aplikasi yang dihosting sendiri. Anda bisa membeli server Start9 (Server One seharga $619, Server Pure seharga $899) atau merakitnya sendiri dalam mode DIY di komputer Anda.
-
-
-
-Di sisi Bitcoin, StartOS memungkinkan Anda memasang Full node, simpul Lightning, Server BTCPay, Electrs, dan banyak layanan lainnya. Namun, daya tarik Start9 lebih dari itu: ia menawarkan kemungkinan untuk menemukan, mengonfigurasi, dan mengekspos berbagai perangkat lunak (file cloud, perpesanan, pemantauan) secara terpadu, dengan kontrol penuh. Oleh karena itu, proyek ini ditujukan untuk pengguna yang menginginkan platform self-hosting yang kuat, bukan hanya simpul Bitcoin yang sederhana. Ini mungkin merupakan ekosistem yang paling lengkap setelah Umbrel.
-
-
+Di sisi Bitcoin, StartOS memungkinkan Anda memasang full node, Node Lightning, BTCPay Server, Electrs, dan banyak layanan lainnya. Namun, daya tarik Start9 meluas melampaui ini: ia menawarkan kemungkinan untuk menemukan, mengonfigurasi, dan mengekspos berbagai perangkat lunak (file cloud, perpesanan, pemantauan) secara terpadu, dengan kendali penuh. Oleh karena itu, proyek ini ditujukan untuk pengguna yang menginginkan platform self-hosting yang tangguh, bukan hanya node Bitcoin sederhana. Ini mungkin ekosistem yang paling lengkap setelah Umbrel.
 
 ![Image](assets/fr/068.webp)
 
+Perbedaan utama dengan Umbrel terletak pada Interface. Umbrel mengandalkan UX yang sangat halus, sementara Start9 menawarkan Interface yang lebih kasar, tetapi lebih fungsional. Ekosistem aplikasi Start9 kurang kaya daripada Umbrel, tetapi ia mengimbanginya dengan beberapa keunggulan teknis: akses ke pengaturan aplikasi lanjutan yang disederhanakan, sedangkan Umbrel dengan cepat menjadi terbatas jika opsi yang diinginkan tidak disediakan oleh Interface. Start9 juga unggul dalam manajemen backup: terlepas dari solusi efisien Umbrel untuk LND, tidak ada mekanisme terpadu, tidak seperti Start9. Terlebih lagi, ia menawarkan alat pemantauan yang lebih mudah diakses dan koneksi jarak jauh terenkripsi (`https`), sedangkan akses lokal ke Umbrel adalah melalui `http`.
 
-
-Perbedaan utama dengan Umbrel terletak pada Interface. Umbrel mengandalkan UX yang sangat halus, sedangkan Start9 menawarkan Interface yang lebih kasar dan lebih fungsional. Ekosistem aplikasi Start9 kurang kaya dibandingkan dengan Umbrel, tetapi Start9 mengimbanginya dengan beberapa keunggulan teknis: akses ke pengaturan aplikasi tingkat lanjut disederhanakan, sedangkan Umbrel dengan cepat menjadi terbatas jika opsi yang diinginkan tidak disediakan oleh Interface. Start9 juga unggul dalam manajemen cadangan: terlepas dari solusi Umbrel yang efisien untuk LND, tidak ada mekanisme terpadu, tidak seperti Start9. Terlebih lagi, Start9 menawarkan alat pemantauan yang lebih mudah diakses dan koneksi jarak jauh terenkripsi (`https`), sedangkan akses lokal ke Umbrel melalui `http`.
-
-
-
-Singkatnya, jika Anda hanya membutuhkan aplikasi penting untuk Bitcoin, tanpa minat khusus pada ekosistem Umbrel yang sangat kaya, dan pengguna Interface bukanlah prioritas, maka Start9 adalah pilihan yang lebih baik. Jika tidak, Umbrel adalah pilihan yang lebih baik.
-
-
+Singkatnya, jika Anda hanya membutuhkan aplikasi penting untuk Bitcoin, tanpa minat khusus pada ekosistem Umbrel yang sangat beragam, dan Interface pengguna bukan prioritas, maka Start9 adalah pilihan yang lebih baik. Jika tidak, Umbrel adalah pilihan yang lebih baik.
 
 https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
-
-
 [MyNode adalah distribusi yang difokuskan secara eksklusif pada Bitcoin dan Lightning](https://mynodebtc.com/), menawarkan web Interface, pasar aplikasi, dan upgrade sekali klik. Anda bisa membeli perangkat keras siap pakai (*Model Dua* tersedia dengan harga $ 549) atau menginstal MyNode secara gratis di komputer Anda. Proyek ini juga menawarkan versi *Premium* dari perangkat lunak ($94), yang mencakup dukungan prioritas dan fitur-fitur canggih.
 
-
+[MyNode adalah distribusi yang secara eksklusif berfokus pada Bitcoin dan Lightning](https://mynodebtc.com/), menawarkan web interface, app market, dan upgrade sekali klik. Anda dapat membeli hardware siap pakai (_Model Two_ tersedia seharga $549) atau memasang MyNode secara gratis di komputer Anda sendiri. Proyek ini juga menawarkan versi Premium dari perangkat lunak ($94), yang mencakup dukungan prioritas dan fitur-fitur lanjutan.
 
 ![Image](assets/fr/069.webp)
 
-
-
-Dalam praktiknya, MyNode menyatukan semua blok bangunan dasar yang diperlukan untuk mengoperasikan Full node, serta aplikasi yang penting bagi pengguna Bitcoin. Oleh karena itu, MyNode merupakan solusi yang cocok jika Anda tidak memerlukan aplikasi di luar ekosistem Bitcoin, seperti aplikasi yang dihosting sendiri yang terdapat dalam sistem Start9 dan Umbrel.
-
-
+Dalam praktiknya, MyNode menyatukan semua building block dasar yang diperlukan untuk mengoperasikan full node, serta aplikasi yang penting bagi pengguna Bitcoin. Oleh karena itu, ini adalah solusi yang cocok jika Anda tidak memerlukan aplikasi eksternal dari ekosistem Bitcoin, seperti aplikasi self-hosted yang ditemukan di sistem Start9 dan Umbrel.
 
 https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
-
-
-[RaspiBlitz adalah proyek sumber terbuka 100%] (https://docs.raspiblitz.org/) (lisensi MIT) untuk memasang node Bitcoin dan node Lightning pada Raspberry Pi. Cukup unduh gambar, boot, lalu ikuti wizard untuk mendapatkan node-in-a-box yang berfungsi pada Raspberry Pi Anda. Kit yang sudah dirakit sebelumnya juga tersedia dari pihak ketiga, biasanya antara $300 dan $400, tergantung pada perangkat kerasnya. RaspiBlitz juga menawarkan berbagai aplikasi tambahan yang mudah dipasang.
-
-
+[RaspiBlitz adalah proyek open source 100%](https://docs.raspiblitz.org/) (lisensi MIT) untuk memasang node Bitcoin dan Node Lightning pada Raspberry Pi. Cukup unduh image, boot, lalu ikuti wizard untuk memiliki node-in-a-box yang berfungsi pada Raspberry Pi Anda. Kit yang sudah dirakit sebelumnya juga tersedia dari pihak ketiga, biasanya antara $300 hingga $400, tergantung pada hardware. RaspiBlitz juga menawarkan berbagai aplikasi tambahan yang mudah dipasang.
 
 ![Image](assets/fr/070.webp)
 
-
-
 Jika Anda memiliki Raspberry Pi, ini adalah pilihan yang sangat baik, karena sistem yang lebih lengkap seperti Umbrel menjadi semakin berat untuk jenis mini-PC ini.
-
-
 
 https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
+[RoninDojo adalah node-in-a-box yang berfokus pada privasi](https://wiki.ronindojo.io/en/home) yang mengotomatiskan penerapan Samurai Dojo dan Whirlpool, dengan Interface khusus dan plugin yang dirancang khusus untuk ekosistem Samurai.
 
-
-[RoninDojo adalah node-in-a-box yang berfokus pada privasi] (https://wiki.ronindojo.io/en/home) yang mengotomatiskan penyebaran Samurai Dojo dan Whirlpool, dengan Interface khusus dan plugin yang dirancang khusus untuk ekosistem Samurai.
-
-
-
-Prinsipnya sederhana: jika Anda menggunakan Ashigaru Wallet (penerus Fork dari Samurai Wallet, setelah pengembangnya ditangkap) atau jika Anda ingin mendapatkan keuntungan dari alat privasi canggih, RoninDojo cocok untuk Anda.
-
-
+Prinsipnya sederhana: jika Anda menggunakan Ashigaru Wallet (penerus Fork dari Samurai Wallet,setelah pengembangnya ditangkap) atau jika Anda ingin mendapatkan manfaat dari alat privasi lanjutan, RoninDojo cocok untuk Anda.
 
 ![Image](assets/fr/071.webp)
 
-
-
-Proyek ini sebelumnya menawarkan mesin pra-konfigurasi yang disebut Tanto, tetapi saat ini tidak tersedia. Ini mungkin akan kembali di kemudian hari. Sementara itu, Anda dapat dengan mudah menginstal RoninDojo di Rock5B+ atau Rockpro64, atau bahkan secara tidak langsung di Raspberry Pi.
-
-
+Proyek ini sebelumnya menawarkan mesin yang telah dikonfigurasi sebelumnya yang disebut Tanto, tetapi saat ini tidak tersedia. Mungkin akan kembali di kemudian hari. Sementara itu, dimungkinkan untuk dengan mudah memasang RoninDojo pada Rock5B+ atau Rockpro64, atau bahkan secara tidak langsung pada Raspberry Pi.
 
 https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
+Solusi [node-in-a-box](https://www.nodl.eu/) lainnya adalah Nodl. Sama seperti proyek-proyek sebelumnya, Anda dapat membeli hardware yang telah dikonfigurasi sebelumnya (antara €599 dan €799, tergantung model) atau memasangnya sendiri dalam mode DIY.
 
-
-Solusi [node-in-a-box] lainnya adalah Nodl (https://www.nodl.eu/). Seperti proyek-proyek sebelumnya, Anda bisa membeli perangkat keras yang sudah dikonfigurasi sebelumnya (antara €599 dan €799, tergantung pada modelnya) atau menginstalnya sendiri dalam mode DIY.
-
-
-
-Di sisi perangkat lunak, Nodl mengintegrasikan Bitcoin core, LND, BTCPay Server, Electrs, Dojo, Whirlpool, Lightning Terminal, RTL, serta BTC RPC Explorer, semuanya dengan rantai pembaruan terintegrasi dan kode sumber terbuka di bawah lisensi MIT.
-
-
+Di sisi perangkat lunak, Nodl mengintegrasikan Bitcoin Core, LND, BTCPay Server, Electrs, Dojo, Whirlpool, Lightning Terminal, RTL, serta BTC RPC Explorer, semuanya dengan pembaruan chain terintegrasi dan kode open-source di bawah lisensi MIT.
 
 ![Image](assets/fr/072.webp)
 
-
-
 Setelah menjelajahi berbagai solusi perangkat lunak, sekarang saatnya untuk memilih mesin yang akan menjadi host node Anda!
-
-
-
 
 ## Gambaran umum solusi perangkat keras
 
-
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
-
-
 
 Sekarang setelah kita menjelajahi semua kemungkinan perangkat lunak, mari kita fokus pada perangkat keras yang diperlukan untuk node Anda. Saya akan memberi Anda beberapa saran konkret dalam memilih komponen Anda, bersama dengan konfigurasi yang disesuaikan dengan anggaran yang berbeda. Tentu saja, ini adalah pendapat dan masukan pribadi saya: tentu saja ada alternatif lain yang relevan selain yang disajikan di sini. Lebih jauh lagi, saya tidak akan meninjau kembali mesin pra-rakitan yang ditawarkan oleh proyek node-in-a-box, yang telah kita bahas di bab sebelumnya. Di sini, kami akan fokus secara eksklusif pada solusi DIY.
 
@@ -3644,48 +3401,26 @@ Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis beri
 
 Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan memungkinkan Anda untuk memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:
 
-
-
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
-
 
 # Bagian akhir
 
-
 <partId>679169f5-b990-47e1-9a00-45098ba8096b</partId>
-
-
-
-
 
 ## Ulasan & Peringkat
 
-
 <chapterId>c18f672d-1074-427e-9505-eecd7ae43e71</chapterId>
-
-
-
 
 <isCourseReview>true</isCourseReview>
 
-
 ## Ujian akhir
-
 
 <chapterId>a4c97701-996c-4cc5-81fa-37d2dc4ee856</chapterId>
 
-
-
-
 <isCourseExam>true</isCourseExam>
-
 
 ## Kesimpulan
 
-
 <chapterId>28c5cf1f-7b9c-4b68-8b8f-eee109629764</chapterId>
-
-
-
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -105,10 +105,12 @@ proofreading:
       - Sanja22B
     reward: 22.06
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 44.11
+      - monyangi10
+      - Tinnah924
+    reward: 11.03
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

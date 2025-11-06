@@ -17,6 +17,11 @@ proofreading:
     contributor_names:
       - Asi0Flammeus
     reward: 41.76
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 83.52
 tags:
   - historical
   - case-studies

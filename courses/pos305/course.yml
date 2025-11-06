@@ -97,11 +97,12 @@ proofreading:
     contributor_names:
     reward: 83.05
   - language: vi
-    last_contribution_date: 2024-09-24
+    last_contribution_date: 2025-11-05
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 62.26
+      - Anh-La
+    reward: 31.13
   - language: et
     last_contribution_date:
     urgency: 1
@@ -140,11 +141,12 @@ proofreading:
       - Sanja22B
     reward: 41.53
   - language: sw
-    last_contribution_date: 2025-05-14
+    last_contribution_date: 2025-11-05
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 41.53
+      - Arianebtc
+    reward: 20.76
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

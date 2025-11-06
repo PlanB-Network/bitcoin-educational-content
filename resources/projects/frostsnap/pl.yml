@@ -1,0 +1,2 @@
+description: |
+  Frostsnap to system zabezpieczeń bitcoinów oparty na rozproszonym modelu wielopodpisowym, eliminujący wszelkie pojedyncze punkty awarii. Frostsnap wykorzystuje protokół FROST (Flexible Round-Optimized Schnorr Treshold Signatures).

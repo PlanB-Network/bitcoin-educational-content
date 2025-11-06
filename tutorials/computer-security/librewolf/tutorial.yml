@@ -64,10 +64,11 @@ proofreading:
     contributor_names:
     reward: 10.27
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 7.36
+      - AgoesRichie
+    reward: 3.68
   - language: it
     last_contribution_date:
     urgency: 1

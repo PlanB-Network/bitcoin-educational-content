@@ -1430,7 +1430,7 @@ Assignats از سال 1793
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[مجموعه اسکن شده را در *Bitcoin Educational Toolkit* کشف کنید (همچنین از بخش *Resources* پلتفرم Plan ₿ Network قابل دسترسی است.)](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[مجموعه اسکن‌شده را در *Bitcoin Educational Toolkit* کشف کنید (همچنین از بخش *منابع* پلتفرم Plan ₿ Academy در دسترس است.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/fa/068.webp)

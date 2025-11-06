@@ -6,4 +6,4 @@ wrong_answers:
   - Core RPC, Lightning, ElectrumX
 explanation: |
   Sparrow propose trois choix de serveur : Public Server, Bitcoin Core (RPC) et Private Electrum.
-reviewed: false
+reviewed: true 

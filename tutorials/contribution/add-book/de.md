@@ -10,7 +10,7 @@ Die Mission von PlanB ist es, erstklassige Bildungsressourcen über Bitcoin in m
 ![book](assets/01.webp)
 - Zuerst benötigen Sie ein GitHub-Konto. Wenn Sie nicht wissen, wie Sie ein Konto erstellen, haben wir ein detailliertes Tutorial erstellt, um Sie anzuleiten.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) im Abschnitt `resources/books/`:
@@ -67,7 +67,7 @@ tags:
 - Klicken Sie auf den grünen Button `Propose changes` (Änderungen vorschlagen): ![book](assets/12.webp)
 - Sie gelangen dann auf eine Seite, die alle Ihre Änderungen zusammenfasst: ![book](assets/13.webp)
 - Klicken Sie oben rechts auf Ihr GitHub-Profilbild und dann auf `Your Repositories` (Ihre Repositories): ![book](assets/14.webp)
-- Wählen Sie Ihren Fork des PlanB Network-Repository aus: ![book](assets/15.webp)
+- Wählen Sie Ihren Fork des Plan ₿ Academy-Repository aus: ![book](assets/15.webp)
 - Sie sollten oben im Fenster eine Benachrichtigung mit Ihrem neuen Branch sehen. Er heißt wahrscheinlich `patch-1`. Klicken Sie darauf: ![book](assets/16.webp)
 - Sie befinden sich jetzt auf Ihrem Arbeitsbranch: ![book](assets/17.webp)
 - Gehen Sie zurück zum Ordner `resources/books/` und wählen Sie den Ordner Ihres Buches aus, den Sie im vorherigen Commit erstellt haben: ![book](assets/18.webp)
@@ -78,7 +78,7 @@ tags:
 - Belassen Sie den Commit-Titel wie vorgegeben und stellen Sie sicher, dass das Kästchen `Commit directly to the patch-1 branch` (Direkt in den Branch patch-1 übernehmen) angekreuzt ist, dann klicken Sie auf `Commit changes` (Änderungen übernehmen): ![book](assets/23.webp)
 - Kehren Sie zum `assets`-Ordner zurück: ![book](assets/24.webp)
 - Klicken Sie auf den Button `Add file` (Datei hinzufügen), dann auf `Upload files` (Dateien hochladen): ![book](assets/25.webp)
-- Eine neue Seite wird geöffnet. Ziehen Sie das Coverbild Ihres Buches in den Bereich. Dieses Bild wird auf der PlanB Network-Website angezeigt: ![book](assets/26.webp)
+- Eine neue Seite wird geöffnet. Ziehen Sie das Coverbild Ihres Buches in den Bereich. Dieses Bild wird auf der Plan ₿ Academy-Website angezeigt: ![book](assets/26.webp)
 - Achten Sie darauf, dass das Bild im Format eines Buches sein muss, um sich am besten unserer Website anzupassen, wie zum Beispiel: ![book](assets/27.webp)
 - Sobald das Bild hochgeladen ist, stellen Sie sicher, dass das Kästchen `Commit directly to the patch-1 branch` (Direkt in den Branch patch-1 übernehmen) angekreuzt ist, dann klicken Sie auf `Commit changes` (Änderungen übernehmen): ![book](assets/28.webp)- Bitte beachten Sie, dass Ihr Bild `cover_en` benannt sein muss, wenn das Cover auf Englisch ist und im `.webp`-Format sein muss. Daher sollte der vollständige Dateiname `cover_en.webp`, `cover_fr.webp`, `cover_it.webp` usw. lauten. Wenn Sie für jede Sprache ein unterschiedliches Coverbild verwenden möchten, zum Beispiel im Falle einer Buchübersetzung, können Sie diese am gleichen Ort im `assets`-Ordner platzieren: ![book](assets/29.webp)
 - Gehen Sie zurück zu Ihrem `assets`-Ordner und klicken Sie auf die Zwischendatei `.gitkeep`: ![book](assets/30.webp)

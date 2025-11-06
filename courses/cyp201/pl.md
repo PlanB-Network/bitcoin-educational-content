@@ -1055,10 +1055,10 @@ Używamy skończonego pola liczb całkowitych modulo $p$, aby zapewnić dokładn
 Matematyka krzywych eliptycznych nad skończonymi polami jest analogiczna do tych nad polem liczb rzeczywistych, z tą różnicą, że wszystkie operacje są wykonywane modulo $p$. Aby uprościć wyjaśnienia, w kolejnych rozdziałach będziemy kontynuować ilustrowanie pojęć za pomocą krzywej zdefiniowanej na liczbach rzeczywistych, pamiętając jednocześnie, że w praktyce krzywa jest zdefiniowana na skończonym polu.
 
 
-Jeśli chcesz dowiedzieć się więcej o matematycznych podstawach współczesnej kryptografii, polecam również zapoznanie się z tym innym kursem na Plan ₿ Network:
+Jeśli chcesz dowiedzieć się więcej o matematycznych podstawach współczesnej kryptografii, polecam również zapoznanie się z tym innym kursem na Plan ₿ Academy:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Obliczanie klucza publicznego na podstawie klucza prywatnego
 
@@ -1656,7 +1656,7 @@ Jeśli ta flaga sighash zostanie zintegrowana z Bitcoin, umożliwi to korzystani
 Aby pogłębić swoją wiedzę na temat Lightning Network, po kursie CYP201 gorąco polecam kurs LNP201 autorstwa Fanisa Michalakisa, który szczegółowo omawia ten temat:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 W następnej części proponuję odkryć, jak działa fraza Mnemonic u podstawy Bitcoin Wallet.
 
@@ -1707,10 +1707,10 @@ Jeśli ktoś chciał użyć wielu kluczy prywatnych, konieczne było utworzenie 
 Ograniczenie to wynika z modelu prywatności Bitcoin. Ponowne użycie tego samego Address ułatwia zewnętrznym obserwatorom śledzenie transakcji Bitcoin. Dlatego też ponowne użycie otrzymującego Address jest zdecydowanie odradzane. Aby jednak mieć wiele adresów i publicznie oddzielić nasze transakcje, konieczne jest zarządzanie wieloma kluczami prywatnymi. W przypadku portfeli JBOK oznacza to tworzenie tylu kopii zapasowych, ile jest nowych par kluczy, co może szybko stać się skomplikowane i trudne w utrzymaniu dla użytkowników.
 
 
-Aby dowiedzieć się więcej o modelu prywatności Bitcoin i odkryć metody ochrony swojej prywatności, polecam również śledzenie mojego kursu BTC204 na temat Plan ₿ Network:
+Aby dowiedzieć się więcej o modelu prywatności Bitcoin i odkryć metody ochrony swojej prywatności, polecam również śledzenie mojego kursu BTC204 na temat Plan ₿ Academy:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Portfele HD
 
@@ -1855,7 +1855,7 @@ Na przykład, dla 256-bitowej entropii, wynik $\text{ENT} \Vert \text{CS}$ wynos
 ### Konwersja sekwencji binarnej na frazę Mnemonic
 
 
-Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39] (https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1920,7 +1920,7 @@ W rezultacie wybór 24-wyrazowej frazy nie zapewnia dodatkowej ochrony dla Walle
 Aby przejść dalej i dowiedzieć się konkretnie, jak ręcznie generate frazę testową Mnemonic, radzę zapoznać się z tym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Przed kontynuowaniem wyprowadzania Wallet z tej frazy Mnemonic, w następnym rozdziale przedstawię ci BIP39 passphrase, ponieważ odgrywa on rolę w procesie wyprowadzania i jest na tym samym poziomie co fraza Mnemonic.
 

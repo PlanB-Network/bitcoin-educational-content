@@ -299,7 +299,7 @@ Kun `Tx0` on vahvistettu, UTXO:si rekisteröidään automaattisesti koordinaatto
 
 ![samourai](assets/notext/34.webp)
 
-Tarkistamalla `Remixing`-välilehden, joka vastaa **Postmix**-tiliä, näet alkuperäisistä sekoituksista saadut UTXO:t. Nämä kolikot pysyvät valmiina seuraaviin uudelleensekoituksiin, jotka eivät aiheuta lisämaksuja. Suosittelen tutustumaan tähän toiseen artikkeliin oppiaksesi lisää uudelleensekoitusprosessista ja coinjoin-syklin tehokkuudesta: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Tarkistamalla `Remixing`-välilehden, joka vastaa **Postmix**-tiliä, näet alkuperäisistä sekoituksista saadut UTXO:t. Nämä kolikot pysyvät valmiina seuraaviin uudelleensekoituksiin, jotka eivät aiheuta lisämaksuja. Suosittelen tutustumaan tähän toiseen artikkeliin oppiaksesi lisää uudelleensekoitusprosessista ja coinjoin-syklin tehokkuudesta: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -336,7 +336,7 @@ Syötä tarvittavat tiedot maksutapahtumaasi varten, ja klikkaa sen jälkeen sin
 
 ![samourai](assets/notext/43.webp)
 Seuraavassa vaiheessa sinulla on mahdollisuus muuttaa maksutapahtumasi palkkiotasoa. Voit myös ottaa käyttöön Stonewall-vaihtoehdon valitsemalla vastaavan ruudun. Jos Stonewall-vaihtoehto ei ole valittavissa, se tarkoittaa, että **Postmix**-tilisi ei sisällä riittävän suurta UTXO:ta tukemaan tätä tiettyä tapahtumarakennetta.
-[-> Lue lisää Stonewall-tapahtumista.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Lue lisää Stonewall-tapahtumista.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Jos kaikki on mielestäsi kunnossa, klikkaa vihreää `SEND ... BTC` -painiketta.
 
@@ -368,7 +368,7 @@ Whirlpool sulkeutuu automaattisesti. Odota, että Samourai on valmis latautumaan
 Varmista, että SCODEsi on rekisteröity oikein klikkaamalla vielä kerran kolmea pientä pistettä ja valitsemalla `SCODE (promo code) Whirlpool`. Jos kaikki on kunnossa, olet valmis aloittamaan uuden Whirlpool-syklin alennetulla palvelumaksulla. On tärkeää huomata, että nämä SCODEt ovat väliaikaisia: ne pysyvät voimassa muutaman päivän ajan ennen kuin muuttuvat vanhentuneiksi.
 
 ## Miten tietää coinjoin-sykliemme laatu?
-Jotta coinjoin olisi todella tehokas, on olennaista, että syötteiden ja tuottojen määrissä on hyvä yhtenäisyys. Tämä yhtenäisyys lisää mahdollisten tulkintojen määrää ulkopuolisen tarkkailijan silmissä, lisäten näin epävarmuutta tapahtuman ympärillä. Tämän coinjoinin tuottaman epävarmuuden määrää voidaan arvioida laskemalla tapahtuman entropia. Näiden indikaattorien syvällisempään tutkimiseen viittaan sinut oppaaseen: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-malli tunnustetaan sellaiseksi, joka tuo eniten yhtenäisyyttä coinjoineihin.
+Jotta coinjoin olisi todella tehokas, on olennaista, että syötteiden ja tuottojen määrissä on hyvä yhtenäisyys. Tämä yhtenäisyys lisää mahdollisten tulkintojen määrää ulkopuolisen tarkkailijan silmissä, lisäten näin epävarmuutta tapahtuman ympärillä. Tämän coinjoinin tuottaman epävarmuuden määrää voidaan arvioida laskemalla tapahtuman entropia. Näiden indikaattorien syvällisempään tutkimiseen viittaan sinut oppaaseen: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-malli tunnustetaan sellaiseksi, joka tuo eniten yhtenäisyyttä coinjoineihin.
 Seuraavaksi arvioidaan useiden coinjoin-syklien suorituskykyä ryhmien laajuuden perusteella, joihin kolikko on piilotettu. Näiden ryhmien koko määrittelee niin kutsutut anonsetit. Anonsetteja on kahta tyyppiä: ensimmäinen arvioi saavutetun yksityisyyden retrospektiivisen analyysin (nykyhetkestä menneisyyteen) perusteella ja toinen, prospektiivisen analyysin (menneisyydestä nykyhetkeen) perusteella. Näiden kahden indikaattorin tarkempaa selitystä varten kutsun sinut tutustumaan oppaaseen: WHIRLPOOL STATS TOOLS - ANONSETS
 ## Miten hallita postmixiä?
 Coinjoin-syklien suorittamisen jälkeen paras strategia on pitää UTXO:si **postmix**-tilillä odottamassa tulevaa käyttöä. On jopa suositeltavaa antaa niiden remixautua loputtomiin, kunnes tarvitset käyttää niitä.

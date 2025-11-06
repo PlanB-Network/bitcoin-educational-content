@@ -8,7 +8,7 @@ BIP39-salasana on valinnainen salasana, joka yhdistettynä mnemoniseen fraasiisi
 
 Ennen tämän oppaan aloittamista, jos et ole tuttu salasanan konseptin, sen toiminnan ja sen vaikutusten kanssa Bitcoin-lompakkoosi, suosittelen vahvasti tutustumaan toiseen teoreettiseen artikkeliin, jossa selitän kaiken:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Kuinka salasana toimii Ledgerissä?
 
@@ -26,13 +26,13 @@ Lisäksi tämä vaihtoehto tarjoaa kaikki BIP39-salasanan turvaedut ilman, että
 "Väliaikainen salasana" -vaihtoehto ei tallenna salasanaa laitteeseen. Joka kerta, kun haluat päästä suojattuun lompakkoosi, sinun on manuaalisesti syötettävä salasana Ledgeriin. Tämä tekee käytöstä hankalampaa, mutta lisää myös hieman turvallisuutta jättämällä salasanan jäljen laitteeseen. Heti kun sammutat laitteen, se palautuu oletustilaansa ja vaatii uuden täydellisen salasanan syötön päästäksesi piilotettuihin tileihin. Tämä "väliaikainen salasana" -vaihtoehto on siis samankaltainen kuin muiden laitteistolompakkojen toiminta.
 Tässä oppaassa käytän esimerkkinä Ledger Flexiä. Jos kuitenkin käytät toista Ledger-mallia, prosessi pysyy samana. Ledger Staxin käyttöliittymä on sama kuin Ledger Flexin. Nano S, Nano S Plus ja Nano X -malleissa, vaikka käyttöliittymä eroaa, prosessi ja valikoiden nimet pysyvät samoina.
 **Huomio:** Jos olet jo vastaanottanut bitcoineja Ledgeriisi ennen salasanan aktivointia, sinun täytyy siirtää ne Bitcoin-siirrolla. Salasana luo uuden avainjoukon, luoden täysin itsenäisen lompakon alkuperäisestä lompakostasi. Salasanan lisäämisen jälkeen sinulla on uusi lompakko, joka on tyhjä. Tämä ei kuitenkaan poista ensimmäistä salasanatonta lompakkoasi. Voit edelleen päästä siihen käsiksi, joko suoraan Ledgerisi kautta ilman salasanan syöttämistä tai toisen ohjelmiston kautta käyttäen 24-sanan fraasiasi.
-Ennen tämän oppaan aloittamista, varmista, että olet jo alustanut Ledgerisi ja luonut muistisanojesi fraasin. Jos näin ei ole ja Ledgerisi on uusi, seuraa mallisi mukaista erityisopasta PlanB Network -sivustolla. Kun tämä vaihe on suoritettu, voit palata tähän oppaaseen.
+Ennen tämän oppaan aloittamista, varmista, että olet jo alustanut Ledgerisi ja luonut muistisanojesi fraasin. Jos näin ei ole ja Ledgerisi on uusi, seuraa mallisi mukaista erityisopasta Plan ₿ Academy -sivustolla. Kun tämä vaihe on suoritettu, voit palata tähän oppaaseen.
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Kuinka asettaa väliaikainen salasana Ledgeriin?
 
@@ -172,4 +172,4 @@ Onnittelut, Bitcoin-lompakkosi on nyt suojattu salasanalla! Jos pidit tätä opa
 
 Suosittelen myös, että tutustut tähän toiseen kattavaan oppaaseen siitä, miten käytät Ledger Flexiäsi:
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -9,7 +9,7 @@ _Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvime
 
 _Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
 
-_Este tutorial é dedicado à instalação do RoninDojo v1. Para aproveitar as últimas melhorias e funcionalidades, recomendo fortemente que consulte nosso tutorial dedicado à instalação direta do RoninDojo v2 em seu Raspberry Pi:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+_Este tutorial é dedicado à instalação do RoninDojo v1. Para aproveitar as últimas melhorias e funcionalidades, recomendo fortemente que consulte nosso tutorial dedicado à instalação direta do RoninDojo v2 em seu Raspberry Pi:_ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

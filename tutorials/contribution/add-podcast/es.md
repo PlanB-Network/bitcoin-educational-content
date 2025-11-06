@@ -1,18 +1,18 @@
 ---
 name: Añadir un Podcast a la Red PlanB
-description: ¿Cómo añadir un nuevo podcast a PlanB Network?
+description: ¿Cómo añadir un nuevo podcast a Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
 La misión de PlanB es proporcionar recursos educativos de primera categoría sobre Bitcoin en tantos idiomas como sea posible. Todo el contenido publicado en el sitio es de código abierto y alojado en GitHub, permitiendo a cualquiera participar en enriquecer la plataforma.
 
-¿Estás buscando añadir un podcast sobre Bitcoin al sitio de PlanB Network y aumentar la visibilidad de tu programa, pero no sabes cómo? ¡Este tutorial es para ti!
+¿Estás buscando añadir un podcast sobre Bitcoin al sitio de Plan ₿ Academy y aumentar la visibilidad de tu programa, pero no sabes cómo? ¡Este tutorial es para ti!
 
 ![podcast](assets/01.webp)
 
 - Primero, necesitas tener una cuenta de GitHub. Si no sabes cómo crear una, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) en la sección `resources/podcasts/`:
@@ -123,7 +123,7 @@ contributors:
   
 ![podcast](assets/14.webp)
 
-- Selecciona tu fork del repositorio de PlanB Network:
+- Selecciona tu fork del repositorio de Plan ₿ Academy:
   
 ![podcast](assets/15.webp)
 
@@ -167,7 +167,7 @@ contributors:
   
 ![podcast](assets/25.webp)
 
-- Se abrirá una nueva página. Arrastra y suelta el logo de tu podcast en el área. Esta imagen se mostrará en el sitio de PlanB Network:
+- Se abrirá una nueva página. Arrastra y suelta el logo de tu podcast en el área. Esta imagen se mostrará en el sitio de Plan ₿ Academy:
 
   ![podcast](assets/26.webp)
   
@@ -215,9 +215,9 @@ contributors:
   
 ![podcast](assets/37.webp)
 
-¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de PlanB Network. Deberías ver tu podcast aparecer en el sitio web unos días después.
+¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de Plan ₿ Academy. Deberías ver tu podcast aparecer en el sitio web unos días después.
 
-Por favor, asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes verlo en la pestaña `Pull requests` en el repositorio de GitHub de PlanB Network:
+Por favor, asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes verlo en la pestaña `Pull requests` en el repositorio de GitHub de Plan ₿ Academy:
 
 ![podcast](assets/38.webp)
 

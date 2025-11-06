@@ -64,7 +64,7 @@ Dojo 是一個開放源碼程式，設計用來作為某些以 Bitcoin core 節�
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### 推薦設備
 
@@ -192,7 +192,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. 系統更新
 
@@ -428,7 +428,7 @@ sudo passwd dojo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3.授權使用者使用 Docker
 
@@ -1068,7 +1068,7 @@ Ctrl + C
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7.同步監控

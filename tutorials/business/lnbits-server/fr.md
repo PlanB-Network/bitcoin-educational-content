@@ -7,7 +7,7 @@ description: Installation et configuration d'un serveur LNbits auto-hébergé su
 
 LNbits est une interface web open source qui transforme n'importe quel backend Lightning (LND, Core Lightning, Phoenixd) en plateforme de services complète. Cette solution auto-hébergée permet de gérer plusieurs portefeuilles Lightning isolés, déployer des points de vente, créer des systèmes de dons ou des services de facturation, tout en conservant un contrôle total sur vos fonds.
 
-Ce tutoriel couvre deux approches d'installation : **VPS Ubuntu avec Phoenixd** (solution légère sans nœud Bitcoin complet) et **Umbrel** (intégration avec votre nœud LND existant). Contrairement au tutoriel LNbits général de Plan B Network qui couvre les concepts et extensions, ce guide se concentre sur les procédures d'installation techniques pas à pas.
+Ce tutoriel couvre deux approches d'installation : **VPS Ubuntu avec Phoenixd** (solution légère sans nœud Bitcoin complet) et **Umbrel** (intégration avec votre nœud LND existant). Contrairement au tutoriel LNbits général de Plan ₿ Academy qui couvre les concepts et extensions, ce guide se concentre sur les procédures d'installation techniques pas à pas.
 
 ## Qu'est-ce que LNbits ?
 
@@ -47,7 +47,7 @@ Ce guide couvre la configuration utilisateur, SSH sécurisé, pare-feu (UFW), fa
 
 ### Étape 2 : Installation de Phoenixd
 
-Une fois votre serveur sécurisé, vous devez installer et configurer Phoenixd. Plan B Network propose un tutoriel dédié complet couvrant l'installation, la génération de la seed et la configuration du service systemd :
+Une fois votre serveur sécurisé, vous devez installer et configurer Phoenixd. Plan ₿ Academy propose un tutoriel dédié complet couvrant l'installation, la génération de la seed et la configuration du service systemd :
 
 https://planb.academy/tutorials/node/lightning-network/phoenixd-beb86edd-f9c0-4bec-ad36-db234c88e7b1
 

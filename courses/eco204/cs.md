@@ -1427,8 +1427,8 @@ Klíčovým poznatkem je, že existuje několik strategií, jak překonat hyperi
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
+[Objevte naskenovanou kolekci v *Bitcoin Educational Toolkit* (také přístupné z části *Zdroje* na platformě Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
-[Objevte naskenovanou sbírku v souboru vzdělávacích nástrojů *Bitcoin* (přístupný také v sekci *Zdroje* na platformě Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/cs/068.webp)

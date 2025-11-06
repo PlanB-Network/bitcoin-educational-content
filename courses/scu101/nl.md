@@ -61,7 +61,7 @@ Deze training is een samenwerking van drie van onze professoren:
 
 - Renaud Lifchitz, cyberbeveiligingsdeskundige
 - Théo Pantamis, doctor in de toegepaste wiskunde
-- Rogzy, medeoprichter van Plan ₿ Network
+- Rogzy, medeoprichter van Plan ₿ Academy
 
 
 Je digitale hygiëne is cruciaal in een wereld die steeds digitaler wordt. Ondanks de voortdurende toename van hacken en massasurveillance is het nog niet te laat om de eerste stap te zetten en jezelf te beschermen.
@@ -184,7 +184,7 @@ TOR is een legaal en veelgebruikt hulpmiddel voor journalisten, vrijheidsactivis
 ![image](assets/nl/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN en internetverbinding
 
@@ -218,9 +218,9 @@ Het gebruik van een consumenten-VPN garandeert echter geen volledige anonimiteit
 Tot slot kan een VPN ook worden gebruikt om online advertenties te blokkeren, waardoor je prettiger en veiliger kunt surfen. Het is echter essentieel om grondig onderzoek te doen om de VPN te vinden die het beste bij je behoeften past. Het gebruik van een VPN wordt aanbevolen om de veiligheid te verbeteren, zelfs wanneer je thuis op het internet surft. Dit zorgt voor een hoger beschermingsniveau voor online uitgewisselde gegevens. Tot slot, zou je de URL's en het kleine hangslotje in de Address balk kunnen controleren om te bevestigen dat je op de bedoelde site bent?
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS en openbare Wi-Fi-netwerken
 
@@ -380,9 +380,9 @@ NEE, het wordt over het algemeen afgeraden om hackers te betalen in het geval va
 Als je een virus ontdekt op je computer, koppel hem dan los van het internet, voer een volledige antivirusscan uit en verwijder geïnfecteerde bestanden. Werk vervolgens uw software en besturingssysteem bij en wijzig uw wachtwoorden om verdere inbraken te voorkomen.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementatie van oplossingen.
 
@@ -435,7 +435,7 @@ In het algemeen is het geen slechte gewoonte om een nieuwe, veiligere e-mail Add
 Bonus Bitcoin: Het kan raadzaam zijn om een specifieke e-mail Address aan te maken voor onze Bitcoin activiteiten, zoals het aanmaken van Exchange accounts, om deze gebieden van activiteit in ons leven echt te scheiden.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Wachtwoordbeheer
 
@@ -498,9 +498,9 @@ Om een sterk wachtwoord te maken, wordt het aanbevolen om een groot aantal wille
 
 Willekeurig gegenereerde wachtwoorden bieden een hoger beveiligingsniveau, hoewel ze moeilijker te onthouden kunnen zijn. Wachtwoordbeheerders kunnen veiligere willekeurige wachtwoorden ontwikkelen. Door een wachtwoordmanager te gebruiken, hoeft u niet al uw wachtwoorden te onthouden. Het is essentieel om geleidelijk je oude wachtwoorden te vervangen door wachtwoorden die zijn gegenereerd door de manager, omdat ze sterker en veiliger zijn. Zorg ervoor dat het hoofdwachtwoord van uw wachtwoordmanager ook sterk en veilig is.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Authenticatie met twee factoren
 
@@ -566,9 +566,9 @@ Blijf leren en implementeer geleidelijk goede praktijken!
 Gouden regel: Cyberbeveiliging is een bewegend doelwit dat zich aanpast aan jouw leerproces!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktisch gedeelte
 
@@ -585,7 +585,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 Het beveiligen van je e-mailaccount is een cruciale stap in het beveiligen van je online activiteiten en het beschermen van je gegevens. Deze handleiding begeleidt je stap voor stap bij het maken en instellen van een ProtonMail-account, een provider die bekend staat om zijn hoge beveiligingsniveau en end-to-end versleuteling van je communicatie biedt. Of je nu een beginnende of ervaren gebruiker bent, de best practices die hier worden gepresenteerd zullen je helpen de beveiliging van je e-mail te versterken terwijl je profiteert van de geavanceerde functies van ProtonMail:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Beveiligen met 2FA
 
@@ -596,12 +596,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Authenticatie met twee factoren (2FA) is essentieel geworden voor het beveiligen van je online accounts. In deze tutorial leer je hoe je de 2FA app Authy instelt en gebruikt. Authy genereert dynamische 6-cijferige codes om je accounts te beveiligen. Authy is heel eenvoudig te gebruiken en synchroniseert op meerdere apparaten. Ontdek hoe je Authy installeert en configureert, en versterk zo nu al de beveiliging van je online accounts:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Een andere optie is het gebruik van een fysieke beveiligingssleutel. Deze extra handleiding laat zien hoe je een beveiligingssleutel instelt en gebruikt als tweede authenticatiefactor:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Een wachtwoordmanager maken
 
@@ -615,12 +615,12 @@ Wachtwoordbeheer is een uitdaging in het digitale tijdperk. We hebben allemaal t
 In deze tutorial leer je hoe je Bitwarden instelt, een open-source wachtwoordmanager, en hoe je je gegevens synchroniseert met al je apparaten om het dagelijks gebruik te vereenvoudigen:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Voor meer gevorderde gebruikers heb ik ook een tutorial over een andere gratis en open-source software om lokaal te gebruiken voor het beheren van je wachtwoorden:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Je accounts beveiligen
 
@@ -631,9 +631,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 In deze twee tutorials begeleid ik je ook bij het beveiligen van je online accounts en leg ik uit hoe je geleidelijk veiligere werkwijzen kunt aannemen voor het dagelijks beheren van je wachtwoorden.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Veranderen van browser & VPN
 
@@ -647,14 +647,14 @@ Het beschermen van je online privacy is ook een cruciaal punt om je veiligheid t
 Ik stel voor dat je twee betrouwbare VPN-oplossingen onderzoekt die Bitcoin betalingen accepteren, namelijk IVPN en Mullvad. Deze tutorials laten je zien hoe je Mullvad of IVPN op al je apparaten kunt installeren, configureren en gebruiken:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Leer ook hoe je Tor Browser gebruikt, een browser die speciaal is ontworpen om je online privacy te beschermen:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Back-up instellen
 
@@ -665,12 +665,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 Het beschermen van je bestanden is ook een cruciaal punt. Deze handleiding laat zien hoe je een effectieve back-upstrategie implementeert met Proton Drive. Ontdek hoe u deze veilige cloudoplossing kunt gebruiken om de 3-2-1 methode toe te passen: drie kopieën van uw gegevens op twee verschillende media, met één kopie offsite. Dit garandeert de toegankelijkheid en veiligheid van uw gevoelige bestanden:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 En om je bestanden op verwisselbare media zoals een USB-station of externe Hard schijf te beveiligen, laat ik je ook zien hoe je deze media eenvoudig kunt versleutelen en ontsleutelen met VeraCrypt:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Ga verder
 

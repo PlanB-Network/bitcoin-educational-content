@@ -927,7 +927,7 @@ Das Wichtigste ist, dass es verschiedene Strategien gibt, um aus der Hyperinflat
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[Entdecken Sie die gescannte Sammlung im *Bitcoin Educational Toolkit* (auch über den Abschnitt *Ressourcen* auf der Plan ₿ Network Plattform zugänglich.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Entdecken Sie die gescannte Sammlung im *Bitcoin Educational Toolkit* (auch über den Abschnitt *Ressourcen* auf der Plan ₿ Academy Plattform zugänglich.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![Bild](assets/de/068.webp)
 # Wie sind wir hierher gekommen?

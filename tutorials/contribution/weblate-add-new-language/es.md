@@ -1,16 +1,16 @@
 ---
 name: Weblate - añadir un nuevo idioma
-description: Cómo se puede añadir un nuevo idioma a Plan ₿ Network?
+description: Cómo se puede añadir un nuevo idioma a Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-La misión de Plan ₿ Network es proporcionar recursos educativos de primera clase sobre Bitcoin y traducirlos al mayor número de idiomas posible. Gran parte del contenido publicado en el sitio es de código abierto y está alojado en GitHub, lo que permite a cualquiera participar en el enriquecimiento de la plataforma. Las contribuciones pueden adoptar diversas formas: Corregir el contenido existente, actualizar la información o crear nuevos tutoriales para añadir a la plataforma.
+La misión de Plan ₿ Academy es proporcionar recursos educativos de primera clase sobre Bitcoin y traducirlos al mayor número de idiomas posible. Gran parte del contenido publicado en el sitio es de código abierto y está alojado en GitHub, lo que permite a cualquiera participar en el enriquecimiento de la plataforma. Las contribuciones pueden adoptar diversas formas: Corregir el contenido existente, actualizar la información o crear nuevos tutoriales para añadir a la plataforma.
 
 Nuestro sitio web ofrece actualmente una amplia gama de idiomas, y trabajamos continuamente para añadir más. Para mejorar el proceso de traducción de nuestro frontend, utilizamos la herramienta Weblate, que nos ayuda a colaborar y gestionar las traducciones con eficacia. Es una herramienta fácil de usar.
 
 Si tu lengua materna aún no está disponible en nuestro sitio web y te gustaría añadirla, ¡Este tutorial es para ti!
 
-En primer lugar, asegúrate de ponerte en contacto con el equipo de Plan ₿ Network a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes Telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
+En primer lugar, asegúrate de ponerte en contacto con el equipo de Plan ₿ Academy a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes Telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
 
 ## Comprobar si un idioma está presente en Weblate
 
@@ -26,10 +26,10 @@ Para comprobar si tu idioma ya se encuentra entre aquellos en los que estamos tr
 
 Si tu idioma se encuentra en esta lista, no es necesario que lo añadas de nuevo. Para contribuir corrigiendo el weblate, descubre el siguiente tutorial:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Si tu idioma no está, sigue el tutorial que aparece a continuación para añadirlo.
 
-## Añadir un nuevo idioma al Plan ₿ Network
+## Añadir un nuevo idioma al Plan ₿ Academy
 
 - El primer paso es crear una cuenta en Weblate haciendo clic en "Registrarse" en la esquina superior derecha (si necesitas ayuda, puedes volver al tutorial mencionado anteriormente).
 - Una vez creada tu cuenta, ve al menú "Elementos del sitio web" y seleccione la pestaña "Idiomas":
@@ -58,8 +58,8 @@ Si tu idioma no está, sigue el tutorial que aparece a continuación para añadi
 
 Para guiarte en el proceso de traducción, consulta nuestro tutorial específico:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Enhorabuena! Has iniciado el proceso de traducción de los elementos estáticos del sitio web de la Plan ₿ Network
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+Enhorabuena! Has iniciado el proceso de traducción de los elementos estáticos del sitio web de la Plan ₿ Academy
 Incluyen todas las cadenas del sitio web, excepto los contenidos educativos (cursos, tutoriales...) para los que utilizamos otro método semiautomatizado (traducción AI + corrección de colaboradores).
 
 Muchas gracias por tu valiosa contribución.

@@ -1427,8 +1427,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-
-[स्कैन किए गए संग्रह को *Bitcoin शैक्षिक टूलकिट* में देखें (Plan ₿ Network प्लेटफ़ॉर्म के *संसाधन* अनुभाग से भी सुलभ।](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[*Bitcoin Educational Toolkit* में स्कैन किए गए संग्रह की खोज करें (जो Plan ₿ Academy प्लेटफ़ॉर्म के *संसाधन* अनुभाग से भी सुलभ है।](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/hi/068.webp)

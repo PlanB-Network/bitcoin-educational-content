@@ -134,13 +134,13 @@ Burada hangi havuzu kullanacağımıza karar vermemiz gerekecek. Bu derste size 
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 İkinci seçenek, bizi Public Pool gibi tek başına çalışan bir Mining pool'ye bağlamaktır, bunu yapmak için bu kılavuzu izleyin:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Braiins Havuz
 
@@ -150,7 +150,7 @@ Bu havuza bağlanmak için bir hesap oluşturmamız gerekiyor. bu havuz ayrıca 
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Bu işlem tamamlandıktan sonra Braiins havuz kontrol panelindeyiz. Yapmamız gereken, havuza Madencilerimizden biriyle bağlantı kurmak istediğimizi söylemektir, bu nedenle ekranın sol tarafında bir dizi giriş bulacaksınız. "İşçiler "e gitmemiz gerekiyor
 
@@ -168,7 +168,7 @@ ve sağ tarafta "Çalışanları bağla" yazan mor düğmeye tıklamamız gereki
 
 
 
-Mini Miner'ümüzü havuza bağlamak için ihtiyacımız olan bilgileri içeren pencere geliyor. Burada yapabileceğimiz tek değişiklik Stratum V2'yi seçmek. Stratum v2'nin ne olduğunu öğrenmek için [glossary] (https://planb.network/en/resources/glossary/stratum-v2) adresindeki bu girdiye bakın.
+Mini Miner'ümüzü havuza bağlamak için ihtiyacımız olan bilgileri içeren pencere geliyor. Burada yapabileceğimiz tek değişiklik Stratum V2'yi seçmek. Stratum v2'nin ne olduğunu öğrenmek için [glossary] (https://planb.academy/en/resources/glossary/stratum-v2) adresindeki bu girdiye bakın.
 
 
 

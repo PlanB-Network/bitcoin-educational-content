@@ -11,7 +11,7 @@ description: Inyigisho yuzuye yo gukoresha Bisq 2 no guhindura amafaranga P2P.
 Uguhanahana amakuru hagati y’abantu (P2P) ata KYC ni ngombwa kugira ngo abakoresha bazigame ubuzima bwite n’ukwigenga mu vy’amahera. Bituma umuntu ashobora gukorana n’abandi ataco akeneye kugenzura akaranga kabo, ivyo bikaba ari ngirakamaro ku bantu baha agaciro ubuzima bwite. Kugira ngo utahure neza ivyiyumviro vy’inyigisho, raba inyigisho ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 ni iki?
 
@@ -31,7 +31,7 @@ Bisq 2 ni verisiyo nshasha ya Bisq Exchange izwi cane, yatangujwe mu 2024. Bitan
 - Uburyo bw'uruhara n'ugushiramwo amahera ku nguvu muri BSQ
 
 
-Iyi nkuru yibanze cane kuri "Bisq Easy", ariyo protocole yonyene iriho ubu. Bisq Easy yakozwe cane cane ku bashasha bakoresha Bitcoin. Iyi porotokole ituma abakoresha bashobora kugura no kugurisha Bitcoins ku mafaranga ya fiat ku rubuga rw’abantu bose. Ivy’ugucuruza bigarukira ku madolari angana na 600 USD (n’agaciro gatoyi k’amadolari 6), kandi umutekano wa Exchange wizigiye izina ryiza ry’abagurisha BTC. Bisq Easy nta mafaranga y’ubudandaji canke ibisabwa vyo gushiramwo umutekano. Bisq Easy itegerezwa gusubirira Bisq 1 ku mafaranga ari munsi ya 600 USD (canke angana na yo).
+Iyi nyandiko yibanda gusa kuri "Bisq Easy", protokole imwe rukumbi ihari ubu. Bisq Easy yagenewe by'umwihariko abakoresha bashya ba Bitcoin. Uyu protokole utuma abakoresha bagura kandi bagurishe bitcoin mu mafaranga asanzwe bakoresheje urubuga rudafite ubuyobozi rwihariye rwa peer-to-peer. Ibikorwa by'ubucuruzi bigarukirwa ku kigereranyo cya USD 600 (byibuze USD 6), kandi umutekano w'ubucuruzi ushingiye ku izina ryiza ry'abacuruzi ba BTC. Bisq Easy nta mafaranga y'ubucuruzi asabwa kandi ntisaba kubitsa ingwate. Biteganyijwe ko Bisq Easy izasimbura Bisq 1 mu bucuruzi bwa fiat buri munsi ya USD 600 (cyangwa ingana na byo).
 
 
 **Ibiranga cane:**
@@ -84,7 +84,7 @@ Iyi nkuru yibanze cane kuri "Bisq Easy", ariyo protocole yonyene iriho ubu. Bisq
 - Uwaremye iyo mpano asigura amajambo yo muri Exchange .
 - Abacuruzi bamaze kwumvikana ku masezerano (uburyo bwo kwishura n’igiciro), Exchange iratangura .
 - Uwugurisha arungikira uwumugura amakuru yiwe yo muri banki, uwo muguzi na we akarungikira uwumugurisha igitabu ciwe citwa Bitcoin Address .
-- Uwuguze ariha amafranga kandi akamenyesha uwugurisha
+- Umuguzi akora ubwishyu mu mafaranga asanzwe kandi amenyesha ugurisha
 - Iyo amahera amaze gushikwako, uwugurisha yohereza ayo ma bitcoins ku Address y’umuguzi.
 - Exchange iraheza iyo umuguzi aronse ama bitcoins .
 
@@ -117,7 +117,7 @@ Iyi nkuru yibanze cane kuri "Bisq Easy", ariyo protocole yonyene iriho ubu. Bisq
 - Suzuma ukuri kw’idosiye yakuwe kuri interineti (ni ngirakamaro cane). Kugira ngo ubone ubuyobozi burambuye bwo kugenzura umukono, raba inyigisho ikurikira:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Gushiramwo hakurikijwe sisitemu yawe
 

@@ -17,7 +17,7 @@ Ale aplikacja zawiera również "wbudowany węzeł".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Dla przypomnienia, Lightning to sieć, która działa równolegle z Bitcoin, umożliwiając wymianę bitcoinów bez konieczności systematycznego przeprowadzania transakcji On-Chain. Rezultatem są niemal natychmiastowe transakcje, bez konieczności czekania 10 minut na zatwierdzenie bloku. Jest to szczególnie przydatne podczas płacenia sprzedawcy w świecie fizycznym. Co więcej, Lightning zapewnia niezwykły poziom **poufności**, którego sieć Bitcoin nie posiada natywnie*.
 
@@ -200,7 +200,7 @@ Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zar
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus umożliwia następnie dodanie notatki w celu denominacji płatności lub wy
 
 
 
-Należy pamiętać, że w przeciwieństwie do Wallet, takiego jak [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), w przypadku Zeusa trasa jest obliczana lokalnie i nie jest delegowana do strony trzeciej (ACINQ w przypadku Phoenix). Jesteś więc jedyną osobą, która zna odbiorcę płatności. Tracimy nieco na wydajności (płatności trwają nieco dłużej, ale zyskujemy wiele pod względem prywatności).
+Należy pamiętać, że w przeciwieństwie do Wallet, takiego jak [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), w przypadku Zeusa trasa jest obliczana lokalnie i nie jest delegowana do strony trzeciej (ACINQ w przypadku Phoenix). Jesteś więc jedyną osobą, która zna odbiorcę płatności. Tracimy nieco na wydajności (płatności trwają nieco dłużej, ale zyskujemy wiele pod względem prywatności).
 
 
 
@@ -422,8 +422,8 @@ Gratulacje, jesteś teraz gotowy do korzystania z Zeus Embedded, mobilnego syste
 
 
 
-Aby dowiedzieć się więcej o technicznym działaniu Lightning Network, można znaleźć doskonałe bezpłatne szkolenie Plan ₿ Network Fanisa Michalakisa:
+Aby dowiedzieć się więcej o technicznym działaniu Lightning Network, można znaleźć doskonałe bezpłatne szkolenie Plan ₿ Academy Fanisa Michalakisa:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

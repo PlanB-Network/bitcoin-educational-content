@@ -11,7 +11,7 @@ BIP39 passphrase je opcionalna lozinka koja, kada se kombinuje sa vašom Mnemoni
 Pre nego što započnete ovaj tutorijal, ako niste upoznati sa konceptom passphrase, kako funkcioniše i njegovim implikacijama za vaš Bitcoin Wallet, toplo preporučujem da pogledate ovaj drugi teorijski članak gde sve objašnjavam:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Kako passphrase funkcioniše na Ledger?
 
@@ -41,14 +41,14 @@ U ovom uputstvu, koristiću Ledger Flex kao primer. Međutim, ako koristite drug
 **Pažnja:** Ako ste već primili bitkoine na vaš Ledger pre aktiviranja passphrase, biće potrebno da ih prenesete putem Bitcoin transakcije. passphrase generiše set novih ključeva, čime se kreira Wallet koji je potpuno nezavisan od vašeg početnog Wallet. Kada dodate passphrase, imaćete novi Wallet koji će biti prazan. Međutim, ovo ne briše vaš prvi Wallet bez passphrase. I dalje možete pristupiti njemu, bilo direktno putem vašeg Ledger bez unosa passphrase ili preko drugog softvera koristeći vašu frazu od 24 reči.
 
 
-Pre nego što započnete ovaj vodič, uverite se da ste već inicijalizovali svoj Ledger i generisali svoju Mnemonic frazu. Ako to nije slučaj i vaš Ledger je nov, pratite specifičan vodič za vaš model dostupan na PlanB Network. Kada završite ovaj korak, možete se vratiti na ovaj vodič.
+Pre nego što započnete ovaj vodič, uverite se da ste već inicijalizovali svoj Ledger i generisali svoju Mnemonic frazu. Ako to nije slučaj i vaš Ledger je nov, pratite specifičan vodič za vaš model dostupan na Plan ₿ Academy. Kada završite ovaj korak, možete se vratiti na ovaj vodič.
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Kako postaviti privremeni passphrase sa Ledger?
 
@@ -274,4 +274,4 @@ Pre nego što koristite svoj Wallet sa passphrase, toplo vam preporučujem da iz
 Takođe vam preporučujem da pogledate ovaj drugi kompletan vodič o tome kako koristiti vaš Ledger Flex:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

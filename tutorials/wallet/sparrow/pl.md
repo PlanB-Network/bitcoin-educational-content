@@ -38,7 +38,7 @@ Przejdź do [oficjalnej strony pobierania Sparrow Wallet] (https://sparrowwallet
 Ważne jest, aby sprawdzić integralność i autentyczność oprogramowania przed jego zainstalowaniem. Jeśli nie wiesz, jak to zrobić, tutaj znajdziesz kompletny samouczek:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po zainstalowaniu Sparrow można pominąć początkowe ekrany objaśniające i przejść bezpośrednio do ekranu zarządzania połączeniami.
 
@@ -107,9 +107,9 @@ Należy pamiętać, że jeśli użyjesz przyciętego węzła Bitcoin Core, nie b
 Aby skonfigurować węzeł Bitcoin Core, można skorzystać z jednego z poniższych samouczków, w zależności od systemu operacyjnego:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 W aplikacji Sparrow przejdź do zakładki "*Bitcoin Core*".
 
@@ -314,7 +314,7 @@ Można umieścić go na papierze lub, w celu zwiększenia bezpieczeństwa, wygra
 Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zarządzania frazą Mnemonic, zdecydowanie polecam skorzystanie z tego samouczka, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -325,7 +325,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Możesz również dodać passphrase BIP39, klikając pole "*Użyj passphrase*". Ostrzeżenie: korzystanie z passphrase może być bardzo przydatne, ale jeśli nie rozumiesz, jak to działa, może być bardzo ryzykowne. Dlatego zdecydowanie radzę przeczytać ten krótki artykuł teoretyczny na ten temat:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Po zapisaniu Mnemonic i dowolnego passphrase na nośniku fizycznym kliknij "*Potwierdź kopię zapasową*".
 
@@ -378,7 +378,7 @@ Istnieją dwa główne sposoby podłączenia Hardware Wallet do Sparrow:
 Sparrow obsługuje wszystkie te metody komunikacji i jest kompatybilny z większością portfeli sprzętowych dostępnych na rynku.
 
 
-W tym samouczku będę używał Ledger Nano S z kablem, ale procedura jest podobna w trybie Air-Gap. Szczegóły dotyczące Hardware Wallet znajdziesz w dedykowanym samouczku na temat Plan ₿ Network.
+W tym samouczku będę używał Ledger Nano S z kablem, ale procedura jest podobna w trybie Air-Gap. Szczegóły dotyczące Hardware Wallet znajdziesz w dedykowanym samouczku na temat Plan ₿ Academy.
 
 
 Przed rozpoczęciem upewnij się, że Wallet jest już skonfigurowany na Hardware Wallet. Jeśli korzystasz z połączenia przewodowego, podłącz go do komputera za pomocą kabla.
@@ -471,7 +471,7 @@ Jeśli używasz Hardware Wallet, bardzo ważne jest sprawdzenie Address na ekran
 ![Image](assets/fr/44.webp)
 
 
-W przypadku użytkowników Hardware Wallet Air-Gap weryfikacja Address różni się w zależności od modelu urządzenia. Dokładne instrukcje można znaleźć w dedykowanym samouczku Plan ₿ Network.
+W przypadku użytkowników Hardware Wallet Air-Gap weryfikacja Address różni się w zależności od modelu urządzenia. Dokładne instrukcje można znaleźć w dedykowanym samouczku Plan ₿ Academy.
 
 
 Gdy transakcja zostanie nadana przez płatnika, pojawi się w zakładce "*Transakcje*". Możesz kliknąć na nią, aby uzyskać więcej szczegółów, takich jak txid.
@@ -552,7 +552,7 @@ Spowoduje to przejście do strony zawierającej szczegóły transakcji Elements.
 Ważne jest, aby zachować domyślny Sighash. Aby zrozumieć dlaczego, zapoznaj się z tym szkoleniem, w którym wyjaśniam wszystko, co musisz wiedzieć o Sighash:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Na następnym ekranie opcje różnią się w zależności od używanego typu Wallet:
 
@@ -668,4 +668,4 @@ Jeśli uznałeś ten poradnik za przydatny, będę bardzo wdzięczny, jeśli zos
 Polecam również ten samouczek, w którym wyjaśniam, jak skonfigurować Hardware Wallet COLDCARD Q ze Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

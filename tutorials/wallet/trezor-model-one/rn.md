@@ -81,7 +81,7 @@ Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Model One n’[por
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Uzokenera kandi porogarama ya Trezor Suite kugira ngo ushobore gutunganya Model One, usuzume ko ari iyo ukuri maze ushiremwo porogarama y’imbere. Tuzoba turiko turakoresha iyi porogaramu gusa kubera ivyo, hanyuma izokenerwa gusa ku bijanye n’uguhindura firmware. Ku bijanye n’uburongozi bwa misi yose bwa Wallet, tuzoba turiko turakoresha Sparrow wallet gusa, kuko itunganijwe neza kuri Bitcoin kandi yoroshe gukoresha, mbere n’abatangura (Sparrow ishigikira Bitcoin gusa, atari altcoins).
 
@@ -99,7 +99,7 @@ Ku bijanye n’izo porogarama zompi, ndagusavye cane ko wosuzuma ko ari iz’uku
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Gutangura igishushanyo ca mbere
 
@@ -209,7 +209,7 @@ Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Kugira ngo ugende ku majambo akurikira, kanda iburyo. Umaze kwandika amajambo yose, wongere ukande kuri buto y’iburyo kugira ngo ugende ku ntambwe ikurikira.
 
@@ -315,7 +315,7 @@ Umaze gufungura Sparrow wallet, urabe neza ko iyo porogarama ifatanye n'uruzitir
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Fyonda kuri "*Dosiye*", hanyuma kuri "*Wallet nshasha*".
 
@@ -357,7 +357,7 @@ Iyo uhuje Model One yawe na mudasobwa ifise Sparrow wallet yuguruye, uzoca usabw
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 ![Image](assets/fr/26.webp)
 
@@ -407,7 +407,7 @@ Kugira ngo umenye vyinshi ku buryo bwo gukora ikibazo co gukira, ndagusavye urab
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ni gute woronka ama bitcoins ukoresheje Trezor Model One?
 
@@ -565,6 +565,6 @@ Urasangwa, ubu uri ku rugero rwo gukoresha Trezor Model One ifise Sparrow wallet
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Niwaba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Ntutinye gusangiza abandi iyi nkuru ku mbuga zanyu zo gusangirirako amakuru. Murakoze cane!

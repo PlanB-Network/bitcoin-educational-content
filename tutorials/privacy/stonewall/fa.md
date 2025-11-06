@@ -61,7 +61,7 @@ _این آموزش صرفاً برای اهداف آموزشی و اطلاعات
 به طور خلاصه، تراکنش‌های Stonewall و Stonewall x2 دارای ساختار یکسانی هستند. تفاوت بین این دو در ماهیت همکاری آن‌ها است. تراکنش Stonewall به صورت فردی توسعه می‌یابد و نیازی به همکاری ندارد. در مقابل، تراکنش Stonewall x2 برای اجرا به همکاری بین دو فرد متکی است.
 
 
-[**-> درباره تراکنش‌های Stonewall x2 بیشتر بدانید**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> درباره تراکنش‌های Stonewall x2 بیشتر بدانید**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## هدف از یک تراکنش Stonewall چیست؟

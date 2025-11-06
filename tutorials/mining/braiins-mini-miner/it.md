@@ -68,17 +68,17 @@ e la prima voce è proprio `Pools`.
 
 Qui dovremo decidere che pool utilizzare. In questo tutorial vi mostrerò due opzioni. La prima è collegarci alla mining pool Braiins che è utilizzata anche dai miners professionali, come si vede da questa guida:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 La seconda opzione è collegarci ad una mining pool che mina in solo, come Public Pool, segui questa guida per farlo:
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Braiins pool
 
 Per collegarsi a questa pool è necessario creare un account. questa pool effettua anche pagamenti utilizzando il Lightning Network, quindi potremo ricevere qualche sats al giorno. Per farlo dobbiamo impostare un lightning address sul quale ricevere le ricompense. Se non sai come creare un account su braiins pool o come impostare il tuo lightning address puoi seguire questa guida:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Una volta fatto ci troviamo nella dashboard di Braiins pool. Quello che dobbiamo fare noi e dire alla pool che ci vogliamo connettere con un nostro miner, quindi sulla sinistra dello schermo trovate una serie di voci. Noi dobbiamo andare su “workers”:
 
@@ -88,7 +88,7 @@ e dobbiamo cliccare sul bottone viola sulla destra con scritto “Connect worker
 
 ![image](assets/en/05.webp)
 
-Ecco che si apre la finestra con le informazioni che ci servono per connettere il nostro mini miner alla pool. Qui l’unica modifica che possiamo fare è quella di scegliere Stratum V2. Per sapere che cosa sia Stratum v2 consulta questa voce del [glossario](https://planb.network/en/resources/glossary/stratum-v2).
+Ecco che si apre la finestra con le informazioni che ci servono per connettere il nostro mini miner alla pool. Qui l’unica modifica che possiamo fare è quella di scegliere Stratum V2. Per sapere che cosa sia Stratum v2 consulta questa voce del [glossario](https://planb.academy/en/resources/glossary/stratum-v2).
 
 ![image](assets/en/10.webp)
 

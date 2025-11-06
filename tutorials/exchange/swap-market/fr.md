@@ -296,9 +296,9 @@ Vos satoshis Lightning sont immédiatement disponibles dans votre wallet.
 
 N'hésitez pas à consulter nos tutoriels sur Boltz ou encore Zeus Swap pour plus de précisions : 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
-https://planb.network/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43ea-85e3-9dcd6e6abe47
+https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43ea-85e3-9dcd6e6abe47
 
 ### Différences clés
 

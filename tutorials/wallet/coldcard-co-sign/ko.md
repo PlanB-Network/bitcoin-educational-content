@@ -289,9 +289,9 @@ Mk4 또는 ColdCardQ에서 *고급 도구 > ColdCard 공동 서명*으로 이동
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Wallet Multisig 2-sur-3을 Sparrow wallet으로 내보내기
 
@@ -464,7 +464,7 @@ Sparrow에 표시되는 대로 Wallet의 이름을 지정하고 Wallet을 암호
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- 웹 2FA 및 화이트리스트 주소
 
@@ -506,11 +506,11 @@ https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 구체적으로 설명하자면, 거래에 서명하기 전에 NFC가 활성화되고 인터넷에 연결된 장치를 Coldcard에 가까이 가져가야 합니다. 그러면 자동으로 coldcard.com 웹 페이지로 이동하여 애플리케이션의 6자리 코드를 입력하라는 메시지가 표시됩니다. 올바른 코드를 입력하면 웹 페이지에 ColdCardQ를 스캔할 수 있는 QR코드 또는 Mk4에 입력할 수 있는 8자리 코드가 표시되어 장치에 서명할 수 있는 권한이 부여됩니다.
 

@@ -54,7 +54,7 @@ description: 通往安全的第一步，使用Electrum的冷钱包
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 下载后，在安装之前一定要验证版本，然后进行 "一台服务器 "配置，您可以在帮助部分的 "从虚拟 Wallet 开始 "中找到这一点。
 

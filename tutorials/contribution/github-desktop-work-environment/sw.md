@@ -8,7 +8,7 @@ description: Jinsi ya kuweka mazingira yako ya kazi ya ndani?
 Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, ambayo inaruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusahihisha na kusahihisha maandishi yaliyopo, kutafsiri katika lugha zingine, kusasisha habari, au kuunda mafunzo mapya ambayo bado hayapatikani kwenye tovuti yetu.
 
 
-Ikiwa ungependa kuchangia PlanB Network, utahitaji kutumia GitHub kupendekeza mabadiliko. Ili kufanya hivyo, una chaguzi mbili:
+Ikiwa ungependa kuchangia Plan ₿ Academy, utahitaji kutumia GitHub kupendekeza mabadiliko. Ili kufanya hivyo, una chaguzi mbili:
 
 
 - **Changia moja kwa moja kupitia mtandao wa GitHub Interface**: Hii ndiyo njia rahisi zaidi. Ikiwa wewe ni mwanzilishi au unapanga kutoa michango michache tu, chaguo hili labda ndilo bora kwako;
@@ -18,7 +18,7 @@ Ikiwa ungependa kuchangia PlanB Network, utahitaji kutumia GitHub kupendekeza ma
 Ikiwa hujui GitHub ni nini, au ikiwa unataka kujifunza zaidi kuhusu masharti ya kiufundi yanayohusiana na Git na GitHub, ninapendekeza usome makala yetu ya utangulizi ili kufahamishana na dhana hizi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Kwanza, bila shaka utahitaji akaunti ya GitHub. Ikiwa tayari unayo, unaweza kuingia, vinginevyo, unaweza kutumia mafunzo yetu kuunda mpya.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## Hatua ya 2: Sakinisha Obsidian
 
 
-Wacha tuendelee kusakinisha programu ya uandishi. Hapa, una chaguzi kadhaa. Utahitaji programu ambayo inasaidia kuhariri faili za Markdown, kwani PlanB Network hutumia umbizo hii kwa faili ya maandishi kwenye hazina yake.
+Wacha tuendelee kusakinisha programu ya uandishi. Hapa, una chaguzi kadhaa. Utahitaji programu ambayo inasaidia kuhariri faili za Markdown, kwani Plan ₿ Academy hutumia umbizo hii kwa faili ya maandishi kwenye hazina yake.
 
 
 Kuna programu nyingi maalum za kuhariri faili za Markdown, kama vile Typora, iliyoundwa mahsusi kwa maandishi. Ingawa si bora, inawezekana pia kuchagua kihariri cha msimbo, kama vile Visual Studio Code (VSC) au Maandishi Madogo. Walakini, kama mwandishi, napendelea kutumia programu ya Obsidian. Hebu tuone pamoja jinsi ya kusakinisha na kuanza nayo.
@@ -77,7 +77,7 @@ Kuna programu nyingi maalum za kuhariri faili za Markdown, kama vile Typora, ili
 
 
 
-- Nenda kwenye hazina ya data ya PlanB Network katika Address ifuatayo: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.
+- Nenda kwenye hazina ya data ya Plan ₿ Academy katika Address ifuatayo: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.
 - Kutoka kwa ukurasa huu, bofya kitufe cha `Fork` kilicho upande wa juu kulia wa dirisha: ![github-desktop](assets/11.webp)
 - Katika menyu ya uundaji, unaweza kuacha mipangilio ya chaguo-msingi. Hakikisha kisanduku cha `Nakili tawi la dev only` kimeteuliwa, kisha ubofye kitufe cha `Unda Fork`: ![github-desktop](assets/12.webp)
 - Kisha utafika kwenye Fork yako mwenyewe ya hazina ya Mtandao wa PlanB: ![github-desktop](assets/13.webp)
@@ -85,7 +85,7 @@ Kuna programu nyingi maalum za kuhariri faili za Markdown, kama vile Typora, ili
 Fork hii inajumuisha hazina tofauti na ya asili, ingawa kwa sasa ina data sawa. Sasa utafanya kazi kwenye hazina hii mpya.
 
 
-Tumefanya, kwa njia fulani, nakala ya hazina ya chanzo cha PlanB Network. Fork yako (nakala) na hazina asili sasa zitabadilika bila ya nyingine. Kwenye hazina asili, wachangiaji wengine wanaweza kuongeza data mpya, huku wewe, kwenye Fork yako, utaendelea na marekebisho yako mwenyewe.
+Tumefanya, kwa njia fulani, nakala ya hazina ya chanzo cha Plan ₿ Academy. Fork yako (nakala) na hazina asili sasa zitabadilika bila ya nyingine. Kwenye hazina asili, wachangiaji wengine wanaweza kuongeza data mpya, huku wewe, kwenye Fork yako, utaendelea na marekebisho yako mwenyewe.
 
 Ili kudumisha uthabiti kati ya hazina hizi mbili, itakuwa muhimu kuzipatanisha mara kwa mara ili zipate taarifa sawa. Kutuma mabadiliko yako kwenye hazina ya chanzo, utatumia kile kinachoitwa **Vuta Ombi**. Na kujumuisha mabadiliko kutoka hazina ya chanzo hadi Fork yako, utatumia **Sync Fork** amri inayopatikana kwenye mtandao wa GitHub Interface.
 
@@ -116,7 +116,7 @@ Ili kudumisha uthabiti kati ya hazina hizi mbili, itakuwa muhimu kuzipatanisha m
 ![github-desktop](assets/18.webp)
 
 
-- Baada ya kuunda hazina, programu inakupa chaguzi mbili. Lazima uchague ya kwanza: `Ili kuchangia mradi mzazi`. Chaguo hili litakuruhusu kuwasilisha kazi yako ya baadaye kama mchango kwa mradi mzazi (`PlanB-Network/Bitcoin-educational-content`), na si kwa upekee urekebishaji wa Fork yako ya kibinafsi (`[jina la mtumiaji]/Bitcoin-maudhui-ya kielimu`). Mara tu chaguo limechaguliwa, bofya kwenye `Endelea`:
+- Baada ya kuunda hazina, programu inakupa chaguzi mbili. Lazima uchague ya kwanza: `Ili kuchangia mradi mzazi`. Chaguo hili litakuruhusu kuwasilisha kazi yako ya baadaye kama mchango kwa mradi mzazi (`Plan ₿ Academy/Bitcoin-educational-content`), na si kwa upekee urekebishaji wa Fork yako ya kibinafsi (`[jina la mtumiaji]/Bitcoin-maudhui-ya kielimu`). Mara tu chaguo limechaguliwa, bofya kwenye `Endelea`:
 
 ![github-desktop](assets/19.webp)
 
@@ -125,7 +125,7 @@ Ili kudumisha uthabiti kati ya hazina hizi mbili, itakuwa muhimu kuzipatanisha m
 
 ![github-desktop](assets/20.webp)
 
-Tulichofanikiwa katika hatua hii ni kuunda nakala ya ndani ya hazina yako, ambayo inapangishwa kwenye GitHub. Kama ukumbusho, hazina hii ni Fork ya hazina ya chanzo cha PlanB Network. Utaweza kufanya marekebisho kwenye nakala hii ya ndani, kama vile kuongeza mafunzo, tafsiri, au masahihisho. Mara marekebisho haya yakifanywa, utatumia amri ya **Push origin** kutuma marekebisho yako ya ndani kwa Fork yako iliyopangishwa kwenye GitHub.
+Tulichofanikiwa katika hatua hii ni kuunda nakala ya ndani ya hazina yako, ambayo inapangishwa kwenye GitHub. Kama ukumbusho, hazina hii ni Fork ya hazina ya chanzo cha Plan ₿ Academy. Utaweza kufanya marekebisho kwenye nakala hii ya ndani, kama vile kuongeza mafunzo, tafsiri, au masahihisho. Mara marekebisho haya yakifanywa, utatumia amri ya **Push origin** kutuma marekebisho yako ya ndani kwa Fork yako iliyopangishwa kwenye GitHub.
 
 
 Unaweza pia kupata marekebisho kutoka kwa Fork, kwa mfano, wakati wa kusawazisha na hazina ya Mtandao wa PlanB. Kwa hili, utatumia **Leta asili** amri ili kupakua marekebisho kwenye nakala yako ya ndani (kloni yako), na kisha amri ya **Vuta asili** ili kuyaunganisha na kazi yako. Hii hukuruhusu kusasishwa na maendeleo ya hivi punde ya mradi huku ukichangia kwa ufanisi.
@@ -164,7 +164,7 @@ Unaweza pia kupata marekebisho kutoka kwa Fork, kwa mfano, wakati wa kusawazisha
 ## Hatua ya 6: Sakinisha Kihariri cha Msimbo
 
 
-Marekebisho yako mengi yatakuwa kwenye faili katika umbizo la Markdown (`.md`). Ili kuhariri hati hizi, unaweza kutumia Obsidian, programu tuliyojadili hapo awali. Hata hivyo, PlanB Network hutumia umbizo zingine za faili, na utahitaji kurekebisha baadhi yao.
+Marekebisho yako mengi yatakuwa kwenye faili katika umbizo la Markdown (`.md`). Ili kuhariri hati hizi, unaweza kutumia Obsidian, programu tuliyojadili hapo awali. Hata hivyo, Plan ₿ Academy hutumia umbizo zingine za faili, na utahitaji kurekebisha baadhi yao.
 
 
 Kwa mfano, unapounda somo jipya, utahitaji kuunda faili ya YAML (`.yml`) ili kuweka lebo za mafunzo yako, kichwa chake, na kitambulisho chako cha mwalimu. Obsidian haitoi uwezekano wa kurekebisha aina hii ya faili, kwa hivyo utahitaji kihariri cha msimbo.
@@ -175,9 +175,9 @@ Kwa hii, chaguzi kadhaa zinapatikana kwako. Ingawa notepad ya kawaida ya kompyut
 
 - Sakinisha mojawapo ya programu hizi, na uiweke kando kwa marekebisho yako ya baadaye. ![github-desktop](assets/26.webp)
 
-Hongera! Mazingira yako ya kazi sasa yamewekwa ili kuchangia PlanB Network. Sasa unaweza kuchunguza mafunzo yetu mengine mahususi kwa kila aina ya mchango (tafsiri, kusahihisha, kuandika.
+Hongera! Mazingira yako ya kazi sasa yamewekwa ili kuchangia Plan ₿ Academy. Sasa unaweza kuchunguza mafunzo yetu mengine mahususi kwa kila aina ya mchango (tafsiri, kusahihisha, kuandika.
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

@@ -6,7 +6,7 @@ description: Como construir um computador mínimo, isolado e de baixo custo usan
 
 
 
-Se já está nas páginas do Plan ₿ Network há algum tempo, já aprendeu que uma das configurações de segurança mais defendidas, quase obrigatória, **é a gestão de fundos através do armazenamento offline das suas chaves privadas**.
+Se já está nas páginas do Plan ₿ Academy há algum tempo, já aprendeu que uma das configurações de segurança mais defendidas, quase obrigatória, **é a gestão de fundos através do armazenamento offline das suas chaves privadas**.
 
 
 
@@ -14,7 +14,7 @@ Se ainda não o descobriu, ao longo deste tutorial encontrará ligações para r
 
 
 
-Para gerir chaves privadas offline, é necessário, portanto, um dispositivo permanentemente desconectado da rede, seja uma [carteira de hardware](https://planb.network/resources/glossary/hardware-wallet) ou um computador com airgap, dedicado a essa função específica.
+Para gerir chaves privadas offline, é necessário, portanto, um dispositivo permanentemente desconectado da rede, seja uma [carteira de hardware](https://planb.academy/resources/glossary/hardware-wallet) ou um computador com airgap, dedicado a essa função específica.
 
 
 
@@ -500,7 +500,7 @@ Entre as carteiras que eu conheço, a única que oferece uma versão de 32 bits 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusões
 

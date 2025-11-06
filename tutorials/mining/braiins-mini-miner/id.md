@@ -134,13 +134,13 @@ Di sini kita harus memutuskan kolam mana yang akan digunakan. Dalam tutorial ini
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Pilihan kedua adalah menghubungkan kita ke Mining pool yang mina di solo, seperti Kolam Renang Umum, ikuti panduan ini untuk melakukannya:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Kolam renang Braiins
 
@@ -150,7 +150,7 @@ Untuk terhubung ke pool ini kita perlu membuat akun. pool ini juga melakukan pem
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Setelah selesai, kita berada di dasbor pool Braiins. Yang harus kita lakukan adalah memberi tahu pool bahwa kita ingin terhubung dengan salah satu Penambang kita, jadi di sisi kiri layar Anda akan menemukan sejumlah entri. Kita harus pergi ke "pekerja."
 
@@ -168,7 +168,7 @@ dan kita perlu mengklik tombol ungu di sebelah kanan yang bertuliskan "Hubungkan
 
 
 
-Ini dia jendela yang berisi informasi yang kita perlukan untuk menghubungkan mini Miner ke kolam renang. Di sini satu-satunya perubahan yang dapat kita lakukan adalah memilih Stratum V2. Untuk mengetahui apa itu Stratum v2, lihat entri ini di [glosarium] (https://planb.network/en/resources/glossary/stratum-v2).
+Ini dia jendela yang berisi informasi yang kita perlukan untuk menghubungkan mini Miner ke kolam renang. Di sini satu-satunya perubahan yang dapat kita lakukan adalah memilih Stratum V2. Untuk mengetahui apa itu Stratum v2, lihat entri ini di [glosarium] (https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

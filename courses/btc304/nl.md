@@ -241,7 +241,7 @@ Bitcoin meetups kunnen vele doelen dienen:
 
 
 
-We zullen veel van deze mogelijkheden in detail behandelen in deel 6/8 van deze cursus, getiteld "[Voorbeelden van projecten en initiatieven](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+We zullen veel van deze mogelijkheden in detail behandelen in deel 6/8 van deze cursus, getiteld "[Voorbeelden van projecten en initiatieven](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Je eerste evenement zal waarschijnlijk een meet-up zijn. Het belangrijkste doel:
 
 
 
-Maar, zoals we later zullen zien in [Voorbeelden van projecten en initiatieven](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **een meet-up kan op vele manieren worden opgebouwd, met vele doelen:**
+Maar, zoals we later zullen zien in [Voorbeelden van projecten en initiatieven](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **een meet-up kan op vele manieren worden opgebouwd, met vele doelen:**
 
 
 
@@ -866,7 +866,7 @@ Voor de tutorials hieronder hebben we oorspronkelijk de "Telegram+" APK gebruikt
 Als je een plek wilt creëren waar je leden rechtstreeks met elkaar kunnen praten, op elkaar kunnen reageren, enz., dan kun je beter een Telegram-groep maken en geen Telegram-kanaal!
 
 
-Ga direct naar het volgende gedeelte, getiteld [Een Telegram-groep maken] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Ga direct naar het volgende gedeelte, getiteld [Een Telegram-groep maken] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter is heel gemakkelijk te gebruiken en om je privacy te verbeteren, moet je
 1/ **de @ Twitter**, die je identiteit definieert en je makkelijk vindbaar maakt. Als de naam van je gemeenschap "Bitcoin [STAD]" is, is het gepast om "@Bitcoin[STAD]" te kiezen;
 
 
-2/ **het logo en de banner** die je hebt gemaakt voor je community of meet-up (zie sectie [Maak een logo, poster en banner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **het logo en de banner** die je hebt gemaakt voor je community of meet-up (zie sectie [Maak een logo, poster en banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **de beschrijving**, waarmee je belangrijke informatie over je community kunt delen in een paar honderd tekens. Bijvoorbeeld:
@@ -1547,7 +1547,7 @@ In het tweede geval kan een tweede maandelijks evenement gewijd zijn aan een spe
 
 
 
-Houd er rekening mee dat **dit meer organisatie en meer van je tijd vergt**. Gelukkig vindt u in [deel 6/8 van deze cursus](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) een reeks herbruikbare open-source bronnen om u te helpen.
+Houd er rekening mee dat **dit meer organisatie en meer van je tijd vergt**. Gelukkig vindt u in [deel 6/8 van deze cursus](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) een reeks herbruikbare open-source bronnen om u te helpen.
 
 
 Hoe dan ook, het hangt allemaal af van het actieplan voor de korte, middellange en lange termijn dat jij, of je gemeenschap, voor jezelf opstelt.
@@ -1619,7 +1619,7 @@ Neem contact op met de locatie waar je het evenement gaat houden en reserveer de
 
 
     - Deel de datum, tijd en locatie op je sociale netwerken en andere communicatiekanalen. Voeg indien nodig een registratielink toe.
-    - Maak een speciale visual (Canva poster bijvoorbeeld, zie deel 2/8 "[Een identiteit ontwerpen voor je Bitcoin community](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Maak een speciale visual (Canva poster bijvoorbeeld, zie deel 2/8 "[Een identiteit ontwerpen voor je Bitcoin community](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maximaliseer de zichtbaarheid door de aankondiging vast te zetten op Telegram en Twitter en een "@iedereen" vermelding te gebruiken op Discord.
     - Plaats aankondigingen 7 tot 10 dagen voor het evenement zodat deelnemers vooruit kunnen plannen.
 
@@ -1721,7 +1721,7 @@ Rome werd niet in één dag gebouwd, en dat zal jouw gemeenschap ook niet zijn. 
 Om dat voor elkaar te krijgen is één ding essentieel: **Deelnemers betrokken houden**.
 
 
-Het zou kunnen beginnen met een kleine groep gepassioneerde bitcoiners, met als doel regelmatig samen te komen en over Bitcoin te praten. Na verloop van tijd, afhankelijk van ieders beschikbaarheid en interesses, kun je **bepaalde organisatorische taken delen met de groep**, of kernleden** uitnodigen om specifieke projecten** op zich te nemen. Deze kunnen uniek zijn voor jouw gemeenschap, jouw meet-ups of jouw stad of zelfs geïnspireerd zijn op de vele initiatieven die voorgesteld worden in [deel 6/8 van deze cursus](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Dit bevordert niet alleen Commitment van je kernleden, maar helpt je gemeenschap ook groeien en bloeien**.
+Het zou kunnen beginnen met een kleine groep gepassioneerde bitcoiners, met als doel regelmatig samen te komen en over Bitcoin te praten. Na verloop van tijd, afhankelijk van ieders beschikbaarheid en interesses, kun je **bepaalde organisatorische taken delen met de groep**, of kernleden** uitnodigen om specifieke projecten** op zich te nemen. Deze kunnen uniek zijn voor jouw gemeenschap, jouw meet-ups of jouw stad of zelfs geïnspireerd zijn op de vele initiatieven die voorgesteld worden in [deel 6/8 van deze cursus](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Dit bevordert niet alleen Commitment van je kernleden, maar helpt je gemeenschap ook groeien en bloeien**.
 
 
 Naarmate je meetups vorderen, zullen er nieuwe gezichten opduiken: mensen die BTC en/of altcoins kochten in vorige cycli, tech-enthousiastelingen die hun kennis willen verdiepen, of complete beginners die nieuwsgierig zijn naar dit niet-sensibiliseerbare, gedecentraliseerde, transparante en eerlijke betalingssysteem dat werkt zonder voorwaarden en zonder vertrouwde derde partijen.
@@ -1820,7 +1820,7 @@ Naast de sterke educatieve waarde, maakt deze aanpak het mogelijk om open-source
 Hieronder staat de progressie van de Franse meetups voor 2023-2024. Voor elk thema zijn een open-source presentatie en een video beschikbaar, die je op ideeën kunnen brengen voor onderwerpen die je voor je eigen evenementen zou kunnen behandelen.
 
 
-Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox] (https://planb.network/fr/resources/bet)!
+Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Deze flyers kunnen gericht zijn op:
 Je zou ook een flyer kunnen ontwerpen die specifiek is voor jouw community of meet-up, waarin je je activiteiten, doelen, links naar sociale media, communicatiekanalen en aankomende evenementen presenteert.
 
 
-Verschillende flyers zijn al **beschikbaar als open-source in de [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** op planB.network en in de loop van de tijd zullen er meer worden toegevoegd.
+Verschillende flyers zijn al **beschikbaar als open-source in de [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** op planB.network en in de loop van de tijd zullen er meer worden toegevoegd.
 
 
 Een voorbeeld is een [complete flyer met bron](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) met 21 redenen om Bitcoin te gebruiken. Het ontwerp is ook [beschikbaar in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) zodat je het kunt aanpassen en delen. Vergeet alleen niet je bronnen te vermelden.
@@ -2222,7 +2222,7 @@ Populaire platforms zijn onder andere:
 - met [**peertube**](https://joinpeertube.org/fr_FR) kun je je eigen videoplatform hosten, hoewel het complexer is om op te zetten.
 
 
-Wat je ook kiest, ontwerp platformspecifieke visuals om je kanaal aantrekkelijk te maken. Canva, genoemd in [deel 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) biedt een "YouTube Thumbnail" categorie met kant-en-klare, aanpasbare ontwerpen.
+Wat je ook kiest, ontwerp platformspecifieke visuals om je kanaal aantrekkelijk te maken. Canva, genoemd in [deel 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) biedt een "YouTube Thumbnail" categorie met kant-en-klare, aanpasbare ontwerpen.
 
 
 
@@ -2857,7 +2857,7 @@ Om je community verder te helpen groeien, **een vervolg op de COMMU302 cursus**<
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-wordt de komende maanden mogelijk uitgebracht op [planb.network](https://planb.network/).
+wordt de komende maanden mogelijk uitgebracht op [planb.network](https://planb.academy/).
 
 
 Tijdens deze volgende sessie kunnen geavanceerde onderwerpen aan bod komen, zoals:

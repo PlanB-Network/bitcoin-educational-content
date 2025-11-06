@@ -99,9 +99,9 @@ Before you can borrow from Debifi, please make sure you have the following items
 You can use Aqua, a Bitcoin and Liquid wallet that also supports USDT stablecoin management on various networks. Or COLDCARD (Mk4 or Q), currently the only hardware supported by Debifi.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 
 - KYC (*Know Your Customer*): depending on the loan offer chosen, an identity verification process may be required. On Debifi, each offer indicates whether KYC is required or not. So prepare accordingly. KYC is carried out by reliable third-party service providers such as Sumsub.
@@ -114,9 +114,9 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 - Two-factor authentication application: Debifi requires an Authenticator code for every important action. It's an extra layer of security. In this tutorial, we'll be using Google Authenticator. Alternatively, you can use others as you see fit.
 
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 
 - Debifi website and mobile application: Debifi is both a website and a mobile application, and the two work in tandem. The mobile app becomes a wallet, which stores your private key, and manages the signing of contracts. In addition, you need to use the website to commit contracts (a large Interface gives you a general view of loan contracts and their specifics).
@@ -205,7 +205,7 @@ For security, Debifi will ask you to follow three steps.
 ![image](assets/fr/16.webp)
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Please note that only your registered smartphone will be able to open your account (an additional security measure).
 
@@ -474,4 +474,4 @@ You now know how to use the Debifi platform to obtain a loan.
 I recommend you take this course, which takes an in-depth look at Bitcoin, Stablecoins and their contribution to sovereignty.
 
 
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46
+https://planb.academy/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46

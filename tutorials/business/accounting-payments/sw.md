@@ -28,7 +28,7 @@ Hatua inayofuata ni kukubali Bitcoin moja kwa moja ndani ya biashara yako; njia 
 Kwa unyenyekevu, tutatumia Wallet ya Satoshi kama mfano. Fuata hatua hizi ili kusakinisha na kusanidi:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Baada ya kufuata mwongozo, utakuwa tayari kukubali Bitcoin kama njia ya malipo: fungua tu programu ya simu na ubofye kitufe cha "Pokea", kisha uweke kiasi (kwa kawaida katika sarafu ya eneo lako) kwa generate Invoice inayolipwa na mtumiaji.
 
@@ -59,7 +59,7 @@ Faida za kutumia kipengele cha Point of Sale ni mara tatu:
 Kwa maelezo zaidi, angalia mafunzo maalum kuhusu Wallet ya Satoshi - Sehemu ya Uuzaji:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Udhibiti
 

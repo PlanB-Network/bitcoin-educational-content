@@ -118,7 +118,7 @@ In seguito, ci occuperemo di rivedere alcune delle teorie trattate in precedenza
 
 
 
-Come per tutti i corsi Plan ₿ Network, nella sezione finale troverete un esame finale per verificare le vostre conoscenze sui nodi Bitcoin.
+Come per tutti i corsi Plan ₿ Academy, nella sezione finale troverete un esame finale per verificare le vostre conoscenze sui nodi Bitcoin.
 
 
 
@@ -516,7 +516,7 @@ Utilizzando il proprio nodo, si trasmettono le transazioni direttamente alla ret
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Operazioni non censurabili
 
@@ -865,9 +865,9 @@ Questo è l'approccio più sovrano e flessibile: si sa esattamente cosa sta funz
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (client alternativo principale)
 
@@ -886,7 +886,7 @@ Ci sono due possibili ragioni per scegliere i nodi rispetto al nucleo:
 - Politica**: Alcune persone preferiscono usare client alternativi come Knots per ragioni non tecniche, in particolare per supportare un'alternativa a Core e quindi ridurre il suo monopolio. Se Core fosse mai compromesso, sarebbe utile non solo avere client alternativi solidi e ben mantenuti, ma anche sapere come utilizzarli efficacemente. Altri usano Knots per protesta, perché hanno perso fiducia negli sviluppatori di Core o disapprovano la maggior parte della gestione del client.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Personalmente, vi consiglio di scegliere Core, soprattutto per beneficiare più rapidamente delle patch di sicurezza. Infatti, alcune vulnerabilità scoperte in Knots vengono corrette con un certo ritardo. Più in generale, il processo di sviluppo di Core è solidamente strutturato e supportato da un gran numero di collaboratori, mentre Knots è mantenuto da una sola persona e ha una comunità molto più piccola. D'altra parte, le regole di relè tendono a perdere la loro utilità oggi, soprattutto quando sono applicate solo da una piccola frazione della rete (come per la teoria della percolazione).
 
@@ -942,7 +942,7 @@ Non entrerò nel dettaglio di come funziona e delle sue caratteristiche specific
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ In breve, se avete semplicemente bisogno delle applicazioni essenziali per Bitco
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MioNodo
 
@@ -986,7 +986,7 @@ In pratica, MyNode riunisce tutti gli elementi di base necessari per il funziona
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Se possedete un Raspberry Pi, questa è un'opzione eccellente, poiché i sistemi
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ In precedenza il progetto offriva una macchina preconfigurata chiamata Tanto, ma
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Se si è optato per un Raspberry Pi 5 (opzione che non consiglio, come indicato 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Come accennato nella sezione precedente, ho scelto di eseguire questa esercitazione su un piccolo PC ricondizionato che ho trovato a un buon prezzo: un *Lenovo ThinkCentre M900 Tiny* dotato di un processore Intel Core i7 e 16 GB di RAM. È una configurazione molto comoda per l'esecuzione di Umbrel, soprattutto per un nodo Bitcoin. Tuttavia, ho scelto questa configurazione perché voglio installare un nodo Lightning e altre applicazioni più impegnative in seguito. Ho anche aggiunto un SSD da 2 TB al mio ThinkCentre per mantenere l'intero Blockchain e avere ancora un margine confortevole. Con questa configurazione, il costo totale è di 270 euro, comprensivo di tutte le spese.
 
@@ -1822,7 +1822,7 @@ Per identificare l'IP Address di Umbrel, esistono diversi metodi, dai più sempl
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Scegliete una password forte e assicuratevi di conservarne almeno una di backup 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Una volta inserita la password, fare clic sul pulsante "*Crea*".
 
@@ -1944,7 +1944,7 @@ Innanzitutto, consiglio vivamente di attivare l'autenticazione a due fattori (2F
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 A tal fine, fare clic sulla casella corrispondente nelle impostazioni.
 
@@ -2435,7 +2435,7 @@ Come accennato in precedenza, un explorer può essere ospitato online su un sito
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Inoltre, il vostro Internet Service Provider (ISP) potrebbe sapere che state visualizzando una determinata transazione tramite il sito Block explorer. Ciò solleva anche una questione di fiducia: dovete fare affidamento sul servizio online per ottenere informazioni accurate sulle vostre transazioni, senza poterne verificare personalmente la veridicità.
 
@@ -2472,7 +2472,7 @@ Per saperne di più sull'uso dell'explorer Mempool.Space, vi consiglio di consul
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nodo fulmineo
 
@@ -2492,15 +2492,15 @@ Umbrel offre una serie di applicazioni per aiutarvi a rendere operativo il vostr
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 È quindi possibile amministrare il nodo dal Interface principale oppure, per ottenere funzionalità ancora maggiori e opzioni avanzate, installare *Ride The Lightning* o *ThunderHub*. Questi strumenti vi forniranno un sistema di gestione del Interface basato sul web molto più completo per il vostro nodo.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Per installare e configurare Tailscale su Umbrel, consultare questo tutorial, se
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Per scoprire come utilizzare tutte queste applicazioni, vi consiglio di dare un'
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Server BTCPay
 
@@ -2626,7 +2626,7 @@ Se siete titolari di un'attività commerciale e desiderate accettare pagamenti B
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Concetti avanzati e best practice
@@ -2751,7 +2751,7 @@ Per approfondire le vostre conoscenze sulla sicurezza informatica in generale, v
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnosi e auto-aiuto
 
@@ -3077,9 +3077,9 @@ La crescita dell'insieme UTXO deriva anche dalla struttura delle semplici transa
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Poiché una parte di esso deve essere mantenuta nella RAM per verificare le transazioni in un tempo ragionevole, l'insieme UTXO può gradualmente rendere troppo costoso il funzionamento di un Full node. Per risolvere questo problema, esistono già alcune proposte, in particolare [Utreexo](https://planb.network/resources/glossary/utreexo).
+Poiché una parte di esso deve essere mantenuta nella RAM per verificare le transazioni in un tempo ragionevole, l'insieme UTXO può gradualmente rendere troppo costoso il funzionamento di un Full node. Per risolvere questo problema, esistono già alcune proposte, in particolare [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3894,7 +3894,7 @@ Ora potete passare alla parte finale del corso, dove potrete valutare il BTC 202
 
 
 
-Ora avete diverse opzioni a disposizione. Il passo logico successivo è quello di creare un proprio nodo Lightning, che vi permetta di essere completamente indipendenti per le vostre transazioni off-chain. Questo sarà l'argomento di un prossimo corso, che sarà pubblicato nell'autunno del 2025 sul Plan ₿ Network.
+Ora avete diverse opzioni a disposizione. Il passo logico successivo è quello di creare un proprio nodo Lightning, che vi permetta di essere completamente indipendenti per le vostre transazioni off-chain. Questo sarà l'argomento di un prossimo corso, che sarà pubblicato nell'autunno del 2025 sul Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ Nel frattempo, vi invito a scoprire la formazione BTC 204, che vi consentirà di
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Parte finale

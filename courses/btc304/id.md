@@ -241,7 +241,7 @@ Pertemuan Bitcoin dapat melayani banyak tujuan:
 
 
 
-Kita akan membahas banyak dari kemungkinan ini secara mendetail di bagian 6/8 kursus ini, yang berjudul "[Contoh-contoh proyek dan inisiatif](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Kita akan membahas banyak dari kemungkinan ini secara mendetail di bagian 6/8 kursus ini, yang berjudul "[Contoh-contoh proyek dan inisiatif](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Acara pertama Anda kemungkinan besar adalah pertemuan. Tujuan utamanya: untuk me
 
 
 
-Namun, seperti yang akan kita lihat nanti di [Contoh proyek dan inisiatif] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **pertemuan dapat dibuat dengan berbagai cara, dengan berbagai tujuan:** 1
+Namun, seperti yang akan kita lihat nanti di [Contoh proyek dan inisiatif] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **pertemuan dapat dibuat dengan berbagai cara, dengan berbagai tujuan:** 1
 
 
 
@@ -866,7 +866,7 @@ Untuk tutorial di bawah ini, kami awalnya menggunakan APK "Telegram+", yang memu
 Jika Anda ingin membuat tempat di mana para anggota Anda dapat berbicara satu sama lain secara langsung, menanggapi satu sama lain, dan sebagainya, maka Anda mungkin ingin membuat grup Telegram, dan bukan channel Telegram!
 
 
-Langsung saja ke bagian berikutnya, yang berjudul [Membuat grup Telegram](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Langsung saja ke bagian berikutnya, yang berjudul [Membuat grup Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter sangat mudah digunakan, dan untuk meningkatkan privasi Anda, Anda perlu 
 1/ **Twitter**, yang mendefinisikan identitas Anda dan membuat Anda mudah ditemukan. Jika nama komunitas Anda adalah "Bitcoin [CITY]", maka sebaiknya memilih "@Bitcoin[CITY]";
 
 
-2/ **logo dan spanduk** yang telah Anda buat untuk komunitas atau pertemuan Anda (lihat bagian [Membuat logo, poster, dan spanduk] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo dan spanduk** yang telah Anda buat untuk komunitas atau pertemuan Anda (lihat bagian [Membuat logo, poster, dan spanduk] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **deskripsi**, yang memungkinkan Anda untuk berbagi informasi penting tentang komunitas Anda dalam beberapa ratus karakter. Sebagai contoh:
@@ -1547,7 +1547,7 @@ Dalam kasus kedua, acara bulanan kedua dapat didedikasikan untuk tema tertentu, 
 
 
 
-Ingatlah bahwa **ini membutuhkan lebih banyak pengaturan dan lebih banyak waktu Anda**. Untungnya, dalam [bagian 6/8 dari kursus ini](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), Anda akan menemukan berbagai sumber daya sumber terbuka yang dapat digunakan kembali untuk membantu.
+Ingatlah bahwa **ini membutuhkan lebih banyak pengaturan dan lebih banyak waktu Anda**. Untungnya, dalam [bagian 6/8 dari kursus ini](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), Anda akan menemukan berbagai sumber daya sumber terbuka yang dapat digunakan kembali untuk membantu.
 
 
 Bagaimanapun, semuanya tergantung pada rencana aksi jangka pendek, menengah dan panjang yang Anda, atau komunitas Anda, tetapkan sendiri.
@@ -1619,7 +1619,7 @@ Hubungi lokasi tempat Anda akan menyelenggarakan acara dan pesanlah tempat terse
 
 
     - Bagikan tanggal, waktu, dan lokasi di jejaring sosial dan saluran komunikasi lainnya. Sertakan tautan pendaftaran jika diperlukan.
-    - Buatlah visual khusus (poster Canva misalnya, lihat bagian 2/8 "[Merancang identitas untuk komunitas Bitcoin Anda](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Buatlah visual khusus (poster Canva misalnya, lihat bagian 2/8 "[Merancang identitas untuk komunitas Bitcoin Anda](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maksimalkan visibilitas dengan menyematkan pengumuman di Telegram dan Twitter, dan menggunakan sebutan "@semua orang" di Discord.
     - Umumkan pengumuman 7 hingga 10 hari sebelum acara agar peserta dapat merencanakannya.
 
@@ -1721,7 +1721,7 @@ Roma tidak dibangun dalam satu hari, begitu juga dengan komunitas Anda. Momentum
 Untuk mewujudkannya, ada satu hal yang penting: **membuat peserta tetap terlibat**.
 
 
-Ini mungkin dimulai dengan sekelompok kecil pengguna bitcoin yang bersemangat, yang bertujuan untuk berkumpul secara teratur dan membicarakan Bitcoin. Seiring berjalannya waktu, tergantung pada ketersediaan dan minat setiap orang, Anda dapat **berbagi tugas organisasi tertentu dengan grup**, atau mengundang **anggota inti untuk mengerjakan proyek-proyek tertentu**. Hal ini dapat menjadi unik untuk komunitas Anda, pertemuan Anda atau kota Anda atau bahkan terinspirasi oleh banyak inisiatif yang diusulkan dalam [bagian 6/8 dari kursus ini] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Hal ini tidak hanya menumbuhkan Commitment dari anggota inti Anda, tetapi juga membantu komunitas Anda untuk tumbuh dan berkembang**.
+Ini mungkin dimulai dengan sekelompok kecil pengguna bitcoin yang bersemangat, yang bertujuan untuk berkumpul secara teratur dan membicarakan Bitcoin. Seiring berjalannya waktu, tergantung pada ketersediaan dan minat setiap orang, Anda dapat **berbagi tugas organisasi tertentu dengan grup**, atau mengundang **anggota inti untuk mengerjakan proyek-proyek tertentu**. Hal ini dapat menjadi unik untuk komunitas Anda, pertemuan Anda atau kota Anda atau bahkan terinspirasi oleh banyak inisiatif yang diusulkan dalam [bagian 6/8 dari kursus ini] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Hal ini tidak hanya menumbuhkan Commitment dari anggota inti Anda, tetapi juga membantu komunitas Anda untuk tumbuh dan berkembang**.
 
 
 Seiring dengan berjalannya pertemuan Anda, wajah-wajah baru akan bermunculan: orang-orang yang telah membeli BTC dan/atau altcoin pada siklus sebelumnya, penggemar teknologi yang ingin memperdalam pemahaman mereka, atau para pemula yang ingin tahu tentang sistem pembayaran yang tidak dapat disensor, terdesentralisasi, transparan, dan adil yang bekerja tanpa syarat dan tanpa pihak ketiga yang tepercaya.
@@ -1820,7 +1820,7 @@ Di luar nilai pendidikannya yang kuat, pendekatan ini memungkinkan untuk berbagi
 Di bawah ini adalah perkembangan pertemuan Prancis 2023-2024. Untuk setiap tema, tersedia presentasi sumber terbuka dan video, yang dapat memberi Anda ide untuk topik yang dapat Anda bahas untuk acara Anda sendiri.
 
 
-Materi tambahan yang dapat diedit juga dapat ditemukan di [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Materi tambahan yang dapat diedit juga dapat ditemukan di [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Selebaran ini dapat ditargetkan:
 Anda juga dapat mendesain brosur khusus untuk komunitas atau pertemuan Anda, yang menampilkan kegiatan, tujuan, tautan media sosial, saluran komunikasi, dan acara yang akan datang.
 
 
-Beberapa brosur telah tersedia sebagai sumber terbuka di [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet) di planB.network dan lebih banyak lagi yang akan ditambahkan dari waktu ke waktu.
+Beberapa brosur telah tersedia sebagai sumber terbuka di [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet) di planB.network dan lebih banyak lagi yang akan ditambahkan dari waktu ke waktu.
 
 
 Salah satu contohnya adalah [brosur bersumber lengkap](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) dengan 21 alasan untuk menggunakan Bitcoin. Desainnya juga [tersedia dalam sumber terbuka](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) bagi Anda untuk dimodifikasi, diadaptasi, dan dibagikan. Ingatlah untuk mencantumkan sumber Anda.
@@ -2222,7 +2222,7 @@ Platform yang populer meliputi:
 - [**peertube**](https://joinpeertube.org/fr_FR), memungkinkan Anda meng-host platform video Anda sendiri, meskipun lebih rumit untuk disiapkan.
 
 
-Apa pun yang Anda pilih, rancanglah visual khusus platform untuk membuat saluran Anda menarik. Canva, yang disebutkan dalam [bagian 2/8] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) menawarkan kategori "Gambar Kecil YouTube" dengan desain yang sudah jadi dan dapat disesuaikan.
+Apa pun yang Anda pilih, rancanglah visual khusus platform untuk membuat saluran Anda menarik. Canva, yang disebutkan dalam [bagian 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) menawarkan kategori "Gambar Kecil YouTube" dengan desain yang sudah jadi dan dapat disesuaikan.
 
 
 
@@ -2857,7 +2857,7 @@ Untuk membantu komunitas Anda berkembang lebih jauh, **sebuah tindak lanjut dari
 
 <img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-akan dirilis di [planb.network](https://planb.network/) dalam beberapa bulan mendatang.
+akan dirilis di [planb.network](https://planb.academy/) dalam beberapa bulan mendatang.
 
 
 Sesi berikutnya dapat mengeksplorasi topik-topik lanjutan seperti:

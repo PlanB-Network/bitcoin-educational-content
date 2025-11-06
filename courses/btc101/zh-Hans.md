@@ -83,7 +83,7 @@ objectives:
 
 准备好潜入迷人的比特币世界并了解其所有运作机制了吗？让我们开始吧！
 
-注意：如果在课程中遇到任何不熟悉的术语，请查阅[词汇表]((https://planb.network/resources/glossary)以获取定义。
+注意：如果在课程中遇到任何不熟悉的术语，请查阅[词汇表]((https://planb.academy/resources/glossary)以获取定义。
 
 ## 比特币的前史
 
@@ -141,7 +141,7 @@ objectives:
 
 如果您想更详细地了解比特币的历史，我们强烈推荐您参加我们的 HIS 201 课程，在这里您将发现比特币的起源和缓慢出现，以及其历史和社区的开端。这门课程有完整的记录和资料来源，当然还有许多趣闻轶事：
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # 金钱
 
@@ -261,7 +261,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 > "我不相信，在我们把钱从政府手中夺走之前，我们还会有好钱。如果我们不能粗暴地将它们从政府手中夺走 我们所能做的就是通过一些狡猾或迂回的方式 引入一些他们无法阻止的东西"
 > 要想了解更多有关经济谬误和自由的信息，我们邀请您了解我们的 ECO 102 课程，该课程追溯了 19 世纪法国思想家弗雷德里克-巴斯蒂亚（Frédéric Bastiat）的生平和思想，他肯定会对比特币的出现表示赞赏：
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## 恶性通货膨胀
 
@@ -350,7 +350,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 要深入了解恶性通货膨胀这一主题，我们向您推荐 David St-Onge 的 ECO 204 课程，在该课程中，您将了解什么是恶性通货膨胀周期及其对我们生活的实际影响。您还将发现这些周期之间的相似之处，最重要的是，如何保护自己免受其害。
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 2100 万比特币
 
@@ -395,7 +395,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-我们将在[矿工篇](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)中更详细地重温采矿的概念。
+我们将在[矿工篇](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)中更详细地重温采矿的概念。
 
 ### 保证数字稀缺性
 
@@ -503,11 +503,11 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 因此，如果你遵循我们将在下一节详细介绍的良好安全措施，黑客攻击你的比特币钱包的可能性就会大大降低。
 
-请记住，要根据自己的需要和用途选择合适的钱包：有关管理和保护不同钱包的详细教程，请参阅我们大学的[教程部分](https://planb.network/tutorials/wallet)。
+请记住，要根据自己的需要和用途选择合适的钱包：有关管理和保护不同钱包的详细教程，请参阅我们大学的[教程部分](https://planb.academy/tutorials/wallet)。
 
 如果您在兔子洞的旅途中，想要了解更多关于构建比特币钱包的知识，从熵到接收地址，我们向您推荐专门针对这一主题的 CYP 201 课程：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## 比特币钱包与安全
 
@@ -538,17 +538,17 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例如，您可以使用麻雀钱包作为热钱包：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - 第 2\*\*级，您使用的是实体钱包，并已确保 12/24 个单词列表的安全。这通常被称为 "冷钱包"，因为您的密钥存储在一个未连接互联网的设备上。在这种情况下，您始终需要用设备签署每一笔交易，这使得您的资金在日常使用中不那么容易获取。
 
 例如，您可以使用 Ledger、Satochip 或 Tapsigner：
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/zh-Hans/031.webp)
 
@@ -556,7 +556,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 进一步了解 BIP39 密码的使用和功能：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/zh-Hans/032.webp)
 
@@ -582,7 +582,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 请注意，BTC102 课程将指导您完成这一步骤。
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### 这一步可不是闹着玩的！
 
@@ -617,7 +617,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 如果你想逐步了解如何设置自己的钱包并获得第一枚比特币，我们还推荐你参加另一门课程：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 通过时间的考验
 
@@ -629,7 +629,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 一种长期保护比特币的方法是将您的记忆短语刻在钢等耐腐蚀材料上，为您的密钥创建一个防水、防火的物理备份。
 
-有多种解决方案可供选择：其中一些成本较低，如 "Blockmit"，而另一些则可能需要更专业的设备。您可以在我们学院的 [教程](https://planb.network/en/tutorials/wallet) 栏目中进一步了解这一主题。
+有多种解决方案可供选择：其中一些成本较低，如 "Blockmit"，而另一些则可能需要更专业的设备。您可以在我们学院的 [教程](https://planb.academy/en/tutorials/wallet) 栏目中进一步了解这一主题。
 
 ![image](assets/zh-Hans/036.webp)
 
@@ -637,7 +637,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 除了第一种做法，制定继承计划也是确保您死后比特币得到妥善管理的关键一步。这个计划包括手写一封信，在信中概述你的资产的性质、存取方式以及负责管理这些资产的可信赖个人的联系信息。同样重要的是，与公证人讨论比特币的继承问题，以确保税务合规，即使这个人不应该被直接委托管理你的比特币。
 
-如果您想进一步了解比特币的继承计划，我们建议您阅读帕梅拉-摩根（Pamela Morgan）的著作[加密资产继承计划](https://planb.network/resources/books/28)或参加 BTC102 课程，我们将在课程中为您提供制定计划的指导。
+如果您想进一步了解比特币的继承计划，我们建议您阅读帕梅拉-摩根（Pamela Morgan）的著作[加密资产继承计划](https://planb.academy/resources/books/28)或参加 BTC102 课程，我们将在课程中为您提供制定计划的指导。
 
 ![image](assets/zh-Hans/037.webp)
 
@@ -718,7 +718,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 对于一些人来说，比特币被定义为像[菌丝]一样的真菌实体(https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/)，而另一些人则将其描述为[黑洞](https://dergigi.com/)。不管你是爱它还是恨它，比特币都将继续存在，它每块 10 分钟的恒定节奏，就像一个新货币体系的心跳。
 
-要了解有关中本聪著作的更多信息，我们推荐阅读 Phil Champagne 撰写的["The Book of Satoshi"](https://planb.network/en/resources/books/98) 或 ARTE 的纪录片 "Le mystaire Satoshi"。
+要了解有关中本聪著作的更多信息，我们推荐阅读 Phil Champagne 撰写的["The Book of Satoshi"](https://planb.academy/en/resources/books/98) 或 ARTE 的纪录片 "Le mystaire Satoshi"。
 
 ![image](assets/zh-Hans/044.webp)
 
@@ -911,7 +911,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 如果您想深入了解比特币挖矿的具体内容，可以参考我们的 MIN 201 课程。您将了解 "工作证明"（Proof-of-Work）的运作和作用，以及挖矿行业的机制。我们还将讲解如何将 ASIC 转换成加热器，让您在为家中取暖的同时挖出第一枚比特币！
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## 比特币与生态学
 
@@ -1063,17 +1063,17 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - 简单的在线解决方案：OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - 业余商家的解决方案瑞士比特币支付
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 为大型机构或热衷于比特币的用户提供解决方案：BTCpay 服务器
 
 为了更深入地了解这个主题，我们推荐我们的 BIZ101 培训课程！了解如何有效地将比特币整合到您的公司财务中，根据您的组织概况接受比特币作为支付方式，并了解相关的税务和会计要求：
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 用比特币储蓄
 
@@ -1088,7 +1088,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 - 过去的业绩并不是未来业绩的可靠指标。
 - 如有需要，请联系您的财务顾问。
 
-**Plan ₿ Network 不提供任何投资建议，此处所述内容不应被视为投资建议**。
+**Plan ₿ Academy 不提供任何投资建议，此处所述内容不应被视为投资建议**。
 
 ### 投身其中前的迷你清单
 
@@ -1116,7 +1116,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 **小心 UTXO**：记得时不时地在钱包中合并 UTXOs。这种做法对有效管理比特币和避免交易过程中不必要的费用至关重要。
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo)（Unspent Transaction Output）是尚未被花费的交易输出，这意味着它没有被用作新交易的输入。合并UTXO意味着将多个小的UTXO合并为一个较大的UTXO，以减少交易的“重量”，从而支付更低的费用。
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo)（Unspent Transaction Output）是尚未被花费的交易输出，这意味着它没有被用作新交易的输入。合并UTXO意味着将多个小的UTXO合并为一个较大的UTXO，以减少交易的“重量”，从而支付更低的费用。
 
 - 自发购买
 
@@ -1130,7 +1130,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 - DCA 平台
 
-如上所述，积累比特币的常用方法是美元平均成本法（DCA），即定期购买少量比特币。有几个平台提供这种服务，比如我们的 [专门页面](https://planb.network/tutorials/exchange) 上列出的平台。除了设置 DCA 非常简单之外，向钱包取款通常也是自动的，这意味着您始终可以控制自己的资产。
+如上所述，积累比特币的常用方法是美元平均成本法（DCA），即定期购买少量比特币。有几个平台提供这种服务，比如我们的 [专门页面](https://planb.academy/tutorials/exchange) 上列出的平台。除了设置 DCA 非常简单之外，向钱包取款通常也是自动的，这意味着您始终可以控制自己的资产。
 
 如今，几乎所有的 DCA 解决方案都相对高效，收费也几乎相近，因此选择与否更多取决于您所在国家的可用性。
 
@@ -1158,7 +1158,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ### 非 KYC 解决方案
 
-此外，还有一些[市场](https://planb.network/tutorials/exchange)可以通过点对点交换买卖比特币。一般来说，你可以考虑以下几点：
+此外，还有一些[市场](https://planb.academy/tutorials/exchange)可以通过点对点交换买卖比特币。一般来说，你可以考虑以下几点：
 
 - 比特币自动取款机
 - 与其他比特币爱好者实际会面
@@ -1172,7 +1172,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 如果您希望深入了解有关购买、使用和保护比特币的策略，我强烈建议您在本课程之后继续学习 **BTC 102** 课程。在那里，您将了解到适合您个人档案、需求和目标的工具推荐等内容：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 超级比特币化
 
@@ -1194,7 +1194,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ![image](assets/zh-Hans/079.webp)
 
-如果你想拓宽你对比特币的知识面，现在正是时候：大量的作家、思想家和散文家都创作了关于比特币的教育内容。在过去的几年里，我们一直在罗列和分类这些作品，为最好奇的你提供一个[资源库](https://planb.network/resources)。在这一部分，你可以找到最好的播客、网站、文章、教程、书籍和其他内容。
+如果你想拓宽你对比特币的知识面，现在正是时候：大量的作家、思想家和散文家都创作了关于比特币的教育内容。在过去的几年里，我们一直在罗列和分类这些作品，为最好奇的你提供一个[资源库](https://planb.academy/resources)。在这一部分，你可以找到最好的播客、网站、文章、教程、书籍和其他内容。
 
 > "我认为，互联网将成为减少政府作用的主要力量之一。现在缺少的，但很快就会开发出来的，是一种可靠的电子现金--在互联网上，你可以在甲不知道乙，乙也不知道甲的情况下，把资金从甲转到乙。 - 米尔顿-弗里德曼 1999 年的预测
 
@@ -1244,7 +1244,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 如果您想进一步了解闪电网络的所有工作原理，我们建议您学习 Fanis Michalakis 的精彩课程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 闪电网络使用案例
 

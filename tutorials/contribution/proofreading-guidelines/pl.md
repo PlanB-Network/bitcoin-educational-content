@@ -1,27 +1,27 @@
 ---
 name: Wytyczne dotyczące korekty
-description: Jakie są ważne czynniki, o których należy pamiętać podczas korekty Plan ₿ Network?
+description: Jakie są ważne czynniki, o których należy pamiętać podczas korekty Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Witamy w tym samouczku dotyczącym **wytycznych, których należy przestrzegać podczas korekty treści na Plan ₿ Network**. Cieszymy się, że podzielasz naszą misję tłumaczenia materiałów Bitcoin w jak największej liczbie języków, aby pomóc ludziom zdobyć wiedzę na temat tego, jak działa i jak można go używać w codziennym życiu.
+Witamy w tym samouczku dotyczącym **wytycznych, których należy przestrzegać podczas korekty treści na Plan ₿ Academy**. Cieszymy się, że podzielasz naszą misję tłumaczenia materiałów Bitcoin w jak największej liczbie języków, aby pomóc ludziom zdobyć wiedzę na temat tego, jak działa i jak można go używać w codziennym życiu.
 
 
-Przede wszystkim, współtworzenie Plan ₿ Network [publiczne repozytorium](https://github.com/PlanB-Network/Bitcoin-educational-content) daje ci szansę na pisanie samouczków, korektę istniejących treści, a nawet zaproponowanie dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
+Przede wszystkim, współtworzenie Plan ₿ Academy [publiczne repozytorium](https://github.com/PlanB-Network/Bitcoin-educational-content) daje ci szansę na pisanie samouczków, korektę istniejących treści, a nawet zaproponowanie dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
 
 
-Niniejszy samouczek jest przeznaczony dla współpracowników, którzy chcą dokonać korekty treści. Większość z nich nie wie zbyt wiele o [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) lub [języku Markdown](https://www.markdownguide.org/basic-syntax/), którego używamy w repozytorium, więc ważne jest, aby podzielić się kilkoma spostrzeżeniami na temat kluczowych czynników związanych z tym zadaniem.
+Niniejszy samouczek jest przeznaczony dla współpracowników, którzy chcą dokonać korekty treści. Większość z nich nie wie zbyt wiele o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) lub [języku Markdown](https://www.markdownguide.org/basic-syntax/), którego używamy w repozytorium, więc ważne jest, aby podzielić się kilkoma spostrzeżeniami na temat kluczowych czynników związanych z tym zadaniem.
 
 
 Poniżej zebrałem najczęstsze problemy, z którymi spotykają się korektorzy. Nie krępuj się zasugerować więcej, ponieważ może to pomóc innym w poprawie.
 
 
-Przed zagłębieniem się w szczegóły, pierwszą rzeczą do zrobienia jest przeczytanie tego samouczka na temat praktycznych działań, które należy wykonać na Githubie, poprzez forkowanie repozytorium Plan ₿ Network, zatwierdzanie zmian i wysyłanie PR-ów:
+Przed zagłębieniem się w szczegóły, pierwszą rzeczą do zrobienia jest przeczytanie tego samouczka na temat praktycznych działań, które należy wykonać na Githubie, poprzez forkowanie repozytorium Plan ₿ Academy, zatwierdzanie zmian i wysyłanie PR-ów:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Co to jest korekta?
@@ -38,13 +38,13 @@ Zawsze pamiętaj, że tłumaczenie/proofreading to EDUKACJA!
 
 W rzeczywistości naszym wspólnym celem jest edukowanie jak największej liczby osób na temat Bitcoin, więc ważne jest, aby materiał, który czytają, był płynny i przejrzysty.
 
-W tym sensie wszyscy współpracownicy Plan ₿ Network są edukatorami!
+W tym sensie wszyscy współpracownicy Plan ₿ Academy są edukatorami!
 
 
-## Pierwsze kroki przed korektą na Plan ₿ Network
+## Pierwsze kroki przed korektą na Plan ₿ Academy
 
 
-Przed rozpoczęciem nowego zadania korekty należy ogłosić je w [grupie Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub poinformować koordynatora Plan ₿ Network, który otworzy dedykowane [zagadnienie](https://github.com/orgs/PlanB-Network/projects/3). Po otrzymaniu linku do tematu wystarczy **skomentować rozpoczęcie** zadania korekty tej treści.
+Przed rozpoczęciem nowego zadania korekty należy ogłosić je w [grupie Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub poinformować koordynatora Plan ₿ Academy, który otworzy dedykowane [zagadnienie](https://github.com/orgs/Plan ₿ Academy/projects/3). Po otrzymaniu linku do tematu wystarczy **skomentować rozpoczęcie** zadania korekty tej treści.
 
 
 System ten pomaga koordynatorowi śledzić postępy wewnątrz repozytorium i pozwala na "zastrzeżenie" treści przez korektora, zapobiegając powielaniu wysiłków przez kogoś innego.
@@ -60,7 +60,7 @@ Po pierwsze, **ZAWSZE pamiętaj o SYNCHRONIZACJI swojego repozytorium na gałęz
 
 
 
-Po pomyślnej synchronizacji można bezpośrednio uzyskać dostęp do interesującej zawartości i zatwierdzić w nowej gałęzi, jak pokazano w tym [samouczku](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). W przeciwnym razie możesz otworzyć nową gałąź, w której chcesz pracować, klikając "Gałęzie", jak pokazano poniżej.
+Po pomyślnej synchronizacji można bezpośrednio uzyskać dostęp do interesującej zawartości i zatwierdzić w nowej gałęzi, jak pokazano w tym [samouczku](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). W przeciwnym razie możesz otworzyć nową gałąź, w której chcesz pracować, klikając "Gałęzie", jak pokazano poniżej.
 
 
 
@@ -115,11 +115,11 @@ W tym drugim przypadku **zawsze sprawdź, czy ktoś inny w twojej społeczności
 
 
 
-- Innym dobrym rozwiązaniem jest zachowanie oryginalnego słowa/zwrotu, a następnie **utworzenie hiperłącza**, które przekierowuje do [glosariusza](https://planb.network/en/resources/glossary) na planb.network. Aby to zrobić, musisz wstawić słowo/frazę w nawiasach kwadratowych, a link w nawiasach okrągłych, jak widać na poniższym przykładzie:
+- Innym dobrym rozwiązaniem jest zachowanie oryginalnego słowa/zwrotu, a następnie **utworzenie hiperłącza**, które przekierowuje do [glosariusza](https://planb.academy/en/resources/glossary) na planb.network. Aby to zrobić, musisz wstawić słowo/frazę w nawiasach kwadratowych, a link w nawiasach okrągłych, jak widać na poniższym przykładzie:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ W efekcie końcowym (obrazek poniżej) nie będzie widoczny cały link, a słowo
 
 
 
-Należy pamiętać, że link do glosariusza, który zostanie pobrany ze strony internetowej, zawiera kod języka po słowie "sieć" (przykład: ``https://planb.network/en/resources/glossary/utxo``-> tutaj można odczytać kod języka "en"). W takim przypadku należy **usunąć kod języka z linku**, jak widać w ramce powyżej. W ten sposób system automatycznie przeniesie czytelnika do wyznaczonego języka.
+Należy pamiętać, że link do glosariusza, który zostanie pobrany ze strony internetowej, zawiera kod języka po słowie "sieć" (przykład: ``https://planb.academy/en/resources/glossary/utxo``-> tutaj można odczytać kod języka "en"). W takim przypadku należy **usunąć kod języka z linku**, jak widać w ramce powyżej. W ten sposób system automatycznie przeniesie czytelnika do wyznaczonego języka.
 
 
 Zawartość repozytorium jest pełna hiperłączy, takich jak te powyżej. Teraz, gdy już wiesz, co one oznaczają, **upewnij się, że nie usuniesz żadnego linku** wstawionego przez oryginalnego autora.
 
 
 
-- Kolejna rzecz związana z renderowaniem słów jest następująca. Jeśli w tekście znajduje się słowo "Plan ₿ Network", **pozostaw je w oryginalnej formie**. Nie tłumacz słowa "plan" ani słowa "sieć". Poza tym, NIE używaj przedimka "The" przy wprowadzaniu Plan ₿ Network: **traktuj to jako markę**.
+- Kolejna rzecz związana z renderowaniem słów jest następująca. Jeśli w tekście znajduje się słowo "Plan ₿ Academy", **pozostaw je w oryginalnej formie**. Nie tłumacz słowa "plan" ani słowa "sieć". Poza tym, NIE używaj przedimka "The" przy wprowadzaniu Plan ₿ Academy: **traktuj to jako markę**.
 
 
 
@@ -323,7 +323,7 @@ Zawsze dokładnie sprawdzaj wszystkie hiperłącza w tekście, aby upewnić się
 
 
 
-- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu Plan ₿ Network lub samouczka (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **dodałeś nową linię między tekstem a samym linkiem**, w przeciwnym razie możesz zobaczyć następujący błąd na stronie.
+- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu Plan ₿ Academy lub samouczka (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **dodałeś nową linię między tekstem a samym linkiem**, w przeciwnym razie możesz zobaczyć następujący błąd na stronie.
 
 
 

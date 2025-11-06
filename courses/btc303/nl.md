@@ -75,7 +75,7 @@ Het navigeren door het complexe bestuurslandschap van Bitcoin vereist meer dan t
 Klaar om de volgende stap te zetten in jouw Bitcoin reis? Laten we beginnen!
 
 
-***N.B.**: Als u tijdens de cursus onbekende termen met betrekking tot Bitcoin tegenkomt, raadpleeg dan de [woordenlijst](https://planb.network/resources/glossary) om definities te vinden.*
+***N.B.**: Als u tijdens de cursus onbekende termen met betrekking tot Bitcoin tegenkomt, raadpleeg dan de [woordenlijst](https://planb.academy/resources/glossary) om definities te vinden.*
 
 
 
@@ -154,7 +154,7 @@ Als ze daarin slagen, zullen dezelfde problemen in de toekomst waarschijnlijk we
 Geen van deze opties is gunstig voor de gebruiker.
 
 
-Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
+Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
 
 
 > In dit artikel stellen we een oplossing voor voor het Double-spending probleem met behulp van een peer-to-peer gedistribueerde Timestamp server om generate rekenkundig bewijs te leveren van de chronologische volgorde van transacties.
@@ -652,7 +652,7 @@ Om de risico's van het onthullen van je persoonlijke gegevens te beperken, moet 
 Het artikel suggereert dat je het gebruik van exchanges die KYC/AML vereisen vermijdt en in plaats daarvan privé handelt, of gedecentraliseerde exchanges gebruikt zoals [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Raadpleeg voor meer informatie over tegenmaatregelen het eerder genoemde [wiki-artikel over privacy](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), te beginnen bij "Methoden voor het verbeteren van privacy (niet-Blockchain)".
 

@@ -720,9 +720,9 @@ Vi bruker et endelig felt av heltall modulo $p$ for å sikre nøyaktigheten av o
 
 Matematikken til elliptiske kurver over endelige felt er analog med de over feltet av reelle tall, med tilpasningen at alle operasjoner utføres modulo $p$. For å forenkle forklaringer, vil vi i de følgende kapitlene fortsette å illustrere konsepter ved hjelp av en kurve definert over reelle tall, samtidig som vi husker at, i praksis, er kurven definert over et endelig felt.
 
-Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan ₿ Network:
+Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Beregning av den offentlige nøkkelen fra den private nøkkelen
 
@@ -1112,7 +1112,7 @@ Hvis dette sighash-flagget integreres i Bitcoin, vil det muliggjøre bruk av cov
 
 For å fordype din kunnskap om Lightning Network, etter CYP201-kurset, anbefaler jeg på det sterkeste LNP201-kurset av Fanis Michalakis, som dekker emnet i detalj:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I neste del foreslår jeg å oppdage hvordan den mnemoniske frasen som ligger til grunn for din Bitcoin-lommebok fungerer.
 
@@ -1145,9 +1145,9 @@ Hvis man ønsket å bruke flere private nøkler, var det da nødvendig å lage l
 
 Denne begrensningen stammer fra Bitcoins personvernmodell. Ved å gjenbruke samme adresse, gjør det det lettere for eksterne observatører å spore alle mine Bitcoin-transaksjoner. Derfor er gjenbruk av en mottaksadresse sterkt frarådet. Imidlertid, for å ha flere adresser og offentlig skille våre transaksjoner, er det nødvendig å håndtere flere private nøkler. I tilfellet med JBOK-lommebøker, innebærer dette å skape like mange sikkerhetskopier som det er nye par med nøkler, en oppgave som raskt kan bli kompleks og vanskelig å opprettholde for brukere.
 
-For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan ₿ Network:
+For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lommebøker (_Hierarchical Deterministic_)
 
@@ -1249,7 +1249,7 @@ For eksempel, for en entropi på 256 bits, er resultatet $\text{ENT} \Vert \text
 
 ### Konvertering av den Binære Sekvensen til en Mnemonisk Frase
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 For eksempel, for en 128-bit entropi, er kontrollsummen 4 bit, og dermed måler den totale sekvensen 132 bit. Den er delt inn i 12 segmenter på 11 bit (de oransje bitene betegner kontrollsummen):
@@ -1289,7 +1289,7 @@ Som et resultat gir ikke å velge en 24-ords frase ekstra beskyttelse for lommeb
 En 12-ords frase, som også tilbyr 128 bits sikkerhet, er derfor for øyeblikket tilstrekkelig for å beskytte dine bitcoins mot ethvert tyveriforsøk. Så lenge den digitale signaturalgoritmen ikke endres for å bruke større nøkler eller for å stole på et matematisk problem annet enn ECDLP, forblir en 24-ords frase overflødig. Dessuten øker en lengre frase risikoen for tap under sikkerhetskopiering: en sikkerhetskopi som er halvparten så kort er alltid enklere å håndtere.
 For å gå videre og lære konkret hvordan man manuelt genererer en test mnemonisk frase, anbefaler jeg deg å oppdage denne opplæringen:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Før vi fortsetter med derivasjonen av lommeboken fra denne mnemoniske frasen, vil jeg introdusere deg, i det følgende kapittelet, til BIP39-passfrasen, ettersom den spiller en rolle i derivasjonsprosessen, og den er på samme nivå som den mnemoniske frasen.
 ## Passfrasen

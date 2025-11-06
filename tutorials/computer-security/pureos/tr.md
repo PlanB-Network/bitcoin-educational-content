@@ -11,7 +11,7 @@ Dijital çağda kişisel bilgilerin korunması her İnternet kullanıcısı içi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## PureOS ile çalışmaya başlama
 
@@ -353,4 +353,4 @@ Güvenliğinizi güçlendirmeye ve dijital gizliliğinizi korumaya yönelik kurs
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

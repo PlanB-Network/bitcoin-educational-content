@@ -6,4 +6,4 @@ wrong_answers:
   - Fragmenter les datagrammes au niveau physique
 explanation: |
   TCP organise la transmission fiable des données, vérifie leur intégrité, gère l’ordre d’arrivée et la reprise en cas de perte.
-reviewed: false
+reviewed: true 

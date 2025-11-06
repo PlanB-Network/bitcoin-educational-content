@@ -75,7 +75,7 @@ Bitcoin'un karmaşık yönetişim ortamında gezinmek teknik uzmanlıktan daha f
 Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başlayalım!
 
 
-***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe] (https://planb.network/resources/glossary) bakın.*
+***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe] (https://planb.academy/resources/glossary) bakın.*
 
 
 
@@ -154,7 +154,7 @@ Eğer başarılı olurlarsa, sistemin eskisi kadar sansürlenebilir olduğu göz
 Bu seçeneklerin hiçbiri kullanıcı için faydalı değildir.
 
 
-Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.network/bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
+Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.academy/bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
 
 
 > Bu makalede, işlemlerin kronolojik sırasının generate hesaplamalı kanıtı için eşler arası dağıtılmış bir Timestamp sunucusu kullanarak Double-spending problemine bir çözüm öneriyoruz.
@@ -652,7 +652,7 @@ Kişisel verilerinizin açığa çıkma riskini azaltmak için ilk etapta bu ver
 Makale, KYC/AML gerektiren borsaları kullanmaktan kaçınmanızı ve bunun yerine özel olarak işlem yapmanızı veya [bisq] (https://bisq.network/) gibi merkezi olmayan borsaları kullanmanızı önermektedir.
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Karşı önlemler hakkında daha derinlemesine okuma için, daha önce bahsedilen [gizlilikle ilgili wiki makalesine] (https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), "Gizliliği geliştirme yöntemleri (Blockchain dışı)" bölümünden başlayarak bakın.
 

@@ -32,7 +32,7 @@ Tämän kurssin tavoitteena on antaa sinulle tietoa siitä, miten voit integroid
 
 Oletko valmis sukeltamaan yritysten Bitcoin-maailmaan? Lähdetään liikkeelle!
 
-**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
+**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary).
 
 # Valuutta, maksujärjestelmät ja Bitcoin
 
@@ -237,7 +237,7 @@ Bitcoin haastaa meidät miettimään uudelleen itse rahan luonnetta. Voisitteko 
 
 Jos haluat lisätietoa Bitcoinista, sen historiasta, toiminnasta ja käytöstä, suosittelen myös tämän kattavan kurssin seuraamista:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Lightning-verkon esittely
 
@@ -319,7 +319,7 @@ Lightning Network on ihanteellinen Bitcoin-maksuihin fyysisissä tai verkkokaupo
 
 Jos haluat lisätietoa Lightning Networkin teknisestä toiminnasta, suosittelen myös tämän toisen kattavan kurssin seuraamista:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin valtionkassaan
 
@@ -439,11 +439,11 @@ Nämä ajattelijat muokkasivat ajatusta siitä, että valtion väliintulo väär
 
 Lisätietoja tästä aiheesta:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Bitcoinin hallussapito valtionkassaan
 
@@ -595,7 +595,7 @@ Koska Bitcoin toimii vaihtovälineenä, on mahdollista kuvitella kiertotaloutta.
 
 Tämä tarkoittaa palkintojen ansaitsemista kaivoskoneiden käytöstä. Erikoistumattomille yrityksille tämä on edelleen suhteellisen marginaalista. Voit osallistua välittäjien kautta, jotka myyvät tai vuokraavat sinulle laskennan, verkon ja ylläpidon. Jos omistat koneet, voit käsitellä niitä kirjanpidossa poistokelpoisena omaisuutena. Suuressa mittakaavassa sinun on laskettava sijoitetun pääoman tuotto huolellisesti, koska markkinat ovat erittäin kilpaillut ja edellyttävät kustannusten, erityisesti sähkön, hyvää ennakointia.
 
-Jos haluat lisätietoja louhintamenetelmistä, voit [tutustua opetusohjelmiemme "louhinta"-osioon](https://planb.network/tutorials/mining).
+Jos haluat lisätietoja louhintamenetelmistä, voit [tutustua opetusohjelmiemme "louhinta"-osioon](https://planb.academy/tutorials/mining).
 
 
 - **Bitcoinin ostaminen:**
@@ -604,11 +604,11 @@ Tämä on ylivoimaisesti yleisin menetelmä, ja se tapahtuu joko vertaisverkkop�
 
 Jos haluat oppia, miten avata yritystili ja käyttää sitä bitcoinien ostamiseen, myymiseen ja siirtämiseen, voit tutustua näihin kahteen erityisesti yrityksille suunnattuun opetusohjelmaan, jotka kattavat Kraken- ja Bitfinex-alustojen yritysversiot:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Jos haluat lisätietoja menetelmistä, joilla bitcoineja voi hankkia pörssin tai vertaisverkon kautta, voit [tutustua opetusohjelmiemme "exchange"-osioon](https://planb.network/tutorials/exchange).
+Jos haluat lisätietoja menetelmistä, joilla bitcoineja voi hankkia pörssin tai vertaisverkon kautta, voit [tutustua opetusohjelmiemme "exchange"-osioon](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/fi/012.webp)
 
@@ -863,21 +863,21 @@ Yksityiskohtaiset oppaat suositelluista lompakoista ja perusasetuksista löydät
 
 **Self-custodial LN-lompakot/solmut:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Huoltajina toimivat LN-lompakot:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Olennainen
 
@@ -909,15 +909,15 @@ Vaikka Essential-profiili ei vaadi erittäin kehittyneitä kirjanpitojärjestelm
 
 Profiilisi kannalta sopivin hybridiratkaisu on todennäköisesti Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Toinen helposti toteutettavissa oleva ratkaisu, jonka haittapuolena on kuitenkin se, että se on 100-prosenttisesti säilytyspalvelu, on Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Jos olet valmis likaamaan kätesi ja haluat hallita prosessia täysin, BTCPay Server -ohjelmisto on erinomainen vaihtoehto. BTCPay Serverin suurin haittapuoli on kuitenkin se, että sen asennus ja hallinta ovat aikaa vieviä ja vaativat tiettyä teknistä asiantuntemusta, mutta voit seurata oppaitamme:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Fyysisten myyntipisteiden täydennykseksi voisit harkita [Bitcoinize PoS](https://bitcoinize.com/) -palvelun perustamista.
 
@@ -955,7 +955,7 @@ Kun on kyse käytännön esimerkistä, mieti keskikokoista verkkokauppaa, joka o
 
 Jos haluat syventyä toteutuksen yksityiskohtiin ja tutustua BTC Pay Serverin käytännön konfiguraatioihin, käy seuraava kurssi:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Yritys
 
@@ -1206,7 +1206,7 @@ Useimmille pienille yrityksille riittää kuitenkin usein pelkkä tapahtumahisto
 
 Niille, jotka säilyttävät Bitcoininsa itse, UTXO:n (*Unspent Transaction Outputs*) hallinta on tärkeä askel. UTXO:n asianmukainen merkitseminen auttaa jäljittämään kunkin BTC-palan alkuperän, erottamaan ammatilliseen toimintaan liittyvät transaktiot henkilökohtaisiin kuluihin liittyvistä transaktioista ja helpottamaan jäljitettävyyttä oikeudellisia tai verotuksellisia tarkoituksia varten. Useimmissa hyvissä Bitcoin-lompakko-ohjelmistoissa voit tuoda lompakkosi käyttämällä varmuuskopiotiedostoa (tai xpubia, asetuksestasi riippuen) ja merkitä UTXO:t niiden alkuperän tai määränpään perusteella. Avuksesi tässä on täydellinen opetusohjelma, joka on omistettu tälle käytännölle:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **selvittää lasku Bitcoinilla**. Tärkeintä on dokumentoida transaktio asianmukaisesti. Jos maksat omasta lompakosta, on ihanteellista luoda tapahtuma, johon merkitään laskun numero ja maksun tarkoitus tarroissa. Jos maksat laskun mieluummin vaihdon kautta, sinulla on myös mahdollisuus viedä kuitti tai tapahtumahistoria kirjanpitoon. Tämä läpinäkyvyys yksinkertaistaa kaikkien BTC-toimintojesi seurantaa ja raportointia.
 

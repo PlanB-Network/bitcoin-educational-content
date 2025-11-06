@@ -118,7 +118,7 @@ Seejärel võtame aega, et vaadata üle mõned varem kursusel käsitletud teoori
 
 
 
-Nagu kõigi Plan ₿ Network kursuste puhul, leiate lõpuosast lõpueksami, millega testite oma teadmisi Bitcoin sõlmede kohta.
+Nagu kõigi Plan ₿ Academy kursuste puhul, leiate lõpuosast lõpueksami, millega testite oma teadmisi Bitcoin sõlmede kohta.
 
 
 
@@ -516,7 +516,7 @@ Kasutades oma sõlme, saadate oma tehingud otse võrku, vältides vahendajaid. E
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Tsenseerimata tehingud
 
@@ -865,9 +865,9 @@ See on kõige suveräänsem ja paindlikum lähenemisviis: te teate täpselt, mis
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (peamine alternatiivne klient)
 
@@ -886,7 +886,7 @@ On 2 võimalikku põhjust, miks valida Knotid Core'i asemel:
 - Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid tõhusalt kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamikku kliendi juhtimist.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Isiklikult soovitan valida Core, peamiselt selleks, et saada kiiremini kasu turvaparandustest. Tõepoolest, mõned Knotsis avastatud haavatavused parandatakse hilinemisega. Üldisemalt on Core'i arendusprotsess kindlalt struktureeritud ja seda toetab suur hulk toetajaid, samas kui Knots'i hooldab üks inimene ja selle kogukond on palju väiksem. Teisest küljest kipuvad releereeglid tänapäeval oma kasulikkust kaotama, eriti kui neid rakendab vaid väike osa võrgustikust (nagu perkolatsiooniteooria).
 
@@ -942,7 +942,7 @@ Ma ei hakka siinkohal täpsemalt rääkima selle toimimisest ja selle eripärast
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Peamine erinevus Umbreliga on Interface. Umbrel tugineb väga lihvitud kasutajal
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ Praktikas koondab MyNode kõik Full node käitamiseks vajalikud põhielemendid n
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Kui teil on Raspberry Pi, on see suurepärane võimalus, sest terviklikumad süs
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Varem pakuti projekti raames eelkonfigureeritud masinat nimega Tanto, kuid see o
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Kui olete valinud Raspberry Pi 5 (mida ma ei soovita, nagu eelmises punktis main
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Nagu eelmises punktis mainitud, valisin selle õpetuse läbiviimiseks väikese renoveeritud arvuti, mille leidsin hea hinnaga: *Lenovo ThinkCentre M900 Tiny*, mis on varustatud Intel Core i7 protsessori ja 16 GB RAM-iga. See on väga mugav konfiguratsioon Umbreli käivitamiseks, eriti Bitcoin sõlme jaoks. Siiski valisin selle konfiguratsiooni, sest tahan hiljem paigaldada Lightning-sõlme ja muid nõudlikumaid rakendusi. Samuti lisasin oma ThinkCentre'ile 2 TB SSD, et säilitada täielik Blockchain ja ikkagi mugav varu. Selle konfiguratsiooni puhul on kogumaksumus 270 eurot koos kõigi kuludega.
 
@@ -1822,7 +1822,7 @@ Umbreli IP Address tuvastamiseks on mitu meetodit, alates kõige lihtsamast kuni
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Valige tugev parool ja tagage, et teil on vähemalt üks varukoopia (soovitatav 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Kui olete sisestanud oma parooli, klõpsake nupule "*Loo*".
 
@@ -1944,7 +1944,7 @@ Kõigepealt soovitan tungivalt lubada kahefaktorilist autentimist (2FA). See lis
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Selleks klõpsake seadetes vastaval kastil.
 
@@ -2435,7 +2435,7 @@ Nagu eelnevalt mainitud, võib explorer olla veebipõhine veebisait või käivit
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Veelgi enam, teie Interneti-teenuse pakkuja (ISP) võib teada, et te vaatate konkreetset tehingut Block explorer saidi kaudu. See tõstatab ka usaldusküsimuse: te peate usaldama, et võrguteenus annab teile oma tehingute kohta täpset teavet, ilma et saaksite selle tõesust ise kontrollida.
 
@@ -2472,7 +2472,7 @@ Kui soovite rohkem teada saada Mempool.Space exploreri kasutamisest, siis soovit
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Välgussõlm
 
@@ -2492,15 +2492,15 @@ Umbrel pakub mitmeid rakendusi, mis aitavad teil oma Lightning-sõlme käivitada
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Seejärel saate oma sõlme hallata Interface peaprogrammist või veelgi suurema funktsionaalsuse ja täiustatud võimaluste saamiseks installida *Ride The Lightning* või *ThunderHub*. Need tööriistad annavad teile oma sõlme jaoks palju põhjalikuma veebipõhise Interface haldussüsteemi.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Tailscale'i paigaldamiseks ja konfigureerimiseks Umbrelil vt selle õpetuse 4. j
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Et teada saada, kuidas kõiki neid rakendusi kasutada, soovitan teil vaadata sed
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay server
 
@@ -2626,7 +2626,7 @@ Kui teil on ettevõte ja soovite võtta Bitcoin makseid vastu otse oma Umbrel-s�
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Täiustatud mõisted ja parimad tavad
@@ -2751,7 +2751,7 @@ Et süvendada oma teadmisi arvutiturbe kohta üldiselt, soovitan teil kindlasti 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnoos ja eneseabi
 
@@ -3077,9 +3077,9 @@ UTXO komplekti kasv tuleneb ka Bitcoin lihtsate maksetehingute struktuurist. Tõ
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kuna osa sellest tuleb hoida RAMis, et kontrollida tehinguid mõistliku aja jooksul, võib UTXO komplekt muuta Full node töö järk-järgult liiga kulukaks. Selle probleemi lahendamiseks on juba olemas mõned ettepanekud, eelkõige [Utreexo](https://planb.network/resources/glossary/utreexo).
+Kuna osa sellest tuleb hoida RAMis, et kontrollida tehinguid mõistliku aja jooksul, võib UTXO komplekt muuta Full node töö järk-järgult liiga kulukaks. Selle probleemi lahendamiseks on juba olemas mõned ettepanekud, eelkõige [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3894,7 +3894,7 @@ Nüüd saate liikuda edasi kursuse lõpuosasse, kus saate hinnata BTC 202, seej�
 
 
 
-Nüüd on teil mitu võimalust. Järgmine loogiline samm on luua oma Lightning-sõlm, mis võimaldab teil off-chain tehingute puhul olla täiesti sõltumatu. See on tulevase kursuse teema, mis avaldatakse 2025. aasta sügisel Plan ₿ Network kohta.
+Nüüd on teil mitu võimalust. Järgmine loogiline samm on luua oma Lightning-sõlm, mis võimaldab teil off-chain tehingute puhul olla täiesti sõltumatu. See on tulevase kursuse teema, mis avaldatakse 2025. aasta sügisel Plan ₿ Academy kohta.
 
 
 
@@ -3902,7 +3902,7 @@ Vahepeal kutsun teid üles avastama BTC 204 koolitust, mis võimaldab teil mõis
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Viimane osa

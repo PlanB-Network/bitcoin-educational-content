@@ -60,7 +60,7 @@ Het laatste deel wordt geleid door andere sprekers die concrete toepassingen op 
 Deze training kwam oorspronkelijk voort uit een twee weken durend bootcamp voor geavanceerde ontwikkeling in Viareggio, Toscane, georganiseerd door [Fulgur'Ventures](https://fulgur.ventures/). De eerste week, gericht op Rust en SDK's, is te vinden in deze andere cursus:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 In deze cursus richten we ons op de tweede week van het bootcamp, waarin RGB centraal staat.
 
@@ -2594,7 +2594,7 @@ De Lightning Network is een gedecentraliseerd netwerk van betaalkanalen (of _sta
 Voor meer informatie over hoe Lightning werkt, raad ik je aan deze andere cursus te volgen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4239,8 +4239,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4297,7 +4297,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Dan toont het volgende commando de globale toestanden (naam, ticker, Supply...) en de lijst van Owned States, d.w.z. toewijzingen (bijvoorbeeld 1 miljoen `PBN` tokens gedefinieerd in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Dan toont het volgende commando de globale toestanden (naam, ticker, Supply...) en de lijst van Owned States, d.w.z. toewijzingen (bijvoorbeeld 1 miljoen `Plan ₿ Academy` tokens gedefinieerd in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4556,7 +4556,7 @@ In werkelijkheid maakt de Lightning Network het mogelijk om betalingen via meerd
 De werking van de RGB op Lightning moet daarom parallel worden bekeken met die van de Lightning Network zelf. Als je dieper op dit onderwerp wilt ingaan, raad ik je van harte aan om deze andere uitgebreide training te bekijken:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB code kaart
 
@@ -5270,7 +5270,7 @@ Je kunt de bestelling natuurlijk aanpassen. Om de transactie te bevestigen, mijn
 ```
 
 
-We kunnen nu een RGB asset aanmaken. Het commando hangt af van het type asset dat je wilt maken en de parameters. Hier maak ik een NIA (*Non Inflatable Asset*) token genaamd "PBN" met een Supply van 1000 eenheden. Met `precision` kun je de deelbaarheid van de eenheden bepalen.
+We kunnen nu een RGB asset aanmaken. Het commando hangt af van het type asset dat je wilt maken en de parameters. Hier maak ik een NIA (*Non Inflatable Asset*) token genaamd "Plan ₿ Academy" met een Supply van 1000 eenheden. Met `precision` kun je de deelbaarheid van de eenheden bepalen.
 
 
 ```bash
@@ -5279,8 +5279,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5328,7 +5328,7 @@ Het commando geeft de openbare sleutel van mijn knooppunt nr. 2:
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-Vervolgens openen we het kanaal door de relevante asset (`PBN`) te specificeren. Met het `/openchannel` commando kun je de grootte van het kanaal in satoshis bepalen en ervoor kiezen om de RGB asset toe te voegen. Het hangt af van wat je wilt maken, maar in mijn geval is het commando:
+Vervolgens openen we het kanaal door de relevante asset (`Plan ₿ Academy`) te specificeren. Met het `/openchannel` commando kun je de grootte van het kanaal in satoshis bepalen en ervoor kiezen om de RGB asset toe te voegen. Het hangt af van wat je wilt maken, maar in mijn geval is het commando:
 
 
 ```bash
@@ -5376,7 +5376,7 @@ Om de transactie te bevestigen, worden 6 blokken gedolven:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Het Lightning-kanaal is nu open en bevat ook 500 `PBN`-tokens aan de kant van knooppunt n°1. Als knooppunt n°2 `PBN` tokens wil ontvangen, moet het generate en Invoice. Zo doe je dat:
+Het Lightning-kanaal is nu open en bevat ook 500 `Plan ₿ Academy`-tokens aan de kant van knooppunt n°1. Als knooppunt n°2 `Plan ₿ Academy` tokens wil ontvangen, moet het generate en Invoice. Zo doe je dat:
 
 
 ```bash
@@ -5413,7 +5413,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-We betalen deze Invoice nu vanaf het eerste knooppunt, dat het benodigde geld heeft met de `PBN` token:
+We betalen deze Invoice nu vanaf het eerste knooppunt, dat het benodigde geld heeft met de `Plan ₿ Academy` token:
 
 
 ```bash

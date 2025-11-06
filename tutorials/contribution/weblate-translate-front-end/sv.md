@@ -5,7 +5,7 @@ description: Hur kan du delta i översättningen av den statiska Elements på pl
 ![cover](assets/cover.webp)
 
 
-Plan ₿ Network:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser på Bitcoin och översätta dem till så många språk som möjligt. Mycket av det innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen. Bidrag kan ta olika former: korrigering och korrekturläsning av befintligt innehåll, uppdatering av information eller skapande av nya handledningar att lägga till på plattformen.
+Plan ₿ Academy:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser på Bitcoin och översätta dem till så många språk som möjligt. Mycket av det innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen. Bidrag kan ta olika former: korrigering och korrekturläsning av befintligt innehåll, uppdatering av information eller skapande av nya handledningar att lägga till på plattformen.
 
 
 I den här handledningen visar vi dig hur du enkelt kan bidra till översättningen av den statiska Elements på vår webbplats. Uppgifterna på plattformen är indelade i två huvudkategorier:
@@ -18,12 +18,12 @@ I den här handledningen visar vi dig hur du enkelt kan bidra till översättnin
 För att översätta det pedagogiska innehållet använder vi [artificiell intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). För att rätta till eventuella fel i dessa filer bjuder vi sedan in korrekturläsare att bidra. Om du vill korrekturläsa en del av innehållet kan du läsa följande handledning:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Om du däremot är intresserad av att översätta webbplatsens statiska Elements (exklusive utbildningsinnehåll) har du kommit helt rätt! För att effektivt översätta frontend använder vi verktyget Weblate, som är mycket enkelt att använda och underlättar översättningen.
 
 
-Om du vill lägga till ett helt nytt språk i Plan ₿ Network, se till att kontakta Plan ₿ Network-teamet via vår [Telegramgrupp] (https://t.me/PlanBNetwork_ContentBuilder). Om du inte har telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
+Om du vill lägga till ett helt nytt språk i Plan ₿ Academy, se till att kontakta Plan ₿ Academy-teamet via vår [Telegramgrupp] (https://t.me/PlanBNetwork_ContentBuilder). Om du inte har telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
 
 Våra medarbetare kommer att ge dig specifika instruktioner och öppna relaterade "issues" på Github för att samordna ditt arbete.
 
@@ -31,7 +31,7 @@ Våra medarbetare kommer att ge dig specifika instruktioner och öppna relaterad
 Innan du följer denna specifika handledning för att lägga till ett nytt språk i Weblate.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 När du är redo att börja översätta kan du gå tillbaka till den här handledningen och gå igenom följande punkter.
 
@@ -40,7 +40,7 @@ När du är redo att börja översätta kan du gå tillbaka till den här handle
 
 
 
-- Gå till [den självhostade Weblate för Plan ₿ Network] (https://weblate.planb.network/):
+- Gå till [den självhostade Weblate för Plan ₿ Academy] (https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ När du är redo att börja översätta kan du gå tillbaka till den här handle
 ![weblate](assets/06.webp)
 
 
-- Du kan nu gå tillbaka till Plan ₿ Network:s instrumentpanel:
+- Du kan nu gå tillbaka till Plan ₿ Academy:s instrumentpanel:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ När du är redo att börja översätta kan du gå tillbaka till den här handle
 
 
 - När du hittar ord som är infogade inom hakparenteser "{" behöver du inte översätta dem. Till exempel i "Your account has been created, {{userName}}!" översätter du hela meningen, men behåller "användarnamn" på engelska.
-- När du hittar "Plan ₿ Network" i en sträng, se till att INTE översätta ordet "nätverk" (betrakta Plan ₿ Network som ett varumärke). Dessutom ska du alltid använda Bitcoin:s ₿!
+- När du hittar "Plan ₿ Academy" i en sträng, se till att INTE översätta ordet "nätverk" (betrakta Plan ₿ Academy som ett varumärke). Dessutom ska du alltid använda Bitcoin:s ₿!
 - Om du bara hittar ordet "network" kan du översätta det i stället.
 - Översätt inte "B-CERT", eftersom det är ett annat fast ord.
 - Om du hittar strängar som slutar med ett mellanslag kan du låta det vara kvar.
@@ -174,4 +174,4 @@ När du är redo att börja översätta kan du gå tillbaka till den här handle
 ![weblate](assets/23.webp)
 
 
-Tack på förhand för ditt bidrag till översättningen av Plan ₿ Network! Om du har några specifika frågor eller kommentarer till oss är du välkommen att kontakta oss via [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder).
+Tack på förhand för ditt bidrag till översättningen av Plan ₿ Academy! Om du har några specifika frågor eller kommentarer till oss är du välkommen att kontakta oss via [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder).

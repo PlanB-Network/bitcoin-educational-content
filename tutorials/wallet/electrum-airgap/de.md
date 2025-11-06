@@ -54,7 +54,7 @@ Um Electrum herunterzuladen, empfehle ich dir, die ersten Schritte in diesem Tut
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Überprüfen Sie nach dem Herunterladen immer die Version, bevor Sie sie installieren, und fahren Sie dann mit der "One Server"-Konfiguration fort, die Sie in der Hilfe unter `Start with a Dummy Wallet` finden.
 

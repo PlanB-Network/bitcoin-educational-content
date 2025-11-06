@@ -133,4 +133,4 @@ Selamat, Anda sekarang sudah mahir menggunakan Signal aplikasi kirim pesan, sebu
 
 Saya juga merekomendasikan tutorial lain, saya akan memperkenalkan Anda pada Proton Mail, sebuah alternatif yang jauh lebih ramah privasi daripada Gmail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

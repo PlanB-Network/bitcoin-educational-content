@@ -18,7 +18,7 @@ description: 保护您的设备和互联网浏览数据。
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 基于这一原则，[Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) 是 Mozilla 基金会于 2020 年开发的开源 VPN 服务。它可在.NET Framework上使用：
 
@@ -191,4 +191,4 @@ Mozilla VPN 始终致力于为用户提供更高的保密性，其**Kill Switch*
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

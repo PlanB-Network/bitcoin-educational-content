@@ -18,7 +18,7 @@ PlanB 네트워크에 기여하고 싶으시다면 GitHub를 사용하여 변경
 GitHub가 무엇인지 잘 모르거나 Git 및 GitHub와 관련된 기술 용어에 대해 자세히 알고 싶다면 소개 글을 읽고 이러한 개념을 익히는 것이 좋습니다.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - 시작하려면 당연히 GitHub 계정이 필요합니다. 이미 계정이 있는 경우 로그인하면 되고, 그렇지 않은 경우 튜토리얼을 사용하여 새 계정을 만들 수 있습니다.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -116,7 +116,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![github-desktop](assets/18.webp)
 
 
-- 리포지토리를 복제한 후 소프트웨어는 두 가지 옵션을 제공합니다. 첫 번째 옵션인 '상위 프로젝트에 기여하기'를 선택해야 합니다. 이 옵션을 선택하면 향후 작업을 개인 Fork(`[사용자명]/Bitcoin-교육용 콘텐츠`)의 수정이 아닌 상위 프로젝트(`PlanB-Network/Bitcoin-교육용 콘텐츠`)에 대한 기여로 제시할 수 있습니다. 옵션을 선택한 후 `계속`을 클릭합니다:
+- 리포지토리를 복제한 후 소프트웨어는 두 가지 옵션을 제공합니다. 첫 번째 옵션인 '상위 프로젝트에 기여하기'를 선택해야 합니다. 이 옵션을 선택하면 향후 작업을 개인 Fork(`[사용자명]/Bitcoin-교육용 콘텐츠`)의 수정이 아닌 상위 프로젝트(`Plan ₿ Academy/Bitcoin-교육용 콘텐츠`)에 대한 기여로 제시할 수 있습니다. 옵션을 선택한 후 `계속`을 클릭합니다:
 
 ![github-desktop](assets/19.webp)
 
@@ -178,6 +178,6 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 축하합니다! 이제 플랜비 네트워크에 기여할 수 있는 작업 환경이 준비되었습니다. 이제 각 기여 유형(번역, 교정, 글쓰기)에 대한 다른 구체적인 튜토리얼을 살펴볼 수 있습니다.
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

@@ -5,7 +5,7 @@ description: Explorez la couche principale de Bitcoin et le Liquid Network
 
 ![cover](assets/cover.webp)
 
-L'explorateur Blockstream est un projet qui facilite l'exploration des transactions et l'état global du protocole Bitcoin, ainsi que de la [*sidechain*](https://planb.network/en/resources/glossary/sidechain) Liquid développée par la société Blockstream.
+L'explorateur Blockstream est un projet qui facilite l'exploration des transactions et l'état global du protocole Bitcoin, ainsi que de la [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) Liquid développée par la société Blockstream.
 
 Initié en 2014 par Blockstream, entreprise fondée par Adam Back, l'explorateur [blockstream.info](https://blockstream.info) vise à fournir une infrastructure robuste pour Bitcoin, garantissant l'interopérabilité et le suivi des transactions entre les couches (on-chain et Liquid), tout en renforçant la sécurité et la confidentialité des utilisateurs.
 
@@ -45,7 +45,7 @@ En cliquant sur le bouton **"Détails"**, vous pouvez obtenir plus de renseignem
 
 En dessous de cette section de détails, nous retrouvons l'ensemble des transactions incluses dans ce bloc. 
 
-La toute première transaction du bloc est appelée **transaction coinbase**. Elle sert à attribuer au mineur la récompense de minage (totalité des frais associés aux transactions incluses dans le bloc et subvention de bloc). Les bitcoins créés par cette transaction ne deviennent dépensables qu’après le minage de 100 autres blocs consécutifs. Autrement dit, pour pouvoir les utiliser, le mineur devra attendre la production du bloc **919430**. C'est ce que l'on appelle la [*"période de maturité"*](https://planb.network/fr/resources/glossary/maturity-period).
+La toute première transaction du bloc est appelée **transaction coinbase**. Elle sert à attribuer au mineur la récompense de minage (totalité des frais associés aux transactions incluses dans le bloc et subvention de bloc). Les bitcoins créés par cette transaction ne deviennent dépensables qu’après le minage de 100 autres blocs consécutifs. Autrement dit, pour pouvoir les utiliser, le mineur devra attendre la production du bloc **919430**. C'est ce que l'on appelle la [*"période de maturité"*](https://planb.academy/fr/resources/glossary/maturity-period).
 
 La coinbase est une transaction particulière : c’est la seule qui ne possède aucune vraie entrée, car elle ne dépense pas de bitcoins issus d’une transaction précédente.
 
@@ -58,7 +58,7 @@ Pour que des bitcoins soient utilisés comme entrées dans une nouvelle transact
 
 Vous pouvez retracer l'historique d'un UTXO spécifique en utilisant des heuristiques. Nous vous invitons à découvrir les différentes heuristiques Bitcoin et les moyens de renforcer la confidentialité de vos transactions sur Bitcoin :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ![trxs](assets/fr/07.webp)
 
@@ -72,7 +72,7 @@ Prenons l'exemple de la dépense de la sortie de cette transaction. En cliquant 
 
 ## La couche Liquid
 
-Le Liquid Network est une [*sidechain*](https://planb.network/en/resources/glossary/sidechain) et une solution open source de niveau 2 pour le protocole Bitcoin. Il permet notamment de réaliser des transactions en bitcoins plus rapides et plus confidentielles.
+Le Liquid Network est une [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) et une solution open source de niveau 2 pour le protocole Bitcoin. Il permet notamment de réaliser des transactions en bitcoins plus rapides et plus confidentielles.
 
 Sur l'explorateur Blockstream.info, cliquez sur le bouton **"Liquid"** pour passer sur le réseau Liquid.
 
@@ -113,4 +113,4 @@ Ce réseau se caractérise par une longueur de chaîne différente, auquel vous 
 
 Vous êtes désormais prêts à exploiter tout le potentiel de Blockstream Explorer pour interroger les blockchains sur les couches on-chain et Liquid. Nous espérons que ce tutoriel vous a été instructif et nous vous recommandons notre tutoriel sur un autre explorateur Bitcoin :
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

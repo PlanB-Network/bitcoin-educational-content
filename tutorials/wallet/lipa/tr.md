@@ -14,7 +14,7 @@ Lightning cüzdanları, tüm mobil cüzdanlar gibi, internete bağlı oldukları
 Lightning Network hakkında daha fazla bilgi edinmek ve teknik olarak nasıl çalıştığını anlamak istiyorsanız, bu kursa katılmanızı tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bu eğitimde, İsviçre'de geliştirilen basit ve etkili bir Lightning Wallet olan **Lipa**'ya göz atacağız.
 
@@ -131,7 +131,7 @@ Wallet'ünüzü yedeklemek için "Ayarlar" sekmesine gidin ve "Kurtarma ifadesi 
 Kurtarma ifadenizi nasıl düzgün bir şekilde yedekleyeceğiniz ve yöneteceğiniz hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Bitcoin alma
 

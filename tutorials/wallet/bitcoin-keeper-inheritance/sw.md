@@ -17,7 +17,7 @@ Mafunzo haya ya video yanakuelekeza katika kusanidi na kutumia Bitcoin Keeper Wa
 
 Ili kuona mafunzo kamili ya Bitcoin Keeper Wallet, tazama mafunzo hapa:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Angalia hapa viungo vingine muhimu:
 

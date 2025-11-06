@@ -43,7 +43,7 @@ Bagian terakhir dipandu oleh pembicara lain yang menyajikan aplikasi berbasis RG
 ---
 Kursus pelatihan ini awalnya berkembang dari bootcamp pengembangan lanjutan selama dua minggu di Viareggio, Tuscany, yang diselenggarakan oleh [Fulgur'Ventures](https://fulgur.ventures/). Minggu pertama, yang berfokus pada Rust dan SDK, dapat ditemukan di kursus lainnya:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Dalam kursus ini, kita akan fokus pada minggu kedua bootcamp, yang berfokus pada RGB.
 
@@ -1821,7 +1821,7 @@ Lightning Network adalah sebuah jaringan terdesentralisasi dari saluran pembayar
 
 Untuk informasi lebih lanjut mengenai cara kerja Lightning, saya sarankan Anda mengikuti kursus lainnya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Komitmen Multi Protokol - MPC
 
@@ -3030,8 +3030,8 @@ Berikut ini adalah contoh file YAML yang akan dibuat:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3075,7 +3075,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `PBN` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `Plan ₿ Academy` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3258,7 +3258,7 @@ Pada kenyataannya, Lightning Network memungkinkan pembayaran untuk dirutekan mel
 
 Oleh karena itu, pengoperasian RGB pada Lightning harus dipertimbangkan secara paralel dengan pengoperasian Lightning Network itu sendiri. Jika Anda ingin mempelajari subjek ini lebih dalam, saya sangat menyarankan Anda untuk melihat kursus pelatihan komprehensif lainnya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Peta kode RGB
 
@@ -3755,7 +3755,7 @@ Anda tentu saja dapat menyesuaikan pesanan. Untuk mengonfirmasi transaksi, kami 
 ./regtest.sh mine 1
 ```
 
-Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "PBN" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
+Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "Plan ₿ Academy" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3763,8 +3763,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3800,7 +3800,7 @@ Perintah ini mengembalikan kunci publik dari simpul saya n°2:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`PBN`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
+Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`Plan ₿ Academy`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3839,7 +3839,7 @@ Untuk mengonfirmasi transaksi, 6 blok ditambang:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Saluran Lightning sekarang terbuka dan juga berisi 500 token `PBN` di sisi node n°1. Jika node n°2 ingin menerima token `PBN`, ia harus membuat faktur. Berikut cara melakukannya:
+Saluran Lightning sekarang terbuka dan juga berisi 500 token `Plan ₿ Academy` di sisi node n°1. Jika node n°2 ingin menerima token `Plan ₿ Academy`, ia harus membuat faktur. Berikut cara melakukannya:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3868,7 +3868,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `PBN`:
+Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

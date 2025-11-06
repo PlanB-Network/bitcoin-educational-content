@@ -1,27 +1,27 @@
 ---
 name: Korrektuuri suunised
-description: Millised on olulised tegurid, mida tuleb Plan ₿ Network korrektuuris silmas pidada?
+description: Millised on olulised tegurid, mida tuleb Plan ₿ Academy korrektuuris silmas pidada?
 ---
 
 ![github](assets/cover.webp)
 
 
-Tere tulemast selle õpetuse juurde, mis käsitleb **juhiseid, mida tuleb järgida Plan ₿ Network sisu korrektuurimisel**. Meil on hea meel, et jagate meie missiooni tõlkida Bitcoin materjale võimalikult paljudesse keeltesse, et aidata inimestel saada teada, kuidas see toimib ja kuidas seda igapäevaelus kasutada.
+Tere tulemast selle õpetuse juurde, mis käsitleb **juhiseid, mida tuleb järgida Plan ₿ Academy sisu korrektuurimisel**. Meil on hea meel, et jagate meie missiooni tõlkida Bitcoin materjale võimalikult paljudesse keeltesse, et aidata inimestel saada teada, kuidas see toimib ja kuidas seda igapäevaelus kasutada.
 
 
-Kõigepealt annab Plan ₿ Network [avalik repositoorium] (https://github.com/PlanB-Network/Bitcoin-educational-content) panustamine teile võimaluse kirjutada õpetusi, parandada olemasolevat sisu või isegi teha ettepanekuid uue keele lisamiseks platvormile. Et rohkem teada saada, liitu kõigepealt meie [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) ja kirjuta lühike tutvustus enda ja keelte kohta, mida sa oskad.
+Kõigepealt annab Plan ₿ Academy [avalik repositoorium] (https://github.com/PlanB-Network/Bitcoin-educational-content) panustamine teile võimaluse kirjutada õpetusi, parandada olemasolevat sisu või isegi teha ettepanekuid uue keele lisamiseks platvormile. Et rohkem teada saada, liitu kõigepealt meie [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) ja kirjuta lühike tutvustus enda ja keelte kohta, mida sa oskad.
 
 
-Käesolev juhendmaterjal on pühendatud kaastöötajatele, kes soovivad sisu korrigeerida. Enamik neist ei tea palju [Githubist](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ega [Markdown keelest](https://www.markdownguide.org/basic-syntax/), mida me repositooriumi sees kasutame, seega on oluline jagada mõningaid teadmisi selle ülesandega seotud võtmeteguritest.
+Käesolev juhendmaterjal on pühendatud kaastöötajatele, kes soovivad sisu korrigeerida. Enamik neist ei tea palju [Githubist](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ega [Markdown keelest](https://www.markdownguide.org/basic-syntax/), mida me repositooriumi sees kasutame, seega on oluline jagada mõningaid teadmisi selle ülesandega seotud võtmeteguritest.
 
 
 Allpool olen kogunud kokku kõige levinumad probleemid, millega korrektorid kokku puutuvad. Võite vabalt soovitada rohkem, sest see võib aidata teisi parandada.
 
 
-Enne spetsiifikatesse sukeldumist tuleks kõigepealt lugeda seda õpetust praktiliste tegevuste kohta Githubis, mida tuleb järgida Plan ₿ Network repositooriumi hargnemise, muudatuste tegemise ja PR-i saatmise teel:
+Enne spetsiifikatesse sukeldumist tuleks kõigepealt lugeda seda õpetust praktiliste tegevuste kohta Githubis, mida tuleb järgida Plan ₿ Academy repositooriumi hargnemise, muudatuste tegemise ja PR-i saatmise teel:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Mis on korrektuur?
@@ -38,13 +38,13 @@ Pidage alati meeles, et tõlkimine/korrektsioon on ÕPPE!
 
 Tegelikult on meie ühine eesmärk harida võimalikult paljusid inimesi Bitcoin kohta, seega on oluline, et materjal, mida nad loevad, oleks sujuv ja selge.
 
-Selles mõttes on kõik Plan ₿ Network-le kaasaaitajad haridustöötajad!
+Selles mõttes on kõik Plan ₿ Academy-le kaasaaitajad haridustöötajad!
 
 
-## Esimesed sammud enne Plan ₿ Network korrektuuri tegemist
+## Esimesed sammud enne Plan ₿ Academy korrektuuri tegemist
 
 
-Enne uue korrektuuriülesande alustamist teatage sellest [Telegrammi grupis](https://t.me/PlanBNetwork_ContentBuilder) või teavitage sellest oma Plan ₿ Network koordinaatorit, kes avab spetsiaalse [issue](https://github.com/orgs/PlanB-Network/projects/3). Kui saate teema lingi, lihtsalt **kommenteerige, et alustate** selle sisu korrektuuriülesandega.
+Enne uue korrektuuriülesande alustamist teatage sellest [Telegrammi grupis](https://t.me/PlanBNetwork_ContentBuilder) või teavitage sellest oma Plan ₿ Academy koordinaatorit, kes avab spetsiaalse [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Kui saate teema lingi, lihtsalt **kommenteerige, et alustate** selle sisu korrektuuriülesandega.
 
 
 See süsteem aitab koordinaatoril jälgida repo sisemist arengut ja võimaldab korrektori poolt sisu "nõuda", vältides sellega kellegi teise topeltpüüdeid.
@@ -60,7 +60,7 @@ Kõigepealt, **AJALGI ärge unustage oma repo SYNC-i, "dev" haru**. Nii on sisu 
 
 
 
-Pärast edukat sünkroniseerimist saate otse juurdepääsu huvipakkuvale sisule ja teha uue haru kinnituse, nagu on näidatud selles [õpetuses](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vastasel juhul saate avada uue haru, kus töötada, klõpsates "Branches", nagu allpool näidatud.
+Pärast edukat sünkroniseerimist saate otse juurdepääsu huvipakkuvale sisule ja teha uue haru kinnituse, nagu on näidatud selles [õpetuses](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vastasel juhul saate avada uue haru, kus töötada, klõpsates "Branches", nagu allpool näidatud.
 
 
 
@@ -115,11 +115,11 @@ Teisel juhul **uurige alati, kas keegi teine teie Bitcoin kogukonnas on selle s�
 
 
 
-- Teine hea lahendus on säilitada ET originaalsõna/fraas, seejärel **luuakse hüperlink**, mis suunab ümber [sõnastik](https://planb.network/en/resources/glossary) planb.networki. Selleks tuleb sõna/fraas sisestada nurksulgude sisse ja link ümmarguste sulgude sisse, nagu on näha alljärgnevas näites:
+- Teine hea lahendus on säilitada ET originaalsõna/fraas, seejärel **luuakse hüperlink**, mis suunab ümber [sõnastik](https://planb.academy/en/resources/glossary) planb.networki. Selleks tuleb sõna/fraas sisestada nurksulgude sisse ja link ümmarguste sulgude sisse, nagu on näha alljärgnevas näites:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Lõpptulemusena (pilt allpool) ei visualiseerita kogu linki ja sõna muutub klik
 
 
 
-Pange tähele, et sõnastiku link, mille võtate veebilehelt, sisaldab keelekoodi pärast sõna "network" (näide: ``https://planb.network/en/resources/glossary/utxo``-> siin on keelekood "en"). Sellisel juhul **kustutage lingilt keelekood**, nagu näete ülalpool toodud kastis. Nii viib süsteem lugeja automaatselt tema määratud keelde.
+Pange tähele, et sõnastiku link, mille võtate veebilehelt, sisaldab keelekoodi pärast sõna "network" (näide: ``https://planb.academy/en/resources/glossary/utxo``-> siin on keelekood "en"). Sellisel juhul **kustutage lingilt keelekood**, nagu näete ülalpool toodud kastis. Nii viib süsteem lugeja automaatselt tema määratud keelde.
 
 
 Hoiukoha sisu on täis selliseid hüperlinke nagu eespool kirjeldatud. Nüüd, kui te teate, mida need tähendavad, **jälgige, et mitte kustutada ühtegi algse autori poolt lisatud linki**.
 
 
 
-- Teine asi, mis on seotud sõnade esitamisega, on järgmine. Kui te leiate tekstis sõna "Plan ₿ Network", **jätke see sellisel kujul**. Ärge tõlkige sõna "plaan" ega sõna "võrk". Peale selle ärge kasutage Plan ₿ Network tutvustamisel artiklit "The": **Käsitlege seda kui kaubamärki**.
+- Teine asi, mis on seotud sõnade esitamisega, on järgmine. Kui te leiate tekstis sõna "Plan ₿ Academy", **jätke see sellisel kujul**. Ärge tõlkige sõna "plaan" ega sõna "võrk". Peale selle ärge kasutage Plan ₿ Academy tutvustamisel artiklit "The": **Käsitlege seda kui kaubamärki**.
 
 
 
@@ -323,7 +323,7 @@ Kontrollige alati kahekordselt kõiki tekstis olevaid hüperlinke, et veenduda, 
 
 
 
-- Kui autor lisab teemale järgneva lingi, mis viitab Plan ₿ Network kursusele või õpetusele (**ei** sulgudes), loob veebisait automaatselt "kaardi", mis näitab seotud pisipilti. Sellest tulenevalt veenduge alati, et **lisate teksti ja lingi enda vahele uue rea**, vastasel juhul võib veebisaidil ilmneda järgmine viga.
+- Kui autor lisab teemale järgneva lingi, mis viitab Plan ₿ Academy kursusele või õpetusele (**ei** sulgudes), loob veebisait automaatselt "kaardi", mis näitab seotud pisipilti. Sellest tulenevalt veenduge alati, et **lisate teksti ja lingi enda vahele uue rea**, vastasel juhul võib veebisaidil ilmneda järgmine viga.
 
 
 

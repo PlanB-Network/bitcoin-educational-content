@@ -34,7 +34,7 @@ Welcome to BTC102! If you've already completed BTC101, you've explored the key t
 
 In the chapters ahead, we'll guide you through the practical steps to **get your first bitcoins**, **secure** them properly, and confidently take your first steps into this fast-growing ecosystem.
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Although Bitcoin has existed for over 16 years, the industry is still young, dynamic, and deeply rooted in freedom. Its underlying protocol is fully decentralized and resistant to control by any central authority, allowing the ecosystem to grow in a natural and organic way. 
 While this freedom fuels an incredible wave of innovation and opportunity, it also comes with certain risks, including scams, common mistakes and pitfalls that often stem from a lack of knowledge. The main goal of this course is to help you navigate this new ecosystem with confidence and safety.
@@ -70,7 +70,7 @@ By the end of this course, you'll have all the practical tools you need to confi
 
 Ready to begin your journey into the world of Bitcoin? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions.
+**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
 
 # Prerequisites for understanding Bitcoin
 
@@ -96,9 +96,9 @@ Before going any further, it's important to clearly distinguish between two fund
 
 If you'd like to better understand where Bitcoin comes from and what truly makes it different from other projects, I recommend checking out this free follow-up course on the history of Bitcoin later on:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-As you know, the Plan ₿ Network platform is exclusively dedicated to Bitcoin. However, understanding the distinction with other cryptocurrencies will help you avoid the pitfalls associated with useless and sometimes even fraudulent projects.
+As you know, the Plan ₿ Academy platform is exclusively dedicated to Bitcoin. However, understanding the distinction with other cryptocurrencies will help you avoid the pitfalls associated with useless and sometimes even fraudulent projects.
 
 ![image](assets/en/006.webp)
 
@@ -243,9 +243,9 @@ As soon as you start getting into Bitcoin, you'll quickly realize that basic cyb
 
 This chapter walks you through some simple, practical steps to level up your digital hygiene and protect yourself in the space.
 
-If you want to go deeper, Plan ₿ Network's SEC101 course offers a comprehensive breakdown of cybersecurity strategies specifically designed for Bitcoin users.
+If you want to go deeper, Plan ₿ Academy's SEC101 course offers a comprehensive breakdown of cybersecurity strategies specifically designed for Bitcoin users.
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Why Cybersecurity Matters
 
@@ -264,13 +264,13 @@ It's also highly recommended to use a reliable antivirus. On Windows, the built-
 Beyond system updates and antivirus protection, be extremely wary of downloading software from sketchy websites or so-called "universal" download portals. When you need a tool or application, always go straight to the official source;This drastically reduces the risk of installing malware disguised as legitimate software.
 Another smart habit is to verify the authenticity and integrity of any software before installing it on your machine. If you're not sure how to do that, don't worry we've got a dedicated tutorial to walk you through the process:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Finally, make regular backups of your important data. An external hard drive or SSD is a solid option for keeping a duplicate of your files in case of sudden failure, hacking, or accidental deletion. You'll thank yourself later.
 
 If you prefer cloud solutions, consider using a secure service like Proton Drive. Just make sure whatever option you choose respects your privacy and offers strong encryption.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 A widely recommended backup strategy is the "3-2-1 rule". It is designed to protect your data from accidental loss, cyberattacks or even natural disasters.
 The idea is simple:
@@ -297,11 +297,11 @@ With a password manager, you'll never have to click "Forgot password" again or r
 
 There are many password managers out there, but I can recommend two solid options depending on your needs. If you're looking for something easy to use that syncs seamlessly across multiple devices, Bitwarden is an excellent choice:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 If you rather keep everything locally on your own device, KeePass is a great option:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: double protection
 
@@ -311,7 +311,7 @@ In Bitcoin, you're your own bank. That means you're also your own security team.
 
 2FA adds a second layer of protection by requiring a time-based one-time code (usually 6 digits) generated by an app like Google Authenticator or Authy. So even if someone manages to get your password, they still can't access your account without physical access to your phone.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![image](assets/en/017.webp)
 
@@ -321,7 +321,7 @@ When you enable 2FA, make sure to save the recovery key for your app in a safe p
 
 For those looking to take security a step further, physical keys like YubiKey provide an even higher level of protection.
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Protecting your privacy
 
@@ -335,27 +335,27 @@ The key is choosing a trustworthy VPN provider that:
 
 ![image](assets/en/019.webp)
 
-We have several tutorials available on Plan ₿ Network that can guide you through setting up a VPN easily. I particularly recommend IVPN or Mullvad:
+We have several tutorials available on Plan ₿ Academy that can guide you through setting up a VPN easily. I particularly recommend IVPN or Mullvad:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Essential steps to protect your privacy online also include:
 - Using **encrypted messaging platforms** such as Signal, SimpleX or Session;
 - Using privacy-focused browsers such as Firefox, Brave, or Tor (for enhanced anonymity);
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - Using a **secure mailbox** such as ProtonMail;
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 - **Encrypting** your files with tools like Bitlocker (for Windows) or VeraCrypt (available across multi-platform).
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Step-by-step progression
 
@@ -367,7 +367,7 @@ As you dive deeper into the world of Bitcoin, you'll notice that the risks grow 
 
 In short: don't underestimate cybersecurity, take the time to set up the basics, and remember that consistency is key. Without good digital hygiene, even the best tools won't do much for you.
 
-Also be sure to checkout [our computer security tutorials](https://planb.network/tutorials/computer-security) on Plan ₿ Network.
+Also be sure to checkout [our computer security tutorials](https://planb.academy/tutorials/computer-security) on Plan ₿ Academy.
 
 ![image](assets/en/020.webp)
 
@@ -435,7 +435,7 @@ Are you looking to make quick moves in and out of the market (trading)? Or are y
 Most importantly, don't make investment decisions based on emotion or fear. Set a strategy in advance, write it down, and stick to it.
 
 If you're still unsure, **start by learning.**
-Spend a few hours exploring Bitcoin, check out the free resources on Plan ₿ Network, read a couple of books, throw in five euros just to try it out, and watch some quality content online. Stay curious. The more comfortable you get, the easier it'll be to revisit your strategy, tweak your approach, and move forward with confidence.
+Spend a few hours exploring Bitcoin, check out the free resources on Plan ₿ Academy, read a couple of books, throw in five euros just to try it out, and watch some quality content online. Stay curious. The more comfortable you get, the easier it'll be to revisit your strategy, tweak your approach, and move forward with confidence.
 
 ### Understanding BTC's volatility
 
@@ -465,7 +465,7 @@ To avoid this risk, it's strongly recommended to set up your **own wallet**, whe
 
 If you're ready to take ownership of your bitcoin and want to dive deeper into best practices for securing your recovery phrase, I highly recommend checking out this article:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Confidentiality and discretion
 
@@ -481,7 +481,7 @@ It's also wise to **compartmentalize your online activity**. For example:
 
 If you're ready to go deeper into the topic of Bitcoin privacy, we recommend continuing with our Year 2 Privacy Course, where you'll learn more advanced techniques to keep your identity and activity secure:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Tax implications
 
@@ -600,7 +600,7 @@ Many interpret this as Bitcoin's goal: to offer a way to transfer value without 
 
 To deepen your knowledge of Bitcoin's origins, we offer a free, comprehensive and well-documented training course on the subject:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### A decentralized network to transfer value
 
@@ -694,9 +694,9 @@ Nevertheless, after more than a decade of existence, Bitcoin continues to spark 
 
 ![image](assets/en/040.webp)
 
-If you'd like to expand your knowledge further, you can take  the BTC101 course on Plan ₿ Network, which offers a more in-depth exploration of Bitcoin's technical and economic fundamentals.
+If you'd like to expand your knowledge further, you can take  the BTC101 course on Plan ₿ Academy, which offers a more in-depth exploration of Bitcoin's technical and economic fundamentals.
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 After this introduction to Bitcoin (which may have taken a bit longer than 5 minutes!), you're now better equipped to consider buying and securing bitcoins. In the following chapters of the course, we will dive deeper into the significance of Bitcoin, the workings of its industry, and the development of its various layers. Next, in the upcoming section, we'll discuss how to set up your own personal plan.
 ## Why is Bitcoin important?
@@ -981,39 +981,39 @@ These platforms allow users to buy and sell bitcoins directly with each other, w
 
 **Caution:** For any physical transaction, choose a public and secure location to avoid potential scams.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 - **Bitcoin-only exchange platforms**
 
 These platforms take a user-friendly approach, offering a simple, transparent service. They are Bitcoin-only. They often implement solutions for purchasing bitcoins through Dollar-Cost Averaging (DCA) and offer automatic withdrawals to a personal wallet. They are particularly suited to beginners looking to accumulate bitcoins in a progressive and secure way. Examples: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 - **General-Purpose or Trading-Oriented Exchange Platforms**
 
 These platforms offer advanced features beyond simply buying Bitcoin, including leverage and derivatives. However, we strongly advise against trading. Instead, we recommend purchasing Bitcoin and moving it to your own wallet. Trading is a high-risk activity and generally not suited for those focused on long-term accumulation. Staying out of the trading game is often the smarter path.
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange platforms are not secure wallets**. Leaving your bitcoins on an exchange exposes you to considerable risk. Several scenarios could result in the loss of your funds:
 
@@ -1057,7 +1057,7 @@ The mining ecosystem consists of several major players:
 
 Mining is a world of its own, with many layers to explore; technical challenges, economic incentives, and energy considerations all come into play. For those interested in exploring this area further and truly understand how it works, our MIN201 course takes you through everything you need to know.
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Development in the Bitcoin ecosystem
 
@@ -1081,7 +1081,7 @@ Despite what some might believe, no one has unilateral control over Bitcoin; not
 Even if a maintainer approved a controversial change, it wouldn't affect the network unless **nodes (run by users)** actually adopt and run that version. In the end, Bitcoin's code only matters if people choose to run it.
 It's also worth noting that **Bitcoin Core isn't the only client**. Alternatives like Bitcoin Knots implement the Bitcoin protocol too, giving users more choice and reinforcing the system's decentralization:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## The Layered Architecture of Bitcoin
 
@@ -1107,7 +1107,7 @@ Let's say you're buying a coffee with Bitcoin using the base layer. For the paym
 
 If you're interested in learning more about how Lightning works, we offer an excellent second-year course dedicated to this topic:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 - **Sidechains**:
 
@@ -1119,7 +1119,7 @@ The concept of sidechains was introduced in 2014 by Adam Back, Matt Corallo, Luk
 
 If you'd like to explore Liquid in more detail, we offer an advanced third-year course on the topic:
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 - **RGB**:
 
@@ -1131,7 +1131,7 @@ A key feature of RGB is its protection against double-spending, achieved using a
 
 To deepen your knowledge of RGB, we offer a fourth-year training course (please note that it is highly technical):
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB is just one of many protocols built on top of Bitcoin. While some are more widely adopted than others, new ones continue to emerge. The common thread is the idea of optimizing each layer for a specific task, while preserving the integrity and immutability of Bitcoin's base protocol.
 
@@ -1147,15 +1147,15 @@ Today, there are plenty of tools available for merchants who want to accept Bitc
 
 If you prefer a hands-off solution and want to receive fiat currency directly into your bank account, custodial services like OpenNode offer a streamlined experience:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 For merchants who are more technically inclined and want full control over the process, BTCPay Server is a fantastic open-source option. The main downside is that it requires time to set up and maintain, along with some technical knowledge:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Somewhere in between, you'll find Swiss Bitcoin Pay, a user-friendly yet powerful solution that strikes a good balance between ease of use, functionality, and security. It works well for both small retailers and larger businesses:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Accepting Bitcoin can bring several practical and financial benefits to a business. Just like cash, Bitcoin allows for direct payments between the customer and the merchant (no need for a traditional bank). Payments made through the Lightning Network are instant and final, reducing the risk of chargebacks. And when merchants hold their own Bitcoin (self-custody), they gain greater financial autonomy.
 
@@ -1169,7 +1169,7 @@ On top of that, accepting Bitcoin can be a smart marketing move. It shows your b
 
 If you'd like to explore how Bitcoin can be integrated into your business (whether as a payment method, a treasury asset, or both) we offer a beginner-level course tailored to that need:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin is gaining ground as a medium of exchange, with growing adoption across many industries. The Lightning Network has made payments faster and cheaper, further increasing Bitcoin's appeal for merchants.
 
@@ -1383,7 +1383,7 @@ If your hot wallet accumulates too many bitcoins, you can transfer some to your 
 
 In the end, security largely depends on how you use the tools. A hardware wallet won't do you much good if you lose, expose, or compromise the mnemonic phrase. Caution and discipline are your best protection against losing bitcoins. For more on this, I highly recommend reading this article:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Methods of Acquisition and Transaction Volumes
 
@@ -1424,7 +1424,7 @@ Buying Bitcoin without disclosing your identity is an option for those who prior
 - **P2P Platforms**: Platforms such as Bisq, RoboSats and Peach facilitate exchanges between private individuals without the need for identity verification, using escrow systems to secure transactions. These platforms still carry the risk of theft if the other party doesn't cooperate, but the risk is minimized by escrow services.
 - **Bitcoin Automated Teller Machines (ATMs)**: Some ATMs (kiosks) allow you to buy Bitcoin with cash, though fees tend to be high, and some require ID verification for larger transactions.
 - **KYC-free exchange platforms**: Some platforms, particularly in Switzerland, let you buy small amounts of Bitcoin without requiring ID verification.
-- **Mining**: Individuals can mine Bitcoin. Older or smaller machines are accessible, providing a non-traditional way to acquire Bitcoin without KYC. By joining a mining pool, you can earn regular payouts, even with basic equipment. For more info, [check out our mining tutorials](https://planb.network/tutorials/mining).
+- **Mining**: Individuals can mine Bitcoin. Older or smaller machines are accessible, providing a non-traditional way to acquire Bitcoin without KYC. By joining a mining pool, you can earn regular payouts, even with basic equipment. For more info, [check out our mining tutorials](https://planb.academy/tutorials/mining).
 - **Payments / Salary in bitcoins**: If you run a business, you can accept Bitcoin as payment. If you're employed, depending on your jurisdiction, you may be able to ask to be paid in Bitcoin. These methods allow you to acquire Bitcoin without KYC.
 
 **Advantages**:
@@ -1537,30 +1537,30 @@ Here's a solid plan for a hodler:
 First things first: security. A hardware wallet is a must. It stores your private keys offline, protecting your funds from online attacks. 
 Here are some tutorials for wallets that are great for hodlers:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Once your wallet is set up, be sure to back up your 12- or 24-word recovery phrase on a durable physical medium. To find out more about which medium to choose for your phrase, follow this tutorial:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 For extra peace of mind, you can add layers of protection like:
 - A multisignature wallet with a timelock:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 - A BIP39 passphrase:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/076.webp)
 
@@ -1570,13 +1570,13 @@ Hodlers never leave their coins on exchanges. Platforms can get hacked, go bankr
 
 Because hodlers tend to invest larger amounts, they need exchanges with strong liquidity. Here are a few that fit the bill:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![image](assets/en/077.webp)
 
@@ -1607,7 +1607,7 @@ A few best practices:
 
 To monitor your holdings without compromising your private keys, consider using a watch-only wallet. It lets you track balances and transactions using your public keys only.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 The hodler's strategy is simple but powerful: buy, secure, and forget. The real challenge isn't technical; it's psychological. The hardest part is resisting the urge to sell too early or panic during price drops. But if you stay disciplined and think long-term, hodling has proven to be a reliable way to preserve value and build wealth over time.
 
@@ -1665,36 +1665,36 @@ A stacker needs a wallet setup that balances ease of use with long-term security
 
 - **Hot Wallet**: Ideal for beginners, mobile or desktop wallets allow you to easily receive sats and make payments. However, they are best suited for small amounts. On-chain wallets are preferred for stacking over Lightning wallets due to better UTXO management. Recommended software wallets: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 - **Hardware Wallet**: As your bitcoin holdings grow, securing your funds with a cold wallet is essential to minimize the risk of theft. A serious stacker regularly moves funds from their hot wallet to a hardware wallet. Examples: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 The most effective approach is to use both: a hot wallet for daily stacking and a hardware wallet for long-term cold storage. The hot wallet is easy and convenient to use. It allows you to quickly take possession of your bitcoins, rather than leaving them on the platform where they could be exposed to risk. However, compared to a Hardware Wallet, the hot wallet offers much less security. The stacker must therefore regularly transfer his funds to his cold wallet to secure his long-term savings and avoid keeping too many funds in the hot wallet. Periodically, the stacker consolidates UTXOs when transferring to cold storage; merging small inputs to optimize future transaction fees.
 
@@ -1713,35 +1713,35 @@ Next, you have two options for setting up your DCA: automating it or managing it
 
 Examples of DCA platforms:
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 Mainstream exchanges supporting DCA:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Stackers may also want to enhance their privacy, even if it's not their primary goal. In this case, they should consider using a P2P acquisition method, outside of regulated platforms. Unlike automated DCA purchases, these methods require you to manage your buying strategy manually, so discipline is key to staying on track.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Withdrawing and securing bitcoins
 
@@ -1762,7 +1762,7 @@ Key habits:
 
 For easy monitoring without compromising security, set up a watch-only wallet to track balances using public key.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Evaluate your stacker profile
 
@@ -1822,51 +1822,51 @@ Active users should use two different types of wallets to balance security and c
 
 - A cold wallet (Hardware Wallet) to secure long-term savings.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 - One or more mobile hot wallets for daily transactions. Typically, an active user will have both an on-chain hot wallet and a Lightning wallet.
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Separating your funds this way helps reduce risk in case the wallet used for everyday payments is compromised.
 
@@ -1874,21 +1874,21 @@ Separating your funds this way helps reduce risk in case the wallet used for eve
 
 Active users often aim to reduce their reliance on trusted third parties, depending on their personal circumstances. One of the most effective ways to achieve this is by running their own Bitcoin node. This allows them to use the network independently while enhancing the privacy of their transactions.
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 For those who regularly use the Lightning Network, managing their own LND, LDK, or Core-Lightning node can be a smart move. It gives them full control over opening and closing channels, increases self-sovereignty, and can even help lower transaction fees; especially when compared to automated solutions like Phoenix, or worse, custodial Lightning wallets.
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Regular Bitcoin Acquisition
 
@@ -1900,41 +1900,41 @@ There are several ways to acquire Bitcoin, depending on the level of privacy you
 
 - **Traditional purchase through regulated platforms** like Bitfinex or Bull Bitcoin (ideal for topping up your cold wallet);
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 - **Non-KYC acquisition** via peer-to-peer services such as Peach, Robosats, or Bitcoin ATMs; allowing you to add to your wallet without revealing personal information.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 - **Earning in Bitcoin**, Being an active user isn't just about spending BTC; it's also about earning it. If you run a business, consider accepting Bitcoin as payment. If you're an employee, see if your employer offers the option to receive all or part of your salary in BTC.
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![image](assets/en/089.webp)
 
@@ -1948,7 +1948,7 @@ To make Bitcoin spending easier, there are plenty of tools available, such as [B
 
 Since we're still in a transition phase where not all daily merchants accept BTC, there are some simple yet effective workarounds. For example, buying gift cards with Bitcoin is a practical solution, and many providers like Bitrefill, Coinsbee, or The Bitcoin Company offer this service.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Technological Awareness and Flexibility
 
@@ -2010,56 +2010,56 @@ The paranoid user never mixes funds based on origin or use. Instead, they compar
 
 - **A cold wallet (air-gapped and/or DIY)** Long-term holdings are stored in highly secure, air-gapped or DIY wallets. These are typically open-source devices or those with verifiable code, such as Jade, Coldcard, SeedSigner, Portal or Passport... Whenever possible, they'll acquire these devices anonymously; either by paying cash or using bitcoin at a physical store, or by ordering online with discreet shipping options and BTC payments. In France, for example, [Bitcoin Bazar](https://bitcoinbazar.fr/) is one such store. You can search for similar providers in your region.
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 - **A hot wallet for everyday transactions**, For regular spending, paranoid users opt for privacy-focused wallets such as Ashigaru, Wasabi Wallet or Sparrow Wallet. These wallets support advanced features such as: mini-CoinJoin spending transactions, payjoins, potentially CoinJoin tools, coin control, UTXO tagging, or the ability to connect via your own Bitcoin node.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![image](assets/en/093.webp)
 
 
 - Running their own **Bitcoin node** is essential. It ensures full control over transaction broadcasting and avoids reliance on third-party infrastructure. It also protects privacy, prevents censorship, and lets them independently verify the rules of the Bitcoin protocol. Whether on Linux, Windows, macOS, or via plug-and-play setups like RaspiBlitz, myNode, or Start9, the paranoid user treats their node as a non-negotiable pillar of sovereignty.
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 - To transact over the **Lightning Network** while keeping the same level of control and discretion, they also operate their own Lightning node. This allows them to manage channels directly and spend in a way that minimizes surveillance or dependency on custodial services.
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![image](assets/en/094.webp)
 
 Security doesn't stop there. For backing up seed phrases, the paranoid user uses metal backups combined with tamper-evident sealed envelopes. They regularly verify that the backups remain uncompromised and test wallet recovery procedures to be ready for any contingency.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 When it comes to securing savings, they may implement more sophisticated setups such as multisignature wallets (with or without timelocks).
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 These configurations reduce the risks. Adding a BIP39 passphrase to the seed phrase adds yet another layer of protection and ensures that access to their funds can't be compromised by a single discovery.
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 A paranoid Bitcoiner will, of course, have a well-thought-out inheritance plan for their bitcoins. This important topic will be covered in detail in the next part of the course.
 
@@ -2067,43 +2067,43 @@ More broadly, this type of user applies an advanced, privacy-conscious approach 
 
 - **Operating systems**, both on their phone and their computer;
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 - **Authentication tools**;
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 - **Communication tools**;
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 - **Data management tools**.
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 If you would like to find out more about the subject of IT security, we offer a complete first-year course dedicated to this topic:
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Buying bitcoins anonymously
 
@@ -2111,29 +2111,29 @@ A core principle for the paranoid investor is to acquire bitcoin without linking
 
 - **P2P buying platforms** such as Bisq, Robosat, LNP2PBot, Peach, HODL HODL, etc.;
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 - **In-person cash trades**, for example at local Bitcoin meetups;
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 - **Bitcoin ATMs**;
 - **Earning sats** by providing goods or services in exchange for bitcoin;
 - **Mining bitcoins**.
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Centralized exchanges are avoided entirely due to the risks they pose; both for privacy and for potential censorship or seizure.
 
@@ -2153,7 +2153,7 @@ They're also familiar with the basics of blockchain surveillance and know how co
 
 For those who want to go deeper into on-chain privacy and surveillance resistance, we offer an advanced second-year training on Bitcoin privacy practices:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Staying vigilant and updating their strategy
 
@@ -2412,7 +2412,7 @@ If needed, consult with a lawyer or notary to formally integrate your plan into 
 
 **Congratulations!** You've completed a critical step in securing your bitcoin wealth. You can now refine your inheritance plan by reviewing it periodically and exploring more advanced solutions like decreasing multisig setups with timelocks:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Reference: [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -2470,31 +2470,31 @@ Your journey doesn't end here. Bitcoin is an ever-evolving world, and there's al
 
 - To level up your digital security, start with our introductory security course:
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 - If you're drawn to the economic and philosophical side of Bitcoin, check out these in-depth courses:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 -  Business owners interested in integrating Bitcoin into their company strategy shouldn't miss:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 - To discover the fascinating story behind the creation of Bitcoin and the early years of the system, I highly recommend this course:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 - Finally, if you're curious about the technical aspects of Bitcoin and its ecosystem, explore these training courses:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Contribute to the Bitcoin Ecosystem
 
@@ -2504,13 +2504,13 @@ Bitcoin is more than just a financial tool; it's a movement. Depending on your s
 - **Develop tools and applications**: If you have technical skills, contributing to open-source tools is a great way to bring value to Bitcoin;
 - **Join a local community**: Participate in events, meetups and forums to meet other bitcoiners and exchange views on the latest developments.
 
-If you'd like to help educate others, Plan ₿ Network is always looking for contributors! All our educational content is open-source and hosted on GitHub. We welcome contributors to help proofread and translate content into various languages; in exchange for a few sats! Whether now or later in your Bitcoin journey, you're invited to join [our Telegram group for contributors](https://t.me/PlanBNetwork_ContentBuilder) of Plan ₿ Network.
+If you'd like to help educate others, Plan ₿ Academy is always looking for contributors! All our educational content is open-source and hosted on GitHub. We welcome contributors to help proofread and translate content into various languages; in exchange for a few sats! Whether now or later in your Bitcoin journey, you're invited to join [our Telegram group for contributors](https://t.me/PlanBNetwork_ContentBuilder) of Plan ₿ Academy.
 
 ### Final words
 
 Thank you so much for taking the BTC102 course.
 
-My name is Rogzy, founder of Découvre Bitcoin and co-founder of the Plan ₿ Network; a platform made possible by our incredible new partners, Tether and Fulgur Ventures, and by our shared mission to educate as many people as possible about Bitcoin.
+My name is Rogzy, founder of Découvre Bitcoin and co-founder of the Plan ₿ Academy; a platform made possible by our incredible new partners, Tether and Fulgur Ventures, and by our shared mission to educate as many people as possible about Bitcoin.
 
 Your feedback is incredibly valuable. Feel free to leave comments on the platform and let us know what you thought of this updated version of the course. Your suggestions help us keep improving the quality of our content.
 
@@ -2518,7 +2518,7 @@ You're now ready to take the final exam; a 40-question test that will validate y
 
 Good luck!
 
-I hope to see you again soon in another course on Plan ₿ Network; whether it's one of mine or one from another amazing teacher in the community. And who knows, maybe we'll even meet in person at a conference, event, or Bitcoin meetup.
+I hope to see you again soon in another course on Plan ₿ Academy; whether it's one of mine or one from another amazing teacher in the community. And who knows, maybe we'll even meet in person at a conference, event, or Bitcoin meetup.
 
 Once again, congratulations on how far you've come. And remember; my primary goal will always remain the same:
 **To help as many people as possible achieve financial sovereignty through Bitcoin.**

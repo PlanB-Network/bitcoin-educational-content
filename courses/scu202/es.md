@@ -7261,7 +7261,7 @@ Thunderbird Mobile es la versión móvil del popular cliente de correo electrón
 - [Tuta](https://tuta.com/)
 
 
-Tuta (antes "*Tutanota*") ofrece una solución completa de correo electrónico cifrado de extremo a extremo, pero su cliente móvil sólo admite cuentas de Tuta. No funciona con otros proveedores. Interface es moderno y despejado, y el registro no requiere datos personales.
+Tuta (antes "*Tutanota*") ofrece una solución completa de correo electrónico cifrado de extremo a extremo, pero su cliente móvil sólo admite cuentas de Tuta. No funciona con otros proveedores. La interfaz es moderna y clara, y el registro no requiere datos personales.
 
 
 ![Image](assets/fr/158.webp)
@@ -7280,7 +7280,7 @@ Proton Mail es un servicio de mensajería seguro con base en Suiza que ofrece ci
 Un sistema de correo electrónico se basa en 2 componentes distintos: El proveedor de correo electrónico (como Gmail, Tuta o Proton Mail), que se encarga de recibir, enviar y almacenar los mensajes a través de servidores; y el cliente de correo electrónico, que es la aplicación que se utiliza para ver y escribir los mensajes (como la aplicación Gmail, Outlook, K-9 Mail o Thunderbird). El cliente puede conectarse a distintos proveedores mediante protocolos estándar como IMAP o SMTP.
 
 
-Por tanto, es posible utilizar un cliente de código abierto respetuoso con la privacidad y, al mismo tiempo, mantener inicialmente una cuenta con un proveedor más tradicional. Algunas aplicaciones, como Gmail, Proton Mail o Tuta, ofrecen clientes de correo electrónico que también actúan como proveedores de mensajería, por lo que ofrecen una solución completa que integra tanto el servicio de lectura como el de envío y recepción de correo electrónico Interface.
+Por tanto, es posible utilizar un cliente de código abierto respetuoso con la privacidad y, al mismo tiempo, mantener inicialmente una cuenta con un proveedor más tradicional. Algunas aplicaciones, como Gmail, Proton Mail o Tuta, ofrecen clientes de correo electrónico que también actúan como proveedores de mensajería, por lo que ofrecen una solución completa que integra tanto el servicio de lectura como el de envío y recepción de correo electrónico.
 
 
 He aquí algunas sugerencias a la hora de elegir su proveedor de correo electrónico:
@@ -7304,13 +7304,13 @@ La mayoría de las aplicaciones cartográficas clásicas, como Google Maps, Waze
 
 
 
-- [Mapas orgánicos](https://organicmaps.app/)
+- [Organic Maps](https://organicmaps.app/)
 
 
 Organic Maps es una aplicación gratuita de navegación offline. Se basa en datos de [OpenStreetMap](https://www.openstreetmap.org), una base de datos abierta y colaborativa. Te descargas los mapas de las regiones que te interesan y luego navegas sin red.
 
 
-No contiene publicidad, seguimiento ni recopilación de datos. La aplicación es especialmente adecuada para desplazamientos a pie, en bicicleta o en coche, ya que Interface es sencilla, rápida y sin distracciones.
+No contiene publicidad, seguimiento ni recopilación de datos. La aplicación es especialmente adecuada para desplazamientos a pie, en bicicleta o en coche, ya que la interfaz es sencilla, rápida y sin distracciones.
 
 
 ![Image](assets/fr/160.webp)
@@ -7387,7 +7387,7 @@ En Android, puedes instalar la aplicación móvil oficial de Nextcloud para acce
 
 
 
-- [Archivos de material](https://github.com/zhanghai/MaterialFiles)
+- [Material Files](https://github.com/zhanghai/MaterialFiles)
 
 
 Material Files es un gestor de archivos de código abierto, ligero y ordenado. Te permite explorar, mover, copiar o eliminar archivos localmente en tu dispositivo Android.
@@ -7429,7 +7429,7 @@ Esta aplicación forma parte de la suite "*Simple Mobile Tools*". No requiere cu
 
 
 
-- [Calendario Tuta](https://tuta.com/calendar)
+- [Tuta Calendar](https://tuta.com/calendar)
 
 
 Tuta Calendar, desarrollado por el equipo detrás de Tuta Mail, es un calendario totalmente cifrado de extremo a extremo diseñado para mantener la confidencialidad de tus eventos. Funciona en Android, iOS y a través de un cliente web. Incluso los títulos, descripciones y metadatos de tus eventos están encriptados, lo que garantiza que ningún tercero, incluido Tuta, pueda acceder a tus datos.
@@ -7439,7 +7439,7 @@ Tuta Calendar, desarrollado por el equipo detrás de Tuta Mail, es un calendario
 
 
 
-- [Calendario Protón](https://proton.me/calendar)
+- [Proton Calendar](https://proton.me/calendar)
 
 
 Proton Calendar también ofrece cifrado nativo de extremo a extremo para tus eventos y sus metadatos. Es accesible en móvil (Android, iOS) y a través de un cliente web, con un Interface claro e intuitivo. El servicio permite crear múltiples calendarios, importar/exportar eventos y compartir opciones. El cliente web es de código abierto, pero las aplicaciones móviles aún no lo son del todo.
@@ -7474,7 +7474,7 @@ Quillpad es una aplicación ligera diseñada específicamente para tomar notas e
 Joplin es una solución más completa, que ofrece sincronización de notas cifradas a través de servicios compatibles como Nextcloud, Dropbox o WebDAV. Puedes gestionar notas simples o estructuradas (en Markdown), clasificar tus documentos e incluso importar archivos adjuntos.
 
 
-Su Interface es un poco más complejo que el de QuillNote, pero sigue siendo perfectamente utilizable en el móvil, y adecuado tanto para uso personal como profesional.
+Su interfaz es un poco más complejo que el de QuillNote, pero sigue siendo perfectamente utilizable en el móvil, y adecuado tanto para uso personal como profesional.
 
 
 ![Image](assets/fr/171.webp)
@@ -7579,7 +7579,7 @@ La autenticación de dos factores (2FA) es una medida de seguridad adicional a l
 - [Aegis Authenticator](https://getaegis.app/)
 
 
-Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA con una contraseña, ofrece copias de seguridad exportables (también cifradas) y te permite ordenar tus cuentas por directorio. Es clara, moderna y fácil de restaurar en un nuevo dispositivo, siempre que tengas el archivo de copia de seguridad y la contraseña asociada.
+Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA con una contraseña, ofrece copias de seguridad exportables (también cifradas) y te permite ordenar tus cuentas por carpetas. Es clara, moderna y fácil de restaurar en un nuevo dispositivo, siempre que tengas el archivo de copia de seguridad y la contraseña asociada.
 
 
 ![Image](assets/fr/175.webp)
@@ -7657,7 +7657,7 @@ En general, en las aplicaciones meteorológicas es mejor configurar manualmente 
 ### Streaming de audio/vídeo
 
 
-Plataformas populares como Spotify o YouTube ofrecen una experiencia de usuario sin fisuras, pero a costa de un compromiso significativo de la privacidad. Estos servicios recopilan constantemente datos sobre el comportamiento: Historial de visionado o escucha, tiempo empleado, preferencias de contenido, dispositivo utilizado. Esta información se utiliza a menudo con fines de elaboración de perfiles o de segmentación.
+Plataformas populares como Spotify o YouTube ofrecen una experiencia de usuario sin fisuras, pero a costa de un compromiso significativo de la privacidad. Estos servicios recopilan constantemente datos sobre el comportamiento: historial de visionado o escucha, tiempo empleado, preferencias de contenido, dispositivo utilizado. Esta información se utiliza a menudo con fines de elaboración de perfiles o de segmentación.
 
 
 **Alternativas**:
@@ -7667,7 +7667,7 @@ Plataformas populares como Spotify o YouTube ofrecen una experiencia de usuario 
 - [LibreTube](https://libretube.dev/)
 
 
-LibreTube es una aplicación para Android que te permite ver vídeos de YouTube sin que Google te rastree. Todas las solicitudes se redirigen a través de un servidor proxy Piped, que anonimiza el acceso a los vídeos. Su Interface es moderno, rápido y sin anuncios. La aplicación no requiere cuenta de Google y te permite suscribirte de forma anónima a canales o crear listas de reproducción locales.
+LibreTube es una aplicación para Android que te permite ver vídeos de YouTube sin que Google te rastree. Todas las solicitudes se redirigen a través de un servidor proxy, que anonimiza el acceso a los vídeos. Su interfza es moderna, rápida y sin anuncios. La aplicación no requiere cuenta de Google y te permite suscribirte de forma anónima a canales o crear listas de reproducción locales.
 
 
 ![Image](assets/fr/180.webp)
@@ -7765,7 +7765,7 @@ F-Droid es un catálogo de aplicaciones exclusivamente de código abierto. Todo 
 - [Tienda Aurora](https://auroraoss.com/)
 
 
-Aurora Store te permite acceder al catálogo de Google Play Store de forma anónima, sin necesidad de una cuenta de Google. Es un cliente gratuito que interactúa directamente con los servidores de Google, a la vez que enmascara tu identidad mediante una cuenta genérica. Es una solución valiosa para seguir utilizando ciertas aplicaciones propietarias necesarias: Aplicaciones, evitando al mismo tiempo la telemetría de Google Play.
+Aurora Store te permite acceder al catálogo de Google Play Store de forma anónima, sin necesidad de una cuenta de Google. Es un cliente gratuito que interactúa directamente con los servidores de Google, a la vez que enmascara tu identidad mediante una cuenta genérica. Es una solución valiosa para seguir utilizando ciertas aplicaciones propietarias necesarias: aplicaciones, evitando al mismo tiempo la telemetría de Google Play.
 
 
 ### Noticias
@@ -7820,7 +7820,7 @@ Simple Gallery es una aplicación minimalista de código abierto que funciona co
 - [Aves](https://github.com/deckerst/aves)
 
 
-Aves es una alternativa con un Interface más moderno. Ofrece una navegación fluida por los álbumes y una organización avanzada (etiquetas, filtros, clasificación, etc.). No requiere conexión a Internet para funcionar y no recopila datos del usuario.
+Aves es una alternativa con una interfaz más moderna. Ofrece una navegación fluida por los álbumes y una organización avanzada (etiquetas, filtros, clasificación, etc.). No requiere conexión a Internet para funcionar y no recopila datos del usuario.
 
 
 ![Image](assets/fr/185.webp)
@@ -7882,7 +7882,7 @@ La aplicación Teléfono de Google, instalada por defecto en muchos smartphones 
 - [Koler](https://github.com/Chooloo/koler)
 
 
-Koler es una aplicación de telefonía de código abierto diseñada para ser bonita, fácil de usar y respetuosa con la privacidad. Ofrece un Interface fluido e intuitivo para gestionar tus llamadas, sin rastreadores ni análisis de datos personales. Sin embargo, actualmente no incluye filtrado avanzado de llamadas ni integración con servicios de terceros.
+Koler es una aplicación de telefonía de código abierto diseñada para ser bonita, fácil de usar y respetuosa con la privacidad. Ofrece una interfaz fluida e intuitiva para gestionar tus llamadas, sin rastreadores ni análisis de datos personales. Sin embargo, actualmente no incluye filtrado avanzado de llamadas ni integración con servicios de terceros.
 
 
 ![Image](assets/fr/188.webp)
@@ -7901,7 +7901,7 @@ Google Translate es la referencia en traducción automática, pero su uso implic
 - [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
-TranslateYou es una aplicación de traducción de código abierto que respeta la privacidad de sus usuarios. Funciona como un Interface para varios motores de traducción (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.), y te permite elegir un servicio que no explote tus datos.
+TranslateYou es una aplicación de traducción de código abierto que respeta la privacidad de sus usuarios. Funciona como una interfaz para varios motores de traducción (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.), y te permite elegir un servicio que no explote tus datos.
 
 
 Sin anuncios, sin rastreadores y con un Interface fácil de usar, TranslateYou es una alternativa práctica a Google Translate.
@@ -7962,7 +7962,7 @@ Warpinator, desarrollado por Linux Mint, facilita la transferencia de archivos e
 - [LocalSend](https://localsend.org/)
 
 
-LocalSend es otra alternativa gratuita y completa, con un bonito Interface. Totalmente de código abierto, esta aplicación permite transferencias de archivos descentralizadas y encriptadas de extremo a extremo entre dispositivos conectados a la misma red local. No utiliza servidores intermedios, lo que garantiza que tus datos nunca salgan de tu red doméstica.
+LocalSend es otra alternativa gratuita y completa, con una interfaz bonita. Totalmente de código abierto, esta aplicación permite transferencias de archivos descentralizadas y encriptadas de extremo a extremo entre dispositivos conectados a la misma red local. No utiliza servidores intermedios, lo que garantiza que tus datos nunca salgan de tu red doméstica.
 
 
 ![Image](assets/fr/190.webp)
@@ -7971,7 +7971,7 @@ LocalSend es otra alternativa gratuita y completa, con un bonito Interface. Tota
 ### Libros
 
 
-Aplicaciones como Goodreads, aunque muy utilizadas, plantean serios problemas de privacidad. Esta plataforma es propiedad de Amazon, que recopila gran cantidad de datos sobre sus lecturas, preferencias, valoraciones y reseñas. Además, Interface recurre en gran medida al rastreo de usuarios y al análisis del comportamiento con fines comerciales.
+Aplicaciones como Goodreads, aunque muy utilizadas, plantean serios problemas de privacidad. Esta plataforma es propiedad de Amazon, que recopila gran cantidad de datos sobre sus lecturas, preferencias, valoraciones y reseñas. Además, la interfaz recurre en gran medida al rastreo de usuarios y al análisis del comportamiento con fines comerciales.
 
 
 **Alternativas**:
@@ -7994,7 +7994,7 @@ Openreads es la alternativa de código abierto para un seguimiento de la lectura
 - [Chrono](https://github.com/vicolo-dev/chrono)
 
 
-Disponible en F-Droid y totalmente de código abierto, Chrono ofrece un Interface moderno y despejado, sin publicidad ni recopilación de datos. Permite crear alarmas personalizables: Repetición según días o rangos de fechas concretos, elección de sonido, intensidad progresiva, vibración, o incluso tareas a realizar para desactivar la alarma (Resolver un cálculo, releer un texto, etc.).
+Disponible en F-Droid y totalmente de código abierto, Chrono ofrece un Interface moderno y despejado, sin publicidad ni recopilación de datos. Permite crear alarmas personalizables: repetición según días o rangos de fechas concretos, elección de sonido, intensidad progresiva, vibración, o incluso tareas a realizar para desactivar la alarma (Resolver un cálculo, releer un texto, etc.).
 
 
 La aplicación también integra un temporizador y un cronómetro, con registro de vueltas, estadísticas, comparaciones de tiempo y gestión de varios temporizadores. Puedes configurar varias zonas horarias, personalizar el tema (colores, estilos, animaciones) e incluso organizar tus alarmas y temporizadores con etiquetas.

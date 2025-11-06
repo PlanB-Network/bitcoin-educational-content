@@ -6482,7 +6482,7 @@ Google compró Android Inc. en 2005 por unos 50 millones de dólares. Entre 2005
 Pero en enero de 2007, un acontecimiento marcó un importante punto de inflexión en la historia del smartphone: Steve Jobs presentó la primera generación del iPhone. La creencia generalizada de que un teclado físico era indispensable se hizo añicos. El iPhone introdujo un dispositivo diseñado para un uso totalmente táctil, que redefinió por sí solo las expectativas del mercado.
 
 
-Ante esta revolución, Google se vio obligado a replantearse por completo la dirección de su proyecto Android para hacerlo compatible con un Interface táctil. Más tarde, en 2007, Google lanzó oficialmente Android como proyecto de código abierto basado en un núcleo Linux modificado, con el nombre de *Android open-source Project (AOSP)*.
+Ante esta revolución, Google se vio obligado a replantearse por completo la dirección de su proyecto Android para hacerlo compatible con una interfaz táctil. Más tarde, en 2007, Google lanzó oficialmente Android como proyecto de código abierto basado en un núcleo Linux modificado, con el nombre de *Android open-source Project (AOSP)*.
 
 
 El primer dispositivo con Android que llegó al mercado, el HTC Dream, se lanzó en 2008. Ofrecía un entorno aún rudimentario, pero totalmente abierto: fabricantes y operadores podían adaptar libremente el sistema a sus necesidades, mientras que los desarrolladores podían crear y distribuir aplicaciones sin validación previa. Este enfoque conquistó rápidamente a una comunidad activa y contribuyó a la adopción generalizada de Android por muchos fabricantes.
@@ -6555,7 +6555,7 @@ iOS se basó inicialmente en el sistema operativo utilizado por el Mac: OS X. Ut
 Esta arquitectura cerrada permite a Apple garantizar una experiencia de usuario fluida y segura. El desarrollo centralizado también facilita la optimización hardware-software, con poca variabilidad entre modelos, a diferencia de Android. Por ello, iOS se considera uno de los sistemas más seguros frente a los ataques informáticos.
 
 
-#### Desventajas de cerrar iOS
+#### Desventajas de las restricciones en iOS
 
 
 Sin embargo, esta seguridad se basa en un estricto bloqueo del usuario final, que no tiene prácticamente ningún control técnico sobre su dispositivo. Es imposible instalar aplicaciones que no sean a través de la App Store, salvo mediante un *jailbreak*, una operación compleja, arriesgada y a menudo inestable que anula la garantía y compromete la seguridad del sistema. Este principio también sustenta el modelo de negocio de Apple, que cobra una comisión por las transacciones realizadas en aplicaciones de terceros.
@@ -6571,7 +6571,7 @@ Además, la integración obligatoria de iCloud en la mayoría de los servicios (
 
 
 
-- algunos Elements (como los metadatos de conexión, las solicitudes de Siri o los registros de errores) siguen pasando por los servidores de Apple
+- algunos elementos (como los metadatos de conexión, las solicitudes de Siri o los registros de errores) siguen pasando por los servidores de Apple
 - los mecanismos de análisis de comportamiento para sugerencias contextuales, actualizaciones de App Store o filtrado de mensajes utilizan modelos propios no auditables
 - el uso de servicios como iCloud implica una confianza implícita en la infraestructura de Apple, sin control sobre dónde o cuánto tiempo se almacenan los datos
 
@@ -6632,7 +6632,7 @@ https://planb.network/tutorials/computer-security/operating-system/grapheneos-08
 [CalyxOS](https://calyxos.org/) es un sistema intermedio que pretende conciliar privacidad, seguridad y compatibilidad con el uso cotidiano. También está basado en AOSP, con mejoras de seguridad. Su característica especial es la integración opcional de MicroG, una reimplementación libre de los servicios de Google. Esto permite ejecutar la mayoría de las aplicaciones Android dependientes de los servicios de Google, sin tener que pasar por los binarios propietarios oficiales.
 
 
-CalyxOS también ofrece aplicaciones preinstaladas (Signal, F-Droid, Aurora Store, VPN integrada...), y un estupendo Interface. Es fácil de instalar a través de una herramienta gráfica para los usuarios de Pixel. Calyx es compatible principalmente con los Google Pixel, pero también con algunos modelos Fairphone y Motorola.
+CalyxOS también ofrece aplicaciones preinstaladas (Signal, F-Droid, Aurora Store, VPN integrada...), y un estupendo interfaz. Es fácil de instalar a través de una herramienta gráfica para los usuarios de Pixel. Calyx es compatible principalmente con los Google Pixel, pero también con algunos modelos Fairphone y Motorola.
 
 
 ![Image](assets/fr/137.webp)
@@ -6644,7 +6644,7 @@ CalyxOS también ofrece aplicaciones preinstaladas (Signal, F-Droid, Aurora Stor
 [LineageOS](https://lineageos.org/), sucesor de CyanogenMod, es la ROM alternativa más compatible. Es compatible con varios cientos de modelos, gracias a una gran comunidad de colaboradores. Basada en AOSP, hace hincapié en la personalización, la sencillez y la libertad de uso.
 
 
-LineageOS te ofrece un sistema Android sin superposiciones del fabricante, sin bloatware, con gestión completa de permisos, fácil actualización y un Interface optimizado. Puedes añadir servicios de Google u optar por un uso 100% libre.
+LineageOS te ofrece un sistema Android sin superposiciones del fabricante, sin bloatware, con gestión completa de permisos, fácil actualización y una interfaz optimizada. Puedes añadir servicios de Google u optar por un uso 100% libre.
 
 
 En el frente de la seguridad, sin embargo, LineageOS no integra ciertas protecciones de hardware o refuerzos de memoria que se encuentran en GrapheneOS y CalyxOS. Su sistema de actualizaciones también depende de la comunidad, lo que puede introducir retrasos en los parches de seguridad.
@@ -6700,7 +6700,7 @@ En este capítulo, veremos paso a paso algunas recomendaciones básicas que se a
 ### Actualizaciones
 
 
-Voy a repetirme, pero cada actualización lanzada por los desarrolladores incluye potencialmente importantes parches de seguridad. Además, los smartphones están expuestos a numerosos riesgos debido a su enorme superficie de ataque: A través de redes móviles, aplicaciones de terceros, comunicaciones inalámbricas (Wi-Fi, Bluetooth, NFC, etc.).
+Voy a repetirme, pero cada actualización lanzada por los desarrolladores incluye potencialmente importantes parches de seguridad. Además, los smartphones están expuestos a numerosos riesgos debido a su enorme superficie de ataque: a través de redes móviles, aplicaciones de terceros, comunicaciones inalámbricas (Wi-Fi, Bluetooth, NFC, etc.).
 
 
 No aplicar estas actualizaciones significa dejar deliberadamente abiertas vulnerabilidades conocidas, documentadas públicamente en bases de datos como CVE (*Common Vulnerabilities and Exposures*). A veces, estos fallos son explotados automáticamente por herramientas disponibles en línea, sin necesidad siquiera de conocimientos avanzados. Esto convierte a un teléfono desactualizado en un objetivo ideal, incluso para ataques automatizados a gran escala.
@@ -6718,16 +6718,16 @@ Por lo tanto, es esencial activar las actualizaciones automáticas en la configu
 No todos los smartphones son iguales en cuanto a soporte de software. Muchos dispositivos básicos y de gama media dejan de recibir actualizaciones críticas al cabo de dos o tres años, exponiéndote a riesgos cada vez más graves.
 
 
-Sin embargo, algunas marcas tienen un soporte de software muy bueno, sobre todo Google (7 años), Fairphone (de 5 a 7 años), Samsung (de 5 a 7 años) y Apple (de 5 a 7 años). Este criterio es muy importante a la hora de comprar un teléfono nuevo: Un aparato duradero es ante todo un aparato mantenido.
+Sin embargo, algunas marcas tienen un soporte de software muy bueno, sobre todo Google (7 años), Fairphone (de 5 a 7 años), Samsung (de 5 a 7 años) y Apple (de 5 a 7 años). Este criterio es muy importante a la hora de comprar un teléfono nuevo: un aparato duradero es ante todo un aparato mantenido.
 
 
 #### Utilice tiendas de aplicaciones fiables
 
 
-Las aplicaciones móviles representan una importante fuente de riesgo: Por ellas pasa la mayor parte del malware moderno para Android. Instalar una aplicación a través de un archivo `.apk` recibido de un sitio desconocido, o de una tienda no certificada, significa correr el riesgo de instalar un programa deliberadamente malicioso, o modificado para incluir funciones de espionaje o robo de datos.
+Las aplicaciones móviles representan una importante fuente de riesgo: por ellas pasa la mayor parte del malware moderno para Android. Instalar una aplicación a través de un archivo `.apk` recibido de un sitio desconocido, o de una tienda no certificada, significa correr el riesgo de instalar un programa deliberadamente malicioso, o modificado para incluir funciones de espionaje o robo de datos.
 
 
-Incluso en tiendas oficiales como Google Play Store o Apple App Store, hay que permanecer alerta. A pesar de los mecanismos de filtrado, las aplicaciones maliciosas consiguen colarse con regularidad. Por ejemplo, a veces pueden verse aplicaciones "Sparrow wallet" en Play Store, a pesar de que este software solo existe en PC: Se trata, sin duda, de una aplicación fraudulenta.
+Incluso en tiendas oficiales como Google Play Store o Apple App Store, hay que permanecer alerta. A pesar de los mecanismos de filtrado, las aplicaciones maliciosas consiguen colarse con regularidad. Por ejemplo, a veces pueden verse aplicaciones "Sparrow wallet" en Play Store, a pesar de que este software solo existe en PC: se trata, sin duda, de una aplicación fraudulenta.
 
 
 Antes de instalarlo, tómate tu tiempo para comprobar algunas cosas: permisos necesarios, número de descargas, valoración general, fecha de la última actualización y opiniones de los usuarios.
@@ -6748,7 +6748,7 @@ En Android, si instalas aplicaciones a través de archivos `.apk`, tendrás que 
 ### Gestionar los permisos de las aplicaciones
 
 
-En un smartphone, cualquier aplicación puede solicitar acceso directo a recursos sensibles: Micrófono, cámara, posición geográfica precisa, libro Address, archivos, SMS, sensores de movimiento, etc. Este acceso no es trivial: técnicamente, cuando se concede el permiso, la aplicación puede explotarlo en segundo plano, de forma continua o ad hoc, a veces sin notificación visible. Por eso es importante aplicar el principio del menor privilegio: conceder a cada aplicación sólo las autorizaciones estrictamente indispensables para su funcionamiento mínimo.
+En un smartphone, cualquier aplicación puede solicitar acceso directo a recursos sensibles: micrófono, cámara, posición geográfica precisa, libro Address, archivos, SMS, sensores de movimiento, etc. Este acceso no es trivial: técnicamente, cuando se concede el permiso, la aplicación puede explotarlo en segundo plano, de forma continua o ad hoc, a veces sin notificación visible. Por eso es importante aplicar el principio del menor privilegio: conceder a cada aplicación sólo las autorizaciones estrictamente indispensables para su funcionamiento mínimo.
 
 
 ![Image](assets/fr/141.webp)
@@ -6853,7 +6853,7 @@ En cuanto a tu red Wi-Fi doméstica, hablaremos de ello en la última parte del 
 #### Bluetooth, NFC y GPS
 
 
-Bluetooth (protocolo inalámbrico para comunicaciones de corto alcance), NFC (Near Field Communication) y GPS (posicionamiento por satélite) están activados por defecto en muchos smartphones. Estas tecnologías pueden utilizarse como puerta de entrada para ataques locales: Ejecución remota de código, acceso no autorizado, seguimiento de la ubicación, incluso interceptación de las comunicaciones en el caso de Bluetooth (vulnerabilidades BlueBorne, por ejemplo).
+Bluetooth (protocolo inalámbrico para comunicaciones de corto alcance), NFC (Near Field Communication) y GPS (posicionamiento por satélite) están activados por defecto en muchos smartphones. Estas tecnologías pueden utilizarse como puerta de entrada para ataques locales: ejecución remota de código, acceso no autorizado, seguimiento de la ubicación, incluso interceptación de las comunicaciones en el caso de Bluetooth (vulnerabilidades BlueBorne, por ejemplo).
 
 
 Para limitar estos riesgos, desactive siempre estas funciones cuando no las utilice. Esto reduce drásticamente la superficie de ataque y evita cualquier intento de explotación.
@@ -6883,7 +6883,7 @@ La mejor manera de proteger tus comunicaciones es utilizar aplicaciones de mensa
 A menudo se sobrestima la utilidad de los programas antivirus en los smartphones, en gran parte debido a las agresivas campañas de marketing. Las verdaderas amenazas en los móviles, especialmente en Android, suelen estar relacionadas con la instalación de aplicaciones maliciosas procedentes de fuentes no oficiales. En un dispositivo que se actualiza con regularidad, se configura cuidadosamente (sobre todo en términos de autorizaciones) y sólo utiliza fuentes oficiales o verificadas, el riesgo de infección es muy bajo.
 
 
-Además, los dispositivos Android ya vienen equipados por defecto con Google Play Protect, que actúa como antivirus. Las aplicaciones antivirus de terceros utilizan el mismo escáner Interface, lo que simplemente añade redundancia. En la práctica, pues, los antivirus para móviles ofrecen poco valor añadido, tanto en Android como en iOS.
+Además, los dispositivos Android ya vienen equipados por defecto con Google Play Protect, que actúa como antivirus. Las aplicaciones antivirus de terceros utilizan la misma API (interfaz del OS) para escanear, lo que simplemente añade redundancia. En la práctica los antivirus para móviles ofrecen poco valor añadido, tanto en Android como en iOS.
 
 
 Además, estas aplicaciones pueden inducir una falsa sensación de seguridad en los usuarios, haciéndoles creer que están totalmente protegidos contra las amenazas, cuando en realidad sólo ofrecen una protección reactiva. No ofrecen protección contra el phishing, ni contra los permisos excesivos concedidos a las aplicaciones, a pesar de que la mayoría de las amenazas a los smartphones proceden precisamente de estos vectores.
@@ -6895,7 +6895,7 @@ Su utilidad real es, por tanto, muy limitada, y estas aplicaciones son a veces c
 ### Comprobar las conexiones salientes
 
 
-También hay aplicaciones de cortafuegos para smartphones, como NetGuard o RethinkDNS, que actúan como un cortafuegos local directamente en tu dispositivo. Utilizan la API VPN de Android para interceptar todo el tráfico saliente, sin necesidad de acceso root.
+También hay aplicaciones de cortafuegos para smartphones, como NetGuard o RethinkDNS, que actúan como un cortafuegos local directamente en tu dispositivo. Utilizan la API VPN de Android para interceptar todo el tráfico saliente, sin necesidad de acceso administrador.
 
 
 En la práctica, esto significa que puede bloquear individualmente el acceso a Internet de determinadas aplicaciones, reduciendo así considerablemente el riesgo de recopilación de datos no deseados o de comunicaciones no autorizadas.
@@ -6933,7 +6933,7 @@ En Android, puedes utilizar *Buscar mi dispositivo* desde los Ajustes de Google.
 ![Image](assets/fr/147.webp)
 
 
-Sin embargo, estas características presentan compromisos significativos: Centralizan tu información sensible (geolocalización, inicios de sesión, acceso remoto, etc.) en los servidores de una empresa privada, y requieren que mantengas activada tu localización.
+Sin embargo, estas características presentan compromisos significativos: centralizan tu información sensible (geolocalización, inicios de sesión, acceso remoto, etc.) en los servidores de una empresa privada, y requieren que mantengas activada tu localización.
 
 
 Si decides implantarlas de todos modos, prueba estas funciones con antelación para asegurarte de que funcionarán correctamente el día que realmente las necesites.
@@ -6978,7 +6978,7 @@ Estas limitaciones también se aplican a MMS (*Multimedia Messaging Service*), q
 En los últimos años, algunos operadores y fabricantes han introducido RCS (*Rich Communication Services*), una evolución técnica de los SMS. RCS permite enviar mensajes enriquecidos (imágenes, vídeos, acuses de recibo, etc.) e integra el cifrado en tránsito (TLS), pero sigue dependiendo de los servidores del operador y no garantiza el cifrado de extremo a extremo en todos los casos. Además, la fragmentación de su implantación entre operadores y fabricantes (entre Android e iOS, por ejemplo) limita su adopción y su fiabilidad real.
 
 
-Desde 2021, Mensajes de Google ha adoptado el protocolo Signal para garantizar el cifrado de extremo a extremo, pero esta función solo es accesible si ambas partes utilizan Mensajes de Google.
+Desde 2021, _Mensajes_ de Google ha adoptado el protocolo Signal para garantizar el cifrado de extremo a extremo, pero esta función solo es accesible si ambas partes utilizan Mensajes de Google.
 
 
 En marzo de 2025, la Asociación GSM publicó el *Perfil Universal 3.0* (UP 3.0), que establece finalmente una norma de interoperabilidad para el cifrado de extremo a extremo (E2EE) en RCS. Como resultado, cuando un Exchange tiene lugar a través de un cliente RCS compatible con UP 3.0, el contenido se vuelve ilegible tanto para el operador como para un IMSI-catcher. Google y Apple han anunciado su intención de apoyar esta tecnología (queda por ver si será interoperable). Sin embargo, si uno de los dispositivos no es compatible con RCS UP 3.0, o si no hay conectividad IP, la comunicación cambia automáticamente a SMS convencionales no cifrados, lo que hace trivial la interceptación.
@@ -6999,7 +6999,7 @@ En lugar de SMS, te aconsejo que utilices aplicaciones de mensajería específic
 Frente a las limitaciones de los SMS, han surgido varias aplicaciones modernas, algunas con cifrado de extremo a extremo. Aquí tienes una comparativa de las principales aplicaciones disponibles hoy en día, para ayudarte a identificar las que mejor se adaptan a tus necesidades de seguridad y confidencialidad.
 
 
-#### Señal
+#### Signal
 
 
 Signal es una aplicación de mensajería instantánea diseñada desde el principio para ofrecer la máxima confidencialidad y seguridad. Se basa en el *Protocolo Signal*, que garantiza un cifrado sistemático de extremo a extremo para cada mensaje, llamada de voz o vídeo, así como para compartir archivos. Este protocolo es reutilizado por muchos otros servicios de mensajería, como WhatsApp, Facebook Messenger, Skype y Google Messages (en sus implementaciones RCS).
@@ -7011,7 +7011,7 @@ Signal es una aplicación de mensajería instantánea diseñada desde el princip
 Técnicamente, cada conversación dentro de Signal está protegida por un mecanismo de cifrado asimétrico y efímero: Las claves de sesión se negocian dinámicamente y se destruyen después de su uso, limitando así el riesgo de compromiso. La transparencia de la aplicación, cuyo código es totalmente abierto tanto en el lado del cliente como del servidor, significa que cualquier experto o investigador en seguridad puede comprobar su integridad y el cumplimiento de las normas criptográficas establecidas.
 
 
-Sin embargo, Signal tiene un punto débil en lo que se refiere al anonimato: la aplicación requiere un número de teléfono válido para el registro y la identificación del usuario. Aunque este número no es sistemáticamente visible para tus contactos (puede ocultarse bajo un seudónimo), este requisito introduce una dependencia de la infraestructura telefónica y, por tanto, una posible laguna de trazabilidad.
+Sin embargo, Signal tiene un punto débil en lo que se refiere al anonimato: la aplicación requiere un número de teléfono válido para el registro y la identificación del usuario. Aunque este número no es sistemáticamente visible para tus contactos (puede ocultarse bajo un pseudónimo), este requisito introduce una dependencia de la infraestructura telefónica y, por tanto, una posible laguna de trazabilidad.
 
 
 En resumen, Signal es una solución de mensajería muy buena, pero desgraciadamente requiere una conexión desde un número de teléfono.
@@ -7080,7 +7080,7 @@ Técnicamente, los mensajes se cifran de extremo a extremo y pasan por servidore
 El protocolo es totalmente de código abierto: clientes, servidores y protocolos son accesibles y auditados públicamente. SimpleX está disponible en Android, iOS, Linux, Windows y macOS, con almacenamiento local cifrado y portátil, por lo que los perfiles pueden transferirse sin necesidad de un servidor central. Además, cada usuario puede gestionar varios perfiles aislados, cada uno con su propia configuración, apodo y foto. Esta flexibilidad permite separar claramente la vida privada, la profesional y el seudónimo.
 
 
-Los contactos se añaden mediante enlaces temporales o direcciones estáticas (identificadores permanentes pero revocables). También puedes elegir entre Exchange efímero o un modo más clásico, con controles precisos de visibilidad y autorizaciones (por ejemplo, ocultar tu nombre real tras un seudónimo aleatorio y único para cada contacto).
+Los contactos se añaden mediante enlaces temporales o direcciones estáticas (identificadores permanentes pero revocables). También puedes elegir entre intercambios efímeros o un modo más clásico, con controles precisos de visibilidad y autorizaciones (por ejemplo, ocultar tu nombre real tras un seudónimo aleatorio y único para cada contacto).
 
 
 En términos de seguridad y confidencialidad, SimpleX va más allá que la mayoría de los sistemas de mensajería existentes, limitando los metadatos al mínimo y eliminando cualquier dependencia de un directorio central o de un identificador único. Sin embargo, esta arquitectura impone una serie de compromisos en términos de facilidad de uso: ergonomía a veces menos intuitiva, necesidad de una ligera curva de aprendizaje inicial y dependencia de la disponibilidad de servidores de retransmisión.
@@ -7088,7 +7088,7 @@ En términos de seguridad y confidencialidad, SimpleX va más allá que la mayor
 
 https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Sesión
+#### Session
 
 
 Session, lanzada en 2020 por la Oxen Privacy Tech Foundation, es una aplicación de mensajería diseñada para ofrecer mayor privacidad y resistencia frente a la vigilancia. Session no requiere información personal al registrarse: ni número de teléfono, ni correo electrónico, solo un par de claves criptográficas generadas localmente. Esto permite la autenticación anónima.
@@ -7100,12 +7100,12 @@ Session, lanzada en 2020 por la Oxen Privacy Tech Foundation, es una aplicación
 Técnicamente, Session implementa el cifrado de extremo a extremo para mensajes, archivos, audio y llamadas, así como para grupos (de hasta 100 miembros). Los mensajes se enrutan a través de una red descentralizada basada en servidores de nodos inspirados en la arquitectura de cebolla de Tor. Este mecanismo ofrece una protección avanzada contra la vigilancia de la red, incluso por parte de ISP y agentes estatales.
 
 
-El cliente y el servidor de Session son de código abierto. El software está disponible en Android, iOS, Windows, macOS y Linux, con opción de sincronización entre dispositivos mediante la frase Mnemonic, similar a la utilizada en los monederos Bitcoin. Esta frase otorga al usuario el control exclusivo sobre sus datos, pero también le impone una importante responsabilidad en términos de copias de seguridad.
+El cliente y el servidor de Session son de código abierto. El software está disponible en Android, iOS, Windows, macOS y Linux, con opción de sincronización entre dispositivos mediante la frase mnemónica, similar a la utilizada en los monederos Bitcoin. Esta frase otorga al usuario el control exclusivo sobre sus datos, pero también le impone una importante responsabilidad en términos de copias de seguridad.
 
 
 https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
-#### Tecla
+#### Keet
 
 
 Keet, lanzada en 2022 por Holepunch (una empresa respaldada por Tether y Bitfinex), destaca por su enfoque radicalmente descentralizado: Todas las comunicaciones (mensajes, llamadas de audio y vídeo, transferencias de archivos, etc.) tienen lugar directamente entre los usuarios, sin pasar por ningún servidor central. Esta arquitectura P2P elimina intermediarios y mejora considerablemente la confidencialidad y resistencia del sistema.
@@ -7117,10 +7117,10 @@ Keet, lanzada en 2022 por Holepunch (una empresa respaldada por Tether y Bitfine
 Keet encripta todas las comunicaciones de extremo a extremo. El registro es completamente anónimo: no se requiere ningún número de teléfono, correo electrónico Address o identificador. Esto garantiza una mayor confidencialidad desde el momento en que se activa el servicio. Las videollamadas son de la máxima calidad y las transferencias de archivos tienen un tamaño ilimitado, por lo que es adecuado tanto para uso profesional como personal.
 
 
-Por otro lado, aunque algunos componentes (criptografía y redes) están publicados como código abierto en GitHub, el cliente Interface de Keet no estaba totalmente abierto en el momento de escribir SCU-202 (mayo de 2025). Sin embargo, Holepunch ha anunciado su intención de publicar todo el código en el futuro.
+Por otro lado, aunque algunos componentes (criptografía y redes) están publicados como código abierto en GitHub, la interfaz del cliente de Keet no estaba totalmente abierta en el momento de escribir SCU-202 (mayo de 2025). Sin embargo, Holepunch ha anunciado su intención de publicar todo el código en el futuro.
 
 
-Keet está disponible en Android, iOS, Windows, macOS y Linux, y se puede sincronizar entre dispositivos mediante una frase Mnemonic.
+Keet está disponible en Android, iOS, Windows, macOS y Linux, y se puede sincronizar entre dispositivos mediante una frase menemónica.
 
 
 https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
@@ -7181,17 +7181,17 @@ He aquí una tabla resumen de las principales aplicaciones de mensajería existe
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2016              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federado)          | 2016              |
 | Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2014              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federado)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directory)   | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directorio)   | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |

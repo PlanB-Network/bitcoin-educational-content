@@ -6,4 +6,4 @@ wrong_answers:
   - Módulo de plataforma de confianza (TPM)
 explanation: |
   Secure Boot garantiza que sólo el software autenticado pueda arrancar el sistema, limitando así el riesgo de infección por bootkits/rootkits.
-reviewed: false
+reviewed: true

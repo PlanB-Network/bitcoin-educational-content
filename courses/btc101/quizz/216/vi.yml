@@ -1,4 +1,4 @@
-question: Blockchain trilemma là gì?
+question: Blockchain trilemma (bộ ba bất khả thi) là gì?
 answer: Một giao thức dựa trên blockchain chỉ có thể đáp ứng được hai trong số các tiêu chí về phi tập trung, an ninh và khả năng mở rộng.
 wrong_answers:
   - Một giao thức dựa trên blockchain chỉ có thể đáp ứng được một trong số các tiêu chí về phi tập trung, an ninh và khả năng mở rộng.

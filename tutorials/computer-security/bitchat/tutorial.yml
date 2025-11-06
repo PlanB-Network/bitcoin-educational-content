@@ -1,0 +1,29 @@
+id: d17725d8-3de5-4fbd-a439-cab20267a38e
+
+credit_link: https://youtu.be/WfzcKAzgB9s
+
+project_id: 28168b0b-31a1-4138-91eb-b830ced7e4ec
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+category: communication
+
+level: intermediate
+
+professor_id: 4e4b23c8-14e8-4867-93da-161a3915af99
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

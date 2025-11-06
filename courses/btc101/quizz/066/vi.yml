@@ -7,5 +7,5 @@ wrong_answers:
 explanation: >-
   Khi khởi tạo một ví Bitcoin, một danh sách các từ bí mật, gọi là hạt giống ghi nhớ (mnemonic seed), được tạo ra.
   Danh sách khôi phục này rất quan trọng vì nó đại diện cho quyền sở hữu
-  các Bitcoin và do đó quyền gửi chúng.
+  các Bitcoin và theo đó là quyền gửi chúng.
 reviewed: true

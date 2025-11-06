@@ -5943,6 +5943,7 @@ En el próximo capítulo, echaremos un vistazo a las mejores prácticas para nav
 ## Buenas prácticas en el uso de la web
 
 
+ 
 <chapterId>ded47ada-0569-4e63-b668-0da042e691d5</chapterId>
 
 
@@ -5964,7 +5965,6 @@ El navegador web es uno de los componentes de software más expuestos en un sist
 
 
 Esta complejidad técnica, combinada con una enorme superficie de ataque, convierte al navegador en un objetivo prioritario para los atacantes. Los fallos críticos en los motores de renderizado (como Blink o Gecko), las bibliotecas de análisis de imágenes o los gestores de memoria pueden permitir los llamados ataques "zero-click" (basta con visitar un sitio trampa para que la máquina quede comprometida), o de "día cero" (vulnerabilidad desconocida para el proveedor).
-
 
 
 Para reducir estos riesgos, los editores de navegadores lanzan actualizaciones muy frecuentes, a menudo semanales, que corrigen estas vulnerabilidades en cuanto se identifican. Estos parches no se limitan a Interface o mejoras de rendimiento: bloquean activamente vectores de ataque reales y documentados.
@@ -6366,7 +6366,7 @@ Esta es precisamente la función de HTTPS (*HyperText Transfer Protocol Secure*)
 
 
 
-En concreto, un sitio habilitado para HTTPS se indica mediante un candado cerrado en la barra Address de su navegador, normalmente en la parte superior izquierda de Interface. Al hacer clic en este candado, aparece información sobre el certificado TLS del sitio (autoridad de certificación, fecha de validez, etc.). La Address del sitio también comienza sistemáticamente por `https://`.
+En concreto, un sitio habilitado para HTTPS se indica mediante un candado cerrado en la barra Address de su navegador, normalmente en la parte superior izquierda de la interfaz. Al hacer clic en este candado, aparece información sobre el certificado TLS del sitio (autoridad de certificación, fecha de validez, etc.). La Address del sitio también comienza sistemáticamente por `https://`.
 
 
 
@@ -6390,7 +6390,7 @@ De hecho, hoy en día muy pocos sitios son accesibles únicamente a través de H
 
 
 
-Como ya hemos visto, es importante distinguir entre dos Elements que a menudo se confunden: el navegador, que es una aplicación instalada en el ordenador (como Firefox o Brave) y que se utiliza para visualizar páginas web, y el motor de búsqueda, que es un servicio en línea (como Google) al que se envían consultas para obtener resultados. Estos dos Elements son independientes, aunque los navegadores suelen integrar por defecto un motor determinado.
+Como ya hemos visto, es importante distinguir entre dos elementos que a menudo se confunden: el navegador, que es una aplicación instalada en el ordenador (como Firefox o Brave) y que se utiliza para visualizar páginas web, y el motor de búsqueda, que es un servicio en línea (como Google) al que se envían consultas para obtener resultados. Estos dos Elements son independientes, aunque los navegadores suelen integrar por defecto un motor determinado.
 
 
 

@@ -16,7 +16,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) dans la section `resources/podcasts/` :
+- Rendez-vous sur [le dépôt GitHub de Plan₿ dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) dans la section `resources/podcasts/` :
 
 ![podcast](assets/02.webp)
 
@@ -36,7 +36,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![podcast](assets/06.webp)
 
-- Pour valider la création du dossier, il suffit de noter un slash à la suite de votre nom de podcast dans la même case, par exemple : `super-podcast-bitcoin/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
+- Pour valider la création du dossier, il suffit d'ajouter un slash à la suite de votre nom de podcast dans la même case, par exemple : `super-podcast-bitcoin/`. Le fait d'ajouter un slash permet de créer automatiquement un dossier plutôt qu'un fichier :
 
 ![podcast](assets/07.webp)
 
@@ -193,11 +193,11 @@ contributors:
 
 ![podcast](assets/30.webp)
 
-- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite puis sur `Delete file` :
+- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite, puis sur `Delete file` :
 
 ![podcast](assets/31.webp)
 
-- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes` :
+- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes...` :
 
 ![podcast](assets/32.webp)
 

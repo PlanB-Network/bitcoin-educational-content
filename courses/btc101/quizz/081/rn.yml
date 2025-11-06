@@ -1,0 +1,8 @@
+question: Ni ikihe kibazo nyamukuru co gukoresha ubuhinga bwo kubika amafaranga yawe?
+answer: Uwo muntu wa gatatu wizigirwa arashobora kugubuza gukoresha amahera yawe igihe cose.
+wrong_answers:
+  - Umuntu wa gatatu wizigirwa arashobora kwongera agaciro k’amahera yawe y’ibiceri igihe cose.
+  - Umuntu wa gatatu wizigirwa arashobora kugabanya agaciro k’amahera yawe y’ibiceri igihe cose.
+  - Uwugira gatatu yizigirwa ntashobora kwisubiriza ama bitcoins yawe igihe cose.
+explanation: >-
+reviewed: true

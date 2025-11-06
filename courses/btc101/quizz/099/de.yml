@@ -1,9 +1,9 @@
-question: Was sollten Sie tun, nachdem die Wörter Ihrer mnemonischen Phrase aufgeschrieben wurden?
-answer: Machen Sie eine zweite Kopie und bewahren Sie diese an einem separaten Ort auf.
+question: Warum ist es ratsam, Ihre Bitcoins nicht auf Handelsplattformen zu belassen?
+answer: Sie können anfällig für Hackerangriffe sein.
 wrong_answers:
-  - Teilen Sie es mit einem vertrauenswürdigen Freund.
-  - Senden Sie es sich selbst per E-Mail.
-  - Speichern Sie es in Ihrem Telefon.
+  - Handelsplattformen erheben zufällige Gebühren.
+  - Bitcoin verliert auf Handelsplattformen an Wert.
+  - Handelsplattformen sind keine regulierten Institutionen.
 explanation: |
-  Sobald die Wörter Ihrer mnemonischen Phrase aufgeschrieben wurden, wird empfohlen, eine zweite Kopie anzufertigen und diese an einem vom ersten verschiedenen Ort aufzubewahren. Dies bietet eine Sicherungskopie für den Fall eines Verlusts oder eines Unfalls mit der ersten Kopie.
+  Es ist ratsam, Ihre Bitcoins nicht auf Handelsplattformen zu belassen, da sie anfällig für Hackerangriffe sein können.
 reviewed: true

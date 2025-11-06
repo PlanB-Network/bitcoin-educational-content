@@ -1,0 +1,9 @@
+question: Ni gute ubuhinga n’umuvuduko wa Lightning Network’s vyarongerekanye bigereranywa n’uburyo bwa kera bwo kwishura?
+answer: Ni vyihuta cane, kenshi biheza amafaranga mu gihe kitarenga isegonda, n’amahera make kandi nta kwizigira abahuza benshi.
+wrong_answers:
+  - Bihuye n’ibihe vya kera vyo mu mabanki, kenshi bifata imisi 2-5 kugira ngo biheze.
+  - Ni buhoro kuruta uko umuntu ashobora kwishura ku makarita kandi afise amahera menshi.
+  - Bisaba ibigo vyinshi vyemeza, nk’uko nyene amafaranga yoherezwa muri banki.
+explanation: |
+  Mu gutuma amafaranga off-chain ashobora gukoreshwa no guheza kwishura hafi mu kanya nk’ako gukubita, Lightning itanga akamaro ko kwihuta no gukora neza kuruta uburyo bwa kera bwishingikiriza ku bahuza benshi.
+reviewed: false

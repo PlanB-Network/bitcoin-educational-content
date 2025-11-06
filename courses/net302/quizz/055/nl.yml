@@ -1,0 +1,9 @@
+question: Welk commando geeft de gedetailleerde status weer van alle netwerkinterfaces in Linux?
+answer: ip addr tonen
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route tonen
+explanation: |
+  het commando "ip addr show" geeft een lijst van alle netwerkinterfaces, samen met hun status, adressen en bijbehorende parameters.
+reviewed: false

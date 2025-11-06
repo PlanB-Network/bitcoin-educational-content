@@ -1,0 +1,9 @@
+question: Milline on IP-andmeside maksimaalne teoreetiline suurus?
+answer: 65,536 baiti
+wrong_answers:
+  - 1500 baiti
+  - 512 baiti
+  - 255 baiti
+explanation: |
+  IP-andmeside maksimaalne suurus on 65 536 baiti, mis on määratud IP-pealkirja kogupikkuse väljal.
+reviewed: false

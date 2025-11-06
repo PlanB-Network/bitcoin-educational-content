@@ -1,0 +1,9 @@
+question: Mu mugwi, ikintu kidasanzwe citwa ikihe iyo gikoreshejwe ku kindi kintu, ntikigihindura?
+answer: Ikintu c'akaranga
+wrong_answers:
+  - Ikintu gihindutse
+  - Ikintu gihindura
+  - Ikintu gifatanya
+explanation: |
+  Ikintu c’akaranga k’umugwi ni ikintu kidasanzwe iyo gikoreshejwe ku kindi kintu, kigasiga kitahindutse. Akarorero, mu itsinda ry'imibare yose iri munsi y'ukwongerwako, ikintu c'akaranga ni 0.
+reviewed: false

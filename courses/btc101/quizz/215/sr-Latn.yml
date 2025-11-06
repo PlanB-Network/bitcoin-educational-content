@@ -1,9 +1,8 @@
-question: Šta znači da Bitkoin ima opšti trend rasta?
-answer: Opšti trend rasta u Bitkoinu znači da je, u celini, cena Bitkoina bila u porastu.
+question: Koji je problem skalabilnosti Bitkoina?
+answer: Izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kako se usvaja.
 wrong_answers:
-  - Opšti trend rasta u Bitkoinu znači da je cena zagarantovano da će rasti neograničeno bez ikakvih fluktuacija.
-  - Opšti trend rasta u Bitkoinu znači da Bitkoin postaje manje vredan i gubi svoju privlačnost na tržištu.
-  - Opšti trend rasta u Bitkoinu znači da je popularan samo među malom grupom investitora i nema uticaja na celokupno tržište.
-explanation: |
-  Opšti trend rasta u Bitkoin odnosi se na dosledno povećanje njegove cene tokom određenog vremenskog perioda.Važno je napomenuti da, iako trend rasta sugeriše pozitivan pravac, to ne garantuje da će cena nastaviti da raste bez ikakvih fluktuacija.
+  - Težina rudarenja novih Bitkoina sa sve većom vrednošću tokom vremena.
+  - Volatilnost cene Bitkoina koja će se povećati nakon svakog Halving-a.
+  - Nedostatak regulative za Bitkoin što će učiniti transakcije ilegalnim.
+explanation: >-
 reviewed: true

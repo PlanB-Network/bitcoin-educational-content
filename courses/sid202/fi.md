@@ -1,5 +1,5 @@
 ---
-name: Rakentaminen elementtien ja nestemäisen verkon avulla
+name: Rakentaminen Elements ja Liquid Network
 goal: Opi käyttämään ja kehittämään Elementsin avoimen lähdekoodin lohkoketjualustaa ja sen keskeisiä ominaisuuksia
 objectives: 
 

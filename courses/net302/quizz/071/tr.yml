@@ -1,0 +1,9 @@
+question: IPv6 Address'da önek boyutunu belirtmek için hangi gösterim kullanılır?
+answer: CIDR
+wrong_answers:
+  - Noktalı ondalık ağ maskesi
+  - İki nokta üst üste ile ayrılmış onaltılık
+  - ICANN
+explanation: |
+  CIDR gösterimi, tıpkı IPv4'te olduğu gibi, eğik çizgiden sonra sabit önek bitlerinin sayısını belirtir.
+reviewed: false

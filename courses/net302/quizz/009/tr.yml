@@ -1,0 +1,9 @@
+question: ARPANET projesinin arkasında hangi ABD kurumu vardı?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (İleri Araştırma Projeleri Ajansı), TCP/IP protokolünün geliştirilmesinin temelini atan ARPANET'i başlattı. Ajansın adı 1972 yılında DARPA (Savunma İleri Araştırma Projeleri Ajansı) olarak değiştirildi.
+reviewed: false

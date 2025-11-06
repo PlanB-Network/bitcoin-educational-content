@@ -1,0 +1,5 @@
+---
+term: ADAY BLOĞU
+---
+
+Aday blok, Bitcoin sisteminin Mining sürecine katılan bir Miner tarafından oluşturulma sürecinde olan bir bloktur. Aday blok, onaylanmayı bekleyen işlemleri içeren ancak henüz Blockchain'ye eklenecek geçerli bir Proof-of-Work'a sahip olmayan geçici bir veri yapısıdır. Miner, ilgili işlem ücretleri ve blok boyutu kısıtlamaları gibi çeşitli faktörlere dayalı olarak aday bloğa dahil edilecek işlemleri seçer. İşlemler seçildikten sonra Miner, versiyonu, işlemlerin özetini (Merkle Root), Timestamp'ü, önceki bloğun Hash'ini, zorluk hedefini ve Nonce'yi içeren blok başlığını oluşturur. Miner daha sonra kendi başlığının mevcut zorluk hedefini karşılayan bir Hash'ini bulmaya çalışır. Bunu yapmak için Miner başlıkta bulunan Nonce'yi değiştirir. Miner ayrıca kendi aday bloğunda bulunan diğer bilgileri de değiştirebilir. Bu Proof-of-Work mekanizmasıdır. Miner geçerli bir Hash bulmayı başarırsa, aday blok geçerli bir blok haline gelir ve Blockchain'ye eklenmek üzere ağa yayınlanır.

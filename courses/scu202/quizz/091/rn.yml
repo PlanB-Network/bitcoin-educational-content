@@ -1,0 +1,9 @@
+question: Ni iyihe porotokole itanga IP Address yo mu karere ku bikoresho bihuye n’urubuga?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP ihita itanga IP Address ku gikoresho cose gishasha gifatanye n’urubuga rw’aho hantu.
+reviewed: false

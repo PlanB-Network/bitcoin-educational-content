@@ -3,7 +3,7 @@ name: RGB
 description: Sissejuhatus ja varade loomine RGB kohta
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 ## sissejuhatus
 

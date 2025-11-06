@@ -1,0 +1,9 @@
+question: Lệnh nào được sử dụng để quét các cổng mở của máy chủ và xác định các dịch vụ có thể truy cập?
+answer: nmap
+wrong_answers:
+  - đào
+  - công cụ eth
+  - ip neigh
+explanation: |
+  nmap phát hiện các cổng mở, dịch vụ bị lộ và đôi khi là loại hệ điều hành từ xa.
+reviewed: false

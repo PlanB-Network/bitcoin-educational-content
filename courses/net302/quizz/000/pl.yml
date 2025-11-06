@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa rola sieci w IT?
+answer: Włącz dane Exchange
+wrong_answers:
+  - Zwiększanie pamięci komputera
+  - Tworzenie kopii zapasowych
+  - Włączenie Exchange sprzętu komputerowego
+explanation: |
+  Sieć łączy wiele urządzeń, aby umożliwić obieg i Exchange informacji.
+reviewed: false

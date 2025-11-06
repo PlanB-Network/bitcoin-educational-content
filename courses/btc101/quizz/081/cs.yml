@@ -1,12 +1,9 @@
-question: Jaká je klíčová otázka, kterou byste si měli položit při výběru Bitcoin peněženky, pokud jde o samostatnou správu?
-answer: Jste vlastníkem prostředků nebo necháváte kontrolu nad svými penězi třetí straně?
+question: Jaké je hlavní riziko používání úschovné služby pro uchování vašich bitcoinů?
+answer: Důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům.
 wrong_answers:
-  - Je peněženka zabezpečena heslovou frází?
-  - Umožňuje peněženka přijímat a odesílat bitcoiny?
-  - Mohu sdílet svou peněženku s jinou osobou?
-explanation: |
-  Při výběru Bitcoin peněženky je klíčovou otázkou:
-  jste vlastníkem prostředků nebo necháváte kontrolu nad
-  svými penězi třetí straně? To je proto, že držitel
-  privátního klíče je vlastníkem Bitcoinů.
+  - Důvěryhodná třetí strana může kdykoliv zvýšit hodnotu vašich bitcoinů.
+  - Důvěryhodná třetí strana může kdykoliv snížit hodnotu vašich bitcoinů.
+  - Důvěryhodná třetí strana nemůže kdykoliv duplikovat vaše bitcoiny.
+explanation: >-
+  Když používáte úschovnou službu pro uchování vašich bitcoinů, nejste jediným držitelem vašich bitcoinů. To znamená, že důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům, což vám dává stejnou úroveň finanční suverenity jako tradiční bankovní systém.
 reviewed: true

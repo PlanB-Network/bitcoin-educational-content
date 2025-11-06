@@ -1,0 +1,9 @@
+question: Hệ điều hành nào của trường đại học đã tạo điều kiện thuận lợi cho việc phổ biến giao thức TCP/IP trong giới học thuật?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, được phát triển bởi Đại học Berkeley, là một trong những hệ thống đầu tiên tích hợp giao thức TCP/IP và giúp phổ biến chúng rộng rãi trong giới học thuật.
+reviewed: false

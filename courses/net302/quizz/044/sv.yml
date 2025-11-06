@@ -1,0 +1,9 @@
+question: Vilken är DNS:s viktigaste roll i Internet-arkitekturen?
+answer: Mappning av domännamn till IP-adresser
+wrong_answers:
+  - Kryptera kommunikationen mellan routrar
+  - Dynamisk tilldelning av MAC-adresser till enheter
+  - Kontrollera åtkomst till webbservrar
+explanation: |
+  DNS (Domain Name System) översätter domännamn som kan läsas av människor till numeriska IP-adresser som krävs för routning.
+reviewed: false

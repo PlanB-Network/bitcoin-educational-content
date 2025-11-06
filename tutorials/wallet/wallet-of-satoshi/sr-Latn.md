@@ -1,5 +1,5 @@
 ---
-name: Wallet od Satoshi
+name: Wallet of Satoshi
 description: Najjednostavniji skrbnički Wallet za početak
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ _Ovaj vodič je napisao_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 Wallet od Satoshi je Lightning Network Wallet, čuvarski, i veoma jednostavan za korišćenje.
 
-Za potrebe kursa [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), koriste se Redeem Lightning Network vaučeri.
+Za potrebe kursa [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), koriste se Redeem Lightning Network vaučeri.
 
 
 **Uvek zapamti**: _nemaš ključeve, nemaš novčiće_
@@ -79,7 +79,7 @@ Wallet od Satoshi je poslao poruku na navedeni email inbox.
 U poštanskom sandučetu ćemo pronaći dve reči, koje treba da unesemo, prepisujući ih, u prostor koji je obezbedila aplikacija.
 
 
-- ne aktivirajte prevodioca: reči su na engleskom i moraju ostati na engleskom**
+- ne aktivirajte prevodioca: reči su na engleskom i moraju ostati na engleskom
 - ponovo napiši
 
 

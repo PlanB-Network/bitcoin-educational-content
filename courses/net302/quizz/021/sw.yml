@@ -1,0 +1,9 @@
+question: Ni kipengele gani cha TCP kinachoboresha utumaji kwa kurekebisha idadi ya sehemu zinazotumwa bila uthibitisho wa mara moja?
+answer: Dirisha la kuteleza
+wrong_answers:
+  - Kugawanyika kwa nguvu
+  - Kubadilisha pakiti
+  - Uelekezaji tuli
+explanation: |
+  "Dirisha la kuteleza" huruhusu sehemu kadhaa kutumwa kwa mfululizo, kisha huhamisha masafa kwa kila kibali ili kuboresha mtiririko.
+reviewed: false

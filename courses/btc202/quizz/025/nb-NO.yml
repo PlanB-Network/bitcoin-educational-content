@@ -1,0 +1,9 @@
+question: Når er en pruned-knute et problem for en Wallet?
+answer: Ved restaurering av en gammel Wallet
+wrong_answers:
+  - Når du oppretter et nytt mottak Address
+  - Når du sender en ny transaksjon
+  - Når du velger gebyrbeløpet
+explanation: |
+  En pruned-node beholder ikke gamle blokker, noe som kan forhindre at tidligere transaksjoner blir skannet under gjenopprettingen.
+reviewed: true

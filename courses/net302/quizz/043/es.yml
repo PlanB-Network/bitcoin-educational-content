@@ -1,0 +1,9 @@
+question: ¿Qué software de código abierto se utiliza habitualmente como referencia para los servidores DNS?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Calamar
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) es la implementación de referencia de código abierto utilizada por la mayoría de servidores DNS del mundo.
+reviewed: false

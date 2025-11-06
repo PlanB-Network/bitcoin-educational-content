@@ -1,8 +1,15 @@
-question: Bitcoin protokolünde blok boyutu ne kadar büyüktür?
-answer: 4MB.
+question: Aşağıdakilerden hangisi Lightning Network'daki mikro işlemlerin temel özelliklerinden biri değildir?
+answer: Uzun ödeme süreleri.
 wrong_answers:
-  - 1MB.
-  - 2MB.
-  - 3MB.
-explanation: >-
+  - Düşük Ücretler.
+  - Anında Ödemeler.
+  - Ölçeklenebilirlik.
+explanation: |
+  Lightning Network mikro işlemleri ile kullanıcılar şunları yapabilir
+  düşük işlem ücretlerine sahiptir, bu da göndermeyi ekonomik hale getirir
+  çok az miktarda Bitcoin. Ayrıca anlık olarak
+  ödemeler, gerçek zamanlı işlemlere izin verir. Sonunda onlar
+  ölçeklenebilirlik elde edebilir, böylece büyük bir
+  eşzamanlı işlem sayısı. Böylece, yanlış
+  cevap uzun ödeme süreleridir.
 reviewed: true

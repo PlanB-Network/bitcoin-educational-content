@@ -1,0 +1,9 @@
+question: 在 TCP/IP 模式中，保留端口有什么用途？
+answer: 听取对特定服务的要求
+wrong_answers:
+  - 到 generate 自动数据报封装
+  - 物理路由网络帧
+  - 控制 UDP 数据包分片
+explanation: |
+  端口是逻辑监听点，允许网络应用程序区分同一主机上运行的各种服务。
+reviewed: false

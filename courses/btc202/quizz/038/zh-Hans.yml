@@ -1,0 +1,9 @@
+question: 为什么不建议在 Bitcoin 节点上使用硬盘？
+answer: 因为它能大大降低 IBD 和一般使用的速度
+wrong_answers:
+  - 因为它不能存储 Blockchain 文件
+  - 因为它消耗的能量太少，有爆炸的危险
+  - 因为它与 Bitcoin core 不兼容
+explanation: |
+  机械盘限制了性能，大大延长了 IBD，并在节点负荷下快速磨损。
+reviewed: true

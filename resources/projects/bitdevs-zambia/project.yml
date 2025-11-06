@@ -1,0 +1,20 @@
+id: b7ca8d8e-b106-44de-af1c-07e6d5d8b0b6
+name: BitDevs Zambia
+category: education
+links:
+  website: https://bitdevszambia.org/
+  twitter: https://x.com/bitdevszambia
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-08-04
+    urgency: 1
+    contributor_names:
+    - AlphonseMehounme
+    reward: 0
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

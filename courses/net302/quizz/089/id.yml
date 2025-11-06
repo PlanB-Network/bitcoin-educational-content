@@ -1,0 +1,9 @@
+question: Protokol mana yang digunakan perintah ping untuk menguji konektivitas jaringan?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Perintah ping menggunakan protokol ICMP untuk mengirim permintaan echo dan mengukur latensi jaringan.
+reviewed: false

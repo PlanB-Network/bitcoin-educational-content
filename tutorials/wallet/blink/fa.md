@@ -1,5 +1,5 @@
 ---
-name: چشمک زدن
+name: Blink
 description: آموزش کامل Blink Wallet - ارسال، دریافت و استفاده آسان از Bitcoin
 ---
 

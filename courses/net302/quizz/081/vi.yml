@@ -1,0 +1,9 @@
+question: Công cụ dòng lệnh nào ghi lại lưu lượng mạng để phân tích theo thời gian thực?
+answer: tcpdump
+wrong_answers:
+  - đào
+  - nmap
+  - công cụ eth
+explanation: |
+  tcpdump thu thập và ghi lại các gói tin lưu thông trên mạng Interface để phân tích.
+reviewed: false

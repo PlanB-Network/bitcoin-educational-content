@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan en publik IPv4 Address och en privat IPv4 Address?
+answer: En publik Address är unik och kan routas på Internet
+wrong_answers:
+  - En privat Address är unik och kan routas på Internet
+  - En publik Address tilldelas alltid av DHCP
+  - En privat Address tilldelas alltid av DHCP
+explanation: |
+  En publik IPv4 Address är globalt unik och kan routas på Internet, medan en privat Address endast är giltig inom ett lokalt nätverk.
+reviewed: false

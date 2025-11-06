@@ -1,0 +1,8 @@
+question: Bitcoin 네트워크에서 노드의 주요 기능은 무엇인가요?
+answer: Bitcoin Blockchain의 사본을 유지하고, 트랜잭션의 유효성을 검사하고, 다른 노드에 정보를 전송하고, Bitcoin 프로토콜의 규칙을 시행합니다.
+wrong_answers:
+  - Bitcoin Blockchain 사본 유지, 거래 검증, 정부에 정보 전송, Bitcoin 프로토콜의 규칙 변경.
+  - Bitcoin Blockchain의 사본만 유지합니다.
+  - 다른 노드로만 정보를 전송합니다.
+explanation: >-
+reviewed: true

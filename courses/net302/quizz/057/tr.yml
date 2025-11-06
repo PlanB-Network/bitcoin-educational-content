@@ -1,0 +1,9 @@
+question: Ifcfg-eth0 dosyasındaki hangi parametre DHCP yapılandırmasını gösterir?
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  "BOOTPROTO=dhcp" parametresi Interface'ın yapılandırmasını DHCP protokolü üzerinden alması gerektiğini belirtir.
+reviewed: false

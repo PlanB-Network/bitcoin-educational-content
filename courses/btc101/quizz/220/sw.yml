@@ -1,11 +1,11 @@
-question: Je, kozi hii inapendekeza nini kuhusu kasi ya kujifunza kuhusu Bitcoin?
-answer: Ni ngumu kuiga kila kitu mara moja, kwa hivyo chukua wakati wako.
+question: Je, nini kinaweza kutokea kwa huduma za jadi za kuhamisha pesa kama Western Union, benki kuu, Visa, na Mastercard ikiwa hazitatumia Lightning Network?
+answer: Wangeweza kutoweka.
 wrong_answers:
-  - Ni rahisi kujifunza kila kitu mara moja.
-  - Haiwezekani kujifunza kila kitu kuhusu Bitcoin.
-  - Sio lazima kujifunza kila kitu kuhusu Bitcoin.
+  - Wanaweza kuwa maarufu zaidi.
+  - Wanaweza kuwa salama zaidi.
+  - Wanaweza kuwa madarakani zaidi.
 explanation: |
-  Kozi hiyo inapendekeza kwamba kuna mengi ya kuchunguza nayo
-  Bitcoin ambayo ni ngumu kuingiza kila kitu
-  mara moja, hivyo mtu anapaswa kuchukua muda wao.
+  Huduma za jadi za kuhamisha pesa kama vile Western Union,
+  benki kuu, Visa, na Mastercard inaweza kutoweka kama wao
+  usitumie teknolojia ya Lightning Network.
 reviewed: true

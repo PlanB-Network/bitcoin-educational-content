@@ -6,4 +6,4 @@ wrong_answers:
   - Empfang durch einen öffentlichen Schlüssel (P2PK) und Empfang durch ein Skript (P2SH)
 explanation: |
   Dies waren die beiden Typen, die seit dem Beginn von Bitcoin verwendet wurden. Der P2MS-Typ wurde im März 2012 standardisiert. Der P2SH-Typ wurde im April 2012 zum Protokoll hinzugefügt.
-reviewed: false
+reviewed: true

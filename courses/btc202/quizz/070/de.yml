@@ -1,0 +1,9 @@
+question: Wer verwaltet die DNS seed-Server, die für die anfängliche Peer-Ermittlung verwendet werden?
+answer: Ökosystem-Entwickler
+wrong_answers:
+  - Internet-Diensteanbieter
+  - Satoshi Nakamoto
+  - Mining-Pools
+explanation: |
+  DNS-Seeds werden von bekannten Entwicklern (Wuille, Corallo, Dashjr usw.) verwaltet und stellen aktive Knoten-IPs zur Verfügung, um Verbindungen zu initiieren.
+reviewed: true

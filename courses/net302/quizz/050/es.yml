@@ -1,0 +1,9 @@
+question: ¿Qué hay que añadir a NAT para asegurar correctamente una red?
+answer: Un cortafuegos
+wrong_answers:
+  - Un servidor DNS local
+  - Un proxy HTTP
+  - Un antivirus
+explanation: |
+  NAT por sí solo no es suficiente para filtrar el tráfico malicioso: debe complementarse con reglas de cortafuegos para un control del tráfico más preciso.
+reviewed: false

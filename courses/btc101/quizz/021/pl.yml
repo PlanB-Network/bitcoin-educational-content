@@ -1,11 +1,13 @@
-question: Jaka jest jedna z wad złota jako formy pieniądza?
-answer: Nie jest on łatwo podzielny.
+question: Jaka jest ścieżka ewolucji dzisiejszej waluty?
+answer: Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Blockchain -> Lightning Network
 wrong_answers:
-  - Nie zachowuje swojej wartości w przestrzeni.
-  - Z czasem ulega erozji.
-  - Jest łatwy w produkcji.
+  - Surowy kamień -> Moneta -> Banknot -> Blockchain -> Lightning Network
+  - Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Lightning Network
+  - Surowy kamień -> Moneta -> Karta bankowa -> Banknot -> Blockchain -> Lightning Network
 explanation: |
-  Jedną z głównych wad złota jako formy pieniądza jest
-  jest trudność w dzieleniu go na małe jednostki, gdy zachodzi taka potrzeba
-  co czyni go mniej praktycznym w użyciu.
+  Waluta to technologia, która ewoluowała wraz z upływem czasu,
+  począwszy od bycia reprezentowanym przez surowe kamienie
+  w metalowe monety, a następnie w banknoty, karty bankowe i
+  wreszcie w sieci peer-to-peer z wykorzystaniem Bitcoin, Blockchain i Lightning Network
+  Bitcoin Blockchain i Lightning Network.
 reviewed: true

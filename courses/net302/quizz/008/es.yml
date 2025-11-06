@@ -1,0 +1,9 @@
+question: ¿En qué año entró en funcionamiento el primer segmento de ARPANET?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  El primer segmento de ARPANET entró en funcionamiento en octubre de 1969, interconectando UCLA y Stanford.
+reviewed: false

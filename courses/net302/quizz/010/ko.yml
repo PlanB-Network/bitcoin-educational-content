@@ -1,0 +1,9 @@
+question: 네트워크 서비스 품질 관리에서 IPv5가 목표로 했던 것과 유사한 기능을 제공하는 최신 프로토콜은 무엇인가요?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP(리소스 예약 프로토콜)를 사용하면 네트워크 리소스를 동적으로 예약하여 IPv5의 원래 목표였던 서비스 품질(QoS)을 보장할 수 있습니다.
+reviewed: false

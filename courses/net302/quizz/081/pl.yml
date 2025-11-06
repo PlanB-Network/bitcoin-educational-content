@@ -1,0 +1,9 @@
+question: Które narzędzie wiersza poleceń przechwytuje ruch sieciowy do analizy w czasie rzeczywistym?
+answer: tcpdump
+wrong_answers:
+  - kopać
+  - nmap
+  - narzędzie
+explanation: |
+  tcpdump przechwytuje i rejestruje pakiety krążące w sieci Interface do analizy.
+reviewed: false

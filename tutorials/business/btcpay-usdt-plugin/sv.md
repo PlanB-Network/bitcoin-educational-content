@@ -1,5 +1,5 @@
 ---
-name: BTCPay-server - USDT
+name: BTCPay Server - USDT
 description: Steg för att konfigurera plugin-programmet USDT
 ---
 ![cover](assets/cover.webp)

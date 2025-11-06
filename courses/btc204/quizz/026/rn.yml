@@ -1,0 +1,9 @@
+question: Muri izo nyishu, ni iyihe itari imwe mu ngorane 3 nyamukuru ku muntu akoresha KYC?
+answer: Ubudashobora guhinduka bw'ama bitcoins yaguzwe
+wrong_answers:
+  - Gushikirwa n'ubugenzuzi bwa Leta
+  - Kworohereza gukurikirana onchain
+  - Ivyago vyo gusohoka kw'amakuru
+explanation: |
+  KYC irimwo ingorane yo gusohoka kw’amakuru kuko amakuru yawe abikwa, ingorane yo gushikirwa n’ubugenzuzi bwa Leta kuko amakuru yawe ashobora gutangazwa canke gufatwa, n’ingorane yo gukurikirana, kuko KYC ishobora gukora nk’aho umuntu yinjira. Ariko rero, KYC ntigabanya ubushobozi bwo guhindura amafaranga y’ama bitcoins yaguzwe.
+reviewed: false

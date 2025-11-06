@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -30,7 +30,7 @@ O WireGuard é uma solução relativamente recente, estando disponível como uma
 
 
 
-Alguns pontos-chave sobre o WireGuard :
+Alguns pontos-chave sobre o WireGuard:
 
 
 
@@ -95,15 +95,15 @@ Neste exemplo, vou concentrar-me no seguinte caso: **Do meu Windows Peer 1 ligad
 
 
 
-Em termos de endereços IP, isto dá :
+Em termos de endereços IP, isto dá:
 
 
 
 
 
-- Rede doméstica**: 192.168.1.0/24
-- Rede corporativa**: 192.168.100.0/24
-- Rede de túneis do WireGuard**: 192.168.110.0/24
+- **Rede doméstica**: 192.168.1.0/24
+- **Rede corporativa**: 192.168.100.0/24
+- **Rede de túneis do WireGuard**: 192.168.110.0/24
 
 
 + IP Address do Par 1 (Windows) no túnel: 192.168.110.2/24
@@ -117,7 +117,7 @@ Em termos de endereços IP, isto dá :
 
 
 
-**Nota: por padrão, o WireGuard opera no modo UDP na **porta 51820**.
+**Nota: por padrão, o WireGuard opera no modo UDP na porta 51820**.
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-O valor da chave pública será devolvido na consola. No arquivo de configuração do WireGuard, precisamos **adicionar o valor da nossa chave privada**. Para recuperar esse valor, digite o comando abaixo e copie o valor :
+O valor da chave pública será devolvido na consola. No arquivo de configuração do WireGuard, precisamos **adicionar o valor da nossa chave privada**. Para recuperar esse valor, digite o comando abaixo e copie o valor:
 
 
 
@@ -219,10 +219,10 @@ A secção `[Interface]` é utilizada para declarar a parte do servidor. Aqui es
 
 
 
-- Address**: o IP Address do WireGuard Interface dentro do túnel VPN (sub-rede diferente da LAN remota)
-- SaveConfig**: a configuração é guardada (e protegida) durante o tempo em que o Interface estiver ativo
-- ListenPort**: A porta de escuta do WireGuard. Neste caso, 51820 é a porta padrão, mas você pode personalizá-la
-- PrivateKey**: o valor da chave privada do nosso servidor (*wg-private.key*)
+- **Address**: o IP Address do WireGuard Interface dentro do túnel VPN (sub-rede diferente da LAN remota)
+- **SaveConfig**: a configuração é guardada (e protegida) durante o tempo em que o Interface estiver ativo
+- **ListenPort**: A porta de escuta do WireGuard. Neste caso, 51820 é a porta padrão, mas você pode personalizá-la
+- **PrivateKey**: o valor da chave privada do nosso servidor (*wg-private.key*)
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Se listar os endereços IP do seu servidor Debian 11, verá um novo Interface chamado "wg0" com o IP Address definido no ficheiro de configuração :
+Se listar os endereços IP do seu servidor Debian 11, verá um novo Interface chamado "wg0" com o IP Address definido no ficheiro de configuração:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Finalmente, temos de ativar o arranque automático do nosso WireGuard Interface wg0 :
+Finalmente, temos de ativar o arranque automático do nosso WireGuard Interface wg0:
 
 
 
@@ -286,7 +286,7 @@ Para que a nossa máquina Debian 11 seja capaz de **encaminhar pacotes entre red
 
 
 
-Modificar este ficheiro de configuração :
+Modificar este ficheiro de configuração:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Adicione a seguinte diretiva no final do ficheiro e guarde :
+Adicione a seguinte diretiva no final do ficheiro e guarde:
 
 
 
@@ -318,7 +318,7 @@ Para que o nosso servidor encaminhe os pacotes corretamente e para que a LAN rem
 
 
 
-Se ainda não tem o UFW e quer configurá-lo (também pode usar o Nftables), comece por instalar o :
+Se ainda não tem o UFW e quer configurá-lo (também pode usar o Nftables), comece por instalar o:
 
 
 
@@ -372,7 +372,7 @@ Adicione estas linhas no final do ficheiro para **ativar o IP masquerade no Inte
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-A imagem mostra :
+A imagem mostra:
 
 
 
@@ -475,7 +475,7 @@ Comece por abrir o software para criar um novo túnel. Para o fazer, clique na s
 
 
 
-Uma janela de configuração será aberta. Cada vez que uma nova configuração de túnel é criada, o WireGuard gera um par de chaves pública/privada específico para essa configuração. **Nesta configuração, precisamos de declarar o "peer", ou seja, o servidor remoto:
+Uma janela de configuração será aberta. Cada vez que uma nova configuração de túnel é criada, o WireGuard gera um par de chaves pública/privada específico para essa configuração. **Nesta configuração, precisamos de declarar o "peer", ou seja, o servidor remoto:**
 
 
 
@@ -490,7 +490,7 @@ Precisamos de completar esta configuração, em particular para declarar o IP Ad
 
 
 
-Vamos começar com o bloco `[Interface]`, adicionando o IP Address "**192.168.110.2**"; lembre-se que o servidor tem o IP Address "**192.168.110.121**" neste segmento de rede. Isso dá :
+Vamos começar com o bloco `[Interface]`, adicionando o IP Address "**192.168.110.2**"; lembre-se que o servidor tem o IP Address "**192.168.110.121**" neste segmento de rede. Isso dá:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Em imagens :
+Em imagens:
 
 
 
@@ -523,15 +523,15 @@ Em imagens :
 
 
 
-**Algumas explicações sobre o bloco [Peer]:
+**Algumas explicações sobre o bloco [Peer]:**
 
 
 
 
 
-- PublicKey**: esta é a chave pública do servidor WireGuard Debian 11 (pode obter o seu valor com o comando "*sudo wg*")
-- AllowedIPs**: estes são os endereços IP / sub-redes acessíveis através desta rede VPN WireGuard, neste caso a sub-rede específica para a minha VPN WireGuard (*192.168.110.0/24*) e a minha LAN remota (*192.168.100.0/24*)
-- Endpoint**: este é o IP Address do anfitrião Debian 11, uma vez que este é o nosso ponto de ligação WireGuard (terá de especificar o IP público Address)
+- **PublicKey**: esta é a chave pública do servidor WireGuard Debian 11 (pode obter o seu valor com o comando "*sudo wg*")
+- **AllowedIPs**: estes são os endereços IP / sub-redes acessíveis através desta rede VPN WireGuard, neste caso a sub-rede específica para a minha VPN WireGuard (*192.168.110.0/24*) e a minha LAN remota (*192.168.100.0/24*)
+- **Endpoint**: este é o IP Address do anfitrião Debian 11, uma vez que este é o nosso ponto de ligação WireGuard (terá de especificar o IP público Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Agora que a configuração está pronta, podemos iniciá-la a partir do PC Windows. Para tal, no cliente "**WireGuard**", clique no botão "**Activate**": a ligação irá **mudar de "Off" para "On "**, mas isso não significa que vá funcionar. Tudo depende se a sua configuração está correta ou não. **Quando a ligação é estabelecida, as nossas duas máquinas comunicam através do Interface WireGuard configurado em cada lado!
+Agora que a configuração está pronta, podemos iniciá-la a partir do PC Windows. Para tal, no cliente "**WireGuard**", clique no botão "**Activate**": a ligação irá **mudar de "Off" para "On"**, mas isso não significa que vá funcionar. Tudo depende se a sua configuração está correta ou não. **Quando a ligação é estabelecida, as nossas duas máquinas comunicam através do Interface WireGuard configurado em cada lado!**
 
 
 
@@ -663,7 +663,7 @@ Do meu PC remoto, posso fazer ping do IP Address do meu WireGuard Interface no l
 
 
 
-A partir do meu PC remoto ligado à minha VPN WireGuard, consegui aceder a um servidor de ficheiros e transferir um ficheiro através de [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), para ver a taxa de transferência. **Com o WireGuard, o meu máximo é de cerca de 45 Mb/s, o que é ótimo, uma vez que estou em WiFi
+A partir do meu PC remoto ligado à minha VPN WireGuard, consegui aceder a um servidor de ficheiros e transferir um ficheiro através de [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), para ver a taxa de transferência. **Com o WireGuard, o meu máximo é de cerca de 45 Mb/s, o que é ótimo, uma vez que estou em WiFi.**
 
 
 
@@ -691,7 +691,7 @@ Com a configuração atual, parte do tráfego flui através da VPN e o restante 
 
 
 
-Primeiro, é necessário instalar o pacote "resolvconf" no diretório :
+Primeiro, é necessário instalar o pacote "resolvconf" no diretório:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Guardar o ficheiro e, em seguida, reiniciar o Interface :
+Guardar o ficheiro e, em seguida, reiniciar o Interface:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Por fim, na configuração do túnel na estação de trabalho Windows 10, é necessário modificar a secção "AllowedIPs" para indicar que tudo deve passar pelo túnel. Substituir :
+Por fim, na configuração do túnel na estação de trabalho Windows 10, é necessário modificar a secção "AllowedIPs" para indicar que tudo deve passar pelo túnel. Substituir:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Por :
+Por:
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Pode ver que isto também ativa a opção "**Kill switch*".
+Pode ver que isto também ativa a opção "**Kill switch**".
 
 
 
@@ -772,7 +772,7 @@ A configuração do WireGuard é bastante simples e fácil de entender e, acima 
 
 
 
-Documentação adicional :
+Documentação adicional:
 
 
 
@@ -783,4 +783,4 @@ Documentação adicional :
 
 
 
-**O seu WireGuard VPN está a funcionar! Parabéns!
+**O seu WireGuard VPN está a funcionar! Parabéns!**

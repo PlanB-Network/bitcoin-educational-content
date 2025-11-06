@@ -1,0 +1,9 @@
+question: ¿Qué es un nodo Bitcoin?
+answer: Un ordenador que ejecute software que implemente el protocolo Bitcoin
+wrong_answers:
+  - A Hardware Wallet implementando la red Bitcoin
+  - A Miner produciendo nuevos bloques para Bitcoin
+  - Un servidor central que gestiona la red Bitcoin y la confirmación de las transacciones
+explanation: |
+  Un nodo Bitcoin es un ordenador que ejecuta un software, como Bitcoin core, que implementa el protocolo y participa en la red Bitcoin.
+reviewed: true

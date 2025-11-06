@@ -1,0 +1,9 @@
+question: Topologi apa yang menghubungkan semua peralatan ke satu titik pusat?
+answer: Bintang
+wrong_answers:
+  - Cincin
+  - Bus
+  - Jaring
+explanation: |
+  Dalam topologi bintang, setiap perangkat terhubung ke perangkat pusat, sehingga memudahkan pengelolaan dan pemeliharaan.
+reviewed: false

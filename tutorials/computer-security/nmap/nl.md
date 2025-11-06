@@ -61,9 +61,9 @@ Nmap heeft vele sterke punten:
 
 
 
-- Krachtig en flexibel**: Nmap kan grote netwerken scannen en geavanceerde detectietechnieken gebruiken. Het ondersteunt UDP, TCP, ICMP, IPv4 en IPv6 en kan versiedetectie, kwetsbaarheidsscans of protocol-specifieke interacties uitvoeren. De architectuur is modulair, met name dankzij NSE (Nmap Scripting Engine) scripts, die we later in deze tutorial zullen bekijken.
-- Gebruiksgemak**: officiële documentatie is overvloedig en van de hoogste kwaliteit. Er zijn ook talloze community resources beschikbaar om je op weg te helpen.
-- Populariteit en lange levensduur**: Nmap is al sinds 1998 een referentie op dit gebied. De huidige versie, op het moment van deze update, is 7.95. Hoewel er andere tools bestaan voor specifieke taken, blijft Nmap een must-have voor het in kaart brengen en analyseren van netwerken.
+- **Krachtig en flexibel**: Nmap kan grote netwerken scannen en geavanceerde detectietechnieken gebruiken. Het ondersteunt UDP, TCP, ICMP, IPv4 en IPv6 en kan versiedetectie, kwetsbaarheidsscans of protocol-specifieke interacties uitvoeren. De architectuur is modulair, met name dankzij NSE (Nmap Scripting Engine) scripts, die we later in deze tutorial zullen bekijken.
+- **Gebruiksgemak**: officiële documentatie is overvloedig en van de hoogste kwaliteit. Er zijn ook talloze community resources beschikbaar om je op weg te helpen.
+- **Populariteit en lange levensduur**: Nmap is al sinds 1998 een referentie op dit gebied. De huidige versie, op het moment van deze update, is 7.95. Hoewel er andere tools bestaan voor specifieke taken, blijft Nmap een must-have voor het in kaart brengen en analyseren van netwerken.
 
 
 
@@ -87,7 +87,7 @@ Hij verschijnt ook in andere cinematografische werken.
 
 
 
-**Feedback
+**Feedback**
 
 
 
@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Het antwoord hier geeft duidelijk aan dat het "nmap" pakket bestaat in de repositories (hier die van Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Vanaf nu kun je Nmap installeren via de gebruikelijke installatiecommando's, voorlopig niets ontwapenends 🙂 :
+Het antwoord hier geeft duidelijk aan dat het "nmap" pakket bestaat in de repositories (hier die van Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Vanaf nu kun je Nmap installeren via de gebruikelijke installatiecommando's, voorlopig niets ontwapenends 🙂:
 
 
 
@@ -485,25 +485,25 @@ Of het nu op Linux of Windows is, er zijn veel gevallen waarin Nmap je om bevoor
 
 
 
-- Construeren van "ruwe" netwerkpakketten**: Nmap is in staat om een breed scala aan scanmethodes uit te voeren, inclusief geavanceerde pakketmanipulatie en -constructie. Dit is bijvoorbeeld het geval wanneer we TCP SYN scans willen uitvoeren, die de klassieke _Three-way handshake_ van TCP uitwisselingen niet respecteren. Om dit te doen, moet Nmap andere functies gebruiken dan die van besturingssystemen, die alleen weten hoe ze goede praktijken in netwerkcommunicatie moeten respecteren (het doet een beroep op de "Npcap" en "libcap" bibliotheken hierboven). Omdat Nmap dingen niet op de "standaard" manier doet, is het in staat om bepaalde informatie over besturingssystemen, services en bepaalde kwetsbaarheden af te leiden.
+- Construeren van **"ruwe" netwerkpakketten**: Nmap is in staat om een breed scala aan scanmethodes uit te voeren, inclusief geavanceerde pakketmanipulatie en -constructie. Dit is bijvoorbeeld het geval wanneer we TCP SYN scans willen uitvoeren, die de klassieke *Three-way handshake* van TCP uitwisselingen niet respecteren. Om dit te doen, moet Nmap andere functies gebruiken dan die van besturingssystemen, die alleen weten hoe ze goede praktijken in netwerkcommunicatie moeten respecteren (het doet een beroep op de "Npcap" en "libcap" bibliotheken hierboven). Omdat Nmap dingen niet op de "standaard" manier doet, is het in staat om bepaalde informatie over besturingssystemen, services en bepaalde kwetsbaarheden af te leiden.
 
 
 
 
 
-- Luisteren naar netwerkverkeer**: sommige opties van Nmap vereisen dat het naar het netwerk luistert om bepaalde informatie op te halen. Deze actie wordt als gevoelig beschouwd op besturingssystemen, omdat het je ook toestaat om mee te luisteren met de communicatie van andere applicaties op het systeem. Net als Wireshark heeft Nmap hiervoor specifieke privileges nodig, die makkelijker te verkrijgen zijn door direct in een geprivilegieerde sessie te zitten.
+- **Luisteren naar netwerkverkeer**: sommige opties van Nmap vereisen dat het naar het netwerk luistert om bepaalde informatie op te halen. Deze actie wordt als gevoelig beschouwd op besturingssystemen, omdat het je ook toestaat om mee te luisteren met de communicatie van andere applicaties op het systeem. Net als Wireshark heeft Nmap hiervoor specifieke privileges nodig, die makkelijker te verkrijgen zijn door direct in een geprivilegieerde sessie te zitten.
 
 
 
 
 
-- Luisteren op geprivilegieerde poorten**: op besturingssystemen worden poorten van 0 tot 1024 (zowel TCP als UDP) geprivilegieerd genoemd, dat wil zeggen dat ze op de een of andere manier gereserveerd zijn voor zeer specifiek gebruik en daarom beschermd zijn. Hoewel dit tegenwoordig een enigszins verouderde reden is, is het nog steeds nodig om bepaalde privileges te hebben om op deze poorten te luisteren, wat Nmap mogelijk moet doen, afhankelijk van hoe het gebruikt zal worden.
+- **Luisteren op geprivilegieerde poorten**: op besturingssystemen worden poorten van 0 tot 1024 (zowel TCP als UDP) geprivilegieerd genoemd, dat wil zeggen dat ze op de een of andere manier gereserveerd zijn voor zeer specifiek gebruik en daarom beschermd zijn. Hoewel dit tegenwoordig een enigszins verouderde reden is, is het nog steeds nodig om bepaalde privileges te hebben om op deze poorten te luisteren, wat Nmap mogelijk moet doen, afhankelijk van hoe het gebruikt zal worden.
 
 
 
 
 
-- UDP-pakketten versturen:** Ook het luisteren naar een netwerktoepassing op UDP-poorten (een stateloos protocol) vereist privileges op besturingssystemen. Een bevoorrechte sessie is daarom nodig als u een UDP-scan wilt uitvoeren, waarvoor Nmap moet luisteren naar een antwoord om de antwoorden op zijn scans te analyseren.
+- **UDP-pakketten versturen:** Ook het luisteren naar een netwerktoepassing op UDP-poorten (een stateloos protocol) vereist privileges op besturingssystemen. Een bevoorrechte sessie is daarom nodig als u een UDP-scan wilt uitvoeren, waarvoor Nmap moet luisteren naar een antwoord om de antwoorden op zijn scans te analyseren.
 
 
 
@@ -562,13 +562,13 @@ Denk er vanaf nu aan om alleen hosts in een gecontroleerde omgeving te scannen w
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Hacking training platform, Hack The Box biedt voortdurend kwetsbare systemen die je naar eigen inzicht kunt aanvallen. Er zijn enkele honderden systemen beschikbaar, maar een vernieuwde pool van 20 machines wordt het hele jaar door gratis aangeboden, met toegang via een OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking training platform, Hack The Box biedt voortdurend kwetsbare systemen die je naar eigen inzicht kunt aanvallen. Er zijn enkele honderden systemen beschikbaar, maar een vernieuwde pool van 20 machines wordt het hele jaar door gratis aangeboden, met toegang via een OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Dit platform biedt talloze opzettelijk kwetsbare systemen om te downloaden, die kunnen worden gebruikt via VirtualBox (ook een gratis oplossing) of andere middelen. Eenmaal gedownload is er geen VPN nodig - alles is lokaal.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Dit platform biedt talloze opzettelijk kwetsbare systemen om te downloaden, die kunnen worden gebruikt via VirtualBox (ook een gratis oplossing) of andere middelen. Eenmaal gedownload is er geen VPN nodig - alles is lokaal.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Tot slot informeert Nmap ons dat 998 TCP-poorten die als gesloten zijn geïdentificeerd, niet worden weergegeven in de :
+Tot slot informeert Nmap ons dat 998 TCP-poorten die als gesloten zijn geïdentificeerd, niet worden weergegeven in de:
 
 
 
@@ -671,7 +671,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 
 
 
-Dit bespaart ons bijna 1000 regels uitvoer die eruit zien als :
+Dit bespaart ons bijna 1000 regels uitvoer die eruit zien als:
 
 
 
@@ -815,7 +815,7 @@ antwoord op een TCP SYN-pakket verzonden op poort 22, actief op het scandoel
 
 
 
-In de bovenstaande schermafbeelding zien we een TCP SYN/ACK pakket verzonden door de doelhost**. De poort is actief en stelt een service bloot. Nmap bevestigt de ontvangst van het antwoord en beëindigt dan de verbinding (TCP RST/ACK). **Zo wist hij dat poort TCP/22 actief was**.
+In de bovenstaande schermafbeelding zien we een TCP SYN/ACK pakket verzonden door de doelhost. De poort is actief en stelt een service bloot. Nmap bevestigt de ontvangst van het antwoord en beëindigt dan de verbinding (TCP RST/ACK). **Zo wist hij dat poort TCP/22 actief was**.
 
 
 
@@ -976,7 +976,7 @@ Zoals we hebben gezien, kiest Nmap zelf het aantal en de poorten om te scannen a
 
 
 
-**Hoe worden deze poorten gekozen?
+**Hoe worden deze poorten gekozen?**
 
 
 
@@ -1030,7 +1030,7 @@ Als gevolg hiervan zal de scan natuurlijk veel sneller gaan en zal Nmap alleen d
 
 
 
-Op dezelfde manier kunnen we meerdere poorten naar Nmap specificeren, door dezelfde optie te gebruiken en de gespecificeerde poorten aan elkaar te koppelen met een komma :
+Op dezelfde manier kunnen we meerdere poorten naar Nmap specificeren, door dezelfde optie te gebruiken en de gespecificeerde poorten aan elkaar te koppelen met een komma:
 
 
 
@@ -1060,11 +1060,11 @@ Ongeacht de volgorde, zal Nmap al deze poorten controleren, en alleen die op de 
 
 
 
-**Scan een reeks poorten
+**Scan een reeks poorten**
 
 
 
-Als het aantal poorten dat je wilt scannen te groot is, kun je ze per bereik opgeven, bijvoorbeeld :
+Als het aantal poorten dat je wilt scannen te groot is, kun je ze per bereik opgeven, bijvoorbeeld:
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP- en UDP-poort scannen
+**TCP- en UDP-poort scannen**
 
 
 
@@ -1134,7 +1134,7 @@ Dat is nog eens een interessante manier om je scans aan te passen!
 
 
 
-**Scan alle poorten
+**Scan alle poorten**
 
 
 
@@ -1347,7 +1347,7 @@ Maar er is meer aan de hand. Je kunt in de Wireshark capture hierboven zien dat 
 
 
 
-**Waarom TCP pakketten naar poorten sturen als onderdeel van netwerkontdekking?
+**Waarom TCP pakketten naar poorten sturen als onderdeel van netwerkontdekking?**
 
 
 
@@ -1437,7 +1437,7 @@ De opties van onze laatste bestelling beschrijven:
 
 
 
-- "`-PP` : Schakelt ICMP-echo (ping-scan) in voor het ontdekken van hosts.
+- "`-PP`: Schakelt ICMP-echo (ping-scan) in voor het ontdekken van hosts.
 
 
 
@@ -1547,7 +1547,7 @@ Veel voorkomende voorbeelden van dergelijke behoeften zijn wanneer een bedrijf i
 
 
 
-Om IP-adressen of netwerken uit te sluiten van onze scan, kunnen we de optie "--exclude" van Nmap gebruiken, bijvoorbeeld :
+Om IP-adressen of netwerken uit te sluiten van onze scan, kunnen we de optie "--exclude" van Nmap gebruiken, bijvoorbeeld:
 
 
 
@@ -2012,7 +2012,7 @@ Om dit te bereiken vertrouwt Nmap op NSE (_Nmap Scripting Engine_) scripts, die 
 
 
 
-Met de juiste opties zullen we Nmap vragen om zijn verschillende NSE-scripts te gebruiken op elke ontdekte service, waardoor we :
+Met de juiste opties zullen we Nmap vragen om zijn verschillende NSE-scripts te gebruiken op elke ontdekte service, waardoor we:
 
 
 
@@ -2165,31 +2165,31 @@ Laten we duidelijk zijn: Nmap is niet in staat om een volledige penetratietest v
 
 
 
-- Beperkte dekking**: hoewel de NSE-scripts van Nmap krachtig zijn, kan hun testdekking beperkt zijn in vergelijking met andere gespecialiseerde tools voor het opsporen van kwetsbaarheden. Sommige kwetsbaarheden worden mogelijk niet gedekt door de beschikbare NSE-scripts, zoals kwetsbaarheden in Active Directory, blootstelling van gevoelige gegevens of meer geavanceerde gevallen van kwetsbare webapplicaties.
+- **Beperkte dekking**: hoewel de NSE-scripts van Nmap krachtig zijn, kan hun testdekking beperkt zijn in vergelijking met andere gespecialiseerde tools voor het opsporen van kwetsbaarheden. Sommige kwetsbaarheden worden mogelijk niet gedekt door de beschikbare NSE-scripts, zoals kwetsbaarheden in Active Directory, blootstelling van gevoelige gegevens of meer geavanceerde gevallen van kwetsbare webapplicaties.
 
 
 
 
 
-- Complexiteit van de kwetsbaarheid**: bepaalde soorten kwetsbaarheden kunnen moeilijk te detecteren zijn met NSE-scripts vanwege hun complexiteit. Bijvoorbeeld, kwetsbaarheden die complexe interactie vereisen met een service op afstand kunnen mogelijk niet effectief worden gedetecteerd door Nmap (zoals in het geval van overmatige toestemmingen in een bestandsdeling of een fout in de toestemmingscontrole van een webtoepassing).
+- **Complexiteit van de kwetsbaarheid**: bepaalde soorten kwetsbaarheden kunnen moeilijk te detecteren zijn met NSE-scripts vanwege hun complexiteit. Bijvoorbeeld, kwetsbaarheden die complexe interactie vereisen met een service op afstand kunnen mogelijk niet effectief worden gedetecteerd door Nmap (zoals in het geval van overmatige toestemmingen in een bestandsdeling of een fout in de toestemmingscontrole van een webtoepassing).
 
 
 
 
 
-- Passieve detectie**: Nmap richt zich voornamelijk op actieve scans om kwetsbaarheden te detecteren, wat betekent dat het potentiële kwetsbaarheden niet effectief kan detecteren zonder een actieve verbinding met de doelhosts tot stand te brengen. Kwetsbaarheden die zich niet manifesteren tijdens een actieve scan kunnen daarom worden gemist (zoals in het geval van een code-injectie in een webapplicatie).
+- **Passieve detectie**: Nmap richt zich voornamelijk op actieve scans om kwetsbaarheden te detecteren, wat betekent dat het potentiële kwetsbaarheden niet effectief kan detecteren zonder een actieve verbinding met de doelhosts tot stand te brengen. Kwetsbaarheden die zich niet manifesteren tijdens een actieve scan kunnen daarom worden gemist (zoals in het geval van een code-injectie in een webapplicatie).
 
 
 
 
 
-- Afhankelijkheid van updates**: Nmap's [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) van NSE scripts is voortdurend in ontwikkeling, maar er kan een vertraging zitten tussen de ontdekking van een nieuwe kwetsbaarheid en de toevoeging van een bijbehorend script aan Nmap. Als gevolg daarvan is Nmap niet altijd up-to-date met de nieuwste kwetsbaarheden.
+- **Afhankelijkheid van updates**: Nmap's [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) van NSE scripts is voortdurend in ontwikkeling, maar er kan een vertraging zitten tussen de ontdekking van een nieuwe kwetsbaarheid en de toevoeging van een bijbehorend script aan Nmap. Als gevolg daarvan is Nmap niet altijd up-to-date met de nieuwste kwetsbaarheden.
 
 
 
 
 
-- Valse positieven en valse negatieven**: zoals bij elk beveiligingshulpmiddel kunnen de NSE-scripts van Nmap valse positieven (valse kwetsbaarheidswaarschuwingen) of valse negatieven (echte kwetsbaarheden die niet worden gedetecteerd) produceren. Dit is iets om in gedachten te houden bij het analyseren van Nmap resultaten.
+- **Valse positieven en valse negatieven**: zoals bij elk beveiligingshulpmiddel kunnen de NSE-scripts van Nmap valse positieven (valse kwetsbaarheidswaarschuwingen) of valse negatieven (echte kwetsbaarheden die niet worden gedetecteerd) produceren. Dit is iets om in gedachten te houden bij het analyseren van Nmap resultaten.
 
 
 
@@ -2240,20 +2240,20 @@ Deze scripts zijn gerangschikt per categorie, en één script kan tot meer dan �
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Technisch gezien worden de categorieën waartoe een script behoort direct in de code aangegeven.
@@ -2300,7 +2300,7 @@ lijst van NSE Nmap scripts met namen die beginnen met `ftp-`._
 
 
 
-Nmap biedt niet echt een optie om de NSE scripts te doorzoeken en op te sommen; je kunt het commando `-script-help` gebruiken gevolgd door de naam van een categorie of een woord :
+Nmap biedt niet echt een optie om de NSE scripts te doorzoeken en op te sommen; je kunt het commando `-script-help` gebruiken gevolgd door de naam van een categorie of een woord:
 
 
 
@@ -2606,7 +2606,7 @@ Standaard biedt Nmap een gedetailleerde weergave van de resultaten van de scans 
 
 
 
-Om het makkelijker te maken, maakt [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) het erg makkelijk om de uitvoer op te slaan in een tekstbestand. Dit kan handig zijn voor archivering, vergelijking met andere testen, maar ook voor het doorbladeren van deze uitvoer met gespecialiseerde tekstverwerkingsprogramma's of scripttalen, zoals Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, etc. Om de standaard uitvoer van Nmap in een tekstbestand op te slaan, kunnen we de `-oN <filename>` optie gebruiken (de "N" in "normal") :
+Om het makkelijker te maken, maakt [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) het erg makkelijk om de uitvoer op te slaan in een tekstbestand. Dit kan handig zijn voor archivering, vergelijking met andere testen, maar ook voor het doorbladeren van deze uitvoer met gespecialiseerde tekstverwerkingsprogramma's of scripttalen, zoals Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, etc. Om de standaard uitvoer van Nmap in een tekstbestand op te slaan, kunnen we de `-oN <filename>` optie gebruiken (de "N" in "normal"):
 
 
 
@@ -2720,7 +2720,7 @@ Binnen Nmap wordt het XML-formaat gebruikt om generate gedetailleerde rapporten 
 
 
 
-Om een generate uitvoerbestand in XML formaat te maken, moeten we de `-oX` optie gebruiken ("O" van "XML") :
+Om een generate uitvoerbestand in XML formaat te maken, moeten we de `-oX` optie gebruiken ("O" van "XML"):
 
 
 
@@ -3457,7 +3457,7 @@ Hierdoor kan Nmap gezien worden als een gevoelig onderdeel van het systeem waaro
 
 
 
-Als je ervoor gekozen hebt om Nmap niet via een sessie als `root` te gebruiken, maar door specifieke privileges toe te kennen aan een bevoorrechte gebruiker zodat hij alles heeft wat hij nodig heeft om Nmap te gebruiken (`sudo` of _capabilities_), wees je er dan van bewust dat Nmap gebruikt kan worden als onderdeel van een complete elevation of privilege :
+Als je ervoor gekozen hebt om Nmap niet via een sessie als `root` te gebruiken, maar door specifieke privileges toe te kennen aan een bevoorrechte gebruiker zodat hij alles heeft wat hij nodig heeft om Nmap te gebruiken (`sudo` of _capabilities_), wees je er dan van bewust dat Nmap gebruikt kan worden als onderdeel van een complete elevation of privilege:
 
 
 
@@ -3669,7 +3669,7 @@ netwerk snuiven tijdens een TCP Connect scan voor een open poort
 
 
 
-We kunnen zien dat het eerste TCP pakket dat verzonden wordt een `TCP SYN` is, verzonden door de client, en de server zal dan antwoorden met een `TCP SYN/ACK`, wat aangeeft dat de poort open is en een actieve dienst host. Om een legitieme client helemaal te simuleren, stuurt Nmap dan een `TCP ACK` terug naar de server. Omgekeerd, bij het scannen van een gesloten poort :
+We kunnen zien dat het eerste TCP pakket dat verzonden wordt een `TCP SYN` is, verzonden door de client, en de server zal dan antwoorden met een `TCP SYN/ACK`, wat aangeeft dat de poort open is en een actieve dienst host. Om een legitieme client helemaal te simuleren, stuurt Nmap dan een `TCP ACK` terug naar de server. Omgekeerd, bij het scannen van een gesloten poort:
 
 
 
@@ -3928,7 +3928,7 @@ netwerkopname tijdens een TCP Null-scan voor een open poort
 
 
 
-De scanmachine stuurt een vlagloos pakket (`[<None>]` in Wireshark) zonder antwoord van de server. Omgekeerd, als de doelpoort gesloten is :
+De scanmachine stuurt een vlagloos pakket (`[<None>]` in Wireshark) zonder antwoord van de server. Omgekeerd, als de doelpoort gesloten is:
 
 
 

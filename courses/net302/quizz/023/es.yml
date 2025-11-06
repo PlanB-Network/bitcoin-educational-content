@@ -1,0 +1,9 @@
+question: ¿Cómo se denomina el procedimiento de establecimiento de conexión en varios pasos en TCP?
+answer: Apretón de manos a tres bandas
+wrong_answers:
+  - Apretón de manos cuádruple
+  - Ventana corredera
+  - Proceso de suma de comprobación
+explanation: |
+  El handshake de tres vías sincroniza los números de secuencia entre el cliente y el servidor antes de cualquier Exchange de datos de carga útil.
+reviewed: false

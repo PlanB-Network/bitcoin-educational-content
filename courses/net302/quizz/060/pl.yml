@@ -1,0 +1,9 @@
+question: Co to jest Address pętli zwrotnej IPv6, odpowiednik 127.0.0.1 w IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  Address "::1/128" to Address pętli zwrotnej, używany do wewnętrznych testów urządzenia.
+reviewed: false

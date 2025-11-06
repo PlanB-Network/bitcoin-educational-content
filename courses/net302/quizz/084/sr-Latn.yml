@@ -1,0 +1,9 @@
+question: Koja istorijska komanda se može koristiti za konsultovanje ARP keša na većini sistema?
+answer: arp
+wrong_answers:
+  - kopaj
+  - nslookup
+  - ping
+explanation: |
+  Arp komanda vam omogućava da pregledate ili modifikujete ARP keš, koji lokalno skladišti IP/MAC mapiranja.
+reviewed: false

@@ -1,0 +1,8 @@
+---
+term: STOFBESTRIJDING
+---
+
+Bij een Dusting-aanval worden kleine hoeveelheden bitcoins naar een groot aantal ontvangende adressen gestuurd. Het doel van de aanvaller is om de ontvangers te dwingen om deze bedragen te consolideren met andere UTXO's. De aanvaller volgt vervolgens de toekomstige bewegingen van deze kleine hoeveelheden bitcoins. De aanvaller volgt vervolgens de toekomstige bewegingen van deze kleine hoeveelheden bitcoins, met als doel clusters van adressen te vormen, dat wil zeggen, te bepalen of meerdere adressen tot dezelfde entiteit behoren. Door de informatie die wordt verzameld tijdens een "dusting attack" te correleren met andere gegevens en heuristieken die worden gebruikt bij ketenanalyse, is het voor de aanvaller mogelijk om bepaalde entiteiten en de bijbehorende adressen te identificeren. Deze methode vormt alleen een bedreiging voor de privacy van gebruikers, maar heeft geen invloed op de veiligheid van hun geld.
+
+
+> ► *Sommige bitcoiners stellen voor om de term "stoffingsaanval" niet meer te gebruiken, omdat deze misleidend kan zijn. De term "Dust" beschrijft namelijk iets heel specifieks in Bitcoin core. Als de "dusting attack" daadwerkelijk Dust zou gebruiken zoals beschreven in Core, zou de aanval niet effectief zijn. Daarom stellen sommigen voor om de term "gedwongen hergebruik van Address" te gebruiken om deze aanval nauwkeuriger te beschrijven.*

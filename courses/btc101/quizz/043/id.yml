@@ -1,11 +1,10 @@
-question: Apa preseden historis untuk penggunaan mata uang fiat?
-answer: Pemimpin memusatkan emas dan memperkenalkan mata uang baru yang setara nilainya dengan emas, yang kemudian secara bertahap dinilai rendah.
+question: Apa fase akhir dari hiperinflasi?
+answer: Mata uang baru muncul
 wrong_answers:
-  - Pemimpin memperkenalkan mata uang baru yang didukung oleh emas, yang kemudian secara bertahap meningkat nilainya.
-  - Pemimpin memperkenalkan mata uang baru tanpa nilai intrinsik, yang kemudian secara bertahap meningkat nilainya.
-  - Pemimpin memperkenalkan mata uang baru yang didukung oleh keranjang komoditas, yang kemudian dijaga stabil nilainya.
+  - Kehilangan Kepercayaan
+  - Kolaps Mata Uang & kenaikan harga
+  - Lingkaran setan pencetakan uang
 explanation: |
-  Secara historis, pemimpin telah memusatkan emas dan memperkenalkan mata uang baru
-  yang setara nilainya dengan emas. Mata uang baru ini kemudian secara bertahap dinilai rendah, seringkali
-  di bawah dalih demi kepentingan rakyat.
+  Fase akhir dari hiperinflasi adalah ketika mata uang baru diperkenalkan
+  untuk menggantikan yang lama.
 reviewed: true

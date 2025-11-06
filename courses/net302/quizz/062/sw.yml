@@ -1,0 +1,9 @@
+question: Ni nukuu gani inatumika kuingiza IPv6 Address kwenye URL?
+answer: IPv6 Address imefungwa katika mabano ya mraba
+wrong_answers:
+  - IPv6 Address imefungwa kwenye mabano
+  - IPv6 Address imefungwa katika alama za nukuu
+  - IPv6 Address imeandikwa mbichi
+explanation: |
+  Mabano ya mraba yanatumika kutofautisha IPv6 Address na bandari katika URL, ili kuepuka utata wowote.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale di un indirizzo IPv4 in una rete di computer?
+answer: Identificare in modo univoco una interfaccia di rete
+wrong_answers:
+  - Identificare l'intero dispositivo su una rete
+  - Assegnazione dinamica degli indirizzi MAC su una rete
+  - Nomi DNS generate
+explanation: |
+  A ciascun Interface di rete di un dispositivo viene assegnato un indirizzo IPv4, che consente di localizzarlo e raggiungerlo sulla rete.
+reviewed: false

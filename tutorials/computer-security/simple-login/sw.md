@@ -1,5 +1,5 @@
 ---
-name: Kuingia Rahisi
+name: Simple Login
 description: Utambulisho unaolindwa na lakabu
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Unapotumia barua pepe ya kibinafsi ya Address kwa kila kuingia, ni rahisi kufiki
 Wasanidi programu wa zana huria wameunda mfululizo wa vyumba vya programu, vilivyozaliwa kwa usahihi ili kuwafanya watumiaji kurejesha faragha kidogo: bado wataingia, lakini kwa kutumia lakabu badala ya zana inayofichua utambulisho wao wa faragha.
 
 
-Rahisi zaidi kati ya zile ambazo nimejaribu binafsi na bado ninajaribu ni [Kuingia Rahisi](https://simplelogin.io/).
+Rahisi zaidi, kati ya zile ambazo nimejaribu binafsi na bado ninaendelea kujaribu, ni [Simple Login](https://simplelogin.io/).
 
 
 ## Lakabu

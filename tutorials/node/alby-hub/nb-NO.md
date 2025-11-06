@@ -20,7 +20,7 @@ Alby Hub er et svært tilpasningsdyktig verktøy. Det kan dekke behovene til bå
 Avhengig av dine behov er Alby Hub tilgjengelig i fire konfigurasjoner:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideell for nybegynnere, dette første alternativet er Alby-skyalternativet. Det lar deg distribuere en Hub direkte på en Alby-administrert server, tilgjengelig via din Alby Hub-grensesnitt. Selv om Alby administrerer serveren, beholder du suvereniteten over midlene dine, ettersom nøklene dine er kryptert med et passord som bare du kjenner. Imidlertid må nøklene dine forbli dekryptert i RAM for at noden skal fungere, noe som teoretisk sett utsetter dem for risiko hvis noen fysisk får tilgang til serveren. Det er et interessant kompromiss for nybegynnere, men det er viktig å være klar over risikoene.
 
@@ -299,7 +299,7 @@ Gå tilbake til Alby Go-applikasjonen, skann QR-koden eller lim inn hemmelighete
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klikk på "Fullfør*".
+Klikk på "Fullfør".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -368,4 +368,4 @@ Nå vet du hvordan du bruker Lightning med din egen node ved hjelp av Alby Hub-v
 
 For å forstå i detalj alle Lightning-mekanismene som vi har manipulert i denne opplæringen, anbefaler jeg deg på det sterkeste å oppdage vår gratis opplæring om emnet :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

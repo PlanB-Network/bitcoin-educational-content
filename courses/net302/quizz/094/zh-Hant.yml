@@ -1,0 +1,9 @@
+question: 哪一條指令可用於查詢 DNS 伺服器以取得網域的 IP Address？
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup 是將網域名稱解析為 IP 位址的 DNS 查詢工具。
+reviewed: false

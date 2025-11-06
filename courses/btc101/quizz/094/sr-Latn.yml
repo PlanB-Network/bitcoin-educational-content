@@ -1,9 +1,11 @@
-question: Kakvi su rizici korišćenja Multisig novčanika?
-answer: Nemanje pristupa dovoljnim brojem pojedinačnih privatnih ključeva ili rezervnih komponenti.
+question: Koji je standardni metod za vraćanje vašeg novčanika?
+answer: Unos vaše Mnemonic fraze u bilo koji softver novčanika.
 wrong_answers:
-  - Imati pristup dovoljnom broju pojedinačnih privatnih ključeva ili rezervnih komponenti.
-  - Deljenje vaših privatnih ključeva sa drugim stranama.
-  - Deljenje vaših javnih ključeva sa drugim stranama.
+  - Čuvanje vaše Mnemonic fraze u digitalnom fajlu.
+  - Pisanje vaše Mnemonic fraze na beloj tabli.
+  - Deljenje vaše Mnemonic fraze sa pouzdanim prijateljem.
 explanation: |
-  Kada koristite Multisig novčanik, svaki privatni ključ Multisig treba biti pohranjen na različitim lokacijama. To je zato što Multisig zahteva više potpisa za obavljanje transakcije, pa je potreban određeni broj novčanika. Dakle, pohranjivanje svakog dela na različitoj lokaciji dodaje dodatni nivo sigurnosti.
-reviewed: true
+  Standardna metoda za pravljenje rezervne kopije privatnog ključa u
+  Bitkoin novčaniku je unosom vaše Mnemonic fraze u bilo koji
+  softver novčanika. Ovo vam omogućava da povratite vaš novčanik.
+reviewed: false

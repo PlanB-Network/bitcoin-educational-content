@@ -1,10 +1,11 @@
-question: Hva er den gjennomsnittlige tiden mellom opprettelsen av to blokker i Bitcoin-protokollen?
-answer: 10 minutter
+question: Hva er den største fordelen med spesialiserte SHA256-maskiner, eller ASICs, i Bitcoin-mining?
+answer: De øker hash-raten per joule
 wrong_answers:
-  - 5 minutter
-  - 15 minutter
-  - 20 minutter
+  - De reduserer energiforbruket
+  - De øker hastigheten på transaksjoner
+  - De øker nettverkets sikkerhet
 explanation: >-
-  I gjennomsnitt opprettes en blokk hver 10. minutt i Bitcoin-protokollen.
-  Denne tiden forblir konstant uavhengig av antall gruvearbeidere og deres databehandlingskraft.
+  Spesialiserte SHA256-maskiner, eller ASICs, øker hash-raten per joule
+  i Bitcoin-mining. Dette betyr antall forsøk per sekund og per forbrukt
+  energi.
 reviewed: false

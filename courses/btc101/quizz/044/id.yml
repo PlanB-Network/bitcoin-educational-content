@@ -1,11 +1,10 @@
-question: Apa hasil potensial dari devaluasi yang terlalu cepat atau hilangnya kepercayaan pada mata uang fidusia?
-answer: Ini dapat menyebabkan hiperinflasi.
+question: Apa dampak inflasi 2% terhadap daya beli selama 5 tahun?
+answer: Anda kehilangan 10% dari daya beli Anda.
 wrong_answers:
-  - Ini dapat menyebabkan deflasi.
-  - Ini dapat menyebabkan ekonomi yang stabil.
-  - Ini dapat menyebabkan peningkatan nilai mata uang.
+  - Anda kehilangan 2% dari daya beli Anda.
+  - Anda kehilangan 5% dari daya beli Anda.
+  - Anda kehilangan 20% dari daya beli Anda.
 explanation: |
-  Devaluasi yang terlalu cepat atau hilangnya kepercayaan pada mata uang fidusia
-  dapat menyebabkan hiperinflasi. Ini adalah situasi di mana harga barang dan jasa
-  meningkat dengan tingkat yang sangat tinggi, sering kali menyebabkan ketidakstabilan ekonomi.
+  Dengan inflasi 2%, Anda kehilangan 2% dari daya beli Anda setiap tahun, yang
+  berjumlah menjadi 10% selama 5 tahun.
 reviewed: true

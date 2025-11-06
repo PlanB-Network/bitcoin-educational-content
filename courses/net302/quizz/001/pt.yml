@@ -1,0 +1,9 @@
+question: Que topologia liga todos os equipamentos a um único ponto central?
+answer: Estrela
+wrong_answers:
+  - Anel
+  - Autocarro
+  - Malha
+explanation: |
+  Numa topologia em estrela, cada dispositivo está ligado a um dispositivo central, facilitando a gestão e a manutenção.
+reviewed: false

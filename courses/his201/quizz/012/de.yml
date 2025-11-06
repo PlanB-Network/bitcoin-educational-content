@@ -6,4 +6,4 @@ wrong_answers:
   - Das Japanische Taishos Problem
 explanation: |
   Der Name dieses Problems (formalisiert von Lamport, Shostak und Pease im Jahr 1982) wurde gewählt, um den Leser nicht zu beleidigen, da sich niemand jemals als Byzantiner identifiziert hat.
-reviewed: false
+reviewed: true

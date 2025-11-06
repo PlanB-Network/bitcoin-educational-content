@@ -44,7 +44,7 @@ Aloitamme tässä uuden salkun luomisesta. Alla on suosituksia varmuuskopiointil
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**TÄRKEÄÄ**: Nämä 12 / 24 palautussanaa ovat välttämättömiä, jotta pääset käsiksi bitcoineihisi. Jos kadotat ne, sinulla ei ole enää oikeutta käyttää bitcoinejasi.
 
@@ -93,23 +93,23 @@ Yksi Blitz Wallet:n erityispiirteistä on, että se tukee eri verkkoja ja kanavi
 
 
 
-- Lightning Network** : Yksi Bitcoin:n päällekkäisyyksistä, jonka avulla voit suorittaa mikrotransaktioita välittömästi.
+- **Lightning Network**: Yksi Bitcoin:n päällekkäisyyksistä, jonka avulla voit suorittaa mikrotransaktioita välittömästi.
 
 
 
 
 
-- Bitcoin Mainnet** : Bitcoin-protokollan pääketju, joka soveltuu suurten rahamäärien maksamiseen.
+- **Bitcoin Mainnet**: Bitcoin-protokollan pääketju, joka soveltuu suurten rahamäärien maksamiseen.
 
 
 
 
 
-- Liquid Network**: Bitcoin Mainnet:n rinnakkaisketju, jonka on kehittänyt BlockStream ja joka käyttää Liquid Bitcoineja nopeiden, Confidential Transactions.
+- **Liquid Network**: Bitcoin Mainnet:n rinnakkaisketju, jonka on kehittänyt BlockStream ja joka käyttää Liquid Bitcoineja nopeiden, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Oletusarvoisesti kaikki transaktiosi tapahtuvat Liquid Network:lla, mutta Blitz antaa sinun määrittää verkon, jossa haluat vastaanottaa satosheja, napsauttamalla **Valitse muoto** -painiketta.
 
@@ -169,7 +169,7 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-- Pääsy tekoälypalveluihin**: Käytä generatiivisia tekoälymalleja, kuten: Gpt-4o, gpt-4o-mini gemini-flash-1.5 ja maksa suoraan bitcoineilla.
+- **Pääsy tekoälypalveluihin**: Käytä generatiivisia tekoälymalleja, kuten: Gpt-4o, gpt-4o-mini gemini-flash-1.5 ja maksa suoraan bitcoineilla.
 
 
 
@@ -179,7 +179,7 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-- Lähetä tekstiviestejä minne tahansa maailmassa**: Voit käyttää Blitz-kaupassa GSM-palvelua, jonka avulla voit lähettää tekstiviestejä nimettömänä minne tahansa päin maailmaa, ja laskutus tapahtuu suoraan Bitcoin:ssä.
+- **Lähetä tekstiviestejä minne tahansa maailmassa**: Voit käyttää Blitz-kaupassa GSM-palvelua, jonka avulla voit lähettää tekstiviestejä nimettömänä minne tahansa päin maailmaa, ja laskutus tapahtuu suoraan Bitcoin:ssä.
 
 
 
@@ -189,7 +189,7 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-- Surffaa täysin luottamuksellisesti**: WireGuard VPN (Virtual Private Network) -tilaus Wallet Blitz -kaupassa bitcoineilla.
+- **Surffaa täysin luottamuksellisesti**: WireGuard VPN (Virtual Private Network) -tilaus Wallet Blitz -kaupassa bitcoineilla.
 
 
 
@@ -197,9 +197,9 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz kulissien takana: Jatkossa
 
@@ -221,7 +221,7 @@ Tätä lähestymistapaa perustellaan halulla helpottaa aloituskokemusta ja autta
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Näet saldosi erittelyn valikossa **Asetukset>Tasetukset**.
 
@@ -249,7 +249,7 @@ Aktivoimalla Lightning-tilan, kun pääedellytys on täyttynyt (saldo 500 000 sa
 
 
 
-- Hyväksy Bitcoin myymälässäsi** :
+- **Hyväksy Bitcoin myymälässäsi**:
 
 
 
@@ -269,5 +269,4 @@ Jos tämä opetusohjelma auttoi sinua pääsemään Blitzin käyttöön, nautit 
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

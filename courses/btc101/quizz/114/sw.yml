@@ -1,11 +1,9 @@
-question: Bitcoin iliwasilishwa kwa mara ya kwanza lini ulimwenguni?
-answer: Oktoba 31, 2008.
+question: Tangu kuundwa kwake, ni asilimia ngapi ya muda mtandao wa Bitcoin umekuwa ukifanya kazi?
+answer: 99.988%.
 wrong_answers:
-  - Januari 3, 2009.
-  - Novemba 22, 2009.
-  - Desemba 12, 2010.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Bitcoin iliwasilishwa kwa mara ya kwanza kwa ulimwengu mnamo Oktoba 31,
-  2008, wakati Satoshi Nakamoto ilituma barua pepe kwa Cypherpunk
-  orodha ya barua iliyo na Karatasi Nyeupe ya Bitcoin.
+  Upatikanaji mtandaoni wa Bitcoin ni 99.988% tangu 2009.
 reviewed: true

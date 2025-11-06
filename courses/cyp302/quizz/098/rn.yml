@@ -1,0 +1,9 @@
+question: Ni gute MAC ifasha mu gukingira ubutumwa guhindurwa n’umuntu atera?
+answer: Mu kwemera kugenzura ko ubutumwa bwakiriwe butahinduwe
+wrong_answers:
+  - Mu gukingira ibitero vy'ubwoko bw'inguvu z'agahomerabunwa
+  - Mu guhisha ubutumwa burimwo
+  - Mu guhagarika ubutumwa buteye amakenga
+explanation: |
+  MAC ituma uwuburonka ashobora kugenzura ko ubutumwa butahinduwe biciye ku nkuru yashizweho n’urufunguzo rw’ibanga rusangi, ivyo bikaba bigabanya ubushobozi bwo kubukoresha.
+reviewed: false

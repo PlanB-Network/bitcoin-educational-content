@@ -1,12 +1,11 @@
-question: Jakie jest ryzyko udostępnienia klucza publicznego Bitcoin Wallet?
-answer: Utrata prywatności.
+question: Co powinno być głównym zmartwieniem podczas posiadania Bitcoin?
+answer: Bezpieczeństwo Twoich środków.
 wrong_answers:
-  - Zniszczenie Bitcoin Wallet.
-  - Utrata Bitcoinów.
-  - Hakowanie Bitcoin Wallet.
+  - Wartość Bitcoin w dolarach.
+  - Legalność posiadania bitcoinów.
+  - Zezwolenie na wydawanie środków.
 explanation: |
-  Udostępnianie klucza publicznego wiąże się z ryzykiem dla prywatności, ale nie
-  dla bezpieczeństwa. Dzieje się tak, ponieważ klucz publiczny jest używany do
-  generate Bitcoin adresów, a tym samym otrzymywania pieniędzy, ale nie
-  nie reprezentuje Ownership Bitcoinów.
+  Kiedy posiadasz bitcoiny, głównym zmartwieniem jest bezpieczeństwo
+  środków. Wynika to z faktu, że Bitcoin, jak każda inna forma
+  waluty, mogą zostać skradzione lub utracone, jeśli nie są odpowiednio zabezpieczone.
 reviewed: true

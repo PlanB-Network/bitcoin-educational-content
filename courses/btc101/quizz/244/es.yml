@@ -1,9 +1,11 @@
-question: ¿Cuál es una forma de probar la Red Lightning por ti mismo?
-answer: Probando la aplicación de podcast llamada Fountain.
+question: ¿Cuál es uno de los principales problemas relacionados con la censura?
+answer: Puede destruir la libertad de expresión y el derecho de reunión.
 wrong_answers:
-  - Minando Bitcoin usando un ordenador personal.
-  - Comprando Bitcoin del banco.
-  - Creando una nueva criptomoneda.
+  - Puede llevar a la aplicación de la libertad de expresión.
+  - Puede llevar a más apoyo para el derecho de reunión.
+  - Puede llevar a una disminución en la innovación.
 explanation: >-
-  Una forma de probar la Red Lightning por ti mismo es probando la aplicación de podcast Fountain, la cual te permite ser recompensado con algunos sats por escuchar tus podcasts favoritos.
+  El texto menciona que tolerar la censura puede destruir la libertad de
+  expresión
+  y el derecho de reunión.
 reviewed: true

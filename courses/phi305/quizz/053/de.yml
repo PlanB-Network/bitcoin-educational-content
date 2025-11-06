@@ -1,0 +1,9 @@
+question: Was steht im Weißbuch von Satoshi Nakamoto?
+answer: Ein dezentrales Mittel von Exchange im Internet.
+wrong_answers:
+  - Eine neue liberale Politik.
+  - Ein zentralisiertes Exchange-Protokoll.
+  - Ein politisches Programm.
+explanation: |
+  Satoshi White Paper Nakamoto stellt Bitcoin als dezentrales Medium von Exchange im Internet vor. Er schlägt ein elektronisches Peer-to-Peer-Zahlungssystem ohne zentrale Autorität vor.
+reviewed: false

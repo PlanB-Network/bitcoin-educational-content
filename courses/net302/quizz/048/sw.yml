@@ -1,0 +1,9 @@
+question: Je, MAC Address ni ya Layer gani ya modeli ya OSI?
+answer: Kiungo cha data Layer
+wrong_answers:
+  - Maombi Layer
+  - Usafiri Layer
+  - Mtandao wa Layer
+explanation: |
+  MAC Address inafanya kazi katika Layer 2 ya modeli ya OSI, inayojulikana kama "kiungo cha data Layer", ambapo hutumika kushughulikia maunzi ya fremu.
+reviewed: false

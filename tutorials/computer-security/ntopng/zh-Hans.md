@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian Duchemin 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Florian Duchemin 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -78,7 +78,7 @@ Ntop 探头的安装因设备和环境而异。因此，我不会在这里为您
 
 
 
-**分路器是**一种网络设备，它能复制通过它的流量并将其发送到另一个设备。**这种设备的优点是不需要对现有基础设施进行任何改动，可以放置在任何地方以监控特定的网络部分，或放置在核心交换机和边缘路由器之间以分析进出互联网的流量。
+**分路器是**一种网络设备，它能复制通过它的流量并将其发送到另一个设备。这种设备的优点是不需要对现有基础设施进行任何改动，可以放置在任何地方以监控特定的网络部分，或放置在核心交换机和边缘路由器之间以分析进出互联网的流量。
 
 
 
@@ -110,7 +110,7 @@ Ntop 探头的安装因设备和环境而异。因此，我不会在这里为您
 
 
 
-因此，我将使用**后一种模式。出于实际考虑，我将使用虚拟机进行演示，但在物理机上使用的方法仍然相同。
+因此，我将使用**后一种模式**。出于实际考虑，我将使用虚拟机进行演示，但在物理机上使用的方法仍然相同。
 
 
 
@@ -160,9 +160,9 @@ apt-get install bridge-utils
 
 
 
-- Lo**：这是回环 Interface；它是在设备上 "回环 "的虚拟 Interface。基本上，这个 Interface 的 Address 是 127.0.0.1（当然，127.0.0.0/8 中的任何 Address 都可以，因为这个范围是为此目的而保留的），用于与设备本身联系。如果您在工作站上安装了一个网站（例如使用 WAMPP），您可能曾经使用过 "*localhost*"Address。Address 来显示自己机器上的网站。该主机名与 Address 127.0.0.1 相关联，因此也与 Interface 回环相关联。
-- ens33**: 这是我的第一个 Interface，它从我的 DHCP 收到了一个 Address
-- ens36**: 我的第二个 Interface
+- **Lo**：这是回环 Interface；它是在设备上 "回环 "的虚拟 Interface。基本上，这个 Interface 的 Address 是 127.0.0.1（当然，127.0.0.0/8 中的任何 Address 都可以，因为这个范围是为此目的而保留的），用于与设备本身联系。如果您在工作站上安装了一个网站（例如使用 WAMPP），您可能曾经使用过 "*localhost*" Address。Address 来显示自己机器上的网站。该主机名与 Address 127.0.0.1 相关联，因此也与 Interface 回环相关联。
+- **ens33**: 这是我的第一个 Interface，它从我的 DHCP 收到了一个 Address
+- **ens36**: 我的第二个 Interface
 
 
 
@@ -211,8 +211,8 @@ iface ens36 inet manual
 
 
 
-- auto *Interface***：将在系统启动时自动 "启动 "Interface
-- iface *Interface* inet manual** ：使用不带任何 IP Address 的 Interface。如关键字 "static "可定义静态 IP Address，"dhcp "可使用动态寻址。
+- auto **Interface**：将在系统启动时自动 "启动 "Interface
+- iface *Interface* inet **manual** ：使用不带任何 IP Address 的 Interface。如关键字 "static "可定义静态 IP Address，"dhcp "可使用动态寻址。
 
 
 
@@ -239,10 +239,10 @@ bridge_stp off
 
 
 
-- iface br0 inet static**：在这里，我用静态 Address 定义了我的 Interface 网桥 (*br0*)。
-- Address、网络掩码、网关**：板寻址信息
-- bridge_ports**：要包含在网桥中的接口
-- bridge_stp**：生成树协议用于交换机互连，以检测冗余链路并避免环路。由于网桥可以插入两条网络路径之间，因此它可能成为环路的源头，因此有可能启用该协议。我在这里不需要它，所以将其禁用。
+- iface br0 inet static：在这里，我用静态 Address 定义了我的 Interface 网桥 (*br0*)。
+- Address、网络掩码、网关**：板寻址信息**
+- **bridge_ports**：要包含在网桥中的接口
+- **bridge_stp**：生成树协议用于交换机互连，以检测冗余链路并避免环路。由于网桥可以插入两条网络路径之间，因此它可能成为环路的源头，因此有可能启用该协议。我在这里不需要它，所以将其禁用。
 
 
 
@@ -281,8 +281,8 @@ systemctl restart networking
 
 
 
-- contrib**：包含符合 DFSG 标准的软件，但使用了不属于**主**分支的依赖项的软件包
-- 非自由**：包含不符合 DFSG 标准的软件包
+- **contrib**：包含符合 DFSG 标准的软件，但使用了不属于**主**分支的依赖项的软件包
+- **非自由**：包含不符合 DFSG 标准的软件包
 
 
 
@@ -430,7 +430,7 @@ Interface 选择
 
 
 
-NtopNG 采用了一种名为 DPI 的技术，即 "深度包检测"（Deep Packet Inspection）*，使其能够对每个网络流进行分类，并定义其背后的应用程序（或应用程序系列）。
+NtopNG 采用了一种名为 DPI 的技术，即 "深度包检测"（Deep Packet Inspection），使其能够对每个网络流进行分类，并定义其背后的应用程序（或应用程序系列）。
 
 
 
@@ -442,7 +442,7 @@ NtopNG 采用了一种名为 DPI 的技术，即 "深度包检测"（Deep Packet
 
 
 
-**立即识别并分类流量！
+**立即识别并分类流量！**
 
 
 

@@ -1,6 +1,7 @@
 id: 4387c365-e0dd-4c6d-a1db-8cd7ac4d2da9
 topic: bitcoin
 subtopic: bitcoin
+type: practice
 level: expert
 hours: 20
 
@@ -107,11 +108,12 @@ proofreading:
     contributor_names:
     reward: 99.54
   - language: sw
-    last_contribution_date: 2025-05-14
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 49.77
+      - Arianebtc
+    reward: 24.89
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -127,6 +129,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 74.68
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 124.4
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 124.4
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 149.26
 tags:
   - development
   - protocols
@@ -221,4 +243,4 @@ videos:
       - en: IiY5PmkGNVo
   - id: ce625225-310c-4130-a436-8a3adf7860f9
     youtube:
-      - de: P0reZe6pMpo
+      - en: P0reZe6pMpo

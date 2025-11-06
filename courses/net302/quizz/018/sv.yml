@@ -1,0 +1,9 @@
+question: Vad är ett datagram i samband med IP-protokollet?
+answer: Ett fristående block av data som överförs via nätverket
+wrong_answers:
+  - Ett krypterat meddelande som är avsett för en enda enhet
+  - Ett TCP-segment inkapslat i UDP
+  - En fysisk signal från nätverksaccessen Layer
+explanation: |
+  IP-data överförs i form av datagram, oberoende block som innehåller all information som behövs för leveransen.
+reviewed: false

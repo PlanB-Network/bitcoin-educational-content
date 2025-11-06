@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara Electrs dan Fulcrum?
+answer: Electrs lebih ringkas, Fulcrum lebih bertenaga
+wrong_answers:
+  - Electrs tidak gratis, Fulcrum gratis
+  - Fulcrum tidak mendukung protokol Electrum
+  - Electrs adalah hak milik, Fulcrum adalah sumber terbuka
+explanation: |
+  Electrs menggunakan lebih sedikit ruang disk, sementara Fulcrum merespons lebih cepat terhadap permintaan, tetapi mengkonsumsi lebih banyak sumber daya.
+reviewed: true

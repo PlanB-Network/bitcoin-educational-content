@@ -1,0 +1,9 @@
+question: Ni kuki ari akaga gukoresha amaboko generate entropy ku HD Wallet?
+answer: Bishobora kuzana intege nke z'abantu canke ukuntu umuntu abona ibintu .
+wrong_answers:
+  - Bivamwo imfunguruzo za bose zidakora
+  - Bibuza gukuraho imfunguruzo z'ibanga
+  - Bigabanya ubunini bw'amajambo Mnemonic yavutse
+explanation: |
+  Gutera entropi n’amaboko birashobora gutuma habaho ukutumvikana canke amakosa, bigatuma imfunguruzo zishobora guterwa n’ibitero.
+reviewed: false

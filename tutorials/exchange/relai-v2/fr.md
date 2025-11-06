@@ -16,21 +16,21 @@ Relai se distingue par sa simplicité, son accessibilité et l'accent mis sur l'
 ### Étape 1 : Télécharger l'application Relai
 
 
-- Où la trouver:** L'application est disponible sur l'App Store (iOS) et le Google Play Store (Android). Recherchez "Relai" et téléchargez-la gratuitement.
-- Installation rapide:** Une fois installée, ouvrez l'application et suivez la procédure d'installation guidée.
+- **Où la trouver :** L'application est disponible sur l'App Store (iOS) et le Google Play Store (Android). Recherchez "Relai" et téléchargez-la gratuitement.
+- **Installation rapide:** Une fois installée, ouvrez l'application et suivez la procédure d'installation guidée.
 
 ### Étape 2 : Créer votre compte
 
 
-- KYC obligatoire:** Relai exige désormais une vérification de la connaissance du client (KYC). Préparez une pièce d'identité valide et un justificatif de domicile.
-- Processus de vérification:** Téléchargez vos documents, prenez un selfie pour confirmer votre identité et attendez l'approbation (généralement dans les 24 heures).
-- Pourquoi KYC?:** Il garantit la conformité avec les réglementations financières et renforce la sécurité pour tous les utilisateurs.
+- **KYC obligatoire:** Relai exige désormais une vérification de la connaissance du client (KYC). Préparez une pièce d'identité valide et un justificatif de domicile.
+- **Processus de vérification :** Téléchargez vos documents, prenez un selfie pour confirmer votre identité et attendez l'approbation (généralement dans les 24 heures).
+- **Pourquoi KYC?** Il garantit la conformité avec les réglementations financières et renforce la sécurité pour tous les utilisateurs.
 
 ### Étape 3 : Sécuriser votre portefeuille
 
 
-- Autocontrôle:** Relai offre un portefeuille sans garde, ce qui signifie que vous contrôlez vos clés privées.
-- Sauvegardez vos clés:** Écrivez votre phrase de récupération de 12 mots sur papier (pas numériquement) et conservez-la en lieu sûr. Elle est essentielle pour accéder à vos fonds en cas de perte ou de vol de votre téléphone.
+- **Autocontrôle:** Relai offre un portefeuille sans garde, ce qui signifie que vous contrôlez vos clés privées.
+- **Sauvegardez vos clés:** Écrivez votre phrase de récupération de 12 mots sur papier (pas numériquement) et conservez-la en lieu sûr. Elle est essentielle pour accéder à vos fonds en cas de perte ou de vol de votre téléphone.
 
 ---
 ## Comment créer un plan d'épargne en bitcoins ?
@@ -123,11 +123,11 @@ Relai affichera les frais de réseau applicables.
 ## Conseils pour une gestion sécurisée des bitcoins
 
 
-- Conservez votre phrase de récupération en toute sécurité:** Stockez-la hors ligne et évitez de la partager avec qui que ce soit.
-- Activer la sécurité des applications:** Utiliser un code PIN fort ou une authentification biométrique.
-- Diversifier le stockage:** Envisagez d'utiliser un portefeuille matériel pour les grandes quantités de bitcoins.
-- Mise à jour régulière de l'application:** Restez protégé grâce aux derniers correctifs de sécurité et aux dernières fonctionnalités.
-- Évitez les réseaux Wi-Fi publics:** N'accédez à votre portefeuille que sur des réseaux sécurisés.
+- **Conservez votre phrase de récupération en toute sécurité :** Stockez-la hors ligne et évitez de la partager avec qui que ce soit.
+- **Activer la sécurité des applications :** Utiliser un code PIN fort ou une authentification biométrique.
+- **Diversifier le stockage :** Envisagez d'utiliser un portefeuille matériel pour les grandes quantités de bitcoins.
+- **Mise à jour régulière de l'application:** Restez protégé grâce aux derniers correctifs de sécurité et aux dernières fonctionnalités.
+- **Évitez les réseaux Wi-Fi publics:** N'accédez à votre portefeuille que sur des réseaux sécurisés.
 
 ---
 ## Comptes d'entreprise Relai
@@ -135,10 +135,10 @@ Relai affichera les frais de réseau applicables.
 Relai soutient également les entreprises qui souhaitent investir dans le bitcoin. Parmi les fonctionnalités, citons
 
 
-- Plans d'épargne personnalisés:** Plans sur mesure pour répondre aux besoins de l'entreprise.
-- Accès multi-utilisateurs:** Permet à plusieurs membres de l'équipe de gérer le compte en toute sécurité.
-- Limites accrues:** Investir des montants plus élevés que sur les comptes personnels.
-- Support dédié:** Accédez à un service client prioritaire pour les entreprises.
+- **Plans d'épargne personnalisés:** Plans sur mesure pour répondre aux besoins de l'entreprise.
+- **Accès multi-utilisateurs:** Permet à plusieurs membres de l'équipe de gérer le compte en toute sécurité.
+- **Limites accrues :** Investir des montants plus élevés que sur les comptes personnels.
+- **Support dédié:** Accédez à un service client prioritaire pour les entreprises.
 
 Pour créer un compte professionnel, contactez l'équipe d'assistance de Relai sur leur site web.
 
@@ -148,9 +148,9 @@ Pour créer un compte professionnel, contactez l'équipe d'assistance de Relai s
 Relai propose un programme de parrainage passionnant qui vous permet de gagner des bitcoins en invitant vos amis à utiliser l'application. Voici comment cela fonctionne :
 
 
-- Partagez votre code de parrainage:** Chaque utilisateur de Relai reçoit un code de parrainage unique. Partagez-le avec vos amis.
-- Gagnez 10 % des frais :** Vous gagnez 10 % des frais des transactions de vos amis lorsqu'ils utilisent votre code.
-- Revenu passif en bitcoins:** Au fur et à mesure que vos amis continuent à échanger sur Relai, vous continuez à gagner des bitcoins. C'est une situation gagnant-gagnant pour vous et vos amis.
+- **Partagez votre code de parrainage :** Chaque utilisateur de Relai reçoit un code de parrainage unique. Partagez-le avec vos amis.
+- Gagnez 10 % des frais : Vous gagnez 10 % des frais des transactions de vos amis lorsqu'ils utilisent votre code.
+- **Revenu passif en bitcoins:** Au fur et à mesure que vos amis continuent à échanger sur Relai, vous continuez à gagner des bitcoins. C'est une situation gagnant-gagnant pour vous et vos amis.
 
 Commencez à partager votre code dès aujourd'hui et développez votre pile Bitcoin sans effort !
 
@@ -161,7 +161,7 @@ Commencez à partager votre code dès aujourd'hui et développez votre pile Bitc
 
 
 - Relai facture des frais compétitifs de 1% par transaction, ou 0,9% si vous utilisez un code de parrainage comme `REL361712`. Les frais sont affichés de manière transparente avant que vous ne confirmiez un achat.
-- Zéro frais:** Les transactions jusqu'à 100 € ou 100 CHF sont totalement exemptes de frais.
+- **Zéro frais :** Les transactions jusqu'à 100 € ou 100 CHF sont totalement exemptes de frais.
 
 ### Puis-je suspendre mon plan d'épargne ?
 

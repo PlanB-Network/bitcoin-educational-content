@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Hur börjar man använda en kraftfull LN-nod på din mobil?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Denna guide är tillägnad alla nya användare som vill börja använda Bitcoin Lightning Network (LN) på ett GRATIS OPEN SOURCE, FULLSTÄNDIGT NON-CUSTODIAL sätt.
@@ -673,7 +673,7 @@ Under tiden finns här alla länkar om denna fantastiska Bitcoin Lightning Node:
 *Jag får inte betalt eller stöd på något sätt av utvecklarna av den här appen. Jag skrev den här guiden eftersom jag såg att intresset för den här Wallet-appen ökar och nya användare fortfarande inte förstår hur man börjar med den. Också för att hjälpa Hampus (huvudutvecklaren) med dokumentation om hur man använder den här noden Wallet.*
 
 
-*Jag har inget annat intresse av att marknadsföra denna LN-app, förutom att driva på antagandet av Bitcoin och LN. Detta är det enda sättet!
+*Jag har inget annat intresse av att marknadsföra denna LN-app, förutom att driva på antagandet av Bitcoin och LN. Detta är det enda sättet!*
 
 
 ---

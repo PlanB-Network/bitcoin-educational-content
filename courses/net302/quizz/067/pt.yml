@@ -1,0 +1,9 @@
+question: Qual é a principal motivação para utilizar identificadores aleatórios Interface em vez de MAC Address no IPv6?
+answer: Preservar a privacidade
+wrong_answers:
+  - Reduzir o tamanho dos pacotes
+  - Acelerar a resolução de DNS
+  - Melhorar a compatibilidade ARP
+explanation: |
+  A utilização de identificadores Interface aleatórios ajuda a proteger contra o rastreio de dispositivos com base no MAC Address.
+reviewed: false

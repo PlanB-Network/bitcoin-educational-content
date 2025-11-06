@@ -6,8 +6,8 @@ wrong_answers:
   - Tüm web siteleri ile uyumlu değildir.
 explanation: |
   İnternet devleri tarafından sunulan Tek Oturum Açma (SSO)
-  erişilebilirlik ve sansür riskleri açısından sorunlar.
-  Bunun nedeni, SSO sağlayıcısının bir kesinti yaşaması durumunda
-  veya bir kullanıcıyı engellemeye karar verirse, kullanıcı
-  kimlik doğrulama için bu SSO'yu kullanan tüm hizmetler.
+  erişilebilirlik ve sansür riskleri açısından sorunludur.
+  Bunun nedeni, SSO sağlayıcısının bir kesinti yaşaması 
+  veya bir kullanıcıyı engellemesi durumunda, kullanıcının
+  kimlik doğrulama için bu SSO'yu kullanan tüm hizmetlere erişimi kaybetmesine neden olabilir.
 reviewed: true

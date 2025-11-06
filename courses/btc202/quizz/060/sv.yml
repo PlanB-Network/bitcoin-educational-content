@@ -1,0 +1,9 @@
+question: Vad är rollen för ett Nostr-relä installerat på Umbrel?
+answer: Hosta dina publikationer lokalt
+wrong_answers:
+  - Kontrollera Bitcoin-transaktioner
+  - Skapa Nostr-kanaler med dina kontakter
+  - Lokal backup av Blockchain Nostr
+explanation: |
+  Ett Nostr-relä på Umbrel gör att data kan hostas lokalt, vilket garanterar tillgänglighet och suveränitet.
+reviewed: true

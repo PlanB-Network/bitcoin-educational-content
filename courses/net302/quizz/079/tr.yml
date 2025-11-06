@@ -1,0 +1,9 @@
+question: Bir alan adını IPv6 Address ile eşleştirmek için ne tür bir DNS kaydı kullanılır?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  AAAA (quad-A) tipi bir alan adını IPv6 Address ile eşleştirmek için kullanılırken, A tipi IPv4 için ayrılmıştır.
+reviewed: false

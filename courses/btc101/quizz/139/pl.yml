@@ -1,8 +1,11 @@
-question: Jaka jest przybliżona liczba węzłów rozmieszczonych na całym świecie we wrześniu 2023 r.?
-answer: 45 000 węzłów.
+question: Dlaczego ważne jest, aby węzeł Bitcoin pozostał przystępny cenowo i dostępny dla wszystkich możliwych użytkowników?
+answer: Ponieważ ułatwia to decentralizację sieci.
 wrong_answers:
-  - 10 000 węzłów.
-  - 100 000 węzłów.
-  - 500 000 węzłów.
-explanation: >-
+  - Ponieważ zwiększa to pojemność transakcyjną sieci.
+  - Ponieważ zmniejsza to pojemność transakcyjną sieci.
+  - Ponieważ zwiększa Block reward dla górników.
+explanation: |
+  Przystępny koszt i dostępność węzła Bitcoin jest
+  ważny, ponieważ ułatwia decentralizację sieci
+  sieci.
 reviewed: true

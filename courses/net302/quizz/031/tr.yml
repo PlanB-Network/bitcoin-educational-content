@@ -1,0 +1,9 @@
+question: Hangi IPv4 Address aralığı yerel geri döngü testi için ayrılmıştır?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  127.0.0.0/8 aralığı yerel geri döngü için kullanılır. Bu aralığa yapılan herhangi bir istek, kaynak makine içinde kalır.
+reviewed: false

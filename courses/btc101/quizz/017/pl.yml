@@ -1,11 +1,13 @@
-question: Co Bitcoin symbolizuje poza swoją technologią?
-answer: Rewolucja przeciwko tradycyjnym systemom finansowym i alternatywa oparta na przejrzystości, decentralizacji i indywidualnej suwerenności.
+question: Jaka jest główna wada walut fiducjarnych?
+answer: Ich wartość jest stale obniżana przez inflację monetarną.
 wrong_answers:
-  - Nowa forma waluty cyfrowej, która jest bardziej wydajna niż tradycyjne waluty, ponieważ jest szybsza.
-  - Sposób na zarabianie pieniędzy przez osoby fizyczne za pośrednictwem Mining.
-  - Narzędzie dla przestępców do przeprowadzania nielegalnych transakcji.
+  - Nie są one łatwe w transporcie.
+  - Ich wartość jest stale zwiększana przez inflację monetarną.
+  - Nie są one podzielne.
 explanation: |
-  Poza swoją technologią, Bitcoin symbolizuje rewolucję
-  przeciwko tradycyjnym systemom finansowym: protokół
-  wymusza nowy system monetarny bez żadnego centralnego podmiotu.
+  Główną wadą walut fiducjarnych, takich jak
+  dolar i euro, jest to, że ich wartość jest stale
+  stale obniżana przez inflację monetarną. Jest to spowodowane
+  dewaluacji spowodowanej przez podmioty, które je kontrolują (król,
+  bank centralny, cesarz, dyktator).
 reviewed: true

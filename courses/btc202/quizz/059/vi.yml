@@ -1,0 +1,9 @@
+question: Cách tốt nhất để truy cập Bitcoin core từ xa là gì?
+answer: Lộ cổng RPC
+wrong_answers:
+  - Sử dụng Tor
+  - Sử dụng VPN
+  - Tiết lộ máy chủ Electrum
+explanation: |
+  Việc để lộ cổng RPC không được mã hóa sẽ gây ra rủi ro bảo mật nghiêm trọng. Tốt nhất nên sử dụng Tor hoặc VPN.
+reviewed: true

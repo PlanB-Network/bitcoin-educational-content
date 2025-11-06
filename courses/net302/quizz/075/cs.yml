@@ -1,0 +1,9 @@
+question: Jaký typ záznamu DNS se používá k vyhledání názvu přidruženého k protokolu IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  Záznam PTR (Pointer Record) umožňuje zpětné rozlišení, což znamená, že propojuje IPv6 Address s doménovým jménem.
+reviewed: false

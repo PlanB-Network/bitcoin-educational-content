@@ -1,9 +1,11 @@
-question: Quelle est l'une des principales questions soulevées concernant l'avenir de la finance ?
-answer: Qui devrait détenir, autoriser et tracer l'argent que nous utilisons ?
+question: Quel est un moyen pratique d'obtenir des bitcoins ?
+answer: Les acheter via des plateformes régulées ou non régulées.
 wrong_answers:
-  - Comment pouvons-nous éliminer complètement l'argent ?
-  - Comment pouvons-nous garantir que tout le monde ait la même quantité d'argent ?
-  - Comment pouvons-nous rendre l'argent obsolète ?
-explanation: >-
-  Le cours soulève plusieurs questions sur l'avenir de la finance, dont l'une est qui devrait détenir, autoriser et tracer l'argent que nous utilisons.
+  - Les miner avec un ordinateur portable.
+  - Les trouver dans le monde physique.
+  - Les créer en utilisant un logiciel spécial.
+explanation: |
+  Les utilisateurs peuvent obtenir des bitcoins en
+  les acceptant en échange ou en les achetant via des plateformes
+  régulées ou non régulées.
 reviewed: true

@@ -1,10 +1,9 @@
-question: Mikä on Bitcoin-solmun pyörittämisen kustannus Raspberry Pi 4; llä sähkönkulutuksen osalta vuodessa (vuonna 2023)?
-answer: Hieman alle 10€ vuodessa.
+question: Mikä oli lohkosodan lopputulos vuonna 2017?
+answer: Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit.
 wrong_answers:
-  - Hieman yli 50€ vuodessa.
-  - Hieman alle 100€ vuodessa.
-  - Noin 200€ vuodessa.
-explanation: |
-  Bitcoin-solmun pyörittäminen Raspberry Pi 4: llä maksaa hieman
-  alle 10€ vuodessa sähkönkulutuksen osalta vuonna 2023.
+  - Käyttäjät ja solmut hyväksyivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit.
+  - Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi eivätkä aktivoineet mitään päivityksiä.
+  - Käyttäjät ja solmut hyväksyivät ehdotetun muutoksen lohkokoon suurentamiseksi eivätkä aktivoineet mitään päivityksiä.
+explanation: >-
+  Vuoden 2017 lohkosodassa käyttäjät ja solmut voittivat hylkäämällä ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoimalla päivityksen nimeltä SegWit.
 reviewed: true

@@ -1,10 +1,12 @@
-question: Bitcoin Wallet'de açık anahtarın rolü nedir?
-answer: generate Bitcoin adresleri için kullanılır ve böylece para alır.
+question: Bu kursta, göndericinin paranızı çalmasına izin vermeden nasıl bitcoin alabileceğinizi açıklamak için kullanılan benzetme nedir?
+answer: Bir posta kutusu.
 wrong_answers:
-  - Bitcoin işlemlerini şifrelemek için kullanılır.
-  - Bitcoin Wallet'ya erişmek için kullanılır.
-  - Bitcoin Wallet'i yedeklemek için kullanılır.
+  - Bir banka hesabı.
+  - Bir kasa.
+  - Bir ev.
 explanation: |
-  Açık anahtar özel anahtardan türetilir ve kullanılır
-  para alabilmek için generate Bitcoin adreslerine göndermeleri gerekmektedir.
+  Bitcoin'leri nasıl alabileceğinizi açıklamak için kullanılan benzetme
+  gönderenin paranızı çalmasına izin vermeden
+  posta kutusu. İnsanlar içine para atıyor, ama sen sadece
+  onu açabilecek biri.
 reviewed: true

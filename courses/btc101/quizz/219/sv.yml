@@ -1,10 +1,8 @@
-question: Vad säger den här kursen om framtiden för Bitcoin?
-answer: Det kommer inte att försvinna.
+question: Vilken typ av nätverk skapar Lightning Network?
+answer: Ett nätverk av betalningskanaler.
 wrong_answers:
-  - Den kommer att ersättas av en bättre teknik.
-  - Det kommer att förbjudas över hela världen.
-  - Den kommer att förlora sitt värde.
-explanation: |
-  Kurstexten antyder att Bitcoin inte kommer att
-  försvinna. Tvärtom, revolutionen har bara börjat.
+  - Ett nätverk av Mining-noder.
+  - Ett nätverk av Blockchain-noder.
+  - Ett nätverk av kryptovalutabörser.
+explanation: >-
 reviewed: true

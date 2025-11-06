@@ -1,0 +1,20 @@
+id: 95ffeefd-9099-4e06-83d2-77f015107e00
+name: BitDevs Gitega
+category: education
+links:
+  website: https://bitdevsgtga.org/
+  twitter: https://x.com/bitdevsgtga
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-08-04
+    urgency: 1
+    contributor_names:
+      - AlphonseMehounme
+    reward: 0
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

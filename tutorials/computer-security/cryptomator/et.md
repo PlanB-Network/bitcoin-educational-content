@@ -42,7 +42,7 @@ Cryptomator on alternatiiv teistele rakendustele, eelkõige teises artiklis tutv
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomatori rakendus on saadaval **Windows** (exe / msi), **Linux**, **macOS,** aga ka **Android** ja **iOS**. Muide, kõik rakendused on tasuta, välja arvatud Androidi rakendus, mille eest tuleb maksta (14,99 eurot).
 
@@ -170,7 +170,7 @@ Seifi avamiseks peate sisestama oma salasõna. Seejärel klõpsake nuppu "**Vaba
 
 
 
-OneDrive'i poolel ei saa me Cryptomatori võlvkappi otse sirvida. Me ei näe andmeid (ei failide nimesid ega sisu). See tähendab, et te ei pea Cryptomatori võlvile andmeid lisama tavapärase OneDrive'i otsetee kaudu. **Te peate oma andmed lisama, kasutades Cryptomatori virtuaalset draivi
+OneDrive'i poolel ei saa me Cryptomatori võlvkappi otse sirvida. Me ei näe andmeid (ei failide nimesid ega sisu). See tähendab, et te ei pea Cryptomatori võlvile andmeid lisama tavapärase OneDrive'i otsetee kaudu. **Te peate oma andmed lisama, kasutades Cryptomatori virtuaalset draivi.**
 
 
 

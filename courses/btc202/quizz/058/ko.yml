@@ -1,0 +1,9 @@
+question: 노드와의 토르 통신의 주요 제한 사항은 무엇인가요?
+answer: 느림
+wrong_answers:
+  - 암호화 부족
+  - 스팸
+  - RPC 사용 불가
+explanation: |
+  토르 연결은 안전하지만 VPN과 같은 대체 서비스보다 속도가 느립니다.
+reviewed: true

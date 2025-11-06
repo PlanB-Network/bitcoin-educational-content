@@ -1,12 +1,12 @@
-question: Bir Bitcoin düğümünde dolaşımdaki bitcoin miktarını doğrulamak için komut nedir?
-answer: bitcoin-cli gettxoutsetinfo.
+question: Yedinci Halving hangi yıl gerçekleşecek?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Bitcoins miktarını doğrulama komutu
-  gW-7 düğümündeki dolaşım bitcoin-cli'dır
-  gettxoutsetinfo. Bu komut şeffaflık sağlar ve
-  doğrulanabilirlik, Bitcoin sistemine olan güveni güçlendirir.
+  7. Halving'nin 2036 yılında gerçekleşmesi ve tahmini
+  tedavüldeki Bitcoin sayısı 20.835.937,5 olacaktır,
+  bu da kabaca toplam Bitcoin'in %99,22'sine tekabül edecektir
+  Supply.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Alby webbläsartillägg
+name: Alby
 
 description: Webbläsartillägg för Bitcoin och Lightning Network
 ---

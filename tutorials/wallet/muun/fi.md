@@ -6,15 +6,15 @@ description: Muun-lompakon käyttöönotto
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) on itsehallinnollinen lompakko Bitcoinille ja Lightning-verkolle.
+[Muun](https://muun.com/) on itsehallinnollinen lompakko bitcoinille ja lightningille.
 
-## video-opas
+## Videotutoriaali
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun-lompakko - Kattava käyttöopas
 
-Kattava käyttöopas (kuvakaappauksin) Muun-sovellukselle; käyttäjäystävällinen mobiili Bitcoin-lompakko, joka mahdollistaa transaktioiden tekemisen Lightning-verkossa.
+Täydellinen käyttöopas (näyttökuvien kanssa) Muun-sovellukselle; käyttäjäystävällinen mobiili Bitcoin-lompakko, jonka avulla voit tehdä tapahtumia Lightning-verkossa.
 
 ![image](assets/0.5.webp)
 
@@ -118,15 +118,15 @@ Tässä on ohjeiden käännös:
 
 Tämä hätämenettely auttaa sinua palauttamaan varasi, jos et pysty käyttämään Muunia laitteellasi.
 
-1. Etsi palautuskoodisi
+- Etsi palautuskoodisi
 
 Kirjoitit tämän koodin paperille ennen hätäpakkauksesi luomista. Tarvitset sitä myöhemmin.
 
-2. Lataa palautustyökalu
+- Lataa palautustyökalu
 
 Siirry sivulle https://github.com/muun/recovery ja lataa työkalu tietokoneellesi.
 
-3. Palauta varasi
+- Palauta varasi
 
 Suorita palautustyökalu ja noudata vaiheita. Työkalu siirtää varasi valitsemaasi Bitcoin-osoitteeseen.
 
@@ -168,7 +168,7 @@ Mukautusvaihtoehdot löytyvät "Laskuasetukset" -valikosta. Täällä voit muutt
 
 ![kuva](assets/28.webp)
 
-## LNURL-toiminnon käyttö
+## LNURL-toiminnon käyttäminen
 Muun-lompakko tarjoaa mahdollisuuden käyttää LNURL:ää transaktioiden vastaanottamiseen. Tämä toiminto, joka aktivoidaan napauttamalla sivun oikeassa yläkulmassa sijaitsevaa neliön muotoista skannauskuvaketta, tarjoaa useita etuja, mukaan lukien tarpeen välttää laskun jakamista transaktion vastaanottamiseksi. Sen sijaan sinun tarvitsee skannata QR-koodi vastaanottaaksesi maksutiedot, jotka voit sen jälkeen vahvistaa vahvistaaksesi transaktioprosessin.
 ![image](assets/29.webp)
 

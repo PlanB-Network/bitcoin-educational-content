@@ -1,9 +1,9 @@
-question: Lightning Network上の取引手数料は非常に低く、多くの場合...以下ですか？
-answer: 0.5%未満。
+question: Lightning Networkで使用されるBitcoinの単位は何ですか？
+answer: Sats。
 wrong_answers:
-  - 1%未満。
-  - 2%未満。
-  - 3%未満。
-explanation: >-
-  Lightning Network上の取引手数料は非常に低く、多くの場合0.5%未満です。
+  - Block。
+  - Ether。
+  - Litecoin。
+explanation: |
+  Lightning Networkは、ビットコインの小数単位であるサトシ（satsとも呼ばれます）を使用して機能します。
 reviewed: true

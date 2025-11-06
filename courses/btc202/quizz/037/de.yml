@@ -1,0 +1,9 @@
+question: Welche Art von Maschine wird als der beste Kompromiss für einen Bitcoin-Heimknoten dargestellt?
+answer: Ein Mini-PC vom Typ NUC
+wrong_answers:
+  - Laptop-Computer
+  - Ein Supercomputer
+  - Eine Spielkonsole
+explanation: |
+  Mini-PCs (NUC, Tiny, OptiPlex Micro...) sind sparsam im Stromverbrauch, zuverlässig und leicht anpassbar, was sie zum idealen Kompromiss macht.
+reviewed: true

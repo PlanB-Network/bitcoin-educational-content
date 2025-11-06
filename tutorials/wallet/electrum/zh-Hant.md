@@ -1,19 +1,19 @@
 ---
-name: 銅
+name: Electrum
 
-description: 完整的電子幣指南，從 0 到英雄
+description: 完整的Electrum指南，從零到高手
 ---
 
 ![cover](assets/cover.webp)
 
 
-以下是一些關於 Electrum 的描述資料：
+以下是Electrum的一些描述來源：
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
-- [Electrum 網站](https://electrum.org/)
-- [Electrum 文件](https://electrum.readthedocs.io/)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 以下是 Rogzy 對本教程的看法：
@@ -625,7 +625,7 @@ ipconfig/all
 ![image](assets/22.webp)
 
 
-*請注意***，這些 IP 位址是您家庭網路的內部 IP 位址。外面的人看不到它們，而且它們並不敏感。它們有點像是大型機構中的電話分機，指引您使用不同的電話。
+**請注意**，這些 IP 位址是您家庭網路的內部 IP 位址。外面的人看不到它們，而且它們並不敏感。它們有點像是大型機構中的電話分機，指引您使用不同的電話。
 
 
 ## 刪除虛擬 Wallet

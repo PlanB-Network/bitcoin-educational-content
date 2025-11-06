@@ -1,5 +1,5 @@
 ---
-name: Ogony
+name: Tails
 
 description: Zainstaluj Tails na kluczu USB
 ---
@@ -117,8 +117,8 @@ Aby zweryfikować plik, użyj przycisku "Wybierz pobieranie..." dostępnego w of
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher i https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher i https://tails.boum.org/install/mac/index.fr.html#install
 
 
 Ten krok instalacji Tails na kluczu USB jest najtrudniejszy w całym przewodniku, zwłaszcza jeśli nigdy wcześniej tego nie robiłeś. Najważniejszą kwestią jest wybranie właściwej procedury w oficjalnej sekcji dla danego systemu operacyjnego: Linux lub macOS.
@@ -142,7 +142,7 @@ Powodzenia i do zobaczenia na 4. etapie.
 Nadszedł czas, aby uruchomić jeden z komputerów za pomocą nowej pamięci USB. Włóż ją do jednego z portów USB i uruchom ponownie!
 
 
-**Uwaga💡: Większość komputerów nie uruchamia się automatycznie z pamięci USB Tails, ale można nacisnąć przycisk menu rozruchu, aby wyświetlić listę możliwych urządzeń do uruchomienia
+**Uwaga💡: Większość komputerów nie uruchamia się automatycznie z pamięci USB Tails, ale można nacisnąć przycisk menu rozruchu, aby wyświetlić listę możliwych urządzeń do uruchomienia**
 
 
 Aby określić, który klawisz należy nacisnąć, aby upewnić się, że menu rozruchowe umożliwia wybranie pamięci USB zamiast zwykłego dysku Hard, poniżej znajduje się niewyczerpująca lista według producenta:

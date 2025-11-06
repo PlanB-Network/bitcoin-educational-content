@@ -1,0 +1,9 @@
+question: Hangi Avusturyalı ekonomist plancılıktan bahseder?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992), merkezi ekonomik planlamayı tanımlamak için "plancılık" terimini icat eden Avusturyalı iktisatçıdır. "Köleliğe Giden Yol" adlı eserinde bu yaklaşımı eleştirmektedir.
+reviewed: false

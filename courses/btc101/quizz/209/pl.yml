@@ -1,8 +1,13 @@
-question: Do czego podobna jest krzywa adopcji Bitcoin?
-answer: Krzywa S.
+question: Jaki jest status Bitcoin w Salwadorze?
+answer: Prawny środek płatniczy.
 wrong_answers:
-  - Krzywa w kształcie litery U.
-  - Krzywa V.
-  - Krzywa W.
-explanation: >-
+  - Kryminalizacja.
+  - Nieznany.
+  - Nieuregulowane.
+explanation: |
+  W tekście kursu wspomniano, że niektóre kraje zakazały
+  i kryminalizowały użycie Bitcoin, dodając do tego
+  złożoność przyjęcia Bitcoin w oparciu o kultury, epoki i narody
+  narodów. Jednak Salwador był na tyle odważny, by przyjąć Bitcoin jako
+  jako legalny środek płatniczy.
 reviewed: true

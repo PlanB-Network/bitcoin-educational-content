@@ -1,4 +1,4 @@
-question: Which protocol is used by the ping command to test network connectivity?
+question: Which protocol does the ping command use to test network connectivity?
 answer: ICMP
 wrong_answers:
   - TCP

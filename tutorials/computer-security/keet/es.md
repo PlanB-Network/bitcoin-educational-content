@@ -1,5 +1,5 @@
 ---
-name: Tecla
+name: Keet
 description: Chat entre iguales
 ---
 ![cover](assets/cover.webp)
@@ -329,8 +329,8 @@ Enhorabuena, ya estás al día en el uso de la mensajería Keet, ¡una gran alte
 
 
 
-También te recomendamos este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail :
+También te recomendamos este otro tutorial, en el que te presento Proton Mail, una alternativa mucho más respetuosa con la privacidad que Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

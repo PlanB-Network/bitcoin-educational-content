@@ -1,11 +1,11 @@
-question: Jaki jest cel Bitcoin Wallet?
-answer: Do przechowywania kluczy prywatnych w celu dokonywania transakcji bitcoinami.
+question: Kto był pierwszą osobą, która dołączyła do sieci Bitcoin po Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Wykorzystanie zasobów urządzenia do wydobywania bitcoinów.
-  - Aby kupić bitcoiny za pomocą klucza publicznego.
-  - Przechowywanie bitcoinów na urządzeniu.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Portfele Bitcoin to rodzaj oprogramowania, które służy do
-  przechowywania kluczy prywatnych, które umożliwiają dokonywanie transakcji
-  bitcoinami.
+  Hal Finney był pierwszą osobą, która dołączyła do sieci Bitcoin
+  po samym Nakamoto Satoshi. Napisał nawet na Twitterze Running
+  Bitcoin, aby uczcić tę okazję.
 reviewed: true

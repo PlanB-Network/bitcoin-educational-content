@@ -1,0 +1,9 @@
+question: Ni ubuhe buhinga bwo gukingira Wi-Fi bwiza bwo gukingira urubuga rwawe rwo muhira?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS yihuta
+explanation: |
+  WPA3 ni porotokole nshasha kandi itekanye cane, ikosora amakosa y’amaverisiyo ya kera kandi itanga uburinzi bwiza ku bitero.
+reviewed: false

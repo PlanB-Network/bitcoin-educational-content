@@ -1,0 +1,9 @@
+question: मानक IPv4 Address की लंबाई (बिट्स में) कितनी है?
+answer: 32-बिट
+wrong_answers:
+  - 8 बिट्स
+  - 128 बिट
+  - 16 बिट्स
+explanation: |
+  IPv4 Address को 32 बिट्स पर एनकोड किया जाता है, जो 8 बिट्स के चार बाइट्स में विभाजित होता है।
+reviewed: false

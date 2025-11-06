@@ -1,12 +1,12 @@
 ---
 name: Attakaï
 
-description: mengubah S9 menjadi sistem pemanas rumah
+description: Transformasi S9 menjadi pemanas rumah
 ---
 
 ![cover](assets/cover.webp)
 
-# Attakai - membuat penambangan di rumah menjadi mungkin dan mudah diakses!
+## Attakaï - penambangan rumahan kini mungkin dan dapat diakses!
 
 Inisiatif "Attakaï" mengeksplorasi penambangan Bitcoin menggunakan panas yang dihasilkan. Panduan ini menawarkan solusi untuk membuat penambang cocok digunakan sebagai radiator di rumah, memberikan lebih banyak kenyamanan dan penghematan energi. Bitcoin secara otomatis menyesuaikan kesulitan penambangan dan memberi hadiah kepada penambang atas kerja mereka. Namun, konsentrasi hashrate dapat menimbulkan risiko terhadap netralitas jaringan. "Attakaï" menyediakan panduan praktis untuk memodifikasi penambang secara ekonomis, memungkinkan peserta untuk mengurangi tagihan listrik mereka dan mendapatkan hadiah dengan sats tanpa KYC.
 
@@ -30,7 +30,6 @@ Bitcoin dan sistem bukti kerja (proof of work) nya menonjol karena secara otomat
 
 Ringkasnya, sebuah radiator listrik dan penambang Bitcoin keduanya menghasilkan 1 kW panas untuk 1 kW listrik yang dikonsumsi. Namun, penambang juga menerima bitcoin sebagai hadiah. Terlepas dari harga listrik, harga bitcoin, atau persaingan aktivitas penambangan di jaringan Bitcoin, secara ekonomis lebih menguntungkan untuk memanaskan dengan penambang daripada radiator listrik.
 
-![Presentasi Video](https://youtu.be/gKoh44UCSnE)
 
 ### Nilai Tambah untuk Bitcoin
 
@@ -60,38 +59,38 @@ Antminer S9 hadir dalam beberapa varian (i, j) yang membawa modifikasi kecil pad
 
 Harga ASIC bervariasi tergantung pada banyak faktor seperti harga bitcoin, kesulitan jaringan, efisiensi mesin, dan biaya listrik. Oleh karena itu, sulit untuk memberikan perkiraan yang akurat untuk membeli mesin bekas. Pada Februari 2023, harga yang diharapkan di Prancis umumnya berkisar antara €100 dan €200, tetapi harga ini dapat berubah dengan cepat.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 Antminer S9 terdiri dari bagian-bagian berikut:
 
 - 3 hashboard di mana chip yang menghasilkan kekuatan hashing berada
 
-![image](assets/guide-achat/2.webp)
+![image](assets/fr/002.webp)
 
 - Sebuah papan kontrol yang mencakup slot untuk kartu SD, port Ethernet, dan konektor untuk hashboard dan kipas. Ini adalah otak dari ASIC Anda.
-  ![image](assets/guide-achat/3.webp)
+  ![image](assets/fr/003.webp)
 
 - 3 kabel data yang menghubungkan hashboard ke papan kontrol.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 - Pasokan daya yang beroperasi pada 220V dan dapat dicolokkan seperti peralatan rumah tangga biasa.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 - 2 kipas 120mm.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 - Sebuah kabel laki-laki C13.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 Saat membeli mesin bekas, penting untuk memeriksa bahwa semua bagian termasuk dan berfungsi. Selama pertukaran, Anda harus meminta penjual untuk menyalakan mesin untuk memverifikasi fungsinya dengan benar. Penting untuk memeriksa bahwa perangkat menyala dengan benar, lalu periksa konektivitas internet dengan menghubungkan kabel Ethernet dan mengakses antarmuka koneksi Bitmain melalui browser web di jaringan lokal yang sama. Anda dapat menemukan alamat IP ini dengan terhubung ke antarmuka router internet Anda dan mencari perangkat yang terhubung. Alamat ini harus memiliki format berikut: 192.168.x.x
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 Juga, periksa bahwa kredensial default berfungsi (username: root, password: root). Jika kredensial default tidak berfungsi, Anda perlu melakukan reset mesin.
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 Setelah terhubung, Anda seharusnya dapat melihat status setiap hashboard di dashboard. Jika penambang terhubung ke sebuah pool, Anda seharusnya melihat semua hashboard berfungsi. Penting untuk dicatat bahwa penambang membuat banyak kebisingan, yang merupakan hal normal. Juga, pastikan kipas berfungsi dengan baik.
 
@@ -101,7 +100,7 @@ Untuk merangkum panduan ini dalam satu kalimat: **"Jangan percaya, verifikasi."*
 
 ## Bab 2: Panduan Pembelian untuk Bagian Modifikasi
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 ### Bagaimana mengubah Antminer S9 Anda menjadi pemanas yang senyap dan terhubung?
 
@@ -111,24 +110,24 @@ Jika Anda memiliki Antminer S9, Anda mungkin tahu betapa keras dan besar ukurann
 
 Kipas asli dari Antminer S9 terlalu keras untuk digunakan sebagai pemanas. Solusinya adalah menggantinya dengan kipas yang lebih senyap. Tim kami telah menguji beberapa model dari merek Noctua dan memilih Noctua NF-A14 iPPC-2000 PWM sebagai kompromi terbaik. Pastikan untuk memilih versi 12V dari kipas. Kipas 140mm ini dapat menghasilkan hingga 1300W panas sambil mempertahankan tingkat kebisingan teoritis sebesar 31 dB. Untuk memasang kipas 140mm ini, Anda akan membutuhkan adaptor 140mm ke 120mm, yang dapat Anda temukan di toko DécouvreBitcoin. Kami juga akan menambahkan gril pelindung 140mm.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/fr/010.webp)
+![image](assets/fr/011.webp)
+![image](assets/fr/012.webp)
 Kipas catu daya juga cukup berisik dan perlu diganti. Kami merekomendasikan Noctua NF-A6x25 PWM. Perhatikan bahwa konektor dari kipas Noctua tidak sama dengan yang asli, jadi Anda akan memerlukan adaptor konektor untuk menghubungkannya. Dua seharusnya cukup. Lagi, pastikan untuk memilih versi 12V dari kipas tersebut.
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/fr/013.webp)
+![image](assets/fr/014.webp)
 
 ### 2. Tambahkan jembatan WIFI/Ethernet
 
 Alih-alih menggunakan kabel Ethernet, Anda dapat menghubungkan Antminer Anda ke WIFI dengan menambahkan jembatan WIFI/Ethernet. Kami telah memilih vonets vap11g-300 karena dengan mudah memungkinkan Anda untuk mengambil sinyal WIFI dari kotak Internet Anda dan mentransmisikannya ke Antminer Anda melalui Ethernet tanpa menciptakan subnet. Jika Anda memiliki keahlian listrik, Anda dapat memberi daya langsung dengan catu daya Antminer tanpa perlu menambahkan pengisi daya USB. Untuk ini, Anda akan memerlukan jack betina 5.5mmx2.1mm.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/fr/015.webp)
+![image](assets/fr/016.webp)
 
 ### 3. Opsional: Tambahkan colokan pintar
 
 Jika Anda ingin menyalakan/mematikan Antminer Anda dari smartphone dan memantau konsumsi dayanya, Anda dapat menambahkan colokan pintar. Kami telah menguji colokan ANTELA dalam versi 16A, kompatibel dengan aplikasi smartlife. Colokan pintar ini memungkinkan Anda untuk memeriksa konsumsi daya harian dan bulanan dan terhubung langsung ke kotak Internet Anda melalui WIFI.
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 > Daftar peralatan dan tautan
 >
@@ -142,7 +141,7 @@ Jika Anda ingin menyalakan/mematikan Antminer Anda dari smartphone dan memantau 
 
 ## Bab 3 - TUTORIAL: Bagaimana Cara Mengubah Miner Menjadi Pemanas?
 
-![image](assets/hardware/0.webp)
+![image](assets/fr/039.webp)
 
 Jika Anda adalah seorang DIYer yang terampil dan ingin mengubah miner menjadi pemanas, tutorial ini adalah untuk Anda. Kami ingin memperingatkan Anda bahwa memodifikasi perangkat elektronik dapat menimbulkan risiko listrik dan kebakaran. Sangat penting untuk mengambil semua tindakan pencegahan yang diperlukan untuk menghindari kerusakan atau cedera.
 Dari pabrik, miner sebenarnya tidak dapat digunakan sebagai radiator di rumah karena terlalu bising dan tidak dapat diatur. Namun, dimungkinkan untuk melakukan modifikasi sederhana untuk mengatasi masalah ini.
@@ -165,14 +164,14 @@ Kami akan mulai dengan mengganti kipas catu daya.
 
 > PERINGATAN: Pertama dan terutama, sebelum memulai, pastikan Anda telah mencabut miner Anda untuk menghindari risiko tersengat listrik.
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 Kami akan mulai dengan mengganti kipas catu daya.
 
 Pertama, lepaskan 6 sekrup di sisi casing yang menahannya tertutup. Setelah sekrup dilepas, buka casing dengan hati-hati untuk mengeluarkan penutup plastik yang melindungi komponen.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)
+![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)
 Selanjutnya, saatnya untuk melepas kipas asli, dengan berhati-hati agar tidak merusak komponen lainnya. Untuk melakukan ini, lepaskan sekrup yang menahannya dan perlahan kupas lem putih yang mengelilingi konektor. Sangat penting untuk berproses dengan hati-hati untuk menghindari kerusakan pada kabel atau konektor.
 
 Setelah kipas asli dilepas, Anda akan menyadari bahwa konektor kipas Noctua baru tidak cocok dengan kipas asli. Memang, kipas baru memiliki 3 kabel, termasuk kabel kuning yang memungkinkan kontrol kecepatan. Namun, kabel ini tidak akan digunakan dalam kasus spesifik ini. Untuk menghubungkan kipas baru, disarankan untuk menggunakan adaptor khusus. Namun, penting untuk dicatat bahwa adaptor ini terkadang sulit ditemukan.
@@ -197,38 +196,38 @@ Setelah sambungan dibuat, pastikan untuk meletakkan penutup plastik di atas casi
 Akhirnya, pasang kembali penutup casing dan kencangkan 6 sekrup di sisi-sisinya untuk menahan semuanya dengan aman di tempatnya. Dan sekarang, casing catu daya Anda telah dilengkapi dengan kipas baru.
 ### Penggantian 2 kipas utama
 
-1. Pertama, cabut kipas dan lepaskan sekrupnya.
-   ![image](assets/hardware/19.webp)
+- Pertama, cabut kipas dan lepaskan sekrupnya.
+   ![image](assets/fr/058.webp)
 
-2. Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan panik! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna dengan penambang Anda.
+- Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan panik! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna dengan penambang Anda.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
+![image](assets/fr/059.webp)
+![image](assets/fr/060.webp)
 
-3. Saatnya memasang bagian 3D!
+- Saatnya memasang bagian 3D!
    Pasang di kedua sisi penambang menggunakan sekrup yang Anda lepas dari kipas. Kencangkan sampai kepala sekrup masuk ke dalam bagian 3D dan tertahan dengan aman di tempatnya. Berhati-hatilah untuk tidak mengencangkan terlalu kuat, karena Anda bisa merusak bagian tersebut dan salah satu sekrup mungkin menyentuh kapasitor! Kemudian potong dengan hati-hati tab plastik kecil agar konektor pas sempurna dengan penambang Anda.
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
-4. Sekarang mari kita lanjutkan ke kipas.
+- Sekarang mari kita lanjutkan ke kipas.
    Pasang ke bagian 3D menggunakan sekrup yang disediakan dalam kotak. Perhatikan arah aliran udara, panah di sisi kipas akan menunjukkan arah yang harus diikuti. Mulai dari sisi port Ethernet ke sisi lain. Lihat foto di bawah ini.
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/fr/062.webp)
+![image](assets/fr/063.webp)
+![image](assets/fr/064.webp)
 
-5. Langkah terakhir: colokkan kipas dan pasang gril di atas dengan sekrup yang tidak digunakan dari kotak kipas. Anda hanya memiliki 4, tapi 2 per gril di sudut berlawanan sudah cukup. Anda juga bisa mencari sekrup serupa lainnya di toko perangkat keras jika diperlukan.
+- Langkah terakhir: colokkan kipas dan pasang gril di atas dengan sekrup yang tidak digunakan dari kotak kipas. Anda hanya memiliki 4, tapi 2 per gril di sudut berlawanan sudah cukup. Anda juga bisa mencari sekrup serupa lainnya di toko perangkat keras jika diperlukan.
 
-![image](assets/hardware/26.webp)
-'![image](assets/hardware/27.webp)
+![image](assets/fr/065.webp)
+'![image](assets/fr/066.webp)
 
 Sambil menunggu bisa menawarkan casing yang lebih menarik untuk pemanas baru Anda, Anda dapat mengikat casing dan catu daya bersama-sama dengan tali kabel elektrik.
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 Dan untuk sentuhan akhir, sambungkan jembatan Vonet ke port Ethernet pada catu dayanya. Jika Anda belum melakukannya, Anda dapat mengikuti tutorial ini untuk mengatur jembatan Anda.
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 Dan sekarang, selamat! Anda baru saja mengganti seluruh bagian mekanis penambang Anda. Anda sekarang seharusnya mendengar suara yang jauh lebih sedikit.
 
@@ -242,7 +241,7 @@ Metode ini dapat diterapkan dalam 10 menit setelah memulai penambang.
 
 Setelah menyalakan penambang selama 2 menit, tekan tombol "Reset" selama 5 detik, kemudian lepaskan. Penambang akan dikembalikan ke pengaturan pabrik dalam waktu 4 menit dan akan secara otomatis restart (tidak perlu mematikannya).
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 Restore via web side
 
@@ -252,7 +251,7 @@ Masuk ke antarmuka pengguna penambang Anda, klik pada "Upgrade" >> "Perform a re
 Untuk bagian ini, kita akan mengasumsikan bahwa mesin sedang berfungsi, berjalan, dan sistem operasi aslinya telah terinstal. Kita akan melihat secara singkat antarmuka dari sistem operasi asli yang ditawarkan oleh Bitmain.
 Pertama, sambungkan ke mesin Anda melalui jaringan lokal Anda:
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 Setelah berada di halaman login, Anda perlu login ke ASIC menggunakan kredensial default:
 
@@ -263,11 +262,11 @@ Setelah berada di halaman login, Anda perlu login ke ASIC menggunakan kredensial
 
 Sistem operasi utama relatif dasar. Dengan 4 tab: Sistem, Konfigurasi Penambang, Status Penambang, Jaringan. Di tab Konfigurasi Penambang, Anda dapat mengonfigurasi hingga 3 kolam penambangan.
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 Di tab Status Penambang, Anda dapat mengamati berbagai informasi tentang operasi langsung dari ASIC. Hashrate yang dinyatakan dalam GH/s, informasi lebih detail tentang kolam, serta detail tentang status setiap hashboard dan kecepatan kipas dalam rotasi/menit.
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 ### Braiins OS+
 
@@ -287,60 +286,60 @@ Ada beberapa cara untuk menginstal Braiins OS+ pada ASIC. Anda dapat merujuk ke 
 Menginstal Braiins OS+ langsung pada memori Antminer
 
 Pelajari cara mudah menginstal Braiins OS+ langsung pada memori Antminer Anda menggunakan BOS toolbox, menggantikan sistem operasi asli, melalui langkah-langkah rinci di bawah ini. Jika Anda ingin menjaga OS asli secara paralel, Anda dapat menginstal Braiins OS+ pada kartu SD.
-1. Nyalakan Antminer Anda dan hubungkan ke kotak internet Anda.
-2. Unduh BOS toolbox Windows / Linux.
-3. Ekstrak file yang diunduh dan buka file bos-toolbox.bat, pilih bahasa, dan setelah beberapa saat Anda akan melihat jendela ini:
-   ![image](assets/software/5.webp)
+- Nyalakan Antminer Anda dan hubungkan ke kotak internet Anda.
+- Unduh BOS toolbox Windows / Linux.
+- Ekstrak file yang diunduh dan buka file bos-toolbox.bat, pilih bahasa, dan setelah beberapa saat Anda akan melihat jendela ini:
+   ![image](assets/fr/022.webp)
 
-4. BOS toolbox akan memudahkan Anda untuk menemukan alamat IP Antminer Anda dan menginstal Braiins OS+. Jika Anda sudah mengetahui alamat IP mesin Anda, Anda dapat langsung ke langkah 8. Jika tidak, pergi ke tab pemindaian.
+- BOS toolbox akan memudahkan Anda untuk menemukan alamat IP Antminer Anda dan menginstal Braiins OS+. Jika Anda sudah mengetahui alamat IP mesin Anda, Anda dapat langsung ke langkah 8. Jika tidak, pergi ke tab pemindaian.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
-5. Biasanya, pada jaringan rumah, rentang alamat IP adalah antara 192.168.1.1 dan 192.168.1.255, jadi masukkan "192.168.1.0/24" di bidang rentang IP. Jika jaringan Anda berbeda, silakan ubah alamat-alamat ini. Kemudian klik "Mulai".
+- Biasanya, pada jaringan rumah, rentang alamat IP adalah antara 192.168.1.1 dan 192.168.1.255, jadi masukkan "192.168.1.0/24" di bidang rentang IP. Jika jaringan Anda berbeda, silakan ubah alamat-alamat ini. Kemudian klik "Mulai".
 
-6. Perhatian, jika Antminer memiliki kata sandi, deteksi tidak akan berfungsi. Jika itu masalahnya, solusi termudah adalah melakukan reset pabrik.
+- Perhatian, jika Antminer memiliki kata sandi, deteksi tidak akan berfungsi. Jika itu masalahnya, solusi termudah adalah melakukan reset pabrik.
 
-7. Anda seharusnya dapat melihat semua Antminer di jaringan Anda, di sini alamat IP adalah 192.168.1.37.
+- Anda seharusnya dapat melihat semua Antminer di jaringan Anda, di sini alamat IP adalah 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
-8. Klik pada Kembali, kemudian pergi ke tab instalasi, masukkan alamat IP yang sebelumnya ditemukan di bidang Miner(s) dan "admin" (atau "root") di bidang Kata Sandi, yang merupakan kata sandi default, kemudian klik "Mulai".
+- Klik pada Kembali, kemudian pergi ke tab instalasi, masukkan alamat IP yang sebelumnya ditemukan di bidang Miner(s) dan "admin" (atau "root") di bidang Kata Sandi, yang merupakan kata sandi default, kemudian klik "Mulai".
    Jika instalasi tidak berhasil dengan "admin" atau "root" sebagai kata sandi, mungkin perlu melakukan reset pabrik dan coba lagi.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
-9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang bersangkutan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
+- Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang bersangkutan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
    Menginstal Braiins OS+ pada kartu SD
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 Metode kedua menggunakan antarmuka asli Antminer Anda. Metode ini berfungsi untuk mesin dengan sistem operasi yang berasal dari sebelum tahun 2019.
 
 ### Antarmuka Antminer
 
-1. Unduh sistem operasi baru yang akan diinstal di sini.
-2. Seperti pada bagian sebelumnya, sambungkan ke mesin Anda melalui jaringan lokal Anda.
-3. Pergi ke tab Sistem dan kemudian Upgrade.
-4. Muat file yang Anda unduh dan flash gambar tersebut.
+- Unduh sistem operasi baru yang akan diinstal di sini.
+- Seperti pada bagian sebelumnya, sambungkan ke mesin Anda melalui jaringan lokal Anda.
+- Pergi ke tab Sistem dan kemudian Upgrade.
+- Muat file yang Anda unduh dan flash gambar tersebut.
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 ### Kartu Micro SD
 
 Metode kedua memungkinkan Anda menggunakan kartu micro SD. Metode ini hanya berfungsi dengan mesin dengan sistem operasi yang berasal dari setelah tahun 2019.
 
-1. Unduh sistem operasi baru yang akan diinstal di sini.
+- Unduh sistem operasi baru yang akan diinstal di sini.
 
-2. Flash gambar yang diunduh ke kartu micro SD. Untuk ini, Anda dapat menggunakan Etcher. Sekadar menyalin file ke kartu micro SD tidak akan berhasil.
-3. Jika Anda memiliki Antminer S9 dan variasinya (S9i, S9j), Anda perlu menyesuaikan jumper untuk memaksa ASIC Anda boot dari file di kartu micro SD daripada NAND. Jika Anda memiliki model yang berbeda, Anda dapat melanjutkan ke bagian 4. Jumper terletak di papan kontrol di bagian atas ASIC, dekat dengan port Ethernet. Anda perlu melepasnya dengan menggesernya ke belakang. Setelah posisi jumper dimodifikasi seperti yang ditunjukkan pada gambar di bawah BOOT FROM SD, Anda dapat memasukkan kembali papan kontrol dan menyambungkan kembali S9.
-![image](assets/software/12.webp)
+- Flash gambar yang diunduh ke kartu micro SD. Untuk ini, Anda dapat menggunakan Etcher. Sekadar menyalin file ke kartu micro SD tidak akan berhasil.
+- Jika Anda memiliki Antminer S9 dan variasinya (S9i, S9j), Anda perlu menyesuaikan jumper untuk memaksa ASIC Anda boot dari file di kartu micro SD daripada NAND. Jika Anda memiliki model yang berbeda, Anda dapat melanjutkan ke bagian 4. Jumper terletak di papan kontrol di bagian atas ASIC, dekat dengan port Ethernet. Anda perlu melepasnya dengan menggesernya ke belakang. Setelah posisi jumper dimodifikasi seperti yang ditunjukkan pada gambar di bawah BOOT FROM SD, Anda dapat memasukkan kembali papan kontrol dan menyambungkan kembali S9.
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
-4. Masukkan kartu micro SD ke dalam ASIC.
-5. Start ASIC. Jika versi instalasi otomatis digunakan, sistem operasi baru akan terinstal secara otomatis. Instalasi selesai ketika kedua LED menyala bersamaan. Anda dapat merestart ASIC dan melepas kartu micro SD. Jika versi lain yang diunduh, Anda perlu membiarkan kartu micro SD tetap berada di dalam ASIC.
+- Masukkan kartu micro SD ke dalam ASIC.
+- Start ASIC. Jika versi instalasi otomatis digunakan, sistem operasi baru akan terinstal secara otomatis. Instalasi selesai ketika kedua LED menyala bersamaan. Anda dapat merestart ASIC dan melepas kartu micro SD. Jika versi lain yang diunduh, Anda perlu membiarkan kartu micro SD tetap berada di dalam ASIC.
 
 Untuk informasi lebih lanjut tentang instalasi, Anda dapat mengunjungi bagian ini di situs web Braiins.
 
@@ -357,7 +356,7 @@ Anda kemudian akan disambut oleh Dashboard Brains OS+.
 
 ### Dashboard
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time.
 
@@ -365,7 +364,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 - Di sebelah kanan, hashrate nyata, suhu chip rata-rata, efisiensi estimasi dalam W/THs, dan konsumsi daya.
 - Di bawah, kecepatan kipas dalam persentase dari kecepatan maksimum dan jumlah rotasi per menit.
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 - Lebih lanjut ke bawah, Anda akan menemukan tampilan detil dari setiap hashboard. Suhu rata-rata papan dan chip yang terkandung, tegangan, dan frekuensi.
 - Detail tentang kolam penambangan aktif di Pools.
@@ -374,17 +373,17 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 ### Konfigurasi
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 ### Sistem
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 ### Aksi Cepat
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
-Mengonfigurasi sebuah kolam
+## Konfigurasi pool
 Seseorang dapat membayangkan kolam penambangan seperti sebuah koperasi pertanian. Para petani menggabungkan produksi mereka bersama-sama untuk mengurangi varians pasokan dan permintaan dan dengan demikian memperoleh pendapatan yang lebih stabil untuk operasi mereka. Kolam penambangan bekerja dengan cara yang sama, dan bahan mentah yang digabungkan bersama adalah hash. Faktanya, penemuan satu hash yang valid memungkinkan pembuatan sebuah blok dan dengan demikian memenangkan coinbase atau hadiah, saat ini 3.125 BTC ditambah biaya transaksi yang termasuk dalam blok. Jika Anda menambang sendirian, Anda hanya akan diberi hadiah ketika Anda menemukan sebuah blok. Berada dalam persaingan melawan semua penambang lain di planet ini, Anda akan memiliki peluang yang sangat kecil untuk memenangkan lotere besar ini dan Anda masih harus membayar biaya yang terkait dengan penggunaan penambang Anda tanpa jaminan keberhasilan. Kolam penambangan mengatasi masalah ini dengan menggabungkan kekuatan komputasi dari beberapa (ribuan) penambang dan membagikan hadiah mereka berdasarkan persentase partisipasi dalam hashrate kolam ketika sebuah blok ditemukan. Untuk memvisualisasikan peluang Anda menambang sebuah blok sendirian, Anda dapat menggunakan alat ini. Dengan memasukkan informasi dari Antminer S9, kita dapat melihat bahwa peluang menemukan hash yang memungkinkan pembuatan blok adalah 1 dalam 24,777,849 untuk setiap blok atau 1 dalam 172,068 per hari. Rata-rata (dengan hashrate dan kesulitan yang konstan), akan memakan waktu 471 tahun untuk menemukan sebuah blok.
 Namun, karena segala sesuatu dalam Bitcoin adalah probabilitas, terkadang terjadi bahwa penambang solo diberi hadiah karena mengambil risiko ini: Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
 
@@ -397,17 +396,17 @@ Model hadiah yang menarik bagi kami adalah PPS, yang berarti "bayar-per-bagian".
 - Linecoin: Keunggulan Linecoin terletak pada jumlah fitur yang ditawarkan, seperti dashboard yang detail, kemampuan untuk melakukan penarikan dengan Paynym (BIP 47) untuk perlindungan privasi yang lebih baik, dan integrasi bot Telegram serta otomatisasi yang dapat dikonfigurasi langsung di aplikasi seluler. Pool ini hanya menambang blok Bitcoin, tetapi jumlah minimum untuk penarikan tetap tinggi pada 100.000 sats. Kami akan mengulas antarmuka salah satu pool ini lebih detail dalam artikel mendatang.
 Untuk mengonfigurasi pool di Braiins OS+, Anda perlu membuat akun di salah satu pool pilihan Anda. Di sini kami akan mengambil contoh Linecoin:
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 Setelah akun Anda dibuat, klik pada Connect To Pool
 
 Kemudian salin alamat Stratum serta nama pengguna Anda:
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 Anda sekarang dapat kembali ke antarmuka Braiins OS+ untuk memasukkan kredensial ini. Untuk kata sandi, Anda dapat meninggalkan kolom tersebut kosong.
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 ### Overclocking dan Underclocking
 
@@ -428,3 +427,5 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, dan oleh karena itu, merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya untuk mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan untuk autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
 > Panduan dibuat oleh DecouvreBitcoin, info lebih lanjut tentang MINAGE 201 - kredit untuk Jim dan Ajelex'
+
+

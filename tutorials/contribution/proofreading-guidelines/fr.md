@@ -1,27 +1,27 @@
 ---
 name: Lignes directrices pour la relecture
-description: Quels sont les facteurs importants à prendre en compte lors de la relecture sur Plan ₿ Network ?
+description: Quels sont les facteurs importants à prendre en compte lors de la relecture sur Plan ₿ Academy ?
 ---
 
 ![github](assets/cover.webp)
 
 
-Bienvenue dans ce tutoriel sur les **règles à suivre lors de la relecture de contenu sur Plan ₿ Network**. Nous sommes heureux que vous partagiez notre mission de traduire les documents Bitcoin dans le plus grand nombre de langues possible, afin d'aider les gens à prendre conscience de son fonctionnement et de la façon dont il peut être utilisé dans leur vie quotidienne.
+Bienvenue dans ce tutoriel sur les **règles à suivre lors de la relecture de contenu sur Plan ₿ Academy**. Nous sommes heureux que vous partagiez notre mission de traduire les documents Bitcoin dans le plus grand nombre de langues possible, afin d'aider les gens à prendre conscience de son fonctionnement et de la façon dont il peut être utilisé dans leur vie quotidienne.
 
 
-Tout d'abord, contribuer au [dépôt public] (https://github.com/PlanB-Network/Bitcoin-educational-content) de Plan ₿ Network vous donne la possibilité d'écrire des tutoriels, de relire le contenu existant, ou même de proposer l'ajout d'une nouvelle langue à la plateforme. Pour en savoir plus, rejoignez d'abord notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder), et écrivez une brève présentation de vous et des langues que vous pouvez parler.
+Tout d'abord, contribuer au [dépôt public] (https://github.com/PlanB-Network/Bitcoin-educational-content) de Plan ₿ Academy vous donne la possibilité d'écrire des tutoriels, de relire le contenu existant, ou même de proposer l'ajout d'une nouvelle langue à la plateforme. Pour en savoir plus, rejoignez d'abord notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder), et écrivez une brève présentation de vous et des langues que vous pouvez parler.
 
 
-Ce tutoriel est dédié aux contributeurs qui souhaitent relire du contenu. La plupart d'entre eux ne connaissent pas grand-chose à [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou au [langage Markdown](https://www.markdownguide.org/basic-syntax/) que nous utilisons dans le dépôt, il est donc important de partager quelques idées sur les facteurs clés impliqués dans cette tâche.
+Ce tutoriel est dédié aux contributeurs qui souhaitent relire du contenu. La plupart d'entre eux ne connaissent pas grand-chose à [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou au [langage Markdown](https://www.markdownguide.org/basic-syntax/) que nous utilisons dans le dépôt, il est donc important de partager quelques idées sur les facteurs clés impliqués dans cette tâche.
 
 
 Ci-dessous, j'ai rassemblé les problèmes les plus courants rencontrés par les correcteurs. N'hésitez pas à en suggérer d'autres, car cela peut aider d'autres personnes à s'améliorer.
 
 
-Avant de plonger dans les détails, la première chose à faire est de lire ce tutoriel sur les actions pratiques à suivre sur Github, en forkant le dépôt Plan ₿ Network, en commettant des changements et en envoyant des PRs :
+Avant de plonger dans les détails, la première chose à faire est de lire ce tutoriel sur les actions pratiques à suivre sur Github, en forkant le dépôt Plan ₿ Academy, en commettant des changements et en envoyant des PRs :
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Qu'est-ce que la relecture ?
@@ -38,13 +38,13 @@ N'oubliez jamais que la traduction/relecture est une ÉDUCATION !
 
 En fait, notre objectif commun est d'éduquer le plus grand nombre de personnes possible sur le Bitcoin, et il est donc fondamental que les documents qu'elles lisent soient clairs et faciles à comprendre.
 
-En ce sens, tous les contributeurs de Plan ₿ Network sont des éducateurs !
+En ce sens, tous les contributeurs de Plan ₿ Academy sont des éducateurs !
 
 
-## Les premières étapes de la relecture sur Plan ₿ Network
+## Les premières étapes de la relecture sur Plan ₿ Academy
 
 
-Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Network, qui ouvrira un [numéro] dédié (https://github.com/orgs/PlanB-Network/projects/3). Lorsque vous recevrez le lien du numéro, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
+Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Academy, qui ouvrira un [numéro] dédié (https://github.com/orgs/Plan ₿ Academy/projects/3). Lorsque vous recevrez le lien du numéro, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
 
 
 Ce système aide le coordinateur à suivre l'évolution de la situation dans le répertoire et permet au contenu d'être "revendiqué" par le relecteur, ce qui évite la duplication des efforts par quelqu'un d'autre.
@@ -60,7 +60,7 @@ Tout d'abord, **N'oubliez jamais de SYNCER votre repo, sur la branche "dev "**. 
 
 
 
-Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un commit sur une nouvelle branche, comme le montre ce [tutoriel] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
+Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un commit sur une nouvelle branche, comme le montre ce [tutoriel] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
 
 
 
@@ -115,11 +115,11 @@ Dans ce deuxième cas, **faites toujours des recherches pour voir si quelqu'un d
 
 
 
-- Une autre bonne solution consiste à conserver le mot/phrase original EN, puis **créer un lien hypertexte** qui redirige vers le [glossaire](https://planb.network/en/resources/glossary) sur planb.network. Pour ce faire, vous devez insérer le mot/phrase entre crochets, et le lien entre parenthèses rondes, comme vous pouvez le voir dans l'exemple ci-dessous :
+- Une autre bonne solution consiste à conserver le mot/phrase original EN, puis **créer un lien hypertexte** qui redirige vers le [glossaire](https://planb.academy/en/resources/glossary) sur planb.network. Pour ce faire, vous devez insérer le mot/phrase entre crochets, et le lien entre parenthèses rondes, comme vous pouvez le voir dans l'exemple ci-dessous :
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Dans le résultat final (image ci-dessous), vous ne visualiserez pas le lien ent
 
 
 
-Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.network/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
+Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.academy/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
 
 
 Le contenu du référentiel est truffé d'hyperliens comme ceux présentés ci-dessus. Maintenant que vous savez ce qu'ils signifient, **veillez à ne pas supprimer les liens** insérés par l'auteur original.
 
 
 
-- Une autre chose liée à la restitution des mots est la suivante. Si vous trouvez "Plan ₿ Network" dans le texte, **laissez-le dans sa forme originale**. Ne traduisez pas le mot "plan" ou le mot "réseau". En outre, n'utilisez PAS l'article "The" lorsque vous présentez Plan ₿ Network : **considérez-le comme une marque**.
+- Une autre chose liée à la restitution des mots est la suivante. Si vous trouvez "Plan ₿ Academy" dans le texte, **laissez-le dans sa forme originale**. Ne traduisez pas le mot "plan" ou le mot "réseau". En outre, n'utilisez PAS l'article "The" lorsque vous présentez Plan ₿ Academy : **considérez-le comme une marque**.
 
 
 
@@ -166,7 +166,7 @@ Dans les cours, les parties les plus importantes sont introduites par un seul si
 
 
 
-Veillez à ne JAMAIS supprimer les signes Hash** avant un titre, sinon vous créerez des problèmes avec la structure du texte.
+Veillez à ne JAMAIS supprimer les signes **Hash** avant un titre, sinon vous créerez des problèmes avec la structure du texte.
 
 
 En même temps, **ne changez pas** la partie chapterID que vous pouvez voir dans l'image ci-dessus, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` ou les références vidéo comme ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
@@ -222,7 +222,7 @@ Par conséquent, vérifiez toujours le texte original en anglais pour voir si un
 
 
 
-- Les mêmes problèmes peuvent se produire avec des symboles comme $ et `` ` ``.
+- Les mêmes problèmes peuvent se produire avec des symboles comme ``$`` et `` ` ``.
 
 Veillez à vérifier le fichier de la langue originale (souvent EN ou FR) pour voir où ces symboles sont censés se trouver. Vous pouvez toujours demander l'aide du coordinateur à ce sujet.
 
@@ -234,8 +234,6 @@ Veillez à vérifier le fichier de la langue originale (souvent EN ou FR) pour v
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Relecture du questionnaire
 
 
@@ -245,11 +243,20 @@ Saviez-vous que vous pouvez également relire les questions des quiz de chaque c
 Une fois de plus, assurez-vous que vous vous trouvez dans une agence spécialement ouverte à cet effet et informez-en toujours le coordinateur.
 
 
-Après avoir examiné la question, assurez-vous de changer le statut "examiné" de "faux" à "vrai", comme le montre l'image ci-dessous.
-
+Une chose importante à garder à l'esprit lors de la relecture de ce type de fichier _yml_ est d'éviter d'ajouter des deux points ``:`` à l'intérieur du texte. En fait, les deux points sont **uniquement** utilisés pour séparer les paires clé-valeur comme "wrong_answers" du reste. Vous pouvez voir un exemple dans l'image ci-dessous :
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Après avoir examiné la question, assurez-vous de changer le statut "reviewed" de "false" à "true", comme le montre l'image ci-dessous. Veillez à ce que ces mots d'état restent en anglais, quelle que soit la langue dans laquelle vous travaillez !
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Si la ligne de statut "reviewed:true" est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
 
 
 ## Relecture du glossaire
@@ -258,7 +265,35 @@ Après avoir examiné la question, assurez-vous de changer le statut "examiné" 
 Tout comme les quiz, vous pouvez également relire le glossaire. Le glossaire original a été rédigé en français, vous y trouverez donc des phrases comme : "En français, cette expression peut se traduire par..."
 
 
-Dans ce cas, veuillez adapter cette phrase à votre langue cible ou à l'anglais.
+Dans ce cas, veuillez adapter la phrase à votre langue cible ou à l'anglais. Par exemple, vous pouvez écrire "En anglais, cette expression...".
+
+Si le titre est laissé en anglais, vous pouvez adapter la phrase à votre langue : "En swahili, cette expression..."
+
+
+En outre, veillez à écrire les titres en LETTRES MAJUSCULES.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Le titre et la description de votre RP
+
+
+Lorsque vous envoyez votre RP, il serait souhaitable que vous le nommiez en utilisant ce format : [RELECTURE] NOM DU CONTENU - LANGUE :
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+En outre, dans la **commentaire du PR**, vous pouvez écrire "closes" + le numéro de la question que le coordinateur vous a envoyé lorsque vous avez commencé la tâche de relecture, précédé par ``#``.
+
+Par exemple, si vous venez d'envoyer un PR avec la relecture de cyp201 + quiz, vous pouvez écrire "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+De cette manière, le PR et le problème seront liés, et quiconque lit le dépôt public Github peut facilement trouver des informations.
+
 
 
 ## Autres bonnes pratiques
@@ -269,11 +304,11 @@ Dans ce cas, veuillez adapter cette phrase à votre langue cible ou à l'anglais
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Lorsque vous utilisez la fonction "remplacer tout", il est important de vérifier les résultats pour s'assurer que les liens n'ont pas été modifiés. Par exemple, si vous souhaitez remplacer le mot "Bitcoin" par "Bitkoin" (ce qui peut être nécessaire dans certaines langues), la fonction "remplacer tout" permet de mettre à jour efficacement toutes les occurrences dans le texte. Cependant, il faut savoir que cet outil modifiera également tous les liens contenant ce mot, ce qui peut entraîner des problèmes de redirection.
+Lorsque vous utilisez la fonction "remplacer tout", il est important de vérifier les résultats pour s'assurer que les liens n'ont pas été modifiés. Par exemple, si vous souhaitez remplacer le mot "Bitcoin" par "Bitkoin" (ce qui peut être nécessaire dans certaines langues), la fonction "remplacer tout" permet de mettre à jour efficacement toutes les occurrences dans le texte. Toutefois, il faut savoir que cet outil modifiera également tous les liens contenant ce mot, ce qui peut entraîner des problèmes de redirection.
 
 
 Dans l'exemple ci-dessous, le correcteur a utilisé la fonction ci-dessus pour remplacer "Satoshi" par "Satoshi(Sats)", et a également modifié le lien vers un didacticiel contenant le mot lui-même. En conséquence, le lien est devenu invalide.
@@ -283,23 +318,35 @@ Vérifiez toujours tous les liens hypertextes dans le texte, afin de vous assure
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Si l'auteur insère un lien renvoyant à un cours ou à un tutoriel Plan ₿ Network (**non** entre parenthèses), le site web créera automatiquement une "carte" affichant la vignette correspondante. Par conséquent, assurez-vous toujours qu'il y a **un espace entre le texte et le lien lui-même**, sinon vous risquez de voir l'erreur suivante sur le site web.
+- Si l'auteur insère un lien renvoyant à un cours ou à un tutoriel Plan ₿ Academy (**non** entre parenthèses), le site web créera automatiquement une "carte" affichant la vignette correspondante. Par conséquent, veillez toujours à **ajouter une nouvelle ligne entre le texte et le lien lui-même**, sinon vous risquez de voir apparaître l'erreur suivante sur le site web.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Il en va de même pour les "codes d'image" comme celui-ci ``[IMAGE](asset/fr/001.webp)`` : veillez à toujours ajouter une nouvelle ligne entre le code d'image et le texte. Un exemple ci-dessous :
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Enfin, une autre bonne pratique à appliquer lorsque vous avez terminé votre tâche de relecture et envoyé le PR est de retourner au problème original ouvert par le coordinateur et de commenter avec "Relecture effectuée". **N'oubliez pas d'y insérer également le lien de votre PR**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Conclusion
@@ -309,6 +356,9 @@ En résumé, le fait d'être conscient des erreurs courantes des correcteurs peu
 
 
 Gardez toujours à l'esprit qu'un débutant peut lire ces cours et tutoriels, et qu'il est donc de notre responsabilité de veiller à ce qu'il les comprenne parfaitement. En tant que correcteur, vous êtes un éducateur !
+
+
+Vous êtes maintenant prêt à relire les cours, les tutoriels, les quiz et les glossaires. Restez à l'écoute pour commencer à vérifier les images et les transcriptions vidéo ;)
 
 
 Merci d'avoir lu ce tutoriel et bonne lecture !

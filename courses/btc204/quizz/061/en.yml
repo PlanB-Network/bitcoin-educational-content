@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Coin control is a feature found in good Bitcoin wallet software, which gives you the ability to manually select specific UTXOs to use as inputs when making a transaction.
 
-reviewed: false
+reviewed: true

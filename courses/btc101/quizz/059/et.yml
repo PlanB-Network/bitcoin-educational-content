@@ -1,9 +1,9 @@
-question: Mis on maksimaalne kogus Bitcoini ühikuid, mis kunagi eksisteerida saab?
-answer: 21 miljonit ühikut
+question: Mis aastal ennustatakse, et bitcoinide loomine lõpeb?
+answer: 2140
 wrong_answers:
-  - 25 miljonit ühikut
-  - 30 miljonit ühikut
-  - 50 miljonit ühikut
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoini arvutikood ja kõigi protokollis osalevate kasutajate konsensus määravad, et Bitcoini ühikute maksimaalne kogus, mis kunagi eksisteerida saab, on 21 miljonit.
+  Tänu poolitamismehhanismile on matemaatiliselt ennustatav, et bitcoinide loomine lõpeb 2140. aastal, kui bitcoinide koguarv saavutab oma piiri 21 miljonit.
 reviewed: true

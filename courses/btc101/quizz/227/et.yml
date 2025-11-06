@@ -1,9 +1,12 @@
-question: Mida võiksid traditsioonilised rahaülekandeteenused nagu Western Union, keskpangad, Visa ja Mastercard teha, kui nad ei võta kasutusele Lightning Network tehnoloogiat?
-answer: Nad võivad kaduda.
+question: Mis on üks võimalikest Lightning Network'i rakendustest igapäevaelus?
+answer: Kohene arveldamine kaubanduses
 wrong_answers:
-  - Nad võivad muutuda populaarsemaks.
-  - Nad võivad muutuda turvalisemaks.
-  - Nad võivad muutuda detsentraliseeritumaks.
+  - Uute Bitcoinide kaevandamine
+  - Uute krüptovaluutade loomine
+  - Bitcoini väärtuse suurendamine
 explanation: >-
-  Traditsioonilised rahaülekandeteenused nagu Western Union, keskpangad, Visa ja Mastercard võivad kaduda, kui nad ei võta kasutusele Lightning Network tehnoloogiat.
+  Lightning Network avab ukse laiale valikule potentsiaalsetele
+  rakendustele
+  Bitcoinile, mis olid varem kättesaamatud seoses vajadusega
+  tagada Bitcoini turvalisus ja detsentraliseeritus. Nende igapäevaelu rakenduste seas võime mainida koheseid arveldusi kaubanduses.
 reviewed: false

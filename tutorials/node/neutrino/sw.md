@@ -2,24 +2,28 @@
 name: Neutrino
 description: Mwongozo wa Ufungaji wa LND Neutrino
 ---
+![image](assets/cover.webp)
 
-# Usanidi wa Raspberry Pi na LND
+
+## Usanidi wa Raspberry Pi na LND
 
 
-#### 1. Pakua Raspberry Pi OS Lite
+### 1. Pakua Raspberry Pi OS Lite
+
 
 Maagizo ya kupakua na kusakinisha picha kwenye kadi ndogo ya SD katika Windows, Mac, na Linux yanaweza kupatikana kwenye [ukurasa huu](https://www.raspberrypi.org/software/operating-systems/).
 
 
-#### 2. Fomati Kadi ya SD
+### 2. Fomati Kadi ya SD
 
-tumia Raspberry Pi Imager au balenaEtcher.
+
+Tumia Raspberry Pi Imager au balenaEtcher.
 
 
 **Kumbuka:** Alama ya `$` inatumika kama kidokezo na inaruhusu mtumiaji kuingiza amri kwenye kompyuta, amri zitafasiriwa kwa bash katika Linux. Alama `#` mwanzoni mwa mstari inaonyesha kuwa maandishi yafuatayo ni maoni.
 
 
-#### 3. Wezesha SSH
+### 3. Wezesha SSH
 
 
 Kabla ya kuanza Raspberry Pi na kumbukumbu iliyopangwa, lazima tuiweke kwenye kompyuta na kuunda faili mbili ambazo zitaturuhusu kuunganisha kwa mbali. Kwa kutumia amri ya `gusa`, tunaunda faili tupu katika kizigeu cha /boot, kuwezesha muunganisho wa SSH kwenye buti ya kwanza ya kadi ya SD iliyoumbizwa upya.
@@ -31,7 +35,9 @@ Kabla ya kuanza Raspberry Pi na kumbukumbu iliyopangwa, lazima tuiweke kwenye ko
 $ touch /boot/ssh
 ```
 
-#### 4. Unda faili kwa uunganisho wa Wi-Fi
+
+### 4. Unda faili kwa uunganisho wa Wi-Fi
+
 
 Kwa kutumia amri ya nano tunaunda faili ya `wpa_supplicant.conf` na kuanza kuihariri moja kwa moja. Katika faili hii, tunahitaji kunakili usanidi wa wifi, kunakili maandishi kati ya START na END, na kurekebisha SSID na nenosiri la wifi unayotaka kuunganisha.
 
@@ -52,14 +58,17 @@ psk="password"
 ```
 
 
-#### 5. Muunganisho
+### 5. Muunganisho
 
-Kisha, tunaingiza kadi ya SD kwenye Raspberry Pi na kuunganisha Pi kwenye chanzo cha nguvu ili kuanza mfumo wa uendeshaji. Tunahitaji kuitambua kwenye mtandao, na itifaki ya mDNS itakayowezekana kuipa jina raspberrypi.local kwake. Wacha tujaribu kuunganishwa kupitia SSH.
+
+Kisha, tunaingiza kadi ya SD kwenye Raspberry Pi na kuunganisha Pi kwenye chanzo cha nguvu ili kuanza mfumo wa uendeshaji. Tunahitaji kuitambua kwenye mtandao, na itifaki ya mDNS itawezekana kuipa jina raspberrypi.local kwake. Wacha tujaribu kuunganishwa kupitia SSH.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
+
 
 Ikiwa haifanyi kazi, tunahitaji kujua mtandao. Wacha tujue IP Address ambayo tumeunganishwa nayo.
 
@@ -86,7 +95,8 @@ password: raspberry
 ```
 
 
-#### 6. Sanidi Pi
+### 6. Sanidi Pi
+
 
 ```
 $ sudo raspi-config
@@ -100,7 +110,8 @@ $ sudo raspi-config
 - Maliza
 
 
-#### 7. Sasa sasisha OS
+### 7. Sasa sasisha OS
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -108,14 +119,15 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8. Ongeza mtumiaji wa Bitcoin
+### 8. Ongeza mtumiaji wa Bitcoin
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
 
-#### 9. Salama rpi
+### 9. Salama rpi
 
 
 ```
@@ -132,9 +144,10 @@ $ sudo apt install fail2ban
 ```
 
 
-#### 10. Sakinisha Go
+### 10. Sakinisha Go
 
-Ikiwa hutumii raspberry pi, pakua nenda kwa usanifu wako [hapa](https://golang.org/dl/)
+
+Ikiwa hutumii raspberry pi, pakua nenda kwa usanifu wako [hapa](https://golang.org/dl/).
 
 
 ```
@@ -148,7 +161,7 @@ $ go version # should display the following message 'go version go1.13.5 linux/a
 ```
 
 
-#### 11. Kukusanya na kufunga LND
+### 11. Kukusanya na kufunga LND
 
 
 ```
@@ -163,7 +176,8 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 ```
 
 
-#### 12. Unda faili ya LND ya conf
+### 12. Unda faili ya LND conf
+
 
 Unda faili ya usanidi ya LND, hii inapaswa kufanywa na mtumiaji wa 'Bitcoin'
 
@@ -200,7 +214,8 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13. LND huduma autostart
+### 13. LND huduma autostart
+
 
 Ili kufanya LND ianze baada ya rpi boot, lazima tuunda faili ya .service katika systemd. Ikiwa tumeingia kama mtumiaji wa Bitcoin na tunataka kurejea kwa mtumiaji wa pi, tunaandika tu 'toka'.
 
@@ -284,7 +299,7 @@ $ sudo journalctl -f -u lnd
 ```
 
 
-#### 14. Sasa tunaanza LND
+### 14. Sasa tunaanza LND
 
 
 ```
@@ -293,7 +308,7 @@ $ lncli create
 ```
 
 
-#### 15. Ongeza fedha kwenye node
+### 15. Ongeza fedha kwenye node
 
 
 ```
@@ -321,6 +336,7 @@ Baada ya muamala kuthibitishwa, tunaweza kufungua kituo. Ikiwa hujui ni nodi gan
 
 Fungua unganisho kwa nodi:
 
+
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
@@ -328,12 +344,14 @@ $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836
 
 Kisha fungua kituo:
 
+
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 
 Angalia fedha zetu:
+
 
 ```
 $ lncli walletbalance
@@ -343,6 +361,7 @@ $ lncli channelbalance
 
 Tunaweza kutazama vituo vinavyosubiri na vinavyotumika:
 
+
 ```
 $ lncli pendingchannels
 $ lncli listchannels
@@ -351,12 +370,14 @@ $ lncli listchannels
 
 Kulipa umeme Invoice:
 
+
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
 Ili kupokea malipo, unda Invoice kwa kiasi mahususi:
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
@@ -365,6 +386,7 @@ $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 
 Ili kuona habari kuhusu nodi yangu:
 
+
 ```
 $ lncli getinfo
 ```
@@ -372,12 +394,14 @@ $ lncli getinfo
 
 Orodha kamili ya amri inaweza kuonekana kwa kuendesha tu lncli amri:
 
+
 ```
 $ lncli
 ```
 
 
 Mwishowe, kupiga simu kwa LND API:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"

@@ -1,0 +1,9 @@
+question: Oliko Immanuel Kant?
+answer: Saksalainen valistusfilosofi.
+wrong_answers:
+  - Englantilainen filosofi ja Newtonin oppilas
+  - 1700-luvun filosofi.
+  - Kristitty filosofi.
+explanation: |
+  Immanuel Kant (1724-1804) oli saksalainen valistusfilosofi. Hän kehitti kriittisen filosofian, joka vaikutti syvällisesti nykyaikaiseen ajatteluun, erityisesti "Puhtaan järjen kritiikillään".
+reviewed: false

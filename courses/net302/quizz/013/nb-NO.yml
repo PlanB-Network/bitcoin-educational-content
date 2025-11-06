@@ -1,0 +1,9 @@
+question: Hvilken organisasjon tildeler IP-protokollversjonsnumre?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) administrerer Assignment av IP-protokollversjonsnumre og tildelingen av protokollområder.
+reviewed: false

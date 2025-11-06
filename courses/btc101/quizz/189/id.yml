@@ -1,10 +1,11 @@
-question: Negara mana yang telah menjadikan Bitcoin sebagai alat pembayaran yang sah sejak 2021?
-answer: El Salvador
+question: Apa itu Swiss Bitcoin Pay?
+answer: Sebuah solusi bagi pedagang amatir untuk menerima Bitcoin
 wrong_answers:
-  - Prancis
-  - Amerika Serikat
-  - Cina
+  - Sebuah bank Swiss yang menerima Bitcoin
+  - Sebuah bursa Bitcoin Swiss
+  - Sebuah perusahaan penambangan Bitcoin Swiss
 explanation: >-
-  El Salvador telah menjadikan Bitcoin sebagai alat pembayaran yang sah sejak 2021, berkontribusi pada
-  pengembangan ekonomi Bitcoin di wilayah tersebut.
+  Swiss Bitcoin Pay adalah solusi bagi pedagang amatir untuk menerima Bitcoin.
+  Solusi lainnya termasuk OpenNode untuk bisnis online sederhana dan BTCpay Server
+  untuk struktur besar atau penggemar bitcoin yang bersemangat.
 reviewed: false

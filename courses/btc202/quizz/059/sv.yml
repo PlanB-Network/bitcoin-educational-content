@@ -1,0 +1,9 @@
+question: Vad är det bästa sättet att få fjärråtkomst till Bitcoin core?
+answer: Exponering av RPC-porten
+wrong_answers:
+  - Använda Tor
+  - Använda ett VPN
+  - Avslöja en Electrum-server
+explanation: |
+  Att exponera RPC-porten okrypterat innebär en stor säkerhetsrisk. Tor eller VPN är att föredra.
+reviewed: true

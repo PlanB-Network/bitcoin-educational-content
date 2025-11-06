@@ -1,8 +1,8 @@
-question: Je, Bitcoin inawezaje kusaidia katika mpito wa ikolojia?
-answer: Inakuza matumizi ya nishati ya Green.
+question: Ni ipi njia moja ya kupunguza tete ya Bitcoin?
+answer: Ua wa fedha (stablecoins).
 wrong_answers:
-  - Inapunguza uzalishaji wa bidhaa.
-  - Inadhibiti matumizi ya rasilimali.
-  - Inapunguza utoaji wa gesi chafu pekee.
+  - Kuwekeza pesa zako zote kwenye Bitcoin.
+  - Kupuuza mwelekeo wa soko.
+  - Kununua zaidi Bitcoin wakati bei inashuka.
 explanation: >-
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Przewodnik krok po kroku dla HODLHODL
 ---
@@ -16,10 +16,9 @@ HODL HODL to zdecentralizowany Bitcoin Exchange, który priorytetowo traktuje ko
 https://hodlhodl.com/pages/faq_help
 
 
-## Przewodnik pisania:
+## Rozpocznij swoją podróż na Hodl Hodl
 
 
-Rozpoczęcie podróży z HodlHodl: przewodnik krok po kroku
 
 
 ![image](assets/5.webp)
@@ -68,61 +67,61 @@ Aby rozpocząć handel BTC, musisz najpierw podać swój BTC Address. Można go 
 Przewodnik Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 
-1. Odwiedź stronę hodlhodl.com i utwórz konto. Jedyne dane, które musisz podać, to nazwa użytkownika i adres e-mail Address. Następnie zostanie wyświetlona strona główna.
+- Odwiedź stronę hodlhodl.com i utwórz konto. Jedyne dane, które musisz podać, to nazwa użytkownika i adres e-mail Address. Następnie zostanie wyświetlona strona główna.
 
 
 ![cover](assets/11.webp)
 
 
-2. Kliknij "Kup BTC" w nagłówku strony.
+- Kliknij "Kup BTC" w nagłówku strony.
 
 
 ![cover](assets/12.webp)
 
 
-3. Wybierz żądany typ i metodę płatności. W razie potrzeby możesz również określić konkretną kwotę.
+- Wybierz żądany typ i metodę płatności. W razie potrzeby możesz również określić konkretną kwotę.
 
 
 ![cover](assets/13.webp)
 
 
-4. Wybierz żądaną ofertę. Następnie możesz przejrzeć szczegóły transakcji, a także zapoznać się z raportami aktywności i ocenami partnerów.
+- Wybierz żądaną ofertę. Następnie możesz przejrzeć szczegóły transakcji, a także zapoznać się z raportami aktywności i ocenami partnerów.
 
 
 ![cover](assets/14.webp)
 
 
-5. Gdy będziesz zadowolony, możesz określić, ile chcesz kupić, wprowadzić Address, do którego chcesz wysłać Bitcoin, i określić potwierdzenie metody płatności reklamowanej przez sprzedawcę. Kliknij "Zaakceptuj ofertę i utwórz Contract".
+- Gdy będziesz zadowolony, możesz określić, ile chcesz kupić, wprowadzić Address, do którego chcesz wysłać Bitcoin, i określić potwierdzenie metody płatności reklamowanej przez sprzedawcę. Kliknij "Zaakceptuj ofertę i utwórz Contract".
 
 
 ![cover](assets/15.webp)
 
 
-6. Masz teraz utworzony Contract i musisz kliknąć "generate Escrow", gdzie zostaniesz poproszony o utworzenie hasła płatności. Hasło płatności jest kluczem szyfrującym dla pary kluczy escrow użytkownika. Jest ono używane w celu zdeponowania lub zwolnienia Bitcoin do lub z depozytu.
+- Masz teraz utworzony Contract i musisz kliknąć "generate Escrow", gdzie zostaniesz poproszony o utworzenie hasła płatności. Hasło płatności jest kluczem szyfrującym dla pary kluczy escrow użytkownika. Jest ono używane w celu zdeponowania lub zwolnienia Bitcoin do lub z depozytu.
 
 
 ![cover](assets/16.webp)
 
 
-7. Teraz musisz poczekać, aż sprzedawca zdeponuje swój Bitcoin w depozycie Wallet. Po uruchomieniu Contract możesz porozmawiać ze sprzedawcą za pomocą pola czatu po prawej stronie strony.
+- Teraz musisz poczekać, aż sprzedawca zdeponuje swój Bitcoin w depozycie Wallet. Po uruchomieniu Contract możesz porozmawiać ze sprzedawcą za pomocą pola czatu po prawej stronie strony.
 
 
 ![cover](assets/17.webp)
 
 
-8. Gdy sprzedawca zdeponuje swoje środki w depozycie, zobaczysz ten ekran z informacją, aby nie wysyłać pieniędzy, dopóki nie będzie wystarczającej liczby potwierdzeń Blockchain (różni się to w zależności od warunków handlowych). Możesz sprawdzić postęp transakcji depozytowej sprzedawcy, klikając niebieski link "Depozyt transaction ID".
+- Gdy sprzedawca zdeponuje swoje środki w depozycie, zobaczysz ten ekran z informacją, aby nie wysyłać pieniędzy, dopóki nie będzie wystarczającej liczby potwierdzeń Blockchain (różni się to w zależności od warunków handlowych). Możesz sprawdzić postęp transakcji depozytowej sprzedawcy, klikając niebieski link "Depozyt transaction ID".
 
 
 ![cover](assets/18.webp)
 
 
-9. Po potwierdzeniu otrzymasz powiadomienie i będziesz mógł wysłać środki do sprzedawcy na podane przez niego dane. Gdy to zrobisz, kliknij "Wysłałem płatność".
+- Po potwierdzeniu otrzymasz powiadomienie i będziesz mógł wysłać środki do sprzedawcy na podane przez niego dane. Gdy to zrobisz, kliknij "Wysłałem płatność".
 
 
 ![cover](assets/19.webp)
 
 
-10. Następnie musisz poczekać, aż sprzedawca potwierdzi, że otrzymał środki, po czym Bitcoin zostanie przekazany do Address określonego na początku Contract. Będziesz mieć również możliwość oceny swojego partnera.
+- Następnie musisz poczekać, aż sprzedawca potwierdzi, że otrzymał środki, po czym Bitcoin zostanie przekazany do Address określonego na początku Contract. Będziesz mieć również możliwość oceny swojego partnera.
 
 
 ![cover](assets/20.webp)

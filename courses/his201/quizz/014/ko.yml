@@ -1,0 +1,9 @@
+question: Proof of Work의 개념은 누가 만들었나요?
+answer: 신시아 드워크와 모니 나오르
+wrong_answers:
+  - 마르쿠스 야콥손과 아리 주엘스
+  - 아담 백
+  - Satoshi 나카모토
+explanation: |
+  그들은 1992년에 이 개념을 설명했습니다. 마르쿠스 야콥손과 아리 주엘스가 Proof of Work라는 용어를 만들었습니다. 이후 아담 백이 해시캐시에 이 개념을 채택했습니다.
+reviewed: true

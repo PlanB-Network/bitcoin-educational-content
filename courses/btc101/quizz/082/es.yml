@@ -1,10 +1,9 @@
-question: ¿Cuál es la tecnología que se utiliza para gastar fondos de manera segura usando un Monedero Bitcoin?
-answer: Criptografía de curva elíptica.
+question: ¿Cuál es el riesgo de complicar demasiado la seguridad y accesibilidad de tus bitcoins?
+answer: Puedes perjudicarte si manejas incorrectamente las carteras de respaldo.
 wrong_answers:
-  - Criptografía simétrica.
-  - Criptografía cuántica.
-  - Criptografía RSA.
+  - Puedes perjudicarte si manejas incorrectamente las carteras físicas.
+  - Puedes perjudicarte si manejas incorrectamente las carteras digitales.
+  - Puedes perjudicarte si manejas incorrectamente las carteras multisig.
 explanation: |
-  Gastar Bitcoins requiere que el propietario utilice el Algoritmo de Firma Digital de Curva Elíptica (ECDSA) para forjar una firma
-  para la propagación de una transacción Bitcoin.
+  Complicar demasiado la seguridad y accesibilidad de tus bitcoins puede perjudicarte si, por ejemplo, manejas incorrectamente los respaldos de tus carteras. Esto se debe a que los procedimientos simples de respaldo son cruciales para recuperar el acceso a tus fondos en caso de pérdida de tu teléfono o computadora.
 reviewed: true

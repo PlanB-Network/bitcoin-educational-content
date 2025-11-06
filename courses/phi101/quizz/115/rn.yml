@@ -1,0 +1,9 @@
+question: Ni icuma ikihe mu mateka cabonwa ko ari co gikoreshwa mu gukoresha amahera?
+answer: Inzahabu
+wrong_answers:
+  - Ifeza
+  - Umujumpu
+  - Umuringa
+explanation: |
+  Inzahabu ni yo yakoze nk’ikigereranyo mu mateka kubera ubukene bwayo, ukuntu iramba, n’agaciro kayo kemewe kw’isi yose, ivyo bikaba bituma iba ishimikiro rikomeye ry’imirongo y’amahera.
+reviewed: true

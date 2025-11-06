@@ -51,7 +51,7 @@ Throughout the course, participants will leverage key tools that will aid their 
 
 Welcome to the first lecture of the **Cubo Plus** educational program. Today, we are diving into the world of Bitcoin, led by Ricky, the founder of the **Bitcoin Italia Podcast**. Ricky is a passionate human rights activist who uses Bitcoin as a tool to protect and promote human rights. With over six years of experience, Ricky has traveled extensively, documenting Bitcoin adoption in emerging markets like El Salvador and Guatemala. His work goes beyond podcasting; he’s also active on YouTube (**Bitcoin Explorers**) and Twitter (**BTC Explorer**, **Ricky6**). Ricky's commitment to Bitcoin stems from his belief that it offers financial freedom and privacy, challenging traditional, centralized banking systems.
 
-![Unbanked Population](assets/en/01.webp)
+![Unbanked Population](assets/en/001.webp)
 _The Global Unbanked Population_
 
 ### Bitcoin: financial freedom and its impact on El Salvador
@@ -75,7 +75,7 @@ Bitcoin is much more than just a digital currency. It is a tool for protecting p
 
 In authoritarian regimes, where financial repression is common, Bitcoin’s **uncensorable nature** allows people to transact without fear of their funds being frozen or confiscated. Its **open-source** nature encourages global participation, fostering a community that continually improves the network.
 
-![Image](assets/en/02.webp)
+![Image](assets/en/002.webp)
 
 Despite its potential, Bitcoin faces significant challenges. In areas such as Africa and India, basic infrastructure like electricity and internet access is often lacking, limiting adoption. Moreover, **digital inclusion**—ensuring that people of all ages and educational levels can use technology—remains a major hurdle.
 
@@ -137,7 +137,7 @@ At the same time, **Austrian Economics** provided the foundation for Bitcoin's m
 
 El Salvador's adoption of Bitcoin reflects its potential as a tool for financial freedom, aligning with **Austrian Economics** by promoting voluntary adoption and decentralization. This move challenges traditional financial systems by addressing key issues: competition, monopoly, and confiscation.
 
-![Image](assets/en/03.webp)
+![Image](assets/en/003.webp)
 
 - **Competition**: Bitcoin introduces competition to the financial landscape by offering an alternative to traditional banking, allowing Salvadorans to bypass financial gatekeepers and choose services that better meet their needs.
 
@@ -187,7 +187,7 @@ Bitcoin transactions are validated and added to blocks by **miners**, who compet
 
 Each **block** in the blockchain consists of a **header** (with data like the previous block’s hash) and a list of transactions. The first block, known as the **Genesis Block**, is unique because it has no predecessor.
 
-![Image](assets/en/04.webp)
+![Image](assets/en/004.webp)
 
 Before transactions are included in a block, they reside in the **mempool**, where they await validation. Once validated, these transactions are added to the newly mined block and then to the blockchain.
 
@@ -242,7 +242,7 @@ Another key distinction is that **Bitcoin** was created with the sole purpose of
 >
 > - _Shitcoins:_ Shitcoins are low-value or questionable quality cryptocurrencies that lack real utility. They are often highly speculative and are sometimes created for fraudulent purposes or without a clear purpose, taking advantage of the cryptocurrency market boom.
 
-![Image](assets/en/05.webp)
+![Image](assets/en/005.webp)
 
 ### Energy consumption and environmental impact
 
@@ -689,7 +689,7 @@ This concludes our lecture on security and device setup for Bitcoin using Specte
 
 Over more than a decade, Bitcoin has proven to be a transformative innovation in the financial world, successfully operating on a global scale and opening new possibilities in the digital economy. However, it still faces challenges that require creative and collaborative solutions. The ongoing evolution of Bitcoin presents a unique opportunity for those interested in shaping the future of decentralized finance.
 
-![Image](assets/en/06.webp)
+![Image](assets/en/006.webp)
 
 #### Open problems in the Bitcoin usability
 
@@ -715,7 +715,7 @@ Flexibility within the Bitcoin protocol is necessary to foster improvements in p
 
 #### Usability vs. security and privacy
 
-![Image](assets/en/07.webp)
+![Image](assets/en/007.webp)
 
 Efforts to enhance Bitcoin's usability often come at the expense of security and privacy. For instance, user-friendly custodial wallets, such as the Wallet of Satoshi, provide an accessible interface but compromise significantly on security and privacy. Simplified systems may increase usability but can lead to issues like address reuse, which undermines privacy. Therefore, any improvements in usability must be carefully weighed against potential security and privacy trade-offs.
 
@@ -747,7 +747,7 @@ Simplifying user interactions with Bitcoin and the Lightning Network while maint
 
 Creating educational materials to improve Bitcoin's usability, security, and privacy is impactful. Educating users on best practices and the underlying principles of Bitcoin can empower them to make informed decisions and enhance their overall experience with the network.
 
-![Image](assets/en/08.webp)
+![Image](assets/en/008.webp)
 
 **Layer 1 and layer 2 changes**
 
@@ -788,7 +788,7 @@ While both security and reliability aim to maintain system integrity, their appr
 
 A quintessential example of reliability engineering can be traced back to the 18th century with the construction of a bridge. The quality of steel used, including its composition and manufacturing process, critically influenced the bridge’s reliability. Engineers had to consider single points of failure and use probability and statistics to assess and ensure the bridge's dependability over time.
 
-![Image](assets/en/09.webp)
+![Image](assets/en/009.webp)
 
 Unlike reliability, security deals with intentional threats. For instance, a 256-bit cryptographic key provides a mathematical guarantee of security due to the infeasibility of brute-forcing it. Security measures must account for different threat models, from physical tampering to sophisticated cyber-attacks.
 
@@ -800,7 +800,7 @@ In another scenario, imagine an airport pickup where a driver uses a secret code
 
 In Guatemala, timestamping election results played a critical role in ensuring the integrity of the electoral process. By using cryptographic methods to timestamp data, election officials could provide tamper-evident proof of the results' authenticity, deterring potential manipulators driven by significant financial incentives.
 
-![Image](assets/en/10.webp)
+![Image](assets/en/010.webp)
 
 ### Identifying and mitigating potential threats
 
@@ -859,7 +859,7 @@ One of Stallman's significant contributions was the development of the GNU Proje
 
 The gap was filled by Linus Torvalds' creation of the Linux kernel in 1991. Torvalds' kernel, combined with the GNU components, resulted in a fully functional free operating system known as GNU/Linux. This collaboration between Stallman's philosophical commitment to software freedom and Torvalds' practical contribution exemplifies the power of the open-source approach.
 
-![Image](assets/en/11.webp)
+![Image](assets/en/011.webp)
 
 The Free Software Movement has profoundly impacted the software industry, promoting the idea that software should be free for all to use, modify, and share. Its principles have laid the foundation for many of the open-source projects and communities that thrive today.
 
@@ -869,13 +869,13 @@ Funding and sustaining open-source projects present unique challenges and opport
 
 One successful example is Bitcoin Core, a critical part of the Bitcoin infrastructure. Developers working on Bitcoin Core are often funded through grants, donations, and sponsorships from organizations that benefit from the project's success. This model allows developers to focus on improving the software without the constraints of traditional commercial funding.
 
-![Image](assets/en/12.webp)
+![Image](assets/en/012.webp)
 
 Another prominent example is the Linux operating system. Many companies, such as IBM, Red Hat, and Intel, contribute to the development of Linux because their products and services depend on a robust and secure operating system. These companies provide financial support, contribute code, and offer resources to maintain and enhance the Linux ecosystem.
 
 Open-source licenses, such as the MIT, GPL, and AGPL, also play a crucial role in the economic dynamics of open-source software. Permissive licenses like MIT allow for more flexible use of the code, including commercialization. In contrast, copyleft licenses like GPL ensure that any derivative work must also be open-source, fostering a collaborative environment.
 
-![Image](assets/en/13.webp)
+![Image](assets/en/013.webp)
 
 In conclusion, the economics of open-source software are driven by community contributions, corporate sponsorships, and innovative funding models. These mechanisms ensure the sustainability and continuous improvement of open-source projects, benefiting both developers and users.
 
@@ -892,23 +892,23 @@ Welcome! Today, we will dive into the crucial aspects of cryptography that every
 
 In this section, we’ll delve into the key cryptographic concepts essential for Bitcoin developers, including hash functions, Merkle trees, digital signatures, and elliptic curves.
 
-![Image](assets/en/14.webp)
+![Image](assets/en/014.webp)
 
 **Hash functions**: A hash function takes an input and produces a fixed-length string of bytes. In Bitcoin, hash functions are fundamental for data integrity and security. Cryptographic hash functions must be efficient, generate seemingly random outputs, and produce fixed-length outputs regardless of input size. They are used for file integrity checks, ensuring that data has not been altered maliciously.
 
-![Image](assets/en/15.webp)
+![Image](assets/en/015.webp)
 
 **Security properties**: Cryptographic hash functions must adhere to several security properties. Pre-image resistance ensures that it is computationally infeasible to reverse-engineer the original input from the hash output. Second pre-image resistance means it should be difficult to find a different input that produces the same hash output. Collision resistance ensures that it is improbable to find two different inputs that yield the same hash output.
 
 **Merkle trees**: A Merkle tree is a data structure that enables efficient and secure verification of large data sets. Data items are hashed in pairs, with the resulting hashes combined iteratively to form a single root hash. In Bitcoin, Merkle trees are crucial in block creation and transaction verification, particularly for Simplified Payment Verification (SPV) clients and in Taproot (Mast).
 
-![Image](assets/en/16.webp)
+![Image](assets/en/016.webp)
 
 **Digital signatures (ECDSA)**: The Elliptic Curve Digital Signature Algorithm (ECDSA) is used to ensure authenticity and integrity in Bitcoin transactions. It involves generating a signature using a private key that can be verified using the corresponding public key. Key concepts include understanding finite fields, discrete logarithms, and the importance of nonces.
 
 **Elliptic curves**: Elliptic curves are used in public key cryptography due to their efficiency and security. The security of elliptic curve cryptography relies on the difficulty of solving the discrete logarithm problem.
 
-![Image](assets/en/17.webp)
+![Image](assets/en/017.webp)
 
 ### Practical cryptographic applications and security practices in Bitcoin
 
@@ -916,13 +916,13 @@ In this section, we will explore the application of these concepts in real-world
 
 **Cryptography = danger**: Cryptography is a double-edged sword. While it protects against accidental data damage and malicious actions, incorrect implementation can lead to severe vulnerabilities. Developers must deeply understand cryptographic mechanisms to ensure both secure implementation and the ability to troubleshoot potential issues. For example, SHA-2's 256-bit output ensures preimage attacks require around 2^256 work, with collision resistance around 2^128 work.
 
-![Image](assets/en/18.webp)
+![Image](assets/en/018.webp)
 
 **Merkle tree applications**: Understanding the logarithmic proof size and ensuring careful tree design is essential to avoid flaws, such as hash duplication in transaction verification. Merkle trees are used in block creation, transaction verification, and enhancements like Taproot.
 
 **Public key cryptography**: Discrete logarithms and finite fields are fundamental in cryptographic calculations in Bitcoin. Challenge-response protocols are used to verify knowledge of a private key without revealing it.
 
-![Image](assets/en/19.webp)
+![Image](assets/en/019.webp)
 
 **Security implications**: Historical examples show significant financial losses due to nonce reuse. Understanding the importance of generating unique nonces is crucial. Using trusted libraries like LibSecP256k1 ensures robust and secure cryptographic operations.
 
@@ -963,9 +963,9 @@ Soft forks are changes that tighten the existing rules of the Bitcoin protocol, 
 
 Hard forks are changes that loosen the existing rules, allowing new types of transactions. These are not backward-compatible, meaning that non-upgraded nodes will not recognize the new rules. An example of a hard fork might be needed for the Year 2106 problem to ensure Bitcoin continues functioning beyond this date.
 
-![Image](assets/en/20.webp)
+![Image](assets/en/020.webp)
 
-![Image](assets/en/21.webp)
+![Image](assets/en/021.webp)
 
 ### Examples of governance
 
@@ -985,7 +985,7 @@ Running nodes can validate Bitcoin rules and participate in the network, even wi
 
 The block size debate was a significant governance issue, revolving around whether to increase Bitcoin's block size. This controversy was resolved with the implementation of SegWit, a soft fork that increased the effective block size and enabled the Lightning Network.
 
-![Image](assets/en/22.webp)
+![Image](assets/en/022.webp)
 
 ### Forced changes and majority rule
 
@@ -1035,7 +1035,7 @@ Running a Bitcoin node is essential for several reasons:
 - **Keeps history of blocks and heaviest chain**: Nodes store their own copy of the blockchain, which allows them to validate the authenticity of transactions and blocks.
 - **Maintains list of valid candidates; mempool**: Nodes must keep a list of possible transaction candidates in the mempool to be included in blocks.
 
-![nodes network](assets/en/23.webp)
+![nodes network](assets/en/023.webp)
 
 **NOTE**: The mempool is a temporary storage area for transactions that have been validated but not yet included on a block.
 
@@ -1043,7 +1043,7 @@ Running a Bitcoin node is essential for several reasons:
 
 #### Bitcoin Core modules
 
-![Bitcoin core modules](assets/en/24.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 - **Peer discovery**: Peer discovery is the process by which a node finds other nodes to connect to.
 - **Validation engine**: The validation engine is responsible for checking the validity of transactions and blocks according to the network's rules.
@@ -1067,7 +1067,7 @@ The coins are not stored in addresses; they reside in UTXOs, which represent all
 bitcoin-cli gettxoutsetinfo
 ```
 
-![utxoset info command](assets/en/25.webp)
+![utxoset info command](assets/en/025.webp)
 
 We can audit that the number of Bitcoins is correct.
 
@@ -1080,7 +1080,7 @@ We can audit that the number of Bitcoins is correct.
 
 **IMPORTANT**: Transactions are not the same as UTXOs.
 
-![Txs and UTXOs](assets/en/26.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 #### Mempool
 
@@ -1143,7 +1143,7 @@ The block header is the cornerstone of a Bitcoin block and contains the followin
 
 **Note**: Only the first 80 bytes (comprising the block header) are hashed during mining.
 
-![Block header structure](assets/en/27.webp)
+![Block header structure](assets/en/027.webp)
 
 #### Simplifications
 
@@ -1172,10 +1172,10 @@ Each transaction in a Bitcoin block contains the following:
   - **PubKey script**: Contains the public key as a setup to claim the output.
 - **Lock Time**: Indicates the block height or timestamp at which this transaction can be included in a block.
 
-![Transaction structure](assets/en/28.webp)
-![TxIn structure](assets/en/29.webp)
-![Outpoint structure](assets/en/30.webp)
-![TxOut structure](assets/en/31.webp)
+![Transaction structure](assets/en/028.webp)
+![TxIn structure](assets/en/029.webp)
+![Outpoint structure](assets/en/030.webp)
+![TxOut structure](assets/en/031.webp)
 
 #### Parsing techniques
 
@@ -1333,9 +1333,9 @@ impl Parse for OpCode {
 }
 ```
 
-![op_checksig](assets/en/32.webp)
-![op_hash160](assets/en/33.webp)
-![op_push](assets/en/34.webp)
+![op_checksig](assets/en/032.webp)
+![op_hash160](assets/en/033.webp)
+![op_push](assets/en/034.webp)
 
 #### Challenges in script parsing
 
@@ -1366,7 +1366,7 @@ The use of compact blocks are currently used to enhance the efficiency of data t
 
 For consensus-critical applications, it is recommended to use existing libraries to avoid bugs and ensure security like [rust-bitcoin](https://docs.rs/bitcoin/latest/bitcoin/) or [bitcoin-dev-kit](https://docs.rs/bdk/latest/bdk/). Implementing your own parser can be educational but also risky in production environments.
 
-![libraries](assets/en/35.webp)
+![libraries](assets/en/035.webp)
 
 ### Efficiency and security in Bitcoin mining
 
@@ -1381,7 +1381,7 @@ Mining empty blocks can be more efficient for miners:
 
 Empty blocks are sometimes mined due to timing issues. Miners might not have received the full list of transactions by the time they start mining the next block, so they choose to mine an empty block instead.
 
-![empty block](assets/en/36.webp)
+![empty block](assets/en/036.webp)
 
 #### Malicious mining of empty blocks
 
@@ -1418,11 +1418,11 @@ Bitcoin nodes are the backbone of the Bitcoin network. They connect to each othe
 
   - **Archival nodes**: A subset of full nodes, archival nodes retain all blockchain data, making them valuable for historical analysis and debugging.
 
-  ![archival node](assets/en/37.webp)
+  ![archival node](assets/en/037.webp)
 
   - **Pruned nodes**: Pruned nodes save disk space by keeping only a portion of the blockchain, eliminating older data that is no longer needed for validation.
 
-  ![pruned node](assets/en/38.webp)
+  ![pruned node](assets/en/038.webp)
 
 #### Bitcoin Core
 
@@ -1432,7 +1432,7 @@ Bitcoin Core is the most widely used full node implementation. It performs dual 
 - **Open-source nature**: The code is open-source, allowing developers to contribute and scrutinize its workings.
 - **Language**: Written in C++ with tests in Python, ensuring robust performance and reliability.
 
-![cli-gui](assets/en/39.webp)
+![cli-gui](assets/en/039.webp)
 
 ##### Exploring bitcoin core
 
@@ -1471,7 +1471,7 @@ Beyond Bitcoin Core, there are several alternative node implementations:
 
 Implementing these alternatives comes with its own risks, particularly regarding the consensus rules. Deviating from established validation rules can lead to forks or inconsistencies. The Bitcoin Kernel project seeks to mitigate these risks by centralizing consensus code, ensuring uniformity across implementations.
 
-![implementation](assets/en/40.webp)
+![implementation](assets/en/040.webp)
 
 ### Bitcoin wallets and security
 
@@ -1518,15 +1518,15 @@ Regardless of type, every Bitcoin wallet performs three fundamental functions:
 
 - Bitcoin wallets act as keychains, holding and generating cryptographic keys.
 
-![keychain](assets/en/41.webp)
+![keychain](assets/en/041.webp)
 
 - They monitor the blockchain for incoming transactions.
 
-![monitor](assets/en/42.webp)
+![monitor](assets/en/042.webp)
 
 - Create transactions by selecting unspent transaction outputs (UTXOs), setting inputs and outputs, and optimizing for privacy and fees.
 
-![tx_builder](assets/en/43.webp)
+![tx_builder](assets/en/043.webp)
 
 #### Reusability of wallet logic
 
@@ -1695,7 +1695,7 @@ While Bitcoin’s decentralization is one of its core strengths, it also poses s
 
 ### Payment channels as a solution
 
-![Gold coin](assets/en/44.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 To address the inefficiencies and privacy issues of Bitcoin, payment channels have been proposed as a viable solution. Micro-payment channels allow transactions to occur off-chain, reducing the need for constant data sharing across the entire network. This significantly alleviates the burden on the blockchain, allowing for quicker and cheaper transactions.
 
@@ -1728,7 +1728,7 @@ The workflow of HTLC involves a multi-step process that ensures secure routing t
 
 In an HTLC, Alice locks the payment with a hash of a secret "R." Bob, Carol, and Diana each create similar contracts with their subsequent intermediaries, ensuring that they can only claim their funds if they present the correct secret "R." This mechanism ensures atomicity; the payment fully completes or fails, safeguarding against partial fund losses.
 
-![Hash lock](assets/en/45.webp)_Hash lock function_
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 ### Practical considerations and network dynamics
 
@@ -1742,7 +1742,7 @@ Channels update their state based on mutual agreements and signatures between pa
 
 The HTLC mechanism ensures atomicity through the use of time locks and signatures. This safeguard ensures that the payment protocol guarantees either complete success or failure, protecting against partial fund losses.
 
-![Time lock and signatures](assets/en/46.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 #### Incentives and responsibilities
 
@@ -1760,7 +1760,7 @@ Nodes within the network can either be part of a publicly announced channel grap
 
 Alice must have knowledge of the network topology to decide on the payment route. Source routing is employed to preserve privacy despite the complexity of routing payments through multiple intermediaries.
 
-![Source Routing](assets/en/47.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 #### Conclusion
 
@@ -1778,7 +1778,7 @@ Enter the Lightning Network, which functions as a second layer on top of the Bit
 
 To grasp the concept better, consider the analogy of a bar tab. When you open a tab at a bar, you can continuously order drinks without paying after each one. Finally, you settle the total amount at the end of the night. Similarly, a Lightning channel allows multiple transactions off-chain, which are only settled on-chain when the channel is closed. Another analogy is an airport, where routing a payment through multiple nodes is akin to taking connecting flights to reach your destination. Each node (or "flight") helps direct your payment to where it needs to go, ensuring efficient routing.
 
-![airport analogy](assets/en/48.webp)_The airport analogy of LN_
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 In essence, the Lightning Network complements the Bitcoin network by addressing its limitations, transforming it from a mere settlement layer into a versatile system capable of handling everyday transactions efficiently.
 
@@ -1786,7 +1786,7 @@ In essence, the Lightning Network complements the Bitcoin network by addressing 
 
 The Lightning Network protocol is meticulously defined through 10 BOLTs (Basis of Lightning Technology). These BOLTs were agreed upon during a conference in Milan and serve as the foundation for various implementations of the Lightning Network.
 
-![bolt](assets/en/49.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 #### BOLT 1 (base protocol)
 
@@ -1828,7 +1828,7 @@ Commitment transactions incorporate mechanisms like nLockTime, OPCheckSequenceVe
 
 ### Routing & onion routing
 
-![onion routing](assets/en/50.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 Payments are routed using Onion routing, which involves creating encrypted packets sent through multiple nodes. HTLCs secure the transaction, ensuring privacy and security.
 
@@ -1836,7 +1836,7 @@ Payments are routed using Onion routing, which involves creating encrypted packe
 
 Lightning Network invoices (BOLT 11) are encoded in Bech32 and include details like payment hash, description, and expiry. Each invoice must be used once to prevent reuse issues.
 
-![Invoice structure](assets/en/51.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 #### Encryption & authentication
 
@@ -1899,7 +1899,7 @@ The Lightning Network (LN) represents a significant breakthrough in Bitcoin scal
 
 Lightning wallets are designed to make the process user-friendly, allowing even those with minimal technical knowledge to benefit from advanced Bitcoin functionalities. By enabling quick and cost-effective microtransactions, these wallets contribute significantly to the broader adoption of Bitcoin for everyday transactions.
 
-![LN Clients](assets/en/52.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 ### Bitcoin wallets vs. Lightning wallets
 
@@ -1929,14 +1929,14 @@ Effective liquidity management is a cornerstone of successful Lightning Network 
 
 #### Example of liquidity management:
 
-![Example of Liquidity](assets/en/53.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 Consider a scenario involving Alice, Bob, Charlie, and Dan - typical LN users interconnected through various channels:
 
 - Alice wants to pay Dan but lacks sufficient local liquidity in her channel with Bob.
 - If Bob has an adequate balance and a channel with Charlie, and Charlie has a channel with Dan, Alice's payment can be routed through Bob and Charlie to reach Dan.
 
-![Example of Liquidity](assets/en/54.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 However, if any of these channels face depletion or connectivity issues, the transaction may fail. This illustrates the importance of maintaining balanced liquidity across the network.
 
@@ -1978,7 +1978,7 @@ Wallets can be classified based on who holds the private keys and who manages li
 - **Custodial wallets**: Third-party holds private keys, usually offer automatic liquidity management. Examples include Wallet of Satoshi.
 - **Non-Custodial wallets**: Users hold private keys, may require manual liquidity management. Examples include Breeze and OBW.
 
-![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 ### Criticism and improvement areas
 
@@ -2291,7 +2291,7 @@ Mining complexity in the context of Bitcoin primarily involves the technical and
 
 #### Key profitability factors
 
-![energy cost](assets/en/56.webp)
+![energy cost](assets/en/056.webp)
 
 1. **Electricity costs**: One of the most significant factors affecting mining profitability is the cost of electricity. In regions like France, electricity can be relatively expensive compared to countries like El Salvador, where lower costs provide a competitive edge for miners.
 2. **Hardware efficiency**: The efficiency of mining hardware, measured by its hash rate and power consumption, plays a pivotal role. Advanced ASIC miners like the S19J Pro are far more efficient than older models such as the Antminer S9.
@@ -2311,7 +2311,7 @@ Miners face three primary bottlenecks: hardware availability, energy access, and
 - Example of **Energy bottleneck**.
   In 2021, the Chinese government banned mining within its territory, causing mining companies in China to lose access to energy. This resulted in a **50%** drop in the hashrate over two weeks.
 
-![hashrate drop](assets/en/57.webp)
+![hashrate drop](assets/en/057.webp)
 
 ---
 
@@ -2321,7 +2321,7 @@ Miners face three primary bottlenecks: hardware availability, energy access, and
 
 The journey of mining hardware has been monumental, starting from simple CPU mining to the highly specialized ASIC miners we use today.
 
-![evolution hardware](assets/en/58.webp)
+![evolution hardware](assets/en/058.webp)
 
 1. **CPU mining**: In the early days, mining was performed using regular computer processors (CPUs). This method was quickly outpaced as the network grew.
 2. **GPU mining**: Graphics Processing Units (GPUs) provided a significant boost in mining efficiency, making CPUs obsolete for mining purposes.
@@ -2333,7 +2333,7 @@ The journey of mining hardware has been monumental, starting from simple CPU min
 - **S19J Pro**: Known for its high efficiency and reliability, the S19J Pro offers a superior hash rate with lower power consumption, making it ideal for large-scale operations.
 - **Antminer S9**: While older and less efficient, the Antminer S9 remains popular for smaller setups and hobbyists due to its affordability and decent performance.
 
-![s19j pro vs antminer s9](assets/en/59.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 #### Mining efficiency and learning
 
@@ -2363,11 +2363,11 @@ Regulation plays a significant role in shaping the mining landscape. For instanc
 
    - **Pay per share**: Pay-Per-Share rewards miners for each valid share they submit, regardless of whether the pool finds a block. **Shares** are units of proof that miners have completed the required work, and the pool verifies these shares.
 
-   ![pps](assets/en/60.webp)
+   ![pps](assets/en/060.webp)
 
    - **Proportional**: It depends on the pool mining a block to distribute the reward equally to the contribution of the miner to the total hashrate of the pool.
 
-   ![prop](assets/en/61.webp)
+   ![prop](assets/en/061.webp)
 
 #### Future of mining
 

@@ -1,0 +1,9 @@
+question: なぜMinerにBitcoinノードが必要なのか？
+answer: ネットワークと交流し、ブロックを配布する
+wrong_answers:
+  - generateデジタル署名へ
+  - Coinbase TransactionにデリバリーのAddressを入力するには
+  - Miningの難易度を下げるために
+explanation: |
+  マイナーはノードを使用してネットワークと通信し、ブロックを送信し、トランザクションを受信する。
+reviewed: true

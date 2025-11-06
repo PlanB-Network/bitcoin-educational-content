@@ -1,4 +1,4 @@
-question: What is the IPv6 block size generally allocated by IANA to each regional register (RIR)?
+question: What is the IPv6 block size generally allocated by IANA to each Regional Internet Registry (RIR)?
 answer: /12
 wrong_answers:
   - /48

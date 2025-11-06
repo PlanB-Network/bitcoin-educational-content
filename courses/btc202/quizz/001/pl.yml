@@ -1,0 +1,9 @@
+question: Jak nazywamy zbiór maszyn z uruchomioną implementacją Bitcoin i połączonych ze sobą?
+answer: Sieć Bitcoin
+wrong_answers:
+  - Protokół Bitcoin
+  - Waluta Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  Sieć Bitcoin obejmuje wszystkie połączone węzły, z których każdy korzysta z odrębnej implementacji protokołu.
+reviewed: true

@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -43,7 +43,7 @@ Graylog er et analyse- og overvåkingsverktøy som gjør det enklere å identifi
 
 
 
-**Gratisversjonen, **Graylog Open**, er ikke en SIEM slik Wazuh er, spesielt fordi den mangler reelle funksjoner for å oppdage inntrengning.
+**Gratisversjonen, Graylog Open, er ikke en SIEM slik Wazuh er, spesielt fordi den mangler reelle funksjoner for å oppdage inntrengning.**
 
 
 
@@ -57,9 +57,9 @@ Graylog er et analyse- og overvåkingsverktøy som gjør det enklere å identifi
 
 
 
-- MongoDB 7**, den nåværende anbefalte versjonen for Graylog (minimum 5.0.7, maksimum 7.x)
-- OpenSearch**, en åpen kildekode Fork av Elasticsearch laget av Amazon (minimum 1.1.x, maksimum 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, den nåværende anbefalte versjonen for Graylog (minimum 5.0.7, maksimum 7.x)
+- **OpenSearch**, en åpen kildekode Fork av Elasticsearch laget av Amazon (minimum 1.1.x, maksimum 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Merk: **OpenSearch-installasjonen er valgfri** hvis du bruker **Graylog Data Node** i stedet.
+**Merk:** OpenSearch-installasjonen er valgfri hvis du bruker **Graylog Data Node** i stedet.
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Deretter oppdaterer vi pakkebufferen og prøver å installere MongoDB :
+Deretter oppdaterer vi pakkebufferen og prøver å installere MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB kan ikke installeres fordi en avhengighet mangler: **libssl1.1**. Vi må
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Oppdater pakkebufferen din :
+Oppdater pakkebufferen din:
 
 
 
@@ -279,14 +279,14 @@ Denne OpenSearch-konfigurasjonen er utformet for å sette opp en enkelt node. He
 
 
 
-- cluster.name: graylog** : denne parameteren navngir OpenSearch-klyngen med navnet "**graylog**".
-- node.name: ${HOSTNAME}**: Nodenavnet settes dynamisk slik at det samsvarer med navnet på den lokale Linux-maskinen. Selv om vi bare har én node, er det viktig å gi den riktig navn.
-- path.data: /var/lib/opensearch**: Denne stien angir hvor OpenSearch lagrer dataene sine på den lokale maskinen, i dette tilfellet i "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: Denne banen definerer hvor OpenSearch-loggfiler lagres, her i "**/var/log/opensearch**".
-- discovery.type: single-node**: Denne parameteren konfigurerer OpenSearch til å arbeide med en enkelt node, derav valget av alternativet "**single-node**".
-- network.host: 127.0.0.1**: Denne konfigurasjonen sikrer at OpenSearch bare lytter på den lokale Interface-sløyfen, noe som er tilstrekkelig siden den er på samme server som Graylog.
-- action.auto_create_index: false**: Ved å deaktivere automatisk indeksoppretting vil OpenSearch ikke automatisk opprette en indeks når et dokument sendes uten en eksisterende indeks.
-- plugins.security.disabled: true**: Dette alternativet deaktiverer OpenSearchs sikkerhetsplugin, noe som betyr at det ikke vil være noen autentisering, tilgangsstyring eller kommunikasjonskryptering. Denne innstillingen sparer tid ved oppsett av Graylog, men bør unngås i produksjon (se [denne siden](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: denne parameteren navngir OpenSearch-klyngen med navnet "**graylog**".
+- node.name: ${HOSTNAME}: Nodenavnet settes dynamisk slik at det samsvarer med navnet på den lokale Linux-maskinen. Selv om vi bare har én node, er det viktig å gi den riktig navn.
+- path.data: /var/lib/opensearch: Denne stien angir hvor OpenSearch lagrer dataene sine på den lokale maskinen, i dette tilfellet i "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: Denne banen definerer hvor OpenSearch-loggfiler lagres, her i "**/var/log/opensearch**".
+- discovery.type: single-node: Denne parameteren konfigurerer OpenSearch til å arbeide med en enkelt node, derav valget av alternativet "**single-node**".
+- network.host: 127.0.0.1: Denne konfigurasjonen sikrer at OpenSearch bare lytter på den lokale Interface-sløyfen, noe som er tilstrekkelig siden den er på samme server som Graylog.
+- **action.auto_create_index: false**: Ved å deaktivere automatisk indeksoppretting vil OpenSearch ikke automatisk opprette en indeks når et dokument sendes uten en eksisterende indeks.
+- plugins.security.disabled: true: Dette alternativet deaktiverer OpenSearchs sikkerhetsplugin, noe som betyr at det ikke vil være noen autentisering, tilgangsstyring eller kommunikasjonskryptering. Denne innstillingen sparer tid ved oppsett av Graylog, men bør unngås i produksjon (se [denne siden](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Med konfigurasjonen som er brukt her, vil **OpenSearch starte med 4 GB allokert minne og kan vokse opp til 4 GB**, slik at det ikke blir noen minnevariasjon under drift. Her tar konfigurasjonen hensyn til at den virtuelle maskinen har totalt **8 GB RAM**. Begge parameterne må ha samme verdi. Dette betyr at du må bytte ut linjene :
+Med konfigurasjonen som er brukt her, vil **OpenSearch starte med 4 GB allokert minne og kan vokse opp til 4 GB**, slik at det ikke blir noen minnevariasjon under drift. Her tar konfigurasjonen hensyn til at den virtuelle maskinen har totalt **8 GB RAM**. Begge parameterne må ha samme verdi. Dette betyr at du må bytte ut linjene:
 
 
 
@@ -327,7 +327,7 @@ Med konfigurasjonen som er brukt her, vil **OpenSearch starte med 4 GB allokert 
 
 
 
-Med disse linjene :
+Med disse linjene:
 
 
 
@@ -350,7 +350,7 @@ Lukk denne filen etter at du har lagret den.
 
 
 
-I tillegg må vi sjekke konfigurasjonen av parameteren "**max_map_count**" i Linux-kjernen. Den definerer grensen for minneområder som er tilordnet per prosess, for å oppfylle behovene til applikasjonen vår. **OpenSearch** anbefaler, i likhet med Elasticsearch**, å sette denne verdien til "262144" for å unngå feil i minnehåndteringen.
+I tillegg må vi sjekke konfigurasjonen av parameteren "**max_map_count**" i Linux-kjernen. Den definerer grensen for minneområder som er tilordnet per prosess, for å oppfylle behovene til applikasjonen vår. **OpenSearch** anbefaler, i likhet med **Elasticsearch**, å sette denne verdien til "262144" for å unngå feil i minnehåndteringen.
 
 
 
@@ -408,7 +408,7 @@ Neste skritt: den etterlengtede installasjonen av Graylog!
 
 
 
-For å **installere Graylog 6.1** i den nyeste versjonen, kjør følgende 4 kommandoer for å **laste ned og installere Graylog Server** :
+For å **installere Graylog 6.1** i den nyeste versjonen, kjør følgende 4 kommandoer for å **laste ned og installere Graylog Server**:
 
 
 
@@ -431,8 +431,8 @@ La oss begynne med å konfigurere disse to alternativene:
 
 
 
-- password_secret**: Denne parameteren brukes til å definere en nøkkel som brukes av Graylog for å sikre lagringen av brukerpassord (i samme ånd som en saltingsnøkkel). Denne nøkkelen må være **unik** og **tilfeldig**.
-- root_password_sha2** : denne parameteren tilsvarer standard administratorpassord i Graylog. Det lagres som en Hash SHA-256.
+- **password_secret**: Denne parameteren brukes til å definere en nøkkel som brukes av Graylog for å sikre lagringen av brukerpassord (i samme ånd som en saltingsnøkkel). Denne nøkkelen må være **unik** og **tilfeldig**.
+- **root_password_sha2**: denne parameteren tilsvarer standard administratorpassord i Graylog. Det lagres som en Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Deretter måtte man prøve på nytt med brukeren "**admin**" og det midlertidige
 
 
 
-**Dette er ikke lenger tilfelle. Alt du trenger å gjøre er å logge inn med administratorkontoen din og passordet som er konfigurert på kommandolinjen
+**Dette er ikke lenger tilfelle. Alt du trenger å gjøre er å logge inn med administratorkontoen din og passordet som er konfigurert på kommandolinjen**
 
 
 
@@ -574,7 +574,7 @@ Deretter måtte man prøve på nytt med brukeren "**admin**" og det midlertidige
 
 
 
-**Velkommen til Graylogs Interface!
+**Velkommen til Graylogs Interface!**
 
 
 
@@ -661,7 +661,7 @@ Den nye inngangen er opprettet og er nå aktiv. Graylog kan nå motta Syslog-log
 ![Image](assets/fr/018.webp)
 
 
-**Merk: En enkelt inngang kan brukes til å lagre logger fra flere Linux-maskiner.
+**Merk:** En enkelt inngang kan brukes til å lagre logger fra flere Linux-maskiner.
 
 
 
@@ -701,7 +701,7 @@ For å opprette en ny strøm klikker du på "**Streams**" i Graylogs hovedmeny. 
 
 
 
-**Merk: Meldinger som tilhører denne strømmen, vil også bli inkludert i "**Standardstrøm**", med mindre du merker av for alternativet "**Fjern treff fra 'Standardstrøm'**".
+**Merk:** Meldinger som tilhører denne strømmen, vil også bli inkludert i "**Standardstrøm**", med mindre du merker av for alternativet "**Fjern treff fra 'Standardstrøm'**".
 
 
 
@@ -788,7 +788,7 @@ I denne katalogen må du bruke tall for å definere innlastingsrekkefølgen, for
 
 
 
-I denne katalogen oppretter vi en fil som heter "**10-graylog.conf**" :
+I denne katalogen oppretter vi en fil som heter "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-I denne filen setter du inn denne linjen :
+I denne filen setter du inn denne linjen:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Hvis du har flere servere og ønsker å analysere loggene til en bestemt server, angir du navnet i tillegg til :
+Hvis du har flere servere og ønsker å analysere loggene til en bestemt server, angir du navnet i tillegg til:
 
 
 
@@ -939,7 +939,7 @@ Mislykkede tilkoblingsforsøk gjøres fra maskinen med IP Address "**192.168.10.
 
 
 
-I dette tilfellet kan filteret som skal brukes, være :
+I dette tilfellet kan filteret som skal brukes, være:
 
 
 

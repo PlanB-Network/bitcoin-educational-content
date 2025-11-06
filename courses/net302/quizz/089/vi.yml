@@ -1,0 +1,9 @@
+question: Lệnh ping sử dụng giao thức nào để kiểm tra kết nối mạng?
+answer: ICMP
+wrong_answers:
+  - Giao thức TCP
+  - UDP
+  - ARP
+explanation: |
+  Lệnh ping sử dụng giao thức ICMP để gửi yêu cầu phản hồi và đo độ trễ mạng.
+reviewed: false

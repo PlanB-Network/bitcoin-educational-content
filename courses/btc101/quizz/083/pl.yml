@@ -1,12 +1,13 @@
-question: Jakiej analogii użyto w tym kursie, aby wyjaśnić, w jaki sposób można otrzymywać bitcoiny, nie pozwalając nadawcy na kradzież środków?
-answer: Skrzynka pocztowa.
+question: Jakie jest zalecane zastosowanie mobilnego Wallet?
+answer: Przechowywanie codziennych wydatków.
 wrong_answers:
-  - Konto bankowe.
-  - Sejf.
-  - Dom.
+  - Przechowywanie długoterminowych oszczędności.
+  - Przechowywanie oszczędności średnioterminowych.
+  - Przechowywanie dużych ilości.
 explanation: |
-  Analogia używana do wyjaśnienia, w jaki sposób można otrzymywać Bitcoiny
-  nie pozwalając nadawcy na kradzież środków, jest skrzynka pocztowa
-  skrzynka pocztowa. Ludzie wpłacają do niej pieniądze, ale tylko ty możesz ją otworzyć
-  jedynym, który może ją otworzyć.
+  Mobilny Wallet jest zalecany do codziennych wydatków, ponieważ
+  łatwo za jego pomocą przeprowadzać transakcje. Jednakże
+  nie jest jednak zalecany do przechowywania dużych kwot lub
+  długoterminowych oszczędności, ponieważ jest potencjalnie podatny na
+  zagrożenia internetowe.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Cấu trúc liên kết nào liên kết tất cả các thiết bị với một điểm trung tâm duy nhất?
+answer: Ngôi sao
+wrong_answers:
+  - Nhẫn
+  - Xe buýt
+  - Lưới
+explanation: |
+  Trong cấu trúc hình sao, mỗi thiết bị được kết nối với một thiết bị trung tâm, giúp quản lý và bảo trì dễ dàng hơn.
+reviewed: false

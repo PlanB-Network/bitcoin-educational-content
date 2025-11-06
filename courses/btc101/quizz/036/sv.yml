@@ -1,12 +1,12 @@
-question: Vad innebär begreppet fiduciary i valutasammanhang?
-answer: Det avser valutor som endast är värdefulla på grund av förtroendet för den centrala institution som reglerar dem.
+question: Hur har institutionerna historiskt sett gått tillväga när de infört fiatvalutor?
+answer: Ledarna centraliserar guldet och inför en ny valuta som motsvarar guldets värde och som sedan gradvis devalveras.
 wrong_answers:
-  - Det avser valutor som backas upp av guld och som ges ut av små affärsbanker.
-  - Det avser valutor som endast är värdefulla för fiduciära transaktioner.
-  - Det avser valutor som endast används inom en specifik institution.
+  - Ledarna inför en ny valuta som backas upp av guld, som sedan gradvis ökar i värde.
+  - Ledarna inför en ny valuta utan egentligt värde, som sedan gradvis ökar i värde.
+  - Ledarna inför en ny valuta som backas upp av en råvarukorg och som sedan hålls stabil i värde.
 explanation: |
-  Fiduciära valutor backas inte upp av en fysisk råvara
-  som guld eller silver. Deras värde härrör från den tillit
-  och förtroende som människor har för de institutioner som utfärdar
-  och reglerar dem.
+  Historiskt sett har ledare centraliserat guld och infört en ny
+  en ny valuta som motsvarar guldets värde. Denna nya
+  valutan devalveras sedan gradvis, ofta under förevändning
+  av att vara i folkets intresse.
 reviewed: true

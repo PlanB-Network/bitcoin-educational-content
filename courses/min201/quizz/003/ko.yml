@@ -1,0 +1,13 @@
+question: 채굴자들이 Bitcoin Mining 프로세스에 참여하도록 하는 주요 재정적 인센티브는 무엇인가요?
+answer: Mining 보상
+wrong_answers:
+  - Bitcoin 네트워크 제어 기능
+  - 마음대로 새로운 비트코인을 생성할 수 있는 기능
+  - Bitcoin의 가격을 조작하는 기능
+explanation: |
+  채굴자들이 Bitcoin-6 프로세스에 참여하는 주요 재정적 인센티브는
+  gW-5 Mining 프로세스에 참여하는 주된 금전적 인센티브는 Mining 보상입니다. 이
+  보상은 채굴자들이 에너지 소모량에도 불구하고
+  채굴자들이 Mining 프로세스에 참여하도록 장려하는 강력한 인센티브 역할을 합니다
+  비용.
+reviewed: true

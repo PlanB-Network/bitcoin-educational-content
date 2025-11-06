@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Jak začít používat výkonný uzel LN v mobilním telefonu?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Tato příručka je věnována všem novým uživatelům, kteří chtějí začít používat Bitcoin Lightning Network (LN) ZDARMA OPEN SOURCE, ÚPLNĚ NEKUSTODIÁLNÍM způsobem.
@@ -673,7 +673,7 @@ Mezitím zde najdete všechny odkazy na tento úžasný bleskový uzel Bitcoin:
 *Vývojáři této aplikace mě nijak neplatí ani nepodporují. Tuto příručku jsem napsal, protože jsem viděl, že zájem o tuto aplikaci Wallet roste a noví uživatelé stále nechápou, jak s ní začít pracovat. Také proto, abych pomohl Hampusovi (hlavnímu vývojáři) s dokumentací o používání tohoto uzlu Wallet.*
 
 
-*Nemám žádný jiný zájem na propagaci této aplikace LN, než prosazovat přijetí Bitcoin a LN. To je jediná cesta!
+*Nemám žádný jiný zájem na propagaci této aplikace LN, než prosazovat přijetí Bitcoin a LN. To je jediná cesta!*
 
 
 ---

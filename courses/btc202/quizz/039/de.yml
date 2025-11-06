@@ -1,0 +1,9 @@
+question: Was ist die empfohlene minimale SSD-Kapazität in 2025 für einen Bitcoin-Knoten?
+answer: 2 Zu
+wrong_answers:
+  - 512 GB
+  - 10 bis
+  - 256 GB
+explanation: |
+  Mit einem Blockchain von mehr als 700 GB und zusätzlichen Anwendungen sind 2 TB das vernünftige Minimum geworden.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hangi Bitcoin.conf parametresi Mempool'in boyutunu MB cinsinden sınırlar?
+answer: maxmempool
+wrong_answers:
+  - toplammempool
+  - mempoolexpiry
+  - mempoolsize
+explanation: |
+  maxmempool Mempool'nin maksimum boyutunu ayarlar (varsayılan olarak 300 MB). Dolduğunda, daha az kârlı işlemler dışarı atılır.
+reviewed: true

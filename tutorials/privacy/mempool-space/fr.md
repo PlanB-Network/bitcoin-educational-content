@@ -8,9 +8,9 @@ description: Explorez l'ensemble de l'écosystème Bitcoin.
 Le protocole Bitcoin est un réseau pseudonyme, décentralisé et ouvert à la consultation. Les membres (nœuds), c'est-à-dire les ordinateurs ayant une instance du logiciel Bitcoin peuvent avoir, sans restriction, à l'ensemble des données publiées sur Bitcoin. Toutes fois, dans les premières années de Bitcoin, le protocole n'était pas accessible à tous comme nous pouvions le voir de nos jours.
 Aux premières heures de Bitcoin, il fallait faire tourner un nœud Bitcoin afin d'accéder aux outils appropriés (bitcoin-cli) pour interroger le réseau à partir des lignes de commandes.
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Des projets se sont donc initiés, pour élargir la communauté autour de Bitcoin, le rendant plus accessible à toute personne n'ayant pas de nœud et/ou n'ayant pas des compétences techniques requises.
 
@@ -26,7 +26,7 @@ Le principal impact de la plateforme dans l'écosystème Bitcoin est qu'elle vou
 
 L'utilisation de plus en plus répandue dans l'écosystème et le fait que Mempool.space soit open source ont permis son intégration dans de plus en plus de système d'hébergement personnel. Vous pouvez donc avoir votre propre instance de Mempool.space directement sur votre nœud personnel. Retrouvez ci-dessous, notre tutoriel sur la configuration de Mempool.space sur votre nœud Umbrel.
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Les bases de Mempool.space
 
@@ -90,7 +90,7 @@ Vous obtenez plus de détails sur les adresses utilisées dans la section **Inpu
 
 Découvrez les différents schémas de transactions Bitcoin pour accroître votre confidentialité.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Accélérer vos transactions
 
@@ -102,13 +102,13 @@ Heureusement, il existe, sur le réseau Bitcoin, deux méthodes pouvant vous per
 
 Vous pourrez effectuer une action de remplacement de frais avec des portefeuilles acceptant ce mécanisme. Retrouvez par exemple notre article sur le portefeuille Blue Wallet.
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 - **CPFP** - Child Pay For Parent : Une approche inspirée du RBF mais du coté du destinataire. Lorsque la transaction dans laquelle vous êtes destinataire est bloquée dans un mempool, vous avez la possibilité de dépenser les sorties (UTXOs) de cette transaction, malgré qu'elle ne soit pas encore confirmée, en allouant plus de frais à cette nouvelle transaction afin que la moyenne des frais - de la transaction dont vous êtes destinataire et de la transaction initiée - incite les mineurs à inclure toutes les deux transactions dans un bloc.
 
 ⚠️ La première transaction doit impérativement être incluse dans un bloc pour permettre à la seconde transaction d'être confirmée.
 
-Si tous ces termes vous semblent un peu trop techniques, je vous recommande de [consulter notre glossaire](https://planb.network/resources/glossary), qui regroupe les définitions de tous les termes techniques en lien avec Bitcoin et son écosystème.
+Si tous ces termes vous semblent un peu trop techniques, je vous recommande de [consulter notre glossaire](https://planb.academy/resources/glossary), qui regroupe les définitions de tous les termes techniques en lien avec Bitcoin et son écosystème.
 
 Outre ces méthodes, Mempool.space, grâce à ses connexions avec plus de 80% des mineurs présents sur le réseau Bitcoin, vous permet également d'accélérer n'importe laquelle de vos transactions **non confirmée**, même celles n'activant pas le RBF, en payant une contrepartie aux mineurs en échange de l'insertion de votre transaction à faible frais dans le prochain bloc prêt à être miné.
 
@@ -119,7 +119,7 @@ Sur la page de détail de votre transaction, cliquez sur le buton **Accelerate**
 
 Un mineur fait référence à une personne qui gère une mine, c'est-à-dire un ordinateur engagé dans le processus de minage, qui consiste à participer à la Proof-of-Work. Le mineur regroupe les transactions en attente dans sa mempool pour former un bloc candidat. Ensuite, il recherche un hachage valide, inférieur ou égal à la cible, pour l’entête de ce bloc en modifiant les différents nonces. S’il trouve un hachage valide, il diffuse son bloc au réseau Bitcoin et empoche la récompense pécuniaire associée, composée de la subvention de bloc (création de nouveaux bitcoins ex-nihilo), et des frais de transaction.
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Les mineurs sont comme des "validateurs" qui vérifient et regroupent les transactions dans des blocs. Pour ajouter un nouveau bloc au réseau Bitcoin, ils doivent résoudre un puzzle mathématique complexe (la Proof-of-Work). Le premier mineur qui résout le puzzle gagne une récompense en bitcoin (subvention de bloc + frais des transactions incluses dans le bloc).
 
@@ -182,4 +182,4 @@ Dans la section **Graphique**, vous pouvez visualiser des données essentielles 
 
 Vous voilà à la fin de votre parcours sur Mempool.space, devenez dès maintenant votre propre explorateur et traquez vos transactions en temps réel. Nous vous proposons de retrouver, ci-dessous, notre article sur l'explorateur Bitcoin **Public Pool**.
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

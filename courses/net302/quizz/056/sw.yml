@@ -1,0 +1,9 @@
+question: Kusudi kuu la kuunganisha mtandao ni nini?
+answer: Kusanya miingiliano mingi ya mtandao halisi
+wrong_answers:
+  - Ongeza anwani pepe za IP kwenye mtandao wa ndani
+  - Kuunda daraja la Wi-Fi
+  - Punguza ukubwa wa pakiti kwenye kebo ya RJ45
+explanation: |
+  Uunganisho wa mtandao huchanganya miingiliano mingi ya kimwili kuwa moja ya kimantiki, ikitoa upunguzaji wa data au kuongezeka kwa kipimo data.
+reviewed: false

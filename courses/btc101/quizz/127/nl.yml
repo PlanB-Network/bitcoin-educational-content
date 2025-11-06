@@ -1,12 +1,12 @@
-question: Wat is het doel van transactiekosten bij Bitcoin transacties?
-answer: Ze zijn een stimulans voor miners om de transactie op te nemen in het volgende blok.
+question: Wat is een geldige Hash in de context van blok Mining in het Bitcoin netwerk?
+answer: Een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 tekens.
 wrong_answers:
-  - Het is een belasting die door de overheid wordt opgelegd.
-  - Ze zijn een vergoeding die het Bitcoin netwerk in rekening brengt voor het gebruik van haar diensten.
-  - Dit is een vergoeding die in rekening wordt gebracht door de Wallet provider.
+  - Een unieke code die wordt gebruikt om toegang te krijgen tot het blok.
+  - Een uniek wachtwoord dat nodig is om het blok te ontginnen.
+  - Een unieke identificatie voor de Miner die het blok heeft gemined.
 explanation: |
-  Transactievergoedingen in Bitcoin transacties dienen als een
-  stimulans voor mijnwerkers om de transactie op te nemen in het volgende
-  blok op te nemen. De vergoedingen creëren een vrije markt voor
-  transacties in blokken.
+  In de context van blok Mining in het Bitcoin netwerk is een
+  geldige Hash een unieke vingerafdruk geassocieerd met het
+  blok, bestaande uit 256 tekens. De geldigheid van deze
+  Hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk.
 reviewed: true

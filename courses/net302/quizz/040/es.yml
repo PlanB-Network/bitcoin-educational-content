@@ -1,0 +1,9 @@
+question: ¿Qué registro es obligatorio en todos los archivos de zona DNS?
+answer: SOA (Inicio de Autoridad)
+wrong_answers:
+  - PTR (puntero)
+  - AAAA (IPv6 Address)
+  - SRV (localizador de servicios)
+explanation: |
+  El registro SOA define la autoridad de zona y es necesario en todos los archivos de zona DNS.
+reviewed: false

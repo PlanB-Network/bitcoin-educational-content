@@ -1,9 +1,10 @@
-question: Apa nama proses yang memverifikasi transaksi pada jaringan Bitcoin?
-answer: Penambangan
+question: Berapa frekuensi penyesuaian kesulitan?
+answer: Setiap 2016 blok
 wrong_answers:
-  - Penggalian
-  - Pemanenan
-  - Bertani
+  - Setiap 1048 blok
+  - Setiap 512 blok
+  - Setiap 4032 blok
 explanation: |
-  Proses yang memverifikasi transaksi pada jaringan Bitcoin disebut penambangan. Penambang melakukan tugas kriptografi dan diberi imbalan berupa penerbitan bitcoin baru.
-reviewed: true
+  Penyesuaian kesulitan adalah mekanisme yang terjadi setiap
+  2016 blok, atau sekitar dua minggu, untuk memastikan bahwa, rata-rata, sebuah blok baru ditambahkan
+  ke blockchain setiap sepuluh menit terlepas dari hashrate global.

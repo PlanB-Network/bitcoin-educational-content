@@ -1,0 +1,9 @@
+question: Vilken faktor avgör en nods inflytande på konsensusreglerna?
+answer: Dess ekonomiska betydelse
+wrong_answers:
+  - Dess antal utgående anslutningar
+  - Senioritet i nätverket
+  - Ingenting, eftersom varje nod har en röst
+explanation: |
+  Påverkan på konsensusregler beror på den ekonomiska aktivitet som stöds av noden, inte på dess antal.
+reviewed: true

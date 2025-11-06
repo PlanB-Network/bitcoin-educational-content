@@ -1,0 +1,9 @@
+question: Vad är bitlängden för en IPv6 Address?
+answer: 128-bitars
+wrong_answers:
+  - 512 bitar
+  - 64-bitars
+  - 256-bitars
+explanation: |
+  En IPv6 Address är 128 bitar lång, jämfört med 32 bitar för en IPv4 Address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni urufunguzo uruhe rujanye n’intango ya zpub?
+answer: Urufunguzo rwa bose rwagutse rwa SegWit V0 kuri Mainnet.
+wrong_answers:
+  - Urufunguzo rw’ibanga rwagutse rwa SegWit V1 kuri Mainnet.
+  - Urufunguzo rwa bose rwagutse rw’Iragi kuri Testnet.
+  - Urufunguzo rwa bose rwagutse rwa SegWit V2 kuri Testnet.
+explanation: |
+  Imbere ya zpub yerekana urufunguzo rwa bose rwagutse rw'inyandiko za SegWit V0 kuri Mainnet.
+reviewed: false

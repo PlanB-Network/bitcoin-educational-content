@@ -1,0 +1,9 @@
+question: Hva er moral for Gilles Deleuze?
+answer: Et system for å skille mellom det gode og det moralske.
+wrong_answers:
+  - Et religiøst initiativ.
+  - Resultatet av loven.
+  - Et varig prinsipp.
+explanation: |
+  For Gilles Deleuze er moral et system av dømmekraft som klassifiserer handlinger i godt og ondt i henhold til transcendente verdier. Han kontrasterer dette med den spinozistiske etikken, som vurderer eksistensmåter ut fra deres handlingskraft.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on TCP-segmendi "ACK" lipu eesmärk?
+answer: Segmendi kättesaamise kinnitamiseks
+wrong_answers:
+  - Ühenduse sulgemise algatamine
+  - Vahetatud andmevoo krüpteerimiseks
+  - Kasutatava teenuse pordi tuvastamiseks
+explanation: |
+  Kui ACK-flipp on seatud, kinnitab see, et segment on edukalt vastu võetud, ja määrab järgmise eeldatava järjekorranumbri.
+reviewed: false

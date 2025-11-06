@@ -1,8 +1,11 @@
-question: Czym jest szwajcarskie wynagrodzenie Bitcoin?
-answer: Rozwiązanie dla sprzedawców amatorów do akceptowania Bitcoin.
+question: Co należy zrobić po zakupie Bitcoin na platformie Exchange?
+answer: Wypłacaj bitcoiny i wysyłaj je do swojego Wallet.
 wrong_answers:
-  - Szwajcarski bank akceptujący Bitcoin.
-  - Bitcoin Exchange ze Szwajcarii.
-  - Firma Mining, która działa w Szwajcarii.
-explanation: >-
+  - Pozostaw bitcoiny na platformie.
+  - Natychmiastowa sprzedaż bitcoinów.
+  - Przenieś bitcoiny na inną platformę Exchange.
+explanation: |
+  Tekst kursu informuje, że po zakupie Bitcoin należy natychmiast
+  należy natychmiast wycofać UTXO z platform Exchange
+  aby zminimalizować ryzyko hakowania i blokowania funduszy.
 reviewed: true

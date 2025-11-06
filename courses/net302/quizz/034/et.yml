@@ -1,0 +1,9 @@
+question: Milline on IPv4 Address peamine roll arvutivõrgus?
+answer: Võrgustiku Interface unikaalne identifitseerimine
+wrong_answers:
+  - Kogu seadme tuvastamine võrgus
+  - MAC-aadresside dünaamiline määramine võrgus
+  - generate DNS-nimed
+explanation: |
+  Igale seadme Interface võrgule määratakse IPv4 Address, mis võimaldab seadme asukoha määramist ja kättesaamist võrgus.
+reviewed: false

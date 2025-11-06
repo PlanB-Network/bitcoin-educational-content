@@ -1,0 +1,9 @@
+question: Blok meta verilerini depolamak için blocks/index/ içinde hangi veritabanı kullanılır?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core, blokları indekslemek için block/index/ içindeki LevelDB'yi kullanarak aramayı ve eşlere hizmeti hızlandırır.
+reviewed: true

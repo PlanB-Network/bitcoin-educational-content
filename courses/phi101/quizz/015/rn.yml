@@ -1,0 +1,9 @@
+question: Ni iyerekwa irihe ry’amateka Marx yashikirije?
+answer: Amateka ni ingaruka y'intambara hagati y'imigwi y'abantu .
+wrong_answers:
+  - Amateka ni ugutera imbere kw'umurongo uja mu kibano c'abanyagihugu
+  - Amateka ni uruziga rw'ugusubiramwo n'ibihe vy'umwidegemvyo bikurikiwe n'ibihe vy'ububisha .
+  - Amateka agenwa n'imihindagurikire y'ikirere
+explanation: |
+  Marx abona ko amateka ari ingaruka y’amatati hagati y’imigwi y’abantu, avuga ko amakimbirane hagati y’uwuhahaza n’imigwi y’abahahazwa ari yo atuma habaho ihinduka ry’imibano n’ubutunzi mu bihe vyose.
+reviewed: true

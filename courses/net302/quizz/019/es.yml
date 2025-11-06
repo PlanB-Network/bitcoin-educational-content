@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal del protocolo IP en el modelo TCP/IP?
+answer: Entregar paquetes de datos de un host a otro
+wrong_answers:
+  - Gestionar el cifrado de las comunicaciones de red
+  - Garantizar conexiones persistentes entre aplicaciones
+  - Traducir direcciones MAC en direcciones IP
+explanation: |
+  El protocolo IP gestiona el direccionamiento lógico de los dispositivos y garantiza el encaminamiento de los paquetes a través de las redes interconectadas.
+reviewed: false

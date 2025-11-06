@@ -1,11 +1,11 @@
-question: Manakah di antara ini yang bukan keuntungan dari Bitcoin sebagai mata uang?
-answer: Digunakan untuk membayar pajak
+question: Berapa jumlah maksimum unit Bitcoin yang dapat ada?
+answer: 21 juta
 wrong_answers:
-  - Dapat dibagi
-  - Dapat diangkut
-  - Merupakan uang tanpa izin
-explanation: >-
-  Bitcoin, karena sifat-sifatnya seperti kemampuan dibagi, dapat diverifikasi, aspek tanpa izin, dan kemampuan diangkut, menawarkan
-  nilai penyimpanan yang sangat baik. Selain itu, sebagai mata uang internet netral, ini mewakili
-  media pertukaran yang baik yang tidak mengenal batas.
+  - 3 triliun
+  - 100 juta
+  - Tidak ada batas
+explanation: |
+  Total pasokan Bitcoin dibatasi pada 21 juta unit. Ini adalah
+  fitur kunci dari Bitcoin yang membedakannya dari mata uang fidusia, yang dapat
+  dicetak dalam jumlah tak terbatas oleh bank sentral.
 reviewed: true

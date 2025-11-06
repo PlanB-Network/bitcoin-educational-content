@@ -1,5 +1,5 @@
 ---
-name: Gắn nhãn UTXO
+name: Labelling UTXO
 description: Làm thế nào để gắn nhãn UTXO một cách chính xác?
 ---
 ![cover](assets/cover.webp)

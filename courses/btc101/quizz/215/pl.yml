@@ -1,9 +1,8 @@
-question: Co to znaczy, że Bitcoin ma ogólny trend wzrostowy?
-answer: Ogólny trend wzrostowy Bitcoin oznacza, że ogólnie cena Bitcoin rośnie.
+question: Na czym polega problem skalowalności Bitcoin?
+answer: Wyzwanie związane z wdrożeniem systemu monetarnego zdolnego do zapewnienia coraz większej liczby transakcji na sekundę w miarę jego przyjmowania.
 wrong_answers:
-  - Ogólny trend wzrostowy w Bitcoin oznacza, że cena będzie rosnąć w nieskończoność bez żadnych wahań.
-  - Ogólny trend wzrostowy Bitcoin oznacza, że Bitcoin traci na wartości i atrakcyjności rynkowej.
-  - Ogólny trend wzrostowy Bitcoin oznacza, że jest on popularny tylko wśród niewielkiej grupy inwestorów i nie ma wpływu na cały rynek.
-explanation: |
-  Ogólny trend wzrostowy Bitcoin odnosi się do konsekwentnego wzrostu jego ceny w określonym czasie. Należy zauważyć, że chociaż trend wzrostowy sugeruje pozytywną trajektorię, nie gwarantuje, że cena będzie nadal rosła bez żadnych wahań.
+  - Trudność Mining nowych Bitcoinów o rosnącej wartości w czasie.
+  - Zmienność ceny Bitcoin, która wzrośnie po każdym Halving.
+  - Brak regulacji dla Bitcoin, który sprawi, że transakcje będą nielegalne.
+explanation: >-
 reviewed: true

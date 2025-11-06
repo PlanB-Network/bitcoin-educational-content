@@ -1,10 +1,8 @@
-question: Vad gör Lightning Network möjligt?
-answer: Att göra transaktioner mellan individer som inte har en direkt kanalanslutning.
+question: Hur kan Lightning Network potentiellt förändra de befintliga affärsmodellerna inom videospelsbranschen?
+answer: Det gör att spelarna kan satsa mycket små belopp när de spelar spel.
 wrong_answers:
-  - För att skapa direkta kanalanslutningar endast med centraliserade växlar.
-  - För att skapa kanalanslutningar som kräver flera bekräftelser för varje transaktion.
-  - För att upprätta direkta kanalanslutningar som är begränsade till stora transaktioner.
-explanation: |
-  Lightning Network gör det möjligt att göra transaktioner mellan
-  individer som inte har en direkt kanalanslutning.
+  - Det gör det möjligt för spelare att bryta Bitcoin samtidigt som de spelar spel.
+  - Det gör det möjligt för spelutvecklare att acceptera Bitcoin som betalning för sina spel.
+  - Det gör det möjligt för spelare att köpa föremål i spelet med Bitcoin.
+explanation: >-
 reviewed: true

@@ -1,8 +1,8 @@
-question: Koja je svrha Mining pool-a (Rudarskog bazena)?
-answer: Mining pools omogućavaju rudarima da udruže svoje računarske resurse i dobiju manje, ali redovnije nagrade.
+question: Koliko je prosečno vreme između kreiranja dva bloka u Bitkoin protokolu?
+answer: 10 minuta.
 wrong_answers:
-  - Mining pools se koriste za povećanje Hashrate celokupne Bitkoin mreže.
-  - Mining pools se koriste za smanjenje težine rudarenja.
-  - Mining pools se koriste za povećanje nagrade za rudarenje.
+  - 5 minuta.
+  - 15 minuta.
+  - 20 minuta.
 explanation: >-
 reviewed: true

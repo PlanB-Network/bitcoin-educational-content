@@ -1,0 +1,9 @@
+question: Vilken är huvudrollen för en IPv4 Address i ett datornätverk?
+answer: Identifiera ett nätverk på ett unikt sätt Interface
+wrong_answers:
+  - Identifiera hela enheten i ett nätverk
+  - Dynamisk tilldelning av MAC-adresser i ett nätverk
+  - generate DNS-namn
+explanation: |
+  En IPv4 Address tilldelas varje Interface i nätverket för en enhet, vilket gör att den kan lokaliseras och nås i nätverket.
+reviewed: false

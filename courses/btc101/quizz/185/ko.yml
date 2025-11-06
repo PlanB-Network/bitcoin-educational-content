@@ -1,0 +1,8 @@
+question: 오픈노드란 무엇인가요?
+answer: 기업이 Bitcoin을 수락할 수 있는 간단한 온라인 솔루션입니다.
+wrong_answers:
+  - 많은 사용자가 동시에 사용하는 Bitcoin 노드의 한 유형입니다.
+  - 오픈 소스인 Bitcoin Mining 소프트웨어입니다.
+  - Bitcoin Exchange 플랫폼.
+explanation: >-
+reviewed: true

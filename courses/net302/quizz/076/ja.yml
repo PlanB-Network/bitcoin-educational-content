@@ -1,0 +1,9 @@
+question: ある名前が両方のタイプのAddressを持つとき、IPv4とIPv6の選択を支配するアルゴリズムまたは文書はどれか？
+answer: アールエフシー6724
+wrong_answers:
+  - RFC1918
+  - RFC4861
+  - RFC 1035
+explanation: |
+  RFC6724は、同じホスト名でIPv4とIPv6のAddressのどちらを使うかを決めるのに使われるアルゴリズムを定義している。
+reviewed: false

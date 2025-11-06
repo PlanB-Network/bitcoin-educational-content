@@ -1,0 +1,9 @@
+question: Какое приложение Umbrel позволяет управлять узлом Lightning с помощью расширенного Interface?
+answer: Оседлать молнию
+wrong_answers:
+  - BTCPay Lightning
+  - Ностровое реле
+  - Битфид
+explanation: |
+  Ride The Lightning и ThunderHub предлагают полный веб-интерфейс Interface для администрирования узла Lightning.
+reviewed: true

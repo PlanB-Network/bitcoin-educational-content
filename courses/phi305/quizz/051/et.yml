@@ -1,0 +1,9 @@
+question: Milline Austria majandusteadlane räägib planismist?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) oli Austria majandusteadlane, kes lõi termini "planism" tsentraliseeritud majanduse planeerimise kirjeldamiseks. Ta kritiseerib seda lähenemisviisi teoses "Tee pärisorjusse".
+reviewed: false

@@ -1,0 +1,9 @@
+question: کدام دستور می‌تواند برای بررسی اینکه یک بسته به 8.8.8.8 از طریق کدام Interface و دروازه مسیریابی می‌شود، استفاده شود؟
+answer: مسیر ip دریافت 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - پینگ -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  دستور ip route get <Address> مسیر دقیق بسته‌ای که برای رسیدن به مقصد خاص طی می‌شود را نشان می‌دهد.
+reviewed: false

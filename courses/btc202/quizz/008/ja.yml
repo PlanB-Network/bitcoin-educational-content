@@ -1,0 +1,9 @@
+question: Bitcoin Walletの主な機能は何ですか？
+answer: 秘密鍵の保管と管理
+wrong_answers:
+  - 完全なBlockchainの保管と管理
+  - ブロックの有効性をチェックする
+  - 中継ネットワーク取引
+explanation: |
+  Bitcoin Walletはビットコインの使用を可能にする秘密鍵を管理するが、ノードの機能は果たさない。
+reviewed: true

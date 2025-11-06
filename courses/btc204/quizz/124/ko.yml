@@ -1,0 +1,10 @@
+question: P2P 구성 파일에서 Bitcoin core 전송 V2를 활성화 또는 비활성화할 수 있는 옵션은 무엇인가요?
+answer: v2transport=
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+explanation: |
+  P2P V2 전송은 코어 노드의 구성 파일에서 v2transport= 옵션을 사용하여 수정할 수 있습니다.
+  
+reviewed: true

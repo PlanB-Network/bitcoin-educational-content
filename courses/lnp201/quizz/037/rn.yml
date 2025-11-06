@@ -1,0 +1,9 @@
+question: Bigenda gute iyo amahera yishuwe biciye kuri HTLC atarangijwe mu kiringo categekanijwe?
+answer: Ivyo vyishyurwa birakurwaho, amahera agasubira ku yarungitse.
+wrong_answers:
+  - Ukwishurwa kubikwa n'umurongo wa nyuma w'umuhuza
+  - Amafaranga agabanwa ku bice vyose biri mu nzira
+  - Amafaranga arabujijwe ubuziraherezo
+explanation: |
+  Iyo HTLC iheze ata n’ibanga rimenyekanye, iyo nsiguro irakurwaho maze amahera agasubira ku yayohereje, gutyo bikaba bibuza uruganda urwo ari rwo rwose rwo guhuza abantu kuzigama ayo mahera.
+reviewed: false

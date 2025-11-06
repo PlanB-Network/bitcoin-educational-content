@@ -30,7 +30,7 @@ pfSense è un sistema operativo gratuito e open source che trasforma qualsiasi c
 
 
 
-Le sue funzioni principali si sono evolute notevolmente nel corso degli anni e sono state migliorate con ogni nuova versione. Ad oggi, pfSense offre :
+Le sue funzioni principali si sono evolute notevolmente nel corso degli anni e sono state migliorate con ogni nuova versione. Ad oggi, pfSense offre:
 
 
 
@@ -73,7 +73,7 @@ L'ultima versione stabile di pfSense, al momento della stesura di questo tutoria
 
 
 
-Il portale di download consente di selezionare :
+Il portale di download consente di selezionare:
 
 
 
@@ -105,15 +105,15 @@ In questo esempio, l'installazione viene eseguita su una macchina virtuale con V
 
 
 
-Per un'installazione standard, si consiglia di utilizzare il formato :
+Per un'installazione standard, si consiglia di utilizzare il formato:
 
 
 
 
 
-- 1 GB di RAM** minimo (2 GB o più sono consigliati per abilitare pacchetti aggiuntivi o il supporto ZFS).
-- 8 GB di spazio su disco** (20 GB o più sono preferibili per le configurazioni più avanzate, soprattutto se si installa una cache proxy, IDS/IPS o registri dettagliati).
-- Almeno due interfacce di rete virtuali** (una per la WAN e una per la LAN). In VirtualBox, aggiungerle alle impostazioni della macchina virtuale prima dell'avvio.
+- 1 GB di RAM **minimo** (2 GB o più sono consigliati per abilitare pacchetti aggiuntivi o il supporto ZFS).
+- 8 GB di spazio su disco (20 GB o più sono preferibili per le configurazioni più avanzate, soprattutto se si installa una cache proxy, IDS/IPS o registri dettagliati).
+- Almeno due interfacce di rete virtuali (una per la WAN e una per la LAN). In VirtualBox, aggiungerle alle impostazioni della macchina virtuale prima dell'avvio.
 
 
 
@@ -221,7 +221,7 @@ La prima domanda riguarda la configurazione delle VLAN. In questa fase, per una 
 
 
 
-pfSense chiede quindi di definire quale Interface sarà utilizzato per la WAN (accesso a Internet). È possibile scegliere tra :
+pfSense chiede quindi di definire quale Interface sarà utilizzato per la WAN (accesso a Internet). È possibile scegliere tra:
 
 
 
@@ -304,13 +304,13 @@ Nel browser, andare al Address indicato dalla console (per impostazione predefin
 
 
 
-Viene visualizzata la schermata di accesso. Le credenziali predefinite sono :
+Viene visualizzata la schermata di accesso. Le credenziali predefinite sono:
 
 
 
 
-- Nome utente:** `admin`
-- Password:** `pfsense`
+- **Nome utente:** `admin`
+- **Password:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Alla prima connessione, pfSense richiede di seguire la sua **Configurazione guid
 
 
 
-È possibile :
+È possibile:
 
 
 
@@ -352,7 +352,7 @@ Indicare il fuso orario del sito in modo che i log e gli orari siano coerenti (a
 
 
 
-Configurazione della connessione WAN :
+Configurazione della connessione WAN:
 
 
 
@@ -383,7 +383,7 @@ Proteggete il vostro pfSense impostando immediatamente una password forte per l'
 
 
 
-Prima di distribuire il firewall, assicurarsi di avere l'ultima versione di :
+Prima di distribuire il firewall, assicurarsi di avere l'ultima versione di:
 
 
 
@@ -429,10 +429,10 @@ Per terminare la vostra missione con la massima tranquillità:
 
 
 
-- Modificare le regole del firewall**: per impostazione predefinita, pfSense consente tutto il traffico in uscita sulla LAN e blocca il traffico in entrata sulla WAN. Regolare queste regole secondo le necessità.
-- Configurare l'accesso remoto sicuro**: se necessario, abilitare l'accesso al web del Interface dalla WAN solo tramite VPN o con restrizioni IP.
-- Abilita le notifiche**: configura un server SMTP per ricevere gli avvisi (guasti, aggiornamenti, errori).
-- Installare estensioni utili**: ad esempio, IDS/IPS (Snort, Suricata), proxy (Squid), filtraggio DNS (pfBlockerNG).
+- **Modificare le regole del firewall**: per impostazione predefinita, pfSense consente tutto il traffico in uscita sulla LAN e blocca il traffico in entrata sulla WAN. Regolare queste regole secondo le necessità.
+- **Configurare l'accesso remoto sicuro**: se necessario, abilitare l'accesso al web del Interface dalla WAN solo tramite VPN o con restrizioni IP.
+- **Abilita le notifiche**: configura un server SMTP per ricevere gli avvisi (guasti, aggiornamenti, errori).
+- **Installare estensioni utili**: ad esempio, IDS/IPS (Snort, Suricata), proxy (Squid), filtraggio DNS (pfBlockerNG).
 
 
 

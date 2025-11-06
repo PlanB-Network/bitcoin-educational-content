@@ -1,0 +1,9 @@
+question: Vai trò của rơle Nostr được cài đặt trên Umbrel là gì?
+answer: Lưu trữ ấn phẩm của bạn tại địa phương
+wrong_answers:
+  - Kiểm tra giao dịch Bitcoin
+  - Tạo kênh Nostr với danh bạ của bạn
+  - Sao lưu cục bộ của Blockchain Nostr
+explanation: |
+  Rơ le Nostr trên Umbrel cho phép lưu trữ dữ liệu cục bộ, đảm bảo tính khả dụng và chủ quyền.
+reviewed: true

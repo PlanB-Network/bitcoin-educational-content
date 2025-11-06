@@ -1,14 +1,12 @@
-question: Jaka jest rola pieniędzy jako narzędzia komunikacji?
-answer: Umożliwia komunikację wartości w przestrzeni i czasie, bez konieczności zaufania kontrahentowi.
+question: Jaka jest główna zaleta walut fiducjarnych?
+answer: Są one łatwo podzielne.
 wrong_answers:
-  - Pozwala na komunikację wartości tylko w przestrzeni i bez potrzeby zaufania kontrahentowi.
-  - Pozwala to na komunikację wartości tylko w czasie i bez konieczności ufania kontrahentowi.
-  - Umożliwia komunikację wartości w przestrzeni i czasie oraz bez konieczności zaufania kontrahentowi.
+  - Są one kontrolowane przez partię centralną.
+  - Nie są one łatwe w transporcie.
+  - Są one skuteczne w utrzymywaniu wartości w czasie.
 explanation: |
-  Pieniądze jako narzędzie komunikacji umożliwiają
-  przestrzeń i czas, ponieważ przekształcamy nasz czas i energię w aktywa
-  aktywa, które mogą być ponownie wykorzystane w przyszłości bez ryzyka
-  dewaluacji. Umożliwia również komunikację w uniwersalnym
-  wspólnym języku, umożliwiając dwóm nieznajomym Exchange, handel,
-  i uzgodnić wartość rzeczy.
+  Waluty fiducjarne, takie jak dolar i euro, są bardzo
+  Liquid i łatwe w transporcie, ponieważ są teraz w większości
+  cyfrowe. Jednak ich wartość jest stale obniżana przez inflację monetarną
+  inflację monetarną.
 reviewed: true

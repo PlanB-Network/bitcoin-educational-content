@@ -1,9 +1,10 @@
-question: Jaká byla přibližná míra inflace v Německu v říjnu 1923, kdy hyperinflace dosáhla vrcholu?
-answer: 29 500 %
+question: Jaký mechanismus zajišťuje, že je do blockchainu přidán nový blok každých deset minut?
+answer: Úprava obtížnosti.
 wrong_answers:
-  - 5 200 %
-  - 76 %
-  - 110 %
+  - Úprava rychlosti.
+  - Úprava času.
+  - Úprava bloku.
 explanation: |
-  Měsícem s nejvyšší mírou inflace v Německu byl říjen 1923, kdy inflace dosáhla vrcholu 29 500 %.
-reviewed: false
+  Mechanismus, který zajišťuje přidání nového bloku do blockchainu každých deset minut, je úprava obtížnosti.
+  Tato úprava probíhá každých 2016 bloků, což je přibližně každé dva týdny.
+reviewed: true

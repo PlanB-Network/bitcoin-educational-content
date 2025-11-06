@@ -1,0 +1,9 @@
+question: Quale software open-source è comunemente usato come riferimento per i server DNS?
+answer: LEGARE
+wrong_answers:
+  - Apache
+  - Calamaro
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) è l'implementazione di riferimento open-source utilizzata dalla maggior parte dei server DNS di tutto il mondo.
+reviewed: false

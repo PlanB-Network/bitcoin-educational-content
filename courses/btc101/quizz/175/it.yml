@@ -1,11 +1,10 @@
-question: Qual è un modo per mitigare la volatilità di Bitcoin?
-answer: Coperture finanziarie (stablecoin).
+question: Quali delle seguenti caratteristiche hanno contribuito all'espansione dell'uso di Bitcoin nei marketplace del dark web come Silk Road?
+answer: La sua natura incontrollabile e pseudoanonima.
 wrong_answers:
-  - Investire tutti i propri soldi in Bitcoin.
-  - Ignorare le tendenze di mercato.
-  - Comprare più Bitcoin quando il prezzo scende.
+  - Il suo controllo centralizzato.
+  - La sua tracciabilità e natura controllabile.
+  - La sua mancanza di pseudoanonimato.
 explanation: >-
-  La volatilità di Bitcoin può essere mitigata da diverse soluzioni come
-  le coperture finanziarie (stablecoin), una forte convinzione a lungo termine (hodling), o semplicemente
-  non investendo il 100% dei propri soldi in Bitcoin senza capirne nulla.
-reviewed: vero
+  L'uso di Bitcoin si è espanso nei marketplace del dark web come Silk Road
+  grazie alla sua natura incontrollabile e pseudoanonima.
+reviewed: true

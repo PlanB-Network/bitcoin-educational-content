@@ -1,0 +1,9 @@
+question: TCP/IP 模式的互联网 Layer 使用哪个数据单元？
+answer: 数据报
+wrong_answers:
+  - 分段
+  - 框架
+  - 留言
+explanation: |
+  互联网 Layer 操作数据报，封装来自传输 Layer 的网段。
+reviewed: false

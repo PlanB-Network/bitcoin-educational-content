@@ -1,0 +1,9 @@
+question: Mis on võrguühenduse peamine eesmärk?
+answer: Mitme füüsilise võrguliidese koondamine
+wrong_answers:
+  - Virtuaalsete IP-aadresside lisamine kohalikku võrku
+  - Wi-Fi silla loomine
+  - RJ45 kaabli pakettide suuruse vähendamine
+explanation: |
+  Võrgu ühendamine ühendab mitu füüsilist liidest üheks loogiliseks liideseks, pakkudes koondamist või suuremat ribalaiust.
+reviewed: false

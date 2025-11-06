@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med network bonding?
+answer: Aggregera flera fysiska nätverksgränssnitt
+wrong_answers:
+  - Lägga till virtuella IP-adresser i det lokala nätverket
+  - Skapa en Wi-Fi-brygga
+  - Minska paketstorleken på RJ45-kabeln
+explanation: |
+  Network bonding kombinerar flera fysiska gränssnitt till ett enda logiskt gränssnitt, vilket ger redundans eller ökad bandbredd.
+reviewed: false

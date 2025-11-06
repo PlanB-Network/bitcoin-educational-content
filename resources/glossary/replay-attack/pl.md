@@ -14,4 +14,4 @@ Ten rodzaj ataku może wystąpić tylko w przypadku rozgałęzienia Blockchain z
 Ogólnie rzecz biorąc, w informatyce atak typu replay polega na przechwyceniu i ponownym wykorzystaniu ważnych danych w celu oszukania systemu poprzez powtórzenie oryginalnej transmisji. Może to czasami prowadzić do kradzieży tożsamości w sieci.
 
 
-> w przypadku ataku typu replay na transakcję Bitcoin, jest to czasami określane po prostu jako "transakcja replay". "*
+> w przypadku ataku typu replay na transakcję Bitcoin, jest to czasami określane po prostu jako "transakcja replay".

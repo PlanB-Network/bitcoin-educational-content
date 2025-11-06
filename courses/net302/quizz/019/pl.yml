@@ -1,0 +1,9 @@
+question: Jaka jest główna rola protokołu IP w modelu TCP/IP?
+answer: Dostarczanie pakietów danych z jednego hosta do drugiego
+wrong_answers:
+  - Zarządzanie szyfrowaniem komunikacji sieciowej
+  - Zapewnienie trwałych połączeń między aplikacjami
+  - Tłumaczenie adresów MAC na adresy IP
+explanation: |
+  Protokół IP obsługuje logiczne adresowanie urządzeń i zapewnia kierowanie pakietów w połączonych sieciach.
+reviewed: false

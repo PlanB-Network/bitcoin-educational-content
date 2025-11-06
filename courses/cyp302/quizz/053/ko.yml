@@ -1,0 +1,9 @@
+question: Elements이 유한한 필드는 무엇이라고 하나요?
+answer: 갈루아 들판
+wrong_answers:
+  - 곱셈 필드
+  - 대칭 필드
+  - 벡터 필드
+explanation: |
+  유한 필드는 수학자 에바리스트 갈루아의 이름을 딴 갈루아 필드라고도 하며, 현대 암호학에서 필수적인 요소입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvem har lov til å fragmentere en IPv6-pakke?
+answer: Kun kildevert
+wrong_answers:
+  - Bare den første mellomliggende ruteren
+  - Kun destinasjonsruter
+  - Alle rutere
+explanation: |
+  I IPv6 utføres fragmentering utelukkende av kildeverten, aldri av mellomliggende rutere.
+reviewed: false

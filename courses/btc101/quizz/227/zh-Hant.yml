@@ -1,11 +1,8 @@
-question: 如果西聯匯款、中央銀行、Visa 和萬事達卡等傳統匯款服務不採用 Lightning Network，會發生什麼情況？
-answer: 他們可能會消失。
+question: Lightning Network 在日常生活中的一個潛在應用是什麼？
+answer: 商業中的即時計費。
 wrong_answers:
-  - 它們可能會變得更受歡迎。
-  - 他們可以變得更安全。
-  - 它們可以變得更加分散。
-explanation: |
-  傳統的匯款服務，例如西聯匯款、
-  中央銀行、Visa 和萬事達卡如果不採用 Lightning Network 技術
-  不採用 Lightning Network 技術。
+  - Mining 新的比特幣。
+  - 創造新的加密貨幣。
+  - 增加 Bitcoin 的值。
+explanation: >-
 reviewed: true

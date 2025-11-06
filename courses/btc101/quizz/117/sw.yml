@@ -1,10 +1,8 @@
-question: Satoshi Nakamoto ilipotea lini?
-answer: Mwaka 2010
+question: Je, ni toleo gani la programu ya kwanza ya Bitcoin iliyotolewa?
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - Mwaka 2008
-  - Mwaka 2009
-  - Mnamo 2023
-explanation: |
-  Satoshi Nakamoto ilipotea mnamo 2010, ikiacha uumbaji wake
-  mikononi mwa jamii.
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
 reviewed: true

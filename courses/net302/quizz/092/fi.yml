@@ -1,0 +1,9 @@
+question: Mihin DNS-palvelimet yleensä määritetään Linux-järjestelmässä?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/verkko/liitännät
+  - /etc/hosts.allow
+explanation: |
+  Tiedosto /etc/resolv.conf määrittää DNS-palvelimet ja hakualueet nimien ratkaisua varten.
+reviewed: false

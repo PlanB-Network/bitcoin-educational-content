@@ -1,0 +1,9 @@
+question: Que definição força o Bitcoin core a ligar-se apenas através da rede Tor?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  A opção onlynet=onion restringe todas as ligações de saída para a rede Tor, enquanto que listenonion=1 apenas lhe permite ouvir as ligações Tor de entrada.
+reviewed: true

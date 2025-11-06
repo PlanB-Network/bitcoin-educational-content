@@ -1,0 +1,8 @@
+question: According to the chapter, what distinguishes a soft fork from a hard fork in Bitcoin consensus rule changes?
+answer: A soft fork is fully compatible (both forward and backward compatible) while a hard fork is only backward compatible
+wrong_answers:
+  - A soft fork requires miner signaling activation while a hard fork uses flag day activation
+  - A soft fork changes existing opcodes while a hard fork only adds new opcodes like OP_NOP1-OP_NOP10
+  - A soft fork can be implemented secretly in commits while a hard fork requires public announcement
+explanation: |
+  The chapter clearly defines compatibility types: forward compatibility allows old software to process new data by ignoring unknown parts, while backward compatibility allows new software to process old data. A soft fork maintains both types of compatibility, making it fully compatible. A hard fork only maintains backward compatibility, meaning new software can process old data but old software cannot process new data from the upgraded system. This distinction is crucial for understanding Bitcoin upgrade mechanisms and why soft forks are preferred for maintaining network harmony.

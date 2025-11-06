@@ -1,8 +1,10 @@
-question: Koje od sledećih akcija mogu pomoći onima koji žele da koriste Bitkoin u svakodnevnom životu?
-answer: Imate listu svih trgovaca koji prihvataju Bitkoin.
+question: Jedan od načina za sticanje bitkoina bez KYC-a je korišćenje peer-to-peer (P2P) platformi kao što su LocalBitcoins ili Bisq, gde možete direktno trgovati sa drugim korisnicima.
+answer: Bitkoin bankomati.
 wrong_answers:
-  - Povećaj cenu Bitkoina.
-  - Smanji broj Bitkoina.
-  - Ograniči upotrebu Bitkoina.
-explanation: >-
+  - Broker platforme.
+  - DCA platforme.
+  - Bankovni transferi.
+explanation: |
+  Tekst kursa pominje da postoji nekoliko načina za
+  sticanje Bitkoina bez KYC, od kojih je jedan Bitkoin bankomati.
 reviewed: true

@@ -1,13 +1,11 @@
-question: Wat is de potentiële impact van het huidige financiële systeem op politieke actoren?
-answer: Ze worden niet gestimuleerd om radicale veranderingen door te voeren, waardoor het systeem zijn gang kan blijven gaan tot een mogelijke implosie.
+question: Er is een historisch geval van een dagelijkse inflatie van 100%; waar en wanneer gebeurde dat?
+answer: In Zimbabwe, 2007.
 wrong_answers:
-  - Ze worden gestimuleerd om radicale veranderingen door te voeren om een mogelijke implosie te voorkomen.
-  - Ze worden niet gestimuleerd om de status quo te handhaven om hun eigen rijkdom veilig te stellen.
-  - Ze worden gestimuleerd om op lange termijn te denken.
+  - In Hongarije, 1945.
+  - In China, 1940.
+  - Dit is eigenlijk een onrealistisch geval dat niet kan gebeuren.
 explanation: |
-  Omdat politieke actoren profiteren van het huidige financiële
-  systeem, worden ze niet gestimuleerd om radicale veranderingen door te voeren.
-  Hierdoor kan het systeem zijn gang blijven gaan tot een
-  mogelijke implosie, omdat het systeem wordt gereguleerd en
-  beperkt om zijn eigen ineenstorting te voorkomen.
+  Een inflatie van 100% per dag is een realistisch scenario dat
+  gebeurde in Zimbabwe in 2007, waar de geldwaarde ruwweg
+  elke 24 uur verdubbelde.
 reviewed: true

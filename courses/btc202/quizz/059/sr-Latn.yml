@@ -1,0 +1,9 @@
+question: Koji je najbolji način za daljinski pristup Bitcoin core?
+answer: Izlaganje RPC porta
+wrong_answers:
+  - Korišćenje Tor-a
+  - Korišćenje VPN-a
+  - Izlaganje Electrum servera
+explanation: |
+  Izlaganje RPC porta nešifrovanim predstavlja veliki bezbednosni rizik. Tor ili VPN su poželjni.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 홀수 Y 좌표로 압축된 공개키를 나타내는 데 사용되는 접두사는 무엇인가요?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  접두사 0x03은 홀수 Y 좌표가 있는 압축된 공개 키를 나타냅니다.
+reviewed: false

@@ -53,7 +53,7 @@ Tämä vaiheittainen opetusohjelma näyttää, miten kirjoitat viestin Blockchai
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Tämä näyttää vastaanoton Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Valitse haluamasi viesti (esim. "Kiitos Satoshi"). Huomautus: OP_RETURN-viestien
 
 
 
-- jättävät kauniin osoituksen ihmisyydestämme,*
-- vältä sisällön syöttämistä, jota saatat katua*
+- jättävät kauniin osoituksen ihmisyydestämme,
+- vältä sisällön syöttämistä, jota saatat katua
 
 
 
@@ -208,9 +208,9 @@ joka koostuu :
 
 
 
-- Kohde Address**: Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Tämä voi olla oma Address, jos haluat palauttaa siirretyt varat itsellesi;
-- Siirretty summa**: transaktion summa, tässä `0.00001` BTC. **Huomaa**: Koska Electrumissa käytetty yksikkö on BTC, transaktiokomentosarjassa ilmoitettu summa on myös ilmaistava BTC:nä eikä Sats:na;
-- Käsikirjoitus OP_RETURN**: OP_RETURN <viesti>), 0`. Tässä `5468616e6b73205361746f736869` tarkoittaa viestiä heksadesimaalisena.
+- **Kohde Address**: Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Tämä voi olla oma Address, jos haluat palauttaa siirretyt varat itsellesi;
+- **Siirretty summa**: transaktion summa, tässä `0.00001` BTC. **Huomaa**: Koska Electrumissa käytetty yksikkö on BTC, transaktiokomentosarjassa ilmoitettu summa on myös ilmaistava BTC:nä eikä Sats:na;
+- Käsikirjoitus **OP_RETURN**: OP_RETURN <viesti>), 0`. Tässä `5468616e6b73205361746f736869` tarkoittaa viestiä heksadesimaalisena.
 
 
 

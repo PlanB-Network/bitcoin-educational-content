@@ -1,0 +1,9 @@
+question: None iyo nyigisho ifise intumbero iyihe?
+answer: Ivyo vyose biri hejuru
+wrong_answers:
+  - Niwige ivyabaye muri kahise vyagaragaje urugamba rwo kwidegemvya .
+  - Gutahura isano hagati y'ivyiyumviro n'ibintu kugira ngo ukore neza uno musi
+  - Sigura ivyiyumviro vya filozofiya bijanye n'umwidegemvyo
+explanation: |
+  Intumbero y’iyi nyigisho ni myinshi: igamije kwiga ibintu vyabaye mu mateka bifise akosho kanini mu rugamba rwo kurondera umwidegemvyo, gusuzuma isano riri hagati y’ivyiyumviro n’ibintu vyabaye kugira ngo umurikire ibikorwa vyacu vy’ubu, no gutomora ivyiyumviro vya filozofiya bijanye n’umwidegemvyo.
+reviewed: true

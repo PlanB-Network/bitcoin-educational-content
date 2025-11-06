@@ -1,11 +1,9 @@
-question: Esiste un caso storico di un tasso di inflazione giornaliero equivalente al 100%; dove e quando è accaduto?
-answer: In Zimbabwe, 2007.
+question: Come si chiama il processo che verifica le transazioni sulla rete Bitcoin?
+answer: Mining
 wrong_answers:
-  - In Ungheria, 1945.
-  - In Cina, 1940.
-  - Si tratta in realtà di un caso irrealistico che non può accadere.
+  - Digging
+  - Harvesting
+  - Farming
 explanation: |
-  Un tasso di inflazione del 100% al giorno è uno scenario realistico che
-  si è verificato in Zimbabwe nel 2007, dove il valore del denaro raddoppiava
-  approssimativamente ogni 24 ore.
-reviewed: true
+  Il processo che verifica le transazioni sulla rete Bitcoin si chiama mining. I miner risolvono un problema crittografico e vengono ricompensati con l'emissione di nuovi bitcoin.
+reviewed: vero

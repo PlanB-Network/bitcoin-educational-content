@@ -1,8 +1,8 @@
-question: Hashrate nedir?
-answer: Bir Mining cihazının Proof of Work'i çözmek için saniyede gerçekleştirebileceği Hash hesaplamalarının sayısı.
+question: Bitcoin Mining'de enerji harcamasının önemi nedir?
+answer: Bilgiyi üretmek için enerji harcanması gerekir, ancak bilginin doğrulanması ihmal edilebilir bir maliyete sahiptir. Bu asimetri ağın güvenliğini garanti eder.
 wrong_answers:
-  - Bir Mining cihazının Proof of Work'ü çözme hızı.
-  - Bitcoin ağındaki toplam madenci sayısı.
-  - Proof of Work'yi çözmek için saniyede belirli sayıda deneme gerçekleştirerek çıkarılan toplam bitcoin miktarı.
+  - Mining'de kullanılan ASIC makinelerine güç sağlamak için enerji maliyeti gereklidir ve bilgilerin doğrulanmasının yüksek bir maliyeti vardır.
+  - Bitcoin ağının bakımı için enerji harcaması gereklidir ve bilgilerin doğrulanmasının değişken maliyetleri vardır.
+  - Yeni bitcoinler yaratmak için enerji maliyetine gerek yoktur.
 explanation: >-
-reviewed: true
+reviewed: false

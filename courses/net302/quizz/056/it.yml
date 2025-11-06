@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale del network bonding?
+answer: Aggregazione di più interfacce di rete fisiche
+wrong_answers:
+  - Aggiungere indirizzi IP virtuali alla rete locale
+  - Creare un ponte Wi-Fi
+  - Riduzione della dimensione dei pacchetti sul cavo RJ45
+explanation: |
+  Il bonding di rete combina più interfacce fisiche in un'unica interfaccia logica, fornendo ridondanza o maggiore larghezza di banda.
+reviewed: false

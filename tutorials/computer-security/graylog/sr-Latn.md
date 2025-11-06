@@ -43,7 +43,7 @@ Graylog je alat za analizu i nadzor koji olakšava identifikaciju sumnjivog pona
 
 
 
-**Napomena: besplatna verzija, **Graylog Open**, nije SIEM kao što je Wazuh, posebno jer joj nedostaju stvarne funkcije detekcije upada.
+**Napomena: besplatna verzija, **Graylog Open**, nije SIEM kao što je Wazuh, posebno jer joj nedostaju stvarne funkcije detekcije upada.**
 
 
 
@@ -57,9 +57,9 @@ Graylog je alat za analizu i nadzor koji olakšava identifikaciju sumnjivog pona
 
 
 
-- MongoDB 7**, trenutna preporučena verzija za Graylog (minimalno 5.0.7, maksimalno 7.x)
-- OpenSearch**, otvoreni izvor Fork Elasticsearch kreiran od strane Amazona (minimalno 1.1.x, maksimalno 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, trenutna preporučena verzija za Graylog (minimalno 5.0.7, maksimalno 7.x)
+- **OpenSearch**, otvoreni izvor Fork Elasticsearch kreiran od strane Amazona (minimalno 1.1.x, maksimalno 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -71,7 +71,7 @@ Graylog je alat za analizu i nadzor koji olakšava identifikaciju sumnjivog pona
 
 
 
-Izvor : Graylog
+Izvor: Graylog
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Napomena: **Instalacija OpenSearch-a je opcionalna** ako koristite **Graylog Data Node** umesto toga.
+**Napomena:** Instalacija OpenSearch-a je opcionalna ako koristite **Graylog Data Node** umesto toga.
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Zatim ćemo ažurirati keš paketa i pokušati instalirati MongoDB :
+Zatim ćemo ažurirati keš paketa i pokušati instalirati MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB ne može biti instaliran jer nedostaje zavisnost: **libssl1.1**. Moraće
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Ažurirajte keš paketa :
+Ažurirajte keš paketa:
 
 
 
@@ -279,14 +279,14 @@ Ova OpenSearch konfiguracija je dizajnirana za postavljanje jednog čvora. Evo n
 
 
 
-- cluster.name: graylog** : ovaj parametar imenuje OpenSearch klaster sa imenom "**graylog**".
-- node.name: ${HOSTNAME}**: ime čvora se dinamički postavlja da odgovara onom lokalne Linux mašine. Čak i ako imamo samo jedan čvor, važno je pravilno ga imenovati.
-- path.data: /var/lib/opensearch**: ova putanja specificira gde OpenSearch čuva svoje podatke na lokalnom računaru, u ovom slučaju u "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: ova putanja definiše gde su OpenSearch log fajlovi sačuvani, ovde u "**/var/log/opensearch**".
-- discovery.type: single-node**: ovaj parametar konfiguriše OpenSearch da radi sa jednim čvorom, stoga izbor opcije "**single-node**".
-- network.host: 127.0.0.1**: ova konfiguracija osigurava da OpenSearch sluša samo na svojoj Interface lokalnoj petlji, što je dovoljno jer se nalazi na istom serveru kao i Graylog.
-- action.auto_create_index: false**: onemogućavanjem automatskog kreiranja indeksa, OpenSearch neće automatski kreirati indeks kada se dokument pošalje bez postojećeg indeksa.
-- plugins.security.disabled: true**: ova opcija deaktivira OpenSearch sigurnosni dodatak, što znači da neće biti autentifikacije, upravljanja pristupom ili enkripcije komunikacije. Ovo podešavanje štedi vreme prilikom postavljanja Graylog-a, ali treba ga izbegavati u produkciji (pogledajte [ovu stranicu](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: ovaj parametar imenuje OpenSearch klaster sa imenom "**graylog**".
+- node.name: ${HOSTNAME}: ime čvora se dinamički postavlja da odgovara onom lokalne Linux mašine. Čak i ako imamo samo jedan čvor, važno je pravilno ga imenovati.
+- path.data: /var/lib/opensearch: ova putanja specificira gde OpenSearch čuva svoje podatke na lokalnom računaru, u ovom slučaju u "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: ova putanja definiše gde su OpenSearch log fajlovi sačuvani, ovde u "**/var/log/opensearch**".
+- discovery.type: single-node: ovaj parametar konfiguriše OpenSearch da radi sa jednim čvorom, stoga izbor opcije "**single-node**".
+- network.host: 127.0.0.1: ova konfiguracija osigurava da OpenSearch sluša samo na svojoj Interface lokalnoj petlji, što je dovoljno jer se nalazi na istom serveru kao i Graylog.
+- **action.auto_create_index: false**: onemogućavanjem automatskog kreiranja indeksa, OpenSearch neće automatski kreirati indeks kada se dokument pošalje bez postojećeg indeksa.
+- **plugins.security.disabled: true**: ova opcija deaktivira OpenSearch sigurnosni dodatak, što znači da neće biti autentifikacije, upravljanja pristupom ili enkripcije komunikacije. Ovo podešavanje štedi vreme prilikom postavljanja Graylog-a, ali treba ga izbegavati u produkciji (pogledajte [ovu stranicu](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -327,7 +327,7 @@ Sa konfiguracijom implementiranom ovde, **OpenSearch će početi sa 4 GB dodelje
 
 
 
-Sa ovim linijama :
+Sa ovim linijama:
 
 
 
@@ -431,8 +431,8 @@ Hajde da počnemo sa konfigurisanjem ove dve opcije:
 
 
 
-- password_secret**: ovaj parametar se koristi za definisanje ključa koji Graylog koristi za osiguranje skladištenja korisničkih lozinki (u duhu salting ključa). Ovaj ključ mora biti **jedinstven** i **nasumičan**.
-- root_password_sha2** : ovaj parametar odgovara podrazumevanom administratorskom lozinkom u Graylog-u. Skladišti se kao Hash SHA-256.
+- **password_secret**: ovaj parametar se koristi za definisanje ključa koji Graylog koristi za osiguranje skladištenja korisničkih lozinki (u duhu salting ključa). Ovaj ključ mora biti **jedinstven** i **nasumičan**.
+- **root_password_sha2**: ovaj parametar odgovara podrazumevanom administratorskom lozinkom u Graylog-u. Skladišti se kao Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Zatim ste morali ponovo pokušati povezivanje sa korisnikom "**admin**" i privre
 
 
 
-**Ovo više nije slučaj. Sve što treba da uradite je da se prijavite sa svojim administratorskim nalogom i lozinkom konfigurisanom na komandnoj liniji
+**Ovo više nije slučaj. Sve što treba da uradite je da se prijavite sa svojim administratorskim nalogom i lozinkom konfigurisanom na komandnoj liniji.**
 
 
 
@@ -574,7 +574,7 @@ Zatim ste morali ponovo pokušati povezivanje sa korisnikom "**admin**" i privre
 
 
 
-**Dobrodošli u Graylogov Interface!
+**Dobrodošli u Graylogov Interface!**
 
 
 
@@ -661,7 +661,7 @@ Novi Input je kreiran i sada je aktivan. Graylog sada može primati Syslog logov
 ![Image](assets/fr/018.webp)
 
 
-**Napomena: jedan unos može se koristiti za čuvanje logova sa nekoliko Linux mašina.
+**Napomena: jedan unos može se koristiti za čuvanje logova sa nekoliko Linux mašina.**
 
 
 
@@ -701,7 +701,7 @@ Da biste kreirali novi stream, kliknite na "**Streams**" u glavnom meniju Graylo
 
 
 
-**Napomena: poruke koje odgovaraju ovom toku će takođe biti uključene u "**Podrazumevani tok**", osim ako ne označite opciju "**Ukloni podudaranja iz 'Podrazumevanog toka'**".
+**Napomena: poruke koje odgovaraju ovom toku će takođe biti uključene u "Podrazumevani tok", osim ako ne označite opciju "Ukloni podudaranja iz 'Podrazumevanog toka'".**
 
 
 
@@ -788,7 +788,7 @@ U ovom direktorijumu morate koristiti brojeve za definisanje reda učitavanja, j
 
 
 
-U ovom direktorijumu, kreiraćemo fajl pod nazivom "**10-graylog.conf**" :
+U ovom direktorijumu, kreiraćemo fajl pod nazivom "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-U ovu datoteku umetnite ovu liniju :
+U ovu datoteku umetnite ovu liniju:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Ako imate nekoliko servera i želite da analizirate logove određenog servera, navedite njegovo ime dodatno :
+Ako imate nekoliko servera i želite da analizirate logove određenog servera, navedite njegovo ime dodatno:
 
 
 
@@ -939,7 +939,7 @@ Neuspešni pokušaji povezivanja dolaze sa mašine sa IP Address "**192.168.10.1
 
 
 
-U ovom slučaju, filter koji treba koristiti može biti :
+U ovom slučaju, filter koji treba koristiti može biti:
 
 
 

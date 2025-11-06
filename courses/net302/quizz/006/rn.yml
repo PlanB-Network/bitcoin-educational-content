@@ -1,0 +1,9 @@
+question: Ni irihe shirahamwe rigenzura uburongozi bw’ubuhinga bw’amasezerano ya Internet?
+answer: Inama y'ubwubatsi bwa Internet
+wrong_answers:
+  - Umuryango wa Internet
+  - Ihuriro ry'urubuga kw'isi yose
+  - Ikigo c'abahinga mu vy'amashanyarazi n'ivy'amashanyarazi
+explanation: |
+  Inama y’ubwubatsi bwa Internet (IAB) ni yo igenzura uburongozi bw’ubuhinga kandi igahuza iterambere ry’amategeko ya Internet.
+reviewed: false

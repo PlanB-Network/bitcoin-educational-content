@@ -1,10 +1,11 @@
-question: Hva var DigiCash-prosjektet?
-answer: Et forsøk på å skape anonym elektronisk penger av David Chaum.
+question: Hva er den største ulempen med gull som en form for penger?
+answer: Det er ikke lett å dele eller transportere over lange avstander
 wrong_answers:
-  - Et prosjekt for å skape en digital lommebok for Bitcoin.
-  - Et prosjekt for å digitalisere all fysisk kontanter.
-  - Et prosjekt for å skape en kryptovaluta basert på Bitcoin.
+  - Det beholder ikke sin verdi overalt
+  - Det eroderer over tid
+  - Det er lett å produsere
 explanation: |
-  David Chaum introduserte konseptet med anonym elektronisk penger med
-  sitt prosjekt DigiCash på 1980-tallet.
+  Den største ulempen med gull som en form for penger er at det ikke er lett
+  å dele eller transportere over lange avstander. Dette gjør det mindre praktisk i
+  en globalisert og digital verden.
 reviewed: true

@@ -1,0 +1,12 @@
+question: Ni igiki gisanzwe gituma umutekano uhungabana?
+answer: Ubujuju bw’abantu.
+wrong_answers:
+  - Amashanyarazi arazima.
+  - Internet igenda buhoro.
+  - Ivyuma vya kera.
+explanation: |
+  Ingorane zo mu mutekano akenshi ziterwa n'abantu .
+  ubujuju, nk’ugukoresha amajambo y’ibanga canke kwandika .
+  amajambo y’ibanga mu bibanza bitatekanye. Ibitero bikomeye cane si .
+  vyama ari ngombwa kugira ngo umutekano wa mudasobwa ushire mu kaga.
+reviewed: true

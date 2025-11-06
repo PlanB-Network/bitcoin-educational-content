@@ -1,8 +1,12 @@
-question: Bitcoin'ı tüccar olarak kabul etmenin bir avantajı nedir?
-answer: Sansüre karşı direniş.
+question: Büyük kuruluşlar veya tutkulu Bitcoin meraklıları için Bitcoin'ı kabul etmeye yönelik bir araç nedir?
+answer: BTCpay Sunucusu.
 wrong_answers:
-  - Artan işlem ücretleri.
-  - Deflasyona karşı koruma.
-  - Finansal kısıtlama.
-explanation: >-
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server, büyük şirketler için Bitcoin kabul etmek için bir araçtır
+  yapılar veya tutkulu bitcoin kullanıcıları. Diğer çözümler
+  basit çevrimiçi işletmeler ve İsviçre için OpenNode'u içerir
+  Bitcoin Amatör tüccarlar için ödeme.
 reviewed: true

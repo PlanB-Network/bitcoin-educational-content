@@ -1,9 +1,9 @@
-question: Quale strategia di investimento viene utilizzata principalmente da un impilatore?
-answer: Media del costo del dollaro
+question: Quale strategia di investimento viene utilizzata principalmente da uno stacker?
+answer: Dollar-Cost Averaging (DCA)
 wrong_answers:
-  - Day trading
+  - Trading giornaliero
   - Arbitraggio
-  - Capitale
+  - Acquisto forfettario
 explanation: |
   Il DCA consiste nell'investire regolarmente un importo fisso per ridurre l'impatto della volatilità del mercato sul proprio portafoglio.
-reviewed: false
+reviewed: true

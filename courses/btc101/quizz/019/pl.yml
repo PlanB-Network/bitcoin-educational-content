@@ -1,12 +1,13 @@
-question: Jakie są trzy kanoniczne funkcje pieniądza?
-answer: Środek przechowywania wartości, środek Exchange, jednostka rozliczeniowa.
+question: Dlaczego złoto nie radzi sobie dobrze w zglobalizowanym i cyfrowym świecie?
+answer: Ponieważ potrzebuje centralnej jednostki, aby była podzielna i łatwo wymienialna.
 wrong_answers:
-  - Magazyn wartości, środek Exchange, środek produkcji.
-  - Magazyn wartości, środek produkcji, jednostka rozliczeniowa.
-  - Medium Exchange, Środki produkcji, Jednostka rozliczeniowa.
+  - Ponieważ nie jest wystarczająco wartościowy.
+  - Ponieważ nie jest wystarczająco rzadki.
+  - Ponieważ z czasem ulega erozji.
 explanation: |
-  Według Arystotelesa pieniądz pełni trzy funkcje: jest
-  magazynem wartości, środkiem Exchange i jednostką rozliczeniową
-  jednostką rozliczeniową. W dzisiejszych czasach funkcja nośnika Exchange jest
-  powszechnie uznawana za główną, przed dwiema pozostałymi.
+  Złoto nie może nadążyć w zglobalizowanym i cyfrowym świecie
+  ponieważ potrzebuje centralnego podmiotu, który uczyni je podzielnym i
+  łatwo wymienialne. To sprawia, że jest mniej praktyczne w użyciu w
+  świecie, w którym transakcje są coraz bardziej cyfrowe i
+  zdecentralizowane.
 reviewed: true

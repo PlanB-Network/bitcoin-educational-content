@@ -1,0 +1,9 @@
+question: 원시 구현과 노드 인 어 박스의 주요 차이점은 무엇인가요?
+answer: Interface 및 통합 애플리케이션의 존재 여부
+wrong_answers:
+  - 네트워크 호환성
+  - 디스크에 저장된 Blockchain 크기
+  - 사용되는 프로토콜 및 통화
+explanation: |
+  원시 구현은 노드 소프트웨어만 설치하는 반면, 노드 인 어 박스는 Interface, 앱 스토어 및 통합 서비스를 추가합니다.
+reviewed: true

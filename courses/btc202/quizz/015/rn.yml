@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo nyamukuru bwo gushirwa mu ngiro kwa Bitcoin core?
+answer: Bitcoin Knots.
+wrong_answers:
+  - Bitcoin Amafaranga
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, yateguwe na Luke Dashjr, ni Fork ya Core, itanga uburyo bwo kwongerako n’iyerekwa ry’ubuhinga.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jakie podstawowe informacje musi rejestrować brama NAT dla każdego przepływu sieciowego?
+answer: Mapowanie między wewnętrznym adresem IP a publicznym adresem IP
+wrong_answers:
+  - Typ używanego kabla sieciowego
+  - Mapowanie między IP Address i serwerem DNS
+  - Typ używanego protokołu sieciowego
+explanation: |
+  NAT opiera się na tabeli translacji w celu utrzymania korespondencji, która śledzi mapowanie między adresami wewnętrznymi i publicznymi, aby zapewnić prawidłowe kierowanie pakietów.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: ビットキット Wallet
+name: Bitkit Wallet
 
 description: 自粛On-ChainとライトニングWalletの設定
 ---

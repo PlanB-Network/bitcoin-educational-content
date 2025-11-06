@@ -1,0 +1,9 @@
+question: Vad är finalism?
+answer: Att vända på orsak och verkan för att förstå något.
+wrong_answers:
+  - En politisk teori.
+  - Ett recept för matlagning.
+  - En princip inom psykoanalysen.
+explanation: |
+  Finalism är att vända upp och ner på orsak och verkan för att förstå något. Det handlar om att förklara ett fenomen utifrån dess förmodade syfte snarare än utifrån dess faktiska orsaker, vilket Spinoza kritiserar som en illusion.
+reviewed: false

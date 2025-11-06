@@ -1,10 +1,8 @@
-question: Mis on dollar cost averaging?
-answer: Väikeste Bitcoin'i koguste ostmine regulaarsete intervallidega.
+question: Mis on FOMO ja FUD?
+answer: Emotsioonid, mis võivad viia impulsiivsete ja potentsiaalselt kahjulike otsusteni.
 wrong_answers:
-  - Suure hulga Bitcoin'i korraga ostmine.
-  - Bitcoin'i ostmine ainult siis, kui hind langeb.
-  - Bitcoin'i ostmine ainult siis, kui hind tõuseb.
+  - Bitcoin'i rahakotitüübid.
+  - Strateegiad Bitcoin'i ostmiseks.
+  - Bitcoin'iga seotud regulatsioonid.
 explanation: >-
-  Tekst selgitab, et dollar cost averaging hõlmab väikeste Bitcoin'i koguste
-  ostu regulaarsete intervallidega. See meetod silub hinna üle aja ja
-  tagab Bitcoin'i koguse järjepideva kasvu.
+  Tekst selgitab, et FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty, Doubt) on emotsioonid, mis võivad viia impulsiivsete ja potentsiaalselt kahjulike otsusteni Bitcoin'i ostes.

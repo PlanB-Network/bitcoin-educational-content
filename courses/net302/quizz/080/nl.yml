@@ -1,0 +1,9 @@
+question: Welke grafische software kan gebruikt worden voor een gedetailleerde educatieve analyse van vastgelegde netwerkpakketten?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Route
+explanation: |
+  Wireshark is een grafische pakketanalyser voor diepgaand onderzoek van vastgelegd netwerkverkeer.
+reviewed: false

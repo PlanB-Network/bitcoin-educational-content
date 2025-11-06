@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Bitcoini privaatvõtme loomine, varundamine ja kasutamine Coldcard seadmega ja Bitcoin Core'iga
 ---

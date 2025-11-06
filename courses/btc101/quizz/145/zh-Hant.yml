@@ -1,11 +1,8 @@
-question: 2017 年的區塊戰爭是怎麼一回事？
-answer: 關於是否增加區塊大小以擴大交易容量的衝突。
+question: 什麼是 Hashrate？
+answer: Mining 裝置每秒可執行的 Hash 計算次數，以解決 Proof of Work。
 wrong_answers:
-  - 關於是否減少區塊大小以降低交易容量的衝突。
-  - 關於是否提高 Block reward 以激勵礦工的衝突。
-  - 關於是否降低 Block reward 以抑制礦工的衝突。
-explanation: |
-  2017 年的區塊戰爭是關於是否
-  修改 Bitcoin，增加區塊大小以擴大
-  交易容量。
+  - Mining 裝置解決 Proof of Work 的速度。
+  - Bitcoin 網路中的礦工總數。
+  - 每秒執行一定次數的嘗試解決 Proof of Work 所挖出的比特幣總數。
+explanation: >-
 reviewed: true

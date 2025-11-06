@@ -1,0 +1,9 @@
+question: Ni uburyo ubuhe bukoreshwa muri RGB kugira ngo umuntu asobanure Single-Use Seal?
+answer: Iciyumviro kidasanzwe
+wrong_answers:
+  - Urufunguzo rwa bose
+  - Bitcoin Address yihariye.
+  - Ihuriro ry'ama UTXO menshi .
+explanation: |
+  RGB isobanura Single-Use Seal nk’inzira yihariye, ishobora rero gupfungwa n’amahera akoreshwa muri iyo nzira (txid + umubare w’isohoka).
+reviewed: false

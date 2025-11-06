@@ -1,12 +1,11 @@
-question: Mnemonic cümlenizin kelimeleri yazıldıktan sonra ne yapmalısınız?
-answer: İkinci bir kopya alın ve ayrı bir yerde saklayın.
+question: Bitcoin'lerinizi Exchange platformlarında bırakmaktan kaçınmanız neden tavsiye edilir?
+answer: Hacker saldırılarına karşı hassas olabilirler.
 wrong_answers:
-  - Güvendiğiniz bir arkadaşınızla paylaşın.
-  - Kendinize e-posta ile gönderin.
-  - Telefonunuzda saklayın.
+  - Exchange platformları rastgele ücretler almaktadır.
+  - Bitcoin, Exchange platformlarında değer kaybeder.
+  - Exchange platformları düzenlenmiş bir kurum değildir.
 explanation: |
-  Mnemonic cümlenizin kelimeleri yazıldıktan sonra
-  ikinci bir kopyasının çıkarılması ve bir
-  ilkinden ayrı bir konum. Bu, bir yedekleme sağlar
-  i̇lk nüshanın kaybolması veya kaza geçirmesi durumunda.
+  Bitcoin'lerinizi Exchange üzerinde bırakmaktan kaçınmanız tavsiye edilir
+  platformlar çünkü bilgisayar korsanlarına karşı hassas olabilirler
+  saldırılar.
 reviewed: true

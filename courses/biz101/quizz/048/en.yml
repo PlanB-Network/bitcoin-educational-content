@@ -6,4 +6,4 @@ wrong_answers:
   - To restrict fund transfers to in-person cash exchanges only
 explanation: |
   Traditional payment systems provide mechanisms and infrastructure for transferring funds between payers and payees in both local and international contexts.
-reviewed: false
+reviewed: true

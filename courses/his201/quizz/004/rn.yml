@@ -1,0 +1,9 @@
+question: Iciyumviro ca eCash ca David Chaum cashizwe mu ngiro mu mwaka uwuhe?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Yatanguye gushirwa mu ngiro n’aba cypherpunks muri Ruhuhuma, Digicash na yo irayigerageza mu kwezi kwa Gitugutu mu gutanga CyberBucks.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja komanda prikazuje putanju koju paketi pređu da bi stigli do IP odredišta?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute prikazuje svaki međusmernik između pošiljaoca i cilja, koristeći TTL.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline mehhanism võimaldab sisemise teenuse kasutamist NATi kaudu väljastpoolt?
+answer: Portide edastamine
+wrong_answers:
+  - Pakettide fragmenteerimine
+  - RIP marsruutimine
+  - NAT-i tihendamine
+explanation: |
+  Portide suunamine võimaldab välise ühenduse suunamist konkreetsele sisemaisele hostile NAT-värava kaudu.
+reviewed: false

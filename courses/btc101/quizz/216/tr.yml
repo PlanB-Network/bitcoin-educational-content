@@ -1,13 +1,11 @@
-question: El Salvador'da Bitcoin'ın durumu nedir?
-answer: Yasal ihale.
+question: Blockchain trilemması nedir?
+answer: Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinden yalnızca ikisini karşılayabilir.
 wrong_answers:
-  - Suçlu.
-  - Bilinmiyor.
-  - Düzenlenmemiş.
+  - Blockchain'ye dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinden yalnızca birini karşılayabilir.
+  - Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinin tümünü karşılayabilir.
+  - Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinin hiçbirini karşılayamaz.
 explanation: |
-  Ders metninde, bazı ülkelerin aşağıdakileri yasakladığından bahsedilmektedir
-  ve Bitcoin kullanımını suç haline getirerek
-  gW-1'in benimsenmesinin kültürlere, dönemlere ve
-  uluslar. Ancak El Salvador bunu kabul edecek kadar cesurdu
-  yasal bir ihale olarak.
+  Blockchain trilemması, bir devlet kurumunun
+  gW-5'e dayalı protokol, aşağıdaki kriterlerden yalnızca ikisini karşılayabilir
+  ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik.
 reviewed: true

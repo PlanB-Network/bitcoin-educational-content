@@ -1,0 +1,9 @@
+question: RGB 이전 프로세스에서 Terminal Consignment의 목적은 무엇인가요?
+answer: 상태 전환 기록 제공
+wrong_answers:
+  - Genesis Contract 검증
+  - 이전 전환 삭제
+  - generate 이전을 위한 새로운 Schema
+explanation: |
+  Terminal Consignment은 현재까지 이전된 자산의 적법성을 증명하기 위해 Contract의 이력을 수집합니다.
+reviewed: false

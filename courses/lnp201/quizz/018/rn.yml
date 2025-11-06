@@ -1,0 +1,9 @@
+question: Ni gute igihugu gishasha c’umurongo kiremwa inyuma y’uguhindura kwose?
+answer: Mu kurema Commitment Transaction nshasha n'ugukwirakwiza kwavuguruwe
+wrong_answers:
+  - Mu gushiramwo amafaranga y'i On-Chain inyuma y'uguhindura kwose
+  - Mu kwongera ubushobozi bwose bw'umuyoboro
+  - Mu gufunga no gusubira gufungura umurongo inyuma y'ugucuruza kwose
+explanation: |
+  Igikorwa cose kiri muri iyo nzira kirahindura uko iyo nzira imeze n’igitabu gishasha ca Commitment Transaction, kikaba kigaragaza ukuntu amafaranga agabanywa ubu hagati y’abo babiri bari muri iyo nzira.
+reviewed: false

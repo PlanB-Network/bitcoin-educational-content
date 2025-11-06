@@ -1,0 +1,9 @@
+question: Perintah mana yang menunjukkan jalur yang diambil oleh paket untuk mencapai tujuan IP?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute menampilkan setiap router perantara antara pengirim dan target, menggunakan TTL.
+reviewed: false

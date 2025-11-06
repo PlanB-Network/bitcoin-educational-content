@@ -1,0 +1,9 @@
+question: 엔터프라이즈급 Bitcoin 결제 구현의 주요 목적은 무엇인가요?
+answer: Bitcoin 결제를 조직의 핵심 프로세스에 완전히 통합하려면 다음과 같이 하세요
+wrong_answers:
+  - Bitcoin를 소규모로 실험하려면 다음과 같이 하세요
+  - 마케팅 목적으로 Bitcoin를 사용하려면
+  - 다른 시스템과 통합하지 않고 Bitcoin를 수용하려면 다음과 같이 하세요
+explanation: |
+  엔터프라이즈 솔루션은 Bitcoin 결제를 핵심 비즈니스 워크플로 및 시스템과 연계하는 것을 목표로 합니다.
+reviewed: true

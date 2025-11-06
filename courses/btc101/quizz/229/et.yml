@@ -1,9 +1,8 @@
-question: Kuidas on Lightning Network'i tehingud turvatud?
-answer: Krüptograafia ja kaudselt Bitcoin'i kaevurite poolt tarbitud energia abil.
+question: Mis on skin in the game kontseptsioon videomängude tööstuses?
+answer: Omama rahalist osalust mängu tulemuses
 wrong_answers:
-  - Ainult privaatvõtmete kasutamise kaudu.
-  - Ainult avalike võtmete kasutamise kaudu.
-  - Ainult nii privaat- kui ka avalike võtmete kasutamise kaudu.
+  - Investeerimine mängu arendusse
+  - Pärisraha eest mängusiseste esemete ostmine
+  - Mängunahkade müümine pärisraha eest
 explanation: >-
-  Lightning Network'i tehingud on turvatud krüptograafia ja kaudselt Bitcoin'i kaevurite poolt tarbitud energia abil.
-reviewed: false
+  Skin in the game kontseptsioon on idee, mis on hiljuti videomängude tööstuses populaarsust kogunud. See hõlmab sisuliselt rahalist osalust mängu tulemuses.

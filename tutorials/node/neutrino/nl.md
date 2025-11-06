@@ -2,24 +2,28 @@
 name: Neutrino
 description: LND Neutrino Installatiegids
 ---
+![image](assets/cover.webp)
 
-# Raspberry Pi configuratie met LND
+
+## Raspberry Pi configuratie met LND
 
 
-#### 1. Raspberry Pi OS Lite downloaden
+### 1. Raspberry Pi OS Lite downloaden
+
 
 De instructies voor het downloaden en installeren van het image op een micro SD-kaart in Windows, Mac en Linux zijn te vinden op [deze pagina] (https://www.raspberrypi.org/software/operating-systems/).
 
 
-#### 2. De SD-kaart formatteren
+### 2. De SD-kaart formatteren
 
-gebruik Raspberry Pi Imager of balenaEtcher.
+
+Gebruik Raspberry Pi Imager of balenaEtcher.
 
 
 **Noot:** Het symbool `$` wordt gebruikt als prompt en stelt de gebruiker in staat om commando's in te voeren in de computer, de commando's zullen worden geïnterpreteerd door bash in Linux. Het symbool `#` aan het begin van een regel geeft aan dat de volgende tekst commentaar is.
 
 
-#### 3. SSH inschakelen
+### 3. SSH inschakelen
 
 
 Voordat we de Raspberry Pi opstarten met het geformatteerde geheugen, moeten we het in een computer plaatsen en twee bestanden aanmaken waarmee we op afstand verbinding kunnen maken. Met het `touch` commando maken we een leeg bestand aan in de /boot partitie, waardoor SSH-verbinding mogelijk wordt bij de eerste keer opstarten van de pas geformatteerde SD-kaart.
@@ -31,7 +35,9 @@ Voordat we de Raspberry Pi opstarten met het geformatteerde geheugen, moeten we 
 $ touch /boot/ssh
 ```
 
-#### 4. Bestand maken voor Wi-Fi-verbinding
+
+### 4. Bestand maken voor Wi-Fi-verbinding
+
 
 Met het commando nano maken we het bestand `wpa_supplicant.conf` aan en beginnen we direct met bewerken. In dit bestand moeten we de wifi-configuratie kopiëren, de tekst tussen START en END kopiëren en het SSID en wachtwoord wijzigen van de wifi waarmee je verbinding wilt maken.
 
@@ -52,14 +58,17 @@ psk="password"
 ```
 
 
-#### 5. Aansluiting
+### 5. Aansluiting
+
 
 Vervolgens plaatsen we de SD-kaart in de Raspberry Pi en sluiten we de Pi aan op de stroombron om het besturingssysteem te starten. We moeten de Pi identificeren op het netwerk en het mDNS-protocol zal er waarschijnlijk de naam raspberrypi.local aan toewijzen. Laten we proberen verbinding te maken via SSH.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
+
 
 Als het niet werkt, moeten we het netwerk achterhalen. Laten we eens kijken met welk IP Address we verbonden zijn.
 
@@ -86,7 +95,8 @@ password: raspberry
 ```
 
 
-#### 6. De Pi configureren
+### 6. De Pi configureren
+
 
 ```
 $ sudo raspi-config
@@ -100,7 +110,8 @@ $ sudo raspi-config
 - Afwerking
 
 
-#### 7. Werk nu het OS bij
+### 7. Werk nu het OS bij
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -108,14 +119,15 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8. De Bitcoin gebruiker toevoegen
+### 8. De Bitcoin gebruiker toevoegen
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
 
-#### 9. De rpi beveiligen
+### 9. De rpi beveiligen
 
 
 ```
@@ -132,9 +144,10 @@ $ sudo apt install fail2ban
 ```
 
 
-#### 10. Installeer Go
+### 10. Installeer Go
 
-Als je geen raspberry pi gebruikt, download dan go voor jouw architectuur [hier] (https://golang.org/dl/)
+
+Als je geen raspberry pi gebruikt, download dan go voor jouw architectuur [hier] (https://golang.org/dl/).
 
 
 ```
@@ -148,7 +161,7 @@ $ go version # should display the following message 'go version go1.13.5 linux/a
 ```
 
 
-#### 11. LND compileren en installeren
+### 11. LND compileren en installeren
 
 
 ```
@@ -163,7 +176,8 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 ```
 
 
-#### 12. LND conf-bestand aanmaken
+### 12. LND conf-bestand aanmaken
+
 
 Maak het LND configuratiebestand, dit moet gedaan worden met de 'Bitcoin' gebruiker
 
@@ -200,7 +214,8 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13. LND service autostart
+### 13. LND service autostart
+
 
 Om LND te laten starten na het opstarten van de rpi, moeten we het .service bestand in systemd aanmaken. Als we ingelogd zijn als Bitcoin gebruiker en terug willen naar de pi gebruiker, typen we simpelweg 'exit'
 
@@ -284,7 +299,7 @@ $ sudo journalctl -f -u lnd
 ```
 
 
-#### 14. Nu beginnen we met LND
+### 14. Nu beginnen we met LND
 
 
 ```
@@ -293,7 +308,7 @@ $ lncli create
 ```
 
 
-#### 15. Geld toevoegen aan het knooppunt
+### 15. Geld toevoegen aan het knooppunt
 
 
 ```
@@ -321,6 +336,7 @@ Zodra de transactie is bevestigd, kunnen we een chatroom openen. Als je niet wee
 
 Open een verbinding met een knooppunt:
 
+
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
@@ -328,12 +344,14 @@ $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836
 
 Open dan een kanaal:
 
+
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 
 Bekijk onze fondsen:
+
 
 ```
 $ lncli walletbalance
@@ -343,6 +361,7 @@ $ lncli channelbalance
 
 We kunnen de in behandeling zijnde en actieve kanalen bekijken:
 
+
 ```
 $ lncli pendingchannels
 $ lncli listchannels
@@ -351,12 +370,14 @@ $ lncli listchannels
 
 Een bliksemschicht Invoice betalen:
 
+
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
 Om een betaling te ontvangen, maak je een Invoice aan voor een specifiek bedrag:
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
@@ -365,6 +386,7 @@ $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 
 Om informatie over mijn knooppunt te bekijken:
 
+
 ```
 $ lncli getinfo
 ```
@@ -372,12 +394,14 @@ $ lncli getinfo
 
 De volledige lijst met commando's kan worden bekeken door simpelweg het commando lncli uit te voeren:
 
+
 ```
 $ lncli
 ```
 
 
 Tot slot, om aanroepen te doen naar de LND API:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"

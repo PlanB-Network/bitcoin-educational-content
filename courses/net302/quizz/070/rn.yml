@@ -1,0 +1,9 @@
+question: Ni nde yemerewe gucapura umuzigo wa IPv6?
+answer: Inkomoko y'umushitsi gusa
+wrong_answers:
+  - Router ya mbere yo hagati yonyene
+  - Iyo router aja gusa
+  - Router zose
+explanation: |
+  Muri IPv6, ugucapura bikorwa gusa n’umushitsi w’inkomoko, ntivyigera bikorwa n’abarongozi bo hagati.
+reviewed: false

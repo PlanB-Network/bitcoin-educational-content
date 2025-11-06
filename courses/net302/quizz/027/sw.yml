@@ -1,0 +1,9 @@
+question: Je, jina la kitengo cha data kinachobadilishwa kwenye Application Layer (TCP/IP) ni nini?
+answer: Ujumbe
+wrong_answers:
+  - Fremu
+  - Sehemu
+  - Datagramu
+explanation: |
+  Katika muundo wa TCP/IP, data inayobadilishwa kwenye Layer ya Maombi inaitwa ujumbe (au mitiririko, kulingana na muktadha).
+reviewed: false

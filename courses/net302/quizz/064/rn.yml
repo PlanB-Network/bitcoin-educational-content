@@ -1,0 +1,9 @@
+question: Ni uburebure bungana iki bw’ibice vya IPv6 Address?
+answer: 128-ibice
+wrong_answers:
+  - 512 ibice
+  - 64-ibice
+  - 256-ibice
+explanation: |
+  IPv6 Address ifise uburebure bw'ibice 128, ugereranyije n'ibice 32 vya IPv4 Address.
+reviewed: false

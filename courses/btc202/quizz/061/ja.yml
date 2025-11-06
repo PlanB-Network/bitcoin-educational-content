@@ -1,0 +1,9 @@
+question: Umbrelへのリモートアクセスにおいて、TorよりもTailscaleの方が優れている点は何ですか？
+answer: より高速な接続
+wrong_answers:
+  - WireGuardよりも強力な暗号化
+  - エンタープライズ・ルーターとの互換性
+  - エレクトラーをオフラインで使用可能
+explanation: |
+  TailscaleはWireGuardのセキュリティを提供するが、Torとは異なりクリアネット接続のスピードは遅い。
+reviewed: true

@@ -84,7 +84,7 @@ Här är några tips om hur du säkerhetskopierar din säkerhetskopieringsfras.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 För att säkerhetskopiera dina fraser väljer du menyn **Inställningar > Säkerhet** och sedan alternativet **Kontrollera din säkerhetskopierade fras**.
 
@@ -213,4 +213,4 @@ För att gå vidare rekommenderar jag också att du upptäcker vår handledning 
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

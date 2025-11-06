@@ -1,0 +1,9 @@
+question: 在 blocks/index/ 中使用哪個資料庫來儲存區塊元資料？
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - 伯克利 DB
+explanation: |
+  Bitcoin core 在 blocks/index/ 中使用 LevelDB 來索引區塊，加速其搜尋及對同儕的服務。
+reviewed: true

@@ -20,4 +20,4 @@ abc...123:0
 Outpoint används i inputs (`vin`) i en ny transaktion för att ange vilken UTXO som spenderas.
 
 
-> ► * Termen "outpoint" används ofta synonymt med "UTXO"
+> ► *Termen "outpoint" används ofta synonymt med "UTXO"*

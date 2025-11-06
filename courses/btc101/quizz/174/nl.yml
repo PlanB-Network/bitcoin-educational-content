@@ -1,8 +1,13 @@
-question: Wat zijn de typische kosten voor een Miner?
-answer: Elektriciteitsverbruik en aankoop van hardware.
+question: Wat is een manier waarop Bitcoin zich verder heeft geïntegreerd in de traditionele markt?
+answer: De komst van Bitcoin ETF's.
 wrong_answers:
-  - Alleen aanschaf van hardware.
-  - Transactiekosten.
-  - Elektriciteitsverbruik en transactiekosten.
-explanation: >-
-reviewed: false
+  - Het verbieden van Bitcoin.
+  - De verdwijning van alle cryptocurrencies.
+  - De creatie van Bitcoin.
+explanation: |
+  Bitcoin blijft overleven en zelfs verder groeien door
+  zichzelf meer en meer te integreren in de traditionele
+  markt. De komst van Bitcoin ETF's, duidelijkere regelgeving,
+  en een betere verwerving van opslaginstrumenten moedigen deze
+  trend aan.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Miksi siirtyminen IPv6:een tuli tarpeelliseksi?
+answer: IPv4 Address:n loppuminen
+wrong_answers:
+  - NAT-protokollan toimintahäiriö IPv4:ssä
+  - Aliverkkomaskin yhteensopimattomuus
+  - DHCP-tuen päättyminen
+explanation: |
+  IPv4-osoitteiden loppuminen johti siirtymiseen IPv6:een, joka tarjoaa huomattavasti suuremman Address-avaruuden.
+reviewed: false

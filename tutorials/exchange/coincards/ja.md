@@ -1,5 +1,5 @@
 ---
-name: コインカード
+name: Coincards
 description: Coincardsを使ってBTCで商品やサービスを購入するには？
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ description: Coincardsを使ってBTCで商品やサービスを購入するに�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincardsは、小売からファーストフード、ストリーミング・プラットフォーム、オンラインゲーム、Eコマースサイトなど、幅広い選択肢を提供している。
 
@@ -67,7 +67,7 @@ Coincardsはお客様のプライバシーの保護に努めています。Bitco
 
 
 
-主なライトニング・ポートフォリオ（Phoenix、Breez、BitKit、Zeus...）に関するチュートリアルの一部は、こちらでご覧いただけます：[Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+主なライトニング・ポートフォリオ（Phoenix、Breez、BitKit、Zeus...）に関するチュートリアルの一部は、こちらでご覧いただけます：[Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Lightning Networkがどのように機能するのか詳しく知りたい方は
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## CoincardsでBTCギフトカードを購入するには？
 
@@ -244,4 +244,4 @@ Bitcoinの普及に貢献し、独立したマーチャントがこの支払い�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

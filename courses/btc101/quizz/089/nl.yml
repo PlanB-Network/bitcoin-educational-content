@@ -1,13 +1,11 @@
-question: Wat is het risico om de beveiliging en toegankelijkheid van je bitcoins te ingewikkeld te maken?
-answer: Je kunt jezelf beschadigen als je de back-ups portemonnees verkeerd gebruikt.
+question: Waar staat de private sleutel vaak voor in een Bitcoin Wallet?
+answer: Een lijst van 12 of 24 woorden.
 wrong_answers:
-  - Je kunt jezelf verwonden als je de fysieke portemonnees verkeerd hanteert.
-  - Je kunt jezelf beschadigen als je de digitale portemonnees verkeerd gebruikt.
-  - Je kunt jezelf verwonden als je de Multisig portemonnees verkeerd gebruikt.
+  - Een lijst van 12 of 48 woorden.
+  - Een lijst van 32 woorden.
+  - Een lijst van 64 woorden.
 explanation: |
-  Het te ingewikkeld maken van de beveiliging en toegankelijkheid van uw
-  bitcoins kan je schade berokkenen als je bijvoorbeeld de
-  back-ups van je portemonnees. Dit komt omdat eenvoudige back-up
-  procedures cruciaal zijn om weer toegang te krijgen tot je geld
-  in geval van verlies van je telefoon of computer.
+  In een Bitcoin Wallet wordt de private sleutel vaak voorgesteld
+  door een lijst van 12 of 24 woorden, ook bekend als een seed frase
+  of Mnemonic zinsdeel.
 reviewed: true

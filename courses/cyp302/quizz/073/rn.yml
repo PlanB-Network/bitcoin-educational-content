@@ -1,0 +1,9 @@
+question: Ni gute urufunguzo rushobora gusobanurwamwo mu guhindura amakuru?
+answer: Umubare kuva kuri 0 gushika kuri 25
+wrong_answers:
+  - Ijambo ry'impfagusa
+  - Umubare wose udasanzwe ata n'umwe abujijwe
+  - Umubare kuva kuri 1 gushika kuri 26
+explanation: |
+  Mu gushiramwo amakuru y’ihinduka, urufunguzo ni umubare uri hagati ya 0 na 25, ukaba uhuye n’umubare w’ibibanza vy’ihinduka bikoreshwa ku ndome imwe imwe y’ubutumwa mu nyuguti z’inyuguti 26.
+reviewed: false

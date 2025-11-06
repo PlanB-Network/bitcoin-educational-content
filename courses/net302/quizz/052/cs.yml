@@ -1,0 +1,9 @@
+question: Jaké základní informace musí brána NAT zaznamenávat pro každý síťový tok?
+answer: Mapování mezi interní IP a veřejnou IP
+wrong_answers:
+  - Typ použitého síťového kabelu
+  - Mapování mezi serverem IP Address a serverem DNS
+  - Typ použitého síťového protokolu
+explanation: |
+  NAT se spoléhá na překladovou tabulku, která udržuje korespondenci a sleduje mapování mezi vnitřními a veřejnými adresami, aby bylo zajištěno správné směrování paketů.
+reviewed: false

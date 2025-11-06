@@ -1,0 +1,9 @@
+question: Bitcoin core 節點維護的預設傳出連線數是多少？
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core 預設維持 10 個傳出連線 (8 個完全中繼和 2 個僅區塊中繼)。
+reviewed: true

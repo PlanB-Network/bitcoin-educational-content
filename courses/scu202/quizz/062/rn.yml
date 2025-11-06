@@ -1,0 +1,9 @@
+question: Ni uwuhe mucukumbuzi yizeza ko atamenyekana mu guhindura inzira y’uruja n’uruza biciye ku rubuga rwegerejwe ariko rufise igihe kinini?
+answer: Mucukumbuzi wa Tor
+wrong_answers:
+  - Mucukumbuzi ya Mullvad
+  - Inzovu
+  - Igikoko c'Ubuntu
+explanation: |
+  Tor Browser yizigira urubuga rwa Tor kugira ngo itamenyekane, ku giciro c’ugugabanuka cane kw’ibikorwa.
+reviewed: false

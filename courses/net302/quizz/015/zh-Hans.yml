@@ -1,0 +1,9 @@
+question: IP 数据报的最大理论大小是多少？
+answer: 65,536 字节
+wrong_answers:
+  - 1 500 字节
+  - 512 字节
+  - 255 字节
+explanation: |
+  IP 数据报的最大大小为 65,536 字节，由 IP 报头总长度字段的限制决定。
+reviewed: false

@@ -1,13 +1,8 @@
-question: Jaki jest związek Bitcoin z przyszłością technologii i społeczeństwa?
-answer: Bitcoin to rewolucja technologiczna, która pozwala na Exchange wartości bez żadnej zaufanej strony trzeciej.
+question: Jaka jest jedna z głównych cech protokołu Bitcoin?
+answer: Jest neutralny wobec wszystkich użytkowników.
 wrong_answers:
-  - Bitcoin to forma technologii sztucznej inteligencji, która umożliwia ludziom dostęp do informacji Exchange za pośrednictwem centralnego serwera.
-  - Bitcoin jest narzędziem do kontrolowania światowej populacji, umożliwiającym eliminację ubóstwa.
-  - Bitcoin to metoda umożliwiająca rządom śledzenie transakcji finansowych swoich obywateli.
-explanation: |
-  Tekst wyjaśnia, że Bitcoin, podobnie jak internet dla środków
-  komunikacji, jest rewolucją technologiczną, która
-  stwarza szansę na nowe tryby organizacji na dużą skalę
-  organizacji, przynosząc nam możliwość wymiany
-  wartości bez żadnej zaufanej strony trzeciej.
+  - Faworyzuje niektórych użytkowników kosztem innych.
+  - Jest stronniczy w stosunku do niektórych użytkowników.
+  - Przynosi to korzyści tylko wybranej grupie użytkowników.
+explanation: >-
 reviewed: true

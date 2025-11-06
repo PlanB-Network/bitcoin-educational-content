@@ -1,0 +1,9 @@
+question: Milline TCP-funktsioon optimeerib läbilaskevõimet, kohandades ilma kohese kinnitamiseta saadetud segmentide arvu?
+answer: Libistav aken
+wrong_answers:
+  - Dünaamiline killustamine
+  - Pakettkommuteerimine
+  - Staatiline marsruutimine
+explanation: |
+  "Libisev aken" võimaldab saata mitu segmenti järjest, seejärel nihutab vahemikku iga kinnitusega, et optimeerida voogu.
+reviewed: false

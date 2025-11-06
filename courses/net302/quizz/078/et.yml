@@ -1,0 +1,9 @@
+question: Millisesse DNS-vööndisse paigutatakse PTR-kirjed IPv6 pöördresolutsiooni jaoks?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Tsoon ip6.arpa on spetsiaalselt ette nähtud IPv6-aadresside pöördlahendus, samas kui in-addr.arpa on kasutusel IPv4-aadresside jaoks.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Boltzmann rekenmachine
+name: Boltzmann Calculator
 description: Het concept entropie en het gebruik van Boltzmann begrijpen
 ---
 ![cover](assets/cover.webp)

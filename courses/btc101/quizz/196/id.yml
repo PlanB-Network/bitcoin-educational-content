@@ -1,11 +1,11 @@
-question: Apa itu Swiss Bitcoin Pay?
-answer: Sebuah solusi bagi pedagang amatir untuk menerima Bitcoin
+question: Apa yang harus Anda lakukan setelah membeli Bitcoin di platform pertukaran?
+answer: Tarik Bitcoin ke dompet Anda.
 wrong_answers:
-  - Sebuah bank Swiss yang menerima Bitcoin
-  - Sebuah bursa Bitcoin Swiss
-  - Sebuah perusahaan penambangan Bitcoin Swiss
+  - Biarkan saja di platform tersebut.
+  - Jual segera.
+  - Transfer ke platform lain.
 explanation: >-
-  Swiss Bitcoin Pay adalah solusi bagi pedagang amatir untuk menerima Bitcoin.
-  Solusi lainnya termasuk OpenNode untuk bisnis online sederhana dan BTCpay Server
-  untuk struktur besar atau penggemar bitcoin yang bersemangat.
+  Teks ini menyarankan bahwa setelah membeli Bitcoin, disarankan untuk segera
+  menarik Bitcoin dari platform pertukaran untuk meminimalisir risiko peretasan
+  dan pemblokiran dana.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Mu gushiramwo amakuru mu gihe c’ihinduka, ijambo DOG rifise urufunguzo rwa 17 rivamwo iki?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Iyo umuntu ahinduye 17 mu nyuguti, D ica iba U, O iba F, G iba X. Ku bw’ivyo, ijambo ry’ibanga ni UFX.
+reviewed: false

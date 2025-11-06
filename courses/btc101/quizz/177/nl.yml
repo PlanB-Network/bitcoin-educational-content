@@ -1,8 +1,8 @@
-question: Wat was een belangrijke gebeurtenis in de cryptocurrency wereld in 2017?
-answer: De lancering van duizenden Initial Coin Offerings (ICO's).
+question: Wat is een van de redenen dat Bitcoin geen zeepbel is die zal verdwijnen?
+answer: Omdat het een valuta is die overal ter wereld wordt gebruikt.
 wrong_answers:
-  - Het verbieden van Bitcoin.
-  - De creatie van Bitcoin.
-  - De verdwijning van alle cryptocurrencies.
+  - Omdat het eigenlijk nergens wordt gebruikt.
+  - Omdat het wordt gecontroleerd door een centrale autoriteit.
+  - Omdat het makkelijk na te maken is.
 explanation: >-
 reviewed: true

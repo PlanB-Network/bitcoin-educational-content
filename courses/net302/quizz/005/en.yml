@@ -5,5 +5,5 @@ wrong_answers:
   - ISO
   - IIP
 explanation: |
-  RFCs (Request For Comments) are the reference documents that record the specifications of TCP/IP protocols.
+  RFCs (Request For Comments) are the reference documents that define the TCP/IP protocols specifications.
 reviewed: false

@@ -1,0 +1,9 @@
+question: 与自动分配的 IPv6 Address 相关的两个生命周期是什么？
+answer: 首选寿命和有效寿命
+wrong_answers:
+  - 租用时间和保持时间
+  - 有效期和过期
+  - 初始寿命和次级寿命
+explanation: |
+  首选寿命决定 Address 的正常使用期，有效寿命则决定其总有效期。
+reviewed: false

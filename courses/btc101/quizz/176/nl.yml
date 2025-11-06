@@ -1,8 +1,8 @@
-question: Wat is een uniek kenmerk van het Bitcoin protocol?
-answer: Het is wereldwijd actief, 24 uur per dag, 7 dagen per week.
+question: Wat is een reden waarom de prijs van Bitcoin in slechts een paar dagen met 10%, 20% of zelfs 50% kan dalen?
+answer: Bullish en bearish marktfasen.
 wrong_answers:
-  - Het werkt alleen tijdens kantooruren.
-  - Het wordt gecontroleerd door een centrale autoriteit.
-  - Het kan gemakkelijk worden gehackt.
+  - Het aantal mensen dat internet gebruikt.
+  - Het weer.
+  - De prijs van goud.
 explanation: >-
 reviewed: true

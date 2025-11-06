@@ -1,5 +1,5 @@
 ---
-name: Криптоматор
+name: Cryptomator
 description: Шифруйте свои файлы в облаке
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Cryptomator - это альтернатива другим приложения�
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Приложение Cryptomator доступно для **Windows** (exe / msi), **Linux**, **macOS,** а также **Android** и **iOS**. Кстати, все приложения бесплатны, за исключением приложения для Android, за которое придется заплатить (14,99 евро).
 
@@ -170,7 +170,7 @@ https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-4
 
 
 
-На стороне OneDrive мы не можем просматривать хранилище Cryptomator напрямую. Мы не можем видеть данные (ни имена файлов, ни их содержимое). Это означает, что вам не нужно добавлять данные в хранилище Cryptomator через обычный ярлык OneDrive. **Вы должны добавить данные с помощью виртуального диска Cryptomator
+На стороне OneDrive мы не можем просматривать хранилище Cryptomator напрямую. Мы не можем видеть данные (ни имена файлов, ни их содержимое). Это означает, что вам не нужно добавлять данные в хранилище Cryptomator через обычный ярлык OneDrive. **Вы должны добавить данные с помощью виртуального диска Cryptomator.**
 
 
 

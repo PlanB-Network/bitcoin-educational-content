@@ -1,0 +1,9 @@
+question: ¿Qué es el finalismo?
+answer: Invertir la causa y el efecto para entender algo.
+wrong_answers:
+  - Una teoría política.
+  - Una receta de cocina.
+  - Un principio del psicoanálisis.
+explanation: |
+  El finalismo es la inversión de la causa y el efecto para comprender algo. Es explicar un fenómeno por su supuesta finalidad y no por sus causas reales, lo que Spinoza critica como una ilusión.
+reviewed: false

@@ -1,12 +1,12 @@
-question: Con quali principi economici si allinea Bitcoin?
-answer: Principi dell'economia austriaca.
+question: Quali sono le tre principali funzioni di un wallet Bitcoin?
+answer: Ricevere bitcoin, inviare bitcoin, proteggerli contro tentativi di hacking e furto.
 wrong_answers:
-  - Principi dell'economia keynesiana.
-  - Principi dell'economia marxista.
-  - Principi dell'economia neoclassica.
+  - Conservare bitcoin, inviare bitcoin, proteggerli contro tentativi di hacking e furto.
+  - Consentire di ricevere bitcoin, conservare bitcoin, proteggerli contro tentativi di hacking e furto.
+  - Consentire di ricevere bitcoin, consentire di inviare bitcoin, vendere bitcoin.
 explanation: |
-  Bitcoin si allinea con i principi dell'economia austriaca.
-  La sua quantità limitata e l'assenza di un'entità centrale lo proteggono
-  dai rischi intrinseci di inflazione che si vedono nelle
-  valute tradizionali.
+  Un wallet Bitcoin è utilizzato per interagire con la
+  rete Bitcoin. Le sue tre principali funzioni sono consentire di ricevere
+  bitcoin, inviare bitcoin e proteggerli contro
+  tentativi di hacking e furto.
 reviewed: true

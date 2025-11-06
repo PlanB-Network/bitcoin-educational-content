@@ -1,0 +1,9 @@
+question: Ni igiki gikoreshwa na Debian na Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zipa
+explanation: |
+  Debian na Ubuntu zikoresha umucungerezi w'amapaki ya APT, ashingiye ku buryo bwa .deb, kugira ngo zicunge ugushiraho porogarama n'ugusubiramwo.
+reviewed: false

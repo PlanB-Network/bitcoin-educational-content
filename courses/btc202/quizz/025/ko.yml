@@ -1,0 +1,9 @@
+question: pruned 매듭은 언제 Wallet에 문제가 되나요?
+answer: 이전 Wallet를 복원할 때
+wrong_answers:
+  - 새 수신 Address 생성 시
+  - 최근 거래를 보낼 때
+  - 수수료 금액 선택 시
+explanation: |
+  pruned 노드는 이전 블록을 보유하지 않으므로 복원 중에 과거 트랜잭션이 스캔되지 않을 수 있습니다.
+reviewed: true

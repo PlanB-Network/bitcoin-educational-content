@@ -1,12 +1,12 @@
-question: Jakie podmioty są odpowiedzialne za emisję walut fiducjarnych?
-answer: Banki centralne.
+question: Jakie są potencjalne skutki nagłej deprecjacji lub utraty zaufania do waluty fiducjarnej?
+answer: Hiperinflacja.
 wrong_answers:
-  - Banki komercyjne.
-  - Rządy.
-  - Instytucje prywatne.
+  - Deflacja.
+  - Stabilna gospodarka.
+  - Wzrost wartości waluty.
 explanation: |
-  Banki centralne są podmiotami odpowiedzialnymi za emisję waluty
-  waluty fiducjarnej. Decydują one o polityce pieniężnej i
-  określają, ile pieniędzy należy wprowadzić do obiegu lub
-  wydrukowanych.
+  Nagła dewaluacja lub utrata zaufania do waluty fiducjarnej
+  może prowadzić do hiperinflacji. Jest to sytuacja
+  w której ceny towarów i usług rosną w niezwykle
+  niezwykle wysokim tempie, często prowadząc do niestabilności gospodarczej.
 reviewed: true

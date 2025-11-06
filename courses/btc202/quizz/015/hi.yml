@@ -1,0 +1,9 @@
+question: Bitcoin core का मुख्य वैकल्पिक कार्यान्वयन क्या है?
+answer: जीडब्ल्यू-1
+wrong_answers:
+  - Bitcoin नकद
+  - बीटीसीडी
+  - बीकॉइन
+explanation: |
+  ल्यूक डैशजेआर द्वारा विकसित Bitcoin Knots, कोर का Fork है, जो अतिरिक्त विकल्प और अधिक रूढ़िवादी दृष्टिकोण प्रदान करता है।
+reviewed: true

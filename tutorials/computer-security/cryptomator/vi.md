@@ -42,7 +42,7 @@ Cryptomator là một lựa chọn thay thế cho các ứng dụng khác, đặ
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Ứng dụng Cryptomator có sẵn trên **Windows** (exe / msi), **Linux**, **macOS,** cũng như **Android** và **iOS**. Nhân tiện, tất cả các ứng dụng đều miễn phí, ngoại trừ ứng dụng Android, bạn phải trả phí (14,99 euro).
 
@@ -170,7 +170,7 @@ Bạn phải nhập mật khẩu để mở khóa két. Sau đó nhấp vào "**
 
 
 
-Về phía OneDrive, chúng ta không thể duyệt trực tiếp kho lưu trữ Cryptomator. Chúng ta không thể xem dữ liệu (cả tên tệp lẫn nội dung). Điều này có nghĩa là bạn không cần phải thêm dữ liệu vào kho lưu trữ Cryptomator thông qua phím tắt OneDrive thông thường. **Bạn phải thêm dữ liệu bằng ổ đĩa ảo của Cryptomator
+Về phía OneDrive, chúng ta không thể duyệt trực tiếp kho lưu trữ Cryptomator. Chúng ta không thể xem dữ liệu (cả tên tệp lẫn nội dung). Điều này có nghĩa là bạn không cần phải thêm dữ liệu vào kho lưu trữ Cryptomator thông qua phím tắt OneDrive thông thường. **Bạn phải thêm dữ liệu bằng ổ đĩa ảo của Cryptomator.**
 
 
 

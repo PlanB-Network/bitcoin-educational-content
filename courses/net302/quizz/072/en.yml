@@ -5,5 +5,5 @@ wrong_answers:
   - LIR (Local Internet Registry)
   - IP (Interchangeable Provider)
 explanation: |
-  A PI (Provider Independent) block is allocated directly to an organization by an RIR, independently of the provider.
+  A PI (Provider Independent) block is allocated directly to an organization by an RIR, independently of the Internet Service Provider.
 reviewed: false

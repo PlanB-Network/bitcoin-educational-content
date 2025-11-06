@@ -17,4 +17,4 @@ Bitcoini kontekstis kasutatakse hash-funktsioone mitmel eesmärgil, sealhulgas t
 - "SHA512" algoritmide "HMAC" ja "PBKDF2" raames, mida kasutatakse deterministlike ja hierarhiliste rahakottide tuletamisel;
 - `HASH160`, mis kirjeldab `SHA256` ja `RIPEMD160` järjestikust kasutamist. `HASH160` kasutatakse vastuvõtuaadresside genereerimisel (v.a P2PK ja P2TR) ja laiendatud võtmete vanemvõtme sõrmejälgede arvutamisel.
 
-> ► *Inglise keeles nimetatakse seda "hash-funktsiooniks"
+> ► *Inglise keeles nimetatakse seda "hash-funktsiooniks"*

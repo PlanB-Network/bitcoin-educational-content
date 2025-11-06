@@ -14,9 +14,9 @@ V počátcích Bitcoin bylo nutné spustit uzel Bitcoin, aby bylo možné přist
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Proto byly zahájeny projekty, jejichž cílem je rozšířit komunitu Bitcoin a zpřístupnit ji všem, kteří nevlastní uzel a/nebo nemají potřebné technické dovednosti.
 
@@ -46,7 +46,7 @@ Stále rozšířenější použití v ekosystému a skutečnost, že Mempool.spa
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Základy Mempool.space
 
@@ -64,10 +64,10 @@ Na panelu nabídek najdete následující sítě:
 
 
 
-- Mainnet** : Hlavní síť Bitcoin, kde probíhají skutečné transakce Bitcoin.
-- Signet**: Testovací síť, která používá digitální podpisy k ověřování bloků, aniž by vyžadovala prostředky vyžadované hlavní sítí.
-- Testnet 3**: Bezriziková testovací a vývojová síť na protokolu Bitcoin.
-- Testnet 4** : Nová verze Testnet 3 přináší do testovacího prostředí větší stabilitu a nová pravidla konsensu.
+- **Mainnet**: Hlavní síť Bitcoin, kde probíhají skutečné transakce Bitcoin.
+- **Signet**: Testovací síť, která používá digitální podpisy k ověřování bloků, aniž by vyžadovala prostředky vyžadované hlavní sítí.
+- **Testnet 3**: Bezriziková testovací a vývojová síť na protokolu Bitcoin.
+- **Testnet 4**: Nová verze Testnet 3 přináší do testovacího prostředí větší stabilitu a nová pravidla konsensu.
 
 
 
@@ -142,9 +142,9 @@ Na stránce s podrobnostmi o transakci najdete obecné informace o transakci:
 
 
 
-- Stav**: Potvrzeno, když je přidáno do bloku, nepotvrzeno, když čeká v Mempool.
-- Transakční poplatky**.
-- Předpokládaný čas příjezdu (ETA)** :  Přibližná doba, za kterou bude vaše transakce přidána do bloku. Počítá se podle poměru, který tvoří poplatky spojené s touto transakcí.
+- **Stav**: Potvrzeno, když je přidáno do bloku, nepotvrzeno, když čeká v Mempool.
+- **Transakční poplatky**.
+- **Předpokládaný čas příjezdu (ETA)**: Přibližná doba, za kterou bude vaše transakce přidána do bloku. Počítá se podle poměru, který tvoří poplatky spojené s touto transakcí.
 
 
 
@@ -176,7 +176,7 @@ Objevte různá schémata transakcí Bitcoin, která zvýší vaši důvěrnost.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Zrychlení transakcí
 
@@ -192,7 +192,7 @@ Naštěstí jsou v síti Bitcoin k dispozici dvě metody, které potvrzení tran
 
 
 
-- RBF** - Náhrada za poplatek: Metoda, která umožňuje utratit stejné položky jako u transakce s nízkým poplatkem, ale tentokrát zvýšením poplatku za transakci, aby se urychlila validace. Vaše nová transakce bude rychleji ověřena a zařazena do bloku, čímž se transakce s nízkým poplatkem zneplatní.
+- **RBF** - Náhrada za poplatek: Metoda, která umožňuje utratit stejné položky jako u transakce s nízkým poplatkem, ale tentokrát zvýšením poplatku za transakci, aby se urychlila validace. Vaše nová transakce bude rychleji ověřena a zařazena do bloku, čímž se transakce s nízkým poplatkem zneplatní.
 
 
 
@@ -200,11 +200,11 @@ U portfolií, která tento mechanismus akceptují, můžete provést akci nahraz
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: Přístup inspirovaný RBF, ale na straně přijímače. Když je transakce, v níž jste příjemcem, zablokována v Mempool, máte možnost utratit výstupy (UTXO) této transakce, přestože ještě nebyla potvrzena, a to tak, že této nové transakci přidělíte více poplatků, takže průměrné poplatky - transakce, u níž jste příjemcem, a iniciované transakce - povzbudí těžaře, aby obě transakce zařadili do bloku.
+- **CPFP** - Child pay for parent: Přístup inspirovaný RBF, ale na straně přijímače. Když je transakce, v níž jste příjemcem, zablokována v Mempool, máte možnost utratit výstupy (UTXO) této transakce, přestože ještě nebyla potvrzena, a to tak, že této nové transakci přidělíte více poplatků, takže průměrné poplatky - transakce, u níž jste příjemcem, a iniciované transakce - povzbudí těžaře, aby obě transakce zařadili do bloku.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Pokud se vám všechny tyto pojmy zdají příliš odborné, doporučuji vám [nahlédnout do našeho slovníčku](https://planb.network/resources/glossary), který obsahuje definice všech odborných pojmů týkajících se Bitcoin a jeho ekosystému.
+Pokud se vám všechny tyto pojmy zdají příliš odborné, doporučuji vám [nahlédnout do našeho slovníčku](https://planb.academy/resources/glossary), který obsahuje definice všech odborných pojmů týkajících se Bitcoin a jeho ekosystému.
 
 
 
@@ -235,7 +235,7 @@ Miner označuje osobu, která spravuje důl, tj. počítač zapojený do procesu
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Minery jsou jako "validátoři", kteří ověřují a seskupují transakce do bloků. Aby mohli přidat nový blok do sítě Bitcoin, musí vyřešit složitou matematickou hádanku (Proof-of-Work). Ten, kdo jako první vyřeší hádanku Miner, získává odměnu Bitcoin (dotace bloku + poplatky za transakce zahrnuté do bloku).
 
@@ -372,4 +372,4 @@ Nyní, když jste se dostali na konec své cesty na Mempool.space, staňte se sv
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

@@ -37,7 +37,7 @@ Bij Cahoots-transacties worden gedeeltelijk ondertekende transacties tussen gebr
 Wanneer dit op afstand gebeurt, wordt dit proces te complex. Om dit probleem Address aan te pakken, heeft Samourai een versleuteld communicatieprotocol ontwikkeld op basis van Tor, genaamd "Soroban." Met Soroban worden de noodzakelijke uitwisselingen voor een PayJoin geautomatiseerd achter een gebruiksvriendelijke Interface. Dit is de tweede methode die we in dit artikel zullen onderzoeken.
 
 
-Deze versleutelde uitwisselingen vereisen het opzetten van een verbinding en authenticatie tussen Cahoots deelnemers. Soroban communicatie vertrouwt op de Paynyms van de gebruikers. Als je niet bekend bent met Paynyms, raadpleeg dan dit artikel voor meer details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Deze versleutelde uitwisselingen vereisen het opzetten van een verbinding en authenticatie tussen Cahoots deelnemers. Soroban communicatie vertrouwt op de Paynyms van de gebruikers. Als je niet bekend bent met Paynyms, raadpleeg dan dit artikel voor meer details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 Simpel gezegd is een Paynym een unieke identificatiecode gekoppeld aan je Wallet die verschillende functionaliteiten mogelijk maakt, waaronder versleutelde berichtenuitwisseling. De Paynym wordt gepresenteerd in de vorm van een identifier en een afbeelding van een robot. Hier is een voorbeeld van de mijne op de Testnet: ![Paynym Sparrow](assets/nl/1.webp)
 
@@ -55,7 +55,7 @@ Simpel gezegd is een Paynym een unieke identificatiecode gekoppeld aan je Wallet
 een Cahoots-transactie uitvoeren.
 
 
-[**-> Meer informatie over PayJoin transacties en hun nut**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Meer informatie over PayJoin transacties en hun nut**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Hoe maak je een verbinding tussen Paynyms?

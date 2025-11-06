@@ -1,0 +1,9 @@
+question: Ai được phép phân mảnh gói tin IPv6?
+answer: Chỉ máy chủ nguồn
+wrong_answers:
+  - Chỉ có bộ định tuyến trung gian đầu tiên
+  - Chỉ bộ định tuyến đích
+  - Tất cả các bộ định tuyến
+explanation: |
+  Trong IPv6, quá trình phân mảnh chỉ được thực hiện bởi máy chủ nguồn, không bao giờ được thực hiện bởi các bộ định tuyến trung gian.
+reviewed: false

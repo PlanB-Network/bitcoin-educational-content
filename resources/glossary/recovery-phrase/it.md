@@ -6,4 +6,4 @@ Una frase di recupero, talvolta chiamata anche frase mnemonica, frase seme o fra
 
 È importante conservare questa frase in un luogo sicuro, poiché chiunque sia in possesso del mnemonico avrebbe accesso ai fondi del portafoglio corrispondente. Se utilizzata nel contesto di un portafoglio tradizionale e senza una passphrase opzionale, spesso costituisce un SPOF (Single Point Of Failure). La frase di recupero è quindi una codifica della sequenza pseudocasuale e del checksum in parole comuni per facilitarne la notazione e la leggibilità da parte dell'uomo. È costruita secondo lo standard BIP39, che definisce e ordina un elenco di 2048 parole utilizzate per questa codifica.
 
-> ► *L'elenco di 2048 parole del BIP39 è disponibile in diverse lingue, tuttavia si consiglia di utilizzare solo la versione inglese, in quanto è quella maggiormente supportata dal software per i portafogli
+> ► *L'elenco di 2048 parole del BIP39 è disponibile in diverse lingue, tuttavia si consiglia di utilizzare solo la versione inglese, in quanto è quella maggiormente supportata dal software per i portafogli*

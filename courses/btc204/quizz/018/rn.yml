@@ -1,0 +1,9 @@
+question: Mu nyishu zikurikira, ni iyihe itari mu mice 3 nyamukuru y’ubuhinga n’ibiranga bikoreshwa mu gusesangura uruhererekane?
+answer: Ivyitegererezo vy’ubuhinga bwo gupfuka.
+wrong_answers:
+  - Ivyitegererezo vy’ugucuruza.
+  - Ivyiyumviro vy’ugucuruza imbere mu gihugu.
+  - Ivyiyumviro vy’ugucuruza hanze.
+explanation: |
+  Ivyiyumviro bikoreshwa mu gusesangura uruhererekane bishobora gushirwa mu mice itatu; uburyo bwo gukora (canke uburyo bwo gukora), ubuhinga bwo gukora imbere mu gihugu, n’ubuhinga bwo gukora hanze.
+reviewed: false

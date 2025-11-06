@@ -1,0 +1,9 @@
+question: 전 세계에서 Bitcoin을 수락하는 가맹점을 나열하는 서비스는 어디인가요?
+answer: BTC 지도
+wrong_answers:
+  - 코인마켓캡
+  - Bitcoin 토크
+  - 스위스 Bitcoin Pay
+explanation: |
+  BTC Map은 전 세계에서 Bitcoin를 수락하는 가맹점을 찾을 수 있는 전용 플랫폼입니다.
+reviewed: false

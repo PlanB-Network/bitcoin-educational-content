@@ -1,0 +1,9 @@
+question: Millist põhiteavet peab NAT-värav registreerima iga võrguvoo kohta?
+answer: Sisemise IP ja avaliku IP vaheline kaardistus
+wrong_answers:
+  - Kasutatava võrgukaabli tüüp
+  - IP Address ja DNS-serveri vaheline kaardistus
+  - Kasutatava võrguprotokolli tüüp
+explanation: |
+  NAT tugineb vastavustabelile, mis jälgib sisemiste ja avalike aadresside vahelist vastavust, et tagada pakettide õige suunamine.
+reviewed: false

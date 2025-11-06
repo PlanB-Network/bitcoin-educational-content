@@ -1,12 +1,10 @@
-question: V jakých oborech vyvolává Bitcoin otázky?
-answer: Kryptografie, teorie her, ekonomie a měnová politika, informatika, filozofie, energetika, právo a regulace.
+question: Co umožňuje Lightning Network?
+answer: Okamžité, nízkonákladové transakce s Bitcoinem.
 wrong_answers:
-  - Pouze informatika a ekonomie
-  - Pouze kryptografie a teorie her.
-  - Pouze filozofie a energetika.
-explanation: |
-  Bitcoin je multidisciplinární téma, které vyvolává
-  otázky související s různými obory, včetně
-  kryptografie, teorie her, ekonomie a měnové politiky,
-  informatiky, filozofie, energetiky, práva a regulace.
+  - Okamžité, vysokonákladové transakce s Bitcoinem.
+  - Zpožděné, nízkonákladové transakce s Bitcoinem.
+  - Zpožděné, vysokonákladové transakce s Bitcoinem.
+explanation: >-
+  Lightning Network umožňuje okamžité, nízkonákladové transakce s Bitcoinem,
+  čímž řeší problém škálovatelnosti Bitcoinu.
 reviewed: true

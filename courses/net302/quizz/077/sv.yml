@@ -1,0 +1,9 @@
+question: Vilken upplösningsmetod kräver att man vänder på varje hexadecimal siffra i IPv6 Address för den omvända zonen?
+answer: Omvänd upplösning
+wrong_answers:
+  - Motsatt upplösning
+  - Primär upplösning
+  - Sekundär upplösning
+explanation: |
+  För omvänd upplösning vänds varje nibble av hela IPv6 Address och separeras med punkter innan den suffixeras med ip6.arpa.
+reviewed: false

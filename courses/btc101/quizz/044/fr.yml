@@ -1,9 +1,10 @@
-question: Quel est le résultat potentiel d'une dépréciation soudaine ou d'une perte de confiance dans une monnaie fiduciaire ?
-answer: Hyperinflation.
+question: Quel est l'impact d'une inflation de 2% sur le pouvoir d'achat sur 5 ans ?
+answer: Vous perdez 10% de votre pouvoir d'achat.
 wrong_answers:
-  - Déflation.
-  - Une économie stable.
-  - Une augmentation de la valeur de la monnaie.
+  - Vous perdez 2% de votre pouvoir d'achat.
+  - Vous perdez 5% de votre pouvoir d'achat.
+  - Vous perdez 20% de votre pouvoir d'achat.
 explanation: |
-  Une dévaluation soudaine ou une perte de confiance dans une monnaie fiduciaire peut conduire à l'hyperinflation. Il s'agit d'une situation où les prix des biens et services augmentent à un taux extrêmement élevé, menant souvent à une instabilité économique.
+  Avec une inflation de 2%, vous perdez 2% de votre pouvoir d'achat
+  annuellement, ce qui équivaut à 10% sur 5 ans.
 reviewed: true

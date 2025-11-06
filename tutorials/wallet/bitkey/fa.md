@@ -1,5 +1,5 @@
 ---
-name: بیت‌کی
+name: Bitkey
 description: Hardware Wallet بدون دانه
 ---
 ![cover](assets/cover.webp)

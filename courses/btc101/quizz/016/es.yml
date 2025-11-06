@@ -1,12 +1,14 @@
-question: ¿Qué es el b-money de Wei Dai?
-answer: Una idea de una moneda digital anónima donde la detección de fraudes era realizada por una comunidad de evaluadores en lugar de una autoridad central.
+question: ¿Cuál es el papel del dinero como herramienta de comunicación?
+answer: Permite la comunicación de valor a través del espacio y el tiempo y sin la necesidad de confiar en una contraparte.
 wrong_answers:
-  - Una moneda digital que fue ampliamente utilizada antes de Bitcoin y estaba controlada por un grupo de cypherpunks.
-  - Una forma de dinero digital que fue creada por la CIA y utilizada por el ejército.
-  - Una moneda digital que fue creada por Wei Dai como competidor de Bitcoin para ser más escalable.
+  - Permite la comunicación de valor a través del espacio solamente y sin la necesidad de confiar en una contraparte.
+  - Permite la comunicación de valor a través del tiempo solamente y sin la necesidad de confiar en una contraparte.
+  - Permite la comunicación de valor a través del espacio y el tiempo y con la necesidad de confiar en una contraparte.
 explanation: |
-  La idea de b-money de Wei Dai era la de una moneda digital
-  anónima sin entidad central que inspiró grandemente la
-  creación de Bitcoin. De hecho, es citada en el whitepaper
-  de Bitcoin.
+  El dinero como herramienta de comunicación permite la comunicación a través
+  del espacio y el tiempo, ya que transformamos nuestro tiempo y energía en un
+  activo que puede ser reutilizado en el futuro sin el riesgo de
+  devaluación. También permite la comunicación en un lenguaje común
+  universal, habilitando a dos extraños para intercambiar, comerciar,
+  y acordar el valor de las cosas.
 reviewed: true

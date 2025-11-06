@@ -1,13 +1,12 @@
-question: Które z poniższych nie jest zaletą Bitcoin jako waluty?
-answer: Służy do płacenia podatków.
+question: Jaka jest maksymalna liczba jednostek Bitcoin, które mogą kiedykolwiek istnieć?
+answer: 21 milionów.
 wrong_answers:
-  - Jest on podzielny.
-  - Jest przenośny.
-  - Nie wymaga pozwolenia.
+  - 3 biliony.
+  - 100 milionów.
+  - Nie ma żadnych ograniczeń.
 explanation: |
-  Bitcoin, ze względu na swoje właściwości, takie jak podzielność,
-  weryfikowalność, bezwarunkowość i możliwość transportu,
-  oferuje doskonały magazyn wartości. Ponadto, jako neutralna
-  waluta internetowa, stanowi dobry nośnik Exchange
-  który nie zna granic.
+  Całkowity Supply Bitcoin jest ograniczony do 21 milionów jednostek.
+  Jest to kluczowa cecha Bitcoin, która odróżnia go
+  od walut fiducjarnych, które mogą być drukowane w nieograniczonych
+  w nieograniczonych ilościach przez banki centralne.
 reviewed: true

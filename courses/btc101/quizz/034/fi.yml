@@ -1,9 +1,9 @@
-question: Mikä on kullan pääetu valuuttana?
-answer: Se on uskomattoman kestävä.
+question: Mikä on rahan painamisen seuraus?
+answer: Se johtaa inflaatioon, vähitellen köyhdyttäen väestöä.
 wrong_answers:
-  - Se on helposti jaettavissa tai kuljetettavissa pitkiä matkoja.
-  - Sen aitouden voi helposti varmistaa.
-  - Sitä ei säätele mikään hallitus.
+  - Se johtaa deflaatioon, vähitellen rikastuttaen väestöä.
+  - Se johtaa vakaaseen talouteen ilman inflaatiota tai deflaatiota.
+  - Se johtaa rahan määrän vähenemiseen.
 explanation: |
-  Vaikka kulta ei olekaan helposti jaettavissa tai kuljetettavissa pitkien matkojen yli, on se erittäin kestävä materiaali, mikä tekee siitä hyvän arvon säilyttäjän. Kultarahoja käytettiin valuuttana menneisyydessä, mutta ne eivät palvelisi samaa tarkoitusta tämän päivän digitaalisella aikakaudella.
+  Rahan painaminen, eli uuden rahan luominen keskuspankkien toimesta, johtaa inflaatioon. Tämä johtuu siitä, että rahan määrän lisääntyminen vähentää rahan ostovoimaa, mikä johtaa korkeampiin hintoihin ja säästöjen arvon alenemiseen.
 reviewed: true

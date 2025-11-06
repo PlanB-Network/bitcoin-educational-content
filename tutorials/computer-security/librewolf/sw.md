@@ -52,10 +52,10 @@ LibreWolf inalenga kuongeza ulinzi dhidi ya ufuatiliaji na alama za vidole huku 
 
 
 
-- Ondoa telemetry na ukusanyaji wa data** katika Firefox
-- Lemaza vitendaji ambavyo vinapingana na uhuru wa mtumiaji**, kama vile moduli za DRM zinazomilikiwa
-- Tumia mipangilio ya faragha/usalama** na viraka maalum tangu mwanzo
-- Maendeleo ya jamii huhakikisha uwazi na uhuru** kutoka kwa maslahi ya kibiashara
+- Ondoa telemetry na ukusanyaji wa **data** katika Firefox
+- Lemaza vitendaji ambavyo vinapingana na uhuru wa mtumiaji, kama vile moduli za DRM zinazomilikiwa
+- Tumia mipangilio ya faragha/usalama **na viraka maalum tangu mwanzo**
+- Maendeleo ya jamii huhakikisha uwazi na uhuru kutoka kwa maslahi ya kibiashara
 
 
 
@@ -75,7 +75,7 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-**LibreWolf asili huunganisha kiendelezi cha Asili cha uBlock, mojawapo ya vizuia matangazo na vifuatiliaji bora kwenye soko. Kwa chaguo-msingi, LibreWolf huchuja kwa ukali chochote ambacho kinaweza kukufuatilia mtandaoni (matangazo yanayoingilia kati, hati za ufuatiliaji, sarafu ya cryptocurrency Mining).
+**LibreWolf asili huunganisha kiendelezi cha Asili cha uBlock, mojawapo ya vizuia matangazo na vifuatiliaji bora kwenye soko. Kwa chaguo-msingi, LibreWolf huchuja kwa ukali chochote ambacho kinaweza kukufuatilia mtandaoni (matangazo yanayoingilia kati, hati za ufuatiliaji, sarafu ya cryptocurrency Mining).**
 
 
 
@@ -90,7 +90,7 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*Ukurasa wa majaribio wa EFF [Funga Nyimbo Zako](https://coveryourtracks.eff.org/) kwa kitufe cha TEST YOUR BRWSER. Ukurasa huu unatumika kutathmini ulinzi dhidi ya vifuatiliaji na alama za vidole
+*Ukurasa wa majaribio wa EFF* [Funga Nyimbo Zako](https://coveryourtracks.eff.org/) kwa kitufe cha TEST YOUR BROWSER. Ukurasa huu unatumika kutathmini ulinzi dhidi ya vifuatiliaji na alama za vidole
 
 
 
@@ -101,7 +101,7 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-**LibreWolf huwasha mipangilio madhubuti ya usalama kwa chaguomsingi. Ulinzi wa Ufuatiliaji Ulioboreshwa wa Firefox unasukumwa hadi kwenye Kiwango Kali ili kuzuia maelfu ya vifuatiliaji, vidakuzi vya watu wengine na maudhui hasidi. Pia huwasha utengaji wa tovuti na vidakuzi (*Jumla ya Ulinzi wa Vidakuzi*) kwa kugawanya data kwa kila kikoa, na huwekea vikwazo WebRTC (kuweka kikomo *wateja wa ICE* na kuelekeza kupitia seva mbadala wakati proksi iko) ili kupunguza hatari ya kuvuja kwa IP Address.
+**LibreWolf huwasha mipangilio madhubuti ya usalama kwa chaguomsingi. Ulinzi wa Ufuatiliaji Ulioboreshwa wa Firefox unasukumwa hadi kwenye Kiwango Kali ili kuzuia maelfu ya vifuatiliaji, vidakuzi vya watu wengine na maudhui hasidi. Pia huwasha utengaji wa tovuti na vidakuzi (*Jumla ya Ulinzi wa Vidakuzi*) kwa kugawanya data kwa kila kikoa, na huwekea vikwazo WebRTC (kuweka kikomo *wateja wa ICE* na kuelekeza kupitia seva mbadala wakati proksi iko) ili kupunguza hatari ya kuvuja kwa IP Address.**
 
 
 
@@ -119,37 +119,37 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-- Hakuna telemetry au miunganisho isiyotakikana:** LibreWolf haitumii data ya utumiaji, ikihakikisha kuheshimiwa kikamilifu kwa faragha yako.
+- **Hakuna telemetry au miunganisho isiyotakikana:** LibreWolf haitumii data ya utumiaji, ikihakikisha kuheshimiwa kikamilifu kwa faragha yako.
 
 
 
 
 
-- Chanzo huria na msingi wa jamii:** Mradi ni chanzo huria 100% na hudumishwa na watu wa kujitolea. Uhuru huu unahakikisha kuwa hakuna mtindo wa utangazaji utakaoathiri maendeleo.
+- **Chanzo huria na msingi wa jamii:** Mradi ni chanzo huria 100% na hudumishwa na watu wa kujitolea. Uhuru huu unahakikisha kuwa hakuna mtindo wa utangazaji utakaoathiri maendeleo.
 
 
 
 
 
-- Imesanidiwa awali kwa ajili ya faragha:** LibreWolf inakuokoa wakati wa thamani: hakuna haja ya kutumia saa nyingi kuimarisha mipangilio ya Firefox, kila kitu tayari kimefanywa.
+- **Imesanidiwa awali kwa ajili ya faragha:** LibreWolf inakuokoa wakati wa thamani: hakuna haja ya kutumia saa nyingi kuimarisha mipangilio ya Firefox, kila kitu tayari kimefanywa.
 
 
 
 
 
-- Kizuia matangazo/kifuatiliaji asili:** UBlock Origin imeunganishwa kama kawaida, kwa hivyo huhitaji kufanya lolote ili kujilinda dhidi ya matangazo na hitilafu.
+- Kizuia matangazo/kifuatiliaji asili: **UBlock Origin imeunganishwa kama kawaida, kwa hivyo huhitaji kufanya lolote ili kujilinda dhidi ya matangazo na hitilafu.**
 
 
 
 
 
-- Ulinzi bora dhidi ya uchapaji vidole:** Shukrani kwa RFP na mipangilio mingi ya faragha, LibreWolf inapunguza kwa kiasi kikubwa alama yako ya kipekee ya kidijitali kwenye wavuti.
+- **Ulinzi bora dhidi ya uchapaji vidole:** Shukrani kwa RFP na mipangilio mingi ya faragha, LibreWolf inapunguza kwa kiasi kikubwa alama yako ya kipekee ya kidijitali kwenye wavuti.
 
 
 
 
 
-- Utendaji ulioboreshwa na uzani mwepesi:** Kwa kuondoa telemetry na vipengele vingine visivyo muhimu, LibreWolf inaweza kuwa na kasi kidogo na njaa ya nguvu kidogo kuliko Firefox ya kawaida.
+- **Utendaji ulioboreshwa na uzani mwepesi:** Kwa kuondoa telemetry na vipengele vingine visivyo muhimu, LibreWolf inaweza kuwa na kasi kidogo na njaa ya nguvu kidogo kuliko Firefox ya kawaida.
 
 
 
@@ -159,31 +159,31 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-- Hakuna masasisho ya kiotomatiki yaliyojengewa ndani:** LibreWolf haijisasishi yenyewe. Ni juu yako kusakinisha matoleo mapya mara tu yanapotolewa, ili kuwa salama.
+- **Hakuna masasisho ya kiotomatiki yaliyojengewa ndani:** LibreWolf haijisasishi yenyewe. Ni juu yako kusakinisha matoleo mapya mara tu yanapotolewa, ili kuwa salama.
 
 
 
 
 
-- Kupunguza uoanifu na huduma fulani:** Kwa sababu ya mipangilio yake mikali sana, LibreWolf inaweza kukumbana na matatizo kwenye tovuti fulani. Mifumo ya utiririshaji ya Netflix na Disney+ haitafanya kazi, kwani LibreWolf huzima Widevine DRM kwa chaguomsingi.
+- **Kupunguza uoanifu na huduma fulani:** Kwa sababu ya mipangilio yake mikali sana, LibreWolf inaweza kukumbana na matatizo kwenye tovuti fulani. Mifumo ya utiririshaji ya Netflix na Disney+ haitafanya kazi, kwani LibreWolf huzima Widevine DRM kwa chaguomsingi.
 
 
 
 
 
-- Hakuna mtandao uliojengewa ndani usiojulikana:** Tofauti na Kivinjari cha Tor, LibreWolf haipitishi trafiki kupitia Tor au VPN peke yake. Iwapo unahitaji kutokujulikana kwa mtandao, utahitaji kusanidi proksi/VPN wewe mwenyewe.
+- Hakuna mtandao uliojengewa ndani usiojulikana: Tofauti na Kivinjari cha Tor, LibreWolf haipitishi trafiki kupitia Tor au VPN peke yake. Iwapo unahitaji kutokujulikana kwa mtandao, utahitaji kusanidi proksi/VPN wewe mwenyewe.
 
 
 
 
 
-- Vidakuzi na vipindi visivyodumu (chaguo-msingi):** Kwa sababu za usiri, LibreWolf hufuta vidakuzi, historia na data ya tovuti kila unapofunga kivinjari chako. Utahitaji kuingia kwenye akaunti zako tena kila wakati unapoingia.
+- **Vidakuzi na vipindi visivyodumu (chaguo-msingi):** Kwa sababu za usiri, LibreWolf hufuta vidakuzi, historia na data ya tovuti kila unapofunga kivinjari chako. Utahitaji kuingia kwenye akaunti zako tena kila wakati unapoingia.
 
 
 
 
 
-- Hakuna toleo la rununu au ulandanishi wa wingu:** LibreWolf inapatikana kwenye eneo-kazi pekee (Windows, Linux, macOS). Hakuna programu ya rununu, na kwa hivyo hakuna maingiliano ya akaunti au alamisho kupitia wingu.
+- **Hakuna toleo la rununu au ulandanishi wa wingu:** LibreWolf inapatikana kwenye eneo-kazi pekee (Windows, Linux, macOS). Hakuna programu ya rununu, na kwa hivyo hakuna maingiliano ya akaunti au alamisho kupitia wingu.
 
 
 
@@ -224,7 +224,7 @@ Ufungaji hutofautiana kulingana na OS yako:
 ### Kwenye Linux
 
 
-LibreWolf inatoa hujenga kwa usambazaji wengi. Kwenye Debian/Ubuntu na derivatives, hazina rasmi ya APT inapatikana. Vinginevyo, LibreWolf imechapishwa katika Flatpak kwenye Flathub :
+LibreWolf inatoa hujenga kwa usambazaji wengi. Kwenye Debian/Ubuntu na derivatives, hazina rasmi ya APT inapatikana. Vinginevyo, LibreWolf imechapishwa katika Flatpak kwenye Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Kwenye Windows
 
 
-Pakua kisakinishi (.exe) kutoka kwa tovuti rasmi au tumia :
+Pakua kisakinishi (.exe) kutoka kwa tovuti rasmi au tumia:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Unapoanzisha mara ya kwanza, utaona Firefox Interface inayojulikana, isipokuwa k
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*Ukurasa wa nyumbani wa LibreWolf na viendelezi na menyu. Mshale wa bluu kwenye kona ya juu kulia unaonyesha ikoni ya menyu (paa tatu za mlalo)
+**Ukurasa wa nyumbani wa LibreWolf na viendelezi na menyu.** Mshale wa bluu kwenye kona ya juu kulia unaonyesha ikoni ya menyu (paa tatu za mlalo)
 
 
 
@@ -325,8 +325,8 @@ Kama jambo la kanuni, LibreWolf inakataza uongezaji wa viendelezi visivyo vya la
 
 
 
-- Vyombo vya Akaunti Nyingi vya Firefox** (na Mozilla) kwa ajili ya kuvinjari kwa sehemu
-- Decentraleyes** au **LocalCDN** ili kuhudumia maktaba za kawaida ndani ya nchi
+- **Vyombo vya Akaunti Nyingi vya Firefox** (na Mozilla) kwa ajili ya kuvinjari kwa sehemu
+- **Decentraleyes** au **LocalCDN** ili kuhudumia maktaba za kawaida ndani ya nchi
 
 
 
@@ -402,7 +402,7 @@ LibreWolf ni sehemu ya "kisanduku cha zana" cha vivinjari vinavyolenga faragha:
 
 
 
-**Brave hutumia msimbo wa Chrome/Chromium na kuunganisha muundo wa biashara kupitia mpango wake wa hiari wa utangazaji. LibreWolf, kwa kuwa jumuiya ya Fork kwa Firefox, inahifadhi mfumo ikolojia usiolipishwa wa Mozilla na haina uhusiano na Google.
+**Brave hutumia msimbo wa Chrome/Chromium na kuunganisha muundo wa biashara kupitia mpango wake wa hiari wa utangazaji.** LibreWolf, kwa kuwa jumuiya ya Fork kwa Firefox, inahifadhi mfumo ikolojia usiolipishwa wa Mozilla na haina uhusiano na Google.
 
 
 

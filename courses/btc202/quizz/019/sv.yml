@@ -1,0 +1,9 @@
+question: Vilket programmeringsspråk är Bitcoin core skrivet i?
+answer: C++
+wrong_answers:
+  - Gå
+  - JavaScript
+  - Rust
+explanation: |
+  Bitcoin core är skrivet i C++ och underhålls av en stor open source-grupp.
+reviewed: true

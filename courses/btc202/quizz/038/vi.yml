@@ -1,0 +1,9 @@
+question: Tại sao ổ cứng HDD không được khuyến nghị cho nút Bitcoin?
+answer: Bởi vì nó làm chậm đáng kể bệnh IBD và việc sử dụng chung
+wrong_answers:
+  - Bởi vì nó không thể lưu trữ các tập tin Blockchain
+  - Bởi vì nó tiêu thụ quá ít năng lượng và có nguy cơ phát nổ
+  - Bởi vì nó không tương thích với Bitcoin core
+explanation: |
+  Đĩa cơ học hạn chế hiệu suất, kéo dài đáng kể tình trạng IBD và nhanh chóng bị mòn dưới tải trọng nút.
+reviewed: true

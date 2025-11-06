@@ -1,12 +1,11 @@
-question: Quel est le rôle d'un nœud Bitcoin dans le réseau Bitcoin ?
-answer: Il valide les nouveaux blocs et les transactions incluses.
+question: Quelle est la fonction principale des nœuds dans le réseau Bitcoin ?
+answer: Maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre les informations aux autres nœuds et faire respecter les règles du protocole Bitcoin.
 wrong_answers:
-  - Il crée de nouveaux Bitcoins et les place dans les blocs.
-  - Il régule le prix du Bitcoin.
-  - Il gère le réseau Bitcoin.
-explanation: |
-  Un nœud Bitcoin dans le réseau Bitcoin s'occupe de
-  la validation des nouveaux blocs et des transactions incluses. C'est
-  ce réseau de nœuds Bitcoin qui le rend véritablement
-  décentralisé.
+  - Maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre les informations au gouvernement et modifier les règles du protocole Bitcoin.
+  - Maintenir uniquement une copie de la blockchain Bitcoin.
+  - Transmettre uniquement les informations aux autres nœuds.
+explanation: >-
+  Les nœuds dans le réseau Bitcoin remplissent plusieurs fonctions cruciales, y compris
+  maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre
+  les informations aux autres nœuds et faire respecter les règles du protocole Bitcoin.
 reviewed: true

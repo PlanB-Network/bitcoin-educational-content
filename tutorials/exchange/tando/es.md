@@ -73,15 +73,15 @@ Tando te permite utilizar tus bitcoins para comprar cualquier cosa que M-Pesa pu
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Escanear para pagar** :
+- **Escanear para pagar**:
 
 
 
@@ -95,7 +95,7 @@ Escanear para pagar es una de las opciones de pago automático de la aplicación
 
 
 
-- Enviar dinero a Kenia** :
+- **Enviar dinero a Kenia**:
 
 
 
@@ -121,7 +121,7 @@ Pague la factura desde su Rayo Wallet y Tando la convertirá en chelines keniano
 
 
 
-- Pague sus facturas** :
+- **Pague sus facturas**:
 
 
 
@@ -135,7 +135,7 @@ Introduzca el número del Invoice que desea pagar y proceda a pagar el Invoice R
 
 
 
-- Compra de bienes** :
+- **Compra de bienes**:
 
 
 
@@ -159,4 +159,4 @@ Cada vez surgen más iniciativas como Tando en las comunidades africanas, descub
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

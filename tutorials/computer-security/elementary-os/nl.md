@@ -1,5 +1,5 @@
 ---
-name: Elementaire OS
+name: Elementary OS
 description: De ideale vervanging voor Windows en MacOS
 ---
 
@@ -11,7 +11,7 @@ Elementary OS is een op Ubuntu gebaseerd besturingssysteem, ontworpen om eenvoud
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Waarom kiezen voor Elementary OS
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Eenvoud en gebruiksgemak** : De grafische Interface van Elementary OS houdt het midden tussen die van MacO's en Windows. Deze vertrouwdheid maakt het makkelijk te gebruiken, zelfs voor onervaren gebruikers.
+- **Eenvoud en gebruiksgemak**: De grafische Interface van Elementary OS houdt het midden tussen die van MacO's en Windows. Deze vertrouwdheid maakt het makkelijk te gebruiken, zelfs voor onervaren gebruikers.
 
 
 
 
 
-- Beveiliging**: Net als de meeste Linux-distributies profiteert Elementary OS van een hoog beveiligingsniveau. Regelmatige updates, rechtenbeheer en de afwezigheid van veelvoorkomende virussen maken het een betrouwbaar systeem.
+- **Beveiliging**: Net als de meeste Linux-distributies profiteert Elementary OS van een hoog beveiligingsniveau. Regelmatige updates, rechtenbeheer en de afwezigheid van veelvoorkomende virussen maken het een betrouwbaar systeem.
 
 
 
 
 
-- Snelheid**: Elementary OS is een lichtgewicht distributie. Het heeft weinig bronnen nodig, waardoor het snel is en geschikt voor computers met bescheiden configuraties.
+- **Snelheid**: Elementary OS is een lichtgewicht distributie. Het heeft weinig bronnen nodig, waardoor het snel is en geschikt voor computers met bescheiden configuraties.
 
 
 
 
 
-- Gratis** : Het systeem is helemaal gratis. Als je het downloadt, kun je echter een donatie doen om de ontwikkelaars te steunen.
+- **Gratis**: Het systeem is helemaal gratis. Als je het downloadt, kun je echter een donatie doen om de ontwikkelaars te steunen.
 
 
 
 
 
-- Actieve gemeenschap** : De gemeenschap rond Elementary OS is divers en reageert snel. Als je tegen problemen aanloopt, kun je gemakkelijk hulp vinden op de forums of sociale netwerken.
+- **Actieve gemeenschap**: De gemeenschap rond Elementary OS is divers en reageert snel. Als je tegen problemen aanloopt, kun je gemakkelijk hulp vinden op de forums of sociale netwerken.
 
 
 
@@ -61,7 +61,7 @@ Controleer voordat u met de installatie begint of u over de volgende apparatuur 
 
 
 - Een **USB-sleutel** van minstens 12 GB
-- RAM** geheugen van minstens 4 GB
+- **RAM** geheugen van minstens 4 GB
 - Een **Hard schijf van 20 GB** of meer voor comfortabel gebruik
 
 
@@ -380,4 +380,4 @@ Elementary OS draait nu op je computer. De filosofie van eenvoud, lichtheid en e
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

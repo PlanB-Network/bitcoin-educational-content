@@ -125,19 +125,19 @@ För att lägga till en arbetare börjar du med att välja din blockmall. Detta 
 
 
 
-- CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
-- CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
-- OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
-- DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404``
+- **CORE**: `stratum+tcp://core.mine.ocean.xyz:3202`
+- **CORE+ANTISPAM**: `stratum+tcp://ordis.mine.ocean.xyz:3303`
+- **OCEAN**: `stratum+tcp://mine.ocean.xyz:3334`
+- **DATA-FREE**: `stratum+tcp://datafree.mine.ocean.xyz:3404`
 
 
 Därefter, för användarfältet, ange en Bitcoin Address som du äger. Här är listan över kompatibla Address-typer:
 
 
-- P2PKH** (Ursprunglig Address-typ. Börjar med "1")
-- P2SH** (Multisignatur eller P2SH-SegWit. Börjar med "3")
-- Bech32** (SegWit. Börjar med "bc".)
-- Bech32m** (Taproot. Börjar på "bc". Längre än Bech32.)
+- **P2PKH** (Ursprunglig Address-typ. Börjar med "1")
+- **P2SH** (Multisignatur eller P2SH-SegWit. Börjar med "3")
+- **Bech32** (SegWit. Börjar med "bc".)
+- **Bech32m** (Taproot. Börjar på "bc". Längre än Bech32.)
 
 
 Om du har flera gruvarbetare kan du ange samma Address för dem alla, så att deras Hash-priser kombineras och visas som en enda Miner. Du kan också skilja dem åt genom att lägga till ett distinkt namn för var och en. För att göra detta lägger du bara till ".workername" efter Bitcoin Address.
@@ -152,9 +152,9 @@ Om du väljer mallen **OCEAN**, din Bitcoin Address är `bc1q2ed8zxq8njqsznkp7gj
 
 
 
-- URL**: `stratum+tcp://mine.ocean.xyz:3334`
-- ANVÄNDARE**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
-- LÖSENORD**: `x`
+- **URL**: `stratum+tcp://mine.ocean.xyz:3334`
+- **ANVÄNDARE**: `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr`
+- **LÖSENORD**: `x`
 
 
 Några minuter efter att du har startat Mining kommer du att kunna se dina data på Ocean-webbplatsen genom att söka efter din Address.
@@ -163,9 +163,9 @@ Några minuter efter att du har startat Mining kommer du att kunna se dina data 
 ### Översikt över instrumentpanelen
 
 
-- Aktier i belöningsfönstret**: Dessa data anger antalet andelar, det arbete du har skickat till poolen i fönstret för de senaste 8 blocken som poolen har utvunnit.
-- Beräknade belöningar i Windows**: Uppskattning av antalet Sats som du kommer att tjäna med det arbete som redan utförts. Detta tar inte hänsyn till transaktionsavgifter, utan endast coinbase, de nya bitcoins som utfärdas av nätverket.
-- Beräknad intjäning nästa block**: Uppskattning av antalet Sats som tjänas in om ett block bryts nu. Kom ihåg att om detta värde är mindre än 1 048 576 Sats kommer du inte att få Sats direkt till din Address. De kommer att skickas till Ocean's Address tills dina intäkter överstiger detta tröskelvärde.
+- **Aktier i belöningsfönstret**: Dessa data anger antalet andelar, det arbete du har skickat till poolen i fönstret för de senaste 8 blocken som poolen har utvunnit.
+- **Beräknade belöningar i Windows**: Uppskattning av antalet Sats som du kommer att tjäna med det arbete som redan utförts. Detta tar inte hänsyn till transaktionsavgifter, utan endast coinbase, de nya bitcoins som utfärdas av nätverket.
+- **Beräknad intjäning nästa block**: Uppskattning av antalet Sats som tjänas in om ett block bryts nu. Kom ihåg att om detta värde är mindre än 1 048 576 Sats kommer du inte att få Sats direkt till din Address. De kommer att skickas till Ocean's Address tills dina intäkter överstiger detta tröskelvärde.
 
 
 Nedan visas en graf som visar din Hashrate-historik upp till 6 månader.

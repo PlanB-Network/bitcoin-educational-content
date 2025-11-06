@@ -1,0 +1,9 @@
+question: Koja notacija se koristi za umetanje IPv6 Address u URL?
+answer: IPv6 Address je obuhvaćen uglastim zagradama
+wrong_answers:
+  - IPv6 Address je u zagradama
+  - IPv6 Address je obuhvaćen navodnicima
+  - IPv6 Address je napisan sirovo
+explanation: |
+  U URL-u se uglaste zagrade koriste za razlikovanje IPv6 Address od porta, kako bi se izbegla bilo kakva nejasnoća.
+reviewed: false

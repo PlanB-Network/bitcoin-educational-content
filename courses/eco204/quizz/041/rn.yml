@@ -1,0 +1,15 @@
+question: Ni igiki gituma haba inflation nyinshi cane ku buryo uguhindura idini kudakora Address?
+answer: Ukwaguka kw’amahera Supply.
+wrong_answers:
+  - Igabanuka ry’amahera Supply.
+  - Ukwongerekana kw’abasaba ibintu n’ibikorwa.
+  - Igabanuka ry’abasaba ibintu n’ibikorwa.
+explanation: |
+  Imizi y’ugutera imbere kw’ibiciro ni ukwaguka kw’amahera Supply.
+  
+  Guhindura idini ni ingero isanzwe ifatwa na Leta mu bihe vy’ugutera imbere kw’ibiciro,
+  
+  ariko ntibitorera umuti iyo ngorane iri mu mutima. Ni uburyo gusa bwo guhindura izina ry'ifaranga
+  
+  kandi ukureho zero.’
+reviewed: false

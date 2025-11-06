@@ -1,0 +1,9 @@
+question: 어떤 배포판이 기본적으로 Cinnamon 데스크톱 환경을 사용하나요?
+answer: Linux Mint
+wrong_answers:
+  - 우분투
+  - Debian
+  - Fedora
+explanation: |
+  리눅스 민트 팀은 윈도우에 가까운 모던하고 클래식한 Interface을 제공하기 위해 시나몬을 개발했습니다.
+reviewed: false

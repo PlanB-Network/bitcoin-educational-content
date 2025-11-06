@@ -1,0 +1,9 @@
+question: Quale comando viene utilizzato per scansionare le porte aperte di un host e identificare i servizi accessibili?
+answer: nmap
+wrong_answers:
+  - scavare
+  - ettool
+  - ip vicino
+explanation: |
+  nmap rileva le porte aperte, i servizi esposti e talvolta il tipo di sistema operativo remoto.
+reviewed: false

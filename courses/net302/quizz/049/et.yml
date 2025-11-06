@@ -1,0 +1,9 @@
+question: Milline on MAC Address peamine funktsioon kohalikus võrgus?
+answer: Võrgustiku Interface unikaalne identifitseerimine
+wrong_answers:
+  - Domeeninime tõlkimine IP Address'ks
+  - IP Address dünaamiline määramine hostile
+  - Määrake oma internetiühenduse kiirus
+explanation: |
+  MAC Address on iga võrgu Interface unikaalne riistvara identifikaator, mis võimaldab seadmeid füüsiliselt eristada kohalikus võrgus.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Fitur TCP mana yang mengoptimalkan throughput dengan mengadaptasi jumlah segmen yang dikirim tanpa pemberitahuan langsung?
+answer: Jendela geser
+wrong_answers:
+  - Fragmentasi dinamis
+  - Pengalihan paket
+  - Perutean statis
+explanation: |
+  "Jendela geser" memungkinkan beberapa segmen dikirim secara berurutan, kemudian menggeser kisaran dengan setiap pengakuan untuk mengoptimalkan aliran.
+reviewed: false

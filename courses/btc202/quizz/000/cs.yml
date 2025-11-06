@@ -1,0 +1,9 @@
+question: Jak se jmenuje Bílá kniha Satoshi Nakamota publikovaná v roce 2008?
+answer: Bitcoin Elektronický peněžní systém Peer-to-Peer
+wrong_answers:
+  - Bitcoin Decentralizovaný systém digitálního zlata
+  - Bitcoin Budoucnost peněz
+  - Bitcoin Platební síť založená na Blockchain
+explanation: |
+  Satoshi Nakamotova bílá kniha Bitcoin A Peer-to-Peer Electronic Cash System byla zveřejněna v roce 2008.
+reviewed: true

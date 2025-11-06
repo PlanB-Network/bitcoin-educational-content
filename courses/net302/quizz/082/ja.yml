@@ -1,0 +1,9 @@
+question: 最近のLinuxディストリビューションでarpに代わる最新のツールは？
+answer: ip neigh
+wrong_answers:
+  - イフコンフィグ
+  - トレースルート
+  - ルート
+explanation: |
+  ip neighはiproute2スイートのもので、最近のLinuxでIP/MACの関連付けを管理するためにarpに取って代わる。
+reviewed: false

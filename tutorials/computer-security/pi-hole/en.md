@@ -41,13 +41,13 @@ Except that our computers don't understand human language, all they understand i
 So every time you enter the name of a website in your browser, or click on a link, your computer first asks a DNS server for the IP address corresponding to that name.
 
 
-**Pi-Hole will then inspect these requests (there are hundreds of them every day!) and automatically block those known to host advertisements or even malicious files
+**Pi-Hole will then inspect these requests (there are hundreds of them every day!) and automatically block those known to host advertisements or even malicious files**
 
 
 ## II. Installing Pi-Hole
 
 
-With a name like Pi-Hole, you might rightly assume that you need a Raspberry-Pi... But that's not quite true. **Pi-Hole can be installed on any Linux computer (Debian, Fedora, Rocky, Ubuntu, etc.)
+With a name like Pi-Hole, you might rightly assume that you need a Raspberry-Pi... But that's not quite true. **Pi-Hole can be installed on any Linux computer (Debian, Fedora, Rocky, Ubuntu, etc.)**
 
 
 On the other hand, you need to bear in mind that **this device will have to run 24 hours a day for a simple reason: no DNS, no Internet!** The Raspberry is therefore a good idea, since it consumes almost no energy.
@@ -64,7 +64,7 @@ curl -sSL https://install.pi-hole.net | bash
 > **Note**: under normal circumstances, it's not advisable to "hack" a script without first knowing what it does. If you're not sure, go to the page with a browser or download the content as a file.
 >
 
-> **Note: on minimal versions of Debian 11, Curl is not installed, so you need to install it manually with the **apt-get install curl** command before typing the above command.
+> **Note: on minimal versions of Debian 11, Curl is not installed, so you need to install it manually with the** `apt-get install curl` **command before typing the above command.**
 
 Once the script has run, a series of tests will be performed, and the installation itself will take care of itself:
 
@@ -95,7 +95,7 @@ Following this screen, you'll get a few information messages, and then you'll be
 DNS selection - Pi-Hole
 
 
-> **Note: if you're in a company, chances are your current DNS server is the Active Directory domain controller. But don't worry, you can later specify a conditional redirector for a domain of your choice. Typically, you'll be able to redirect any request concerning your local domain to your DNS server.
+> **Note: if you're in a company, chances are your current DNS server is the Active Directory domain controller. But don't worry, you can later specify a conditional redirector for a domain of your choice. Typically, you'll be able to redirect any request concerning your local domain to your DNS server.**
 
 You'll notice that some choices include a DNSSEC option. Basically, the DNS protocol isn't secure (it wasn't designed with this in mind at the time). DNSSEC solves this problem by adding a layer of security through encryption and signing of exchanges, as explained in the corresponding article: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -166,7 +166,7 @@ As there are a large number of possibilities, between the different operators' b
 Once this has been done, if any devices have been switched on before, they will have retained the old settings, so you'll need to restart the configuration request.
 
 
-On Windows workstations, with a command prompt :
+On Windows workstations, with a command prompt:
 
 
 ```
@@ -174,7 +174,7 @@ ipconfig /renew
 ```
 
 
-On a Linux workstation :
+On a Linux workstation:
 
 
 ```
@@ -193,7 +193,7 @@ ipconfig /all
 ```
 
 
-In the DNS field, you should have the address of your Pi-Hole, in my case 192.168.1.42 :
+In the DNS field, you should have the address of your Pi-Hole, in my case 192.168.1.42:
 
 
 ![Image](assets/fr/029.webp)
@@ -202,7 +202,7 @@ In the DNS field, you should have the address of your Pi-Hole, in my case 192.16
 ## IV. Using the Interface web Pi-Hole
 
 
-To facilitate administration, **Pi-Hole** benefits from a well-designed Interface web interface. User-friendly and accessible, it lets you :
+To facilitate administration, **Pi-Hole** benefits from a well-designed Interface web interface. User-friendly and accessible, it lets you:
 
 
 
@@ -219,7 +219,7 @@ For my part, I'm going to add a blocking list. As mentioned above, only one list
 To add it, first connect to the Interface admin: **http://<ip_du_PiHole>/admin**
 
 
-The administrator password has already been generated (see end-of-installation screenshot), so all you need to do is enter it to access Interface :
+The administrator password has already been generated (see end-of-installation screenshot), so all you need to do is enter it to access Interface:
 
 
 ![Image](assets/fr/030.webp)
@@ -246,7 +246,7 @@ We can see our first list "**StevenBlack**", to add ours, copy the link I gave y
 Adding a list in Pi-Hole
 
 
-All that remains is to click on "**Add**" to add it. To activate it, we need to perform an additional step to "warn" Pi-Hole to take over this list. To do this :
+All that remains is to click on "**Add**" to add it. To activate it, we need to perform an additional step to "warn" Pi-Hole to take over this list. To do this:
 
 
 

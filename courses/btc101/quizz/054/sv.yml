@@ -1,10 +1,11 @@
-question: Vad är den andra fasen av hyperinflationsfenomenet?
-answer: Valutakollaps och prishöjning.
+question: Vad heter evenemanget när belöningen för Mining halveras?
+answer: Halving
 wrong_answers:
-  - Förlust av självförtroende.
-  - Penningtryckandets onda cirkel.
-  - En ny valuta växer fram.
+  - Fördubbling
+  - Kvarsittning
+  - Trippel
 explanation: |
-  Den andra fasen av hyperinflation är valutakollaps &
-  prisökning, strax efter fasen med förlorat förtroende.
+  Händelsen då belöningen för Mining halveras kallas
+  Halving. Denna händelse ger den monetära utgivningskurvan en
+  trappliknande form.
 reviewed: true

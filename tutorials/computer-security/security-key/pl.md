@@ -14,7 +14,7 @@ W dzisiejszych czasach uwierzytelnianie dwuskładnikowe (2FA) stało się niezb�
 W innym poradniku wyjaśniłem, jak skonfigurować i korzystać z aplikacji TOTP 2FA:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Tutaj zobaczymy, jak używać fizycznego klucza bezpieczeństwa jako drugiego czynnika uwierzytelniania dla wszystkich kont.
 

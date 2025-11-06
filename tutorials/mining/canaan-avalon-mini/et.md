@@ -23,7 +23,7 @@ Neid seadmeid turustatakse kas **Avalon Nano 3S (140W)** puhul lisakütteseadmen
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Pange tähele, et hinnavahe traditsiooniliste samaväärse võimsusega kütteseadmetega ei võimalda teil enamasti rahalist kasumit teenida. Mining tegevusega genereeritud satšid ei kompenseeri kunagi seda hinnavahe, kui teil ei ole juurdepääsu tasuta (ülejäävale) või väga odavale elektrienergiale.
 
@@ -181,9 +181,9 @@ Lisateavet Mining pool-ga ühendamise kohta leiate nendest juhendmaterjalidest :
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Kokkuvõttes on meil vaja
 
@@ -358,4 +358,4 @@ Kui soovite rohkem teada saada, vaadake meie õpetust Avaloni väiksema versioon
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

@@ -1,8 +1,11 @@
-question: Koju akciju Bitkoin primorava kompanije, univerzitete, regulatore i pojedince da preduzmu?
-answer: Da se uzme u obzir.
+question: Kakva je priroda usvajanja Bitkoina kako je opisano u ovom kursu?
+answer: Viralno.
 wrong_answers:
-  - Da ignorišeš to.
-  - Da ga zabrani.
-  - Da se kriminalizuje.
-explanation: >-
+  - Polako i postojano.
+  - Brzo i nekontrolisano.
+  - Sporadično i nepredvidivo.
+explanation: |
+  Tekst kursa opisuje usvajanje Bitkoina kao viralno,
+  sugerišući da se širi brzo i široko sa jedne
+  osobe na drugu, slično kao virus, ali dobar.
 reviewed: true

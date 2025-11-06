@@ -1,10 +1,10 @@
-question: Que permet le Lightning Network ?
-answer: Des transactions Bitcoin instantanées et à faible coût.
+question: Quel est l'intervalle de temps moyen entre la création de deux blocs dans le protocole Bitcoin ?
+answer: 10 minutes
 wrong_answers:
-  - Des transactions Bitcoin instantanées et à coût élevé.
-  - Des transactions Bitcoin retardées et à faible coût.
-  - Des transactions Bitcoin retardées et à coût élevé.
-explanation: >-
-  Le Lightning Network permet des transactions Bitcoin instantanées et à faible coût,
-  résolvant ainsi le problème de scalabilité de Bitcoin.
+  - 5 minutes
+  - 15 minutes
+  - 20 minutes
+explanation: |
+  L'intervalle de temps moyen entre la création de deux
+  blocs dans le protocole Bitcoin est de 10 minutes.
 reviewed: true

@@ -10,4 +10,4 @@ Dette målet justeres hver 2016-blokk (omtrent annenhver uke), under en hendelse
 
 ![](../../dictionnaire/assets/34.webp)
 
-> ► *Svårighetsmålet kalles noen ganger også "vanskelighetsfaktoren" I forlengelsen av dette kan det refereres til med kodingen i blokkoverskriftene med betegnelsen "nBits"
+> ► *Svårighetsmålet kalles noen ganger også "vanskelighetsfaktoren"* I forlengelsen av dette kan det refereres til med kodingen i blokkoverskriftene med betegnelsen "nBits"

@@ -1,0 +1,9 @@
+question: Ni faili gani ambayo ilitumika kihistoria kwa azimio la ndani kabla ya ujio wa DNS ya kimataifa?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/suluhisha
+explanation: |
+  Kabla ya DNS kuenea, azimio la jina lilitegemea faili tuli /etc/hosts kwenye mifumo ya Unix/Linux.
+reviewed: false

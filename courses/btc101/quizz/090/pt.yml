@@ -1,13 +1,11 @@
-question: Qual é o uso recomendado de uma carteira móvel?
-answer: Armazenar despesas diárias.
+question: O que acontece se a sua chave privada for revelada a um terceiro?
+answer: O terceiro pode gastar seus bitcoins.
 wrong_answers:
-  - Armazenar economias de longo prazo.
-  - Armazenar economias de médio prazo.
-  - Armazenar grandes quantidades.
+  - O terceiro pode apenas visualizar seu histórico de transações.
+  - O terceiro pode alterar sua chave privada.
+  - O terceiro pode acessar suas informações pessoais.
 explanation: |
-  Uma carteira móvel é recomendada para despesas diárias porque
-  é fácil realizar transações com ela. No entanto, não é
-  recomendada para armazenar grandes quantidades ou para
-  economias de longo prazo porque é potencialmente vulnerável a
-  ameaças online.
+  Se sua chave privada for revelada a um terceiro, os
+  fundos associados não estão mais seguros, porque a chave
+  privada permite que eles acessem seus fundos.
 reviewed: true

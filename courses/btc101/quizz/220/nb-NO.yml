@@ -1,10 +1,10 @@
-question: Hva antyder teksten om tempoet for å lære om Bitcoin?
-answer: Det er komplisert å tilegne seg alt på en gang, så ta deg tid
+question: Hva kan tradisjonelle pengeoverføringstjenester som Western Union, sentralbanker, Visa og Mastercard gjøre hvis de ikke tar i bruk Lightning Network-teknologien?
+answer: De kan forsvinne.
 wrong_answers:
-  - Det er lett å lære alt på en gang
-  - Det er umulig å lære alt om Bitcoin
-  - Det er unødvendig å lære alt om Bitcoin
+  - De kan bli mer populære.
+  - De kan bli sikrere.
+  - De kan bli mer desentraliserte.
 explanation: >-
-  Teksten antyder at det er så mye å utforske med Bitcoin at
-  det er komplisert å tilegne seg alt på en gang, så man bør ta seg tid.
+  Tradisjonelle pengeoverføringstjenester som Western Union, sentralbanker,
+  Visa og Mastercard kan forsvinne hvis de ikke tar i bruk Lightning Network-teknologien.
 reviewed: false

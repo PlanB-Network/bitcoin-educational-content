@@ -1,0 +1,10 @@
+question: Ni ikihe kimwe mu bintu bijanye n’umutekano wo kuri Internet bisaba ko umuntu aguma akurikirana?
+answer: Ugutera imbere kw'iterabwoba
+wrong_answers:
+  - Isoko ry'ivy'ubutunzi
+  - Ikirere
+  - Amakuru
+explanation: |
+  Ico kigabane kivuga yuko ugutera imbere kw’ibintu bitera ubwoba .
+  mu mutekano wo kuri Internet bisaba ko umuntu aguma akurikirana.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel protokolu IPv5 (Stream Protocol, ST)?
+answer: Zajištění kvality služeb pro určité toky
+wrong_answers:
+  - Rozšíření kapacity adresování IP
+  - Zajištění zpětné kompatibility s protokolem IPv6
+  - Zmenšení velikosti síťových paketů TCP/IP
+explanation: |
+  Protokol IPv5 (ST) byl navržen tak, aby poskytoval kvalitu služby (QoS) pro multimediální toky, jako je VoIP, a to zaručením šířky pásma a priority.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Apa itu masalah skalabilitas Bitcoin?
-answer: Tantangan dalam mengimplementasikan sistem moneter yang mampu menyediakan jumlah transaksi per detik yang terus meningkat seiring dengan adopsinya.
+question: Bagaimana transaksi di Lightning Network diamankan?
+answer: Melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh penambang di Bitcoin.
 wrong_answers:
-  - Kesulitan dalam menambang Bitcoin baru.
-  - Volatilitas harga Bitcoin.
-  - Kurangnya regulasi untuk Bitcoin.
+  - Hanya melalui penggunaan kunci privat.
+  - Hanya melalui penggunaan kunci publik.
+  - Hanya melalui penggunaan kedua kunci privat dan publik.
 explanation: >-
-  Masalah skalabilitas merujuk pada tantangan dalam mengimplementasikan sistem
-  moneter yang mampu menyediakan jumlah transaksi per detik yang terus meningkat
-  seiring dengan adopsinya.
+  Transaksi di Lightning Network diamankan melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh penambang di Bitcoin.
 reviewed: false

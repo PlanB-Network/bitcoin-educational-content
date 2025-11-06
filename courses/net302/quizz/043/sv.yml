@@ -1,0 +1,9 @@
+question: Vilken programvara med öppen källkod används ofta som referens för DNS-servrar?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Bläckfisk
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) är den referensimplementation med öppen källkod som används av de flesta DNS-servrar världen över.
+reviewed: false

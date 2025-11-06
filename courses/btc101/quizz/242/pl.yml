@@ -1,8 +1,8 @@
-question: W jaki sposób Lightning Network może być potencjalnie wykorzystywany do wynajmu towarów?
-answer: Użytkownicy mogliby być rozliczani minutowo, a nawet sekundowo, za czas korzystania z towarów.
+question: Jaka jest jedna z potencjalnych korzyści wynikających z przyjęcia nowych technologii, takich jak Bitcoin?
+answer: Może to przynieść generate ogromne korzyści skali na całym świecie.
 wrong_answers:
-  - Użytkownicy mogliby być obciążani wysokimi opłatami za wypożyczanie towarów.
-  - Użytkownicy mogliby być obciążani na podstawie wartości towarów.
-  - Użytkownicy mogą być obciążani opłatami na podstawie stanu towarów.
+  - Może to doprowadzić do globalnego załamania gospodarczego.
+  - Może to spowodować spadek ludzkiej inteligencji.
+  - Może to doprowadzić do likwidacji wszystkich miejsc pracy.
 explanation: >-
 reviewed: true

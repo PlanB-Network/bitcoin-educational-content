@@ -1,0 +1,9 @@
+question: Ni kuki ari vyiza kugira CSV yoherezwa hanze y’ibikorwa vyose vya Bitcoin?
+answer: Iratanga inyandiko itomoye kandi itunganijwe y’ibintu vyose umuntu akora, ivyo bikaba bituma abacunga amafaranga boroherwa no kubishira muri raporo z’ivy’ubutunzi no mu gutanga imisoro.
+wrong_answers:
+  - Kubera ko amafaranga y’impapuro ari yo yonyene yemewe n’amategeko.
+  - Kuko kwohereza amakuru hanze bica vyuzuza umusoro wawe ata n’imwe isubirwamwo.
+  - Kuko amadosiye ya CSV akuraho ivy’ugukurikirana igiciro.
+explanation: |
+  Kugira inyandiko y’ubuhinga bwa none mu buryo bumwe bituma umuntu ashobora gukorana neza n’ubuhinga bwo kubara, bifasha kubungabunga inzira z’igenzura, kandi bikaba bishigikira raporo y’imisoro n’ivy’ukubahiriza amategeko ataco ihinduye.
+reviewed: false

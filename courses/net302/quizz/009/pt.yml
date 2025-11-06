@@ -1,0 +1,9 @@
+question: Que agência norte-americana esteve por detrás do projeto ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  A ARPA (Agência de Projectos de Investigação Avançada) iniciou a ARPANET, que lançou as bases para o desenvolvimento do protocolo TCP/IP. Em 1972, a agência passou a designar-se DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

@@ -1,12 +1,12 @@
-question: Quel est le rôle des mineurs dans le protocole Bitcoin ?
-answer: Ils sécurisent le réseau actuel et historique.
+question: Comment le protocole Bitcoin récompense-t-il le mineur qui trouve un hash valide pour le bloc suivant ?
+answer: Avec une récompense définie par les règles de consensus, et avec les frais de toutes les transactions incluses dans le bloc valide.
 wrong_answers:
-  - Ils régulent le prix du Bitcoin.
-  - Ils contrôlent l'offre de Bitcoin.
-  - Ils gèrent les transactions entre utilisateurs.
+  - Avec une quantité fixe de bitcoins non définie par les règles de consensus.
+  - Avec un pourcentage du total de l'offre de Bitcoin et les frais de toutes les transactions incluses dans les blocs précédents.
+  - Avec les frais de toutes les transactions incluses dans le bloc valide.
 explanation: |
-  Les mineurs dans le protocole Bitcoin sécurisent à la fois le réseau
-  actuel et historique. Ils ne régulent pas le prix du
-  Bitcoin, ne contrôlent pas son offre, ni ne gèrent les transactions
-  entre utilisateurs.
+  Le protocole Bitcoin récompense le mineur qui trouve un hash
+  valide pour le bloc suivant avec une récompense dont le montant est
+  défini par les règles de consensus, en plus des frais de
+  toutes les transactions incluses dans le bloc valide.
 reviewed: true

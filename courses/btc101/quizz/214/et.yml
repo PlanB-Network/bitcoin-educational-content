@@ -1,9 +1,11 @@
-question: Mida ennustas Milton Friedman 1999. aastal?
-answer: Usaldusväärse e-raha arengu
+question: Mis on Lightning Network?
+answer: Maksevõrk, mis kasutab Bitcoin'i protokolli, et võimaldada välkkiireid tehinguid.
 wrong_answers:
-  - Füüsilise raha kadumise
-  - Bitcoini tõusu
-  - Valitsuse kontrolli lõpu raha üle
+  - Uut tüüpi krüptoraha.
+  - Bitcoin'ist eraldiseisev plokiahela tehnoloogia.
+  - Meetod Bitcoin'i kaevandamiseks.
 explanation: >-
-  Milton Friedman, tuntud majandusteadlane, ennustas 1999. aastal, et varsti arendatakse välja usaldusväärne e-raha, meetod, mille abil saab internetis vahendite ülekandmist teostada A-lt B-le ilma, et A teaks B-d või B teaks A-d.
+  Lightning Network on maksevõrk, mis kasutab Bitcoin'i protokolli
+  kiirete tehingute võimaldamiseks. See ei ole eraldi krüptoraha ega meetod
+  Bitcoin'i kaevandamiseks.
 reviewed: false

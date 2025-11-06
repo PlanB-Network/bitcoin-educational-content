@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između TCP i UDP?
+answer: TCP je orijentisan na vezu, UDP nije
+wrong_answers:
+  - TCP radi samo na lokalnim mrežama, UDP na Internetu
+  - TCP uvek koristi enkripciju, UDP nikad ne koristi
+  - TCP upravlja IP fragmentacijom, UDP rukuje kompresijom
+explanation: |
+  TCP zahteva uspostavljanje i nadgledanje veze, dok UDP šalje pakete bez postavljanja ili kontrolisanja prethodne sesije.
+reviewed: false

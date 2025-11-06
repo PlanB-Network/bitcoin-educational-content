@@ -1,12 +1,11 @@
-question: Hva skjer i et 51% angrep på Bitcoin-nettverket?
-answer: En aktør besitter mer enn halvparten av hashraten og kan forsøke å modifisere blokkjeden.
+question: Hva er den viktigste kritikken mot det nåværende finanssystemet i forhold til miljøet?
+answer: Det oppmuntrer til overforbruk og gjeld
 wrong_answers:
-  - En aktør får kontroll over mer enn halvparten av bitcoinene i omløp.
-  - En aktør får kontroll over mer enn halvparten av nodene i Bitcoin-nettverket.
-  - En aktør får kontroll over mer enn halvparten av gruvebassengene i Bitcoin-nettverket.
+  - Det fremmer bruk av fossile brennstoffer
+  - Det investerer ikke i fornybar energi
+  - Det regulerer ikke produksjonen av varer
 explanation: >-
-  I et 51% angrep kan en aktør med mer enn halvparten av nettverkets hashrate
-  potensielt manipulere blokkjeden ved å skape en alternativ kjede av blokker.
-  Imidlertid ville et slikt angrep være ekstremt kostbart og usannsynlig å være lønnsomt,
-  noe som gjør det til et usannsynlig scenario.
+  Det nåværende finanssystemet kritiseres for å oppmuntre til overforbruk
+  og gjeld, noe som utgjør alvorlige miljøproblemer. Dette skyldes lett tilgang
+  på kreditt, pengeutstedelse av banker, og bruk av brøkreservebankvirksomhet.
 reviewed: false

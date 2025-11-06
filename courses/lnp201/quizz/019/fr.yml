@@ -6,4 +6,4 @@ wrong_answers:
   - Que les frais soient partagés entre les deux participants
 explanation: |
   Les transactions d'engagement signées garantissent que chaque participant peut récupérer ses fonds en publiant la dernière version en cas de fermeture du canal.
-reviewed: false
+reviewed: true 

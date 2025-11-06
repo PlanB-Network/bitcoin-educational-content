@@ -1,0 +1,9 @@
+question: Ni kubera iki ari vyiza kwandika ikete ry’iragi n’irangi ku mpapuro?
+answer: Kugira ngo twirinde ingorane zijanye n'inyandiko za digitale zishobora guhungabanywa
+wrong_answers:
+  - Kugira ngo ugabanye amahera yo gucapura
+  - Kugira ngo uronke umukono wemewe n'amategeko
+  - Kugira ngo wongere agaciro k'inyandiko
+explanation: |
+  Ikete ryanditswe n’ukuboko ntirishobora guterwa cane n’ibitero vyo kuri Internet kandi rituma amabwirizwa aguma ari ibanga.
+reviewed: false

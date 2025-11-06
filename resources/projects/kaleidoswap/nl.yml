@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswap is een gedecentraliseerd handelsprotocol dat atomaire, niet-custodiale swaps van activa op de Lightning Network mogelijk maakt. Gebouwd bovenop de RGB Lightning Node, stelt Kaleidoswap gebruikers in staat om Bitcoin en RGB tokens op een Trustless manier te verhandelen, zonder tussenpersonen of gecentraliseerde bewaring.
+  
+  Kaleidoswap is uitgebracht als een open-source desktopapplicatie en ondersteunt momenteel multi-asset handel in een Testnet omgeving. Het biedt een gebruiksvriendelijke Interface om te communiceren met Lightning-native activa, RGB kanalen en liquiditeitsaanbieders (LSP's). Het is ontworpen om soevereine handelaren en ontwikkelaars een volledig peer-to-peer, programmeerbare financiële Layer op Bitcoin te geven.

@@ -1,11 +1,11 @@
-question: Comment le Bitcoin peut-il potentiellement aider à la transition écologique ?
-answer: Il favorise l'utilisation d'énergies vertes.
+question: Quelle est une manière d'atténuer la volatilité du Bitcoin ?
+answer: Couvertures financières (stablecoins).
 wrong_answers:
-  - Il réduit la production de biens.
-  - Il régule la consommation de ressources.
-  - Il limite l'émission uniquement de gaz à effet de serre.
+  - Investir tout votre argent dans le Bitcoin.
+  - Ignorer les tendances du marché.
+  - Acheter plus de bitcoin lorsque le prix baisse.
 explanation: >-
-  Le Bitcoin favorise l'utilisation d'énergies vertes, ce qui peut potentiellement aider
-  à la transition écologique. Par exemple, les flammes dans les puits de pétrole, qui brûlent
-  le méthane pour diminuer la pollution, peuvent être éteintes par les mineurs de Bitcoin.
+  La volatilité du Bitcoin peut être atténuée par plusieurs solutions telles
+  que les couvertures financières (stablecoins), une forte croyance à long terme (hodling), ou simplement
+  ne pas mettre 100% de son argent dans le Bitcoin sans rien comprendre.
 reviewed: true

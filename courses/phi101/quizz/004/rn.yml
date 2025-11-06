@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe ry’ishimikiro riri hagati ya filozofiya y’umwidegemvyo n’iy’ububasha?
+answer: Ibindi bisubizo vyose
+wrong_answers:
+  - Filozofiya y'umwidegemvyo ikunda umuntu ku giti ciwe, mu gihe filozofiya y'ububasha ikunda ikibano
+  - Filozofiya y’umwidegemvyo iha agaciro umutungo w’umuntu ku giti ciwe, mu gihe filozofiya y’ububasha iha agaciro inyungu rusangi .
+  - Filozofiya y'umwidegemvyo ishingiye ku mategeko kamere, mu gihe filozofiya y'ububasha ishingiye ku mategeko meza
+explanation: |
+  Itandukaniro ry’ishimikiro riri mu kuba filozofiya y’umwidegemvyo ishimika ku muntu ku giti ciwe n’uburenganzira bwiwe, mu gihe filozofiya y’ubutegetsi yibanda ku mibumbe y’imibano n’iya politike, kenshi bikaba bituma umuntu yigenga n’itunga ryiwe bwite.
+reviewed: true

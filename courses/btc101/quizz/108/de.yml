@@ -1,11 +1,11 @@
-question: Was ist der Zweck eines Bitcoin-Wallets?
-answer: Um private Schlüssel zu speichern, um Bitcoins zu transferieren.
+question: Wer war die erste Person, die dem Bitcoin-Netzwerk nach Satoshi Nakamoto beigetreten ist?
+answer: Hal Finney.
 wrong_answers:
-  - Um Geräteressourcen zum Minen von Bitcoins zu nutzen.
-  - Um Bitcoins über den öffentlichen Schlüssel zu kaufen.
-  - Um Bitcoins auf einem Gerät zu speichern.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Bitcoin-Wallets sind eine Art von Software, die dazu verwendet wird,
-  die privaten Schlüssel zu speichern, die es Ihnen ermöglichen, Ihre
-  Bitcoins zu transferieren.
+  Hal Finney war die erste Person, die dem Bitcoin-Netzwerk
+  nach Satoshi Nakamoto selbst beigetreten ist. Er twitterte sogar Running
+  Bitcoin, um den Anlass zu markieren.
 reviewed: true

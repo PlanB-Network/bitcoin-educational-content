@@ -1,0 +1,9 @@
+question: Ni igiki ca mbere ukwiye gukora kugira ngo ushobore gukoresha mudasobwa yawe bwite?
+answer: Gushiraho ijambobanga rikomeye
+wrong_answers:
+  - Gushiramwo umugera
+  - Gutunganya uruhome rw'umuriro rwa UFW
+  - Gushoboza ububiko bwa disiki
+explanation: |
+  Ijambobanga ry’ikiganiro ni ryo nzitizi ya mbere y’umutekano yo kubuza umuntu kwinjira mu mashine yawe ata wemerewe, imbere y’izindi ngingo z’inyongera.
+reviewed: false

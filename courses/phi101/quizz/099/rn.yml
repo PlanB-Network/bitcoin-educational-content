@@ -1,0 +1,9 @@
+question: Ni igiki gikenewe kugira umuntu yidegemvye vy’ukuri nk’uko Marx abivuga?
+answer: Gushika ku mpinduka y’ubutunzi n’imibano ikuraho ubu kapitalizimu.
+wrong_answers:
+  - Gushinga igihugu kitagira aho kigarukira kandi kitagira aho kigarukira.
+  - Gukuraho idini n’ibinyoma vyaryo.
+  - Ivyo gusenyuka kw’i McDonald’s.
+explanation: |
+  Ku bwa Marx, ukwidegemvya nyakuri gusaba uguhindura bimwe bikomeye imiterere y’ubutunzi n’imibano biciye mu mpinduka, gutyo hakarangizwa ubusuma bw’abanyagihugu, hagashingwa igihugu kitagira umugwi.
+reviewed: true

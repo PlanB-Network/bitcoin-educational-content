@@ -1,0 +1,9 @@
+question: Mitä protokollaa ping-komento käyttää verkkoyhteyden testaamiseen?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Ping-komento käyttää ICMP-protokollaa kaikupyyntöjen lähettämiseen ja verkon viiveen mittaamiseen.
+reviewed: false

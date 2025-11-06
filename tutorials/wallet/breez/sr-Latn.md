@@ -51,7 +51,7 @@ Zatim aktivirajte opciju **Encrypt Backup**: ova opcija će vam prikazati ključ
 
 Sledite uputstva za potvrdu vaše sigurnosne kopije i povežite vaš nalog za udaljeno čuvanje sa Breez novčanikom.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **VAŽNO**: Da biste dodatno osigurali vaš Breez novčanik, možete postaviti PIN kod koji će biti potreban za pristup novčaniku.
 

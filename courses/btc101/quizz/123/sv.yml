@@ -1,11 +1,8 @@
-question: Vad är blocknumret för den första Bitcoin-transaktionen?
-answer: Block 170.
+question: Varför är antalet bekräftelser i en Bitcoin-transaktion viktigt?
+answer: Ju fler bekräftelser en transaktion har, desto mer oföränderlig blir den.
 wrong_answers:
-  - Block 1.
-  - Block 17.
-  - Block 1700.
-explanation: |
-  Den första Bitcoin-transaktionen, som var en transaktion på
-  10 BTC mellan Satoshi Nakamoto och Hal Finney, registreras
-  i block 170.
+  - Ju fler bekräftelser en transaktion har, desto mer värdefull blir den.
+  - Ju fler bekräftelser en transaktion har, desto snabbare behandlas den.
+  - Ju fler bekräftelser en transaktion har, desto osäkrare är den.
+explanation: >-
 reviewed: true

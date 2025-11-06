@@ -1,5 +1,5 @@
 ---
-name: Velocidad Wallet
+name: Speed Wallet
 description: Paga y Exchange en bitcoins y USDT al instante
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ En este tutorial, te guiaremos a través de cada uno de estos aspectos para que 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Primeros pasos con Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet requiere la creación de una cuenta de usuario. Puede crear una des
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Una vez creada su cuenta, le recomendamos que configure un sistema de doble aute
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Para ello, vaya a la configuración de la aplicación y active la doble autenticación y la verificación biométrica.
 
@@ -143,7 +143,7 @@ En la página de inicio de **Wallet**, encontrará :
 
 
 
-- Recepción de pagos en Speed Wallet :**
+- Recepción de pagos en Speed Wallet:
 
 
 
@@ -161,7 +161,7 @@ También puede utilizar simplemente su Address de Lightning cuando desee dar al 
 
 
 
-- Enviar bitcoins con Speed Wallet** :
+- Enviar bitcoins con **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Las opciones **Comprar** y **Cambiar** te permiten Exchange bitcoins por las otr
 
 
 
-- Compre Bitcoin con su tarjeta de crédito**: Speed Wallet facilita la adquisición de Bitcoin a partir de las monedas fiat que utilizas a diario. Incorpora un agregador de pagos que te permite pagar bitcoins con tu tarjeta de crédito.
+- **Compre Bitcoin con su tarjeta de crédito**: Speed Wallet facilita la adquisición de Bitcoin a partir de las monedas fiat que utilizas a diario. Incorpora un agregador de pagos que te permite pagar bitcoins con tu tarjeta de crédito.
 
 
 
@@ -201,13 +201,13 @@ Las opciones **Comprar** y **Cambiar** te permiten Exchange bitcoins por las otr
 
 
 
-- Compra Bitcoin de otras cryptocurrencies**: Puede Exchange su USDT, USDC para bitcoins en su Wallet y viceversa. A través de esta opción, Speed Wallet simplifica el proceso de compra y venta de Bitcoin sin referirse a plataformas externas de Exchange. Así usted puede negociar para tan poco como 20.000 satoshis, alrededor $20 en la tarifa actual, sin salir de su Wallet de la velocidad.
+- Compra Bitcoin de otras cryptocurrencies: Puede Exchange su USDT, USDC para bitcoins en su Wallet y viceversa. A través de esta opción, **Speed Wallet** simplifica el proceso de compra y venta de Bitcoin sin referirse a plataformas externas de Exchange. Así usted puede negociar para tan poco como 20.000 satoshis, alrededor $20 en la tarifa actual, sin salir de su Wallet de la velocidad.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Consulte nuestro tutorial sobre cómo empezar a utilizar Bitrefill a continuaci�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Gana premios
 
@@ -327,7 +327,7 @@ En la opción **Configuración** de la página **Wallet**, la sección **Mini Ap
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet no es sólo para móviles
 
@@ -375,25 +375,25 @@ Centradas esencialmente en los pagos, encontrará las siguientes opciones:
 
 
 
-- Pagos en línea**: Con esta opción, puede aceptar Bitcoin como medio de pago para sus productos digitales, a través de enlaces de pago, facturación y suscripciones.
+- **Pagos en línea**: Con esta opción, puede aceptar Bitcoin como medio de pago para sus productos digitales, a través de enlaces de pago, facturación y suscripciones.
 
 
 
 
 
-- Pagos in situ**: Para cobrar los pagos en tu tienda.
+- **Pagos in situ**: Para cobrar los pagos en tu tienda.
 
 
 
 
 
-- Pagos instantáneos**: Una opción que le permite gestionar reembolsos, reintegros, gastos y nóminas de empleados directamente desde Speed Business Interface.
+- **Pagos instantáneos**: Una opción que le permite gestionar reembolsos, reintegros, gastos y nóminas de empleados directamente desde Speed Business Interface.
 
 
 
 
 
-- Pagos a plataformas**: Conecte su cuenta Speed Business a las herramientas externas que utiliza para realizar transferencias y pagos a estas plataformas.
+- **Pagos a plataformas**: Conecte su cuenta Speed Business a las herramientas externas que utiliza para realizar transferencias y pagos a estas plataformas.
 
 
 
@@ -401,4 +401,4 @@ Has llegado al final de nuestro tutorial de Speed Wallet. Si usted encontró est
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

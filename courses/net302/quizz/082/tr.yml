@@ -1,0 +1,9 @@
+question: Son Linux dağıtımlarında arp'nin yerini hangi modern araç alıyor?
+answer: ip komşu
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - rota
+explanation: |
+  iproute2 paketinden ip neigh, modern Linux'ta IP/MAC ilişkilerini yönetmek için arp'nin yerini alır.
+reviewed: false

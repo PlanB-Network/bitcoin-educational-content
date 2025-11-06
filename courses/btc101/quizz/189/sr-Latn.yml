@@ -1,8 +1,8 @@
-question: kako Bitkoin rešava problem Vizantijskih generala?
-answer: Kroz korišćenje Blockchain zasnovanog na Proof of Work sa plutajućom težinom.
+question: Šta je Swiss Bitcoin Pay?
+answer: Rešenje za amatere trgovce da prihvate Bitkoin.
 wrong_answers:
-  - Kroz korišćenje digitalnih potpisa.
-  - Kroz upotrebu javnog registra.
-  - Kroz korišćenje algoritma Dokaza o Ulogu.
+  - Švajcarska banka koja prihvata Bitkoin.
+  - Bitcoin menjačnica iz Švajcarske.
+  - Kompanija za rudarenje koja posluje u Švajcarskoj.
 explanation: >-
 reviewed: true

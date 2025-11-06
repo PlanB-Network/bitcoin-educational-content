@@ -1,5 +1,5 @@
 ---
-name: Zana za Takwimu za Whirlpool - Anonsets
+name: wst-anonsets
 description: Kuelewa dhana ya anoset na jinsi ya kuihesabu na WST
 ---
 ![cover](assets/cover.webp)
@@ -26,7 +26,7 @@ Katika somo hili, tutajifunza dhana ya anonsets, viashiria vinavyotuwezesha kuka
 **CoinJoin ni mbinu inayovunja ufuatiliaji wa bitcoins kwenye Blockchain**. Inategemea shughuli ya ushirikiano na muundo maalum wa jina moja: shughuli ya CoinJoin.
 
 
-Shughuli za CoinJoin huongeza faragha ya watumiaji wa Bitcoin kwa kutatiza uchanganuzi wa msururu kwa waangalizi wa nje. Muundo wao unaruhusu kuunganisha sarafu nyingi kutoka kwa watumiaji tofauti katika shughuli moja, hivyo basi kuficha njia na kufanya iwe vigumu kubainisha viungo kati ya anwani za kuingiza na kutoa.
+Miamala ya CoinJoin huongeza faragha ya watumiaji wa Bitcoin kwa kutatiza uchanganuzi wa msururu kwa waangalizi wa nje. Muundo wao unaruhusu kuunganisha sarafu nyingi kutoka kwa watumiaji tofauti katika shughuli moja, hivyo basi kuficha njia na kufanya iwe vigumu kubainisha viungo kati ya anwani za kuingiza na kutoa.
 
 
 Kanuni ya CoinJoin inategemea mbinu ya ushirikiano: watumiaji kadhaa ambao wangependa kuchanganya bitcoins zao huweka kiasi sawa kama pembejeo za muamala sawa. Kiasi hiki kisha kusambazwa upya katika matokeo ya thamani sawa. Mwishoni mwa muamala, inakuwa vigumu kuhusisha pato mahususi na mtumiaji fulani. Hakuna kiungo cha moja kwa moja kilichopo kati ya pembejeo na matokeo, na hivyo kuvunja uhusiano kati ya watumiaji na UTXO yao, pamoja na historia ya kila sarafu.
@@ -35,12 +35,12 @@ Kanuni ya CoinJoin inategemea mbinu ya ushirikiano: watumiaji kadhaa ambao wange
 ![coinjoin](assets/notext/1.webp)
 
 
-Mfano wa shughuli ya CoinJoin:
+Mfano wa muamala wa CoinJoin:
 
 [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://GW -15.space/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
 
-Ili kutekeleza CoinJoin huku ukihakikisha kwamba kila mtumiaji anaendelea kudhibiti fedha zake wakati wote, mchakato huanza na ujenzi wa shughuli na mratibu, ambaye kisha anaipeleka kwa kila mshiriki. Kila mtumiaji basi hutia saini muamala baada ya kuthibitisha kuwa inamfaa. Saini zote zilizokusanywa hatimaye zimeunganishwa kwenye shughuli. Iwapo jaribio la kubadilisha fedha litafanywa na mtumiaji au mratibu, kwa kurekebisha matokeo ya muamala wa CoinJoin, sahihi zitathibitisha kuwa si sahihi, na hivyo kusababisha kukataliwa kwa shughuli hiyo na nodi.
+Ili kutekeleza CoinJoin huku ukihakikisha kila mtumiaji anabaki na udhibiti wa fedha zake wakati wote, mchakato huanza na kuundwa kwa muamala na mratibu, ambaye kisha huusambaza kwa kila mshiriki. Kila mtumiaji hutia saini muamala baada ya kuthibitisha kuwa unamfaa. Hatimaye, saini zote zilizokusanywa huunganishwa kwenye muamala. Iwapo jaribio la kubadilisha fedha litafanywa na mtumiaji au mratibu kwa kurekebisha matokeo ya muamala wa CoinJoin, saini zitathibitisha kutokuwa sahihi, na hivyo muamala huo utakatalia na nodes.
 
 
 Kuna utekelezaji kadhaa wa CoinJoin, kama vile Whirlpool, JoinMarket, au Wabisabi, kila moja ikilenga kudhibiti uratibu kati ya washiriki na kuongeza ufanisi wa miamala ya CoinJoin.
@@ -66,6 +66,7 @@ Kinyume chake, mchambuzi anayejua UTXO yako wakati wa kuondoka kwa mizunguko ya 
 ![coinjoin](assets/en/3.webp)
 
 
+
 Ili kutathmini ugumu wa mchambuzi kuunganisha yaliyopita na ya sasa na kinyume chake, ni muhimu kubainisha ukubwa wa vikundi ambamo sarafu yako imefichwa. Hatua hii inatuambia idadi ya uchanganuzi kuwa na uwezekano sawa. Kwa hivyo, ikiwa uchanganuzi sahihi umezama kati ya uchanganuzi mwingine 3 wa uwezekano sawa, kiwango chako cha ufichaji ni cha chini sana. Kwa upande mwingine, ikiwa uchanganuzi sahihi uko ndani ya seti ya uchanganuzi 20,000 zote zinazowezekana kwa usawa, sarafu yako imefichwa vizuri sana.
 
 
@@ -74,7 +75,7 @@ Na kwa usahihi, saizi ya vikundi hivi inawakilisha viashiria vinavyoitwa "anonse
 
 ## Kuelewa anonsets
 
-Anonsets hutumika kama viashirio vya kutathmini kiwango cha faragha cha UTXO fulani. Hasa zaidi, wanapima idadi ya UTXO zisizoweza kutofautishwa ndani ya seti inayojumuisha sarafu iliyosomwa. Mahitaji ya seti ya UTXO yenye homogeneous inamaanisha kuwa anonsets kawaida huhesabiwa kwa mizunguko ya CoinJoin. Utumiaji wa viashiria hivi ni muhimu sana kwa miunganisho ya Whirlpool kwa sababu ya usawa wao.
+Anonsets hutumika kama viashiria vya kupima kiwango cha faragha cha UTXO fulani. Kwa usahihi zaidi, hupima idadi ya UTXO zisizoweza kutofautishwa ndani ya seti inayojumuisha sarafu inayochunguzwa. Sharti la kuwa na seti ya UTXO zenye usawa linafanya anonsets kwa kawaida kuhesabiwa kwenye mizunguko ya CoinJoin. Matumizi ya viashiria hivi ni muhimu sana kwa miunganisho ya Whirlpool kutokana na usawa wao.
 
 
 Anonsets huruhusu, inapofaa, kuhukumu ubora wa coinjoins. Ukubwa mkubwa wa anoset unamaanisha kiwango cha kuongezeka kwa kutokujulikana, kwani inakuwa vigumu kutofautisha UTXO maalum ndani ya kuweka.
@@ -83,10 +84,10 @@ Anonsets huruhusu, inapofaa, kuhukumu ubora wa coinjoins. Ukubwa mkubwa wa anose
 Kuna aina mbili za anonsets:
 
 
-- Seti inayotarajiwa ya kutokujulikana;**
-- Mtazamo wa kutokujulikana umewekwa.**
+- **Seti inayotarajiwa ya kutokujulikana;**
+- **Mtazamo wa kutokujulikana umewekwa.**
 
-Kiashiria cha kwanza kinaonyesha ukubwa wa kikundi kati ya ambayo UTXO iliyojifunza imefichwa mwishoni mwa mzunguko, kujua UTXO kwenye kuingia, yaani, idadi ya sarafu zisizojulikana zilizopo ndani ya kikundi hiki. Kiashiria hiki kinaruhusu kupima upinzani wa usiri wa sarafu dhidi ya uchambuzi kutoka zamani hadi sasa (kuingia kwa kuondoka). Kwa Kiingereza, jina la kiashirio hiki ni "*forward anonse*", au "*vipimo vya kuangalia mbele*".
+Kiashiria cha kwanza kinaonyesha ukubwa wa kikundi ambamo UTXO iliyochunguzwa imefichwa mwishoni mwa mzunguko, kwa kuzingatia UTXO ya kuingia, yaani idadi ya sarafu zisizoweza kutofautishwa zilizopo ndani ya kikundi hicho. Kiashiria hiki husaidia kupima uimara wa faragha ya sarafu dhidi ya uchambuzi kutoka zamani kwenda sasa (entry → exit). Kwa Kiingereza, jina la kiashirio hiki ni "forward anonset", au "forward-looking metric".
 
 ![coinjoin](assets/en/4.webp)
 
@@ -100,13 +101,13 @@ Kwa mfano, ikiwa muamala wako ulishiriki katika mzunguko wake wa kwanza wa CoinJ
 ![coinjoin](assets/en/5.webp)
 
 
-Kiashiria cha pili kinaonyesha idadi ya vyanzo vinavyowezekana kwa sarafu fulani, kujua UTXO mwishoni mwa mzunguko. Kiashiria hiki kinapima upinzani wa usiri wa sarafu dhidi ya uchambuzi kutoka sasa hadi uliopita (kutoka hadi kuingia), yaani, jinsi ilivyo vigumu kwa mchambuzi kufuatilia asili ya sarafu yako, kabla ya mizunguko ya CoinJoin. Kwa Kiingereza, jina la kiashirio hiki ni "*backward anonse*", au "*metrics zinazoangalia nyuma*".
+Kiashiria cha pili kinaonyesha idadi ya vyanzo vinavyowezekana kwa sarafu fulani, kwa kuzingatia UTXO iliyopo mwishoni mwa mzunguko. Kiashiria hiki hupima uimara wa faragha ya sarafu dhidi ya uchambuzi kutoka sasa kurudi nyuma (exit → entry), yaani jinsi ilivyo vigumu kwa mchambuzi kufuatilia asili ya sarafu yako kabla ya mizunguko ya CoinJoin. Kwa Kiingereza, jina la kiashirio hiki ni "backward anonset", au "backward-looking metrics".
 
 
 ![coinjoin](assets/en/6.webp)
 
 
-Kwa kujua UTXO yako wakati wa kuondoka kwa mizunguko, uwekaji upyaji wa mipangilio ya nyuma huamua idadi ya miamala ya Tx0 inayoweza kujumuisha kuingia kwako kwenye mizunguko ya CoinJoin. Katika mchoro hapa chini, hii inalingana na jumla ya Bubbles zote za machungwa.
+Kwa kujua UTXO yako wakati wa kutoka kwenye mzunguko, backward mapping huamua idadi ya miamala ya Tx0 inayoweza kuwa na kuingia kwako kwenye mizunguko ya CoinJoin. Katika mchoro hapa chini, hii inalingana na jumla ya bubbles zote za rangi ya machungwa.
 
 
 ![coinjoin](assets/en/7.webp)
@@ -244,12 +245,12 @@ download 0001
 Nambari za madhehebu kwenye WST ni kama ifuatavyo:
 
 
-- Dimbwi la bitcoins 0.5: `05`
-- Dimbwi la bitcoins 0.05: `005`
-- Dimbwi la bitcoins 0.01: `001`
-- Dimbwi la bitcoins 0.001: `0001`
+- Pool ya bitcoins 0.5: `05`
+- Pool ya bitcoins 0.05: `005`
+- Pool ya bitcoins 0.01: `001`
+- Pool ya bitcoins 0.001: `0001`
 
-Mara baada ya data kupakuliwa, pakia. Kwa mfano, ikiwa niko kwenye dimbwi la `100,000 Sats`, amri ni:
+Mara baada ya data kupakuliwa, pakia. Kwa mfano, ikiwa niko kwenye Pool ya `100,000 Sats`, amri ni:
 
 ```plaintext
 load 0001
@@ -272,7 +273,7 @@ score TXID
 **Tahadhari:** chaguo la txid la kutumia hutofautiana kulingana na urejeshi unaotaka kukokotoa. Ili kutathmini uwezekano wa kutoweka kwa sarafu, ni muhimu kuingiza, kupitia amri ya `alama`, txid inayolingana na CoinJoin yake ya kwanza, ambayo ni mchanganyiko wa awali unaofanywa na UTXO hii. Kwa upande mwingine, ili kuamua anoset ya nyuma, lazima uweke txid ya CoinJoin ya mwisho iliyofanywa. Kwa muhtasari, anoset tarajiwa huhesabiwa kutoka kwa txid ya mchanganyiko wa kwanza, wakati anoset ya kurudi nyuma inakokotolewa kutoka kwa txid ya mchanganyiko wa mwisho.
 
 
-Kisha WST huonyesha alama za rejea (*Vipimo vinavyoonekana nyuma*) na alama zinazotarajiwa (*Vipimo vya kuangalia Mbele*). Kwa mfano, nilichukua txid ya sarafu isiyo ya kawaida kwenye Whirlpool ambayo si yangu.
+Kisha WST huonyesha alama za rejea (backward-looking metrics) na alama zinazotarajiwa (forward-looking metrics). Kwa mfano, nilichukua txid ya sarafu isiyo ya kawaida kwenye Whirlpool ambayo si yangu.
 
 
 ![WST](assets/notext/15.webp)
@@ -285,6 +286,7 @@ Ikiwa tutazingatia muamala huu kama CoinJoin ya kwanza iliyotekelezwa kwa sarafu
 
 
 Iwapo tutazingatia muamala huu kama CoinJoin ya mwisho ya sarafu, basi ina urejeshi usiofaa wa `42,185`. Hii inamaanisha kuwa kuna `42,185` vyanzo vinavyowezekana vya UTXO hii. Ikiwa mwangalizi wa nje atatambua sarafu hii mwishoni mwa mizunguko na kutafuta kufuatilia asili yake, atakabiliwa na `42,185` vyanzo vinavyowezekana, vyote vikiwa na uwezekano sawa wa kuwa asili inayotafutwa.
+
 
 Kando na alama za kukosekana kwa mpangilio, WST pia hukupa kiwango cha uenezaji wa pato lako ndani ya hifadhi kulingana na kutoweka. Kiashiria hiki kingine hukuruhusu kutathmini uwezekano wa uboreshaji wa kipande chako. Kiwango hiki ni muhimu hasa kwa anayetarajiwa kutoweka. Hakika, ikiwa kipande chako kina kiwango cha kuenea kwa 15%, inamaanisha inaweza kuchanganyikiwa na 15% ya vipande kwenye bwawa. Hiyo ni nzuri, lakini bado una ukingo mkubwa sana wa kuboreshwa kwa kuendelea kuiga. Kwa upande mwingine, ikiwa kipande chako kina kiwango cha kueneza cha 95%, basi unakaribia mipaka ya bwawa. Unaweza kuendelea kuchanganya, lakini anonse yako haitaongezeka sana.
 

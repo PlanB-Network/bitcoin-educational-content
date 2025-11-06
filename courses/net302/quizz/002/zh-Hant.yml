@@ -1,0 +1,9 @@
+question: 環狀網路的主要弱點是什麼？
+answer: 單一裝置的故障可能會中斷整個網路
+wrong_answers:
+  - 需要大量纜線來連接各個設備
+  - 難以擴展
+  - 其管理非常複雜
+explanation: |
+  在環狀拓樸結構中，一台裝置的故障會破壞迴路，使資料無法流通。
+reviewed: false

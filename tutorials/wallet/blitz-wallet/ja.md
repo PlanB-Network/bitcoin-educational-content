@@ -1,5 +1,5 @@
 ---
-name: ブリッツWallet
+name: Blitz Wallet
 
 
 description: 最もシンプルなBitcoinポートフォリオ。
@@ -44,7 +44,7 @@ Walletを始めるにあたって、ユーザーエクスペリエンスは決�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 重要です：この12/24回復ワードはビットコインへのアクセスに不可欠です。これを失うと、ビットコインを使用する権限がなくなります。
 
@@ -93,23 +93,23 @@ Blitz Walletでビットコインを受け取るには、「下矢印」アイ�
 
 
 
-- Lightning Network** ：Bitcoinのオーバーレイの1つで、マイクロトランザクションを即座に実行できる。
+- **Lightning Network**：Bitcoinのオーバーレイの1つで、マイクロトランザクションを即座に実行できる。
 
 
 
 
 
-- Bitcoin Mainnet** ：Bitcoinプロトコルのメインチェーンで、大口取引に適している。
+- **Bitcoin Mainnet**：Bitcoinプロトコルのメインチェーンで、大口取引に適している。
 
 
 
 
 
-- Liquid Network**：BlockStreamが開発したBitcoin Mainnetのパラレルチェーンで、Liquidビットコインを使って高速なConfidential Transactionsを実行する。
+- **Liquid Network**：BlockStreamが開発したBitcoin Mainnetのパラレルチェーンで、Liquidビットコインを使って高速なConfidential Transactionsを実行する。
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 デフォルトでは、すべての取引はLiquid Networkで行われますが、Blitzでは、**形式を選択**ボタンをクリックすることで、サトシを受け取るネットワークを定義することができます。
 
@@ -127,7 +127,7 @@ Blitz Walletは、Walletからビットコインを簡単に送金できる。
 
 
 
-連絡先**」メニューでは、Blitzのユーザー名や、最も交流のあるLightning URLを登録することができます。
+「**連絡先**」メニューでは、Blitzのユーザー名や、最も交流のあるLightning URLを登録することができます。
 
 
 
@@ -147,7 +147,7 @@ Blitz Walletは、Walletからビットコインを簡単に送金できる。
 
 
 
-Wallet**メニューの "上矢印 "ボタンをクリックし、ビットコインの送金方法を選択し、送金額を入力して確認に進む。
+**Wallet**メニューの "上矢印 "ボタンをクリックし、ビットコインの送金方法を選択し、送金額を入力して確認に進む。
 
 
 
@@ -169,7 +169,7 @@ Bitcoinの送金業務に加え、Blitz Walletでは、ビットコインをデ�
 
 
 
-- AIサービス**にアクセス以下のような生成人工知能モデルを使用する：クロード3-5ソネット、gpt-4o、gpt-4o-mini gemini-flash-1.5などの人工知能モデルを使用し、ビットコインで直接お支払いください。
+- AIサービスにアクセス以下のような生成人工知能モデルを使用する：クロード3-5ソネット、gpt-4o、gpt-4o-mini gemini-flash-1.5などの人工知能モデルを使用し、ビットコインで直接お支払いください。
 
 
 
@@ -179,7 +179,7 @@ Bitcoinの送金業務に加え、Blitz Walletでは、ビットコインをデ�
 
 
 
-- 世界中どこでもテキストメッセージを送信**：Blitzストアでは、世界中のどこにいても匿名でテキストメッセージを送信できるGSMサービスを、Bitcoinでの直接課金でご利用いただけます。
+- 世界中どこでもテキストメッセージを送信：Blitzストアでは、世界中のどこにいても匿名でテキストメッセージを送信できるGSMサービスを、Bitcoinでの直接課金でご利用いただけます。
 
 
 
@@ -189,7 +189,7 @@ Bitcoinの送金業務に加え、Blitz Walletでは、ビットコインをデ�
 
 
 
-- 完全な機密性**でネットサーフィン：Wallet BlitzストアでWireGuard VPN（仮想プライベートネットワーク）サブスクリプションをビットコインでお支払いください。
+- 完全な機密性**で**ネットサーフィン：Wallet BlitzストアでWireGuard VPN（仮想プライベートネットワーク）サブスクリプションをビットコインでお支払いください。
 
 
 
@@ -197,9 +197,9 @@ Bitcoinの送金業務に加え、Blitz Walletでは、ビットコインをデ�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Walletブリッツの舞台裏：さらに先へ
 
@@ -221,7 +221,7 @@ BlitzはLiquid Networkマイクロエクスチェンジを使用し、残高が5
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 メニューの**設定>残高情報**で残高の内訳を見ることができます。
 
@@ -249,7 +249,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- あなたの店でBitcoinを受け入れてください** ：
+- **あなたの店でBitcoinを受け入れてください**：
 
 
 
@@ -269,5 +269,4 @@ Settings(設定)>Point-of-sale(販売時点情報)**メニューでは、店舗�
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

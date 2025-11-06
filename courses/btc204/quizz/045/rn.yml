@@ -1,0 +1,10 @@
+question: None intumbero nyamukuru ya BIP47 ni iyihe?
+answer: Kugira ngo ugire ikimenyetso kidasanzwe co kwakira BTC utasubiye gukoresha amaderesi.
+wrong_answers:
+  - Yongera ubunini bw’amabuye kugira ngo ukoreshe amafaranga yihuta.
+  - Kwemera amafaranga ataco atanga ku rubuga rwa Bitcoin.
+  - Gukora amafaranga atamenyekana kuri Bitcoin.
+explanation: |
+  Intumbero ya BIP47 ni ugutanga ikimenyetso kidasanzwe gishobora kwakira bitcoins incuro nyinshi kandi zivuye ku bantu benshi, ariko ata gusubira gukoresha amaderesi, kuko ivyo ari umugenzo mubi cane ku buzima bwite bw’abakoresha.
+  
+reviewed: false

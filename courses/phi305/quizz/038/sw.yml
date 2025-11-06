@@ -1,0 +1,9 @@
+question: Kwa uandishi wa TTP, ni Spinoza?
+answer: Mvumbuzi wa usekula.
+wrong_answers:
+  - Mtetezi wa mipango.
+  - Mtetezi wa udikteta aliyeangaziwa.
+  - Mtetezi wa ufalme wa kikatiba.
+explanation: |
+  Kwa Mkataba wake juu ya Theolojia na Siasa, Spinoza anaweza kuchukuliwa kuwa mvumbuzi wa usekula wa kisasa. Ndani yake, alitetea mgawanyo wa nguvu za kidini na kisiasa, wazo la mapinduzi wakati huo.
+reviewed: false

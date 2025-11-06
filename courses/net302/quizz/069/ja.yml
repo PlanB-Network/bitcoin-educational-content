@@ -1,0 +1,9 @@
+question: ローカルネットワークのIPv6 Addressで使用されるネットワークプレフィックスの一般的なサイズは？
+answer: 64ビット
+wrong_answers:
+  - 32ビット
+  - 48ビット
+  - 8ビット
+explanation: |
+  IPv6 Addressの最初の64ビットは、一般的にサブネット接頭辞用に予約されている。
+reviewed: false

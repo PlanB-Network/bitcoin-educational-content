@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce MAC Address v místní síti?
+answer: Jedinečná identifikace sítě Interface
+wrong_answers:
+  - Překlad názvu domény na IP adresu Address
+  - Dynamické přiřazení adresy IP Address hostiteli
+  - Určení rychlosti internetového připojení
+explanation: |
+  MAC Address slouží jako jedinečný hardwarový identifikátor pro každou síťovou jednotku Interface a umožňuje fyzické rozlišení zařízení v místní síti.
+reviewed: false

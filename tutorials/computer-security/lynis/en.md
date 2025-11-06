@@ -17,7 +17,7 @@ ___
 ## I. Presentation
 
 
-**In this tutorial, we're going to learn how to perform a security audit on a Linux machine using Lynis! For those of you who don't know **Lynis,** it's a small command-line utility that will analyze your server's configuration and make recommendations for **improving the security of your machine.**
+**In this tutorial, we're going to learn how to perform a security audit on a Linux machine using Lynis! For those of you who don't know** Lynis, **it's a small command-line utility that will analyze your server's configuration and make recommendations for improving the security of your machine.**
 
 
 Lynis is an open source tool from CISOFY, a company specializing in **system auditing and hardening**. If you want to make progress in hardening Linux and popular services (SSH, Apache2, etc.), Lynis is your ally! Lynis not only tells you what's going wrong, but also provides recommendations to point you in the right direction (and save you time).
@@ -39,7 +39,7 @@ It is used for a variety of purposes:
 The tool is widely used by a wide range of users, including system administrators, IT auditors and pentesters. For analyses, the tool is based on standards such as **CIS Benchmark, NIST, NSA, OpenSCAP** and on official recommendations from **Debian, Gentoo, Red Hat**.
 
 
-The project is available at this address on **Github** :
+The project is available at this address on **Github**:
 
 
 
@@ -62,7 +62,7 @@ There are several ways to download and install Lynis. Choose the one you prefer 
 This installation mode allows you to use the **lynis** command from anywhere on the system, unlike installation from source, where you need to be located in the directory.
 
 
-Connect to your server via SSH and enter the following commands to install Lynis :
+Connect to your server via SSH and enter the following commands to install Lynis:
 
 
 ```
@@ -161,7 +161,7 @@ To display the available commands, simply enter the following command:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -192,7 +192,7 @@ This is what you get:
 ![Image](assets/fr/022.webp)
 
 
-If you wish to display all the options, you must enter :
+If you wish to display all the options, you must enter:
 
 
 ```
@@ -247,10 +247,10 @@ Next, Lynis will list a set of points corresponding to everything he has checked
 
 
 
-- Red** for critical elements or best practices not respected (a missing package, for example), i.e. your server does not respect this point
-- Yellow** for suggestions or partial compliance with the recommendation (let's say it's a plus to comply with a point highlighted with this color (non-priority))
-- Green** for points where your server configuration is compliant
-- White**, when neutral
+- **Red** for critical elements or best practices not respected (a missing package, for example), i.e. your server does not respect this point
+- **Yellow** for suggestions or partial compliance with the recommendation (let's say it's a plus to comply with a point highlighted with this color (non-priority))
+- **Green** for points where your server configuration is compliant
+- **White**, when neutral
 
 
 Here, we can see that Lynis recommends installing **fail2ban**:
@@ -259,7 +259,7 @@ Here, we can see that Lynis recommends installing **fail2ban**:
 ![Image](assets/fr/057.webp)
 
 
-In the "**Boot and services**" section, we see that service protection via *systemd* could be improved. On the positive side, Grub2 is present and there are no problems with permissions on :
+In the "**Boot and services**" section, we see that service protection via *systemd* could be improved. On the positive side, Grub2 is present and there are no problems with permissions on:
 
 
 ![Image](assets/fr/029.webp)
@@ -451,14 +451,14 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 ```
 
 
-Some information about the installed packages :
+Some information about the installed packages:
 
 
 
-- Clamav** is an antivirus.
-- unattend-upgrades** will enable you to manage your updates automatically and even reboot the machine or automatically purge old packages, it's fully configurable.
-- rkhunter** is an anti-rootkit that scans your file system.
-- Fail2ban** will base itself on your log files according to what you give it to read and it will work with **iptables**, for example to ban IP addresses that try to "brute force" your server in SSH.
+- **Clamav** is an antivirus.
+- **unattend-upgrades** will enable you to manage your updates automatically and even reboot the machine or automatically purge old packages, it's fully configurable.
+- **rkhunter** is an anti-rootkit that scans your file system.
+- **Fail2ban** will base itself on your log files according to what you give it to read and it will work with **iptables**, for example to ban IP addresses that try to "brute force" your server in SSH.
 
 
 ### C. Recommendations for SSH
@@ -470,7 +470,7 @@ Let's take a look at the SSH recommendations. They are listed below. Don't worry
 ![Image](assets/fr/034.webp)
 
 
-Let's take a closer look at my current **SSH** configuration in :**/etc/ssh/sshd_config**
+Let's take a closer look at my current **SSH** configuration in:**/etc/ssh/sshd_config**
 
 
 ![Image](assets/fr/018.webp)
@@ -479,7 +479,7 @@ Let's take a closer look at my current **SSH** configuration in :**/etc/ssh/sshd
 The configuration suggested below can still be optimized, but gives you a good base. *Please note that I've removed a number of comments for greater readability*.
 
 
-We will :
+We will:
 
 
 
@@ -522,7 +522,7 @@ PubkeyAuthentication yes
 
 
 
-- Retain password authentication :
+- Retain password authentication:
 
 
 ```
@@ -606,7 +606,7 @@ Banner none
 It is worth noting that in some jurisdictions, sending a message prior to authentication may be a prerequisite for legal protection. The contents of the specified file are transmitted to the remote user before connection authorization is given. This option needs to be configured, as by default no message will be displayed.
 
 
-In images, this gives :
+In images, this gives:
 
 
 ![Image](assets/fr/019.webp)
@@ -618,7 +618,7 @@ In images, this gives :
 Finally, let's not forget to check the **Lynis audit score**! We see that **my Hardening score is 63** and that the report file can be viewed in "**/var/log/lynis-report.dat**". There's also the file "**/var/log/lynis.log**".
 
 
-**In other words, the higher the score, the better! You therefore need to work on your configuration to achieve the highest possible score, while allowing your machine and hosted services to function normally (which means carrying out functional tests).
+**In other words, the higher the score, the better!** You therefore need to work on your configuration to achieve the highest possible score, while allowing your machine and hosted services to function normally (which means carrying out functional tests).
 
 
 ![Image](assets/fr/046.webp)
@@ -678,4 +678,4 @@ Don't forget to communicate with your teams before implementation: you need to m
 Finally, you can also compare **Lynis** with other tools, of which there are several. If you want to move towards centralized management while remaining open source, I recommend the [Wazuh] tool (https://wazuh.com/).
 
 
-**This tutorial is over, have fun with Lynis!
+**This tutorial is over, have fun with Lynis!**

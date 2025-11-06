@@ -1,12 +1,11 @@
-question: Quel est le principal avantage du Bitcoin par rapport aux autres formes de monnaie ?
-answer: Il offre une excellente réserve de valeur en raison de son offre strictement limitée et de sa neutralité.
+question: Comment est créée la monnaie saine ?
+answer: La monnaie saine doit émerger naturellement du marché et du consensus volontaire.
 wrong_answers:
-  - Il est indivisible et non-transportable.
-  - C'est un excellent exemple de monnaie qui subit l'inflation monétaire.
-  - Il est largement accepté dans le commerce par tous les commerçants du monde.
+  - La monnaie saine doit être imposée par le gouvernement par l'émission de lois monétaires.
+  - La monnaie saine doit être imposée par les entreprises à travers l'utilisation de la violence.
+  - La monnaie saine ne peut pas être créée.
 explanation: |
-  Le principal avantage du Bitcoin par rapport aux autres formes de monnaie
-  est qu'il offre une excellente réserve de valeur en raison de son
-  offre strictement limitée et de son absence de tiers de confiance. Cela
-  en fait un bon choix pour l'épargne à long terme.
+  La monnaie saine est un phénomène social naturel qui doit émerger
+  du marché et du consensus volontaire. Aucun humain ou
+  groupe d'humains ne peut créer de la monnaie.
 reviewed: true

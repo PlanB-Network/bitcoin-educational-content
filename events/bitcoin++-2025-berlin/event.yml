@@ -1,0 +1,24 @@
+id: d2918e63-dacf-49a6-86e5-1e1fc59bd973
+start_date: 2025-10-02 08:00:00
+end_date: 2025-10-04 16:00:00
+timezone: Europe/Berlin
+address_city_country: Berlin, Germany
+address_line_2: Salt Galata
+address_line_3:
+name: lightning++ is programming payments
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Join us in Berlin this October 2+3+4 to explore the exploding ecosystem of programmable payments, anonymous infrastructure that's being added to the Bitcoin sovereign stack.
+language:
+  - en
+links:
+  website: https://btcpp.dev/conf/berlin25
+  replay_url:
+  live_url:
+project_id: 81e4a931-705b-4d28-bbe7-4f4de3196034
+tags:
+  - lightning
+  - deep-dive
+  - protocols

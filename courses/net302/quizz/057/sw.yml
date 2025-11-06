@@ -1,0 +1,9 @@
+question: Ni kigezo gani kwenye faili ya ifcfg-eth0 kinachoonyesha usanidi wa DHCP?
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  Kigezo cha "BOOTPROTO=dhcp" kinabainisha kuwa Interface inapaswa kupata usanidi wake kupitia itifaki ya DHCP.
+reviewed: false

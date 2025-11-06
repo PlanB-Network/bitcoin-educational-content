@@ -1,0 +1,9 @@
+question: 오일러의 정리에 따르면, 소인수인 두 정수 a와 N에 대한 지수 a^ϕ(N) mod N의 결과는 무엇입니까?
+answer: 1 모드 N
+wrong_answers:
+  - 0 mod N
+  - N 모드
+  - 모드 N
+explanation: |
+  오일러의 정리에 따르면 소인수인 두 정수 a와 N의 경우, 지수 a^ϕ(N) mod N은 항상 1 mod N과 같으며 이는 암호화에 사용되는 속성입니다.
+reviewed: false

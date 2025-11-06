@@ -1,5 +1,5 @@
 ---
-name: Kichunguzi cha IP chenye hasira
+name: Angry IP Scanner
 description: Njia rahisi ya kuchanganua mtandao wako
 ---
 ![cover](assets/cover.webp)
@@ -38,11 +38,11 @@ Kina maelezo kidogo kuliko Nmap, **Kichanganuzi cha IP** chenye hasira bado kina
 
 
 
-Ikiwa unataka kwenda zaidi, angalia mafunzo kwenye Nmap :
+Ikiwa unataka kwenda zaidi, angalia mafunzo kwenye Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Anza na Kichunguzi cha IP cha Hasira
 
@@ -84,8 +84,8 @@ Katika uzinduzi wa kwanza, chukua muda kusoma maagizo katika dirisha la "**Anza*
 
 
 
-- Mlisho**: moduli inayohusika na kutoa orodha za anwani za IP zitakazochanganuliwa, kutoka kwa anuwai ya IP isiyo ya kawaida au faili iliyo na orodha ya anwani za IP.
-- Fetcher**: seti ya moduli za kurejesha taarifa kuhusu wapangishaji kwenye mtandao. Kuna, kwa mfano, wachukuaji wa kugundua anwani za MAC, skanisho la bandari, kugundua majina ya seva pangishi au kutuma maombi ya HTTP.
+- **Mlisho**: moduli inayohusika na kutoa orodha za anwani za IP zitakazochanganuliwa, kutoka kwa anuwai ya IP isiyo ya kawaida au faili iliyo na orodha ya anwani za IP.
+- **Fetcher**: seti ya moduli za kurejesha taarifa kuhusu wapangishaji kwenye mtandao. Kuna, kwa mfano, wachukuaji wa kugundua anwani za MAC, skanisho la bandari, kugundua majina ya seva pangishi au kutuma maombi ya HTTP.
 
 
 
@@ -181,4 +181,4 @@ Ikiwa ungependa kutumia **Nmap** na Interface ya mchoro, unaweza kutumia **progr
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

@@ -1,0 +1,9 @@
+question: Welk commando kan gebruikt worden om te controleren via welke Interface en gateway een pakket naar 8.8.8.8 gerouteerd zou worden?
+answer: ip route krijgen 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> toont het exacte pad dat een pakket zou nemen om een specifieke bestemming te bereiken.
+reviewed: false

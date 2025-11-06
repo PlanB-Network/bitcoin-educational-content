@@ -1,0 +1,9 @@
+question: Mikä on IPv4-standardin Address:n pituus bitteinä?
+answer: 32-bittinen
+wrong_answers:
+  - 8 bittiä
+  - 128-bittinen
+  - 16 bittiä
+explanation: |
+  IPv4 Address on koodattu 32 bitillä, joka on jaettu neljään 8 bitin tavuun.
+reviewed: false

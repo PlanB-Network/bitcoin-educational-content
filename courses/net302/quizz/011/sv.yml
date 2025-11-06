@@ -1,0 +1,9 @@
+question: Vad är det främsta skälet till att IPv5 aldrig har fått någon bred spridning?
+answer: Det förblev experimentellt
+wrong_answers:
+  - Utbyggnaden var för kostsam
+  - Den var inte kompatibel med IPv6
+  - Den hade stora säkerhetsbrister
+explanation: |
+  IPv5 implementerades endast experimentellt. Det blev aldrig standardiserat eller allmänt antaget och övergavs så småningom till förmån för IPv6.
+reviewed: false

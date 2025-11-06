@@ -1,0 +1,9 @@
+question: Hangi TCP özelliği, anında onay olmadan gönderilen segmentlerin sayısını uyarlayarak verimi optimize eder?
+answer: Kayan pencere
+wrong_answers:
+  - Dinamik parçalanma
+  - Paket anahtarlama
+  - Statik yönlendirme
+explanation: |
+  "Kayan pencere" birkaç segmentin arka arkaya gönderilmesine izin verir, ardından akışı optimize etmek için her onayda aralığı kaydırır.
+reviewed: false

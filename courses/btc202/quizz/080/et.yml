@@ -1,0 +1,9 @@
+question: Milline on Bitcoin core parameetri maxconnections vaikeväärtus?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections piirab sissetulevate ja väljaminevate ühenduste koguarvu. Vaikeväärtus on 125.
+reviewed: true

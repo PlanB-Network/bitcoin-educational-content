@@ -1,11 +1,11 @@
-question: Hvem er cypherpunkene?
-answer: En gruppe mennesker som begynte å stille dype spørsmål ved rollen til personvern og frihet i den digitale tidsalderen.
+question: Hva er de tre kanoniske funksjonene til penger?
+answer: Verdioppbevaring, Byttemiddel, Regningsenhet
 wrong_answers:
-  - En gruppe hackere som stjeler informasjon fra regjeringer.
-  - En gruppe mennesker som oppfant Bitcoin.
-  - En gruppe mennesker som er imot bruk av teknologi.
+  - Verdioppbevaring, Byttemiddel, Produksjonsmiddel
+  - Verdioppbevaring, Produksjonsmiddel, Regningsenhet
+  - Byttemiddel, Produksjonsmiddel, Regningsenhet
 explanation: |
-  Cypherpunkene er en gruppe individer som trodde at kryptografi
-  kunne tjene som et verktøy for å beskytte individuelle rettigheter mot inngrep fra regjeringer
-  og store selskaper.
+  Ifølge Aristoteles tjener penger tre funksjoner: de er en verdioppbevaring,
+  et byttemiddel, og en regningsenhet. Selv om det i dag er bredt akseptert at
+  byttemiddelet foregår de to andre funksjonene.
 reviewed: true

@@ -2,4 +2,6 @@
 term: BIP0085
 ---
 
-Solution to unify the derivation of different Bitcoin wallets using a single master seed for all. This proposal allows for the derivation of entropy from root information to generate multiple mnemonic phrases for multiple wallets, without compromising security. The goal of BIP85 is to facilitate the management and backup of multiple Bitcoin wallets. Instead of having to secure multiple phrases, a single piece of information suffices for all others.
+BIP85 provides a solution to unify the derivation of multiple Bitcoin wallets using a single master seed.
+It enables deriving entropy from a root key to generate multiple mnemonic phrases for different wallets, all without compromising security.
+The goal of BIP85 is to facilitate the management and backup of multiple Bitcoin wallets: instead of securing several different mnemonic phrases, one root seed is sufficient to derive them all.

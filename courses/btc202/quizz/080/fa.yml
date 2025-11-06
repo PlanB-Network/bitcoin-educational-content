@@ -1,0 +1,9 @@
+question: مقدار پیش‌فرض پارامتر maxconnections در Bitcoin core چیست؟
+answer: ۱۲۵
+wrong_answers:
+  - ۱۰
+  - ۱۰۰
+  - ۱۵۰
+explanation: |
+  maxconnections تعداد کل اتصالات ورودی و خروجی را محدود می‌کند. مقدار پیش‌فرض 125 است.
+reviewed: true

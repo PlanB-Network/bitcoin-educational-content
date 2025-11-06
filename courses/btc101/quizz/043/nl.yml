@@ -1,12 +1,10 @@
-question: Wat is het historische pad dat instellingen hebben gevolgd bij de introductie van fiatvaluta's?
-answer: Leiders centraliseren goud en introduceren een nieuwe valuta die in waarde gelijk is aan goud, dat vervolgens geleidelijk wordt gedevalueerd.
+question: Wat is de laatste fase die optreedt bij hyperinflatie?
+answer: Er ontstaat een nieuwe valuta.
 wrong_answers:
-  - Leiders introduceren een nieuwe munteenheid die gedekt wordt door goud en vervolgens geleidelijk in waarde toeneemt.
-  - Leiders introduceren een nieuwe valuta zonder intrinsieke waarde, die vervolgens geleidelijk in waarde wordt verhoogd.
-  - Leiders introduceren een nieuwe munteenheid die wordt ondersteund door een mandje grondstoffen en vervolgens waardevast wordt gehouden.
+  - Verlies van vertrouwen in de munt.
+  - Valuta stort in en prijzen stijgen.
+  - De vicieuze cirkel van het bijdrukken van geld.
 explanation: |
-  In het verleden hebben leiders goud gecentraliseerd en een nieuwe
-  een nieuwe valuta geïntroduceerd die in waarde gelijk is aan goud. Deze nieuwe
-  valuta wordt dan geleidelijk gedevalueerd, vaak onder het mom van
-  van het belang van het volk.
+  De laatste fase van hyperinflatie treedt op wanneer een nieuwe
+  valuta wordt geïntroduceerd om de oude te vervangen.
 reviewed: true

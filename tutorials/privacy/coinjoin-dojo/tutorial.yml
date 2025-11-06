@@ -1,4 +1,6 @@
-id: c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+id: add5fb00-ee84-4c40-8943-065079320319
+
+is_archived: true
 
 category: on-chain
 
@@ -122,6 +124,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 16.86
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.45
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.04
 tags:
   - privacy
   - guides

@@ -1,10 +1,12 @@
-question: Apa itu BitcoinTalk?
-answer: Sebuah tempat diskusi untuk pengguna Bitcoin
+question: Apa itu transaksi Bitcoin?
+answer: Transfer kepemilikan Bitcoin, menggunakan kriptografi.
 wrong_answers:
-  - Sebuah perangkat lunak penambangan Bitcoin
-  - Sebuah dompet Bitcoin
-  - Sebuah Konferensi Bitcoin
+  - Pertukaran fisik Bitcoin, menggunakan notaris.
+  - Transfer kepemilikan Bitcoin, menggunakan alamat fisik.
+  - Transfer kepemilikan Bitcoin, menggunakan alamat email.
 explanation: |
-  Forum BitcoinTalk adalah tempat diskusi untuk pengguna Bitcoin. Ini
-  dibuat oleh Satoshi Nakamoto pada tanggal 22 November 2009.
+  Transaksi Bitcoin adalah transfer digital kepemilikan Bitcoin,
+  menggunakan alamat Bitcoin yang diperoleh berkat kriptografi Kurva Eliptik.
+  Alamat ini unik untuk dompet Bitcoin dari orang
+  yang menerima Bitcoin tersebut.
 reviewed: true

@@ -1,12 +1,12 @@
-question: Koja je glavna prednost fiat valuta?
-answer: Deljivost.
+question: Koji su entiteti zaduženi za izdavanje fiducijarnih valuta?
+answer: Centralne banke.
 wrong_answers:
-  - One su pod kontrolom centralne banke.
-  - One nisu lako prenosive.
-  - One su efikasne u očuvanju vrednosti kroz vreme.
+  - Komercijalne banke.
+  - Vlade.
+  - Privatne institucije.
 explanation: |
-  Fiat valute, kao što su dolar i evro, su veoma
-  likvidne i lako prenosive jer su sada uglavnom
-  digitalne. Međutim, njihova vrednost je konstantno narušena
-  monetarnom inflacijom.
+  Centralne banke su entiteti zaduženi za izdavanje
+  fiducijarne valute. One odlučuju o monetarnoj politici i
+  određuju koliko novca treba pustiti u opticaj ili
+  odštampati.
 reviewed: true

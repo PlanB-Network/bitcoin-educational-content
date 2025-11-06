@@ -1,0 +1,9 @@
+question: کدام رکورد در هر فایل منطقه DNS اجباری است؟
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - اشاره‌گر (PTR)
+  - AAAA (IPv6 Address)
+  - SRV (سرویس لوکیتور)
+explanation: |
+  رکورد SOA مرجع ناحیه را تعریف می‌کند و در هر فایل ناحیه DNS الزامی است.
+reviewed: false

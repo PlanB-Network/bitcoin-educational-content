@@ -1,0 +1,9 @@
+question: 사용자는 언제 인덱서를 설치해야 하나요?
+answer: Block explorer을 실행하려면
+wrong_answers:
+  - Mining 블록의 경우
+  - Lightning Network를 활성화하려면
+  - 거래에 서명하려면
+explanation: |
+  인덱서는 로컬 탐색기와 같은 고급 용도에 없어서는 안 될 필수 요소입니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilken är nätverkets grundläggande roll inom IT?
+answer: Aktivera data Exchange
+wrong_answers:
+  - Öka datorns minne
+  - Skapa säkerhetskopior
+  - Möjliggör Exchange för datorutrustning
+explanation: |
+  Ett nätverk kopplar samman flera enheter för att möjliggöra cirkulation och Exchange av information.
+reviewed: false

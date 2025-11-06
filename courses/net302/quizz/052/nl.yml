@@ -1,0 +1,9 @@
+question: Welke fundamentele informatie moet een NAT gateway registreren voor elke netwerkstroom?
+answer: De mapping tussen intern IP en publiek IP
+wrong_answers:
+  - Type gebruikte netwerkkabel
+  - De toewijzing tussen IP Address en DNS server
+  - Gebruikt type netwerkprotocol
+explanation: |
+  NAT vertrouwt op een vertaaltabel om correspondentie te onderhouden die de mapping tussen interne en publieke adressen bijhoudt om ervoor te zorgen dat pakketten correct gerouteerd worden.
+reviewed: false

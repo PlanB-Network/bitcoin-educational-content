@@ -1,0 +1,9 @@
+question: Co je třeba přidat do NAT, aby byla síť správně zabezpečena?
+answer: Brána firewall
+wrong_answers:
+  - Místní server DNS
+  - Proxy server HTTP
+  - Antivirus
+explanation: |
+  Samotný NAT k filtrování škodlivého provozu nestačí: musí být doplněn pravidly brány firewall pro jemné řízení provozu.
+reviewed: false

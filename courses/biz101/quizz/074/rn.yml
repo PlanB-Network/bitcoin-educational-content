@@ -1,0 +1,9 @@
+question: Ni ibihe bintu vy’umutekano biteye imbere bishirwa mu ngiro ku rugero rw’Ishirahamwe ku bitcoins?
+answer: Umukono mwinshi n'ibifungurwa vy'igihe
+wrong_answers:
+  - Ijambobanga ry’uburinzi bw’itelefone ngendanwa Lightning Wallet.
+  - Ikimenyetso kimwe gifise uburinzi bwa BIP39 passphrase
+  - Ikimenyetso kimwe gifise amajambo 24 seed invugo
+explanation: |
+  Ingingo z’umutekano mwinshi nk’imiterere y’imikono myinshi n’ibifungurwa vy’igihe ni ngirakamaro mu gucunga amahera menshi.
+reviewed: false

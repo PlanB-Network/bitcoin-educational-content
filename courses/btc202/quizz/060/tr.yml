@@ -1,0 +1,9 @@
+question: Umbrel üzerinde kurulu bir Nostr rölesinin rolü nedir?
+answer: Yayınlarınızı yerel olarak barındırın
+wrong_answers:
+  - Bitcoin işlemlerini kontrol edin
+  - Kişilerinizle Nostr kanalları oluşturun
+  - Blockchain Nostr'un yerel yedeklemesi
+explanation: |
+  Umbrel üzerindeki bir Nostr aktarıcısı, verilerin yerel olarak barındırılmasını sağlayarak kullanılabilirliği ve egemenliği garanti eder.
+reviewed: true

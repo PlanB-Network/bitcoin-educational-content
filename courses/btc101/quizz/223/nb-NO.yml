@@ -1,10 +1,10 @@
-question: Hva er blockchain-trilemmaet?
-answer: Et protokoll basert på en blockchain kan bare tilfredsstille to av desentralisering, sikkerhet og skalerbarhet.
+question: Hva gjør Lightning Network mulig?
+answer: Å gjennomføre transaksjoner mellom individer som ikke har en direkte kanalforbindelse.
 wrong_answers:
-  - Et protokoll basert på en blockchain kan bare tilfredsstille en av desentralisering, sikkerhet og skalerbarhet.
-  - Et protokoll basert på en blockchain kan tilfredsstille alle av desentralisering, sikkerhet og skalerbarhet.
-  - Et protokoll basert på en blockchain kan ikke tilfredsstille noen av desentralisering, sikkerhet og skalerbarhet.
+  - Å gjennomføre transaksjoner mellom individer som kun har en direkte kanalforbindelse.
+  - Å gjennomføre transaksjoner mellom individer som har en direkte kanalforbindelse og en tredjepart.
+  - Å gjennomføre transaksjoner mellom individer som har en direkte kanalforbindelse og flere tredjeparter.
 explanation: |
-  Blockchain-trilemmaet refererer til utfordringen med at et protokoll basert
-  på en blockchain bare kan tilfredsstille to av desentralisering, sikkerhet og skalerbarhet.
+  Lightning Network gjør det mulig å gjennomføre transaksjoner mellom individer
+  som ikke har en direkte kanalforbindelse.
 reviewed: false

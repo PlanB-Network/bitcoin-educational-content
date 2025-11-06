@@ -1,12 +1,11 @@
-question: Mikä on suositeltu käyttötarkoitus mobiililompakolle?
-answer: Päivittäisten menojen säilyttäminen.
+question: Mitä tapahtuu, jos yksityinen avaimesi paljastuu kolmannelle osapuolelle?
+answer: Kolmas osapuoli voi käyttää bitcoinejasi.
 wrong_answers:
-  - Pitkäaikaisten säästöjen säilyttäminen.
-  - Keskipitkän aikavälin säästöjen säilyttäminen.
-  - Suurten summien säilyttäminen.
+  - Kolmas osapuoli voi vain tarkastella tapahtumahistoriaasi.
+  - Kolmas osapuoli voi muuttaa yksityistä avaimesi.
+  - Kolmas osapuoli voi päästä käsiksi henkilökohtaisiin tietoihisi.
 explanation: |
-  Mobiililompakkoa suositellaan päivittäisten menojen säilyttämiseen, koska
-  sen avulla on helppo suorittaa maksutapahtumia. Sitä ei kuitenkaan
-  suositella suurten summien tai pitkäaikaisten säästöjen säilyttämiseen, koska se on mahdollisesti altis
-  verkkouhkille.
+  Jos yksityinen avaimesi paljastuu kolmannelle osapuolelle, siihen
+  liittyvät varat eivät ole enää turvassa, koska yksityinen
+  avain mahdollistaa heille pääsyn varoihisi.
 reviewed: true

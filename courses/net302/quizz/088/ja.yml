@@ -1,0 +1,9 @@
+question: アクティブなネットワーク・ルーティング・テーブルを表示するLinuxコマンドはどれか。
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ピングルート
+  - netstat -s
+explanation: |
+  ip route show は、カーネルが知っているルートとIPパケットが通る経路を一覧表示します。
+reviewed: false

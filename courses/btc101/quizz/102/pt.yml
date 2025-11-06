@@ -1,12 +1,11 @@
-question: Qual é um método para proteger seus bitcoins a longo prazo?
-answer: Gravar sua frase mnemônica em um material resistente como o aço.
+question: Qual é a importância da responsabilidade individual no Bitcoin?
+answer: É crucial porque você é responsável pelos backups.
 wrong_answers:
-  - Armazená-los em uma carteira quente.
-  - Mantê-los em uma plataforma de câmbio.
-  - Compartilhar sua frase mnemônica com um colega de trabalho.
+  - É essencial porque você tem que minerar bitcoins.
+  - É essencial comprar bitcoins.
+  - É crucial porque você é responsável pelo tema da carteira.
 explanation: |
-  Gravar sua frase mnemônica em um material resistente como
-  o aço cria um backup físico de suas chaves que é
-  resistente tanto a danos por água quanto a fogo, garantindo assim a
-  segurança de seus bitcoins a longo prazo.
+  No Bitcoin, a soberania financeira anda de mãos dadas com
+  a responsabilidade individual, pois você deve ter a custódia
+  dos seus fundos seguindo os procedimentos recomendados de backup.
 reviewed: true

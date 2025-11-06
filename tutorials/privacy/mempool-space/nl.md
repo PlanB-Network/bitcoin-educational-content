@@ -14,9 +14,9 @@ In de begindagen van Bitcoin was het nodig om een Bitcoin knooppunt te draaien o
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Daarom zijn er projecten gestart om de Bitcoin gemeenschap uit te breiden en toegankelijker te maken voor iedereen die geen node bezit en/of niet over de vereiste technische vaardigheden beschikt.
 
@@ -46,7 +46,7 @@ Door het toenemende gebruik in het ecosysteem en het feit dat Mempool.space open
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## De basis van Mempool.space
 
@@ -64,10 +64,10 @@ In de menubalk vind je de volgende netwerken:
 
 
 
-- Mainnet** : Het belangrijkste Bitcoin netwerk waar echte Bitcoin transacties plaatsvinden.
-- Signet**: Een testnetwerk dat digitale handtekeningen gebruikt om blokken te valideren zonder de middelen nodig te hebben die het hoofdnetwerk nodig heeft.
-- Testnet 3**: Een risicovrij test- en ontwikkelingsnetwerk op het Bitcoin protocol.
-- Testnet 4** : De nieuwe versie van Testnet 3 brengt meer stabiliteit en nieuwe consensusregels naar de testomgeving.
+- **Mainnet**: Het belangrijkste Bitcoin netwerk waar echte Bitcoin transacties plaatsvinden.
+- **Signet**: Een testnetwerk dat digitale handtekeningen gebruikt om blokken te valideren zonder de middelen nodig te hebben die het hoofdnetwerk nodig heeft.
+- **Testnet 3**: Een risicovrij test- en ontwikkelingsnetwerk op het Bitcoin protocol.
+- **Testnet 4**: De nieuwe versie van Testnet 3 brengt meer stabiliteit en nieuwe consensusregels naar de testomgeving.
 
 
 
@@ -142,9 +142,9 @@ Op de pagina met transactiegegevens vind je algemene informatie over je transact
 
 
 
-- Status**: Bevestigd wanneer toegevoegd aan een blok, onbevestigd wanneer wachtend in een Mempool.
-- Transactiekosten**.
-- Geschatte aankomsttijd (ETA)** :  De geschatte tijd die het duurt voordat uw transactie is toegevoegd aan een blok. Het wordt berekend op basis van de ratio die de kosten vormt die aan deze transactie zijn verbonden.
+- **Status**: Bevestigd wanneer toegevoegd aan een blok, onbevestigd wanneer wachtend in een Mempool.
+- **Transactiekosten**.
+- **Geschatte aankomsttijd (ETA)**: De geschatte tijd die het duurt voordat uw transactie is toegevoegd aan een blok. Het wordt berekend op basis van de ratio die de kosten vormt die aan deze transactie zijn verbonden.
 
 
 
@@ -176,7 +176,7 @@ Ontdek de verschillende Bitcoin transactieschema's om uw vertrouwelijkheid te ve
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Versnel je transacties
 
@@ -192,7 +192,7 @@ Gelukkig zijn er twee methoden beschikbaar op het Bitcoin netwerk om de bevestig
 
 
 
-- RBF** - Vervanging door kosten: Een methode waarmee je dezelfde invoer kunt uitgeven als je transactie met lage fee, maar nu door de transactiekosten te verhogen om de validatie te versnellen. Je nieuwe transactie wordt sneller gevalideerd en opgenomen in een blok, waardoor de transactie met lage fee ongeldig wordt.
+- **RBF** - Vervanging door kosten: Een methode waarmee je dezelfde invoer kunt uitgeven als je transactie met lage fee, maar nu door de transactiekosten te verhogen om de validatie te versnellen. Je nieuwe transactie wordt sneller gevalideerd en opgenomen in een blok, waardoor de transactie met lage fee ongeldig wordt.
 
 
 
@@ -200,11 +200,11 @@ Je kunt een kostenvervangende actie uitvoeren met portemonnees die dit mechanism
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: Een benadering geïnspireerd op RBF, maar dan aan de kant van de ontvanger. Wanneer de transactie waarbij jij de ontvanger bent, wordt geblokkeerd in een Mempool, heb je de optie om de uitvoer (UTXO's) van deze transactie uit te geven, ondanks het feit dat deze nog niet is bevestigd, door meer vergoedingen aan deze nieuwe transactie toe te wijzen, zodat de gemiddelde vergoedingen - van de transactie waarbij jij de ontvanger bent en de geïnitieerde transactie - mijnwerkers aanmoedigen om beide transacties in een blok op te nemen.
+- **CPFP** - Child pay for parent: Een benadering geïnspireerd op RBF, maar dan aan de kant van de ontvanger. Wanneer de transactie waarbij jij de ontvanger bent, wordt geblokkeerd in een Mempool, heb je de optie om de uitvoer (UTXO's) van deze transactie uit te geven, ondanks het feit dat deze nog niet is bevestigd, door meer vergoedingen aan deze nieuwe transactie toe te wijzen, zodat de gemiddelde vergoedingen - van de transactie waarbij jij de ontvanger bent en de geïnitieerde transactie - mijnwerkers aanmoedigen om beide transacties in een blok op te nemen.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Als al deze termen een beetje te technisch lijken, raad ik je aan om [onze woordenlijst te raadplegen](https://planb.network/resources/glossary), die definities bevat van alle technische termen die te maken hebben met Bitcoin en haar ecosysteem.
+Als al deze termen een beetje te technisch lijken, raad ik je aan om [onze woordenlijst te raadplegen](https://planb.academy/resources/glossary), die definities bevat van alle technische termen die te maken hebben met Bitcoin en haar ecosysteem.
 
 
 
@@ -235,7 +235,7 @@ Een Miner verwijst naar een persoon die een mijn beheert, d.w.z. een computer di
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 miners zijn een soort "validators" die transacties verifiëren en groeperen in blokken. Om een nieuw blok aan het Bitcoin netwerk toe te voegen, moeten ze een complexe wiskundige puzzel oplossen (de Proof-of-Work). De eerste Miner die de puzzel oplost, wint een Bitcoin beloning (bloktoelage + vergoedingen voor transacties in het blok).
 
@@ -372,4 +372,4 @@ Nu je het einde van je reis op Mempool.space hebt bereikt, kun je je eigen verke
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

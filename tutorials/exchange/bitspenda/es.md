@@ -98,9 +98,9 @@ Una vez confirmada su transacción, pague el Invoice relámpago asociado. La tra
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa en Kenia
 
@@ -182,10 +182,10 @@ A través de BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) pretende esta
 
 
 
-- Confidencialidad**: No necesitas crear una cuenta en la plataforma, no necesitas verificar tu identidad y no necesitas proporcionar ninguna información personal.
-- Libertad**: Puedes utilizar BitSpenda desde cualquier país para realizar transacciones a Ghana, Nigeria y Kenia.
-- Rapidez**: Confiar en los pagos Lightning ha permitido a BitSpenda reducir los tiempos de procesamiento y hacer que las transacciones sean instantáneas.
-- Transparencia**: Todas las transacciones que has realizado en BitSpenda están asociadas a identificadores únicos que te permiten rastrear y seguir el progreso de las mismas. También puede utilizar estos identificadores para ponerse en contacto con [soporte de la aplicación en X](https://x.com/bitspenda).
+- **Confidencialidad**: No necesitas crear una cuenta en la plataforma, no necesitas verificar tu identidad y no necesitas proporcionar ninguna información personal.
+- **Libertad**: Puedes utilizar BitSpenda desde cualquier país para realizar transacciones a Ghana, Nigeria y Kenia.
+- **Rapidez**: Confiar en los pagos Lightning ha permitido a BitSpenda reducir los tiempos de procesamiento y hacer que las transacciones sean instantáneas.
+- **Transparencia**: Todas las transacciones que has realizado en BitSpenda están asociadas a identificadores únicos que te permiten rastrear y seguir el progreso de las mismas. También puede utilizar estos identificadores para ponerse en contacto con [soporte de la aplicación en X](https://x.com/bitspenda).
 
 
 
@@ -197,4 +197,4 @@ Muchas otras iniciativas y soluciones como BitSpenda están surgiendo en las com
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

@@ -53,7 +53,7 @@ Tutorial langkah demi langkah ini menunjukkan kepada Anda cara menulis pesan pad
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Ini akan menunjukkan penerimaan Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Pilih pesan yang ingin Anda masukkan (misalnya, `Terima kasih Satoshi`). Catatan
 
 
 
-- meninggalkan ekspresi indah dari kemanusiaan kita,*
-- hindari memasukkan konten yang mungkin Anda sesali*
+- meninggalkan ekspresi indah dari kemanusiaan kita,
+- hindari memasukkan konten yang mungkin Anda sesali
 
 
 
@@ -208,9 +208,9 @@ yang terdiri dari :
 
 
 
-- Tujuan Address**: Bitcoin Address yang valid. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Ini bisa berupa Address Anda sendiri, jika Anda ingin mengembalikan dana yang ditransfer ke Anda sendiri;
-- Jumlah yang ditransfer**: jumlah transaksi, di sini `0,00001` BTC. **Harap diperhatikan**: karena unit yang digunakan dalam Electrum adalah BTC, jumlah yang ditunjukkan dalam skrip transaksi juga harus dinyatakan dalam BTC, dan bukan dalam Sats;
-- Skrip OP_RETURN**: Pesan yang dikonversi ke heksadesimal yang diawali dengan skrip (`OP_RETURN <pesan>), 0`. Di sini, `5468616e6b73205361746f736869` untuk pesan dalam heksadesimal.
+- **Tujuan Address**: Bitcoin Address yang valid. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Ini bisa berupa Address Anda sendiri, jika Anda ingin mengembalikan dana yang ditransfer ke Anda sendiri;
+- **Jumlah yang ditransfer**: jumlah transaksi, di sini `0,00001` BTC. **Harap diperhatikan**: karena unit yang digunakan dalam Electrum adalah BTC, jumlah yang ditunjukkan dalam skrip transaksi juga harus dinyatakan dalam BTC, dan bukan dalam Sats;
+- Skrip **OP_RETURN**: Pesan yang dikonversi ke heksadesimal yang diawali dengan skrip (`OP_RETURN <pesan>`), 0. Di sini, `5468616e6b73205361746f736869` untuk pesan dalam heksadesimal.
 
 
 

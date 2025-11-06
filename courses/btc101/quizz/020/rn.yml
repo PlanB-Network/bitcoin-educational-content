@@ -1,0 +1,12 @@
+question: Ni kuki Bitcoin itemerwa cane mu vy’ubudandaji muri iki gihe?
+answer: Kuko n’abantu ku giti cabo ntibavyemera cane.
+wrong_answers:
+  - Kuko ntabwo ari ikintu co gutwara.
+  - Kuko ntirigabanywamwo utugingo ngengabuzima dutoduto.
+  - Kuko si Liquid.
+explanation: |
+  Naho ifise imiterere, nk’aho ifise imipaka idasanzwe .
+  Supply, Bitcoin n’ubu ntivyemerwa cane mu bucuruzi .
+  uno musi, kubera ukuntu abantu ku giti cabo batavyemera, rero .
+  abacuruzi ntibaremeshwa kuvyemera.
+reviewed: true

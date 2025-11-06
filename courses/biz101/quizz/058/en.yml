@@ -6,4 +6,4 @@ wrong_answers:
   - Elimination of transaction fees
 explanation: |
   Custodial wallets manage private keys, easing technical burdens for users.
-reviewed: false
+reviewed: true

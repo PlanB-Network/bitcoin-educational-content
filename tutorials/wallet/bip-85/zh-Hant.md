@@ -22,7 +22,7 @@ BIP-85 是一項進階功能，可讓您從一個 **seed 主語句**建立多個
 
 
 
-所有 seed 副詞組都是**從語法衍生出來的**，但是**不可能從副詞組追溯到 seed 主詞組。這可確保每個組合之間完全分離。
+所有 seed 副詞組都是**從語法衍生出來的**，但是**不可能從副詞組追溯到 seed 主詞組**。這可確保每個組合之間完全分離。
 
 
 
@@ -66,11 +66,11 @@ BIP-85 是一項進階功能，可讓您從一個 **seed 主語句**建立多個
 
 
 - 您可以使用副 seed 作 Hot Wallet 或臨時使用，接受較高的曝光。
-- 即使這個 Hot Wallet 遭到攻擊，您的其他資金受到其他次級種子的保護或保持離線狀態，**仍是安全的。
+- 即使這個 Hot Wallet 遭到攻擊，您的其他資金受到其他次級種子的保護或保持離線狀態，**仍是安全的**。
 
 
 
-另一方面，對於 BIP-32 和 BIP-85，如果主 seed 遭到攻擊，**所有資金都會受到攻擊。因此，以最高安全層級保護它至關重要。
+另一方面，對於 BIP-32 和 BIP-85，如果主 seed 遭到攻擊，**所有資金都會受到攻擊**。因此，以最高安全層級保護它至關重要。
 
 
 
@@ -91,9 +91,9 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 情況**：您使用「Hot Wallet」Wallet（安裝在網路連線裝置上），進行日常交易。
-- 解決方案 BIP-85**：您建立一個 seed 的次要詞組，專門用於此組合。
-- 相較於 BIP-32 的優勢**：您不需要將 seed 主要短語匯入您的手機，可降低駭客入侵的風險。只有 seed 次要短語會被洩露，保護您的其他錢包。使用 BIP-32 時，您需要使用 seed 主短語和旁路路徑，這會暴露您的所有資金。
+- 情況：您使用「Hot Wallet」Wallet（安裝在網路連線裝置上），進行日常交易。
+- 解決方案 **BIP-85**：您建立一個 seed 的次要詞組，專門用於此組合。
+- 相較於 BIP-32 的優勢：您不需要將 seed 主要短語匯入您的手機，可降低駭客入侵的風險。只有 seed 次要短語會被洩露，保護您的其他錢包。使用 BIP-32 時，您需要使用 seed 主短語和旁路路徑，這會暴露您的所有資金。
 
 
 
@@ -103,9 +103,9 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 情景**：您為親近的人（例如您的母親）設定了一個 Bitcoin Wallet，同時如果他們遺失了，您可以將其復原。
-- 解決方案 BIP-85**：您建立專屬的 seed 副句子，並只分享此副句子。
-- 優於 BIP-32**：使用 BIP-32，為親人建立帳戶需要分享您的主 seed 詞組，這會冒險您所有的資金，並使您親人的管理變得複雜（管理分支路徑），或者在您的主 seed 詞組之外建立一個新的 seed 詞組來儲存。
+- 情景：您為親近的人（例如您的母親）設定了一個 Bitcoin Wallet，同時如果他們遺失了，您可以將其復原。
+- 解決方案 **BIP-85**：您建立專屬的 seed 副句子，並只分享此副句子。
+- 優於 BIP-32：使用 BIP-32，為親人建立帳戶需要分享您的主 seed 詞組，這會冒險您所有的資金，並使您親人的管理變得複雜（管理分支路徑），或者在您的主 seed 詞組之外建立一個新的 seed 詞組來儲存。
 
 
 
@@ -115,9 +115,9 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 情況**：您分開比特幣作不同用途 (例如長期儲蓄、非 KYC 資金)。
-- 解決方案 BIP-85**：您為每個目標建立 seed 次要詞組。
-- 優於 BIP-32**：使用 BIP-32，所有帳戶共用相同的 seed 詞組，這使得第三方投資組合中的管理變得複雜，因為需要管理衍生路徑，例如 `m/44'/0'/0'`。此外，也無法為每個裝置指派獨立的帳戶 (例如「Coldcard 上的儲蓄」、「手機上的每日」、「Trezor 上的假期」)。BIP-85 會為每個目標指派唯一的 seed 次要詞組，方便識別並分別匯入每個裝置。
+- 情況：您分開比特幣作不同用途 (例如長期儲蓄、非 KYC 資金)。
+- 解決方案 **BIP-85**：您為每個目標建立 seed 次要詞組。
+- 優於 **BIP-32**：使用 BIP-32，所有帳戶共用相同的 seed 詞組，這使得第三方投資組合中的管理變得複雜，因為需要管理衍生路徑，例如 `m/44'/0'/0'`。此外，也無法為每個裝置指派獨立的帳戶 (例如「Coldcard 上的儲蓄」、「手機上的每日」、「Trezor 上的假期」)。BIP-85 會為每個目標指派唯一的 seed 次要詞組，方便識別並分別匯入每個裝置。
 
 
 
@@ -127,9 +127,9 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 情況**：您需要臨時投資組合來進行一次性交易或保密（例如：混合資金、與 Exchange KYC 互動等）。
-- 解決方案 BIP-85**：您建立一個 seed 次要句子，用於交易，然後在必要時銷毀它，因為您知道它可以再生。
-- 優於 BIP-32**：使用 BIP-32 時，臨時帳戶取決於 seed 主句，一旦洩密，您的所有資金都會暴露。
+- 情況：您需要臨時投資組合來進行一次性交易或保密（例如：混合資金、與 Exchange KYC 互動等）。
+- 解決方案 **BIP-85**：您建立一個 seed 次要句子，用於交易，然後在必要時銷毀它，因為您知道它可以再生。
+- 優於 **BIP-32**：使用 BIP-32 時，臨時帳戶取決於 seed 主句，一旦洩密，您的所有資金都會暴露。
 
 
 
@@ -141,7 +141,7 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 硬體** (選購)
+- **硬體** (選購)
  - Coldcard Mk4 或 Q1
  - MicroSD 卡
 
@@ -158,7 +158,7 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 相容**軟體
+- 相容**軟體**
  - Sparrow wallet (電腦，僅供觀看或進階管理使用)
  - 雙節棍（移動式，用於多重簽名）
  - BlueWallet (行動版)
@@ -168,7 +168,7 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 3.4 冷卡**配置
+- 3.4 冷卡配置
  - 在 Coldcard 上初始化一個包含 24 個單字的 seed 句子。
  - 選購：新增 passphrase 以確保 BIP-85 分支的存取安全。
  - 啟動有用的選項：NFC (用於輸出)、停用電池上的 USB (安全性)。
@@ -197,7 +197,7 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 1.如果您已將 passphrase 應用於主 seed：**
+- 1.如果您已將 passphrase 應用於主 seed：
  - 從主畫面，移至 `passphrase`。
     - 選擇「新增字詞」並輸入密碼。
     - 按「應用」。
@@ -207,7 +207,7 @@ BIP-85 可讓您從單一 seed 核心詞組建立多個 Bitcoin 投資組合，�
 
 
 
-- 2.前往 BIP-85** 功能表
+- 2.前往 **BIP-85** 功能表
  - 從主畫面，移至「進階 > 衍生 seed B85」。
  - 閱讀警告並確認。
 
@@ -246,7 +246,7 @@ ColdCard 會通知您，所產生的種子在數學上來自您的主 seed，但
 
 
 
-- 5.註記或匯出 seed 次要句子**
+- 5.註記或匯出 seed 次要句子
 
 
 ColdCard 現在會顯示新的 seed 次要句子。您可以 ：
@@ -415,13 +415,13 @@ BIP85 的使用完全依賴於 24 個字的 seed 主句，以及 passphrase (如
 
 
 
-- [BEEP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [seed 短語](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [seed 短語](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ BIP85 的使用完全依賴於 24 個字的 seed 主句，以及 passphrase (如
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 瞭解 passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Bitcoin 組合如何運作
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

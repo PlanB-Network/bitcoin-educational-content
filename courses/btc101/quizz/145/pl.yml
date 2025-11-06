@@ -1,11 +1,8 @@
-question: O co chodziło w wojnie blokowej w 2017 roku?
-answer: Konflikt dotyczący tego, czy zwiększyć rozmiar bloku, aby zwiększyć pojemność transakcji.
+question: Czym jest Hashrate?
+answer: Liczba obliczeń Hash, które urządzenie Mining może wykonać na sekundę w celu rozwiązania Proof of Work.
 wrong_answers:
-  - Konflikt dotyczący tego, czy zmniejszyć rozmiar bloku, aby zmniejszyć przepustowość transakcji.
-  - Konflikt dotyczący tego, czy zwiększyć Block reward, aby zachęcić górników.
-  - Konflikt dotyczący tego, czy obniżyć Block reward, aby zniechęcić górników.
-explanation: |
-  Wojna blokowa w 2017 r. była konfliktem o to, czy należy
-  zmodyfikować Bitcoin poprzez zwiększenie rozmiaru bloku w celu zwiększenia
-  pojemność transakcyjną.
+  - Szybkość, z jaką urządzenie Mining może rozwiązać Proof of Work.
+  - Całkowita liczba górników w sieci Bitcoin.
+  - Całkowita ilość bitcoinów wydobytych poprzez wykonanie określonej liczby prób na sekundę w celu rozwiązania Proof of Work.
+explanation: >-
 reviewed: true

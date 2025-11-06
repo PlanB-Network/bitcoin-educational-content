@@ -1,5 +1,5 @@
 ---
-name: استکین‌ست
+name: StackinSat
 
 description: نحوه استفاده از Stackinsat
 ---

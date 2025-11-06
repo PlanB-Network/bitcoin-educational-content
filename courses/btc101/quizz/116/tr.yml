@@ -1,10 +1,11 @@
-question: Kaydedilen ilk Bitcoin işlemi nedir?
-answer: Satoshi Nakamoto ve Hal Finney arasında 10 BTC'lik bir işlem.
+question: İlk Bitcoin işleminin blok numarası nedir?
+answer: Blok 170.
 wrong_answers:
-  - 2 pizza için 10.000 BTC'lik bir işlem.
-  - Satoshi Nakamoto ve Hal Finney arasında 1 BTC'lik bir işlem.
-  - Laszlo Hanyecz ve Hal Finney arasında 10.000 BTC'lik bir işlem.
+  - Blok 1.
+  - Blok 17.
+  - Blok 1700.
 explanation: |
-  Kaydedilen ilk Bitcoin işlemi, aşağıdaki işlemlerden biriydi
-  10 BTC Satoshi Nakamoto ve Hal Finney arasında.
+  İlk Bitcoin işlemi, ki bu işlem
+  10 BTC, Satoshi Nakamoto ve Hal Finney arasında kaydedildi
+  170. blokta.
 reviewed: true

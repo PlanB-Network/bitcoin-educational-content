@@ -1,0 +1,9 @@
+question: Kopernik'ten ne öğrenebiliriz?
+answer: Dünya'nın Güneş'in etrafında döndüğü.
+wrong_answers:
+  - Dünya'nın düz olduğunu.
+  - Dünya'nın Evren'in merkezinde olduğunu.
+  - Euclid'in denklemlerinin yanlış olduğunu.
+explanation: |
+  Nicolas Copernicus (1473-1543), Dünya'nın Güneş'in etrafında döndüğünü göstererek evren anlayışımızda devrim yaratmasıyla ünlüdür. Bu keşfin modern felsefe ve rasyonalizm üzerinde derin bir etkisi olmuştur.
+reviewed: false

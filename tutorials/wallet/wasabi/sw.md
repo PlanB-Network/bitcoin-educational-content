@@ -11,7 +11,6 @@ Chanzo huria, isiyodhibiti, faragha inayolenga Bitcoin Wallet ya Kompyuta ya Mez
 
 https://www.wasabiwallet.io/
 
-
 Mwongozo katika uumbaji
 
 

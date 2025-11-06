@@ -1,4 +1,4 @@
-question: Qui est l'auteur de “Moi, le crayon” et qui a également traduit La Loi de Bastiat en anglais ?
+question: Qui est l'auteur de Moi, le crayon et qui a également traduit La Loi de Bastiat en anglais ?
 answer: Leonard Read
 wrong_answers:
   - Leonard Nimoy
@@ -6,4 +6,4 @@ wrong_answers:
   - Milton Friedman
 explanation: |
   Leonard Read est connu pour avoir traduit La Loi de Bastiat en anglais et pour avoir popularisé son œuvre à travers la Foundation for Economic Education.
-reviewed: false
+reviewed: true 

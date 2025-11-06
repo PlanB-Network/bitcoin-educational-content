@@ -1,12 +1,11 @@
-question: Šta je Milton Friedman predvideo 1999.?
-answer: Razvoj pouzdanog e-novca.
+question: Šta je Lightning mreža?
+answer: Mreža plaćanja koja koristi Bitkoin protokol za omogućavanje munjevito brzih transakcija.
 wrong_answers:
-  - Propast fizičkog novca.
-  - Uspon Bitkoina.
-  - Kraj kontrole vlade nad novcem.
+  - Nova vrsta kriptovalute.
+  - Nova Blockchain tehnologija koja će u budućnosti zameniti Bitkoin.
+  - Metoda za rudarenje Bitkoina.
 explanation: |
-  Milton Friedman, poznati ekonomista, predvideo je 1999.
-  da će pouzdan e-novac uskoro biti razvijen, metod
-  preko kojeg na internetu možete preneti sredstva sa A na B,
-  bez da A zna B ili obrnuto.
+  Lightning mreža je mreža za plaćanje koja koristi
+  Bitkoin protokol za omogućavanje brzih transakcija. To nije
+  posebna kriptovaluta, niti metoda za rudarenje Bitkoina.
 reviewed: true

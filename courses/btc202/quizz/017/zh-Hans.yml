@@ -1,0 +1,9 @@
+question: 从 0.5 版开始，哪两个组件与 Bitcoin core 一起发布？
+answer: Bitcoin-qt 和 bitcoind
+wrong_answers:
+  - bitcoin-cli 和 Bitcoin-gui
+  - Bitcoin-Miner 和 Bitcoin-Wallet
+  - Bitcoin 核心和 Bitcoin 节点
+explanation: |
+  自 0.5 版起，Bitcoin core 包含图形 Interface (Bitcoin-qt) 和命令行 Interface (bitcoind)。
+reviewed: true

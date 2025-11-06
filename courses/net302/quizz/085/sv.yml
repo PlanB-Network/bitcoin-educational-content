@@ -1,0 +1,9 @@
+question: Vilket kommando kan användas för att kontrollera vilken Interface och gateway ett paket till 8.8.8.8 skulle routas genom?
+answer: ip route hämta 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> visar den exakta vägen som ett paket skulle ta för att nå en viss destination.
+reviewed: false

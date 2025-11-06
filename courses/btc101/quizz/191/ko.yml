@@ -1,0 +1,10 @@
+question: Bitcoin을 구매하기 전에 갖춰야 할 것 중 하나는 무엇인가요?
+answer: 안전한 Wallet.
+wrong_answers:
+  - 물리적 금고.
+  - 은행 계좌.
+  - 신용 카드.
+explanation: |
+  강좌 텍스트에는 Bitcoin를 구매하기 전에 다음과 같이 언급되어 있습니다
+  키를 보관할 안전한 Wallet를 가지고 있어야 합니다.
+reviewed: true

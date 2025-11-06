@@ -1,0 +1,9 @@
+question: Hangi modern protokol, IPv5'in ağ hizmet kalitesi yönetiminde amaçladığına benzer işlevsellik sağlar?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Kaynak Rezervasyon Protokolü), IPv5'in asıl amacı olan Hizmet Kalitesini (QoS) garanti etmek için ağ kaynaklarının dinamik olarak rezerve edilmesini sağlar.
+reviewed: false

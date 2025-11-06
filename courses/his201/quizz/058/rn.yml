@@ -1,0 +1,9 @@
+question: Ni mu gice ikihe igipimo ca Hash c’urubuga gipimwa mu gice ca kabiri c’umwaka w’2010?
+answer: Mu GH/s
+wrong_answers:
+  - Mu MH/s
+  - Mu TH/s
+  - Mu PH/s
+explanation: |
+  Igitigiri ca Hash cariyongereye kiva kuri 1.35 GH/s ku wa 13 Nyakanga kija kuri 120 GH/s ku wa 31 Kigarama 2010.
+reviewed: true

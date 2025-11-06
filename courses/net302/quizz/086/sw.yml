@@ -1,0 +1,9 @@
+question: Ni amri gani inayopendekezwa kwa kuchambua miunganisho inayotumika ya TCP na UDP kwenye mfumo wa Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - ip kiungo
+  - ifup
+explanation: |
+  Amri ya ss inachukua nafasi ya netstat ili kuonyesha kwa haraka miunganisho yote inayotumika ya mtandao.
+reviewed: false

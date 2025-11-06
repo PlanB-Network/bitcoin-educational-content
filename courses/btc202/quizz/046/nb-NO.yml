@@ -1,0 +1,9 @@
+question: Hva kan dbcache-parameteren gjøre i Bitcoin core?
+answer: Tildel RAM for å akselerere IBD
+wrong_answers:
+  - Definer Blockchain-størrelse
+  - Juster maksimal Mining-vanskelighetsgrad
+  - Begrens antall tilkoblede peers
+explanation: |
+  Parameteren dbcache øker minneplassen som brukes til midlertidig lagring av UTXO-settet, noe som kan fremskynde den innledende synkroniseringsprosessen.
+reviewed: true

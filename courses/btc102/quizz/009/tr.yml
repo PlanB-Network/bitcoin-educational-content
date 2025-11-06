@@ -1,5 +1,5 @@
 question: Çevrimiçi güvenlik Bitcoin kullanıcıları için neden çok önemlidir?
-answer: Çünkü bilgisayar korsanlığı bitcoinlerin geri döndürülemez şekilde kaybedilmesine neden olur
+answer: Çünkü bilgisayar korsanlığı bitcoinlerin geri döndürülemez şekilde kaybedilmesine yol açar
 wrong_answers:
   - Çünkü bankalar toplam Bitcoin kaybı durumunda fonları sigortalamaktadır
   - Çünkü bir kişi bitcoin kaybettiği için hapse girebilir

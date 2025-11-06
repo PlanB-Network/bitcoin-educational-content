@@ -1,9 +1,9 @@
-question: Kapan Lightning Network divalidasi dan diimplementasikan?
-answer: 2017
+question: Berapa ukuran blok dalam protokol Bitcoin?
+answer: 4MB
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - 1MB
+  - 2MB
+  - 3MB
 explanation: >-
-  Lightning Network divalidasi dan diimplementasikan pada tahun 2017.
+  Ukuran blok dalam protokol Bitcoin adalah 4MB.
 reviewed: false

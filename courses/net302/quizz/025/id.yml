@@ -1,0 +1,9 @@
+question: Untuk apa port yang dicadangkan digunakan dalam model TCP/IP?
+answer: Untuk mendengarkan permintaan pada layanan tertentu
+wrong_answers:
+  - Untuk enkapsulasi datagram otomatis generate
+  - Untuk merutekan frame jaringan secara fisik
+  - Untuk mengontrol fragmentasi paket UDP
+explanation: |
+  Port adalah titik pendengaran logis yang memungkinkan aplikasi jaringan untuk membedakan antara berbagai layanan yang berjalan pada host yang sama.
+reviewed: false

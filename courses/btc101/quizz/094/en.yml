@@ -1,14 +1,11 @@
-question: What is the risk of using a multisig wallet?
-answer: Not having access to enough individual private keys or backup components.
+question: What is a standard method for restoring your wallet?
+answer: Entering your mnemonic phrase into any wallet software.
 wrong_answers:
-  - Having access to enough individual private keys or backup components.
-  - Sharing your private keys with other parties.
-  - Sharing your public keys with other parties.
+  - Saving your mnemonic phrase in a digital file.
+  - Writing your mnemonic phrase on a whiteboard.
+  - Sharing your mnemonic phrase with a trusted friend.
 explanation: |
-  When you use a multisig wallet, each private key of the
-  multisig should be stored in different locations. This is
-  because the multisig requires multiple signatures to carry
-  out a transaction, so a certain number of wallets are
-  needed. Thus, storing each part in a different location
-  adds an extra layer of security.
-reviewed: true
+  The standard method of backing up the private key in a
+  Bitcoin wallet is by entering your mnemonic phrase into any
+  wallet software. This allows you to restore your wallet.
+reviewed: false

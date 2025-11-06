@@ -1,0 +1,9 @@
+question: 도메인의 IP Address을 얻기 위해 DNS 서버를 쿼리하는 데 사용할 수 있는 명령은 무엇인가요?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup은 도메인 이름을 IP 주소로 확인하는 DNS 쿼리 도구입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Stash에서 Contract을 외부 파일로 내보내는 명령은 무엇인가요?
+answer: RGB '<ContractId>' 내보내기 myContractPBN.RGB
+wrong_answers:
+  - RGB '<ContractId>' myContractPBN.RGB 다운로드
+  - RGB 덤프 '<ContractId>' myContractPBN.RGB
+  - RGB 문제 '<ContractId>' myContractPBN.RGB
+explanation: |
+  "RGB 내보내기" 명령은 Stash에서 Contract을 추출하여 파일로 저장하여 쉽게 공유할 수 있도록 하는 데 사용됩니다.
+reviewed: false

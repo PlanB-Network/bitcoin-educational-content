@@ -719,7 +719,7 @@ Der nächste Tiefenindex verteilt die Indizes wie folgt:
 - Verstärkte Kindschlüsselpaare sind ephemere Zahlungscodes: m/47'/0'/0'/ von 0' bis 2 147 483 647'/.
   Jedes Mal, wenn Alice eine Zahlung an Bob senden möchte, generiert sie eine neue eindeutige leere Adresse mithilfe des ECDH-Protokolls:
 
-* Alice wählt den ersten abgeleiteten privaten Schlüssel aus ihrem persönlichen wiederverwendbaren Zahlungscode aus:
+**Alice wählt den ersten abgeleiteten privaten Schlüssel aus ihrem persönlichen wiederverwendbaren Zahlungscode aus:**
 
 > a
 

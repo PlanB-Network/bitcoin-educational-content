@@ -1,0 +1,9 @@
+question: Какой документ служит техническим справочником для спецификаций протокола TCP/IP?
+answer: RFC
+wrong_answers:
+  - Белая книга
+  - ISO
+  - МИМ
+explanation: |
+  RFC (Request For Comments) - это справочные документы, определяющие спецификации протоколов TCP/IP.
+reviewed: false

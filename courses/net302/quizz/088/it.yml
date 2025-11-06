@@ -1,0 +1,9 @@
+question: Quale comando Linux visualizza la tabella di routing di rete attiva?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping route
+  - netstat -s
+explanation: |
+  ip route show elenca le rotte conosciute dal kernel e i percorsi effettuati dai pacchetti IP.
+reviewed: false

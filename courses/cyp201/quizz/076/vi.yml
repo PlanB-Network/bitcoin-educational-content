@@ -1,4 +1,4 @@
-question: Ký hiệu /<0;1>/* trong một mô tả tương ứng với gì?
+question: Ký hiệu /<0;1>/ trong một mô tả tương ứng với gì?
 answer: Đến chuỗi bên ngoài và chuỗi bên trong với sự phát sinh tuần tự
 wrong_answers:
   - Đến một địa chỉ đa chữ ký được sắp xếp

@@ -1,9 +1,10 @@
-question: 第四次减半后的BTC奖励是多少？
-answer: 3.125 BTC
+question: 分享比特币钱包的公钥有什么风险？
+answer: 隐私风险
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
-explanation:
-  第四次减半发生在区块高度840,000之后，挖矿的BTC奖励是3.125 BTC。
+  - 破坏比特币钱包的风险
+  - 丢失比特币的风险
+  - 黑客攻击比特币钱包的风险
+explanation: |
+  分享公钥涉及到隐私风险，但不会影响到安全性。
+  这是因为公钥用于生成比特币地址，从而接收资金，但它并不代表比特币的所有权。
 reviewed: true

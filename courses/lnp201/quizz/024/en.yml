@@ -6,4 +6,4 @@ wrong_answers:
   - They force the opening of a new channel if the transaction is incorrect
 explanation: |
   The timelock and the revocation key deter participants from cheating by ensuring that any attempt to cheat results in an immediate loss of funds for the guilty party.
-reviewed: false
+reviewed: true

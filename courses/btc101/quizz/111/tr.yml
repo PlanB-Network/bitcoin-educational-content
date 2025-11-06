@@ -1,13 +1,12 @@
-question: KYC ne anlama geliyor?
-answer: Müşterinizi Tanıyın.
+question: Bitcoin Blockchain'ın ilk bloğunda yer alan mesaj nedir?
+answer: 03/jan/2009 Şansölye bankalar için ikinci kurtarma paketinin eşiğinde.
 wrong_answers:
-  - Paranızı saklayın.
-  - Kodlarınızı Anahtarlayın.
-  - Lütfen Uygunluk Verin.
+  - Silahlanma yarışında büyük bir savaşı kazanabilir ve birkaç yıl boyunca yeni bir özgürlük alanı elde edebiliriz.
+  - Hükümetler Napster gibi merkezi olarak kontrol edilen ağların başını kesmekte başarılıdır, ancak Gnutella ve Tor gibi saf P2P ağları kendi başlarına ayakta duruyor gibi görünmektedir.
+  - Yukarıdakilerin hiçbiri.
 explanation: |
-  KYC veya Müşterinizi Tanıyın, aşağıdaki prosedürü ifade eder
-  işletmeler müşterilerinin kimliklerini doğrulamak için benimserler.
-  Bu genellikle aşağıdakilere uygunluğu sağlamak için yapılır
-  ve kara para gibi yasadışı faaliyetleri önlemek için
-  aklama veya dolandırıcılık.
+  Olarak da bilinen Bitcoin Blockchain'ün ilk bloğu
+  gW-6 bloğu, 03/jan/2009 mesajını içerir
+  Şansölye bankalar için ikinci kurtarma paketinin eşiğinde
+  gW-4'ün Genesis bloğuna o günkü Zaman başlığı.
 reviewed: true

@@ -1,12 +1,10 @@
-question: Jaki jest cel przepisów KYC?
-answer: Zwalczanie finansowania terroryzmu, uchylania się od opodatkowania i prania pieniędzy.
+question: Jaka jest jedna z potencjalnych konsekwencji nieprzestrzegania przepisów obowiązujących w Twoim kraju podczas zakupu Bitcoin?
+answer: Możesz narazić się na ryzyko.
 wrong_answers:
-  - Aby podnieść cenę Bitcoin i zmusić użytkownika do płacenia wyższych podatków.
-  - Aby kontrolować Supply z Bitcoin.
-  - Aby uniemożliwić ludziom zakup Bitcoin.
+  - Możesz podnieść cenę Bitcoin.
+  - Możesz kontrolować Supply z Bitcoin.
+  - Możesz uniemożliwić innym zakup Bitcoin.
 explanation: |
-  Tekst kursu wyjaśnia, że przepisy Know Your Customer (KYC)
-  wymagają od użytkowników podania tożsamości w celu
-  w celu zwalczania finansowania terroryzmu, uchylania się od opodatkowania i prania pieniędzy
-  prania pieniędzy.
+  W tekście kursu wspomniano, że nieprzestrzeganie przepisów
+  obowiązujących w danym kraju przy zakupie Bitcoin może narazić użytkownika na ryzyko.
 reviewed: true

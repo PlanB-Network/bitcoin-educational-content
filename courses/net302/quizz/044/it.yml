@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale del DNS nell'architettura di Internet?
+answer: Mappatura dei nomi di dominio agli indirizzi IP
+wrong_answers:
+  - Crittografia delle comunicazioni tra router
+  - Assegnazione dinamica degli indirizzi MAC ai dispositivi
+  - Controllo dell'accesso ai server web
+explanation: |
+  Il DNS (Domain Name System) traduce i nomi di dominio leggibili dall'uomo in indirizzi IP numerici necessari per l'instradamento.
+reviewed: false

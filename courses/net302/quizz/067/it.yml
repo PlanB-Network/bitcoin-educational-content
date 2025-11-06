@@ -1,0 +1,9 @@
+question: Qual è la motivazione principale dell'utilizzo di identificatori casuali Interface piuttosto che MAC Address in IPv6?
+answer: Preservare la privacy
+wrong_answers:
+  - Riduzione della dimensione dei pacchetti
+  - Accelerazione della risoluzione DNS
+  - Migliorare la compatibilità ARP
+explanation: |
+  L'uso di identificatori Interface casuali aiuta a proteggere dal tracciamento del dispositivo in base al MAC Address.
+reviewed: false

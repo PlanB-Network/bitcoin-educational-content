@@ -1,0 +1,9 @@
+question: Czym jest determinizm?
+answer: Koncepcja świata, w której nie ma ani przypadkowości, ani przypadku.
+wrong_answers:
+  - Światopogląd określony przez Boga.
+  - Forma ateizmu.
+  - Przesąd.
+explanation: |
+  Determinizm to światopogląd, w którym nie ma ani przypadku, ani przypadku. Każde zdarzenie jest konieczną konsekwencją wcześniejszych przyczyn, zgodnie z niezmiennymi prawami natury.
+reviewed: false

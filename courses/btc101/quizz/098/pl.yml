@@ -1,11 +1,11 @@
-question: Jaka jest zalecana alternatywa dla używania papieru do przechowywania frazy Mnemonic?
-answer: Grawerowanie na metalowej płytce.
+question: Dlaczego prywatność jest ważna w kontekście Bitcoin?
+answer: Aby zminimalizować ryzyko śledzenia środków.
 wrong_answers:
-  - Przechowywanie go w pliku cyfrowym.
-  - Napisanie tego na tablicy.
-  - Zapisanie go jako kontaktu w telefonie.
+  - Aby zmniejszyć wartość swoich bitcoinów.
+  - Aby zapobiec kradzieży bitcoinów.
+  - Aby płacić podatki od bitcoinów.
 explanation: |
-  Jedną z zalecanych alternatyw dla papieru do przechowywania
-  gW-1 jest wygrawerowanie go na metalowej płytce. To
-  rozwiązanie jest bardziej wytrzymałe i długotrwałe.
+  Prywatność jest ważna w kontekście Bitcoin, aby zminimalizować
+  ryzyko śledzenia środków, co może ułatwić inwigilację użytkownika
+  inwigilację.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Milline käsurea tööriist salvestab võrguliiklust reaalajas analüüsimiseks?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump salvestab ja logib võrgus Interface ringlevad paketid analüüsiks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 当 IP/MAC 映射有效且最近时，ip neigh 缓存中的条目处于什么状态？
+answer: 可到达
+wrong_answers:
+  - 连接
+  - 有效
+  - 陈旧
+explanation: |
+  REACHABLE 状态表示 IP/MAC 映射在邻域高速缓存中是已知的，并且是有效的。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ni irihe tegeko ry’inzahabu ryo kwikingira ama email y’ubuhendanyi?
+answer: Suzuma neza izina ryose ry’uwarungitse be n’aho iyo e-mail yaturutse.
+wrong_answers:
+  - Imisi yose wishura ama email akekeranya.
+  - Gufungura ibishizwe kuri email vyose kugira ngo ugenzure ibirimwo.
+  - Usangire amakuru yawe bwite n’abazirungitse gusa.
+explanation: |
+  Itegeko rya zahabu ryo kwikingira ama email y'ubuhendanyi
+  ni ugusuzuma neza izina ryose ry'uwarungitse na ryo nyene
+  nk'inkomoko y'imeli. Igihe ufise amakenga, uyifute!
+reviewed: true

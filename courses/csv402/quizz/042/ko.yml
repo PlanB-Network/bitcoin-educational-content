@@ -1,0 +1,9 @@
+question: RGB 채널 내에서 결제할 경우, Commitment 트랜잭션의 RGB 출력은 어떻게 되나요?
+answer: 참여자 간의 자산 재분배를 반영하도록 업데이트됩니다
+wrong_answers:
+  - 채널이 닫힐 때까지 초기 기록을 보존하기 위해 변경되지 않은 상태로 유지됩니다
+  - 제거되고 새로운 multi-sig로 대체됩니다
+  - 클래식 Bitcoin UTXO로 변환됩니다
+explanation: |
+  결제가 이루어지면 RGB State Transition는 RGB 출력을 조정하여 새 채널 잔액에 따라 자산을 재분배합니다.
+reviewed: false

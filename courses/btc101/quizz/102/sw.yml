@@ -1,12 +1,11 @@
-question: Ni njia gani moja ya kupata bitcoins zako kwa muda mrefu?
-answer: Kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama vile chuma.
+question: Je, kuna umuhimu gani wa wajibu wa mtu binafsi katika Bitcoin?
+answer: Ni muhimu kwa sababu unasimamia chelezo.
 wrong_answers:
-  - Kuwahifadhi katika Hot Wallet.
-  - Kuwaweka kwenye jukwaa la Exchange.
-  - Kushiriki maneno yako ya Mnemonic na mfanyakazi mwenzako.
+  - Ni muhimu kwa sababu unapaswa kuchimba bitcoins.
+  - Ni muhimu kununua bitcoins.
+  - Ni muhimu kwa sababu unasimamia mandhari ya Wallet.
 explanation: |
-  Kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama
-  chuma huunda nakala rudufu ya funguo zako ambazo ni
-  sugu kwa uharibifu wa maji na moto, na hivyo kupata yako
-  bitcoins kwa muda mrefu.
+  Katika Bitcoin, uhuru wa kifedha unaambatana na
+  jukumu la mtu binafsi, kwa sababu lazima uwe chini ya ulinzi
+  pesa zako kwa kufuata taratibu zilizopendekezwa za kuhifadhi nakala.
 reviewed: true

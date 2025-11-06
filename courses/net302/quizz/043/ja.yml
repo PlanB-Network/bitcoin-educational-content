@@ -1,0 +1,9 @@
+question: DNSサーバーのリファレンスとしてよく使われているオープンソースソフトウェアは？
+answer: バインド
+wrong_answers:
+  - アパッチ
+  - イカ
+  - サンバ
+explanation: |
+  BIND（Berkeley Internet Name Domain）は、世界中の大半のDNSサーバーで使用されているオープンソースのリファレンス実装である。
+reviewed: false

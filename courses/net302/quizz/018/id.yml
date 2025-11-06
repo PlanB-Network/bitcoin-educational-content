@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan datagram dalam konteks protokol IP?
+answer: Blok data mandiri yang dibawa melalui jaringan
+wrong_answers:
+  - Pesan terenkripsi yang ditujukan untuk satu perangkat
+  - Segmen TCP yang dienkapsulasi dalam UDP
+  - Sinyal fisik dari Akses Jaringan Layer
+explanation: |
+  Data IP ditransmisikan dalam bentuk datagram, blok independen yang berisi semua informasi yang diperlukan untuk pengiriman.
+reviewed: false

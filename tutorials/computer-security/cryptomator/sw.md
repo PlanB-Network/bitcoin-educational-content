@@ -42,7 +42,7 @@ Cryptomator ni mbadala wa programu zingine, haswa Picocrypt iliyotolewa katika n
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Programu ya Cryptomator inapatikana kwenye **Windows** (exe / msi), **Linux**, **macOS,** lakini pia **Android** na **iOS**. Kwa njia, maombi yote hayana malipo, isipokuwa kwa programu ya Android, ambayo unapaswa kulipa (euro 14.99).
 
@@ -170,7 +170,7 @@ Lazima uweke nenosiri lako ili kufungua salama. Kisha bonyeza "** Release drive 
 
 
 
-Kwa upande wa OneDrive, hatuwezi kuvinjari hifadhi ya Cryptomator moja kwa moja. Hatuwezi kuona data (wala majina ya faili wala yaliyomo). Hii inamaanisha kuwa huhitaji kuongeza data kwenye hifadhi yako ya Cryptomator kupitia njia ya mkato ya kawaida ya OneDrive. **Lazima uongeze data yako kwa kutumia hifadhi pepe ya Cryptomator
+Kwa upande wa OneDrive, hatuwezi kuvinjari hifadhi ya Cryptomator moja kwa moja. Hatuwezi kuona data (wala majina ya faili wala yaliyomo). Hii inamaanisha kuwa huhitaji kuongeza data kwenye hifadhi yako ya Cryptomator kupitia njia ya mkato ya kawaida ya OneDrive. **Lazima uongeze data yako kwa kutumia hifadhi pepe ya Cryptomator.**
 
 
 

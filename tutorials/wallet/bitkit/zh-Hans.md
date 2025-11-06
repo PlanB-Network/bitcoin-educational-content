@@ -1,5 +1,5 @@
 ---
-name: 比特套件 Wallet
+name: Bitkit Wallet
 
 description: 设置自我监护 On-Chain 和闪电 Wallet
 ---

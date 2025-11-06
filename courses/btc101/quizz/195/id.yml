@@ -1,11 +1,10 @@
-question: Apa salah satu cara untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari?
-answer: Daftarkan semua pedagang yang menerima Bitcoin
+question: Apa salah satu cara untuk mendapatkan Bitcoin tanpa KYC?
+answer: ATM Bitcoin.
 wrong_answers:
-  - Meningkatkan harga Bitcoin
-  - Mengurangi jumlah Bitcoin
-  - Membatasi penggunaan Bitcoin
+  - Platform broker.
+  - Platform DCA.
+  - Transfer bank.
 explanation: >-
-  Salah satu cara untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari adalah
-  dengan mendaftarkan semua pedagang yang menerima Bitcoin. Hal ini dapat dilakukan melalui platform
-  seperti BTCMap.
+  Teks tersebut menyebutkan bahwa ada beberapa cara untuk mendapatkan Bitcoin tanpa
+  KYC, salah satunya adalah ATM Bitcoin.
 reviewed: false

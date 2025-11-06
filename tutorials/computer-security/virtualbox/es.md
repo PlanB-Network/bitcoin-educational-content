@@ -59,7 +59,7 @@ Para descargar VirtualBox para instalarlo en una máquina Windows, sólo hay un 
 
 
 
-La instalación de VirtualBox** es sencilla, y el proceso es el mismo para todas las versiones de Windows. Comienza ejecutando el ejecutable de VirtualBox que acabas de descargar y haz clic en "**Siguiente**".
+La instalación de **VirtualBox** es sencilla, y el proceso es el mismo para todas las versiones de Windows. Comienza ejecutando el ejecutable de VirtualBox que acabas de descargar y haz clic en "**Siguiente**".
 
 
 
@@ -67,15 +67,15 @@ La instalación de VirtualBox** es sencilla, y el proceso es el mismo para todas
 
 
 
-Esta instalación es personalizable, pero le recomiendo que instale todas las características: que es el caso de la selección por defecto. En la imagen de abajo, puedes ver varios Elements, incluyendo :
+Esta instalación es personalizable, pero le recomiendo que instale todas las características: que es el caso de la selección por defecto. En la imagen de abajo, puedes ver varios Elements, incluyendo:
 
 
 
 
 
-- Soporte USB de VirtualBox** para que VirtualBox admita dispositivos USB
-- VirtualBox Bridged Network** para integrar el soporte de red en modo "Bridge" (la máquina virtual puede conectarse directamente a su red local)
-- VirtualBox Host-Only Network** para integrar soporte de red en modo "Host-Only" (la máquina virtual sólo puede comunicarse con su host físico Windows 11 y otras máquinas virtuales en este modo)
+- **Soporte USB de VirtualBox** para que VirtualBox admita dispositivos USB
+- **VirtualBox Bridged Network** para integrar el soporte de red en modo "Bridge" (la máquina virtual puede conectarse directamente a su red local)
+- **VirtualBox Host-Only Network** para integrar soporte de red en modo "Host-Only" (la máquina virtual sólo puede comunicarse con su host físico Windows 11 y otras máquinas virtuales en este modo)
 
 
 
@@ -165,10 +165,10 @@ Para crear una nueva máquina virtual en VirtualBox, basta con hacer clic en el 
 
 
 
-- Configuración**: configuración general de VirtualBox (carpeta VM por defecto, gestión de actualizaciones, idioma, redes NAT, extensiones, etc.)
-- Importar**: importar un dispositivo virtual en formato OVF
-- Exportar**: exportar una máquina virtual existente en formato OVF para crear un dispositivo virtual
-- Añadir**: añadir una máquina virtual existente al inventario de VirtualBox, en formato estándar de VirtualBox (.vbox) o en formato XML
+- **Configuración**: configuración general de VirtualBox (carpeta VM por defecto, gestión de actualizaciones, idioma, redes NAT, extensiones, etc.)
+- **Importar**: importar un dispositivo virtual en formato OVF
+- **Exportar**: exportar una máquina virtual existente en formato OVF para crear un dispositivo virtual
+- **Añadir**: añadir una máquina virtual existente al inventario de VirtualBox, en formato estándar de VirtualBox (.vbox) o en formato XML
 
 
 
@@ -184,16 +184,16 @@ A la izquierda, la sección "**Herramientas**" da acceso a **funciones avanzadas
 
 
 
-**Como recordatorio, VirtualBox soporta multitud de sistemas operativos, incluyendo Windows, Linux y BSD. En este ejemplo, voy a crear una máquina virtual para Windows 11. Hay que rellenar varios campos:
+**Como recordatorio, VirtualBox soporta multitud de sistemas operativos, incluyendo Windows, Linux y BSD.** En este ejemplo, voy a crear una máquina virtual para Windows 11. Hay que rellenar varios campos:
 
 
 
 
 
-- Nombre**: nombre de la máquina virtual (es el nombre que se mostrará en VirtualBox)
-- Carpeta de la máquina**: dónde almacenar la máquina virtual, sabiendo que en esta ubicación se creará una subcarpeta con el nombre de la VM
-- Tipo**: el tipo de sistema operativo, en función del SO que desee instalar
-- Versión**: la versión del sistema que desea instalar, en este caso Windows 11, por lo que "**Windows11_64**"
+- **Nombre**: nombre de la máquina virtual (es el nombre que se mostrará en VirtualBox)
+- **Carpeta de la máquina**: dónde almacenar la máquina virtual, sabiendo que en esta ubicación se creará una subcarpeta con el nombre de la VM
+- **Tipo**: el tipo de sistema operativo, en función del SO que desee instalar
+- **Versión**: la versión del sistema que desea instalar, en este caso Windows 11, por lo que "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Pulse "**Siguiente**" para continuar.
 
 
 
-Dependiendo del sistema operativo que selecciones en el paso anterior, **VirtualBox hace recomendaciones sobre los recursos a asignar a la máquina virtual**. Aquí, estamos hablando de la memoria RAM que desea asignar a la máquina virtual. Vamos a suponer 4 GB, porque es lo que se recomienda para Windows 11, pero si tienes pocos recursos, especifica 2 GB. **Continuar
+Dependiendo del sistema operativo que selecciones en el paso anterior, **VirtualBox hace recomendaciones sobre los recursos a asignar a la máquina virtual**. Aquí, estamos hablando de la memoria RAM que desea asignar a la máquina virtual. Vamos a suponer 4 GB, porque es lo que se recomienda para Windows 11, pero si tienes pocos recursos, especifica 2 GB. **Continuar**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox admite tres formatos diferentes para los discos virtuales Hard, lo qu
 
 
 
-- VDI**, el formato oficial de VirtualBox
-- VHD**, que es el formato oficial de Hyper-V, aunque actualmente se utiliza más el nuevo formato VHDX
-- VMDX** es el formato oficial de VMware tanto para VMware Workstation como para VMware ESXi
+- **VDI**, el formato oficial de VirtualBox
+- **VHD**, que es el formato oficial de Hyper-V, aunque actualmente se utiliza más el nuevo formato VHDX
+- **VMDX** es el formato oficial de VMware tanto para VMware Workstation como para VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ En este punto, la máquina virtual está en nuestro inventario, está configurad
 
 
 
-Para instalar Windows 11, o cualquier otro sistema, necesitamos fuentes de instalación. En la mayoría de los casos, utilizamos una imagen de disco en formato ISO para instalar un sistema operativo. **Es necesario cargar la imagen ISO de Windows 11 en la unidad de DVD virtual de nuestra VM
+Para instalar Windows 11, o cualquier otro sistema, necesitamos fuentes de instalación. En la mayoría de los casos, utilizamos una imagen de disco en formato ISO para instalar un sistema operativo. **Es necesario cargar la imagen ISO de Windows 11 en la unidad de DVD virtual de nuestra VM.**
 
 
 
@@ -333,7 +333,7 @@ En mi caso, la máquina virtual tiene 2 procesadores virtuales:
 
 
 
-**No dudes en echar un vistazo a las demás secciones del menú de configuración.
+**No dudes en echar un vistazo a las demás secciones del menú de configuración.**
 
 
 
@@ -390,10 +390,10 @@ En nuestro host físico de Windows 11, donde está instalado VirtualBox, podemos
 
 
 
-- El archivo VBOX** (en formato XML) correspondiente a la configuración de la VM (RAM, CPU, etc.)
-- El archivo VBOX-PREV** es una copia de seguridad de la configuración anterior
-- El archivo VDI** corresponde al disco virtual Hard en modo dinámico, por lo que actualmente sólo ocupa 13 GB, mientras que su tamaño máximo es de 64 GB
-- El archivo NVRAM** contiene el estado de la BIOS de la máquina virtual, que equivale a la memoria no volátil de una máquina física
+- El archivo **VBOX** (en formato XML) correspondiente a la configuración de la VM (RAM, CPU, etc.)
+- El archivo **VBOX-PREV** es una copia de seguridad de la configuración anterior
+- El archivo **VDI** corresponde al disco virtual Hard en modo dinámico, por lo que actualmente sólo ocupa 13 GB, mientras que su tamaño máximo es de 64 GB
+- El archivo **NVRAM** contiene el estado de la BIOS de la máquina virtual, que equivale a la memoria no volátil de una máquina física
 
 
 
@@ -405,4 +405,4 @@ En nuestro host físico de Windows 11, donde está instalado VirtualBox, podemos
 
 
 
-**¡VirtualBox ya está funcionando en nuestra máquina física con Windows 11! Ya volveré a hablar de la instalación de Windows 11 en una máquina virtual VirtualBox en otro artículo. Para Windows 10, Windows Server o una distribución Linux (Ubuntu, Debian, etc.), ¡simplemente déjate guiar!
+**¡VirtualBox ya está funcionando en nuestra máquina física con Windows 11!** Ya volveré a hablar de la instalación de Windows 11 en una máquina virtual VirtualBox en otro artículo. Para Windows 10, Windows Server o una distribución Linux (Ubuntu, Debian, etc.), ¡simplemente déjate guiar!

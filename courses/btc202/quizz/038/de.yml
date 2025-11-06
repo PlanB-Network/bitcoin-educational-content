@@ -1,0 +1,9 @@
+question: Warum wird eine Festplatte für einen Bitcoin-Knoten nicht empfohlen?
+answer: Weil es IBD und den allgemeinen Gebrauch deutlich verlangsamt
+wrong_answers:
+  - Weil es keine Blockchain-Dateien speichern kann
+  - Weil er zu wenig Energie verbraucht und zu explodieren droht
+  - Weil es mit Bitcoin core nicht kompatibel ist
+explanation: |
+  Mechanische Scheiben schränken die Leistung ein, verlängern die IBD beträchtlich und verschleißen schnell unter Knotenlast.
+reviewed: true

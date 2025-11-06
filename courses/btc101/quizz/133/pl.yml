@@ -1,8 +1,9 @@
-question: W jaki sposób górnicy walidują transakcje i włączają je do bloku?
-answer: Poprzez proces Proof of Work.
+question: Jaki jest obecny rozmiar Bitcoin Blockchain?
+answer: Około 500 GB.
 wrong_answers:
-  - Poprzez proces Proof of stake.
-  - Poprzez proces dowodu władzy.
-  - Poprzez proces Proof of burn.
-explanation: >-
+  - Około 100 GB.
+  - Około 1 TB.
+  - Około 2 TB.
+explanation: |
+  Bitcoin Blockchain ma rozmiar około 500 GB od 2023 roku.
 reviewed: true

@@ -1,0 +1,9 @@
+question: IANA 分配给各地区互联网注册管理机构 (RIR) 的 IPv6 数据块大小一般是多少？
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  自 2006 年以来，每个区域互联网注册管理机构通常会收到一个 /12 的 IPv6 数据块，为区域分配提供了大量储备。
+reviewed: false

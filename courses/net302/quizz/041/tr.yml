@@ -1,0 +1,9 @@
+question: Global DNS ortaya çıkmadan önce yerel çözümleme için tarihsel olarak hangi dosya kullanılıyordu?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  DNS yaygınlaşmadan önce, isim çözümlemesi Unix/Linux sistemlerindeki statik /etc/hosts dosyasına dayanıyordu.
+reviewed: false

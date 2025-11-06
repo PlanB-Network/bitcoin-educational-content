@@ -1,0 +1,16 @@
+question: None abakoresha Bitcoin vyogira ingaruka izihe iyo amabuye aremereye incuro 100?
+answer: Gukoresha urudodo rwa Bitcoin ntivyoshobora gushikirwa n’umuntu asanzwe, bikaba bishobora gutuma habaho ugusenyuka kw’amasezerano n’ukudahinduka kw’amategeko yompi y’ugucuruza n’ay’uguhurizako.
+wrong_answers:
+  - Gukoresha urudodo rwa Bitcoin vyoba vyoroshe ku muntu asanzwe, bigatuma habaho ugusenyura amasezerano n’ukudahinduka kw’amategeko yompi y’ugucuruza n’ay’uguhurizako.
+  - Ubushobozi bwo gukorana n’abandi bwogabanuka.
+  - Block reward y’abacukuzi b’amabuye y’agaciro yokwongerekana.
+explanation: |
+  Iyo amabuye aremereye incuro 100, gukoresha Bitcoin.
+  node yosaba disiki Hard y’amaTB 50, ubwaguke bw’umurongo burenga 100.000.
+  500GB/ukwezi, n’ibikoresho bishobora kwemeza amajana y’
+  ibihumbi vy’ibikorwa mu minota itarenga 10. Ibi
+  vyotuma gukoresha urudodo rwa Bitcoin rudashobora gushikirwa n'
+  umuntu asanzwe, bitera ingorane mu kwegereza ubutegetsi
+  amasezerano n'ukudahinduka kw'ibikorwa n'uguhurizako
+  amategeko.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 2025年のBitcoinノードで推奨されるSSDの最小容量は？
+answer: 2 へ
+wrong_answers:
+  - 512 GB
+  - 10 To
+  - 256 GB
+explanation: |
+  Blockchainが700GBを超え、アプリケーションが追加されたことで、2TBが妥当な最低ラインとなった。
+reviewed: true

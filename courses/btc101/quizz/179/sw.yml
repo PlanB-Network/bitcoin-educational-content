@@ -1,8 +1,8 @@
-question: Je, ni ipi mojawapo ya sababu zinazofanya Bitcoin kupata viputo vingi vya kubahatisha?
-answer: Kwa sababu ya Supply yake ndogo pamoja na mahitaji makubwa.
+question: Ni ipi njia moja ya kupata bitcoins bila kuzinunua?
+answer: Zikubali kama njia ya kulipia bidhaa au huduma unazotoa.
 wrong_answers:
-  - Kwa sababu Bitcoin haitumiki popote.
-  - Kwa sababu Bitcoin ni Bubble ambayo itatoweka.
-  - Kwa sababu Bitcoin haiko chini ya mizunguko ya kiuchumi.
+  - Ziazima kutoka kwa rafiki na usiwahi kuwarudishia.
+  - Washinde katika bahati nasibu.
+  - Wapate mitaani.
 explanation: >-
 reviewed: true

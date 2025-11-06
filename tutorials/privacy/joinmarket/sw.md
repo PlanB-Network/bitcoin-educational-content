@@ -22,11 +22,11 @@ Lengo la somo hili ni kuonyesha utendakazi wa kinadharia na vitendo wa JoinMarke
 
 
 
-Tunaweza kufafanua JoinMarket kama zana, au Wallet, inayowezesha CoinJoin na watumiaji wengine kwa njia ya Trustless kabisa na bila mratibu mkuu yeyote.
+Tunaweza kufafanua JoinMarket kama zana, au Wallet, inayowezesha CoinJoin kati ya watumiaji kwa njia ya trustless kabisa, bila mratibu mkuu yeyote.
 
 
 
-Kwa kuwa sehemu nzima ya kinadharia ya zana hii ni pana sana, niliamua kuiweka Address katika kipindi maalum cha podikasti yangu. Kwa wale wanaoweza kuelewa Kiitaliano, ninapendekeza sana kuendelea kusoma baada ya kusikiliza kipindi, ili kuiga vyema dhana za msingi za kutumia programu hii ipasavyo.
+Kwa kuwa sehemu ya kinadharia ya zana hii ni pana sana, niliamua kuiweka Address katika kipindi maalum cha podcast yangu. Kwa wale wanaoweza kuelewa Kiitaliano, ninapendekeza kuendelea kusoma baada ya kusikiliza kipindi, ili kuelewa vyema dhana za msingi za kutumia programu hii ipasavyo.
 
 
 
@@ -39,7 +39,7 @@ Unaweza kupata kipindi kwa viungo hivi vya moja kwa moja:
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/kipindi e/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon muziki](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b 03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
 - [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (hapa unaweza kuisikiliza moja kwa moja kutoka kwa kivinjari).
-- [Antena pod](https://antennapod.org/) ni kidhibiti cha podikasti huria na huria ambacho hakihitaji usajili. Ili kupata kipindi pakua programu, ongeza podikasti yangu mwenyewe kwa kubandika [kiungo hiki](https://Anchor.fm/s/bd5d5b20/podcast/rss) katika sehemu ya _feed rss_, kisha utafute kipindi kilichowekwa kwa JoinMarket.
+- [Antena pod](https://antennapod.org/) ni kidhibiti cha podcast huria na huria ambacho hakihitaji usajili. Ili kupata kipindi pakua programu, ongeza podcast yangu mwenyewe kwa kubandika [kiungo hiki](https://Anchor.fm/s/bd5d5b20/podcast/rss) katika sehemu ya _feed rss_, kisha utafute kipindi kilichowekwa kwa JoinMarket.
 
 
 
@@ -81,7 +81,7 @@ python wallet-tool.py generate
 ```
 
 
-Katika hatua hii tunapaswa kupata hitilafu, lakini kufanya hivyo kutasababisha programu generate faili ya mipangilio iliyowekwa awali kwa ajili yetu. Tunaweza kwenda na kuhariri faili ya mipangilio kutoka kwa terminal na:
+Katika hatua hii tunapaswa kupata hitilafu, lakini kufanya hivyo kutasababisha programu kugenerate faili ya mipangilio iliyowekwa awali kwa ajili yetu. Tunaweza kwenda na kuhariri faili ya mipangilio kutoka kwa terminal na:
 
 
 
@@ -127,7 +127,7 @@ Kuwa mwangalifu sana usihariri sehemu zisizo sahihi, baadhi ya vigeu katika fail
 
 
 
-Baadhi ya nodi huweka kiotomati thamani sahihi za sehemu hizi ndani ya faili ya joinmarket.cfg ninapendekeza uangalie upya mwenyewe:
+Baadhi ya node huweka kiotomati thamani sahihi za sehemu hizi ndani ya faili ya joinmarket.cfg ninapendekeza uangalie upya mwenyewe:
 
 
 
@@ -267,7 +267,7 @@ Total balance:	0.00000000
 ```
 
 
-Sasa tunaweza kuendelea kuweka Satoshi zetu za kwanza ndani ya anwani moja au zaidi tukikumbuka kwamba bila kujali mtengenezaji au anayeichukua, programu haitawahi kwenda na kuunganisha UTXO katika mchanganyiko tofauti moja kwa moja, kwa njia hii tunaweza kutenganisha Satss na viwango tofauti vya faragha ndani ya Wallet.
+Sasa tunaweza kuendelea kuweka Satoshi zetu za kwanza ndani ya anwani moja au zaidi, tukikumbuka kwamba bila kujali mtengenezaji au anayeichukua, programu haitawahi kuunganisha UTXO katika mchanganyiko tofauti moja kwa moja. Kwa njia hii, tunaweza kutenganisha Sats kwa viwango tofauti vya faragha ndani ya Wallet.
 
 
 
@@ -320,7 +320,7 @@ katika mfano huu tumeongeza vipimo viwili: -N inaonyesha ni vyama vingapi tutach
 
 
 
-Ikiwa tutaweka 0 kama thamani ya kutuma kwa kubainisha kina cha mchanganyiko, joinMarket itafanya kile kinachoitwa `kufagia`, yaani, itatuma pesa zote kwa undani huo kwa kuziunganisha zenyewe:
+Ikiwa tutaweka 0 kama thamani ya kutuma kwa kubainisha kina cha mchanganyiko, joinMarket itafanya kile kinachoitwa `Sweeping `, yaani, itatuma pesa zote kwa undani huo kwa kuziunganisha zenyewe:
 
 
 
@@ -334,7 +334,7 @@ hapa tulituma pesa zote kutoka kwa mixdepth 0 (hatungeweza kuainisha kwa sababu 
 
 
 
-Amri ya malipo ya kutuma hutumika kuhamisha fedha kutoka joinMarket hadi Wallet ya nje au kutuma Satoshi kwa mtu kwa kuongeza Layer ya faragha kati yetu na yeye. Ili kupata kiwango cha kutosha cha faragha kwenye UTXO zetu inafaa zaidi kutumia amri ya tumbler.py ambayo tutaelezea baadaye katika mwongozo huu.
+Amri ya kutuma malipo hutumika kuhamisha fedha kutoka JoinMarket hadi Wallet ya nje au kutuma Satoshi kwa mtu, kwa kuongeza safu ya faragha kati yetu naye. Ili kupata kiwango cha kutosha cha faragha kwenye UTXO zetu, inapendekezeka kutumia script ya tumbler.py ambayo tutaelezea baadaye katika mwongozo huu.
 
 
 
@@ -352,7 +352,7 @@ yg-privacyenhanced.py
 
 
 
-Mpango huu unatumika kama mtengenezaji katika joinMarket. Programu itaunganishwa kwenye nodi yetu ya Bitcoin na soko la ndani la jukwaa ambalo waundaji wanajionyesha kama wazabuni wa ukwasi na wapokeaji kutafuta wenzao. Iwapo unataka kutumia dhamana ya uaminifu unaweza kuunda moja na umbizo hili:
+Mpango huu unatumika kama mtengenezaji katika JoinMarket. Programu itaunganishwa kwenye node yetu ya Bitcoin na soko la ndani la jukwaa, ambapo waundaji wanajionyesha kama wazabuni wa ukwasi na wapokeaji hutafuta wenzao. Iwapo unataka kutumia dhamana ya uaminifu, unaweza kuunda moja kwa umbizo hili:
 
 
 
@@ -391,7 +391,8 @@ Ni muhimu kukumbuka kuwa inawezekana kupakia upya dhamana ya uaminifu kwa muamal
 
 
 
-Wacha sasa tushughulikie hati iliyotajwa mwanzoni mwa aya hii, mara tu tumeunda dhamana ya uaminifu (ambayo tunakumbuka kuwa ni ya hiari) tuko tayari kutekeleza inayoweza kutekelezwa ili kufanya kazi kama mtengenezaji kwenye joinMarket. Mara tu Satss zimewekwa kwenye anwani tofauti na mchanganyiko tunaweza kutekeleza amri:
+Wacha sasa tushughulikie hati iliyotajwa mwanzoni mwa aya hii. Mara tu tumetengeneza dhamana ya uaminifu (ambayo tunakumbuka kuwa ni ya hiari), tutakuwa tayari kutekeleza faili inayoweza kutekelezwa ili kufanya kazi kama mtengenezaji kwenye JoinMarket. Mara tu Sats zimewekwa kwenye anwani tofauti na mchanganyiko, tunaweza kutekeleza amri
+:
 
 
 
@@ -415,15 +416,15 @@ python wallet-tool.py <wallet name> history
 
 
 
-Mara Satoshis wako wanapotengeneza CoinJoins, zitasonga kutoka kwa mchanganyiko hadi kwa kina hadi kufikia ile ya mwisho. Mara baada ya nne watarudi kwa mixdepth 0, ni juu yako ni kiasi gani cha faragha kupata kabla ya kuwahamishia kwenye Cold Wallet, inashauriwa kumaliza mzunguko kamili wa Wallet.
+Mara Satoshi wako wanapotengeneza CoinJoins, zitasonga kutoka kwa mchanganyiko hadi kwa kina hadi kufikia ile ya mwisho. Mara baada ya nne watarudi kwa mixdepth 0, ni juu yako ni kiasi gani cha faragha kupata kabla ya kuwahamishia kwenye Cold Wallet, inashauriwa kumaliza mzunguko kamili wa Wallet.
 
 
 
-## Birika
+## Tumbler
 
 
 
-Hapa hatimaye tuko kwenye sehemu yenye juisi zaidi ya JoinMarket, bilauri! Ikiwa umesikiliza podikasti tayari unajua hii inahusu nini. Pendekezo moja kabla hatujaanza: **Jihadhari na ada!** Kumbuka kuweka vikomo katika faili ya joinmarket.cfg (kama ilivyoelezwa mwanzoni) na uzingatie kuendesha programu wakati ada za onchain ziko chini kiasi (chini ya 10 Sats/vB).
+Hapa hatimaye tuko kwenye sehemu yenye juisi zaidi ya JoinMarket, tumbler! Ikiwa umesikiliza podikasti tayari unajua hii inahusu nini. Pendekezo moja kabla hatujaanza: **Jihadhari na ada!** Kumbuka kuweka vikomo katika faili ya joinmarket.cfg (kama ilivyoelezwa mwanzoni) na uzingatie kuendesha programu wakati ada za onchain ziko chini kiasi (chini ya 10 Sats/vB).
 
 
 
@@ -437,7 +438,7 @@ python tumbler.py <wallet name> <receiving address (1)> <receiving address (2)> 
 
 
 
-Ni muhimu kuweka **angalau** anwani 3 za kutoa kwa bilauri: hii ni kuhakikisha faragha nzuri na sio kuunda viungo dhahiri kati ya UTXOs katika mchakato wote. Kama kawaida kwa kuongeza`--help` kwa amri unaweza kwenda na kuona maelezo yote ya ziada. Wacha tuone mfano ngumu zaidi na sheria za hali ya juu:
+Ni muhimu kuweka angalau addresses 3 za kutoa kwa tumbler: hii ni kuhakikisha faragha nzuri na kuepuka kuunda viungo dhahiri kati ya UTXO katika mchakato wote. Kama kawaida, kwa kuongeza --help kwenye amri unaweza kuona maelezo yote ya ziada. Wacha tuone mfano mgumu zaidi na sheria za hali ya juu:
 
 
 
@@ -451,11 +452,11 @@ Katika kesi hii, tumezindua hati inayoporomoka ambayo haitatumia nambari chaguo-
 
 
 
-Unaweza pia kuongeza anwani nyingi za pato unavyotaka (kiwango cha chini 3, hakuna kiwango cha juu zaidi ya akili ya kawaida). Hata hivyo, haiwezekani, kwa masuala ya faragha, kuamua jinsi Satoshi itasambazwa kati ya anwani zilizobainishwa kama pato.
+Unaweza pia kuongeza Address nyingi za pato unavyotaka (kiwango cha chini 3, hakuna kiwango cha juu zaidi ya akili ya kawaida). Hata hivyo, haiwezekani, kwa masuala ya faragha, kuamua jinsi Satoshi itasambazwa kati ya address zilizobainishwa kama pato.
 
 
 
-Bilauri ni mchakato mrefu wa kimakusudi, mara kwa mara inaweza kutokea kwamba kitu kitaacha kufanya kazi, katika hali nyingi hii itajisuluhisha yenyewe ndani ya saa chache. Katika kesi ya ajali jumla tunaweza kujaribu kuianzisha tena kwa amri:
+Tumbler ni mchakato mrefu wa kimakusudi, mara kwa mara inaweza kutokea kwamba kitu kitaacha kufanya kazi, katika hali nyingi hii itajisuluhisha yenyewe ndani ya saa chache. Katika kesi ya ajali jumla tunaweza kujaribu kuianzisha tena kwa amri:
 
 
 

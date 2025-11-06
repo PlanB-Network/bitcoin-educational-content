@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - 復原
+name: Samourai Wallet - Recover
 description: 如何恢復卡在 Samourai Wallet 上的 bitcoins？
 ---
 
@@ -29,7 +29,7 @@ _衷心感謝 [@Louferlou](https://twitter.com/Louferlou)，他協助多位使�
 
 如果您的智慧型手機上已經安裝 Samourai Wallet，您應該仍然可以存取該應用程式。要使用Samourai的Wallet功能，必須連接一個Dojo。在此之前，沒有個人Dojo的用戶只能依賴Samourai的伺服器來存取Bitcoin Blockchain的資訊和進行交易廣播。隨著這些伺服器被扣押，應用程式將無法再存取這些資料。
 
-如果您之前沒有連接 Dojo，但現在有了，您可以將其設定為再次使用您的 Samourai 應用程式。這包括檢查您的備份、刪除 Wallet（Wallet，而非應用程式），然後透過連接您的 Dojo 到應用程式來恢復 Wallet。關於這些步驟的更多細節，您可以參考[本教學，在「_準備您的Samourai錢包_」部分：CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2)。
+如果您之前沒有連接 Dojo，但現在有了，您可以將其設定為再次使用您的 Samourai 應用程式。這包括檢查您的備份、刪除 Wallet（Wallet，而非應用程式），然後透過連接您的 Dojo 到應用程式來恢復 Wallet。關於這些步驟的更多細節，您可以參考本教學，在「_準備您的Samourai錢包_」部分：CoinJoin - DOJO。
 
 如果您的 Samourai 應用程式已經連接到您自己的 Dojo，那麼 Wallet 部分對您來說就可以完美運作。您仍然可以看到您的餘額和廣播交易。儘管發生了這些事情，我認為 Samourai Wallet 仍然是目前最好的行動 Wallet 軟體。就我個人而言，我打算繼續使用它。
 
@@ -48,12 +48,12 @@ _衷心感謝 [@Louferlou](https://twitter.com/Louferlou)，他協助多位使�
 
 Twitter 上的評論強調，「石牆 」交易提供的隱私現在可能會減少。石牆交易的附加價值在於，就結構而言，它與石牆 x2 交易無法區分。當分析師遇到這種特定模式時，他們無法判斷這是單一使用者的標準石牆交易，還是涉及兩個使用者的石牆 x2 交易。然而，正如我們將在以下段落中看到的，由於無法使用 Soroban，進行石牆 x2 交易變得更加複雜。因此，有些人認為，分析師現在可能會假設任何具有這種結構的交易都是正常的石牆交易。我個人並不同意這種假設。雖然石牆 x2 交易的頻率可能較低（我認為在這次事件之前就已經是了），但事實上，它們仍有可能發生，這可能會使基於它們不是石牆交易的假設而進行的整個分析失效。
 
-**[-> 進一步瞭解石牆交易](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> 進一步瞭解石牆交易](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 關於 Ricochet，我無法證實這項服務是否仍在運作中，這是由於我在 Testnet 上並沒有自己的 Dojo，而且我寧願不冒險花 `100 000 Sats` 去購買可能會被官方控制的 Wallet。如果您最近有機會測試此工具，我邀請您與我聯絡，以便我們更新這篇文章。
 
 
-如果您需要使用 Ricochet，請注意您可以隨時使用任何 Wallet 軟體手動執行此操作。若要學習如何手動正確執行各種跳轉，我建議您參考這篇其他文章：[**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+如果您需要使用 Ricochet，請注意您可以隨時使用任何 Wallet 軟體手動執行此操作。若要學習如何手動正確執行各種跳轉，我建議您參考這篇其他文章：[**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 JoinBot 工具已不再運作，因為它完全依賴 Samourai 管理的 Wallet 的參與。
@@ -75,10 +75,10 @@ JoinBot 工具已不再運作，因為它完全依賴 Samourai 管理的 Wallet 
 - 如果您與合作者距離較遠，您可以透過應用程式的外部通訊管道 Exchange PSBT。不過，請務必小心，因為這些 PSBT 所包含的資料在隱私方面相當敏感。我建議使用加密訊息服務，以確保 Exchange 的機密性。
 
 
-**[-> 瞭解更多關於石牆 x2 交易.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> 瞭解更多關於石牆 x2 交易.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> 進一步瞭解 Stowaway 交易。](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> 進一步瞭解 Stowaway 交易。](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 至於 Whirlpool，協定似乎不再運作，即使是擁有自己 Dojo 的使用者也是如此。這幾天我一直在監控我的 RoninDojo，並嘗試進行一些基本操作，但自伺服器關閉後，Whirlpool CLI 就無法連線了。
@@ -240,7 +240,7 @@ Sparrow Wallet 繼續正常運作，除了 Samourai 工具不再可用。目前�
 - Postmix: `m/84'/0'/2147483646'`
 
 
-現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以查看 [我們的專用教學](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
+現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以查看 [我們的專用教學](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 
 我也建議您在 Samourai 上手動匯入與您的 UTXO 相關的標籤。這可讓您隨後在 Sparrow 上執行有效的硬幣控制。
@@ -329,7 +329,7 @@ Sparrow 接著會推導出您 Wallet 的金鑰，並搜尋相對應的交易。
 - Postmix: `m/84'/0'/2147483646'`
 
 
-現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以參考 [我們的專用教學](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
+現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以參考 [我們的專用教學](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 
 我也建議您在 Samourai 上手動匯入與您的 UTXO 相關的標籤。這可讓您隨後在 Sparrow 上執行有效的硬幣控制。
@@ -512,7 +512,7 @@ Sparrow 接著會推導出您 Wallet 的金鑰，並搜尋相對應的交易。
 
 隨著 OXT.me 的關閉，WST 工具已經停止服務，您只能估算這些 anonsets。對於回溯的 anonset，沒有太多需要擔心的，因為 Whirlpool 模型確保它從第一個 CoinJoin 起就非常高，這要歸功於您的同行遺產。唯一可能造成問題的情況是，如果您的錢幣已經幾年沒有再混合，而且是在一個池子推出之初混合的。關於潛在的停用時間，您可以檢查您的代幣可供加入代幣的時間。如果已經有幾個月了，那麼它可能有一個非常高的潛在anonset。相反，如果它是在伺服器被查封前幾個小時才被加入的，那麼它的潛在失效時間可能非常低。
 
-[**-> 詳細瞭解 anonsets 及其計算方法。**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> 詳細瞭解 anonsets 及其計算方法。**
 
 
 另一個需要考慮的方面是合併對已混合的錢幣的anonsets的影響。鑒於 Whirlpool 帳戶已無法透過 Samourai 應用程式存取，很可能有許多使用者已將 Wallet 轉移到其他軟體，並嘗試從 Whirlpool 提取資金。特別是在上週末，當 Bitcoin 網路的交易費用相對較高時，有強烈的技術和經濟誘因去鞏固混合後的硬幣。這意味著可能有很多用戶進行了大量的整合。

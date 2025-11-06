@@ -91,7 +91,7 @@ För att lägga till en ny enhet upprepar du helt enkelt installationsprocessen 
 För att ställa in en 2FA-autentiseringskod via en app som Authy på ett konto måste kontot stödja den här funktionen. Numera erbjuder majoriteten av onlinetjänsterna detta 2FA-alternativ, men det är inte alltid fallet. Låt oss ta exemplet med Proton-postkontot som jag presenterade i en annan handledning:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

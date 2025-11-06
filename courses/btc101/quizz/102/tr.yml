@@ -1,12 +1,11 @@
-question: Bitcoinlerinizi uzun vadede güvence altına almanın bir yöntemi nedir?
-answer: Mnemonic ifadenizi çelik gibi dayanıklı bir malzeme üzerine kazıyın.
+question: Bitcoin'da bireysel sorumluluğun önemi nedir?
+answer: Bu çok önemlidir çünkü yedeklemelerden siz sorumlusunuz.
 wrong_answers:
-  - Bunları bir Hot Wallet'de saklayın.
-  - Onları Exchange platformunda tutmak.
-  - Mnemonic cümlenizi bir iş arkadaşınızla paylaşmak.
+  - Bu çok önemlidir çünkü bitcoin madenciliği yapmanız gerekir.
+  - Bitcoin satın almak çok önemlidir.
+  - Bu çok önemli çünkü Wallet temasından siz sorumlusunuz.
 explanation: |
-  Mnemonic ifadenizi aşağıdaki gibi dayanıklı bir malzeme üzerine kazıyın
-  çelik, anahtarlarınızın fiziksel bir yedeğini oluşturur
-  hem su hasarına hem de yangına karşı dayanıklıdır, böylece
-  uzun vadede bitcoins.
+  KİS-2'de mali egemenlik, aşağıdakilerle el ele gider
+  bireysel sorumluluk, çünkü kendi gözetiminizi kendiniz yapmalısınız
+  önerilen yedekleme prosedürlerini takip ederek fonlarınızı koruyun.
 reviewed: true

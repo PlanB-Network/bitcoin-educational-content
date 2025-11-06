@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko nyamukuru bw’imiterere y’aligebra ikoreshwa mu bibanza bifise impera ku bijanye n’ugukora amakuru y’ibanga?
+answer: Ivyiyumviro bidashobora kugabanywa
+wrong_answers:
+  - Amabara y'inzira
+  - Ibinyabiziga vy'impfagusa
+  - Imizi ya kibe
+explanation: |
+  Mu buhinga bwo gupfuka amakuru, ivyicaro bifise impera vy'urutonde rwa 2^m akenshi bikoresha amabara menshi adashobora kugabanywa kugira ngo bimenye neza ko ivyicaro bisobanuwe neza kandi ko ibikorwa vyose bishoboka.
+reviewed: false

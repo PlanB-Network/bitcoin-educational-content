@@ -1,0 +1,9 @@
+question: چه کسی مفهوم تأیید پرداخت ساده‌شده (SPV) را ابداع کرد؟
+answer: Satoshi ناکاموتو
+wrong_answers:
+  - هال فینی
+  - آدام بک
+  - پیتر ویل
+explanation: |
+  SPV در بخش 8 از مقاله سفید Satoshi ناکاموتو ارائه شده است.
+reviewed: true

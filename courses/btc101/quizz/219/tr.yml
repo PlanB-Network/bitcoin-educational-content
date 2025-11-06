@@ -1,10 +1,8 @@
-question: Bu kurs Bitcoin'ın geleceği hakkında ne düşündürüyor?
-answer: Yok olmayacak.
+question: Lightning Network ne tür bir ağ oluşturuyor?
+answer: Bir ödeme kanalları ağı.
 wrong_answers:
-  - Daha iyi bir teknoloji ile değiştirilecektir.
-  - Dünya çapında yasaklanacaktır.
-  - Değerini kaybedecektir.
-explanation: |
-  Kurs metninde Bitcoin'in aşağıdaki konuları ele almayacağı belirtilmektedir
-  kayboldu. Aksine, devrim daha yeni başladı.
+  - Mining düğümlerinden oluşan bir ağ.
+  - Blockchain düğümlerinden oluşan bir ağ.
+  - Kripto para borsalarından oluşan bir ağ.
+explanation: >-
 reviewed: true

@@ -30,7 +30,7 @@ Die Verschlüsselung eines USB-Sticks ist ein guter Weg, um Ihre sensiblen Daten
 
 
 
-Für dieses Tutorial benötigen Sie :
+Für dieses Tutorial benötigen Sie:
 
 
 
@@ -131,7 +131,7 @@ Wir werden nun alle Daten auf unserem USB-Stick löschen. Der Vorgang besteht da
 
 
 
-**Achten Sie darauf, dass Sie die richtige Gerätedatei auswählen!
+**Achten Sie darauf, dass Sie die richtige Gerätedatei auswählen!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Hier initialisiert und formatiert der Unterbefehl "`luksFormat`" das Gerät für die Verwendung von LUKS-Verschlüsselung. Sie werden aufgefordert, diesen Vorgang durch Eingabe von `YES` in Großbuchstaben zu bestätigen und dann eine *passphrase* zu definieren. **Wählen Sie eine robuste *passphrase*, um sicherzustellen, dass ein Angreifer sie im Falle eines Verlustes nicht durch Brute-Force-Angriffe herausfinden kann.
+Hier initialisiert und formatiert der Unterbefehl "`luksFormat`" das Gerät für die Verwendung von LUKS-Verschlüsselung. Sie werden aufgefordert, diesen Vorgang durch Eingabe von `YES` in Großbuchstaben zu bestätigen und dann eine *passphrase* zu definieren. **Wählen Sie eine robuste** *passphrase*, **um sicherzustellen, dass ein Angreifer sie im Falle eines Verlustes nicht durch Brute-Force-Angriffe herausfinden kann.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Hier ist der Zielspeicherort** als "**/dev/mappe/usbkey1**"** angegeben, warum?
+**Hier ist der Zielspeicherort** als "**/dev/mappe/usbkey1**" angegeben, warum?
 
 
 
@@ -353,7 +353,7 @@ Das bedeutet, dass wir frei und transparent auf die Daten auf unserem USB-Stick 
 
 
 
-Sobald unsere Operation abgeschlossen ist, vergessen Sie nicht, alles ordnungsgemäß zu schließen, um sicherzustellen, dass wir unser Volume nicht beschädigen. Der erste Schritt ist das Aushängen der :
+Sobald unsere Operation abgeschlossen ist, vergessen Sie nicht, alles ordnungsgemäß zu schließen, um sicherzustellen, dass wir unser Volume nicht beschädigen. Der erste Schritt ist das Aushängen der:
 
 
 

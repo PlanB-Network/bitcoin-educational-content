@@ -26,9 +26,9 @@ description: 在不同的 Bitcoin 層間切換，同時保持控制。
 
 
 - on chain**：Bitcoin 的主鏈，交易平均每 10 分鐘確認一次，交易費用通常很高，不一定能滿足使用者的需求；
-- Lightning Network**：覆蓋 Bitcoin 即時付款，費用低廉，可讓 Bitcoin 用於日常付款；
-- Liquid Network**：由 Blockstream 創建的 Bitcoin 的覆蓋層，可實現快速、Confidential Transactions 以及使用其他基於 Bitcoin 的金融工具；
-- RootStock**：以 Bitcoin 通訊協定為基礎開發智慧型契約的解決方案。
+- **Lightning Network**：覆蓋 Bitcoin 即時付款，費用低廉，可讓 Bitcoin 用於日常付款；
+- **Liquid Network**：由 Blockstream 創建的 Bitcoin 的覆蓋層，可實現快速、Confidential Transactions 以及使用其他基於 Bitcoin 的金融工具；
+- **RootStock**：以 Bitcoin 通訊協定為基礎開發智慧型契約的解決方案。
 
 
 
@@ -54,7 +54,7 @@ Boltz 使用原子交換技術。此技術可讓比特幣在 2 層之間直接�
 
 
 
-原子式 Exchange 可與智慧契約 [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*) 搭配使用。在這一類 Contract 中，金額被 「鎖定 」在雙向通道中，並引入時間限制，如果交易未在一定時間內完成，餘額就會歸還給存款人。這是 Boltz 平台使用的機制。
+原子式 Exchange 可與智慧契約 [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*) 搭配使用。在這一類 Contract 中，金額被 「鎖定 」在雙向通道中，並引入時間限制，如果交易未在一定時間內完成，餘額就會歸還給存款人。這是 Boltz 平台使用的機制。
 
 
 
@@ -116,9 +116,9 @@ Boltz 是一個不需要您提供任何個人資訊的非存管式網路平台�
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 一旦您完成付款並確認，您的 Lightning Wallet 將自動收到等值金額。
 
@@ -188,6 +188,6 @@ Boltz 透過 Tor 網路上的 `.onion` 連結，為您提供高度的保密性�
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 現在您已經熟悉 Boltz 了，它是一個獨特的 Exchange 平台，能夠實現 Bitcoin 生態系統不同層級之間的互操作性。

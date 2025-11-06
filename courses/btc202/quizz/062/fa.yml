@@ -1,0 +1,9 @@
+question: کدام برنامه Umbrel به شما اجازه می‌دهد تا نود لایتنینگ خود را با یک Interface پیشرفته مدیریت کنید؟
+answer: سوار بر آذرخش
+wrong_answers:
+  - BTCPay Lightning
+  - نستر رله
+  - بیت‌فید
+explanation: |
+  Ride The Lightning و ThunderHub یک Interface کامل مبتنی بر وب برای مدیریت یک نود Lightning ارائه می‌دهند.
+reviewed: true

@@ -374,7 +374,7 @@ However, this suppression of interest rates comes at a cost: It makes capital mo
 
 This balancing act isn’t going quite as planned…
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Figure [Debt vs GDP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -429,7 +429,7 @@ Figure: Performance by Asset Class ([Stocks](https://finance.yahoo.com/quote/%5E
 
 With this lagging of wages to asset prices, we have seen one of the greatest transfers of wealth from the lower class to the upper class in recent history
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 Figure: Share of Total [Net Worth](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
@@ -824,7 +824,7 @@ Non-custodial wallets are a type of Bitcoin wallet where you are the sole custod
 
 Non-custodial wallets offer a higher level of security and privacy over custodial wallets since you are the only one responsible for the safety of your funds. Examples of non-custodial wallets include hardware wallets like [Coldcard](https://store.coinkite.com/store/coldcard) and [Trezor](https://trezor.io/), which are physical devices that store your private keys offline and provide an extra layer of security. Other popular non-custodial wallets are software wallets like [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), and [Blockstream Green](https://blockstream.com/green/), which can be downloaded and installed on your computer or mobile device.
 
-\*_Although we cannot recommend a specific wallet, we highly advise taking control of your bitcoin through self-custody or collaborative custody, which involves selecting a wallet that suits your needs and preferences. It is essential to conduct thorough research before deciding on a wallet to ensure that it aligns with your security and usability requirements._
+*Although we cannot recommend a specific wallet, we highly advise taking control of your bitcoin through self-custody or collaborative custody, which involves selecting a wallet that suits your needs and preferences. It is essential to conduct thorough research before deciding on a wallet to ensure that it aligns with your security and usability requirements.*
 
 While custodial wallets may appear convenient, they come with significant risks. By giving custody of your private keys to a third party, you effectively give them control over your funds. If the custodian becomes insolvent, hacked, or shuts down, you could lose access to your bitcoin. And this has happened on countless occasions, with high-profile examples including the Mt. Gox and QuadrigaCX hacks resulting in the loss of customer funds, or FTX, Voyager, BlockFi, and Celsius experiencing catastrophic insolvencies, leading to the loss of their customer funds. Especially for savings, practising self-custody and taking responsibility for safeguarding your bitcoin is crucial.
 
@@ -1130,7 +1130,7 @@ As Adanna's story demonstrated, inflation is a painful reality for countless ind
 
 To illustrate the effect of double-digit inflation, a 10% inflation rate, as experienced by Europe in October 2022, would mean a 61.5% loss of purchasing power over ten years.
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 _**Figure:** Inflations Effect On Purchasing [Power](https://anilsaidso.gumroad.com/)_
 
@@ -1408,7 +1408,7 @@ However, now energy producers have a way of capitalising on this stranded energy
 
 Lastly, Bitcoin miners are motivated to seek out inexpensive energy sources since their profits depend on the cost of energy. Consequently, they actively look for stranded energy or other forms of energy that would otherwise go unused. One notable example is flare gas, which is released when petroleum companies extract oil from the ground. Flare gas is a byproduct of this process and is typically burned off due to the high cost associated with capturing it. This practice, known as flaring, not only results in wasted energy but also releases methane and various other gases into the atmosphere.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1549,9 +1549,9 @@ However, in recent years, Bitcoin has emerged as a powerful tool for financial e
 
 While the world watched in horror as the Taliban seized control of Afghanistan in [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), this young girl Roya was living in the heart of the conflict. At just seven years old, she found herself caught up in the turmoil and uncertainty of war as her hometown was invaded and occupied by the Taliban. Despite the danger and adversity she faced, on top of the fact that she was unable to go to school, Roya refused to be defeated. Instead, she turned to education as a way to overcome the limitations imposed upon her by her circumstances.
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
-\***Figure:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Figure:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 Roya Mahboob is a trailblazer in Afghanistan's technology and entrepreneurship field. Not only was she [named](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) TIME Magazine's 100 Most Influential People in the World for 2013 after "building internet classrooms in high schools in Afghanistan." She also founded the Afghan Citadel Software Company in 2010, which aims to "create jobs for recent university graduates - especially women." And if that wasn't enough, she then went on to start the Digital Citizen Fund. This non-profit organisation works to empower women and children in developing countries through technology.
 
@@ -1607,73 +1607,73 @@ Owner of A Cafe, Vietnam
 
 “At my cafe in Binh Thanh district, we cater to a young clientele and occasional tourists, offering a variety of beverages, including coffee, soft drinks, and cocktails. Tether has become our go-to solution for processing payments from foreign customers who lack local currency or bank accounts. While the sales through Tether may be small currently, it provides us with a convenient way to bridge the currency gap and accommodate our international patrons. Customers are often amazed by our openness to accepting cryptocurrency payments, leaving a lasting impression on their experience."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 Parvinee Ratchaphokhinpiti
 Retired, Thailand
 
 “USDt revolutionised my international money transfers. As a retiree, I used to rely on slow bank wires. Thanks to USDt, I can now send money effortlessly through a digital asset exchange. Within 30 minutes, my sister received the funds. The time-saving benefits are invaluable, ensuring swift and hassle-free transactions.”
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 Jamie Tran
 Piano Teacher, Vietnam
 
 "Sending money to my relatives overseas has been a frequent necessity, yet the process of converting currencies at local exchanges proved to be both time-consuming and expensive. To address these challenges, I introduced my relatives to the convenience of using USDt. This simple shift has enabled our family to save significant time and money in our financial transactions. With USDt, we now enjoy streamlined overseas transfers, ensuring efficient and cost-effective support for our loved ones."
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 Roman
 Russian Expat living in Vietnam
 
 “Living in Vietnam, I frequently send Tether to my relatives and cousins in Russia. Transferring money overseas with Tether is hassle-free compared to using traditional banking methods. No bank visits, notarised documents, or explanations are required. With no sending limits, minimal fees, and fast transactions, funds are delivered within minutes.”
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 Luis Graterol
 Audiovisual, Venezuela
 
 “My name is Luis Graterol, and Tether helped me secure my savings in another way. In Venezuela, we suffer due to the high inflation, and Tether has helped a lot. Its usability is simple, and in many cases, you can make transactions without any fees. USDt makes my life easier! It also helps me educate and encourage its use in the audiovisual media; since I discovered its ease, I receive my payments by USDt, and I save the tedious local fiat that affects many of us!”
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
 “I’m from Venezuela and run a small breakfast delivery business. Tether USDt has been a viable solution for the problem of physical cash for me. USDt has also helped me with my savings because if I held my business accounts in the Venezuelan Bolivar, I could not have planned ahead with my sourcing of foods due to the constant devaluation”
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 Marcela Romero
 Marketing and PR Manager, Guanacaste, Costa Rica
 
 “A few years ago, I moved to my husband's country. Due to the pandemic, I faced a unique migratory condition, resulting in a lengthy wait for residency or citizenship. For nearly three years, I lacked access to a bank account and couldn't work legally in the country. However, leveraging my online work capabilities and receiving my salary in USDt, I continued my career remotely with international companies. With Tether, I can instantly send money back home without high fees or delays. Tether has enabled me to pursue my professional goals and maintain financial independence despite government restrictions.”
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 Simoneth Gomez
 QA Engineer, Venezuela, living in Argentina
 
 “Hi, my name is Simoneth Gomez. I'm from Venezuela, but I am currently living in Buenos Aires, where I work as a software quality analyst. When I came to Argentina, I had a distance of 12 km between my work and the place where I had to change money to send to my family in Venezuela. So I was introduced to USDt and started using it because instead of having to go that route for \$5 or \$10 on a bus, I was able to solve it from my desk in two minutes”
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 Carlos Caballero
 Psychologist, Argentina
 
 “Tether has been the solution that has allowed me to continue working in my profession during the years of the pandemic. The fact of being a currency anchored to the dollar allows it to have an international reference value. And its stability and security against the volatility of other cryptocurrencies is the main reason that led me to choose it.”
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 Heloisa Passos
 CEO Sp4ce Games, Brazil
 
 "I have been working remotely for international companies for about five years now, and most of that time, I suffered with high interest rates from the national banks, which charge a large percentage rate for every international remittance made, in addition to the waiting time for clearing payments through the Swift system (about 24 hours). When I started receiving my salary in Tether, I realised how much time and money I started saving just by being paid in USDt."
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 Samuel
 Trading Company, Nigeria
 
 “Using USDt has saved our business a lot of time because, as a Nigerian business getting USD requires going to our bank while spending valuable time filling out forms and queuing for hours to make withdrawals or transfers. With USDt, however, we can exchange it for local currency in less than 5 minutes and execute any transaction we might have.”
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 Joshua
 Student, Nigeria
 
 “Tether has helped me in numerous ways. Earning in Tether has helped me beat the tension of the rising inflation in the country, and it has helped me cut down on wasteful spending. Also, it helps my savings retain their value as I'm not badly affected by the devaluation of the Naira.”
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 Esther
 HR Agency, Nigeria
 

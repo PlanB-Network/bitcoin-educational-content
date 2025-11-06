@@ -1,0 +1,9 @@
+question: Ni ikihe gipimo c’ubunini bwa Mempool muri Bitcoin core?
+answer: MB 300
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Kubera ko ari vyo, Bitcoin core igabanya Mempool ku 300 MB. Ikirenze ivyo, ryirukana amafaranga adatanga inyungu nyinshi.
+reviewed: true

@@ -35,7 +35,7 @@ Kui tegemist on tööjaama virtualiseerimisega, kas siis projekti raames testimi
 
 
 
-Minu konfiguratsioon: **Kuid VirtualBoxi saab paigaldada nii Windows 10 (või vanemasse versiooni) kui ka Linuxile. Mis puutub virtuaalmasinatesse, siis VirtualBox toetab väga erinevaid süsteeme, sealhulgas Windows (nt Windows 10, Windows 11, Windows Server 2022 jne), Linux (Debian, Rocky Linux, Ubuntu, Fedora jne), BSD (PfSense) ja macOS.
+Minu konfiguratsioon: **Kuid VirtualBoxi saab paigaldada nii Windows 10 (või vanemasse versiooni) kui ka Linuxile. Mis puutub virtuaalmasinatesse, siis VirtualBox toetab väga erinevaid süsteeme, sealhulgas Windows (nt Windows 10, Windows 11, Windows Server 2022 jne), Linux (Debian, Rocky Linux, Ubuntu, Fedora jne), BSD (PfSense) ja macOS.**
 
 
 
@@ -59,7 +59,7 @@ VirtualBoxi allalaadimiseks Windowsi masinasse paigaldamiseks on ainult üks hea
 
 
 
-VirtualBoxi** paigaldamine on lihtne ja protsess on kõikide Windowsi versioonide puhul sama. Alustage, käivitades äsja alla laetud VirtualBoxi käivitatav fail, seejärel klõpsake "**Next**".
+**VirtualBoxi** paigaldamine on lihtne ja protsess on kõikide Windowsi versioonide puhul sama. Alustage, käivitades äsja alla laetud VirtualBoxi käivitatav fail, seejärel klõpsake "**Next**".
 
 
 
@@ -67,15 +67,15 @@ VirtualBoxi** paigaldamine on lihtne ja protsess on kõikide Windowsi versioonid
 
 
 
-See paigaldus on kohandatav, kuid ma soovitan paigaldada kõik funktsioonid: mis on vaikimisi valik. Allpool oleval pildil näete erinevaid Elements, sealhulgas :
+See paigaldus on kohandatav, kuid ma soovitan paigaldada kõik funktsioonid: mis on vaikimisi valik. Allpool oleval pildil näete erinevaid Elements, sealhulgas:
 
 
 
 
 
-- VirtualBoxi USB-tugi**, et võimaldada VirtualBoxil toetada USB-seadmeid
-- VirtualBox Bridged Network**, et integreerida võrgu tugi "Bridge" režiimis (virtuaalmasin saab otseühendust kohaliku võrguga)
-- VirtualBox Host-Only Network**, et integreerida võrgutugi "Host-Only" režiimis (virtuaalmasin saab selles režiimis suhelda ainult teie Windows 11 füüsilise hostiga ja teiste virtuaalmasinatega)
+- **VirtualBoxi USB-tugi**, et võimaldada VirtualBoxil toetada USB-seadmeid
+- **VirtualBox Bridged Network**, et integreerida võrgu tugi "Bridge" režiimis (virtuaalmasin saab otseühendust kohaliku võrguga)
+- **VirtualBox Host-Only Network**, et integreerida võrgutugi "Host-Only" režiimis (virtuaalmasin saab selles režiimis suhelda ainult teie Windows 11 füüsilise hostiga ja teiste virtuaalmasinatega)
 
 
 
@@ -165,10 +165,10 @@ Uue virtuaalmasina loomiseks VirtualBoxis klõpsake lihtsalt nupule "**Uus**", e
 
 
 
-- Seaded**: VirtualBoxi üldine konfiguratsioon (VM-i vaikimisi kaust, uuenduste haldamine, keel, NAT-võrgud, laiendused jne)
-- Import**: virtuaalse seadme importimine OVF-vormingus
-- Eksport**: olemasoleva virtuaalmasina eksportimine OVF-vormingus, et luua virtuaalne seade
-- Lisa**: olemasoleva virtuaalmasina lisamine VirtualBoxi inventari, standardses VirtualBoxi formaadis (.vbox) või XML-vormingus
+- **Seaded**: VirtualBoxi üldine konfiguratsioon (VM-i vaikimisi kaust, uuenduste haldamine, keel, NAT-võrgud, laiendused jne)
+- **Import**: virtuaalse seadme importimine OVF-vormingus
+- **Eksport**: olemasoleva virtuaalmasina eksportimine OVF-vormingus, et luua virtuaalne seade
+- **Lisa**: olemasoleva virtuaalmasina lisamine VirtualBoxi inventari, standardses VirtualBoxi formaadis (.vbox) või XML-vormingus
 
 
 
@@ -184,16 +184,16 @@ Vasakul asuv jaotis "**Tööriistad**" annab juurdepääsu **täiustatud funktsi
 
 
 
-**Mäletatavasti toetab VirtualBox paljusid operatsioonisüsteeme, sealhulgas Windows, Linux ja BSD. Selles näites kavatsen ma luua virtuaalmasina Windows 11 jaoks. Mitmed väljad tuleb täita:
+**Mäletatavasti toetab VirtualBox paljusid operatsioonisüsteeme, sealhulgas Windows, Linux ja BSD.** Selles näites kavatsen ma luua virtuaalmasina Windows 11 jaoks. Mitmed väljad tuleb täita:
 
 
 
 
 
-- Nimi**: virtuaalmasina nimi (see on nimi, mis kuvatakse VirtualBoxis)
-- Masina kaust**: kuhu salvestada virtuaalmasinat, teades, et sellesse asukohta luuakse VM-i nimega alamkaust
-- Type**: operatsioonisüsteemi tüüp, sõltuvalt sellest, millist operatsioonisüsteemi soovite paigaldada
-- Versioon**: süsteemi versioon, mida soovite paigaldada, antud juhul Windows 11, seega "**Windows11_64**"
+- **Nimi**: virtuaalmasina nimi (see on nimi, mis kuvatakse VirtualBoxis)
+- **Masina kaust**: kuhu salvestada virtuaalmasinat, teades, et sellesse asukohta luuakse VM-i nimega alamkaust
+- **Type**: operatsioonisüsteemi tüüp, sõltuvalt sellest, millist operatsioonisüsteemi soovite paigaldada
+- **Versioon**: süsteemi versioon, mida soovite paigaldada, antud juhul Windows 11, seega "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Jätkamiseks klõpsake "**Järgmine**".
 
 
 
-Sõltuvalt eelmises etapis valitud operatsioonisüsteemist annab **VirtualBox soovitusi virtuaalmasinale eraldatavate ressursside kohta**. Siinkohal räägime RAM-ist, mida soovite VM-le eraldada. Oletame, et see on 4 GB, sest see on tõepoolest soovitatav Windows 11 puhul, kuid kui Sul on ressursid vähe, siis määra selle asemel 2 GB. **Jätka
+Sõltuvalt eelmises etapis valitud operatsioonisüsteemist annab **VirtualBox soovitusi virtuaalmasinale eraldatavate ressursside kohta**. Siinkohal räägime RAM-ist, mida soovite VM-le eraldada. Oletame, et see on 4 GB, sest see on tõepoolest soovitatav Windows 11 puhul, kuid kui Sul on ressursid vähe, siis määra selle asemel 2 GB. **Jätka**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox toetab virtuaalsete Hard-ketaste jaoks kolme erinevat formaati, mis o
 
 
 
-- VDI**, ametlik VirtualBoxi formaat
-- VHD**, mis on ametlik Hyper-V formaat, kuigi tänapäeval kasutatakse sagedamini uut VHDX formaati
-- VMDX** on VMware ametlik vorming nii VMware Workstationi kui ka VMware ESXi jaoks
+- **VDI**, ametlik VirtualBoxi formaat
+- **VHD**, mis on ametlik Hyper-V formaat, kuigi tänapäeval kasutatakse sagedamini uut VHDX formaati
+- **VMDX** on VMware ametlik vorming nii VMware Workstationi kui ka VMware ESXi jaoks
 
 
 
@@ -273,7 +273,7 @@ Praegusel hetkel on VM meie inventari hulgas, see on konfigureeritud, kuid opera
 
 
 
-Windows 11 või mis tahes muu süsteemi paigaldamiseks on vaja paigaldusallikaid. Enamasti kasutame operatsioonisüsteemi paigaldamiseks ISO-vormingus plaadikujutist. **Vajalik on laadida Windows 11 ISO image meie VM-i virtuaalsesse DVD-ajamasse
+Windows 11 või mis tahes muu süsteemi paigaldamiseks on vaja paigaldusallikaid. Enamasti kasutame operatsioonisüsteemi paigaldamiseks ISO-vormingus plaadikujutist. **Vajalik on laadida Windows 11 ISO image meie VM-i virtuaalsesse DVD-ajamasse.**
 
 
 
@@ -333,7 +333,7 @@ Minu puhul on virtuaalmasinal 2 virtuaalset protsessorit:
 
 
 
-**Et kõhkle vaatamast ka teisi konfiguratsioonimenüü jaotisi.
+**Ära kõhkle vaatamast ka teisi konfiguratsioonimenüü jaotisi.**
 
 
 
@@ -390,10 +390,10 @@ Meie Windows 11 füüsilisel hostil, kuhu on paigaldatud VirtualBox, näeme, et 
 
 
 
-- VBOX** fail (XML-vormingus), mis vastab VM-i konfiguratsioonile (RAM, CPU jne)
-- VBOX-PREV** fail on varukoopia eelmisest konfiguratsioonist
-- VDI** fail vastab virtuaalsele Hard kettale dünaamilises režiimis, seega on selle suurus praegu ainult 13 GB, samas kui selle maksimaalne suurus on 64 GB
-- NVRAM** fail sisaldab virtuaalse masina BIOSi olekut, mis on samaväärne füüsilise masina mittepüsiva mäluga
+- **VBOX** fail (XML-vormingus), mis vastab VM-i konfiguratsioonile (RAM, CPU jne)
+- **VBOX-PREV** fail on varukoopia eelmisest konfiguratsioonist
+- **VDI** fail vastab virtuaalsele Hard kettale dünaamilises režiimis, seega on selle suurus praegu ainult 13 GB, samas kui selle maksimaalne suurus on 64 GB
+- **NVRAM** fail sisaldab virtuaalse masina BIOSi olekut, mis on samaväärne füüsilise masina mittepüsiva mäluga
 
 
 

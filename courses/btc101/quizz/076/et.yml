@@ -1,10 +1,9 @@
-question: Mis on avaliku võtme roll Bitcoin'i rahakotis?
-answer: Seda kasutatakse Bitcoin'i aadresside genereerimiseks ja seeläbi raha vastuvõtmiseks
+question: Millist analoogiat kasutatakse selgitamaks, kuidas saate Bitcoine vastu võtta ilma, et saatja saaks teie vahendeid varastada?
+answer: Postkast
 wrong_answers:
-  - Seda kasutatakse Bitcoin'i tehingute krüpteerimiseks
-  - Seda kasutatakse Bitcoin'i rahakoti ligipääsuks
-  - Seda kasutatakse Bitcoin'i rahakoti varundamiseks
+  - Pangakonto
+  - Seif
+  - Maja
 explanation: |
-  Avalik võti tuletatakse privaatvõtmest ja seda kasutatakse Bitcoin'i aadresside genereerimiseks,
-  et raha vastu võtta.
+  Analooogia, mida kasutatakse selgitamaks, kuidas saate Bitcoine vastu võtta ilma, et saatja saaks teie vahendeid varastada, on postkast. Inimesed panevad sinna raha, kuid ainult teie saate selle avada.
 reviewed: true

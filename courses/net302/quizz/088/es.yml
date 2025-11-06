@@ -1,0 +1,9 @@
+question: ¿Qué comando de Linux muestra la tabla de enrutamiento de red activa?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ruta ping
+  - netstat -s
+explanation: |
+  ip route show lista las rutas conocidas por el kernel y los caminos tomados por los paquetes IP.
+reviewed: false

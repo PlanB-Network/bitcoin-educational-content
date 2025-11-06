@@ -1,0 +1,9 @@
+question: Apa tujuan utama IPv5 (Stream Protocol, ST)?
+answer: Memastikan kualitas layanan untuk arus tertentu
+wrong_answers:
+  - Memperluas kapasitas pengalamatan IP
+  - Menyediakan kompatibilitas ke belakang dengan IPv6
+  - Mengurangi ukuran paket jaringan TCP/IP
+explanation: |
+  IPv5 (ST) dirancang untuk menyediakan kualitas layanan (QoS) untuk aliran multimedia, seperti VoIP, dengan menjamin bandwidth dan prioritas.
+reviewed: false

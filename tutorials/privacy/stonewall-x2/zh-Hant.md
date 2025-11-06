@@ -1,11 +1,11 @@
 ---
-name: 石牆 x2
+name: Stonewall x2
 description: 瞭解並使用 Stonewall x2 交易
 ---
 ![cover stonewall x2](assets/cover.webp)
 
 
-***警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被查封之後，Stonewallx2 的交易只能透過手動方式在相關各方之間交換 PSBT 來運作，前提是兩位使用者都連線到自己的 Dojo。然而，這些工具有可能在未來幾週內重新啟動。在此期間，您仍然可以參考這篇文章來了解 Stonewallx2 的理論操作，並學習如何手動進行。
+**警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被查封之後，Stonewallx2 的交易只能透過手動方式在相關各方之間交換 PSBT 來運作，前提是兩位使用者都連線到自己的 Dojo。然而，這些工具有可能在未來幾週內重新啟動。在此期間，您仍然可以參考這篇文章來了解 Stonewallx2 的理論操作，並學習如何手動進行。
 
 
 如果您正在考慮手動執行一個Stonewallx2，程序與本教程中描述的非常相似。主要的差異在於 Stonewallx2 交易類型的選擇：不要選擇「線上」，請點選「親自/手動」。然後，您需要手動 Exchange PSBTs 來建立 Stonewallx2 交易。如果您與合作夥伴距離很近，您可以連續掃描 QR 代碼。如果距離較遠，則可透過安全通訊通道交換 JSON 檔案。本教學的其他內容保持不變。
@@ -73,7 +73,7 @@ StonewallX2 交易的運作方式與 Stonewall 交易完全相同，只是前者
 如果您想尋找願意協助您進行石牆 X2 交易的合作者，您也可以造訪這個由 Samourai 使用者維護的 Telegram 群組 (非官方)，以連結發送者與合作者：[Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> 進一步瞭解石牆交易**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> 進一步瞭解石牆交易**](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## 石牆 x2 交易的目的是什麼？

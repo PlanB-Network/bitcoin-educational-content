@@ -1,5 +1,5 @@
 ---
-name: ब्लिट्ज़ Wallet
+name: Blitz Wallet
 
 
 description: सबसे सरल Bitcoin पोर्टफोलियो.
@@ -44,7 +44,7 @@ description: सबसे सरल Bitcoin पोर्टफोलियो.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**महत्वपूर्ण**: ये 12/24 रिकवरी शब्द आपके बिटकॉइन तक पहुंच के लिए आवश्यक हैं। यदि आप उन्हें खो देते हैं, तो आप अब अपने बिटकॉइन खर्च करने के लिए अधिकृत नहीं होंगे।
 
@@ -93,23 +93,23 @@ Wallet मेनू में, आपके पास एक न्यूनत�
 
 
 
-- Lightning Network** : Bitcoin ओवरले में से एक जो आपको तुरन्त माइक्रोट्रांजैक्शन करने की सुविधा देता है।
+- **Lightning Network** : Bitcoin ओवरले में से एक जो आपको तुरन्त माइक्रोट्रांजैक्शन करने की सुविधा देता है।
 
 
 
 
 
-- Bitcoin Mainnet** : Bitcoin प्रोटोकॉल की मुख्य श्रृंखला, बड़े मूल्य के लेनदेन के लिए उपयुक्त।
+- **Bitcoin Mainnet**: Bitcoin प्रोटोकॉल की मुख्य श्रृंखला, बड़े मूल्य के लेनदेन के लिए उपयुक्त।
 
 
 
 
 
-- Liquid Network**: ब्लॉकस्ट्रीम द्वारा विकसित Bitcoin Mainnet की समानांतर श्रृंखला जो तेजी से कार्य करने के लिए Liquid बिटकॉइन का उपयोग करती है, Confidential Transactions.
+- **Liquid Network**: ब्लॉकस्ट्रीम द्वारा विकसित Bitcoin Mainnet की समानांतर श्रृंखला जो तेजी से कार्य करने के लिए Liquid बिटकॉइन का उपयोग करती है, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 डिफ़ॉल्ट रूप से, आपके सभी लेनदेन Liquid Network पर होंगे, लेकिन ब्लिट्ज़ आपको **प्रारूप चुनें** बटन पर क्लिक करके उस नेटवर्क को परिभाषित करने देता है जिस पर आप सातोशी प्राप्त करना चाहते हैं।
 
@@ -179,7 +179,7 @@ Bitcoin स्थानांतरण कार्यों के अतिर
 
 
 
-- विश्व में कहीं भी टेक्स्ट संदेश भेजें**: ब्लिट्ज स्टोर में, आपके पास एक GSM सेवा तक पहुंच है जो आपको Bitcoin में प्रत्यक्ष बिलिंग के साथ, विश्व में कहीं भी गुमनाम रूप से टेक्स्ट संदेश भेजने की सुविधा देती है।
+- **विश्व में कहीं भी टेक्स्ट संदेश भेजें**: ब्लिट्ज स्टोर में, आपके पास एक GSM सेवा तक पहुंच है जो आपको Bitcoin में प्रत्यक्ष बिलिंग के साथ, विश्व में कहीं भी गुमनाम रूप से टेक्स्ट संदेश भेजने की सुविधा देती है।
 
 
 
@@ -189,7 +189,7 @@ Bitcoin स्थानांतरण कार्यों के अतिर
 
 
 
-- पूर्ण गोपनीयता के साथ सर्फिंग करें**: अपने बिटकॉइन के साथ Wallet ब्लिट्ज स्टोर में वायरगार्ड वीपीएन (वर्चुअल प्राइवेट नेटवर्क) सदस्यता के लिए भुगतान करें।
+- **पूर्ण गोपनीयता के साथ सर्फिंग करें**: अपने बिटकॉइन के साथ Wallet ब्लिट्ज स्टोर में वायरगार्ड वीपीएन (वर्चुअल प्राइवेट नेटवर्क) सदस्यता के लिए भुगतान करें।
 
 
 
@@ -197,9 +197,9 @@ Bitcoin स्थानांतरण कार्यों के अतिर
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet ब्लिट्ज के पर्दे के पीछे की कहानी: आगे की कहानी
 
@@ -221,7 +221,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 आप अपने शेष राशि का विवरण **सेटिंग्स>शेष जानकारी** मेनू में देख सकते हैं।
 
@@ -249,7 +249,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- अपनी दुकान में Bitcoin स्वीकार करें** :
+- **अपनी दुकान में Bitcoin स्वीकार करें** :
 
 
 
@@ -269,5 +269,4 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

@@ -1,0 +1,9 @@
+question: Ni programu gani ya michoro inaweza kutumika kutoa uchambuzi wa kina wa kielimu wa pakiti za mtandao zilizonaswa?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Njia
+explanation: |
+  Wireshark ni kichanganuzi cha pakiti cha picha kwa uchunguzi wa kina wa trafiki ya mtandao iliyonaswa.
+reviewed: false

@@ -1,0 +1,10 @@
+question: 소급 무설정이란 무엇을 의미하나요?
+answer: 사이클 종료 시 UTXO의 가능성이 있는 소스 수입니다.
+wrong_answers:
+  - 사이클이 끝날 때 구분할 수 없는 UTXO 그룹의 크기입니다.
+  - 사이클 시작 시 UTXO에 대한 가능한 소스 수입니다.
+  - CoinJoin를 완료하는 데 필요한 시간입니다.
+explanation: |
+  소급 무설정 값은 사이클이 끝날 때 UTXO를 고려하여 주어진 Coin에 대해 가능한 소스 수를 나타냅니다.
+  
+reviewed: true

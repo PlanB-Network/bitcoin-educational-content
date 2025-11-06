@@ -1,5 +1,5 @@
 ---
-name: Boltzmann kalkulator
+name: Boltzmann Calculator
 description: Razumeti koncept entropije i kako koristiti Boltzmannovu formulu
 ---
 ![cover](assets/cover.webp)

@@ -102,7 +102,7 @@ De praktische realiteit is echter veel complexer. Er is een veelheid aan gedragi
 Deze ingangspunten zijn bijna onvermijdelijk bij het gebruik van Bitcoin. Hoewel je kunt proberen hun bereik te beperken, zullen ze aanwezig blijven. Daarom is het cruciaal om methodes te combineren die gericht zijn op het beschermen van je privacy. Hoewel het onderhouden van een acceptabele scheiding tussen je echte identiteit en je transacties een prijzenswaardige aanpak is, blijft het onvoldoende. Immers, als al je On-Chain activiteiten kunnen worden gegroepeerd, dan kan zelfs het kleinste toegangspunt de enige Layer van privacy die je had ingesteld in gevaar brengen.
 
 
-Daarom is het ook nodig om ons bezig te houden met ketenanalyse in ons gebruik van Bitcoin. Door dit te doen, kunnen we de samenvoeging van onze activiteiten minimaliseren en de impact van een toegangspunt op onze privacy beperken. Precies, om ketenanalyse beter tegen te gaan, is er geen betere aanpak dan jezelf vertrouwd te maken met de methodes die gebruikt worden bij ketenanalyse? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Zo kun je technieken als [CoinJoin](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef) of [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) beter begrijpen en de fouten die je zou kunnen maken, beperken.
+Daarom is het ook nodig om ons bezig te houden met ketenanalyse in ons gebruik van Bitcoin. Door dit te doen, kunnen we de samenvoeging van onze activiteiten minimaliseren en de impact van een toegangspunt op onze privacy beperken. Precies, om ketenanalyse beter tegen te gaan, is er geen betere aanpak dan jezelf vertrouwd te maken met de methodes die gebruikt worden bij ketenanalyse? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Zo kun je technieken als [CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) of [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) beter begrijpen en de fouten die je zou kunnen maken, beperken.
 
 
 Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet men weten welke aanvallen het zal ondervinden en ook bestuderen waarom vorige algoritmen gebroken werden. Hetzelfde principe geldt voor privacy op Bitcoin. Het begrijpen van de methodes van ketenanalyse is de sleutel tot bescherming ertegen. Daarom bied ik je dit artikel aan.
@@ -453,7 +453,7 @@ Allereerst is het raadzaam om, voordat we radicalere methoden overwegen, de heur
 
 Het basisprincipe voor het waarborgen van je privacy op Bitcoin ligt in het gebruik van een nieuwe, schone Address voor elke inkomende transactie naar je Wallet. Hergebruik van Address is echt de grootste bedreiging voor de privacy op Bitcoin.
 
-Voor een individuele gebruiker is het genereren van een nieuwe Address voor elke inkomende betaling heel eenvoudig. Moderne wallets doen dit automatisch zodra je op "Ontvangen" klikt. Dus, als je ook maar het minste belang hecht aan de privacy van je transacties, is het gebruik van nieuwe adressen het absolute minimum. Als je ooit een statisch contactpunt op het internet nodig hebt, kun je in plaats van een ontvangende Address, oplossingen gebruiken [zoals PayNym die BIP47 implementeren](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
+Voor een individuele gebruiker is het genereren van een nieuwe Address voor elke inkomende betaling heel eenvoudig. Moderne wallets doen dit automatisch zodra je op "Ontvangen" klikt. Dus, als je ook maar het minste belang hecht aan de privacy van je transacties, is het gebruik van nieuwe adressen het absolute minimum. Als je ooit een statisch contactpunt op het internet nodig hebt, kun je in plaats van een ontvangende Address, oplossingen gebruiken [zoals PayNym die BIP47 implementeren](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 
 Vervolgens, als je wilt optreden tegen ketenanalyse, vermijd dan het samenvoegen van UTXO's bij de invoer van een transactie. Als je echt moet samenvoegen, geef dan op zijn minst de voorkeur aan UTXOs die dezelfde bron hebben. Deze aanbeveling impliceert een goed beheer van je UTXO's. Als je bitcoins koopt, geef dan de voorkeur aan transfers met grote bedragen om het aantal betalingen dat je kunt doen zonder samen te voegen te maximaliseren. Ik adviseer je ook om je UTXO's te labelen in je software om hun oorsprong te identificeren en samenvoegen van verschillende bronnen te voorkomen.
 
@@ -477,8 +477,8 @@ Je kunt ook methoden gebruiken die je gebruik van Bitcoin dubbelzinnig maken om 
 De populairste techniek is zeker CoinJoin, een collaboratieve transactiestructuur die meerdere UTXO's van dezelfde bedragen mobiliseert. Het doel is hier om deterministische links te verbreken en zo analyses van het heden naar het verleden en van het verleden naar het heden te voorkomen. CoinJoin maakt plausibele ontkenning mogelijk door je munten te verbergen in een grote groep niet van echt te onderscheiden munten. Als je meer wilt leren over CoinJoin, zowel technisch als praktisch, raad ik je aan deze andere artikelen en tutorials te lezen:
 
 
-- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef);
-- [CoinJoin - Sparrow wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-Sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [CoinJoin - Sparrow wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
 - [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ![analysis](assets/en/13.webp)
@@ -490,7 +490,7 @@ CoinJoin is een uitstekend hulpmiddel voor het creëren van plausibele ontkennin
 Stel je bijvoorbeeld voor dat ik mijn stokbrood in bitcoins wil betalen terwijl ik mijn privacy optimaliseer. Gezien de onmogelijkheid om het bedrag van de resulterende UTXO te selecteren uit de CoinJoin, zou ik niet in staat zijn om het bedrag van mijn uitgave aan te passen aan de prijs die de bakker heeft vastgesteld. Daarom is CoinJoin niet geschikt voor betalingstransacties.
 
 
-Andere hulpmiddelen zijn ontwikkeld om te voldoen aan privacybehoeften in meer specifieke gebruikssituaties. We hebben bijvoorbeeld [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), een soort mini-CoinJoin, met slechts twee deelnemers en gebaseerd op een structuur die betaling mogelijk maakt.
+Andere hulpmiddelen zijn ontwikkeld om te voldoen aan privacybehoeften in meer specifieke gebruikssituaties. We hebben bijvoorbeeld [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), een soort mini-CoinJoin, met slechts twee deelnemers en gebaseerd op een structuur die betaling mogelijk maakt.
 
 
 Het unieke van PayJoin ligt in de mogelijkheid om een transactie te produceren die er gewoon uitziet, terwijl het eigenlijk een mini-CoinJoin tussen twee gebruikers is. In deze structuur neemt de ontvanger van de transactie deel aan de inputs naast de eigenlijke verzender. De ontvanger voegt dus een betaling aan zichzelf toe aan de transactie die de eigenlijke betaling vergemakkelijkt.
@@ -513,18 +513,18 @@ Het tweede doel van PayJoin is om de analist te misleiden over het werkelijke be
 Als we ons voorbeeld van het gebruik van PayJoin om een stokbrood te kopen nog eens bekijken, zou een externe waarnemer kunnen denken dat we te maken hebben met een betaling van 4.000 Sats of 21.000 Sats. In werkelijkheid is de betaling voor het stokbrood 6.000 Sats: 21.000 - 15.000 = 6.000. In werkelijkheid is de betaling voor het stokbrood 6.000 Sats: 21.000 - 15.000 = 6.000. De werkelijke waarde van de betaling is dus 6.000 Sats. De echte waarde van de betaling zit dus verborgen in een nepbetaling die als lokkertje dient voor ketenanalyse.
 
 
-Naast PayJoin en CoinJoin zijn er vele andere Bitcoin transactiestructuren die ofwel de analyse van de blokketen blokkeren of deze misleiden. Ik zou hier de [Stonewall](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) en [StonewallX2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) transacties kunnen noemen, die het mogelijk maken om een flexibele mini CoinJoin te maken of om een flexibele mini CoinJoin te imiteren. Er zijn ook [Ricochet](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transacties die een verandering van Ownership van bitcoins simuleren door een veelvoud aan valse overschrijvingen naar zichzelf te doen.
+Naast PayJoin en CoinJoin zijn er vele andere Bitcoin transactiestructuren die ofwel de analyse van de blokketen blokkeren of deze misleiden. Ik zou hier de [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) en [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) transacties kunnen noemen, die het mogelijk maken om een flexibele mini CoinJoin te maken of om een flexibele mini CoinJoin te imiteren. Er zijn ook [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transacties die een verandering van Ownership van bitcoins simuleren door een veelvoud aan valse overschrijvingen naar zichzelf te doen.
 
 
 Al deze tools zijn beschikbaar op Samourai Wallet op mobiel en Sparrow wallet op PC. Als je meer wilt leren over deze specifieke transactiestructuren, raad ik je aan mijn tutorials te ontdekken:
 
 
-- [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
-- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab);
-- [PayJoin - Sparrow wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-Sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
-- [STONEWALL](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
-- [RICOCHET](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+- [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PayJoin - Sparrow wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 
 ## Conclusie

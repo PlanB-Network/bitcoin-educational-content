@@ -1,11 +1,9 @@
-question: Mis peaks olema peamine mure, kui omate bitcoine?
-answer: Oma vahendite turvalisus
+question: Mis on soovitatav kasutusviis offline ehk külma füüsilise rahakoti jaoks?
+answer: Suuremate summade hoidmiseks
 wrong_answers:
-  - Oma bitcoinide väärtus dollarites
-  - Bitcoinide omamise seaduslikkus
-  - Loa saamine oma bitcoinide kulutamiseks
+  - Igapäevaste kulutuste jaoks
+  - Väikeste summade jaoks
+  - Lühiajaliste säästude jaoks
 explanation: |
-  Kui omate bitcoine, on peamine mure oma vahendite turvalisus.
-  See on seetõttu, et bitcoinid, nagu iga teinegi valuuta, võivad olla varastatud või kaotsi minna,
-  kui neid korralikult ei turvata.
+  Offline ehk külma füüsilist rahakotti soovitatakse kasutada suuremate summade hoidmiseks, kuna see on vähem haavatav online-ohtudele. Siiski, seda ei soovitata igapäevaste kulutuste jaoks, kuna see on igapäevaste tehingute jaoks vähem kättesaadav.
 reviewed: true

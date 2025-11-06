@@ -1,0 +1,9 @@
+question: Milline ülikooli operatsioonisüsteem aitas kaasa TCP/IP-protokollide levikule akadeemilises maailmas?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  Berkeley ülikoolis välja töötatud BSD Unix oli üks esimesi süsteeme, mis integreeris TCP/IP protokollid ja aitas neid akadeemilises maailmas laialdaselt levitada.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Aplikasi hosting mandiri mana yang dapat diinstal melalui Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel menawarkan App Store dengan layanan hosting mandiri, seperti Nextcloud, untuk menyimpan dan menyinkronkan file sendiri.
+reviewed: true

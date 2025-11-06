@@ -1,0 +1,9 @@
+question: Který příkaz se používá ke kontrole otevřených portů hostitele a identifikaci dostupných služeb?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - ip neighbor
+explanation: |
+  nmap zjišťuje otevřené porty, vystavené služby a někdy i typ vzdáleného operačního systému.
+reviewed: false

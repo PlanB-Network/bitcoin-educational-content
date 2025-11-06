@@ -1,0 +1,9 @@
+question: Qual è lo scopo dei file revNNNN.dat memorizzati insieme a blkNNNN.dat?
+answer: Ripristino del UTXO impostato durante la riorganizzazione
+wrong_answers:
+  - Ripristino del UTXO impostato durante un Hard Fork
+  - Ripristino del Mempool durante il Hard Fork
+  - Ripristino di Mempool durante una riorganizzazione
+explanation: |
+  Ogni revNNNNN.dat contiene i dati necessari per annullare gli effetti di un blocco sull'insieme UTXO, facilitando la gestione delle riorganizzazioni.
+reviewed: true

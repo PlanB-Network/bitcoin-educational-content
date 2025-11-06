@@ -131,7 +131,7 @@ Sasa tutafuta data yote kwenye fimbo yetu ya USB. Uendeshaji unajumuisha kujaza 
 
 
 
-**Hakikisha unalenga faili sahihi ya kifaa!
+**Hakikisha unalenga faili sahihi ya kifaa!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Hapa, amri ndogo ya "`luksFormat`" inaanzisha na kuunda kifaa ili kutumia usimbaji fiche wa LUKS. Utaombwa kuthibitisha utendakazi huu kwa kuandika `NDIYO` kwa herufi kubwa, kisha ubainishe *passphrase*. **Chagua *passphrase* thabiti ili kuhakikisha kuwa, ikitokea hasara, mvamizi hawezi kuigundua kupitia mashambulizi ya nguvu.
+Hapa, amri ndogo ya "`luksFormat`" inaanzisha na kuunda kifaa ili kutumia usimbaji fiche wa LUKS. Utaombwa kuthibitisha utendakazi huu kwa kuandika `NDIYO` kwa herufi kubwa, kisha ubainishe **passphrase**. **Chagua *passphrase* thabiti ili kuhakikisha kuwa, ikitokea hasara, mvamizi hawezi kuigundua kupitia mashambulizi ya nguvu.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Hapa, "**usbkey1**" ndio jina ninalotoa kwa mlima wa kizigeu katika muktadha wangu. Unaweza kuchagua chochote unachopenda. Kisha tunahitaji kufomati kizigeu hiki kilichomo kwenye kizigeu cha LUKS, kwa mfano, hapa kama **ext4** :
+Hapa, "**usbkey1**" ndio jina ninalotoa kwa mlima wa kizigeu katika muktadha wangu. Unaweza kuchagua chochote unachopenda. Kisha tunahitaji kufomati kizigeu hiki kilichomo kwenye kizigeu cha LUKS, kwa mfano, hapa kama **ext4**:
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Hapa, eneo lengwa** limebainishwa kama "**/dev/mappe/usbkey1**"**, kwa nini?
+**Hapa, eneo lengwa** limebainishwa kama "**/dev/mappe/usbkey1**", kwa nini?
 
 
 
@@ -353,7 +353,7 @@ Hii inamaanisha kuwa tunaweza kufikia data kwenye fimbo yetu ya USB kwa uhuru na
 
 
 
-Operesheni yetu inapokamilika, usisahau kufunga kila kitu ipasavyo ili kuhakikisha kuwa hatuharibu sauti yetu. Hatua ya kwanza ni kuondoa :
+Operesheni yetu inapokamilika, usisahau kufunga kila kitu ipasavyo ili kuhakikisha kuwa hatuharibu sauti yetu. Hatua ya kwanza ni kuondoa:
 
 
 

@@ -1,0 +1,10 @@
+question: Ni intambwe iyihe y’urugendo rwa Chaumian CoinJoin irimwo guhindura akaranga kuri Tor kugira ngo umuntu ntamenyekane?
+answer: Ukwandika ibisohoka.
+wrong_answers:
+  - Ukwandika ivyinjizwa.
+  - Gushirako umukono ku bijanye n’ugucuruza.
+  - Ivyo gutangaza ivy’ugucuruza.
+explanation: |
+  Kugira ngo umuhuzabikorwa ntashobore guhuza igisohoka kinaka n’injiza, abakoresha barahindura akaranga kabo ka Tor imbere yo kohereza aderesi zabo zo kwakira inyandiko zitomoye ku muhuzabikorwa.
+  
+reviewed: false

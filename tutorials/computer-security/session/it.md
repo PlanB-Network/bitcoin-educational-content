@@ -1,5 +1,5 @@
 ---
-name: Sessione
+name: Session
 description: Invio di messaggi crittografati, non di metadati
 ---
 ![cover](assets/cover.webp)
@@ -99,13 +99,13 @@ Dovrete quindi scegliere tra due modalità di gestione delle notifiche:
 
 
 
-- Modalità veloce ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: consente di ricevere notifiche di messaggi quasi in tempo reale, grazie ai servizi di notifica forniti da Google o Apple (a seconda del sistema). Affinché ciò funzioni, il vostro IP Address e un ID di notifica univoco vengono trasmessi a Google o Apple, e anche l'ID dell'account di sessione viene registrato presso un server STF (tramite Tor). Questa modalità comporta un'esposizione (certamente minima) dei metadati, ma non compromette il contenuto dei messaggi o i contatti e non consente di tracciare l'attività effettiva dell'utente. Questa modalità è quindi più efficiente in termini di reattività, ma si basa su un'infrastruttura centralizzata ed è leggermente meno efficace in termini di riservatezza.
+- Modalità veloce (**Firebase Cloud Messaging/Apple Push Notification Service**): consente di ricevere notifiche di messaggi quasi in tempo reale, grazie ai servizi di notifica forniti da Google o Apple (a seconda del sistema). Affinché ciò funzioni, il vostro IP Address e un ID di notifica univoco vengono trasmessi a Google o Apple, e anche l'ID dell'account di sessione viene registrato presso un server STF (tramite Tor). Questa modalità comporta un'esposizione (certamente minima) dei metadati, ma non compromette il contenuto dei messaggi o i contatti e non consente di tracciare l'attività effettiva dell'utente. Questa modalità è quindi più efficiente in termini di reattività, ma si basa su un'infrastruttura centralizzata ed è leggermente meno efficace in termini di riservatezza.
 
 
 
 
 
-- Modalità lenta (*background polling*)**: l'applicazione Session rimane attiva in background, effettuando periodicamente il polling della rete per verificare la presenza di nuovi messaggi. Questo approccio garantisce una maggiore riservatezza rispetto al primo, poiché non vengono trasmessi dati a server di terze parti; né Google, né Apple, né i server STF ricevono alcuna informazione. D'altra parte, questa modalità presenta due svantaggi: le notifiche possono essere ritardate (fino a diversi minuti) e il consumo energetico è generalmente più elevato a causa dell'attività dell'applicazione in background.
+- Modalità lenta (*background polling*): l'applicazione Session rimane attiva in background, effettuando periodicamente il polling della rete per verificare la presenza di nuovi messaggi. Questo approccio garantisce una maggiore riservatezza rispetto al primo, poiché non vengono trasmessi dati a server di terze parti; né Google, né Apple, né i server STF ricevono alcuna informazione. D'altra parte, questa modalità presenta due svantaggi: le notifiche possono essere ritardate (fino a diversi minuti) e il consumo energetico è generalmente più elevato a causa dell'attività dell'applicazione in background.
 
 
 
@@ -145,7 +145,7 @@ Questa frase funziona in modo simile alle frasi Mnemonic utilizzate nei portafog
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Nota bene**: A differenza delle frasi Mnemonic utilizzate nei portafogli Bitcoin, in Session **è assolutamente necessario salvare ogni parola nella sua interezza**. Le prime 4 lettere non sono sufficienti!
 
@@ -299,4 +299,4 @@ Vi consiglio anche quest'altro tutorial, in cui presento Threema, un'altra inter
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

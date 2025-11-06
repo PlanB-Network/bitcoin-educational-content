@@ -1,5 +1,5 @@
 ---
-name: बिस्क
+name: Bisq
 
 description: Bisq, एक पीयर टू पीयर Exchange का उपयोग कैसे करें
 ---

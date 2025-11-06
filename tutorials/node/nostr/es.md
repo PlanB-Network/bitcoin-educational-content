@@ -4,9 +4,10 @@ name: NOSTR
 description: Descubre y comienza a usar NOSTR
 ---
 
-Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás utilizarla.
 
 ![Un nuevo retador ha llegado](assets/1.webp)
+
+*Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás usarla.*
 
 ## ¿Qué es Nostr?
 
@@ -34,9 +35,9 @@ La clave pública, npub, es un identificador único al que se adjunta todo el co
 
 Los clientes son software que permiten interactuar con Nostr. Los principales clientes son:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Los clientes permiten a un usuario generar un nuevo par de claves (equivalente a crear una cuenta) o autenticarse con un par de claves existente.
 
@@ -46,7 +47,7 @@ Los relés son servidores simples que puedes abandonar en cualquier momento si n
 
 > 💡 Consejo profesional: Los relés de pago suelen ser más eficientes para filtrar el spam y el contenido no deseado.
 
-# Guía
+## Guía
 
 Ahora que conoces lo suficiente sobre Nostr, puedes comenzar y crear tu primera identidad en este protocolo.
 

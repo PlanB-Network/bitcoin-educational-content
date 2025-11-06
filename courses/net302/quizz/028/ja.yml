@@ -1,0 +1,9 @@
+question: TCPのトランスポートLayerを流れるデータの単位は？
+answer: セグメント
+wrong_answers:
+  - データグラム
+  - フレーム
+  - ストリーム
+explanation: |
+  TCPのトランスポートLayerでは、データ単位はセグメントと呼ばれるが、UDPではパケットという用語が使われる。
+reviewed: false

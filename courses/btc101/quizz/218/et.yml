@@ -1,10 +1,9 @@
-question: Mis on teksti järgi Bitcoini omaksvõtu olemus?
-answer: Viiruslik
+question: Millal valideeriti ja implementeeriti Lightning Network?
+answer: 2017
 wrong_answers:
-  - Aeglane ja stabiilne
-  - Kiire ja kontrollimatu
-  - Hüplik ja ettearvamatu
+  - 2015
+  - 2016
+  - 2018
 explanation: >-
-  Tekst kirjeldab Bitcoini omaksvõttu kui viiruslikku, vihjates, et see levib
-  kiiresti ja laialdaselt ühelt inimeselt teisele, palju nagu viirus.
+  Lightning Network valideeriti ja implementeeriti 2017. aastal.
 reviewed: false

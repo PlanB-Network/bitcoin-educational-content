@@ -42,7 +42,7 @@ Cryptomator je alternativou k jiným aplikacím, zejména k Picocryptu, který b
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Aplikace Cryptomator je k dispozici pro systémy **Windows** (exe / msi), **Linux**, **macOS,** ale také **Android** a **iOS**. Mimochodem, všechny aplikace jsou zdarma, s výjimkou aplikace pro Android, za kterou je třeba zaplatit (14,99 eur).
 
@@ -170,7 +170,7 @@ Pro odemknutí trezoru je nutné zadat heslo. Poté klikněte na "**Uvolnit jedn
 
 
 
-Na straně OneDrive nemůžeme procházet přímo trezor Cryptomatoru. Nemůžeme vidět data (ani názvy souborů, ani jejich obsah). To znamená, že nemusíte přidávat data do trezoru Cryptomator prostřednictvím obvyklého zástupce OneDrive. **Data musíte přidat pomocí virtuální jednotky aplikace Cryptomator
+Na straně OneDrive nemůžeme procházet přímo trezor Cryptomatoru. Nemůžeme vidět data (ani názvy souborů, ani jejich obsah). To znamená, že nemusíte přidávat data do trezoru Cryptomator prostřednictvím obvyklého zástupce OneDrive. **Data musíte přidat pomocí virtuální jednotky aplikace Cryptomator.**
 
 
 

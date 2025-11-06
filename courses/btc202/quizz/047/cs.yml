@@ -1,0 +1,9 @@
+question: Jaká bezpečnostní opatření se důrazně doporučují při vytváření účtu Umbrel?
+answer: Aktivace funkce 2FA
+wrong_answers:
+  - Zakázat heslo
+  - Použití kódu PIN
+  - Zakázat všechna připojení
+explanation: |
+  Funkce 2FA poskytuje dodatečnou ochranu a je velmi doporučována, zejména při používání uzlu Lightning nebo citlivého samoobslužného hostingu.
+reviewed: true

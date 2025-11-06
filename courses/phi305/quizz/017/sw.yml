@@ -1,0 +1,9 @@
+question: Je, ni sifa gani mbili zinazounda Dawa?
+answer: Jambo na mawazo.
+wrong_answers:
+  - Furaha na huzuni.
+  - Sababu na ushirikina.
+  - Zamani na sasa.
+explanation: |
+  Sifa mbili za Dutu tunazoweza kujua ni maada (au kiwango) na fikra. Sifa hizi mbili zinaeleza kiini kisicho na kikomo cha Dutu katika vipengele viwili tofauti lakini si tofauti.
+reviewed: false

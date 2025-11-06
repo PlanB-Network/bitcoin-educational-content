@@ -1,11 +1,9 @@
-question: Wie wird die Art der Bitcoin-Adoption in diesem Kurs beschrieben?
-answer: Viral.
+question: Wann wurde das Lightning Network erstmals validiert und implementiert?
+answer: 2017
 wrong_answers:
-  - Langsam und stetig.
-  - Schnell und unkontrollierbar.
-  - Sporadisch und unvorhersehbar.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Der Kurstext beschreibt die Adoption von Bitcoin als viral,
-  was darauf hindeutet, dass sie sich schnell und weit von einer
-  Person zur anderen verbreitet, ähnlich wie ein Virus, aber ein guter. 
+  Das Lightning Network wurde erstmals im Jahr 2017 validiert und implementiert.
 reviewed: true

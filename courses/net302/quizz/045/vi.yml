@@ -1,0 +1,9 @@
+question: Thực hành sửa đổi nhân tạo MAC Address của bạn là gì?
+answer: Giả mạo MAC
+wrong_answers:
+  - Lừa đảo qua MAC
+  - Đánh hơi MAC
+  - Ghi phím Mac
+explanation: |
+  Giả mạo MAC là hành động thay đổi phần cứng Address của mạng Interface, thường vì lý do riêng tư hoặc để vượt qua các hạn chế.
+reviewed: false

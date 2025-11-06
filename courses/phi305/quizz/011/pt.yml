@@ -1,0 +1,9 @@
+question: O que é que Spinoza pensa do acaso?
+answer: Não existe.
+wrong_answers:
+  - Existe.
+  - Ele equipara-o ao fatalismo.
+  - Considera-o uma superstição.
+explanation: |
+  Para Spinoza, o acaso não existe. Tudo no universo segue leis necessárias e determinadas. O que nos parece ser o acaso é apenas o resultado da nossa ignorância das verdadeiras causas.
+reviewed: false

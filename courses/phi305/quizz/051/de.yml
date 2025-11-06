@@ -1,0 +1,9 @@
+question: Welcher österreichische Wirtschaftswissenschaftler spricht von Planismus?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) war der österreichische Wirtschaftswissenschaftler, der den Begriff "Planismus" prägte, um zentralisierte Wirtschaftsplanung zu beschreiben. Er kritisiert diesen Ansatz in "The Road to Serfdom".
+reviewed: false

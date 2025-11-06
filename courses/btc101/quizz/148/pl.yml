@@ -1,8 +1,8 @@
-question: Jaki był wynik wojny blokowej w 2017 roku?
-answer: Użytkownicy i węzły odrzucili proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i aktywowali aktualizację o nazwie SegWit.
+question: Czym jest Coinbase Transaction?
+answer: Pierwsza transakcja bloku zawierającego nagrodę Miner.
 wrong_answers:
-  - Użytkownicy i węzły zaakceptowali proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i aktywowali aktualizację o nazwie SegWit.
-  - Użytkownicy i węzły odrzucili proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i nie aktywowali żadnych aktualizacji.
-  - Użytkownicy i węzły zaakceptowali proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i nie aktywowali żadnych aktualizacji.
+  - Transakcja przeprowadzona na Exchange Coinbase.
+  - Druga transakcja w bloku, która zawiera najwyższe opłaty.
+  - Transakcja przeprowadzona przez Miner po otrzymaniu nagrody.
 explanation: >-
 reviewed: true

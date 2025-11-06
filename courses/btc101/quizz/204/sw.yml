@@ -1,11 +1,8 @@
-question: Je, ni jambo gani mojawapo unapaswa kuzingatia unapochagua jukwaa la DCA?
-answer: Upatikanaji katika nchi yako.
+question: Je, Bitcoin inalazimisha makampuni, vyuo vikuu, wadhibiti na watu binafsi kufanya nini?
+answer: Ili kuzingatia.
 wrong_answers:
-  - Rangi ya nembo ya jukwaa.
-  - Idadi ya watumiaji kwenye jukwaa.
-  - Umri wa jukwaa.
-explanation: |
-  Maandishi haya ya kozi yanataja hilo wakati wa kuchagua DCA
-  jukwaa, chaguo sahihi itategemea zaidi juu yake
-  upatikanaji katika nchi yako.
+  - Ili kupuuza.
+  - Ili kuipiga marufuku.
+  - Ili kuitia hatiani.
+explanation: >-
 reviewed: true

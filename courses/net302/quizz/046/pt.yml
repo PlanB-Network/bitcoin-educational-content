@@ -1,0 +1,9 @@
+question: Que protocolo é utilizado para associar um IP Address a um MAC Address numa rede Ethernet?
+answer: ARP
+wrong_answers:
+  - PIR
+  - DNS
+  - OSPF
+explanation: |
+  O protocolo de resolução Address (ARP) mapeia endereços IP para endereços MAC em redes locais.
+reviewed: false

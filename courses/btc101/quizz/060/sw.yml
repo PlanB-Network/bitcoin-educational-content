@@ -1,11 +1,12 @@
-question: Je, mchakato wa kuthibitisha miamala kwenye mtandao wa Bitcoin unaitwaje?
-answer: Mining
+question: Je, ni mzunguko gani wa kurekebisha ugumu?
+answer: Kila 2016 vitalu.
 wrong_answers:
-  - Kuchimba
-  - Kuvuna
-  - Kilimo
+  - Kila vitalu 1048.
+  - Kila vitalu 512.
+  - Kila vitalu 4032.
 explanation: |
-  Mchakato unaothibitisha miamala kwenye Bitcoin
-  mtandao unaitwa Mining. Wachimbaji madini hufanya maandishi ya siri
-  kazi na wanalipwa kwa utoaji wa bitcoins mpya.
+  Marekebisho ya ugumu ni utaratibu unaofanyika
+  kila vitalu vya 2016, au karibu wiki mbili, ili kuhakikisha kwamba a
+  block mpya huongezwa kwa Blockchain kila baada ya dakika kumi
+  wastani, bila kujali Hashrate ya kimataifa.
 reviewed: true

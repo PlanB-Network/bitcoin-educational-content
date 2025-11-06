@@ -1,0 +1,9 @@
+question: Ni iyihe nyandiko ikora nk’ishingiro ry’ubuhinga ry’ibisobanuro vy’amasezerano ya TCP/IP?
+answer: RFC
+wrong_answers:
+  - Urupapuro rwera
+  - ISO
+  - IIP
+explanation: |
+  RFCs (Gusaba Ivyiyumviro) ni inyandiko z’ishingiro zisobanura ivyerekeye amasezerano ya TCP/IP.
+reviewed: false

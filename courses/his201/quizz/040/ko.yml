@@ -1,0 +1,9 @@
+question: Satoshi 나카모토는 총 몇 개의 비트코인을 채굴했나요(대략)?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1,122,693비트코인, 2020년에 발표된 고래 경보의 연구에 따르면. Satoshi은 2010년 5월에 Mining 활동을 중단했습니다.
+reviewed: true

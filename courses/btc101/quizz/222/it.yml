@@ -1,8 +1,10 @@
-question: Qual è il problema di scalabilità di Bitcoin?
-answer: La sfida nell'implementare un sistema monetario capace di gestire un numero sempre maggiore di transazioni al secondo man mano che viene adottato.
+question: Come viene garantita la sicurezza dei pagamenti Lightning Network?
+answer: Attraverso la crittografia e indirettamente attraverso l'energia consumata dai miner Bitcoin.
 wrong_answers:
-  - La difficoltà di minare nuovi Bitcoin con un valore in aumento nel tempo.
-  - La volatilità del prezzo di Bitcoin che aumenterà dopo ogni halving.
-  - La mancanza di regolamentazione per Bitcoin che renderà le transazioni illegali.
-explanation: Il problema di scalabilità si riferisce alla sfida nell'implementare un sistema monetario capace di gestire un numero sempre maggiore di transazioni al secondo man mano che viene adottato.
+  - Solo attraverso l'uso di chiavi private.
+  - Solo attraverso l'uso di chiavi pubbliche.
+  - Solo attraverso l'uso sia di chiavi private che pubbliche.
+explanation: >-
+  I pagamenti Lightning Network sono garantiti attraverso la crittografia
+  e indirettamente attraverso l'energia consumata dai miner Bitcoin.
 reviewed: vero

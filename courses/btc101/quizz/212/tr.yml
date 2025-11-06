@@ -1,12 +1,10 @@
-question: Bu kurs Bitcoin'ı nasıl tanımlıyor?
-answer: Multidisipliner bir konu.
+question: Bu kurs Bitcoin'ın geleceği hakkında ne düşündürüyor?
+answer: Yok olmayacak.
 wrong_answers:
-  - Basit bir konu.
-  - Fiziksel bir konu.
-  - Tek disiplinli bir konu.
+  - Daha iyi bir teknoloji ile değiştirilecektir.
+  - Dünya çapında yasaklanacaktır.
+  - Değerini kaybedecektir.
 explanation: |
-  Bitcoin multidisipliner bir konu olarak tanımlanmaktadır çünkü
-  aşağıdakiler de dahil olmak üzere çeşitli alanlarla ilgili soruları gündeme getirmektedir
-  kriptografi, oyun teorisi, ekonomi ve para politikası,
-  bilgisayar bilimi, felsefe, enerji, kanunlar ve yönetmelikler.
+  Kurs metninde Bitcoin'in aşağıdaki konuları ele almayacağı belirtilmektedir
+  kayboldu. Aksine, devrim daha yeni başladı.
 reviewed: true

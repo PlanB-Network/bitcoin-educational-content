@@ -1,8 +1,13 @@
-question: Wat is de privésleutel in een Bitcoin Wallet?
-answer: Een geheime sleutel waarmee je je transacties kunt ondertekenen.
+question: Wat is de kans dat iemand per ongeluk jouw lijst van 12 of 24 woorden in een Bitcoin Wallet raadt?
+answer: Astronomisch laag.
 wrong_answers:
-  - Een openbare sleutel die gebruikt wordt om generate Bitcoin adressen.
-  - Een geheime lijst met woorden om een Wallet te vernietigen in geval van nood.
-  - Een geheime sleutel om Bitcoin transacties te versleutelen.
-explanation: >-
+  - Hoog.
+  - Matig.
+  - Sterk.
+explanation: |
+  Dankzij de cryptografie die gebruikt is om de Wallet te maken, is de
+  is de kans dat iemand per ongeluk jouw lijst van
+  12 of 24 woorden is astronomisch laag. Het is alsof je
+  het vinden van het juiste getal tussen 1 en $2^256$, wat bijna
+  gelijk aan het vinden van een gedefinieerd atoom in het heelal.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Trạng thái của mục nhập trong bộ đệm ip neigh là gì khi ánh xạ IP/MAC hợp lệ và gần đây?
+answer: CÓ THỂ TIẾP CẬN
+wrong_answers:
+  - ĐÃ KẾT NỐI
+  - CÓ HIỆU LỰC
+  - CŨ
+explanation: |
+  Trạng thái REACHABLE có nghĩa là ánh xạ IP/MAC được biết đến và hoạt động trong bộ nhớ đệm lân cận.
+reviewed: false

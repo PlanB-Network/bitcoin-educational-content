@@ -1,0 +1,9 @@
+question: Quale software grafico può essere utilizzato per fornire un'analisi didattica dettagliata dei pacchetti di rete acquisiti?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Percorso
+explanation: |
+  Wireshark è un analizzatore di pacchetti grafico per l'esame approfondito del traffico di rete acquisito.
+reviewed: false

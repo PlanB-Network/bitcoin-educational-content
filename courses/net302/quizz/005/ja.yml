@@ -1,0 +1,9 @@
+question: TCP/IPプロトコル仕様の技術リファレンスとなる文書はどれか？
+answer: アールエフシー
+wrong_answers:
+  - ホワイトペーパー
+  - 国際標準化機構
+  - 国際知的所有権
+explanation: |
+  RFC（Request For Comments）は、TCP/IPプロトコルの仕様を定義する参照文書です。
+reviewed: false

@@ -1,10 +1,9 @@
-question: Jaka jest jedna z potencjalnych konsekwencji nieprzestrzegania przepisów obowiązujących w Twoim kraju podczas zakupu Bitcoin?
-answer: Możesz narazić się na ryzyko.
+question: Co to znaczy, że Bitcoin ma ogólny trend wzrostowy?
+answer: Ogólny trend wzrostowy Bitcoin oznacza, że ogólnie cena Bitcoin rośnie.
 wrong_answers:
-  - Możesz podnieść cenę Bitcoin.
-  - Możesz kontrolować Supply z Bitcoin.
-  - Możesz uniemożliwić innym zakup Bitcoin.
+  - Ogólny trend wzrostowy w Bitcoin oznacza, że cena będzie rosnąć w nieskończoność bez żadnych wahań.
+  - Ogólny trend wzrostowy Bitcoin oznacza, że Bitcoin traci na wartości i atrakcyjności rynkowej.
+  - Ogólny trend wzrostowy Bitcoin oznacza, że jest on popularny tylko wśród niewielkiej grupy inwestorów i nie ma wpływu na cały rynek.
 explanation: |
-  W tekście kursu wspomniano, że nieprzestrzeganie przepisów
-  obowiązujących w danym kraju przy zakupie Bitcoin może narazić użytkownika na ryzyko.
+  Ogólny trend wzrostowy Bitcoin odnosi się do konsekwentnego wzrostu jego ceny w określonym czasie. Należy zauważyć, że chociaż trend wzrostowy sugeruje pozytywną trajektorię, nie gwarantuje, że cena będzie nadal rosła bez żadnych wahań.
 reviewed: true

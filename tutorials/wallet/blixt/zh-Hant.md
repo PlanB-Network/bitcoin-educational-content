@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: 如何開始在手機上使用功能強大的 LN 節點？
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 本指南專門提供給所有想要開始使用 Bitcoin Lightning Network (LN) 的自由開放原始碼、完整非公開方式的新使用者。
@@ -47,7 +47,7 @@ description: 如何開始在手機上使用功能強大的 LN 節點？
 達斯警告他媽媽：
 
 
-"*媽媽，如果您開始使用 Blixt LN 節點，您首先需要知道什麼是 Lightning Network，以及它如何運作，至少是基本層級。[Here I put together a simple list of resources about Lightning Network](https://blixtwallet.github.io/faq#what-is-LN).請先閱讀。
+*媽媽，如果您開始使用 Blixt LN 節點，您首先需要知道什麼是 Lightning Network，以及它如何運作，至少是基本層級。*[Here I put together a simple list of resources about Lightning Network](https://blixtwallet.github.io/faq#what-is-LN).*請先閱讀。*
 
 
 達斯的媽媽閱讀了資源，並完成了她的第一步：在她全新的 Android 裝置上安裝 Blixt。Blixt 也適用於 iOS 和 macOS (桌上型電腦)。但這些並不適用於 Darth's Mom... 不過建議使用較新版本的 Android，至少 9 或 10，以獲得更好的相容性和體驗。在行動裝置上執行完整的 LN 節點並不是一件容易的事，而且可能會佔用一些空間 (最小 600MB)和記憶體。

@@ -1,8 +1,12 @@
-question: Jaka jest wersja pierwszego wydanego oprogramowania Bitcoin?
-answer: Bitcoin-0.1.0.
+question: Jaka jest rola węzła Bitcoin w sieci Bitcoin?
+answer: Weryfikuje nowe bloki i zawarte transakcje.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
+  - Tworzy nowe Bitcoiny i umieszcza je w blokach.
+  - Reguluje on cenę Bitcoin.
+  - Zarządza on siecią Bitcoin.
+explanation: |
+  Węzeł Bitcoin w sieci Bitcoin obsługuje
+  walidację nowych bloków i zawartych transakcji. To właśnie
+  ta sieć węzłów Bitcoin sprawia, że jest ona prawdziwie
+  zdecentralizowana.
 reviewed: true

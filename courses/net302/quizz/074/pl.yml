@@ -1,0 +1,9 @@
+question: Która organizacja zarządza początkową alokacją bloków IPv6 Address na całym świecie?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA znajduje się na szczycie hierarchii alokacji, delegując bloki IPv6 do pięciu regionalnych rejestrów internetowych (RIR).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji NAT režim omogućava desetinama uređaja da dele jednu javnu IP adresu Address modifikovanjem portova?
+answer: PAT
+wrong_answers:
+  - Statički NAT
+  - Dinamički NAT
+  - Statičko rutiranje
+explanation: |
+  PAT, takođe poznat kao NAT overload ili IP masquerading, menja brojeve portova kako bi razlikovao sesije, omogućavajući mnogim uređajima da koriste isti javni Address.
+reviewed: false

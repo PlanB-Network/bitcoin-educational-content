@@ -1,13 +1,11 @@
-question: Jakie jest ryzyko nadmiernego komplikowania bezpieczeństwa i dostępności bitcoinów?
-answer: Niewłaściwe obchodzenie się z portfelami kopii zapasowych może spowodować obrażenia.
+question: Co często reprezentuje klucz prywatny w Bitcoin Wallet?
+answer: Lista 12 lub 24 słów.
 wrong_answers:
-  - Nieumiejętne obchodzenie się z fizycznymi portfelami może spowodować obrażenia.
-  - Nieumiejętne obchodzenie się z portfelami cyfrowymi może wyrządzić krzywdę.
-  - Nieumiejętne obchodzenie się z portfelami Multisig może spowodować obrażenia.
+  - Lista 12 lub 48 słów.
+  - Lista 32 słów.
+  - Lista 64 słów.
 explanation: |
-  Nadmierne komplikowanie bezpieczeństwa i dostępności swoich
-  bitcoinów może zaszkodzić, jeśli, na przykład, źle zarządzasz
-  kopiami zapasowymi portfeli. Dzieje się tak, ponieważ proste
-  mają kluczowe znaczenie dla odzyskania dostępu do środków
-  w przypadku utraty telefonu lub komputera.
+  W Bitcoin Wallet klucz prywatny jest często reprezentowany przez
+  przez listę 12 lub 24 słów, znaną również jako fraza seed
+  lub frazą Mnemonic.
 reviewed: true

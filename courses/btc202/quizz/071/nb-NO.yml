@@ -1,0 +1,9 @@
+question: Hvilke filer konsulterer en node først for å finne sine gamle peers ved omstart?
+answer: anchors.dat og peers.dat
+wrong_answers:
+  - Mempool.dat og peers.dat
+  - Mempool.dat og ip.dat
+  - ip.dat og anchors.dat
+explanation: |
+  Bitcoin core konsulterer først anchors.dat (tidligere utgående peers), deretter peers.dat (kjent Address-bok) for å koble til på nytt.
+reviewed: true

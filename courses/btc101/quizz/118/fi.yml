@@ -1,12 +1,9 @@
-question: Mikä viesti sisältyy Bitcoin-lohkoketjun ensimmäiseen lohkoon?
-answer: 03/tammi/2009 Valtiovarainministeri harkitsee toista pelastuspakettia pankeille.
+question: Mikä on Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse?
+answer: 23. huhtikuuta 2011.
 wrong_answers:
-  - Voimme voittaa merkittävän taistelun asevarustelussa ja saavuttaa uuden vapauden alueen useiksi vuosiksi.
-  - Hallitukset ovat hyviä katkaisemaan keskitetysti ohjattujen verkostojen, kuten Napsterin, päitä, mutta puhtaasti P2P-verkostot, kuten Gnutella ja Tor, näyttävät pitävän puolensa.
-  - Mikään yllä olevista.
+  - 12. joulukuuta 2010.
+  - 8. tammikuuta 2009.
+  - 31. lokakuuta 2008.
 explanation: |
-  Bitcoin-lohkoketjun ensimmäinen lohko, joka tunnetaan myös
-  alkulohkona, sisältää viestin 03/tammi/2009
-  Valtiovarainministeri harkitsee toista pelastuspakettia pankeille, joka on
-  Time-lehden otsikko kyseisenä päivänä alkulohkon aikaleimaksi.
+  Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse on 23. huhtikuuta 2011. Viesti lähetettiin kehittäjä Mike Hearnille.
 reviewed: true

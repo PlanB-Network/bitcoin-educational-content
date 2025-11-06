@@ -1,0 +1,11 @@
+question: Exchange 플랫폼에서 Bitcoin을 구매한 후 어떻게 해야 하나요?
+answer: 비트코인을 출금하여 Wallet로 전송합니다.
+wrong_answers:
+  - 플랫폼에 비트코인을 남겨두세요.
+  - 즉시 비트코인을 판매하세요.
+  - 비트코인을 다른 Exchange 플랫폼으로 전송합니다.
+explanation: |
+  코스 텍스트에 따르면 Bitcoin를 구입한 후에는
+  gW-4 플랫폼에서 즉시 UTXO를 인출해야 합니다
+  해킹 및 자금 차단 위험을 최소화할 수 있습니다.
+reviewed: true

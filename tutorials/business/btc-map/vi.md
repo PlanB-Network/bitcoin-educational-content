@@ -1,5 +1,5 @@
 ---
-name: Bản đồ BTC
+name: BTC Map
 description: Tìm nơi để chi tiêu Sats của bạn
 ---
 ![cover](assets/cover.webp)

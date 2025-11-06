@@ -1,5 +1,5 @@
 ---
-name: بولتز
+name: Boltz
 description: جابجایی بین لایه‌های مختلف Bitcoin در حالی که کنترل حفظ می‌شود.
 ---
 
@@ -25,10 +25,10 @@ description: جابجایی بین لایه‌های مختلف Bitcoin در ح�
 
 
 
-- on chain**: زنجیره اصلی Bitcoin که در آن تراکنش‌ها به‌طور متوسط هر 10 دقیقه تأیید می‌شوند، هزینه‌های تراکنش اغلب بالا است، که لزوماً نیازهای کاربران را برآورده نمی‌کند؛
-- Lightning Network**: پوشش Bitcoin برای پرداخت‌های فوری با کارمزد کم، که امکان استفاده از Bitcoin برای پرداخت‌های روزانه را فراهم می‌کند؛
-- Liquid Network**: یک پوشش برای Bitcoin که توسط Blockstream ایجاد شده است، و امکان استفاده سریع، Confidential Transactions و استفاده از سایر ابزارهای مالی مبتنی بر Bitcoin را فراهم می‌کند؛
-- RootStock**: راه‌حلی برای توسعه قراردادهای هوشمند بر اساس پروتکل Bitcoin.
+- **on chain**: زنجیره اصلی Bitcoin که در آن تراکنش‌ها به‌طور متوسط هر 10 دقیقه تأیید می‌شوند، هزینه‌های تراکنش اغلب بالا است، که لزوماً نیازهای کاربران را برآورده نمی‌کند؛
+- **Lightning Network**: پوشش Bitcoin برای پرداخت‌های فوری با کارمزد کم، که امکان استفاده از Bitcoin برای پرداخت‌های روزانه را فراهم می‌کند؛
+- **Liquid Network**: یک پوشش برای Bitcoin که توسط Blockstream ایجاد شده است، و امکان استفاده سریع، Confidential Transactions و استفاده از سایر ابزارهای مالی مبتنی بر Bitcoin را فراهم می‌کند؛
+- **RootStock**: راه‌حلی برای توسعه قراردادهای هوشمند بر اساس پروتکل Bitcoin.
 
 
 
@@ -54,7 +54,7 @@ description: جابجایی بین لایه‌های مختلف Bitcoin در ح�
 
 
 
-یک Exchange اتمی با قراردادهای هوشمند [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*) کار می‌کند. در این نوع Contract، مبلغ در یک کانال دوطرفه "قفل" می‌شود و یک محدودیت زمانی معرفی می‌شود، به طوری که اگر تراکنش در یک زمان مشخص تکمیل نشود، موجودی به واریزکننده بازمی‌گردد. این مکانیزمی است که توسط پلتفرم Boltz استفاده می‌شود.
+یک Exchange اتمی با قراردادهای هوشمند [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*) کار می‌کند. در این نوع Contract، مبلغ در یک کانال دوطرفه "قفل" می‌شود و یک محدودیت زمانی معرفی می‌شود، به طوری که اگر تراکنش در یک زمان مشخص تکمیل نشود، موجودی به واریزکننده بازمی‌گردد. این مکانیزمی است که توسط پلتفرم Boltz استفاده می‌شود.
 
 
 
@@ -116,9 +116,9 @@ description: جابجایی بین لایه‌های مختلف Bitcoin در ح�
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 به محض اینکه پرداخت شما انجام و تأیید شد، به طور خودکار مبلغ معادل آن را بر روی Lightning Wallet خود دریافت خواهید کرد.
 
@@ -188,6 +188,6 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 تا کنون با Boltz آشنا شده‌اید، یک پلتفرم منحصر به فرد Exchange که امکان تعامل‌پذیری بین لایه‌های مختلف اکوسیستم Bitcoin را فراهم می‌کند.

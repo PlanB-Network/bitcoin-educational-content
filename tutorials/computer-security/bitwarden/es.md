@@ -16,7 +16,7 @@ Aplicar estos dos principios de seguridad de contraseñas (unicidad y robustez) 
 
 Un gestor de contraseñas genera y almacena de forma segura contraseñas fuertes, permitiéndote acceder a todas tus cuentas en línea sin la necesidad de memorizarlas individualmente. Solo necesitas recordar una contraseña, la contraseña maestra, que te da acceso a todas tus contraseñas guardadas en el gestor. Usar un gestor de contraseñas mejora tu seguridad en línea porque previene la reutilización de contraseñas y genera sistemáticamente contraseñas aleatorias. Pero también simplifica tu uso diario de tus cuentas centralizando el acceso a tu información sensible.
 En este tutorial, exploraremos cómo configurar y usar un gestor de contraseñas para mejorar tu seguridad en línea. Te presentaremos Bitwarden, y en otro tutorial, veremos otra solución llamada KeePass.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advertencia: Un gestor de contraseñas es excelente para almacenar contraseñas, pero **¡nunca debes almacenar la frase mnemotécnica de tu billetera de Bitcoin en él!** Recuerda, una frase mnemotécnica debe guardarse exclusivamente en un formato físico, como un pedazo de papel o metal.
 
@@ -68,9 +68,9 @@ Antes que nada, te aconsejamos configurar la autenticación de dos factores (2FA
 
 Si no estás seguro de cómo configurar y usar estos dispositivos 2FA, te recomendamos seguir estos otros 2 tutoriales:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Para hacer esto, ve a la pestaña "*Seguridad*" en el menú "*Configuración*".
 ![BITWARDEN](assets/notext/14.webp)
@@ -128,7 +128,7 @@ Luego haz clic en "*Guardar*".
 ![BITWARDEN](assets/notext/40.webp)
 Tu carpeta ahora aparece en tu gestor.
 ![BITWARDEN](assets/notext/41.webp)
-Puedes asignar una carpeta a un identificador al crearlo, como hicimos anteriormente, o modificando un identificador existente. Por ejemplo, al hacer clic en mi identificador para PlanB Network, luego puedo elegir clasificarlo en la carpeta "*Bitcoin*".
+Puedes asignar una carpeta a un identificador al crearlo, como hicimos anteriormente, o modificando un identificador existente. Por ejemplo, al hacer clic en mi identificador para Plan ₿ Academy, luego puedo elegir clasificarlo en la carpeta "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 De esta manera, puedes estructurar tu gestor de contraseñas para facilitar la búsqueda de tus identificadores. Puedes organizarlos con carpetas tales como personal, profesional, bancos, correos electrónicos, redes sociales, suscripciones, compras, administración, streaming, almacenamiento, viajes, salud, etc.
 Si prefieres usar solo la versión web de Bitwarden, es totalmente posible apegarse a eso. Para esto, te recomendamos agregar tu gestor de contraseñas a los favoritos de tu navegador para un fácil acceso y para evitar riesgos de phishing. Sin embargo, Bitwarden también ofrece una gama completa de clientes que te permiten usar tu gestor en varios dispositivos y simplificar su uso diario. Ofrecen notablemente una aplicación móvil, una extensión de navegador y software de escritorio. Veamos cómo configurarlos juntos.
@@ -172,11 +172,11 @@ Y finalmente, ingresa el código de 6 dígitos de tu aplicación de autenticaci�
 Ahora estás conectado a tu gestor Bitwarden a través de la extensión del navegador.
 
 ![BITWARDEN](assets/notext/51.webp)
-Por ejemplo, si regresamos al sitio de PlanB Network e intentamos iniciar sesión en mi cuenta, puedes ver que la extensión de Bitwarden integrada en el navegador reconoce los campos de inicio de sesión y automáticamente me ofrece seleccionar el identificador que guardé previamente.
+Por ejemplo, si regresamos al sitio de Plan ₿ Academy e intentamos iniciar sesión en mi cuenta, puedes ver que la extensión de Bitwarden integrada en el navegador reconoce los campos de inicio de sesión y automáticamente me ofrece seleccionar el identificador que guardé previamente.
 ![BITWARDEN](assets/notext/52.webp)
 Si selecciono este identificador, Bitwarden rellena los campos de inicio de sesión por mí. Esta característica de la extensión permite una rápida conexión a sitios web, sin la necesidad de copiar y pegar credenciales desde la aplicación web o el software de Bitwarden.
 ![BITWARDEN](assets/notext/53.webp)
-La extensión también está diseñada para detectar la creación de nuevas cuentas. Por ejemplo, al crear una nueva cuenta en PlanB Network, Bitwarden automáticamente sugiere guardar el nuevo identificador.
+La extensión también está diseñada para detectar la creación de nuevas cuentas. Por ejemplo, al crear una nueva cuenta en Plan ₿ Academy, Bitwarden automáticamente sugiere guardar el nuevo identificador.
 ![BITWARDEN](assets/notext/54.webp)
 Al hacer clic en esta sugerencia que aparece, se abre la extensión. Nos permite ingresar los detalles del nuevo identificador y generar una contraseña fuerte y única.
 ![BITWARDEN](assets/notext/55.webp)

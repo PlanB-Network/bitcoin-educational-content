@@ -1,0 +1,9 @@
+question: Bitcoin core 是用什么编程语言编写的？
+answer: C++
+wrong_answers:
+  - 转到
+  - JavaScript
+  - Rust
+explanation: |
+  Bitcoin core 是用 C++ 编写的，由一个大型开源社区负责维护。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilken teknikk gjør det mulig for flere interne maskiner å dele en enkelt offentlig IP Address for å få tilgang til Internett?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - ARP (Address Resolution Protocol)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  NAT oversetter private interne adresser til en offentlig IP Address, slik at flere enheter kan dele den samme eksterne tilkoblingen.
+reviewed: false

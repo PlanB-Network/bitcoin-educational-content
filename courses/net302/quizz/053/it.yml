@@ -1,0 +1,9 @@
+question: Quale modalità NAT consente a decine di dispositivi di condividere un unico IP pubblico Address modificando le porte?
+answer: PAT
+wrong_answers:
+  - NAT statico
+  - NAT dinamico
+  - Routing statico
+explanation: |
+  PAT, noto anche come sovraccarico NAT o IP masquerading, modifica i numeri di porta per distinguere le sessioni, consentendo a molti dispositivi di utilizzare la stesso indirizzo pubblico.
+reviewed: false

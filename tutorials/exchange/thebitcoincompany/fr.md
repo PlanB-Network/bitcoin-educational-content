@@ -22,7 +22,7 @@ En synthèse "spend" & "replace" semble être la voie à suivre. Participez au d
 
 **The Bitcoin Company** est comme son concurrent Bitrefill : un moyen d'échanger vos bitcoins contre des cartes-cadeaux d'enseignes grand public. Vous pouvez ainsi pratiquement vivre sous un "bitcoin standard" grâce à ce type de solutions, en créant un simple compte.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Le message est on ne peut plus clair "Dépensez vos Bitcoins Partout".
 
@@ -61,9 +61,9 @@ Plusieurs options s'offrent alors à vous pour vous identifier. Soit le classiqu
 
 Si vous êtes de la vieille école et que vous souhaitez découvrir comment créer facilement une boite mail sécurisée et comment gérer vos mots de passe, je vous recommande de consulter ces 2 autres tutoriels :
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 De notre côté choisissons plutôt "Sign in with Lightning".
 
@@ -82,7 +82,7 @@ Ouvrons donc notre wallet Phoenix, et scannons le QR code présenté. Une fois s
 ![TheBitcoinCompany](assets/fr/09.webp)
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Instantanément, vous voilà identifié par l'intermédiaire de votre wallet Lightning qui peut être Phoenix ou un autre bien entendu, car la plupart des wallets du marché supportent cette fonctionnalité.
 
@@ -151,4 +151,4 @@ Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de
 
 Si vous souhaitez contribuer à la popularisation de Bitcoin et encourager un commerçant indépendant à adopter cette méthode de paiement, je vous recommande de consulter notre tutoriel complet sur Swiss Bitcoin Pay. Il s'agit d'une solution tout-en-un pour les processeurs de paiement en BTC, facile à installer et à gérer au quotidien :
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

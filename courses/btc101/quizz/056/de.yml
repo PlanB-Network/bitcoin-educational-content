@@ -1,11 +1,12 @@
-question: Wie hoch war die Inflationsrate in Ungarn im Juli 1946?
-answer: 41.900.000.000.000.000%
+question: Was ist das mathematische Konzept, das auf menschlicher Rationalität basiert und bei Bitcoin verwendet wird?
+answer: Spieltheorie.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Wahrscheinlichkeitstheorie.
+  - Zahlentheorie.
+  - Mengenlehre.
 explanation: |
-  Der Monat mit der höchsten Inflation in Ungarn war der Juli
-  1946, mit einer Rekordinflation von
-  41.900.000.000.000.000%.
+  Die Spieltheorie ist ein mathematisches Konzept, das auf
+  menschlicher Rationalität basiert. Bei Bitcoin werden
+  Protokolländerungen von den Nutzern durchgesetzt, was jede
+  Modifikation des Bitcoin-Protokolls hochkomplex macht.
 reviewed: true

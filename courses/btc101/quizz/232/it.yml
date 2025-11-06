@@ -1,9 +1,14 @@
-question: Qual è la dimensione del blocco nel protocollo Bitcoin?
-answer: 4MB.
+question: Quale delle seguenti non è una caratteristica chiave dei micro-pagamenti su Lightning Network?
+answer: Tempi di pagamento lunghi.
 wrong_answers:
-  - 1MB.
-  - 2MB.
-  - 3MB.
-explanation: >-
-  La dimensione del blocco nel protocollo Bitcoin è di 4MB.
-reviewed: vero
+  - Commissioni basse.
+  - Pagamenti istantanei.
+  - Scalabilità.
+explanation: |
+  Con i micro-pagamenti Lightning Network, gli utenti possono
+  avere commissioni di transazione basse, rendendo economico inviare
+  piccolissime quantità di Bitcoin. Possono anche avere pagamenti
+  istantanei, consentendo transazioni in tempo reale. Infine, possono
+  ottenere scalabilità, consentendo la gestione di un grande numero
+  di transazioni simultaneamente. Pertanto, la risposta errata è tempi di pagamento lunghi.
+reviewed: true

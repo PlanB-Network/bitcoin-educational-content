@@ -1,0 +1,9 @@
+question: Ni kuki bidakwiye gukoresha ama extensions ya browser kugira ngo umuntu yuzuze ijambobanga ryiwe?
+answer: Bishobora gutuma uwubikoresha ashobora guterwa n’ibitero vy’ubuhendanyi, bikongera igitero, bigatuma umucukumbuzi akora neza.
+wrong_answers:
+  - Biragoye gukoresha.
+  - Ntizihuye n’ibikoresho vyose vyo gukoresha.
+  - Bisaba ahantu henshi ho kubika.
+explanation: |
+  Ivyuma vy’umucukumbuzi vyuzuza amajambo y’ibanga birashobora gutuma uwubikoresha ashobora gushikirwa n’ibitero vy’ubuhendanyi. Bikunda kandi kwongerera uburebure bw’igitero kandi birashobora gutuma umucukumbuzi akora buhoro, gutyo bikaba bitera ingorane nyinshi.
+reviewed: true

@@ -12,7 +12,7 @@ When using one's personal email address for every login, it's easy to imagine th
 
 Open-source tools developers have created a series of application suites, born precisely to make users gain back a bit of privacy: they will still log in, but using an alias instead of the tool that reveals their private identity.
 
-The simplest among those I have personally tried and am still testing is [Simple Login](https://simplelogin.io/).
+The simplest one, among those I have personally tried and am still testing, is precisely [Simple Login](https://simplelogin.io/).
 
 ## Alias
 

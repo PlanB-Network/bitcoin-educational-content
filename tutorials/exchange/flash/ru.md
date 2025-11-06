@@ -1,5 +1,5 @@
 ---
-name: Вспышка
+name: Flash
 description: Покупайте биткоины от 100 франков КФА благодаря силе Lightning.
 ---
 
@@ -39,8 +39,8 @@ Flash полагается на Lightning Network, оверлей Bitcoin, дл�
 
 
 
-- FlashX**: Exchange биткоинов с помощью "Мобильных денег".
-- FlashPayment**: Используйте Bitcoin для оплаты повседневных услуг.
+- **FlashX**: Exchange биткоинов с помощью "Мобильных денег".
+- **FlashPayment**: Используйте Bitcoin для оплаты повседневных услуг.
 
 
 
@@ -73,9 +73,9 @@ Flash осуществляет свои транзакции с помощью �
 
 
 
-- Бенин**: MTN Benin, Moov Benin, Celtiis.
-- Того** : Мув Того.
-- Буркина-Фасо**: Оранжевый.
+- **Бенин**: MTN Benin, Moov Benin, Celtiis.
+- **Того**: Мув Того.
+- **Буркина-Фасо**: Оранжевый.
 
 
 
@@ -110,7 +110,7 @@ Flash осуществляет свои транзакции с помощью �
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 При совершении транзакции на Flash вам потребуется в среднем от 5 до 10 минут, чтобы получить биткоины на свой Lightning Wallet.
 
@@ -157,10 +157,10 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- GSM** устройства;
-- Интернет-пакеты**;
-- Пакеты вызовов**;
-- Комбинация звонков и интернет-пакета**.
+- **GSM** устройства;
+- **Интернет-пакеты**;
+- **Пакеты вызовов**;
+- Комбинация звонков и интернет-пакета.
 
 
 
@@ -202,5 +202,4 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

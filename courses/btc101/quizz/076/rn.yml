@@ -1,0 +1,12 @@
+question: Ni ikihe kigereranyo gikoreshwa muri iri shure kugira ngo usigure ingene ushobora kwakira ama bitcoins utaretse uwugurungikiye kwiba amahera yawe?
+answer: Agasanduku k'ubutumwa.
+wrong_answers:
+  - Konti yo muri banki.
+  - Ikigega.
+  - Inzu.
+explanation: |
+  Ico kigereranyo gikoreshwa mu gusigura ingene ushobora kwakira Bitcoins .
+  ata kwemera ko uwugurungikiye yiba amahera yawe ni .
+  isandugu y'ubutumwa. Abantu barayibikamwo amahera, ariko wewe wenyene .
+  umwe ashobora kuyifungura.
+reviewed: true

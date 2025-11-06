@@ -1,0 +1,9 @@
+question: Ni iyihe porogaramu y’ubuhinduzi bufunguye ikorana n’amamoteri atandukanye kandi ntikwegeranya ivyanditswe vyawe vyahinduwe?
+answer: Guhindura wewe
+wrong_answers:
+  - Google Translate
+  - IvyimbitseL
+  - Umuhinduzi wa Microsoft
+explanation: |
+  TranslateYou ikora nka Interface ku moteri nyinshi, ata gukurikirana canke gukusanya amakuru y’umuntu ku giti ciwe, bitandukanye n’ibikorwa vy’abanyagihugu.
+reviewed: false

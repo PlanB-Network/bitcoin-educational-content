@@ -1,10 +1,11 @@
-question: Qual é o requisito de largura de banda para executar um nó Bitcoin, considerando 1 bloco de 1MB a cada 10 minutos?
-answer: Aproximadamente 5GB por mês.
+question: O que é a Prova de Trabalho (POW)?
+answer: É o consenso de segurança do protocolo Bitcoin.
 wrong_answers:
-  - Aproximadamente 1GB por mês.
-  - Aproximadamente 10GB por mês.
-  - Aproximadamente 20GB por mês.
+  - É o processo de criação de novos bitcoins.
+  - É o método de verificação de transações Bitcoin.
+  - É o algoritmo usado para minerar bitcoins.
 explanation: >-
-  Considerando 1 bloco de 1MB a cada 10 minutos, executar um nó Bitcoin requer
-  aproximadamente 5GB por mês em largura de banda.
+  A Prova de Trabalho é um algoritmo de consenso usado na rede Bitcoin
+  para validar transações e criar novos blocos. Requer que os mineradores resolvam problemas
+  matemáticos complexos, garantindo a segurança e integridade da rede.
 reviewed: true

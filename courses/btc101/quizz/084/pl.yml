@@ -1,11 +1,13 @@
-question: Co powinno być głównym zmartwieniem podczas posiadania Bitcoin?
-answer: Bezpieczeństwo Twoich środków.
+question: Jakie jest zalecane użycie Cold w trybie offline i Wallet w trybie fizycznym?
+answer: Przechowywanie dużych ilości.
 wrong_answers:
-  - Wartość Bitcoin w dolarach.
-  - Legalność posiadania bitcoinów.
-  - Zezwolenie na wydawanie środków.
+  - Przechowywanie codziennych wydatków.
+  - Przechowywanie małych ilości.
+  - Przechowywanie krótkoterminowych oszczędności.
 explanation: |
-  Kiedy posiadasz bitcoiny, głównym zmartwieniem jest bezpieczeństwo
-  środków. Wynika to z faktu, że Bitcoin, jak każda inna forma
-  waluty, mogą zostać skradzione lub utracone, jeśli nie są odpowiednio zabezpieczone.
+  Do przechowywania dużych ilości zalecany jest fizyczny Wallet offline lub Cold
+  przechowywania dużych kwot, ponieważ jest mniej podatny na
+  zagrożenia online niż portfele Hot. Nie jest on jednak
+  do codziennych wydatków, ponieważ jest mniej
+  mniej dostępny dla codziennych transakcji.
 reviewed: true

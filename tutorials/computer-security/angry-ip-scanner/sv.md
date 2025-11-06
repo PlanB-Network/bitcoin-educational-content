@@ -38,11 +38,11 @@ Här kommer vi att använda det på **Windows 11**, men det är fullt möjligt a
 
 
 
-Om du vill gå vidare kan du läsa handledningen om Nmap :
+Om du vill gå vidare kan du läsa handledningen om Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Komma igång med Angry IP Scanner
 
@@ -84,8 +84,8 @@ Ta dig tid att läsa instruktionerna i fönstret "**Getting Started**" vid förs
 
 
 
-- Feeder**: modul som genererar listor med IP-adresser som ska skannas, från ett slumpmässigt IP-intervall eller en fil med en lista med IP-adresser.
-- Fetcher**: en uppsättning moduler för att hämta information om värdar i nätverket. Det finns t.ex. fetchers för att upptäcka MAC-adresser, skanna portar, upptäcka värdnamn eller skicka HTTP-begäranden.
+- **Feeder**: modul som genererar listor med IP-adresser som ska skannas, från ett slumpmässigt IP-intervall eller en fil med en lista med IP-adresser.
+- **Fetcher**: en uppsättning moduler för att hämta information om värdar i nätverket. Det finns t.ex. fetchers för att upptäcka MAC-adresser, skanna portar, upptäcka värdnamn eller skicka HTTP-begäranden.
 
 
 
@@ -181,4 +181,4 @@ Om du vill använda **Nmap** med en grafisk Interface kan du använda **Zenmap-a
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

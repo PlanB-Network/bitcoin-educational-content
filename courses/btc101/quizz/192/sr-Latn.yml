@@ -1,8 +1,9 @@
-question: Šta je OpenNode?
-answer: Jednostavno online rešenje za preduzeća da prihvate Bitkoin.
+question: Šta je prosečna cena dolara?
+answer: Kupovina malih količina Bitkoina u redovnim intervalima.
 wrong_answers:
-  - Tip Bitkoin čvora koji istovremeno koristi mnogo korisnika.
-  - Softver za rudarenje Bitkoina koji je otvorenog koda.
-  - Bitcoin menjačnica.
-explanation: >-
+  - Kupovina velike količine Bitkoina odjednom.
+  - Kupovina Bitkoina samo kada cena padne.
+  - Kupovina Bitkoina samo kada cena poraste.
+explanation: |
+  Tekst kursa objašnjava da tehnika prosečne cene dolara uključuje kupovinu malih količina Bitkoina u redovnim intervalima. Ova metoda izravnava fluktuacije cena tokom vremena i osigurava kontinuirani rast količine Bitkoina u vlasništvu.
 reviewed: true

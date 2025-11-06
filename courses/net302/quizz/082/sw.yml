@@ -1,0 +1,9 @@
+question: Ni zana gani ya kisasa inachukua nafasi ya arp kwenye usambazaji wa hivi karibuni wa Linux?
+answer: ip jirani
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - njia
+explanation: |
+  ip neigh, kutoka kwa iproute2 suite, inachukua nafasi ya arp ya kudhibiti vyama vya IP/MAC kwenye Linux ya kisasa.
+reviewed: false

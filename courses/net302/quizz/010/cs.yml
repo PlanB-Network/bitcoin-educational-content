@@ -1,0 +1,9 @@
+question: Který moderní protokol poskytuje podobnou funkci, jakou měl IPv5 v oblasti řízení kvality služeb v síti?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  Protokol RSVP (Resource Reservation Protocol) umožňuje dynamickou rezervaci síťových zdrojů, aby byla zaručena kvalita služeb (QoS), což bylo původním cílem protokolu IPv5.
+reviewed: false

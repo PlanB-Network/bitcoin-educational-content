@@ -1,10 +1,10 @@
-question: Hva var en betydelig hendelse i kryptovalutaverdenen i 2017?
-answer: Lanseringen av tusenvis av Initial Coin Offerings (ICOs).
+question: Hva er en av grunnene til at Bitcoin ikke er en boble som vil forsvinne?
+answer: Fordi det er en valuta som faktisk brukes overalt i verden.
 wrong_answers:
-  - Forbudet mot Bitcoin.
-  - Opprettelsen av Bitcoin.
-  - Forsvinningen av alle kryptovalutaer.
+  - Fordi den faktisk ikke brukes noe sted.
+  - Fordi den kontrolleres av en sentral myndighet.
+  - Fordi den er lett å forfalske.
 explanation: >-
-  Året 2017 var preget av en betydelig spekulativ boble i kryptovalutaverdenen,
-  spesielt med lanseringen av tusenvis av Initial Coin Offerings (ICOs).
+  Bitcoin er ikke en boble som vil forsvinne, men en valuta som faktisk
+  brukes overalt i verden.
 reviewed: false

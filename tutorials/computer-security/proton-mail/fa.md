@@ -1,5 +1,5 @@
 ---
-name: پروتون میل
+name: Proton Mail
 description: راه‌اندازی یک صندوق پستی امن
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ ProtonMail یک راه‌حل ایمیل نسبتاً امن است، به لط�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 در زبانه "*زبان و زمان*" می‌توانید زبان و منطقه زمانی Interface را تغییر دهید.
 
@@ -306,7 +306,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-زبانه "فوروارد و پاسخ خودکار*" به شما امکان مدیریت فوروارد و پاسخ خودکار برای ایمیل‌های شما را می‌دهد.
+زبانه **"فوروارد و پاسخ خودکار"** به شما امکان مدیریت فوروارد و پاسخ خودکار برای ایمیل‌های شما را می‌دهد.
 
 
 

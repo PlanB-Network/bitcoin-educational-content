@@ -4,9 +4,10 @@ name: NOSTR
 description: Tutustu ja aloita NOSTR:n käyttö
 ---
 
-Tämän oppaan lopussa ymmärrät, mikä Nostr on, olet luonut tilin, ja pystyt käyttämään sitä.
 
 ![Uusi haastaja on saapunut](assets/1.webp)
+
+*Tämän oppaan lopussa ymmärrät, mitä Nostr on, olet luonut tilin ja pystyt käyttämään sitä.*
 
 ## Mikä on Nostr?
 
@@ -34,9 +35,9 @@ Julkinen avain, npub, on ainutlaatuinen tunniste, johon kaikki käyttäjän julk
 
 Asiakasohjelmat ovat ohjelmistoja, jotka mahdollistavat vuorovaikutuksen Nostrin kanssa. Pääasiakasohjelmat ovat:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Asiakasohjelmat mahdollistavat käyttäjille uuden avainparin luomisen (vastaa tilin luomista) tai olemassa olevan avainparin avulla todentautumisen.
 
@@ -46,7 +47,7 @@ Välityspalvelimet ovat yksinkertaisia palvelimia, jotka voit hylätä milloin t
 
 > 💡 Pro vinkki: Maksulliset välityspalvelimet ovat yleensä tehokkaampia suodattamaan roskapostia ja ei-toivottua sisältöä.
 
-# Opas
+## Opas
 
 Nyt tiedät tarpeeksi Nostrista aloittaaksesi ja luodaksesi ensimmäisen identiteettisi tällä protokollalla.
 

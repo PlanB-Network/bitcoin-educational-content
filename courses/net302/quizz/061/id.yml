@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan anycast Address di IPv6?
+answer: Sebuah Address yang ditugaskan ke beberapa node
+wrong_answers:
+  - Address yang didedikasikan untuk multicasting global
+  - Address yang berubah dengan setiap reboot
+  - Address yang disediakan untuk dokumentasi teknis
+explanation: |
+  Sebuah Address anycast ditugaskan ke beberapa perangkat, dan perutean mengirimkan paket ke perangkat yang paling dekat secara topologi.
+reviewed: false

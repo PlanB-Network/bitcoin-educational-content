@@ -1,0 +1,12 @@
+question: Bitcoin 노드에서 유통되는 비트코인의 수량을 확인하는 명령은 무엇인가요?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli 블록체인 정보를 얻습니다.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli 네트워크 정보 얻기.
+explanation: |
+  Bitcoin 노드에서 유통되는 비트코인의 수량을 확인하는 명령은
+  유통되는 비트코인의 양을 확인하는 명령은 bitcoin-cli입니다
+  gettxoutsetinfo입니다. 이 명령은 투명성과
+  검증 가능성을 제공하여 Bitcoin 시스템에 대한 신뢰를 강화합니다.
+reviewed: true

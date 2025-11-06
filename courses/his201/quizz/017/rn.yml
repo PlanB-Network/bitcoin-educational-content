@@ -1,0 +1,9 @@
+question: Ni hehe Nick Szabo yatanguriye gushikiriza iciyumviro ciwe c’inzahabu y’ibice mu 1998?
+answer: Urutonde rw'ubutumwa rwa libtech-l
+wrong_answers:
+  - Urutonde rw'abarungika ubutumwa
+  - Urutonde rw'ubutumwa rw'ibanga
+  - Urutonde rw'abanyagihugu bo hanze
+explanation: |
+  Iryo ryari urutonde rwiwe rw’ibanga, rwarimwo abahinga mu vy’ubuhinga bwa none nka Wei Dai na Hal Finney be n’abahinga mu vy’ubutunzi nka Larry White na George Selgin.
+reviewed: true

@@ -1,13 +1,8 @@
-question: Bitcoin işlemi nedir?
-answer: Kriptografi kullanılarak Ownership bitcoin transferi.
+question: Madenciler işlemleri nasıl onaylar ve bir bloğa dahil eder?
+answer: Proof of Work süreci boyunca.
 wrong_answers:
-  - Bir noter kullanılarak bitcoinlerin fiziksel Exchange'si.
-  - Fiziksel bir Address kullanarak Ownership bitcoin transferi.
-  - Bir Address e-postası kullanılarak Ownership bitcoin transferi.
-explanation: |
-  Bir Bitcoin işlemi, aşağıdakilerin dijital transferidir
-  Ownership bitcoinlerin, bir Bitcoin Address kullanımı yoluyla
-  eliptik Eğri kriptografisi sayesinde türetilmiştir. Bu
-  Address, aygıtı alan kişinin Wallet'una özgüdür
-  bitcoins.
+  - Hissenin kanıtlanması süreci boyunca.
+  - Yetki İspatı süreci aracılığıyla.
+  - Yanık Kanıtı süreci boyunca.
+explanation: >-
 reviewed: true

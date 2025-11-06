@@ -1,0 +1,9 @@
+question: 可以在 Bitcoin core 中啟動哪個選用索引，以根據其 txid 尋找交易？
+answer: txindex
+wrong_answers:
+  - addrindex
+  - 區塊索引
+  - 電子索引
+explanation: |
+  txindex=1 選項用來依據交易的唯一識別碼 (txid) 查詢交易。
+reviewed: true

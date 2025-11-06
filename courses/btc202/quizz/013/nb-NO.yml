@@ -1,0 +1,9 @@
+question: Hvilken type utstyr brukes i dag for å utvinne Bitcoin effektivt?
+answer: ASIC
+wrong_answers:
+  - Klassisk CPU
+  - GPU
+  - FPGA
+explanation: |
+  I dag utføres Bitcoin Mining ved hjelp av ASIC-er. Dette er spesialiserte brikker for SHA-256-algoritmen.
+reviewed: true

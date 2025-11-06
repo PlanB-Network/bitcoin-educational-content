@@ -1,0 +1,9 @@
+question: 在最近的 Linux 發行版本中，有哪些現代工具可以取代 arp？
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - 路線
+explanation: |
+  ip neigh 來自 iproute2 套件，取代 arp 用於管理現代 Linux 上的 IP/MAC 關聯。
+reviewed: false

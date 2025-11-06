@@ -1,11 +1,9 @@
-question: Hva er det maksimale antallet Bitcoin-enheter som noensinne kan eksistere?
-answer: 21 millioner enheter
+question: Hvilket år er det forutsagt at skapingen av bitcoins vil opphøre?
+answer: 2140
 wrong_answers:
-  - 25 millioner enheter
-  - 30 millioner enheter
-  - 50 millioner enheter
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoins dataprogramkode og konsensus blant alle brukere som deltar i
-  protokollen bestemmer at det maksimale antallet Bitcoin-enheter som noensinne kan eksistere
-  er 21 millioner.
-reviewed: true
+  På grunn av halveringsmekanismen, kan det matematisk forutsies at skapingen av bitcoins vil opphøre i 2140, når det totale antallet bitcoins når sin grense på 21 millioner.
+reviewed: sant

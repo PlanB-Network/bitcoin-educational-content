@@ -1,0 +1,9 @@
+question: 什么是人为修改 MAC Address 的做法？
+answer: MAC 欺骗
+wrong_answers:
+  - MAC 网络钓鱼
+  - MAC 嗅探
+  - Mac 日志记录
+explanation: |
+  MAC 欺骗是指改变网络 Interface 的硬件 Address 的行为，通常是为了保护隐私或绕过限制。
+reviewed: false

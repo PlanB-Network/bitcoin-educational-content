@@ -1,0 +1,9 @@
+question: Vad är en Bitcoin-nod?
+answer: En dator som kör programvara som implementerar Bitcoin-protokollet
+wrong_answers:
+  - En Hardware Wallet som implementerar Bitcoin-nätverket
+  - En Miner som producerar nya block för Bitcoin
+  - En central server som hanterar Bitcoin-nätverket och transaktionsbekräftelse
+explanation: |
+  En Bitcoin-nod är en dator som kör programvara, t.ex. Bitcoin core, som implementerar protokollet och deltar i Bitcoin-nätverket.
+reviewed: true

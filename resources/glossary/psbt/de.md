@@ -11,4 +11,4 @@ Akronym für "Partially Signed Bitcoin Transaction". Es ist eine Spezifikation, 
 
 Das PSBT-Format erleichtert die Interoperabilität zwischen verschiedener Wallet-Software und Signaturgeräten (Hardware-Wallet). Derzeit wird die Version 0 des PSBT-Formats verwendet, die im BIP174 definiert ist, aber die Version 2 wird über das BIP370 vorgeschlagen.
 
-> ► *Version 1 der PSBT gibt es nicht. Da Version 0 die erste Version war, wurde die zweite Version informell als Version 2 bezeichnet. Ava Chow, die Autorin des BIP370, hat daher beschlossen, dieser neuen Version die Nummer 2 zu geben, um Verwechslungen zu vermeiden
+> ► *Version 1 der PSBT gibt es nicht. Da Version 0 die erste Version war, wurde die zweite Version informell als Version 2 bezeichnet. Ava Chow, die Autorin des BIP370, hat daher beschlossen, dieser neuen Version die Nummer 2 zu geben, um Verwechslungen zu vermeiden*

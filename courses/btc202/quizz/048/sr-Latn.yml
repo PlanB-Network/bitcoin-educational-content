@@ -1,0 +1,9 @@
+question: Koja komanda preuzima lokalni IP Address vašeg Umbrela ako pristup putem umbrel.local ne uspe?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  U slučaju problema sa detekcijom, možete koristiti komandu hostname -I na Umbrel mašini da biste saznali njenu lokalnu IP adresu.
+reviewed: true

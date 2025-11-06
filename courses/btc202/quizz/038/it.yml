@@ -1,0 +1,9 @@
+question: Perché un HDD non è consigliato per un nodo Bitcoin?
+answer: Perché rallenta in modo significativo l'IBD e l'uso generale
+wrong_answers:
+  - Perché non può memorizzare i file Blockchain
+  - Perché consuma troppa poca energia e rischia di esplodere
+  - Perché è incompatibile con il Bitcoin core
+explanation: |
+  I dischi meccanici limitano le prestazioni, allungano notevolmente l'IBD e si usurano rapidamente sotto il carico dei nodi.
+reviewed: true

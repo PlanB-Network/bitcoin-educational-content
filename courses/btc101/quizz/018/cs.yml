@@ -1,13 +1,12 @@
-question: Jaké byly první formy měny?
-answer: Zboží jako obilí a dobytek.
+question: Jaká je hlavní výhoda Bitcoinu oproti jiným formám měny?
+answer: Nabízí vynikající uchování hodnoty díky svému striktně omezenému množství a neutralitě.
 wrong_answers:
-  - Zlato a stříbro.
-  - Papírové bankovky.
-  - Digitální aktiva.
+  - Je nedělitelný a nepřenosný.
+  - Je skvělým příkladem měny, která trpí měnovou inflací.
+  - Je široce přijímán v obchodě všemi obchodníky na světě.
 explanation: |
-  První formy měny byly často spojeny se základními
-  druhy zboží, jako jsou obilí, dobytek a další komodity.
-  Nicméně, toto zboží mělo významné nevýhody, jako je
-  snadná zkáza, což ztěžovalo jeho použití jako
-  prostředku pro dlouhodobé spoření.
+  Hlavní výhoda Bitcoinu oproti jiným formám měny
+  spočívá v tom, že nabízí vynikající uchování hodnoty díky svému
+  striktně omezenému množství a absenci důvěryhodné strany. To
+  z něj činí dobrou volbu pro dlouhodobé spoření.
 reviewed: true

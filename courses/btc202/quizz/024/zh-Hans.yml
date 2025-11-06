@@ -1,0 +1,9 @@
+question: 如果 Wallet 依赖于第三方节点，会有什么风险？
+answer: 监视和审查的风险
+wrong_answers:
+  - 自动 Double-spending 风险
+  - 丢失私人密钥的风险
+  - 损失风险和监测
+explanation: |
+  第三方节点可以分析或阻止你的交易，甚至将你的数据与你的身份联系起来。
+reviewed: true

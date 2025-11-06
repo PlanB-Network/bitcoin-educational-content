@@ -6,4 +6,4 @@ wrong_answers:
   - The Bitcoin block number, timestamp, and script used
 explanation: |
   Documenting these details ensures clarity and assists accountants in differentiating incoming and outgoing flows.
-reviewed: false
+reviewed: true

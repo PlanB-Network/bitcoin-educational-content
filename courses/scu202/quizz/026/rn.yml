@@ -1,0 +1,9 @@
+question: Ni itegeko irihe ryerekana ido n’ido ry’ibirimwo muri dosiye, harimwo n’amadosiye yihishije?
+answer: ls -lah
+wrong_answers:
+  - kwerekana ububiko
+  - urutonde rw'amadosiye -ido n'ido
+  - kureba -a
+explanation: |
+  "ls -lah" yerekana amadosiye n'amadosiye mu buryo burambuye, harimwo n'amadosiye yihishije (gutangura n'akadomo).
+reviewed: false

@@ -1,12 +1,12 @@
-question: Jaki jest cel opłat transakcyjnych w transakcjach Bitcoin?
-answer: Stanowią one zachętę dla górników do uwzględnienia transakcji w kolejnym bloku.
+question: Czym jest prawidłowy Hash w kontekście bloku Mining w sieci Bitcoin?
+answer: Unikalny odcisk palca powiązany z blokiem, składający się z 256 znaków.
 wrong_answers:
-  - Są to podatki nakładane przez rząd.
-  - Są to opłaty pobierane przez sieć Bitcoin za korzystanie z jej usług.
-  - Są to opłaty pobierane przez dostawcę Wallet.
+  - Unikalny kod używany do uzyskania dostępu do bloku.
+  - Unikalne hasło wymagane do wydobycia bloku.
+  - Unikalny identyfikator Miner, który wydobył blok.
 explanation: |
-  Opłaty transakcyjne w transakcjach Bitcoin służą jako
-  dla górników do włączenia transakcji do następnego bloku
-  bloku. Opłaty te tworzą wolny rynek dla
-  transakcji w blokach.
+  W kontekście bloku Mining w sieci Bitcoin, prawidłowy Hash jest
+  gW-6 jest unikalnym odciskiem palca powiązanym z blokiem, składającym się z 256 znaków
+  bloku, składający się z 256 znaków. Ważność tego
+  Hash zależy od trudności sieci Bitcoin.
 reviewed: true

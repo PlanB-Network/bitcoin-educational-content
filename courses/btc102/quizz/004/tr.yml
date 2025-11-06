@@ -1,9 +1,9 @@
-question: Bir saadet zincirinin ana mekanizması nedir?
+question: Bir saadet zincirinin (Ponzi) ana mekanizması nedir?
 answer: İlk yatırımcılara yeni yatırımcılardan gelen parayla ödeme yapılır
 wrong_answers:
   - Getiriler piyasadaki gerçek bir üründen gelir
   - Yatırımcılar şirketlerden temettü alır
-  - Kârlar Blockchain üzerindeki akıllı sözleşmeler tarafından üretilir
+  - Kârlar blok zinciri (blockchain) üzerindeki akıllı sözleşmeler (smart contract) tarafından üretilir
 explanation: |
   Bir saadet zincirinde gerçek bir ürün yaratılmaz ve ödemeler yalnızca yeni katılımcıların gelmesine bağlıdır.
 reviewed: false

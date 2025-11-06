@@ -98,9 +98,9 @@ Zodra uw transactie is bevestigd, betaalt u de bijbehorende Lightning Invoice. D
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa in Kenia
 
@@ -182,10 +182,10 @@ Via BitSpenda wil [Bitcoin Dua](https://www.bitcoindua.org/) een ideaal kader op
 
 
 
-- Vertrouwelijkheid**: Je hoeft geen account aan te maken op het platform, je hoeft je identiteit niet te verifiëren en je hoeft geen persoonlijke informatie op te geven.
-- Vrijheid**: U kunt BitSpenda vanuit elk land gebruiken om transacties te doen naar Ghana, Nigeria en Kenia.
-- Snelheid**: Door te vertrouwen op Lightning-betalingen kan BitSpenda de verwerkingstijden verkorten en transacties direct uitvoeren.
-- Transparantie**: Alle transacties die u hebt uitgevoerd op BitSpenda zijn gekoppeld aan unieke identificatiecodes waarmee u de voortgang van deze transacties kunt traceren en volgen. U kunt deze identifiers ook gebruiken om contact op te nemen met [applicatieondersteuning op X](https://x.com/bitspenda).
+- **Vertrouwelijkheid**: Je hoeft geen account aan te maken op het platform, je hoeft je identiteit niet te verifiëren en je hoeft geen persoonlijke informatie op te geven.
+- **Vrijheid**: U kunt BitSpenda vanuit elk land gebruiken om transacties te doen naar Ghana, Nigeria en Kenia.
+- **Snelheid**: Door te vertrouwen op Lightning-betalingen kan BitSpenda de verwerkingstijden verkorten en transacties direct uitvoeren.
+- **Transparantie**: Alle transacties die u hebt uitgevoerd op BitSpenda zijn gekoppeld aan unieke identificatiecodes waarmee u de voortgang van deze transacties kunt traceren en volgen. U kunt deze identifiers ook gebruiken om contact op te nemen met [applicatieondersteuning op X](https://x.com/bitspenda).
 
 
 
@@ -197,4 +197,4 @@ Veel andere initiatieven en oplossingen zoals BitSpenda ontstaan in Afrikaanse g
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

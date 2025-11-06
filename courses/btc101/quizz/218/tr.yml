@@ -1,11 +1,10 @@
-question: Bu derste anlatıldığı şekliyle Bitcoin'ın benimsenmesinin doğası nedir?
-answer: Viral.
+question: Lightning Network ilk olarak ne zaman onaylandı ve uygulandı?
+answer: 2017
 wrong_answers:
-  - Yavaş ve istikrarlı.
-  - Hızlı ve kontrol edilemez.
-  - Sporadik ve öngörülemez.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Kurs metni Bitcoin'in benimsenmesini viral olarak tanımlamaktadır,
-  birinden diğerine hızlı ve geniş bir şekilde yayıldığını düşündürmektedir
-  virüs gibi, ama iyi bir virüs.
+  Lightning Network ilk olarak doğrulanmış ve uygulanmıştır
+  2017'de.
 reviewed: true

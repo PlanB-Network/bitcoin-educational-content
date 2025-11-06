@@ -1,0 +1,9 @@
+question: Hvilke tre serveralternativer er tilgjengelige i Sparrow?
+answer: Offentlig server, Bitcoin core, privat Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, Light Node, Mobile Node
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow tilbyr tre servervalg: Offentlig server, Bitcoin core (RPC) og Private Electrum.
+reviewed: true

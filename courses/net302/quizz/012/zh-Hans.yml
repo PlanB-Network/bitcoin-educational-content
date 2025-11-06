@@ -1,0 +1,9 @@
+question: 传统互联网协议版本（IPv4）的数值是多少？
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 相当于 IP 报头 "版本 "字段中的值 4。
+reviewed: false

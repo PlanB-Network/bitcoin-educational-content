@@ -1,0 +1,9 @@
+question: 流经 TCP 传输 Layer 的数据单位是什么？
+answer: 分段
+wrong_answers:
+  - 数据报
+  - 框架
+  - 流
+explanation: |
+  在 TCP 的传输 Layer 中，数据单位被称为段，而 UDP 则使用数据包一词。
+reviewed: false

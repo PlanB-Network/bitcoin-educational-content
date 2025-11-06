@@ -1,0 +1,9 @@
+question: Satoshi 中本聪的白皮书介绍了什么？
+answer: 互联网上 Exchange 的一种分散手段。
+wrong_answers:
+  - 新的自由主义政策
+  - 集中式 Exchange 协议。
+  - 政治纲领
+explanation: |
+  Satoshi 白皮书》中本提出 Bitcoin 是互联网上 Exchange 的去中心化媒介。它提出了一个没有中央机构的点对点电子支付系统。
+reviewed: false

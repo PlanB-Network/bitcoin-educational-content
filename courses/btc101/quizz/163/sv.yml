@@ -1,8 +1,8 @@
-question: Hur lång är den genomsnittliga tiden mellan skapandet av två block i Bitcoin-protokollet?
-answer: 10 minuter.
+question: Vad är den största fördelen med specialiserade SHA256-maskiner, eller ASICS, i Bitcoin Mining?
+answer: De ökar Hash-värdet per joule.
 wrong_answers:
-  - 5 minuter.
-  - 15 minuter.
-  - 20 minuter.
+  - De minskar energiförbrukningen.
+  - De ökar hastigheten på transaktionerna.
+  - De ökar säkerheten i nätverket.
 explanation: >-
 reviewed: true

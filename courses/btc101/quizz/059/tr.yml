@@ -1,9 +1,12 @@
-question: Aşağıdakilerden hangisi Bitcoin özelliklerinden biri değildir?
-answer: Kolayca sansürleniyor.
+question: Bitcoin yaratımının hangi yıl sona ereceği tahmin ediliyor?
+answer: 2140
 wrong_answers:
-  - Anında taşınabilir.
-  - İhmal edilebilir doğrulama maliyetleri vardır.
-  - Sabit bir para politikası vardır.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin, verimli ve sağlıklı bir para birimi olmak için gerekli tüm özelliklere sahiptir: bölünebilir, anında taşınabilir, sansürlenemez, doğrulama için ihmal edilebilir maliyet ve 21 milyon birimle gelecek yüzyıllar için şimdiden belirlenmiş bir para politikası.
+  Halving mekanizması nedeniyle, matematiksel olarak
+  bitcoin yaratımının 2140 yılında sona ereceğini öngörmüştür,
+  toplam bitcoin sayısı 21 sınırına ulaştığında
+  milyon.
 reviewed: true

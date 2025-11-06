@@ -1,5 +1,5 @@
 ---
-name: Coinjoin - Ví Samourai
+name: Coinjoin - Samourai Wallet
 description: Làm thế nào để thực hiện một coinjoin trên Ví Samourai?
 ---
 ![cover](assets/cover.webp)
@@ -66,7 +66,7 @@ Whirlpool được thiết kế dựa trên hai yêu cầu quan trọng:
 Những yêu cầu này đã hướng dẫn các nhà phát triển của Samourai Wallet trong việc thiết kế Whirlpool, khiến họ hạn chế số lượng người tham gia mỗi chu kỳ. Quá ít người tham gia sẽ làm giảm hiệu quả của coinjoin, giảm đáng kể các nhóm ẩn danh được tạo ra mỗi chu kỳ, trong khi quá nhiều người tham gia sẽ gây ra vấn đề quản lý trên các ứng dụng di động và cản trở dòng chảy của các chu kỳ.
 **Cuối cùng, không cần phải có một số lượng lớn người tham gia mỗi coinjoin trên Whirlpool vì các nhóm ẩn danh được đạt được thông qua việc tích lũy nhiều chu kỳ coinjoin.**
 
-[-> Tìm hiểu thêm về các nhóm ẩn danh của Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Tìm hiểu thêm về các nhóm ẩn danh của Whirlpool.
 
 ### Các hồ bơi và phí coinjoin
 Để những chu kỳ nhiều lần này có thể tăng hiệu quả các nhóm ẩn danh của các đồng tiền được trộn, một khuôn khổ nhất định phải được thiết lập để hạn chế số lượng UTXO được sử dụng. Whirlpool do đó xác định các hồ bơi khác nhau.
@@ -172,7 +172,7 @@ Tuy nhiên, phương pháp này có hai nhược điểm đáng chú ý:
 - Coinjoins chỉ xảy ra khi Samourai đang chạy ở chế độ nền và được kết nối. Điều này có nghĩa là nếu bạn muốn hỗn hợp và remix bitcoin của mình 24/7, bạn phải luôn giữ Samourai được bật;
 - Nếu bạn sử dụng Whirlpool với Samourai Wallet mà không kết nối với Dojo của riêng mình, thì ứng dụng của bạn sẽ phải kết nối với máy chủ được duy trì bởi các đội ngũ Samourai, và bạn sẽ tiết lộ `xpub` của ví cho họ. Những thông tin ẩn danh này là cần thiết để ứng dụng của bạn tìm thấy các giao dịch của mình.
 
-Giải pháp lý tưởng để vượt qua những hạn chế này là vận hành Dojo của riêng bạn kết hợp với một thể hiện Whirlpool CLI trên node Bitcoin cá nhân của bạn. Như vậy, bạn sẽ tránh được rò rỉ thông tin và đạt được sự độc lập hoàn toàn. Mặc dù hướng dẫn được trình bày dưới đây hữu ích cho một số mục tiêu hoặc cho người mới bắt đầu, để tối ưu hóa phiên coinjoin của bạn, việc sử dụng Dojo của riêng bạn được khuyến nghị. Một hướng dẫn chi tiết về cài đặt cấu hình này sẽ sớm có sẵn trên PlanB Network.
+Giải pháp lý tưởng để vượt qua những hạn chế này là vận hành Dojo của riêng bạn kết hợp với một thể hiện Whirlpool CLI trên node Bitcoin cá nhân của bạn. Như vậy, bạn sẽ tránh được rò rỉ thông tin và đạt được sự độc lập hoàn toàn. Mặc dù hướng dẫn được trình bày dưới đây hữu ích cho một số mục tiêu hoặc cho người mới bắt đầu, để tối ưu hóa phiên coinjoin của bạn, việc sử dụng Dojo của riêng bạn được khuyến nghị. Một hướng dẫn chi tiết về cài đặt cấu hình này sẽ sớm có sẵn trên Plan ₿ Academy.
 
 ### Cài đặt Samourai Wallet
 Để bắt đầu, bạn rõ ràng cần ứng dụng Samourai Wallet. Bạn có thể tải nó trực tiếp từ trang web chính thức sử dụng APK, từ GitLab của họ, hoặc từ Google Play Store.
@@ -300,7 +300,7 @@ Một khi `Tx0` được xác nhận, các UTXO của bạn sẽ được tự �
 
 ![samourai](assets/notext/34.webp)
 
-Bằng cách kiểm tra tab `Remixing`, tương ứng với tài khoản **Postmix**, bạn sẽ quan sát thấy các UTXO kết quả từ các lần trộn ban đầu. Những đồng tiền này sẽ sẵn sàng cho việc trộn lại tiếp theo, mà không phát sinh thêm phí. Tôi khuyên bạn nên tham khảo bài viết khác này để tìm hiểu thêm về quy trình trộn lại và hiệu quả của một chu kỳ coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Bằng cách kiểm tra tab `Remixing`, tương ứng với tài khoản **Postmix**, bạn sẽ quan sát thấy các UTXO kết quả từ các lần trộn ban đầu. Những đồng tiền này sẽ sẵn sàng cho việc trộn lại tiếp theo, mà không phát sinh thêm phí. Tôi khuyên bạn nên tham khảo bài viết khác này để tìm hiểu thêm về quy trình trộn lại và hiệu quả của một chu kỳ coinjoin: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -337,7 +337,7 @@ Nhập thông tin cần thiết cho giao dịch chi tiêu của bạn, sau đó 
 
 ![samourai](assets/notext/43.webp)
 Trong bước tiếp theo, bạn có tùy chọn để chỉnh sửa mức phí liên quan đến giao dịch của mình. Bạn cũng có thể kích hoạt tùy chọn Stonewall bằng cách đánh dấu vào ô tương ứng. Nếu tùy chọn Stonewall không thể chọn, điều đó có nghĩa là tài khoản **Postmix** của bạn không chứa UTXO có kích thước đủ lớn để hỗ trợ cấu trúc giao dịch cụ thể này.
-[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Nếu mọi thứ đều làm bạn hài lòng, nhấn vào nút màu xanh `SEND ... BTC`.
 
@@ -369,8 +369,8 @@ Whirlpool sẽ tự động đóng lại. Chờ Samourai hoàn tất việc tả
 Đảm bảo SCODE của bạn đã được đăng ký chính xác bằng cách nhấn một lần nữa vào ba chấm nhỏ, sau đó chọn `SCODE (mã khuyến mãi) Whirlpool`. Nếu mọi thứ đều ổn, bạn đã sẵn sàng để bắt đầu một chu kỳ Whirlpool mới với mức giảm giá về phí dịch vụ. Quan trọng là phải lưu ý rằng những SCODE này là tạm thời: chúng chỉ còn hiệu lực trong vài ngày trước khi trở nên lỗi thời.
 
 ## Làm thế nào để biết chất lượng của các chu kỳ coinjoin của chúng ta?
-Để một coinjoin thực sự hiệu quả, điều cần thiết là nó phải thể hiện sự đồng nhất tốt giữa các lượng của đầu vào và đầu ra. Sự đồng nhất này làm tăng số lượng giải thích có thể trong mắt một quan sát viên bên ngoài, do đó tăng sự không chắc chắn xung quanh giao dịch. Để định lượng sự không chắc chắn này được tạo ra bởi một coinjoin, người ta có thể sử dụng việc tính toán entropy của giao dịch. Để khám phá sâu hơn về những chỉ số này, tôi giới thiệu bạn đọc hướng dẫn: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Mô hình Whirlpool được công nhận là một trong những mô hình mang lại sự đồng nhất nhiều nhất cho coinjoins.
-Tiếp theo, hiệu suất của một số chu kỳ coinjoin được đánh giá dựa trên quy mô của các nhóm mà trong đó một đồng tiền được ẩn giấu. Kích thước của những nhóm này xác định cái được gọi là anonsets. Có hai loại anonsets: loại đầu tiên đánh giá sự riêng tư đạt được đối với phân tích hồi tưởng (từ hiện tại về quá khứ) và loại thứ hai, đối với phân tích tiềm năng (từ quá khứ đến hiện tại). Để hiểu rõ hơn về hai chỉ số này, tôi mời bạn tham khảo hướng dẫn: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Để một coinjoin thực sự hiệu quả, điều cần thiết là nó phải thể hiện sự đồng nhất tốt giữa các lượng của đầu vào và đầu ra. Sự đồng nhất này làm tăng số lượng giải thích có thể trong mắt một quan sát viên bên ngoài, do đó tăng sự không chắc chắn xung quanh giao dịch. Để định lượng sự không chắc chắn này được tạo ra bởi một coinjoin, người ta có thể sử dụng việc tính toán entropy của giao dịch. Để khám phá sâu hơn về những chỉ số này, tôi giới thiệu bạn đọc hướng dẫn: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Mô hình Whirlpool được công nhận là một trong những mô hình mang lại sự đồng nhất nhiều nhất cho coinjoins.
+Tiếp theo, hiệu suất của một số chu kỳ coinjoin được đánh giá dựa trên quy mô của các nhóm mà trong đó một đồng tiền được ẩn giấu. Kích thước của những nhóm này xác định cái được gọi là anonsets. Có hai loại anonsets: loại đầu tiên đánh giá sự riêng tư đạt được đối với phân tích hồi tưởng (từ hiện tại về quá khứ) và loại thứ hai, đối với phân tích tiềm năng (từ quá khứ đến hiện tại). Để hiểu rõ hơn về hai chỉ số này, tôi mời bạn tham khảo hướng dẫn: WHIRLPOOL STATS TOOLS - ANONSETS
 
 ## Làm thế nào để quản lý postmix?
 Sau khi thực hiện các chu kỳ coinjoin, chiến lược tốt nhất là giữ các UTXO của bạn trong tài khoản **postmix**, chờ đợi việc sử dụng trong tương lai của chúng. Thậm chí nên để chúng remix vô thời hạn cho đến khi bạn cần tiêu chúng.
@@ -395,13 +395,15 @@ Tiếp theo, bạn phải cẩn thận trong việc quản lý doxxic change, ph
 - **Tập hợp chúng trên Monero:** Samourai Wallet hiện cung cấp dịch vụ hoán đổi nguyên tử giữa BTC và XMR. Đây là lý tưởng để quản lý UTXO độc hại bằng cách tập hợp chúng trên Monero, mà không làm ảnh hưởng đến quyền riêng tư qua KYC, trước khi gửi chúng trở lại Bitcoin. Tuy nhiên, lựa chọn này có thể tốn kém về phí khai thác và phí bổ sung do hạn chế về thanh khoản;
 - **Gửi chúng đến Lightning Network:** Chuyển những UTXO này đến Lightning Network để hưởng lợi từ phí giao dịch giảm là một lựa chọn có thể thú vị. Tuy nhiên, phương pháp này có thể tiết lộ một số thông tin tùy thuộc vào cách bạn sử dụng Lightning và do đó nên được thực hiện một cách cẩn thận.
 
-Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật khác nhau này sẽ sớm được cung cấp trên PlanB Network.
+Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật khác nhau này sẽ sớm được cung cấp trên Plan ₿ Academy.
 
 **Tài nguyên bổ sung:**
-[Hướng dẫn video của Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Hướng dẫn video của Samourai Wallet]()
 - [Tài liệu Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Chuỗi tweet về coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Bài đăng trên blog về coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
+
 
 
 

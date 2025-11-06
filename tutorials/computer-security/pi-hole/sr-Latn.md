@@ -54,7 +54,7 @@ Dakle, svaki put kada unesete ime veb-sajta u svoj pregledač ili kliknete na li
 
 
 
-**Pi-Hole će zatim pregledati ove zahteve (ima ih na stotine svakog dana!) i automatski blokirati one za koje je poznato da hostuju reklame ili čak zlonamerne datoteke
+**Pi-Hole će zatim pregledati ove zahteve (ima ih na stotine svakog dana!) i automatski blokirati one za koje je poznato da hostuju reklame ili čak zlonamerne datoteke**
 
 
 
@@ -62,7 +62,7 @@ Dakle, svaki put kada unesete ime veb-sajta u svoj pregledač ili kliknete na li
 
 
 
-Sa imenom kao što je Pi-Hole, mogli biste s pravom pretpostaviti da vam je potreban Raspberry-Pi... Ali to nije sasvim tačno. **Pi-Hole se može instalirati na bilo koji Linux računar (Debian, Fedora, Rocky, Ubuntu, itd.)
+Sa imenom kao što je Pi-Hole, mogli biste s pravom pretpostaviti da vam je potreban Raspberry-Pi... Ali to nije sasvim tačno. **Pi-Hole se može instalirati na bilo koji Linux računar (Debian, Fedora, Rocky, Ubuntu, itd.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Napomena: na minimalnim verzijama Debian 11, Curl nije instaliran, tako da ga morate ručno instalirati pomoću komande **apt-get install curl** pre nego što unesete gornju komandu.
+> **Napomena: na minimalnim verzijama Debian 11, Curl nije instaliran, tako da ga morate ručno instalirati pomoću komande** `apt-get install curl` **pre nego što unesete gornju komandu.**
 
 Kada se skripta pokrene, izvršiće se niz testova, a sama instalacija će se pobrinuti sama za sebe:
 
@@ -124,7 +124,7 @@ DNS selekcija - Pi-Hole
 
 
 
-> **Napomena: ako ste u kompaniji, verovatno je vaš trenutni DNS server kontroler domena Active Directory. Ali ne brinite, kasnije možete navesti uslovni preusmerivač za domen po vašem izboru. Obično ćete moći da preusmerite bilo koji zahtev koji se tiče vašeg lokalnog domena na vaš DNS server.
+> **Napomena:** ako ste u kompaniji, verovatno je vaš trenutni DNS server kontroler domena Active Directory. Ali ne brinite, kasnije možete navesti uslovni preusmerivač za domen po vašem izboru. Obično ćete moći da preusmerite bilo koji zahtev koji se tiče vašeg lokalnog domena na vaš DNS server.
 
 Primetićete da neki izbori uključuju opciju DNSSEC. U suštini, DNS protokol nije siguran (nije dizajniran sa tim na umu u to vreme). DNSSEC rešava ovaj problem dodavanjem Layer sigurnosti kroz enkripciju i potpisivanje razmena, kao što je objašnjeno u odgovarajućem članku: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -218,7 +218,7 @@ Jednom kada je ovo urađeno, ako su neki uređaji bili uključeni ranije, zadrž
 
 
 
-Na Windows radnim stanicama, sa komandnom linijom :
+Na Windows radnim stanicama, sa komandnom linijom:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Na Linux radnoj stanici :
+Na Linux radnoj stanici:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-U DNS polju, trebalo bi da imate Address vašeg Pi-Hole, u mom slučaju 192.168.1.42 :
+U DNS polju, trebalo bi da imate Address vašeg Pi-Hole, u mom slučaju 192.168.1.42:
 
 
 
@@ -286,7 +286,7 @@ Da biste ga dodali, prvo se povežite na Interface admin: **http://<ip_du_PiHole
 
 
 
-Lozinka administratora je već generisana (pogledajte snimak ekrana na kraju instalacije), tako da je sve što treba da uradite da je unesete kako biste pristupili Interface :
+Lozinka administratora je već generisana (pogledajte snimak ekrana na kraju instalacije), tako da je sve što treba da uradite da je unesete kako biste pristupili Interface:
 
 
 

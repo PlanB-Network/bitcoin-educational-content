@@ -1,5 +1,5 @@
 ---
-name: Ninja SAFU
+name: SAFU Ninja
 description: Lưu seed của bạn bằng phương pháp SAFU Ninja
 ---
 
@@ -24,19 +24,19 @@ Phương pháp Ninja SAFU mang lại một số lợi thế:
 
 
 
-- Bảo mật**: Bạn không mua một sản phẩm được xác định là dành cho mục đích sao lưu tiền điện tử. Các thành phần là tiêu chuẩn (vòng đệm, bu lông, hộp kim loại), có sẵn tại các cửa hàng phần cứng, giúp giảm thiểu nguy cơ bị nhắm mục tiêu trong trường hợp rò rỉ dữ liệu từ một nhà cung cấp chuyên biệt.
+- **Bảo mật**: Bạn không mua một sản phẩm được xác định là dành cho mục đích sao lưu tiền điện tử. Các thành phần là tiêu chuẩn (vòng đệm, bu lông, hộp kim loại), có sẵn tại các cửa hàng phần cứng, giúp giảm thiểu nguy cơ bị nhắm mục tiêu trong trường hợp rò rỉ dữ liệu từ một nhà cung cấp chuyên biệt.
 
 
 
 
 
-- Giá cả phải chăng**: Giải pháp này có giá từ **15 đến 140 EUR**, tùy thuộc vào các công cụ bạn đã có.
+- **Giá cả phải chăng**: Giải pháp này có giá từ **15 đến 140 EUR**, tùy thuộc vào các công cụ bạn đã có.
 
 
 
 
 
-- Độ tin cậy**: Đã được thử nghiệm từ năm 2020, phương pháp này đã được các chuyên gia về an toàn như [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) thử nghiệm và kiểm tra, những người đã tiến hành thử nghiệm ứng suất nghiêm ngặt (nhiệt độ cực cao, ăn mòn, áp suất cơ học).
+- **Độ tin cậy**: Đã được thử nghiệm từ năm 2020, phương pháp này đã được các chuyên gia về an toàn như [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) thử nghiệm và kiểm tra, những người đã tiến hành thử nghiệm ứng suất nghiêm ngặt (nhiệt độ cực cao, ăn mòn, áp suất cơ học).
 
 
 
@@ -59,17 +59,17 @@ Hướng dẫn từng bước này sẽ chỉ cho bạn cách tạo bản sao l�
 
 
 
-- Vòng đệm bằng thép không gỉ (khuyến nghị M8)**:
- - Vật liệu**: Thép không gỉ (ví dụ: 304 hoặc V4A để tăng khả năng chống ăn mòn)
-    - Kích thước**: M8 (đường kính trong 8 mm, đường kính ngoài ~24 mm). Vòng đệm M6 quá nhỏ và khó khắc.
-    - Số lượng**: 12 hoặc 24 vòng đệm cho một câu seed tiêu chuẩn, cùng với các vòng đệm tùy chọn (xem phần 3.4) và khoảng mười vòng đệm cho các bài kiểm tra hoặc lỗi.
+- Vòng đệm bằng thép không gỉ (khuyến nghị M8):
+- **Vật liệu**: Thép không gỉ (ví dụ: 304 hoặc V4A để tăng khả năng chống ăn mòn)
+- **Kích thước**: M8 (đường kính trong 8 mm, đường kính ngoài ~24 mm). Vòng đệm M6 quá nhỏ và khó khắc.
+- **Số lượng**: 12 hoặc 24 vòng đệm cho một câu seed tiêu chuẩn, cùng với các vòng đệm tùy chọn (xem phần 3.4) và khoảng mười vòng đệm cho các bài kiểm tra hoặc lỗi.
 
 
 
 
 
-- Thép không gỉ Bolt và đai ốc (M8)** :
- - Thông số kỹ thuật**: Bolt dài từ 2,5 đến 5 cm, tùy thuộc vào số lượng và độ dày của vòng đệm, đường kính 8 mm. Đai ốc cánh bướm giúp mở dễ dàng mà không cần dụng cụ, nhưng cũng có thể sử dụng đai ốc đơn giản.
+- **Thép không gỉ Bolt và đai ốc (M8)**:
+- **Thông số kỹ thuật**: Bolt dài từ 2,5 đến 5 cm, tùy thuộc vào số lượng và độ dày của vòng đệm, đường kính 8 mm. Đai ốc cánh bướm giúp mở dễ dàng mà không cần dụng cụ, nhưng cũng có thể sử dụng đai ốc đơn giản.
 
 
 
@@ -79,8 +79,8 @@ Hướng dẫn từng bước này sẽ chỉ cho bạn cách tạo bản sao l�
 
 
 
-- Bộ đục chữ và số (3 mm hoặc 6 mm)** :
-    - Thông số kỹ thuật**: Chữ cao 6 mm giúp dễ đọc và có thể được ưu tiên nếu một phần chữ bị mờ. Chọn một bộ chắc chắn để sử dụng nhiều lần.
+- **Bộ đục chữ và số (3 mm hoặc 6 mm)**:
+- **Thông số kỹ thuật**: Chữ cao 6 mm giúp dễ đọc và có thể được ưu tiên nếu một phần chữ bị mờ. Chọn một bộ chắc chắn để sử dụng nhiều lần.
 
 
 
@@ -90,14 +90,14 @@ Hướng dẫn từng bước này sẽ chỉ cho bạn cách tạo bản sao l�
 
 
 
-- Búa hoặc búa tạ** :
+- **Búa hoặc búa tạ**:
     - Nên dùng búa tạ để tạo lực đóng đủ và chính xác
 
 
 
 
 
-- Đe hoặc bề mặt chắc chắn** :
+- **Đe hoặc bề mặt chắc chắn**:
  - Bề mặt dày Hard (ví dụ: đe 1 kg hoặc đá lát 10 cm) để hấp thụ lực va chạm.
 
 
@@ -112,7 +112,7 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
 
-- Thiết bị dập**: Giữ vòng đệm và dẫn hướng cho đầu dập, cho phép dập chính xác, sạch sẽ, định hướng tốt hơn và khoảng cách giữa các chữ cái đều nhau
+- **Thiết bị dập**: Giữ vòng đệm và dẫn hướng cho đầu dập, cho phép dập chính xác, sạch sẽ, định hướng tốt hơn và khoảng cách giữa các chữ cái đều nhau
 
 
 
@@ -122,7 +122,7 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
 
-- Thiết bị niêm phong**: Túi niêm phong hoặc dải niêm phong
+- **Thiết bị niêm phong**: Túi niêm phong hoặc dải niêm phong
 
 
 
@@ -132,7 +132,7 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
 
-- Hộp kín khí**: Để lưu trữ khối vòng đệm
+- **Hộp kín khí**: Để lưu trữ khối vòng đệm
 
 
 
@@ -146,7 +146,7 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
 - Nên đeo găng tay** và kính bảo hộ**.
-- Cờ lê ống** để trượt mũi đục vào, sao cho bạn giữ mũi đục bằng cờ lê ống chứ không phải bằng ngón tay.
+- Cờ lê ống để trượt mũi đục vào, sao cho bạn giữ mũi đục bằng cờ lê ống chứ không phải bằng ngón tay.
 
 
 
@@ -156,13 +156,13 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
 
-- Số lượng cho bản sao lưu 24 từ**: 24 vòng đệm (tối thiểu), 1 Bolt, 1 đai ốc cánh, 1 bộ đục, 1 búa/massette, 1 đe/giá đỡ.
+- Số lượng cho bản sao lưu 24 từ: 24 vòng đệm (tối thiểu), 1 Bolt, 1 đai ốc cánh, 1 bộ đục, 1 búa/massette, 1 đe/giá đỡ.
 
 
 
 
 
-- Tổng chi phí** :
+- **Tổng chi phí**:
  - Vòng đệm và bu lông/đai ốc: ~ 15 EUR
  - Bộ đục lỗ: ~ 45 EUR
  - Vỏ bảo vệ: ~ 55 EUR
@@ -254,7 +254,7 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
     - Từ bản sao lưu mới của bạn, hãy thử khôi phục danh mục đầu tư của bạn
-- Niêm phong bản sao lưu** (tùy chọn và khuyến nghị):
+- **Niêm phong bản sao lưu** (tùy chọn và khuyến nghị):
  - Bằng cách dán kín bằng dải niêm phong hoặc trong túi kín.
  - Nếu bạn sử dụng túi đựng, hãy ghi lại mã số nhận dạng duy nhất của túi để bạn có thể kiểm tra xem đó có phải là túi đúng hay không chứ không phải là túi giả thay thế túi gốc.
 
@@ -269,7 +269,7 @@ Nếu không muốn đầu tư vào một bộ đục lỗ, bạn cũng có th�
 
 
 
-Lưu trữ bản sao lưu của bạn ở **vị trí kín đáo**, khuất tầm nhìn và dễ dàng kiểm tra định kỳ. Hãy chọn nơi lưu trữ chống cháy và chống nước**, tại nhà hoặc ở nơi bạn **kiểm soát độc quyền**.
+Lưu trữ bản sao lưu của bạn ở **vị trí kín đáo**, khuất tầm nhìn và dễ dàng kiểm tra định kỳ. Hãy chọn nơi lưu trữ **chống cháy và chống nước**, tại nhà hoặc ở nơi bạn **kiểm soát độc quyền**.
 
 
 
@@ -313,7 +313,7 @@ Ngay cả khi được lưu trữ tốt, bản sao lưu của bạn vẫn cần 
 
 
 
-*GIỮ AN TOÀN!
+**GIỮ AN TOÀN!**
 
 
 ![image](assets/fr/08.webp)
@@ -329,19 +329,19 @@ Ngay cả khi được lưu trữ tốt, bản sao lưu của bạn vẫn cần 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### A.2 Hiểu về passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ### A.3 Danh mục đầu tư Bitcoin hoạt động như thế nào
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### A.4 Phân loại phương pháp Ninja SAFU
@@ -379,21 +379,21 @@ Theo Jameson Lopp:
 
 
 
-- Máy giặt** cho
+- **Máy giặt** cho
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Vòng đệm + đai ốc + hộp bảo vệ** (cho vòng đệm)
+- Vòng đệm + đai ốc + **hộp bảo vệ** (cho vòng đệm)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Bộ đục lỗ
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Cơ sở gõ**
+- Cơ sở gõ
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Thiết bị gõ** (hướng dẫn)
+- **Thiết bị gõ** (hướng dẫn)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Thiết bị niêm phong
  - [Túi kín](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Dải niêm phong](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Bộ sản phẩm hoàn chỉnh**
+- **Bộ sản phẩm hoàn chỉnh**
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

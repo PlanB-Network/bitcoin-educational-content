@@ -1,10 +1,11 @@
-question: Kuidas võiks Lightning Network potentsiaalselt muuta maksemudeleid?
-answer: Kasutajatelt võidakse nõuda tasu minuti või isegi sekundi eest, mille nad teenust kasutavad
+question: Mis on Bitcoini seos tehnoloogia ja ühiskonna tulevikuga?
+answer: Bitcoin on tehnoloogiline revolutsioon uute suuremahuliste organisatsioonide jaoks, võimaldades väärtuse vahetust ilma igasuguse usaldusväärse kolmanda osapooleta.
 wrong_answers:
-  - Kasutajatelt võidakse nõuda fikseeritud tasu teenuse kasutamise eest
-  - Kasutajatelt võidakse nõuda tasu nende kasutatud andmemahu eest
-  - Kasutajatelt võidakse nõuda tasu nende tehtud tehingute arvu eest
+  - Bitcoin on tehisintellekti tehnoloogia vorm.
+  - Bitcoin on tööriist maailma rahvastiku kontrollimiseks.
+  - Bitcoin on meetod, mille abil valitsused jälgivad oma kodanike finantstehinguid.
 explanation: >-
-  Lightning Network'i abil, selle asemel, et maksta teenuse eest kuutasu,
-  võidakse kasutajatelt nõuda tasu minuti või isegi sekundi eest, mille nad teenust kasutavad.
+  Tekst selgitab, et Bitcoin, nagu internet kommunikatsioonimooduste jaoks,
+  on tehnoloogiline revolutsioon uute suuremahuliste organisatsioonide jaoks, tuues
+  meile võimaluse vahetada väärtust ilma igasuguse usaldusväärse kolmanda osapooleta.
 reviewed: false

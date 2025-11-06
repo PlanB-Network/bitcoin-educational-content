@@ -1,5 +1,5 @@
 ---
-name: Mullvad-Browser
+name: Mullvad Browser
 description: Wie man den Mullvad-Browser für den Datenschutz nutzt
 ---
 
@@ -13,10 +13,10 @@ In einer Welt, in der die digitale Überwachung allgegenwärtig ist, war der Sch
 
 
 
-- Cookies von Drittanbietern**: kleine Dateien, die von externen Websites hinterlegt werden, um Ihnen von einer Website zur anderen zu folgen
-- Fingerprinting**: sammelt einzigartige Merkmale Ihres Browsers und Geräts (Bildschirmauflösung, installierte Schriftarten, Plugins usw.), um Sie ohne Cookies zu identifizieren
-- Tracking-Skripte**: unsichtbare JavaScript-Codes, die Ihr Surfverhalten analysieren (Klicks, Scrollen, Verweildauer)
-- IP Address-Analyse**: geografischer Standort und Identifizierung Ihres Internetanbieters
+- **Cookies von Drittanbietern**: kleine Dateien, die von externen Websites hinterlegt werden, um Ihnen von einer Website zur anderen zu folgen
+- **Fingerprinting**: sammelt einzigartige Merkmale Ihres Browsers und Geräts (Bildschirmauflösung, installierte Schriftarten, Plugins usw.), um Sie ohne Cookies zu identifizieren
+- **Tracking-Skripte**: unsichtbare JavaScript-Codes, die Ihr Surfverhalten analysieren (Klicks, Scrollen, Verweildauer)
+- **IP Address-Analyse**: geografischer Standort und Identifizierung Ihres Internetanbieters
 
 
 
@@ -52,7 +52,7 @@ In diesem Tutorial werden wir gemeinsam entdecken, wie Mullvad Browser die Art u
 
 
 
-*der *Mullvad Browser** ist ein auf Datenschutz ausgerichteter Webbrowser, der in Zusammenarbeit mit dem Tor-Projekt entwickelt und vom schwedischen Unternehmen Mullvad VPN kostenlos verteilt wird. Er wurde im April 2023 auf den Markt gebracht und präsentiert sich als **"Tor-Browser ohne das Tor-Netzwerk "**. Er wurde entwickelt, um Online-Tracking und Fingerabdrücke zu minimieren, während er es den Nutzern ermöglicht, über ein vertrauenswürdiges VPN und nicht über das Tor-Netzwerk zu surfen.
+**Der Mullvad Browser** ist ein auf Datenschutz ausgerichteter Webbrowser, der in Zusammenarbeit mit dem Tor-Projekt entwickelt und vom schwedischen Unternehmen Mullvad VPN kostenlos verteilt wird. Er wurde im April 2023 auf den Markt gebracht und präsentiert sich als **"Tor-Browser ohne das Tor-Netzwerk"**. Er wurde entwickelt, um Online-Tracking und Fingerabdrücke zu minimieren, während er es den Nutzern ermöglicht, über ein vertrauenswürdiges VPN und nicht über das Tor-Netzwerk zu surfen.
 
 
 
@@ -74,25 +74,25 @@ Der Mullvad-Browser wurde mit einem Hauptziel vor Augen entwickelt: **Schutz der
 
 
 
-- Verringern Sie drastisch die Verfolgung von Werbung und Tracking** durch Websites und Werbeagenturen. Mullvad Browser blockiert standardmäßig Tracker von Drittanbietern, Tracking-Cookies und Fingerprinting-Skripte, die Sie identifizieren könnten.
+- Verringern Sie drastisch die Verfolgung von Werbung und **Tracking** durch Websites und Werbeagenturen. Mullvad Browser blockiert standardmäßig Tracker von Drittanbietern, Tracking-Cookies und Fingerprinting-Skripte, die Sie identifizieren könnten.
 
 
 
 
 
-- Standardisieren Sie den Fingerabdruck Ihres Browsers**, um **"in der Masse unterzugehen "**. Der Fingerabdruck ist wie ein einzigartiger "Personalausweis", der durch die Kombination aller Merkmale Ihres Browsers erstellt wird. Mullvad Browser stellt sicher, dass alle seine Benutzer genau den gleichen "Personalausweis" haben, so dass es unmöglich ist, sie individuell zu unterscheiden.
+- Standardisieren Sie den Fingerabdruck Ihres Browsers, um **"in der Masse unterzugehen"**. Der Fingerabdruck ist wie ein einzigartiger "Personalausweis", der durch die Kombination aller Merkmale Ihres Browsers erstellt wird. Mullvad Browser stellt sicher, dass alle seine Benutzer genau den gleichen "Personalausweis" haben, so dass es unmöglich ist, sie individuell zu unterscheiden.
 
 
 
 
 
-- Bietet sofortigen Schutz ohne zusätzliche Erweiterungen**. Mullvad Browser wird in einer "gebrauchsfertigen" Konfiguration geliefert: Der Benutzer muss weder eine Reihe von Erweiterungen installieren noch irgendwelche Einstellungen ändern, um geschützt zu sein.
+- Bietet sofortigen Schutz ohne zusätzliche Erweiterungen. Mullvad Browser wird in einer "gebrauchsfertigen" Konfiguration geliefert: Der Benutzer muss weder eine Reihe von Erweiterungen installieren noch irgendwelche Einstellungen ändern, um geschützt zu sein.
 
 
 
 
 
-- Verzichten Sie nicht mehr als nötig auf Leistung oder Ergonomie**. Ohne Tor-Routing bietet Mullvad Browser ein viel schnelleres Surfen als Tor Browser und nähert sich der Leistung eines Standard-Browsers in Verbindung mit einem VPN.
+- Verzichten Sie nicht mehr als nötig auf Leistung oder **Ergonomie**. Ohne Tor-Routing bietet Mullvad Browser ein viel schnelleres Surfen als Tor Browser und nähert sich der Leistung eines Standard-Browsers in Verbindung mit einem VPN.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser enthält eine Reihe von **Sicherheits- und Datenschutzfunktionen
 
 
 
-- Privates Browsing zu jeder Zeit:** Der private Browsing-Modus ist standardmäßig aktiviert und kann nicht deaktiviert werden. **Es wird kein Verlauf, keine Cookies und kein Cache von einer Sitzung zur nächsten gespeichert**. Sobald Sie Mullvad Browser schließen, werden alle Browsing-Daten gelöscht.
+- **Privates Browsing zu jeder Zeit:** Der private Browsing-Modus ist standardmäßig aktiviert und kann nicht deaktiviert werden. **Es wird kein Verlauf, keine Cookies und kein Cache von einer Sitzung zur nächsten gespeichert**. Sobald Sie Mullvad Browser schließen, werden alle Browsing-Daten gelöscht.
 
 
 
 
 
-- Verbesserter Schutz vor Fingerabdrücken:** Der Browser wendet strenge Einstellungen an, um digitale Fingerabdrücke zu vereiteln. Dies beinhaltet:
- - Standardisierung von Benutzeragent** und Browserversion
- - Zeitzone für alle Benutzer auf UTC** eingestellt
- - Letterboxing**: eine Technik, die automatisch graue Ränder um Webseiten herum einfügt, um die Anzeigegröße zu standardisieren und eine Identifizierung anhand der Bildschirmabmessungen zu verhindern
- - Blockieren von Fingerprinting-APIs**: Die Technologien Canvas (2D-Zeichnen), WebGL (3D-Grafik) und AudioContext (Audioverarbeitung) sind deaktiviert, da sie einzigartige Details über Ihre Hardware preisgeben können
- - Standardisierte Systemschriftarten**, um eine Identifizierung durch installierte Schriftarten zu vermeiden
+- **Verbesserter Schutz vor Fingerabdrücken:** Der Browser wendet strenge Einstellungen an, um digitale Fingerabdrücke zu vereiteln. Dies beinhaltet:
+- Standardisierung von **Benutzeragent** und Browserversion
+- Zeitzone für alle Benutzer auf **UTC** eingestellt
+- **Letterboxing**: eine Technik, die automatisch graue Ränder um Webseiten herum einfügt, um die Anzeigegröße zu standardisieren und eine Identifizierung anhand der Bildschirmabmessungen zu verhindern
+- **Blockieren von Fingerprinting-APIs**: Die Technologien Canvas (2D-Zeichnen), WebGL (3D-Grafik) und AudioContext (Audioverarbeitung) sind deaktiviert, da sie einzigartige Details über Ihre Hardware preisgeben können
+- Standardisierte Systemschriftarten, um eine Identifizierung durch installierte Schriftarten zu vermeiden
 
 
 
 
 
-- Blockieren von Trackern und Werbung:** Mullvad Browser integriert von Haus aus die Erweiterung **uBlock Origin** (vorinstalliert) mit zusätzlichen Schutzlisten zum Blockieren von **Drittanbieter-Trackern, Werbeskripten und anderen bösartigen Inhalten**. Dieser Schutz wird von der **First-Party-Isolation** begleitet: eine Technik, die Cookies in separaten "Töpfen" für jede Website speichert und so verhindert, dass eine Website die von einer anderen hinterlegten Cookies lesen kann.
+- **Blockieren von Trackern und Werbung:** Mullvad Browser integriert von Haus aus die Erweiterung **uBlock Origin** (vorinstalliert) mit zusätzlichen Schutzlisten zum Blockieren von **Drittanbieter-Trackern, Werbeskripten und anderen bösartigen Inhalten**. Dieser Schutz wird von der **First-Party-Isolation** begleitet: eine Technik, die Cookies in separaten "Töpfen" für jede Website speichert und so verhindert, dass eine Website die von einer anderen hinterlegten Cookies lesen kann.
 
 
 
 
 
-- Schaltfläche zum Zurücksetzen der Sitzung:** Wie die Schaltfläche "Neue Identität" von Tor Browser bietet Mullvad Browser eine Schaltfläche zum **schnellen Neustart des Browsers mit einer neuen, leeren Sitzung**.
+- Schaltfläche zum Zurücksetzen der Sitzung: Wie die Schaltfläche "Neue Identität" von Tor Browser bietet Mullvad Browser eine Schaltfläche zum **schnellen Neustart des Browsers mit einer neuen, leeren Sitzung**.
 
 
 
 
 
-- Einstellbare Sicherheitsstufen:** Du kannst die Sicherheitsstufe (*Normal*, *Safer*, *Safest*) in den Einstellungen anpassen, genau wie im Tor Browser.
+- **Einstellbare Sicherheitsstufen:** Du kannst die Sicherheitsstufe (*Normal*, *Safer*, *Safest*) in den Einstellungen anpassen, genau wie im Tor Browser.
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser enthält **drei vorinstallierte Erweiterungen**, die den Kern se
 ### **uBlock Origin**
 
 
-Diese Werbe- und Tracker-Blocker-Erweiterung kommt vorkonfiguriert mit **optimierten Filterlisten** zum Blockieren von :
+Diese Werbe- und Tracker-Blocker-Erweiterung kommt vorkonfiguriert mit **optimierten Filterlisten** zum Blockieren von:
 
 
 
@@ -169,19 +169,19 @@ uBlock Origin in Mullvad Browser verwendet standardisierte Parameter, um sicherz
 ### **NoScript**
 
 
-NoScript läuft im Hintergrund, um die **Sicherheitsstufen** des Browsers zu verwalten. Diese :
+NoScript läuft im Hintergrund, um die **Sicherheitsstufen** des Browsers zu verwalten. Diese:
 
 
 
 
-- Steuert die Ausführung von JavaScript** je nach ausgewählter Stufe (Normal/Most Secure/Most Secure)
-- Filtert XSS** (Cross-Site Scripting) Angriffe automatisch aus
-- Blockiert gefährliche** aktive Inhalte auf Nicht-HTTPS-Sites
+- Steuert die Ausführung von JavaScript je nach ausgewählter Stufe (Normal/Most Secure/Most Secure)
+- Filtert **XSS** (Cross-Site Scripting) Angriffe automatisch aus
+- Blockiert **gefährliche** aktive Inhalte auf Nicht-HTTPS-Sites
 - Das Symbol ist standardmäßig ausgeblendet, kann aber über "Symbolleiste anpassen" angezeigt werden
 
 
 
-### *erweiterung *Mullvad Browser**
+### *Erweiterung* **Mullvad Browser**
 
 
 Diese Mullvad-spezifische Erweiterung bietet unterschiedliche Funktionalitäten, je nachdem, ob Sie Mullvad VPN-Kunde sind oder nicht:
@@ -193,10 +193,10 @@ Diese Mullvad-spezifische Erweiterung bietet unterschiedliche Funktionalitäten,
 
 
 
-- Grundlegende Verbindungsprüfung**: zeigt Ihre aktuelle öffentliche IP-Adresse und einige Verbindungsinformationen an
-- Empfehlungen zum Datenschutz**: Tipps zur Verbesserung Ihrer Sicherheitseinstellungen (DNS, nur HTTPS, Suchmaschine)
-- WebRTC**-Steuerung: aktivieren/deaktivieren, um IP Address-Lecks zu verhindern
-- Kann ohne Auswirkungen** auf Ihren digitalen Fußabdruck gelöscht werden, wenn Sie Mullvad VPN nicht verwenden
+- **Grundlegende Verbindungsprüfung**: zeigt Ihre aktuelle öffentliche IP-Adresse und einige Verbindungsinformationen an
+- **Empfehlungen zum Datenschutz**: Tipps zur Verbesserung Ihrer Sicherheitseinstellungen (DNS, nur HTTPS, Suchmaschine)
+- **WebRTC-Steuerung**: aktivieren/deaktivieren, um IP Address-Lecks zu verhindern
+- Kann ohne Auswirkungen auf Ihren digitalen Fußabdruck gelöscht werden, wenn Sie Mullvad VPN nicht verwenden
 
 
 
@@ -209,16 +209,16 @@ Die Erweiterung entfaltet ihr volles Potenzial mit erweiterten Funktionen:
 
 
 
-- Integrierter SOCKS5-Proxy**: Ein-Klick-Verbindung zum Mullvad VPN-Server-Proxy
- - Feste IP Address**: im Gegensatz zu einem VPN, das seine IP Address ändern kann, garantiert ein Proxy immer dieselbe Ausgangs-Address
- - Automatischer Kill Switch**: Wenn die VPN-Verbindung unterbrochen wird, wird der Browser-Verkehr sofort blockiert
- - IPv6-Unterstützung**: IPv6-Konnektivität, auch wenn Ihre VPN-Verbindung nicht aktiviert ist
+- **Integrierter SOCKS5-Proxy**: Ein-Klick-Verbindung zum Mullvad VPN-Server-Proxy
+- **Feste IP Address**: im Gegensatz zu einem VPN, das seine IP Address ändern kann, garantiert ein Proxy immer dieselbe Ausgangs-Address
+- **Automatischer Kill Switch**: Wenn die VPN-Verbindung unterbrochen wird, wird der Browser-Verkehr sofort blockiert
+- **IPv6-Unterstützung**: IPv6-Konnektivität, auch wenn Ihre VPN-Verbindung nicht aktiviert ist
 
 
 
 
 
-- Multihop (Doppel-VPN)**: Möglichkeit, den Proxy-Standort zu ändern, um einen Tunnel innerhalb des Tunnels zu erstellen
+- **Multihop (Doppel-VPN)**: Möglichkeit, den Proxy-Standort zu ändern, um einen Tunnel innerhalb des Tunnels zu erstellen
  - Ihr Datenverkehr durchläuft zunächst Ihren VPN-Server und "springt" dann zu einem anderen Mullvad-Server
  - Verwenden Sie eine andere Lokalisierung nur für den Browser
 
@@ -226,13 +226,13 @@ Die Erweiterung entfaltet ihr volles Potenzial mit erweiterten Funktionen:
 
 
 
-- Erweiterte Verbindungsüberwachung**: Echtzeitüberwachung Ihres VPN-Status, des verbundenen Servers und Erkennung von DNS-Lecks
+- **Erweiterte Verbindungsüberwachung**: Echtzeitüberwachung Ihres VPN-Status, des verbundenen Servers und Erkennung von DNS-Lecks
 
 
 
 
 
-- Zugang zu Mullvad Leta**: private Suchmaschine, die für Abonnenten reserviert ist (obwohl von Mullvad aus Gründen der Korrelation mit Ihrem Konto nicht empfohlen)
+- Zugang zu **Mullvad Leta**: private Suchmaschine, die für Abonnenten reserviert ist (obwohl von Mullvad aus Gründen der Korrelation mit Ihrem Konto nicht empfohlen)
 
 
 
@@ -250,25 +250,25 @@ Diese drei Erweiterungen arbeiten zusammen, um ein kohärentes Ökosystem des Sc
 
 
 
-- Hervorragender Standard-Datenschutz:** Mullvad Browser wendet von Anfang an sehr strenge Datenschutzeinstellungen an, ohne dass eine manuelle Konfiguration erforderlich ist.
+- **Hervorragender Standard-Datenschutz:** Mullvad Browser wendet von Anfang an sehr strenge Datenschutzeinstellungen an, ohne dass eine manuelle Konfiguration erforderlich ist.
 
 
 
 
 
-- Bessere Leistung als Tor-Browser:** Ohne Onion-Routing ist Mullvad-Browser **deutlich schneller und reaktionsschneller** als Tor-Browser für das klassische Web-Browsing.
+- Bessere Leistung als Tor-Browser: Ohne Onion-Routing ist Mullvad-Browser **deutlich schneller und reaktionsschneller** als Tor-Browser für das klassische Web-Browsing.
 
 
 
 
 
-- Vertraute Interface Einfachheit:** Der Mullvad Browser basiert auf dem Interface von Firefox. Wenn Sie Firefox oder sogar Tor Browser gewohnt sind, werden Sie sich nicht fehl am Platz fühlen.
+- **Vertraute Interface Einfachheit:** Der Mullvad Browser basiert auf dem Interface von Firefox. Wenn Sie Firefox oder sogar Tor Browser gewohnt sind, werden Sie sich nicht fehl am Platz fühlen.
 
 
 
 
 
-- Vertrauensvolle Zusammenarbeit und geprüfter Code:** Mullvad Browser profitiert von der Expertise des Tor-Projekts, und der gesamte Quellcode ist für externe Prüfungen verfügbar.
+- **Vertrauensvolle Zusammenarbeit und geprüfter Code:** Mullvad Browser profitiert von der Expertise des Tor-Projekts, und der gesamte Quellcode ist für externe Prüfungen verfügbar.
 
 
 
@@ -278,25 +278,25 @@ Diese drei Erweiterungen arbeiten zusammen, um ein kohärentes Ökosystem des Sc
 
 
 
-- Keine Netzwerkanonymität ohne VPN:** Der wichtigste Punkt ist, dass **Mullvad Browser Ihre IP Address nicht von selbst versteckt** (wie alle anderen Browser, außer Tor Browser). Deine IP Address ist wie deine "postalische Address" im Internet: sie verrät deinen Standort und deinen ISP. Daher **ist er stark auf ein VPN** (virtuelles privates Netzwerk) angewiesen, um diese wichtigen Informationen zu verbergen.
+- **Keine Netzwerkanonymität ohne VPN:** Der wichtigste Punkt ist, dass **Mullvad Browser Ihre IP Address nicht von selbst versteckt** (wie alle anderen Browser, außer Tor Browser). Deine IP Address ist wie deine "postalische Address" im Internet: sie verrät deinen Standort und deinen ISP. Daher **ist er stark auf ein VPN** (virtuelles privates Netzwerk) angewiesen, um diese wichtigen Informationen zu verbergen.
 
 
 
 
 
-- Keine mobile Version:** Bislang ist Mullvad Browser nur auf PC (Windows, Mac, Linux) verfügbar.
+- **Keine mobile Version:** Bislang ist Mullvad Browser nur auf PC (Windows, Mac, Linux) verfügbar.
 
 
 
 
 
-- Inkompatibel mit bestimmten Gewohnheiten:** Der **permanente private Modus** bedeutet, dass Sie eine Sitzung nicht von einer Nutzung zur nächsten beibehalten können. Es ist unmöglich, von einer Sitzung zur nächsten mit einem Webkonto verbunden zu bleiben.
+- **Inkompatibel mit bestimmten Gewohnheiten:** Der **permanente private Modus** bedeutet, dass Sie eine Sitzung nicht von einer Nutzung zur nächsten beibehalten können. Es ist unmöglich, von einer Sitzung zur nächsten mit einem Webkonto verbunden zu bleiben.
 
 
 
 
 
-- Eingeschränkte Funktionen:** Um die Einheitlichkeit der Fingerabdrücke zu bewahren, hat Mullvad Browser **eine Reihe von Funktionen** deaktiviert, die in Firefox vorhanden sind, und ist nicht für Anpassungen vorgesehen.
+- **Eingeschränkte Funktionen:** Um die Einheitlichkeit der Fingerabdrücke zu bewahren, hat Mullvad Browser **eine Reihe von Funktionen** deaktiviert, die in Firefox vorhanden sind, und ist nicht für Anpassungen vorgesehen.
 
 
 
@@ -312,7 +312,7 @@ Mullvad Browser ist kostenlos für Windows, macOS und Linux erhältlich. Um ihn 
 
 
 
-*Offizielle Homepage von Mullvad Browser mit hervorgehobener Download-Schaltfläche
+*Offizielle Homepage von Mullvad Browser mit hervorgehobener Download-Schaltfläche*
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser bietet drei Sicherheitsstufen:
 
 
 
-- Normal** (aktuelle Standardstufe) : Alle Browser- und Website-Funktionen aktiviert
+- **Normal** (aktuelle Standardstufe): Alle Browser- und Website-Funktionen aktiviert
 
 
 
 
 
-- Sicherer**: Deaktiviert häufig gefährliche Website-Funktionen, was bei einigen Websites zu Funktionseinbußen führen kann:
+- **Sicherer**: Deaktiviert häufig gefährliche Website-Funktionen, was bei einigen Websites zu Funktionseinbußen führen kann:
  - JavaScript ist für Nicht-HTTPS-Seiten deaktiviert
  - Einige Schriftarten und mathematische Symbole sind deaktiviert
  - Ton und Video (HTML5-Medien) sowie WebGL sind "click to play"
@@ -414,7 +414,7 @@ Mullvad Browser bietet drei Sicherheitsstufen:
 
 
 
-- Die sicherste**: Erlaubt nur die Website-Funktionen, die für statische Websites und Basisdienste erforderlich sind:
+- **Die sicherste**: Erlaubt nur die Website-Funktionen, die für statische Websites und Basisdienste erforderlich sind:
  - JavaScript ist standardmäßig für alle Websites deaktiviert
  - Einige Schriftarten, Icons, Bilder und mathematische Symbole sind deaktiviert
  - Ton und Video (HTML5-Medien) sowie WebGL sind "click to play"
@@ -477,7 +477,7 @@ Wenn Sie dennoch Erweiterungen installieren, sollten Sie sich bewusst sein, dass
 
 
 
-1. **Verwenden Sie immer ein VPN: Mullvad Browser maskiert Ihre IP nicht. Ein VPN ist für vollständige Anonymität unerlässlich.
+1. **Verwenden Sie immer ein VPN:** Mullvad Browser maskiert Ihre IP nicht. Ein VPN ist für vollständige Anonymität unerlässlich.
 
 
 
@@ -485,7 +485,7 @@ Wenn Sie dennoch Erweiterungen installieren, sollten Sie sich bewusst sein, dass
 
 
 
-3. **Verwenden Sie die Schaltfläche "Neue Sitzung": Zwischen verschiedenen Aktivitäten können Sie mit der Reset-Funktion Ihre Sitzungen aufteilen.
+3. **Verwenden Sie die Schaltfläche "Neue Sitzung":** Zwischen verschiedenen Aktivitäten können Sie mit der Reset-Funktion Ihre Sitzungen aufteilen.
 
 
 
@@ -494,9 +494,9 @@ Wenn Sie dennoch Erweiterungen installieren, sollten Sie sich bewusst sein, dass
 
 
 
-   - Normal (empfohlen)**: Für das tägliche Surfen. Bietet bereits einen ausgezeichneten Schutz, ohne dass Websites beeinträchtigt werden. Dies ist für 95 % der Benutzer die beste Lösung.
-   - Sicherer**: Wenn Sie unbekannte oder potenziell gefährliche Websites besuchen, oder für zusätzlichen Schutz in öffentlichen Wi-Fi-Netzwerken. Einige Websites können nicht richtig funktionieren.
-   - Am sichersten**: Reserviert für Hochrisikosituationen (investigativer Journalismus, sensible Kommunikation, feindliche Umgebungen). Die meisten modernen Websites werden beschädigt sein, aber das ist der Preis für maximale Sicherheit.
+- **Normal (empfohlen)**: Für das tägliche Surfen. Bietet bereits einen ausgezeichneten Schutz, ohne dass Websites beeinträchtigt werden. Dies ist für 95 % der Benutzer die beste Lösung.
+- **Sicherer**: Wenn Sie unbekannte oder potenziell gefährliche Websites besuchen, oder für zusätzlichen Schutz in öffentlichen Wi-Fi-Netzwerken. Einige Websites können nicht richtig funktionieren.
+- **Am sichersten**: Reserviert für Hochrisikosituationen (investigativer Journalismus, sensible Kommunikation, feindliche Umgebungen). Die meisten modernen Websites werden beschädigt sein, aber das ist der Preis für maximale Sicherheit.
 
 
 

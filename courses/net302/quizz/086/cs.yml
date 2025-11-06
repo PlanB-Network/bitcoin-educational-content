@@ -1,0 +1,9 @@
+question: Který příkaz je doporučen pro analýzu aktivních připojení TCP a UDP v systému Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - ip odkaz
+  - ifup
+explanation: |
+  Příkaz ss nahrazuje příkaz netstat, který rychle zobrazí všechna aktivní síťová připojení.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni izihe ziri mu nzira za Bitcoin?
+answer: Liquid n'Imizi
+wrong_answers:
+  - Polygon na Arbitrum
+  - Yupiteri na Fantom
+  - Bitcoin Amahera na Bitcoin Satoshi Iyerekwa
+explanation: |
+  Liquid na RSK ni imirongo y'inyuma ifise urudodo rw'inzira 2 na Bitcoin. Ayandi mahitamwo si ama sidechains, canke nta 2WP na Bitcoin Blockchain.
+reviewed: false

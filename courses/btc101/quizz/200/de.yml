@@ -1,12 +1,9 @@
-question: Was ist ein Spontankauf?
-answer: Sofortiges Kaufen von Bitcoin, um eine Exposition zu erlangen.
+question: Was ist eines der potenziellen Risiken, Ihre Bitcoins auf einer Handelsplattform zu belassen?
+answer: Die Risiken von Hacking und der Sperrung von Mitteln.
 wrong_answers:
-  - Bitcoin in regelmäßigen Abständen kaufen.
-  - Bitcoin nur kaufen, wenn der Preis fällt.
-  - Bitcoin nur kaufen, wenn der Preis steigt.
-explanation: |
-  Der Kursinhalt erklärt, dass ein Spontankauf dazu dient,
-  sofort eine Exposition gegenüber Bitcoin zu erlangen. Zum Beispiel
-  könnte dies bedeuten, während eines Crashs zu kaufen oder einen
-  Bonus zu nutzen.
+  - Das Risiko, dass die Plattform den Preis von Bitcoin erhöht.
+  - Das Risiko, dass die Plattform die Versorgung mit Bitcoin kontrolliert.
+  - Das Risiko, dass Bitcoin im Preis von einer anderen Kryptowährung übertroffen wird.
+explanation: >-
+  Der Text erwähnt, dass das Belassen Ihrer Bitcoins auf einer Handelsplattform Sie den Risiken von Hacking und der Sperrung von Mitteln aussetzt.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Koji faktor određuje uticaj čvora na pravila konsenzusa?
+answer: Njegova ekonomska težina
+wrong_answers:
+  - Njegov broj odlaznih veza
+  - Stariji položaj u mreži
+  - Ništa, jer svaki čvor ima jedan glas
+explanation: |
+  Uticaj na pravila konsenzusa zavisi od ekonomske aktivnosti koju čvor podržava, a ne od njegovog broja.
+reviewed: true

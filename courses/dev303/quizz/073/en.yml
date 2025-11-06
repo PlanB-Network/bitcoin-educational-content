@@ -1,0 +1,8 @@
+question: When should the question mark operator (?) be preferred over unwrap() or expect() methods in Rust error handling?
+answer: When you need to propagate errors up the call stack for the calling function to handle
+wrong_answers:
+  - When you want to provide custom error messages for debugging failed operations
+  - When you are certain the operation will succeed and want to avoid error handling
+  - When you need to convert errors to a default value and continue program execution
+explanation: |
+  The question mark operator (?) is designed for error propagation - it extracts success values but immediately returns errors from the current function, allowing callers to handle them. Unlike unwrap()/expect() which panic on errors, or unwrap_or() which provides defaults, the ? operator maintains the error context and passes responsibility to higher-level code that can make appropriate handling decisions.

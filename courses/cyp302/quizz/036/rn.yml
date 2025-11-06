@@ -1,0 +1,9 @@
+question: None iyo imibare ibiri iba coprime bisobanura iki?
+answer: Umugabane wabo munini cane ungana na 1 .
+wrong_answers:
+  - Igitigiri cabo ni umubare w'ibiharuro
+  - Bompi mbere ni .
+  - Nta bandi bagabanya bahuriyeko uretse 1 na bo ubwabo .
+explanation: |
+  Imibare ibiri ni coprime iyo umugabane wayo munini ari 1, bisobanura ko idasangira ibintu vy’intango, ikintu gihambaye mu guhingura amakuru.
+reviewed: false

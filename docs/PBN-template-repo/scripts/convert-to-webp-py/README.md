@@ -5,9 +5,9 @@
 
 ---
 
-EN : This little python script converts PNG, JPEG and JPG images into WEBP images. You can use it to quickly convert visuals and diagrams for your PlanB Network tutorials. The WEBP format allows you to reduce the size of your assets. The script converts the file and then deletes the source file automatically.
+EN : This little python script converts PNG, JPEG and JPG images into WEBP images. You can use it to quickly convert visuals and diagrams for your Plan ₿ Academy tutorials. The WEBP format allows you to reduce the size of your assets. The script converts the file and then deletes the source file automatically.
 
-FR : Ce petit script python convertit les images PNG, JPEG et JPG en images WEBP. Vous pouvez l'utiliser pour convertir rapidement des visuels et des schémas pour vos tutoriels PlanB Network. Le format WEBP vous permet de réduire la taille de vos images. Le script convertit le fichier et supprime ensuite automatiquement le fichier source.
+FR : Ce petit script python convertit les images PNG, JPEG et JPG en images WEBP. Vous pouvez l'utiliser pour convertir rapidement des visuels et des schémas pour vos tutoriels Plan ₿ Academy. Le format WEBP vous permet de réduire la taille de vos images. Le script convertit le fichier et supprime ensuite automatiquement le fichier source.
 
 ## Requirements
 

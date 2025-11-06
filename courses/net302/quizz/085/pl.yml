@@ -1,0 +1,9 @@
+question: Którego polecenia można użyć do sprawdzenia, przez który Interface i bramę zostanie przekierowany pakiet do 8.8.8.8?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> pokazuje dokładną ścieżkę, jaką pakiet musiałby przebyć, aby dotrzeć do określonego miejsca docelowego.
+reviewed: false

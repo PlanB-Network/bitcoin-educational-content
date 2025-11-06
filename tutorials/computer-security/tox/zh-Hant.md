@@ -1,5 +1,5 @@
 ---
-name: 毒素
+name: Tox
 description: 在分散式 Tox 通訊協定上開啟無中介的對話
 ---
 ![cover](assets/cover.webp)
@@ -304,4 +304,4 @@ Tox 通訊協定使用分散式 Hash 表來建立分散式節點網路。每個 
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

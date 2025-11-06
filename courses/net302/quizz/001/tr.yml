@@ -1,0 +1,9 @@
+question: Hangi topoloji tüm ekipmanları tek bir merkezi noktaya bağlar?
+answer: Yıldız
+wrong_answers:
+  - Yüzük
+  - Otobüs
+  - Mesh
+explanation: |
+  Bir yıldız topolojisinde, her cihaz merkezi bir cihaza bağlanarak yönetim ve bakımı kolaylaştırır.
+reviewed: false

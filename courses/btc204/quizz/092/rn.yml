@@ -1,0 +1,10 @@
+question: Konti ikoreshwa ku ma UTXO adashobora kwinjira mu kidengeri ca Whirlpool CoinJoin yitwa irihe?
+answer: Doxxic guhindura konti.
+wrong_answers:
+  - Konti ya Postmix.
+  - Konti y'imbere.
+  - Konti yo gushiramwo amahera.
+explanation: |
+  Ihinduka ritashobora kwifatanya n’ikidengeri ryitandukanijwe muri “konti y’ihinduka ry’ivy’ubuhinga, kugira ngo habeho ugutandukana gukomeye n’izindi UTXO ziri muri Wallet.
+  
+reviewed: false

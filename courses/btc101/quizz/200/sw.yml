@@ -1,12 +1,8 @@
-question: Ununuzi wa hiari ni nini?
-answer: Kununua Bitcoin mara moja ili kupata mfiduo.
+question: Je, ni ipi mojawapo ya hatari zinazoweza kutokea za kuacha Bitcoin yako kwenye jukwaa la Exchange?
+answer: Hatari za udukuzi na kuzuia fedha.
 wrong_answers:
-  - Kununua Bitcoin kwa vipindi vya kawaida.
-  - Kununua Bitcoin tu wakati bei inashuka.
-  - Kununua Bitcoin tu wakati bei inapanda.
-explanation: |
-  Nakala ya kozi inaelezea kuwa ununuzi wa moja kwa moja ni
-  hutumika kupata mfiduo mara moja kwa Bitcoin. Kwa mfano,
-  inaweza kumaanisha kununua wakati wa ajali au kuchukua faida
-  bonasi.
+  - Hatari ya jukwaa kuongeza bei ya Bitcoin.
+  - Hatari ya jukwaa kudhibiti Supply ya Bitcoin.
+  - Hatari ya Bitcoin kuzidiwa kwa bei na cryptocurrency.
+explanation: >-
 reviewed: true

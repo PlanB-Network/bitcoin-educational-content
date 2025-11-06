@@ -1,0 +1,9 @@
+question: Bigenda gute iyo Alice ataronse umukono wa Bob ku bijanye n’ugukura amahera?
+answer: Arashobora gutakaza uburenganzira bwo kuronka amahera yiwe yabitswe muri Address000 y’amasinya menshi.
+wrong_answers:
+  - Ntagishobora kuvugana na Bob kuri Lightning Network.
+  - Umuyoboro urafunguka n'ubushobozi buke
+  - Bob ihita ironka amahera mu muyoboro
+explanation: |
+  Alice ata mukono wa Bob ku bijanye n’ugukura amahera, ntashobora gutuma amahera yiwe asubizwa iyo habaye ikibazo, ivyo bikaba bishobora gutuma atakaza amahera.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Bagaimana Jaringan Lightning berpotensi mentransformasi model bisnis yang ada di industri video game?
-answer: Ini memungkinkan pemain untuk bertaruh dengan jumlah uang yang sangat kecil saat bermain game
+question: Apa salah satu cara untuk mencoba Lightning Network sendiri?
+answer: Dengan mencoba aplikasi podcast Fountain
 wrong_answers:
-  - Ini memungkinkan pemain untuk menambang Bitcoin saat bermain game
-  - Ini memungkinkan pengembang game untuk menerima Bitcoin sebagai pembayaran untuk game mereka
-  - Ini memungkinkan pemain untuk membeli item dalam game dengan Bitcoin
+  - Dengan menambang Bitcoin
+  - Dengan membeli Bitcoin
+  - Dengan menciptakan mata uang kripto baru
 explanation: >-
-  Jaringan Lightning memungkinkan pemain untuk bertaruh dengan jumlah uang yang sangat kecil saat bermain game, seperti beberapa satoshi. Ini memungkinkan untuk pembentukan taruhan yang merangsang persaingan sambil secara signifikan meningkatkan biaya untuk mengerahkan bot.
-reviewed: false
+  Salah satu cara untuk mencoba Lightning Network sendiri adalah dengan mencoba aplikasi podcast Fountain, yang memungkinkan Anda untuk mendapatkan beberapa sats sebagai hadiah dengan mendengarkan podcast favorit Anda.

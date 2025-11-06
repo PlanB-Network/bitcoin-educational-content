@@ -1,0 +1,9 @@
+question: Je, kukataliwa kwa hiari na umaliziaji kunaleta tatizo gani kwa jamii yetu?
+answer: Tatizo la kuwajibika kwa uovu.
+wrong_answers:
+  - Kuwasukuma wanaume kuwa huru.
+  - Kukuza usekula.
+  - Ili kuzuia aina zote za huria.
+explanation: |
+  Kukataliwa kwa hiari na umaliziaji huleta tatizo la kuwajibika kwa uovu. Ikiwa kila kitu kimeamuliwa na bila mwisho, tunawezaje kuwawajibisha watu kwa matendo yao? Hii ni changamoto kubwa ya kimaadili.
+reviewed: false

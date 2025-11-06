@@ -1,8 +1,13 @@
-question: Wat is een van de mogelijke toepassingen van de Lightning Network in het dagelijks leven?
-answer: Directe facturering in de handel.
+question: Wat is een DCA-platform?
+answer: Een dienst waarmee gebruikers op regelmatige tijdstippen een vast bedrag kunnen investeren in een actief.
 wrong_answers:
-  - Mining nieuwe Bitcoins.
-  - Nieuwe cryptocurrencies creëren.
-  - De waarde van Bitcoin verhogen.
-explanation: >-
+  - Een type cryptocurrency Exchange waarbij alleen Bitcoin verhandeld mag worden.
+  - Een financiële dienst die leningen verstrekt aan beleggers voor margehandel.
+  - Een softwaretool die aandelenkoersen in realtime volgt zonder beleggingsfuncties.
+explanation: |
+  Een DCA-platform verwijst naar een platform dat het volgende faciliteert
+  Dollar-Cost Averaging (DCA), een beleggingsstrategie waarbij
+  een individu een vast bedrag investeert in een
+  bepaalde activa met regelmatige tussenpozen, ongeacht de
+  prijs van de activa.
 reviewed: true

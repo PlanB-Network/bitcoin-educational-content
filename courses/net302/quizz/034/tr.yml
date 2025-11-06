@@ -1,0 +1,9 @@
+question: Bir bilgisayar ağında IPv4 Address'ın ana rolü nedir?
+answer: Bir ağı benzersiz şekilde tanımlama Interface
+wrong_answers:
+  - Bir ağ üzerindeki tüm cihazı tanımlama
+  - Ağ üzerinde MAC adreslerini dinamik olarak atama
+  - generate DNS adları
+explanation: |
+  Bir cihazın her bir ağ Interface'üne bir IPv4 Address atanarak cihazın ağ üzerinde bulunabilmesi ve cihaza ulaşılabilmesi sağlanır.
+reviewed: false

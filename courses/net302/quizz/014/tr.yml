@@ -1,0 +1,9 @@
+question: IPv5'in (Stream Protocol, ST) temel amacı nedir?
+answer: Belirli akışlar için hizmet kalitesinin sağlanması
+wrong_answers:
+  - IP adresleme kapasitesini genişletme
+  - IPv6 ile geriye dönük uyumluluk sağlama
+  - TCP/IP ağ paketlerinin boyutunu küçültme
+explanation: |
+  IPv5 (ST), bant genişliği ve önceliği garanti ederek VoIP gibi multimedya akışları için hizmet kalitesi (QoS) sağlamak üzere tasarlanmıştır.
+reviewed: false

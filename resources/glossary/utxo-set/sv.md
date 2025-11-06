@@ -8,4 +8,4 @@ Avser samlingen av alla befintliga UTXO:er vid en given tidpunkt. Med andra ord 
 Denna UTXO-uppsättning behålls av varje nod för att snabbt verifiera om de UTXO som använts i transaktioner verkligen är legitima. Detta gör att de kan upptäcka och avvisa Double-spending-försök. UTXO-uppsättningen är ofta kärnan i oro över Bitcoin:s decentralisering, eftersom dess storlek naturligt ökar mycket snabbt. Eftersom en del av den måste förvaras i RAM-minnet för att verifiera transaktioner inom rimlig tid, kan UTXO-uppsättningen gradvis göra det för kostsamt att driva en Full node. UTXO-uppsättningen har också en betydande inverkan på IBD (*Initial Block Download*). Ju mer av UTXO-uppsättningen som kan placeras i RAM, desto snabbare är IBD. På Bitcoin Core lagras UTXO-uppsättningen i mappen med namnet `/chainstate`.
 
 
-> ► *På engelska kan "UTXO set" översättas med "UTXO set"
+> ► *På engelska kan "UTXO set" översättas med "UTXO set"*

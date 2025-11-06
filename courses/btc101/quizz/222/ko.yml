@@ -1,0 +1,8 @@
+question: Lightning Network의 트랜잭션은 어떻게 보호되나요?
+answer: 암호화를 통해, 그리고 Bitcoin에서 채굴자가 소비하는 에너지를 통해 간접적으로.
+wrong_answers:
+  - 개인 키만 사용해야 합니다.
+  - 공개 키만 사용해야 합니다.
+  - 개인 키와 공개 키를 모두 사용해야 합니다.
+explanation: >-
+reviewed: true

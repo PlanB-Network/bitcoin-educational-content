@@ -1,0 +1,9 @@
+question: Komponen mana yang direkomendasikan untuk melindungi node jika terjadi kegagalan daya?
+answer: Sebuah inverter
+wrong_answers:
+  - Kartu grafis kedua
+  - Router tambahan
+  - Hub USB
+explanation: |
+  Inverter mencegah pemadaman mendadak jika terjadi kegagalan daya dan melindungi stabilitas node.
+reviewed: true

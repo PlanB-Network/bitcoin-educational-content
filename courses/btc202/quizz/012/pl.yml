@@ -1,0 +1,9 @@
+question: Który etap jest częścią roli nieletniego?
+answer: Tworzenie bloku kandydującego z Mempool
+wrong_answers:
+  - Weryfikacja całego Blockchain z Mempool
+  - Tworzenie adresów Bitcoin dla użytkowników
+  - Przechowywanie kluczy prywatnych dla portfeli
+explanation: |
+  Miner wybiera transakcje z Mempool i tworzy blok kandydujący, który próbuje zatwierdzić przez Proof of Work.
+reviewed: true

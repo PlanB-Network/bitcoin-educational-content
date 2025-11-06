@@ -1,4 +1,4 @@
-question: Jaka jest jedna z potencjalnych konsekwencji nieprzestrzegania przepisów obowiązujących w twoim kraju podczas zakupu bitcoin?
+question: Jaka jest jedna z potencjalnych konsekwencji nieprzestrzegania przepisów obowiązujących w twoim kraju podczas zakupu bitcoinów?
 answer: Możesz narazić się na ryzyko.
 wrong_answers:
   - Możesz podnieść cenę bitcoina.
@@ -6,5 +6,5 @@ wrong_answers:
   - Możesz uniemożliwić innym zakup bitcoina.
 explanation: |
   W tekście kursu wspomniano, że nieprzestrzeganie przepisów
-  obowiązujących w danym kraju przy zakupie bitcoina może narazić użytkownika na ryzyko.
+  obowiązujących w danym kraju przy zakupie bitcoinów może narazić użytkownika na ryzyko.
 reviewed: true

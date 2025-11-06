@@ -51,24 +51,30 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 Votre téléphone Android doit pouvoir joindre votre nœud Bitcoin sur le réseau local. Trouvez l'adresse IP de votre ordinateur :
 
 **Sur macOS** :
+
 ```bash
 ifconfig | grep "inet " | grep -v "127.0.0.1" | awk '{print $2}' | head -n 1
 ```
+
 Alternative simple :
+
 ```bash
 ipconfig getifaddr en0
-# ou pour WiFi : ipconfig getifaddr en1
+# or for WiFi: ipconfig getifaddr en1
 ```
 
 **Sur Linux** :
+
 ```bash
 hostname -I | awk '{print $1}'
 ```
 
 **Sur Windows** :
+
 ```cmd
 ipconfig
 ```
+
 Cherchez l'adresse IPv4 (format `192.168.x.x` ou `10.0.x.x`)
 
 ### Configuration RPC
@@ -89,39 +95,40 @@ Ouvrez le fichier avec votre éditeur de texte préféré et ajoutez cette confi
 **Configuration recommandée pour débuter (signet)** :
 
 ```conf
-# Activer signet (réseau de test)
+# Enable signet (test network)
 signet=1
 prune=550
 
-# Activer le serveur RPC
+# Enable the RPC server
 server=1
 rpcbind=0.0.0.0
 
-# Autoriser connexions depuis votre réseau local
-# Adaptez selon votre réseau (192.168.x.0/24 ou 10.0.x.0/24)
+# Allow connections from your local network
+# Adjust according to your network (192.168.x.0/24 or 10.0.x.0/24)
 rpcallowip=192.168.1.0/24
 
-# Identifiants RPC (CHANGEZ CES VALEURS !)
-rpcuser=votre_username
-rpcpassword=votre_mot_de_passe_fort
+# RPC Credentials (CHANGE THESE VALUES!)
+rpcuser=your_username
+rpcpassword=your_strong_password
 
-# Configuration signet spécifique
+# Specific signet configuration
 [signet]
 rpcport=38332
 ```
 
 **Configuration mainnet** (pour usage en production) :
+
 ```conf
-# Serveur RPC
+# RPC Server
 server=1
 rpcbind=0.0.0.0
 rpcallowip=192.168.1.0/24
 
-# Identifiants RPC
-rpcuser=votre_username
-rpcpassword=votre_mot_de_passe_fort
+# RPC Credentials
+rpcuser=your_username
+rpcpassword=your_strong_password
 
-# Port mainnet
+# Mainnet Port
 rpcport=8332
 ```
 
@@ -130,6 +137,7 @@ rpcport=8332
 - Remplacez `192.168.1.0/24` par votre subnet réseau (ex: si votre IP est `192.168.68.57`, utilisez `192.168.68.0/24`)
 
 **Sécurité** : Générez un mot de passe fort :
+
 ```bash
 openssl rand -base64 32
 ```
@@ -292,13 +300,15 @@ Joinstr génère actuellement des pools de **2 à 5 participants** en moyenne. C
 - **Ashigaru** : Implémentation open source du protocole Whirlpool avec coordinateur centralisé mais déployable de manière décentralisée. Continue de fonctionner après la saisie de Samourai Wallet en 2024.
 - **JoinMarket** : Solution P2P décentralisée sans coordinateur central, basée sur un modèle économique maker/taker où les "makers" fournissent de la liquidité et sont rémunérés par les "takers".
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 **Le trade-off fondamental** : Joinstr et JoinMarket sont les deux seules solutions sans coordinateur central. JoinMarket utilise un modèle économique P2P avec incitations financières, tandis que Joinstr utilise Nostr pour la coordination sans frais. Joinstr sacrifie les grands ensembles d'anonymat immédiats au profit de la simplicité (pas de gestion maker/taker) et de l'absence totale de frais de coordination.
 
 **Recommandation pratique** : Pour compenser les pools plus petits, effectuez plusieurs rounds de CoinJoin successifs avec des participants différents. Espacez vos rounds et changez de relais Nostr entre chaque round pour maximiser votre confidentialité.
 
-N'hésitez pas à consulter notre cours complet sur la confidentialité sur bitcoin pour plus d'information sur ce sujet : 
+N'hésitez pas à consulter notre cours complet sur la confidentialité sur bitcoin pour plus d'information sur ce sujet :
 
-https://planb.academy/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Avantages et limitations
 

@@ -18,7 +18,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Sono stati quindi lanciati dei progetti per espandere la comunità Bitcoin, rendendola più accessibile a tutti coloro che non possiedono un nodo e/o non hanno le competenze tecniche necessarie.
+Per qusto, sono stati avviati dei progetti per espandere la comunità Bitcoin, rendendola più accessibile a tutti coloro che non possiedono un nodo e/o non hanno le competenze tecniche necessarie.
 
 
 
@@ -26,7 +26,7 @@ In questa esercitazione esamineremo il progetto **Mempool.space**, le sue caratt
 
 
 
-## Che cos'è il Mempool.space?
+## Che cos'è Mempool.space?
 
 
 
@@ -38,7 +38,7 @@ Per comprendere il progetto, un Mempool (pool di memoria) è uno spazio virtuale
 
 
 
-L'impatto principale della piattaforma nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin senza doverne eseguire uno. Mempool.space è un repository per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
+L'impatto principale della piattaforma mempool.space nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin, senza doverne eseguire uno. Mempool.space è un archivio per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
 
 
 

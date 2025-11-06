@@ -265,7 +265,7 @@ Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficolt
 
 
 
-- Gruppi di miner: Data la difficoltà, un gruppo di miner collabora per aiutare a trovare il Proof of Work sul Bitcoin, in quello che chiamiamo un **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun Miner, ovvero al contributo in termini di potenza di calcolo nella ricerca del Proof-of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
+- Gruppi di miner: Data la difficoltà, gruppi di miner collaborano per aiutare a risolvere la proof of work, questi gruppi si chiamano **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun Miner, ovvero al contributo in termini di potenza di calcolo nella ricerca della Proof-of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
 
 
 
@@ -279,7 +279,7 @@ Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficolt
 
 
 
-Mempool non si limita a fornire informazioni sull'infrastruttura di rete di Bitcoin (catena principale). Integra anche strumenti di visualizzazione ed esplorazione per l'overlay Lightning di Bitcoin.
+Mempool non si limita a fornire informazioni sull'infrastruttura di rete di Bitcoin (main chain). Integra anche strumenti di visualizzazione ed esplorazione per la rete Lightning di Bitcoin.
 
 
 
@@ -306,13 +306,13 @@ Questo Interface fornisce informazioni su :
 
 
 
-⚠️ **IMPORTANTE**: La capacità di un canale di pagamento indica l'importo massimo che un nodo può inviare a un altro nodo durante una transazione Lightning.
+⚠️ **IMPORTANTE**: La capacità di un canale di pagamento indica l'importo massimo che un nodo può inviare ad un altro nodo durante una transazione Lightning.
 
 
 
 
 
-- I nodi lightning sono assegnati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento.
+- I nodi lightning sono configurati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento.
 
 
 
@@ -333,20 +333,20 @@ Troverete anche una classifica di questi nodi in base alla capacità dei loro ca
 
 
 
-## Più grafica
+## Diversi grafici
 
 
 
-Mempool.space è la piattaforma ideale per godere dell'interazione con le reti del protocollo Bitcoin. I grafici non solo forniscono dati visivi che aiutano a decidere quando effettuare le transazioni, ma anche parametri precisi che consentono di visualizzare, in tempo reale, la forza e la salute della rete Bitcoin e delle infrastrutture Lightning associate.
+Mempool.space è la piattaforma ideale per esplorare le interazioni del protocollo Bitcoin. I grafici forniscono dati visivi che aiutano a decidere quando effettuare le transazioni, ed anche parametri precisi che consentono di visualizzare, in tempo reale, la robustezza e la salute della rete Bitcoin e delle infrastrutture Lightning associate.
 
 
 
-Nella sezione **Grafica** si possono visualizzare i dati essenziali della rete Bitcoin:
+Nella sezione **Graphics** si possono visualizzare i dati essenziali della rete Bitcoin:
 
 
 
 
-- Evoluzione delle dimensioni del Mempool: È possibile osservare la fluttuazione delle dimensioni del Mempool, che può indicare periodi di alta o bassa attività sulla rete.
+- Evoluzione delle dimensioni della Mempool: È possibile osservare la fluttuazione delle dimensioni della Mempool, che indicare periodi di alta o bassa attività sulla rete.
 
 
 
@@ -357,7 +357,7 @@ Nella sezione **Grafica** si possono visualizzare i dati essenziali della rete B
 
 
 
-- L'evoluzione delle transazioni e delle commissioni di transazione sulla rete scelta: Tracciando le variazioni delle transazioni al secondo, è possibile anticipare i periodi di congestione o di scarsa attività e ottimizzare le commissioni di transazione. Questo grafico fornisce una prospettiva sulla capacità della rete di gestire il volume delle transazioni.
+- L'evoluzione delle transazioni e delle commissioni di transazione sulla rete selezionata: Tracciando le variazioni delle transazioni al secondo, è possibile anticipare i periodi di congestione o di scarsa attività e ottimizzare le commissioni per la tua transazione. Questo grafico ti fornisce una prospettiva sulla capacità della rete di gestire il volume delle transazioni.
 
 
 
@@ -365,7 +365,7 @@ Nella sezione **Grafica** si possono visualizzare i dati essenziali della rete B
 
 
 
-Ora che siete arrivati alla fine del vostro viaggio su Mempool.space, diventate il vostro esploratore personale e seguite le vostre transazioni in tempo reale. Di seguito trovate il nostro articolo sull'esploratore della **Piscina pubblica** di Bitcoin.
+Ora che siete arrivati alla fine del vostro viaggio su Mempool.space, diventate il vostro esploratore personale e seguite le vostre transazioni in tempo reale. Di seguito trovi il nostro articolo sul **Public Pool** explorer di Bitcoin.
 
 
 

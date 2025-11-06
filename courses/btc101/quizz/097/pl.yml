@@ -1,8 +1,8 @@
-question: Co nie jest frazą mnemoniczną w kontekście Bitcoina?
+goquestion: Co nie jest frazą mnemoniczną w kontekście Bitcoina?
 answer: Hasło do portfela Bitcoina.
 wrong_answers:
-  - Lista 12 słów z określonego słownika.
-  - Lista 24 słów z określonego słownika.
+  - Lista 12 słów z konkretnego słownika.
+  - Lista 24 słów z konkretnego słownika.
   - Sekret dostępu do funduszu Bitcoina.
 explanation: |
   Fraza mnemoniczna w kontekście Bitcoina jest listą 12

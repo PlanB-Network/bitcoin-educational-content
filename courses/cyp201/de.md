@@ -45,7 +45,9 @@ Als Nächstes werden wir die Funktionsweise von digitalen Signaturalgorithmen be
 Sobald wir ein gutes Verständnis dieser Elemente der Kryptografie haben, werden wir schließlich zum Kern des Trainings übergehen: deterministische und hierarchische Wallets! Zuerst gibt es einen Abschnitt, der den mnemonischen Phrasen gewidmet ist, diesen Sequenzen von 12 oder 24 Wörtern, die es Ihnen ermöglichen, Ihre Wallets zu erstellen und wiederherzustellen. Sie werden entdecken, wie diese Wörter aus einer Quelle der Entropie generiert werden und wie sie die Nutzung von Bitcoin erleichtern.
 
 ![CYP201](assets/en/003.webp)
+
 Das Training wird mit dem Studium des BIP39-Passphrases, des Seeds (nicht zu verwechseln mit der mnemonischen Phrase), des Master Chain Codes und des Master-Schlüssels fortgesetzt. Wir werden im Detail sehen, was diese Elemente sind, ihre jeweiligen Rollen und wie sie berechnet werden.
+
 ![CYP201](assets/en/004.webp)
 
 Schließlich werden wir vom Master-Schlüssel aus entdecken, wie kryptografische Schlüsselpaare auf eine deterministische und hierarchische Weise bis zu den Empfangsadressen abgeleitet werden.
@@ -393,6 +395,7 @@ $$
 Schematisch könnte die Rechtsverschiebung so aussehen:
 
 ![CYP201](assets/en/012.webp)
+
 Eine weitere in SHA256 für die Bitmanipulation verwendete Operation ist die rechte zirkuläre Rotation, bezeichnet mit $RotR_n(x)$, die die Bits von $x$ um $n$ Positionen nach rechts verschiebt und die verschobenen Bits am Anfang der Zeichenkette wieder einfügt.
 Zum Beispiel, für $x = 101100001$ (über 9 Bits) und $n = 4$:
 
@@ -435,6 +438,7 @@ In diesem Fall entspricht $x$ $W_{i-15}$ für $\sigma_0(x)$ und $W_{i-2}$ für $
 Sobald wir alle Wörter $W_i$ für unser 512-Bit-Stück bestimmt haben, können wir zur Kompressionsfunktion übergehen, die aus 64 Runden besteht.
 
 ![CYP201](assets/en/014.webp)
+
 Für jede Runde $i$ von 0 bis 63 haben wir drei verschiedene Arten von Eingaben. Zuerst die $W_i$, die wir gerade bestimmt haben, teilweise bestehend aus unserem Nachrichtenstück $P_n$. Als Nächstes die 64 Konstanten $K_i$. Schließlich verwenden wir die Zustandsvariablen $A$, $B$, $C$, $D$, $E$, $F$, $G$ und $H$, die sich im Laufe des Hashing-Prozesses entwickeln und mit jeder Kompressionsfunktion modifiziert werden. Jedoch verwenden wir für das erste Stück $P_1$ die zuvor gegebenen Anfangskonstanten.
 Wir führen dann die folgenden Operationen mit unseren Eingaben durch:
 
@@ -895,7 +899,9 @@ $$
 $$
 
 Grafisch würde dies wie folgt dargestellt:
+
 ![CYP201](assets/en/027.webp)
+
 ### Einwegfunktion
 
 Dank dieser Operationen können wir verstehen, warum es einfach ist, einen öffentlichen Schlüssel aus einem privaten Schlüssel abzuleiten, aber das Umgekehrte praktisch unmöglich ist.
@@ -1161,6 +1167,7 @@ In allen Diagrammen dieses Kapitels repräsentiert die orangefarbene Farbe die E
 ![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Die Signatur deckt alle Eingaben sowie eine einzelne Ausgabe ab, die dem Index der signierten Eingabe entspricht. Wenn beispielsweise die Signatur das _scriptPubKey_ der Eingabe #0 entsperrt, dann deckt sie auch die Ausgabe #0 ab. Die Signatur schützt auch alle anderen Eingaben, die nicht mehr modifiziert werden können. Jedoch kann jeder eine zusätzliche Ausgabe hinzufügen, ohne die Signatur zu invalidieren, vorausgesetzt, dass Ausgabe #0, die die einzige von ihr abgedeckte ist, nicht modifiziert wird.
+
   ![CYP201](assets/en/033.webp)
 
 Zusätzlich zu diesen drei Sighash-Flags gibt es auch den Modifikator `SIGHASH_ANYONECANPAY` (`0x80`). Dieser Modifikator kann mit einem grundlegenden Sighash-Flag kombiniert werden, um drei neue Sighash-Flags zu erstellen:
@@ -1174,6 +1181,7 @@ Zusätzlich zu diesen drei Sighash-Flags gibt es auch den Modifikator `SIGHASH_A
 ![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Die Signatur deckt einen einzelnen Eingang sowie den Ausgang ab, der denselben Index wie dieser Eingang hat. Zum Beispiel, wenn die Signatur das _scriptPubKey_ des Eingangs #3 entsperrt, wird sie auch den Ausgang #3 abdecken. Der Rest der Transaktion bleibt modifizierbar, sowohl in Bezug auf andere Eingänge als auch andere Ausgänge.
+
   ![CYP201](assets/en/036.webp)
 
 ### Projekte zur Hinzufügung neuer Sighash-Flags
@@ -1229,6 +1237,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD Wallets (_Hierarchical Deterministic_)
 
 Um die Einschränkung von JBOK-Wallets zu adressieren, wurde später eine neue Wallet-Struktur genutzt. Im Jahr 2012 führte Pieter Wuille mit BIP32 eine Verbesserung ein, die hierarchische deterministische Wallets einführt. Das Prinzip einer HD-Wallet besteht darin, alle privaten Schlüssel von einer einzigen Informationsquelle, genannt Seed, auf eine deterministische und hierarchische Weise abzuleiten. Dieser Seed wird zufällig beim Erstellen der Wallet generiert und stellt ein einzigartiges Backup dar, das die Wiederherstellung aller privaten Schlüssel der Wallet ermöglicht. So kann der Benutzer eine sehr große Anzahl von privaten Schlüsseln generieren, um die Wiederverwendung von Adressen zu vermeiden und ihre Privatsphäre zu bewahren, während nur ein einziges Backup ihrer Wallet über den Seed benötigt wird.
+
 ![CYP201](assets/en/039.webp)
 
 In HD-Wallets wird die Schlüsselableitung gemäß einer hierarchischen Struktur durchgeführt, die es ermöglicht, Schlüssel in Ableitungssubräume zu organisieren, die weiter unterteilbar sind, um die Verwaltung von Mitteln und die Interoperabilität zwischen verschiedenen Wallet-Software zu erleichtern. Heutzutage wird dieser Standard von der überwiegenden Mehrheit der Bitcoin-Benutzer angenommen. Aus diesem Grund werden wir ihn in den folgenden Kapiteln detailliert untersuchen.
@@ -1329,7 +1338,9 @@ Beispielsweise ergibt eine 256-Bit-Entropie das Ergebnis $\text{ENT} \Vert \text
 Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
 
 ![CYP201](assets/en/042.webp)
+
 Zum Beispiel beträgt bei einer 128-Bit-Entropie die Prüfsumme 4 Bits, und somit misst die gesamte Sequenz 132 Bits. Sie wird in 12 Segmente zu je 11 Bits unterteilt (die orangefarbenen Bits bezeichnen die Prüfsumme):
+
 ![CYP201](assets/en/043.webp)
 
 Jedes Segment wird dann in eine Dezimalzahl umgewandelt, die ein Wort in der Liste repräsentiert. Zum Beispiel ist das binäre Segment `01011010001` in Dezimalzahl `721` äquivalent. Indem man 1 hinzufügt, um sich an die Indexierung der Liste anzupassen (die bei 1 und nicht bei 0 beginnt), ergibt dies den Wortrang `722`, welcher "*focus*" in der Liste ist.
@@ -1396,6 +1407,7 @@ Schließlich ist die Verwendung einer Passphrase interessant, wenn man die Zufä
 
 Damit die Passphrase wirksam ist, muss sie ausreichend lang und zufällig sein. Wie bei einem starken Passwort empfehle ich, eine Passphrase zu wählen, die so lang und zufällig wie möglich ist, mit einer Vielfalt an Buchstaben, Zahlen und Symbolen, um jeden Brute-Force-Angriff unmöglich zu machen.
 Es ist ebenfalls wichtig, diese Passphrase ordnungsgemäß zu speichern, genauso wie die mnemonische Phrase. **Der Verlust bedeutet den Verlust des Zugangs zu Ihren Bitcoins**. Ich rate dringend davon ab, sie sich nur zu merken, da dies das Risiko eines Verlusts unangemessen erhöht. Das Ideal ist, sie auf einem physischen Medium (Papier oder Metall) getrennt von der mnemonischen Phrase niederzuschreiben. Diese Sicherungskopie muss offensichtlich an einem anderen Ort als Ihre mnemonische Phrase aufbewahrt werden, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
+
 ![CYP201](assets/en/047.webp)
 
 Im folgenden Abschnitt werden wir entdecken, wie diese beiden Elemente an der Basis Ihrer Wallet – die mnemonische Phrase und die Passphrase – verwendet werden, um die Schlüsselpaare abzuleiten, die in dem *scriptPubKey* verwendet werden, um Ihre UTXOs zu sperren.
@@ -1843,6 +1855,7 @@ Jedes auf Tiefe 3 definierte Konto wird dann in zwei Ketten strukturiert:
 **Tiefe 5: Adressindex (BIP32)**
 
 Schließlich stellt Tiefe 5 den letzten Schritt der Ableitung im Wallet dar. Obwohl es technisch möglich ist, unendlich fortzufahren, stoppen die aktuellen Standards hier. Auf dieser letzten Tiefe werden die Paare von Schlüsseln abgeleitet, die tatsächlich verwendet werden, um die UTXOs zu sperren und zu entsperren. Jeder Index ermöglicht die Unterscheidung zwischen Geschwisterschlüsselpaaren: so wird die erste Empfangsadresse den Index $/0/$ verwenden, die zweite den Index $/1/$ und so weiter.
+
 ![CYP201](assets/en/058.webp)
 
 ### Notation von Ableitungspfaden
@@ -1902,21 +1915,23 @@ Der Hauptvorteil von Descriptors liegt in ihrer Fähigkeit, alle wesentlichen In
 ### Aufbau eines Descriptors
 
 Ein Descriptor besteht aus mehreren Elementen:
-* Skriptfunktionen wie `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), und `sortedmulti` (*Multisignatur mit sortierten Schlüsseln*);
-* Ableitungspfade, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
-* Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);
-* Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
+- Skriptfunktionen wie `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), und `sortedmulti` (*Multisignatur mit sortierten Schlüsseln*);
+- Ableitungspfade, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
+- Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);
+- Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
 
 Zum Beispiel könnte ein Deskriptor für eine P2WPKH (SegWit v0) Wallet so aussehen:
+
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
 ```
 
 In diesem Deskriptor zeigt die Ableitungsfunktion `wpkh` auf einen Skripttyp *Pay-to-Witness-Public-Key-Hash*. Es folgt der Ableitungspfad, der enthält:
-* `cdeab12f`: der Fingerabdruck des Master-Schlüssels;
-* `84h`: was die Verwendung eines BIP84-Zwecks anzeigt, vorgesehen für SegWit v0 Adressen;
-* `0h`: was darauf hinweist, dass es sich um eine BTC-Währung im Hauptnetz handelt;
-* `0h`: was sich auf die spezifische Kontonummer bezieht, die im Wallet verwendet wird.
+
+- `cdeab12f`: der Fingerabdruck des Master-Schlüssels;
+- `84h`: was die Verwendung eines BIP84-Zwecks anzeigt, vorgesehen für SegWit v0 Adressen;
+- `0h`: was darauf hinweist, dass es sich um eine BTC-Währung im Hauptnetz handelt;
+- `0h`: was sich auf die spezifische Kontonummer bezieht, die im Wallet verwendet wird.
 
 Der Deskriptor beinhaltet auch den erweiterten öffentlichen Schlüssel, der in diesem Wallet verwendet wird:
 
@@ -1941,6 +1956,7 @@ Empfangsadressen sind Informationen, die in *scriptPubKey* eingebettet sind, um 
 Wie zuvor erklärt, besteht die Rolle einer Transaktion darin, das Eigentum an Bitcoins von Eingängen zu Ausgängen zu übertragen. Dieser Prozess beinhaltet das Verbrauchen von UTXOs als Eingänge, während neue UTXOs als Ausgänge erstellt werden. Diese UTXOs werden durch Skripte gesichert, die die notwendigen Bedingungen definieren, um die Mittel freizugeben.
 
 Wenn ein Benutzer Bitcoins erhält, erstellt der Sender ein Ausgabe-UTXO und sperrt es mit einem *scriptPubKey*. Dieses Skript enthält die Regeln, die typischerweise die erforderlichen Signaturen und öffentlichen Schlüssel angeben, um dieses UTXO freizuschalten. Um dieses UTXO in einer neuen Transaktion auszugeben, muss der Benutzer die angeforderten Informationen über ein *scriptSig* bereitstellen. Die Ausführung von *scriptSig* in Kombination mit *scriptPubKey* muss "true" oder `1` zurückgeben. Wenn diese Bedingung erfüllt ist, kann das UTXO ausgegeben werden, um ein neues UTXO zu erstellen, das selbst durch ein neues *scriptPubKey* gesperrt ist, und so weiter.
+
 ![CYP201](assets/en/059.webp)
 
 Genau im *scriptPubKey* befinden sich die Empfangsadressen. Ihre Verwendung variiert jedoch je nach dem angenommenen Skriptstandard. Hier ist eine Zusammenfassungstabelle der Informationen, die im *scriptPubKey* enthalten sind, entsprechend dem verwendeten Standard, sowie der Informationen, die im *scriptSig* erwartet werden, um das *scriptPubKey* freizuschalten.
@@ -1996,7 +2012,9 @@ Die Ausführung des Skripts, das ich gerade als Beispiel gegeben habe, folgt die
 - `OP_EQUALVERIFY` überprüft, ob der gehashte öffentliche Schlüssel mit der angegebenen Empfangsadresse übereinstimmt:
 
 ![CYP201](assets/en/065.webp)
+
 `OP_CHECKSIG` überprüft die im *scriptSig* enthaltene Signatur mit dem öffentlichen Schlüssel. Dieser Opcode führt im Wesentlichen eine Signaturverifikation durch, wie wir in Teil 3 dieses Trainings beschrieben haben:
+
 ![CYP201](assets/en/066.webp)
 
 - Wenn `1` auf dem Stack verbleibt, dann ist das Skript gültig:
@@ -2040,7 +2058,9 @@ Technisch gesehen sperrt ein P2TR-Skript Bitcoins auf einem einzigartigen Schnor
 - Durch Veröffentlichung einer Signatur für den öffentlichen Schlüssel $P$ (*key path*).
 - Durch Erfüllung eines der Skripte im Merkle-Baum (*script path*).
 
-P2TR bietet somit eine große Flexibilität, da es das Sperren von Bitcoins entweder mit einem einzigartigen öffentlichen Schlüssel, mit mehreren Skripten nach Wahl oder beidem gleichzeitig ermöglicht. Der Vorteil dieser Merkle-Baum-Struktur ist, dass nur das verwendete Ausgabeskript während der Transaktion offenbart wird, aber alle anderen alternativen Skripte geheim bleiben. ![CYP201](assets/en/068.webp)
+P2TR bietet somit eine große Flexibilität, da es das Sperren von Bitcoins entweder mit einem einzigartigen öffentlichen Schlüssel, mit mehreren Skripten nach Wahl oder beidem gleichzeitig ermöglicht. Der Vorteil dieser Merkle-Baum-Struktur ist, dass nur das verwendete Ausgabeskript während der Transaktion offenbart wird, aber alle anderen alternativen Skripte geheim bleiben. 
+
+![CYP201](assets/en/068.webp)
 
 P2TR entspricht den SegWit-Ausgaben der Version 1, was bedeutet, dass die Signaturen für P2TR-Eingaben im *Witness*-Abschnitt der Transaktion gespeichert sind und nicht im *scriptSig*. P2TR-Adressen verwenden die *bech32m*-Kodierung und beginnen mit `bc1p`, aber sie sind ziemlich einzigartig, da sie keine Hash-Funktion für ihre Konstruktion verwenden. Tatsächlich repräsentieren sie direkt den öffentlichen Schlüssel $Q$, der einfach mit Metadaten formatiert ist. Es handelt sich daher um ein Skriptmodell, das dem P2PK nahe kommt.
 

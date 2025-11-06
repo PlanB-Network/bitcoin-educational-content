@@ -5,7 +5,7 @@ description: Tutorial about setting up a Start9 private server
 
 ---
 
-![cover](/home/runningbitcoin/Documents/GitHub/bitcoin-educational-content/tutorials/node/start9/assets/cover.webp)
+![cover](assets/cover.webp)
 
 ![video](https://www.youtube.com/watch?v=DzikmY4S42Y)
 
@@ -91,7 +91,7 @@ After downloading the certificate, the server's `Root CA`  must be trusted by t
 
 For a Linux system, the following commands are used. First, open a Terminal and install the necessary packages:
 
-```
+```shell
 sudo apt update
 
 sudo apt install -y ca-certificates p11-kit

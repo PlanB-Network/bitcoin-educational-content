@@ -6,7 +6,7 @@ objectives:
 
   - Comprendre les concepts fondamentaux de la plateforme blockchain Elements et de la sidechain Liquid.
   - Apprenez à configurer et à faire fonctionner les nœuds Elements pour les configurations autonomes et les configurations sidechain.
-  - Acquérir une expérience pratique de la signature de blocs fédérés et du Federated 2-Way Peg (Peg à 2 voies fédérées).
+  - Acquérir une expérience pratique de la signature de blocs fédérés et du Federated 2-Way Peg (ancrage bilatéral fédéré).
   - Mettre en place et gérer des environnements blockchain sécurisés et efficaces pour des cas d'utilisation réels.
 
 ---

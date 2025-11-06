@@ -117,7 +117,7 @@ Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della P
 
 
 
-L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi**, equivalente a circa 4 anni** di dimezzamento) e dalle commissioni di transazione.
+L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi**, equivalente a circa 4 anni**) e dalle commissioni delle transazioni.
 
 
 
@@ -125,12 +125,11 @@ L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del bl
 
 
 
-## Accedere ai dettagli della transazione
+## Accedi ai dettagli delle tue transazioni
 
 
 
-Nella barra di ricerca di Mempool.space, è possibile inserire il proprio Bitcoin Address o il proprio transaction ID per saperne di più sulla propria storia.
-
+Nella barra di ricerca di Mempool.space, è possibile inserire il proprio indirizzo Bitcoin o il proprio ID della transazione per ottenere ulteriori informazioni sulla tua cronologia.
 
 
 ![search](assets/fr/07.webp)
@@ -142,7 +141,7 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-- **Stato**: Confermato quando viene aggiunto a un blocco, non confermato quando è in attesa in un Mempool.
+- **Stato**: Confermato quando viene aggiunto a un blocco, non confermato quando è in attesa nella Mempool.
 - **Spese di transazione**.
 - **Tempo stimato di arrivo (ETA)**: Il tempo approssimativo necessario affinché la transazione venga aggiunta a un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
 
@@ -152,11 +151,11 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-La sezione **Flusso** mostra un grafico dei componenti della transazione.
+La sezione **Flow** mostra un grafico dei componenti della transazione.
 
 
 
-Gli input (UTXO precedenti), utilizzati per la transazione, e gli output che danno ai destinatari il diritto di utilizzare i bitcoin di ciascun output presentando la firma richiesta per la loro spesa.
+Gli input (UTXO precedenti) utilizzati nella tua transazione, insieme agli output, conferiscono ai destinatari il diritto di utilizzare i bitcoin contenuti in ciascun output, presentando la firma necessaria per poterli spendere.
 
 
 
@@ -164,7 +163,7 @@ Gli input (UTXO precedenti), utilizzati per la transazione, e gli output che dan
 
 
 
-Per maggiori dettagli sugli indirizzi utilizzati, consultare la sezione **Ingressi e uscite**.
+Per maggiori dettagli sugli indirizzi utilizzati, consultare la sezione **Inputs & Outputs**.
 
 
 
@@ -182,7 +181,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Nell'ecosistema Bitcoin, l'aspetto della convalida delle transazioni da parte dei minatori è intrinsecamente legato alle commissioni associate alla transazione. I minatori danno priorità alle transazioni con un rapporto di commissioni più elevato (satoshis/vByte), il che potrebbe influire sulla validità della transazione se non si pagano commissioni ragionevoli accettate dai minatori. La transazione rimarrebbe bloccata in Mempool in attesa di un blocco che accetti il suo rapporto di commissioni.
+Nell'ecosistema Bitcoin, l'aspetto della convalida delle transazioni da parte dei miner è strettamente legata alle commissioni associate. I miner  tendono a prioritizzare le transazioni con un rapporto di commissioni più elevato (satoshis/vByte), il che può influire sulla validità della transazione se non si pagano commissioni ragionevoli accettate da loro. La transazione potrebbe rimaner bloccata in Mempool in attesa di un blocco che accetti il suo rapporto di commissioni.
 
 
 
@@ -192,11 +191,11 @@ Fortunatamente, sulla rete Bitcoin sono disponibili due metodi per accelerare la
 
 
 
-- **RBF** - Sostituzione per tassa: Un metodo che consente di spendere le stesse voci della transazione a tariffa ridotta, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente e inserita in un blocco, invalidando la transazione a tariffa ridotta.
+- **RBF** - Replacement By Fee: Un metodo che consente di spendere gli stessi elementi della transazione con basse commissione, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente e inserita in un blocco, invalidando la transazione iniziale con commissioni più basse.
 
 
 
-È possibile effettuare un'azione di sostituzione delle commissioni con i portafogli che accettano questo meccanismo. Ad esempio, si veda il nostro articolo sul portafoglio Blue Wallet.
+È possibile effettuare Replace by fee (RBF) con i wallet che integrano questo meccanismo. Ad esempio, leggi il nostro articolo Blue Wallet.
 
 
 
@@ -204,7 +203,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- **CPFP** - Child pay for parent: Un approccio ispirato al RBF, ma dal lato del destinatario. Quando la transazione di cui si è destinatari viene bloccata in un Mempool, si ha la possibilità di spendere gli output (UTXO) di questa transazione, nonostante non sia ancora stata confermata, assegnando più commissioni a questa nuova transazione in modo che le commissioni medie - della transazione di cui si è destinatari e della transazione avviata - incoraggino i minatori a includere entrambe le transazioni in un blocco.
+- **CPFP** - Child pay for parent: Un approccio ispirato a RBF, ma dal lato del destinatario. Quando la transazione di cui si è destinatari viene bloccata nella Mempool, si ha la possibilità di spendere gli output (UTXO) di questa transazione, nonostante non sia ancora stata confermata, assegnando più commissioni a questa nuova transazione. In questo modo le commissioni medie della transazione di cui si è destinatari e della transazione avviata, incoraggino i miner a includere entrambe le transazioni in un blocco.
 
 
 
@@ -216,38 +215,36 @@ Se tutti questi termini vi sembrano un po' troppo tecnici, vi consiglio di [cons
 
 
 
-Oltre a questi metodi, Mempool.space, grazie alle sue connessioni con oltre l'80% dei minatori presenti sulla rete Bitcoin, consente anche di accelerare qualsiasi transazione **non confermata**, anche quelle che non attivano il RBF, pagando un corrispettivo ai minatori del Exchange per inserire la transazione a basso costo nel blocco successivo pronto per essere minato.
+Oltre a questi metodi, Mempool.space, grazie alle sue connessioni con oltre l'80% dei miner presenti sulla rete Bitcoin, consente di accelerare qualsiasi transazione **non confermata**, anche quelle che non attivano RBF, pagando un corrispettivo ai miner in cambio puoi avere la tua transazione minata nel blocco successivo.
 
 
-
-Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**, quindi procedere al pagamento della controparte ai minatori.
+Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**, quindi procedere al pagamento della controparte ai miner.
 
 
 
 ![accelerate-section](assets/fr/11.webp)
 
 
-## Minori
+## Miner
 
 
-
-Un Miner si riferisce a una persona che gestisce una miniera, ossia un computer impegnato nel processo Mining, che consiste nel partecipare al Proof-of-Work. Il Miner raggruppa le transazioni in sospeso nel suo Mempool per formare un blocco candidato. Cerca quindi un Hash valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando i vari nonces. Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e intasca la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin ex-nihilo) e dalla commissione di transazione.
+Per Miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di Mining; un processo che implica la partecipazione alla Proof-of-Work. Il Miner raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
 
 
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-i minatori sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (il Proof-of-Work). Il primo Miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
+i miner sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (il Proof-of-Work). Il primo Miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
 
 
 
-La difficoltà di questo Proof of Work viene monitorata, consentendo di visualizzare l'evoluzione della potenza di calcolo richiesta ai minatori. Nelle sezioni seguenti troverete :
+La difficoltà di questo Proof of Work viene monitorata, consentendo di visualizzare l'evoluzione della potenza di calcolo richiesta ai miner. Nelle sezioni seguenti troverete :
 
 
 
 
 
-- Una stima delle ricompense totali raccolte dai minatori durante l'ultimo aggiustamento della difficoltà, nonché una stima del prossimo Halving della concessione dei blocchi, che si verifica ogni 210.000 blocchi (circa 04 anni).
+- Una stima delle ricompense totali raccolte dai miner durante l'ultimo aggiustamento della difficoltà, insieme ad una stima della data del prossimo Halving, che si verifica ogni 210.000 blocchi (circa 04 anni).
 
 
 
@@ -255,10 +252,10 @@ La difficoltà di questo Proof of Work viene monitorata, consentendo di visualiz
 
 
 
-Questa difficoltà viene modificata ogni 2016 blocchi (circa due settimane). È inversamente proporzionale al tempo medio impiegato dai minatori per Miner ogni 2016 blocchi.
+Questa difficoltà viene modificata ogni 2016 blocchi (circa due settimane). È inversamente proporzionale al tempo medio impiegato dai miner per Miner ogni 2016 blocchi.
 
 
-Quando il tempo medio impiegato dai minatori è inferiore a 10 minuti, la difficoltà aumenta, dimostrando che per i minatori era più facile convalidare i blocchi Miner. Al contrario, quando il tempo medio impiegato è superiore a 10 minuti, la difficoltà diminuisce.
+Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficoltà aumenta, al contrario, quando il tempo medio impiegato è superiore a 10 minuti, la difficoltà diminuisce.
 
 
 
@@ -268,7 +265,7 @@ Quando il tempo medio impiegato dai minatori è inferiore a 10 minuti, la diffic
 
 
 
-- Gruppi di minatori: Data la difficoltà, un gruppo di minatori collabora per aiutare a trovare il Proof of Work sul Bitcoin, in quello che chiamiamo un **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun Miner, ovvero al contributo in termini di potenza di calcolo nella ricerca del Proof-of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
+- Gruppi di miner: Data la difficoltà, un gruppo di miner collabora per aiutare a trovare il Proof of Work sul Bitcoin, in quello che chiamiamo un **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun Miner, ovvero al contributo in termini di potenza di calcolo nella ricerca del Proof-of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
 
 
 

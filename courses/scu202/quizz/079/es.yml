@@ -6,4 +6,4 @@ wrong_answers:
   - Se vuelve más vulnerable al phishing
 explanation: |
   Un smartphone sin actualizar está expuesto a vulnerabilidades corregidas públicamente que pueden ser explotadas fácilmente por los atacantes.
-reviewed: false
+reviewed: true

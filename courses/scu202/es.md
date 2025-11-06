@@ -8045,7 +8045,7 @@ La historia de Internet se remonta a finales de los años 60, en un contexto de 
 ![Image](assets/fr/191.webp)
 
 
-El objetivo era también diseñar una red resistente, capaz de seguir funcionando aunque se destruyera parte de sus nodos (una necesidad en plena guerra Cold). ARPANET permitió las primeras comunicaciones entre ordenadores remotos en 1969.
+El objetivo era también diseñar una red resistente, capaz de seguir funcionando aunque se destruyera parte de sus nodos (una necesidad en plena guerra fría). ARPANET permitió las primeras comunicaciones entre ordenadores remotos en 1969.
 
 
 ![Image](assets/fr/192.webp)
@@ -8109,7 +8109,7 @@ El módem (abreviatura de "*modulador-demodulador*") es el componente que conect
 - El papel del enrutador**
 
 
-El router es el corazón de tu red local. Distribuye la conexión a Internet a todos tus dispositivos: Ordenadores, smartphones, objetos conectados, impresoras, etc. Asigna a cada uno de ellos una IP local Address (distinta de su IP pública visible en Internet). A continuación, el router organiza el tráfico entrante y saliente, garantizando que los datos lleguen al dispositivo correcto. También puede integrar un cortafuegos, filtrar paquetes de red o gestionar reglas de reenvío de puertos. NAT oculta su red local a los ojos de Internet, utilizando una única IP pública Address para representar a todos sus dispositivos. Sólo el router sabe qué dispositivo local inició cada solicitud.
+El router es el corazón de tu red local. Distribuye la conexión a Internet a todos tus dispositivos: Ordenadores, smartphones, objetos conectados, impresoras, etc. Asigna a cada uno de ellos una IP local Address (distinta de su IP pública visible en Internet). A continuación, el router organiza el tráfico entrante y saliente, garantizando que los datos lleguen al dispositivo correcto. También puede integrar un cortafuegos, filtrar paquetes de red o gestionar reglas de reenvío de puertos. NAT oculta su red local a los ojos de Internet, utilizando una única dirección IP pública  para representar a todos sus dispositivos. Sólo el router sabe qué dispositivo local inició cada solicitud.
 
 
 En algunos países, estas dos funciones se reparten a veces entre dos aparatos distintos: Un módem y un router.
@@ -8127,7 +8127,7 @@ En el próximo capítulo, veremos cómo optimizar esta configuración, identific
 ### La red de área local (LAN)
 
 
-La red local, o "LAN" (*Local Area Network*), se refiere a todas las conexiones digitales dentro de tu casa. Incluye todos los dispositivos conectados al router: Ordenadores, smartphones, tabletas, impresoras, etc.
+La red local, o "LAN" (*Local Area Network*), se refiere a todas las conexiones digitales dentro de tu casa. Incluye todos los dispositivos conectados al router: ordenadores, smartphones, tabletas, impresoras, etc.
 
 
 A diferencia de Internet, que es una red global y pública, la red local es un espacio privado, parcialmente aislado, diseñado para permitir que los dispositivos se comuniquen entre sí, sin que sus intercambios salgan de su casa. Por ejemplo, cuando envías un archivo desde tu ordenador a una impresora conectada por Wi-Fi, o controlas una bombilla conectada a través del teléfono, estas comunicaciones tienen lugar exclusivamente a nivel local, sin pasar por un servidor remoto.
@@ -8136,7 +8136,7 @@ A diferencia de Internet, que es una red global y pública, la red local es un e
 ![Image](assets/fr/194.webp)
 
 
-Se basa en un conjunto de tecnologías y protocolos estándar, el más importante de los cuales es el protocolo IP. A cada dispositivo de la red local se le asigna una IP local Address (normalmente con el formato `192.168.x.x`), que sirve para identificarlo de forma única dentro de esa red. Esta Address no es visible desde Internet. Sólo tu IP Address pública, compartida por todos los dispositivos a través del módem, está expuesta fuera de tu casa.
+Se basa en un conjunto de tecnologías y protocolos estándar, el más importante de los cuales es el protocolo IP. A cada dispositivo de la red local se le asigna una diracción IP local (normalmente con el formato `192.168.x.x`), que sirve para identificarlo de forma única dentro de esa red. Esta dirección no es visible desde Internet. Sólo tu IP dirección pública, compartida por todos los dispositivos a través del módem, está expuesta fuera de tu casa.
 
 
 Pero este aparente aislamiento no debe darle una falsa sensación de seguridad. Una red local mal configurada puede convertirse en una puerta de entrada de ataques, sobre todo en los siguientes casos:
@@ -8170,7 +8170,7 @@ Un atacante con acceso a su red Wi-Fi podría entonces:
 - Interceptar datos no cifrados que pasan por la red (por ejemplo, solicitudes DNS o tráfico HTTP)
 - Acceder a sus archivos o dispositivos si están mal protegidos
 - Inyectar contenido malicioso en su navegador
-- Utilizar su conexión a Internet sin su conocimiento, o incluso llevar a cabo ataques en línea desde su IP pública Address
+- Utilizar su conexión a Internet sin su conocimiento, o incluso llevar a cabo ataques en línea desde su dirección IP pública
 
 
 Para protegerse de estas amenazas, debe proteger su red Wi-Fi. Veremos cómo hacerlo en los próximos capítulos.
@@ -8179,10 +8179,10 @@ Para protegerse de estas amenazas, debe proteger su red Wi-Fi. Veremos cómo hac
 ### Direcciones IP locales
 
 
-Cuando conectas un dispositivo a tu red doméstica, éste recibe una IP local Address. Esta Address está formada por cuatro números separados por puntos (por ejemplo, `192.168.1.14`). Se utiliza para identificar de forma única cada dispositivo dentro de tu red local. Gracias a este Address, tu router sabe a qué dispositivo debe enviar datos (por ejemplo, una página web o un vídeo que hayas solicitado).
+Cuando conectas un dispositivo a tu red doméstica, éste recibe una dirección IP local. Esta dirección está formada por cuatro números separados por puntos (por ejemplo, `192.168.1.14`). Se utiliza para identificar de forma única cada dispositivo dentro de tu red local. Gracias a esta dirección, tu router sabe a qué dispositivo debe enviar datos (por ejemplo, una página web o un vídeo que hayas solicitado).
 
 
-Es importante entender que estas direcciones IP locales no son visibles desde Internet. Pertenecen a rangos reservados, definidos por normas internacionales, que no pueden utilizarse en la red pública. Los tres rangos IP locales más comunes de Address son:
+Es importante entender que estas direcciones IP locales no son visibles desde Internet. Pertenecen a rangos reservados, definidos por normas internacionales, que no pueden utilizarse en la red pública. Los tres rangos IP locales más comunes de direcciones son:
 
 
 
@@ -8191,28 +8191,28 @@ Es importante entender que estas direcciones IP locales no son visibles desde In
 - de `172.16.0.0` a `172.31.255.255`
 
 
-Por tanto, un mismo dispositivo puede tener una IP Address como `192.168.1.42` en casa, mientras que otro usuario en otro país tendrá otro dispositivo con la misma IP Address en su propia red local, sin que nunca haya conflicto, porque estas direcciones no salen de la red doméstica. Es el router el que proporciona el enlace entre la red doméstica y la Internet pública, traduciendo estas direcciones mediante un mecanismo llamado "NAT" (*Network Address Translation*).
+Por tanto, un mismo dispositivo puede tener una dirección IP como `192.168.1.42` en casa, mientras que otro usuario en otro país tendrá otro dispositivo con la misma dirección IP en su propia red local, sin que nunca haya conflicto, porque estas direcciones no salen de la red doméstica. Es el router el que proporciona el enlace entre la red doméstica y la Internet pública, traduciendo estas direcciones mediante un mecanismo llamado "NAT" (*Network Address Translation*).
 
 
-Las direcciones IP locales suelen asignarse dinámicamente, mediante DHCP (*Protocolo de configuración dinámica de host*). Cuando se conecta un nuevo dispositivo a la red, éste envía una solicitud DHCP para una Address, y el router le asigna una Address libre disponible dentro del rango definido. Esta Address puede variar con el tiempo.
+Las direcciones IP locales suelen asignarse dinámicamente, mediante DHCP (*Protocolo de configuración dinámica de host*). Cuando se conecta un nuevo dispositivo a la red, éste envía una solicitud DHCP para una dirección, y el router le asigna una dirección libre disponible dentro del rango definido. Esta dirección puede variar con el tiempo.
 
 
-No obstante, es posible configurar direcciones IP fijas para determinados dispositivos. Esto significa reservar una Address específica para un dispositivo determinado, de forma permanente. Esto es útil en varios casos, por ejemplo:
+No obstante, es posible configurar direcciones IP fijas para determinados dispositivos. Esto significa reservar una dirección específica para un dispositivo determinado, de forma permanente. Esto es útil en varios casos, por ejemplo:
 
 
 
 - Para acceder fácilmente a un servidor personal o NAS desde otro dispositivo
-- Para imprimir a distancia en una impresora de red sin tener que buscar su Address
+- Para imprimir a distancia en una impresora de red sin tener que buscar su dirección
 - Para crear reglas de filtrado o reenvío de puertos en el router
 
 
 ### Puertos de red
 
 
-Para entender cómo funciona una red local, debes saber que cada IP Address (ya sea local o pública) está asociada a una serie de puertos numéricos, numerados del `0` al `65535`. Estos puertos no son físicos: son puntos de entrada o salida virtuales que permiten a las aplicaciones y servicios comunicarse a través de la red.
+Para entender cómo funciona una red local, debes saber que cada dirección IP (ya sea local o pública) está asociada a una serie de puertos numéricos, numerados del `0` al `65535`. Estos puertos no son físicos: son puntos de entrada o salida virtuales que permiten a las aplicaciones y servicios comunicarse a través de la red.
 
 
-Cada vez que un dispositivo se comunica a través de Internet o de una red local, lo hace combinando una IP Address y un número de puerto. Esto permite identificar no sólo a qué dispositivo enviar datos, sino también qué aplicación o servicio concreto de ese dispositivo. Por ejemplo:
+Cada vez que un dispositivo se comunica a través de Internet o de una red local, lo hace combinando una dirección IP y un número de puerto. Esto permite identificar no sólo a qué dispositivo enviar datos, sino también qué aplicación o servicio concreto de ese dispositivo. Por ejemplo:
 
 
 
@@ -8316,14 +8316,14 @@ Uno de los errores más comunes (y peligrosos) es mantener las credenciales por 
 Históricamente, las credenciales por defecto de los routers eran muy inseguras y a menudo idénticas para todos los usuarios, como las conocidas `admin/admin`. Estas credenciales básicas eran públicas, estaban documentadas en los manuales de usuario y ampliamente registradas en las bases de datos utilizadas por los atacantes. En este caso, cualquiera que detectara la presencia de tu router podría intentar un acceso no autorizado simplemente probando estas combinaciones conocidas.
 
 
-Hoy en día, la mayoría de los fabricantes asignan una contraseña única y robusta a cada router. Sin embargo, incluso en este caso, recomiendo cambiar las credenciales por defecto. Esto reduce los riesgos de la cadena Supply y evita que la contraseña original (a veces impresa en la etiqueta del router) comprometa su seguridad.
+Hoy en día, la mayoría de los fabricantes asignan una contraseña única y robusta a cada router. Sin embargo, incluso en este caso, recomiendo cambiar las credenciales por defecto. Esto reduce los riesgos de la cadena de suministro y evita que la contraseña original (a veces impresa en la etiqueta del router) comprometa su seguridad.
 
 
 Por lo tanto, es imperativo que cambie sus identificadores inmediatamente después de instalar el router:
 
 
 
-- El nombre de usuario (si está disponible) de la administración Interface
+- El nombre de usuario (si está disponible) de la interfaz de administración
 - Y, sobre todo, la contraseña de administración, que protege el acceso a toda la configuración de la red, así como la contraseña Wi-Fi
 
 
@@ -8337,7 +8337,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Atención: no confunda la contraseña de administración del router (que protege el acceso a su configuración) con la contraseña Wi-Fi (que le permite conectarse a la red inalámbrica). Se trata de dos Elements diferentes, y ambas deben cambiarse.
 
 
-Por último, algunos routers modernos cuentan con dos interfaces de gestión: Una web Interface local (accesible a través de una Address como `192.168.1.1`) y una Interface en la nube (que permite la gestión remota a través de Internet). Si esta última está activada por defecto, te aconsejo que la desactives si no la utilizas, o que refuerces su seguridad con una contraseña segura y posiblemente autenticación de dos factores (2FA) si está disponible.
+Por último, algunos routers modernos cuentan con dos interfaces de gestión: Una web Interface local (accesible a través de una Address como `192.168.1.1`) y una interfaz en la nube (que permite la gestión remota a través de Internet). Si esta última está activada por defecto, te aconsejo que la desactives si no la utilizas, o que refuerces su seguridad con una contraseña segura y posiblemente autenticación de dos factores (2FA) si está disponible.
 
 
 ### Configuración segura del router
@@ -8398,7 +8398,7 @@ La red Wi-Fi suele ser el punto de entrada preferido para las intrusiones en un 
 El primer paso importante es elegir el protocolo de cifrado adecuado. Activa siempre "*WPA3-Personal*", el estándar más reciente y seguro. No solo protege los datos intercambiados, sino que también evita ciertos ataques conocidos.
 
 
-El nombre de tu red Wi-Fi, llamado "SSID" (*Service Set Identifier*), debe ser neutro. Evite incluir su nombre, Address o la marca de su router. Un nombre como `MaisonDupont_WiFi6` ya da demasiada información a un posible atacante. Prefiera un nombre genérico, sin significado particular. Esto limita la información disponible para el seguimiento pasivo o la segmentación social.
+El nombre de tu red Wi-Fi, llamado "SSID" (*Service Set Identifier*), debe ser neutro. Evite incluir su nombre, dirección o la marca de su router. Un nombre como `MaisonDupont_WiFi6` ya da demasiada información a un posible atacante. Prefiera un nombre genérico, sin significado particular. Esto limita la información disponible para el seguimiento pasivo o la segmentación social.
 
 
 Otra buena práctica consiste en crear una red de invitados separada de la red principal. Esta red paralela, a menudo ofrecida de forma nativa en los routers modernos, le permite ofrecer a sus invitados una conexión a Internet sin que tengan acceso a sus otros dispositivos (ordenadores, impresoras, NAS, etc.). También significa que no tienes que proporcionarles la contraseña de tu red principal. Para ir aún más lejos, activa el aislamiento de clientes en esta red de invitados: Esto también evitará que los visitantes se comuniquen entre sí, reduciendo aún más los riesgos asociados a los dispositivos comprometidos.

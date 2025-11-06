@@ -79,10 +79,11 @@ proofreading:
     contributor_names:
     reward: 53.09
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
-    reward: 53.09
+      - MilankovicProtocol
+    reward: 26.55
   - language: nb-NO
     last_contribution_date:
     urgency: 1

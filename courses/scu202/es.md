@@ -5576,7 +5576,7 @@ Google Chrome se basa en el proyecto Chromium, que es de código abierto. Sin em
 
 
 
-Así que yo no recomendaría usar Google Chrome, ni personal ni profesionalmente (a menos, por supuesto, que tu negocio dependa de la suite de Google). De hecho, existen excelentes alternativas a los servicios de Google, tanto locales como en la nube. En particular, le invito a descubrir los servicios ofrecidos por Proton :
+Así que yo no recomendaría usar Google Chrome, ni personal ni profesionalmente (a menos, por supuesto, que tu negocio dependa de la suite de Google). De hecho, existen excelentes alternativas a los servicios de Google, tanto locales como en la nube. En particular, le invito a descubrir los servicios ofrecidos por Proton:
 
 
 
@@ -5584,7 +5584,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Valiente
+#### Brave
 
 
 
@@ -5617,19 +5617,19 @@ Aunque Brave ha desactivado desde entonces esta API, este caso ilustra clarament
 
 
 
-- Su IP Address,
-- Tu proveedor de servicios de Internet,
-- Tu geolocalización,
-- Tu navegador y sus propiedades,
-- Tu sistema operativo,
-- Tu versión de software,
-- Fuentes instaladas,
-- La resolución y el tamaño de tu pantalla,
-- Profundidad de color,
-- Tu zona horaria e idioma,
-- Lienzo HTML5,
-- Análisis de renderizado gráfico,
-- Las extensiones de tu navegador,
+- Su IP Address
+- Tu proveedor de servicios de Internet
+- Tu geolocalización
+- Tu navegador y sus propiedades
+- Tu sistema operativo
+- Tu versión de software
+- Fuentes instaladas
+- La resolución y el tamaño de tu pantalla
+- Profundidad de color
+- Tu zona horaria e idioma
+- Lienzo HTML5
+- Análisis de renderizado gráfico
+- Las extensiones de tu navegador
 - etc...
 
 
@@ -5658,7 +5658,7 @@ En términos de seguridad, Vivaldi incluye varias funciones para bloquear rastre
 
 
 
-[Opera](https://www.opera.com/) es un navegador de larga tradición, que existe desde 1995. Ahora utiliza Blink tras abandonar su motor propietario (*Presto*). Tiene un Interface moderno y algunas funciones innovadoras.
+[Opera](https://www.opera.com/) es un navegador de larga tradición, que existe desde 1995. Ahora utiliza Blink tras abandonar su motor propietario (*Presto*). Tiene una interfaz moderna y algunas funciones innovadoras.
 
 
 
@@ -5684,7 +5684,7 @@ Los navegadores basados en Blink también incluyen una serie de navegadores más
 
 
 
-Desarrollado por The Browser Company, [Arc](https://arc.net/) ofrece un enfoque radicalmente distinto al usuario Interface. Sustituye las pestañas tradicionales por un sistema de "*espacios*", una barra lateral unificada, e integra herramientas creativas como capturas anotables y un sencillo editor de sitios. Se hace hincapié en la usabilidad, la personalización visual y la fluidez de uso, lo que la convierte en una herramienta preferida por algunos profesionales.
+Desarrollado por The Browser Company, [Arc](https://arc.net/) ofrece un enfoque radicalmente distinto al interfaz de usuario. Sustituye las pestañas tradicionales por un sistema de "*espacios*", una barra lateral unificada, e integra herramientas creativas como capturas anotables y un sencillo editor de sitios. Se hace hincapié en la usabilidad, la personalización visual y la fluidez de uso, lo que la convierte en una herramienta preferida por algunos profesionales.
 
 
 
@@ -5702,7 +5702,7 @@ Desde un punto de vista técnico, Arc se basa en Chromium, pero sigue siendo sof
 
 
 
-[Polypane](https://polypane.app/) está dirigido específicamente a desarrolladores front-end y diseñadores de UX. Su función principal es mostrar simultáneamente varias instancias del mismo sitio en distintas resoluciones de pantalla, para probar el comportamiento *responsive* de una Interface en tiempo real. También ofrece herramientas de accesibilidad, validadores de HTML/CSS, simuladores de daltonismo y métricas de rendimiento.
+[Polypane](https://polypane.app/) está dirigido específicamente a desarrolladores front-end y diseñadores de UX. Su función principal es mostrar simultáneamente varias instancias del mismo sitio en distintas resoluciones de pantalla, para probar el comportamiento *responsive* de una interfaz en tiempo real. También ofrece herramientas de accesibilidad, validadores de HTML/CSS, simuladores de daltonismo y métricas de rendimiento.
 
 
 
@@ -5800,10 +5800,10 @@ https://planb.network/tutorials/computer-security/communication/librewolf-1783e9
 
 [Zen Browser](https://zen-browser.app/) es un navegador gratuito y de código abierto basado en Firefox (motor Gecko), lanzado en 2024. Su objetivo es ofrecer una experiencia de navegación moderna, elegante, altamente personalizable y, sobre todo, centrada en la privacidad, sin depender de Chromium.
 
-Zen destaca por su enfoque radical de Interface y usabilidad, inspirado en gran medida en el navegador Arc, pero emancipado de él por su naturaleza de código abierto y su motor Gecko. Incluye :
+Zen destaca por su enfoque radical de interfaz y usabilidad, inspirado en gran medida en el navegador Arc, pero emancipado de él por su naturaleza de código abierto y su motor Gecko. Incluye :
 
-- Un Interface minimalista y modular, con una barra lateral vertical para pestañas, una vista dividida y un sistema *workspace* para agrupar conjuntos de pestañas por proyecto;
-- Un sistema de plantillas personalizables Interface (*Zen Mods*) que pueden utilizarse para modificar profundamente la apariencia del navegador;
+- Una interfaz minimalista y modular, con una barra lateral vertical para pestañas, una vista dividida y un sistema *workspace* para agrupar conjuntos de pestañas por proyecto;
+- Un sistema de plantillas de interfaz personalizables (*Zen Mods*) que pueden utilizarse para modificar profundamente la apariencia del navegador;
 - Una función original llamada *Glance*, que abre un enlace en una ventana temporal ligera, evitando el desorden de las pestañas...
 
 Zen también es compatible con las extensiones de Firefox, así como con la sincronización a través de una cuenta de Mozilla.
@@ -5846,7 +5846,7 @@ Orion difiere de Safari en varios aspectos técnicos:
 - Adopta una estricta política de telemetría cero: no recoge ni transmite datos por defecto, ni siquiera durante la instalación inicial;
 - Incluye un bloqueador de anuncios y rastreadores activado por defecto, comparable en eficacia a *uBlock Origin* en la mayoría de los casos;
 - Admite de forma nativa la instalación y el uso de extensiones de Chrome y Firefox de forma nativa en macOS ;
-- Entre las herramientas útiles se incluyen el modo *Focus* (navegación sin Interface), el modo de bajo consumo y la gestión de pestañas verticales.
+- Entre las herramientas útiles se incluyen el modo *Focus* (navegación sin interfaz), el modo de bajo consumo y la gestión de pestañas verticales.
 
 
 
@@ -5862,7 +5862,7 @@ Por último, me gustaría terminar este repaso con una alternativa mucho menos c
 
 
 
-Lynx es el navegador web más antiguo que aún se mantiene (1992). Funciona exclusivamente en modo texto y se utiliza directamente en un terminal, sin ningún Interface gráfico. Técnicamente, Lynx no admite JavaScript, CSS ni imágenes, lo que elimina cualquier ejecución activa de código en las páginas web. Sólo interpreta código HTML en bruto, que renderiza como texto estructurado.
+Lynx es el navegador web más antiguo que aún se mantiene (1992). Funciona exclusivamente en modo texto y se utiliza directamente en un terminal, sin ningún interfaz gráfico. Técnicamente, Lynx no admite JavaScript, CSS ni imágenes, lo que elimina cualquier ejecución activa de código en las páginas web. Sólo interpreta código HTML en bruto, que renderiza como texto estructurado.
 
 
 

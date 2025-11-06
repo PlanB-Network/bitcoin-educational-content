@@ -42,7 +42,7 @@ L'impatto principale della piattaforma mempool.space nell'ecosistema Bitcoin è 
 
 
 
-L'uso sempre più diffuso nell'ecosistema e che Mempool.space sia open source hanno permesso di integrarlo in un numero sempre maggiore di sistemi di hosting personali. Ora è possibile avere una propria istanza di Mempool.space direttamente sul proprio nodo personale. Guarda il nostro tutorial sulla configurazione di Mempool.space sul tuo nodo Umbrel.
+Essendo open source, Mempool.space ha visto una crescente diffusione nell'ecosistema, facilitando la sua integrazione in un numero sempre maggiore di sistemi di hosting personali. Ora è possibile avere una propria istanza di Mempool.space direttamente sul proprio nodo personale. Guarda il nostro tutorial su come configurare Mempool.space sul tuo nodo Umbrel.
 
 
 

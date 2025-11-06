@@ -5,29 +5,33 @@ description: Comment créer son propre compte sur GitHub ?
 
 ![cover](assets/cover.webp)
 
-La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
+La mission de Plan₿ est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
 Si vous souhaitez contribuer à Plan ₿ Academy, vous devrez utiliser Git et GitHub. Si ces outils vous sont inconnus ou si leur fonctionnement vous semble obscur, pas de panique, cet article est fait pour vous ! Nous allons revoir ensemble les fondamentaux de Git et de GitHub, ainsi que le jargon technique associé, pour vous permettre par la suite de prendre en main ces outils efficacement.
 
 ## C'est quoi Git ?
 
-Git est un système de contrôle de version, spécialement conçu pour gérer des projets logiciels. Créé en 2005 par Linus Torvalds, Git est rapidement devenu la norme dans l'industrie du développement de logiciels pour le contrôle de version. Mais qu'est-ce que cela signifie exactement ?
+Git est un système de contrôle de version, spécialement conçu pour gérer des projets logiciels. Créé en 2005 par Linus Torvalds, Git est rapidement devenu la référence dans l'industrie du développement de logiciels pour le contrôle de version. Mais qu'est-ce que cela signifie exactement ?
+
 ![git](assets/11.webp)
+
 À la base, Git permet aux développeurs de suivre les modifications apportées au code source d'un projet au fil du temps. Cela signifie qu'à chaque changement dans le code, Git enregistre une nouvelle version du projet. Si une erreur survient ou si une fonctionnalité expérimentale ne fonctionne pas comme prévu, il est possible de revenir à un état antérieur du code, comme une sorte de machine à remonter le temps pour les fichiers.
 
-Une des fonctionnalités clés de Git est la gestion des branches. Une branche est une sorte de ligne parallèle où les développeurs peuvent travailler indépendamment du reste du projet. Cela facilite grandement l'ajout de nouvelles fonctionnalités ou la correction de bugs sans perturber le code principal. Une fois les modifications testées et validées, elles peuvent être fusionnées avec la branche principale.
+Une des fonctionnalités clés de Git est la gestion des branches. Une branche est une sorte de ligne parallèle sur laquelle les développeurs peuvent travailler indépendamment du reste du projet. Cela facilite grandement l'ajout de nouvelles fonctionnalités ou la correction de bugs sans perturber le code principal. Une fois les modifications testées et validées, elles peuvent être fusionnées avec la branche principale.
 
-Une des particularités de Git est sa capacité à fonctionner de manière distribuée. Chaque développeur possède une copie complète du projet sur le disque dur de son propre ordinateur, ce qui permet de travailler hors ligne et de fusionner les changements plus tard, lorsqu'une connexion Internet est disponible. Cela réduit le risque de conflits et permet à plusieurs développeurs de travailler simultanément sur le même projet sans se marcher sur les pieds.
+Une des particularités de Git est sa capacité à fonctionner de manière distribuée. Chaque développeur possède une copie complète du projet sur le disque dur de son propre ordinateur, ce qui permet de travailler hors ligne et de fusionner les changements ultérieurement, lorsqu'une connexion Internet est disponible. Cela réduit le risque de conflits et permet à plusieurs développeurs de travailler simultanément sur le même projet sans se gêner mutuellement.
 
 Initialement, Git est donc principalement pensé pour les projets de développement logiciel. Cependant, il peut tout aussi bien servir à gérer des projets de rédaction de contenu. Plutôt que de collaborer sur du code, nous collaborons sur du texte. Et c'est justement cette méthode que Plan ₿ Academy a adoptée pour gérer ses contenus ! Git nous facilite la collaboration sur la rédaction de cours et de tutoriels, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. 
 
 ## C'est quoi GitHub ?
 
-GitHub est une plateforme de gestion et d'hébergement de code source qui repose sur le système de contrôle de version Git dont nous venons de parler. Lancée en 2008, GitHub a rapidement gagné en popularité et est devenue une référence incontournable pour les développeurs du monde entier. Mais en quoi GitHub se distingue-t-il de Git et pourquoi est-il si essentiel dans notre méthode de production de contenu ?
+GitHub est une plateforme de gestion et d'hébergement de code source qui repose sur le système de contrôle de version Git dont nous venons de parler. Lancée en 2008, GitHub a rapidement gagné en popularité et est devenue une référence incontournable pour les développeurs du monde entier. Mais en quoi GitHub se distingue-t-il de Git, et pourquoi est-il si essentiel dans notre méthode de production de contenu ?
+
 ![github](assets/12.webp)
+
 Tout d'abord, il faut comprendre que GitHub repose sur Git (dont nous avons parlé dans la partie précédente). Alors que Git est l'outil qui permet de suivre les modifications du code, GitHub est le service en ligne qui permet d'héberger, de partager et de gérer ce code.
 
-Imaginez que Git est comme une sorte de carnet de bord que chaque développeur utilise sur son propre ordinateur pour enregistrer toutes les modifications de son projet. GitHub, quant à lui, est comme une bibliothèque publique où tous ces carnets de bord peuvent être partagés, comparés et combinés.
+Imaginez Git comme une sorte de carnet de bord que chaque développeur utilise sur son propre ordinateur pour enregistrer toutes les modifications de son projet. GitHub, quant à lui, est comme une bibliothèque publique où tous ces carnets de bord peuvent être partagés, comparés et combinés.
 
 La différence fondamentale entre Git et GitHub réside donc dans leur fonction : Git est l'outil utilisé localement par chaque développeur pour gérer les versions de leur code, tandis que GitHub est la plateforme en ligne qui héberge ces versions et facilite la collaboration.
 
@@ -69,23 +73,42 @@ Si vous désirez apporter votre pierre à l'édifice Plan ₿ Academy, vous alle
 
 - Rendez-vous sur [https://github.com/signup](https://github.com/signup). 
 - Saisissez votre adresse email, puis cliquez sur le bouton vert `Continue` :
+
 ![github](assets/1.webp)
+
 - Choisissez un mot de passe fort, puis cliquez sur le bouton vert `Continue` :
+
 ![github](assets/2.webp)
+
 - Choisissez ensuite votre nom d'utilisateur. Vous pouvez révéler votre véritable identité, ou bien utiliser un pseudonyme. Puis, cliquez sur le bouton vert `Continue` :
+
 ![github](assets/3.webp)
+
 - Complétez le Captcha :
+
 ![github](assets/4.webp)
+
 - Un email contenant un code de confirmation vous sera envoyé ; vous devrez le saisir pour finaliser la création de votre compte :
+
 ![github](assets/5.webp)
+
 - Remplissez les questions si vous souhaitez que GitHub vous oriente vers certains outils, ou bien, cliquez sur `skip personalization` pour passer :
+
 ![github](assets/6.webp)
+
 - Choisissez le plan gratuit en cliquant sur le bouton `Continue for free` :
+
 ![github](assets/7.webp)
+
 - Vous serez alors redirigé vers votre tableau de bord. 
 - Si vous le souhaitez, il vous est possible de personnaliser votre compte en cliquant sur votre photo de profil située en haut à droite de l'écran, puis en accédant au menu `Settings` :
+
 ![github](assets/8.webp)
+
 - Dans cette section, vous avez la possibilité d'ajouter une nouvelle photo de profil, de sélectionner un nom, de personnaliser votre biographie, ou encore d'ajouter un lien vers votre site web personnel :
+
 ![github](assets/9.webp)
+
 - Je vous conseille également d'aller faire un tour dans le menu `Password and authentication`, afin de mettre en place au minimum l'authentification à deux facteurs :
+
 ![github](assets/10.webp)

@@ -134,30 +134,30 @@ An overview of human evolution from Australopithecus to modern man, following te
 - **2 million years ago** - Hominins begin to leave Africa.
 - **1.6 million years ago** - Hominins reach southern Europe and Asia.
 - **1 million years ago** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk cave, South Africa).
-- **Around 400,000 B.C.** - Neanderthals live in Europe and Asia.
-- **Around 300,000 B.C.** - Appearance of *Homo sapiens*.
+- **Around 400,000 BC** - Neanderthals live in Europe and Asia.
+- **Around 300,000 BC** - Appearance of *Homo sapiens*.
 - **80,000 years ago** - *Homo sapiens* began migrating to all parts of the world.
 - **73,000 years ago** - Blombos Caves in South Africa (oldest known art forms).
 - **50,000 years ago** - *Homo sapiens* reached Europe.
 - **30,000 years ago** - Cave paintings from the Chauvet cave in France.
 - **15,000 years ago** - Lascaux cave paintings in France and Australian rock art.
-- **Around 9000 B.C.** - Domestication of barley in the Fertile Crescent.
-- **Around 9000 B.C.** - Corn cultivation in Mexico.
-- **Around 8000 B.C.** - Domestication of goats and sheep in the Fertile Crescent.
-- **Around 7250 B.C.** - Ain Ghazal (Jordan) reveals a village of a few hundred inhabitants.
-- **Around 7000 B.C.** - Çatalhöyük (Turkey) has up to 8,000 inhabitants.
-- **Around 6500 B.C.** - Sedentary life begins in Greece.
+- **Around 9000 BC** - Domestication of barley in the Fertile Crescent.
+- **Around 9000 BC** - Corn cultivation in Mexico.
+- **Around 8000 BC** - Domestication of goats and sheep in the Fertile Crescent.
+- **Around 7250 BC** - Ain Ghazal (Jordan) reveals a village of a few hundred inhabitants.
+- **Around 7000 BC** - Çatalhöyük (Turkey) has up to 8,000 inhabitants.
+- **Around 6500 BC** - Sedentary life begins in Greece.
 - **6000 years ago** - Beginning of river irrigation in Egypt and Mesopotamia.
-- **Around 5000 B.C.** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
-- **Around 4000 B.C.** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas and vicuñas).
-- **Around 3500-3000 B.C.** - The Botai people begin to domesticate and breed horses.
+- **Around 5000 BC** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
+- **Around 4000 BC** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas and vicuñas).
+- **Around 3500-3000 BC** - The Botai people begin to domesticate and breed horses.
 - **Around the beginning of the Bronze Age** - The Sumerians had already invented the wheel and the sailboat, and developed arithmetic, astronomy and the first form of writing.
-- **Around 2800 B.C.** - Uruk, at its peak, reached a population of up to 80,000.
-- **2600-2200 B.C.** - First signs of urban development in the Greek world. Expansion of Mediterranean crops (wheat, vines, olives).
-- **2560 B.C.** - Construction of the Great Pyramid of Giza.
-- **Around 1500 B.C.** - Minoan civilization.
-- **Around 1300 B.C.** - Mycenaean civilization.
-- **Around 1250 to 1150 B.C.** - Collapse of the Bronze Age civilizations.
+- **Around 2800 BC** - Uruk, at its peak, reached a population of up to 80,000.
+- **2600-2200 BC** - First signs of urban development in the Greek world. Expansion of Mediterranean crops (wheat, vines, olives).
+- **2560 BC** - Construction of the Great Pyramid of Giza.
+- **Around 1500 BC** - Minoan civilization.
+- **Around 1300 BC** - Mycenaean civilization.
+- **Around 1250 to 1150 BC** - Collapse of the Bronze Age civilizations.
 - **1st century AD** - North African Berbers domesticate the camel.
 
 
@@ -339,7 +339,7 @@ Cuneiform was not a language, but a writing system for recording spoken language
 ### The evolution and uses of writing
 
 
-During its first centuries of existence, this script remained limited, serving essentially as a mnemonic system for recording quantities, lists of agricultural goods and equipment. Only gradually did it become capable of **phonetically rendering names** and complete sentences.
+During its first centuries of existence, this script remained limited, serving essentially as a mnemonic system for recording quantities, lists of agricultural goods, and equipment. Only gradually did it become capable of **phonetically rendering names** and complete sentences.
 
 
 So, in the beginning, for example, for names, you couldn't write names in cuneiform script because it simply represented things, elements of reality, like an ox or wheat, that were traced out. They were really little images, and as time went by, they really became a form of script.
@@ -375,7 +375,7 @@ This form of writing, which was both an economic management tool and a cultural 
 In ancient Mesopotamia, economic organization was based on highly sophisticated mechanisms that existed long before the invention of metal coins. From the outset, formal and informal credit systems were already an essential form of money, enabling local populations to carry out many complex economic transactions.
 
 
-It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages and even marriage agreements. Writing these tablets required the expertise of specialized scribes, a task costly in time and effort, **but justified when financial interests were at stake.** People didn't write love letters to each other back then, they didn't use a scribe to write about their anxieties. They hired a scribe to write documents, whether there was a connection or an economic reason.
+It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages, and even marriage agreements. Writing these tablets required the expertise of specialized scribes, a task costly in time and effort, **but justified when financial interests were at stake.** People didn't write love letters to each other back then, they didn't use a scribe to write about their anxieties. They hired a scribe to write documents, whether there was a connection or an economic reason.
 
 
 It's also worth mentioning that some of these tablets circulated as bearer bonds, changing hands freely.
@@ -386,10 +386,10 @@ For example, there was a form of clay ball with small stones inside.
 On the outside of the clay ball, a number was written and signed, representing a number of units. Inside, there were these rocks and someone who wanted to verify, to really validate that this instrument really did represent X number of units.
 
 
-Another example, a tablet found south-west of present-day Baghdad, stipulates that a debtor undertakes to repay a creditor 330 measures of grain on harvest day. Even more fascinating, another tablet clearly states that a debt of four measures of barley must be repaid directly to the bearer of the tablet, thus **introducing the notion of payment to the bearer, a particularly innovative concept for the time**.
+Another example, a tablet found southwest of present-day Baghdad, stipulates that a debtor undertakes to repay a creditor 330 measures of grain on harvest day. Even more fascinating, another tablet clearly states that a debt of four measures of barley must be repaid directly to the bearer of the tablet, thus **introducing the notion of payment to the bearer, a particularly innovative concept for the time**.
 
 
-From 2000 B.C. onwards, there was a law requiring all commercial transactions, even the smallest ones, to be formalized in writing and signed in the presence of witnesses. Imagine what a huge bureaucracy it was in those days to record all transactions in registers made, I remind you, of clay by scribes. This legal rigor was intended to prevent future disputes over ownership and rights to the goods exchanged. Witnesses were often called in to testify that the contract had indeed been signed.
+From 2000 BC onwards, there was a law requiring all commercial transactions, even the smallest ones, to be formalized in writing and signed in the presence of witnesses. Imagine what a huge bureaucracy it was in those days to record all transactions in registers made, I remind you, of clay by scribes. This legal rigor was intended to prevent future disputes over ownership and rights of the exchanged goods. Witnesses were often called in to testify that the contract had indeed been signed.
 
 
 In the private sphere too, certain families and individuals engaged in economic activities complex enough to require rigorous management. The house of an Anunitum priest named Ur-Utu was discovered in the north-Babylonian town of Sippar-Amnanu, containing nearly 2,000 tablets. These documents included private loan contracts, deeds of sale and leases, as well as letters, religious and academic texts, testifying to the diversity and importance of private archives at the time.
@@ -401,7 +401,7 @@ It's notable that the letters written by scribes were almost exclusively concern
 A poignant example of such a letter illustrates this economic reality: a correspondent expresses his distress after being left without money or provisions when his partner left, while a severe famine struck Assur. He describes his urgent need to buy grain, and asks that the cash equivalent of his textiles be sent to him quickly to ensure his daily sustenance.
 
 
-This letter, addressed to her partner, seems to indicate that he had gone off to trade elsewhere, leaving her penniless. She reminds him that she must have access to measures of money in order to buy grain and pay her temple taxes. This is perhaps the closest we can come to an argument written in a letter of the time. Letters were almost always related to economic transactions, and this very letter relates a precarious economic situation.
+This letter, addressed to her partner, seems to indicate that he had gone off to trade elsewhere, leaving her penniless. She reminds him that she must have access to measures of money in order to buy grain and pay her temple taxes. This is perhaps the closest we can come to an argument written in a letter of the time. Letters were almost always related to economic transactions, and this very letter relates to a precarious economic situation.
 
 
 Thus, the Mesopotamian documents that have come down to us mainly reflect economic exchanges, since they were drawn up exclusively for transfers of goods with a recognized value: money, grain, various goods, real estate, payment of temple taxes. These archives reveal not only the efficiency and administrative precision of this ancient civilization, but also its ability to manage complex economic exchanges over a very long period.
@@ -423,55 +423,55 @@ Contrary to popular belief, the invention of writing in Mesopotamia some 4,000 y
 This specialization can be explained by the considerable cost of tablet writing. Engraving in clay required specialized technical expertise, considerable time and specific materials. Only transactions of sufficient value economically justified this investment, creating a natural threshold for access to this revolutionary technology.
 
 
-The cuneiform tablets reveal a financial system of remarkable complexity for its time. The Mesopotamians had developed a complete arsenal of modern financial instruments: **private loans with interest, deeds of sale, rental contracts, mortgages and even marriage contracts with financial clauses**. This sophistication testifies to a developed market economy, far removed from the simplistic image of primitive bartering often associated with these ancient civilizations.
+The cuneiform tablets reveal a financial system of remarkable complexity for its time. The Mesopotamians had developed a complete arsenal of modern financial instruments: **private loans with interest, deeds of sale, rental contracts, mortgages, and even marriage contracts with financial clauses**. This sophistication testifies to a developed market economy, far removed from the simplistic image of primitive bartering that is often associated with these ancient civilizations.
 
 
-Some tablets functioned as genuine bearer securities, circulating freely from hand to hand without requiring identification of the original holder. This innovation enabled a remarkable fluidity of exchange, prefiguring modern financial systems. Specific legislation even required all commercial transactions to be formalized in writing, thus institutionalizing the use of writing in the economic sphere.
+Some tablets functioned as genuine bearer securities, circulating freely from hand to hand without requiring identification of the original holder. This innovation enabled a remarkable fluidity of exchange, prefiguring modern financial systems. Furthermore, specific legislation even required all commercial transactions to be formalized in writing, thus institutionalizing the use of writing in the economic sphere.
 
 
 ### The Monopoly of Knowledge and Economic Control
 
 
-The centrality of writing to the economy conferred considerable power on those who mastered this technology. **Scribes, generally attached to temples and ruling institutions, held de facto control of the financial system**. Their rare and invaluable expertise made them the guardians of all important transactions.
+The centrality of writing to the economy conferred considerable power on those who mastered this technology. **Scribes, who were generally attached to temples and ruling institutions, held de facto control of the financial system**. Their rare and invaluable expertise made them the guardians of all important transactions.
 
 
 This monopoly of knowledge was no accident. The authorities had every interest in maintaining this exclusivity, as democratizing writing would have diluted their control over the economy and increased the risk of forgery. The systematic presence of witnesses at signature ceremonies reveals this constant preoccupation with document authenticity.
 
 
-The legal obligation to record all commercial transactions in writing served several strategic objectives: fiscal control, rigorous accounting monitoring, and maintaining the dependence of economic players on the administrative apparatus. **The Mesopotamian state thus appropriated the ability to manage interpersonal debt** on a societal scale, transforming writing into an instrument of economic power.
+The legal obligation to record all commercial transactions in writing served several strategic objectives: fiscal control, rigorous accounting monitoring, and maintaining the dependence of economic players on the administrative apparatus. **The Mesopotamian state thus appropriated the ability to manage interpersonal debt** on a societal scale, thereby transforming writing into an instrument of economic power.
 
 
 ### The Coexistence of Two Monetary Systems
 
 
-Analysis of the tablets reveals a more nuanced economic reality than their ubiquitous presence in the archives would suggest. Many tablets mention references to the **shekel of silver** as a unit of value, indicating the parallel existence of a monetary system based on standardized physical goods.
+Analysis of the tablets reveals a more nuanced economic reality than their ubiquitous presence in the archives would suggest. Many tablets mention references to the **shekel of silver** as a unit of value, thus indicating the parallel existence of a monetary system based on standardized physical goods.
 
 
-This duality can be explained by the social stratification of the time. **The cuneiform tablet system was reserved for a restricted elite**: clergy, prosperous merchants and administrators capable of reading, writing and interpreting these complex documents. To use a bearer tablet effectively, one not only had to know how to decipher it, but also had to be able to verify its authenticity and understand its legal implications.
+This duality can be explained by the social stratification of the time. **The cuneiform tablet system was reserved for a restricted elite**: clergy, prosperous merchants, and administrators capable of reading, writing and interpreting these complex documents. To use a bearer tablet effectively, one not only had to know how to decipher it, but also had to be able to verify its authenticity and understand its legal implications.
 
 
-**The mass of the population, excluded from this elitist system, developed its own exchange mechanisms**. Ordinary people used more accessible systems: standardized measures of grain, weights of money, and other easily quantifiable goods that anyone could evaluate without specialized skills.
+**The mass of the population, excluded from this elitist system, developed its own exchange mechanisms**. Ordinary people used more accessible systems such as standardized measures of grain, weights of money, and other easily quantifiable goods that anyone could evaluate without specialized skills.
 
 
-This popular economy, although less documented in official archives, was probably more dynamic and flexible than the tablet system. It enabled rapid daily exchanges without recourse to scribes, meeting the immediate needs of craftsmen, farmers and small traders.
+This popular economy, while less documented in official archives, was probably more dynamic and flexible than the tablet system. It enabled rapid daily exchanges without recourse to scribes, meeting the immediate needs of craftsmen, farmers and small traders.
 
 
-The silver shekel, frequently mentioned in the tablets as a value reference, probably served as a bridge between these two parallel economic systems, enabling conversion between written debts and physical payments.
+The silver shekel, often mentioned in the tablets as a value reference, probably served as a bridge between these two parallel economic systems, enabling conversion between written debts and physical payments.
 
 
 ### Spontaneous Emergence Versus Institutional Control
 
 
-This coexistence illustrates a fundamental debate in economic history: **the opposition between spontaneous emergence of means of exchange and institutional appropriation of money**. On the one hand, commodities such as money emerged naturally from people's exchange needs. On the other, institutions appropriated and formalized these practices to control their flow.
+This coexistence illustrates a fundamental debate in economic history: **the opposition between the spontaneous emergence of means of exchange and the institutional appropriation of money**. On the one hand, commodities such as money emerged naturally from people's exchange needs. On the other, institutions appropriated and formalized these practices to control their flow.
 
 
 Sumerian temples epitomized this tension: they used popular monetary innovations (references to the shekel) while developing their own control instruments (cuneiform tablets). This strategy enabled them to reap the benefits of both systems: the popular legitimacy of traditional currencies and the administrative control of formalized debts.
 
 
-The Mesopotamian experience establishes lasting precedents for the evolution of financial systems. It demonstrates that **financial sophistication often precedes by several millennia the technological innovations** usually associated with it. The concepts of interest, credit, negotiable instruments and mortgage collateral did not wait for the invention of metallic money to develop.
+The Mesopotamian experience establishes lasting precedents for the evolution of financial systems. It demonstrates that **financial sophistication often precedes technological innovations by several millennia**, which are usually associated with it. The concepts of interest, credit, negotiable instruments and mortgage collateral did not wait for the invention of metallic money to develop.
 
 
-This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These questions run through economic history right up to contemporary debates on digital currencies and crypto-currencies.
+This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These fundamental questions have persisted throughout economic history, extending to contemporary debates on digital currencies and crypto-currencies.
 
 
 # Economy and money in ancient civilizations
@@ -589,10 +589,10 @@ But it wasn't yet fiat money in the strict sense of the word. There was no notio
 The transition to a wage labor market was a difficult one. It required two major conceptual innovations: the separation of the person's work from the final product, and the introduction of "working time" as a measurable unit. To have this notion of wage and salaried employee, we first had to go through these two innovations. **In the IIIᵉ millennium, work was initially remunerated by fixed rations, before gradually evolving towards a wage system at the beginning of the IIᵉ millennium.**
 
 
-Finally, from the XXVIᵉ century B.C. onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** A little like the example of Kanesh, where silver metal was received for hoarding.
+Finally, from the XXVIᵉ century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** A little like the example of Kanesh, where silver metal was received for hoarding.
 
 
-From the 21st century B.C. onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough, we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
+From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough, we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
 
 
 We can't ignore the empirical data present in Near Eastern archives attesting to the existence of **some market mechanisms**, incorporating **notions of profit** and **loss**, **price fluctuations** and situations of **scarcity**. But the fundamental difficulty lies in determining the relative importance of market-based exchange within the ancient Mesopotamian economy as a whole.
@@ -627,13 +627,13 @@ This section is dedicated to the economic and monetary organization of ancient E
 - New Kingdom (c. 1539 - 1075 BC)**. A period of territorial expansion, military power and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
 - 1323 BC. - Death of Tutankhamun**. The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
 - Ramses II - Reigned 1279-1213 BC**. One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
-- 1275 B.C. - Sea Peoples**. Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
-- Battle of Xoïs - 1178 B.C.**. Conflict between the Egyptian army and invaders, probably linked to the Sea Peoples. One of many battles at the end of the New Kingdom.
+- 1275 BC - Sea Peoples**. Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
+- Battle of Xoïs - 1178 BC**. Conflict between the Egyptian army and invaders, probably linked to the Sea Peoples. One of many battles at the end of the New Kingdom.
 - The Late Period** is the period of ancient Egyptian history from around 664 to 332 BC.
 - Cleopatra VII (69 \- 30 BC)**. Last queen of Egypt, famous for her intelligence, charisma and alliances with Julius Caesar and Marc Antony, and probably also for her nose. Her reign marked the end of Pharaonic Egypt before its annexation by Rome.
 
 
-By the 5th and 4th millennia B.C., Egypt was already experiencing intense commercial activity on a large scale, linking Nubia, Palestine, Libya and the Red Sea regions through maritime, river and land trade (notably by donkey caravans).
+By the 5th and 4th millennia BC, Egypt was already experiencing intense commercial activity on a large scale, linking Nubia, Palestine, Libya and the Red Sea regions through maritime, river and land trade (notably by donkey caravans).
 
 
 ### Early exchange systems and paleo-currency
@@ -955,7 +955,7 @@ To illustrate this period, here's a coin from the region of India, a coin from t
 ### The first Lydian electrum coins
 
 
-Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 B.C. that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 B.C. These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
+Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 BC that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 BC These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
 
 
 I have here one of the earliest Lydian coins, representing a kind of lion with a prey in front, and we notice that there is often a stamen, a kind of hole formed at the back, and some think that this may be to assess the purity of the metal, to avoid it being just a kind of surface layer. This is one of the first pieces. This one is obviously a copy. All my gold and electrum pieces are copies or modern recreations, to avoid spending all my savings on this collection.
@@ -1842,7 +1842,7 @@ Second king of Rome, famous for giving Rome its first religious and legal instit
 **594 BC: Solon** becomes legislator in Athens and radically reforms Athenian society, notably by abolishing debt slavery.
 
 
-**776 B.C.: Ancient Olympic Games** (in French)
+**776 BC: Ancient Olympic Games** (in French)
 
 The first regular sports games were held in Olympia every four years, bringing together the Greek cities.
 
@@ -1924,12 +1924,12 @@ Greek mathematician, physicist and inventor, famous for his discoveries in geome
 **196 BC: The Rosetta Stone** is engraved during the reign of Pharaoh Ptolemy V, enabling the later deciphering of Egyptian hieroglyphs.
 
 
-**192-188 B.C.: Romano-Seleucid War** (Romano-Seleucid War)
+**192-188 BC: Romano-Seleucid War** (Romano-Seleucid War)
 
 Rome defeated the Seleucid empire led by Antiochos III, consolidating its influence in Greece and Asia Minor.
 
 
-**146 B.C.: Battle of Corinth** (in French)
+**146 BC: Battle of Corinth** (in French)
 
 The Romans destroyed the Greek city of Corinth, marking the end of Greek political independence and the gradual integration of Greece into the Roman world.
 
@@ -1937,7 +1937,7 @@ The Romans destroyed the Greek city of Corinth, marking the end of Greek politic
 For this section on Antiquity, the fall of Rome and the Middle Ages, we'll start with a section on Greek coins.
 
 
-The history of coinage in ancient Greece began around 600 B.C., when Greek cities quickly adopted the innovation from Lydia in Asia Minor, initially using electrum and later silver. The first Greek coins were minted on the island of Aegina, featuring a sea or land turtle, but it was the Athenian drachma, decorated with Athena and an owl, that became the monetary symbol par excellence from the 5th century BC, largely dominating international trade at the time.
+The history of coinage in ancient Greece began around 600 BC, when Greek cities quickly adopted the innovation from Lydia in Asia Minor, initially using electrum and later silver. The first Greek coins were minted on the island of Aegina, featuring a sea or land turtle, but it was the Athenian drachma, decorated with Athena and an owl, that became the monetary symbol par excellence from the 5th century BC, largely dominating international trade at the time.
 
 
 And I'm lucky enough to have a copy of a Greek drachma from that period with that famous owl and a figure on the back. It's a tetradrachma, which was larger than a simple drachma.
@@ -2045,7 +2045,7 @@ These two systems show that the adoption of currency is closely linked to the po
 
 
 
-- 753 - 509 B.C.: Kingdom of Rome** (Rome)
+- 753 - 509 BC: Kingdom of Rome** (Rome)
 - 753 BC: Foundation of Rome** (traditionally attributed to Romulus).
 - 509 - 27 BC: Roman Republic**, Rome becomes a republic governed by an elected Senate and consuls.
 - 280-275 BC: Pyrrhic War**. Pyrrhus, King of Epirus, battles the Romans in southern Italy, winning costly victories ("Pyrrhic victories").
@@ -2062,13 +2062,13 @@ These two systems show that the adoption of currency is closely linked to the po
 ### Rome's late monetary beginnings
 
 
-In this section on Antiquity, we now turn our attention to the Roman Republic. Rome's monetary history began much later than that of the Greeks and Persians. Founded in 753 B.C., Rome waited almost four centuries before truly adopting coinage. During this long period, the Romans used a primitive system of exchange with irregular pieces of bronze called aes rude, requiring precise weighing for each transaction. It was only at the end of the 4th century BC, under Greek and Etruscan influence, that Rome began to issue its first coins, notably in bronze cast as in China, the aes grave, characteristic of Roman exchanges until **the Second Punic War**.
+In this section on Antiquity, we now turn our attention to the Roman Republic. Rome's monetary history began much later than that of the Greeks and Persians. Founded in 753 BC, Rome waited almost four centuries before truly adopting coinage. During this long period, the Romans used a primitive system of exchange with irregular pieces of bronze called aes rude, requiring precise weighing for each transaction. It was only at the end of the 4th century BC, under Greek and Etruscan influence, that Rome began to issue its first coins, notably in bronze cast as in China, the aes grave, characteristic of Roman exchanges until **the Second Punic War**.
 
 
 ### Greek influence and the first silver coins
 
 
-The decisive encounter with the Greeks of southern Italy truly introduced the Romans to minted silver coins. Around 280 B.C., Rome began producing its own silver coins in imitation of Greek didrachms. The first regular issue of silver coins in Rome dates back precisely to 269 B.C., featuring the legendary twins Romulus and Remus suckled by the she-wolf, a symbol that has become iconic.
+The decisive encounter with the Greeks of southern Italy truly introduced the Romans to minted silver coins. Around 280 BC, Rome began producing its own silver coins in imitation of Greek didrachms. The first regular issue of silver coins in Rome dates back precisely to 269 BC, featuring the legendary twins Romulus and Remus suckled by the she-wolf, a symbol that has become iconic.
 
 
 In fact, many Roman coins from the Republic period depict founding myths. And I've got one here, a superb coin, a real one, from the king, King Tatius. This coin illustrates a myth about the abduction of women from Sabina. So this famous Tatius was the king in this region. There was a founding myth that the Romans went to take women from Sabina, a people who lived close to the Romans. And later, King Tatius became a co-king with one of the founders of Rome, King Romulus.

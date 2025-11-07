@@ -144,7 +144,7 @@ Click on the **down menu interface button** and then on **Preferences**.
 ![screen|220](assets/fr/18.webp)
 
 
-In **Preferences**, there are 4 submenus that allow you to configure your portfolio:
+In **Preferences**, there are 4 submenus that allow you to configure your wallet:
 
 
 

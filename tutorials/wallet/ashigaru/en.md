@@ -141,7 +141,7 @@ To install the application, open your phone's file manager and go to the downloa
 Ashigaru is now installed on your phone.
 
 
-## 3. Initialize the app and create a Bitcoin portfolio
+## 3. Initialize the app and create a Bitcoin wallet
 
 
 When launching the application for the first time, select `MAINNET`.
@@ -156,13 +156,13 @@ Then click on `Get Started`.
 ![Image](assets/fr/13.webp)
 
 
-We will now create a new Bitcoin portfolio. Press the `Create a new wallet` button.
+We will now create a new Bitcoin wallet. Press the `Create a new wallet` button.
 
 
 ![Image](assets/fr/14.webp)
 
 
-### 3.1. create a Bitcoin portfolio
+### 3.1. create a Bitcoin wallet
 
 
 Ashigaru requires a passphrase BIP39. Choose your passphrase and enter it in the appropriate fields. It must be as long and random as possible to resist a brute-force attack.
@@ -238,7 +238,7 @@ Enter your PIN code to unlock the wallet. This will take you to the synchronizat
 ![Image](assets/fr/21.webp)
 
 
-You will then be taken to the home page of your portfolio.
+You will then be taken to the home page of your wallet.
 
 
 ![Image](assets/fr/22.webp)
@@ -276,13 +276,13 @@ The second important parameter to activate is [**RBF** (*Replace-by-Fee*)](https
 ![Image](assets/fr/25.webp)
 
 
-Tip: You can change the display unit of your portfolio from `BTC` to `sat` simply by clicking on the total balance displayed on the home page.
+Tip: You can change the display unit of your wallet from `BTC` to `sat` simply by clicking on the total balance displayed on the home page.
 
 
 ## 5. Receive bitcoins on Ashigaru
 
 
-Now that your portfolio is operational, you can receive satss. To do so, press the `+` button at the bottom right of the interface, then the green `Receive` button.
+Now that your wallet is operational, you can receive satss. To do so, press the `+` button at the bottom right of the interface, then the green `Receive` button.
 
 
 ![Image](assets/fr/26.webp)
@@ -360,16 +360,16 @@ Your transaction has been broadcast on the Bitcoin network.
 Recovery of an Ashigaru wallet differs slightly from that of a classic Bitcoin wallet, as the application uses the same methods as Samurai Wallet. If you lose access to your wallet (whether because you've forgotten your PIN, uninstalled it or lost your phone), there are several ways to recover your bitcoins.
 
 
-If you still have access to your phone, or if you had made a backup of this file, the simplest method is to use the backup file `ashigaru.txt`. This file contains all the information you need to restore your portfolio on a new instance of Ashigaru (or on Sparrow Wallet), but it's encrypted with the passphrase you defined in step 3.1 of this tutorial. You must therefore have both the `ashigaru.txt` file and your passphrase to use this method.
+If you still have access to your phone, or if you had made a backup of this file, the simplest method is to use the backup file `ashigaru.txt`. This file contains all the information you need to restore your wallet on a new instance of Ashigaru (or on Sparrow Wallet), but it's encrypted with the passphrase you defined in step 3.1 of this tutorial. You must therefore have both the `ashigaru.txt` file and your passphrase to use this method.
 
 
-With these two elements, you can, for example, restore your portfolio on Sparrow Wallet.
+With these two elements, you can, for example, restore your wallet on Sparrow Wallet.
 
 
 ![Image](assets/fr/35.webp)
 
 
-If you don't have access to the `ashigaru.txt` file, you can still regain access to your funds using your passphrase mnemonic phrase, just as you would for any other Bitcoin portfolio. I recommend that you perform this restore either on a new Ashigaru instance, or directly on Sparrow Wallet, to easily recover the bypass paths from Whirlpool if you were using it. Alternatively, you can import this information into any other BIP39-compatible software by manually entering the derivation paths.
+If you don't have access to the `ashigaru.txt` file, you can still regain access to your funds using your passphrase mnemonic phrase, just as you would for any other Bitcoin wallet. I recommend that you perform this restore either on a new Ashigaru instance, or directly on Sparrow Wallet, to easily recover the bypass paths from Whirlpool if you were using it. Alternatively, you can import this information into any other BIP39-compatible software by manually entering the derivation paths.
 
 
 For more information on this process, please consult the complete tutorial I've written on recovering a Wallet Samurai wallet. Since Ashigaru is a fork, the procedure is identical:

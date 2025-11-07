@@ -9,7 +9,7 @@ description: DIY, stateless, affordable and fully air-gapped wallet hardware
 The SeedSigner is an open-source wallet Bitcoin hardware that anyone can build themselves using inexpensive general-purpose electronic components. Unlike commercial products such as the Ledger, Coldcard or Trezor, this is not a ready-to-use device manufactured by a company: it's a community project that allows anyone to create their own device, controlling every step.
 
 
-The SeedSigner is designed to be 100% ***air-gapped***: it never connects to the Internet, has no Wi-Fi or Bluetooth (in the case of the Raspberry Pi Zero v1.3) and is never connected to a computer to exchange data. Communication is exclusively via a QR code exchange system. In concrete terms, your portfolio management software (such as Sparrow Wallet) displays the transaction to be signed in the form of QR codes; you scan them with the SeedSigner's camera, then the device signs the transaction using your private keys temporarily stored in its RAM. Finally, it generates QR codes containing the signed transaction, which you scan with your software to send it to the Bitcoin network.
+The SeedSigner is designed to be 100% ***air-gapped***: it never connects to the Internet, has no Wi-Fi or Bluetooth (in the case of the Raspberry Pi Zero v1.3) and is never connected to a computer to exchange data. Communication is exclusively via a QR code exchange system. In concrete terms, your wallet management software (such as Sparrow Wallet) displays the transaction to be signed in the form of QR codes; you scan them with the SeedSigner's camera, then the device signs the transaction using your private keys temporarily stored in its RAM. Finally, it generates QR codes containing the signed transaction, which you scan with your software to send it to the Bitcoin network.
 
 
 ![Image](assets/fr/001.webp)
@@ -353,7 +353,7 @@ Start your SeedSigner and wait for the home screen to appear. Using the joystick
 ![Image](assets/fr/024.webp)
 
 
-### 4.2 Choosing portfolio management software
+### 4.2 Choosing wallet management software
 
 
 Then access the `Coordinator software` menu.
@@ -362,7 +362,7 @@ Then access the `Coordinator software` menu.
 ![Image](assets/fr/025.webp)
 
 
-The `Coordinator` refers to the portfolio management software with which your SeedSigner will communicate via QR codes. This software is installed either on your computer or on your smartphone. It will enable you to manage your bitcoins, but without ever having access to your private keys. The SeedSigner remains the only device capable of signing your transactions.
+The `Coordinator` refers to the wallet management software with which your SeedSigner will communicate via QR codes. This software is installed either on your computer or on your smartphone. It will enable you to manage your bitcoins, but without ever having access to your private keys. The SeedSigner remains the only device capable of signing your transactions.
 
 
 The current firmware version supports several programs: Sparrow, Specter, BlueWallet, Nunchuk and Keeper. In my case, I use **Sparrow Wallet**, which I particularly recommend for its simplicity and rich functionality.
@@ -404,7 +404,7 @@ Now go to the `Advanced` menu. Here you will find several useful options:
 
 - gW-17 network`: to be modified only if you wish to use the SeedSigner on Testnet.
 - qR code density`: adjusts the amount of information contained in each QR code. You can leave the default value, unless you find it difficult to read when scanning.
-- `Xpub export`: enables or disables the export of your extended public key (`xpub`, `ypub`, `zpub`) to portfolio management software via QR code (a function we'll be using later, so leave it enabled for now).
+- `Xpub export`: enables or disables the export of your extended public key (`xpub`, `ypub`, `zpub`) to wallet management software via QR code (a function we'll be using later, so leave it enabled for now).
 - `Script types`: defines the script types allowed to lock your bitcoins. You don't need to modify this parameter, as the script type will be set directly to Sparrow. Here, only scripts that the SeedSigner is authorized to manipulate are concerned.
 
 
@@ -420,7 +420,7 @@ Finally, in the `Language` menu, you can change the interface language to suit y
 ## 5. Creating and saving seed
 
 
-The seed (or mnemonic phrase) forms the basis of your Bitcoin portfolio. It is used to derive your private keys and addresses, and provides access to your funds. SeedSigner offers several methods for generating it, which we'll look at in this section.
+The seed (or mnemonic phrase) forms the basis of your Bitcoin wallet. It is used to derive your private keys and addresses, and provides access to your funds. SeedSigner offers several methods for generating it, which we'll look at in this section.
 
 
 Before we begin, a few essential reminders:
@@ -629,13 +629,13 @@ If the message `Success` is displayed, your *SeedQR* is valid: you can proceed t
 **Keep this sheet as strictly as your recovery phrase. Anyone in possession of this QR code can reconstruct your private keys and steal your bitcoins.**
 
 
-Congratulations, your Bitcoin portfolio is now up and running! We'll now import its public components into **Sparrow Wallet** to manage it easily.
+Congratulations, your Bitcoin wallet is now up and running! We'll now import its public components into **Sparrow Wallet** to manage it easily.
 
 
 ## 6. Import wallet into Sparrow
 
 
-Once your SeedSigner has been set up and your seed correctly generated and saved, the next step is to link this portfolio to management software such as Sparrow Wallet. Your seed will always remain offline, as only the public part of your portfolio will be transmitted to Sparrow. This will enable the software to display your addresses, transactions and build new transactions, without ever being able to spend your bitcoins. To spend your bitcoins, your SeedSigner will always have to sign the transaction prepared by Sparrow.
+Once your SeedSigner has been set up and your seed correctly generated and saved, the next step is to link this wallet to management software such as Sparrow Wallet. Your seed will always remain offline, as only the public part of your wallet will be transmitted to Sparrow. This will enable the software to display your addresses, transactions and build new transactions, without ever being able to spend your bitcoins. To spend your bitcoins, your SeedSigner will always have to sign the transaction prepared by Sparrow.
 
 
 ### 6.1 Preparing the SeedSigner
@@ -653,13 +653,13 @@ Check that the fingerprint on your master key matches the fingerprint on your wa
 ![Image](assets/fr/047.webp)
 
 
-This takes you to the menu for your portfolio, in my case named `d4149b27`. If you're back at the home screen, select `Seeds`, then choose the print corresponding to your portfolio. Then click on `Export Xpub`.
+This takes you to the menu for your wallet, in my case named `d4149b27`. If you're back at the home screen, select `Seeds`, then choose the print corresponding to your wallet. Then click on `Export Xpub`.
 
 
 ![Image](assets/fr/048.webp)
 
 
-Select the portfolio type. In our case, it's a single portfolio: select `Single Sig`.
+Select the wallet type. In our case, it's a single wallet: select `Single Sig`.
 
 
 ![Image](assets/fr/049.webp)
@@ -671,13 +671,13 @@ Next comes the choice of scripting standard. The latest and most economical in t
 ![Image](assets/fr/050.webp)
 
 
-A warning message will appear. This is normal: this extended public key (`xpub`) allows you to view all the addresses derived from your seed (on the first account). It doesn't allow you to spend your funds, but it does reveal the structure of your portfolio. If it ever leaks, it's a problem for your privacy, but not for the security of your bitcoins: it allows you to see them, but not to spend them.
+A warning message will appear. This is normal: this extended public key (`xpub`) allows you to view all the addresses derived from your seed (on the first account). It doesn't allow you to spend your funds, but it does reveal the structure of your wallet. If it ever leaks, it's a problem for your privacy, but not for the security of your bitcoins: it allows you to see them, but not to spend them.
 
 
 Click `I Understand`, then `Export Xpub` if you are satisfied with the information displayed.
 
 
-The SeedSigner then generates your xpub in the form of a dynamic QR code containing all the data you need to manage your portfolio in Sparrow Wallet.
+The SeedSigner then generates your xpub in the form of a dynamic QR code containing all the data you need to manage your wallet in Sparrow Wallet.
 
 
 ![Image](assets/fr/051.webp)
@@ -686,7 +686,7 @@ The SeedSigner then generates your xpub in the form of a dynamic QR code contain
 You can use the joystick to adjust the screen brightness for easier QR code scanning.
 
 
-### 6.2 Importing a new portfolio into Sparrow Wallet
+### 6.2 Importing a new wallet into Sparrow Wallet
 
 
 Make sure you have the Sparrow Wallet software installed on your computer. If you don't know how to download, check and install it correctly, see our full tutorial on the subject:
@@ -706,7 +706,7 @@ Scroll down to `SeedSigner`, then select `Scan...`. Your webcam will open: scan 
 ![Image](assets/fr/053.webp)
 
 
-Assign a name to your portfolio, then click on `Create Wallet`. Sparrow will then ask you to set a password to lock local access to this wallet. Choose a strong password: it protects access to your portfolio data in Sparrow (public keys, addresses, labels and transaction history). This password is not needed to restore the portfolio at a later date: only your mnemonic phrase (and possibly your passphrase) is required for this purpose.
+Assign a name to your wallet, then click on `Create Wallet`. Sparrow will then ask you to set a password to lock local access to this wallet. Choose a strong password: it protects access to your wallet data in Sparrow (public keys, addresses, labels and transaction history). This password is not needed to restore the wallet at a later date: only your mnemonic phrase (and possibly your passphrase) is required for this purpose.
 
 
 I recommend that you save this password in a password manager to avoid losing it.
@@ -867,13 +867,13 @@ The transaction is now ready, but not yet signed. To display the [PSBT (*Partial
 #### 7.2.2 Signing the transaction with the SeedSigner
 
 
-Switch on your SeedSigner and scan your SeedQR to access your portfolio, as usual. From the home screen, select `Scan`, then scan the QR code displayed on Sparrow.
+Switch on your SeedSigner and scan your SeedQR to access your wallet, as usual. From the home screen, select `Scan`, then scan the QR code displayed on Sparrow.
 
 
 ![Image](assets/fr/066.webp)
 
 
-Then choose the seed to match your portfolio.
+Then choose the seed to match your wallet.
 
 
 ![Image](assets/fr/067.webp)

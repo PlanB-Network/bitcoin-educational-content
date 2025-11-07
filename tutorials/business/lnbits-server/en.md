@@ -6,7 +6,7 @@ description: Installation and configuration of a self-hosted LNbits server on Ub
 ![cover](assets/cover.webp)
 
 
-LNbits is an open source web interface that transforms any Lightning backend (LND, Core Lightning, Phoenixd) into a complete service platform. This self-hosted solution enables you to manage multiple Lightning portfolios in isolation, deploy points of sale, create donation systems or billing services, while retaining total control over your funds.
+LNbits is an open source web interface that transforms any Lightning backend (LND, Core Lightning, Phoenixd) into a complete service platform. This self-hosted solution enables you to manage multiple Lightning wallets in isolation, deploy points of sale, create donation systems or billing services, while retaining total control over your funds.
 
 
 This tutorial covers two installation approaches: **VPS Ubuntu with Phoenixd** (lightweight solution without a full Bitcoin node) and **Umbrel** (integration with your existing LND node). Unlike Plan ₿ Academy's general LNbits tutorial, which covers concepts and extensions, this guide focuses on step-by-step technical installation procedures.
@@ -15,7 +15,7 @@ This tutorial covers two installation approaches: **VPS Ubuntu with Phoenixd** (
 ## What is LNbits?
 
 
-LNbits is a Lightning accounting system developed in Python (FastAPI) that connects to an existing backend (LND, Core Lightning, Phoenixd). Unlike traditional Lightning nodes, LNbits offers an accessible interface for managing several isolated portfolios with their own API keys. You can create sub-accounts for your family, employees or projects, without giving them access to all your funds.
+LNbits is a Lightning accounting system developed in Python (FastAPI) that connects to an existing backend (LND, Core Lightning, Phoenixd). Unlike traditional Lightning nodes, LNbits offers an accessible interface for managing several isolated wallets with their own API keys. You can create sub-accounts for your family, employees or projects, without giving them access to all your funds.
 
 
 The decoupled architecture stores information in SQLite (default) or PostgreSQL (production), while funds remain managed by your Lightning backend. This separation guarantees portability: you can migrate from Phoenixd to LND without losing your user data.

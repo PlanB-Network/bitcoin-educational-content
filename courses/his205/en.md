@@ -501,7 +501,7 @@ In China, coins were developed with a completely different approach to Western t
 And here, Mr. Davies mentions trade. There were indeed exchanges between the Chinese and other populations at certain times, but the intermediary of exchange was rather silk for foreign trade. As we'll see later, gold was also used in China's frontier regions, where the Chinese population was smaller. And not even for international trade, for that it was silk.
 
 
-So, I imagine that perhaps for the format of the pieces, they may have been influenced by other civilizations of the same era that developed this technology.
+So, I imagine that perhaps for the format of the coins, they may have been influenced by other civilizations of the same era that developed this technology.
 
 But clearly, the essence of money was completely different in China than in the West. We'll come back to this at length in the subsequent section on China.
 
@@ -541,10 +541,10 @@ But there's no trace of these famous hanging gardens in Babylon. In Nineveh, on 
 Welcome to this section on economic organization in Mesopotamia. The pre-capitalist economy went through three main stages: primitive, slave and feudal.
 
 
-In Mesopotamia, when we talk about economic organization, we're talking about slavery.
+Feudal, of course, is much later, obviously in the Middle Ages, and we have already passed the primitive stage that we described earlier with the Paleolithic. Now, in Mesopotamia, when we talk about economic organization, we're talking about slavery.
 
 
-However, in Mesopotamia, the bulk of work was carried out by a dependent class similar to slaves, who were not legally the property of their masters, but were deprived of the fruits of their labor through physical or ideological coercion.
+However, in Mesopotamia, the bulk of work was carried out by a dependent class similar to slaves, who were not legally the property of their masters but were deprived of the fruits of their labor through physical or ideological coercion.
 
 
 ### The role of temples and palaces as economic centers
@@ -553,19 +553,19 @@ However, in Mesopotamia, the bulk of work was carried out by a dependent class s
 Large landholdings dominated the economy. Landowners exploited their land directly by hiring workers, or they rented out their land in exchange for rents. They also engaged in financial activities, lending money at high interest rates, generally around 20% to 33.3% per annum, practices that contrasted sharply with the stricter rules of the neighboring Hebrews.
 
 
-The loans taken out by farmers were not intended for productive investment - with the exception of shipping companies - but rather to ensure their survival until the next harvest. This situation frequently led to chronic indebtedness.
+The loans taken out by farmers were not intended for productive investment - with the exception of shipping companies - but rather to ensure their survival until the next harvest. This situation frequently led to chronic indebtedness of the farmers.
 
 
-I'd like to draw a parallel here with a more recent period in antiquity (Rome), when citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **Trade and crafts were generally left to groups outside the social elite. All this contrasts with the profit-oriented economies of medieval trade and crafts.
+I allow myself to draw a parallel here with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented oriented towards of profit through trade and crafts.
 
 
 So what we're trying to say here is that I'm drawing a parallel with the fact that people used financial lending tools not necessarily to improve their means of production, and later in Rome, profits were not necessarily reinvested, but rather used to increase the prestige of the people who could benefit from these profits. We're still a long way from the capitalist spirit that emerged later in the Middle Ages, when jobs could be created to improve the means of production, and surpluses were taken and created in the pursuit of profit. So we can see that economic organization had not yet reached the third stage of the economic evolutions listed above.
 
 
-### The emergence of credit systems and unit-linked products
+### The emergence of credit systems and units of account
 
 
-**Karl Polanyi distinguishes three forms of economic exchange: reciprocity between symmetrical groups,** that would be in primitive tribes where we don't really need money because we give each other informal credit and exchange and redistribute. **Redistribution centralized around temples and palaces,** this form of exchange is compatible with Mesopotamia, where temples were at the center of economic organization and could at one time give back, distribute wealth in the form of rations. It was only later that the notion of wages was introduced. So, until now, we have the primitive form (1), centralized redistribution (2) in temples and palaces, and then we can finally leave room for market exchanges (3)**.** Although the market as we understand it today did not fully exist, the presence of market exchanges in Mesopotamia is indisputable, attested by the existence of specific terms in Akkadian and by the presence of archaeological evidence of prices, profits, losses, fluctuations and situations of scarcity.
+**Karl Polanyi distinguishes three forms of economic exchange: reciprocity between symmetrical groups,** that would be in primitive tribes where we don't really need money because we give each other informal credit and exchange and redistribute. **Redistribution centralized around temples and palaces,** this form of exchange is compatible with Mesopotamia, where temples were at the center of economic organization and could at one time give back, distribute wealth in the form of rations. It was only later that the notion of wages was introduced. So, until now, we have the primitive form (1), centralized redistribution (2) in temples and palaces, and then we can finally give way to market exchanges (3). Although the market as we understand it today did not fully exist, the presence of market exchanges in Mesopotamia is indisputable, attested by the existence of specific terms in Akkadian and by the presence of archaeological evidence of prices, profits, losses, fluctuations and situations of scarcity.
 
 
 Mesopotamian households independently managed all stages of agricultural production, from sowing to final processing into bread and beer. Women also produced the textiles needed by their dependents. For goods not produced locally, households turned to specialized merchants.
@@ -574,7 +574,7 @@ Mesopotamian households independently managed all stages of agricultural product
 Family ties were particularly important in trade. During the Paleo-Assyrian period (c. 1910-1830 BC), merchants from the city of Ashur established a trading colony at Kanesh in Anatolia, importing tin and textiles in exchange for gold and silver. Trade was based on family businesses closely linked by marriage and commercial partnerships. Kanesh was just one link in a vast international trade network.
 
 
-In these exchanges, there were metals, and they were precious metals and not necessarily, for example, copper, which was really useful at the time, and we think that these metals were exchanged for notions of store of value. So we couldn't necessarily speak of barter, two goods being exchanged for their usefulness, but really a notion of payment with a certain awareness of hoarding precious metals for their use as a store of value and not to use them as a commodity, for example, the use of bronze to make armor.
+In these exchanges, there were metals, and they were precious metals and not necessarily, for example, copper, which was really useful at the time, and we think that these metals were exchanged for notions of store of value. So we couldn't necessarily speak of barter, where two goods are exchanged for their usefulness, but rather a notion of payment with a certain awareness of hoarding precious metals for their use as a store of value and not to use them as a commodity, for example, the use of bronze to make armor.
 
 
 Tributes and taxes were mainly paid in kind (barley or weighed silver). Temples and palaces were the main economic, administrative, political and religious centers, and also performed the first banking functions through the secure deposit of goods, first grain, then other agricultural products and finally precious metals. In this way, the first credit and loan operations were developed, long before the appearance of coins.
@@ -589,10 +589,10 @@ But it wasn't yet fiat money in the strict sense of the word. There was no notio
 The transition to a wage labor market was a difficult one. It required two major conceptual innovations: the separation of the person's work from the final product, and the introduction of "working time" as a measurable unit. To have this notion of wage and salaried employee, we first had to go through these two innovations. **In the IIIᵉ millennium, work was initially remunerated by fixed rations, before gradually evolving towards a wage system at the beginning of the IIᵉ millennium.**
 
 
-Finally, from the XXVIᵉ century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** A little like the example of Kanesh, where silver metal was received for hoarding.
+Finally, from the 26th century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** A little like the example of Kanesh, where silver metal was received for hoarding.
 
 
-From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough, we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
+From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. "Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough, we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
 
 
 We can't ignore the empirical data present in Near Eastern archives attesting to the existence of **some market mechanisms**, incorporating **notions of profit** and **loss**, **price fluctuations** and situations of **scarcity**. But the fundamental difficulty lies in determining the relative importance of market-based exchange within the ancient Mesopotamian economy as a whole.

@@ -622,15 +622,15 @@ This section is dedicated to the economic and monetary organization of ancient E
 
 
 
-- Old Kingdom (c. 2575 - c. 2130 BC)**. A period marked by the construction of the great pyramids, notably those of Giza. This was the golden age of the centralized Egyptian monarchy.
-- Middle Kingdom (1938 - c. 1630 BC)**. Political and cultural renaissance after a period of instability.
-- New Kingdom (c. 1539 - 1075 BC)**. A period of territorial expansion, military power and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
-- 1323 BC. - Death of Tutankhamun**. The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
-- Ramses II - Reigned 1279-1213 BC**. One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
-- 1275 BC - Sea Peoples**. Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
-- Battle of Xoïs - 1178 BC**. Conflict between the Egyptian army and invaders, probably linked to the Sea Peoples. One of many battles at the end of the New Kingdom.
-- The Late Period** is the period of ancient Egyptian history from around 664 to 332 BC.
-- Cleopatra VII (69 \- 30 BC)**. Last queen of Egypt, famous for her intelligence, charisma and alliances with Julius Caesar and Marc Antony, and probably also for her nose. Her reign marked the end of Pharaonic Egypt before its annexation by Rome.
+- **Old Kingdom (c. 2575 - c. 2130 BC)**. A period marked by the construction of the great pyramids, notably those of Giza. This was the golden age of the centralized Egyptian monarchy.
+- **Middle Kingdom (c. 1938 - c. 1630 BC)**. Political and cultural renaissance after a period of instability.
+- **New Kingdom (c. 1539 - 1075 BC)**. A period of territorial expansion, military power and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
+- **1323 BC. - Death of Tutankhamun**. The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
+- **Ramses II - Reigned 1279-1213 BC**. One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
+- **1275 BC - Sea Peoples**. Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
+- **Battle of Xoïs - 1178 BC**. Conflict between the Egyptian army and invaders, probably linked to the Sea Peoples. One of many battles at the end of the New Kingdom.
+- **The Late Period** is the period of ancient Egyptian history from around 664 to 332 BC.
+- **Cleopatra VII (69 - 30 BC)**. Last queen of Egypt, famous for her intelligence, charisma and alliances with Julius Caesar and Marc Antony, and probably also for her nose. Her reign marked the end of Pharaonic Egypt before its annexation by Rome.
 
 
 By the 5th and 4th millennia BC, Egypt was already experiencing intense commercial activity on a large scale, linking Nubia, Palestine, Libya and the Red Sea regions through maritime, river and land trade (notably by donkey caravans).

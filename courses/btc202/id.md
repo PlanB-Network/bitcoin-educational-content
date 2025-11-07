@@ -561,492 +561,233 @@ Sekarang setelah kita menjelajahi semua kemungkinan perangkat lunak, mari kita f
 
 ### Apakah Anda benar-benar membutuhkan mesin khusus?
 
-
-
-Selama beberapa tahun terakhir, para pengguna bitcoin semakin menyadari kesalahpahaman yang umum terjadi, terutama dengan dipopulerkannya node-in-a-box di awal tahun 2020-an: node Bitcoin harus berjalan pada mesin yang didedikasikan khusus untuk tujuan ini. Tetapi ini tidak benar. Anda tidak perlu komputer khusus untuk menjalankan node Bitcoin: Bitcoin core sangat mampu berjalan di PC Anda sehari-hari. Jika Anda memiliki ruang disk yang cukup untuk Blockchain atau mengaktifkan pemangkasan, Anda dapat memvalidasi rantai, menghubungkan Wallet, dan bahkan menutup program setelah selesai menggunakannya. Keuntungan dari pendekatan ini cukup besar: investasi awal nol dan kerumitan minimal.
-
-
+Selama beberapa tahun terakhir, para bitcoiner semakin menyadari kesalahpahaman umum, terutama dengan popularisasi node-in-a-box pada awal tahun 2020-an: bahwa Node Bitcoin harus selalu berjalan pada mesin yang didedikasikan secara eksklusif untuk tujuan ini. Tetapi ini tidak benar. Anda tidak selalu memerlukan komputer khusus untuk menjalankan Node Bitcoin: Bitcoin Core sangat mampu berjalan di PC sehari-hari Anda. Jika Anda memiliki ruang disk yang cukup untuk Blockchain atau mengaktifkan pemangkasan, Anda dapat memvalidasi chain, menghubungkan wallet Anda, dan bahkan menutup program saat Anda selesai menggunakannya. Keuntungan dari pendekatan ini sangat besar: nol investasi awal dan minimal kerumitan.
 
 ![Image](assets/fr/074.webp)
 
-
-
-Meskipun demikian, menggunakan mesin khusus sering kali lebih nyaman. Mesin ini dapat berjalan terus menerus (24/7), dapat diakses dari jarak jauh setiap saat, tidak memonopoli sumber daya mesin utama Anda, dan yang terpenting, mengisolasi penggunaan (praktik keamanan yang baik: jika PC pribadi Anda mengalami masalah, simpul Anda terus berfungsi, dan sebaliknya). Jadi pertanyaannya bukan "Apakah saya perlu mendedikasikan sebuah mesin?", melainkan "Apakah saya memerlukan sebuah node yang selalu online, dapat diakses oleh perangkat lain, dan mampu berevolusi?" (Lightning, pengindeks, aplikasi tambahan...). Jika jawabannya ya, memilih mesin terpisah akan membuat segalanya menjadi lebih sederhana.
-
-
+Meskipun demikian, menggunakan mesin khusus seringkali lebih nyaman. Mesin tersebut dapat berjalan terus menerus (24/7), dapat diakses dari jarak jauh setiap saat, tidak memonopoli sumber daya mesin utama Anda, dan, yang terpenting, mengisolasi penggunaan (praktik keamanan yang baik: jika PC pribadi Anda mengalami masalah, node Anda terus berfungsi, dan sebaliknya). Jadi, pertanyaannya bukanlah "Apakah saya perlu mendedikasikan sebuah mesin?", melainkan "Apakah saya memerlukan node yang terus online, dapat diakses oleh perangkat lain, dan mampu berevolusi?" (Lightning, indexer, aplikasi tambahan...). Jika jawabannya ya, memilih mesin terpisah akan membuat segalanya jauh lebih sederhana.
 
 ### 3 metode akuisisi: daur ulang, bekas, dan baru
 
-
-
 #### Mendaur ulang PC lama
 
+Ini adalah solusi yang paling ekonomis. Sebagian besar dari kita memiliki PC lama yang berdebu di rumah, atau di antara teman dan keluarga: ini adalah kesempatan sempurna untuk menggunakannya kembali! Untuk mengadaptasinya sebagai Node Bitcoin, cukup tambahkan SSD 2TB dan, tergantung kebutuhan Anda, ganti atau tambahkan kepingan RAM untuk meningkatkan RAM. Perkirakan biaya antara €100 hingga €200 untuk mesin yang berfungsi penuh.
 
-
-Ini adalah solusi yang paling ekonomis. Sebagian besar dari kita memiliki PC lama yang mengumpulkan Dust di rumah, atau bersama teman dan keluarga: ini adalah kesempatan sempurna untuk mengembalikannya ke dalam layanan! Untuk menyesuaikannya agar dapat digunakan sebagai node Bitcoin, cukup tambahkan SSD 2TB dan, tergantung pada kebutuhan Anda, ganti atau tambahkan bilah RAM untuk meningkatkan RAM. Siapkan dana antara €100 dan €200 untuk mesin yang berfungsi penuh.
-
-
-
-Sebelum membeli perangkat keras apa pun, periksa jumlah slot disk yang tersedia, jenis koneksi (M.2 atau SATA), format RAM (SODIMM atau DIMM), dan generasinya (DDR4, dll.). Anda juga harus mengambil kesempatan untuk membersihkan mesin, terutama kipas, untuk memastikan kinerja yang optimal.
-
-
+Sebelum membeli hardware apa pun, periksa jumlah slot disk yang tersedia, jenis koneksi (M.2 atau SATA), format RAM (SODIMM atau DIMM), dan generasinya (DDR4, dll.). Anda juga harus memanfaatkan kesempatan ini untuk membersihkan mesin, terutama kipas, untuk memastikan kinerja optimal.
 
 Namun, berhati-hatilah jika Anda menggunakan laptop: baterai dapat menjadi masalah seiring berjalannya waktu (lebih lanjut mengenai hal ini nanti di bab ini).
 
+#### Rekondisi atau bekas
 
-
-#### Direkondisi atau bekas
-
-
-
-Pasar penuh dengan mini-PC bisnis yang telah diperbaharui seperti *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, atau *Dell OptiPlex Micro*. Mesin-mesin ini kokoh, ringkas, tidak berisik, dan hemat energi. Harganya jauh di bawah harga baru, dan mudah untuk menemukan model yang dilengkapi dengan prosesor i5/i7 generasi ke-6 hingga ke-10 dan RAM 8 hingga 16 GB, semuanya dengan harga yang sangat menarik, umumnya antara €70 dan €200, tergantung pada konfigurasinya. Menurut pendapat saya, ini mungkin merupakan pilihan terbaik jika Anda mencari mesin khusus untuk node Bitcoin Anda.
-
-
+Pasar penuh dengan bisnis mini-PC rekondisi seperti Lenovo _ThinkCentre Tiny_, _HP EliteDesk Mini_, atau _Dell OptiPlex Micro_. Mesin-mesin ini kokoh, ringkas, senyap, dan hemat energi. Harganya jauh di bawah harga baru, dan mudah untuk menemukan model yang dilengkapi dengan prosesor i5/i7 generasi ke-6 hingga ke-10 dan RAM 8 hingga 16 GB, semuanya dengan harga yang sangat menarik, umumnya antara €70 hingga €200, tergantung pada konfigurasi. Menurut pendapat saya, ini kemungkinan adalah pilihan terbaik jika Anda mencari mesin khusus untuk Node Bitcoin Anda.
 
 ![Image](assets/fr/075.webp)
 
+Anda juga dapat untuk menemukan PC dan laptop bekas yang berasal dari beberapa tahun lalu, dengan konfigurasi yang menarik dan nilai uang yang sangat terjangkau.
 
-
-Anda juga dapat menemukan PC dan laptop bekas yang berasal dari beberapa tahun yang lalu, dengan konfigurasi yang menarik dan nilai uang yang luar biasa.
-
-
-
-**Catatan:** Mesin dari armada perusahaan, seperti *ThinkCentre Tiny*, sering kali hanya dilengkapi dengan port *DisplayPort* (DP) untuk layar, tanpa output HDMI. Jadi, jangan lupa untuk membawa adaptor atau kabel DP-ke-HDMI jika Anda memerlukannya.
-
-
+**Catatan**: mesin dari barang perusahaan, seperti _ThinkCentre_ Tiny, seringkali hanya dilengkapi dengan port _DisplayPort_ (DP) untuk layar, tanpa output HDMI. Jadi, jangan lupa membawa adaptor atau kabel DP-ke-HDMI jika Anda membutuhkannya.
 
 #### Membeli baru
 
-
-
-Jika anggaran Anda memungkinkan, Anda juga bisa memilih mesin baru. Ini adalah pilihan yang baik jika Anda ingin memiliki perangkat keras terbaru dengan kinerja yang baik, terutama jika Anda berencana untuk menggunakan Umbrel atau Start9 dengan aplikasi tambahan di luar ekosistem Bitcoin untuk hosting mandiri.
-
-
+Jika anggaran Anda memungkinkan, Anda juga dapat memilih mesin baru. Ini adalah pilihan yang baik jika Anda ingin memiliki hardware terbaru dengan kinerja yang baik, terutama jika Anda berencana menggunakan Umbrel atau Start9 dengan aplikasi tambahan di luar ekosistem Bitcoin untuk self-hosting.
 
 ### Jenis mesin apa yang harus saya pilih?
 
-
-
 #### Mini-PC "NUC" / barebone
 
+Menurut pendapat saya, PC Mini menawarkan pilihan terbaik untuk menjadi host Node Bitcoin di rumah. Hemat ruang, mudah diletakkan di rak, mengonsumsi daya minimal, dan memungkinkan modifikasi hardware yang mudah, seperti menambahkan RAM atau mengganti SSD.
 
-
-Mini-PC, menurut saya, menawarkan kompromi terbaik untuk meng-host node Bitcoin di rumah. Hemat tempat, mudah ditempatkan di rak, mengonsumsi daya minimal, dan mudah dimodifikasi perangkat kerasnya, seperti menambahkan RAM atau mengganti SSD.
-
-
-
-Secara pribadi, saya lebih memilih *Lenovo ThinkCentre Tiny*, yang sangat banyak beredar di pasar barang bekas (dari armada perusahaan); sangat kuat dan mudah dimodifikasi. Tentu saja, ada banyak produk yang setara dari produsen lain: *Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini/Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi* ...
-
-
+Secara pribadi, saya lebih suka _Lenovo ThinkCentre Tiny_, yang sangat luas di pasar barang bekas (dari barang perusahaan); mesin ini sangat tangguh dan mudah dimodifikasi. Tentu saja, ada banyak produk serupa dari produsen lain: _Dell OptiPlex Micro, HP ProDesk / EliteDesk Mini / Micro, Intel NUC, Gigabyte BRIX, MSI Cubi..._
 
 ![Image](assets/fr/001.webp)
 
+**Keunggulan**: hemat ruang, konsumsi daya sedang, kebisingan rendah, skalabilitas (tergantung model), dan keandalan.
 
-
-**Sorotan:** tapak kecil, konsumsi daya sedang, kebisingan rendah, skalabilitas (tergantung model), dan keandalan.
-
-
-
-**Kelemahan:** sedikit lebih mahal daripada SBC tipe Raspberry Pi, tidak ada layar built-in (akses jarak jauh atau melalui monitor eksternal), tidak ada baterai (mati mendadak jika terjadi pemadaman listrik).
-
-
+**Kelemahan**: Sedikit lebih mahal daripada SBC jenis Raspberry Pi, tidak ada layar bawaan (akses jarak jauh atau melalui monitor eksternal), tidak ada baterai (shutdown mendadak jika listrik padam).
 
 #### Laptop khusus
 
-
-
-Ini adalah alternatif berbiaya rendah yang sangat baik untuk mini-PC: saat ini, Anda dapat menemukan laptop bekas atau bahkan baru dengan harga murah, dilengkapi dengan prosesor yang layak, banyak port, serta layar dan keyboard yang terintegrasi (sangat praktis untuk instalasi awal). Yang terpenting, baterai bertindak sebagai UPS alami: jika terjadi pemadaman listrik, node tidak akan mati secara tiba-tiba, dan bahkan dapat tetap beroperasi selama beberapa jam.
-
-
+Ini adalah alternatif berbiaya rendah yang sangat baik untuk PC Mini: saat ini, Anda dapat menemukan laptop bekas atau bahkan baru dengan harga murah, dilengkapi dengan prosesor yang layak, banyak port, serta layar dan keyboard terintegrasi (sangat praktis untuk instalasi awal). Yang terpenting, baterai bertindak sebagai UPS alami: jika terjadi pemadaman listrik, node tidak mati mendadak, dan bahkan dapat tetap beroperasi selama beberapa jam.
 
 ![Image](assets/fr/076.webp)
 
+**Keunggulan**: Solusi All-in-one, baterai berfungsi sebagai UPS (tidak ada pemadaman), instalasi lebih sederhana berkat layar dan keyboard terintegrasi, Wi-Fi terintegrasi, dan pilihan pasar bekas dan baru yang luas (yang sering kali berarti Anda dapat membandingkan harga).
 
+**Kelemahan**: Konsumsi daya sedikit lebih tinggi daripada PC Mini tanpa komponen, kerusakan baterai bertahap dalam operasi 24/7 dengan hilangnya kapasitas, risiko pembengkakan baterai atau thermal runaway yang jarang tetapi nyata seiring bertambahnya usia. Aspek inilah yang membuat saya menganggap PC Mini sebagai opsi yang lebih baik daripada laptop: degradasi baterai yang bertahap dan risiko terkait.
 
-**Sorotan:** Solusi all-in-one, baterai berfungsi sebagai UPS (tidak ada pemadaman listrik), pemasangan yang lebih sederhana berkat layar dan keyboard terintegrasi, kartu Wi-Fi terintegrasi, dan berbagai pilihan pasar bekas dan baru (yang sering kali berarti Anda bisa menegosiasikan harga).
+Jika Anda memilih solusi ini, saya sarankan untuk mengawasi kondisi baterai dengan cermat untuk mencegah bahaya apa pun. Perhatikan panas berlebih, bau yang tidak biasa, ketidakstabilan, atau hardcase yang berubah bentuk. Jika ada peringatan, segera matikan dan cabut laptop, lalu buang baterai di fasilitas daur ulang khusus.
 
-
-
-**Kelemahan:** konsumsi daya yang sedikit lebih tinggi daripada Mini-PC biasa, keausan baterai secara bertahap dalam operasi 24/7 dengan hilangnya kapasitas, risiko pembengkakan baterai yang jarang terjadi tetapi nyata seiring bertambahnya usia. Terutama aspek inilah yang membuat saya menganggap mini-PC sebagai pilihan yang lebih baik daripada laptop: degradasi baterai secara bertahap dan risiko yang terkait.
-
-
-
-Jika Anda memilih solusi ini, saya sarankan untuk selalu mencermati kondisi baterai untuk mencegah bahaya apa pun. Perhatikan panas yang berlebihan, bau yang tidak biasa, ketidakstabilan, atau cangkang yang berubah bentuk. Jika terjadi alarm, matikan dan cabut segera komputer, lalu buang baterai di fasilitas daur ulang khusus.
-
-
-
-**Saran:** Jika BIOS/UEFI atau alat pabrikan mengizinkannya, tetapkan batas beban (mis. 60% atau 80%) untuk memperpanjang masa pakai baterai.
-
-
+**Saran**: Jika BIOS/UEFI atau fitur dari pabrikan mengizinkannya, atur batas pengisian (load limit) (misalnya, 60% atau 80%) untuk memperpanjang masa pakai baterai.
 
 #### Raspberry Pi dan SBC lainnya: ide yang salah
 
-
-
-Pada awal tahun 2020-an, dengan munculnya perangkat lunak node-in-a-box, kegemaran Raspberry Pi juga muncul sebagai sarana untuk menjalankan node Bitcoin. Ide ini tampak menarik: murah, ringkas, dan mudah diakses.
-
-
+Pada awal tahun 2020-an, dengan maraknya perangkat lunak node-in-a-box, kegilaan Raspberry Pi juga muncul sebagai sarana untuk menjalankan Node Bitcoin. Idenya tampak menarik: murah, ringkas, dan mudah diakses.
 
 ![Image](assets/fr/073.webp)
 
-
-
-Dalam praktiknya, jika tujuan Anda hanya untuk menjalankan node Bitcoin tanpa aplikasi tambahan, Raspberry Pi mungkin sudah cukup. Tetapi begitu Anda ingin menggunakan Umbrel, Start9, atau ekosistem yang lebih kaya (Block explorer, pengindeks Address, node Lightning, aplikasi self-hosting...), mesin dengan cepat mencapai batasnya.
-
-
+Dalam praktiknya, jika tujuan Anda semata-mata menjalankan Node Bitcoin tanpa aplikasi tambahan, Raspberry Pi mungkin sudah cukup. Tetapi begitu Anda ingin menggunakan Umbrel, Start9, atau ekosistem yang lebih kaya (block explorer, address indexer, Node Lightning, aplikasi self-hosting...), mesin tersebut akan cepat mencapai batasnya.
 
 Raspberry Pi memiliki sejumlah kelemahan:
 
+- Prosesor yang terlalu tipis, dengan arsitektur ARM yang terkadang tidak kompatibel dengan perangkat lunak tertentu atau membutuhkan lebih banyak penanganan;
+- RAM yang disolder, tidak mungkin ditingkatkan, dengan konfigurasi terbatas (seringkali maksimum 8 GB);
+- Kotak eksternal untuk SSD yang terhubung dengan kabel, sumber bug yang sering, membutuhkan pembelian card spesifik untuk SSD yang stabil;
+- Kecenderungan untuk cepat panas dan kesulitan dalam memastikan pendinginan yang benar;
+- Kebutuhan untuk membeli hardware tambahan (casing, kipas, SSD card, dll.);
+- Konektivitas yang sangat terbatas.
 
-
-
-- prosesor yang terlalu ramping, dengan arsitektur ARM yang terkadang tidak kompatibel dengan perangkat lunak tertentu atau memerlukan penanganan lebih lanjut;
-- RAM yang disolder, tidak dapat ditingkatkan, dengan konfigurasi terbatas (biasanya maksimal 8 GB);
-- kotak eksternal untuk SSD yang dihubungkan dengan kabel, sering kali menjadi sumber masalah, sehingga memerlukan pembelian kartu khusus untuk SSD yang stabil;
-- kecenderungan untuk cepat panas dan kesulitan dalam memastikan pendinginan yang benar;
-- perlu membeli perangkat keras tambahan (casing, kipas angin, kartu SSD, dll.);
-- konektivitas yang sangat terbatas.
-
-
-
-Secara historis, keuntungan besar dari SBC seperti Raspberry Pi adalah harganya: dengan beberapa lusin euro, Anda bisa mendapatkan mesin khusus. Namun, saat ini, harga telah meningkat tajam, dan setelah Anda menambahkan semua perangkat keras tambahan yang penting, biayanya mendekati harga mini-PC x86 bekas atau yang diperbarui, yang, menurut pendapat saya, menawarkan lebih banyak keuntungan. Karena alasan ini, saya tidak menyarankan untuk memilih SBC.
-
-
+Secara historis, keuntungan besar SBC seperti Raspberry Pi adalah harganya: dengan beberapa puluh euro, Anda bisa mendapatkan mesin khusus. Namun, saat ini, harga telah naik tajam, dan setelah Anda menambahkan semua hardware tambahan penting, biayanya mendekati harga PC Mini x86 bekas atau refurbished, yang, menurut saya, menawarkan jauh lebih banyak keuntungan. Karena alasan ini, saya tidak merekomendasikan untuk memilih SBC.
 
 ### Memilih komponen
 
-
-
 #### Penyimpanan disk: Wajib SSD, minimum 2 TB
 
+Secara teknis, dimungkinkan untuk menjalankan Node Bitcoin pada HDD. Masalahnya adalah semuanya akan melambat secara signifikan, terutama IBD (Initial Block Download), yang akan menjadi sangat lama karena penggunaan disk pada Bitcoin Core yang intensif sebagai cache (terutama untuk set UTXO). Inilah mengapa saya sangat menyarankan untuk tidak menggunakan HDD: ini menciptakan bottleneck nyata, sangat membatasi evolusi di masa depan (misalnya, untuk Node Lightning), dan bahkan dapat menyebabkan ketidaksesuaian sinkronisasi dengan puncak Blockchain. Terlebih lagi, tekanan konstan pada disk mekanis meningkatkan risiko kerusakan dini.
 
-
-Secara teknis, adalah mungkin untuk menjalankan node Bitcoin pada HDD. Masalahnya adalah semuanya akan melambat secara signifikan, terutama IBD, yang akan menjadi sangat lama karena penggunaan disk secara intensif oleh Bitcoin core sebagai cache (terutama untuk set UTXO). Inilah mengapa saya sangat menyarankan untuk tidak menggunakan HDD: HDD menciptakan kemacetan yang nyata, sangat membatasi evolusi di masa depan (misalnya, untuk node Lightning), dan bahkan dapat menyebabkan ketidaksesuaian sinkronisasi dengan kepala Blockchain. Selain itu, tekanan yang terus menerus pada disk mekanis akan meningkatkan risiko keausan dini.
-
-
-
-SSD secara radikal mengubah pengalaman pengguna Anda: semuanya menjadi lebih cepat dan lancar, dengan keandalan yang jauh lebih baik. Oleh karena itu, penggunaan SSD (hampir) wajib untuk node Anda, dan Anda tidak akan menyesalinya, terutama karena model berkapasitas tinggi sekarang relatif terjangkau.
-
-
+SSD secara radikal mengubah pengalaman pengguna Anda: semuanya menjadi lebih cepat dan lebih lancar, dengan keandalan yang jauh lebih baik. Oleh karena itu, penggunaan SSD adalah (hampir) wajib untuk node Anda, dan Anda tidak akan menyesalinya, terutama karena model berkapasitas tinggi sekarang relatif terjangkau.
 
 ![Image](assets/fr/077.webp)
 
-
-
-Dari segi kapasitas, 2TB secara bertahap memantapkan dirinya sebagai batas minimum yang wajar. Pada musim panas 2025, Blockchain sudah mendekati 700 GB, dan jika Anda menambahkan Umbrel, pengindeks Address, dan beberapa aplikasi, SSD 1 TB akan segera dipenuhi. Dengan 2TB, Anda memiliki margin yang nyaman untuk tahun-tahun mendatang (dalam perkiraan umum, antara 5 hingga 15 tahun). Anda juga dapat memilih 4TB jika Anda berencana untuk menggunakan banyak aplikasi di Umbrel, menyimpan file besar dalam hosting mandiri, atau jika Anda ingin mengantisipasi kebutuhan ruang disk yang besar.
-
-
+Dalam hal kapasitas, 2TB secara bertahap memantapkan dirinya sebagai minimum yang wajar yang baru. Pada musim panas 2025, Blockchain sudah mendekati 700 GB, dan jika Anda menambahkan Umbrel, address indexer, dan beberapa aplikasi, SSD 1 TB akan segera penuh. Dengan 2TB, Anda memiliki margin yang nyaman untuk tahun-tahun mendatang (dalam perkiraan luas, antara 5 hingga 15 tahun). Anda juga dapat memilih 4TB jika Anda berencana menggunakan banyak aplikasi di Umbrel, menyimpan file besar dalam self-hosting, atau jika Anda ingin mengantisipasi kebutuhan ruang disk Anda yang membesar.
 
 ![Image](assets/fr/078.webp)
 
-
-
-Mengenai formatnya, hal ini akan tergantung pada port yang tersedia pada komputer Anda; namun, jika memungkinkan, saya sarankan untuk menggunakan SSD NVMe M.2.
-
-
+Mengenai formatnya, ini akan bergantung pada port yang tersedia di mesin Anda; namun, jika memungkinkan, saya merekomendasikan penggunaan NVMe M.2 SSD.
 
 #### Memori (RAM): 8 hingga 16 GB
 
+Untuk Bitcoin Core saja (tanpa overlay Umbrel), rekomendasi pengembang menunjukkan minimum 256 MB RAM dengan pengaturan disesuaikan ke pengaturan terendah, 512 MB dengan pengaturan default, dan 1 GB untuk penggunaan normal.
 
-
-Untuk Bitcoin core saja (tanpa hamparan Umbrel), rekomendasi pengembang menunjukkan minimal 256 MB RAM dengan pengaturan yang disesuaikan ke pengaturan terendah, 512 MB dengan pengaturan default, dan 1 GB untuk penggunaan normal.
-
-
-
-Di sisi lain, jika Anda menggunakan sistem node-in-a-box seperti Umbrel atau Start9, kebutuhan RAM jauh lebih tinggi. Pengembang Umbrel merekomendasikan RAM minimal 4 GB. Ini mungkin cukup untuk menjalankan Core saja, tetapi Anda akan segera dibatasi. Oleh karena itu, mereka merekomendasikan 8 GB, yang juga saya anggap sebagai batas minimum untuk konfigurasi dasar di sekitar Bitcoin (Core, LND, pengindeks, dan beberapa aplikasi). Menurut pengalaman saya, dengan Umbrel dan beberapa layanan tambahan, 8 GB masih agak sempit. Agar benar-benar nyaman dan memiliki margin, saya merekomendasikan RAM 16 GB.
-
-
+Di sisi lain, jika Anda menggunakan sistem node-in-a-box seperti Umbrel atau Start9, persyaratan RAM secara signifikan lebih tinggi. Pengembang Umbrel merekomendasikan minimum 4 GB RAM. Ini mungkin cukup untuk menjalankan Core saja, tetapi Anda akan segera terbatas. Oleh karena itu, mereka merekomendasikan 8 GB, yang juga saya anggap minimum untuk konfigurasi dasar di sekitar Bitcoin (Core, LND, indexer, dan beberapa aplikasi). Dalam pengalaman saya, dengan Umbrel dan beberapa layanan tambahan, 8 GB masih kurang nyaman. Agar benar-benar nyaman dan memiliki sedikit margin, saya merekomendasikan 16 GB RAM.
 
 #### Prosesor (CPU)
 
-
-
-Untuk node Umbrel, persyaratan minimum adalah prosesor dual-core 64-bit dari Intel atau AMD. Jika Anda ingin menggunakan beberapa aplikasi selain Bitcoin core, quad-core (atau lebih tinggi) akan membuat perbedaan nyata dalam hal kelancaran. Sebagai contoh, prosesor i5/i7 generasi ke-6 hingga ke-10 adalah pilihan yang sangat baik di pasar bekas.
-
-
+Untuk node Umbrel, persyaratan minimum adalah prosesor dual-core 64-bit dari Intel atau AMD. Jika Anda ingin menggunakan beberapa aplikasi selain Bitcoin Core, quad-core (atau lebih tinggi) akan membuat perbedaan nyata dalam hal kelancaran. Misalnya, prosesor i5/i7 generasi ke-6 hingga ke-10 adalah pilihan yang sangat baik di pasar bekas.
 
 ### Contoh konfigurasi konkret
 
+Di bawah ini, saya mengusulkan tiga konfigurasi nyata, disesuaikan dengan anggaran dan kebutuhan yang berbeda, dengan model yang tepat untuk mendukungnya. Pilihan ini disediakan sebagai contoh untuk mengilustrasikan informasi dalam bab ini; Anda tidak wajib memilih model-model ini secara persis. Karena saya menganggap PC Mini sebagai opsi terbaik dalam jangka panjang, saya akan mengandalkan format ini untuk tiga konfigurasi yang diusulkan.
 
+_Harga yang ditampilkan di bawah ini hanya perkiraan saja dan dapat bervariasi sesuai dengan wilayah, vendor, dan periode_
 
-Di bawah ini, saya mengusulkan tiga konfigurasi konkret, yang disesuaikan dengan anggaran dan kebutuhan yang berbeda, dengan model yang tepat untuk mendukungnya. Pilihan ini diberikan sebagai contoh untuk mengilustrasikan informasi dalam bab ini; Anda tidak berkewajiban untuk memilih model-model ini secara persis. Karena saya menganggap Mini-PC sebagai pilihan terbaik dalam jangka panjang, saya akan mengandalkan format ini untuk ketiga konfigurasi yang diusulkan.
+Yang pertama dan terpenting, Anda memerlukan SSD yang cukup besar untuk menampung Blockchain, sementara masih menyisakan ruang untuk bermanuver. SSD memiliki masa pakai terbatas dalam hal siklus tulis dan volume total data yang ditulis. Namun, Node Bitcoin memberikan beban yang signifikan pada disk saat menulis. Itulah mengapa saya tidak merekomendasikan model entry-level; sebaliknya, saya menyarankan NVMe SSD, yang menawarkan kinerja yang jauh lebih baik.
 
-
-
-*Harga yang ditampilkan di bawah ini hanya bersifat indikatif dan dapat bervariasi menurut wilayah, vendor, dan periode*
-
-
-
-Pertama dan terutama, Anda membutuhkan SSD yang cukup besar untuk mengakomodasi Blockchain, namun masih menyisakan ruang untuk bermanuver. SSD memiliki masa pakai yang terbatas dalam hal siklus penulisan dan total volume data yang ditulis. Namun, node Bitcoin memberikan beban yang signifikan pada disk saat menulis. Itulah mengapa saya tidak merekomendasikan model entry-level; sebagai gantinya, saya menyarankan SSD NVMe, yang menawarkan kinerja yang jauh lebih baik.
-
-
-
-Sebagai contoh, untuk keperluan kursus ini, saya memilih model berikut: *Samsung 990 EVO Plus NVMe M.2 SSD 2Tb*, tersedia dengan harga sekitar €120 di Amazon. Anda juga bisa memilih merek terkenal lainnya seperti Crucial, Western Digital, atau Kingston.
-
-
+Sebagai contoh, untuk tujuan kursus ini, saya telah memilih model berikut: Samsung 990 EVO Plus NVMe M.2 SSD 2Tb, tersedia dengan harga sekitar €120 di Amazon. Anda juga dapat memilih merek terkenal lainnya seperti Crucial, Western Digital, atau Kingston.
 
 ![Image](assets/fr/046.webp)
 
-
-
 #### Konfigurasi anggaran rendah
 
+Jelas, jika anggaran Anda sangat terbatas (di bawah €200), saya menyarankan Anda untuk tidak berinvestasi pada mesin khusus, tetapi lebih baik memasang Bitcoin Core langsung di PC sehari-hari Anda (pruned mode jika Anda kekurangan ruang disk).
 
-
-Tentunya, jika anggaran Anda sangat terbatas (di bawah €200), saya sarankan Anda untuk tidak berinvestasi pada mesin khusus, tetapi lebih baik menginstal Bitcoin core langsung pada PC sehari-hari Anda (dalam mode pruned jika Anda kekurangan ruang disk).
-
-
-
-Jika tidak, untuk anggaran tingkat pemula, saya merekomendasikan *HP EliteDesk 800 G2 Mini*. Saya menemukan model yang diperbaharui seharga €96 di Amazon, dilengkapi dengan prosesor Intel Core i5 generasi ke-6 dan RAM 8 GB. Ini adalah pilihan yang sangat menarik bagi pemula: prosesor dan jumlah memori ini lebih dari cukup untuk menjalankan Core on Umbrel, serta beberapa aplikasi secara bersamaan, seperti pengindeks Electrs, Lightning node, dan instance Mempool, asalkan Anda tidak mengalokasikan terlalu banyak cache ke Core. Terlebih lagi, jenis mini-PC ini memudahkan untuk menambah RAM hingga 16 GB, misalnya, jika diperlukan (Anda harus membayar sekitar €30-40 tambahan untuk satu atau dua keping memori berkualitas).
-
-
+Jika tidak, untuk anggaran entry-level, saya merekomendasikan _HP EliteDesk 800 G2 Mini_. Saya menemukan model refurbished seharga €96 di Amazon, dilengkapi dengan prosesor Intel Core i5 generasi ke-6 dan RAM 8 GB. Ini adalah pilihan yang sangat menarik untuk pemula: prosesor ini dan jumlah memori ini lebih dari cukup untuk menjalankan Core pada Umbrel, serta beberapa aplikasi secara bersamaan, seperti indexer Electrs, Node Lightning, dan instance Mempool, asalkan Anda tidak mengalokasikan terlalu banyak cache ke Core. Terlebih lagi, jenis PC Mini ini memudahkan untuk meningkatkan RAM menjadi 16 GB, misalnya, jika kebutuhan muncul (perkirakan biaya tambahan sekitar €30-40 untuk satu atau dua keping memori berkualitas).
 
 ![Image](assets/fr/045.webp)
 
-
-
-Kemudian cukup tambahkan SSD ke dalam anggaran. Dimulai dengan Samsung 2TB seharga €120, kami mendapatkan total biaya €216 untuk mesin yang lengkap dan fungsional.
-
-
+Kemudian cukup tambahkan SSD ke dalam anggaran. Dimulai dengan Samsung 2TB seharga €120, kami mendapatkan biaya total €216 untuk mesin lengkap dan berfungsi.
 
 #### Konfigurasi anggaran menengah
 
-
-
-Jika Anda memiliki anggaran rata-rata sekitar €300 untuk mesin yang akan menjadi host node Anda, saya merekomendasikan *Lenovo ThinkCentre Tiny*, misalnya, yang dilengkapi dengan prosesor berkinerja tinggi dan RAM yang memadai. Saya menemukan model yang diperbaharui di Amazon seharga €180, dengan prosesor Intel Core i7 generasi ke-6 dan RAM 16GB. Dengan tambahan SSD 2TB seharga €120, total biayanya menjadi €300.
-
-
+Jika Anda memiliki anggaran rata-rata sekitar €300 untuk mesin yang akan menjadi host node Anda, saya merekomendasikan _Lenovo ThinkCentre Tiny_, misalnya, dilengkapi dengan prosesor berkinerja tinggi dan RAM yang memadai. Saya menemukan model refurbished di Amazon seharga €180, menampilkan prosesor Intel Core i7 generasi ke-6 dan RAM 16GB. Dengan tambahan SSD 2TB seharga €120, total biaya menjadi €300.
 
 ![Image](assets/fr/044.webp)
 
+Dengan mesin ini, Anda memiliki konfigurasi yang nyaman: IBD yang cepat dan kemampuan untuk menjalankan banyak aplikasi di Umbrel atau Start9 Anda tanpa kesulitan. Inilah tepatnya konfigurasi yang saya gunakan untuk kursus BTC 202 ini.
 
+#### Konfigurasi High-End
 
-Dengan mesin ini, Anda memiliki konfigurasi yang nyaman: IBD yang cepat dan kemampuan untuk menjalankan berbagai aplikasi di Umbrel atau Start9 tanpa kesulitan. Inilah konfigurasi yang saya gunakan untuk kursus BTC 202 ini.
+Dengan anggaran yang lebih besar, kemungkinannya menjadi jauh lebih luas. Anda dapat memilih konfigurasi DIY, atau bahkan memilih mesin rakitan awal yang ditawarkan langsung oleh proyek node-in-a-box.
 
+Misalnya, _ASUS NUC 14 Pro_ tersedia baru dari Amazon seharga €540. Untuk harga ini, Anda mendapatkan prosesor Intel Core Ultra 5 (baru dan berkinerja sangat tinggi), disertai dengan RAM DDR5 16 GB. Dengan konfigurasi seperti itu, Anda akan dapat menyelesaikan IBD dalam waktu singkat dan memasang aplikasi yang berat tanpa kesulitan.
 
-
-#### Konfigurasi kelas atas
-
-
-
-Dengan anggaran yang lebih besar, kemungkinannya menjadi jauh lebih luas. Anda dapat memilih konfigurasi DIY, atau bahkan memilih mesin yang sudah dirakit sebelumnya yang ditawarkan langsung oleh proyek node-in-a-box.
-
-
-
-Sebagai contoh, *ASUS NUC 14 Pro* tersedia di Amazon dengan harga €540. Dengan harga ini, Anda mendapatkan prosesor Intel Core Ultra 5 (terbaru dan berperforma tinggi), disertai dengan RAM DDR5 16 GB. Dengan konfigurasi seperti itu, Anda akan dapat menyelesaikan IBD dalam waktu singkat dan menginstal aplikasi yang berat tanpa kesulitan.
-
-
-
-Ini adalah konfigurasi yang sangat nyaman, bahkan berlebihan jika tujuan awalnya hanya untuk menjalankan node Bitcoin. Di sisi lain, jika Anda ingin memanfaatkan sepenuhnya semua aplikasi hosting mandiri yang tersedia di Umbrel dan Start9, tingkat daya ini tepat untuk Anda.
-
-
+Ini adalah konfigurasi yang sangat nyaman, bahkan berlebihan jika tujuan awalnya hanya menjalankan Node Bitcoin. Di sisi lain, jika Anda ingin memanfaatkan sepenuhnya semua aplikasi self-hosting yang tersedia di Umbrel dan Start9, pilihan ini tepat untuk Anda.
 
 ![Image](assets/fr/043.webp)
 
+Tergantung pada penggunaan yang Anda inginkan, Anda dapat memilih SSD 2TB, seperti dalam konfigurasi lain, atau langsung untuk SSD 4TB seharga €260 jika Anda juga ingin menyimpan file pribadi dan memperluas penggunaan self-hosting Anda. Dengan SSD 2TB, total biaya konfigurasi adalah €660, sedangkan dengan SSD 4TB, mencapai €800.
 
+### Beberapa kiat tambahan
 
-Tergantung pada tujuan penggunaan Anda, Anda dapat memilih SSD 2TB, seperti pada konfigurasi lainnya, atau langsung memilih SSD 4TB seharga €260 jika Anda juga ingin menyimpan file pribadi dan memperluas penggunaan hosting mandiri. Dengan SSD 2TB, total biaya konfigurasi adalah €660, sedangkan dengan SSD 4TB, biayanya mencapai €800.
-
-
-
-### Beberapa kiat lainnya
-
-
-
-
-
-- Jika Anda ingin membeli peralatan bekas dan membayar dengan bitcoin, datanglah ke pertemuan di dekat Anda! Dengan mengobrol dengan peserta lain, Anda pasti akan menemukan peralatan yang sesuai dengan harga yang bagus, sambil membantu menjaga ekonomi sirkular di sekitar Bitcoin tetap hidup. Ini juga merupakan kesempatan untuk mendapatkan manfaat dari saran yang baik dari komunitas.
-
-
-
-
-
-- Untuk koneksi Internet, tentu saja Anda memerlukan kabel Ethernet RJ45, setidaknya untuk instalasi sistem.
-
-
-
-
-
-- Beberapa lingkungan, seperti Umbrel, memungkinkan Anda untuk menggunakan Wi-Fi, tetapi kinerjanya umumnya akan lebih buruk (terutama jika Anda ingin menggunakan node Lightning Anda dari jarak jauh, karena hal ini dapat berdampak). Jika Anda memilih Wi-Fi, pastikan mesin Anda memiliki kartu built-in atau tambahkan dongle yang kompatibel.
-
-
-
-
-
-- Selalu gunakan daya Supply asli dari produsen untuk mesin Anda. Hal ini sangat penting untuk mencegah kerusakan pada peralatan Anda dan untuk mencegah risiko terjadinya kebakaran.
-
-
-
-
-
-- Jika mesin Anda tidak memiliki baterai internal, sebaiknya Anda berinvestasi pada inverter untuk menghindari pemadaman mendadak.
-
-
-
-
-
-- Tergantung pada nilai peralatan dan lokasi geografis Anda, sistem penangkal petir mungkin juga sesuai, baik secara langsung pada switchboard atau pada soket listrik yang digunakan.
-
-
-
-
-
-- Terakhir, ingatlah untuk mengoptimalkan pendinginan mesin Anda: bersihkan secara teratur, dan pasang di tempat yang sejuk, berventilasi baik, dan tidak berantakan untuk menghindari panas berlebih, yang dapat menyebabkan throttling (pembatasan kecepatan prosesor secara sukarela).
-
-
+- Jika Anda ingin membeli peralatan bekas dan membayar dengan bitcoin, datanglah ke pertemuan di dekat Anda! Dengan mengobrol dengan peserta lain, Anda pasti akan menemukan peralatan yang cocok dengan harga yang bagus, sambil membantu menjaga ekonomi sirkular di sekitar Bitcoin tetap hidup. Ini juga merupakan kesempatan untuk mendapatkan saran yang baik dari komunitas.
+- Untuk koneksi Internet, Anda tentu saja akan membutuhkan kabel Ethernet RJ45, setidaknya untuk instalasi sistem.
+- Beberapa environment, seperti Umbrel, memungkinkan Anda menggunakan Wi-Fi, tetapi kinerjanya umumnya akan lebih buruk (terutama jika Anda ingin menggunakan Node Lightning Anda dari jarak jauh, karena ini dapat berdampak). Jika Anda memilih Wi-Fi, pastikan mesin Anda memiliki build-in card atau tambahkan dongle yang kompatibel.
+- Selalu gunakan power supply pabrikan asli untuk mesin Anda. Ini sangat penting untuk mencegah kerusakan pada peralatan Anda dan untuk mencegah risiko kebakaran.
+- Jika mesin Anda tidak memiliki baterai bawaan, ada baiknya berinvestasi pada inverter (UPS) untuk menghindari shutdown mendadak.
+- Tergantung pada nilai peralatan Anda dan lokasi geografis Anda, sistem penangkal petir juga mungkin tepat, baik langsung di panel sakelar (switchboard) atau pada soket listrik yang digunakan.
+- Terakhir, ingatlah untuk mengoptimalkan pendinginan mesin Anda: bersihkan secara teratur, dan pasang di tempat yang sejuk, berventilasi baik, dan tidak berantakan untuk menghindari panas berlebih, yang dapat menyebabkan throttling (pembatasan kecepatan prosesor Anda secara otomatis).
 
 # Memasang node Bitcoin dengan mudah
 
-
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
-
-
-
 
 ## Umbrel: lebih dari sekadar simpul Bitcoin
 
-
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
+Umbrel adalah sistem operasi personal server yang dirancang untuk membuat self-hosting mudah diakses: Anda memasang Umbrel, membuka browser `umbrel.local`, dan mengelola semuanya melalui Interface jarak jauh yang sederhana.
 
+Proyek ini pertama kali mempopulerkan ide node Bitcoin dan Lightning sekali-klik, kemudian berkembang menjadi "home cloud" yang sesungguhnya: penyimpanan file dan foto, streaming multimedia, alat jaringan, otomatisasi rumah, AI lokal, dan ratusan aplikasi yang dapat dipasang dari App Store terintegrasi.
 
-Umbrel adalah sistem operasi server pribadi yang dirancang untuk membuat hos mandiri dapat diakses: Anda menginstal Umbrel, membuka peramban di `umbrel.local`, dan mengelola segala sesuatunya melalui Interface jarak jauh yang sederhana.
+Di Umbrel, setiap aplikasi berjalan dalam kontainer Docker (isolasi, pembaruan atomik, start/ stop independen). Interface memusatkan akses ke semua aplikasi ini, menawarkan single sign-on (dengan 2FA opsional), pembaruan sekali-klik untuk OS dan aplikasi, pemantauan langsung mesin (CPU, RAM, suhu, penyimpanan), manajemen izin antar aplikasi, dan gambaran umum konsumsi mereka.
 
-
-
-Proyek ini pertama kali mempopulerkan ide Bitcoin dan Lightning node satu-klik, kemudian diperluas menjadi "cloud rumah" yang sesungguhnya: penyimpanan file dan foto, streaming multimedia, alat jaringan, otomatisasi rumah, AI lokal, dan ratusan aplikasi yang dapat diinstal dari App Store yang terintegrasi.
-
-
-
-Di Umbrel, setiap aplikasi berjalan dalam kontainer Docker (isolasi, pembaruan atomik, start/stop independen). Interface memusatkan akses ke semua aplikasi ini, menawarkan sistem masuk tunggal (dengan 2FA opsional), pembaruan sekali klik untuk OS dan aplikasi, pemantauan langsung mesin (CPU, RAM, suhu, penyimpanan), manajemen perizinan di antara aplikasi, dan ikhtisar konsumsinya.
-
-
-
-Oleh karena itu, tujuan Umbrel adalah untuk memberi Anda kembali kendali dan kerahasiaan atas data Anda, tanpa bergantung pada layanan cloud, lebih dari sekadar mengoperasikan node Bitcoin.
-
-
+Tujuan Umbrel karena itu adalah untuk mengembalikan kontrol dan kerahasiaan atas data Anda, tanpa bergantung pada layanan cloud, di luar sekadar mengoperasikan node Bitcoin.
 
 ### Umbrel Home vs umbrelOS
 
-
-
 Umbrel menawarkan dua pendekatan yang berbeda:
 
-
-
-
-
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): ini adalah server mini yang siap pakai, yang dirancang dan dioptimalkan secara khusus untuk umbrelOS. Ringkas, senyap, terhubung dengan Ethernet, dilengkapi dengan SSD NVMe (opsional hingga 4TB), RAM 16GB, dan CPU quad-core. Anda memesannya, mencolokkannya, dan membuka `umbrel.local`. Anda bisa memiliki Umbrel yang operasional dan berjalan dalam hitungan menit. Itu adalah opsi plug-and-play.
-
-
+- [**Umbrel Home**}(https://umbrel.com/umbrel-home): Ini adalah mini-server yang siap digunakan, dirancang dan dioptimalkan secara khusus untuk umbrelOS. Ringkas, senyap, terhubung Ethernet, dilengkapi dengan NVMe SSD (hingga 4TB opsional), RAM 16GB, dan CPU quad-core. Anda memesannya, menyambungkannya, dan membuka `umbrel.local`. Anda dapat memiliki Umbrel yang beroperasi dalam hitungan menit. Itu adalah opsi plug-and-play.
 
 ![Image](assets/fr/081.webp)
 
-
-
-
-
-- [**umbrelOS**](https://umbrel.com/umbrelos): ini adalah sistem operasi yang dapat Anda instal sendiri pada perangkat keras Anda sendiri (mini-PC, NUC, tower, laptop khusus...). Anda memiliki Interface yang sama dan App Store yang sama seperti pada Umbrel Home.
-
-
+- [**umbrelOS**](https://umbrel.com/umbrelos): Ini adalah sistem operasi yang dapat Anda pasang sendiri di hardware Anda sendiri (mini-PC, NUC, tower, laptop khusus...). Anda memiliki Interface yang sama dan App Store yang sama seperti pada Umbrel Home.
 
 ![Image](assets/fr/080.webp)
 
-
-
-Dalam kedua kasus tersebut, pengalaman pengguna identik di sisi perangkat lunak: administrasi berbasis browser, pembaruan sekali klik, instalasi aplikasi sesuai permintaan... Solusi DIY sering kali lebih ekonomis daripada membeli Umbrel Home (tergantung pada mesin yang digunakan). Namun, saya tidak akan selalu menyarankan Anda untuk memilih opsi DIY, karena **membeli Umbrel Home berkontribusi langsung pada pembiayaan pengembangan proyek**, karena model bisnisnya didasarkan pada penjualan perangkat keras. Dan sejujurnya, dengan harga €389 untuk penyimpanan 2TB, harga tersebut masih sangat masuk akal mengingat kualitas mesin yang ditawarkan.
-
-
+Dalam kedua kasus, pengalaman pengguna identik di sisi perangkat lunak: administrasi berbasis browser, pembaruan seklai-klik, instalasi aplikasi sesuai permintaan... Solusi DIY seringkali lebih ekonomis daripada membeli Umbrel Home (tergantung pada mesin yang digunakan). Namun, saya tidak harus selalu merekomendasikan Anda untuk selalu memilih opsi DIY, **karena membeli Umbrel Home berkontribusi langsung pada pendanaan pengembangan proyek**, karena model bisnisnya didasarkan pada penjualan hardware. Dan sejujurnya, dengan harga €389 untuk penyimpanan 2TB, harganya tetap sangat wajar mengingat kualitas mesin yang ditawarkan.
 
 ![Image](assets/fr/079.webp)
 
+Di bab berikutnya, kita akan menjelajahi cara memasang umbrelOS DIY di mesin Anda sendiri. Namun, Anda dapat mengikuti kursus BTC 202 ini dengan cara yang sama jika Anda telah memilih Umbrel Home.
 
+### Kasus penggunaan: dari node Bitcoin menuju home cloud
 
-Di bab selanjutnya, kita akan membahas cara menginstal umbrelOS secara DIY di mesin Anda sendiri. Namun, Anda dapat mengikuti kursus BTC 202 ini dengan cara yang sama jika Anda telah memilih Umbrel Home.
+Umbrel dapat tetap sangat minimalis dan berfokus semata-mata pada Bitcoin, atau berevolusi menjadi personal server multifungsi sejati, tergantung pada kebutuhan Anda. Berikut adalah kegunaan utama untuk Umbrel:
 
-
-
-### Kasus penggunaan: dari node Bitcoin ke cloud rumah
-
-
-
-Umbrel dapat tetap sangat minimalis dan hanya berfokus pada Bitcoin, atau berevolusi menjadi server pribadi multifungsi yang sesungguhnya, tergantung pada kebutuhan Anda. Berikut ini adalah kegunaan utama Umbrel:
-
-
-
-
-
-- Node Bitcoin sederhana**: ini adalah penggunaan awal yang menjadi andalan Umbrel sejak awal. Anda dapat menjalankan Bitcoin core (atau Knot), menghubungkan dompet Anda secara langsung ke node Anda, mengekspos server Electrum, meng-host Mempool Block explorer Anda untuk melihat Blockchain, dan memperkirakan biaya... Penggunaan-penggunaan inilah yang akan kita fokuskan dalam kursus ini.
-
-
+- **Node Bitcoin Sederhana:** Ini adalah penggunaan awal yang telah diandalkan Umbrel sejak awal. Anda dapat menjalankan Bitcoin Core (atau Knots), menghubungkan wallet Anda langsung ke node Anda, mengekspos server Electrum, menjadi host block explorer Mempool Anda untuk melihat Blockchain, dan memperkirakan biaya... Penggunaan inilah yang akan kita fokuskan dalam kursus ini.
 
 ![Image](assets/fr/082.webp)
 
-
-
-
-
-- Lightning Network**: Umbrel juga memungkinkan Anda menggunakan LND atau Core Lightning, dua implementasi dari Lightning Network, untuk mengelola node Lightning Anda sendiri. Anda akan dapat membuka saluran, mengelola likuiditas, melakukan pembayaran, mengotomatiskan penyeimbangan, menawarkan layanan, menghubungkan Wallet jarak jauh, atau memanfaatkan manajemen Interface tingkat lanjut berkat banyak aplikasi yang tersedia. Kita akan melihat kasus penggunaan khusus ini dalam kursus LNP 202 berikutnya.
-
-
+- **Lightning Network:** Umbrel juga memungkinkan Anda untuk menggunakan LND atau Core Lightning, dua implementasi Lightning Network, untuk mengelola Node Lightning Anda sendiri. Anda akan dapat membuka channel, mengelola likuiditas Anda, melakukan pembayaran, mengotomatisasi penyeimbangan, menawarkan layanan, menghubungkan wallet jarak jauh, atau memanfaatkan manajemen Interface lanjutan berkat banyak aplikasi yang tersedia. Kita akan melihat kasus penggunaan spesifik ini di kursus LNP 202 kita berikutnya.
 
 ![Image](assets/fr/083.webp)
 
+- **Self-hosting Umum:** Dengan Nextcloud, Immich, Jellyfin/Plex, pemblokir iklan di seluruh DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), otomatisasi rumah (Home Assistant), backup, manajemen catatan, alat office, AI lokal (Ollama + Open WebUI)... Umbrel dapat menjadi personal server Anda, memungkinkan Anda mendapatkan kembali kendali atas data Anda. Anda sendiri yang menjadi host layanan yang Anda gunakan setiap hari, dengan pengalaman penggunaan yang halus (polished) yang sangat menyerupai solusi eksternal, sambil mempertahankan kendali total atas data dan privasi Anda.
 
+Dengan menyebarkan aplikasi dalam kontainer, Anda dapat membentuk Umbrel sesuai keinginan Anda: mulai dengan Node Bitcoin sederhana dan beberapa aplikasi yang terhubung ke ekosistemnya, kemudian instal Node Lightning di samping Node Bitcoin Anda, dan secara bertahap memperkaya instans Anda dengan aplikasi self-hosting yang Anda butuhkan.
 
+### Komunitas dan Bantuan Bersama
 
-
-- Hosting mandiri umum**: dengan Nextcloud, Immich, Jellyfin/Plex, pemblokir iklan di seluruh DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), otomatisasi rumah (Asisten Rumah Tangga), pencadangan, manajemen catatan, alat kantor, AI lokal (Ollama + Open WebUI)... Umbrel dapat menjadi server pribadi Anda, memungkinkan Anda untuk mendapatkan kembali kendali atas data Anda. Anda meng-host sendiri layanan yang Anda gunakan setiap hari, dengan pengalaman pengguna yang dipoles yang sangat mirip dengan solusi eksternal, sambil mempertahankan kontrol penuh atas data dan privasi Anda.
-
-
-
-Dengan men-deploy aplikasi dalam kontainer, Anda dapat membentuk Umbrel sesuai keinginan: mulai dengan node Bitcoin sederhana dan beberapa aplikasi yang ditautkan ke ekosistemnya, lalu instal node Lightning di samping node Bitcoin, dan secara bertahap memperkaya instance Anda dengan aplikasi hosting mandiri yang Anda perlukan.
-
-
-
-### Komunitas dan gotong royong
-
-
-
-Salah satu keunggulan utama Umbrel dibandingkan para pesaingnya adalah komunitas penggunanya yang luas dan sangat aktif. Anda bisa menjangkau mereka terutama melalui [Discord mereka](https://discord.gg/efNtFzqtdx) dan [forum online mereka](https://community.umbrel.com/). Di sini, Anda tidak hanya akan menemukan saran praktis tetapi, di atas segalanya, solusi untuk memecahkan masalah atau memperbaiki bug. Ini adalah tempat yang tepat untuk memulai, berkembang, dan pada akhirnya, membantu pengguna lain, sehingga Anda tidak akan merasa kesepian dengan Coin Anda.
-
-
+Salah satu keunggulan utama Umbrel dibandingkan pesaingnya adalah komunitas pengguna yang luas dan sangat aktif. Anda dapat menjangkau mereka terutama melalui [Discord mereka](https://discord.gg/efNtFzqtdx) dan [forum online mereka](https://community.umbrel.com/). Di sini, Anda akan menemukan tidak hanya saran praktis tetapi, yang terpenting, solusi untuk memecahkan masalah atau memperbaiki bug. Ini adalah tempat yang tepat untuk memulai, untuk maju, dan, pada akhirnya, untuk membantu pengguna lain, sehingga Anda tidak ditinggalkan sendirian dengan Koin Anda.
 
 ![Image](assets/fr/084.webp)
 
-
-
 ### Lisensi UmbrelOS
 
+Kode Umbrel tersedia untuk umum (Anda dapat melihat, fork, dan memodifikasinya), tetapi tidak berada di bawah lisensi open-source sepenuhnya. Faktanya, umbrelOS didistribusikan di bawah lisensi [_PolyForm Noncommercial 1.0_](https://polyformproject.org/licenses/noncommercial/1.0.0/), meskipun beberapa aplikasi pengembangan terkait tersedia di bawah lisensi MIT.
 
+Secara praktis, Anda dapat melakukan hampir semua yang Anda suka dengan umbrelOS, selama itu untuk penggunaan pribadi, non-komersial: modifikasi, redistribusi untuk tujuan non-profit, pembuatan turunan untuk diri sendiri atau untuk organisasi non-profit, asalkan Anda menghormati ketentuan hukum.
 
-Kode Umbrel tersedia untuk umum (Anda dapat melihat, Fork, dan memodifikasinya), tetapi tidak berada di bawah lisensi sumber terbuka yang sebenarnya. Faktanya, umbrelOS didistribusikan di bawah lisensi [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), meskipun beberapa alat pengembangan terkait tersedia di bawah lisensi MIT.
+Namun, dilarang menjual Umbrel atau turunannya (misalnya, mesin yang sudah dirakit dengan umbrelOS yang sudah terinstal), menawarkan layanan terkait Umbrel secara komersial, atau mengintegrasikan kodenya ke dalam produk untuk tujuan keuntungan.
 
+Secara teknis, lisensi ini tidak membatasi pemasangan, audit, atau adaptasi Umbrel untuk penggunaan pribadi. Secara hukum, ia melindungi proyek dari penjualan kembali atau hosting komersial yang tidak sah, terutama oleh penyedia cloud. Oleh karena itu, Umbrel bukan open source, meskipun kodenya tetap dapat diakses oleh publik.
 
-
-Secara praktis, Anda bisa melakukan hampir semua hal yang Anda suka dengan umbrelOS, selama itu untuk penggunaan pribadi dan non-komersial: modifikasi, redistribusi untuk tujuan nirlaba, pembuatan turunan untuk Anda sendiri atau untuk organisasi nirlaba, asalkan Anda menghormati pemberitahuan hukum.
-
-
-
-Namun, dilarang menjual Umbrel atau turunannya (misalnya, mesin yang sudah dirakit dengan UmbrelOS yang sudah diinstal sebelumnya), menawarkan layanan yang terkait dengan Umbrel secara komersial, atau mengintegrasikan kodenya ke dalam sebuah produk untuk mendapatkan keuntungan.
-
-
-
-Secara teknis, lisensi ini tidak membatasi instalasi, audit, atau adaptasi Umbrel untuk penggunaan pribadi. Secara hukum, lisensi ini melindungi proyek dari penjualan kembali atau hosting komersial yang tidak sah, terutama oleh penyedia layanan cloud. Oleh karena itu, Umbrel bukanlah sumber terbuka, meskipun kodenya tetap dapat diakses oleh publik.
-
-
-
-Namun, setiap aplikasi di Store mempertahankan lisensinya sendiri, sering kali bersifat open source.
-
-
+Namun, setiap aplikasi di Store mempertahankan lisensinya sendiri, yang seringkali bersifat open source.
 
 
 ## Memasang Full node dengan Umbrel
 
-
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
-
-
 
 Sekarang setelah kita memiliki semua informasi yang diperlukan, sekarang saatnya untuk mempelajari detailnya. Dalam tutorial ini, kami akan menunjukkan kepada Anda cara menginstal node Bitcoin secara lengkap menggunakan UmbrelOS.
 

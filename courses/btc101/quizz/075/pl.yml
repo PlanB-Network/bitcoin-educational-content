@@ -5,7 +5,6 @@ wrong_answers:
   - Kryptografia kwantowa.
   - Kryptografia RSA.
 explanation: |
-  Wydawanie bitcoinów wymaga od właściciela użycia algorytmu krzywej eliptycznej
-  Algorytmu podpisu cyfrowego (ECDSA) do sfałszowania podpisu
+  Wydawanie bitcoinów wymaga od właściciela użycia algorytmu krzywej eliptycznej podpisu cyfrowego (ECDSA) do sfałszowania podpisu
   w celu propagacji transakcji Bitcoin.
 reviewed: true

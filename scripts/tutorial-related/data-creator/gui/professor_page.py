@@ -74,7 +74,7 @@ class ProfessorPage(ctk.CTkFrame):
         # GitHub
         ctk.CTkLabel(self, text="GitHub (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.github_var = ctk.StringVar(value=professor_data.get("github", ""))
-        ctk.CTkEntry(self, textvariable=self.github_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.github_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Optional lightning address input

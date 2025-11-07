@@ -30,11 +30,11 @@ In questa esercitazione esamineremo il progetto **Mempool.space**, le sue caratt
 
 
 
-**Mempool.space** è un explorer open-source che fornisce informazioni utili sulle transazioni, sulle tariffe delle transazioni, sui blocchi e sui miner delle varie reti del protocollo Bitcoin. Lanciato nel 2020, migliora notevolmente l'esperienza dell'utente grazie a una grafica rappresentativa, ad animazioni fluide e interfacce semplici.
+**Mempool.space** è un explorer open-source che fornisce informazioni utili sulle transazioni, sulle tariffe delle transazioni, sui blocchi e sui miner delle varie reti del protocollo Bitcoin. Lanciato nel 2020, migliora notevolmente l'esperienza dell'utente grazie ad una grafica rappresentativa, ad animazioni fluide ed interfacce semplici.
 
 
 
-Per comprendere il progetto, un Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. Un Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
+Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. Un Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
 
 
 
@@ -89,7 +89,7 @@ In viola, sul lato destro, troverete i recenti blocchi minati su Bitcoin, con il
 La sezione **Transaction Fees** è una stima delle commissioni di transazione. Più alte sono le commissioni assegnate alla transazione, più è probabile che la transazione venga aggiunta al blocco successivo pronto per essere minato.
 
 
-Le commissioni di transazione rappresentano il costo che un Miner richiede all'utente per inserire la sua transazione in un blocco candidato per il Mining. È definita da un rapporto sat/vB (Satoshi/Virtual Bytes) che rappresenta il numero di satoshi pagati per lo spazio che la transazione occuperà nel blocco candidato.
+Le commissioni di transazione rappresentano il costo che un miner richiede all'utente per inserire la sua transazione in un blocco candidato per il mining. La commissione è definita da un rapporto sat/vB (Satoshi/Virtual Bytes) che rappresenta il numero di satoshi pagati per lo spazio che la transazione occuperà nel blocco candidato.
 
 
 
@@ -117,7 +117,7 @@ Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della P
 
 
 
-L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi**, equivalente a circa 4 anni**) e dalle commissioni delle transazioni.
+L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi, **equivalente a circa 4 anni** ) e dalle commissioni delle transazioni.
 
 
 

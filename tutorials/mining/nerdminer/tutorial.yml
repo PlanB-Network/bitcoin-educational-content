@@ -27,10 +27,11 @@ proofreading:
       - Asi0Flammeus
     reward: 1.1
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 2.2
+      - Salgraphics
+    reward: 1.1
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -137,7 +138,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.9
+    reward: 3.6
   - language: rn
     last_contribution_date:
     urgency: 1

@@ -6,4 +6,4 @@ wrong_answers:
   - Bcoin
 explanation: |
   Bitcoin Knots, développé par Luke Dashjr, est un fork de Core qui propose des options supplémentaires et une vision plus conservatrice.
-reviewed: false
+reviewed: true 

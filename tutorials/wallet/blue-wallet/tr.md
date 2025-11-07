@@ -15,7 +15,6 @@ Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig]
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

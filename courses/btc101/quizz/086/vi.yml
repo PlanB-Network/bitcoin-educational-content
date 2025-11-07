@@ -1,13 +1,13 @@
-question: Bạn cần sao lưu những gì khi sử dụng ví với mật khẩu cụm từ?
-answer: Bạn cần sao lưu cả danh sách 12 hoặc 24 từ và mật khẩu cụm từ của bạn.
+question: Bạn cần sao lưu những gì khi sử dụng ví với cụm từ mật khẩu?
+answer: Bạn cần sao lưu cả danh sách 12 hoặc 24 từ và cụm từ mật khẩu của bạn.
 wrong_answers:
   - Bạn chỉ cần sao lưu danh sách 12 hoặc 24 từ.
-  - Bạn chỉ cần sao lưu mật khẩu cụm từ của bạn.
-  - Bạn không cần sao lưu danh sách 12 hoặc 24 từ cũng như mật khẩu cụm từ của bạn.
+  - Bạn chỉ cần sao lưu cụm từ mật khẩu của bạn.
+  - Bạn không cần sao lưu danh sách 12 hoặc 24 từ cũng như cụm từ mật khẩu của bạn.
 explanation: |
-  Khi bạn sử dụng ví với mật khẩu cụm từ, bạn cần phải sao lưu
-  cả danh sách 12 hoặc 24 từ và mật khẩu cụm từ của bạn,
-  vì danh sách từ và mật khẩu cụm từ đều
+  Khi bạn sử dụng ví với cụm từ mật khẩu, bạn cần phải sao lưu
+  cả danh sách 12 hoặc 24 từ và cụm từ mật khẩu của bạn,
+  vì danh sách từ và cụm từ mật khẩu đều
   cần thiết để lấy lại quyền truy cập vào quỹ của bạn trong trường hợp
   mất điện thoại hoặc máy tính. Không có một trong hai,
   quỹ sẽ không thể truy cập được.

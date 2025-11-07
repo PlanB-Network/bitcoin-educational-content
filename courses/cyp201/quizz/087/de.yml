@@ -5,5 +5,5 @@ wrong_answers:
   - Sie erfordern zwei Signaturen, um gültig zu sein.
   - Sie verwenden den Hash des öffentlichen Schlüssels in der Adresse.
 explanation: |
-  SegWit v1 (P2TR)-Adressen verwenden nicht einen Hash des öffentlichen Schlüssels, sondern direkt den Taproot-öffentlichen Schlüssel.
-reviewed: false
+  SegWit v1 (P2TR)-Adressen verwenden nicht einen Hash des öffentlichen Schlüssels, sondern direkt den öffentlichen Taproot-Schlüssel.
+reviewed: true

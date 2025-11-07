@@ -1,447 +1,236 @@
 ---
-name: Scambio di Zeus
-description: Servizio non custodiale Exchange tra On-Chain e Lightning Network bitcoin
+name: Zeus Swap
+description: Servizio di scambio non-custodial tra bitcoin on-chain e Lightning Network
 ---
 
 ![cover](assets/cover.webp)
 
+L'ecosistema Bitcoin presenta una dualità: la rete principale (on-chain) offre la massima sicurezza, mentre Lightning Network permette transazioni istantanee. Questa architettura a due livelli (chiamati "layer") crea una sfida pratica: come trasferire fondi in modo efficiente tra questi due livelli senza intermediari centralizzati?
 
+Il problema è concreto: ricevi un pagamento Lightning ma vuoi conservarlo in Cold storage, oppure hai bitcoin on-chain ma hai bisogno di liquidità su Lightning. Le soluzioni tradizionali prevedono l'apertura/chiusura manuale dei canali Lightning (costosa e tecnica) o l'uso di piattaforme centralizzate che richiedono KYC (identificazione "Know Your Customer").
 
-L'ecosistema Bitcoin presenta una dualità: la rete principale (On-Chain) offre la massima sicurezza, mentre la Lightning Network consente transazioni istantanee. Questa architettura a due Layer crea una sfida pratica: come trasferire in modo efficiente i fondi tra questi due livelli senza intermediari centralizzati?
+Zeus Swap risolve questo problema con un servizio di scambio automatico e non-custodial. Sviluppato da Zeus LSP, consente di passare bitcoin da on-chain su Lightning e viceversa, senza affidare i fondi a un intermediario. Il processo utilizza gli [Hash Time Locked Contracts (HTLC)](https://planb.academy/en/resources/glossary/htlc) che garantiscono che lo scambio si completi o venga annullato.
 
+L'innovazione sta nella semplicità: pochi clic per uno scambio che preserva la tua sovranità finanziaria, senza registrazione o KYC (Know Your Customer).
 
+## Cos'è Zeus Swap?
 
-Il problema è concreto: si riceve un pagamento Lightning ma si desidera conservarlo in un deposito Cold o, viceversa, si dispone di bitcoin On-Chain ma si ha bisogno di liquidità Lightning. Le soluzioni tradizionali prevedono l'apertura/chiusura manuale dei canali Lightning (costosa e tecnica) o piattaforme centralizzate che richiedono il KYC.
-
-
-
-Zeus Swap risolve questo problema con un servizio Exchange automatizzato e non depositario. Sviluppato da Zeus LSP, consente di convertire i bitcoin On-Chain in satoshi Lightning in modo bidirezionale, senza affidare i propri fondi a un intermediario. Il processo utilizza contratti atomici (HTLC) che garantiscono il completamento o l'annullamento della Exchange.
-
-
-
-L'innovazione sta nella sua semplicità: pochi clic per un Exchange che preserva la vostra sovranità finanziaria, senza bisogno di registrazione o KYC.
-
-
-
-## Che cos'è Zeus Swap?
-
-
-
-Zeus Swap è un servizio di liquidità Exchange sviluppato da Zeus LSP che permette di effettuare swap atomici tra la rete principale Bitcoin e Lightning Network. Si tratta di un'infrastruttura tecnica che utilizza swap sottomarini e reverse swap per facilitare la conversione bidirezionale tra BTC On-Chain e satoshi Lightning, preservando la natura non custodiale dell'operazione.
-
-
+Zeus Swap è un servizio di scambio di liquidità sviluppato da Zeus LSP che consente swap atomici tra il layer Bitcoin principale e Lightning Network. È un'infrastruttura tecnica che utilizza i "submarine swap" e i "reverse swap" per facilitare la conversione bidirezionale tra BTC on-chain e satoshi Lightning, mantenendo la natura non-custodial dell'operazione.
 
 ### Architettura tecnica
 
+Zeus Swap utilizza la tecnologia open-source di Boltz per gli atomic swap Bitcoin/Lightning. Il protocollo si basa su Hash Time Locked Contracts (HTLC): contratti che bloccano fondi con due condizioni di rilascio (rivelazione di un segreto crittografico o scadenza temporale).
 
+Per un submarine swap (on-chain → Lightning), l'utente invia bitcoin a un indirizzo che incorpora l'hash di una invoice Lightning. Zeus LSP sblocca questi fondi solo pagando la invoice corrispondente, rivelando la pre-image che sblocca automaticamente i bitcoin. Questo meccanismo garantisce l'atomicità.
 
-Zeus Swap utilizza la tecnologia open-source Bitcoin/Lightning atomic swap di Boltz. Il protocollo utilizza i Hash Time Locked Contracts (HTLC): contratti che bloccano i fondi con due condizioni di rilascio (rivelazione di un segreto crittografico o scadenza del tempo).
+Per un reverse swap (Lightning → on-chain), l'utente paga una invoice Lightning di Zeus LSP, rivelando una pre-image che permette il rilascio di una transazione Bitcoin già pronta verso l'indirizzo di destinazione.
 
-
-
-Per uno swap sottomarino (On-Chain → Lightning), l'utente invia bitcoin a un Address che incorpora il Hash di un Invoice Lightning. Zeus LSP sblocca questi fondi solo pagando il Invoice corrispondente, rivelando la pre-immagine che sblocca automaticamente i bitcoin. Questo meccanismo garantisce l'atomicità.
-
-
-
-Per un reverse swap (Lightning → On-Chain), l'utente paga un Lightning Invoice da Zeus LSP, rivelando una pre-immagine che consente il rilascio di una transazione Bitcoin preparata al Address di destinazione.
-
-
-
-Per maggiori dettagli sul funzionamento del Lightning Network, consultate il nostro corso dedicato:
-
-
+Per maggiori dettagli sul funzionamento della Lightning Network, consulta il nostro corso dedicato:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Modello di business
 
+Zeus LSP agisce come market maker, mantenendo liquidità on-chain e Lightning per onorare gli swap. Per ogni swap, Zeus applica una commissione variabile (tipicamente 0,1% - 0,5% a seconda della direzione e delle condizioni) più la fee di mining di Bitcoin, mostrata in modo trasparente prima della conferma.
 
-
-Zeus LSP agisce come market maker, mantenendo la liquidità di On-Chain e Lightning per onorare gli swap. Per gli swap, Zeus applica una commissione variabile (in genere dallo 0,1% allo 0,5% a seconda della direzione e delle condizioni) più la commissione Mining del Bitcoin, visualizzata in modo trasparente prima della convalida.
-
-
-
-In qualità di Lightning Service Provider, Zeus ottimizza i costi grazie alla sua esperienza nell'apertura di canali on-demand, nel routing efficiente e nelle soluzioni di liquidità personalizzate.
-
-
+Come Lightning Service Provider, Zeus ottimizza i costi grazie alla sua esperienza nell'apertura di canali on-demand, routing efficiente e soluzioni di liquidità personalizzate.
 
 ### Integrazione
 
+Zeus Wallet integra nativamente il servizio, permettendo gli swap senza uscire dall'interfaccia Bitcoin/Lightning. Questo elimina l'attrito del copia-incolla tra applicazioni.
 
-
-Zeus Wallet integra il servizio in modo nativo, consentendo lo scambio senza lasciare Interface Bitcoin/Lightning. Questo elimina l'attrito del copia e incolla tra le applicazioni.
-
-
-
-Il web indipendente Interface rimane accessibile a tutti i portafogli, garantendo la massima flessibilità di utilizzo.
-
-
+L'interfaccia web indipendente rimane accessibile a tutti i wallet, garantendo la massima flessibilità d'uso.
 
 ## Caratteristiche principali
 
+### Swap bidirezionali
 
+Zeus Swap offre due tipi di swap:
 
-### Scambi bidirezionali
+**Submarine swaps (on-chain → Lightning)**: immette liquidità Lightning partendo dai bitcoin on-chain. Utile per alimentare un wallet mobile o un nodo Lightning senza aprire canali manualmente.
 
-
-
-Zeus Swap offre due tipi di Exchange:
-
-
-
-**Submarine swaps (On-Chain → Lightning)**: inietta liquidità Lightning dalle riserve Bitcoin, utile per alimentare un nodo mobile Wallet o Lightning senza aprire manualmente i canali.
-
-
-
-**Scambi inversi (Lightning → On-Chain)**: convertire i satoshi Lightning in bitcoin On-Chain da conservare a lungo termine, evitando costose chiusure di canali.
-
-
+**Reverse swaps (Lightning → on-chain)**: converte satoshi da Lightning verso il layer uno per mantenere bitcoin a lungo termine, evitando costose chiusure di canale.
 
 ### Interfacce utente
 
+**Interfaccia web** (swaps.zeuslsp.com): esperienza semplificata senza registrazione, processo guidato con visualizzazione in tempo reale di commissioni e stato.
 
-
-**Interface web** (swaps.zeuslsp.com): esperienza semplificata senza registrazione, processo guidato con visualizzazione in tempo reale delle spese e dello stato.
-
-
-
-**Integrazione con Zeus Wallet**: scambi diretti dall'applicazione, gestione automatica di fatture e indirizzi, eliminazione degli errori di gestione.
-
-
+**Integrazione Zeus Wallet**: swap diretti dall'applicazione, gestione automatica di invoice e indirizzi, eliminando errori di gestione.
 
 ### Sicurezza e recupero
 
+Ogni swap genera un contratto unico con parametri immutabili: hash Lightning, timeout, indirizzo di rimborso. In caso di fallimento, recupero automatico tramite l'indirizzo fornito, indipendentemente da Zeus LSP.
 
-
-Ogni swap genera un Contract unico con parametri immutabili: Hash Lightning, timeout, rimborso Address. In caso di guasto, recupero automatico tramite il Address fornito, indipendentemente da Zeus LSP.
-
-
-
-**Zeus Swaps Rescue Key**: durante uno scambio On-Chain → Lightning, Zeus genera automaticamente una chiave di recupero universale che sostituisce i vecchi file di rimborso individuali. Questa chiave unica funziona su qualsiasi dispositivo e per tutti gli swap creati con essa. È fondamentale scaricare e salvare questa chiave in un luogo sicuro per poter recuperare i fondi in caso di fallimento dello swap.
-
-
+**Zeus Swaps Rescue Key**: durante uno swap on-chain → Lightning, Zeus genera automaticamente una chiave di recupero universale (Rescue Key) che sostituisce i vecchi file di rimborso individuali. Questa chiave funziona su qualsiasi dispositivo e per tutti gli swap creati con essa. Scaricala e conservala in un luogo sicuro per poter recuperare i fondi in caso di errore nello swap.
 
 ### Ottimizzazione della rete
 
-
-
-Zeus Swap regola automaticamente i tempi di scadenza e le tariffe Mining in base alle condizioni della rete. Gli utenti di Zeus beneficiano di opzioni avanzate: scelta del LSP, ritardi personalizzati, compatibilità con altri servizi (Boltz).
-
-
+Zeus Swap regola automaticamente i tempi di scadenza e le commissioni di mining in base alle condizioni della rete. Gli utenti Zeus possono scegliere LSP, scadenze personalizzate e compatibilità con altri servizi (Boltz).
 
 ## Installazione e utilizzo
 
-
-
 ### Metodi di accesso
 
+**Interfaccia web** (swaps.zeuslsp.com): soluzione universale compatibile con tutti i wallet, senza installazione, ideale per un uso occasionale.
 
+**App Zeus** (iOS/Android): esperienza integrata che combina wallet e swap, adatta agli utenti regolari.
 
-**Interface web** (swaps.zeuslsp.com): soluzione universale compatibile con tutti i portafogli, non richiede installazione, ideale per un uso occasionale.
-
-
-
-**Zeus app** (iOS/Android): esperienza integrata che combina Wallet e swap, adatta agli utenti abituali.
-
-
-
-Consultate il nostro tutorial su Zeus per saperne di più su questo Wallet completo:
-
-
+Consulta il nostro tutorial Zeus per conoscere meglio questo wallet:
 
 https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Configurazione web
 
-
-
-**On-Chain → Fulmine**: Il processo inizia configurando lo scambio sul web Zeus Swap del Interface. L'utente può utilizzare la freccia tra i campi On-Chain e Lightning per invertire la direzione dello scambio.
-
-
+**On-chain → Lightning**: inizia configurando lo swap sull'interfaccia web di Zeus Swap. Usa la freccia tra i campi on-chain e Lightning per invertire la direzione dello swap.
 
 ![Interface de création de swap](assets/fr/01.webp)
 
+*Interfaccia Zeus Swap: seleziona importo (Sats 50.000 → Sats 49.648 dopo le commissioni) con visualizzazione trasparente delle fee di rete (Sats 302) e del servizio Zeus (Sats 50).*
 
-
-*Interface Zeus Swap: selezione dell'importo (Sats 50.000 → Sats 49.648 dopo le spese) con visualizzazione trasparente delle spese di rete (Sats 302) e del servizio Zeus (Sats 50)*
-
-
-
-Durante il processo, Zeus offre la possibilità di scaricare la chiave di recupero universale:
-
-
+Durante il processo, Zeus ti propone di scaricare la Rescue Key:
 
 ![Téléchargement de la Zeus Swaps Rescue Key](assets/fr/02.webp)
 
+*Finestra di download della Zeus Swaps Rescue Key - Rescue Key che sostituisce i vecchi file di rimborso.*
 
-
-*Dialogo per il download della Zeus Swaps Rescue Key - una chiave universale che sostituisce i vecchi file di rimborso individuali*
-
-
-
-Se si dispone già di una chiave, Zeus consente di verificarla:
-
-
+Se possiedi già una chiave, Zeus permette di verificarla:
 
 ![Vérification de la clé existante](assets/fr/03.webp)
 
+*Interfaccia per controllare la validità della Zeus Swaps Rescue Key esistente.*
 
-
-*Interface per verificare la validità di una chiave di salvataggio Zeus Swaps esistente*
-
-
-
-Una volta configurato, Zeus genera il deposito Bitcoin Address e visualizza le istruzioni :
-
-
+Una volta configurato, Zeus genera l'indirizzo di ricezione Bitcoin e mostra le istruzioni:
 
 ![Adresse de dépôt et instructions](assets/fr/04.webp)
 
+*Pagina di completamento swap: QR code e indirizzo Bitcoin per inviare 50.000 Sats, con promemoria della scadenza di 24 ore.*
 
-
-*Pagina di completamento dello scambio: Codice QR e Bitcoin Address per l'invio di 50.000 Satss, con promemoria della data di scadenza di 24 ore*
-
-
-
-Lo scambio attende quindi la conferma del Bitcoin:
-
-
+Lo swap attende la conferma Bitcoin:
 
 ![Attente de confirmation](assets/fr/05.webp)
 
+*Stato "Transaction in Mempool" ("Transazione in Mempool") - in attesa della conferma Bitcoin per completare lo swap.*
 
-
-*Stato "Transazione in Mempool" - in attesa della conferma del Bitcoin per finalizzare lo scambio*
-
-
-
-Una volta confermato, lo scambio viene completato automaticamente:
-
-
+Una volta confermato, lo swap si completa automaticamente:
 
 ![Swap réussi](assets/fr/06.webp)
 
+*Conferma di successo: 49.648 Sats ricevuti su Lightning dopo la detrazione delle commissioni di rete e servizio.*
 
+### Uso dell'app Zeus
 
-*Conferma del successo: 49.648 Sats ricevuti su Lightning dopo aver dedotto le spese di rete e di servizio*
-
-
-
-### Utilizzo dell'applicazione Zeus
-
-
-
-**Lightning → On-Chain**: L'applicazione Zeus offre un'esperienza integrata per i reverse swap (da Lightning a Bitcoin).
-
-
+**Lightning → On-chain**: l'app Zeus offre un'esperienza integrata per il reverse swap (Lightning → Bitcoin).
 
 ![Navigation vers les swaps dans Zeus](assets/fr/07.webp)
 
-
-
-*Schermata principale di Zeus che mostra i saldi di Lightning (69.851 Sats) e On-Chain (38.018 Sats), accesso agli scambi tramite il menu laterale*
-
-
+*Schermata principale Zeus con bilanci Lightning (69.851 Sats) e on-chain (38.018 Sats), accesso agli swap dal menu laterale.*
 
 ![Configuration du swap reverse](assets/fr/08.webp)
 
-
-
-*Creazione reverse swap Interface: 50.000 Sats Lightning → 49.220 Sats On-Chain, con i costi di rete (530 Sats) e di servizio (250 Sats) chiaramente indicati. Gli utenti possono inserire manualmente un Bitcoin ricevendo un Address, oppure un generate automaticamente dal Wallet Zeus tramite il pulsante "generate On-Chain Address"*
-
-
+*Creazione reverse swap: 50.000 Sats Lightning → 49.220 Sats on-chain, con commissioni di rete (530 Sats) e servizio (250 Sats) chiaramente indicate. Inserisci manualmente un indirizzo Bitcoin o genera uno automaticamente dal Wallet Zeus con il pulsante "generate on-chain Address" ("genera indirizzo on-chain").*
 
 ![Finalisation du swap mobile](assets/fr/09.webp)
 
+*Schermate di completamento: pagamento invoice Lightning con "PAY THIS INVOICE" ("Paga questa invoice"), conferma pagamento Lightning in 9,96 secondi e bilancio con 49.162 Sats in attesa di conferma.*
 
+### Monitoraggio e sicurezza
 
-*Schermate di finalizzazione: Schermata di pagamento Lightning Invoice con "PAGA QUESTO Invoice", conferma del successo del pagamento Lightning in 9,96 secondi, ed estratto conto del saldo con i 49.162 Sats in attesa di conferma*
-
-
-
-### Sorveglianza e sicurezza
-
-
-
-Ogni swap ha un identificativo unico con tracciamento in tempo reale. Visualizzazione completa dello stato di avanzamento, avvisi automatici per le date di scadenza. Raccomandazioni di ricarica automatica in base alle condizioni della rete.
-
-
+Ogni swap ha un identificatore unico con tracciamento in tempo reale. Visualizzazione completa dello stato, avvisi automatici per scadenze, suggerimenti sulle fee secondo le condizioni della rete.
 
 ## Vantaggi e limiti
 
-
-
 ### Vantaggi
 
+- **Semplicità**: scambia con pochi clic invece di gestire manualmente i canali
+- **Non-custodial**: niente KYC (identificazione "Know Your Customer"), niente account, fondi sempre sotto il tuo controllo
+- **Trasparenza**: commissioni visualizzate prima della conferma (0,1%-0,5% + mining, da verificare le fee attuali)
+- **Integrazione mobile**: esperienza nativa in Zeus Wallet
 
+### Limiti
 
+- **Tempi di scadenza**: massimo 24-48h, fallimento se la transazione Bitcoin non è confermata in tempo
+- **Limiti di importo**: minimo 25.000 Sats, liquidità Zeus LSP variabile
+- **Tracce lasciate on-chain**: script HTLC potenzialmente identificabili dalla blockchain analysis
+- **Conferma necessaria**: minimo 10 minuti per la validazione dei blocchi su Bitcoin
 
-
-- Semplicità**: Scambio in pochi click rispetto alla manipolazione manuale dei canali
-- Non-custodiale**: nessun KYC, nessun conto, i fondi non vengono mai affidati a terzi
-- Trasparenza**: le commissioni vengono visualizzate esplicitamente prima della convalida (da 0,1% a 0,5% + minime a seconda dei test degli utenti - verificare le commissioni correnti ad ogni swap)
-- Integrazione mobile**: esperienza nativa in Zeus Wallet
-
-
-
-### Limitazioni
-
-
-
-
-
-- Tempi di scadenza**: 24-48h al massimo, fallimento se Bitcoin non viene confermato in tempo
-- Limiti d'importo**: minimo 25.000 Sats, liquidità Zeus LSP variabile a seconda delle condizioni
-- Tracce On-Chain**: Script HTLC potenzialmente identificabili dall'analisi Blockchain
-- Conferma richiesta**: minimo 10 minuti per la convalida di Bitcoin
-
-
-
-## Le migliori pratiche
-
-
+## Buone pratiche
 
 ### Tempi e costi
 
-
-
-
-
-- Osservare Mempool.space per i periodi di bassa congestione
-- Preferite i fine settimana e le ore non di punta per ridurre i costi di Mining
-- Calcolo della redditività: piccoli importi vs. apertura diretta del canale
-
-
+- Controlla Mempool.space per cercare i periodi di bassa congestione della rete
+- Fai swap durante i weekend e le ore non di punta per ridurre le fee di mining
+- Valuta i costi: importi piccoli vs apertura diretta di canali
 
 ### Sicurezza
 
-
-
-
-
-- Controllare attentamente gli indirizzi Bitcoin (si consiglia il copia-incolla)
-- Backup della chiave di recupero di Zeus Swaps**: scaricare e conservare la chiave di recupero in un luogo sicuro
-- Documento: ID Contract, rimborso Address, data di scadenza
-- Utilizzare le tariffe Mining appropriate per una conferma tempestiva
-
-
+- Controlla attentamente gli indirizzi Bitcoin (consigliato copia-incolla)
+- Salva la Zeus Swaps Rescue Key in un luogo sicuro
+- Salva le informazioni: ID del contratto, indirizzo di rimborso, data di scadenza
+- Usa fee di mining adeguate per avere una conferma tempestiva
 
 ### Strategia d'uso
 
-
-
-
-
-- Bilanciamento On-Chain/Lightning liquidity in base alle proprie esigenze
-- Zeus Swap per adeguamenti una tantum, canali diretti per esigenze permanenti
-
-
+- Bilancia liquidità On-chain/Lightning secondo le necessità
+- Usa Zeus Swap per aggiustamenti occasionali, canali diretti per necessità permanenti
 
 ## Confronto con altri servizi di swap
 
-
-
 ### Zeus Swap vs Boltz Exchange
 
+Zeus Swap utilizza la tecnologia backend di Boltz, ma con miglioramenti chiave:
 
+**Vantaggi di Zeus Swap**:
 
-Zeus Swap utilizza la tecnologia backend di Boltz, ma apporta alcuni miglioramenti fondamentali:
+- **Interfaccia unificata**: integrazione nativa in Zeus Wallet vs interfaccia web di Boltz
+- **WebSocket API**: aggiornamenti in tempo reale vs polling manuale
+- **Gestione automatica**: creazione automatica di invoice e indirizzi
+- **Supporto mobile**: smartphone vs ottimizzazione solo su desktop
+- **Documentazione Swagger**: REST API completa per gli sviluppatori
 
+**Boltz** resta vantaggioso per avere una completa indipendenza e per l'utilizzo con qualsiasi setup Bitcoin/Lightning.
 
+Zeus Swap trasforma la tecnologia comprovata di Boltz in un'esperienza utente mainstream, come succede con la differenza tra protocollo per developer e applicazioni user-friendly.
 
-**Benefici dello scambio di Zeus** :
+### Zeus Swap vs Phoenix/Breez (swap integrati)
 
+Phoenix e Breez integrano swap trasparenti che nascondono la complessità tecnica dello stesso. Phoenix usa un sistema automatico swap-in/swap-out dove l'utente "manda a un indirizzo Bitcoin" e l'app gestisce lo swap in background.
 
+Questo approccio ultra-semplificato è adatto ai principianti, ma limita comprensione e controllo. Zeus Swap adotta una filosofia educativa: l'utente capisce che sta scambiando tra due livelli distinti, sviluppando gradualmente la conoscenza dell'ecosistema Bitcoin a due livelli.
 
+## Confronto dettagliato di commissioni e limiti (2024)
 
-- Interface unificato**: integrazione nativa in Zeus Wallet vs Interface tecnica web Boltz
-- API WebSocket**: aggiornamenti in tempo reale rispetto al polling manuale
-- Gestione automatizzata**: fatturazione automatica e gestione del Address
-- Supporto mobile**: ottimizzazione solo per smartphone e desktop
-- Documentazione Swagger**: API REST completa per gli sviluppatori
+⚠️ **Attenzione**: le fee possono variare nel tempo secondo le condizioni di mercato e gli aggiornamenti del servizio. Controlla sempre le fee mostrate nell'interfaccia prima di confermare uno swap.
 
-
-
-**Boltz rimane vantaggioso** per la totale indipendenza e l'utilizzo con qualsiasi configurazione Bitcoin/Lightning.
-
-
-
-Zeus Swap trasforma la collaudata tecnologia Boltz in un'esperienza utente mainstream, paragonabile alla differenza tra un protocollo grezzo e un'applicazione di facile utilizzo.
-
-
-
-### Zeus Swap vs Phoenix/Breez (scambi integrati)
-
-
-
-Phoenix e Breez integrano funzionalità di swap trasparenti che nascondono la complessità tecnica all'utente finale. Phoenix utilizza un sistema automatico di swap-in/swap-out in cui l'utente non distingue esplicitamente tra i livelli Bitcoin: "invia a un Bitcoin Address" e l'applicazione gestisce lo scambio in background.
-
-
-
-Questo approccio ultra-semplificato è perfettamente adatto ai principianti, ma limita la comprensione e il controllo delle operazioni. Zeus Swap adotta una filosofia più educativa: gli utenti capiscono che stanno scambiando tra due livelli distinti, sviluppando gradualmente la loro comprensione dell'ecosistema Layer Bitcoin.
-
-
-
-## Confronto dettagliato delle tariffe e dei limiti (2024)
-
-
-
-⚠️ **Attenzione**: Le tariffe possono variare nel tempo a seconda delle condizioni di mercato e degli aggiornamenti del servizio. Controllare sempre le tariffe visualizzate nel Interface prima di convalidare uno scambio.
-
-
-
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
+| Servizio | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Importo minimo |
 |---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+| **Zeus Swap** | ~0,1% + fee mining | 0,5% + fee mining | 25.000 sats |
+| **Boltz** | 0,2% + fee mining | 0,5% + fee mining | 50.000 sats |
+| **Phoenix** | solo fee mining | 0,4% fissa | 10.000 sats |
+| **Breez** | 0,25% + fee rete | 0,5% + fee mining | 50.000 sats |
 
-Zeus Swap offre un equilibrio tra facilità d'uso e controllo tecnico: più accessibile di Boltz, più flessibile di Phoenix/Breez, con un approccio rigoroso e non custodiale.
-
-
+Zeus Swap offre equilibrio tra facilità d'uso e controllo tecnico: più accessibile di Boltz, più flessibile di Phoenix/Breez, con approccio rigorosamente non-custodial.
 
 ## Conclusione
 
+Zeus Swap rappresenta un'innovazione significativa nell'ecosistema Bitcoin, risolvendo elegantemente la sfida dell'interoperabilità tra rete principale e Lightning Network. Combinando la robustezza crittografica degli atomic swap con un'esperienza utente accessibile, democratizza la gestione a due livelli di Bitcoin senza compromettere la sovranità finanziaria.
 
+L'architettura non-custodial di Zeus Swap, ereditata dalla tecnologia comprovata di Boltz, garantisce che i fondi restino sotto il tuo esclusivo controllo durante tutto il processo. Trasparenza dei prezzi e assenza di KYC (pratiche "Know Your Customer") rafforzano questa proposta di valore unica.
 
-Zeus Swap rappresenta un'innovazione significativa nell'ecosistema Bitcoin, risolvendo in modo elegante la sfida dell'interoperabilità tra la rete principale e il Lightning Network. Combinando la solidità crittografica degli swap atomici con un'esperienza utente accessibile, questo servizio democratizza la gestione del Bitcoin dual-Layer senza compromettere i principi della sovranità finanziaria.
+Per l'utente moderno, Zeus Swap è uno strumento strategico per ottimizzare la distribuzione della liquidità: on-chain per risparmio a lungo termine, Lightning per spese quotidiane e micropagamenti. Questa flessibilità trasforma la gestione del Bitcoin da vincolo tecnico a vantaggio competitivo.
 
-
-
-L'architettura non custodiale di Zeus Swap, ereditata dalla collaudata tecnologia Boltz, garantisce che i vostri fondi rimangano sotto il vostro esclusivo controllo durante l'intero processo di swap. Questo approccio rispetta lo spirito del Bitcoin, offrendo al contempo la convenienza per l'utente necessaria per l'adozione mainstream. La trasparenza dei prezzi e l'assenza di processi KYC rafforzano questa proposta di valore unica.
-
-
-
-Per l'utente moderno di Bitcoin, Zeus Swap è uno strumento strategico per ottimizzare la distribuzione della liquidità in base alle esigenze: On-Chain deposito sicuro per i risparmi a lungo termine, disponibilità lightning per le spese quotidiane e le microtransazioni. Questa flessibilità trasforma la gestione del Bitcoin da vincolo tecnico a vantaggio competitivo.
-
-
-
-L'evoluzione futura di Zeus Swap, supportata dal team esperto di Zeus LSP e dalla comunità open-source di Boltz, promette continui miglioramenti in termini di costi, tempi di elaborazione ed esperienza utente. Questo servizio fa parte della più ampia tendenza alla maturazione dell'infrastruttura Bitcoin, in cui la sofisticazione tecnica diventa trasparente per l'utente finale.
-
-
+L'evoluzione futura di Zeus Swap, supportata dal team esperto di Zeus LSP e dalla comunità open-source Boltz, promette miglioramenti in costi, tempi di elaborazione ed esperienza utente. Il servizio si inserisce nella tendenza alla maturazione dell'infrastruttura Bitcoin, dove la sofisticazione tecnica diventa trasparente per l'utente finale.
 
 ## Risorse
 
-
-
 ### Documentazione ufficiale
 
-
-
-
 - [Zeus Swap - Portale web](https://swaps.zeuslsp.com)
-- [Zeus Wallet - Applicazione mobile](https://zeusln.app)
+- [Zeus Wallet - App mobile](https://zeusln.app)
 - [Blog Zeus - Annunci e tutorial](https://blog.zeusln.com)
 - [Documentazione tecnica Zeus](https://docs.zeusln.app)
 
-
-
 ### Comunità e supporto
 
-
-
-
 - [Twitter Zeus (@zeusln)](https://twitter.com/zeusln)
-- [Telegramma Zeus](https://t.me/ZeusLN)
+- [Telegram Zeus](https://t.me/ZeusLN)
 - [GitHub Zeus](https://github.com/ZeusLN)

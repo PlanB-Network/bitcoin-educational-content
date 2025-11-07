@@ -6,4 +6,4 @@ wrong_answers:
   - Um einen Hash für die UTXOs zu generieren
 explanation: |
   Die mnemonische Phrase ermöglicht die Ableitung aller privaten und öffentlichen Schlüssel in einem Wallet, was die Sicherung und Wiederherstellung erleichtert.
-reviewed: false
+reviewed: true

@@ -15,7 +15,6 @@ Bitcoin의 사용 편의성에 회의적인 사람들에게는 Bitcoin를 시작
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

@@ -1,5 +1,5 @@
 question: Koji je glavni alat koji danas koriste rudari u Bitcoin mreži?
-answer: ASICs
+answer: ASIC-ovi
 wrong_answers:
   - CPU-ovi
   - GPU-ovi

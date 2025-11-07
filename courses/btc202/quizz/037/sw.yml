@@ -1,4 +1,4 @@
-question: Ni aina gani ya mashine inayowasilishwa kama maelewano bora kwa nodi ya nyumbani ya Bitcoin?
+question: Ni aina gani ya mashine inayowasilishwa kama maelewano bora kwa node ya nyumbani ya Bitcoin?
 answer: Kompyuta ndogo ya aina ya NUC
 wrong_answers:
   - Kompyuta ya Laptop

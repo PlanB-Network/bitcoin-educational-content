@@ -5,7 +5,7 @@ wrong_answers:
   - Để thay thế giao thức Bitcoin.
   - Để tạo ra một loại tiền mã hóa mới.
 explanation: >-
-  Lightning Network là một giải pháp tầng thứ hai cho giao thức Bitcoin
+  Lightning Network là một giải pháp hạ tầng thứ hai cho giao thức Bitcoin
   nhằm mục đích tạo điều kiện cho các giao dịch nhỏ, đó là các giao dịch có giá trị rất thấp
   mà nếu không sẽ trở nên không thực tế do phí cao và thời gian xác nhận lâu
   trên blockchain của Bitcoin.

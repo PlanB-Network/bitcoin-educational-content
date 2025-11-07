@@ -557,9 +557,7 @@ Setelah menjelajahi berbagai solusi perangkat lunak, sekarang saatnya untuk memi
 
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
 
-Sekarang setelah kita menjelajahi semua kemungkinan perangkat lunak, mari kita fokus pada perangkat keras yang diperlukan untuk node Anda. Saya akan memberi Anda beberapa saran konkret dalam memilih komponen Anda, bersama dengan konfigurasi yang disesuaikan dengan anggaran yang berbeda. Tentu saja, ini adalah pendapat dan masukan pribadi saya: tentu saja ada alternatif lain yang relevan selain yang disajikan di sini. Lebih jauh lagi, saya tidak akan meninjau kembali mesin pra-rakitan yang ditawarkan oleh proyek node-in-a-box, yang telah kita bahas di bab sebelumnya. Di sini, kami akan fokus secara eksklusif pada solusi DIY.
-
-
+Sekarang setelah kita menjelajahi semua kemungkinan perangkat lunak, mari kita fokus pada perangkat keras (hardware) yang dibutuhkan untuk node Anda. Saya akan memberikan beberapa saran konkret tentang pemilihan komponen, beserta konfigurasi yang disesuaikan untuk berbagai anggaran. Tentu saja, ini adalah pendapat dan pengalaman pribadi saya: tentu ada alternatif relevan lainnya selain yang disajikan di sini. Selanjutnya, saya tidak akan membahas kembali mesin rakitan yang ditawarkan oleh proyek node-in-a-box, yang telah kita bahas di bab sebelumnya. Di sini, kita akan fokus secara eksklusif pada solusi DIY (Do It Yourself).
 
 ### Apakah Anda benar-benar membutuhkan mesin khusus?
 

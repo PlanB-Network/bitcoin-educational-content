@@ -1,6 +1,6 @@
 ---
 name: Simpan frasa mnemonik Anda
-description: Temukan praktik terbaik untuk mengamankan dompet Bitcoin Anda
+description: Temukan praktik terbaik untuk mengamankan dompet Bitcoin kamu
 ---
 ![cover](assets/cover.webp)
 

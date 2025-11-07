@@ -64,7 +64,7 @@ SENDGRID_KEY=dummySendgridKey
 
 Assurez-vous d'avoir installé une version appropriée de nodejs. En date du 2024-12, la version 22.12.0 (LTS) a été testée et fonctionne correctement.
 
-⚠️ La version de nodejs du dépôt Ubuntu 22.04 est 12.22.9 : trop ancienne pour permettre l'installation de pnpm.
+⚠️ ***La version de nodejs du dépôt Ubuntu 22.04 est 12.22.9 : trop ancienne pour permettre l'installation de pnpm.***
 
 Pour installer nodejs, vous trouverez des instructions [ici](https://nodejs.org/fr/download/package-manager) ; par exemple, vous pouvez choisir d'utiliser la méthode d'installation `nvm`.
 

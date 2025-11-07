@@ -1,12 +1,12 @@
 ---
 name: Guide pour l'exécution locale de la plateforme Plan ₿ Academy
-description: Comment faire fonctionner Plan ₿ Academy dans un environnement local pour tester ma contribution au contenu ou la relecture/révision du contenu éducatif sur le Plan ₿ Academy ?
+description: Comment faire fonctionner Plan ₿ Academy dans un environnement local pour tester ma contribution au contenu ou la relecture/révision du contenu éducatif sur Plan ₿ Academy ?
 ---
 ![github](assets/cover.webp)
 
 ## En résumé
 
-Ce tutoriel fournit des instructions étape par étape pour configurer le système de gestion de la plateforme à partir de Plan ₿ Academy sur votre machine locale en utilisant Docker, des clés factices et des configurations de dépôt personnalisées.
+Ce tutoriel fournit des instructions étape par étape pour configurer, sur votre machine locale, le système de gestion de la plateforme, à partir de Plan ₿ Academy, en utilisant Docker, des clés factices et des configurations de dépôt personnalisées.
 
 Si vous n'avez pas compris la partie ci-dessus, ne vous inquiétez pas, ce tutoriel est fait pour vous !
 

@@ -81,7 +81,7 @@ Dans votre dossier `../Bitcoin-learning-management-system/`, exécutez la comman
 ```bash
 pnpm install
 ```
-__CONSEIL:__ N'oubliez pas de mettre à jour régulièrement les dépendances et pnpm lui-même.
+__CONSEIL :__ N'oubliez pas de mettre à jour régulièrement les dépendances et pnpm lui-même.
 
 **5. Faire fonctionner les conteneurs**
 

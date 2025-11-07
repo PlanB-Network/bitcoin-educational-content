@@ -39,7 +39,7 @@ GitHub est donc bien plus qu'un simple hébergeur de code. C'est une plateforme 
 
 ## Quelques termes techniques
 
-Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont les noms peuvent sembler complexes. Dans cette dernière partie, je vous donne des définitions simples à comprendre des termes techniques que vous pourriez croiser lors de votre utilisation de Git et GitHub :
+Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont les noms peuvent sembler complexes. Dans cette dernière partie, je vous donne des définitions simples pour comprendre les termes techniques que vous pourriez croiser lors de votre utilisation de Git et GitHub :
 
 - **Fetch origin :** Commande qui permet de récupérer les informations et les modifications récentes d'un dépôt distant sans les fusionner avec votre travail local. Elle met à jour votre dépôt local avec les nouvelles branches et les nouveaux commits présents sur le dépôt distant.
 
@@ -49,7 +49,7 @@ Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont 
 
 - **Push origin :** Commande qui sert à envoyer vos modifications locales à un dépôt distant.
 
-- **Pull Request :** Demande envoyée par un contributeur pour indiquer qu'il a poussé des modifications sur une branche dans un dépôt distant et qu'il souhaite que ces modifications soient examinées et potentiellement intégrées (merge) dans la branche principale du dépôt.
+- **Pull Request :** Demande envoyée par un contributeur pour indiquer qu'il a poussé des modifications sur une branche dans un dépôt distant, et qu'il souhaite que ces modifications soient examinées et potentiellement intégrées (merge) dans la branche principale du dépôt.
 
 - **Commit :** Sauvegarde de vos modifications. Un commit est comme une photo instantanée de votre travail à un moment donné, qui permet de garder un historique des changements. Chaque commit inclut un message descriptif expliquant ce qui a été modifié.
 
@@ -109,6 +109,6 @@ Si vous désirez apporter votre pierre à l'édifice Plan ₿ Academy, vous alle
 
 ![github](assets/9.webp)
 
-- Je vous conseille également d'aller faire un tour dans le menu `Password and authentication`, afin de mettre en place au minimum l'authentification à deux facteurs :
+- Je vous conseille également d'aller faire un tour dans le menu `Password and authentication`, afin de mettre en place au minimum l'authentification à deux facteurs (2FA) :
 
 ![github](assets/10.webp)

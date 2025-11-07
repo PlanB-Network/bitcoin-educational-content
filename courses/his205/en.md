@@ -309,7 +309,7 @@ Writing was born in this city around 3000 BC, motivated primarily by economic ne
 The system developed was called "cuneiform", from the Latin "cuneus" meaning "wedge", in reference to the use of a wedge-shaped stylus to print signs on moist clay tablets.
 
 
-Here, I have a copy of a tablet with cuneiform writing on it, so they had a kind of stylus made from reeds, I think, and they traced in wet clay the shapes, the cuneiform writing, to write on these tablets.
+Here, I have a copy of a tablet with cuneiform writing on it. So, they had a kind of stylus made from reeds, I think, and they traced in wet clay the shapes, the cuneiform writing, to write on these tablets.
 
 
 ![](./assets/fr/1-1-3_1_Tablette_small.webp)
@@ -318,13 +318,13 @@ Here, I have a copy of a tablet with cuneiform writing on it, so they had a kind
 I also have what I believe to be a genuine Sumerian tablet with a small cuneiform script in the center. On this tablet, there are signatures made by rolling a cylinder, which I'll show you in a moment.
 
 
-These marks with little figures were the signature form of the time when signing a contract or a letter, simply because people obviously didn't know how to write, only scribes mastered this technique.
+These marks with little figures were the signature form of the time when signing a contract or a letter, simply because people obviously didn't know how to write; only scribes mastered this technique.
 
 
 ![](./assets/fr/1-1-3_2_Tablette_big.webp)
 
 
-And here I have this famous cylinder, which is in fact a stone in which certain shapes have been engraved, and we roll this signature cylinder, called a cylinder seal in English, to sign letters and signify that it's us, the author, or we who have written, or that this letter has been written in our name.
+And here I have this famous cylinder, which is in fact a stone in which certain shapes have been engraved. We roll this signature cylinder, called a cylinder seal in English, to sign letters and signify that it's us, the author, or we who have written, or that this letter has been written in our name.
 
 
 Scribes of the time therefore used this famous wedge-shaped stylus to print signs on wet tablets.
@@ -485,7 +485,7 @@ This seminal period also reveals the power issues inherent in any monetary innov
 
 :::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
-In this section entitled "The great civilizations of the Bronze Age", we'll start with an extract from the book A History of Money: From Ancient Times to Present Day by Glyn Davies: *A History of Money: From Ancient Times to the Present Day by Glyn Davies*, which I think is an excellent introduction to this section on the great civilizations of antiquity.
+In this section entitled "The great civilizations of the Bronze Age", we'll start with an extract from the book A History of Money: From Ancient Times to Present Day by Glyn Davies, which I think is an excellent introduction to this section on the great civilizations of antiquity.
 
 
 > Toynbee identifies some twenty-one different "civilizations", but since fifteen of these derived directly or indirectly from earlier examples, he reduces the number of independently developed civilizations to six: Sumerian, Egyptian, Minoan, Chinese, Mayan and Andean. Of these, only the Incas of the Andes managed to achieve a high degree of civilization without using money, although paradoxically they had an abundance of the materials generally considered best for use as money - gold and silver.

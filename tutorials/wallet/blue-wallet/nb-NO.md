@@ -15,7 +15,6 @@ I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært ef
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

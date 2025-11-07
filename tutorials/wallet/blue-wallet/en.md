@@ -12,7 +12,6 @@ Getting started with Bitcoin seems to be a big challenge for people who are skep
 In this tutorial we'll be taking a look at Blue Wallet, a simple but highly effective Bitcoin wallet that allows you to manage your bitcoins personally and also to create management cooperatives based on [Multisig](https://planb.academy/resources/glossary/multisig) (don't worry, we'll come back to it).
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 ## Getting started with Blue Wallet

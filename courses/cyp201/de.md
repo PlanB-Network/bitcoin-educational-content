@@ -641,9 +641,11 @@ Sobald die Vorverarbeitung abgeschlossen ist, wird der HMAC-SHA512-Algorithmus d
 
 
 $$
+$$
 
-\text {HMAC-SHA512}\_(K,m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+\text {HMAC-SHA512}_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
 
+$$
 $$
 
 Diese Gleichung wird in die folgenden Schritte unterteilt:

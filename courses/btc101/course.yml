@@ -60,10 +60,11 @@ proofreading:
       - Ncfab
     reward: 8.28
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
-    reward: 16.55
+      - OscarG673
+    reward: 8.28
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
@@ -129,10 +130,11 @@ proofreading:
       - MilankovicProtocol
     reward: 13.76
   - language: nb-NO
-    last_contribution_date:
+    last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
-    reward: 22.03
+      - Rtbit
+    reward: 11.02
   - language: pl
     last_contribution_date: 2025-05-14
     urgency: 1

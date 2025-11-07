@@ -25,17 +25,17 @@ Una computadora, o más ampliamente una tarjeta electrónica, no consume energí
 Ciertas empresas han tenido la idea de compartir las necesidades de potencia de cálculo y las necesidades de calefacción a través de radiadores/servidores. La idea es distribuir los servidores de una empresa en pequeñas unidades que podrían colocarse en viviendas u oficinas. Sin embargo, esta idea enfrenta varios problemas. Las necesidades de los servidores no están relacionadas con las necesidades de calefacción y las empresas no pueden utilizar las capacidades de cálculo de sus servidores de manera flexible. También existen limitaciones en el ancho de banda que los particulares pueden tener. Todas estas restricciones no permiten que la empresa rentabilice estas costosas instalaciones ni que proporcione un servicio de servidor en línea estable sin tener centros de datos capaces de asumir el relevo cuando no se necesita calefacción.
 
 > "El calor de tu computadora no se desperdicia si necesitas calentar tu hogar. Si utilizas calefacción eléctrica donde vives, entonces el calor de tu computadora no es un desperdicio. Es el mismo costo si generas este calor con tu computadora. Si tienes otro sistema de calefacción más barato que el eléctrico, entonces el desperdicio está solo en la diferencia de costos. Si es verano y utilizas el aire acondicionado, entonces es el doble.
-> La creación de bitcoins debería tener lugar donde sea más barato. Tal vez sea donde el clima es frío y donde la calefacción es eléctrica, donde minar se volvería gratuito".
+> La creación de Bitcoin debería tener lugar donde sea más barato. Tal vez sea donde el clima es frío y donde la calefacción es eléctrica, donde minar se volvería gratuito".
 > Satoshi Nakamoto - 8 de agosto de 2010
 
-El Bitcoin y su prueba de trabajo se destacan porque ajustan automáticamente la dificultad de la minería en función de la cantidad de cálculos realizados por toda la red, esta cantidad se llama hashrate y se expresa en hash/segundo. Hoy en día se estima en 280 Exahash/segundo, es decir, 280 billones de billones de hash/segundo. Este hashrate representa trabajo y, por lo tanto, una cantidad de energía gastada. Cuanto mayor sea el hashrate, mayor será la dificultad y viceversa. De esta manera, se puede activar o desactivar un minero de Bitcoin en cualquier momento sin afectar a la red, a diferencia de los radiadores/servidores que requerirían mantenerse estables para ofrecer su servicio. El minero es recompensado por el trabajo realizado en relación con el trabajo de los demás, por pequeña que sea esta participación.
+Bitcoin y su prueba de trabajo se destacan porque ajustan automáticamente la dificultad de la minería en función de la cantidad de cálculos realizados por toda la red, esta cantidad se llama hashrate y se expresa en hash/segundo. Hoy en día se estima en 280 Exahash/segundo, es decir, 280 billones de billones de hash/segundo. Este hashrate representa trabajo y, por lo tanto, una cantidad de energía gastada. Cuanto mayor sea el hashrate, mayor será la dificultad y viceversa. De esta manera, se puede activar o desactivar un minero de Bitcoin en cualquier momento sin afectar a la red, a diferencia de los radiadores/servidores que requerirían mantenerse estables para ofrecer su servicio. El minero es recompensado por el trabajo realizado en relación con el trabajo de los demás, por pequeña que sea esta participación.
 
-En resumen, un radiador eléctrico y un minero de Bitcoin producen ambos 1 kW de calor por cada 1 kW de electricidad gastada. Sin embargo, el minero también recibe bitcoins como recompensa. Independientemente del precio de la electricidad, del precio del bitcoin o de la competencia en la actividad minera en la red de Bitcoin, es económicamente más ventajoso calentarse con un minero que con un radiador eléctrico.
+En resumen, un radiador eléctrico y un minero de Bitcoin producen ambos 1 kW de calor por cada 1 kW de electricidad gastada. Sin embargo, el minero también recibe Bitcoin como recompensa. Independientemente del precio de la electricidad, del precio de Bitcoin o de la competencia en la actividad minera en la red de Bitcoin, es económicamente más ventajoso calentarse con un minero que con un radiador eléctrico.
 
 
-### La plus-value pour Bitcoin
+### La plusvalía de Bitcoin
 
-No entraremos en detalles sobre el funcionamiento de la minería aquí (recursos disponibles en la academia si es necesario). Lo importante de entender es cómo la minería contribuye a la descentralización de Bitcoin. Varias tecnologías ya existentes han sido ingeniosamente combinadas para dar vida al consenso de Nakamoto. Este consenso permite recompensar económicamente a los actores honestos por su participación en el funcionamiento de la red de Bitcoin, al mismo tiempo que desalienta a los actores deshonestos. Este es uno de los puntos clave que permite que la red exista de manera sostenible.
+No entraremos en detalles sobre el funcionamiento de la minería (hay recursos disponibles en la academia si lo necesitas). Lo importante de entender es cómo la minería contribuye a la descentralización de Bitcoin. Varias tecnologías ya existentes han sido ingeniosamente combinadas para dar vida al consenso de Nakamoto. Este consenso permite recompensar económicamente a los actores honestos por su participación en el funcionamiento de la red de Bitcoin, al mismo tiempo que desalienta a los actores deshonestos. Este es uno de los puntos clave que permite que la red exista de manera sostenible.
 
 Los actores honestos, aquellos que realizan minería de acuerdo con las reglas, compiten entre sí para obtener la mayor parte posible de la recompensa por la producción de nuevos bloques. Este incentivo económico naturalmente conduce a una forma de centralización, ya que las empresas eligen especializarse en esta actividad lucrativa al reducir sus costos mediante economías de escala. Estos actores industriales tienen una posición ventajosa para la compra, mantenimiento de máquinas y también para la negociación de tarifas de electricidad al por mayor.
 
@@ -51,7 +51,7 @@ A su salida de fábrica, un minero no es adecuado para ser utilizado como radiad
 
 **Attakaï es una iniciativa educativa que te enseña a realizar una adaptación del Antminer S9 de la manera más económica posible.**
 
-Es una excelente oportunidad para aprender practicando. Además de reducir tu factura de electricidad, se te recompensa por tu participación con sats KYC gratuitos.
+Es una excelente oportunidad para aprender practicando. Además de reducir tu factura de electricidad, se te recompensa por tu participación con sats sin KYC.
 
 ## Capítulo 1: Guía de compra para un ASIC de segunda mano
 
@@ -59,9 +59,9 @@ En esta sección veremos las buenas prácticas para comprar un Bitmain Antminer 
 
 El Antminer S9 es un dispositivo ofrecido por Bitmain desde mayo de 2016. Consume 1323W de electricidad y produce 13,5 TH/s. Aunque se considera antiguo, sigue siendo una excelente opción para comenzar a minar. Dado que se produjo en gran cantidad, es fácil encontrar piezas de repuesto en abundancia en muchas regiones del mundo. Por lo general, se puede adquirir de persona a persona en sitios como Ebay o LeBonCoin, ya que los revendedores dirigidos a profesionales ya no lo ofrecen debido a su menor competitividad en comparación con máquinas más recientes. Es menos eficiente que ASIC como el Antminer S19, que se ofrece desde marzo de 2020, pero esto lo convierte en un equipo de segunda mano asequible y más adecuado para las modificaciones que vamos a realizar.
 
-El Antminer S9 existe en varias variantes (i, j) que realizan modificaciones menores en el hardware de primera generación. No creemos que este elemento deba influir en tu decisión de compra y esta guía funcionará para todas estas variantes.
+El Antminer S9 existe en varias variantes (i, j) que presentan modificaciones menores en el hardware de primera generación. No creemos que este elemento deba influir en tu decisión de compra y esta guía funcionará para todas estas variantes.
 
-El precio de los ASIC varía según muchos factores, como el precio del bitcoin, la dificultad de la red, la eficiencia de la máquina y el costo de la electricidad. Por lo tanto, es difícil dar una estimación precisa para la compra de una máquina de segunda mano. En febrero de 2023, el precio esperado en Francia generalmente oscila entre 100€ y 200€, pero estos precios pueden cambiar rápidamente.
+El precio de los ASIC varía según muchos factores, como el precio del Bitcoin, la dificultad de la red, la eficiencia de la máquina y el costo de la electricidad. Por lo tanto, es difícil dar una estimación precisa para la compra de una máquina de segunda mano. En febrero de 2023, el precio esperado en Francia generalmente oscila entre 100€ y 200€, pero estos precios pueden cambiar rápidamente.
 
 ![image](assets/fr/001.webp)
 
@@ -128,25 +128,26 @@ El ventilador de la fuente de alimentación también es bastante ruidoso y debe 
 
 ### 2. Agregar un puente WIFI/Ethernet
 
-En lugar de utilizar un cable Ethernet, puedes conectar tu Antminer a través de WIFI agregando un puente WIFI/Ethernet. Hemos seleccionado el vonets vap11g-300 porque permite recuperar fácilmente la señal WIFI de tu caja de Internet y transmitirla a tu Antminer a través de Ethernet sin crear una subred. Si tienes habilidades eléctricas, puedes alimentarlo directamente con la fuente de alimentación del Antminer sin necesidad de agregar un cargador USB, para ello necesitarás un conector hembra de 5,5mmx2,1mm.
+En lugar de utilizar un cable Ethernet, puedes conectar tu Antminer a través de WIFI agregando un puente WIFI/Ethernet. Hemos seleccionado el vonets vap11g-300 porque permite recuperar fácilmente la señal WIFI de tu modem de Internet y transmitirla a tu Antminer a través de Ethernet sin crear una subred. Si tienes habilidades eléctricas, puedes alimentarlo directamente con la fuente de alimentación del Antminer sin necesidad de agregar un cargador USB, para ello necesitarás un conector hembra de 5,5mmx2,1mm.
 
 ![image](assets/fr/015.webp)
 ![image](assets/fr/016.webp)
 
 ### 3. Opcional: agregar un enchufe conectado
 
-Si desea encender/apagar su Antminer desde su teléfono inteligente y monitorear su consumo de energía, puede agregar un enchufe inteligente. Hemos probado el enchufe ANTELA en su versión de 16A compatible con la aplicación smartlife. Este enchufe inteligente permite consultar el consumo diario y mensual y se conecta directamente a su caja de Internet a través de WIFI.
+Si deseas encender/apagar tu Antminer desde tu teléfono inteligente y monitorear su consumo de energía, puedes agregar un enchufe inteligente. Hemos probado el enchufe ANTELA en su versión de 16A compatible con la aplicación smartlife. Este enchufe inteligente permite consultar el consumo diario y mensual y se conecta directamente a tu modem de Internet a través de WIFI.
 
 ![image](assets/fr/017.webp)
 
-> Lista de materiales y enlaces
->
+> Lista de materiales y enlaces:
+
 > - 2X adaptador de pieza 3D de 140 mm a 120 mm
 > - 2X NF-A14 iPPC-2000 PWM [enlace](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
 > - 2X rejillas de ventiladores de 140 mm [enlace](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 > - Noctua NF-A6x25 PWM [enlace](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ)
 > - Cable eléctrico de 2,5 mm2 [enlace](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
-> - Vonets vap11g-300 https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1> - Optionnel prise connectée ANTELA https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1
+> - Vonets vap11g-300 [enlace](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+> - Enchufe inteligente ANTELA (opcional) [enlace](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 ## Capítulo 3 - TUTORIAL: ¿Cómo convertir un minero en una calefacción?
 
@@ -165,7 +166,7 @@ De fábrica, un minero no es realmente utilizable como radiador en una vivienda,
 - 1 ventilador Noctua NF-A6x25 PWM
 - Cable eléctrico de 2,5mm2
 - Vonets VAP11G-300
-- Opcional: enchufe conectado ANTELA
+- Opcional: enchufe inteligente ANTELA
 
 ### Reemplazo de los ventiladores
 
@@ -182,24 +183,24 @@ Primero, retira los 6 tornillos en el lateral de la carcasa que la mantienen cer
 ![imagen](assets/fr/041.webp)
 ![imagen](assets/fr/042.webp)'
 
-A continuación, es hora de retirar el ventilador original teniendo cuidado de no dañar los otros componentes. Para hacer esto, retire los tornillos que lo mantienen en su lugar y despegue suavemente el pegamento blanco que rodea el conector. Es importante proceder con delicadeza para evitar dañar los cables o los conectores.
+A continuación, es hora de retirar el ventilador original teniendo cuidado de no dañar los otros componentes. Para hacer esto, retira los tornillos que lo mantienen en su lugar y despega suavemente el pegamento blanco que rodea el conector. Es importante proceder con delicadeza para evitar dañar los cables o los conectores.
 
 ![image](assets/fr/043.webp)
 
-Una vez retirado el ventilador original, notará que los conectores del nuevo ventilador Noctua no coinciden con los del ventilador original. De hecho, el nuevo ventilador tiene 3 cables, incluido un cable amarillo que permite controlar la velocidad. Sin embargo, este cable no se utilizará en este caso específico. Para conectar el nuevo ventilador, se recomienda utilizar un adaptador especial. Sin embargo, es importante tener en cuenta que este adaptador a veces puede ser difícil de encontrar.
+Una vez retirado el ventilador original, notarás que los conectores del nuevo ventilador Noctua no coinciden con los del ventilador original. De hecho, el nuevo ventilador tiene 3 cables, incluido un cable amarillo que permite controlar la velocidad. Sin embargo, este cable no se utilizará en este caso específico. Para conectar el nuevo ventilador, se recomienda utilizar un adaptador especial. Sin embargo, es importante tener en cuenta que este adaptador a veces puede ser difícil de encontrar.
 
 ![image](assets/fr/044.webp)
 
-Si no tiene este adaptador, aún puede conectar el nuevo ventilador utilizando un empalme de cables eléctricos. Para ello, deberá cortar los cables del ventilador antiguo y del nuevo ventilador.
+Si no tienes este adaptador, aún puedes conectar el nuevo ventilador utilizando un empalme de cables eléctricos. Para ello, deberás cortar los cables del ventilador antiguo y del nuevo ventilador.
 
 ![image](assets/fr/045.webp)
 ![image](assets/fr/046.webp)
 
-En el nuevo ventilador, use un cortador y corte cuidadosamente los contornos de la cubierta principal a 1 cm sin cortar las cubiertas de los cables debajo.
+En el nuevo ventilador, usa un cortador y corta cuidadosamente los contornos de la cubierta principal a 1 cm sin cortar las cubiertas de los cables debajo.
 
 ![image](assets/fr/047.webp)
 
-Luego, tirando hacia abajo de la cubierta principal, corte las cubiertas de los cables rojo y negro de la misma manera que antes. Y corte el cable amarillo al ras.
+Luego, tirando hacia abajo de la cubierta principal, corta las cubiertas de los cables rojo y negro de la misma manera que antes. Y corta el cable amarillo al ras.
 
 ![image](assets/fr/048.webp)
 
@@ -208,16 +209,16 @@ En el ventilador antiguo, es más delicado cortar la cubierta principal sin dañ
 ![image](assets/fr/049.webp)
 ![image](assets/fr/050.webp)
 
-Una vez que los cables rojo y negro estén libres, corte las cubiertas siempre con cuidado para no dañar los cables eléctricos.
+Una vez que los cables rojo y negro estén libres, corta las cubiertas siempre con cuidado para no dañar los cables eléctricos.
 
 ![image](assets/fr/051.webp)
 
-Luego, conecte los cables con un empalme, el cable negro con el negro y el cable rojo con el rojo. También puede agregar cinta aislante.
+Luego, conecta los cables con un empalme, el cable negro con el negro y el cable rojo con el rojo. También puedes agregar cinta aislante.
 
 ![image](assets/fr/052.webp)
 ![image](assets/fr/053.webp)
 
-Una vez realizada la conexión, es hora de colocar el nuevo ventilador Noctua con la rejilla y los tornillos antiguos, los nuevos tornillos que se encuentran en la caja se reutilizarán más tarde. Asegúrese de colocarlo con la orientación correcta. Notará una flecha en uno de los lados del ventilador, que indica la dirección del flujo de aire. Es importante colocar el ventilador de manera que esta flecha apunte hacia el interior del estuche. Luego, vuelva a conectar el ventilador.
+Una vez realizada la conexión, es hora de colocar el nuevo ventilador Noctua con la rejilla y los tornillos antiguos, los nuevos tornillos que se encuentran en la caja se reutilizarán más tarde. Asegúrate de colocarlo con la orientación correcta. Notarás una flecha en uno de los lados del ventilador, que indica la dirección del flujo de aire. Es importante colocar el ventilador de manera que esta flecha apunte hacia el interior del estuche. Luego, vuelve a conectar el ventilador.
 
 ![image](assets/fr/054.webp)
 ![image](assets/fr/055.webp)
@@ -226,7 +227,7 @@ Una vez realizada la conexión, es hora de colocar el nuevo ventilador Noctua co
 
 ![image](assets/fr/056.webp)
 
-Una vez realizadas las conexiones, asegúrate de colocar correctamente la cubierta de plástico sobre la carcasa y no dentro de ella.
+Una vez realizadas las conexiones, asegúrate de colocar correctamente la cubierta de plástico por fuera de la carcasa y no dentro de ella.
 
 ![image](assets/fr/057.webp)
 
@@ -258,7 +259,7 @@ Finalmente, vuelve a colocar la cubierta de la carcasa en su lugar y vuelve a at
 
 ![image](assets/fr/065.webp)'
 '![image](assets/fr/066.webp)
-Mientras esperas poder ofrecer una carcasa más atractiva para tu nueva calefacción, puedes sujetar la caja y la fuente de alimentación juntas con abrazaderas de electricista.
+Mientras esperas a darle una carcasa más atractiva para tu nueva calefacción, puedes sujetar la caja y la fuente de alimentación juntas con abrazaderas de electricista.
 
 ![image](assets/fr/067.webp)
 
@@ -303,7 +304,7 @@ El sistema operativo principal es relativamente básico. Con las 4 pestañas: Sy
 
 ![image](assets/fr/020.webp)
 
-En la pestaña Miner Status, podrás observar diferentes información sobre el funcionamiento del ASIC en tiempo real. La tasa de hash expresada en GH/s, información más detallada sobre el grupo de minería, así como detalles sobre el estado de cada placa hash y la velocidad de los ventiladores en revoluciones por minuto.
+En la pestaña Miner Status, podrás observar diferente información sobre el funcionamiento del ASIC en tiempo real. La tasa de hash expresada en GH/s, información más detallada sobre el grupo de minería, así como detalles sobre el estado de cada placa hash y la velocidad de los ventiladores en revoluciones por minuto.
 
 ![image](assets/fr/021.webp)
 
@@ -320,59 +321,59 @@ El software Braiins OS se puede instalar fácilmente en todas las máquinas menc
 
 ## Instalación de Braiins OS+
 
-Existen varias formas de instalar Braiins OS+ en un ASIC. Puede consultar esta guía, así como la documentación oficial de Braiins y los tutoriales en video.
+Existen varias formas de instalar Braiins OS+ en un ASIC. Puedes consultar esta guía, así como la documentación oficial de Braiins y los tutoriales en video.
 
 Instalación de Braiins OS+ directamente en la memoria del Antminer
 
-Descubra cómo instalar fácilmente Braiins OS+ directamente en la memoria de su Antminer con BOS toolbox, reemplazando así el sistema operativo original, a través de los siguientes pasos detallados. Si desea conservar el sistema operativo original en paralelo, puede instalar Braiins OS+ en una tarjeta SD.
+Descubre cómo instalar fácilmente Braiins OS+ directamente en la memoria de tu Antminer con BOS toolbox, reemplazando así el sistema operativo original, a través de los siguientes pasos detallados. Si deseas conservar el sistema operativo original en paralelo, puedes instalar Braiins OS+ en una tarjeta SD.
 
-- Encienda su Antminer y conéctelo a su caja de internet.
-- Descargue BOS toolbox para Windows / Linux.
-- Descomprima el archivo descargado y abra el archivo bos-toolbox.bat, elija el idioma y luego después de un momento verá esta ventana:
+- Enciende tu Antminer y conéctalo a tu modem de internet.
+- Descarga BOS toolbox para Windows / Linux.
+- Descomprime el archivo descargado y abre el archivo bos-toolbox.bat, elige el idioma y luego después de un momento verás esta ventana:
    ![image](assets/fr/022.webp)
 
-- Bos toolbox le permitirá encontrar fácilmente la dirección IP de su Antminer e instalar Braiins OS+. Si ya conoce la dirección IP de su máquina, puede pasar al paso 8. De lo contrario, vaya a la pestaña de escaneo.
+- Bos toolbox te permitirá encontrar fácilmente la dirección IP de tu Antminer e instalar Braiins OS+. Si ya conoces la dirección IP de tu máquina, puedes pasar al paso 8. De lo contrario, ve a la pestaña de escaneo.
 
 ![image](assets/fr/023.webp)
 
-- Por lo general, en las redes domésticas, el rango de direcciones IP se encuentra entre 192.168.1.1 y 192.168.1.255, así que ingrese "192.168.1.0/24" en el campo de rango de IP. Si su red es diferente, cambie estas direcciones. Luego haga clic en "Start".
+- Por lo general, en las redes domésticas, el rango de direcciones IP se encuentra entre 192.168.1.1 y 192.168.1.255, así que ingresa "192.168.1.0/24" en el campo de rango de IP. Si tu red es diferente, cambia estas direcciones. Luego haz clic en "Start".
 
-- Atención, si el Antminer tiene una contraseña, la detección no funcionará. Si ese es el caso, lo más sencillo es realizar un restablecimiento de fábrica.
+- Atención: si el Antminer tiene una contraseña, la detección no funcionará. Si ese es el caso, lo más sencillo es realizar un restablecimiento de fábrica.
 
-- Debería ver todos los Antminer en su red, aquí la dirección IP es 192.168.1.37
+- Deberías ver todos los Antminer en tu red, aquí la dirección IP es 192.168.1.37
 
 ![image](assets/fr/024.webp)
 
-- Haga clic en "Back" y luego en la pestaña de instalación, ingrese la dirección IP encontrada anteriormente en el campo de "Miner(s)" y "admin" (o "root") en el campo de contraseña, que es la contraseña predeterminada, luego haga clic en "Start".
+- Haz clic en "Back" y luego en la pestaña de instalación, ingresa la dirección IP encontrada anteriormente en el campo de "Miner(s)" y "admin" (o "root") en el campo de contraseña, que es la contraseña predeterminada, luego haz clic en "Start".
    Si la instalación no funciona, ni con "admin" ni con "root" como contraseña, puede ser necesario realizar un restablecimiento de fábrica y volver a intentarlo.
 
 ![image](assets/fr/025.webp)
 
-- Después de un momento, su Antminer se reiniciará y podrá acceder a la interfaz de Braiins OS+ en la dirección IP mencionada, aquí 192.168.1.37, que debe ingresar directamente en la barra de direcciones de su navegador, el nombre de usuario predeterminado es "root" y no hay contraseña predeterminada.
+- Después de un momento, tu Antminer se reiniciará y podrás acceder a la interfaz de Braiins OS+ en la dirección IP mencionada, aquí 192.168.1.37, que debes ingresar directamente en la barra de direcciones de tu navegador, el nombre de usuario predeterminado es "root" y no hay contraseña predeterminada.
    Instalación de Braiins OS+ en una tarjeta SD
 
 ![image](assets/fr/026.webp)
 
 ![image](assets/fr/027.webp)
 
-El segundo método utiliza la interfaz original de su Antminer. Este método funciona para máquinas con un sistema operativo anterior a 2019.
+El segundo método utiliza la interfaz original del Antminer. Este método funciona para máquinas con un sistema operativo anterior a 2019.
 
 ### Interfaz Antminer
 
-- Descargue el nuevo sistema operativo a instalar aquí.
-- Como en la sección anterior, conéctese a su máquina a través de su red local.
-- Vaya a la pestaña de Sistema y luego a Actualización.
-- Cargue el archivo que ha descargado y flashee la imagen.
+- Descarga el nuevo sistema operativo a instalar.
+- Como en la sección anterior, conéctate a tu máquina a través de tu red local.
+- Ve a la pestaña de Sistema y luego a Actualización.
+- Carga el archivo que has descargado y flashea la imagen.
 
 ![image](assets/fr/028.webp)
 
 ### Tarjeta micro SD
 
-Un segundo método le permite utilizar una tarjeta micro SD. Este método solo funciona con máquinas con un sistema operativo posterior a 2019.
+Un segundo método permite utilizar una tarjeta micro SD. Este método solo funciona con máquinas con un sistema operativo posterior a 2019.
 
-- Descargue el nuevo sistema operativo a instalar aquí.
+- Descarga el nuevo sistema operativo a instalar.
 
-- Flashee la imagen descargada en una tarjeta micro SD. Para ello, puede utilizar Etcher. Simplemente copiar el archivo en la tarjeta micro SD no funcionará.
+- Flashea la imagen descargada en una tarjeta micro SD. Para ello, puedes utilizar Etcher. Simplemente copiar el archivo en la tarjeta micro SD no funcionará.
 - Si tienes un Antminer S9 y sus variantes (S9i, S9j), deberás ajustar los "jumpers" para forzar que tu ASIC arranque desde el archivo contenido en la tarjeta micro SD en lugar de la NAND. Si tienes otro modelo, puedes pasar a la parte 4. Los jumpers se encuentran en la tarjeta de control en la parte superior del ASIC, cerca del puerto Ethernet. Deberás retirarla deslizándola hacia atrás. Una vez que hayas modificado la posición del jumper como se muestra en las imágenes a continuación "BOOT FROM SD", puedes volver a insertar la tarjeta de control y volver a conectar el S9.
 
 ![image](assets/fr/029.webp)
@@ -428,29 +429,29 @@ En esta primera página podrás observar el rendimiento de tu máquina en tiempo
 
 Se puede imaginar una pool de minado como una cooperativa agrícola. Los agricultores unen sus producciones para reducir la variabilidad de la oferta y la demanda y así obtener ingresos más estables para su explotación. Una pool de minado funciona de la misma manera y la materia prima que se comparte son los hash. De hecho, el descubrimiento de un solo hash válido permite la creación de un bloque y así ganar la coinbase o la recompensa actual de 3,125 BTC más las tarifas de las transacciones incluidas en el bloque. Si minas solo, solo serás recompensado cuando encuentres un bloque. Al competir contra todos los demás mineros del planeta, tendrías muy pocas posibilidades de ganar esta gran lotería y aún así tendrías que pagar las tarifas asociadas al uso de tu minero sin ninguna garantía de éxito. Las pools de minado responden a este problema al compartir la potencia de cálculo de varios (miles) de mineros y compartir la recompensa de estos en función del porcentaje de participación en el hashrate de la pool cuando se encuentra un bloque. Para visualizar tus posibilidades de minar un bloque solo, puedes utilizar esta herramienta. Al ingresar la información de un Antminer S9, se puede ver que las posibilidades de encontrar un hash que permita la creación de un bloque son de 1/24 777 849 por cada bloque o de 1/172 068 por día. En promedio (con un hashrate y una dificultad constantes), se necesitarían 471 años para encontrar un bloque.
 
-Sin embargo, como en Bitcoin todo es probabilidad, a veces los "solo miners" son recompensados por asumir este riesgo: Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
+Sin embargo, como en Bitcoin todo es probabilidad, a veces los "solo miners" son recompensados por asumir este riesgo: Un minero solitario de Bitcoin resuelve un bloque con una tasa de hash de solo 10 TH/s, superando probabilidades extremadamente improbables – Decrypt
 
-Si te gusta jugar, puedes intentarlo, pero nuestra guía no se orientará en esta dirección. En cambio, nos centraremos en la pool de minado que mejor se adapte a nuestras necesidades para crear un sistema de calefacción.
+Si te gusta jugar, puedes intentarlo, pero nuestra guía no se orientará en esta dirección. Mas bien, nos centraremos en la pool de minado que mejor se adapte a nuestras necesidades para crear un sistema de calefacción.
 
 Las consideraciones a tener en cuenta al elegir un grupo de minería son el funcionamiento de las recompensas del grupo, que pueden ser diferentes, así como el monto mínimo antes de poder retirar las recompensas a una dirección. Por ejemplo, Braiins, que ofrece el software del que estamos hablando aquí, también ofrece un grupo de minería. Este grupo tiene un sistema de recompensa llamado "Score" que incentiva a los mineros a minar durante largos períodos. La participación incluye un factor de tiempo de actividad que se expresa con una "tasa de hash de puntuación". En nuestro caso, donde queremos un sistema de calefacción que se pueda encender solo durante unos minutos, este no es el sistema de recompensa ideal. Preferimos un sistema de recompensa que nos dé una recompensa igual por cada participación. Además, el monto mínimo de retiro para Braiins Pool es de 100,000 sats y On-Chain. Por lo tanto, perdemos algunos sats en tarifas de transacción y parte de nuestra recompensa puede quedar bloqueada si no minamos lo suficiente durante el invierno.
 
-El modelo de recompensa que nos interesa es el PPS, que significa "pago por acción". Esto significa que el minero recibirá una recompensa por cada acción válida. También existe una variante de este sistema, el FPPS (Pago Completo por Acción), que divide no solo la recompensa de la coinbase, sino también las tarifas de transacción incluidas en el bloque. Los grupos de minería que recomendamos para conectar su minería/calefacción son Linecoin Pool (FPPS) y Nicehash (PPS).
+El modelo de recompensa que nos interesa es el PPS, que significa "pago por acción". Esto significa que el minero recibirá una recompensa por cada acción válida. También existe una variante de este sistema, el FPPS (Pago Completo por Acción), que divide no solo la recompensa de la coinbase, sino también las tarifas de transacción incluidas en el bloque. Los grupos de minería que recomendamos para conectar tu minería/calefacción son Linecoin Pool (FPPS) y Nicehash (PPS).
 
 - Nicehash: La ventaja de Nicehash es que el retiro se puede hacer utilizando Lightning con tarifas mínimas. Además, el monto mínimo de retiro es de 2000 sats. La desventaja es que Nicehash utiliza su tasa de hash para la cadena de bloques más rentable, sin dar realmente el control al usuario y, por lo tanto, no siempre participa en la tasa de hash de Bitcoin.
 
 - Lincoin: La ventaja de Linecoin es la cantidad de características que ofrece, como un panel de control detallado, la posibilidad de hacer retiros con un Paynym (BIP 47) para una mejor protección de la privacidad, y la integración de un bot de Telegram y automatizaciones directamente configurables en la aplicación móvil. Este grupo solo mina bloques de Bitcoin, pero el monto mínimo para retirar sigue siendo alto, 100,000 sats. Analizaremos más detalladamente la interfaz de uno de estos grupos en un próximo artículo.
 
-Para configurar un grupo en Braiins 0S+, deberá crear una cuenta en uno de los grupos de su elección. Aquí vamos a tomar el ejemplo de Lincoin:
+Para configurar un grupo en Braiins 0S+, deberás crear una cuenta en uno de los grupos de tu elección. Aquí vamos a tomar el ejemplo de Lincoin:
 
 ![image](assets/fr/036.webp)
 
-Una vez que haya creado su cuenta, haga clic en "Connect To Pool".
+Una vez que hayas creado tu cuenta, haz clic en "Connect To Pool".
 
-Luego copie la dirección Stratum y su nombre de usuario:
+Luego copia la dirección Stratum y tu nombre de usuario:
 
 ![image](assets/fr/037.webp)
 
-Ahora puede volver a la interfaz de Braiins OS+ para ingresar estas credenciales. Para la contraseña, puede dejar el campo vacío.
+Ahora podrás volver a la interfaz de Braiins OS+ para ingresar estas credenciales. Para la contraseña, puedes dejar el campo vacío.
 
 ![image](assets/fr/038.webp)
 
@@ -461,7 +462,6 @@ El overclocking y el autotuning consisten en ajustar las frecuencias en las tarj
 El **overclocking** es un ajuste sencillo que consiste en aumentar la frecuencia en las tarjetas de hash para aumentar la tasa de hash de la máquina. El underclocking, por otro lado, consiste en disminuir la frecuencia de reloj de un circuito integrado por debajo de su frecuencia nominal. Al reducir la frecuencia de reloj de un ASIC mediante el underclocking, también se reduce el calor generado por el hardware. Esto permite disminuir la velocidad de los ventiladores necesarios para enfriar el ASIC, ya que no tienen que trabajar tan duro para mantener una temperatura adecuada. Al reducir la velocidad de los ventiladores, también se reduce el ruido generado por el ASIC. Esto puede ser especialmente útil para los usuarios que utilizan ASIC en casa y buscan minimizar las molestias sonoras causadas por el hardware de minería.
 
 Es importante tener en cuenta que el underclocking puede llevar a una reducción en el rendimiento del ASIC, por lo que es importante encontrar un buen equilibrio entre el rendimiento y el ruido.
-
 Braiins OS+ admite el overclocking, el underclocking de los ASIC y el autotuning. Permite a los usuarios ajustar la frecuencia de reloj de su hardware de manera flexible para maximizar el rendimiento o ahorrar energía según sus preferencias.
 
 ### Autotuning

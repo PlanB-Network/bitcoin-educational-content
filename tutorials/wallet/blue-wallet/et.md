@@ -15,7 +15,6 @@ Selles õpetuses vaatame Blue Wallet, lihtsat, kuid väga tõhusat Bitcoin Walle
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

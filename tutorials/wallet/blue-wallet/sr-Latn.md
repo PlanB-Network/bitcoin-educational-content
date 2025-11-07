@@ -15,7 +15,6 @@ U ovom vodiču ćemo pogledati Blue Wallet, jednostavan ali veoma efikasan Bitco
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

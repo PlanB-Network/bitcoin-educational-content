@@ -15,7 +15,6 @@ description: Bitcoin 徹底簡單且功能強大的產品組合
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

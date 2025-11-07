@@ -15,7 +15,6 @@ In diesem Tutorial werden wir einen Blick auf Blue Wallet werfen, ein einfaches,
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

@@ -101,7 +101,7 @@ class ProjectPage(ctk.CTkFrame):
         )
         self.github_var = ctk.StringVar(value=project_data.get("github", ""))
         ctk.CTkEntry(self, textvariable=self.github_var, width=200, font=("Arial", 14, "bold")).grid(
-            row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew"
+            row=row, column=1, padx=10, pady=5, sticky="ew"
         )
         row += 1
         

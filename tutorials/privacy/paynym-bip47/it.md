@@ -29,7 +29,7 @@ Nel tempo, Samourai ha programmato nuove funzionalità direttamente legate a Pay
 In questo articolo, scoprirai i meccanismi e le applicazioni pratiche di BIP47 e PayNym. Affronterò solo la prima versione di BIP47, quella attualmente utilizzata per PayNym. Le versioni 2, 3 e 4 funzionano praticamente allo stesso modo.
 
 
-Nota che l'unica differenza significativa si trova nella notification transaction:
+Nota che l'unica differenza significativa si trova nella notification transaction (transazione di notifica):
 
 - la versione 1 utilizza un indirizzo semplice con OP_RETURN per la notifica;
 - la versione 2 utilizza uno script multisig (bloom-multisig) con OP_RETURN;
@@ -51,12 +51,12 @@ I meccanismi menzionati in questo articolo, in particolare i metodi crittografic
 
 4- I meccanismi di BIP47.
 
-- Il codice di pagamento riutilizzabile.
+- Il reusable payment codes (codice di pagamento riutilizzabile).
 - Il metodo crittografico: lo scambio di chiavi Diffie-Hellman stabilito sulle curve ellittiche (ECDH).
 
-- La notification transaction.
-- Costruzione della notification transaction.
-- Ricezione della notification transaction.
+- La notification transaction (transazione di notifica).
+- Costruzione della transazione di notifica.
+- Ricezione della transazione di notifica.
 - La transazione BIP47.
 - Ricezione del pagamento BIP47 e derivazione della chiave privata.
 - Rimborso del pagamento BIP47.
@@ -105,7 +105,7 @@ BIP47 mira a offrire un modo semplice per ricevere numerosi pagamenti senza riut
 In questo modo, più mittenti possono inviare più pagamenti ad un unico codice di pagamento riutilizzabile di un altro utente, senza che il destinatario debba fornire un nuovo indirizzo vuoto per ogni nuova transazione.
 
 Un utente può quindi comunicare liberamente il suo codice di pagamento (su social media, sul suo sito web...) senza rischi di perdita di privacy, a differenza di un indirizzo di ricezione tradizionale o di una chiave pubblica.
-Per effettuare uno scambio, entrambi gli utenti devono avere un wallet Bitcoin con un'implementazione del BIP47, come PayNym su Samourai Wallet o Sparrow Wallet. L'associazione dei codici di pagamento dei due utenti permetterà di stabilire un canale segreto tra di loro. Per stabilire correttamente questo canale, l'emittente dovrà effettuare una transazione sulla blockchain di Bitcoin: la notification transaction (ne parlerò un po' più avanti).
+Per effettuare uno scambio, entrambi gli utenti devono avere un wallet Bitcoin con un'implementazione del BIP47, come PayNym su Samourai Wallet o Sparrow Wallet. L'associazione dei codici di pagamento dei due utenti permetterà di stabilire un canale segreto tra di loro. Per stabilire correttamente questo canale, l'emittente dovrà effettuare una transazione sulla blockchain di Bitcoin: la transazione di notifica (ne parlerò un po' più avanti).
 L'associazione dei codici di pagamento dei due utenti genera segreti condivisi che a loro volta generano un gran numero di indirizzi di ricezione Bitcoin unici (esattamente 2^32). Quindi, in realtà, il pagamento con BIP47 non viene inviato al codice di pagamento, ma agli indirizzi di ricezione Bitcoin del tutto normali, derivati dai codici di pagamento dei protagonisti.
 
 Il codice di pagamento agisce quindi come un identificatore virtuale, derivato dal seed del wallet. Nella struttura di derivazione degli HD wallet, il codice di pagamento si trova a profondità 3, nel livello account del wallet.
@@ -154,40 +154,40 @@ Per riassumere:
 
 Per poter connettere due PayNym, devono già essere associati.
 
-## Tutorial: utilizzo di PayNym.
+## Tutorial: utilizzo di PayNym
 
-Ora che abbiamo visto la teoria, esaminiamo insieme la pratica. L'idea dei tutorial qui di seguito è quella di collegare il mio PayNym sul mio portafoglio Sparrow con il mio PayNym sul mio portafoglio Samourai. Il primo tutorial ti mostra come effettuare una transazione utilizzando il codice di pagamento riutilizzabile da Samourai a Sparrow, mentre il secondo tutorial descrive lo stesso meccanismo da Sparrow a Samourai.
+Ora che abbiamo visto la teoria, esaminiamo insieme la pratica. L'obiettivo dei tutorial che seguono è quella di collegare il mio PayNym sul mio wallet Sparrow con il mio PayNym sul mio wallet Samourai. Il primo tutorial ti mostra come effettuare una transazione utilizzando il codice di pagamento riutilizzabile da Samourai a Sparrow, mentre il secondo tutorial descrive lo stesso meccanismo da Sparrow a Samourai.
 
-> Ho eseguito questi tutorial su Testnet. Non si tratta di veri bitcoin.
+**Nota**: ho eseguito questi tutorial su Testnet. Non si tratta di veri bitcoin.
 
-### Costruire una transazione BIP47 con Samourai Wallet.
+### Costruire una transazione BIP47 con Samourai Wallet
 
 Per iniziare, ovviamente avrai bisogno dell'applicazione Samourai Wallet. Puoi scaricarla direttamente dal Google Play Store o con il file APK disponibile sul sito ufficiale di Samourai, in quest'ultimo caso assicurati di verificare la firma dello sviluppatore e l'integrità del software scaricato prima di installarlo sul tuo telefono.
 
 
-Una volta che il portafoglio è stato inizializzato, se non l'hai già fatto, richiedi il tuo PayNym facendo clic sul segno più (+) in basso a destra, quindi su "PayNym".
+Una volta che il wallet è stato inizializzato, se non l'hai già fatto, richiedi il tuo PayNym facendo clic sul segno più (+) in basso a destra, quindi su "PayNym".
 
-Il primo passo per effettuare un pagamento BIP47 sarà quello di ottenere il codice di pagamento riutilizzabile del nostro destinatario. Successivamente, potremo collegarci a lui e successivamente connetterci:
+Il primo passo per effettuare un pagamento BIP47 sarà quello di ottenere il codice di pagamento riutilizzabile del nostro destinatario. Successivamente, potremo seguirlo e successivamente connetterci:
 
 ![video](assets/6.mp4)
 
-Una volta confermata la transazione di notifica, posso inviare più pagamenti al mio destinatario. Ogni transazione verrà automaticamente effettuata con un nuovo indirizzo vuoto per il quale il destinatario possiede le chiavi. Quest'ultimo non deve compiere alcuna azione, tutto viene calcolato dal mio lato.
+Una volta confermata la transazione di notifica, posso inviare più pagamenti al mio destinatario. Ogni transazione verrà automaticamente effettuata ad un nuovo indirizzo vuoto del quale il destinatario possiede le chiavi. Quest'ultimo non deve compiere alcuna azione.
 
 Ecco come effettuare una transazione BIP47 su Samourai Wallet:
 
 ![video](assets/7.mp4)
 
-### Costruire una transazione BIP47 con Sparrow Wallet.
+### Costruire una transazione BIP47 con Sparrow Wallet
 
 Allo stesso modo di Samourai, ovviamente devi avere il software Sparrow. Questo è disponibile per computer. Puoi scaricarlo dal [sito web ufficiale](https://sparrowwallet.com/).
 
 Assicurati di verificare la firma dello sviluppatore e l'integrità del software scaricato prima di installarlo sul tuo computer.
 
-Crea un portafoglio e richiedi il tuo PayNym facendo clic su "Show PayNym" dal menu "Tool" nella barra superiore:
+Crea un wallet e richiedi il tuo PayNym facendo clic su "Show PayNym" (mostra PayNym) dal menù "Tools" (Strumenti) nella barra superiore.
 
 ![image](assets/8.webp)
 
-Successivamente, dovrai collegare e connettere il tuo PayNym con quello del tuo destinatario. Per farlo, inserisci il suo codice di pagamento riutilizzabile nella finestra "Find Contact", segui il percorso e quindi effettua la transazione di notifica facendo clic su "Link Contact":
+Successivamente, dovrai collegare e connettere il tuo PayNym con quello del tuo destinatario. Per farlo, inserisci il suo codice di pagamento riutilizzabile nella finestra "Find Contact" (Trova Contatto), segui il percorso e quindi effettua la transazione di notifica facendo clic su "Link Contact" (Connettiti).
 
 ![image](assets/9.webp)
 
@@ -195,63 +195,63 @@ Una volta confermata la transazione di notifica, è possibile inviare pagamenti 
 
 ![video](assets/10.mp4)
 
-Ora che abbiamo esaminato l'aspetto pratico dell'implementazione PayNym di BIP47, vediamo insieme come funzionano tutti questi meccanismi e quali sono i metodi crittografici utilizzati.
+Ora che abbiamo esaminato l'aspetto pratico dell'implementazione PayNym di BIP47, vediamo insieme come i meccanismi alla base e quali sono i metodi crittografici utilizzati.
 
-## I meccanismi di BIP47.
+## I meccanismi di BIP47
 
-Per studiare i meccanismi del BIP47, è essenziale comprendere la struttura del portafoglio deterministico gerarchico (HD), i meccanismi di derivazione delle coppie di chiavi figlie ed i principi della crittografia sulle curve ellittiche. Fortunatamente, puoi trovare tutte queste informazioni necessarie per comprendere questa parte sul mio blog:
+Per studiare i meccanismi del BIP47, è essenziale comprendere la struttura del wallet deterministico gerarchico (HD), i meccanismi di derivazione delle coppie di chiavi figlie ed i principi della crittografia a curve ellittiche. Fortunatamente, puoi trovare tutte queste informazioni necessarie per comprendere questa parte sul mio blog:
 
-- [Comprendere i percorsi di derivazione di un portafoglio Bitcoin](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-bitcoin)
+- [Comprendere i percorsi di derivazione di un wallet Bitcoin](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-bitcoin)
 
-- [Il portafoglio Bitcoin - estratto dall'ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2)
+- [Il wallet Bitcoin - estratto dall'ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2)
 
-### Il codice di pagamento riutilizzabile.
+### Il codice di pagamento riutilizzabile
 
-Come spiegato nella seconda parte di questo documento, il codice di pagamento riutilizzabile si trova a una profondità di tre nel portafoglio HD. È in qualche modo assimilabile ad un xpub, sia per la sua posizione e struttura che per il suo ruolo.
+Come spiegato nella seconda parte di questo documento, il codice di pagamento riutilizzabile si trova a una profondità di tre nel wallet HD. È in qualche modo assimilabile ad un xpub, sia per la sua posizione e struttura che per il suo ruolo.
 
 Ecco le diverse parti che compongono un codice di pagamento di 80 byte:
 
-- Byte 0: La versione. Se si utilizza la prima versione del BIP47, questo byte sarà uguale a 0x01.
+- Byte 0: version (versione). Se si utilizza la prima versione del BIP47, questo byte sarà uguale a 0x01.
 
-- Byte 1: Il campo dei bit. Questo spazio è riservato per fornire indicazioni aggiuntive in caso di utilizzo specifico. Se si utilizza semplicemente PayNym, questo byte sarà uguale a 0x00.
+- Byte 1: bit field (Il campo dei bit). Questo spazio è riservato per fornire indicazioni aggiuntive in caso di utilizzo specifico. Se si utilizza semplicemente PayNym, questo byte sarà uguale a 0x00.
 
-- Byte 2: La parità di y. Questo byte indica 0x02 o 0x03 a seconda della parità (numero pari o numero dispari) del valore dell'ordinata della nostra chiave pubblica. Per ulteriori informazioni su questa pratica, si prega di leggere il passaggio 1 della sezione "derivazione di un indirizzo" di questo articolo.
+- Byte 2: y parity (la parità di y). Questo byte indica 0x02 o 0x03 a seconda che il avlore dell'ordinata dela nostra chiave pubblica sia pari o dispari. Per ulteriori informazioni su questa pratica, si prega di leggere il passaggio 1 della sezione "derivazione di un indirizzo" di questo articolo.
 
-- Dai byte 3 al byte 34: Il valore di x. Questi byte indicano l'ascissa della nostra chiave pubblica. La concatenazione di x e della parità di y ci dà la nostra chiave pubblica compressa.
+- Dai byte 3 al byte 34: x value (Il valore di x). Questi byte indicano l'ascissa della nostra chiave pubblica. La concatenazione di x e del valore pari o dispari di y ci dà la nostra chiave pubblica compressa.
 
-- Dai byte 35 al byte 66: Il codice di catena. Questo spazio è riservato per il codice di catena associato alla chiave pubblica sopra menzionata.
+- Dai byte 35 al byte 66: chain code (Il codice di catena). Questo spazio è riservato per il chain code associato alla chiave pubblica sopra menzionata.
 
-- Dai byte 67 al byte 79: Il padding. Questo spazio è riservato a possibili future evoluzioni. Per la versione 1, vengono semplicemente inseriti zeri per riempire fino a 80 byte, che è la dimensione dei dati di un'uscita OP_RETURN.
+- Dai byte 67 al byte 79: Il padding (aggiunta). Questo spazio è riservato a possibili future evoluzioni. Per la versione 1, vengono semplicemente inseriti zeri per riempire fino a 80 byte, che è la dimensione dei dati di un'uscita OP_RETURN.
 
 Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile, mostrato precedentemente, con i colori corrispondenti ai byte sopra presentati:
 Successivamente, è necessario aggiungere l'ottetto del prefisso "P" che permette di identificare immediatamente che si tratta di un codice di pagamento. Questo ottetto è 0x47.
 
-> 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000**
 
-Infine, calcoliamo il checksum di questo codice di pagamento con HASH256, ovvero un doppio hash con la funzione SHA256. Prendiamo i primi quattro ottetti di questo condensato e li concateniamo alla fine (in rosa).
+Infine, calcoliamo il checksum di questo codice di pagamento con HASH256, ovvero un doppio hash con la funzione SHA256. Prendiamo i primi quattro ottetti di queta stringa e li concateniamo alla fine.
 
-> 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4**
 
 Il codice di pagamento è pronto, non resta che convertirlo in Base 58:
 
-> PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5**
 
 Come si può notare, questa costruzione assomiglia molto alla struttura di una chiave pubblica estesa di tipo "xpub".
 
-Durante questo processo che porta al nostro codice di pagamento, abbiamo utilizzato una chiave pubblica compressa e un codice di catena ("Chain Code"). Questi due elementi sono il risultato di una derivazione deterministica e gerarchica, dalla radice del portafoglio, seguendo il percorso di derivazione seguente: m/47'/0'/0'/
-Concretamente, per ottenere la chiave pubblica e il codice di catena del codice di pagamento riutilizzabile, calcoleremo la chiave privata principale del seed, quindi deriviamo una coppia figlia con l'indice 47 + 2^31 (derivazione rinforzata). Successivamente, deriviamo due coppie figlie con l'indice 2^31 (derivazione rinforzata).
+Durante questo processo che porta al nostro codice di pagamento, abbiamo utilizzato una chiave pubblica compressa ed un Chain Code. Questi due elementi sono il risultato di una derivazione deterministica e gerarchica, dalla radice del wallet, seguendo il percorso di derivazione: m/47'/0'/0'/.
+Concretamente, per ottenere la chiave pubblica e il chain code del codice di pagamento riutilizzabile, calcoleremo la chiave privata principale del seed, quindi deriviamo una coppia figlia con l'indice 47 + 2^31 (derivazione hardened). Successivamente, deriviamo due coppie figlie con l'indice 2^31 (derivazione hardened).
 
-> Se desideri saperne di più sulla derivazione di coppie di chiavi figlie all'interno di un portafoglio deterministico gerarchico Bitcoin, ti consiglio di seguire CRYPTO301.
+**Nota:** se desideri saperne di più sulla derivazione di coppie di chiavi figlie all'interno di un wallet deterministico gerarchico Bitcoin, ti consiglio di seguire CRYPTO301.
 
-### Il metodo crittografico: lo scambio di chiavi Diffie-Hellman basato sulle curve ellittiche (ECDH).
+### Il metodo crittografico: lo scambio di chiavi Diffie-Hellman basato sulle curve ellittiche (ECDH)
 
-Il metodo crittografico utilizzato come base per il BIP47 è l'ECDH (Elliptic-Curve Diffie-Hellman = Scambio di chiavi Diffie-Hellman basato sulle curve ellittiche). Questo protocollo è una variante dello scambio di chiavi Diffie-Hellman classico.
+Il metodo crittografico utilizzato come base per il BIP47 è Elliptic-Curve Diffie-Hellman, ECDH (Curve Ellittiche Diffie-Hellman). Questo protocollo è una variante dello scambio di chiavi Diffie-Hellman classico.
 
-Diffie-Hellman, nella sua prima versione, è un protocollo di accordo sulle chiavi presentato nel 1976 che consente a due persone, utilizzando due coppie di chiavi (chiavi pubbliche e chiavi private), di determinare un segreto condiviso scambiandosi su un canale di comunicazione non sicuro.
+Diffie-Hellman, nella sua prima versione, è un protocollo di accordo sulle chiavi presentato nel 1976 che consente a due persone, utilizzando due coppie di chiavi (chiavi pubbliche e chiavi private), di determinare un segreto condiviso scambiandosi un messaggio su un canale di comunicazione non sicuro.
 
 ![image](assets/11.webp)
 
-Questo segreto condiviso (la chiave rossa) può quindi essere utilizzato per eseguire altre operazioni. Tipicamente, questo segreto condiviso può essere utilizzato per crittografare e decrittografare una comunicazione su una rete non sicura:
+Questo segreto condiviso (la chiave rossa) può essere utilizzato per eseguire altre operazioni. Tipicamente, questo segreto condiviso può essere utilizzato per crittografare e decrittografare una comunicazione su una rete non sicura
 
 ![image](assets/12.webp)
 
@@ -263,7 +263,7 @@ Per riuscire in questo scambio, Diffie-Hellman utilizza l'aritmetica modulare pe
 
 - Bob sceglie un colore segreto, in questo caso il blu petrolio. Mescola i due colori ottenendo il celeste.
 
-- Alice e Bob possono scambiarsi i colori ottenuti: l'arancione e il celeste. Questo scambio può avvenire su una rete non sicura e può essere osservato da attaccanti.
+- Alice e Bob possono scambiarsi i colori ottenuti: l'arancione e il celeste. Questo scambio può avvenire su una rete non sicura e può essere osservato da malintenzionati.
 
 - Alice mescola il colore celeste ricevuto da Bob con il suo colore segreto (rosso). Ottiene il marrone.
 
@@ -271,11 +271,11 @@ Per riuscire in questo scambio, Diffie-Hellman utilizza l'aritmetica modulare pe
 
 ![image](assets/13.webp)
 
-> Credito: Idea originale: A.J. Han Vinck Versione vettoriale: Flugaal Traduzione: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
+**Credito:** Idea originale: A.J. Han Vinck Versione vettoriale: Flugaal Traduzione: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
 
-In questa semplificazione, il colore marrone rappresenta il segreto condiviso tra Alice e Bob. Bisogna immaginare che in realtà sia impossibile per l'attaccante separare i colori arancione e celeste, al fine di scoprire i segreti di Alice o Bob.
+In questa semplificazione, il colore marrone rappresenta il segreto condiviso tra Alice e Bob. Bisogna immaginare che in realtà sia impossibile per un malintenzionato separare i colori arancione e celeste, al fine di scoprire i segreti di Alice o Bob.
 
-Ora, studiamo il suo funzionamento reale. A prima vista, Diffie-Hellman sembra complesso da comprendere. In realtà, il principio di funzionamento è quasi elementare. Prima di dettagliare i suoi meccanismi, vi ricordo brevemente due concetti matematici di cui avremo bisogno (e che, incidentalmente, sono anche utilizzati in numerosi altri metodi crittografici).
+Ora vediamo il suo funzionamento reale. A prima vista, Diffie-Hellman sembra complesso da comprendere. In realtà, il principio di funzionamento è quasi elementare. Prima di dettagliare i suoi meccanismi, vi ricordo brevemente due concetti matematici di cui avremo bisogno (che sono anche utilizzati in numerosi altri metodi crittografici).
 
 1. Un numero primo è un numero naturale che ha solo due divisori: 1 e se stesso. Ad esempio, il numero 7 è primo, perché può essere diviso solo per 1 e 7 (se stesso). Al contrario, il numero 8 non è primo, perché può essere diviso per 1, 2, 4 e 8. Quindi non ha solo due divisori, ma quattro divisori interi e positivi.
 
@@ -283,9 +283,9 @@ Ora, studiamo il suo funzionamento reale. A prima vista, Diffie-Hellman sembra c
 
 Lo scambio di chiavi Diffie-Hellman tra Alice e Bob funziona nel seguente modo:
 
-- Alice e Bob scelgono due numeri comuni: p e g. p è un numero primo. Più grande è questo numero p, più sicuro sarà Diffie-Hellman. g è una radice primitiva di p. Questi due numeri possono essere comunicati in chiaro su una rete non sicura, sono equivalenti al colore giallo nella semplificazione sopra. Alice e Bob devono semplicemente avere gli stessi valori di p e g.
+- Alice e Bob scelgono due numeri comuni: *p* e *g*. *p* è un numero primo. Più grande è questo numero *p*, più sicuro sarà Diffie-Hellman. *g* è una radice primitiva di *p*. Questi due numeri possono essere comunicati in chiaro su una rete non sicura, sono equivalenti al colore giallo nella semplificazione sopra. Alice e Bob devono semplicemente avere gli stessi valori di *p* e *g*.
 
-- Una volta scelti i parametri, Alice e Bob determinano ciascuno un numero casuale segreto. Il numero casuale ottenuto da Alice è chiamato *a* (equivalente al colore rosso) e il numero casuale ottenuto da Bob è chiamato *b* (equivalente al colore blu petrolio). Questi due numeri devono rimanere segreti.
+- Una volta scelti i parametri, Alice e Bob determinano ciascuno un numero casuale segreto. Il numero casuale ottenuto da Alice è chiamato *A* (equivalente al colore rosso) e il numero casuale ottenuto da Bob è chiamato *B* (equivalente al colore blu petrolio). Questi due numeri devono rimanere segreti.
 
 - Invece di scambiare questi numeri a e b, ogni parte calcolerà A (maiuscolo) e B (maiuscolo) come segue:
 
@@ -390,8 +390,8 @@ L'idea è quindi quella di utilizzare le coppie di chiavi dei portafogli determi
 
 ECDHE viene utilizzato per la prima volta nel BIP47 per trasmettere il codice di pagamento dal mittente al destinatario. Questa è la famosa transazione di notifica. Infatti, affinché il BIP47 possa essere utilizzato, entrambe le parti (il mittente che invia pagamenti e il destinatario che riceve pagamenti) devono essere a conoscenza del codice di pagamento dell'altra parte. Questo sarà necessario per derivare le chiavi pubbliche effimere e quindi gli indirizzi di ricezione dedicati.
 
-Prima di questo scambio, il mittente è logicamente già a conoscenza del codice di pagamento del destinatario, poiché è stato in grado di recuperarlo off-chain, ad esempio, dal suo sito web o dai suoi social media. Al contrario, il destinatario potrebbe non essere a conoscenza del codice di pagamento del mittente. Sarà quindi necessario trasmetterglielo, altrimenti non sarà in grado di derivare le sue chiavi effimere e quindi non sarà in grado di sapere dove si trovano i suoi bitcoin e di sbloccare i suoi fondi. Potremmo trasmetterglielo off-chain, con un altro sistema di comunicazione, ma ciò comporterebbe un problema in caso di recupero del portafoglio dal seed.
-Infatti, come ho già menzionato, gli indirizzi BIP47 non sono derivati dal seed del destinatario (altrimenti si potrebbe utilizzare direttamente uno dei suoi xpub), ma sono il risultato di un calcolo che coinvolge i due codici di pagamento: quello del destinatario e quello del mittente. Pertanto, se il destinatario perde il suo portafoglio e cerca di recuperarlo dal seed, dovrà necessariamente disporre di tutti i codici di pagamento delle persone che gli hanno inviato bitcoin tramite BIP47.
+Prima di questo scambio, il mittente è logicamente già a conoscenza del codice di pagamento del destinatario, poiché è stato in grado di recuperarlo off-chain, ad esempio, dal suo sito web o dai suoi social media. Al contrario, il destinatario potrebbe non essere a conoscenza del codice di pagamento del mittente. Sarà quindi necessario trasmetterglielo, altrimenti non sarà in grado di derivare le sue chiavi effimere e quindi non sarà in grado di sapere dove si trovano i suoi bitcoin e di sbloccare i suoi fondi. Potremmo trasmetterglielo off-chain, con un altro sistema di comunicazione, ma ciò comporterebbe un problema in caso di recupero del wallet dal seed.
+Infatti, come ho già menzionato, gli indirizzi BIP47 non sono derivati dal seed del destinatario (altrimenti si potrebbe utilizzare direttamente uno dei suoi xpub), ma sono il risultato di un calcolo che coinvolge i due codici di pagamento: quello del destinatario e quello del mittente. Pertanto, se il destinatario perde il suo wallet e cerca di recuperarlo dal seed, dovrà necessariamente disporre di tutti i codici di pagamento delle persone che gli hanno inviato bitcoin tramite BIP47.
 Quindi, potremmo facilmente utilizzare BIP47 senza questa transazione di notifica, ma ogni utente dovrebbe fare un backup dei codici di pagamento dei suoi contatti. Questa situazione rimarrà ingestibile finché non troveremo un modo semplice e resiliente per creare, archiviare e aggiornare questi backup. La transazione di notifica è quindi praticamente obbligatoria nello stato attuale delle cose.
 
 Oltre a questa funzione di backup dei codici di pagamento, come suggerisce il nome stesso, questa transazione svolge anche un ruolo di notifica per il destinatario. Segnala al suo client che è stato aperto un tunnel.
@@ -499,13 +499,13 @@ Se confrontiamo questo schema con ciò che ho descritto in precedenza:
 - "Notification Shared Secret" corrisponde a: f.
 - "Masked Payment Code" corrisponde al codice di pagamento mascherato, cioè con il payload cifrato: x' e c'.
 
-- "Notification Transaction" è la transazione che contiene l'OP_RETURN.
+- "Notification Transaction" (transazione di notifica) è la transazione che contiene l'OP_RETURN.
 
 Riassumo i passaggi che abbiamo appena visto per effettuare una transazione di notifica:
 
 - Alice ottiene il codice di pagamento e l'indirizzo di notifica di Bob.
 
-- Alice seleziona un UTXO che le appartiene nel suo portafoglio HD con la corrispondente coppia di chiavi.
+- Alice seleziona un UTXO che le appartiene nel suo wallet HD con la corrispondente coppia di chiavi.
 
 - Calcola un punto segreto sulla curva ellittica tramite ECDH.
 
@@ -731,7 +731,7 @@ Non fidarti. Verifica! Se desideri comprendere i principi di base di una funzion
 
 - Utilizzando questa chiave pubblica "K0", Alice può derivare un indirizzo di ricezione vuoto in modo standard (ad esempio, SegWit V0 in Bech32).
 
-Una volta che Alice ha questo indirizzo di ricezione "K0" appartenente a Bob, può creare una transazione Bitcoin classica, selezionando un UTXO che le appartiene su un altro ramo del suo portafoglio HD e inviandolo all'indirizzo "K0" di Bob.
+Una volta che Alice ha questo indirizzo di ricezione "K0" appartenente a Bob, può creare una transazione Bitcoin classica, selezionando un UTXO che le appartiene su un altro ramo del suo wallet HD e inviandolo all'indirizzo "K0" di Bob.
 
 ![Alice invia bitcoin a Bob con BIP47](assets/21.webp)
 
@@ -873,7 +873,7 @@ A differenza dell'uso di BIP47, poiché queste transazioni collaborative non ric
 
 Se desiderate saperne di più sulle transazioni collaborative e, più in generale, su tutti gli strumenti di spesa di Samourai Wallet, potete leggere la sezione "Gli strumenti di spesa" in questo articolo. Troverete una spiegazione tecnica e un tutorial dettagliato per ogni strumento.
 
-Oltre a queste transazioni collaborative, di recente si è osservato che il team di Samourai sta lavorando su un protocollo di autenticazione legato a PayNym: Auth47. Questo strumento è già implementato e consente, ad esempio, di autenticarsi su un sito web che accetta questo metodo tramite un PayNym. In futuro, penso che oltre a questa possibilità di autenticazione sul web, Auth47 si inserirà in un progetto più ampio legato all'ecosistema BIP47/PayNym/Samourai. Forse questo protocollo verrà utilizzato per ottimizzare ulteriormente l'esperienza dell'utente del portafoglio Samourai Wallet, in particolare nell'uso degli strumenti di spesa. Da seguire...
+Oltre a queste transazioni collaborative, di recente si è osservato che il team di Samourai sta lavorando su un protocollo di autenticazione legato a PayNym: Auth47. Questo strumento è già implementato e consente, ad esempio, di autenticarsi su un sito web che accetta questo metodo tramite un PayNym. In futuro, penso che oltre a questa possibilità di autenticazione sul web, Auth47 si inserirà in un progetto più ampio legato all'ecosistema BIP47/PayNym/Samourai. Forse questo protocollo verrà utilizzato per ottimizzare ulteriormente l'esperienza dell'utente del wallet Samourai Wallet, in particolare nell'uso degli strumenti di spesa. Da seguire...
 
 ## La mia opinione personale su BIP47.
 
@@ -899,7 +899,7 @@ Qualsiasi soluzione veramente positiva per la privacy dell'utente deve essere di
 
 - Comprendere e utilizzare il CoinJoin su Bitcoin.
 
-- Comprendere i percorsi di derivazione di un portafoglio Bitcoin.
+- Comprendere i percorsi di derivazione di un wallet Bitcoin.
 
 - Installare e utilizzare il proprio nodo Bitcoin RoninDojo.
 

@@ -109,7 +109,7 @@ La sezione **Mempool Goggles** consente di visualizzare lo spazio occupato da un
 
 
 
-Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof of Work che i miner devono fornire per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi**, equivalente a circa **2 settimane**. È possibile vedere l'evoluzione di questa difficoltà qui.
+Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof Of Work che i miner devono fornire per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi**, equivalente a circa **2 settimane**. È possibile vedere l'evoluzione di questa difficoltà qui.
 
 
 
@@ -117,7 +117,7 @@ Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della P
 
 
 
-L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi, **equivalente a circa 4 anni** ) e dalle commissioni delle transazioni.
+L'aggiunta di un nuovo blocco alla catena principale dà diritto al miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi, **equivalente a circa 4 anni** ) e dalle commissioni delle transazioni.
 
 
 
@@ -228,7 +228,7 @@ Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**
 ## Miner
 
 
-Per Miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di mining; un processo che implica la partecipazione alla Proof-Of-Work. Il miner raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash (funzione matematica che prende un input di dimensione variabile e produce un output di dimensione fissa) valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
+Per miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di mining; un processo che implica la partecipazione alla Proof-Of-Work. Il miner raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash (funzione matematica che prende un input di dimensione variabile e produce un output di dimensione fissa) valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
 
 
 

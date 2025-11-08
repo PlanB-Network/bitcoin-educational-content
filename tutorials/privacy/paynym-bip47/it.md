@@ -292,7 +292,7 @@ Lo scambio di chiavi Diffie-Hellman tra Alice e Bob funziona nel seguente modo:
 *A* è uguale a *g* elevato alla potenza a modulo *p*:
 ***A* = g^a % p**
 
-***B* è uguale a *g* elevato alla potenza *b* modulo *p*:
+*B* è uguale a *g* elevato alla potenza *b* modulo *p*:
 ***B* = g^b % p**
 
 - Questi numeri A (equivalente al colore arancione) e B (equivalente al colore celeste) saranno scambiati tra le due parti. Lo scambio può avvenire in chiaro su una rete non sicura.

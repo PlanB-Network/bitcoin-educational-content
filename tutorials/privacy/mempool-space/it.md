@@ -67,7 +67,7 @@ Nella barra dei menù si trovano le seguenti reti:
 - **Mainnet**: la rete Bitcoin principale dove avvengono le transazioni Bitcoin reali;
 - **Signet**: una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale;
 - **Testnet 3**: una rete di test e sviluppo priva di rischi sul protocollo Bitcoin;
-- **Testnet 4**: la nuova versione di Testnet 3 apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
+- **Testnet 4**: la nuova versione di Testnet 3, apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
 
 
 
@@ -143,7 +143,7 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 - **stato**: confermato quando viene aggiunto a un blocco, non confermato quando è in attesa nella Mempool;
 - **spese di transazione**;
-- **Estimated Time of Arrival,ETA (tempo stimato di arrivo)**: il tempo approssimativo necessario affinché la transazione venga aggiunta ad un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
+- **Estimated Time of Arrival, ETA (tempo stimato di arrivo)**: il tempo approssimativo necessario affinché la transazione venga aggiunta ad un blocco. Il calcolo si basa sulla proporzione tra queste commissioni.
 
 
 
@@ -181,7 +181,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Nell'ecosistema Bitcoin, l'aspetto della convalida delle transazioni da parte dei miner è strettamente legata alle commissioni associate. I miner  tendono a prioritizzare le transazioni con un rapporto di commissioni più elevato (satoshis/vByte), il che può influire sulla validità della transazione se non si pagano commissioni ragionevoli accettate da loro. La transazione potrebbe rimaner bloccata in Mempool in attesa di un blocco che accetti il suo rapporto di commissioni.
+Nell'ecosistema Bitcoin, l'aspetto della convalida delle transazioni da parte dei miner è strettamente legato alle commissioni associate. I miner  tendono a prioritizzare le transazioni con un rapporto di commissioni più elevato (satoshis/vByte), il che può influire sulla validità della transazione se non si pagano commissioni ragionevoli accettate da loro. La transazione potrebbe rimaner bloccata nella Mempool in attesa di un blocco che accetti il suo rapporto di commissioni.
 
 
 
@@ -191,7 +191,7 @@ Fortunatamente, sulla rete Bitcoin sono disponibili due metodi per accelerare la
 
 
 
-- **RBF** - Replacement By Fee: Un metodo che consente di spendere gli stessi elementi della transazione con basse commissioni, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente ed inserita in un blocco, invalidando la transazione iniziale con commissioni più basse.
+- **RBF** - Replacement By Fee: un metodo che consente di spendere gli stessi elementi della transazione con basse commissioni, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente ed inserita in un blocco, invalidando la transazione iniziale con commissioni più basse.
 
 
 
@@ -228,13 +228,13 @@ Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**
 ## Miner
 
 
-Per miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di mining; un processo che implica la partecipazione alla Proof-Of-Work. Il miner raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash (funzione matematica che prende un input di dimensione variabile e produce un output di dimensione fissa) valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
+Per miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di mining; un processo che implica la partecipazione alla Proof-Of-Work. Il miner, raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash (funzione matematica che prende un input di dimensione variabile e produce un output di dimensione fissa) valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
 
 
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-i miner sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (il Proof-Of-Work). Il primo Miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
+I miner sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (la Proof-Of-Work). Il primo miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
 
 
 

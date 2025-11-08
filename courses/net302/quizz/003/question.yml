@@ -9,11 +9,12 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-07-21
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.07
+      - ProfScofield21
+    reward: 0.04
   - language: en
     last_contribution_date: '2025-10-31'
     urgency: 1
@@ -29,12 +30,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: et
     last_contribution_date:
     urgency: 1
@@ -54,17 +55,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.21
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -89,7 +90,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -104,7 +105,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -119,22 +120,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: rn
     last_contribution_date:
     urgency: 1

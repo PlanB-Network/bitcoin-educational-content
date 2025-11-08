@@ -23,7 +23,7 @@ Bisq 2 on 2024. aastal käivitatud populaarse detsentraliseeritud Bisq-vahetuse 
 - Mitme portfooliotüübi tugi
 - Kohustusliku deposiidiga rollisüsteem BSQ-s
 
-Käesolev juhend keskendub ainult Bisq Easy'le, mis on praegu ainus olemasolev protokoll. Bisq Easy on mõeldud spetsiaalselt uutele Bitcoini kasutajatele. See protokoll võimaldab kasutajatel osta ja müüa Bitcoine fiat-valuutade vastu detsentraliseeritud peer-to-peer platvormil. Tehingud on piiratud 600 USA dollari ekvivalendiga (minimaalselt 6 USA dollariga) ja vahetusturve sõltub BTC-müüjate mainest. Bisq Easy'l ei ole kauplemistasusid ega tagatise nõudeid. Bisq Easy peaks asendama Bisq 1 alla 600 USD (või samaväärse summa) sularahavahetuse puhul.
+See juhend keskendub täielikult „Bisq Easy’le“, ainsale praegu saadaval olevale protokollile. Bisq Easy on loodud spetsiaalselt uutele Bitcoini kasutajatele. See protokoll võimaldab kasutajatel osta ja müüa bitcoine fiat-valuutade vastu detsentraliseeritud peer-to-peer platvormil. Tehingud on piiratud 600 USD ekvivalendiga (miinimum 6 USD) ja tehingute turvalisus põhineb BTC müüjate mainele. Bisq Easy’l ei ole kauplemistasusid ega tagatisenõuet. Eeldatakse, et Bisq Easy asendab Bisq 1 väiksemate kui 600 USD (või ekvivalendi) fiat-tehingute puhul.
 
 ** Peamised omadused:**
 
@@ -62,7 +62,7 @@ Käesolev juhend keskendub ainult Bisq Easy'le, mis on praegu ainus olemasolev p
 - Pakkumise tegija määratleb vahetuse tingimused
 - Kui kauplejad on tingimustes (makseviis ja hind) kokku leppinud, algab vahetus
 - Müüja saadab ostjale oma pangaandmed ja ostja saadab müüjale oma Bitcoini aadressi
-- Ostja teeb makse sularahas ja teatab sellest müüjale
+- Ostja teeb makse fiat-valuutas ja teavitab müüjat
 - Kui makse on laekunud, saadab müüja bitcoinid ostja aadressile
 - Vahetamine on lõpule viidud, kui ostja saab bitcoinid kätte
 

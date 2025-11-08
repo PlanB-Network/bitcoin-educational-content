@@ -2,7 +2,7 @@
   <a href="https://planb.academy">
     <picture>
       <source srcset="docs/assets/black_and_orange_gradient.png" media="(prefers-color-scheme: light)">
-      <source srcset="docs/assets/horizontal_logo.png" media="(prefers-color-scheme: dark)">
+      <source srcset="docs/assets/white_and_orange_gradient.png" media="(prefers-color-scheme: dark)">
       <img src="docs/assets/black_and_orange_gradient.png" alt="Plan ₿ Academy Logo" width="37%">
     </picture>
   </a>
@@ -39,7 +39,7 @@
 <br />
 <p align="center">
   <a href="https://planb.academy">
-    <img src="docs/assets/PBN-banner.png" alt="P₿N banner" width="100%">
+    <img src="docs/assets/PBA-banner.png" alt="P₿A banner" width="100%">
   </a></p>
 <br />
 

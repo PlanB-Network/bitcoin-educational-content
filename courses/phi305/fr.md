@@ -11,7 +11,7 @@ objectives:
 
 Ce cours explore les liens profonds entre la philosophie révolutionnaire de Baruch de Spinoza (1632-1677) et Bitcoin, deux outils de liberté séparés par les siècles mais unis par une même quête : l'émancipation humaine face aux servitudes.
 
-Nous découvrirons comment Spinoza, père de la philosophie rationnelle des Lumières, a développé une éthique pratique pour nous libérer des illusions qui nous enferment - le libre arbitre, le finalisme et les superstitions théologiques. Sa méthode géométrique et sa théorie des affects nous montrent comment comprendre notre place dans le monde et orienter notre existence vers ce qui accroît notre puissance d'agir.
+Nous découvrirons comment Spinoza, père de la philosophie rationnelle des Lumières, a développé une éthique pratique pour nous libérer des illusions qui nous enferment, le libre arbitre, le finalisme et les superstitions théologiques. Sa méthode géométrique et sa théorie des affects nous montrent comment comprendre notre place dans le monde et orienter notre existence vers ce qui accroît notre puissance d'agir.
 
 Le cours établit ensuite les parallèles fascinants entre cette révolution copernicienne des idées et Bitcoin : deux systèmes qui ne requièrent ni foi aveugle ni autorité centrale, mais simplement l'exercice de la raison. Comme le spinozisme a libéré la pensée des dogmes religieux, Bitcoin libère la monnaie du contrôle étatique, offrant une nouvelle forme de liberté économique ancrée dans les mathématiques et la cryptographie.
 
@@ -350,14 +350,14 @@ Et le progrès, grâce auquel vont apparaître les premières révolutions techn
 Et il est ici utile de se rappeler la définition que fait Sigmund Freud (1856-1939) de l’illusion. Selon le père de la psychanalyse qui a toujours reconnu l’influence de Spinoza sur son travail, une illusion est précisément « une croyance motivée par la réalisation d’un désir en ne tenant pas compte, de ce fait, de la réalité ».
 
 
-Pour finir, il faut préciser que si le courant libertarien que  nous allons bientôt évoquer se réfère directement à cette nouvelle philosophie libérale, certains soulignent que des figures comme Ayn Rand (1905-1982), auteure de « La Grève » ou de « La Source vive » soutiennent l’existence du libre arbitre en considérant que les hommes ont la capacité de faire des choix libres. 
+Pour finir, il faut préciser que si le courant libertarien que nous allons bientôt évoquer se réfère directement à cette nouvelle philosophie libérale, certains soulignent que des figures comme Ayn Rand (1905-1982), auteure de « La Grève » ou de « La Source vive » soutiennent l’existence du libre arbitre en considérant que les hommes ont la capacité de faire des choix libres. 
 
 ![image](./assets/fr/3.2.5.webp)
 ![image](./assets/fr/3.2.6.webp)
 
 Mais la réalité est tout autre, et la confusion vient plutôt d’un problème sémantique car en reconnaissant aux hommes la capacité d’agir, et de faire des choix, tout en reconnaissant le déterminisme logique dont ils sont l’objet, les premiers libertariens sont, en réalité, eux aussi des héritiers de Spinoza. Ils ont avec lui le point commun de considérer que l’homme n’est pas au-dessus de la nature. Qu’il est bel et bien le résultat d’une évolution qui l’inscrit dans un déterminisme, dans une histoire qui le dépasse et qui fait, en grande partie, ce qu’il est et ce qu’il fait.
 
-Enfin, si la croyance au libre arbitre est  une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans le prochain chapitre.
+Enfin, si la croyance au libre arbitre est une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans le prochain chapitre.
 
 ## L’illusion des causes finales
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
@@ -406,9 +406,9 @@ Alors que cette interprétation biaisée de l’inflation nous fait surtout oubl
 
 Enfin, il est ici utile de se rendre compte que ce mécanisme finaliste s’illustre aussi très bien dans la manière avec laquelle les détracteurs de Bitcoin expriment leurs critiques en ne s’intéressant précisément qu’à ses effets. 
 
-Car si certains effets de Bitcoin peuvent certainement être critiquables, à cause du biais cognitif  lié au fait qu’il s’agit d’une technologie nouvelle et disruptive, nous avons une forte propension à ne voir que les effets négatifs. Surtout si la réalité ne correspond pas à nos désirs, par exemple si on est religieux face à une révolution copernicienne comme l’est le spinozisme, ou si l’on est un banquier central face à un concept de monnaie numérique décentralisée.
+Car si certains effets de Bitcoin peuvent certainement être critiquables, à cause du biais cognitif lié au fait qu’il s’agit d’une technologie nouvelle et disruptive, nous avons une forte propension à ne voir que les effets négatifs. Surtout si la réalité ne correspond pas à nos désirs, par exemple si on est religieux face à une révolution copernicienne comme l’est le spinozisme, ou si l’on est un banquier central face à un concept de monnaie numérique décentralisée.
 
-Or, il apparaît très clairement qu’à partir du moment où un religieux ou un banquier central fait preuve d’entendement, de curiosité et de bonne volonté et qu’ils s’intéressent à un concept en cherchant d’abord à le comprendre plutôt qu’en en jugeant les effets pour faire correspondre leur opinion à leurs attentes, ils seront alors certainement en mesure d’y adhérer. 
+Or, il apparaît très clairement qu’à partir du moment où un religieux ou un banquier central fait preuve d’entendement, de curiosité et de bonne volonté et qu’ils s’intéressent à un concept en cherchant d’abord à le comprendre plutôt qu’en jugeant les effets pour faire correspondre leur opinion à leurs attentes, ils seront alors certainement en mesure d’y adhérer. 
 
 Merci de votre attention et je vous retrouve dans le prochain chapitre.
 
@@ -446,7 +446,7 @@ Croire ou imaginer le contraire pour nous rassurer est la raison pour laquelle n
 
 Qu’il n’y a pas de crainte sans espoir, ni d’espoir sans crainte et que celui qui craint espère toujours échapper à ce qu’il craint alors que celui qui espère craint toujours que ce qu’il espère ne se produise pas. 
 
-Et comme « nous sommes disposés à croire facilement  ce que nous espérons », dit Spinoza dans son Éthique, c’est lorsque nous affrontons des causes extérieures ou des événements qui nous seraient nuisibles, contraires à toute idée d’utilité, que s’exprime alors la seconde étape de cette illusion dite théologique, caractérisée par des croyances à partir desquelles naît le sentiment superstitieux. 
+Et comme « nous sommes disposés à croire facilement ce que nous espérons », dit Spinoza dans son Éthique, c’est lorsque nous affrontons des causes extérieures ou des événements qui nous seraient nuisibles, contraires à toute idée d’utilité, que s’exprime alors la seconde étape de cette illusion dite théologique, caractérisée par des croyances à partir desquelles naît le sentiment superstitieux. 
 
 Autrement dit « L’infâme » selon Voltaire (1694-1778) pour qui la superstition ne nait jamais de la raison, et pour qui elle correspond toujours à une croyance irrationnelle ou infondée, opposée à toute forme de rationalité en attribuant à des objets ou à des actions des pouvoirs ou une puissance spirituelle qu’ils n’ont pas.
 
@@ -507,7 +507,7 @@ C’est l’idée défendue par les religieux selon laquelle les hommes naissent
 Et que si l’on pense qu’il manque la vue à l’aveugle, c’est uniquement du point de vue de ceux qui voient. 
 Spinoza reprend donc cette idée selon laquelle le mal n’existe pas dans la nature mais son originalité, ce qui en fait une philosophie révolutionnaire est de considérer que le mal n’existe pas et que le « bien » non plus. 
 Et c’est pourquoi il parle d’éthique plutôt que de morale en ne réfléchissant pas sur ce qui est bien ou mal puisque ce sont des notions toutes relatives et subjectives, mais plutôt en fonction de ce qui est « bon » ou « mauvais » pour notre nécessité naturelle à « persévérer dans notre être » dit-il. En d’autres termes à vivre et à grandir. À nous épanouir en tant qu’êtres humains.
-En outre, en ce qui concerne la responsabilité des hommes qui se comporteraient donc mal, en commettant par exemple un crime, nous avons déjà vu que, pour Spinoza, cette manière de penser ne vise évidemment pas à les excuser.  Car les hommes, même s’ils ne connaissent pas les vraies causes qui les déterminent à commettre un crime, sont toujours conscients de ce qu’ils font et sont donc, à ce titre, responsables devant la morale et la Loi.
+En outre, en ce qui concerne la responsabilité des hommes qui se comporteraient donc mal, en commettant par exemple un crime, nous avons déjà vu que, pour Spinoza, cette manière de penser ne vise évidemment pas à les excuser. Car les hommes, même s’ils ne connaissent pas les vraies causes qui les déterminent à commettre un crime, sont toujours conscients de ce qu’ils font et sont donc, à ce titre, responsables devant la morale et la Loi.
 Il est évident que les actions, par exemple d’un criminel, sont toujours liées à un déterminisme, familial, social, économique, voire médical si ses crimes s’expliquent par une pathologie physique ou mentale. Et c’est d’ailleurs le rôle de la justice qui, au-delà du droit pénal, prend en compte le fait que certains crimes ne doivent pas seulement être punis mais aussi faire l’objet de soins, compte tenu du passé familial, social et psychologique du délinquant.
 C’est la raison pour laquelle le spinoziste Gilles Deleuze (1925-1995) explique que l’éthique est en quelque sorte une éthologie, c’est-à-dire une science pratique des manières d’être, ou dit-il encore, « l’art de faire de bonnes rencontres ». 
 
@@ -612,7 +612,7 @@ Hayek, lui, considère que toutes décisions économiques expriment toujours une
 C’est ainsi que ces économistes autrichiens libéraux vont critiquer fermement toute idée socialiste, Hayek parle de « planisme », et toutes politiques morales qui s’en inspirent et ne conduisent, selon lui, qu’à la ruine. Donner le pouvoir économique aux gouvernements, forcément en retard d’informations et en décalage sur ce qu’il faut faire, ou pas est voué, selon eux, à l’échec.
 Par exemple, les Autrichiens considèrent que quand un État se donne, par la contrainte, le pouvoir de créer de l’argent pour gérer l’économie et résoudre les crises, le risque est qu’il n’est dès lors jamais plus capable de ne pas abuser de ce pouvoir. 
 
-Pourquoi ? Parce qu’il se retrouve alors toujours  dans une forme de servitude qui l’en empêche et le pousse donc, dirait Spinoza « à voir le meilleur, à l’approuver… mais à faire le pire ».
+Pourquoi ? Parce qu’il se retrouve alors toujours dans une forme de servitude qui l’en empêche et le pousse donc, dirait Spinoza « à voir le meilleur, à l’approuver… mais à faire le pire ».
 Or, en bon spinoziste, Hayek explique justement dans une vidéo que « comme ce pouvoir ne peut lui être retiré sans violence, tout ce que l’on peut, c’est le faire grâce à une astuce et introduire un nouveau concept de monnaie que les gouvernements ne pourraient plus arrêter ». Un argument que reprendra Milton Friedman (1912-2006) dans une interview dans laquelle il évoque à son tour cette nouvelle forme de monnaie numérique dans le contexte de l’internet naissant.
 
 ![image](./assets/fr/4.3.5.webp)

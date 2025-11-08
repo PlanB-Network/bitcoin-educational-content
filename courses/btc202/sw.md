@@ -118,7 +118,7 @@ Kisha tutachukua muda kukagua baadhi ya nadharia iliyoshughulikiwa mapema katika
 
 
 
-Kama ilivyo kwa kozi zote za Plan ₿ Network, katika sehemu ya mwisho, utapata mtihani wa mwisho ili kujaribu ujuzi wako wa node za Bitcoin.
+Kama ilivyo kwa kozi zote za Plan ₿ Academy, katika sehemu ya mwisho, utapata mtihani wa mwisho ili kujaribu ujuzi wako wa node za Bitcoin.
 
 
 
@@ -3894,7 +3894,7 @@ Sasa unaweza kuendelea hadi sehemu ya mwisho ya kozi, ambapo utaweza kutathmini 
 
 
 
-Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi Lightning node yako, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Network.
+Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi Lightning node yako, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Academy.
 
 
 

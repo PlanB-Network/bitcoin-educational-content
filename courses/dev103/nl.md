@@ -191,7 +191,7 @@ Programma's voeren meestal bewerkingen uit op gegevens.
 Variabelen zijn als het ware naamvakjes die we gebruiken om gegevens in op te slaan. Ze stellen ons in staat om een gegeven te associëren met een specifieke naam, zodat we het later kunnen ophalen met die naam.
 
 
-### `let` verklaringen
+### let verklaringen
 
 
 Om een variabele te declareren in JavaScript, kunnen we het sleutelwoord `let` gebruiken.
@@ -355,7 +355,7 @@ Bob
 Zoals je kunt zien, zijn zowel `score` als `speler` gewijzigd.
 
 
-### `const` declaraties
+### const declaraties
 
 
 Meestal willen we echter niet dat een variabele verandert nadat hij is gemaakt. Daarvoor gebruiken we `const`.
@@ -875,7 +875,7 @@ undefined
 Wat is dat?
 
 
-### `undefined`
+### undefined
 
 
 De speciale waarde `undefined` betekent "er is geen waarde toegekend".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` en hoe het te behandelen
+### null en hoe het te behandelen
 
 
 `null` is ook een speciale waarde. Het betekent "er is hier niets, en dat heb ik expres gedaan"
@@ -1075,7 +1075,7 @@ Dit betekent dat we blokken kunnen gebruiken om delen van onze code te isoleren 
 Door onze code te organiseren in blokken kunnen we ook de uitvoering van het programma structureren, met controlestroomconstructies zoals `if`
 
 
-### `if`, `else`
+### if, else
 
 
 Soms willen we code uitvoeren **alleen als** iets waar is. Daar is het `if` statement voor.
@@ -1190,7 +1190,7 @@ Omdat we de `!` operator hebben gebruikt om de `adult` variabele om te keren.
 Met blokken, logica en vergelijkingsoperatoren kunnen we de uitvoering van het programma structureren door variabelen te definiëren die `waar` (of `onwaar`) moeten zijn om iets te laten gebeuren.
 
 
-### terwijl`, `onderbreken`, `doorgaan`
+### terwijl, onderbreken, doorgaan
 
 
 Een `while` lus herhaalt code *zolang* een voorwaarde waar is.
@@ -1282,7 +1282,7 @@ Deze afdrukken:
 Want toen het getal `3` was, zorgde `continue` ervoor dat het programma de regel oversloeg die het getal afdrukte.
 
 
-### `voor ... van ...`
+### voor ... van ...
 
 
 Als je een array hebt en iets wilt doen met elk item erin, kun je `for ... of ... gebruiken. {...}`.
@@ -1312,7 +1312,7 @@ Het blok wordt één keer uitgevoerd voor elk element van de array.
 `fruit` is hier een nieuwe variabele die de waarde aanneemt van elk item in de array, om er binnen het blok mee te werken.
 
 
-### `voor ... in ...`
+### voor ... in ...
 
 
 Je kunt `for ... in` gebruiken om over de sleutels (indexen) van een array te lussen:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (uitvoer van functies)
+### return (uitvoer van functies)
 
 
 Functies kunnen ook waarden **retourneren**. Dit betekent dat ze een waarde terugsturen naar waar de functie ook werd aangeroepen.
@@ -1749,7 +1749,7 @@ JavaScript wordt vaak een objectgeoriënteerde taal genoemd.
 Dat betekent dat het je helpt je code te organiseren door waarden en functies te groeperen in **objecten**.
 
 
-### Wat is een `object`?
+### Wat is een object?
 
 
 Een object kan gegevens bevatten en functies die op die gegevens werken. Als een functie in een object wordt gestopt, zeggen we dat het een `methode` is.
@@ -2252,7 +2252,7 @@ Met JavaScript kun je objecten vrijelijk een andere vorm geven, maar als je klas
 
 
 
-### Overerving met `extends` en `super()`
+### Overerving met extends en super()
 
 
 Soms wil je een klasse maken die *bijna* hetzelfde is als een andere klasse, maar met een paar extra mogelijkheden.
@@ -2374,7 +2374,7 @@ Samengevat
 Dit is handig als je verschillende dingen hebt die op elkaar lijken (zoals auto's, vrachtwagens en fietsen) en je wilt dat ze code delen maar zich toch op hun eigen manier gedragen.
 
 
-### `instantie van`
+### instantie van
 
 
 Het `instanceof` sleutelwoord controleert of een object is gemaakt van een bepaalde klasse.
@@ -2439,7 +2439,7 @@ Naarmate je complexere JavaScript-programma's schrijft, zul je **errors** tegenk
 Als we deze fouten niet goed afhandelen, kan ons programma crashen of zich op onvoorspelbare manieren gedragen. JavaScript biedt hulpmiddelen om deze fouten op te sporen en te beheren, zodat we er beter mee om kunnen gaan.
 
 
-### Veelvoorkomende fout: een waarde openen op `undefined`
+### Veelvoorkomende fout: een waarde openen op undefined
 
 
 Hier is een veelvoorkomende situatie die een fout veroorzaakt:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 Dat is JavaScript die je vertelt: "Hé, je probeerde de `naam` eigenschap te krijgen van iets dat `ongedefinieerd` is, en dat slaat nergens op." En zoals je kunt zien, wanneer dit soort fouten optreedt, stopt het programma met draaien tenzij je specifiek code hebt geschreven om het op te vangen en af te handelen.
 
 
-### een fout `gooien
+### een fout gooien
 
 
 Soms wil je handmatig **een foutmelding** maken in je code. In dat geval gebruik je het `throw` sleutelwoord.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 De tweede aanroep veroorzaakt een fout omdat delen door nul niet is toegestaan in dit voorbeeld.
 
 
-### Fouten opvangen met `try...catch`
+### Fouten opvangen met try...catch
 
 
 Als je niet wilt dat je programma crasht als er een fout optreedt, kun je de fout opvangen met een `try...catch` blok. Dit is handig als je wilt dat je programma **doorgaat** zelfs als er iets mislukt.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Het `finaal` blok
+### Het finaal blok
 
 
 Je kunt ook een `finally` blok toevoegen. Dit is code die **altijd** wordt uitgevoerd, of er nu een fout is opgetreden of niet.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Dit hoofdstuk laat een aantal van de meest voorkomende valkuilen in JavaScript zien, en hoe je ze kunt vermijden.
 
 
-### `var` en Assignment zonder declaratie
+### var en Assignment zonder declaratie
 
 
 In oudere JavaScript-code werden variabelen vaak gedeclareerd met het `var` sleutelwoord. In tegenstelling tot `let` en `const`, waar je al over geleerd hebt, kan `var` zich op verwarrende manieren gedragen.
@@ -2650,7 +2650,7 @@ In deze voorbeelden probeert JavaScript te raden wat je bedoelde. Soms verandert
 Het is belangrijk om je bewust te zijn van het zwakke typesysteem van JavaScript. Als dingen vreemd gaan doen, kan dat komen door onverwachte type coercion.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Je kunt een strengere modus inschakelen die van sommige stille fouten echte fouten maakt en je ervan weerhoudt om sommige van de gevaarlijkere functies van de taal te gebruiken.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 De standaardwaarde `"friend"` wordt gebruikt als er niets wordt doorgegeven.
 
 
-### Gespreide parameters (`...`)
+### Gespreide parameters (...)
 
 
 Wat als je functie een flexibel aantal argumenten neemt?
@@ -3030,7 +3030,7 @@ De `makeGreeter` functie is een functie die andere functies bouwt. Het ontvangt 
 Dit soort patronen is erg krachtig, omdat het je in staat stelt om "gaten" in je functies te laten die je later kunt vullen met het gedrag dat je nodig hebt.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript geeft je een aantal handige ingebouwde methoden om te gebruiken met arrays.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Privé-eigenschappen zijn handig wanneer u onbedoelde wijzigingen wilt voorkomen.
 
 
-### `statische` Eigenschappen
+### statische Eigenschappen
 
 
 Soms wil je dat een eigenschap bij de klasse zelf hoort, niet bij elk object dat je van die klasse maakt. Daar is `static` voor. Een `statische` eigenschap zit in de klasse en alle objecten van die klasse zullen ernaar verwijzen.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Dit is handig voor het opslaan van gedeelde gegevens en methoden die van toepassing zijn op de hele groep objecten, niet slechts één.
 
 
-### `get` en `set`
+### get en set
 
 
 In JavaScript kun je met `get` en `set` eigenschappen maken die er *uitzien* als normale variabelen, maar eigenlijk speciale code uitvoeren op de achtergrond.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Dit wordt een **berekende eigenschap** genoemd. De waarde binnen de vierkante haakjes wordt geëvalueerd en het resultaat wordt gebruikt als sleutel.
 
 
-### `Symbool` Type
+### Symbool Type
 
 
 Naast strings kun je in JavaScript ook een speciaal type genaamd `Symbool` gebruiken als objectsleutel.
@@ -3421,7 +3421,7 @@ Zoals je kunt zien, blijft de oorspronkelijke `naam` eigenschap op de een of and
 JavaScript geeft ons een aantal handige ingebouwde objecten die ons helpen om dingen te doen zoals debuggen en wiskundige bewerkingen.
 
 
-### Andere `console`-Methoden
+### Andere console-Methoden
 
 
 Je hebt `console.log` al gezien, dat waarden op het scherm afdrukt.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Nuttig voor eenvoudige prestatietests.
 
 
-### Het `Math`-object
+### Het Math-object
 
 
 JavaScript geeft je een `Math` object met handige methoden om berekeningen uit te voeren.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Kaarten zijn geweldig voor het beheren van grote verzamelingen waarden, omdat het benaderen van waarden op een grote kaart meestal veel betere prestaties geeft dan op een groot object.
 
 
-### `Set`
+### Set
 
 
 Een `Set` is een verzameling van **alleen waarden** (geen sleutels), waarbij elke waarde **uniek** moet zijn. Dat betekent:
@@ -3770,7 +3770,7 @@ De meeste dingen in JavaScript waar je overheen kunt lussen (zoals arrays, strin
 Een **iterator** is een speciaal object in JavaScript waarmee je **één voor één** door een lijst met items kunt gaan.
 
 
-### `Object` iterators
+### Object iterators
 
 
 In tegenstelling tot arrays of maps zijn gewone objecten **niet iterabel** met `for...of`. Als je dit probeert:
@@ -3892,7 +3892,7 @@ Hoewel objecten niet direct iterabel zijn, geven deze methoden je volledige toeg
 Maar hoe werken iterators?
 
 
-### `symbool.iterator`
+### symbool.iterator
 
 
 Het geheim achter alle iterables is een speciaal **symbool** genaamd `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Elke aanroep van `.next()` geeft je de volgende waarde. Als het klaar is, keert 
 ```
 
 
-### `volgende()`
+### volgende()
 
 
 De `.next()` methode wordt gebruikt om het volgende item uit de reeks te krijgen.
@@ -4046,7 +4046,7 @@ Dit is wat er gebeurt:
 Nu werkt onze `Range` klasse als een array en kunnen we het gebruiken in elke lus die een iterable verwacht.
 
 
-### Generatorfuncties en `opbrengst
+### Generatorfuncties en opbrengst
 
 
 Om het gemakkelijker te maken om iterators te maken, geeft JavaScript je **generatorfuncties**, door gebruik te maken van het `function*` sleutelwoord (het is `function` met een `*` aan het einde) en het `yield` sleutelwoord.
@@ -4105,7 +4105,7 @@ Tot nu toe was onze code **synchroon**: het werd regel voor regel uitgevoerd, in
 In dit hoofdstuk introduceren we een nieuw concept: **concurrency**. Hiermee kunnen we de volgorde waarin dingen gedaan worden manipuleren. Dit is handig als je te maken hebt met zaken als timers, gebruikersinvoer of het lezen van bestanden van schijf. JavaScript biedt verschillende hulpmiddelen voor het uitvoeren van concurrency.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Met de functie `setTimeout` kun je **een functie later uitvoeren**, nadat er enige tijd is verstreken.
@@ -4253,7 +4253,7 @@ Daarbinnen geven we het een functie met twee parameters:
 In het bovenstaande voorbeeld lossen we het direct op met het bericht `"Het is gelukt!"`.
 
 
-### `.dan()`
+### .dan()
 
 
 Om iets te doen **nadat** de belofte is gedaan, gebruiken we `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `verwerp()`
+### verwerp()
 
 
 Laten we een belofte maken die **faalt**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Operaties aaneenschakelen met `belofte`s
+### Operaties aaneenschakelen met beloftes
 
 
 
@@ -4551,7 +4551,7 @@ Laten we eens doorlopen wat dit doet:
 Elke `.then()` wacht tot de stap ervoor is voltooid. We kunnen dus een **keten van acties** bouwen zonder nesting. Dit maakt de code leesbaarder en makkelijker te debuggen.
 
 
-## Concurrency met `async`/`await`
+## Concurrency met async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ We hebben gezien hoe `Promise` ketens ons helpen om callback hel te vermijden, m
 Dat is waar `async` en `await` om de hoek komen kijken. Ze laten ons asynchrone code schrijven **die eruit ziet als synchrone code**, wat het makkelijker te begrijpen maakt.
 
 
-### Wat is `async`?
+### Wat is async?
 
 
 Als je het sleutelwoord `async` voor een functie schrijft, verpakt JavaScript de retourwaarde van de functie automatisch in een belofte.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Of je kunt `await` gebruiken...
 
 
-### Wat is `wachten`?
+### Wat is wachten?
 
 
 Het sleutelwoord `await` vertelt JavaScript: "wacht tot deze belofte is gedaan en geef me dan het resultaat"
@@ -4638,7 +4638,7 @@ Nu kunnen we het resultaat gebruiken alsof het een gewone waarde is.
 Laten we nu iets nuttigers doen.
 
 
-### Een vertraging simuleren met `await`
+### Een vertraging simuleren met await
 
 
 We maken een eenvoudige `wait` functie die een aantal milliseconden als argument neemt en na zoveel milliseconden oplost, zonder iets anders te doen:
@@ -4881,7 +4881,7 @@ Async iterators zijn nuttig wanneer:
 Als je bijvoorbeeld berichten van een chatserver één voor één wilt laden, of een groot bestand in brokken wilt downloaden, geven async iterators je een manier om een `for` lus te schrijven die werkt met vertraagde gegevens.
 
 
-### `symbool.asyncIterator`
+### symbool.asyncIterator
 
 
 We kunnen ook async iterators gebruiken in aangepaste klassen.
@@ -5287,7 +5287,7 @@ Met NodeJS kunnen we onder andere CLI's (Command Line Interfaces) bouwen.
 Daarvoor hebben we een manier nodig om commandoregel argumenten te ontvangen, wat in Node wordt gedaan met behulp van het ingebouwde `process` object.
 
 
-### `proces`
+### proces
 
 
 NodeJS biedt een speciaal object genaamd `process` dat het huidige lopende programma vertegenwoordigt.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Dit drukt het platform van het besturingssysteem af, zoals `win32`, `linux`, of `darwin` (Mac).
 
 
-### `proces.argv`
+### proces.argv
 
 
 Wanneer je een NodeJS programma vanaf de terminal uitvoert, kun je extra woorden (argumenten) achter de naam van het script zetten. Deze worden opgeslagen in `process.argv`.
@@ -5493,7 +5493,7 @@ Je hoeft deze ingebouwde modules niet te installeren, ze worden met NodeJS meege
 De volgende hoofdstukken tonen je enkele nuttige voorbeelden van hun gebruik.
 
 
-## De module `fs
+## De module fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 Het `package.json` bestand is gewoon een JSON bestand dat metadata over je project opslaat.
@@ -5960,7 +5960,7 @@ Wat heeft de NPM gedaan?
 Wat is `package-lock.json`?
 
 
-### `pakket-slot.json`
+### pakket-slot.json
 
 
 Dit bestand wordt automatisch aangemaakt door NPM.
@@ -6023,7 +6023,7 @@ NodeJS wordt vaak gebruikt als een taal voor backend: je kunt van je script een 
 In dit hoofdstuk introduceren we enkele basis netwerkfuncties waarmee je dat kunt doen.
 
 
-### `fetch()`
+### fetch()
 
 
 Als je wilt dat je programma gegevens download van een website of een API, dan moet je een **HTTP verzoek** doen.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Zorg er dus voor dat de string goed geformatteerd is.
 
 
-### `http` server
+### http server
 
 
 Met NodeJS kun je een webserver maken zonder iets anders te installeren.

@@ -191,7 +191,7 @@ Programy obvykle provádějí operace s daty.
 Proměnné jsou jako pojmenované boxy, které používáme k ukládání dat. Umožňují nám přiřadit části dat konkrétní jméno, abychom je mohli později pomocí tohoto jména vyhledat.
 
 
-### deklarace `let`
+### deklarace let
 
 
 K deklaraci proměnné v jazyce JavaScript můžeme použít klíčové slovo `let`.
@@ -355,7 +355,7 @@ Bob
 Jak vidíte, změnilo se jak `skóre`, tak `hráč`.
 
 
-### deklarace `const`
+### deklarace const
 
 
 Většinou však nechceme, aby se proměnná po vytvoření měnila. K tomu používáme `const`.
@@ -875,7 +875,7 @@ undefined
 Co je to??
 
 
-### `undefined`
+### undefined
 
 
 Zvláštní hodnota `undefined` znamená "nebyla přiřazena žádná hodnota".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` a jak s ním zacházet
+### null a jak s ním zacházet
 
 
 `null` je také speciální hodnota. Znamená "nic tu není a udělal jsem to schválně"
@@ -1075,7 +1075,7 @@ To znamená, že pomocí bloků můžeme izolovat části kódu a mít jistotu, 
 Uspořádání kódu do bloků nám také umožňuje strukturovat provádění programu pomocí konstrukcí toku řízení, jako je `if`
 
 
-### `if`, `else`
+### if, else
 
 
 Někdy chceme spustit kód **pouze tehdy**, když je něco pravda. K tomu slouží příkaz `if`.
@@ -1190,7 +1190,7 @@ Protože jsme použili operátor `!` k invertování proměnné `adult`.
 Pomocí bloků, logických a porovnávacích operátorů můžeme strukturovat provádění programu definováním proměnných, které musí být `pravdivé` (nebo `nepravdivé`), aby se něco stalo.
 
 
-### `while`, `break`, `continue`
+### while, break, continue
 
 
 Smyčka `while` opakuje kód *pokud je podmínka pravdivá*.
@@ -1282,7 +1282,7 @@ Tento tisk:
 Protože když bylo číslo `3`, `continue` způsobilo, že program přeskočil řádek, který vypisuje číslo.
 
 
-### `pro ... z ...`
+### pro ... z ...
 
 
 Pokud máte pole a chcete něco udělat s každou položkou v něm, můžete použít `for ... of .... {...}`.
@@ -1312,7 +1312,7 @@ Blok se provede jednou pro každý prvek pole.
 `fruit` je zde nová proměnná, která přebírá hodnotu každé položky v poli a pracuje s ní uvnitř bloku.
 
 
-### `pro ... v ...`
+### pro ... v ...
 
 
 Pomocí `for ... in` můžete procházet klíče (indexy) pole:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (výstup z funkcí)
+### return (výstup z funkcí)
 
 
 Funkce mohou také **vracet** hodnoty. To znamená, že odešlou hodnotu zpět do místa, kde byla funkce zavolána.
@@ -1749,7 +1749,7 @@ JavaScript je často označován za objektově orientovaný jazyk.
 To znamená, že vám pomáhá organizovat kód seskupováním hodnot a funkcí do **objektů**.
 
 
-### Co je to `objekt`?
+### Co je to objekt?
 
 
 Objekt může obsahovat data a funkce, které s těmito daty pracují. Když je funkce vložena do objektu, říkáme, že je to `metoda`.
@@ -2252,7 +2252,7 @@ JavaScript umožňuje libovolně měnit tvar objektů, ale při použití tříd
 
 
 
-### Dědičnost pomocí `extends` a `super()`
+### Dědičnost pomocí extends a super()
 
 
 Někdy chcete vytvořit třídu, která je *téměř* stejná jako jiná třída, ale má několik funkcí navíc.
@@ -2374,7 +2374,7 @@ Takže shrnutí
 To je užitečné, když máte několik podobných věcí (například osobní a nákladní auta a kola) a chcete, aby sdílely kód, ale přitom se chovaly samostatně.
 
 
-### `instanceof`
+### instanceof
 
 
 Klíčové slovo `instanceof` kontroluje, zda byl objekt vytvořen z určité třídy.
@@ -2439,7 +2439,7 @@ Při psaní složitějších programů v jazyce JavaScript se budete setkávat s
 Pokud tyto chyby neošetříme správně, může náš program spadnout nebo se chovat nepředvídatelně. JavaScript poskytuje nástroje pro detekci a správu těchto chyb, abychom je mohli řešit šetrněji.
 
 
-### Běžná chyba: přístup k hodnotě na `undefined`
+### Běžná chyba: přístup k hodnotě na undefined
 
 
 Zde je běžná situace, která způsobuje chybu:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 To vám říká JavaScript: "Hej, pokusil ses získat vlastnost `name` z něčeho, co je `undefined`, a to nedává smysl." A jak vidíte, když dojde k takové chybě, program přestane běžet, pokud jste speciálně nenapsali kód, který ji zachytí a ošetří.
 
 
-### `vyhodit` chybu
+### vyhodit chybu
 
 
 Někdy chcete v kódu ručně **vyvolat chybu**. V takovém případě použijete klíčové slovo `throw`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Druhé volání způsobí chybu, protože dělení nulou není v tomto příkladu povoleno.
 
 
-### Chytání chyb pomocí `try...catch`
+### Chytání chyb pomocí try...catch
 
 
 Pokud nechcete, aby váš program při výskytu chyby spadl, můžete chybu zachytit pomocí bloku `try...catch`. To je užitečné, pokud chcete, aby váš program **pokračoval**, i když se něco nepodaří.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Blok `finally`
+### Blok finally
 
 
 Můžete také přidat blok `finally`. To je kód, který se **vždy spustí**, ať už došlo k chybě, nebo ne.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 V této kapitole se dozvíte o některých nejčastějších nástrahách jazyka JavaScript a o tom, jak se jim vyhnout.
 
 
-### `var` a Assignment bez deklarace
+### var a Assignment bez deklarace
 
 
 Ve starším kódu JavaScriptu se proměnné často deklarovaly pomocí klíčového slova `var`. Na rozdíl od `let` a `const`, o kterých jste se již dozvěděli, se `var` může chovat matoucím způsobem.
@@ -2650,7 +2650,7 @@ V těchto příkladech se JavaScript snaží odhadnout, co jste měli na mysli. 
 Je důležité znát slabý systém typování jazyka JavaScript. Pokud se věci začnou chovat podivně, může to být způsobeno neočekávaným vynucením typu.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Můžete povolit přísnější režim, který změní některé tiché chyby na skutečné chyby a zabrání vám používat některé nebezpečnější funkce jazyka.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Pokud není předáno nic, použije se výchozí hodnota `"friend"`.
 
 
-### Parametry rozptylu (`...`)
+### Parametry rozptylu (...)
 
 
 Co když vaše funkce přijímá flexibilní počet argumentů?
@@ -3030,7 +3030,7 @@ Funkce `makeGreeter` je funkce, která vytváří další funkce. Přijme řetě
 Tento druh vzoru je velmi účinný, protože umožňuje ponechat ve funkcích "díry", které můžete později vyplnit potřebným chováním.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript nabízí několik užitečných vestavěných metod pro práci s poli.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Soukromé vlastnosti jsou užitečné, pokud chcete zabránit náhodným změnám.
 
 
-### `static` Vlastnosti
+### static Vlastnosti
 
 
 Někdy chcete, aby vlastnost patřila samotné třídě, nikoli každému objektu, který z této třídy vytvoříte. K tomu slouží funkce `static`. Vlastnost `static` je obsažena ve třídě a všechny objekty této třídy se na ni budou odkazovat.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 To je užitečné pro ukládání sdílených dat a metod, které se vztahují na celou skupinu objektů, nikoli pouze na jeden.
 
 
-### `get` a `set`
+### get a set
 
 
 V jazyce JavaScript umožňují funkce `get` a `set` vytvářet vlastnosti, které se tváří jako běžné proměnné, ale ve skutečnosti na pozadí spouštějí speciální kód.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Tato vlastnost se nazývá **vypočtená vlastnost**. Hodnota uvnitř hranatých závorek se vyhodnotí a výsledek se použije jako klíč.
 
 
-### `Symbol` Typ
+### Symbol Typ
 
 
 Kromě řetězců umožňuje JavaScript používat jako klíč objektu také speciální typ `Symbol`.
@@ -3421,7 +3421,7 @@ Jak vidíte, původní vlastnost `name` je tímto způsobem zachována. To můž
 JavaScript nám poskytuje několik užitečných vestavěných objektů, které nám pomáhají provádět například ladění a matematické operace.
 
 
-### Další metody `konzole`
+### Další metody konzole
 
 
 Již jste viděli soubor `console.log`, který vypisuje hodnoty na obrazovku.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Užitečné pro jednoduché testování výkonu.
 
 
-### Objekt `Math`
+### Objekt Math
 
 
 JavaScript vám nabízí objekt `Math` s užitečnými metodami pro provádění výpočtů.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Mapy jsou skvělé pro správu velkých kolekcí hodnot, protože přístup k hodnotám na velké mapě je obvykle mnohem výkonnější než na velkém objektu.
 
 
-### `Set`
+### Set
 
 
 `Sada` je kolekce **pouze hodnot** (bez klíčů), přičemž každá hodnota musí být **jedinečná**. To znamená:
@@ -3770,7 +3770,7 @@ Většina věcí v JavaScriptu, nad kterými lze pracovat ve smyčce (např. pol
 **iterátor** je v jazyce JavaScript speciální objekt, který vám pomůže procházet seznam položek **jednou po druhé**.
 
 
-### iterátory `Object`
+### iterátory Object
 
 
 Na rozdíl od polí nebo map nejsou běžné objekty ** iterovatelné** pomocí `for...of`. Pokud zkusíte toto:
@@ -3892,7 +3892,7 @@ Přestože objekty nejsou přímo iterovatelné, tyto metody umožňují plný p
 Jak ale iterátory fungují?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Tajemstvím všech iterátorů je speciální **symbol** zvaný `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Každé volání `.next()` vám poskytne další hodnotu. Po dokončení se vrá
 ```
 
 
-### `next()`
+### next()
 
 
 Metoda `.next()` slouží k získání další položky z posloupnosti.
@@ -4046,7 +4046,7 @@ Děje se toto:
 Nyní naše třída `Range` funguje jako pole a můžeme ji použít v libovolném cyklu, který očekává iterovatelný soubor.
 
 
-### Funkce generátoru a `yield`
+### Funkce generátoru a yield
 
 
 Pro usnadnění vytváření iterátorů vám JavaScript nabízí **generátorové funkce**, které používají klíčové slovo `function*` (je to `function` s `*` na konci) a klíčové slovo `yield`.
@@ -4105,7 +4105,7 @@ Až dosud byl náš kód **synchronní**: spouštěl se postupně po jednotlivý
 V této kapitole představíme nový koncept: **měna**. Umožňuje nám manipulovat s pořadím, v jakém se věci provádějí. To je užitečné při práci s věcmi, jako jsou časovače, uživatelský vstup nebo čtení souborů z disku. JavaScript nabízí různé nástroje pro provádění souběhu.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Funkce `setTimeout` umožňuje **spustit funkci později**, po uplynutí určitého času.
@@ -4253,7 +4253,7 @@ Uvnitř ní zadáme funkci se dvěma parametry:
 Ve výše uvedeném příkladu to prostě okamžitě vyřešíme zprávou `"Funguje to!"`.
 
 
-### `.then()`
+### .then()
 
 
 Chceme-li něco udělat **po** splnění slibu, použijeme `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `odmítnout()`
+### odmítnout()
 
 
 Vytvořme slib, který **neplní**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Řetězení operací pomocí `Promise`
+### Řetězení operací pomocí Promise
 
 
 
@@ -4551,7 +4551,7 @@ Projděme si, co to dělá:
 Každý krok `.then()` čeká na dokončení kroku, který mu předchází. Můžeme tedy vytvořit **řetězec akcí** bez vnořování. Díky tomu je kód čitelnější a snadněji se ladí.
 
 
-## Souběh s `async`/`await`
+## Souběh s async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Viděli jsme, jak nám řetězce `Promise` pomáhají vyhnout se peklu zpětnýc
 K tomu slouží `async` a `await`. Umožňují nám psát asynchronní kód, **který vypadá jako synchronní**, což usnadňuje jeho pochopení.
 
 
-### Co je `async`?
+### Co je async?
 
 
 Pokud před funkci napíšete klíčové slovo `async`, JavaScript automaticky zabalí návratovou hodnotu funkce do slibu.
@@ -4638,7 +4638,7 @@ Nyní můžeme výsledek použít, jako by to byla běžná hodnota.
 Pojďme teď udělat něco užitečnějšího.
 
 
-### Simulace zpoždění pomocí `await`
+### Simulace zpoždění pomocí await
 
 
 Vytvoříme jednoduchou funkci `wait`, která jako argument přijme počet milisekund a po uplynutí tohoto počtu milisekund se prostě ukončí, aniž by dělala cokoli dalšího:
@@ -4881,7 +4881,7 @@ Asynchronní iterátory jsou užitečné, když:
 Pokud například chcete načítat zprávy ze serveru chatu jednu po druhé nebo stahovat velký soubor po částech, asynchronní iterátory vám umožní napsat cyklus `for`, který pracuje se zpožděnými daty.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Asynchronní iterátory můžeme používat i ve vlastních třídách.
@@ -5287,7 +5287,7 @@ NodeJS nám mimo jiné umožňuje vytvářet CLI (Command Line Interfaces).
 K tomu potřebujeme způsob, jak přijímat argumenty příkazového řádku, což se v Node děje pomocí vestavěného objektu `process`.
 
 
-### `process`
+### process
 
 
 NodeJS poskytuje speciální objekt `process`, který představuje aktuálně běžící program.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Vypíše platformu operačního systému, například `win32`, `linux` nebo `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Při spouštění programu NodeJS z terminálu můžete za název skriptu zadat další slova (argumenty). Ty jsou uloženy v souboru `process.argv`.
@@ -5493,7 +5493,7 @@ Tyto vestavěné moduly nemusíte instalovat, jsou součástí NodeJS. Tvoří "
 V dalších kapitolách si ukážeme několik užitečných příkladů jejich použití.
 
 
-## Modul `fs`
+## Modul fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 Soubor `package.json` je pouze soubor JSON, který uchovává metadata o vašem projektu.
@@ -5960,7 +5960,7 @@ Co udělal NPM ?
 Co je to `package-lock.json` ?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Tento soubor je automaticky vytvořen pomocí NPM.
@@ -6023,7 +6023,7 @@ NodeJS se často používá jako jazyk pro backend: můžete svůj skript promě
 V této kapitole si představíme některé základní síťové funkce, které vám to umožní.
 
 
-### `fetch()`
+### fetch()
 
 
 Pokud chcete, aby váš program stahoval data z webové stránky nebo rozhraní API, musíte provést požadavek **HTTP**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Ujistěte se, že je řetězec správně naformátován.
 
 
-### server `http`
+### server http
 
 
 NodeJS umožňuje vytvořit webový server, aniž byste museli instalovat cokoli dalšího.

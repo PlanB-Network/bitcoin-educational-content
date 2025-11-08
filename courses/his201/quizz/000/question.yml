@@ -6,21 +6,23 @@ author: satoshi-brother
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - lugaxker
-    reward: 0.07
+      - nrak10
+    reward: 0.04
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
   - language: de
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.14
+      - reneplass
+    reward: 0.07
   - language: en
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -48,10 +50,11 @@ proofreading:
     contributor_names:
     reward: 0.17
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.14
+      - Bitman-ops
+    reward: 0.07
   - language: ja
     last_contribution_date:
     urgency: 1

@@ -1,3 +1,4 @@
+
 import os
 import re
 import uuid
@@ -25,14 +26,13 @@ class ProjectPage(ctk.CTkFrame):
         project_data = self.settings.get("project_data", {})
 
         self.licence_var = ctk.StringVar(value=project_data.get("licence", DEFAULT_LICENCE))
-
         if self.licence_var.get() not in LICENCE_OPTIONS:
             self.licence_var.set(DEFAULT_LICENCE)
 
         self.master.active_page = self
         
         # Configure grid layout
-        for i in range(13):
+        for i in range(16):
             self.grid_rowconfigure(i, weight=1)
         for j in range(4):
             self.grid_columnconfigure(j, weight=1)
@@ -61,7 +61,7 @@ class ProjectPage(ctk.CTkFrame):
         )
         row += 1
         
-        # Optional website and Twitter inputs
+        # Website / Twitter
         ctk.CTkLabel(self, text="Website (optional):", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
@@ -75,6 +75,33 @@ class ProjectPage(ctk.CTkFrame):
         self.twitter_var = ctk.StringVar(value=project_data.get("twitter", ""))
         ctk.CTkEntry(self, textvariable=self.twitter_var, width=200, font=("Arial", 14, "bold")).grid(
             row=row, column=3, padx=10, pady=5, sticky="ew"
+        )
+        row += 1
+
+        # Nostr / LinkedIn
+        ctk.CTkLabel(self, text="Nostr (optional):", font=("Arial", 14)).grid(
+            row=row, column=0, sticky="w", padx=10
+        )
+        self.nostr_var = ctk.StringVar(value=project_data.get("nostr", ""))
+        ctk.CTkEntry(self, textvariable=self.nostr_var, width=200, font=("Arial", 14, "bold")).grid(
+            row=row, column=1, padx=10, pady=5, sticky="ew"
+        )
+        ctk.CTkLabel(self, text="LinkedIn (optional):", font=("Arial", 14)).grid(
+            row=row, column=2, sticky="w", padx=10
+        )
+        self.linkedin_var = ctk.StringVar(value=project_data.get("linkedin", ""))
+        ctk.CTkEntry(self, textvariable=self.linkedin_var, width=200, font=("Arial", 14, "bold")).grid(
+            row=row, column=3, padx=10, pady=5, sticky="ew"
+        )
+        row += 1
+
+        # GitHub
+        ctk.CTkLabel(self, text="GitHub (optional):", font=("Arial", 14)).grid(
+            row=row, column=0, sticky="w", padx=10
+        )
+        self.github_var = ctk.StringVar(value=project_data.get("github", ""))
+        ctk.CTkEntry(self, textvariable=self.github_var, width=200, font=("Arial", 14, "bold")).grid(
+            row=row, column=1, padx=10, pady=5, sticky="ew"
         )
         row += 1
         
@@ -97,7 +124,6 @@ class ProjectPage(ctk.CTkFrame):
         )
         self.licence_menu.grid(row=row, column=1, padx=10, pady=5, sticky="w")
         row += 1
-
 
         # Tags input and suggestions (minimum 2 tags required)
         ctk.CTkLabel(self, text="Tags (min. 2):", font=("Arial", 14)).grid(
@@ -272,6 +298,9 @@ class ProjectPage(ctk.CTkFrame):
             
             website = self.website_var.get().strip()
             twitter = self.twitter_var.get().strip()
+            nostr = self.nostr_var.get().strip()
+            linkedin = self.linkedin_var.get().strip()
+            github = self.github_var.get().strip()
             category = self.category_var.get().strip()
             language_code = self.settings.get("language", "en").split(" ")[0]
             current_date = datetime.date.today().strftime("%Y-%m-%d")
@@ -287,7 +316,10 @@ class ProjectPage(ctk.CTkFrame):
                 language_code,
                 current_date,
                 global_contributor,
-                licence=self.licence_var.get()
+                licence=self.licence_var.get(),
+                nostr=nostr,
+                linkedin=linkedin,
+                github=github
             )
             project_yaml_path = os.path.join(new_folder, "project.yml")
             write_file(project_yaml_path, project_yaml_content)
@@ -311,6 +343,9 @@ class ProjectPage(ctk.CTkFrame):
             "project_name": self.project_name_var.get(),
             "website": self.website_var.get(),
             "twitter": self.twitter_var.get(),
+            "nostr": self.nostr_var.get(),
+            "linkedin": self.linkedin_var.get(),
+            "github": self.github_var.get(),
             "category": self.category_var.get(),
             "licence": self.licence_var.get(),
             "tag1": self.tag1_var.get(),

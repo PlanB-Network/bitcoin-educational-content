@@ -6,4 +6,4 @@ wrong_answers:
   - Signaturkompaktierung
 explanation: |
   Schnorr ermöglicht die Aggregation mehrerer öffentlicher Schlüssel zu einem einzigen Schlüssel.
-reviewed: false
+reviewed: true

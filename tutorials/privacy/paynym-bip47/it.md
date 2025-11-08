@@ -3,34 +3,41 @@ name: BIP47 - PayNym
 
 description: Come funzionano i PayNym
 ---
-***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, l'applicazione non può più essere utilizzata dagli utenti che non dispongono del proprio Dojo. BIP47 rimane utilizzabile su Sparrow Wallet per tutti gli utenti e **su Samourai Wallet solo per gli utenti che dispongono di un Dojo**.*
+***ATTENZIONE:** in seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, l'applicazione non può più essere utilizzata dagli utenti che non dispongono del proprio Dojo. BIP47 rimane utilizzabile su Sparrow Wallet per tutti gli utenti e **su Samourai Wallet solo per gli utenti che dispongono di un Dojo**.*
 
-_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 
 _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
 
 ---
 
-> "È troppo grande", dicevano tutti, e il tacchino che era nato con gli speroni e si credeva un imperatore, si gonfiò come una nave a tutto vapore e si avvicinò a lui furioso e rosso fino agli occhi. Il povero anatroccolo non sapeva se fermarsi o continuare a camminare: era molto triste di essere deriso da tutti gli anatroccoli della corte.
+> "È troppo grande", dicevano tutti, il tacchino che era nato con gli speroni e si credeva un imperatore, si gonfiò come una nave a tutto vapore e si avvicinò a lui furioso e rosso fino agli occhi. Il povero anatroccolo non sapeva se fermarsi o continuare a camminare: era molto triste di essere deriso da tutti gli anatroccoli della corte.
 
 ![BIP47, il brutto anatroccolo illustrazione](assets/1.webp)
 
-Uno dei problemi più importanti nel protocollo Bitcoin è il riutilizzo degli indirizzi. La trasparenza e la distribuzione della rete rendono questa pratica pericolosa per la privacy dell'utente. Per evitare problemi legati a questo, si consiglia di utilizzare un nuovo indirizzo di ricezione per ogni nuovo pagamento in entrata verso un portafoglio, il che può essere complicato in alcuni casi.
+Uno dei problemi più importanti nel protocollo Bitcoin è il riutilizzo degli indirizzi. La trasparenza e la distribuzione della rete rendono questa pratica pericolosa per la privacy dell'utente. Per tutelare la privacy si consiglia di utilizzare un nuovo indirizzo di ricezione per ogni nuovo pagamento in entrata verso un wallet. 
 
 Questo compromesso è vecchio come il White Paper. Satoshi ci ha avvertito di questo rischio nel suo lavoro pubblicato alla fine del 2008:
 
 > "Come ulteriore misura di sicurezza, una nuova coppia di chiavi potrebbe essere utilizzata per ogni transazione per mantenerle non collegate a un proprietario comune."
 
-Esistono molte soluzioni per ricevere pagamenti multipli senza riutilizzare gli indirizzi. Ognuna di esse ha i suoi compromessi e svantaggi. Tra tutte queste soluzioni c'è [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), una proposta sviluppata da Justus Ranvier e pubblicata nel 2015 che consente di generare codici di pagamento riutilizzabili. Il loro obiettivo è quello di poter effettuare più transazioni verso la stessa persona senza riutilizzare gli indirizzi.
+Esistono molte soluzioni per ricevere molteplici pagamenti senza riutilizzare lo stesso indirizzo. Ognuna di queste soluzioni ha i suoi compromessi. Tra tutte queste soluzioni c'è [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), una proposta sviluppata da Justus Ranvier e pubblicata nel 2015, che consente di generare codici di pagamento riutilizzabili. Il suo obiettivo è quello di poter effettuare più transazioni verso la stessa persona senza riutilizzare gli indirizzi.
 
-Inizialmente, questa proposta è stata accolta con disprezzo da parte di una parte della comunità e non è mai stata aggiunta a Bitcoin Core. Tuttavia, alcuni software hanno scelto di implementarla comunque. Ad esempio, Samourai Wallet ha sviluppato la propria implementazione di BIP47: PayNym. Oggi, questa implementazione è ovviamente disponibile su Samourai Wallet per smartphone, ma anche su [Sparrow Wallet](https://sparrowwallet.com/) per Desktop.
+Inizialmente, questa proposta è stata accolta con disprezzo da alcuni della comunità e non è mai stata aggiunta a Bitcoin Core. Tuttavia, alcuni software hanno scelto di implementarla comunque. Ad esempio, Samourai Wallet ha sviluppato la propria implementazione di BIP47: PayNym. Oggi, questa implementazione è disponibile su Samourai Wallet per smartphone, ma anche su [Sparrow Wallet](https://sparrowwallet.com/) per Desktop.
 
-Nel tempo, Samourai ha programmato nuove funzionalità direttamente legate a PayNym. Ora esiste un intero ecosistema di strumenti per ottimizzare la privacy dell'utente basati su PayNym e BIP47.
-In questo articolo, scoprirai il principio di BIP47 e PayNym, i meccanismi di questi protocolli e le applicazioni pratiche che ne derivano. Affronterò solo la prima versione di BIP47, quella attualmente utilizzata per PayNym, ma le versioni 2, 3 e 4 funzionano praticamente allo stesso modo.
+Nel tempo, Samourai ha programmato nuove funzionalità direttamente legate a PayNym. Ora esiste un intero ecosistema di strumenti basati su PayNym e BIP47 per ottimizzare la privacy dell'utente.
+In questo articolo, scoprirai i meccanismi e le applicazioni pratiche di BIP47 e PayNym. Affronterò solo la prima versione di BIP47, quella attualmente utilizzata per PayNym. Le versioni 2, 3 e 4 funzionano praticamente allo stesso modo.
 
-> L'unica differenza principale si trova nel livello di notifica della transazione. La versione 1 utilizza un indirizzo semplice con OP_RETURN per la notifica, la versione 2 utilizza uno script multisig (bloom-multisig) con OP_RETURN e la versione 3 e 4 utilizzano semplicemente uno script multisig (cfilter-multisig). I meccanismi menzionati in questo articolo, in particolare i metodi crittografici studiati, sono quindi applicabili alle quattro versioni. Attualmente, l'implementazione di PayNym su Samourai Wallet e Sparrow utilizza la prima versione di BIP47.
 
-## Sommario:
+Nota che l'unica differenza significativa si trova nella notification transaction:
+
+- la versione 1 utilizza un indirizzo semplice con OP_RETURN per la notifica;
+- la versione 2 utilizza uno script multisig (bloom-multisig) con OP_RETURN;
+- le versioni 3 e 4 utilizzano semplicemente uno script multisig (cfilter-multisig).
+
+I meccanismi menzionati in questo articolo, in particolare i metodi crittografici studiati, sono applicabili alle quattro versioni. Attualmente, l'implementazione di PayNym su Samourai Wallet e Sparrow utilizza la prima versione di BIP47.
+
+## Sommario
 
 1- Il problema del riutilizzo dell'indirizzo.
 
@@ -47,10 +54,10 @@ In questo articolo, scoprirai il principio di BIP47 e PayNym, i meccanismi di qu
 - Il codice di pagamento riutilizzabile.
 - Il metodo crittografico: lo scambio di chiavi Diffie-Hellman stabilito sulle curve ellittiche (ECDH).
 
-- La transazione di notifica.
-- Costruzione della transazione di notifica.
-- Ricezione della transazione di notifica.
-- La transazione di pagamento BIP47.
+- La notification transaction.
+- Costruzione della notification transaction.
+- Ricezione della notification transaction.
+- La transazione BIP47.
 - Ricezione del pagamento BIP47 e derivazione della chiave privata.
 - Rimborso del pagamento BIP47.
 
@@ -58,14 +65,14 @@ In questo articolo, scoprirai il principio di BIP47 e PayNym, i meccanismi di qu
 
 6- La mia opinione personale su BIP47.
 
-## Il problema del riutilizzo dell'indirizzo.
+## Il problema del riutilizzo dell'indirizzo
 
-Un indirizzo di ricezione viene utilizzato per ricevere bitcoin. Viene generato a partire da una chiave pubblica, calcolato l'hash di essa e applicando un formato specifico. In questo modo, viene creata una nuova condizione di spesa su un UTXO per modificarne il proprietario.
+Un indirizzo di ricezione viene utilizzato per ricevere bitcoin. Viene generato a partire da una chiave pubblica, calcolandone l'hash e applicando un formato specifico. In questo modo, viene creata una nuova condizione di spesa su un UTXO per cambiarne il proprietario.
 
-> Per saperne di più sulla generazione di un indirizzo di ricezione, ti consiglio di leggere l'ultima parte di questo articolo: Il portafoglio Bitcoin - estratto [ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2#viewer-epio7).
+Per saperne di più sulla generazione di un indirizzo di ricezione, ti consiglio di leggere l'ultima parte di questo articolo: Il wallet Bitcoin - estratto [ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2#viewer-epio7).
 
-Inoltre, avrai sicuramente sentito da un esperto di bitcoin che gli indirizzi di ricezione sono ad uso unico e che è necessario generarne uno nuovo per ogni nuovo pagamento in entrata verso il tuo portafoglio. Ma perché?
-Fondamentalmente, il riutilizzo degli indirizzi non mette direttamente a rischio i tuoi fondi. L'utilizzo della crittografia sulle curve ellittiche consente di dimostrare alla rete di essere in possesso di una chiave privata senza rivelarla. Puoi quindi bloccare diversi UTXO su uno stesso indirizzo e spenderli in momenti diversi. Se non riveli la chiave privata associata a quell'indirizzo, nessuno potrà accedere ai tuoi fondi. Il problema della riutilizzazione degli indirizzi riguarda piuttosto la privacy.
+Inoltre, avrai sicuramente sentito da un esperto di bitcoin che gli indirizzi di ricezione sono ad uso unico e che è necessario generarne uno nuovo per ogni pagamento in entrata verso il tuo wallet. Ma perché?
+Fondamentalmente, il riutilizzo degli indirizzi non mette direttamente a rischio i tuoi fondi. L'utilizzo della crittografia a curve ellittiche consente di dimostrare alla rete di essere in possesso di una chiave privata senza rivelarla. Puoi quindi bloccare diversi UTXO su uno stesso indirizzo e spenderli in momenti diversi. Se non riveli la chiave privata associata a quell'indirizzo, nessuno potrà accedere ai tuoi fondi. Il problema della riutilizzazione degli indirizzi riguarda piuttosto la privacy.
 
 Come accennato in precedenza, la trasparenza e la distribuzione della rete Bitcoin fanno sì che qualsiasi utente, purché abbia accesso ad un nodo, sia in grado di osservare tutte le transazioni. Di conseguenza, può vedere i saldi di tutti gli indirizzi a lui noti. Satoshi Nakamoto ha quindi menzionato la possibilità di generare nuove coppie di chiavi e quindi nuovi indirizzi per ogni nuovo pagamento in entrata verso un portafoglio. L'obiettivo sarebbe quello di avere un ulteriore livello di protezione nel caso in cui si associ l'identità dell'utente a una delle sue coppie di chiavi.
 

@@ -244,7 +244,7 @@ La difficoltà della Proof Of Work viene monitorata, consentendo di visualizzare
 
 
 
-- una stima delle ricompense totali raccolte dai miner durante l'ultimo aggiustamento della difficoltà, insieme ad una stima della data del prossimo Halving, che si verifica ogni 210.000 blocchi (circa 04 anni).
+- una stima delle ricompense totali raccolte dai miner durante l'ultimo aggiustamento della difficoltà, insieme ad una stima della data del prossimo Halving, che si verifica ogni 210.000 blocchi (circa 4 anni).
 
 
 
@@ -265,7 +265,7 @@ Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficolt
 
 
 
-- Gruppi di miner: Data la difficoltà, gruppi di miner collaborano per aiutare a risolvere la Proof Of Work, questi gruppi si chiamano **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun miner, ovvero al contributo in termini di potenza di calcolo nella ricerca della Proof-Of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
+- Gruppi di miner: data la difficoltà, gruppi di miner collaborano per aiutare a risolvere la Proof Of Work, questi gruppi si chiamano **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun miner, ovvero al contributo in termini di potenza di calcolo nella ricerca della Proof-Of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
 
 
 
@@ -279,7 +279,7 @@ Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficolt
 
 
 
-Mempool non si limita a fornire informazioni sull'infrastruttura di rete di Bitcoin (main chain). Integra anche strumenti di visualizzazione ed esplorazione per la rete Lightning di Bitcoin.
+Mempool.space non si limita a fornire informazioni sull'infrastruttura di rete di Bitcoin (main chain), integra anche strumenti di visualizzazione ed esplorazione per la rete Lightning di Bitcoin.
 
 
 
@@ -297,7 +297,7 @@ Questa interfaccia fornisce informazioni su:
 
 
 
-- statistiche Lightning Network;
+- statistiche Lightning Network.
 
 
 
@@ -312,7 +312,7 @@ Questa interfaccia fornisce informazioni su:
 
 
 
-- i nodi Lightning sono configurati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento;
+- I nodi Lightning sono configurati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento.
 
 
 
@@ -322,7 +322,7 @@ Questa interfaccia fornisce informazioni su:
 
 
 
-- la storia della capacità complessiva del Lightning Network.
+- La storia della capacità complessiva del Lightning Network.
 
 
 Troverete anche una classifica di questi nodi in base alla capacità dei loro canali di pagamento.

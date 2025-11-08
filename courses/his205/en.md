@@ -1264,10 +1264,10 @@ Owning a monetary token is not a "claim" on the community, but rather a hope tha
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
-For the Austrian school of economics, initiated by Carl Menger, money emerges naturally from a barter economy faced with the problem of the double coincidence of needs. In this vision, individuals spontaneously converge on intermediate goods that facilitate exchange - not directly consumed goods, but commodities recognized for their capacity to be widely demanded.
+For the Austrian school of economics, initiated by Carl Menger, money emerges naturally from a barter economy faced with the problem of the double coincidence of wants. In this vision, individuals spontaneously converge on intermediate goods that facilitate exchange - not directly consumed goods, but commodities recognized for their capacity to be widely demanded.
 
 
-These monetary goods must possess qualities identified since Aristotle: they must serve as a store of value, a means of exchange and a unit of account. Economic players gradually identify, accumulate and save them, thus initiating their emergence as money. This process is entirely spontaneous - money represents a natural market response to the problem of coordinating exchanges, without the conscious intervention of an authority.
+These monetary goods must possess qualities identified since Aristotle: they must serve as a store of value, a means of exchange and a unit of account. Economic agents gradually identify, accumulate and save them, thus initiating their emergence as money. This process is entirely spontaneous - money represents a natural market response to the problem of coordinating exchanges, without the conscious intervention of an authority.
 
 
 ### The "barter myth" debate
@@ -1276,7 +1276,7 @@ These monetary goods must possess qualities identified since Aristotle: they mus
 Anthropologists such as David Graeber dispute this view, invoking the "barter myth". Their argument: no complex civilization based solely on direct barter has ever been documented. Rather, the primitive societies studied used systems of informal credit and reciprocity. Graeber asserts that debt preceded barter, citing thousands of Mesopotamian tablets documenting credit relationships.
 
 
-However, this criticism is based on a restrictive definition of barter. As Menger pointed out back in 1892, barter goes beyond the simple direct exchange of goods for goods. It also encompasses deferred transfers, services for wages, exchanges with temporality - what Menger called "unilateral transfers between individuals". This extended form of barter can coexist with credit systems in restricted circles of trust.
+However, this criticism is based on a restrictive definition of barter. As Menger pointed out back in 1892, barter goes beyond the simple direct exchange of goods for goods. It also encompasses deferred transfers, services for wages, and exchanges with temporality - what Menger called "unilateral transfers between individuals". This extended form of barter can coexist with credit systems in restricted circles of trust.
 
 
 The absence of proof is not proof of absence, and Austrian economists recognize that no complex society can develop sustainably on the basis of direct barter alone - hence the necessary emergence of money.
@@ -1342,7 +1342,7 @@ A striking example is that of the monumental stones on the island of Yap. Some o
 ![](./assets/fr/Pierre_de_Yap.webp)
 
 
-This is a really interesting analysis of the Yap stones. Saifedean Ammous also mentions this example in his book Bitcoin Stallion. According to him, it's the system that most closely resembles bitcoin, a kind of central register that's there for all to see, that's public, that keeps the accounts, that manages who owns what. And so this anthropological vision recovers this same example to explain that all this represents is an agreement, a social consensus in this society, which is absolutely true. And I find this mention of the lost stones very interesting. They would go hundreds of kilometers out to sea in small rafts and bring the stones back. Sometimes the stone fell to the bottom. But this stone was still used in the monetary system. A person could say "yes, so the stone we dropped, you see, in such and such a place, well it's mine, so we can exchange it". There wasn't necessarily a need for physicality, for possession to enable exchange, because in fact the stones were so big that they often stayed in the same place. So it was more a question of changing hands with these stones. This was done in a transactional way, but possession changed without necessarily moving. It's a kind of proof of consensus. I think it's really interesting to see it in this anthropological vision of money.
+This is a really interesting analysis of the Yap stones. Saifedean Ammous also mentions this example in his book The Bitcoin Standard. According to him, it's the system that most closely resembles bitcoin, a kind of central register that's there for all to see, that's public, that keeps the accounts, that manages who owns what. And so, this anthropological vision recovers this same example to explain that all this represents is an agreement, a social consensus in this society, which is absolutely true. And I find this mention of the lost stones very interesting. They would go hundreds of kilometers out to sea in small rafts and bring the stones back. Sometimes the stone fell to the bottom. But this stone was still used in the monetary system. A person could say "Yes, so the stone we dropped, you see, in such and such a place, well it's mine, so we can exchange it". There wasn't necessarily a need for physicality, for possession to enable exchange, because in fact the stones were so big that they often stayed in the same place. So it was more a question of changing hands with these stones. This was done in a transactional way, but possession changed without necessarily moving. It's a kind of proof of consensus. I think it's really interesting to see it in this anthropological vision of money.
 
 
 ### Protocurrencies and social obligations

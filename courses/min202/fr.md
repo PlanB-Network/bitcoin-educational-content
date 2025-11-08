@@ -9,7 +9,7 @@ objectives:
   - Etre en mesure de miner en totale autonomie, sur sa propre pool de solomining
 ---
 
-# Le parcours du Bitcoiner souverain: 1- Détenir ses clés privées / 2 - Faire tourner votre noeud / 3- Il est temps de miner
+# Le parcours du Bitcoiner souverain: 1- Détenir ses clés privées / 2 - Faire tourner un noeud / 3- Il est temps de miner
 
 Le parcours du bitcoiner souverain se déroule souvent de cette manière. D'abord on cherche à mettre nos précieux satoshis à l'abris en sautant le pas de la garde en prore. On télécharge notre wallet favori et on se fournit en matériel de "stockage froid".
 
@@ -174,39 +174,46 @@ Ici, lorsqu'un des mineurs de la pool trouve un bloc, cette dernière reçoit la
 
 Cela **lisse les revenus** et **réduit la variance**, ce qui est vital pour les petits mineurs. 
 
+![Image](assets/fr/007.webp)
+
 ### Pour des revenus réguliers et prévisibles
 
-Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuvent de travail partiel appelées "shares" , puis attribut
+Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuvent de travail partielles appelées "shares" , puis attribut
 
 
 Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les chances de miner un bloc seul sont infimes , on obtient  des fractions de BTC régulièrement, quotidiennement ou hebdomadairement, en fonction de son hashrate. 
 
 
 
-
-
-
 ## 2.2 Pourquoi faire du solo mining
 
 Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par un pool**.  
-C’est plutôt rare aujourd’hui, mais il y a de vraies raisons (techniques, idéologiques et stratégiques) qui peuvent motiver ce choix.
+Aujourd'hui les solominer sont clairement extrèmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapporche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les 1ers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
+
+Les professionnels ayant eux besoin de revenus réguliers pour palier à leurs obligations. Cependant comme on le verra ci-dessous, il y a de vraies raisons (techniques, idéologiques et stratégiques) qui peuvent motiver ce choix.
+
+![Image](assets/fr/006.webp)
 
 ### Qu'est-ce que le solomining ?
 
-On vient de voir que dans le minage en **pool**, on contribue en fait à un effort collectif pour trouver les prochains bloc. On soumet  des “shares” et si le pool trouve un bloc, la récompense (3,125 BTC actuellement + les frais de transaction) est **répartie**  au pro-rata la puissance de chacun.
+On vient de voir que dans le minage en **pool**, on contribue à un effort collectif pour trouver le prochain bloc. On soumet  des “shares” et si le pool trouve un bloc, la récompense (3,125 BTC actuellement + les frais de transaction) est **répartie**  au pro-rata la puissance de chacun.
 
-En **solo mining**, il est possible de faire tourner son propre noeud et son propre logiciel de minage afin de miner de manière totalement souveraine.
+En **solo mining**, il est soit possible de faire tourner son propre noeud et son propre logiciel de minage afin de miner de manière totalement souveraine.
 Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs et le noeud Bitcoin.
 
-Quoi qu'il en soit si un bloc est trouvé, le mineur solo gardes **100 % de la récompense** s'il mine en toute autonomie, un peu moins s'il passe pas une "solopool" qui lui prélèvera quelques % de frais pour le service rendu.
+Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**, un peu moins s'il passe pas une "solopool" tierce qui lui prélèvera quelques % de frais pour le service rendu.
 
 Mais évidemment, les chances de succès sont **extrêmement faibles**.
 Pouquoi diable choisir le solomining alors ?
 
+
+
 ### Pour la souveraineté et l’indépendance
 
 Tu **n’as besoin de faire confiance à personne** : ni à un pool, ni à un intermédiaire.
-Tes blocs sont directement soumis à ton propre nœud, qui valide les règles du protocole Bitcoin. Tu participes à la **décentralisation du réseau**, car chaque mineur indépendant renforce la résilience face à la censure ou à la centralisation des pools. En solo mining, **tu es souverain** : tu décides des transactions que tu inclus, sans tiers.
+Tes blocs (potentiels)  et les transactions qui le constituent sont directement soumis à ton propre nœud et ne  sont pas filtrées. En effet une grande pool de mining (solo ou pas) soumise à la régulation pourrait être contrainte de censurer les transactions "non conformes" c'est à dire qui ne plaisent pas au pouvoir politique local. En solominant, et dans l'hypothèse ou suffisamment de mineurs autour du monde font de même, on pourrait s'assurer qu'aucune censure n'est possible sur bitcoin puisqu'au moins un  bloc par jour par exemple, pourrait être miné par un individus souverain.
+
+On participe ainsi à la **décentralisation du réseau**, cet chaque mineur indépendant renforce la résilience face à la censure ou à la centralisation des pools. En solo mining, **on devient totalement souverain.**
 
 ### Pour la confidentialité 
 
@@ -223,6 +230,17 @@ Probabilité faible, mais gain énorme — surtout quand on fait tourner la mach
 
 
 En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originale de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement interessé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisaiton de ce type de comportement pourrait aider de manière substancielles au retour d'une partie significative du hashrate entre les mains des particuliers. Par exemple si 1 millions de Bitaxes (petites machines de mining)
+
+
+
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
+|     |     |     |
+|     |     |     |
+|     |     |     |
+|     |     |     |
+
 
 ## 2.3 Panorama des solutions hardware
 ## 2.4 Panorama des solutions software

@@ -491,100 +491,99 @@ Mu nyigisho y’ubutunzi ya kera (Keynesian), umutungo ubonwa kenshi mu majambo 
 "Umutungo" akenshi werekanwa nk'igikoresho co gukoresha nabi, kandi iyo nzira yaragize ico ikoze cane ku migwi itandukanye ibona ko umutungo urwanya inyungu z'abakozi. Ariko none ivyo vyoba ari ukuri? Canke iyo nzira yo gutahura ibintu yoshobora kugoramwa n’ibi:
 
 
-1. Kudatahura uburyo bw’ubutunzi (harimwo n’abahinga mu vy’ubutunzi ubwabo)?
+1. Kudatahura uburyo bw’ubutunzi (harimwo n’abahinga mu vy’ubutunzi ubwabo nyene)?
 
-2. Ukwinjira kwa Leta no gukoresha nabi isoko?
+2. Ukwinjira kwa Leta no gukoresha isoko?
 
-3. Ugutera urujijo hagati y’ubu kapitalizimu bw’abagenzi n’ubu kapitalizimu bw’isoko ry’uburenganzira?
-
+3. Ugutera urujijo hagati y’ubu kapitalizimu bwa connivence n’ubu kapitalizimu bw’isoko ry’uburenganzira?
 4. Uko ibinyamakuru bishiraho ingorane z’ubutunzi?
 
-5. Icipfuzo co gukosora ibintu vyihuse no gutunganya abantu vuba?
+5. Icipfuzo co gukosora ibintu vyihuse no gutunganya imibano hagati yabantu vyihuse?
 
 6. Ugusanura umuco w’amajambo arwanya ubu kapitalisimu?
 
 
-Igishimishije, Bitcoin iduhatira gusubira kwiyumvira vyose no guhangana n’ivyo vyiyumviro vyari vyarashizweho mbere. Hariho ishure ry’ivyiyumviro, ni ukuvuga Ishure ry’Ubutunzi ryo muri Otirishiya, rishobora gutanga umuco kuri ivyo bibazo no kudufasha gusubira kwihweza kamere nyakuri y’umutungo kamere.
+Igishimishije, Bitcoin iraduhimiriza gusubira kwiyumvira vyose no guhangana n’ivyo vyiyumviro vyari vyarashizweho mbere. Hariho ishure ry’ivyiyumviro, Ishure ry’Ubutunzi ryo muri Otirishiya, rishobora gutanga umuco kuri ivyo bibazo no kudufasha gusubira kwihweza kamere nyakuri y’umutungo kamere.
 
 
-**Kera kera**
+**harabaye**
 
 
 Reka dutangure n’inkuru ngufi:
 
 
-"Ku kirwa gito c'ubugaragwa haba umurovyi ari wenyene. Buri musi, amara amasaha menshi afata ifi n'ibiganza vyiwe gusa, igikorwa kimutwara umwanya mwinshi n'inguvu ziwe. Umusi umwe, afise iciyumviro: co kwubaka icumu rizotuma ashobora kuroba neza. Ariko arazi ko ivyo bizosaba ikimazi.
+"Ku kirwa gito c'ubugaragwa haba umurovyi ari wenyene. Buri musi, amara amasaha menshi afata ifi n'ibiganza vyiwe gusa, igikorwa kimutwara umwanya mwinshi n'inguvu ziwe. Umusi umwe, yagize iciyumviro: co kwubaka icumu rizotuma ashobora kuroba neza. Ariko arazi ko ivyo bizosaba kwitanga cane.
 
 
-Imbere y’uko uwo murovyi atangura gukora iryo cumu, aca afata ingingo yo gushiramwo ifi zimwezimwe kugira ngo yitunganye mu gihe c’ubwubatsi. Amara imisi mikeyi arya bike kuruta uko asanzwe, akazigama ifi zihagije kugira ngo yibande ku mugambi wiwe. Iyo fi yarokotse igereranya **umutungo wiwe**, akazu gatoyi kamushoboza gukurikirana intumbero yiwe.
+Imbere y’uko uwo murovyi atangura gukora iryo cumu,  yafashe ingingo yo gushiramwo ifi zimwezimwe kuruhande kugira ngo ashobore kuza arazifungurura mu gihe c’ubwubatsi. Amara imisi mikeyi arya bike kuruta uko asanzwe abikora, akazigama ifi zihagije kugira ngo yibande ku mugambi wiwe. Izo yagiye arashira kuruhande  zigereranywa ** n'umutungo wiwe**, umutungo yazigamye kugira ashobore gukurikirana intumbero yiwe.
 
 
-Mu gihe atanga umwanya wiwe wo kwubaka icumu, yizigira ivyo yizigamye, akacerezwa n’umutima ukunze bimwe mu vyo ashobora guhumurizwa ubwo nyene (ikigaragaza **igihe akunda**). Amaze imisi myinshi akora igikorwa ca Hard, araheza akora icumu rikomeye.
+Mu gihe amara umwanya wiwe wo kwubaka icumu, yizigira izo fi yazigamye, bisigura ko murico gihe uwomurovyi atazobaho neza ugereranije nuko yari asanzwe abayeho ( **bika vyakanya gato**). Amaze imisi myinshi akora ibikorwa vyiwe , araheza akora icumu rikomeye.
 
 
 ![BIZ101](assets/rn/007.webp)
 
 
-Ubu akoresheje iryo cumu, arashobora gufata ifi vyihuta cane kandi ata nguvu nyinshi akora. Ntagikeneye kwiruha nk’uko yahora, mbere agatangura no kwirundanira amafi asigaye. Ivyo bintu vy’agaciro bimuha uburyo bushasha: arashobora kubibika, kubisangira canke kubishira mu yindi migambi yo kw’izinga. Mu gutevya gufungura ubwo nyene no gukoresha umutungo wiwe, umurovyi yarateye imbere cane mu bijanye n'ubushobozi bwiwe n'ivyizigiro vyiwe vya kazoza."
+Ubu akoresheje iryo cumu, arashobora gufata ifi vyihuta cane kandi ata nguvu nyinshi akoresheje . Ntagikeneye kuruha cane nk’uko yahora abikora, mbere agatangura nokurunka amafi meshi cane. Ubwo bwishi bwamafi  bimuha uburyo bushasha: arashobora kubibika, kubisabikanya canke kubishira mu yindi migambi yokorera kurico kirwa. Mu gutevya kumara ubwo nyene no gukoresha umutungo wiwe, umurovyi yarateye imbere cane mu bijanye n'ubushobozi bwiwe n'ivyizigiro vyiwe vya kazoza."
 
 
 Iyi nkuru yerekana uruhara nyamukuru rw’ubutunzi, ukwihangana n’ukubona imbere mu kwubaka kazoza keza—ivyiyumviro bihambaye mu gutera imbere kw’ubutunzi no mu gutera imbere kw’abantu.
 
 
-### Ishure ry'ubutunzi ryo muri Otirishiya n'Iyerekwa ryaryo ry'Igihugu
+### Ishure ry'ubutunzi ryo muri Otirishiya n'imbonera kazoza y'ubutunzi 
 
 
-Ishure ry’ubutunzi ryo muri Otirishiya ryiswe izina ry’abarishinze n’abaritanze mbere, bakaba bari bakomoka muri Otirishiya. Izina ryagumyeho, kandi kuva ico gihe iryo shure ryaciye rifatanya cane n’ivyiyumviro vya kera vy’ubwigenge, rishimika ku mwidegemvyo w’umuntu ku giti ciwe, amasoko y’ubwigenge, n’ukuntu Leta itagira ico ikora.
+Ishure ry’ubutunzi ryo muri Otirishiya ryiswe izina ry’abarishinze n’abaritanze mbere, bakaba bari bakomoka muri Otirishiya. Izina ryagumyeho, kandi kuva ico gihe iryo shure ryaciye rifatanya cane n’ivyiyumviro vya kera vy’ubwigenge, rishimika ku mwidegemvyo w’umuntu ku giti ciwe, amasoko y’ubwigenge, n’ukuntu Leta itagira ico ikora 
 
 
-**Ivyo Otirishiya ibona ku murwa mukuru**
+**Ivyo Otirishiya ibona ku vyerekeye ubutunzi**
 
 
-Mu kubona kw’abanya Otirishiya, umutungo w’igihugu ufitaniye isano rikomeye n’iciyumviro co gusubiramwo ugukoresha kugira ngo wubake ibikoresho canke ubutunzi bushobora gutuma umuntu agira umwimbu mwinshi muri kazoza. Ivyo bimenyekana nk’ukwirundanira umutungo, ni vyo bihambaye cane mu vyiyumviro vy’ubutunzi vya Otirishiya. Ivyiyumviro nyamukuru Elements vy’iyi nzira birimwo:
-
-
-
-- Igihe bakunda n'ugusubiramwo ivyo bakoresha: Abantu mu bisanzwe barakunda gukoresha ubu aho gukoresha mu nyuma, ariko boshobora guhitamwo gusubiramwo ivyo bakoresha nimba biteze ivyiza vyinshi muri kazoza. Mu kuzigama uno musi, ubutunzi burashobora gushirwa mu bintu vy'agaciro (ibikoresho, imashini, ibikorwa remezo) bituma umusaruro utera imbere uko igihe kigenda kirarenga. Amashirahamwe canke abantu ku giti cabo bafise umwanya mutoyi bazigama vyinshi kandi bagashiramwo amahera mu migambi y'igihe kirekire, bigatuma haba iterambere riramvye.
+Mu mbonera kazoza kw’abanya Otirishiya, umutungo w’igihugu ufitaniye isano rikomeye n’iciyumviro co gutandukanya ugukoresha ubutunzi kugira ngo wubake ibikoresho canke ubutunzi bushobora gutuma umuntu agira umwimbu mwinshi muri kazoza. Ivyo bimenyekana nk’ukwirundanira umutungo, ni vyo bihambaye cane mu vyiyumviro vy’ubutunzi vya Otirishiya. Ivyiyumviro nyamukuru Elements vy’iyi nzira birimwo:
 
 
 
-- Itunga nk'umuvugizi w'umwimbu wo muri kazoza: Ibintu vy'itunga bibonwa nk'ibikoresho vyo hagati bikoreshwa mu guhingura ibintu vy'iherezo vy'abaguzi. Mu kwirundanira umutungo, abashoramare barashobora kwongerera umusaruro no kurema ubutunzi bwinshi muri kazoza. Nk'akarorero, aho guhingura ibintu vy'ugukoresha ubwo nyene, ivyo bintu vyoshobora gukoreshwa mu kwubaka amahinguriro canke imashini. Naho ivyo bigabanya ivyo umuntu akoresha mu gihe gito, ivyo bivamwo biratuma umuntu ashobora gukora cane kandi akagira n'uguterimbere mu nyuma.
+- guhitamwo kurandira  gukoresha umutungo wawe , mukwitegekanira kazoza: Abantu mu bisanzwe barakunda gukoresha vyako kanya aho gukoresha mu nyuma, ariko boshobora guhitamwo gusubiramwo ivyo bakoresha nimba biteze ivyiza vyinshi muri kazoza. Mu kuzigama uno musi, ubutunzi burashobora gushirwa mu bintu vy'agaciro (ibikoresho, imashini, ibikorwa remezo) bituma umwimbu utera imbere uko igihe kigenda kirarengana. Amashirahamwe canke abantu ku giti cabo bafise umwanya mutoyi bazigama vyinshi kandi bagashiramwo amahera mu migambi y'igihe kirekire, bigatuma haba iterambere riramvye.
 
 
 
-- **Uguhingura ibintu mu buryo butaziguye n'ubushobozi bwo kubikora**: Abahinga mu vy'ubutunzi bo muri Otirishiya, nka Eugen Böhm-Bawerk, barashimikiye cane ku ciyumviro c'uguhingura ibintu mu buryo butaziguye, ni ukuvuga uburyo bwo guhingura ibintu buramvye kandi butoroshe bujanye n'inzira nyinshi. Naho ivyo bikorwa bifata umwanya, amaherezo biratuma habaho ivyiza kandi bifise akamaro, nk'ukwubaka uruganda rwo gusenya ibiti aho gukorakoranya ibiti n'amaboko.
+- Itunga ni moter w'umwimbu wo muri kazoza: Ibintu vy'itunga bibonwa nk'ibikoresho bihuza bikoreshwa mu guhingura ibintu vyahejeje gutegurwa vy'abaguzi. Mu kwirundanira umutungo, abashoramari barashobora kwongereza umusaruro no kurema ubutunzi bwinshi muri kazoza. Nk'akarorero, aho guhingura ibintu vy'ugukoresha ubwo nyene, ivyo bintu vyoshobora gukoreshwa mu kwubaka amahinguriro canke imashini. Naho ivyo bigabanya ivyo umuntu akoresha mu gihe gito, ivyo bivamwo biratuma umuntu ashobora gukora cane kandi akagira n'uguterimbere birama.
 
 
 
-- **Inyungu nk'Ibimenyetso**: Inyungu, mu kubona kwa Otirishiya, mu bisanzwe yerekana umwanya umuntu akunda. Ibiciro vyinshi vyerekana ko umuntu akunda gukoresha ibintu ubwo nyene, mu gihe ibiciro bito biremesha kuzigama no gushiramwo amahera igihe kirekire. Iyo amabanki akomeye akoresha nabi inyungu mu buryo bw'ubuhinga, aragoranya ivyo bimenyetso vy'ibidukikije, bikaba bituma habaho ugutanga ubutunzi nabi n'ishoramari ridashobora kuramba (malinvestment).
+- **Uguhingura ibintu mu buryo bwako kanya n'ubushobozi bwo kubikora**: Abahinga mu vy'ubutunzi bo muri Otirishiya, nka Eugen Böhm-Bawerk, barashimikiye cane ku ciyumviro c'uguhingura ibintu mu buryo bwako kanya nyene, ni ukuvuga uburyo bwo guhingura ibintu buramvye kandi butoroshe bujanye n'inzira nyinshi. Naho ivyo bikorwa bifata umwanya, amaherezo biratuma habaho ivyiza kandi bifise akamaro, nk'ukwubaka uruganda rwo gusenya ibiti aho gukorakoranya ibiti n'amaboko.
+
+
+
+- **Inyungu nk'Ibimenyetso**: Inyungu, uko  Otirishiya ibibona, mu bisanzwe yerekana umwanya umuntu akunda. Ibiciro vyinshi vyerekana ko umuntu akunda gukoresha ibintu ubwo nyene, mu gihe ibiciro bito biremesha kuzigama no gushiramwo amahera igihe kirekire. Iyo amabanki akomeye akoresha nabi inyungu mu buryo bw'ubuhinga, aragoranya ivyo bimenyetso vy'ibidukikije, bikaba bituma habaho ugutanga ubutunzi nabi n'ishoramari ridashobora kuramba (malinvestment).
 
 
 
 **Uburyo bubiri bw'umutungo mu bukungu bwa none**
 
 
-Mu rwego rw’uburyo bw’amahera bushingiye ku myenda dukoreramwo, **hariho ubwoko bwa kabiri bw’umutungo**: uwo mu kanya nk’ako gukubita iyo banki iremye inguzanyo biciye mu buryo bworoshe bwo gutanga inguzanyo. Ivyo birimwo uguhingura amahera ex nihilo, aho banki igura amahera mu vy’ukuri idafise imbere y’igihe ahubwo ikarema ishingiye ku masezerano yo kwishura.
+Mu rwego rw’uburyo bw’amahera bushingiye mugoresha amadeni dukoreramwo, **hariho ubwoko bwa kabiri bw’umutungo**: uwo mu kanya nk’akumuravyo iyo banki iremye inguzanyo biciye mu buryo bworoshe bwo gutanga inguzanyo. Ivyo birimwo guhingura amahera ex nihilo, aho banki iguranaya amahera mu vy’ukuri atayo ifise ubwambere na mbere y’igihe ahubwo ikarema ayo mahera  ishingiye ku masezerano yo abanywanyi bayo kwishura amafara babikije iyo banki.
 
 
-Ku ruhande rumwe, umutungo w'"Otirishiya" ni ingaruka y'ukuzigama vy'ukuri, igikorwa gisaba gufata ingingo z'ubutunzi zitekerejwe neza no kwitanga vyitondewe. Ku rundi ruhande, umutungo uva mu kurema amahera ashingiye ku myenda ni inyubakwa y’aho nyene kandi y’ubuhinga. Ubwo bwoko bubiri bw’umutungo, naho **busa cane mu gukoreshwa mu gufasha imigambi, buratandukanye cane**.
+Ku ruhande rumwe, umutungo w'"Otirishiya" ni inyishu y'ukuzigama vy'ukuri, igikorwa gisaba gufata ingingo z'ubutunzi zitekerejwe neza no kwitanga vyitondewe. Ku rundi ruhande, umutungo uva mu kurema amahera ashingiye ku madeni ni inyubakwa y’aho nyene kandi y’ubuhinga karemano. Ubwo bwoko bubiri bw’umutungo, naho **busa cane mu gukoreshwa mu gufasha imigambi, buratandukanye cane**.
 
 
-Ubwo bwoko bubiri bw'umutungo ntibukwiye kwigera buhurizwa hamwe, yamara mu buryo bushingiye ku myenda, akenshi buragoramye ibimenyetso vy'ubutunzi kandi kenshi bujana mu gushiramwo amahera nabi. Ukwo gutahura nabi kuratanga umuco ku bijanye n'igituma ubu kapitalizimu kenshi bunegurwa ata co buvuze.
+Ubwo bwoko bubiri bw'umutungo ntibukwiye kwigera buhurizwa hamwe, yamara mu buryo bushingiye ku myenda, akenshi barahindukiza ibimenyetso vy'ubutunzi kandi kenshi bitwara mu gushiramwo imitahe ukutariko . Ukwo gutahura nabi kuratanga umuco ku bijanye n'igituma ubu kapitalizimu kenshi bunegurwa ata co bishingikirije.
 
 
 **Ikibazo nyamukuru kiri mu vy'ubu Keynes**
 
 
-Amategeko ya Keynes, yemewe cane n’abanyacubahiro bo kw’isi yose, akoresha nabi inyungu kandi agatuma abantu basaba biciye ku myenda. Ivyo biremesha ubutunzi gutemba buja mu migambi y’igihe gito, idashobora kuramba, bikongera inzinguzingu z’ubutunzi no gutevya iterambere nyaryo rishingiye ku kuzigama neza no ku gushiramwo amafaranga. Abarongozi b’ubudandaji baribonera ubwabo iyo ngingo ngenderwako mbi uko amashirahamwe afise amagara meza asunikwa mu kugura ibintu bifise agaciro karenze urugero mu gukurikirana inyungu nyinshi, bikaba bituma iterambere ry’ibinyabuzima kandi riramvye rihungabana.
+Amategeko ya Keynes, yemewe cane n’abanyacubahiro bo kw’isi yose, akoresha  inyungu  kandi agatuma abantu basaba biciye ku myenda. Ivyo biremesha ubutunzi gutemba buja mu migambi y’igihe gito, idashobora kuramba, bikongera inzinguzingu z’ubutunzi no gutevya iterambere nyaryo rishingiye ku kuzigama neza no ku gushiramwo amafaranga. Abarongozi b’ubudandaji baribonera ubwabo iyo ngingo ngenderwako mbi uko amashirahamwe afise amagara meza asunikwa mu kugura ibintu bifise agaciro karenze urugero mu gukurikirana inyungu nyinshi, bikaba bituma iterambere ry’ibinyabuzima kandi riramvye rihungabana.
 
 
-Mu bidukikije nk’ivyo, ni gute umutungo “ufise amagara meza”—uzigamye neza n’abanyamigambi—woshobora guhangana n’umutungo “udafise amagara meza” waremwe mu buryo bw’ubuhinga? Ikindi kandi, ukwaguka kw’amahera Supply ku ruhande rumwe kurasenyura ubushobozi bwo kugura bw’umutungo kamere, bikaba bituma ubutunzi butera ubwoba kandi abantu ntibanyurwa.
+Mu myanya imeze nkiyo ni gute umutungo “umeze neza ( uhagaze neza)”—uzigamye neza n’abanyamigambi—woshobora guhangana n’umutungo “utameze neza ( uhagaze neza)” waremwe mu buryo bw’ubuhinga karemano? Ikindi kandi, ukwaguka kw’amahera ahanwa hanwa ku ruhande rumwe kurasenyura ubushobozi bwo kugura bw’umutungo kamere, bikaba bituma ubutunzi butera bumera nabi kandi abantu ntibanyurwa .
 
 
 **Umuco w'Icizigiro: Bitcoin**
 
 
-Bitcoin itanga uburyo bwo kwirundanira no kuzigama umutungo mu kiringo kirekire ata gusenyuka guterwa n’ugutera imbere kw’amahera. Nk’ububiko bw’agaciro, birashoboza ubucuruzi gutegura ishoramari ryo muri kazoza n’ukwihangana, bikarwanya ubukuru bw’imirongo y’imyenda no gutuma habaho ugusubira mu kwirundanira umutungo nyakuri kandi utanga inyungu.
+Bitcoin itanga uburyo bwo kwirundanira no kuzigama umutungo mu kiringo kirekire ata gusenyuka guterwa n’uguta agaciro kw’amahera. Nk’ububiko bw’agaciro, birashoboza inganda gutegura gushora imitahe yo muri kazoza , bigatuma tunegura ubuhinga buyoboye ubu bushingiye kums deni no gutuma habaho ugusubira mu kwirundanira umutungo nyakuri kandi utanga inyungu.
 
 
 ### Ibindi ku vyerekeye ishure ry'ubutunzi ryo muri Otirishiya
@@ -605,11 +604,11 @@ Bitcoin itanga uburyo bwo kwirundanira no kuzigama umutungo mu kiringo kirekire 
 
 
 
-- **Friedrich Hayek**: Yari umunyeshure wa Mises, Hayek yararonse igihembo ca Nobel mu vy'ubutunzi mu 1974 kubera ibikorwa vyiwe ku bumenyi bwegerejwe n'uguhinduka kw'isoko. Mu gitabu ciwe _Inzira y'ubuja_, yaraneguye cane ubutegetsi bushingiye ku rwego rwo hejuru.
+- **Friedrich Hayek**: Yari umunyeshure wa Mises, Hayek yararonse igihembo ca Nobel mu vy'ubutunzi mu 1974 kubera ibikorwa vyiwe ku bumenyi butagira imbibe n'uguhinduka kw'isoko. Mu gitabu ciwe _Inzira y'ubuja_, yaraneguye cane ubutegetsi bushingiye ku rwego rwo hejuru.
 
 
 
-- **Murray Rothbard**: Yari umwigishwa wa Mises kandi yari uwushigikiye cane uburenganzira bwo kwidegemvya, Rothbard yarateye imbere inyigisho y'ubutegetsi bw'abanyagihugu butagira igihugu burongowe n'amasezerano y'ubushake. Igitabo ciwe _Umuntu, Ubutunzi, na Leta_ ni igitabu c'imbuto mu vy'ubutunzi bwa Otirishiya.
+- **Murray Rothbard**: Yari umwigishwa wa Mises kandi yari uwushigikiye cane uburenganzira bwo kwidegemvya, Rothbard yarateje imbere inyigisho y'ubutegetsi bw'abanyagihugu butagira igihugu burongowe n'amasezerano y'ubushake. Igitabo ciwe _Umuntu, Ubutunzi, na Leta_ ni igitabu c'imbuto mu vy'ubutunzi bwa Otirishiya.
 
 
 **Abandi bahinga b'ubutunzi bafise inkomezi**

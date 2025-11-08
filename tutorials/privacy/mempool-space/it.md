@@ -64,10 +64,10 @@ Nella barra dei menù si trovano le seguenti reti:
 
 
 
-- **Mainnet**: La rete Bitcoin principale dove avvengono le transazioni Bitcoin reali.
-- **Signet**: Una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale.
-- **Testnet 3**: Una rete di test e sviluppo priva di rischi sul protocollo Bitcoin.
-- **Testnet 4**: La nuova versione di Testnet 3 apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
+- **Mainnet**: la rete Bitcoin principale dove avvengono le transazioni Bitcoin reali;
+- **Signet**: una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale;
+- **Testnet 3**: una rete di test e sviluppo priva di rischi sul protocollo Bitcoin;
+- **Testnet 4**: la nuova versione di Testnet 3 apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
 
 
 
@@ -141,9 +141,9 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-- **Stato**: Confermato quando viene aggiunto a un blocco, non confermato quando è in attesa nella Mempool.
-- **Spese di transazione**.
-- **Tempo stimato di arrivo (ETA)**: Il tempo approssimativo necessario affinché la transazione venga aggiunta a un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
+- **stato**: confermato quando viene aggiunto a un blocco, non confermato quando è in attesa nella Mempool;
+- **spese di transazione**;
+- **Estimated Time of Arrival,ETA (tempo stimato di arrivo)**: il tempo approssimativo necessario affinché la transazione venga aggiunta ad un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
 
 
 
@@ -191,11 +191,11 @@ Fortunatamente, sulla rete Bitcoin sono disponibili due metodi per accelerare la
 
 
 
-- **RBF** - Replacement By Fee: Un metodo che consente di spendere gli stessi elementi della transazione con basse commissione, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente e inserita in un blocco, invalidando la transazione iniziale con commissioni più basse.
+- **RBF** - Replacement By Fee: Un metodo che consente di spendere gli stessi elementi della transazione con basse commissioni, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente ed inserita in un blocco, invalidando la transazione iniziale con commissioni più basse.
 
 
 
-È possibile effettuare Replace by fee (RBF) con i wallet che integrano questo meccanismo. Ad esempio, leggi il nostro articolo Blue Wallet.
+È possibile effettuare Replace By Fee (RBF) con i wallet che integrano questo meccanismo. Ad esempio, leggi il nostro articolo Blue Wallet.
 
 
 
@@ -203,7 +203,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- **CPFP** - Child pay for parent: Un approccio ispirato a RBF, ma dal lato del destinatario. Quando la transazione di cui si è destinatari viene bloccata nella Mempool, si ha la possibilità di spendere gli output (UTXO) di questa transazione, nonostante non sia ancora stata confermata, assegnando più commissioni a questa nuova transazione. In questo modo le commissioni medie della transazione di cui si è destinatari e della transazione avviata, incoraggino i miner a includere entrambe le transazioni in un blocco.
+- **CPFP** - Child pay for parent: Un approccio ispirato a RBF, ma applicato dal punto di vista del destinatario. uando una transazione che ci coinvolge viene bloccata nella Mempool, abbiamo l'opportunità di utilizzare gli output (UTXO) di questa transazione, anche se non è ancora stata confermata. Per farlo, si aumenta l'importo delle commissioni nella nuova transazione creata. In questo modo, la media delle commissioni risulta superiore per entrambe le transazioni, incentivando i miner ad includerle entrambe in un blocco.
 
 
 
@@ -211,7 +211,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Se tutti questi termini vi sembrano un po' troppo tecnici, vi consiglio di [consultare il nostro glossario](https://planb.academy/resources/glossary), che contiene le definizioni di tutti i termini tecnici relativi al Bitcoin e al suo ecosistema.
+Se tutti questi termini vi sembrano un po' troppo tecnici, vi consiglio di [consultare il nostro glossario](https://planb.academy/resources/glossary), che contiene le definizioni di tutti i termini tecnici relativi a Bitcoin ed al suo ecosistema.
 
 
 
@@ -228,23 +228,23 @@ Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**
 ## Miner
 
 
-Per Miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di Mining; un processo che implica la partecipazione alla Proof-of-Work. Il Miner raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
+Per Miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di mining; un processo che implica la partecipazione alla Proof-Of-Work. Il miner raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash (funzione matematica che prende un input di dimensione variabile e produce un output di dimensione fissa) valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
 
 
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-i miner sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (il Proof-of-Work). Il primo Miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
+i miner sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (il Proof-Of-Work). Il primo Miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
 
 
 
-La difficoltà di questo Proof of Work viene monitorata, consentendo di visualizzare l'evoluzione della potenza di calcolo richiesta ai miner. Nelle sezioni seguenti troverete :
+La difficoltà della Proof Of Work viene monitorata, consentendo di visualizzare l'evoluzione della potenza di calcolo richiesta ai miner. Nelle sezioni seguenti troverete:
 
 
 
 
 
-- Una stima delle ricompense totali raccolte dai miner durante l'ultimo aggiustamento della difficoltà, insieme ad una stima della data del prossimo Halving, che si verifica ogni 210.000 blocchi (circa 04 anni).
+- una stima delle ricompense totali raccolte dai miner durante l'ultimo aggiustamento della difficoltà, insieme ad una stima della data del prossimo Halving, che si verifica ogni 210.000 blocchi (circa 04 anni).
 
 
 
@@ -252,7 +252,7 @@ La difficoltà di questo Proof of Work viene monitorata, consentendo di visualiz
 
 
 
-Questa difficoltà viene modificata ogni 2016 blocchi (circa due settimane). È inversamente proporzionale al tempo medio impiegato dai miner per Miner ogni 2016 blocchi.
+Questa difficoltà viene modificata ogni 2016 blocchi (circa due settimane). È inversamente proporzionale al tempo medio impiegato dai miner per minare ogni 2016 blocchi.
 
 
 Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficoltà aumenta, al contrario, quando il tempo medio impiegato è superiore a 10 minuti, la difficoltà diminuisce.
@@ -265,7 +265,7 @@ Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficolt
 
 
 
-- Gruppi di miner: Data la difficoltà, gruppi di miner collaborano per aiutare a risolvere la proof of work, questi gruppi si chiamano **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun Miner, ovvero al contributo in termini di potenza di calcolo nella ricerca della Proof-of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
+- Gruppi di miner: Data la difficoltà, gruppi di miner collaborano per aiutare a risolvere la Proof Of Work, questi gruppi si chiamano **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun miner, ovvero al contributo in termini di potenza di calcolo nella ricerca della Proof-Of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
 
 
 
@@ -291,13 +291,13 @@ Nella sezione **Lightning** è possibile visualizzare tutte le connessioni esist
 
 
 
-Questo Interface fornisce informazioni su :
+Questa interfaccia fornisce informazioni su:
 
 
 
 
 
-- Statistiche Lightning Network.
+- statistiche Lightning Network;
 
 
 
@@ -306,13 +306,13 @@ Questo Interface fornisce informazioni su :
 
 
 
-⚠️ **IMPORTANTE**: La capacità di un canale di pagamento indica l'importo massimo che un nodo può inviare ad un altro nodo durante una transazione Lightning.
+⚠️ **IMPORTANTE**: la capacità di un canale di pagamento indica l'importo massimo che un nodo può inviare ad un altro nodo durante una transazione Lightning.
 
 
 
 
 
-- I nodi lightning sono configurati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento.
+- i nodi Lightning sono configurati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento;
 
 
 
@@ -322,7 +322,7 @@ Questo Interface fornisce informazioni su :
 
 
 
-- La storia della capacità complessiva del Lightning Network.
+- la storia della capacità complessiva del Lightning Network.
 
 
 Troverete anche una classifica di questi nodi in base alla capacità dei loro canali di pagamento.
@@ -337,7 +337,7 @@ Troverete anche una classifica di questi nodi in base alla capacità dei loro ca
 
 
 
-Mempool.space è la piattaforma ideale per esplorare le interazioni del protocollo Bitcoin. I grafici forniscono dati visivi che aiutano a decidere quando effettuare le transazioni, ed anche parametri precisi che consentono di visualizzare, in tempo reale, la robustezza e la salute della rete Bitcoin e delle infrastrutture Lightning associate.
+Mempool.space è la piattaforma ideale per esplorare le interazioni del protocollo Bitcoin. I grafici forniscono dati visivi che aiutano a decidere quando effettuare le transazioni ed anche parametri precisi che consentono di visualizzare, in tempo reale, la robustezza e la salute della rete Bitcoin e delle infrastrutture Lightning associate.
 
 
 
@@ -346,7 +346,7 @@ Nella sezione **Graphics** si possono visualizzare i dati essenziali della rete 
 
 
 
-- Evoluzione delle dimensioni della Mempool: È possibile osservare la fluttuazione delle dimensioni della Mempool, che indicare periodi di alta o bassa attività sulla rete.
+- evoluzione delle dimensioni della Mempool: è possibile osservare la fluttuazione delle dimensioni della Mempool, che indica periodi di alta o bassa attività sulla rete;
 
 
 
@@ -357,7 +357,7 @@ Nella sezione **Graphics** si possono visualizzare i dati essenziali della rete 
 
 
 
-- L'evoluzione delle transazioni e delle commissioni di transazione sulla rete selezionata: Tracciando le variazioni delle transazioni al secondo, è possibile anticipare i periodi di congestione o di scarsa attività e ottimizzare le commissioni per la tua transazione. Questo grafico ti fornisce una prospettiva sulla capacità della rete di gestire il volume delle transazioni.
+- l'evoluzione delle transazioni e delle commissioni di transazione sulla rete selezionata: tracciando le variazioni delle transazioni al secondo, è possibile anticipare i periodi di congestione o di scarsa attività e ottimizzare le commissioni per la tua transazione. Questo grafico ti fornisce una prospettiva sulla capacità della rete di gestire il volume delle transazioni.
 
 
 

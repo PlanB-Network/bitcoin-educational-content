@@ -34,7 +34,7 @@ In questa esercitazione esamineremo il progetto **Mempool.space**, le sue caratt
 
 
 
-Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. Un Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
+Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. La Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
 
 
 

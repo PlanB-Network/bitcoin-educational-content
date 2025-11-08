@@ -752,22 +752,22 @@ Over time, the scarcity of real cowrie shells led to the production of imitation
 What we need to understand here is that, by moving beyond the limitation of  natural scarcity of seashells, if the prince can create the currency himself, it gives him greater control over the management of the economy.
 
 
-Unlike Mesopotamia, where coins were linked to the weight of precious metal, Chinese coinage terminology derives directly from the initial shapes of the objects used as currency: cowries (bei), knives (dao), spades (bu), and round coins (quan or qian). So, we can see that the origin of words related to money in China referred to these objects. As for us in the West, we have a number of monetary terms that come from concepts that are quite different from these, rather related to the physical characteristics and weight of monetary objects. These etymological differences clearly demonstrate the schism between the Western and Chinese vision of money.
+Unlike Mesopotamia, where coins were linked to the weight of precious metal, Chinese coinage terminology derives directly from the initial shapes of the objects used as currency: cowries (bei), knives (dao), spades (bu), and round coins (quan or qian). Thus, we can see that the origin of words related to money in China referred to these objects. In contrast, in the West, we have a number of monetary terms that come from concepts quite different from these, more related to the physical characteristics and weight of monetary objects. These etymological differences clearly demonstrate the schism between the Western and Chinese visions of money.
 
 
-In China, monetary value was totally fiduciary, based on a social convention between the State, producers and merchants.
+In China, monetary value was totally fiduciary, based on a social convention between the State, producers, and merchants.
 
 
 ### Economic regulation and monetary philosophy
 
 
-The Chinese state used money as an instrument of economic regulation: in times of monetary abundance, the value of money decreased, making it easier for people to buy, while in times of monetary scarcity, it increased in value, reinforcing the state's purchasing power for its next operations.
+The Chinese state used money as an instrument of economic regulation: in times of monetary abundance, the value of money decreased, making it easier for people to buy goods. Conversely, in times of monetary scarcity, the value of money increased, reinforcing the state's purchasing power for its subsequent operations.
 
 
-A link can be made here with inflation and deflation. With a fixed money supply, if the economy's productivity increases, the value of money rises. If productivity falls, the value of money falls. In this example, however, the opposite is true. Probably because the Prince didn't have a complete monopoly on the production of money, but it still denotes a notion that the value of money was linked to economic conditions.
+A link can be made here with inflation and deflation. With a fixed money supply, if the economy's productivity increases, the value of money rises. Conversely, if productivity falls, the value of money decreases. In this example, however, the opposite is true. Probably because the prince did not have a complete monopoly on the production of money, yet it still indicates that the value of money was linked to economic conditions.
 
 
-The philosopher Mo Di (5th-4th century BC) had already analyzed this relationship between price and value: according to him, price variations do not reflect a real notion of cheapness or absolute dearness, but rather a fluctuating relationship between goods and money, independently of the stable nominal value of the money sign.
+The philosopher Mo Di (5th-4th century BC) had already analyzed this relationship between price and value: according to him, price variations do not reflect a real notion of cheapness or absolute dearness, but rather a fluctuating relationship between goods and money, independently of the stable nominal value of the currency sign.
 
 
 So here, instead of saying that the gold coin would have some kind of basic value as such, such as use value or intrinsic value, he points out that the value of the monetary sign came rather from the state of the economy.
@@ -779,31 +779,31 @@ In China, coins did not necessarily need to be officially marked or guaranteed. 
 ![](./assets/fr/1-2-3_chine.webp)
 
 
-This is a Chrine coin from the Middle Ages. It's a cast coin with a square hole in the middle. It was used to thread a rope through and then make bracelets or necklaces, but not necessarily for wearing, it was more for accounting purposes. They could be put together to form units of account in the form of large strings, with the pieces interlocked one on top of the other. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
+This is a Chrine coin from the Middle Ages. It's a cast coin with a square hole in the middle. It was used to thread a rope through and then make bracelets or necklaces, but not necessarily for wearing, it was more for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
 
 
-The state's monetary monopoly, belatedly established by Wudi of the Han in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
+The state's monetary monopoly, belatedly established by Wudi des Han in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
 
 
 **The low intrinsic value of Chinese currencies prevented hoarding, guaranteeing their smooth circulation**. Indeed, precious metals were rarely used as current currency, to avoid hoarding. They didn't want to use gold because it was too expensive, so it was hoarded. That was the concept. **Only silk represented a real high-value currency in Chinese international trade**. The Chinese traded with silk, not gold.
 
 
-During economic or monetary crises, particularly when the price of copper was rising, innovative solutions were adopted: thus, as early as the 2nd century AD, coins in circulation were cut to create smaller units, enabling fluid circulation to be maintained at lower cost. **Other periods, such as that of Wang Mang (early 1st century AD), experimented with highly fiduciary currencies with face values far higher than their actual metal content, thus prefiguring banknotes**. What this means is that they took a coin and stamped say 50, 100, 200 on it to represent 200 coins. That must have created a lot of inflation.
+During economic or monetary crises, particularly when the price of copper was rising, innovative solutions were adopted: thus, as early as the 2nd century AD, coins in circulation were cut to create smaller units, enabling fluid circulation to be maintained at lower cost. **Other periods, such as that of Wang Mang (early 1st century AD), experimented with highly fiduciary currencies, where face values were far higher than their actual metal content, thus prefiguring banknotes**. What this means is that they took a coin and stamped say 50, 100, 200 on it to represent 200 coins. That must have created a lot of inflation.
 
 
-As mentioned above, this system was based on a social convention between the State, producers and merchants, but also on authoritarian and severe rules for those who didn't play the game, notably in relation to the choice of pieces (beautiful or not) or the length of fabrics (not in line with the standard).
+As mentioned above, this system was based on a social convention between the State, producers, and merchants, but also on authoritarian and severe rules for those who didn't play the game, notably in relation to the choice of pieces (whether beautiful or not) or the length of fabrics (not in line with the standard).
 
 
-In my humble opinion, it's not a very solid system. It relied mainly on strict rules for officials and traders to accept damaged coins, under threat of sanctions.
+In my humble opinion, it's not a very solid system. It relied mainly on strict rules requiring officials and traders to accept damaged coins, under threat of sanctions.
 
 
 ### Chinese monetary innovations and their economic impact
 
 
-China was also a pioneer in the issuance of early forms of paper money, initially adopted in response to a shortage of metal in the 9th century A.D. Despite their initial advantages, these paper currencies regularly led to inflationary spirals when issued in excess, as witnessed in the Song or Ming periods, when excessive issuance led to serious currency crises, illustrated by Marco Polo in the 13th century, who even noted that the falsification of such paper money was punishable by death. I can't help pointing out a form of violence here.
+China was also a pioneer in the issuance of early forms of paper money, initially adopted in response to a shortage of metal in the 9th century AD. Despite their initial advantages, these paper currencies regularly led to inflationary spirals when issued in excess, as witnessed in the Song or Ming periods, when excessive issuance led to serious currency crises, illustrated by Marco Polo in the 13th century, who even noted that the falsification of such paper money was punishable by death. I can't help but point out a form of violence here.
 
 
-Thus, the Chinese experience is characterized by a profoundly fiduciary conception of money, a remarkable flexibility of the monetary system and an early use of paper currencies, based on trust between economic players rather than on the intrinsic value of the media used.
+Thus, the Chinese experience is characterized by a profoundly fiduciary conception of money, remarkable flexibility of the monetary system, and early use of paper currencies, based on trust between economic players rather than on the intrinsic value of the media used.
 
 
 
@@ -864,7 +864,7 @@ The comparison between Sparta and Athens perfectly illustrates the relationship 
 The Spartan rejection of money was not spontaneous, but **institutional and ideological**. Spartan leaders feared that money would corrupt military and civic values, preferring a system based on direct interpersonal trust between citizens.
 
 
-To discourage monetary use, Sparta used **heavy, impractical metal bars**, paradoxically demonstrating an intuitive understanding of the monetary qualities (divisibility, transportability, durability) they were striving to neutralize.
+To discourage the use of  money, Sparta employed **heavy, impractical metal bars**, paradoxically demonstrating an intuitive understanding of the monetary qualities (divisibility, transportability, durability) they were striving to neutralize.
 
 
 ### The Limits of the Anti-Monetary Model
@@ -897,7 +897,7 @@ The Inca Empire presents a fascinating paradox: **a civilization with immense go
 This structural fragility of anti-monetary systems in the face of monetary societies is a recurring historical pattern, suggesting that **institutional rejection of money, far from strengthening social cohesion, can paradoxically weaken civilizations** in the face of external challenges and historical change.
 
 
-Analysis of these historical models reveals that money, beyond its exchange function, is a marker and facilitator of social complexity, enabling civilizations to go beyond the limits imposed by direct interpersonal relations.
+Analysis of these historical models reveals that money, beyond its exchange function, is a marker and facilitator of social complexity, enabling civilizations to transcend the limits imposed by direct interpersonal relations.
 
 
 # The birth of minted money
@@ -911,7 +911,7 @@ Analysis of these historical models reveals that money, beyond its exchange func
 
 :::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
 
-We've now come to the crux of the matter: the appearance of coins. I'm stressing the word coin here because we've seen in previous sections that money or monetary systems were very much present in the civilizations that preceded the Lydian peoples, the Greeks and the Persians. It's pretty clear, I think, from what we've just seen. And so this section is dedicated to the emergence of coins proper and is entitled: *The emergence of coins*.
+We've now come to the crux of the matter: the appearance of coins. I'm stressing the word 'coin' here because we've seen in previous sections that money or monetary systems were very much present in the civilizations that preceded the Lydian peoples, the Greeks, and the Persians. It's pretty clear, I think, from what we've just seen. Therefore, this section is dedicated to the emergence of coins proper and is entitled: *The emergence of coins*.
 
 
 ### Lydian and Ionian origins of coins

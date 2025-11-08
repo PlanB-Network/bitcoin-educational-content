@@ -645,7 +645,7 @@ With the emergence of the first Egyptian chiefdoms around 3650-3400 BC, the site
 Although large-scale trade was mainly based on barter, a primitive form of money ("paleo-currency"), made up of prestige items such as semi-precious stones and fossil shells, probably existed. Gold probably already played an important role in these exchanges. The first explicit mention of a coin in Egyptian documents in the middle of the 3rd millennium BC reflects a long maturation linked to commercial practices.
 
 
-In archaic society (here we're not necessarily talking about Egypt, but archaic societies in general), payments were frequent, not to buy directly, but to pay dowries, religious rituals and other social obligations. These transactions required precise pricing and valuation. Many primitive societies had privileged, monetiform (i.e. countable) objects, in terms of which this value was estimated. If you're paying a dowry, of course, you have to note down some quantity of an object to be exchanged to pay the dowry. This value is essentially that of people.
+In archaic society (here we're not necessarily talking about Egypt, but archaic societies in general), payments were frequent, not to buy directly, but to pay dowries, religious rituals, and other social obligations. These transactions required precise pricing and valuation. Many primitive societies had privileged, monetiform (i.e. countable) objects, in terms of which this value was estimated. If you're paying a dowry, of course, you have to note down some quantity of an object to be exchanged to pay the dowry. This value is essentially that of people.
 
 
 In archaic societies, before the advent of money or monetary systems, there were payments, but they were often linked to social obligations, and their value derived from the value of individuals, as in the payment of dowries or blood money.
@@ -680,22 +680,22 @@ The ancient Egyptians made a clear distinction between the ideological aspect of
 Thus, although ancient Egypt did not develop a minted currency comparable to modern monetary systems until the late period, it did possess a sophisticated monetary system, based on the combined use of scriptural money, precise units of account, commodity money and precious metals valued by weight.
 
 
-The coins themselves were weighed, giving rise to two different concepts: "coinage" and "money "**. I used two terms in English. First, "coinage" refers to coins, a concept that comes later, and we also have this concept of money. We can already define a certain notion of "money" by the units of account I've just expressed in terms of money, but which were not yet coins, so "coinage" comes a little later with the Lydians.
+The coins themselves were weighed, giving rise to two different concepts: **"coinage" and "money"**. I used two terms in English. First, "coinage" refers to coins, a concept that comes later, and we also have this concept of money. We can already define a certain notion of "money" by the units of account I've just expressed in terms of money, but which were not yet coins, so "coinage" comes a little later with the Lydians.
 
 
-And so, coins are not a prerequisite for money, **so much so that we can admit the existence of money as early as the 11th millennium,** in any case and without any doubt during the 11th millennium and particularly under the reign of Hammurabi.
+And so, coins are not a prerequisite for money, **so much so that we can admit the existence of money as early as the 3rd millennium,** in any case and without any doubt during the 2nd millennium and particularly under the reign of Hammurabi.
 
 
-What's important to remember here, and this is what the author mentions in the book "The Origins of Money", is that there is no doubt that the concept of money already existed at the time, in these monetary systems, and that it's a mistake to link the birth of money as a concept to the appearance of coins.
+What's important to remember here, and this is what the author mentions in the book "The Origins of Money", is that there is no doubt that the concept of money already existed at the time, in these monetary systems, and it's a mistake to link the birth of money as a concept to the appearance of coins.
 
 
-Finally, Polanyi's concepts of reciprocity and redistribution, often applied to ancient Egypt, need to be qualified: although they exist, they do not constitute an exclusive framework. Pharaonic Egypt had developed a complex economy that fully integrated sophisticated commercial exchanges, distinct from religious and ritual practices, demonstrating a real autonomy of the economic domain from the ideological.
+Finally, Polanyi's concepts of reciprocity and redistribution, often applied to ancient Egypt, need to be nuanced: while they exist, they do not form an exclusive framework. Pharaonic Egypt had developed a complex economy that fully integrated sophisticated commercial exchanges, distinct from religious and ritual practices, demonstrating a real autonomy of the economic domain from the ideological.
 
 
-This peculiarity is linked to the notion that precious metals were linked to a certain divinity, but were still capable of distinction.
+This peculiarity is linked to the notion that precious metals were associated with a certain divinity, yet were still capable of distinction.
 
 
-I bring this up here, because Polanyi referred to the use of these precious metals as a rather religious or divine notion, when in fact we're proposing here that it was also integrated into the economic system and that the Egyptians were already able to make a distinction.
+I bring this up because Polanyi referred to the use of these precious metals as a primarily religious or divine notion. However, we are proposing that they were also integrated into the economic system, and that the Egyptians were already able to make such distinctions.
 
 
 To conclude, I'd like to quote from the book "The Origins of Money", which lists the purpose of this invention, minted money. There are several points, but I'd just like to emphasize point 5:
@@ -704,7 +704,7 @@ To conclude, I'd like to quote from the book "The Origins of Money", which lists
 *develop the possibility of economic play through the use of methods such as devaluations and successive revaluations to reduce or increase imports and exports at lower cost*
 
 
-So, already in these archaic times, the author proposes that coins had already been invented or emerged under state control and were already playing with their quantity of precious metals and their weight to manage the economy. Let me give you the scoop on a later section. **Even in the earliest forms of coinage, which were made of electrum, an alloy of gold and silver, we know that when we analyze the precious metal content of the coins of the first issuers, such as Croesus, there was less gold than in natural electrum
+So, even in those archaic times, the author proposes that coins had already been invented or emerged under state control and were already being manipulated in terms of their quantity of precious metals and weight to manage the economy. I allow myself to give you a little scoop regarding a subsequent section. **Even in the earliest forms of coinage, which were made of electrum, an alloy of gold and silver, we know from analyzing the content of precious metals in these coins that the first issuers, for example, Croesus, had less gold than in natural electrum.**
 
 
 This means they already knew how to separate gold and silver, and issued coins containing less gold.

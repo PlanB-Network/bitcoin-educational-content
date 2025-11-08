@@ -289,64 +289,63 @@ Lo scambio di chiavi Diffie-Hellman tra Alice e Bob funziona nel seguente modo:
 
 - Invece di scambiare questi numeri a e b, ogni parte calcolerà *A* (maiuscolo) e *B* (maiuscolo) come segue:
 
-*A* è uguale a *g* elevato alla potenza a modulo *p*:
-***A* = g^a % p**
+*A* è uguale a *g* elevato alla potenza **a** modulo *p*:
+***A* = *g*^*a* % *p***
 
 *B* è uguale a *g* elevato alla potenza *b* modulo *p*:
-***B* = g^b % p**
+***B* = *g*^*b* % *p***
 
-- Questi numeri A (equivalente al colore arancione) e B (equivalente al colore celeste) saranno scambiati tra le due parti. Lo scambio può avvenire in chiaro su una rete non sicura.
+- Questi numeri *A* (equivalente al colore arancione) e *B* (equivalente al colore celeste) saranno scambiati tra le due parti. Lo scambio può avvenire in chiaro su una rete non sicura.
 
-- Alice, che ora conosce B, calcolerà il valore di z come segue:
+- Alice, che ora conosce *B*, calcolerà il valore di *z* come segue:
 
-> z è uguale a B elevato alla potenza a modulo p:
-> z = B^a % p
+*z* è uguale a *B* elevato alla potenza *a* modulo *p*:
+***z* = *B*^*a* % *p*
 
-- Come ricordo, B = g^b % p. Quindi abbiamo:
+- Come ricordo, *B* = *g*^*b* % *p*. Quindi abbiamo:
 
-  > z = B^a % p
-  > z = (g^b)^a % p
-  >
-  > In conformità alle regole di calcolo delle potenze:
-  >
-  > (x^n)^m = x^nm
-  >
-  > Quindi abbiamo:
-  >
-  > z = g^ba % p
+***z* = *B*^*a* % *p*
+***z* = (*g*^*b*)^+a* % *p*
 
-- Bob, che ora conosce A, calcolerà anche il valore di z come segue:
+In conformità alle regole di calcolo delle potenze:
+ **(*x*^*n*)^*m* = *x*^*nm***
+  
+ Quindi abbiamo:
 
-> z è uguale ad A elevato alla b modulo p:
->
-> z = A^b % p
->
-> Quindi abbiamo:
->
-> z = (g^a)^b % p
-> z = g^ab % p
-> z = g^ba % p
+***z* = *g*^*ba* % *p***
 
-Grazie alla distributività dell'operatore modulo, Alice e Bob trovano esattamente lo stesso valore di z. Questo numero rappresenta il loro segreto comune, cioè l'equivalente del colore marrone nella spiegazione precedente. Possono utilizzare questo segreto comune per crittografare una comunicazione tra di loro su una rete non sicura.
+- Bob, che ora conosce *A*, calcolerà anche il valore di *z* come segue:
+
+*z* è uguale ad *A* elevato alla *b* modulo *p*:
+
+***z* = *A*^*b* % *p*
+
+Quindi abbiamo:
+
+***z* = (*g*^*a*)^*b* % *p*
+***z* = *g*^*ab* % *p*
+***z* = *g*^*ba* % *p*
+
+Grazie alla ditribuzione dell'operatore modulo, Alice e Bob trovano esattamente lo stesso valore di z. Questo numero rappresenta il loro segreto comune, cioè l'equivalente del colore marrone nella spiegazione precedente. Possono utilizzare questo segreto comune per crittografare una comunicazione tra di loro su una rete non sicura.
 
 ![Schema del funzionamento tecnico di Diffie-Hellman](assets/14.webp)
 
-Un attaccante in possesso di p, g, A e B sarà impossibilitato a calcolare a, b o z. Effettuare questa operazione significherebbe invertire l'esponenziazione. Questo calcolo è impossibile da eseguire se non provando tutte le combinazioni una per una, poiché si sta lavorando su un campo finito. Ciò equivale a calcolare il logaritmo discreto, cioè l'inverso dell'esponenziale in un gruppo ciclico finito.
+Un malintenzionato in possesso di *p*, *g*, *A* e *B* sarà impossibilitato a calcolare *a*, *b* o *z*. Effettuare questa operazione significherebbe invertire l'elevazione a potenza. Questo calcolo è impossibile da eseguire se non provando tutte le combinazioni una per una, poiché si sta lavorando su un campo finito. Ciò equivale a calcolare il logaritmo discreto, cioè l'inverso dell'esponenziale in un gruppo ciclico finito.
 
-Pertanto, fintanto che si scelgono a, b e p sufficientemente grandi, Diffie-Hellman è sicuro. Tipicamente, con parametri di 2.048 bit (un numero di 600 cifre in decimale), testare tutte le possibilità per a e b sarebbe una chimera. Ad oggi, con numeri di questa dimensione, l'algoritmo è considerato sicuro.
+Pertanto, fintanto che si scelgono *a*, *b* e *p* sufficientemente grandi, Diffie-Hellman è sicuro. Tipicamente, con parametri di 2.048 bit (un numero di 600 cifre in decimale), testare tutte le possibilità per *a* e *b* sarebbe una chimera. Ad oggi, con numeri di questa dimensione, l'algoritmo è considerato sicuro.
 
-È proprio a questo livello che risiede il principale svantaggio del protocollo Diffie-Hellman. Per essere sicuro, l'algoritmo deve utilizzare numeri di grandi dimensioni. Di conseguenza, oggi si preferisce utilizzare l'algoritmo ECDH, una variante di Diffie-Hellman che utilizza una curva algebrica, e in particolare una curva ellittica. Ciò ci consente di lavorare con numeri molto più piccoli pur mantenendo una sicurezza equivalente, riducendo così le risorse necessarie per il calcolo e lo storage.
+È proprio a questo livello che risiede il principale svantaggio del protocollo Diffie-Hellman. Per essere sicuro, l'algoritmo deve utilizzare numeri di grandi dimensioni. Di conseguenza, oggi si preferisce utilizzare l'algoritmo ECDH, una variante di Diffie-Hellman che utilizza una curva algebrica, e in particolare una curva ellittica. Ciò ci consente di lavorare con numeri molto più piccoli pur mantenendo una sicurezza equivalente, riducendo così le risorse necessarie per il calcolo e l'archiviazione.
 
-Il principio generale dell'algoritmo rimane lo stesso. Ma invece di utilizzare un numero casuale *a* e un numero A calcolato da *a* con l'esponenziazione modulare, utilizzeremo una coppia di chiavi stabilite su una curva ellittica. Invece di fare affidamento sulla distributività dell'operatore modulo, qui utilizzeremo la legge di gruppo sulle curve ellittiche, e più precisamente la proprietà associativa di questa legge.
+Il principio generale dell'algoritmo rimane lo stesso. Tuttavia, invece di utilizzare un numero casuale *a* e un numero *A* calcolato da *a* con l'esponenziazione modulare, utilizzeremo una coppia di chiavi stabilite su una curva ellittica. Invece di fare affidamento sulla distributività dell'operatore modulo, qui utilizzeremo la legge di gruppo sulle curve ellittiche, e più precisamente la proprietà associativa di questa legge.
 Se non hai alcuna conoscenza sul funzionamento delle chiavi private e pubbliche su una curva ellittica, spiegherò le basi di questo metodo nelle prime sei parti di questo articolo.
 
 In breve, una chiave privata è un numero casuale compreso tra 1 e n-1 (dove n è l'ordine della curva), e una chiave pubblica è un punto unico sulla curva determinato dalla chiave privata tramite l'addizione e il raddoppio di punti dal punto generatore come segue:
 
-> K = k·G
+***K* = *k*·*G***
 
-Dove K è la chiave pubblica, k è la chiave privata e G è il punto generatore.
+Dove *K* è la chiave pubblica, *k* è la chiave privata e *G* è il punto generatore.
 
-Una delle proprietà di questa coppia di chiavi è che è molto facile determinare K conoscendo k e G, ma è attualmente impossibile determinare k conoscendo K e G. È una funzione unidirezionale.
+Una delle proprietà di questa coppia di chiavi è che è molto facile determinare *K* conoscendo *k* e *G*, ma è attualmente impossibile determinare *k* conoscendo *K* e *G*. È una funzione unidirezionale.
 
 In altre parole, è possibile calcolare facilmente la chiave pubblica conoscendo la chiave privata, ma è impossibile calcolare la chiave privata conoscendo la chiave pubblica. Questa sicurezza si basa ancora una volta sull'impossibilità di calcolare il logaritmo discreto.
 
@@ -354,31 +353,31 @@ Quindi useremo questa proprietà per adattare il nostro algoritmo Diffie-Hellman
 
 - Alice e Bob concordano insieme su una curva ellittica crittograficamente sicura e sui suoi parametri. Queste informazioni sono pubbliche.
 
-- Alice genera un numero casuale ka che sarà la sua chiave privata. Questa chiave privata deve rimanere segreta. Determina la sua chiave pubblica Ka tramite l'addizione e il raddoppio di punti sulla curva ellittica scelta.
+- Alice genera un numero casuale *ka* che sarà la sua chiave privata. Questa chiave privata deve rimanere segreta. Determina la sua chiave pubblica *Ka* tramite l'addizione e il raddoppio di punti sulla curva ellittica scelta.
 
-> Ka = ka·G
+***Ka* = *ka*·*G***
 
-- Bob genera anche un numero casuale che sarà la sua chiave privata kb. E calcola la chiave pubblica associata Kb.
+- Bob genera anche un numero casuale che sarà la sua chiave privata *kb*. E calcola la chiave pubblica associata *Kb*.
 
-> Kb = kb·G
+***Kb* = *kb*·*G***
 
-- Alice e Bob scambiano le loro chiavi pubbliche Ka e Kb su una rete pubblica non sicura.
+Alice e Bob scambiano le loro chiavi pubbliche *Ka* e *Kb* su una rete pubblica non sicura.
 
-- Alice calcola un punto (x,y) sulla curva applicando la sua chiave privata ka dalla chiave pubblica di Bob Kb.
+Alice calcola un punto (x,y) sulla curva applicando la sua chiave privata ka dalla chiave pubblica di Bob *Kb*.
 
-> (x,y) = ka·Kb
+**(x,y) = *ka*·*Kb***
 
 - Bob calcola un punto (x,y) sulla curva applicando la sua chiave privata kb dalla chiave pubblica di Alice Ka.
 
-> (x,y) = kb·Ka
+**(x,y) = *kb*·*Ka***
 
 - Alice e Bob ottengono lo stesso punto sulla curva ellittica. Il segreto condiviso sarà l'ascissa x di questo punto.
 
 Ottengono lo stesso segreto condiviso perché:
 
-> (x,y) = ka·Kb = ka·kb·G = kb·ka·G = kb·Ka
+**(x,y) = *ka*·*Kb* = *ka*·*kb*·*G* = *kb*·*ka*·*G* = *kb*·*Ka***
 
-Un potenziale attaccante che osserva la rete pubblica non sicura può ottenere solo le chiavi pubbliche di entrambi e i parametri della curva scelta. Come spiegato in precedenza, queste due informazioni da sole non consentono di determinare le chiavi private e quindi l'attaccante non può accedere al segreto.
+Un malintenzionato che osserva la rete pubblica non sicura può ottenere solo le chiavi pubbliche di entrambi e i parametri della curva scelta. Come spiegato in precedenza, queste due informazioni da sole non consentono di determinare le chiavi private e quindi l'attaccante non può accedere al segreto.
 ECDH è quindi un algoritmo che consente lo scambio di chiavi. Spesso viene utilizzato insieme ad altri metodi crittografici per definire un protocollo. Ad esempio, ECDH è utilizzato nel cuore di TLS (Transport Layer Security), un protocollo di crittografia ed autenticazione utilizzato per il livello di trasporto di Internet. TLS utilizza ECDHE per lo scambio di chiavi, una variante di ECDH in cui le chiavi sono effimere per garantire la riservatezza persistente. Oltre a quest'ultimo, TLS utilizza anche un algoritmo di autenticazione come ECDSA, un algoritmo di crittografia come AES e una funzione di hash come SHA256.
 TLS definisce in particolare la "s" in "https", così come il lucchetto che si vede nel browser in alto a sinistra, i quali garantiscono la crittografia della comunicazione. Quindi, state utilizzando ECDH leggendo questo articolo e probabilmente lo utilizzate quotidianamente senza accorgervene.
 
@@ -386,12 +385,12 @@ TLS definisce in particolare la "s" in "https", così come il lucchetto che si v
 
 Come abbiamo scoperto nella parte precedente, ECDH è una variante dello scambio di Diffie-Hellman che coinvolge coppie di chiavi basate su una curva ellittica. Per fortuna, abbiamo molte coppie di chiavi che rispettano questo standard nei nostri portafogli Bitcoin!
 
-L'idea è quindi quella di utilizzare le coppie di chiavi dei portafogli deterministici gerarchici Bitcoin delle due parti per stabilire segreti condivisi ed effimeri tra di loro. All'interno del BIP47, viene utilizzato ECDHE (Elliptic Curve Diffie-Hellman Ephemeral).
+L'idea è di utilizzare le coppie di chiavi dei wallet deterministici gerarchici Bitcoin delle due parti per stabilire segreti condivisi ed effimeri tra di loro. All'interno del BIP47, viene utilizzato ECDHE (Elliptic Curve Diffie-Hellman Ephemeral).
 
 ECDHE viene utilizzato per la prima volta nel BIP47 per trasmettere il codice di pagamento dal mittente al destinatario. Questa è la famosa transazione di notifica. Infatti, affinché il BIP47 possa essere utilizzato, entrambe le parti (il mittente che invia pagamenti e il destinatario che riceve pagamenti) devono essere a conoscenza del codice di pagamento dell'altra parte. Questo sarà necessario per derivare le chiavi pubbliche effimere e quindi gli indirizzi di ricezione dedicati.
 
 Prima di questo scambio, il mittente è logicamente già a conoscenza del codice di pagamento del destinatario, poiché è stato in grado di recuperarlo off-chain, ad esempio, dal suo sito web o dai suoi social media. Al contrario, il destinatario potrebbe non essere a conoscenza del codice di pagamento del mittente. Sarà quindi necessario trasmetterglielo, altrimenti non sarà in grado di derivare le sue chiavi effimere e quindi non sarà in grado di sapere dove si trovano i suoi bitcoin e di sbloccare i suoi fondi. Potremmo trasmetterglielo off-chain, con un altro sistema di comunicazione, ma ciò comporterebbe un problema in caso di recupero del wallet dal seed.
-Infatti, come ho già menzionato, gli indirizzi BIP47 non sono derivati dal seed del destinatario (altrimenti si potrebbe utilizzare direttamente uno dei suoi xpub), ma sono il risultato di un calcolo che coinvolge i due codici di pagamento: quello del destinatario e quello del mittente. Pertanto, se il destinatario perde il suo wallet e cerca di recuperarlo dal seed, dovrà necessariamente disporre di tutti i codici di pagamento delle persone che gli hanno inviato bitcoin tramite BIP47.
+Infatti, come già menzionato, gli indirizzi BIP47 non sono derivati dal seed del destinatario (altrimenti si potrebbe utilizzare direttamente uno dei suoi xpub), ma sono il risultato di un calcolo che coinvolge i due codici di pagamento: quello del destinatario e quello del mittente. Pertanto, se il destinatario perde il suo wallet e cerca di recuperarlo dal seed, dovrà necessariamente disporre di tutti i codici di pagamento delle persone che gli hanno inviato bitcoin tramite BIP47.
 Quindi, potremmo facilmente utilizzare BIP47 senza questa transazione di notifica, ma ogni utente dovrebbe fare un backup dei codici di pagamento dei suoi contatti. Questa situazione rimarrà ingestibile finché non troveremo un modo semplice e resiliente per creare, archiviare e aggiornare questi backup. La transazione di notifica è quindi praticamente obbligatoria nello stato attuale delle cose.
 
 Oltre a questa funzione di backup dei codici di pagamento, come suggerisce il nome stesso, questa transazione svolge anche un ruolo di notifica per il destinatario. Segnala al suo client che è stato aperto un tunnel.

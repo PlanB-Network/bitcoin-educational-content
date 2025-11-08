@@ -1083,11 +1083,11 @@ So, as we've just done a section on the emergence of coins, I wanted to do a ver
 ![](./assets/fr/1-3-1_2_Siglos.webp)
 
 
-Then, as we'll see in a subsequent section, the Greeks perfected this technology by making round coins that were hammered on both sides. So they would install a round, flat piece of precious metal that was smooth and hammered on both sides with a pattern in which they had engraved the reverse of the mark they wanted to inscribe, and then hammered the coins like that, by hand.
+Then, as we'll see in a subsequent section, the Greeks perfected this technology by making round coins that were hammered on both sides. So they would install a round, flat piece of precious metal that was smooth and hammered on both sides with a pattern in which they had engraved the reverse of the mark they wanted to inscribe, and then hammered the coins in this manner, by hand.
 
 
 
-And this technology of hand minting, one by one, probably helped to control the notion of inflation at the time, even if coins were greatly diluted to produce more. This was definitely the case in the Roman period, and a little in the Greek period during certain wars. This notion of making coins one at a time nevertheless limited the authority's production capacity and had a positive effect on inflation control, despite the enormous devaluations we saw. So we went from a blob that was punched to a round coin that was hammered.
+And this technology of hand minting, one by one, probably helped to control the notion of inflation at the time, even if coins were greatly diluted to produce more. This was definitely the case in the Roman period and, to a lesser extend, in the Greek period during certain wars. This notion of making coins one at a time nevertheless limited the authority's production capacity and had a positive effect on inflation control, despite the enormous devaluations we saw. So we went from a blob that was punched to a round coin that was hammered.
 
 
 ![](./assets/fr/1-3-2_1_drachm.webp)
@@ -1098,16 +1098,16 @@ And this technology of hand minting, one by one, probably helped to control the 
 
 There's also a notion I wanted to talk about, which I could do with this metal tool here.
 
-In the Middle Ages, there was also a notion of spreading the coin out, so we made it wider and wider, thinner and thinner, and one of the reasons was that it was easier to test the sound. This way, by spreading the silver out, it created a frequency and we could validate a notion of the piece's purity simply by listening to it. That's where the expression sounding money comes from. And the stumbling In striking and stumbling money, it was the notion of the trebuchet to weigh it. And so we moved from small, round coins to slightly thinner, wider coins.
+In the Middle Ages, there was also a notion of spreading the coin out, so we made it wider and wider, thinner and thinner, and one of the reasons was that it was easier to test the sound. This way, by spreading the silver out, it created a frequency and we could validate a notion of the piece's purity simply by listening to it. That's where the expression sounding money comes from. In 'sound money,' the standard weight was determined using a balance scale, or trebuchet, to weigh it. And so we moved from small, round coins to slightly thinner, wider coins.
 
 
-### Swinging the pendulum
+### Pendulum striking
 
 
-And the last technology to arrive at the end of the Middle Ages, at the beginning of the modern era I imagine, was the notion of pendulum striking. This was a kind of screw that was tightened to strike the coins, thus generating coins with this new form of striking. And what was special about it was that you could put a pattern on the outside of the coin to try and solve the problem of clipping, where you would remove a certain part of the coin to recover the precious silver and perhaps cast other coins, or simply keep the metal as a resource.
+And the last technology to arrive at the end of the Middle Ages, at the beginning of the modern era, was the notion of pendulum striking. This was a kind of screw that was tightened to strike the coins, thus generating coins with this new form of striking. And what was special about it was that you could put a pattern on the outside of the coin to try and solve the problem of clipping, where a certain part of the coin would be removed to recover the precious silver and perhaps cast other coins, or simply keep the metal as a resource.
 
 
-So this notion of striking the balance helped with the clipping phenomenon. And it's interesting to note that this technology actually came from France. In England, for example, they hired French engineers to come and show them how to make these machines. And what's funny, I think, is that there were supporters of hammer minting who were against it and who delayed the application of this technology. In any good technology, there are always people who are against it, who want to keep the old technology. I thought it was pretty crazy to realize that even a technology that seems really superior - you can make more parts, they're harder to copy - there were still people who were attached to the famous hammer method, and there was a shift between producing parts that were made with this famous pendulum striking and then returning to hammer striking. And finally, of course, it was pendulum striking that finally took hold and gave us these beautiful modern pieces where you can find either little lines, little ridges around to avoid clipping, probably related to the word clipping, ridges, and you can still see today either ridges or text or drawings that are inscribed on the edge of the piece.
+So this notion of pendulum striking helped with the clipping phenomenon. And it's interesting to note that this technology actually came from France. In England, for example, they hired French engineers to come and show them how to make these machines. What's funny, I think, is that there were supporters of hammer minting who were against it and who delayed the application of this technology. In any good technology, there are always people who are against it, who want to keep the old technology. I thought it was pretty crazy to realize that even a technology that seems really superior - you can make more parts, they're harder to copy - there were still people who were attached to the famous hammer method. There was a shift between producing parts that were made with this famous pendulum striking and then returning to hammer striking. And finally, of course, it was pendulum striking that finally took hold and gave us these beautiful modern pieces where you can find either little lines, little ridges around to avoid clipping, probably related to the word clipping, ridges, and you can still see today either ridges or text or drawings that are inscribed on the edge of the piece.
 
 
 # Different theories on the emergence of money

@@ -38,7 +38,7 @@ Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale
 
 
 
-L'impatto principale della piattaforma mempool.space nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin, senza doverne eseguire uno. Mempool.space è un archivio per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
+L'impatto principale della piattaforma Mempool.space nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin, senza doverne eseguire uno. Mempool.space è un archivio per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
 
 
 

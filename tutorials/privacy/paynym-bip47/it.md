@@ -287,13 +287,13 @@ Lo scambio di chiavi Diffie-Hellman tra Alice e Bob funziona nel seguente modo:
 
 - Una volta scelti i parametri, Alice e Bob determinano ciascuno un numero casuale segreto. Il numero casuale ottenuto da Alice è chiamato *A* (equivalente al colore rosso) e il numero casuale ottenuto da Bob è chiamato *B* (equivalente al colore blu petrolio). Questi due numeri devono rimanere segreti.
 
-- Invece di scambiare questi numeri a e b, ogni parte calcolerà A (maiuscolo) e B (maiuscolo) come segue:
+- Invece di scambiare questi numeri a e b, ogni parte calcolerà *A* (maiuscolo) e *B* (maiuscolo) come segue:
 
-> A è uguale a g elevato alla potenza a modulo p:
-> A = g^a % p
+*A* è uguale a *g* elevato alla potenza a modulo *p*:
+***A* = g^a % p**
 
-> B è uguale a g elevato alla potenza b modulo p:
-> B = g^b % p
+***B* è uguale a *g* elevato alla potenza *b* modulo *p*:
+***B* = g^b % p**
 
 - Questi numeri A (equivalente al colore arancione) e B (equivalente al colore celeste) saranno scambiati tra le due parti. Lo scambio può avvenire in chiaro su una rete non sicura.
 

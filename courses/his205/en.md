@@ -917,20 +917,20 @@ We've now come to the crux of the matter: the appearance of coins. I'm stressing
 ### Lydian and Ionian origins of coins
 
 
-To kick off this section, I'd like to offer you an extract from Glyn Davies' book A History of Money right here.
+To kick off this section, I'd like to offer you an extract from Glyn Davies' book, A History of Money, right here.
 
 
 *Excerpt from A History of Money: From Ancient Times to the Present Day by Glyn Davies:*
 
 
-> From its place of origin in Lydia and Ionia, the knowledge and use of coins spread rapidly eastwards within the Persian Empire, and westwards across the Ionian and Aegean islands to mainland Greece and its western colonies, particularly Sicily. This innovation also spread northwards, reaching Macedonia, Thrace and the Black Sea, but was only partially, belatedly and reluctantly accepted in Egypt.
+> From its place of origin in Lydia and Ionia, the knowledge and use of coins spread rapidly eastwards within the Persian Empire, and westwards across the Ionian and Aegean islands to mainland Greece and its western colonies, particularly Sicily. This innovation also spread northwards, reaching Macedonia, Thrace, and the Black Sea, but was only partially, belatedly, and reluctantly accepted in Egypt.
 
-I find it interesting to mention here that in Egypt they continued to weigh coins long after the advent of minted coin technology. I think that's important to mention. The quote continues:
+I find it interesting to mention here that in Egypt, they continued to weigh coins long after the advent of minted coin technology. I think that's important to note. The quote continues:
 
 
 > Similarly, mainland Italy was initially slow to adopt these Greek financial innovations, in contrast to the rapid acceptance observed in Sicily.
 
-*Apart from these two limited exceptions (continental Italy and Lower Egypt), the use of coinage spread rapidly around the countries bordering the central and eastern Mediterranean, as well as across the vast and growing Persian Empire, from Mesopotamia **to India.** It remains unclear whether India had already independently developed an embryonic monetary system by this time, independently of Chinese or Lydian developments. Irrespective of whether India itself invented its own currency, the increasingly close contacts between India and the Near East had the practical result that Indian coinage became a direct adaptation of Lydian and Greek invention, first via the Persian Empire and then the Macedonian Empire* (with the conquests of Alexander Legrand and his father).
+*Apart from these two limited exceptions (continental Italy and Lower Egypt), the use of coinage spread rapidly around the countries bordering the central and eastern Mediterranean, as well as across the vast and growing Persian Empire, from Mesopotamia **to India.** It remains unclear whether India had already independently developed an embryonic monetary system by this time, independently of Chinese or Lydian developments. Regardless of whether India had independently developed its own currency, the increasing contacts between India and the Near East led to Indian coinage being a direct adaptation of Lydian and Greek invention, first through the Persian Empire and then the Macedonian Empire* (with the conquests of Alexander the Great and his father).
 
 
 *For these reasons, the direct influence of any indigenous Indian invention of money was minor, compared to the overwhelming importance of the clearly independent monetary inventions of China to the east, and even more so of Lydian and Greek developments to the west*
@@ -942,7 +942,7 @@ I find it interesting to mention here that in Egypt they continued to weigh coin
 ![](./assets/fr/1-3-0_indes.webp)
 
 
-To illustrate this period, here's a coin from the region of India, a coin from the Bactria region, which is a little to the west of the Indian peninsula, close to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
+To illustrate this period, here's a coin from the region of India and a coin from the Bactria region, which is a little to the west of the Indian peninsula, close to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
 
 
 
@@ -955,10 +955,10 @@ To illustrate this period, here's a coin from the region of India, a coin from t
 ### The first Lydian electrum coins
 
 
-Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 BC that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 BC These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
+Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 BC that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 BC. These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
 
 
-I have here one of the earliest Lydian coins, representing a kind of lion with a prey in front, and we notice that there is often a stamen, a kind of hole formed at the back, and some think that this may be to assess the purity of the metal, to avoid it being just a kind of surface layer. This is one of the first pieces. This one is obviously a copy. All my gold and electrum pieces are copies or modern recreations, to avoid spending all my savings on this collection.
+I have here one of the earliest Lydian coins, representing a kind of lion with a prey in front, and we notice that there is often a stamen, a kind of hole formed at the back. Some think that this may be to assess the purity of the metal, to avoid it being just a kind of surface layer. This is one of the first pieces. This one is obviously a copy. All my gold and electrum pieces are copies or modern recreations, to avoid spending all my savings on this collection.
 
 
 ![](./assets/fr/1-3-1_1_lydia.webp)
@@ -970,7 +970,7 @@ But I also have a real Persian piece that we're about to see. This is what these
 Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, it seems that the first Lydian, Achaemenid and Greek coins were not initially used for small-scale commerce. Indeed, the monetary units were far too large for everyday use. What's more, their circulation was limited to regions close to where they were produced.
 
 
-Here, I find it important to mention that, although I've read in several works of anthropological allegiance, the coins, as I've already shown, the electrum one or this Persian coin to which I'll return in a very short while, were too big to buy bread, say, every day. I've seen estimates that would make us think it was the equivalent of a day's work for a peasant or a soldier, so it would be too big. It's like trying to pay a day's wages for your meal, your breakfast or your lunch. Except that I've seen in other works that smaller units of these blobs have been found, so smaller coins, which may make us think that maybe there was a possible use for everyday purchases.
+Here, I find it important to mention that, although I've read in several works of anthropological allegiance, the coins, as I've already shown - whether the electrum ones or this Persian coin to which I'll return in a very short while - were too big to buy bread, say, every day. I've seen estimates that would make us think it was the equivalent of a day's work for a peasant or a soldier, so it would be too big. It's like trying to pay a day's wages for your meal, your breakfast, or your lunch. Except that I've seen in other works that smaller units of these blobs have been found, so smaller coins, which may make us think that maybe there was a possible use for everyday purchases.
 
 So here, the anthropological "proof" that it wasn't used for everyday trade, because the denomination or unit was too big, isn't very solid in my opinion because we've found examples of coins that are smaller, that could have been adapted to everyday purchases.
 
@@ -978,25 +978,25 @@ So here, the anthropological "proof" that it wasn't used for everyday trade, bec
 ### The role of the State in money creation
 
 
-The real origin of coins seems to be linked to the direct action of states. There are two main hypotheses on this subject: the first, idealistic, draws a parallel between the Greek term nomisma (money) and nomos (law), suggesting that money was linked to the codification of laws, reinforcing the authority and political organization of cities. The second, more realistic hypothesis, widely accepted today, is that money was first and foremost a means for states to exercise economic and social control. By officially guaranteeing the weight and value of the precious metals they contained, states were able to manipulate the circulation and value of these coins, creating confidence and liquidity premiums specific to domestic currencies.
+The real origin of coins seems to be linked to the direct action of states. There are two main hypotheses on this subject: the first, idealistic, draws a parallel between the Greek term 'nomisma' (money) and 'nomos' (law), suggesting that money was linked to the codification of laws, reinforcing the authority and political organization of cities. The second, more realistic hypothesis, widely accepted today, is that money was first and foremost a means for states to exercise economic and social control. By officially guaranteeing the weight and value of the precious metals they contained, states were able to manipulate the circulation and value of these coins, creating confidence and liquidity premiums specific to domestic currencies.
 
 
-It's really interesting to know that we have evidence of this. For example, in electrum coins, you should know that natural electrum is normally around 70% gold and 30% silver, and in the first coins we found where we analyzed the quantities of these metals, for the first Lidy coins, it seems to be more around 50 to 55% gold instead of 70, so we can see that even back then, coin issuers were trying to reduce the share of the more precious metal, probably so as to be able to produce more and make it look as if it was worth the same as an unmarked blob of natural electrum. And here, it has to be said that it was really from the time of this famous Croesus, as in *rich as Croesus*, that this was possible because it was from his time that we had the technology to separate gold and silver.
+It's really interesting to know that we have evidence of this. For example, in electrum coins, you should know that natural electrum is normally around 70% gold and 30% silver. In the first coins we found and analyzed, specifically the early Lydian coins, the gold content seems to be more around 50 to 55% instead of 70. This suggests that even back then, coin issuers were trying to reduce the share of the more precious metal, probably to produce more coins and make them appear to be worth the same as an unmarked blob of natural electrum. And here, it has to be said that it was really from the time of this famous Croesus, as in *rich as Croesus*, that this was possible because it was from his time that we had the technology to separate gold and silver.
 
 
-Lydian coinage underwent a major evolution during the reign of the famous king Croesus (561-546 BC), renowned for his legendary wealth. At this time, the Lydians perfected metallurgy to separate gold and silver from electrum, thus introducing the first bimetallic coins, i.e. separate gold and silver coins.
+Lydian coinage underwent a major evolution during the reign of the famous king Croesus (561-546 BC), renowned for his legendary wealth. At this time, the Lydians perfected metallurgy to separate gold and silver from electrum, thus introducing the first bimetallic coins, i.e., separate gold and silver coins.
 
 
 ### Persian expansion and Greek adoption
 
 
-When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted this innovation. Around 500 BC, under the reign of Darius I, the Persians established their own monetary system with gold darics and silver siglois, often bearing the royal effigy in warlike poses. This royal Persian coinage was mainly used in the Hellenized regions of the Persian Empire and gradually spread, although its use remained uneven, **some regions, such as Egypt, still preferring exchange in weighed metal (bullion).**.
+When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted this innovation. Around 500 BC, under the reign of Darius I, the Persians established their own monetary system with gold darics and silver siglois, often bearing the royal effigy in warlike poses. This royal Persian coinage was mainly used in the Hellenized regions of the Persian Empire and gradually spread, although its use remained uneven, **some regions, such as Egypt, still preferred exchange in weighed metal (bullion).**.
 
 
 ![](./assets/fr/1-3-1_2_Siglos.webp)
 
 
-I have here a real Persian sigloi or siglos. The little design we have here represents a king with the hole a little effaced. This is a silver coin, unlike the darik, which was made of gold. So they were able to separate these two metals, they were no longer electrum coins, they separated gold and silver coins with bimetallism, but with the same concept of a blob of precious metal coins with a hole at the back, again we suppose to check the metal content.
+I have here a real Persian sigloi or siglos. The little design we have here represents a king with the hole a little effaced. This is a silver coin, unlike the darik, which was made of gold. So they were able to separate these two metals: they were no longer electrum coins. They separated gold and silver coins with bimetallism, but maintained the same concept of a blob of precious metal coins with a hole at the back, again, we suppose, to check the metal content.
 
 
 The rapid adoption of coins by the Greeks seems to have been stimulated by their close contacts with the Lydians, particularly through the Greek colonies in Asia Minor. The first Greeks to mint coins were probably the inhabitants of Aegina in the mid-sixth century BC, who introduced the drachma, whose weight varied from region to region, and whose name literally means "handful of grain" or "handful of arrows".
@@ -1028,7 +1028,7 @@ The emergence of minted money raises a fundamental question: is money a spontane
 On the one hand, the Austrian school of economics defends the idea that commodity money - particularly gold - was naturally selected by economic actors for its intrinsic qualities: durability, portability, divisibility and fungibility. From this perspective, the state then appropriated this spontaneous currency to control its supply. It is an institution that emerges naturally from market needs before being captured by political power.
 
 
-In contrast, the anthropological and institutional view holds that money really comes into being with state coinage. The authority would consciously create the currency by affixing its seal, thus transforming the metal into a genuine monetary instrument. This perspective suggests that the earliest Lydian coins were mainly used to pay armies - one statere corresponding roughly to a soldier's daily wage.
+In contrast, the anthropological and institutional view holds that money really comes into being with state coinage. The authority would consciously create the currency by affixing its seal, thus transforming the metal into a genuine monetary instrument. This perspective suggests that the earliest Lydian coins were mainly used to pay armies - one stater corresponding roughly to a soldier's daily wage.
 
 
 ### The paradoxical advantages of state standardization
@@ -1049,7 +1049,7 @@ This guarantee has an observable price on the market: a minted gold coin is wort
 The story of the first Lydian staters reveals a disturbing irony. Recent analyses show that the gold content of these electrum coins was systematically lower than that of natural electrum. The authority certifying quality was simultaneously manipulating composition.
 
 
-This practice illustrates the dual usefulness of coinage. For the market, it makes exchanges more fluid and offers a guarantee of standardization. For the issuing authority, it becomes a tool of economic control through dilution. By reducing the gold content while maintaining the nominal value, the State effectively increases the money supply - creating more monetary units from the same quantity of precious metal.
+This practice illustrates the dual usefulness of coinage. For the market, it makes exchanges more fluid and offers a guarantee of standardization. For the issuing authority, it becomes a tool of economic control through dilution. By reducing the gold content while maintaining the nominal value, the state effectively increases the money supply - creating more monetary units from the same quantity of precious metal.
 
 
 The state itself, however, remained constrained by this manipulation. As illustrated by the example of Constantine's gold solidus in the 4th century, the Roman administration scrupulously checked the quality of coins, as it demanded to be paid in good coinage. The authority had a vital interest in maintaining the quality of its own coinage to guarantee the value of its tax revenues.

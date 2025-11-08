@@ -923,7 +923,7 @@ Existen tres perfiles principales de usuarios en Lightning, cada uno con necesid
 
 Estos perfiles obviamente no son fijos; un usuario puede cambiar entre pagador y beneficiario dependiendo de las transacciones. Por ejemplo, Bob podría recibir su salario en Lightning de su empleador, colocándolo en la posición de un "vendedor" que requiere liquidez entrante. Posteriormente, si quiere usar su salario para comprar comida, se convierte en un "pagador" y debe entonces tener liquidez saliente.
 
-Para entender mejor, tomemos el ejemplo de una red simple compuesta por tres nodos: el comprador (Alice), el enrutador (Suzie) y el vendedor (Bob).
+Para entender mejor, tomemos el ejemplo de una red simple compuesta por tres nodos: El comprador (Alice), el enrutador (Suzie) y el vendedor (Bob).
 
 ![LNP201](assets/en/071.webp)
 
@@ -950,7 +950,7 @@ Por otro lado, para el vendedor, la tarea es más compleja. Para poder recibir p
 
 ![LNP201](assets/en/074.webp)
 
-Finalmente, para los routers, cuyo objetivo es maximizar el número de pagos procesados y las comisiones recogidas, deben:
+Finalmente, para los enrutadores, cuyo objetivo es maximizar el número de pagos procesados y las comisiones recogidas, deben:
 
 - Abrir canales bien financiados con nodos estratégicos.
 - Ajustar regularmente la distribución de fondos en los canales según las necesidades de la red.
@@ -961,7 +961,7 @@ El servicio [Loop Out](https://lightning.engineering/loop/), ofrecido por Lightn
 
 ![LNP201](assets/en/075.webp)
 
-Por lo tanto, este servicio permite la liquidez entrante mientras se recuperan los bitcoins en cadena, lo que ayuda a limitar la inmovilización de efectivo necesaria para aceptar pagos con Lightning.
+Por lo tanto, este servicio permite la liquidez entrante mientras se recupera el Bitcoin on Chain, lo que ayuda a limitar la inmovilización de efectivo necesaria para aceptar pagos con Lightning.
 
 **¿Qué debes recordar de este capítulo?**
 
@@ -969,7 +969,7 @@ Por lo tanto, este servicio permite la liquidez entrante mientras se recuperan l
 - Para recibir pagos, necesitas tener liquidez del lado opuesto en tus canales. Aumentar esta capacidad de recepción es más complejo, ya que requiere que otros abran canales hacia ti, o hacer pagos (ficticios o reales) para mover la liquidez al otro lado.
 - Mantener la liquidez donde se desea puede ser aún más desafiante dependiendo del uso de los canales. Por eso existen herramientas y servicios para ayudar a equilibrar los canales según se desee.
 
-En el próximo capítulo, propongo revisar los conceptos más importantes de esta formación.
+En el próximo capítulo, revisaremos los conceptos más importantes de esta formación.
 
 # Ir Más Allá
 
@@ -981,8 +981,8 @@ En el próximo capítulo, propongo revisar los conceptos más importantes de est
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
 :::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
-En este capítulo final que marca el fin del entrenamiento LNP201, propongo revisar los conceptos importantes que hemos cubierto juntos.
-El objetivo de este entrenamiento era proporcionarte una comprensión comprensiva y técnica de la Red Lightning. Descubrimos cómo la Red Lightning depende de la blockchain de Bitcoin para realizar transacciones fuera de la cadena, mientras retiene las características fundamentales de Bitcoin, notablemente la ausencia de la necesidad de confiar en otros nodos.
+En este capítulo final que marca el fin del entrenamiento LNP201, repasaremos los conceptos importantes que hemos cubierto juntos.
+El objetivo de este curso es proporcionarte una comprensión comprensiva y técnica de la Red Lightning. Descubrimos cómo la Red Lightning depende de la blockchain de Bitcoin para realizar transacciones fuera de la cadena, mientras retiene las características fundamentales de Bitcoin, notablemente la ausencia de la necesidad de confiar en otros nodos.
 
 ### Canales de Pago
 
@@ -990,7 +990,10 @@ En los capítulos iniciales, exploramos cómo dos partes, al abrir un canal de p
 
 - **Apertura del Canal**: La creación del canal se realiza a través de una transacción de Bitcoin que bloquea los fondos en una dirección multisignatura 2/2. Este depósito representa el canal Lightning en la blockchain.
 
-![LNP201](assets/en/076.webp) 2. **Transacciones en el Canal**: En este canal, entonces es posible llevar a cabo numerosas transacciones sin tener que publicarlas en la blockchain. Cada transacción Lightning crea un nuevo estado del canal reflejado en una transacción de compromiso.
+![LNP201](assets/en/076.webp) 
+
+- **Transacciones en el Canal**: En este canal, entonces es posible llevar a cabo numerosas transacciones sin tener que publicarlas en la blockchain. Cada transacción Lightning crea un nuevo estado del canal reflejado en una transacción de compromiso.
+
 ![LNP201](assets/en/077.webp)
 
 - **Aseguramiento y Cierre**: Los participantes se comprometen con el nuevo estado del canal intercambiando llaves de revocación para asegurar los fondos y prevenir cualquier engaño. Ambas partes pueden cerrar el canal cooperativamente haciendo una nueva transacción en la blockchain de Bitcoin, o como último recurso a través de un cierre forzado. Esta última opción, aunque menos eficiente porque es más larga y a veces mal evaluada en términos de comisiones, aún permite la recuperación de fondos. En caso de engaño, la víctima puede castigar al tramposo recuperando todos los fondos del canal en la blockchain.
@@ -1015,7 +1018,7 @@ Después de estudiar canales aislados, extendimos nuestro análisis a la red de 
 
 ### Gestión de Liquidez
 
-Hemos visto que la gestión de liquidez es un desafío en Lightning para asegurar el flujo suave de pagos. Enviar pagos es relativamente simple: solo requiere abrir un canal. Sin embargo, recibir pagos requiere tener liquidez en el lado opuesto de los canales propios. Aquí algunas estrategias discutidas:
+Hemos visto que la gestión de liquidez es un desafío en Lightning para asegurar el flujo suave de pagos. Enviar pagos es relativamente simple: Solo requiere abrir un canal. Sin embargo, recibir pagos requiere tener liquidez en el lado opuesto de los canales propios. Aquí algunas estrategias discutidas:
 
 - **Atraer Canales**: Alentando a otros nodos a abrir canales hacia uno mismo, un usuario obtiene liquidez entrante.
 

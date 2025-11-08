@@ -203,7 +203,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- **CPFP** - Child pay for parent: Un approccio ispirato a RBF, ma applicato dal punto di vista del destinatario. uando una transazione che ci coinvolge viene bloccata nella Mempool, abbiamo l'opportunità di utilizzare gli output (UTXO) di questa transazione, anche se non è ancora stata confermata. Per farlo, si aumenta l'importo delle commissioni nella nuova transazione creata. In questo modo, la media delle commissioni risulta superiore per entrambe le transazioni, incentivando i miner ad includerle entrambe in un blocco.
+- **CPFP** - Child Pay For Parent: un approccio ispirato a RBF, ma applicato dal punto di vista del destinatario. uando una transazione che ci coinvolge viene bloccata nella Mempool, abbiamo l'opportunità di utilizzare gli output (UTXO) di questa transazione, anche se non è ancora stata confermata. Per farlo, si aumenta l'importo delle commissioni nella nuova transazione creata. In questo modo, la media delle commissioni risulta superiore per entrambe le transazioni, incentivando i miner ad includerle entrambe in un blocco.
 
 
 

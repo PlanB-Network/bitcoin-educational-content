@@ -48,7 +48,7 @@ Essendo open source, Mempool.space ha visto una crescente diffusione nell'ecosis
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-## I fondamenti di Memmpool.space
+## I fondamenti di Mempool.space
 
 
 

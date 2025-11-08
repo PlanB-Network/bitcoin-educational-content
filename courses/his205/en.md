@@ -743,13 +743,13 @@ Chinese currency was therefore not based on the value of the material or the rel
 The cowrie was widely used as a primitive monetary unit. Ancient inscriptions show that, as early as the Shang and Zhou dynasties (the first dynasties of the first and second millennia BC), cowrie shells were used not only to reward military deeds, but also to **remunerate work, measure value and buy land**.
 
 
-What's important to remember here is that it wasn't just any tool that was used by society for restricted purposes. There were military rewards, payment for work, measurement of value. We find traces of this in the writings of archaeologists. We don't know if it was used to buy bread on a daily basis, let's say, but we do have traces that it could have been used for the types of transactions mentioned above.
+What's important to remember here is that it wasn't just any tool used by society for restricted purposes. It was employed for military rewards, payment for work, and measurement of value. We find traces of this in the writings of archaeologists. While we don't know if it was used to buy bread on a daily basis, we do have evidence that it could have been used for the types of transactions mentioned above.
 
 
-Over time, the scarcity of real cowrie shells led to the production of imitations in bronze, bone, mother-of-pearl or stone, used particularly in funerary contexts to avoid immobilizing real values in tombs. This change of medium is also linked to the idea of the prince's control over money, a control that is all the easier if the prince makes the money.
+Over time, the scarcity of real cowrie shells led to the production of imitations in bronze, bone, mother-of-pearl or stone, particularly for use in funerary contexts to avoid immobilizing real values in tombs. This change of medium is also linked to the idea of the prince's control over money, a control that is all the easier if the prince makes the money.
 
 
-What we need to understand here is that, instead of being limited by the notion of the natural scarcity of seashells, if the prince can create the currency himself, it gives him more say in the management of the economy.
+What we need to understand here is that, by moving beyond the limitation of  natural scarcity of seashells, if the prince can create the currency himself, it gives him greater control over the management of the economy.
 
 
 Unlike Mesopotamia, where coins were linked to the weight of precious metal, Chinese coinage terminology derives directly from the initial shapes of the objects used as currency: cowries (bei), knives (dao), spades (bu), and round coins (quan or qian). So, we can see that the origin of words related to money in China referred to these objects. As for us in the West, we have a number of monetary terms that come from concepts that are quite different from these, rather related to the physical characteristics and weight of monetary objects. These etymological differences clearly demonstrate the schism between the Western and Chinese vision of money.

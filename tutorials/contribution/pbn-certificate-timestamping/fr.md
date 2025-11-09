@@ -65,7 +65,7 @@ Extrayez le contenu en cliquant droit sur le fichier `.zip` et en sélectionnant
 
 ## Étape 2 : Vérification de la signature du fichier texte
 
-Ouvrez d'abord un terminal dans le dossier où se trouvent les fichiers (en cliquant droit sur la fenêtre du dossier et cliquez sur "Ouvrir dans le Terminal". Puis suivez les instructions ci-dessous :
+Ouvrez d'abord un terminal dans le dossier où se trouvent les fichiers en cliquant droit sur la fenêtre du dossier et cliquez sur "Ouvrir dans le Terminal". Puis suivez les instructions ci-dessous :
 
 1. Importez la clé publique PGP de Plan ₿ Academy avec la commande suivante :
 

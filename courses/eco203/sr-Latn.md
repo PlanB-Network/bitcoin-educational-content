@@ -1,13 +1,11 @@
 ---
-name: Frédéric Bastiat, Život, Uticaji i Ekonomska Misao
+name: Bastiatova ekonomska misao
 goal: Da biste stekli duboko razumevanje života, uticaja, protivnika i ekonomskih teorija Frédérica Bastiata, francuskog ekonomiste i mislioca iz 19. veka.
-objectives: 
-
-  - Saznajte više o životu i istorijskom kontekstu Frédérica Bastiata.
-  - Spoznajte intelektualne uticaje na Bastiata.
-  - Ispitajte Bastiatove ideološke protivnike.
-  - Analizirajte ekonomske sofizme prema Bastiatu.
-
+objectives:
+- Saznajte više o životu i istorijskom kontekstu Frédérica Bastiata.
+- Spoznajte intelektualne uticaje na Bastiata.
+- Ispitajte Bastiatove ideološke protivnike.
+- Analizirajte ekonomske sofizme prema Bastiatu.
 ---
 
 # Putovanje u svet Frédérica Bastiata

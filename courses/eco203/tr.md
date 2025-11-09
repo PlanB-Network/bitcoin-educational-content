@@ -1,13 +1,11 @@
 ---
-name: Frédéric Bastiat, Hayatı, Etkileri ve İktisadi Düşüncesi
+name: Bastiat Ekonomik Düşüncesi
 goal: Bir 19. yüzyıl Fransız ekonomisti ve düşünürü olan Frédéric Bastiat'nın hayatı, etkileri, muhalifleri ve ekonomik teorileri hakkında derin bir anlayış kazanmak.
-objectives: 
-
-  - Frédéric Bastiat'nın hayatı ve tarihsel bağlamı hakkında bilgi edinin.
-  - Bastiat üzerindeki entelektüel etkileri anlamak.
-  - Bastiat'nın ideolojik rakiplerini inceleyin.
-  - Bastiat'ya göre ekonomik safsataları analiz edin.
-
+objectives:
+- Frédéric Bastiat'nın hayatı ve tarihsel bağlamı hakkında bilgi edinin.
+- Bastiat üzerindeki entelektüel etkileri anlamak.
+- Bastiat'nın ideolojik rakiplerini inceleyin.
+- Bastiat'ya göre ekonomik safsataları analiz edin.
 ---
 
 # Frédéric Bastiat'nın Dünyasına Bir Yolculuk

@@ -1,35 +1,18 @@
 ---
-name: Frédéric Bastiat, Ubuzima, Inkurikizi n’Iciyumviro c’Ubutunzi
+name: Ibitekerezo by'ubukungu bya Bastiat
 goal: Kugira ngo umuntu atahure bimwe bigera kure ubuzima, ivyo akora, abamurwanya be n’ivyiyumviro vy’ubutunzi vya Frédéric Bastiat, umuhinga mu vy’ubutunzi n’umunyabwenge w’Umufaransa wo mu kinjana ca 19.
-objectives: 
-
-  - Menya ivyerekeye ubuzima n’amateka ya Frédéric Bastiat.
-  - Gutahura ingene ubwenge bugira ico bukoze kuri Bastiat.
-  - Suzuma abarwanya ivyiyumviro vya Bastiat.
-  - Gusuzuma ubuhinga bwo mu vy’ubutunzi nk’uko Bastiat abivuga.
-
+objectives:
+- Menya ivyerekeye ubuzima n’amateka ya Frédéric Bastiat.
+- Gutahura ingene ubwenge bugira ico bukoze kuri Bastiat.
+- Suzuma abarwanya ivyiyumviro vya Bastiat.
+- Gusuzuma ubuhinga bwo mu vy’ubutunzi nk’uko Bastiat abivuga.
 ---
+# Urugendo mu Kigaragara c'Ubukungu ca Bastiat
 
-# Urugendo rwo mw'isi ya Frédéric Bastiat
+Nikibaye umutekamutwe w'Abafaransa wo mu kinyejana ca 19 yakugirira akubona mu mpaka z'ubukungu zo muri iki gihe? Iri somo riragukurura mu isi ya Frédéric Bastiat, ubwenge bwiwe bukomeye ku masoko, guverinoma, n'imiterere y'abantu bugifise akamaro na none. Uzosuzuma ubuzima bwa Bastiat, abatekamutwe bamugize, n'ibitekerezo biwe bikomeye nk'"ivyaboneka n'ivyataboneka". Mu nzira, uzovumbura impamvu ibikorwa vyiwe vyo guhakana proteksiyonisime, sisiyalisime, n'ukurenga kw'ubutegetsi bigaragara nk'ivya none.
 
-
-Iryo shure rirongowe na Damien Theillier, rigutumira kwisuka mw’isi ya Frédéric Bastiat, umuhinga mu vy’ubutunzi n’umunyabwenge w’Umufaransa, ivyiyumviro vyiwe bikabandanya guhindura ivyiyumviro vy’ubutunzi vyo muri iki gihe. Biciye mu mavidewo 21, Damien Theillier aratohoza ubuzima bwa Bastiat, ivyiyumviro vyiwe vy’ubwenge, abamurwanya mu vy’ingengabitekerezo, hamwe n’ivyiyumviro vyiwe vy’ubutunzi.
-
-
-Iryo shure ritangura n’intangamarara ido n’ido y’ubuzima bwa Bastiat n’ivyo yaciyemwo, imbere y’uko dusuzuma abanyabwenge bashize ikimenyetso ku ciyumviro ciwe, nka Adamu Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer na Richard Cobden. Hanyuma, iyo nyigisho iraba abarwanya Bastiat, harimwo Rousseau, inyigisho za kera, uburinzi, ubusosiyalisimu, na Proudhon.
-
-
-Igice gihambaye c’ivyo vyigwa kijanye n’ubuhinga bw’ubutunzi Bastiat yavuga nabi, nk’akarorero «Ivyo biboneka n’ivyo bitaboneka», «Ikibazo c’abakora amabuye y’agaciro», gusahura biciye mu gutanga imisoro, n’itandukaniro riri hagati y’izo nyifato runtu zibiri z’ubutunzi. Iryo shure kandi rivuga ku bijanye n’uguhuza ubutunzi Bastiat ashigikira, harimwo n’igitangaza c’isoko, ububasha bw’inshingano, n’ubumwe nyakuri.
-
-
-Ubwa nyuma, iryo shure risozerwa n'uguzirikana ku "Itegeko", rivuga ku vyiyumviro nyamukuru nk'uburenganzira bwo kuronka itunga, gusahura bitegekanijwe n'amategeko, n'uruhara rwa Leta. Insozero y’iryo shure isubiramwo iragi rya Frédéric Bastiat n’ingene yahora akora ku bukungu bwa none.
-
-
-Ifatanye na Damien Theillier muri iri suzuma ry’ubutunzi ry’ivyiyumviro vya Frédéric Bastiat maze ubone ingene ivyiyumviro vyiwe bishobora gutanga umuco ku mpari z’ubutunzi n’ivya politike ziriho ubu.
-
-
+Uzotangura n'abatekamutwe bamugiriye ingaruka, nka Adam Smith na Richard Cobden, hanyuma uronke mu mpaka ziwe zikomeye. Bastiat yari afise impano yo kwerekana aho ingengabihe y'ubukungu inanirana, cyane cyane ku musoro n'ubucuruzi. Ariko na we yarashoboye igishushanyo kinini: uko amasoko akora mu by'ukuri, impamvu inshingano zifise akamaro, n'uko ubumwe nyabwo busa hanze y'imigambi ya guverinoma. Niba ufise amatsiko yo kumenya impamvu izo mpaka zikifise akamaro none, iri somo rishobora guhindura uko ubibona.
 +++
-
 # Imenyekanisha
 
 

@@ -1,27 +1,18 @@
 ---
-name: Frédéric Bastiat, Life, Influences, and Economic Thought
+name: Bastiat Economic Thought
 goal: To gain a deep understanding of the life, influences, opponents, and economic theories of Frédéric Bastiat, a 19th-century French economist and thinker.
 objectives:
-  - Learn about the life and historical context of Frédéric Bastiat.
-  - Understand the intellectual influences on Bastiat.
-  - Examine Bastiat's ideological opponents.
-  - Analyze economic sophisms according to Bastiat.
+- Learn about the life and historical context of Frédéric Bastiat.
+- Understand the intellectual influences on Bastiat.
+- Examine Bastiat's ideological opponents.
+- Analyze economic sophisms according to Bastiat.
 ---
+# Journey Through Bastiat's Economic Vision
 
-# A Journey Into the World of Frédéric Bastiat
+What if a 19th-century French thinker could help you see through today's economic debates? This course takes you into the world of Frédéric Bastiat, whose sharp insights on markets, government, and human nature still resonate today. You'll explore Bastiat's life, the thinkers who shaped him, and his most powerful ideas like "what is seen and what is not seen". Along the way, you'll discover why his critiques of protectionism, socialism, and government overreach feel surprisingly modern.
 
-This course, led by Damien Theillier, invites you to dive into the world of Frédéric Bastiat, a French economist and philosopher whose ideas continue to influence contemporary economic thought. Through 21 videos, Damien Theillier explores Bastiat's life, his intellectual influences, his ideological opponents, and his economic theories.
-
-The course begins with a detailed introduction to Bastiat's life and historical context, before examining the thinkers who marked his thought, such as Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, and Richard Cobden. Then, the course looks at Bastiat's opponents, including Rousseau, classical education, protectionism, socialism, and Proudhon.
-
-A significant portion of the course is devoted to the economic sophisms denounced by Bastiat, including "What is seen and what is not seen," "The petition of the candlemakers," the concept of plunder through taxation, and the distinction between the two economic morals. The course also addresses the economic harmonies advocated by Bastiat, including the miracle of the market, the power of responsibility, and true solidarity.
-
-Finally, the course concludes with a reflection on "The Law," addressing key concepts like the right to property, legal plunder, and the role of the state. The course concludes by revisiting the legacy of Frédéric Bastiat and his enduring influence on modern economics.
-
-Join Damien Theillier in this enriching exploration of Frédéric Bastiat's thought and discover how his ideas can illuminate current economic and political debates.
-
+You'll start with the thinkers who influenced him, like Adam Smith and Richard Cobden, then dive into his sharpest arguments. Bastiat had a gift for showing where economic logic breaks down, especially around taxes and trade. But he also painted a bigger picture: how markets actually work, why responsibility matters, and what real solidarity looks like beyond government programs. If you're curious about why these debates still matter today, this course might change how you see them.
 +++
-
 # Introduction
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>

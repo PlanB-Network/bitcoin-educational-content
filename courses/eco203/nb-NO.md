@@ -1,35 +1,18 @@
 ---
-name: Frédéric Bastiat, liv, innflytelse og økonomisk tenkning
+name: Bastiats økonomiske tenkning
 goal: Å få en dyp forståelse av livet, innflytelsen, motstanderne og de økonomiske teoriene til Frédéric Bastiat, en fransk økonom og tenker fra 1800-tallet.
-objectives: 
-
-  - Lær om Frédéric Bastiats liv og historiske kontekst.
-  - Forstå de intellektuelle påvirkningene på Bastiat.
-  - Undersøk Bastiats ideologiske motstandere.
-  - Analyser økonomiske sofismer ifølge Bastiat.
-
+objectives:
+- Lær om Frédéric Bastiats liv og historiske kontekst.
+- Forstå de intellektuelle påvirkningene på Bastiat.
+- Undersøk Bastiats ideologiske motstandere.
+- Analyser økonomiske sofismer ifølge Bastiat.
 ---
+# Reise gjennom Bastiats økonomiske visjon
 
-# En reise inn i Frédéric Bastiats verden
+Hva om en fransk tenker fra 1800-tallet kunne hjelpe deg å se gjennom dagens økonomiske debatter? Dette kurset tar deg inn i Frédéric Bastiats verden, hvis skarpe innsikter om markeder, myndigheter og menneskets natur fortsatt resonnerer i dag. Du vil utforske Bastiats liv, tenkerne som formet ham, og hans mest kraftfulle ideer som "det man ser og det man ikke ser". Underveis vil du oppdage hvorfor hans kritikk av proteksjonisme, sosialisme og myndigheters overtramp føles overraskende moderne.
 
-
-Dette kurset, ledet av Damien Theillier, inviterer deg til å dykke ned i Frédéric Bastiats verden, en fransk økonom og filosof hvis ideer fortsatt har innflytelse på moderne økonomisk tenkning. Gjennom 21 videoer utforsker Damien Theillier Bastiats liv, hans intellektuelle innflytelse, hans ideologiske motstandere og hans økonomiske teorier.
-
-
-Kurset begynner med en grundig innføring i Bastiats liv og historiske kontekst, før vi ser nærmere på tenkere som har preget hans tenkning, som Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer og Richard Cobden. Deretter tar kurset for seg Bastiats motstandere, deriblant Rousseau, klassisk dannelse, proteksjonisme, sosialisme og Proudhon.
-
-
-En viktig del av kurset er viet de økonomiske spissfindighetene som Bastiat kritiserer, som "Det som sees og det som ikke sees", "Lysestøpernes begjæring", plyndring gjennom beskatning og skillet mellom de to økonomiske moralene. Kurset tar også for seg de økonomiske harmoniene som Bastiat tar til orde for, deriblant markedets mirakel, ansvarets makt og ekte solidaritet.
-
-
-Kurset avsluttes med en refleksjon over "Loven", der sentrale begreper som eiendomsrett, legal plyndring og statens rolle tas opp. Avslutningsvis i kurset ser vi tilbake på arven etter Frédéric Bastiat og hans varige innflytelse på moderne økonomi.
-
-
-Bli med Damien Theillier på denne berikende utforskningen av Frédéric Bastiats tenkning, og oppdag hvordan hans ideer kan belyse dagens økonomiske og politiske debatter.
-
-
+Du starter med tenkerne som påvirket ham, som Adam Smith og Richard Cobden, og dykker deretter ned i hans skarpeste argumenter. Bastiat hadde en gave for å vise hvor økonomisk logikk bryter sammen, spesielt rundt skatter og handel. Men han malte også et større bilde: hvordan markeder faktisk fungerer, hvorfor ansvar betyr noe, og hva ekte solidaritet ser ut som utover statlige programmer. Hvis du er nysgjerrig på hvorfor disse debattene fortsatt betyr noe i dag, kan dette kurset endre hvordan du ser på dem.
 +++
-
 # Innledning
 
 

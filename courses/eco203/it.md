@@ -1,27 +1,18 @@
 ---
-name: Frédéric Bastiat, Vita, Influenze e Pensiero Economico
+name: Pensiero economico di Bastiat
 goal: Acquisire una profonda comprensione della vita, delle influenze, degli avversari e delle teorie economiche di Frédéric Bastiat, economista e pensatore francese del XIX secolo.
 objectives:
-  - Conoscere la vita e il contesto storico di Frédéric Bastiat.
-  - Comprendere le influenze intellettuali su Bastiat.
-  - Esaminare gli avversari ideologici di Bastiat.
-  - Analizzare i sofismi economici secondo Bastiat.
+- Conoscere la vita e il contesto storico di Frédéric Bastiat.
+- Comprendere le influenze intellettuali su Bastiat.
+- Esaminare gli avversari ideologici di Bastiat.
+- Analizzare i sofismi economici secondo Bastiat.
 ---
+# Viaggio attraverso la visione economica di Bastiat
 
-# Un Viaggio nel Mondo di Frédéric Bastiat
+E se un pensatore francese del XIX secolo potesse aiutarti a vedere attraverso i dibattiti economici di oggi? Questo corso ti porta nel mondo di Frédéric Bastiat, le cui acute intuizioni sui mercati, il governo e la natura umana risuonano ancora oggi. Esplorerai la vita di Bastiat, i pensatori che lo hanno plasmato e le sue idee più potenti come "ciò che si vede e ciò che non si vede". Lungo il percorso, scoprirai perché le sue critiche al protezionismo, al socialismo e all'eccesso di intervento governativo sembrano sorprendentemente moderne.
 
-Questo corso, guidato da Damien Theillier, ti invita ad immergerti nel mondo di Frédéric Bastiat, economista e filosofo francese le cui idee continuano ad influenzare il pensiero economico contemporaneo. Attraverso 21 video, Damien Theillier esplora la vita di Bastiat, le sue influenze intellettuali, i suoi avversari ideologici, così come le sue teorie economiche.
-
-Il corso inizia con una dettagliata introduzione alla vita e al contesto storico di Bastiat, prima di esaminare i pensatori che hanno segnato il suo pensiero, come Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden. Poi, il corso guarda agli avversari di Bastiat, inclusi Rousseau, l'educazione classica, il protezionismo, il socialismo e Proudhon.
-
-Una parte importante del corso è dedicata ai sofismi economici denunciati da Bastiat, come "Ciò che si vede e ciò che non si vede", "La petizione dei fabbricanti di candele", il saccheggio tramite le tasse, e la distinzione tra le due morali economiche. Il corso affronta anche le armonie economiche sostenute da Bastiat, inclusi il miracolo del mercato, il potere della responsabilità e la vera solidarietà.
-
-Infine, il corso si conclude con una riflessione su "La Legge", affrontando concetti chiave come il diritto alla proprietà, il saccheggio legale e il ruolo dello stato. La conclusione del corso rivisita l'eredità di Frédéric Bastiat e la sua duratura influenza sull'economia moderna.
-
-Unisciti a Damien Theillier in questa esplorazione arricchente del pensiero di Frédéric Bastiat e scopri come le sue idee possono illuminare i dibattiti economici e politici attuali.
-
+Iniziare con i pensatori che lo hanno influenzato, come Adam Smith e Richard Cobden, poi ti immergerai nei suoi argomenti più incisivi. Bastiat aveva il dono di mostrare dove la logica economica crolla, specialmente riguardo alle tasse e al commercio. Ma ha anche dipinto un quadro più ampio: come funzionano realmente i mercati, perché la responsabilità conta e come appare la vera solidarietà al di là dei programmi governativi. Se sei curioso di sapere perché questi dibattiti contano ancora oggi, questo corso potrebbe cambiare il modo in cui li vedi.
 +++
-
 # Introduzione
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>

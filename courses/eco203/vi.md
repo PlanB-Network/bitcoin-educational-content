@@ -1,13 +1,11 @@
 ---
-name: Frédéric Bastiat, Cuộc đời, Ảnh hưởng và Tư tưởng kinh tế
+name: Tư tưởng kinh tế Bastiat
 goal: Để có được sự hiểu biết sâu sắc về cuộc đời, ảnh hưởng, đối thủ và lý thuyết kinh tế của Frédéric Bastiat, một nhà kinh tế và tư tưởng người Pháp thế kỷ 19.
-objectives: 
-
-  - Tìm hiểu về cuộc đời và bối cảnh lịch sử của Frédéric Bastiat.
-  - Hiểu được những ảnh hưởng về mặt trí tuệ của Bastiat.
-  - Khảo sát những đối thủ về mặt tư tưởng của Bastiat.
-  - Phân tích những ngụy biện kinh tế theo Bastiat.
-
+objectives:
+- Tìm hiểu về cuộc đời và bối cảnh lịch sử của Frédéric Bastiat.
+- Hiểu được những ảnh hưởng về mặt trí tuệ của Bastiat.
+- Khảo sát những đối thủ về mặt tư tưởng của Bastiat.
+- Phân tích những ngụy biện kinh tế theo Bastiat.
 ---
 
 # Hành trình vào thế giới của Frédéric Bastiat

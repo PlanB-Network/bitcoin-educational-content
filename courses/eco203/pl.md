@@ -1,35 +1,18 @@
 ---
-name: Frédéric Bastiat, życie, wpływy i myśl ekonomiczna
+name: Myśl ekonomiczna Bastiata
 goal: Dogłębne zrozumienie życia, wpływów, przeciwników i teorii ekonomicznych Frédérica Bastiata, XIX-wiecznego francuskiego ekonomisty i myśliciela.
-objectives: 
-
-  - Poznaj życie i kontekst historyczny Frédérica Bastiata.
-  - Zrozumienie intelektualnych wpływów na Bastiata.
-  - Zbadaj ideologicznych przeciwników Bastiata.
-  - Analiza sofizmatów ekonomicznych według Bastiata.
-
+objectives:
+- Poznaj życie i kontekst historyczny Frédérica Bastiata.
+- Zrozumienie intelektualnych wpływów na Bastiata.
+- Zbadaj ideologicznych przeciwników Bastiata.
+- Analiza sofizmatów ekonomicznych według Bastiata.
 ---
+# Podróż przez ekonomiczną wizję Bastiata
 
-# Podróż do świata Frédérica Bastiata
+Co by było, gdyby XIX-wieczny francuski myśliciel mógł pomóc ci przejrzeć dzisiejsze debaty ekonomiczne? Ten kurs zabiera cię do świata Frédérica Bastiata, którego przenikliwe spostrzeżenia na temat rynków, rządu i natury ludzkiej wciąż rezonują dzisiaj. Poznasz życie Bastiata, myślicieli, którzy go ukształtowali, oraz jego najpotężniejsze idee, takie jak "to, co widać i czego nie widać". Po drodze odkryjesz, dlaczego jego krytyka protekcjonizmu, socjalizmu i nadmiernej ingerencji rządu brzmi zaskakująco nowocześnie.
 
-
-Ten kurs, prowadzony przez Damiena Theilliera, zaprasza do zanurzenia się w świecie Frédérica Bastiata, francuskiego ekonomisty i filozofa, którego idee nadal wpływają na współczesną myśl ekonomiczną. Za pomocą 21 filmów Damien Theillier bada życie Bastiata, jego wpływy intelektualne, jego ideologicznych przeciwników, a także jego teorie ekonomiczne.
-
-
-Kurs rozpoczyna się od szczegółowego wprowadzenia do życia Bastiata i kontekstu historycznego, a następnie analizuje myślicieli, którzy naznaczyli jego myśl, takich jak Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer i Richard Cobden. Następnie kurs przygląda się przeciwnikom Bastiata, w tym Rousseau, klasycznej edukacji, protekcjonizmowi, socjalizmowi i Proudhonowi.
-
-
-Ważna część kursu poświęcona jest sofizmatom ekonomicznym potępionym przez Bastiata, takim jak "To, co widać i to, czego nie widać", "Petycja świeczników", grabież poprzez opodatkowanie oraz rozróżnienie między dwiema moralnością ekonomiczną. Kurs odnosi się również do harmonii ekonomicznej zalecanej przez Bastiata, w tym cudu rynku, siły odpowiedzialności i prawdziwej solidarności.
-
-
-Wreszcie, kurs kończy się refleksją na temat "prawa", odnosząc się do kluczowych pojęć, takich jak prawo własności, legalna grabież i rola państwa. Na zakończenie kursu powracamy do spuścizny Frédérica Bastiata i jego trwałego wpływu na współczesną ekonomię.
-
-
-Dołącz do Damiena Theilliera w tej wzbogacającej eksploracji myśli Frédérica Bastiata i odkryj, w jaki sposób jego idee mogą oświetlić obecne debaty gospodarcze i polityczne.
-
-
+Zaczniesz od myślicieli, którzy na niego wpłynęli, takich jak Adam Smith i Richard Cobden, a następnie zagłębisz się w jego najostrzejsze argumenty. Bastiat miał dar pokazywania, gdzie logika ekonomiczna zawodzi, szczególnie w kwestii podatków i handlu. Ale namalował też szerszy obraz: jak rynki faktycznie działają, dlaczego odpowiedzialność ma znaczenie i jak wygląda prawdziwa solidarność poza programami rządowymi. Jeśli jesteś ciekawy, dlaczego te debaty wciąż mają znaczenie dzisiaj, ten kurs może zmienić sposób, w jaki na nie patrzysz.
 +++
-
 # Wprowadzenie
 
 

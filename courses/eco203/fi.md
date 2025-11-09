@@ -1,35 +1,18 @@
 ---
-name: Frédéric Bastiat, elämä, vaikutteet ja taloudellinen ajattelu
+name: Bastiatin taloudellinen ajattelu
 goal: Syvällinen ymmärrys 1800-luvun ranskalaisen taloustieteilijän ja ajattelijan Frédéric Bastiat'n elämästä, vaikutuksista, vastustajista ja talousteorioista.
-objectives: 
-
-  - Tutustu Frédéric Bastiat'n elämään ja historialliseen kontekstiin.
-  - Ymmärtää Bastiat'n henkisiä vaikutteita.
-  - Tutki Bastiatin ideologisia vastustajia.
-  - Analysoi Bastiat'n taloudellisia sofismeja.
-
+objectives:
+- Tutustu Frédéric Bastiat'n elämään ja historialliseen kontekstiin.
+- Ymmärtää Bastiat'n henkisiä vaikutteita.
+- Tutki Bastiatin ideologisia vastustajia.
+- Analysoi Bastiat'n taloudellisia sofismeja.
 ---
+# Matka Bastiatin taloudellisen vision läpi
 
-# Matka Frédéric Bastiat'n maailmaan
+Entä jos 1800-luvun ranskalainen ajattelija voisi auttaa sinua näkemään läpi nykypäivän talousdebateista? Tämä kurssi vie sinut Frédéric Bastiatin maailmaan, jonka terävät oivallukset markkinoista, hallituksesta ja ihmisluonnosta kaikuvat edelleen tänä päivänä. Tutustut Bastiatin elämään, häntä muokanneihin ajattelijoihin ja hänen vaikuttavimpiin ideoihinsa, kuten "mitä nähdään ja mitä ei nähdä". Matkan varrella löydät, miksi hänen kritiikkinsä protektionismista, sosialismista ja hallituksen liiallisesta puuttumisesta tuntuu yllättävän nykyaikaiselta.
 
-
-Tämä Damien Theillierin vetämä kurssi kutsuu sinut sukeltamaan Frédéric Bastiat'n maailmaan, ranskalaisen taloustieteilijän ja filosofin, jonka ajatukset vaikuttavat edelleen nykypäivän talousajatteluun. Damien Theillier tutustuu 21 videon avulla Bastiat'n elämään, hänen älyllisiin vaikutteisiinsa, ideologisiin vastustajiinsa sekä hänen talousteorioihinsa.
-
-
-Kurssi alkaa Bastiatin elämän ja historiallisen kontekstin yksityiskohtaisella esittelyllä, minkä jälkeen tarkastellaan hänen ajatteluaan leimanneita ajattelijoita, kuten Adam Smithiä, Jean-Baptiste Sayta, Antoine Destutt de Tracya, Charles Comtea, Charles Dunoyeria ja Richard Cobdenia. Sen jälkeen kurssilla tarkastellaan Bastiat'n vastustajia, kuten Rousseau'ta, klassista kasvatusta, protektionismia, sosialismia ja Proudhonia.
-
-
-Tärkeä osa kurssista on omistettu Bastiat'n tuomitsemille taloudellisille sofismeille, kuten "Se, mikä näkyy ja mikä ei näy", "Kynttilänvalmistajien vetoomus", ryöstö verotuksen avulla ja kahden talousmoraalin erottaminen toisistaan. Kurssilla käsitellään myös Bastiatin kannattamia taloudellisia harmonioita, kuten markkinoiden ihmettä, vastuun voimaa ja todellista solidaarisuutta.
-
-
-Kurssin lopuksi pohditaan "lakia" ja käsitellään keskeisiä käsitteitä, kuten oikeutta omaisuuteen, laillista ryöstöä ja valtion roolia. Kurssin lopuksi tarkastellaan uudelleen Frédéric Bastiat'n perintöä ja hänen pysyvää vaikutustaan moderniin taloustieteeseen.
-
-
-Liity Damien Theillierin seuraan tässä rikastuttavassa Frédéric Bastiat'n ajatusten tutkimuksessa ja selvitä, miten hänen ajatuksensa voivat valaista nykyisiä taloudellisia ja poliittisia keskusteluja.
-
-
+Aloitat häntä vaikuttaneista ajattelijoista, kuten Adam Smithistä ja Richard Cobdenista, ja sukellat sitten hänen terävimpiin argumentteihinsa. Bastiatilla oli lahja näyttää, missä taloudellinen logiikka hajoaa, erityisesti verojen ja kaupan ympärillä. Mutta hän maalasi myös laajemman kuvan: miten markkinat todella toimivat, miksi vastuu on tärkeää ja miltä todellinen solidaarisuus näyttää hallituksen ohjelmien ulkopuolella. Jos olet utelias, miksi nämä debatit ovat edelleen tärkeitä tänään, tämä kurssi saattaa muuttaa tapaa, jolla näet ne.
 +++
-
 # Johdanto
 
 

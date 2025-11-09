@@ -1,35 +1,18 @@
 ---
-name: Frédéric Bastiat, Leven, Invloeden en Economisch Denken
+name: Bastiats economisch denken
 goal: Een diepgaand begrip krijgen van het leven, de invloeden, de tegenstanders en de economische theorieën van Frédéric Bastiat, een 19e-eeuwse Franse econoom en denker.
-objectives: 
-
-  - Leer meer over het leven en de historische context van Frédéric Bastiat.
-  - De intellectuele invloeden op Bastiat begrijpen.
-  - Bestudeer de ideologische tegenstanders van Bastiat.
-  - Analyseer economische drogredenen volgens Bastiat.
-
+objectives:
+- Leer meer over het leven en de historische context van Frédéric Bastiat.
+- De intellectuele invloeden op Bastiat begrijpen.
+- Bestudeer de ideologische tegenstanders van Bastiat.
+- Analyseer economische drogredenen volgens Bastiat.
 ---
+# Reis door Bastiats economische visie
 
-# Een reis door de wereld van Frédéric Bastiat
+Wat als een 19e-eeuwse Franse denker je zou kunnen helpen door de economische debatten van vandaag heen te kijken? Deze cursus neemt je mee naar de wereld van Frédéric Bastiat, wiens scherpe inzichten over markten, overheid en menselijke natuur vandaag nog steeds resoneren. Je verkent Bastiats leven, de denkers die hem vormden, en zijn krachtigste ideeën zoals "wat men ziet en wat men niet ziet". Onderweg ontdek je waarom zijn kritiek op protectionisme, socialisme en overheidsbemoeienis verrassend modern aanvoelt.
 
-
-Deze cursus, geleid door Damien Theillier, nodigt je uit om een duik te nemen in de wereld van Frédéric Bastiat, een Franse econoom en filosoof wiens ideeën het hedendaagse economische denken blijven beïnvloeden. Aan de hand van 21 video's verkent Damien Theillier Bastiat's leven, zijn intellectuele invloeden, zijn ideologische tegenstanders en zijn economische theorieën.
-
-
-De cursus begint met een gedetailleerde inleiding in Bastiat's leven en historische context, voordat de denkers worden onderzocht die zijn denken hebben bepaald, zoals Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer en Richard Cobden. Vervolgens wordt gekeken naar de tegenstanders van Bastiat, waaronder Rousseau, het klassieke onderwijs, protectionisme, socialisme en Proudhon.
-
-
-Een belangrijk deel van de cursus is gewijd aan de economische drogredenen die Bastiat aan de kaak stelt, zoals "Wat wordt gezien en wat niet wordt gezien", "De petitie van de kaarsenmakers", plundering door belastingheffing en het onderscheid tussen de twee economische moralen. De cursus behandelt ook de economische harmonieën die Bastiat voorstaat, waaronder het wonder van de markt, de kracht van verantwoordelijkheid en echte solidariteit.
-
-
-Tot slot wordt de cursus afgesloten met een beschouwing over "De Wet", waarin belangrijke concepten zoals het recht op eigendom, wettelijke plundering en de rol van de staat aan bod komen. De cursus eindigt met een terugblik op de nalatenschap van Frédéric Bastiat en zijn blijvende invloed op de moderne economie.
-
-
-Ga mee met Damien Theillier in deze verrijkende verkenning van het gedachtegoed van Frédéric Bastiat en ontdek hoe zijn ideeën de huidige economische en politieke debatten kunnen verhelderen.
-
-
+Je begint met de denkers die hem beïnvloedden, zoals Adam Smith en Richard Cobden, en duikt vervolgens in zijn scherpste argumenten. Bastiat had een gave om te laten zien waar economische logica het laat afweten, vooral rond belastingen en handel. Maar hij schilderde ook een groter plaatje: hoe markten werkelijk functioneren, waarom verantwoordelijkheid ertoe doet, en hoe echte solidariteit eruitziet buiten overheidsprogramma's om. Als je nieuwsgierig bent waarom deze debatten vandaag nog steeds relevant zijn, kan deze cursus veranderen hoe je ernaar kijkt.
 +++
-
 # Inleiding
 
 

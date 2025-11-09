@@ -1,27 +1,18 @@
 ---
-name: Frédéric Bastiat, Život, Vlivy a Ekonomické Myšlení
+name: Bastiatovo ekonomické myšlení
 goal: Získat hluboké pochopení o životě, vlivech, oponentech a ekonomických teoriích Frédérica Bastiata, ekonoma a myslitele 19. století z Francie.
 objectives:
-  - Seznámit se s životem a historickým kontextem Frédérica Bastiata.
-  - Porozumět intelektuálním vlivům na Bastiata.
-  - Prozkoumat Bastiatovy ideologické oponenty.
-  - Analyzovat ekonomické sofismy podle Bastiata.
+- Seznámit se s životem a historickým kontextem Frédérica Bastiata.
+- Porozumět intelektuálním vlivům na Bastiata.
+- Prozkoumat Bastiatovy ideologické oponenty.
+- Analyzovat ekonomické sofismy podle Bastiata.
 ---
+# Cesta Bastiatovou ekonomickou vizí
 
-# Cesta do světa Frédérica Bastiata
+Co kdyby francouzský myslitel z 19. století mohl pomoci vám vidět skrz dnešní ekonomické debaty? Tento kurz vás zavede do světa Frédérica Bastiata, jehož pronikavé postřehy o trzích, vládě a lidské přirozenosti stále rezonují i dnes. Prozkoumáte Bastiatův život, myslitele, kteří ho formovali, a jeho nejmocnější myšlenky jako "co je vidět a co není vidět". Cestou objevíte, proč jeho kritika protekcionismu, socialismu a vládního přesahu působí překvapivě moderně.
 
-Tento kurz, vedený Damienem Theillierem, vás zve k ponoření do světa Frédérica Bastiata, francouzského ekonoma a filozofa, jehož myšlenky stále ovlivňují současné ekonomické myšlení. Prostřednictvím 21 videí Damien Theillier prozkoumává Bastiatův život, jeho intelektuální vlivy, jeho ideologické oponenty, stejně jako jeho ekonomické teorie.
-
-Kurz začíná podrobným úvodem do Bastiatova života a historického kontextu, než se zaměří na myslitele, kteří ovlivnili jeho myšlení, jako jsou Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer a Richard Cobden. Poté kurz zkoumá Bastiatovy oponenty, včetně Rousseaua, klasického vzdělávání, protekcionismu, socialismu a Proudhona.
-
-Důležitou část kurzu tvoří ekonomické sofismy, které Bastiat odsoudil, jako jsou "Co je vidět a co není vidět", "Petice svíčkářů", plenění prostřednictvím daní a rozlišení mezi dvěma ekonomickými morálkami. Kurz také řeší ekonomické harmonie, které Bastiat podporoval, včetně zázraku trhu, síly odpovědnosti a pravé solidarity.
-
-Kurz končí reflexí na "Zákon", kde jsou adresovány klíčové koncepty jako právo na majetek, legální plenění a role státu. Závěr kurzu se vrací k dědictví Frédérica Bastiata a jeho trvalému vlivu na moderní ekonomii.
-
-Připojte se k Damienovi Theillierovi v této obohacující exploraci myšlení Frédérica Bastiata a objevte, jak jeho ideje mohou osvětlit současné ekonomické a politické debaty.
-
+Začnete mysliteli, kteří ho ovlivnili, jako Adam Smith a Richard Cobden, a pak se ponoříte do jeho nejostřejších argumentů. Bastiat měl dar ukazovat, kde se ekonomická logika hroutí, zejména v oblasti daní a obchodu. Ale namaloval také širší obraz: jak trhy skutečně fungují, proč je odpovědnost důležitá a jak vypadá skutečná solidarita mimo vládní programy. Pokud vás zajímá, proč tyto debaty stále záleží i dnes, tento kurz by mohl změnit způsob, jakým je vnímáte.
 +++
-
 # Úvod
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>

@@ -1,13 +1,11 @@
 ---
-name: Frédéric Bastiat, Maisha, Vishawishi, na Mawazo ya Kiuchumi
+name: Fikra za Kiuchumi za Bastiat
 goal: Ili kupata ufahamu wa kina wa maisha, ushawishi, wapinzani, na nadharia za kiuchumi za Frédéric Bastiat, mwanauchumi na mwanafikra wa Ufaransa wa karne ya 19.
-objectives: 
-
-  - Jifunze kuhusu maisha na muktadha wa kihistoria wa Frédéric Bastiat.
-  - Kuelewa athari za kiakili kwa Bastiat.
-  - Chunguza wapinzani wa kiitikadi wa Bastiat.
-  - Kuchambua sophisms za kiuchumi kulingana na Bastiat.
-
+objectives:
+- Jifunze kuhusu maisha na muktadha wa kihistoria wa Frédéric Bastiat.
+- Kuelewa athari za kiakili kwa Bastiat.
+- Chunguza wapinzani wa kiitikadi wa Bastiat.
+- Kuchambua sophisms za kiuchumi kulingana na Bastiat.
 ---
 
 # Safari ya Kuingia katika Ulimwengu wa Frédéric Bastiat

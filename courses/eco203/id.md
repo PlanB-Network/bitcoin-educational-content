@@ -1,27 +1,18 @@
 ---
-name: Frédéric Bastiat, Kehidupan, Pengaruh, dan Pemikiran Ekonomi
+name: Pemikiran Ekonomi Bastiat
 goal: Untuk memperoleh pemahaman mendalam tentang kehidupan, pengaruh, lawan, dan teori ekonomi Frédéric Bastiat, seorang ekonom dan pemikir Prancis abad ke-19.
 objectives:
-  - Mempelajari tentang kehidupan dan konteks historis Frédéric Bastiat.
-  - Memahami pengaruh intelektual terhadap Bastiat.
-  - Meneliti lawan ideologi Bastiat.
-  - Menganalisis sofisma ekonomi menurut Bastiat.
+- Mempelajari tentang kehidupan dan konteks historis Frédéric Bastiat.
+- Memahami pengaruh intelektual terhadap Bastiat.
+- Meneliti lawan ideologi Bastiat.
+- Menganalisis sofisma ekonomi menurut Bastiat.
 ---
+# Perjalanan Melalui Visi Ekonomi Bastiat
 
-# Sebuah Perjalanan ke Dunia Frédéric Bastiat
+Bagaimana jika seorang pemikir Prancis abad ke-19 dapat membantu Anda melihat menembus perdebatan ekonomi hari ini? Kursus ini membawa Anda ke dunia Frédéric Bastiat, yang wawasan tajamnya tentang pasar, pemerintah, dan sifat manusia masih bergema hingga hari ini. Anda akan menjelajahi kehidupan Bastiat, para pemikir yang membentuknya, dan ide-idenya yang paling kuat seperti "apa yang terlihat dan apa yang tidak terlihat". Sepanjang perjalanan, Anda akan menemukan mengapa kritiknya terhadap proteksionisme, sosialisme, dan campur tangan pemerintah yang berlebihan terasa sangat modern.
 
-Kursus ini, yang dipimpin oleh Damien Theillier, mengajak Anda untuk menyelami dunia Frédéric Bastiat, seorang ekonom dan filsuf Prancis yang ide-idenya terus mempengaruhi pemikiran ekonomi kontemporer. Melalui 21 video, Damien Theillier mengeksplorasi kehidupan Bastiat, pengaruh intelektualnya, lawan ideologinya, serta teori ekonominya.
-
-Kursus dimulai dengan pengenalan terperinci tentang kehidupan dan konteks historis Bastiat, sebelum meneliti pemikir-pemikir yang menandai pemikirannya, seperti Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, dan Richard Cobden. Kemudian, kursus melihat pada lawan-lawan Bastiat, termasuk Rousseau, pendidikan klasik, proteksionisme, sosialisme, dan Proudhon.
-
-Bagian penting dari kursus ini didedikasikan untuk sofisma ekonomi yang dikritik oleh Bastiat, seperti "Apa yang terlihat dan apa yang tidak terlihat," "Petisi para pembuat lilin," penjarahan melalui pajak, dan perbedaan antara dua moral ekonomi. Kursus juga membahas harmoni ekonomi yang didukung oleh Bastiat, termasuk keajaiban pasar, kekuatan tanggung jawab, dan solidaritas sejati.
-
-Akhirnya, kursus diakhiri dengan refleksi tentang "Hukum," menangani konsep-konsep kunci seperti hak atas properti, penjarahan legal, dan peran negara. Kesimpulan dari kursus merevisi warisan Frédéric Bastiat dan pengaruh abadinya pada ekonomi modern.
-
-Bergabunglah dengan Damien Theillier dalam eksplorasi memperkaya pemikiran Frédéric Bastiat ini dan temukan bagaimana ide-idenya dapat menerangi debat ekonomi dan politik saat ini.
-
+Anda akan memulai dengan para pemikir yang memengaruhinya, seperti Adam Smith dan Richard Cobden, kemudian menyelami argumen-argumennya yang paling tajam. Bastiat memiliki bakat untuk menunjukkan di mana logika ekonomi runtuh, terutama seputar pajak dan perdagangan. Tetapi dia juga melukiskan gambaran yang lebih besar: bagaimana pasar benar-benar bekerja, mengapa tanggung jawab penting, dan seperti apa solidaritas sejati di luar program-program pemerintah. Jika Anda penasaran mengapa perdebatan ini masih penting hari ini, kursus ini mungkin mengubah cara Anda melihatnya.
 +++
-
 # Pengantar
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>

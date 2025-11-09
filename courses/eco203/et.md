@@ -1,35 +1,18 @@
 ---
-name: Frédéric Bastiat, elu, mõjud ja majanduslik mõtlemine
+name: Bastiat' majanduslik mõtlemine
 goal: Sügav arusaamine 19. sajandi prantsuse majandusteadlase ja mõtleja Frédéric Bastiat' elust, mõjudest, vastastest ja majandusteooriatest.
-objectives: 
-
-  - Tutvuge Frédéric Bastiat' elu ja ajaloolise kontekstiga.
-  - Mõista Bastiat' intellektuaalseid mõjutusi.
-  - Uurige Bastiat' ideoloogilisi vastaseid.
-  - Analüüsige Bastiat' järgi majandussofisme.
-
+objectives:
+- Tutvuge Frédéric Bastiat' elu ja ajaloolise kontekstiga.
+- Mõista Bastiat' intellektuaalseid mõjutusi.
+- Uurige Bastiat' ideoloogilisi vastaseid.
+- Analüüsige Bastiat' järgi majandussofisme.
 ---
+# Teekond läbi Bastiati majandusliku visiooni
 
-# Teekond Frédéric Bastiat' maailma
+Mis siis, kui 19. sajandi prantsuse mõtleja saaks aidata teil läbi näha tänastest majanduslikest debattidest? See kursus viib teid Frédéric Bastiati maailma, kelle teravad arusaamad turgudest, valitsusest ja inimesest kõlavad kaasa tänaseni. Uurite Bastiati elu, teda kujundanud mõtlejaid ja tema võimsamaid ideid nagu "mis on nähtav ja mis pole nähtav". Teel avastate, miks tema kriitika protektsionismi, sotsialismi ja valitsuse ülemäärase sekkumise suhtes tundub üllatavalt kaasaegne.
 
-
-See Damien Theillieri juhitud kursus kutsub teid sukelduma prantsuse majandusteadlase ja filosoofi Frédéric Bastiat' maailma, kelle ideed mõjutavad jätkuvalt tänapäeva majanduslikku mõtlemist. Damien Theillier uurib 21 video kaudu Bastiat' elu, tema intellektuaalseid mõjusid, tema ideoloogilisi vastaseid ning tema majandusteooriaid.
-
-
-Kursus algab Bastiat' elu ja ajaloolise konteksti üksikasjaliku tutvustamisega, enne kui vaadeldakse tema mõttemaailma iseloomustanud mõtlejaid, nagu Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer ja Richard Cobden. Seejärel vaadeldakse Bastiat' oponente, sealhulgas Rousseau'd, klassikalist haridust, protektsionismi, sotsialismi ja Proudhoni.
-
-
-Oluline osa kursusest on pühendatud Bastiat' poolt hukka mõistetud majanduslikele sofismidele, nagu "Mis on näha ja mida ei ole näha", "Küünalde petitsioon", rüüstamine maksude kaudu ja kahe majandusmoraali eristamine. Kursus käsitleb ka Bastiat' poolt propageeritud majandusharmooniaid, sealhulgas turu imet, vastutuse võimu ja tõelist solidaarsust.
-
-
-Kursus lõpeb mõtisklusega teemal "Õigus", kus käsitletakse selliseid võtmemõisteid nagu õigus omandile, seaduslik rüüstamine ja riigi roll. Kursuse lõpus vaadeldakse uuesti Frédéric Bastiat' pärandit ja tema püsivat mõju kaasaegsele majandusteadusele.
-
-
-Liitu Damien Theillier'ga, et uurida Frédéric Bastiat' mõtteid ja avastada, kuidas tema ideed võivad valgustada praeguseid majanduslikke ja poliitilisi arutelusid.
-
-
+Alustate mõtlejatest, kes teda mõjutasid, nagu Adam Smith ja Richard Cobden, seejärel süvenete tema kõige teravamasse argumentatsiooni. Bastiatil oli and näidata, kus majanduslik loogika kokku variseb, eriti maksude ja kaubanduse ümber. Kuid ta maalis ka laiema pildi: kuidas turud tegelikult töötavad, miks vastutus on oluline ja milline näeb välja tõeline solidaarsus väljaspool valitsuse programme. Kui olete uudishimulik, miks need debatid tänapäeval ikka veel olulist rolli mängivad, võib see kursus muuta teie vaatenurka.
 +++
-
 # Sissejuhatus
 
 

@@ -1,13 +1,11 @@
 ---
-name: Frédéric Bastiat, liv, influenser och ekonomiskt tänkande
+name: Bastiats ekonomiska tänkande
 goal: Att få en djup förståelse för Frédéric Bastiats liv, influenser, motståndare och ekonomiska teorier. Frédéric Bastiat var en fransk ekonom och tänkare på 1800-talet.
-objectives: 
-
-  - Lär dig mer om Frédéric Bastiats liv och historiska sammanhang.
-  - Förstå de intellektuella influenserna på Bastiat.
-  - Granska Bastiats ideologiska motståndare.
-  - Analysera ekonomiska sofismer enligt Bastiat.
-
+objectives:
+- Lär dig mer om Frédéric Bastiats liv och historiska sammanhang.
+- Förstå de intellektuella influenserna på Bastiat.
+- Granska Bastiats ideologiska motståndare.
+- Analysera ekonomiska sofismer enligt Bastiat.
 ---
 
 # En resa in i Frédéric Bastiats värld

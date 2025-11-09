@@ -1,4 +1,4 @@
- ---
+---
 name: Ajouter un replay de conférence
 description: Comment ajouter le replay d'une conférence sur Plan ₿ Academy ?
 ---

@@ -4,7 +4,7 @@ description: Comment ajouter une nouvelle langue sur Plan ₿ Academy ?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Academy a pour mission de fournir des ressources éducatives de premier ordre sur Bitcoin et de les traduire dans le plus grand nombre de langues possible. Une grande partie du contenu publié sur le site est open-source et hébergé sur GitHub, ce qui permet à chacun de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre différentes formes : correction et relecture du contenu existant, mise à jour des informations ou création de nouveaux tutoriels à ajouter sur la plateforme.
+Plan ₿ Academy a pour mission de fournir des ressources éducatives de premier ordre sur Bitcoin et de les traduire dans le plus grand nombre de langues possible. Une grande partie du contenu publié sur le site est open source et hébergée sur GitHub, ce qui permet à chacun de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre différentes formes : correction et relecture du contenu existant, mise à jour des informations ou création de nouveaux tutoriels à ajouter sur la plateforme.
 
 Notre site web propose actuellement un éventail de langues, et nous nous efforçons continuellement d'en ajouter d'autres. Pour améliorer le processus de traduction de notre interface, nous utilisons l'outil Weblate, qui nous aide à collaborer et à gérer efficacement les traductions. C'est un outil assez simple à utiliser.
 
@@ -35,8 +35,8 @@ Si votre langue n'y figure pas, suivez le tutoriel ci-dessous pour l'ajouter.
 ## Ajouter une nouvelle langue sur Plan ₿ Academy
 
 
-- La première étape consiste à créer un compte sur Weblate en cliquant sur `S'inscrire` en haut à droite (si vous avez besoin d'aide, vous pouvez vous reporter au tutoriel mentionné ci-dessus).
-- Une fois votre compte créé, allez dans le menu `Éléments du site` et sélectionnez l'onglet `Langues` :
+- La première étape consiste à créer un compte sur Weblate en cliquant sur "S'inscrire" en haut à droite (si vous avez besoin d'aide, vous pouvez vous reporter au tutoriel mentionné ci-dessus).
+- Une fois votre compte créé, allez dans le menu "Éléments du site" et sélectionnez l'onglet "Langues" :
 
 ![language](assets/03.webp)
 
@@ -51,7 +51,7 @@ Si votre langue n'y figure pas, suivez le tutoriel ci-dessous pour l'ajouter.
 ![language](assets/05.webp)
 
 
-- Cliquez sur `Commencer une nouvelle traduction` :
+- Cliquez sur "Commencer une nouvelle traduction" :
 
 ![language](assets/06.webp)
 
@@ -61,7 +61,7 @@ Si votre langue n'y figure pas, suivez le tutoriel ci-dessous pour l'ajouter.
 ![language](assets/07.webp)
 
 
-- Pour commencer à traduire les éléments statiques du site, cliquez sur le bouton `Traduire` :
+- Pour commencer à traduire les éléments statiques du site, cliquez sur le bouton "Traduire" :
 
 
 ![language](assets/08.webp)

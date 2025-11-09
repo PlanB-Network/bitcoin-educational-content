@@ -101,6 +101,7 @@ Pour rappel Bitcoin est un système de cash électronique pair-à-pair. C'est à
 ### Le problème de la double dépense
 
 Habituellement dans les sytèmes d'échanges électroniques traditionnels, une entité (banque, banque centrale etc....) est chargée de débiter et créditer les comptes des utilisateurs en fonction des transactions effectuées par ces derniers. Ces banques permettent de remédier au problème de la double dépense que posent les systèmes électroniques, au sein desquels les données peuvent être dupliquées facilement. Quand un utilisateur dépense ses sous, la banque s'assure que son compte est bien débité, et que le compte du destinataire est bien crédité et qu'ainsi aucune monnaie supplémentaire n'est créée.
+
 Ca c'est en théorie, puisqu'en pratique on sait que les banques commerciales et centrales ont bel et bien le pouvoir  de créer de la monnaie ex-nihilo, et qu'elles profitent de ce privilège pour s'approprier les ressources des autres indument.
 
 ![Image](assets/fr/002.webp)
@@ -108,7 +109,7 @@ Ca c'est en théorie, puisqu'en pratique on sait que les banques commerciales et
 Le génie de Satoshi Nakamoto est justement d'avoir réussi à trouver un moyen de se passer d'intermédiaire pour "débiter" et "créditer" les comptes des utilisateurs de Bitcoin. Et c'est là que la **preuve de travail** intervient. Personne n'est en mesure de pervertir le registre, car n'importe qui peut participer et controler ce qui y est inscrit. Tout le monde peut très facilement vérifier toutes les transactions qui s'y déroulent, les refuser si elles sont invalides (par exemple si la transaction dépense un bitcoin déjà dépensé précédemment), et même proposer de nouvelles transactions qui viendront mettre à jour le registre.
 
 Dans Bitcoin pour éviter le spam et une croissance  de la base de donnée trop rapide, les transactions sont ajoutées au registre par bloc de taille limitée (max 4MB) toutes les 10 minutes en moyenne (cela représente généralement quelques milliers de transactions toutes les 10 minutes).
-Mais alors qui choisi quelles transactions vont être ajoutées puisqu'on a décidé de se passer d'entité centrale ?
+Mais alors qui choisit quelles transactions vont être ajoutées puisqu'on a décidé de se passer d'entité centrale ?
 Certes tout le monde peut proposer un nouveau bloc de transactions, mais sous réserve qu'une **preuve de travail** suffisante ait été apportée. C'est là que les mineurs entre en jeu.
 
 ### La preuve de travail, pierre angulaire de la résolution du problème de la double dépense
@@ -121,7 +122,7 @@ Ainsi la **preuve de travail** est l'élément central du protocole Bitcoin perm
 
 ### Noeuds mineurs & Noeuds non mineurs
 
-POur en terminer avec ces rappels thériques sur la fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **noeuds mineurs** et les **noeuds non mineurs.**
+Pour en terminer avec ces rappels thériques sur la fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **noeuds mineurs** et les **noeuds non mineurs.**
 
 Les noeuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres noeud du réseau afin que celles-ci aient un chance d'atteindre un noeud mineur pour être ajoutée au registre. Un noeud non mineurs sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans noeud vous ne pouvez pas diffuser de transactions sur le réseau, ni vérifier le solde de vos adresses et de votre wallet. En synthèse un noeud non mineur permet **d'utiliser** le réseau de manière souveraine.
 
@@ -183,11 +184,10 @@ Sans cette association entre mineurs qui partagent la récompense lorsque l'un d
 
 Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les chances de miner un bloc seul sont infimes , on obtient  des fractions de BTC régulièrement, quotidiennement ou hebdomadairement, en fonction de son hashrate. 
 
-
-
 ## 2.2 Pourquoi faire du solo mining
 
-Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par un pool**.  
+Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par un pool**. 
+
 Aujourd'hui les solominer sont clairement extrèmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapporche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les 1ers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
 
 Les professionnels ayant eux besoin de revenus réguliers pour palier à leurs obligations. Cependant comme on le verra ci-dessous, il y a de vraies raisons (techniques, idéologiques et stratégiques) qui peuvent motiver ce choix.
@@ -201,23 +201,34 @@ On vient de voir que dans le minage en **pool**, on contribue à un effort colle
 En **solo mining**, il est soit possible de faire tourner son propre noeud et son propre logiciel de minage afin de miner de manière totalement souveraine.
 Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs et le noeud Bitcoin.
 
-Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**, un peu moins s'il passe pas une "solopool" tierce qui lui prélèvera quelques % de frais pour le service rendu.
+Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**. On peut également préciser que même lorsqu'on choisit le solomining, 2 approches sont possibles:
 
-Mais évidemment, les chances de succès sont **extrêmement faibles**.
+ **La première** consiste à déléguer à un tiers la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un noeud Bitcoin, et le logiciel qui sert à contruire le block template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est un source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de block si le miner n'est pas attentif.
+ 
+
+![Image](assets/fr/007.webp)
+
+**La seconde** consite pour chaque solominer à auto héberer sur un serveur qui lui appartient le noeud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le block template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les miniserveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
+
+![Image](assets/fr/008.webp)
+
+
+
+Mais évidemment, quelque soit notre manière de procéder, les chances de succès sont **extrêmement faibles** pour un solominer à la maison avec une puissance de calcul modeste.
+
 Pouquoi diable choisir le solomining alors ?
-
-
 
 ### Pour la souveraineté et l’indépendance
 
-Tu **n’as besoin de faire confiance à personne** : ni à un pool, ni à un intermédiaire.
-Tes blocs (potentiels)  et les transactions qui le constituent sont directement soumis à ton propre nœud et ne  sont pas filtrées. En effet une grande pool de mining (solo ou pas) soumise à la régulation pourrait être contrainte de censurer les transactions "non conformes" c'est à dire qui ne plaisent pas au pouvoir politique local. En solominant, et dans l'hypothèse ou suffisamment de mineurs autour du monde font de même, on pourrait s'assurer qu'aucune censure n'est possible sur bitcoin puisqu'au moins un  bloc par jour par exemple, pourrait être miné par un individus souverain.
+Si tu le souhaites, tu **n’as besoin de faire confiance à personne** : ni à un pool, ni à un intermédiaire.
+Tes blocs (potentiels) et les transactions qui le constituent sont directement soumis à ton propre nœud et ne  sont pas filtrées. En effet une grande pool de mining (solo ou pas) soumise à la régulation pourrait être contrainte de censurer les transactions "non conformes" c'est à dire qui ne plaisent pas au pouvoir politique local.
+En solominant, et dans l'hypothèse ou suffisamment de mineurs autour du monde font de même, on pourrait s'assurer qu'aucune censure n'est possible sur bitcoin puisqu'au moins un bloc par jour par exemple, pourrait être miné par un individus souverain.
 
-On participe ainsi à la **décentralisation du réseau**, cet chaque mineur indépendant renforce la résilience face à la censure ou à la centralisation des pools. En solo mining, **on devient totalement souverain.**
+On participe ainsi à la **décentralisation du  hasrate**, et chaque mineur indépendant renforce la résilience face à la censure ou à la centralisation des pools. En solo mining, **on devient totalement souverain.**
 
 ### Pour la confidentialité 
 
-Vous n'avez pas à partager vos données de minage (comme votre hashrate ou vos adresses) avec un opérateur de pool tiers, ce qui préserve votre vie privée. De plus, vous avez un contrôle absolu sur votre configuration, sans risque de censure ou de manipulation par un pool (par exemple, en cas de fork ou de politique interne).
+Vous n'avez pas à partager vos données de minage (comme votre hashrate ou vos adresses bitcoin ou même votre adresse IP) avec un opérateur de pool tiers, ce qui préserve votre vie privée. De plus, vous avez un contrôle absolu sur votre configuration, sans risque de censure ou de manipulation par un pool (par exemple, en cas de fork ou de politique interne).
 
 ### Pour l’expérimentation et l’apprentissage
 
@@ -225,25 +236,85 @@ C’est une excellente manière de **comprendre Bitcoin techniquement**, notamme
 
 ### Pour la loterie 
 
-Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto**.La récompense actuelle est de ....
-Probabilité faible, mais gain énorme — surtout quand on fait tourner la machine pour le plaisir et non pour le profit
+Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto**. La récompense actuelle est de 3,125 BTC + frais, mais comme on le verra plus tard, même avec une machine peut puissante et accessible financièrement, qui tourne en permanance dans notre salon , les chances de gagner sont tout de même supérieures à celles d'une loterie traditionelle.
+
+Probabilité faible, mais gain énorme — surtout quand on fait tourner la machine pour le plaisir et non pour le profit.
+Par exemple si 1 millions de Bitaxes (petites machines de mining) dont on estime qu'aujourd'hui déjà des centaines de milliers sont en service) minaient en solo, cela représenterait au jour ou ce paragraphe est écrit, environ 1 Eh/s soit 1/1000 du hashrate total. De quoi miner un bloc par semaine. Un ticket de loto par semaine gagné par un individu quelque part dans le monde, de quoi changer une vie.
 
 
-En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originale de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement interessé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisaiton de ce type de comportement pourrait aider de manière substancielles au retour d'une partie significative du hashrate entre les mains des particuliers. Par exemple si 1 millions de Bitaxes (petites machines de mining)
+En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originalelle de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement interessé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisaiton de ce type de comportement pourrait aider de manière substancielles au retour d'une partie significative du hashrate entre les mains des particuliers.
 
-
-
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
+| Feature          | Solomining                                                                         | Pool Mining                                                                        |
+| ---------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Rewards          | Whole Block Reward                                                                 | Shared reward based on hashrate contribution among the pool                        |
+| Payment term     | Extremely rare, you  may never be rewarded at all especially as a small home miner | Regular payments are received, ideal for those who have access to cheap electricty |
+| Sovereignty      | Can be total                                                                       | A third party decides which txs to include and can censor                          |
+| Fees             | Can be zero                                                                        | A % of the block reward is take by the pool                                        |
+| Setup Complexity | A bit harder for those who seek total sovereignty                                  | Easy                                                                               |
 
 
 ## 2.3 Panorama des solutions hardware
+
+Nous allons dans ce paragraphe détailler une partie (nonexhaustive) des solutions matérielles qui s'offrent à vous pour miner à la maison. Les machines que nous présenterons sont "plug & play" et adaptée à un usage domestique, et peuve même tourner dans votre salon.
+
+En effet les machines ASIC "professionelles" qui sont destinées à être installées sur rack dans des conteneurs ou datacenter, sont beaucoup trop bruyants et puissantes pour être utilisée en intérieur.
+Ici certaines des machines présentées sont même marketées par leur fabriquant comme des radiateurs, à installer dans les pièces de votre maison en hiver pour vous chauffer.
+
+
+
+### Bitaxe - Le projet 100% Open Source
+
+![Image](assets/fr/010.webp)
+
+Le projet Bitaxe est né du constat que la centralisation du minage tant au niveau des pool de minage que de fabricants de machines pouvait à terme causer un problème pour Bitcoin. Il était temps de tenter de reprendre un peu de contrôle sur cet aspect fondamental du projet qu'est le mining.
+
+Le problème c'est que les puces ASIC qui sont ensuite assemblées par centaines au sein des grosses machines que nous connaissons bien et qu'on retrouve dans les ferme de mining) ne sont pas vendues au détail par leurs fabricants pour être utilisée par qui le veut. PAr exemple Bitmain, le plus gros constructeur de machine ASIC du monde, réserve précieusement ses propres puces ASIC à ses propres machines (les fameux Antminer). Et c'est également le cas pour tous les autres fabricants.
+
+Comment faire pour proposer une solution Open Source dans ces conditions. Tout simplement en achetant des machines Antminer complètes, en les désossant, et un déssoudant les puces ASIC, pour les réhabiliter et leur donner une seconde vie au sein du projet de mining open source le plus célèbre de l'écosystème Bitcoin: **[Bitaxe](https://github.com/bitaxeorg)**
+
+Cerise sur le gateau l'ensemble du projet est 100% open source, tant au niveau du hardware que du software. N'importe qui peut donc s'approvisionner en composants et construire sont propre appareil rendant le projet quasiment inarétable. Dans la pratique les particuliers se fournissent auprès de constructeurs (autrement dit des geeks bricoleurs) spécialisés répartis autour du monde, plutôt que de se munir des pièces et de son faire à souder pour le fabriquer soit-même.
+
+Au moment où ces lignes sont écrites, la version la plus performante du projet Bitaxe est le Bitaxe Gamma, propulsée par une puce Bitmain BM1370, et délivrant environ 1,2 Th/s de hashrate, pour moins de 20W de consommation.
+
+Vous pouvez par exemple vous procurer le votre si vous êtes en europe chez [Bitcoin Bazar](https://bitcoinbazar.fr/en/collections/home-mining), Silexperience, ou encore PlebStyle. 
+
+![Image](assets/fr/011.webp)
+
+### NerdQAxe++
+
+Le projet Bitaxe a très rapidement ait des émules et de nombreuses évolutions de celui-ci on vu le jour.
+Les QAxe sont une sous famille de Bitaxe qui présentent sur un seule carte PCB non pas une puce ASIC mais 4 d'où le "Q".
+
+![Image](assets/fr/012.webp)
+
+Les NerdQAxe sont un sous-ensemble de la famille QAxe présentant un écran écran plus grand qu'un Bitaxe traditionnel (ESP32 Lilygo display), pour une meilleure expérience utilisateur.
+Les "++" siginfient que les 4 puces ASIC installées sont les dernières et plus performantes disponibles sur le marché à date (4 x BM1370). Ainsi et sans grande surprise on obtient environs 5Th/s de hashrate pour moins de 80W de consommation électrique.
+
+![Image](assets/fr/013.webp)
+
+Mais le firmware (le logiciel qui tourne sur l'appareil) utilisé est fondalement celui du projet racine Bitaxe. Il est il me semble utile de mentionner cette variante pour porter à la connaissance de  ceux qui auraient envie de plus de puissance, tout en gardant l'esprit totalement open source et transparent. Mais bien d'autre dérivés sont disponibles qu'on ne pourra pas détailler ici.
+
+### Braiins BMM101
+
+![Image](assets/fr/014.webp)
+
+### Avalon Nano 3S
+
+
+### Avalon Mini 3
+
+
+### Avalon Q
+
+
+### LuckyMiner LV07 / LV08
+
+
 ## 2.4 Panorama des solutions software
+
+### AxeOS
+
+### Braiins OS
 
 
 

@@ -85,7 +85,7 @@ Ce fork constitue un dépôt distinct de l'original, bien qu'il contienne pour l
 
 On vient donc en quelque sorte de faire une copie du dépôt source de Plan ₿ Academy. Votre fork (la copie) et le dépôt original vont désormais évoluer indépendamment l'un de l'autre. Sur le dépôt original, d'autres contributeurs pourront ajouter de nouvelles données, tandis que vous, sur votre fork, procéderez à vos propres modifications.
 
-Pour maintenir une cohérence entre ces deux dépôts, il sera nécessaire de les synchroniser périodiquement afin qu'ils récupèrent les mêmes informations. Pour envoyer vos modifications au dépôt source, vous utiliserez ce qu'on appelle une **Pull Request**. Et pour intégrer les modifications du dépôt source à votre fork, vous utiliserez la commande **Sync fork** disponible sur l'interface web de GitHub.
+Pour maintenir une cohérence entre ces deux dépôts, il sera nécessaire de les synchroniser périodiquement afin qu'ils récupèrent les mêmes informations. Pour envoyer vos modifications au dépôt source, vous utiliserez ce qu'on appelle une **`Pull Request`**. Et pour intégrer les modifications du dépôt source à votre fork, vous utiliserez la commande **`Sync fork`** disponible sur l'interface web de GitHub.
 
 ![github-desktop](assets/14.webp)
 
@@ -116,9 +116,9 @@ Pour maintenir une cohérence entre ces deux dépôts, il sera nécessaire de le
 ![github-desktop](assets/20.webp)
 
 
-Ce que nous avons réalisé à cette étape, c'est la création d'une copie locale de votre dépôt, qui est hébergé sur GitHub. Pour rappel, ce dépôt est un fork du dépôt source de Plan ₿ Academy. Vous allez pouvoir apporter des modifications à cette copie locale, telles que l'ajout de tutoriels, de traductions ou de corrections. Une fois ces modifications effectuées, vous utiliserez la commande **Push origin** pour envoyer vos modifications locales vers votre fork hébergé sur GitHub.
+Ce que nous avons réalisé à cette étape, c'est la création d'une copie locale de votre dépôt, qui est hébergé sur GitHub. Pour rappel, ce dépôt est un fork du dépôt source de Plan ₿ Academy. Vous allez pouvoir apporter des modifications à cette copie locale, telles que l'ajout de tutoriels, de traductions ou de corrections. Une fois ces modifications effectuées, vous utiliserez la commande **`Push origin`** pour envoyer vos modifications locales vers votre fork hébergé sur GitHub.
 
-Vous pouvez aussi récupérer des modifications depuis le fork, par exemple lors d'une synchronisation avec le dépôt de Plan ₿ Academy. Pour cela, vous utiliserez la commande **Fetch origin** pour télécharger les modifications sur votre copie locale (votre clone), puis la commande **Pull origin** pour les fusionner avec votre travail. Cela vous permet de rester à jour avec les dernières évolutions du projet tout en contribuant efficacement.
+Vous pouvez aussi récupérer des modifications depuis le fork, par exemple lors d'une synchronisation avec le dépôt de Plan ₿ Academy. Pour cela, vous utiliserez la commande **`Fetch origin`** pour télécharger les modifications sur votre copie locale (votre clone), puis la commande **`Pull origin`** pour les fusionner avec votre travail. Cela vous permet de rester à jour avec les dernières évolutions du projet tout en contribuant efficacement.
 
 ![github-desktop](assets/21.webp)
 

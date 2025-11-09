@@ -41,29 +41,29 @@ GitHub est donc bien plus qu'un simple hébergeur de code. C'est une plateforme 
 
 Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont les noms peuvent sembler complexes. Dans cette dernière partie, je vous donne des définitions simples pour comprendre les termes techniques que vous pourriez croiser lors de votre utilisation de Git et GitHub :
 
-- **Fetch origin :** Commande qui permet de récupérer les informations et les modifications récentes d'un dépôt distant sans les fusionner avec votre travail local. Elle met à jour votre dépôt local avec les nouvelles branches et les nouveaux commits présents sur le dépôt distant.
+- **`Fetch origin` :** Commande qui permet de récupérer les informations et les modifications récentes d'un dépôt distant sans les fusionner avec votre travail local. Elle met à jour votre dépôt local avec les nouvelles branches et les nouveaux commits présents sur le dépôt distant.
 
-- **Pull origin :** Commande qui permet de récupérer les mises à jour d'un dépôt distant et de les intégrer immédiatement à votre branche locale afin de la synchroniser. Cela combine les étapes de fetch et de merge en une seule commande.
+- **`Pull origin` :** Commande qui permet de récupérer les mises à jour d'un dépôt distant et de les intégrer immédiatement à votre branche locale afin de la synchroniser. Cela combine les étapes de fetch et de merge en une seule commande.
 
-- **Sync Fork :** Fonctionnalité sur GitHub qui permet de mettre à jour votre fork d'un projet avec les dernières modifications du dépôt source. Cela assure que votre copie du projet reste à jour avec le développement principal.
+- **`Sync Fork` :** Fonctionnalité sur GitHub qui permet de mettre à jour votre fork d'un projet avec les dernières modifications du dépôt source. Cela assure que votre copie du projet reste à jour avec le développement principal.
 
-- **Push origin :** Commande qui sert à envoyer vos modifications locales à un dépôt distant.
+- **`Push origin` :** Commande qui sert à envoyer vos modifications locales à un dépôt distant.
 
-- **Pull Request :** Demande envoyée par un contributeur pour indiquer qu'il a poussé des modifications sur une branche dans un dépôt distant, et qu'il souhaite que ces modifications soient examinées et potentiellement intégrées (merge) dans la branche principale du dépôt.
+- **`Pull Request` :** Demande envoyée par un contributeur pour indiquer qu'il a poussé des modifications sur une branche dans un dépôt distant et qu'il souhaite que ces modifications soient examinées et potentiellement intégrées (merge) dans la branche principale du dépôt.
 
-- **Commit :** Sauvegarde de vos modifications. Un commit est comme une photo instantanée de votre travail à un moment donné, qui permet de garder un historique des changements. Chaque commit inclut un message descriptif expliquant ce qui a été modifié.
+- **`Commit` :** Sauvegarde de vos modifications. Un commit est comme une photo instantanée de votre travail à un moment donné, qui permet de garder un historique des changements. Chaque commit inclut un message descriptif expliquant ce qui a été modifié.
 
-- **Branche :** Version parallèle du dépôt, permettant de travailler sur des modifications sans affecter la branche principale (souvent appelée "main" ou "master"). Les branches facilitent le développement de nouvelles fonctionnalités et la correction de bugs sans risque de perturber le code stable.
+- **`Branch` :** Version parallèle du dépôt, permettant de travailler sur des modifications sans affecter la branche principale (souvent appelée "main" ou "master"). Les branches facilitent le développement de nouvelles fonctionnalités et la correction de bugs sans risque de perturber le code stable.
 
-- **Merge :** Fusionner consiste à intégrer les modifications d'une branche dans une autre. On l'utilise, par exemple, pour ajouter les modifications d'une branche de travail sur la branche principale, ce qui permet d'ajouter les différentes contributions.
+- **`Merge` :** Fusionner consiste à intégrer les modifications d'une branche dans une autre. On l'utilise, par exemple, pour ajouter les modifications d'une branche de travail sur la branche principale, ce qui permet d'ajouter les différentes contributions.
 
-- **Fork :** Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Le fork peut soit faire son propre chemin, et devenir un projet différent du projet initial, soit se synchroniser régulièrement avec le projet initial, afin d'y contribuer.
+- **`Fork` :** Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Le fork peut soit faire son propre chemin, et devenir un projet différent du projet initial, soit se synchroniser régulièrement avec le projet initial, afin d'y contribuer.
 
-- **Clone :** Cloner un dépôt signifie en faire une copie locale sur votre ordinateur, ce qui vous donne accès à tous les fichiers et à l'historique. Cela vous permet de travailler sur le projet directement en local.
+- **`Clone` :** Cloner un dépôt signifie en faire une copie locale sur votre ordinateur, ce qui vous donne accès à tous les fichiers et à l'historique. Cela vous permet de travailler sur le projet directement en local.
 
-- **Repository :** Espace de stockage pour un projet sur GitHub. Un dépôt contient tous les fichiers du projet ainsi que l'historique de toutes les modifications qui y ont été apportées. C'est la base de stockage et de collaboration sur GitHub.
+- **`Repository` :** Espace de stockage pour un projet sur GitHub. Un dépôt contient tous les fichiers du projet ainsi que l'historique de toutes les modifications qui y ont été apportées. C'est la base de stockage et de collaboration sur GitHub.
 
-- **Issue :** Outil de suivi des tâches et des bugs sur GitHub. Les issues permettent de signaler des problèmes, de proposer des améliorations ou de discuter de nouvelles fonctionnalités. Chaque issue peut être assignée, étiquetée et commentée.
+- **`Issue` :** Outil de suivi des tâches et des bugs sur GitHub. Les issues permettent de signaler des problèmes, de proposer des améliorations ou de discuter de nouvelles fonctionnalités. Chaque issue peut être assignée, étiquetée et commentée.
 
 Cette liste n'est évidemment pas exhaustive. Il existe de nombreux autres termes techniques spécifiques à Git et GitHub. Cependant, ceux mentionnés ici sont les principaux que vous rencontrerez fréquemment.
 

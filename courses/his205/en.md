@@ -1708,9 +1708,9 @@ Their vision boils down to the fact that you can't consider a gold coin in a ban
 *Note 14: "Excellent criticism - excellent because it is on the very ground on which Knapp places himself, the legal ground - by Rist (1938: 372, note 1) of the comparison between paper money and checkroom tokens: if we can speak of a kind of claim in both cases, the fundamental difference is that in the first case, and in the first only, it is a claim without a specific object
 
 
-Also, on the subject of **creance**, the same author notes the following:
+Also, on the subject of **claim**, the same author notes the following:
 
-*"Bastiat is quite at liberty to imagine a voucher for the whole of society presented as "an immense bazaar", but this little addition, this seemingly innocuous extension, is the whole difference between credit and money. Money is not a claim on a particular store. There is no such thing as an anonymous claim. But the anonymity that characterizes money, and therefore its generality, is what makes it so powerful. Money is not like credit, still less is it in any way reducible to it. **Money is much more than credit
+*"Bastiat is quite at liberty to imagine a voucher for the whole of society presented as "an immense bazaar", but this little addition, this seemingly innocuous extension, is the whole difference between credit and money. Money is not a claim on a particular store. There is no such thing as an anonymous claim. But the anonymity that characterizes money, and therefore its generality, is what makes it so powerful. Money is not like credit, still less is it in any way reducible to it. **Money is much more than credit.**"*
 
 
 **A paradox: debt money vs. commodity money**
@@ -1741,19 +1741,19 @@ This paradox clearly shows the gap between these two monetary conceptions: for t
 To conclude this section on the various monetary theories, let's talk about the child prodigy of monetary theories, admired by many modern economists who work for central banks, and named modern monetary theory, often known as MMT.
 
 
-Modern Monetary Theory (MMT)** is an economic approach that holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory :
+**Modern Monetary Theory (MMT)** is an economic approach that holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory :
 
 
-**Money is a creation of the State, not a limited resource
+**Money is a creation of the State, not a limited resource**
 
 
-- Taxes and borrowing are not used directly to finance public spending, but rather to regulate inflation, influence economic behavior and maintain demand for the national currency.
+*Taxes and borrowing are not used directly to finance public spending, but rather to regulate inflation, influence economic behavior, and maintain demand for the national currency.*
 
-**The real limit to government spending is inflation, not the budget deficit or public debt
+**The real limit to government spending is inflation, not the budget deficit or public debt.**
 
-*If the money created is channelled into sectors that can absorb it, there will be no inflation either*
+*If the money created is channelled into sectors that can absorb it, there will be no inflation either*.
 
-**The government must therefore adjust its spending according to the real resources available (manpower, industrial capacity, natural resources) to avoid excessive inflation
+**The government must therefore adjust its spending according to the real resources available (manpower, industrial capacity, natural resources) to avoid excessive inflation.**
 
 
 ### The role of taxes in MMT
@@ -1768,13 +1768,13 @@ On the subject of money invested in sectors that can absorb it, we can mention t
 On the other hand, if you want to build more roads, and there's a limit to the resources and contractors who can produce them, doubling the budget for roads will necessarily create a scarcity effect on the workforce who can create these roads. So the price will rise as a result of market forces, supply and demand. If our omniscient leaders know where to put the money, technically, it shouldn't cause inflation. And I'd reply that, in practice, it's quite clear that it does cause inflation.
 
 
-In conclusion, according to MMT, the state can use its capacity to create money to achieve full employment and finance social and ecological investment, while controlling inflation through an appropriate fiscal policy. It is often also the aim of Keynesian economists, another school of economic thought, to manage unemployment by managing interest rates.  To finance social and ecological investments while controlling inflation through an appropriate fiscal policy.
+In conclusion, according to MMT, the state can use its capacity to create money to achieve full employment and finance social and ecological investment, while controlling inflation through an appropriate fiscal policy. It is often also the aim of Keynesian economists, another school of economic thought, to manage unemployment by managing interest rates and to finance social and ecological investments while controlling inflation through an appropriate fiscal policy.
 
 
 ### MMT review
 
 
-This theory only applies to a handful of countries (see Stephanie Kelton's tweet) that enjoy true monetary sovereignty, i.e. they can raise debt in their own currency. This theory is difficult to apply to import-dependent economies, which must maintain international confidence in their currency.
+This theory only applies to a handful of countries (see Stephanie Kelton's tweet) that enjoy true monetary sovereignty, i.e., they can raise debt in their own currency. This theory is difficult to apply to import-dependent economies, which must maintain international confidence in their currency.
 
 
 And what is true monetary sovereignty? It means being able to raise debt in your own currency. You have to be able to run a trade surplus to have enough currency reserves, enough foreign currency, so that you don't have to raise money in foreign currency to be able to import goods. This concerns a handful of countries.
@@ -1817,10 +1817,10 @@ Before we begin, here's the historical background:
 **Historical background:**
 
 
-**The Romans called the Greeks "Graeci" and Greece "Graecia
+**The Romans called the Greeks "Graeci" and Greece "Graecia".**
 
 
-**The Greeks called themselves "Hellenes" and their country "Hellas"
+**The Greeks called themselves "Hellenes" and their country "Hellas".**
 
 
 **Homer** (born around 8th century BC)
@@ -1842,7 +1842,7 @@ Second king of Rome, famous for giving Rome its first religious and legal instit
 **594 BC: Solon** becomes legislator in Athens and radically reforms Athenian society, notably by abolishing debt slavery.
 
 
-**776 BC: Ancient Olympic Games** (in French)
+**776 BC: Ancient Olympic Games** 
 
 The first regular sports games were held in Olympia every four years, bringing together the Greek cities.
 
@@ -1862,7 +1862,7 @@ Pre-Socratic philosopher known for his criticism of traditional Greek polytheism
 The Athenians victoriously repelled a Persian invasion, marking a decisive turning point for Greek civilization.
 
 
-**Herodotus** (c. 484-425 BC), nicknamed the "father of history", wrote a vast work describing the Medieval Wars, including the Greek victory over Xerxes in 480 BC.
+**Herodotus** (c. 484-425 BC), nicknamed the "father of history", wrote a vast work describing the Persian Wars, including the Greek victory over Xerxes in 480 BC.
 
 
 **Socrates** (470-399 BC)
@@ -1875,7 +1875,7 @@ Athenian philosopher famous for his dialectical method and his teaching on ethic
 Athenian playwright, famous for his satirical comedies such as *The Frogs*.
 
 
-*in his play *Antigone*, *Sophocles** (5th century BC) criticizes money as a source of moral and political corruption, through the tyrant Creon.
+**Sophocles** (5th century BC), in his play *Antigone*, criticizes money as a source of moral and political corruption, through the tyrant Creon.
 
 
 **Plato** (c. 428-348 BC)
@@ -1883,12 +1883,12 @@ Athenian playwright, famous for his satirical comedies such as *The Frogs*.
 Greek philosopher, pupil of Socrates, founder of the Academy, author of *The Republic*.
 
 
-**431-404 BC: Peloponnesian War** (Peloponnesian War)
+**431-404 BC: Peloponnesian War** 
 
 Major conflict between Athens and Sparta, ending in defeat for Athens.
 
 
-**431 BC: Athens finances the Peloponnesian War by diluting its gold and silver coins to increase the quantity in circulation, causing inflation.
+**431 BC**: Athens finances the Peloponnesian War by diluting its gold and silver coins to increase the quantity in circulation, causing inflation.
 
 
 **Xenophon** (c. 430-355 BC)
@@ -1896,13 +1896,13 @@ Major conflict between Athens and Sparta, ending in defeat for Athens.
 Athenian writer, philosopher and general, disciple of Socrates, author of the *Anabasis*.
 
 
-**414 BC: Athens begins to lose the Peloponnesian War after a disastrous expedition to Sicily.
+**414 BC**: Athens begins to lose the Peloponnesian War after a disastrous expedition to Sicily.
 
 
-**405 BC: Aristophanes**, in his play The Frogs*, explicitly describes the devaluation of the silver drachma and the appearance of inferior bronze coins in Athens, illustrating the principle known today as "Gresham's Law".
+**405 BC: Aristophanes**, in his play *The Frogs*, explicitly describes the devaluation of the silver drachma and the appearance of inferior bronze coins in Athens, illustrating the principle known today as "Gresham's Law".
 
 
-**404 BC: Athens capitulates after a long siege by Sparta.
+**404 BC**: Athens capitulates after a long siege by Sparta.
 
 
 **Aristotle** (384-322 BC)
@@ -1910,10 +1910,10 @@ Athenian writer, philosopher and general, disciple of Socrates, author of the *A
 Major Greek philosopher, student of Plato, founder of the Lyceum, known for his work in logic, biology and political philosophy.
 
 
-**327 BC: Alexander the Great conquers Persepolis and the eastern provinces of the Persian Empire, considerably expanding his empire.
+**327 BC**: Alexander the Great conquers Persepolis and the eastern provinces of the Persian Empire, considerably expanding his empire.
 
 
-**323 BC: Alexander died in Babylon without a clear heir, sparking wars between his generals (diadochi) to divide up the empire.
+**323 BC**: Alexander died in Babylon without a clear heir, sparking wars between his generals (diadochi) to divide up the empire.
 
 
 **Archimedes** (c. 287-212 BC)
@@ -1924,12 +1924,12 @@ Greek mathematician, physicist and inventor, famous for his discoveries in geome
 **196 BC: The Rosetta Stone** is engraved during the reign of Pharaoh Ptolemy V, enabling the later deciphering of Egyptian hieroglyphs.
 
 
-**192-188 BC: Romano-Seleucid War** (Romano-Seleucid War)
+**192-188 BC: Romano-Seleucid War** 
 
 Rome defeated the Seleucid empire led by Antiochos III, consolidating its influence in Greece and Asia Minor.
 
 
-**146 BC: Battle of Corinth** (in French)
+**146 BC: Battle of Corinth** 
 
 The Romans destroyed the Greek city of Corinth, marking the end of Greek political independence and the gradual integration of Greece into the Roman world.
 
@@ -1952,7 +1952,7 @@ Each Greek city developed its own relationship with money. In Athens, currency w
 Wars were often financed by currency manipulation. During the Peloponnesian War (431-404 BC), Athens resorted to drastic devaluations to pay its troops. Deprived of access to its silver mines by the Spartan occupation of Decelia in 413 BC, Athens had to melt down gold statues to mint new coins in a hurry in 407/406 BC. Then, in 406/405 BC, she created bronze coins plated with silver, causing a monetary crisis illustrated by **Aristophanes**, who already evokes what is known today as Gresham's Law: bad money driving out good money. This emergency currency was quickly demonetized after the war to restore confidence in Athenian coinage.
 
 
-The end of the classical period was marked by the rise of Macedonia under Philip II and his son Alexander the Great, profoundly upsetting the Greek monetary balance. Thanks to the vast gold and silver mines of Mount Pangea, Philip II produced an abundance of money to finance his military and political campaigns, establishing a simple and practical gold-silver standard (10:1). His gold staters, celebrating his victory at the Olympic Games, circulated as far as Western Europe, even reaching England. Alexander pursued this monetary policy, widely circulating the **attic** drachma during his conquests in the East as far as India. This massive circulation of coins marked the beginning of the Hellenistic era, when the image of sovereigns gradually replaced that of divinities on coins. This innovation enabled generations of Hellenistic monarchs to promote themselves, relegating the traditional gods to a secondary role on the reverse of their coins.
+The end of the classical period was marked by the rise of Macedonia under Philip II and his son Alexander the Great, profoundly upsetting the Greek monetary balance. Thanks to the vast gold and silver mines of Mount Pangea, Philip II produced an abundance of money to finance his military and political campaigns, establishing a simple and practical gold-silver standard (10:1). His gold staters, celebrating his victory at the Olympic Games, circulated as far as Western Europe, even reaching England. Alexander pursued this monetary policy, widely circulating the **Attic** drachma during his conquests in the East as far as India. This massive circulation of coins marked the beginning of the Hellenistic era, when the image of sovereigns gradually replaced that of divinities on coins. This innovation enabled generations of Hellenistic monarchs to promote themselves, relegating the traditional gods to a secondary role on the reverse of their coins.
 
 
 After Alexander's death in 323 BC, his generals divided up his immense empire, establishing dynasties in Egypt (the Ptolemies), Syria (the Seleucids) and elsewhere. These Hellenistic kingdoms adopted a variety of monetary systems: the Ptolemies imposed a closed monetary system to control the circulation of money, preferring to use grain as internal currency to save precious metals for external military expenditure. At the same time, Rhodes became a major trading center before being economically weakened by the Romans, who established Delos as a free port in 167 BC.

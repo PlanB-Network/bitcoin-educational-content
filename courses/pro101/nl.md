@@ -1,28 +1,17 @@
 ---
-name: Bitcoin ontwikkelingsversneller
+name: Grondbeginselen van Bitcoin-ontwikkeling
 goal: Alle fundamenten verwerven om te beginnen met ontwikkelen op Bitcoin
-objectives: 
-
-  - De kernconcepten en technologie begrijpen die Bitcoin ondersteunen.
-  - Praktische vaardigheden opdoen in Bitcoin beveiliging, softwareontwikkeling en netwerkbeheer.
-  - Beheersing van Lightning Network en de bijbehorende protocollen.
-
+objectives:
+- De kernconcepten en technologie begrijpen die Bitcoin ondersteunen.
+- Praktische vaardigheden opdoen in Bitcoin beveiliging, softwareontwikkeling en netwerkbeheer.
+- Beheersing van Lightning Network en de bijbehorende protocollen.
 ---
+# Een reis in CUBO+ ontwikkelingscursussen voor Bitcoin!
 
-Welkom bij de Cubo+ ontwikkelingscursussen voor Bitcoin!
+Wat is er nodig om op Bitcoin te bouwen? Deze cursus van 20 uur neemt je mee onder het oppervlak van Bitcoin en het Lightning Network, en verkent de protocollen die 's werelds meest veerkrachtige financiële infrastructuur aandrijven. Of je nu wilt bijdragen aan open-sourceprojecten of de volgende generatie Bitcoin-applicaties wilt bouwen, je krijgt de technische diepgang die nodig is om met vertrouwen in dit ecosysteem te gaan werken.
 
-
-In de volgende 20 uur duik je diep in de BTC- en LN-protocollen. Deze cursus is bedoeld voor programmeurs die aan de slag willen in het BTC-ecosysteem en een goed begrip willen krijgen van de verschillende technologiestacks van BTC en LN.
-
-
-De video's werden live opgenomen tijdens het CUBO+ 2023 bootcamp in El Salvador en zijn erin geslaagd om wereldberoemde leraren samen te brengen. Deze cursus werd gratis aangeboden dankzij de vrijgevigheid van Fulgure Venture en de gezamenlijke inspanningen van de docenten, het Bitcoin kantoor, DecouvreBitcoin en vele andere actoren.
-
-
-Veel plezier!
-
-
+Opgenomen tijdens het CUBO+ 2023 bootcamp in El Salvador, brengt deze cursus perspectieven samen van toonaangevende Bitcoin-ontwikkelaars en docenten die de technologie hebben gevormd. Het beste deel? Het is volledig gratis, mogelijk gemaakt door Fulgure Venture, het Bitcoin Office en DecouvreBitcoin. Als je nieuwsgierig bent geweest naar hoe Bitcoin echt werkt op protocolniveau, is dit je kans om erachter te komen.
 +++
-
 # Introductie en voorbereidende cursussen
 
 

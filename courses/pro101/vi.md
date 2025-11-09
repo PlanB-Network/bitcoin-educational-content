@@ -1,28 +1,17 @@
 ---
-name: Máy gia tốc phát triển Bitcoin
+name: Kiến thức cơ bản về phát triển Bitcoin
 goal: Chuẩn bị đầy đủ các nền tảng để bắt đầu phát triển trên Bitcoin
-objectives: 
-
-  - Hiểu các khái niệm cốt lõi và công nghệ hỗ trợ Bitcoin.
-  - Rèn luyện các kỹ năng thực tế về bảo mật Bitcoin, phát triển phần mềm và quản trị mạng.
-  - Phát triển khả năng thành thạo Lightning Network và các giao thức liên quan.
-
+objectives:
+- Hiểu các khái niệm cốt lõi và công nghệ hỗ trợ Bitcoin.
+- Rèn luyện các kỹ năng thực tế về bảo mật Bitcoin, phát triển phần mềm và quản trị mạng.
+- Phát triển khả năng thành thạo Lightning Network và các giao thức liên quan.
 ---
+# Hành trình khám phá các khóa học phát triển CUBO+ cho Bitcoin!
 
-Chào mừng bạn đến với khóa học phát triển Cubo+ dành cho Bitcoin!
+Cần gì để xây dựng trên Bitcoin? Khóa học 20 giờ này đưa bạn đi sâu vào bề mặt của Bitcoin và Mạng Lightning, khám phá các giao thức cung cấp sức mạnh cho cơ sở hạ tầng tài chính kiên cường nhất thế giới. Cho dù bạn đang tìm cách đóng góp cho các dự án mã nguồn mở hay xây dựng thế hệ ứng dụng Bitcoin tiếp theo, bạn sẽ có được chiều sâu kỹ thuật cần thiết để bắt đầu làm việc một cách tự tin trong hệ sinh thái này.
 
-
-Trong 20 giờ tiếp theo, bạn sẽ tìm hiểu sâu về giao thức BTC và LN. Khóa học này được thiết kế dành cho các lập trình viên muốn bắt đầu làm việc trong hệ sinh thái BTC và đang tìm kiếm sự hiểu biết vững chắc về các nền tảng công nghệ khác nhau của BTC và LN.
-
-
-Các video được ghi hình trực tiếp trong trại huấn luyện CUBO+ 2023 tại El Salvador và đã thành công trong việc quy tụ các giáo viên nổi tiếng thế giới. Khóa học này được cung cấp miễn phí nhờ sự hào phóng của Fulgure Venture và nỗ lực hợp tác của các giáo viên, văn phòng Bitcoin, DecouvreBitcoin và nhiều bên liên quan khác.
-
-
-Thưởng thức!
-
-
+Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Venture, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
 +++
-
 # Khóa học giới thiệu và dự bị
 
 

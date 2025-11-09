@@ -1,28 +1,17 @@
 ---
-name: Acelerador de desenvolvimento Bitcoin
+name: Fundamentos do desenvolvimento Bitcoin
 goal: Adquirir todas as bases para começar a desenvolver no Bitcoin
-objectives: 
-
-  - Compreender os conceitos fundamentais e a tecnologia subjacente ao Bitcoin.
-  - Adquira competências práticas em segurança Bitcoin, desenvolvimento de software e gestão de redes.
-  - Desenvolver um domínio do Lightning Network e dos seus protocolos associados.
-
+objectives:
+- Compreender os conceitos fundamentais e a tecnologia subjacente ao Bitcoin.
+- Adquira competências práticas em segurança Bitcoin, desenvolvimento de software e gestão de redes.
+- Desenvolver um domínio do Lightning Network e dos seus protocolos associados.
 ---
+# Uma jornada nos cursos de desenvolvimento CUBO+ para Bitcoin!
 
-Bem-vindo aos cursos de desenvolvimento do Cubo+ para o Bitcoin!
+O que é preciso para construir no Bitcoin? Este curso de 20 horas leva você abaixo da superfície do Bitcoin e da Lightning Network, explorando os protocolos que alimentam a infraestrutura financeira mais resiliente do mundo. Seja você procurando contribuir para projetos de código aberto ou construir a próxima geração de aplicações Bitcoin, você ganhará a profundidade técnica necessária para começar a trabalhar com confiança neste ecossistema.
 
-
-Durante as próximas 20 horas, você mergulhará profundamente nos protocolos BTC e LN. Este curso foi concebido para programadores que pretendem começar a trabalhar no ecossistema BTC e que procuram uma compreensão sólida das diferentes pilhas de tecnologia do BTC e do LN.
-
-
-Os vídeos foram gravados ao vivo durante o bootcamp CUBO+ 2023 em El Salvador e conseguiram reunir professores de renome mundial. Este curso foi oferecido gratuitamente graças à generosidade da Fulgure Venture e aos esforços de colaboração dos professores, do gabinete Bitcoin, da DecouvreBitcoin e de muitos outros actores.
-
-
-Desfrutar!
-
-
+Gravado durante o bootcamp CUBO+ 2023 em El Salvador, este curso reúne perspectivas de desenvolvedores e educadores líderes de Bitcoin que moldaram a tecnologia. A melhor parte? É completamente gratuito, possibilitado pela Fulgure Venture, o Bitcoin Office e DecouvreBitcoin. Se você tem curiosidade sobre como o Bitcoin realmente funciona no nível de protocolo, esta é sua chance de descobrir.
 +++
-
 # Introdução e cursos preparatórios
 
 

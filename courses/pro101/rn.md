@@ -1,28 +1,17 @@
 ---
-name: Bitcoin Iterambere ryihuta
+name: Ibanze by'iterambere rya Bitcoin
 goal: Uronke imishinge yose kugira utangure gutera imbere kuri Bitcoin.
-objectives: 
-
-  - Gutahura ivyiyumviro nyamukuru n'ubuhinga bushingiye kuri Bitcoin.
-  - Kuronka ubuhinga ngirakamaro mu bijanye n’umutekano wa Bitcoin, gutegura porogarama, no kurongora urubuga.
-  - Gutegura ubuhinga bwo gukoresha Lightning Network n’amategeko ajanye na yo.
-
+objectives:
+- Gutahura ivyiyumviro nyamukuru n'ubuhinga bushingiye kuri Bitcoin.
+- Kuronka ubuhinga ngirakamaro mu bijanye n’umutekano wa Bitcoin, gutegura porogarama, no kurongora urubuga.
+- Gutegura ubuhinga bwo gukoresha Lightning Network n’amategeko ajanye na yo.
 ---
+# Urugendo mu masomo y'iterambere rya CUBO+ kuri Bitcoin!
 
-Murakaze mu masomo y'iterambere rya Cubo+ ya Bitcoin!
+Ni iki gikenewe kugira ngo wubake kuri Bitcoin? Iri somo ry'amasaha 20 rigukurikiza munsi y'ubuso bwa Bitcoin na Lightning Network, ukamenya protocole zikorera ibikorwa remezo by'imari bikomeye cyane ku isi. Waba ushaka kugira uruhare mu mishinga ifunguye cyangwa kubaka icyiciro gikurikira cy'porogaramu za Bitcoin, uzabona ubujyakuzimu bukomeye bukenewe kugira ngo utangire gukora witonze muri iyi ecosystem.
 
-
-Mu masaha 20 azoza, uzokwisuka cane mu mategeko ya BTC na LN. Iryo shure ryagenewe abahinga mu gukora porogarama bashaka gutangura gukora mu bidukikije vya BTC kandi barondera gutahura neza ubuhinga butandukanye bwa BTC na LN.
-
-
-Amasanamu yafashwe mu buryo bubereye mu gihe c’imyimenyerezo ya CUBO+ 2023 muri El Salvador, kandi yarashoboye guhuriza hamwe abigisha bazwi kw’isi yose. Iryo shure ryatanzwe ku buntu kubera ubuntu bwa Fulgure Venture n’inguvu z’ubufatanye z’abigisha, ibiro vya Bitcoin, DecouvreBitcoin, n’abandi benshi bakora.
-
-
-Kwinezereza!
-
-
+Yafashwe mu gihe cya bootcamp ya CUBO+ 2023 muri El Salvador, iri somo rihuza ibitekerezo by'abatunganyabikorwa ba Bitcoin bakomeye n'abarimu bagize ikoranabuhanga. Igice cyiza cyane? Ni ubuntu rwose, bishobokaye biturutse kuri Fulgure Venture, Bitcoin Office na DecouvreBitcoin. Niba waba wari ufite amatsiko yo kumenya uko Bitcoin ikora mu rwego rwa protocole, iyi ni amahirwe yawe yo kubimenya.
 +++
-
 # Intangamarara n'amashure yo kwitegura
 
 

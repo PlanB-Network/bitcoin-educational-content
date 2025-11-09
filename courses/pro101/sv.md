@@ -1,28 +1,17 @@
 ---
-name: Bitcoin Accelerator för utveckling
+name: Grunderna i Bitcoin-utveckling
 goal: Förvärva alla grunder för att börja utveckla på Bitcoin
-objectives: 
-
-  - Förstå de centrala begrepp och den teknik som ligger till grund för Bitcoin.
-  - Få praktiska färdigheter inom Bitcoin-säkerhet, programvaruutveckling och nätverksstyrning.
-  - Utveckla en behärskning av Lightning Network och dess tillhörande protokoll.
-
+objectives:
+- Förstå de centrala begrepp och den teknik som ligger till grund för Bitcoin.
+- Få praktiska färdigheter inom Bitcoin-säkerhet, programvaruutveckling och nätverksstyrning.
+- Utveckla en behärskning av Lightning Network och dess tillhörande protokoll.
 ---
+# En resa in i CUBO+ utvecklingskurser för Bitcoin!
 
-Välkommen till Cubo+ utvecklingskurser för Bitcoin!
+Vad krävs för att bygga på Bitcoin? Denna 20-timmars kurs tar dig under ytan av Bitcoin och Lightning Network och utforskar de protokoll som driver världens mest motståndskraftiga finansiella infrastruktur. Oavsett om du vill bidra till open source-projekt eller bygga nästa generation av Bitcoin-applikationer, kommer du att få det tekniska djup som behövs för att börja arbeta med självförtroende i detta ekosystem.
 
-
-Under de kommande 20 timmarna kommer du att dyka djupt in i BTC- och LN-protokollen. Den här kursen är utformad för programmerare som vill börja arbeta i BTC-ekosystemet och som söker en solid förståelse för de olika teknikstackarna i BTC och LN.
-
-
-Videorna spelades in live under CUBO+ 2023 bootcamp i El Salvador och lyckades sammanföra världsberömda lärare. Denna kurs erbjöds gratis tack vare generositeten från Fulgure Venture och samarbetet mellan lärarna, Bitcoin-kontoret, DecouvreBitcoin och många andra aktörer.
-
-
-Njut!
-
-
+Inspelad under CUBO+ 2023 bootcamp i El Salvador samlar denna kurs perspektiv från ledande Bitcoin-utvecklare och utbildare som har format teknologin. Det bästa? Den är helt gratis, möjliggjord av Fulgure Venture, Bitcoin Office och DecouvreBitcoin. Om du har varit nyfiken på hur Bitcoin verkligen fungerar på protokollnivå är detta din chans att ta reda på det.
 +++
-
 # Introduktion och förberedande kurser
 
 

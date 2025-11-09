@@ -1,21 +1,16 @@
 ---
-name: Bitcoin Development Accelerator
+name: Misingi ya Maendeleo ya Bitcoin
 goal: Pata misingi yote ya kuanza kuendeleza kwenye Bitcoin
-objectives: 
-
-  - Elewa dhana za msingi na teknolojia inayosimamia Bitcoin.
-  - Pata ujuzi wa vitendo katika usalama wa Bitcoin, ukuzaji wa programu, na usimamizi wa mtandao.
-  - Kuendeleza umilisi wa Lightning Network na protocol zake zinazohusiana.
-
+objectives:
+- Elewa dhana za msingi na teknolojia inayosimamia Bitcoin.
+- Pata ujuzi wa vitendo katika usalama wa Bitcoin, ukuzaji wa programu, na usimamizi wa mtandao.
+- Kuendeleza umilisi wa Lightning Network na protocol zake zinazohusiana.
 ---
-Karibu kwenye kozi za ukuzaji za Cubo+ za Bitcoin!
+# Safari katika kozi za maendeleo ya CUBO+ kwa ajili ya Bitcoin!
 
-Kwa muda wa saa 20 zijazo, utazama ndani kabisa ya protocol za BTC na LN. Kozi hii imeundwa kwa ajili ya watayarishaji programu wanaotaka kuanza kufanya kazi katika mfumo ikolojia wa BTC na wanatafuta ufahamu thabiti wa rundo tofauti za teknolojia za BTC na LN.
+Nini kinachohitajika kujenga kwenye Bitcoin? Kozi hii ya masaa 20 inakupeleka chini ya uso wa Bitcoin na Mtandao wa Lightning, ikichunguza itifaki zinazoendesha miundombinu ya kifedha yenye nguvu zaidi duniani. Iwe unataka kuchangia miradi ya chanzo wazi au kujenga kizazi kijacho cha programu za Bitcoin, utapata kina cha kiufundi kinachohitajika kuanza kufanya kazi kwa ujasiri katika mfumo huu ikolojia.
 
-Video hizo zilirekodiwa moja kwa moja wakati wa kambi ya CUBO+ 2023 huko El Salvador na kufanikiwa kuwaleta pamoja walimu mashuhuri duniani. Kozi hii ilitolewa bila malipo kwa ukarimu wa Fulgure Venture na juhudi za ushirikiano wa walimu, ofisi za Bitcoin, DecouvreBitcoin, na waigizaji wengine wengi.
-
-Furahia!
-
+Iliyorekodiwa wakati wa bootcamp ya CUBO+ 2023 nchini El Salvador, kozi hii inakusanya mitazamo kutoka kwa wasanidi programu wakuu wa Bitcoin na waelimishaji ambao wameunda teknolojia hiyo. Sehemu bora zaidi? Ni bure kabisa, imewezeshwa na Fulgure Venture, Bitcoin Office na DecouvreBitcoin. Ikiwa umekuwa na udadisi kuhusu jinsi Bitcoin inavyofanya kazi kweli katika kiwango cha itifaki, hii ni fursa yako ya kujua.
 +++
 # Kozi za utangulizi na maandalizi
 

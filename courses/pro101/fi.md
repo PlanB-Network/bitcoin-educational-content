@@ -1,28 +1,17 @@
 ---
-name: Bitcoin-kehityskiihdytin
+name: Bitcoinin kehityksen perusteet
 goal: Hanki kaikki perusteet Bitcoin:n kehittämisen aloittamiseksi
-objectives: 
-
-  - Ymmärtää Bitcoin:n perustana olevat keskeiset käsitteet ja teknologia.
-  - Hanki käytännön taitoja Bitcoin:n tietoturvasta, ohjelmistokehityksestä ja verkon hallinnasta.
-  - Lightning Network:n ja siihen liittyvien protokollien hallinta.
-
+objectives:
+- Ymmärtää Bitcoin:n perustana olevat keskeiset käsitteet ja teknologia.
+- Hanki käytännön taitoja Bitcoin:n tietoturvasta, ohjelmistokehityksestä ja verkon hallinnasta.
+- Lightning Network:n ja siihen liittyvien protokollien hallinta.
 ---
+# Matka CUBO+ kehityskursseihin Bitcoinille!
 
-Tervetuloa Bitcoin:n Cubo+-kehityskursseille!
+Mitä tarvitaan Bitcoinin päälle rakentamiseen? Tämä 20 tunnin kurssi vie sinut Bitcoinin ja Lightning Networkin pinnan alle, tutkien protokollia, jotka voimistavat maailman kestävintä rahoitusinfrastruktuuria. Olitpa sitten kiinnostunut osallistumaan avoimen lähdekoodin projekteihin tai rakentamaan seuraavan sukupolven Bitcoin-sovelluksia, saat teknisen syvyyden, jota tarvitset työskennelläksesi luottavaisesti tässä ekosysteemissä.
 
-
-Seuraavien 20 tunnin aikana pääset syventymään BTC- ja LN-protokolliin. Tämä kurssi on tarkoitettu ohjelmoijille, jotka haluavat aloittaa työskentelyn BTC-ekosysteemissä ja jotka etsivät vankkaa ymmärrystä BTC:n ja LN:n eri teknologiapinoista.
-
-
-Videot nauhoitettiin suorana lähetyksenä El Salvadorissa järjestetyn CUBO+ 2023 -harjoitusleirin aikana, ja niissä onnistuttiin tuomaan yhteen maailmankuuluja opettajia. Tämä kurssi tarjottiin ilmaiseksi Fulgure Venturen anteliaisuuden ja opettajien, Bitcoin:n toimiston, DecouvreBitcoinin ja monien muiden toimijoiden yhteistyön ansiosta.
-
-
-Nauti!
-
-
+Tallennettu CUBO+ 2023 bootcampin aikana El Salvadorissa, tämä kurssi kokoaa yhteen johtavien Bitcoin-kehittäjien ja kouluttajien näkökulmat, jotka ovat muovanneet teknologiaa. Paras osa? Se on täysin ilmainen, mahdollistettu Fulgure Venturen, Bitcoin Officen ja DecouvreBitcoinin toimesta. Jos olet ollut utelias siitä, miten Bitcoin todella toimii protokollatasolla, tämä on tilaisuutesi selvittää se.
 +++
-
 # Johdanto ja valmistavat kurssit
 
 

@@ -1,28 +1,17 @@
 ---
-name: Urychlovač vývoje Bitcoin
+name: Základy vývoje Bitcoinu
 goal: Získání všech základů pro zahájení vývoje na Bitcoin
-objectives: 
-
-  - Porozumět základním konceptům a technologiím, na nichž je Bitcoin založen.
-  - Získejte praktické dovednosti v oblasti zabezpečení Bitcoin, vývoje softwaru a správy sítí.
-  - Zvládnout systém Lightning Network a související protokoly.
-
+objectives:
+- Porozumět základním konceptům a technologiím, na nichž je Bitcoin založen.
+- Získejte praktické dovednosti v oblasti zabezpečení Bitcoin, vývoje softwaru a správy sítí.
+- Zvládnout systém Lightning Network a související protokoly.
 ---
+# Cesta do vývojářských kurzů CUBO+ pro Bitcoin!
 
-Vítejte ve vývojových kurzech Cubo+ pro Bitcoin!
+Co je potřeba k tomu, abyste mohli stavět na Bitcoinu? Tento 20hodinový kurz vás zavede pod povrch Bitcoinu a Lightning Network a prozkoumá protokoly, které pohánějí nejodolnější finanční infrastrukturu světa. Ať už chcete přispívat do open-source projektů nebo budovat další generaci bitcoinových aplikací, získáte technickou hloubku potřebnou k tomu, abyste mohli v tomto ekosystému pracovat s jistotou.
 
-
-Během následujících 20 hodin se ponoříte do protokolů BTC a LN. Tento kurz je určen pro programátory, kteří chtějí začít pracovat v ekosystému BTC a snaží se důkladně porozumět různým technologickým stackům BTC a LN.
-
-
-Videa byla natočena živě během bootcampu CUBO+ 2023 v Salvadoru a podařilo se na nich shromáždit světově uznávané učitele. Tento kurz byl nabízen zdarma díky velkorysosti společnosti Fulgure Venture a společnému úsilí učitelů, kanceláře Bitcoin, DecouvreBitcoin a mnoha dalších aktérů.
-
-
-Užijte si to!
-
-
+Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Venture, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
 +++
-
 # Úvod a přípravné kurzy
 
 

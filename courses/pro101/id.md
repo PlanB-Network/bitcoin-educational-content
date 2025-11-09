@@ -1,28 +1,17 @@
 ---
-name: Akselerator Pengembangan Bitcoin
+name: Dasar-dasar Pengembangan Bitcoin
 goal: Dapatkan semua fondasi untuk mulai mengembangkan Bitcoin
-objectives: 
-
-  - Memahami konsep inti dan teknologi yang mendasari Bitcoin.
-  - Dapatkan keterampilan praktis dalam keamanan Bitcoin, pengembangan perangkat lunak, dan tata kelola jaringan.
-  - Kembangkan penguasaan Lightning Network dan protokol terkait.
-
+objectives:
+- Memahami konsep inti dan teknologi yang mendasari Bitcoin.
+- Dapatkan keterampilan praktis dalam keamanan Bitcoin, pengembangan perangkat lunak, dan tata kelola jaringan.
+- Kembangkan penguasaan Lightning Network dan protokol terkait.
 ---
+# Sebuah perjalanan ke kursus pengembangan CUBO+ untuk Bitcoin!
 
-Selamat datang di kursus pengembangan Cubo+ untuk Bitcoin!
+Apa yang diperlukan untuk membangun di Bitcoin? Kursus 20 jam ini membawa Anda di bawah permukaan Bitcoin dan Lightning Network, menjelajahi protokol yang menggerakkan infrastruktur keuangan paling tangguh di dunia. Baik Anda ingin berkontribusi pada proyek open-source atau membangun generasi berikutnya dari aplikasi Bitcoin, Anda akan mendapatkan kedalaman teknis yang diperlukan untuk mulai bekerja dengan percaya diri dalam ekosistem ini.
 
-
-Selama 20 jam ke depan, Anda akan menyelami protokol BTC dan LN secara mendalam. Kursus ini dirancang untuk para programmer yang ingin mulai bekerja di ekosistem BTC dan mencari pemahaman yang kuat tentang berbagai tumpukan teknologi BTC dan LN.
-
-
-Video-video tersebut direkam secara langsung selama pelatihan CUBO+ 2023 di El Salvador dan berhasil menyatukan para guru terkenal di dunia. Kursus ini ditawarkan secara gratis berkat kemurahan hati Fulgure Venture dan upaya kolaboratif dari para guru, kantor Bitcoin, DecouvreBitcoin, dan banyak pihak lainnya.
-
-
-Nikmatilah!
-
-
+Direkam selama bootcamp CUBO+ 2023 di El Salvador, kursus ini menyatukan perspektif dari pengembang dan pendidik Bitcoin terkemuka yang telah membentuk teknologi ini. Bagian terbaiknya? Ini sepenuhnya gratis, dimungkinkan oleh Fulgure Venture, Bitcoin Office dan DecouvreBitcoin. Jika Anda penasaran tentang bagaimana Bitcoin benar-benar bekerja di tingkat protokol, ini adalah kesempatan Anda untuk mengetahuinya.
 +++
-
 # Kursus Pengenalan dan Persiapan
 
 

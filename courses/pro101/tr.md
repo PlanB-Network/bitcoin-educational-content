@@ -1,28 +1,17 @@
 ---
-name: Bitcoin Gelişim Hızlandırıcı
+name: Bitcoin Geliştirme Temelleri
 goal: Bitcoin'de geliştirmeye başlamak için tüm temelleri edinin
-objectives: 
-
-  - Bitcoin'nin altında yatan temel kavramları ve teknolojiyi anlamak.
-  - Bitcoin güvenliği, yazılım geliştirme ve ağ yönetişimi konularında pratik beceriler kazanın.
-  - Lightning Network ve ilgili protokollerine hakimiyet geliştirin.
-
+objectives:
+- Bitcoin'nin altında yatan temel kavramları ve teknolojiyi anlamak.
+- Bitcoin güvenliği, yazılım geliştirme ve ağ yönetişimi konularında pratik beceriler kazanın.
+- Lightning Network ve ilgili protokollerine hakimiyet geliştirin.
 ---
+# Bitcoin için CUBO+ geliştirme kurslarına bir yolculuk!
 
-Bitcoin için Cubo+ geliştirme kurslarına hoş geldiniz!
+Bitcoin üzerinde inşa etmek için ne gerekir? Bu 20 saatlik kurs sizi Bitcoin ve Lightning Network'ün yüzeyinin altına götürerek, dünyanın en dayanıklı finansal altyapısını güçlendiren protokolleri keşfetmenizi sağlar. İster açık kaynak projelerine katkıda bulunmak ister yeni nesil Bitcoin uygulamaları oluşturmak isteyin, bu ekosistemde güvenle çalışmaya başlamak için gereken teknik derinliği kazanacaksınız.
 
-
-Önümüzdeki 20 saat boyunca BTC ve LN protokollerinin derinliklerine dalacaksınız. Bu eğitim, BTC ekosisteminde çalışmaya başlamak isteyen ve BTC ve LN'nın farklı teknoloji yığınları hakkında sağlam bir anlayış arayan programcılar için tasarlanmıştır.
-
-
-Videolar El Salvador'daki CUBO+ 2023 bootcamp sırasında canlı olarak kaydedildi ve dünyaca ünlü öğretmenleri bir araya getirmeyi başardı. Bu kurs, Fulgure Venture'ın cömertliği ve öğretmenler, Bitcoin ofisi, DecouvreBitcoin ve diğer birçok aktörün ortak çabaları sayesinde ücretsiz olarak sunuldu.
-
-
-İyi eğlenceler!
-
-
+El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Venture, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
 +++
-
 # Giriş ve Hazırlık Kursları
 
 

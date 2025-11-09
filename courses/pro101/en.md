@@ -1,22 +1,17 @@
 ---
-name: Bitcoin Development Accelerator
+name: Bitcoin Development Foundamentals
 goal: Acquire all the foundations to start developing on Bitcoin
 objectives:
-  - Understand the core concepts and technology underpinning Bitcoin.
-  - Gain practical skills in Bitcoin security, software development, and network governance.
-  - Develop a mastery of the Lightning Network and its associated protocols.
+- Understand the core concepts and technology underpinning Bitcoin.
+- Gain practical skills in Bitcoin security, software development, and network governance.
+- Develop a mastery of the Lightning Network and its associated protocols.
 ---
+# A journey into CUBO+ development courses for Bitcoin!
 
-Welcome to the Cubo+ development courses for Bitcoin!
+What does it take to build on Bitcoin? This 20-hour course takes you beneath the surface of Bitcoin and the Lightning Network, exploring the protocols that power the world's most resilient financial infrastructure. Whether you're looking to contribute to open-source projects or build the next generation of Bitcoin applications, you'll gain the technical depth needed to start working confidently in this ecosystem.
 
-Over the next 20 hours, you will dive deep into the BTC and LN protocols. This course is designed for programmers who want to start working in the BTC ecosystem and are seeking a solid understanding of the different technology stacks of BTC and LN.
-
-The videos were recorded live during the CUBO+ 2023 bootcamp in El Salvador and succeeded in bringing together world-renowned teachers. This course was offered for free thanks to the generosity of Fulgure Venture and the collaborative efforts of the teachers, the Bitcoin office, DecouvreBitcoin, and many other actors.
-
-Enjoy!
-
+Recorded during the CUBO+ 2023 bootcamp in El Salvador, this course brings together perspectives from leading Bitcoin developers and educators who've shaped the technology. The best part? It's completely free, made possible by Fulgure Venture, the Bitcoin Office and DecouvreBitcoin. If you've been curious about how Bitcoin really works at the protocol level, this is your chance to find out.
 +++
-
 # Introduction and Preparatory Courses
 
 <partId>43a835de-c4e7-542b-9d1a-c92f049e88e6</partId>

@@ -1,28 +1,17 @@
 ---
-name: Akcelerator rozwoju Bitcoin
+name: Podstawy rozwoju Bitcoina
 goal: Zdobądź wszystkie fundamenty, aby rozpocząć rozwój na Bitcoin
-objectives: 
-
-  - Zrozumienie podstawowych koncepcji i technologii leżących u podstaw Bitcoin.
-  - Zdobądź praktyczne umiejętności w zakresie bezpieczeństwa Bitcoin, rozwoju oprogramowania i zarządzania siecią.
-  - Opanowanie Lightning Network i powiązanych z nim protokołów.
-
+objectives:
+- Zrozumienie podstawowych koncepcji i technologii leżących u podstaw Bitcoin.
+- Zdobądź praktyczne umiejętności w zakresie bezpieczeństwa Bitcoin, rozwoju oprogramowania i zarządzania siecią.
+- Opanowanie Lightning Network i powiązanych z nim protokołów.
 ---
+# Podróż do kursów programistycznych CUBO+ dla Bitcoina!
 
-Witamy na kursach programowania Cubo+ dla Bitcoin!
+Co jest potrzebne, aby budować na Bitcoinie? Ten 20-godzinny kurs zabiera cię pod powierzchnię Bitcoina i Lightning Network, eksplorując protokoły, które napędzają najbardziej odporną infrastrukturę finansową na świecie. Niezależnie od tego, czy chcesz przyczynić się do projektów open-source, czy zbudować następną generację aplikacji Bitcoin, zdobędziesz głębię techniczną potrzebną do pewnego rozpoczęcia pracy w tym ekosystemie.
 
-
-W ciągu następnych 20 godzin zagłębisz się w protokoły BTC i LN. Ten kurs jest przeznaczony dla programistów, którzy chcą rozpocząć pracę w ekosystemie BTC i szukają solidnego zrozumienia różnych stosów technologicznych BTC i LN.
-
-
-Filmy zostały nagrane na żywo podczas bootcampu CUBO+ 2023 w Salwadorze i udało im się zgromadzić światowej sławy nauczycieli. Kurs ten był oferowany bezpłatnie dzięki hojności Fulgure Venture i wspólnym wysiłkom nauczycieli, biura Bitcoin, DecouvreBitcoin i wielu innych podmiotów.
-
-
-Miłego oglądania!
-
-
+Nagrany podczas bootcampu CUBO+ 2023 w Salwadorze, ten kurs łączy perspektywy wiodących programistów Bitcoin i edukatorów, którzy ukształtowali tę technologię. Najlepsza część? Jest całkowicie darmowy, umożliwiony przez Fulgure Venture, Bitcoin Office i DecouvreBitcoin. Jeśli byłeś ciekaw, jak Bitcoin naprawdę działa na poziomie protokołu, to jest twoja szansa, aby się dowiedzieć.
 +++
-
 # Wprowadzenie i kursy przygotowawcze
 
 

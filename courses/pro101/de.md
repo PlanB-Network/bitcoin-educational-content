@@ -1,28 +1,17 @@
 ---
-name: Bitcoin Entwicklungsbeschleuniger
+name: Grundlagen der Bitcoin-Entwicklung
 goal: Erwerben Sie alle Grundlagen, um mit der Entwicklung auf Bitcoin zu beginnen
-objectives: 
-
-  - Verstehen der Kernkonzepte und der Technologie, die Bitcoin zugrunde liegen.
-  - Erwerben Sie praktische Fähigkeiten in den Bereichen Bitcoin-Sicherheit, Softwareentwicklung und Netzwerkverwaltung.
-  - Beherrschung des Lightning Network und der zugehörigen Protokolle.
-
+objectives:
+- Verstehen der Kernkonzepte und der Technologie, die Bitcoin zugrunde liegen.
+- Erwerben Sie praktische Fähigkeiten in den Bereichen Bitcoin-Sicherheit, Softwareentwicklung und Netzwerkverwaltung.
+- Beherrschung des Lightning Network und der zugehörigen Protokolle.
 ---
+# Eine Reise in die CUBO+ Entwicklungskurse für Bitcoin!
 
-Willkommen bei den Cubo+ Entwicklungskursen für Bitcoin!
+Was braucht es, um auf Bitcoin aufzubauen? Dieser 20-stündige Kurs führt Sie unter die Oberfläche von Bitcoin und dem Lightning Network und erkundet die Protokolle, die die widerstandsfähigste Finanzinfrastruktur der Welt antreiben. Ob Sie zu Open-Source-Projekten beitragen oder die nächste Generation von Bitcoin-Anwendungen entwickeln möchten – Sie erhalten die technische Tiefe, die Sie benötigen, um selbstbewusst in diesem Ökosystem zu arbeiten.
 
-
-In den nächsten 20 Stunden werden Sie tief in die BTC- und LN-Protokolle eintauchen. Dieser Kurs richtet sich an Programmierer, die mit der Arbeit im BTC-Ökosystem beginnen wollen und ein solides Verständnis der verschiedenen Technologie-Stacks von BTC und LN anstreben.
-
-
-Die Videos wurden live während des CUBO+ 2023-Bootcamps in El Salvador aufgezeichnet, und es gelang, weltbekannte Lehrer zusammenzubringen. Dieser Kurs wurde dank der Großzügigkeit von Fulgure Venture und der gemeinsamen Bemühungen der Lehrer, des Bitcoin-Büros, DecouvreBitcoin und vieler anderer Akteure kostenlos angeboten.
-
-
-Viel Spaß!
-
-
+Aufgezeichnet während des CUBO+ 2023 Bootcamps in El Salvador, vereint dieser Kurs Perspektiven führender Bitcoin-Entwickler und Pädagogen, die die Technologie geprägt haben. Das Beste daran? Er ist völlig kostenlos, ermöglicht durch Fulgure Venture, das Bitcoin Office und DecouvreBitcoin. Wenn Sie neugierig waren, wie Bitcoin wirklich auf Protokollebene funktioniert, ist dies Ihre Chance, es herauszufinden.
 +++
-
 # Einführung und vorbereitende Kurse
 
 

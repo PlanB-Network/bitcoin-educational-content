@@ -1,28 +1,17 @@
 ---
-name: Bitcoin Development Accelerator
+name: Osnove Bitcoin razvoja
 goal: Steknite sve osnove za početak razvoja na Bitcoin
-objectives: 
-
-  - Razumeti osnovne pojmove i tehnologiju koja podržava Bitcoin.
-  - Steknite praktične veštine u Bitcoin bezbednosti, razvoju softvera i upravljanju mrežom.
-  - Razvijte majstorstvo nad Lightning Network i njegovim povezanim protokolima.
-
+objectives:
+- Razumeti osnovne pojmove i tehnologiju koja podržava Bitcoin.
+- Steknite praktične veštine u Bitcoin bezbednosti, razvoju softvera i upravljanju mrežom.
+- Razvijte majstorstvo nad Lightning Network i njegovim povezanim protokolima.
 ---
+# Putovanje u CUBO+ razvojne kurseve za Bitcoin!
 
-Dobrodošli na Cubo+ razvojne kurseve za Bitcoin!
+Šta je potrebno da biste gradili na Bitcoinu? Ovaj 20-časovni kurs vas vodi ispod površine Bitcoina i Lightning mreže, istražujući protokole koji pokreću najotporniju finansijsku infrastrukturu na svetu. Bilo da želite da doprinosite open-source projektima ili da gradite novu generaciju Bitcoin aplikacija, steći ćete tehničku dubinu potrebnu da počnete da radite sa samopouzdanjem u ovom ekosistemu.
 
-
-Tokom narednih 20 sati, uronićete duboko u BTC i LN protokole. Ovaj kurs je dizajniran za programere koji žele da počnu raditi u BTC ekosistemu i traže solidno razumevanje različitih tehnoloških slojeva BTC i LN.
-
-
-Video snimci su uživo zabeleženi tokom CUBO+ 2023 bootcampa u El Salvadoru i uspeli su da okupe svetski poznate predavače. Ovaj kurs je ponuđen besplatno zahvaljujući velikodušnosti Fulgure Venture i zajedničkim naporima predavača, kancelarije Bitcoin, DecouvreBitcoin i mnogih drugih aktera.
-
-
-Uživaj!
-
-
+Snimljen tokom CUBO+ 2023 bootcamp-a u El Salvadoru, ovaj kurs okuplja perspektive vodećih Bitcoin programera i edukatora koji su oblikovali tehnologiju. Najbolji deo? Potpuno je besplatan, omogućen zahvaljujući Fulgure Venture, Bitcoin Office i DecouvreBitcoin. Ako ste bili radoznali o tome kako Bitcoin zaista funkcioniše na nivou protokola, ovo je vaša prilika da saznate.
 +++
-
 # Uvodni i pripremni kursevi
 
 

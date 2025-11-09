@@ -1,28 +1,17 @@
 ---
-name: Accélérateur de développement Bitcoin
+name: Fondamentaux du développement Bitcoin
 goal: Acquérir toutes les bases pour commencer à développer sur Bitcoin
-objectives: 
-
-  - Comprendre les concepts de base et la technologie qui sous-tendent Bitcoin.
-  - Acquérir des compétences pratiques en matière de sécurité Bitcoin, de développement de logiciels et de gouvernance des réseaux.
-  - Développer une maîtrise du Lightning Network et de ses protocoles associés.
-
+objectives:
+- Comprendre les concepts de base et la technologie qui sous-tendent Bitcoin.
+- Acquérir des compétences pratiques en matière de sécurité Bitcoin, de développement de logiciels et de gouvernance des réseaux.
+- Développer une maîtrise du Lightning Network et de ses protocoles associés.
 ---
+# Un voyage dans les cours de développement CUBO+ pour Bitcoin !
 
-Bienvenue dans les cours de développement Cubo+ pour Bitcoin !
+Que faut-il pour construire sur Bitcoin ? Ce cours de 20 heures vous emmène sous la surface de Bitcoin et du Lightning Network, explorant les protocoles qui alimentent l'infrastructure financière la plus résiliente au monde. Que vous cherchiez à contribuer à des projets open-source ou à construire la prochaine génération d'applications Bitcoin, vous acquerrez la profondeur technique nécessaire pour commencer à travailler avec confiance dans cet écosystème.
 
-
-Au cours des 20 prochaines heures, vous plongerez dans les protocoles BTC et LN. Ce cours est conçu pour les programmeurs qui veulent commencer à travailler dans l'écosystème BTC et qui cherchent à acquérir une solide compréhension des différentes piles technologiques de BTC et LN.
-
-
-Les vidéos ont été enregistrées en direct lors du bootcamp CUBO+ 2023 au Salvador et ont réussi à réunir des professeurs de renommée mondiale. Ce cours a été offert gratuitement grâce à la générosité de Fulgure Venture et aux efforts de collaboration des enseignants, du bureau Bitcoin, de DecouvreBitcoin et de nombreux autres acteurs.
-
-
-Bonne lecture !
-
-
+Enregistré lors du bootcamp CUBO+ 2023 au Salvador, ce cours rassemble les perspectives de développeurs et d'éducateurs Bitcoin de premier plan qui ont façonné la technologie. Le meilleur ? Il est entièrement gratuit, rendu possible par Fulgure Venture, le Bitcoin Office et DecouvreBitcoin. Si vous avez été curieux de savoir comment Bitcoin fonctionne réellement au niveau du protocole, c'est votre chance de le découvrir.
 +++
-
 # Introduction et cours préparatoires
 
 

@@ -1,28 +1,17 @@
 ---
-name: Bitcoin arenduskiirendi
+name: Bitcoini arenduse alused
 goal: Omandada kõik alused, et alustada Bitcoin arendamist
-objectives: 
-
-  - Mõista Bitcoin aluseks olevaid põhimõisteid ja tehnoloogiat.
-  - Praktiliste oskuste omandamine Bitcoin turvalisuse, tarkvaraarenduse ja võrgu haldamise valdkonnas.
-  - Lightning Network ja sellega seotud protokollide valdamine.
-
+objectives:
+- Mõista Bitcoin aluseks olevaid põhimõisteid ja tehnoloogiat.
+- Praktiliste oskuste omandamine Bitcoin turvalisuse, tarkvaraarenduse ja võrgu haldamise valdkonnas.
+- Lightning Network ja sellega seotud protokollide valdamine.
 ---
+# Teekond CUBO+ arenduskursustesse Bitcoini jaoks!
 
-Tere tulemast Bitcoin Cubo+ arenduskursustele!
+Mida on vaja Bitcoinil ehitamiseks? See 20-tunnine kursus viib teid Bitcoin'i ja Lightning Network'i pinna alla, uurides protokolle, mis toitavad maailma vastupidavamat finantstaristut. Olenemata sellest, kas soovite panustada avatud lähtekoodiga projektidesse või ehitada järgmise põlvkonna Bitcoin'i rakendusi, omandате tehnilise sügavuse, mis on vajalik selles ökosüsteemis enesekindlalt töötamiseks.
 
-
-Järgmise 20 tunni jooksul sukeldute sügavale BTC ja LN protokollidesse. See kursus on mõeldud programmeerijatele, kes soovivad alustada tööd BTC ökosüsteemis ja soovivad saada põhjalikku ülevaadet BTC ja LN erinevatest tehnoloogilistest korpustest.
-
-
-Videod salvestati otseülekandena CUBO+ 2023 bootcampi ajal El Salvadoris, kus õnnestus kokku tuua maailmakuulsaid õpetajaid. Seda kursust pakuti tasuta tänu Fulgure Venture'i suuremeelsusele ja õpetajate, Bitcoin büroo, DecouvreBitcoini ja paljude teiste osalejate koostööle.
-
-
-Nautige!
-
-
+Salvestatud CUBO+ 2023 laagri ajal El Salvadoris, toob see kursus kokku juhtivate Bitcoin'i arendajate ja haridustegelaste vaatenurgad, kes on tehnoloogiat kujundanud. Parim osa? See on täiesti tasuta, võimaldatud Fulgure Venture'i, Bitcoin Office'i ja DecouvreBitcoin'i poolt. Kui olete olnud uudishimulik, kuidas Bitcoin protokolli tasemel tegelikult töötab, on see teie võimalus seda välja selgitada.
 +++
-
 # Sissejuhatus ja ettevalmistavad kursused
 
 

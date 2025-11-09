@@ -857,11 +857,11 @@ Qualsiasi soluzione veramente positiva per la privacy dell'utente deve essere di
 
 ## Per andare oltre:
 
-- Comprendere e utilizzare il CoinJoin su Bitcoin.
+- comprendere e utilizzare il CoinJoin su Bitcoin;
 
-- Comprendere i percorsi di derivazione di un wallet Bitcoin.
+- comprendere i percorsi di derivazione di un wallet Bitcoin;
 
-- Installare e utilizzare il proprio nodo Bitcoin RoninDojo.
+- installare e utilizzare il proprio nodo Bitcoin RoninDojo.
 
 ### Risorse esterne e ringraziamenti:
 

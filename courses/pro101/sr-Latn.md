@@ -2,9 +2,10 @@
 name: Osnove Bitcoin razvoja
 goal: Steknite sve osnove za početak razvoja na Bitcoin
 objectives:
-- Razumeti osnovne pojmove i tehnologiju koja podržava Bitcoin.
-- Steknite praktične veštine u Bitcoin bezbednosti, razvoju softvera i upravljanju mrežom.
-- Razvijte majstorstvo nad Lightning Network i njegovim povezanim protokolima.
+- Razumeti osnovne koncepte i tehnologiju koja stoji iza Bitcoina
+- Steći praktične veštine u Bitcoin bezbednosti, razvoju softvera i upravljanju mrežom
+- Razviti majstorstvo u Lightning Network-u i povezanim protokolima
+- Otkriti kriptografske principe koji stoje u osnovi bezbednosti transakcija i integriteta mreže
 ---
 # Putovanje u CUBO+ razvojne kurseve za Bitcoin!
 

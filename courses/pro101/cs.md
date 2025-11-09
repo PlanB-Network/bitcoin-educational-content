@@ -2,9 +2,10 @@
 name: Základy vývoje Bitcoinu
 goal: Získání všech základů pro zahájení vývoje na Bitcoin
 objectives:
-- Porozumět základním konceptům a technologiím, na nichž je Bitcoin založen.
-- Získejte praktické dovednosti v oblasti zabezpečení Bitcoin, vývoje softwaru a správy sítí.
-- Zvládnout systém Lightning Network a související protokoly.
+- Pochopit základní koncepty a technologii, na které je Bitcoin postaven
+- Získat praktické dovednosti v oblasti zabezpečení Bitcoinu, vývoje softwaru a správy sítě
+- Rozvinout mistrovství v Lightning Network a souvisejících protokolech
+- Objevit kryptografické principy, které jsou základem zabezpečení transakcí a integrity sítě
 ---
 # Cesta do vývojářských kurzů CUBO+ pro Bitcoin!
 

@@ -2,9 +2,10 @@
 name: Fondamenti dello sviluppo Bitcoin
 goal: Acquisire tutte le basi per iniziare a sviluppare su Bitcoin
 objectives:
-- Comprendere i concetti fondamentali e la tecnologia alla base del Bitcoin.
-- Acquisire competenze pratiche in materia di sicurezza Bitcoin, sviluppo software e governance di rete.
-- Sviluppare la padronanza del Lightning Network e dei protocolli associati.
+- Comprendere i concetti fondamentali e la tecnologia alla base di Bitcoin
+- Acquisire competenze pratiche nella sicurezza di Bitcoin, nello sviluppo software e nella governance della rete
+- Sviluppare una padronanza del Lightning Network e dei suoi protocolli associati
+- Scoprire i principi crittografici alla base della sicurezza delle transazioni e dell'integrità della rete
 ---
 # Un viaggio nei corsi di sviluppo CUBO+ per Bitcoin!
 

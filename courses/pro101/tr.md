@@ -2,9 +2,10 @@
 name: Bitcoin Geliştirme Temelleri
 goal: Bitcoin'de geliştirmeye başlamak için tüm temelleri edinin
 objectives:
-- Bitcoin'nin altında yatan temel kavramları ve teknolojiyi anlamak.
-- Bitcoin güvenliği, yazılım geliştirme ve ağ yönetişimi konularında pratik beceriler kazanın.
-- Lightning Network ve ilgili protokollerine hakimiyet geliştirin.
+- Bitcoin'in temelini oluşturan temel kavramları ve teknolojiyi anlamak
+- Bitcoin güvenliği, yazılım geliştirme ve ağ yönetişiminde pratik beceriler kazanmak
+- Lightning Network ve ilişkili protokollerde ustalık geliştirmek
+- İşlem güvenliği ve ağ bütünlüğünün temelini oluşturan kriptografik ilkeleri keşfetmek
 ---
 # Bitcoin için CUBO+ geliştirme kurslarına bir yolculuk!
 

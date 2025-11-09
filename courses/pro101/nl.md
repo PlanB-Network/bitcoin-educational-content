@@ -2,9 +2,10 @@
 name: Grondbeginselen van Bitcoin-ontwikkeling
 goal: Alle fundamenten verwerven om te beginnen met ontwikkelen op Bitcoin
 objectives:
-- De kernconcepten en technologie begrijpen die Bitcoin ondersteunen.
-- Praktische vaardigheden opdoen in Bitcoin beveiliging, softwareontwikkeling en netwerkbeheer.
-- Beheersing van Lightning Network en de bijbehorende protocollen.
+- De kernconcepten en technologie begrijpen die ten grondslag liggen aan Bitcoin
+- Praktische vaardigheden verwerven in Bitcoin-beveiliging, softwareontwikkeling en netwerkbeheer
+- Een beheersing ontwikkelen van het Lightning Network en de bijbehorende protocollen
+- Cryptografische principes ontdekken die ten grondslag liggen aan transactiebeveiliging en netwerkintegriteit
 ---
 # Een reis in CUBO+ ontwikkelingscursussen voor Bitcoin!
 

@@ -2,9 +2,10 @@
 name: Grunnleggende Bitcoin-utvikling
 goal: Skaff deg alt grunnlaget for å starte utviklingen på Bitcoin
 objectives:
-- Forstå kjernekonseptene og teknologien som ligger til grunn for Bitcoin.
-- Få praktiske ferdigheter innen Bitcoin-sikkerhet, programvareutvikling og nettverksstyring.
-- Utvikle en mestring av Lightning Network og tilhørende protokoller.
+- Forstå kjernekonseptene og teknologien som ligger til grunn for Bitcoin
+- Tilegne seg praktiske ferdigheter i Bitcoin-sikkerhet, programvareutvikling og nettverksstyring
+- Utvikle mestring av Lightning Network og tilhørende protokoller
+- Oppdage kryptografiske prinsipper som ligger til grunn for transaksjonssikkerhet og nettverksintegritet
 ---
 # En reise inn i CUBO+ utviklingskurs for Bitcoin!
 

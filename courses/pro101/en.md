@@ -2,9 +2,10 @@
 name: Bitcoin Development Foundamentals
 goal: Acquire all the foundations to start developing on Bitcoin
 objectives:
-- Understand the core concepts and technology underpinning Bitcoin.
-- Gain practical skills in Bitcoin security, software development, and network governance.
-- Develop a mastery of the Lightning Network and its associated protocols.
+- Understand the core concepts and technology underpinning Bitcoin
+- Gain practical skills in Bitcoin security, software development, and network governance
+- Develop a mastery of the Lightning Network and its associated protocols
+- Discover cryptographic principles underlying transaction security and network integrity
 ---
 # A journey into CUBO+ development courses for Bitcoin!
 

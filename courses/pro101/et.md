@@ -2,9 +2,10 @@
 name: Bitcoini arenduse alused
 goal: Omandada kõik alused, et alustada Bitcoin arendamist
 objectives:
-- Mõista Bitcoin aluseks olevaid põhimõisteid ja tehnoloogiat.
-- Praktiliste oskuste omandamine Bitcoin turvalisuse, tarkvaraarenduse ja võrgu haldamise valdkonnas.
-- Lightning Network ja sellega seotud protokollide valdamine.
+- Mõista Bitcoini aluseks olevaid põhikontseptsioone ja tehnoloogiat
+- Omandada praktilisi oskusi Bitcoini turvalisuses, tarkvaraarenduses ja võrgu juhtimises
+- Arendada Lightning Network'i ja sellega seotud protokollide valdamist
+- Avastada krüptograafilisi põhimõtteid, mis tagavad tehingute turvalisuse ja võrgu terviklikkuse
 ---
 # Teekond CUBO+ arenduskursustesse Bitcoini jaoks!
 

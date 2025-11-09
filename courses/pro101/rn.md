@@ -2,9 +2,10 @@
 name: Ibanze by'iterambere rya Bitcoin
 goal: Uronke imishinge yose kugira utangure gutera imbere kuri Bitcoin.
 objectives:
-- Gutahura ivyiyumviro nyamukuru n'ubuhinga bushingiye kuri Bitcoin.
-- Kuronka ubuhinga ngirakamaro mu bijanye n’umutekano wa Bitcoin, gutegura porogarama, no kurongora urubuga.
-- Gutegura ubuhinga bwo gukoresha Lightning Network n’amategeko ajanye na yo.
+- Gusobanukirwa ibitekerezo by'ingenzi n'ikoranabuhanga rishingiye kuri Bitcoin
+- Kubona ubumenyi bwo gukora mu mutekano wa Bitcoin, iterambere rya software, n'imiyoborere y'urusobe
+- Guteza imbere ubushobozi bwo kumenya Lightning Network na protocole zayo
+- Kuvumbura amahame ya cryptographic ashingiye ku mutekano w'ibikorwa n'ubunyangamugayo bw'urusobe
 ---
 # Urugendo mu masomo y'iterambere rya CUBO+ kuri Bitcoin!
 

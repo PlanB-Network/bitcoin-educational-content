@@ -2,9 +2,10 @@
 name: Grunderna i Bitcoin-utveckling
 goal: Förvärva alla grunder för att börja utveckla på Bitcoin
 objectives:
-- Förstå de centrala begrepp och den teknik som ligger till grund för Bitcoin.
-- Få praktiska färdigheter inom Bitcoin-säkerhet, programvaruutveckling och nätverksstyrning.
-- Utveckla en behärskning av Lightning Network och dess tillhörande protokoll.
+- Förstå kärnkoncepten och teknologin som ligger till grund för Bitcoin
+- Skaffa praktiska färdigheter inom Bitcoin-säkerhet, mjukvaruutveckling och nätverksstyrning
+- Utveckla en behärskning av Lightning Network och dess tillhörande protokoll
+- Upptäcka kryptografiska principer som ligger till grund för transaktionssäkerhet och nätverksintegritet
 ---
 # En resa in i CUBO+ utvecklingskurser för Bitcoin!
 

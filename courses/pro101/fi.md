@@ -2,9 +2,10 @@
 name: Bitcoinin kehityksen perusteet
 goal: Hanki kaikki perusteet Bitcoin:n kehittämisen aloittamiseksi
 objectives:
-- Ymmärtää Bitcoin:n perustana olevat keskeiset käsitteet ja teknologia.
-- Hanki käytännön taitoja Bitcoin:n tietoturvasta, ohjelmistokehityksestä ja verkon hallinnasta.
-- Lightning Network:n ja siihen liittyvien protokollien hallinta.
+- Ymmärtää Bitcoinin peruskäsitteet ja taustalla oleva teknologia
+- Hankkia käytännön taitoja Bitcoin-turvallisuudessa, ohjelmistokehityksessä ja verkon hallinnossa
+- Kehittää Lightning Networkin ja siihen liittyvien protokollien hallinta
+- Löytää kryptografiset periaatteet, jotka tukevat transaktioturvallisuutta ja verkon eheyttä
 ---
 # Matka CUBO+ kehityskursseihin Bitcoinille!
 

@@ -2,9 +2,10 @@
 name: Podstawy rozwoju Bitcoina
 goal: Zdobądź wszystkie fundamenty, aby rozpocząć rozwój na Bitcoin
 objectives:
-- Zrozumienie podstawowych koncepcji i technologii leżących u podstaw Bitcoin.
-- Zdobądź praktyczne umiejętności w zakresie bezpieczeństwa Bitcoin, rozwoju oprogramowania i zarządzania siecią.
-- Opanowanie Lightning Network i powiązanych z nim protokołów.
+- Zrozumieć podstawowe koncepcje i technologię leżącą u podstaw Bitcoina
+- Zdobyć praktyczne umiejętności w zakresie bezpieczeństwa Bitcoina, rozwoju oprogramowania i zarządzania siecią
+- Rozwinąć biegłość w Lightning Network i powiązanych protokołach
+- Odkryć zasady kryptograficzne leżące u podstaw bezpieczeństwa transakcji i integralności sieci
 ---
 # Podróż do kursów programistycznych CUBO+ dla Bitcoina!
 

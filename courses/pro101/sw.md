@@ -2,9 +2,10 @@
 name: Misingi ya Maendeleo ya Bitcoin
 goal: Pata misingi yote ya kuanza kuendeleza kwenye Bitcoin
 objectives:
-- Elewa dhana za msingi na teknolojia inayosimamia Bitcoin.
-- Pata ujuzi wa vitendo katika usalama wa Bitcoin, ukuzaji wa programu, na usimamizi wa mtandao.
-- Kuendeleza umilisi wa Lightning Network na protocol zake zinazohusiana.
+- Kuelewa dhana za msingi na teknolojia inayotegemeza Bitcoin
+- Kupata ujuzi wa vitendo katika usalama wa Bitcoin, utengenezaji wa programu, na utawala wa mtandao
+- Kuendeleza ustadi wa Lightning Network na itifaki zake zinazohusiana
+- Kugundua kanuni za kriptografia zinazotegemeza usalama wa miamala na uadilifu wa mtandao
 ---
 # Safari katika kozi za maendeleo ya CUBO+ kwa ajili ya Bitcoin!
 

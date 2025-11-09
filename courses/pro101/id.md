@@ -2,9 +2,10 @@
 name: Dasar-dasar Pengembangan Bitcoin
 goal: Dapatkan semua fondasi untuk mulai mengembangkan Bitcoin
 objectives:
-- Memahami konsep inti dan teknologi yang mendasari Bitcoin.
-- Dapatkan keterampilan praktis dalam keamanan Bitcoin, pengembangan perangkat lunak, dan tata kelola jaringan.
-- Kembangkan penguasaan Lightning Network dan protokol terkait.
+- Memahami konsep inti dan teknologi yang mendasari Bitcoin
+- Memperoleh keterampilan praktis dalam keamanan Bitcoin, pengembangan perangkat lunak, dan tata kelola jaringan
+- Mengembangkan penguasaan Lightning Network dan protokol terkaitnya
+- Menemukan prinsip kriptografi yang mendasari keamanan transaksi dan integritas jaringan
 ---
 # Sebuah perjalanan ke kursus pengembangan CUBO+ untuk Bitcoin!
 

@@ -2,9 +2,10 @@
 name: Grundlagen der Bitcoin-Entwicklung
 goal: Erwerben Sie alle Grundlagen, um mit der Entwicklung auf Bitcoin zu beginnen
 objectives:
-- Verstehen der Kernkonzepte und der Technologie, die Bitcoin zugrunde liegen.
-- Erwerben Sie praktische Fähigkeiten in den Bereichen Bitcoin-Sicherheit, Softwareentwicklung und Netzwerkverwaltung.
-- Beherrschung des Lightning Network und der zugehörigen Protokolle.
+- Die Kernkonzepte und Technologie verstehen, die Bitcoin zugrunde liegen
+- Praktische Fähigkeiten in Bitcoin-Sicherheit, Softwareentwicklung und Netzwerk-Governance erwerben
+- Eine Beherrschung des Lightning Network und seiner zugehörigen Protokolle entwickeln
+- Kryptografische Prinzipien entdecken, die der Transaktionssicherheit und Netzwerkintegrität zugrunde liegen
 ---
 # Eine Reise in die CUBO+ Entwicklungskurse für Bitcoin!
 

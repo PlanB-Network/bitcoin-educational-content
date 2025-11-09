@@ -2,9 +2,10 @@
 name: Kiến thức cơ bản về phát triển Bitcoin
 goal: Chuẩn bị đầy đủ các nền tảng để bắt đầu phát triển trên Bitcoin
 objectives:
-- Hiểu các khái niệm cốt lõi và công nghệ hỗ trợ Bitcoin.
-- Rèn luyện các kỹ năng thực tế về bảo mật Bitcoin, phát triển phần mềm và quản trị mạng.
-- Phát triển khả năng thành thạo Lightning Network và các giao thức liên quan.
+- Hiểu các khái niệm cốt lõi và công nghệ nền tảng của Bitcoin
+- Đạt được các kỹ năng thực tế về bảo mật Bitcoin, phát triển phần mềm và quản trị mạng
+- Phát triển sự thành thạo về Lightning Network và các giao thức liên quan
+- Khám phá các nguyên tắc mật mã làm nền tảng cho bảo mật giao dịch và tính toàn vẹn của mạng
 ---
 # Hành trình khám phá các khóa học phát triển CUBO+ cho Bitcoin!
 

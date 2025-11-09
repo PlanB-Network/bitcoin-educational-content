@@ -1,14 +1,12 @@
 ---
-name: Lightning Network에 대한 이론적 소개
+name: 라이트닝 네트워크 이론
 goal: 기술적 관점에서 바라본 Lightning Network 알아보기
-objectives: 
-
-  - 네트워크 채널의 운영을 이해합니다.
-  - HTLC, LNURL 및 UTXO이라는 용어를 숙지하세요.
-  - 유동성 관리와 LNN의 수수료를 통합합니다.
-  - Lightning Network를 네트워크로 인식합니다.
-  - Lightning Network의 이론적 용도를 이해합니다.
-
+objectives:
+- 네트워크 채널의 운영을 이해합니다.
+- HTLC, LNURL 및 UTXO이라는 용어를 숙지하세요.
+- 유동성 관리와 LNN의 수수료를 통합합니다.
+- Lightning Network를 네트워크로 인식합니다.
+- Lightning Network의 이론적 용도를 이해합니다.
 ---
 
 # Bitcoin의 두 번째 Layer로의 여정

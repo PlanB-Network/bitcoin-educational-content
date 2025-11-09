@@ -1,35 +1,18 @@
 ---
 name: Spinoza na Bitcoin
 goal: Gundua viungo vya kifalsafa kati ya mawazo ya Spinoza na Bitcoin kama zana za uhuru kwa karne nyingi.
-objectives: 
-
-
-  - Kuelewa falsafa ya vitendo ya Spinoza na jitihada zake za uhuru.
-  - Kuchunguza dhana za Spinozist za uamuzi na udanganyifu wa kibinadamu.
-  - Kuchambua ulinganifu kati ya mapinduzi ya mawazo ya Spinoza na mapinduzi ya kiteknolojia ya Bitcoin.
-
-
-
+objectives:
+- Kuelewa falsafa ya vitendo ya Spinoza na utafutaji wake wa uhuru.
+- Kuchunguza dhana za Spinoza za udhibiti na udanganyifu wa kibinadamu.
+- Kuchambua mfanano kati ya mapinduzi ya mawazo ya Spinoza na mapinduzi ya teknolojia ya Bitcoin.
+- Kutumia nadharia ya hisia kutambua na kupinga udanganyifu katika mifumo ya kisiasa.
 ---
+# Wakati Spinoza Alikutana na Satoshi
 
-# Uchunguzi wa kifalsafa wa uhuru kupitia Spinoza na Bitcoin
+Gundua jinsi mawazo ya kigeugeu ya mwanafalsafa wa karne ya 17 Baruch de Spinoza kuhusu uhuru, busara, na nguvu yanavyotabiri mapinduzi ya Bitcoin yenye usambazaji. Kozi hii inafunua mfanano wa kushangaza: wote wanakataa imani isiyokuwa na msingi na mamlaka ya kati, wote wanatumia uthabiti wa kihesabu ili kukomboa. Spinoza alikomboa akili kutoka kwa imani za kidini, Bitcoin inakomboa pesa kutoka kwa udhibiti wa serikali.
 
-
-
-Kozi hii inachunguza uhusiano wa kina kati ya falsafa ya kimapinduzi ya Baruch de Spinoza (1632-1677) na Bitcoin, zana mbili za uhuru zilizotenganishwa kwa karne nyingi lakini zilizounganishwa na jitihada sawa: ukombozi wa binadamu kutoka kwa utumwa.
-
-
-
-Tutagundua jinsi Spinoza, baba wa falsafa ya Kutaalamika, alivyokuza maadili ya vitendo ili kutuweka huru kutokana na udanganyifu unaotufunga - hiari, umaliziaji na ushirikina wa kitheolojia. Mbinu yake ya kijiometri na nadharia ya athari inatuonyesha jinsi ya kuelewa mahali petu ulimwenguni na kuelekeza uwepo wetu kwa kile kinachoongeza nguvu zetu za kutenda.
-
-
-
-Kisha kozi huchota ulinganifu wa kuvutia kati ya mapinduzi haya ya Copernican ya mawazo na Bitcoin: mifumo miwili ambayo haihitaji imani kipofu wala mamlaka kuu, lakini tu matumizi ya akili. Kama vile Spinozism ilivyokomboa mawazo kutoka kwa mafundisho ya kidini, Bitcoin hukomboa pesa kutoka kwa udhibiti wa serikali, ikitoa aina mpya ya uhuru wa kiuchumi unaotokana na hisabati na cryptography.
-
-
-
+Jifunze zana za vitendo kutoka kwa maadili ya Spinoza ili kuelewa misingi ya kifalsafa ya bitcoin na kuongeza uwezo wako. Je, uko tayari kuchunguza vifaa viwili vya ukombozi wa binadamu vikubwa zaidi katika historia?
 +++
-
 # Utangulizi
 
 

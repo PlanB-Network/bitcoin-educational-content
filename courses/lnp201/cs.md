@@ -1,12 +1,12 @@
 ---
-name: Teoretický úvod do Lightning Network
+name: Teorie Lightning Network
 goal: Objevte Lightning Network z technické perspektivy
 objectives:
-  - Porozumět fungování kanálů sítě.
-  - Seznámit se s termíny HTLC, LNURL a UTXO.
-  - Pochopit správu likvidity a poplatky LNN.
-  - Rozpoznat Lightning Network jako síť.
-  - Porozumět teoretickým využitím Lightning Network.
+- Porozumět fungování kanálů sítě.
+- Seznámit se s termíny HTLC, LNURL a UTXO.
+- Pochopit správu likvidity a poplatky LNN.
+- Rozpoznat Lightning Network jako síť.
+- Porozumět teoretickým využitím Lightning Network.
 ---
 
 # Cesta k druhé vrstvě Bitcoinu

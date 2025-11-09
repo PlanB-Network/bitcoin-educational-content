@@ -1,12 +1,12 @@
 ---
-name: Giới thiệu lý thuyết về Lightning Network
+name: Lý thuyết Lightning Network
 goal: Khám phá Lightning Network từ góc độ kỹ thuật
 objectives:
-  - Hiểu về cách hoạt động của các kênh trong mạng.
-  - Làm quen với các thuật ngữ HTLC, LNURL, và UTXO.
-  - Tiếp thu cách quản lý tính thanh khoản và phí của LNN.
-  - Nhận biết Lightning Network như một mạng lưới.
-  - Hiểu về các ứng dụng lý thuyết của Lightning Network.
+- Hiểu về cách hoạt động của các kênh trong mạng.
+- Làm quen với các thuật ngữ HTLC, LNURL, và UTXO.
+- Tiếp thu cách quản lý tính thanh khoản và phí của LNN.
+- Nhận biết Lightning Network như một mạng lưới.
+- Hiểu về các ứng dụng lý thuyết của Lightning Network.
 ---
 
 # Hành trình đến tầng thứ hai của Bitcoin

@@ -1581,11 +1581,11 @@ So that's the definition Saifedean mentions in The Bitcoin Standard. I would add
 ### Scarcity and market mechanisms
 
 
-To this, I think we should definitely add that the monetary good must be scarce enough for the monetary premium to subsist. This is very important. **If a good emerges to be used as money and we see that its price is going up, normally, if the good isn't rare enough, people will want to produce more of it to take advantage of this gain in value when the price goes up**. This is why most goods on the market have a relatively fixed price. When the price rises, production tends to increase. When the price falls, production falls. There's a kind of market adjustment. **And when a good is rare enough, like gold, the market mechanism won't compensate for this increased demand for monetary use**. **So it's the variable that changes, it's the price. As with Bitcoin**. When the price of Bitcoin goes up, we don't produce more Bitcoin. So what adjusts is the price. And that's why, for years, we've seen the price of Bitcoin rise as demand for Bitcoin increases. Since there's nobody on Earth who can change the algorithm and say "there's more demand, the price is going up, we're going to produce more, **the supply of new Bitcoins is programmed in advance, and known in advance**. So that's what I was saying, that the monetary good must be rare enough for the monetary premium to persist, and therefore not be caught up by market mechanisms, to prevent the supply from adjusting to this new monetary demand.
+To this, I think we should definitely add that the monetary good must be scarce enough for the monetary premium to subsist. This is very important. **If a good emerges to be used as money and we see that its price is going up, normally, if the good isn't rare enough, people will want to produce more of it to take advantage of this gain in value when the price goes up**. This is why most goods on the market have a relatively fixed price. When the price rises, production tends to increase. When the price falls, production falls. There's a kind of market adjustment. **And when a good is rare enough, like gold, the market mechanism won't compensate for this increased demand for monetary use. So it's the variable that changes, it's the price. As with bitcoin**. When the price of bitcoin goes up, we don't produce more bitcoin. So what adjusts is the price. And that's why, for years, we've seen the price of bitcoin rise as demand for bitcoin increases. Since there's nobody on Earth who can change the algorithm and say "there's more demand, the price is going up, we're going to produce more." **The supply of new bitcoins is programmed in advance, and known in advance**. So that's what I was saying, that the monetary good must be rare enough for the monetary premium to persist, and therefore not be caught up by market mechanisms, to prevent the supply from adjusting to this new monetary demand.
 
 
 
-## Means of payment and discharge value
+## Means of payment and liberatory value
 
 <chapterId>5d424039-e342-56f7-9d8b-bba9551831a9</chapterId>
 
@@ -1597,7 +1597,7 @@ To this, I think we should definitely add that the monetary good must be scarce 
 In this section dedicated to the different definitions of money, I suggest we look together at a quotation from the book "Aux origines de la monnaie" (The Origins of Money), a text by Alain Testart on the subject of money as a means of payment and a liberatory value.
 
 
-*From Aux origines de la monnaie Alain Testart defines money as a means of payment:*
+*From Aux origines de la monnaie, Alain Testart defines money as a means of payment:*
 
 
 > The function of means of payment is conceived here as distinct from the function of means of exchange, insofar as there are payments without consideration, payments that buy nothing. Knies (1873:192 ff.) develops at length this theme of transfers of goods that do not consist in acts of exchange, as in the case of wergeld (blood money or composition for murder) or taxes. Carl Menger attacked this fourth function in his 1892 article "Geld", generally considered one of the most decisive on the subject. Without having been totally discredited, the idea of the function of means of payment seems to have been forgotten in economic thought today, or at least rejected in favor of that of means of exchange.
@@ -1606,19 +1606,19 @@ In this section dedicated to the different definitions of money, I suggest we lo
 > Money is used to pay: seen in this light, it is an instrument of liberation, which describes in all its generality the function of a means of payment. In this respect, we speak of the "liberatory power" of money. According to Le Petit Robert, liberatory power is "that which has the effect of freeing (from an obligation, a debt)". According to the Grand Larousse, a liberatory payment is any "payment made under legal conditions in such a way that the creditor cannot contest the extinction of the debt". Money has this power par excellence; it is even what defines its legal tender status, since no one can refuse a payment made in money, whether seller or creditor. Money is the only good that cannot be refused in payment of what is owed, regardless of whether the debt is owed to a merchant or the taxman. Among all goods, money alone holds this privilege. "It is this privilege," writes Charles. Gide (1921 I: 443), which constitutes what we call legal tender.
 >
 
-> Any exchange consisting of the transfer of one good for another, or on condition that another good is given in return, necessarily implies an obligation on the part of the recipient to provide this consideration. Payment is the fulfilment of this obligation. All exchange therefore implies payment, but not all payment implies exchange. There are payments without consideration, i.e. payments that do not enable another good to be obtained, and are not made for this purpose. Taxes remain the benchmark example here; we should also mention fines of all kinds paid to public authorities, and reparations owed to others on the principle that he who causes damage to others must repair it.
+> Any exchange consisting of the transfer of one good for another, or on condition that another good is given in return, necessarily implies an obligation on the part of the recipient to provide this counterparty. Payment is the fulfilment of this obligation. All exchange therefore implies payment, but not all payment implies exchange. There are payments without counterparty, i.e., payments that do not enable another good to be obtained, and are not made for this purpose. Taxes remain the benchmark example here; we should also mention fines of all kinds paid to public authorities, and reparations owed to others on the principle that he who causes damage to others must repair it.
 
-### Payments without consideration
+### Payments without counterparty
 
 
-This is a clear illustration of the author's thesis. In fact, he distinguishes between the two. For him, an exchange is both a transfer of goods and a payment. Payment comes next. And payment can occur without exchange. He gives examples of how paying a parking ticket or a fine is just a payment. You don't really get a service in exchange. Some may argue that the State is doing you a service in exchange, a service of giving you parking tickets. He's quite clear on the fact that paying taxes is really a payment without consideration, in the sense that paying taxes is required, even if you don't necessarily get a service. He says it's really defined that paying taxes is just a payment, there's no obligation to obtain services in exchange. I've discussed this with many of my colleagues, and they don't necessarily agree with this notion. But that's the author's thesis. He tries to place the notion of payment and to detach it from exchanges with these examples, for example, of PV, tax payment. Also, for example, the dowry, he expresses that the dowry is a payment, you don't necessarily get something in exchange. Someone criticizing this proposal might say "Yes, but you get a wife in exchange." So that's the level of debate on this subject.
+This is a clear illustration of the author's thesis. In fact, he distinguishes between the two. For him, an exchange is both a transfer of goods and a payment. Payment comes next. And payment can occur without exchange. He gives examples of how paying a parking ticket or a fine is just a payment. You don't really get a service in exchange. Some may argue that the State is doing you a service in exchange, a service of giving you parking tickets. He's quite clear on the fact that paying taxes is really a payment without counterparty, in the sense that paying taxes is required, even if you don't necessarily get a service. He says it's really defined that paying taxes is just a payment; there's no obligation to obtain services in exchange. I've discussed this with many of my colleagues, and they don't necessarily agree with this notion. But that's the author's thesis. He tries to place the notion of payment and to detach it from exchanges with these examples, for example, of fine, tax payment. Also, for example, the dowry, he expresses that the dowry is a payment; you don't necessarily get something in exchange. Someone criticizing this proposal might say "Yes, but you get a wife in exchange." So that's the level of debate on this subject.
 
 
 There's also the wergeld, or blood money. So it's just a payment to compensate. My friend Ulrich would say:
 
 > Yes, but you get this file closed in exchange.
 
-So, you've committed a crime, a murder for example, at the time you pay the verguel and after that, well you get release from that situation. So there's a liberating power. Do you get anything in return?" According to the author, no. According to some of my colleagues, yes.
+So, you've committed a crime, a murder for example. At the time, you pay the wergeld, and after that, well you get released from that situation. So there's a liberating power. Do you get anything in return?" According to the author, no. According to some of my colleagues, yes.
 
 
 I think that in this discussion, we can see that the wergeld is one of the good examples to define a payment. In fact, clearly, you don't receive anything in return.
@@ -1634,7 +1634,7 @@ I think that in this discussion, we can see that the wergeld is one of the good 
 ### The fundamental debate
 
 
-Still in the context of this section on different monetary definitions and theories, let's explore together two diametrically opposed visions: "money is always debt" or "money is always a commodity". On the one hand, there are the proponents of debt-based monetary theory, who assert: "No, money is always debt! On the other, our famous gold bugs argue: "But no, you see, money is always a commodity, it's always gold; everything else, bills, IOUs, it's only credit, not money".
+Still in the context of this section on different monetary definitions and theories, let's explore together two diametrically opposed visions: "money is always debt" or "money is always a commodity". On the one hand, there are the proponents of debt-based monetary theory, who assert: "No, money is always debt! On the other side, our famous gold bugs argue: "But no, you see, money is always a commodity, it's always gold; everything else, bills, IOUs, it's only credit, not money".
 
 
 Let's explore a clear summary of these theories together.
@@ -1646,7 +1646,7 @@ Let's explore a clear summary of these theories together.
 Here is a summary of the monetary theory known as **"debt money "**, according to which money is fundamentally a form of debt:
 
 
-According to this theory, developed in particular by Alfred Mitchell-Innes and further developed by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring and settling social obligations or debts between individuals or groups.
+According to this theory, developed in particular by Alfred Mitchell-Innes and further developed by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
 
 
 Thus, all money circulates as a debt owed by one person or institution to another, backed by the trust and social or state authority guaranteeing its validity. So, according to them, when we possess - as I've already mentioned - when we possess money, we have a claim on society, and society owes us a debt. Money is therefore never neutral or autonomous, but always an underlying debt: holding money essentially means owning a claim on society or an economic community.
@@ -1658,7 +1658,7 @@ This reasoning contradicts the classic idea of money as a simple "intermediate c
 **My review:**
 
 
-What bothers me about this theory is that it asserts that money is always a debt, when we have examples of exchanges between two different tribes who, for example, exchange gold, where the transaction is definitively final and no latent debt remains. Proponents of this theory will often tell us that these exchanges are not monetary exchanges, but barter. As already mentioned, I disagree. It is a monetary exchange, since the gold is not going to be consumed, it is going to be used as money.
+What bothers me about this theory is that it asserts that money is always a debt, when we have examples of exchanges between two different tribes who, for example, exchange gold, where the transaction is definitively final and no latent debt remains. Proponents of this theory will often tell us that these exchanges are not monetary exchanges, but barter. As already mentioned, I disagree. It is a monetary exchange, since the gold is not going to be consumed; it is going to be used as money.
 
 
 ### The "always a commodity" theory
@@ -1670,28 +1670,28 @@ What bothers me about this theory is that it asserts that money is always a debt
 Here's a clear summary of the monetary theory known as **"commodity money "**, where money always emerges as a commodity, notably gold, which emerges from a need to be able to trade, a commodity that will generally be accepted abroad and which is acquired for trading purposes.
 
 
-According to this theory, developed by classical economists (Adam Smith, David Ricardo) and taken up by Marx, money emerges naturally as a commodity among others, often a precious metal such as gold or silver, which has an intrinsic value independent of its monetary role. Initially, these commodities are spontaneously chosen by economic players to facilitate trade, thanks to their intrinsic qualities (scarcity, durability, divisibility and stability).
+According to this theory, developed by classical economists (Adam Smith, David Ricardo) and taken up by Marx, money emerges naturally as a commodity among others, often a precious metal such as gold or silver, which has an intrinsic value independent of its monetary role. Initially, these commodities are spontaneously chosen by economic players to facilitate trade, thanks to their intrinsic qualities (scarcity, durability, divisibility, and stability).
 
 
-Commodity money is distinguished by its physical existence and a value determined by the amount of labor socially required to produce it (as in Marx). Society uses gold, for example, not only to simplify barter, but also as a unit of account, a store of value and a universal medium of exchange.
+Commodity money is distinguished by its physical existence and a value determined by the amount of labor socially required to produce it (as in Marx). Society uses gold, for example, not only to simplify barter but also as a unit of account, a store of value, and a universal medium of exchange.
 
 
-In this vision, money always retains a real value, as it remains linked to a tangible commodity. Even when the role of money becomes abstract (minted coins, banknotes or scriptural money), its validity still derives, directly or indirectly, from a reference to an underlying commodity such as gold. This theory therefore insists on the material and economic origin of money, as opposed to theories that regard it as a mere convention or debt. According to this theory, any representation of money by a substitute, such as a bill redeemable in gold, would be credit.
+In this vision, money always retains a real value, as it remains linked to a tangible commodity. Even when the role of money becomes abstract (minted coins, banknotes, or scriptural money), its validity still derives, directly or indirectly, from a reference to an underlying commodity such as gold. This theory therefore insists on the material and economic origin of money, as opposed to theories that regard it as a mere convention or debt. According to this theory, any representation of money by a substitute, such as a bill redeemable in gold, would be credit.
 
 
 **My review:**
 
 
-Note that this vision resembles that of commodity money theory, but goes one step further. They propose that money should **always** be a commodity. And when we say to them: "*yes, but we can agree that a banknote is money for this group, it can be backed by gold, it works, and the banknote as such is money*".
+Note that this vision resembles that of commodity money theory, but goes one step further. They propose that money should **always** be a commodity. And when we say to them: "*Yes, but we can agree that a banknote is money for this group; it can be backed by gold, it works, and the banknote as such is money*".
 
 
 In response, they'll give us the example of the checkroom coupon. They'll say: "Yes, but no, when you have a checkroom coupon for your garment, can we call the cash register coupon a garment?
 
 
-Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a checkroom coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment, it's a mode, a means of exchange, an intermediary of exchange, or a generally accepted means of payment**.
+Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a checkroom coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment; it's a mode, a means of exchange, an intermediary of exchange, or a generally accepted means of payment**.
 
 
-So you can't draw a parallel between a checkroom coupon and a fiat currency bill, since the checkroom coupon allows you to obtain a particular good in exchange, it's a token that allows you to retrieve your good, whereas a banknote, fiat currency, is a universal coupon that allows you access to any good.
+So you can't draw a parallel between a checkroom coupon and a fiat currency bill, since the checkroom coupon allows you to obtain a particular good in exchange, it's a token that allows you to retrieve your good. Whereas a banknote, fiat currency, is a universal coupon that allows you access to any good.
 
 
 And in my opinion, of course, even fiat money can be considered as money if it is considered as such by the population. And I think it's a semantic error to insist that it can't be money, since it's a coupon to obtain real money, at least at the time, which was the underlying gold.

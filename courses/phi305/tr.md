@@ -1,35 +1,18 @@
 ---
 name: Spinoza ve Bitcoin
 goal: Spinoza'nın düşüncesi ile yüzyıllar boyunca özgürlüğün araçları olarak Bitcoin arasındaki felsefi bağlantıları keşfedin.
-objectives: 
-
-
-  - Spinoza'nın pratik felsefesini ve özgürlük arayışını anlamak.
-  - Spinozacı determinizm ve insan yanılsamaları kavramlarının araştırılması.
-  - Spinoza'nın fikir devrimi ile Bitcoin'nin teknolojik devrimi arasındaki paralelliklerin analiz edilmesi.
-
-
-
+objectives:
+- Spinoza'nın pratik felsefesini ve özgürlük arayışını anlamak.
+- Determinizm ve insan yanılsamalarına ilişkin Spinozacı kavramları keşfetmek.
+- Spinoza'nın fikir devrimi ile Bitcoin'in teknolojik devrimi arasındaki paralellikleri analiz etmek.
+- Politik sistemlerdeki manipülasyonu tanımak ve ona direnmek için duygulanım teorisini uygulamak.
 ---
+# Spinoza Satoshi ile Tanıştığında
 
-# Spinoza ve Bitcoin üzerinden özgürlüğe dair felsefi bir keşif
+17. yüzyıl filozofu Baruch de Spinoza'nın özgürlük, akıl ve güç hakkındaki radikal fikirlerinin Bitcoin'in merkezi olmayan devrimini nasıl önceden haber verdiğini keşfedin. Bu kurs çarpıcı paralellikleri ortaya koyuyor: her ikisi de kör inancı ve merkezi otoriteyi reddediyor, her ikisi de özgürleştirmek için matematiksel titizlik kullanıyor. Spinoza zihinleri dini dogmadan özgürleştirdi, Bitcoin parayı devlet kontrolünden özgürleştiriyor.
 
-
-
-Bu ders, Baruch de Spinoza'nın (1632-1677) devrimci felsefesi ile Bitcoin arasındaki derin bağlantıları, yüzyıllarla ayrılmış ancak aynı arayışla birleşmiş iki özgürlük aracını araştırıyor: insanın kölelikten kurtuluşu.
-
-
-
-Rasyonel Aydınlanma felsefesinin babası Spinoza'nın bizi hapseden yanılsamalardan -özgür irade, finalizm ve teolojik hurafelerden- kurtarmak için nasıl pratik bir etik geliştirdiğini keşfedeceğiz. Onun geometrik yöntemi ve etkiler teorisi bize dünyadaki yerimizi nasıl anlayacağımızı ve varlığımızı eyleme gücümüzü artıran şeylere nasıl yönlendireceğimizi gösteriyor.
-
-
-
-Kurs daha sonra bu Kopernik fikir devrimi ile Bitcoin arasında büyüleyici paralellikler kurmaktadır: ne kör inanç ne de merkezi otorite gerektiren, sadece aklın kullanılmasını gerektiren iki sistem. Spinozizmin düşünceyi dini dogmalardan özgürleştirmesi gibi, Bitcoin de parayı devlet kontrolünden kurtararak matematik ve kriptografiye dayanan yeni bir ekonomik özgürlük biçimi sunuyor.
-
-
-
+Bitcoin'in felsefi temellerini anlamak ve özerkliğinizi artırmak için Spinoza'nın etiğinden pratik araçlar öğrenin. Tarihin en büyük iki insan özgürleşme aracını keşfetmeye hazır mısınız?
 +++
-
 # Giriş
 
 

@@ -81,7 +81,7 @@ Cliquez sur cette branche, puis cliquez sur le bouton `New Branch` :
 
 Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `Plan ₿ Academy/bitcoin-educational-content`.
 
-Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. À titre d'exemple, admettons que notre objectif soit de rédiger un tutoriel sur l'utilisation du logiciel Sparrow Wallet. Dans ce cas, la branche de travail dédiée à la rédaction de ce tutoriel pourrait être nommée : `tuto-sparrow-wallet-loic`. Une fois le nom approprié saisi, cliquez sur "Create branch" pour confirmer la création de la branche :
+Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. À titre d'exemple, admettons que notre objectif soit de rédiger un tutoriel sur l'utilisation du logiciel Sparrow Wallet. Dans ce cas, la branche de travail dédiée à la rédaction de ce tutoriel pourrait être nommée : `tuto-sparrow-wallet-loic`. Une fois le nom approprié saisi, cliquez sur `Create branch` pour confirmer la création de la branche :
 
 ![TUTO](assets/fr/09.webp)
 

@@ -122,7 +122,7 @@ npm -v
 
 ### 2.4. Installer Pears avec npm
 
-Une fois npm disponible, vous pouvez installer globalement l'interface en ligne de commande (CLI) sur votre système. Cela vous permettra d’exécuter la commande `pear` depuis n’importe quel répertoire.
+Une fois npm disponible, vous pouvez installer globalement l'interface en ligne de commande (CLI) de Pears sur votre système. Cela vous permettra d’exécuter la commande `pear` depuis n’importe quel répertoire.
 
 ```bash
 npm install -g pear
@@ -273,7 +273,7 @@ L’installation de Pears sur macOS est similaire à celle sous Linux, mais elle
 
 Avant l'installation, assurez-vous que *Xcode Command Line Tools* est présent sur votre système. Ce paquet fournit les outils de compilation nécessaires pour Node.js et ses dépendances.
 
-Pour ce faire, ouvrez un terminal avec le raccourcis clavier `Cmd + Esapce`, puis tapez `Terminal` et appuyez sur la touche `Entrée`. Vous pouvez ensuite saisir cette commande dans le terminal pour lancer l'installation :
+Pour ce faire, ouvrez un terminal avec le raccourcis clavier `Cmd + Espace`, puis tapez `Terminal` et appuyez sur la touche `Entrée`. Vous pouvez ensuite saisir cette commande dans le terminal pour lancer l'installation :
 
 ```bash
 xcode-select --install
@@ -324,7 +324,7 @@ node -v
 npm -v
 ```
 
-Les deux commandes doivent retourner un numéro de version.
+Les deux commandes doivent renvoyer un numéro de version.
 
 ### 4.4. Installer Pears avec npm
 

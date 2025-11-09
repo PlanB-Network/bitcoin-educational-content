@@ -1,31 +1,18 @@
 ---
-name: Bitcoin ja BTC Pay Server
-goal: Asenna BTC Pay Server yrityksellesi
-objectives: 
-
-  - Ymmärrä, mikä btcpayserver on.
-  - BTC Pay Serverin itse isännöinti ja konfigurointi.
-  - Käytä btcpayserver päivittäisessä liiketoiminnassa.
-
+name: BTC Pay Serverin hallinta
+goal: Konfiguroi BTC Pay Server -instanssi paikalliselle yritykselle
+objectives:
+- Ymmärtää BTCPay Serverin roolin perusteet maksujen käsittelyssä
+- Hallita BTCPay Serverin konfigurointiprosessin sisäinen toiminta
+- Ottaa käyttöön BTCPay Server pilvi- ja solmupohjaisissa ympäristöissä
+- Tulla BTC Pay Server -operaattoriksi
 ---
+# Matka taloudelliseen suvereniteettiin
 
-# Bitcoin ja BTCPay-palvelin
+Luottamus on hauras, erityisesti kun kyse on rahasta. Tämä johdantokurssi opastaa sinut BTCPay Serverin läpi, tehokkaan työkalun, jonka avulla voit vastaanottaa Bitcoin-maksuja luottamatta kolmansiin osapuoliin. Opit BTCPay Server -operaattoriksi ryhtymisen perusteet
 
-
-Tämä on Alekosin ja Basin kirjoittama BTCPay-palvelinoperaattorin johdantokurssi, jonka melontwist ja asi0 ovat muokanneet Plan ₿ -kurssiformaattiin.
-
-
-KESKENERÄINEN TARINA
-
-
-"Tämä on valhetta, luottamukseni sinuun on murtunut, teen sinusta vanhentuneen".
-
-
-Tuottaja BTCPay Server Foundation
-
-
+Alekoksen ja Basin luoma ja melontwistin ja asi0:n mukauttama kurssi paljastaa, kuinka yksityishenkilöt ja yritykset rakentavat vaihtoehtoja perinteisille maksujärjestelmille. Olitpa utelias Bitcoinista tai valmis pyörittämään maksuinfrastruktuureja yrityksille, löydät käytännön taitoja, jotka haastavat vallitsevan tilanteen. Oletko valmis tutkimaan, miltä taloudellinen riippumattomuus todella näyttää?
 +++
-
 # Johdanto
 
 

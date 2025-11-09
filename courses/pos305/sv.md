@@ -1,31 +1,18 @@
 ---
-name: Bitcoin och BTC Pay Server
-goal: Installera BTC Pay Server för ditt företag
-objectives: 
-
-  - Förstå vad btcpayserver är.
-  - Självhantera och konfigurera BTC Pay Server.
-  - Använd btcpayserver i din dagliga verksamhet.
-
+name: Bemästra BTC Pay Server
+goal: Konfigurera en BTC Pay Server-instans för ett lokalt företag
+objectives:
+- Förstå grunderna i BTCPay Servers roll i betalningshantering
+- Bemästra den inre funktionen av BTCPay Server-konfigurationsprocessen
+- Distribuera BTCPay Server i moln- och nodbaserade miljöer
+- Bli en BTC Pay Server-operatör
 ---
+# Resan till finansiell suveränitet
 
-# Bitcoin och BTCPay-server
+Förtroende är bräckligt, särskilt när det gäller pengar. Denna introduktionskurs guidar dig genom BTCPay Server, ett kraftfullt verktyg som låter dig acceptera Bitcoin-betalningar utan att förlita dig på tredje parter. Du kommer att lära dig grunderna i att bli en BTCPay Server-operatör
 
-
-Detta är en introduktionskurs om BTCPay Server Operator, skriven av Alekos och Bas, som anpassades för Plan ₿ Course Format av melontwist och asi0.
-
-
-EN OAVSLUTAD HISTORIA
-
-
-"Det här är lögn, mitt förtroende för dig är förbrukat, jag ska göra dig obsolet".
-
-
-Producerad av BTCPay Server Foundation
-
-
+Skapad av Alekos och Bas, och anpassad av melontwist och asi0, avslöjar denna kurs hur individer och företag bygger alternativ till traditionella betalningssystem. Oavsett om du är nyfiken på Bitcoin eller redo att driva betalningsinfrastrukturer för företag, kommer du att upptäcka praktiska färdigheter som utmanar status quo. Redo att utforska hur finansiell oberoende faktiskt ser ut?
 +++
-
 # Inledning
 
 

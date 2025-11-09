@@ -1,5 +1,5 @@
 ---
-기간입니다: BTCPAY SERVER
+term: BTCPAY SERVER
 
 ---
 

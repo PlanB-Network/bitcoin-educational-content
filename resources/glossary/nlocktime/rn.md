@@ -1,5 +1,5 @@
 ---
-ijambo: NLOCKTIME
+term: NLOCKTIME
 
 ---
 

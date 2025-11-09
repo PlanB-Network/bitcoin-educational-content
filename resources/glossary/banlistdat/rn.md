@@ -1,5 +1,5 @@
 ---
-ijambo: BANLIST.DAT
+term: BANLIST.DAT
 
 ---
 

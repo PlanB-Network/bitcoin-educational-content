@@ -1,5 +1,5 @@
 ---
-ijambo: FINNEY HAL
+term: FINNEY HAL
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-기간: ELECTRUM
+term: ELECTRUM
 
 ---
 

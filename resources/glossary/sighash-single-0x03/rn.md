@@ -1,5 +1,5 @@
 ---
-ijambo: SIGHASH_SINGLE (0X03)
+term: SIGHASH_SINGLE (0X03)
 
 ---
 

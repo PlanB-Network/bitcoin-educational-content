@@ -1,5 +1,5 @@
 ---
-ijambo: POOL
+term: POOL
 
 ---
 

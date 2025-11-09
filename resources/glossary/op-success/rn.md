@@ -1,5 +1,5 @@
 ---
-ijambo: OP_SUCCESS
+term: OP_SUCCESS
 
 ---
 

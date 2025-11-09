@@ -1,5 +1,5 @@
 ---
-ijambo: BANLIST.JSON
+term: BANLIST.JSON
 
 ---
 

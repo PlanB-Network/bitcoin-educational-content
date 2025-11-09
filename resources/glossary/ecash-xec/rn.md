@@ -1,5 +1,5 @@
 ---
-ijambo: ECASH (XEC)
+term: ECASH (XEC)
 
 ---
 

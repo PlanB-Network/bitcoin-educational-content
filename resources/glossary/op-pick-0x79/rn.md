@@ -1,5 +1,5 @@
 ---
-ijambo: OP_PICK (0X79)
+term: OP_PICK (0X79)
 
 ---
 

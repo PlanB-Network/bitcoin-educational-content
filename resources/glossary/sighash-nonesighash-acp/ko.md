@@ -1,5 +1,5 @@
 ---
-기간입니다: SIGHASH_NONE/SIGHASH_ACP
+term: SIGHASH_NONE/SIGHASH_ACP
 
 ---
 

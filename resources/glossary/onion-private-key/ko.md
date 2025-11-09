@@ -1,5 +1,5 @@
 ---
-기간입니다: ONION_PRIVATE_KEY
+term: ONION_PRIVATE_KEY
 
 ---
 

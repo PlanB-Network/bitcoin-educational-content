@@ -1,5 +1,5 @@
 ---
-ijambo: OP_VERIFY (0X69)
+term: OP_VERIFY (0X69)
 
 ---
 

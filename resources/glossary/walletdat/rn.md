@@ -1,5 +1,5 @@
 ---
-ijambo: WALLET.DAT
+term: WALLET.DAT
 
 ---
 

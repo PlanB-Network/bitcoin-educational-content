@@ -1,5 +1,5 @@
 ---
-ijambo: JOINMARKET
+term: JOINMARKET
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: OP_OVER (0X78)
+term: OP_OVER (0X78)
 
 ---
 

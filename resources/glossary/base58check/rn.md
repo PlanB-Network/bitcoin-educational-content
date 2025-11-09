@@ -1,5 +1,5 @@
 ---
-ijambo: BASE58CHECK
+term: BASE58CHECK
 
 ---
 

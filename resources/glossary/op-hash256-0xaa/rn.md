@@ -1,5 +1,5 @@
 ---
-ijambo: OP_HASH256 (0XAA)
+term: OP_HASH256 (0XAA)
 
 ---
 

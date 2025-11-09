@@ -1,5 +1,5 @@
 ---
-ijambo: OP_DROP (0X75)
+term: OP_DROP (0X75)
 
 ---
 

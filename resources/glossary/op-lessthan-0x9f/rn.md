@@ -1,5 +1,5 @@
 ---
-ijambo: OP_LESSTHAN (0X9F)
+term: OP_LESSTHAN (0X9F)
 
 ---
 

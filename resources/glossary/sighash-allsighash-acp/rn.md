@@ -1,5 +1,5 @@
 ---
-ijambo: SIGHASH_ALL/SIGHASH_ACP
+term: SIGHASH_ALL/SIGHASH_ACP
 
 ---
 

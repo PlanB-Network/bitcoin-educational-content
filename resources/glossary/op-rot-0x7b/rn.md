@@ -1,5 +1,5 @@
 ---
-ijambo: OP_ROT (0X7B)
+term: OP_ROT (0X7B)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CHECKSIG (0XAC)
+term: OP_CHECKSIG (0XAC)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: STABLECOIN
+term: STABLECOIN
 
 ---
 

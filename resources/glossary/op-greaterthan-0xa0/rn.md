@@ -1,5 +1,5 @@
 ---
-ijambo: OP_GREATERTHAN (0XA0)
+term: OP_GREATERTHAN (0XA0)
 
 ---
 

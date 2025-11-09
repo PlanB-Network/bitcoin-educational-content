@@ -1,5 +1,5 @@
 ---
-ijambo: BLKINDEX.DAT
+term: BLKINDEX.DAT
 
 ---
 

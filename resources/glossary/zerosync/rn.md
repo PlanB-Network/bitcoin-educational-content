@@ -1,5 +1,5 @@
 ---
-ijambo: ZEROSYNC
+term: ZEROSYNC
 
 ---
 

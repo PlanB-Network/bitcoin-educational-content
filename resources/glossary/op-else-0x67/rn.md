@@ -1,5 +1,5 @@
 ---
-ijambo: OP_ELSE (0X67)
+term: OP_ELSE (0X67)
 
 ---
 

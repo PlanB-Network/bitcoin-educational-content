@@ -1,5 +1,5 @@
 ---
-ijambo: BTCPAY SERVER
+term: BTCPAY SERVER
 
 ---
 

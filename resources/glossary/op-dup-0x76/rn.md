@@ -1,5 +1,5 @@
 ---
-ijambo: OP_DUP (0X76)
+term: OP_DUP (0X76)
 
 ---
 

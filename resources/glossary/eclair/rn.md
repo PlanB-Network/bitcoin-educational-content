@@ -1,5 +1,5 @@
 ---
-ijambo: ECLAIR
+term: ECLAIR
 
 ---
 

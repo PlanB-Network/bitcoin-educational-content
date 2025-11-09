@@ -1,5 +1,5 @@
 ---
-ijambo: OP_SHA256 (0XA8)
+term: OP_SHA256 (0XA8)
 
 ---
 

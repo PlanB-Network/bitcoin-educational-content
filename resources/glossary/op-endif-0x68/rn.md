@@ -1,5 +1,5 @@
 ---
-ijambo: OP_ENDIF (0X68)
+term: OP_ENDIF (0X68)
 
 ---
 

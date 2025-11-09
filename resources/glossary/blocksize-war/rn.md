@@ -1,5 +1,5 @@
 ---
-ijambo: BLOCKSIZE WAR
+term: BLOCKSIZE WAR
 
 ---
 

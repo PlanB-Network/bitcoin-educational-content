@@ -1,5 +1,5 @@
 ---
-ijambo: OP_SIZE (0X82)
+term: OP_SIZE (0X82)
 
 ---
 

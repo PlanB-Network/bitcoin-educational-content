@@ -1,5 +1,5 @@
 ---
-ijambo: OVERCLOCKING
+term: OVERCLOCKING
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: BLOCKSTREAM
+term: BLOCKSTREAM
 
 ---
 

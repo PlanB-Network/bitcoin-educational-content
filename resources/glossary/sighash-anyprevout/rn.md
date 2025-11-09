@@ -1,5 +1,5 @@
 ---
-ijambo: SIGHASH_ANYPREVOUT
+term: SIGHASH_ANYPREVOUT
 
 ---
 

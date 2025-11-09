@@ -1,5 +1,5 @@
 ---
-ijambo: OP_TUCK (0X7D)
+term: OP_TUCK (0X7D)
 
 ---
 

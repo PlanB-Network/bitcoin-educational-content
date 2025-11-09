@@ -1,5 +1,5 @@
 ---
-ijambo: OP_NOT (0X91)
+term: OP_NOT (0X91)
 
 ---
 

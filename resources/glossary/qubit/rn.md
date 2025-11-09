@@ -1,5 +1,5 @@
 ---
-ijambo: QUBIT
+term: QUBIT
 
 ---
 

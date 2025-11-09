@@ -87,7 +87,7 @@ Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieur
 - Créez un dossier `assets`, destiné à recevoir toutes les illustrations nécessaires à votre tutoriel ;
 - Au sein de ce dossier `assets`, il faut créer un sous-dossier nommé selon le code de langue originale du tutoriel. Par exemple, si le tutoriel est rédigé en anglais, ce sous-dossier doit être nommé `en`. Placez-y tous les visuels du tutoriel (schémas, images, captures d’écran, etc.).
 - Un fichier `tutorial.yml` doit être créé pour y consigner les détails relatifs à votre tutoriel ;
-- Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
+- Un fichier en format Markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
 
 Pour résumer, voici la hiérarchie des fichiers (nous allons continuer de les créer dans la prochaine section) :
 

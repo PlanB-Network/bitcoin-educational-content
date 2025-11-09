@@ -1428,6 +1428,180 @@ Käydään lyhyesti läpi joitakin tärkeitä käsitteitä.
 Yhteenvetona voidaan todeta, että Bitcoin:n tulevaisuus ja muutokset määräytyvät sen käyttäjien yhteisen tahdon mukaan. Merkittävät muutokset edellyttävät laajaa yksimielisyyttä, mikä kuvastaa Bitcoin:n hallinnon hajautettua ja poliittista luonnetta.
 
 
+## Bitcoin Mining Perusteet
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Johdanto
+
+
+Ajelex keskittyy Bitcoin Mining:n liiketoiminnallisiin näkökohtiin ja tarkastelee strategioita kannattavuuden säilyttämiseksi kilpailluilla markkinoilla. Keskusteluun sisältyy analyysi toimintakustannuksista, tehostamistoimenpiteistä ja Mining-teollisuutta ohjaavista taloudellisista tekijöistä.
+
+
+### 1. Mining monimutkaisuus ja kannattavuustekijät
+
+
+#### Tekniset ja strategiset tekijät
+
+
+Mining monimutkaisuus Bitcoin yhteydessä tarkoittaa ensisijaisesti teknisiä ja strategisia Elements tekijöitä, jotka määrittävät Mining toiminnan kannattavuuden. On ratkaisevan tärkeää ymmärtää, että Mining ei ole pelkkää onnenpeliä vaan monimutkainen prosessi, joka vaatii huolellista suunnittelua ja jatkuvaa optimointia.
+
+
+#### Keskeiset kannattavuustekijät
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Sähkökustannukset**: Yksi merkittävimmistä Mining:n kannattavuuteen vaikuttavista tekijöistä on sähkön hinta. Ranskan kaltaisilla alueilla sähkö voi olla suhteellisen kallista verrattuna El Salvadorin kaltaisiin maihin, joissa alhaisemmat kustannukset tarjoavat kaivostoiminnan harjoittajille kilpailuetua.
+
+2. **Hardware-tehokkuus**: Mining-laitteiston tehokkuus, jota mitataan Hash-nopeudella ja virrankulutuksella, on ratkaisevassa asemassa. Kehittyneet ASIC-kaivurit, kuten S19J Pro, ovat paljon tehokkaampia kuin vanhemmat mallit, kuten Antminer S9.
+
+3. **Ajanjakso**: Bitcoin Mining kannustaa pitkän aikavälin suunnitteluun.
+
+4. **BTC-hinta**: Mining:n kannattavuuden määrittämisessä on olennaista BTC-hinta.
+
+5. **Verkon vaikeus**: Hashrate:n määrä, joka tarvitaan keskimäärin lohkon louhimiseen 10 minuutissa.
+
+6. **Strategiset työkalut**: [braiins.com](https://insights.braiins.com) kaltaiset työkalut ovat korvaamattomia kannattavuuden laskemisessa ja auttavat kaivostyöntekijöitä tekemään tietoon perustuvia päätöksiä.
+
+
+#### Käytännön soveltaminen
+
+
+ Tämä esimerkki korostaa Mining-toimintojen integroimisen käytännöllisyyttä jokapäiväiseen elämään, mikä tuo lisähyötyjä.
+
+
+#### Mining:n pullonkaulat
+
+
+Kaivostoiminnan harjoittajilla on kolme ensisijaista pullonkaulaa: laitteistojen saatavuus, energian saatavuus ja toiminnan ylläpitämiseen tarvittava pääoma. Suuren kysynnän aiheuttama ASIC-piirien niukkuus johtaa usein pitkiin odotusaikoihin ja kohonneisiin hintoihin, mikä vaikeuttaa Mining-maisemaa entisestään.
+
+
+
+- Esimerkki **energian pullonkaulasta**.
+
+Vuonna 2021 Kiinan hallitus kielsi Mining:n käytön alueellaan, minkä vuoksi Mining-yritykset Kiinassa menettivät energiansaannin. Tämä johti Hashrate:n **50 prosentin** laskuun kahdessa viikossa.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Mining-laitteiston kehitys ja tehokkuus
+
+
+#### Historiallinen kehitys
+
+
+Mining-laitteiston matka on ollut monumentaalinen, alkaen yksinkertaisesta CPU Mining:sta nykyisin käyttämiimme erittäin erikoistuneisiin ASIC-kaivoksiin.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: Mining suoritettiin alkuaikoina tavallisilla tietokoneprosessoreilla (CPU). Tämä menetelmä oli nopeasti ohi, kun verkko kasvoi.
+
+2. **GPU Mining**: Grafiikkasuorittimet (GPU) lisäsivät Mining:n tehokkuutta merkittävästi, mikä teki suorittimista tarpeettomia Mining:n kannalta.
+
+3. **FPGA Mining**: Kenttäohjelmoitavat porttiryhmät (FPGA) tarjosivat vielä parempaa suorituskykyä ja energiatehokkuutta kuin näytönohjaimet.
+
+4. **ASIC Mining**: Sovelluskohtaiset integroidut piirit (ASIC) edustavat Mining-laitteiston tehokkuuden huippua, ja ne on suunniteltu erityisesti Mining-toimintoja varten, joiden suorituskyky on vertaansa vailla.
+
+
+#### Yksityiskohtainen vertailu: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: S19J Pro on tunnettu korkeasta tehokkuudestaan ja luotettavuudestaan, ja se tarjoaa ylivoimaisen Hash-nopeuden alhaisemmalla virrankulutuksella, joten se sopii erinomaisesti laajamittaisiin toimintoihin.
+- Antminer S9**: Vaikka Antminer S9 on vanhempi ja tehottomampi, se on edelleen suosittu pienempien kokoonpanojen ja harrastajien keskuudessa edullisuutensa ja kohtuullisen suorituskykynsä ansiosta.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining tehokkuus ja oppiminen
+
+
+Mining ei tarjoa ainoastaan taloudellisia palkkioita vaan myös arvokasta käytännön kokemusta. KYC-vapaiden bitcoinien hankkiminen Mining:n kautta voi olla houkutteleva ehdotus niille, jotka ovat huolissaan yksityisyydestä.
+
+
+#### Edistyneet työkalut ja tekniikat
+
+
+Jälkiohjelmistot voivat parantaa Mining-laitteiston tehokkuutta ja toimivuutta. Optimointi- ja automaattiviritysominaisuuksia tarjoavat työkalut varmistavat, että jokainen siru toimii mahdollisimman tehokkaasti ja tasapainottaa Hash-taajuuden ja virrankulutuksen tehokkaasti.
+
+
+---
+
+### 3. Mining-toiminnan sääntely- ja markkinadynamiikka
+
+
+#### Sääntelyn vaikutus
+
+
+Sääntelyllä on merkittävä rooli Mining:n maiseman muokkaamisessa. Esimerkiksi Kiinan Mining-kiellolla oli syvällisiä vaikutuksia maailmanlaajuisiin Mining-toimintoihin, sillä se aiheutti merkittävän laskun Hash-verkon käyttöasteessa ja johti Mining-tehon uudelleenjakoon eri alueiden välillä.
+
+
+#### Markkinoiden dynamiikka
+
+
+1. **Laitteiston saatavuus ja hinta**: Bitcoin:n markkinahinta vaikuttaa ASIC:n louhinten hintaan ja saatavuuteen. Suuri kysyntä noususuhdanteiden aikana johtaa niukkuuteen ja paisuneisiin hintoihin.
+
+2. **Hash arvo ja Hash hinta**: Hash-arvon (terahashia kohti päivässä ansaitut satoshit) ja Hash-hinnan (Hash-kurssin rahallinen arvo) välisen eron ymmärtäminen on olennaista. Molempiin vaikuttavat verkon vaikeudet ja Bitcoin:n markkinahinta.
+
+
+#### Mining-altaat ja palkitsemismekanismit
+
+
+1. **Mining allas**: Yhdistämällä resursseja Mining-poolit tarjoavat vakaammat palkinnot, mikä vähentää yksin pelattavaan Mining:een liittyvää vaihtelua ja riskiä.
+
+2. **Palkkiojärjestelmät**: Erilaiset palkitsemismekanismit, kuten Pay-Per-Share (PPS) ja suhteelliset palkkiot, tarjoavat erilaisia riski- ja palkitsemisprofiileja louhijoille.
+
+
+
+   - Osakekohtainen palkka**: Pay-Per-Share palkitsee louhijat jokaisesta lähettämästään kelvollisesta osakkeesta riippumatta siitä, löytääkö pooli lohkon. **Sharet** ovat todisteyksiköitä siitä, että louhijat ovat tehneet vaaditun työn, ja pool tarkistaa nämä osakkeet.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Suhteellinen**: Se riippuu lohkon Mining poolista, jaetaanko palkkio tasan sen mukaan, kuinka paljon Miner on osallistunut poolin Hashrate kokonaismäärään.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Mining:n tulevaisuus
+
+
+Kun lohkopalkkiot vähenevät, louhijat turvautuvat yhä enemmän transaktiomaksuihin. Tämä muutos herättää huolta siitä, ovatko pelkät transaktiopalkkiot riittäviä kannustimia louhijoille jatkaa verkon turvaamista.
+
+
+#### Isännöity Mining
+
+
+Isännöidyt Mining-palvelut voivat tarjota alhaisempia käyttökustannuksia, mutta niihin liittyy riskejä, kuten valvonnan puute ja petosvaara. Näiden riskien vähentäminen edellyttää asianmukaista huolellisuutta.
+
+
+#### Turvallisuus ja tehokkuus
+
+
+Kehittyneet turvallisuusprotokollat ja uusiutuvan energian käyttö eivät ainoastaan paranna kannattavuutta, vaan edistävät myös Mining-ekosysteemin kestävää kasvua.
+
+
+Yhteenvetona voidaan todeta, että Bitcoin Mining on monimutkainen ja monitahoinen alue, joka edellyttää teknisten, strategisten, lainsäädännöllisten ja markkinadynamiikan syvällistä ymmärtämistä. Olitpa sitten kokenut Miner tai vasta aloittelija, tiedon ja sopeutumiskyvyn säilyttäminen on avainasemassa menestyäksesi tällä jatkuvasti kehittyvällä alalla. Kiitos huomiostanne, ja odotan mielenkiinnolla kysymyksiä ja keskusteluja.
+
+
+
 # Layer Yksi käsite
 
 
@@ -3243,183 +3417,6 @@ Protokollat, kuten **LNURL** ja **Bolt 12**, virtaviivaistavat maksuja vähentä
 Lightning-maksujen laajentaminen ja integrointi eri protokollien ja käyttötapausten avulla osoittaa Lightning Network:n dynaamisen kehityksen. Maksujen perustoimintojen parantamisesta kehittyneiden liiketoimintamallien ja salausprotokollien käyttöönottoon Lightningin tulevaisuus lupaa paljon innovaatioita ja laajaa käyttöönottoa.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Perusteet
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Johdanto
-
-
-Ajelex keskittyy Bitcoin Mining:n liiketoiminnallisiin näkökohtiin ja tarkastelee strategioita kannattavuuden säilyttämiseksi kilpailluilla markkinoilla. Keskusteluun sisältyy analyysi toimintakustannuksista, tehostamistoimenpiteistä ja Mining-teollisuutta ohjaavista taloudellisista tekijöistä.
-
-
-### 1. Mining monimutkaisuus ja kannattavuustekijät
-
-
-#### Tekniset ja strategiset tekijät
-
-
-Mining monimutkaisuus Bitcoin yhteydessä tarkoittaa ensisijaisesti teknisiä ja strategisia Elements tekijöitä, jotka määrittävät Mining toiminnan kannattavuuden. On ratkaisevan tärkeää ymmärtää, että Mining ei ole pelkkää onnenpeliä vaan monimutkainen prosessi, joka vaatii huolellista suunnittelua ja jatkuvaa optimointia.
-
-
-#### Keskeiset kannattavuustekijät
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Sähkökustannukset**: Yksi merkittävimmistä Mining:n kannattavuuteen vaikuttavista tekijöistä on sähkön hinta. Ranskan kaltaisilla alueilla sähkö voi olla suhteellisen kallista verrattuna El Salvadorin kaltaisiin maihin, joissa alhaisemmat kustannukset tarjoavat kaivostoiminnan harjoittajille kilpailuetua.
-
-2. **Hardware-tehokkuus**: Mining-laitteiston tehokkuus, jota mitataan Hash-nopeudella ja virrankulutuksella, on ratkaisevassa asemassa. Kehittyneet ASIC-kaivurit, kuten S19J Pro, ovat paljon tehokkaampia kuin vanhemmat mallit, kuten Antminer S9.
-
-3. **Ajanjakso**: Bitcoin Mining kannustaa pitkän aikavälin suunnitteluun.
-
-4. **BTC-hinta**: Mining:n kannattavuuden määrittämisessä on olennaista BTC-hinta.
-
-5. **Verkon vaikeus**: Hashrate:n määrä, joka tarvitaan keskimäärin lohkon louhimiseen 10 minuutissa.
-
-6. **Strategiset työkalut**: [braiins.com](https://insights.braiins.com) kaltaiset työkalut ovat korvaamattomia kannattavuuden laskemisessa ja auttavat kaivostyöntekijöitä tekemään tietoon perustuvia päätöksiä.
-
-
-#### Käytännön soveltaminen
-
-
- Tämä esimerkki korostaa Mining-toimintojen integroimisen käytännöllisyyttä jokapäiväiseen elämään, mikä tuo lisähyötyjä.
-
-
-#### Mining:n pullonkaulat
-
-
-Kaivostoiminnan harjoittajilla on kolme ensisijaista pullonkaulaa: laitteistojen saatavuus, energian saatavuus ja toiminnan ylläpitämiseen tarvittava pääoma. Suuren kysynnän aiheuttama ASIC-piirien niukkuus johtaa usein pitkiin odotusaikoihin ja kohonneisiin hintoihin, mikä vaikeuttaa Mining-maisemaa entisestään.
-
-
-
-- Esimerkki **energian pullonkaulasta**.
-
-Vuonna 2021 Kiinan hallitus kielsi Mining:n käytön alueellaan, minkä vuoksi Mining-yritykset Kiinassa menettivät energiansaannin. Tämä johti Hashrate:n **50 prosentin** laskuun kahdessa viikossa.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Mining-laitteiston kehitys ja tehokkuus
-
-
-#### Historiallinen kehitys
-
-
-Mining-laitteiston matka on ollut monumentaalinen, alkaen yksinkertaisesta CPU Mining:sta nykyisin käyttämiimme erittäin erikoistuneisiin ASIC-kaivoksiin.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: Mining suoritettiin alkuaikoina tavallisilla tietokoneprosessoreilla (CPU). Tämä menetelmä oli nopeasti ohi, kun verkko kasvoi.
-
-2. **GPU Mining**: Grafiikkasuorittimet (GPU) lisäsivät Mining:n tehokkuutta merkittävästi, mikä teki suorittimista tarpeettomia Mining:n kannalta.
-
-3. **FPGA Mining**: Kenttäohjelmoitavat porttiryhmät (FPGA) tarjosivat vielä parempaa suorituskykyä ja energiatehokkuutta kuin näytönohjaimet.
-
-4. **ASIC Mining**: Sovelluskohtaiset integroidut piirit (ASIC) edustavat Mining-laitteiston tehokkuuden huippua, ja ne on suunniteltu erityisesti Mining-toimintoja varten, joiden suorituskyky on vertaansa vailla.
-
-
-#### Yksityiskohtainen vertailu: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: S19J Pro on tunnettu korkeasta tehokkuudestaan ja luotettavuudestaan, ja se tarjoaa ylivoimaisen Hash-nopeuden alhaisemmalla virrankulutuksella, joten se sopii erinomaisesti laajamittaisiin toimintoihin.
-- Antminer S9**: Vaikka Antminer S9 on vanhempi ja tehottomampi, se on edelleen suosittu pienempien kokoonpanojen ja harrastajien keskuudessa edullisuutensa ja kohtuullisen suorituskykynsä ansiosta.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining tehokkuus ja oppiminen
-
-
-Mining ei tarjoa ainoastaan taloudellisia palkkioita vaan myös arvokasta käytännön kokemusta. KYC-vapaiden bitcoinien hankkiminen Mining:n kautta voi olla houkutteleva ehdotus niille, jotka ovat huolissaan yksityisyydestä.
-
-
-#### Edistyneet työkalut ja tekniikat
-
-
-Jälkiohjelmistot voivat parantaa Mining-laitteiston tehokkuutta ja toimivuutta. Optimointi- ja automaattiviritysominaisuuksia tarjoavat työkalut varmistavat, että jokainen siru toimii mahdollisimman tehokkaasti ja tasapainottaa Hash-taajuuden ja virrankulutuksen tehokkaasti.
-
-
----
-
-### 3. Mining-toiminnan sääntely- ja markkinadynamiikka
-
-
-#### Sääntelyn vaikutus
-
-
-Sääntelyllä on merkittävä rooli Mining:n maiseman muokkaamisessa. Esimerkiksi Kiinan Mining-kiellolla oli syvällisiä vaikutuksia maailmanlaajuisiin Mining-toimintoihin, sillä se aiheutti merkittävän laskun Hash-verkon käyttöasteessa ja johti Mining-tehon uudelleenjakoon eri alueiden välillä.
-
-
-#### Markkinoiden dynamiikka
-
-
-1. **Laitteiston saatavuus ja hinta**: Bitcoin:n markkinahinta vaikuttaa ASIC:n louhinten hintaan ja saatavuuteen. Suuri kysyntä noususuhdanteiden aikana johtaa niukkuuteen ja paisuneisiin hintoihin.
-
-2. **Hash arvo ja Hash hinta**: Hash-arvon (terahashia kohti päivässä ansaitut satoshit) ja Hash-hinnan (Hash-kurssin rahallinen arvo) välisen eron ymmärtäminen on olennaista. Molempiin vaikuttavat verkon vaikeudet ja Bitcoin:n markkinahinta.
-
-
-#### Mining-altaat ja palkitsemismekanismit
-
-
-1. **Mining allas**: Yhdistämällä resursseja Mining-poolit tarjoavat vakaammat palkinnot, mikä vähentää yksin pelattavaan Mining:een liittyvää vaihtelua ja riskiä.
-
-2. **Palkkiojärjestelmät**: Erilaiset palkitsemismekanismit, kuten Pay-Per-Share (PPS) ja suhteelliset palkkiot, tarjoavat erilaisia riski- ja palkitsemisprofiileja louhijoille.
-
-
-
-   - Osakekohtainen palkka**: Pay-Per-Share palkitsee louhijat jokaisesta lähettämästään kelvollisesta osakkeesta riippumatta siitä, löytääkö pooli lohkon. **Sharet** ovat todisteyksiköitä siitä, että louhijat ovat tehneet vaaditun työn, ja pool tarkistaa nämä osakkeet.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Suhteellinen**: Se riippuu lohkon Mining poolista, jaetaanko palkkio tasan sen mukaan, kuinka paljon Miner on osallistunut poolin Hashrate kokonaismäärään.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Mining:n tulevaisuus
-
-
-Kun lohkopalkkiot vähenevät, louhijat turvautuvat yhä enemmän transaktiomaksuihin. Tämä muutos herättää huolta siitä, ovatko pelkät transaktiopalkkiot riittäviä kannustimia louhijoille jatkaa verkon turvaamista.
-
-
-#### Isännöity Mining
-
-
-Isännöidyt Mining-palvelut voivat tarjota alhaisempia käyttökustannuksia, mutta niihin liittyy riskejä, kuten valvonnan puute ja petosvaara. Näiden riskien vähentäminen edellyttää asianmukaista huolellisuutta.
-
-
-#### Turvallisuus ja tehokkuus
-
-
-Kehittyneet turvallisuusprotokollat ja uusiutuvan energian käyttö eivät ainoastaan paranna kannattavuutta, vaan edistävät myös Mining-ekosysteemin kestävää kasvua.
-
-
-Yhteenvetona voidaan todeta, että Bitcoin Mining on monimutkainen ja monitahoinen alue, joka edellyttää teknisten, strategisten, lainsäädännöllisten ja markkinadynamiikan syvällistä ymmärtämistä. Olitpa sitten kokenut Miner tai vasta aloittelija, tiedon ja sopeutumiskyvyn säilyttäminen on avainasemassa menestyäksesi tällä jatkuvasti kehittyvällä alalla. Kiitos huomiostanne, ja odotan mielenkiinnolla kysymyksiä ja keskusteluja.
 
 
 ## Joinmarketin ymmärtäminen
@@ -3434,68 +3431,3 @@ Yhteenvetona voidaan todeta, että Bitcoin Mining on monimutkainen ja monitahoin
 
 Adam Gibson tarjoaa tietoa Joinmarketista ja kertoo yksityiskohtaisesti, miten tämä CoinJoin-toteutus parantaa Bitcoin:n yksityisyyttä ja vaihdettavuutta. Hän kertoo, miten Joinmarket helpottaa Trustless-yhteistyötä, Trustless ja anonyymejä liiketoimia Bitcoin-ekosysteemissä. Toisessa osassa hän näyttää, miten Joinmarketia käytetään Signetissä.
 
-
-## Cubo+ ensimmäisen vuoden hackathon
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - Satoshi:n perintö
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Satoshi Legacyn ryhmä esittelee työnsä Lightning-verkkokaupan rakentamiseksi Shopifyn, React JS:n ja Hydrogenin sekä IBEX-maksuportin avulla.
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badgerin ryhmä esittelee ratkaisunsa blogia varten, jossa on sisäänrakennettu Lightning Powered Micropayments -järjestelmä LnBitsin ja Next.js:n, Node.js:n ja Hydrogenin avulla.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Kolmannessa ryhmässä esitellään Lightning Network Node Dashboard räätälöidyn API:n kautta, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Satoshi - apuraha
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi:n Fellowshipin ryhmä esittelee LN:n pelisovelluksen, jossa käytetään LnBitsia ja MongoDB:tä, Poetrya ja Node.js:ää.
-
-
-### Groupe 5 Hackathon - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walkerin ryhmä esittelee ratkaisunsa rahalähetyspalveluun MySQL:n, JavaScriptin ja ZDB:n API:n avulla.
-
-
-# Viimeinen jakso
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Arvostelut & arvostelut
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Päätelmä
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

@@ -1448,6 +1448,180 @@ Hajde da ukratko pregledamo neke važne pojmove.
 Zaključno, budućnost i promene Bitcoin određene su kolektivnom voljom njegovih korisnika. Značajne promene zahtevaju široki konsenzus, što odražava decentralizovanu i političku prirodu upravljanja Bitcoin.
 
 
+## Bitcoin Mining Osnovne stvari
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Uvod
+
+
+Ajelex se fokusira na poslovni aspekt Bitcoin Mining, ispitujući strategije za održavanje profitabilnosti na konkurentnom tržištu. Diskusija uključuje analizu operativnih troškova, mere efikasnosti i ekonomiju koja pokreće industriju Mining.
+
+
+### 1. Faktori složenosti i profitabilnosti Mining
+
+
+#### Tehnički i strateški faktori
+
+
+Složenost Mining u kontekstu Bitcoin prvenstveno uključuje tehnički i strateški Elements koji određuju profitabilnost operacija Mining. Ključno je razumeti da Mining nije samo igra slučaja već sofisticiran proces koji zahteva pažljivo planiranje i kontinuiranu optimizaciju.
+
+
+#### Ključni faktori profitabilnosti
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Troškovi električne energije**: Jedan od najznačajnijih faktora koji utiču na profitabilnost Mining je cena električne energije. U regionima poput Francuske, električna energija može biti relativno skupa u poređenju sa zemljama poput El Salvadora, gde niži troškovi pružaju konkurentsku prednost za rudare.
+
+2. **Efikasnost hardvera**: Efikasnost Mining hardvera, mereno njegovom Hash stopom i potrošnjom energije, igra ključnu ulogu. Napredni ASIC rudari kao što je S19J Pro su daleko efikasniji od starijih modela kao što je Antminer S9.
+
+3. **Vremenski period**: Bitcoin Mining podstiče dugoročno planiranje.
+
+4. **BTC cena**: BTC cena je ključna za određivanje profitabilnosti Mining.
+
+5. **Težina mreže**: Težina mreže predstavlja količinu Hashrate u proseku potrebnu za rudarenje bloka u 10 minuta.
+
+6. **Strateški alati**: Alati kao što je [braiins.com](https://insights.braiins.com) su neprocenjivi za izračunavanje profitabilnosti i pomoć rudarima da donose odluke zasnovane na podacima.
+
+
+#### Praktična primena
+
+
+Iz ličnog iskustva, čak sam koristio Mining da zagrejem svoj stan u Francuskoj, kreativno smanjujući troškove električne energije dok Mining Bitcoin. Ovaj primer naglašava praktičnost integrisanja Mining operacija u svakodnevni život za dodatne beneficije.
+
+
+#### Uska grla u Mining
+
+
+Rudari se suočavaju sa tri glavne prepreke: dostupnost hardvera, pristup energiji i kapital potreban za održavanje operacija. Oskudica ASIC-ova zbog velike potražnje često dovodi do dugih čekanja i naduvanih cena, dodatno komplikujući Mining okruženje.
+
+
+
+- Primer **uskog grla energije**.
+
+Godine 2021, kineska vlada zabranila je Mining na svojoj teritoriji, što je dovelo do toga da su kompanije Mining u Kini izgubile pristup energiji. To je rezultiralo padom od **50%** u Hashrate tokom dve nedelje.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Evolucija i efikasnost Mining hardvera
+
+
+#### Istorijska evolucija
+
+
+Putovanje Mining hardvera bilo je monumentalno, počevši od jednostavnog CPU Mining do visoko specijalizovanih ASIC minera koje danas koristimo.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: U ranim danima, Mining je izvođen korišćenjem regularnih procesora računara (CPU). Ova metoda je brzo prevaziđena kako je mreža rasla.
+
+2. **GPU Mining**: Graphics Processing Units (GPU) su značajno poboljšali efikasnost Mining, čineći CPU zastarelim za potrebe Mining.
+
+3. **FPGA Mining**: Field-Programmable Gate Arrays (FPGAs) nudile su još bolje performanse i energetsku efikasnost od GPU-ova.
+
+4. **ASIC Mining**: Aplikativno specifični integrisani krugovi (ASICs) predstavljaju vrhunac efikasnosti Mining hardvera, dizajnirani posebno za Mining operacije sa neuporedivim performansama.
+
+
+#### Detaljno poređenje: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: Poznat po svojoj visokoj efikasnosti i pouzdanosti, S19J Pro nudi superiornu Hash stopu uz nižu potrošnju energije, što ga čini idealnim za operacije velikih razmera.
+- Antminer S9**: Iako stariji i manje efikasan, Antminer S9 ostaje popularan za manje postavke i hobiste zbog svoje pristupačnosti i solidnih performansi.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining efikasnost i učenje
+
+
+Mining ne samo da pruža finansijske nagrade već i dragoceno praktično iskustvo. Sticanje bitkoina bez KYC-a putem Mining može biti privlačna opcija za one koji su zabrinuti za privatnost.
+
+
+#### Napredni alati i tehnike
+
+
+Softver sa tržišta dodatne opreme može poboljšati efikasnost i funkcionalnost Mining hardvera. Alati koji nude optimizaciju i mogućnosti automatskog podešavanja osiguravaju da svaki čip radi sa maksimalnom efikasnošću, efikasno balansirajući Hash brzinu i potrošnju energije.
+
+
+---
+
+### 3. Regulatorna i tržišna dinamika u operacijama Mining
+
+
+#### Regulatorni uticaj
+
+
+Regulacija igra značajnu ulogu u oblikovanju pejzaža Mining. Na primer, kineska zabrana Mining imala je duboke efekte na globalne operacije Mining, uzrokujući značajan pad stope mreže Hash i dovodeći do preraspodele moći Mining širom različitih regiona.
+
+
+#### Dinamika tržišta
+
+
+1. **Dostupnost hardvera i cena**: Cena i dostupnost ASIC rudara su pod uticajem tržišne cene Bitcoin. Velika potražnja tokom bikovskih tržišta dovodi do nestašice i naduvanih cena.
+
+2. **Hash vrednost i Hash cena**: Razumevanje razlike između Hash vrednosti (satoši zarađeni po terahašu dnevno) i Hash cene (novčana vrednost Hash kursa) je ključno. Obe su pod uticajem težine mreže i tržišne cene Bitcoin.
+
+
+#### Mining bazeni i mehanizmi nagrađivanja
+
+
+1. **Mining bazeni**: Kombinovanjem resursa, Mining bazeni pružaju stabilnije nagrade, smanjujući varijansu i rizik povezan sa solo Mining.
+
+2. **Šeme nagrađivanja**: Različiti mehanizmi nagrađivanja, kao što su Pay-Per-Share (PPS) i proporcionalne nagrade, nude različite profile rizika i nagrada za rudare.
+
+
+
+   - Plaćanje po deonici**: Plaćanje po deonici nagrađuje rudare za svaku validnu deonicu koju podnesu, bez obzira na to da li bazen pronađe blok. **Deonice** su jedinice dokaza da su rudari završili potreban rad, a bazen verifikuje te deonice.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proportionalno**: Zavisi od bazena Mining blok za ravnomernu raspodelu nagrade prema doprinosu Miner ukupnom Hashrate bazena.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Budućnost Mining
+
+
+Kako se nagrade za blokove smanjuju, rudari će se sve više oslanjati na naknade za transakcije. Ova promena izaziva zabrinutost oko toga da li će same naknade za transakcije pružiti dovoljne podsticaje rudarima da nastave sa obezbeđivanjem mreže.
+
+
+#### Hosted Mining
+
+
+Hostovane Mining usluge mogu ponuditi niže operativne troškove, ali dolaze s rizicima kao što su nedostatak kontrole i potencijal za prevaru. Potrebna je odgovarajuća pažnja kako bi se ovi rizici ublažili.
+
+
+#### Bezbednost i efikasnost
+
+
+Napredni sigurnosni protokoli i korišćenje obnovljive energije ne samo da povećavaju profitabilnost već i doprinose održivom rastu ekosistema Mining.
+
+
+Zaključno, svet Bitcoin Mining je složena, višeslojna oblast koja zahteva duboko razumevanje tehničkih, strateških, regulatornih i tržišnih dinamika. Bilo da ste iskusni Miner ili tek počinjete, ostati informisan i prilagodljiv je ključ za uspeh u ovoj stalno promenljivoj oblasti. Hvala vam na pažnji i radujem se vašim pitanjima i diskusijama.
+
+
+
 # Layer One Concepts
 
 
@@ -3263,183 +3437,6 @@ Protokoli kao što su **LNURL** i **Bolt 12** pojednostavljuju plaćanja smanjuj
 Proširenje i integracija Lightning plaćanja kroz različite protokole i slučajeve upotrebe demonstriraju dinamičnu evoluciju Lightning Network. Od poboljšanja osnovne funkcionalnosti plaćanja do uvođenja naprednih poslovnih modela i kriptografskih protokola, budućnost Lightning-a nosi značajno obećanje za inovacije i široku primenu.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Osnovne stvari
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Uvod
-
-
-Ajelex se fokusira na poslovni aspekt Bitcoin Mining, ispitujući strategije za održavanje profitabilnosti na konkurentnom tržištu. Diskusija uključuje analizu operativnih troškova, mere efikasnosti i ekonomiju koja pokreće industriju Mining.
-
-
-### 1. Faktori složenosti i profitabilnosti Mining
-
-
-#### Tehnički i strateški faktori
-
-
-Složenost Mining u kontekstu Bitcoin prvenstveno uključuje tehnički i strateški Elements koji određuju profitabilnost operacija Mining. Ključno je razumeti da Mining nije samo igra slučaja već sofisticiran proces koji zahteva pažljivo planiranje i kontinuiranu optimizaciju.
-
-
-#### Ključni faktori profitabilnosti
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Troškovi električne energije**: Jedan od najznačajnijih faktora koji utiču na profitabilnost Mining je cena električne energije. U regionima poput Francuske, električna energija može biti relativno skupa u poređenju sa zemljama poput El Salvadora, gde niži troškovi pružaju konkurentsku prednost za rudare.
-
-2. **Efikasnost hardvera**: Efikasnost Mining hardvera, mereno njegovom Hash stopom i potrošnjom energije, igra ključnu ulogu. Napredni ASIC rudari kao što je S19J Pro su daleko efikasniji od starijih modela kao što je Antminer S9.
-
-3. **Vremenski period**: Bitcoin Mining podstiče dugoročno planiranje.
-
-4. **BTC cena**: BTC cena je ključna za određivanje profitabilnosti Mining.
-
-5. **Težina mreže**: Težina mreže predstavlja količinu Hashrate u proseku potrebnu za rudarenje bloka u 10 minuta.
-
-6. **Strateški alati**: Alati kao što je [braiins.com](https://insights.braiins.com) su neprocenjivi za izračunavanje profitabilnosti i pomoć rudarima da donose odluke zasnovane na podacima.
-
-
-#### Praktična primena
-
-
-Iz ličnog iskustva, čak sam koristio Mining da zagrejem svoj stan u Francuskoj, kreativno smanjujući troškove električne energije dok Mining Bitcoin. Ovaj primer naglašava praktičnost integrisanja Mining operacija u svakodnevni život za dodatne beneficije.
-
-
-#### Uska grla u Mining
-
-
-Rudari se suočavaju sa tri glavne prepreke: dostupnost hardvera, pristup energiji i kapital potreban za održavanje operacija. Oskudica ASIC-ova zbog velike potražnje često dovodi do dugih čekanja i naduvanih cena, dodatno komplikujući Mining okruženje.
-
-
-
-- Primer **uskog grla energije**.
-
-Godine 2021, kineska vlada zabranila je Mining na svojoj teritoriji, što je dovelo do toga da su kompanije Mining u Kini izgubile pristup energiji. To je rezultiralo padom od **50%** u Hashrate tokom dve nedelje.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Evolucija i efikasnost Mining hardvera
-
-
-#### Istorijska evolucija
-
-
-Putovanje Mining hardvera bilo je monumentalno, počevši od jednostavnog CPU Mining do visoko specijalizovanih ASIC minera koje danas koristimo.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: U ranim danima, Mining je izvođen korišćenjem regularnih procesora računara (CPU). Ova metoda je brzo prevaziđena kako je mreža rasla.
-
-2. **GPU Mining**: Graphics Processing Units (GPU) su značajno poboljšali efikasnost Mining, čineći CPU zastarelim za potrebe Mining.
-
-3. **FPGA Mining**: Field-Programmable Gate Arrays (FPGAs) nudile su još bolje performanse i energetsku efikasnost od GPU-ova.
-
-4. **ASIC Mining**: Aplikativno specifični integrisani krugovi (ASICs) predstavljaju vrhunac efikasnosti Mining hardvera, dizajnirani posebno za Mining operacije sa neuporedivim performansama.
-
-
-#### Detaljno poređenje: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: Poznat po svojoj visokoj efikasnosti i pouzdanosti, S19J Pro nudi superiornu Hash stopu uz nižu potrošnju energije, što ga čini idealnim za operacije velikih razmera.
-- Antminer S9**: Iako stariji i manje efikasan, Antminer S9 ostaje popularan za manje postavke i hobiste zbog svoje pristupačnosti i solidnih performansi.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining efikasnost i učenje
-
-
-Mining ne samo da pruža finansijske nagrade već i dragoceno praktično iskustvo. Sticanje bitkoina bez KYC-a putem Mining može biti privlačna opcija za one koji su zabrinuti za privatnost.
-
-
-#### Napredni alati i tehnike
-
-
-Softver sa tržišta dodatne opreme može poboljšati efikasnost i funkcionalnost Mining hardvera. Alati koji nude optimizaciju i mogućnosti automatskog podešavanja osiguravaju da svaki čip radi sa maksimalnom efikasnošću, efikasno balansirajući Hash brzinu i potrošnju energije.
-
-
----
-
-### 3. Regulatorna i tržišna dinamika u operacijama Mining
-
-
-#### Regulatorni uticaj
-
-
-Regulacija igra značajnu ulogu u oblikovanju pejzaža Mining. Na primer, kineska zabrana Mining imala je duboke efekte na globalne operacije Mining, uzrokujući značajan pad stope mreže Hash i dovodeći do preraspodele moći Mining širom različitih regiona.
-
-
-#### Dinamika tržišta
-
-
-1. **Dostupnost hardvera i cena**: Cena i dostupnost ASIC rudara su pod uticajem tržišne cene Bitcoin. Velika potražnja tokom bikovskih tržišta dovodi do nestašice i naduvanih cena.
-
-2. **Hash vrednost i Hash cena**: Razumevanje razlike između Hash vrednosti (satoši zarađeni po terahašu dnevno) i Hash cene (novčana vrednost Hash kursa) je ključno. Obe su pod uticajem težine mreže i tržišne cene Bitcoin.
-
-
-#### Mining bazeni i mehanizmi nagrađivanja
-
-
-1. **Mining bazeni**: Kombinovanjem resursa, Mining bazeni pružaju stabilnije nagrade, smanjujući varijansu i rizik povezan sa solo Mining.
-
-2. **Šeme nagrađivanja**: Različiti mehanizmi nagrađivanja, kao što su Pay-Per-Share (PPS) i proporcionalne nagrade, nude različite profile rizika i nagrada za rudare.
-
-
-
-   - Plaćanje po deonici**: Plaćanje po deonici nagrađuje rudare za svaku validnu deonicu koju podnesu, bez obzira na to da li bazen pronađe blok. **Deonice** su jedinice dokaza da su rudari završili potreban rad, a bazen verifikuje te deonice.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proportionalno**: Zavisi od bazena Mining blok za ravnomernu raspodelu nagrade prema doprinosu Miner ukupnom Hashrate bazena.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Budućnost Mining
-
-
-Kako se nagrade za blokove smanjuju, rudari će se sve više oslanjati na naknade za transakcije. Ova promena izaziva zabrinutost oko toga da li će same naknade za transakcije pružiti dovoljne podsticaje rudarima da nastave sa obezbeđivanjem mreže.
-
-
-#### Hosted Mining
-
-
-Hostovane Mining usluge mogu ponuditi niže operativne troškove, ali dolaze s rizicima kao što su nedostatak kontrole i potencijal za prevaru. Potrebna je odgovarajuća pažnja kako bi se ovi rizici ublažili.
-
-
-#### Bezbednost i efikasnost
-
-
-Napredni sigurnosni protokoli i korišćenje obnovljive energije ne samo da povećavaju profitabilnost već i doprinose održivom rastu ekosistema Mining.
-
-
-Zaključno, svet Bitcoin Mining je složena, višeslojna oblast koja zahteva duboko razumevanje tehničkih, strateških, regulatornih i tržišnih dinamika. Bilo da ste iskusni Miner ili tek počinjete, ostati informisan i prilagodljiv je ključ za uspeh u ovoj stalno promenljivoj oblasti. Hvala vam na pažnji i radujem se vašim pitanjima i diskusijama.
 
 
 ## Razumevanje Joinmarket
@@ -3454,68 +3451,3 @@ Zaključno, svet Bitcoin Mining je složena, višeslojna oblast koja zahteva dub
 
 Adam Gibson nudi uvid u Joinmarket, objašnjavajući kako ova implementacija CoinJoin poboljšava privatnost i fungibilnost Bitcoin. On diskutuje o tome kako Joinmarket omogućava kolaborativne, Trustless, i anonimne transakcije unutar Bitcoin ekosistema. Zatim u drugom delu, pokazuje kako pokrenuti Joinmarket u Signet.
 
-
-## Cubo+ Prva Godina Hakaton
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - The Satoshi Legacy
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Grupa Satoshi Legacy predstavlja svoj rad na izgradnji Lightning e-trgovine sa Shopify, React JS i Hydrogen i IBEX platnim prolazom.
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Grupa Honey Badger predstavlja njeno rešenje za blog sa ugrađenim Lightning mikroplaćanjima koristeći LnBits i Next.js, Node.js i Hydrogen.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Treća grupa predstavlja Lightning Network Node Dashboard putem prilagođenog API-ja, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Satoshi Fellowship
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Grupa Fellowship-a Satoshi predstavlja LN gaming aplikaciju koristeći LnBits i MongoDB, Poetry, Node.js.
-
-
-### Groupe 5 Hackathon - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Grupa Lightning Walker predstavlja svoje rešenje za uslugu doznaka koristeći MySQL, JavaScript i ZDB-ov API.
-
-
-# Završni Deo
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Recenzije i Ocene
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Zaključak
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

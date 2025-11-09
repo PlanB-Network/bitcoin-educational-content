@@ -1428,6 +1428,180 @@ Bitcoin 的共識機制使其具有固有的政治性，需要廣泛的同意才
 總而言之，Bitcoin 的未來與變更是由使用者的集體意志所決定。重大的變更需要廣泛的共識，這反映出 Bitcoin 治理的分散性和政治性。
 
 
+## Bitcoin Mining 基本型
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### 簡介
+
+
+Ajelex 著重於 Bitcoin Mining 的商業層面，研究在競爭激烈的市場中維持獲利能力的策略。討論內容包括營運成本分析、效率措施以及推動 Mining 產業的經濟因素。
+
+
+### 1.Mining 複雜性與獲利因素
+
+
+#### 技術與策略因素
+
+
+Bitcoin 範圍內的 Mining 複雜性主要涉及決定 Mining 營運利潤的技術性和策略性 Elements。了解 Mining 並非只是一種機率遊戲，而是一個需要仔細規劃和持續優化的複雜過程，這一點至關重要。
+
+
+#### 主要獲利因素
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **電力成本**：電力成本是影響 Mining 獲利能力的最重要因素之一。在法國等地區，與薩爾瓦多等國家相比，電力可能相對昂貴，而在薩爾瓦多等國家，較低的電力成本為礦業者提供了競爭優勢。
+
+2. ** 硬體效率**：Mining 硬體的效率，以 Hash 的速率和耗電量來衡量，起著舉足輕重的作用。S19J Pro 等先進 ASIC 礦機的效率遠高於 Antminer S9 等舊型號。
+
+3. ** 時期**：Bitcoin Mining 鼓勵長期規劃。
+
+4. **BTC 價格**：BTC 價格是決定 Mining 獲利能力的必要條件。
+
+5. **網路難度**：網路難度代表在 10 分鐘內挖掘一個區塊所需的平均 Hashrate 數量。
+
+6. **策略工具**：[braiins.com](https://insights.braiins.com) 之類的工具對於計算獲利能力和幫助礦工做出以數據為導向的決策非常寶貴。
+
+
+#### 實際應用
+
+
+根據我的個人經驗，我甚至使用 Mining 來為我在法國的公寓供暖，在 Mining Bitcoin 的同時創造性地抵銷了電費。這個例子強調了將 Mining 運作融入日常生活以獲得更多好處的實用性。
+
+
+#### Mining 的瓶頸
+
+
+礦工面臨三大主要瓶頸：硬體供應、能源存取，以及維持營運所需的資金。由於需求量大而造成 ASIC 的稀缺，往往導致等待時間過長和價格膨脹，使 Mining 的情況更加複雜。
+
+
+
+- **能源瓶頸**的範例。
+
+2021 年，中國政府禁止在其境內使用 Mining，導致中國的 Mining 公司無法獲得能源。這導致 Hashrate 在兩週內下跌了**50%**。
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2.Mining 硬體的演進與效率
+
+
+#### 歷史演進
+
+
+從簡單的 CPU Mining 到我們今天使用的高度專業化的 ASIC 礦機，Mining 硬體的發展歷程是不朽的。
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**：早期，Mining 是使用一般電腦處理器 (CPU) 執行。隨著網路的成長，這種方法很快就被超越。
+
+2. **GPU Mining**：圖形處理單元 (GPU) 大幅提升了 Mining 的效率，使 CPU 在 Mining 用途上變得過時。
+
+3. **FPGA Mining**：現場可程式閘陣列 (FPGA) 提供比 GPU 更佳的效能與能源效率。
+
+4. **ASIC Mining**：特定應用集成電路 (ASIC) 代表 Mining 硬體效率的頂峰，專為 Mining 作業而設計，具有無與倫比的效能。
+
+
+#### 詳細比較：S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**：S19J Pro 以高效率和高可靠性著稱，提供優異的 Hash 速率與較低的耗電量，是大型作業的理想選擇。
+- Antminer S9**：雖然 Antminer S9 較舊且效率較低，但由於其經濟實惠且效能不俗，仍深受小型裝置和業餘愛好者的歡迎。
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining 效率與學習
+
+
+Mining 不僅提供財務獎勵，還提供寶貴的實踐經驗。透過 Mining 獲取不需 KYC 的比特幣，對於那些關心隱私權的人來說是一個很有吸引力的建議。
+
+
+#### 進階工具與技術
+
+
+售後軟體可提升 Mining 硬體的效率與功能。提供最佳化與自動調整功能的工具可確保每顆晶片都能以最高效率運作，有效平衡 Hash 的速率與耗電量。
+
+
+---
+
+### 3.Mining 業務的法規與市場動態
+
+
+#### 法規影響
+
+
+法規在塑造 Mining 景觀方面扮演重要角色。例如，中國的 Mining 禁令對全球 Mining 業務產生了深遠的影響，導致網路 Hash 率大幅下降，並導致 Mining 電力在不同地區重新分配。
+
+
+#### 市場動態
+
+
+1. **硬體可用性與成本**：ASIC 礦機的價格和可用性受 Bitcoin 的市場價格影響。牛市期間的高需求會造成稀缺性和價格膨脹。
+
+2. **Hash 價值與 Hash 價格**：瞭解 Hash 價值 (每天每太拉時賺取的薩托希數) 與 Hash 價格 (Hash 率的貨幣價值) 之間的區別是非常重要的。兩者都會受到網路難度和 Bitcoin 市價的影響。
+
+
+#### Mining 池和獎勵機制
+
+
+1. **Mining 池**：透過整合資源，Mining 遊戲池能提供更穩定的獎勵，降低單人 Mining 遊戲的差異與風險。
+
+2. **Reward schemes**：不同的獎勵機制，例如按份付酬 (PPS) 和按比例獎勵，可為礦工提供不同的風險與獎勵狀況。
+
+
+
+   - 按份付費**：按份付費 (Pay-Per-Share) 會對礦工提交的每份有效份數進行獎勵，而不論資料池是否找到區塊。 **Shares** 是證明礦工已完成所需工作的單位，而算力池會驗證這些股份。
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - 比例**：它取決於 Mining 區塊的 Miner 對區塊總 Hashrate 的貢獻來平均分配獎勵。
+
+
+![prop](assets/en/061.webp)
+
+
+#### Mining 的未來
+
+
+隨著區塊獎勵的減少，礦工將越來越依賴交易費用。這種轉變令人擔心，單靠交易費是否足以激勵礦工繼續保護網路安全。
+
+
+#### 主機 Mining
+
+
+託管式 Mining 服務可提供較低的作業成本，但也有風險，例如缺乏控制和可能發生詐欺。為了降低這些風險，適當的盡職調查是必要的。
+
+
+#### 安全與效率
+
+
+先進的安全通訊協定和可再生能源的使用，不僅提升了獲利能力，也有助於 Mining 生態系統的永續成長。
+
+
+總而言之，Bitcoin Mining 的世界是一個複雜、多元的領域，需要深入瞭解技術、策略、法規和市場動態。無論您是經驗豐富的 Miner 還是剛剛起步的 Miner，保持資訊靈通和適應力是在這個不斷發展的領域中茁壯成長的關鍵。感謝您的關注，我期待您的提問和討論。
+
+
+
 # Layer 一個概念
 
 
@@ -3243,183 +3417,6 @@ Lightning 付款也被整合到**Nostr**等平台和播客服務中，展現出�
 Lightning 支付通過各種協定和用例進行擴展和整合，展示了 Lightning Network 的動態演進。從改善支付的基本功能到引進先進的商業模式和加密協定，Lightning 的未來在創新和廣泛應用方面大有可為。
 
 
-# 獎金
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining 基本型
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### 簡介
-
-
-Ajelex 著重於 Bitcoin Mining 的商業層面，研究在競爭激烈的市場中維持獲利能力的策略。討論內容包括營運成本分析、效率措施以及推動 Mining 產業的經濟因素。
-
-
-### 1.Mining 複雜性與獲利因素
-
-
-#### 技術與策略因素
-
-
-Bitcoin 範圍內的 Mining 複雜性主要涉及決定 Mining 營運利潤的技術性和策略性 Elements。了解 Mining 並非只是一種機率遊戲，而是一個需要仔細規劃和持續優化的複雜過程，這一點至關重要。
-
-
-#### 主要獲利因素
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **電力成本**：電力成本是影響 Mining 獲利能力的最重要因素之一。在法國等地區，與薩爾瓦多等國家相比，電力可能相對昂貴，而在薩爾瓦多等國家，較低的電力成本為礦業者提供了競爭優勢。
-
-2. ** 硬體效率**：Mining 硬體的效率，以 Hash 的速率和耗電量來衡量，起著舉足輕重的作用。S19J Pro 等先進 ASIC 礦機的效率遠高於 Antminer S9 等舊型號。
-
-3. ** 時期**：Bitcoin Mining 鼓勵長期規劃。
-
-4. **BTC 價格**：BTC 價格是決定 Mining 獲利能力的必要條件。
-
-5. **網路難度**：網路難度代表在 10 分鐘內挖掘一個區塊所需的平均 Hashrate 數量。
-
-6. **策略工具**：[braiins.com](https://insights.braiins.com) 之類的工具對於計算獲利能力和幫助礦工做出以數據為導向的決策非常寶貴。
-
-
-#### 實際應用
-
-
-根據我的個人經驗，我甚至使用 Mining 來為我在法國的公寓供暖，在 Mining Bitcoin 的同時創造性地抵銷了電費。這個例子強調了將 Mining 運作融入日常生活以獲得更多好處的實用性。
-
-
-#### Mining 的瓶頸
-
-
-礦工面臨三大主要瓶頸：硬體供應、能源存取，以及維持營運所需的資金。由於需求量大而造成 ASIC 的稀缺，往往導致等待時間過長和價格膨脹，使 Mining 的情況更加複雜。
-
-
-
-- **能源瓶頸**的範例。
-
-2021 年，中國政府禁止在其境內使用 Mining，導致中國的 Mining 公司無法獲得能源。這導致 Hashrate 在兩週內下跌了**50%**。
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2.Mining 硬體的演進與效率
-
-
-#### 歷史演進
-
-
-從簡單的 CPU Mining 到我們今天使用的高度專業化的 ASIC 礦機，Mining 硬體的發展歷程是不朽的。
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**：早期，Mining 是使用一般電腦處理器 (CPU) 執行。隨著網路的成長，這種方法很快就被超越。
-
-2. **GPU Mining**：圖形處理單元 (GPU) 大幅提升了 Mining 的效率，使 CPU 在 Mining 用途上變得過時。
-
-3. **FPGA Mining**：現場可程式閘陣列 (FPGA) 提供比 GPU 更佳的效能與能源效率。
-
-4. **ASIC Mining**：特定應用集成電路 (ASIC) 代表 Mining 硬體效率的頂峰，專為 Mining 作業而設計，具有無與倫比的效能。
-
-
-#### 詳細比較：S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**：S19J Pro 以高效率和高可靠性著稱，提供優異的 Hash 速率與較低的耗電量，是大型作業的理想選擇。
-- Antminer S9**：雖然 Antminer S9 較舊且效率較低，但由於其經濟實惠且效能不俗，仍深受小型裝置和業餘愛好者的歡迎。
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining 效率與學習
-
-
-Mining 不僅提供財務獎勵，還提供寶貴的實踐經驗。透過 Mining 獲取不需 KYC 的比特幣，對於那些關心隱私權的人來說是一個很有吸引力的建議。
-
-
-#### 進階工具與技術
-
-
-售後軟體可提升 Mining 硬體的效率與功能。提供最佳化與自動調整功能的工具可確保每顆晶片都能以最高效率運作，有效平衡 Hash 的速率與耗電量。
-
-
----
-
-### 3.Mining 業務的法規與市場動態
-
-
-#### 法規影響
-
-
-法規在塑造 Mining 景觀方面扮演重要角色。例如，中國的 Mining 禁令對全球 Mining 業務產生了深遠的影響，導致網路 Hash 率大幅下降，並導致 Mining 電力在不同地區重新分配。
-
-
-#### 市場動態
-
-
-1. **硬體可用性與成本**：ASIC 礦機的價格和可用性受 Bitcoin 的市場價格影響。牛市期間的高需求會造成稀缺性和價格膨脹。
-
-2. **Hash 價值與 Hash 價格**：瞭解 Hash 價值 (每天每太拉時賺取的薩托希數) 與 Hash 價格 (Hash 率的貨幣價值) 之間的區別是非常重要的。兩者都會受到網路難度和 Bitcoin 市價的影響。
-
-
-#### Mining 池和獎勵機制
-
-
-1. **Mining 池**：透過整合資源，Mining 遊戲池能提供更穩定的獎勵，降低單人 Mining 遊戲的差異與風險。
-
-2. **Reward schemes**：不同的獎勵機制，例如按份付酬 (PPS) 和按比例獎勵，可為礦工提供不同的風險與獎勵狀況。
-
-
-
-   - 按份付費**：按份付費 (Pay-Per-Share) 會對礦工提交的每份有效份數進行獎勵，而不論資料池是否找到區塊。 **Shares** 是證明礦工已完成所需工作的單位，而算力池會驗證這些股份。
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - 比例**：它取決於 Mining 區塊的 Miner 對區塊總 Hashrate 的貢獻來平均分配獎勵。
-
-
-![prop](assets/en/061.webp)
-
-
-#### Mining 的未來
-
-
-隨著區塊獎勵的減少，礦工將越來越依賴交易費用。這種轉變令人擔心，單靠交易費是否足以激勵礦工繼續保護網路安全。
-
-
-#### 主機 Mining
-
-
-託管式 Mining 服務可提供較低的作業成本，但也有風險，例如缺乏控制和可能發生詐欺。為了降低這些風險，適當的盡職調查是必要的。
-
-
-#### 安全與效率
-
-
-先進的安全通訊協定和可再生能源的使用，不僅提升了獲利能力，也有助於 Mining 生態系統的永續成長。
-
-
-總而言之，Bitcoin Mining 的世界是一個複雜、多元的領域，需要深入瞭解技術、策略、法規和市場動態。無論您是經驗豐富的 Miner 還是剛剛起步的 Miner，保持資訊靈通和適應力是在這個不斷發展的領域中茁壯成長的關鍵。感謝您的關注，我期待您的提問和討論。
 
 
 ## 瞭解 Joinmarket
@@ -3434,68 +3431,3 @@ Mining 不僅提供財務獎勵，還提供寶貴的實踐經驗。透過 Mining
 
 Adam Gibson 深入介紹 Joinmarket，詳細說明這個 CoinJoin 實作如何增強 Bitcoin 的隱私與可替代性。他討論 Joinmarket 如何在 Bitcoin 生態系統裡促進協作、Trustless 及匿名交易。然後，在第二部分，他展示如何在 Signet 執行 Joinmarket。
 
-
-## Cubo+ 第一年黑客研討會
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - Satoshi 傳承
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Satoshi Legacy 的小組介紹他們使用 Shopify、React JS 和 Hydrogen 以及 IBEX 付款閘道建立 Lightning 電子商務的工作。
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badger 的小組介紹了她的解決方案，利用 LnBits 和 Next.js、Node.js 和 Hydrogen，在部落格中內建 Lightning Powered Micropayments。
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-第三組透過客製化 API、LND、vue.js、node.js、Bootstrap 來呈現 Lightning Network Node Dashboard。
-
-
-### Groupe 4 Hackathon - Satoshi 獎學金
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi's Fellowship 的小組展示了使用 LnBits 和 MongoDB、Poetry、Node.js 的 LN 遊戲應用程式。
-
-
-### Groupe 5 Hackathon - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walker 小組展示了他們使用 MySQL、JavaScript 和 ZDB 的 API 來提供匯款服務的解決方案。
-
-
-# 最後部分
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## 評論與評分
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## 總結
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

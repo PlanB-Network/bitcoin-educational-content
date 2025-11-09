@@ -1428,6 +1428,180 @@ Laten we kort enkele belangrijke concepten bespreken.
 Concluderend, de toekomst en veranderingen van Bitcoin worden bepaald door de collectieve wil van haar gebruikers. Significante veranderingen vereisen een brede consensus, wat de gedecentraliseerde en politieke aard van Bitcoin's bestuur weerspiegelt.
 
 
+## Bitcoin Mining Essentiële onderdelen
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Inleiding
+
+
+Ajelex richt zich op het zakelijke aspect van Bitcoin Mining en onderzoekt strategieën om winstgevend te blijven in een concurrerende markt. De discussie omvat een analyse van operationele kosten, efficiëntiemaatregelen en de economische drijfveren van de Mining industrie.
+
+
+### 1. Mining complexiteit en rentabiliteitsfactoren
+
+
+#### Technische en strategische factoren
+
+
+Mining complexiteit in de context van Bitcoin betreft voornamelijk de technische en strategische Elements die de winstgevendheid van Mining operaties bepalen. Het is cruciaal om te begrijpen dat Mining niet zomaar een kansspel is, maar een geavanceerd proces dat zorgvuldige planning en voortdurende optimalisatie vereist.
+
+
+#### Belangrijke winstgevendheidsfactoren
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Elektriciteitskosten**: Een van de belangrijkste factoren die de winstgevendheid van Mining beïnvloeden, zijn de elektriciteitskosten. In regio's zoals Frankrijk kan elektriciteit relatief duur zijn in vergelijking met landen zoals El Salvador, waar lagere kosten een concurrentievoordeel bieden voor mijnwerkers.
+
+2. **Hardware-efficiëntie**: De efficiëntie van Mining hardware, gemeten aan de Hash snelheid en het energieverbruik, speelt een cruciale rol. Geavanceerde ASIC miners zoals de S19J Pro zijn veel efficiënter dan oudere modellen zoals de Antminer S9.
+
+3. **Tijdsperiode**: Bitcoin Mining stimuleert langetermijnplanning.
+
+4. **BTC-prijs**: De BTC-prijs is essentieel om de winstgevendheid van Mining te bepalen.
+
+5. **Netwerkmoeilijkheid**: De netwerkmoeilijkheid staat voor de hoeveelheid Hashrate die gemiddeld nodig is om een blok te delven in 10 minuten.
+
+6. **Strategische hulpmiddelen**: Tools zoals [braiins.com](https://insights.braiins.com) zijn van onschatbare waarde voor het berekenen van winstgevendheid en het helpen van mijnwerkers bij het nemen van datagestuurde beslissingen.
+
+
+#### Praktische toepassing
+
+
+Uit persoonlijke ervaring heb ik zelfs Mining gebruikt om mijn appartement in Frankrijk te verwarmen, waarbij ik op een creatieve manier de elektriciteitskosten compenseerde door Mining Bitcoin te gebruiken. Dit voorbeeld toont aan hoe praktisch het is om Mining in het dagelijks leven te integreren voor extra voordelen.
+
+
+#### Knelpunten in Mining
+
+
+Miners hebben te maken met drie primaire knelpunten: de beschikbaarheid van hardware, toegang tot energie en het kapitaal dat nodig is om de activiteiten in stand te houden. De schaarste aan ASIC's door de grote vraag leidt vaak tot lange wachttijden en opgeblazen prijzen, wat het Mining landschap nog ingewikkelder maakt.
+
+
+
+- Voorbeeld van **Energie knelpunt**.
+
+In 2021 verbood de Chinese overheid Mining op haar grondgebied, waardoor Mining-bedrijven in China geen toegang meer hadden tot energie. Dit resulteerde in een daling van de Hashrate met **50%** in twee weken.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Evolutie en efficiëntie van Mining hardware
+
+
+#### Historische evolutie
+
+
+De reis van Mining hardware is monumentaal geweest, beginnend van eenvoudige CPU Mining tot de zeer gespecialiseerde ASIC miners die we vandaag de dag gebruiken.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: In de begindagen werd Mining uitgevoerd met gewone computerprocessors (CPU's). Deze methode werd snel voorbijgestreefd toen het netwerk groeide.
+
+2. **GPU Mining**: Graphics Processing Units (GPU's) zorgden voor een aanzienlijke toename in Mining efficiëntie, waardoor CPU's overbodig werden voor Mining doeleinden.
+
+3. **FPGA Mining**: Field-Programmable Gate Arrays (FPGA's) boden nog betere prestaties en energie-efficiëntie dan GPU's.
+
+4. **ASIC Mining**: Application-Specific Integrated Circuits (ASIC's) vertegenwoordigen het summum van Mining hardware-efficiëntie, speciaal ontworpen voor Mining bewerkingen met ongeëvenaarde prestaties.
+
+
+#### Gedetailleerde vergelijking: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: De S19J Pro staat bekend om zijn hoge efficiëntie en betrouwbaarheid en biedt een superieure Hash snelheid met een lager energieverbruik, waardoor hij ideaal is voor grootschalige toepassingen.
+- Antminer S9**: Hoewel hij ouder en minder efficiënt is, blijft de Antminer S9 populair voor kleinere setups en hobbyisten vanwege zijn betaalbaarheid en degelijke prestaties.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining efficiëntie en leren
+
+
+Mining biedt niet alleen financiële beloningen, maar ook waardevolle praktijkervaring. KYC-vrije bitcoins verwerven via Mining kan aantrekkelijk zijn voor wie zich zorgen maakt over privacy.
+
+
+#### Geavanceerde gereedschappen en technieken
+
+
+Aftermarket software kan de efficiëntie en functionaliteit van Mining hardware verbeteren. Tools die optimalisatie en auto-tuning mogelijkheden bieden, zorgen ervoor dat elke chip op maximale efficiëntie werkt en Hash snelheid en stroomverbruik effectief in balans brengt.
+
+
+---
+
+### 3. Regelgeving en marktdynamiek in Mining activiteiten
+
+
+#### Gevolgen regelgeving
+
+
+Regelgeving speelt een belangrijke rol bij het vormgeven van het Mining landschap. Het Chinese verbod op Mining had bijvoorbeeld ingrijpende gevolgen voor de wereldwijde Mining-activiteiten, waardoor het Hash-netwerktarief aanzienlijk daalde en de Mining-macht over verschillende regio's werd herverdeeld.
+
+
+#### Marktdynamiek
+
+
+1. **Beschikbaarheid en kosten van hardware**: De prijs en beschikbaarheid van ASIC miners worden beïnvloed door de marktprijs van Bitcoin. Een hoge vraag tijdens bullmarkten resulteert in schaarste en opgeblazen prijzen.
+
+2. **Hash waarde en Hash prijs**: Het onderscheid tussen Hash waarde (satoshis verdiend per terahash per dag) en Hash prijs (geldwaarde van het Hash tarief) is essentieel. Beide worden beïnvloed door de netwerkmoeilijkheden en de marktprijs van Bitcoin.
+
+
+#### Mining pools en beloningsmechanismen
+
+
+1. **Mining-pools**: Door middelen te combineren, zorgen Mining-pools voor stabielere beloningen, waardoor de variantie en het risico van solo Mining afnemen.
+
+2. **Beloningssystemen**: Verschillende beloningsmechanismen, zoals Pay-Per-Share (PPS) en proportionele beloningen, bieden verschillende risico- en beloningsprofielen voor miners.
+
+
+
+   - Betalen per aandeel**: Pay-Per-Share beloont miners voor elk geldig aandeel dat ze indienen, ongeacht of de pool een blok vindt. **Shares** zijn bewijseenheden dat miners het vereiste werk hebben gedaan en de pool verifieert deze shares.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proportioneel**: Het is afhankelijk van de Mining pool van een blok om de beloning gelijk te verdelen naar de bijdrage van de Miner aan de totale Hashrate van de pool.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Toekomst van Mining
+
+
+Naarmate blokbeloningen afnemen, zullen miners steeds meer vertrouwen op transactievergoedingen. Deze verschuiving doet de vraag rijzen of transactievergoedingen alleen voldoende stimulansen zullen bieden voor miners om het netwerk te blijven beveiligen.
+
+
+#### Gehost Mining
+
+
+Gehoste Mining diensten kunnen lagere operationele kosten bieden, maar komen met risico's zoals gebrek aan controle en de mogelijkheid tot fraude. Een goede due diligence is nodig om deze risico's te beperken.
+
+
+#### Veiligheid en efficiëntie
+
+
+Geavanceerde beveiligingsprotocollen en het gebruik van hernieuwbare energie verhogen niet alleen de winstgevendheid, maar dragen ook bij aan de duurzame groei van het Mining ecosysteem.
+
+
+Concluderend, de wereld van Bitcoin Mining is een complex, veelzijdig domein dat een diep begrip vereist van de technische, strategische, regelgevende en marktdynamiek. Of je nu een doorgewinterde Miner bent of net begint, op de hoogte blijven en je kunnen aanpassen is de sleutel tot succes in dit steeds veranderende veld. Dank u voor uw aandacht en ik kijk uit naar uw vragen en discussies.
+
+
+
 # Layer Eén concepten
 
 
@@ -3243,183 +3417,6 @@ Protocollen zoals **LNURL** en **Bolt 12** stroomlijnen betalingen door handmati
 De uitbreiding en integratie van Lightning-betalingen via verschillende protocollen en use cases laten de dynamische evolutie van de Lightning Network zien. Van het verbeteren van de basisfunctionaliteit van betalingen tot het introduceren van geavanceerde bedrijfsmodellen en cryptografische protocollen, de toekomst van Lightning belooft veel goeds voor innovatie en wijdverspreide acceptatie.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Essentiële onderdelen
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Inleiding
-
-
-Ajelex richt zich op het zakelijke aspect van Bitcoin Mining en onderzoekt strategieën om winstgevend te blijven in een concurrerende markt. De discussie omvat een analyse van operationele kosten, efficiëntiemaatregelen en de economische drijfveren van de Mining industrie.
-
-
-### 1. Mining complexiteit en rentabiliteitsfactoren
-
-
-#### Technische en strategische factoren
-
-
-Mining complexiteit in de context van Bitcoin betreft voornamelijk de technische en strategische Elements die de winstgevendheid van Mining operaties bepalen. Het is cruciaal om te begrijpen dat Mining niet zomaar een kansspel is, maar een geavanceerd proces dat zorgvuldige planning en voortdurende optimalisatie vereist.
-
-
-#### Belangrijke winstgevendheidsfactoren
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Elektriciteitskosten**: Een van de belangrijkste factoren die de winstgevendheid van Mining beïnvloeden, zijn de elektriciteitskosten. In regio's zoals Frankrijk kan elektriciteit relatief duur zijn in vergelijking met landen zoals El Salvador, waar lagere kosten een concurrentievoordeel bieden voor mijnwerkers.
-
-2. **Hardware-efficiëntie**: De efficiëntie van Mining hardware, gemeten aan de Hash snelheid en het energieverbruik, speelt een cruciale rol. Geavanceerde ASIC miners zoals de S19J Pro zijn veel efficiënter dan oudere modellen zoals de Antminer S9.
-
-3. **Tijdsperiode**: Bitcoin Mining stimuleert langetermijnplanning.
-
-4. **BTC-prijs**: De BTC-prijs is essentieel om de winstgevendheid van Mining te bepalen.
-
-5. **Netwerkmoeilijkheid**: De netwerkmoeilijkheid staat voor de hoeveelheid Hashrate die gemiddeld nodig is om een blok te delven in 10 minuten.
-
-6. **Strategische hulpmiddelen**: Tools zoals [braiins.com](https://insights.braiins.com) zijn van onschatbare waarde voor het berekenen van winstgevendheid en het helpen van mijnwerkers bij het nemen van datagestuurde beslissingen.
-
-
-#### Praktische toepassing
-
-
-Uit persoonlijke ervaring heb ik zelfs Mining gebruikt om mijn appartement in Frankrijk te verwarmen, waarbij ik op een creatieve manier de elektriciteitskosten compenseerde door Mining Bitcoin te gebruiken. Dit voorbeeld toont aan hoe praktisch het is om Mining in het dagelijks leven te integreren voor extra voordelen.
-
-
-#### Knelpunten in Mining
-
-
-Miners hebben te maken met drie primaire knelpunten: de beschikbaarheid van hardware, toegang tot energie en het kapitaal dat nodig is om de activiteiten in stand te houden. De schaarste aan ASIC's door de grote vraag leidt vaak tot lange wachttijden en opgeblazen prijzen, wat het Mining landschap nog ingewikkelder maakt.
-
-
-
-- Voorbeeld van **Energie knelpunt**.
-
-In 2021 verbood de Chinese overheid Mining op haar grondgebied, waardoor Mining-bedrijven in China geen toegang meer hadden tot energie. Dit resulteerde in een daling van de Hashrate met **50%** in twee weken.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Evolutie en efficiëntie van Mining hardware
-
-
-#### Historische evolutie
-
-
-De reis van Mining hardware is monumentaal geweest, beginnend van eenvoudige CPU Mining tot de zeer gespecialiseerde ASIC miners die we vandaag de dag gebruiken.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: In de begindagen werd Mining uitgevoerd met gewone computerprocessors (CPU's). Deze methode werd snel voorbijgestreefd toen het netwerk groeide.
-
-2. **GPU Mining**: Graphics Processing Units (GPU's) zorgden voor een aanzienlijke toename in Mining efficiëntie, waardoor CPU's overbodig werden voor Mining doeleinden.
-
-3. **FPGA Mining**: Field-Programmable Gate Arrays (FPGA's) boden nog betere prestaties en energie-efficiëntie dan GPU's.
-
-4. **ASIC Mining**: Application-Specific Integrated Circuits (ASIC's) vertegenwoordigen het summum van Mining hardware-efficiëntie, speciaal ontworpen voor Mining bewerkingen met ongeëvenaarde prestaties.
-
-
-#### Gedetailleerde vergelijking: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: De S19J Pro staat bekend om zijn hoge efficiëntie en betrouwbaarheid en biedt een superieure Hash snelheid met een lager energieverbruik, waardoor hij ideaal is voor grootschalige toepassingen.
-- Antminer S9**: Hoewel hij ouder en minder efficiënt is, blijft de Antminer S9 populair voor kleinere setups en hobbyisten vanwege zijn betaalbaarheid en degelijke prestaties.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining efficiëntie en leren
-
-
-Mining biedt niet alleen financiële beloningen, maar ook waardevolle praktijkervaring. KYC-vrije bitcoins verwerven via Mining kan aantrekkelijk zijn voor wie zich zorgen maakt over privacy.
-
-
-#### Geavanceerde gereedschappen en technieken
-
-
-Aftermarket software kan de efficiëntie en functionaliteit van Mining hardware verbeteren. Tools die optimalisatie en auto-tuning mogelijkheden bieden, zorgen ervoor dat elke chip op maximale efficiëntie werkt en Hash snelheid en stroomverbruik effectief in balans brengt.
-
-
----
-
-### 3. Regelgeving en marktdynamiek in Mining activiteiten
-
-
-#### Gevolgen regelgeving
-
-
-Regelgeving speelt een belangrijke rol bij het vormgeven van het Mining landschap. Het Chinese verbod op Mining had bijvoorbeeld ingrijpende gevolgen voor de wereldwijde Mining-activiteiten, waardoor het Hash-netwerktarief aanzienlijk daalde en de Mining-macht over verschillende regio's werd herverdeeld.
-
-
-#### Marktdynamiek
-
-
-1. **Beschikbaarheid en kosten van hardware**: De prijs en beschikbaarheid van ASIC miners worden beïnvloed door de marktprijs van Bitcoin. Een hoge vraag tijdens bullmarkten resulteert in schaarste en opgeblazen prijzen.
-
-2. **Hash waarde en Hash prijs**: Het onderscheid tussen Hash waarde (satoshis verdiend per terahash per dag) en Hash prijs (geldwaarde van het Hash tarief) is essentieel. Beide worden beïnvloed door de netwerkmoeilijkheden en de marktprijs van Bitcoin.
-
-
-#### Mining pools en beloningsmechanismen
-
-
-1. **Mining-pools**: Door middelen te combineren, zorgen Mining-pools voor stabielere beloningen, waardoor de variantie en het risico van solo Mining afnemen.
-
-2. **Beloningssystemen**: Verschillende beloningsmechanismen, zoals Pay-Per-Share (PPS) en proportionele beloningen, bieden verschillende risico- en beloningsprofielen voor miners.
-
-
-
-   - Betalen per aandeel**: Pay-Per-Share beloont miners voor elk geldig aandeel dat ze indienen, ongeacht of de pool een blok vindt. **Shares** zijn bewijseenheden dat miners het vereiste werk hebben gedaan en de pool verifieert deze shares.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proportioneel**: Het is afhankelijk van de Mining pool van een blok om de beloning gelijk te verdelen naar de bijdrage van de Miner aan de totale Hashrate van de pool.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Toekomst van Mining
-
-
-Naarmate blokbeloningen afnemen, zullen miners steeds meer vertrouwen op transactievergoedingen. Deze verschuiving doet de vraag rijzen of transactievergoedingen alleen voldoende stimulansen zullen bieden voor miners om het netwerk te blijven beveiligen.
-
-
-#### Gehost Mining
-
-
-Gehoste Mining diensten kunnen lagere operationele kosten bieden, maar komen met risico's zoals gebrek aan controle en de mogelijkheid tot fraude. Een goede due diligence is nodig om deze risico's te beperken.
-
-
-#### Veiligheid en efficiëntie
-
-
-Geavanceerde beveiligingsprotocollen en het gebruik van hernieuwbare energie verhogen niet alleen de winstgevendheid, maar dragen ook bij aan de duurzame groei van het Mining ecosysteem.
-
-
-Concluderend, de wereld van Bitcoin Mining is een complex, veelzijdig domein dat een diep begrip vereist van de technische, strategische, regelgevende en marktdynamiek. Of je nu een doorgewinterde Miner bent of net begint, op de hoogte blijven en je kunnen aanpassen is de sleutel tot succes in dit steeds veranderende veld. Dank u voor uw aandacht en ik kijk uit naar uw vragen en discussies.
 
 
 ## Joinmarket begrijpen
@@ -3434,68 +3431,3 @@ Concluderend, de wereld van Bitcoin Mining is een complex, veelzijdig domein dat
 
 Adam Gibson geeft inzicht in Joinmarket en beschrijft hoe deze CoinJoin implementatie de privacy en fungibiliteit van Bitcoin verbetert. Hij bespreekt hoe Joinmarket collaboratieve, Trustless en anonieme transacties mogelijk maakt binnen het Bitcoin ecosysteem. In een tweede deel laat hij zien hoe Joinmarket in Signet werkt.
 
-
-## Cubo+ Eerstejaars Hackathon
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - De Satoshi erfenis
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-De Satoshi Legacy's groep presenteert hun werk aan het bouwen van een Lightning e-commerce met Shopify, React JS en Hydrogen en de IBEX betalingsgateway.
-
-
-### Groupe 2 Hackathon - Honingdas
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badger's groep presenteert haar oplossing voor een blog met ingebouwde Lightning Powered Micropayments met behulp van LnBits en Next.js, Node.js en Hydrogen.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-De derde groep presenteert een Lightning Network Node Dashboard via een aangepaste API, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Satoshi beurs
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi's Fellowshipgroep presenteert een LN gaming-app met behulp van LnBits en MongoDB, Poetry, Node.js.
-
-
-### Groupe 5 Hackathon - Lichtwandelaar
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walker's groep presenteert hun oplossing voor Remittances Service met MySQL, JavaScript en ZDB's API.
-
-
-# Laatste Sectie
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Beoordelingen
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Conclusie
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

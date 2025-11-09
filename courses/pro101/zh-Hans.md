@@ -1428,6 +1428,180 @@ Bitcoin 的共识机制使其具有固有的政治性，需要获得广泛同意
 总之，Bitcoin 的未来和变化取决于用户的集体意愿。重大变革需要达成广泛共识，这反映了 Bitcoin 治理的分散性和政治性。
 
 
+## Bitcoin Mining 基本型
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### 导言
+
+
+Ajelex 重点关注 Bitcoin Mining 的业务方面，研究在竞争激烈的市场中保持盈利能力的策略。讨论包括对运营成本、效率措施和推动 Mining 行业发展的经济因素的分析。
+
+
+### 1.Mining 的复杂性和盈利因素
+
+
+#### 技术和战略因素
+
+
+就 Bitcoin 而言，Mining 的复杂性主要涉及决定 Mining 运营盈利能力的技术和战略 Elements。关键是要明白，Mining 不仅仅是一种概率游戏，而是一个需要精心策划和不断优化的复杂过程。
+
+
+#### 主要盈利因素
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **电费**：电力成本是影响 Mining 盈利能力的最重要因素之一。在法国等地区，电费可能相对昂贵，而在萨尔瓦多等国家，较低的电费为矿工提供了竞争优势。
+
+2. **硬件效率**：Mining 硬件的效率以 Hash 的速率和功耗来衡量，起着举足轻重的作用。S19J Pro 等先进的 ASIC 型矿机的效率远远高于 Antminer S9 等老型号矿机。
+
+3. **时间段**：Bitcoin Mining 鼓励长期规划。
+
+4. **BTC 价格**：BTC 价格是决定 Mining 盈利能力的关键。
+
+5. **网络难度**：网络难度表示在 10 分钟内开采一个区块所需的平均 Hashrate 数量。
+
+6. **战略工具**：[braiins.com](https://insights.braiins.com)等工具对于计算盈利能力和帮助矿工做出数据驱动型决策非常有价值。
+
+
+#### 实际应用
+
+
+根据个人经验，我甚至用 Mining 为我在法国的公寓供暖，在 Mining Bitcoin 的同时创造性地抵消了电费。这个例子强调了将 Mining 的操作融入日常生活以获得更多益处的实用性。
+
+
+#### Mining 的瓶颈
+
+
+矿工面临三个主要瓶颈：硬件供应、能源供应和维持运营所需的资金。由于需求量大，专用集成电路（ASIC）稀缺，往往导致等待时间过长和价格虚高，使 Mining 的情况更加复杂。
+
+
+
+- 能源瓶颈**的例子。
+
+2021 年，中国政府禁止在其境内使用 Mining，导致中国的 Mining 公司无法获得能源。这导致 Hashrate 在两周内下跌了**50%**。
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2.Mining 硬件的演变和效率
+
+
+#### 历史演变
+
+
+从简单的 CPU Mining 到我们今天使用的高度专业化的 ASIC 矿机，Mining 硬件走过了不平凡的历程。
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**：早期，Mining 使用普通计算机处理器 (CPU)。随着网络的发展，这种方法很快被淘汰。
+
+2. **图形处理器 Mining**：图形处理器（GPU）极大地提高了 Mining 的效率，使 CPU 在 Mining 中变得过时。
+
+3. **FPGA Mining**：现场可编程门阵列（FPGA）的性能和能效甚至优于 GPU。
+
+4. **ASIC Mining**：专用集成电路 (ASIC) 代表了 Mining 硬件效率的顶峰，专为 Mining 操作而设计，具有无与伦比的性能。
+
+
+#### 详细比较：S19J Pro 与 Antminer S9 的比较
+
+
+
+- S19J Pro**：S19J Pro 以高效率和高可靠性著称，它的 Hash 速率更高，功耗更低，是大规模操作的理想之选。
+- Antminer S9**：虽然 Antminer S9 型号较老，效率较低，但由于其价格适中、性能良好，仍然受到小型设备和业余爱好者的欢迎。
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining 的效率和学习
+
+
+Mining 不仅提供经济回报，还提供宝贵的实践经验。通过 Mining 获取无需 KYC 的比特币对那些关注隐私的人来说是一个很有吸引力的提议。
+
+
+#### 高级工具和技术
+
+
+售后市场软件可以提高 Mining 硬件的效率和功能。提供优化和自动调整功能的工具可确保每个芯片以最高效率运行，有效平衡 Hash 的速率和功耗。
+
+
+---
+
+### 3.Mining 业务的监管和市场动态
+
+
+#### 监管影响
+
+
+监管在塑造 Mining 格局方面发挥着重要作用。例如，中国的 Mining 禁令对全球 Mining 运营产生了深远影响，导致网络 Hash 率大幅下降，并导致 Mining 功率在不同地区重新分配。
+
+
+#### 市场动态
+
+
+1. **硬件供应和成本**：ASIC 矿机的价格和供应情况受 Bitcoin 市场价格的影响。牛市期间的高需求导致稀缺和价格膨胀。
+
+2. **Hash 价值和 Hash 价格**：了解 Hash 价值（每天每太赫兹赚取的卫星币）和 Hash 价格（Hash 汇率的货币价值）之间的区别至关重要。两者都受到网络难度和 Bitcoin 市场价格的影响。
+
+
+#### Mining 奖池和奖励机制
+
+
+1. **Mining资源池**：通过整合资源，Mining 奖池可提供更稳定的奖励，减少与单人 Mining 相关的差异和风险。
+
+2. **奖励计划**：不同的奖励机制，如按份额付费（PPS）和按比例奖励，为矿工提供了不同的风险和奖励情况。
+
+
+
+   - 按份额付费**：按份额付费**：矿工每提交一份有效份额，无论矿池是否找到区块，都可获得奖励。 **份额**是证明矿工已完成所需工作的单位，矿池对这些份额进行验证。
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - 比例**：根据区块 Mining 的池 Miner 对池总 Hashrate 的贡献平均分配奖励。
+
+
+![prop](assets/en/061.webp)
+
+
+#### Mining 的未来
+
+
+随着区块奖励的减少，矿工将越来越依赖交易费。这一转变引发了人们的担忧：仅靠交易费能否为矿工继续保护网络安全提供足够的激励？
+
+
+#### 托管 Mining
+
+
+托管 Mining 服务可以降低运营成本，但也存在风险，如缺乏控制和潜在欺诈。要降低这些风险，必须进行适当的尽职调查。
+
+
+#### 安全和效率
+
+
+先进的安全协议和可再生能源的使用不仅提高了盈利能力，还有助于 Mining 生态系统的可持续发展。
+
+
+总之，Bitcoin Mining 的世界是一个复杂、多面的领域，需要对技术、战略、监管和市场动态有深入的了解。无论您是经验丰富的 Miner 还是刚刚起步，保持信息灵通和适应能力都是在这个不断发展的领域取得成功的关键。感谢您的关注，我期待着您的提问和讨论。
+
+
+
 # Layer 一个概念
 
 
@@ -3243,183 +3417,6 @@ blinded 路径旨在增强 Lightning Network 中接收者的隐私。它们模�
 闪电支付通过各种协议和用例进行扩展和整合，展示了Lightning Network的动态发展。从改进支付的基本功能到引入先进的业务模式和加密协议，闪电支付的未来为创新和广泛采用带来了巨大的希望。
 
 
-# 奖金
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining 基本型
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### 导言
-
-
-Ajelex 重点关注 Bitcoin Mining 的业务方面，研究在竞争激烈的市场中保持盈利能力的策略。讨论包括对运营成本、效率措施和推动 Mining 行业发展的经济因素的分析。
-
-
-### 1.Mining 的复杂性和盈利因素
-
-
-#### 技术和战略因素
-
-
-就 Bitcoin 而言，Mining 的复杂性主要涉及决定 Mining 运营盈利能力的技术和战略 Elements。关键是要明白，Mining 不仅仅是一种概率游戏，而是一个需要精心策划和不断优化的复杂过程。
-
-
-#### 主要盈利因素
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **电费**：电力成本是影响 Mining 盈利能力的最重要因素之一。在法国等地区，电费可能相对昂贵，而在萨尔瓦多等国家，较低的电费为矿工提供了竞争优势。
-
-2. **硬件效率**：Mining 硬件的效率以 Hash 的速率和功耗来衡量，起着举足轻重的作用。S19J Pro 等先进的 ASIC 型矿机的效率远远高于 Antminer S9 等老型号矿机。
-
-3. **时间段**：Bitcoin Mining 鼓励长期规划。
-
-4. **BTC 价格**：BTC 价格是决定 Mining 盈利能力的关键。
-
-5. **网络难度**：网络难度表示在 10 分钟内开采一个区块所需的平均 Hashrate 数量。
-
-6. **战略工具**：[braiins.com](https://insights.braiins.com)等工具对于计算盈利能力和帮助矿工做出数据驱动型决策非常有价值。
-
-
-#### 实际应用
-
-
-根据个人经验，我甚至用 Mining 为我在法国的公寓供暖，在 Mining Bitcoin 的同时创造性地抵消了电费。这个例子强调了将 Mining 的操作融入日常生活以获得更多益处的实用性。
-
-
-#### Mining 的瓶颈
-
-
-矿工面临三个主要瓶颈：硬件供应、能源供应和维持运营所需的资金。由于需求量大，专用集成电路（ASIC）稀缺，往往导致等待时间过长和价格虚高，使 Mining 的情况更加复杂。
-
-
-
-- 能源瓶颈**的例子。
-
-2021 年，中国政府禁止在其境内使用 Mining，导致中国的 Mining 公司无法获得能源。这导致 Hashrate 在两周内下跌了**50%**。
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2.Mining 硬件的演变和效率
-
-
-#### 历史演变
-
-
-从简单的 CPU Mining 到我们今天使用的高度专业化的 ASIC 矿机，Mining 硬件走过了不平凡的历程。
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**：早期，Mining 使用普通计算机处理器 (CPU)。随着网络的发展，这种方法很快被淘汰。
-
-2. **图形处理器 Mining**：图形处理器（GPU）极大地提高了 Mining 的效率，使 CPU 在 Mining 中变得过时。
-
-3. **FPGA Mining**：现场可编程门阵列（FPGA）的性能和能效甚至优于 GPU。
-
-4. **ASIC Mining**：专用集成电路 (ASIC) 代表了 Mining 硬件效率的顶峰，专为 Mining 操作而设计，具有无与伦比的性能。
-
-
-#### 详细比较：S19J Pro 与 Antminer S9 的比较
-
-
-
-- S19J Pro**：S19J Pro 以高效率和高可靠性著称，它的 Hash 速率更高，功耗更低，是大规模操作的理想之选。
-- Antminer S9**：虽然 Antminer S9 型号较老，效率较低，但由于其价格适中、性能良好，仍然受到小型设备和业余爱好者的欢迎。
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining 的效率和学习
-
-
-Mining 不仅提供经济回报，还提供宝贵的实践经验。通过 Mining 获取无需 KYC 的比特币对那些关注隐私的人来说是一个很有吸引力的提议。
-
-
-#### 高级工具和技术
-
-
-售后市场软件可以提高 Mining 硬件的效率和功能。提供优化和自动调整功能的工具可确保每个芯片以最高效率运行，有效平衡 Hash 的速率和功耗。
-
-
----
-
-### 3.Mining 业务的监管和市场动态
-
-
-#### 监管影响
-
-
-监管在塑造 Mining 格局方面发挥着重要作用。例如，中国的 Mining 禁令对全球 Mining 运营产生了深远影响，导致网络 Hash 率大幅下降，并导致 Mining 功率在不同地区重新分配。
-
-
-#### 市场动态
-
-
-1. **硬件供应和成本**：ASIC 矿机的价格和供应情况受 Bitcoin 市场价格的影响。牛市期间的高需求导致稀缺和价格膨胀。
-
-2. **Hash 价值和 Hash 价格**：了解 Hash 价值（每天每太赫兹赚取的卫星币）和 Hash 价格（Hash 汇率的货币价值）之间的区别至关重要。两者都受到网络难度和 Bitcoin 市场价格的影响。
-
-
-#### Mining 奖池和奖励机制
-
-
-1. **Mining资源池**：通过整合资源，Mining 奖池可提供更稳定的奖励，减少与单人 Mining 相关的差异和风险。
-
-2. **奖励计划**：不同的奖励机制，如按份额付费（PPS）和按比例奖励，为矿工提供了不同的风险和奖励情况。
-
-
-
-   - 按份额付费**：按份额付费**：矿工每提交一份有效份额，无论矿池是否找到区块，都可获得奖励。 **份额**是证明矿工已完成所需工作的单位，矿池对这些份额进行验证。
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - 比例**：根据区块 Mining 的池 Miner 对池总 Hashrate 的贡献平均分配奖励。
-
-
-![prop](assets/en/061.webp)
-
-
-#### Mining 的未来
-
-
-随着区块奖励的减少，矿工将越来越依赖交易费。这一转变引发了人们的担忧：仅靠交易费能否为矿工继续保护网络安全提供足够的激励？
-
-
-#### 托管 Mining
-
-
-托管 Mining 服务可以降低运营成本，但也存在风险，如缺乏控制和潜在欺诈。要降低这些风险，必须进行适当的尽职调查。
-
-
-#### 安全和效率
-
-
-先进的安全协议和可再生能源的使用不仅提高了盈利能力，还有助于 Mining 生态系统的可持续发展。
-
-
-总之，Bitcoin Mining 的世界是一个复杂、多面的领域，需要对技术、战略、监管和市场动态有深入的了解。无论您是经验丰富的 Miner 还是刚刚起步，保持信息灵通和适应能力都是在这个不断发展的领域取得成功的关键。感谢您的关注，我期待着您的提问和讨论。
 
 
 ## 了解加盟市场
@@ -3434,68 +3431,3 @@ Mining 不仅提供经济回报，还提供宝贵的实践经验。通过 Mining
 
 亚当-吉布森（Adam Gibson）对 Joinmarket 进行了深入探讨，详细介绍了这一 CoinJoin 实施方案如何增强 Bitcoin 的隐私性和可替代性。他讨论了 Joinmarket 如何在 Bitcoin 生态系统中促进协作、Trustless 和匿名交易。然后在第二部分，他展示了如何在 Signet 中运行 Joinmarket。
 
-
-## Cubo+ 一年级黑客马拉松
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 黑客马拉松 - Satoshi 的遗产
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Satoshi Legacy 小组介绍了他们利用 Shopify、React JS 和 Hydrogen 以及 IBEX 支付网关构建闪电电子商务的工作。
-
-
-### Groupe 2 黑客马拉松 - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badger 小组介绍了她使用 LnBits 和 Next.js、Node.js 和 Hydrogen 为博客内置闪电小额支付的解决方案。
-
-
-### Groupe 3 黑客马拉松
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-第三组通过自定义 API、LND、vue.js、node.js、Bootstrap 演示 Lightning Network Node Dashboard。
-
-
-### Groupe 4 黑客马拉松 - Satoshi 奖学金
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi 的联谊会小组介绍了使用 LnBits 和 MongoDB、Poetry、Node.js 的 LN 游戏应用程序。
-
-
-### Groupe 5 黑客马拉松--照明行者
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walker 小组介绍了他们使用 MySQL、JavaScript 和 ZDB API 提供汇款服务的解决方案。
-
-
-# 最后部分
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## 评论与评级
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## 结论
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

@@ -1428,6 +1428,180 @@ Chúng ta hãy cùng xem qua một số khái niệm quan trọng.
 Tóm lại, tương lai và những thay đổi của Bitcoin được quyết định bởi ý chí chung của người dùng. Những thay đổi quan trọng đòi hỏi sự đồng thuận rộng rãi, phản ánh bản chất phi tập trung và chính trị trong quản trị của Bitcoin.
 
 
+## Những điều cần biết về Bitcoin Mining
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Giới thiệu
+
+
+Ajelex tập trung vào khía cạnh kinh doanh của Bitcoin và Mining, xem xét các chiến lược duy trì lợi nhuận trong một thị trường cạnh tranh. Nội dung thảo luận bao gồm phân tích chi phí vận hành, các biện pháp hiệu quả và các yếu tố kinh tế thúc đẩy ngành công nghiệp Mining.
+
+
+### 1. Các yếu tố phức tạp và lợi nhuận của Mining
+
+
+#### Các yếu tố kỹ thuật và chiến lược
+
+
+Độ phức tạp của Mining trong bối cảnh của Bitcoin chủ yếu liên quan đến Elements về mặt kỹ thuật và chiến lược, những yếu tố quyết định lợi nhuận của hoạt động Mining. Điều quan trọng cần hiểu là Mining không chỉ là một trò chơi may rủi mà là một quy trình phức tạp đòi hỏi sự lập kế hoạch cẩn thận và tối ưu hóa liên tục.
+
+
+#### Các yếu tố lợi nhuận chính
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Chi phí điện**: Một trong những yếu tố quan trọng nhất ảnh hưởng đến lợi nhuận của Mining là chi phí điện. Ở những khu vực như Pháp, giá điện có thể tương đối đắt so với các quốc gia như El Salvador, nơi chi phí điện thấp hơn mang lại lợi thế cạnh tranh cho thợ đào.
+
+2. **Hiệu suất phần cứng**: Hiệu suất của phần cứng Mining, được đo bằng tốc độ xử lý và mức tiêu thụ điện năng của Hash, đóng vai trò then chốt. Các máy đào ASIC tiên tiến như S19J Pro hiệu suất cao hơn nhiều so với các mẫu cũ hơn như Antminer S9.
+
+3. **Thời gian**: Bitcoin Mining khuyến khích lập kế hoạch dài hạn.
+
+4. **Giá BTC**: Giá BTC là yếu tố quan trọng để xác định lợi nhuận của Mining.
+
+5. **Độ khó của mạng**: Độ khó của mạng biểu thị lượng Hashrate trung bình cần thiết để khai thác một khối trong 10 phút.
+
+6. **Công cụ chiến lược**: Các công cụ như [braiins.com](https://insights.braiins.com) rất hữu ích trong việc tính toán lợi nhuận và giúp thợ đào đưa ra quyết định dựa trên dữ liệu.
+
+
+#### Ứng dụng thực tế
+
+
+Theo kinh nghiệm cá nhân, tôi thậm chí còn sử dụng Mining để sưởi ấm căn hộ của mình ở Pháp, bù đắp chi phí điện một cách sáng tạo trong khi Mining Bitcoin. Ví dụ này nhấn mạnh tính thực tiễn của việc tích hợp các hoạt động của Mining vào cuộc sống hàng ngày để mang lại nhiều lợi ích hơn.
+
+
+#### Các nút thắt cổ chai trong Mining
+
+
+Các thợ đào phải đối mặt với ba trở ngại chính: tính khả dụng của phần cứng, khả năng tiếp cận năng lượng và vốn cần thiết để duy trì hoạt động. Sự khan hiếm ASIC do nhu cầu cao thường dẫn đến thời gian chờ đợi lâu và giá cả bị thổi phồng, làm phức tạp thêm bối cảnh của Mining.
+
+
+
+- Ví dụ về **Nút thắt năng lượng**.
+
+Năm 2021, chính phủ Trung Quốc đã cấm Mining trong lãnh thổ của mình, khiến các công ty Mining tại Trung Quốc mất khả năng tiếp cận năng lượng. Điều này dẫn đến việc sản lượng Hashrate giảm **50%** trong hai tuần.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Sự phát triển và hiệu quả của phần cứng Mining
+
+
+#### Sự tiến hóa lịch sử
+
+
+Hành trình của phần cứng Mining thật to lớn, bắt đầu từ CPU Mining đơn giản cho đến máy đào ASIC chuyên dụng mà chúng ta sử dụng ngày nay.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: Ban đầu, Mining được thực hiện bằng bộ xử lý máy tính thông thường (CPU). Phương pháp này nhanh chóng bị vượt mặt khi mạng lưới phát triển.
+
+2. **GPU Mining**: Bộ xử lý đồ họa (GPU) mang lại sự cải thiện đáng kể về hiệu suất của Mining, khiến CPU trở nên lỗi thời đối với mục đích sử dụng Mining.
+
+3. **FPGA Mining**: Mảng cổng lập trình được (FPGA) cung cấp hiệu suất và hiệu quả năng lượng thậm chí còn tốt hơn so với GPU.
+
+4. **ASIC Mining**: Mạch tích hợp ứng dụng cụ thể (ASIC) đại diện cho đỉnh cao về hiệu quả phần cứng của Mining, được thiết kế riêng cho hoạt động của Mining với hiệu suất vô song.
+
+
+#### So sánh chi tiết: S19J Pro so với Antminer S9
+
+
+
+- S19J Pro**: Được biết đến với hiệu suất và độ tin cậy cao, S19J Pro cung cấp tốc độ Hash vượt trội với mức tiêu thụ điện năng thấp hơn, lý tưởng cho các hoạt động quy mô lớn.
+- Antminer S9**: Mặc dù cũ hơn và kém hiệu quả hơn, Antminer S9 vẫn phổ biến đối với các thiết lập nhỏ hơn và những người đam mê vì giá cả phải chăng và hiệu suất tốt.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Hiệu quả và khả năng học tập của Mining
+
+
+Mining không chỉ mang lại phần thưởng tài chính mà còn mang đến những trải nghiệm thực tế quý giá. Việc sở hữu Bitcoin không cần KYC thông qua Mining có thể là một đề xuất hấp dẫn cho những ai quan tâm đến quyền riêng tư.
+
+
+#### Công cụ và kỹ thuật tiên tiến
+
+
+Phần mềm hậu mãi có thể nâng cao hiệu quả và chức năng của phần cứng Mining. Các công cụ cung cấp khả năng tối ưu hóa và tự động điều chỉnh đảm bảo mỗi chip hoạt động ở hiệu suất tối đa, cân bằng hiệu suất hoạt động và mức tiêu thụ điện năng của Hash một cách hiệu quả.
+
+
+---
+
+### 3. Động lực thị trường và quy định trong hoạt động của Mining
+
+
+#### Tác động quy định
+
+
+Quy định đóng vai trò quan trọng trong việc định hình bối cảnh Mining. Ví dụ, lệnh cấm Mining của Trung Quốc đã ảnh hưởng sâu sắc đến hoạt động Mining toàn cầu, khiến tốc độ Hash trên mạng lưới giảm đáng kể và dẫn đến việc phân phối lại công suất Mining trên các khu vực khác nhau.
+
+
+#### Biến động thị trường
+
+
+1. **Tính khả dụng và chi phí phần cứng**: Giá cả và tính khả dụng của máy đào ASIC chịu ảnh hưởng bởi giá thị trường của Bitcoin. Nhu cầu cao trong thị trường tăng giá dẫn đến tình trạng khan hiếm và giá bị thổi phồng.
+
+2. **Giá trị Hash và giá Hash**: Việc hiểu rõ sự khác biệt giữa giá trị Hash (số satoshi kiếm được trên mỗi terahash mỗi ngày) và giá Hash (giá trị tiền tệ của tỷ giá Hash) là rất quan trọng. Cả hai đều bị ảnh hưởng bởi độ khó của mạng lưới và giá thị trường của Bitcoin.
+
+
+#### Nhóm Mining và cơ chế thưởng
+
+
+1. **Nhóm Mining**: Bằng cách kết hợp các nguồn lực, nhóm Mining cung cấp phần thưởng ổn định hơn, giảm thiểu sự khác biệt và rủi ro liên quan đến Mining đơn lẻ.
+
+2. **Chương trình thưởng**: Các cơ chế thưởng khác nhau, như Trả theo cổ phần (PPS) và phần thưởng theo tỷ lệ, cung cấp nhiều mức độ rủi ro và phần thưởng khác nhau cho thợ đào.
+
+
+
+   - Trả theo cổ phần**: Trả theo cổ phần thưởng cho thợ đào cho mỗi cổ phần hợp lệ mà họ gửi, bất kể nhóm có tìm thấy khối hay không. **Cổ phần** là đơn vị chứng minh thợ đào đã hoàn thành công việc được yêu cầu và nhóm sẽ xác minh các cổ phần này.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Tỷ lệ**: Tùy thuộc vào khối Mining để phân phối phần thưởng một cách đồng đều cho sự đóng góp của Miner vào tổng số Hashrate của nhóm.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Tương lai của Mining
+
+
+Khi phần thưởng khối giảm dần, thợ đào sẽ ngày càng phụ thuộc vào phí giao dịch. Sự thay đổi này làm dấy lên lo ngại liệu chỉ riêng phí giao dịch có đủ để khuyến khích thợ đào tiếp tục bảo mật mạng lưới hay không.
+
+
+#### Đã lưu trữ Mining
+
+
+Dịch vụ Mining lưu trữ có thể mang lại chi phí vận hành thấp hơn nhưng đi kèm với những rủi ro như thiếu kiểm soát và khả năng gian lận. Cần phải thực hiện thẩm định cẩn trọng để giảm thiểu những rủi ro này.
+
+
+#### An ninh và hiệu quả
+
+
+Các giao thức bảo mật tiên tiến và việc sử dụng năng lượng tái tạo không chỉ tăng lợi nhuận mà còn góp phần vào sự tăng trưởng bền vững của hệ sinh thái Mining.
+
+
+Tóm lại, thế giới Bitcoin và Mining là một lĩnh vực phức tạp, đa diện, đòi hỏi sự hiểu biết sâu sắc về kỹ thuật, chiến lược, quy định và động lực thị trường. Dù bạn là người dày dạn kinh nghiệm trong lĩnh vực Miner hay mới bắt đầu, việc cập nhật thông tin và thích nghi là chìa khóa để phát triển mạnh mẽ trong lĩnh vực luôn biến đổi này. Cảm ơn sự quan tâm của quý vị và tôi rất mong nhận được các câu hỏi và thảo luận từ quý vị.
+
+
+
 # Layer Một khái niệm
 
 
@@ -3243,183 +3417,6 @@ Các giao thức như **LNURL** và **Bolt 12** hợp lý hóa các khoản than
 Việc mở rộng và tích hợp thanh toán Lightning thông qua nhiều giao thức và trường hợp sử dụng khác nhau cho thấy sự phát triển năng động của Lightning Network. Từ việc cải thiện chức năng cơ bản của thanh toán đến việc giới thiệu các mô hình kinh doanh tiên tiến và giao thức mã hóa, tương lai của Lightning hứa hẹn đáng kể về sự đổi mới và khả năng ứng dụng rộng rãi.
 
 
-# Thưởng
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Những điều cần biết về Bitcoin Mining
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Giới thiệu
-
-
-Ajelex tập trung vào khía cạnh kinh doanh của Bitcoin và Mining, xem xét các chiến lược duy trì lợi nhuận trong một thị trường cạnh tranh. Nội dung thảo luận bao gồm phân tích chi phí vận hành, các biện pháp hiệu quả và các yếu tố kinh tế thúc đẩy ngành công nghiệp Mining.
-
-
-### 1. Các yếu tố phức tạp và lợi nhuận của Mining
-
-
-#### Các yếu tố kỹ thuật và chiến lược
-
-
-Độ phức tạp của Mining trong bối cảnh của Bitcoin chủ yếu liên quan đến Elements về mặt kỹ thuật và chiến lược, những yếu tố quyết định lợi nhuận của hoạt động Mining. Điều quan trọng cần hiểu là Mining không chỉ là một trò chơi may rủi mà là một quy trình phức tạp đòi hỏi sự lập kế hoạch cẩn thận và tối ưu hóa liên tục.
-
-
-#### Các yếu tố lợi nhuận chính
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Chi phí điện**: Một trong những yếu tố quan trọng nhất ảnh hưởng đến lợi nhuận của Mining là chi phí điện. Ở những khu vực như Pháp, giá điện có thể tương đối đắt so với các quốc gia như El Salvador, nơi chi phí điện thấp hơn mang lại lợi thế cạnh tranh cho thợ đào.
-
-2. **Hiệu suất phần cứng**: Hiệu suất của phần cứng Mining, được đo bằng tốc độ xử lý và mức tiêu thụ điện năng của Hash, đóng vai trò then chốt. Các máy đào ASIC tiên tiến như S19J Pro hiệu suất cao hơn nhiều so với các mẫu cũ hơn như Antminer S9.
-
-3. **Thời gian**: Bitcoin Mining khuyến khích lập kế hoạch dài hạn.
-
-4. **Giá BTC**: Giá BTC là yếu tố quan trọng để xác định lợi nhuận của Mining.
-
-5. **Độ khó của mạng**: Độ khó của mạng biểu thị lượng Hashrate trung bình cần thiết để khai thác một khối trong 10 phút.
-
-6. **Công cụ chiến lược**: Các công cụ như [braiins.com](https://insights.braiins.com) rất hữu ích trong việc tính toán lợi nhuận và giúp thợ đào đưa ra quyết định dựa trên dữ liệu.
-
-
-#### Ứng dụng thực tế
-
-
-Theo kinh nghiệm cá nhân, tôi thậm chí còn sử dụng Mining để sưởi ấm căn hộ của mình ở Pháp, bù đắp chi phí điện một cách sáng tạo trong khi Mining Bitcoin. Ví dụ này nhấn mạnh tính thực tiễn của việc tích hợp các hoạt động của Mining vào cuộc sống hàng ngày để mang lại nhiều lợi ích hơn.
-
-
-#### Các nút thắt cổ chai trong Mining
-
-
-Các thợ đào phải đối mặt với ba trở ngại chính: tính khả dụng của phần cứng, khả năng tiếp cận năng lượng và vốn cần thiết để duy trì hoạt động. Sự khan hiếm ASIC do nhu cầu cao thường dẫn đến thời gian chờ đợi lâu và giá cả bị thổi phồng, làm phức tạp thêm bối cảnh của Mining.
-
-
-
-- Ví dụ về **Nút thắt năng lượng**.
-
-Năm 2021, chính phủ Trung Quốc đã cấm Mining trong lãnh thổ của mình, khiến các công ty Mining tại Trung Quốc mất khả năng tiếp cận năng lượng. Điều này dẫn đến việc sản lượng Hashrate giảm **50%** trong hai tuần.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Sự phát triển và hiệu quả của phần cứng Mining
-
-
-#### Sự tiến hóa lịch sử
-
-
-Hành trình của phần cứng Mining thật to lớn, bắt đầu từ CPU Mining đơn giản cho đến máy đào ASIC chuyên dụng mà chúng ta sử dụng ngày nay.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: Ban đầu, Mining được thực hiện bằng bộ xử lý máy tính thông thường (CPU). Phương pháp này nhanh chóng bị vượt mặt khi mạng lưới phát triển.
-
-2. **GPU Mining**: Bộ xử lý đồ họa (GPU) mang lại sự cải thiện đáng kể về hiệu suất của Mining, khiến CPU trở nên lỗi thời đối với mục đích sử dụng Mining.
-
-3. **FPGA Mining**: Mảng cổng lập trình được (FPGA) cung cấp hiệu suất và hiệu quả năng lượng thậm chí còn tốt hơn so với GPU.
-
-4. **ASIC Mining**: Mạch tích hợp ứng dụng cụ thể (ASIC) đại diện cho đỉnh cao về hiệu quả phần cứng của Mining, được thiết kế riêng cho hoạt động của Mining với hiệu suất vô song.
-
-
-#### So sánh chi tiết: S19J Pro so với Antminer S9
-
-
-
-- S19J Pro**: Được biết đến với hiệu suất và độ tin cậy cao, S19J Pro cung cấp tốc độ Hash vượt trội với mức tiêu thụ điện năng thấp hơn, lý tưởng cho các hoạt động quy mô lớn.
-- Antminer S9**: Mặc dù cũ hơn và kém hiệu quả hơn, Antminer S9 vẫn phổ biến đối với các thiết lập nhỏ hơn và những người đam mê vì giá cả phải chăng và hiệu suất tốt.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Hiệu quả và khả năng học tập của Mining
-
-
-Mining không chỉ mang lại phần thưởng tài chính mà còn mang đến những trải nghiệm thực tế quý giá. Việc sở hữu Bitcoin không cần KYC thông qua Mining có thể là một đề xuất hấp dẫn cho những ai quan tâm đến quyền riêng tư.
-
-
-#### Công cụ và kỹ thuật tiên tiến
-
-
-Phần mềm hậu mãi có thể nâng cao hiệu quả và chức năng của phần cứng Mining. Các công cụ cung cấp khả năng tối ưu hóa và tự động điều chỉnh đảm bảo mỗi chip hoạt động ở hiệu suất tối đa, cân bằng hiệu suất hoạt động và mức tiêu thụ điện năng của Hash một cách hiệu quả.
-
-
----
-
-### 3. Động lực thị trường và quy định trong hoạt động của Mining
-
-
-#### Tác động quy định
-
-
-Quy định đóng vai trò quan trọng trong việc định hình bối cảnh Mining. Ví dụ, lệnh cấm Mining của Trung Quốc đã ảnh hưởng sâu sắc đến hoạt động Mining toàn cầu, khiến tốc độ Hash trên mạng lưới giảm đáng kể và dẫn đến việc phân phối lại công suất Mining trên các khu vực khác nhau.
-
-
-#### Biến động thị trường
-
-
-1. **Tính khả dụng và chi phí phần cứng**: Giá cả và tính khả dụng của máy đào ASIC chịu ảnh hưởng bởi giá thị trường của Bitcoin. Nhu cầu cao trong thị trường tăng giá dẫn đến tình trạng khan hiếm và giá bị thổi phồng.
-
-2. **Giá trị Hash và giá Hash**: Việc hiểu rõ sự khác biệt giữa giá trị Hash (số satoshi kiếm được trên mỗi terahash mỗi ngày) và giá Hash (giá trị tiền tệ của tỷ giá Hash) là rất quan trọng. Cả hai đều bị ảnh hưởng bởi độ khó của mạng lưới và giá thị trường của Bitcoin.
-
-
-#### Nhóm Mining và cơ chế thưởng
-
-
-1. **Nhóm Mining**: Bằng cách kết hợp các nguồn lực, nhóm Mining cung cấp phần thưởng ổn định hơn, giảm thiểu sự khác biệt và rủi ro liên quan đến Mining đơn lẻ.
-
-2. **Chương trình thưởng**: Các cơ chế thưởng khác nhau, như Trả theo cổ phần (PPS) và phần thưởng theo tỷ lệ, cung cấp nhiều mức độ rủi ro và phần thưởng khác nhau cho thợ đào.
-
-
-
-   - Trả theo cổ phần**: Trả theo cổ phần thưởng cho thợ đào cho mỗi cổ phần hợp lệ mà họ gửi, bất kể nhóm có tìm thấy khối hay không. **Cổ phần** là đơn vị chứng minh thợ đào đã hoàn thành công việc được yêu cầu và nhóm sẽ xác minh các cổ phần này.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Tỷ lệ**: Tùy thuộc vào khối Mining để phân phối phần thưởng một cách đồng đều cho sự đóng góp của Miner vào tổng số Hashrate của nhóm.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Tương lai của Mining
-
-
-Khi phần thưởng khối giảm dần, thợ đào sẽ ngày càng phụ thuộc vào phí giao dịch. Sự thay đổi này làm dấy lên lo ngại liệu chỉ riêng phí giao dịch có đủ để khuyến khích thợ đào tiếp tục bảo mật mạng lưới hay không.
-
-
-#### Đã lưu trữ Mining
-
-
-Dịch vụ Mining lưu trữ có thể mang lại chi phí vận hành thấp hơn nhưng đi kèm với những rủi ro như thiếu kiểm soát và khả năng gian lận. Cần phải thực hiện thẩm định cẩn trọng để giảm thiểu những rủi ro này.
-
-
-#### An ninh và hiệu quả
-
-
-Các giao thức bảo mật tiên tiến và việc sử dụng năng lượng tái tạo không chỉ tăng lợi nhuận mà còn góp phần vào sự tăng trưởng bền vững của hệ sinh thái Mining.
-
-
-Tóm lại, thế giới Bitcoin và Mining là một lĩnh vực phức tạp, đa diện, đòi hỏi sự hiểu biết sâu sắc về kỹ thuật, chiến lược, quy định và động lực thị trường. Dù bạn là người dày dạn kinh nghiệm trong lĩnh vực Miner hay mới bắt đầu, việc cập nhật thông tin và thích nghi là chìa khóa để phát triển mạnh mẽ trong lĩnh vực luôn biến đổi này. Cảm ơn sự quan tâm của quý vị và tôi rất mong nhận được các câu hỏi và thảo luận từ quý vị.
 
 
 ## Hiểu về Joinmarket
@@ -3434,68 +3431,3 @@ Tóm lại, thế giới Bitcoin và Mining là một lĩnh vực phức tạp, 
 
 Adam Gibson chia sẻ góc nhìn sâu sắc về Joinmarket, trình bày chi tiết cách triển khai CoinJoin này nâng cao tính riêng tư và khả năng thay thế của Bitcoin. Ông thảo luận về cách Joinmarket tạo điều kiện cho các giao dịch cộng tác, Trustless và ẩn danh trong hệ sinh thái Bitcoin. Sau đó, trong phần thứ hai, ông sẽ hướng dẫn cách vận hành Joinmarket trong Signet.
 
-
-## Cuộc thi hackathon Cubo+ năm đầu tiên
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Nhóm 1 Hackathon - Di sản Satoshi
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Nhóm Satoshi Legacy trình bày công trình xây dựng thương mại điện tử Lightning với Shopify, React JS và Hydrogen cùng cổng thanh toán IBEX.
-
-
-### Nhóm 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Nhóm của Honey Badger trình bày giải pháp của cô cho một blog có tích hợp Micropayments chạy bằng Lightning thông qua việc sử dụng LnBits và Next.js, Node.js và Hydrogen.
-
-
-### Nhóm 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Nhóm thứ ba trình bày Lightning Network Node Dashboard thông qua API tùy chỉnh, LND, vue.js, node.js, Bootstrap.
-
-
-### Nhóm 4 Hackathon - Học bổng Satoshi
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Nhóm nghiên cứu Satoshi trình bày ứng dụng trò chơi LN sử dụng LnBits và MongoDB, Poetry, Node.js.
-
-
-### Nhóm 5 Hackathon - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Nhóm của Lightning Walker trình bày giải pháp của họ cho Dịch vụ chuyển tiền bằng cách sử dụng MySQL, JavaScript và API của ZDB.
-
-
-# Phần cuối
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Đánh giá & Xếp hạng
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Phần kết luận
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

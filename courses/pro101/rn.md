@@ -1428,6 +1428,180 @@ Reka dusuzume muri make ivyiyumviro bimwebimwe bihambaye.
 Mu gusozera, kazoza ka Bitcoin n’ihinduka ryayo bigenwa n’ubushake rusangi bw’abayikoresha. Impinduka zikomeye zisaba ko abantu bose bahurizako, ivyo bikaba vyerekana ko ubutegetsi bwa Bitcoin bushingiye ku nzego zitandukanye kandi bushingiye ku vya politike.
 
 
+## Bitcoin Mining Ivy'ingenzi
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<Id y'umwigisha>e320ccda-be59-492b-a81b-243d9acb592f</Id y'umwigisha>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Imenyekanisha
+
+
+Ajelex yibanda ku ruhande rw’ubudandaji rwa Bitcoin Mining, isuzuma ingamba zo kuguma ufise inyungu mw’isoko ry’amahiganwa. Ico kiganiro kirimwo ugusuzuma ibiciro vy’ibikorwa, ingero z’ubushobozi, n’ubutunzi bujana inganda ya Mining.
+
+
+### 1. Mining igoranye n'ibintu bituma umuntu aronka inyungu
+
+
+#### Ibintu vy'ubuhinga n'ingamba
+
+
+Mining ugusobanuka mu bijanye na Bitcoin ahanini birimwo ubuhinga n’ingene Elements ikora bigena inyungu y’ibikorwa vya Mining. Ni ngombwa cane gutahura ko Mining atari umukino w’amahirwe gusa ahubwo ari igikorwa gikomeye gisaba gutegura neza no gukomeza gukora neza.
+
+
+#### Ibintu nyamukuru bituma umuntu aronka inyungu
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Ibiciro vy’amashanyarazi**: Kimwe mu bintu bihambaye bigira ingaruka ku nyungu ya Mining ni igiciro c’amashanyarazi. Mu turere nk’Ubufaransa, amashanyarazi arashobora kuba azimvye cane ugereranije n’ibihugu nka Salvador, aho ibiciro bito bituma abacukuzi b’amabuye y’agaciro bashobora guhangana n’abandi.
+
+2. **Ubushobozi bw’ibikoresho**: Ubushobozi bw’ibikoresho vya Mining, bupimwa n’igipimo cavyo ca Hash n’inguvu zikoreshwa, burafise uruhara runini. Abacukuzi b’amabuye y’agaciro ba ASIC nka S19J Pro barakora neza cane kuruta abacukuzi ba kera nka Antminer S9.
+
+3. **Igihe**: Bitcoin Mining iremesha gutegura igihe kirekire.
+
+4. **Igiciro ca BTC**: Igiciro ca BTC ni ngombwa kugira ngo umenye inyungu ya Mining.
+
+5. **Ingorane y’uruja n’uruza**: Ingorane y’uruja n’uruza igereranya umubare wa Hashrate mu mwanya ukenewe kugira ngo umuntu ashobore gucukura ibuye mu minota 10.
+
+6. **Ibikoresho vy’ingene bobikora**: Ibikoresho nka [braiins.com](https://insights.braiins.com) ni vyiza cane mu kubara inyungu no gufasha abacukuzi gufata ingingo zishingiye ku makuru.
+
+
+#### Gushira mu ngiro
+
+
+Kubera ivyo niboneye, narakoresheje mbere Mining kugira ngo nshushe inzu yanje mu Bufaransa, nkoresheje ubuhinga bwo gusubiza inyuma amafaranga y’amashanyarazi mu gihe Mining Bitcoin. Aka karorero karashimika ku vyerekeye ukuntu bishoboka gushiramwo ibikorwa vya Mining mu buzima bwa misi yose kugira ngo umuntu aronke inyungu z’inyongera.
+
+
+#### Ivyuma bifata amacupa muri Mining
+
+
+Abacukuzi b’amabuye y’agaciro barahura n’ingorane zitatu nyamukuru: ukuronka ibikoresho, ukuronka inguvu, n’amahera akenewe kugira ngo bashobore gukora. Ubukene bw’ama ASIC kubera ugusaba kwinshi akenshi bituma umuntu amara igihe kirekire arindiriye kandi ibiciro bikaba biduga, ivyo bikaba bituma igihugu ca Mining kirushiriza kugorana.
+
+
+
+- Akarorero ka **Ikibazo c'inguvu**.
+
+Mu mwaka w’2021, Leta y’Ubushinwa yabujije Mining mu karere kayo, bituma amashirahamwe ya Mining yo mu Bushinwa ataronka inguvu. Ivyo vyatumye **50%** y’i Hashrate igabanuka mu ndwi zibiri.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Ugutera imbere n'ubushobozi bw'ibikoresho vya Mining
+
+
+#### Ukwihindukiza kw'amateka
+
+
+Urugendo rw’ibikoresho vya Mining rwabaye runini cane, kuva kuri CPU yoroshe Mining gushika ku bacukuzi b’amabuye y’agaciro b’abahinga cane ba ASIC dukoresha uno musi.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: Mu misi ya mbere, Mining yakorwa hakoreshejwe ubuhinga bwa mudasobwa busanzwe (CPUs). Ubwo buryo bwaciye bwihuta gusumba uko urubuga rwagenda rurakura.
+
+2. **GPU Mining**: Ivyuma bikora ibishushanyo (GPUs) vyatumye Mining ikora neza cane, bituma CPUs zitagira akamaro ku ntumbero za Mining.
+
+3. **FPGA Mining**: Amarembo ashobora gukoreshwa mu murima (FPGAs) yatanga mbere ubushobozi bwiza n’inguvu nziza kurusha GPUs.
+
+4. **ASIC Mining**: Ivyuma bikoreshwa mu buryo bwihariye (ASICs) bigereranya isonga ry’ubushobozi bw’ibikoresho vya Mining, vyagenewe canecane ibikorwa vya Mining bifise ubushobozi butagira uko bungana.
+
+
+#### Igereranyo ry’ido n’ido: S19J Pro n’i S9.
+
+
+
+- S19J Pro**: Izwi kubera ubushobozi bwayo bwinshi n’ukwizigirwa, S19J Pro itanga igipimo ca Hash gisumba ibindi vyose n’inguvu nke, bikaba biyigira nziza cane ku bikorwa vyinshi.
+- Antminer S9**: Naho ari kera kandi idakora neza, Antminer S9 iguma izwi cane ku bikoresho bitobito n’abakunda ivy’ugukina kubera ko ishobora kugurwa kandi ikora neza.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining ubushobozi n'ukwiga
+
+
+Mining ntitanga gusa impembo z’amahera ariko kandi iratanga ubumenyi bw’agaciro bwo gukora. Kuronka bitcoins zitagira KYC biciye ku Mining birashobora kuba iciyumviro gikwegera abahangayikishijwe n’ubuzima bwite.
+
+
+#### Ibikoresho n'ubuhinga biteye imbere
+
+
+Porogarama z’inyuma y’isoko zishobora kwongereza ubushobozi n’imikorere y’ibikoresho vya Mining. Ibikoresho bitanga ubushobozi bwo gutuma ibintu bigenda neza no kwitunganya neza bituma igice cose gikora neza cane, kigahuza neza igipimo ca Hash n’ikoreshwa ry’ububasha.
+
+
+---
+
+### 3. Ivyerekeye amategeko n’isoko mu bikorwa vya Mining
+
+
+#### Ingaruka z'amategeko
+
+
+Amategeko arafise uruhara runini mu guhingura igihugu ca Mining. Nk’akarorero, uburenganzira bw’Abashinwa bwo gukoresha Mining bwaragize ingaruka zikomeye ku bikorwa vya Mining kw’isi yose, bituma igipimo ca Hash c’uruja n’uruza kigabanuka cane, bituma ubushobozi bwa Mining busubira gusangira mu turere dutandukanye.
+
+
+#### Impinduka mw'isoko
+
+
+1. **Ukuboneka kw’ibikoresho n’igiciro**: Igiciro n’ukuboneka kw’abacukuzi ba ASIC biterwa n’igiciro c’isoko ca Bitcoin. Ivyo gusaba cane mu gihe c’amasoko y’ibimasa bituma haba ubukene n’ibiciro bikaduga.
+
+2. **Agaciro ka Hash n’igiciro ca Hash**: Gutahura itandukaniro riri hagati y’agaciro ka Hash (satoshis umuntu aronka ku terahash ku musi) n’igiciro ca Hash (agaciro k’amahera k’igipimo ca Hash) ni ngombwa cane. Ivyo vyose bishikirwa n’ingorane z’uruja n’uruza be n’igiciro c’isoko ca Bitcoin.
+
+
+#### Mining ibidengeri n'uburyo bwo guhemba
+
+
+1. **Ibidengeri vya Mining**: Mu gufatanya ibikoresho, ibidengeri vya Mining bitanga ingororano zidahinduka, bikagabanya itandukaniro n'ingorane zijanye n'ivyo gukoresha Mining yonyene.
+
+2. **Imigambi y’impera**: Uburyo butandukanye bwo gutanga impembo, nka Pay-Per-Share (PPS) n’impera zihuye, zitanga ingorane zitandukanye n’impera ku bacukuzi.
+
+
+
+   - Pay-Per share**: Pay-Per-Share ihemba abacukuzi ku mugabane wose ubereye batanga, ataco bimaze nimba ikidengeri kironka igice. **Imigabane** ni ibice vyerekana ko abacukuzi b’amabuye y’agaciro barangije igikorwa gikenewe, kandi iyo pool iragenzura iyo migabane.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Igihuye**: Bivana n’ikidengeri Mining a block kugira ngo impembo igabanuke bingana n’intererano ya Miner ku Hashrate yose y’ikidengeri.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Akazoza ka Mining
+
+
+Uko ingororano z’amabuye zigabanuka, abacukuzi bazorushiriza kwizigira amafaranga y’ugucuruza. Iryo hinduka rituma habaho ivyiyumviro vy’uko amafaranga y’ugucuruza yonyene azotuma abacukuzi b’amabuye y’agaciro babandanya gucungera iyo nzira.
+
+
+#### Yakiriwe Mining
+
+
+Ibikorwa vya Mining vyakira abashitsi birashobora gutanga amafaranga make y’ibikorwa ariko bikaza n’ingorane nk’ukubura ubugenzuzi n’ubushobozi bwo guhendahenda. Ni ngombwa ko umuntu agira ukwiyubara gukwiriye kugira ngo ivyo bibazo bigabanuke.
+
+
+#### Umutekano n'ubushobozi
+
+
+Amategeko y’umutekano ateye imbere n’ugukoresha inguvu zishobora gusubirwamwo ntivyongera gusa inyungu ariko kandi biratuma habaho iterambere riramvye ry’ibidukikije vya Mining.
+
+
+Mu gusozera, isi ya Bitcoin Mining ni ikintu gikomeye, gifise imice myinshi gisaba gutahura cane ubuhinga, ingamba, amategeko, n’ingene isoko rigenda. Waba uri umuhinga mu vy’ubuhinga bwa Miner canke uriko uratangura, kuguma umenye amakuru kandi ushobora guhindura ni urufunguruzo rwo gutera imbere muri uwo mwuga uhora utera imbere. Murakoze cane ku kwitwararika, kandi ndindiriye ibibazo vyanyu n'ibiganiro vyanyu.
+
+
+
 # Layer Ivyiyumviro bimwe
 
 
@@ -3243,183 +3417,6 @@ Amasezerano nka **LNURL** na **Bolt 12** atuma umuntu ashobora kwishura neza mu 
 Ukwagura no gushiramwo amafaranga y'umuravyo biciye mu mirongo ngenderwako itandukanye n'ibikorwa vyerekana iterambere ry'inguvu rya Lightning Network. Kuva ku gutegura neza imikorere y’ishimikiro y’ukwishyura gushika ku gushiramwo uburyo bwo gukora ubucuruzi buteye imbere n’amategeko y’ubuhinga bwo gukingira amakuru, kazoza ka Lightning karafise umuhango ukomeye wo gukora ibintu bishasha no kwemerwa cane.
 
 
-# Inyungu
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Ivy'ingenzi
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<Id y'umwigisha>e320ccda-be59-492b-a81b-243d9acb592f</Id y'umwigisha>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Imenyekanisha
-
-
-Ajelex yibanda ku ruhande rw’ubudandaji rwa Bitcoin Mining, isuzuma ingamba zo kuguma ufise inyungu mw’isoko ry’amahiganwa. Ico kiganiro kirimwo ugusuzuma ibiciro vy’ibikorwa, ingero z’ubushobozi, n’ubutunzi bujana inganda ya Mining.
-
-
-### 1. Mining igoranye n'ibintu bituma umuntu aronka inyungu
-
-
-#### Ibintu vy'ubuhinga n'ingamba
-
-
-Mining ugusobanuka mu bijanye na Bitcoin ahanini birimwo ubuhinga n’ingene Elements ikora bigena inyungu y’ibikorwa vya Mining. Ni ngombwa cane gutahura ko Mining atari umukino w’amahirwe gusa ahubwo ari igikorwa gikomeye gisaba gutegura neza no gukomeza gukora neza.
-
-
-#### Ibintu nyamukuru bituma umuntu aronka inyungu
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Ibiciro vy’amashanyarazi**: Kimwe mu bintu bihambaye bigira ingaruka ku nyungu ya Mining ni igiciro c’amashanyarazi. Mu turere nk’Ubufaransa, amashanyarazi arashobora kuba azimvye cane ugereranije n’ibihugu nka Salvador, aho ibiciro bito bituma abacukuzi b’amabuye y’agaciro bashobora guhangana n’abandi.
-
-2. **Ubushobozi bw’ibikoresho**: Ubushobozi bw’ibikoresho vya Mining, bupimwa n’igipimo cavyo ca Hash n’inguvu zikoreshwa, burafise uruhara runini. Abacukuzi b’amabuye y’agaciro ba ASIC nka S19J Pro barakora neza cane kuruta abacukuzi ba kera nka Antminer S9.
-
-3. **Igihe**: Bitcoin Mining iremesha gutegura igihe kirekire.
-
-4. **Igiciro ca BTC**: Igiciro ca BTC ni ngombwa kugira ngo umenye inyungu ya Mining.
-
-5. **Ingorane y’uruja n’uruza**: Ingorane y’uruja n’uruza igereranya umubare wa Hashrate mu mwanya ukenewe kugira ngo umuntu ashobore gucukura ibuye mu minota 10.
-
-6. **Ibikoresho vy’ingene bobikora**: Ibikoresho nka [braiins.com](https://insights.braiins.com) ni vyiza cane mu kubara inyungu no gufasha abacukuzi gufata ingingo zishingiye ku makuru.
-
-
-#### Gushira mu ngiro
-
-
-Kubera ivyo niboneye, narakoresheje mbere Mining kugira ngo nshushe inzu yanje mu Bufaransa, nkoresheje ubuhinga bwo gusubiza inyuma amafaranga y’amashanyarazi mu gihe Mining Bitcoin. Aka karorero karashimika ku vyerekeye ukuntu bishoboka gushiramwo ibikorwa vya Mining mu buzima bwa misi yose kugira ngo umuntu aronke inyungu z’inyongera.
-
-
-#### Ivyuma bifata amacupa muri Mining
-
-
-Abacukuzi b’amabuye y’agaciro barahura n’ingorane zitatu nyamukuru: ukuronka ibikoresho, ukuronka inguvu, n’amahera akenewe kugira ngo bashobore gukora. Ubukene bw’ama ASIC kubera ugusaba kwinshi akenshi bituma umuntu amara igihe kirekire arindiriye kandi ibiciro bikaba biduga, ivyo bikaba bituma igihugu ca Mining kirushiriza kugorana.
-
-
-
-- Akarorero ka **Ikibazo c'inguvu**.
-
-Mu mwaka w’2021, Leta y’Ubushinwa yabujije Mining mu karere kayo, bituma amashirahamwe ya Mining yo mu Bushinwa ataronka inguvu. Ivyo vyatumye **50%** y’i Hashrate igabanuka mu ndwi zibiri.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Ugutera imbere n'ubushobozi bw'ibikoresho vya Mining
-
-
-#### Ukwihindukiza kw'amateka
-
-
-Urugendo rw’ibikoresho vya Mining rwabaye runini cane, kuva kuri CPU yoroshe Mining gushika ku bacukuzi b’amabuye y’agaciro b’abahinga cane ba ASIC dukoresha uno musi.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: Mu misi ya mbere, Mining yakorwa hakoreshejwe ubuhinga bwa mudasobwa busanzwe (CPUs). Ubwo buryo bwaciye bwihuta gusumba uko urubuga rwagenda rurakura.
-
-2. **GPU Mining**: Ivyuma bikora ibishushanyo (GPUs) vyatumye Mining ikora neza cane, bituma CPUs zitagira akamaro ku ntumbero za Mining.
-
-3. **FPGA Mining**: Amarembo ashobora gukoreshwa mu murima (FPGAs) yatanga mbere ubushobozi bwiza n’inguvu nziza kurusha GPUs.
-
-4. **ASIC Mining**: Ivyuma bikoreshwa mu buryo bwihariye (ASICs) bigereranya isonga ry’ubushobozi bw’ibikoresho vya Mining, vyagenewe canecane ibikorwa vya Mining bifise ubushobozi butagira uko bungana.
-
-
-#### Igereranyo ry’ido n’ido: S19J Pro n’i S9.
-
-
-
-- S19J Pro**: Izwi kubera ubushobozi bwayo bwinshi n’ukwizigirwa, S19J Pro itanga igipimo ca Hash gisumba ibindi vyose n’inguvu nke, bikaba biyigira nziza cane ku bikorwa vyinshi.
-- Antminer S9**: Naho ari kera kandi idakora neza, Antminer S9 iguma izwi cane ku bikoresho bitobito n’abakunda ivy’ugukina kubera ko ishobora kugurwa kandi ikora neza.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining ubushobozi n'ukwiga
-
-
-Mining ntitanga gusa impembo z’amahera ariko kandi iratanga ubumenyi bw’agaciro bwo gukora. Kuronka bitcoins zitagira KYC biciye ku Mining birashobora kuba iciyumviro gikwegera abahangayikishijwe n’ubuzima bwite.
-
-
-#### Ibikoresho n'ubuhinga biteye imbere
-
-
-Porogarama z’inyuma y’isoko zishobora kwongereza ubushobozi n’imikorere y’ibikoresho vya Mining. Ibikoresho bitanga ubushobozi bwo gutuma ibintu bigenda neza no kwitunganya neza bituma igice cose gikora neza cane, kigahuza neza igipimo ca Hash n’ikoreshwa ry’ububasha.
-
-
----
-
-### 3. Ivyerekeye amategeko n’isoko mu bikorwa vya Mining
-
-
-#### Ingaruka z'amategeko
-
-
-Amategeko arafise uruhara runini mu guhingura igihugu ca Mining. Nk’akarorero, uburenganzira bw’Abashinwa bwo gukoresha Mining bwaragize ingaruka zikomeye ku bikorwa vya Mining kw’isi yose, bituma igipimo ca Hash c’uruja n’uruza kigabanuka cane, bituma ubushobozi bwa Mining busubira gusangira mu turere dutandukanye.
-
-
-#### Impinduka mw'isoko
-
-
-1. **Ukuboneka kw’ibikoresho n’igiciro**: Igiciro n’ukuboneka kw’abacukuzi ba ASIC biterwa n’igiciro c’isoko ca Bitcoin. Ivyo gusaba cane mu gihe c’amasoko y’ibimasa bituma haba ubukene n’ibiciro bikaduga.
-
-2. **Agaciro ka Hash n’igiciro ca Hash**: Gutahura itandukaniro riri hagati y’agaciro ka Hash (satoshis umuntu aronka ku terahash ku musi) n’igiciro ca Hash (agaciro k’amahera k’igipimo ca Hash) ni ngombwa cane. Ivyo vyose bishikirwa n’ingorane z’uruja n’uruza be n’igiciro c’isoko ca Bitcoin.
-
-
-#### Mining ibidengeri n'uburyo bwo guhemba
-
-
-1. **Ibidengeri vya Mining**: Mu gufatanya ibikoresho, ibidengeri vya Mining bitanga ingororano zidahinduka, bikagabanya itandukaniro n'ingorane zijanye n'ivyo gukoresha Mining yonyene.
-
-2. **Imigambi y’impera**: Uburyo butandukanye bwo gutanga impembo, nka Pay-Per-Share (PPS) n’impera zihuye, zitanga ingorane zitandukanye n’impera ku bacukuzi.
-
-
-
-   - Pay-Per share**: Pay-Per-Share ihemba abacukuzi ku mugabane wose ubereye batanga, ataco bimaze nimba ikidengeri kironka igice. **Imigabane** ni ibice vyerekana ko abacukuzi b’amabuye y’agaciro barangije igikorwa gikenewe, kandi iyo pool iragenzura iyo migabane.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Igihuye**: Bivana n’ikidengeri Mining a block kugira ngo impembo igabanuke bingana n’intererano ya Miner ku Hashrate yose y’ikidengeri.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Akazoza ka Mining
-
-
-Uko ingororano z’amabuye zigabanuka, abacukuzi bazorushiriza kwizigira amafaranga y’ugucuruza. Iryo hinduka rituma habaho ivyiyumviro vy’uko amafaranga y’ugucuruza yonyene azotuma abacukuzi b’amabuye y’agaciro babandanya gucungera iyo nzira.
-
-
-#### Yakiriwe Mining
-
-
-Ibikorwa vya Mining vyakira abashitsi birashobora gutanga amafaranga make y’ibikorwa ariko bikaza n’ingorane nk’ukubura ubugenzuzi n’ubushobozi bwo guhendahenda. Ni ngombwa ko umuntu agira ukwiyubara gukwiriye kugira ngo ivyo bibazo bigabanuke.
-
-
-#### Umutekano n'ubushobozi
-
-
-Amategeko y’umutekano ateye imbere n’ugukoresha inguvu zishobora gusubirwamwo ntivyongera gusa inyungu ariko kandi biratuma habaho iterambere riramvye ry’ibidukikije vya Mining.
-
-
-Mu gusozera, isi ya Bitcoin Mining ni ikintu gikomeye, gifise imice myinshi gisaba gutahura cane ubuhinga, ingamba, amategeko, n’ingene isoko rigenda. Waba uri umuhinga mu vy’ubuhinga bwa Miner canke uriko uratangura, kuguma umenye amakuru kandi ushobora guhindura ni urufunguruzo rwo gutera imbere muri uwo mwuga uhora utera imbere. Murakoze cane ku kwitwararika, kandi ndindiriye ibibazo vyanyu n'ibiganiro vyanyu.
 
 
 ## Gutahura isoko ry'ubufatanye
@@ -3434,68 +3431,3 @@ Mu gusozera, isi ya Bitcoin Mining ni ikintu gikomeye, gifise imice myinshi gisa
 
 Adam Gibson atanga ubumenyi ku bijanye na Joinmarket, asobanura neza ingene iyo nzira ya CoinJoin yongera ubuzima bwite bwa Bitcoin n’ubushobozi bwo kuyihindura. Avuga ingene Joinmarket yorohereza ubufatanye, Trustless, n’ubucuruzi butazwi mu bidukikije vya Bitcoin. Hanyuma mu gice ca kabiri, yerekana ingene umuntu akoresha Joinmarket muri Signet.
 
-
-## Cubo+ Umwaka wa mbere
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Itsinda rya mbere - Iragi rya Satoshi
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Ishirahamwe rya Satoshi Legacy ryerekana igikorwa cabo co kwubaka ubudandaji bw’ubuhinga bwa none bw’umuravyo bukoresheje Shopify, React JS na Hydrogen hamwe n’irembo ry’ukwishyura rya IBEX.
-
-
-### Itsinda rya 2 Hackathon - Ubuki Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Ishirahamwe rya Honey Badger ritanga umuti wiwe w’urubuga rufise amafaranga make akoreshwa n’umuravyo yubatswemwo hakoreshejwe LnBits na Next.js, Node.js na Hydrogen.
-
-
-### Itsinda rya 3
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Itsinda rya gatatu ryerekana urupapuro rw’ibikoresho rwa Lightning Network biciye ku API igenewe, LND, vue.js, node.js, Bootstrap.
-
-
-### Itsinda rya 4 - Ubumwe bwa Satoshi
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Ishirahamwe ry’ubumwe bwa Satoshi ritanga porogarama y’urukino rwa LN ikoresheje LnBits na MongoDB, Invugo, Node.js.
-
-
-### Itsinda rya 5 Hackathon - Umuco w'urugendo
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Ishirahamwe rya Lightning Walker ritanga umuti wabo ku bijanye n’Igikorwa co Gutuma Amahera mu Bindi Bihugu bakoresheje MySQL, JavaScript na API ya ZDB.
-
-
-# Igice ca nyuma
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Amasuzuma n'Ibipimo
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Iciyumviro
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

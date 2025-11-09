@@ -1428,6 +1428,180 @@ Mari kita tinjau secara singkat beberapa konsep penting.
 Kesimpulannya, masa depan dan perubahan Bitcoin ditentukan oleh kehendak kolektif para penggunanya. Perubahan yang signifikan membutuhkan konsensus yang luas, yang mencerminkan sifat desentralisasi dan politis dari tata kelola Bitcoin.
 
 
+## Bitcoin Mining Essentials
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Pendahuluan
+
+
+Ajelex berfokus pada aspek bisnis Bitcoin Mining, memeriksa strategi untuk mempertahankan profitabilitas di pasar yang kompetitif. Pembahasannya meliputi analisis biaya operasional, langkah-langkah efisiensi, dan ekonomi yang mendorong industri Mining.
+
+
+### 1. Faktor kompleksitas dan profitabilitas Mining
+
+
+#### Faktor teknis dan strategis
+
+
+Kompleksitas Mining dalam konteks Bitcoin terutama melibatkan Elements teknis dan strategis yang menentukan profitabilitas operasi Mining. Sangat penting untuk memahami bahwa Mining bukan hanya permainan kebetulan, tetapi merupakan proses canggih yang membutuhkan perencanaan yang cermat dan optimalisasi berkelanjutan.
+
+
+#### Faktor-faktor profitabilitas utama
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Biaya listrik**: Salah satu faktor paling signifikan yang mempengaruhi profitabilitas Mining adalah biaya listrik. Di wilayah seperti Prancis, biaya listrik bisa relatif mahal dibandingkan dengan negara-negara seperti El Salvador, di mana biaya yang lebih rendah memberikan keunggulan kompetitif bagi para penambang.
+
+2. **Efisiensi perangkat keras**: Efisiensi perangkat keras Mining, yang diukur dari tingkat Hash dan konsumsi daya, memainkan peran yang sangat penting. Penambang ASIC yang canggih seperti S19J Pro jauh lebih efisien daripada model yang lebih tua seperti Antminer S9.
+
+3. **Periode waktu**: Bitcoin Mining mendorong perencanaan jangka panjang.
+
+4. *harga *BTC**: Harga BTC sangat penting untuk menentukan profitabilitas Mining.
+
+5. **Kesulitan jaringan**: Tingkat kesulitan jaringan menunjukkan jumlah rata-rata Hashrate yang dibutuhkan untuk menambang satu blok dalam 10 menit.
+
+6. **Alat-alat strategis**: Alat-alat seperti [braiins.com] (https://insights.braiins.com) sangat berharga untuk menghitung profitabilitas dan membantu para penambang untuk membuat keputusan berdasarkan data.
+
+
+#### Aplikasi praktis
+
+
+Dari pengalaman pribadi, saya bahkan telah menggunakan Mining untuk menghangatkan apartemen saya di Prancis, secara kreatif mengimbangi biaya listrik sementara Mining Bitcoin. Contoh ini menggarisbawahi kepraktisan mengintegrasikan operasi Mining ke dalam kehidupan sehari-hari untuk mendapatkan manfaat tambahan.
+
+
+#### Kemacetan di Mining
+
+
+Para penambang menghadapi tiga hambatan utama: ketersediaan perangkat keras, akses energi, dan modal yang diperlukan untuk mempertahankan operasi. Kelangkaan ASIC karena permintaan yang tinggi sering kali menyebabkan waktu tunggu yang lama dan harga yang meningkat, yang semakin memperumit lanskap Mining.
+
+
+
+- Contoh **Kendala energi**.
+
+Pada tahun 2021, pemerintah Tiongkok melarang Mining di dalam wilayahnya, menyebabkan perusahaan Mining di Tiongkok kehilangan akses ke energi. Hal ini mengakibatkan penurunan Hashrate sebesar **50%** selama dua minggu.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Evolusi dan efisiensi perangkat keras Mining
+
+
+#### Evolusi sejarah
+
+
+Perjalanan perangkat keras Mining telah menjadi monumental, mulai dari CPU Mining yang sederhana hingga penambang ASIC yang sangat terspesialisasi yang kita gunakan saat ini.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: Pada masa-masa awal, Mining dilakukan dengan menggunakan prosesor komputer biasa (CPU). Metode ini dengan cepat melampaui pertumbuhan jaringan.
+
+2. **GPU Mining**: Graphics Processing Unit (GPU) memberikan dorongan yang signifikan dalam efisiensi Mining, membuat CPU menjadi usang untuk keperluan Mining.
+
+3. **FPGA Mining**: Field-Programmable Gate Array (FPGA) menawarkan performa dan efisiensi energi yang lebih baik daripada GPU.
+
+4. **ASIC Mining**: Sirkuit Terpadu Khusus Aplikasi (ASIC) mewakili puncak efisiensi perangkat keras Mining, yang dirancang khusus untuk operasi Mining dengan kinerja yang tak tertandingi.
+
+
+#### Perbandingan terperinci: S19J Pro vs Antminer S9
+
+
+
+- S19J Pro**: Dikenal karena efisiensi dan keandalannya yang tinggi, S19J Pro menawarkan kecepatan Hash yang superior dengan konsumsi daya yang lebih rendah, sehingga ideal untuk operasi skala besar.
+- Antminer S9**: Meskipun lebih tua dan kurang efisien, Antminer S9 tetap populer untuk pengaturan yang lebih kecil dan penghobi karena harganya yang terjangkau dan kinerjanya yang baik.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Efisiensi dan pembelajaran Mining
+
+
+Mining tidak hanya memberikan imbalan finansial tetapi juga pengalaman langsung yang berharga. Memperoleh bitcoin bebas KYC melalui Mining dapat menjadi tawaran yang menarik bagi mereka yang peduli dengan privasi.
+
+
+#### Alat dan teknik tingkat lanjut
+
+
+Perangkat lunak purnajual dapat meningkatkan efisiensi dan fungsionalitas perangkat keras Mining. Alat yang menawarkan kemampuan pengoptimalan dan penyetelan otomatis memastikan bahwa setiap chip beroperasi pada efisiensi maksimum, menyeimbangkan kecepatan Hash dan penggunaan daya secara efektif.
+
+
+---
+
+### 3. Dinamika regulasi dan pasar dalam operasi Mining
+
+
+#### Dampak regulasi
+
+
+Regulasi memainkan peran penting dalam membentuk lanskap Mining. Misalnya, larangan Mining Tiongkok memiliki efek mendalam pada operasi Mining global, menyebabkan penurunan yang signifikan pada tingkat jaringan Hash dan mengarah pada redistribusi daya Mining di berbagai wilayah.
+
+
+#### Dinamika pasar
+
+
+1. **Ketersediaan dan biaya perangkat keras**: Harga dan ketersediaan penambang ASIC dipengaruhi oleh harga pasar Bitcoin. Permintaan yang tinggi selama pasar bullish mengakibatkan kelangkaan dan kenaikan harga.
+
+2. **Nilai Hash dan harga Hash**: Memahami perbedaan antara nilai Hash (satoshi yang diperoleh per terahash per hari) dan harga Hash (nilai moneter dari tarif Hash) sangat penting. Keduanya dipengaruhi oleh kesulitan jaringan dan harga pasar Bitcoin.
+
+
+#### Mining pool dan mekanisme hadiah
+
+
+1. **Kumpulan Mining**: Dengan menggabungkan sumber daya, pool Mining memberikan imbalan yang lebih stabil, mengurangi varians dan risiko yang terkait dengan Mining tunggal.
+
+2. **Skema imbalan**: Mekanisme imbalan yang berbeda, seperti Pay-Per-Share (PPS) dan imbalan proporsional, menawarkan berbagai profil risiko dan imbalan untuk para penambang.
+
+
+
+   - Bayar per saham**: Bayar Per Saham memberi upah kepada penambang untuk setiap saham valid yang mereka kirimkan, terlepas dari apakah pool menemukan blok. **Shares** adalah unit bukti bahwa penambang telah menyelesaikan pekerjaan yang diperlukan, dan pool memverifikasi saham-saham ini.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proporsional**: Tergantung pada pool Mining sebuah blok untuk mendistribusikan hadiah secara merata dengan kontribusi Miner terhadap total Hashrate pool.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Masa depan Mining
+
+
+Seiring dengan berkurangnya reward blok, para penambang akan semakin bergantung pada biaya transaksi. Pergeseran ini menimbulkan kekhawatiran tentang apakah biaya transaksi saja akan memberikan insentif yang cukup bagi para penambang untuk terus mengamankan jaringan.
+
+
+#### Mining yang di-host
+
+
+Layanan Mining yang di-host dapat menawarkan biaya operasional yang lebih rendah tetapi memiliki risiko seperti kurangnya kontrol dan potensi penipuan. Uji tuntas yang tepat diperlukan untuk mengurangi risiko ini.
+
+
+#### Keamanan dan efisiensi
+
+
+Protokol keamanan tingkat lanjut dan penggunaan energi terbarukan tidak hanya meningkatkan profitabilitas, tetapi juga berkontribusi pada pertumbuhan ekosistem Mining yang berkelanjutan.
+
+
+Kesimpulannya, dunia Bitcoin Mining adalah domain yang kompleks dan memiliki banyak sisi yang membutuhkan pemahaman mendalam tentang dinamika teknis, strategis, peraturan, dan pasar. Apakah Anda seorang Miner berpengalaman atau baru memulai, tetap terinformasi dan mudah beradaptasi adalah kunci untuk berkembang di bidang yang terus berkembang ini. Terima kasih atas perhatian Anda, dan saya menantikan pertanyaan dan diskusi Anda.
+
+
+
 # Layer Satu Konsep
 
 
@@ -3243,183 +3417,6 @@ Protokol seperti **LNURL** dan **Bolt 12** merampingkan pembayaran dengan mengur
 Perluasan dan integrasi pembayaran Lightning melalui berbagai protokol dan kasus penggunaan menunjukkan evolusi dinamis Lightning Network. Dari meningkatkan fungsionalitas dasar pembayaran hingga memperkenalkan model bisnis canggih dan protokol kriptografi, masa depan Lightning menjanjikan inovasi dan adopsi yang luas.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Essentials
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Pendahuluan
-
-
-Ajelex berfokus pada aspek bisnis Bitcoin Mining, memeriksa strategi untuk mempertahankan profitabilitas di pasar yang kompetitif. Pembahasannya meliputi analisis biaya operasional, langkah-langkah efisiensi, dan ekonomi yang mendorong industri Mining.
-
-
-### 1. Faktor kompleksitas dan profitabilitas Mining
-
-
-#### Faktor teknis dan strategis
-
-
-Kompleksitas Mining dalam konteks Bitcoin terutama melibatkan Elements teknis dan strategis yang menentukan profitabilitas operasi Mining. Sangat penting untuk memahami bahwa Mining bukan hanya permainan kebetulan, tetapi merupakan proses canggih yang membutuhkan perencanaan yang cermat dan optimalisasi berkelanjutan.
-
-
-#### Faktor-faktor profitabilitas utama
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Biaya listrik**: Salah satu faktor paling signifikan yang mempengaruhi profitabilitas Mining adalah biaya listrik. Di wilayah seperti Prancis, biaya listrik bisa relatif mahal dibandingkan dengan negara-negara seperti El Salvador, di mana biaya yang lebih rendah memberikan keunggulan kompetitif bagi para penambang.
-
-2. **Efisiensi perangkat keras**: Efisiensi perangkat keras Mining, yang diukur dari tingkat Hash dan konsumsi daya, memainkan peran yang sangat penting. Penambang ASIC yang canggih seperti S19J Pro jauh lebih efisien daripada model yang lebih tua seperti Antminer S9.
-
-3. **Periode waktu**: Bitcoin Mining mendorong perencanaan jangka panjang.
-
-4. *harga *BTC**: Harga BTC sangat penting untuk menentukan profitabilitas Mining.
-
-5. **Kesulitan jaringan**: Tingkat kesulitan jaringan menunjukkan jumlah rata-rata Hashrate yang dibutuhkan untuk menambang satu blok dalam 10 menit.
-
-6. **Alat-alat strategis**: Alat-alat seperti [braiins.com] (https://insights.braiins.com) sangat berharga untuk menghitung profitabilitas dan membantu para penambang untuk membuat keputusan berdasarkan data.
-
-
-#### Aplikasi praktis
-
-
-Dari pengalaman pribadi, saya bahkan telah menggunakan Mining untuk menghangatkan apartemen saya di Prancis, secara kreatif mengimbangi biaya listrik sementara Mining Bitcoin. Contoh ini menggarisbawahi kepraktisan mengintegrasikan operasi Mining ke dalam kehidupan sehari-hari untuk mendapatkan manfaat tambahan.
-
-
-#### Kemacetan di Mining
-
-
-Para penambang menghadapi tiga hambatan utama: ketersediaan perangkat keras, akses energi, dan modal yang diperlukan untuk mempertahankan operasi. Kelangkaan ASIC karena permintaan yang tinggi sering kali menyebabkan waktu tunggu yang lama dan harga yang meningkat, yang semakin memperumit lanskap Mining.
-
-
-
-- Contoh **Kendala energi**.
-
-Pada tahun 2021, pemerintah Tiongkok melarang Mining di dalam wilayahnya, menyebabkan perusahaan Mining di Tiongkok kehilangan akses ke energi. Hal ini mengakibatkan penurunan Hashrate sebesar **50%** selama dua minggu.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Evolusi dan efisiensi perangkat keras Mining
-
-
-#### Evolusi sejarah
-
-
-Perjalanan perangkat keras Mining telah menjadi monumental, mulai dari CPU Mining yang sederhana hingga penambang ASIC yang sangat terspesialisasi yang kita gunakan saat ini.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: Pada masa-masa awal, Mining dilakukan dengan menggunakan prosesor komputer biasa (CPU). Metode ini dengan cepat melampaui pertumbuhan jaringan.
-
-2. **GPU Mining**: Graphics Processing Unit (GPU) memberikan dorongan yang signifikan dalam efisiensi Mining, membuat CPU menjadi usang untuk keperluan Mining.
-
-3. **FPGA Mining**: Field-Programmable Gate Array (FPGA) menawarkan performa dan efisiensi energi yang lebih baik daripada GPU.
-
-4. **ASIC Mining**: Sirkuit Terpadu Khusus Aplikasi (ASIC) mewakili puncak efisiensi perangkat keras Mining, yang dirancang khusus untuk operasi Mining dengan kinerja yang tak tertandingi.
-
-
-#### Perbandingan terperinci: S19J Pro vs Antminer S9
-
-
-
-- S19J Pro**: Dikenal karena efisiensi dan keandalannya yang tinggi, S19J Pro menawarkan kecepatan Hash yang superior dengan konsumsi daya yang lebih rendah, sehingga ideal untuk operasi skala besar.
-- Antminer S9**: Meskipun lebih tua dan kurang efisien, Antminer S9 tetap populer untuk pengaturan yang lebih kecil dan penghobi karena harganya yang terjangkau dan kinerjanya yang baik.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Efisiensi dan pembelajaran Mining
-
-
-Mining tidak hanya memberikan imbalan finansial tetapi juga pengalaman langsung yang berharga. Memperoleh bitcoin bebas KYC melalui Mining dapat menjadi tawaran yang menarik bagi mereka yang peduli dengan privasi.
-
-
-#### Alat dan teknik tingkat lanjut
-
-
-Perangkat lunak purnajual dapat meningkatkan efisiensi dan fungsionalitas perangkat keras Mining. Alat yang menawarkan kemampuan pengoptimalan dan penyetelan otomatis memastikan bahwa setiap chip beroperasi pada efisiensi maksimum, menyeimbangkan kecepatan Hash dan penggunaan daya secara efektif.
-
-
----
-
-### 3. Dinamika regulasi dan pasar dalam operasi Mining
-
-
-#### Dampak regulasi
-
-
-Regulasi memainkan peran penting dalam membentuk lanskap Mining. Misalnya, larangan Mining Tiongkok memiliki efek mendalam pada operasi Mining global, menyebabkan penurunan yang signifikan pada tingkat jaringan Hash dan mengarah pada redistribusi daya Mining di berbagai wilayah.
-
-
-#### Dinamika pasar
-
-
-1. **Ketersediaan dan biaya perangkat keras**: Harga dan ketersediaan penambang ASIC dipengaruhi oleh harga pasar Bitcoin. Permintaan yang tinggi selama pasar bullish mengakibatkan kelangkaan dan kenaikan harga.
-
-2. **Nilai Hash dan harga Hash**: Memahami perbedaan antara nilai Hash (satoshi yang diperoleh per terahash per hari) dan harga Hash (nilai moneter dari tarif Hash) sangat penting. Keduanya dipengaruhi oleh kesulitan jaringan dan harga pasar Bitcoin.
-
-
-#### Mining pool dan mekanisme hadiah
-
-
-1. **Kumpulan Mining**: Dengan menggabungkan sumber daya, pool Mining memberikan imbalan yang lebih stabil, mengurangi varians dan risiko yang terkait dengan Mining tunggal.
-
-2. **Skema imbalan**: Mekanisme imbalan yang berbeda, seperti Pay-Per-Share (PPS) dan imbalan proporsional, menawarkan berbagai profil risiko dan imbalan untuk para penambang.
-
-
-
-   - Bayar per saham**: Bayar Per Saham memberi upah kepada penambang untuk setiap saham valid yang mereka kirimkan, terlepas dari apakah pool menemukan blok. **Shares** adalah unit bukti bahwa penambang telah menyelesaikan pekerjaan yang diperlukan, dan pool memverifikasi saham-saham ini.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proporsional**: Tergantung pada pool Mining sebuah blok untuk mendistribusikan hadiah secara merata dengan kontribusi Miner terhadap total Hashrate pool.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Masa depan Mining
-
-
-Seiring dengan berkurangnya reward blok, para penambang akan semakin bergantung pada biaya transaksi. Pergeseran ini menimbulkan kekhawatiran tentang apakah biaya transaksi saja akan memberikan insentif yang cukup bagi para penambang untuk terus mengamankan jaringan.
-
-
-#### Mining yang di-host
-
-
-Layanan Mining yang di-host dapat menawarkan biaya operasional yang lebih rendah tetapi memiliki risiko seperti kurangnya kontrol dan potensi penipuan. Uji tuntas yang tepat diperlukan untuk mengurangi risiko ini.
-
-
-#### Keamanan dan efisiensi
-
-
-Protokol keamanan tingkat lanjut dan penggunaan energi terbarukan tidak hanya meningkatkan profitabilitas, tetapi juga berkontribusi pada pertumbuhan ekosistem Mining yang berkelanjutan.
-
-
-Kesimpulannya, dunia Bitcoin Mining adalah domain yang kompleks dan memiliki banyak sisi yang membutuhkan pemahaman mendalam tentang dinamika teknis, strategis, peraturan, dan pasar. Apakah Anda seorang Miner berpengalaman atau baru memulai, tetap terinformasi dan mudah beradaptasi adalah kunci untuk berkembang di bidang yang terus berkembang ini. Terima kasih atas perhatian Anda, dan saya menantikan pertanyaan dan diskusi Anda.
 
 
 ## Memahami Joinmarket
@@ -3434,68 +3431,3 @@ Kesimpulannya, dunia Bitcoin Mining adalah domain yang kompleks dan memiliki ban
 
 Adam Gibson menawarkan wawasan tentang Joinmarket, merinci bagaimana implementasi CoinJoin ini meningkatkan privasi dan kesesuaian Bitcoin. Dia membahas bagaimana Joinmarket memfasilitasi transaksi kolaboratif, Trustless, dan anonim dalam ekosistem Bitcoin. Kemudian di bagian kedua, dia menunjukkan cara menjalankan Joinmarket di Signet.
 
-
-## Cubo+ Hackathon Tahun Pertama
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - The Satoshi Legacy
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Kelompok Satoshi Legacy mempresentasikan hasil kerja mereka dalam membangun e-commerce Lightning dengan Shopify, React JS dan Hydrogen serta gerbang pembayaran IBEX.
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Kelompok Honey Badger mempresentasikan solusinya untuk sebuah blog dengan Lightning Powered Micropayments yang sudah terpasang di dalamnya dengan menggunakan LnBits dan Next.js, Node.js, dan Hydrogen.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Kelompok ketiga menyajikan Dasbor Node Lightning Network melalui API yang disesuaikan, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Satoshi Fellowship
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Kelompok Fellowship Satoshi mempersembahkan aplikasi game LN yang menggunakan LnBits dan MongoDB, Poetry, Node.js.
-
-
-### Groupe 5 Hackathon - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Kelompok Lightning Walker mempresentasikan solusi mereka untuk Layanan Pengiriman Uang menggunakan MySQL, JavaScript dan API ZDB.
-
-
-# Bagian Akhir
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Ulasan & Peringkat
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Kesimpulan
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

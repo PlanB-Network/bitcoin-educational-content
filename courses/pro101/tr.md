@@ -1428,6 +1428,180 @@ Bazı önemli kavramları kısaca gözden geçirelim.
 Sonuç olarak, Bitcoin'ın geleceği ve değişiklikleri kullanıcılarının kolektif iradesi tarafından belirlenmektedir. Önemli değişiklikler, Bitcoin'ın yönetişiminin merkezi olmayan ve siyasi doğasını yansıtan geniş bir fikir birliği gerektirir.
 
 
+## Bitcoin Mining Essentials
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Giriş
+
+
+Ajelex, Bitcoin Mining'ün ticari yönüne odaklanarak rekabetçi bir pazarda kârlılığı sürdürme stratejilerini inceliyor. Tartışma, operasyonel maliyetlerin, verimlilik önlemlerinin ve Mining endüstrisini yönlendiren ekonominin bir analizini içermektedir.
+
+
+### 1. Mining karmaşıklık ve karlılık faktörleri
+
+
+#### Teknik ve stratejik faktörler
+
+
+KİS-826 bağlamında KİS-827 karmaşıklığı, öncelikle KİS-827 operasyonlarının karlılığını belirleyen teknik ve stratejik KİS-825 unsurlarını içerir. KİS-827'nin sadece bir şans oyunu değil, dikkatli planlama ve sürekli optimizasyon gerektiren sofistike bir süreç olduğunu anlamak çok önemlidir.
+
+
+#### Temel karlılık faktörleri
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Elektrik maliyetleri**: Mining karlılığını etkileyen en önemli faktörlerden biri elektrik maliyetidir. Fransa gibi bölgelerde elektrik, daha düşük maliyetlerin madenciler için rekabet avantajı sağladığı El Salvador gibi ülkelere kıyasla nispeten pahalı olabilir.
+
+2. **Donanım verimliliği**: Mining donanımının Hash oranı ve güç tüketimi ile ölçülen verimliliği çok önemli bir rol oynar. S19J Pro gibi gelişmiş ASIC madencileri, Antminer S9 gibi eski modellerden çok daha verimlidir.
+
+3. **Zaman aralığı**: Bitcoin Mining uzun vadeli planlamayı teşvik eder.
+
+4. **BTC fiyatı**: BTC Fiyatı, Mining karlılığını belirlemek için çok önemlidir.
+
+5. **Ağ zorluğu**: Ağ zorluğu, bir bloğu 10 dakika içinde kazmak için gereken ortalama Hashrate miktarını temsil eder.
+
+6. **Stratejik araçlar**: Braiins.com](https://insights.braiins.com) gibi araçlar karlılığı hesaplamak ve madencilerin veriye dayalı kararlar almasına yardımcı olmak için çok değerlidir.
+
+
+#### Pratik uygulama
+
+
+Kişisel deneyimime dayanarak, Mining Bitcoin iken elektrik maliyetlerini yaratıcı bir şekilde dengeleyerek Fransa'daki dairemi ısıtmak için Mining'yi bile kullandım. Bu örnek, Mining operasyonlarını ek faydalar için günlük hayata entegre etmenin pratikliğinin altını çizmektedir.
+
+
+#### Mining'deki Darboğazlar
+
+
+Madenciler üç temel darboğazla karşı karşıyadır: donanım mevcudiyeti, enerji erişimi ve operasyonları sürdürmek için gereken sermaye. Yüksek talep nedeniyle ASIC'lerin azlığı genellikle uzun bekleme sürelerine ve şişirilmiş fiyatlara yol açarak Mining manzarasını daha da karmaşık hale getirmektedir.
+
+
+
+- Enerji darboğazı** örneği.
+
+2021 yılında Çin hükümeti Mining'i kendi topraklarında yasaklayarak Çin'deki Mining şirketlerinin enerjiye erişimini kaybetmesine neden oldu. Bu, Hashrate'ta iki hafta içinde **%50** düşüşe neden oldu.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Mining donanımının evrimi ve verimliliği
+
+
+#### Tarihsel gelişim
+
+
+Mining donanımının yolculuğu, basit CPU Mining'ten başlayarak bugün kullandığımız son derece uzmanlaşmış ASIC madencilere kadar muazzam olmuştur.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: İlk günlerde Mining normal bilgisayar işlemcileri (CPU'lar) kullanılarak gerçekleştiriliyordu. Ağ büyüdükçe bu yöntem hızla aşıldı.
+
+2. **GPU Mining**: Grafik İşleme Birimleri (GPU'lar) Mining verimliliğinde önemli bir artış sağlayarak CPU'ları Mining amaçları için kullanılmaz hale getirdi.
+
+3. **FPGA Mining**: Sahada Programlanabilir Kapı Dizileri (FPGA), GPU'lardan bile daha iyi performans ve enerji verimliliği sunuyordu.
+
+4. **ASIC Mining**: Uygulamaya Özel Entegre Devreler (ASIC'ler), benzersiz performansa sahip Mining işlemleri için özel olarak tasarlanmış Mining donanım verimliliğinin zirvesini temsil eder.
+
+
+#### Detaylı karşılaştırma: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: Yüksek verimliliği ve güvenilirliği ile bilinen S19J Pro, daha düşük güç tüketimi ile üstün bir Hash hızı sunarak büyük ölçekli operasyonlar için idealdir.
+- Antminer S9**: Daha eski ve daha az verimli olsa da Antminer S9, uygun fiyatı ve iyi performansı nedeniyle daha küçük kurulumlar ve hobiciler için popüler olmaya devam ediyor.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining verimlilik ve öğrenme
+
+
+Mining yalnızca finansal ödüller değil, aynı zamanda değerli uygulamalı deneyim de sağlar. Mining aracılığıyla KYC'siz bitcoin edinmek, gizlilik konusunda endişe duyanlar için cazip bir teklif olabilir.
+
+
+#### Gelişmiş araçlar ve teknikler
+
+
+Satış sonrası yazılım, Mining donanımının verimliliğini ve işlevselliğini artırabilir. Optimizasyon ve otomatik ayarlama özellikleri sunan araçlar, her bir çipin maksimum verimlilikte çalışmasını sağlayarak Hash hızını ve güç kullanımını etkili bir şekilde dengeler.
+
+
+---
+
+### 3. Mining operasyonlarında düzenleyici ve piyasa dinamikleri
+
+
+#### Düzenleyici etki
+
+
+Düzenleme, Mining ortamının şekillenmesinde önemli bir rol oynamaktadır. Örneğin, Çin'in Mining yasağının küresel Mining operasyonları üzerinde derin etkileri olmuş, ağ Hash oranında önemli bir düşüşe neden olmuş ve Mining gücünün farklı bölgeler arasında yeniden dağılımına yol açmıştır.
+
+
+#### Pazar dinamikleri
+
+
+1. **Donanım bulunabilirliği ve maliyeti**: ASIC madencilerinin fiyatı ve bulunabilirliği Bitcoin'in piyasa fiyatından etkilenir. Boğa piyasaları sırasında yüksek talep, kıtlığa ve şişirilmiş fiyatlara neden olur.
+
+2. **Hash değeri ve Hash fiyatı**: Hash değeri (günlük terahash başına kazanılan satoshiler) ile Hash fiyatı (Hash oranının parasal değeri) arasındaki farkı anlamak çok önemlidir. Her ikisi de şebeke zorluğundan ve Bitcoin'ın piyasa fiyatından etkilenir.
+
+
+#### Mining havuzları ve ödül mekanizmaları
+
+
+1. **Mining havuzları**: Kaynakları birleştirerek, Mining havuzları daha istikrarlı ödüller sağlar ve solo Mining ile ilişkili varyansı ve riski azaltır.
+
+2. **Ödül planları**: Pay Başına Ödeme (PPS) ve orantılı ödüller gibi farklı ödül mekanizmaları, madenciler için çeşitli risk ve ödül profilleri sunar.
+
+
+
+   - Hisse başına ödeme**: Hisse Başına Ödeme, havuzun bir blok bulup bulmadığına bakılmaksızın madencileri gönderdikleri her geçerli hisse için ödüllendirir. **Paylar** madencilerin gerekli çalışmayı tamamladığını gösteren kanıt birimleridir ve havuz bu payları doğrular.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Orantılı**: Ödülün, Miner'nın havuzun toplam Hashrate'üne katkısına eşit olarak dağıtılması için bir bloğun Mining havuzuna bağlıdır.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Mining'nin Geleceği
+
+
+Blok ödülleri azaldıkça, madenciler işlem ücretlerine giderek daha fazla bel bağlayacaktır. Bu değişim, işlem ücretlerinin tek başına madencilerin ağı güvence altına almaya devam etmeleri için yeterli teşvik sağlayıp sağlamayacağı konusunda endişelere yol açmaktadır.
+
+
+#### Barındırılan Mining
+
+
+Barındırılan Mining hizmetleri daha düşük işletme maliyetleri sunabilir ancak kontrol eksikliği ve dolandırıcılık potansiyeli gibi riskleri de beraberinde getirir. Bu riskleri azaltmak için uygun durum tespiti gereklidir.
+
+
+#### Güvenlik ve verimlilik
+
+
+Gelişmiş güvenlik protokolleri ve yenilenebilir enerji kullanımı yalnızca kârlılığı artırmakla kalmaz, aynı zamanda Mining ekosisteminin sürdürülebilir büyümesine de katkıda bulunur.
+
+
+Sonuç olarak, Bitcoin Mining dünyası teknik, stratejik, düzenleyici ve pazar dinamiklerinin derinlemesine anlaşılmasını gerektiren karmaşık, çok yönlü bir alandır. İster deneyimli bir Miner olun ister yeni başlıyor olun, sürekli gelişen bu alanda başarılı olmanın anahtarı bilgili ve uyumlu olmaktır. İlginiz için teşekkür eder, sorularınızı ve tartışmalarınızı dört gözle beklerim.
+
+
+
 # Layer Bir Kavram
 
 
@@ -3243,183 +3417,6 @@ LNURL** ve **Bolt 12** gibi protokoller, manuel etkileşimleri azaltarak ödemel
 Lightning ödemelerinin çeşitli protokoller ve kullanım durumları aracılığıyla genişletilmesi ve entegrasyonu, Lightning Network'un dinamik evrimini göstermektedir. Ödemelerin temel işlevselliğini geliştirmekten gelişmiş iş modelleri ve kriptografik protokoller sunmaya kadar, Lightning'in geleceği yenilik ve yaygın benimseme için önemli bir umut vaat ediyor.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Essentials
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Giriş
-
-
-Ajelex, Bitcoin Mining'ün ticari yönüne odaklanarak rekabetçi bir pazarda kârlılığı sürdürme stratejilerini inceliyor. Tartışma, operasyonel maliyetlerin, verimlilik önlemlerinin ve Mining endüstrisini yönlendiren ekonominin bir analizini içermektedir.
-
-
-### 1. Mining karmaşıklık ve karlılık faktörleri
-
-
-#### Teknik ve stratejik faktörler
-
-
-KİS-826 bağlamında KİS-827 karmaşıklığı, öncelikle KİS-827 operasyonlarının karlılığını belirleyen teknik ve stratejik KİS-825 unsurlarını içerir. KİS-827'nin sadece bir şans oyunu değil, dikkatli planlama ve sürekli optimizasyon gerektiren sofistike bir süreç olduğunu anlamak çok önemlidir.
-
-
-#### Temel karlılık faktörleri
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Elektrik maliyetleri**: Mining karlılığını etkileyen en önemli faktörlerden biri elektrik maliyetidir. Fransa gibi bölgelerde elektrik, daha düşük maliyetlerin madenciler için rekabet avantajı sağladığı El Salvador gibi ülkelere kıyasla nispeten pahalı olabilir.
-
-2. **Donanım verimliliği**: Mining donanımının Hash oranı ve güç tüketimi ile ölçülen verimliliği çok önemli bir rol oynar. S19J Pro gibi gelişmiş ASIC madencileri, Antminer S9 gibi eski modellerden çok daha verimlidir.
-
-3. **Zaman aralığı**: Bitcoin Mining uzun vadeli planlamayı teşvik eder.
-
-4. **BTC fiyatı**: BTC Fiyatı, Mining karlılığını belirlemek için çok önemlidir.
-
-5. **Ağ zorluğu**: Ağ zorluğu, bir bloğu 10 dakika içinde kazmak için gereken ortalama Hashrate miktarını temsil eder.
-
-6. **Stratejik araçlar**: Braiins.com](https://insights.braiins.com) gibi araçlar karlılığı hesaplamak ve madencilerin veriye dayalı kararlar almasına yardımcı olmak için çok değerlidir.
-
-
-#### Pratik uygulama
-
-
-Kişisel deneyimime dayanarak, Mining Bitcoin iken elektrik maliyetlerini yaratıcı bir şekilde dengeleyerek Fransa'daki dairemi ısıtmak için Mining'yi bile kullandım. Bu örnek, Mining operasyonlarını ek faydalar için günlük hayata entegre etmenin pratikliğinin altını çizmektedir.
-
-
-#### Mining'deki Darboğazlar
-
-
-Madenciler üç temel darboğazla karşı karşıyadır: donanım mevcudiyeti, enerji erişimi ve operasyonları sürdürmek için gereken sermaye. Yüksek talep nedeniyle ASIC'lerin azlığı genellikle uzun bekleme sürelerine ve şişirilmiş fiyatlara yol açarak Mining manzarasını daha da karmaşık hale getirmektedir.
-
-
-
-- Enerji darboğazı** örneği.
-
-2021 yılında Çin hükümeti Mining'i kendi topraklarında yasaklayarak Çin'deki Mining şirketlerinin enerjiye erişimini kaybetmesine neden oldu. Bu, Hashrate'ta iki hafta içinde **%50** düşüşe neden oldu.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Mining donanımının evrimi ve verimliliği
-
-
-#### Tarihsel gelişim
-
-
-Mining donanımının yolculuğu, basit CPU Mining'ten başlayarak bugün kullandığımız son derece uzmanlaşmış ASIC madencilere kadar muazzam olmuştur.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: İlk günlerde Mining normal bilgisayar işlemcileri (CPU'lar) kullanılarak gerçekleştiriliyordu. Ağ büyüdükçe bu yöntem hızla aşıldı.
-
-2. **GPU Mining**: Grafik İşleme Birimleri (GPU'lar) Mining verimliliğinde önemli bir artış sağlayarak CPU'ları Mining amaçları için kullanılmaz hale getirdi.
-
-3. **FPGA Mining**: Sahada Programlanabilir Kapı Dizileri (FPGA), GPU'lardan bile daha iyi performans ve enerji verimliliği sunuyordu.
-
-4. **ASIC Mining**: Uygulamaya Özel Entegre Devreler (ASIC'ler), benzersiz performansa sahip Mining işlemleri için özel olarak tasarlanmış Mining donanım verimliliğinin zirvesini temsil eder.
-
-
-#### Detaylı karşılaştırma: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: Yüksek verimliliği ve güvenilirliği ile bilinen S19J Pro, daha düşük güç tüketimi ile üstün bir Hash hızı sunarak büyük ölçekli operasyonlar için idealdir.
-- Antminer S9**: Daha eski ve daha az verimli olsa da Antminer S9, uygun fiyatı ve iyi performansı nedeniyle daha küçük kurulumlar ve hobiciler için popüler olmaya devam ediyor.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining verimlilik ve öğrenme
-
-
-Mining yalnızca finansal ödüller değil, aynı zamanda değerli uygulamalı deneyim de sağlar. Mining aracılığıyla KYC'siz bitcoin edinmek, gizlilik konusunda endişe duyanlar için cazip bir teklif olabilir.
-
-
-#### Gelişmiş araçlar ve teknikler
-
-
-Satış sonrası yazılım, Mining donanımının verimliliğini ve işlevselliğini artırabilir. Optimizasyon ve otomatik ayarlama özellikleri sunan araçlar, her bir çipin maksimum verimlilikte çalışmasını sağlayarak Hash hızını ve güç kullanımını etkili bir şekilde dengeler.
-
-
----
-
-### 3. Mining operasyonlarında düzenleyici ve piyasa dinamikleri
-
-
-#### Düzenleyici etki
-
-
-Düzenleme, Mining ortamının şekillenmesinde önemli bir rol oynamaktadır. Örneğin, Çin'in Mining yasağının küresel Mining operasyonları üzerinde derin etkileri olmuş, ağ Hash oranında önemli bir düşüşe neden olmuş ve Mining gücünün farklı bölgeler arasında yeniden dağılımına yol açmıştır.
-
-
-#### Pazar dinamikleri
-
-
-1. **Donanım bulunabilirliği ve maliyeti**: ASIC madencilerinin fiyatı ve bulunabilirliği Bitcoin'in piyasa fiyatından etkilenir. Boğa piyasaları sırasında yüksek talep, kıtlığa ve şişirilmiş fiyatlara neden olur.
-
-2. **Hash değeri ve Hash fiyatı**: Hash değeri (günlük terahash başına kazanılan satoshiler) ile Hash fiyatı (Hash oranının parasal değeri) arasındaki farkı anlamak çok önemlidir. Her ikisi de şebeke zorluğundan ve Bitcoin'ın piyasa fiyatından etkilenir.
-
-
-#### Mining havuzları ve ödül mekanizmaları
-
-
-1. **Mining havuzları**: Kaynakları birleştirerek, Mining havuzları daha istikrarlı ödüller sağlar ve solo Mining ile ilişkili varyansı ve riski azaltır.
-
-2. **Ödül planları**: Pay Başına Ödeme (PPS) ve orantılı ödüller gibi farklı ödül mekanizmaları, madenciler için çeşitli risk ve ödül profilleri sunar.
-
-
-
-   - Hisse başına ödeme**: Hisse Başına Ödeme, havuzun bir blok bulup bulmadığına bakılmaksızın madencileri gönderdikleri her geçerli hisse için ödüllendirir. **Paylar** madencilerin gerekli çalışmayı tamamladığını gösteren kanıt birimleridir ve havuz bu payları doğrular.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Orantılı**: Ödülün, Miner'nın havuzun toplam Hashrate'üne katkısına eşit olarak dağıtılması için bir bloğun Mining havuzuna bağlıdır.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Mining'nin Geleceği
-
-
-Blok ödülleri azaldıkça, madenciler işlem ücretlerine giderek daha fazla bel bağlayacaktır. Bu değişim, işlem ücretlerinin tek başına madencilerin ağı güvence altına almaya devam etmeleri için yeterli teşvik sağlayıp sağlamayacağı konusunda endişelere yol açmaktadır.
-
-
-#### Barındırılan Mining
-
-
-Barındırılan Mining hizmetleri daha düşük işletme maliyetleri sunabilir ancak kontrol eksikliği ve dolandırıcılık potansiyeli gibi riskleri de beraberinde getirir. Bu riskleri azaltmak için uygun durum tespiti gereklidir.
-
-
-#### Güvenlik ve verimlilik
-
-
-Gelişmiş güvenlik protokolleri ve yenilenebilir enerji kullanımı yalnızca kârlılığı artırmakla kalmaz, aynı zamanda Mining ekosisteminin sürdürülebilir büyümesine de katkıda bulunur.
-
-
-Sonuç olarak, Bitcoin Mining dünyası teknik, stratejik, düzenleyici ve pazar dinamiklerinin derinlemesine anlaşılmasını gerektiren karmaşık, çok yönlü bir alandır. İster deneyimli bir Miner olun ister yeni başlıyor olun, sürekli gelişen bu alanda başarılı olmanın anahtarı bilgili ve uyumlu olmaktır. İlginiz için teşekkür eder, sorularınızı ve tartışmalarınızı dört gözle beklerim.
 
 
 ## Joinmarket'i Anlamak
@@ -3434,68 +3431,3 @@ Sonuç olarak, Bitcoin Mining dünyası teknik, stratejik, düzenleyici ve pazar
 
 Adam Gibson, Joinmarket hakkında bilgi vererek bu CoinJoin uygulamasının Bitcoin'nın gizliliğini ve değiştirilebilirliğini nasıl geliştirdiğini detaylandırıyor. Joinmarket'in Bitcoin ekosisteminde işbirliğine dayalı, Trustless ve anonim işlemleri nasıl kolaylaştırdığını tartışıyor. Ardından ikinci bölümde Joinmarket'in Signet'te nasıl çalıştırılacağını gösteriyor.
 
-
-## Cubo+ Birinci Yıl Hackathon'u
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - Satoshi Mirası
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Satoshi Legacy grubu Shopify, React JS ve Hydrogen ve IBEX ödeme ağ geçidi ile bir Lightning e-ticaret oluşturma çalışmalarını sunuyor.
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badger'ın grubu, LnBits ve Next.js, Node.js ve Hydrogen kullanarak yerleşik Lightning Powered Micropayments ile bir blog için çözümünü sunuyor.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Üçüncü grup, özelleştirilmiş bir API, LND, vue.js, node.js, Bootstrap aracılığıyla bir Lightning Network Node Dashboard sunar.
-
-
-### Groupe 4 Hackathon - Satoshi Fellowship
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi'nin Fellowship grubu, LnBits ve MongoDB, Poetry, Node.js kullanarak bir LN oyun uygulaması sunuyor.
-
-
-### Groupe 5 Hackathon - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walker'ın grubu, MySQL, JavaScript ve ZDB'nin API'sini kullanarak Havale Hizmeti için geliştirdikleri çözümü sunuyor.
-
-
-# Son Bölüm
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Yorumlar & Derecelendirmeler
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Sonuç
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

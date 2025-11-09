@@ -1428,6 +1428,180 @@ Zopakujme si stručně některé důležité pojmy.
 Závěrem lze říci, že o budoucnosti a změnách Bitcoin rozhoduje společná vůle jeho uživatelů. Významné změny vyžadují široký konsenzus, což odráží decentralizovanou a politickou povahu správy systému Bitcoin.
 
 
+## Bitcoin Mining Základy
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Úvod
+
+
+Ajelex se zaměřuje na obchodní aspekt Bitcoin Mining a zkoumá strategie pro udržení ziskovosti na konkurenčním trhu. Součástí diskuse je analýza provozních nákladů, opatření na zvýšení efektivity a ekonomické aspekty, které jsou hnací silou odvětví Mining.
+
+
+### 1. Mining faktory složitosti a ziskovosti
+
+
+#### Technické a strategické faktory
+
+
+Složitost Mining v kontextu Bitcoin zahrnuje především technické a strategické Elements, které určují ziskovost operací Mining. Je nezbytné pochopit, že Mining není jen hra náhody, ale sofistikovaný proces, který vyžaduje pečlivé plánování a neustálou optimalizaci.
+
+
+#### Klíčové faktory ziskovosti
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Náklady na elektřinu**: Jedním z nejvýznamnějších faktorů ovlivňujících ziskovost Mining jsou náklady na elektřinu. V regionech, jako je Francie, může být elektřina relativně drahá ve srovnání se zeměmi, jako je Salvador, kde nižší náklady poskytují těžařům konkurenční výhodu.
+
+2. **Účinnost hardwaru**: Účinnost hardwaru Mining, měřená rychlostí Hash a spotřebou energie, hraje klíčovou roli. Pokročilé minery ASIC, jako je S19J Pro, jsou mnohem účinnější než starší modely, jako je Antminer S9.
+
+3. **Časové období**: Bitcoin Mining podporuje dlouhodobé plánování.
+
+4. **Cena BTC**: Cena BTC je zásadní pro určení ziskovosti Mining.
+
+5. **Obtížnost sítě**: Síťová obtížnost představuje množství Hashrate v průměru potřebné k vytěžení bloku za 10 minut.
+
+6. **Strategické nástroje**: Nástroje jako [braiins.com](https://insights.braiins.com) jsou neocenitelné pro výpočet ziskovosti a pomáhají horníkům činit rozhodnutí založená na datech.
+
+
+#### Praktická aplikace
+
+
+Z vlastní zkušenosti vím, že jsem Mining používal i k vytápění svého bytu ve Francii, čímž jsem kreativně kompenzoval náklady na elektřinu, zatímco Mining Bitcoin. Tento příklad podtrhuje praktičnost začlenění provozu Mining do každodenního života, což přináší další výhody.
+
+
+#### Úzká místa v Mining
+
+
+Těžaři se potýkají se třemi hlavními překážkami: dostupností hardwaru, přístupem k energii a kapitálem potřebným k udržení provozu. Nedostatek ASICů v důsledku vysoké poptávky často vede k dlouhým čekacím dobám a nadsazeným cenám, což dále komplikuje situaci v Mining.
+
+
+
+- Příklad **Energetického úzkého místa**.
+
+V roce 2021 čínská vláda zakázala Mining na svém území, čímž společnosti Mining v Číně ztratily přístup k energii. To mělo za následek **50%** pokles ceny Hashrate během dvou týdnů.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Vývoj a účinnost hardwaru Mining
+
+
+#### Historický vývoj
+
+
+Cesta hardwaru Mining byla monumentální, počínaje jednoduchými procesory Mining až po vysoce specializované těžaře ASIC, které používáme dnes.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: V počátcích Mining se používaly běžné počítačové procesory (CPU). Tato metoda byla s rozvojem sítě rychle překonána.
+
+2. **GPU Mining**: Grafické procesory (GPU) významně zvýšily účinnost Mining a učinily CPU pro účely Mining zastaralými.
+
+3. **FPGA Mining**: Polní programovatelná hradlová pole (FPGA) nabízejí ještě vyšší výkon a energetickou účinnost než grafické procesory.
+
+4. **ASIC Mining**: Specifické aplikační integrované obvody (ASIC) představují vrchol efektivity hardwaru Mining, navržené speciálně pro operace Mining s bezkonkurenčním výkonem.
+
+
+#### Podrobné srovnání: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: S19J Pro je známý svou vysokou účinností a spolehlivostí a nabízí vynikající rychlost Hash při nižší spotřebě energie, takže je ideální pro rozsáhlé provozy.
+- Antminer S9**: Antminer S9 je sice starší a méně výkonný, ale díky své cenové dostupnosti a slušnému výkonu je stále oblíbený u menších sestav a hobbyistů.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining efektivita a učení
+
+
+Mining poskytuje nejen finanční odměnu, ale také cenné praktické zkušenosti. Získání bitcoinů bez KYC prostřednictvím Mining může být atraktivní nabídkou pro ty, kteří se obávají o své soukromí.
+
+
+#### Pokročilé nástroje a techniky
+
+
+Dodatečný software může zvýšit efektivitu a funkčnost hardwaru Mining. Nástroje, které nabízejí možnosti optimalizace a automatického ladění, zajišťují, že každý čip pracuje s maximální účinností a efektivně vyvažuje rychlost Hash a spotřebu energie.
+
+
+---
+
+### 3. Regulační a tržní dynamika v operacích Mining
+
+
+#### Regulační dopad
+
+
+Významnou roli při utváření prostředí Mining hraje regulace. Například čínský zákaz Mining měl hluboký dopad na celosvětové operace Mining, což způsobilo výrazný pokles míry Hash v síti a vedlo k přerozdělení výkonu Mining v různých regionech.
+
+
+#### Dynamika trhu
+
+
+1. **Dostupnost hardwaru a náklady**: Cena a dostupnost těžařů ASIC je ovlivněna tržní cenou Bitcoin. Vysoká poptávka během býčích trhů vede k nedostatku a nadsazeným cenám.
+
+2. **Hodnota Hash a cena Hash**: Pochopení rozdílu mezi hodnotou Hash (satoši vydělané za terahash za den) a cenou Hash (peněžní hodnota sazby Hash) je zásadní. Obojí je ovlivněno obtížností sítě a tržní cenou Bitcoin.
+
+
+#### Mining bazény a mechanismy odměňování
+
+
+1. **Bazény Mining**: Díky kombinaci zdrojů poskytují skupiny Mining stabilnější odměny, čímž se snižuje kolísání a riziko spojené se samostatnou hrou Mining.
+
+2. **Systémy odměn**: Různé mechanismy odměňování, jako je Pay-Per-Share (PPS) a poměrné odměny, nabízejí těžařům různé profily rizika a odměny.
+
+
+
+   - Výplata na akcii**: Pay-Per-Share odměňuje těžaře za každý platný podíl, který předloží, bez ohledu na to, zda pool najde blok. **Díly** jsou důkazní jednotky, že těžaři dokončili požadovanou práci, a pool tyto podíly ověřuje.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proporcionální**: Záleží na tom, zda se odměna rozdělí rovnoměrně podle podílu Miner na celkovém Hashrate fondu.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Budoucnost Mining
+
+
+S klesajícími odměnami za bloky se budou těžaři stále více spoléhat na transakční poplatky. Tento posun vyvolává obavy, zda samotné transakční poplatky budou pro těžaře dostatečnou motivací k dalšímu zabezpečení sítě.
+
+
+#### Hostitelská služba Mining
+
+
+Hostované služby Mining mohou nabídnout nižší provozní náklady, ale jsou spojeny s riziky, jako je nedostatečná kontrola a možnost podvodu. Ke zmírnění těchto rizik je nutná náležitá hloubková kontrola.
+
+
+#### Bezpečnost a efektivita
+
+
+Pokročilé bezpečnostní protokoly a využívání obnovitelné energie nejen zvyšují ziskovost, ale přispívají také k udržitelnému růstu ekosystému Mining.
+
+
+Závěrem lze říci, že svět Bitcoin Mining je komplexní, mnohostranná oblast, která vyžaduje hluboké porozumění technické, strategické, regulační a tržní dynamice. Ať už jste zkušený Miner nebo teprve začínáte, klíčem k prosperitě v této neustále se vyvíjející oblasti je zůstat informovaný a přizpůsobivý. Děkuji vám za pozornost a těším se na vaše dotazy a diskuse.
+
+
+
 # Layer Jeden koncept
 
 
@@ -3243,183 +3417,6 @@ Protokoly jako **LNURL** a **Bolt 12** zefektivňují platby tím, že omezují 
 Rozšíření a integrace plateb Lightning prostřednictvím různých protokolů a případů použití dokládá dynamický vývoj Lightning Network. Budoucnost Lightningu je významným příslibem inovací a širokého přijetí - od vylepšení základních funkcí plateb až po zavedení pokročilých obchodních modelů a kryptografických protokolů.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Základy
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Úvod
-
-
-Ajelex se zaměřuje na obchodní aspekt Bitcoin Mining a zkoumá strategie pro udržení ziskovosti na konkurenčním trhu. Součástí diskuse je analýza provozních nákladů, opatření na zvýšení efektivity a ekonomické aspekty, které jsou hnací silou odvětví Mining.
-
-
-### 1. Mining faktory složitosti a ziskovosti
-
-
-#### Technické a strategické faktory
-
-
-Složitost Mining v kontextu Bitcoin zahrnuje především technické a strategické Elements, které určují ziskovost operací Mining. Je nezbytné pochopit, že Mining není jen hra náhody, ale sofistikovaný proces, který vyžaduje pečlivé plánování a neustálou optimalizaci.
-
-
-#### Klíčové faktory ziskovosti
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Náklady na elektřinu**: Jedním z nejvýznamnějších faktorů ovlivňujících ziskovost Mining jsou náklady na elektřinu. V regionech, jako je Francie, může být elektřina relativně drahá ve srovnání se zeměmi, jako je Salvador, kde nižší náklady poskytují těžařům konkurenční výhodu.
-
-2. **Účinnost hardwaru**: Účinnost hardwaru Mining, měřená rychlostí Hash a spotřebou energie, hraje klíčovou roli. Pokročilé minery ASIC, jako je S19J Pro, jsou mnohem účinnější než starší modely, jako je Antminer S9.
-
-3. **Časové období**: Bitcoin Mining podporuje dlouhodobé plánování.
-
-4. **Cena BTC**: Cena BTC je zásadní pro určení ziskovosti Mining.
-
-5. **Obtížnost sítě**: Síťová obtížnost představuje množství Hashrate v průměru potřebné k vytěžení bloku za 10 minut.
-
-6. **Strategické nástroje**: Nástroje jako [braiins.com](https://insights.braiins.com) jsou neocenitelné pro výpočet ziskovosti a pomáhají horníkům činit rozhodnutí založená na datech.
-
-
-#### Praktická aplikace
-
-
-Z vlastní zkušenosti vím, že jsem Mining používal i k vytápění svého bytu ve Francii, čímž jsem kreativně kompenzoval náklady na elektřinu, zatímco Mining Bitcoin. Tento příklad podtrhuje praktičnost začlenění provozu Mining do každodenního života, což přináší další výhody.
-
-
-#### Úzká místa v Mining
-
-
-Těžaři se potýkají se třemi hlavními překážkami: dostupností hardwaru, přístupem k energii a kapitálem potřebným k udržení provozu. Nedostatek ASICů v důsledku vysoké poptávky často vede k dlouhým čekacím dobám a nadsazeným cenám, což dále komplikuje situaci v Mining.
-
-
-
-- Příklad **Energetického úzkého místa**.
-
-V roce 2021 čínská vláda zakázala Mining na svém území, čímž společnosti Mining v Číně ztratily přístup k energii. To mělo za následek **50%** pokles ceny Hashrate během dvou týdnů.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Vývoj a účinnost hardwaru Mining
-
-
-#### Historický vývoj
-
-
-Cesta hardwaru Mining byla monumentální, počínaje jednoduchými procesory Mining až po vysoce specializované těžaře ASIC, které používáme dnes.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: V počátcích Mining se používaly běžné počítačové procesory (CPU). Tato metoda byla s rozvojem sítě rychle překonána.
-
-2. **GPU Mining**: Grafické procesory (GPU) významně zvýšily účinnost Mining a učinily CPU pro účely Mining zastaralými.
-
-3. **FPGA Mining**: Polní programovatelná hradlová pole (FPGA) nabízejí ještě vyšší výkon a energetickou účinnost než grafické procesory.
-
-4. **ASIC Mining**: Specifické aplikační integrované obvody (ASIC) představují vrchol efektivity hardwaru Mining, navržené speciálně pro operace Mining s bezkonkurenčním výkonem.
-
-
-#### Podrobné srovnání: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: S19J Pro je známý svou vysokou účinností a spolehlivostí a nabízí vynikající rychlost Hash při nižší spotřebě energie, takže je ideální pro rozsáhlé provozy.
-- Antminer S9**: Antminer S9 je sice starší a méně výkonný, ale díky své cenové dostupnosti a slušnému výkonu je stále oblíbený u menších sestav a hobbyistů.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining efektivita a učení
-
-
-Mining poskytuje nejen finanční odměnu, ale také cenné praktické zkušenosti. Získání bitcoinů bez KYC prostřednictvím Mining může být atraktivní nabídkou pro ty, kteří se obávají o své soukromí.
-
-
-#### Pokročilé nástroje a techniky
-
-
-Dodatečný software může zvýšit efektivitu a funkčnost hardwaru Mining. Nástroje, které nabízejí možnosti optimalizace a automatického ladění, zajišťují, že každý čip pracuje s maximální účinností a efektivně vyvažuje rychlost Hash a spotřebu energie.
-
-
----
-
-### 3. Regulační a tržní dynamika v operacích Mining
-
-
-#### Regulační dopad
-
-
-Významnou roli při utváření prostředí Mining hraje regulace. Například čínský zákaz Mining měl hluboký dopad na celosvětové operace Mining, což způsobilo výrazný pokles míry Hash v síti a vedlo k přerozdělení výkonu Mining v různých regionech.
-
-
-#### Dynamika trhu
-
-
-1. **Dostupnost hardwaru a náklady**: Cena a dostupnost těžařů ASIC je ovlivněna tržní cenou Bitcoin. Vysoká poptávka během býčích trhů vede k nedostatku a nadsazeným cenám.
-
-2. **Hodnota Hash a cena Hash**: Pochopení rozdílu mezi hodnotou Hash (satoši vydělané za terahash za den) a cenou Hash (peněžní hodnota sazby Hash) je zásadní. Obojí je ovlivněno obtížností sítě a tržní cenou Bitcoin.
-
-
-#### Mining bazény a mechanismy odměňování
-
-
-1. **Bazény Mining**: Díky kombinaci zdrojů poskytují skupiny Mining stabilnější odměny, čímž se snižuje kolísání a riziko spojené se samostatnou hrou Mining.
-
-2. **Systémy odměn**: Různé mechanismy odměňování, jako je Pay-Per-Share (PPS) a poměrné odměny, nabízejí těžařům různé profily rizika a odměny.
-
-
-
-   - Výplata na akcii**: Pay-Per-Share odměňuje těžaře za každý platný podíl, který předloží, bez ohledu na to, zda pool najde blok. **Díly** jsou důkazní jednotky, že těžaři dokončili požadovanou práci, a pool tyto podíly ověřuje.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proporcionální**: Záleží na tom, zda se odměna rozdělí rovnoměrně podle podílu Miner na celkovém Hashrate fondu.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Budoucnost Mining
-
-
-S klesajícími odměnami za bloky se budou těžaři stále více spoléhat na transakční poplatky. Tento posun vyvolává obavy, zda samotné transakční poplatky budou pro těžaře dostatečnou motivací k dalšímu zabezpečení sítě.
-
-
-#### Hostitelská služba Mining
-
-
-Hostované služby Mining mohou nabídnout nižší provozní náklady, ale jsou spojeny s riziky, jako je nedostatečná kontrola a možnost podvodu. Ke zmírnění těchto rizik je nutná náležitá hloubková kontrola.
-
-
-#### Bezpečnost a efektivita
-
-
-Pokročilé bezpečnostní protokoly a využívání obnovitelné energie nejen zvyšují ziskovost, ale přispívají také k udržitelnému růstu ekosystému Mining.
-
-
-Závěrem lze říci, že svět Bitcoin Mining je komplexní, mnohostranná oblast, která vyžaduje hluboké porozumění technické, strategické, regulační a tržní dynamice. Ať už jste zkušený Miner nebo teprve začínáte, klíčem k prosperitě v této neustále se vyvíjející oblasti je zůstat informovaný a přizpůsobivý. Děkuji vám za pozornost a těším se na vaše dotazy a diskuse.
 
 
 ## Porozumění trhu Joinmarket
@@ -3434,68 +3431,3 @@ Závěrem lze říci, že svět Bitcoin Mining je komplexní, mnohostranná obla
 
 Adam Gibson nabízí pohled na Joinmarket a podrobně popisuje, jak tato implementace CoinJoin zvyšuje soukromí a zaměnitelnost Bitcoin. Rozebírá, jak Joinmarket usnadňuje spolupráci, Trustless a anonymní transakce v rámci ekosystému Bitcoin. Ve druhé části pak ukazuje, jak Joinmarket provozovat v systému Signet.
 
-
-## Hackathon prvního ročníku Cubo+
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Hackathon Groupe 1 - Dědictví Satoshi
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Skupina Satoshi Legacy představuje svou práci na vytvoření elektronického obchodu Lightning s aplikacemi Shopify, React JS a Hydrogen a platební bránou IBEX.
-
-
-### Hackathon Groupe 2 - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Skupina Honey Badger představuje své řešení blogu s integrovanými mikroplatbami Lightning Powered pomocí LnBits a Next.js, Node.js a Hydrogen.
-
-
-### Hackathon Groupe 3
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Třetí skupina představuje Lightning Network Node Dashboard prostřednictvím vlastního API, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Satoshi Fellowship
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Skupina Satoshi's Fellowship představuje herní aplikaci LN využívající LnBits a MongoDB, Poetry, Node.js.
-
-
-### Hackathon Groupe 5 - Lighting Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Skupina Lightning Walker představuje své řešení pro službu Remittances Service s využitím MySQL, JavaScriptu a ZDB API.
-
-
-# Závěrečná část
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Recenze a hodnocení
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Závěr
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

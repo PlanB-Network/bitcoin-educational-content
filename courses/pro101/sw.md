@@ -1030,6 +1030,132 @@ Wacha tupitie kwa ufupi dhana kadhaa muhimu.
 
 Kwa kumalizia, mustakabali na mabadiliko ya Bitcoin yanaamuliwa na mapenzi ya pamoja ya watumiaji wake. Mabadiliko makubwa yanahitaji maafikiano mapana, yanayoakisi hali ya ugatuzi na kisiasa ya utawala wa Bitcoin.
 
+## mining wa Bitcoin Muhimu
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Utangulizi
+
+Ajelex inaangazia kipengele cha biashara cha mining wa Bitcoin, ikichunguza mikakati ya kudumisha faida katika soko shindani. Majadiliano hayo yanajumuisha uchanganuzi wa gharama za uendeshaji, hatua za ufanisi, na uchumi unaoendesha tasnia ya mining.
+
+### 1. Utata wa mining na Mambo ya Faida
+
+#### Mambo ya Kiufundi na Kimkakati
+
+Utata wa mining katika muktadha wa Bitcoin unahusisha hasa kiufundi na kimkakati vipengele ambavyo hubainisha faida ya shughuli za mining. Ni muhimu kuelewa kwamba mining si mchezo wa kubahatisha tu bali ni mchakato wa kisasa unaohitaji upangaji makini na uboreshaji endelevu.
+
+#### Mambo Muhimu ya Faida
+
+![energy cost](assets/en/bonus/mining/1.webp)
+
+1. **Gharama za Lightning**: Moja ya mambo muhimu yanayoathiri faida ya mining ni gharama ya Lightning. Katika maeneo kama Ufaransa, Lightning unaweza kuwa ghali ikilinganishwa na nchi kama El Salvador, ambapo gharama za chini hutoa ushindani kwa miners.
+
+2. **Ufanisi wa Kifaa**: Ufanisi wa maunzi ya mining, unaopimwa kwa kiwango cha Hash na matumizi yake ya nishati, una jukumu muhimu. miners wa hali ya juu wa ASIC kama S19J Pro wanafanya kazi bora zaidi kuliko miundo ya zamani kama vile Antminer S9.
+
+3. **Muda wa muda**: mining wa Bitcoin unahimiza upangaji wa muda mrefu.
+
+4. **Bei ya BTC**: Bei ya BTC ni muhimu ili kuamua faida za mining.
+
+5. **Ugumu wa mtandao**: Ugumu wa mtandao unawakilisha kiasi cha Hashrate kwa wastani kinachohitajika kuchimba block ndani ya dakika 10.
+
+6. **Zana za Kimkakati**: Zana kama vile [braiins.com](https://insights.braiins.com) ni muhimu sana kwa kukokotoa faida na kuwasaidia miners kufanya maamuzi yanayotokana na data.
+
+#### Utumiaji wa Vitendo
+
+Kutokana na uzoefu wa kibinafsi, nimetumia hata mining kupasha joto nyumba yangu huko Ufaransa, kwa ubunifu kukabiliana na gharama za umeme wakati wa mining wa Bitcoin. Mfano huu unasisitiza manufaa ya kujumuisha uendeshaji wa mining katika maisha ya kila siku kwa manufaa ya ziada.
+
+#### Vikwazo katika mining 
+
+miners wanakabiliwa na vikwazo vitatu vya msingi: upatikanaji wa vifaa, upatikanaji wa nishati, na mtaji unaohitajika kuendeleza shughuli. Uhaba wa ASIC kwa sababu ya mahitaji makubwa mara nyingi husababisha muda mrefu wa kungoja na bei iliyopanda, ambayo inatatiza zaidi mazingira ya mining.
+
+
+- Mfano wa **upungufu wa Nishati**.
+
+Mnamo mwaka wa 2021, serikali ya China ilipiga marufuku mining ndani ya eneo lake, na kusababisha makampuni ya mining nchini China kupoteza upatikanaji wa nishati. Hii ilisababisha kupungua kwa **50%** kwa Hashrate kwa muda wa wiki mbili.
+
+![hashrate drop](assets/en/bonus/mining/4.webp)
+
+---
+### 2. Mageuzi na Ufanisi wa Vifaa vya mining 
+
+#### Mageuzi ya Kihistoria
+
+Safari ya maunzi ya mining imekuwa kubwa, kuanzia CPU rahisi ya mining hadi miners mashuhuri wa ASIC tunaotumia leo.
+
+![evolution hardware](assets/en/bonus/mining/3.webp)
+
+1. **mining wa CPU**: Katika siku za mwanzo, Mining ilifanywa kwa kutumia vichakataji vya kawaida vya kompyuta (CPUs). Njia hii ilizidiwa haraka mtandao ulipokua.
+
+2. **mining na GPU**: Vitengo vya Kuchakata Michoro (GPUs) vilitoa uboreshaji mkubwa katika ufanisi wa mining, na kufanya CPU kuwa za kizamani kwa madhumuni ya mining.
+
+4. **mining na FPGA**: Mipangilio ya Lango Inayoweza Kuratibiwa Sehemu (FPGAs) ilitoa utendakazi bora na ufanisi wa nishati kuliko GPU.
+
+5. **mining na ASIC**: Mizunguko Iliyounganishwa ya Programu-Mahususi (ASIC) inawakilisha kilele cha ufanisi wa maunzi ya mining, iliyoundwa mahususi kwa ajili ya utendakazi wa mining na utendakazi usio na kifani.
+
+#### Ulinganisho wa Kina: S19J Pro dhidi ya Antminer S9
+
+
+- **S19J Pro**: S19J Pro inayojulikana kwa ufanisi wake wa hali ya juu na kutegemewa inatoa kiwango cha juu zaidi cha Hash na matumizi ya chini ya nishati, na kuifanya kuwa bora kwa shughuli za kiwango kikubwa.
+- **Antminer S9**: Ingawa ni ya zamani na yenye ufanisi mdogo, Antminer S9 inasalia kuwa maarufu kwa usanidi mdogo na wapenda hobby kutokana na uwezo wake wa kumudu na utendakazi mzuri.
+
+![s19j pro vs antminer s9](assets/en/bonus/mining/2.webp)
+
+#### mining wa Ufanisi na Kujifunza
+
+mining hautoi tu zawadi za kifedha bali pia uzoefu muhimu wa kufanya kazi. Kupata bitcoins zisizo na KYC kupitia mining kunaweza kuwa ni pendekezo la kuvutia kwa wale wanaojali kuhusu faragha.
+
+#### Zana na Mbinu za Kina
+
+Programu ya Baada ya soko inaweza kuongeza ufanisi na utendakazi wa maunzi ya mining. Zana zinazotoa uwezo wa uboreshaji na urekebishaji kiotomatiki huhakikisha kuwa kila chipu inafanya kazi kwa ufanisi wa hali ya juu, kusawazisha kiwango cha Hash na matumizi ya nishati kwa ufanisi.
+
+---
+### 3. Mienendo ya Udhibiti na Soko katika Uendeshaji wa mining 
+
+#### Athari ya Udhibiti
+
+Udhibiti una jukumu kubwa katika kuunda mazingira ya mining. Kwa mfano, marufuku ya mining ya Uchina ilikuwa na athari kubwa kwa shughuli za kimataifa za mining, na kusababisha kushuka kwa kiwango cha mtandao cha Hash na kusababisha ugawaji upya wa nguvu za mining katika maeneo tofauti.
+
+#### Mienendo ya Soko
+
+1. **Upatikanaji wa Vifaa na Gharama**: Bei na upatikanaji wa miners ASIC huathiriwa na bei ya soko ya Bitcoin. Mahitaji makubwa wakati wa masoko ya ng'ombe husababisha uhaba na bei iliyopanda.
+
+2. **Thamani ya Hash na Bei ya Hash**: Kuelewa tofauti kati ya thamani ya Hash (satoshi zinazopatikana kwa terahashi kwa siku) na bei ya Hash (thamani ya fedha ya kiwango cha Hash) ni muhimu. Zote zinaathiriwa na ugumu wa mtandao na bei ya soko ya Bitcoin.
+
+#### Mining pool na Mbinu za Zawadi
+
+1. **Mining pool**: Kwa kuchanganya rasilimali, mining pool hutoa zawadi thabiti zaidi, kupunguza tofauti na hatari inayohusishwa na mining pekee.
+
+2. **Mipango ya Zawadi**: Mbinu tofauti za zawadi, kama vile Pay-Per-Share (PPS) na zawadi sawia, hutoa wasifu mbalimbali wa hatari na zawadi kwa miners.
+
+
+   - **Lipa kwa kila hisa**: Pay-Per-Share huwatuza miners kwa kila hisa halali wanayowasilisha, bila kujali kama bwawa litapata kizuizi. **Hisa** ni vitengo vya uthibitisho kwamba miners wamekamilisha kazi inayohitajika, na bwawa huthibitisha hisa hizi.
+
+![pps](assets/en/bonus/mining/6.webp)
+
+
+   - **Uwiano**: Inategemea bwawa la mining kizuizi ili kusambaza zawadi kwa usawa kwa mchango wa Mchimbaji kwa jumla ya Hashrate ya bwawa.
+
+![prop](assets/en/bonus/mining/5.webp)
+
+#### Mustakabali wa mining 
+
+Kadiri zawadi zinavyopungua, miners watazidi kutegemea ada za miamala. Mabadiliko haya yanaibua wasiwasi kuhusu kama ada za miamala pekee zitatoa motisha ya kutosha kwa miners kuendelea kupata mtandao.
+
+#### Inaendeshwa na mining 
+
+Huduma zilizopangishwa za mining zinaweza kutoa gharama za chini za uendeshaji lakini zija na hatari kama vile ukosefu wa udhibiti na uwezekano wa ulaghai. Uangalifu unaofaa unahitajika ili kupunguza hatari hizi.
+
+#### Usalama na Ufanisi
+
+Protocol za usalama za hali ya juu na matumizi ya nishati mbadala sio tu kwamba huongeza faida bali pia huchangia ukuaji endelevu wa mfumo ikolojia wa mining.
+
+Kwa kumalizia, ulimwengu wa mining wa Bitcoin ni kikoa changamano, chenye nyuso nyingi ambacho kinahitaji uelewa wa kina wa mienendo ya kiufundi, kimkakati, udhibiti na soko. Iwe wewe ni Mchimbaji aliyebobea au unaanza tu, kukaa na habari na kubadilika ni ufunguo wa kustawi katika nyanja hii inayoendelea kubadilika. Asante kwa umakini wako, na ninatarajia maswali na mijadala yako.
+
+
 # Dhana za Layer Moja
 
 <partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
@@ -2358,134 +2484,7 @@ Protocol kama vile **LNURL** na **Bolt 12** hurahisisha malipo kwa kupunguza mwi
 
 Upanuzi na ujumuishaji wa malipo ya Lightning kupitia Protocol mbalimbali na kesi za utumiaji zinaonyesha mabadiliko ya nguvu ya Lightning Network. Kuanzia kuboresha utendakazi wa kimsingi wa malipo hadi kuanzisha miundo ya hali ya juu ya biashara na Protocol za  cryptography, mustakabali waLightning una ahadi kubwa ya uvumbuzi na kukubalika kote.
 
-# Bonasi
 
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-## mining wa Bitcoin Muhimu
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Utangulizi
-
-Ajelex inaangazia kipengele cha biashara cha mining wa Bitcoin, ikichunguza mikakati ya kudumisha faida katika soko shindani. Majadiliano hayo yanajumuisha uchanganuzi wa gharama za uendeshaji, hatua za ufanisi, na uchumi unaoendesha tasnia ya mining.
-
-### 1. Utata wa mining na Mambo ya Faida
-
-#### Mambo ya Kiufundi na Kimkakati
-
-Utata wa mining katika muktadha wa Bitcoin unahusisha hasa kiufundi na kimkakati vipengele ambavyo hubainisha faida ya shughuli za mining. Ni muhimu kuelewa kwamba mining si mchezo wa kubahatisha tu bali ni mchakato wa kisasa unaohitaji upangaji makini na uboreshaji endelevu.
-
-#### Mambo Muhimu ya Faida
-
-![energy cost](assets/en/bonus/mining/1.webp)
-
-1. **Gharama za Lightning**: Moja ya mambo muhimu yanayoathiri faida ya mining ni gharama ya Lightning. Katika maeneo kama Ufaransa, Lightning unaweza kuwa ghali ikilinganishwa na nchi kama El Salvador, ambapo gharama za chini hutoa ushindani kwa miners.
-
-2. **Ufanisi wa Kifaa**: Ufanisi wa maunzi ya mining, unaopimwa kwa kiwango cha Hash na matumizi yake ya nishati, una jukumu muhimu. miners wa hali ya juu wa ASIC kama S19J Pro wanafanya kazi bora zaidi kuliko miundo ya zamani kama vile Antminer S9.
-
-3. **Muda wa muda**: mining wa Bitcoin unahimiza upangaji wa muda mrefu.
-
-4. **Bei ya BTC**: Bei ya BTC ni muhimu ili kuamua faida za mining.
-
-5. **Ugumu wa mtandao**: Ugumu wa mtandao unawakilisha kiasi cha Hashrate kwa wastani kinachohitajika kuchimba block ndani ya dakika 10.
-
-6. **Zana za Kimkakati**: Zana kama vile [braiins.com](https://insights.braiins.com) ni muhimu sana kwa kukokotoa faida na kuwasaidia miners kufanya maamuzi yanayotokana na data.
-
-#### Utumiaji wa Vitendo
-
-Kutokana na uzoefu wa kibinafsi, nimetumia hata mining kupasha joto nyumba yangu huko Ufaransa, kwa ubunifu kukabiliana na gharama za umeme wakati wa mining wa Bitcoin. Mfano huu unasisitiza manufaa ya kujumuisha uendeshaji wa mining katika maisha ya kila siku kwa manufaa ya ziada.
-
-#### Vikwazo katika mining 
-
-miners wanakabiliwa na vikwazo vitatu vya msingi: upatikanaji wa vifaa, upatikanaji wa nishati, na mtaji unaohitajika kuendeleza shughuli. Uhaba wa ASIC kwa sababu ya mahitaji makubwa mara nyingi husababisha muda mrefu wa kungoja na bei iliyopanda, ambayo inatatiza zaidi mazingira ya mining.
-
-
-- Mfano wa **upungufu wa Nishati**.
-
-Mnamo mwaka wa 2021, serikali ya China ilipiga marufuku mining ndani ya eneo lake, na kusababisha makampuni ya mining nchini China kupoteza upatikanaji wa nishati. Hii ilisababisha kupungua kwa **50%** kwa Hashrate kwa muda wa wiki mbili.
-
-![hashrate drop](assets/en/bonus/mining/4.webp)
-
----
-### 2. Mageuzi na Ufanisi wa Vifaa vya mining 
-
-#### Mageuzi ya Kihistoria
-
-Safari ya maunzi ya mining imekuwa kubwa, kuanzia CPU rahisi ya mining hadi miners mashuhuri wa ASIC tunaotumia leo.
-
-![evolution hardware](assets/en/bonus/mining/3.webp)
-
-1. **mining wa CPU**: Katika siku za mwanzo, Mining ilifanywa kwa kutumia vichakataji vya kawaida vya kompyuta (CPUs). Njia hii ilizidiwa haraka mtandao ulipokua.
-
-2. **mining na GPU**: Vitengo vya Kuchakata Michoro (GPUs) vilitoa uboreshaji mkubwa katika ufanisi wa mining, na kufanya CPU kuwa za kizamani kwa madhumuni ya mining.
-
-4. **mining na FPGA**: Mipangilio ya Lango Inayoweza Kuratibiwa Sehemu (FPGAs) ilitoa utendakazi bora na ufanisi wa nishati kuliko GPU.
-
-5. **mining na ASIC**: Mizunguko Iliyounganishwa ya Programu-Mahususi (ASIC) inawakilisha kilele cha ufanisi wa maunzi ya mining, iliyoundwa mahususi kwa ajili ya utendakazi wa mining na utendakazi usio na kifani.
-
-#### Ulinganisho wa Kina: S19J Pro dhidi ya Antminer S9
-
-
-- **S19J Pro**: S19J Pro inayojulikana kwa ufanisi wake wa hali ya juu na kutegemewa inatoa kiwango cha juu zaidi cha Hash na matumizi ya chini ya nishati, na kuifanya kuwa bora kwa shughuli za kiwango kikubwa.
-- **Antminer S9**: Ingawa ni ya zamani na yenye ufanisi mdogo, Antminer S9 inasalia kuwa maarufu kwa usanidi mdogo na wapenda hobby kutokana na uwezo wake wa kumudu na utendakazi mzuri.
-
-![s19j pro vs antminer s9](assets/en/bonus/mining/2.webp)
-
-#### mining wa Ufanisi na Kujifunza
-
-mining hautoi tu zawadi za kifedha bali pia uzoefu muhimu wa kufanya kazi. Kupata bitcoins zisizo na KYC kupitia mining kunaweza kuwa ni pendekezo la kuvutia kwa wale wanaojali kuhusu faragha.
-
-#### Zana na Mbinu za Kina
-
-Programu ya Baada ya soko inaweza kuongeza ufanisi na utendakazi wa maunzi ya mining. Zana zinazotoa uwezo wa uboreshaji na urekebishaji kiotomatiki huhakikisha kuwa kila chipu inafanya kazi kwa ufanisi wa hali ya juu, kusawazisha kiwango cha Hash na matumizi ya nishati kwa ufanisi.
-
----
-### 3. Mienendo ya Udhibiti na Soko katika Uendeshaji wa mining 
-
-#### Athari ya Udhibiti
-
-Udhibiti una jukumu kubwa katika kuunda mazingira ya mining. Kwa mfano, marufuku ya mining ya Uchina ilikuwa na athari kubwa kwa shughuli za kimataifa za mining, na kusababisha kushuka kwa kiwango cha mtandao cha Hash na kusababisha ugawaji upya wa nguvu za mining katika maeneo tofauti.
-
-#### Mienendo ya Soko
-
-1. **Upatikanaji wa Vifaa na Gharama**: Bei na upatikanaji wa miners ASIC huathiriwa na bei ya soko ya Bitcoin. Mahitaji makubwa wakati wa masoko ya ng'ombe husababisha uhaba na bei iliyopanda.
-
-2. **Thamani ya Hash na Bei ya Hash**: Kuelewa tofauti kati ya thamani ya Hash (satoshi zinazopatikana kwa terahashi kwa siku) na bei ya Hash (thamani ya fedha ya kiwango cha Hash) ni muhimu. Zote zinaathiriwa na ugumu wa mtandao na bei ya soko ya Bitcoin.
-
-#### Mining pool na Mbinu za Zawadi
-
-1. **Mining pool**: Kwa kuchanganya rasilimali, mining pool hutoa zawadi thabiti zaidi, kupunguza tofauti na hatari inayohusishwa na mining pekee.
-
-2. **Mipango ya Zawadi**: Mbinu tofauti za zawadi, kama vile Pay-Per-Share (PPS) na zawadi sawia, hutoa wasifu mbalimbali wa hatari na zawadi kwa miners.
-
-
-   - **Lipa kwa kila hisa**: Pay-Per-Share huwatuza miners kwa kila hisa halali wanayowasilisha, bila kujali kama bwawa litapata kizuizi. **Hisa** ni vitengo vya uthibitisho kwamba miners wamekamilisha kazi inayohitajika, na bwawa huthibitisha hisa hizi.
-
-![pps](assets/en/bonus/mining/6.webp)
-
-
-   - **Uwiano**: Inategemea bwawa la mining kizuizi ili kusambaza zawadi kwa usawa kwa mchango wa Mchimbaji kwa jumla ya Hashrate ya bwawa.
-
-![prop](assets/en/bonus/mining/5.webp)
-
-#### Mustakabali wa mining 
-
-Kadiri zawadi zinavyopungua, miners watazidi kutegemea ada za miamala. Mabadiliko haya yanaibua wasiwasi kuhusu kama ada za miamala pekee zitatoa motisha ya kutosha kwa miners kuendelea kupata mtandao.
-
-#### Inaendeshwa na mining 
-
-Huduma zilizopangishwa za mining zinaweza kutoa gharama za chini za uendeshaji lakini zija na hatari kama vile ukosefu wa udhibiti na uwezekano wa ulaghai. Uangalifu unaofaa unahitajika ili kupunguza hatari hizi.
-
-#### Usalama na Ufanisi
-
-Protocol za usalama za hali ya juu na matumizi ya nishati mbadala sio tu kwamba huongeza faida bali pia huchangia ukuaji endelevu wa mfumo ikolojia wa mining.
-
-Kwa kumalizia, ulimwengu wa mining wa Bitcoin ni kikoa changamano, chenye nyuso nyingi ambacho kinahitaji uelewa wa kina wa mienendo ya kiufundi, kimkakati, udhibiti na soko. Iwe wewe ni Mchimbaji aliyebobea au unaanza tu, kukaa na habari na kubadilika ni ufunguo wa kustawi katika nyanja hii inayoendelea kubadilika. Asante kwa umakini wako, na ninatarajia maswali na mijadala yako.
 
 ## Kuelewa Joinmarket
 
@@ -2496,52 +2495,3 @@ Kwa kumalizia, ulimwengu wa mining wa Bitcoin ni kikoa changamano, chenye nyuso 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
 Adam Gibson anatoa maarifa kuhusu Joinmarket, akieleza kwa kina jinsi utekelezaji huu wa CoinJoin unavyoboresha faragha na uwezakano wa Bitcoin. Anajadili jinsi Joinmarket inavyowezesha shirikishi, Trustless, na miamala isiyojulikana ndani ya mfumo ikolojia wa Bitcoin. Kisha katika sehemu ya pili, anaonyesha jinsi ya kuendesha Joinmarket katika Signet.
-
-## Cubo + mwaka wa kwanza Hackathon
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-### Groupe 1 Hackathon - Urithi wa Satoshi
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Kikundi cha Satoshi Legacy kinawasilisha kazi yao ya kujenga biashara ya mtandaoni ya Lightning na Shopify, React JS na Hydrojeni na lango la malipo la IBEX.
-
-### Groupe 2 Hackathon - Honey Badger
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Kikundi cha Honey Badger kinawasilisha suluhisho lake kwa blogu iliyo na Malipo Madogo Yanayoendeshwa na Lightning yaliyojengwa ndani kwa kutumia LnBits na Next.js, Node.js na Hidrojeni.
-
-### Groupe 3 Hackathon
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Kundi la tatu linawasilisha Dashibodi ya Njia ya Lightning Network kupitia API maalum, LND, vue.js, node.js, Bootstrap.
-
-### Groupe 4 Hackathon - Satoshi Fellowship
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Kikundi cha Satoshi's Fellowship kinawasilisha programu ya michezo ya kubahatisha ya LN kwa kutumia LnBits na MongoDB, Poetry, Node.js.
-
-### Groupe 5 Hackathon - Lighting Walker
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Kikundi cha Lightning Walker kinawasilisha suluhisho lao la Huduma ya Pesa kwa kutumia MySQL, JavaScript na API ya ZDB.
-
-# Sehemu ya mwisho
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-## Ukaguzi na Ukadiriaji
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-## Hitimisho
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

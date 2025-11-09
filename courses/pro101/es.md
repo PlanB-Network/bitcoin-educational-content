@@ -1428,6 +1428,180 @@ Repasemos brevemente algunos conceptos importantes.
 En conclusión, el futuro y los cambios de Bitcoin vienen determinados por la voluntad colectiva de sus usuarios. Los cambios significativos requieren un amplio consenso, lo que refleja la naturaleza descentralizada y política de la gobernanza de Bitcoin.
 
 
+## Bitcoin Mining Esenciales
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Introducción
+
+
+Ajelex se centra en el aspecto empresarial de la Bitcoin Mining, examinando las estrategias para mantener la rentabilidad en un mercado competitivo. El debate incluye un análisis de los costes operativos, las medidas de eficiencia y los aspectos económicos que impulsan la industria del Mining.
+
+
+### 1. Mining factores de complejidad y rentabilidad
+
+
+#### Factores técnicos y estratégicos
+
+
+La complejidad de la Mining en el contexto de la Bitcoin implica principalmente las Elements técnicas y estratégicas que determinan la rentabilidad de las operaciones de Mining. Es fundamental comprender que la Mining no es un simple juego de azar, sino un sofisticado proceso que requiere una cuidadosa planificación y una optimización continua.
+
+
+#### Principales factores de rentabilidad
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Costes de la electricidad**: Uno de los factores más importantes que afectan a la rentabilidad de la Mining es el coste de la electricidad. En regiones como Francia, la electricidad puede ser relativamente cara en comparación con países como El Salvador, donde unos costes más bajos suponen una ventaja competitiva para los mineros.
+
+2. **Eficiencia del hardware**: La eficiencia del hardware de Mining, medida por su Hash tasa y consumo de energía, juega un papel fundamental. Los mineros ASIC avanzados, como el S19J Pro, son mucho más eficientes que modelos más antiguos como el Antminer S9.
+
+3. **Periodo de tiempo**: Bitcoin Mining fomenta la planificación a largo plazo.
+
+4. **Precio BTC**: El Precio BTC es esencial para determinar la rentabilidad Mining.
+
+5. **Dificultad de la red**: La dificultad de la red representa la cantidad de Hashrate de media necesaria para minar un bloque en 10 minutos.
+
+6. **Herramientas estratégicas**: Herramientas como [braiins.com](https://insights.braiins.com) son inestimables para calcular la rentabilidad y ayudar a los mineros a tomar decisiones basadas en datos.
+
+
+#### Aplicación práctica
+
+
+Por experiencia personal, incluso he utilizado Mining para calentar mi apartamento en Francia, compensando de forma creativa los costes de electricidad mientras Mining Bitcoin. Este ejemplo subraya lo práctico que resulta integrar las operaciones de Mining en la vida cotidiana para obtener beneficios añadidos.
+
+
+#### Cuellos de botella en Mining
+
+
+Los mineros se enfrentan a tres cuellos de botella principales: la disponibilidad de hardware, el acceso a la energía y el capital necesario para mantener las operaciones. La escasez de ASIC debido a la gran demanda suele provocar largos tiempos de espera y precios inflados, lo que complica aún más el panorama de la Mining.
+
+
+
+- Ejemplo de **Cuello de botella energético**.
+
+En 2021, el gobierno chino prohibió el Mining en su territorio, lo que provocó que las empresas de Mining en China perdieran el acceso a la energía. Esto provocó una caída del **50%** del Hashrate en dos semanas.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Evolución y eficacia del hardware de Mining
+
+
+#### Evolución histórica
+
+
+El viaje del hardware de Mining ha sido monumental, empezando por la sencilla CPU Mining hasta los mineros ASIC altamente especializados que utilizamos hoy en día.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: Al principio, Mining se realizaba utilizando procesadores de ordenador normales (CPU). Este método se vio rápidamente superado a medida que la red crecía.
+
+2. **GPU Mining**: Las unidades de procesamiento gráfico (GPU) proporcionaron un aumento significativo de la eficiencia de Mining, haciendo que las CPU quedaran obsoletas a efectos de Mining.
+
+3. **FPGA Mining**: Las matrices de puertas programables en campo (FPGA) ofrecen un rendimiento y una eficiencia energética aún mejores que las GPU.
+
+4. **ASIC Mining**: Los circuitos integrados de aplicación específica (ASIC) representan la cúspide de la eficiencia de hardware de Mining, diseñados específicamente para operaciones de Mining con un rendimiento inigualable.
+
+
+#### Comparación detallada: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: Conocido por su alta eficiencia y fiabilidad, el S19J Pro ofrece una tasa Hash superior con un menor consumo de energía, lo que lo hace ideal para operaciones a gran escala.
+- Antminer S9**: Aunque es más antiguo y menos eficiente, el Antminer S9 sigue siendo popular para pequeñas configuraciones y aficionados debido a su asequibilidad y rendimiento decente.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining eficacia y aprendizaje
+
+
+Mining no sólo ofrece recompensas económicas, sino también una valiosa experiencia práctica. Adquirir bitcoins sin KYC a través de Mining puede ser una propuesta atractiva para quienes se preocupan por la privacidad.
+
+
+#### Herramientas y técnicas avanzadas
+
+
+El software posventa puede mejorar la eficacia y funcionalidad del hardware Mining. Las herramientas que ofrecen funciones de optimización y autoajuste garantizan que cada chip funcione con la máxima eficiencia, equilibrando Hash la velocidad y el uso de energía de forma eficaz.
+
+
+---
+
+### 3. Dinámica reglamentaria y de mercado en las operaciones de Mining
+
+
+#### Impacto normativo
+
+
+La regulación desempeña un papel importante en la configuración del panorama de la Mining. Por ejemplo, la prohibición china de la Mining tuvo profundos efectos en las operaciones mundiales de Mining, provocando un descenso significativo de la tasa de Hash de la red y dando lugar a una redistribución de la potencia de Mining entre las distintas regiones.
+
+
+#### Dinámica del mercado
+
+
+1. **Disponibilidad y coste del hardware**: El precio y la disponibilidad de los mineros ASIC están influidos por el precio de mercado de Bitcoin. La alta demanda durante los mercados alcistas provoca escasez y precios inflados.
+
+2. **Valor Hash y precio Hash**: Es esencial comprender la diferencia entre el valor de Hash (satoshis ganados por terahash al día) y el precio de Hash (valor monetario de la tarifa de Hash). Ambos se ven afectados por la dificultad de la red y el precio de mercado de Bitcoin.
+
+
+#### Mining fondos y mecanismos de recompensa
+
+
+1. **Grupos de Mining**: Al combinar recursos, las agrupaciones de Mining proporcionan recompensas más estables, reduciendo la varianza y el riesgo asociados al Mining en solitario.
+
+2. **Esquemas de recompensa**: Los distintos mecanismos de recompensa, como el pago por acción (PPS) y las recompensas proporcionales, ofrecen diversos perfiles de riesgo y recompensa para los mineros.
+
+
+
+   - Pago por acción**: Pay-Per-Share recompensa a los mineros por cada acción válida que envíen, independientemente de si el pool encuentra un bloque. **Las acciones son unidades de prueba de que los mineros han completado el trabajo requerido, y el pool verifica estas acciones.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proporcional**: Depende del Mining del pool un bloque para distribuir la recompensa de forma equitativa a la contribución del Miner al Hashrate total del pool.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Futuro de Mining
+
+
+A medida que disminuyan las recompensas por bloque, los mineros dependerán cada vez más de las comisiones por transacción. Este cambio suscita dudas sobre si las comisiones por transacción serán suficientes incentivos para que los mineros sigan protegiendo la red.
+
+
+#### Mining alojado
+
+
+Los servicios de Mining alojados pueden ofrecer menores costes operativos, pero conllevan riesgos como la falta de control y la posibilidad de fraude. Para mitigar estos riesgos es necesario actuar con la debida diligencia.
+
+
+#### Seguridad y eficacia
+
+
+Los avanzados protocolos de seguridad y el uso de energías renovables no sólo mejoran la rentabilidad, sino que también contribuyen al crecimiento sostenible del ecosistema Mining.
+
+
+En conclusión, el mundo de la Bitcoin Mining es un ámbito complejo y polifacético que requiere un profundo conocimiento de las dinámicas técnicas, estratégicas, normativas y de mercado. Tanto si es un Miner experimentado como si acaba de empezar, mantenerse informado y adaptable es clave para prosperar en este campo en constante evolución. Gracias por su atención y espero sus preguntas y debates.
+
+
+
 # Layer Uno Conceptos
 
 
@@ -3243,183 +3417,6 @@ Protocolos como **LNURL** y **Bolt 12** agilizan los pagos al reducir las intera
 La ampliación e integración de los pagos con Lightning a través de diversos protocolos y casos de uso demuestran la evolución dinámica de Lightning Network. Desde la mejora de la funcionalidad básica de los pagos hasta la introducción de modelos de negocio y protocolos criptográficos avanzados, el futuro de Lightning es muy prometedor para la innovación y la adopción generalizada.
 
 
-# Bono
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Esenciales
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Introducción
-
-
-Ajelex se centra en el aspecto empresarial de la Bitcoin Mining, examinando las estrategias para mantener la rentabilidad en un mercado competitivo. El debate incluye un análisis de los costes operativos, las medidas de eficiencia y los aspectos económicos que impulsan la industria del Mining.
-
-
-### 1. Mining factores de complejidad y rentabilidad
-
-
-#### Factores técnicos y estratégicos
-
-
-La complejidad de la Mining en el contexto de la Bitcoin implica principalmente las Elements técnicas y estratégicas que determinan la rentabilidad de las operaciones de Mining. Es fundamental comprender que la Mining no es un simple juego de azar, sino un sofisticado proceso que requiere una cuidadosa planificación y una optimización continua.
-
-
-#### Principales factores de rentabilidad
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Costes de la electricidad**: Uno de los factores más importantes que afectan a la rentabilidad de la Mining es el coste de la electricidad. En regiones como Francia, la electricidad puede ser relativamente cara en comparación con países como El Salvador, donde unos costes más bajos suponen una ventaja competitiva para los mineros.
-
-2. **Eficiencia del hardware**: La eficiencia del hardware de Mining, medida por su Hash tasa y consumo de energía, juega un papel fundamental. Los mineros ASIC avanzados, como el S19J Pro, son mucho más eficientes que modelos más antiguos como el Antminer S9.
-
-3. **Periodo de tiempo**: Bitcoin Mining fomenta la planificación a largo plazo.
-
-4. **Precio BTC**: El Precio BTC es esencial para determinar la rentabilidad Mining.
-
-5. **Dificultad de la red**: La dificultad de la red representa la cantidad de Hashrate de media necesaria para minar un bloque en 10 minutos.
-
-6. **Herramientas estratégicas**: Herramientas como [braiins.com](https://insights.braiins.com) son inestimables para calcular la rentabilidad y ayudar a los mineros a tomar decisiones basadas en datos.
-
-
-#### Aplicación práctica
-
-
-Por experiencia personal, incluso he utilizado Mining para calentar mi apartamento en Francia, compensando de forma creativa los costes de electricidad mientras Mining Bitcoin. Este ejemplo subraya lo práctico que resulta integrar las operaciones de Mining en la vida cotidiana para obtener beneficios añadidos.
-
-
-#### Cuellos de botella en Mining
-
-
-Los mineros se enfrentan a tres cuellos de botella principales: la disponibilidad de hardware, el acceso a la energía y el capital necesario para mantener las operaciones. La escasez de ASIC debido a la gran demanda suele provocar largos tiempos de espera y precios inflados, lo que complica aún más el panorama de la Mining.
-
-
-
-- Ejemplo de **Cuello de botella energético**.
-
-En 2021, el gobierno chino prohibió el Mining en su territorio, lo que provocó que las empresas de Mining en China perdieran el acceso a la energía. Esto provocó una caída del **50%** del Hashrate en dos semanas.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Evolución y eficacia del hardware de Mining
-
-
-#### Evolución histórica
-
-
-El viaje del hardware de Mining ha sido monumental, empezando por la sencilla CPU Mining hasta los mineros ASIC altamente especializados que utilizamos hoy en día.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: Al principio, Mining se realizaba utilizando procesadores de ordenador normales (CPU). Este método se vio rápidamente superado a medida que la red crecía.
-
-2. **GPU Mining**: Las unidades de procesamiento gráfico (GPU) proporcionaron un aumento significativo de la eficiencia de Mining, haciendo que las CPU quedaran obsoletas a efectos de Mining.
-
-3. **FPGA Mining**: Las matrices de puertas programables en campo (FPGA) ofrecen un rendimiento y una eficiencia energética aún mejores que las GPU.
-
-4. **ASIC Mining**: Los circuitos integrados de aplicación específica (ASIC) representan la cúspide de la eficiencia de hardware de Mining, diseñados específicamente para operaciones de Mining con un rendimiento inigualable.
-
-
-#### Comparación detallada: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: Conocido por su alta eficiencia y fiabilidad, el S19J Pro ofrece una tasa Hash superior con un menor consumo de energía, lo que lo hace ideal para operaciones a gran escala.
-- Antminer S9**: Aunque es más antiguo y menos eficiente, el Antminer S9 sigue siendo popular para pequeñas configuraciones y aficionados debido a su asequibilidad y rendimiento decente.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining eficacia y aprendizaje
-
-
-Mining no sólo ofrece recompensas económicas, sino también una valiosa experiencia práctica. Adquirir bitcoins sin KYC a través de Mining puede ser una propuesta atractiva para quienes se preocupan por la privacidad.
-
-
-#### Herramientas y técnicas avanzadas
-
-
-El software posventa puede mejorar la eficacia y funcionalidad del hardware Mining. Las herramientas que ofrecen funciones de optimización y autoajuste garantizan que cada chip funcione con la máxima eficiencia, equilibrando Hash la velocidad y el uso de energía de forma eficaz.
-
-
----
-
-### 3. Dinámica reglamentaria y de mercado en las operaciones de Mining
-
-
-#### Impacto normativo
-
-
-La regulación desempeña un papel importante en la configuración del panorama de la Mining. Por ejemplo, la prohibición china de la Mining tuvo profundos efectos en las operaciones mundiales de Mining, provocando un descenso significativo de la tasa de Hash de la red y dando lugar a una redistribución de la potencia de Mining entre las distintas regiones.
-
-
-#### Dinámica del mercado
-
-
-1. **Disponibilidad y coste del hardware**: El precio y la disponibilidad de los mineros ASIC están influidos por el precio de mercado de Bitcoin. La alta demanda durante los mercados alcistas provoca escasez y precios inflados.
-
-2. **Valor Hash y precio Hash**: Es esencial comprender la diferencia entre el valor de Hash (satoshis ganados por terahash al día) y el precio de Hash (valor monetario de la tarifa de Hash). Ambos se ven afectados por la dificultad de la red y el precio de mercado de Bitcoin.
-
-
-#### Mining fondos y mecanismos de recompensa
-
-
-1. **Grupos de Mining**: Al combinar recursos, las agrupaciones de Mining proporcionan recompensas más estables, reduciendo la varianza y el riesgo asociados al Mining en solitario.
-
-2. **Esquemas de recompensa**: Los distintos mecanismos de recompensa, como el pago por acción (PPS) y las recompensas proporcionales, ofrecen diversos perfiles de riesgo y recompensa para los mineros.
-
-
-
-   - Pago por acción**: Pay-Per-Share recompensa a los mineros por cada acción válida que envíen, independientemente de si el pool encuentra un bloque. **Las acciones son unidades de prueba de que los mineros han completado el trabajo requerido, y el pool verifica estas acciones.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proporcional**: Depende del Mining del pool un bloque para distribuir la recompensa de forma equitativa a la contribución del Miner al Hashrate total del pool.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Futuro de Mining
-
-
-A medida que disminuyan las recompensas por bloque, los mineros dependerán cada vez más de las comisiones por transacción. Este cambio suscita dudas sobre si las comisiones por transacción serán suficientes incentivos para que los mineros sigan protegiendo la red.
-
-
-#### Mining alojado
-
-
-Los servicios de Mining alojados pueden ofrecer menores costes operativos, pero conllevan riesgos como la falta de control y la posibilidad de fraude. Para mitigar estos riesgos es necesario actuar con la debida diligencia.
-
-
-#### Seguridad y eficacia
-
-
-Los avanzados protocolos de seguridad y el uso de energías renovables no sólo mejoran la rentabilidad, sino que también contribuyen al crecimiento sostenible del ecosistema Mining.
-
-
-En conclusión, el mundo de la Bitcoin Mining es un ámbito complejo y polifacético que requiere un profundo conocimiento de las dinámicas técnicas, estratégicas, normativas y de mercado. Tanto si es un Miner experimentado como si acaba de empezar, mantenerse informado y adaptable es clave para prosperar en este campo en constante evolución. Gracias por su atención y espero sus preguntas y debates.
 
 
 ## Comprender Joinmarket
@@ -3434,68 +3431,3 @@ En conclusión, el mundo de la Bitcoin Mining es un ámbito complejo y polifacé
 
 Adam Gibson ofrece una visión de Joinmarket, detallando cómo esta implementación de CoinJoin mejora la privacidad y fungibilidad de Bitcoin. Habla de cómo Joinmarket facilita las transacciones colaborativas, Trustless y anónimas dentro del ecosistema Bitcoin. A continuación, en una segunda parte, muestra cómo ejecutar Joinmarket en Signet.
 
-
-## Hackathon de primer año de Cubo
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - El legado Satoshi
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-El grupo Satoshi Legacy's presenta su trabajo sobre la construcción de un comercio electrónico Lightning con Shopify, React JS e Hydrogen y la pasarela de pago IBEX.
-
-
-### Hackathon del Grupo 2 - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-El grupo de Honey Badger presenta su solución para un blog con Micropagos Lightning Powered incorporados con el uso de LnBits y Next.js, Node.js e Hydrogen.
-
-
-### Hackathon del Grupo 3
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-El tercer grupo presenta un Lightning Network Node Dashboard a través de una API personalizada, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Beca Satoshi
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-El grupo de Satoshi's Fellowship presenta una aplicación de juegos de LN usando LnBits y MongoDB, Poesía, Node.js.
-
-
-### Groupe 5 Hackathon - Caminante de la iluminación
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-El grupo de Lightning Walker presenta su solución para el servicio de remesas utilizando MySQL, JavaScript y la API de ZDB.
-
-
-# Sección final
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Opiniones y valoraciones
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Conclusión
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

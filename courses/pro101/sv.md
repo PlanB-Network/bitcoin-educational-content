@@ -1428,6 +1428,180 @@ Låt oss kortfattat gå igenom några viktiga begrepp.
 Sammanfattningsvis bestäms Bitcoin:s framtid och förändringar av dess användares kollektiva vilja. Betydande förändringar kräver brett samförstånd, vilket återspeglar den decentraliserade och politiska karaktären hos Bitcoin:s styrning.
 
 
+## Bitcoin Mining Grundläggande
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Inledning
+
+
+Ajelex fokuserar på affärsaspekten av Bitcoin Mining och undersöker strategier för att upprätthålla lönsamheten på en konkurrensutsatt marknad. Diskussionen omfattar en analys av driftskostnader, effektivitetsåtgärder och de ekonomiska faktorer som driver Mining-industrin.
+
+
+### 1. Mining komplexitets- och lönsamhetsfaktorer
+
+
+#### Tekniska och strategiska faktorer
+
+
+Mining komplexitet i samband med Bitcoin omfattar främst de tekniska och strategiska Elements som avgör lönsamheten i Mining verksamheten. Det är viktigt att förstå att Mining inte bara är ett hasardspel utan en sofistikerad process som kräver noggrann planering och kontinuerlig optimering.
+
+
+#### Viktiga lönsamhetsfaktorer
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Elektricitetskostnader**: En av de viktigaste faktorerna som påverkar lönsamheten för Mining är elkostnaden. I regioner som Frankrike kan elen vara relativt dyr jämfört med länder som El Salvador, där lägre kostnader ger en konkurrensfördel för gruvarbetarna.
+
+2. **Hårdvarans effektivitet**: Effektiviteten hos Mining-hårdvara, mätt med dess Hash-hastighet och strömförbrukning, spelar en avgörande roll. Avancerade ASIC-miners som S19J Pro är mycket mer effektiva än äldre modeller som Antminer S9.
+
+3. **Tidsperiod**: Bitcoin Mining uppmuntrar till långsiktig planering.
+
+4. **BTC-pris**: BTC-priset är viktigt för att bestämma Mining:s lönsamhet.
+
+5. **Nätverkssvårighet**: Nätverkssvårigheten representerar den mängd Hashrate som i genomsnitt behövs för att bryta ett block på 10 minuter.
+
+6. **Strategiska verktyg**: Verktyg som [braiins.com] (https://insights.braiins.com) är ovärderliga för att beräkna lönsamhet och hjälpa gruvarbetare att fatta datadrivna beslut.
+
+
+#### Praktisk tillämpning
+
+
+Av personlig erfarenhet har jag till och med använt Mining för att värma upp min lägenhet i Frankrike, vilket på ett kreativt sätt kompenserar för elkostnader medan Mining Bitcoin. Detta exempel understryker hur praktiskt det är att integrera Mining-verksamheten i vardagen för att få extra fördelar.
+
+
+#### Flaskhalsar i Mining
+
+
+Miners står inför tre primära flaskhalsar: hårdvarutillgänglighet, energitillgång och det kapital som krävs för att upprätthålla verksamheten. Bristen på ASICs på grund av hög efterfrågan leder ofta till långa väntetider och uppblåsta priser, vilket ytterligare komplicerar Mining-landskapet.
+
+
+
+- Exempel på **energiflaskhals**.
+
+År 2021 förbjöd den kinesiska regeringen Mining inom sitt territorium, vilket ledde till att Mining-företag i Kina förlorade tillgången till energi. Detta resulterade i en **50%** nedgång i Hashrate under två veckor.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Utveckling och effektivitet för Mining-hårdvara
+
+
+#### Historisk utveckling
+
+
+Resan för Mining-hårdvara har varit monumental, från enkla CPU Mining till de högspecialiserade ASIC-gruvbrytare som vi använder idag.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: I början utfördes Mining med hjälp av vanliga datorprocessorer (CPU:er). Denna metod blev snabbt utkonkurrerad i takt med att nätverket växte.
+
+2. **GPU Mining**: GPU:er (Graphics Processing Units) gav en betydande ökning av Mining-effektiviteten och gjorde CPU:er överflödiga för Mining-ändamål.
+
+3. **FPGA Mining**: FPGA:er (Field-Programmable Gate Arrays) erbjöd ännu bättre prestanda och energieffektivitet än GPU:er.
+
+4. **ASIC Mining**: ASIC (Application-Specific Integrated Circuits) representerar toppen av Mining hårdvarueffektivitet, utformad speciellt för Mining-operationer med oöverträffad prestanda.
+
+
+#### Detaljerad jämförelse: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: S19J Pro är känd för sin höga effektivitet och tillförlitlighet och erbjuder en överlägsen Hash-hastighet med lägre strömförbrukning, vilket gör den idealisk för storskalig verksamhet.
+- Antminer S9**: Även om Antminer S9 är äldre och mindre effektiv är den fortfarande populär bland mindre installationer och hobbyanvändare tack vare sitt överkomliga pris och sin hyfsade prestanda.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining effektivitet och lärande
+
+
+Mining ger inte bara ekonomiska belöningar utan också värdefull praktisk erfarenhet. Att förvärva KYC-fria bitcoins genom Mining kan vara ett attraktivt förslag för dem som är oroliga för integritet.
+
+
+#### Avancerade verktyg och tekniker
+
+
+Programvara för eftermarknaden kan förbättra effektiviteten och funktionaliteten hos Mining-hårdvara. Verktyg som erbjuder optimering och auto-tuning säkerställer att varje chip arbetar med maximal effektivitet och balanserar Hash-hastighet och strömförbrukning effektivt.
+
+
+---
+
+### 3. Reglerings- och marknadsdynamik i Mining-verksamheten
+
+
+#### Lagstiftningens inverkan
+
+
+Reglering spelar en viktig roll i utformningen av Mining-landskapet. Till exempel hade det kinesiska Mining-förbudet djupgående effekter på den globala Mining-verksamheten, vilket orsakade en betydande minskning av Hash-nätverkets hastighet och ledde till en omfördelning av Mining-kraften mellan olika regioner.
+
+
+#### Dynamik på marknaden
+
+
+1. **Tillgänglighet och kostnad för hårdvara**: Priset på och tillgången till ASIC miners påverkas av Bitcoin:s marknadspris. Hög efterfrågan under bullmarknader resulterar i knapphet och uppblåsta priser.
+
+2. **Hash-värde och Hash-pris**: Det är viktigt att förstå skillnaden mellan Hash-värdet (satoshis som tjänas per terahash per dag) och Hash-priset (det monetära värdet av Hash-räntan). Båda påverkas av nätverkssvårigheter och Bitcoin:s marknadspris.
+
+
+#### Mining-pooler och belöningsmekanismer
+
+
+1. **Mining-pooler**: Genom att kombinera resurser ger Mining-pooler mer stabila belöningar, vilket minskar variansen och risken i samband med solo Mining.
+
+2. **Belöningssystem**: Olika belöningsmekanismer, som Pay-Per-Share (PPS) och proportionella belöningar, erbjuder olika risk- och belöningsprofiler för gruvarbetare.
+
+
+
+   - Betala per andel**: Pay-Per-Share belönar miners för varje giltig share de skickar in, oavsett om poolen hittar ett block eller inte. **Shares** är bevisenheter för att gruvarbetare har slutfört det arbete som krävs, och poolen verifierar dessa aktier.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proportionell**: Det beror på poolen Mining ett block för att fördela belöningen lika till bidraget från Miner till den totala Hashrate i poolen.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Framtiden för Mining
+
+
+I takt med att blockbelöningarna minskar kommer miners i allt högre grad att förlita sig på transaktionsavgifter. Detta skifte väcker frågor om huruvida transaktionsavgifter ensamma kommer att ge tillräckliga incitament för utvinnare att fortsätta säkra nätverket.
+
+
+#### Värd Mining
+
+
+Hosted Mining-tjänster kan erbjuda lägre driftskostnader men medför risker som bristande kontroll och risk för bedrägerier. Korrekt due diligence är nödvändigt för att minska dessa risker.
+
+
+#### Säkerhet och effektivitet
+
+
+Avancerade säkerhetsprotokoll och användning av förnybar energi förbättrar inte bara lönsamheten utan bidrar också till en hållbar tillväxt av Mining-ekosystemet.
+
+
+Sammanfattningsvis är världen av Bitcoin Mining en komplex, mångfacetterad domän som kräver en djup förståelse för teknisk, strategisk, regulatorisk och marknadsdynamik. Oavsett om du är en erfaren Miner eller precis har börjat, är det viktigt att hålla sig informerad och anpassningsbar för att trivas inom detta ständigt föränderliga område. Tack för din uppmärksamhet, och jag ser fram emot dina frågor och diskussioner.
+
+
+
 # Layer Ett koncept
 
 
@@ -3243,183 +3417,6 @@ Protokoll som **LNURL** och **Bolt 12** effektiviserar betalningar genom att min
 Utvidgningen och integrationen av Lightning-betalningar genom olika protokoll och användningsfall visar den dynamiska utvecklingen av Lightning Network. Från att förbättra den grundläggande funktionaliteten för betalningar till att introducera avancerade affärsmodeller och kryptografiska protokoll, ger framtiden för Lightning ett betydande löfte om innovation och utbredd adoption.
 
 
-# Bonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Grundläggande
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Inledning
-
-
-Ajelex fokuserar på affärsaspekten av Bitcoin Mining och undersöker strategier för att upprätthålla lönsamheten på en konkurrensutsatt marknad. Diskussionen omfattar en analys av driftskostnader, effektivitetsåtgärder och de ekonomiska faktorer som driver Mining-industrin.
-
-
-### 1. Mining komplexitets- och lönsamhetsfaktorer
-
-
-#### Tekniska och strategiska faktorer
-
-
-Mining komplexitet i samband med Bitcoin omfattar främst de tekniska och strategiska Elements som avgör lönsamheten i Mining verksamheten. Det är viktigt att förstå att Mining inte bara är ett hasardspel utan en sofistikerad process som kräver noggrann planering och kontinuerlig optimering.
-
-
-#### Viktiga lönsamhetsfaktorer
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Elektricitetskostnader**: En av de viktigaste faktorerna som påverkar lönsamheten för Mining är elkostnaden. I regioner som Frankrike kan elen vara relativt dyr jämfört med länder som El Salvador, där lägre kostnader ger en konkurrensfördel för gruvarbetarna.
-
-2. **Hårdvarans effektivitet**: Effektiviteten hos Mining-hårdvara, mätt med dess Hash-hastighet och strömförbrukning, spelar en avgörande roll. Avancerade ASIC-miners som S19J Pro är mycket mer effektiva än äldre modeller som Antminer S9.
-
-3. **Tidsperiod**: Bitcoin Mining uppmuntrar till långsiktig planering.
-
-4. **BTC-pris**: BTC-priset är viktigt för att bestämma Mining:s lönsamhet.
-
-5. **Nätverkssvårighet**: Nätverkssvårigheten representerar den mängd Hashrate som i genomsnitt behövs för att bryta ett block på 10 minuter.
-
-6. **Strategiska verktyg**: Verktyg som [braiins.com] (https://insights.braiins.com) är ovärderliga för att beräkna lönsamhet och hjälpa gruvarbetare att fatta datadrivna beslut.
-
-
-#### Praktisk tillämpning
-
-
-Av personlig erfarenhet har jag till och med använt Mining för att värma upp min lägenhet i Frankrike, vilket på ett kreativt sätt kompenserar för elkostnader medan Mining Bitcoin. Detta exempel understryker hur praktiskt det är att integrera Mining-verksamheten i vardagen för att få extra fördelar.
-
-
-#### Flaskhalsar i Mining
-
-
-Miners står inför tre primära flaskhalsar: hårdvarutillgänglighet, energitillgång och det kapital som krävs för att upprätthålla verksamheten. Bristen på ASICs på grund av hög efterfrågan leder ofta till långa väntetider och uppblåsta priser, vilket ytterligare komplicerar Mining-landskapet.
-
-
-
-- Exempel på **energiflaskhals**.
-
-År 2021 förbjöd den kinesiska regeringen Mining inom sitt territorium, vilket ledde till att Mining-företag i Kina förlorade tillgången till energi. Detta resulterade i en **50%** nedgång i Hashrate under två veckor.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Utveckling och effektivitet för Mining-hårdvara
-
-
-#### Historisk utveckling
-
-
-Resan för Mining-hårdvara har varit monumental, från enkla CPU Mining till de högspecialiserade ASIC-gruvbrytare som vi använder idag.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: I början utfördes Mining med hjälp av vanliga datorprocessorer (CPU:er). Denna metod blev snabbt utkonkurrerad i takt med att nätverket växte.
-
-2. **GPU Mining**: GPU:er (Graphics Processing Units) gav en betydande ökning av Mining-effektiviteten och gjorde CPU:er överflödiga för Mining-ändamål.
-
-3. **FPGA Mining**: FPGA:er (Field-Programmable Gate Arrays) erbjöd ännu bättre prestanda och energieffektivitet än GPU:er.
-
-4. **ASIC Mining**: ASIC (Application-Specific Integrated Circuits) representerar toppen av Mining hårdvarueffektivitet, utformad speciellt för Mining-operationer med oöverträffad prestanda.
-
-
-#### Detaljerad jämförelse: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: S19J Pro är känd för sin höga effektivitet och tillförlitlighet och erbjuder en överlägsen Hash-hastighet med lägre strömförbrukning, vilket gör den idealisk för storskalig verksamhet.
-- Antminer S9**: Även om Antminer S9 är äldre och mindre effektiv är den fortfarande populär bland mindre installationer och hobbyanvändare tack vare sitt överkomliga pris och sin hyfsade prestanda.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining effektivitet och lärande
-
-
-Mining ger inte bara ekonomiska belöningar utan också värdefull praktisk erfarenhet. Att förvärva KYC-fria bitcoins genom Mining kan vara ett attraktivt förslag för dem som är oroliga för integritet.
-
-
-#### Avancerade verktyg och tekniker
-
-
-Programvara för eftermarknaden kan förbättra effektiviteten och funktionaliteten hos Mining-hårdvara. Verktyg som erbjuder optimering och auto-tuning säkerställer att varje chip arbetar med maximal effektivitet och balanserar Hash-hastighet och strömförbrukning effektivt.
-
-
----
-
-### 3. Reglerings- och marknadsdynamik i Mining-verksamheten
-
-
-#### Lagstiftningens inverkan
-
-
-Reglering spelar en viktig roll i utformningen av Mining-landskapet. Till exempel hade det kinesiska Mining-förbudet djupgående effekter på den globala Mining-verksamheten, vilket orsakade en betydande minskning av Hash-nätverkets hastighet och ledde till en omfördelning av Mining-kraften mellan olika regioner.
-
-
-#### Dynamik på marknaden
-
-
-1. **Tillgänglighet och kostnad för hårdvara**: Priset på och tillgången till ASIC miners påverkas av Bitcoin:s marknadspris. Hög efterfrågan under bullmarknader resulterar i knapphet och uppblåsta priser.
-
-2. **Hash-värde och Hash-pris**: Det är viktigt att förstå skillnaden mellan Hash-värdet (satoshis som tjänas per terahash per dag) och Hash-priset (det monetära värdet av Hash-räntan). Båda påverkas av nätverkssvårigheter och Bitcoin:s marknadspris.
-
-
-#### Mining-pooler och belöningsmekanismer
-
-
-1. **Mining-pooler**: Genom att kombinera resurser ger Mining-pooler mer stabila belöningar, vilket minskar variansen och risken i samband med solo Mining.
-
-2. **Belöningssystem**: Olika belöningsmekanismer, som Pay-Per-Share (PPS) och proportionella belöningar, erbjuder olika risk- och belöningsprofiler för gruvarbetare.
-
-
-
-   - Betala per andel**: Pay-Per-Share belönar miners för varje giltig share de skickar in, oavsett om poolen hittar ett block eller inte. **Shares** är bevisenheter för att gruvarbetare har slutfört det arbete som krävs, och poolen verifierar dessa aktier.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proportionell**: Det beror på poolen Mining ett block för att fördela belöningen lika till bidraget från Miner till den totala Hashrate i poolen.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Framtiden för Mining
-
-
-I takt med att blockbelöningarna minskar kommer miners i allt högre grad att förlita sig på transaktionsavgifter. Detta skifte väcker frågor om huruvida transaktionsavgifter ensamma kommer att ge tillräckliga incitament för utvinnare att fortsätta säkra nätverket.
-
-
-#### Värd Mining
-
-
-Hosted Mining-tjänster kan erbjuda lägre driftskostnader men medför risker som bristande kontroll och risk för bedrägerier. Korrekt due diligence är nödvändigt för att minska dessa risker.
-
-
-#### Säkerhet och effektivitet
-
-
-Avancerade säkerhetsprotokoll och användning av förnybar energi förbättrar inte bara lönsamheten utan bidrar också till en hållbar tillväxt av Mining-ekosystemet.
-
-
-Sammanfattningsvis är världen av Bitcoin Mining en komplex, mångfacetterad domän som kräver en djup förståelse för teknisk, strategisk, regulatorisk och marknadsdynamik. Oavsett om du är en erfaren Miner eller precis har börjat, är det viktigt att hålla sig informerad och anpassningsbar för att trivas inom detta ständigt föränderliga område. Tack för din uppmärksamhet, och jag ser fram emot dina frågor och diskussioner.
 
 
 ## Förståelse för Joinmarket
@@ -3434,68 +3431,3 @@ Sammanfattningsvis är världen av Bitcoin Mining en komplex, mångfacetterad do
 
 Adam Gibson ger en inblick i Joinmarket och beskriver hur denna CoinJoin-implementering förbättrar Bitcoin:s integritet och fungibilitet. Han diskuterar hur Joinmarket underlättar samarbeten, Trustless och anonyma transaktioner inom Bitcoin-ekosystemet. Sedan visar han i en andra del hur man kör Joinmarket i Signet.
 
-
-## Cubo+ Hackathon för första året
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - Arvet efter Satoshi
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Satoshi Legacy's-gruppen presenterar sitt arbete med att bygga en Lightning e-handel med Shopify, React JS och Hydrogen och IBEX betalningsgateway.
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badgers grupp presenterar sin lösning för en blogg med inbyggda Lightning Powered Micropayments med hjälp av LnBits och Next.js, Node.js och Hydrogen.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Den tredje gruppen presenterar en Lightning Network Node Dashboard via ett anpassat API, LND, vue.js, node.js, Bootstrap.
-
-
-### Groupe 4 Hackathon - Stipendium Satoshi
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi:s Fellowship-grupp presenterar en LN-spelapp med hjälp av LnBits och MongoDB, Poetry, Node.js.
-
-
-### Groupe 5 Hackathon - Belysning Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walkers grupp presenterar sin lösning för Remittances Service med hjälp av MySQL, JavaScript och ZDB:s API.
-
-
-# Sista avsnittet
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Recensioner & betyg
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Slutsats
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

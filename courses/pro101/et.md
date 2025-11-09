@@ -1428,6 +1428,180 @@ Vaatame lühidalt üle mõned olulised mõisted.
 Kokkuvõttes määrab Bitcoin tuleviku ja muutused kasutajate ühine tahe. Olulised muudatused nõuavad laiapõhjalist konsensust, mis peegeldab Bitcoin juhtimise detsentraliseeritud ja poliitilist iseloomu.
 
 
+## Bitcoin Mining Olulised tooted
+
+
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
+
+
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
+
+#### Sissejuhatus
+
+
+Ajelex keskendub Bitcoin Mining ärilisele aspektile, uurides strateegiaid kasumlikkuse säilitamiseks konkurentsivõimelisel turul. Arutelu hõlmab tegevuskulude analüüsi, tõhususmeetmeid ja Mining tööstust mõjutavaid majanduslikke aspekte.
+
+
+### 1. Mining keerukuse ja kasumlikkuse tegurid
+
+
+#### Tehnilised ja strateegilised tegurid
+
+
+Mining keerukus Bitcoin kontekstis hõlmab peamiselt tehnilisi ja strateegilisi Elements aspekte, mis määravad Mining tegevuse kasumlikkuse. Oluline on mõista, et Mining ei ole lihtsalt õnnemäng, vaid keerukas protsess, mis nõuab hoolikat planeerimist ja pidevat optimeerimist.
+
+
+#### Peamised kasumlikkuse tegurid
+
+
+![energy cost](assets/en/056.webp)
+
+
+1. **Elektrikulud**: Üks olulisemaid tegureid, mis mõjutab Mining kasumlikkust, on elektrikulud. Sellistes piirkondades nagu Prantsusmaa võib elekter olla suhteliselt kallis võrreldes selliste riikidega nagu El Salvador, kus madalamad kulud annavad kaevandajatele konkurentsieelise.
+
+2. **Hardvara tõhusus**: Mining riistvara tõhusus, mõõdetuna Hash kiiruse ja energiatarbimise järgi, mängib olulist rolli. Täiustatud ASIC kaevandajad, nagu S19J Pro, on palju tõhusamad kui vanemad mudelid, näiteks Antminer S9.
+
+3. **Aja periood**: Bitcoin Mining soodustab pikaajalist planeerimist.
+
+4. **BTC hind**: BTC hind on oluline, et määrata Mining kasumlikkus.
+
+5. **Võrgu raskus**: Võrgustiku raskusaste näitab, kui palju Hashrate on keskmiselt vaja kaevandada plokki 10 minuti jooksul.
+
+6. **Strateegilised vahendid**: Tööriistad nagu [braiins.com](https://insights.braiins.com) on hindamatu väärtusega kasumlikkuse arvutamisel ja aitavad kaevandajatel teha andmepõhiseid otsuseid.
+
+
+#### Praktiline rakendamine
+
+
+Isikliku kogemuse põhjal olen isegi kasutanud Mining Bitcoin oma korteri kütmiseks Prantsusmaal, kompenseerides loovalt elektrikulusid, samas Mining Bitcoin. See näide rõhutab Mining toimingute integreerimise praktilisust igapäevaellu, et saada lisakasu.
+
+
+#### Mining kitsaskohad
+
+
+Kaevandajatel on kolm peamist kitsaskohta: riistvara kättesaadavus, energia kättesaadavus ja tegevuse säilitamiseks vajalik kapital. ASICide nappus suure nõudluse tõttu toob sageli kaasa pikad ooteajad ja ülepaisutatud hinnad, mis teeb Mining maastiku veelgi keerulisemaks.
+
+
+
+- Näide **Energia kitsaskohast**.
+
+2021. aastal keelas Hiina valitsus Mining oma territooriumil, mistõttu Mining ettevõtted Hiinas kaotasid juurdepääsu energiale. Selle tulemuseks oli Hashrate **50%** langus kahe nädala jooksul.
+
+
+![hashrate drop](assets/en/057.webp)
+
+
+---
+
+### 2. Mining riistvara areng ja tõhusus
+
+
+#### Ajalooline areng
+
+
+Mining riistvara teekond on olnud monumentaalne, alustades lihtsast CPU Mining-st kuni tänapäeval kasutatavate ASIC kaevandajateni.
+
+
+![evolution hardware](assets/en/058.webp)
+
+
+1. **CPU Mining**: Mining teostati algusaegadel tavaliste arvutiprotsessorite (CPU) abil. See meetod sai kiiresti üle, kui võrk kasvas.
+
+2. **GPU Mining**: Graafikaprotsessorid (GPU) suurendasid oluliselt Mining tõhusust, muutes protsessorid Mining eesmärkidel iganenuks.
+
+3. **FPGA Mining**: Programmeeritavate väravate massiivid (FPGA) pakkusid veelgi paremat jõudlust ja energiatõhusust kui GPUd.
+
+4. **ASIC Mining**: Rakendusspetsiifilised integraallülitused (ASIC) esindavad Mining riistvara tõhususe tippu, mis on loodud spetsiaalselt Mining operatsioonide jaoks ja mille jõudlus on enneolematu.
+
+
+#### Üksikasjalik võrdlus: S19J Pro vs. Antminer S9
+
+
+
+- S19J Pro**: S19J Pro on tuntud oma kõrge tõhususe ja usaldusväärsuse poolest ning pakub paremat Hash kiirust väiksema energiatarbimisega, mis muudab selle ideaalseks suuremahulisteks operatsioonideks.
+- Antminer S9**: Kuigi Antminer S9 on vanem ja vähem tõhus, on see tänu oma taskukohasusele ja korralikule jõudlusele endiselt populaarne väiksemate komplektide ja harrastajate jaoks.
+
+
+![s19j pro vs antminer s9](assets/en/059.webp)
+
+
+#### Mining tõhusus ja õppimine
+
+
+Mining ei paku mitte ainult rahalist tasu, vaid ka väärtuslikke praktilisi kogemusi. KYC-vabade bitcoinide omandamine Mining kaudu võib olla atraktiivne pakkumine neile, kes on mures privaatsuse pärast.
+
+
+#### Täiustatud vahendid ja tehnikad
+
+
+Järelturu tarkvara võib suurendada Mining riistvara tõhusust ja funktsionaalsust. Optimeerimis- ja automaatse häälestamise võimalusi pakkuvad tööriistad tagavad, et iga kiip töötab maksimaalse tõhususega, tasakaalustades Hash kiirust ja energiakasutust tõhusalt.
+
+
+---
+
+### 3. Regulatiivne ja turudünaamika Mining toimingute puhul
+
+
+#### Regulatiivne mõju
+
+
+Reguleerimine mängib Mining maastiku kujundamisel olulist rolli. Näiteks Hiina Mining keelustamisel oli sügav mõju ülemaailmsele Mining tegevusele, mis põhjustas Hash võrgumäära märkimisväärse languse ja viis Mining võimsuse ümberjaotamiseni eri piirkondade vahel.
+
+
+#### Turu dünaamika
+
+
+1. **Tarvikute kättesaadavus ja maksumus**: ASIC kaevurite hinda ja kättesaadavust mõjutab Bitcoin turuhind. Suur nõudlus tõusuturu ajal toob kaasa nappuse ja paisunud hinnad.
+
+2. **Hash väärtus ja Hash hind**: Oluline on mõista erinevust Hash väärtuse (teenitud satošid terahashi kohta päevas) ja Hash hinna (Hash määra rahaline väärtus) vahel. Mõlemat mõjutavad võrgu raskused ja Bitcoin turuhind.
+
+
+#### Mining basseinid ja tasustamismehhanismid
+
+
+1. **Mining basseinid**: Mining koondamine annab stabiilsemaid auhindu, vähendades Mining sooloturniiriga seotud varieeruvust ja riski.
+
+2. **Preemiaskeemid**: Erinevad tasustamismehhanismid, nagu Pay-Per-Share (PPS) ja proportsionaalne tasu, pakuvad kaevuritele erinevaid riski- ja tasustamisprofiile.
+
+
+
+   - Töötasu aktsia kohta**: Pay-Per-Share premeerib kaevandajaid iga esitatud kehtiva aktsia eest, olenemata sellest, kas bassein leiab ploki. **Aktsiad** on ühikud, mis tõendavad, et kaevandajad on teinud nõutava töö, ja bassein kontrollib neid aktsiaid.
+
+
+![pps](assets/en/060.webp)
+
+
+
+   - Proportsionaalne**: See sõltub Mining plokist, et jagada tasu võrdselt Miner panusega kogu Hashrate plokist.
+
+
+![prop](assets/en/061.webp)
+
+
+#### Mining tulevik
+
+
+Kuna plokkide tasu väheneb, hakkavad kaevurid üha enam toetuma tehingutasudele. Selline muutus tekitab muret, kas tehingutasud üksi pakuvad kaevuritele piisavaid stiimuleid, et jätkata võrgu kindlustamist.
+
+
+#### Hostitud Mining
+
+
+Hostitud Mining teenused võivad pakkuda väiksemaid tegevuskulusid, kuid nendega kaasnevad riskid, näiteks kontrolli puudumine ja pettuse võimalus. Nende riskide vähendamiseks on vajalik nõuetekohane hoolsus.
+
+
+#### Turvalisus ja tõhusus
+
+
+Täiustatud turvaprotokollid ja taastuvenergia kasutamine ei suurenda mitte ainult kasumlikkust, vaid aitab ka kaasa Mining ökosüsteemi jätkusuutlikule kasvule.
+
+
+Kokkuvõttes on Bitcoin Mining maailm keeruline ja mitmetahuline valdkond, mis nõuab põhjalikku arusaamist tehnilisest, strateegilisest, regulatiivsest ja turudünaamikast. Olenemata sellest, kas olete kogenud Miner või alles alustav, on selles pidevalt arenevas valdkonnas edukaks toimetulekuks oluline olla kursis ja kohanemisvõimeline. Tänan teid tähelepanu eest ning ootan huviga teie küsimusi ja arutelusid.
+
+
+
 # Layer Üks kontseptsioon
 
 
@@ -3243,183 +3417,6 @@ Sellised protokollid nagu **LNURL** ja **Bolt 12** lihtsustavad makseid, vähend
 Lightning-maksete laiendamine ja integreerimine erinevate protokollide ja kasutusjuhtumite kaudu näitab Lightning Network dünaamilist arengut. Alates maksete põhifunktsionaalsuse parandamisest kuni täiustatud ärimudelite ja krüptograafiliste protokollide kasutuselevõtmiseni on Lightning'i tulevik uuenduste ja laialdase kasutuselevõtu seisukohalt väga paljulubav.
 
 
-# Boonus
-
-
-<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
-
-
-## Bitcoin Mining Olulised tooted
-
-
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
-
-
-:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
-
-#### Sissejuhatus
-
-
-Ajelex keskendub Bitcoin Mining ärilisele aspektile, uurides strateegiaid kasumlikkuse säilitamiseks konkurentsivõimelisel turul. Arutelu hõlmab tegevuskulude analüüsi, tõhususmeetmeid ja Mining tööstust mõjutavaid majanduslikke aspekte.
-
-
-### 1. Mining keerukuse ja kasumlikkuse tegurid
-
-
-#### Tehnilised ja strateegilised tegurid
-
-
-Mining keerukus Bitcoin kontekstis hõlmab peamiselt tehnilisi ja strateegilisi Elements aspekte, mis määravad Mining tegevuse kasumlikkuse. Oluline on mõista, et Mining ei ole lihtsalt õnnemäng, vaid keerukas protsess, mis nõuab hoolikat planeerimist ja pidevat optimeerimist.
-
-
-#### Peamised kasumlikkuse tegurid
-
-
-![energy cost](assets/en/056.webp)
-
-
-1. **Elektrikulud**: Üks olulisemaid tegureid, mis mõjutab Mining kasumlikkust, on elektrikulud. Sellistes piirkondades nagu Prantsusmaa võib elekter olla suhteliselt kallis võrreldes selliste riikidega nagu El Salvador, kus madalamad kulud annavad kaevandajatele konkurentsieelise.
-
-2. **Hardvara tõhusus**: Mining riistvara tõhusus, mõõdetuna Hash kiiruse ja energiatarbimise järgi, mängib olulist rolli. Täiustatud ASIC kaevandajad, nagu S19J Pro, on palju tõhusamad kui vanemad mudelid, näiteks Antminer S9.
-
-3. **Aja periood**: Bitcoin Mining soodustab pikaajalist planeerimist.
-
-4. **BTC hind**: BTC hind on oluline, et määrata Mining kasumlikkus.
-
-5. **Võrgu raskus**: Võrgustiku raskusaste näitab, kui palju Hashrate on keskmiselt vaja kaevandada plokki 10 minuti jooksul.
-
-6. **Strateegilised vahendid**: Tööriistad nagu [braiins.com](https://insights.braiins.com) on hindamatu väärtusega kasumlikkuse arvutamisel ja aitavad kaevandajatel teha andmepõhiseid otsuseid.
-
-
-#### Praktiline rakendamine
-
-
-Isikliku kogemuse põhjal olen isegi kasutanud Mining Bitcoin oma korteri kütmiseks Prantsusmaal, kompenseerides loovalt elektrikulusid, samas Mining Bitcoin. See näide rõhutab Mining toimingute integreerimise praktilisust igapäevaellu, et saada lisakasu.
-
-
-#### Mining kitsaskohad
-
-
-Kaevandajatel on kolm peamist kitsaskohta: riistvara kättesaadavus, energia kättesaadavus ja tegevuse säilitamiseks vajalik kapital. ASICide nappus suure nõudluse tõttu toob sageli kaasa pikad ooteajad ja ülepaisutatud hinnad, mis teeb Mining maastiku veelgi keerulisemaks.
-
-
-
-- Näide **Energia kitsaskohast**.
-
-2021. aastal keelas Hiina valitsus Mining oma territooriumil, mistõttu Mining ettevõtted Hiinas kaotasid juurdepääsu energiale. Selle tulemuseks oli Hashrate **50%** langus kahe nädala jooksul.
-
-
-![hashrate drop](assets/en/057.webp)
-
-
----
-
-### 2. Mining riistvara areng ja tõhusus
-
-
-#### Ajalooline areng
-
-
-Mining riistvara teekond on olnud monumentaalne, alustades lihtsast CPU Mining-st kuni tänapäeval kasutatavate ASIC kaevandajateni.
-
-
-![evolution hardware](assets/en/058.webp)
-
-
-1. **CPU Mining**: Mining teostati algusaegadel tavaliste arvutiprotsessorite (CPU) abil. See meetod sai kiiresti üle, kui võrk kasvas.
-
-2. **GPU Mining**: Graafikaprotsessorid (GPU) suurendasid oluliselt Mining tõhusust, muutes protsessorid Mining eesmärkidel iganenuks.
-
-3. **FPGA Mining**: Programmeeritavate väravate massiivid (FPGA) pakkusid veelgi paremat jõudlust ja energiatõhusust kui GPUd.
-
-4. **ASIC Mining**: Rakendusspetsiifilised integraallülitused (ASIC) esindavad Mining riistvara tõhususe tippu, mis on loodud spetsiaalselt Mining operatsioonide jaoks ja mille jõudlus on enneolematu.
-
-
-#### Üksikasjalik võrdlus: S19J Pro vs. Antminer S9
-
-
-
-- S19J Pro**: S19J Pro on tuntud oma kõrge tõhususe ja usaldusväärsuse poolest ning pakub paremat Hash kiirust väiksema energiatarbimisega, mis muudab selle ideaalseks suuremahulisteks operatsioonideks.
-- Antminer S9**: Kuigi Antminer S9 on vanem ja vähem tõhus, on see tänu oma taskukohasusele ja korralikule jõudlusele endiselt populaarne väiksemate komplektide ja harrastajate jaoks.
-
-
-![s19j pro vs antminer s9](assets/en/059.webp)
-
-
-#### Mining tõhusus ja õppimine
-
-
-Mining ei paku mitte ainult rahalist tasu, vaid ka väärtuslikke praktilisi kogemusi. KYC-vabade bitcoinide omandamine Mining kaudu võib olla atraktiivne pakkumine neile, kes on mures privaatsuse pärast.
-
-
-#### Täiustatud vahendid ja tehnikad
-
-
-Järelturu tarkvara võib suurendada Mining riistvara tõhusust ja funktsionaalsust. Optimeerimis- ja automaatse häälestamise võimalusi pakkuvad tööriistad tagavad, et iga kiip töötab maksimaalse tõhususega, tasakaalustades Hash kiirust ja energiakasutust tõhusalt.
-
-
----
-
-### 3. Regulatiivne ja turudünaamika Mining toimingute puhul
-
-
-#### Regulatiivne mõju
-
-
-Reguleerimine mängib Mining maastiku kujundamisel olulist rolli. Näiteks Hiina Mining keelustamisel oli sügav mõju ülemaailmsele Mining tegevusele, mis põhjustas Hash võrgumäära märkimisväärse languse ja viis Mining võimsuse ümberjaotamiseni eri piirkondade vahel.
-
-
-#### Turu dünaamika
-
-
-1. **Tarvikute kättesaadavus ja maksumus**: ASIC kaevurite hinda ja kättesaadavust mõjutab Bitcoin turuhind. Suur nõudlus tõusuturu ajal toob kaasa nappuse ja paisunud hinnad.
-
-2. **Hash väärtus ja Hash hind**: Oluline on mõista erinevust Hash väärtuse (teenitud satošid terahashi kohta päevas) ja Hash hinna (Hash määra rahaline väärtus) vahel. Mõlemat mõjutavad võrgu raskused ja Bitcoin turuhind.
-
-
-#### Mining basseinid ja tasustamismehhanismid
-
-
-1. **Mining basseinid**: Mining koondamine annab stabiilsemaid auhindu, vähendades Mining sooloturniiriga seotud varieeruvust ja riski.
-
-2. **Preemiaskeemid**: Erinevad tasustamismehhanismid, nagu Pay-Per-Share (PPS) ja proportsionaalne tasu, pakuvad kaevuritele erinevaid riski- ja tasustamisprofiile.
-
-
-
-   - Töötasu aktsia kohta**: Pay-Per-Share premeerib kaevandajaid iga esitatud kehtiva aktsia eest, olenemata sellest, kas bassein leiab ploki. **Aktsiad** on ühikud, mis tõendavad, et kaevandajad on teinud nõutava töö, ja bassein kontrollib neid aktsiaid.
-
-
-![pps](assets/en/060.webp)
-
-
-
-   - Proportsionaalne**: See sõltub Mining plokist, et jagada tasu võrdselt Miner panusega kogu Hashrate plokist.
-
-
-![prop](assets/en/061.webp)
-
-
-#### Mining tulevik
-
-
-Kuna plokkide tasu väheneb, hakkavad kaevurid üha enam toetuma tehingutasudele. Selline muutus tekitab muret, kas tehingutasud üksi pakuvad kaevuritele piisavaid stiimuleid, et jätkata võrgu kindlustamist.
-
-
-#### Hostitud Mining
-
-
-Hostitud Mining teenused võivad pakkuda väiksemaid tegevuskulusid, kuid nendega kaasnevad riskid, näiteks kontrolli puudumine ja pettuse võimalus. Nende riskide vähendamiseks on vajalik nõuetekohane hoolsus.
-
-
-#### Turvalisus ja tõhusus
-
-
-Täiustatud turvaprotokollid ja taastuvenergia kasutamine ei suurenda mitte ainult kasumlikkust, vaid aitab ka kaasa Mining ökosüsteemi jätkusuutlikule kasvule.
-
-
-Kokkuvõttes on Bitcoin Mining maailm keeruline ja mitmetahuline valdkond, mis nõuab põhjalikku arusaamist tehnilisest, strateegilisest, regulatiivsest ja turudünaamikast. Olenemata sellest, kas olete kogenud Miner või alles alustav, on selles pidevalt arenevas valdkonnas edukaks toimetulekuks oluline olla kursis ja kohanemisvõimeline. Tänan teid tähelepanu eest ning ootan huviga teie küsimusi ja arutelusid.
 
 
 ## Joinmarketi mõistmine
@@ -3434,68 +3431,3 @@ Kokkuvõttes on Bitcoin Mining maailm keeruline ja mitmetahuline valdkond, mis n
 
 Adam Gibson annab ülevaate Joinmarketist, kirjeldades üksikasjalikult, kuidas see CoinJoin rakendamine parandab Bitcoin privaatsust ja asendatavust. Ta arutab, kuidas Joinmarket hõlbustab Bitcoin ökosüsteemis ühiseid, Trustless ja anonüümseid tehinguid. Seejärel näitab ta teises osas, kuidas Joinmarketit Signetis käivitada.
 
-
-## Cubo+ esimese aasta häkaton
-
-
-<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
-
-
-### Groupe 1 Hackathon - Satoshi pärand
-
-
-:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
-
-Satoshi Legacy rühm tutvustab oma tööd Lightning e-kaubanduse loomisel Shopify, React JS ja Hydrogeni ning IBEXi maksevärava abil.
-
-
-### Groupe 2 Hackathon - Honey Badger
-
-
-:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
-Honey Badgeri grupp tutvustab oma lahendust blogi jaoks, kuhu on sisse ehitatud Lightning Powered Micropayments, kasutades LnBits ja Next.js, Node.js ja Hydrogen.
-
-
-### Groupe 3 Hackathon
-
-
-:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
-
-Kolmas rühm esitab Lightning Network Node Dashboardi kohandatud API, LND, vue.js, node.js, Bootstrap kaudu.
-
-
-### Groupe 4 Hackathon - Satoshi stipendium
-
-
-:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
-
-Satoshi stipendiumi rühm tutvustab LN mängurakendust, milles kasutatakse LnBits ja MongoDB, Poetry, Node.js.
-
-
-### Groupe 5 Hackathon - Valgustus Walker
-
-
-:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
-Lightning Walkeri rühm tutvustab oma lahendust rahaülekannete teenuse jaoks, kasutades MySQL-i, JavaScripti ja ZDB API-d.
-
-
-# Lõplik osa
-
-<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
-
-
-## Arvamused ja hinnangud
-
-
-<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Kokkuvõte
-
-
-<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-<isCourseConclusion>true</isCourseConclusion>

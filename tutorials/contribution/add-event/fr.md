@@ -48,7 +48,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![event](assets/08.webp)
 
-- Remplissez ce fichier avec les informations relatives à votre conférence à l'aide de ce template :
+- Remplissez ce fichier avec les informations relatives à votre conférence à l'aide de ce modèle :
 
 ```yaml
 start_date:

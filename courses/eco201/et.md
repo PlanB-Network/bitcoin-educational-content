@@ -1,21 +1,18 @@
 ---
-name: Sissejuhatus Austria majandusteadusesse
-goal: Avastage Austria majandusmõttekool. Uurige nende vaateid ühiskonnale ja makro/mikro-majanduslikele reaalsustele.
+name: Austria majandusteaduse koolkonna alused
+goal: Avasta Austria majanduskool kui alternatiivne raamistik turgude ja individuaalse otsustamise analüüsimiseks
 objectives:
-  - Alternatiiv Keynesianismile
-  - Kõva valuuta tähtsus
-  - Miks ja kuidas luuakse meie majandustsüklid?
-  - Miks on keskpankurid hulluks läinud?
+- Analüüsida raha, krediidi ja keskpangandussüsteemide funktsioone
+- Rakendada subjektiivse väärtuse teooriat ja ajaeelistust turutäitumisele
+- Mõista Austria majandustsükli teooriat ja selle põhjuseid
+- Võrrelda Austria metodoloogiat peamiste majanduslike lähenemistega
 ---
+# Teekond Austria majanduskooli juurde
 
-# Teekond majandusteadusesse
+Kas oled kunagi mõelnud, miks mõned majandusteadlased mõtlevad turgudest, vabadusest ja inimkäitumisest teisiti? Austria majanduskool pakub värskendavat perspektiivi, mis asetab sind majanduslikku mõtlemise keskpunkti. Selle asemel, et kasutada keerulist matemaatikat ja abstraktseid mudeleid, keskendub see lähenemine loogikale, inimeste valikutele ja sellele, kuidas päris inimesed teevad igapäevaelus otsuseid. See on majandus vabaduse, ratsionaalsuse ja isikliku tegutsemise prisma läbi.
 
-Tere tulemast Théo Mogeneti kursusele! Majanduse, ajaloo, kirjanduse, politoloogia ja tehnoloogia vastu kirglik olles on ta otsustanud jagada teiega oma teadmisi Austria majandusest. See majandusteaduse haru, mis on vähem tuntud, põhineb inimlikul ratsionaalsusel ja vabade tegutsejate käitumisel. Matemaatikas vähem intensiivne, on see eelkõige loogika ja sotsiaaluuringute küsimus.
-
-Sellel mõttekoolil on juba mitu sajandit selja taga ja sellel on terve autorite, mõtete ja majandusteadlaste panoraam. Majanduse suured nimed nagu Hayek, Rothbard, Mises, Bastiat või Menger on seda liikumist kaua kaitsnud. Erinevalt meie päeva kõikjalolevast Keynesianismist seab Austria kool üksikisiku võrrandi keskmesse, pakkudes liberaalsemat, kapitalistlikumat ja isegi anarhistlikumat lähenemist.
-
+See mõttekool on kujundanud arutelusid juba sajandeid, tänu mõjukatele mõtlejatele nagu Hayek, Mises ja Bastiat. Kuigi tänapäeva poliitilistes aruteludes domineerib peamiselt Keynesi majandusõpetus, esitab Austria traditsioon erinevaid küsimusi: Mis juhtub, kui eelistame individuaalset vabadust? Kuidas vabad turud tegelikult toimivad, kui inimestel on vabadus valida? Kui oled uudishimulik alternatiivsete viiside suhtes mõelda turgudest, ühiskonnast ja vabadusest, on see sinu võimalus uurida ideid, mida standardõpikutest ei leia.
 +++
-
 # Sissejuhatus
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

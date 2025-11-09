@@ -15,7 +15,6 @@ description: Bitcoin 简洁有力的投资组合
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

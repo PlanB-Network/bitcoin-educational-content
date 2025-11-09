@@ -80,7 +80,7 @@ Remember to check the details carefully and tick the box before initiating payme
 In addition, **OTP verification** was added a few months ago to secure transactions due to scammers posing as platforms and enticing people to send money via M-Pesa. A one-time code is then sent to your phone by SMS, valid for a short time. You then enter it in the field provided. Once validated, you will be redirected to the payment page.
 
 
-## Recommended portfolios
+## Recommended wallets
 
 
 ![screen|500](assets/fr/08.webp)
@@ -106,7 +106,7 @@ https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 https://planb.academy/tutorials/wallet/mobile/machankura-wallet-b41dd76d-a427-4cc1-992e-235dbb5884ae
 
-These portfolios are recommendations only. You can use any wallet that supports Lightning Network, provided it can generate an address.
+These wallets are recommendations only. You can use any wallet that supports Lightning Network, provided it can generate an address.
 
 
 To keep up to date with news about the solution, you can subscribe to their X account (e.g. Twitter) or write to their WhatsApp number, by clicking on the icons in the bottom right-hand corner.

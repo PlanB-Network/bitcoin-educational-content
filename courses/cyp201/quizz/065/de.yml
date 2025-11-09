@@ -6,4 +6,4 @@ wrong_answers:
   - Ein normaler Kinderschlüssel ist sicherer als ein gehärteter Kinderschlüssel.
 explanation: |
   Ein normaler Kinderschlüssel kann vom öffentlichen Schlüssel des Elternteils abgeleitet werden, im Gegensatz zu einem gehärteten Kinderschlüssel, der den privaten Schlüssel des Elternteils benötigt.
-reviewed: false
+reviewed: true

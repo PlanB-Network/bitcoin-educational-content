@@ -15,7 +15,6 @@ Neste tutorial vamos dar uma vista de olhos ao Blue Wallet, um Bitcoin Wallet si
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

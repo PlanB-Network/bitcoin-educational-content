@@ -15,7 +15,6 @@ Trong hướng dẫn này, chúng ta sẽ xem xét Blue Wallet, một Bitcoin Wa
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

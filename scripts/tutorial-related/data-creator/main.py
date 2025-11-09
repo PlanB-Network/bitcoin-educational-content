@@ -47,7 +47,7 @@ def main():
         print(f"Impossible to charge icon favicon.ico: {e}")
     
     # Default window size
-    default_width, default_height = 850, 630
+    default_width, default_height = 870, 690
     root.geometry(f"{default_width}x{default_height}")
     root.resizable(True, True)
     

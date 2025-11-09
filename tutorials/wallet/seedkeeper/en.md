@@ -51,7 +51,7 @@ Compared to a simple paper backup of the mnemonic phrase, using a Seedkeeper has
 
 
 
-- Centralized management:** Seedkeeper facilitates the management of multiple seeds from different portfolios.
+- Centralized management:** Seedkeeper facilitates the management of multiple seeds from different wallets.
 
 
 
@@ -73,10 +73,10 @@ However, there are a number of disadvantages compared with a simple paper backup
 - The risk of loss linked to the PIN:** the direct inaccessibility of the seed, unlike a paper backup, does indeed provide protection against physical theft. But as always, security is a balancing act between the risk of theft and the risk of loss. If your backup requires a PIN, the loss of this code will make it impossible to recover your mnemonic phrase, and thus access your bitcoins.
 
 
-In view of these advantages and disadvantages, I consider that the best uses for Seedkeeper (apart from its password manager function) are, on the one hand, storing seeds from your **software portfolios**, since they already reside on your phone or computer, or from your screenless wallet hardware like the Satochip, and on the other hand, using it in combination with stateless wallet hardware like the SeedSigner, where it really comes into its own.
+In view of these advantages and disadvantages, I consider that the best uses for Seedkeeper (apart from its password manager function) are, on the one hand, storing seeds from your **software wallets**, since they already reside on your phone or computer, or from your screenless wallet hardware like the Satochip, and on the other hand, using it in combination with stateless wallet hardware like the SeedSigner, where it really comes into its own.
 
 
-Another particularly interesting use case for Seedkeeper is the possibility of securely and reliably backing up your portfolios' *Descriptors*.
+Another particularly interesting use case for Seedkeeper is the possibility of securely and reliably backing up your wallets' *Descriptors*.
 
 
 ## 2. How do I get a Seedkeeper?
@@ -91,7 +91,7 @@ If you wish to use Seedkeeper's backup functionality, you will obviously need to
 ## 3. Installing the Seedkeeper client
 
 
-In this tutorial, we'll back up our seed portfolio on our Seedkeeper. The first step is to install the software on your computer or smartphone. On a PC, you'll need to [download the latest version of Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). On mobile, the Seedkeeper application is available on the [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) as well as on the [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
+In this tutorial, we'll back up our seed wallet on our Seedkeeper. The first step is to install the software on your computer or smartphone. On a PC, you'll need to [download the latest version of Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). On mobile, the Seedkeeper application is available on the [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) as well as on the [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 ![Image](assets/fr/002.webp)
@@ -154,7 +154,7 @@ Select "Import secret*". The "*Generate secret*" option lets you create a new mn
 ![Image](assets/fr/010.webp)
 
 
-In our case, we want to save the seed in our portfolio. Click on "*Mnemonic*".
+In our case, we want to save the seed in our wallet. Click on "*Mnemonic*".
 
 
 ![Image](assets/fr/011.webp)
@@ -208,7 +208,7 @@ Place your Seedkeeper on the back of your smartphone.
 ![Image](assets/fr/018.webp)
 
 
-This takes you to a list of all your registered secrets. In this example, I want to display the seed of my "*Blockstream App*" portfolio, so I click on it.
+This takes you to a list of all your registered secrets. In this example, I want to display the seed of my "*Blockstream App*" wallet, so I click on it.
 
 
 ![Image](assets/fr/019.webp)
@@ -299,7 +299,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 https://planb.academy/tutorials/computer-security/authentication/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
 
-In this tutorial, we've mentioned the ***Descriptors*** in your Bitcoin portfolio several times. Don't know what they are? In that case, I recommend that you take our free CYP 201 training course, which goes into in-depth detail on all the mechanisms involved in operating HD portfolios!
+In this tutorial, we've mentioned the ***Descriptors*** in your Bitcoin wallet several times. Don't know what they are? In that case, I recommend that you take our free CYP 201 training course, which goes into in-depth detail on all the mechanisms involved in operating HD wallets!
 
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

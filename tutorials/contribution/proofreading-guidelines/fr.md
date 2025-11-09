@@ -52,7 +52,7 @@ Ce système aide le coordinateur à suivre l'évolution de la situation dans le 
 Dans l'issue elle-même, vous trouverez les liens qui vous redirigent vers le contenu à vérifier. Vous pouvez simplement cliquer dessus ou, mieux encore, vous pouvez retourner à votre propre dépôt forké et travailler directement à partir de là. Voyons comment vous pouvez le faire !
 
 
-Tout d'abord, **n'oubliez JAMIAS de SYNCHRONISER votre dépôt, sur la branche "dev "**. De cette façon, le contenu sera toujours mis à jour avant que vous ne commenciez n'importe quel type de tâche, et vous ne créerez pas de conflits entre les anciens et les nouveaux éléments. Assurez-vous de cliquer sur "Sync Fork" puis sur "Update branch".
+Tout d'abord, **n'oubliez JAMIAS de SYNCHRONISER votre dépôt, sur la branche `dev`**. De cette façon, le contenu sera toujours mis à jour avant que vous ne commenciez n'importe quel type de tâche, et vous ne créerez pas de conflits entre les anciens et les nouveaux éléments. Assurez-vous de cliquer sur `Sync Fork` puis sur `Update branch`.
 
 
 
@@ -60,7 +60,7 @@ Tout d'abord, **n'oubliez JAMIAS de SYNCHRONISER votre dépôt, sur la branche "
 
 
 
-Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un "commit" sur une nouvelle branche, comme le montre ce [tutoriel](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
+Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un "commit" sur une nouvelle branche, comme le montre ce [tutoriel](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur `Branches`, comme indiqué ci-dessous.
 
 
 
@@ -68,7 +68,7 @@ Une fois la synchronisation réussie, vous pouvez accéder directement au conten
 
 
 
-Dans cette nouvelle page, vous trouverez toutes les branches que vous avez déjà ouvertes sous le titre "Your branches". Cette section est très utile car elle vous permet de retrouver facilement l'endroit où vous avez modifié un contenu. Si vous souhaitez ouvrir une nouvelle branche, vous pouvez cliquer sur "New branch" dans le coin supérieur droit de la page.
+Dans cette nouvelle page, vous trouverez toutes les branches que vous avez déjà ouvertes sous le titre `Your branches`. Cette section est très utile car elle vous permet de retrouver facilement l'endroit où vous avez modifié un contenu. Si vous souhaitez ouvrir une nouvelle branche, vous pouvez cliquer sur `New branch` dans le coin supérieur droit de la page.
 
 
 
@@ -87,7 +87,7 @@ Je vous suggère de faire de même : veillez à ouvrir une nouvelle branche chaq
 
 
 
-Après avoir créé cette nouvelle branche, assurez-vous de cliquer dessus depuis "Your branches" dans la page précédente et commencez à travailler sur le fichier *.md* lié au contenu spécifique (dans mon cas, je vais cliquer sur "courses" -> "BTC101" -> "fr.md"). Tous les commits liés au fichier spécifique devront être commis (sauvegardés) à l'intérieur de la même branche.
+Après avoir créé cette nouvelle branche, assurez-vous de cliquer dessus depuis `Your branches` dans la page précédente et commencez à travailler sur le fichier `.md` lié au contenu spécifique (dans mon cas, je vais cliquer sur `courses` -> `BTC101` -> `fr.md`). Tous les commits liés au fichier spécifique devront être commis (sauvegardés) à l'intérieur de la même branche.
 
 
 
@@ -182,7 +182,7 @@ Par ailleurs, dans la version anglaise des cours, les **titres introduits par un
 ## La section initiale des cours
 
 
-Au début de tout contenu, vous trouverez les mots minuscules statiques suivants : "name", "goal", "objectives". Ils sont utilisés par le site web pour décoder le contenu lui-même et sont **toujours laissés en anglais**. Par conséquent, ne les traduisez pas, sinon le contenu créera des problèmes de synchronisation. Veillez à ne relire que la partie située après les deux-points, qui est automatiquement traduite par l'IA.
+Au début de tout contenu, vous trouverez les mots minuscules statiques suivants : `name`, `goal`, `objectives`. Ils sont utilisés par le site web pour décoder le contenu lui-même et sont **toujours laissés en anglais**. Par conséquent, ne les traduisez pas, sinon le contenu créera des problèmes de synchronisation. Veillez à ne relire que la partie située après les deux-points, qui est automatiquement traduite par l'IA.
 
 
 
@@ -213,7 +213,7 @@ Vous trouverez ci-dessous quelques exemples de problèmes de format auxquels il 
 
 
 
-Par conséquent, vérifiez toujours le texte original en anglais pour voir si un texte en gras est censé s'y trouver. Dans ce cas, il suffit d'ajouter deux astérisques au début du mot pour qu'il apparaisse correctement sur le site web. En fait, dans le langage markdown, **pour afficher un texte en gras, vous devez insérer deux astérisques ``**`` à la fois avant et après le mot/la phrase** (voir l'exemple ci-dessous).
+Par conséquent, vérifiez toujours le texte original en anglais pour voir si un texte en gras est censé s'y trouver. Dans ce cas, il suffit d'ajouter deux astérisques au début du mot pour qu'il apparaisse correctement sur le site web. En fait, dans le langage Markdown, **pour afficher un texte en gras, vous devez insérer deux astérisques ``**`` à la fois avant et après le mot/la phrase** (voir l'exemple ci-dessous).
 
 
 
@@ -235,26 +235,26 @@ Par conséquent, vérifiez toujours le texte original en anglais pour voir si un
 ## Relecture du questionnaire
 
 
-Saviez-vous que vous pouvez également relire les questions des quiz de chaque cours ? Par exemple, si vous souhaitez relire les quiz du cours BTC101, vous pouvez ouvrir une branche dédiée et suivre le chemin suivant : "courses" -> "BTC101" -> "quiz". Vous y trouverez tous les dossiers dédiés à chaque question, ainsi que le fichier linguistique correspondant au format _yml_.
+Saviez-vous que vous pouvez également relire les questions des quiz de chaque cours ? Par exemple, si vous souhaitez relire les quiz du cours BTC101, vous pouvez ouvrir une branche dédiée et suivre le chemin suivant : `courses` -> `BTC101` -> `quiz`. Vous y trouverez tous les dossiers dédiés à chaque question, ainsi que le fichier linguistique correspondant au format _yml_.
 
 
 Une fois de plus, assurez-vous que vous vous trouvez dans une branche spécialement ouverte à cet effet et informez-en toujours le coordinateur.
 
 
-Une chose importante à garder à l'esprit lors de la relecture de ce type de fichier _yml_ est d'éviter d'ajouter des deux-points ``:`` à l'intérieur du texte. En fait, le deux-points est **uniquement** utilisé pour séparer les paires clé-valeur comme "wrong_answers" du reste. Vous pouvez voir un exemple dans l'image ci-dessous :
+Une chose importante à garder à l'esprit lors de la relecture de ce type de fichier _yml_ est d'éviter d'ajouter des deux-points ``:`` à l'intérieur du texte. En fait, le deux-points est **uniquement** utilisé pour séparer les paires clé-valeur comme `wrong_answers` du reste. Vous pouvez voir un exemple dans l'image ci-dessous :
 
 
 ![REVIEW](assets/en/12.webp)
 
 
-Après avoir relu la question, assurez-vous de changer le statut "reviewed" de "false" à "true", comme le montre l'image ci-dessous. Veillez à ce que ces mots d'état restent en anglais, quelle que soit la langue dans laquelle vous travaillez !
+Après avoir relu la question, assurez-vous de changer le statut `reviewed` de `false` à `true`, comme le montre l'image ci-dessous. Veillez à ce que ces mots d'état restent en anglais, quelle que soit la langue dans laquelle vous travaillez !
 
 
 
 ![REVIEW](assets/en/13.webp)
 
 
-Si la ligne de statut "reviewed: true" est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
+Si la ligne de statut `reviewed: true` est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
 
 
 ## Relecture du glossaire

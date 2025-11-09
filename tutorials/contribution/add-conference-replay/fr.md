@@ -194,11 +194,11 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![conference](assets/35.webp)
 
-- Créez un nouveau fichier markdown (.md) en le nommant avec l'indicateur de votre langue natale. Ce fichier va être utilisé pour les replays de votre conférence. Par exemple, si je veux rédiger les descriptions des conférences en anglais, je vais nommer ce fichier en.md :
+- Créez un nouveau fichier Markdown (.md) en le nommant avec l'indicateur de votre langue natale. Ce fichier va être utilisé pour les replays de votre conférence. Par exemple, si je veux rédiger les descriptions des conférences en anglais, je vais nommer ce fichier `en.md` :
 
 ![conference](assets/36.webp)
 
-- Remplissez ce fichier markdown à l'aide de ce modèle que vous pouvez adapter à la configuration de votre conférence :
+- Remplissez ce fichier Markdown à l'aide de ce modèle que vous pouvez adapter à la configuration de votre conférence :
 
 ```markdown
 ---

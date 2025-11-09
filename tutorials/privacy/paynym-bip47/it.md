@@ -654,47 +654,46 @@ Riassumo i passaggi che abbiamo appena visto insieme per ricevere e interpretare
 
 ### La transazione di pagamento BIP47.
 
-Studiamo ora insieme il processo di pagamento con BIP47. Per ricordarvi la situazione attuale:
+Vediamo insieme il processo di pagamento con BIP47. Per ricordarvi la situazione attuale:
 
-- Alice conosce il codice di pagamento di Bob che ha semplicemente recuperato dal suo sito web.
+- Alice conosce il codice di pagamento di Bob che ha semplicemente recuperato dal suo sito web;
 
-- Bob conosce il codice di pagamento di Alice grazie alla transazione di notifica.
+- Bob conosce il codice di pagamento di Alice grazie alla transazione di notifica;
 
 - Alice effettuerà un primo pagamento a Bob. Potrà effettuarne molti altri allo stesso modo.
 
 Prima di spiegarvi questo processo, penso sia importante ricordare su quali indici stiamo lavorando attualmente:
 
-Descriviamo il percorso di derivazione di un codice di pagamento come segue: m/47'/0'/0'/.
+descriviamo il percorso di derivazione di un codice di pagamento come segue: m/47'/0'/0'/.
 
-- La prima coppia di figli normali (non rinforzati) è quella utilizzata per generare l'indirizzo di notifica di cui abbiamo parlato nella parte precedente: m/47'/0'/0'/0/.
+- La prima coppia di figli normali (non hardened) è quella utilizzata per generare l'indirizzo di notifica di cui abbiamo parlato nella parte precedente: m/47'/0'/0'/0/;
 
-- Le coppie di chiavi figlie normali vengono utilizzate all'interno di ECDH per generare gli indirizzi di ricezione dei pagamenti BIP47 come vedremo in questa parte: m/47'/0'/0'/ da 0 a 2 147 483 647/.
+- le coppie di chiavi figlie normali vengono utilizzate all'interno di ECDH per generare gli indirizzi di ricezione dei pagamenti BIP47 come vedremo in questa parte: m/47'/0'/0'/ da 0 a 2 147 483 647/;
 
-- Le coppie di chiavi figlie rinforzate sono codici di pagamento effimeri: m/47'/0'/0'/ da 0' a 2 147 483 647'/.
+- le coppie di chiavi figlie rinforzate sono codici di pagamento effimeri: m/47'/0'/0'/ da 0' a 2 147 483 647'/.
   Ogni volta che Alice desidera inviare un pagamento a Bob, genera un nuovo indirizzo univoco vuoto utilizzando nuovamente il protocollo ECDH:
-- Alice seleziona la prima chiave privata derivata dal suo codice di pagamento riutilizzabile personale:
+  
+- Alice seleziona la prima chiave privata derivata dal suo codice di pagamento riutilizzabile personale: **a**
 
-> a
 
 - Alice seleziona la prima chiave pubblica non utilizzata derivata dal codice di pagamento di Bob. Questa chiave pubblica, chiamata "B", è associata alla chiave privata "b" di cui solo Bob è a conoscenza.
 
-> B = b·G
+**B = b·G**
 
 - Alice calcola un punto segreto "S" sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "a" alla chiave pubblica di Bob "B":
 
-> S = a·B
+**S = a·B**
 
 - Da questo punto segreto, Alice calcola il segreto condiviso "s" (minuscolo). Per farlo, seleziona l'ascissa del punto segreto "S" chiamata "Sx" e passa questo valore alla funzione di hash SHA256.
 
-> s = SHA256(Sx)
+**s = SHA256(Sx)**
 
-Non fidarti. Verifica! Se desideri comprendere i principi di base di una funzione di hash, troverai tutto ciò che ti serve in questo articolo. E se non ti fidi del NIST (hai ragione) e desideri comprendere in dettaglio il funzionamento di SHA256, ti spiego tutto in questo articolo in francese.
+Non fidarti. Verifica! Se desideri comprendere i principi di base di una funzione di hash, troverai tutto ciò che ti serve in questo articolo. E se non ti fidi del NIST (hai ragione) e desideri comprendere in dettaglio il funzionamento di SHA256, ti spiego tutto in questo articolo.
 
 - Alice utilizza questo segreto condiviso "s" per calcolare un indirizzo di ricezione dei pagamenti Bitcoin. Inizialmente, verifica che "s" sia contenuto nell'ordine della curva secp256k1. Se non è così, incrementa l'indice della chiave pubblica di Bob per derivare un altro segreto condiviso.
 
-- Successivamente, calcola una chiave pubblica "K0" aggiungendo sulla curva ellittica i punti "B" e "s·G". In altre parole, Alice somma la chiave pubblica derivata dal codice di pagamento di Bob "B" con un altro punto calcolato sulla curva ellittica mediante l'addizione e il raddoppio dei punti con il segreto condiviso "s" dal punto generatore della curva secp256k1 "G". Questo nuovo punto rappresenta una chiave pubblica, che chiamiamo "K0":
+- Successivamente, calcola una chiave pubblica "K0" aggiungendo sulla curva ellittica i punti "B" e "s·G". In altre parole, Alice somma la chiave pubblica derivata dal codice di pagamento di Bob "B" con un altro punto calcolato sulla curva ellittica mediante l'addizione e il raddoppio dei punti con il segreto condiviso "s" dal punto generatore della curva secp256k1 "G". Questo nuovo punto rappresenta una chiave pubblica, che chiamiamo "K0": **K0 = B + s·G**
 
-> K0 = B + s·G
 
 - Utilizzando questa chiave pubblica "K0", Alice può derivare un indirizzo di ricezione vuoto in modo standard (ad esempio, SegWit V0 in Bech32).
 
@@ -703,7 +702,7 @@ Una volta che Alice ha questo indirizzo di ricezione "K0" appartenente a Bob, pu
 ![Alice invia bitcoin a Bob con BIP47](assets/21.webp)
 
 Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
-Se corrispondiamo questo schema a quanto vi ho descritto in precedenza:
+Se corrispondiamo questo schema a quanto descritto in precedenza:
 
 - "Child Priv-Key" da parte di Alice corrisponde a: a.
 - "Child Pub-Key 0" da parte di Bob corrisponde a: B.
@@ -717,8 +716,8 @@ Riassumo i passaggi che abbiamo appena visto insieme per inviare un pagamento BI
 - Utilizza questo punto segreto per calcolare un segreto condiviso con SHA256.
 - Utilizza questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica.
 - Aggiunge questo nuovo punto segreto alla chiave pubblica di Bob.
-- Ottiene una nuova chiave pubblica effimera di cui solo Bob ha la chiave privata associata.
-- Alice può inviare una transazione classica a Bob con l'indirizzo di ricezione effimero derivato.
+- Ottiene una nuova chiave pubblica "effimera" di cui solo Bob ha la chiave privata associata.
+- Alice può inviare una transazione classica a Bob con l'indirizzo "effimero" di ricezione derivato.
 
 Se desidera effettuare un secondo pagamento, ripeterà i passaggi sopra descritti, ad eccezione del fatto che selezionerà la seconda chiave pubblica derivata dal codice di pagamento di Bob. Cioè la prossima chiave non utilizzata. Avrà quindi un secondo indirizzo di ricezione appartenente a Bob "K1".
 
@@ -732,9 +731,8 @@ Da un punto di vista esterno, osservando la blockchain di Bitcoin, teoricamente 
 
 https://blockstream.info/testnet/tx/94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
 
-TXID:
+TXID: **94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254**
 
-> 94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
 
 Sembra una transazione classica con un input consumato, un output di pagamento di 210.000 sats e un resto:
 
@@ -744,36 +742,31 @@ Credito: https://blockstream.info/
 
 ### Ricezione del pagamento BIP47 e derivazione della chiave privata.
 
-Alice ha appena effettuato il suo primo pagamento verso un indirizzo BIP47 vuoto di Bob. Ora vediamo insieme come Bob riceve questo pagamento. Vedremo anche perché Alice non ha accesso alla chiave privata dell'indirizzo che ha appena generato e come Bob trova questa chiave per poter spendere i bitcoin appena ricevuti.
+Alice ha effettuato il suo primo pagamento verso un indirizzo BIP47 vuoto di Bob. Vediamo insieme come Bob riceve questo pagamento. Inoltre vedremo perché Alice non ha accesso alla chiave privata dell'indirizzo che ha appena generato e come Bob trova questa chiave per poter spendere i bitcoin appena ricevuti.
 Appena Bob riceve la transazione di notifica da parte di Alice, deriva la chiave pubblica BIP47 "K0" prima ancora che la corrispondente transazione di pagamento venga inviata. Quindi osserva tutti i pagamenti verso l'indirizzo associato. In realtà, deriva immediatamente più indirizzi che osserverà (K0, K1, K2, K3...). Ecco come deriva questa chiave pubblica "K0":
 
-- Bob seleziona la prima chiave privata figlia derivata dal suo codice di pagamento. Questa chiave privata è chiamata "b". È associata alla chiave pubblica "B" con cui Alice ha effettuato i calcoli nella fase precedente:
-
-> b
+- Bob seleziona la prima chiave privata figlia derivata dal suo codice di pagamento. Questa chiave privata è chiamata "b". È associata alla chiave pubblica "B" con cui Alice ha effettuato i calcoli nella fase precedente: **b**
 
 - Bob seleziona la prima chiave pubblica di Alice derivata dal suo codice di pagamento. Questa chiave è chiamata "A". È associata alla chiave privata "a" con cui Alice ha effettuato i calcoli e di cui solo Alice è a conoscenza. Bob può effettuare questo processo perché conosce il codice di pagamento di Alice che gli è stato trasmesso con la transazione di notifica.
-
-> A = a·G
+**A = a·G**
 
 - Bob calcola il punto segreto "S", attraverso l'addizione e il raddoppio dei punti sulla curva ellittica, applicando la sua chiave privata "b" alla chiave pubblica di Alice "A". Qui viene utilizzato l'ECDH che ci garantisce che questo punto "S" sarà lo stesso per Bob e per Alice.
+**S = b·A**
 
-> S = b·A
-
-- Allo stesso modo di Alice, Bob isola l'ascissa di questo punto "S". Abbiamo chiamato questo valore "Sx". Passa questo valore alla funzione SHA256 per trovare il segreto condiviso "s" (minuscolo).
-
-> s = SHA256(Sx)
+- Allo stesso modo di Alice, Bob isola l'ascissa di questo punto "S". Chiamiamo questo valore "Sx". Passa questo valore alla funzione SHA256 per trovare il segreto condiviso "s" (minuscolo).
+**s = SHA256(Sx)**
 
 - Sempre nello stesso modo di Alice, Bob calcola il punto "s·G" sulla curva ellittica. Poi, aggiunge questo punto segreto alla sua chiave pubblica "B". Ottiene così un nuovo punto sulla curva ellittica che interpreta come una chiave pubblica "K0":
-
-> K0 = B + s·G
+**K0 = B + s·G**
 
 Una volta che Bob ha questa chiave pubblica "K0", può derivare la chiave privata associata per poter spendere i suoi bitcoin. È l'unico in grado di generare questo numero.
 
 - Bob aggiunge la sua chiave privata figlia "b" derivata dal suo codice di pagamento personale. È l'unico in grado di ottenere il valore di "b". Poi, aggiunge "b" al segreto condiviso "s" per ottenere k0, la chiave privata di K0:
 
-> k0 = b + s
-> Grazie alla legge di gruppo della curva ellittica, Bob ottiene esattamente la chiave privata corrispondente alla chiave pubblica utilizzata da Alice. Quindi abbiamo:
-> K0 = k0·G
+**k0 = b + s**
+
+Grazie alla legge di gruppo della curva ellittica, Bob ottiene la chiave privata corrispondente alla chiave pubblica utilizzata da Alice. Quindi abbiamo:
+**K0 = k0·G**
 
 ![Bob genera i suoi indirizzi di ricezione BIP47](assets/24.webp)
 
@@ -793,21 +786,21 @@ Se corrispondiamo questo schema a quanto vi ho descritto in precedenza:
 
 Riassumo i passaggi che abbiamo appena visto insieme per ricevere un pagamento BIP47 e calcolare la corrispondente chiave privata:
 
-- Bob seleziona la prima chiave privata figlia derivata dal suo codice di pagamento personale.
+- Bob seleziona la prima chiave privata figlia derivata dal suo codice di pagamento personale;
 
-- Calcola un punto segreto sulla curva ellittica tramite ECDH utilizzando la prima chiave pubblica figlia derivata dal codice di catena di Alice.
+- calcola un punto segreto sulla curva ellittica tramite ECDH utilizzando la prima chiave pubblica figlia derivata dal codice di catena di Alice;
 
-- Utilizza questo punto segreto per calcolare un segreto condiviso con SHA256.
+- utilizza questo punto segreto per calcolare un segreto condiviso con SHA256;
 
-- Utilizza questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica.
+- utilizza questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica;
 
-- Aggiunge questo nuovo punto segreto alla sua chiave pubblica personale.
+- aggiunge questo nuovo punto segreto alla sua chiave pubblica personale;
 
-- Ottiene una nuova chiave pubblica effimera, a cui Alice invierà il suo primo pagamento.
+- ottiene una nuova chiave pubblica effimera, a cui Alice invierà il suo primo pagamento;
 
 - Bob calcola la chiave privata associata a questa chiave pubblica effimera aggiungendo la sua chiave privata figlia derivata dal suo codice di pagamento e il segreto condiviso.
 
-Poiché Alice non può ottenere "b", la chiave privata di Bob, non è in grado di determinare k0, la chiave privata associata all'indirizzo di ricezione BIP47 di Bob.
+Poiché Alice non può ottenere "b", non è in grado di determinare k0, la chiave privata associata all'indirizzo di ricezione BIP47 di Bob.
 
 Schematicamente, possiamo rappresentare il calcolo del segreto condiviso "S" come segue:
 
@@ -819,14 +812,14 @@ Una volta trovato il segreto condiviso con ECDH, Alice e Bob calcolano la chiave
 
 ### Rimborso del pagamento BIP47.
 
-Poiché Bob conosce già il codice di pagamento riutilizzabile di Alice, dispone già di tutte le informazioni necessarie per inviarle un rimborso. Non avrà bisogno di contattare nuovamente Alice per chiederle alcuna informazione. Dovrà semplicemente notificarla con una transazione di notifica, in particolare affinché possa recuperare i suoi indirizzi BIP47 con il suo seed, e poi potrà anche inviarle fino a 2^32 pagamenti.
-Bob può quindi rimborsare Alice nello stesso modo in cui lei gli ha inviato i pagamenti. I ruoli si invertano:
+Bob conosce già il codice di pagamento riutilizzabile di Alice, dispone già di tutte le informazioni necessarie per inviarle un rimborso. Non avrà bisogno di contattare nuovamente Alice per chiederle alcuna informazione. Bob dovrà semplicemente notificarla con una transazione di notifica, in particolare affinché possa recuperare i suoi indirizzi BIP47 con il suo seed, e poi potrà anche inviarle fino a 2^32 pagamenti.
+Bob può rimborsare Alice nello stesso modo in cui lei gli ha inviato i pagamenti. I ruoli si invertono.
 
 ![Bob invia un rimborso ad Alice con BIP47](assets/27.webp)
 
 Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 
-Ora conoscete tutti i dettagli di questa magnifica soluzione che è il BIP47.
+Ora conosci tutti i dettagli di questa magnifica soluzione che è il BIP47.
 
 ## Utilizzi derivati di PayNym.
 
@@ -838,9 +831,9 @@ L'uso combinato di Soroban, la rete di comunicazione crittografata basata su Tor
 
 A differenza dell'uso di BIP47, poiché queste transazioni collaborative non richiedono una transazione di notifica, è sufficiente collegare i PayNym per utilizzare questi strumenti. Non è necessario connetterli.
 
-Se desiderate saperne di più sulle transazioni collaborative e, più in generale, su tutti gli strumenti di spesa di Samourai Wallet, potete leggere la sezione "Gli strumenti di spesa" in questo articolo. Troverete una spiegazione tecnica e un tutorial dettagliato per ogni strumento.
+Se desideri sapere di più sulle transazioni collaborative e, più in generale, su tutti gli strumenti di spesa di Samourai Wallet, puoi leggere la sezione "Gli strumenti di spesa" in questo articolo. Troverai una spiegazione tecnica e un tutorial dettagliato per ogni strumento.
 
-Oltre a queste transazioni collaborative, di recente si è osservato che il team di Samourai sta lavorando su un protocollo di autenticazione legato a PayNym: Auth47. Questo strumento è già implementato e consente, ad esempio, di autenticarsi su un sito web che accetta questo metodo tramite un PayNym. In futuro, penso che oltre a questa possibilità di autenticazione sul web, Auth47 si inserirà in un progetto più ampio legato all'ecosistema BIP47/PayNym/Samourai. Forse questo protocollo verrà utilizzato per ottimizzare ulteriormente l'esperienza dell'utente del wallet Samourai Wallet, in particolare nell'uso degli strumenti di spesa. Da seguire...
+Oltre a queste transazioni collaborative, di recente si è osservato che il team di Samourai sta lavorando su un protocollo di autenticazione legato a PayNym: Auth47. Questo strumento è già implementato e consente, ad esempio, di autenticarsi su un sito web che accetta questo metodo tramite un PayNym. In futuro, penso che oltre a questa possibilità di autenticazione sul web, Auth47 si inserirà in un progetto più ampio legato all'ecosistema BIP47/PayNym/Samourai. Forse questo protocollo verrà utilizzato per ottimizzare ulteriormente l'esperienza dell'utente del wallet Samourai Wallet, in particolare nell'uso degli strumenti di spesa. 
 
 ## La mia opinione personale su BIP47.
 
@@ -853,14 +846,14 @@ Come spiegato in precedenza, la maggior parte dei riutilizzi degli indirizzi pro
 
 In termini di utilizzo, anche se i suoi meccanismi sono piuttosto complessi, la procedura di pagamento BIP47 è molto semplice. I codici di pagamento riutilizzabili possono quindi essere adottati facilmente, anche da utenti inesperti.
 
-In termini di privacy, il BIP47 è molto interessante. Come ho spiegato nella parte sulla transazione di notifica, il codice di pagamento non rivela alcuna informazione sugli indirizzi effimeri derivati. Ciò consente di interrompere il flusso di informazioni tra la transazione Bitcoin e l'identificatore del destinatario, a differenza dell'uso tradizionale di un indirizzo di ricezione.
+In termini di privacy, il BIP47 è molto interessante. Come ho spiegato nella parte sulla transazione di notifica, il codice di pagamento non rivela alcuna informazione sugli indirizzi "effimeri" derivati. Ciò consente di interrompere il flusso di informazioni tra la transazione Bitcoin e l'identificatore del destinatario, a differenza dell'uso tradizionale di un indirizzo di ricezione.
 
-E soprattutto, l'implementazione PayNym del BIP47 funziona! È disponibile su Samourai Wallet dal 2016 e su Sparrow Wallet dall'inizio di quest'anno. Non si tratta di un progetto scientifico, ma di una soluzione testata ieri e completamente funzionante oggi.
+L'implementazione PayNym del BIP47 funziona! È disponibile su Samourai Wallet dal 2016 e su Sparrow Wallet dall'inizio di quest'anno. Non si tratta di un progetto scientifico, ma di una soluzione testata ieri e completamente funzionante oggi.
 
-Speriamo che in futuro questi codici di pagamento riutilizzabili saranno adottati dagli attori dell'ecosistema, implementati nei software dei portafogli e utilizzati dai bitcoiner.
+Spero che in futuro questi codici di pagamento riutilizzabili saranno adottati dagli attori dell'ecosistema, implementati nei software dei portafogli e utilizzati dai bitcoiner.
 
 Qualsiasi soluzione veramente positiva per la privacy dell'utente deve essere discussa, promossa e difesa, affinché Bitcoin non diventi il terreno di gioco delle agenzie di intelligence e lo strumento di sorveglianza dei governi.
-*Stava pensando al modo in cui era stato perseguitato e insultato ovunque, e ora sentiva tutti dire che era il più bello di tutti quegli splendidi uccelli! E persino il sambuco piegava i suoi rami verso di lui, e il sole diffondeva una luce così calda e benefica! Allora le sue piume si gonfiarono, il suo collo slanciato si erse, e gridò con tutto il cuore: "Come avrei potuto sognare tanta felicità quando ero solo un brutto anatroccolo."*
+*"Stava pensando al modo in cui era stato perseguitato e insultato ovunque, e ora sentiva tutti dire che era il più bello di tutti quegli splendidi uccelli! E persino il sambuco piegava i suoi rami verso di lui, e il sole diffondeva una luce così calda e benefica! Allora le sue piume si gonfiarono, il suo collo slanciato si erse, e gridò con tutto il cuore: "Come avrei potuto sognare tanta felicità quando ero solo un brutto anatroccolo."*
 
 ## Per andare oltre:
 
@@ -872,7 +865,7 @@ Qualsiasi soluzione veramente positiva per la privacy dell'utente deve essere di
 
 ### Risorse esterne e ringraziamenti:
 
-Grazie a LaurentMT e Théo Pantamis per i numerosi concetti che mi hanno spiegato ed utilizzati in questo articolo. Spero di essere riuscito a trasmetterli con precisione.
+Grazie a LaurentMT e Théo Pantamis per i numerosi concetti che mi hanno spiegato e che ho utilizzato in questo articolo. Spero di essere riuscito a trasmetterli con precisione.
 
 Grazie a Fanis Michalakis per la revisione di questo testo e i suoi consigli da esperto.
 

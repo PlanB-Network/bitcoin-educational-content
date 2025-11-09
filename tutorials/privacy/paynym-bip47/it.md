@@ -387,19 +387,19 @@ Come abbiamo scoperto nella parte precedente, ECDH è una variante dello scambio
 
 L'idea è di utilizzare le coppie di chiavi dei wallet deterministici gerarchici Bitcoin delle due parti per stabilire segreti condivisi ed effimeri tra di loro. All'interno del BIP47, viene utilizzato ECDHE (Elliptic Curve Diffie-Hellman Ephemeral).
 
-ECDHE viene utilizzato per la prima volta nel BIP47 per trasmettere il codice di pagamento dal mittente al destinatario. Questa è la famosa transazione di notifica. Infatti, affinché il BIP47 possa essere utilizzato, entrambe le parti (il mittente che invia pagamenti e il destinatario che riceve pagamenti) devono essere a conoscenza del codice di pagamento dell'altra parte. Questo sarà necessario per derivare le chiavi pubbliche effimere e quindi gli indirizzi di ricezione dedicati.
+ECDHE viene utilizzato per la prima volta nel BIP47 per trasmettere il codice di pagamento dal mittente al destinatario. Questa è la famosa transazione di notifica. Infatti, affinché il BIP47 possa essere utilizzato, entrambe le parti (il mittente che invia pagamenti e il destinatario che riceve pagamenti) devono essere a conoscenza del codice di pagamento dell'altra parte. Questo sarà necessario per derivare le chiavi pubbliche "effimere" e gli indirizzi di ricezione dedicati.
 
-Prima di questo scambio, il mittente è logicamente già a conoscenza del codice di pagamento del destinatario, poiché è stato in grado di recuperarlo off-chain, ad esempio, dal suo sito web o dai suoi social media. Al contrario, il destinatario potrebbe non essere a conoscenza del codice di pagamento del mittente. Sarà quindi necessario trasmetterglielo, altrimenti non sarà in grado di derivare le sue chiavi effimere e quindi non sarà in grado di sapere dove si trovano i suoi bitcoin e di sbloccare i suoi fondi. Potremmo trasmetterglielo off-chain, con un altro sistema di comunicazione, ma ciò comporterebbe un problema in caso di recupero del wallet dal seed.
+Prima di questo scambio, il mittente è logicamente già a conoscenza del codice di pagamento del destinatario, poiché è stato in grado di recuperarlo off-chain, ad esempio, dal suo sito web o dai suoi social media. Al contrario, il destinatario potrebbe non essere a conoscenza del codice di pagamento del mittente. Sarà quindi necessario trasmetterglielo, altrimenti non sarà in grado di derivare le sue chiavi "effimere" e quindi non sarà in grado di sapere dove si trovano i suoi bitcoin e di sbloccare i suoi fondi. Potremmo trasmetterglielo off-chain, con un altro sistema di comunicazione, ma ciò comporterebbe un problema in caso di recupero del wallet dal seed.
 Infatti, come già menzionato, gli indirizzi BIP47 non sono derivati dal seed del destinatario (altrimenti si potrebbe utilizzare direttamente uno dei suoi xpub), ma sono il risultato di un calcolo che coinvolge i due codici di pagamento: quello del destinatario e quello del mittente. Pertanto, se il destinatario perde il suo wallet e cerca di recuperarlo dal seed, dovrà necessariamente disporre di tutti i codici di pagamento delle persone che gli hanno inviato bitcoin tramite BIP47.
-Quindi, potremmo facilmente utilizzare BIP47 senza questa transazione di notifica, ma ogni utente dovrebbe fare un backup dei codici di pagamento dei suoi contatti. Questa situazione rimarrà ingestibile finché non troveremo un modo semplice e resiliente per creare, archiviare e aggiornare questi backup. La transazione di notifica è quindi praticamente obbligatoria nello stato attuale delle cose.
+Quindi, potremmo facilmente utilizzare BIP47 senza questa transazione di notifica, ma ogni utente dovrebbe fare un backup dei codici di pagamento dei suoi contatti. Questa situazione rimarrà ingestibile finché non troveremo un modo semplice e resiliente per creare, archiviare e aggiornare questi backup. La transazione di notifica è obbligatoria nello stato attuale delle cose.
 
-Oltre a questa funzione di backup dei codici di pagamento, come suggerisce il nome stesso, questa transazione svolge anche un ruolo di notifica per il destinatario. Segnala al suo client che è stato aperto un tunnel.
+Oltre a questa funzione di backup dei codici di pagamento, come suggerisce il nome stesso, questa transazione svolge anche un ruolo di notifica per il destinatario. Segnala al suo client che è stato aperto un canale.
 
 Prima di spiegare più in dettaglio il funzionamento tecnico della transazione di notifica, vorrei parlare un po' del modello di privacy. Infatti, il modello di BIP47 giustificherà alcune precauzioni prese durante la costruzione di questa transazione iniziale.
 
 Il codice di pagamento in sé non costituisce direttamente un rischio per la privacy. A differenza del modello classico di Bitcoin che consente di interrompere il flusso di informazioni tra l'identità dell'utente e le transazioni, mantenendo anonime le chiavi pubbliche, il codice di pagamento può essere associato direttamente a un'identità. Questo ovviamente non è un obbligo, ma questo collegamento non è pericoloso.
 
-Infatti, il codice di pagamento non deriva direttamente gli indirizzi utilizzati per ricevere pagamenti BIP47. Invece, gli indirizzi vengono ottenuti applicando ECDHE tra le chiavi figlie dei codici di pagamento delle due parti.
+Infatti, il codice di pagamento non deriva direttamente dagli indirizzi utilizzati per ricevere pagamenti BIP47. Invece, gli indirizzi vengono ottenuti applicando ECDHE tra le chiavi figlie dei codici di pagamento delle due parti.
 
 Quindi, un singolo codice di pagamento non costituisce un rischio diretto per la perdita di privacy poiché si deriva solo l'indirizzo di notifica da esso. Si possono ottenere alcune informazioni, ma normalmente non si saprà con chi si effettuano transazioni.
 
@@ -408,37 +408,42 @@ Quindi, un singolo codice di pagamento non costituisce un rischio diretto per la
 Ad esempio, immaginiamo che io voglia fare una donazione con BIP47 a un movimento di protesta pacifica in Canada:
 
 - Questa organizzazione ha pubblicato il suo codice di pagamento direttamente sul suo sito web o sui suoi social media.
-- Questo codice è quindi associato al movimento.
+- Questo codice è associato al movimento.
 - Recupero questo codice di pagamento.
 - Prima di poter inviare loro una transazione, devo assicurarmi che siano a conoscenza del mio codice di pagamento personale, che è anche associato alla mia identità poiché lo uso per ricevere transazioni dai miei social media.
-  Come posso trasmetterlo loro? Se lo invio con un mezzo di comunicazione tradizionale, le informazioni rischiano di trapelare e rischio di essere etichettato come una persona che sostiene movimenti pacifici.
-  La transazione di notifica non è certamente l'unico modo per trasmettere segretamente il codice di pagamento del mittente, ma al momento svolge perfettamente questo ruolo applicando diverse strati di sicurezza.
-  Nello schema qui sotto, le linee rosse rappresentano il momento in cui il flusso di informazioni deve essere interrotto, e le frecce nere rappresentano i collegamenti indiscutibili che possono essere fatti da un osservatore esterno:
-  ![Schema modello di privacy codice di pagamento riutilizzabile](assets/15.webp)
-  In realtà, per il modello di privacy classico di Bitcoin, è spesso difficile interrompere completamente il flusso di informazioni tra la coppia di chiavi e l'utente, specialmente quando si effettuano transazioni a distanza. Ad esempio, nel caso di una campagna di donazione, il destinatario sarà costretto a rivelare un indirizzo o una chiave pubblica sul suo sito web o sui suoi social media. L'uso corretto di BIP47, cioè con la transazione di notifica, risolve questo problema grazie a ECDHE e allo strato di crittografia che studieremo.
-  Ovviamente, il modello di privacy classico di Bitcoin si osserva sempre a livello delle chiavi pubbliche effimere derivate dall'associazione dei due codici di pagamento. I due modelli sono interdipendenti. Voglio semplicemente mettere in evidenza qui che, a differenza dell'uso classico di una chiave pubblica per ricevere bitcoin, il codice di pagamento può essere associato ad un'identità, poiché l'informazione "Bob effettua una transazione con Alice" viene interrotta in un altro momento. Il codice di pagamento viene utilizzato per generare gli indirizzi di pagamento, ma osservando solo la blockchain, è impossibile associare una transazione di pagamento BIP47 ai codici di pagamento utilizzati per effettuarla.
-  Costruzione della transazione di notifica.
-  Ora vediamo come funziona questa transazione di notifica. Immaginiamo che Alice voglia inviare fondi a Bob con BIP47. Nel mio esempio, Alice agisce come mittente e Bob come destinatario. Quest'ultimo ha pubblicato il suo codice di pagamento sul suo sito web. Alice è quindi già a conoscenza del codice di pagamento di Bob.
-  Alice calcola un segreto condiviso con ECDH:
-- Alice combina i testi cifrati ottenuti per formare il codice finale  cifrato di pagamento. Concatena il testo cifrato dell'ascissa della chiave pubblica (x') con il testo cifrato del suo codice stringa (c').
+Come posso trasmetterlo loro? Se lo invio con un mezzo di comunicazione tradizionale, le informazioni rischiano di trapelare e rischio di essere etichettato come una persona che sostiene movimenti pacifici.
+La transazione di notifica non è certamente l'unico modo per trasmettere segretamente il codice di pagamento del mittente, ma al momento svolge perfettamente questo ruolo applicando diverse strati di sicurezza.
+Nello schema qui sotto, le linee rosse rappresentano il momento in cui il flusso di informazioni deve essere interrotto, e le frecce nere rappresentano i collegamenti indiscutibili che possono essere fatti da un osservatore esterno:
+![Schema modello di privacy codice di pagamento riutilizzabile](assets/15.webp)
+In realtà, per il modello di privacy classico di Bitcoin, è spesso difficile interrompere completamente il flusso di informazioni tra la coppia di chiavi e l'utente, specialmente quando si effettuano transazioni a distanza. Ad esempio, nel caso di una campagna di donazione, il destinatario sarà costretto a rivelare un indirizzo o una chiave pubblica sul suo sito web o sui suoi social media. L'uso corretto di BIP47, cioè con la transazione di notifica, risolve questo problema grazie a ECDHE e allo strato di crittografia che studieremo.
+Il modello di privacy classico di Bitcoin si osserva sempre a livello delle chiavi pubbliche "effimere" derivate dall'associazione dei due codici di pagamento. I due modelli sono interconnessi. Voglio semplicemente mettere in evidenza qui che, a differenza dell'uso convenzionale di una chiave pubblica per ricevere bitcoin, il codice di pagamento può essere associato ad un'identità, poiché l'informazione "Bob effettua una transazione con Alice" viene interrotta in un altro momento. Il codice di pagamento viene utilizzato per generare gli indirizzi di pagamento, ma osservando solo la blockchain, è impossibile associare una transazione di pagamento BIP47 ai codici di pagamento utilizzati per effettuarla.
+  
+### Costruzione della transazione di notifica
 
-> codice di pagamento criptato = x' || c'
+Ora vediamo come funziona questa transazione di notifica. Immaginiamo che Alice voglia inviare fondi a Bob con BIP47. Nel mio esempio, Alice è il mittente e Bob è il destinatario. Quest'ultimo ha pubblicato il suo codice di pagamento sul suo sito web. Alice è  a conoscenza del codice di pagamento di Bob.
 
-- Alice invia il codice di pagamento criptato a Bob.
+1- Alice calcola un segreto condiviso con ECDH:
 
-4. Bob riceve il codice di pagamento criptato di Alice.
+- Seleziona una coppia di chiavi dal suo portafoglio HD situato su un ramo diverso rispetto al suo codice di pagamento. Nota che questa coppia non dovrebbe essere facilmente associata all'indirizzo di notifica di Alice o all'identità di Alice (vedi sezione precedente).
 
-5. Bob utilizza la sua chiave privata “b” per decifrare il codice di pagamento criptato; separa poi il codice di pagamento decifrato in due parti: l'ascissa della chiave pubblica (x) e il codice stringa (c).
+- Alice seleziona la chiave privata da questa coppia. La chiameremo "a" (minuscolo).
 
-> x = x' XOR f1
->
-> c = c' XOR f2
+- Alice recupera la chiave pubblica associata all'indirizzo di notifica di Bob. Questa chiave è il primo figlio derivato dal codice di pagamento di Bob (indice 0). La chiameremo "B" (maiuscolo). La chiave privata associata a questa chiave pubblica è chiamata "b" (minuscolo). "B" è determinata tramite l'addizione di punti e il raddoppio sulla curva ellittica a partire da "G" (il punto generatore) con "b" (la chiave privata): B = b·G.
 
-6. Bob utilizza l'ascissa della chiave pubblica (x) per verificare se il codice di pagamento è valido.
+- Alice calcola un punto segreto "S" (maiuscolo) sulla curva ellittica tramite l'addizione di punti e il raddoppio, applicando la sua chiave privata "a" alla chiave pubblica di Bob "B": S = a·B.
 
-7. Se il codice di pagamento è valido, Bob può utilizzare la stringa (c) per eseguire operazioni specifiche dalla sua applicazione.
+- Alice calcola il blinding factor (fattore cieco) "f" che sarà utilizzato per crittografare il suo codice di pagamento. Per fare ciò, genera un numero pseudo-casuale utilizzando la funzione HMAC-SHA512. Come secondo input a questa funzione, utilizza un valore che solo Bob sarà in grado di recuperare: (x), che è la coordinata x del punto segreto calcolato in precedenza. Il primo input è (o), che è il UTXO consumato come input per questa transazione (outpoint): **f = HMAC-SHA512(o, x)**.
 
-- Alice sostituisce i valori reali dell'ascissa della chiave pubblica (x) e della stringa (c) nel suo codice di pagamento con i valori cifrati (x') e (c').
+2- Alice converte il suo codice di pagamento personale in base binaria;
+
+3- Utilizza questo fattore "cieco" come chiave per eseguire la crittografia simmetrica sul contenuto del suo codice di pagamento. L'algoritmo di crittografia utilizzato è  XOR. L'operazione eseguita è simile al cifrario di Vernam, noto anche come "one-time pad":
+
+- Alice prima divide il suo fattore  "cieco" in due parti: i primi 32 byte sono chiamati "f1" e gli ultimi 32 byte sono chiamati "f2". Quindi abbiamo: **f = f1 || f2**.
+
+- Alice calcola il ciphertext (x') della coordinata x della chiave pubblica (x) del suo codice di pagamento e, separatamente, calcola il ciphertext (c') del suo chain code (c). "f1" e "f2" fungono da chiavi di crittografia, e viene utilizzata l'operazione XOR. Si ha quindi: **x' = x XOR f1 c' = c XOR f2**
+
+- Alice sostituisce i valori effettivi dell'ascissa della chiave pubblica (x) e del chain code (c) nel suo codice di pagamento con i valori crittografati (x') e (c').
+  
 
 Prima di continuare la descrizione tecnica di questa transazione di notifica, fermiamoci un attimo su questa operazione XOR. XOR è un operatore logico a livello di bit basato sull'algebra di Boole. A partire da due operandi in bit, restituisce 1 se i bit dello stesso rango sono diversi e restituisce 0 se i bit dello stesso rango sono uguali. Ecco la tabella di verità di XOR in base ai valori degli operandi D ed E:
 
@@ -449,21 +454,21 @@ Prima di continuare la descrizione tecnica di questa transazione di notifica, fe
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
-Ad esempio:
+ad esempio:
 
-> 0110 XOR 1110 = 1000
+**0110 XOR 1110 = 1000**
 
-O ancora:
+oppure:
 
-> 010011 XOR 110110 = 100101
+**010011 XOR 110110 = 100101**
 
 Con ECDH, l'uso di XOR come livello di crittografia è particolarmente coerente. Innanzitutto, grazie a questo operatore, la crittografia è simmetrica. Ciò consentirà al destinatario di decifrare il codice di pagamento con la stessa chiave utilizzata per la crittografia. La chiave di crittografia e decrittografia viene calcolata a partire dal segreto condiviso tramite ECDH.
 
 Questa simmetria è resa possibile dalla proprietà commutativa ed associativa dell'operatore XOR:
 
 - Altre proprietà:
-  -> D ⊕ D = 0
-  -> D ⊕ 0 = D
+  D ⊕ D = 0 -> D ⊕ 0 = D
+
 
 - Commutatività:
   D ⊕ E = E ⊕ D
@@ -473,16 +478,16 @@ Questa simmetria è resa possibile dalla proprietà commutativa ed associativa d
 
 - Simmetria:
   Se: D ⊕ E = L
-  Allora: D ⊕ L = D ⊕ (D ⊕ E) = D ⊕ D ⊕ E = 0 ⊕ E = E
-  -> D ⊕ L = E
-  Successivamente, questo metodo di crittografia assomiglia molto al cifrario di Vernam (One-Time Pad), l'unico algoritmo di crittografia conosciuto fino ad oggi che ha una sicurezza incondizionata (o assoluta). Affinché il cifrario di Vernam abbia questa caratteristica, la chiave di crittografia deve essere perfettamente casuale, deve essere della stessa lunghezza del messaggio e deve essere utilizzata solo una volta. Nel metodo di crittografia utilizzato qui per il BIP47, la chiave è della stessa lunghezza del messaggio, il fattore di offuscamento ha esattamente la stessa lunghezza della concatenazione dell'ascissa della chiave pubblica con il codice di stringa del codice di pagamento. Questa chiave di crittografia viene utilizzata solo una volta. Tuttavia, non viene creata da un generatore casuale perfetto, poiché è un HMAC. È piuttosto pseudo-casuale. Quindi non è un cifrario di Vernam, ma il metodo ci si avvicina.
-  Torniamo alla costruzione della transazione di notifica:
+  Allora: D ⊕ L = D ⊕ (D ⊕ E) = D ⊕ D ⊕ E = 0 ⊕ E = E -> D ⊕ L = E
+  
+Successivamente, questo metodo di crittografia assomiglia molto al cifrario di Vernam (One-Time Pad), l'unico algoritmo di crittografia conosciuto fino ad oggi che ha una sicurezza incondizionata (o assoluta). Affinché il cifrario di Vernam abbia questa caratteristica, la chiave di crittografia deve essere perfettamente casuale, deve essere della stessa lunghezza del messaggio e deve essere utilizzata solo una volta. Nel metodo di crittografia utilizzato qui per il BIP47, la chiave è della stessa lunghezza del messaggio, il fattore di "offuscamento" ha esattamente la stessa lunghezza della concatenazione dell'ascissa della chiave pubblica con il codice di stringa del codice di pagamento. Questa chiave di crittografia viene utilizzata solo una volta. Tuttavia, non viene creata da un generatore casuale perfetto, poiché è un HMAC. È piuttosto pseudo-casuale. Quindi non è un cifrario di Vernam, ma il metodo ci si avvicina.
+Torniamo alla costruzione della transazione di notifica:
 
-4. Alice ha attualmente il suo codice di pagamento con un payload crittografato. Costruirà e diffonderà una transazione che coinvolge la sua chiave pubblica "A" come input, un output destinato all'indirizzo di notifica di Bob e un output OP_RETURN costituito dal suo codice di pagamento con il payload crittografato. Questa transazione è la transazione di notifica.
+4. Alice ha attualmente il suo codice di pagamento con un contenuto crittografato. Costruirà e trasmetterà una transazione che coinvolge la sua chiave pubblica "A" come input, un output destinato all'indirizzo di notifica di Bob e un output OP_RETURN costituito dal suo codice di pagamento con il contenuto crittografato. Questa transazione è la transazione di notifica.
 
-OP_RETURN è un Opcode, cioè uno script, che consente di contrassegnare un output di transazione Bitcoin come non valido. Oggi viene utilizzato per diffondere o ancorare informazioni sulla blockchain di Bitcoin. È possibile memorizzare fino a 80 byte di dati che vengono registrati sulla catena e quindi visibili a tutti gli altri utenti.
+OP_RETURN è un Opcode, cioè uno script, che consente di contrassegnare un output di transazione Bitcoin come non valido. Oggi viene utilizzato per diffondere o ancorare informazioni sulla blockchain di Bitcoin. È possibile memorizzare fino a 80 byte di dati che vengono registrati sulla blockchain e resi visibili a tutti gli utenti.
 
-Come abbiamo visto nella parte precedente, Diffie-Hellman viene utilizzato per generare un segreto condiviso tra due utenti che comunicano su una rete non sicura e potenzialmente osservata da attaccanti. Nel BIP47, ECDH viene utilizzato per poter comunicare sulla rete Bitcoin, che per sua natura è una rete di comunicazione trasparente e osservata da numerosi attaccanti. Il segreto condiviso calcolato tramite lo scambio di chiavi Diffie-Hellman sulla curva ellittica viene quindi utilizzato per crittografare le informazioni segrete da trasmettere: il codice di pagamento del mittente (Alice).
+Come abbiamo visto nella parte precedente, Diffie-Hellman viene utilizzato per generare un segreto condiviso tra due utenti che comunicano su una rete non sicura e potenzialmente osservata da malintenzionati. Nel BIP47, ECDH viene utilizzato per poter comunicare sulla rete Bitcoin, che per sua natura è una rete di comunicazione trasparente e osservata da numerosi attaccanti. Il segreto condiviso calcolato tramite lo scambio di chiavi Diffie-Hellman sulla curva ellittica viene utilizzato per crittografare le informazioni segrete da trasmettere: il codice di pagamento del mittente (Alice).
 
 Ecco uno schema tratto dal BIP47 che illustra quanto appena descritto:
 
@@ -493,24 +498,22 @@ Credito: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus R
 Se confrontiamo questo schema con ciò che ho descritto in precedenza:
 
 - "Wallet Priv-Key" dal lato di Alice corrisponde a: a.
-
 - "Child Pub-Key 0" dal lato di Bob corrisponde a: B.
 - "Notification Shared Secret" corrisponde a: f.
 - "Masked Payment Code" corrisponde al codice di pagamento mascherato, cioè con il payload cifrato: x' e c'.
-
 - "Notification Transaction" (transazione di notifica) è la transazione che contiene l'OP_RETURN.
 
 Riassumo i passaggi che abbiamo appena visto per effettuare una transazione di notifica:
 
 - Alice ottiene il codice di pagamento e l'indirizzo di notifica di Bob.
 
-- Alice seleziona un UTXO che le appartiene nel suo wallet HD con la corrispondente coppia di chiavi.
+- Alice seleziona un UTXO che le appartiene nel suo HD wallet con la corrispondente coppia di chiavi.
 
 - Calcola un punto segreto sulla curva ellittica tramite ECDH.
 
 - Utilizza questo punto segreto per calcolare un HMAC che è il fattore di cecità ("Blinding factor").
 
-- Utilizza questo fattore di cecità per crittografare il payload del suo codice di pagamento personale.
+- Utilizza questo Blinding factor per crittografare il contenuto del suo codice di pagamento personale.
 
 - Utilizza un output di transazione OP_RETURN per trasferire il codice di pagamento mascherato a Bob.
 
@@ -529,13 +532,13 @@ Credito: https://blockstream.info/
 
 Osservando questa transazione, possiamo già vedere che ha un solo input e 4 output:
 
-- Il primo output è l'OP_RETURN che contiene il mio codice di pagamento mascherato.
+- il primo output è l'OP_RETURN che contiene il mio codice di pagamento mascherato;
 
-- Il secondo output di 546 sats punta all'indirizzo di notifica del mio destinatario.
+- il secondo output di 546 sats punta all'indirizzo di notifica del mio destinatario;
 
-- Il terzo output di 15.000 sats rappresenta le commissioni di servizio, poiché ho utilizzato Samourai Wallet per costruire questa transazione.
+- il terzo output di 15.000 sats rappresenta le commissioni di servizio, poiché ho utilizzato Samourai Wallet per costruire questa transazione;
 
-- Il quarto output di due milioni di sats rappresenta il resto, cioè la differenza rimanente del mio input che torna a un altro mio indirizzo.
+- il quarto output di due milioni di sats rappresenta il resto, cioè la differenza rimanente del mio input che torna a un altro mio indirizzo.
 
 La cosa più interessante da studiare è ovviamente l'output 0 che utilizza l'OP_RETURN. Esaminiamo più da vicino cosa contiene:
 
@@ -545,45 +548,21 @@ Credito: https://blockstream.info/
 
 Qui scopriamo lo script dell'output in formato esadecimale:
 
-> 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
+**6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000**
 
 In questo script possiamo analizzare diverse parti:
 
-> 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000>
-> Gli opcodes:
->
-> 6a4c
->
-> Un byte che indica la dimensione del payload (80 byte):
->
-> 50
->
-> I metadati del mio codice di pagamento in chiaro:
->
-> 010002
->
-> L'ascissa cifrata della chiave pubblica del mio codice di pagamento:
->
-> b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164
->
-> Il codice di stringa cifrato del mio codice di pagamento:
-> 927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d8
->
-> Riempimento per raggiungere 80 byte:
-> 00000000000000000000000000
+in questo script, possiamo scomporre diverse parti: tra gli opcodes, riconosciamo 0x6a che si riferisce a OP_RETURN e 0x4c che si riferisce a OP_PUSHDATA1. Il byte che segue questo opcode indica la dimensione del contenuto che segue. In questo caso, indica 0x50, che corrisponde a 80 byte.
 
-Tra gli opcodes, possiamo riconoscere 0x6a che indica l'OP_RETURN e 0x4c che indica l'OP_PUSHDATA1. Il byte successivo a quest'ultimo opcode indica la dimensione del payload che segue. Indica 0x50, ovvero 80 byte.
+Successivamente troviamo il codice di pagamento con il contenuto crittografato.
 
-Successivamente viene il codice di pagamento con il payload cifrato.
+Ecco il mio codice di pagamento utilizzato in questa transazione in base 58:
 
-Ecco il mio codice di pagamento in chiaro utilizzato in questa transazione:
+**PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU**
 
-> In base 58:
->
-> PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
->
-> In base 16 (HEX):
-> 4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+In base 16 (HEX):
+
+**4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db**
 
 Se confrontiamo il mio codice di pagamento in chiaro con l'OP_RETURN, possiamo vedere che l'HRP (in marrone) e il checksum (in rosa) non vengono trasmessi. È normale, queste informazioni sono destinate agli esseri umani.
 Successivamente, è possibile riconoscere (in verde) la versione (0x01), il campo di bit (0x00) e la parità della chiave pubblica (0x02). E, alla fine del codice di pagamento, i byte vuoti in nero (0x00) che servono per riempire fino a raggiungere un totale di 80 byte. Tutti questi metadati vengono trasmessi in chiaro (non crittografati).
@@ -593,7 +572,7 @@ Infine, si può osservare che l'ascissa della chiave pubblica (in blu) e il codi
 
 Ora che Alice ha inviato la transazione di notifica a Bob, vediamo come quest'ultimo la interpreta.
 
-Ricordiamo che, Bob deve essere in grado di accedere al codice di pagamento di Alice. Senza questa informazione, come vedremo nella parte successiva, non sarà in grado di derivare le coppie di chiavi create da Alice e quindi non potrà accedere ai suoi bitcoin ricevuti con BIP47. Al momento, il payload del codice di pagamento di Alice è crittografato. Vediamo insieme come Bob lo decifra.
+Ricordiamo che, Bob deve essere in grado di accedere al codice di pagamento di Alice. Senza questa informazione, come vedremo nella parte successiva, non sarà in grado di derivare le coppie di chiavi create da Alice e quindi non potrà accedere ai suoi bitcoin ricevuti con BIP47. Al momento, il payload (contenuto) del codice di pagamento di Alice è crittografato. Vediamo insieme come Bob lo decifra.
 
 1. Bob monitora le transazioni che creano output con il suo indirizzo di notifica.
 
@@ -601,32 +580,27 @@ Ricordiamo che, Bob deve essere in grado di accedere al codice di pagamento di A
 
 3. Se il primo byte del payload di OP_RETURN è 0x01, Bob inizia la ricerca di un eventuale segreto condiviso con ECDH:
 
-- Bob seleziona la chiave pubblica in input della transazione. Cioè la chiave pubblica di Alice chiamata "A" con:
+- Bob seleziona la chiave pubblica in input della transazione. Ovvero seleziona la chiave pubblica di Alice chiamata "A" con: **A = a·G**
 
-> A = a·G
 
-- Bob seleziona la chiave privata "b" associata al suo indirizzo di notifica personale:
+- Bob seleziona la chiave privata "b" associata al suo indirizzo di notifica personale: **b**
 
-> b
 
-- Bob calcola il punto segreto "S" (segreto condiviso ECDH) sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "b" alla chiave pubblica di Alice "A":
+- Bob calcola il punto segreto "S" (segreto condiviso ECDH) sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "b" alla chiave pubblica di Alice "A":  **S = b·A**
 
-> S = b·A
+- Bob determina il punto segreto "f" che consentirà di decifrare il payload (contenuto) del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica: **f = HMAC-SHA512(o, x)**
 
-- Bob determina il punto segreto "f" che consentirà di decifrare il payload del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica:
 
-> f = HMAC-SHA512(o, x)
-
-4. Bob interpreta i dati di OP_RETURN nella transazione di notifica come un codice di pagamento. Semplicemente decifrerà il payload di questo potenziale codice di pagamento utilizzando il fattore di cieco "f":
+4. Bob interpreta i dati di OP_RETURN nella transazione di notifica come un codice di pagamento. Semplicemente decifrerà il payload (contenuto) di questo potenziale codice di pagamento utilizzando il fattore di cieco "f":
 
 - Bob divide il punto segreto "f" in due parti: i primi 32 byte di "f" saranno "f1" e gli ultimi 32 byte saranno "f2".
 - Bob decifra il valore dell'ascissa cifrata (x') della chiave pubblica del codice di pagamento di Alice:
 
-> x = x' XOR f1
+**x = x' XOR f1**
 
 - Bob decifra il valore del codice di stringa cifrato (c') del codice di pagamento di Alice:
 
-> c = c' XOR f2
+**c = c' XOR f2**
 
 5. Bob verifica se il valore della chiave pubblica del codice di pagamento di Alice fa parte del gruppo secp256k1. Se è così, lo interpreta come un codice di pagamento valido. Altrimenti, ignora questa transazione.
 
@@ -634,25 +608,19 @@ Ora che Bob conosce il codice di pagamento di Alice, lei può inviargli fino a 2
 
 Perché funziona? Come fa Bob a determinare lo stesso punto segreto di Alice e quindi a decifrare il suo codice di pagamento? Esaminiamo più nel dettaglio l'azione di ECDH in ciò che abbiamo appena descritto.
 
-Innanzitutto, stiamo affrontando una crittografia simmetrica. Ciò significa che la chiave di cifratura e la chiave di decifratura sono lo stesso valore. Questa chiave nella transazione di notifica è il punto segreto (f = f1 || f2). Quindi Alice e Bob devono ottenere lo stesso valore per f, senza trasmetterlo direttamente poiché un attaccante potrebbe sottrarlo e decifrare l'informazione segreta.
+Innanzitutto, stiamo affrontando una crittografia simmetrica. Ciò significa che la chiave di cifratura e la chiave di decifratura sono lo stesso valore. Questa chiave nella transazione di notifica è il punto segreto (f = f1 || f2). Quindi Alice e Bob devono ottenere lo stesso valore per f, senza trasmetterlo direttamente poiché un malintenzionato potrebbe sottrarlo e decifrare l'informazione segreta.
 
-Questo fattore cieco viene ottenuto applicando HMAC-SHA512 a due valori: l'ascissa di un punto segreto e l'UTXO consumato come input della transazione. Quindi Bob deve avere queste due informazioni per decifrare il payload del codice di pagamento di Alice.
+Questo fattore "cieco" viene ottenuto applicando HMAC-SHA512 a due valori: l'ascissa di un punto segreto e l'UTXO consumato come input della transazione. Quindi Bob deve avere queste due informazioni per decifrare il payload del codice di pagamento di Alice.
 
-Per l'UTXO in input, Bob può semplicemente recuperarlo osservando la transazione di notifica. Per il punto segreto, Bob dovrà utilizzare ECDH.
+Per l'UTXO in input, Bob può recuperarlo osservando la transazione di notifica. Per il punto segreto, Bob dovrà utilizzare ECDH.
 
-Come visto nella parte su Diffie-Hellman, semplicemente scambiando le rispettive chiavi pubbliche e applicando segretamente le loro chiavi private alla chiave pubblica dell'altro, Alice e Bob possono trovare un punto preciso e segreto sulla curva ellittica. La transazione di notifica si basa su questo meccanismo:
+Come visto nella parte su Diffie-Hellman, scambiando le rispettive chiavi pubbliche e applicando segretamente le loro chiavi private alla chiave pubblica dell'altro, Alice e Bob possono trovare un punto preciso e segreto sulla curva ellittica. La transazione di notifica si basa su questo meccanismo:
 
-> La coppia di chiavi di Bob:
->
-> B = b·G
->
-> La coppia di chiavi di Alice:
->
-> A = a·G
->
-> Per un punto segreto S (x,y):
->
-> S = a·B = a·b·G = b·a·G = b·A
+La coppia di chiavi di Bob: **B = b·G**
+
+La coppia di chiavi di Alice: **A = a·G**
+
+Per un punto segreto S (x,y): **S = a·B = a·b·G = b·a·G = b·A**
 
 ![Schema generazione di un segreto condiviso con ECDHE](assets/19.webp)
 Ora che Bob conosce il codice di pagamento di Alice, sarà in grado di rilevare i pagamenti BIP47 da parte di Alice e potrà derivare le chiavi private che bloccano i bitcoin ricevuti.
@@ -662,13 +630,13 @@ Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus R
 
 Se confrontiamo questo schema con ciò che ho descritto in precedenza:
 
-- "Wallet Pub-Key" da parte di Alice corrisponde a: A.
+- "Wallet Pub-Key" da parte di Alice corrisponde a: A;
 
-- "Child Priv-Key 0" da parte di Bob corrisponde a: b.
+- "Child Priv-Key 0" da parte di Bob corrisponde a: b;
 
-- "Notification Shared Secret" corrisponde a: f.
+- "Notification Shared Secret" corrisponde a: f;
 
-- "Masked Payment Code" corrisponde al codice di pagamento di Alice mascherato, cioè con il payload crittografato: x' e c'.
+- "Masked Payment Code" corrisponde al codice di pagamento di Alice mascherato, cioè con il payload crittografato: x' e c';
 
 - "Notification Transaction" è la transazione che contiene l'OP_RETURN.
 

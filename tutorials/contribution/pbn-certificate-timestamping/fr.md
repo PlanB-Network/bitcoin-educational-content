@@ -18,8 +18,8 @@ Chez Plan ₿ Academy, nous vous délivrons des certificats et des diplômes que
 1. Une signature GPG sur un fichier texte qui synthétise vos réalisations ;
 2. L'horodatage de ce fichier signé via [opentimestamps](https://opentimestamps.org/).
 
-La première opération vous permet de vérifier lémetteur du certificat (ou diplôme), tandis que la seconde vous permet de vérifier sa date d'émission.
-Nous pensons que ce mécanisme de preuve simple nous permet de délivrer des certificats et diplômes avec des preuves indiscutables que n'importe qui peut vérifier par lui-même.
+La première opération vous permet de vérifier l'émetteur du certificat (ou diplôme), tandis que la seconde vous permet de vérifier sa date d'émission.
+Nous pensons que ce mécanisme de preuve simple nous permet de délivrer des certificats et diplômes avec des preuves indéniables que n'importe qui peut vérifier par lui-même.
 
 ![image](./assets/proof-mechanism.webp)
 
@@ -132,7 +132,7 @@ pip install opentimestamps-client
 
 2. Naviguez jusqu'au répertoire contenant les fichiers de certificat extraits.
 
-3. Exécutez la commande suivante pour vérifier l'OpenTimestamp :
+3. Exécutez la commande suivante pour vérifier l'OpenTimestamps :
 
 ```
 ots verify certificate.txt.ots
@@ -149,6 +149,6 @@ Cette commande va :
 La vérification est considérée comme réussie si **les deux** messages suivants sont affichés :
 
 1. La signature GPG est signalée comme **"Bonne signature de Plan ₿ Academy"**
-2. La vérification OpenTimestamps montre un horodatage précis dans un bloc Bitcoin et indique **"Succès ! Le bloc Bitcoin [hauteur du bloc] atteste que les données existaient en date du [timestamp]"**
+2. La vérification OpenTimestamps montre un horodatage précis dans un bloc Bitcoin et indique **"Succès ! Le bloc Bitcoin [hauteur du bloc] atteste que les données existaient en date du [horodatage]"**
 
 Maintenant que vous savez comment Plan ₿ Academy émet une preuve vérifiable pour tout certificat ₿-CERT et diplôme de fin de cours, vous pouvez facilement en vérifier l'intégrité.

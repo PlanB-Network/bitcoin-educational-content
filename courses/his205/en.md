@@ -1415,39 +1415,39 @@ Here, Lyn refers to Bitcoin.
 Saifedean talks about this at length in his book "The Bitcoin Standard". For those unfamiliar with the stock-to-flow ratio, it's simply when you compare the existing stock, the reserves that exist in the market, compared to the new stock coming in, the influx of new stock. It's often rather counter-intuitive, because you might think that something you have in large quantities isn't scarce, but in fact it isn't. It's more a question of the capacity you have to supply it. Rather, it's the capacity we have to have new stock that, according to this model, gives us the information as to whether this object is rare or not. It's not because we don't have something in stock that it's rare, it's just maybe that we don't have it. So, if we take gold, we have a lot of gold stocks because it's used as a store of value, and the inflow of new stocks is something like 1% to 3% a year of new gold stocks coming in through gold mining. Whereas, what she's saying here, if we're talking about rhodium, it's rarer than gold, but we don't have any stock because it's consumed as it goes along. So it doesn't take a lot of new supply to double the existing stock. Whereas with gold, it would take at least 50 years to renew, to double the stock. Unlike most goods that are consumed, where it's fairly easy, and doesn't take many years of production to double the existing stock, since it's consumed as it goes along.
 
 
-*"Gold has maintained a stock-to-flow ratio of between 25x and 100x throughout modern history, usually around 50x or more, briefly never falling below 16x, even during the Gold Rush of the mid-19ᵉ century. "*
+*"Gold has maintained a stock-to-flow ratio of between 25x and 100x throughout modern history, usually around 50x or more, briefly never falling below 16x, even during the Gold Rush of the mid-19th century. "*
 
 
-So 25 would be 25 years to double the stock and 100 would be 100 years to double the stock. Saifedean says in his book that even if we doubled gold production, from say 1.5% to 3%, it wouldn't necessarily have a big effect on its price.
+So, 25 would mean 25 years to double the stock, and 100 would mean 100 years to double the stock. Saifedean says in his book that even if we doubled gold production, from say 1.5% to 3%, it wouldn't necessarily have a big effect on its price.
 
 
-*"Silver generally has a stock-flow ratio of 10x or more, which is still relatively high
+*"Silver generally has a stock-flow ratio of 10x or more, which is still relatively high.*
 
-*Most other commodities have a stock-flow ratio of less than 1 or 2. Even the rarest elements, such as platinum and rhodium, have relatively low stock-flow ratios due to their rapid industrial consumption
+*Most other commodities have a stock-flow ratio of less than 1 or 2. Even the rarest elements, such as platinum and rhodium, have relatively low stock-flow ratios due to their rapid industrial consumption."*
 
 
 ### The superiority of gold and silver
 
 
-*"In short, whenever a commodity currency has found itself in competition with gold and silver, the latter has always come out on top in the end. Other commodities might remain currencies for limited periods or in specific regions, but gold and silver have always proved their ability to become globally competitive currencies and to dominate the competition. This is because when civilizations met, holders of gold and silver always had the technological capacity to devalue other forms of currency, while holders of shells, pearls, livestock, salt, cloth or inferior metals could never devalue gold or silver. "*
+*"In short, whenever a commodity currency has found itself in competition with gold and silver, the latter has always come out on top in the end. Other commodities might remain currencies for limited periods or in specific regions, but gold and silver have always proved their ability to become globally competitive currencies and to dominate the competition. This is because when civilizations met, holders of gold and silver always had the technological capacity to devalue other forms of currency, while holders of shells, pearls, livestock, salt, cloth or inferior metals could never devalue gold or silver."*
 
 
-So this is again extremely well described in Stallion Bitcoin where Saifedean talks about the tribes in Africa who used glass beads. And when the Venetian merchants arrived with cargoes full of glass beads because they were able to produce them industrially at the time, they had the technology to do so, it completely destabilized the monetary system of these peoples and they were able to literally plunder their resources. This is Saifedean's thesis.
+So this is again extremely well described in The Bitcoin Standard where Saifedean talks about the tribes in Africa who used glass beads. And when the Venetian merchants arrived with cargoes full of glass beads because they were able to produce them industrially at the time, they had the technological capacity to do so, it completely destabilized the monetary system of these peoples and they were able to literally plunder their resources. This is Saifedean's thesis.
 
 
 ### Unit of account and credit
 
 
-*"Historically, even when credit was used directly as an instrument of exchange, it was usually denominated in units of monetary commodities naturally chosen for their properties "*
+*"Historically, even when credit was used directly as an instrument of exchange, it was usually denominated in units of monetary commodities naturally chosen for their properties."*
 
 
-That's a very interesting point, and one that Ulrich and I have been discussing. Even if the temple in Mesopotamia was a kind of authority that could manage this notion of credit, the unit of account was the shekel, there's nothing to confirm that the shekel was established authoritatively by the temple. The shekel could have emerged naturally, through the need of merchants to import-export with other peoples in the vicinity. We have evidence of this, in the form of a merchant at Kanesh (I mentioned this in Part 1) who did exactly that, importing precious metals that were not used for their physical commodity value, but rather as a store of value. The only problem is that we don't know whether we can assume that this choice of silver, of the silver shekel, was made by the merchants, or whether it was made by the temple. But Ulrich has a very good argument that leads us to think that it was probably rather on the side of the merchants that it was made.
+That's a very interesting point, and one that Ulrich and I have been discussing. Even if the temple in Mesopotamia was a kind of authority that could manage this notion of credit, the unit of account was the shekel. There's nothing to confirm that the shekel was established authoritatively by the temple. The shekel could have emerged naturally, through the need of merchants to import and export with other peoples in the vicinity. We have evidence of this, in the form of a merchant at Kanesh (I mentioned this in Part 1) who did exactly that, importing precious metals that were not used for their physical commodity value, but rather as a store of value. The only problem is that we don't know whether we can assume that this choice of silver, of the silver shekel, was made by the merchants, or whether it was made by the temple. But Ulrich has a very good argument that leads us to think that it was probably rather on the side of the merchants that it was made.
 
 
-*"Thus, the unification of the two theories can be described as an "accounting theory of money" ("ledger theory of money") since it describes the fundamental logic common to both theories. Both flexible social credit and collectible proto-currencies date back to the dawn of humanity. In both cases, human groups of various sizes keep an accounting ledger among themselves to avoid having to satisfy the double coincidence of needs, reduce friction in exchanges, and serve as a form of liquid savings. The essential difference lies in the authority entrusted with keeping the register "*
+*"Thus, the unification of the two theories can be described as an "accounting theory of money" ("ledger theory of money") since it describes the fundamental logic common to both theories. Both flexible social credit and collectible proto-currencies date back to the dawn of humanity. In both cases, human groups of various sizes keep an accounting ledger among themselves to avoid having to satisfy the double coincidence of wants, reduce friction in exchanges, and serve as a form of liquid savings. The essential difference lies in the authority entrusted with keeping the register."*
 
 
-On the one hand, nature manages the expansion of the money supply. So, if we take gold, as it's quite rare, it's difficult to mine. There's a kind of limit to the number of gold coins that can be mined. So scarcity is managed by nature. And the register is held by the concept of possession. The register is decentralized. Possession is proven by the fact that you own a gold coin or a gold nugget. And in the case of credit money, scarcity is managed by people's ability to obtain credit. Or in the case of fiat currency, scarcity is managed by authority. It's they who decide whether to print more or not, to avoid inflationary disasters. So, in some cases, the register can also be managed by the owner of the token, in the case of paper money. That's why it's entered in the register, in quotation marks, dematerialized. Well, materialized, but virtual. He possesses this famous token, and that's what proves possession. And it can just as easily be in a real register, as with scriptural money, in a bank, where it's really the human bank that manages who owns what in relation to the register.
+On the one hand, nature manages the expansion of the money supply. So, if we take gold, as it's quite rare, it's difficult to mine. There's a kind of limit to the number of gold coins that can be mined. So scarcity is managed by nature. And the register is held by the concept of possession. The register is decentralized. Possession is proven by the fact that you own a gold coin or a piece of gold. And in the case of credit money, scarcity is managed by people's ability to obtain credit. Or in the case of fiat currency, scarcity is managed by authority. It's they who decide whether to print more or not, to avoid inflationary disasters. So, in some cases, the register can also be managed by the owner of the token, in the case of paper money. That's why it's entered in the register, in quotation marks, dematerialized. Well, materialized, but virtual. He possesses this famous token, and that's what proves possession. And it can just as easily be in a real register, as with scriptural money, in a bank, where it's really the human bank that manages who owns what in relation to the register.
 
 
 ## Unification through the monetary premium
@@ -1459,10 +1459,10 @@ On the one hand, nature manages the expansion of the money supply. So, if we tak
 ### The monetary premium concept
 
 
-In this section dedicated to the various proposals for unifying the different theories on the emergence of money, I have just proposed Lyn Alden's theory, the register theory. I have my own proposal for the unification of the two monetary theories. It's the monetary premium, the concept of monetary premium. So, the value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins or banknotes or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
+In this section dedicated to the various proposals for unifying the different theories on the emergence of money, I have just proposed Lyn Alden's theory, the register theory. I have my own proposal for the unification of the two monetary theories. It's the monetary premium, the concept of monetary premium. So, the value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
 
 
-What I'm trying to demonstrate here is quite simply that whether it's fiat, i.e. banknotes with no use value, whether it's gold coins or even any metal, a gold nugget or bullion, **it's often the monetary premium that makes up most of its value**. If we take a gold nugget, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. Note that the demand for jewelry often comes from its monetary value. People keep jewelry as a kind of store of value, so I include this a little in the monetary premium because it's often a rather monetary demand to play a role in money.
+What I'm trying to demonstrate here is quite simply that whether it's fiat, i.e., banknotes with no use value, whether it's gold coins or any metal, a piece of gold nugget or an ingot, **it's often the monetary premium that makes up most of its value**. If we take a piece of gold, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. Note that the demand for jewelry often comes from its monetary value. People keep jewelry as a kind of store of value, so I include this a little in the monetary premium because it's often a rather monetary demand to play a role in money.
 
 
 So you could say that around 10% of gold demand is for industry. In the value of gold, we would have a small part, let's say 10%, which would be explained by this industrial demand, this demand for the use of gold, where gold is consumed. The rest is clearly demand for its monetary use as a store of value.
@@ -1471,7 +1471,7 @@ So you could say that around 10% of gold demand is for industry. In the value of
 ### Authority bonus and fiat
 
 
-And if you compare a gold nugget to a gold coin, there's another layer. The gold coin is stamped by an authority, and the gold contained in the coin also enjoys a demand for use, a demand to be consumed in industry. It also enjoys a monetary premium as a store of value. What's more, there's an overlay that I call the authority premium, where there will often be a price, a greater purchasing power for the coin than the nugget, since the coin is simpler to use. It makes exchanges more fluid, as there's no need to weigh it. The authority normally guarantees its purity. And if you compare it to a nugget, a stamped gold coin is generally worth more than a simple gold nugget. And that's normal, too, because it takes resources to stamp it.
+And if you compare a piece of gold to a gold coin, there's another layer. The gold coin is stamped by an authority, and the gold contained in the piece also enjoys a demand for use, a demand to be consumed in industry. It also enjoys a monetary premium as a store of value. What's more, there's an overlay that I call the authority premium, where there will often be a price, a greater purchasing power for the coin than the piece of gold, since the coin is simpler to use. It makes exchanges more fluid, as there's no need to weigh it. The authority normally guarantees its purity. And if you compare it to a piece of gold, a stamped gold coin is generally worth more than a simple piece of gold. And that's normal, too, because it takes resources to stamp it.
 
 
 It's the same principle for fiat, paper money. Paper money doesn't really have any use value, except perhaps to heat a house, and that happened during the Weimar Republic. So there's no real demand for its use value. On the other hand, there's only a premium for authority, in my opinion.
@@ -1486,13 +1486,13 @@ It's a form of monetary premium, an overlay on the monetary premium. But its mon
 And why does this proposal for a monetary premium qualify as a unification of the two theories of debt money and commodity money? Well, I don't feel that the value of a gold coin necessarily comes from its "intrinsic value". No, in fact, it's as much a notion of confidence as it is for fiat money. It's a notion of monetary demand. And it's not really because it has a small percentage of industrial use, another "utility". If we say that industrial use is 10% of its value, we could value that at $300 per ounce. If gold sells on the market for $3,000 an ounce, the difference between $300 and $3,000 is the famous monetary premium. It's this monetary demand for gold that explains it. Just because fiat has zero use value doesn't mean it's any different. For me, it's exactly the same thing. So on both sides, the theory of debt money or commodity money, I don't think that the sort of extra quality that gold would have of having a minimal use value changes anything.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, we can propose that this use creates a demand at the origin and initiates the process that becomes money.** Whereas, at the level of debt money, it's more an imposition by an authority, so the source, the initiation of emergence and completely different concepts. **But I think that at the level of value, how to explain the value of money, with the monetary premium, we can just as easily explain why fiat money has the value we attribute to it and why commodity money has the value** we attribute to it. For me, it's the same process, and it's called the money premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, we can propose that this use creates a demand at the origin and initiates the process that becomes money.** Whereas, at the level of debt money, it's more an imposition by an authority, so the source, the initiation of emergence, and the conepts are completely different. **But I think that at the level of value, how to explain the value of money, with the monetary premium, we can just as easily explain why fiat money has the value we attribute to it and why commodity money has the value** we attribute to it. For me, it's the same process, and it's called the money premium.
 
 
 #### The monetary premium
 
 
-That's it. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes or Bitcoin.
+That's it. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin.
 
 The monetary premium is simply based on the confidence that someone will exchange this money later for a comparable price.
 
@@ -1520,10 +1520,10 @@ In this section on the various monetary theories and especially on the definitio
 A little semantics:
 
 
-When we say "**money**", most people will think we're referring to the small change we receive in return for a transaction. And if we say "**currency**", people will probably think we're referring to the currency of a state. Canada's currency is the Canadian dollar. That's right.
+When we say "**money**" (de la monnaie), most people will think we're referring to the small change we receive in return for a transaction. And if we say "**currency**" (la monnaie), people will probably think we're referring to the currency of a state. Canada's currency is the Canadian dollar. That's right.
 
 
-But what about money? A thief will never say "Give me all your change!" (the thief might well be disappointed to receive mere coins of almost no value).
+But what about money (de l'argent)? A thief will never say "Give me all your change!" (the thief might well be disappointed to receive mere coins of almost no value).
 
 
 No, the thief will shout: "Give me **all your money**". And if the thief is standing in front of you on the street, he's necessarily referring to **the banknotes** in your pocket.
@@ -1538,10 +1538,10 @@ So there are two definitions for the word money: cash (banknotes) and wealth.
 ### Currency vs monnaie vs devise
 
 
-A currency is necessarily the currency of another country, otherwise we just say monnaie. If you're French, you'd say: "La livre sterling est la devise de du Royaume-Unis et l'euro et la monnaie de l'Europe".
+A currency (devise) is necessarily the currency of another country, otherwise we just say money (monnaie). If you're French, you'd say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe".
 
 
-Often, people who haven't delved into these semantic problems, in translating these terms, will often be inclined to speak of currency when it's written currency, but no, currency is monnaie when it's your country's currency, and it's devise when we're talking about other currencies. And so, the problem here that I often see, is that in English, there are two words, there's "money" which is a concept and there's "currency" which is really the unit of a country that is used to make exchanges. So we can just talk about the concept of money, it's easy, it's the concept of the word *money*, it's money in general and *currency*, it's very simple to equate with the currency of a country. Whereas in French, unfortunately, people will often say yes, "mais ce n'est pas une monnaie" when talking about bitcoin because it's not the currency of a country, but often, I think they're referring to the terms currency instead. This is wrong on the one hand, because since El Salvador bitcoin has been the currency of a state. The fact remains that people will often say: *but no, it's not the currency of a state, it can't be money*. But in fact, if we refer to the broader concept of *money*, bitcoin fits into this definition perfectly, in my opinion. It's just that in French, we don't have two words to separate these two concepts. We could say that the word argent refers to currency, but unfortunately, that's not its precise definition. *Money* refers to wealth or banknotes. You can't really make an equivalence with the word *money*. *Money* is really the concept of currency.
+Often, people who haven't delved into these semantic problems, in translating these terms, will often be inclined to speak of currency (devise) when it's written currency, but no, currency is money (monnaie) when it's your country's currency, and it's devise when we're talking about other currencies. And so, the problem here that I often see is that in English, there are two words: there's "money", which is a concept, and there's "currency", which is really the unit of a country that is used to make exchanges. So we can just talk about the concept of money; it's easy - it's the concept of the word *money*; it's money in general. And *currency* is very simple to equate with the currency of a country. Whereas in French, unfortunately, people will often say yes, "mais ce n'est pas une monnaie" when talking about bitcoin because it's not the currency of a country, but often, I think they're referring to the terms currency instead. This is wrong on the one hand, because since El Salvador, bitcoin has been the currency of a state. The fact remains that people will often say: *but no, it's not the currency of a state, it can't be money*. But in fact, if we refer to the broader concept of *money*, bitcoin fits into this definition perfectly, in my opinion. It's just that in French, we don't have two words to separate these two concepts. We could say that the word argent refers to currency, but unfortunately, that's not its precise definition. *Argent* (money) refers to wealth or banknotes. You can't really make an equivalence with the word *money*. *Money* is really the concept of currency (monnaie).
 
 
 
@@ -1561,7 +1561,7 @@ Often, people who haven't delved into these semantic problems, in translating th
 
 Money is simply something you own or acquire not to be used or consumed for its own sake, but to be exchanged later for other goods or services you may need. (Saifedean)
 
-Money acquires a monetary premium when a monetary demand exists for the good, to play one or more of the money's roles.
+Money acquires a monetary premium when a monetary demand exists for the good, to play one or more of the roles of money.
 
 The monetary good must be scarce enough for the monetary premium to persist (to prevent supply from adjusting to monetary demand).
 
@@ -1570,12 +1570,12 @@ The monetary good must be scarce enough for the monetary premium to persist (to 
 ### The monetary premium
 
 
-In this section on the different definitions of currency, I wanted to talk briefly about Saifedean's definition in Bitcoin Stallion, which has always been of great interest to me. It struck me as quite simple when I read it. And we're also going to add the concept of monetary premium to this definition. And as Saifedean mentions in his book, there is necessarily a concept of scarcity. The question is, what is money?
+In this section on the different definitions of currency, I wanted to talk briefly about Saifedean's definition in The Bitcoin Standard, which has always been of great interest to me. It struck me as quite simple when I read it. And we're also going to add the concept of monetary premium to this definition. As Saifedean mentions in his book, there is necessarily a concept of scarcity. The question is, what is money?
 
 
 > Money is simply something you own or acquire, not to be used or consumed for its own sake, but to be exchanged later for other goods or services you may need.
 
-So that's the definition Saifedean mentions in Bitcoin. I would add that a currency acquires a monetary premium when there is a monetary demand for the good, to play one or more of the currency's roles. So you could say that a currency that serves as a store of value will have a monetary demand that gives it a monetary premium, since people want to acquire it, for example as a store of value or as a medium of exchange.
+So that's the definition Saifedean mentions in The Bitcoin Standard. I would add that a currency (la monnaie) acquires a monetary premium when there is a monetary demand for the good, to play one or more of the currency's roles. So you could say that a currency that serves as a store of value will have a monetary demand that gives it a monetary premium, since people want to acquire it, for example as a store of value or as a medium of exchange.
 
 
 ### Scarcity and market mechanisms

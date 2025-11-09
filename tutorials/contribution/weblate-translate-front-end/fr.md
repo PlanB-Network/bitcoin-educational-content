@@ -1,6 +1,6 @@
 ---
-name: Weblate - traduire les éléments statiques
-description: Comment participer à la traduction des éléments statiques sur planb.network ?
+name: Weblate - Traduire les éléments statiques
+description: Comment participer à la traduction des éléments statiques sur planb.academy ?
 ---
 ![cover](assets/cover.webp)
 
@@ -18,7 +18,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 
 En revanche, si vous souhaitez traduire les éléments statiques du site web (à l'exclusion du contenu pédagogique), vous êtes au bon endroit ! Pour traduire efficacement le frontend, nous utilisons l'outil Weblate, qui est très simple à utiliser et facilite l'approche de la traduction.
 
-Si vous souhaitez ajouter une toute nouvelle langue sur Plan ₿ Academy, vous pouvez contacter notre équipe via notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si vous n'avez pas de compte Telegram, vous pouvez envoyer un e-mail à mari@planb.network. N'oubliez pas d'écrire une petite présentation sur qui vous êtes et les langues que vous parlez.
+Si vous souhaitez ajouter une toute nouvelle langue sur Plan ₿ Academy, vous pouvez contacter notre équipe via notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si vous n'avez pas de compte Telegram, vous pouvez envoyer un email à mari@planb.network. N'oubliez pas d'écrire une petite présentation sur qui vous êtes et les langues que vous parlez.
 
 Les membres de notre équipe vous donneront des instructions spécifiques et ouvriront les "issues" correspondantes sur Github afin de coordonner votre travail.
 
@@ -35,27 +35,27 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 ![weblate](assets/01.webp)
 
 
-- Si vous avez déjà un compte Weblate, cliquez sur `Se connecter` :
+- Si vous avez déjà un compte Weblate, cliquez sur "Se connecter" :
 
 ![weblate](assets/02.webp)
 
 
-- Si vous n'avez pas de compte, cliquez sur `S'inscrire` :
+- Si vous n'avez pas de compte, cliquez sur "S'inscrire" :
 
 ![weblate](assets/03.webp)
 
 
-- Saisissez votre adresse électronique, ainsi qu'un nom d'utilisateur et un nom complet (vous pouvez utiliser un pseudonyme), puis cliquez sur `S'inscrire` :
+- Saisissez votre email, ainsi qu'un nom d'utilisateur et un nom complet (vous pouvez utiliser un pseudonyme), puis cliquez sur "S'inscrire" :
 
 ![weblate](assets/04.webp)
 
 
-- Dans votre boîte aux lettres électronique, vous devriez avoir reçu un message de confirmation de la part de Weblate. Cliquez sur le lien pour confirmer votre inscription :
+- Dans votre boîte mail, vous devriez avoir reçu un message de confirmation de la part de Weblate. Cliquez sur le lien pour confirmer votre inscription :
 
 ![weblate](assets/05.webp)
 
 
-- Choisissez un mot de passe fort, puis cliquez sur `Modifier mon mot de passe` :
+- Choisissez un mot de passe fort, puis cliquez sur "Modifier mon mot de passe" :
 
 ![weblate](assets/06.webp)
 
@@ -82,7 +82,7 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 ![weblate](assets/10.webp)
 
 
-- Pour commencer la traduction, il suffit de cliquer sur le bouton `Traduire` :
+- Pour commencer la traduction, il suffit de cliquer sur le bouton "Traduire" :
 
 ![weblate](assets/11.webp)
 
@@ -92,17 +92,17 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 ![weblate](assets/12.webp)
 
 
-- Weblate suggérera alors automatiquement des phrases, des paragraphes, ou même des mots à traduire dans la case `langue`. Dans votre cas, vous verrez probablement la chaîne principale en anglais, et une autre zone de texte pour votre langue :
+- Weblate suggérera alors automatiquement des phrases, des paragraphes, ou même des mots à traduire dans la case "langue". Dans votre cas, vous verrez probablement la chaîne principale en anglais, et une autre zone de texte pour votre langue :
 
 ![weblate](assets/13.webp)
 
 
-- Votre tâche consiste à traduire les chaînes de caractères indiquées. Vous devez insérer votre texte dans la case correspondant à la langue que vous avez choisie. Par exemple, si vous travaillez sur la version française, écrivez votre traduction dans la case `français` :
+- Votre tâche consiste à traduire les chaînes de caractères indiquées. Vous devez insérer votre texte dans la case correspondant à la langue que vous avez choisie. Par exemple, si vous travaillez sur la version française, écrivez votre traduction dans la case "français" :
 
 ![weblate](assets/14.webp)
 
 
-- Cliquez sur l'onglet `Suggestion automatique` :
+- Cliquez sur l'onglet "Suggestion automatique" :
 
 ![weblate](assets/15.webp)
 
@@ -127,7 +127,7 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 ![weblate](assets/19.webp)
 
 
-- Lorsque la traduction vous semble satisfaisante, cliquez sur le bouton `Enregistrer et continuer`. Veillez à décocher la case `Nécessite une révision` lorsque vous êtes sûr de votre traduction :
+- Lorsque la traduction vous semble satisfaisante, cliquez sur le bouton "Enregistrer et continuer". Veillez à décocher la case "Nécessite une révision" lorsque vous êtes sûr de votre traduction :
 
 ![weblate](assets/20.webp)
 
@@ -137,7 +137,7 @@ Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et p
 ![weblate](assets/21.webp)
 
 
-- Si vous devez rechercher un mot spécifique, que ce soit dans votre langue ou dans la langue d'origine, cliquez sur `recherche` et insérez-le :
+- Si vous devez rechercher un mot spécifique, que ce soit dans votre langue ou dans la langue d'origine, cliquez sur "recherche" et insérez-le :
 
 ![weblate](assets/22.webp)
 

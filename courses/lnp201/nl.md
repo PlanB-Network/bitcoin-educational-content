@@ -1,14 +1,12 @@
 ---
-name: Theoretische inleiding tot de Lightning Network
+name: Lightning Network-theorie
 goal: Ontdek de Lightning Network vanuit een technisch perspectief
-objectives: 
-
-  - Begrijp de werking van de kanalen van het netwerk.
-  - Maak jezelf vertrouwd met de termen HTLC, LNURL en UTXO.
-  - Het beheer van liquiditeit en de vergoedingen van het LNN gelijkstellen.
-  - Herken de Lightning Network als een netwerk.
-  - Het theoretische gebruik van de Lightning Network begrijpen.
-
+objectives:
+- Begrijp de werking van de kanalen van het netwerk.
+- Maak jezelf vertrouwd met de termen HTLC, LNURL en UTXO.
+- Het beheer van liquiditeit en de vergoedingen van het LNN gelijkstellen.
+- Herken de Lightning Network als een netwerk.
+- Het theoretische gebruik van de Lightning Network begrijpen.
 ---
 
 # Een reis naar Bitcoin's tweede Layer

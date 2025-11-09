@@ -44,9 +44,9 @@ cd bitcoin-learning-management-system
 cp .env.example .env
 ```
 
-- Editez le fichier `.env` en supprimant la partie `.example` du nom. Vous devez maintenant inclure des clés factices pour les variables requises. Exemple :
+- Éditez le fichier `.env` en supprimant la partie `.example` du nom. Vous devez maintenant inclure des clés factices pour les variables requises. Exemple :
 
-⚠️ ***Il s'agit d'une étape obligatoire. Si vous la sautez, des erreurs se produiront, telles que le refus de connexion entre certains conteneurs.***
+⚠️ **Il s'agit d'une étape obligatoire. Si vous la sautez, des erreurs se produiront, telles que le refus de connexion entre certains conteneurs.**
 
 N'oubliez pas d'ajouter votre PAT Github dédié dans le fichier.
 
@@ -64,7 +64,7 @@ SENDGRID_KEY=dummySendgridKey
 
 Assurez-vous d'avoir installé une version appropriée de nodejs. En date du 2024-12, la version 22.12.0 (LTS) a été testée et fonctionne correctement.
 
-⚠️ ***La version de nodejs du dépôt Ubuntu 22.04 est 12.22.9 : trop ancienne pour permettre l'installation de pnpm.***
+⚠️ **La version de nodejs du dépôt Ubuntu 22.04 est 12.22.9 : trop ancienne pour permettre l'installation de pnpm.**
 
 Pour installer nodejs, vous trouverez des instructions [ici](https://nodejs.org/fr/download/package-manager) ; par exemple, vous pouvez choisir d'utiliser la méthode d'installation `nvm`.
 
@@ -107,7 +107,7 @@ Une fois que les conteneurs fonctionnent, accédez au frontend à l'adresse suiv
 
 ![Plan ₿ Academy Local](assets/en/1.webp)
 
-Remarque : l'application se rechargera automatiquement si vous modifiez l'un des fichiers sources.
+**Remarque** : l'application se rechargera automatiquement si vous modifiez l'un des fichiers sources.
 
 **7. Configurer votre schéma de base de données**
 

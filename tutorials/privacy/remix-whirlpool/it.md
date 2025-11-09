@@ -1,12 +1,12 @@
 ---
-name: Remix - Whirlpool
-description: Quanti remix dovrebbero essere fatti su Whirlpool?
+nome: Remix - Whirlpool
+descrizione: Quanti remix dovrebbero essere fatti su Whirlpool?
 ---
 ![cover remix- wp](assets/cover.webp)
 
-***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, lo strumento Whirlpool Stats Tool non è più disponibile per il download, poiché era ospitato sul Gitlab di Samourai. Anche se avevate precedentemente scaricato questo strumento localmente sul vostro computer, o era installato sul vostro nodo RoninDojo, WST non funzionerà al momento. Dipendeva dai dati forniti da OXT.me per il suo funzionamento, e questo sito non è più accessibile. Attualmente, WST non è particolarmente utile poiché il protocollo Whirlpool è inattivo. Tuttavia, rimane possibile che questi software possano essere rimessi in servizio nelle prossime settimane. Inoltre, la parte teorica di questo articolo rimane pertinente per comprendere i principi e gli obiettivi dei coinjoins in generale (non solo Whirlpool), oltre a comprendere l'efficacia del modello Whirlpool. Potrete anche imparare a quantificare il livello privacy ottenuta dai cicli di coinjoin.*
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server avvenuto il 24 aprile, lo strumento Whirlpool Stats Tool non è più disponibile per il download, poiché era ospitato sul Gitlab di Samourai. Anche se avevate precedentemente scaricato questo strumento localmente sul vostro computer, o era installato sul vostro nodo RoninDojo, WST non funzionerà al momento. Dipendeva dai dati forniti da OXT.me per il suo funzionamento, e questo sito non è più accessibile. Attualmente, WST non è particolarmente utile poiché il protocollo Whirlpool è inattivo. Tuttavia, rimane possibile che questi software possano essere rimessi in servizio prossimamente. La parte teorica di questo articolo rimane pertinente per comprendere i principi e gli obiettivi dei coinjoins in generale (non solo Whirlpool), oltre a comprendere l'efficacia del modello Whirlpool. Imparerai a quantificare il livello privacy ottenuta dai cicli di coinjoin.*
 
-_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 
 _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
 
@@ -16,10 +16,10 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 Questa è una domanda che mi viene spesso posta. **Quanti remix dovrebbero essere fatti con Whirlpool per ottenere risultati soddisfacenti?**
 
-Lo scopo del coinjoin è offrire una negabilità plausibile mescolando la tua moneta con un gruppo di monete indistinguibili. L'obiettivo di questa azione è rompere i collegamenti di tracciabilità, sia dal passato al presente che dal presente al passato. In altre parole, un analista che conosce la tua transazione iniziale d'ingresso nei cicli di coinjoin non dovrebbe essere in grado di identificare univocamente il tuo UTXO in uscita dai cicli di remix (analisi dai cicli di ingresso ai cicli di uscita).
+Lo scopo del coinjoin è offrire una negabilità plausibile mescolando la tua moneta con un gruppo di monete indistinguibili. L'obiettivo di questa azione è rompere i collegamenti di tracciabilità, sia dal passato al presente che dal presente al passato. In altre parole, una persona che conosce la tua transazione iniziale d'ingresso nei cicli di coinjoin non dovrebbe essere in grado di identificare univocamente il tuo UTXO in uscita dai cicli di remix (analisi dai cicli di ingresso ai cicli di uscita).
 ![diagramma collegamenti passato-presente](assets/it/1.webp)
 
-Analogamente, un analista che conosce il tuo UTXO d'uscita dai cicli di coinjoin non dovrebbe essere in grado di determinare la transazione originale d'ingresso nei cicli (analisi dai cicli di uscita ai cicli di ingresso).
+Analogamente, una persona che ha accesso al tuo UTXO d'uscita dai cicli di coinjoin non dovrebbe essere in grado di risalire alla transazione originale d'ingresso nei cicli, utilizzando un'analisi che parte dai cicli di uscita per arrivare a quelli di ingresso.
 ![diagramma collegamenti presente-passato](assets/it/2.webp)
 Tuttavia, il numero di remix non è un criterio affidabile per valutare la difficoltà che un analista incontrerebbe, cercando di stabilire collegamenti tra passato e presente, o viceversa. Un indicatore più rilevante sarebbe la dimensione dei gruppi in cui la tua moneta si nasconde. Questi indicatori sono chiamati "anonsets". Nel caso di Whirlpool, ci sono due tipi di anonsets.
 

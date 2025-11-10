@@ -2100,99 +2100,99 @@ Imbuga ategekanijwe akenshi asaba ko usuzuma akaranga kawe imbere yo kugura Bitc
 
 
 
-- Amafaranga menshi yo guhindura no gukura amahera;
-- Hariho ama imbuga agoranye kandi ashobora kugurengera n’ibintu vy’ubudandaji biteye imbere canke altcoins;
-- Ibibazo bikomeye vy’ubuzima bwite.
+- Amafaranga bakata mu kuvunjisha no kubikura amahera;
+- Hariho imbuga zigoye kandi ashobora kugurengera n’ibintu vy’ubudandaji biteye imbere canke altcoins;
+- Ibibazo bikomeye vy’ubuzima bw'ibanga.
 
 
-Ikibi gikomeye cane mu guhinduranya KYC ni ingorane z’ubuzima bwite, bishobora kandi gutuma umutekano wawe bwite uhungabana. KYC iremeza ko abahinduranya amakuru bashobora guhuza akaranga kawe nyakuri n’amaderesi yawe yo gukurako Bitcoin. Aya makuru aba intango nziza yo gusesangura Blockchain. Igihe Address imenyekanye, birashoboka gukurikirana amafaranga yose ajanye, ivyo bikaba bishobora gutuma ubuzima bwite bwawe bwa On-Chain buhungabana. Ata ngingo z’ukwikingira zindi, igikorwa cawe cose ca Bitcoin gishobora gusubirwamwo kuri wewe.
+Ingaruka mbi nyamukuru c'imbuga zisaba KYC ni uko ushobora guhura nibibazo vyo gutegwa mu buzima bwawe bw'ibanga, bishobora kandi gutuma umutekano wawe bwite uhungabana. KYC iremeza ko abahinduranya amakuru bashobora guhuza umwidondoro wawe nyakuri n’amaderesi yawe yo kubikura Bitcoin. Aya makuru aba intango nziza yo gusesangura Blockchain. Igihe Address imenyekanye, birashoboka gukurikirana amafaranga yose ajanye n'iyo aderese, ivyo bikaba bishobora gutuma ubuzima bw'ibanga bwawe On-Chain buhungabana. Ata ngingo z’ukwikingira zindi, igikorwa cawe cose ca Bitcoin gishobora gukurikiranwa kugeza kuri wewe.
 
 
-Ikindi kibazo gikomeye ni uko Leta, ifise uburenganzira bwo gushika ku makuru y’ama platforms ategekanijwe, ishobora kumenya bitagoranye abantu baguze BTC. Naho ivyo vyoshobora gusa n’ibitagira akamaro muri iki gihe, vyoshobora kuba ikibazo iyo hashizweho amategeko agenga ubutunzi canke politike. Ikindi kandi, amashirahamwe ategekanijwe ategerezwa gutanga raporo y’ibikorwa vyose biteye amakenga, ivyo bikaba bituma habaho amahirwe menshi yo gucungera abategetsi ba Leta.
+Ikindi kibazo nyamukuru kiri mukuntu reta ishobora, ifise uburenganzira bwo gushikira mu rutonde rw'amakuru atunganijwe, vyumvikana y'uko leta ishobora kumenya neza abantu baguze bitcoin. Naho ivyo biboneka nk'aho vyoroshe mur'iyi minsi, vyoshobora kuba ikibazo iyo hashizweho amategeko agenga ubutunzi canke politike. Ikindi kandi, amashirahamwe ategekanijwe ategerezwa gutanga raporo y’ibikorwa vyose biteye amakenga, ivyo bikaba bituma habaho amahirwe menshi yo kugenzurwa na reta.
 
 
-Kandi, imbuga za KYC abika amakuru menshi y’agaciro, harimwo IDs n’ibimenyamenya vya Address. Aya makuru akenshi atangazwa n’abandi bajejwe kugenzura akaranga. Iyo urubuga rwaciwe canke rukananirwa, ayo makuru arashobora gushirwa ahabona maze agakoreshwa mu guhenda abantu, mu kugerageza kwiba amahera canke mbere mu kwiba ku mubiri. Mu buryo butandukanye n’ibindi bimenyetso vy’uguhungabanya amakuru, amakuru ajanye na Bitcoin arateye akaga cane cane kuko yoshobora kwerekana ko ufise itunga ry’agaciro.
+Kandi, imbuga za KYC abika amakuru menshi y’agacamutwe, harimwo n'amakarata karangamuntu hamwe n'ama aderese y'abantu. Aya makuru akenshi atangazwa n’abandi bajejwe kugenzura umwidondoro. Iyo urubuga rwinjiriwe canke rukananirwa, ayo makuru arashobora gushirwa ahabona maze agakoreshwa mu guhenda abantu, mu kugerageza kwiba canke guhenda(ubupfungakiwani). Mu buryo butandukanye n’ibindi bimenyetso vy’uguhungabanya amakuru, amakuru ajanye na Bitcoin arateye ikibazo cane cane kuko arashobora kwerekana ko afise ikintu c'agaciro.
 
 
-Rero, birahambaye gutahura ko guca muri KYC atari intambwe ntoyi gusa; **bigira ingaruka ku mutekano wawe bwite**. Intwaro zisaba ivyo bipimo vy’akaranga ntiziriko zirahungabanya gusa uburenganzira bwawe bwa kavukire, ariko kandi ziriko ziragushira mu kaga. Naho gukoresha izo nzira bishobora kugufasha gutangura gukoresha Bitcoin, ukwiye kumenya ingorane zirimwo kandi ukiyumvira gutohoza uburyo butajanye n’ubuhinga bwa KYC kugira ngo uronke Bitcoin mu nyuma.
+Rero, birakenewe cane gutahura ko guca muri KYC atari intambwe isanzwe utoha agaciro; **birashobora kugira ingaruka mbi ku mutekano wawe**. Intwaro zisaba ivyo vyangombwa vy'umwidondoro ntiziriko zirahungabanya gusa uburenganzira bwawe bwa kavukire, ariko kandi ziriko ziragushira mu kaga. Naho gukoresha izo nzira bishobora kugufasha gutangura gukoresha Bitcoin, ukwiye kumenya ingorane zirimwo kandi ukiyumvira gutohoza uburyo butajanye n’ubuhinga bwa KYC kugira ngo uronke Bitcoin udakoze KYC.
 
 
-#### Ukwinjira ata kugenzura akaranga (No-KYC)
+#### Kuronka BTC utabanje gukora KYC (No-KYC)
 
 
-Kugura Bitcoin udatanze umwidondoro kawe ni uburyo bwo guhitamwo ku bashira imbere ubuzima bwite. Ubwo buryo burashobora gukoresha uburyo bwinshi:
+Kugura Bitcoin udatanze umwidondoro wawe ni uburyo bwo guhitamwo ku bashira imbere ubuzima bwite. Ubwo buryo burashobora gukoresha uburyo bwinshi:
 
 
 
-- **Uguhanahana hagati y'abantu babiri (P2P) hagati y’abantu ku giti cabo**: Gugura ataco uhinduye mu mafaranga umuntu wizigira (abagenzi, umuryango, urubuga rwo mu karere, amateraniro...) biririnda amakuru yose yemewe y’ibikorwa vy’ubudandaji kandi bikagukingira kure y’ubuhinga bwa banki. Naho ubu ari bwo buryo bwiza bwo kuronka canke kugurisha Bitcoin, izana n'ingorane zo guterwa ku mubiri kuko ari uguhanahana amaso mu yandi.
+- **Uguhanahana hagati y'abantu babiri (P2P) hagati y’abantu atawubagiye hagati**: Kugura ubwonyene n'amafaranga ku muntu wizeye (abagenzi, umuryango, urubuga rwo mu karere, amateraniro...) biririnda amakuru yose yemewe y’ibikorwa vy’ubudandaji bikurinda abagukurikirana kandi ikujana kure ya sisteme zama banki. Naho ubu ari bwo buryo bwiza bwo kugura canke kugurisha Bitcoin, izana n'ingorane zo kugirirwa nabi mu buryo bw'umubiri kuko ari uguhanahana murikumwe.
   
-- **Imbuga zo guhanahana hagati y'abantu babiri**: Ivyuma nka Bisq, RoboSats na Peach bifasha mu guhanahana amakuru hagati y’abantu ku giti cabo ataco bakeneye kugenzura akaranga, hakoreshejwe uburyo bwo gukingira amafaranga. Izo nzira ziracari zifise ingorane zo kwibwa iyo uwundi adakoranye, ariko ingorane zigabanywa n’ibikorwa vy’ububiko.
+- **Imbuga zo guhanahana hagati y'abantu babiri**: Ivyuma nka Bisq, RoboSats na Peach bifasha mu guhanahana amakuru hagati y’abantu atawubagiye hagati ataco bakeneye kugenzura akaranga, hakoreshejwe uburyo bwo gukingira amafaranga. Izo nzira ziracari zifise ingorane zo kwibwa iyo uwundi adakoranye, ariko ingorane zigabanywa n’ibikorwa vy’ububiko.
   
-- **Ivyuma bitanga amahera y'ama bitcoins (ATMs)**: Amamashini amwe amwe (kiosks) araguha uburenganzira bwo kugura amahera makeya y'ama Bitcoin, naho amafaranga akatwa aba menshi, kandi bisaba umwidondoro ukwiye kugira ukureko amafaranga menshi cane.
+- **Ivyuma bitanga amahera y'ama bitcoins (ATM)**: Amamashini amwe amwe (kiosks) araguha uburenganzira bwo kugura amahera makeya y'ama Bitcoin, naho amafaranga akatwa aba menshi, kandi bisaba umwidondoro ukwiye kugira ukureko amafaranga menshi cane.
   
-- **Ivyuma vya Exchange bitagira KYC**: Ivyuma bimwebimwe, cane cane mu Busuwisi, biguha uburenganzira bwo kugura amahera makeyi ya Bitcoin ataco usaba kugenzura indangamuntu.
+- **Imbuga zo guhanahana zitagira KYC**: Ivyuma bimwebimwe, cane cane mu Busuwisi, biguha uburenganzira bwo kugura amahera makeyi ya Bitcoin udasavye gutnga indangamuntu.
   
-- **Mining**: Abantu ku giti cabo barashobora gucukura Bitcoin. Amamashini ya kera canke mato arashikira, agatanga uburyo butamenyerewe bwo kuronka Bitcoin ata KYC. Mu kwifatanya na Mining pool, urashobora kuronka amahera adasanzwe, mbere n’ibikoresho vy’ishimikiro. Ushaka kumenya vyinshi, [raba inyigisho zacu za Mining](https://planb.network/inyigisho/Mining).
+- **Mining(gucukura)**: Abantu basanzwe barashobora gucukura Bitcoin. Amamashini ya kera canke zidakomeye cane zirahari, agatanga uburyo butamenyerewe bwo kuronka Bitcoin ata KYC. Mu kwifatanya na Mining pool, urashobora kuronka amahera yinjira nurimunsi, mbere n’ibikoresho vy’ishimikiro. Ushaka kumenya vyinshi, [raba inyigisho zacu za Mining](https://planb.network/inyigisho/Mining).
   
-- Ivyishyurwa / Umushahara mu bitcoins**: Niba ukora ubucuruzi, urashobora kwemera Bitcoin nk’ivyishyurwa. Niba ukora, bivanye n'ububasha bwawe, ushobora gusaba ko baguhembwa muri Bitcoin. Ubu buryo buratuma uronka Bitcoin ata KYC.
+- **Guhembwa / Umushahara mu bitcoins**: Niba ukora ubucuruzi, urashobora kwemera Bitcoin nk'amafaranga urihwa. Niba ukora, bivanye n'ububasha bwawe, ushobora gusaba ko baguhembwa muri Bitcoin. Ubu buryo buratuma uronka Bitcoin ata KYC.
 
 
-**Ivyiza** :
-
-
-
-- Bivanye n’uburyo, birafasha kuzigama ubuzima bwite bwawe mu kugabanya amasano ari hagati y’akaranga kawe n’igikorwa cawe ca Bitcoin;
-- Bigabanya ingorane zo gucengera, guhagarika amafaranga, canke kwivanga mu vyo Leta ikora.
-- Ishobora gushika ku Bitcoin no mu bidukikije bitegekanijwe cane.
-
-
-**Ibibi** :
+**Ingaruka nziza** :
 
 
 
-- Kenshi na kenshi biragoye kuruta ama platforms ya KYC;
-- Ivy’amahera bike n’ibikorwa bike;
-- P2P kugura kenshi biza n’amahera y’imbere;
-- Ivyago vyinshi vy’uguhanahana amakuru hagati y’abantu ku giti cabo (ubuhendanyi, ubuhendanyi, gutera, n’ibindi).
+- Bivanye n’uburyo bukoreshejwe, birafasha kurinda ubuzima bw'ibanga bwawe mu kugabanya amasano ari hagati y’akaranga kawe n’igikorwa cawe ca Bitcoin;
+- Bigabanya ingorane zo gucengera, guhagarika amafaranga, canke kwivanga kwa reta muvyo ukora.
+- Igufasha gushika ku Bitcoin no mu bibanza bigendurwa cane.
+
+
+**Ingaruka mbi** :
+
+
+
+- Kenshi na kenshi biragoye kuruta imbuga ya KYC;
+- Imahera abona ni make kandi uguhanahana ni guke;
+- Iyo abantu babiri bahanahanye bikunda kujana nutwo barenzako;
+- Ivyago vyinshi vy’uguhanahana hagati y'abantu babiri (ububeshi, ugucisha ku ruhande, kugirirwa nabi, n'ibindi).
 
 
 ### Ubwoko 4 bw'abakoresha Bitcoin
 
 
-Hashingiwe ku ngingo twavuganye, turashobora kumenya imirongo myinshi y’abakoresha Bitcoin. Ivyo bimenyetso birahinduka kandi birashobora guhinduka, ariko birafasha gusobanura ingamba zibereye ubwoko bumwe bumwe no kukuyobora mu guhitamwo ibikoresho bikwiye.
+Dushingiye kubintu twavuzeko, turashobora kumenya imirwi myinshi y’abakoresha Bitcoin. Ivyo bimenyetso birahinduka kandi birashobora guhinduka, ariko birafasha gusobanura imikenyuro ibereye ubwoko bumwe bumwe no kukuyobora mu guhitamwo ibikoresho bikwiye.
 
 
-#### 1. Umunyahodler
+#### 1. Umunya hodler
 
 
-Uwo hodler ni umushoramari agura Bitcoin afise iciyumviro c’igihe kirekire kandi ntategura kuyikorako imyaka myinshi. Udakunze Stacker, agura ubudasiba uko igihe kigenda kirarenga, Hodler akenshi agura ibintu vyinshi, rimwe na rimwe hanyuma agafata gusa Bitcoin yabo.
-
-
-
-
-Ingamba zikundwa :
+Uwo hodler ni umunyamitahe agura Bitcoin afise iciyumviro c’igihe kirekire kandi ntategura kuyakorako hadaciye imyaka myinshi. Atandukanye n'umu Stacker, agura ubudasiba uko igihe, Hodler akenshi agura nyinshi, hanyuma akabika vyonyene ama bitcoins yiwe.
 
 
 
-- Gugura biciye ku rubuga rwa KYC canke rutari rwa KYC bivanye n’ivyo bakeneye mu vy’ubuzima bwite;
-- Ububiko kuri Hardware Wallet canke gukoresha umuti w’imikono myinshi kugira ngo umuntu agire umutekano mwinshi;
-- amafaranga adasanzwe, bikagabanya ugukorana n’ibidukikije vya Bitcoin.
+
+Imikenyuro ikoreshwa cane :
 
 
-Hodler abona ko Bitcoin ari ububiko bw’agaciro, busa n’umushoramari w’inzahabu y’umubiri. Ingorane nyamukuru bafise ni ukubika neza igitabu cabo ca Bitcoin no kumenya neza ko bashobora kugishikana ku bazungu.
+
+- Kuguera ku mbuga zisaba kugira KYC canke kugura ku mbuga zidakoresha KYC bivanye n'ivyo akaneye ku bijanye n'ubuzima bwiwe bw'ibanga;
+- Ububiko kuri wallet canke gukoresha umuti uburyo bw'imikono myinshi kugira ngo umuntu agire umutekano mwinshi;
+- Guhanahana bidakunda kuba, bikagabanya ugukorana n'igisata ca vya Bitcoin.
+
+
+Uwufise Bitcoin afata iyo bitcoin yiwe nk'ububiko bw'agaciro, busa n’ugushora imitahe w’inzahabu y’umubiri. Ingingo yiwe nyamukuru ni ukubika bitcoin mu mutekano mwinshi no gutegura neza uko azoziraga.
 
 
 #### 2. Uwurundanya
 
 
-Uwuteranya ni umuntu afata uburyo buhoro buhoro, buhoraho. Bagura Bitcoin ubudasiba, kenshi biciye mu nzira y’ugupima igiciro c’amadolari (DCA).Intego yabo ni ugukwiragiza igiciro c’ugugura kwabo mu gihe c’igihe no kugabanya ingaruka z’uguhinduka kwa Bitcoin.
+Uwurundanya ni umuntu afata uburyo buhoro buhoro, kandi ubudasiba. Bagura Bitcoin ubudasiba, kenshi biciye mu nzira y’ugupima igiciro c’amadolari (DCA). yabo ni ugukwiragiza igiciro c’ukugura kwabo mu gihe c’igihe no kugabanya ingaruka z’uguhinduka kw'ibiciro kwa Bitcoin.
 
 
 Ingamba zikundwa :
 
 
 
-- Koresha ugugura kwikora biciye ku rubuga rwa KYC rutanga DCA;
+- Koresha ukugura kwikora biciye ku rubuga rwa KYC rutanga DCA;
 - Gutanga amafaranga ubudasiba muri Hardware Wallet kugira ngo abikwe neza ;
 - Igira ivyiyumviro bibereye ku bijanye n’ubuzima bwite ariko ishira imbere umutekano n’ukworohereza kwirundanira.
 

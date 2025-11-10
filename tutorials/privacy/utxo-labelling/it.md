@@ -1,10 +1,10 @@
 ---
-name: Labelling UTXO
-description: Come etichettare correttamente i tuoi UTXO
+nome: Labelling UTXO
+descrizione: Come etichettare correttamente i tuoi UTXO
 ---
 ![cover](assets/cover.webp)
 
-In questo tutorial affronteremo tutto ciò che devi sapere sulla cosiddetta "UTXO labelling" nel tuo wallet Bitcoin e sulla gestione degli stessi. Inizieremo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principali wallet Bitcoin.
+In questo tutorial affronteremo tutto ciò che devi sapere sulla cosiddetta "UTXO labelling" nel tuo wallet Bitcoin e sulla loro gestione. Inizieremo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principali wallet Bitcoin.
 
 ## Cos'è il Labelling degli UTXO?
 
@@ -22,25 +22,25 @@ Riprendendo l’esempio di prima: supponiamo di aver ricevuto un UTXO no-KYC tra
 ## Come etichettare correttamente gli UTXO?
 
 Non esiste un metodo universale per etichettare adeguatamente gli UTXO. Sta a te definire un sistema di labelling che ti aiuti a orientarti facilmente nel tuo wallet.
-Un criterio fondamentale nel labelling è la provenienza dell'UTXO. Dovresti semplicemente indicare come questo UTXO è arrivato nel tuo wallet. Proviene da un'exchange? Dal pagamento di una fattura da parte di un cliente? Da uno scambio peer-to-peer? O rappresenta il resto di un acquisto? Così, potresti specificare:
+Un criterio fondamentale nel labelling è la provenienza dell'UTXO. Dovresti semplicemente indicare come questo UTXO è arrivato nel tuo wallet. Proviene da un'exchange? Dal pagamento di una fattura da parte di un cliente? Da uno scambio peer-to-peer? Rappresenta il resto di un acquisto? Così, potresti specificare:
 
 - "Prelievo Exchange.com";
 - "Pagamento Cliente David";
 - "Acquisto P2P Charles";
 - "Resto dall'acquisto del divano".
-- 
+
 ![labelling](assets/it/1.webp)
 
 Per gestire meglio i tuoi UTXO e organizzare in modo più efficiente i fondi nel wallet, puoi aggiungere alle etichette un indicatore che ne evidenzi la funzione. Se hai UTXO destinati a usi diversi e preferisci non mescolarli, puoi includere un identificatore per distinguerli facilmente.
 
 Questi indicatori dipenderanno dai tuoi criteri, come la distinzione tra UTXO KYC (associati alla tua identità) e no-KYC (anonimi), o tra fondi professionali e personali. Riprendendo gli esempi delle etichette precedentemente menzionate:
 
-- "KYC - Prelievo Exchange.com";
-- "KYC - Pagamento Cliente David";
-- "NO KYC - Acquisto P2P Charles";
-- "NO KYC - Resto dall'acquisto del divano".
+- `KYC - Prelievo Exchange.com`;
+- `KYC - Pagamento Cliente David`;
+- `NO KYC - Acquisto P2P Charles`;
+- `NO KYC - Resto dall'acquisto del divano`.
 
-In ogni caso, tieni presente che un'etichetta valida è quella che saraiin grado di comprendere quando ne avrai bisogno. Se il wallet è principalmente destinato al tenere i fondi di risparmio, potrebbe essere che le etichette siano utili solo tra diversi anni. Assicurati dunque che siano chiare, precise e complete.
+In ogni caso, tieni presente che un'etichetta valida è quella che sarai in grado di comprendere quando ne avrai bisogno. Se il wallet è principalmente destinato al tenere i fondi di risparmio, potrebbe essere che le etichette siano utili solo tra diversi anni. Assicurati dunque che siano chiare, precise e complete.
 
 È inoltre consigliabile mantenere l'identificatore di un UTXO attraverso le transazioni. Ad esempio, durante un consolidamento di UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come "consolidamento", ma specificamente come "consolidamento no-KYC" per mantenere una traccia chiara dell'origine dell'UTXO.
 

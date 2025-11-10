@@ -628,10 +628,10 @@ Bitcoin itanga uburyo bwo kwirundanira no kuzigama umutungo mu kiringo kirekire 
 *Ivyashikirijwe: Ikigo ca Ludwig von Mises*
 
 
-**Impanuro n'Ivyiyumviro vy'Ishingiro**
+**intererano n'Ivyiyumviro vy'Ishingiro**
 
 
-Abo bazirikana ni bo bashinze iciyumviro c’uko Leta igira ico ikoze bigoramye amasoko be n’uko umwidegemvyo mu vy’ubutunzi ari ngirakamaro kugira ngo umuntu atere imbere kandi ashobore guhuza ibikorwa vy’abantu. Ivyo bamenye birerekana akamaro ko gufata ingingo zishingiye ku rwego rwo hejuru n’akaga ko kugenzura ahantu hamwe mu mice y’ubutunzi.
+Abo banyabwenge ni bo bashinze iciyumviro c’uko Leta igira uruhara mwikora nabi ry'amasoko be n’uko umwidegemvyo mu vy’ubutunzi ari ngirakamaro kugira ngo umuntu atere imbere kandi ashobore guhuza ibikorwa vy’abantu. Ivyo bamenye birerekana akamaro ko gufata ingingo zishingiye ku rwego rwo hejuru n’akaga ko kugenzura birengeje mu mice y’ubutunzi.
 
 
 Ushaka kumenya vyinshi kuri iyi nkuru:
@@ -643,37 +643,37 @@ https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-## Gufata Bitcoin mu bubiko
+## Gufita Bitcoin mu bubiko
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
 
 
 
-### Ingorane z'itunga ry'ishirahamwe
+### Ingorane z'ububiko bw'ubutunzi mu nganda
 
 
-Itunga ni ahantu umuntu ashira ibintu vy’agaciro. Sosiyete ifise amagara meza irafise amafaranga akwiye kugira ngo ishobore guhangana n’ukudakeka kwo muri kazoza no gutegura ivyo ishora. Muri iki gihe, igice c’itunga rirenze urugero gishirwa mu bintu vy’amahera bivugwa ko ari “Liquid” nyinshi cane, nk’amabondi, amafaranga y’ibizigamirwa y’igihe kirekire n’ibindi.
+Isaho(ububiko) ni ahantu umuntu ashira ibintu vy’agaciro. Sosiyete ifise imeze neza irafise amafaranga akwiye kugira ngo ishobore guhangana n’ukudakeka kwo muri kazoza no gutegura ivyo ishora. Muri iki gihe, igice c’itunga rirenze urugero gishirwa mu bintu vy’amahera bivugwa ko ari “Liquid” nyinshi cane, nk’amabondi, amafaranga y’ibizigamirwa y’igihe kirekire n’ibindi.
 
 
-Kubera igihe kirekire cane, amashirahamwe amwe amwe akoresha ibintu bitagira amahera nk’amazu n’ibindi bibanza ataco azi ku bibazo bimwebimwe:
+Kubera igihe kirekire cane, amashirahamwe amwe amwe ashiramwo yamahera atagaragara nkamahera y’amazu n’ibindi batazi ingorane zoba zirimwo:
 
 
 - Ubukene bw'amahera iyo habaye ingorane
-- Amaherezo ahubwo inyungu nke iyo amafaranga akuweko
-- Ivyiza bitarenze inflation nyayo, iyo amahera Supply (~7% ku mwaka, raba munsi)
-- Ico kibazo gihishijwe c’uko amazu n’ibindi bibanza atakaza igice c’igikorwa cayo co “kuzigama” ku nyungu y’itunga nka Bitcoin. Ivyo vyatumye rishobora gusubira hafi y’“agaciro karyo ko gukoresha”: gutanga uburaro.
+- Umwimbu  muke iyo habaye amakori
+- Umwimbu nturenga iduga ryibiciro, ya mahera azunguruka mugihugu (~7% ku mwaka, raba munsi)
+- Ico kibazo kinyegejwe  c’uko amazu n’ibindi bibanza atakaza igice c’igikorwa cayo co “kuzigama” ku nyungu y’itunga nka Bitcoin. Ivyo vyatumye rishobora gusubira hafi y’“agaciro karyo ko gukoresha”: gutanga uburaro.
 
 
-Reka twihute gusubiramwo ibidukikije aho ubudandaji bukorera.
+Reka twihute gusubiramwo mubibanza aho inganda zikorera.
 
 
-**Inflation nyayo**: Kubera ko amabanki akomeye atera ubwoba cane, ashaka gutera 2% ku mwaka, bisobanura ko amafaranga azotakaza 40% mu myaka 20. Wongereyeko mu bihe vy’ugutera imbere kw’ibiciro gukomeye cane, biragaragara neza ko amashirahamwe adashobora gukoresha amahera yonyene kugira ngo abike ivyamwa vy’ibikorwa vyayo. Bategerezwa gushira mu ngiro ingamba z’ivy’ubutunzi zigoye, zijana n’ingorane zitandukanye. Izo ngabire ziragaragara ko **zidashobora gushikirwa n’ubudandaji buto cane**, busanzwe bufise ibikorwa vyinshi vy’ingenzi.
+**Ukuduga kwibiciro nyako**: Kubera ko amabanki akomeye atera ubwoba cane, ategekanya iduga ryibiciro ringana na 2% ku mwaka, bisobanura ko amafaranga azotakaza 40% mu myaka 20. Wongereyeko mu bihe vy’ugutera imbere kw’ibiciro gukomeye cane, biragaragara neza ko amashirahamwe adashobora gukoresha amahera yonyene kugira ngo abike ivyamwa vy’ibikorwa vyayo. Bategerezwa gushira mu ngiro ingamba z’ivy’ubutunzi zigoye, zijana n’ingorane zitandukanye. Izo ngabire ziragaragara ko **zidashobora gushikirwa n’ubudandaji buto cane**, busanzwe bufise ibikorwa vyinshi vy’ingenzi.
 
 
-**Iterambere ry’ibiciro ryihishijwe**: Mu buryo bw’amahera bushingiye ku myenda, bushingiye ku bice vy’amahera bushigikiwe n’amabanki akomeye, **amahera yose hamwe Supply akura nk’ibice 7% ku mwaka ku mwanya** (nk’akarorero, M1 mu karere k’amahera y’Ubumwe bw’Uburayi canke muri Amerika). Ivyo bisigura ko “umugabane wawe w’umukate” ugabanywamwo ibice bibiri mu myaka mikeyi gusa—kiretse iyo ufise agateka ko gushika ku nzira y’amahera kandi ukaba ushobora kubandanya gukura mu gukoresha no kugura ivy’ubutunzi vyihuse ku “bici- ro vya kera” imbere y’uko amahera mashasha yaremwe abijana hejuru. Ivyo ni vyo bitera Cantillon effect, bikaba bisigura igice c’ugushira ubutunzi ku batunzi cane, mu gihe “umutungo” ushirwako umugayo mu buryo butari bwo ko ari wo utera (raba intangamarara yacu ku mutungo iri hejuru).
+**Iduga ry’ibiciro ryihishijwe**: Mu buryo bw’amahera bushingiye ku madeni, bushingiye ku bice vy’amahera bushigikiwe n’amabanki akomeye, **amahera yose hamwe azunguruka mubantu aduga ibice bishika kuri 7% ku mwaka ku mwanya** (nk’akarorero, M1 mu karere k’amahera y’Ubumwe bw’Uburayi canke muri Amerika). Ivyo bisigura ko “umugabane wawe wumwimbu” ugabanywamwo ibice bibiri mu myaka mikeyi gusa—kiretse iyo ufise agateka ko gushika ku nzira y’amahera kandi ukaba ushobora kubandanya gukura mu gukoresha no kugura ivy’ubutunzi vyihuse ku “biciro vya kera” imbere y’uko amahera mashasha yaremwe ajana hejuru ibiciro. Ivyo ni vyo bitera Cantillon effect, bikaba bisigura igice c’ugushira ubutunzi ku batunzi cane, mu gihe “umutungo” ushirwako umugayo mu buryo butari bwo ko ari wo utera (raba intangamarara yacu ku mutungo iri hejuru).
 
 
-**Ivyago vy’abafatanyabikorwa**: Uburyo bw’ivy’ubutunzi buriho ubu burafise akaga, kandi woshobora kutama ushobora kuronka “amahera yawe.” Hatavuzwe ishusho y’inzu y’amakarata, bitegerezwa kwemerwa ko ibigo vy’imari bifata inyungu zikaba ivy’abantu ku giti cabo, bigatuma ibihombo bihinduka ivy’abantu mu gihe habaye ingorane ntoyi. Mu rutonde rw’amahera “yo mu Vyanditswe” (amahera yanditswe mu gitabu Ledger), amahera ari muri banki ni “ugusaba” gusa; ntuyifise vy’ukuri, kandi amabanki ubwayo “ntayo afise” (amafaranga y’ububiko bw’imice). Aya mahera, mu buryo bumwe, ni amageza vy’ukuri. Amabanki amwe amwe y’icubahiro yahora atwengera mw’ijigo Bitcoin ntagihari uno musi, nka Credit Suisse.
+**Ivyago vy’igice gihishije**: Uburyo bw’ivy’ubutunzi buriho ubu burafise akaga, kandi woshobora kutama ushobora kuronka “amahera yawe.” Hatavuzwe ishusho y’inzu y’amakarata, bitegerezwa kwemerwa ko ibigo vy’imari bifata inyungu zikaba ivy’abantu ku giti cabo, bigatuma ibihombo bihinduka ivy’abantu mu gihe habaye ingorane ntoyi. Mu rutonde rw’amahera “yo mu Vyanditswe” (amahera yanditswe mu gitabu Ledger), amahera ari muri banki ni “ugusaba” gusa; ntuyifise vy’ukuri, kandi amabanki ubwayo “ntayo afise” (amafaranga y’ububiko bw’imice). Aya mahera, mu buryo bumwe, ni amageza vy’ukuri. Amabanki amwe amwe y’icubahiro yahora atwengera mw’ijigo Bitcoin ntagihari uno musi, nka Credit Suisse.
 
 
 Ukwo kubura ukwizigirana gutangura ukuzuka kw’itunga “ry’abatwaye” nk’inzahabu (naho bigoye kubungabunga, gutwara, no kugabanya, n’ibindi) kandi, birumvikana, Bitcoin, uwushasha.

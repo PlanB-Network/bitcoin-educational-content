@@ -789,165 +789,89 @@ Namun, setiap aplikasi di Store mempertahankan lisensinya sendiri, yang seringka
 
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
-Sekarang setelah kita memiliki semua informasi yang diperlukan, sekarang saatnya untuk mempelajari detailnya. Dalam tutorial ini, kami akan menunjukkan kepada Anda cara menginstal node Bitcoin secara lengkap menggunakan UmbrelOS.
-
-
+Setelah kita memiliki semua informasi yang diperlukan, sekarang saatnya untuk mempelajari detailnya. Dalam tutorial ini, kami akan menunjukkan kepada Anda cara menginstal Node Bitcoin secara lengkap menggunakan UmbrelOS.
 
 ### Bahan yang dibutuhkan
 
+Di sini, kita akan menggunakan image UmbrelOS x86 (lebih tepatnya, versi x86_64). Anda dapat mengikuti panduan ini pada mesin apa pun yang Anda pilih, selama mesin tersebut tidak dilengkapi dengan prosesor arsitektur ARM (bukan Apple Silicon, Raspberry Pi, dll.). Ini berarti bahwa komputer apa pun dengan prosesor Intel atau AMD 64-bit sudah cukup, asalkan memenuhi persyaratan minimum, tergantung pada bagaimana Anda berniat menggunakan Umbrel Anda (disarankan setidaknya prosesor dual-core).
 
-
-Di sini, kita akan menggunakan image UmbrelOS x86 (lebih tepatnya, versi x86_64). Anda bisa mengikuti panduan ini pada mesin apa pun yang Anda pilih, asalkan tidak dilengkapi dengan prosesor berarsitektur ARM (bukan Apple Silicon, Raspberry Pi, dll.). Ini berarti bahwa komputer apa pun dengan prosesor Intel atau AMD 64-bit sudah cukup, selama memenuhi persyaratan minimum, tergantung pada bagaimana Anda ingin menggunakan Umbrel Anda (setidaknya disarankan prosesor dual-core).
-
-
-
-Jika Anda memilih Raspberry Pi 5 (opsi yang tidak saya rekomendasikan, seperti yang disebutkan di bagian sebelumnya), penginstalannya sedikit berbeda. Anda kemudian dapat mengikuti tutorial khusus ini dan kembali ke kursus saya sekali di web Interface `http://umbrel.local`:
-
-
+Jika Anda memilih Raspberry Pi 5 (opsi yang tidak saya rekomendasikan, seperti yang disebutkan di bagian sebelumnya), pemasangannya sedikit berbeda. Anda dapat mengikuti tutorial khusus ini dan kembali ke kursus saya setelah berada di Interface web 'http://umbrel.local': 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Seperti yang telah disebutkan di bagian sebelumnya, saya memilih untuk menjalankan tutorial ini di sebuah PC kecil yang telah diperbaharui yang saya temukan dengan harga terjangkau: *Lenovo ThinkCentre M900 Tiny* yang dilengkapi dengan prosesor Intel Core i7 dan RAM 16 GB. Ini adalah konfigurasi yang sangat nyaman untuk menjalankan Umbrel, terutama untuk node Bitcoin. Namun, saya memilih konfigurasi ini karena saya ingin memasang node Lightning dan aplikasi lain yang lebih berat nantinya. Saya juga menambahkan SSD 2TB ke ThinkCentre saya untuk mempertahankan Blockchain secara penuh dan masih memiliki margin yang nyaman. Dengan konfigurasi ini, total biaya yang dikeluarkan adalah €270, sudah termasuk semua pengeluaran.
 
-
+Seperti yang disebutkan di bagian sebelumnya, saya memilih untuk menjalankan tutorial ini pada PC kecil refurbished  yang saya temukan dengan harga bagus: _Lenovo ThinkCentre M900 Tiny_ dilengkapi dengan prosesor Intel Core i7 dan RAM 16 GB. Ini adalah konfigurasi yang sangat nyaman untuk menjalankan Umbrel, terutama untuk Node Bitcoin. Namun, saya memilih konfigurasi ini karena saya ingin memasang Node Lightning dan aplikasi lain yang lebih berat di kemudian hari. Saya juga telah menambahkan SSD 2TB ke ThinkCentre saya untuk mempertahankan Blockchain penuh dan masih memiliki margin yang nyaman. Dengan konfigurasi ini, total biayanya adalah €270, termasuk semua pengeluaran.
 
 ![Image](assets/fr/001.webp)
 
+Saya sangat menyukai lini ThinkCentre Tiny dari Lenovo, karena mesinnya ringkas, senyap, dan sangat tangguh. Komputer-komputer ini sangat populer di kalangan bisnis dan oleh karena itu berlimpah di pasar barang bekas, di mana Anda dapat menemukan konfigurasi yang menarik antara €70 hingga €200.
 
-
-Saya sangat menyukai jajaran ThinkCentre Tiny dari Lenovo, karena mereka adalah mesin yang ringkas, tidak berisik, dan sangat kuat. Komputer-komputer ini sangat populer di kalangan bisnis dan oleh karena itu berlimpah di pasar barang bekas, di mana Anda bisa menemukan konfigurasi menarik antara €70 dan €200.
-
-
-
-Jika, seperti saya, Anda memilih PC tanpa monitor, **Anda hanya perlu menyambungkan monitor dan keyboard** selama proses instalasi. Setelah itu, Anda akan dapat mengaksesnya dari jarak jauh dari komputer lain di jaringan yang sama (atau melalui metode lain yang akan kita bahas di bab selanjutnya). Anda juga memerlukan kabel Ethernet RJ45 untuk menghubungkan mesin Anda ke jaringan lokal, dan kunci USB minimal 4 GB untuk menyimpan image instalasi.
-
-
+Jika, seperti saya, Anda memilih PC tanpa monitor, **Anda hanya perlu menghubungkan monitor dan keyboard** selama durasi instalasi. Setelah itu, Anda akan dapat mengaksesnya dari jarak jauh dari komputer lain di jaringan yang sama (atau melalui metode lain yang akan kita bahas di bab-bab selanjutnya). Anda juga akan membutuhkan kabel Ethernet RJ45 untuk menghubungkan mesin Anda ke jaringan lokal, dan Flashdrive USB  minimal 4 GB untuk menyimpan image instalasi.
 
 Sebagai rangkuman, berikut ini adalah persyaratan peralatannya:
-
-
-
 
 - Komputer dengan prosesor x86_64 (minimal Dual-core, disarankan Quad-core);
 - Memori RAM (minimum 4 GB, disarankan 8 GB atau lebih untuk penggunaan yang lama);
 - SSD (disarankan + 2 TB);
-- Kunci USB (+ 4 GB) untuk penginstalan citra UmbrelOS;
+- Flashdrive USB (+ 4 GB) untuk penginstalan image UmbrelOS;
 - Monitor dan keyboard (hanya berguna untuk instalasi awal jika PC tidak dilengkapi dengan monitor);
 - Kabel Ethernet RJ45.
 
-
-
 ### Langkah 1 - Memasang komputer
 
-
-
-Tergantung pada perangkat keras yang Anda pilih, langkah pertama adalah merakit berbagai komponen komputer Anda. Sebagai contoh, dalam kasus saya, SSD asli hanya berkapasitas 256 GB, jadi saya akan mendaur ulang untuk penggunaan lain dan menggantinya dengan SSD 2 TB. Jika Anda juga ingin mengganti modul RAM, sekaranglah saatnya untuk melakukannya.
-
-
+Tergantung pada hardware yang telah Anda pilih, langkah pertama adalah merakit berbagai komponen komputer Anda. Misalnya, dalam kasus saya, SSD asli hanya memiliki kapasitas 256 GB, jadi saya akan menggantinya untuk penggunaan lain dan menggantinya dengan SSD 2 TB. Jika Anda juga ingin mengganti modul RAM, sekaranglah saatnya untuk melakukannya.
 
 ### Langkah 2: Siapkan kunci USB yang dapat di-boot
 
-
-
-Sebelum menginstal UmbrelOS pada mesin Anda, Anda perlu membuat kunci USB yang dapat di-boot yang berisi sistem operasi. Semua langkah pada langkah 2 harus dilakukan pada komputer pribadi Anda (dan tidak langsung pada komputer yang akan menjadi node Anda).
-
-
-
+Sebelum menginstal UmbrelOS di mesin Anda, Anda perlu membuat Flashdrive USB yang dapat booting yang berisi sistem operasi. Semua langkah di langkah 2 harus dilakukan di komputer pribadi Anda (dan tidak langsung di komputer yang ditujukan untuk menjadi node Anda).
 
 
 - Mulailah dengan mengunduh versi terbaru UmbrelOS dalam format USB:
 
-
-
-Kunjungi [situs web resmi Umbrel untuk mengunduh citra ISO] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) untuk instalasi melalui kunci USB. Pastikan Anda memilih versi yang kompatibel dengan arsitektur x86_64 (file bernama `umbrelos-amd64-usb-installer.iso`). Pengunduhan mungkin memerlukan waktu, karena gambarnya cukup besar.
-
-
+[Buka situs web resmi Umbrel untuk mengunduh image ISO dalam format USB](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) untuk instalasi melalui USB key. Pastikan Anda memilih versi yang kompatibel dengan arsitektur x86_64 (file bernama `umbrelos-amd64-usb-installer.iso`). Pengunduhan mungkin memakan waktu, karena image-nya cukup besar.
 
 ![Image](assets/fr/002.webp)
 
+- Instal Balena Etcher:
 
-
-
-
-- Pasang Balena Etcher:
-
-
-
-Untuk membuat stik USB yang dapat di-booting, Anda akan menggunakan alat sederhana lintas platform yang disebut [Balena Etcher](https://www.balena.io/etcher/). Unduh dan instal di komputer Anda.
-
-
+Untuk membuat Flashdrive USB yang dapat booting, Anda akan menggunakan aplikasi cross-platform yang sederhana bernama [Balena Etcher](https://www.balena.io/etcher/). Unduh dan install di komputer Anda.
 
 ![Image](assets/fr/003.webp)
 
+- Masukkan Flashdrive USB kosong minimal 4 GB:
 
+Sambungkan Flashdrive USB ke komputer Anda (komputer yang baru saja mengunduh image UmbrelOS dan Balena Etcher). **Peringatan: semua data pada Flashdrive akan terhapus**. Pastikan Flashdrive tersebut tidak berisi file penting.
 
+- Burn Image ISO ke USB Stick dengan Balena Etcher:
 
-
-- Masukkan kunci USB kosong minimal 4 GB:
-
-
-
-Colokkan kunci USB ke komputer Anda (komputer yang baru saja mengunduh gambar UmbrelOS dan Balena Etcher). **Peringatan: semua data pada kunci akan terhapus**. Pastikan kunci tersebut tidak berisi file penting.
-
-
-
-
-
-- Bakar citra ISO ke stik USB dengan Balena Etcher:
-
-
-
-Luncurkan Balena Etcher dan pilih file ISO `umbrelos-amd64-usb-installer.iso` yang baru saja Anda unduh dengan mengeklik tombol "*Flash from file*". Kemudian, pilih kunci USB sebagai perangkat target dan klik "*Flash!*" untuk mulai menulis.
-
-
+Jalankan Balena Etcher dan pilih file ISO 'umbrelos-amd64-usb-installer.iso' yang baru saja Anda unduh dengan mengeklik tombol "Flash from file". Kemudian, pilih Flashdrive USB sebagai perangkat target dan klik "Flash!" untuk memulai proses.
 
 ![Image](assets/fr/004.webp)
 
-
-
-Setelah operasi selesai, Anda akan memiliki kunci USB yang dapat di-boot yang berisi UmbrelOS, siap untuk mem-boot dan menginstal Umbrel di mesin Anda.
-
-
+Setelah operasi selesai, Anda akan memiliki Flashdrive USB yang dapat booting yang berisi UmbrelOS, siap untuk mem-boot dan menginstal Umbrel di mesin Anda.
 
 ![Image](assets/fr/005.webp)
 
-
-
-### Langkah 3: Mem-boot komputer dari kunci USB
-
-
+### Langkah 3: Mem-boot komputer dari flashdrive USB
 
 Sekarang stik USB yang dapat di-boot yang berisi UmbrelOS telah siap, Anda dapat mem-boot komputer Anda ke stik USB tersebut untuk memulai instalasi sistem. Cabut kunci USB dari komputer utama Anda dan masukkan ke dalam perangkat tempat Anda ingin menginstal Umbrel dan node Bitcoin.
 
+Sekarang setelah USB stick Anda yang dapat booting yang berisi UmbrelOS siap, Anda dapat boot komputer Anda kembali untuk memulai instalasi sistem. Cabut USB stick dari komputer utama Anda dan masukkan ke perangkat tempat Anda ingin menginstal Umbrel dan Node Bitcoin Anda.
 
+Seperti yang dijelaskan di awal bab ini, untuk menyelesaikan instalasi, Anda memerlukan perangkat layar dan perangkat input. Hubungkan layar melalui HDMI (atau port lain, tergantung pada PC Anda) dan hubungkan keyboard melalui USB ke mesin Anda. Perangkat ini hanya diperlukan untuk instalasi; Anda tidak akan membutuhkannya setelahnya, karena Umbrel akan diakses dari jarak jauh dari komputer lain. Hubungkan kedua perangkat ini ke PC Anda.
 
-Seperti yang dijelaskan di awal bab ini, untuk menyelesaikan instalasi, Anda memerlukan perangkat tampilan dan perangkat input. Hubungkan layar melalui HDMI (atau port lain, tergantung pada PC Anda) dan sambungkan keyboard melalui USB ke komputer Anda. Perangkat-perangkat ini hanya diperlukan untuk instalasi; Anda tidak akan memerlukannya setelah itu, karena Umbrel akan diakses dari jarak jauh dari komputer lain. Hubungkan kedua perangkat ini ke PC Anda.
-
-
-
-**Saran:** Jika Anda tidak memiliki layar periferal di rumah, Anda bisa menggunakan TV. Dengan input HDMI (atau lainnya), ini bisa digunakan sebagai layar sementara sementara Anda menginstal sistem operasi.
-
-
+**Saran:** Jika Anda tidak memiliki layar monitor di rumah, Anda dapat menggunakan TV Anda. Dengan input HDMI (atau lainnya), TV dapat digunakan sebagai layar sementara saat Anda memasang sistem operasi.
 
 Umbrel jelas membutuhkan koneksi Internet. Sambungkan kabel Ethernet RJ45 antara perangkat Anda dan router.
 
-
-
 ![Image](assets/fr/006.webp)
 
-
-
-Nyalakan mesin Anda. Pada sebagian besar kasus, komputer akan secara otomatis mendeteksi kunci USB dan melakukan booting. Anda kemudian akan melihat layar instalasi UmbrelOS Interface muncul.
-
-
+Nyalakan mesin Anda. Dalam kebanyakan kasus, mesin akan secara otomatis mendeteksi USB stick dan boot darinya. Anda kemudian akan melihat layar instalasi Interface UmbrelOS muncul.
 
 Jika perangkat melakukan booting pada sistem lain atau menampilkan pesan kesalahan, ini mungkin berarti perangkat tidak melakukan booting secara otomatis dari kunci USB. Dalam kasus ini, boot ulang dan masuk ke pengaturan BIOS/UEFI (biasanya diakses dengan menekan `DEL`, `F2`, `F12`, atau `ESC`, tergantung pada produsen komputer). Kemudian, ubah urutan boot untuk memprioritaskan kunci USB. Kemudian hidupkan ulang perangkat untuk meluncurkan UmbrelOS.
 
-
-
 ### Langkah 4: Instal UmbrelOS di komputer Anda
-
-
 
 Setelah perangkat melakukan booting dari stik USB, Anda akan disambut oleh instalasi Interface UmbrelOS. Langkah ini melibatkan penginstalan sistem secara langsung ke disk Hard internal mesin Anda.
 

@@ -45,6 +45,7 @@ and verify the PGP signature of the release with the keys: [Wasabi Docs](https:/
 The deployment details differ depending on hardware (CPU-architecture) and OS choice, below the different details are given for a Raspberry Pi (ARM-64) with Debian-based RaspiBlitz as starting point. Skip ahead for (X86-64) Ubuntu OS deployment using Nix.
 
 ### RaspiBlitz/Debian deployment:
+
 For RaspiBlitz (tested with v1.11) nodes a deployment script building from source code can be used: [home.admin/config.scripts/bonus.wasabi.sh](https://github.com/kravens/raspiblitz/blob/dev/home.admin/config.scripts/bonus.wasabi.sh)
 
 ```
@@ -256,6 +257,7 @@ fi
 ```
 
 ### Ubuntu+Nix deployment: 
+
 #TODO Update for Bitcoin Core v29.0 instead of Knots
 and use latest Wasabi Wallet release (including onion service)
 

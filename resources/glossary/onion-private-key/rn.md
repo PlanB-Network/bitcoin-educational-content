@@ -1,5 +1,5 @@
 ---
-ijambo: ONION_PRIVATE_KEY
+term: ONION_PRIVATE_KEY
 
 ---
 

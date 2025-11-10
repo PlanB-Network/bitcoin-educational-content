@@ -1,5 +1,5 @@
 ---
-ijambo: OP_0NOTEQUAL (0X92)
+term: OP_0NOTEQUAL (0X92)
 
 ---
 

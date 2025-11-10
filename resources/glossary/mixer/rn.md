@@ -1,5 +1,5 @@
 ---
-ijambo: UMUVANGI
+term: UMUVANGI
 
 ---
 

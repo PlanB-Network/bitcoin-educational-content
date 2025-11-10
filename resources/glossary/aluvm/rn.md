@@ -1,5 +1,5 @@
 ---
-ijambo: ALUVM
+term: ALUVM
 
 ---
 

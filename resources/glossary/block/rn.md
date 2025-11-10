@@ -1,5 +1,5 @@
 ---
-ijambo: BLOCK
+term: BLOCK
 
 ---
 

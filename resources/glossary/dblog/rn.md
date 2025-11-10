@@ -1,5 +1,5 @@
 ---
-ijambo: DB.LOG
+term: DB.LOG
 
 ---
 

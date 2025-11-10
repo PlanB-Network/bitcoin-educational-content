@@ -1,5 +1,5 @@
 ---
-기간입니다: LIGHTNING NODE
+term: LIGHTNING NODE
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: CAHOOTS
+term: CAHOOTS
 
 ---
 

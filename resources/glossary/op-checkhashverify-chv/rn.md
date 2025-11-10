@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CHECKHASHVERIFY (CHV)
+term: OP_CHECKHASHVERIFY (CHV)
 
 ---
 

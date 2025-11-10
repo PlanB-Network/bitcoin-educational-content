@@ -1,12 +1,12 @@
 ---
-name: Introducción Teórica a la Red Lightning
+name: Teoría de Lightning Network
 goal: Descubrir la Red Lightning desde una perspectiva técnica
 objectives:
-  - Entender el funcionamiento de los canales de la red.
-  - Familiarizarse con los términos HTLC, LNURL y UTXO.
-  - Asimilar la gestión de la liquidez y las comisiones de la LNN.
-  - Reconocer la Red Lightning como una red.
-  - Entender los usos teóricos de la Red Lightning.
+- Entender el funcionamiento de los canales de la red.
+- Familiarizarse con los términos HTLC, LNURL y UTXO.
+- Asimilar la gestión de la liquidez y las comisiones de la LNN.
+- Reconocer la Red Lightning como una red.
+- Entender los usos teóricos de la Red Lightning.
 ---
 
 # Un Viaje hacia la Segunda Capa de Bitcoin

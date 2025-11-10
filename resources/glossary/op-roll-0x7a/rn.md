@@ -1,5 +1,5 @@
 ---
-ijambo: OP_ROLL (0X7A)
+term: OP_ROLL (0X7A)
 
 ---
 

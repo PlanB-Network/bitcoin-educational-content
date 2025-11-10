@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CHECKSIGVERIFY (0XAD)
+term: OP_CHECKSIGVERIFY (0XAD)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: ZEROCONF
+term: ZEROCONF
 
 ---
 

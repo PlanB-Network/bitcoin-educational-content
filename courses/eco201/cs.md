@@ -1,21 +1,18 @@
 ---
-name: Úvod do rakouské ekonomie
-goal: Objevte školu rakouského ekonomického myšlení. Studujte jejich pohledy na společnost a makro/mikroekonomické reality.
+name: Základy rakouské ekonomické školy
+goal: Objevte rakouskou ekonomii jako alternativní rámec pro analýzu trhů a individuálního rozhodování
 objectives:
-  - Alternativa k Keynesiánství
-  - Význam tvrdé měny
-  - Proč a jak jsou naše ekonomické cykly vytvářeny?
-  - Proč se centrální bankéři zbláznili?
+- Analyzovat funkce peněz, úvěru a systémů centrálního bankovnictví
+- Aplikovat teorii subjektivní hodnoty a časové preference na tržní chování
+- Porozumět rakouské teorii hospodářského cyklu a jejím příčinám
+- Porovnat rakouskou metodologii s mainstreamovými ekonomickými přístupy
 ---
+# Cesta k rakouské ekonomii
 
-# Cesta do světa ekonomie
+Přemýšleli jste někdy, proč někteří ekonomové uvažují jinak o trzích, svobodě a lidském chování? Rakouská ekonomie nabízí osvěžující perspektivu, která staví vás do centra ekonomického myšlení. Místo složité matematiky a abstraktních modelů se tento přístup zaměřuje na logiku, lidskou volbu a to, jak skuteční lidé rozhodují ve svém každodenním životě. Je to ekonomie optikou svobody, racionality a osobního jednání.
 
-Vítejte v kurzu Théo Mogeneta! Jako vášnivý zájemce o ekonomii, historii, literaturu, politické vědy a technologie se rozhodl podělit se s vámi o své znalosti rakouské ekonomie. Tato méně známá větev ekonomie je založena na lidské racionalitě a chování svobodných aktérů. Méně intenzivní v matematice, je to především otázka logiky a sociálního studia.
-
-Tato škola myšlení má za sebou již několik století a za sebou celou panorámu autorů, myšlenek a ekonomů. Velká jména ekonomie jako Hayek, Rothbard, Mises, Bastiat nebo Menger dlouho hájili tento pohyb. Ve srovnání s všudypřítomným Keynesiánstvím naší doby, rakouská škola staví jednotlivce zpět do středu rovnice s liberálnějším, kapitalistickým a dokonce anarchistickým přístupem.
-
+Tato škola myšlení formuje debaty již po staletí, díky vlivným myslitelům jako Hayek, Mises a Bastiat. Zatímco mainstreamová keynesiánská ekonomie dnes dominuje politickým diskusím, rakouská tradice klade jiné otázky: Co se stane, když upřednostníme individuální svobodu? Jak skutečně fungují volné trhy, když lidé mohou svobodně volit? Pokud vás zajímají alternativní způsoby uvažování o trzích, společnosti a svobodě, toto je vaše příležitost prozkoumat myšlenky, které ve standardních učebnicích nenajdete.
 +++
-
 # Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

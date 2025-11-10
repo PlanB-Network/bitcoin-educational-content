@@ -1,5 +1,5 @@
 ---
-기간입니다: STRATUM V2
+term: STRATUM V2
 
 ---
 

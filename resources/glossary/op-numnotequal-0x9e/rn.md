@@ -1,5 +1,5 @@
 ---
-ijambo: OP_NUMNOTEQUAL (0X9E)
+term: OP_NUMNOTEQUAL (0X9E)
 
 ---
 

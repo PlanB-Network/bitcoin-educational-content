@@ -1,5 +1,5 @@
 ---
-ijambo: PEERS.DAT
+term: PEERS.DAT
 
 ---
 

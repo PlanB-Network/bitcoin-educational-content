@@ -1,5 +1,5 @@
 ---
-ijambo: OP_LESSTHANOREQUAL (0XA1)
+term: OP_LESSTHANOREQUAL (0XA1)
 
 ---
 

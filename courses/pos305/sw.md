@@ -1,23 +1,17 @@
 ---
-name: Bitcoin na BTCPay Server
-goal: Sakinisha BTCPay Server kwa biashara yako
-objectives: 
-
-  - Kuelewa BTCPay Server ni nini.
-  - Mwenyeji mwenyewe anasanidi BTCPay Server.
-  - Tumia BTCPay Server katika biashara yako ya kila siku.
-
+name: Kujifunza BTC Pay Server
+goal: Sanidi mfano wa BTC Pay Server kwa biashara ya ndani
+objectives:
+- Elewa misingi ya jukumu la BTCPay Server katika usindikaji wa malipo
+- Ujuzi wa kina wa mchakato wa usanidi wa BTCPay Server
+- Weka BTCPay Server kwenye mazingira ya wingu na ya nodi
+- Kuwa mwendeshaji wa BTC Pay Server
 ---
-# Bitcoin na BTCPay Server
+# Safari ya Uhuru wa Kifedha
 
-Hii ni kozi ya utangulizi kuhusu BTCPay Server Operator iliyoandikwa na Alekos na Bas, ambayo ilichukuliwa katika Plan ₿ Academy Muundo wa Kozi na melontwist na asi0.
+Uaminifu ni dhaifu, hasa linapokuja suala la pesa. Kozi hii ya utangulizi inakuongoza kupitia BTCPay Server, zana yenye nguvu inayokuruhusu kukubali malipo ya Bitcoin bila kutegemea wahusika wa tatu. Utajifunza misingi ya kuwa mwendeshaji wa BTCPay Server
 
-HADITHI ISIYOKAMALISHWA
-
-"Huu Ni Uongo, Imani Yangu Kwako Imevunjika, Nitakufanya Uwe kizamani".
-
-Imetolewa na Msingi Wa BTCPay Server
-
+Iliyoundwa na Alekos na Bas, na kurekebishwa na melontwist na asi0, kozi hii inafunua jinsi watu binafsi na biashara wanavyojenga mbadala wa mifumo ya jadi ya malipo. Iwe una udadisi kuhusu Bitcoin au uko tayari kuendesha miundombinu ya malipo kwa biashara, utagundua ujuzi wa vitendo unaokabili hali iliyopo. Uko tayari kuchunguza jinsi uhuru wa kifedha unavyoonekana kweli?
 +++
 # Utangulizi
 

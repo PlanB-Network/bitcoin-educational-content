@@ -1,5 +1,5 @@
 ---
-ijambo: SIGHASH_ALL (0X01)
+term: SIGHASH_ALL (0X01)
 
 ---
 

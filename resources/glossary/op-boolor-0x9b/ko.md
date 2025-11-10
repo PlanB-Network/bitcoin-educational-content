@@ -1,5 +1,5 @@
 ---
-임기: OP_BOOLOR (0X9B)
+term: OP_BOOLOR (0X9B)
 
 ---
 

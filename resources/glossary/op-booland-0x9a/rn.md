@@ -1,5 +1,5 @@
 ---
-ijambo: OP_BOOLAND (0X9A)
+term: OP_BOOLAND (0X9A)
 
 ---
 

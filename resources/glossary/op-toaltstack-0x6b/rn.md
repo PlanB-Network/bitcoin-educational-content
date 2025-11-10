@@ -1,5 +1,5 @@
 ---
-ijambo: OP_TOALTSTACK (0X6B)
+term: OP_TOALTSTACK (0X6B)
 
 ---
 

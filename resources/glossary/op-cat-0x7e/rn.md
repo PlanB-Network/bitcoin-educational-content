@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CAT (0X7E)
+term: OP_CAT (0X7E)
 
 ---
 

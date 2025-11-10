@@ -1,5 +1,5 @@
 ---
-ijambo: PAYNYM
+term: PAYNYM
 
 ---
 

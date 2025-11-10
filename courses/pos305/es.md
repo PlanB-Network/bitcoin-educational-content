@@ -1,31 +1,18 @@
 ---
-name: Bitcoin y servidor BTC Pay
-goal: Instale el servidor de BTC Pay para su empresa
-objectives: 
-
-  - Entender qué es btcpayserver.
-  - Autoalojar y configurar el servidor de BTC Pay.
-  - Utilice btcpayserver en su actividad diaria.
-
+name: Dominando BTC Pay Server
+goal: Configurar una instancia de BTC Pay Server para un negocio local
+objectives:
+- Comprender los fundamentos del papel de BTCPay Server en el procesamiento de pagos
+- Dominar el funcionamiento interno del proceso de configuración de BTCPay Server
+- Implementar BTCPay Server en entornos basados en la nube y en nodos
+- Convertirse en operador de BTC Pay Server
 ---
+# Viaje hacia la soberanía financiera
 
-# Bitcoin y servidor BTCPay
+La confianza es frágil, especialmente cuando se trata de dinero. Este curso introductorio te guía a través de BTCPay Server, una poderosa herramienta que te permite aceptar pagos en Bitcoin sin depender de terceros. Aprenderás los fundamentos para convertirte en un operador de BTCPay Server
 
-
-Este es un curso introductorio sobre BTCPay Server Operator, escrito por Alekos y Bas, que fue adaptado para el Plan ₿ Course Format por melontwist y asi0.
-
-
-UNA HISTORIA INACABADA
-
-
-"Esto es mentira, mi confianza en ti está rota, te haré obsoleto".
-
-
-Producido por BTCPay Server Foundation
-
-
+Creado por Alekos y Bas, y adaptado por melontwist y asi0, este curso revela cómo individuos y empresas están construyendo alternativas a los sistemas de pago tradicionales. Ya sea que tengas curiosidad sobre Bitcoin o estés listo para gestionar infraestructuras de pago para negocios, descubrirás habilidades prácticas que desafían el status quo. ¿Listo para explorar cómo se ve realmente la independencia financiera?
 +++
-
 # Introducción
 
 

@@ -1,5 +1,5 @@
 ---
-ijambo: ARK
+term: ARK
 
 ---
 

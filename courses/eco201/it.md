@@ -1,21 +1,18 @@
 ---
-name: Introduzione all'Economia Austriaca
-goal: Scoprire il pensiero della scuola economica austriaca. Studiare le loro opinioni sulla società e sulle realtà macro/microeconomiche.
+name: Fondamenti della scuola austriaca di economia
+goal: Scopri l'economia austriaca come quadro alternativo per analizzare i mercati e il processo decisionale individuale
 objectives:
-  - Un'alternativa al Keynesianesimo
-  - L'importanza di una valuta solida
-  - Perché e come vengono create le fasi cicliche economiche?
-  - Perché i banchieri centrali sono impazziti?
+- Analizzare le funzioni del denaro, del credito e dei sistemi bancari centrali
+- Applicare la teoria del valore soggettivo e la preferenza temporale al comportamento di mercato
+- Comprendere la teoria austriaca del ciclo economico e le sue cause
+- Confrontare la metodologia austriaca con gli approcci economici convenzionali
 ---
+# Viaggio verso l'economia austriaca
 
-# Un viaggio nell'economia
+Ti sei mai chiesto perché alcuni economisti pensano in modo diverso ai mercati, alla libertà e al comportamento umano? L'economia austriaca offre una prospettiva rinfrescante che ti pone al centro del pensiero economico. Invece di matematica complessa e modelli astratti, questo approccio si concentra sulla logica, sulla scelta umana e su come le persone reali prendono decisioni nella loro vita quotidiana. È l'economia attraverso la lente della libertà, della razionalità e dell'azione personale.
 
-Benvenuti al corso di Théo Mogenet! Appassionato di economia, storia, letteratura, scienze politiche e tecnologia, ha deciso di condividere la sua conoscenza dell'economia austriaca con voi. Questo ramo, meno conosciuto dell'economia, si basa sulla razionalità umana e sul comportamento degli attori liberi. Meno intenso dal punto di vista matematico, tratta soprattutto di logica e studio sociale.
-
-Questa scuola di pensiero ha già diversi secoli alle spalle e ha un intero panorama di autori, pensieri ed economisti alle spalle. Grandi nomi dell'economia come Hayek, Rothbard, Mises, Bastiat o Menger hanno a lungo difeso questo movimento. In contrasto con l'onnipresente keynesianesimo dei nostri giorni, la scuola austriaca rimette l'individuo al centro dell'equazione con un approccio più liberale, capitalista e persino anarchico.
-
+Questa scuola di pensiero ha plasmato i dibattiti per secoli, grazie a pensatori influenti come Hayek, Mises e Bastiat. Mentre l'economia keynesiana mainstream domina le discussioni politiche odierne, la tradizione austriaca pone domande diverse: Cosa succede quando diamo priorità alla libertà individuale? Come funzionano realmente i mercati liberi quando le persone sono libere di scegliere? Se sei curioso di conoscere modi alternativi di pensare ai mercati, alla società e alla libertà, questa è la tua occasione per esplorare idee che non troverai nei libri di testo standard.
 +++
-
 # Introduzione
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

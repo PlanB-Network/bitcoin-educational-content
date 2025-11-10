@@ -1,5 +1,5 @@
 ---
-ijambo: PATOSHI
+term: PATOSHI
 
 ---
 

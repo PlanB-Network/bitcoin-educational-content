@@ -1,5 +1,5 @@
 ---
-ijambo: OP_HASH160 (0XA9)
+term: OP_HASH160 (0XA9)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: OP_EVAL
+term: OP_EVAL
 
 ---
 

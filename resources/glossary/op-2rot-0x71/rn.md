@@ -1,5 +1,5 @@
 ---
-ijambo: OP_2ROT (0X71)
+term: OP_2ROT (0X71)
 
 ---
 

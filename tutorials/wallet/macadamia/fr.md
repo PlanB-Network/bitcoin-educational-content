@@ -1,6 +1,6 @@
 ---
 name: Macadamia Wallet
-description: Portefeuille mobile Cashu pour paiements Bitcoin anonymes et instantanés
+description: Portefeuille mobile Cashu pour paiements en BTC anonymes et instantanés
 ---
 
 ![cover](assets/cover.webp)

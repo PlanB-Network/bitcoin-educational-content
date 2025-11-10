@@ -6,4 +6,4 @@ wrong_answers:
   - Iniciativa de código abierto
 explanation: |
   Richard Stallman lanzó el proyecto GNU en 1983 para desarrollar un sistema operativo totalmente libre.
-reviewed: false
+reviewed: true

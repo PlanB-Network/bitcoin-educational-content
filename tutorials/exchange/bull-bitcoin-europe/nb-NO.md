@@ -196,6 +196,14 @@ For å holde oversikt over alle transaksjonene dine kan du se historikken i meny
 
 ![BULL](assets/fr/36.webp)
 
+## Start et automatisk tilbakevendende kjøp (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Opprett en limitordre
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nå vet du hvordan du enkelt kan kjøpe og selge bitcoin med Bull Bitcoin. Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis du setter en grønn tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!
 
 Jeg anbefaler også at du tar en titt på denne andre omfattende veiledningen for å lære hvordan du håndterer minnefrasen din på riktig måte:

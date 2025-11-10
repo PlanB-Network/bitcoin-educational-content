@@ -6,4 +6,4 @@ wrong_answers:
   - Kürzere Phrasen sind nicht standardisiert
 explanation: |
   Obwohl eine 24-Wort-Phrase 256 Bit an Sicherheit bietet, garantieren die daraus abgeleiteten Bitcoin-Privatschlüssel nur 128 Bit an Sicherheit, was den Überschuss unnötig macht.
-reviewed: false
+reviewed: true

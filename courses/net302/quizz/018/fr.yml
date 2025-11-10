@@ -6,4 +6,4 @@ wrong_answers:
   - Un signal physique de couche Accès Réseau
 explanation: |
   Les données IP circulent sous forme de datagrammes, des blocs autonomes contenant toutes les informations nécessaires à leur livraison.
-reviewed: false
+reviewed: true 

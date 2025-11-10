@@ -155,7 +155,7 @@ Once you have sent the transaction, you will be asked if you would like to add t
 
 ![image](assets/en/15.webp)
 
-## 6️⃣ PayJoin
+## 5️⃣ PayJoin
 
 Lets review what PayJoin is [about](https://docs.cakewallet.com/cryptos/bitcoin/#payjoin): 
 
@@ -173,7 +173,7 @@ To use PayJoin both parties require a PayJoin compatible wallet, and the recipie
 
 ![image](assets/en/16.webp)
 
-## 7️⃣ Other features
+## 6️⃣ Other features
 
 There are several other features like Multi currency `Swaps`, `Buy and Sell` options with different vendors connections and Cake specific programs like `Cake Pay`, which lets you purchase prepaid cards or gift cards.
 

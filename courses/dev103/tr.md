@@ -191,7 +191,7 @@ Programlar genellikle veriler üzerinde işlem yapar.
 Değişkenler, verileri saklamak için kullandığımız adlandırılmış kutular gibidir. Bir veri parçasını belirli bir adla ilişkilendirmemize olanak tanırlar, böylece daha sonra bu adı kullanarak onu geri alabiliriz.
 
 
-### let` bildirimleri
+### let bildirimleri
 
 
 JavaScript'te bir değişken bildirmek için `let` anahtar sözcüğünü kullanabiliriz.
@@ -355,7 +355,7 @@ Bob
 Gördüğünüz gibi, hem `score` hem de `player` değiştirildi.
 
 
-### `const` bildirimleri
+### const bildirimleri
 
 
 Ancak çoğu zaman, bir değişkenin oluşturulduktan sonra değişmesini istemeyiz. Bunun için `const` kullanırız.
@@ -875,7 +875,7 @@ undefined
 O da ne?
 
 
-### `undefined`
+### undefined
 
 
 Özel değer `tanımlanmamış`, "değer atanmamış" anlamına gelir.
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### null` ve ona nasıl davranılacağı
+### null ve ona nasıl davranılacağı
 
 
 null` da özel bir değerdir. "Burada hiçbir şey yok ve ben bunu bilerek yaptım" anlamına gelir
@@ -1075,7 +1075,7 @@ Bu, kodumuzun bazı bölümlerini izole etmek için blokları kullanabileceğimi
 Kodumuzu bloklar halinde düzenlemek, `if` gibi kontrol akışı yapılarıyla programın yürütülmesini de yapılandırmamızı sağlar
 
 
-### `if`, `else`
+### if, else
 
 
 Bazen kodu **sadece** bir şey doğruysa çalıştırmak isteriz. İşte `if` deyimi bunun içindir.
@@ -1190,7 +1190,7 @@ No, I am not.
 Blokları, mantık ve karşılaştırma operatörlerini kullanarak, bir şeyin gerçekleşmesi için `doğru` (veya `yanlış`) olması gereken değişkenleri tanımlayarak programın yürütülmesini yapılandırabiliriz.
 
 
-### `while`, `break`, `continue`
+### while, break, continue
 
 
 Bir `while` döngüsü, bir koşul doğru olduğu sürece kodu tekrarlar.
@@ -1282,7 +1282,7 @@ Bu baskılar:
 Çünkü sayı `3` olduğunda, `continue` programın sayıyı yazdıran satırı atlamasına neden oldu.
 
 
-### "... için ...`
+### "... için ...
 
 
 Bir diziniz varsa ve içindeki her öğeye bir şey yapmak istiyorsanız, `for ... of ... {...}`.
@@ -1312,7 +1312,7 @@ Blok, dizinin her bir elemanı için bir kez çalıştırılacaktır.
 buradaki `fruit`, blok içinde üzerinde işlem yapmak için dizideki her öğenin değerini alan yeni bir değişkendir.
 
 
-### `için ... içinde ...`
+### için ... içinde ...
 
 
 Bir dizinin anahtarları (indeksleri) üzerinde döngü yapmak için `for ... in` kullanabilirsiniz:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (fonksiyonlardan elde edilen çıktı)
+### return (fonksiyonlardan elde edilen çıktı)
 
 
 Fonksiyonlar ayrıca **değer döndürebilir**. Bu, fonksiyonun çağrıldığı yere bir değer geri gönderdikleri anlamına gelir.
@@ -2252,7 +2252,7 @@ JavaScript nesneleri serbestçe yeniden şekillendirmenize izin verir, ancak sı
 
 
 
-### Extends` ve `super()` ile kalıtım
+### Extends ve super() ile kalıtım
 
 
 Bazen başka bir sınıfla *neredeyse* aynı olan, ancak birkaç ekstra özelliğe sahip bir sınıf oluşturmak istersiniz.
@@ -2374,7 +2374,7 @@ Toyota Corolla is ready to drive!
 Bu, benzer birkaç şeye sahip olduğunuzda (arabalar, kamyonlar ve bisikletler gibi) ve kod paylaşmalarını ancak yine de kendi yollarıyla davranmalarını istediğinizde yararlıdır.
 
 
-### `instanceof`
+### instanceof
 
 
 `instanceof` anahtar sözcüğü, bir nesnenin belirli bir sınıftan oluşturulup oluşturulmadığını kontrol eder.
@@ -2439,7 +2439,7 @@ Daha karmaşık JavaScript programları yazdıkça **hatalarla** karşılaşırs
 Bu hataları düzgün bir şekilde ele almazsak, programımız çökebilir veya öngörülemeyen şekillerde davranabilir. JavaScript, bu hataları tespit etmek ve yönetmek için araçlar sağlar, böylece bu hataları daha zarif bir şekilde ele alabiliriz.
 
 
-### Yaygın hata: `undefined` üzerinde bir değere erişme
+### Yaygın hata: undefined üzerinde bir değere erişme
 
 
 İşte hataya neden olan yaygın bir durum:
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Bu örnekte sıfıra bölmeye izin verilmediği için ikinci çağrı bir hataya neden olur.
 
 
-### Hataları `try...catch` ile yakalama
+### Hataları try...catch ile yakalama
 
 
 Bir hata oluştuğunda programınızın çökmesini istemiyorsanız, bir `try...catch` bloğu kullanarak hatayı yakalayabilirsiniz. Bu, bir şey başarısız olsa bile programınızın **devam etmesini** istediğinizde yararlıdır.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Sonunda` bloğu
+### Sonunda bloğu
 
 
 Ayrıca bir `finally` bloğu da ekleyebilirsiniz. Bu, bir hata olsa da olmasa da **her zaman çalışan** koddur.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Bu bölümde JavaScript'teki en yaygın tuzaklardan bazıları ve bunlardan nasıl kaçınılacağı gösterilmektedir.
 
 
-### var` ve Assignment bildirimsiz
+### var ve Assignment bildirimsiz
 
 
 Eski JavaScript kodlarında, değişkenler genellikle `var` anahtar sözcüğü kullanılarak bildirilirdi. Daha önce öğrendiğiniz `let` ve `const`tan farklı olarak, `var` kafa karıştırıcı şekillerde davranabilir.
@@ -2650,7 +2650,7 @@ Bu örneklerde JavaScript ne demek istediğinizi tahmin etmeye çalışır. Baze
 JavaScript'in zayıf tipleme sisteminin farkında olmak önemlidir. Bir şeyler garip davranmaya başladığında, bunun nedeni beklenmedik tip zorlaması olabilir.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Bazı sessiz hataları gerçek hatalara dönüştüren ve dilin daha tehlikeli özelliklerinden bazılarını kullanmanızı engelleyen daha katı bir modu etkinleştirebilirsiniz.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Hiçbir şey aktarılmadığında varsayılan değer `"friend"` kullanılır.
 
 
-### Yayılma parametreleri (`...`)
+### Yayılma parametreleri (...)
 
 
 Peki ya fonksiyonunuz esnek sayıda argüman alıyorsa?
@@ -3030,7 +3030,7 @@ MakeGreeter` fonksiyonu diğer fonksiyonları oluşturan bir fonksiyondur. Bir d
 Bu tür bir model çok güçlüdür, çünkü fonksiyonlarınızda daha sonra ihtiyacınız olan davranışla doldurabileceğiniz "boşluklar" bırakmanıza olanak tanır.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript, dizilerle kullanmanız için size bazı yararlı yerleşik yöntemler sunar.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Özel özellikler, yanlışlıkla yapılan değişiklikleri önlemek istediğinizde yardımcı olur.
 
 
-### statik` Özellikler
+### statik Özellikler
 
 
 Bazen, bir özelliğin o sınıftan oluşturduğunuz her nesneye değil, sınıfın kendisine ait olmasını istersiniz. İşte `static` bunun içindir. Bir `static` özelliği sınıfın içinde yer alır ve bu sınıfın tüm nesneleri ona başvurur.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Bu, paylaşılan verileri ve yalnızca bir nesne için değil tüm nesne grubu için geçerli olan yöntemleri depolamak için kullanışlıdır.
 
 
-### `get` ve `set`
+### get ve set
 
 
 JavaScript'te `get` ve `set` normal değişkenler gibi *görünen* ama aslında arka planda özel kod çalıştıran özellikler oluşturmanızı sağlar.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Buna **hesaplanan özellik** denir. Köşeli parantezlerin içindeki değer değerlendirilir ve sonuç anahtar olarak kullanılır.
 
 
-### `Sembol` Türü
+### Sembol Türü
 
 
 Dizelere ek olarak JavaScript, nesne anahtarı olarak `Symbol` adlı özel bir türü kullanmanıza da izin verir.
@@ -3421,7 +3421,7 @@ Gördüğünüz gibi, orijinal `name` özelliği bu şekilde bir şekilde korunu
 JavaScript bize hata ayıklama ve matematik işlemleri gibi şeyleri yapmamıza yardımcı olan bazı yararlı yerleşik nesneler sunar.
 
 
-### Diğer `konsol` Yöntemleri
+### Diğer konsol Yöntemleri
 
 
 Değerleri ekrana yazdıran `console.log` dosyasını daha önce görmüştünüz.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Bazı basit performans testleri için kullanışlıdır.
 
 
-### Math` Nesnesi
+### Math Nesnesi
 
 
 JavaScript size hesaplamalar yapmak için kullanışlı yöntemlere sahip bir `Math` nesnesi verir.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Haritalar büyük değer koleksiyonlarını yönetmek için harikadır, çünkü büyük bir haritadaki değerlere erişmek genellikle büyük bir nesneden çok daha iyi performans sağlar.
 
 
-### `Set`
+### Set
 
 
 Bir `Set`, her bir değerin **tek** olması gereken, yalnızca **değerlerden** (anahtar yok) oluşan bir koleksiyondur. Bu şu anlama gelir:
@@ -3770,7 +3770,7 @@ JavaScript'te üzerinde döngü yapabileceğiniz çoğu şey (diziler, dizeler, 
 Bir **iterator**, JavaScript'te bir öğe listesinde **her seferinde bir tane olmak üzere** ilerlemenize yardımcı olan özel bir nesnedir.
 
 
-### `Object` yineleyicileri
+### Object yineleyicileri
 
 
 Dizilerin veya haritaların aksine, normal nesneler `for...of` ile **yinelenemez**. Eğer bunu denerseniz:
@@ -3892,7 +3892,7 @@ Nesneler doğrudan yinelenebilir olmasa da, bu yöntemler `for...of` ile iyi ça
 Peki yineleyiciler nasıl çalışır?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Tüm yinelenebilirlerin arkasındaki sır, `Symbol.iterator` adı verilen özel bir **semboldür**.
@@ -3924,7 +3924,7 @@ Her `.next()` çağrısı size bir sonraki değeri verir. İşi bittiğinde geri
 ```
 
 
-### `next()`
+### next()
 
 
 .next()` yöntemi, diziden bir sonraki öğeyi almak için kullanılır.
@@ -4046,7 +4046,7 @@ Bu baskılar:
 Artık `Range` sınıfımız bir dizi gibi çalışır ve onu bir yinelenebilir bekleyen herhangi bir döngüde kullanabiliriz.
 
 
-### Üreteç fonksiyonları ve `verim`
+### Üreteç fonksiyonları ve verim
 
 
 Yineleyiciler oluşturmayı kolaylaştırmak için JavaScript, `function*` anahtar sözcüğünü (sonunda `*` olan `function`) ve `yield` anahtar sözcüğünü kullanarak size **üretici işlevler** sunar.
@@ -4105,7 +4105,7 @@ Bu baskılar:
 Bu bölümde yeni bir kavramı tanıtacağız: **eşzamanlılık**. Bu, işlerin yapılma sırasını değiştirmemizi sağlar. Bu, zamanlayıcılar, kullanıcı girdisi veya diskten dosya okuma gibi şeylerle uğraşırken kullanışlıdır. JavaScript eşzamanlılık için farklı araçlar sunar.
 
 
-### `setTimeout`
+### setTimeout
 
 
 SetTimeout` fonksiyonu, bir fonksiyonu belli bir süre geçtikten sonra **daha sonra** çalıştırmanızı sağlar.
@@ -4253,7 +4253,7 @@ New Promise()` kısmı vaadi oluşturur.
 Yukarıdaki örnekte, `"İşe yaradı!"` mesajıyla hemen çözüyoruz.
 
 
-### `.then()`
+### .then()
 
 
 Söz verildikten **sonra** bir şey yapmak için `.then()` işlevini kullanırız:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `reject()`
+### reject()
 
 
 Hadi **başarısız** olan bir söz yaratalım:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Promise`s kullanarak zincirleme işlemler
+### Promises kullanarak zincirleme işlemler
 
 
 
@@ -4551,7 +4551,7 @@ Bunun ne işe yaradığını inceleyelim:
 Her `.then()` kendisinden önceki adımın bitmesini bekler. Böylece iç içe geçmeden bir **eylem zinciri** oluşturabiliriz. Bu, kodu daha okunabilir ve hata ayıklamayı daha kolay hale getirir.
 
 
-## Async`/`await` ile eşzamanlılık
+## Async/await ile eşzamanlılık
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Promise` zincirlerinin geri arama cehenneminden kaçınmamıza nasıl yardımcı
 İşte `async` ve `await` burada devreye girer. Bunlar **senkron kod gibi görünen** asenkron kod yazmamızı sağlar, bu da anlaşılmasını kolaylaştırır.
 
 
-### Async` nedir?
+### Async nedir?
 
 
 Bir fonksiyondan önce `async` anahtar sözcüğünü yazdığınızda, JavaScript fonksiyonun dönüş değerini otomatik olarak bir Promise'e sarar.
@@ -4638,7 +4638,7 @@ greetAndLog() // prints "hello"
 Şimdi biraz daha faydalı bir şey yapalım.
 
 
-### Gecikmeyi `await` ile simüle etme
+### Gecikmeyi await ile simüle etme
 
 
 Argüman olarak bir milisaniye alan ve başka hiçbir şey yapmadan sadece bu kadar milisaniye sonra çözümleyen basit bir `wait` fonksiyonu oluşturacağız:
@@ -4881,7 +4881,7 @@ Async yineleyiciler şu durumlarda kullanışlıdır:
 Örneğin, bir sohbet sunucusundan mesajları tek tek yüklemek veya büyük bir dosyayı parçalar halinde indirmek istiyorsanız, async iterators size gecikmeli verilerle çalışan bir `for` döngüsü yazmanın bir yolunu sunar.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Async yineleyicileri özel sınıflarda da kullanabiliriz.
@@ -5287,7 +5287,7 @@ NodeJS, diğer şeylerin yanı sıra, CLI'lar (Komut Satırı Arayüzleri) oluş
 Bunun için komut satırı argümanlarını almak için bir yola ihtiyacımız var, bu da Node'da yerleşik `process` nesnesi kullanılarak yapılır.
 
 
-### `process`
+### process
 
 
 NodeJS, mevcut çalışan programı temsil eden `process` adlı özel bir nesne sağlar.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Bu, `win32`, `linux` veya `darwin` (Mac) gibi işletim sistemi platformunu yazdırır.
 
 
-### `process.argv`
+### process.argv
 
 
 Terminalden bir NodeJS programı çalıştırdığınızda, kod adından sonra ekstra kelimeler (argümanlar) geçebilirsiniz. Bunlar `process.argv` içinde saklanır.
@@ -5493,7 +5493,7 @@ Bu yerleşik modülleri yüklemenize gerek yoktur, NodeJS ile birlikte gelirler.
 Sonraki bölümler size bunların kullanımına ilişkin bazı faydalı örnekler gösterecektir.
 
 
-## Fs` modülü
+## Fs modülü
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 Package.json` dosyası, projenizle ilgili meta verileri depolayan bir JSON dosyasıdır.
@@ -5960,7 +5960,7 @@ NPM ne yaptı?
 Package-lock.json` nedir?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Bu dosya NPM tarafından otomatik olarak oluşturulur.
@@ -6023,7 +6023,7 @@ NodeJS genellikle arka uç için bir dil olarak kullanılır: betiğinizi bir su
 Bu bölümde, bunu yapmanızı sağlayacak bazı temel ağ özelliklerini tanıtacağız.
 
 
-### `fetch()`
+### fetch()
 
 
 Programınızın bir web sitesinden veya bir API'den veri indirmesini istiyorsanız, bir **HTTP isteği** yapmanız gerekir.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Bu yüzden dizenin düzgün biçimlendirildiğinden emin olun.
 
 
-### `http` sunucusu
+### http sunucusu
 
 
 NodeJS, başka hiçbir şey yüklemeden bir web sunucusu oluşturmanıza olanak tanır.

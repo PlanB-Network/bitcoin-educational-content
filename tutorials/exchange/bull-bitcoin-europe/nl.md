@@ -289,6 +289,14 @@ Om al je transacties bij te houden, kun je de geschiedenis raadplegen in het men
 ![BULL](assets/fr/36.webp)
 
 
+## Een automatische terugkerende aankoop starten (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Een limietorder aanmaken
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nu weet je hoe je gemakkelijk Bitcoin kunt kopen en verkopen met Bull Bitcoin. Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder een Green duim plaatst. Voel je vrij om dit artikel te delen op je sociale netwerken. Hartelijk dank!
 
 

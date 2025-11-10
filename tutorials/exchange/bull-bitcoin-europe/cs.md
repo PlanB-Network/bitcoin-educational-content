@@ -196,6 +196,14 @@ Chcete-li mít přehled o všech svých transakcích, můžete nahlédnout do hi
 
 ![BULL](assets/fr/36.webp)
 
+## Spustit automatický opakovaný nákup (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Vytvořit limitní objednávku
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nyní víte, jak snadno nakupovat a prodávat bitcoiny pomocí Bull Bitcoin. Pokud vám tento návod přišel užitečný, budu vám velmi vděčný, když mi níže dáte zelený palec. Neváhejte a sdílejte tento článek na svých sociálních sítích. Moc vám děkuji!
 
 Doporučuji vám také podívat se na tento další komplexní návod, kde se dozvíte, jak správně spravovat mnemotechnické fráze:

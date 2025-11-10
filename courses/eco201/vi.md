@@ -1,21 +1,18 @@
 ---
-name: Giới thiệu về trường phái Kinh tế học Áo
-goal: Khám phá trường phái Kinh tế học Áo. Nghiên cứu quan điểm của họ về hiện thực xã hội và kinh tế vĩ mô / vi mô.
+name: Các nguyên tắc cơ bản của trường phái kinh tế Áo
+goal: Khám phá kinh tế học Áo như một khuôn khổ thay thế để phân tích thị trường và ra quyết định cá nhân
 objectives:
-  - Một giải pháp thay thế cho Chủ nghĩa Keynes
-  - Tầm quan trọng của đồng tiền cứng
-  - Tại sao và bằng cách nào các chu kỳ kinh tế được tạo ra?
-  - Tại sao các ngân hàng trung ương lại phát điên?
+- Phân tích các chức năng của tiền tệ, tín dụng và hệ thống ngân hàng trung ương
+- Áp dụng lý thuyết giá trị chủ quan và sở thích thời gian vào hành vi thị trường
+- Hiểu lý thuyết chu kỳ kinh doanh của trường phái Áo và nguyên nhân của nó
+- So sánh phương pháp luận của trường phái Áo với các cách tiếp cận kinh tế chính thống
 ---
+# Hành Trình Đến Kinh Tế Học Áo
 
-# Hành trình vào thế giới kinh tế
+Bạn đã bao giờ tự hỏi tại sao một số nhà kinh tế lại suy nghĩ khác biệt về thị trường, tự do và hành vi con người? Kinh tế học Áo mang đến một góc nhìn mới mẻ đặt bạn vào trung tâm của tư duy kinh tế. Thay vì toán học phức tạp và các mô hình trừu tượng, cách tiếp cận này tập trung vào logic, sự lựa chọn của con người và cách mọi người thực sự đưa ra quyết định trong cuộc sống hàng ngày của họ. Đó là kinh tế học qua lăng kính của tự do, lý trí và hành động cá nhân.
 
-Chào mừng bạn đến với khóa học của Théo Mogenet! Có niềm đam mê về kinh tế, lịch sử, văn học, khoa học chính trị và công nghệ, anh ấy đã quyết định chia sẻ kiến thức của mình về trường phái Kinh tế học Áo với bạn. Nhánh này, ít được biết đến trong lĩnh vực kinh tế học, dựa trên lý trí con người và hành vi của các chủ thể tự do. Ít chú trọng vào toán học, đây chủ yếu là vấn đề của logic và nghiên cứu xã hội.
-
-Trường phái tư tưởng này đã có một lịch sử kéo dài vài thế kỷ và có một bức tranh toàn cảnh về các tác giả, tư tưởng, và các nhà kinh tế học đứng sau nó. Những tên tuổi lớn trong kinh tế học như Hayek, Rothbard, Mises, Bastiat, hoặc Menger đã bảo vệ phong trào này trong thời gian dài. Trái ngược với trường phái Keynes phổ biến ngày nay, trường phái Kinh tế học Áo đặt cá nhân trở lại vào trung tâm của phương trình với một cách tiếp cận tự do, tư bản và thậm chí là vô chính phủ hơn.
-
+Trường phái tư tưởng này đã định hình các cuộc tranh luận trong nhiều thế kỷ, nhờ vào các nhà tư tưởng có ảnh hưởng như Hayek, Mises và Bastiat. Trong khi kinh tế học Keynesian chủ đạo thống trị các cuộc thảo luận chính sách ngày nay, truyền thống Áo đặt ra những câu hỏi khác: Điều gì xảy ra khi chúng ta ưu tiên tự do cá nhân? Thị trường tự do thực sự hoạt động như thế nào khi mọi người có quyền tự do lựa chọn? Nếu bạn tò mò về những cách suy nghĩ thay thế về thị trường, xã hội và tự do, đây là cơ hội để bạn khám phá những ý tưởng mà bạn sẽ không tìm thấy trong các sách giáo khoa tiêu chuẩn.
 +++
-
 # Giới thiệu
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

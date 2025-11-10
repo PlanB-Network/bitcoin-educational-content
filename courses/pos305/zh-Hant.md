@@ -1,23 +1,17 @@
 ---
-name: Bitcoin 和 BTC 付款伺服器
-goal: 為您的企業安裝 BTC Pay 伺服器
-objectives: 
-
-  - 瞭解什麼是 btcpayserver。
-  - 自行託管和設定 BTC Pay 伺服器。
-  - 在您的日常業務中使用 btcpayserver。
-
+name: 精通BTC Pay Server
+goal: 為本地企業配置BTC Pay Server實例
+objectives:
+- 了解BTCPay Server在支付處理中的基本作用
+- 掌握BTCPay Server配置過程的內部運作
+- 在雲端和基於節點的環境中部署BTCPay Server
+- 成為BTC Pay Server營運者
 ---
-# Bitcoin 和 BTCPay 伺服器
+# 邁向財務主權之旅
 
-這是由 Alekos 和 Bas 撰寫的 BTCPay 伺服器操作員介紹課程，並由 melontwist 和 asi0 在 Plan ₿ 課程格式中加以改編。
+信任是脆弱的，尤其是涉及金錢時。這門入門課程將引導您了解 BTCPay Server，這是一個強大的工具，讓您無需依賴第三方即可接受比特幣付款。您將學習成為 BTCPay Server 營運者的基礎知識。
 
-后话
-
-「這是謊言，我對你的信任破滅了，我會讓你淘汰」。
-
-由 BTCPay 伺服器基金會製作
-
+本課程由 Alekos 和 Bas 創建，並由 melontwist 和 asi0 改編，揭示了個人和企業如何建立傳統支付系統的替代方案。無論您是對比特幣感到好奇，還是準備為企業運行支付基礎設施，您都將發現挑戰現狀的實用技能。準備好探索財務獨立的真正面貌了嗎？
 +++
 # 簡介
 

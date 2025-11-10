@@ -46,7 +46,7 @@ Le Dojo permet à votre application Ashigaru de consulter les informations de la
 
 Pour en savoir plus sur Dojo et apprendre à l’installer, je vous invite à suivre ce tutoriel dédié :
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Si vous n’avez vraiment pas la possibilité de faire tourner votre propre Dojo, vous pouvez trouver des personnes acceptant de partager gracieusement leur instance sur le site [dojobay.pw](https://www.dojobay.pw/mainnet/). Cela peut constituer une solution temporaire, mais à long terme, je vous recommande d’utiliser votre propre Dojo pour garantir votre souveraineté et votre confidentialité.
 

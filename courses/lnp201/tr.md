@@ -1,14 +1,12 @@
 ---
-name: Lightning Network'a Teorik Giriş
+name: Lightning Network Teorisi
 goal: Lightning Network'i teknik açıdan keşfedin
-objectives: 
-
-  - Ağ kanallarının işleyişini anlayın.
-  - HTLC, LNURL ve UTXO terimlerine aşina olun.
-  - Likidite yönetimini ve LNN ücretlerini asimile edin.
-  - Lightning Network'ü bir ağ olarak tanıyın.
-  - Lightning Network'in teorik kullanımlarını anlamak.
-
+objectives:
+- Ağ kanallarının işleyişini anlayın.
+- HTLC, LNURL ve UTXO terimlerine aşina olun.
+- Likidite yönetimini ve LNN ücretlerini asimile edin.
+- Lightning Network'ü bir ağ olarak tanıyın.
+- Lightning Network'in teorik kullanımlarını anlamak.
 ---
 
 # Bitcoin'nın İkinci Layer'sine Yolculuk

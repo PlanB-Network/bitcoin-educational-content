@@ -23,7 +23,7 @@ Bisq 2 è la nuova versione del popolare exchange decentralizzato Bisq, lanciato
 - Supporto per più tipi di portafoglio
 - Sistema di ruoli con deposito obbligatorio in BSQ
 
-Questa guida si concentra esclusivamente su "Bisq Easy", l'unico protocollo attualmente disponibile. Bisq Easy è stato progettato specificamente per i nuovi utenti di Bitcoin. Questo protocollo consente agli utenti di acquistare e vendere Bitcoin contro valute fiat su una piattaforma decentralizzata peer-to-peer. Le transazioni sono limitate all'equivalente di 600 USD (con un minimo di 6 USD) e la sicurezza dello scambio si basa sulla reputazione dei venditori di BTC. Bisq Easy non prevede commissioni di trading né requisiti di deposito di sicurezza. Bisq Easy dovrebbe sostituire Bisq 1 per gli scambi di denaro al di sotto dei 600 USD (o equivalenti).
+Questa guida si concentra esclusivamente su "Bisq Easy", l'unico protocollo attualmente disponibile. Bisq Easy è stato progettato appositamente per i nuovi utenti di Bitcoin. Questo protocollo consente agli utenti di acquistare e vendere bitcoin in cambio di valute fiat su una piattaforma decentralizzata peer-to-peer. Le transazioni sono limitate all'equivalente di 600 USD (con un minimo di 6 USD) e la sicurezza degli scambi si basa sulla reputazione dei venditori di BTC. Bisq Easy non prevede commissioni di trading né requisiti di deposito cauzionale. Si prevede che Bisq Easy sostituirà Bisq 1 per gli scambi in valuta fiat inferiori a 600 USD (o equivalente).
 
 **Caratteristiche principali:**
 
@@ -62,7 +62,7 @@ Questa guida si concentra esclusivamente su "Bisq Easy", l'unico protocollo attu
 - L'ideatore dell'offerta definisce i termini dello scambio
 - Una volta che gli operatori si sono accordati sui termini (metodo di pagamento e prezzo), lo scambio ha inizio
 - Il venditore invia le proprie coordinate bancarie all'acquirente e l'acquirente invia il proprio indirizzo Bitcoin al venditore
-- L'acquirente effettua il pagamento in contanti e lo comunica al venditore
+- L'acquirente effettua il pagamento in valuta fiat e notifica il venditore
 - Una volta ricevuto il pagamento, il venditore invia i bitcoin all'indirizzo dell'acquirente
 - Lo scambio è completo quando l'acquirente riceve i bitcoin
 

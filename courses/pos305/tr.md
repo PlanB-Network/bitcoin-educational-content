@@ -1,31 +1,18 @@
 ---
-name: Bitcoin ve BTC Ödeme Sunucusu
-goal: İşletmeniz için BTC Pay Sunucusu kurun
-objectives: 
-
-  - Btcpayserver'ın ne olduğunu anlayın.
-  - BTC Pay Server'ı kendiniz barındırın ve yapılandırın.
-  - Günlük işlerinizde btcpayserver kullanın.
-
+name: BTC Pay Server'da Uzmanlaşma
+goal: Yerel bir işletme için BTC Pay Server örneği yapılandırın
+objectives:
+- BTCPay Server'ın ödeme işlemedeki rolünün temellerini anlayın
+- BTCPay Server yapılandırma sürecinin iç işleyişinde ustalaşın
+- BTCPay Server'ı bulut ve düğüm tabanlı ortamlarda dağıtın
+- BTC Pay Server operatörü olun
 ---
+# Finansal Egemenliğe Yolculuk
 
-# Bitcoin ve BTCPay Sunucusu
+Güven kırılgandır, özellikle para söz konusu olduğunda. Bu giriş kursu, üçüncü taraflara güvenmeden Bitcoin ödemelerini kabul etmenizi sağlayan güçlü bir araç olan BTCPay Server konusunda size rehberlik eder. BTCPay Server operatörü olmanın temellerini öğreneceksiniz
 
-
-Bu, Alekos ve Bas tarafından yazılan ve melontwist ve asi0 tarafından Plan ₿ Kurs Formatı için uyarlanan BTCPay Sunucu Operatörü üzerine bir giriş kursudur.
-
-
-BITMEMIŞ BIR HIKAYE
-
-
-"Bu Yalan, Sana Olan Güvenim Kırıldı, Seni Modası Geçmiş Yapacağım".
-
-
-BTCPay Server Foundation tarafından üretilmiştir
-
-
+Alekos ve Bas tarafından oluşturulmuş ve melontwist ile asi0 tarafından uyarlanmış bu kurs, bireylerin ve işletmelerin geleneksel ödeme sistemlerine nasıl alternatifler inşa ettiğini ortaya koyuyor. İster Bitcoin hakkında meraklı olun ister işletmeler için ödeme altyapıları yönetmeye hazır olun, statükoyu sorgulayan pratik beceriler keşfedeceksiniz. Finansal bağımsızlığın gerçekte neye benzediğini keşfetmeye hazır mısınız?
 +++
-
 # Giriş
 
 

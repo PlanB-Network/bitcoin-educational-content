@@ -6,4 +6,4 @@ wrong_answers:
   - Les deux reçoivent les mêmes récompenses
 explanation: |
   Les mineurs perçoivent des récompenses (subvention et frais), alors qu’un nœud n’apporte aucun bénéfice financier direct pour son utilisateur.
-reviewed: false
+reviewed: true 

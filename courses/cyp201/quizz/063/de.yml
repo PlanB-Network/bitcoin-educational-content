@@ -3,7 +3,7 @@ answer: Die Transaktionshistorie des Schlüssels
 wrong_answers:
   - Die Indexnummer des Schlüssels
   - Der Schlüssel (privat oder öffentlich)
-  - Der Ketten-Code
+  - Der Chain-Code
 explanation: |
   Ein erweiterter Schlüssel enthält nur die Informationen, die notwendig sind, um Kinderschlüssel abzuleiten, nicht jedoch Informationen, die sich auf Transaktionen beziehen.
-reviewed: false
+reviewed: true

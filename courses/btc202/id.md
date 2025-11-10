@@ -795,7 +795,7 @@ Setelah kita memiliki semua informasi yang diperlukan, sekarang saatnya untuk me
 
 Di sini, kita akan menggunakan image UmbrelOS x86 (lebih tepatnya, versi x86_64). Anda dapat mengikuti panduan ini pada mesin apa pun yang Anda pilih, selama mesin tersebut tidak dilengkapi dengan prosesor arsitektur ARM (bukan Apple Silicon, Raspberry Pi, dll.). Ini berarti bahwa komputer apa pun dengan prosesor Intel atau AMD 64-bit sudah cukup, asalkan memenuhi persyaratan minimum, tergantung pada bagaimana Anda berniat menggunakan Umbrel Anda (disarankan setidaknya prosesor dual-core).
 
-Jika Anda memilih Raspberry Pi 5 (opsi yang tidak saya rekomendasikan, seperti yang disebutkan di bagian sebelumnya), pemasangannya sedikit berbeda. Anda dapat mengikuti tutorial khusus ini dan kembali ke kursus saya setelah berada di Interface web 'http://umbrel.local': 
+Jika Anda memilih Raspberry Pi 5 (opsi yang tidak saya rekomendasikan, seperti yang disebutkan di bagian sebelumnya), pemasangannya sedikit berbeda. Anda dapat mengikuti tutorial khusus ini dan kembali ke kursus saya setelah berada di Interface web `http://umbrel.local`: 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
@@ -845,7 +845,7 @@ Sambungkan Flashdrive USB ke komputer Anda (komputer yang baru saja mengunduh im
 
 - Burn Image ISO ke USB Stick dengan Balena Etcher:
 
-Jalankan Balena Etcher dan pilih file ISO 'umbrelos-amd64-usb-installer.iso' yang baru saja Anda unduh dengan mengeklik tombol "Flash from file". Kemudian, pilih Flashdrive USB sebagai perangkat target dan klik "Flash!" untuk memulai proses.
+Jalankan Balena Etcher dan pilih file ISO `umbrelos-amd64-usb-installer.iso` yang baru saja Anda unduh dengan mengeklik tombol "Flash from file". Kemudian, pilih Flashdrive USB sebagai perangkat target dan klik "Flash!" untuk memulai proses.
 
 ![Image](assets/fr/004.webp)
 
@@ -873,330 +873,170 @@ Jika perangkat melakukan booting pada sistem lain atau menampilkan pesan kesalah
 
 ### Langkah 4: Instal UmbrelOS di komputer Anda
 
-Setelah perangkat melakukan booting dari stik USB, Anda akan disambut oleh instalasi Interface UmbrelOS. Langkah ini melibatkan penginstalan sistem secara langsung ke disk Hard internal mesin Anda.
+Setelah perangkat boot dari USB stick, Anda akan disambut oleh Interface instalasi UmbrelOS. Langkah ini melibatkan pemasangan sistem langsung ke hard disk internal mesin Anda.
 
-
-
-Layar yang muncul berisi daftar semua perangkat penyimpanan internal yang terdeteksi oleh komputer. Setiap disk disertai dengan nomor, nama, dan kapasitas penyimpanan. Cari disk tempat Anda ingin menginstal Umbrel. **Peringatan: semua file pada disk ini akan dihapus secara permanen.**
-
-
+Layar yang muncul mencantumkan semua perangkat penyimpanan internal yang terdeteksi oleh komputer. Setiap disk disertai dengan nomor, nama, dan kapasitas penyimpanan. Temukan disk tempat Anda ingin memasang Umbrel. **Peringatan: semua file di disk ini akan dihapus secara permanen.**
 
 ![Image](assets/fr/007.webp)
 
-
-
-Setelah Anda mengidentifikasi disk yang benar (biasanya disk dengan kapasitas terbesar, untuk menampung Blockchain), catat nomor yang ditetapkan untuk disk tersebut. Sebagai contoh, jika disk yang Anda pilih muncul di bawah nomor `2`, cukup masukkan `2`, kemudian tekan tombol `Enter` pada keyboard.
-
-
+Setelah Anda mengidentifikasi disk yang benar (biasanya yang berkapasitas terbesar, untuk menampung Blockchain), catat nomor yang ditetapkan untuknya. Misalnya, jika disk yang Anda pilih muncul di bawah nomor `2`, cukup masukkan `2`, lalu tekan tombol `Enter` pada keyboard.
 
 ![Image](assets/fr/008.webp)
 
-
-
-Program ini akan memformat disk yang dipilih, menginstal UmbrelOS, dan secara otomatis mengkonfigurasi sistem. Ini mungkin memerlukan waktu beberapa menit. Biarkan proses berjalan tanpa gangguan.
-
-
+Program akan memformat disk yang dipilih, memasang UmbrelOS, dan secara otomatis mengkonfigurasi sistem. Ini mungkin memakan waktu beberapa menit. Biarkan proses berjalan tanpa gangguan.
 
 ![Image](assets/fr/009.webp)
 
-
-
 Setelah penginstalan selesai, Anda akan diminta untuk mematikan perangkat. Tekan sembarang tombol untuk mematikan komputer.
-
-
 
 ![Image](assets/fr/010.webp)
 
-
-
-Anda sekarang dapat melepas kunci USB, keyboard, dan layar, yang tidak lagi diperlukan untuk Umbrel Anda. Yang tersisa dari node Anda hanyalah daya Supply dan kabel Ethernet RJ45.
-
-
+Anda sekarang dapat melepas USB stick, keyboard, dan layar, yang tidak lagi diperlukan untuk Umbrel Anda. Yang tersisa dari node Anda hanyalah Power Supply dan kabel Ethernet RJ45.
 
 ![Image](assets/fr/011.webp)
 
-
-
 Sebelum menghidupkan ulang perangkat, periksa dua hal berikut ini:
 
-
-
-
-
-- Kunci USB dicabut**: jika tetap tersambung, sistem mungkin akan melakukan boot ulang dan bukannya menggunakan disk internal;
-- Kabel Ethernet dicolokkan**: perangkat harus tersambung ke router agar dapat beroperasi.
-
-
+- **USB stick tercabut**: jika tetap tersambung, sistem mungkin akan melakukan boot ulang dan bukannya menggunakan disk internal;
+- **Kabel Ethernet dicolokkan**: perangkat harus tersambung ke router agar dapat beroperasi.
 
 Tekan tombol daya. Sistem akan melakukan booting secara otomatis dari disk internal tempat UmbrelOS diinstal. Booting pertama mungkin memerlukan waktu sekitar **5 menit**. Selama waktu ini, Umbrel akan menginisialisasi layanan dan Interface.
 
-
-
 Dari komputer lain (PC yang Anda gunakan sehari-hari) yang terhubung ke **jaringan lokal yang sama**, buka peramban web (Firefox, Chrome...) dan buka:
-
-
 
 ```
 http://umbrel.local
 ```
 
-
-
 Address ini digunakan untuk mengakses pengguna grafis Umbrel Interface dari jarak jauh dan memulai konfigurasi.
 
-
-
 Jika Address `http://umbrel.local` tidak berfungsi pada browser Anda setelah menunggu setidaknya 5 menit, coba saja:
-
-
 
 ```
 http://umbrel
 ```
 
-
-
-Jika ini masih tidak berhasil, masukkan IP lokal Umbrel Anda Address langsung ke peramban. Sebagai contoh (ganti `42` dengan nomor mesin Anda yang menghosting Umbrel pada jaringan lokal):
-
-
+Jika ini masih tidak berhasil, masukkan IP lokal Umbrel Anda Address langsung ke browser. Sebagai contoh (ganti `42` dengan nomor mesin Anda yang menghosting Umbrel pada jaringan lokal):
 
 ```
 http://192.168.1.42
 ```
 
-
-
 Untuk mengidentifikasi IP Address Umbrel Anda, ada beberapa metode, dari yang paling sederhana hingga yang paling canggih:
 
-
-
-
-
-- Akses administrasi router Anda Interface dan temukan IP Address perangkat Umbrel di jaringan lokal.
-
-
-
-
-
+- Akses interface administrasi router Anda dan temukan IP Address perangkat Umbrel di jaringan lokal.
 - Gunakan perangkat lunak pemindaian jaringan seperti Angry IP Scanner untuk mendeteksi perangkat yang terhubung dan menemukan IP Umbrel Address Anda.
-
-
 
 ![Image](assets/fr/012.webp)
 
-
-
 https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
-
-
 - Sebagai upaya terakhir, sambungkan kembali monitor dan keyboard ke perangkat, masuk (login default: `umbrel`, kata sandi: `umbrel`), lalu ketik perintah berikut:
-
-
 
 ```
 hostname -I
 ```
 
-
-
 Sekarang Anda siap menggunakan Umbrel!
-
-
 
 ### Langkah 5: Memulai dengan Umbrel
 
-
-
 Untuk mulai mengkonfigurasi Umbrel Anda, klik tombol "*Start*".
-
-
 
 ![Image](assets/fr/013.webp)
 
-
-
 #### Membuat akun
 
+Pilih nama samaran (pseudonym) atau masukkan nama Anda, lalu atur kata sandi yang kuat. Berhati-hatilah: kata sandi ini adalah satu-satunya penghalang yang melindungi akses ke Umbrel Anda dari jaringan Anda (dan oleh karena itu, berpotensi, ke bitcoin Anda jika Anda menjalankan Node Lightning di Umbrel). Ini juga melindungi akses jarak jauh melalui Tor atau VPN, jika layanan ini diaktifkan.
 
-
-Pilih nama samaran atau masukkan nama Anda, lalu tetapkan kata sandi yang kuat. Hati-hati: kata sandi ini merupakan satu-satunya penghalang yang melindungi akses ke Umbrel Anda dari jaringan Anda (dan oleh karena itu, berpotensi juga untuk bitcoin Anda jika Anda menjalankan node Lightning di Umbrel). Kata sandi ini juga melindungi akses jarak jauh melalui Tor atau VPN, jika layanan ini diaktifkan.
-
-
-
-Pilih kata sandi yang kuat dan pastikan Anda menyimpan setidaknya satu cadangan (disarankan menggunakan pengelola kata sandi).
-
-
+Pilih kata sandi yang kuat dan pastikan Anda menyimpan setidaknya satu backup (disarankan menggunakan manajer kata sandi).
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Setelah Anda memasukkan kata sandi, klik tombol "*Buat*".
-
-
+Setelah Anda memasukkan kata sandi, klik tombol "Create".
 
 ![Image](assets/fr/014.webp)
 
-
-
 Konfigurasi Umbrel Anda sekarang sudah selesai.
-
-
 
 ![Image](assets/fr/015.webp)
 
-
-
-#### Penemuan Interface
-
-
+#### Mengenal Interface
 
 Interface dari Umbrel cukup intuitif:
 
-
-
-
-
 - Pada halaman beranda, Anda dapat melihat aplikasi dan widget yang terinstal.
-
-
 
 ![Image](assets/fr/016.webp)
 
-
-
-
-
 - "*App Store*" memungkinkan Anda menginstal aplikasi baru,
-
-
 
 ![Image](assets/fr/017.webp)
 
-
-
-
-
 - Menu "*Files*" memusatkan semua dokumen yang tersimpan di Umbrel Anda.
-
-
 
 ![Image](assets/fr/018.webp)
 
-
-
-
-
-- Menu "*Pengaturan*" memungkinkan Anda memodifikasi pengaturan Umbrel dan mengakses informasinya, termasuk:
+- Menu "*Settings*" memungkinkan Anda memodifikasi pengaturan Umbrel dan mengakses informasinya, termasuk:
+- 
     - Memperbarui, memulai ulang, atau menghentikan mesin Anda;
-    - Konsultasikan ruang penyimpanan yang tersedia, penggunaan RAM, dan suhu prosesor;
+    - Melihat ruang penyimpanan yang tersedia, penggunaan RAM, dan suhu prosesor;
     - Mengubah wallpaper;
-    - Kelola akses jarak jauh melalui Tor, aktifkan Wi-Fi, atau 2FA.
-
-
+    - Mengelola akses jarak jauh melalui Tor, mengaktifkan Wi-Fi, atau 2FA.
 
 ![Image](assets/fr/019.webp)
 
-
-
 #### Pengaturan keamanan dan koneksi
 
-
-
-Pertama dan terutama, saya sangat menyarankan untuk mengaktifkan autentikasi dua faktor (2FA). Ini akan menambah keamanan ekstra Layer pada kata sandi Anda. Ini hampir sangat diperlukan jika Anda berencana untuk menggunakan Umbrel Anda untuk menyimpan berkas pribadi, menjalankan simpul Lightning, atau melakukan aktivitas sensitif lainnya.
-
-
+Pertama dan terpenting, saya sangat merekomendasikan mengaktifkan otentikasi dua faktor (2FA). Ini menambahkan lapisan keamanan ekstra pada kata sandi Anda. Ini hampir sangat diperlukan jika Anda berencana menggunakan Umbrel Anda untuk menyimpan file pribadi, menjalankan Node Lightning, atau melakukan aktivitas sensitif lainnya.
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Untuk melakukan ini, klik pada kotak yang sesuai dalam pengaturan.
-
-
+Untuk melakukan ini, klik pada kotak yang sesuai di pengaturan.
 
 ![Image](assets/fr/020.webp)
 
+Kemudian pindai kode QR yang ditampilkan menggunakan aplikasi otentikasi Anda. Lalu masukkan 6 digit kode dinamis di kolom yang tersedia di Umbrel Anda.
 
-
-Kemudian pindai kode QR yang ditampilkan menggunakan aplikasi autentikasi Anda. Kemudian masukkan kode dinamis 6 digit di bidang yang disediakan pada Umbrel Anda.
-
-
-
-Mulai sekarang, setiap koneksi baru ke Umbrel Anda akan memerlukan kata sandi dan kode 6 digit yang dihasilkan oleh aplikasi autentikasi dua faktor (2FA).
-
-
+Mulai sekarang, setiap koneksi baru ke Umbrel Anda akan membutuhkan kata sandi dan 6 digit kode yang dihasilkan oleh aplikasi otentikasi dua faktor (2FA) Anda.
 
 ![Image](assets/fr/021.webp)
 
+Mengenai akses jarak jauh melalui Tor, jika Anda tidak membutuhkannya, saya merekomendasikan untuk membiarkan opsi ini dinonaktifkan untuk membatasi celah serangan Umbrel Anda. Secara default, node Anda hanya dapat diakses dari mesin yang terhubung ke jaringan lokal yang sama. Mengaktifkan akses melalui Tor akan memungkinkan Anda untuk mengelola Umbrel Anda saat bepergian.
 
+Jika Anda mengaktifkan fitur ini, secara teori menjadi mungkin bagi mesin mana pun di dunia untuk mencoba koneksi ke node Anda, asalkan ia mengetahui alamat Tor tersebut. Namun, kata sandi dan 2FA Anda akan tetap melindungi Anda.
 
-Mengenai akses jarak jauh melalui Tor, jika Anda tidak memerlukannya, saya sarankan untuk membiarkan opsi ini dinonaktifkan untuk membatasi permukaan serangan Umbrel Anda. Secara default, simpul Anda hanya dapat diakses dari mesin yang tersambung ke jaringan lokal yang sama. Mengaktifkan akses melalui Tor akan memungkinkan Anda untuk mengelola Umbrel Anda saat bepergian.
+Jika Anda mengaktifkan opsi ini, pastikan Anda telah mengaktifkan otentikasi dua faktor (2FA), kata sandi yang kuat, dan jangan pernah mengungkapkan alamat koneksi Tor Anda.
 
-
-
-Jika Anda mengaktifkan fitur ini, secara teoritis memungkinkan mesin apa pun di dunia ini untuk mencoba koneksi ke simpul Anda, asalkan mesin tersebut mengetahui Tor Address. Namun, kata sandi dan 2FA Anda akan tetap melindungi Anda.
-
-
-
-Jika Anda mengaktifkan opsi ini, pastikan Anda mengaktifkan autentikasi dua faktor (2FA), kata sandi yang kuat, dan jangan pernah mengungkapkan koneksi Tor Anda Address.
-
-
-
-Cukup masukkan Tor Address ini dalam peramban Tor Anda untuk mengakses Interface Umbrel dari jaringan mana pun.
-
-
+Cukup masukkan Tor Address ini dalam browser Tor Anda untuk mengakses Interface Umbrel dari jaringan mana pun.
 
 ![Image](assets/fr/026.webp)
 
-
-
-Terakhir, pada halaman pengaturan ini, Anda juga dapat mengaktifkan koneksi Wi-Fi. Jika mesin yang menghosting Umbrel memiliki kartu jaringan Wi-Fi atau dongle Wi-Fi, ini memungkinkan Anda mengakses Internet tanpa menggunakan kabel RJ45. Namun, tergantung pada konfigurasi Anda, solusi ini dapat memperlambat koneksi, yang dapat memengaruhi sinkronisasi awal (IBD) dan penggunaan node di masa mendatang (misalnya, untuk transaksi Lightning). Secara pribadi, saya tidak menyarankan opsi ini, karena node tidak dimaksudkan untuk penggunaan seluler: node selalu diakses dari jarak jauh, jadi sebaiknya Anda membiarkannya tetap terhubung.
-
-
+Terakhir, pada halaman pengaturan ini, Anda juga dapat mengaktifkan koneksi Wi-Fi. Jika mesin yang menjadi host Umbrel Anda memiliki kartu jaringan Wi-Fi bawaan atau dongle Wi-Fi, ini memungkinkan Anda mengakses Internet tanpa menggunakan kabel RJ45. Namun, tergantung pada konfigurasi Anda, solusi ini dapat memperlambat koneksi, yang dapat memengaruhi sinkronisasi awal (IBD) dan penggunaan node di masa depan (misalnya, untuk transaksi Lightning). Secara pribadi, saya tidak merekomendasikan opsi ini, karena node tidak ditujukan untuk penggunaan seluler: node selalu diakses dari jarak jauh, jadi sebaiknya biarkan tetap terhubung dengan kabel.
 
 ### Langkah 6: Pasang node Bitcoin pada Umbrel
 
-
-
-Setelah UmbrelOS terinstal dan terkonfigurasi dengan benar di komputer Anda, Anda bisa melanjutkan dengan menginstal node Bitcoin. Tidak ada yang lebih sederhana: buka App Store, buka kategori "*Bitcoin*", lalu pilih aplikasi "*Bitcoin Node*" (sebenarnya adalah Bitcoin core).
-
-
+Sekarang setelah UmbrelOS terpasang dan dikonfigurasi dengan benar di mesin Anda, Anda dapat melanjutkan dengan memasang Node Bitcoin Anda. Tidak ada yang lebih sederhana: buka App Store, buka kategori "_Bitcoin_", lalu pilih aplikasi "_Bitcoin Node_" (ini sebenarnya adalah Bitcoin Core).
 
 ![Image](assets/fr/022.webp)
 
-
-
-Kemudian klik tombol "*Instal*".
-
-
+Kemudian klik tombol "*Install*".
 
 ![Image](assets/fr/023.webp)
 
-
-
-Setelah instalasi selesai, node Bitcoin Anda akan meluncurkan IBD (*Initial Block Download*): node ini akan mengunduh dan memvalidasi semua transaksi dan blok sejak Bitcoin dibuat pada tahun 2009.
-
-
+Setelah instalasi selesai, Node Bitcoin Anda akan meluncurkan IBD (_Initial Block Download_): node akan mengunduh dan memvalidasi semua transaksi dan blok sejak Bitcoin dibuat pada tahun 2009.
 
 ![Image](assets/fr/024.webp)
 
+Tahap ini sangat memakan waktu, karena durasinya bergantung pada beberapa faktor, termasuk jumlah RAM yang dialokasikan ke node cache, kecepatan disk, kecepatan koneksi Internet, dan daya prosesor. Rentang durasi karenanya sangat luas, tergantung pada konfigurasi. Dengan PC berkinerja tinggi (NVMe SSD, RAM +32 GB, prosesor yang kuat, dan koneksi Internet yang baik), IBD dapat diselesaikan dalam waktu sekitar sepuluh jam. Di sisi lain, prosesor lama, RAM rendah, atau, yang lebih buruk lagi, hard disk mekanis (sangat tidak disarankan) dapat memperpanjang operasi ini hingga beberapa minggu.
 
+Dengan PC konfigurasi normal (prosesor yang layak, RAM 8 hingga 16 GB, dan SSD), ini memungkinkan sekitar 2 hingga 7 hari.
 
-Tahap ini sangat memakan waktu, karena durasinya tergantung pada beberapa faktor, termasuk jumlah RAM yang dialokasikan ke cache node, kecepatan disk, kecepatan koneksi Internet, dan daya prosesor. Oleh karena itu, rentang durasinya sangat luas, tergantung pada konfigurasinya. Dengan PC berkinerja tinggi (SSD NVMe, RAM +32 GB, prosesor yang kuat, dan koneksi Internet yang baik), IBD dapat diselesaikan dalam waktu sekitar sepuluh jam. Di sisi lain, prosesor lama, RAM rendah, atau, lebih buruk lagi, disk Hard mekanis (sangat tidak disarankan) dapat memperpanjang operasi ini hingga beberapa minggu.
-
-
-
-Dengan PC dengan konfigurasi normal (prosesor yang layak, RAM 8 hingga 16 GB, dan SSD), waktu yang dibutuhkan sekitar 2 hingga 7 hari.
-
-
-
-Untuk sedikit mempercepat IBD, Anda dapat meningkatkan RAM yang dialokasikan ke cache node (terutama digunakan untuk set UTXO, yang akan kita bahas nanti dalam kursus) melalui parameter `dbcache`. Pada Umbrel, modifikasi ini dilakukan pada parameter node Anda, pada tab "*Optimization*".
-
-
+Untuk sedikit mempercepat IBD, Anda dapat meningkatkan RAM yang dialokasikan ke node cache (digunakan terutama untuk set UTXO, yang akan kita bahas kembali nanti di kursus) melalui parameter `dbcache`. Di Umbrel, modifikasi ini dilakukan di parameter node Anda, di tab "_Optimization_".
 
 ![Image](assets/fr/025.webp)
-
-
 
 Secara default, nilai parameter `dbcache` di Bitcoin core diatur ke 450 MiB, atau sekitar 472 MB. Dengan meningkatkan nilai ini, Anda dapat sedikit mempercepat IBD. Namun, saya tidak menyarankan untuk mendorong parameter ini terlalu tinggi: bahkan mengaturnya ke 4 GiB hanya akan membuat sinkronisasi sekitar 10% lebih cepat, dan dapat menyebabkan Anda kehilangan waktu jika terjadi gangguan selama IBD.
 

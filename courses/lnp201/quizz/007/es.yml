@@ -6,4 +6,4 @@ wrong_answers:
   - Representan pequeñas cantidades fijas de Bitcoin
 explanation: |
   Al igual que un billete de banco, un UTXO debe gastarse completamente en una transacción, y cualquier exceso se devuelve al emisor como cambio.
-  reviewed:true
+  reviewed: true

@@ -24,7 +24,7 @@ Il suo funzionamento è relativamente semplice: utilizziamo un UTXO in nostro po
 
 Così, tre ruoli diversi sono definiti nelle transazioni Stonewall x2:
 - Il mittente, che effettua il pagamento effettivo;
-- Il collaboratore, che fornisce bitcoin per migliorare l'anonimato complessivo della transazione, recuperando completamente i propri fondi alla fine (un'azione neutrale per loro, al netto delle commissioni di mining);
+- Il collaboratore, che fornisce bitcoin per migliorare l'anonimato complessivo della transazione, recuperando completamente i propri fondi alla fine (un'azione neutrale, al netto delle commissioni di mining);
 - Il destinatario, che potrebbe non essere a conoscenza della natura specifica della transazione e si aspetta semplicemente un pagamento dal mittente.
 
 Prendiamo un esempio per comprendere meglio. Alice è in panetteria per comprare la sua baguette, che costa `4.000 sats`. Vuole pagare in bitcoin mantenendo un certo livello di privacy per il suo pagamento. Chiama quindi il suo amico Bob, che la assisterà in questo processo.
@@ -51,11 +51,11 @@ Se si desidera trovare un collaboratore disposto ad assistere in una transazione
 
 ## Qual è lo scopo di una transazione Stonewall x2?
 
-La struttura Stonewall x2 aggiunge una quantità significativa di entropia alla transazione e confonde l'analisi della blockchain. Da una prospettiva esterna, una simil transazione può essere interpretata come una piccola Coinjoin tra due individui. Ma in realtà, si tratta di un pagamento. Questo metodo genera incertezze nell'analisi della blockchain e può persino portare a piste false.
+La struttura Stonewall x2 aggiunge una quantità significativa di entropia alla transazione e confonde la chain analysis. Da una prospettiva esterna, questa transazione può essere interpretata come una transazione coinjoin tra due individui. In realtà, si tratta di un pagamento. Questo metodo genera incertezze nell'analisi della blockchain e può persino portare a piste false.
 
 Torniamo all'esempio di Alice, Bob e il panettiere. La transazione sulla blockchain apparirebbe così:
 ![stonewall x2 public](assets/it/3.webp)
-Un osservatore esterno che si basa su euristiche comuni di analisi della blockchain potrebbe erroneamente concludere che "Alice e Bob hanno effettuato una piccola coinjoin, con un UTXO ciascuno come input e due UTXO ciascuno come output."![misinterpretation stonewall x2](assets/it/4.webp)
+Un osservatore esterno che si basa su euristiche comuni di chain analysis potrebbe erroneamente concludere che "Alice e Bob hanno effettuato un coinjoin, con un UTXO ciascuno come input e due UTXO ciascuno come output."![misinterpretation stonewall x2](assets/it/4.webp)
 Questa interpretazione è errata perché, come sapete, è stato inviato un UTXO al panettiere, Alice ha solo un output di resto e Bob ne ha due.
 ![transaction stonewall x2](assets/it/1.webp)
 Anche se l'osservatore esterno riesce a identificare il pattern della transazione Stonewall x2, non avrà tutte le informazioni. Non sarà infatti in grado di determinare quale dei due UTXO delle stesse quantità corrisponde al pagamento. Inoltre, non sarà in grado di sapere se è Alice o Bob a effettuare il pagamento. Infine, non sarà in grado di determinare se i due input UTXO provengono da due persone diverse o se appartengono a una singola persona che li ha uniti. Quest'ultimo punto è dovuto al fatto che le transazioni Stonewall classiche, di cui abbiamo parlato in precedenza, seguono esattamente lo stesso pattern delle transazioni Stonewall x2. Dall'esterno e senza informazioni aggiuntive sul contesto, è impossibile differenziare una transazione Stonewall da una transazione Stonewall x2. Tuttavia, le prime non sono transazioni collaborative, mentre le seconde lo sono. Questo aggiunge ancora più dubbi su questa spesa.
@@ -68,10 +68,10 @@ Se scegli la seconda opzione, dovrai stabilire una connessione tra i Paynym prim
 
 **Accedere al Paynym del collaboratore:**
 
-Per iniziare, è necessario ottenere il codice di pagamento del Paynym del tuo collaboratore. Nell'applicazione Samourai Wallet, il tuo collaboratore deve toccare l'icona del loro Paynym (il piccolo robot) situata in alto a sinistra dello schermo, e quindi fare clic sul loro nickname Paynym, che inizia con `+...`. Ad esempio, il mio è `+namelessmode0aF`.
+Per iniziare, è necessario ottenere il codice di pagamento del Paynym del tuo collaboratore. Nell'applicazione Samourai Wallet, il tuo collaboratore deve toccare l'icona del suo Paynym (il piccolo robot) situata in alto a sinistra dello schermo, e quindi fare clic sul nickname Paynym, che inizia con `+...`. Ad esempio, il mio è `+namelessmode0aF`.
 
 ![samourai paynym](assets/notext/6.webp)
-Se il tuo collaboratore sta usando Sparrow Wallet, deve fare clic sulla scheda 'Strumenti', quindi su 'Mostra PayNym'.![paynym sparrow](assets/notext/7.webp)
+Se il tuo collaboratore sta usando Sparrow Wallet, deve fare clic sulla scheda 'Tools', quindi su 'Show PayNym'.![paynym sparrow](assets/notext/7.webp)
 **Seguire il PayNym del collaboratore da Samourai Wallet:**
 
 Se stai usando Samourai Wallet, avvia l'applicazione e accedi al menu 'PayNyms' allo stesso modo. Se è la prima volta che usi il tuo PayNym, dovrai ottenere il suo identificatore.
@@ -80,22 +80,22 @@ Se stai usando Samourai Wallet, avvia l'applicazione e accedi al menu 'PayNyms' 
 
 Quindi fai clic sul pulsante blu `+` in basso a destra dello schermo.
 ![add collaborator paynym](assets/notext/9.webp)
-Puoi quindi incollare il codice di pagamento del tuo collaboratore selezionando 'INCOLLA CODICE DI PAGAMENTO', o aprire la fotocamera per scannerizzare il loro codice QR premendo 'SCANSIONA CODICE QR'.
+Puoi quindi incollare il codice di pagamento del tuo collaboratore selezionando 'COLLER LE CODE DE PAIEMENT'(incolla il codice di pagamento), o aprire la fotocamera per scannerizzare il loro codice QR premendo 'SCANNEZ LE CODE QR'(scannerizza il QR code).
 ![paste paynym identifier](assets/notext/10.webp)
 
-Fai clic sul pulsante 'SEGUI'.
+Fai clic sul pulsante 'SUIVRE'(avanti).
 ![follow paynym](assets/notext/11.webp)
-Conferma facendo clic su 'SI'.
+Conferma facendo clic su 'YES'.
 ![confirm follow paynym](assets/notext/12.webp)
-Il software ti offrirà quindi un pulsante 'CONNETTI'. Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti all'altro PayNym nell'ambito di BIP47, che non è correlato al nostro tutorial.
+Il software ti proporrà quindi un pulsante 'SE CONNECTER' (connettiti). Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti all'altro PayNym nell'ambito di BIP47, che non è correlato al nostro tutorial.
 ![connect paynym](assets/notext/13.webp)
 Una volta che il tuo PayNym sta seguendo il PayNym del tuo collaboratore, ripeti questo processo in direzione opposta in modo che anche il tuo collaboratore possa seguirti. A questo punto puoi eseguire una transazione Stonewall x2.
 
 **Seguire il PayNym del collaboratore da Sparrow Wallet:**
 
-Se stai usando Sparrow Wallet, apri il tuo portafoglio e accedi al menu 'Mostra PayNym'. Se stai usando il tuo PayNym per la prima volta, dovrai ottenere un identificatore facendo clic su 'Recupera PayNym'.
+Se stai usando Sparrow Wallet, apri il tuo wallet e accedi al menu 'Show PayNym'(mostra PayNym). Se stai usando il tuo PayNym per la prima volta, dovrai ottenere un identificatore facendo clic su 'Retrieve PayNym' (recupera PayNym).
 ![request paynym sparrow](assets/notext/14.webp)
-Quindi inserisci l'identificatore del PayNym del tuo collaboratore (sia il loro nickname '+...' che il loro codice di pagamento 'PM...') nella casella 'Trova contatto' e fai clic sul pulsante 'Aggiungi contatto'.
+Quindi inserisci l'identificatore del PayNym del tuo collaboratore (sia il loro nickname '+...' che il loro codice di pagamento 'PM...') nella casella 'Find Contact' (trova contatto) e fai clic sul pulsante 'Add Contact'(aggiungi contatto).
 ![add contact paynym](assets/notext/15.webp)
 Il software ti offrirà quindi un pulsante "Link Contatto". Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti al PayNym indicato come parte di BIP47, che non è correlato al nostro tutorial.
 Una volta che il tuo PayNym sta seguendo il PayNym del tuo collaboratore, ripeti questo processo nella direzione opposta in modo che anche il tuo collaboratore possa seguirti. Puoi quindi effettuare una transazione Stonewall x2.

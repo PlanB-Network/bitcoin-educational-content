@@ -1,9 +1,9 @@
-question: Ni itandukaniro irihe rikomeye riri hagati yo gukoresha urubuga rwa TOR no gukoresha urubuga rwa TOR?
-answer: Tor ipfuka IP y'ukoresha Address, mu gihe gusesangura kw'ibanga bitabikora.
+question: Ni itandukaniro nyamukuru irihe riri hagati yo gukoresha ibikoresho vyo kurondera kumbuga mu buryo bwihariye no gukoresha urubuga rwa TOR?
+answer: Tor inyegeza IP y'ukoresha Address, bitandukanye n'ibindi bikoresho vyo kurondera ku mbuga.
 wrong_answers:
-  - Gucapura mu buryo bwihariye na TOR ni kimwe.
-  - Gushakisha mu buryo bwihariye bipfuka IP Address y’ukoresha, mu gihe TOR itabipfuka.
-  - TOR isiga ibimenyetso vyo mu karere kuri mudasobwa yawe, mu gihe gusura mu buryo bwihariye bitabikora.
+  - Ibikoresho vyo kurondera kuri interineti mu buryo bwihariye na TOR ni kimwe.
+  - Kurondera kumbuga mu buryo bwihariye bipfuka IP Address y’ukoresha, mu gihe TOR itabipfuka.
+  - TOR isiga ibimenyetso vyo mu karere kuri nyabwoya yawe, mu gihe kugendera mu buryo bwihariye bitabikora.
 explanation: |
   Gusura mu buryo bwihariye ni ikintu kibuza interineti
   umucukumbuzi kuva mu kubika amateka y'umucukumbuzi, interineti y'igihe gito

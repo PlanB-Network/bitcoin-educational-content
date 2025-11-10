@@ -1995,7 +1995,7 @@ The opposition between Athens and Sparta during the classical Greek period revea
 The Athenian Empire, despite its grandiose name, remained geographically modest - essentially Athens and the cities of the Aegean Sea. Its power rested on the League of Delos, a military alliance dominated by Athens as hegemon. This imperial structure required a unified economic instrument: the Athenian silver coin.
 
 
-Maintaining a fleet was at the heart of this monetary necessity. A single Athenian triere cost between one and two talents of silver - a considerable sum. With several hundred ships to maintain, Athens needed an efficient tax system. Currency became the indispensable tool for collecting tribute from vassal cities and financing the naval projection force that guaranteed the cohesion of the empire.
+Maintaining a fleet was at the heart of this monetary necessity. A single Athenian trireme cost between one and two talents of silver - a considerable sum. With several hundred ships to maintain, Athens needed an efficient tax system. Currency became the indispensable tool for collecting tribute from vassal cities and financing the naval projection force that guaranteed the cohesion of the empire.
 
 
 ### Monetary imposition as a tool of domination
@@ -2004,7 +2004,7 @@ Maintaining a fleet was at the heart of this monetary necessity. A single Atheni
 Athens imposed its silver currency on all members of the League of Delos. This monetary standardization served several strategic objectives. Firstly, it facilitated the collection of tributes by creating a common unit of account. Secondly, it reinforced the economic dependence of vassal cities on Athens. Finally, it symbolically projected Athenian power across the entire maritime empire.
 
 
-This monetary policy contrasts sharply with the Spartan model. Sparta, a land power, could rely on the labor of the Peloponnesian hilots (slaves) for its subsistence. Its closed, city-centric economic system did not require sophisticated monetary instruments. Citizen-soldiers lived together, shared common meals and didn't need money for daily exchanges.
+This monetary policy contrasts sharply with the Spartan model. Sparta, a land power, could rely on the labor of the Peloponnesian hilots (slaves) for its subsistence. Its closed, city-centric economic system did not require sophisticated monetary instruments. Citizen-soldiers lived together, shared common meals, and didn't need money for daily exchanges.
 
 
 ### Currency as a vehicle for maritime trade
@@ -2045,18 +2045,18 @@ These two systems show that the adoption of currency is closely linked to the po
 
 
 
-- 753 - 509 BC: Kingdom of Rome** (Rome)
-- 753 BC: Foundation of Rome** (traditionally attributed to Romulus).
-- 509 - 27 BC: Roman Republic**, Rome becomes a republic governed by an elected Senate and consuls.
-- 280-275 BC: Pyrrhic War**. Pyrrhus, King of Epirus, battles the Romans in southern Italy, winning costly victories ("Pyrrhic victories").
-- 264 - 146 BC: Punic Wars**. Major conflict pitting Rome against Carthage for domination of the western Mediterranean.
-- Hannibal (247 - c. 181 BC)**. Legendary Carthaginian general, famous for crossing the Alps with his army and elephants to attack Rome during the Second Punic War.
-- 146 BC: Battle of Corinth**. Rome destroys the Greek city of Corinth and imposes its final domination on mainland Greece.
-- 91 - 87 BC: Social War**. Revolt by Rome's Italian allies demanding Roman citizenship, which eventually led to their full integration into the citizenry.
-- 64 BC: End of Seleucid resistance**. Rome definitively eliminates Seleucid influence in Syria, consolidating its hold on the Eastern Mediterranean.
-- 55 BC: Julius Caesar conquers Central and Western Europe**. Julius Caesar extends Roman domination over Gaul (present-day France) and enters Germania and Brittany.
-- 43 BC: Formation of the Second Triumvirate**. Political alliance between Octavian (later Augustus), Mark Antony and Lepidus, to stabilize Rome after Caesar's assassination.
-- 27 BC: Beginning of the Pax Romana**. A period of political stability and prosperity under the reign of Augustus, marking the beginning of the Roman Empire.
+- **753 - 509 BC: Kingdom of Rome** 
+- **753 BC: Foundation of Rome** (traditionally attributed to Romulus).
+- **509 - 27 BC: Roman Republic**, Rome becomes a republic governed by an elected Senate and consuls.
+- **280 - 275 BC: Pyrrhic War**. Pyrrhus, King of Epirus, battles the Romans in southern Italy, winning costly victories ("Pyrrhic victories").
+- **264 - 146 BC: Punic Wars**. Major conflict pitting Rome against Carthage for domination of the western Mediterranean.
+- **Hannibal (247 - c. 181 BC)**. Legendary Carthaginian general, famous for crossing the Alps with his army and elephants to attack Rome during the Second Punic War.
+- **146 BC: Battle of Corinth**. Rome destroys the Greek city of Corinth and imposes its final domination on mainland Greece.
+- **91 - 87 BC: Social War**. Revolt by Rome's Italian allies demanding Roman citizenship, which eventually led to their full integration into the citizenry.
+- **64 BC: End of Seleucid resistance**. Rome definitively eliminates Seleucid influence in Syria, consolidating its hold on the Eastern Mediterranean.
+- **55 BC: Julius Caesar conquers Central and Western Europe**. Julius Caesar extends Roman domination over Gaul (present-day France) and enters Germania and Brittany.
+- **43 BC: Formation of the Second Triumvirate**. Political alliance between Octavian (later Augustus), Mark Antony and Lepidus, to stabilize Rome after Caesar's assassination.
+- **27 BC: Beginning of the Pax Romana**. A period of political stability and prosperity under the reign of Augustus, marking the beginning of the Roman Empire.
 
 
 ### Rome's late monetary beginnings
@@ -2080,7 +2080,7 @@ In fact, many Roman coins from the Republic period depict founding myths. And I'
 ### The origin of the word "coin" and the temple of Juno Moneta
 
 
-The term "coin" has its origins in the temple of Juno Moneta in Rome. Legend has it that, during a Gallic invasion in 390 BC, the sacred geese of the Capitol alerted the Romans to an imminent danger. To thank the goddess Juno, protector of the Capitoline, a temple was erected in her honor and soon became the mint for Roman coins.
+The term "coin" has its origins in the temple of Juno Moneta in Rome. Legend has it that, during a Gallic invasion in 390 BC, the sacred geese of the Capitol alerted the Romans to an imminent danger. To thank the goddess Juno, protector of the Capitol, a temple was erected in her honor and soon became the mint for Roman coins.
 
 
 ### The Punic Wars and currency crises
@@ -2095,13 +2095,13 @@ Here, we return to a concept we've already discussed with the Greeks of melting 
 ![](./assets/fr/3_2_Carthage.webp)
 
 
-As a result, the weight of bronze coins, AES, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary valuation due to these wars.
+As a result, the weight of bronze coins, aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary valuation due to these wars.
 
 
 ### The silver denier and monetary stability
 
 
-It was against this critical backdrop that Rome introduced the famous silver denarius around 212 BC. This reform ensured remarkable monetary stability, with the denarius remaining the dominant currency for almost 450 years. Rome owes this stability to rigorous management, despite a major retarification in 146 BC and considerable production to finance its immense armies, notably during the Punic, Social (91-87 BC) and Macedonian wars. By way of example, maintaining a single Roman legion cost around 1.5 million denarii per year, illustrating the scale of monetary needs.
+It was against this critical backdrop that Rome introduced the famous silver denarius around 212 BC. This reform ensured remarkable monetary stability, with the denarius remaining the dominant currency for almost 450 years. Rome owes this stability to rigorous management, despite a major repricing in 146 BC and considerable production to finance its immense armies, notably during the Punic, Social (91-87 BC), and Macedonian wars. By way of example, maintaining a single Roman legion cost around 1.5 million denarii per year, illustrating the scale of monetary needs.
 
 
 Beyond the Roman borders, wars led to major devaluations in regions under Roman influence. Punic Carthage saw the purity of its electrum drop dramatically, from 98% gold in the 4th century to just 30% during the Second Punic War, while its silver coins fell to 18% purity.
@@ -2129,7 +2129,7 @@ Finally, while Rome dominated the Mediterranean world economically, it retained 
 **The Principate** was the form of imperial government in the Roman Empire from the beginning of Augustus' reign in 27 BC to the end of the third-century crisis in 284 AD.
 
 
-**27 BC: Beginning of the Pax Romana** (Roman Peace)
+**27 BC: Beginning of the Pax Romana** 
 
 Period of political stability and prosperity under the reign of Augustus, marking the beginning of the Roman Empire.
 
@@ -2140,7 +2140,7 @@ Period of political stability and prosperity under the reign of Augustus, markin
 **Augustus was also one of the first recognized collectors** of ancient coins and fossils.
 
 
-**54 AD - 68 AD: Nero** (Nero)
+**54 AD - 68 AD: Nero** 
 
 Controversial Roman emperor, known for his tyranny, persecutions and disastrous management after the burning of Rome.
 
@@ -2155,12 +2155,12 @@ A major fire ravages much of the city; Nero is accused of being responsible.
 A chaotic period with four emperors in quick succession (Galba, Otto, Vitellius, Vespasian).
 
 
-**79 A.D.: Vesuvius eruption** (in French)
+**79 A.D.: Vesuvius eruption** 
 
 Volcano that destroyed the cities of Pompeii and Herculaneum, exceptionally preserving their remains under the ashes.
 
 
-*165 AD - 180 AD: Antonine plague** (*)
+**165 AD - 180 AD: Antonine plague**
 
 Devastating epidemic that weakened the Roman Empire under Marcus Aurelius and Commodus.
 
@@ -2170,7 +2170,7 @@ Devastating epidemic that weakened the Roman Empire under Marcus Aurelius and Co
 Rome reached its maximum extension, but began to suffer from internal instability and economic difficulties.
 
 
-**212 AD: Edict of Caracalla on citizenship** (in French)
+**212 AD: Edict of Caracalla on citizenship** 
 
 Emperor Caracalla granted Roman citizenship to almost all the empire's inhabitants, in order to broaden the tax base.
 
@@ -2180,7 +2180,7 @@ Emperor Caracalla granted Roman citizenship to almost all the empire's inhabitan
 First significant incursions of Germanic peoples across Roman borders.
 
 
-**235 AD - 285 AD: Political and military crisis of the 3rd century
+**235 AD - 285 AD: Political and military crisis of the 3rd century**
 
 A period marked by political instability, with many short-lived emperors, civil wars, economic crises and continuous invasions.
 
@@ -2188,7 +2188,7 @@ A period marked by political instability, with many short-lived emperors, civil 
 **Aurelian (AD 270-275) radically revalued the Roman currency**, attempting to restore its nominal value despite high inflation.
 
 
-**301 A.D.: Diocletian's Price Edict** (in French)
+**301 A.D.: Diocletian's Price Edict** 
 
 Emperor Diocletian tried in vain to halt rampant inflation by imposing strict price and wage controls throughout the empire.
 
@@ -2206,7 +2206,7 @@ Rome is taken by various Germanic peoples (including the Ostrogoths), an event c
 ### Augustus' monetary reforms
 
 
-In this section on Antiquity, we've already come to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
+In this section on Antiquity, we've already come to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
 
 
 After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sesterces. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
@@ -2227,10 +2227,10 @@ After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome,
 However, from Nero onwards (AD 54-68), Rome began a slow devaluation of its coins, progressively reducing their weight and purity to finance growing imperial expenditure, particularly after the great fire of Rome in AD 64. These devaluations had notable effects: purer coins were withdrawn from circulation through hoarding or export, in accordance with **Gresham's law**, while devalued coins proliferated, causing a gradual rise in prices.
 
 
-The third century marks a dramatic turning point, with a spectacular acceleration in devaluations under the emperors Septimius Severus, Caracalla and Gallien. The main silver coin, the denarius and then the Antoninian, saw its silver content drop to just 2%. At the same time, the gold weight of the aureus dropped by half. This monetary crisis was accompanied by unprecedented political instability, barbarian invasions and recurrent civil wars.
+The third century marks a dramatic turning point, with a spectacular acceleration in devaluations under the emperors Septimius Severus, Caracalla, and Gallien. The main silver coin, the denarius and then the antoninian, saw its silver content drop to just 2%. At the same time, the gold weight of the aureus dropped by half. This monetary crisis was accompanied by unprecedented political instability, barbarian invasions and recurrent civil wars.
 
 
-This allows me to introduce the last piece in this section, an Antoninian. We don't know what this piece was called at the time. We call it an antoninien. This coin has the particularity of being worth two denarii, but the problem is that it's only 1.5 times as big as a denarius. What's more, eventually, they were only billon coins, i.e. a non-pure alloy of silver and other metals. The coins were simply coated with silver. It was a fine example of monetary decay.
+This allows me to introduce the last piece in this section, an antoninian. We don't know what this piece was called at the time. We call it an antoninian. This coin has the particularity of being worth two denarii, but the problem is that it's only 1.5 times as big as a denarius. What's more, eventually, they were only billon coins, i.e., a non-pure alloy of silver and other metals. The coins were simply coated with silver. It was a fine example of monetary decay.
 
 
 ![](./assets/fr/3_3_antoninien.webp)
@@ -2239,16 +2239,16 @@ This allows me to introduce the last piece in this section, an Antoninian. We do
 ![](./assets/fr/3_3_Denier-Antoninien.webp)
 
 
-Faced with this situation, Emperor Aurelian (270-275) attempted to stabilize the system by nominally revaluing currencies, but **this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.**
+Faced with this situation, Emperor Aurelian (270-275 AD) attempted to stabilize the system by nominally revaluing currencies, but **this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.**
 
 
-And I'm taking a little break to say a few words on the subject. It was really at this time that inflation in the 3rd century took an almost exponential turn. Before, even if coins were devalued, the fact that they were handmade, one by one, minted, still assured us of a certain control over inflation. I have statistics that over 300 years of devaluation, it amounted to maybe 4% inflation per year. Just before Aurelian's reform, inflation was around 3% a year. Aurelian stamped a purity measurement on the XXI sign coin, i.e. 20 parts bronze to one part silver, i.e. 5% purity. He marketed these 5% silver coins and stamped this sign on them. The problem was that he recalled all the other coins, the ones that were really more devalued, and also stamped the famous XXI on them. So he revalued the face value of all the coins. The result was an inflation rate of 20% per year, instead of the 3% we'd seen before this technique was introduced.
+And I'm taking a little break to say a few words on the subject. It was really at this time that inflation in the 3rd century took an almost exponential turn. Before, even if coins were devalued, the fact that they were handmade, one by one, minted, still assured us of a certain control over inflation. I have statistics that over 300 years of devaluation, it amounted to maybe 4% inflation per year. Just before Aurelian's reform, inflation was around 3% a year. Aurelian stamped a purity measurement on the XXI sign coin, i.e., 20 parts bronze to one part silver, i.e., 5% purity. He marketed these 5% silver coins and stamped this sign on them. The problem was that he recalled all the other coins, the ones that were really more devalued, and also stamped the famous XXI on them. So he revalued the face value of all the coins. The result was an inflation rate of 20% per year, instead of the 3% we'd seen before this technique was introduced.
 
 
-It was really Aurélien who invented this form of devaluation, which is much faster than the gradual devaluation of metal, which still forced us to print coins one by one. What he did was to take all the existing coins, recall them and stamp them with a punch to change their face value. It's a real turning point. That's when inflation became exponential.
+It was really Aurelian who invented this form of devaluation, which is much faster than the gradual devaluation of metal, which still forced us to print coins one by one. What he did was to take all the existing coins, recall them and stamp them with a punch to change their face value. It's a real turning point. That's when inflation became exponential.
 
 
-As a way of expressing and giving you a visual appreciation of this extreme valuation, I've found some very interesting statistics on the price of grain in Egypt from 40 BC to the 3rd century, i.e. over 300 years. For example, I have a Greek tetradrachma. There was the equivalent in Egypt at the time, an Egyptian tetradrachma under Roman occupation in the 3rd century. In Egypt, they still used the denomination drachmas and it was the equivalent of a denarius.
+As a way of expressing and giving you a visual appreciation of this extreme valuation, I've found some very interesting statistics on the price of grain in Egypt from 40 BC to the 3rd century, i.e., over 300 years. For example, I have a Greek tetradrachma. There was the equivalent in Egypt at the time, an Egyptian tetradrachma under Roman occupation in the 3rd century. In Egypt, they still used the denomination drachmas and it was the equivalent of a denarius.
 
 
 ![](./assets/fr/3_3_egypt-tetradrachm.webp)
@@ -2263,7 +2263,7 @@ So the Egyptian tetradrachm I have here was the equivalent of a denarius. You ca
 It's the physical expression of Aurelian's reform. It should be noted that the majority, the average over these 300 years of inflation, was around 4%. It was only at the end, when Aurelian made his reform, that this inflation became rather exponential and we arrived at this measure of 1 million. Prices were a million times higher at the end of the 3rd century than in the 1st century BC.
 
 
-His successor **Diocletian** (284-305) attempted even more radical reforms: he issued new currencies (notably the argenteus, purer but too limited in quantity), imposed drastic price controls (Price Edict of 301 AD) and **established a tax system based on payments in kind**. Despite these efforts, Diocletian's reforms failed to curb rampant inflation.
+His successor **Diocletian** (284-305 AD) attempted even more radical reforms: he issued new currencies (notably the argenteus, purer but too limited in quantity), imposed drastic price controls (Price Edict of 301 AD) and **established a tax system based on payments in kind**. Despite these efforts, Diocletian's reforms failed to curb rampant inflation.
 
 
 Faced with the refusal to supply goods and services in exchange for devalued currency, Diocletian instituted **a hereditary caste system** to tie peasants and their descendants to their land.
@@ -2279,7 +2279,7 @@ To illustrate this example, here I have a text, an extract from the book "*Monet
 
 > This hereditary caste system gradually spread: Diocletian forced soldiers' sons to serve in the army, while workers in the money workshops, as well as in the weaving and dyeing factories Diocletian had created, became state slaves, with hereditary service. Gold miners also later became a hereditary caste. Other hereditary classes probably already existed in Diocletian's time, notably the guilds of bakers and butchers [...] in Rome, as well as the diocesan guilds of ship captains who transported grain and other public cargoes to Rome.
 
-It was Constantine (306-337) who finally succeeded in stabilizing the monetary system by introducing the solidus in 312, a pure gold coin whose quality and weight he strictly guaranteed. There was an entire system for verifying the purity and weight of the solidus. **This stability, however, only affected a wealthy elite and the imperial administration**, while the **majority of the population continued to suffer from low-quality currency and persistent inflation**. The solidus remained stable in the Eastern Empire (Byzantium), where it lasted for more than a millennium, while in the West, coinage fragmented into small, low-value coins, accompanying the final economic and political disintegration of the Roman Empire, which fell definitively in 476 AD.
+It was Constantine (306-337 AD) who finally succeeded in stabilizing the monetary system by introducing the solidus in 312, a pure gold coin whose quality and weight he strictly guaranteed. There was an entire system for verifying the purity and weight of the solidus. **This stability, however, only affected a wealthy elite and the imperial administration**, while the **majority of the population continued to suffer from low-quality currency and persistent inflation**. The solidus remained stable in the Eastern Empire (Byzantium), where it lasted for more than a millennium, while in the West, coinage fragmented into small, low-value coins, accompanying the final economic and political disintegration of the Roman Empire, which fell definitively in 476 AD.
 
 
 To conclude, I'd like to share with you this quote from *A History of Money: From Ancient Times to the Present Day* by Glyn Davies, which masterfully sums up what perhaps led to Rome's downfall:

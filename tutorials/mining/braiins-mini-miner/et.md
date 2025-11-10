@@ -134,13 +134,13 @@ Siinkohal peame otsustama, millist basseini kasutada. Selles õpetuses näitan t
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Teine võimalus on ühendada meid Mining pool, mis mina soolo, nagu Public Pool, järgige seda juhendit, et seda teha:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Braiins bassein
 
@@ -150,7 +150,7 @@ Selle basseiniga ühendumiseks peame looma konto. see bassein teeb ka makseid, k
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Kui see on tehtud, oleme Braiinsi basseinis armatuurlaual. Mida me peame tegema, on öelda basseinile, et me tahame ühendada ühe meie kaevuritega, nii et ekraani vasakul poolel on mitmeid kirjeid. Me peame minema "töötajate" juurde
 
@@ -168,7 +168,7 @@ ja me peame klõpsama lillat värvi nupule paremal, millel on kirjas "Connect wo
 
 
 
-Siin tuleb aken, kus on teave, mida me vajame meie mini Miner ühendamiseks basseiniga. Ainus muudatus, mida me saame teha, on valida Stratum V2. Selle kohta, mis on Stratum v2, leiate selle kirje [glossary] (https://planb.network/en/resources/glossary/stratum-v2).
+Siin tuleb aken, kus on teave, mida me vajame meie mini Miner ühendamiseks basseiniga. Ainus muudatus, mida me saame teha, on valida Stratum V2. Selle kohta, mis on Stratum v2, leiate selle kirje [glossary] (https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

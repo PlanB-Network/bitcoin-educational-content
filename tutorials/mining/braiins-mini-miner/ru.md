@@ -134,13 +134,13 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Второй вариант - подключить нас к Mining pool, которая майнит в соло, например Public Pool, для этого следуйте этому руководству:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Бассейн Braiins
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 После этого мы попадаем в панель управления пулом Braiins. Нам нужно сообщить пулу, что мы хотим подключиться к одному из наших майнеров, поэтому в левой части экрана вы найдете несколько записей. Нам нужно перейти к пункту "Рабочие"
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-Появляется окно с информацией, необходимой для подключения нашего мини Miner к пулу. Здесь единственное изменение, которое мы можем сделать, - это выбрать Stratum V2. Чтобы узнать, что такое Stratum v2, смотрите эту запись в [глоссарии](https://planb.network/en/resources/glossary/stratum-v2).
+Появляется окно с информацией, необходимой для подключения нашего мини Miner к пулу. Здесь единственное изменение, которое мы можем сделать, - это выбрать Stratum V2. Чтобы узнать, что такое Stratum v2, смотрите эту запись в [глоссарии](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

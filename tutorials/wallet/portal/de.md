@@ -66,7 +66,7 @@ Sie können ihn auf einem Stück Papier eingravieren lassen, oder für zusätzli
 
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.
 
@@ -228,4 +228,4 @@ Herzlichen Glückwunsch, jetzt haben Sie den Dreh raus, wie man Portal benutzt! 
 
 Wenn Sie mehr darüber erfahren möchten, schauen Sie sich unseren kompletten Schulungskurs über die Funktionsweise von HD-Portfolios an:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

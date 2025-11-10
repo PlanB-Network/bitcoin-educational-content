@@ -15,10 +15,11 @@ original_language: en
 
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 2.26
+      - 2raj2raj
+    reward: 1.13
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -142,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: rn
     last_contribution_date:
     urgency: 1

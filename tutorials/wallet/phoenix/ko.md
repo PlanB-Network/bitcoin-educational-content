@@ -90,7 +90,7 @@ Phoenix는 휴대폰에 내장된 진정한 라이트닝 노드로 작동하며,
 Mnemonic 문구를 저장하고 관리하는 올바른 방법에 대한 자세한 내용은 특히 초보자라면 이 다른 튜토리얼을 따르는 것이 좋습니다:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Interface 상단에 표시되는 "*Wallet 저장...*"이라는 메시지를 클릭합니다.
 
@@ -263,9 +263,9 @@ Interface 상단의 필드에 있는 키보드를 통해 이 정보를 수동으
 한 단계 더 나아가 나만의 라이트닝 노드를 시작하기 위한 또 다른 혁신적이고 사용하기 쉬운 솔루션인 Alby Hub에 대한 튜토리얼을 확인해 보세요:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Lightning Network의 기술적 작동에 대해 자세히 알아보려면 Plan ₿ Network 에 대한 Fanis Michalakis의 훌륭한 무료 교육을 확인할 수 있습니다:
+Lightning Network의 기술적 작동에 대해 자세히 알아보려면 Plan ₿ Academy 에 대한 Fanis Michalakis의 훌륭한 무료 교육을 확인할 수 있습니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

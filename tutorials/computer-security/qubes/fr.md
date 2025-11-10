@@ -49,7 +49,7 @@ Les avantages de Qubes OS reposent avant tout sur son modèle de sécurité uniq
 
 Qubes OS offre également une transparence et un contrôle total sur votre environnement numérique. Vous savez exactement quel logiciel a accès à quelle ressource, qu’il s’agisse du réseau, d’un périphérique USB ou d’autres composants sensibles. Le système intègre par défaut des fonctionnalités de sécurité avancées, telles que le chiffrement complet du disque, et facilite l’utilisation de services d’anonymat comme sur le système d'exploitation Whonix.
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Plutôt que de chercher à créer un système impénétrable, Qubes OS mise sur la résilience : il encapsule les dommages en cas de compromission, réduisant les risques pour le reste du système. Cette approche pragmatique fait de Qubes OS, un choix privilégié pour les utilisateurs ayant des besoins de sécurité élevés ou souhaitant garder un contrôle maximal sur leur vie numérique.
 
@@ -62,7 +62,7 @@ Avant d’installer Qubes OS, il est essentiel de s’assurer que votre matérie
 
 Pour installer Qubes OS,  téléchargez l’image ISO officielle depuis le [site officiel](https://www.qubes-os.org/downloads/) de Qubes OS. Il est essentiel de vérifier l’intégrité de l’ISO à l’aide des signatures GPG fournies, afin de s’assurer que le fichier n’a pas été altéré et que le téléchargement est sécurisé.
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -161,7 +161,7 @@ En conclusion, Qubes OS n'est pas un système d'exploitation ordinaire, mais une
 
 Que ce soit pour naviguer sur Internet de façon sécurisée, protéger vos informations sensibles ou travailler avec différents niveaux de confiance, Qubes OS fournit un cadre résilient et transparent. En adoptant de bonnes pratiques et en exploitant pleinement ses fonctionnalités, vous disposerez d’une **forteresse numérique** adaptée aux menaces modernes. Découvrez notre cursus sur la protection de ses données et de sa confidentialité.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 

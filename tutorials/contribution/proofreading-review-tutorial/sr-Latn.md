@@ -1,6 +1,6 @@
 ---
 name: Lektorisanje ili Pregled sadržaja
-description: Kako možete učestvovati u lekturi/pregledu obrazovnog sadržaja na Plan ₿ Network?
+description: Kako možete učestvovati u lekturi/pregledu obrazovnog sadržaja na Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Kako možete učestvovati u lekturi/pregledu obrazovnog sadržaja n
 ## Ukratko
 
 
-Ako želite da lektorirate ili pregledate sadržaj za Plan ₿ Network, pridružite se [našoj Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) posvećenoj doprinosima. Ukratko se predstavite, zatim navedite sadržaj koji želite pregledati i jezik. Ispravke napravite na radnoj grani i pošaljite PR kada završite pregled.
+Ako želite da lektorirate ili pregledate sadržaj za Plan ₿ Academy, pridružite se [našoj Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) posvećenoj doprinosima. Ukratko se predstavite, zatim navedite sadržaj koji želite pregledati i jezik. Ispravke napravite na radnoj grani i pošaljite PR kada završite pregled.
 
 
 Ako niste razumeli deo iznad, ne brinite—ovaj vodič je za vas!
@@ -16,19 +16,19 @@ Ako niste razumeli deo iznad, ne brinite—ovaj vodič je za vas!
 
 ---
 
-## Šta je Plan ₿ Network?
+## Šta je Plan ₿ Academy?
 
 
-Plan ₿ Network je platforma za učenje o Bitcoin kroz brojne kurseve i tutorijale za sve. Trenutno je sav naš sadržaj otvorenog koda, hostovan na GitHub repozitorijumu, i otvoren za doprinose za pregled i kreiranje sadržaja.
+Plan ₿ Academy je platforma za učenje o Bitcoin kroz brojne kurseve i tutorijale za sve. Trenutno je sav naš sadržaj otvorenog koda, hostovan na GitHub repozitorijumu, i otvoren za doprinose za pregled i kreiranje sadržaja.
 
 
-Plan ₿ Network ima za cilj da postane javni trg Bitcoin sajberprostora, povezujući i podstičući Bitcoin zajednice širom sveta.
+Plan ₿ Academy ima za cilj da postane javni trg Bitcoin sajberprostora, povezujući i podstičući Bitcoin zajednice širom sveta.
 
 
 ## Zašto doprineti?
 
 
-Plan ₿ Network je suštinski višejezičan, jer je naš cilj da Bitcoin resursi budu dostupni svima širom sveta. Verujemo da jezik ne bi trebalo da bude prepreka suverenom novcu.
+Plan ₿ Academy je suštinski višejezičan, jer je naš cilj da Bitcoin resursi budu dostupni svima širom sveta. Verujemo da jezik ne bi trebalo da bude prepreka suverenom novcu.
 
 
 Da bismo to postigli, koristimo pristup Čovek x AI. Kroz naš [program](https://github.com/Asi0Flammeus/LLM-Translator), možemo automatski prevesti naš sadržaj na mnoge jezike. Međutim, potreban nam je tečan govornik da ga pregleda kako bi se osiguralo da je sadržaj razumljiv i bez neprikladnih izraza.
@@ -49,7 +49,7 @@ Ne morate biti GitHub stručnjak da biste pregledali sadržaj. Iako je uvek bolj
 Međutim, ako niste upoznati sa Git-om i GitHub-om i želite da saznate više, možete pogledati naš uvodni članak o ovim alatima:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Kreiraj nalog
 
@@ -71,7 +71,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Pridružite se [grupi PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) na Telegramu.
+- Pridružite se [grupi Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) na Telegramu.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -120,7 +120,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-NB. Preporučuje se pregled u prozoru za kod, sa originalnim sadržajem prikazanim u zasebnom prozoru. Na primer, možete pregledati tekst na Plan ₿ Network vebsajtu ili u GitHub pregledu na kartici pregledača. Koristite `ctrl + F` da pronađete greške i izvršite ispravke u prikazu koda dok pregledate.
+NB. Preporučuje se pregled u prozoru za kod, sa originalnim sadržajem prikazanim u zasebnom prozoru. Na primer, možete pregledati tekst na Plan ₿ Academy vebsajtu ili u GitHub pregledu na kartici pregledača. Koristite `ctrl + F` da pronađete greške i izvršite ispravke u prikazu koda dok pregledate.
 
 
 ## 4. Potvrdi izmene
@@ -161,7 +161,7 @@ NB. Preporučuje se pregled u prozoru za kod, sa originalnim sadržajem prikazan
 
 - Ako niste završili pregled i želite da nastavite sa radom kasnije, jednostavno možete izaći.
 - Sve dok ste izvršili svoje izmene, one su sačuvane na vašem GitHub Fork.
-- Da biste nastavili svoj rad, idite na svoj Fork u Plan ₿ Network repozitorijumu sadržaja putem svog GitHub profila.
+- Da biste nastavili svoj rad, idite na svoj Fork u Plan ₿ Academy repozitorijumu sadržaja putem svog GitHub profila.
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -196,20 +196,20 @@ NB. Preporučuje se pregled u prozoru za kod, sa originalnim sadržajem prikazan
 
 ## 6. Pravila koja treba pratiti prilikom lekture sadržaja
 
-Da biste saznali više o smernicama koje treba pratiti prilikom lekture u Plan ₿ Network u vezi sa jezičkim ili formatnim pravilima, molimo vas da se obratite tutorijalu "contribution-proofreading-guidelines" u ovom istom odeljku!
+Da biste saznali više o smernicama koje treba pratiti prilikom lekture u Plan ₿ Academy u vezi sa jezičkim ili formatnim pravilima, molimo vas da se obratite tutorijalu "contribution-proofreading-guidelines" u ovom istom odeljku!
 
 ## 7. Sačekajte pregled
 
 
 
-- Čestitamo, vaš PR je poslat! Možete pratiti njegov napredak u kartici "Pull requests" na [Plan ₿ Network's GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
+- Čestitamo, vaš PR je poslat! Možete pratiti njegov napredak u kartici "Pull requests" na [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)
 
 
 
-- Hvala vam puno na vašem doprinosu! Nakon odobrenja, član tima Plan ₿ Network će vas kontaktirati kako bi vam poslao nagradu. \**Plaćanja se vrše isključivo putem Lightning Network\**.
+- Hvala vam puno na vašem doprinosu! Nakon odobrenja, član tima Plan ₿ Academy će vas kontaktirati kako bi vam poslao nagradu. \**Plaćanja se vrše isključivo putem Lightning Network\**.
 - Ako želite da počnete ponovo, vratite se na korak 2 i pošaljite novu poruku u Telegram grupi kako biste nastavili sa doprinosom drugom sadržaju. Uverite se da sinhronizujete svoj Fork pre nego što kreirate novu radnu granu. Da biste to uradili, idite na početnu stranicu vašeg Fork, izaberite glavnu granu pod nazivom `dev` (vidi \**A\**), zatim kliknite na dugme "Sync Fork" (vidi \**B\**). Ako su dostupna ažuriranja za vaš Fork, pojaviće se dugme "Update branch". Jednostavno kliknite na njega da biste izvršili ažuriranje.
 
 

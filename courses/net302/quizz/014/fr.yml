@@ -6,4 +6,4 @@ wrong_answers:
   - Réduire la taille des paquets réseau TCP/IP
 explanation: |
   IPv5 (ST) a été conçu pour offrir une qualité de service (QoS) aux flux multimédias, comme la voix sur IP, en garantissant bande passante et priorité.
-reviewed: false
+reviewed: true 

@@ -710,7 +710,7 @@ Düğümünüze yerel ağınızın dışından erişmek istiyorsanız Tor bağla
 Sparrow wallet yazılımı hakkında daha fazla bilgi için kapsamlı bir öğreticimiz var:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Sonuç
 
 

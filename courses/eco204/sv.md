@@ -1,26 +1,19 @@
 ---
-name: Studier av hyperinflation
+name: Fallstudier om hyperinflation
 goal: Förstå uppkomsten av hyperinflation i en Fiat-värld och dess konsekvenser
-objectives: 
-
-  - Studera hyperinflationscykler
-  - Förstå de verkliga effekterna av hyperinflation på våra dagliga liv
-  - Studera likheterna mellan hyperinflationer genom tiderna
-  - Har en konkret idé om hur man skyddar sig mot hyperinflation
-
+objectives:
+- Studera hyperinflationscykler
+- Förstå de verkliga effekterna av hyperinflation på våra dagliga liv
+- Studera likheterna mellan hyperinflationer genom tiderna
+- Har en konkret idé om hur man skyddar sig mot hyperinflation
 ---
+# En resa genom ekonomisk kollaps
 
-# En resa in i ekonomin
+Hur ser det ut när pengar förlorar sin betydelse?
+Denna kurs guidar dig genom den fascinerande men nyktra världen av hyperinflation. Du kommer att upptäcka historiska episoder och moderna fall där valutor kollapsade och ekonomier transformerades över en natt. Du kommer att avslöja mönstren, orsakerna och den verkliga påverkan på vanliga människor, och få insikt i ett av ekonomins mest dramatiska fenomen.
 
-
-Detta program syftar till att ge en djup förståelse för uppkomsten av hyperinflationer i en värld som domineras av Fiat-valutor och att undersöka deras betydande konsekvenser. Deltagarna kommer att fördjupa sig i hyperinflationscykler i detalj, undersöka orsaker, utlösande faktorer och ge historiska och samtida exempel. De kommer också att undersöka hyperinflationens konkreta inverkan på ekonomin och det dagliga livet och studera återverkningarna på valutavärdet, köpkraften samt individuella och kollektiva besparingar.
-
-
-Här kommer vi att belysa trender och gemensamma mönster i hyperinflationsepisoder genom historien, samtidigt som vi tillhandahåller effektiva och konkreta strategier för att skydda sig under perioder av hyperinflation. Deltagarna får möjlighet att utforska olika investeringsalternativ och finansiella försvarsmekanismer och får praktiska verktyg och viktig kunskap för att kunna navigera lugnt i ett instabilt ekonomiskt klimat.
-
-
+Längs vägen kommer du också att upptäcka hur individer och samhällen har navigerat genom dessa turbulenta perioder. Lär dig de strategier som har hjälpt till att skydda förmögenhet under valutakriser och bygg en djupare förståelse för finansiell motståndskraft. Om du är nyfiken på de ekonomiska krafter som formar vår värld, erbjuder denna resa både kunskap och praktiskt perspektiv.
 +++
-
 # Inledning
 
 
@@ -1428,7 +1421,7 @@ Den viktigaste slutsatsen är att det finns flera strategier för att få bukt m
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Upptäck den skannade samlingen i *Bitcoin Educational Toolkit* (även tillgänglig från avsnittet *Resources* på plattformen Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Upptäck den skannade samlingen i *Bitcoin Educational Toolkit* (även tillgänglig från avsnittet *Resurser* på Plan ₿ Academy-plattformen.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/sv/068.webp)

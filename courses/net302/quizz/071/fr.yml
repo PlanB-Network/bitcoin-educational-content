@@ -6,4 +6,4 @@ wrong_answers:
   - ICANN
 explanation: |
   La notation CIDR précise le nombre de bits fixes du préfixe après un slash, comme en IPv4.
-reviewed: false
+reviewed: true 

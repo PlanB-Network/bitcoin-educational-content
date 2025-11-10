@@ -8,7 +8,7 @@ description: Täielik juhend LNP2PBot ja P2P bitcoin kauplemine
 
 KYC-vabad peer-to-peer (P2P) börsid on kasutajate konfidentsiaalsuse ja finantsautonoomia säilitamiseks hädavajalikud. Need võimaldavad otsetehinguid üksikisikute vahel ilma isikusamasuse kontrollimiseta, mis on oluline nende jaoks, kes hindavad privaatsust. Teoreetiliste mõistete põhjalikumaks mõistmiseks vaadake kursust BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoini ostmine ja müümine peer-to-peer (P2P) on üks kõige privaatsemaid meetodeid bitcoinide omandamiseks või võõrandamiseks. LNP2PBot on avatud lähtekoodiga Telegrami bot, mis hõlbustab P2P-vahetust Lightning-võrgus, võimaldades kiireid, odavaid ja KYC-vabasid tehinguid.
 
@@ -52,7 +52,7 @@ Alusta ühilduva Lightning rahakoti paigaldamisega. Siin on meie üksikasjalikud
 
 Allpool on link selle rahakoti õpetuse juurde:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [Phoenix](https://phoenix.acinq.co) :
   - Lihtne ja usaldusväärne
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Allpool on link selle rahakoti õpetuse juurde:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - [Blixt](https://blixtwallet.github.io) :
   - Tehnilisem, kuid väga täielik
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Allpool on link selle rahakoti õpetuse juurde:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Tähtsaid märkusi teiste portfellide kohta**
 

@@ -1,12 +1,12 @@
 ---
-name: Guide pour l'exécution locale de la plate-forme Plan ₿ Network
-description: Comment faire fonctionner le Plan ₿ Network dans un environnement local pour tester ma contribution au contenu ou la relecture/révision du contenu éducatif sur le Plan ₿ Network ?
+name: Guide pour l'exécution locale de la plate-forme Plan ₿ Academy
+description: Comment faire fonctionner le Plan ₿ Academy dans un environnement local pour tester ma contribution au contenu ou la relecture/révision du contenu éducatif sur le Plan ₿ Academy ?
 ---
 ![github](assets/cover.webp)
 
 ## En résumé
 
-Ce tutoriel fournit des instructions étape par étape pour configurer le système de gestion de l'apprentissage Bitcoin à partir de Plan ₿ Network sur votre machine locale en utilisant Docker, des clés factices et des configurations de référentiel personnalisées.
+Ce tutoriel fournit des instructions étape par étape pour configurer le système de gestion de l'apprentissage Bitcoin à partir de Plan ₿ Academy sur votre machine locale en utilisant Docker, des clés factices et des configurations de référentiel personnalisées.
 
 Si vous n'avez pas compris la partie ci-dessus, ne vous inquiétez pas, ce tutoriel est fait pour vous !
 
@@ -105,7 +105,7 @@ Une fois que les conteneurs fonctionnent, accédez au frontend à l'adresse suiv
 
 \N- [<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Remarque : l'application se rechargera automatiquement si vous modifiez des fichiers sources.
 
@@ -141,7 +141,7 @@ mais encore une fois :
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Personnaliser le référentiel (optionnel)**
 

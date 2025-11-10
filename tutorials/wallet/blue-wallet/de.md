@@ -11,11 +11,10 @@ Der Einstieg in Bitcoin scheint eine große Herausforderung für Menschen zu sei
 
 
 
-In diesem Tutorial werden wir einen Blick auf Blue Wallet werfen, ein einfaches, aber hocheffektives Bitcoin Wallet, das es Ihnen ermöglicht, Ihre Bitcoins persönlich zu verwalten und auch Verwaltungsgenossenschaften auf der Basis von [Multisig] (https://planb.network/resources/glossary/multisig) zu gründen (keine Sorge, wir kommen darauf zurück).
+In diesem Tutorial werden wir einen Blick auf Blue Wallet werfen, ein einfaches, aber hocheffektives Bitcoin Wallet, das es Ihnen ermöglicht, Ihre Bitcoins persönlich zu verwalten und auch Verwaltungsgenossenschaften auf der Basis von [Multisig] (https://planb.academy/resources/glossary/multisig) zu gründen (keine Sorge, wir kommen darauf zurück).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Nach der Installation können Sie einen neuen Wallet erstellen und die 12 Wieder
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Mit Blue Wallet können Sie separate, dedizierte Bitcoin-Portfolios erstellen. Sie können zum Beispiel ein Wallet für Ihre Ersparnisse und ein anderes für Ihre täglichen Ausgaben haben, alles in derselben Anwendung.
 
@@ -65,10 +64,10 @@ Wenn Sie an andere Bitcoin-Portfolios wie Phoenix oder Aqua gewöhnt sind, werde
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallet's Bitcoin Wallet repräsentiert den Standard Wallet im Bitcoin Ökosystem. Sie können Bitcoins ausgeben, solange Sie im Besitz der Recovery-Wörter sind, die eine gültige Signatur im Netzwerk liefern, um zu authentifizieren, dass Sie die Bitcoins besitzen.
 
@@ -122,7 +121,7 @@ Sie können also das für Sie passende Verhältnis der Transaktionsgebühren wä
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Halten Sie sich an die bewährte Praxis und wählen Sie das P2WSH-Format.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) oder Pay to Witness Script Hash** ist eine Sperrmethode, bei der die ausgehenden Bitcoins Ihrer Transaktion (Outputs) an den Hash eines benutzerdefinierten Skripts gesperrt werden, das Blue Wallet einrichtet. Der Hauptvorteil dieser Art von Sperrung ist, dass sie die Größe der Transaktionsdaten reduziert und Ihnen implizit erlaubt, niedrigere Transaktionsgebühren zu zahlen.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) oder Pay to Witness Script Hash** ist eine Sperrmethode, bei der die ausgehenden Bitcoins Ihrer Transaktion (Outputs) an den Hash eines benutzerdefinierten Skripts gesperrt werden, das Blue Wallet einrichtet. Der Hauptvorteil dieser Art von Sperrung ist, dass sie die Größe der Transaktionsdaten reduziert und Ihnen implizit erlaubt, niedrigere Transaktionsgebühren zu zahlen.
 
 
 
@@ -264,7 +263,7 @@ Wenn Sie Ihre Transaktion validieren, benötigen Sie eine zweite Unterschrift, u
 
 
 
-Der zweite Wallet-Unterzeichner kann, wenn er ebenfalls ein Nutzer ist, die Transaktion unterzeichnen, auch wenn er nicht im Internet ist (kein Wi-Fi, keine mobilen Daten), indem er den QR-Code der [teilweise unterzeichneten Transaktion] (https://planb.network/resources/glossary/psbt) scannt, die Sie gerade erstellt haben.
+Der zweite Wallet-Unterzeichner kann, wenn er ebenfalls ein Nutzer ist, die Transaktion unterzeichnen, auch wenn er nicht im Internet ist (kein Wi-Fi, keine mobilen Daten), indem er den QR-Code der [teilweise unterzeichneten Transaktion] (https://planb.academy/resources/glossary/psbt) scannt, die Sie gerade erstellt haben.
 
 
 
@@ -330,12 +329,12 @@ Unter Einstellungen > **Lightning-Einstellungen** können Sie Ihr Lightning Wall
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Sie haben nun die Blue Wallet Tour abgeschlossen und sind bereit, Bitcoin in seiner ganzen Einfachheit und Leistungsfähigkeit zu nutzen. Wir empfehlen Ihnen, den nächsten Schritt zu machen und herauszufinden, wie Sie dank der Leistung von Lightning Bitcoin-Zahlungen in Ihren Geschäften akzeptieren können.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

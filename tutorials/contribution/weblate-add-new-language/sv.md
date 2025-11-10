@@ -1,11 +1,11 @@
 ---
 name: Weblate - lägga till ett nytt språk
-description: Hur kan du lägga till ett nytt språk i Plan ₿ Network?
+description: Hur kan du lägga till ett nytt språk i Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Plan ₿ Network:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser på Bitcoin och översätta dem till så många språk som möjligt. Mycket av det innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen. Bidrag kan ta olika former: korrigering och korrekturläsning av befintligt innehåll, uppdatering av information eller skapande av nya handledningar att lägga till på plattformen.
+Plan ₿ Academy:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser på Bitcoin och översätta dem till så många språk som möjligt. Mycket av det innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen. Bidrag kan ta olika former: korrigering och korrekturläsning av befintligt innehåll, uppdatering av information eller skapande av nya handledningar att lägga till på plattformen.
 
 
 Vår webbplats erbjuder för närvarande en rad olika språk, och vi arbetar kontinuerligt med att lägga till fler. För att förbättra översättningsprocessen för vår frontend använder vi verktyget Weblate, som hjälper oss att samarbeta och hantera översättningar på ett effektivt sätt. Det är ett användarvänligt verktyg.
@@ -14,7 +14,7 @@ Vår webbplats erbjuder för närvarande en rad olika språk, och vi arbetar kon
 Om ditt modersmål ännu inte finns tillgängligt på vår webbplats och du vill lägga till det, är den här handledningen något för dig!
 
 
-Se först till att kontakta Plan ₿ Network-teamet via vår [Telegram-grupp] (https://t.me/PlanBNetwork_ContentBuilder). Om du inte har Telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
+Se först till att kontakta Plan ₿ Academy-teamet via vår [Telegram-grupp] (https://t.me/PlanBNetwork_ContentBuilder). Om du inte har Telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
 
 
 ## Kontrollera om ett språk finns på Weblate
@@ -36,14 +36,14 @@ För att kontrollera om ditt språk redan finns med bland de språk vi arbetar m
 Om ditt språk finns med i listan behöver du inte lägga till det igen. För att bidra genom att korrekturläsa weblate, upptäck följande handledning:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
 Om ditt språk inte finns där, följ anvisningarna nedan för att lägga till det.
 
 
-## Lägga till ett nytt språk i Plan ₿ Network
+## Lägga till ett nytt språk i Plan ₿ Academy
 
 
 
@@ -81,9 +81,9 @@ Om ditt språk inte finns där, följ anvisningarna nedan för att lägga till d
 För att bli guidad genom översättningsprocessen, se vår dedikerade handledning här nedan:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-Grattis, du har påbörjat processen med att översätta den statiska Elements på Plan ₿ Network:s webbplats!
+Grattis, du har påbörjat processen med att översätta den statiska Elements på Plan ₿ Academy:s webbplats!
 
 De omfattar alla strängar på webbplatsen, utom utbildningsinnehållet (kurser, handledning...) för vilket vi använder en annan halvautomatiserad metod (AI-översättning + korrekturläsning av bidragsgivare).
 

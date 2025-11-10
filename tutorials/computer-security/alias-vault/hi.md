@@ -185,7 +185,7 @@ description: पासवर्ड, दो-कारक प्रमाणीक
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 परीक्षण के तौर पर आपके द्वारा बनाए गए उपनाम को हटाने के लिए, आपको बस अपने `होम` में लॉग इन करना होगा, फिर `क्रेडेंशियल्स` में और उस पहचान पर क्लिक करना होगा जिसे आप हटाना चाहते हैं। आगे बढ़ने के लिए ऊपरी दाएँ कोने में _डिलीट_ कमांड दिखाई देगा।
 

@@ -9,10 +9,9 @@ description: Bitcoin Radically Simple and Powerful Portfolio
 Getting started with Bitcoin seems to be a big challenge for people who are skeptical about the simplicity of its use. Finding the right tools to ensure this simplicity therefore becomes of paramount importance for better adoption of Bitcoin as a medium of exchange and not just as a store of value.
 
 
-In this tutorial we'll be taking a look at Blue Wallet, a simple but highly effective Bitcoin wallet that allows you to manage your bitcoins personally and also to create management cooperatives based on [Multisig](https://planb.network/resources/glossary/multisig) (don't worry, we'll come back to it).
+In this tutorial we'll be taking a look at Blue Wallet, a simple but highly effective Bitcoin wallet that allows you to manage your bitcoins personally and also to create management cooperatives based on [Multisig](https://planb.academy/resources/glossary/multisig) (don't worry, we'll come back to it).
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 ## Getting started with Blue Wallet
@@ -30,7 +29,7 @@ Blue Wallet is an open source, self-hoarding Bitcoin wallet that lets you take c
 Once installed, you can create a new wallet and save the 12 recovery words, or import an existing Bitcoin wallet. Find out how to make an efficient backup of your keywords so you don't lose access to your bitcoins.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 With Blue Wallet you can create separate, dedicated Bitcoin wallets. For example, you can have one wallet for your savings and another for your daily expenses, all in the same application.
 
@@ -50,10 +49,10 @@ In Blue Wallet, you'll find two native Bitcoin wallet types.
 If you're used to other Bitcoin wallets like Phoenix or Aqua, you won't be at all out of step on Interface with Blue Wallet's Bitcoin wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallet's Bitcoin wallet represents the standard wallet in the Bitcoin ecosystem. You can spend bitcoins as long as you are in possession of the recovery words that will provide a valid signature on the network to authenticate that you own the bitcoins.
 
@@ -93,7 +92,7 @@ Blue Wallet lets you configure the parameters of your Bitcoin shipment as you wi
 You can therefore select the transaction fee ratio that suits you if you want to see your transaction quickly validated in a Mempool and included in a block by the miners. Depending on the ratio you choose, miners will prioritize your transaction to a greater or lesser extent. Find out more in our Mempool Space tutorial.
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -165,7 +164,7 @@ Here are some examples of optimal configurations to ensure security and accessib
 Keep to best practice by selecting the P2WSH format.
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) or Pay to Witness Script Hash** is a locking method that locks your transaction's outgoing bitcoins (Outputs) to the Hash of a custom script that Blue Wallet sets up. The main advantage of this type of locking is that it reduces transaction data size and implicitly allows you to pay lower transaction fees.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) or Pay to Witness Script Hash** is a locking method that locks your transaction's outgoing bitcoins (Outputs) to the Hash of a custom script that Blue Wallet sets up. The main advantage of this type of locking is that it reduces transaction data size and implicitly allows you to pay lower transaction fees.
 
 
 Create or import each of the **n** wallets in your configuration. In our tutorial, we'll be using a 2-of-3 multi-signature configuration. Be sure to save the recovery words for each wallet individually.
@@ -197,7 +196,7 @@ Like the standard Bitcoin wallet of Blue Wallet, you can define multiple recipie
 When validating your transaction, you'll need a second signature to approve the spending of the bitcoins. Remember, we're in a 2-de-3 multi-signature configuration.
 
 
-The second wallet signatory, if he or she is also a user, can sign the transaction even if he or she is off the Internet (no Wi-Fi, no mobile data) by scanning the QR code of the [partially signed transaction](https://planb.network/resources/glossary/psbt) you have just created.
+The second wallet signatory, if he or she is also a user, can sign the transaction even if he or she is off the Internet (no Wi-Fi, no mobile data) by scanning the QR code of the [partially signed transaction](https://planb.academy/resources/glossary/psbt) you have just created.
 
 
 ![mutisig-send](assets/fr/13.webp)
@@ -246,11 +245,11 @@ In Settings > **Lightning Settings**, you can manually associate your Lightning 
 ![ln](assets/fr/16.webp)
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 You've now completed the Blue Wallet tour, ready to use Bitcoin in all its simplicity and power. We recommend that you take the next step, and find out how you can accept bitcoin payments in your shops, thanks to the power of Lightning.
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

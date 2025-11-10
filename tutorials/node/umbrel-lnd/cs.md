@@ -27,7 +27,7 @@ Pro instalaci Umbrelu a konfiguraci uzlu Bitcoin doporučujeme postupovat podle 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Ujistěte se, že je váš uzel Bitcoin aktuální a správně funguje, protože Lightning Network na něj spoléhá při všech transakcích off-chain.
 
@@ -57,7 +57,7 @@ Pro kompletní teoretické seznámení s Lightning Network doporučujeme absolvo
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 V tomto kurzu se důkladně seznámíte se základními koncepty Lightning Network a poté přejdete k praxi s uzlem LND.
 
@@ -613,7 +613,7 @@ Chcete-li se dozvědět více o konfiguraci a používání strážních věží
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Další osvědčené postupy
 
 

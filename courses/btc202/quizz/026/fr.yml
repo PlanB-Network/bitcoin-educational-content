@@ -6,4 +6,4 @@ wrong_answers:
   - Pieter Wuille
 explanation: |
   Le SPV est présenté dans la partie 8 du White Paper de Satoshi Nakamoto.
-reviewed: false
+reviewed: true 

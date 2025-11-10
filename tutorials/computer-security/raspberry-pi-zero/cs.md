@@ -6,7 +6,7 @@ description: Jak postavit minimální, odpojený a levný počítač pomocí Ras
 
 
 
-Pokud jste na stránkách Plan ₿ Network již nějakou dobu, zjistili jste, že jedním z nejvíce doporučovaných bezpečnostních nastavení, téměř nutností, **je správa finančních prostředků pomocí offline ukládání vašich soukromých klíčů**.
+Pokud jste na stránkách Plan ₿ Academy již nějakou dobu, zjistili jste, že jedním z nejvíce doporučovaných bezpečnostních nastavení, téměř nutností, **je správa finančních prostředků pomocí offline ukládání vašich soukromých klíčů**.
 
 
 
@@ -14,7 +14,7 @@ Pokud jste jej ještě neobjevili, v tomto návodu najdete odkazy na zdroje s ot
 
 
 
-K offline správě soukromých klíčů je tedy zapotřebí zařízení trvale odpojené od sítě, ať už se jedná o [hardware peněženku](https://planb.network/resources/glossary/hardware-wallet) nebo počítač s airgapem, určený k této specifické funkci.
+K offline správě soukromých klíčů je tedy zapotřebí zařízení trvale odpojené od sítě, ať už se jedná o [hardware peněženku](https://planb.academy/resources/glossary/hardware-wallet) nebo počítač s airgapem, určený k této specifické funkci.
 
 
 
@@ -500,7 +500,7 @@ Z peněženek, které znám, je jediná, která poskytuje 32bitovou verzi, Elect
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Závěry
 

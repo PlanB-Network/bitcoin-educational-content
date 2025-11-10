@@ -46,7 +46,7 @@ Uveďte proto SSID vaší Wi-Fi, tedy název vaší sítě, heslo, stejně jako 
 
 Jak můžete vidět na obrazovce, musíte odstranit části `stratum+tcp://` a `:3333`, necháte pouze `eu.stratum.braiins.com`. Poté do pole `Port` zadejte 4 číslice na konci URL poskytnuté poolem, ale bez `:`. Zde je to tedy `3333`.
 
-V tomto tutoriálu používáme těžební pool Braiins, ale můžete si vybrat jiný. Naše tutoriály o těžebních poolech můžete najít [na webových stránkách PlanB Network](https://planb.network/en/tutorials/mining).
+V tomto tutoriálu používáme těžební pool Braiins, ale můžete si vybrat jiný. Naše tutoriály o těžebních poolech můžete najít [na webových stránkách Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 Dále do `User` zadejte svůj identifikátor a poté `Password`, obvykle je to `"x"` nebo `"Anything123"`.
 

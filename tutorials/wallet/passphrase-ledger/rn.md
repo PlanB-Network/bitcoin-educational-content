@@ -11,7 +11,7 @@ BIP39 passphrase ni ijambobanga ry’ubuhinga, iyo rifatanijwe n’ijambo ryawe 
 Imbere yo gutangura iyi nyigisho, nimba utazi neza iciyumviro ca passphrase, ingene ikora, n’ingaruka zayo ku Bitcoin Wallet yawe, ndagusavye cane ko wobaza iyi yindi ngingo y’ivyiyumviro aho ndabasigurira vyose:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## None passphrase ikora gute ku Ledger?
 
@@ -44,11 +44,11 @@ Muri iyi nyigisho, nzokoresha Ledger Flex nk’akarorero. Ariko rero, nimba urik
 Imbere yo gutangura iyi nyigisho, urabe neza ko umaze gutangura Ledger yawe kandi ugatanga ijambo ryawe rya Mnemonic. Niba ivyo atari vyo kandi Ledger yawe ari nshasha, kurikiza inyigisho yihariye y’ikigereranyo cawe iboneka ku rubuga rwa PlanB. Iyi ntambwe imaze kurangira, urashobora gusubira muri iyi nyigisho.
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Ni gute woshiraho passphrase y’igihe gito n’iyi Ledger?
 
@@ -274,4 +274,4 @@ Urakoze cane, Bitcoin Wallet yawe ubu irakingiwe n’iyi passphrase! Niwaba wabo
 Ndagusavye kandi kuraba iyi yindi nyigisho yuzuye ku buryo ukoresha Ledger Flex yawe:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

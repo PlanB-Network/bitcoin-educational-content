@@ -39,7 +39,7 @@ Miamala ya Cahoots inahusisha ubadilishanaji wa miamala iliyotiwa saini sehemu k
 Inapotekelezwa kwa mbali, mchakato huu huwa mgumu zaidi. Ili kushughulikia hili, Samourai iliunda protocol ya mawasiliano iliyosimbwa kupitia Tor, iitwayo Soroban. Kwa kutumia Soroban, ubadilishanaji unaohitajika kwa PayJoin hufanywa kiotomatiki nyuma ya user-friendly interface. Hii ndiyo njia ya pili tutakayojifunza katika makala hii.
 
 
-Mabadilishano haya yaliyosimbwa kwa njia fiche yanahitaji kuanzishwa kwa muunganisho na uthibitishaji kati ya washiriki wa Cahoots. Kwa hivyo, mawasiliano ya Soroban yanatokana na Paynyms za watumiaji. Ikiwa hujui Paynyms, ninakualika uangalie makala haya kwa maelezo zaidi: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Mabadilishano haya yaliyosimbwa kwa njia fiche yanahitaji kuanzishwa kwa muunganisho na uthibitishaji kati ya washiriki wa Cahoots. Kwa hivyo, mawasiliano ya Soroban yanatokana na Paynyms za watumiaji. Ikiwa hujui Paynyms, ninakualika uangalie makala haya kwa maelezo zaidi: [BIP47 - PAYNYM](https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 
 
@@ -56,7 +56,7 @@ Ili kuiweka kwa urahisi, Paynym ni kitambulishi cha kipekee kilichounganishwa na
 - _Paynym_ = Kitambulisho cha kipekee cha Wallet kinachoruhusu mawasiliano na mtumiaji mwingine kwenye Soroban, ili kutekeleza shughuli ya Cahoots.
 
 
-[**-> Pata maelezo zaidi kuhusu shughuli za PayJoin na matumizi yake**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Pata maelezo zaidi kuhusu shughuli za PayJoin na matumizi yake**](https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Jinsi ya kuanzisha uhusiano kati ya Paynyms?

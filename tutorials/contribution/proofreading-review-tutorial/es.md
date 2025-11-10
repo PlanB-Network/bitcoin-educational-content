@@ -1,24 +1,24 @@
 ---
 name: Proofreading o revisión de contenido
-description: Cómo participar en la revisión de contenidos educativos en Plan ₿ Network?
+description: Cómo participar en la revisión de contenidos educativos en Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## En resumen
 
-Si quieres participar en la revisión y corrección de contenidos para Plan ₿ Network, únete a [nuestro grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicado a las contribuciones. Preséntate brevemente, luego especifica el contenido que te gustaría revisar y el idioma. Realiza tus correcciones en una rama de trabajo y envía un PR una vez finalizada tu revisión.
+Si quieres participar en la revisión y corrección de contenidos para Plan ₿ Academy, únete a [nuestro grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicado a las contribuciones. Preséntate brevemente, luego especifica el contenido que te gustaría revisar y el idioma. Realiza tus correcciones en una rama de trabajo y envía un PR una vez finalizada tu revisión.
 
 Si no has entendido la parte de arriba, no te preocupes: ¡Este tutorial es para ti!
 
 ---
-## ¿Qué es Plan ₿ Network?
+## ¿Qué es Plan ₿ Academy?
 
-Plan ₿ Network es una plataforma para aprender sobre Bitcoin a través de numerosos cursos y tutoriales para todos. Actualmente, todo nuestro contenido es de código abierto, alojado en un repositorio de GitHub y está abierto a contribuciones para revisión y creación de contenido.
-Plan ₿ Network tiene como objetivo convertirse en la plaza pública del ciberespacio de Bitcoin, conectando y fomentando comunidades de Bitcoin en todo el mundo.
+Plan ₿ Academy es una plataforma para aprender sobre Bitcoin a través de numerosos cursos y tutoriales para todos. Actualmente, todo nuestro contenido es de código abierto, alojado en un repositorio de GitHub y está abierto a contribuciones para revisión y creación de contenido.
+Plan ₿ Academy tiene como objetivo convertirse en la plaza pública del ciberespacio de Bitcoin, conectando y fomentando comunidades de Bitcoin en todo el mundo.
 
 ## ¿Por qué contribuir?
 
-Plan ₿ Network es fundamentalmente multilingüe, ya que nuestro objetivo es hacer que los recursos de Bitcoin sean accesibles a todo el mundo. Creemos que el idioma no debería ser una barrera para el dinero soberano.
+Plan ₿ Academy es fundamentalmente multilingüe, ya que nuestro objetivo es hacer que los recursos de Bitcoin sean accesibles a todo el mundo. Creemos que el idioma no debería ser una barrera para el dinero soberano.
 
 Para lograr esto, utilizamos un enfoque Humano x IA. A través de nuestro [programa](https://github.com/Asi0Flammeus/LLM-Translator), podemos traducir automáticamente nuestros contenidos a muchos idiomas. Sin embargo, necesitamos un hablante fluido que lo revise para asegurar que el contenido sea comprensible y esté libre de términos inapropiados.
 Si quieres ayudar a construir este proyecto educativo para promover la educación sobre Bitcoin en tu comunidad, puedes empezar revisando un curso o tutorial.
@@ -30,19 +30,19 @@ Además, como apreciamos el modelo *Valor por Valor*, recompensaremos las contri
 No necesitas ser un experto en GitHub para revisar contenidos. Aunque siempre es mejor entender lo que estás haciendo (y por qué), puedes simplemente seguir las siguientes instrucciones para contribuir.
 Sin embargo, si no estás familiarizado con Git y GitHub y quieres aprender más, puedes consultar nuestro artículo introductorio sobre estas herramientas:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Crear una cuenta
 
 - Crea una cuenta en [GitHub](https://github.com/) para empezar a contribuir. Si necesitas orientación para crear tu cuenta de GitHub, también tenemos un tutorial detallado:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - También necesitarás una cuenta en la aplicación de mensajería [Telegram](https://telegram.org/).
 
 ## 2. Únete al grupo de Telegram
 
-- Únete [al grupo PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) en Telegram.
+- Únete [al grupo Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) en Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -73,7 +73,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-Nota: Se recomienda revisar en la ventana de código, con el contenido original en una ventana separada. Por ejemplo, puedes ver el texto en el sitio web de Plan ₿ Network o en la vista previa de GitHub en una pestaña del navegador. Utiliza `ctrl + F` para localizar errores y hacer correcciones en la vista de código a medida que avanzas.
+Nota: Se recomienda revisar en la ventana de código, con el contenido original en una ventana separada. Por ejemplo, puedes ver el texto en el sitio web de Plan ₿ Academy o en la vista previa de GitHub en una pestaña del navegador. Utiliza `ctrl + F` para localizar errores y hacer correcciones en la vista de código a medida que avanzas.
 
 ## 4. Comprometer cambios
 
@@ -99,7 +99,7 @@ Nota: Se recomienda revisar en la ventana de código, con el contenido original 
 
 - Si no has terminado tu revisión y deseas continuar más tarde, puedes simplemente salir.
 - Siempre que hayas confirmado tus cambios, se guardarán en tu fork de GitHub.
-- Para reanudar tu trabajo, ve a tu fork del repositorio de contenidos Plan ₿ Network a través de tu perfil de GitHub.
+- Para reanudar tu trabajo, ve a tu fork del repositorio de contenidos Plan ₿ Academy a través de tu perfil de GitHub.
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -121,15 +121,15 @@ Nota: Se recomienda revisar en la ventana de código, con el contenido original 
 
 ## 6. Reglas a seguir al corregir contenido
 
-Para obtener más información sobre las pautas a seguir al corregir en Plan ₿ Network en términos de reglas de lenguaje o formato, consulta el tutorial "contribution-proofreading-guidelines" en esta misma sección.
+Para obtener más información sobre las pautas a seguir al corregir en Plan ₿ Academy en términos de reglas de lenguaje o formato, consulta el tutorial "contribution-proofreading-guidelines" en esta misma sección.
 
 ## 7. Espera la revisión
 
-- ¡Felicidades, tu PR ha sido enviado! Puedes seguir su progreso en la pestaña "Pull requests" del repositorio GitHub de [Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- ¡Felicidades, tu PR ha sido enviado! Puedes seguir su progreso en la pestaña "Pull requests" del repositorio GitHub de [Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
-- ¡Muchas gracias por tu contribución! Tras la aprobación, un miembro del equipo de Plan ₿ Network se pondrá en contacto contigo para enviarte tu recompensa. \**Los pagos se realizan exclusivamente a través de Lightning Network\**.
+- ¡Muchas gracias por tu contribución! Tras la aprobación, un miembro del equipo de Plan ₿ Academy se pondrá en contacto contigo para enviarte tu recompensa. \**Los pagos se realizan exclusivamente a través de Lightning Network\**.
 - Si quieres empezar de nuevo, vuelve al paso 2 y envía un nuevo mensaje en el grupo de Telegram para seguir contribuyendo a otros contenidos. Asegúrate de sincronizar tu fork antes de crear una nueva rama de trabajo. Para ello, ve a la página de inicio de tu fork, selecciona la rama principal llamada `dev` (ver \**A\**), y luego haz clic en el botón "Sync fork" (Sincronizar bifurcación) (ver \**B\**). Si hay actualizaciones disponibles para tu fork, aparecerá un botón "Update branch" (Actualizar rama). Simplemente haz clic en él para realizar la actualización.
 
 ![REVIEW](assets/fr/16.webp)

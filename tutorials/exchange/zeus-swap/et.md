@@ -51,7 +51,7 @@ Lisateavet selle kohta, kuidas Lightning Network töötab, leiate meie spetsiaal
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Ärimudel
 
@@ -149,7 +149,7 @@ Vaata meie Zeuse õpetust, et rohkem teada saada selle täieliku Wallet kohta:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Veebikonfiguratsioon
 

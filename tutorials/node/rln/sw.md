@@ -45,7 +45,7 @@ RGB Contract imeundwa kama mashine ya hali ya mabadiliko. Huanza na Genesis inay
 Ili kujifunza zaidi kuhusu jinsi itifaki ya RGB inavyofanya kazi, ninapendekeza uchukue kozi hii ya kina ya mafunzo:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Ufungaji wa nodi ya umeme inayoendana na RGB
 
@@ -302,7 +302,7 @@ Unaweza, bila shaka, kurekebisha utaratibu. Ili kuthibitisha muamala, tunachimba
 ```
 
 
-Sasa tunaweza kuunda kipengee cha RGB. Amri itategemea aina ya mali unayotaka kuunda na vigezo vyake. Hapa ninaunda tokeni ya NIA (*Non Inflatable Asset*) inayoitwa "PBN" yenye Supply ya vitengo 1000. `usahihi` hukuruhusu kufafanua mgawanyiko wa vitengo.
+Sasa tunaweza kuunda kipengee cha RGB. Amri itategemea aina ya mali unayotaka kuunda na vigezo vyake. Hapa ninaunda tokeni ya NIA (*Non Inflatable Asset*) inayoitwa "Plan ₿ Academy" yenye Supply ya vitengo 1000. `usahihi` hukuruhusu kufafanua mgawanyiko wa vitengo.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Amri inarudisha ufunguo wa umma wa nodi yangu n°2 :
 ![RLN](assets/fr/13.webp)
 
 
-Kisha, tutafungua kituo kwa kubainisha kipengee husika (`PBN`). Amri ya `/openchannel` hukuruhusu kufafanua ukubwa wa kituo katika satoshis na uchague kujumuisha kipengee cha RGB. Inategemea kile unachotaka kuunda, lakini kwa upande wangu, amri ni:
+Kisha, tutafungua kituo kwa kubainisha kipengee husika (`Plan ₿ Academy`). Amri ya `/openchannel` hukuruhusu kufafanua ukubwa wa kituo katika satoshis na uchague kujumuisha kipengee cha RGB. Inategemea kile unachotaka kuunda, lakini kwa upande wangu, amri ni:
 
 
 ```bash
@@ -408,7 +408,7 @@ Ili kudhibitisha shughuli hiyo, vitalu 6 vinachimbwa:
 ![RLN](assets/fr/15.webp)
 
 
-Kituo cha Umeme sasa kimefunguliwa na pia kina tokeni 500 za `PBN` kwenye upande wa nodi n°1. Ikiwa nodi n°2 inataka kupokea tokeni za `PBN`, ni lazima generate iwe Invoice. Hapa ni jinsi ya kufanya hivyo:
+Kituo cha Umeme sasa kimefunguliwa na pia kina tokeni 500 za `Plan ₿ Academy` kwenye upande wa nodi n°1. Ikiwa nodi n°2 inataka kupokea tokeni za `Plan ₿ Academy`, ni lazima generate iwe Invoice. Hapa ni jinsi ya kufanya hivyo:
 
 
 ```bash
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Sasa tutalipa Invoice hii kutoka nodi ya kwanza, ambayo inashikilia pesa taslimu zinazohitajika kwa ishara `PBN`:
+Sasa tutalipa Invoice hii kutoka nodi ya kwanza, ambayo inashikilia pesa taslimu zinazohitajika kwa ishara `Plan ₿ Academy`:
 
 
 ```bash
@@ -499,4 +499,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ukiweka kidole gum
 Pia ninapendekeza somo hili lingine ambalo ninaeleza jinsi ya kutumia zana ya RGB CLI iliyotengenezwa na chama cha LNP/BP kuunda RGB Contract:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

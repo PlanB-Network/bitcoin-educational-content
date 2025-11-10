@@ -1,26 +1,19 @@
 ---
-name: Badania nad hiperinflacją
+name: Studia przypadków hiperinflacji
 goal: Zrozumienie powstawania hiperinflacji w świecie Fiata i ich konsekwencji
-objectives: 
-
-  - Badanie cykli hiperinflacji
-  - Zrozumienie rzeczywistego wpływu hiperinflacji na nasze codzienne życie
-  - Badanie podobieństw hiperinflacji na przestrzeni czasu
-  - Mieć konkretny pomysł na to, jak uchronić się przed hiperinflacją
-
+objectives:
+- Badanie cykli hiperinflacji
+- Zrozumienie rzeczywistego wpływu hiperinflacji na nasze codzienne życie
+- Badanie podobieństw hiperinflacji na przestrzeni czasu
+- Mieć konkretny pomysł na to, jak uchronić się przed hiperinflacją
 ---
+# Podróż przez upadek gospodarczy
 
-# Podróż w głąb gospodarki
+Jak to wygląda, gdy pieniądz traci swoje znaczenie?
+Ten kurs poprowadzi Cię przez fascynujący, choć trzeźwy świat hiperinflacji. Odkryjesz historyczne epizody i współczesne przypadki, w których waluty upadły, a gospodarki przekształciły się z dnia na dzień. Poznasz wzorce, przyczyny i rzeczywisty wpływ na zwykłych ludzi, zdobywając wgląd w jedno z najbardziej dramatycznych zjawisk ekonomicznych.
 
-
-Program ten ma na celu dogłębne zrozumienie powstawania hiperinflacji w świecie zdominowanym przez walutę fiat oraz zbadanie ich znaczących konsekwencji. Uczestnicy zagłębią się szczegółowo w cykle hiperinflacji, badając przyczyny, czynniki wyzwalające oraz przedstawiając historyczne i współczesne przykłady. Przeanalizują również namacalny wpływ hiperinflacji na gospodarkę i życie codzienne, badając reperkusje dla wartości waluty, siły nabywczej oraz indywidualnych i zbiorowych oszczędności.
-
-
-W tym miejscu podkreślimy trendy i wspólne wzorce w epizodach hiperinflacji na przestrzeni dziejów, zapewniając jednocześnie skuteczne i konkretne strategie ochrony w okresach hiperinflacji. Uczestnicy będą mieli okazję zapoznać się z różnymi opcjami inwestycyjnymi i mechanizmami obrony finansowej, zdobywając praktyczne narzędzia i niezbędną wiedzę do spokojnego poruszania się w niestabilnym klimacie gospodarczym.
-
-
+Po drodze odkryjesz również, jak jednostki i społeczności radziły sobie w tych burzliwych okresach. Poznaj strategie, które pomogły chronić majątek podczas kryzysów walutowych i zbuduj głębsze zrozumienie odporności finansowej. Jeśli jesteś ciekawy sił ekonomicznych, które kształtują nasz świat, ta podróż oferuje zarówno wiedzę, jak i praktyczną perspektywę.
 +++
-
 # Wprowadzenie
 
 
@@ -1429,7 +1422,7 @@ Kluczowym wnioskiem jest to, że istnieje kilka strategii przezwyciężenia hipe
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Odkryj zeskanowaną kolekcję w *Bitcoin Educational Toolkit* (dostępną również w sekcji *Resources* na platformie Plan ₿ Network)](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Odkryj zeskanowaną kolekcję w *Bitcoin Educational Toolkit* (również dostępne w sekcji *Zasoby* na platformie Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/pl/068.webp)

@@ -98,7 +98,7 @@ I fönstret som dyker upp hittar du fält att "fylla i": välj knappen _Browse_ 
 Du kan hitta guiden till Sparrow wallet för att ladda ner denna Software Wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Du kan sedan överföra filen `.apk` från din dator till din telefon
 
@@ -276,7 +276,7 @@ Namnge din nyckel och tryck på _Continue_.
 
 
 
-I slutet av dessa steg kommer du att få frågan om du vill lägga till en [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) till din Mnemonic-fras. Om du inte har den nödvändiga kunskapen om hur du använder passphrase, ordnar med säkerhetskopiering eller hur det fungerar rekommenderar jag att du väljer _Jag behöver ingen lösenfras_.
+I slutet av dessa steg kommer du att få frågan om du vill lägga till en [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) till din Mnemonic-fras. Om du inte har den nödvändiga kunskapen om hur du använder passphrase, ordnar med säkerhetskopiering eller hur det fungerar rekommenderar jag att du väljer _Jag behöver ingen lösenfras_.
 
 
 
@@ -394,7 +394,7 @@ Du befinner dig i _Home_, där du ser den nyskapade Wallet som rapporterar saldo
 
 
 - Lins-ikonen i det övre högra hörnet gör att du kan göra en transaktionssökning;
-- `View Wallet config` ger tillgång till konfigurationsmenyn, där du kan redigera namnet på Wallet och aktivera avancerade alternativ, uppe till höger (som du inte kan få skärmdumpar av). Här kan du exportera Wallet-konfigurationen, etiketter, byta ut nycklar, ändra [gap limit] (https://planb.network/en/resources/glossary/gap-limit) och mycket mer.
+- `View Wallet config` ger tillgång till konfigurationsmenyn, där du kan redigera namnet på Wallet och aktivera avancerade alternativ, uppe till höger (som du inte kan få skärmdumpar av). Här kan du exportera Wallet-konfigurationen, etiketter, byta ut nycklar, ändra [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) och mycket mer.
 
 
 

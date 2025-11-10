@@ -10,7 +10,7 @@ Você quer adicionar um novo "construtor" de Bitcoin ao site da Rede PlanB e dar
 ![project](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos um tutorial detalhado para guiá-lo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) na seção `resources/project/`:
@@ -110,7 +110,7 @@ category: educação
 ![project](assets/13.webp)
 - Clique na foto do seu perfil do GitHub no canto superior direito, depois em `Your Repositories`:
 ![project](assets/14.webp)
-- Selecione o seu fork do repositório PlanB Network:
+- Selecione o seu fork do repositório Plan ₿ Academy:
 ![project](assets/15.webp)
 - Você deverá ver uma notificação no topo da janela com o seu novo branch. Provavelmente se chama `patch-1`. Clique nele:
 ![project](assets/16.webp)
@@ -131,7 +131,7 @@ category: educação
 ![project](assets/24.webp)
 - Clique no botão `Add file`, depois em `Upload files`:
 ![project](assets/25.webp)
-- Uma nova página será aberta. Arraste e solte uma imagem da sua empresa ou do seu software na área. Esta imagem será exibida no site da PlanB Network:
+- Uma nova página será aberta. Arraste e solte uma imagem da sua empresa ou do seu software na área. Esta imagem será exibida no site da Plan ₿ Academy:
 ![project](assets/26.webp)
 - Pode ser o logo ou um ícone:
 ![project](assets/27.webp)

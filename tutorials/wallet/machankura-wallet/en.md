@@ -258,7 +258,7 @@ You can watch the [video sending demo](https://www.linkedin.com/posts/activity-7
 Machankura isn't just a wallet. You can exchange your satoshis for goods and services (e.g. Bitrefill or Lightning Watts gift cards) directly from the app.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 You also have the "**Clan**" function, which allows you to manage a cooperative multi-signature system: clan members must approve each expense, and you can automatically distribute the funds among them.
 
@@ -329,12 +329,12 @@ Machankura allows you to send your bitcoins via different options:
 - gW-16 address, via the Boltz service.
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura enables interoperability between different Lightning wallets. In this demonstration, we send bitcoins from our Machankura WhatsApp wallet to a Wallet of Satoshi wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 To send, please enter the number 1, corresponding to the "SEND BTC" option. Next, select the "Lightning address" sending option, then enter the address to which the bitcoins are to be sent. Finally, select the "Sats" value measure, indicate the number of satoshis to be sent and confirm the shipment.
 
@@ -432,9 +432,9 @@ What's more, Machankura makes it possible for anyone wishing to send you bitcoin
 ![wallet](assets/fr/21.webp)
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Balance check
 

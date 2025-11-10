@@ -1,14 +1,14 @@
 ---
-name: Porofeseri Plan ₿ Network.
-description: Nokwongerako canke guhindura gute urutonde rw’umwigisha wanje kuri Plan ₿ Network?
+name: Porofeseri Plan ₿ Academy.
+description: Nokwongerako canke guhindura gute urutonde rw’umwigisha wanje kuri Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Niba utegura gutanga umusanzu muri Plan ₿ Network mu kwandika inyigisho canke inyigisho nshasha, uzokenera urutonde rw’umwigisha. Iyi nkuru izotuma uronka amahera akwiye ku bintu utanga kuri iyo nzira.
+Niba utegura gutanga umusanzu muri Plan ₿ Academy mu kwandika inyigisho canke inyigisho nshasha, uzokenera urutonde rw’umwigisha. Iyi nkuru izotuma uronka amahera akwiye ku bintu utanga kuri iyo nzira.
 
 
-Namwe mwamaze kwifatanya mu guhingura ibintu vy’inyigisho kuri Plan ₿ Network, birashoboka ko musanzwe mufise urutonde rw’umwigisha. Ushobora kubisanga muri dosiye `/abaporofeseri` [ku bubiko bwacu bwa GitHub](https://github.com/Umugambi-Umurongo/Bitcoin-ibirimwo-ivy’inyigisho/igiti/dev/abaporofeseri). Niba urutonde rwawe rusanzwe ruriho, rondera inzira yawe yo kwinjira muri dosiye `professor.yml`.
+Namwe mwamaze kwifatanya mu guhingura ibintu vy’inyigisho kuri Plan ₿ Academy, birashoboka ko musanzwe mufise urutonde rw’umwigisha. Ushobora kubisanga muri dosiye `/abaporofeseri` [ku bubiko bwacu bwa GitHub](https://github.com/Umugambi-Umurongo/Bitcoin-ibirimwo-ivy’inyigisho/igiti/dev/abaporofeseri). Niba urutonde rwawe rusanzwe ruriho, rondera inzira yawe yo kwinjira muri dosiye `professor.yml`.
 
 
 Kugira ngo uhindure urutonde rwawe, genda ku gice kivuga ngo "Guhindura urutonde rw'umwigisha wawe" kiri ku mpera y'iyi nyigisho.
@@ -17,13 +17,13 @@ Kugira ngo uhindure urutonde rwawe, genda ku gice kivuga ngo "Guhindura urutonde
 ## Yongerako umwigisha mushasha ukoresheje porogaramu yacu
 
 
-Uburyo bworoshe bwo gukora urutonde rw’umwigisha wawe kuri Plan ₿ Network ni ugukoresha igikoresho cacu ca Python gihuriweko. Ehe ingene bigenda.
+Uburyo bworoshe bwo gukora urutonde rw’umwigisha wawe kuri Plan ₿ Academy ni ugukoresha igikoresho cacu ca Python gihuriweko. Ehe ingene bigenda.
 
 
 ### 1 - Gutunganya ibidukikije vyawe
 
 
-Utegerezwa kuba ufise Fork yawe bwite iva [ububiko bwa Plan ₿ Network kuri GitHub]
+Utegerezwa kuba ufise Fork yawe bwite iva [ububiko bwa Plan ₿ Academy kuri GitHub]
 
 
 Guhuza ishami ry'ingenzi (`dev`) rya Fork yawe n'ububiko bw'inkomoko.
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-Igihe ugeze kuri paji y'intango, shiramwo inzira y'aho uba ku bubiko bwawe, ururimi wandikamwo n'Indangamuntu yawe ya GitHub. Niba uriko urakorera uwundi muntu iyi profile kandi usanzwe ufise profile ya Professeur, shiramwo ID yawe mu kibanza ca "*PBN Professor's ID*". Niba uriko urakora urutonde rwawe, ntuzoba ufise indangamuntu ya Professeur, kuko uriko urayikora, rero reka iki kibanza kibe ubusa.
+Igihe ugeze kuri paji y'intango, shiramwo inzira y'aho uba ku bubiko bwawe, ururimi wandikamwo n'Indangamuntu yawe ya GitHub. Niba uriko urakorera uwundi muntu iyi profile kandi usanzwe ufise profile ya Professeur, shiramwo ID yawe mu kibanza ca "*Plan ₿ Academy Professor's ID*". Niba uriko urakora urutonde rwawe, ntuzoba ufise indangamuntu ya Professeur, kuko uriko urayikora, rero reka iki kibanza kibe ubusa.
 
 
 Hanyuma ukande kuri buto ya "*Professeur mushasha*".
@@ -156,8 +156,8 @@ Niba waramenye neza gukoresha Git, hindura urutonde rw'umwigisha wawe mu kurema 
 Ku batangura, ndabagira inama yo guhindura biciye ku rubuga rwa GitHub rwa Interface. Raba neza ko ufise konti ya GitHub. Niba utazi uko woyikora, kurikiza iyi nyigisho:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Genda kuri [ububiko bwa Plan ₿ Network bwa GitHub bwihariye amakuru](https://github.com/Umugambi-w'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/ibishushanyo/abatanga).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Genda kuri [ububiko bwa Plan ₿ Academy bwa GitHub bwihariye amakuru](https://github.com/Umugambi-w'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/ibishushanyo/abatanga).
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ Igihe umaze gushika kuri dosiye wipfuza guhindura, ukande ku kimenyetso c’ikar
 ![Image](assets/fr/06.webp)
 
 
-Niba udasanzwe ufise Fork ivuye mu bubiko bwa Plan ₿ Network, GitHub izogusaba ko woyihingura. Fyonda kuri "*Fork ubu bubiko*".
+Niba udasanzwe ufise Fork ivuye mu bubiko bwa Plan ₿ Academy, GitHub izogusaba ko woyihingura. Fyonda kuri "*Fork ubu bubiko*".
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Injira ubutumwa budondora ihinduka ryawe, hanyuma uhitemwo "*Gusaba ihinduka*".
 Incamake y'ivyo wahinduye izogaragara. Niba wipfuza guhindura ibindi ku rubuga rwawe, urashobora gusubira mu madosiye maze ugakora ibindi bikorwa. Niwaheza, ukande kuri "*Rema ubusabe bwo gukurura*".
 
 
-Igisabwa co gukura ni igisabwa gikorwa co gushiramwo amahinduka ava mw’ishami ryawe mw’ishami ry’ingenzi ry’ububiko bwa Plan ₿ Network, bikaba vyemerera gusubiramwo no kuganira ku mahinduka imbere y’uko ahurizwa hamwe.
+Igisabwa co gukura ni igisabwa gikorwa co gushiramwo amahinduka ava mw’ishami ryawe mw’ishami ry’ingenzi ry’ububiko bwa Plan ₿ Academy, bikaba vyemerera gusubiramwo no kuganira ku mahinduka imbere y’uko ahurizwa hamwe.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Raba neza, hejuru ya Interface, ko ishami ryawe rikora ryifatanijwe n'ishami rya `dev` ry'ububiko bwa Plan ₿ Network (ari ryo shami nyamukuru).
+Raba neza, hejuru ya Interface, ko ishami ryawe rikora ryifatanijwe n'ishami rya `dev` ry'ububiko bwa Plan ₿ Academy (ari ryo shami nyamukuru).
 
 
 Injira umutwe uvuga muri make amahinduka wipfuza gufatanya n'ububiko bw'inkomoko. Yongerako amajambo make adondora ayo mahinduka, hanyuma ukande kuri buto ya Green "*Rema ubusabe bwo gukurura*" kugira ngo wemeze ubusabe bwo gukurura:
@@ -220,7 +220,7 @@ Injira umutwe uvuga muri make amahinduka wipfuza gufatanya n'ububiko bw'inkomoko
 ![Image](assets/fr/11.webp)
 
 
-PR yawe izoca iboneka mu gice ca "*Pull Request*" c'ububiko nyamukuru bwa Plan ₿ Network. Ico ubwirizwa gukora ubu ni ukurindira ko umuyobozi afatanya ivyo wahinduye.
+PR yawe izoca iboneka mu gice ca "*Pull Request*" c'ububiko nyamukuru bwa Plan ₿ Academy. Ico ubwirizwa gukora ubu ni ukurindira ko umuyobozi afatanya ivyo wahinduye.
 
 
 ![Image](assets/fr/12.webp)

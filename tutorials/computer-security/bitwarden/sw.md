@@ -24,7 +24,7 @@ Kidhibiti cha nenosiri hutengeneza na kuhifadhi kwa usalama manenosiri thabiti, 
 
 Katika somo hili, tutachunguza jinsi ya kusanidi na kutumia kidhibiti nenosiri ili kuimarisha usalama wako mtandaoni. Nitakutambulisha kwa Bitwarden, na katika somo lingine, tutaangalia suluhisho lingine linaloitwa KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Onyo: Kidhibiti cha nenosiri kinafaa kwa kuhifadhi manenosiri, lakini **hupaswi kamwe kuhifadhi maneno ya Mnemonic ya Bitcoin Wallet ndani yake!** Kumbuka, kishazi cha Mnemonic kinapaswa kuhifadhiwa katika muundo wa kipekee, kama kipande cha karatasi au chuma.
 
@@ -117,9 +117,9 @@ Kwanza kabisa, nakushauri sana usanidi uthibitishaji wa vipengele viwili (2FA) i
 Ikiwa huna uhakika jinsi ya kusanidi na kutumia vifaa hivi vya 2FA, ninapendekeza ufuate mafunzo haya 2 mengine:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Ili kufanya hivyo, nenda kwenye kichupo cha "**Usalama**" kwenye menyu ya "**Mipangilio**".
 
@@ -177,7 +177,7 @@ Katika fomu inayofungua, anza kwa kuamua asili ya kipengee cha kuokolewa. Ili ku
 
 ![BITWARDEN](assets/notext/26.webp)
 
-Katika sehemu ya "*Jina*", weka jina la maelezo ya kitambulisho chako. Hii itarahisisha kutafuta na kupanga nywila zako, haswa ikiwa una idadi kubwa. Kwa mfano, ikiwa ungependa kuhifadhi kitambulisho chako cha tovuti ya PlanB Network, unaweza kutaja kipengee hiki kwa njia ambayo hukifanya kitambulike mara moja wakati wa utafutaji wako wa siku zijazo.
+Katika sehemu ya "*Jina*", weka jina la maelezo ya kitambulisho chako. Hii itarahisisha kutafuta na kupanga nywila zako, haswa ikiwa una idadi kubwa. Kwa mfano, ikiwa ungependa kuhifadhi kitambulisho chako cha tovuti ya Plan ₿ Academy, unaweza kutaja kipengee hiki kwa njia ambayo hukifanya kitambulike mara moja wakati wa utafutaji wako wa siku zijazo.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Folda yako sasa inaonekana kwenye kidhibiti chako.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Unaweza kukabidhi folda kwa kitambulisho unapoiunda, kama tulivyofanya hapo awali, au kwa kurekebisha kitambulisho kilichopo. Kwa mfano, kwa kubofya kitambulisho changu cha PlanB Network, basi naweza kuchagua kukiainisha katika folda ya "*Bitcoin*".
+Unaweza kukabidhi folda kwa kitambulisho unapoiunda, kama tulivyofanya hapo awali, au kwa kurekebisha kitambulisho kilichopo. Kwa mfano, kwa kubofya kitambulisho changu cha Plan ₿ Academy, basi naweza kuchagua kukiainisha katika folda ya "*Bitcoin*".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -304,7 +304,7 @@ Sasa umeunganishwa kwa msimamizi wako wa Bitwarden kupitia kiendelezi cha kivinj
 ![BITWARDEN](assets/notext/51.webp)
 
 
-Kwa mfano, nikirudi kwenye tovuti ya PlanB Network na kujaribu kuingia kwenye akaunti yangu, unaweza kuona kwamba kiendelezi cha Bitwarden kilichounganishwa kwenye kivinjari kinatambua nyuga za kuingia na kunipa kiatomati kuchagua kitambulisho nilichohifadhi hapo awali.
+Kwa mfano, nikirudi kwenye tovuti ya Plan ₿ Academy na kujaribu kuingia kwenye akaunti yangu, unaweza kuona kwamba kiendelezi cha Bitwarden kilichounganishwa kwenye kivinjari kinatambua nyuga za kuingia na kunipa kiatomati kuchagua kitambulisho nilichohifadhi hapo awali.
 
 
 ![BITWARDEN](assets/notext/52.webp)
@@ -313,7 +313,7 @@ Nikichagua kitambulisho hiki, Bitwarden inanijazia sehemu za kuingia. Kipengele 
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Ugani pia umeundwa kugundua uundaji wa akaunti mpya. Kwa mfano, wakati wa kuunda akaunti mpya kwenye PlanB Network, Bitwarden inapendekeza kiotomatiki kuhifadhi kitambulisho kipya.
+Ugani pia umeundwa kugundua uundaji wa akaunti mpya. Kwa mfano, wakati wa kuunda akaunti mpya kwenye Plan ₿ Academy, Bitwarden inapendekeza kiotomatiki kuhifadhi kitambulisho kipya.
 
 ![BITWARDEN](assets/notext/54.webp)
 

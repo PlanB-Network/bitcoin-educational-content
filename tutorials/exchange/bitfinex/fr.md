@@ -22,11 +22,11 @@ Complétez les informations requises : indiquez votre adresse email et votre pay
 
 Pour des conseils sur l'utilisation et la sauvegarde de mots de passe forts et uniques, consultez également ce tutoriel :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nous allons à présent configurer le 2FA pour sécuriser le compte. Utilisez une application d'authentification sur votre smartphone, telle que Google Authenticator ou Authy par exemple. Vous trouverez un tutoriel sur cet outil ici :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannez le QR code avec votre application et entrez les 6 chiffres fournis.
 
@@ -163,9 +163,9 @@ Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Netwo
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Après l'achat de vos premiers bitcoins, vous avez évidemment la possibilité de les laisser sur la plateforme, mais je vous recommande fortement de les transférer vers votre propre portefeuille en self-custody. Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Network](https://planb.network/tutorials/wallet).
+Après l'achat de vos premiers bitcoins, vous avez évidemment la possibilité de les laisser sur la plateforme, mais je vous recommande fortement de les transférer vers votre propre portefeuille en self-custody. Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Achat et vente de bitcoins sur Bitfinex
 

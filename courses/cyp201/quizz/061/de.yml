@@ -6,4 +6,4 @@ wrong_answers:
   - 128 Bytes
 explanation: |
   Ein erweiterter Schlüssel ist ohne die Prüfsumme 78 Bytes groß und mit der Prüfsumme inbegriffen 82 Bytes.
-reviewed: false
+reviewed: true

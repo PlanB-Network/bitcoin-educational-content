@@ -239,7 +239,7 @@ Ziada ambayo haikuweza kuunganishwa kwenye bwawa, hapa ni sawa na `40,000 Sats`,
 
 UTXO hii ni hatari kwa faragha ya mtumiaji, kwani sio tu kwamba bado imeambatanishwa na siku zake za nyuma, na hivyo ikiwezekana kwa utambulisho wa mmiliki wake, lakini kwa kuongeza, inabainika kuwa ni ya mtumiaji ambaye amefanya CoinJoin.
 
-Ikiwa UTXO hii itaunganishwa na matokeo mchanganyiko, itapoteza usiri wote uliopatikana wakati wa mizunguko ya CoinJoin, hasa kwa sababu ya Common-Input-Ownership-Heuristic (CIOH). Ikiunganishwa na mabadiliko mengine ya kawaida, mtumiaji anaweza kupoteza usiri kwa kuwa hii itaunganisha pembejeo tofauti za mizunguko ya CoinJoin. Kwa hivyo, inapaswa kushughulikiwa kwa uangalifu. Njia ya kudhibiti UTXO hii yenye sumu itaelezwa kwa kina katika sehemu ya mwisho ya makala haya, na mafunzo yajayo yatashughulikia mbinu hizi kwa kina zaidi kwenye PlanB Network.
+Ikiwa UTXO hii itaunganishwa na matokeo mchanganyiko, itapoteza usiri wote uliopatikana wakati wa mizunguko ya CoinJoin, hasa kwa sababu ya Common-Input-Ownership-Heuristic (CIOH). Ikiunganishwa na mabadiliko mengine ya kawaida, mtumiaji anaweza kupoteza usiri kwa kuwa hii itaunganisha pembejeo tofauti za mizunguko ya CoinJoin. Kwa hivyo, inapaswa kushughulikiwa kwa uangalifu. Njia ya kudhibiti UTXO hii yenye sumu itaelezwa kwa kina katika sehemu ya mwisho ya makala haya, na mafunzo yajayo yatashughulikia mbinu hizi kwa kina zaidi kwenye Plan ₿ Academy.
 
 
 **Hatua ya 3: Mchanganyiko wa Awali**
@@ -282,7 +282,7 @@ Walakini, njia hii ina mapungufu mawili muhimu:
 - Ikiwa unatumia Whirlpool na Samourai Wallet bila kuwa mwangalifu kuunganisha Dojo yako mwenyewe, basi programu yako italazimika kuunganishwa kwenye seva inayodumishwa na timu za Samourai, na utawafunulia `xpub` ya Wallet yako. Taarifa hizi zisizojulikana ni muhimu kwa programu yako kupata miamala yako.
 
 
-Suluhisho bora la kushinda vikwazo hivi ni kutumia Dojo yako mwenyewe inayohusishwa na mfano wa Whirlpool CLI kwenye nodi yako ya kibinafsi ya Bitcoin. Kwa njia hii, utaepuka uvujaji wowote wa habari na kufikia uhuru kamili. Ingawa somo lililo hapa chini ni muhimu kwa malengo fulani au kwa wanaoanza, ili kuboresha kipindi chako cha CoinJoin, kwa kutumia Dojo yako inapendekezwa. Mwongozo wa kina wa kusanidi usanidi huu utapatikana hivi karibuni kwenye PlanB Network.
+Suluhisho bora la kushinda vikwazo hivi ni kutumia Dojo yako mwenyewe inayohusishwa na mfano wa Whirlpool CLI kwenye nodi yako ya kibinafsi ya Bitcoin. Kwa njia hii, utaepuka uvujaji wowote wa habari na kufikia uhuru kamili. Ingawa somo lililo hapa chini ni muhimu kwa malengo fulani au kwa wanaoanza, ili kuboresha kipindi chako cha CoinJoin, kwa kutumia Dojo yako inapendekezwa. Mwongozo wa kina wa kusanidi usanidi huu utapatikana hivi karibuni kwenye Plan ₿ Academy.
 
 
 ### Inasakinisha Samourai Wallet
@@ -487,7 +487,7 @@ Baada ya `Tx0` kuthibitishwa, UTXO zako zitasajiliwa kiotomatiki na mratibu, na 
 ![samourai](assets/notext/34.webp)
 
 
-Kwa kuangalia kichupo cha `Kuchanganya`, ambacho kinalingana na akaunti ya **Postmix**, utaona UTXO zinazotokana na michanganyiko ya awali. Sarafu hizi zitabaki kuwa tayari kwa uchanganyaji unaofuata, ambao hautachukua ada yoyote ya ziada. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa kuchanganya upya na ufanisi wa mzunguko wa CoinJoin: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Kwa kuangalia kichupo cha `Kuchanganya`, ambacho kinalingana na akaunti ya **Postmix**, utaona UTXO zinazotokana na michanganyiko ya awali. Sarafu hizi zitabaki kuwa tayari kwa uchanganyaji unaofuata, ambao hautachukua ada yoyote ya ziada. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa kuchanganya upya na ufanisi wa mzunguko wa CoinJoin: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Weka taarifa muhimu kwa ajili ya muamala wako wa matumizi, kisha ubofye kitufe c
 Katika hatua inayofuata, una chaguo la kurekebisha kiwango cha ada kinachohusishwa na muamala wako. Unaweza pia kuwezesha chaguo la Stonewall kwa kuangalia kisanduku kinacholingana. Ikiwa chaguo la Stonewall haliwezi kuchaguliwa, inamaanisha kwamba akaunti yako ya **Postmix** haina UTXO ya ukubwa wa kutosha kuauni muundo huu mahususi wa muamala.
 
 
-[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ikiwa kila kitu ni cha kuridhika kwako, bofya kwenye kitufe cha Green `TUMA ... BTC`.
@@ -599,7 +599,7 @@ Hakikisha SCODE yako imesajiliwa ipasavyo kwa kubofya mara nyingine tena kwenye 
 Ili CoinJoin iwe na ufanisi kweli, ni muhimu ionyeshe uwiano mzuri kati ya kiasi cha pembejeo na matokeo. Usawa huu huongeza idadi ya tafsiri zinazowezekana machoni pa mwangalizi wa nje, na hivyo kuongeza kutokuwa na uhakika kuzunguka shughuli hiyo. Ili kuhesabu kutokuwa na uhakika huu unaotokana na CoinJoin, mtu anaweza kuamua kuhesabu entropy ya muamala.
 
 
-Kwa uchunguzi wa kina wa viashirio hivi (muundo wa Whirlpool unatambuliwa kama ule unaoleta ulinganifu zaidi kuungana), ninakuelekeza kwenye mafunzo: [BOLTZMANN KAKOSOA](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+Kwa uchunguzi wa kina wa viashirio hivi (muundo wa Whirlpool unatambuliwa kama ule unaoleta ulinganifu zaidi kuungana), ninakuelekeza kwenye mafunzo: [BOLTZMANN KAKOSOA](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
 Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: Whirlpool STATS TOOLS - ANONSETS
@@ -640,7 +640,7 @@ Ifuatayo, lazima uwe mwangalifu katika kudhibiti mabadiliko ya doxxic, mabadilik
 - Zitume kwa Lightning Network: Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada za ununuzi zilizopunguzwa ni chaguo ambalo linaweza kupendeza. Walakini, njia hii inaweza kufichua habari fulani kulingana na utumiaji wako wa Umeme na kwa hivyo inapaswa kufanywa kwa tahadhari.
 
 
-Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kwenye PlanB Network.
+Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kwenye Plan ₿ Academy.
 
 
 **Nyenzo za ziada:**

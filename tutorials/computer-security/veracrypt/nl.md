@@ -22,7 +22,7 @@ Met andere woorden, het is aan te raden om je bestanden op 3 verschillende locat
 Om deze 3-2-1 back-upstrategie eenvoudig te implementeren, kun je kiezen voor een online opslagoplossing, door automatisch of periodiek de bestanden van je computer te synchroniseren met die in je cloud. Onder deze online back-upoplossingen zijn er natuurlijk die van de grote digitale bedrijven die je kent: Google Drive, Microsoft OneDrive of Apple iCloud. Dit zijn echter niet de beste oplossingen om je privacy te beschermen. In een eerdere tutorial heb ik je kennis laten maken met een alternatief dat je documenten versleutelt voor betere privacy: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Door deze strategie van lokale en cloudback-ups toe te passen, profiteert u al van twee verschillende soorten media voor uw gegevens, waarvan één offsite. Om de 3-2-1 strategie compleet te maken, hoeft u alleen maar een extra kopie toe te voegen. Wat ik je aanraad is om je gegevens die lokaal en in de cloud staan periodiek te exporteren naar een fysiek medium, zoals een USB-stick of een externe Hard schijf. Op deze manier, zelfs als de servers van je online opslagoplossing worden vernietigd en je computer tegelijkertijd uitvalt, heb je nog steeds deze derde kopie op een extern medium om je gegevens niet te verliezen.
 
@@ -151,7 +151,7 @@ Ik raad je ook aan om je wachtwoord op te slaan in een wachtwoordmanager. Dit ma
 Voor meer informatie over het beheren van wachtwoorden raad ik je aan om deze andere complete tutorial te lezen:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Voer je wachtwoord in de 2 daarvoor bestemde velden in en klik dan op "*Next*". veraCrypt] (activa/notext/25.webp)
 

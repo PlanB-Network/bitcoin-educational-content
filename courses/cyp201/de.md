@@ -45,7 +45,9 @@ Als Nächstes werden wir die Funktionsweise von digitalen Signaturalgorithmen be
 Sobald wir ein gutes Verständnis dieser Elemente der Kryptografie haben, werden wir schließlich zum Kern des Trainings übergehen: deterministische und hierarchische Wallets! Zuerst gibt es einen Abschnitt, der den mnemonischen Phrasen gewidmet ist, diesen Sequenzen von 12 oder 24 Wörtern, die es Ihnen ermöglichen, Ihre Wallets zu erstellen und wiederherzustellen. Sie werden entdecken, wie diese Wörter aus einer Quelle der Entropie generiert werden und wie sie die Nutzung von Bitcoin erleichtern.
 
 ![CYP201](assets/en/003.webp)
+
 Das Training wird mit dem Studium des BIP39-Passphrases, des Seeds (nicht zu verwechseln mit der mnemonischen Phrase), des Master Chain Codes und des Master-Schlüssels fortgesetzt. Wir werden im Detail sehen, was diese Elemente sind, ihre jeweiligen Rollen und wie sie berechnet werden.
+
 ![CYP201](assets/en/004.webp)
 
 Schließlich werden wir vom Master-Schlüssel aus entdecken, wie kryptografische Schlüsselpaare auf eine deterministische und hierarchische Weise bis zu den Empfangsadressen abgeleitet werden.
@@ -178,7 +180,7 @@ Die am häufigsten verwendete Hash-Funktion in Bitcoin ist **SHA256** ("_Secure 
 
 Diese Funktion wird in vielen Aspekten von Bitcoin verwendet. Auf Protokollebene ist sie am Proof-of-Work-Mechanismus beteiligt, wo sie in einer doppelten Hashing-Prozedur angewendet wird, um eine partielle Kollision zwischen dem Header eines Kandidatenblocks, der von einem Miner erstellt wurde, und dem Schwierigkeitsziel zu suchen. Wenn diese partielle Kollision gefunden wird, wird der Kandidatenblock gültig und kann zur Blockchain hinzugefügt werden.
 
-SHA256 wird auch beim Aufbau eines Merkle-Baums verwendet, der insbesondere der Akkumulator ist, der für die Aufzeichnung von Transaktionen in Blöcken verwendet wird. Diese Struktur findet sich auch im Utreexo-Protokoll, das die Größe des UTXO-Sets reduziert. Zusätzlich wird mit der Einführung von Taproot im Jahr 2021 SHA256 im MAST (_Merkelised Alternative Script Tree_) ausgenutzt, der es ermöglicht, nur die tatsächlich in einem Skript verwendeten Ausgabebedingungen zu offenbaren, ohne die anderen möglichen Optionen offenzulegen. Es wird auch bei der Berechnung von Transaktionsidentifikatoren, bei der Übertragung von Paketen über das P2P-Netzwerk, bei elektronischen Signaturen... verwendet. Schließlich, und das ist in dieser Schulung von besonderem Interesse, wird SHA256 auf Anwendungsebene für den Aufbau von Bitcoin-Wallets und die Ableitung von Adressen verwendet.
+SHA256 wird auch beim Aufbau eines Merkle-Baums verwendet, der insbesondere der Akkumulator ist, der für die Aufzeichnung von Transaktionen in Blöcken verwendet wird. Diese Struktur findet sich auch im Utreexo-Protokoll, das die Größe des UTXO-Sets reduziert. Zusätzlich wird mit der Einführung von Taproot im Jahr 2021 SHA256 im MAST (_Merkelised Alternative Script Tree_) genutzt, der es ermöglicht, nur die tatsächlich in einem Skript verwendeten Ausgabebedingungen zu offenbaren, ohne die anderen möglichen Optionen offenzulegen. Es wird auch bei der Berechnung von Transaktionsidentifikatoren, bei der Übertragung von Paketen über das P2P-Netzwerk, bei elektronischen Signaturen und weiteren Anwendungsfällen verwendet. Schließlich, und das ist in dieser Schulung von besonderem Interesse, wird SHA256 auf Anwendungsebene für den Aufbau von Bitcoin-Wallets und die Ableitung von Adressen verwendet.
 
 Meistens, wenn man in Bitcoin auf die Verwendung von SHA256 stößt, wird es tatsächlich ein doppelter Hash SHA256 sein, notiert als "**HASH256**", der einfach darin besteht, SHA256 zweimal hintereinander anzuwenden:
 
@@ -393,6 +395,7 @@ $$
 Schematisch könnte die Rechtsverschiebung so aussehen:
 
 ![CYP201](assets/en/012.webp)
+
 Eine weitere in SHA256 für die Bitmanipulation verwendete Operation ist die rechte zirkuläre Rotation, bezeichnet mit $RotR_n(x)$, die die Bits von $x$ um $n$ Positionen nach rechts verschiebt und die verschobenen Bits am Anfang der Zeichenkette wieder einfügt.
 Zum Beispiel, für $x = 101100001$ (über 9 Bits) und $n = 4$:
 
@@ -435,6 +438,7 @@ In diesem Fall entspricht $x$ $W_{i-15}$ für $\sigma_0(x)$ und $W_{i-2}$ für $
 Sobald wir alle Wörter $W_i$ für unser 512-Bit-Stück bestimmt haben, können wir zur Kompressionsfunktion übergehen, die aus 64 Runden besteht.
 
 ![CYP201](assets/en/014.webp)
+
 Für jede Runde $i$ von 0 bis 63 haben wir drei verschiedene Arten von Eingaben. Zuerst die $W_i$, die wir gerade bestimmt haben, teilweise bestehend aus unserem Nachrichtenstück $P_n$. Als Nächstes die 64 Konstanten $K_i$. Schließlich verwenden wir die Zustandsvariablen $A$, $B$, $C$, $D$, $E$, $F$, $G$ und $H$, die sich im Laufe des Hashing-Prozesses entwickeln und mit jeder Kompressionsfunktion modifiziert werden. Jedoch verwenden wir für das erste Stück $P_1$ die zuvor gegebenen Anfangskonstanten.
 Wir führen dann die folgenden Operationen mit unseren Eingaben durch:
 
@@ -452,7 +456,9 @@ $$
 
 $$
 
-\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)$$
+\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
+
+$$
 
 - **Funktion $Ch$ ("*Wählen*"):**
 
@@ -635,9 +641,11 @@ Sobald die Vorverarbeitung abgeschlossen ist, wird der HMAC-SHA512-Algorithmus d
 
 
 $$
+$$
 
-\text {HMAC-SHA512}\_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+\text {HMAC-SHA512}_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
 
+$$
 $$
 
 Diese Gleichung wird in die folgenden Schritte unterteilt:
@@ -700,7 +708,7 @@ Dies ist die grundlegende Funktionsweise von Bitcoin, aber im Laufe der Zeit ist
 
 Ein Nutzer, der eine Bitcoin-Transaktion durchführen möchte, muss daher eine digitale Signatur mit seinem privaten Schlüssel für die betreffende Transaktion erstellen. Die Signatur kann von anderen Netzwerkteilnehmern überprüft werden. Wenn sie gültig ist, bedeutet dies, dass der Nutzer, der die Transaktion initiiert, tatsächlich der Besitzer des privaten Schlüssels und somit der Besitzer der Bitcoins ist, die er ausgeben möchte. Andere Nutzer können dann die Transaktion akzeptieren und weiterleiten.
 
-Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht: den privaten Schlüssel, sicher aufzubewahren. Ein Bitcoin-Wallet ist genau ein Gerät, das es Ihnen ermöglicht, alle Ihre Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Brieftasche.
+Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht, nämlich den privaten Schlüssel, sicher aufzubewahren. Ein Bitcoin-Wallet ist also ein Werkzeug, das es Ihnen ermöglicht, alle Ihre Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Brieftasche.
 
 Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, werden durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) und das **Schnorr-Signaturschema**. ECDSA ist das digitale Signaturprotokoll, das seit den Anfängen von Bitcoin verwendet wird. Schnorr ist in Bitcoin neuer, da es im November 2021 mit dem Taproot-Update eingeführt wurde.
 
@@ -709,7 +717,7 @@ Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. Sie basieren 
 
 Die elliptische Kurvenkryptografie (ECC) ist eine Reihe von Algorithmen, die eine elliptische Kurve für ihre verschiedenen mathematischen und geometrischen Eigenschaften zu kryptografischen Zwecken nutzen. Die Sicherheit dieser Algorithmen beruht auf der Schwierigkeit des diskreten Logarithmusproblems auf elliptischen Kurven. Elliptische Kurven werden insbesondere für Schlüsselaustausche, asymmetrische Verschlüsselung oder zur Erstellung digitaler Signaturen verwendet.
 
-Eine wichtige Eigenschaft dieser Kurven ist, dass sie symmetrisch bezüglich der x-Achse sind. So wird jede nicht-vertikale Linie, die die Kurve an zwei unterschiedlichen Punkten schneidet, immer einen dritten Schnittpunkt mit der Kurve haben. Außerdem wird jede Tangente an die Kurve an einem nicht-singulären Punkt die Kurve an einem weiteren Punkt schneiden. Diese Eigenschaften werden nützlich sein, um Operationen auf der Kurve zu definieren.
+Eine wichtige Eigenschaft dieser Kurven ist, dass sie symmetrisch bezüglich der x-Achse sind. So wird jede nicht-vertikale Linie, die die Kurve an zwei unterschiedlichen Punkten schneidet, immer einen dritten Schnittpunkt mit der Kurve haben. Außerdem wird jede Tangente an der Kurve an einem nicht-singulären Punkt die Kurve an einem weiteren Punkt schneiden. Diese Eigenschaften werden nützlich sein, um Operationen auf der Kurve zu definieren.
 
 Hier ist eine Darstellung einer elliptischen Kurve über dem Feld der reellen Zahlen:
 
@@ -727,7 +735,7 @@ $$
 
 Um ECDSA oder Schnorr zu verwenden, muss man die Parameter der elliptischen Kurve wählen, das heißt, die Werte von $a$ und $b$ in der Kurvengleichung. Es gibt verschiedene Standards elliptischer Kurven, die als kryptografisch sicher gelten. Der bekannteste ist die *secp256r1*-Kurve, die vom NIST (*National Institute of Standards and Technology*) definiert und empfohlen wird.
 
-Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell einen Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll den Standard ***secp256k1***. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. Ihre Gleichung ist daher:
+Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell eine Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll den Standard ***secp256k1***. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. Ihre Gleichung ist daher:
 
 $$
 
@@ -778,9 +786,9 @@ Wir verwenden ein endliches Feld ganzer Zahlen modulo $p$, um die Genauigkeit de
 
 Die Mathematik der elliptischen Kurven über endlichen Feldern ist analog zu der über dem Feld der reellen Zahlen, mit der Anpassung, dass alle Operationen modulo $p$ durchgeführt werden. Um die Erklärungen zu vereinfachen, werden wir in den folgenden Kapiteln weiterhin Konzepte anhand einer Kurve, die über reelle Zahlen definiert ist, veranschaulichen, während wir im Hinterkopf behalten, dass die Kurve in der Praxis über ein endliches Feld definiert ist.
 
-Wenn Sie mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchten, empfehle ich auch, diesen anderen Kurs im Plan ₿ Network zu konsultieren:
+Wenn Sie mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchten, empfehle ich auch, diesen anderen Kurs im Plan ₿ Academy zu konsultieren:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Berechnung des öffentlichen Schlüssels aus dem privaten Schlüssel
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -818,7 +826,8 @@ $$
 
 wo:
 - $k$ ist der private Schlüssel (eine zufällige ganze Zahl zwischen $1$ und $n-1$);
-- $G$ ist der Generatorpunkt der elliptischen Kurve, der von allen Teilnehmern des Bitcoin-Netzwerks verwendet wird; - $\cdot$ repräsentiert die skalare Multiplikation auf der elliptischen Kurve, was dem Hinzufügen des Punktes $G$ zu sich selbst $k$ Mal entspricht.
+- $G$ ist der Generatorpunkt der elliptischen Kurve, der von allen Teilnehmern des Bitcoin-Netzwerks verwendet wird;
+- $\cdot$ repräsentiert die skalare Multiplikation auf der elliptischen Kurve, was dem Hinzufügen des Punktes $G$ zu sich selbst $k$ Mal entspricht.
 
 Die Tatsache, dass dieser Punkt $G$ allen öffentlichen Schlüsseln auf Bitcoin gemeinsam ist, ermöglicht es uns sicherzustellen, dass der gleiche private Schlüssel $k$ uns immer den gleichen öffentlichen Schlüssel $K$ geben wird:
 
@@ -875,7 +884,7 @@ Grafisch entspricht dies der Durchführung einer Reihe von Additionen und Verdop
 
 Wenn wir zum Beispiel den Punkt $3G$ berechnen möchten, müssen wir zuerst den Punkt $2G$ durch Verdopplung des Punktes $G$ berechnen, dann $G$ und $2G$ addieren. Um $G$ und $2G$ zu addieren, zeichnen wir einfach die Linie, die diese beiden Punkte verbindet, holen den einzigartigen Punkt $-3G$ am Schnittpunkt zwischen dieser Linie und der elliptischen Kurve und bestimmen dann $3G$ als das Gegenteil von $-3G$.
 
-Wir werden haben:
+Wir erhalten:
 
 
 $$
@@ -892,7 +901,9 @@ $$
 $$
 
 Grafisch würde dies wie folgt dargestellt:
+
 ![CYP201](assets/en/027.webp)
+
 ### Einwegfunktion
 
 Dank dieser Operationen können wir verstehen, warum es einfach ist, einen öffentlichen Schlüssel aus einem privaten Schlüssel abzuleiten, aber das Umgekehrte praktisch unmöglich ist.
@@ -1158,6 +1169,7 @@ In allen Diagrammen dieses Kapitels repräsentiert die orangefarbene Farbe die E
 ![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Die Signatur deckt alle Eingaben sowie eine einzelne Ausgabe ab, die dem Index der signierten Eingabe entspricht. Wenn beispielsweise die Signatur das _scriptPubKey_ der Eingabe #0 entsperrt, dann deckt sie auch die Ausgabe #0 ab. Die Signatur schützt auch alle anderen Eingaben, die nicht mehr modifiziert werden können. Jedoch kann jeder eine zusätzliche Ausgabe hinzufügen, ohne die Signatur zu invalidieren, vorausgesetzt, dass Ausgabe #0, die die einzige von ihr abgedeckte ist, nicht modifiziert wird.
+
   ![CYP201](assets/en/033.webp)
 
 Zusätzlich zu diesen drei Sighash-Flags gibt es auch den Modifikator `SIGHASH_ANYONECANPAY` (`0x80`). Dieser Modifikator kann mit einem grundlegenden Sighash-Flag kombiniert werden, um drei neue Sighash-Flags zu erstellen:
@@ -1171,6 +1183,7 @@ Zusätzlich zu diesen drei Sighash-Flags gibt es auch den Modifikator `SIGHASH_A
 ![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Die Signatur deckt einen einzelnen Eingang sowie den Ausgang ab, der denselben Index wie dieser Eingang hat. Zum Beispiel, wenn die Signatur das _scriptPubKey_ des Eingangs #3 entsperrt, wird sie auch den Ausgang #3 abdecken. Der Rest der Transaktion bleibt modifizierbar, sowohl in Bezug auf andere Eingänge als auch andere Ausgänge.
+
   ![CYP201](assets/en/036.webp)
 
 ### Projekte zur Hinzufügung neuer Sighash-Flags
@@ -1186,7 +1199,7 @@ Wenn dieses Sighash-Flag in Bitcoin integriert wird, ermöglicht es die Verwendu
 
 Um Ihr Wissen über das Lightning-Netzwerk zu vertiefen, empfehle ich nach dem CYP201-Kurs den LNP201-Kurs von Fanis Michalakis, der das Thema detailliert behandelt:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Im nächsten Teil schlage ich vor, zu entdecken, wie die mnemonische Phrase, die die Basis Ihrer Bitcoin-Wallet bildet, funktioniert.
 
@@ -1219,13 +1232,14 @@ Wenn man mehrere private Schlüssel verwenden wollte, war es dann notwendig, ebe
 
 Diese Einschränkung ergibt sich aus dem Datenschutzmodell von Bitcoin. Durch die Wiederverwendung derselben Adresse wird es externen Beobachtern leichter gemacht, alle meine Bitcoin-Transaktionen nachzuverfolgen. Deshalb wird dringend davon abgeraten, eine Empfangsadresse wiederzuverwenden. Um jedoch mehrere Adressen zu haben und unsere Transaktionen öffentlich zu trennen, ist es notwendig, mehrere private Schlüssel zu verwalten. Im Falle von JBOK-Wallets impliziert dies, so viele Backups zu erstellen, wie es neue Schlüsselpaare gibt, eine Aufgabe, die schnell komplex und für die Benutzer schwer zu pflegen werden kann.
 
-Um mehr über das Datenschutzmodell von Bitcoin zu erfahren und Methoden zum Schutz Ihrer Privatsphäre zu entdecken, empfehle ich auch, meinem BTC204-Kurs im Plan ₿ Network zu folgen:
+Um mehr über das Datenschutzmodell von Bitcoin zu erfahren und Methoden zum Schutz Ihrer Privatsphäre zu entdecken, empfehle ich auch, meinem BTC204-Kurs im Plan ₿ Academy zu folgen:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets (_Hierarchical Deterministic_)
 
 Um die Einschränkung von JBOK-Wallets zu adressieren, wurde später eine neue Wallet-Struktur genutzt. Im Jahr 2012 führte Pieter Wuille mit BIP32 eine Verbesserung ein, die hierarchische deterministische Wallets einführt. Das Prinzip einer HD-Wallet besteht darin, alle privaten Schlüssel von einer einzigen Informationsquelle, genannt Seed, auf eine deterministische und hierarchische Weise abzuleiten. Dieser Seed wird zufällig beim Erstellen der Wallet generiert und stellt ein einzigartiges Backup dar, das die Wiederherstellung aller privaten Schlüssel der Wallet ermöglicht. So kann der Benutzer eine sehr große Anzahl von privaten Schlüsseln generieren, um die Wiederverwendung von Adressen zu vermeiden und ihre Privatsphäre zu bewahren, während nur ein einziges Backup ihrer Wallet über den Seed benötigt wird.
+
 ![CYP201](assets/en/039.webp)
 
 In HD-Wallets wird die Schlüsselableitung gemäß einer hierarchischen Struktur durchgeführt, die es ermöglicht, Schlüssel in Ableitungssubräume zu organisieren, die weiter unterteilbar sind, um die Verwaltung von Mitteln und die Interoperabilität zwischen verschiedenen Wallet-Software zu erleichtern. Heutzutage wird dieser Standard von der überwiegenden Mehrheit der Bitcoin-Benutzer angenommen. Aus diesem Grund werden wir ihn in den folgenden Kapiteln detailliert untersuchen.
@@ -1323,10 +1337,12 @@ Beispielsweise ergibt eine 256-Bit-Entropie das Ergebnis $\text{ENT} \Vert \text
 
 ### Umwandlung der Binärsequenz in eine mnemonische Phrase
 
-Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
+Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
 
 ![CYP201](assets/en/042.webp)
+
 Zum Beispiel beträgt bei einer 128-Bit-Entropie die Prüfsumme 4 Bits, und somit misst die gesamte Sequenz 132 Bits. Sie wird in 12 Segmente zu je 11 Bits unterteilt (die orangefarbenen Bits bezeichnen die Prüfsumme):
+
 ![CYP201](assets/en/043.webp)
 
 Jedes Segment wird dann in eine Dezimalzahl umgewandelt, die ein Wort in der Liste repräsentiert. Zum Beispiel ist das binäre Segment `01011010001` in Dezimalzahl `721` äquivalent. Indem man 1 hinzufügt, um sich an die Indexierung der Liste anzupassen (die bei 1 und nicht bei 0 beginnt), ergibt dies den Wortrang `722`, welcher "*focus*" in der Liste ist.
@@ -1363,7 +1379,7 @@ Folglich bietet die Wahl einer 24-Wort-Phrase keinen zusätzlichen Schutz für d
 Ein 12-Wort-Phrase, die auch 128 Bit an Sicherheit bietet, ist daher derzeit ausreichend, um Ihre Bitcoins gegen jeden Diebstahlversuch zu schützen. Solange der digitale Signaturalgorithmus nicht geändert wird, um größere Schlüssel zu verwenden oder sich auf ein anderes mathematisches Problem als das ECDLP zu stützen, bleibt eine 24-Wort-Phrase überflüssig. Darüber hinaus erhöht eine längere Phrase das Risiko eines Verlusts während der Sicherung: Eine Sicherung, die halb so lang ist, ist immer einfacher zu verwalten.
 Um weiter zu gehen und konkret zu lernen, wie man manuell eine Test-Mnemonic-Phrase generiert, rate ich Ihnen, dieses Tutorial zu entdecken:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Bevor wir mit der Ableitung des Wallets aus dieser Mnemonic-Phrase fortfahren, werde ich Ihnen im folgenden Kapitel die BIP39-Passphrase vorstellen, da sie eine Rolle im Ableitungsprozess spielt und sie sich auf derselben Ebene wie die Mnemonic-Phrase befindet.
 ## Die Passphrase
@@ -1393,6 +1409,7 @@ Schließlich ist die Verwendung einer Passphrase interessant, wenn man die Zufä
 
 Damit die Passphrase wirksam ist, muss sie ausreichend lang und zufällig sein. Wie bei einem starken Passwort empfehle ich, eine Passphrase zu wählen, die so lang und zufällig wie möglich ist, mit einer Vielfalt an Buchstaben, Zahlen und Symbolen, um jeden Brute-Force-Angriff unmöglich zu machen.
 Es ist ebenfalls wichtig, diese Passphrase ordnungsgemäß zu speichern, genauso wie die mnemonische Phrase. **Der Verlust bedeutet den Verlust des Zugangs zu Ihren Bitcoins**. Ich rate dringend davon ab, sie sich nur zu merken, da dies das Risiko eines Verlusts unangemessen erhöht. Das Ideal ist, sie auf einem physischen Medium (Papier oder Metall) getrennt von der mnemonischen Phrase niederzuschreiben. Diese Sicherungskopie muss offensichtlich an einem anderen Ort als Ihre mnemonische Phrase aufbewahrt werden, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
+
 ![CYP201](assets/en/047.webp)
 
 Im folgenden Abschnitt werden wir entdecken, wie diese beiden Elemente an der Basis Ihrer Wallet – die mnemonische Phrase und die Passphrase – verwendet werden, um die Schlüsselpaare abzuleiten, die in dem *scriptPubKey* verwendet werden, um Ihre UTXOs zu sperren.
@@ -1473,7 +1490,7 @@ $$
 
 Der Master-Privatschlüssel wird als Elternschlüssel betrachtet, von dem alle abgeleiteten Privatschlüssel — Kinder, Enkelkinder, Urenkel usw. — generiert werden. Er repräsentiert die Null-Ebene in der Hierarchie der Ableitung.
 
-Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie in den Schlüsselableitungsprozess für Kinder ein, um bestimmten potenziellen Angriffen entgegenzuwirken. Darüber hinaus hat im HD-Wallet jedes Schlüsselpaar einen einzigartigen Chain-Code, der ebenfalls verwendet wird, um Kinderschlüssel aus diesem Paar abzuleiten, aber wir werden dies in den kommenden Kapiteln genauer besprechen.
+Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie in den Schlüsselableitungsprozess für Kind-Schlüssel ein, um bestimmten potenziellen Angriffen entgegenzuwirken. Darüber hinaus hat im HD-Wallet jedes Schlüsselpaar einen einzigartigen Chain-Code, der ebenfalls verwendet wird, um Kinderschlüssel aus diesem Paar abzuleiten, aber wir werden dies in den kommenden Kapiteln genauer besprechen.
 
 Bevor wir mit der Ableitung des HD-Wallets mit den folgenden Elementen fortfahren, möchte ich im nächsten Kapitel erweiterte Schlüssel vorstellen, die oft mit dem Master-Schlüssel verwechselt werden. Wir werden sehen, wie sie konstruiert sind und welche Rolle sie im Bitcoin-Wallet spielen.
 
@@ -1491,20 +1508,20 @@ Der erweiterte Schlüssel besteht aus zwei Teilen:
 - Den Metadaten, die verschiedene Informationen zur Erleichterung der Interoperabilität zwischen Software und zur Verbesserung des Verständnisses für den Benutzer enthalten.
 
 ### Wie erweiterte Schlüssel funktionieren
-Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von Kind-privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von Kind-öffentlichen Schlüsseln.
-Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" Kind-öffentlichen Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
+Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von abgeleiteten privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von öffentlichen Kind-Schlüsseln.
+Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" öffentlichen Kind-Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
 
-Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von Kind-privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. Sie können nur Kind-öffentliche Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
+Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von abgeleiteten privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. Sie können nur Kind-öffentliche Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
 
 Für das Folgende werden wir die folgende Notation anwenden:
-- $K_{\text{PAR}}$: ein Eltern-öffentlicher Schlüssel;
-- $k_{\text{PAR}}$: ein Eltern-privater Schlüssel;
+- $K_{\text{PAR}}$: ein öffentlicher Eltern-Schlüssel;
+- $k_{\text{PAR}}$: ein privater Eltern-Schlüssel;
 - $C_{\text{PAR}}$: ein Eltern-Chain-Code;
 - $C_{\text{CHD}}$: ein Kind-Chain-Code;
-- $K_{\text{CHD}}^n$: ein normaler Kind-öffentlicher Schlüssel;
-- $k_{\text{CHD}}^n$: ein normaler Kind-privater Schlüssel;
-- $K_{\text{CHD}}^h$: ein gehärteter Kind-öffentlicher Schlüssel;
-- $k_{\text{CHD}}^h$: ein gehärteter Kind-privater Schlüssel.
+- $K_{\text{CHD}}^n$: ein normaler öffentlicher Kind-Schlüssel;
+- $k_{\text{CHD}}^n$: ein normaler privater Kind-Schlüssel;
+- $K_{\text{CHD}}^h$: ein gehärteter öffentlicher Kind-Schlüssel;
+- $k_{\text{CHD}}^h$: ein gehärteter privater Kind-Schlüssel.
 
 ![CYP201](assets/en/052.webp)
 
@@ -1513,7 +1530,7 @@ Für das Folgende werden wir die folgende Notation anwenden:
 Ein erweiterter Schlüssel ist wie folgt strukturiert:
 - **Version**: Versionscode zur Identifizierung der Art des Schlüssels (`xprv`, `xpub`, `yprv`, `ypub`...). Am Ende dieses Kapitels werden wir sehen, was die Buchstaben `x`, `y` und `z` entsprechen.
 - **Tiefe**: Hierarchische Ebene im HD-Wallet relativ zum Master-Schlüssel (0 für den Master-Schlüssel).
-- **Eltern-Fingerabdruck**: Die ersten 4 Bytes des HASH160-Hashs des Eltern-öffentlichen Schlüssels, der zur Ableitung des im Payload vorhandenen Schlüssels verwendet wurde.
+- **Eltern-Fingerabdruck**: Die ersten 4 Bytes des HASH160-Hashs des öffentlichen Eltern-Schlüssels, der zur Ableitung des im Payload vorhandenen Schlüssels verwendet wurde.
 - **Indexnummer**: Kennzeichnung des Kindes unter Geschwisterschlüsseln, das heißt, unter allen Schlüsseln auf derselben Ableitungsebene, die dieselben Elternschlüssel haben.
 - **Chain-Code**: Ein einzigartiger 32-Byte-Code zur Ableitung von Kind-Schlüsseln.
 - **Schlüssel**: Der private Schlüssel (gekennzeichnet durch 1 Byte für die Größe) oder der öffentliche Schlüssel.
@@ -1614,7 +1631,7 @@ Wie wir im vorherigen Kapitel kurz angesprochen haben: Kinderschlüssel sind in 
 Jedes Kind-Schlüsselpaar wird durch einen 32-Bit **Index** (benannt $i$ in unseren Berechnungen) identifiziert. Die Indizes für normale Schlüssel reichen von $0$ bis $2^{31}-1$, während die für gehärtete Schlüssel von $2^{31}$ bis $2^{32}-1$ reichen. Diese Zahlen werden verwendet, um Geschwister-Schlüsselpaare während der Ableitung zu unterscheiden. Tatsächlich muss jedes Eltern-Schlüsselpaar in der Lage sein, mehrere Kind-Schlüsselpaare abzuleiten. Würden wir dieselbe Berechnung systematisch von den Elternschlüsseln aus anwenden, wären alle erhaltenen Geschwisterschlüssel identisch, was nicht wünschenswert ist. Der Index führt somit eine Variable ein, die die Ableitungsberechnung modifiziert und es ermöglicht, jedes Geschwisterpaar zu differenzieren. Außer für spezifische Verwendungen in bestimmten Protokollen und Ableitungsstandards beginnen wir in der Regel damit, das erste Kind-Schlüsselpaar mit dem Index `0`, das zweite mit dem Index `1` usw. abzuleiten.
 ### Ableitungsprozess mit HMAC-SHA512
 
-Die Ableitung jedes Kind-Schlüssels basiert auf der HMAC-SHA512-Funktion, die wir in Abschnitt 2 über Hash-Funktionen besprochen haben. Sie nimmt zwei Eingaben: den Eltern-Chain-Code $C_{\text{PAR}}$ und die Verkettung des Elternschlüssels (entweder des öffentlichen Schlüssels $K_{\text{PAR}}$ oder des privaten Schlüssels $k_{\text{PAR}}$, abhängig von der Art des gewünschten Kind-Schlüssels) und des Index. Die Ausgabe des HMAC-SHA512 ist eine 512-Bit-Sequenz, aufgeteilt in zwei Teile:
+Die Ableitung jedes Kind-Schlüssels basiert auf der HMAC-SHA512-Funktion, die wir in Abschnitt 2 über Hash-Funktionen besprochen haben. Sie nimmt zwei Eingaben: den Master-Chain-Code $C_{\text{PAR}}$ und die Verkettung des Elternschlüssels (entweder des öffentlichen Schlüssels $K_{\text{PAR}}$ oder des privaten Schlüssels $k_{\text{PAR}}$, abhängig von der Art des gewünschten Kind-Schlüssels) und des Index. Die Ausgabe des HMAC-SHA512 ist eine 512-Bit-Sequenz, aufgeteilt in zwei Teile:
 - **Die ersten 32 Bytes** (oder $h_1$) werden verwendet, um das neue Kind-Paar zu berechnen.
 - **Die letzten 32 Bytes** (oder $h_2$) dienen als neuer Chain-Code $C_{\text{CHD}}$ für das Kind-Paar.
 
@@ -1632,7 +1649,7 @@ $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Eltern-Chain-Code und dann die Verkettung des Index mit dem öffentlichen Schlüssel, der mit dem Eltern-Privatschlüssel assoziiert ist. Der Eltern-Öffentliche-Schlüssel wird hier verwendet, weil wir einen normalen Kind-Schlüssel ableiten möchten, keinen gehärteten.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem öffentlichen Schlüssel, der mit dem Eltern-Privatschlüssel assoziiert ist. Der Eltern-Öffentliche-Schlüssel wird hier verwendet, weil wir einen normalen Kind-Schlüssel ableiten möchten, keinen gehärteten.
 Wir haben jetzt einen 64-Byte $\text{hash}$, den wir in 2 Teile zu je 32 Bytes aufteilen: $h_1$ und $h_2$:
 
 
@@ -1679,7 +1696,7 @@ $$
 hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Eltern-Kettenkode und dann die Verkettung des Index mit dem privaten Schlüssel des Elternteils. Der private Schlüssel des Elternteils wird hier verwendet, weil wir darauf abzielen, einen verstärkten Kind-Schlüssel abzuleiten. Außerdem wird am Anfang des Schlüssels ein Byte gleich `0x00` hinzugefügt. Diese Operation gleicht seine Länge an, um der eines komprimierten öffentlichen Schlüssels zu entsprechen.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem privaten Schlüssel des Elternteils. Der private Schlüssel des Elternteils wird hier verwendet, weil wir darauf abzielen, einen verstärkten Kind-Schlüssel abzuleiten. Außerdem wird am Anfang des Schlüssels ein Byte gleich `0x00` hinzugefügt. Diese Operation gleicht seine Länge an, um der eines komprimierten öffentlichen Schlüssels zu entsprechen.
 So haben wir jetzt einen 64-Byte $\text{hash}$, den wir in 2 Teile von je 32 Bytes aufteilen werden: $h_1$ und $h_2$:
 $$
 
@@ -1718,7 +1735,7 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 Wir können sehen, dass die normale Ableitung und die verstärkte Ableitung auf die gleiche Weise funktionieren, mit diesem Unterschied: Die normale Ableitung verwendet den öffentlichen Schlüssel des Elternteils als Eingabe für die HMAC-Funktion, während die verstärkte Ableitung den privaten Schlüssel des Elternteils verwendet.
 
-#### Ableitung eines Kind-öffentlichen Schlüssels aus einem Eltern-öffentlichen Schlüssel
+#### Ableitung eines öffentlichen Kind-Schlüssels aus einem öffentlichen Eltern-Schlüssel
 Wenn wir nur den öffentlichen Schlüssel des Elternteils $K_{\text{PAR}}$ und den zugehörigen Ketten-Code $C_{\text{PAR}}$ kennen, also einen erweiterten öffentlichen Schlüssel, ist es möglich, Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ abzuleiten, aber nur für normale (nicht verstärkte) Kind-Schlüssel. Dieses Prinzip ermöglicht es insbesondere, die Bewegungen eines Kontos in einer Bitcoin-Wallet vom `xpub` (*nur-beobachten*) zu überwachen.
 
 Um diese Berechnung durchzuführen, werden wir den $\text{hash}$ mit einem Index $i < 2^{31}$ (normale Ableitung) berechnen:
@@ -1745,14 +1762,14 @@ h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
-Der Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ wird dann wie folgt berechnet:
+Der öffentliche Kind-Schlüssel $K_{\text{CHD}}^n$ wird dann wie folgt berechnet:
 
 $$
 K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
 Wenn $\text{parse256}(h_1) \geq n$ (Ordnung der elliptischen Kurve) ist oder wenn $K_{\text{CHD}}^n$ der Punkt im Unendlichen ist, ist die Ableitung ungültig, und ein anderer Index muss gewählt werden.
-In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen Kind-öffentlichen Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen Kind-öffentlichen Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des Kind-privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
+In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen öffentlichen Kind-Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen öffentlichen Kind-Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des abgeleiteten privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
 
 Als Nächstes ist der Ketten-Code des Kindes einfach:
 
@@ -1764,13 +1781,13 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 ![CYP201](assets/en/057.webp)
 
-### Entsprechung zwischen Kind-öffentlichen und privaten Schlüsseln
+### Entsprechung zwischen öffentlichen Kind-und privaten Schlüsseln
 
-Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen Kind-privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen Kind-öffentlichen Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
+Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen abgeleiteten privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen öffentlichen Kind-Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
    - **Normaler Kind-privater Schlüssel**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
    - **Normaler Kind-öffentlicher Schlüssel**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
 
-Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom Kind-Privatschlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem Kind-Öffentlichen Schlüssel, der direkt vom Eltern-Öffentlichen Schlüssel abgeleitet wurde.
+Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom Kind-Privatschlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem öffentlichen Kind-Schlüssel, der direkt vom Eltern-Öffentlichen Schlüssel abgeleitet wurde.
 ### Zusammenfassung der Ableitungstypen
 
 Zusammengefasst gibt es hier die verschiedenen möglichen Typen von Ableitungen:
@@ -1835,11 +1852,12 @@ Diese Unterteilung in verschiedene Konten ist optional. Sie zielt darauf ab, die
 
 Jedes auf Tiefe 3 definierte Konto wird dann in zwei Ketten strukturiert:
 - **Die externe Kette**: In dieser Kette werden sogenannte "öffentliche" Adressen abgeleitet. Diese Empfangsadressen sind dazu bestimmt, UTXOs zu sperren, die von externen Transaktionen kommen (das heißt, von der Verwendung von UTXOs, die nicht Ihnen gehören). Einfach ausgedrückt, wird diese externe Kette immer dann verwendet, wenn man Bitcoins erhalten möchte. Wenn Sie in Ihrer Wallet-Software auf "*empfangen*" klicken, wird Ihnen immer eine Adresse aus der externen Kette angeboten. Diese Kette wird durch ein Paar von Schlüsseln dargestellt, die mit dem Index $/0/$ abgeleitet werden.
-- **Die interne Kette (Wechsel)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoins sperren, die von der Verwendung von UTXOs kommen, die Ihnen gehören, mit anderen Worten, Wechseladressen. Sie wird durch den Index $/1/$ identifiziert.
+- **Die interne Kette (Wechselgeld)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoins sperren, die von der Verwendung von UTXOs kommen, die Ihnen gehören, mit anderen Worten, Wechselgeldadressen. Sie wird durch den Index $/1/$ identifiziert.
 
 **Tiefe 5: Adressindex (BIP32)**
 
 Schließlich stellt Tiefe 5 den letzten Schritt der Ableitung im Wallet dar. Obwohl es technisch möglich ist, unendlich fortzufahren, stoppen die aktuellen Standards hier. Auf dieser letzten Tiefe werden die Paare von Schlüsseln abgeleitet, die tatsächlich verwendet werden, um die UTXOs zu sperren und zu entsperren. Jeder Index ermöglicht die Unterscheidung zwischen Geschwisterschlüsselpaaren: so wird die erste Empfangsadresse den Index $/0/$ verwenden, die zweite den Index $/1/$ und so weiter.
+
 ![CYP201](assets/en/058.webp)
 
 ### Notation von Ableitungspfaden
@@ -1854,7 +1872,7 @@ $$
 
 In Hexadezimal ist dies `0x8000002C`.
 
-Jetzt, da wir die Hauptprinzipien der Ableitungspfade verstanden haben, nehmen wir ein Beispiel! Hier ist der Ableitungspfad für eine Bitcoin-Empfangsadresse:
+Jetzt, da wir die Hauptprinzipien der Ableitungspfade verstanden haben, sehen wir uns ein Beispiel an! Hier ist der Ableitungspfad für eine Bitcoin-Empfangsadresse:
 
 
 $$
@@ -1888,7 +1906,7 @@ Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sin
 
 Oft wird gesagt, dass die mnemonische Phrase allein ausreicht, um den Zugang zu einem Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur des HD-Wallets angesehen, und Sie haben vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch ein Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die mnemonische Phrase allein nicht aus. Sie ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die Kind-Schlüssel zu erreichen.
 
-Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unseres Wallets zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoins zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erholen sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in Ihre bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
+Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unseres Wallets zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoins zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in Ihre bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
 
 ### Was ist ein "Descriptor"?
 
@@ -1899,21 +1917,23 @@ Der Hauptvorteil von Descriptors liegt in ihrer Fähigkeit, alle wesentlichen In
 ### Aufbau eines Descriptors
 
 Ein Descriptor besteht aus mehreren Elementen:
-* Skriptfunktionen wie `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), und `sortedmulti` (*Multisignatur mit sortierten Schlüsseln*);
-**Ableitungspfade**, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
-**Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);**
-* Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
+- Skriptfunktionen wie `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), und `sortedmulti` (*Multisignatur mit sortierten Schlüsseln*);
+- Ableitungspfade, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
+- Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);
+- Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
 
 Zum Beispiel könnte ein Deskriptor für eine P2WPKH (SegWit v0) Wallet so aussehen:
+
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
 ```
 
 In diesem Deskriptor zeigt die Ableitungsfunktion `wpkh` auf einen Skripttyp *Pay-to-Witness-Public-Key-Hash*. Es folgt der Ableitungspfad, der enthält:
-* `cdeab12f`: der Fingerabdruck des Master-Schlüssels;
-* `84h`: was die Verwendung eines BIP84-Zwecks anzeigt, vorgesehen für SegWit v0 Adressen;
-* `0h`: was darauf hinweist, dass es sich um eine BTC-Währung im Hauptnetz handelt;
-* `0h`: was sich auf die spezifische Kontonummer bezieht, die im Wallet verwendet wird.
+
+- `cdeab12f`: der Fingerabdruck des Master-Schlüssels;
+- `84h`: was die Verwendung eines BIP84-Zwecks anzeigt, vorgesehen für SegWit v0 Adressen;
+- `0h`: was darauf hinweist, dass es sich um eine BTC-Währung im Hauptnetz handelt;
+- `0h`: was sich auf die spezifische Kontonummer bezieht, die im Wallet verwendet wird.
 
 Der Deskriptor beinhaltet auch den erweiterten öffentlichen Schlüssel, der in diesem Wallet verwendet wird:
 
@@ -1938,19 +1958,20 @@ Empfangsadressen sind Informationen, die in *scriptPubKey* eingebettet sind, um 
 Wie zuvor erklärt, besteht die Rolle einer Transaktion darin, das Eigentum an Bitcoins von Eingängen zu Ausgängen zu übertragen. Dieser Prozess beinhaltet das Verbrauchen von UTXOs als Eingänge, während neue UTXOs als Ausgänge erstellt werden. Diese UTXOs werden durch Skripte gesichert, die die notwendigen Bedingungen definieren, um die Mittel freizugeben.
 
 Wenn ein Benutzer Bitcoins erhält, erstellt der Sender ein Ausgabe-UTXO und sperrt es mit einem *scriptPubKey*. Dieses Skript enthält die Regeln, die typischerweise die erforderlichen Signaturen und öffentlichen Schlüssel angeben, um dieses UTXO freizuschalten. Um dieses UTXO in einer neuen Transaktion auszugeben, muss der Benutzer die angeforderten Informationen über ein *scriptSig* bereitstellen. Die Ausführung von *scriptSig* in Kombination mit *scriptPubKey* muss "true" oder `1` zurückgeben. Wenn diese Bedingung erfüllt ist, kann das UTXO ausgegeben werden, um ein neues UTXO zu erstellen, das selbst durch ein neues *scriptPubKey* gesperrt ist, und so weiter.
+
 ![CYP201](assets/en/059.webp)
 
 Genau im *scriptPubKey* befinden sich die Empfangsadressen. Ihre Verwendung variiert jedoch je nach dem angenommenen Skriptstandard. Hier ist eine Zusammenfassungstabelle der Informationen, die im *scriptPubKey* enthalten sind, entsprechend dem verwendeten Standard, sowie der Informationen, die im *scriptSig* erwartet werden, um das *scriptPubKey* freizuschalten.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *Erlösungsskript*  | *Zeuge*                                  |
+| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *Erlösungsskript*  | *Witness*                                  |
 | ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 | P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<Signatur>`                    |                     |                                          |
 | P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<Signatur> <öffentlicher Schlüssel>` |                     |                                          |
 | P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<Datenübertragungen> <Erlösungsskript>` | Beliebige Daten     |                                          |
 | P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<Signatur> <öffentlicher Schlüssel>`    |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<Datenübertragungen> <Zeugenskript>`    |
+| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<Datenübertragungen> <Witnessskript>`    |
 | P2SH-P2WPKH        | `OP_HASH160 <ErlösungsskriptHash> OP_EQUAL`                 | `<Erlösungsskript>`             | `0 <pubKeyHash>`    | `<Signatur> <öffentlicher Schlüssel>`    |
-| P2SH-P2WSH         | `OP_HASH160 <ErlösungsskriptHash> OP_EQUAL`                 | `<Erlösungsskript>`             | `0 <scriptHash>`    | `<Datenübertragungen> <Zeugenskript>`    |
+| P2SH-P2WSH         | `OP_HASH160 <ErlösungsskriptHash> OP_EQUAL`                 | `<Erlösungsskript>`             | `0 <scriptHash>`    | `<Datenübertragungen> <Witnessskript>`    |
 | P2TR (Schlüsselpfad)    | `1 <öffentlicher Schlüssel>`                               |                                 |                     | `<Signatur>`                             |
 | P2TR (Skriptpfad) | `1 <öffentlicher Schlüssel>`                               |                                 |                     | `<Datenübertragungen> <Skript> <Kontrollblock>` |
 
@@ -1993,7 +2014,9 @@ Die Ausführung des Skripts, das ich gerade als Beispiel gegeben habe, folgt die
 - `OP_EQUALVERIFY` überprüft, ob der gehashte öffentliche Schlüssel mit der angegebenen Empfangsadresse übereinstimmt:
 
 ![CYP201](assets/en/065.webp)
+
 `OP_CHECKSIG` überprüft die im *scriptSig* enthaltene Signatur mit dem öffentlichen Schlüssel. Dieser Opcode führt im Wesentlichen eine Signaturverifikation durch, wie wir in Teil 3 dieses Trainings beschrieben haben:
+
 ![CYP201](assets/en/066.webp)
 
 - Wenn `1` auf dem Stack verbleibt, dann ist das Skript gültig:
@@ -2037,7 +2060,9 @@ Technisch gesehen sperrt ein P2TR-Skript Bitcoins auf einem einzigartigen Schnor
 - Durch Veröffentlichung einer Signatur für den öffentlichen Schlüssel $P$ (*key path*).
 - Durch Erfüllung eines der Skripte im Merkle-Baum (*script path*).
 
-P2TR bietet somit eine große Flexibilität, da es das Sperren von Bitcoins entweder mit einem einzigartigen öffentlichen Schlüssel, mit mehreren Skripten nach Wahl oder beidem gleichzeitig ermöglicht. Der Vorteil dieser Merkle-Baum-Struktur ist, dass nur das verwendete Ausgabeskript während der Transaktion offenbart wird, aber alle anderen alternativen Skripte geheim bleiben. ![CYP201](assets/en/068.webp)
+P2TR bietet somit eine große Flexibilität, da es das Sperren von Bitcoins entweder mit einem einzigartigen öffentlichen Schlüssel, mit mehreren Skripten nach Wahl oder beidem gleichzeitig ermöglicht. Der Vorteil dieser Merkle-Baum-Struktur ist, dass nur das verwendete Ausgabeskript während der Transaktion offenbart wird, aber alle anderen alternativen Skripte geheim bleiben. 
+
+![CYP201](assets/en/068.webp)
 
 P2TR entspricht den SegWit-Ausgaben der Version 1, was bedeutet, dass die Signaturen für P2TR-Eingaben im *Witness*-Abschnitt der Transaktion gespeichert sind und nicht im *scriptSig*. P2TR-Adressen verwenden die *bech32m*-Kodierung und beginnen mit `bc1p`, aber sie sind ziemlich einzigartig, da sie keine Hash-Funktion für ihre Konstruktion verwenden. Tatsächlich repräsentieren sie direkt den öffentlichen Schlüssel $Q$, der einfach mit Metadaten formatiert ist. Es handelt sich daher um ein Skriptmodell, das dem P2PK nahe kommt.
 
@@ -2281,13 +2306,13 @@ wo:
 - **$\text{H}_{\text{TapTweak}}$** ist eine SHA256-Hash-Funktion, getaggt mit dem Tag `TapTweak`. Wenn Sie nicht vertraut sind, was eine getaggte Hash-Funktion ist, lade ich Sie ein, Kapitel 3.3 zu konsultieren;
 - $P$ ist der interne öffentliche Schlüssel, dargestellt in seinem komprimierten 256-Bit-Format, unter Verwendung nur der $x$-Koordinate.
 
-Der Taproot-öffentliche Schlüssel $Q$ wird dann berechnet, indem die Anpassung $t$, multipliziert mit dem Generator der elliptischen Kurve $G$, zum internen öffentlichen Schlüssel $P$ hinzugefügt wird:
+Der öffentlicher Taproot-Schlüssel $Q$ wird dann berechnet, indem die Anpassung $t$, multipliziert mit dem Generator der elliptischen Kurve $G$, zum internen öffentlichen Schlüssel $P$ hinzugefügt wird:
 
 $$
 Q = P + t \cdot G
 $$
 
-Sobald der Taproot-öffentliche Schlüssel $Q$ erhalten ist, können wir die entsprechende Empfangsadresse generieren. Anders als bei anderen Formaten basieren Taproot-Adressen nicht auf einem Hash des öffentlichen Schlüssels. Daher wird der Schlüssel $Q$ direkt in die Adresse eingefügt, auf rohe Weise.
+Sobald deöffentlicher Taproot-he Schlüssel $Q$ erhalten ist, können wir die entsprechende Empfangsadresse generieren. Anders als bei anderen Formaten basieren Taproot-Adressen nicht auf einem Hash des öffentlichen Schlüssels. Daher wird der Schlüssel $Q$ direkt in die Adresse eingefügt, auf rohe Weise.
 
 Zunächst extrahieren wir die $x$-Koordinate des Punktes $Q$, um einen komprimierten öffentlichen Schlüssel zu erhalten. Auf diese Nutzlast wird eine Prüfsumme berechnet, die BCH-Codes verwendet, wie bei SegWit v0-Adressen. Das für Taproot-Adressen verwendete Programm unterscheidet sich jedoch leicht. Tatsächlich wurde nach der Einführung des _bech32_-Formats mit SegWit ein Fehler entdeckt: Wenn der letzte Buchstabe einer Adresse ein `p` ist, macht das Einfügen oder Entfernen von `q`s direkt vor diesem `p` die Prüfsumme nicht ungültig. Obwohl dieser Fehler bei SegWit v0 keine Konsequenzen hat (dank einer Größenbeschränkung), könnte er in Zukunft ein Problem darstellen. Dieser Fehler wurde daher für Taproot-Adressen korrigiert, und das neue korrigierte Format wird "_bech32m_" genannt.
 
@@ -2333,7 +2358,7 @@ $$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
 $$
 
-Schließlich wird, wie zuvor, der Taproot-öffentliche Schlüssel $Q$ durch Hinzufügen des internen öffentlichen Schlüssels $P$ zum Produkt des Tweaks $t$ und des Generatorpunkts $G$ erhalten:
+Schließlich wird, wie zuvor, öffentlicher Taproot-iche Schlüssel $Q$ durch Hinzufügen des internen öffentlichen Schlüssels $P$ zum Produkt des Tweaks $t$ und des Generatorpunkts $G$ erhalten:
 
 $$
 Q = P + t \cdot G

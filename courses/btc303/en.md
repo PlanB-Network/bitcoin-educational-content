@@ -52,7 +52,7 @@ Navigating the complex governance landscape of Bitcoin requires more than techni
 
 Ready to take the next step in your Bitcoin journey? Let's begin!
 
-***N.B.**: If you encounter any unfamiliar terms related to Bitcoin during the course, please refer to the [glossary](https://planb.network/resources/glossary) to find definitions.*
+***N.B.**: If you encounter any unfamiliar terms related to Bitcoin during the course, please refer to the [glossary](https://planb.academy/resources/glossary) to find definitions.*
 
 
 
@@ -105,7 +105,7 @@ If they succeed, the same issues will most likely resurface at some point in the
 
 None of these options are beneficial to the user.
 
-Censorship resistance through decentralization is what separates Bitcoin from other money systems, but it is not an easy thing to accomplish due to the *double-spending problem*. This is the problem of making sure no one can spend the same coin twice, an issue that many people thought was impossible to solve in a decentralized fashion. Satoshi Nakamoto write in his [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) about how to solve the double-spending problem:
+Censorship resistance through decentralization is what separates Bitcoin from other money systems, but it is not an easy thing to accomplish due to the *double-spending problem*. This is the problem of making sure no one can spend the same coin twice, an issue that many people thought was impossible to solve in a decentralized fashion. Satoshi Nakamoto write in his [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) about how to solve the double-spending problem:
 
 > In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions.
 
@@ -453,7 +453,7 @@ To mitigate the risks of having your personal data revealed is to not give it ou
 
 The article suggests you avoid using exchanges that require KYC/AML and instead trade in private, or use decentralized exchanges like [bisq](https://bisq.network/).
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 For more in-depth reading about countermeasures, refer to the previously mentioned [wiki article on privacy](https://en.bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-blockchain.29), starting at "Methods for improving privacy (non-blockchain)".
 

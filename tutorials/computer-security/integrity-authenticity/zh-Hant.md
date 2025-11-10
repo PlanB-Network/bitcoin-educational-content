@@ -234,4 +234,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 我也建議您看看 VeraCrypt 的其他教學，這是一款可以加密和解密儲存裝置的軟體。
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

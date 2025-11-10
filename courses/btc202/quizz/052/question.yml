@@ -9,16 +9,18 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-09-04
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.08
+      - ProfScofield21
+    reward: 0.04
   - language: en
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.16
+      - 2raj2raj
+    reward: 0.08
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -73,17 +75,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 0.19
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
   - language: nl
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - Trabolo
+    reward: 0.09
   - language: pl
     last_contribution_date:
     urgency: 1

@@ -1,27 +1,27 @@
 ---
 name: 校对指南
-description: 在校对 Plan ₿ Network 时需要注意哪些重要因素？
+description: 在校对 Plan ₿ Academy 时需要注意哪些重要因素？
 ---
 
 ![github](assets/cover.webp)
 
 
-欢迎阅读本教程，了解校对 Plan ₿ Network 内容时应遵循的**准则**。我们很高兴您能与我们分享我们的使命，即用尽可能多的语言翻译 Bitcoin 资料，以帮助人们了解它是如何工作的，以及如何在日常生活中使用它。
+欢迎阅读本教程，了解校对 Plan ₿ Academy 内容时应遵循的**准则**。我们很高兴您能与我们分享我们的使命，即用尽可能多的语言翻译 Bitcoin 资料，以帮助人们了解它是如何工作的，以及如何在日常生活中使用它。
 
 
-首先，为 Plan ₿ Network [公共资源库](https://github.com/PlanB-Network/Bitcoin-educational-content) 做出贡献，您就有机会撰写教程、校对现有内容，甚至建议为平台添加新语言。要了解更多信息，请先加入我们的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，并写一份关于您和您会说的语言的简短介绍。
+首先，为 Plan ₿ Academy [公共资源库](https://github.com/PlanB-Network/Bitcoin-educational-content) 做出贡献，您就有机会撰写教程、校对现有内容，甚至建议为平台添加新语言。要了解更多信息，请先加入我们的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，并写一份关于您和您会说的语言的简短介绍。
 
 
-本教程专门针对想要校对内容的贡献者。他们中的大多数人对 [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我们在版本库中使用的 [Markdown 语言](https://www.markdownguide.org/basic-syntax/) 都不甚了解，因此有必要与他们分享一些关于这项任务中关键因素的见解。
+本教程专门针对想要校对内容的贡献者。他们中的大多数人对 [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我们在版本库中使用的 [Markdown 语言](https://www.markdownguide.org/basic-syntax/) 都不甚了解，因此有必要与他们分享一些关于这项任务中关键因素的见解。
 
 
 下面，我收集了校对人员遇到的最常见问题。欢迎提出更多建议，因为这有助于他人的改进。
 
 
-在深入了解具体内容之前，首先要做的是阅读本教程，了解在 Github 上应采取的实际行动，包括分叉 Plan ₿ Network 版本库、提交更改和发送 PR：
+在深入了解具体内容之前，首先要做的是阅读本教程，了解在 Github 上应采取的实际行动，包括分叉 Plan ₿ Academy 版本库、提交更改和发送 PR：
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 什么是校对？
@@ -38,13 +38,13 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 
 事实上，我们的共同目标是让尽可能多的人了解 Bitcoin，因此他们阅读的材料必须流畅清晰。
 
-从这个意义上说，Plan ₿ Network 的所有撰稿人都是教育工作者！
+从这个意义上说，Plan ₿ Academy 的所有撰稿人都是教育工作者！
 
 
-## Plan ₿ Network 校对前的第一步
+## Plan ₿ Academy 校对前的第一步
 
 
-在开始一项新的校对任务之前，请在[Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)中宣布该任务，或通知您的 Plan ₿ Network 协调员，后者将专门开设一个[问题](https://github.com/orgs/PlanB-Network/projects/3)。当您收到问题链接时，只需**评论您开始**该内容的校对任务。
+在开始一项新的校对任务之前，请在[Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)中宣布该任务，或通知您的 Plan ₿ Academy 协调员，后者将专门开设一个[问题](https://github.com/orgs/Plan ₿ Academy/projects/3)。当您收到问题链接时，只需**评论您开始**该内容的校对任务。
 
 
 该系统可帮助协调人跟踪 repo 中的进度，并允许校对者 "认领 "内容，防止他人重复劳动。
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 
 
 
-同步成功后，你可以直接访问感兴趣的内容，并在新分支上提交，如本[教程](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)所示。否则，你可以点击 "分支"，打开一个新的分支，如下图所示。
+同步成功后，你可以直接访问感兴趣的内容，并在新分支上提交，如本[教程](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)所示。否则，你可以点击 "分支"，打开一个新的分支，如下图所示。
 
 
 
@@ -115,11 +115,11 @@ LLM 工具可能会从字面上翻译一些与 Bitcoin 相关的单词，如 Lig
 
 
 
-- 另一个好办法是保留EN原词/短语，然后**创建一个超链接**，重定向到planb.network上的[词汇表](https://planb.network/en/resources/glossary)。为此，您需要在方括号内插入单词/词组，在圆括号内插入链接，如下面的示例所示：
+- 另一个好办法是保留EN原词/短语，然后**创建一个超链接**，重定向到planb.network上的[词汇表](https://planb.academy/en/resources/glossary)。为此，您需要在方括号内插入单词/词组，在圆括号内插入链接，如下面的示例所示：
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ LLM 工具可能会从字面上翻译一些与 Bitcoin 相关的单词，如 Lig
 
 
 
-请注意，您从网站上获取的词汇表链接在 "网络 "一词后包含语言代码（例如：``https://planb.network/en/resources/glossary/utxo`->此处您可以读到语言代码 "en"）。在这种情况下，**删除链接中的语言代码**，如上图所示。这样，系统就会自动将读者带到他们指定的语言。
+请注意，您从网站上获取的词汇表链接在 "网络 "一词后包含语言代码（例如：``https://planb.academy/en/resources/glossary/utxo`->此处您可以读到语言代码 "en"）。在这种情况下，**删除链接中的语言代码**，如上图所示。这样，系统就会自动将读者带到他们指定的语言。
 
 
 资源库的内容中充满了像上面这样的超链接。既然你已经知道了它们的含义，**确保不要删除原作者插入的任何链接**。
 
 
 
-- 另一个与词语翻译有关的问题如下。如果在文本中找到 "Plan ₿ Network"，**保留其原形**。不要翻译 "计划 "或 "网络"。此外，在介绍 Plan ₿ Network 时，不要使用冠词 "The"： **将其视为一个品牌**。
+- 另一个与词语翻译有关的问题如下。如果在文本中找到 "Plan ₿ Academy"，**保留其原形**。不要翻译 "计划 "或 "网络"。此外，在介绍 Plan ₿ Academy 时，不要使用冠词 "The"： **将其视为一个品牌**。
 
 
 
@@ -323,7 +323,7 @@ LLM 工具可能会从字面上翻译一些与 Bitcoin 相关的单词，如 Lig
 
 
 
-- 顺着主题，如果作者插入了指向 Plan ₿ Network 课程或教程的链接（**不**在括号内），网站会自动创建一个 "卡片"，显示相关缩略图。因此，请务必在文本和链接本身之间**加一行新线**，否则网站可能会出现以下错误。
+- 顺着主题，如果作者插入了指向 Plan ₿ Academy 课程或教程的链接（**不**在括号内），网站会自动创建一个 "卡片"，显示相关缩略图。因此，请务必在文本和链接本身之间**加一行新线**，否则网站可能会出现以下错误。
 
 
 

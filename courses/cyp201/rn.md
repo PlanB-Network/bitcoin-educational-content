@@ -1055,10 +1055,10 @@ Dukoresha umurima ufise impera w’imibare yose modulo $p$ kugira ngo twiyemeze 
 Imibare y'imirongo y'uruzitiro ku bibanza bifise impera isa n'iyo ku bibanza vy'imibare nyayo, n'uguhindura ko ibikorwa vyose bikorwa modulo $p$. Kugira ngo tworohereze insobanuro, tuzobandanya mu bigabane bikurikira kwerekana ivyiyumviro dukoresheje umurongo usobanuwe ku mibare nyayo, mu gihe tuzirikana ko, mu bikorwa, umurongo usobanurwa ku kibanza gifise impera.
 
 
-Niba wipfuza kumenya vyinshi ku bijanye n’imishinge y’imibare y’ubuhinga bwa none bwo gukingira amakuru, ndagusavye kandi kuraba iyi yindi nyigisho iri kuri Plan ₿ Network:
+Niba wipfuza kumenya vyinshi ku bijanye n’imishinge y’imibare y’ubuhinga bwa none bwo gukingira amakuru, ndagusavye kandi kuraba iyi yindi nyigisho iri kuri Plan ₿ Academy:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Guharura urufunguzo rwa bose kuva ku rufunguzo rw'ibanga
 
@@ -1656,7 +1656,7 @@ Iyo iri bendera rya sighash ryinjijwe muri Bitcoin, rizotuma hakoreshwa amasezer
 Kugira ngo urushirize kumenya neza Lightning Network, inyuma y’inyigisho ya CYP201, ndagusavye cane inyigisho ya LNP201 ya Fanis Michalakis, ivuga ku ciyumviro mu buryo burambuye:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Mu gice gikurikira, ndasaba kumenya ingene ijambo Mnemonic riri ku ntango ya Bitcoin Wallet yawe rikora.
 
@@ -1707,10 +1707,10 @@ Iyo umuntu yipfuza gukoresha imfunguruzo nyinshi z’ibanga, vyari ngombwa ko ak
 Ivyo biva ku citegererezo c’ubuzima bwite ca Bitcoin. Mu gusubira gukoresha iyo Address nyene, bituma abarorerezi bo hanze bashobora gukurikirana ibikorwa vya Bitcoin. Ni co gituma gusubira gukoresha Address yakira bitera intege cane. Ariko rero, kugira ngo tugire amaderesi menshi kandi dutandukanye ku mugaragaro amafaranga dukoresha, birakenewe ko ducungera imfunguruzo nyinshi z’ibanga. Ku bijanye n’amasakoshi ya JBOK, ivyo bisigura guhingura ama backup menshi nk’uko hariho amafunguro mashasha, igikorwa gishobora guca gikomeye kandi kigoye kubungabunga abakoresha.
 
 
-Kugira ngo umenye vyinshi ku bijanye n’akarorero k’ubuzima bwite bwa Bitcoin no kumenya uburyo bwo kurinda ubuzima bwite bwawe, ndagusavye kandi gukurikira inyigisho yanje ya BTC204 ku bijanye na Plan ₿ Network:
+Kugira ngo umenye vyinshi ku bijanye n’akarorero k’ubuzima bwite bwa Bitcoin no kumenya uburyo bwo kurinda ubuzima bwite bwawe, ndagusavye kandi gukurikira inyigisho yanje ya BTC204 ku bijanye na Plan ₿ Academy:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Amasakoshi ya HD
 
@@ -1920,7 +1920,7 @@ Ijambo ry’amajambo 12, na ryo nyene ritanga umutekano w’ibice 128, rero ubu 
 Kugira ngo ugende kure kandi wige neza ingene wokoresha amaboko generate ijambo ry’ikigeragezo Mnemonic, ndaguhanura ngo uvumbure iyi nyigisho:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Imbere yo kubandanya n’ugukura kwa Wallet muri iri jambo Mnemonic, nzobamenyesha, mu kigabane gikurikira, BIP39 passphrase, kuko ifise uruhara mu nzira yo gukura, kandi iri ku rugero rumwe n’ijambo Mnemonic.
 

@@ -134,13 +134,13 @@ Här måste vi bestämma vilken pool vi ska använda. I den här handledningen k
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Det andra alternativet är att ansluta oss till en Mining pool som mina i solo, som Public Pool, följ den här guiden för att göra det:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Braiins pool
 
@@ -150,7 +150,7 @@ För att ansluta till den här poolen måste vi skapa ett konto. den här poolen
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 När det är gjort är vi i Braiins poolinstrumentpanel. Vad vi måste göra är att berätta för poolen att vi vill ansluta till en av våra gruvarbetare, så på vänster sida av skärmen hittar du ett antal poster. Vi måste gå till "arbetare"
 
@@ -168,7 +168,7 @@ och vi måste klicka på den lila knappen till höger som säger "Connect worker
 
 
 
-Här kommer fönstret med den information vi behöver för att ansluta vår mini Miner till poolen. Här är den enda ändringen vi kan göra att välja Stratum V2. För att ta reda på vad Stratum v2 är, se denna post i [ordlistan] (https://planb.network/en/resources/glossary/stratum-v2).
+Här kommer fönstret med den information vi behöver för att ansluta vår mini Miner till poolen. Här är den enda ändringen vi kan göra att välja Stratum V2. För att ta reda på vad Stratum v2 är, se denna post i [ordlistan] (https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

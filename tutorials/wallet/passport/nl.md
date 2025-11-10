@@ -32,7 +32,7 @@ Om je beveiligde Wallet op een Passport te beheren, heb je verschillende opties.
 Als je een beginner bent, is de makkelijkste optie om je Passport te gebruiken met de native Envoy applicatie, ontwikkeld door Foundation. Als je wilt weten hoe je Envoy met je Passport gebruikt, bekijk dan deze tutorial:
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Het paspoort uit de doos
 
@@ -203,7 +203,7 @@ Gebruik hiervoor de MicroSD-kaart die in uw Passport-doos is meegeleverd (of een
 Voordat je de firmware op je apparaat installeert, raden we je sterk aan om de authenticiteit en integriteit van de gedownloade firmware te controleren. Als je hierbij hulp nodig hebt, raadpleeg dan deze handleiding:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nadat je het `.bin` bestand hebt gecontroleerd, plaats je het op je MicroSD en plaats je het in de Passport. De Passport bestandsverkenner wordt geopend. Selecteer het bestand `vN.N.N-passport.bin`.
 
@@ -301,7 +301,7 @@ Klik op de bevestigingsknop om je Mnemonic zin te zien.
 Voor meer informatie over de juiste manier om je Mnemonic zinnen op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet wordt alleen gebruikt op Testnet en wordt verwijderd aan het einde van de tutorial.
 
@@ -430,7 +430,7 @@ Voordat u verder gaat, kunt u desgewenst een BIP39 passphrase toevoegen. Een BIP
 Voordat je deze optie configureert op je Passport, is het sterk aanbevolen dat je dit artikel leest om de theoretische werking van de passphrase volledig te begrijpen en fouten te vermijden die kunnen leiden tot het verlies van je bitcoins:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Om het te activeren, ga je naar het "*Meer*" menu en klik je op "*Enter passphrase*".
 
@@ -462,7 +462,7 @@ Elke keer dat u ontgrendelt, na het opschrijven van de passphrase, controleert u
 Voordat je je eerste bitcoins ontvangt op je Wallet, **raad ik je sterk aan om een lege hersteltest uit te voeren**. Maak een notitie van wat referentie informatie, zoals je xpub of de eerste ontvangen Address, wis dan je Wallet op de Passport terwijl het nog leeg is (`Instellingen -> Geavanceerd -> Erase Passport`). Probeer dan je Wallet te herstellen met behulp van je papieren back-ups van de Mnemonic zin en eventuele passphrase. Controleer of de cookie-informatie die na het herstel wordt gegenereerd, overeenkomt met de informatie die je oorspronkelijk hebt opgeschreven. Als dat zo is, kun je er zeker van zijn dat je papieren back-ups betrouwbaar zijn. Voor meer informatie over hoe je een testherstel uitvoert, kun je deze andere tutorial raadplegen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -482,7 +482,7 @@ Begin met het downloaden en installeren van Sparrow wallet [van de officiële we
 Zorg ervoor dat je de authenticiteit en integriteit van de software controleert voordat je deze installeert. Als je niet weet hoe je dit moet doen, raadpleeg dan deze handleiding:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Als Sparrow wallet geopend is, klik dan op het tabblad "*Bestand*" en vervolgens op "*Nieuw Wallet*".
 
@@ -712,4 +712,4 @@ Gefeliciteerd, je weet nu hoe je Passport moet configureren en gebruiken. Als je
 Voor meer informatie, zie onze handleiding over Liana software:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

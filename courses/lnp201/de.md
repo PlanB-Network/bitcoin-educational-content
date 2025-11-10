@@ -1,12 +1,12 @@
 ---
-name: Theoretische Einführung in das Lightning-Netzwerk
+name: Lightning-Netzwerk-Theorie
 goal: Entdecken Sie das Lightning-Netzwerk aus technischer Perspektive
 objectives:
-  - Verstehen Sie die Funktionsweise der Kanäle des Netzwerks.
-  - Machen Sie sich mit den Begriffen HTLC, LNURL und UTXO vertraut.
-  - Lernen Sie, wie man Liquidität verwaltet und welche Gebühren im Lightning-Netzwerk anfallen.
-  - Erkennen Sie das Lightning-Netzwerk als eigenständiges Netzwerk .
-  - Verstehen Sie die theoretischen Anwendungen des Lightning-Netzwerks.
+- Verstehen Sie die Funktionsweise der Kanäle des Netzwerks.
+- Machen Sie sich mit den Begriffen HTLC, LNURL und UTXO vertraut.
+- Lernen Sie, wie man Liquidität verwaltet und welche Gebühren im Lightning-Netzwerk anfallen.
+- Erkennen Sie das Lightning-Netzwerk als eigenständiges Netzwerk .
+- Verstehen Sie die theoretischen Anwendungen des Lightning-Netzwerks.
 ---
 
 # Eine Reise zur zweiten Schicht von Bitcoin

@@ -1,21 +1,19 @@
 ---
-name: Die Hyperinflationen
+name: Fallstudien zur Hyperinflation
 goal: Das Aufkommen von Hyperinflationen in einer Fiat-Welt verstehen und ihre Auswirkungen analysieren
 objectives:
-  - Die Zyklen der Hyperinflation studieren
-  - Die tatsächlichen Auswirkungen von Hyperinflationen auf unseren Alltag verstehen
-  - Die Gemeinsamkeiten von Hyperinflationen im Laufe der Zeit untersuchen
-  - Eine konkrete Vorstellung davon haben, wie man sich vor Hyperinflationen schützen kann
+- Die Zyklen der Hyperinflation studieren
+- Die tatsächlichen Auswirkungen von Hyperinflationen auf unseren Alltag verstehen
+- Die Gemeinsamkeiten von Hyperinflationen im Laufe der Zeit untersuchen
+- Eine konkrete Vorstellung davon haben, wie man sich vor Hyperinflationen schützen kann
 ---
+# Eine Reise durch den wirtschaftlichen Zusammenbruch
 
-# Eine Reise in die Wirtschaft
+Wie sieht es aus, wenn Geld seine Bedeutung verliert?
+Dieser Kurs führt Sie durch die faszinierende und zugleich ernüchternde Welt der Hyperinflation. Sie werden historische Episoden und moderne Fälle entdecken, in denen Währungen zusammenbrachen und sich Volkswirtschaften über Nacht verwandelten. Sie werden die Muster, Ursachen und realen Auswirkungen auf das Leben gewöhnlicher Menschen aufdecken und Einblick in eines der dramatischsten Phänomene der Wirtschaft gewinnen.
 
-Dieses Programm zielt darauf ab, ein tiefes Verständnis für das Aufkommen von Hyperinflationen in einer von Fiat-Währungen dominierten Welt zu vermitteln und ihre erheblichen Auswirkungen zu untersuchen. Die Teilnehmer werden detailliert die Zyklen der Hyperinflation untersuchen, indem sie die Ursachen, Auslöser und historischen sowie zeitgenössischen Beispiele analysieren. Sie werden auch die greifbaren Auswirkungen von Hyperinflationen auf die Wirtschaft und das tägliche Leben untersuchen, indem sie die Auswirkungen auf den Wert der Währung, die Kaufkraft und die individuelle und kollektive Ersparnis untersuchen.
-
-Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinflation im Laufe der Geschichte beleuchten und gleichzeitig effektive und konkrete Strategien zum Schutz vor Hyperinflationen in Zeiten wirtschaftlicher Instabilität bereitstellen. Die Teilnehmer haben die Möglichkeit, verschiedene Investitionsmöglichkeiten und Mechanismen zur finanziellen Absicherung zu erkunden und dabei praktische Werkzeuge und wesentliche Kenntnisse zu erwerben, um in einem instabilen wirtschaftlichen Klima souverän zu navigieren.
-
+Auf dem Weg werden Sie auch entdecken, wie Einzelpersonen und Gemeinschaften diese turbulenten Zeiten gemeistert haben. Lernen Sie die Strategien kennen, die geholfen haben, Vermögen während Währungskrisen zu schützen, und entwickeln Sie ein tieferes Verständnis für finanzielle Widerstandsfähigkeit. Wenn Sie neugierig auf die wirtschaftlichen Kräfte sind, die unsere Welt prägen, bietet diese Reise sowohl Wissen als auch praktische Perspektiven.
 +++
-
 # Einführung
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
@@ -927,7 +925,7 @@ Das Wichtigste ist, dass es verschiedene Strategien gibt, um aus der Hyperinflat
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[Entdecken Sie die gescannte Sammlung im *Bitcoin Educational Toolkit* (auch über den Abschnitt *Ressourcen* auf der Plan ₿ Network Plattform zugänglich.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Entdecken Sie die gescannte Sammlung im *Bitcoin Educational Toolkit* (auch über den Abschnitt *Ressourcen* auf der Plan ₿ Academy Plattform zugänglich.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![Bild](assets/de/068.webp)
 # Wie sind wir hierher gekommen?

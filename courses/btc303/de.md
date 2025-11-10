@@ -75,7 +75,7 @@ Das Navigieren in der komplexen Governance-Landschaft von Bitcoin erfordert mehr
 Sind Sie bereit, den nächsten Schritt auf Ihrer Bitcoin-Reise zu tun? Lassen Sie uns beginnen!
 
 
-***N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe im Zusammenhang mit Bitcoin stoßen, schlagen Sie bitte im [Glossar](https://planb.network/resources/glossary) nach, um Definitionen zu finden.*
+***N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe im Zusammenhang mit Bitcoin stoßen, schlagen Sie bitte im [Glossar](https://planb.academy/resources/glossary) nach, um Definitionen zu finden.*
 
 
 
@@ -154,7 +154,7 @@ Wenn sie Erfolg haben, werden die gleichen Probleme höchstwahrscheinlich irgend
 Keine dieser Optionen ist für den Nutzer von Vorteil.
 
 
-Der Widerstand gegen Zensur durch Dezentralisierung ist das, was Bitcoin von anderen Geldsystemen unterscheidet, aber es ist aufgrund des *Double-spending-Problems* nicht leicht zu bewerkstelligen. Dies ist das Problem, dass niemand dieselbe Münze zweimal ausgeben kann, ein Problem, von dem viele Leute dachten, es sei unmöglich, es dezentral zu lösen. Satoshi Nakamoto schreibt in seinem [Bitcoin Whitepaper](https://planb.network/bitcoin.pdf) darüber, wie das Double-spending Problem gelöst werden kann:
+Der Widerstand gegen Zensur durch Dezentralisierung ist das, was Bitcoin von anderen Geldsystemen unterscheidet, aber es ist aufgrund des *Double-spending-Problems* nicht leicht zu bewerkstelligen. Dies ist das Problem, dass niemand dieselbe Münze zweimal ausgeben kann, ein Problem, von dem viele Leute dachten, es sei unmöglich, es dezentral zu lösen. Satoshi Nakamoto schreibt in seinem [Bitcoin Whitepaper](https://planb.academy/bitcoin.pdf) darüber, wie das Double-spending Problem gelöst werden kann:
 
 
 > In diesem Papier schlagen wir eine Lösung für das Double-spending-Problem vor, bei der ein verteilter Peer-to-Peer Timestamp-Server für den generate-Rechnungsnachweis der chronologischen Reihenfolge von Transaktionen verwendet wird.
@@ -652,7 +652,7 @@ Um das Risiko der Offenlegung Ihrer persönlichen Daten zu verringern, sollten S
 Der Artikel schlägt vor, Börsen, die KYC/AML verlangen, zu vermeiden und stattdessen privat zu handeln oder dezentrale Börsen wie [bisq](https://bisq.network/) zu nutzen.
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Ausführlichere Informationen über Gegenmaßnahmen finden Sie in dem bereits erwähnten [Wiki-Artikel zum Datenschutz](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), beginnend mit "Methods for improving privacy (non-Blockchain)".
 

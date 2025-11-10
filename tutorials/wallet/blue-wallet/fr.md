@@ -7,9 +7,7 @@ description: Portefeuille Bitcoin Radicalement Simple et Puissant
 
 Débuter avec Bitcoin semble être un grand défi pour des personnes septiques sur la simplicité de son utilisation. Trouver les bons outils pour assurer cette simplicité devient donc d'une importance capitale pour une meilleure adoption de bitcoin comme un moyen d'échange et pas seulement comme une réserve de valeur.
 
-Dans ce tutoriel nous allons à la découverte de Blue Wallet, un portefeuille Bitcoin simple mais tellement efficace qui vous permet de gérer vos bitcoins personnellement mais aussi de créer des coopératives de gestion basées sur le [multisig](https://planb.network/resources/glossary/multisig) (pas d'inquiétudes, nous y reviendrons).
-
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
+Dans ce tutoriel nous allons à la découverte de Blue Wallet, un portefeuille Bitcoin simple mais tellement efficace qui vous permet de gérer vos bitcoins personnellement mais aussi de créer des coopératives de gestion basées sur le [multisig](https://planb.academy/resources/glossary/multisig) (pas d'inquiétudes, nous y reviendrons).
 
 ## Débuter avec Blue Wallet
 
@@ -21,7 +19,7 @@ Blue Wallet est un portefeuille Bitcoin open Source et d'auto détention qui vou
 
 Une fois l'installation achevée, vous avez la possibilité de créer un nouveau portefeuille puis de sauvegarder les 12 mots de récupération ou d'importer un portefeuille Bitcoin déjà existant. Découvrez les astuces pour faire une sauvegarde efficiente de vos mots clés afin de ne pas perdre accès à vos bitcoins.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Avec Blue Wallet vous avez la possibilité de créer des portefeuilles bitcoin dédiés et distincts. Par exemple, vous pouvez avoir un portefeuille pour vos épargnes et un autre pour vos dépenses quotidiennes toujours dans la même application.
 
@@ -35,10 +33,10 @@ Dans Blue Wallet, vous retrouverez nativement deux types de portefeuille Bitcoin
 
 Si vous êtes habitués à d'autres portefeuilles Bitcoin comme Phoenix ou Aqua, vous ne serez absolument pas déphasés sur l'interface du portefeuille Bitcoin de Blue Wallet.
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Le portefeuille Bitcoin de Blue Wallet représente le portefeuille standard dans l'écosystème Bitcoin. Vous pouvez dépenser des bitcoins du moment où vous êtes en possession des mots de récupération qui pourront fournir une signature valide sur le réseau pour authentifier que vous êtes propriétaires des bitcoins.
 
@@ -64,7 +62,7 @@ Blue Wallet vous permet de configurer à votre convenance les paramètres de vot
 
 Vous pouvez donc sélectionner le ratio de frais de transaction qui vous correspond si vous voulez voir la transaction rapidement validée dans un mempool et incluse dans un bloc par les mineurs. Selon le ratio choisi, les mineurs prioriseront plus ou moins votre transaction. Apprenez en plus dans notre tutoriel sur le mempool Space.
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -110,7 +108,7 @@ Quelques exemples de configurations optimales pour assurer la sécurité et votr
 
 Gardez les meilleurs pratiques en sélectionnant le format P2WSH.
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) ou Pay to Witness Script Hash** est une méthode de verrouillage qui bloque les bitcoins sortants de votre transaction (Outputs) au hash d'un script personnalisé que Blue wallet met en place. Le principale avantage avec ce type de verrouillage est qu'il réduit la taille de données des transactions et implicitement vous permet de payer moins de frais de transactions.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) ou Pay to Witness Script Hash** est une méthode de verrouillage qui bloque les bitcoins sortants de votre transaction (Outputs) au hash d'un script personnalisé que Blue wallet met en place. Le principale avantage avec ce type de verrouillage est qu'il réduit la taille de données des transactions et implicitement vous permet de payer moins de frais de transactions.
 
 Créez ou importez chacun des **n** portefeuilles de votre configuration. Dans notre tutoriel, nous utiliserons une configuration 2-de-3 multi signatures. Veillez à sauvegarder individuellement les mots de récupération de chacun des portefeuilles.
 
@@ -130,7 +128,7 @@ Tout comme le portefeuille Bitcoin standard de Blue Wallet, vous pouvez définir
 
 Lors de la validation de votre transaction, vous aurez besoin d'une seconde signature pour approuver la dépense des bitcoins, rappelez vous nous sommes dans une configuration 2-de-3 multi signatures.
 
-Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.network/resources/glossary/psbt) que vous venez de créer.
+Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.academy/resources/glossary/psbt) que vous venez de créer.
 
 ![mutisig-send](assets/fr/13.webp)
 
@@ -162,10 +160,10 @@ Dans les paramètres > **Lightning Settings**, vous pouvez manuellement associer
 
 ![ln](assets/fr/16.webp)
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Vous avez désormais fait le tour de Blue Wallet, prêt à utiliser bitcoin dans toute sa simplicité et avec toute sa puissance. Nous vous recommandons de passer le cap, découvrez comment accepter des paiements en bitcoins dans vos commerces grâce à la puissance de Lightning.
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

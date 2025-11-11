@@ -139,3 +139,24 @@ Attivandola, ti comparirà un QR code da inquadrare con l’app di Telegram: in 
 Infine, trovi la tua sezione referral, con i guadagni generati dagli utenti che hai invitato. Da qui puoi usare il bottone per condividere il tuo link o QR code e, poco più in basso, visualizzare una lista dei match per monitorare la tua reputazione insieme al relativo punteggio.
 
 ![image](assets/it/12.webp)
+
+**Crea un ordine per Acquistare Bitcoin**
+
+Entra nel Marketplace: dalla barra di navigazione principale, clicca sul simbolo del carrello “Marketplace”(“Mercato”) per aprire il book ordini.
+    • Avvia un nuovo ordine: premi sul pulsante “New Order”(“Nuovo ordine”) per iniziare la procedura.
+    • Imposta i dettagli dell’ordine:
+    • Seleziona l’opzione “Buy Bitcoin”(“Acquista Bitcoin”).
+    • Inserisci la quantità di sats che desideri.
+    • Definisci il margine di prezzo (tra -20% e +20% rispetto al valore di mercato).
+    • Scegli il metodo di pagamento (Instant SEPA, ecc.).
+    • Indica la valuta preferita.
+    • Conferma l’ordine: clicca su “Create Order”(“Conferma ordine”) per passare alla fase di deposito.
+Deposito richiesto
+Per attivare l’ordine è necessario versare un deposito pari al 10% dell’importo totale, più una commissione di servizio.
+    • Pagamento del deposito: al momento della creazione dell’ordine, il sistema genera automaticamente una fattura Lightning. Il deposito è solo temporaneo e viene rimborsato al completamento dell’ordine.
+    • Caratteristiche principali:
+        ◦ Deposito cauzionale: 10% del valore dell’ordine.
+        ◦ Commissione di servizio: costo per l’utilizzo della piattaforma.
+        ◦ Tempo limite: hai 5 minuti per effettuare il pagamento, altrimenti l’operazione scade.
+Dopo il pagamento andato a buon fine, l’ordine comparirà nel book e sarà visibile a tutti gli utenti, che potranno sceglierlo e accettarlo.
+Per creare un ordine di vendita ti basta cliccare su “Sell Bitcoin” (“Vendi Bitcoin”), inserire la quantità di satoshi che desideri vendere, impostare il margine, selezionare il metodo di pagamento e la valuta, quindi procedere con il versamento del 10% come deposito cauzionale. Una volta completata l’operazione, il tuo match sarà visibile nell’elenco.

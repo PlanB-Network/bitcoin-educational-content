@@ -27,6 +27,8 @@ U ovom prvom vodiču, provesti ću vas kroz instalaciju i rad Ashigaru Terminala
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Instalirajte Ashigaru Terminal
 
 
@@ -448,3 +450,4 @@ Operacija je tada identična onoj kod Sparrow, pošto je Ashigaru Terminal fork 
 
 
 Sada znate kako instalirati i koristiti Ashigaru Terminal. U sledećem uputstvu, pogledaćemo kako kreirati coinjoins sa ovim softverom, i kako upravljati pozadinama u "*Postmix*", bilo putem Ashigaru aplikacije, ili korišćenjem opcije `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

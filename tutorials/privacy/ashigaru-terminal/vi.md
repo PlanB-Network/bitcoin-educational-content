@@ -27,6 +27,8 @@ Trong hướng dẫn đầu tiên này, tôi sẽ hướng dẫn bạn cài đ�
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Cài đặt Ashigaru Terminal
 
 
@@ -448,3 +450,4 @@ Thao tác sau đó giống hệt với Sparrow, vì Ashigaru Terminal là fork c
 
 
 Bây giờ bạn đã biết cách cài đặt và sử dụng Ashigaru Terminal. Trong hướng dẫn tiếp theo, chúng ta sẽ xem cách tạo coinjoin bằng phần mềm này và cách quản lý nền trong "*Postmix*", thông qua ứng dụng Ashigaru hoặc sử dụng tùy chọn `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -27,6 +27,8 @@ I denne første veiledningen tar jeg deg gjennom installasjon og bruk av Ashigar
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Installer Ashigaru Terminal
 
 
@@ -448,3 +450,4 @@ Betjeningen er da identisk med Sparrow, siden Ashigaru Terminal er en fork av Sp
 
 
 Nå vet du hvordan du installerer og bruker Ashigaru Terminal. I neste opplæringsvideo skal vi se på hvordan du lager coinjoins med denne programvaren, og hvordan du administrerer bakgrunner i "*Postmix*", enten via Ashigaru-applikasjonen eller ved hjelp av `Mix to`-alternativet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

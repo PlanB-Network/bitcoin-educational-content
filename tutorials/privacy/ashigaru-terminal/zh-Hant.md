@@ -27,6 +27,8 @@ Ashigaru Terminal 以簡約的 TUI 介面運作，可部署在個人電腦或專
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1.安裝 Ashigaru 終端機
 
 
@@ -448,3 +450,4 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 現在您知道如何安裝和使用 Ashigaru Terminal 了。在接下來的教學中，我們將介紹如何使用此軟體製作 Coinjoins，以及如何透過 Ashigaru 應用程式或使用「Mix to」選項在「*Postmix*」中管理背景。
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

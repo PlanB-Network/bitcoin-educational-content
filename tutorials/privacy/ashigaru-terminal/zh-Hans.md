@@ -27,6 +27,8 @@ Ashigaru Terminal 采用简约的 TUI 界面，可部署在个人电脑或专用
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1.安装芦原终端
 
 
@@ -448,3 +450,4 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 现在您已经知道如何安装和使用 Ashigaru Terminal。在下一篇教程中，我们将介绍如何使用该软件创建拼接，以及如何通过 Ashigaru 应用程序或使用 "Mix to "选项在 "*Postmix*"中管理背景。
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

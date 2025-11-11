@@ -27,6 +27,8 @@ In diesem ersten Tutorial werde ich Sie durch die Installation und den Betrieb v
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Ashigaru-Terminal installieren
 
 
@@ -448,3 +450,4 @@ Die Bedienung ist dann identisch mit der von Sparrow, da Ashigaru Terminal ein f
 
 
 Jetzt wissen Sie, wie Sie Ashigaru Terminal installieren und verwenden können. Im nächsten Tutorial werden wir uns ansehen, wie man mit dieser Software Coinjoins erstellt und wie man Hintergründe in "*Postmix*" verwaltet, entweder über die Ashigaru-Anwendung oder mit der Option "Mischen nach".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

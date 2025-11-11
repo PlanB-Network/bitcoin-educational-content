@@ -21,6 +21,8 @@ In short, Ashigaru Terminal will be particularly useful if you want to create co
 In this first tutorial, I'll take you through the installation and operation of Ashigaru Terminal. A second, more advanced tutorial will then be devoted to the actual creation of coinjoins.
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Install Ashigaru Terminal
 
 
@@ -335,3 +337,4 @@ Operation is then identical to that of Sparrow, since Ashigaru Terminal is a for
 
 
 Now you know how to install and use Ashigaru Terminal. In the next tutorial, we'll look at how to create coinjoins with this software, and how to manage backgrounds in "*Postmix*", either via the Ashigaru application, or using the `Mix to` option.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -27,6 +27,8 @@ Bu ilk eğitimde, Ashigaru Terminal'in kurulumunu ve çalışmasını anlatacağ
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Ashigaru Terminalini Kurun
 
 
@@ -448,3 +450,4 @@ Ashigaru Terminali Sparrow Sunucusunun bir fork'ü olduğu için kullanım Sparr
 
 
 Artık Ashigaru Terminal'i nasıl kuracağınızı ve kullanacağınızı biliyorsunuz. Bir sonraki eğitimde, bu yazılımla nasıl coinjoins oluşturacağınıza ve "*Postmix*"te arka planları Ashigaru uygulaması aracılığıyla veya "Mix to" seçeneğini kullanarak nasıl yöneteceğinize bakacağız.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

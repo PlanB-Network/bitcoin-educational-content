@@ -27,6 +27,8 @@ description: कॉइनजॉइन बनाने के लिए डेस
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. आशिगारू टर्मिनल स्थापित करें
 
 
@@ -448,3 +450,4 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 अब आप जानते हैं कि आशिगारू टर्मिनल कैसे इंस्टॉल और इस्तेमाल किया जाता है। अगले ट्यूटोरियल में, हम देखेंगे कि इस सॉफ़्टवेयर से कॉइनजॉइन कैसे बनाएँ, और "*पोस्टमिक्स*" में बैकग्राउंड कैसे मैनेज करें, या तो आशिगारू एप्लिकेशन के ज़रिए, या `मिक्स टू` विकल्प का इस्तेमाल करके।
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

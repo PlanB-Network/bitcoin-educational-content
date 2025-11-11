@@ -27,6 +27,8 @@ Ashigaru Terminal работает с минималистичным интер�
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Установите терминал Ашигару
 
 
@@ -448,3 +450,4 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 Теперь вы знаете, как установить и использовать Ashigaru Terminal. В следующем уроке мы рассмотрим, как создавать коинджоины с помощью этой программы, а также как управлять фоном в "*Postmix*", либо через приложение Ashigaru, либо используя опцию `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

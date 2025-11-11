@@ -27,6 +27,8 @@ Muri iyi nyigisho ya mbere, nzobajana mu gushiramwo no gukoresha Ashigaru Termin
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Shiraho ikibanza ca Ashigaru
 
 
@@ -448,3 +450,4 @@ Ivyo rero birasa n’ivya Sparrow, kuko Terminal ya Ashigaru ari fork ya Server 
 
 
 Ubu rero urazi gushiramwo no gukoresha Terminal ya Ashigaru. Mu nyigisho ikurikira, turaza kuraba ingene twokora coinjoins n'iyi porogaramu, n'ingene twocungera inyuma muri "*Postmix*", biciye ku gikorwa ca Ashigaru, canke dukoresheje uburyo bwa `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

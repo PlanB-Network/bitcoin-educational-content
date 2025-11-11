@@ -27,6 +27,8 @@ Dalam tutorial pertama ini, saya akan memandu Anda melalui instalasi dan pengope
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Pasang Terminal Ashigaru
 
 
@@ -448,3 +450,4 @@ Pengoperasiannya pun identik dengan Sparrow, karena Terminal Ashigaru adalah for
 
 
 Sekarang Anda sudah tahu cara menginstal dan menggunakan Ashigaru Terminal. Dalam tutorial berikutnya, kita akan melihat cara membuat coinjoin dengan perangkat lunak ini, dan cara mengelola latar belakang di "*Postmix*", baik melalui aplikasi Ashigaru, atau menggunakan opsi `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

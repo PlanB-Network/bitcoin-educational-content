@@ -27,6 +27,8 @@ description: 데스크톱에서 아시가루를 사용하여 코인조인 만들
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. 아시가루 터미널 설치
 
 
@@ -448,3 +450,4 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 이제 아시가루 터미널을 설치하고 사용하는 방법을 알아봤습니다. 다음 튜토리얼에서는 이 소프트웨어로 코인조인을 만드는 방법과 아시가루 애플리케이션을 통해 또는 '믹스 투' 옵션을 사용해 '*포스트믹스*'에서 배경을 관리하는 방법에 대해 살펴보겠습니다.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

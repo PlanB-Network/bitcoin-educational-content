@@ -27,6 +27,8 @@ Tässä ensimmäisessä opetusohjelmassa käyn läpi Ashigaru Terminalin asennuk
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Asenna Ashigaru Terminal
 
 
@@ -448,3 +450,4 @@ Toiminta on tällöin identtistä Sparrow:n toiminnan kanssa, koska Ashigaru-ter
 
 
 Nyt tiedät, miten Ashigaru Terminal asennetaan ja käytetään. Seuraavassa opetusohjelmassa katsomme, miten luodaan coinjoineja tällä ohjelmalla ja miten taustoja hallitaan "*Postmix*"-ohjelmassa joko Ashigaru-sovelluksen kautta tai käyttämällä `Mix to`-vaihtoehtoa.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

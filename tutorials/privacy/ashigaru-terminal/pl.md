@@ -27,6 +27,8 @@ W tym pierwszym poradniku przeprowadzę cię przez instalację i obsługę Ashig
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Zainstaluj terminal Ashigaru
 
 
@@ -448,3 +450,4 @@ Obsługa jest identyczna jak w Sparrow, ponieważ Ashigaru Terminal jest fork se
 
 
 Teraz już wiesz, jak zainstalować i używać Ashigaru Terminal. W następnym samouczku przyjrzymy się, jak tworzyć coinjoiny za pomocą tego oprogramowania i jak zarządzać tłami w "*Postmix*", za pośrednictwem aplikacji Ashigaru lub za pomocą opcji `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

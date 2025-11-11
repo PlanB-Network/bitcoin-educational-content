@@ -27,6 +27,8 @@ In deze eerste tutorial neem ik je mee door de installatie en werking van Ashiga
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Ashigaru-terminal installeren
 
 
@@ -448,3 +450,4 @@ De bediening is dan identiek aan die van Sparrow, aangezien Ashigaru Terminal ee
 
 
 Nu weet je hoe je Ashigaru Terminal installeert en gebruikt. In de volgende tutorial bekijken we hoe je coinjoins maakt met deze software, en hoe je achtergronden beheert in "*Postmix*", ofwel via de Ashigaru-toepassing, ofwel met de optie `Mix to`.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

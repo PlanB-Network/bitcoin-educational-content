@@ -15,6 +15,8 @@ En résumé, Ashigaru Terminal vous sera particulièrement utile si vous souhait
 
 Dans ce premier tutoriel, je vais vous accompagner dans l’installation et la prise en main d’Ashigaru Terminal. Un second tutoriel, plus avancé, sera ensuite consacré à la réalisation concrète de coinjoins.
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Installer Ashigaru Terminal
 
 Pour installer Ashigaru Terminal, vous aurez besoin de Tor Browser, car les binaires ne sont distribués que via le réseau Tor. Si ce n’est pas déjà fait, [installez-le sur votre machine](https://www.torproject.org/download/).
@@ -223,3 +225,4 @@ Le fonctionnement est ensuite identique à celui de Sparrow, puisque Ashigaru Te
 
 Vous savez désormais comment installer et prendre en main Ashigaru Terminal. Dans le prochain tutoriel, nous verrons comment réaliser des coinjoins avec ce logiciel et comment gérer les fonds en "*Postmix*", soit via l’application Ashigaru, soit grâce à l’option `Mix to`.
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

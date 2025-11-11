@@ -579,3 +579,4 @@ Igihe igikorwa co kumenyesha kimaze kwemezwa, urashobora kohereza intererano zaw
 
 
 Ubu urazi gukoresha ibintu nyamukuru vyo muri porogarama ya Ashigaru. Mu nyigisho zizoza, turaza kuraba ingene twovyungukirako mu gukoresha amafaranga, hamwe na Whirlpool, ugushirwa mu ngiro kwa coinjoin kwarazwe na Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

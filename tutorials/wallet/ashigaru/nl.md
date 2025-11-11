@@ -579,3 +579,4 @@ Zodra de meldingstransactie is bevestigd, kun je je donaties naar het project st
 
 
 Je weet nu hoe je de basisfuncties van de Ashigaru-applicatie kunt gebruiken. In toekomstige tutorials zullen we kijken hoe je voordeel kunt halen uit geavanceerde uitgaven transacties, evenals Whirlpool, de coinjoin implementatie geërfd van Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

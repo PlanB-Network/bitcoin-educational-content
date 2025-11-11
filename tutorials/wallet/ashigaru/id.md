@@ -579,3 +579,4 @@ Setelah transaksi notifikasi dikonfirmasi, Anda dapat mengirimkan donasi Anda ke
 
 
 Anda sekarang tahu bagaimana cara menggunakan fitur-fitur dasar aplikasi Ashigaru. Dalam tutorial selanjutnya, kita akan melihat cara memanfaatkan transaksi pembelanjaan tingkat lanjut, serta Whirlpool, implementasi coinjoin yang diwarisi dari Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 Теперь вы знаете, как использовать основные возможности приложения Ashigaru. В следующих уроках мы рассмотрим, как использовать преимущества расширенных транзакций, а также Whirlpool, реализацию coinjoin, унаследованную от Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

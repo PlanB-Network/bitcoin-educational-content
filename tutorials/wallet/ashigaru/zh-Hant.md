@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 您現在已經知道如何使用 Ashigaru 應用程式的基本功能。在未來的教學中，我們將介紹如何利用進階的消費交易，以及 Whirlpool，即繼承自 Samurai Wallet 的硬幣接合實作。
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

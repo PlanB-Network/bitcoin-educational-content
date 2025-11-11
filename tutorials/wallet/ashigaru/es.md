@@ -579,3 +579,4 @@ Una vez confirmada la transacción de notificación, puede enviar sus donativos 
 
 
 Ahora ya sabe cómo utilizar las funciones básicas de la aplicación Ashigaru. En futuros tutoriales, veremos cómo aprovechar las transacciones de gasto avanzadas, así como Whirlpool, la implementación coinjoin heredada de Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

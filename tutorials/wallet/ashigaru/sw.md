@@ -579,3 +579,4 @@ Baada ya shughuli ya arifa kuthibitishwa, unaweza kutuma michango yako kwa mradi
 
 
 Sasa unajua jinsi ya kutumia vipengele vya msingi vya programu ya Ashigaru. Katika mafunzo yajayo, tutaangalia jinsi ya kunufaika na miamala ya juu ya matumizi, pamoja na Whirlpool, utekelezaji sanjari uliorithiwa kutoka kwa Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

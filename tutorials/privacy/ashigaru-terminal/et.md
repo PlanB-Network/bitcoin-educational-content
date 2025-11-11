@@ -27,6 +27,8 @@ Selles esimeses õpetuses tutvustan teile Ashigaru terminali paigaldamist ja kas
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Ashigaru terminali paigaldamine
 
 
@@ -286,7 +288,7 @@ Selles õpetuses valime teise meetodi. Kui soovite siiski luua täiesti uue port
 
 
 
-Pange tähele, et Ashigaru terminal ei võimalda teil oma bitcoin'e otse kulutada. Võite kas sünkroonida sama wallet Ashigaru Terminalis ja Ashigaru rakenduses (mida ma teen selles õpetuses) või kasutada `Mix to` võimalust (mida me vaatame järgmises õpetuses), et saata oma raha automaatselt wallet riistvarale pärast määratud arvu segutsükleid.
+Pange tähele, et Ashigaru Terminal ei võimalda teie bitcoine otse kulutada. Võite kas sünkroonida sama rahakoti Ashigaru Terminalis ja Ashigaru rakenduses (mida ma selles juhendis teen) või Sparrow Walletis.
 
 
 
@@ -324,7 +326,6 @@ Seejärel valige portfelli tüüp "Hot Wallet".
 
 
 
-*Märkus*: valik "Ainult vaatama" võimaldab salvestada wallet riistvara "xpub", et kasutada hiljem funktsiooni "Mix to". Siiski ei saa seda tüüpi wallet ilmselgelt osaleda coinjoin'is. Me tuleme selle funktsiooni juurde üksikasjalikult tagasi järgmises õpetuses.
 
 
 
@@ -447,4 +448,5 @@ Tegevus on siis identne Sparrow omaga, kuna Ashigaru terminal on Sparrow serveri
 
 
 
-Nüüd te teate, kuidas Ashigaru terminali paigaldada ja kasutada. Järgmises õpetuses vaatame, kuidas selle tarkvaraga coinjoine'i luua ja kuidas hallata taustu "*Postmix*", kas Ashigaru rakenduse kaudu või kasutades `Mix to` valikut.
+Nüüd teate, kuidas paigaldada ja kasutada Ashigaru Terminali. Järgmises õppetükis näeme, kuidas selle tarkvaraga teha coinjoine ja hallata vahendeid "*Postmix*"-is.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

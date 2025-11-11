@@ -579,3 +579,4 @@ Po potvrzení transakce oznámení můžete odeslat svůj dar na projekt kliknut
 
 
 Nyní víte, jak používat základní funkce aplikace Ashigaru. V příštích tutoriálech se podíváme na to, jak využívat pokročilé výdajové transakce, a také na Whirlpool, implementaci coinjoin zděděnou ze Samuraje Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

@@ -2503,7 +2503,7 @@ The moment the creation of debt is carried out by Parliament, the concept of sov
 We've already reached the section of the course where we talk about the period known as the Renaissance. It takes place against a backdrop of tragic crisis, with the meteoric spread of the plague by fleas on rats boarding ships. This tragedy, however, informs us about the growth of trade and travel in the high medieval period. Earlier in this period, not so many people moved so far and so fast.
 
 
-### florence Florin
+### The Florin of Florence
 
 
 The return of gold coinage to Europe during the Renaissance marks a fundamental turning point in monetary history. **It all began with the Florin of Florence in 1252, the first major gold coin minted in Europe since the fall of Rome**. With its remarkably constant weight and purity (around 3.5 grams of pure gold), the florin remained unchanged for four centuries and rapidly became an essential pan-European monetary reference.
@@ -2562,11 +2562,11 @@ From the 16th century onwards, the monetary center of gravity shifted to Spain, 
 The Renaissance also marked a major artistic evolution in coinage, with coins such as the thaler (Joachimsthaler), the origin of the term "dollar". These large silver coins reflect the new artistic and mechanical minting techniques made possible by technical innovation from northern Europe.
 
 
-Finally, the Financial Renaissance ushered in the transition to economic modernity, with the development of banking, credit and financial markets, and the emergence of the first forms of modern capitalism in the great commercial cities of Amsterdam, London and Stockholm, laying the foundations for the international financial system as we know it today. And that's the subject of our next video.
+Finally, the financial Renaissance ushered in the transition to economic modernity, with the development of banking, credit and financial markets, and the emergence of the first forms of modern capitalism in the great commercial cities of Amsterdam, London and Stockholm, laying the foundations for the international financial system as we know it today. And that's the subject of our next video.
 
 
 
-# State seizure of currency
+# The seizure of money by the State
 
 <partId>17cfb1b4-5bc1-53e0-b035-05c7cf76be92</partId>
 
@@ -2592,11 +2592,11 @@ Over the centuries, several empires have succeeded one another as global economi
 **Spain and Portugal (15th and 16th centuries)**
 
 
-- The United Provinces (Netherlands) in the 17th century
+**The United Provinces (Netherlands) in the 17th century**
 
-*France and Great Britain in the 18th and 19th centuries*
+**France and Great Britain in the 18th and 19th centuries**
 
-**The United States in the 20th century
+**The United States in the 20th century**
 
 
 ### The Portuguese boom and the Real (1450-1530)

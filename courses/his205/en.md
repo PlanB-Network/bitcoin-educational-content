@@ -2428,15 +2428,15 @@ This transformation reveals the fragility of complex civilizations. The division
 
 :::video id=86b8da9b-3831-443d-b170-58c2bea3ad54:::
 
-The history and emergence of money in the Middle Ages is marked by periods of regression, innovation and economic recovery.
+The history and emergence of money in the Middle Ages is marked by periods of regression, innovation, and economic recovery.
 
 
-For example, when the Roman army left Britain, no more Roman coins entered the island. Around 435 A.D., the use of coins disappeared completely in Britain, a phenomenon unique in the former Roman provinces. For almost two centuries, the British economy went without coinage, until the 7th century, when Merovingian and continental-inspired coins gradually reappeared.
+For example, when the Roman army left Britain, no more Roman coins entered the island. Around 435 AD, the use of coins disappeared completely in Britain, a phenomenon unique in the former Roman provinces. For almost two centuries, the British economy went without coinage, until the 7th century, when Merovingian and continental-inspired coins gradually reappeared.
 
 
 From the 8th century onwards, Christian influence contributed to the reintroduction of coinage in Northern Europe. The key figure in this period was Pepin the Short, King of the Franks, who introduced the denarius in 752, later taken over by his son Charlemagne. Charlemagne widely extended the use of the silver denarius, creating a European monetary standard for several centuries.
 
-In England, coinage enjoyed a significant revival with the production of the silver penny under King Offa of Mercy around 765. This currency became so important that it remained virtually unchanged for 500 years.
+In England, coinage enjoyed a significant revival with the production of the silver penny under King Offa of Mercia around 765. This currency became so important that it remained virtually unchanged for 500 years.
 
 
 As a first artifact related to this period, I offer you a reproduction of an English penny from the period.
@@ -2484,13 +2484,13 @@ The Middle Ages were thus marked by a constant tension between the need for reli
 And to conclude this section, I'd like to add a rather interesting anecdote that happened around this time in England. This anecdote is taken from the book here, "History of Money" by Glyn Davies.
 
 
-It mentions that in England, the shift to Parliament transferred the burden of debt from the sovereign to Parliament, resulting in chronic state indebtedness. Because before that, the debt weighed on the sovereign's shoulders.
+It mentions that in England, the shift to Parliament transferred the burden of debt from the sovereign to Parliament, resulting in chronic state indebtedness. Before that, the debt weighed on the sovereign's shoulders.
 
 
-And once Parliament was able to seize some of this power of money creation, it enabled the creation of long-term debts that were on the backs of the people, not on the shoulders of the king. Previously, if the king went bankrupt or if there was a change of king, the debt was extinguished with him.
+And once Parliament was able to seize some of this power of money creation, it enabled the creation of long-term debts that were borne by the people, not by the king. Previously, if the king went bankrupt or if there was a change of king, the debt was extinguished with him.
 
 
-The moment the creation of debt is carried out by Parliament, the concept of sovereign debt emerges, as it is potentially unlimited over time. As long as the State exists, as long as Parliament exists, this debt exists, and they had to find all sorts of ways of refinancing it and spreading it over time. It's a major paradigm shift, where it was no longer the king, royalty, who guaranteed or bore the burden of these debts, it was now Parliament and therefore its citizens.
+The moment the creation of debt is carried out by Parliament, the concept of sovereign debt emerges, as it is potentially unlimited over time. As long as the State exists, as long as Parliament exists, this debt exists, and they had to find all sorts of ways of refinancing it and spreading it over time. It's a major paradigm shift, where it was no longer the king or royalty who guaranteed or bore the burden of these debts; it was now Parliament and therefore its citizens.
 
 
 

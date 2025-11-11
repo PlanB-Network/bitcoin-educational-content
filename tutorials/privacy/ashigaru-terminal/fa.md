@@ -449,5 +449,5 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-اکنون می‌دانید چگونه Ashigaru Terminal را نصب و استفاده کنید. در آموزش بعدی، به نحوه ایجاد کوین‌جوین‌ها با این نرم‌افزار خواهیم پرداخت و همچنین نحوه مدیریت پس‌زمینه‌ها در "*Postmix*" را بررسی خواهیم کرد، چه از طریق برنامه Ashigaru و چه با استفاده از گزینه `Mix to`.
+اکنون می‌دانید چگونه Ashigaru Terminal را نصب و استفاده کنید. در آموزش بعدی، خواهیم دید چگونه با این نرم‌افزار coinjoin انجام دهیم و چگونه وجوه را در «*Postmix*» مدیریت کنیم.
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

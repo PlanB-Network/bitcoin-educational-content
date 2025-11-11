@@ -449,5 +449,5 @@ Ashigaru Terminali Sparrow Sunucusunun bir fork'ü olduğu için kullanım Sparr
 
 
 
-Artık Ashigaru Terminal'i nasıl kuracağınızı ve kullanacağınızı biliyorsunuz. Bir sonraki eğitimde, bu yazılımla nasıl coinjoins oluşturacağınıza ve "*Postmix*"te arka planları Ashigaru uygulaması aracılığıyla veya "Mix to" seçeneğini kullanarak nasıl yöneteceğinize bakacağız.
+Artık Ashigaru Terminal'i nasıl kurup kullanacağınızı biliyorsunuz. Bir sonraki eğitimde, bu yazılımla coinjoin işlemlerinin nasıl yapılacağını ve "*Postmix*" fonlarının nasıl yönetileceğini göreceğiz.
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

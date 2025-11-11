@@ -449,5 +449,5 @@ Die Bedienung ist dann identisch mit der von Sparrow, da Ashigaru Terminal ein f
 
 
 
-Jetzt wissen Sie, wie Sie Ashigaru Terminal installieren und verwenden können. Im nächsten Tutorial werden wir uns ansehen, wie man mit dieser Software Coinjoins erstellt und wie man Hintergründe in "*Postmix*" verwaltet, entweder über die Ashigaru-Anwendung oder mit der Option "Mischen nach".
+Sie wissen nun, wie man Ashigaru Terminal installiert und verwendet. Im nächsten Tutorial sehen wir uns an, wie man mit dieser Software Coinjoins durchführt und wie man Gelder im "*Postmix*" verwaltet.
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

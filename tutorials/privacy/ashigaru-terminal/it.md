@@ -449,5 +449,5 @@ Il funzionamento è quindi identico a quello del Sparrow, poiché Ashigaru Termi
 
 
 
-Ora sapete come installare e utilizzare Ashigaru Terminal. Nel prossimo tutorial vedremo come creare coinjoin con questo software e come gestire gli sfondi in "*Postmix*", sia tramite l'applicazione Ashigaru, sia utilizzando l'opzione `Mix to`.
+Ora sai come installare e utilizzare Ashigaru Terminal. Nel prossimo tutorial vedremo come eseguire coinjoin con questo software e come gestire i fondi in "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

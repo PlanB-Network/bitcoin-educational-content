@@ -449,5 +449,5 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-现在您已经知道如何安装和使用 Ashigaru Terminal。在下一篇教程中，我们将介绍如何使用该软件创建拼接，以及如何通过 Ashigaru 应用程序或使用 "Mix to "选项在 "*Postmix*"中管理背景。
+您现在已经了解如何安装和使用 Ashigaru Terminal。 在下一个教程中，我们将了解如何使用此软件执行 coinjoin 以及如何在“*Postmix*”中管理资金。
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -449,5 +449,5 @@ De bediening is dan identiek aan die van Sparrow, aangezien Ashigaru Terminal ee
 
 
 
-Nu weet je hoe je Ashigaru Terminal installeert en gebruikt. In de volgende tutorial bekijken we hoe je coinjoins maakt met deze software, en hoe je achtergronden beheert in "*Postmix*", ofwel via de Ashigaru-toepassing, ofwel met de optie `Mix to`.
+Je weet nu hoe je Ashigaru Terminal installeert en gebruikt. In de volgende handleiding zullen we zien hoe je coinjoins uitvoert met deze software en hoe je fondsen beheert in "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

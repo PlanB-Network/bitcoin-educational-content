@@ -449,5 +449,5 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-これで、足軽ターミナルのインストール方法と使い方がわかりました。次回のチュートリアルでは、このソフトを使ってコインジョイントを作成する方法と、「*ポストミックス*」で背景を管理する方法（足軽アプリケーション経由、または`Mix to`オプションを使用）について説明します。
+これで、Ashigaru Terminal のインストールと使用方法がわかりました。次のチュートリアルでは、このソフトウェアを使ってコインジョインを実行し、「*Postmix*」の資金を管理する方法を見ていきます。
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

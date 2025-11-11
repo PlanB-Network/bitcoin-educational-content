@@ -336,5 +336,5 @@ Operation is then identical to that of Sparrow, since Ashigaru Terminal is a for
 ![Image](assets/fr/27.webp)
 
 
-Now you know how to install and use Ashigaru Terminal. In the next tutorial, we'll look at how to create coinjoins with this software, and how to manage backgrounds in "*Postmix*", either via the Ashigaru application, or using the `Mix to` option.
+You now know how to install and use Ashigaru Terminal. In the next tutorial, we will see how to perform coinjoins with this software and how to manage funds in "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

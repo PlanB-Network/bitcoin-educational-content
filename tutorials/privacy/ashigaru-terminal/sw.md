@@ -449,5 +449,5 @@ Operesheni basi inafanana na ile ya Sparrow, kwa kuwa Kituo cha Ashigaru ni fork
 
 
 
-Sasa unajua jinsi ya kufunga na kutumia Ashigaru Terminal. Katika somo linalofuata, tutaangalia jinsi ya kuunda viungio sanjari na programu hii, na jinsi ya kudhibiti usuli katika "*Postmix*", ama kupitia programu ya Ashigaru, au kutumia chaguo la `Changanya kwa`.
+Sasa unajua jinsi ya kusakinisha na kutumia Ashigaru Terminal. Katika mafunzo yajayo, tutaona jinsi ya kufanya coinjoin kwa programu hii na jinsi ya kusimamia fedha katika "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -449,5 +449,5 @@ Operacija je tada identična onoj kod Sparrow, pošto je Ashigaru Terminal fork 
 
 
 
-Sada znate kako instalirati i koristiti Ashigaru Terminal. U sledećem uputstvu, pogledaćemo kako kreirati coinjoins sa ovim softverom, i kako upravljati pozadinama u "*Postmix*", bilo putem Ashigaru aplikacije, ili korišćenjem opcije `Mix to`.
+Sada znate kako da instalirate i koristite Ashigaru Terminal. U narednom tutorijalu videćemo kako da izvršite coinjoin pomoću ovog softvera i kako da upravljate sredstvima u "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -223,6 +223,6 @@ Le fonctionnement est ensuite identique à celui de Sparrow, puisque Ashigaru Te
 
 ![Image](assets/fr/27.webp)
 
-Vous savez désormais comment installer et prendre en main Ashigaru Terminal. Dans le prochain tutoriel, nous verrons comment réaliser des coinjoins avec ce logiciel et comment gérer les fonds en "*Postmix*", soit via l’application Ashigaru, soit grâce à l’option `Mix to`.
+Vous savez désormais comment installer et prendre en main Ashigaru Terminal. Dans le prochain tutoriel, nous verrons comment réaliser des coinjoins avec ce logiciel et comment gérer les fonds en "*Postmix*".
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

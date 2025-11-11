@@ -449,5 +449,5 @@ Provoz je pak totožný s provozem Sparrow, protože terminál Ashigaru je fork 
 
 
 
-Nyní víte, jak nainstalovat a používat terminál Ashigaru. V příštím tutoriálu se podíváme na to, jak pomocí tohoto softwaru vytvářet coinjoiny a jak spravovat pozadí v "*Postmixu*", a to buď prostřednictvím aplikace Ashigaru, nebo pomocí možnosti `Mix to`.
+Nyní už víte, jak nainstalovat a používat Ashigaru Terminal. V dalším tutoriálu si ukážeme, jak provádět coinjoiny pomocí tohoto softwaru a jak spravovat prostředky v "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

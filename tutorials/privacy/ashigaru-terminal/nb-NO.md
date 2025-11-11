@@ -449,5 +449,5 @@ Betjeningen er da identisk med Sparrow, siden Ashigaru Terminal er en fork av Sp
 
 
 
-Nå vet du hvordan du installerer og bruker Ashigaru Terminal. I neste opplæringsvideo skal vi se på hvordan du lager coinjoins med denne programvaren, og hvordan du administrerer bakgrunner i "*Postmix*", enten via Ashigaru-applikasjonen eller ved hjelp av `Mix to`-alternativet.
+Du vet nå hvordan du installerer og tar i bruk Ashigaru Terminal. I neste veiledning skal vi se hvordan du utfører coinjoin med denne programvaren og hvordan du administrerer midler i "*Postmix*".
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

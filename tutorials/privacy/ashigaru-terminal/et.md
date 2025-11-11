@@ -449,5 +449,5 @@ Tegevus on siis identne Sparrow omaga, kuna Ashigaru terminal on Sparrow serveri
 
 
 
-Nüüd te teate, kuidas Ashigaru terminali paigaldada ja kasutada. Järgmises õpetuses vaatame, kuidas selle tarkvaraga coinjoine'i luua ja kuidas hallata taustu "*Postmix*", kas Ashigaru rakenduse kaudu või kasutades `Mix to` valikut.
+Nüüd teate, kuidas paigaldada ja kasutada Ashigaru Terminali. Järgmises õppetükis näeme, kuidas selle tarkvaraga teha coinjoine ja hallata vahendeid "*Postmix*"-is.
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -7,7 +7,7 @@ description: Guide complet pour utiliser Bisq 2 et échanger des bitcoins en P2P
 
 ## Introduction
 
-Les échanges de pair à pair (P2P) sans KYC sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :
+Les échanges de pair à pair (P2P) sans KYC (Know Your Customers) sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 

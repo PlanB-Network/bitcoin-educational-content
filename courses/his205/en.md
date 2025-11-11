@@ -2285,10 +2285,10 @@ It was Constantine (306-337 AD) who finally succeeded in stabilizing the monetar
 To conclude, I'd like to share with you this quote from *A History of Money: From Ancient Times to the Present Day* by Glyn Davies, which masterfully sums up what perhaps led to Rome's downfall:
 
 
-*"Taxes were consistently inadequate, and the difficulties associated with these increasingly inadequate, belatedly adjusted and highly visible taxes drove Rome to rely more on an easy, immediate and hidden form of taxation: currency devaluation. Short-lived, ad hoc reforms failed to reverse this age-old trend of decline. Financial pressures caused by the wear and tear of coins, shipwrecks, money leaks due to the purchase of luxury goods from the East, gifts offered to Germanic barbarians, the growth of urban populations, the decline of agricultural production, the gradual exhaustion of the richest mines, and above all the "bread and circuses" policies deemed essential to maintain a minimum of order in urban life - all these cumulative pressures led Rome to constant monetary devaluation, interspersed with occasional reforms doomed to failure."*
+*"Taxes were consistently inadequate, and the difficulties associated with these increasingly inadequate, belatedly adjusted, and highly visible taxes drove Rome to rely more on an easy, immediate and hidden form of taxation: currency devaluation. Short-lived, ad hoc reforms failed to reverse this age-old trend of decline. Financial pressures caused by the wear and tear of coins, shipwrecks, money leaks due to the purchase of luxury goods from the East, gifts offered to Germanic barbarians, the growth of urban populations, the decline of agricultural production, the gradual exhaustion of the richest mines, and above all the "bread and circuses" policies deemed essential to maintain a minimum of order in urban life - all these cumulative pressures led Rome to constant monetary devaluation, interspersed with occasional reforms doomed to failure."*
 
 
-*In addition to free or cheap bread and wine, imperial liberalities ("congiaria") in the form of monetary allocations were distributed from time to time, particularly under Trajan (AD 98-117) and even more so under Hadrian (AD 117-138) and his successors. What the emperor and citizens had initially regarded as an exceptional privilege had, by the early 2nd century, become a customary expectation. These distributions "constituted a heavy burden on the public treasury and contributed in their own way to the bankruptcy of the state".*
+*In addition to free or cheap bread and wine, imperial liberalities ("congiaria") in the form of monetary allocations were distributed from time to time, particularly under Trajan (98-117 AD) and even more so under Hadrian (117-138 AD) and his successors. What the emperor and citizens had initially regarded as an exceptional privilege had, by the early 2nd century, become a customary expectation. These distributions "constituted a heavy burden on the public treasury and contributed in their own way to the bankruptcy of the state".*
 
 
 
@@ -2304,7 +2304,7 @@ This section looks at the links between monetary dilution and inflation, from ca
 We also note a more gradual devaluation of the aureus. This difference in the rate of devaluation highlights two points:
 
 
-1 \- The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (Antoninian) and the imposition of a face value by marking "XXI" (Aurelian)
+1 \- The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (antoninian) and the imposition of a face value by marking "XXI" (Aurelian)
 
 
 2 \- The State's desire to delay as long as possible the devaluation of the aureus, the reserve of value that enables the elite to maintain their purchasing power at the expense of the less fortunate. We'll come back to this principle often enough in this course, notably with the concept known as the "Cantillon effect" and with the redenominations of the Maravedi in Spain.
@@ -2322,7 +2322,7 @@ What I've just described is called the Cantillon effect. We'll see that this gen
 The reform initiated during Aurelian's reign allowed inflation to soar. Inflation in the face value of money was no longer limited by the mints' ability to produce coins by hand. Coins that had already been minted could now be simply marked, and the nominal value of the money supply increased more rapidly.
 
 
-I have two quotes to share with you in connection with Aurélien. The first comes from *A History of Money: From Ancient Times to the Present Day*:
+I have two quotes to share with you in connection with Aurelian. The first comes from *A History of Money: From Ancient Times to the Present Day*:
 
 
 *"as far as the Roman economy is concerned, Aurelian's contribution was more of a disaster than a triumph. It was largely due to the nature of his "reform" that the rate of inflation was able to increase far beyond what had previously been possible, even under the irresponsible Gallien. For two centuries after Aurelian, inflation became endemic throughout the Roman Empire "*
@@ -2343,19 +2343,19 @@ What you have to understand here is that if there's a link between the denarius 
 A striking example of the effects of this reform by Aurelian is perfectly illustrated by these quotes from the book *Monetary Regimes and Inflation*:
 
 
-*"Between the reigns of the emperors Claudius (AD 41-54) and Constantius (AD 337-361), the price of wheat on the open market in Egypt, expressed in drachmas, **increased by a factor of over a million**. Spectacular price inflation is one of the central economic facts of the 3rd and 4th centuries AD" (Lendon 1990, p. 106). But this development is **less dramatic than it seems**, as it corresponds to an **average annual inflation rate of 4.4%**. And according to Wassink (1991, p. 482), inflation actually began **only in 238 A.D.**"*
+*"Between the reigns of the emperors Claudius (41-54 AD) and Constantius (337-361 AD), the price of wheat on the open market in Egypt, expressed in drachmas, **increased by a factor of over a million**. Spectacular price inflation is one of the central economic facts of the 3rd and 4th centuries AD" (Lendon 1990, p. 106). But this development is **less dramatic than it seems**, as it corresponds to an **average annual inflation rate of 4.4%**. And according to Wassink (1991, p. 482), inflation actually began **only in 238 AD**"*
 
 
-*"From this date onwards, inflation slowly accelerated, as **good money was first driven out of circulation**, so that the total money supply hardly increased at all at first. Subsequently, it reached an average annual rate of **3.65% between 250 and 293**, rising to **22.28% between 293 and 301** (Wassink 1991, p. 466), i.e. up to the **aborted monetary reforms of Emperor Diocletian**. This phenomenon is **particularly impressive for inflation in a metal-based monetary regime**. "*
+*"From this date onwards, inflation slowly accelerated, as **good money was first driven out of circulation**, so that the total money supply hardly increased at all at first. Subsequently, it reached an average annual rate of **3.65% between 250 and 293**, rising to **22.28% between 293 and 301** (Wassink 1991, p. 466), i.e., up to the **aborted monetary reforms of Emperor Diocletian**. This phenomenon is **particularly impressive for inflation in a metal-based monetary regime**. "*
 
 
 This phenomenon of inflation linked to monetary dilution initially responded to the occasional cash crises of the Roman state. By reducing the precious metal content of coins while maintaining their face value, the state temporarily increased its resources. But prices did not react immediately: indeed, the Roman system had a certain stickiness, which meant that wages and prices were slow to adapt to successive devaluations. Nevertheless, after a certain threshold, prices would rise sharply to bring the market back into balance with the real value of the currencies.
 
 
-As mentioned above, this phenomenon is particularly evident from the middle of the 3rd century onwards. In Egypt, a richly documented region, prices were multiplied by 10 under Aurelian (274 AD) after an official revaluation of the currency, despite an initial attempt at stabilization. Then, under Diocletian (301 AD), the Price Edict imposed drastic controls to curb inflation without tackling the root cause - overproduction and monetary degradation - thus causing a predictable failure. Persistent inflation ultimately pushes the economy towards a two-tier system: **the elite, protected by gold reserves (like Constantine's solidus**), enjoy stability, while the majority of the population continues to suffer chronic inflation, **illustrating what is known today as the Cantillon effect.**
+As mentioned above, this phenomenon is particularly evident from the middle of the 3rd century onwards. In Egypt, a richly documented region, prices were multiplied by 10 under Aurelian (274 AD) after an official revaluation of the currency, despite an initial attempt at stabilization. Then, under Diocletian (301 AD), the price edict imposed drastic controls to curb inflation without tackling the root cause - overproduction and monetary degradation - thus causing a predictable failure. Persistent inflation ultimately pushes the economy towards a two-tier system: **the elite, protected by gold reserves (like Constantine's solidus**), enjoy stability, while the majority of the population continues to suffer chronic inflation, **illustrating what is known today as the Cantillon effect.**
 
 
-There is a clear link between Roman monetary dilution and inflation, the causes of which are essentially linked to chronic fiscal deficits, incessant military spending and poor state economic management.
+There is a clear link between Roman monetary dilution and inflation, the causes of which are essentially linked to chronic fiscal deficits, incessant military spending, and poor state economic management.
 
 
 
@@ -2380,7 +2380,7 @@ This monetary deterioration not only destroyed the empire's internal cohesion. I
 Roman monetary history can be divided into three distinct periods. The first, from the Julio-Claudians to the Antonines (27 BC - end of 2nd century), maintained relative stability. Under Trajan, the empire reached its apogee: covering 5 million km², Rome became the first millionaire city in history. The denarius retains a silver purity of 98% to 80% - a moderate devaluation still allowing the economy to function.
 
 
-The second period, the 3rd century, was one of military anarchy. Twenty-six emperors succeeded one another in the space of a few decades. The currency collapsed: the Antoninian, supposedly worth two denarii, contained only 1.5 in metallic weight - the first attempt to divorce legal and real value. This manipulation triggers Gresham's Law: bad money drives out good money. Citizens hoarded the good coins, spending only the devalued ones.
+The second period, the 3rd century, was one of military anarchy. Twenty-six emperors succeeded one another in the space of a few decades. The currency collapsed: the antoninian, supposedly worth two denarii, contained only 1.5 in metallic weight - the first attempt to divorce legal and real value. This manipulation triggers Gresham's Law: bad money drives out good money. Citizens hoarded the good coins, spending only the devalued ones.
 
 
 Monetary treasures uncovered by archaeologists reveal this economic anxiety. Buried amphorae show, by stratification, how the Romans deposited the best coins first, gradually adding the devalued ones. These ancient "stacks" bear witness to human action in the face of uncertainty - an attempt to preserve value in a decaying world.

@@ -127,7 +127,13 @@ Nella parte superiore a destra clicca sul tuo Avatar per accedere al profilo.
 ![image](assets/it/09.webp)
 
 - Qui puoi vedere il tuo nome Avatar, il tuo User ID, la data di creazione e la tua reputazione, che rifletterà positivamente o negativamente il tuo comportamento nelle trattative.
+
+![image](assets/it/10.webp)
+
 - Nella sezione Settings puoi visualizzare il tuo “Lightning Address”, inserito durante la registrazione, e modificarlo se necessario.
+
+![image](assets/it/11.webp)
+
 - Hai anche la possibilità di creare una Public Key, che – come accennato – va impostata solo se possiedi le competenze adeguate. Essa serve per crittografare i messaggi che scambierai con la controparte direttamente dal computer.
 - La funzione Telegram Notification te la consiglio vivamente.
 Attivandola, ti comparirà un QR code da inquadrare con l’app di Telegram: in questo modo riceverai notifiche in tempo reale su tutte le azioni relative ai tuoi match, direttamente nella chat del bot su Telegram.

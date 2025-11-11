@@ -14,13 +14,13 @@ Avec l’essor du protocole Bitcoin, une nouvelle ère financière s’est ouver
 
 De cette réflexion est née **Debifi**, une plateforme qui se positionne comme une alternative moderne aux banques. L’objectif est clair : rendre le crédit aussi simple et transparent que possible, en alliant les avantages du système financier traditionnel à la liberté offerte par Bitcoin. Le nom Debifi traduit bien cette vision : ***Decentralized Bitcoin Finance***, une contraction qui illustre la rencontre entre finance décentralisée et innovation Bitcoin. 
 
- Debifi est une plateforme de prêts adossés au Bitcoin non custodial, ce qui signifie que vous gardez le contrôle de vos clés privées. Elle permet aux utilisateurs de débloquer de la liquidité en échange de leurs bitcoins verrouillés en garantie. Contrairement aux prêts bancaires traditionnels, Debifi utilise un système d’escrow multisignature (3 sur 4) et n’accepte pas l'hypothèque du collatéral, garantissant ainsi plus de sécurité et de transparence. 
+Debifi est une plateforme de prêts adossés au Bitcoin non custodial, ce qui signifie que vous gardez le contrôle de vos clés privées. Elle permet aux utilisateurs de débloquer de la liquidité en échange de leurs bitcoins verrouillés en garantie. Contrairement aux prêts bancaires traditionnels, Debifi utilise un système d’escrow multisignature (3 sur 4) et n’accepte pas la ***rehypothèque du collatéral*** (pendant toute la durée du prêt, ni Debifi ni le prêteur ne peuvent utiliser votre collatéral pour un usage quelconque), garantissant ainsi plus de sécurité et de transparence. 
  
  En pratique, cela veut dire que ni Debifi ni un prêteur individuel ne peuvent dépenser votre BTC sans l’accord de trois parties (vous, le prêteur et un tiers de confiance). Cela rend le système plus sûr : si vous empruntez sur Debifi, vous conservez la propriété de votre Bitcoin jusqu’au remboursement complet du prêt.
 
 ## Avantages de Debifi 
 
-Avec Debifi, ce sont des prêts collatéralisés, une sécurité blockchain (multisignature, 2FA), un choix de stablecoins/liquidités, une confidentialité et un contrôle total du Bitcoin. Debifi « vous fait garder votre argent » (your keys, your coins), tout en offrant des taux compétitifs et un accès mondial aux prêts garantis par BTC.
+Avec Debifi, vous bénéficiez de prêts garantis par des bitcoins et sécurisés sur la chaîne principale de Bitcoin (on-chain). Vos fonds restent en sécurité grâce à des portefeuilles à signatures multiples, à l'authentification à deux facteurs (2FA) et au contrôle total de vos bitcoins : vous détenez vos clés, vous conservez vos pièces (your keys, your coins). Mieux, vous profitez d'une variété de stablecoins ou d'options fiduciaires pour emprunter à des taux compétitifs et avec une liquidité mondiale.
 
 Voici un petit tableau comparatif entre un prêt sur Debifi et un prêt bancaire traditionnel : 
 
@@ -60,9 +60,9 @@ Pour débuter sur Debifi, il vous faut des prérequis.
  
  Avant de pouvoir emprunter sur Debifi, assurez-vous de disposer des éléments suivants :
 
-- Portefeuille Bitcoin : où vous détenez vos BTC (idéalement non custodial, par exemple hardware wallet ou un portefeuille mobile de confiance). C’est depuis ce portefeuille que vous enverrez le collatéral Bitcoin sur Debifi et que vous recevrez les fonds. 
+- Portefeuille Bitcoin : où vous détenez vos BTC (idéalement non custodial, par exemple hardware wallet ou un portefeuille mobile de confiance). C’est depuis ce portefeuille que vous enverrez le collatéral Bitcoin sur Debifi et que vous le recevrez en retour une fois votre prêt remboursé. 
 
-- Stablecoins ou fiat : Debifi prête en stablecoins et quelques devises fiat. Les principaux stablecoins utilisés sont USDT et USDC.  
+- Stablecoins ou fiat : Sur Debifi vous pouvez prêter en stablecoins et quelques devises fiat. Les principaux stablecoins utilisés sont USDT et USDC.  
 
 Vous pouvez utiliser Aqua, un portefeuille Bitcoin et Liquid mais qui supporte aussi la gestion des stablecoins USDT sur divers réseaux. Ou encore le COLDCARD (le Mk4 ou le Q) qui est actuellement le seul hardware pris en charge par Debifi.
 
@@ -176,11 +176,11 @@ Debifi mise sur des conditions de prêt transparentes et flexibles pour répondr
 #### Le ratio prêt/collatéral (LTV)
 Les tranches du prêt Bitcoin sont généralement au nombre de trois (3) :
 
-- Conservatrice (20 % – 40 % LTV), qui correspond à un emprunt à faible risque est idéal pour maximiser la sécurité contre la volatilité des prix du Bitcoin ;
+- Conservatrice (30 % – 40 % LTV), qui correspond à un emprunt à faible risque est idéal pour maximiser la sécurité contre la volatilité des prix du Bitcoin ;
 
 - Équilibrée (50 % LTV) ; 
 
-- Agressive (70 % – 85 % LTV), qui permet une liquidité accrue, mais comporte un risque très élevé de liquidation lors des baisses du marché. Une surveillance active des conditions du marché Bitcoin est nécessaire lorsque vous optez pour une offre dans cette tranche. 
+- Agressive (60 % – 70 % LTV), qui permet une liquidité accrue, mais comporte un risque très élevé de liquidation lors des baisses du marché. Une surveillance active des conditions du marché Bitcoin est nécessaire lorsque vous optez pour une offre dans cette tranche. 
 
 #### Taux d'intérêt
 
@@ -188,11 +188,19 @@ La fixation des taux dépend généralement de votre LTV choisi, de la durée du
 
 #### Durée de Prêt et Flexibilité du Remboursement
 
-Les calendriers de remboursement pour les prêts sont souvent flexibles et adaptés aux besoins de l'utilisateur. Les paiements peuvent être effectués à tout moment tant que les exigences en matière de garantie sont respectées. Les paiements de prêts sont généralement des intérêts pendant toute la durée du prêt, le principal étant dû à l'échéance du prêt.
+Les calendriers de remboursement des prêts sont flexibles et adaptés aux besoins de l'utilisateur. Il est possible de rembourser tout ou partie du prêt à tout moment et sans frais supplémentaires.
 
 #### Droits de Liquidation (Appels de Marge)
 
-Comme le prix du bitcoin est volatil, un prêt responsable inclut des politiques spécifiques d'appels de marge dans l'accord. Cette politique permet de notifier à l'emprunteur de soit fournir une garantie supplémentaire, soit rembourser une partie du prêt.
+Comme le prix du bitcoin est volatil, les prêts sont assortis de politiques spécifiques en matière d'appel de marge. Un appel de marge survient lorsque votre ratio prêt/collatéral (LTV) devient trop élevé en raison d'une baisse de la valeur de votre garantie. Debifi vous envoie un e-mail et une notification dans l'application afin que vous puissiez ajouter une garantie ou rembourser une partie du prêt comme suit :
+
+- 75 % LTV — Première alerte
+
+- 80 % LTV — Deuxième alerte
+
+- 85 % LTV — Dernière alerte
+
+- 90 % LTV — Le collatéral est liquidé
 
 ### Lancement du processus de prêt
 
@@ -237,7 +245,7 @@ Lorsque vous finissez de signer le contrat, Debifi crée automatiquement une adr
 
 ### Dépôt de la garantie et réception de vos fonds
 
-La dernière étape consiste à déposer votre garantie Bitcoin dans le système de séquestre multisignature. Debifi vous indique alors l’adresse (B) d’escrow et la quantité de BTC (A) à envoyer comme (collatéral + commission). 
+La dernière étape consiste à déposer votre garantie Bitcoin dans le système de séquestre multisignature. Debifi vous indique l’adresse (B) d’escrow et la quantité de BTC (A) à envoyer comme (collatéral + commission). 
 
 ![image](assets/fr/33.webp)
 
@@ -262,7 +270,7 @@ Les frais de prêt applicables sont de 1,5 à 2 %, selon la durée du contrat. L
 Une fois le prêt en cours, Debifi vous permet de surveiller votre contrat en temps réel. Dans l’interface, vous verrez notamment :
 
 - Le montant emprunté et la durée restante.
-- Le ratio LTV actuel (Loan-to-Value) : Le LTV augmente si le prix du BTC chute (puisque votre collatéral vaut moins). Un seuil d’alerte (généralement 90 %) est fixé. Si votre LTV dépasse ce seuil, il y a risque de liquidation forcée. Debifi vous donnera alors 24 h pour réagir.
+- Le ratio LTV actuel (Loan-to-Value) : Le LTV augmente si le prix du BTC chute (puisque votre collatéral vaut moins). 
 
 Les emprunteurs seront informés de la baisse de prix. Cette information sera également disponible sur la page récapitulative du contrat. Pour rétablir le ratio prêt/valeur initial d'un prêt, l'emprunteur doit :
 

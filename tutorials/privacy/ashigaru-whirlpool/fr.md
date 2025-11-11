@@ -29,7 +29,7 @@ Sur Ashigaru, en novembre 2025, deux dénominations de pools sont disponibles (c
 
 Chaque cycle de mixage peut impliquer entre 5 et 10 UTXOs en input et en output.
 
-01
+![Image](assets/fr/01.webp)
 
 ## Les logiciels prérequis
 
@@ -55,21 +55,21 @@ Après la création de votre portefeuille, vous commencerez avec un seul compte,
 
 Une fois que votre compte de dépôt contient au moins le montant nécessaire pour participer à la plus petite pool (en y ajoutant les frais de service et le minimum requis pour couvrir les frais de minage) vous serez prêt à initier vos premiers coinjoins.
 
-02
+![Image](assets/fr/02.webp)
 
 ## Faire la Tx0
 
 Une fois que les fonds sont bien arrivés sur votre compte de dépôt et que la transaction est confirmée, vous pouvez lancer le processus de coinjoin. Pour cela, sur Ashigaru Terminal, ouvrez le menu `Wallets`, puis sélectionnez votre portefeuille. Si celui-ci est verrouillé, le logiciel vous demandera votre mot de passe et votre passphrase.
 
-03
+![Image](assets/fr/03.webp)
 
 Sélectionnez ensuite le compte `Deposit`.
 
-04
+![Image](assets/fr/04.webp)
 
 Rendez-vous dans le menu `UTXOs`.
 
-05
+![Image](assets/fr/05.webp)
 
 Vous verrez ici la liste de tous les UTXOs présents sur votre compte de dépôt. Sélectionnez ceux que vous souhaitez envoyer dans les cycles de coinjoins.
 
@@ -77,11 +77,11 @@ Pour une meilleure confidentialité et afin d’éviter la *Common Input Ownersh
 
 Appuyez sur la touche `ENTER` de votre clavier pour sélectionner un UTXO : une astérisque `(*)` apparaîtra à côté pour indiquer qu’il est bien sélectionné.
 
-06
+![Image](assets/fr/06.webp)
 
 Cliquez ensuite sur le bouton `Mix Selected`.
 
-07
+![Image](assets/fr/07.webp)
 
 Si vous possédez un UTXO suffisamment important pour participer à l’une ou l’autre des deux pools disponibles, vous pourrez choisir la pool de destination à l’aide des flèches. Sur cette page, vous verrez les détails de votre Tx0 :
 - le nombre d’UTXOs qui vont entrer dans la pool ;
@@ -90,25 +90,25 @@ Si vous possédez un UTXO suffisamment important pour participer à l’une ou l
 
 Vérifiez attentivement les informations, puis cliquez sur `Broadcast` pour diffuser la Tx0.
 
-08
+![Image](assets/fr/08.webp)
 
 Ashigaru vous affichera ensuite le TXID de votre Tx0, ce qui confirme que la transaction a bien été diffusée sur le réseau.
 
-09
+![Image](assets/fr/09.webp)
 
 ## Faire les coinjoins
 
 Une fois la Tx0 diffusée, retournez sur la page d’accueil de votre compte de dépôt, puis cliquez sur `Accounts` et sélectionnez le compte `Premix`.
 
-10
+![Image](assets/fr/10.webp)
 
 Dans le menu `UTXOs`, vous verrez les différentes pièces égalisées, prêtes à entrer dans les cycles de coinjoin. Dès que la Tx0 sera confirmée, Ashigaru Terminal pourra initier automatiquement leur premier cycle de mixage.
 
-11
+![Image](assets/fr/11.webp)
 
 Une fois la Tx0 confirmée, la première transaction de coinjoin sera créée et diffusée automatiquement par Ashigaru Terminal. En vous rendant dans `Accounts > Postmix > UTXOs`, vous pourrez visualiser vos UTXOs égalisés, en attente de confirmation de leur premier cycle.
 
-12
+![Image](assets/fr/12.webp)
 
 Vous pouvez désormais laisser Ashigaru Terminal tourner en tâche de fond : il continuera à mixer et remixer vos pièces de manière automatique.
 
@@ -122,27 +122,27 @@ https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4
 
 Pour consulter le nombre de remix réalisés par chacune de vos pièces, ouvrez le menu `UTXOs` du compte `Postmix`.
 
-13
+![Image](assets/fr/13.webp)
 
 Pour dépenser vos pièces mixées, rendez-vous sur l’application Ashigaru, qui utilise le même portefeuille que votre logiciel Ashigaru Terminal. Le portefeuille affiché à l’ouverture correspond à votre compte `Deposit`. Pour accéder au compte `Postmix`, qui contient vos UTXOs mixés, cliquez sur le symbole de Whirlpool en haut à droite.
 
-14
+![Image](assets/fr/14.webp)
 
 Dans ce compte, vous verrez toutes vos pièces en cours de mixage. Pour les dépenser, appuyez sur le symbole `+` en bas à droite de l’écran, puis sélectionnez `Send`.
 
-15
+![Image](assets/fr/15.webp)
 
 Renseignez les détails de votre transaction : l’adresse du destinataire, le montant à envoyer, et, si vous le souhaitez, choisissez une structure de transaction spécifique pour renforcer encore davantage votre confidentialité (voir les tutoriels correspondants).
 
-16
+![Image](assets/fr/16.webp)
 
 Vérifiez attentivement les informations de la transaction, puis faites glisser la flèche en bas de l’écran pour confirmer l’envoi.
 
-17
+![Image](assets/fr/17.webp)
 
 Votre transaction a bien été signée et diffusée sur le réseau Bitcoin.
 
-18
+![Image](assets/fr/18.webp)
 
 ## Dépenser le Doxxic Change
 

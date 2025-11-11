@@ -579,3 +579,4 @@ Sobald die Transaktion der Benachrichtigung bestätigt wurde, können Sie Ihre S
 
 
 Sie wissen nun, wie Sie die grundlegenden Funktionen der Ashigaru-Anwendung nutzen können. In zukünftigen Tutorials werden wir uns ansehen, wie Sie die Vorteile der erweiterten Ausgabentransaktionen nutzen können, sowie Whirlpool, die von Samurai Wallet geerbte Coinjoin-Implementierung.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

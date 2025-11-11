@@ -579,3 +579,4 @@ Når varslingstransaksjonen er bekreftet, kan du sende donasjonene dine til pros
 
 
 Du vet nå hvordan du bruker de grunnleggende funksjonene i Ashigaru-programmet. I fremtidige veiledninger vil vi se på hvordan du kan dra nytte av avanserte utgiftstransaksjoner, samt Whirlpool, coinjoin-implementeringen som er arvet fra Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

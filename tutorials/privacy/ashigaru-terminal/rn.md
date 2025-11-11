@@ -27,6 +27,8 @@ Muri iyi nyigisho ya mbere, nzobajana mu gushiramwo no gukoresha Ashigaru Termin
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Shiraho ikibanza ca Ashigaru
 
 
@@ -286,7 +288,7 @@ Muri iyi nyigisho, tuzohitamwo uburyo bwa kabiri. Ariko rero, nimba ushaka gukor
 
 
 
-Urashobora kandi kumenya ko Ashigaru Terminal itakwemerera gukoresha amafaranga yawe y’ibiceri ataco ukora. Ushobora gukoranya wallet imwe kuri Ashigaru Terminal no kuri app ya Ashigaru (ico nzokora muri iyi nyigisho), canke ukoreshe uburyo bwa `Mix to` (ubwo tuzorabira mu nyigisho ikurikira) kugira ngo urungike amahera yawe ku gikoresho ca wallet nucle ca mix inyuma y’igihe ushizeho.
+Icyitonderwa kandi ni uko Ashigaru Terminal itakwemerera gukoresha bitcoin zawe mu buryo butaziguye. Ushobora guhuza ububiko bumwe kuri Ashigaru Terminal no kuri porogaramu ya Ashigaru (icyo nzakora muri iri somo), cyangwa kuri Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Hanyuma uhitemwo ubwoko bw'ibitabo `Hot Wallet`.
 
 
 
-*Iciyumviro*: uburyo bwa `Watch-only` buragufasha kubika `xpub` y'ibikoresho vya wallet kugira ngo ukoreshe igikorwa ca `Mix to` mu gihe kizoza. Ariko rero, ubwo bwoko bwa wallet biragaragara ko butashobora kugira uruhara mu coinjoins. Tuzogaruka kuri iki kintu mu buryo burambuye mu nyigisho ikurikira.
 
 
 
@@ -447,4 +448,5 @@ Ivyo rero birasa n’ivya Sparrow, kuko Terminal ya Ashigaru ari fork ya Server 
 
 
 
-Ubu rero urazi gushiramwo no gukoresha Terminal ya Ashigaru. Mu nyigisho ikurikira, turaza kuraba ingene twokora coinjoins n'iyi porogaramu, n'ingene twocungera inyuma muri "*Postmix*", biciye ku gikorwa ca Ashigaru, canke dukoresheje uburyo bwa `Mix to`.
+Ubu none urazi uburyo bwo kwinjiza no gukoresha Ashigaru Terminal. Mu isomo rikurikira, tuzareba uburyo bwo gukora coinjoin ukoresheje iri porogaramu no kuyobora amafaranga muri "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

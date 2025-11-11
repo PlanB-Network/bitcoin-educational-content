@@ -1,14 +1,13 @@
-question: Gusura mu bwiherero ni iki?
-answer: Ikintu kibuza abakoresha interineti kubika amateka y’ivyo bakoresheje, amadosiye ya interineti y’igihe gito, amakuru y’amafomu, amakuru y’ibanga, n’amazina y’abakoresha n’amajambo banga.
+question: Kurondera mu buryo bwihariye ni iki?
+answer: Uburyo bwokubuza mucukumbuzi kubika ibimenyetso vy'ivyo warondeye, amadosiye yo kuri interineti amara
+igihe gito, amakuru y’amafomu, ama kuki, n’amazina n’amajambo y'ibanga y'uwuyikoresha.
 wrong_answers:
-  - Igikoresho gihisha igikorwa cawe co kuri Internet ku muntu aguha interineti.
-  - Igikoresho kigufasha guca kuri internet ata wuzi.
-  - Igikoresho kirinda igikoresho cawe ama virusi n’ibindi bikoresho bibi.
+  - Uburyo bwo gihisha igikorwa cawe co kuri Internet ku muntu aguha interineti.
+  - Uburyo bugufasha kurondera kuri internet muburyo butazwi.
+  - Uburyo bwo kurinda igikoresho cawe umugera(nyabwonko) n’izindi porogarame mbi.
 explanation: |
-  Gusura mu buryo bwihariye ni ikintu kibuza interineti
-  umucukumbuzi kuva mu kubika amateka y'umucukumbuzi, interineti y'igihe gito
-  dosiye, amakuru y’ifomu, amakuru, n’amazina y’abakoresha n’amajambobanga.
-  Ariko rero, ntibihisha igikorwa cawe co kuri Internet ku .
-  umutanga serivisi ya interineti canke akakwemerera gusura
-  internet ata wuzi.
+  Kurondera mu buryo bwihariye ni uburyo bwo kubuza mucukumbuzi kubika ibimenyetso vy'ivyo warondeye,
+  amadosiye yo kuri interineti amara igihe gito, amakuru y’amafomu, ama kuki, n’amazina n’amajambo y'ibanga y'uwuyikoresha.
+  Ariko rero, ntibinyegeza igikorwa cawe uwuguha interinete canke ngo bikwemerere kurondera
+  kuri interinet muburyo butazwi
 reviewed: true

@@ -27,6 +27,8 @@ I den här första handledningen tar jag dig igenom installationen och användni
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Installera Ashigaru Terminal
 
 
@@ -286,7 +288,7 @@ I den här handledningen väljer vi den andra metoden. Men om du föredrar att s
 
 
 
-Observera också att Ashigaru Terminal inte tillåter dig att spendera dina bitcoins direkt. Du kan antingen synkronisera samma wallet på Ashigaru Terminal och i Ashigaru-appen (vilket jag kommer att göra i den här handledningen), eller använda alternativet `Mix to` (som vi kommer att titta på i nästa handledning) för att automatiskt skicka dina pengar till en wallet-hårdvara efter ett visst antal mixcykler.
+Observera också att Ashigaru Terminal inte tillåter dig att spendera dina bitcoins direkt. Du kan antingen synkronisera samma plånbok på Ashigaru Terminal och Ashigaru-appen (vilket jag kommer att göra i denna handledning), eller på Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Välj sedan portföljtyp `Hot Wallet`.
 
 
 
-*Obs*: Med alternativet `Watch-only` kan du spara `xpub` för en wallet-hårdvara för att använda funktionen `Mix to` vid ett senare tillfälle. Denna typ av wallet kan dock uppenbarligen inte delta i coinjoins. Vi kommer att återkomma till den här funktionen i detalj i nästa handledning.
 
 
 
@@ -447,4 +448,5 @@ Användningen är då identisk med Sparrow, eftersom Ashigaru Terminal är en fo
 
 
 
-Nu vet du hur du installerar och använder Ashigaru Terminal. I nästa handledning tittar vi på hur man skapar coinjoins med den här programvaran och hur man hanterar bakgrunder i "*Postmix*", antingen via Ashigaru-programmet eller med hjälp av alternativet `Mix to`.
+Du vet nu hur du installerar och använder Ashigaru Terminal. I nästa handledning kommer vi att se hur man utför coinjoins med denna programvara och hur man hanterar medel i "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

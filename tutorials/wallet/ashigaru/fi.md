@@ -579,3 +579,4 @@ Kun ilmoitustapahtuma on vahvistettu, voit lähettää lahjoituksesi projektille
 
 
 Osaat nyt käyttää Ashigaru-sovelluksen perusominaisuuksia. Tulevissa opetusohjelmissa tarkastelemme, miten voit hyödyntää kehittyneitä kulutustapahtumia sekä Whirlpool:a, Samurai Wallet:stä periytyvää coinjoin-toteutusta.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

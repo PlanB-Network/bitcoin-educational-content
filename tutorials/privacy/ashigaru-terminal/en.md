@@ -21,6 +21,8 @@ In short, Ashigaru Terminal will be particularly useful if you want to create co
 In this first tutorial, I'll take you through the installation and operation of Ashigaru Terminal. A second, more advanced tutorial will then be devoted to the actual creation of coinjoins.
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Install Ashigaru Terminal
 
 
@@ -216,7 +218,7 @@ You have two options:
 In this tutorial, we'll opt for the second method. However, if you'd prefer to create an entirely new wallet, the procedure remains the same: the only difference will be during creation, when you'll need to save your new mnemonic phrase and your new passphrase.
 
 
-Please also note that Ashigaru Terminal does not allow you to spend your bitcoins directly. You can either synchronize the same wallet on Ashigaru Terminal and on the Ashigaru app (which I'll do in this tutorial), or use the `Mix to` option (which we'll look at in the next tutorial) to automatically send your funds to a wallet hardware after a set number of mix cycles.
+Note also that Ashigaru Terminal does not allow you to spend your bitcoins directly. You can either synchronize the same wallet on Ashigaru Terminal and the Ashigaru app (which I will do in this tutorial), or on Sparrow Wallet.
 
 
 If you do not yet have a wallet on the Ashigaru application, you can follow the dedicated tutorial :
@@ -245,7 +247,6 @@ Give your wallet a name.
 Then choose wallet type `Hot Wallet`.
 
 
-*Note*: the `Watch-only` option allows you to save the `xpub` of a wallet hardware in order to use the `Mix to` function at a later date. However, this type of wallet obviously cannot participate in coinjoins. We'll come back to this feature in detail in the next tutorial.
 
 
 ![Image](assets/fr/18.webp)
@@ -334,4 +335,5 @@ Operation is then identical to that of Sparrow, since Ashigaru Terminal is a for
 ![Image](assets/fr/27.webp)
 
 
-Now you know how to install and use Ashigaru Terminal. In the next tutorial, we'll look at how to create coinjoins with this software, and how to manage backgrounds in "*Postmix*", either via the Ashigaru application, or using the `Mix to` option.
+You now know how to install and use Ashigaru Terminal. In the next tutorial, we will see how to perform coinjoins with this software and how to manage funds in "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

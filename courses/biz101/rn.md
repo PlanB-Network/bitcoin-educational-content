@@ -750,40 +750,40 @@ Bitcoin ubu ikina mu “bubiko bw’agaciro” **isoko**. Bigereranya gusa igito
 *$20 billions mu mezi 10: Bitcoin ETFs zashitse mu gihe kitarenga umwaka ivyo ETFs z’inzahabu zatwaye imyaka 5 kugira zishikeko. Inkomoko: Ishoramari ry’amafaranga rigenda mu madolari y’Amerika. Ibarabara ry'Ivyabona vya Yehova, 2024.*
 
 
-### Bitcoin mu gikoresho c'ishirahamwe
+### Bitcoin mu bikoresho vy'inganda
 
 
-Ukwiyongera kw’ukwemera Bitcoin muri Leta Zunze Ubumwe za Amerika na kwo nyene kuriko kuragira ico gukoze ku vyiyumviro vy’ahandi kw’isi, cane cane mu bahinga bo mu bijanye no gucunga ubutunzi batagishobora kuyishira mu bikoresho vyabo — cane cane ko ibintu vy’ubutunzi vya kera bikora nabi canke bihanganye n’ibihe bigoye. Amabanki ya kera ni yo yonyene asa n’uwushobora kuvyirengagiza.
+Ukwiyongera kw’ugukoresha Bitcoin muri Leta Zunze Ubumwe za Amerika na kwo nyene kuriko kuragira uruhara ku vyiyumviro vy’ahandi kw’isi, cane cane mu bahinga bo mu bijanye no gucunga ubutunzi batagishobora kuyishira mu bikoresho vyabo — cane cane ko ibintu vy’ubutunzi vya kera bidakora neza bihagije canke bihanganye n’ibihe bigoye. Amabanki ya kera ni yo yonyene asa n’ayashobora kuvyirengagiza.
 
 
-Uvuye ku bijanye n’amahera gusa, Bitcoin yemewe nk’umutungo wo guhindura ibintu. Si uko gusa idafitaniye isano n’ibindi bice vy’itunga, ahubwo isa n’itera imbere mu bihe vy’ugutera imbere kw’amahera mashasha—ikindi kintu nk’ico gisa n’ikiriko kiratangura n’ugugabanya inyungu za ECB, Fed n’Ubushinwa.
+Uvuye ku bijanye n’amahera gusa, Bitcoin yemewe nk’umutungo wo guhindura ibintu. Si uko gusa idafitaniye isano n’ibindi bice vy’itunga, ahubwo isa n’itera ija imbere mu bihe vy’ugutera imbere kw’amahera mashasha—ikindi kintu nk’ico gisa n’ikiriko kiratangura n’ukugabanya inyungu za ECB, Fed n’Ubushinwa.
 
 
-Mu ncamake, ku bijanye n’ikoreshwa risanzwe cane—ugushiramwo ubutunzi burenze urugero n’imiburiburi mu kiringo c’imyaka ine—Bitcoin irahuye neza cane. Ni vyiza kubifatanya n’ingene umuntu yinjira buhoro buhoro: gushiramwo amahera adahinduka mu bihe bitandukanye kugira ngo umuntu yinjire canke asohoke neza.
+Mu ncamake, ku bijanye n’ikoreshwa risanzwe cane—ugushiramwo ubutunzi burenze urugero n’imiburiburi mu kiringo c’imyaka ine—Bitcoin irahuye neza cane. Ni vyiza kubifatanya n’ingene umuntu yinjira buhoro buhoro: gushiramwo amahera adahinduka mu bihe bitandukanye bifise ikiringo kingana  kugira ngo umuntu yinjire canke asohoke neza.
 
 
 Ibindi bikoreshwa bituma Bitcoin iba umutungo w’ububiko bw’ingenzi, nk’akarorero:
 
 
-- Kubasha gushiramwo **ingwati** canke amafaranga 24/7.
-- Kubasha kwimurira mu bubiko bw’iyindi sosiyete **vyihuse, igihe cose**
-- Gukingira **ingorane z’amafaranga y’amahanga Exchange**
-- Kwishura **umuguzi** wemera, cane cane mu bihe vyihutirwa
+- Kubasha gushiramwo **ingwati** canke amafaranga amasaha 24 kuri 24 hamwe nimisi 7 kuri 7.
+- Kubasha kwimurira mu bubiko bw’iyindi nganda **vyihuse, igihe cose**
+- Gukingira **ingorane zokuvunja amahera y’ama nyamahanga**
+- Kwishura **umudandaza** iyo avyemeye, cane cane mu bihe vyihutirwa.
 
 
 ### Mbega Bitcoin irazimvye cane ?
 
 
-Ntubwirizwa kugura neza na neza Bitcoin 1, kuko Bitcoin igabanywamwo ibice vyitwa satoshis, vyiswe mu gutera iteka uwayiremye atazwi. Bitcoin imwe ingana n'amasatoshis miliyoni 100, bikaba vyemerera abayikoresha kugura, kugurisha canke gucuruza mbere n'**ibice bitobito cane vy'igikoresho ca Bitcoin**. Nkako, muri kode y'inkomoko ya Bitcoin, amafaranga yose akoreshwa abarirwa muri satoshis, kandi ijambo "Bitcoin" riboneka gusa mu "coinbase," abacukuzi b'amabuye y'agaciro badasanzwe barema kugira ngo baronke impembo yabo.
+Ntubwirizwa kugura neza na neza Bitcoin 1, kuko Bitcoin igabanywamwo ibice vyitwa satoshis, vyiswe uko mu gutera iteka uwayikoze nubwo utazwi. Bitcoin imwe ingana n'amasatoshis miliyoni 100, bikaba vyemerera abayikoresha kugura, kugurisha canke gucuruza mbere n'**ibice bitobito cane vy'igikoresho ca Bitcoin**. Nkako, muri kode y'inkomoko ya Bitcoin, amafaranga yose akoreshwa aharurwa  muri satoshis, kandi ijambo "Bitcoin" riboneka gusa mu "coinbase," amarungika yakamaro abacukuzi ba bitcoin batunganya kugira ngo baronke impembo yabo( impembo muma bitcoin).
 
 
-Vyongeye, igitigiri cose c’ama bitcoins imiliyoni 21—canke **2,1 quadrillion satoshis**—gishobora guserurwa neza n’umubare w’ama bit 64. Ivyo bisigura ko naho igiciro ca Bitcoin cose gifise igiciro kinini, kiguma gishikira abashoramari benshi kubera ko gishobora kugabanywa. Ntukeneye rero kugura Bitcoin yose kugira ngo ugire uruhara muri iyo nzira canke ngo ushore amahera muri iki kintu c’ubuhinga bwa none.
+Vyongeye, igitigiri cose c’ama bitcoins imiliyoni 21—canke **2,1 quadrillion satoshis**—gishobora guserurwa neza n’umubare w’ama bit 64. Ivyo bisigura ko naho igiciro ca Bitcoin cose gifise igiciro kinini, kiguma gishikira abashoramari benshi kubera ko gishobora kugaburwa. Ntukeneye rero kugura Bitcoin yose kugira ngo ugire uruhara muri iyo nzira canke ngo ushore amahera muri iki kintu c’ubuhinga bwa none.
 
 
 ![BIZ101](assets/rn/010.webp)
 
 
-Reka twibuke ko isoko ryayo ryose riri hasi cane, ugereranyije n’ibindi bintu nk’amafaranga, inzahabu, canke amazu, bisiga ubushobozi bwayo bwo gushima butagiramwo ikintu. Kubera ko abantu bakiri bato cane (hafi 1% vy’abantu bo kw’isi yose), bivugwa ko turi mu ntango gusa y’ugutera kwayo. Ivyo bituma **iyi bet idasanzwe kuruta izindi zose z’uruvyaro rwacu**: ubu hariho amahirwe make cane ko izogwa kuri zero muri iki gihe, kandi hariho amahirwe akomeye ko izoguma ironka ikibanza.
+Reka twibuke ko isoko ryayo ryose riri hasi cane, ugereranyije n’ibindi bintu nk’amafaranga, inzahabu, canke amazu, gusa bisiga ubushobozi bwayo butajegaje bugumana igikundiro . Kubera ko abantu bakiri bato cane (hafi 1% vy’abantu bo kw’isi yose), bivugwa ko turi mu ntango gusa y’ugutera imbere kwayo. Ivyo bituma **uru rusimbi rudasanzwe ruruta izindi zose zo muri ururuvyaro rwacu**: ubu hariho amahirwe make cane ko izogwa isubira  kuri zero muri iki gihe, kandi hariho amahirwe akomeye ko izoguma ironka ikibanza.
 
 
 ### Ingingo yo gutanga ububiko bw’ishirahamwe muri Bitcoin

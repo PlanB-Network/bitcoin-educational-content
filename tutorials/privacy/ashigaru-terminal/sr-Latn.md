@@ -288,7 +288,7 @@ U ovom vodiču, odlučićemo se za drugu metodu. Međutim, ako biste radije krei
 
 
 
-Imajte na umu da Ashigaru Terminal ne omogućava direktno trošenje vaših bitcoina. Možete ili sinhronizovati isti wallet na Ashigaru Terminalu i na Ashigaru aplikaciji (što ću uraditi u ovom vodiču), ili koristiti opciju `Mix to` (koju ćemo pogledati u sledećem vodiču) da automatski pošaljete svoja sredstva na wallet hardver nakon određenog broja ciklusa mešanja.
+Takođe imajte na umu da Ashigaru Terminal ne omogućava direktno trošenje vaših bitkoina. Možete sinhronizovati isti novčanik na Ashigaru Terminalu i aplikaciji Ashigaru (što ću uraditi u ovom tutorijalu), ili na Sparrow Walletu.
 
 
 
@@ -326,7 +326,6 @@ Zatim izaberite tip portfolija `Hot Wallet`.
 
 
 
-*Napomena*: opcija `Samo za gledanje` omogućava vam da sačuvate `xpub` wallet hardvera kako biste kasnije mogli koristiti funkciju `Mix to`. Međutim, ovaj tip wallet očigledno ne može učestvovati u coinjoin-ima. Vratit ćemo se na ovu funkciju detaljno u sledećem tutorijalu.
 
 
 

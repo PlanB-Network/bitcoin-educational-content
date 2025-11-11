@@ -288,7 +288,7 @@ W tym samouczku wybierzemy drugą metodę. Jeśli jednak wolisz utworzyć zupeł
 
 
 
-Należy również pamiętać, że Ashigaru Terminal nie pozwala na bezpośrednie wydawanie bitcoinów. Możesz albo zsynchronizować ten sam wallet w Ashigaru Terminal i w aplikacji Ashigaru (co zrobię w tym samouczku), albo użyć opcji `Mix to` (której przyjrzymy się w następnym samouczku), aby automatycznie wysłać swoje środki do sprzętu wallet po określonej liczbie cykli miksowania.
+Zauważ również, że Ashigaru Terminal nie pozwala na bezpośrednie wydawanie bitcoinów. Możesz zsynchronizować ten sam portfel na Ashigaru Terminal i w aplikacji Ashigaru (co zrobię w tym samouczku) lub w Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Następnie wybierz typ portfela `Hot Wallet`.
 
 
 
-*Uwaga*: opcja `Watch-only` pozwala na zapisanie `xpub` sprzętu wallet w celu użycia funkcji `Mix to` w późniejszym terminie. Jednak ten typ wallet oczywiście nie może uczestniczyć w coinjoinach. Wrócimy do tej funkcji w szczegółach w następnym samouczku.
 
 
 

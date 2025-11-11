@@ -288,7 +288,7 @@ Tässä opetusohjelmassa valitsemme toisen menetelmän. Jos kuitenkin haluat luo
 
 
 
-Huomaa myös, että Ashigaru Terminal ei anna sinun käyttää bitcoinejasi suoraan. Voit joko synkronoida saman wallet:n Ashigaru Terminalissa ja Ashigaru-sovelluksessa (minkä teen tässä ohjeessa) tai käyttää `Mix to` -vaihtoehtoa (jota tarkastelemme seuraavassa ohjeessa) lähettääksesi rahasi automaattisesti wallet-laitteistoon tietyn määrän mix-syklien jälkeen.
+Huomaa myös, että Ashigaru Terminal ei mahdollista bitcoinien suoraa käyttämistä. Voit joko synkronoida saman lompakon Ashigaru Terminalissa ja Ashigaru-sovelluksessa (mikä tehdään tässä oppaassa) tai Sparrow Walletissa.
 
 
 
@@ -326,7 +326,6 @@ Valitse sitten salkkutyyppi "Hot Wallet".
 
 
 
-*Huomaa*: "Watch-only"-vaihtoehdon avulla voit tallentaa wallet-laitteiston "xpubin", jotta voit käyttää "Mix to"-toimintoa myöhemmin. Tämäntyyppinen wallet ei kuitenkaan voi osallistua coinjoineihin. Palaamme tähän ominaisuuteen yksityiskohtaisesti seuraavassa opetusohjelmassa.
 
 
 

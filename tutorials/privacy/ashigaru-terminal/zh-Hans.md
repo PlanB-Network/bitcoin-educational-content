@@ -288,7 +288,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-还请注意，Ashigaru Terminal 不允许您直接使用比特币。您可以在 Ashigaru Terminal 和 Ashigaru 应用程序上同步同一个 wallet（我将在本教程中这样做），或者使用 "Mix to "选项（我们将在下一个教程中学习），在设定的混合周期后自动将资金发送到 wallet 硬件上。
+另请注意，Ashigaru Terminal 不允许您直接花费比特币。您可以在 Ashigaru Terminal 和 Ashigaru 应用程序上同步同一个钱包（这正是我将在本教程中演示的），或在 Sparrow Wallet 上进行同步。
 
 
 
@@ -326,7 +326,6 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-*注*："仅限观看 "选项允许您保存 wallet 硬件的 "xpub"，以便日后使用 "混合到 "功能。然而，这种类型的 wallet 显然无法参与硬币接合。我们将在下一篇教程中详细介绍这一功能。
 
 
 

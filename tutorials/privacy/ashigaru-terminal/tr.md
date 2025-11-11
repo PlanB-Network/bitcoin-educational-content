@@ -288,7 +288,7 @@ Bu eğitimde ikinci yöntemi tercih edeceğiz. Bununla birlikte, tamamen yeni bi
 
 
 
-Ashigaru Terminalinin bitcoinlerinizi doğrudan harcamanıza izin vermediğini de lütfen unutmayın. Aynı wallet'yi Ashigaru Terminal'de ve Ashigaru uygulamasında senkronize edebilir (bu derste yapacağım) veya belirli sayıda karışım döngüsünden sonra fonlarınızı otomatik olarak bir wallet donanımına göndermek için `Mix to' seçeneğini (bir sonraki derste inceleyeceğiz) kullanabilirsiniz.
+Ayrıca, Ashigaru Terminal'in bitcoinlerinizi doğrudan harcamanıza izin vermediğini unutmayın. Aynı cüzdanı Ashigaru Terminal ve Ashigaru uygulamasında (bu eğitimde yapacağım gibi) veya Sparrow Wallet'ta senkronize edebilirsiniz.
 
 
 
@@ -326,7 +326,6 @@ Ardından `Hot Wallet` portföy türünü seçin.
 
 
 
-*Not*: `Watch-only` seçeneği, daha sonraki bir tarihte `Mix to` işlevini kullanmak için bir wallet donanımının `xpub`ını kaydetmenize olanak tanır. Ancak, bu tür bir wallet'nın eş birleşimlere katılamayacağı açıktır. Bu özelliğe bir sonraki derste ayrıntılı olarak geri döneceğiz.
 
 
 

@@ -288,7 +288,7 @@ Trong hướng dẫn này, chúng ta sẽ chọn phương pháp thứ hai. Tuy n
 
 
 
-Xin lưu ý rằng Ashigaru Terminal không cho phép bạn chi tiêu bitcoin trực tiếp. Bạn có thể đồng bộ hóa cùng một wallet trên Ashigaru Terminal và trên ứng dụng Ashigaru (tôi sẽ thực hiện điều này trong hướng dẫn này), hoặc sử dụng tùy chọn `Mix to` (chúng ta sẽ xem xét trong hướng dẫn tiếp theo) để tự động gửi tiền của bạn đến phần cứng wallet sau một số chu kỳ Mix nhất định.
+Cũng lưu ý rằng Ashigaru Terminal không cho phép bạn chi tiêu bitcoin trực tiếp. Bạn có thể đồng bộ cùng một ví trên Ashigaru Terminal và ứng dụng Ashigaru (điều tôi sẽ thực hiện trong hướng dẫn này), hoặc trên Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Sau đó chọn loại danh mục đầu tư `Hot Wallet`.
 
 
 
-*Lưu ý*: tùy chọn `Watch-only` cho phép bạn lưu `xpub` của phần cứng wallet để sử dụng chức năng `Mix to` sau này. Tuy nhiên, loại wallet này rõ ràng không thể tham gia vào coinjoin. Chúng ta sẽ quay lại chi tiết về tính năng này trong hướng dẫn tiếp theo.
 
 
 

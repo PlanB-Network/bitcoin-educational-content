@@ -288,7 +288,7 @@ I denne veiledningen velger vi den andre metoden. Hvis du foretrekker å opprett
 
 
 
-Vær også oppmerksom på at Ashigaru Terminal ikke tillater deg å bruke bitcoins direkte. Du kan enten synkronisere den samme wallet-en på Ashigaru Terminal og i Ashigaru-appen (som jeg vil gjøre i denne veiledningen), eller bruke `Mix to`-alternativet (som vi skal se på i neste veiledning) for å automatisk sende pengene dine til en wallet-maskinvare etter et bestemt antall mixsykluser.
+Merk også at Ashigaru Terminal ikke lar deg bruke bitcoinene dine direkte. Du kan enten synkronisere den samme lommeboken på Ashigaru Terminal og Ashigaru-appen (noe jeg skal gjøre i denne veiledningen), eller på Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Velg deretter porteføljetype `Hot Wallet`.
 
 
 
-*Merk*: Med alternativet `Watch-only` kan du lagre `xpub` for en wallet-maskinvare for å bruke `Mix to`-funksjonen på et senere tidspunkt. Denne typen wallet kan imidlertid ikke delta i coinjoins. Vi kommer tilbake til denne funksjonen i detalj i neste veiledning.
 
 
 

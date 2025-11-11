@@ -288,7 +288,7 @@ Selles õpetuses valime teise meetodi. Kui soovite siiski luua täiesti uue port
 
 
 
-Pange tähele, et Ashigaru terminal ei võimalda teil oma bitcoin'e otse kulutada. Võite kas sünkroonida sama wallet Ashigaru Terminalis ja Ashigaru rakenduses (mida ma teen selles õpetuses) või kasutada `Mix to` võimalust (mida me vaatame järgmises õpetuses), et saata oma raha automaatselt wallet riistvarale pärast määratud arvu segutsükleid.
+Pange tähele, et Ashigaru Terminal ei võimalda teie bitcoine otse kulutada. Võite kas sünkroonida sama rahakoti Ashigaru Terminalis ja Ashigaru rakenduses (mida ma selles juhendis teen) või Sparrow Walletis.
 
 
 
@@ -326,7 +326,6 @@ Seejärel valige portfelli tüüp "Hot Wallet".
 
 
 
-*Märkus*: valik "Ainult vaatama" võimaldab salvestada wallet riistvara "xpub", et kasutada hiljem funktsiooni "Mix to". Siiski ei saa seda tüüpi wallet ilmselgelt osaleda coinjoin'is. Me tuleme selle funktsiooni juurde üksikasjalikult tagasi järgmises õpetuses.
 
 
 

@@ -288,7 +288,7 @@ In deze tutorial kiezen we voor de tweede methode. Als je echter liever een voll
 
 
 
-Houd er ook rekening mee dat je met Ashigaru Terminal je bitcoins niet direct kunt uitgeven. Je kunt dezelfde wallet synchroniseren op Ashigaru Terminal en op de Ashigaru app (wat ik in deze tutorial zal doen), of de `Mix to` optie gebruiken (die we in de volgende tutorial zullen bekijken) om je geld automatisch naar een wallet hardware te sturen na een ingesteld aantal mix cycli.
+Let er ook op dat Ashigaru Terminal niet toestaat dat je je bitcoins direct uitgeeft. Je kunt dezelfde wallet synchroniseren op Ashigaru Terminal en de Ashigaru-app (wat ik in deze handleiding zal doen), of op Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Kies dan portfoliotype `Hot Wallet`.
 
 
 
-*Opmerking*: met de `Watch-only` optie kun je de `xpub` van een wallet hardware opslaan om later de `Mix to` functie te gebruiken. Dit type wallet kan echter niet deelnemen aan coinjoins. We komen in detail terug op deze functie in de volgende tutorial.
 
 
 

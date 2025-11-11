@@ -288,7 +288,7 @@ V tomto návodu se rozhodneme pro druhou metodu. Pokud však dáváte přednost 
 
 
 
-Upozorňujeme také, že terminál Ashigaru neumožňuje utrácet bitcoiny přímo. Můžete buď synchronizovat stejný wallet v Ashigaru Terminálu a v aplikaci Ashigaru (což udělám v tomto návodu), nebo použít možnost `Mix to` (na kterou se podíváme v dalším návodu), aby se vaše prostředky automaticky odeslaly na hardware wallet po nastaveném počtu cyklů mixu.
+Všimněte si také, že Ashigaru Terminal neumožňuje přímo utrácet vaše bitcoiny. Můžete buď synchronizovat stejnou peněženku na Ashigaru Terminal a v aplikaci Ashigaru (což udělám v tomto tutoriálu), nebo ve Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Poté vyberte typ portfolia `Hot Wallet`.
 
 
 
-*Poznámka*: možnost `Pouze sledování` umožňuje uložit `xpub` hardwaru wallet, abyste mohli později použít funkci `Mix to`. Tento typ wallet se však samozřejmě nemůže účastnit coinjoins. K této funkci se podrobněji vrátíme v příštím návodu.
 
 
 

@@ -288,7 +288,7 @@ Neste tutorial, vamos optar pelo segundo método. No entanto, se preferir criar 
 
 
 
-Note-se também que o Terminal Ashigaru não lhe permite gastar os seus bitcoins diretamente. Pode sincronizar o mesmo wallet no Ashigaru Terminal e na aplicação Ashigaru (o que farei neste tutorial), ou usar a opção `Mix to` (que veremos no próximo tutorial) para enviar automaticamente os seus fundos para um hardware wallet após um determinado número de ciclos de mistura.
+Observe também que o Ashigaru Terminal não permite gastar seus bitcoins diretamente. Você pode sincronizar a mesma carteira no Ashigaru Terminal e no aplicativo Ashigaru (o que farei neste tutorial), ou no Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Em seguida, selecionar o tipo de carteira `Hot Wallet`.
 
 
 
-*Nota*: a opção `Watch-only` permite guardar o `xpub` de um hardware wallet para utilizar a função `Mix to` numa data posterior. Entretanto, este tipo de wallet obviamente não pode participar de coinjoins. Voltaremos a falar desta função em detalhes no próximo tutorial.
 
 
 

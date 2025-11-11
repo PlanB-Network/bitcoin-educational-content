@@ -288,7 +288,7 @@ Dalam tutorial ini, kita akan memilih metode kedua. Namun, jika Anda lebih suka 
 
 
 
-Harap diperhatikan juga bahwa Ashigaru Terminal tidak mengizinkan Anda untuk membelanjakan bitcoin Anda secara langsung. Anda dapat menyinkronkan wallet yang sama di Ashigaru Terminal dan di aplikasi Ashigaru (yang akan saya lakukan di tutorial ini), atau menggunakan opsi `Mix to` (yang akan kita bahas di tutorial berikutnya) untuk secara otomatis mengirimkan dana Anda ke perangkat keras wallet setelah sejumlah siklus campuran.
+Perhatikan juga bahwa Ashigaru Terminal tidak memungkinkan Anda membelanjakan bitcoin secara langsung. Anda dapat menyinkronkan dompet yang sama di Ashigaru Terminal dan aplikasi Ashigaru (yang akan saya lakukan dalam tutorial ini), atau di Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Kemudian pilih tipe portofolio `Hot Wallet`.
 
 
 
-*Catatan*: opsi `Watch-only` memungkinkan Anda untuk menyimpan `xpub` perangkat keras wallet agar dapat menggunakan fungsi `Mix to` di kemudian hari. Namun demikian, tipe wallet ini jelas tidak dapat berpartisipasi dalam coinjoin. Kami akan kembali ke fitur ini secara rinci dalam tutorial berikutnya.
 
 
 

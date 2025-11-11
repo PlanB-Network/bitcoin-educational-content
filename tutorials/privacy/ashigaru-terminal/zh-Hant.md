@@ -288,7 +288,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-另外請注意，Ashigaru Terminal 不允許您直接花費比特幣。您可以在 Ashigaru Terminal 和 Ashigaru 應用程式上同步同一個 wallet（我會在本教程中這樣做），或使用 `Mix to` 選項（我們會在下一個教程中瞭解），在設定的混合週期數後，自動將您的資金傳送至 wallet 硬體。
+另請注意，Ashigaru Terminal 不允許您直接花費比特幣。您可以在 Ashigaru Terminal 和 Ashigaru 應用程式上同步同一個錢包（這是我在本教學中要做的），或在 Sparrow Wallet 上進行同步。
 
 
 
@@ -326,7 +326,6 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-*注意*: `Watch-only`選項允許您儲存wallet硬體的`xpub`，以便日後使用`Mix to`功能。然而，這種類型的 wallet 顯然無法參與 Coinjoins。我們會在下一個教學中再詳細介紹這個功能。
 
 
 

@@ -288,7 +288,7 @@ Katika somo hili, tutachagua njia ya pili. Hata hivyo, ikiwa ungependelea kuunda
 
 
 
-Tafadhali pia kumbuka kuwa Ashigaru Terminal haikuruhusu kutumia bitcoins zako moja kwa moja. Unaweza kusawazisha wallet ile ile kwenye Kituo cha Ashigaru na kwenye programu ya Ashigaru (ambayo nitafanya katika mafunzo haya), au utumie chaguo la `Changanya kwa` (ambalo tutaangalia katika mafunzo yanayofuata) kutuma pesa zako kiotomatiki kwa maunzi ya wallet baada ya idadi fulani ya mizunguko ya mchanganyiko.
+Pia kumbuka kuwa Ashigaru Terminal hairuhusu kutumia bitcoins zako moja kwa moja. Unaweza kusawazisha pochi ile ile kwenye Ashigaru Terminal na programu ya Ashigaru (ambayo nitafanya katika mafunzo haya), au kwenye Sparrow Wallet.
 
 
 
@@ -326,7 +326,6 @@ Kisha chagua aina ya kwingineko `Hot Wallet`.
 
 
 
-*Kumbuka*: chaguo la `Kutazama pekee` hukuruhusu kuhifadhi `xpub` ya maunzi ya wallet ili utumie kipengele cha `Changanya kwa` baadaye. Hata hivyo, aina hii ya wallet ni wazi haiwezi kushiriki katika coinjoins. Tutarudi kwa kipengele hiki kwa undani katika mafunzo yanayofuata.
 
 
 

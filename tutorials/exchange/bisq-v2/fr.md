@@ -18,11 +18,11 @@ Bisq 2 est la nouvelle version du célèbre échangeur décentralisé Bisq, lanc
 **Nouvelles fonctionnalités clés :**
 - Support de plusieurs réseaux de confidentialité (Tor, I2P)
 - Possibilité de créer plusieurs identités pour une meilleure confidentialité
-- Interface REST API pour les bots de trading
+- Interface REST API pour les bots d'échange
 - Support de plusieurs types de portefeuilles
 - Système de rôles avec caution obligatoire en BSQ
 
-Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellement disponible. Bisq Easy a été conçu spécialement pour les nouveaux utilisateurs de Bitcoin. Ce protocole permet aux utilisateurs d'acheter et de vendre des bitcoins contre des devises fiduciaires sur une plateforme décentralisée de pair à pair. Les transactions sont limitées à l'équivalent de 600 USD (avec un minimum de 6 USD), et la sécurité des échanges repose sur la réputation des vendeurs de BTC. Bisq Easy ne comporte ni frais de trading ni exigence de dépôt de garantie. Il est prévu que Bisq Easy remplace Bisq 1 pour les échanges en monnaie fiduciaire inférieurs à 600 USD (ou équivalent).
+Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellement disponible. Bisq Easy a été conçu spécialement pour les nouveaux utilisateurs de Bitcoin. Ce protocole permet aux utilisateurs d'acheter et de vendre des bitcoins contre des devises fiduciaires sur une plateforme décentralisée de pair à pair. Les transactions sont limitées à l'équivalent de 600 USD (avec un minimum de 6 USD), et la sécurité des échanges repose sur la réputation des vendeurs de BTC. Bisq Easy ne comporte ni frais d'échange ni exigence de dépôt de garantie. Il est prévu que Bisq Easy remplace Bisq 1 pour les échanges en monnaie fiduciaire inférieurs à 600 USD (ou équivalent).
 
 **Caractéristiques principales :**
 - Application de bureau multi-plateforme
@@ -36,10 +36,10 @@ Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellem
 
 **Pour les acheteurs :**
 - Pas de dépôt de garantie requis
-- Pas de frais de trading
+- Pas de frais d'échange
 - Pas de frais de minage
 - Sécurité basée sur la réputation des vendeurs
-- Limites de trading plus basses (équivalent à 600 USD)
+- Limites d'échange plus basses (équivalent à 600 USD)
 
 **Pour les vendeurs :**
 - Pas de dépôt de garantie requis
@@ -101,7 +101,7 @@ Veuillez suivre les étapes d'installation appropriées pour votre système d'ex
 - Ajoutez une nouvelle méthode de paiement en remplissant les informations requises
 ![Création d'un nouveau compte de paiement](assets/fr/05.webp)
 
-La configuration préalable des méthodes de paiement est optionnelle, mais recommandée pour gagner du temps lors des échanges. Vous pouvez également configurer vos méthodes de paiement directement pendant un trade en communiquant avec votre partenaire d'échange.
+La configuration préalable des méthodes de paiement est optionnelle, mais recommandée pour gagner du temps lors des échanges. Vous pouvez également configurer vos méthodes de paiement directement pendant un échange en communiquant avec votre partenaire d'échange.
 
 ### 5. Sécurisation du Compte
 
@@ -129,14 +129,14 @@ Bisq 2 permet de créer plusieurs identités. Chaque identité peut être utilis
 ![Liste des offres](assets/fr/10.webp)
 - Dans le second cas, vous pouvez afficher et filtrer les offres avec les boutons en haut à droite de l'interface
 ![Filtres des offres](assets/fr/11.webp)
-- Une fois votre offre choisie, vous n'avez plus qu'à choisir les modalités de paiement puis valider le récapitulatif du trade
+- Une fois votre offre choisie, vous n'avez plus qu'à choisir les modalités de paiement puis valider le récapitulatif ddes termes de l'échange
 ![Choix modalités de paiement](assets/fr/12.webp)
 ![Configuration du trade](assets/fr/13.webp)
 ![Récapitulatif du trade](assets/fr/14.webp)
 
 **Option 2 : Créer votre propre offre**
 - Sélectionnez "Bisq Easy" puis "Offerbook"
-- Choisissez votre paire de trading (ex: BTC/EUR)
+- Choisissez votre paire d'échange (ex: BTC/EUR)
 - Cliquez sur "Create offer"
 - Suivez l'assistant de création d'offre : Définissez le montant (fixe ou plage)
 ![Configuration du montant](assets/fr/20.webp)
@@ -262,7 +262,7 @@ Pour améliorer votre réputation sur Bisq en tant que vendeur, réalisez des tr
 	- Nouveau protocole en phase de démarrage
 	- Peu d'offres de vente disponibles
 	- Délais d'attente potentiellement longs pour trouver un acheteur
-- **Limites de trading** : Maximum de 600 USD par transaction (avec Bisq easy)
+- **Limites d'échange** : Maximum de 600 USD par transaction (avec Bisq easy)
 - **Desktop uniquement** : Pas d'application mobile
 
 ##  Protocoles Futurs

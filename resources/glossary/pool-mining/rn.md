@@ -1,5 +1,5 @@
 ---
-ijambo: POOL (Mining)
+term: POOL (Mining)
 
 ---
 

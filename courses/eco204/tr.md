@@ -1,26 +1,19 @@
 ---
-name: Hiperenflasyon Çalışmaları
+name: Hiperenflasyon Vaka Çalışmaları
 goal: Fiat dünyasında hiperenflasyonların ortaya çıkışını ve sonuçlarını anlamak
-objectives: 
-
-  - Hiperenflasyon döngülerini inceleyin
-  - Hiperenflasyonun günlük hayatımız üzerindeki gerçek etkilerini anlamak
-  - Zaman içindeki hiperenflasyonların benzerliklerini inceleyin
-  - Kendinizi hiperenflasyondan nasıl koruyacağınıza dair somut bir fikriniz olsun
-
+objectives:
+- Hiperenflasyon döngülerini inceleyin
+- Hiperenflasyonun günlük hayatımız üzerindeki gerçek etkilerini anlamak
+- Zaman içindeki hiperenflasyonların benzerliklerini inceleyin
+- Kendinizi hiperenflasyondan nasıl koruyacağınıza dair somut bir fikriniz olsun
 ---
+# Ekonomik Çöküş Yolculuğu
 
-# Ekonomiye doğru bir yolculuk
+Paranın anlamını kaybetmesi nasıl görünür?
+Bu kurs sizi hiperenflasyonun büyüleyici ama ayıltıcı dünyasında yönlendirir. Para birimlerinin çöktüğü ve ekonomilerin bir gecede dönüştüğü tarihi olayları ve modern vakaları keşfedeceksiniz. Kalıpları, nedenleri ve sıradan insanlar üzerindeki gerçek dünya etkisini ortaya çıkaracak, ekonominin en dramatik fenomenlerinden birine dair içgörü kazanacaksınız.
 
-
-Bu program, itibari paranın hakim olduğu bir dünyada hiperenflasyonların ortaya çıkışının derinlemesine anlaşılmasını sağlamayı ve önemli sonuçlarını incelemeyi amaçlamaktadır. Katılımcılar hiperenflasyon döngülerini detaylı bir şekilde ele alacak, nedenlerini, tetikleyicilerini inceleyecek ve tarihsel ve güncel örnekler sunacaklardır. Ayrıca, hiperenflasyonun ekonomi ve günlük yaşam üzerindeki somut etkilerini inceleyerek, para birimi değeri, satın alma gücü ve bireysel ve kolektif tasarruflar üzerindeki yansımalarını inceleyeceklerdir.
-
-
-Burada, tarih boyunca hiperenflasyon dönemlerindeki eğilimleri ve ortak kalıpları vurgularken, hiperenflasyon dönemlerinde kendini korumak için etkili ve somut stratejiler sunacağız. Katılımcılar, çeşitli yatırım seçeneklerini ve finansal savunma mekanizmalarını keşfetme fırsatı bulacak, istikrarsız bir ekonomik ortamda sakin bir şekilde yol almak için pratik araçlar ve temel bilgiler edineceklerdir.
-
-
+Yol boyunca, bireylerin ve toplulukların bu çalkantılı dönemlerde nasıl yol aldıklarını da keşfedeceksiniz. Para birimi krizleri sırasında serveti korumaya yardımcı olan stratejileri öğrenin ve finansal dayanıklılık konusunda daha derin bir anlayış geliştirin. Dünyamızı şekillendiren ekonomik güçler hakkında meraklıysanız, bu yolculuk hem bilgi hem de pratik bir bakış açısı sunar.
 +++
-
 # Giriş
 
 

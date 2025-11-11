@@ -1,5 +1,5 @@
 ---
-ijambo: UTREEXO
+term: UTREEXO
 
 ---
 

@@ -15,7 +15,6 @@ Muri iyi nyigisho tuzoba turiko turaraba Blue Wallet, Bitcoin Wallet yoroshe ari
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

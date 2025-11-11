@@ -1,5 +1,5 @@
 ---
-ijambo: WHITE PAPER
+term: WHITE PAPER
 
 ---
 

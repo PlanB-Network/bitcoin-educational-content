@@ -1,5 +1,5 @@
 ---
-ijambo: RICOCHET
+term: RICOCHET
 
 ---
 

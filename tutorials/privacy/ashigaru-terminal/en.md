@@ -200,10 +200,10 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 *In my case, for this tutorial, I'm going to disconnect from my Electrs server because I'm working on testnet. However, operation remains strictly identical on mainnet.*
 
 
-## 4. Create a portfolio on Ashigaru Terminal
+## 4. Create a wallet on Ashigaru Terminal
 
 
-Now that the software is correctly configured, we can add a Bitcoin portfolio.
+Now that the software is correctly configured, we can add a Bitcoin wallet.
 
 
 You have two options:
@@ -213,7 +213,7 @@ You have two options:
 - Alternatively, you can import your existing Ashigaru wallet directly from your phone into Ashigaru Terminal. The disadvantage of this method is that it slightly reduces the security of your setup, as your wallet is then exposed to two risky environments instead of one. On the other hand, it offers the advantage of being able to leave Ashigaru Terminal running continuously to mix your coins, while allowing you to spend them remotely via the Ashigaru mobile app.
 
 
-In this tutorial, we'll opt for the second method. However, if you'd prefer to create an entirely new portfolio, the procedure remains the same: the only difference will be during creation, when you'll need to save your new mnemonic phrase and your new passphrase.
+In this tutorial, we'll opt for the second method. However, if you'd prefer to create an entirely new wallet, the procedure remains the same: the only difference will be during creation, when you'll need to save your new mnemonic phrase and your new passphrase.
 
 
 Please also note that Ashigaru Terminal does not allow you to spend your bitcoins directly. You can either synchronize the same wallet on Ashigaru Terminal and on the Ashigaru app (which I'll do in this tutorial), or use the `Mix to` option (which we'll look at in the next tutorial) to automatically send your funds to a wallet hardware after a set number of mix cycles.
@@ -230,19 +230,19 @@ Go to the `Wallets` menu.
 ![Image](assets/fr/15.webp)
 
 
-Then select `Create / restore wallet...`. The `Open Wallet...` option lets you access a portfolio already saved in Ashigaru Terminal at a later date.
+Then select `Create / restore wallet...`. The `Open Wallet...` option lets you access a wallet already saved in Ashigaru Terminal at a later date.
 
 
 ![Image](assets/fr/16.webp)
 
 
-Give your portfolio a name.
+Give your wallet a name.
 
 
 ![Image](assets/fr/17.webp)
 
 
-Then choose portfolio type `Hot Wallet`.
+Then choose wallet type `Hot Wallet`.
 
 
 *Note*: the `Watch-only` option allows you to save the `xpub` of a wallet hardware in order to use the `Mix to` function at a later date. However, this type of wallet obviously cannot participate in coinjoins. We'll come back to this feature in detail in the next tutorial.
@@ -254,7 +254,7 @@ Then choose portfolio type `Hot Wallet`.
 It is at this stage that the procedure differs depending on your initial choice:
 
 
-- If you wish to create a new portfolio from scratch, click on `<Generate New Wallet>`, define a passphrase BIP39, then carefully save your mnemonic phrase and your passphrase on a physical medium ;
+- If you wish to create a new wallet from scratch, click on `<Generate New Wallet>`, define a passphrase BIP39, then carefully save your mnemonic phrase and your passphrase on a physical medium ;
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -284,7 +284,7 @@ Click `< OK >` when you're finished.
 ![Image](assets/fr/20.webp)
 
 
-## 5. Using the portfolio
+## 5. Using the wallet
 
 
 You can then choose which account to access. For the moment, we haven't initiated any mixes, so we'll access the `Deposit` account.
@@ -328,7 +328,7 @@ Operation is then identical to that of Sparrow, since Ashigaru Terminal is a for
 
 
 
-- `Settings`: gives access to your portfolio *descriptor*. You can also consult your seed, adjust the *Gap Limit* or change the creation date of your portfolio.
+- `Settings`: gives access to your wallet *descriptor*. You can also consult your seed, adjust the *Gap Limit* or change the creation date of your wallet.
 
 
 ![Image](assets/fr/27.webp)

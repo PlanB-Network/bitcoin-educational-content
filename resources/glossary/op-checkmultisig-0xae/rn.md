@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CHECKMULTISIG (0XAE)
+term: OP_CHECKMULTISIG (0XAE)
 
 ---
 

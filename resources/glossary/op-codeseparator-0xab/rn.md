@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CODESEPARATOR (0XAB)
+term: OP_CODESEPARATOR (0XAB)
 
 ---
 

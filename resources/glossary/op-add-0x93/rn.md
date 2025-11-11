@@ -1,5 +1,5 @@
 ---
-ijambo: OP_ADD (0X93)
+term: OP_ADD (0X93)
 
 ---
 

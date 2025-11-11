@@ -1,5 +1,5 @@
 ---
-ijambo: WABISABI
+term: WABISABI
 
 ---
 

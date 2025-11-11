@@ -1,5 +1,5 @@
 ---
-ijambo: STRATUM
+term: STRATUM
 
 ---
 

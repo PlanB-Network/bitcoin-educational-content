@@ -1,5 +1,5 @@
 ---
-ijambo: ELTOO
+term: ELTOO
 
 ---
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Sie generiert private Schlüssel für Bitcoin-Wallets.
 explanation: |
   Eine Hash-Funktion transformiert Daten beliebiger Größe in einen Hash fester Größe, was für viele Anwendungen in Bitcoin entscheidend ist.
-reviewed: false
+reviewed: true

@@ -9,7 +9,7 @@ description: How to save your passwords with the Seedkeeper smart card?
 The Seedkeeper is a smartcard developed by Satochip, a Belgian company specializing in hardware solutions for managing and protecting digital secrets. Renowned for its range of smartcards for the Bitcoin ecosystem, Satochip conceived the Seedkeeper as an alternative to traditional methods of storing mnemonic phrases and other digital secrets.
 
 
-In concrete terms, the Seedkeeper takes the form of a multifunctional, EAL6-certified smart card with a secure processor and tamper-proof memory (a so-called "Secure Element"). As its name suggests, its role is to store Bitcoin portfolio mnemonics and passwords in an encrypted and protected way. With Seedkeeper, you can generate, import, organize and save your secrets directly in the card's secure component.
+In concrete terms, the Seedkeeper takes the form of a multifunctional, EAL6-certified smart card with a secure processor and tamper-proof memory (a so-called "Secure Element"). As its name suggests, its role is to store Bitcoin wallet mnemonics and passwords in an encrypted and protected way. With Seedkeeper, you can generate, import, organize and save your secrets directly in the card's secure component.
 
 
 In my opinion, Seedkeeper has two main uses, which we will explore in 2 separate tutorials:

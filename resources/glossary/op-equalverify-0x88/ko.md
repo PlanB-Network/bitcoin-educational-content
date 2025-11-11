@@ -1,5 +1,5 @@
 ---
-임기: OP_EQUALVERIFY (0X88)
+term: OP_EQUALVERIFY (0X88)
 
 ---
 

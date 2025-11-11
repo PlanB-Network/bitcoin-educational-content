@@ -1,5 +1,5 @@
 ---
-임기: OP_2OVER (0X70)
+term: OP_2OVER (0X70)
 
 ---
 

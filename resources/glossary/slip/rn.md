@@ -1,5 +1,5 @@
 ---
-ijambo: SLIP
+term: SLIP
 
 ---
 

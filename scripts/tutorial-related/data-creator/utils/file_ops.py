@@ -1,3 +1,4 @@
+
 import os
 import shutil
 import uuid
@@ -103,7 +104,7 @@ description:
     
     return tutorial_path
 
-def create_professor_yaml(full_name, website=None, twitter=None, lightning=None, tags=None):
+def create_professor_yaml(full_name, website=None, twitter=None, lightning=None, tags=None, nostr=None, linkedin=None, github=None):
     prof_uuid = str(uuid.uuid4())
     lines = [
         f"id: {prof_uuid}",
@@ -112,19 +113,28 @@ def create_professor_yaml(full_name, website=None, twitter=None, lightning=None,
         ""
     ]
     
-    if website or twitter:
+    # Links block (optional)
+    if website or twitter or nostr or linkedin or github:
         lines.append("links:")
         if website:
             lines.append(f"  website: {website}")
         if twitter:
             lines.append(f"  twitter: {twitter}")
+        if nostr:
+            lines.append(f"  nostr: {nostr}")
+        if linkedin:
+            lines.append(f"  linkedin: {linkedin}")
+        if github:
+            lines.append(f"  github: {github}")
         lines.append("")
     
+    # Tips block (optional)
     if lightning:
         lines.append("tips:")
         lines.append(f"  lightning_address: {lightning}")
         lines.append("")
     
+    # Tags block (optional)
     if tags:
         lines.append("tags:")
         for t in tags:
@@ -145,7 +155,7 @@ def create_language_yaml(language_code, bio, short_bio):
     ]
     return "\n".join(lines)
 
-def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor, licence="CC-BY-SA-V4"):
+def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor, licence="CC-BY-SA-V4", nostr=None, linkedin=None, github=None):
     """
     Generate the content for project.yml.
     'global_contributor' is the GitHub Contributor's ID from HOME.
@@ -157,12 +167,18 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
         "",
     ]
     
-    if website or twitter:
+    if website or twitter or nostr or linkedin or github:
         lines.append("links:")
         if website:
             lines.append(f"  website: {website}")
         if twitter:
             lines.append(f"  twitter: {twitter}")
+        if nostr:
+            lines.append(f"  nostr: {nostr}")
+        if linkedin:
+            lines.append(f"  linkedin: {linkedin}")
+        if github:
+            lines.append(f"  github: {github}")
         lines.append("")
     
     lines.append(f"category: {category}")

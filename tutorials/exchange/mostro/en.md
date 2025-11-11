@@ -101,7 +101,7 @@ Available for **Android** (via APK on GitHub), it's the optimal choice for users
 ### Mostro-web - Interface web (in development)
 
 
-Interface advanced JavaScript web application under active development. Designed to offer a complete user experience with extensive trading and portfolio management functionalities. Access via browser with no installation required.
+Interface advanced JavaScript web application under active development. Designed to offer a complete user experience with extensive trading and wallet management functionalities. Access via browser with no installation required.
 
 
 ## Installation and configuration

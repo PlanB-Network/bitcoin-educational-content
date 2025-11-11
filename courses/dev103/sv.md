@@ -191,7 +191,7 @@ Program utför vanligtvis operationer på data.
 Variabler är som namngivna lådor som vi använder för att lagra data. De gör det möjligt för oss att associera en bit data med ett specifikt namn, så att vi senare kan hämta den med hjälp av det namnet.
 
 
-### `let`-deklarationer
+### let-deklarationer
 
 
 För att deklarera en variabel i JavaScript kan vi använda nyckelordet `let`.
@@ -355,7 +355,7 @@ Bob
 Som du kan se har både `score` och `player` ändrats.
 
 
-### `const`-deklarationer
+### const-deklarationer
 
 
 För det mesta vill vi dock inte att en variabel ska ändras efter att den har skapats. För det använder vi `const`.
@@ -875,7 +875,7 @@ undefined
 Vad är det där?
 
 
-### `undefinierad`
+### undefinierad
 
 
 Specialvärdet "odefinierad" betyder "inget värde har tilldelats".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` och hur man behandlar det
+### null och hur man behandlar det
 
 
 `null` är också ett speciellt värde. Det betyder "här finns ingenting, och det gjorde jag med flit"
@@ -1075,7 +1075,7 @@ Det innebär att vi kan använda block för att isolera delar av vår kod och va
 Genom att organisera vår kod i block kan vi också strukturera exekveringen av programmet, med kontrollflödeskonstruktioner som `if`
 
 
-### `if`, `else`
+### if, else
 
 
 Ibland vill vi köra kod **bara om** något är sant. Det är vad `if`-satsen är till för.
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (utdata från funktioner)
+### return (utdata från funktioner)
 
 
 Funktioner kan också **returnera** värden. Det innebär att de skickar ett värde tillbaka till den plats där funktionen anropades.
@@ -2252,7 +2252,7 @@ Med JavaScript kan du omforma objekt fritt, men när du använder klasser är de
 
 
 
-### Nedärvning med `extends` och `super()`
+### Nedärvning med extends och super()
 
 
 Ibland vill man skapa en klass som är *nästan* likadan som en annan klass, men med några extra funktioner.
@@ -2374,7 +2374,7 @@ Så för att sammanfatta
 Detta är användbart när du har flera saker som liknar varandra (t.ex. bilar, lastbilar och cyklar) och du vill att de ska dela kod men ändå bete sig på sitt eget sätt.
 
 
-### `instansav`
+### instansav
 
 
 Nyckelordet `instanceof` kontrollerar om ett objekt har skapats från en viss klass.
@@ -2439,7 +2439,7 @@ När du skriver mer komplexa JavaScript-program kommer du att stöta på **fel**
 Om vi inte hanterar dessa fel på rätt sätt kan vårt program krascha eller bete sig på oförutsägbara sätt. JavaScript tillhandahåller verktyg för att upptäcka och hantera dessa fel så att vi kan hantera dem på ett mer elegant sätt.
 
 
-### Vanligt fel: åtkomst till ett värde på `undefined`
+### Vanligt fel: åtkomst till ett värde på undefined
 
 
 Här är en vanlig situation som orsakar ett fel:
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Det andra anropet orsakar ett fel eftersom det inte är tillåtet att dela med noll i det här exemplet.
 
 
-### Fånga upp fel med `try...catch`
+### Fånga upp fel med try...catch
 
 
 Om du inte vill att ditt program ska krascha när ett fel inträffar kan du fånga felet med hjälp av ett `try...catch`-block. Detta är användbart när du vill att ditt program ska **fortsätta** även om något misslyckas.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 I det här kapitlet beskrivs några av de vanligaste fallgroparna i JavaScript och hur du undviker dem.
 
 
-### `var` och Assignment utan deklaration
+### var och Assignment utan deklaration
 
 
 I äldre JavaScript-kod deklarerades variabler ofta med hjälp av nyckelordet `var`. Till skillnad från `let` och `const`, som du redan har lärt dig om, kan `var` bete sig på förvirrande sätt.
@@ -2650,7 +2650,7 @@ I de här exemplen försöker JavaScript gissa vad du menade. Ibland förvandlas
 Det är viktigt att vara medveten om JavaScript:s svaga typsystem. När saker och ting börjar bete sig konstigt kan det bero på oväntad typ tvång.
 
 
-### `"använd strikt"`
+### "använd strikt"
 
 
 Du kan aktivera ett striktare läge som gör vissa tysta fel till riktiga fel och hindrar dig från att använda några av de farligare funktionerna i språket.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Standardvärdet `"friend"` används när inget skickas in.
 
 
-### Spreadparametrar (`...`)
+### Spreadparametrar (...)
 
 
 Vad händer om din funktion tar ett flexibelt antal argument?
@@ -3030,7 +3030,7 @@ Funktionen `makeGreeter` är en funktion som bygger upp andra funktioner. Den ta
 Den här typen av mönster är mycket kraftfullt, eftersom det gör att du kan lämna "hål" i dina funktioner som du senare kan fylla med det beteende du behöver.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript ger dig några användbara inbyggda metoder som du kan använda med arrayer.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Privata egenskaper är användbara när du vill förhindra oavsiktliga ändringar.
 
 
-### `statisk` Egenskaper
+### statisk Egenskaper
 
 
 Ibland vill man att en egenskap ska tillhöra själva klassen, inte varje objekt man skapar från den klassen. Det är vad `static` är till för. En `static`-egenskap finns i klassen och alla objekt i den klassen kommer att hänvisa till den.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Detta är användbart för att lagra delade data och metoder som gäller för hela gruppen av objekt, inte bara ett.
 
 
-### `get` och `set`
+### get och set
 
 
 I JavaScript kan du med `get` och `set` skapa egenskaper som *ser* ut som vanliga variabler, men som faktiskt kör specialkod i bakgrunden.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Detta kallas för en **beräknad egenskap**. Värdet inom hakparenteserna utvärderas och resultatet används som nyckel.
 
 
-### `Symbol` Typ
+### Symbol Typ
 
 
 Förutom strängar kan du i JavaScript också använda en speciell typ som heter "Symbol" som objektnyckel.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Användbart för enkla prestandatester.
 
 
-### Objektet `Math
+### Objektet Math
 
 
 JavaScript ger dig ett `Math`-objekt med användbara metoder för att göra beräkningar.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Kartor är utmärkta för att hantera stora samlingar av värden, eftersom åtkomst till värden på en stor karta vanligtvis ger mycket bättre prestanda än på ett stort objekt.
 
 
-### `Set`
+### Set
 
 
 En `Set` är en samling av enbart **värden** (inga nycklar), där varje värde måste vara **unikt**. Det betyder att:
@@ -3770,7 +3770,7 @@ De flesta saker i JavaScript som du kan loopa över (t.ex. arrayer, strängar, m
 En **iterator** är ett speciellt objekt i JavaScript som hjälper dig att gå igenom en lista med objekt **ett i taget**.
 
 
-### `Objekt` iteratorer
+### Objekt iteratorer
 
 
 Till skillnad från matriser eller kartor är vanliga objekt **inte itererbara** med `for...of`. Om du försöker detta:
@@ -3892,7 +3892,7 @@ age is 30
 Men hur fungerar iteratorer?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Hemligheten bakom alla iteratorer är en speciell **symbol** som heter `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Varje anrop till `.next()` ger dig nästa värde. När det är klart returneras 
 ```
 
 
-### `nästa()`
+### nästa()
 
 
 Metoden `.next()` används för att hämta nästa objekt från sekvensen.
@@ -4105,7 +4105,7 @@ Hittills har vår kod varit **synkron**: den kör en rad i taget, i tur och ordn
 I det här kapitlet ska vi introducera ett nytt begrepp: **konkurrens**. Det gör att vi kan manipulera den ordning i vilken saker och ting görs. Detta är användbart när man hanterar saker som timers, användarinmatning eller läsning av filer från disk. JavaScript erbjuder olika verktyg för att hantera samtidighet.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Med funktionen `setTimeout` kan du **köra en funktion senare**, efter att en viss tid har gått.
@@ -4253,7 +4253,7 @@ Inuti den ger vi den en funktion med två parametrar:
 I exemplet ovan löser vi det bara omedelbart med meddelandet "Det fungerade!".
 
 
-### `.then()`
+### .then()
 
 
 Om du vill göra något **efter** att löftet har uppfyllts använder du `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `avvisa()`
+### avvisa()
 
 
 Låt oss skapa ett löfte som **felar**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Kedja operationer med hjälp av `Promise`
+### Kedja operationer med hjälp av Promise
 
 
 
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Eller så kan du använda `await`...
 
 
-### Vad är `await`?
+### Vad är await?
 
 
 Nyckelordet `await` säger till JavaScript: "Vänta tills detta löfte har utförts, och ge mig sedan resultatet."
@@ -4638,7 +4638,7 @@ Nu kan vi använda resultatet som om det vore ett vanligt värde.
 Låt oss göra något lite mer användbart nu.
 
 
-### Simulering av en fördröjning med `await`
+### Simulering av en fördröjning med await
 
 
 Vi ska skapa en enkel "vänta"-funktion som tar ett antal millisekunder som argument och bara löser upp efter så många millisekunder, utan att göra något annat:
@@ -4881,7 +4881,7 @@ Asynkrona iteratorer är användbara när:
 Om du till exempel vill läsa in meddelanden från en chatt-server ett i taget eller ladda ner en stor fil i omgångar, ger asynkrona iteratorer dig ett sätt att skriva en `for`-loop som arbetar med fördröjda data.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Vi kan också använda asynkrona iteratorer i anpassade klasser.
@@ -5287,7 +5287,7 @@ NodeJS ger oss bland annat möjlighet att bygga CLI:er (Command Line Interfaces)
 För det behöver vi ett sätt att ta emot kommandoradsargument, vilket i Node görs med hjälp av det inbyggda `process`-objektet.
 
 
-### `process`
+### process
 
 
 NodeJS tillhandahåller ett speciellt objekt som heter `process` som representerar det program som körs för tillfället.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Här anges operativsystemets plattform, t.ex. `win32`, `linux` eller `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 När du kör ett NodeJS-program från terminalen kan du skicka extra ord (argument) efter skriptnamnet. Dessa lagras i `process.argv`.
@@ -5493,7 +5493,7 @@ Du behöver inte installera dessa inbyggda moduler, de kommer med NodeJS. De utg
 I de kommande kapitlen kommer du att få se några användbara exempel på hur de kan användas.
 
 
-## Modulen `fs
+## Modulen fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `paket.json`
+### paket.json
 
 
 Filen `package.json` är bara en JSON-fil som lagrar metadata om ditt projekt.
@@ -5960,7 +5960,7 @@ Vad gjorde NPM?
 Vad är `package-lock.json` ?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Den här filen skapas automatiskt av NPM.
@@ -6023,7 +6023,7 @@ NodeJS används ofta som ett språk för backend: du kan förvandla ditt skript 
 I det här kapitlet introducerar vi några grundläggande nätverksfunktioner som gör det möjligt för dig att göra det.
 
 
-### `hämtning()`
+### hämtning()
 
 
 Om du vill att ditt program ska hämta data från en webbplats eller ett API måste du göra en **HTTP-begäran**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Se därför till att strängen är korrekt formaterad.
 
 
-### `http`-server
+### http-server
 
 
 NodeJS gör att du kan skapa en webbserver utan att installera något annat.

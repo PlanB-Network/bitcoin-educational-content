@@ -1,5 +1,5 @@
 ---
-ijambo: OP_DEPTH (0X74)
+term: OP_DEPTH (0X74)
 
 ---
 

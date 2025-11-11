@@ -6,4 +6,4 @@ wrong_answers:
   - 10 Bits
 explanation: |
   Jedes 11-Bit-Segment entspricht einem Wort aus der standardisierten Liste von 2048 Wörtern in BIP39.
-reviewed: false
+reviewed: true

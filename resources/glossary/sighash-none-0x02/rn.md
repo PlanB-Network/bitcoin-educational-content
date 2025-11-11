@@ -1,5 +1,5 @@
 ---
-ijambo: SIGHASH_NONE (0X02)
+term: SIGHASH_NONE (0X02)
 
 ---
 

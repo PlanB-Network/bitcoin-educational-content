@@ -1,21 +1,18 @@
 ---
-name: Introduction à l'économie autrichienne
-goal: Découvrir l'école autrichienne de pensée économique. Étudier leurs points de vue sur la société et les réalités macro/micro-économiques.
+name: Fondamentaux de l'école autrichienne d'économie
+goal: Découvrez l'économie autrichienne comme cadre alternatif pour analyser les marchés et la prise de décision individuelle
 objectives:
-  - Une alternative au keynésianisme
-  - L'importance de la monnaie forte
-  - Pourquoi et comment nos cycles économiques sont-ils créés ?
-  - Pourquoi les banquiers centraux sont-ils devenus fous ?
+- Analyser les fonctions de la monnaie, du crédit et des systèmes bancaires centraux
+- Appliquer la théorie de la valeur subjective et la préférence temporelle au comportement du marché
+- Comprendre la théorie autrichienne du cycle économique et ses causes
+- Comparer la méthodologie autrichienne avec les approches économiques conventionnelles
 ---
+# Voyage vers l'économie autrichienne
 
-# Un voyage dans l'économie
+Vous êtes-vous déjà demandé pourquoi certains économistes pensent différemment les marchés, la liberté et le comportement humain ? L'économie autrichienne offre une perspective rafraîchissante qui vous place au cœur de la pensée économique. Au lieu de mathématiques complexes et de modèles abstraits, cette approche se concentre sur la logique, le choix humain et la façon dont les gens réels prennent des décisions dans leur vie quotidienne. C'est l'économie à travers le prisme de la liberté, de la rationalité et de l'action personnelle.
 
-Bienvenue dans le cours de Théo Mogenet ! Passionné d'économie, d'histoire, de littérature, de sciences politiques et de technologie, il a décidé de partager ses connaissances en économie autrichienne avec vous. Cette branche, moins connue en économie, repose sur la rationalité humaine et le comportement des acteurs libres. Moins axée sur les mathématiques, il s'agit avant tout de logique et d'étude sociale.
-
-Cette école de pensée a plusieurs siècles d'existence et compte de nombreux auteurs, réflexions et économistes derrière elle. De grands noms de l'économie tels que Hayek, Rothbard, von Mises, Bastiat ou Menger ont longtemps défendu ce mouvement. Contrairement au keynésianisme omniprésent de notre époque, l'école autrichienne replace l'individu au centre de l'équation avec une approche plus libérale, capitaliste et même anarchiste.
-
+Cette école de pensée a façonné les débats pendant des siècles, grâce à des penseurs influents comme Hayek, Mises et Bastiat. Alors que l'économie keynésienne dominante domine les discussions politiques d'aujourd'hui, la tradition autrichienne pose des questions différentes : Que se passe-t-il lorsque nous priorisons la liberté individuelle ? Comment les marchés libres fonctionnent-ils réellement lorsque les gens sont libres de choisir ? Si vous êtes curieux de connaître des façons alternatives de penser les marchés, la société et la liberté, c'est votre chance d'explorer des idées que vous ne trouverez pas dans les manuels standards.
 +++
-
 # Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

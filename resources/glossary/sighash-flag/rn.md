@@ -1,5 +1,5 @@
 ---
-ijambo: Ibendera rya SIGHASH
+term: Ibendera rya SIGHASH
 
 ---
 

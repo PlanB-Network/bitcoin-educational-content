@@ -1,5 +1,5 @@
 ---
-ijambo: WALLETS/DB.LOG
+term: WALLETS/DB.LOG
 
 ---
 

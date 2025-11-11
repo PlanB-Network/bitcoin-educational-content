@@ -5,7 +5,7 @@ description: Open-source, self-custody Bitcoin wallet software, fork from Wasabi
 ![cover](assets/cover.webp)
 
 
-Ginger Wallet is an open source, non-custodial Bitcoin portfolio focused on confidentiality and privacy. It started life as fork from Wasabi Wallet (after version 2.0.7.2 - MIT license).
+Ginger Wallet is an open source, non-custodial Bitcoin wallet focused on confidentiality and privacy. It started life as fork from Wasabi Wallet (after version 2.0.7.2 - MIT license).
 
 
 Ginger Wallet retains Wasabi's technical architecture while adding a few specific features. According to the [Ginger Wallet documentation](https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet), Wasabi emphasizes **autonomy and control**, while Ginger focuses on **ease of use, security and a simplified experience**, making it accessible to those less familiar with technical aspects.
@@ -74,7 +74,7 @@ Right from the start, Ginger reminds you of the costs involved in the coinjoin p
 ![screen](assets/fr/07.webp)
 
 
-Then press **Start**, then **New** to create a new portfolio.
+Then press **Start**, then **New** to create a new wallet.
 
 
 ![screen](assets/fr/08.webp)
@@ -99,13 +99,13 @@ For added security, Ginger Wallet gives you the option of adding a passphrase.
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-This passphrase, once added, will be requested every time you try to access your portfolio.
+This passphrase, once added, will be requested every time you try to access your wallet.
 
 
 ![screen](assets/fr/12.webp)
 
 
-Ginger automatically activates the default **Coinjoin** when you create your portfolio. You are informed of this and can then customize the setting to suit your needs.
+Ginger automatically activates the default **Coinjoin** when you create your wallet. You are informed of this and can then customize the setting to suit your needs.
 
 
 ![screen](assets/fr/13.webp)
@@ -115,7 +115,7 @@ Ginger automatically activates the default **Coinjoin** when you create your por
 ### General settings
 
 
-Once you've created your first portfolio, you'll be taken to the Ginger Wallet interface.
+Once you've created your first wallet, you'll be taken to the Ginger Wallet interface.
 
 
 ![screen](assets/fr/14.webp)
@@ -127,16 +127,16 @@ Activate the **Discreet mode**, if you want to hide the balances in your wallets
 ![screen](assets/fr/15.webp)
 
 
-You can create multiple portfolios on Ginger Wallet. Just click on **Add a portfolio**.
+You can create multiple wallets on Ginger Wallet. Just click on **Add a wallet**.
 
 
 ![screen](assets/fr/16.webp)
 
 
-Ginger supports the use of hardware portfolios via the standard Bitcoin Core interface, although direct integration from or to a hardware portfolio is not yet available.
+Ginger supports the use of hardware wallets via the standard Bitcoin Core interface, although direct integration from or to a hardware wallet is not yet available.
 
 
-Compatible hardware portfolios include (but are not limited to) :
+Compatible hardware wallets include (but are not limited to) :
 
 
 - Blockstream Jade
@@ -155,7 +155,7 @@ Now click on **Settings**.
 ![screen](assets/fr/17.webp)
 
 
-These settings are those of the application in general, and the configurations you make there will apply to all portfolios.
+These settings are those of the application in general, and the configurations you make there will apply to all wallets.
 
 
 In **Settings**, you have the tabs :
@@ -215,7 +215,7 @@ But once you deactivate Tor in the settings, your privacy remains generally pres
 Don't forget to press **Done** (in the bottom right-hand corner) each time, to save your settings. Some settings require Ginger Wallet to be restarted to take effect.
 
 
-In addition, the search bar at the top of the portfolios lets you search for and access any parameter, etc...
+In addition, the search bar at the top of the wallets lets you search for and access any parameter, etc...
 
 
 ![screen](assets/fr/22.webp)
@@ -225,7 +225,7 @@ In addition, the search bar at the top of the portfolios lets you search for and
 ### Portfolio configuration
 
 
-Several portfolios can be created in the application, so each portfolio can be configured to suit your needs. To do so, click on the **three dots** in front of the portfolio name, then on **Portfolio settings**.
+Several wallets can be created in the application, so each wallet can be configured to suit your needs. To do so, click on the **three dots** in front of the wallet name, then on **Portfolio settings**.
 
 
 ![screen](assets/fr/23.webp)
@@ -234,10 +234,10 @@ Several portfolios can be created in the application, so each portfolio can be c
 As you can see, apart from the wallet parameter, you'll be able to see your UTXOs (list of tokens you own), statistics and wallet information (the extended public key, for example).
 
 
-To return to our portfolio configuration, once you click on portfolio parameters, you will be taken to the following tabs:
+To return to our wallet configuration, once you click on wallet parameters, you will be taken to the following tabs:
 
 
-- General** (where you can change the portfolio name) ;
+- General** (where you can change the wallet name) ;
 
 
 ![screen](assets/fr/24.webp)
@@ -251,7 +251,7 @@ To return to our portfolio configuration, once you click on portfolio parameters
 
 
 
-- Tools** (where you can check your seedphrase, synchronize your portfolio again, or delete it).
+- Tools** (where you can check your seedphrase, synchronize your wallet again, or delete it).
 
 
 ![screen](assets/fr/26.webp)
@@ -390,7 +390,7 @@ If you find a suitable offer, click on the **Accept** button to proceed with the
 ### Selling bitcoins
 
 
-Ginger Wallet users can sell Bitcoin. The **Sell** button is only visible when there are funds available in the portfolio.
+Ginger Wallet users can sell Bitcoin. The **Sell** button is only visible when there are funds available in the wallet.
 
 
 
@@ -459,9 +459,9 @@ The desire for decentralization and the preservation of privacy require the adop
 
 
 - Always keep your seedphrase in a safe place off-line;
-- If you lose your computer or suspect unauthorized access, create a new wallet immediately. Transfer your funds to this new portfolio and delete the old one;
+- If you lose your computer or suspect unauthorized access, create a new wallet immediately. Transfer your funds to this new wallet and delete the old one;
 - Use a different address for each reception to avoid reusing addresses;
-- Always download your portfolio applications exclusively from the official GitHub account or the official website.
+- Always download your wallet applications exclusively from the official GitHub account or the official website.
 
 
 Now you're familiar with using the Ginger Wallet application to send, receive and spend your bitcoins.

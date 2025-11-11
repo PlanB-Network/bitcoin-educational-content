@@ -1,5 +1,5 @@
 ---
-기간: LOCK (.LOCK)
+term: LOCK (.LOCK)
 
 ---
 

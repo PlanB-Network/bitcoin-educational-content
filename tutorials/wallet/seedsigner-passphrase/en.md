@@ -1,6 +1,6 @@
 ---
 name: BIP-39 Passphrase SeedSigner
-description: How do I add a passphrase to my SeedSigner portfolio?
+description: How do I add a passphrase to my SeedSigner wallet?
 ---
 
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 ## How do I add a passphrase to the SeedSigner?
 
 
-Adding a passphrase to your portfolio managed via SeedSigner creates a completely new portfolio, generating an entirely separate set of keys. Consequently, if you already have a portfolio containing satss, you will no longer be able to access it with the passphrase, since it generates a completely different portfolio.
+Adding a passphrase to your wallet managed via SeedSigner creates a completely new wallet, generating an entirely separate set of keys. Consequently, if you already have a wallet containing satss, you will no longer be able to access it with the passphrase, since it generates a completely different wallet.
 
 
 To apply a passphrase to your SeedSigner, switch on the device and scan your SeedQR as usual. The SeedSigner will then display the fingerprint of your current wallet, corresponding to the one **without passphrase**. The wallet with passphrase will have a different fingerprint.
@@ -57,7 +57,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 The SeedSigner then displays the new fingerprint of your passphrase wallet. Make several copies of this fingerprint: it's important when using a wallet with passphrase, as it allows you to check, each time you enter the passphrase, that you haven't made any typing errors and that you're accessing the right wallet.
 
 
-For example, if in my case I mistakenly write down the passphrase `Pba` when starting the SeedSigner instead of `pba`, this simple change from lower case to upper case will result in the creation of an entirely different portfolio from the one I want to access.
+For example, if in my case I mistakenly write down the passphrase `Pba` when starting the SeedSigner instead of `pba`, this simple change from lower case to upper case will result in the creation of an entirely different wallet from the one I want to access.
 
 
 This fingerprint poses no risk to the security or confidentiality of your wallet. It does not disclose any information, public or private, about your keys. So, unlike the mnemonic and passphrase, you can save the fingerprint on a digital medium. I recommend that you keep a copy in several places: on a piece of paper, in a password manager, etc.
@@ -69,7 +69,7 @@ Once you've saved your fingerprint, click `Done`.
 ![Image](assets/fr/04.webp)
 
 
-You then have access to all your portfolio's functions, just like on a classic SeedSigner.
+You then have access to all your wallet's functions, just like on a classic SeedSigner.
 
 
 ![Image](assets/fr/05.webp)

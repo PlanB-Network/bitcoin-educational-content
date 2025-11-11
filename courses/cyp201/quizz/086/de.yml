@@ -6,4 +6,4 @@ wrong_answers:
   - Durch direkte Kodierung in base64
 explanation: |
   Bech32-Adressen verwenden BCH-Codes, um die Prüfsumme zu berechnen.
-reviewed: false
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-ijambo: OP_NUMEQUALVERIFY (0X9D)
+term: OP_NUMEQUALVERIFY (0X9D)
 
 ---
 

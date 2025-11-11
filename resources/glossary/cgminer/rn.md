@@ -1,5 +1,5 @@
 ---
-ijambo: CGMINER
+term: CGMINER
 
 ---
 

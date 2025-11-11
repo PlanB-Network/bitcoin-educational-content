@@ -15,7 +15,6 @@ In deze tutorial kijken we naar Blue Wallet, een eenvoudige maar zeer effectieve
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

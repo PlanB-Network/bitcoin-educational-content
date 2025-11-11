@@ -1,5 +1,5 @@
 ---
-임기: OP_2DROP (0XD6)
+term: OP_2DROP (0XD6)
 
 ---
 

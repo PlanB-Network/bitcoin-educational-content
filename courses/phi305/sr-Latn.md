@@ -1,35 +1,18 @@
 ---
 name: Spinoza i Bitcoin
 goal: Otkrijte filozofske veze između Spinozine misli i Bitcoin kao alata slobode kroz vekove.
-objectives: 
-
-
-  - Razumevanje Spinozine praktične filozofije i njegove potrage za slobodom.
-  - Istraživanje Spinozističkih koncepata determinizma i ljudskih iluzija.
-  - Analiziranje paralela između Spinozine revolucije ideja i tehnološke revolucije Bitcoin.
-
-
-
+objectives:
+- Razumevanje Spinozine praktične filozofije i njegove potrage za slobodom.
+- Istraživanje spinozističkih koncepata determinizma i ljudskih iluzija.
+- Analiza paralela između Spinozine revolucije ideja i tehnološke revolucije Bitcoina.
+- Primena teorije afekta za prepoznavanje i suprotstavljanje manipulaciji u političkim sistemima.
 ---
+# Kada je Spinoza sreo Satošija
 
-# Filozofska istraživanja slobode kroz Spinozu i Bitcoin
+Otkrijte kako radikalne ideje filozofa iz 17. veka Baruha de Spinoze o slobodi, razumu i moći predviđaju Bitkoinovu decentralizovanu revoluciju. Ovaj kurs otkriva zapanjujuće paralele: oboje odbacuju slepu veru i centralni autoritet, oboje koriste matematičku strogost da oslobode. Spinoza je oslobodio umove od religijske dogme, Bitkoin oslobađa novac od državne kontrole.
 
-
-
-Ovaj kurs istražuje duboke veze između revolucionarne filozofije Barucha de Spinoze (1632-1677) i Bitcoin, dva alata slobode razdvojena vekovima, ali ujedinjena istom potragom: ljudskom emancipacijom od ropstva.
-
-
-
-Otkrićemo kako je Spinoza, otac racionalne filozofije prosvetiteljstva, razvio praktičnu etiku da nas oslobodi iluzija koje nas zarobljavaju - slobodne volje, finalizma i teoloških sujeverja. Njegova geometrijska metoda i teorija afekata pokazuju nam kako da razumemo naše mesto u svetu i da usmerimo naše postojanje ka onome što povećava našu moć delovanja.
-
-
-
-Kurs zatim povlači fascinantne paralele između ove Kopernikanske revolucije ideja i Bitcoin: dva sistema koja ne zahtevaju slepu veru niti centralni autoritet, već jednostavno primenu razuma. Baš kao što je spinozizam oslobodio misao od religijske dogme, Bitcoin oslobađa novac od državne kontrole, nudeći novi oblik ekonomske slobode zasnovan na matematici i kriptografiji.
-
-
-
+Naučite praktične alate iz Spinozine etike da razumete filozofske temelje bitkoina i povećate svoju autonomiju. Spremni ste da istražite dva od najvećih instrumenata ljudske emancipacije u istoriji?
 +++
-
 # Uvod
 
 

@@ -1,5 +1,5 @@
 ---
-ijambo: OP_IF (0X63)
+term: OP_IF (0X63)
 
 ---
 

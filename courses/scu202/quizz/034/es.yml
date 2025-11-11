@@ -6,4 +6,4 @@ wrong_answers:
   - Activar el cifrado de disco
 explanation: |
   La contraseña de sesión es la primera barrera de seguridad para impedir el acceso no autorizado a su máquina, antes que cualquier otra medida adicional.
-reviewed: false
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-ijambo: B-MONEY
+term: B-MONEY
 
 ---
 

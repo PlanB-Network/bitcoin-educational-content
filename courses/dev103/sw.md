@@ -191,7 +191,7 @@ Programu kawaida hutekeleza shughuli kwenye data.
 Vigezo ni kama visanduku vilivyotajwa ambavyo tunatumia kuhifadhi data. Zinaturuhusu kuhusisha kipande cha data na jina mahususi, ili tuweze kuirejesha baadaye kwa kutumia jina hilo.
 
 
-### `hebu` matamko
+### hebu matamko
 
 
 Ili kutangaza tofauti katika JavaScript, tunaweza kutumia neno kuu la `let`.
@@ -355,7 +355,7 @@ Bob
 Kama unavyoona, `alama` na `mchezaji` zilibadilishwa.
 
 
-### matamko ya `const`
+### matamko ya const
 
 
 Ingawa, mara nyingi, hatutaki mabadiliko yabadilike baada ya kuundwa. Kwa hiyo, tunatumia `const`.
@@ -875,7 +875,7 @@ undefined
 Nini hicho??
 
 
-### `haijafafanuliwa`
+### haijafafanuliwa
 
 
 Thamani maalum `isiyoelezewa` inamaanisha "hakuna thamani iliyokabidhiwa".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` na jinsi ya kutibu
+### null na jinsi ya kutibu
 
 
 `null` pia ni thamani maalum. Inamaanisha "hakuna kitu hapa, na nilifanya hivyo kwa makusudi."
@@ -1075,7 +1075,7 @@ Hii inamaanisha kuwa tunaweza kutumia vizuizi kutenga sehemu za msimbo wetu, na 
 Kupanga nambari yetu katika vizuizi huturuhusu pia kupanga utekelezaji wa programu, na muundo wa mtiririko wa udhibiti kama `if`.
 
 
-### `kama`, `vingine`
+### kama, vingine
 
 
 Wakati mwingine tunataka kutekeleza msimbo ** ikiwa tu ** kitu ni kweli. Hiyo ndiyo maana ya kauli ya `if`.
@@ -1190,7 +1190,7 @@ Kwa sababu tulitumia opereta `!` kugeuza kigezo cha `mtu mzima`.
 Kwa kutumia vizuizi, mantiki na waendeshaji kulinganisha, tunaweza kupanga utekelezaji wa programu, kwa kubainisha viambajengo ambavyo lazima ziwe `kweli` (au `sivyo`) ili jambo lifanyike.
 
 
-### `wakati`, `vunja`, `endelea`
+### wakati, vunja, endelea
 
 
 Kitanzi cha `wakati` kinarudia msimbo *ilimradi* hali ni kweli.
@@ -1282,7 +1282,7 @@ Hii inachapisha:
 Kwa sababu nambari ilipokuwa `3`, `endelea` ilifanya programu kuruka mstari unaochapisha nambari.
 
 
-### `kwa ... ya ...`
+### kwa ... ya ...
 
 
 Ikiwa una safu, na unataka kufanya kitu kwa kila kitu ndani yake, unaweza kutumia `kwa ... ya ... {...}`.
@@ -1312,7 +1312,7 @@ Kizuizi kitatekelezwa mara moja kwa kila kipengele cha safu.
 `fruit` hapa ni kigezo kipya ambacho huchukua thamani ya kila kipengee katika safu, ili kukifanyia kazi ndani ya kizuizi.
 
 
-### `kwa ... katika ...`
+### kwa ... katika ...
 
 
 Unaweza kutumia `kwa ... in` kuzunguka funguo (faharisi) za safu:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (matokeo kutoka kwa vitendaji)
+### return (matokeo kutoka kwa vitendaji)
 
 
 Kazi zinaweza pia **kurudisha** thamani. Hii ina maana kwamba wanatuma thamani nyuma popote pale chaguo la kukokotoa lilipoitwa.
@@ -1749,7 +1749,7 @@ JavaScript mara nyingi huitwa lugha inayolenga kitu.
 Hiyo inamaanisha inakusaidia kupanga msimbo wako kwa kuweka thamani katika vikundi na kufanya kazi pamoja katika **vitu**.
 
 
-### `kitu` ni nini?
+### kitu ni nini?
 
 
 Kipengee kinaweza kuwa na data na vitendakazi vinavyofanya kazi kwenye data hiyo. Chaguo za kukokotoa zinapowekwa kwenye kitu tunasema ni `mbinu`.
@@ -2252,7 +2252,7 @@ JavaScript inakuwezesha kuunda upya vitu kwa uhuru, lakini unapotumia madarasa, 
 
 
 
-### Urithi wenye `extens` na `super()`
+### Urithi wenye extens na super()
 
 
 Wakati mwingine ungependa kuunda darasa ambalo *karibu* sawa na darasa lingine, lakini lenye vipengele vichache vya ziada.
@@ -2374,7 +2374,7 @@ Hivyo kwa muhtasari
 Hii inasaidia unapokuwa na vitu kadhaa vinavyofanana (kama vile magari, lori, na baiskeli) na unataka washiriki nambari ya kuthibitisha lakini bado wafanye mambo yao wenyewe.
 
 
-### `mfano`
+### mfano
 
 
 Neno kuu la `instanceof` hukagua ikiwa kitu kiliundwa kutoka kwa aina fulani.
@@ -2439,7 +2439,7 @@ Unapoandika programu ngumu zaidi za JavaScript, utakutana na **makosa**. Hizi ni
 Ikiwa hatutashughulikia hitilafu hizi ipasavyo, programu yetu inaweza kuacha kufanya kazi au kutenda kwa njia zisizotabirika. JavaScript hutoa zana za kugundua na kudhibiti hitilafu hizi ili tuweze kuzishughulikia kwa uzuri zaidi.
 
 
-### Hitilafu ya kawaida: kufikia thamani kwenye `undefined`
+### Hitilafu ya kawaida: kufikia thamani kwenye undefined
 
 
 Hapa kuna hali ya kawaida ambayo husababisha hitilafu:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 Hiyo ni JavaScript inayokuambia: "Haya, ulijaribu kupata mali ya `jina` kutoka kwa kitu ambacho `hakijafafanuliwa`, na hiyo haileti maana." Na kama unavyoona, aina hii ya hitilafu inapotokea, programu huacha kufanya kazi isipokuwa kama umeandika msimbo maalum wa kuikamata na kuishughulikia.
 
 
-### `kutupa` kosa
+### kutupa kosa
 
 
 Wakati mwingine unataka wewe mwenyewe **kuleta hitilafu** katika msimbo wako. Katika hali hiyo, unatumia neno kuu la `kutupa`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Simu ya pili husababisha hitilafu kwa sababu kugawanya kwa sifuri hairuhusiwi katika mfano huu.
 
 
-### Kunasa hitilafu kwa `jaribu...kamata`
+### Kunasa hitilafu kwa jaribu...kamata
 
 
 Ikiwa hutaki programu yako ivunjike hitilafu inapotokea, unaweza kupata hitilafu kwa kutumia kizuizi cha `jaribu...kamata`. Hii ni muhimu unapotaka programu yako **iendelee** hata kama kuna kitu kitashindikana.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Kizuizi cha `mwisho`
+### Kizuizi cha mwisho
 
 
 Unaweza pia kuongeza kizuizi cha `hatimaye`. Huu ni msimbo ambao **huendesha kila wakati**, iwe kulikuwa na hitilafu au la.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Sura hii inaonyesha baadhi ya mitego ya kawaida katika JavaScript, na jinsi ya kuziepuka.
 
 
-### `var` na Assignment bila tamko
+### var na Assignment bila tamko
 
 
 Katika msimbo wa zamani wa JavaScript, anuwai mara nyingi zilitangazwa kwa kutumia neno kuu la `var`. Tofauti na `let` na `const`, ambazo tayari umejifunza kuzihusu, `var` inaweza kuwa na tabia za kutatanisha.
@@ -2650,7 +2650,7 @@ Katika mifano hii, JavaScript inajaribu kukisia ulichomaanisha. Wakati mwingine 
 Kufahamu mfumo dhaifu wa kuandika wa JavaScript ni muhimu. Mambo yanapoanza kutenda kwa njia ya ajabu, inaweza kuwa ni kwa sababu ya shurutisho la aina isiyotarajiwa.
 
 
-### `"tumia kali"`
+### "tumia kali"
 
 
 Unaweza kuwezesha hali ngumu zaidi ambayo inabadilisha baadhi ya makosa kimya kuwa makosa halisi, na kukuzuia kutumia baadhi ya vipengele hatari zaidi vya lugha.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Thamani chaguo-msingi `"rafiki"` inatumika wakati hakuna kitu kinachopitishwa.
 
 
-### Sambaza vigezo (`...`)
+### Sambaza vigezo (...)
 
 
 Je, ikiwa utendaji wako unachukua idadi inayoweza kubadilika ya hoja?
@@ -3030,7 +3030,7 @@ Kitendakazi cha `makeGreeter` ni chaguo la kukokotoa ambalo huunda vitendaji vin
 Aina hii ya muundo ina nguvu sana, kwani hukuruhusu kuacha "mashimo" katika kazi zako ambazo unaweza kujaza baadaye na tabia unayohitaji.
 
 
-### `ramani()`, `chujio()`, `punguza()`
+### ramani(), chujio(), punguza()
 
 
 JavaScript inakupa baadhi ya mbinu muhimu zilizojengewa ndani za kutumia na safu.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Sifa za kibinafsi zinafaa unapotaka kuzuia mabadiliko yasiyotarajiwa.
 
 
-### Sifa za `tuli`
+### Sifa za tuli
 
 
 Wakati mwingine, unataka mali iwe ya darasa lenyewe, sio kwa kila kitu unachounda kutoka kwa darasa hilo. Hiyo ndiyo maana ya `static`. Mali `tuli` iko kwenye darasa na vitu vyote vya darasa hilo vitairejelea.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Hii ni muhimu kwa kuhifadhi data iliyoshirikiwa na mbinu zinazotumika kwa kundi zima la vitu, sio moja tu.
 
 
-### `pata` na `weka`
+### pata na weka
 
 
 Katika JavaScript, `get` na `set` hukuwezesha kutengeneza sifa ambazo *zinaonekana* kama vigeu vya kawaida, lakini kwa kweli endesha msimbo maalum chinichini.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Hii inaitwa ** mali iliyohesabiwa **. Thamani iliyo ndani ya mabano ya mraba inatathminiwa, na matokeo yake hutumiwa kama ufunguo.
 
 
-### Aina ya `Alama`
+### Aina ya Alama
 
 
 Kando na mifuatano, JavaScript pia hukuruhusu kutumia aina maalum inayoitwa `Alama` kama kitufe cha kitu.
@@ -3421,7 +3421,7 @@ Kama unavyoona, mali asili ya `jina` imehifadhiwa kwa njia hii. Hii inaweza kuwa
 JavaScript hutupatia baadhi ya vitu muhimu vilivyojengewa ndani ambavyo hutusaidia kufanya mambo kama vile utatuzi na uendeshaji wa hesabu.
 
 
-### Mbinu Nyingine za `console`
+### Mbinu Nyingine za console
 
 
 Tayari umeona `console.log`, ambayo huchapisha thamani kwenye skrini.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Inafaa kwa majaribio rahisi ya utendakazi.
 
 
-### Kitu cha `Hesabu`
+### Kitu cha Hesabu
 
 
 JavaScript hukupa kitu cha `Hesabu` chenye mbinu muhimu za kufanya hesabu.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Ramani ni nzuri kwa kudhibiti mikusanyiko mikubwa ya thamani, kwa sababu kufikia thamani kwenye ramani kubwa huwapa utendaji bora zaidi kuliko kwenye kitu kikubwa.
 
 
-### `Weka`
+### Weka
 
 
 `Kuweka` ni mkusanyiko wa **thamani pekee** (hakuna funguo), ambapo kila thamani lazima iwe **kipekee**. Hiyo ina maana:
@@ -3770,7 +3770,7 @@ Vitu vingi katika JavaScript ambavyo unaweza kuvifunga (kama vile safu, mifuatan
 **kirudia** ni kifaa maalum katika JavaScript ambacho hukusaidia kupitia orodha ya vipengee **kimoja kwa wakati mmoja**.
 
 
-### Virudishi vya `Kitu`
+### Virudishi vya Kitu
 
 
 Tofauti na safu au ramani, vitu vya kawaida **haviwezi kutekelezeka** kwa `for...of`. Ukijaribu hii:
@@ -3892,7 +3892,7 @@ Hata ingawa vitu haviwezi kutekelezeka moja kwa moja, njia hizi hukupa ufikiaji 
 Lakini warudiaji hufanyaje kazi?
 
 
-### `Alama.iterator`
+### Alama.iterator
 
 
 Siri iliyo nyuma ya vielezi vyote ni **alama** maalum inayoitwa `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Kila simu kwa `.next()` inakupa thamani inayofuata. Ikikamilika, inarudi:
 ```
 
 
-### `ijayo()`
+### ijayo()
 
 
 Mbinu ya `.next()` inatumika kupata kipengee kinachofuata kutoka kwa mlolongo.
@@ -4046,7 +4046,7 @@ Hiki ndicho kinachotokea:
 Sasa darasa letu la `Msururu` hufanya kazi kama safu, na tunaweza kulitumia katika kitanzi chochote kinachotarajia kujirudia.
 
 
-### Vitendaji vya jenereta na `mavuno`
+### Vitendaji vya jenereta na mavuno
 
 
 Ili kurahisisha kuunda virudishio, JavaScript hukupa **vitendaji vya jenereta**, kwa kutumia neno kuu la `function*` (ni `function` yenye `*` mwishoni) na neno kuu la `yield`.
@@ -4105,7 +4105,7 @@ Hadi sasa, msimbo wetu umekuwa **sawazisha**: inaendesha mstari mmoja kwa wakati
 Katika sura hii tutaleta dhana mpya: **sarafu**. Inaturuhusu kudhibiti mpangilio ambao mambo hufanywa. Hii ni muhimu wakati wa kushughulika na vitu kama vipima muda, ingizo la mtumiaji, au kusoma faili kutoka kwa diski. JavaScript inatoa zana tofauti za kufanya concurrency.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Chaguo za kukokotoa `setTimeout` hukuwezesha **kuendesha kitendakazi baadaye**, baada ya muda kupita.
@@ -4253,7 +4253,7 @@ Ndani yake, tunaipa kazi na vigezo viwili:
 Katika mfano hapo juu, tunasuluhisha mara moja kwa ujumbe `"Ilifanya kazi!"`.
 
 
-### `.kisha()`
+### .kisha()
 
 
 Kufanya kitu **baada ya** ahadi kufanywa, tunatumia `.kisha()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `kataa()`
+### kataa()
 
 
 Wacha tuunde ahadi ambayo **inashindwa**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Uendeshaji wa minyororo kwa kutumia `Promise`s
+### Uendeshaji wa minyororo kwa kutumia Promises
 
 
 
@@ -4551,7 +4551,7 @@ Wacha tuchunguze kile ambacho hii inafanya:
 Kila `.basi()` husubiri hatua kabla ya kumaliza. Ili tuweze kujenga **msururu wa vitendo** bila kuatamia. Hii inafanya msimbo kusomeka zaidi na rahisi kutatua.
 
 
-## Sambamba na `async`/` await`
+## Sambamba na async/ await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Tuliona jinsi minyororo ya `Promise` inavyotusaidia kuepuka kuzimu ya kurudi nyu
 Hapo ndipo `async` na `ait` huingia. Zinaturuhusu tuandike msimbo usiolingana **unaoonekana kama msimbo unaosawazishwa**, ambao hurahisisha kuelewa.
 
 
-### `async` ni nini?
+### async ni nini?
 
 
 Unapoandika neno kuu `async` kabla ya chaguo za kukokotoa, JavaScript hufunga kiotomatiki thamani ya kurejesha kipengele cha kukokotoa kwenye Ahadi.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Au unaweza kutumia `kusubiri`...
 
 
-### `kusubiri` ni nini?
+### kusubiri ni nini?
 
 
 Neno kuu `kusubiri` linaambia JavaScript: "subiri hadi Ahadi hii ikamilike, kisha unipe matokeo."
@@ -4638,7 +4638,7 @@ Sasa tunaweza kutumia matokeo kana kwamba ni thamani ya kawaida.
 Hebu tufanye jambo la manufaa zaidi sasa.
 
 
-### Inaiga ucheleweshaji kwa `await`
+### Inaiga ucheleweshaji kwa await
 
 
 Tutaunda kitendakazi rahisi cha `kusubiri` ambacho huchukua wingi wa milisekunde kama hoja na kusuluhisha tu baada ya milisekunde nyingi, bila kufanya chochote kingine:
@@ -4881,7 +4881,7 @@ Async iterators ni muhimu wakati:
 Kwa mfano, ikiwa ungependa kupakia ujumbe kutoka kwa seva ya gumzo moja baada ya nyingine, au kupakua faili kubwa katika vipande, viambatanisho vya async hukupa njia ya kuandika kitanzi cha `for` kinachofanya kazi na data iliyochelewa.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Tunaweza pia kutumia viboreshaji vya async katika madarasa maalum.
@@ -5287,7 +5287,7 @@ NodeJS inaturuhusu, kati ya mambo mengine, kujenga CLIs (Violesura vya Mstari wa
 Kwa hilo tunahitaji njia ya kupokea hoja za mstari wa amri, ambayo katika Node hufanywa kwa kutumia kitu cha `process` kilichojengwa.
 
 
-### `mchakato`
+### mchakato
 
 
 NodeJS hutoa kitu maalum kinachoitwa `mchakato` ambacho kinawakilisha programu inayoendesha sasa.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Hii huchapisha jukwaa la mfumo wa uendeshaji, kama vile `win32`, `linux`, au `darwin` (Mac).
 
 
-### `mchakato.argv`
+### mchakato.argv
 
 
 Unapoendesha programu ya NodeJS kutoka kwa terminal, unaweza kupitisha maneno ya ziada (hoja) baada ya jina la hati. Hizi zimehifadhiwa katika `process.argv`.
@@ -5493,7 +5493,7 @@ Sio lazima usakinishe moduli hizi zilizojengwa, zinakuja na NodeJS. Zinaunda "ma
 Sura zinazofuata zitakuonyesha baadhi ya mifano muhimu ya matumizi yao.
 
 
-## Moduli ya `fs`
+## Moduli ya fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `kifurushi.json`
+### kifurushi.json
 
 
 Faili ya `package.json` ni faili ya JSON inayohifadhi metadata kuhusu mradi wako.
@@ -5960,7 +5960,7 @@ NPM ilifanya nini?
 `Package-lock.json` ni nini?
 
 
-### `kifurushi-kufuli.json`
+### kifurushi-kufuli.json
 
 
 Faili hii imeundwa kiotomatiki na NPM.
@@ -6023,7 +6023,7 @@ NodeJS hutumiwa mara nyingi kama lugha ya nyuma: unaweza kubadilisha hati yako k
 Katika sura hii tutaanzisha vipengele vya msingi vya mtandao ambavyo vitakuruhusu kufanya hivyo.
 
 
-### `chota()`
+### chota()
 
 
 Ikiwa unataka programu yako kupakua data kutoka kwa tovuti au API, unahitaji kutuma ombi la **HTTP**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Kwa hivyo hakikisha kuwa kamba imeumbizwa vizuri.
 
 
-### Seva ya `http`
+### Seva ya http
 
 
 NodeJS hukuruhusu kuunda seva ya wavuti bila kusakinisha kitu kingine chochote.

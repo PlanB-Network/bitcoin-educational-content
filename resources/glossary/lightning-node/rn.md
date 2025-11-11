@@ -1,5 +1,5 @@
 ---
-ijambo: LIGHTNING NODE
+term: LIGHTNING NODE
 
 ---
 

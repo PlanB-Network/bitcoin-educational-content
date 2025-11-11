@@ -1,5 +1,5 @@
 ---
-ijambo: NO2X
+term: NO2X
 
 ---
 

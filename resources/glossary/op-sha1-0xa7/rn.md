@@ -1,5 +1,5 @@
 ---
-ijambo: OP_SHA1 (0XA7)
+term: OP_SHA1 (0XA7)
 
 ---
 

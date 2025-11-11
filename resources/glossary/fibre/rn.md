@@ -1,5 +1,5 @@
 ---
-ijambo: FIBRE
+term: FIBRE
 
 ---
 

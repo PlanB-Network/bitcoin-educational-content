@@ -1,5 +1,5 @@
 ---
-ijambo: OP_NUMEQUAL (0X9C)
+term: OP_NUMEQUAL (0X9C)
 
 ---
 

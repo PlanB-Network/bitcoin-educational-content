@@ -1,5 +1,5 @@
 ---
-ijambo: OP_WITHIN (0XA5)
+term: OP_WITHIN (0XA5)
 
 ---
 

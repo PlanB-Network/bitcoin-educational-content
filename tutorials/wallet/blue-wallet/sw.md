@@ -15,7 +15,6 @@ Katika somo hili tutaangalia Blue Wallet, Bitcoin Wallet rahisi lakini yenye ufa
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

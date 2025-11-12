@@ -1,0 +1,9 @@
+question: O que é que o valor MTU representa numa rede?
+answer: O tamanho máximo do quadro que pode ser transmitido sem fragmentação
+wrong_answers:
+  - A capacidade máxima de armazenamento de um encaminhador sem fragmentação
+  - O número máximo de anfitriões numa rede sem fragmentação
+  - O comprimento mínimo do cabeçalho IP sem fragmentação
+explanation: |
+  O MTU (Maximum Transmission Unit) define o tamanho máximo de um quadro que pode ser transmitido num segmento sem necessidade de fragmentação.
+reviewed: false

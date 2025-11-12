@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru yo gushiramwo RGB muri Lightning Network?
+answer: Kwimurira umutungo wa RGB biciye ku mihora ya off-chain
+wrong_answers:
+  - Gushitsa amasezerano ya RGB ataco akora kuri Bitcoin Blockchain.
+  - Gusubirira ubucuruzi busanzwe bwa Lightning n'amasezerano y'ubwenge ya RGB
+  - Yongera ubushobozi bw'imirongo mu kwongerako UTXO nshasha
+explanation: |
+  RGB yinjijwe muri Lightning Network iremeza ko itunga rya RGB ryimurirwa biciye mu mpinduka za Leta zishizwe mu bikorwa vya Commitment, mu gihe off-chain isigaye.
+reviewed: false

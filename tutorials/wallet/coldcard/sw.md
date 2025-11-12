@@ -1,5 +1,5 @@
 ---
-name: Kadi ya Cold
+name: COLDCARD Mk
 
 description: Kuunda, kuhifadhi nakala na kutumia ufunguo wa faragha wa Bitcoin na kifaa cha Coldcard na Bitcoin Core
 ---
@@ -110,8 +110,8 @@ Rejelea miongozo yetu ya usakinishaji na usanidi wa Bitcoin Core:
 
 
 
-- Kuendesha nodi yako mwenyewe na Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Inasanidi Tor kwa nodi ya Msingi ya Bitcoin:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Kuendesha nodi yako mwenyewe na Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Inasanidi Tor kwa nodi ya Msingi ya Bitcoin:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 Kwanza, weka kadi ndogo ya SD kwenye Coldcard, kisha hamisha Wallet ya Bitcoin Core kwa kufuata hatua hizi: Advanced/Tools > Hamisha Wallet > Bitcoin Core. Faili mbili zitaandikwa kwa kadi ndogo ya SD: Bitcoin-core.sig & Bitcoin-core.txt. Ingiza kadi ndogo ya SD kwenye kompyuta ambapo Bitcoin Core imesakinishwa, na ufungue faili ya .txt. Utaona mstari "Kwa Wallet na alama za vidole kuu." Thibitisha kuwa XFP yenye herufi nane inalingana na uliyobainisha wakati wa kuunda ufunguo wako wa faragha.'

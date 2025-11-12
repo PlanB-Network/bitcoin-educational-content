@@ -1,13 +1,9 @@
-question: Koji je put evolucije današnje valute?
-answer: Sirov kamen -> Novčić -> Novčanica -> Bankovna kartica -> Blockchain -> Lightning mreža
+question: Šta znači fiat novac?
+answer: Fiat novac je valuta koja ima vrednost zato što je vlada održava i ljudi veruju u njenu vrednost, umesto da je podržana fizičkom robom poput zlata.
 wrong_answers:
-  - Sirov kamen -> Novčić -> Novčanica -> Blockchain -> Lightning Network
-  - Sirov kamen -> Novčić -> Novčanica -> Bankovna kartica -> Lightning Network
-  - Neobrađeni kamen -> Novčić -> Bankovna kartica -> Novčanica -> Blockchain -> Lightning mreža
+  - Fiat novać je valuta koja je podržana fizičkom robom, kao što je zlato ili srebro, što znači da je njena vrednost direktno vezana za vrednost te robe.
+  - Fiat novac je vrsta kriptovalute koja operiše na decentralizovanoj mreži, omogućavajući transakcije između korisnika bez potrebe za centralnim autoritetom.
+  - Fiat novac je valuta koja nema intrinzičnu vrednost i ne može se koristiti za transakcije, što je čini suštinski bezvrednom u ekonomiji.
 explanation: |
-  Valuta je tehnologija koja se razvijala tokom vremena,
-  počela je kao sirovo kamenje, zatim se promenila u
-  metalne kovanice, pa u novčanice, bankovne kartice, i
-  na kraju u peer-to-peer mreže uz korišćenje
-  Bitkoin Blockchain-a i Lightning mreže.
+  Fiat novać je uspostavljena kao zakonsko sredstvo plaćanja dekretom vlade, i njena vrednost ne potiče od bilo koje fizičke robe.
 reviewed: true

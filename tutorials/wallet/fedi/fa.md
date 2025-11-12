@@ -1,5 +1,5 @@
 ---
-name: فدی
+name: Fedi
 description: Bitcoin فوق‌العاده Wallet شما با قدرت جوامع
 ---
 
@@ -33,23 +33,23 @@ description: Bitcoin فوق‌العاده Wallet شما با قدرت جوام�
 
 
 
-- Custodials**: شما تصمیم می‌گیرید که به یک نهاد خارجی، توسعه‌دهنده پورتفولیو، اعتماد کنید که کلمات بازیابی پورتفولیوی شما را برای شما نگه دارد. شما نه دسترسی دارید و نه توانایی صادرات پورتفولیوی Bitcoin خود را دارید.
+- **Custodials**: شما تصمیم می‌گیرید که به یک نهاد خارجی، توسعه‌دهنده پورتفولیو، اعتماد کنید که کلمات بازیابی پورتفولیوی شما را برای شما نگه دارد. شما نه دسترسی دارید و نه توانایی صادرات پورتفولیوی Bitcoin خود را دارید.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- خود نگهدارها** : برنامه به محض ایجاد Wallet شما، دسترسی به کلمات بازیابی را فراهم می‌کند. بنابراین می‌توانید بیت‌کوین‌های خود را به Wallet که برای شما مناسب‌تر است، به‌راحتی صادر کنید.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **خود نگهدارها**: برنامه به محض ایجاد Wallet شما، دسترسی به کلمات بازیابی را فراهم می‌کند. بنابراین می‌توانید بیت‌کوین‌های خود را به Wallet که برای شما مناسب‌تر است، به‌راحتی صادر کنید.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 در عوض، Fedi Wallet رویکرد فدراسیون را ارائه می‌دهد که به شما اجازه می‌دهد به گروهی از افرادی که به آن‌ها اعتماد دارید برای مدیریت کلیدهای پرتفوی خود بپیوندید. شما می‌توانید به یک فدراسیون محبوب که توسط Fedi پیشنهاد شده بپیوندید، یا با اسکن یک کد QR یا وارد کردن کد دعوت فدراسیون، به فدراسیون محلی در جامعه خود بپیوندید.
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 برای هر فدراسیونی که به آن می‌پیوندید، فدی بیت‌کوین‌های شما را با ایجاد کیف‌پول‌های جداگانه متمایز می‌کند.
 
@@ -103,7 +103,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- دریافت بیت‌کوین در Fedi**: در صفحه اصلی، فدراسیونی را که می‌خواهید برای دریافت بیت‌کوین استفاده کنید انتخاب کنید، سپس روی دکمه **دریافت** کلیک کنید تا یک Lightning Invoice با مبلغی که می‌خواهید دریافت کنید ایجاد شود.
+- **دریافت بیت‌کوین در Fedi**: در صفحه اصلی، فدراسیونی را که می‌خواهید برای دریافت بیت‌کوین استفاده کنید انتخاب کنید، سپس روی دکمه **دریافت** کلیک کنید تا یک Lightning Invoice با مبلغی که می‌خواهید دریافت کنید ایجاد شود.
 
 
 
@@ -113,7 +113,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- ارسال بیت‌کوین**: در صفحه اصلی، روی دکمه **ارسال** کلیک کنید تا بیت‌کوین‌ها را به یک Lightning Address ارسال کنید، یک Invoice را پرداخت کنید یا یک پرداخت آفلاین انجام دهید.
+- **ارسال بیت‌کوین**: در صفحه اصلی، روی دکمه **ارسال** کلیک کنید تا بیت‌کوین‌ها را به یک Lightning Address ارسال کنید، یک Invoice را پرداخت کنید یا یک پرداخت آفلاین انجام دهید.
 
 
 
@@ -141,7 +141,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-پرداخت‌های آفلاین عمدتاً با استفاده از [پول الکترونیکی](https://planb.network/resources/glossary/ecash-david-chaum) انجام می‌شوند. تراکنش در گوشی شما ذخیره می‌شود و به محض دسترسی به اینترنت، تأیید تراکنش به صورت خودکار انجام می‌شود. همچنین می‌توانید با کلیک بر روی **تأیید تراکنش** پرداخت را به صورت دستی تأیید کنید.
+پرداخت‌های آفلاین عمدتاً با استفاده از [پول الکترونیکی](https://planb.academy/resources/glossary/ecash-david-chaum) انجام می‌شوند. تراکنش در گوشی شما ذخیره می‌شود و به محض دسترسی به اینترنت، تأیید تراکنش به صورت خودکار انجام می‌شود. همچنین می‌توانید با کلیک بر روی **تأیید تراکنش** پرداخت را به صورت دستی تأیید کنید.
 
 
 
@@ -191,7 +191,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

@@ -1,0 +1,9 @@
+question: Mikä on julkisen IPv4 Address:n ja yksityisen IPv4 Address:n tärkein ero?
+answer: Julkinen Address on ainutlaatuinen ja reititettävissä Internetissä
+wrong_answers:
+  - Yksityinen Address on ainutlaatuinen ja reititettävissä Internetissä
+  - DHCP määrittää aina julkisen Address:n
+  - DHCP määrittää aina yksityisen Address:n
+explanation: |
+  Julkinen IPv4 Address on maailmanlaajuisesti ainutlaatuinen ja reititettävissä Internetissä, kun taas yksityinen Address on voimassa vain paikallisverkossa.
+reviewed: false

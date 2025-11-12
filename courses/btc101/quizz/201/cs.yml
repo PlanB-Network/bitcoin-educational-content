@@ -1,12 +1,9 @@
-question: Jaký je účel regulací KYC?
-answer: Boj proti financování terorismu, daňovým únikům a praní špinavých peněz.
+question: Jaký je jeden z možných důsledků nedodržování předpisů vaší země při nákupu Bitcoinu?
+answer: Můžete se vystavit riziku.
 wrong_answers:
-  - Zvýšit cenu Bitcoinu a způsobit, že uživatel zaplatí více daní.
-  - Kontrolovat nabídku Bitcoinu.
-  - Zabránit lidem v nákupu Bitcoinu.
+  - Můžete zvýšit cenu Bitcoinu.
+  - Můžete ovládat nabídku Bitcoinu.
+  - Můžete zabránit ostatním v nákupu Bitcoinu.
 explanation: |
-  Text kurzu vysvětluje, že regulace Know Your Customer (KYC)
-  vyžadují, aby uživatelé poskytli identifikaci k
-  boji proti financování terorismu, daňovým únikům a praní
-  špinavých peněz.
+  Text kurzu uvádí, že nedodržování předpisů vaší země při nákupu Bitcoinu vás může vystavit riziku.
 reviewed: true

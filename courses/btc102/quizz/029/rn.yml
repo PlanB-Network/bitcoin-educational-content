@@ -1,0 +1,9 @@
+question: Ni uwuhe mukinyi mukuru akora ASICs za Bitcoin Mining?
+answer: Bit nyamukuru
+wrong_answers:
+  - Trezor
+  - Ledger.
+  - Icumbi USA
+explanation: |
+  Bitmain ni umwe mu barongoye abahinguzi b'ibikoresho vy'ubuhinga bwa Bitcoin Mining.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken TCP-funktion optimerar genomströmningen genom att anpassa antalet segment som skickas utan omedelbar bekräftelse?
+answer: Det glidande fönstret
+wrong_answers:
+  - Dynamisk fragmentering
+  - Paketförmedling
+  - Statisk routning
+explanation: |
+  "Sliding window" gör det möjligt att skicka flera segment i följd och ändrar sedan intervallet med varje bekräftelse för att optimera flödet.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Mis on kaevurite roll Bitcoin'i võrgustikus?
-answer: Kaevurid on hädavajalikud uute bitcoinide loomiseks ja Bitcoin'i võrgustiku turvalisuse tagamiseks.
+question: Mis on selle Bitcoini kursuse eesmärk?
+answer: Arutada Bitcoini rahalisi aspekte, kuidas seda kasutada ja selle tulevikku.
 wrong_answers:
-  - Kaevurid vastutavad Bitcoin'i hinna reguleerimise eest.
-  - Kaevurid vastutavad Bitcoin'i rahakottide loomise eest.
-  - Kaevurid vastutavad Bitcoin'i protokolli kontrollimise eest.
-explanation: >-
-  Kaevurid mängivad Bitcoin'i võrgustikus kriitilist rolli, kuna nad vastutavad uute bitcoinide loomise ja Bitcoin'i võrgustiku turvalisuse tagamise eest, tarbides elektrienergiat tehingute ploki hashimiseks.
+  - Arutada, kuidas Bitcoini kaevandada.
+  - Arutada, kuidas Bitcoini reguleerida.
+  - Arutada, kuidas luua uut Bitcoini protokolli.
+explanation: |
+  Selle Bitcoini kursuse eesmärk on arutada Bitcoini rahalisi aspekte,
+  sealhulgas kuidas osta ja müüa bitcoine, neid digitaalsetes rahakottides turvaliselt
+  hoida ja kasutada tehinguteks. Samuti on eesmärk uurida Bitcoini tulevikku.
 reviewed: true

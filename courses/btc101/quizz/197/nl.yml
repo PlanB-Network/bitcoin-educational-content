@@ -1,11 +1,11 @@
-question: Wat is een van de risico's van het kopen van Bitcoin?
-answer: De prijs kan dalen tot 0.
+question: Wat is een van de dingen die je moet overwegen bij het kiezen van een DCA-platform?
+answer: Beschikbaarheid in jouw land.
 wrong_answers:
-  - Het kan gemakkelijk gestolen worden.
-  - Het kan worden gedupliceerd.
-  - Het kan fysiek verloren gaan.
+  - De kleur van het logo van het platform.
+  - Het aantal gebruikers op het platform.
+  - De leeftijd van het platform.
 explanation: |
-  De cursustekst vermeldt dat Bitcoin een zeer volatiel
-  financieel actief is en dat de prijs tot 0 kan dalen, wat een van de
-  van de risico's van het kopen van Bitcoin.
+  Deze cursus tekst vermeldt dat bij het kiezen van een DCA
+  platform, de juiste keuze meer zal afhangen van de
+  beschikbaarheid in jouw land.
 reviewed: true

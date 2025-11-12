@@ -1,9 +1,11 @@
-question: Mille kaudu esindatakse tihti privaatvõtit Bitcoin'i rahakotis?
-answer: 12 või 24 sõnast koosnev nimekiri
+question: Mis on bitcoini pärandiplaani loomise eesmärk?
+answer: Tagada, et teie bitcoinid oleksid pärast teie surma korrektselt hallatud
 wrong_answers:
-  - 12 või 48 sõnast koosnev nimekiri
-  - 32 sõnast koosnev nimekiri
-  - 64 sõnast koosnev nimekiri
+  - Vältida oma bitcoinidele maksude tasumist
+  - Suurendada oma bitcoinide väärtust
+  - Hoida ära oma bitcoinide varguse
 explanation: |
-  Bitcoin'i rahakotis esindatakse privaatvõtit tihti 12 või 24 sõnast koosneva nimekirjana, mida tuntakse ka kui seemne või mnemoonilise fraasi järgi.
+  Pärandiplaan tagab, et teie bitcoinid oleksid pärast teie surma korrektselt hallatud.
+  See võib sisaldada käsitsi kirjutatud kirja, milles on detailid teie varade, nende
+  juurdepääsumeetodite ja usaldusväärsete isikute kontaktinfo kohta, keda tuleks kontaktida.
 reviewed: true

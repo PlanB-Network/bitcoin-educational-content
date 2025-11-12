@@ -1,12 +1,14 @@
-question: Je, b-pesa ya Wei Dai ni nini?
-answer: Wazo la sarafu ya kidijitali isiyojulikana ambapo ugunduzi wa ulaghai ulitekelezwa na jumuiya ya wakaguzi badala ya mamlaka kuu.
+question: Je, pesa ina jukumu gani kama chombo cha mawasiliano?
+answer: Inaruhusu mawasiliano ya thamani katika nafasi na wakati na bila hitaji la kumwamini mwenza.
 wrong_answers:
-  - Sarafu ya kidijitali ambayo ilitumika sana kabla ya Bitcoin na ilidhibitiwa na kundi la cypherpunks.
-  - Aina ya pesa ya kidijitali ambayo iliundwa na CIA na kutumiwa na jeshi.
-  - Sarafu ya kidijitali ambayo iliundwa na Wei Dai kama mshindani wa Bitcoin ili kukuzwa zaidi.
+  - Inaruhusu mawasiliano ya thamani kwenye nafasi pekee na bila hitaji la kumwamini mwenza.
+  - Huruhusu mawasiliano ya thamani kwa muda wote pekee na bila hitaji la kumwamini mwenza.
+  - Inaruhusu mawasiliano ya thamani katika nafasi na wakati na kwa hitaji la kumwamini mwenza.
 explanation: |
-  B-pesa ya Wei Dai ilikuwa wazo la dijiti isiyojulikana
-  sarafu isiyo na huluki kuu ambayo ilivutia sana
-  uundaji wa Bitcoin. Kwa kweli, imetajwa katika Bitcoin
-  karatasi nyeupe.
+  Pesa kama chombo cha mawasiliano huruhusu mawasiliano kote
+  nafasi na wakati, tunapobadilisha wakati na nguvu zetu kuwa a
+  mali ambayo inaweza kutumika tena katika siku zijazo bila hatari ya
+  kushuka kwa thamani. Pia inaruhusu mawasiliano katika ulimwengu wote
+  lugha ya kawaida, kuwezesha wageni wawili kwa Exchange, biashara,
+  na kukubaliana juu ya thamani ya vitu.
 reviewed: true

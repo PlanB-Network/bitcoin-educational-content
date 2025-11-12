@@ -1,0 +1,9 @@
+question: IPv6로의 마이그레이션이 필요한 이유는 무엇인가요?
+answer: IPv4 Address 고갈
+wrong_answers:
+  - IPv4에서 NAT 프로토콜 실패
+  - 서브넷 마스크 비호환성
+  - DHCP 지원 종료
+explanation: |
+  IPv4 주소의 고갈로 인해 훨씬 더 넓은 Address 공간을 제공하는 IPv6로 전환하게 되었습니다.
+reviewed: false

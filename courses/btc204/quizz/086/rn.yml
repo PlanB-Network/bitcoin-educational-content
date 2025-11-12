@@ -1,0 +1,10 @@
+question: Muri izo protocoles 3, ni iyihe itari ugushirwa mu ngiro kwa CoinJoin?
+answer: Isesengura ry’uruzitiro.
+wrong_answers:
+  - Injira mw'Isoko.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis ntabwo ari ugushirwa mu ngiro kwa CoinJoin na gato, kuko ari ishirahamwe ry’isesengura rya Blockchain.
+  
+reviewed: false

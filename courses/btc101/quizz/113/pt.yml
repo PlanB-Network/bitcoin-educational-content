@@ -1,12 +1,11 @@
-question: O que impede todos de usarem a mesma carteira Bitcoin?
-answer: Diferentes indivíduos precisam de diferentes casos de uso.
+question: Quando foi a primeira vez que o Bitcoin foi usado para comprar bens físicos?
+answer: Quando Laszlo Hanyecz comprou 2 pizzas por 10.000 BTC.
 wrong_answers:
-  - É caro usar uma Carteira Bitcoin.
-  - É ilegal usar uma Carteira Bitcoin.
-  - As pessoas nunca concordarão com o nome de tal carteira.
+  - Quando Hal Finney comprou um carro por 100.000 BTC.
+  - Quando Satoshi Nakamoto comprou uma casa por 1.000.000.000 BTC.
+  - Nenhuma das outras opções.
 explanation: |
-  Enquanto uma pessoa pode priorizar a segurança, outra pode
-  valorizar a facilidade de uso ou recursos específicos. Portanto, uma
-  única Carteira Bitcoin pode não atender às necessidades de todos,
-  tornando necessário que existam múltiplas opções de carteiras.
+  A primeira vez que o Bitcoin foi usado para comprar bens
+  físicos foi quando Laszlo Hanyecz comprou 2 pizzas por 10.000
+  BTC, em 22/05/2010, data que agora é conhecida como Dia da Pizza.
 reviewed: true

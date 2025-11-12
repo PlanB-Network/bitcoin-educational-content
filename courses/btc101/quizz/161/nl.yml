@@ -1,8 +1,8 @@
-question: Wat is de grootste zorg met betrekking tot de milieukosten van Bitcoin Mining?
-answer: Het energieverbruik.
+question: Hoe kan Bitcoin helpen bij de ecologische transitie?
+answer: Het bevordert het gebruik van Green energie.
 wrong_answers:
-  - De productie van ASIC's.
-  - Het recyclen van ASIC's.
-  - De kosten van elektriciteit.
+  - Het vermindert de productie van goederen.
+  - Het reguleert het verbruik van hulpbronnen.
+  - Het beperkt alleen de uitstoot van broeikasgassen.
 explanation: >-
 reviewed: true

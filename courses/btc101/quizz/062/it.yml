@@ -1,9 +1,12 @@
-question: Qual è il meccanismo che garantisce l'aggiunta di un nuovo blocco alla blockchain ogni dieci minuti?
-answer: Aggiustamento della difficoltà.
+question: Qual era il numero stimato di bitcoin in circolazione dopo il primo halving?
+answer: 10.500.000 BTC.
 wrong_answers:
-  - Aggiustamento della velocità.
-  - Aggiustamento del tempo.
-  - Aggiustamento del blocco.
+  - 5.250.000 BTC.
+  - 15.750.000 BTC.
+  - 21.000.000 BTC.
 explanation: |
-  Il meccanismo che garantisce l'aggiunta di un nuovo blocco alla blockchain ogni dieci minuti è l'aggiustamento della difficoltà. Questa avviene ogni 2016 blocchi, o circa ogni due settimane.
-reviewed: vero
+  Dopo il primo halving, che si è verificato al blocco numero
+  210.000, il numero stimato di bitcoin in circolazione
+  era di 10.500.000 BTC, che rappresenta la metà del numero totale di
+  bitcoin che saranno in circolazione.
+reviewed: true

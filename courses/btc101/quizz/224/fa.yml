@@ -1,8 +1,9 @@
-question: Lightning Network چه چیزی را امکان‌پذیر می‌کند؟
-answer: تراکنش‌های Bitcoin فوری و کم‌هزینه.
+question: میانگین فاصله زمانی بین ایجاد دو بلوک در پروتکل Bitcoin چقدر است؟
+answer: ۱۰ دقیقه.
 wrong_answers:
-  - تراکنش‌های فوری و پرهزینه Bitcoin.
-  - تراکنش‌های Bitcoin با تأخیر و کم‌هزینه.
-  - تراکنش‌های Bitcoin با تأخیر و هزینه بالا.
-explanation: >-
+  - ۵ دقیقه.
+  - ۱۵ دقیقه.
+  - ۲۰ دقیقه.
+explanation: |
+  میانگین فاصله زمانی بین ایجاد دو بلوک در پروتکل Bitcoin برابر با 10 دقیقه است.
 reviewed: true

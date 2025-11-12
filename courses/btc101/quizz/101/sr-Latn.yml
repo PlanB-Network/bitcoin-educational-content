@@ -1,11 +1,11 @@
-question: Koji je standardni metod za vraćanje vašeg novčanika?
-answer: Unos vaše Mnemonic fraze u bilo koji softver novčanika.
+question: Koja je svrha Bitkoin novčanika?
+answer: Da biste sačuvali privatne ključeve radi transakcija bitkoinima.
 wrong_answers:
-  - Čuvanje vaše Mnemonic fraze u digitalnom fajlu.
-  - Pisanje vaše Mnemonic fraze na beloj tabli.
-  - Deljenje vaše Mnemonic fraze sa pouzdanim prijateljem.
+  - Da koristite resurse uređaja za rudarenje bitkoina.
+  - Da kupite bitkoine putem javnog ključa.
+  - Da se bitkoini čuvaju na uređaju.
 explanation: |
-  Standardna metoda za pravljenje rezervne kopije privatnog ključa u
-  Bitkoin novčaniku je unosom vaše Mnemonic fraze u bilo koji
-  softver novčanika. Ovo vam omogućava da povratite vaš novčanik.
-reviewed: false
+  Bitkoin novčanici su vrsta softvera koji se koristi za
+  čuvanje privatnih ključeva koji vam omogućavaju da
+  obavljate transakcije sa vašim bitkoinima.
+reviewed: true

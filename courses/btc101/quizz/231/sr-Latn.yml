@@ -1,9 +1,8 @@
-question: Koliko je prosečan vremenski interval između kreiranja dva bloka u Bitkoin protokolu?
-answer: 10 minuta.
+question: Šta je koncept strimovanja novca u kontekstu Lightning mreže?
+answer: Neprekidno vršenje mikroplaćanja u realnom vremenu.
 wrong_answers:
-  - 5 minuta.
-  - 15 minuta.
-  - 20 minuta.
-explanation: |
-  Prosečno vremensko razdoblje između kreiranja dva bloka u Bitkoin protokolu je 10 minuta.
+  - Pretvaranje Bitkoina u gotovinu na fizičkoj lokaciji koristeći bankomat.
+  - Prenos audio ili video sadržaja za Bitkoin.
+  - Kreiranje novih bitkoina kroz rudarske operacije koje se odvijaju u realnom vremenu.
+explanation: >-
 reviewed: true

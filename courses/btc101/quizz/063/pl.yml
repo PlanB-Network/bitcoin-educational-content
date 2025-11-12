@@ -1,12 +1,10 @@
-question: Jaka jest koncepcja matematyczna, która opiera się na ludzkiej racjonalności i jest używana w Bitcoin?
-answer: Teoria gier.
+question: Ile wynosi nagroda BTC po czwartym Halving?
+answer: 3.125 BTC.
 wrong_answers:
-  - Teoria prawdopodobieństwa.
-  - Teoria liczb.
-  - Teoria zbiorów.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Teoria gier to koncepcja matematyczna oparta na ludzkiej racjonalności
-  ludzkiej racjonalności. W Bitcoin zmiany protokołu są
-  wymuszane przez użytkowników, co sprawia, że każda modyfikacja protokołu Bitcoin
-  jest bardzo złożona.
+  Po czwartym Halving, który ma miejsce na wysokości bloku
+  840 000, nagroda w BTC za Mining wynosi 3,125 BTC.
 reviewed: true

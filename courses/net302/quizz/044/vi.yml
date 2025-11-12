@@ -1,0 +1,9 @@
+question: Vai trò chính của DNS trong kiến trúc Internet là gì?
+answer: Ánh xạ tên miền với địa chỉ IP
+wrong_answers:
+  - Mã hóa thông tin liên lạc giữa các bộ định tuyến
+  - Gán địa chỉ MAC động cho các thiết bị
+  - Kiểm soát quyền truy cập vào máy chủ web
+explanation: |
+  DNS (Hệ thống tên miền) dịch tên miền mà con người có thể đọc được thành địa chỉ IP số cần thiết để định tuyến.
+reviewed: false

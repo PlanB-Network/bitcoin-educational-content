@@ -1,0 +1,9 @@
+question: 内部サービスをNATを通じて外部からアクセスできるようにする仕組みとは？
+answer: ポート転送
+wrong_answers:
+  - パケットの断片化
+  - RIPルーティング
+  - NAT圧縮
+explanation: |
+  ポート転送は、外部接続をNATゲートウェイ経由で特定の内部ホストに転送することを可能にする。
+reviewed: false

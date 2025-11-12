@@ -1,13 +1,8 @@
-question: Wat is een van de potentiële voordelen van de Lightning Network voor contentmakers?
-answer: Ze zouden gestimuleerd worden om inhoud van goede kwaliteit te produceren om de aandacht van gebruikers vast te houden.
+question: Wat is een van de belangrijkste vragen over de toekomst van financiën?
+answer: Wie moet het geld dat we gebruiken bewaren, autoriseren en traceren?
 wrong_answers:
-  - Ze zouden meer kunnen vragen voor hun inhoud.
-  - Ze zouden een breder publiek kunnen bereiken.
-  - Ze zouden sneller inhoud kunnen produceren om de aandacht van gebruikers vast te houden.
-explanation: |
-  Met de Lightning Network zouden makers van inhoud
-  gestimuleerd om inhoud van goede kwaliteit te produceren om de aandacht van
-  om de aandacht van gebruikers vast te houden. Gebruikers betalen op hun beurt alleen voor de inhoud die ze consumeren
-  inhoud die ze consumeren, waardoor abonnementskosten vooraf komen te vervallen
-  kosten.
+  - Hoe kunnen we geld helemaal uitbannen?
+  - Hoe kunnen we ervoor zorgen dat iedereen evenveel geld heeft?
+  - Hoe kunnen we geld overbodig maken?
+explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin node ni nini?
+answer: Kompyuta inayoendesha programu inayotekeleza protocol ya Bitcoin
+wrong_answers:
+  - Hardware Wallet inayotekeleza mtandao wa Bitcoin
+  - Miner inazalisha blocks mpya za Bitcoin
+  - Server kuu inayosimamia mtandao wa Bitcoin na uthibitishaji wa muamala
+explanation: |
+  Node ya Bitcoin ni programu inayoendesha kompyuta, kama vile Bitcoin core, inayotekeleza protocol na kushiriki katika mtandao wa Bitcoin.
+reviewed: true

@@ -1,11 +1,13 @@
-question: Qual é uma das desvantagens do ouro como forma de dinheiro?
-answer: Não é facilmente divisível.
+question: Qual é o caminho evolutivo da moeda atual?
+answer: Pedra bruta -> Moeda -> Cédula -> Cartão bancário -> Blockchain -> Lightning Network
 wrong_answers:
-  - Não mantém seu valor no espaço.
-  - Ele se erosiona com o tempo.
-  - É fácil de produzir.
+  - Pedra bruta -> Moeda -> Cédula -> Blockchain -> Lightning Network
+  - Pedra bruta -> Moeda -> Cédula -> Cartão bancário -> Lightning Network
+  - Pedra bruta -> Moeda -> Cartão bancário -> Cédula -> Blockchain -> Lightning Network
 explanation: |
-  Uma das principais desvantagens do ouro como forma de dinheiro é
-  ser difícil de dividir em unidades menores conforme a necessidade
-  surge, o que o torna menos prático para usar.
+  A moeda é uma tecnologia que evoluiu com o tempo,
+  começando por ser representada por pedras brutas, mudando
+  para moedas metálicas, depois para cédulas, cartões bancários e,
+  finalmente, para redes peer-to-peer com o uso do
+  blockchain do Bitcoin e da Lightning Network.
 reviewed: true

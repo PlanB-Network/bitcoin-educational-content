@@ -1,5 +1,5 @@
 ---
-name: Монетные карточки
+name: Coincards
 description: Как я могу покупать товары и услуги в BTC с помощью Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ description: Как я могу покупать товары и услуги в
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards предлагает широкий выбор: от розничной торговли до фастфуда, стриминговые платформы, онлайн-игры, сайты электронной коммерции и многое другое...
 
@@ -67,7 +67,7 @@ Coincards обязуется сохранять вашу конфиденциа�
 
 
 
-Подборку руководств по основным портфелям Lightning (Phoenix, Breez, BitKit, Zeus...) можно найти здесь: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Подборку руководств по основным портфелям Lightning (Phoenix, Breez, BitKit, Zeus...) можно найти здесь: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Coincards обязуется сохранять вашу конфиденциа�
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Как купить подарочную карту BTC на Coincards?
 
@@ -244,4 +244,4 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

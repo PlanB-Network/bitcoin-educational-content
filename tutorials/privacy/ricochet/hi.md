@@ -1,5 +1,5 @@
 ---
-name: रिकोषेट
+name: Ricochet
 description: रिकोशे लेनदेन को समझना और उसका उपयोग करना
 ---
 ![cover ricochet](assets/cover.webp)

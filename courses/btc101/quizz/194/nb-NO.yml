@@ -1,11 +1,9 @@
-question: Hva er én løsning for store strukturer eller lidenskapelige bitcoinere for å akseptere Bitcoin?
-answer: BTCpay Server
+question: Hva er formålet med KYC-regelverket?
+answer: Å bekjempe finansiering av terrorisme, skatteunndragelse og hvitvasking av penger.
 wrong_answers:
-  - Bitcoin Wallet
-  - Bitcoin Exchange
-  - Bitcoin Mining
+  - Å øke prisen på Bitcoin.
+  - Å kontrollere tilbudet av Bitcoin.
+  - Å forhindre folk i å kjøpe Bitcoin.
 explanation: >-
-  BTCpay Server er en løsning for store strukturer eller lidenskapelige bitcoinere
-  for å akseptere Bitcoin. Andre løsninger inkluderer OpenNode for enkle nettbaserte virksomheter
-  og Swiss Bitcoin Pay for amatørhandlere.
-reviewed: false
+  Teksten forklarer at Know Your Customer (KYC)-regelverket krever at brukere
+  må oppgi identifikasjon for å bekjempe finansiering av terrorisme, skatteunndragelse og hvitvasking av penger.

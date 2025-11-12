@@ -1,0 +1,9 @@
+question: TCP 和 UDP 的主要差異是什麼？
+answer: TCP 以連線為導向，UDP 則不是
+wrong_answers:
+  - TCP 僅適用於本地網路，UDP 則適用於網際網路
+  - TCP 始終使用加密，而 UDP 從不使用加密
+  - TCP 管理 IP 分片，UDP 處理壓縮
+explanation: |
+  TCP 需要建立連線並加以監控，而 UDP 則無需事先設定或控制會話即可傳送封包。
+reviewed: false

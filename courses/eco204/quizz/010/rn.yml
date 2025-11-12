@@ -1,0 +1,12 @@
+question: Ni ingaruka izihe igiharuro c’ibiciro vy’abaguzi (CPI) gifise ku gupima ugutera imbere kw’ibiciro?
+answer: CPI ishobora gufata minenerwe inflation nyayo kuko idafata mu muzirikanyi neza iterambere ry’ibiciro vy’amazu kandi ishobora gusubiza inyuma canke gupfuka inflation nyayo.
+wrong_answers:
+  - CPI yama ipima neza inflation.
+  - CPI irarengeje urugero inflation nyayo.
+  - CPI ntaco ikora ku rugero rw’ugutera imbere kw’ibiciro.
+explanation: |
+  Ico gice kirasigura ko CPI, ikoreshwa nk’ikimenyetso nyamukuru c’ugutera imbere kw’ibiciro,
+  irafise aho igarukira. Nk’akarorero, ntizirikana mu buryo burambuye .
+  ugutera imbere kw’ibiciro vy’amazu n’ibindi. Kandi, mu kubara CPI harimwo ibintu bimwebimwe .
+  uburyo bushobora gusubiza inyuma canke gupfuka ivyiyongereza vy’ibiciro vy’ukuri.
+reviewed: false

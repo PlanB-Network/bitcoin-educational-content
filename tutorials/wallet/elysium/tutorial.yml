@@ -1,5 +1,7 @@
 id: f1efee68-930f-4d88-b3ac-f7d879eb54ea
 
+is_archived: true
+
 category: mobile
 
 level: beginner
@@ -7,8 +9,6 @@ level: beginner
 professor_id: f11a148f-63d8-4b02-8fb4-ac6130c41cb1
 
 credit_link: https://elysiumlab.io
-
-project_id: 05e19923-64c7-43d8-b85c-1384334f7b4c
 
 original_language: en
 proofreading:
@@ -119,6 +119,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.2
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.92
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.2
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.47
 tags:
   - wallets
   - guides

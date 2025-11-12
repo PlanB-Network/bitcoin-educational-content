@@ -1,15 +1,13 @@
-question: Które z poniższych nie jest kluczową cechą mikrotransakcji w Lightning Network?
-answer: Długi czas płatności.
+question: Jaki jest związek Bitcoin z przyszłością technologii i społeczeństwa?
+answer: Bitcoin to rewolucja technologiczna, która pozwala na Exchange wartości bez żadnej zaufanej strony trzeciej.
 wrong_answers:
-  - Niskie opłaty.
-  - Natychmiastowe płatności.
-  - Skalowalność.
+  - Bitcoin to forma technologii sztucznej inteligencji, która umożliwia ludziom dostęp do informacji Exchange za pośrednictwem centralnego serwera.
+  - Bitcoin jest narzędziem do kontrolowania światowej populacji, umożliwiającym eliminację ubóstwa.
+  - Bitcoin to metoda umożliwiająca rządom śledzenie transakcji finansowych swoich obywateli.
 explanation: |
-  Dzięki mikrotransakcjom Lightning Network użytkownicy mogą
-  mają niskie opłaty transakcyjne, dzięki czemu wysyłanie
-  bardzo małych ilości Bitcoin. Mogą również mieć natychmiastowe
-  płatności, pozwalając na transakcje w czasie rzeczywistym. Wreszcie
-  skalowalność, umożliwiając obsługę dużej liczby transakcji jednocześnie
-  dużej liczby transakcji jednocześnie. Tak więc złą
-  odpowiedzią jest długi czas płatności.
+  Tekst wyjaśnia, że Bitcoin, podobnie jak internet dla środków
+  komunikacji, jest rewolucją technologiczną, która
+  stwarza szansę na nowe tryby organizacji na dużą skalę
+  organizacji, przynosząc nam możliwość wymiany
+  wartości bez żadnej zaufanej strony trzeciej.
 reviewed: true

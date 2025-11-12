@@ -1,11 +1,11 @@
 ---
 name: Weblate - 新增語言
-description: 如何在 Plan ₿ Network 中加入新的語言？
+description: 如何在 Plan ₿ Academy 中加入新的語言？
 ---
 ![cover](assets/cover.webp)
 
 
-Plan ₿ Network 的使命是在 Bitcoin 上提供一流的教育資源，並將其翻譯成盡可能多的語言。網站發佈的大部分內容都是開放原始碼，並託管在 GitHub 上，讓任何人都能參與豐富平台的內容。貢獻的形式有多種：修正和校對現有內容、更新資訊，或創作新的教學內容加入平台。
+Plan ₿ Academy 的使命是在 Bitcoin 上提供一流的教育資源，並將其翻譯成盡可能多的語言。網站發佈的大部分內容都是開放原始碼，並託管在 GitHub 上，讓任何人都能參與豐富平台的內容。貢獻的形式有多種：修正和校對現有內容、更新資訊，或創作新的教學內容加入平台。
 
 
 我們的網站目前提供多種語言，並持續努力增加更多的語言。為了改善我們前端的翻譯流程，我們使用 Weblate 工具，它可以幫助我們有效率地協作和管理翻譯。這是一個人性化的工具。
@@ -14,7 +14,7 @@ Plan ₿ Network 的使命是在 Bitcoin 上提供一流的教育資源，並將
 如果您的母語尚未在我們的網站上提供，而您又想加入，本教學就是為您準備的！
 
 
-首先，請務必透過我們的 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 聯絡 Plan ₿ Network 團隊。如果您沒有 Telegram，也可以寄電子郵件到 mari@planb.network。請務必寫一小段簡報，說明您是誰以及您會說哪些語言。
+首先，請務必透過我們的 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 聯絡 Plan ₿ Academy 團隊。如果您沒有 Telegram，也可以寄電子郵件到 mari@planb.network。請務必寫一小段簡報，說明您是誰以及您會說哪些語言。
 
 
 ## 檢查語言是否存在於 Weblate 上
@@ -36,14 +36,14 @@ Plan ₿ Network 的使命是在 Bitcoin 上提供一流的教育資源，並將
 如果您的語言已在此清單中，則無需再次新增。若要校對 weblate，請參考以下教學：
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
 如果您的語言不在此處，請按照以下教學進行新增。
 
 
-## 在 Plan ₿ Network 中新增語言
+## 在 Plan ₿ Academy 中新增語言
 
 
 
@@ -81,9 +81,9 @@ https://planb.network/tutorials/contribution/content/weblate-translate-front-end
 若要在翻譯過程中獲得指導，請查看我們以下的專用教學：
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-恭喜您，您已開始在 Plan ₿ Network 的網站上翻譯靜態 Elements！
+恭喜您，您已開始在 Plan ₿ Academy 的網站上翻譯靜態 Elements！
 
 它們包括網站中的所有字串，但教育內容（課程、教學......）除外，對於這些內容，我們使用另一種半自動化方法（AI 翻譯 + 撰稿人校對）。
 

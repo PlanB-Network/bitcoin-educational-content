@@ -1,0 +1,9 @@
+question: Giao thức nào được sử dụng để liên kết IP Address với MAC Address trên mạng Ethernet?
+answer: ARP
+wrong_answers:
+  - XÉ
+  - DNS
+  - OSPF
+explanation: |
+  Giao thức phân giải Address (ARP) ánh xạ địa chỉ IP thành địa chỉ MAC trên mạng cục bộ.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kas Immanuel Kant on filosoof?
+answer: Saksa keeles.
+wrong_answers:
+  - Inglise keeles.
+  - Poola.
+  - Hollandi keeles.
+explanation: |
+  Immanuel Kant (1724-1804) oli saksa filosoof, keda peetakse valgustusajastu üheks olulisemaks mõtlejaks. Ta töötas välja kriitilise filosoofia, mis püüdis ühitada ratsionalismi ja empirismi.
+reviewed: false

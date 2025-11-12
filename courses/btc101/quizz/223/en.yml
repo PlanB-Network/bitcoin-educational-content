@@ -1,11 +1,10 @@
-question: What is the blockchain trilemma?
-answer: A protocol based on a blockchain can only satisfy two out of the criteria of decentralization, security, and scalability.
+question: What does the Lightning Network make possible?
+answer: To transact between individuals who do not have a direct channel connection.
 wrong_answers:
-  - A protocol based on a blockchain can only satisfy one out of the criteria of decentralization, security, and scalability.
-  - A protocol based on a blockchain can satisfy all of the criteria of decentralization, security, and scalability.
-  - A protocol based on a blockchain cannot satisfy any of the criteria of decentralization, security, and scalability.
+  - To create direct channel connections only with centralized exchanges.
+  - To create channel connections that require multiple confirmations for any transaction.
+  - To establish direct channel connections that are limited to large transactions only.
 explanation: |
-  The blockchain trilemma refers to the challenge that a
-  protocol based on a blockchain can only satisfy two criteria out of
-  decentralization, security, and scalability.
+  The Lightning Network makes it possible to transact between
+  individuals who do not have a direct channel connection.
 reviewed: true

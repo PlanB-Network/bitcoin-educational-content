@@ -1,0 +1,9 @@
+question: Ni kuki Bastiat anegura iciyumviro c’uko umusoro wo gusubira gusangira utera imbere?
+answer: Kubera ko vyemerera abantu benshi gusahura ibintu mu buryo butegekanijwe n’amategeko kubera abantu bakeyi .
+wrong_answers:
+  - Kuko ntaco bimaze mu gutanga amafaranga y’imisoro .
+  - Kuko bifasha gusa abakozi .
+  - Kuko ahanini bifasha amashirahamwe yigenga .
+explanation: |
+  Bastiat abona ko umusoro wo gusubira gusangira ugenda uratera imbere utuma benshi bakoresha nabi abantu bakeyi, ugahindura uwo musoro igikoresho co gusahura bitegekanijwe n’amategeko.
+reviewed: false

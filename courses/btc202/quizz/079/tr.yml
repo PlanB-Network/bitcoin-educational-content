@@ -1,0 +1,9 @@
+question: Yeni bir dosya oluşturulmadan önce blkNNNNN.dat dosyasının maksimum boyutu nedir?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  BlkNNNNN.dat dosyaları blokları sırayla depolar ve Bitcoin core bir sonrakini açmadan önce yaklaşık 128 MiB boyutuna ulaşır.
+reviewed: true

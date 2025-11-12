@@ -1,0 +1,9 @@
+question: URLにIPv6のAddressを挿入するには、どのような表記法を使うのか？
+answer: IPv6 Addressは角括弧で囲む。
+wrong_answers:
+  - IPv6 Addressは括弧で囲まれている。
+  - IPv6 Addressは引用符で囲まれている。
+  - IPv6 Addressは生で書かれている。
+explanation: |
+  角括弧は、曖昧さを避けるために、URLのIPv6 Addressとポートを区別するために使用される。
+reviewed: false

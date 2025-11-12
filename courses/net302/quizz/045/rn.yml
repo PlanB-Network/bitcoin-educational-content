@@ -1,0 +1,9 @@
+question: Ni uwuhe mugenzo wo guhindura mu buryo bw’ubuhinga MAC Address yawe?
+answer: Ukwihenda kwa MAC
+wrong_answers:
+  - MAC ubuhendanyi
+  - MAC Guhonya
+  - Urufunguzo rwa Mac
+explanation: |
+  MAC spoofing ni igikorwa co guhindura hardware Address y’urubuga Interface, kenshi kubera imvo z’ubuzima bwite canke kugira ngo umuntu arenge amategeko.
+reviewed: false

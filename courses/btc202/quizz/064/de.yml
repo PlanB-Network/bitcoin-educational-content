@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund für die Installation eines lokalen Block explorer wie Mempool.Space auf Umbrel?
+answer: Wahrung der Vertraulichkeit und Verwendung von Daten aus Ihrem eigenen Knotenpunkt
+wrong_answers:
+  - Beschleunigung der anfänglichen Bitcoin core-Synchronisierung
+  - Erhöhung der für Blöcke verfügbaren Speicherkapazität
+  - Lightning-Kanäle erhalten
+explanation: |
+  Ein lokales Block explorer verhindert IP-Lecks und stützt sich auf Ihre eigenen validierten Daten, wodurch Vertraulichkeit und Zuverlässigkeit gewährleistet werden.
+reviewed: true

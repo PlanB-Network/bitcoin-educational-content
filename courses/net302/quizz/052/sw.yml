@@ -1,0 +1,9 @@
+question: Ni habari gani ya kimsingi lazima iwe na rekodi ya lango la NAT kwa kila mtiririko wa mtandao?
+answer: Ramani kati ya IP ya ndani na IP ya umma
+wrong_answers:
+  - Aina ya kebo ya mtandao inayotumika
+  - Kuchora ramani kati ya IP Address na seva ya DNS
+  - Aina ya itifaki ya mtandao inayotumika
+explanation: |
+  NAT inategemea jedwali la utafsiri ili kudumisha mawasiliano ambayo hufuatilia ramani kati ya anwani za ndani na za umma ili kuhakikisha pakiti zinaelekezwa kwa njia ipasavyo.
+reviewed: false

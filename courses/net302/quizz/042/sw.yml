@@ -1,0 +1,9 @@
+question: Ni kipengele gani cha jina la kikoa kinachowakilisha Kikoa cha Kiwango cha Juu (TLD)?
+answer: Kipengele cha kulia zaidi
+wrong_answers:
+  - Kipengele cha kushoto kabisa
+  - Kiwango cha pili baada ya mwenyeji
+  - Jina la mwenyeji mkuu
+explanation: |
+  TLD daima ndicho kipengele cha kulia zaidi cha FQDN, kama vile .com, .org au .fr.
+reviewed: false

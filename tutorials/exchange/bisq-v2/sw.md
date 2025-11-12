@@ -11,7 +11,7 @@ description: Mwongozo kamili wa kutumia Bisq 2 na kubadilishana bitcoins P2P
 Mabadilishano ya bure ya KYC-kwa-rika (P2P) ni muhimu kwa kuhifadhi usiri na uhuru wa kifedha wa watumiaji. Huwezesha miamala ya moja kwa moja kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, ambao ni muhimu kwa wale wanaothamini ufaragha. Kwa ufahamu wa kina zaidi wa dhana za kinadharia, angalia kozi ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 ni nini?
 
@@ -31,7 +31,7 @@ Bisq 2 ni toleo jipya la Bisq Exchange maarufu iliyogatuliwa, iliyozinduliwa mwa
 - Mfumo wa jukumu na amana ya lazima katika BSQ
 
 
-Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa sasa. Bisq Easy imeundwa mahususi kwa watumiaji wapya wa Bitcoin. Itifaki hii inawawezesha watumiaji kununua na kuuza Bitcoins dhidi ya sarafu za sarafu kwenye jukwaa lililogatuliwa la rika-kwa-rika. Shughuli za malipo ni sawa na dola 600 (na kiwango cha chini cha 6 USD), na usalama wa Exchange unategemea sifa ya wauzaji wa BTC. Bisq Easy haina ada za biashara au mahitaji ya amana ya usalama. Bisq Easy inatarajiwa kuchukua nafasi ya Bisq 1 kwa ubadilishanaji wa pesa chini ya 600 USD (au sawa).
+Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa sasa. Bisq Easy imeundwa mahsusi kwa watumiaji wapya wa Bitcoin. Itifaki hii inawawezesha watumiaji kununua na kuuza bitcoin dhidi ya sarafu za fiat kwenye jukwaa la wenzao lililo desentralizwa. Miamala imezuiliwa kwa sawa ya USD 600 (ikiwa na kiwango cha chini cha USD 6), na usalama wa biashara unategemea sifa ya wauzaji wa BTC. Bisq Easy haina ada za biashara wala mahitaji ya amana ya dhamana. Inatarajiwa kuwa Bisq Easy itachukua nafasi ya Bisq 1 kwa biashara za fiat chini ya USD 600 (au sawa na hiyo).
 
 
 **Sifa kuu:**
@@ -67,7 +67,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 
 
 
-- Hakuna amana ya usalama inahitajika
+- Hakuna amana ya usalama inayohitajika
 - Kujenga sifa
 - Uwezekano wa kuchoma BSQ au kuunda vifungo vya BSQ
 - Ada ya juu zaidi ya mauzo (10-15% juu ya soko)
@@ -84,7 +84,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 - Mtayarishi wa ofa anafafanua masharti ya Exchange
 - Mara tu wafanyabiashara wamekubaliana juu ya masharti (mbinu ya malipo na bei), Exchange huanza
 - Muuzaji hutuma maelezo yake ya benki kwa mnunuzi, na mnunuzi hutuma Bitcoin Address yake kwa muuzaji.
-- Mnunuzi hufanya malipo kwa pesa taslimu na kumjulisha muuzaji
+- Mnunuzi anafanya malipo kwa sarafu ya fiat na kumjulisha muuzaji
 - Mara tu malipo yamepokelewa, muuzaji hutuma bitcoins kwa Address ya mnunuzi
 - Exchange imekamilika wakati mnunuzi anapokea bitcoins
 
@@ -117,7 +117,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 - Thibitisha uhalisi wa faili iliyopakuliwa (inapendekezwa sana). Kwa mwongozo wa kina wa uthibitishaji sahihi, angalia mafunzo yafuatayo:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Ufungaji kulingana na mfumo wako
 
@@ -472,11 +472,11 @@ Ili kuongeza sifa yako kwa Bisq kama muuzaji, fanya miamala ya mara kwa mara na 
 
 
 
-- Usiri wa juu zaidi**: Hakuna KYC, matumizi ya Tor
-- Ugatuaji**: Hakuna seva kuu
-- Usalama**: Chanzo huria, msimbo usio chini ya ulinzi
-- Intuitive Interface**: rahisi zaidi kuliko Bisq 1
-- Kubadilika**: Itifaki nyingi za Exchange
+- **Usiri wa juu zaidi**: Hakuna KYC, matumizi ya Tor
+- **Ugatuaji**: Hakuna seva kuu
+- **Usalama**: Chanzo huria, msimbo usio chini ya ulinzi
+- **Intuitive Interface**: rahisi zaidi kuliko Bisq 1
+- **Kubadilika**: Itifaki nyingi za Exchange
 
 
 ### Bisq 2 hasara
@@ -484,12 +484,12 @@ Ili kuongeza sifa yako kwa Bisq kama muuzaji, fanya miamala ya mara kwa mara na 
 
 
 
-- Ukwasi mdogo** (kwa sasa) :
+- **Ukwasi mdogo** (kwa sasa) :
  - Itifaki mpya katika awamu ya kuanza
  - Ofa chache za mauzo zinapatikana
  - Muda wa kusubiri kwa muda mrefu kupata mnunuzi
-- Vikomo vya biashara**: Kiwango cha juu cha USD 600 kwa kila ununuzi (Bisq rahisi)
-- Eneo-kazi pekee**: Hakuna programu ya simu ya mkononi
+- **Vikomo vya biashara**: Kiwango cha juu cha USD 600 kwa kila ununuzi (Bisq rahisi)
+- **Eneo-kazi pekee**: Hakuna programu ya simu ya mkononi
 
 
 ## Itifaki za Baadaye
@@ -500,16 +500,16 @@ Ingawa Bisq Easy ndio itifaki pekee inayopatikana kwa sasa, itifaki zingine kadh
 
 
 
-- Umeme wa Bisq**: Itifaki ya Exchange kulingana na mfumo wa escrow kwa kutumia mfumo wa kukokotoa wa vyama vingi kwenye Lightning Network.
-- Bisq MuSig**: Uhamiaji wa itifaki kuu kutoka Bisq 1 hadi Bisq 2, kwa kutumia 2-on-2 Multisig na amana za usalama.
-- Mabadilishano ya BSQ**: Mabadilishano ya atomiki ya papo hapo kati ya BSQ na BTC.
-- Mabadiliko ya Liquid**: Exchange ya mali kwenye Liquid Network (USDT, BTC-L) kupitia ubadilishaji wa atomiki.
-- Mabadilishano ya Monero**: Mabadilishano ya atomiki kati ya Bitcoin na Monero.
-- Liquid MuSig**: Toleo la itifaki ya Multisig kwa kutumia L-BTC kwa gharama ya chini na usiri mkubwa.
-- Mabadilishano ya Nyambizi**: Mabadilishano kati ya Bitcoin kwenye Lightning Network na Bitcoin On-Chain.
-- Mabadilishano ya Stablecoin**: Mabadilishano ya atomiki kati ya Bitcoin na sarafu thabiti za USD.
-- Chaguo za Multisig**: Uundaji wa chaguzi za P2P za kuweka na kupiga simu kwa kuzuia BTC katika shughuli ya On-Chain Multisig.
-- Multisig Open Contracts**: Huwasha uundaji wa mikataba yenye masharti maalum kwa kutumia mfumo wa 2-on-3 Multisig wenye usuluhishi.
+- **Umeme wa Bisq**: Itifaki ya Exchange kulingana na mfumo wa escrow kwa kutumia mfumo wa kukokotoa wa vyama vingi kwenye Lightning Network.
+- **Bisq MuSig**: Uhamiaji wa itifaki kuu kutoka Bisq 1 hadi Bisq 2, kwa kutumia 2-on-2 Multisig na amana za usalama.
+- **Mabadilishano ya BSQ**: Mabadilishano ya atomiki ya papo hapo kati ya BSQ na BTC.
+- **Mabadiliko ya Liquid**: Exchange ya mali kwenye Liquid Network (USDT, BTC-L) kupitia ubadilishaji wa atomiki.
+- **Mabadilishano ya Monero**: Mabadilishano ya atomiki kati ya Bitcoin na Monero.
+- **Liquid MuSig**: Toleo la itifaki ya Multisig kwa kutumia L-BTC kwa gharama ya chini na usiri mkubwa.
+- **Mabadilishano ya Nyambizi**: Mabadilishano kati ya Bitcoin kwenye Lightning Network na Bitcoin On-Chain.
+- **Mabadilishano ya Stablecoin**: Mabadilishano ya atomiki kati ya Bitcoin na sarafu thabiti za USD.
+- **Chaguo za Multisig**: Uundaji wa chaguzi za P2P za kuweka na kupiga simu kwa kuzuia BTC katika shughuli ya On-Chain Multisig.
+- **Multisig Open Contracts**: Huwasha uundaji wa mikataba yenye masharti maalum kwa kutumia mfumo wa 2-on-3 Multisig wenye usuluhishi.
 
 
 Itifaki hizi kwa sasa zinaendelea kutengenezwa na zitaunganishwa hatua kwa hatua katika Bisq 2, na hivyo kutoa urahisi zaidi kwa watumiaji kulingana na mahitaji yao mahususi.

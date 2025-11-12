@@ -1,0 +1,9 @@
+question: Welches Protokoll wird verwendet, um einen IP Address mit einem MAC Address in einem Ethernet-Netzwerk zu verknüpfen?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Das Address Resolution Protocol (ARP) ordnet IP-Adressen MAC-Adressen in lokalen Netzwerken zu.
+reviewed: false

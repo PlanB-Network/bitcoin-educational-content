@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: چگونه می‌توان از یک نود قدرتمند LN بر روی موبایل خود استفاده کرد؟
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 این راهنما به تمام کاربران جدیدی که می‌خواهند استفاده از Bitcoin Lightning Network (LN) را به صورت منبع باز رایگان و کاملاً غیرامانی آغاز کنند، اختصاص داده شده است.

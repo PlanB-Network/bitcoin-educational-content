@@ -1,0 +1,9 @@
+question: Vilken organisation tilldelar IP-protokollets versionsnummer?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) hanterar Assignment av IP-protokollets versionsnummer och tilldelningen av protokollområden.
+reviewed: false

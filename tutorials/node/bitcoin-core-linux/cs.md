@@ -1,127 +1,224 @@
 ---
 name: Bitcoin Core (Linux)
-description: Spuštění vlastního uzlu s Bitcoin Core
+description: Spuštění vlastního uzlu s Bitcoin core v systému Linux
 ---
 
 ![cover](assets/cover.webp)
 
-# Spuštění vlastního uzlu s Bitcoin Core
 
-Úvod do Bitcoinu a konceptu uzlu, doplněný o komplexní průvodce instalací na Linuxu.
+## Spuštění vlastního uzlu pomocí Bitcoin core
 
-Jednou z nejvíce vzrušujících vlastností Bitcoinu je možnost spustit program sami a tím se na granulární úrovni podílet na síti a ověřování veřejného účetního rejstříku transakcí.
 
-Bitcoin, projekt s otevřeným zdrojovým kódem, je veřejně distribuován a dostupný zdarma od roku 2009. Téměř 15 let od svého vzniku je Bitcoin nyní robustní a nezastavitelnou digitální měnovou sítí, která těží z silného organického síťového efektu. Za jejich úsilí a vizi si Satoshi Nakamoto zaslouží naši vděčnost. Mimochodem, whitepaper Bitcoinu hostujeme zde na Agora 256 (poznámka: také na univerzitě).
+Úvod do systému Bitcoin a konceptu uzlu doplněný komplexním průvodcem instalací v systému Linux.
 
-## Stát se vlastní bankou
 
-Spuštění vlastního uzlu se stalo nezbytným pro přívržence axiomu Bitcoinu. Bez žádosti o povolení je možné stáhnout blockchain od začátku a tím ověřit všechny transakce od A do Z podle protokolu Bitcoinu.
+Jedním z nejzajímavějších aspektů Bitcoin je možnost spustit program sám a podílet se tak na granulární úrovni na síti a ověřování veřejné transakce Ledger.
 
-Program také zahrnuje vlastní peněženku. Tím máme kontrolu nad transakcemi, které posíláme do zbytku sítě, bez jakéhokoli prostředníka nebo třetí strany. Jste vlastní bankou.
 
-Zbytek tohoto článku je tedy průvodcem instalací Bitcoin Core — nejčastěji používané verze softwaru Bitcoin — konkrétně na distribucích Linuxu kompatibilních s Debianem, jako jsou Ubuntu a Pop!_OS. Postupujte podle tohoto průvodce, abyste se přiblížili k vaší individuální suverenitě.
+Bitcoin je jako projekt s otevřeným zdrojovým kódem volně dostupný a veřejně šířený od roku 2009. Téměř 17 let po svém vzniku je nyní Bitcoin robustní a nezastavitelnou digitální peněžní sítí, která těží ze silného organického síťového efektu. Za své úsilí a vizi si Satoshi Nakamoto zaslouží náš vděk. Mimochodem, whitepaper Bitcoin hostujeme zde na Agora 256 (poznámka: také na univerzitě).
 
-## Průvodce instalací Bitcoin Core pro Debian/Ubuntu
 
-> Předpoklady
->
-> - Minimálně 6GB úložného prostoru (prořezaný uzel) — 1TB úložného prostoru (plný uzel)
-> - Připravte se, že dokončení počátečního stahování bloků (IBD) zabere alespoň 24 hodin. Tato operace je povinná i pro prořezaný uzel.
-> - Připravte přibližně 600GB šířky pásma pro IBD, i pro prořezaný uzel.
+### Stát se vlastní bankou
 
-> 💡 Následující příkazy jsou předdefinovány pro verzi Bitcoin Core 24.1.
 
-## Stahování a ověřování souborů
+Provozování vlastního uzlu se stalo pro stoupence étosu Bitcoin zásadní. Aniž byste kohokoli žádali o svolení, je možné stáhnout Blockchain od začátku a ověřit tak všechny transakce od A do Z podle protokolu Bitcoin.
 
-1. Stáhněte bitcoin-24.1-x86_64-linux-gnu.tar.gz, stejně jako soubory SHA256SUMS a SHA256SUMS.asc. (https://bitcoincore.org/bin/bitcoin-core-24.1/bitcoin-24.1-x86_64-linux-gnu.tar.gz)
 
-2. Otevřete terminál ve složce, kde jsou stažené soubory umístěny. Např., cd ~/Downloads/.
-3. Ověřte, že kontrolní součet verze souboru je uveden v souboru s kontrolními součty pomocí příkazu sha256sum --ignore-missing --check SHA256SUMS.
-4. Výstup tohoto příkazu by měl obsahovat název staženého souboru s verzi následovaný "OK". Příklad: bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK.
+Součástí programu je i vlastní Wallet. Máme tak kontrolu nad transakcemi, které posíláme do zbytku sítě, bez jakéhokoli prostředníka nebo třetí strany. Jste svou vlastní bankou.
 
-5. Nainstalujte git pomocí příkazu sudo install git. Poté naklonujte repozitář obsahující PGP klíče podepisovatelů Bitcoin Core pomocí příkazu git clone https://github.com/bitcoin-core/guix.sigs.
-6. Importujte PGP klíče všech podepisovatelů pomocí příkazu gpg --import guix.sigs/builder-keys/\*
-7. Ověřte, že soubor s kontrolními součty je podepsán PGP klíči podepisovatelů pomocí příkazu gpg --verify SHA256SUMS.asc.
-Každý podpis vrátí řádek začínající s: gpg: Good signature a další řádek končící s Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (příklad otisku PGP klíče Pietera Wuille).
-> 💡 Není nutné, aby všechny klíče podepisujících vrátily "OK". Ve skutečnosti může být nutný pouze jeden. Je na uživateli, aby určil vlastní prah ověření pro verifikaci PGP.
->
-> Můžete ignorovat zprávy WARNING: This key is not certified with a trusted signature!
 
-> Neexistuje žádný důkaz, že podpis patří vlastníkovi.
+Zbytek tohoto článku je proto průvodcem instalací Bitcoin core - nejrozšířenější verze softwaru Bitcoin - konkrétně v distribucích Linuxu kompatibilních s Debianem, jako jsou Ubuntu a Pop!OS. Postupujte podle tohoto průvodce a přibližte se o krok blíže své individuální suverenitě.
 
-## Instalace grafického rozhraní Bitcoin Core
 
-1. V terminálu, stále ve složce, kde se nachází soubor s verzí Bitcoin Core, použijte příkaz tar xzf bitcoin-24.1-x86_64-linux-gnu.tar.gz k extrakci souborů obsažených v archivu.
+## Průvodce instalací Bitcoin core pro Debian/Ubuntu
 
-2. Instalujte dříve extrahované soubory pomocí příkazu sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-24.1/bin//\*
 
-3. Instalujte potřebné závislosti pomocí příkazu sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev
+**Předpoklady**
 
-4. Spusťte bitcoin-qt (grafické rozhraní Bitcoin Core) pomocí příkazu bitcoin-qt.
 
-5. Chcete-li zvolit ořezaný uzel, zaškrtněte Limit blockchain storage a nakonfigurujte limit dat k uložení:
+- Minimálně 6 GB datového úložiště (uzel pruned) - 1 TB datového úložiště (Full node)
+- Počítejte s tím, že *Initial Block Download* (IBD) bude trvat nejméně 24 hodin. Tato operace je povinná i pro uzel pruned.
+- Povolte pro IBD ~600 GB šířky pásma, a to i pro uzel pruned.
 
-![welcome](assets/1.webp)
 
-## Závěr části 1: Instalační příručka
+**Poznámka:💡** následující příkazy jsou předdefinovány pro Bitcoin core verze 24.1.
 
-Jakmile je Bitcoin Core nainstalován, doporučuje se jej nechat běžet co nejčastěji, aby přispíval do sítě Bitcoin ověřováním transakcí a přenášením nových bloků ostatním uzlům.
 
-Nicméně, spouštění a synchronizace vašeho uzlu přerušovaně, i jen pro ověření přijatých a odeslaných transakcí, zůstává dobrou praxí.
+### Stahování a ověřování souborů
 
-![Creation wallet](assets/2.webp)
 
-# Konfigurace Toru pro uzel Bitcoin Core
 
-> 💡 Tento průvodce je určen pro Bitcoin Core 24.0.1 na Linuxových distribucích kompatibilních s Ubuntu/Debian.
+- [Stáhnout](https://bitcoincore.org/en/download/) `Bitcoin-24.1-x86_64-linux-gnu.tar.gz`, stejně jako soubory `SHA256SUMS` a `SHA256SUMS.asc` (samozřejmě je třeba stáhnout nejnovější verzi softwaru).
 
-## Instalace a konfigurace Toru pro Bitcoin Core
 
-Nejprve potřebujeme nainstalovat službu Tor (The Onion Router), síť používanou pro anonymní komunikaci, která nám umožní anonymizovat naše interakce se sítí Bitcoin. Pro úvod do nástrojů na ochranu soukromí online, včetně Toru, se odkazujte na náš článek na toto téma.
 
-Pro instalaci Toru otevřete terminál a zadejte sudo apt -y install tor. Po dokončení instalace by služba měla být normálně automaticky spuštěna na pozadí. Zkontrolujte, že běží správně s příkazem sudo systemctl status tor. Odpověď by měla ukázat Active: active (exited). Stiskněte Ctrl+C pro ukončení této funkce.
+- Otevřete terminál v adresáři, kde jsou umístěny stažené soubory. Příklad: `cd ~/Downloads/`.
 
-> V každém případě můžete použít následující příkazy v terminálu pro spuštění, zastavení nebo restartování Toru:
 
-```
+
+- Pomocí příkazu `sha256sum --ignore-missing --check SHA256SUMS` ověřte, zda je kontrolní součet souboru verze uveden v souboru s kontrolním součtem.
+
+
+
+- Výstup tohoto příkazu by měl obsahovat název staženého souboru s verzí, za kterým následuje `OK`. Example: `Bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK`.
+
+
+
+- Nainstalujte git pomocí příkazu `sudo apt install git`. Poté naklonujte úložiště obsahující klíče PGP signatářů Bitcoin core pomocí příkazu `git clone https://github.com/Bitcoin-core/guix.sigs`.
+
+
+
+- Import klíčů PGP všech podepisujících osob pomocí příkazu `gpg --import guix.sigs/builder-keys/*`
+
+
+
+- Pomocí příkazu `gpg --verify SHA256SUMS.asc` ověřte, zda je soubor s kontrolním součtem podepsán klíči PGP podepisujících osob.
+
+
+
+U každého platného podpisu se zobrazí řádek začínající: `gpg: Dobrý podpis` a další řádek končící: `Primární otisk klíče: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320` (příklad otisku klíče PGP Pietera Wuilleho).
+
+
+**Poznámka💡:** není nutné, aby všechny podepisovací klíče vracely "OK". Ve skutečnosti může být nutný pouze jeden. Je na uživateli, aby si určil vlastní práh validace pro ověření PGP.
+
+
+Varování můžete ignorovat:
+
+
+
+- `Tento klíč není certifikován důvěryhodným podpisem!`
+
+
+
+- `Neexistuje žádný údaj o tom, že podpis patří majiteli.`
+
+
+### Instalace grafického modulu Bitcoin core Interface
+
+
+
+- V terminálu, stále v adresáři, kde se nachází soubor verze Bitcoin core, použijte příkaz `tar xzf Bitcoin-24.1-x86_64-linux-gnu.tar.gz` pro rozbalení souborů obsažených v archivu.
+
+
+
+- Nainstalujte dříve rozbalené soubory pomocí příkazu `sudo install -m 0755 -o root -g root -t /usr/local/bin Bitcoin-24.1/bin/*`
+
+
+
+- Nainstalujte potřebné závislosti pomocí příkazu `sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev`
+
+
+
+- Spusťte _bitcoin-qt_ (grafický Bitcoin core Interface) pomocí příkazu `Bitcoin-qt`.
+
+
+
+- Chcete-li vybrat uzel pruned, zaškrtněte políčko _Omezit úložiště Blockchain_ a nakonfigurujte limit ukládaných dat:
+
+
+![welcome](assets/fr/02.webp)
+
+
+### Závěr části 1: Průvodce instalací
+
+
+Jakmile je Bitcoin core nainstalován, doporučuje se udržovat jej v provozu co nejvíce, aby přispíval do sítě Bitcoin ověřováním transakcí a předáváním nových bloků ostatním peerům.
+
+
+Dobrou praxí však zůstává občasné spouštění a synchronizace uzlu, a to i za účelem ověření přijatých a odeslaných transakcí.
+
+
+![Creation wallet](assets/fr/03.webp)
+
+
+## Konfigurace Tor pro uzel Bitcoin core
+
+
+**Poznámka💡:** tato příručka je určena pro Bitcoin core 24.0.1 na distribucích Linux kompatibilních s Ubuntu/Debian.
+
+
+### Instalace a konfigurace Tor pro Bitcoin core
+
+
+Nejprve je třeba nainstalovat službu Tor (The Onion Router), síť používanou pro anonymní komunikaci, která nám umožní anonymizovat naše interakce se sítí Bitcoin. Úvodní informace o nástrojích pro ochranu soukromí na internetu, včetně služby Tor, naleznete v našem článku na toto téma.
+
+
+Chcete-li nainstalovat Tor, otevřete terminál a zadejte `sudo apt -y install tor`. Po dokončení instalace se služba automaticky spustí na pozadí. Zkontrolujte, zda běží správně, příkazem `sudo systemctl status tor`. Odpověď by měla ukázat `Active: active (exited)`. Stisknutím kláves `Ctrl+C` tuto funkci ukončíte.
+
+
+**Tip:** V každém případě můžete Tor spustit, zastavit nebo restartovat pomocí následujících příkazů v terminálu:
+
+
+```shell
 sudo systemctl start tor
 sudo systemctl stop tor
 sudo systemctl restart tor
 ```
 
-Dále spusťme grafické rozhraní Bitcoin Core s příkazem bitcoin-qt. Poté povolme automatickou funkci softwaru pro směrování našich spojení přes Tor proxy: Nastavení > Síť, a odtud můžeme zaškrtnout Connect through SOCKS5 proxy (default proxy) stejně jako Use a separate SOCKS5 proxy to reach peers via Tor onion services.
 
-![option](assets/3.webp)
+Dále spustíme grafický modul Bitcoin core pomocí příkazu `Bitcoin-qt`. Poté povolíme automatickou funkci softwaru, která směruje naše připojení přes proxy server Tor: _Nastavení > Síť_ a zde zaškrtněte políčka _Connect through SOCKS5 proxy (default proxy)_ a také _Use a separate SOCKS5 proxy to reach peers via Tor onion services_.
 
-Bitcoin Core automaticky detekuje, jestli je Tor nainstalován a pokud ano, výchozí nastavení vytvoří odchozí spojení s ostatními uzly také používajícími Tor, kromě spojení s uzly používajícími sítě IPv4/IPv6 (clearnet).
-> 💡 Pro změnu jazyka zobrazení na francouzštinu přejděte na kartu Zobrazení v Nastavení.
-## Pokročilá konfigurace Tor (volitelné)
 
-Je možné nakonfigurovat Bitcoin Core tak, aby používal pouze síť Tor pro spojení s peerů, čímž optimalizujeme naši anonymitu prostřednictvím našeho uzlu. Jelikož v grafickém rozhraní není pro toto vestavěná funkce, budeme muset ručně vytvořit konfigurační soubor. Přejděte do Nastavení, poté do Možnosti.
+![option](assets/fr/04.webp)
 
-![možnost 2](assets/4.webp)
 
-Zde klikněte na Otevřít konfigurační soubor. Jakmile se dostanete do textového souboru bitcoin.conf, jednoduše přidejte řádek onlynet=onion a soubor uložte. Je nutné restartovat Bitcoin Core, aby tento příkaz nabyl účinku.
-Poté nakonfigurujeme službu Tor tak, aby Bitcoin Core mohl přijímat příchozí spojení přes proxy, což umožní ostatním uzlům v síti používat náš uzel pro stahování dat blockchainu bez ohrožení bezpečnosti našeho počítače.
+Bitcoin core automaticky detekuje, zda je nainstalován Tor, a pokud ano, ve výchozím nastavení vytvoří odchozí spojení s jinými uzly, které také používají Tor, a navíc vytvoří spojení s uzly používajícími sítě IPv4/IPv6 (clearnet).
 
-V terminálu zadejte sudo nano /etc/tor/torrc pro přístup k souboru konfigurace služby Tor. V tomto souboru hledejte řádek #ControlPort 9051 a odstraňte # pro jeho aktivaci. Nyní přidejte do souboru dva nové řádky: HiddenServiceDir /var/lib/tor/bitcoin-service/ a HiddenServicePort 8333 127.0.0.1:8334. Pro opuštění souboru s jeho uložením stiskněte Ctrl+X > Y > Enter. Zpět v terminálu restartujte Tor zadáním příkazu sudo systemctl restart tor.
 
-S touto konfigurací bude moci Bitcoin Core navazovat příchozí a odchozí spojení s ostatními uzly v síti pouze prostřednictvím sítě Tor (Onion). Pro potvrzení toho klikněte na kartu Okno, poté Peerové.
+**Poznámka💡:** chcete-li změnit jazyk zobrazení na francouzštinu, přejděte na kartu Zobrazení v Nastavení.
 
-![Okno uzlů](assets/5.webp)
 
-## Další zdroje
+### Pokročilá konfigurace Tor (volitelné)
 
-Používání pouze sítě Tor (onlynet=onion) by vás mohlo vystavit riziku Sybilova útoku. Proto někteří doporučují udržovat konfiguraci více sítí, aby se tomuto typu rizika předešlo. Navíc, jakmile je Tor proxy nakonfigurováno, všechna spojení IPv4/IPv6 budou směrována přes Tor proxy, jak bylo dříve uvedeno.
 
-Alternativně, pro zůstání výhradně na síti Tor a minimalizaci rizika Sybilova útoku, můžete do svého souboru bitcoin.conf přidat adresu dalšího důvěryhodného uzlu přidáním řádku addnode=trusted_address.onion. Tento řádek můžete přidat vícekrát, pokud chcete být spojeni s více důvěryhodnými uzly.
+Je možné nakonfigurovat Bitcoin core tak, aby ke spojení s vrstevníky používal pouze síť Tor, čímž se optimalizuje anonymita prostřednictvím našeho uzlu. Protože v grafickém prostředí Interface není k dispozici žádná vestavěná funkce, budeme muset ručně vytvořit konfigurační soubor. Přejděte na Nastavení a poté na Možnosti.
 
-Pro zobrazení logů vašeho Bitcoin uzlu specificky souvisejících s jeho interakcí s Tor, přidejte do vašeho souboru bitcoin.conf debug=tor. Nyní budete mít v logu ladění relevantní informace o Tor, které můžete zobrazit v okně Informace s tlačítkem Soubor ladění. Tyto logy je také možné přímo zobrazit v terminálu s příkazem bitcoind -debug=tor.
 
-> 💡 Několik zajímavých odkazů:
->
-> - Wiki stránka vysvětlující Tor a jeho vztah k Bitcoinu
-> - Generátor konfiguračního souboru Bitcoin Core od Jamesona Loppa
-> - Průvodce konfigurací Tor od Jona Atacka
+![option 2](assets/fr/05.webp)
 
-Jak vždy, pokud máte jakékoli otázky, neváhejte je sdílet s komunitou Agora256. Učíme se společně, abychom byli zítra lepší než dnes!
+
+Zde klikněte na _Otevřít konfigurační soubor_. V textovém souboru `Bitcoin.conf` jednoduše přidejte řádek `onlynet=onion` a soubor uložte. Aby se tento příkaz projevil, je třeba restartovat Bitcoin core.
+
+
+Poté nakonfigurujeme službu Tor tak, aby Bitcoin core mohl přijímat příchozí spojení prostřednictvím proxy serveru, což umožní ostatním uzlům v síti používat náš uzel ke stahování dat Blockchain, aniž by bylo ohroženo zabezpečení našeho počítače.
+
+
+V terminálu zadejte `sudo nano /etc/tor/torrc` pro přístup ke konfiguračnímu souboru služby Tor. V tomto souboru vyhledejte řádek `#ControlPort 9051` a odstraňte `#` pro jeho povolení. Nyní do souboru přidejte dva nové řádky:
+
+
+```
+HiddenServiceDir /var/lib/tor/bitcoin-service/
+HiddenServicePort 8333 127.0.0.1:8334
+```
+
+
+Chcete-li soubor během ukládání ukončit, stiskněte `Ctrl+X > Y > Enter`. Zpět v terminálu restartujte Tor zadáním příkazu `sudo systemctl restart tor`.
+
+
+Při této konfiguraci bude moci Bitcoin core navazovat příchozí a odchozí spojení s ostatními uzly v síti pouze prostřednictvím sítě Tor (Onion). Chcete-li to potvrdit, klepněte na kartu _Okno_ a poté na _Peers_.
+
+
+![Nodes Window](assets/fr/06.webp)
+
+
+### Další zdroje
+
+
+Používání pouze sítě Tor (`onlynet=onion`) by vás nakonec mohlo učinit zranitelnými vůči Sybil Attack. Proto někteří doporučují udržovat konfiguraci s více sítěmi, aby se tento typ rizika zmírnil. Kromě toho budou všechna připojení IPv4/IPv6 směrována přes proxy server Tor, jak již bylo uvedeno dříve.
+
+
+Chcete-li zůstat výhradně v síti Tor a snížit riziko Sybil Attack, můžete do souboru `Bitcoin.conf` přidat Address jiného důvěryhodného uzlu přidáním řádku `addnode=důvěryhodná_adresa.onion`. Tento řádek můžete přidat vícekrát, pokud se chcete připojit k více důvěryhodným uzlům.
+
+
+Chcete-li zobrazit protokoly uzlu Bitcoin týkající se konkrétně jeho interakce s Tor, přidejte do souboru `Bitcoin.conf` příkaz `debug=tor`. Nyní budete mít příslušné informace o Toru v protokolu ladění, který si můžete zobrazit v okně _Informace_ pomocí tlačítka _Debug File_. Tyto protokoly je také možné zobrazit přímo v terminálu příkazem `bitcoind -debug=tor`.
+
+
+**Tip💡:** zde je několik zajímavých odkazů:
+
+
+- [stránka na Wiki vysvětlující Tor a jeho vztah ke Bitcoin](https://en.Bitcoin.it/wiki/Tor)
+- [Generátor konfiguračních souborů Bitcoin core od Jamesona Loppa](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Průvodce konfigurací Toru od Jona Atacka](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
+
+
+Pokud máte nějaké dotazy, neváhejte se o ně podělit s komunitou Agora256. Učíme se společně, abychom byli zítra lepší než dnes!

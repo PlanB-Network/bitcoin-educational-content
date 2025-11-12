@@ -1,0 +1,9 @@
+question: Jakiego oprogramowania graficznego można użyć do szczegółowej analizy edukacyjnej przechwyconych pakietów sieciowych?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Trasa
+explanation: |
+  Wireshark to graficzny analizator pakietów do dogłębnego badania przechwyconego ruchu sieciowego.
+reviewed: false

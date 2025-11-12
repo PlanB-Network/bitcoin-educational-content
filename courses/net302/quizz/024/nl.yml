@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van het TCP-protocol in het TCP/IP-model?
+answer: Zorg voor een betrouwbare en ordelijke gegevensoverdracht
+wrong_answers:
+  - Netwerkcommunicatie versleutelen
+  - IP-adressen toewijzen aan machines
+  - Fragmenteer datagrammen op het fysieke niveau
+explanation: |
+  TCP zorgt voor een betrouwbare gegevensoverdracht door de integriteit te verifiëren, de volgorde te handhaven en herstel te verzorgen in geval van verlies.
+reviewed: false

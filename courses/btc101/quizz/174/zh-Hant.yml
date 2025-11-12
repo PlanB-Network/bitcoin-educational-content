@@ -1,8 +1,13 @@
-question: Miner 的典型成本是多少？
-answer: 電力消耗和硬體購買。
+question: Bitcoin 進一步融入傳統市場的方式是什麼？
+answer: Bitcoin ETF 的到來。
 wrong_answers:
-  - 僅購買硬體。
-  - 交易費用。
-  - 電力消耗和交易費用。
-explanation: >-
-reviewed: false
+  - 禁用 Bitcoin。
+  - 所有加密貨幣的消失。
+  - 創建 Bitcoin。
+explanation: |
+  Bitcoin 繼續生存，並透過
+  漸融入傳統
+  市場。Bitcoin ETF 的到來、更明確的法規、
+  和更好地獲取存儲工具只會鼓勵這種趨勢。
+  趨勢。
+reviewed: true

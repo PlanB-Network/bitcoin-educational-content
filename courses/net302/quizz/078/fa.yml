@@ -1,0 +1,9 @@
+question: در کدام ناحیه DNS رکوردهای PTR برای حل معکوس IPv6 قرار می‌گیرند؟
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  منطقه ip6.arpa به‌طور خاص به حل معکوس آدرس‌های IPv6 اختصاص داده شده است، در حالی که in-addr.arpa برای IPv4 استفاده می‌شود.
+reviewed: false

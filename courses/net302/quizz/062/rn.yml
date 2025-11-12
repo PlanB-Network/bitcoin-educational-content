@@ -1,0 +1,9 @@
+question: Ni ubuhe busobanuro bukoreshwa mu kwinjiza IPv6 Address muri URL?
+answer: IPv6 Address iri mu bifunga
+wrong_answers:
+  - IPv6 Address iri mu bifunga
+  - IPv6 Address iri mu bimenyetso vy'ugusubiramwo
+  - IPv6 Address yanditswe ataco ihinduye
+explanation: |
+  Ivyuma vy'inzira bikoreshwa mu gutandukanya IPv6 Address n'icuma kiri muri URL, kugira ngo ntihagire ikintu gisobanuka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was bedeutet der MTU-Wert in einem Netzwerk?
+answer: Die maximale Rahmengröße, die ohne Fragmentierung übertragen werden kann
+wrong_answers:
+  - Die maximale Speicherkapazität eines Routers ohne Fragmentierung
+  - Die maximale Anzahl von Hosts in einem Netz ohne Fragmentierung
+  - Die minimale IP-Header-Länge ohne Fragmentierung
+explanation: |
+  Die MTU (Maximum Transmission Unit) definiert die maximale Größe eines Rahmens, der auf einem Segment übertragen werden kann, ohne dass eine Fragmentierung erforderlich ist.
+reviewed: false

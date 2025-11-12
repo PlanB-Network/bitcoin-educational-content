@@ -1,0 +1,9 @@
+question: Met welk type IPv6-blok kan een bedrijf zijn prefix behouden, zelfs als het van ISP verandert?
+answer: PI (Provider Independent)
+wrong_answers:
+  - PA (Aanbieder Samenvoegbaar)
+  - LIR (lokaal internetregister)
+  - IP (verwisselbare provider)
+explanation: |
+  Een PI-blok (Provider Independent) wordt rechtstreeks aan een organisatie toegewezen door een RIR, onafhankelijk van de Internet Service Provider.
+reviewed: false

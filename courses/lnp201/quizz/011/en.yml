@@ -6,4 +6,4 @@ wrong_answers:
   - To allow Bob to spend the funds directly
 explanation: |
   Alice creates a withdrawal transaction to retrieve her funds if a problem occurs with Bob, thus ensuring the security of her deposit.
-reviewed: false
+reviewed: true

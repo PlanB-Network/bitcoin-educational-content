@@ -1,12 +1,8 @@
-question: Hoe maken gebruikers Ownership van hun geld over in het Bitcoin netwerk?
-answer: Door transacties digitaal te ondertekenen met hun privésleutels.
+question: Wat is de vereiste bandbreedte voor een Bitcoin knooppunt, rekening houdend met 1 blok van 1MB elke 10 minuten?
+answer: Ongeveer 5GB per maand.
 wrong_answers:
-  - Door hun Bitcoins fysiek te overhandigen.
-  - Door een e-mail te sturen naar de ontvanger.
-  - Door hun Bitcoin Address aan de ontvanger te geven.
-explanation: |
-  Gebruikers in het Bitcoin netwerk overschrijven Ownership van hun
-  geld over door transacties digitaal te ondertekenen met hun
-  sleutels. Hiermee wordt geverifieerd dat zij de eigenaar zijn van de
-  bitcoins die ze willen overmaken.
+  - Ongeveer 1GB per maand.
+  - Ongeveer 10GB per maand.
+  - Ongeveer 20 GB per maand.
+explanation: >-
 reviewed: true

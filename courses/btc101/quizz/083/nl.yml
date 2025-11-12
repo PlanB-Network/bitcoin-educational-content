@@ -1,12 +1,13 @@
-question: Wat is de analogie die in deze cursus wordt gebruikt om uit te leggen hoe je bitcoins kunt ontvangen zonder dat de verzender jouw geld kan stelen?
-answer: Een brievenbus.
+question: Wat is het aanbevolen gebruik van een mobiele Wallet?
+answer: Dagelijkse uitgaven opslaan.
 wrong_answers:
-  - Een bankrekening.
-  - Een kluis.
-  - Een huis.
+  - Sparen op lange termijn.
+  - Sparen op middellange termijn.
+  - Grote hoeveelheden opslaan.
 explanation: |
-  De analogie die wordt gebruikt om uit te leggen hoe u Bitcoins kunt ontvangen
-  zonder dat de verzender uw geld kan stelen is een
-  brievenbus. Mensen deponeren er geld in, maar u bent de enige
-  die hem kan openen.
+  Een mobiele Wallet wordt aanbevolen voor dagelijkse uitgaven omdat
+  het gemakkelijk is om er transacties mee uit te voeren. Het
+  niet aanbevolen voor het opslaan van grote bedragen of voor
+  langetermijnsparen, omdat het potentieel kwetsbaar is voor
+  online bedreigingen.
 reviewed: true

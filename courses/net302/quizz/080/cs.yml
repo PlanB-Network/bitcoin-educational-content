@@ -1,0 +1,9 @@
+question: Jaký grafický software lze použít k podrobné výukové analýze zachycených síťových paketů?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Trasa
+explanation: |
+  Wireshark je grafický analyzátor paketů pro hloubkové zkoumání zachyceného síťového provozu.
+reviewed: false

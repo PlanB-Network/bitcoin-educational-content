@@ -1,0 +1,11 @@
+question: Ni igiki cobaye iyo umukoresha w’urudodo ahitamwo gukurikiza amategeko atandukanye avuguruza amategeko y’uguhurizako ariho?
+answer: Iryo node ntirizosubira kuba igice c’urubuga rwa Bitcoin.
+wrong_answers:
+  - Ico gice kizoba igice c’urubuga rwa Bitcoin rutandukanye.
+  - Ico gice kizohanwa n’urubuga rwa Bitcoin.
+  - Ico gice kizohezagirwa n’urubuga rwa Bitcoin.
+explanation: |
+  Iyo umukoresha w'urudodo afashe ingingo yo gukurikiza ayandi mategeko
+  gukuraho amategeko y'ubumwe, hanyuma iyi node
+  ntivyoba bigize igice c’uruja n’uruza rwa Bitcoin.
+reviewed: true

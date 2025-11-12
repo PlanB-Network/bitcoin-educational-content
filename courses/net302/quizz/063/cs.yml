@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl zavedení protokolu IPv6?
+answer: Poskytnutí prakticky neomezeného prostoru Address
+wrong_answers:
+  - Zvýšení propustnosti sítě Ethernet čtyřnásobně
+  - Postupné nahrazování protokolu TCP protokolem UDP
+  - Snížení počtu bajtů v paketu
+explanation: |
+  Hlavním účelem protokolu IPv6 je vyřešit nedostatek IP adres masivním rozšířením prostoru Address.
+reviewed: false

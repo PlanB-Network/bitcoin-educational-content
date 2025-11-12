@@ -1,10 +1,13 @@
-question: Quando ocorreu a guerra do tamanho do bloco?
-answer: Em 2017.
+question: Qual é o propósito deste curso sobre Bitcoin?
+answer: Apresentar alguns aspectos monetários gerais do Bitcoin, como usá-lo e seu futuro.
 wrong_answers:
-  - Em 2008.
-  - Em 2010.
-  - Em 2019.
-explanation: >-
-  A guerra do tamanho do bloco ocorreu em 2017. Este conflito opôs os atores que queriam modificar o Bitcoin aumentando o tamanho do bloco para aumentar a capacidade de transação,
-  aos que buscavam preservar a independência e o poder dos usuários mantendo o tamanho em 1 MB.
+  - Apresentar como minerar Bitcoin.
+  - Apresentar como regular o Bitcoin.
+  - Apresentar como criar um novo protocolo de Bitcoin.
+explanation: |
+  O propósito deste curso sobre Bitcoin é discutir as
+  características monetárias gerais do Bitcoin, incluindo como
+  comprar e vender bitcoins, armazená-los de forma segura em
+  carteiras digitais e usá-los para transações. Também visa
+  explorar o futuro do Bitcoin.
 reviewed: true

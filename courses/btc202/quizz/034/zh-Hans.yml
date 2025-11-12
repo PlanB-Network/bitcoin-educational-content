@@ -1,0 +1,9 @@
+question: 原始实现与 "盒中节点 "的主要区别是什么？
+answer: Interface 和集成应用程序的存在
+wrong_answers:
+  - 网络兼容性
+  - 存储在磁盘中的 Blockchain 大小
+  - 使用的协议和货币
+explanation: |
+  原始实施方案只安装节点软件，而盒装节点则增加了 Interface、App Store 和集成服务。
+reviewed: true

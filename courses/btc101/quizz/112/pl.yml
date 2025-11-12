@@ -1,15 +1,11 @@
-question: Dlaczego warto kupować bitcoiny bez KYC?
-answer: Aby zapewnić prywatność użytkownika.
+question: Czym jest BitcoinTalk?
+answer: Miejsce dyskusji dla użytkowników Bitcoin.
 wrong_answers:
-  - Aby zapewnić rejestrację wszystkich użytkowników Bitcoin.
-  - Aby kupić po niskiej cenie.
-  - Aby sprzedać po niskiej cenie.
+  - Oprogramowanie Bitcoin Mining.
+  - A Bitcoin Wallet.
+  - Konferencja Bitcoin.
 explanation: |
-  Kupowanie bitcoinów bez KYC oznacza nabywanie bitcoinów bez
-  przechodzenia przez standardowe procedury weryfikacji
-  których wymaga wiele giełd i platform
-  wymaga. Jednym z głównych powodów, dla których osoby fizyczne
-  jest zachowanie prywatności, zapewniając, że ich
-  dane osobowe i działalność finansowa pozostają
-  nieujawnione.
+  Forum BitcoinTalk jest miejscem dyskusji dla użytkowników Bitcoin
+  użytkowników. Zostało stworzone przez Satoshi Nakamoto 22 listopada,
+  2009.
 reviewed: true

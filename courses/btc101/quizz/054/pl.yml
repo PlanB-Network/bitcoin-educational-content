@@ -1,10 +1,11 @@
-question: Jaka jest druga faza zjawiska hiperinflacji?
-answer: Upadek waluty i wzrost cen.
+question: Jak nazywa się wydarzenie, w którym nagroda za Mining zostaje zmniejszona o połowę?
+answer: Halving
 wrong_answers:
-  - Utrata zaufania.
-  - Błędne koło drukowania pieniędzy.
-  - Pojawia się nowa waluta.
+  - Podwojenie
+  - Ćwiartowanie
+  - Potrojenie
 explanation: |
-  Drugą fazą hiperinflacji jest upadek waluty i wzrost cen
-  wzrost cen, tuż po fazie utraty zaufania.
+  Zdarzenie, w którym nagroda za Mining jest zmniejszona o połowę, nazywane jest
+  Halving. To zdarzenie nadaje krzywej emisji monetarnej kształt schodkowy
+  kształt przypominający schody.
 reviewed: true

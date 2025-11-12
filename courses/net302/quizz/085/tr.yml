@@ -1,0 +1,9 @@
+question: 8.8.8.8 adresine giden bir paketin hangi Interface ve ağ geçidi üzerinden yönlendirileceğini kontrol etmek için hangi komut kullanılabilir?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address>, bir paketin belirli bir hedefe ulaşmak için izleyeceği tam yolu gösterir.
+reviewed: false

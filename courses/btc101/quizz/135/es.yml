@@ -1,11 +1,10 @@
-question: ¿Cuál es la función del ajuste de dificultad en la red de Bitcoin?
-answer: Asegura que un bloque se agregue a la blockchain aproximadamente cada diez minutos.
+question: ¿Qué es un nodo podado en el contexto de Bitcoin?
+answer: Un nodo que solo mantiene los últimos N bloques en memoria.
 wrong_answers:
-  - Determina el precio de Bitcoin.
-  - Regula el número de bitcoins que pueden ser minados en la blockchain.
-  - Determina el tamaño de un bloque.
+  - Un nodo que solo valida transacciones.
+  - Un nodo que solo transmite información a otros nodos.
+  - Un nodo que solo hace cumplir las reglas del protocolo de Bitcoin.
 explanation: >-
-  El ajuste de dificultad en la red de Bitcoin asegura que un bloque
-  se agregue aproximadamente cada diez minutos. Esto es parte de las reglas del protocolo de
-  la red de Bitcoin.
+  Un nodo podado en el contexto de Bitcoin es un nodo que solo mantiene
+  los últimos N bloques en memoria.
 reviewed: true

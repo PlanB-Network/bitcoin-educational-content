@@ -1,0 +1,10 @@
+question: Mu nyishu zikurikira, ni uwuhe mugenzo utari mwiza wo gucungera ihinduka ry’umuntu ryitwa doxxic?
+answer: Gufatanya ama UTXO ya doxxic hamwe.
+wrong_answers:
+  - Guvanga doxxic UTXOs mu kidengeri gitoyi.
+  - Gutanga ama UTXO y’umuntu doxxic.
+  - Gushirako ikimenyetso doxxic UTXOs z’umuntu nk’izidashobora gukoreshwa.
+explanation: |
+  Ni vyiza kudafatanya doxxic UTXOs hamwe kuko bituma habaho ihuriro hagati y'ibintu bitandukanye vy'ukoresha muri Whirlpool.
+  
+reviewed: false

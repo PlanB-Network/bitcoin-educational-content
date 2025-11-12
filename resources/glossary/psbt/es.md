@@ -11,4 +11,4 @@ Acrónimo de "Transacción Bitcoin Parcialmente Firmada". Es una especificación
 
 El formato PSBT facilita la interoperabilidad entre diferentes software de monedero y dispositivos de firma (monedero hardware). Actualmente se utiliza la versión 0 del PSBT, definida en BIP174, pero se está proponiendo la versión 2 a través de BIP370.
 
-> ► *La versión 1 del PSBT no existe. Dado que la versión 0 fue la primera, la segunda versión se denominó informalmente versión 2. Ava Chow, autora del BIP370, decidió asignar el número 2 a esta nueva versión para evitar confusiones
+> ► *La versión 1 del PSBT no existe. Dado que la versión 0 fue la primera, la segunda versión se denominó informalmente versión 2. Ava Chow, autora del BIP370, decidió asignar el número 2 a esta nueva versión para evitar confusiones*

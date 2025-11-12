@@ -1,0 +1,9 @@
+question: ¿Qué base de datos mantiene localmente un nodo Bitcoin para hacer un seguimiento de la producción no gastada?
+answer: El conjunto UTXO
+wrong_answers:
+  - La Mempool
+  - La Blockchain
+  - Historia de Wallet
+explanation: |
+  El nodo mantiene el conjunto UTXO, que es el conjunto de salidas no gastadas disponibles para futuras transacciones.
+reviewed: true

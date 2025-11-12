@@ -1,5 +1,5 @@
 ---
-name: Мисти Бриз
+name: Misty Breez
 description: Бескозырка "Молния Wallet".
 ---
 
@@ -81,7 +81,7 @@ Liquid - это параллельная Layer сеть Bitcoin, обеспеч�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Чтобы создать резервную копию фраз, выберите меню **Параметры > Безопасность**, затем пункт **Проверьте резервную копию фраз**.
 
@@ -210,4 +210,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

@@ -1,11 +1,13 @@
-question: ¿Cuál debería ser la principal preocupación cuando posees bitcoin?
-answer: La seguridad de tus fondos.
+question: ¿Cuál es el uso recomendado de una cartera física sin conexión, o fría?
+answer: Almacenar grandes cantidades.
 wrong_answers:
-  - El valor del Bitcoin en términos de dólares.
-  - La legalidad de poseer bitcoins.
-  - El permiso para gastar tus fondos.
+  - Almacenar gastos diarios.
+  - Almacenar pequeñas cantidades.
+  - Almacenar ahorros a corto plazo.
 explanation: |
-  Cuando posees bitcoins, la preocupación principal es la seguridad
-  de tus fondos. Esto se debe a que el Bitcoin, como cualquier otra forma
-  de moneda, puede ser robado o perdido si no se asegura adecuadamente.
+  Se recomienda una cartera física sin conexión, o fría, para
+  almacenar grandes cantidades porque es menos vulnerable a
+  amenazas en línea que las carteras calientes. Sin embargo, no se
+  recomienda para gastos diarios porque es menos accesible para
+  transacciones diarias.
 reviewed: true

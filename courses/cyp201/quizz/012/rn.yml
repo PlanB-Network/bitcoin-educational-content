@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’ibarabara rikoreshwa na SHA512 muri HMAC?
+answer: 128 bayiti
+wrong_answers:
+  - 64 bayiti
+  - 256 bayiti
+  - 1024 bayiti
+explanation: |
+  SHA512 ikoresha amabuye y’amabayiti 128, angana n’ibice 1024, ku biharuro vyayo.
+reviewed: false

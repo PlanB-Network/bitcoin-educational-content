@@ -1,8 +1,8 @@
-question: Jak postrzegany jest Bitcoin w porównaniu z walutami fiducjarnymi?
-answer: Jako gospodarka równoległa.
+question: Czym jest OpenNode?
+answer: Proste rozwiązanie online dla firm do akceptowania Bitcoin.
 wrong_answers:
-  - Jako gospodarka zastępcza.
-  - Jako gospodarka przemysłowa.
-  - Jako gospodarka trzeciorzędna.
+  - Typ węzła Bitcoin, który jest używany jednocześnie przez wielu użytkowników.
+  - Oprogramowanie Bitcoin Mining o otwartym kodzie źródłowym.
+  - Platforma Bitcoin Exchange.
 explanation: >-
 reviewed: true

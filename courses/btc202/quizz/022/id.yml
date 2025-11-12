@@ -1,0 +1,9 @@
+question: Menurut teori perkolasi, apa yang dijamin dengan melampaui ambang batas kritis?
+answer: Penyebaran transaksi di seluruh jaringan
+wrong_answers:
+  - Pembuatan blok baru dengan segera
+  - Penekanan biaya otomatis oleh node
+  - Memblokir transaksi oleh jaringan
+explanation: |
+  Setelah ambang batas perembesan terlampaui, sebuah transaksi menyebar hampir seketika ke seluruh jaringan Bitcoin.
+reviewed: true

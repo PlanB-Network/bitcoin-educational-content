@@ -44,7 +44,7 @@ Hajde da uzmemo primer da bismo bolje razumeli. Alisa je u pekari da kupi svoj b
 
 Analizom ove transakcije, možemo videti da je pekar zaista primio `4,000 satošija` kao uplatu za baget. Alisa je koristila `10,000 satošija` kao ulaz i primila `6,000 satošija` kao izlaz, što rezultira neto saldom od `-4,000 satošija`, što odgovara ceni bageta. Što se tiče Boba, on je obezbedio `15,000 satošija` kao ulaz i primio dva izlaza: jedan od `4,000 satošija` i drugi od `11,000 satošija`, što rezultira saldom od `0`.
 
-U ovom primeru, namerno sam zanemario [rudarske naknade](https://planb.network/en/resources/glossary/transaction-fees) kako bih olakšao razumevanje. U stvarnosti, transakcione naknade se dele jednako između pošiljaoca uplate i saradnika.
+U ovom primeru, namerno sam zanemario [rudarske naknade](https://planb.academy/en/resources/glossary/transaction-fees) kako bih olakšao razumevanje. U stvarnosti, transakcione naknade se dele jednako između pošiljaoca uplate i saradnika.
 
 
 ## Koja je razlika između Stonewall i Stonewall x2?
@@ -73,7 +73,7 @@ Stoga, logika bi trebala biti sledeća kada se koristi Samourai alat za trošenj
 Ako želite pronaći saradnika koji je voljan da vam pomogne u Stonewall X2 transakciji, možete posetiti ovu Telegram grupu (nezvaničnu) koju održavaju korisnici Samourai-a kako biste se povezali sa pošiljaocima i saradnicima: [Neka svaka potrošnja bude Coinjoin.](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Saznajte više o Stonewall transakcijama**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Saznajte više o Stonewall transakcijama**](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Koja je svrha Stonewall x2 transakcije?

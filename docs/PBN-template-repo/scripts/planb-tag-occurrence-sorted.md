@@ -838,7 +838,7 @@
 - Dice Roll: 1
 - GitHub: 1
 - Obsidian: 1
-- PlanB Network: 1
+- Plan ₿ Academy: 1
 - full KYC: 1
 - full YC: 1
 - Raspberry Pi: 1

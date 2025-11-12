@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F y FIDO2
+name: "Trezor U2F & FIDO2"
 description: Refuerza tu seguridad en línea con Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Además de U2F, que permite la autenticación de dos factores, los Trezors tambi
 
 
 
-Además de la funcionalidad "sin contraseña*", FIDO2 también permite la autenticación de dos factores de forma similar a U2F.
+Además de la funcionalidad "sin contraseña", FIDO2 también permite la autenticación de dos factores de forma similar a U2F.
 
 
 
@@ -134,7 +134,7 @@ Te recomendamos que guardes este código en un lugar distinto de donde guardas t
 
 
 
-Este enfoque ofrece dos niveles de copia de seguridad en caso de pérdida de tu Trezor para la autenticación 2FA: Una primera copia de seguridad utilizando la frase Mnemonic para todas tus cuentas, y una segunda específica para cada cuenta con los códigos de emergencia. Sin embargo, es importante **no confundir la función del Mnemonic con la del código de emergencia** :
+Este enfoque ofrece dos niveles de copia de seguridad en caso de pérdida de tu Trezor para la autenticación 2FA: Una primera copia de seguridad utilizando la frase Mnemonic para todas tus cuentas, y una segunda específica para cada cuenta con los códigos de emergencia. Sin embargo, es importante **no confundir la función del Mnemonic con la del código de emergencia**:
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Simplemente sustituye `<ID_CREDENCIAL>` por uno de tus identificadores. Por ejemplo, en este caso, esto daría :
+Simplemente sustituye `<ID_CREDENCIAL>` por uno de tus identificadores. Por ejemplo, en este caso, esto daría:
 
 
 
@@ -353,4 +353,4 @@ También te recomendamos este otro tutorial, en el que vemos otra solución para
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

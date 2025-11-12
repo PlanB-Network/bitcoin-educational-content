@@ -1,0 +1,9 @@
+question: DNS 在網際網路架構中的主要角色是什麼？
+answer: 將網域名稱對應到 IP 位址
+wrong_answers:
+  - 加密路由器之間的通訊
+  - 動態指定 MAC 位址給裝置
+  - 控制網頁伺服器的存取
+explanation: |
+  DNS（網域名稱系統）將人類可讀的網域名稱轉換為路由所需的數字 IP 位址。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uthibitisho gani unaotambuliwa ulimwenguni kote katika uwanja wa usalama wa mtandao?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Uthibitishaji wa CISSP ni mojawapo ya zinazotambulika zaidi kimataifa katika nyanja ya usalama wa mtandao.
+reviewed: false

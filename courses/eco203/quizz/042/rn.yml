@@ -1,0 +1,9 @@
+question: Ni ingaruka izihe nyamukuru uburinzi bugira ku baguzi?
+answer: Bituma igiciro c'ibintu bagura kiduga .
+wrong_answers:
+  - Bituma bagura ibintu vyiza cane .
+  - Bibaha amahitamwo menshi y'ibintu .
+  - Nta ngaruka bigira ku bushobozi bwabo bwo kugura .
+explanation: |
+  Ugukingira ibintu bitera imisoro ku bintu biva hanze, ivyo bikaba bituma ibintu bizimvye cane ku baguzi.
+reviewed: false

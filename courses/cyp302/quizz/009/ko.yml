@@ -1,0 +1,9 @@
+question: 최신 암호화 체계의 보안 증명에 포함되지 않는 단계는 무엇인가요?
+answer: 사용자 Interface 설정
+wrong_answers:
+  - 보안 정의 설명
+  - 수학적 복잡성 가정
+  - 보안의 수학적 증명
+explanation: |
+  현대 암호학의 보안 증명은 암호화 보안과 관련이 없는 사용자 Interface과 같은 측면을 제외하고 목표와 수학적 가정에 중점을 둡니다.
+reviewed: false

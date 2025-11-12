@@ -1,0 +1,9 @@
+question: Какова длина бита в IPv6 Address?
+answer: 128-бит
+wrong_answers:
+  - 512 бит
+  - 64-бит
+  - 256-бит
+explanation: |
+  Длина IPv6 Address составляет 128 бит по сравнению с 32 битами для IPv4 Address.
+reviewed: false

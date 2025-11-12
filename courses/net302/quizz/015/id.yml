@@ -1,0 +1,9 @@
+question: Berapa ukuran teoretis maksimum dari datagram IP?
+answer: 65.536 byte
+wrong_answers:
+  - 1.500 byte
+  - 512 byte
+  - 255 byte
+explanation: |
+  Ukuran maksimum datagram IP adalah 65.536 byte yang ditentukan oleh batas bidang panjang total dalam header IP.
+reviewed: false

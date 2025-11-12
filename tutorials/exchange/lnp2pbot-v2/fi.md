@@ -8,7 +8,7 @@ description: Täydellinen opas LNP2PBot ja P2P Bitcoin kaupankäynnin
 
 KYC-vapaat P2P-pörssit ovat olennaisen tärkeitä käyttäjien luottamuksellisuuden ja taloudellisen riippumattomuuden säilyttämiseksi. Ne mahdollistavat suorat transaktiot yksityishenkilöiden välillä ilman henkilöllisyyden todentamista, mikä on ratkaisevan tärkeää yksityisyyttä arvostaville. Jos haluat syvällisemmän käsityksen teoreettisista käsitteistä, tutustu BTC204-kurssiin:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoinien ostaminen ja myyminen vertaisverkossa (P2P) on yksi yksityisimmistä tavoista hankkia tai luovuttaa bitcoineja. LNP2PBot on avoimen lähdekoodin Telegram-botti, joka helpottaa P2P-vaihtoja Lightning-verkossa ja mahdollistaa nopeat, edulliset ja KYC-vapaat transaktiot.
 
@@ -43,7 +43,7 @@ Aloita asentamalla yhteensopiva Lightning-lompakko. Tässä ovat yksityiskohtais
 **Suositellut salkut**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Erinomainen aloittelijoille
   - Intuitiivinen, moderni käyttöliittymä
   - Ei-puolustajuus (säilytät varojen hallinnan)
@@ -52,9 +52,9 @@ Aloita asentamalla yhteensopiva Lightning-lompakko. Tässä ovat yksityiskohtais
 
 Alla on linkki tämän lompakon ohjeeseen:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Yksinkertainen ja luotettava
   - Automaattinen kanavakonfigurointi
   - Natiivituki BOLT11-laskuille
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Alla on linkki tämän lompakon ohjeeseen:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Teknisempi, mutta erittäin täydellinen
   - Laajennetut konfigurointivaihtoehdot
   - Täydellinen kokeneille käyttäjille
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Alla on linkki tämän lompakon ohjeeseen:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Tärkeitä huomautuksia muista salkuista**
 
 ⚠️ **Tärkeää**: Varmista ennen satsin myyntiä, että salkkusi tukee "hold"-laskuja, joita botti käyttää escrow-järjestelmänä.
 
 
-- Satoshin lompakko**: Toimii hyvin satsin vastaanottamiseen, mutta saldon päivittäminen voi viivästyä, jos myynti peruutetaan.
-- Muun**: Ei suositella, koska maksut voivat epäonnistua bottien reititysmaksurajoitusten vuoksi (enintään 0,2 %).
-- Aqua**: Toimii satelliittien vastaanottamiseen, mutta saldopäivitykset voivat viivästyä (jopa 48 tuntia), jos myynti peruutetaan.
+- **Satoshin lompakko**: Toimii hyvin satsin vastaanottamiseen, mutta saldon päivittäminen voi viivästyä, jos myynti peruutetaan.
+- **Muun**: Ei suositella, koska maksut voivat epäonnistua bottien reititysmaksurajoitusten vuoksi (enintään 0,2 %).
+- **Aqua**: Toimii satelliittien vastaanottamiseen, mutta saldopäivitykset voivat viivästyä (jopa 48 tuntia), jos myynti peruutetaan.
 
 💡 **Vinkki**: Valitse suositellut salkut (Breez, Phoenix tai Blixt) optimaalisen kokemuksen saamiseksi.
 
@@ -153,7 +153,7 @@ Kun lasku on lähetetty, robotti ottaa sinuun yhteyttä myyjään.
 
 Klikkaa myyjän lempinimeä avataksesi yksityisen keskustelukanavan, jossa voit vaihtaa fiat-maksutietoja.
 
-**5. Maksuvahvistus
+**5. Maksuvahvistus**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbotilla on useita etuja ja haittoja verrattuna muihin P2P-vaihtoratkaisuihi
 ### Lnp2pbotin edut
 
 
-- KYC:tä ei tarvita** : Toisin kuin jotkut alustat, Lnp2pbot ei vaadi henkilöllisyyden tarkistamista, mikä säilyttää käyttäjän luottamuksellisuuden.
-- Nopeat tapahtumat**: Lightning-verkon ansiosta maksutapahtumat ovat lähes välittömiä.
-- Alhaiset maksut** : Transaktiokustannukset ovat alhaisemmat kuin perinteisissä pörsseissä.
-- Mobiilikäytettävyys**: LNP2PBot on käytettävissä Telegramin kautta, joten sitä on helppo käyttää mobiililaitteilla.
-- Helppo käyttää** : Lnp2pbotin intuitiivinen käyttöliittymä tekee siitä helppokäyttöisen myös vähemmän kokeneille käyttäjille.
+- **KYC:tä ei tarvita**: Toisin kuin jotkut alustat, Lnp2pbot ei vaadi henkilöllisyyden tarkistamista, mikä säilyttää käyttäjän luottamuksellisuuden.
+- **Nopeat tapahtumat**: Lightning-verkon ansiosta maksutapahtumat ovat lähes välittömiä.
+- **Alhaiset maksut**: Transaktiokustannukset ovat alhaisemmat kuin perinteisissä pörsseissä.
+- **Mobiilikäytettävyys**: LNP2PBot on käytettävissä Telegramin kautta, joten sitä on helppo käyttää mobiililaitteilla.
+- **Helppo käyttää**: Lnp2pbotin intuitiivinen käyttöliittymä tekee siitä helppokäyttöisen myös vähemmän kokeneille käyttäjille.
 
 ### Lnp2pbotin haitat
 
 
-- Telegram-riippuvuus**: Lnp2pbotin käyttö edellyttää Telegram-tiliä, joka ei välttämättä sovi kaikille käyttäjille.
-- Vähemmän likviditeettiä**: Verrattuna vakiintuneempiin alustoihin, kuten Bisqiin, likviditeetti voi olla rajoitetumpi.
+- **Telegram-riippuvuus**: Lnp2pbotin käyttö edellyttää Telegram-tiliä, joka ei välttämättä sovi kaikille käyttäjille.
+- **Vähemmän likviditeettiä**: Verrattuna vakiintuneempiin alustoihin, kuten Bisqiin, likviditeetti voi olla rajoitetumpi.
 
 Sen sijaan Bisqin kaltaiset ratkaisut tarjoavat enemmän likviditeettiä ja työpöytäliittymän, mutta niihin saattaa liittyä korkeampia maksuja ja pidempiä transaktioaikoja. HodlHodl ja Robosat puolestaan tarjoavat myös KYC-vapaata kaupankäyntiä, mutta niillä on erilaiset maksurakenteet ja käyttöliittymät.
 

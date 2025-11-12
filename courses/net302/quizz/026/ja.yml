@@ -1,0 +1,9 @@
+question: TCP/IPモデルのインターネットLayerで使用されるデータ単位はどれか？
+answer: データグラム
+wrong_answers:
+  - セグメント
+  - フレーム
+  - メッセージ
+explanation: |
+  インターネットLayerは、トランスポートLayerからのセグメントをカプセル化して、データグラムを操作する。
+reviewed: false

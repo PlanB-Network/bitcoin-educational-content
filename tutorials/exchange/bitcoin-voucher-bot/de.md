@@ -4,9 +4,9 @@ description: Ein Telegram-Bot zum vertraulichen Kauf von Bitcoin
 ---
 ![image](assets/cover.webp)
 
-dieses Tutorium wurde geschrieben von_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Dieses Tutorial wurde geschrieben von_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Einführung
+## Einführung
 
 Der BitcoinVoucherBot ist ein Tool, mit dem Bitcoins in Exchange für Euro gekauft werden können.
 
@@ -32,7 +32,7 @@ Im Telegram-Chat bereiten wir eine Bestellung vor, mit einer Banküberweisung be
 
 Die Aktivierung ist ein einfacher, einmaliger Vorgang. Suchen Sie in Telegram nach _@BitcoinVoucherBot_ und sobald Sie in den Chat des Bots gelangen, wird unten ein großer _Start/Start_ Button angezeigt. Daraufhin antwortet der Bot und präsentiert ein Menü mit den wichtigsten Befehlen, die ihm zur Verfügung stehen. Außerdem erscheinen die ersten Willkommensnachrichten, die man aufmerksam lesen sollte.
 
-**Warnung**: Es gibt mehrere Betrüger, die sich als Original VoucherBot ausgeben. Wenn Sie sich bei der Suche über Telegram nicht sicher sind, rufen Sie bitte den BitcoinVoucherBot-Link von der [offiziellen Website](https://www.bitcoinvoucherbot.com/) auf
+**Achtung**: Es gibt mehrere Betrüger, die sich als der originale VoucherBot ausgeben. Wenn Sie sich bei der Suche über Telegram nicht sicher sind, greifen Sie auf den BitcoinVoucherBot-Link von der [offiziellen Website](https://www.bitcoinvoucherbot.com/) zu
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Zu den wichtigsten Maßnahmen gehören:
 - _/fees_: ein Befehl zur Überprüfung der Netzgebühren. Um sie zu bewerten, ist es immer am besten, sich auf Mempool.space zu verlassen.
 - _/support_: Im Bedarfsfall werden Kontakte angezeigt, um Probleme an das Support-Team zu melden.
 
-# Bitcoin Beschaffungsverfahren
+## Verfahren zum Kauf von Bitcoin
 
-## Vorbereitung der Bestellung
+### Vorbereitung der Bestellung
 
 Klicken Sie im Befehlsmenü auf _/Kaufen_
 
@@ -97,7 +97,7 @@ Wenn alles korrekt ist, klicken Sie auf _Fortfahren_.
 
 ![image](assets/it/10.webp)
 
-## Zahlung
+### Zahlung
 
 Nach einigen Augenblicken, die für die Verarbeitung der Daten notwendig sind, antwortet VoucherBot mit einer Nachricht, die alle notwendigen Angaben enthält, um die Bestellung abzuschließen. Je nachdem, was Ihre Bank verlangt, sind die relevanten Informationen:
 
@@ -124,7 +124,7 @@ Bitte beachten:
 - für alle Bedürfnisse, Bitcoin VoucherBot hat einen ausgezeichneten [Support](https://t.me/BitcoinVoucherGroup) Service auf Telegram.
 
 ---
-## Erlösung
+### Einlösung
 
 Sobald die Zahlung erfolgreich ist, sendet Bitcoin VoucherBot den Gutschein direkt in den Chat. Der Blitzgutschein hat die Form eines QR-Codes, der auf einem orangefarbenen Hintergrund gedruckt ist.
 
@@ -139,7 +139,7 @@ Es gibt alle Daten, die man braucht, um sie einzulösen:
 
 Sie können den Gutschein einlösen, indem Sie den QR-Code mit der Scanfunktion eines kompatiblen Wallet Lightning Network einrahmen, oder über LNURL, die ebenfalls unter dem QR-Code angezeigt wird.
 
-Für dieses Tutorial haben wir Wallet von Satoshi verwendet, wobei die Scan-Funktion mit der Taste _Senden_ aktiviert wurde
+Für dieses Tutorial haben wir Wallet Of Satoshi verwendet, mit der Scan-Funktion, die über die Schaltfläche _Send_ aktiviert wird.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Bei aktivierter Handykamera den QR-Code im Chat einrahmen und Telegram vom PC au
 
 ![image](assets/it/34.webp)
 
-Bevor Sie fortfahren, Wallet von Satoshi von einem Verifizierungsbildschirm, der den Betrag enthält, der genau mit dem Betrag auf dem Gutschein und, als Beschreibung, BitcoinVoucherBot ausgedrückt. Um den Gutschein einzulösen, klicken Sie einfach auf _Receive_
+Bevor Sie fortfahren, zeigt Wallet Of Satoshi einen Überprüfungsbildschirm an, der den Betrag enthält, der genau dem auf dem Gutschein angegebenen entspricht, sowie als Beschreibung BitcoinVoucherBot. Um den Gutschein einzulösen, genügt es, auf _Receive_ zu klicken.
 
 ![image](assets/it/35.webp)
 
-Wallet Von Satoshi läuft für einige Augenblicke
+Wallet Of Satoshi verarbeitet für einige Augenblicke.
 
 ![image](assets/it/36.webp)
 
 und schließlich wird die Einziehung gemeldet und ist sofort in der Bilanz des Wallet verfügbar.
 
-**Wallet von Satoshi ist eine Sorgerechtsanwendung: Unmittelbar nach der Einlösung des Gutscheins ist es ratsam, Sats auf einen Wallet ohne Sorgerecht zu übertragen
+**Wallet of Satoshi ist eine Custodial-App: Direkt nach dem Einlösen des Gutscheins wird empfohlen, die Sats in eine Non-Custodial-Wallet zu übertragen.**
 
 ![image](assets/it/37.webp)
 

@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani kuu la itifaki ya IP katika muundo wa TCP/IP?
+answer: Peana pakiti za data kutoka kwa seva pangishi moja hadi nyingine
+wrong_answers:
+  - Dhibiti usimbaji fiche wa mawasiliano ya mtandao
+  - Hakikisha miunganisho inayoendelea kati ya programu
+  - Tafsiri anwani za MAC kuwa anwani za IP
+explanation: |
+  Itifaki ya IP hushughulikia ushughulikiaji wa kimantiki wa vifaa na kuhakikisha kuwa pakiti zinapitishwa kwenye mitandao iliyounganishwa.
+reviewed: false

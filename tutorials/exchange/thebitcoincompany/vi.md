@@ -1,5 +1,5 @@
 ---
-name: Công ty Bitcoin
+name: The Bitcoin Company
 description: Làm thế nào tôi có thể mua hàng hóa và dịch vụ bằng BTC với Công ty Bitcoin?
 ---
 ![cover](assets/cover.webp)
@@ -40,7 +40,7 @@ Tóm lại, "chi tiêu" và "thay thế" dường như là hướng đi đúng �
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Thông điệp không thể rõ ràng hơn: "Chi tiêu Bitcoin của bạn ở mọi nơi".
 
@@ -117,9 +117,9 @@ Nếu bạn là người theo trường phái cũ và muốn tìm hiểu cách d
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Về phần mình, chúng ta hãy chọn "Đăng nhập bằng Lightning".
 
@@ -154,7 +154,7 @@ Bây giờ, hãy mở Wallet Phoenix và quét mã QR được hiển thị. Sau
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Ngay lập tức, bạn sẽ được xác định thông qua Wallet Lightning của mình, có thể là Phoenix hoặc một loại khác, vì hầu hết các ví trên thị trường đều hỗ trợ tính năng này.
 
@@ -291,4 +291,4 @@ Nếu bạn muốn góp phần phổ biến Bitcoin và khuyến khích một nh
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

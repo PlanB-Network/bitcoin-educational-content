@@ -1,10 +1,11 @@
-question: Hiperenflasyon olgusunun ikinci aşaması nedir?
-answer: Para birimi çöküşü ve fiyat artışı.
+question: Mining ödülünün yarıya indirildiği etkinliğin adı nedir?
+answer: Halving
 wrong_answers:
-  - Güven Kaybı.
-  - Para basmanın kısır döngüsü.
-  - Yeni bir para birimi ortaya çıkıyor.
+  - İkiye katlama
+  - Çeyrekleme
+  - Üçe katlama
 explanation: |
-  Hiperenflasyonun ikinci aşaması para biriminin çöküşüdür &
-  güven Kaybı Aşamasından hemen sonra fiyat artışı.
+  Mining için ödülün yarıya indirildiği olaya
+  Halving. Bu olay, parasal ihraç eğrisine bir
+  merdiven benzeri bir şekil.
 reviewed: true

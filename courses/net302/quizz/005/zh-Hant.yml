@@ -1,0 +1,9 @@
+question: 哪份文件是 TCP/IP 通訊協定規格的技術參考？
+answer: RFC
+wrong_answers:
+  - 白皮書
+  - ISO
+  - IIP
+explanation: |
+  RFC (Request For Comments) 是定義 TCP/IP 通訊協定規格的參考文件。
+reviewed: false

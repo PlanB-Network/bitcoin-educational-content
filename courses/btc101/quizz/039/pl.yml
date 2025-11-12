@@ -1,13 +1,13 @@
-question: Jaki jest główny cel stojący za stworzeniem Bitcoin?
-answer: Oddzielić państwo od pieniędzy.
+question: Jaki jest potencjalny wpływ obecnego systemu finansowego na aktorów politycznych?
+answer: Nie są oni zachęcani do wprowadzania radykalnych zmian, co pozwala systemowi kontynuować swój bieg aż do możliwej implozji.
 wrong_answers:
-  - Aby wyeliminować standard złota.
-  - Aby transakcje były szybsze i tańsze.
-  - Aby wszyscy byli bogaci.
+  - Są zachęcani do wprowadzania radykalnych zmian, aby zapobiec możliwej implozji.
+  - Nie mają oni motywacji do utrzymywania status quo w celu zapewnienia sobie bogactwa.
+  - Są zachęcani do myślenia długoterminowego.
 explanation: |
-  Bitcoin został stworzony w celu oddzielenia państwa od pieniędzy
-  od pieniędzy. Jest to odpowiedź na systemowe wyzwania obecnego systemu finansowego
-  obecnego systemu finansowego, w którym państwo ma pełną kontrolę nad pieniędzmi
-  pełną kontrolę nad pieniądzem Supply i może nim manipulować na swoją korzyść
-  na swoją korzyść.
+  Ponieważ podmioty polityczne czerpią korzyści z obecnego
+  nie mają motywacji do wprowadzania radykalnych zmian.
+  Pozwala to systemowi kontynuować swój kurs aż do możliwej implozji
+  możliwej implozji, ponieważ system jest regulowany i
+  regulowany i ograniczany, aby uniknąć własnego upadku.
 reviewed: true

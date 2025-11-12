@@ -1,0 +1,9 @@
+question: Ni kubera iki ukwiye kwama usuzuma ubutungane n’ukuri kw’amaporogarama akuwe kuri Internet?
+answer: Kugira ngo wirinde gushiramwo porogaramu mbi
+wrong_answers:
+  - Kugira ngo sisitemu ikore neza
+  - Kubika ubugari bw'umurongo
+  - Kugira ngo wihutishe gushiramwo
+explanation: |
+  Gusuzuma ubutungane n’ukuri birafasha gukingira gushiramwo porogarama zononekaye, zanduye canke zitari mu mategeko.
+reviewed: false

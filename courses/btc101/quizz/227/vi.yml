@@ -1,11 +1,12 @@
-question: Điều gì có thể xảy ra với các dịch vụ chuyển tiền truyền thống như Western Union, các ngân hàng trung ương, Visa và Mastercard nếu họ không áp dụng Lightning Network?
-answer: Họ có thể biến mất.
+question: Một trong những ứng dụng tiềm năng của Lightning Network trong cuộc sống hàng ngày là gì?
+
+answer: Thanh toán tức thì trong thương mại.
+
 wrong_answers:
-  - Họ có thể trở nên phổ biến hơn.
-  - Họ có thể trở nên an toàn hơn.
-  - Họ có thể trở nên phi tập trung hơn.
-explanation: |
-  Các dịch vụ chuyển tiền truyền thống như Western Union,
-  các ngân hàng trung ương, Visa và Mastercard có thể biến mất nếu họ
-  không áp dụng công nghệ Lightning Network.
+  - Đào Bitcoin mới.
+  - Tạo ra các loại tiền mã hóa mới.
+  - Tăng giá trị của Bitcoin.
+
+explanation: Lightning Network mở ra cánh cửa cho một loạt các ứng dụng tiềm năng cho Bitcoin mà trước đây không thể thực hiện được do các hạn chế cần thiết để đảm bảo an ninh và tính phi tập trung của Bitcoin. Trong số các ứng dụng trong cuộc sống hàng ngày, chúng ta có thể kể đến việc thanh toán tức thì trong thương mại.
+
 reviewed: true

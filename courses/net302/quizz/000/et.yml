@@ -1,0 +1,9 @@
+question: Milline on võrgu põhiline roll IT-süsteemis?
+answer: Andmete lubamine Exchange
+wrong_answers:
+  - Arvuti mälu suurendamine
+  - Varukoopiate loomine
+  - Võimaldab Exchange arvutiseadmete kasutamise
+explanation: |
+  Võrk ühendab mitu seadet, et võimaldada teabe ringlust ja Exchange.
+reviewed: false

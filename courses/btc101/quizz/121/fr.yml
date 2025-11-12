@@ -1,9 +1,11 @@
-question: Depuis sa création, quel pourcentage du temps le réseau Bitcoin a-t-il été fonctionnel ?
-answer: 99,988 %
+question: Lorsque vous créez un plan de succession, qu'est-ce qui n'est pas nécessaire d'inclure ?
+answer: Le nom du portefeuille Bitcoin que vous utilisez habituellement.
 wrong_answers:
-  - 100 %
-  - 90,009 %
-  - 80,17 %
+  - Une lettre manuscrite listant vos actifs.
+  - Une description de comment accéder à vos fonds.
+  - Les informations de contact de personnes de confiance.
 explanation: |
-  La disponibilité en ligne de Bitcoin est de 99,988 % depuis 2009.
+  Créer un plan de succession est une étape cruciale pour assurer que vos bitcoins soient correctement gérés après votre décès.
+  Ce plan peut inclure une lettre manuscrite listant vos actifs,
+  leurs méthodes d'accès, et les informations des personnes de confiance à contacter.
 reviewed: true

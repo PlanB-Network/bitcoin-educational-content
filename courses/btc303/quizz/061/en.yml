@@ -1,0 +1,8 @@
+question: What is the fundamental requirement that enables users to verify that Bitcoin software 'works as advertised' according to the open source principles discussed?
+answer: Users must have unrestricted access to the source code of the software they wish to verify
+wrong_answers:
+  - Users must obtain permission from Bitcoin Core maintainers before accessing the verification tools
+  - Users must pay a reasonable fee to access the compiled verification binaries from official sources
+  - Users must rely on cryptographic signatures from trusted developers to validate the software behavior
+explanation: |
+  The chapter explicitly states that for users to verify Bitcoin software 'works as advertised,' they must have unrestricted access to the source code. This connects directly to the 'Don't Trust, Verify' principle and the open source definition's requirement for source code availability. The wrong answers contradict core open source principles: requiring permission violates the free access principle, paying fees contradicts the no-cost distribution requirement, and relying solely on signatures undermines the verification-through-inspection capability that open source provides.

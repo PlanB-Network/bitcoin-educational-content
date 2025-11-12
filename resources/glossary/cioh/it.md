@@ -11,4 +11,4 @@ Ancora oggi, il CIOH rimane la principale euristica utilizzata dalle società di
 
 ![](../../dictionnaire/assets/13.webp)
 
-> *In inglese, "CIOH" potrebbe essere tradotto come "Common Input Ownership Heuristic"
+> *In inglese, "CIOH" potrebbe essere tradotto come "Common Input Ownership Heuristic"*

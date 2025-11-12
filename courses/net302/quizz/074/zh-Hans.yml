@@ -1,0 +1,9 @@
+question: 哪个组织负责管理全球 IPv6 Address 块的初始分配？
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA 位于分配层次结构的顶端，将 IPv6 块分配给五个地区互联网注册管理机构 (RIR)。
+reviewed: false

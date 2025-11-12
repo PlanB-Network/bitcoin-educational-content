@@ -1,8 +1,12 @@
-question: Koja je glavna svrha Lightning mreže?
-answer: Da bi se olakšale mikro-transakcije.
+question: Koja je jedna od potencijalnih prednosti Lightning mreže za kreatore sadržaja?
+answer: Bili bi podstaknuti da proizvode sadržaj dobrog kvaliteta kako bi zadržali pažnju korisnika.
 wrong_answers:
-  - Da bi se povećala vrednost Bitkoina.
-  - Da zameni Bitkoin protokol.
-  - Da biste kreirali novu kriptovalutu.
-explanation: >-
+  - Oni bi mogli naplaćivati više za svoj sadržaj.
+  - Oni bi mogli da dosegnu širu publiku.
+  - Oni bi mogli brže proizvoditi sadržaj kako bi zadržali pažnju korisnika.
+explanation: |
+  Sa Lightning mrežom, kreatori sadržaja bi bili
+  podstaknuti da proizvode sadržaj dobrog kvaliteta kako bi zadržali
+  pažnju korisnika. Korisnici bi, zauzvrat, plaćali samo za
+  sadržaj koji konzumiraju, čime bi se eliminisale unapred plaćene pretplate.
 reviewed: true

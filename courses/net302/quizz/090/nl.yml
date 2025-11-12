@@ -1,0 +1,9 @@
+question: Wanneer wordt de -u optie in lsof gebruikt?
+answer: Filteren op gebruiker
+wrong_answers:
+  - DNS-resolutie forceren
+  - Open poorten weergeven
+  - Een DNS-server opgeven
+explanation: |
+  De -u optie in lsof beperkt de uitvoer tot bestanden die door een specifieke gebruiker of UID zijn geopend.
+reviewed: false

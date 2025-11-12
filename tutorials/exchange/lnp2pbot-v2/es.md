@@ -8,7 +8,7 @@ description: Guía completa sobre LNP2PBot y el comercio bitcoin P2P
 
 Los intercambios P2P (peer-to-peer) son esenciales para preservar la confidencialidad y la autonomía financiera de los usuarios. Permiten transacciones directas entre particulares sin necesidad de verificar la identidad, lo que es crucial para quienes valoran la privacidad. Para profundizar en los conceptos teóricos, consulte el curso BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Comprar y vender bitcoins peer-to-peer (P2P) es uno de los métodos más privados de adquirir o deshacerse de bitcoins. LNP2PBot es un bot de Telegram de código abierto que facilita los intercambios P2P en la red Lightning, permitiendo transacciones rápidas, de bajo coste y libres de KYC.
 
@@ -43,7 +43,7 @@ Empieza por instalar un monedero Lightning compatible. Aquí tienes nuestras rec
 **Carteras recomendadas**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Excelente para principiantes
   - Interfaz intuitiva y moderna
   - Sin custodia (usted conserva el control de sus fondos)
@@ -52,9 +52,9 @@ Empieza por instalar un monedero Lightning compatible. Aquí tienes nuestras rec
 
 A continuación se muestra el enlace al tutorial de esta cartera:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Sencillo y fiable
   - Configuración automática de canales
   - Compatibilidad nativa con las facturas BOLT11
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 A continuación se muestra el enlace al tutorial de esta cartera:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Más técnico pero muy completo
   - Opciones avanzadas de configuración
   - Perfecto para usuarios experimentados
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 A continuación se muestra el enlace al tutorial de esta cartera:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Notas importantes sobre otras carteras**
 
 ⚠️ **Importante**: Antes de vender sats, asegúrate de que tu cartera soporta facturas "hold", que son utilizadas por el bot como sistema de custodia.
 
 
-- Cartera de Satoshi**: Funciona bien para recibir sats, pero puede tener retrasos en la actualización del saldo si se cancela una venta.
-- Muun**: No recomendado ya que los pagos pueden fallar debido a los límites de la comisión de enrutamiento de bots (máximo 0,2%).
-- Aqua**: Funciona para recibir sats, pero puede tener grandes retrasos (hasta 48 horas) para las actualizaciones de saldo en caso de cancelación de una venta.
+- **Cartera de Satoshi**: Funciona bien para recibir sats, pero puede tener retrasos en la actualización del saldo si se cancela una venta.
+- **Muun**: No recomendado ya que los pagos pueden fallar debido a los límites de la comisión de enrutamiento de bots (máximo 0,2%).
+- **Aqua**: Funciona para recibir sats, pero puede tener grandes retrasos (hasta 48 horas) para las actualizaciones de saldo en caso de cancelación de una venta.
 
 💡 **Consejo**: Para una experiencia óptima, opta por las carteras recomendadas (Breez, Phoenix o Blixt).
 
@@ -153,7 +153,7 @@ Una vez enviada la factura, el bot te pone en contacto con el vendedor.
 
 Haz clic en el apodo del vendedor para abrir un canal de chat privado en el que podrás intercambiar datos de pago en fiat.
 
-**5. Confirmación del pago
+**5. Confirmación del pago**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbot tiene varias ventajas y desventajas sobre otras soluciones de intercamb
 ### Ventajas de Lnp2pbot
 
 
-- No se requiere KYC** : A diferencia de algunas plataformas, Lnp2pbot no requiere verificación de identidad, preservando así la confidencialidad del usuario.
-- Transacciones rápidas**: Gracias a la red Lightning, las transacciones son casi instantáneas.
-- Comisiones reducidas** : Los costes de transacción son inferiores a los de las bolsas tradicionales.
-- Disponibilidad móvil**: LNP2PBot es accesible a través de Telegram, lo que facilita su uso en dispositivos móviles.
-- Fácil de usar** : La interfaz intuitiva de Lnp2pbot hace que sea fácil de usar, incluso para los usuarios menos experimentados.
+- **No se requiere KYC**: A diferencia de algunas plataformas, Lnp2pbot no requiere verificación de identidad, preservando así la confidencialidad del usuario.
+- **Transacciones rápidas**: Gracias a la red Lightning, las transacciones son casi instantáneas.
+- **Comisiones reducidas**: Los costes de transacción son inferiores a los de las bolsas tradicionales.
+- **Disponibilidad móvil**: LNP2PBot es accesible a través de Telegram, lo que facilita su uso en dispositivos móviles.
+- **Fácil de usar**: La interfaz intuitiva de Lnp2pbot hace que sea fácil de usar, incluso para los usuarios menos experimentados.
 
 ### Desventajas de Lnp2pbot
 
 
-- Dependencia de Telegram**: El uso de Lnp2pbot requiere una cuenta de Telegram, que puede no ser adecuada para todos los usuarios.
-- Menos liquidez**: En comparación con plataformas más consolidadas como Bisq, la liquidez puede ser más limitada.
+- **Dependencia de Telegram**: El uso de Lnp2pbot requiere una cuenta de Telegram, que puede no ser adecuada para todos los usuarios.
+- **Menos liquidez**: En comparación con plataformas más consolidadas como Bisq, la liquidez puede ser más limitada.
 
 En comparación, soluciones como Bisq ofrecen mayor liquidez y una interfaz de escritorio, pero pueden implicar comisiones más elevadas y plazos de transacción más largos. HodlHodl y Robosat, por su parte, también ofrecen negociación sin KYC, pero con estructuras de comisiones e interfaces diferentes.
 

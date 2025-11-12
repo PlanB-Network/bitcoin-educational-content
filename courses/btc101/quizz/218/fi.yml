@@ -1,11 +1,9 @@
-question: Mikä on Bitcoinin omaksumisen luonne tässä kurssissa kuvattuna?
-answer: Viruksen kaltainen.
+question: Milloin Lightning Network validointiin ja otettiin käyttöön ensimmäistä kertaa?
+answer: 2017
 wrong_answers:
-  - Hidas ja tasainen.
-  - Nopea ja hallitsematon.
-  - Satunnainen ja ennustamaton.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Kurssiteksti kuvailee Bitcoinin omaksumista viruksen kaltaisena,
-  mikä viittaa siihen, että se leviää nopeasti ja laajalti henkilöstä
-  toiseen, paljon kuin virus, mutta hyvässä mielessä.
+  Lightning Network validointiin ja otettiin käyttöön ensimmäistä kertaa vuonna 2017.
 reviewed: true

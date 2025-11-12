@@ -1,0 +1,9 @@
+question: Hangi yapılandırma dosyası RHEL benzeri bir sistemde statik bir ağ Interface tanımlar?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  RHEL, CentOS ve benzeri sistemlerde, her Interface'nin /etc/sysconfig/network-scripts/ içinde bulunan kendi ifcfg-* dosyası vardır.
+reviewed: false

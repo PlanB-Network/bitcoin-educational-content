@@ -33,23 +33,23 @@ Fedi Wallet là danh mục đầu tư Bitcoin đi kèm với cách tiếp cận 
 
 
 
-- Người bảo quản**: Bạn quyết định đặt niềm tin vào một thực thể bên ngoài, nhà phát triển danh mục đầu tư, người sẽ giữ các từ khôi phục cho danh mục đầu tư của bạn cho bạn. Bạn không có quyền truy cập cũng như khả năng xuất danh mục đầu tư Bitcoin của mình.
+- **Người bảo quản**: Bạn quyết định đặt niềm tin vào một thực thể bên ngoài, nhà phát triển danh mục đầu tư, người sẽ giữ các từ khôi phục cho danh mục đầu tư của bạn cho bạn. Bạn không có quyền truy cập cũng như khả năng xuất danh mục đầu tư Bitcoin của mình.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- Tự lưu ký**: Ứng dụng này cho phép bạn truy cập vào các từ khôi phục ngay khi bạn tạo Wallet. Vì vậy, bạn có thể tự do xuất bitcoin của mình sang Wallet phù hợp nhất với bạn.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Tự lưu ký**: Ứng dụng này cho phép bạn truy cập vào các từ khôi phục ngay khi bạn tạo Wallet. Vì vậy, bạn có thể tự do xuất bitcoin của mình sang Wallet phù hợp nhất với bạn.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Thay vào đó, Fedi Wallet cung cấp phương pháp liên kết, cho phép bạn tham gia một nhóm người mà bạn tin tưởng để quản lý khóa danh mục đầu tư của mình. Bạn có thể tham gia một liên kết phổ biến do Fedi đề xuất hoặc tham gia liên kết địa phương trong cộng đồng của bạn bằng cách quét mã QR hoặc dán mã mời của liên kết.
 
@@ -75,7 +75,7 @@ Tìm hiểu thêm về các khuyến nghị sao lưu từ phục hồi của ch�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Đối với mỗi liên đoàn bạn tham gia, Fedi sẽ phân biệt bitcoin của bạn bằng cách tạo các ví riêng biệt.
 
@@ -103,7 +103,7 @@ Trong menu **Liên đoàn**, cuộn xuống một liên đoàn, sau đó nhấp 
 
 
 
-- Nhận bitcoin trên Fedi**: Trên trang chủ, hãy chọn liên bang bạn muốn sử dụng để nhận bitcoin, sau đó nhấp vào nút **Nhận** để tạo Lightning Invoice với số tiền cần nhận.
+- **Nhận bitcoin trên Fedi**: Trên trang chủ, hãy chọn liên bang bạn muốn sử dụng để nhận bitcoin, sau đó nhấp vào nút **Nhận** để tạo Lightning Invoice với số tiền cần nhận.
 
 
 
@@ -113,7 +113,7 @@ Trong menu **Liên đoàn**, cuộn xuống một liên đoàn, sau đó nhấp 
 
 
 
-- Gửi bitcoin**: Trên trang chủ, nhấp vào nút **Gửi** để gửi bitcoin đến Lightning Address, để thanh toán Invoice hoặc thực hiện thanh toán ngoại tuyến.
+- **Gửi bitcoin**: Trên trang chủ, nhấp vào nút **Gửi** để gửi bitcoin đến Lightning Address, để thanh toán Invoice hoặc thực hiện thanh toán ngoại tuyến.
 
 
 
@@ -141,7 +141,7 @@ Người nhận của bạn sẽ cần quét mã QR được tạo để nhận 
 
 
 
-Thanh toán ngoại tuyến chủ yếu được thực hiện bằng [e-cash](https://planb.network/resources/glossary/ecash-david-chaum). Giao dịch được lưu trữ trong điện thoại của bạn và ngay khi bạn truy cập Internet, xác nhận giao dịch sẽ tự động được thực hiện. Bạn cũng có thể xác nhận thanh toán thủ công bằng cách nhấp vào **Xác nhận giao dịch**.
+Thanh toán ngoại tuyến chủ yếu được thực hiện bằng [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Giao dịch được lưu trữ trong điện thoại của bạn và ngay khi bạn truy cập Internet, xác nhận giao dịch sẽ tự động được thực hiện. Bạn cũng có thể xác nhận thanh toán thủ công bằng cách nhấp vào **Xác nhận giao dịch**.
 
 
 
@@ -191,7 +191,7 @@ Trong menu **Mods**, bạn sẽ tìm thấy các ứng dụng như:
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ Bạn vừa tham gia chuyến tham quan Fedi Wallet, giờ đây bạn đã có 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

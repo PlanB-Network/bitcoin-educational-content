@@ -1,8 +1,13 @@
-question: Finansal baskı veya diktatörlük rejimleri altında yaşayan bireyler için Bitcoin'ın temel avantajı nedir?
-answer: Sansür ve bankacılık kısıtlamalarından kaçma şansına sahip olmak.
+question: Bitcoin protokolü sansüre karşı direncini ve esnekliğini nasıl sağlıyor?
+answer: Protokolün her bir bileşeni coğrafi olarak dünya genelinde dağıtılmıştır.
 wrong_answers:
-  - Sabit bir değeri olan istikrarlı bir para birimi kullanmak.
-  - Anonim işlemlere izin verilmesi.
-  - Yüksek yatırım getirisi elde etmek.
-explanation: >-
+  - Avrupa'da dağıtılmış düğümlerden oluşan yerel bir ağ kullanır.
+  - İşlemleri doğrulamak için karmaşık bir algoritma kullanır.
+  - Yüksek düzeyde şifreleme kullanır.
+explanation: |
+  Bitcoin protokolü sansüre karşı dayanıklılığını ve
+  esneklik çünkü protokolün her bir bileşeni
+  dünya genelinde coğrafi olarak dağıtılmıştır. Örneğin,
+  genelinde yaklaşık 40.000 Bitcoin düğümü bulunmaktadır
+  kıtalar.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mekanisme apa yang mengubah MAC Address menjadi pengenal 64-bit untuk menghasilkan IPv6 Address?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  Mekanisme EUI-64 mengubah MAC Address 48-bit menjadi pengenal 64-bit, yang digunakan dalam konfigurasi otomatis IPv6.
+reviewed: false

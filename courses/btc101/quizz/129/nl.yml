@@ -1,8 +1,8 @@
-question: Wat is de Bitcoin Blockchain?
-answer: Een openbare en onveranderlijke Ledger van alle Bitcoin transacties.
+question: Hoe zorgt het Bitcoin netwerk ervoor dat het te duur is om kwaadwillig te handelen binnen het Bitcoin protocol?
+answer: Door middel van protocollaire regels en economische stimulansen.
 wrong_answers:
-  - Een private en muteerbare Ledger van alle Bitcoin transacties.
-  - Een openbare en muteerbare Ledger van alle Bitcoin transacties.
-  - Een besloten en onveranderlijke Ledger van alle Bitcoin transacties.
+  - Door strikte regelgeving en toezicht.
+  - Door het gebruik van geavanceerde beveiligingsmaatregelen.
+  - Door te dreigen met juridische stappen.
 explanation: >-
 reviewed: true

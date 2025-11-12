@@ -1,0 +1,9 @@
+question: Dlaczego migracja do IPv6 stała się konieczna?
+answer: Wyczerpanie Address IPv4
+wrong_answers:
+  - Awaria protokołu NAT w protokole IPv4
+  - Niezgodność maski podsieci
+  - Koniec obsługi protokołu DHCP
+explanation: |
+  Wyczerpanie adresów IPv4 spowodowało przejście na protokół IPv6, który zapewnia znacznie większą przestrzeń Address.
+reviewed: false

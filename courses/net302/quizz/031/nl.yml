@@ -1,0 +1,9 @@
+question: Welk IPv4 Address bereik is gereserveerd voor lokale loopback testen?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Het bereik 127.0.0.0/8 wordt gebruikt voor lokale loopback. Elk verzoek naar dit bereik blijft binnen de machine van herkomst.
+reviewed: false

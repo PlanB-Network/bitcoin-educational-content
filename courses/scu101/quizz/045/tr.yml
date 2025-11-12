@@ -5,5 +5,7 @@ wrong_answers:
   - Bilgisayarınızı virüslere karşı korur.
   - Tüm şifrelerinizi tek bir yerde saklayarak daha kolay bulunmalarını sağlar.
 explanation: |
-  Bir parola yöneticisi güçlü parolalar oluşturmanıza ve hatırlamanıza yardımcı olur, böylece siz hatırlamak zorunda kalmazsınız. Tüm şifrelerinizi güvenli bir şekilde saklar ve sizin için güçlü şifreler oluşturur.
+  Bir parola yöneticisi güçlü parolalar oluşturmanıza ve hatırlamanıza yardımcı olur, 
+  böylece siz hatırlamak zorunda kalmazsınız. 
+  Tüm şifrelerinizi güvenli bir şekilde saklar ve sizin için güçlü şifreler oluşturur.
 reviewed: true

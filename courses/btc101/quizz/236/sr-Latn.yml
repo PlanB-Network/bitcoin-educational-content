@@ -1,9 +1,8 @@
-question: Šta je koncept "skin in the game" u kontekstu industrije video igara?
-answer: Imati finansijski udeo u ishodu igre.
+question: Koje su potencijalne poslovne prilike koje pruža Lightning mreža?
+answer: Novi ekonomski modeli gde potrošači plaćaju za sadržaj na osnovu onoga što konzumiraju.
 wrong_answers:
-  - Prilagođavanje likova jedinstvenim skinovima koji poboljšavaju igru.
-  - Kupovina predmeta u igri pravim novcem.
-  - Prodaja skinova za igre za pravi novac.
-explanation: |
-  Koncept "skin in the game" je ideja koja je nedavno stekla popularnost u industriji video igara. U suštini se odnosi na ideju da programeri i zainteresovane strane imaju ličnu investiciju ili ulog u uspehu igre, što usklađuje njihove interese sa isporukom kvalitetnog proizvoda.
+  - Novi ekonomski modeli gde potrošači plaćaju koristeći različite kriptovalute.
+  - Novi ekonomski modeli gde potrošači koriste personalizovane blokčejnove.
+  - Novi ekonomski modeli gde potrošači ne plaćaju za bilo kakav sadržaj.
+explanation: >-
 reviewed: true

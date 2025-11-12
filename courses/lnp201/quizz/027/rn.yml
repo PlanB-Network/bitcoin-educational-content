@@ -1,0 +1,9 @@
+question: Ni kubera iki gufunga ku nguvu bitari vyiza cane?
+answer: Biragenda buhoro kandi amafaranga yoshobora kuba adakwiriye
+wrong_answers:
+  - Bisaba uruhusha rwa Satoshi Nakamoto .
+  - Bihatira kwiruhutsa umuyoboro mu nyuma .
+  - Bibuza gukoresha urufunguzo rwo gukuraho .
+explanation: |
+  Gufunga ku nguvu ntivyipfuzwa cane kuko birimwo n’igihe co gufunga, ivyo bikaba bigabanya igikorwa, kandi amafaranga yoshobora kuba adakwiriye kuko yashizweho igihe uwo muhora waremwa.
+reviewed: false

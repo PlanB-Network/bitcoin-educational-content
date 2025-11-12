@@ -1,0 +1,10 @@
+question: Ricochet ni iki mu bijanye na Bitcoin?
+answer: Ubuhinga bujanye no kwikorera amafaranga menshi
+wrong_answers:
+  - Ibikorwa vy'ubufatanye birimwo abantu benshi
+  - Uburyo bwo kuvanga bitcoins kugira ngo wongere ubutamenyekana
+  - Ubwoko bwa CoinJoin bwihariye ku bibanza bimwebimwe vya Exchange
+explanation: |
+  Ricochet ni ubuhinga bujanye no kwikorera ibintu vyinshi vy’ibinyoma (gukubura).
+  
+reviewed: false

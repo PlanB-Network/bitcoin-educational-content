@@ -1,0 +1,9 @@
+question: ISPを変更してもプレフィックスを維持できるIPv6ブロックとは？
+answer: PI（プロバイダー・インディペンデント）
+wrong_answers:
+  - PA（プロバイダー集計可能）
+  - LIR（ローカル・インターネット・レジストリ）
+  - IP（インターチェンジャブル・プロバイダー）
+explanation: |
+  PI（Provider Independent）ブロックは、インターネット・サービス・プロバイダーから独立して、RIRが直接組織に割り当てる。
+reviewed: false

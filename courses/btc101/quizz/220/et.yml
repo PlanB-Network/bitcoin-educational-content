@@ -1,10 +1,9 @@
-question: Mida tekst vihjab Bitcoini õppimise tempo kohta?
-answer: Kõike korraga omandamine on keeruline, seega võta aega
+question: Mida võiksid traditsioonilised rahaülekandeteenused nagu Western Union, keskpangad, Visa ja Mastercard teha, kui nad ei võta kasutusele Lightning Network tehnoloogiat?
+answer: Nad võivad kaduda.
 wrong_answers:
-  - Kõike on lihtne korraga õppida
-  - On võimatu õppida kõike Bitcoini kohta
-  - Pole vajalik õppida kõike Bitcoini kohta
+  - Nad võivad muutuda populaarsemaks.
+  - Nad võivad muutuda turvalisemaks.
+  - Nad võivad muutuda detsentraliseeritumaks.
 explanation: >-
-  Tekst vihjab, et Bitcoiniga seoses on nii palju avastada,
-  et kõike korraga omandada on keeruline, seega peaks inimene võtma oma aja.
+  Traditsioonilised rahaülekandeteenused nagu Western Union, keskpangad, Visa ja Mastercard võivad kaduda, kui nad ei võta kasutusele Lightning Network tehnoloogiat.
 reviewed: false

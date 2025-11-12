@@ -1,11 +1,11 @@
-question: Wat is het doel van een Bitcoin Wallet?
-answer: Om privésleutels op te slaan om bitcoins te kunnen verhandelen.
+question: Wie was de eerste persoon die lid werd van het Bitcoin netwerk na Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Apparaatbronnen gebruiken om bitcoins te delven.
-  - Om bitcoins te kopen via de publieke sleutel.
-  - Bitcoins opslaan op een apparaat.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Bitcoin wallets zijn een soort software die worden gebruikt om
-  de privé-sleutels op te slaan waarmee u uw
-  bitcoins kunt verhandelen.
+  Hal Finney was de eerste persoon die zich aansloot bij het Bitcoin netwerk
+  na Satoshi Nakamoto zelf. Hij tweette zelfs Running
+  Bitcoin om de gelegenheid te markeren.
 reviewed: true

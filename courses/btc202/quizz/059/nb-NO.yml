@@ -1,0 +1,9 @@
+question: Hva er den beste måten å få tilgang til Bitcoin core eksternt?
+answer: Eksponerer RPC-porten
+wrong_answers:
+  - Bruk av Tor
+  - Bruk av VPN
+  - Eksponering av en Electrum-server
+explanation: |
+  Å eksponere RPC-porten ukryptert utgjør en stor sikkerhetsrisiko. Tor eller VPN er å foretrekke.
+reviewed: true

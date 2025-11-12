@@ -1,9 +1,9 @@
-question: Qual è il massimo Supply approssimativo di bitcoin in circolazione?
-answer: 21 milioni di euro
+question: Qual è la massima emissione, approssimativa, di bitcoin che saranno in circolazione?
+answer: 21 milioni
 wrong_answers:
-  - 10 milioni di euro
-  - 47 milioni di euro
-  - 150 milioni di euro
+  - 10 milioni
+  - 47 milioni
+  - 150 milioni
 explanation: |
-  Il Bitcoin è programmato per avere un Supply limitato a circa 21 milioni di bitcoin.
-reviewed: false
+  Bitcoin è programmato per avere un'emissione limitata a circa 21 milioni di bitcoin.
+reviewed: true

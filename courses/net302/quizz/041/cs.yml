@@ -1,0 +1,9 @@
+question: Který soubor se historicky používal pro místní rozlišení před nástupem globálního DNS?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Než se systém DNS rozšířil, spoléhalo se překládání názvů na statický soubor /etc/hosts v systémech Unix/Linux.
+reviewed: false

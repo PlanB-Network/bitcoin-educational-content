@@ -1,8 +1,10 @@
-question: Ada za miamala kwenye Lightning Network ni ndogo sana, mara nyingi chini ya...?
-answer: 0.5%.
+question: Je! ni kitengo gani cha Bitcoin kinachotumika katika Lightning Network?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
+  - Zuia.
+  - Etha.
+  - Litecoin.
+explanation: |
+  Lightning Network hutumia satoshis (pia inaitwa Sats), the
+  decimal ya Bitcoin, kufanya kazi.
 reviewed: true

@@ -1,0 +1,11 @@
+question: Bitcoin teknolojisinin ötesinde neyi sembolize ediyor?
+answer: Geleneksel finansal sistemlere karşı bir devrim ve şeffaflık, ademi merkeziyetçilik ve bireysel egemenliğe dayalı bir alternatif.
+wrong_answers:
+  - Daha hızlı olduğu için geleneksel para birimlerinden daha verimli olan yeni bir dijital para birimi biçimi.
+  - Bireylerin Mining aracılığıyla para kazanmaları için bir yol.
+  - Suçluların yasa dışı işlemler gerçekleştirmesi için bir araç.
+explanation: |
+  Bitcoin, teknolojisinin ötesinde bir devrimi simgeliyor
+  geleneksel fi̇nansal si̇stemlere karşi: protokol
+  herhangi bir merkezi kuruluş olmaksızın yeni bir para sistemini yürürlüğe koyar.
+reviewed: true

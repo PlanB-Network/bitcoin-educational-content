@@ -1,10 +1,9 @@
-question: Apa yang disarankan teks tentang masa depan Bitcoin?
-answer: Tidak akan menghilang
+question: Apa fungsi dari Lightning Network?
+answer: Sebuah jaringan dari saluran pembayaran.
 wrong_answers:
-  - Akan digantikan oleh teknologi yang lebih baik
-  - Akan dilarang di seluruh dunia
-  - Akan kehilangan nilainya
+  - Sebuah jaringan dari node penambangan.
+  - Sebuah jaringan dari node blockchain.
+  - Sebuah jaringan dari bursa kripto.
 explanation: >-
-  Teks menyarankan bahwa Bitcoin tidak akan menghilang. Sebaliknya,
-  revolusi baru saja dimulai.
+  Lightning Network berfungsi sebagai jaringan dari saluran pembayaran, memungkinkan transaksi instan dengan biaya rendah untuk pengirim.
 reviewed: false

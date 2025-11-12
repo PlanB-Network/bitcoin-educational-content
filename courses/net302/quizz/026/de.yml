@@ -1,0 +1,9 @@
+question: Welche Dateneinheit wird im Internet Layer des TCP/IP-Modells verwendet?
+answer: Datagramm
+wrong_answers:
+  - Segment
+  - Rahmen
+  - Nachricht
+explanation: |
+  Der Internet-Layer manipuliert Datagramme, indem er Segmente vom Transport-Layer einkapselt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket kommando används för att söka igenom en värds öppna portar och identifiera tillgängliga tjänster?
+answer: nmap
+wrong_answers:
+  - gräva
+  - ethtool
+  - ip grann
+explanation: |
+  nmap upptäcker öppna portar, exponerade tjänster och ibland typen av fjärroperativsystem.
+reviewed: false

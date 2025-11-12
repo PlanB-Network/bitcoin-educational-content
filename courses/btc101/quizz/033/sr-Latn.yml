@@ -1,10 +1,12 @@
-question: Zašto se Bitkoin smatra novim oblikom novca?
-answer: Jer je to digitalni novac bez centralnog entiteta.
+question: Koja je strategija koju centralne banke koriste za devalvaciju fiat valute?
+answer: Oni povećavaju monetarnu masu za nekoliko procenata svake godine.
 wrong_answers:
-  - Zato što je digitalna valuta podržana zlatom.
-  - Zato što je to valuta koja zahteva banku Blockchain.
-  - Jer tako kažu Federalne rezerve.
+  - Oni smanjuju monetarnu masu za nekoliko procenata svake godine.
+  - Oni održavaju njegovu monetarnu masu konstantnom u poređenju sa početnom masom.
+  - Oni imaju svoju monetarnu masu koja nasumično fluktuira u poređenju sa početnom masom.
 explanation: |
-  Bitkoin se može posmatrati kao novi oblik novca, jer proizlazi
-  iz peer-to-peer mreže bez centralnog entiteta.
+  Centralne banke često devalviraju valutu povećanjem njene
+  monetarne mase u poređenju sa početnom za nekoliko procenata
+  svake godine. Ova tiha devalvacija se često opravdava kao
+  da je u interesu naroda.
 reviewed: true

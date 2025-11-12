@@ -1,0 +1,9 @@
+question: 哪种 NAT 模式允许几十台设备通过修改端口共享一个公共 IP Address？
+answer: PAT
+wrong_answers:
+  - 静态 NAT
+  - 动态 NAT
+  - 静态路由
+explanation: |
+  PAT 也称为 NAT 过载或 IP 伪装，它通过更改端口号来区分会话，使许多设备都能使用同一个公共 Address。
+reviewed: false

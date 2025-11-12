@@ -1,11 +1,11 @@
-question: Mitä tapahtuisi, jos solmun käyttäjä päättäisi noudattaa eri sääntöjä, jotka ovat ristiriidassa olemassa olevien konsensus sääntöjen kanssa?
-answer: Solmu ei enää olisi osa Bitcoin-verkkoa.
+question: Mikä on louhijoiden rooli Bitcoin-verkossa?
+answer: Louhijat turvaavat verkon ja lisäävät siirtoja lohkoihin.
 wrong_answers:
-  - Solmu tulisi osaksi eri Bitcoin-verkkoa.
-  - Solmu rangaistaisiin Bitcoin-verkon toimesta.
-  - Solmu palkittaisiin Bitcoin-verkon toimesta.
-explanation: |
-  Jos solmun käyttäjä päättäisi noudattaa muita sääntöjä, jotka
-  mitätöivät nykyiset konsensus säännöt, kyseinen solmu
-  ei enää olisi osa Bitcoin-verkkoa.
+  - Louhijat luovat uusia bitcoineja.
+  - Louhijat varmistavat Bitcoin-käyttäjien henkilöllisyyden.
+  - Louhijat määrittävät Bitcoinin hinnan.
+explanation: >-
+  Louhijat käyttävät laskentatehoaan monimutkaisten matemaattisten ongelmien ratkaisemiseen,
+  mikä mahdollistaa uusien siirtojen lisäämisen lohkoketjuun. Tämä prosessi turvaa
+  verkon ja ylläpitää sen eheyttä.
 reviewed: true

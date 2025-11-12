@@ -1,0 +1,9 @@
+question: Hva er den økonomiske forskjellen mellom en node og en Miner?
+answer: Miner mottar belønninger, noden har ingen direkte gevinst
+wrong_answers:
+  - Node mottar avgift, Miner mottar bloktilskudd
+  - Noden mottar belønninger, Miner har ingen direkte gevinst
+  - Begge mottar de samme prisene
+explanation: |
+  Utvinnere mottar belønninger (subsidier og avgifter), mens en node ikke gir brukeren noen direkte økonomisk fordel.
+reviewed: true

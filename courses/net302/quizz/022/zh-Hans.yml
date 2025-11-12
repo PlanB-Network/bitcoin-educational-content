@@ -1,0 +1,9 @@
+question: TCP 网段中的 "ACK "标记有何作用？
+answer: 确认收到分段
+wrong_answers:
+  - 启动连接关闭
+  - 加密交换的数据流
+  - 确定使用的服务端口
+explanation: |
+  设置时，ACK 标志确认已成功接收一个数据段，并指定下一个预期序列号。
+reviewed: false

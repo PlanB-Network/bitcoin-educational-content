@@ -1,8 +1,15 @@
-question: Kolika je veličina bloka u Bitkoin protokolu?
-answer: 1MB.
+question: Koja od sledećih opcija nije ključna karakteristika mikrotransakcija na Lightning mreži?
+answer: Dugi rokovi plaćanja.
 wrong_answers:
-  - 1MB.
-  - 2MB.
-  - 3MB.
-explanation: >-
+  - Niske naknade.
+  - Instant Plaćanja.
+  - Skalabilnost.
+explanation: |
+  Sa Lightning mrežom i njenim mikro-transakcijama, korisnici mogu
+  imati niske naknade za transakcije, što čini ekonomičnim slanje
+  veoma malih iznosa Bitkoina. Takođe mogu imati trenutna
+  plaćanja, omogućavajući transakcije u realnom vremenu. Na kraju, mogu
+  dobiti skalabilnost, omogućavajući obradu velikog
+  broja transakcija istovremeno. Dakle, pogrešan
+  odgovor su duga vremena plaćanja.
 reviewed: true

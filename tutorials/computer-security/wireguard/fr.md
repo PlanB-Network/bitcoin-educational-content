@@ -18,14 +18,14 @@ WireGuard est une solution relativement récente puisqu'elle est disponible en v
 
 Quelques points clés de WireGuard :
 
-* Simple, léger et ultra efficace !
+*Simple, léger et ultra efficace !*
 * Fonctionne uniquement en UDP (ce qui peut être un inconvénient pour traverser certains firewalls)
 * Fonctionne selon le modèle peer-to-peer et non "client-serveur"
-* Authentification par un échange de clé, sur le même principe que SSH avec les clés privées/publiques
+**Authentification par un échange de clé, sur le même principe que SSH avec les clés privées/publiques**
 * Utilisation de plusieurs algorithmes : chiffrement symétrique avec ChaCha20, authentification des messages avec Poly1305, ainsi que d'autres comme Curve25519, BLAKE2 et SipHash24
-* Supporte aussi bien IPv4 que IPv6
-* Multiplateformes : Windows, Linux, BSD, macOS, Android, iOS, OpenWRT (et implémenté dans ProtonVPN)
-* Seulement 4 000 lignes de code, là où les autres solutions en comptent plusieurs centaines de milliers
+*Supporte aussi bien IPv4 que IPv6*
+**Multiplateformes** : Windows, Linux, BSD, macOS, Android, iOS, OpenWRT (et implémenté dans ProtonVPN)
+*Seulement 4 000 lignes de code, là où les autres solutions en comptent plusieurs centaines de milliers*
 
 Pour la partie cryptographique, les différents algorithmes utilisés sont triés sur le volet, audité de plusieurs façons, et examinés par des chercheurs en sécurité spécialisés dans le domaine.
 
@@ -55,7 +55,7 @@ Au niveau des adresses IP, cela donne :
 
 * **Réseau du domicile** : 192.168.1.0/24
 * **Réseau d'entreprise** : 192.168.100.0/24
-* **Réseau du tunnel WireGuard** : 192.168.110.0/24
+**Réseau du tunnel WireGuard** : 192.168.110.0/24
   + Adresse IP du Peer 1 (Windows) dans le tunnel : 192.168.110.2/24
   + Adresse IP du Peer 2 (Debian) dans le tunnel : 192.168.110.121/24
 
@@ -119,10 +119,10 @@ PrivateKey = <clé privée du serveur>
 
 La section `[Interface]` sert à déclarer la partie serveur. Voici quelques informations :
 
-* **Address** : l'adresse IP de l'interface WireGuard au sein du tunnel VPN (sous-réseau différent du LAN distant)
-* **SaveConfig** : la configuration est mise en mémoire (et protégée) tout le temps que l'interface est active
-* **ListenPort** : le port d'écoute de WireGuard, ici c'est 51820 qui est le port par défaut, mais je vous invite à le personnaliser
-* **PrivateKey** : la valeur de la clé privée de notre serveur (*wg-private.key*)
+**Address** : l'adresse IP de l'interface WireGuard au sein du tunnel VPN (sous-réseau différent du LAN distant)
+**SaveConfig** : la configuration est mise en mémoire (et protégée) tout le temps que l'interface est active
+**ListenPort** : le port d'écoute de WireGuard, ici c'est 51820 qui est le port par défaut, mais je vous invite à le personnaliser
+**PrivateKey** : la valeur de la clé privée de notre serveur (*wg-private.key*)
 
 Sauvegardez le fichier et fermez-le. Avec la commande "**wg-quick**", nous pouvons démarrer cette interface en précisant son nom (wg0, car le fichier se nomme wg0.conf) :
 
@@ -208,7 +208,7 @@ Ajoutez ces lignes à la fin du fichier afin d'**activer l'IP masquerade sur l'i
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -301,9 +301,9 @@ En image :
 
 **Quelques explications au sujet du bloc `[Peer]`** :
 
-* **PublicKey** : il s'agit de la clé publique du serveur WireGuard Debian 11 (vous pouvez obtenir sa valeur via la commande "*sudo wg*")
+**PublicKey** : il s'agit de la clé publique du serveur WireGuard Debian 11 (vous pouvez obtenir sa valeur via la commande "*sudo wg*")
 * **AllowedIPs** : il s'agit des adresses IP / des sous-réseaux accessibles via ce réseau VPN WireGuard, ici il s'agit du sous-réseau propre à mon VPN WireGuard (*192.168.110.0/24*) et de mon LAN distant (*192.168.100.0/24*)
-* **Endpoint** : il s'agit de l'adresse IP de l'hôte Debian 11 puisque c'est notre point de liaison WireGuard (il faudra préciser l'adresse IP publique)
+**Endpoint** : il s'agit de l'adresse IP de l'hôte Debian 11 puisque c'est notre point de liaison WireGuard (il faudra préciser l'adresse IP publique)
 
 Pour finir, donnez un nom en renseignant le champ "**Nom**" (sans espaces) et copiez-collez la clé publique du client, car nous allons devoir la déclarer sur le serveur. Cliquez sur "**Enregistrer**".
 

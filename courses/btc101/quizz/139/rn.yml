@@ -1,0 +1,11 @@
+question: Ni kuki bihambaye ko urudodo rwa Bitcoin ruguma rushoboka kandi rushobora gushikirwa n’abarukoresha bose bashoboka?
+answer: Kuko vyorohereza ugusenyura urubuga.
+wrong_answers:
+  - Kuko vyongera ubushobozi bwo gukorana n’urubuga.
+  - Kuko bigabanya ubushobozi bwo gukorana n’urubuga.
+  - Kuko vyongera Block reward ku bacukuzi.
+explanation: |
+  Igiciro gishoboka n’uburyo bwo kuronka node ya Bitcoin ni .
+  birahambaye kuko vyorosha kwegereza ubutegetsi
+  urusobe rw’ibintu.
+reviewed: true

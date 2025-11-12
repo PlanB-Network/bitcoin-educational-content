@@ -1,0 +1,9 @@
+question: Ni kuki inyigisho y’imibare ihambaye cane mu bijanye n’ubuhinga bwo gufungura amakuru y’urufunguzo rwa bose?
+answer: Itanga imishinge y’imibare ikenewe ku bikorwa vyo gupfuka no gukuraho.
+wrong_answers:
+  - Itanga imishinge y’imibare ikenewe ku bikorwa vy’ugukora hashing.
+  - Ni ngombwa kugira ngo haboneke imitsi y’ubwonko.
+  - Iremeza kubara ibikorwa mu bice bibiri gusa.
+explanation: |
+  Ivyiyumviro vy’imibare ni ngirakamaro cane mu gupfuka amakuru y’urufunguzo rwa bose kuko bifasha gutunganya ubuhinga bushingiye ku mico y’imibare yose, bikorohereza ibikorwa vyo gupfuka amakuru no gukuraho amakuru.
+reviewed: false

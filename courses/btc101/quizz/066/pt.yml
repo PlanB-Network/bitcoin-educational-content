@@ -1,9 +1,11 @@
-question: Em que ano prevê-se que a criação de bitcoins cessará?
-answer: 2140
+question: O que é a chave privada em uma carteira Bitcoin?
+answer: Uma chave secreta que permite assinar suas transações.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Devido ao mecanismo de halving, pode-se prever matematicamente que a criação de bitcoins cessará em 2140, quando o número total de bitcoins atingir seu limite de 21 milhões.
+  - Uma chave pública usada para gerar endereços Bitcoin.
+  - Uma lista secreta de palavras para destruir uma carteira em caso de necessidade.
+  - Uma chave secreta para criptografar transações Bitcoin.
+explanation: >-
+  Ao inicializar uma carteira Bitcoin, é gerada uma lista secreta de palavras, chamada semente mnemônica.
+  Esta lista de recuperação é muito importante porque representa a propriedade
+  dos Bitcoins e, portanto, o direito de enviá-los.
 reviewed: true

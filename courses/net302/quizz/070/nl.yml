@@ -1,0 +1,9 @@
+question: Wie mag een IPv6-pakket fragmenteren?
+answer: Alleen bronhost
+wrong_answers:
+  - Alleen de eerste tussenliggende router
+  - Alleen bestemmingsrouter
+  - Alle routers
+explanation: |
+  In IPv6 wordt fragmentatie uitsluitend uitgevoerd door de bronhost, nooit door tussenliggende routers.
+reviewed: false

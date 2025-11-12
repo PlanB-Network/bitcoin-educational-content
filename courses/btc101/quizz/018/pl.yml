@@ -1,13 +1,12 @@
-question: Jakie były pierwsze formy waluty?
-answer: Towary takie jak zboże i żywy inwentarz.
+question: Jaka jest główna przewaga Bitcoin nad innymi formami waluty?
+answer: Oferuje doskonały magazyn wartości ze względu na ściśle ograniczone Supply i neutralność.
 wrong_answers:
-  - Złoto i srebro.
-  - Notatki na papierze.
-  - Zasoby cyfrowe.
+  - Jest niepodzielny i nieprzenośny.
+  - Jest to świetny przykład waluty, która cierpi z powodu inflacji monetarnej.
+  - Jest on powszechnie akceptowany w handlu przez wszystkich kupców na świecie.
 explanation: |
-  Pierwsze formy waluty były często powiązane z podstawowymi
-  towarami, takimi jak zboże, żywy inwentarz i inne towary.
-  Towary te miały jednak poważne wady, takie jak
-  nietrwałość, co utrudniało wykorzystanie ich jako
-  długoterminowego środka oszczędnościowego.
+  Główną zaletą Bitcoin w porównaniu z innymi formami waluty
+  jest to, że oferuje doskonały magazyn wartości ze względu na jego
+  ściśle ograniczony Supply i brak zaufanej strony. To
+  sprawia, że jest to dobry wybór dla długoterminowych oszczędności.
 reviewed: true

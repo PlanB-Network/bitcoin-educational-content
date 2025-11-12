@@ -1,12 +1,8 @@
-question: Bitcoin düğümlerinin coğrafi dağılımının önemi nedir?
-answer: Bu da Blockchain'in tüm kopyalarını yok etmeyi neredeyse imkansız hale getirmektedir.
+question: Eylül 2023 itibariyle dünya genelinde dağıtılan düğümlerin yaklaşık sayısı nedir?
+answer: 45.000 düğüm.
 wrong_answers:
-  - Bitcoin'nin farklı bölgelerdeki fiyatını belirler.
-  - Bitcoin işlemlerinin hızını etkiler.
-  - Bir bölgede çıkarılabilecek bitcoin sayısını belirler.
-explanation: |
-  Bitcoin düğümlerinin coğrafi dağılımı
-  tüm kopyalarını yok etmek pratikte imkansızdır
-  Blockchain. Düğümler dağınık olduğu için
-  fiziksel olarak hepsini ele geçirmek.
+  - 10.000 düğüm.
+  - 100.000 düğüm.
+  - 500.000 düğüm.
+explanation: >-
 reviewed: true

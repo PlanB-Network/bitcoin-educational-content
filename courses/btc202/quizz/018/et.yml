@@ -1,0 +1,9 @@
+question: Milline on kõige laialdasemalt kasutatav Bitcoin-sõlme rakendus?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Bitcoin core on peamine klient, kelle võrgus on umbes 9 sõlme 10-st.
+reviewed: true

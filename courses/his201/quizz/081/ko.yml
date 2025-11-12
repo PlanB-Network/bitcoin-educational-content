@@ -1,0 +1,9 @@
+question: 2011년 3월에 Bitcoin에 대한 최초의 고화질 동영상을 누가 제작했나요?
+answer: 스테판 토마스
+wrong_answers:
+  - 마이크 헌
+  - 크리스찬 데커
+  - 브루스 와그너
+explanation: |
+  "Bitcoin이란 무엇인가요?"라는 제목의 이 동영상은 커뮤니티의 크라우드 펀딩을 통해 제작되었습니다.
+reviewed: true

@@ -11,4 +11,4 @@ Il seed è stato inventato con il BIP32, che ha definito le basi del portafoglio
 Al di fuori del contesto del Bitcoin, in crittografia in generale, un seed è un valore iniziale utilizzato per le chiavi crittografiche generate o, più in generale, per qualsiasi tipo di dato prodotto da un generatore di numeri pseudocasuali. Questo valore iniziale deve essere casuale e imprevedibile per garantire la sicurezza del sistema crittografico. Infatti, il seed introduce entropia nel sistema, ma il processo di generazione che segue è deterministico.
 
 
-> *Nel linguaggio comune, la maggior parte dei bitcoiners si riferisce alla frase Mnemonic quando parla di "seed", e non allo stato di derivazione intermedio che si trova tra la frase Mnemonic e la chiave master
+> *Nel linguaggio comune, la maggior parte dei bitcoiners si riferisce alla frase Mnemonic quando parla di "seed", e non allo stato di derivazione intermedio che si trova tra la frase Mnemonic e la chiave master*

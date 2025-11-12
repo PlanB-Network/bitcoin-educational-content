@@ -1,9 +1,9 @@
 question: What's the main reason why IPv5 has never been widely deployed?
-answer: It remains experimental
+answer: It remained experimental
 wrong_answers:
-  - It is too costly to set up
-  - It is not compatible with IPv6
-  - It contains packet security failures
+  - Its deployment was too costly
+  - It was not compatible with IPv6
+  - It had major security flaws
 explanation: |
-  IPv5 was only implemented experimentally, was not generalized and was superseded by the transition to IPv6.
+  IPv5 was only implemented experimentally. It was never standardized or widely adopted, and was eventually abandoned in favor of IPv6.
 reviewed: false

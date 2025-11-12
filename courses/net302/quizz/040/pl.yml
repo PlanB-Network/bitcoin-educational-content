@@ -1,0 +1,9 @@
+question: Który rekord jest obowiązkowy w każdym pliku strefy DNS?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (wskaźnik)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  Rekord SOA definiuje organ strefy i jest wymagany w każdym pliku strefy DNS.
+reviewed: false

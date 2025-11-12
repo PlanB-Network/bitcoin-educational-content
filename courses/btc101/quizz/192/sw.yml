@@ -1,8 +1,13 @@
-question: OpenNode ni nini?
-answer: Suluhisho rahisi la mtandaoni kwa biashara kukubali Bitcoin.
+question: Gharama ya wastani ya Dola ni nini?
+answer: Kununua kiasi kidogo cha Bitcoin kwa vipindi vya kawaida.
 wrong_answers:
-  - Aina ya nodi ya Bitcoin ambayo hutumiwa wakati huo huo na watumiaji wengi.
-  - Programu ya Bitcoin Mining ambayo ni chanzo huria.
-  - Jukwaa la Bitcoin Exchange.
-explanation: >-
+  - Kununua kiasi kikubwa cha Bitcoin mara moja.
+  - Kununua Bitcoin tu wakati bei inashuka.
+  - Kununua Bitcoin tu wakati bei inapanda.
+explanation: |
+  Nakala ya kozi inaelezea kuwa Wastani wa Gharama ya Dola
+  mbinu inahusisha kununua kiasi kidogo cha Bitcoin saa
+  vipindi vya kawaida. Njia hii inapunguza bei
+  kushuka kwa thamani kwa muda na kuhakikisha ukuaji endelevu katika
+  kiasi cha Bitcoin inayomilikiwa.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: 山葵 Wallet
+name: Wasabi Wallet
 
 description: 學習如何重新獲得您的隱私
 ---

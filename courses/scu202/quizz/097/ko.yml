@@ -1,0 +1,9 @@
+question: 웹 요청의 기밀성을 보호하기 위해 ISP DNS를 대체하는 서비스는 무엇인가요?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9는 개인 정보 보호에 중점을 둔 공용 DNS 서버로, 악성 도메인을 필터링하고 명목 로그를 보관하지 않습니다.
+reviewed: false

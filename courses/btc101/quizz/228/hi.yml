@@ -1,8 +1,10 @@
-question: Lightning Network पर लेन-देन की फीस बेहद कम है, अक्सर... से भी कम?
-answer: 0.5%
+question: Bitcoin में इस्तेमाल होने वाली Bitcoin की यूनिट क्या है?
+answer: जीडब्ल्यू-2
 wrong_answers:
-  - 1%.
-  - 2%
-  - 3%.
-explanation: >-
+  - ब्लॉक
+  - ईथर।
+  - लाइटकॉइन।
+explanation: |
+  Lightning Network सतोशी (जिसे Sats भी कहा जाता है) का इस्तेमाल करता है,
+  जीडब्ल्यू-5 का दशमलव, काम करने के लिए।
 reviewed: true

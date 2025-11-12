@@ -1,0 +1,9 @@
+question: Vad är den ekonomiska skillnaden mellan en nod och en Miner?
+answer: Miner får belöningar, noden har ingen direkt vinst
+wrong_answers:
+  - Noden erhåller avgift, Miner erhåller blockbidrag
+  - Noden får belöningar, Miner har ingen direkt vinst
+  - Båda får samma utmärkelser
+explanation: |
+  Miners får belöningar (subventioner och avgifter), medan en nod inte ger någon direkt ekonomisk fördel till sin användare.
+reviewed: true

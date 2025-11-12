@@ -1,0 +1,9 @@
+question: چه کسی پروژه Bitcoin Knots را نگهداری می‌کند؟
+answer: لوک دش‌جونیور
+wrong_answers:
+  - گوین آندرسن
+  - ولادیمیر جی. ون در لان
+  - پیتر ویل
+explanation: |
+  Bitcoin Knots توسط لوک دشجیر نگهداری می‌شود و به عنوان کلاینت جایگزین اصلی برای Bitcoin core عمل می‌کند.
+reviewed: true

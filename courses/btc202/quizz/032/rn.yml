@@ -1,0 +1,9 @@
+question: Ni uwuhe muti w’urudodo mu gasandugu ariwo urongoye isoko muri iki gihe?
+answer: Umutaka
+wrong_answers:
+  - Gutangura9.
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel ni umuti uzwi cane wo gukoresha node-in-a-box, kubera uko woroshe gushiramwo n’ubutunzi bwa App Store.
+reviewed: true

@@ -1,13 +1,11 @@
-question: DCA platformu nedir?
-answer: Kullanıcıların düzenli aralıklarla bir varlığa sabit miktarda para yatırmasını sağlayan bir hizmet.
+question: Bitcoin'ın temel özelliklerinden biri nedir?
+answer: Herhangi bir kuruluştan izin alınmaksızın dünyanın herhangi bir yerinde takas edilebilir.
 wrong_answers:
-  - Yalnızca Bitcoin ticaretine izin veren bir tür kripto para birimi Exchange.
-  - Yatırımcılara marj ticareti için kredi sağlayan bir finansal hizmet.
-  - Herhangi bir yatırım özelliği olmadan hisse senedi fiyatlarını gerçek zamanlı olarak izleyen bir yazılım aracı.
+  - Sadece seçilmiş bir grup insan tarafından kullanılabilir.
+  - Kullanılabilmesi için merkezi bir otoriteden yetki alınması gerekir.
+  - Sadece belirli ülkelerde kullanılabilir.
 explanation: |
-  Bir DCA platformu, aşağıdakileri kolaylaştıran bir platform anlamına gelir
-  Dolar Maliyet Ortalaması (DCA), aşağıdakileri içeren bir yatırım stratejisidir
-  bir birey, sabit bir miktar parayı bir bankaya yatırır
-  ne olursa olsun, düzenli aralıklarla belirli bir varlık
-  varlığın fiyatı.
+  Metinde Bitcoin'in takma isimli olduğu ve
+  yetkisi olmadan dünyanın herhangi bir yerinde değiştirilebilir
+  herhangi bir kuruluşun.
 reviewed: true

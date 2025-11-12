@@ -1,8 +1,10 @@
-question: Vad är en faktor att tänka på när du väljer en lösning för att acceptera Bitcoin för ditt företag?
-answer: Den förväntade transaktionsvolymen.
+question: Vad är en av de saker du bör ha innan du köper Bitcoin?
+answer: En säker Wallet.
 wrong_answers:
-  - Färgen på din logotyp.
-  - Antal anställda.
-  - Platsen för ditt huvudkontor.
-explanation: >-
+  - Ett fysiskt kassaskåp.
+  - Ett bankkonto.
+  - Ett kreditkort.
+explanation: |
+  I kurstexten nämns att innan du köper Bitcoin bör du ha en
+  bör du ha en säker Wallet där du förvarar dina nycklar.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Qual è lo scopo delle primitive di servizio nel modello TCP/IP?
+answer: Gestire gli scambi tra i livelli
+wrong_answers:
+  - Crittografia automatica dei messaggi di rete
+  - Distribuire gli indirizzi IP agli host remoti
+  - Controllare la lunghezza totale dei pacchetti IP
+explanation: |
+  Le primitive di servizio definiscono la comunicazione Interface tra i diversi livelli, consentendo di stabilire, mantenere o terminare gli scambi di rete.
+reviewed: false

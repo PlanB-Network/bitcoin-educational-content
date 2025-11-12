@@ -1,0 +1,9 @@
+question: Welke Oostenrijkse econoom spreekt van planisme?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) was de Oostenrijkse econoom die de term "planisme" bedacht om gecentraliseerde economische planning te beschrijven. Hij bekritiseert deze aanpak in "The Road to Serfdom".
+reviewed: false

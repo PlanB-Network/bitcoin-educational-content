@@ -1,0 +1,9 @@
+question: BIP47 작동의 핵심이 되는 암호화 키 Exchange 알고리즘은 무엇인가요?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - 엘가말
+  - Diffie-Hellman
+explanation: |
+  사용되는 알고리즘은 ECDH(타원 곡선 디피-헬만)입니다. 이는 타원 곡선을 사용하는 고전적인 디피-헬만 알고리즘의 변형입니다.
+reviewed: true

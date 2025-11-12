@@ -1,8 +1,12 @@
-question: UTXO'larınızı zaman zaman cüzdanlarınızda birleştirmenizin nedenlerinden biri nedir?
-answer: İşlemler sırasında gereksiz ücretlerden kaçınmak için.
+question: Bu kurs Bitcoin'ı nasıl tanımlıyor?
+answer: Multidisipliner bir konu.
 wrong_answers:
-  - Bitcoinlerinizin değerini artırmak için.
-  - Bitcoinlerinizin çalınmasını önlemek için.
-  - Bitcoinlerinizin her zaman kullanılabilir olmasını sağlamak için.
-explanation: >-
+  - Basit bir konu.
+  - Fiziksel bir konu.
+  - Tek disiplinli bir konu.
+explanation: |
+  Bitcoin multidisipliner bir konu olarak tanımlanmaktadır çünkü
+  aşağıdakiler de dahil olmak üzere çeşitli alanlarla ilgili soruları gündeme getirmektedir
+  kriptografi, oyun teorisi, ekonomi ve para politikası,
+  bilgisayar bilimi, felsefe, enerji, kanunlar ve yönetmelikler.
 reviewed: true

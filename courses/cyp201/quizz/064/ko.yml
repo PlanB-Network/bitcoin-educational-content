@@ -1,0 +1,9 @@
+question: HD Wallet에서 확장 키의 주요 기능은 무엇인가요?
+answer: 하위 키 파생 허용하기
+wrong_answers:
+  - Wallet의 트랜잭션 저장
+  - UTXO를 직접 generate로 전환하기
+  - 공개 키 암호화
+explanation: |
+  확장 키는 키(비공개 또는 공개)와 연관된 chain code, 즉 하위 키를 도출하는 데 필요한 두 개의 Elements를 결합합니다.
+reviewed: false

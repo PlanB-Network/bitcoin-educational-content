@@ -1,0 +1,9 @@
+question: Millist protokolli kasutatakse IP Address ja MAC Address ühendamiseks Ethernet-võrgus?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address resolutsiooniprotokoll (ARP) kaardistab IP-aadressid MAC-aadressidele kohalikes võrkudes.
+reviewed: false

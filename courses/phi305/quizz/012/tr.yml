@@ -1,0 +1,9 @@
+question: Gilles Deleuze için ahlak nedir?
+answer: İyi ve ahlaki olan arasında bir yargı sistemi.
+wrong_answers:
+  - Dini bir girişim.
+  - Yasanın sonucu.
+  - Kalıcı bir ilke.
+explanation: |
+  Gilles Deleuze için ahlak, eylemleri aşkın değerlere göre iyi ve kötü olarak sınıflandıran bir yargı sistemidir. Bunu, varoluş biçimlerini eyleme güçlerine göre değerlendiren Spinozacı etik ile karşılaştırır.
+reviewed: false

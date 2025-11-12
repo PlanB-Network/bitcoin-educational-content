@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   To increase the anonsets of participants, Wabisabi uses very large coinjoin transactions that group together dozens of participants.
 
-reviewed: false
+reviewed: true

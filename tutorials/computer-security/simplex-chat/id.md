@@ -154,7 +154,7 @@ Anda sekarang dapat dengan bebas kirim pesan, panggilan, dan file dengan Bob, te
 
 Salah satu fitur yang paling hebat SimpleX adalah kemampuannya untuk mengelola beberapa profil pengguna yang sepenuhnya terpisah, semuanya dapat diakses dari akun lokal yang sama. Ini memungkinkan Anda memisahkan identitas-identitas berbeda Anda dengan rapi, tanpa mempersulit pengelolaan pesan.
 
-Contohnya, Anda bisa membuat file :
+Contohnya, Anda bisa membuat file:
 - Profil dengan nama asli dan foto asli untuk percakapan profesional Anda;
 - Profil dengan nama asli Anda dan foto lucu untuk percakapan keluarga Anda;
 - Profil dengan foto palsu dan nama samaran untuk percakapan pribadi Anda;
@@ -188,4 +188,4 @@ Selamat, Anda sekarang sudah bisa menggunakan aplikasi SimpleX, sebuah alternati
 
 Saya juga merekomendasikan tutorial lain, di mana saya memperkenalkan Threema, alternatif lain yang menarik untuk aplikasi kirim pesan Anda:
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

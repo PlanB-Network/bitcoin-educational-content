@@ -1,0 +1,9 @@
+question: 什么时候使用 lsof 中的 -u 选项？
+answer: 按用户筛选
+wrong_answers:
+  - 强制 DNS 解析
+  - 显示开放端口
+  - 指定 DNS 服务器
+explanation: |
+  lsof 中的 -u 选项限制输出由特定用户或 UID 打开的文件。
+reviewed: false

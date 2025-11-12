@@ -1,0 +1,12 @@
+question: Ni uburyo bumwe ubuhe bwo kwemeza ko uri ku rubuga ushaka gusura?
+answer: Suzuma URLs n'agafunguzo gatoyi kari mu murongo wa Address.
+wrong_answers:
+  - Suzuma igitigiri c’amatangazo ari kuri uwo muhora.
+  - Suzuma umuvuduko w’urubuga.
+  - Suzuma ibara ry’urubuga.
+explanation: |
+  Gusuzuma URLs n'agafunguzo gatoyi mu murongo wa Address
+  ni uburyo bumwe bwo kwemeza ko uri ku rubuga wipfuza
+  kugira ngo baje gusura. Urufunguzo rwerekana ko urubuga rukoresha
+  HTTPS porotokole, ipfuka amakuru kugira ngo Exchange itekane.
+reviewed: true

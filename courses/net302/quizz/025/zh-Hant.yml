@@ -1,0 +1,9 @@
+question: 在 TCP/IP 模型中，保留的連接埠用來做什麼？
+answer: 聆聽有關特定服務的請求
+wrong_answers:
+  - 至 generate 自動資料包封裝
+  - 實體路由網路訊框
+  - 要控制 UDP 封包分片
+explanation: |
+  連接埠是邏輯聆聽點，可讓網路應用程式區分在同一主機上執行的各種服務。
+reviewed: false

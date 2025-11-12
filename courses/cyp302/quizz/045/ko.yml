@@ -1,0 +1,9 @@
+question: 유한 그룹에서 그룹 내 Elements의 수를 나타내는 용어는 무엇인가요?
+answer: 그룹의 순서
+wrong_answers:
+  - 그룹의 수용 인원
+  - 그룹의 길이
+  - 그룹의 정도
+explanation: |
+  그룹의 순서는 그룹에 포함된 Elements의 총 개수입니다.
+reviewed: false

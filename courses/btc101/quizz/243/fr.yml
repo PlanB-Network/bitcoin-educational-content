@@ -1,12 +1,10 @@
-question: Quelles sont certaines opportunités commerciales offertes par le Lightning Network ?
-answer: Nouveaux modèles économiques où les consommateurs paient pour le contenu en fonction de ce qu'ils consomment.
+question: Quelle pourrait être une préoccupation majeure concernant le système bancaire ?
+answer: Les règles du jeu bancaire ne sont pas transparentes et compréhensibles pour tous.
 wrong_answers:
-  - Nouveaux modèles économiques où les consommateurs paient en utilisant différentes cryptomonnaies.
-  - Nouveaux modèles économiques où les consommateurs utilisent des blockchains personnalisées.
-  - Nouveaux modèles économiques où les consommateurs ne paient pas pour aucun contenu.
+  - Le système bancaire est trop facile à comprendre.
+  - Le système bancaire est trop transparent.
+  - Le système bancaire est trop décentralisé.
 explanation: >-
-  Le Lightning Network ouvre la porte à une multitude de cas d'utilisation passionnants pour
-  les utilisateurs de Bitcoin. Les modèles économiques et les opportunités commerciales qui en résultent sont nombreux
-  et variés, incluant de nouveaux modèles économiques où les consommateurs paient pour le contenu
-  en fonction de ce qu'ils consomment.
+  La question de savoir qui devrait contrôler le système bancaire est cruciale parce que les 
+  règles du jeu bancaire ne sont pas transparentes et compréhensibles pour tous.
 reviewed: true

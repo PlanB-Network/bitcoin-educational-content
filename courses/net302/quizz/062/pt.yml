@@ -1,0 +1,9 @@
+question: Que notação é utilizada para inserir um IPv6 Address num URL?
+answer: O IPv6 Address é colocado entre parênteses rectos
+wrong_answers:
+  - O IPv6 Address é colocado entre parênteses
+  - O IPv6 Address está entre aspas
+  - O IPv6 Address é escrito em bruto
+explanation: |
+  Os parênteses rectos são utilizados para distinguir o IPv6 Address da porta num URL, para evitar qualquer ambiguidade.
+reviewed: false

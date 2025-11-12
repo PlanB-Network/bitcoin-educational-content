@@ -1,13 +1,9 @@
-question: Qual è una caratteristica chiave di Bitcoin che lo differenzia dalle valute fiat?
-answer: La sua politica monetaria è imposta da un consenso generale.
+question: Qual è l'impatto di un'inflazione del 20% sul potere d'acquisto in 3 anni?
+answer: Si perde il 50% del proprio potere d'acquisto.
 wrong_answers:
-  - Può essere stampato in quantità illimitate dalle banche centrali.
-  - È supportato da un bene fisico come l'oro o l'argento.
-  - È regolato da una banca centrale.
+  - Si perde il 100% del proprio potere d'acquisto.
+  - Si perde il 60% del proprio potere d'acquisto.
+  - Si perde il 30% del proprio potere d'acquisto.
 explanation: |
-  Grazie alla sua natura decentralizzata e alla crittografia,
-  Bitcoin non può essere falsificato ed è limitato a 21 milioni
-  di unità. Questa è una caratteristica chiave che lo differenzia
-  dalle valute fiat, le quali seguono una politica monetaria che può essere
-  modificata dalle banche centrali.
+  Con un'inflazione del 20%, si perde quasi la metà del proprio potere d'acquisto in 3 anni.
 reviewed: true

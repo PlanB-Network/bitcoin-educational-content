@@ -33,23 +33,23 @@ Fedi Wallet on Bitcoin-salkku, jossa on uusi lähestymistapa avainsanojen tallen
 
 
 
-- Huoltajat**: Salkunhoitaja: Päätät sijoittaa luottamuksesi ulkopuoliselle taholle, salkun kehittäjälle, joka säilyttää salkkusi perintäsanat puolestasi. Sinulla ei ole pääsyä eikä mahdollisuutta viedä Bitcoin-salkkuasi.
+- **Huoltajat**: Salkunhoitaja: Päätät sijoittaa luottamuksesi ulkopuoliselle taholle, salkun kehittäjälle, joka säilyttää salkkusi perintäsanat puolestasi. Sinulla ei ole pääsyä eikä mahdollisuutta viedä Bitcoin-salkkuasi.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- Itsehuoltajat** : Sovellus antaa sinulle pääsyn takaisinperintäsanoihin heti, kun luot Wallet:n. Voit siis vapaasti viedä bitcoinisi sinulle parhaiten sopivaan Wallet:een.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Itsehuoltajat**: Sovellus antaa sinulle pääsyn takaisinperintäsanoihin heti, kun luot Wallet:n. Voit siis vapaasti viedä bitcoinisi sinulle parhaiten sopivaan Wallet:een.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Sen sijaan Fedi Wallet tarjoaa federaatiomenetelmää, jonka avulla voit liittyä ryhmään henkilöitä, joihin luotat salkkuavaimesi hallinnoimiseksi. Voit liittyä Fedin ehdottamaan suosittuun liittoon tai liittyä oman paikkakuntasi paikalliseen liittoon skannaamalla QR-koodin tai liittämällä liiton kutsukoodin.
 
@@ -75,7 +75,7 @@ Lue lisää palautussanan varmuuskopiointisuosituksistamme:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Fedi erottaa bitcoinisi jokaisesta liittoumasta, johon liityt, luomalla erilliset lompakot.
 
@@ -103,7 +103,7 @@ Selaa **Liitot** -valikossa liiton kohdalle ja napsauta sitten **Liiton tiedot**
 
 
 
-- Vastaanota bitcoineja Fedi**: Valitse etusivulla liitto, jota haluat käyttää bitcoinien vastaanottamiseen, ja napsauta sitten **Vastaanottaa**-painiketta luodaksesi Lightning Invoice:n, jossa on vastaanotettava summa.
+- Vastaanota bitcoineja **Fedi**: Valitse etusivulla liitto, jota haluat käyttää bitcoinien vastaanottamiseen, ja napsauta sitten **Vastaanottaa**-painiketta luodaksesi Lightning Invoice:n, jossa on vastaanotettava summa.
 
 
 
@@ -141,7 +141,7 @@ Vastaanottajan on skannattava luotu QR-koodi lunastaakseen satoshit.
 
 
 
-Offline-maksut suoritetaan pääasiassa [e-cash]-maksujen avulla (https://planb.network/resources/glossary/ecash-david-chaum). Maksutapahtuma tallennetaan puhelimeen, ja heti kun käytät Internetiä, maksutapahtuman vahvistus tapahtuu automaattisesti. Voit vahvistaa maksun myös manuaalisesti napsauttamalla **Vahvista maksutapahtuma**.
+Offline-maksut suoritetaan pääasiassa [e-cash]-maksujen avulla (https://planb.academy/resources/glossary/ecash-david-chaum). Maksutapahtuma tallennetaan puhelimeen, ja heti kun käytät Internetiä, maksutapahtuman vahvistus tapahtuu automaattisesti. Voit vahvistaa maksun myös manuaalisesti napsauttamalla **Vahvista maksutapahtuma**.
 
 
 
@@ -191,7 +191,7 @@ Jedin modulaarisen valikon avulla voit löytää parhaat sovellukset, joita yhte
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ Olet juuri käynyt Fedi Wallet -kierroksella, ja nyt voit hyödyntää tämän s
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

@@ -1,0 +1,8 @@
+question: Lightning Network은 무엇을 허용하나요?
+answer: 즉시, 저렴한 비용의 Bitcoin 거래.
+wrong_answers:
+  - 고비용의 즉각적인 Bitcoin 거래.
+  - 지연된 저비용 Bitcoin 거래.
+  - 지연되고 비용이 많이 드는 Bitcoin 거래.
+explanation: >-
+reviewed: true

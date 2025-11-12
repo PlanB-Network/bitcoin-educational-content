@@ -1,12 +1,12 @@
-question: Mikä strategiaa käyttävät keskuselimet fiat-valuutan arvon alentamiseen?
-answer: Ne lisäävät rahamäärää muutamalla prosentilla joka vuosi.
+question: Mikä on hyperinflaatio?
+answer: Jyrkkä kasvu rahamäärässä.
 wrong_answers:
-  - Ne vähentävät rahamäärää muutamalla prosentilla joka vuosi.
-  - Ne pitävät sen rahamäärän vakiona verrattuna alkuperäiseen määrään.
-  - Ne antavat sen rahamäärän vaihdella satunnaisesti verrattuna alkuperäiseen määrään.
+  - Pieni kasvu rahamäärässä.
+  - Jyrkkä lasku rahamäärässä.
+  - Pieni lasku rahamäärässä.
 explanation: |
-  Keskuselimet usein alentavat valuutan arvoa lisäämällä sen
-  rahamäärää verrattuna alkuperäiseen muutamalla prosentilla
-  joka vuosi. Tämä hiljainen arvon alennus perustellaan usein
-  olevan kansan edun mukaista.
+  Hyperinflaatio on rahailmiö, jolle on ominaista
+  jyrkkä inflaation kasvu rahanpainamisen kautta
+  viranomaisten toimesta, mikä johtaa täydelliseen
+  luottamuksen menetykseen valuuttaa kohtaan.
 reviewed: true

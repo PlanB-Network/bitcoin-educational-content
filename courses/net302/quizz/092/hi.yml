@@ -1,0 +1,9 @@
+question: लिनक्स सिस्टम पर DNS सर्वर आमतौर पर कहां कॉन्फ़िगर किए जाते हैं?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/होस्टनाम
+  - /etc/नेटवर्क/इंटरफेस
+  - /etc/hosts.allow
+explanation: |
+  /etc/resolv.conf फ़ाइल नाम समाधान के लिए DNS सर्वर और खोज डोमेन निर्दिष्ट करती है।
+reviewed: false

@@ -1,0 +1,9 @@
+question: In welcher DNS-Zone werden PTR-Einträge für die IPv6-Rückwärtsauflösung platziert?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Die Zone ip6.arpa ist speziell für die Rückwärtsauflösung von IPv6-Adressen vorgesehen, während in-addr.arpa für IPv4 verwendet wird.
+reviewed: false

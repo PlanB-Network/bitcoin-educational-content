@@ -1,13 +1,9 @@
-question: Dlaczego złoto stało się standardowym środkiem Exchange?
-answer: Ze względu na swoją rzadkość, trwałość i podzielność.
+question: Dlaczego złoto nie jest materiałem przenośnym?
+answer: Ponieważ jest gęsty i ciężki, co sprawia, że przenoszenie go w dużych ilościach jest uciążliwe.
 wrong_answers:
-  - Ze względu na swoją obfitość, trwałość i niepodzielność.
-  - Ze względu na swoją rzadkość, nietrwałość i podzielność.
-  - Ze względu na jego obfitość, nietrwałość i niepodzielność.
+  - Ponieważ jest zbyt cenny, aby go przenieść.
+  - Ponieważ nie można go łatwo uformować w mniejsze formy.
+  - Ponieważ jest to Liquid w temperaturze pokojowej.
 explanation: |
-  Złoto stało się standardowym środkiem Exchange ze względu na jego
-  rzadkość, trwałość i podzielność: jego rzadkość zapobiegła
-  dewaluacji spowodowanej produkcją; jego trwałość
-  zapewniła, że nie ulegnie erozji w czasie, a jego podzielność
-  pozwoliła na wykorzystanie go w transakcjach o różnej wielkości.
+  Złoto jest gęste i ciężkie, co oznacza, że przenoszenie jego dużych ilości może być fizycznym wyzwaniem. Waga złota sprawia, że jest ono mniej wygodne w transporcie w porównaniu z lżejszymi materiałami.
 reviewed: true

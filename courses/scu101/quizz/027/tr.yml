@@ -1,9 +1,10 @@
-question: Fidye yazılımı veya diğer saldırılar için bilgisayar korsanlarına ödeme yapmamanın temel nedeni nedir?
-answer: Fidyeyi ödemek verilerinizin kurtarılmasını garanti etmez ve siber suçluları kötü niyetli faaliyetlerini sürdürmeye teşvik edebilir.
+question: Fidye yazılımı (ransomware) veya diğer saldırılar için bilgisayar korsanlarına ödeme yapmamanın temel nedeni nedir?
+answer: Fidyeyi ödemek# verilerinizin kurtarılmasını garanti etmez ve siber suçluları kötü niyetli faaliyetlerini sürdürmeye teşvik edebilir.
 wrong_answers:
   - Fidye ödemek yasa dışıdır ve siber suçluları kötü niyetli faaliyetlerini sürdürmeye teşvik edebilir.
   - Fidye ödemek, verilerinizin geri kazanılmasını garanti etmez, ancak hackerların diğer kurbanlara saldırmasını teşvik edebilir.
   - Fidyenin ödenmesi, ödeme yöntemi genellikle takip edilemez olduğundan siber suçluları kötü niyetli faaliyetlerini sürdürmeye teşvik edebilir.
 explanation: |
-  Fidyeyi ödemek verilerinizi geri alacağınızı garanti etmez. Dahası, siber suçluları karlı bir girişim olarak gördükleri için kötü niyetli faaliyetlerine devam etmeye teşvik eder.
+  Fidyeyi ödemek verilerinizi geri alacağınızı garanti etmez. 
+  Dahası, siber suçluları kötü niyetli faaliyetlerine devam etmeye teşvik eder.
 reviewed: true

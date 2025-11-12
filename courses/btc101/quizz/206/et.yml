@@ -1,8 +1,11 @@
-question: Mis on FOMO ja FUD?
-answer: Emotsioonid, mis võivad viia impulsiivsete ja potentsiaalselt kahjulike otsusteni.
+question: Mis on teksti järgi Bitcoini revolutsiooni peamine eesmärk?
+answer: Luua maailm, kus inimlik suveräänsus on õigus, privaatsust austatakse vaikimisi ja raha ei manipuleerita
 wrong_answers:
-  - Bitcoin'i rahakotitüübid.
-  - Strateegiad Bitcoin'i ostmiseks.
-  - Bitcoin'iga seotud regulatsioonid.
+  - Luua maailm, kus Bitcoin on ainus valuuta
+  - Luua maailm, kus valitsustel pole kontrolli
+  - Luua maailm, kus füüsiline raha on iganenud
 explanation: >-
-  Tekst selgitab, et FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty, Doubt) on emotsioonid, mis võivad viia impulsiivsete ja potentsiaalselt kahjulike otsusteni Bitcoin'i ostes.
+  Tekst viitab sellele, et Bitcoini revolutsiooni peamine eesmärk on
+  luua maailm, kus inimlik suveräänsus on õigus, privaatsust austatakse vaikimisi
+  ja raha ei manipuleerita.
+reviewed: false

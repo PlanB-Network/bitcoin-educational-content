@@ -30,7 +30,7 @@ pfSense on tasuta, avatud lähtekoodiga operatsioonisüsteem, mis muudab mis tah
 
 
 
-Selle põhifunktsioonid on aastate jooksul märkimisväärselt edasi arenenud ja neid on iga uue versiooniga täiustatud. Praeguseks pakub pfSense :
+Selle põhifunktsioonid on aastate jooksul märkimisväärselt edasi arenenud ja neid on iga uue versiooniga täiustatud. Praeguseks pakub pfSense:
 
 
 
@@ -63,7 +63,7 @@ Lõpuks tasub meeles pidada, et pfSense vajab vähemalt kahte füüsilist võrgu
 
 
 
-Selle õpetuse kirjutamise ajal on pfSense'i viimane stabiilne versioon 2.8 (avaldatud juunis 2025). ISO-kujutise või teie riistvarakeskkonnale kohandatud paigaldusfaili saate alla laadida otse ametlikust veebisaidist :
+Selle õpetuse kirjutamise ajal on pfSense'i viimane stabiilne versioon 2.8 (avaldatud juunis 2025). ISO-kujutise või teie riistvarakeskkonnale kohandatud paigaldusfaili saate alla laadida otse ametlikust veebisaidist:
 
 
 
@@ -73,7 +73,7 @@ Selle õpetuse kirjutamise ajal on pfSense'i viimane stabiilne versioon 2.8 (ava
 
 
 
-Allalaadimisportaal võimaldab teil valida :
+Allalaadimisportaal võimaldab teil valida:
 
 
 
@@ -105,15 +105,15 @@ Selles näites toimub paigaldamine virtuaalmasinasse, kus töötab VirtualBox. P
 
 
 
-Standardse kasutuselevõtu puhul soovitame :
+Standardse kasutuselevõtu puhul soovitame:
 
 
 
 
 
-- vähemalt 1 GB RAM** (lisapakettide või ZFS-toe võimaldamiseks on soovitatav 2 GB või rohkem).
-- 8 GB kettaruumi** (20 GB või rohkem on soovitav keerukamate konfiguratsioonide puhul, eriti kui paigaldate proxy vahemälu, IDS/IPS või üksikasjalikud logid).
-- Vähemalt kaks virtuaalset võrguliidest** (üks WAN-i ja üks LAN-i jaoks). VirtualBoxis lisage need enne käivitamist VM-i seadistustesse.
+- vähemalt 1 GB RAM (lisapakettide või ZFS-toe võimaldamiseks on soovitatav **2 GB või rohkem**).
+- 8 GB kettaruumi (20 GB või rohkem on soovitav keerukamate konfiguratsioonide puhul, eriti kui paigaldate proxy vahemälu, IDS/IPS või üksikasjalikud logid).
+- Vähemalt kaks virtuaalset võrguliidest (üks WAN-i ja üks LAN-i jaoks). VirtualBoxis lisage need enne käivitamist VM-i seadistustesse.
 
 
 
@@ -304,13 +304,13 @@ Mine oma brauseris konsooli poolt näidatud Address (vaikimisi `https://192.168.
 
 
 
-Ilmub sisselogimisekraan. Vaikimisi kasutajatunnused on :
+Ilmub sisselogimisekraan. Vaikimisi kasutajatunnused on:
 
 
 
 
-- Kasutajanimi:** `admin`
-- Parool:** `pfsense`
+- **Kasutajanimi:** `admin`
+- **Parool:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Esimesel ühendamisel palub pfSense teil järgida selle **seadistamise juhti**. 
 
 
 
-Saate :
+Saate:
 
 
 
@@ -352,7 +352,7 @@ Märkige oma saidi ajavöönd, et logid ja ajakava oleksid järjepidevad (nt "Eu
 
 
 
-WAN-ühenduse konfigureerimine :
+WAN-ühenduse konfigureerimine:
 
 
 
@@ -383,7 +383,7 @@ Kaitske oma pfSense'i, määrates kohe tugeva parooli kasutajale `admin`.
 
 
 
-Enne tulemüüri kasutuselevõttu veenduge, et teil on uusim versioon :
+Enne tulemüüri kasutuselevõttu veenduge, et teil on uusim versioon:
 
 
 
@@ -423,16 +423,16 @@ Enne suuremate muudatuste tegemist rakendage varunduspoliitikat:
 
 
 
-Et lõpetada oma kasutuselevõtt rahulikult :
+Et lõpetada oma kasutuselevõtt rahulikult:
 
 
 
 
 
-- Muuda tulemüüri reegleid**: vaikimisi lubab pfSense kogu väljaminevat liiklust LAN-is ja blokeerib sissetuleva liikluse WAN-is. Kohandage neid reegleid vastavalt vajadusele.
-- Konfigureerige turvaline kaugjuurdepääs**: vajaduse korral lubage juurdepääs Interface veebile WANist ainult VPN-i kaudu või IP-piirangutega.
-- Teavituste lubamine**: konfigureerige SMTP-server, et saada teateid (tõrked, uuendused, vead).
-- Paigaldage kasulikud laiendused**: näiteks IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtreerimine (pfBlockerNG).
+- Muuda tulemüüri reegleid: vaikimisi lubab pfSense kogu väljaminevat liiklust LAN-is ja blokeerib sissetuleva liikluse WAN-is. Kohandage neid reegleid vastavalt vajadusele.
+- **Konfigureerige turvaline kaugjuurdepääs**: vajaduse korral lubage juurdepääs Interface veebile WANist ainult VPN-i kaudu või IP-piirangutega.
+- **Teavituste lubamine**: konfigureerige SMTP-server, et saada teateid (tõrked, uuendused, vead).
+- Paigaldage kasulikud **laiendused**: näiteks IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtreerimine (pfBlockerNG).
 
 
 

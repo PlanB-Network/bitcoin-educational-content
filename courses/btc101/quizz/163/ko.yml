@@ -1,0 +1,8 @@
+question: Bitcoin Mining에서 특수 SHA256 머신 또는 ASICS의 주요 장점은 무엇인가요?
+answer: 줄당 Hash 비율이 증가합니다.
+wrong_answers:
+  - 에너지 소비를 줄입니다.
+  - 거래 속도가 빨라집니다.
+  - 네트워크의 보안을 강화합니다.
+explanation: >-
+reviewed: true

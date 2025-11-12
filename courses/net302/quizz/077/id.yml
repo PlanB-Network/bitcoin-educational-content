@@ -1,0 +1,9 @@
+question: Metode resolusi mana yang mengharuskan membalikkan setiap digit heksadesimal dari IPv6 Address untuk zona sebaliknya?
+answer: Resolusi terbalik
+wrong_answers:
+  - Resolusi yang berlawanan
+  - Resolusi utama
+  - Resolusi sekunder
+explanation: |
+  Untuk resolusi terbalik, setiap gigitan dari IPv6 Address penuh dibalik dan dipisahkan oleh titik-titik sebelum diakhiri dengan ip6.arpa.
+reviewed: false

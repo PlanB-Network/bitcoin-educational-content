@@ -1,5 +1,5 @@
 ---
-name: सिंपलएक्स चैट
+name: SimpleX Chat
 description: बिना उपयोगकर्ता आईडी वाला पहला मेलबॉक्स
 ---
 ![cover](assets/cover.webp)
@@ -397,4 +397,4 @@ SimpleX की सबसे शक्तिशाली विशेषताओ
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

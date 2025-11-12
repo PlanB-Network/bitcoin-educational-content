@@ -1,0 +1,9 @@
+question: Hva er den typiske størrelsen på nettverksprefikset som brukes i en IPv6 Address i et lokalt nettverk?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bits
+  - 8 bits
+explanation: |
+  De første 64 bitene av en IPv6 Address er vanligvis reservert for delnettprefikset.
+reviewed: false

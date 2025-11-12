@@ -1,5 +1,5 @@
 ---
-name: SimpleX Chatt
+name: SimpleX Chat
 description: Den första brevlådan utan användar-ID
 ---
 ![cover](assets/cover.webp)
@@ -243,7 +243,7 @@ SimpleX genererar sedan en länk för engångsbruk. Du kan vidarebefordra den ti
 
 
 
-Du kan också välja vilken profil som ska kopplas till denna inbjudningslänk. För att göra det klickar du på din profil precis under QR-koden. Du kommer då att kunna :
+Du kan också välja vilken profil som ska kopplas till denna inbjudningslänk. För att göra det klickar du på din profil precis under QR-koden. Du kommer då att kunna:
 
 
 
@@ -313,7 +313,7 @@ En av SimpleX mest kraftfulla funktioner är möjligheten att hantera flera helt
 
 
 
-Du kan till exempel skapa :
+Du kan till exempel skapa:
 
 
 
@@ -397,4 +397,4 @@ Jag rekommenderar också den här andra handledningen, där jag presenterar Thre
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

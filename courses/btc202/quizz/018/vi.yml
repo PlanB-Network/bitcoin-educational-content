@@ -1,0 +1,9 @@
+question: Nút Bitcoin nào được sử dụng rộng rãi nhất?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Cổ điển
+  - Bcoin
+explanation: |
+  Với khoảng 9 trong số 10 nút trên mạng, Bitcoin core là khách hàng chiếm đa số.
+reviewed: true

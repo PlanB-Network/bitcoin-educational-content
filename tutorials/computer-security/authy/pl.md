@@ -91,7 +91,7 @@ Aby dodać nowe urządzenie, wystarczy powtórzyć proces instalacji przedstawio
 Aby skonfigurować kod uwierzytelniania 2FA za pośrednictwem aplikacji takiej jak Authy na koncie, konto musi obsługiwać tę funkcję. Obecnie większość usług online oferuje tę opcję 2FA, ale nie zawsze tak jest. Weźmy przykład konta pocztowego Proton, które przedstawiłem w innym poradniku:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

@@ -1,0 +1,9 @@
+question: Otomatik olarak atanan bir IPv6 Address ile ilişkili iki yaşam süresi nedir?
+answer: Tercih edilen yaşam süresi ve geçerli yaşam süresi
+wrong_answers:
+  - Kira süresi ve bekleme süresi
+  - Yaşam süresi ve sona erme
+  - İlk yaşam süresi ve ikincil yaşam süresi
+explanation: |
+  Tercih edilen kullanım ömrü Address'in normal kullanım süresini, geçerli kullanım ömrü ise toplam geçerlilik süresini belirler.
+reviewed: false

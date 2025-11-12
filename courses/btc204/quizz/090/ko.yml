@@ -1,0 +1,10 @@
+question: 다른 CoinJoin 구현과 비교했을 때 Whirlpool의 리믹스는 어떤 점이 다른가요?
+answer: 완전히 무료입니다.
+wrong_answers:
+  - Mining 수수료만 지불하면 됩니다.
+  - 사용자당 1개로 제한됩니다.
+  - 서비스 요금만 지불하면 됩니다.
+explanation: |
+  Whirlpool 리믹스는 100% 무료이며, 추가 서비스 수수료나 Mining 수수료가 필요하지 않습니다.
+  
+reviewed: true

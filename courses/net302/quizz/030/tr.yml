@@ -1,0 +1,9 @@
+question: Hangi protokol bir cihaza dinamik olarak bir IP Address atar?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP protokolü bir ağdaki cihazlara otomatik olarak IP adresleri atayarak Address yönetimini basitleştirir.
+reviewed: false

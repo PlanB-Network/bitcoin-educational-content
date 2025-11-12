@@ -1,0 +1,9 @@
+question: Was passiert, wenn ein Block gegen die Konsensregeln verstößt?
+answer: Sie wird von den Knotenpunkten sofort zurückgewiesen
+wrong_answers:
+  - Sie ist in Mempool gespeichert und muss noch validiert werden
+  - Sie wird nur von Knoten weitergegeben, die andere Regeln akzeptieren
+  - Sie wird nur von den Geldbörsen validiert
+explanation: |
+  Die Knoten lehnen systematisch jeden Block ab, der nicht den Konsensregeln entspricht.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Quale tipo di record DNS viene utilizzato per mappare un nome di dominio con un indirizzo IPv6?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Il tipo AAAA (quad-A) è usato per mappare un nome di dominio con un indirizzo IPv6, mentre il tipo A è riservato a IPv4.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 엄브렐에 Mempool.Space와 같은 로컬 Block explorer을 설치하는 주된 이유는 무엇인가요?
+answer: 기밀 유지 및 자체 노드의 데이터 사용
+wrong_answers:
+  - 초기 Bitcoin core 동기화 속도 향상
+  - 블록에 사용할 수 있는 저장 용량 늘리기
+  - 라이트닝 채널 가져오기
+explanation: |
+  로컬 Block explorer는 IP 유출을 방지하고 자체적으로 검증된 데이터를 사용하여 기밀성과 신뢰성을 보장합니다.
+reviewed: true

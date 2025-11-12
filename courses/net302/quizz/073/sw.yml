@@ -1,0 +1,9 @@
+question: Je, ni ukubwa gani wa block ya IPv6 unaotolewa kwa ujumla na IANA kwa kila Usajili wa Mtandao wa Kanda (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Tangu 2006, kila RIR kwa kawaida hupokea kizuizi /12 cha IPv6, ikitoa hifadhi kubwa sana kwa mgao wa kikanda.
+reviewed: false

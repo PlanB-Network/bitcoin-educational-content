@@ -1,0 +1,9 @@
+question: Milline on TCP-protokolli peamine roll TCP/IP-mudelis?
+answer: Tagada usaldusväärne ja nõuetekohane andmeedastus
+wrong_answers:
+  - Krüptida võrguside
+  - IP-aadresside määramine masinatele
+  - Füüsilisel tasandil andmesõnumite killustamine
+explanation: |
+  TCP tagab usaldusväärse andmeedastuse, kontrollides terviklikkust, säilitades korra ja tegeledes taastamisega kadude korral.
+reviewed: false

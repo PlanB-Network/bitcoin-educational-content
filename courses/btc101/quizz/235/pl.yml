@@ -1,10 +1,8 @@
-question: Jaka jest jednostka Bitcoin używana w Lightning Network?
-answer: Sats.
+question: W jaki sposób Lightning Network może być potencjalnie wykorzystywany do wynajmu towarów?
+answer: Użytkownicy mogliby być rozliczani minutowo, a nawet sekundowo, za czas korzystania z towarów.
 wrong_answers:
-  - Blok.
-  - Eter.
-  - Litecoin.
-explanation: |
-  Lightning Network używa satoshis (zwanego również Sats), dziesiętnej części Bitcoin
-  dziesiętny Bitcoin, do działania.
+  - Użytkownicy mogliby być obciążani wysokimi opłatami za wypożyczanie towarów.
+  - Użytkownicy mogliby być obciążani na podstawie wartości towarów.
+  - Użytkownicy mogą być obciążani opłatami na podstawie stanu towarów.
+explanation: >-
 reviewed: true

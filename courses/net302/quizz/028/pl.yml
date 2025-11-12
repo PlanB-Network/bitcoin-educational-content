@@ -1,0 +1,9 @@
+question: Jaka jest jednostka danych przepływających przez Transport Layer dla TCP?
+answer: Segment
+wrong_answers:
+  - Datagram
+  - Rama
+  - Strumień
+explanation: |
+  W przypadku TCP jednostka danych w Layer transportu nazywana jest segmentem, podczas gdy UDP używa terminu pakiet.
+reviewed: false

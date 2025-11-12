@@ -1,0 +1,9 @@
+question: Millä komennolla voidaan lisätä staattinen IP Address Interface:lle Linuxissa?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Komento "ip addr add" on nykyaikainen tapa määrittää staattinen IP-osoite Address verkkoon Interface Linuxissa.
+reviewed: false

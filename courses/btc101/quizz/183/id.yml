@@ -1,9 +1,10 @@
-question: Apa salah satu alasan harga Bitcoin bisa turun 10-20 atau bahkan 50% dalam beberapa hari?
-answer: Variasi pasar dan fase pasar bullish dan bearish.
+question: Apa itu AMF?
+answer: Autorité des Marchés Financiers
 wrong_answers:
-  - Jumlah orang yang menggunakan internet.
-  - Cuaca.
-  - Harga emas.
+  - Dana Moneter Amerika
+  - Asosiasi Fasilitas Pertambangan
+  - Aliran Uang Otomatis
 explanation: >-
-  Harga Bitcoin seringkali ditandai dengan volatilitas yang signifikan,
-  yang dapat dipengaruhi oleh variasi pasar dan fase pasar bullish dan bearish.
+  AMF, atau Autorité des Marchés Financiers, adalah sebuah organisasi Prancis
+  yang mengatur platform tempat bitcoin dapat dibeli.
+reviewed: false

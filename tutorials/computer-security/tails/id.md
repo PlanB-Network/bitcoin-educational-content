@@ -86,7 +86,7 @@ Semoga berhasil! dan sampai jumpa di langkah 4.
 ## Langkah 4: Mulai ulang pada flash drive USB Tails Anda
 
 ![image](assets/4.webp)
-🔗 Instruksi dari Tails  Resmi : https://tails.boum.org/install/linux/index.en.html#restart
+🔗 Instruksi dari Tails  Resmi: https://tails.boum.org/install/linux/index.en.html#restart
 
 Sekarang saatnya menyalakan salah satu komputer Anda menggunakan flash drive USB baru Anda. Masukkan ke salah satu port USB-nya, lalu mulai ulang komputer Anda!
 

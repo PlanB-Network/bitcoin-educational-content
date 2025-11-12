@@ -1,0 +1,9 @@
+question: Ist Spinoza ein Philosoph?
+answer: Aus dem 17. Jahrhundert.
+wrong_answers:
+  - Aus dem 16. Jahrhundert.
+  - Aus dem 18. Jahrhundert.
+  - Aus der Antike.
+explanation: |
+  Spinoza lebte von 1632 bis 1677 und gehört damit zu den Philosophen des 17. Jahrhunderts. In dieser Zeit, die als Zeitalter der Vernunft bezeichnet wird, entstanden der moderne Rationalismus und neue wissenschaftliche Ansätze zum Verständnis der Welt.
+reviewed: false

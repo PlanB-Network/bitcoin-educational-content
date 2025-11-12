@@ -1,0 +1,9 @@
+question: 如果資料報超出所經網路的 MTU，IP 通訊協定會如何處理？
+answer: 他把它分成幾塊
+wrong_answers:
+  - 它會在傳送前加密整個資料報。
+  - 它總是拒絕並傳送錯誤訊息
+  - 他在傳輸前先將其壓縮
+explanation: |
+  如果資料報大小超過 MTU，路由器會將其分割成適合目標網路的數個較小封包。
+reviewed: false

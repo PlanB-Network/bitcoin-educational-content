@@ -1,0 +1,9 @@
+question: Co udělá protokol IP, pokud datagram překročí MTU sítě, kterou prochází?
+answer: Rozdělí ji na několik částí
+wrong_answers:
+  - Před odesláním zašifruje celý datagram
+  - Vždy ji odmítne a odešle chybovou zprávu
+  - Před vysíláním ji zkomprimuje
+explanation: |
+  Pokud velikost datagramu překročí MTU, směrovač jej rozdělí na několik menších paketů, které se vejdou do cílové sítě.
+reviewed: false

@@ -1,0 +1,4 @@
+description: |
+  Amboss는 Bitcoin Lightning Network 채널을 관리하기 위한 데이터, 인사이트, 조정 도구를 제공하는 플랫폼입니다.
+  
+  주로 Bitcoin 라이트닝 노드의 네트워크 가십을 사용해 관련 정보를 제공합니다. 이 플랫폼에는 전용 유동성 마켓플레이스인 마그마와 함께 운영을 수행하기 위한 API도 포함되어 있습니다. 앰보스는 Commitment에서 데이터 기반 인사이트를 통해 효율적이고 정보에 입각한 Lightning Network 관리를 위한 종합적인 솔루션을 제공합니다.

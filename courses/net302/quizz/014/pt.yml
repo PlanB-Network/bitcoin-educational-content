@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo do IPv5 (Stream Protocol, ST)?
+answer: Garantir a qualidade do serviço para determinados fluxos
+wrong_answers:
+  - Aumentar a capacidade de endereçamento IP
+  - Proporcionar compatibilidade com versões anteriores do IPv6
+  - Reduzir o tamanho dos pacotes de rede TCP/IP
+explanation: |
+  O IPv5 (ST) foi concebido para proporcionar qualidade de serviço (QoS) a fluxos multimédia, como o VoIP, garantindo largura de banda e prioridade.
+reviewed: false

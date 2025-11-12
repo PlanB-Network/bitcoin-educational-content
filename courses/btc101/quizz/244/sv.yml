@@ -1,8 +1,8 @@
-question: Vad är ett sätt att testa Lightning Network för dig själv?
-answer: Genom att prova podcastapplikationen Fountain.
+question: Vilken är en av de viktigaste frågorna i samband med censur?
+answer: Det kan förstöra yttrandefriheten och rätten till mötesfrihet.
 wrong_answers:
-  - Av Mining Bitcoin med hjälp av en persondator.
-  - Genom att köpa Bitcoin från banken.
-  - Genom att skapa en ny kryptovaluta.
+  - Det kan leda till att yttrandefriheten upprätthålls.
+  - Det kan leda till ökat stöd för rätten till mötesfrihet.
+  - Det kan leda till minskad innovation.
 explanation: >-
 reviewed: true

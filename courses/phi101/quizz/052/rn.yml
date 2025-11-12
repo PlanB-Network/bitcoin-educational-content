@@ -1,0 +1,9 @@
+question: Ni igiki Augustin mweranda yari afise ku bijanye n’isano riri hagati y’ububasha bwo mu vy’impwemu n’ububasha bwo mu gihe?
+answer: Ububasha bw’igihe butegerezwa kuba munsi y’ububasha bw’impwemu.
+wrong_answers:
+  - Ububasha bw’impwemu butegerezwa kuba munsi y’ububasha bw’umubiri.
+  - Izo nguvu zibiri zirigenga kandi zitegerezwa kubana mu mahoro.
+  - Ububasha bw’igihe ntaco bufise kandi butegerezwa gukurwaho kugira ngo haboneke ububasha bw’impwemu.
+explanation: |
+  Augustin mweranda yavuze ko ububasha bw’igihe butegerezwa kuba munsi y’ububasha bw’impwemu kuko intumbero nyamukuru y’ubuzima bw’umuntu ari iyo mu mpwemu kandi ko ikwiye kuyobora ibikorwa vya politike bihuye n’agaciro ka gikirisu.
+reviewed: true

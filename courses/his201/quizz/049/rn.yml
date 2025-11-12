@@ -1,0 +1,9 @@
+question: Ni igiki cahindutse mu giciro ca Bitcoin mu ndwi yakurikiye igihe cashizwe kuri Slashdot?
+answer: Kuva ku madolari 0,008 gushika ku madolari 0,08
+wrong_answers:
+  - Kuva ku madolari 0,001 gushika ku madolari 0,008
+  - Kuva ku madolari 0,08 gushika ku madolari 0,50
+  - Kuva ku madolari 0,50 gushika ku madolari 10.00.
+explanation: |
+  Ukwo guhinduka kwari guhuye n’ukwiyongera kw’incuro cumi! Igitigiri ca Hash carashikiwe n’iterambere nk’iryo nyene.
+reviewed: true

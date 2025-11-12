@@ -460,7 +460,7 @@ Se és novo na construção, começa com estas [MakerBits presentations](https:/
 - A adição de lightning:lnurl1234xyz criará um QR que solicita a abertura da carteira do utilizador para esta fatura na leitura (última aplicação lightning instalada no iOS, definição no Android)
 - Se estiver a fazer o flash de um esp32 via web, só funcionará com estes browsers (TL:DR Chrome, Edge & Opera).
 - Tenha em atenção esta referência PIN-OUT para o esp
-- Quando utilizar FOSSoftware ou FOSGuides, por favor, ligue sempre ao autor. Toda a gente gosta de ver o seu bebé crescer e isso também dá início a uma cadeia de construção que é bastante impressionante de ver :)
+- Quando utilizar FOSSoftware ou FOSGuides, por favor, ligue sempre ao autor. Toda a gente gosta de ver o seu bebé crescer e isso também dá início a uma cadeia de construção que é bastante impressionante de ver:)
 
 Vem ao [Grupo de Telegramas Makerbits] (https://t.me/makerbits) se precisares de ajuda com um projeto - nós ajudamos-te!
 

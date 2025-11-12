@@ -193,7 +193,7 @@ Chagua jina na maelezo ya "*Chumba* chako", kisha ubofye "*Unda gumzo la kikundi
 
 
 
-"*Chumba*" chako sasa kimeundwa. Bofya aikoni ya "+*" iliyo juu kulia ili kuwaalika washiriki.
+"*Chumba*" chako sasa kimeundwa. Bofya aikoni ya "**+**" iliyo juu kulia ili kuwaalika washiriki.
 
 
 
@@ -329,8 +329,8 @@ Hongera, sasa uko kwenye kasi ya kutumia ujumbe wa Keet, njia mbadala nzuri ya W
 
 
 
-Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail :
+Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

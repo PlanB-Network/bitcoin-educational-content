@@ -4,9 +4,9 @@ description: Un robot Telegram pour acheter Bitcoin en toute confidentialité
 ---
 ![image](assets/cover.webp)
 
-ce tutoriel a été rédigé par_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Ce tutoriel a été rédigé par_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Introduction
+## Introduction
 
 Le BitcoinVoucherBot est un outil qui permet d'acheter des bitcoins en Exchange contre des euros.
 
@@ -32,7 +32,7 @@ Dans le chat de Telegram, nous préparons une commande, nous la payons par virem
 
 L'activation est une opération simple à effectuer une seule fois. Depuis Telegram, recherchez _@BitcoinVoucherBot_ et dès que vous arrivez sur le chat du Bot, un gros bouton _Start/Start_ apparaît en bas. L'opération fait réagir le Bot, qui présente un menu des principales commandes à sa disposition. Les premiers messages de bienvenue apparaissent également, pour lesquels nous recommandons une lecture attentive.
 
-**Avertissement** : plusieurs escrocs se font passer pour des VoucherBot originaux. Si vous n'êtes pas sûr de pouvoir effectuer une recherche via Telegram, veuillez accéder au lien BitcoinVoucherBot depuis le [site officiel] (https://www.bitcoinvoucherbot.com/)
+**Attention** : il y a plusieurs arnaqueurs qui se font passer pour le VoucherBot original. Si vous n’êtes pas sûr de la recherche via Telegram, accédez au lien de BitcoinVoucherBot depuis le [site officiel](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Les principales opérations sont les suivantes
 - _/fees_ : une commande pour vérifier les frais de réseau. Pour les évaluer, il est toujours préférable de s'appuyer sur Mempool.space.
 - _/support_ : en cas de besoin, affiche les contacts permettant de signaler les problèmes à l'équipe d'assistance.
 
-# Procédure d'achat Bitcoin
+## Procédure d’achat de Bitcoin
 
-## Préparation des commandes
+### Préparation de la commande
 
 Cliquez sur _/achat_ dans le menu de commande
 
@@ -97,7 +97,7 @@ Si tout est correct, continuez en cliquant sur _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Paiement
+### Paiement
 
 Après quelques instants, nécessaires au traitement des données, VoucherBot répond par un message contenant tous les détails nécessaires à la réalisation de la commande. En fonction des exigences de votre banque, les informations pertinentes sont les suivantes :
 
@@ -124,7 +124,7 @@ A noter :
 - pour tout besoin, Bitcoin VoucherBot dispose d'un excellent service [support](https://t.me/BitcoinVoucherGroup) sur Telegram.
 
 ---
-## Rédemption
+### Rachat
 
 Dès que le paiement est effectué avec succès, Bitcoin VoucherBot envoie le bon directement dans le chat. Le bon éclair se présente sous la forme d'un code QR, imprimé sur un fond orange.
 
@@ -139,7 +139,7 @@ Il y a toutes les données nécessaires pour l'encaisser :
 
 Vous pouvez encaisser le bon en cadrant le code QR à l'aide de la fonction de balayage d'un Wallet Lightning Network compatible, ou via LNURL, également indiqué sous le code QR.
 
-Pour ce tutoriel, nous avons utilisé Wallet de Satoshi, en utilisant la fonction de balayage activée par la touche _Send_
+Pour ce tutoriel, nous avons utilisé Wallet Of Satoshi, en utilisant la fonction de scan activée par le bouton _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Avec l'appareil photo du téléphone portable activé, encadrez le code QR dans 
 
 ![image](assets/it/34.webp)
 
-Avant de poursuivre, Wallet de Satoshi affiche un écran de vérification qui comprend le montant, qui correspond exactement au montant exprimé sur le bon et, en guise de description, BitcoinVoucherBot. Pour encaisser le bon, il suffit de cliquer sur _Receive_ (Recevoir)
+Avant de continuer, Wallet Of Satoshi affiche un écran de vérification comprenant le montant, qui correspond exactement à celui indiqué sur le bon, et comme description, BitcoinVoucherBot. Pour encaisser le bon, il suffit de cliquer sur _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet De Satoshi processus pendant quelques instants
+Wallet Of Satoshi traite pendant quelques instants.
 
 ![image](assets/it/36.webp)
 
 et enfin la collecte est déclarée et immédiatement disponible dans le solde de la Wallet.
 
-**La Wallet de la Satoshi est une application de garde : immédiatement après avoir encaissé le bon, il est conseillé de déplacer la Sats vers une Wallet sans garde.**
+**Wallet of Satoshi est une application custodial : immédiatement après l’encaissement du bon, il est conseillé de transférer les sats vers un portefeuille non-custodial.**
 
 ![image](assets/it/37.webp)
 

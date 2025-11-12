@@ -1,5 +1,5 @@
 ---
-name: Mwavuli LND
+name: Umbrel LND
 description: Mafunzo ya kina juu ya kusakinisha na kusanidi Lightning Network Daemon (LND) kwenye Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Ili kusakinisha Umbrel na kusanidi nodi yako ya Bitcoin, tunapendekeza ufuate ma
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Hakikisha nodi yako ya Bitcoin imesasishwa na inafanya kazi ipasavyo, kwani Lightning Network inaitegemea kwa shughuli zote za off-chain.
 
@@ -57,7 +57,7 @@ Kwa utangulizi kamili wa kinadharia kwa Lightning Network, tunapendekeza usome k
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Kozi hii itakupa msingi kamili wa dhana za kimsingi za Lightning Network, kabla ya kuendelea na mazoezi na nodi yako ya LND.
 
@@ -496,7 +496,7 @@ Nodi yako ya Mwavuli ya Umeme inahitaji aina mbili za chelezo:
 
 - Ina maelezo ya kituo cha Umeme
 - Huwasha kufungwa kwa kituo kwa lazima katika tukio la kuacha kufanya kazi
-- Muhimu:** Kamwe usihifadhi faili ya `channel.db` mwenyewe (hatari ya adhabu)
+- **Muhimu:** Kamwe usihifadhi faili ya `channel.db` mwenyewe (hatari ya adhabu)
 
 
 
@@ -613,7 +613,7 @@ Ili kujua zaidi kuhusu kusanidi na kutumia minara, tunapendekeza uangalie mafunz
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Mazoea mengine bora
 
 
@@ -621,7 +621,7 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 - **Masasisho ya programu:** Sasisha Umbrel na LND (marekebisho ya usalama)
-- Ulinzi wa maunzi:** Tumia mfumo thabiti (Raspberry Pi na SSD, mini-PC) na UPS
+- **Ulinzi wa maunzi:** Tumia mfumo thabiti (Raspberry Pi na SSD, mini-PC) na UPS
 - **Usalama wa mtandao:** Weka usanidi chaguo-msingi wa Tor, badilisha nenosiri la msimamizi wa Umbrel (chaguo-msingi: "moneyprintergobrrr")
 - **Usimbaji fiche:** Washa usimbaji fiche wa diski ikiwezekana
 

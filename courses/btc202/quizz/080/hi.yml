@@ -1,0 +1,9 @@
+question: Bitcoin core में maxconnections पैरामीटर का डिफ़ॉल्ट मान क्या है?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections इनकमिंग और आउटगोइंग कनेक्शनों की कुल संख्या को सीमित करता है। डिफ़ॉल्ट मान 125 है।
+reviewed: true

@@ -1,11 +1,12 @@
-question: Vad händer om en tredje part får kännedom om din privata nyckel?
-answer: Den tredje parten kan spendera dina bitcoins.
+question: Vad är inte en Mnemonic-fras i samband med Bitcoin?
+answer: Ett lösenord för din Bitcoin Wallet.
 wrong_answers:
-  - Den tredje parten kan bara se din transaktionshistorik.
-  - Den tredje parten kan ändra din privata nyckel.
-  - Den tredje parten kan komma åt dina personuppgifter.
+  - En lista med 12 ord från en viss ordbok.
+  - En lista med 24 ord från en viss ordbok.
+  - Hemligheten för att få tillgång till din Bitcoin-fond.
 explanation: |
-  Om din privata nyckel avslöjas för en tredje part är de
-  är de tillhörande medlen inte längre säkra, eftersom den privata
-  eftersom den privata nyckeln ger dem tillgång till dina medel.
+  En Mnemonic-fras i samband med Bitcoin är en lista med 12
+  eller 24 ord som gör att du kan återställa din Wallet på alla
+  Bitcoin Wallet applikation. Den som har tillgång till denna lista
+  kan också komma åt dina bitcoins.
 reviewed: true

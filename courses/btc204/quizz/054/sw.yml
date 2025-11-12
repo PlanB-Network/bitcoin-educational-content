@@ -1,4 +1,4 @@
-question: Jina la algoriti ya kriptografia inayotumika katika Malipo ya Kimya ili kubaini siri iliyoshirikiwa kati ya mpokeaji na mlipaji ni nini?
+question: Jina la algoriti ya kriptografia inayotumika katika Malipo ya Kimya ili kubaini siri iliyoshirikiwa kati ya mpokeaji na mlipaji ni ipi?
 answer: ECDH
 wrong_answers:
   - RSA
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Algoriti ya ECDH (Elliptic-Curve Diffie-Hellman) inatumika katika Malipo ya Kimya kati ya funguo za kuchanganua za mpokeaji na jumla ya funguo za mtumaji ili kubaini siri iliyoshirikiwa ambayo itaruhusu kupatikana kwa malipo ya kipekee ya Address.
   
-reviewed: false
+reviewed: true

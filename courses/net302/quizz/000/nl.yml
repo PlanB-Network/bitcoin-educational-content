@@ -1,0 +1,9 @@
+question: Wat is de fundamentele rol van een netwerk in IT?
+answer: Gegevens inschakelen Exchange
+wrong_answers:
+  - Computergeheugen vergroten
+  - Reservekopieën maken
+  - Exchange van computerapparatuur inschakelen
+explanation: |
+  Een netwerk verbindt meerdere apparaten om de circulatie en Exchange van informatie mogelijk te maken.
+reviewed: false

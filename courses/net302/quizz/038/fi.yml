@@ -1,0 +1,9 @@
+question: Mikä tyypillinen CIDR-alue edustaa IANA:n RIR:lle jakaman IPv4-lohkon kokoa?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA jakaa IPv4-avaruuden /8-kokoisiin lohkoihin, joista kukin sisältää 2^24 osoitetta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni hali gani ya NAT inaruhusu vifaa vingi kushiriki IP moja ya umma Address kwa kurekebisha bandari?
+answer: PAT
+wrong_answers:
+  - NAT tuli
+  - NAT yenye Nguvu
+  - Uelekezaji tuli
+explanation: |
+  PAT, pia inajulikana kama upakiaji mwingi wa NAT au uigaji wa IP, hubadilisha nambari za mlango ili kutofautisha vipindi, kuwezesha vifaa vingi kutumia Address sawa ya umma.
+reviewed: false

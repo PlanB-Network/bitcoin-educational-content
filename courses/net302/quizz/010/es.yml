@@ -1,0 +1,9 @@
+question: ¿Qué protocolo moderno ofrece una funcionalidad similar a la que pretendía IPv5 en la gestión de la calidad de servicio de la red?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  El protocolo RSVP (Resource Reservation Protocol) permite la reserva dinámica de recursos de red para garantizar la calidad del servicio (QoS), que era el objetivo original de IPv5.
+reviewed: false

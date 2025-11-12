@@ -1,0 +1,9 @@
+question: Jaki typ rekordu DNS jest używany do znalezienia nazwy powiązanej z IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) umożliwia odwrotne rozpoznawanie, co oznacza, że łączy IPv6 Address z nazwą domeny.
+reviewed: false

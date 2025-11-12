@@ -1,0 +1,9 @@
+question: Tệp cấu hình nào xác định mạng tĩnh Interface trên hệ thống giống RHEL?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/mạng/giao diện
+explanation: |
+  Trên RHEL, CentOS và các hệ thống tương tự, mỗi Interface đều có tệp ifcfg-* riêng nằm trong /etc/sysconfig/network-scripts/.
+reviewed: false

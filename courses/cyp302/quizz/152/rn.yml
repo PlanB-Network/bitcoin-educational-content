@@ -1,0 +1,9 @@
+question: Ni igiki gikora urufunguzo rw’ibanga d mu bijanye n’ubuhinga bwa RSA?
+answer: Ikoreshwa mu gusobanura ubutumwa hakoreshejwe modulus N .
+wrong_answers:
+  - Ikoreshwa gusa mu gupfuka ubutumwa
+  - Ikoreshwa mu gufungura bitcoins
+  - Ikoreshwa mu kubara φ(N)
+explanation: |
+  Urufunguzo rw'ibanga d rukoreshwa mu gukuraho ubutumwa bwashizwemwo, mu kurangiza ibara n'umubare N.
+reviewed: false

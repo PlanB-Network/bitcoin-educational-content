@@ -43,8 +43,10 @@ Théo; wkład
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
 
-**Cel: Zaktualizuj swoje umiejętności w zakresie bezpieczeństwa !
+
+**Cel: Zaktualizuj swoje umiejętności w zakresie bezpieczeństwa!**
 
 
 Witamy wszystkich w tym programie edukacyjnym poświęconym bezpieczeństwu cyfrowemu. Szkolenie to zostało zaprojektowane tak, aby było dostępne dla każdego, więc nie jest wymagana wcześniejsza znajomość informatyki. Naszym głównym celem jest dostarczenie wiedzy i umiejętności niezbędnych do bezpieczniejszego i bardziej prywatnego poruszania się po cyfrowym świecie.
@@ -59,7 +61,7 @@ Szkolenie to jest wspólnym wysiłkiem trzech naszych profesorów:
 
 - Renaud Lifchitz, ekspert ds. cyberbezpieczeństwa
 - Théo Pantamis, doktor matematyki stosowanej
-- Rogzy, Współzałożyciel Plan ₿ Network
+- Rogzy, Współzałożyciel Plan ₿ Academy
 
 
 Higiena cyfrowa ma kluczowe znaczenie w coraz bardziej cyfrowym świecie. Pomimo ciągłego wzrostu liczby włamań i masowej inwigilacji, nie jest jeszcze za późno na zrobienie pierwszego kroku i zabezpieczenie się.
@@ -80,7 +82,7 @@ Jeśli szukasz bardziej zaawansowanych umiejętności na ten temat, nasze zasoby
 Na początek omówimy znaczenie wyboru przeglądarki internetowej i jej wpływ na bezpieczeństwo. Następnie zbadamy specyfikę przeglądarek, w szczególności w zakresie zarządzania plikami cookie. Zobaczymy również, jak zapewnić bezpieczniejsze i bardziej anonimowe przeglądanie, korzystając z narzędzi takich jak TOR. Następnie skupimy się na wykorzystaniu sieci VPN w celu zwiększenia ochrony danych. Na koniec przedstawimy zalecenia dotyczące bezpiecznego korzystania z połączeń WiFi.
 
 
-![](assets/en/1.webp)
+![image](assets/pl/001.webp)
 
 
 **Sekcja 2: Najlepsze praktyki korzystania z komputera**
@@ -93,7 +95,7 @@ Na początek omówimy znaczenie wyboru przeglądarki internetowej i jej wpływ n
 
 W tej sekcji omówimy trzy kluczowe obszary bezpieczeństwa komputerowego. Po pierwsze, zbadamy różne systemy operacyjne: Mac, PC i Linux, podkreślając ich specyfikę i mocne strony. Następnie zagłębimy się w metody skutecznej ochrony przed próbami włamań i wzmocnienia bezpieczeństwa urządzeń. Na koniec podkreślimy znaczenie regularnej ochrony i tworzenia kopii zapasowych danych, aby zapobiec ich utracie lub atakom ransomware.
 
-![](assets/en/2.webp)
+![image](assets/pl/002.webp)
 
 
 **Sekcja 3: Wdrażanie rozwiązań**
@@ -110,7 +112,7 @@ W tej praktycznej trzeciej części przejdziemy do wdrażania konkretnych rozwi�
 
 Najpierw zobaczymy, jak chronić skrzynkę e-mail, która jest niezbędna do komunikacji i często jest celem hakerów. Następnie przedstawimy menedżera haseł: praktyczne rozwiązanie, dzięki któremu nie zapomnisz ani nie pomylisz swoich haseł, zachowując ich bezpieczeństwo. Na koniec omówimy dodatkowy środek bezpieczeństwa, uwierzytelnianie dwuskładnikowe, które dodaje dodatkowy Layer ochrony do twoich kont. Wszystko zostanie wyjaśnione w jasny i przystępny sposób.
 
-![](assets/en/3.webp)
+![image](assets/pl/003.webp)
 
 
 Gotowy na wzmocnienie bezpieczeństwa cyfrowego i odzyskanie kontroli nad swoimi danymi? Do dzieła!
@@ -126,6 +128,8 @@ Gotowy na wzmocnienie bezpieczeństwa cyfrowego i odzyskanie kontroli nad swoimi
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 Podczas przeglądania Internetu ważne jest, aby unikać pewnych typowych błędów w celu zachowania bezpieczeństwa online. Oto kilka wskazówek, jak ich uniknąć:
 
@@ -137,14 +141,15 @@ Zaleca się pobieranie oprogramowania z oficjalnej strony internetowej wydawcy, 
 
 Przykład: Użyj www.signal.org/download zamiast www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/pl/004.webp)
 
 
 Zaleca się również priorytetowe traktowanie oprogramowania open-source, ponieważ są one często bezpieczniejsze i wolne od złośliwego oprogramowania. Oprogramowanie "open-source" to oprogramowanie, którego kod jest znany i dostępny dla każdego. Pozwala to między innymi zweryfikować, czy nie ma ukrytego dostępu do kradzieży danych osobowych.
 
 
 > Bonus: oprogramowanie open source jest często darmowe! Ten uniwersytet jest w 100% open source, więc możesz również sprawdzić nasz kod na naszym GitHubie.
-> ![](assets/notext/5.webp)
+
+![image](assets/pl/005.webp)
 
 ### Zarządzanie plikami cookie: Błędy i najlepsze praktyki
 
@@ -161,7 +166,7 @@ Istnieją dwie główne rodziny przeglądarek: te oparte na Chrome i te oparte n
 
 Chociaż obie rodziny oferują podobny poziom bezpieczeństwa, zaleca się unikanie przeglądarki Google Chrome ze względu na jej trackery. Lżejsze alternatywy dla Chrome, takie jak Chromium lub Brave, mogą być preferowane. Brave jest szczególnie polecany ze względu na wbudowany bloker reklam. Aby uzyskać dostęp do niektórych stron internetowych, konieczne może być korzystanie z wielu przeglądarek.
 
-![](assets/notext/6.webp)
+![image](assets/pl/006.webp)
 
 
 ### Przeglądanie prywatne, TOR i inne alternatywy dla bezpieczniejszego i bardziej anonimowego przeglądania
@@ -175,15 +180,17 @@ Bardziej zaawansowaną alternatywą jest sieć TOR (The Onion Router), która of
 
 TOR jest legalny i jest używany przez dziennikarzy, działaczy na rzecz wolności i inne osoby, które chcą uniknąć cenzury w krajach autorytarnych. Ważne jest jednak, aby zrozumieć, że TOR nie zabezpiecza odwiedzanych witryn ani samego komputera. Ponadto korzystanie z TOR może spowolnić połączenie internetowe, ponieważ dane przechodzą przez komputery trzech innych osób, zanim dotrą do miejsca docelowego. Należy również pamiętać, że TOR nie jest niezawodnym rozwiązaniem gwarantującym 100% anonimowość i nie powinien być używany do nielegalnych działań.
 
-![](assets/notext/7.webp)
+![image](assets/pl/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN i połączenie internetowe
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### VPN
@@ -194,7 +201,7 @@ Ochrona połączenia internetowego jest kluczowym aspektem bezpieczeństwa onlin
 
 "VPN to narzędzia, które szyfrują dane przesyłane przez Internet, dzięki czemu połączenie jest bezpieczniejsze. W kontekście zawodowym sieci VPN umożliwiają pracownikom bezpieczny zdalny dostęp do wewnętrznej sieci firmy. Wymieniane dane są szyfrowane, co znacznie utrudnia ich przechwycenie przez osoby trzecie. Oprócz zabezpieczenia dostępu do sieci wewnętrznej, korzystanie z VPN może pozwolić użytkownikowi na przekierowanie połączenia internetowego przez sieć wewnętrzną firmy, sprawiając wrażenie, że połączenie pochodzi z firmy. Może to być szczególnie przydatne w przypadku dostępu do usług online, które są ograniczone geograficznie.
 
-![](assets/en/8.webp)
+![image](assets/pl/008.webp)
 
 
 ### Rodzaje sieci VPN
@@ -205,14 +212,14 @@ Istnieją dwa główne typy VPN: VPN dla przedsiębiorstw i VPN dla konsumentów
 
 Korzystanie z konsumenckiej sieci VPN nie gwarantuje jednak pełnej anonimowości. Wielu dostawców VPN zachowuje informacje o swoich użytkownikach, co może potencjalnie zagrozić ich anonimowości. Chociaż sieci VPN mogą być przydatne do poprawy bezpieczeństwa online, nie są one uniwersalnym rozwiązaniem. Są skuteczne w przypadku niektórych konkretnych zastosowań, takich jak dostęp do usług ograniczonych geograficznie lub poprawa bezpieczeństwa podczas podróży, ale nie gwarantują całkowitego bezpieczeństwa. Wybierając VPN, ważne jest, aby przedkładać niezawodność i techniczność nad popularność. Dostawcy VPN, którzy zbierają najmniej danych osobowych, są zazwyczaj najbezpieczniejsi. Usługi takie jak iVPN i Mullvad nie gromadzą danych osobowych, a nawet umożliwiają płatności w Bitcoin w celu zwiększenia prywatności.
 
-![](assets/notext/9.webp)
+![image](assets/pl/009.webp)
 
 Wreszcie, VPN może być również używany do blokowania reklam online, zapewniając przyjemniejsze i bezpieczniejsze przeglądanie. Ważne jest jednak, aby przeprowadzić własne badania, aby znaleźć VPN, który najlepiej odpowiada Twoim konkretnym potrzebom. Korzystanie z VPN jest zalecane w celu zwiększenia bezpieczeństwa, nawet podczas przeglądania Internetu w domu. Pomaga to zapewnić wyższy poziom bezpieczeństwa wymienianych danych online. Na koniec upewnij się, że sprawdzasz adresy URL i małą kłódkę na pasku Address, aby potwierdzić, że jesteś na stronie, którą zamierzasz odwiedzić.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS i publiczne sieci Wi-Fi
 
@@ -225,7 +232,7 @@ W Unii Europejskiej ochrona danych jest regulowana przez ogólne rozporządzenie
 
 Aby uniknąć oszustw internetowych, ważne jest, aby zweryfikować tożsamość przeglądanej witryny, zwłaszcza poprzez sprawdzenie rozszerzenia i nazwy domeny. Ponadto należy uważać na oszustów, którzy używają podobnych liter w adresach URL, aby oszukać użytkowników.
 
-![](assets/en/10.webp)
+![image](assets/pl/010.webp)
 
 Podsumowując, korzystanie z VPN może znacznie poprawić bezpieczeństwo online, zarówno dla firm, jak i użytkowników indywidualnych. Ponadto praktykowanie dobrych nawyków przeglądania może przyczynić się do lepszej higieny cyfrowej. W następnym segmencie tego kursu zajmiemy się bezpieczeństwem komputera Address, w tym aktualizacjami, programem antywirusowym i zarządzaniem hasłami.
 
@@ -240,6 +247,8 @@ Podsumowując, korzystanie z VPN może znacznie poprawić bezpieczeństwo online
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 Bezpieczeństwo naszych komputerów jest głównym problemem w dzisiejszym cyfrowym świecie. Dzisiaj omówimy trzy kluczowe punkty Address:
@@ -256,14 +265,14 @@ Bezpieczeństwo naszych komputerów jest głównym problemem w dzisiejszym cyfro
 
 Jeśli chodzi o wybór komputera, nie ma znaczącej różnicy w bezpieczeństwie między starymi i nowymi komputerami. Istnieją jednak różnice w bezpieczeństwie między systemami operacyjnymi: Windows, Linux i Mac.
 
-![](assets/notext/11.webp)
+![image](assets/pl/011.webp)
 
 Jeśli chodzi o system Windows, zaleca się, aby nie używać konta administratora na co dzień, ale raczej utworzyć dwa oddzielne konta: konto administratora i konto do codziennego użytku. Windows jest często bardziej narażony na złośliwe oprogramowanie ze względu na dużą liczbę użytkowników i łatwość przełączania się z użytkownika na administratora. Z drugiej strony, zagrożenia są mniej powszechne w systemach Linux i Mac.
 
 
 Wybór systemu operacyjnego powinien opierać się na potrzebach i preferencjach użytkownika. Systemy Linux znacznie ewoluowały w ostatnich latach, stając się coraz bardziej przyjazne dla użytkownika. Ubuntu jest interesującą alternatywą dla początkujących, z łatwym w użyciu graficznym Interface. Możliwe jest podzielenie komputera na partycje w celu eksperymentowania z Linuksem przy jednoczesnym zachowaniu systemu Windows, ale może to być skomplikowane. Często lepiej jest mieć dedykowany komputer, maszynę wirtualną lub klucz USB do testowania Linuksa lub Ubuntu.
 
-![](assets/notext/12.webp)
+![image](assets/pl/012.webp)
 
 
 ### Aktualizacje oprogramowania
@@ -293,7 +302,7 @@ Wybór i wdrożenie programu antywirusowego jest ważne. Windows Defender, wbudo
 
 Dla tych, którzy chcą zainwestować w płatny program antywirusowy, zaleca się wybranie programu antywirusowego, który inteligentnie analizuje nieznane i pojawiające się zagrożenia, takie jak Kaspersky. Aktualizacje programu antywirusowego są niezbędne do ochrony przed nowymi zagrożeniami.
 
-![](assets/notext/13.webp)
+![image](assets/pl/013.webp)
 
 
 > Uwaga: Linux i Mac, dzięki systemowi separacji praw użytkownika, często nie potrzebują programu antywirusowego.
@@ -311,6 +320,8 @@ Podsumowując, ważne jest, aby wybrać system operacyjny, który odpowiada Twoi
 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 
 ### Jak atakują hakerzy?
@@ -343,7 +354,7 @@ Złotą zasadą jest tutaj dokładne sprawdzenie pełnej nazwy nadawcy, a także
 
 Ransomware to rodzaj złośliwego oprogramowania, które szyfruje dane użytkownika i żąda okupu za ich odszyfrowanie. Ten rodzaj ataku staje się coraz bardziej powszechny i może być bardzo kłopotliwy dla firmy lub osoby prywatnej. Aby się chronić, konieczne jest tworzenie kopii zapasowych najbardziej wrażliwych plików! Nie powstrzyma to ransomware, ale pozwoli po prostu je zignorować.
 
-![](assets/notext/14.webp)
+![image](assets/pl/014.webp)
 
 Regularnie twórz kopie zapasowe ważnych danych na zewnętrznym urządzeniu pamięci masowej lub w bezpiecznej usłudze przechowywania danych online. W ten sposób, w przypadku cyberataku lub awarii sprzętu, można odzyskać dane bez utraty kluczowych informacji.
 
@@ -368,9 +379,9 @@ NIE, generalnie nie zaleca się płacenia hakerom w przypadku oprogramowania ran
 W przypadku wykrycia wirusa na komputerze należy odłączyć go od Internetu, przeprowadzić pełne skanowanie antywirusowe i usunąć zainfekowane pliki. Następnie zaktualizuj oprogramowanie i system operacyjny oraz zmień hasła, aby zapobiec dalszym włamaniom.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Wdrażanie rozwiązań.
 
@@ -382,6 +393,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 
 ### Konfigurowanie nowego konta e-mail!
@@ -401,7 +414,7 @@ Chociaż wszyscy mamy już konto e-mail, ważne jest, aby rozważyć utworzenie 
 
 Właściwe zarządzanie naszymi adresami e-mail ma kluczowe znaczenie dla zapewnienia bezpieczeństwa naszego dostępu online. Ważne jest, aby wybrać bezpiecznego i szanującego prywatność dostawcę poczty e-mail. Na przykład ProtonMail to bezpieczna i szanująca prywatność usługa poczty elektronicznej.
 
-![](assets/notext/15.webp)
+![image](assets/pl/015.webp)
 
 Wybierając dostawcę poczty e-mail i tworząc hasło, ważne jest, aby nigdy nie używać tego samego hasła do różnych usług online. Zaleca się regularne tworzenie nowych adresów e-mail i oddzielne korzystanie z nich przy użyciu różnych adresów e-mail. Zaleca się wybranie bezpiecznej usługi e-mail dla krytycznych kont. Należy również zauważyć, że niektóre usługi ograniczają długość haseł, dlatego ważne jest, aby być świadomym tego ograniczenia. Dostępne są również usługi do tworzenia tymczasowych adresów e-mail, które mogą być używane dla kont o ograniczonym czasie działania.
 
@@ -414,19 +427,21 @@ Ważne jest, aby wziąć pod uwagę, że starsi dostawcy poczty e-mail, tacy jak
 
 Zaleca się korzystanie ze strony internetowej Have I Been Pwned (https://haveibeenpwned.com/), aby sprawdzić, czy nasz e-mail Address został naruszony i aby zostać powiadomionym o przyszłych naruszeniach danych. Zhakowana baza danych może zostać wykorzystana przez hakerów do wysyłania wiadomości phishingowych lub ponownego wykorzystania naruszonych haseł.
 
-![](assets/notext/16.webp)
+![image](assets/pl/016.webp)
 
 Ogólnie rzecz biorąc, rozpoczęcie korzystania z nowego, bezpieczniejszego Address nie jest złą praktyką, a nawet jest konieczne, jeśli ktoś chce zacząć od nowa.
 
 Bonus Bitcoin: Może być wskazane utworzenie specjalnego e-maila Address dla naszych działań Bitcoin (tworząc konta Exchange), aby naprawdę oddzielić obszary aktywności w naszym życiu.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Menedżer haseł
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### Czym jest menedżer haseł?
@@ -448,7 +463,7 @@ Dzięki menedżerowi haseł nie musisz już martwić się o zapominanie haseł l
 
 - Dashlane: Jest to również usługa innej firmy, z intuicyjnym Interface i dodatkowymi funkcjami, takimi jak śledzenie informacji o karcie kredytowej i bezpieczne notatki.
 
-![](assets/notext/17.webp)
+![image](assets/pl/017.webp)
 
 
 ### Self-hosting dla większej kontroli:
@@ -461,58 +476,48 @@ Dzięki menedżerowi haseł nie musisz już martwić się o zapominanie haseł l
 
 - KeePass: Jest to rozwiązanie open-source, które jest przeznaczone głównie do samodzielnego hostingu. Dane są domyślnie przechowywane lokalnie, ale jeśli chcesz, możesz zsynchronizować bazę haseł za pomocą różnych metod. KeePass jest powszechnie znany ze swojego bezpieczeństwa i elastyczności, choć może być nieco mniej przyjazny dla początkujących użytkowników.
 
-![](assets/notext/18.webp)
+![image](assets/pl/018.webp)
+
+W przypadku rozwiązań samodzielnie hostowanych, takich jak KeePass, możliwe jest synchronizowanie bazy danych między kilkoma urządzeniami bez korzystania ze scentralizowanych usług stron trzecich. Narzędzia takie jak **Syncthing** umożliwiają szyfrowaną i zdecentralizowaną synchronizację bezpośrednio między urządzeniami. Takie podejście pozwala zachować kontrolę nad danymi i jednocześnie zapewnia ich dostępność na wszystkich urządzeniach.
 
 (Uwaga: Wybór między usługą zewnętrzną a usługą hostowaną samodzielnie zależy od poziomu komfortu technologicznego i priorytetu kontroli nad wygodą. Usługi firm trzecich są generalnie wygodniejsze dla większości ludzi, podczas gdy samodzielny hosting wymaga większej wiedzy technicznej, ale może zapewnić większą kontrolę i spokój ducha pod względem bezpieczeństwa)
 
-
 ### Co składa się na dobre hasło:
 
-
 Dobre hasło to zazwyczaj:
-
-
 
 - Długi: co najmniej 12 znaków.
 - Złożony: mieszanka wielkich i małych liter, cyfr i symboli.
 - Unikalne: nie używaj ponownie tego samego hasła dla różnych kont.
 - Nie opiera się na danych osobowych: unikaj dat urodzenia, nazwisk itp.
 
-
 Aby zapewnić bezpieczeństwo swojego konta, kluczowe jest tworzenie silnych i bezpiecznych haseł. Długość hasła nie wystarczy, aby zapewnić jego bezpieczeństwo. Znaki muszą być całkowicie losowe, aby oprzeć się atakom brute force. Niezależność zdarzeń jest również ważna, aby uniknąć najbardziej prawdopodobnych kombinacji. Popularne hasła, takie jak "password", są łatwe do złamania.
-
 
 Aby utworzyć silne hasło, zaleca się użycie dużej liczby losowych znaków, bez używania przewidywalnych słów lub wzorów. Istotne jest również uwzględnienie cyfr i znaków specjalnych. Należy jednak pamiętać, że niektóre witryny mogą ograniczać użycie niektórych znaków specjalnych. Hasła, które nie są generowane losowo, są łatwe do odgadnięcia. Wariacje lub dodatki do haseł nie są bezpieczne. Witryny nie mogą zagwarantować bezpieczeństwa haseł wybranych przez użytkowników.
 
-
 Losowo generowane hasła oferują wyższy poziom bezpieczeństwa, choć mogą być trudniejsze do zapamiętania. Menedżery haseł mogą generate bezpieczniejsze losowe hasła. Korzystając z menedżera haseł, nie trzeba zapamiętywać wszystkich haseł. Ważne jest, aby stopniowo zastępować stare hasła tymi wygenerowanymi przez menedżera, ponieważ są one silniejsze i dłuższe. Upewnij się, że hasło główne menedżera haseł jest również silne i bezpieczne.
 
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Uwierzytelnianie dwuskładnikowe
 
-
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Dlaczego warto wdrożyć 2FA
 
-
 Uwierzytelnianie dwuskładnikowe (2FA) to dodatkowy Layer zabezpieczeń stosowany w celu zapewnienia, że osoby próbujące uzyskać dostęp do konta online są tymi, za kogo się podają. Zamiast wprowadzania nazwy użytkownika i hasła, 2FA wymaga drugiej formy weryfikacji.
 
-
 Tym drugim krokiem może być:
-
-
 
 - Tymczasowy kod wysyłany za pośrednictwem wiadomości SMS.
 - Kod wygenerowany przez aplikację taką jak Google Authenticator lub Authy.
 - Fizyczny klucz bezpieczeństwa wkładany do komputera.
 
-![](assets/notext/19.webp)
+![image](assets/pl/019.webp)
 
 Dzięki 2FA, nawet jeśli haker uzyska twoje hasło, nie będzie w stanie uzyskać dostępu do twojego konta bez tego drugiego czynnika weryfikacji. To sprawia, że 2FA jest niezbędne do ochrony kont online przed nieautoryzowanym dostępem.
 
@@ -560,9 +565,9 @@ Ucz się dalej i stopniowo wdrażaj dobre praktyki!
 Złota zasada: Cyberbezpieczeństwo to ruchomy cel, który dostosowuje się do Twojej podróży edukacyjnej!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Sekcja praktyczna
 
@@ -579,7 +584,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 Ochrona konta e-mail jest ważnym krokiem w celu zabezpieczenia aktywności online i ochrony danych osobowych. Niniejszy poradnik poprowadzi cię krok po kroku w tworzeniu i konfigurowaniu konta ProtonMail, dostawcy znanego z wysokiego poziomu bezpieczeństwa, który oferuje kompleksowe szyfrowanie komunikacji. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym użytkownikiem, przedstawione tutaj najlepsze praktyki pomogą ci wzmocnić bezpieczeństwo poczty e-mail, jednocześnie korzystając z zaawansowanych funkcji ProtonMail:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Zabezpieczenie 2FA
 
@@ -590,12 +595,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Uwierzytelnianie dwuskładnikowe (2FA) stało się niezbędne do zabezpieczenia kont online. W tym samouczku dowiesz się, jak skonfigurować i korzystać z aplikacji 2FA Authy, która generuje dynamiczne 6-cyfrowe kody do ochrony kont. Authy jest bardzo łatwy w użyciu i synchronizuje się na wielu urządzeniach. Dowiedz się, jak zainstalować i skonfigurować Authy, a tym samym wzmocnić bezpieczeństwo swoich kont online już teraz:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Inną opcją jest użycie fizycznego klucza bezpieczeństwa. Ten dodatkowy samouczek pokazuje, jak skonfigurować i używać klucza bezpieczeństwa jako drugiego czynnika uwierzytelniania:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Tworzenie menedżera haseł
 
@@ -609,12 +614,12 @@ Zarządzanie hasłami jest wyzwaniem w erze cyfrowej. Wszyscy mamy wiele kont on
 W tym samouczku dowiesz się, jak skonfigurować Bitwarden, menedżera haseł typu open source, i jak zsynchronizować swoje dane uwierzytelniające na wszystkich urządzeniach, aby uprościć codzienne użytkowanie:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Dla bardziej zaawansowanych użytkowników oferuję również samouczek dotyczący innego bezpłatnego oprogramowania typu open source, którego można używać lokalnie do zarządzania hasłami:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Zabezpieczanie kont
 
@@ -625,9 +630,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 W tych dwóch samouczkach prowadzę również w zakresie zabezpieczania kont online i wyjaśniam, jak stopniowo przyjmować bezpieczniejsze praktyki zarządzania hasłami na co dzień.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Zmiana przeglądarki i VPN
 
@@ -641,14 +646,14 @@ Ochrona prywatności online jest również kluczowym punktem zapewniającym bezp
 Proponuję odkryć dwa niezawodne rozwiązania VPN, które są płatne w Bitcoin, a mianowicie IVPN i Mullvad. Te samouczki poprowadzą Cię, jak zainstalować, skonfigurować i używać Mullvad lub IVPN na wszystkich urządzeniach:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Dowiedz się także, jak korzystać z Tor Browser, przeglądarki zaprojektowanej specjalnie w celu ochrony prywatności w Internecie:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Konfiguracja kopii zapasowej
 
@@ -659,12 +664,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 Kluczową kwestią jest również ochrona plików osobistych. Ten samouczek pokazuje, jak wdrożyć skuteczną strategię tworzenia kopii zapasowych przy użyciu Proton Drive. Dowiedz się, jak korzystać z tego bezpiecznego rozwiązania w chmurze, aby zastosować metodę 3-2-1: trzy kopie danych na dwóch różnych nośnikach, z jedną kopią poza siedzibą firmy. Zapewnia to dostępność i bezpieczeństwo poufnych plików:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Aby zabezpieczyć pliki przechowywane na nośnikach wymiennych, takich jak dysk USB lub zewnętrzny dysk Hard, pokazuję również, jak łatwo zaszyfrować i odszyfrować te nośniki za pomocą VeraCrypt:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Idź dalej
 
@@ -676,6 +681,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 
 ### Cyberbezpieczeństwo: Rozwijająca się dziedzina z nieskończonymi możliwościami
@@ -722,13 +729,15 @@ Ciągła ewolucja zagrożeń wymaga regularnego monitorowania wiadomości i spec
 
 Dzięki opanowaniu tych umiejętności i narzędzi będziesz dobrze przygotowany do skutecznego poruszania się po świecie cyberbezpieczeństwa.
 
-![](assets/notext/20.webp)
+![image](assets/pl/020.webp)
 
 
 ## Wywiad z Renaud
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### Skuteczne zarządzanie hasłami i wzmacnianie uwierzytelniania: Podejście akademickie
@@ -742,7 +751,7 @@ Generalnie nie zaleca się używania rozszerzeń przeglądarki do automatycznego
 
 Menedżery haseł zazwyczaj zachęcają do korzystania z dodatkowych czynników uwierzytelniania, takich jak uwierzytelnianie dwuskładnikowe. Aby zapewnić optymalne bezpieczeństwo, zaleca się przechowywanie OTP (haseł jednorazowych) na urządzeniu mobilnym. AndoTP oferuje rozwiązanie typu open-source do generowania i przechowywania kodów OTP w telefonie. Podczas gdy Google Authenticator umożliwia eksportowanie nasion kodu uwierzytelniającego, zaufanie do kopii zapasowej na koncie Google pozostaje ograniczone. Dlatego aplikacje OTI i AndoTP są zalecane do autonomicznego zarządzania OTP.
 
-![](assets/notext/21.webp)
+![image](assets/pl/021.webp)
 
 Kwestia cyfrowego dziedziczenia i cyfrowej żałoby podnosi znaczenie posiadania procedury przekazywania haseł po śmierci danej osoby. Menedżer haseł ułatwia to przejście, bezpiecznie przechowując wszystkie cyfrowe sekrety w jednym miejscu. Menedżer haseł pozwala również zidentyfikować wszystkie otwarte konta i zarządzać ich zamknięciem lub przeniesieniem. Zaleca się zapisanie hasła głównego na papierze, ale należy je przechowywać w ukrytym i bezpiecznym miejscu. Jeśli dysk Hard jest zaszyfrowany, a komputer zamknięty, hasło nie będzie dostępne nawet w przypadku włamania.
 

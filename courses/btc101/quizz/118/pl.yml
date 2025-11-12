@@ -1,12 +1,11 @@
-question: Jaka jest wiadomość zawarta w pierwszym bloku Bitcoin Blockchain?
-answer: 03/jan/2009 Kanclerz na krawędzi drugiego ratunku dla banków.
+question: Jaka jest data ostatniej znanej prywatnej wiadomości Satoshi Nakamoto za pośrednictwem poczty elektronicznej?
+answer: 23 kwietnia 2011 r.
 wrong_answers:
-  - Możemy wygrać główną bitwę w wyścigu zbrojeń i zyskać nowe terytorium wolności na kilka lat.
-  - Rządy są dobre w odcinaniu głów centralnie kontrolowanym sieciom, takim jak Napster, ale czyste sieci P2P, takie jak Gnutella i Tor, wydają się trzymać na powierzchni.
-  - Żadne z powyższych.
+  - 12 grudnia 2010 r.
+  - 8 stycznia 2009 r.
+  - 31 października 2008 r.
 explanation: |
-  Pierwszy blok Bitcoin Blockchain, znany również jako blok
-  blok Genesis, zawiera wiadomość 03/jan/2009
-  Kanclerz na krawędzi drugiego ratunku dla banków, co jest
-  tytuł Czasu tego dnia do Timestamp bloku Genesis.
+  Data ostatniej znanej prywatnej wiadomości Satoshi
+  Nakamoto za pośrednictwem poczty elektronicznej to 23 kwietnia 2011 roku. Została ona wysłana do
+  dewelopera Mike'a Hearna.
 reviewed: true

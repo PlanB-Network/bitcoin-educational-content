@@ -1,0 +1,9 @@
+question: Welk commando kan gebruikt worden om een DNS server te bevragen om het IP Address van een domein te verkrijgen?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup is een DNS-zoekprogramma voor het omzetten van domeinnamen in IP-adressen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Minkä tyyppistä DNS-tietuetta käytetään IPv6 Address:een liittyvän nimen löytämiseen?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) mahdollistaa käänteisen resoluution, eli se yhdistää IPv6 Address:n verkkotunnukseen.
+reviewed: false

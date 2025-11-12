@@ -1,9 +1,11 @@
-question: ¿Qué significa que Bitcoin tenga una tendencia general al alza?
-answer: Una tendencia general al alza en Bitcoin significa que, en general, el precio de Bitcoin ha estado aumentando.
+question: ¿Cuál es el problema de escalabilidad de Bitcoin?
+answer: El desafío de implementar un sistema monetario capaz de proporcionar un número cada vez mayor de transacciones por segundo a medida que se adopta.
 wrong_answers:
-  - Una tendencia general al alza en Bitcoin significa que el precio está garantizado a subir indefinidamente sin ninguna fluctuación.
-  - Una tendencia general al alza en Bitcoin significa que Bitcoin está perdiendo valor y está perdiendo su atractivo en el mercado.
-  - Una tendencia general al alza en Bitcoin significa que solo es popular entre un pequeño grupo de inversores y no tiene impacto en el mercado general.
-explanation: |
-  Una tendencia general al alza en Bitcoin se refiere a un aumento consistente en su precio durante un cierto período de tiempo. Es importante notar que, aunque una tendencia al alza sugiere una trayectoria positiva, esto no garantiza que el precio continuará subiendo sin ninguna fluctuación.
+  - La dificultad de minar nuevos Bitcoins con un valor en aumento con el tiempo.
+  - La volatilidad del precio de Bitcoin que aumentará después de cada halving.
+  - La falta de regulación para Bitcoin que hará que las transacciones sean ilegales.
+explanation: >-
+  El problema de escalabilidad se refiere al desafío de implementar un sistema
+  monetario capaz de proporcionar un número cada vez mayor de transacciones por segundo
+  a medida que se adopta.
 reviewed: true

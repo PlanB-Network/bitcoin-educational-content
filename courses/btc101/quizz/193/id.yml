@@ -1,9 +1,10 @@
-question: Apa salah satu inisiatif yang berkontribusi membuat ekonomi Bitcoin lebih mudah diakses dan nyaman untuk semua orang?
-answer: BTCMap
+question: Apa itu pembelian spontan?
+answer: Membeli Bitcoin segera untuk mendapatkan eksposur.
 wrong_answers:
-  - Bitcoin Exchange
-  - Bitcoin Mining
-  - Bitcoin Lottery
+  - Membeli Bitcoin pada interval reguler.
+  - Membeli Bitcoin hanya ketika harga turun.
+  - Membeli Bitcoin hanya ketika harga naik.
 explanation: >-
-  BTCMap adalah salah satu inisiatif yang berkontribusi membuat ekonomi Bitcoin lebih mudah diakses dan nyaman untuk semua orang. Ini adalah proyek sumber terbuka dan kolaboratif yang mencantumkan semua pedagang yang menerima Bitcoin serta berbagai komunitas Bitcoin di seluruh dunia.
+  Teks menjelaskan bahwa pembelian spontan digunakan untuk segera
+  mendapatkan eksposur terhadap Bitcoin. Ini bisa berarti membeli saat terjadi crash atau memanfaatkan bonus.
 reviewed: false

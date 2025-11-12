@@ -1,0 +1,9 @@
+question: اندازه معمول پیشوند شبکه مورد استفاده در یک IPv6 Address در یک شبکه محلی چیست؟
+answer: ۶۴-بیت
+wrong_answers:
+  - ۳۲-بیتی
+  - ۴۸ بیت
+  - ۸ بیت
+explanation: |
+  ۶۴ بیت اول یک IPv6 Address عموماً برای پیشوند زیرشبکه رزرو می‌شوند.
+reviewed: false

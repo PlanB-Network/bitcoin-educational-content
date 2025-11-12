@@ -1,0 +1,9 @@
+question: Co jest wyjątkowego w węźle SPV?
+answer: Zachowuje tylko nagłówki bloków
+wrong_answers:
+  - Zachowuje cały Blockchain od bloku Genesis
+  - Przechowuje tylko najnowsze bloki
+  - Utrzymuje tylko zestaw UTXO, a nie Blockchain
+explanation: |
+  Węzeł SPV weryfikuje transakcje za pomocą nagłówków bloków i dowodów Merkle, bez przechowywania pełnych danych.
+reviewed: true

@@ -22,11 +22,11 @@ Complete the required information: enter your email address and country of resid
 
 For tips on using and safeguarding strong, unique passwords, see also this tutorial :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 We're now going to configure the 2FA to secure the account. Use an authentication application on your smartphone, such as Google Authenticator or Authy for example. You'll find a tutorial on this tool here :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scan the QR code with your app and enter the 6 digits provided.
 
@@ -53,10 +53,10 @@ Your account is now created. Click on "*Log in*" to access the platform.
 Bitfinex applies a verification process (KYC) that complies with current regulations. In "Basic" mode, it is impossible to make deposits, withdrawals or transactions, which makes it essential to obtain at least the "Basic Plus" verification level, or even "Intermediate" or "Full" if necessary:
 
 
-- Basic* is a display-only mode, allowing you to consult the platform without performing any operations;
-- Basic Plus* provides access to essential functions, including spot market transactions and selected deposit and withdrawal options;
-- Intermediate* unlocks advanced services such as margin trading, loans, P2P and OTC transactions, and offers reduced deposit deadlines;
-- Full* gives you access to international bank transfers and all the platform's features.
+- **Basic** is a display-only mode, allowing you to consult the platform without performing any operations;
+- **Basic Plus** provides access to essential functions, including spot market transactions and selected deposit and withdrawal options;
+- **Intermediate** unlocks advanced services such as margin trading, loans, P2P and OTC transactions, and offers reduced deposit deadlines;
+- **Full** gives you access to international bank transfers and all the platform's features.
 
 For each level, additional documents are required for verification. For most users, *Basic Plus* or *Intermediate* accounts are generally sufficient.
 
@@ -79,11 +79,11 @@ Complete the steps by providing the requested information and documents. Once yo
 Once logged in, you'll see a navigation bar at the top of the interface with: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex offers a wide range of functionalities, including :
 
 
-- Trading**: "*classic*" market where you can place orders to buy and sell cryptocurrencies (including bitcoin) ;
-- OTC**: Over-The-Counter service for trading large volumes directly with another player, outside the public order books;
-- Funding**: Area dedicated to lending and margin funding;
-- Derivatives**: Section for derivatives (futures, etc.), intended for experienced traders;
-- P2P**: Allows you to buy or sell cryptos from other users on a peer-to-peer basis.
+- **Trading**: "*classic*" market where you can place orders to buy and sell cryptocurrencies (including bitcoin) ;
+- **OTC**: Over-The-Counter service for trading large volumes directly with another player, outside the public order books;
+- **Funding**: Area dedicated to lending and margin funding;
+- **Derivatives**: Section for derivatives (futures, etc.), intended for experienced traders;
+- **P2P**: Allows you to buy or sell cryptos from other users on a peer-to-peer basis.
 
 For standard use (buying/selling bitcoins and deposits/withdrawals), you'll mainly use the "*Trading*" tab, as well as the "*Wallet*", "*Deposit*" and "*Withdraw*" sections.
 
@@ -167,9 +167,9 @@ Bitfinex also offers deposit and withdrawal options via the Lightning Network, e
 
 If you're interested in the Lightning Network, we also have a complete training course to help you understand how it works:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-After purchasing your first bitcoins, you obviously have the option of leaving them on the platform, but I strongly recommend transferring them to your own wallet in self-custody. If you don't yet know how to use a Bitcoin wallet, I invite you to explore [the "Wallet" section on Plan ₿ Network](https://planb.network/tutorials/wallet).
+After purchasing your first bitcoins, you obviously have the option of leaving them on the platform, but I strongly recommend transferring them to your own wallet in self-custody. If you don't yet know how to use a Bitcoin wallet, I invite you to explore [the "Wallet" section on Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Buying and selling bitcoins on Bitfinex
 

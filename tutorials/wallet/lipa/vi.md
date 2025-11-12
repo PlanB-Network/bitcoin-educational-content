@@ -1,5 +1,5 @@
 ---
-name: Môi
+name: Lipa
 description: Thiết lập và sử dụng ví di động Lipa Lightning
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Ví Lightning, giống như tất cả các ví di động, được coi là ví
 
 Nếu bạn muốn tìm hiểu thêm về mạng Lightning và hiểu cách thức hoạt động về mặt kỹ thuật của nó, tôi khuyên bạn nên tham gia khóa học này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Trong hướng dẫn này, chúng ta sẽ xem xét **Lipa**, một ví Lightning đơn giản và hiệu quả được phát triển tại Thụy Sĩ.
 
@@ -52,10 +52,10 @@ Sau khi bạn đã chọn tùy chọn của mình, ứng dụng sẽ nhắc bạ
 Sau đó, ứng dụng sẽ trình bày các chức năng chính thông qua một loạt màn hình giới thiệu:
 
 
-- Biên lai thanh toán liền mạch**: Người dùng có thể nhận thanh toán bằng Bitcoin ngay cả khi ứng dụng đã đóng, đảm bảo độ tin cậy và tiện lợi.
-- Địa chỉ Lightning không lưu ký**: Lipa hiện hỗ trợ các địa chỉ Lightning không lưu ký, tăng cường quyền riêng tư và bảo mật bằng cách trao cho người dùng quyền kiểm soát hoàn toàn đối với bitcoin của họ.
-- Kiểm soát dữ liệu phân tích**: Với tính minh bạch và bảo mật tối quan trọng, người dùng có thể xem các loại dữ liệu được thu thập và chọn tùy chọn chia sẻ của họ.
-- Gửi qua số điện thoại**: Không cần địa chỉ phức tạp - chỉ cần chọn một số liên lạc, nhập số tiền và gửi bitcoin trực tiếp đến số điện thoại của họ.
+- **Biên lai thanh toán liền mạch**: Người dùng có thể nhận thanh toán bằng Bitcoin ngay cả khi ứng dụng đã đóng, đảm bảo độ tin cậy và tiện lợi.
+- **Địa chỉ Lightning không lưu ký**: Lipa hiện hỗ trợ các địa chỉ Lightning không lưu ký, tăng cường quyền riêng tư và bảo mật bằng cách trao cho người dùng quyền kiểm soát hoàn toàn đối với bitcoin của họ.
+- **Kiểm soát dữ liệu phân tích**: Với tính minh bạch và bảo mật tối quan trọng, người dùng có thể xem các loại dữ liệu được thu thập và chọn tùy chọn chia sẻ của họ.
+- **Gửi qua số điện thoại**: Không cần địa chỉ phức tạp - chỉ cần chọn một số liên lạc, nhập số tiền và gửi bitcoin trực tiếp đến số điện thoại của họ.
 
 Ứng dụng này cũng được cải tiến liên tục về tính ổn định, bảo mật và độ tin cậy để đảm bảo trải nghiệm tối ưu cho người dùng.
 
@@ -66,10 +66,10 @@ Giao diện của Lipa được tổ chức xung quanh 4 tab chính có thể tr
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Trang chủ**: Hiển thị số dư hiện tại và lịch sử giao dịch của bạn
-- Máy quét**: Cho phép bạn quét mã QR để thanh toán
-- Bản đồ**: Hiển thị bản đồ tương tác của các doanh nghiệp chấp nhận Bitcoin trong khu vực của bạn
-- Cài đặt**: Truy cập vào cài đặt ứng dụng, sao lưu và tùy chọn
+- **Trang chủ**: Hiển thị số dư hiện tại và lịch sử giao dịch của bạn
+- **Máy quét**: Cho phép bạn quét mã QR để thanh toán
+- **Bản đồ**: Hiển thị bản đồ tương tác của các doanh nghiệp chấp nhận Bitcoin trong khu vực của bạn
+- **Cài đặt**: Truy cập vào cài đặt ứng dụng, sao lưu và tùy chọn
 
 Có thể truy cập menu bổ sung bằng cách kéo xuống màn hình chính:
 
@@ -91,7 +91,7 @@ Cử chỉ này cho thấy các chức năng bổ sung như:
 
 Để biết thêm thông tin về cách sao lưu và quản lý cụm từ khôi phục đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Nhận bitcoin
 

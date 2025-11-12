@@ -1,11 +1,9 @@
-question: Koje su dve glavne karakteristike Bitkoina?
-answer: Bitkoin je i kompjuterski protokol i novčana jedinica.
+question: Šta znači da Bitkoin bude neutralna valuta?
+answer: Nije kontrolisano od strane bilo kog entiteta ili institucije.
 wrong_answers:
-  - Bitkoin je i fizička valuta i digitalni novčanik.
-  - Bitkoin je i vrsta akcije i vrsta obveznice.
-  - Bitkoin je i centralizovana i decentralizovana valuta.
+  - Kontroliše ga jedan entitet ili institucija.
+  - To je regulisano od strane vlade.
+  - Koristi se samo za velike transakcije.
 explanation: |
-  Bitkoin je i kompjuterski protokol koji koristi tehnologije
-  kao što su kriptografija i Blockchain, a takođe i monetarna
-  jedinica koja se koristi za transakcije.
+  Bitkoin je neutralna valuta, što znači da njome ne upravlja nijedan entitet ili institucija, tako da svaki korisnik ima ista prava. Ovo je ključni aspekt njene decentralizacije.
 reviewed: true

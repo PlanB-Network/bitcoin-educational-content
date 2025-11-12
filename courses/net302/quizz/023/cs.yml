@@ -1,0 +1,9 @@
+question: Jak se nazývá vícekrokový postup navazování spojení v protokolu TCP?
+answer: Třícestné podání ruky
+wrong_answers:
+  - Čtyřsměrné podání ruky
+  - Posuvné okno
+  - Proces kontrolního součtu
+explanation: |
+  Třícestný handshake synchronizuje sekvenční čísla mezi klientem a serverem před jakýmkoli Exchange dat užitečného zatížení.
+reviewed: false

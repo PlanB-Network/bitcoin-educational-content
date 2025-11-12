@@ -1,5 +1,5 @@
 ---
-name: Mrugnięcie
+name: Blink
 description: Kompletny samouczek Blink Wallet - wysyłaj, odbieraj i używaj Bitcoin z łatwością
 ---
 

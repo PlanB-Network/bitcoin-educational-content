@@ -1,0 +1,10 @@
+question: Ni ibihugu bingahe kw’isi bibuza abagore gufungura amakonti muri banki mw’izina ryabo bwite?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  Mu bihugu 72 kw’isi yose, abagore ntibemerewe gufungura . 
+  amakonte ya banki mu mazina yabo bwite.
+reviewed: true

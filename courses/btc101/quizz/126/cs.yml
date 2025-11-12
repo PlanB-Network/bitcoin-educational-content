@@ -1,11 +1,9 @@
-question: Co je transakce Bitcoinu?
-answer: Převod vlastnictví bitcoinů pomocí kryptografie.
+question: Jak těžaři ověřují transakce a zařazují je do bloku?
+answer: Prostřednictvím procesu Proof of work (Důkaz práce).
 wrong_answers:
-  - Fyzická výměna bitcoinů s použitím notáře.
-  - Převod vlastnictví bitcoinů s použitím fyzické adresy.
-  - Převod vlastnictví bitcoinů s použitím emailové adresy.
-explanation: |
-  Transakce Bitcoinu je digitální převod vlastnictví bitcoinů, který se uskutečňuje pomocí Bitcoinové adresy
-  odvozené díky kryptografii eliptických křivek. Tato
-  adresa je unikátní pro peněženku osoby přijímající bitcoiny.
+  - Prostřednictvím procesu Proof of stake (Důkaz vlastnictví).
+  - Prostřednictvím procesu Proof of authority (Důkaz autority).
+  - Prostřednictvím procesu Proof of burn (Důkaz spálením).
+explanation: >-
+  Těžaři ověřují transakce a zařazují je do bloku prostřednictvím procesu nazývaného proof of work (Důkaz práce). To zahrnuje řešení kryptografické hádanky.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Uamuzi ni nini?
+answer: Dhana ya ulimwengu ambayo hakuna dharura au bahati.
+wrong_answers:
+  - Mtazamo wa ulimwengu ulioamuliwa na Mungu.
+  - Aina ya atheism.
+  - Ushirikina.
+explanation: |
+  Determinism ni mtazamo wa ulimwengu ambao hakuna dharura au bahati. Kila tukio ni matokeo ya lazima ya sababu za awali, kulingana na sheria za asili zisizobadilika.
+reviewed: false

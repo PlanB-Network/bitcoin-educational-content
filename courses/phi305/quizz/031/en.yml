@@ -1,0 +1,9 @@
+question: What is finalism?
+answer: Reversing cause and effect to understand something.
+wrong_answers:
+  - A political theory.
+  - A recipe for cooking.
+  - A principle of psychoanalysis.
+explanation: |
+  Finalism is the inversion of cause and effect in order to understand something. It's explaining a phenomenon by its supposed purpose rather than by its actual causes, which Spinoza criticizes as an illusion.
+reviewed: false

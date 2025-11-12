@@ -1,5 +1,5 @@
 ---
-name: Tossico
+name: Tox
 description: Aprire conversazioni senza intermediari sul protocollo decentralizzato Tox
 ---
 ![cover](assets/cover.webp)
@@ -58,7 +58,7 @@ La tecnologia utilizzata dal protocollo Tox è simile alle reti peer-to-peer com
 
 
 
-A seconda del sistema operativo, è possibile scaricare e installare un client Tox che corrisponda a :
+A seconda del sistema operativo, è possibile scaricare e installare un client Tox che corrisponda a:
 
 
 
@@ -224,7 +224,7 @@ Nel menu **Trasferimenti di file** si trova la cronologia dei file inviati e ric
 
 
 
-Dai dettagli di Interface, è possibile gestire le autorizzazioni concesse al destinatario per :
+Dai dettagli di Interface, è possibile gestire le autorizzazioni concesse al destinatario per:
 
 
 
@@ -304,4 +304,4 @@ Se vi è piaciuto scoprire Tox e siete riusciti a capire come è utile per raffo
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

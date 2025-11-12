@@ -1,11 +1,11 @@
-question: In comparison with fiat currencies, how is Bitcoin perceived?
-answer: As a parallel economy.
+question: What is OpenNode?
+answer: A simple online solution for businesses to accept Bitcoin.
 wrong_answers:
-  - As a replacement economy.
-  - As an industrial economy.
-  - As a tertiary economy.
+  - A type of Bitcoin node that is used simultaneously by many users.
+  - A Bitcoin mining software that is open-source.
+  - A Bitcoin exchange platform.
 explanation: >-
-  Bitcoin is seen as a parallel economy to fiat currencies, meaning it
-  operates alongside traditional economies and can be used for transactions directly,
-  without the need to go through an exchange platform.
+  OpenNode is a simple online solution for businesses to accept Bitcoin.
+  Other solutions include Swiss Bitcoin Pay for amateur merchants and BTCpay Server
+  for large structures or passionate bitcoiners.
 reviewed: true

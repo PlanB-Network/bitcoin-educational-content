@@ -1,9 +1,10 @@
-question: Qu'est-ce que Swiss Bitcoin Pay ?
-answer: Une solution pour les commerçants amateurs d'accepter le Bitcoin.
+question: Que devez-vous faire après avoir acheté des bitcoins sur une plateforme d'échange ?
+answer: Retirer les bitcoins et les envoyer à votre portefeuille.
 wrong_answers:
-  - Une banque suisse qui accepte le Bitcoin.
-  - Une plateforme d'échange de Bitcoin en Suisse.
-  - Une entreprise minière qui opère en Suisse.
-explanation: >-
-  Swiss Bitcoin Pay est une solution permettant aux commerçants amateurs d'accepter le Bitcoin. D'autres solutions incluent OpenNode pour les entreprises en ligne simples et BTCpay Server pour les grandes structures ou les passionnés de Bitcoin.
+  - Laisser les bitcoins sur la plateforme.
+  - Vendre immédiatement les bitcoins.
+  - Transférer les bitcoins vers une autre plateforme d'échange.
+explanation: |
+  Après avoir acheté des bitcoins, on doit immédiatement retirer les UTXOs des plateformes 
+  d'échange pour minimiser les risques de piratage et de blocage des fonds.
 reviewed: true

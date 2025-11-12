@@ -1,0 +1,9 @@
+question: کدام فرمان IP محلی Address از Umbrel شما را بازیابی می‌کند اگر دسترسی از طریق umbrel.local شکست بخورد؟
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  در صورت بروز مشکلات شناسایی، می‌توانید از دستور hostname -I بر روی دستگاه Umbrel استفاده کنید تا آدرس IP محلی آن را پیدا کنید.
+reviewed: true

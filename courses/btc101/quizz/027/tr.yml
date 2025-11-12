@@ -1,12 +1,13 @@
-question: Bitcoin bugün neden ticarette yaygın olarak kabul görmüyor?
-answer: Çünkü bireyler tarafından yaygın olarak benimsenmiyor.
+question: Altının bir para birimi olarak temel avantajı nedir?
+answer: İnanılmaz derecede dayanıklıdır.
 wrong_answers:
-  - Çünkü taşınabilir değil.
-  - Çünkü küçük birimlere bölünemez.
-  - Çünkü Liquid değil.
+  - Kolayca bölünebilir veya uzun mesafelere taşınabilir.
+  - Kolayca doğrulanabilir.
+  - Hükümet tarafından düzenlenmemektedir.
 explanation: |
-  Kesinlikle sınırlı olması gibi özelliklerine rağmen
-  Supply, Bitcoin hala ticarette yaygın olarak kabul görmemektedir
-  bugün, bireyler tarafından benimsenmemesi nedeniyle
-  tüccarlar bunu kabul etmeye teşvik edilmemektedir.
+  Kolayca bölünebilir veya taşınabilir olmamasına rağmen
+  uzun mesafelerde altın çok dayanıklı bir malzemedir
+  onu iyi bir değer deposu yapar. Altın sikkeler
+  geçmişte para birimi, ancak aynı şekilde hizmet etmeyeceklerdi
+  günümüzün dijital çağında bir amaç.
 reviewed: true

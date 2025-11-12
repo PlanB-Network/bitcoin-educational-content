@@ -1,11 +1,9 @@
-question: Bản chất của việc áp dụng Bitcoin được mô tả trong khóa học này là gì?
-answer: Lan truyền nhanh chóng.
+question: Lightning Network được xác thực và triển khai lần đầu vào năm nào?
+answer: 2017
 wrong_answers:
-  - Chậm và ổn định.
-  - Nhanh chóng và không kiểm soát được.
-  - Thất thường và không dự đoán được.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Văn bản của khóa học mô tả việc áp dụng Bitcoin như là lan truyền nhanh chóng,
-  cho thấy rằng nó lan rộng nhanh chóng và rộng khắp từ người này sang người khác,
-  giống như một loại virus, nhưng là loại tốt.
+  Lightning Network được xác thực và triển khai lần đầu vào năm 2017.
 reviewed: true

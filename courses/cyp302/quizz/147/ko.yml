@@ -1,0 +1,9 @@
+question: 정수 N이 두 개의 소수 p와 q의 곱인 경우, N의 순서는 어떻게 계산하나요?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  두 소수 p와 q의 곱과 같은 N의 경우, N의 순서는 (p - 1) * (q - 1)로 계산됩니다.
+reviewed: false

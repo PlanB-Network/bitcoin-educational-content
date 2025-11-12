@@ -1,8 +1,12 @@
-question: Je, ni toleo gani la programu ya kwanza ya Bitcoin iliyotolewa?
-answer: Bitcoin-0.1.0.
+question: Ni nini jukumu la nodi ya Bitcoin katika mtandao wa Bitcoin?
+answer: Inathibitisha vitalu vipya na shughuli zilizojumuishwa.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
+  - Inaunda Bitcoins mpya na kuziweka kwenye vizuizi.
+  - Inasimamia bei ya Bitcoin.
+  - Inasimamia mtandao wa Bitcoin.
+explanation: |
+  Nodi ya Bitcoin katika mtandao wa Bitcoin inashughulikia
+  uthibitisho wa vitalu vipya na shughuli zilizojumuishwa. Ni
+  mtandao huu wa nodi za Bitcoin zinazoifanya kuwa kweli
+  kugatuliwa.
 reviewed: true

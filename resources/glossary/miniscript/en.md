@@ -10,6 +10,6 @@ Miniscript thus allows developers to build sophisticated scripts in a safer and 
 * It allows for static analysis of the script, including the spending conditions it permits and its cost in terms of resources;
 * It enables the creation of scripts that adhere to the consensus;
 * It allows for the analysis of whether or not the different spending paths comply with the standard rules of the nodes;
-* It establishes a general standard, understandable and composable, for all wallet software and hardware.
+*It establishes a general standard, understandable and composable, for all wallet software and hardware.*
 
 The Miniscript project was launched in 2018 by Peter Wuille, Andrew Poelstra, and Sanket Kanjalkar, through the company Blockstream. Miniscript was added to the Bitcoin Core wallet in watch-only mode in December 2022 with version 24.0, and then fully in May 2023 with version 25.0.

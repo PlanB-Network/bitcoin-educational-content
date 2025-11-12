@@ -1,0 +1,5 @@
+---
+term: KANAL FABRİKALARI
+---
+
+Şu anda Lightning üzerinde geliştirilmekte olan ve tek bir UTXO'ten birden fazla ödeme kanalının oluşturulmasına ve yönetilmesine olanak tanıyan gelişmiş bir mekanizma. Kanal fabrikaları `n-of-n` Multisig adreslerini kullanır, böylece bir grup kullanıcı toplu olarak tek bir UTXO'e sahip olabilir. Buradan, fonlarını fabrikadan çekmek istedikleri durumlar dışında, ek On-Chain işlemleri olmadan kendi aralarında ödeme kanalları açıp kapatabilirler. Bu yöntem, maliyetleri ve Lightning işlemleri için Bitcoin üzerinde kaplanan alanı önemli ölçüde azaltabilir. Uygulamada bu, normalde bir kanalın her açılışı veya kapanışı için On-Chain işlemleri gerektiren işlemlerin, gerektiğinde yayınlanmamış işlemleri yayınlama yeteneği ile garanti edilen güvenlikle off-chain gerçekleştirilebileceği anlamına gelir. David A. Harding'in sözlerini kullanmak gerekirse, kanal fabrikaları generate diğer Lightning kanalları için kullanılan Lightning kanalları olarak tanımlanabilir.

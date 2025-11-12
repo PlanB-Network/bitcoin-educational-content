@@ -1,0 +1,9 @@
+question: Какие резервные копии необходимы для восстановления узла Lightning?
+answer: seed и SCB
+wrong_answers:
+  - seed и файл txindex
+  - seed и публичный IP Address
+  - seed и 2FA
+explanation: |
+  Для восстановления узла Lightning требуется seed и SCB (Static Channel Backup), без которых невозможно восстановить канальные средства.
+reviewed: true

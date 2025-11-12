@@ -1,0 +1,9 @@
+question: Milline käsk näitab IP-pakettide teekonda sihtkohta jõudmiseks?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute näitab iga saatja ja sihtkoha vahelist vahepealset marsruuterit, kasutades TTL-i.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni gute kwemeza umwidegemvyo w’umuntu mu vy’idini rya gikirisu ryo mu kinjana ca mbere vyatumye ivyiyumviro vyo muri iki gihe bitera imbere?
+answer: Inyishu zose zivugwa haruguru ni ukuri.
+wrong_answers:
+  - Vyatumye abantu bashidikanya ku bukuru bwa politike no kwemeza ko umuntu afise umwidegemvyo wo gukurikiza ijwi ryo mu mutima.
+  - Yarashizeho umushinge wo kurwanira uburenganzira bw’umuntu ku giti ciwe.
+  - Yarateye imbere ubuhinga bwo kugerageza n’ubushakashatsi bushingiye ku vyiyumviro.
+explanation: |
+  Ukwemeza umwidegemvyo wa muntu mu vy’idini rya gikirisu ryo mu kinjana ca mbere vyatumye habaho ivyiyumviro vyo muri iki gihe mu kuremesha ijwi ryo mu mutima kwigenga, mu gushinga umushinge w’uburenganzira bw’umuntu ku giti ciwe, no mu guteza imbere uburyo bwo kumenya ibintu bushingiye ku vyiyumviro kandi bushingiye ku kugerageza.
+reviewed: true

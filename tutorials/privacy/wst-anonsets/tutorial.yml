@@ -1,4 +1,6 @@
-id: 0354b793-c301-48af-af75-f87569756375
+id: e031787f-4060-40d8-af5e-7249f9cfe41b
+
+is_archived: true
 
 category: analysis
 
@@ -117,6 +119,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 9.69
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.29
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.69
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.09
 tags:
   - privacy
   - technical-analysis

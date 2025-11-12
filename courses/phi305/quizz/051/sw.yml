@@ -1,0 +1,9 @@
+question: Ni mwanauchumi gani wa Austria anayezungumza juu ya mpango?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Misses.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) alikuwa mwanauchumi wa Austria ambaye aliunda neno "planism" kuelezea upangaji wa uchumi wa kati. Anakosoa mbinu hii katika "Barabara ya Serfdom".
+reviewed: false

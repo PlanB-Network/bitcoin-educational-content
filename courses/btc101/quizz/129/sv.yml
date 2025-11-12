@@ -1,8 +1,8 @@
-question: Vad är Bitcoin Blockchain?
-answer: En offentlig och oföränderlig Ledger av alla Bitcoin-transaktioner.
+question: Hur säkerställer Bitcoin-nätverket att det är för kostsamt att agera skadligt inom Bitcoin-protokollet?
+answer: Genom protokollsregler och ekonomiska incitament.
 wrong_answers:
-  - En privat och muterbar Ledger av alla Bitcoin-transaktioner.
-  - En offentlig och föränderlig Ledger av alla Bitcoin-transaktioner.
-  - En privat och oföränderlig Ledger av alla Bitcoin-transaktioner.
+  - Genom strikt reglering och tillsyn.
+  - Genom användning av avancerade säkerhetsåtgärder.
+  - Genom hot om rättsliga åtgärder.
 explanation: >-
 reviewed: true

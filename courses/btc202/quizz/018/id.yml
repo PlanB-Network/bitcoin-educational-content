@@ -1,0 +1,9 @@
+question: Apa implementasi node Bitcoin yang paling banyak digunakan?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Dengan sekitar 9 dari 10 node di jaringan, Bitcoin core adalah pelanggan mayoritas.
+reviewed: true

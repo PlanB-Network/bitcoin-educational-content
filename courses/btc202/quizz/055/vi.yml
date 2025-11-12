@@ -1,0 +1,9 @@
+question: Có ba tùy chọn máy chủ nào có sẵn trong Sparrow?
+answer: Máy chủ công cộng, Bitcoin core, Electrum riêng tư
+wrong_answers:
+  - RPC Trực tiếp, VPN, Tor
+  - Full node, Nút nhẹ, Nút di động
+  - Lõi RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow cung cấp ba lựa chọn máy chủ: Máy chủ công cộng, Bitcoin core (RPC) và Electrum riêng tư.
+reviewed: true

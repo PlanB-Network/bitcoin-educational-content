@@ -58,7 +58,7 @@ Puede utilizar el protocolo Tox a través de un cliente de mensajería instantá
 
 
 
-Dependiendo de su sistema operativo, puede descargar e instalar un cliente Tox que coincida con :
+Dependiendo de su sistema operativo, puede descargar e instalar un cliente Tox que coincida con:
 
 
 
@@ -224,7 +224,7 @@ También puedes personalizar la configuración para compartir archivos en cada c
 
 
 
-Desde los detalles de Interface, puede gestionar las autorizaciones que concede a su destinatario para :
+Desde los detalles de Interface, puede gestionar las autorizaciones que concede a su destinatario para:
 
 
 
@@ -304,4 +304,4 @@ Si te ha gustado descubrir Tox y has sido capaz de entender su utilidad para ref
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

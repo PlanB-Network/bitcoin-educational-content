@@ -1,13 +1,13 @@
-question: Bitcoin'ın yaratılmasının ardındaki temel amaç nedir?
-answer: Devleti paradan ayırmak için.
+question: Mevcut finansal sistemin siyasi aktörler üzerindeki potansiyel etkisi nedir?
+answer: Radikal değişiklikler yapmaya teşvik edilmiyorlar ve sistemin olası bir patlamaya kadar yoluna devam etmesine izin veriyorlar.
 wrong_answers:
-  - Altın standardını ortadan kaldırmak için.
-  - İşlemleri daha hızlı ve daha ucuz hale getirmek için.
-  - Herkesi zengin etmek için.
+  - Olası bir patlamayı önlemek için radikal değişiklikler yapmaya teşvik ediliyorlar.
+  - Kendi zenginliklerini güvence altına almak için statükoyu korumaya teşvik edilmezler.
+  - Uzun vadeli düşünmeye teşvik edilirler.
 explanation: |
-  Bitcoin, Eyalet ile Türkiye'yi birbirinden ayırmak amacıyla oluşturulmuştur
-  paradan. Bu, aşağıdaki sistemik zorluklara bir yanıttır
-  devletin tam yetkiye sahip olduğu mevcut finansal sistem
-  gW-2 parası üzerinde kontrol sahibidir ve onu istediği gibi manipüle edebilir
-  kendi avantajı.
+  Siyasi aktörler mevcut finansal krizden yararlandıkça
+  sistemde radikal değişiklikler yapmaya teşvik edilmemektedirler.
+  Bu durum, sistemin bir
+  sistem düzenlendiğinden olası bir patlama ve
+  kendi çöküşünü önlemek için sınırlandırılmıştır.
 reviewed: true

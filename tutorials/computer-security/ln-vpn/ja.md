@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: VPNの設定
+description: LightningでLN VPNを設定し、匿名かつオンデマンドのVPNを実現
 ---
 
 ![image](assets/cover.webp)

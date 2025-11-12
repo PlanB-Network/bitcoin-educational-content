@@ -1,0 +1,9 @@
+question: In quale zona DNS sono collocati i record PTR per la risoluzione inversa di IPv6?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  La zona ip6.arpa è specificamente dedicata alla risoluzione inversa degli indirizzi IPv6, mentre in-addr.arpa è utilizzata per IPv4.
+reviewed: false

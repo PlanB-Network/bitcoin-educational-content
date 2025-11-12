@@ -1,0 +1,9 @@
+question: Thành phần nào của tên miền đại diện cho Tên miền cấp cao nhất (TLD)?
+answer: Phần tử bên phải nhất
+wrong_answers:
+  - Phần tử ngoài cùng bên trái
+  - Cấp độ thứ hai sau máy chủ
+  - Tên máy chủ chính
+explanation: |
+  TLD luôn là phần tử ngoài cùng bên phải của FQDN, chẳng hạn như .com, .org hoặc .fr.
+reviewed: false

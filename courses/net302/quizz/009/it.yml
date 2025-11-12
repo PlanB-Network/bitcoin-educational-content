@@ -1,0 +1,9 @@
+question: Quale agenzia statunitense era alla base del progetto ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) ha avviato ARPANET, che ha posto le basi per lo sviluppo del protocollo TCP/IP. Nel 1972, l'agenzia è stata rinominata DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

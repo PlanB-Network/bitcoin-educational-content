@@ -1,10 +1,11 @@
-question: Apa nomor blok dari transaksi Bitcoin pertama?
-answer: Blok 170
+question: Apa arti dari jumlah konfirmasi dalam sebuah transaksi Bitcoin?
+answer: Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
 wrong_answers:
-  - Blok 1
-  - Blok 17
-  - Blok 1700
-explanation: |
-  Transaksi Bitcoin pertama, yang merupakan transaksi 10 BTC antara
-  Satoshi Nakamoto dan Hal Finney, tercatat dalam blok 170.
-reviewed: true
+  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin berharga transaksi tersebut.
+  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin cepat transaksi tersebut diproses.
+  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak aman transaksi tersebut.
+explanation: >-
+  Jumlah konfirmasi dalam sebuah transaksi Bitcoin menunjukkan berapa banyak
+  blok yang telah ditambang di atas blok yang mengandung transaksi tersebut. Semakin
+  banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
+reviewed: false

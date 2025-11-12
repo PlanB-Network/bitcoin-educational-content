@@ -1,0 +1,9 @@
+question: Chứng chỉ nào được công nhận trên toàn thế giới trong lĩnh vực an ninh mạng?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Chứng chỉ CISSP là một trong những chứng chỉ được công nhận rộng rãi nhất trên thế giới trong lĩnh vực an ninh mạng.
+reviewed: false

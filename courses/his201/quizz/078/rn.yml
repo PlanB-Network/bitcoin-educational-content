@@ -1,0 +1,9 @@
+question: Ni nde Satoshi Nakamoto yashizeko ububasha bwo kugenzura urubuga (harimwo n’ihuriro n’urubuga rwa wiki) igihe yagenda?
+answer: Mariti Malmi
+wrong_answers:
+  - Gavini Andresen
+  - Hal Finney
+  - Mike wumva
+explanation: |
+  Ntiyaronka umwanya wo kuyirongora maze aca yihuta guha uwundi murimo. Ico kibanza n’ihuriro vyatwawe na Theymos na Cøbra.
+reviewed: true

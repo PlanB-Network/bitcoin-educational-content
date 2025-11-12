@@ -1,12 +1,13 @@
-question: Quale di queste opzioni è falsa riguardo la perdita del dispositivo su cui è installato il wallet Bitcoin?
-answer: Si può ricreare il wallet e spendere bitcoin reimpostando la password.
+question: Cos'è un hot wallet?
+answer: Un wallet Bitcoin installato su un telefono o computer connesso a Internet.
 wrong_answers:
-  - Si perdono tutti i bitcoin senza la frase mnemonica.
-  - Si può verificare con le chiavi pubbliche che i bitcoin non siano stati spesi.
-  - Si può ricreare il wallet e spendere bitcoin utilizzando la frase mnemonica.
+  - Un wallet che è fisicamente caldo al tatto.
+  - Un wallet che è popolare tra gli utenti Bitcoin.
+  - Un wallet consigliato per conservare grandi quantità di bitcoin.
 explanation: |
-  Perdere il dispositivo su cui è installato il wallet non
-  significa necessariamente la perdita dei Bitcoin. Ciò che 
-  permette di ricreare il wallet e spendere i fondi è la
-  frase mnemonica.
+  Hot wallet è un termine usato per descrivere un wallet Bitcoin
+  che è conservato su un dispositivo con accesso a Internet, come un
+  telefono o un computer. In questo modo, è facile effettuare
+  transazioni, ma significa anche che il wallet è
+  potenzialmente vulnerabile a minacce online.
 reviewed: true

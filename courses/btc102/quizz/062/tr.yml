@@ -1,9 +1,9 @@
 question: Bitcoinlerinize erişimi devrederken ne önerilmez?
-answer: Mnemonic ifadesinin bir kişiye verilmesi
+answer: Mnemonic ifadesinin tek bir kişiye verilmesi
 wrong_answers:
   - Bilgilerin birden fazla kişi arasında paylaştırılması
-  - Mühürlü opak zarfların kullanılması
+  - Mühürlü ışık almayan zarfların kullanılması
   - Açıklayıcı bir mektup yazmak
 explanation: |
-  Mnemonic ifadesini ek güvenlik olmadan tek bir kişiye emanet etmek, yaşamınız boyunca hırsızlık riskini büyük ölçüde artırır.
+  Mnemonic ifadesini ek güvenlik önlemleri olmadan tek bir kişiye emanet etmek, yaşamınız boyunca hırsızlık riskini büyük ölçüde artırır.
 reviewed: false

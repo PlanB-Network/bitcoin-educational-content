@@ -1,12 +1,10 @@
-question: Was ist das mathematische Konzept, das auf menschlicher Rationalität basiert und bei Bitcoin verwendet wird?
-answer: Spieltheorie.
+question: Wie hoch ist die BTC-Belohnung nach dem vierten Halving?
+answer: 3,125 BTC.
 wrong_answers:
-  - Wahrscheinlichkeitstheorie.
-  - Zahlentheorie.
-  - Mengenlehre.
+  - 1,5625 BTC.
+  - 6,25 BTC.
+  - 12,5 BTC.
 explanation: |
-  Die Spieltheorie ist ein mathematisches Konzept, das auf
-  menschlicher Rationalität basiert. Bei Bitcoin werden
-  Protokolländerungen von den Nutzern durchgesetzt, was jede
-  Modifikation des Bitcoin-Protokolls hochkomplex macht.
+  Nach dem vierten Halving, das bei Blockhöhe
+  840.000 auftritt, beträgt die BTC-Belohnung für das Mining 3,125 BTC.
 reviewed: true

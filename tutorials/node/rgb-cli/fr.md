@@ -14,7 +14,7 @@ Un contrat RGB se structure comme une machine à états évolutive. Il démarre 
 
 Pour en savoir plus sur le fonctionnement du protocole RGB, je vous conseille de suivre cette formation complète :
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 La logique interne de RGB repose sur des bibliothèques Rust que vous, en tant que développeurs, pouvez importer dans vos projets pour gérer la partie *Client-side Validation*. En complément, l’équipe de l'association LNP/BP travaille à proposer des bindings pour d’autres langages, mais ce n’est pas encore finalisé. Par ailleurs, d’autres entités comme Bitfinex développent leurs propres stacks d’intégration, mais nous en parlerons dans un autre tutoriel. La CLI `rgb` constitue donc pour l’instant la référence officielle, même si elle reste relativement brute de décoffrage.
 
@@ -132,8 +132,8 @@ interface: RGB20Fixed
 
 globals:
   spec:
-    ticker: PBN
-    name: Plan B Network
+    ticker: Plan ₿ Academy
+    name: Plan ₿ Academy
     details: "Pay attention: the asset has no value"
     precision: 2
   terms:
@@ -178,7 +178,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
- Puis, la commande suivante permet d'afficher les global states (le nom, le ticker, la supply...) et la liste des Owned States, c’est-à-dire les allocations (par exemple, 1 million de token `PBN` définis dans l'UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+ Puis, la commande suivante permet d'afficher les global states (le nom, le ticker, la supply...) et la liste des Owned States, c’est-à-dire les allocations (par exemple, 1 million de token `Plan ₿ Academy` définis dans l'UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -301,4 +301,4 @@ Vous savez dorénavant comment émettre un contrat RGB et le transférer. Si vou
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment lancer un nœud Lightning compatible avec RGB pour échanger des tokens de manière quasiment instantanée :
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

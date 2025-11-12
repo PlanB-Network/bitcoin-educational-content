@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ababuranira ko bosubira ku bijanye n’ubuhinga bw’amahera bushingiye ku cuma c’agaciro?
+answer: Kugira ngo ububasha bw'amabanki nkuru bugabanuke .
+wrong_answers:
+  - Kwongerera inflation
+  - Guteza imbere ubudandaji mpuzamakungu
+  - Kugenzura amasoko y'ivy'imari
+explanation: |
+  Ababuranira uburyo bushingiye ku cuma c’agaciro bafise intumbero yo kugabanya ububasha bw’amabanki akomeye mu guhagarika ubushobozi bwo kurema amahera ata n’imwe igaragara, ivyo bikaba bigabanya ingorane zo gutera imbere kw’ibiciro no gukoresha nabi amahera.
+reviewed: true

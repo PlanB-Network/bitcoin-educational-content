@@ -1,0 +1,9 @@
+question: Quais são os dois tempos de vida associados a um IPv6 Address atribuído automaticamente?
+answer: Tempo de vida preferido e tempo de vida válido
+wrong_answers:
+  - Tempo de aluguer e tempo de espera
+  - Tempo de vida e expiração
+  - Tempo de vida inicial e tempo de vida secundário
+explanation: |
+  O tempo de vida preferencial determina o período de utilização normal do Address e o tempo de vida válido determina o período total de validade.
+reviewed: false

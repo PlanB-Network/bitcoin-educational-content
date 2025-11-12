@@ -1,5 +1,5 @@
 ---
-name: Wallet de Satoshi
+name: Wallet of Satoshi
 description: El Wallet de custodia más sencillo para empezar
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ _Este tutorial ha sido escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoinca
 
 Wallet de Satoshi es un Lightning Network Wallet, de custodia, y muy fácil de usar.
 
-A efectos del curso [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), se utiliza para Redeem Lightning Network vales.
+A efectos del curso [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), se utiliza para Redeem Lightning Network vales.
 
 
 **Siempre recuerda**: _ni tus llaves, ni tus monedas_
@@ -79,8 +79,8 @@ Wallet de Satoshi ha enviado un mensaje a la bandeja de entrada de correo electr
 En el buzón, encontraremos dos palabras, que deberemos introducir, reescribiéndolas, en el espacio que nos proporciona la app.
 
 
-- no active el traductor: las palabras están y deben permanecer en inglés**
-- reescribe las dos palabras prestando atención a las mayúsculas/minúsculas**
+- no active el traductor: las palabras están y deben permanecer en inglés
+- reescribe las dos palabras prestando atención a las mayúsculas/minúsculas
 
 
 ![image](assets/it/10.webp)

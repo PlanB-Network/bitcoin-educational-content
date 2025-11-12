@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 公司
+name: The Bitcoin Company
 description: 我如何使用 The Bitcoin Company 以 BTC 購買商品和服務？
 ---
 ![cover](assets/cover.webp)
@@ -40,7 +40,7 @@ description: 我如何使用 The Bitcoin Company 以 BTC 購買商品和服務�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 信息再清楚不過了「到處花比特幣」。
 
@@ -117,9 +117,9 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 我們選擇「使用 Lightning 登入」。
 
@@ -154,7 +154,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 您可立即透過 Wallet Lightning 識別您的身份，當然可以是 Phoenix 或其他，因為市面上大多數的錢包都支援此功能。
 
@@ -279,7 +279,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-最後，如果您想在手機上**使用本教學中的 LNURL Auth 認證方法，您需要透過手機瀏覽器存取 The Bitcoin Company 網站，然後在主畫面上新增捷徑。官方應用程式僅允許使用電子郵件/密碼進行驗證。
+最後，如果您想在手機上**使用本教學中的 LNURL Auth 認證方法**，您需要透過手機瀏覽器存取 The Bitcoin Company 網站，然後在主畫面上新增捷徑。官方應用程式僅允許使用電子郵件/密碼進行驗證。
 
 
 
@@ -291,4 +291,4 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

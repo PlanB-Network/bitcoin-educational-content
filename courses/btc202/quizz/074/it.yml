@@ -1,0 +1,9 @@
+question: Quale struttura dati riassume le transazioni in un blocco?
+answer: Il Merkle Tree
+wrong_answers:
+  - La tabella Hash UTXO
+  - Il file peers.dat
+  - Il registro assumeutxo
+explanation: |
+  Le transazioni di un blocco sono impegnate in un Merkle Tree, la cui radice è inclusa nell'intestazione del blocco per garantire l'integrità del blocco stesso.
+reviewed: true

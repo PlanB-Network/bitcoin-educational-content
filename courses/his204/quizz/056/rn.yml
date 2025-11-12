@@ -1,0 +1,8 @@
+question: Ku ba Physiocrates, ni irihe tandukaniro riri hagati y’uguhingura n’inyungu?
+answer: Umunyabuhinga n’umucuruzi barashobora gutsinda, ariko umurimyi ni we wenyene atanga, kuko umusaruro ni uguhingura ibintu vy’ingirakamaro .
+wrong_answers:
+  - Abahinguzi n’abacuruzi boshobora kutagira inyungu. Ubuhinzi bwonyene ni bwo buzana inyungu ata kabuza.
+  - Umurimyi arashobora kuronka, ariko umunyabuhinga n’umucuruzi ni bo bonyene bavyara, kuko guhingura ni ugutanga igikorwa .
+  - Umusaruro n'inyungu ni kimwe .
+explanation: |
+  Abafiziyokarate bemera ko uburimyi bwonyene ari bwo butanga umwimbu, kuko ari bwo burema ibintu bishasha. Inganda n’ubudandaji vyabonwa ko ari ibikorwa bitagira akamaro, kubera ko vyahindura gusa canke bikakuraho ubutunzi bwariho.

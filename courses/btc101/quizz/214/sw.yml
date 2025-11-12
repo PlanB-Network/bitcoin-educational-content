@@ -1,12 +1,11 @@
-question: Milton Friedman alitabiri nini mnamo 1999?
-answer: Maendeleo ya e-cash ya kuaminika.
+question: Lightning Network ni nini?
+answer: Mtandao wa malipo unaotumia itifaki ya Bitcoin kuwezesha miamala ya haraka.
 wrong_answers:
-  - Uharibifu wa pesa za kimwili.
-  - Kuongezeka kwa Bitcoin.
-  - Mwisho wa udhibiti wa serikali juu ya pesa.
+  - Aina mpya ya cryptocurrency.
+  - Teknolojia mpya ya Blockchain ambayo itachukua nafasi ya Bitcoin katika siku zijazo.
+  - Njia ya Mining Bitcoin.
 explanation: |
-  Milton Friedman, mwanauchumi mashuhuri, alitabiri mnamo 1999
-  kwamba e-cash yenye kutegemeka ingetengenezwa hivi karibuni, njia
-  ambapo kwenye mtandao unaweza kuhamisha fedha kutoka A hadi B,
-  bila A kujua B au kinyume chake.
+  Lightning Network ni mtandao wa malipo unaotumia
+  Itifaki ya Bitcoin ili kuwezesha shughuli za haraka. Sio a
+  tofauti cryptocurrency, wala mbinu kwa ajili ya Mining Bitcoin.
 reviewed: true

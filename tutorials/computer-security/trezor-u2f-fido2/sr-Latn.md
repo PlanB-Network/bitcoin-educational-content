@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Ojačajte svoju online sigurnost uz Trezor
 ---
 ![cover](assets/cover.webp)
@@ -134,7 +134,7 @@ Preporučujem da ovaj kod čuvate na drugom mestu od mesta gde čuvate svoju gla
 
 
 
-Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Trezora za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi specifičan za svaki nalog sa hitnim kodovima. Međutim, važno je **ne pomešati ulogu Mnemonic fraze sa ulogom hitnog koda** :
+Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Trezora za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi specifičan za svaki nalog sa hitnim kodovima. Međutim, važno je **ne pomešati ulogu Mnemonic fraze sa ulogom hitnog koda**:
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -353,4 +353,4 @@ Preporučio bih i ovaj drugi vodič, u kojem razmatramo drugo rešenje za U2F i 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

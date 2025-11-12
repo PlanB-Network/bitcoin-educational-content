@@ -1,12 +1,8 @@
-question: Inom vilka områden väcker Bitcoin frågor?
-answer: Kryptografi, spelteori, ekonomi och penningpolitik, datavetenskap, filosofi, energi, lagar och regler.
+question: Vad ger Lightning Network möjlighet till?
+answer: Omedelbara Bitcoin-transaktioner till låg kostnad.
 wrong_answers:
-  - Endast datavetenskap och ekonomi
-  - Endast kryptografi och spelteori.
-  - Bara filosofi och energi.
-explanation: |
-  Bitcoin är ett tvärvetenskapligt ämne som väcker frågor
-  frågor som rör olika områden, bland annat
-  kryptografi, spelteori, ekonomi och penningpolitik,
-  datavetenskap, filosofi, energi, lagar och reglering.
+  - Omedelbara Bitcoin-transaktioner med höga kostnader.
+  - Försenade Bitcoin-transaktioner till låg kostnad.
+  - Försenade Bitcoin-transaktioner med höga kostnader.
+explanation: >-
 reviewed: true

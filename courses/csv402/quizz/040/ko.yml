@@ -1,0 +1,9 @@
+question: RGB을 Lightning Network에 통합하는 주요 목적은 무엇인가요?
+answer: off-chain 채널을 통한 RGB 자산 전송
+wrong_answers:
+  - Bitcoin Blockchain에서 직접 RGB 계약 실행하기
+  - 기존 라이트닝 트랜잭션을 RGB 스마트 컨트랙트로 대체하기
+  - 새로운 UTXO를 추가하여 채널 용량 늘리기
+explanation: |
+  Lightning Network에 통합된 RGB은 Commitment 트랜잭션에 내장된 상태 전환을 통해 off-chain 자산을 그대로 유지하면서 RGB 자산을 이동할 수 있습니다.
+reviewed: false

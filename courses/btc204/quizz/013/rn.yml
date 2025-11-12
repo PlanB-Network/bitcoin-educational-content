@@ -1,0 +1,9 @@
+question: Ni igiki kigereranyo c’ubuzima bwite bw’ubuhinga bwa banki?
+answer: Banki yonyene ni yo ishobora kumenya amakuru y’ivyo bikoresho.
+wrong_answers:
+  - Ivyo bicuruzwa ni ivy’abantu bose, ariko akaranga k’abakoresha ntikamenyekana.
+  - Ivyo bihembo ntibimenyekana kandi ntibimenyekana kuri bose, harimwo na banki.
+  - Intwaro zonyene ni zo zishobora kumenya amakuru y’ivyo bicuruzwa.
+explanation: |
+  Mu buryo bwa kera, konti yose yo muri banki irahuzwa n’akaranga. Ariko rero, uruja n’uruza rw’amakuru ruracika hagati ya banki n’ivy’abantu bose.
+reviewed: false

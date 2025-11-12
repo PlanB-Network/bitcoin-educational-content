@@ -1,5 +1,5 @@
 ---
-name: बोल्ट्ज़मैन कैलकुलेटर
+name: Boltzmann Calculator
 description: एन्ट्रॉपी की अवधारणा को समझें और बोल्ट्ज़मैन का उपयोग कैसे करें
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Która organizacja nadzoruje techniczne zarządzanie protokołami internetowymi?
+answer: Rada Architektury Internetu
+wrong_answers:
+  - Społeczność internetowa
+  - Konsorcjum World Wide Web
+  - Instytut Inżynierów Elektryków i Elektroników
+explanation: |
+  Internet Architecture Board (IAB) nadzoruje zarządzanie techniczne i koordynuje ewolucję protokołów internetowych.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Datagram là gì trong bối cảnh giao thức IP?
+answer: Một khối dữ liệu độc lập được truyền qua mạng
+wrong_answers:
+  - Một tin nhắn được mã hóa dành cho một thiết bị duy nhất
+  - Một phân đoạn TCP được đóng gói trong UDP
+  - Một tín hiệu vật lý từ Network Access Layer
+explanation: |
+  Dữ liệu IP được truyền dưới dạng các gói dữ liệu, các khối độc lập chứa tất cả thông tin cần thiết để truyền tải.
+reviewed: false

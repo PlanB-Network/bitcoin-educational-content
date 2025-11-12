@@ -1,9 +1,9 @@
-question: 在中本聪之后，谁是第一个加入比特币网络的人？
-answer: Hal Finney
+question: 比特币网络的节奏是什么？
+answer: 每个区块10分钟
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - 每个区块10秒
+  - 每笔交易10分钟
+  - 每笔交易10秒
 explanation:
-  Hal Finney是继中本聪之后第一个加入比特币网络的人。他甚至发推特说“正在运行比特币”来标记这个时刻。
+  比特币网络的节奏是每个区块10分钟。这就像是比特币货币系统的心跳。
 reviewed: true

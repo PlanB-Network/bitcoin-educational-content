@@ -22,4 +22,4 @@ V tomto konkrétním případě šlo o transakci iniciovanou ředitelem těžebn
 
 Je také nutné zvážit limity čištění. Během období vysokého přetížení čistí mempooly uzlů své nevyřízené transakce pod určitou hranicí, aby byl dodržen jejich přidělený limit paměti RAM. Tento limit si uživatel může libovolně zvolit, ale mnozí ponechávají výchozí hodnotu jádra Bitcoin na 300 MB. Lze jej upravit v souboru `bitcoin.conf` pomocí parametru `maxmempool`.
 
-> ► V angličtině se tomu říká "transakční poplatky".*
+> ► V angličtině se tomu říká "transakční poplatky".

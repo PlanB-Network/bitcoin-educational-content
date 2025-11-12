@@ -1,0 +1,13 @@
+question: Koji su bili prvi oblici valute?
+answer: Roba kao što su žito i stoka.
+wrong_answers:
+  - Zlato i srebro.
+  - Papirne beleške.
+  - Digitalni resursi.
+explanation: |
+  Prvi oblici valute često su bili povezani sa osnovnim
+  dobrima kao što su žito, stoka i druge robe.
+  Međutim, ova dobra su imala velike nedostatke, kao što je
+  kvarljivost, što je otežavalo njihovo korišćenje kao
+  sredstvo dugoročnog štednje.
+reviewed: true

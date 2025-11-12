@@ -1,0 +1,9 @@
+question: Windows에 내장된 바이러스 백신은 무엇인가요?
+answer: 윈도우 디펜더
+wrong_answers:
+  - 카스퍼스키
+  - Norton
+  - 맥아피
+explanation: |
+  Windows Defender는 Windows용 기본 제공 바이러스 백신 프로그램입니다. 위협으로부터 시스템을 보호하는 안전하고 효과적인 솔루션입니다.
+reviewed: true

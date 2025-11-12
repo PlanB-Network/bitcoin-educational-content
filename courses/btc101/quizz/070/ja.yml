@@ -1,9 +1,9 @@
-question: 第4回半減期後のBTC報酬はいくらですか？
-answer: 3.125 BTC。
+question: Bitcoinウォレットの公開鍵を共有するリスクは何ですか？
+answer: プライバシーの喪失。
 wrong_answers:
-  - 1.5625 BTC。
-  - 6.25 BTC。
-  - 12.5 BTC。
+  - Bitcoinウォレットの破壊。
+  - Bitcoinの喪失。
+  - Bitcoinウォレットのハッキング。
 explanation: |
-  第4回半減期は、ブロック高さ840,000で発生し、その後のマイニングでのBTC報酬は3.125 BTCになります。
+  公開鍵を共有することは、セキュリティではなくプライバシーにリスクをもたらします。これは、公開鍵がBitcoinアドレスの生成に使用され、その結果お金を受け取るために使われるが、Bitcoinの所有権を表すものではないためです。
 reviewed: true

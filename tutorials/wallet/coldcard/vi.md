@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Tạo, sao lưu và sử dụng khóa riêng Bitcoin với thiết bị Coldcard và Bitcoin Core
 ---

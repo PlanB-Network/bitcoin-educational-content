@@ -1,0 +1,9 @@
+question: Seal을 닫지 않고 새 상태를 생성하는 RGB Contract Operation은 무엇인가요?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency 활성화
+explanation: |
+  State Extension을 사용하면 Seal을 즉시 닫지 않고도 새 상태 또는 권한(Valencies)을 만들 수 있습니다.
+reviewed: false

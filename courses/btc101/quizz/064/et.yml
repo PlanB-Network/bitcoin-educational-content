@@ -1,10 +1,11 @@
-question: Mis on käsklus, et kontrollida ringluses olevate bitcoinide hulka Bitcoin'i sõlmel?
-answer: bitcoin-cli gettxoutsetinfo
+question: Millisel aastal toimub seitsmes poolitus?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo
-  - bitcoin-cli getwalletinfo
-  - bitcoin-cli getnetworkinfo
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Käsklus, et kontrollida ringluses olevate bitcoinide hulka Bitcoin'i sõlmel, on bitcoin-cli gettxoutsetinfo. See käsklus pakub läbipaistvust ja kontrollitavust,
-  tugevdades usaldust Bitcoin'i süsteemi vastu.
+  Seitsmes poolitus peaks toimuma 2036. aastal ja hinnanguline bitcoini kogus ringluses
+  on 20,835,937.5 btc ehk 99.22% kogu pakkumisest.
+  bitcoine ringluses.
 reviewed: true

@@ -16,7 +16,7 @@ For example, a descriptor for a P2WPKH wallet could look like:
 
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17
-C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7n
+C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/#jy0l7n
 r4
 ```
 In this descriptor, the derivation function `wpkh` indicates a Pay-to-Witness-Public-Key-Hash script type. It is followed by the derivation path which contains:

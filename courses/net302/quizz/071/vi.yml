@@ -1,0 +1,9 @@
+question: Ký hiệu nào được sử dụng để chỉ kích thước tiền tố trong IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Mặt nạ mạng thập phân chấm
+  - Hệ thập lục phân được phân tách bằng dấu hai chấm
+  - ICANN
+explanation: |
+  Ký hiệu CIDR chỉ định số bit tiền tố cố định sau dấu gạch chéo, giống như trong IPv4.
+reviewed: false

@@ -1,12 +1,12 @@
-question: Qual é a principal vantagem das moedas fiduciárias?
-answer: Elas são facilmente divisíveis.
+question: Quais são as entidades responsáveis pela emissão de moedas fiduciárias?
+answer: Bancos centrais.
 wrong_answers:
-  - São controladas por uma entidade central.
-  - Não são facilmente transportáveis.
-  - São eficazes para manter valor ao longo do tempo.
+  - Bancos comerciais.
+  - Governos.
+  - Instituições privadas.
 explanation: |
-  Moedas fiduciárias, como o dólar e o euro, são muito
-  líquidas e facilmente transportáveis porque agora são
-  majoritariamente digitais. No entanto, seu valor é constantemente
-  erodido pela inflação monetária.
+  Os bancos centrais são as entidades responsáveis pela emissão de
+  uma moeda fiduciária. Eles decidem a política monetária e
+  determinam quanto dinheiro deve ser colocado em circulação ou
+  impresso.
 reviewed: true

@@ -1,8 +1,8 @@
-question: What unit of data flows through the Transport layer for TCP?
+question: What is the unit of data that flows through the Transport layer for TCP?
 answer: Segment
 wrong_answers:
   - Datagram
-  - Screen
+  - Frame
   - Stream
 explanation: |
   At the Transport layer with TCP, the data unit is called a segment, while UDP uses the term packet.

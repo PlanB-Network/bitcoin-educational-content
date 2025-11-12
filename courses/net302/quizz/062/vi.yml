@@ -1,0 +1,9 @@
+question: Ký hiệu nào được sử dụng để chèn IPv6 Address vào URL?
+answer: IPv6 Address được đặt trong dấu ngoặc vuông
+wrong_answers:
+  - IPv6 Address được đặt trong dấu ngoặc đơn
+  - IPv6 Address được đặt trong dấu ngoặc kép
+  - IPv6 Address được viết thô
+explanation: |
+  Dấu ngoặc vuông được sử dụng để phân biệt IPv6 Address với cổng trong URL, nhằm tránh bất kỳ sự mơ hồ nào.
+reviewed: false

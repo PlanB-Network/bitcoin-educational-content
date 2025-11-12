@@ -1,0 +1,9 @@
+question: 비영리 단체에서 개발한 오픈 소스 브라우저 중 Gecko 엔진의 선두 주자는 무엇인가요?
+answer: Mozilla Firefox
+wrong_answers:
+  - Brave
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla 재단에서 개발한 Mozilla Firefox는 개인 정보 보호에 대한 Commitment으로 유명한 대표적인 Gecko 기반 브라우저입니다.
+reviewed: false

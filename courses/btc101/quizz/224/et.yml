@@ -1,9 +1,9 @@
-question: Mida võimaldab Lightning Network?
-answer: Kohesed, madala kuluga Bitcoin'i tehingud.
+question: Mis on keskmine aeg kahe ploki vahel Bitcoin protokollis?
+answer: 10 minutit
 wrong_answers:
-  - Kohesed, kõrge kuluga Bitcoin'i tehingud.
-  - Viivitatud, madala kuluga Bitcoin'i tehingud.
-  - Viivitatud, kõrge kuluga Bitcoin'i tehingud.
+  - 5 minutit
+  - 15 minutit
+  - 20 minutit
 explanation: >-
-  Lightning Network võimaldab koheseid, madala kuluga Bitcoin'i tehinguid,
-  lahendades seeläbi Bitcoin'i skaleeritavuse probleemi.
+  Keskmiselt on aeg kahe ploki vahel Bitcoin protokollis 10 minutit.
+reviewed: false

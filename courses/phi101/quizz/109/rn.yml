@@ -1,0 +1,9 @@
+question: Ni umuti uwuhe Hayek yashikirije kugira ngo umuntu yirinde kuba abaja?
+answer: Gukingira umutungo w’abantu ku giti cabo n’urutonde rw’isoko rwihuta nk’ibihome vyo kurwanya ububisha.
+wrong_answers:
+  - Avuga ko bokwongerera imisoro kugira ngo abakene bafashwe.
+  - Asaba ko hosubira mu buryo bw’ubutunzi bumeze nk’ubw’abanyagihugu.
+  - Kwigisha abantu bose amategeko y’inzira.
+explanation: |
+  Hayek wemera ko umwidegemvyo w’umuntu ku giti ciwe uzigama mu kurinda umutungo w’abantu ku giti cabo no kureka isoko ryigenzura, gutyo bikaba bibuza ubutegetsi bw’agahomerabunwa no gushiramwo ubutegetsi hamwe.
+reviewed: true

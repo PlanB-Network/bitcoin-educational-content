@@ -1,9 +1,8 @@
-question: Каковы обычно тарифы за транзакции в сети Lightning Network?
-answer: 0.5%
+question: Какая единица Bitcoin используется в Lightning Network?
+answer: Саты
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
-explanation: >-
-  Тарифы за транзакции в сети Lightning Network крайне низкие, часто менее 0.5%.
+  - Bitcoin
+  - Ether
+  - Litecoin
+explanation: Lightning Network использует саты (десятичные доли биткоина) для функционирования.
 reviewed: false

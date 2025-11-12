@@ -1,9 +1,9 @@
-question: Phí cho các giao dịch trên Mạng Lưới Lightning thấp đến mức nào, thường ít hơn...?
-answer: 0.5%.
+question: Đơn vị của Bitcoin được sử dụng trong Lightning Network là gì?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Phí cho các giao dịch trên Mạng Lưới Lightning thực sự rất thấp, thường ít hơn 0.5%.
+  - Block.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Lightning Network sử dụng satoshis (còn gọi là sats), đơn vị nhỏ nhất của bitcoin, để hoạt động.
 reviewed: true

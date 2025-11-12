@@ -1,0 +1,9 @@
+question: Hvilket verktøy viser detaljerte DNS-meldinger, inkludert poster og løsningsprosessen?
+answer: grave
+wrong_answers:
+  - vert
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) gir detaljert informasjon om DNS-oppløsning, inkludert posttyper.
+reviewed: false

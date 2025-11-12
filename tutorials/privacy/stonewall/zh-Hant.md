@@ -1,11 +1,11 @@
 ---
-name: 石牆
+name: Stonewall
 description: 瞭解並使用石牆交易
 ---
 ![cover stonewall](assets/cover.webp)
 
 
-***繼 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被查封之後，使用 Samourai Wallet 應用程式現在需要連線到您自己的道場才能正常運作。除此之外，石牆交易完全不受影響，仍然可以順利進行。事實上，這些類型的交易是自主進行的，不需要外部協作或透過 Soroban.* 連線。
+**繼 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被查封之後，使用 Samourai Wallet 應用程式現在需要連線到您自己的道場才能正常運作。除此之外，石牆交易完全不受影響，仍然可以順利進行。事實上，這些類型的交易是自主進行的，不需要外部協作或透過 Soroban.** 連線。
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
@@ -16,7 +16,7 @@ description: 瞭解並使用石牆交易
 
 ---
 
-> *打破 Blockchain 分析的假設，在交易的寄件者和收件者之間提出數學上可證明的疑問。
+> **打破 Blockchain 分析的假設，在交易的寄件者和收件者之間提出數學上可證明的疑問。**
 
 ## 什麼是石牆交易？
 
@@ -61,7 +61,7 @@ Stonewall 是一種特殊形式的 Bitcoin 交易，目的在於透過模仿雙�
 總而言之，石牆交易和石牆 x2 交易具有相同的結構。兩者的區別在於其合作性。Stonewall 交易是單獨開發的，不需要合作。相反，石牆 x2 交易則依賴兩個人的合作來實施。
 
 
-[**-> 進一步瞭解石牆 x2 交易**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> 進一步瞭解石牆 x2 交易**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## 石牆交易的目的是什麼？

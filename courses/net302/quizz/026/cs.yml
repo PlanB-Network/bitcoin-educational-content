@@ -1,0 +1,9 @@
+question: Která datová jednotka je použita v modelu TCP/IP pro Internet Layer?
+answer: Datagram
+wrong_answers:
+  - Segment
+  - Rám
+  - Zpráva
+explanation: |
+  Internetový Layer manipuluje s datagramy a zapouzdřuje segmenty z transportního Layer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que forma de NAT associa permanentemente um IP privado Address a um IP público Address?
+answer: Tradução estática
+wrong_answers:
+  - Tradução dinâmica
+  - PAT (Tradução da porta Address)
+  - Encaminhamento dinâmico
+explanation: |
+  A tradução estática cria um mapeamento fixo entre um IP Address interno e um IP Address público, útil para tornar os recursos internos acessíveis a partir do exterior.
+reviewed: false

@@ -44,7 +44,7 @@ Hier beginnen wir mit der Erstellung eines neuen Portfolios. Weiter unten finden
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**WICHTIG**: Diese 12 / 24 Wiederherstellungswörter sind für den Zugriff auf Ihre Bitcoins unerlässlich. Wenn Sie sie verlieren, sind Sie nicht mehr berechtigt, Ihre Bitcoins auszugeben.
 
@@ -93,23 +93,23 @@ Eine der Besonderheiten des Blitz Wallet ist, dass er verschiedene Netzwerke und
 
 
 
-- Lightning Network** : Eines der Bitcoin-Overlays, mit dem Sie sofort Mikrotransaktionen durchführen können.
+- **Lightning Network**: Eines der Bitcoin-Overlays, mit dem Sie sofort Mikrotransaktionen durchführen können.
 
 
 
 
 
-- Bitcoin Mainnet** : Die Hauptkette des Bitcoin-Protokolls, geeignet für Transaktionen mit hohen Beträgen.
+- **Bitcoin Mainnet**: Die Hauptkette des Bitcoin-Protokolls, geeignet für Transaktionen mit hohen Beträgen.
 
 
 
 
 
-- Liquid Network**: Eine parallele Kette zu Bitcoin Mainnet, die von BlockStream entwickelt wurde und Liquid Bitcoins zur Durchführung von schnellen, Confidential Transactions verwendet.
+- **Liquid Network**: Eine parallele Kette zu Bitcoin Mainnet, die von BlockStream entwickelt wurde und Liquid Bitcoins zur Durchführung von schnellen, Confidential Transactions verwendet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Standardmäßig werden alle Ihre Transaktionen über Liquid Network abgewickelt, aber Blitz lässt Sie das Netzwerk festlegen, über das Sie Satoshis empfangen möchten, indem Sie auf die Schaltfläche **Format wählen** klicken.
 
@@ -169,7 +169,7 @@ Zusätzlich zu den Bitcoin-Überweisungen bietet Ihnen Blitz Wallet einen Shop, 
 
 
 
-- Zugang zu KI-Diensten**: Nutzen Sie generative Modelle der künstlichen Intelligenz wie z.B.: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 und zahlen Sie direkt in Bitcoins.
+- **Zugang zu KI-Diensten**: Nutzen Sie generative Modelle der künstlichen Intelligenz wie z.B.: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 und zahlen Sie direkt in Bitcoins.
 
 
 
@@ -179,7 +179,7 @@ Zusätzlich zu den Bitcoin-Überweisungen bietet Ihnen Blitz Wallet einen Shop, 
 
 
 
-- Senden Sie Textnachrichten überall auf der Welt**: Im Blitz-Shop haben Sie Zugang zu einem GSM-Dienst, mit dem Sie überall auf der Welt anonym Textnachrichten versenden können, mit direkter Abrechnung in Bitcoin.
+- **Senden Sie Textnachrichten überall auf der Welt**: Im Blitz-Shop haben Sie Zugang zu einem GSM-Dienst, mit dem Sie überall auf der Welt anonym Textnachrichten versenden können, mit direkter Abrechnung in Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Zusätzlich zu den Bitcoin-Überweisungen bietet Ihnen Blitz Wallet einen Shop, 
 
 
 
-- Surfen Sie in absoluter Vertraulichkeit**: Bezahlen Sie für ein WireGuard VPN (Virtual Private Network) Abonnement im Wallet Blitz Shop mit Ihren Bitcoins.
+- **Surfen Sie in absoluter Vertraulichkeit**: Bezahlen Sie für ein WireGuard VPN (Virtual Private Network) Abonnement im Wallet Blitz Shop mit Ihren Bitcoins.
 
 
 
@@ -197,9 +197,9 @@ Zusätzlich zu den Bitcoin-Überweisungen bietet Ihnen Blitz Wallet einen Shop, 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz hinter den Kulissen: Weiter gehen
 
@@ -221,7 +221,7 @@ Dieser Ansatz ist durch den Wunsch gerechtfertigt, den Einstieg zu erleichtern u
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Sie können die Aufschlüsselung Ihres Guthabens im Menü **Einstellungen>Guthabeninfo** einsehen.
 
@@ -249,7 +249,7 @@ Wenn Sie den Lightning-Modus aktivieren, können Sie, sobald die Hauptbedingung 
 
 
 
-- Akzeptieren Sie Bitcoin in Ihrem Geschäft** :
+- **Akzeptieren Sie Bitcoin in Ihrem Geschäft**:
 
 
 
@@ -269,5 +269,4 @@ Wenn Ihnen dieses Tutorial geholfen hat, sich mit Blitz zurechtzufinden, dann wi
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

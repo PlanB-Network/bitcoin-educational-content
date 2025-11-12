@@ -8,6 +8,6 @@ wrong_answers:
   - It encrypts the actual payment amount for the recipient.
 
 explanation: |
-  The payjoin transaction falls under the domain of steganography because it hides the real amount of a transaction within a fake transaction that acts as a decoy for external observers.
+  The payjoin transaction falls under the domain of steganography because it conceals the actual amount of a transaction within a fake transaction that serves as a decoy for external observers.
 
-reviewed: false
+reviewed: true

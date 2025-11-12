@@ -1,5 +1,5 @@
 question: Was ist der Hauptvorteil der Verwendung von Open-Source-Software?
-answer: Sie ermöglicht die Überprüfung, dass kein versteckter Zugriff existiert, um Ihre persönlichen Daten zu stehlen.
+answer: Sie ermöglicht die Überprüfung, dass kein versteckter Zugriff existiert, um deine persönlichen Daten zu stehlen.
 wrong_answers:
   - Sie ist immer kostenlos.
   - Sie ist immer sicherer als Closed-Source-Software.
@@ -7,7 +7,7 @@ wrong_answers:
 explanation: |
   Open-Source-Software ist eine Software, deren Code bekannt und
   für jeden zugänglich ist. Dies ermöglicht unter anderem die Überprüfung,
-  dass kein versteckter Zugriff existiert, um Ihre persönlichen Daten zu stehlen.
+  dass kein versteckter Zugriff existiert, um deine persönlichen Daten zu stehlen.
   Allerdings ist sie nicht immer kostenlos, sicherer oder
   benutzerfreundlicher als Closed-Source-Software.
 reviewed: true

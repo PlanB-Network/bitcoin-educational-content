@@ -1,10 +1,9 @@
-question: Mis on raha voogedastuse kontseptsioon Lightning Network'i kontekstis?
-answer: Mikrotehingute tegemine iga minuti järel
+question: Mis on üks võimalik tagajärg tehisintellekti tehnoloogiate arengule?
+answer: Üle 80% töökohtadest kaob tehisintellekti ja automatiseerimise tõttu.
 wrong_answers:
-  - Videosisu voogedastamine Bitcoini eest
-  - Audiosisu voogedastamine Bitcoini eest
-  - Bitcoini tehingute reaalajas voogedastamine
+  - Tehisintellekti tehnoloogiad muudavad inimesed tarbetuks.
+  - Tehisintellekti tehnoloogiad toovad kaasa inimintellekti languse.
+  - Tehisintellekti tehnoloogiad põhjustavad globaalse majanduskollapsi.
 explanation: >-
-  Lightning Network'i abil saame teha mikrotehinguid iga minuti järel,
-  mis avab ukse majandusmudelite katsetamiseks, kus tarbijad maksavad sisu eest
-  selle põhjal, mida nad tarbivad.
+  Tekstis mainitakse, et üks võimalik tagajärg tehisintellekti tehnoloogiate arengule on see, et üle 80% töökohtadest kaob tehisintellekti ja automatiseerimise tõttu.
+reviewed: false

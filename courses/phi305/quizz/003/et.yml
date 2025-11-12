@@ -1,0 +1,9 @@
+question: Riik, kus Spinoza elas ja kirjutas oma teose, on?
+answer: Ühendatud provintsid.
+wrong_answers:
+  - Prantsusmaa.
+  - Suurbritannia.
+  - Rootsi.
+explanation: |
+  Spinoza elas ja kirjutas kõik oma teosed Ühendatud Provintsides (praegu Madalmaad), mis oli tol ajal varjupaik vabamõtlejatele ja mujal Euroopas tagakiusatud usuvähemustele.
+reviewed: false

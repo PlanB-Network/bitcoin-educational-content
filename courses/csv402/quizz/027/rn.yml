@@ -1,0 +1,9 @@
+question: Ni igiki gishingiye ku kintu (OOP) kingana n’igice ca Schema mu bijanye na RGB?
+answer: Insobanuro y'ishure
+wrong_answers:
+  - Umuwubatsi w'ishure
+  - Gushira mu ngiro Interface.
+  - Uburyo bwo gukora akarorero
+explanation: |
+  Schema ihuye n'insobanuro y'umugwi muri OOP, udondora imiterere, uburyo n'amategeko ya Business Logic.
+reviewed: false

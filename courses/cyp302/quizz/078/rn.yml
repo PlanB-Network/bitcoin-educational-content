@@ -1,0 +1,9 @@
+question: None igitero c’inkomezi z’agahomerabunwa bisobanura iki?
+answer: Kugerageza imfunguruzo zose zishoboka gushika iyo ibereye ibonetse
+wrong_answers:
+  - Guhindura icanditswe kugira ngo kibe kidatahurwa .
+  - Gukoresha urufunguzo rwa bose kugira ngo ufungure ubutumwa
+  - Gutera mudasobwa cane Hard kugira ngo uyihatire kureka urufunguzo rw'ibanga .
+explanation: |
+  Igitero c’inkomezi z’agahomerabunwa kirimwo kugerageza mu buryo butunganye imfunguruzo zose zishoboka kugira ngo umuntu ashobore gukuraho ubutumwa bwashizwe mu mfuruka.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Parola yöneticisi nedir?
-answer: Parolaları depolayan, oluşturan ve yöneten bir araç.
+answer: Parolaları depolayan, oluşturan ve yöneten bir araçtır.
 wrong_answers:
-  - Bilgisayar korsanlığı saldırılarına karşı bir antivirüs yazılımı.
-  - Güvenli bir e-posta hizmeti.
-  - Kişisel kimlik verileri için bir yedekleme aracı.
+  - Bilgisayar korsanlığı saldırılarına karşı bir antivirüs yazılımıdır.
+  - Güvenli bir e-posta hizmetidir.
+  - Kişisel kimlik verileri için bir yedekleme aracıdır.
 explanation: |
   Bir parola yöneticisi, parolaların depolanmasını ve oluşturulmasını merkezileştirir.
 reviewed: true

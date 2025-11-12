@@ -1,0 +1,9 @@
+question: Berapa ukuran maksimum file blkNNNNN.dat sebelum file baru dibuat?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  File blkNNNNN.dat menyimpan blok secara berurutan dan mencapai ukuran sekitar 128 MiB sebelum Bitcoin core membuka blok berikutnya.
+reviewed: true

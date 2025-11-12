@@ -1,0 +1,9 @@
+question: Milline on IP-protokolli peamine roll TCP/IP-mudelis?
+answer: Andmepakettide edastamine ühelt hostilt teisele
+wrong_answers:
+  - Hallata võrguside krüpteerimist
+  - Rakenduste vaheliste püsivate ühenduste tagamine
+  - MAC-aadresside tõlkimine IP-aadressideks
+explanation: |
+  IP-protokoll tegeleb seadmete loogilise adresseerimisega ja tagab pakettide suunamise omavahel ühendatud võrkudes.
+reviewed: false

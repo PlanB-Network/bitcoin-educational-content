@@ -1,0 +1,9 @@
+question: 自動的に配布されるIPv6アドレスに動的に寿命を割り当てるプロトコルはどれか？
+answer: ディーエイチシーピーブイ6
+wrong_answers:
+  - OSPFv3
+  - リップング
+  - アイシーエムピーブイフォー
+explanation: |
+  DHCPv6がリースによって明示的に寿命を管理するのに対し、NDPはルータ設定メッセー ジで寿命を告知する。
+reviewed: false

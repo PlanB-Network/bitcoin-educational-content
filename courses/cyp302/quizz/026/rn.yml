@@ -1,0 +1,9 @@
+question: Ni igiki kingana XOR n’igikorwa ca modulo?
+answer: XOR ingana n'igikorwa ca modulo 2 ku bice
+wrong_answers:
+  - XOR ingana n'ugukuraho kwa kera modulo 3
+  - XOR ingana n'igikorwa ca modulo 7 ku bice
+  - XOR ni igisubizo c'ukwongerako
+explanation: |
+  Igikorwa kijanye na XOR gishobora kubonwa nk’ukwongerako ibice bifise modulo 2, bikaba bituma ibisubizo bisa.
+reviewed: false

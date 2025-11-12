@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian Duchemin pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian Duchemin pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -54,7 +54,7 @@ Quindi, ogni volta che si inserisce il nome di un sito web nel browser o si fa c
 
 
 
-**Pi-Hole ispezionerà quindi queste richieste (ce ne sono centinaia ogni giorno!) e bloccherà automaticamente quelle note per ospitare pubblicità o addirittura file dannosi
+**Pi-Hole ispezionerà quindi queste richieste (ce ne sono centinaia ogni giorno!) e bloccherà automaticamente quelle note per ospitare pubblicità o addirittura file dannosi**
 
 
 
@@ -62,7 +62,7 @@ Quindi, ogni volta che si inserisce il nome di un sito web nel browser o si fa c
 
 
 
-Con un nome come Pi-Hole, si potrebbe giustamente pensare che sia necessario un Raspberry-Pi... Ma questo non è del tutto vero. **Pi-Hole può essere installato su qualsiasi computer Linux (Debian, Fedora, Rocky, Ubuntu, ecc.)
+Con un nome come Pi-Hole, si potrebbe giustamente pensare che sia necessario un Raspberry-Pi... Ma questo non è del tutto vero. **Pi-Hole può essere installato su qualsiasi computer Linux (Debian, Fedora, Rocky, Ubuntu, ecc.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Nota: nelle versioni minimali di Debian 11, Curl non è installato, quindi è necessario installarlo manualmente con il comando **apt-get install curl** prima di digitare il comando precedente.
+> **Nota: nelle versioni minimali di Debian 11, Curl non è installato, quindi è necessario installarlo manualmente con il comando** `apt-get install curl` **prima di digitare il comando precedente.**
 
 Una volta eseguito lo script, verrà eseguita una serie di test e l'installazione stessa si prenderà cura di sé:
 
@@ -124,7 +124,7 @@ Selezione DNS - Pi-Hole
 
 
 
-> **Nota: se siete in un'azienda, è probabile che il vostro server DNS attuale sia il controller di dominio di Active Directory. Ma non preoccupatevi, in seguito potrete specificare un reindirizzatore condizionale per un dominio di vostra scelta. In genere, sarete in grado di reindirizzare qualsiasi richiesta relativa al vostro dominio locale al vostro server DNS.
+> **Nota:** se siete in un'azienda, è probabile che il vostro server DNS attuale sia il controller di dominio di Active Directory. Ma non preoccupatevi, in seguito potrete specificare un reindirizzatore condizionale per un dominio di vostra scelta. In genere, sarete in grado di reindirizzare qualsiasi richiesta relativa al vostro dominio locale al vostro server DNS.
 
 Si noterà che alcune scelte includono un'opzione DNSSEC. Fondamentalmente, il protocollo DNS non è sicuro (all'epoca non era stato progettato con questo obiettivo). Il protocollo DNSSEC risolve questo problema aggiungendo un Layer di sicurezza attraverso la crittografia e la firma degli scambi, come spiegato nell'articolo corrispondente: [Sicurezza DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -218,7 +218,7 @@ Una volta effettuata questa operazione, se i dispositivi sono stati accesi in pr
 
 
 
-Sulle stazioni di lavoro Windows, con un prompt dei comandi :
+Sulle stazioni di lavoro Windows, con un prompt dei comandi:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Su una workstation Linux :
+Su una workstation Linux:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-Nel campo DNS dovrebbe esserci il Address del vostro Pi-Hole, nel mio caso 192.168.1.42 :
+Nel campo DNS dovrebbe esserci il Address del vostro Pi-Hole, nel mio caso 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ Nel campo DNS dovrebbe esserci il Address del vostro Pi-Hole, nel mio caso 192.1
 
 
 
-Per facilitare l'amministrazione, **Pi-Hole** beneficia di un Interface web ben progettato. Facile da usare e accessibile, consente di :
+Per facilitare l'amministrazione, **Pi-Hole** beneficia di un Interface web ben progettato. Facile da usare e accessibile, consente di:
 
 
 
@@ -286,7 +286,7 @@ Per aggiungerlo, collegarsi prima all'amministratore del Interface: **http://<ip
 
 
 
-La password di amministratore è già stata generata (si veda la schermata di fine installazione), quindi è sufficiente inserirla per accedere a Interface :
+La password di amministratore è già stata generata (si veda la schermata di fine installazione), quindi è sufficiente inserirla per accedere a Interface:
 
 
 
@@ -322,7 +322,7 @@ Aggiunta di un elenco in Pi-Hole
 
 
 
-Non resta che fare clic su "**Aggiungi**" per aggiungerlo. Per attivarlo, è necessario eseguire un ulteriore passaggio per "avvertire" Pi-Hole di occuparsi di questo elenco. Per fare questo :
+Non resta che fare clic su "**Aggiungi**" per aggiungerlo. Per attivarlo, è necessario eseguire un ulteriore passaggio per "avvertire" Pi-Hole di occuparsi di questo elenco. Per fare questo:
 
 
 

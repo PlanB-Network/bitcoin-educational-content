@@ -1,0 +1,9 @@
+question: Milline USA agentuur oli ARPANETi projekti taga?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) algatas ARPANETi, mis pani aluse TCP/IP-protokolli väljatöötamisele. 1972. aastal nimetati agentuur ümber DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

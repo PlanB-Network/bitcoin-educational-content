@@ -1,0 +1,9 @@
+question: Ni iyihe nomero ya verisiyo ya porogarama yerekanwa kuri Slashdot muri Nyakanga 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Iyi verisiyo yasohotse, yateguwe kuva kera na Satoshi na Martti, yatumye habaho utwigoro dushasha mu bijanye no guhanahana amakuru.
+reviewed: true

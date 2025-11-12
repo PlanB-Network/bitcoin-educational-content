@@ -1,5 +1,5 @@
 ---
-name: Tốc độ Wallet
+name: Speed Wallet
 description: Thanh toán và Exchange bằng bitcoin và USDT ngay lập tức
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng khía c�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Bắt đầu với Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet yêu cầu tạo tài khoản người dùng. Bạn có thể tạo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Sau khi tài khoản của bạn được tạo, chúng tôi khuyên bạn nên 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Để thực hiện việc này, hãy vào cài đặt ứng dụng, sau đó kích hoạt xác thực kép và xác minh sinh trắc học.
 
@@ -143,7 +143,7 @@ Trên trang chủ **Wallet**, bạn sẽ tìm thấy:
 
 
 
-- Nhận thanh toán trên Speed Wallet :**
+- Nhận thanh toán trên **Speed Wallet**:
 
 
 
@@ -161,7 +161,7 @@ Bạn cũng có thể chỉ cần sử dụng Lightning Address khi muốn ngư�
 
 
 
-- Gửi bitcoin với Speed Wallet**:
+- Gửi bitcoin với **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Tùy chọn **Mua** và **Hoán đổi** cho phép bạn chuyển đổi 43 bitc
 
 
 
-- Mua Bitcoin bằng thẻ tín dụng của bạn**: Speed Wallet giúp bạn dễ dàng mua Bitcoin từ các loại tiền tệ fiat mà bạn sử dụng hàng ngày. Nó kết hợp một trình tổng hợp thanh toán cho phép bạn thanh toán bitcoin bằng thẻ tín dụng của mình.
+- **Mua Bitcoin bằng thẻ tín dụng của bạn**: Speed Wallet giúp bạn dễ dàng mua Bitcoin từ các loại tiền tệ fiat mà bạn sử dụng hàng ngày. Nó kết hợp một trình tổng hợp thanh toán cho phép bạn thanh toán bitcoin bằng thẻ tín dụng của mình.
 
 
 
@@ -201,13 +201,13 @@ Tùy chọn **Mua** và **Hoán đổi** cho phép bạn chuyển đổi 43 bitc
 
 
 
-- Mua Bitcoin từ các loại tiền điện tử khác**: Bạn có thể Exchange USDT, USDC của mình để lấy bitcoin trong Wallet và ngược lại. Thông qua tùy chọn này, Speed Wallet đơn giản hóa quy trình mua và bán Bitcoin mà không cần tham khảo các nền tảng Exchange bên ngoài. Vì vậy, bạn có thể giao dịch với số tiền ít nhất là 20.000 satoshi, khoảng 20 đô la theo tỷ giá hiện tại, mà không cần rời khỏi Speed Wallet của mình.
+- **Mua Bitcoin từ các loại tiền điện tử khác**: Bạn có thể Exchange USDT, USDC của mình để lấy bitcoin trong Wallet và ngược lại. Thông qua tùy chọn này, Speed Wallet đơn giản hóa quy trình mua và bán Bitcoin mà không cần tham khảo các nền tảng Exchange bên ngoài. Vì vậy, bạn có thể giao dịch với số tiền ít nhất là 20.000 satoshi, khoảng 20 đô la theo tỷ giá hiện tại, mà không cần rời khỏi Speed Wallet của mình.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Xem hướng dẫn của chúng tôi về cách bắt đầu sử dụng Bitrefi
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Kiếm phần thưởng
 
@@ -327,7 +327,7 @@ Trong tùy chọn **Cài đặt** trên trang **Wallet**, phần **Ứng dụng 
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet không chỉ dành cho thiết bị di động!
 
@@ -375,25 +375,25 @@ Về cơ bản tập trung vào thanh toán, bạn sẽ tìm thấy các tùy ch
 
 
 
-- Thanh toán trực tuyến**: Với tùy chọn này, bạn có thể chấp nhận Bitcoin làm phương tiện thanh toán cho các sản phẩm kỹ thuật số của mình thông qua liên kết thanh toán, lập hóa đơn và đăng ký.
+- **Thanh toán trực tuyến**: Với tùy chọn này, bạn có thể chấp nhận Bitcoin làm phương tiện thanh toán cho các sản phẩm kỹ thuật số của mình thông qua liên kết thanh toán, lập hóa đơn và đăng ký.
 
 
 
 
 
-- Thanh toán tại chỗ**: Để thu tiền tại cửa hàng của bạn.
+- **Thanh toán tại chỗ**: Để thu tiền tại cửa hàng của bạn.
 
 
 
 
 
-- Thanh toán tức thời**: Tùy chọn cho phép bạn quản lý việc hoàn trả, rút tiền, chi phí và phiếu lương của nhân viên trực tiếp từ Speed Business Interface.
+- **Thanh toán tức thời**: Tùy chọn cho phép bạn quản lý việc hoàn trả, rút tiền, chi phí và phiếu lương của nhân viên trực tiếp từ Speed Business Interface.
 
 
 
 
 
-- Thanh toán nền tảng**: Kết nối tài khoản Speed Business của bạn với các công cụ bên ngoài mà bạn sử dụng để thực hiện chuyển khoản và thanh toán cho các nền tảng này.
+- **Thanh toán nền tảng**: Kết nối tài khoản Speed Business của bạn với các công cụ bên ngoài mà bạn sử dụng để thực hiện chuyển khoản và thanh toán cho các nền tảng này.
 
 
 
@@ -401,4 +401,4 @@ Bạn đã đến cuối hướng dẫn Speed Wallet của chúng tôi. Nếu b�
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

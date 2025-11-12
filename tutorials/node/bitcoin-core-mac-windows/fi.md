@@ -1,7 +1,9 @@
 ---
-name: Bitcoin Core (macOS & Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Asenna Bitcoin Core Macille tai Windowsille
 ---
+
+![cover](assets/cover.webp)
 
 Bitcoin Coren asentaminen tavalliselle tietokoneelle on mahdollista, mutta se ei ole ihanteellista. Jos et pane pahaksesi tietokoneesi jättämistä päälle 24/7, silloin tämä toimii hyvin. Jos tarvitset sammuttaa tietokoneen, ohjelmiston synkronoinnin odottaminen joka kerta kun käynnistät sen uudelleen, voi olla ärsyttävää.
 
@@ -17,7 +19,7 @@ Voit joko pyyhkiä vanhan tietokoneen puhtaaksi ja käyttää sitä omistautunee
 
 Bitcoin Core vie noin 400 gigatavua dataa levytilastasi ja jatkaa kasvamistaan. Voit käyttää sisäistä asemaasi, mutta voit myös liittää ulkoisen kovalevyn. Selitän molemmat vaihtoehdot. Ihanteellisesti sinun tulisi käyttää kiintolevyä (SSD). Jos sinulla on vanha tietokone, siinä todennäköisesti ei ole tällaista sisäisesti. Osta vain 1 tai 2 teratavun ulkoinen SSD ja käytä sitä. Tavallinen asema todennäköisesti toimii, mutta saatat kohdata ongelmia ja se on paljon hitaampi.
 
-![kuva](assets/1.webp)
+![kuva](assets/fr/01.webp)
 
 ## Lataa Bitcoin Core
 
@@ -25,15 +27,15 @@ Mene osoitteeseen bitcoin.org (varmista, ettet mene osoitteeseen bitcoin.com, jo
 
 Kun olet siellä, ei ole oudosti ilmeistä, mistä saa ohjelmiston. Mene resurssivalikkoon ja klikkaa "Bitcoin Core", kuten alla näytetään:
 
-![kuva](assets/2.webp)
+![kuva](assets/fr/02.webp)
 
 Tämä vie sinut lataussivulle:
 
-![kuva](assets/3.webp)
+![kuva](assets/fr/03.webp)
 
 Klikkaa Lataa Bitcoin Core -oranssia painiketta:
 
-![kuva](assets/4.webp)
+![kuva](assets/fr/04.webp)
 
 Valittavanasi on useita vaihtoehtoja riippuen tietokoneestasi. Ensimmäiset kaksi ovat relevantteja tähän oppaaseen; valitse vasemmalta palkista Windows tai Mac. Lataus alkaa klikkaamisen jälkeen, todennäköisesti Lataukset-kansioosi.
 
@@ -41,7 +43,7 @@ Valittavanasi on useita vaihtoehtoja riippuen tietokoneestasi. Ensimmäiset kaks
 
 Tarvitset tiedoston, joka sisältää eri julkaisujen hashit. Tämä tiedosto oli aiemmin bitcoin.org:n lataussivulla, mutta on nyt siirtynyt osoitteeseen bitcoincore.org/en/download:
 
-![kuva](assets/5.webp)
+![kuva](assets/fr/05.webp)
 
 Tarvitset SHA256 binäärihashien tiedoston. Tämä tiedosto sisältää Bitcoin Coren eri latauspakettien SHA256-hashit.
 
@@ -64,7 +66,7 @@ Tehdäksesi tämän, katso SHA256/gpg-opas ja vieritä noin puoliväliin kohtaan
 
 Takaisin lataussivulla, hanki SHA256 hash allekirjoitustiedosto
 
-![kuva](assets/6.webp)
+![kuva](assets/fr/06.webp)
 
 Klikkaa sitä ja tallenna tiedosto levylle, mieluiten Lataukset-kansioon.
 
@@ -99,7 +101,7 @@ Ensimmäinen listattu tiedosto on allekirjoitustiedoston tarkka kirjoitusasu. To
 
 Tämä on tuloste, jonka pitäisi tulla
 
-![kuva](assets/7.webp)
+![kuva](assets/fr/07.webp)
 
 VAROITUS-viestin voi jättää huomiotta – se vain muistuttaa, että et ole tavannut Wladimiria avainosassa henkilökohtaisesti ja kysynyt häneltä, mikä hänen julkinen avaimensa on, ja sitten kertonut tietokoneellesi luottamaan tähän avaimen täysin.
 
@@ -109,38 +111,39 @@ Jos sait tämän viestin, tiedät nyt, että SHA256SUMS.asc-tiedostoa ei ole man
 
 Sinun ei pitäisi tarvita yksityiskohtaisia ohjeita ohjelman asentamiseen.
 
-![kuva](assets/8.webp)
+![kuva](assets/fr/08.webp)
 
 ## Käynnistä Bitcoin Core
 
 Macilla saatat saada varoituksen (Apple on edelleen anti-Bitcoin)
 
-![kuva](assets/9.webp)
+![kuva](assets/fr/09.webp)
 
 Klikkaa OK ja avaa sitten Järjestelmäasetukset
 
-![kuva](assets/10.webp)
+![kuva](assets/fr/10.webp)
 
 Klikkaa Turvallisuus ja yksityisyys -kuvaketta:
 
-![kuva](assets/11.webp)
+![kuva](assets/fr/11.webp)
 
 Klikkaa sitten "avaa joka tapauksessa":
 
-![kuva](assets/12.webp)
+![kuva](assets/fr/12.webp)
 
 Virhe ilmestyy uudelleen, mutta tällä kertaa sinulla on käytettävissä AVAA-painike. Klikkaa sitä.
 
-![kuva](assets/13.webp)
+![kuva](assets/fr/13.webp)
 
 Bitcoin Coren pitäisi latautua ja sinulle esitetään joitakin vaihtoehtoja:
 
-![kuva](assets/14.webp)
+![kuva](assets/fr/14.webp)
 
 Tässä voit valita käyttääkö oletusreittiä, johon lohkoketju ladataan, vai voit valita ulkoisen aseman. Suosittelen, että et muuta oletuspolkua, jos aiot käyttää sisäistä asemaa, se tekee asioista helpompia asennettaessa muita ohjelmistoja kommunikoimaan Bitcoin Coren kanssa.
 Voit päättää käyttää karsittua solmua, mikä säästää tilaa, mutta rajoittaa sitä, mitä voit tehdä solmullasi. Joka tapauksessa lataat koko lohkoketjun ja varmistat sen, joten jos sinulla on tilaa, säilytä ladattu aineisto äläkä karsi, jos voit välttää sen.
 Kun vahvistat, lohkoketju alkaa ladata. Sen lataaminen kestää monta päivää.
 
-![kuva](assets/15.webp)
+![kuva](assets/fr/15.webp)
 
 Voit sammuttaa tietokoneen ja palata lataamaan halutessasi, se ei aiheuta vahinkoa.
+

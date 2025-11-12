@@ -1,9 +1,10 @@
-question: Quel est le concept mathématique, basé sur la rationalité humaine, qui est utilisé dans Bitcoin ?
-answer: Théorie des jeux.
+question: Quelle est la récompense en BTC après le quatrième halving ?
+answer: 3.125 BTC.
 wrong_answers:
-  - Théorie des probabilités.
-  - Théorie des nombres.
-  - Théorie des ensembles.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  La théorie des jeux est un concept mathématique qui est basé sur la rationalité humaine. Dans Bitcoin, les changements de protocole sont appliqués par les utilisateurs, rendant toute modification du protocole Bitcoin extrêmement complexe.
+  Après le quatrième halving, qui se produit à la hauteur de bloc
+  840 000, la récompense de minage est de 3.125 BTC.
 reviewed: true

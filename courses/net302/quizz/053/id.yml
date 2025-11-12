@@ -1,0 +1,9 @@
+question: Mode NAT mana yang memungkinkan lusinan perangkat untuk berbagi satu IP publik Address dengan memodifikasi port?
+answer: PAT
+wrong_answers:
+  - NAT statis
+  - NAT dinamis
+  - Perutean statis
+explanation: |
+  PAT, juga dikenal sebagai NAT overload atau penyamaran IP, mengubah nomor port untuk membedakan sesi, sehingga memungkinkan banyak perangkat menggunakan Address publik yang sama.
+reviewed: false

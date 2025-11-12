@@ -1,0 +1,9 @@
+question: Kdo je Saint-Augustin?
+answer: Jeden z církevních otců.
+wrong_answers:
+  - Filozof osvícenství.
+  - Astronom.
+  - Vynálezce.
+explanation: |
+  Svatý Augustin (354-430) je jedním z církevních otců. Byl filozofem a teologem a svými díly, jako jsou Vyznání a Boží město, hluboce ovlivnil západní křesťanské myšlení.
+reviewed: false

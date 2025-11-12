@@ -1,0 +1,9 @@
+question: IPv5 一直没有得到广泛部署的主要原因是什么？
+answer: 它仍然是实验性的
+wrong_answers:
+  - 部署成本太高
+  - 与 IPv6 不兼容
+  - 它存在重大安全缺陷
+explanation: |
+  IPv5 只是试验性的。它从未被标准化或广泛采用，最终被 IPv6 所取代。
+reviewed: false

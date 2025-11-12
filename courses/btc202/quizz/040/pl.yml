@@ -1,0 +1,9 @@
+question: Gdzie jest najbardziej aktywna społeczność Umbrel?
+answer: Na Discordzie i forum internetowym
+wrong_answers:
+  - Na Instagramie
+  - Na LinkedIn i forum internetowym
+  - Na IRC
+explanation: |
+  Umbrel ma bardzo aktywną społeczność na Discordzie i forum internetowym, gdzie użytkownicy Exchange otrzymują pomoc i wsparcie.
+reviewed: true

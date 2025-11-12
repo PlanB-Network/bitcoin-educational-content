@@ -1,15 +1,10 @@
-question: Pourquoi devriez-vous acheter des bitcoins non-KYC ?
-answer: Pour garantir votre vie privée.
+question: Qu'est-ce que BitcoinTalk ?
+answer: Un lieu de discussion pour les utilisateurs de Bitcoin.
 wrong_answers:
-  - Pour garantir l'enregistrement de tous les utilisateurs de Bitcoin.
-  - Pour acheter à bas prix.
-  - Pour vendre à bas prix.
+  - Un logiciel de minage de Bitcoin.
+  - Un portefeuille Bitcoin.
+  - Une conférence sur le Bitcoin.
 explanation: |
-  Acheter des bitcoins non-KYC signifie acquérir des bitcoins sans
-  passer par les procédures de vérification standard Connaître Votre Client
-  (Know Your Customer) que de nombreuses bourses et plateformes
-  exigent. Une raison principale pour laquelle les individus pourraient choisir cette
-  voie est de maintenir leur vie privée, en s'assurant que leurs
-  informations personnelles et activités financières restent
-  non divulgués.
+  Le forum BitcoinTalk est un lieu de discussion pour les
+  utilisateurs de Bitcoin. Il a été créé par Satoshi Nakamoto le 22 novembre 2009.
 reviewed: true

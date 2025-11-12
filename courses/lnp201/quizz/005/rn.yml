@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’intango rw’urufunguzo rw’ibanga muri sisitemu ya Bitcoin?
+answer: Sinya ibikorwa kugira ngo uhaze inyandiko
+wrong_answers:
+  - Gukora nk'ikimenyetso co kwakira bitcoins
+  - Amahera uyabike neza kuri Blockchain.
+  - Rema inyandiko zo gufunga kugira ngo ukinge bitcoins
+explanation: |
+  Urufunguzo rw’ibanga rukoreshwa mu gusinya ku bikorwa kugira ngo umuntu ahaze inyandiko no gufungura ama bitcoins.
+reviewed: false

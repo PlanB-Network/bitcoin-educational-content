@@ -1,9 +1,10 @@
-question: Mis on üks teguritest, mis võib põhjustada Bitcoini hinna kõikumist?
-answer: Turu variatsioonid ja tõusvad ning langevad turufaasid.
+question: Mis on üks viisidest, kuidas Bitcoin on end traditsioonilisse turusse rohkem integreerinud?
+answer: Bitcoin ETFide peatne tulek.
 wrong_answers:
-  - Interneti kasutajate arv.
-  - Ilmastik.
-  - Kulla hind.
+  - Bitcoini keelustamine.
+  - Kõikide krüptovaluutade kadumine.
+  - Bitcoini loomine.
 explanation: >-
-  Bitcoini hind on tihti iseloomustatud olulise volatiilsusega,
-  mida võivad mõjutada turu variatsioonid ja tõusvad ning langevad turufaasid.
+  Bitcoin jätkab ellujäämist ja kasvamist, integreerides end üha enam traditsioonilisse turusse. Bitcoin ETFide peatne tulek,
+  selgem regulatsioon ja paremad omandamis- või hoiustamisvahendid ainult soodustavad seda trendi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilket kommandolinjeverktøy fanger opp nettverkstrafikk for analyse i sanntid?
+answer: tcpdump
+wrong_answers:
+  - grave
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump fanger opp og logger pakker som sirkulerer på et nettverk Interface for analyse.
+reviewed: false

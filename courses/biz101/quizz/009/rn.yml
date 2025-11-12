@@ -1,0 +1,9 @@
+question: None Lightning Network yubatswe hejuru ya Bitcoin ifise intumbero nyamukuru iyihe?
+answer: Kugira ngo bishobore kwishura vyihuta, hafi y’aho nyene n’ugukorana guke kwa On-Chain.
+wrong_answers:
+  - Kugira ngo usubirize Bitcoin’s Blockchain yose uko ingana no kubika amafaranga yose mu karere.
+  - Kugira ngo ushireho urubuga rwemerewe rugenzurwa n’ikigo kimwe.
+  - Kugabanya amafaranga y’ubudandaji kugira ngo agume akurikiranywa neza na Leta.
+explanation: |
+  Lightning Network ni umurongo wa “second-Layer” utuma abaje mu nama bashobora guhingura uburyo bwo kwishura, gukorana na off-chain, no gutanga gusa amafaranga y’iherezo kuri Bitcoin Blockchain. Iyi design ishika ku ntumbero yihuta cane kandi igatanga amahera make.
+reviewed: false

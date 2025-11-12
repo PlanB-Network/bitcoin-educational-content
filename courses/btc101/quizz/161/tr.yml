@@ -1,8 +1,8 @@
-question: Bitcoin Mining'in çevresel maliyetine ilişkin temel endişe nedir?
-answer: Enerji tüketimi.
+question: Bitcoin ekolojik geçişe potansiyel olarak nasıl yardımcı olabilir?
+answer: Green enerji kullanımını teşvik eder.
 wrong_answers:
-  - ASIC'lerin üretimi.
-  - ASIC'lerin geri dönüşümü.
-  - Elektrik maliyeti.
+  - Mal üretimini azaltır.
+  - Kaynakların tüketimini düzenler.
+  - Sadece sera gazlarının emisyonunu sınırlar.
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni gute ubuhinga bwa Keysend bushobora gutuma umuntu ashobora gutanga amahera ata Invoice afise?
+answer: Uwurungitse atanga ibanga muri HTLCs kugira ngo afungure amahera
+wrong_answers:
+  - Uwuronka iyo nkuru atanga Hash kugira ngo yemeze ko iyo nkuru yimuriwe
+  - Ukwishurwa kwemezwa biciye ku muhora utaziguye hagati y'uwurungitse n'uwuronka
+  - Amahera arashirwa mu nzira ataco yindi umutekano .
+explanation: |
+  Keysend iremesha uwuyirungitse gutanga ibanga ryinjijwe muri HTLCs, bikaba bituma uwuyakira ashobora gufungura ayo mahera ata Invoice yasohoye.
+reviewed: false

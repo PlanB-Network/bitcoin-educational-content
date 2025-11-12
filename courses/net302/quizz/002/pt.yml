@@ -1,0 +1,9 @@
+question: Qual é o principal ponto fraco de uma rede em anel?
+answer: A falha de um único dispositivo pode interromper toda a rede
+wrong_answers:
+  - Necessita de muitos cabos para ligar cada peça de equipamento
+  - É difícil alargar
+  - A sua gestão é complexa
+explanation: |
+  Numa topologia em anel, a falha de um dispositivo interrompe o ciclo e impede a circulação de dados.
+reviewed: false

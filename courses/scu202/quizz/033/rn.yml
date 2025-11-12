@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo butegerezwa gukoreshwa muri UEFI kugira ngo umuntu ntashire mu ngiro kode idashizweko umukono ku gihe co gutangura?
+answer: Igikoresho gitekanye
+wrong_answers:
+  - Gutangura vyihuta
+  - Gutangura vuba
+  - Urubuga rwizewe (TPM)
+explanation: |
+  Secure Boot ituma porogarama yemewe yonyene ishobora gufungura sisitemu, gutyo bikagabanya ingorane zo kwandura bootkit/rootkit.
+reviewed: false

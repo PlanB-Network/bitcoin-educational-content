@@ -1,0 +1,9 @@
+question: از کدام پروتکل برای ارتباط یک IP Address با یک MAC Address در شبکه اترنت استفاده می‌شود؟
+answer: ARP
+wrong_answers:
+  - آرام بخواب
+  - DNS
+  - OSPF
+explanation: |
+  پروتکل قطعنامه Address (ARP) آدرس‌های IP را به آدرس‌های MAC در شبکه‌های محلی نگاشت می‌کند.
+reviewed: false

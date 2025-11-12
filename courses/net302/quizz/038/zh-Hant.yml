@@ -1,0 +1,9 @@
+question: 哪個典型的 CIDR 範圍代表 IANA 分配給 RIR 的 IPv4 區塊大小？
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA 將 IPv4 空間分為大小為 /8 的區塊，每個區塊包含 2^24 個位址。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Cosa deve essere aggiunto al NAT per proteggere correttamente una rete?
+answer: Un firewall
+wrong_answers:
+  - Un server DNS locale
+  - Un proxy HTTP
+  - Un antivirus
+explanation: |
+  Il NAT da solo non è sufficiente per filtrare il traffico malevolo: deve essere integrato con regole di firewall controllare il traffico più dettagliato.
+reviewed: false

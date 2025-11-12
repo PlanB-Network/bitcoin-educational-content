@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen een publieke IPv4 Address en een private IPv4 Address?
+answer: Een publieke Address is uniek en routeerbaar op het internet
+wrong_answers:
+  - Een private Address is uniek en routeerbaar op het internet
+  - Een publieke Address wordt altijd toegewezen door DHCP
+  - Een privé Address wordt altijd toegewezen door DHCP
+explanation: |
+  Een publieke IPv4 Address is wereldwijd uniek en routeerbaar op het internet, terwijl een private Address alleen geldig is binnen een lokaal netwerk.
+reviewed: false

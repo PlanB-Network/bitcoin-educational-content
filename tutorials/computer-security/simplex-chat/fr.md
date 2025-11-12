@@ -207,4 +207,4 @@ Félicitations, vous êtes maintenant au point sur l'utilisation de la messageri
 
 Je vous recommande également de découvrir cet autre tutoriel, dans lequel je vous présente Threema, une autre alternative intéressante pour votre application de messagerie :
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

@@ -1,0 +1,9 @@
+question: ¿Qué topología enlaza todos los equipos a un único punto central?
+answer: Estrella
+wrong_answers:
+  - Anillo
+  - Autobús
+  - Malla
+explanation: |
+  En una topología en estrella, cada dispositivo está conectado a un dispositivo central, lo que facilita la gestión y el mantenimiento.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline NAT-vorm seob püsivalt privaatse IP Address avaliku IP Address-ga?
+answer: Staatiline tõlge
+wrong_answers:
+  - Dünaamiline tõlge
+  - PAT (Port Address tõlge)
+  - Dünaamiline marsruutimine
+explanation: |
+  Staatiline tõlge loob fikseeritud kaardistuse sisemise IP Address ja avaliku IP Address vahel, mis on kasulik selleks, et muuta siseressursid väljastpoolt ligipääsetavaks.
+reviewed: false

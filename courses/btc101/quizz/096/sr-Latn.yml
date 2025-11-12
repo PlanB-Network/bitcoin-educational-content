@@ -1,11 +1,9 @@
-question: Koji je privatni ključ često predstavljen u Bitkoin novčaniku?
-answer: Lista od 12 ili 24 reči.
+question: Koja je svrha kreiranja plana nasleđivanja za vaše bitkoine?
+answer: Da biste osigurali da će vaši bitkoini biti pravilno upravljani nakon vaše smrti.
 wrong_answers:
-  - Lista od 12 ili 48 reči.
-  - Lista od 32 reči.
-  - Lista od 64 reči.
+  - Da izbegnete poreze na vaše bitkoine.
+  - Da smanjite vrednost vaših bitkoina.
+  - Da biste sprečili krađu vaših bitkoina.
 explanation: |
-  U Bitkoin novčaniku, privatni ključ je često predstavljen
-  listom od 12 ili 24 reči, takođe poznat kao seed fraza
-  ili Mnemonic fraza.
+  Plan nasledstva osigurava da će vaši bitkoini biti pravilno upravljani nakon vaše smrti. Može uključivati ručno pisano pismo koje detaljno opisuje vašu imovinu, metode pristupa i kontakt informacije pouzdanih osoba koje treba kontaktirati.
 reviewed: true

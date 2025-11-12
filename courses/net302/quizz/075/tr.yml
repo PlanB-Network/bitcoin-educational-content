@@ -1,0 +1,9 @@
+question: Bir IPv6 Address ile ilişkili adı bulmak için ne tür bir DNS kaydı kullanılır?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (İşaretçi Kaydı) ters çözümlemeyi etkinleştirir, yani bir IPv6 Address'i bir alan adına bağlar.
+reviewed: false

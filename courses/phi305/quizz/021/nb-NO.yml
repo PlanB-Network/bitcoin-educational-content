@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Forut for Spinoza.
+wrong_answers:
+  - Er en arvtager etter Spinoza.
+  - Er en sveitsisk filosof.
+  - Er en ateistisk filosof.
+explanation: |
+  René Descartes (1596-1650) er eldre enn Spinoza og regnes som den moderne rasjonalismens far. Spinoza var påvirket av Descartes, men utviklet et filosofisk system som avvek betydelig fra kartesianismen.
+reviewed: false

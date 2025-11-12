@@ -1,0 +1,9 @@
+question: Nimba umubare wose N ari umusaruro w’imibare ibiri y’intango p na q, urutonde rwa N ruharurwa gute?
+answer: (urupapuro - 1) * (ikibazo - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (urupapuro - 1) + (ku - 1)
+explanation: |
+  Ku N ingana n’umusaruro w’imibare ibiri y’intango p na q, urutonde rwa N ruharurwa nk’uko (p - 1) * (q - 1).
+reviewed: false

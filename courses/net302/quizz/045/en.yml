@@ -5,5 +5,5 @@ wrong_answers:
   - MAC Sniffing
   - Mac Keylogging
 explanation: |
-  MAC spoofing consists in changing the hardware address of a Interface network, often for reasons of confidentiality or bypassing.
+  MAC spoofing is the act of changing the hardware address of a network interface, often for privacy reasons or to bypass restrictions.
 reviewed: false

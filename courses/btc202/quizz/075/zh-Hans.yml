@@ -1,0 +1,9 @@
+question: 为什么随着时间的推移，UTXO 数据集的规模会出现结构性增长？
+answer: 每次付款通常会产生两个新的 UTXO
+wrong_answers:
+  - 传统支付的投入不消耗任何 UTXO
+  - 每个 Fork 将现有UTXO 的数量相乘
+  - 可创建的比特币数量是无限的
+explanation: |
+  一次付款交易消耗一个 UTXO，通常会再产生两个（付款 + Exchange），从而扩大了数据集的总规模。
+reviewed: true

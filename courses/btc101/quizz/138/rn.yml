@@ -1,0 +1,11 @@
+question: Intambara ya block yo muri 2017 yari ivuga iki?
+answer: Intambara ku bijanye no kwongera ubunini bw’ibarabara kugira ngo ubushobozi bwo gukorana bube bwinshi.
+wrong_answers:
+  - Intambara ku bijanye no kugabanya ubunini bw’ibarabara kugira ngo ubushobozi bwo gukora bugabanuke.
+  - Intambara ku vyerekeye nimba bokwongerera Block reward kugira ngo abacukuzi b’amabuye y’agaciro batere intege.
+  - Intambara y’uko bogabanya Block reward kugira ngo abacukuzi ntibavyure umutima.
+explanation: |
+  Intambara y’amabuye yo mu 2017 yari intambara ku vyerekeye nimba
+  guhindura Bitcoin mu kwongera ubunini bw'ibarabara kugira ngo wagure
+  ubushobozi bwo gukora ibikorwa.
+reviewed: true

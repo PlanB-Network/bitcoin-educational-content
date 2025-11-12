@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe, cakozwe mu kwezi kwa Gitugutu 2010 na Miner m0mchil, catumye ama node y’abaguzi ashobora kuronka igice c’abashaka gutora no kugarura Proof of Work iyo umuti wabonetse?
+answer: kuronka akazi
+wrong_answers:
+  - igice
+  - Getashi
+  - kuronka inguzanyo
+explanation: |
+  Yasohotse kw’igenekerezo rya 1 Gitugutu. Ku wa 23 Ugushyingo, Satoshi yashizemwo verisiyo yahinduwe y’iyi nzira muri porogarama nyamukuru.
+reviewed: true

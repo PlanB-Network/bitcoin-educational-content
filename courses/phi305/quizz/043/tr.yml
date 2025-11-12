@@ -1,0 +1,9 @@
+question: Kim demiş "Kötülük hiçbir şeydir" diye?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  kötülük hiçbir şeydir" fikri Sokrates'e atfedilen ve felsefi gelenekte benimsenen bir fikirdir. Sokrates'e göre kötülük cehaletten kaynaklanır; iyinin ne olduğunu gerçekten bilen hiç kimse isteyerek kötülük yapmaz.
+reviewed: false

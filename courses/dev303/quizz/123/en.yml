@@ -1,0 +1,8 @@
+question: What is the primary architectural advantage that enables Breeze SDK to eliminate the traditional Lightning Network barrier of manual channel opening for new users?
+answer: Integrated Lightning Service Provider (LSP) functionality that automatically provisions inbound liquidity upon wallet installation
+wrong_answers:
+  - Built-in submarine swap services that convert on-chain Bitcoin to Lightning channels without user intervention
+  - Pre-funded channel pools managed by Greenlight that are dynamically allocated to users based on demand
+  - Automatic peer discovery mechanisms that connect new wallets to high-liquidity nodes for instant channel creation
+explanation: |
+  The Breeze SDK's integrated LSP functionality is specifically designed to eliminate the manual channel opening barrier by automatically providing inbound liquidity when users install their wallet. This allows immediate payment reception without technical setup. Submarine swaps handle layer conversion but don't address initial channel provisioning. Pre-funded pools and peer discovery are not the mechanisms Breeze uses - instead, the LSP integration directly provides the necessary inbound capacity for new users to receive payments immediately.

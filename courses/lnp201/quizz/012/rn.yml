@@ -1,0 +1,9 @@
+question: Ni ryari umurongo wa Lightning ufungurwa ku mugaragaro?
+answer: Igihe igikorwa co gushiramwo amahera cemejwe ku rupapuro rwa Bitcoin Blockchain.
+wrong_answers:
+  - Igihe nyene imfunguruzo za bose zizoba zihinduwe hagati y'abaje mu nama .
+  - Igihe igikorwa co gukura amahera gishizweko umukono n'ababiri
+  - Igihe nyene 2/2 y’imikono myinshi Address izoremwa
+explanation: |
+  Uwo muhora ubonwa ko wuguruye iyo igikorwa co gushiramwo amahera kimaze gushirwa mu gice ca Bitcoin kandi kikaba cashitse ku mubare kanaka w’ivyemezo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket Linux-kommando visar den aktiva routingtabellen för nätverket?
+answer: ip route visa
+wrong_answers:
+  - ifconfig -a
+  - ping-väg
+  - netstat -s
+explanation: |
+  ip route show visar de rutter som är kända av kärnan och de vägar som IP-paketen tar.
+reviewed: false

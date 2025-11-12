@@ -1,0 +1,9 @@
+question: Wat is de bitlengte van een IPv6 Address?
+answer: 128-bits
+wrong_answers:
+  - 512 bits
+  - 64-bits
+  - 256-bits
+explanation: |
+  Een IPv6 Address is 128 bits lang, vergeleken met 32 bits voor een IPv4 Address.
+reviewed: false

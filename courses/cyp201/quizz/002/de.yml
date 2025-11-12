@@ -6,4 +6,4 @@ wrong_answers:
   - Länge
 explanation: |
   Eine kleine Änderung im Eingabewert führt zu einer radikalen Änderung im Hash, dies wird als Lawineneffekt bezeichnet.
-reviewed: false
+reviewed: true

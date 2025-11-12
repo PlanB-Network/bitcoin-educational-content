@@ -1,0 +1,9 @@
+question: Welke Amerikaanse instantie zat achter het ARPANET-project?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) initieerde ARPANET, dat de basis legde voor de ontwikkeling van het TCP/IP-protocol. In 1972 werd het agentschap omgedoopt tot DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

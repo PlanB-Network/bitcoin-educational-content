@@ -19,10 +19,10 @@ ThunderHub to **menedżer open-source dla węzłów Lightning (LND)**, oferując
 
 
 
-- Monitorowanie**: Globalny widok sald, kanałów, transakcji, statystyk routingu
-- Zarządzanie**: Otwieranie/zamykanie kanałów, płatności przychodzące/wychodzące, bilansowanie kanałów
-- Integracje**: Obsługa LNURL, zamiany za pośrednictwem Boltz, kopia zapasowa Amboss
-- Interface responsywny**: Kompatybilny z urządzeniami mobilnymi, tabletami i komputerami stacjonarnymi z ciemnymi/jasnymi motywami
+- **Monitorowanie**: Globalny widok sald, kanałów, transakcji, statystyk routingu
+- **Zarządzanie**: Otwieranie/zamykanie kanałów, płatności przychodzące/wychodzące, bilansowanie kanałów
+- **Integracje**: Obsługa LNURL, zamiany za pośrednictwem Boltz, kopia zapasowa Amboss
+- **Interface responsywny**: Kompatybilny z urządzeniami mobilnymi, tabletami i komputerami stacjonarnymi z ciemnymi/jasnymi motywami
 
 
 
@@ -30,7 +30,7 @@ ThunderHub łatwo integruje się z **Umbrel**, **Voltage**, **RaspiBlitz** i **M
 
 
 
-**ThunderHub jest szczególnie odpowiedni dla operatorów poszukujących ergonomicznego Interface do zarządzania swoimi kanałami, kontrolowania płynności (rebalansowania), monitorowania transakcji i integracji usług stron trzecich, takich jak Amboss. Bezpieczeństwo jest zapewnione przez połączenie lokalne lub Tor.
+**ThunderHub jest szczególnie odpowiedni dla operatorów poszukujących ergonomicznego interfejsu do zarządzania swoimi kanałami, kontrolowania płynności (rebalansowania), monitorowania transakcji i integracji usług stron trzecich, takich jak Amboss. Bezpieczeństwo jest zapewnione przez połączenie lokalne lub Tor.**
 
 
 
@@ -38,7 +38,7 @@ Jeśli nie masz jeszcze węzła Lightning, zalecamy skorzystanie z naszego samou
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Instalacja
 
@@ -58,8 +58,8 @@ Umbrel integruje ThunderHub ze swoim **App Store**, dzięki czemu instalacja jes
 
 
 
-- Otwórz pulpit nawigacyjny Umbrel**: Połącz się z siecią Interface swojego węzła Umbrel (np. `http://umbrel.local` w sieci lokalnej lub przez jego Address `.onion`, jeśli używasz Tora).
-- Dostęp do App Store**: W menu głównym Umbrel kliknij "App Store" (lub "App"). Wyszukaj **ThunderHub** na liście dostępnych aplikacji.
+- Otwórz pulpit nawigacyjny **Umbrel**: Połącz się z siecią Interface swojego węzła Umbrel (np. `http://umbrel.local` w sieci lokalnej lub przez jego Address `.onion`, jeśli używasz Tora).
+- **Dostęp do App Store**: W menu głównym Umbrel kliknij "App Store" (lub "App"). Wyszukaj **ThunderHub** na liście dostępnych aplikacji.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integruje ThunderHub ze swoim **App Store**, dzięki czemu instalacja jes
 
 
 
-- Zainstaluj ThunderHub**: Kliknij aplikację ThunderHub, a następnie przycisk instalacji. Potwierdź, jeśli to konieczne. Umbrel automatycznie pobierze i wdroży ThunderHub w węźle.
+- **Zainstaluj ThunderHub**: Kliknij aplikację ThunderHub, a następnie przycisk instalacji. Potwierdź, jeśli to konieczne. Umbrel automatycznie pobierze i wdroży ThunderHub w węźle.
 
 
 
 
 
-- Uruchom aplikację**: Po zakończeniu instalacji (kilkadziesiąt sekund) ThunderHub pojawi się na stronie głównej. Kliknij ikonę, aby ją otworzyć. ThunderHub uruchamia się w przeglądarce.
+- **Uruchom aplikację**: Po zakończeniu instalacji (kilkadziesiąt sekund) ThunderHub pojawi się na stronie głównej. Kliknij ikonę, aby ją otworzyć. ThunderHub uruchamia się w przeglądarce.
 
 
 
@@ -88,8 +88,8 @@ Umbrel integruje ThunderHub ze swoim **App Store**, dzięki czemu instalacja jes
 
 
 
-- Zapisz to hasło natychmiast** w menedżerze haseł
-- Skopiuj go** do użycia w następnym kroku
+- Zapisz to hasło natychmiast **w menedżerze haseł**
+- Skopiuj go do użycia w następnym kroku
 - Po zapisaniu hasła zaznacz opcję "Nie pokazuj tego ponownie"
 
 
@@ -127,8 +127,8 @@ Dla użytkowników spoza Umbrel (np. na osobistym serwerze, Raspberry Pi z Raspi
 
 
 
-- Node.js** w wersji 18 lub wyższej
-- npm** zainstalowany
+- **Node.js** w wersji 18 lub wyższej
+- **npm** zainstalowany
 - Dostęp do plików uwierzytelniających LND :
   - Certyfikat LND TLS (`tls.cert`)
   - LND makaron administracyjny (`admin.macaroon`)
@@ -304,8 +304,8 @@ Zostanie wyświetlona strona logowania ThunderHub. Wybierz skonfigurowane konto 
 
 
 
-- Instalacja:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Konfiguracja:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Instalacja:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Konfiguracja:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub ma strukturę opartą na menu głównym (zwykle wyświetlan
 
 
 
-- Strona główna** - karta Strona główna z ogólnym pulpitem nawigacyjnym (przegląd węzła i szybkie działania).
-- Pulpit nawigacyjny** - Konfigurowalny pulpit nawigacyjny z widżetami i zaawansowanymi wskaźnikami.
-- Peers** - błyskawiczne zarządzanie peerami (połączeniami z innymi węzłami).
-- Kanały** - Szczegółowe zarządzanie kanałami Lightning.
-- Rebalance** - narzędzie do równoważenia kanałów (płatności cykliczne).
-- Transakcje** - historia płatności Lightning (transakcje LN).
-- Forwards** - statystyki routingu (płatności przekazywane przez węzeł).
-- Łańcuch** - portfel On-Chain Node (On-Chain BTC: UTXO, transakcje).
-- Amboss** - Integracja z Amboss (monitorowanie węzłów, kopie zapasowe itp.).
-- Narzędzia** - Różne narzędzia (kopie zapasowe, podpisane wiadomości, makarony, raporty itp.)
-- Zamiana** - funkcje zamiany On-Chain/Pioruna za pośrednictwem Boltza.
-- Statystyki** - zaawansowane statystyki i metryki wydajności węzłów.
+- **Strona główna** - karta Strona główna z ogólnym pulpitem nawigacyjnym (przegląd węzła i szybkie działania).
+- **Pulpit nawigacyjny** - Konfigurowalny pulpit nawigacyjny z widżetami i zaawansowanymi wskaźnikami.
+- **Peers** - błyskawiczne zarządzanie peerami (połączeniami z innymi węzłami).
+- **Kanały** - Szczegółowe zarządzanie kanałami Lightning.
+- **Rebalance** - narzędzie do równoważenia kanałów (płatności cykliczne).
+- **Transakcje** - historia płatności Lightning (transakcje LN).
+- **Forwards** - statystyki routingu (płatności przekazywane przez węzeł).
+- **Łańcuch** - portfel On-Chain Node (On-Chain BTC: UTXO, transakcje).
+- **Amboss** - Integracja z Amboss (monitorowanie węzłów, kopie zapasowe itp.).
+- **Narzędzia** - Różne narzędzia (kopie zapasowe, podpisane wiadomości, makarony, raporty itp.)
+- **Zamiana** - funkcje zamiany On-Chain/Pioruna za pośrednictwem Boltza.
+- **Statystyki** - zaawansowane statystyki i metryki wydajności węzłów.
 
 
 
@@ -360,32 +360,32 @@ Zakładka **Home** w ThunderHub to strona główna, która pojawia się po zalog
 
 
 
-- Salda i pojemności:** W górnej części strony ThunderHub wyświetla dostępne salda. W tym miejscu zazwyczaj wyświetlane jest saldo On-Chain (Bitcoin On-Chain w Wallet węzła, symbolizowane przez Anchor ⚓) i saldo Lightning (możliwości kanałów, symbolizowane przez błyskawicę Bolt ⚡). Daje to natychmiastowy obraz środków posiadanych w On-Chain i Lightning. Jeśli masz kilka kont lub kanałów, upewnij się, że jesteś na właściwym (np. Mainnet vs Testnet).
+- **Salda i pojemności:** W górnej części strony ThunderHub wyświetla dostępne salda. W tym miejscu zazwyczaj wyświetlane jest saldo On-Chain (Bitcoin On-Chain w Wallet węzła, symbolizowane przez Anchor ⚓) i saldo Lightning (możliwości kanałów, symbolizowane przez błyskawicę Bolt ⚡). Daje to natychmiastowy obraz środków posiadanych w On-Chain i Lightning. Jeśli masz kilka kont lub kanałów, upewnij się, że jesteś na właściwym (np. Mainnet vs Testnet).
 
 
 
 
 
-- Kluczowe statystyki:** Pulpit nawigacyjny może pokazywać pewne globalne wskaźniki dla węzła - na przykład liczbę otwartych kanałów, liczbę połączonych peerów, zarobione opłaty za routing (jeśli dotyczy) itp. Jest to podsumowanie ostatniej aktywności i stanu węzła.
+- **Kluczowe statystyki:** Pulpit nawigacyjny może pokazywać pewne globalne wskaźniki dla węzła - na przykład liczbę otwartych kanałów, liczbę połączonych peerów, zarobione opłaty za routing (jeśli dotyczy) itp. Jest to podsumowanie ostatniej aktywności i stanu węzła.
 
 
 
 
 
-- Szybkie akcje:** Pulpit nawigacyjny zawiera przyciski do szybkiego wykonywania najczęstszych zadań, bez konieczności nawigowania po menu. Te szybkie akcje obejmują :
+- **Szybkie akcje:** Pulpit nawigacyjny zawiera przyciski do szybkiego wykonywania najczęstszych zadań, bez konieczności nawigowania po menu. Te szybkie akcje obejmują :
 
 
 
 
 
-  - Ghost**: Skonfiguruj niestandardowy Lightning Address za pośrednictwem Amboss.
-  - Darowizna**: Przekaż darowiznę za pośrednictwem Lightning.
-  - Login/Go To**: Połącz się ze swoim kontem Amboss (Quick Connect) i przejdź bezpośrednio do Amboss.space, aby wyświetlić informacje o swoim węźle.
-  - Address** : Wprowadź Lightning Address, aby dokonać płatności.
-  - Otwórz**: Otwiera nowy kanał Lightning. Kliknięcie powoduje otwarcie formularza umożliwiającego wprowadzenie identyfikatora URI zdalnego węzła, do którego ma zostać otwarty kanał, kwoty i, w stosownych przypadkach, maksymalnej opłaty On-Chain, która ma zostać wykorzystana.
-  - Dekodowanie**: Odkoduj Lightning Invoice lub LNURL, aby wyświetlić szczegóły przed dokonaniem płatności.
-  - LNURL**: Przetwarzanie adresów LNURL dla płatności lub wypłat Lightning.
-  - LnMarkets Login**: Zaloguj się do LnMarkets, aby handlować.
+- **Ghost**: Skonfiguruj niestandardowy Lightning Address za pośrednictwem Amboss.
+- **Darowizna**: Przekaż darowiznę za pośrednictwem Lightning.
+- **Login/Go To**: Połącz się ze swoim kontem Amboss (Quick Connect) i przejdź bezpośrednio do Amboss.space, aby wyświetlić informacje o swoim węźle.
+- **Address**: Wprowadź Lightning Address, aby dokonać płatności.
+- **Otwórz**: Otwiera nowy kanał Lightning. Kliknięcie powoduje otwarcie formularza umożliwiającego wprowadzenie identyfikatora URI zdalnego węzła, do którego ma zostać otwarty kanał, kwoty i, w stosownych przypadkach, maksymalnej opłaty On-Chain, która ma zostać wykorzystana.
+- **Dekodowanie**: Odkoduj Lightning Invoice lub LNURL, aby wyświetlić szczegóły przed dokonaniem płatności.
+- **LNURL**: Przetwarzanie adresów LNURL dla płatności lub wypłat Lightning.
+- **LnMarkets Login**: Zaloguj się do LnMarkets, aby handlować.
 
 
 
@@ -407,7 +407,7 @@ Sekcja **Dashboard** jest oddzielona od karty Home i oferuje bardziej zaawansowa
 
 
 
-- Konfigurowalne widżety:** W przeciwieństwie do strony głównej, która ma stały układ, pulpit nawigacyjny pozwala dokładnie wybrać, które Elements mają być wyświetlane i jak je zorganizować.
+- **Konfigurowalne widżety:** W przeciwieństwie do strony głównej, która ma stały układ, pulpit nawigacyjny pozwala dokładnie wybrać, które Elements mają być wyświetlane i jak je zorganizować.
 
 
 
@@ -445,19 +445,19 @@ Po skonfigurowaniu pulpit nawigacyjny może wyświetlać różne wykresy i wska�
 
 
 
-- Zaawansowane metryki:** Dostęp do bardziej szczegółowych statystyk dotyczących wydajności węzła, z wykresami i danymi w czasie rzeczywistym.
+- **Zaawansowane metryki:** Dostęp do bardziej szczegółowych statystyk dotyczących wydajności węzła, z wykresami i danymi w czasie rzeczywistym.
 
 
 
 
 
-- Konfigurowalny przegląd:** Dostosuj wyświetlacz do swoich potrzeb, niezależnie od tego, czy jesteś zwykłym użytkownikiem, czy profesjonalnym operatorem zarządzającym wieloma kanałami routingu.
+- **Konfigurowalny przegląd:** Dostosuj wyświetlacz do swoich potrzeb, niezależnie od tego, czy jesteś zwykłym użytkownikiem, czy profesjonalnym operatorem zarządzającym wieloma kanałami routingu.
 
 
 
 
 
-- Modułowy Interface:** Dodawaj lub usuwaj widżety w zależności od potrzeb: wykresy do przodu, wskaźniki płynności, alerty o stanie węzła itp.
+- **Modułowy Interface:** Dodawaj lub usuwaj widżety w zależności od potrzeb: wykresy do przodu, wskaźniki płynności, alerty o stanie węzła itp.
 
 
 
@@ -469,7 +469,7 @@ Ta sekcja jest szczególnie przydatna dla zaawansowanych użytkowników, którzy
 
 
 
-Sekcja **Peers** zawiera listę wszystkich węzłów Lightning aktualnie połączonych z węzłem użytkownika jako węzły równorzędne. Węzeł równorzędny** jest bezpośrednim połączeniem między węzłami na Lightning Network. Twój węzeł może być połączony z węzłami równorzędnymi nawet bez otwartego kanału (np. tylko do informacji plotkarskich Exchange w sieci), lub oczywiście każdy otwarty kanał automatycznie implikuje podłączonego węzła równorzędnego.
+Sekcja **Peers** zawiera listę wszystkich węzłów Lightning aktualnie połączonych z węzłem użytkownika jako węzły równorzędne. **Węzeł równorzędny** jest bezpośrednim połączeniem między węzłami na Lightning Network. Twój węzeł może być połączony z węzłami równorzędnymi nawet bez otwartego kanału (np. tylko do informacji plotkarskich Exchange w sieci), lub oczywiście każdy otwarty kanał automatycznie implikuje podłączonego węzła równorzędnego.
 
 
 
@@ -483,8 +483,8 @@ W zakładce Rówieśnicy zobaczysz :
 
 
 
-- Kolumny informacyjne:** Interface wyświetla przydatne szczegóły, takie jak stan synchronizacji, typ połączenia (Clearnet lub Tor), ping, odebrane/wysłane satoshi i ilość wymienianych danych.
-- Dodaj peera:** ThunderHub pozwala ręcznie połączyć się z nowym peerem za pomocą przycisku **"Dodaj "** w prawym górnym rogu. Musisz wprowadzić URI węzła (format `<public_key>@<socket>`). Po zatwierdzeniu ThunderHub wysyła odpowiednie polecenie `lncli connect`. Jeśli węzeł jest online i dostępny, zostanie dodany do listy urządzeń równorzędnych.
+- **Kolumny informacyjne:** Interface wyświetla przydatne szczegóły, takie jak stan synchronizacji, typ połączenia (Clearnet lub Tor), ping, odebrane/wysłane satoshi i ilość wymienianych danych.
+- Dodaj peera: ThunderHub pozwala ręcznie połączyć się z nowym peerem za pomocą przycisku **"Dodaj"** w prawym górnym rogu. Musisz wprowadzić URI węzła (format `<public_key>@<socket>`). Po zatwierdzeniu ThunderHub wysyła odpowiednie polecenie `lncli connect`. Jeśli węzeł jest online i dostępny, zostanie dodany do listy urządzeń równorzędnych.
 
 
 
@@ -506,31 +506,31 @@ Oto, co można znaleźć na stronie Kanały:
 
 
 
-- Widok listy kanałów:** Każdy otwarty (lub otwierany/zamykany) kanał jest wyświetlany na liście, zwykle z aliasem zdalnego węzła, całkowitą pojemnością kanału i kolorowym paskiem ilustrującym rozkład płynności lokalnej i zdalnej. ThunderHub używa kodu koloru (często niebieskiego/Green) lub wartości procentowej do wskazania równowagi kanału: na przykład niebieski dla udziału lokalnego, Green dla udziału zdalnego. Jeśli kanał jest idealnie zrównoważony (50/50), pasek będzie miał połowę każdego koloru. Pozwala to na szybkie określenie, które kanały są niezrównoważone (wszystkie niebieskie = prawie wszystkie lokalne, wszystkie Green = prawie wszystkie zdalne).
+- Widok listy kanałów: Każdy otwarty (lub otwierany/zamykany) kanał jest wyświetlany na liście, zwykle z aliasem zdalnego węzła, całkowitą pojemnością kanału i kolorowym paskiem ilustrującym rozkład płynności lokalnej i zdalnej. ThunderHub używa kodu koloru (często niebieskiego/Green) lub wartości procentowej do wskazania równowagi kanału: na przykład niebieski dla udziału lokalnego, Green dla udziału zdalnego. Jeśli kanał jest idealnie zrównoważony (50/50), pasek będzie miał połowę każdego koloru. Pozwala to na szybkie określenie, które kanały są niezrównoważone (wszystkie niebieskie = prawie wszystkie lokalne, wszystkie Green = prawie wszystkie zdalne).
 
 
 
 
 
-- Kolumny informacyjne:** Interface wyświetla szczegółowe kolumny, w tym Status, Dostępne akcje, Informacje o peerze, ID kanału, Pojemność, Aktywność, Opłaty i Saldo z graficznym wyświetlaniem płynności.
+- **Kolumny informacyjne:** Interface wyświetla szczegółowe kolumny, w tym Status, Dostępne akcje, Informacje o peerze, ID kanału, Pojemność, Aktywność, Opłaty i Saldo z graficznym wyświetlaniem płynności.
 
 
 
 
 
-- Konfiguracja wyświetlacza:** Koło zębate w prawym górnym rogu umożliwia dostosowanie wyświetlania kanałów do własnych preferencji.
+- **Konfiguracja wyświetlacza:** Koło zębate w prawym górnym rogu umożliwia dostosowanie wyświetlania kanałów do własnych preferencji.
 
 
 
 
 
-- Status:** Zobaczysz również wskaźniki statusu - np. `Active` (kanał jest otwarty i działa), `Offline` (peer jest odłączony, więc kanał jest chwilowo bezużyteczny), `Pending` (dla otwarć lub zamknięć oczekujących na potwierdzenie On-Chain).
+- **Status:** Zobaczysz również wskaźniki statusu - np. `Active` (kanał jest otwarty i działa), `Offline` (peer jest odłączony, więc kanał jest chwilowo bezużyteczny), `Pending` (dla otwarć lub zamknięć oczekujących na potwierdzenie On-Chain).
 
 
 
 
 
-- Akcje na kanale:** Dla każdego kanału ThunderHub udostępnia przyciski akcji (często w postaci ikon):
+- **Akcje na kanale:** Dla każdego kanału ThunderHub udostępnia przyciski akcji (często w postaci ikon):
 
 
 
@@ -540,9 +540,9 @@ Oto, co można znaleźć na stronie Kanały:
 
 
 
-  - Edytuj opłaty:** Funkcja Interface "Aktualizuj zasady kanału" umożliwia dostosowanie wszystkich parametrów kanału: Opłata podstawowa, Stawka opłaty (w ppm), Delta CLTV, Max HTLC i Min HTLC. Pozwala to na dostosowanie zasad opłat indywidualnie dla każdego kanału, w celu przyciągnięcia (lub zniechęcenia) ruchu routingu. *(Uwaga: ThunderHub nie zastępuje automatycznego narzędzia do zarządzania opłatami, ale do ręcznego dostosowywania jest bardzo skuteczny)*
-  - Kanał zamknięcia (*Close*)**: Interface "Kanał zamknięcia" daje wybór pomiędzy **współpracującym zamknięciem** (domyślnie) lub **wymuszonym zamknięciem** (*Wymuś zamknięcie*) poprzez zdefiniowanie opłat (w Sats/vByte). **Ważne: **W miarę możliwości zawsze preferuj zamknięcie kooperacyjne, aby uniknąć opóźnień w rozliczeniach On-Chain i wyższych opłat. ThunderHub poinformuje Cię, czy peer jest online (możliwa współpraca), czy nie. W przypadku wymuszenia zamknięcia, należy potwierdzić, ponieważ jest to nieodwracalne i spowoduje zamiatanie transakcji z blokadą czasową (zazwyczaj 144 bloki lub ~ 1 dzień na Bitcoin Mainnet).
-  - Otwieranie nowego kanału:** Aby otworzyć nowy kanał, kliknij koło zębate w prawym górnym rogu strony Kanały, a następnie wybierz opcję "Otwórz". Następnie można zainicjować kanał do nowego lub istniejącego urządzenia równorzędnego. Zaletą korzystania z tej strony jest to, że masz przed sobą listę istniejących kanałów, co może pomóc w podjęciu decyzji, gdzie otworzyć nowy kanał.
+- **Edytuj opłaty:** Funkcja Interface "Aktualizuj zasady kanału" umożliwia dostosowanie wszystkich parametrów kanału: Opłata podstawowa, Stawka opłaty (w ppm), Delta CLTV, Max HTLC i Min HTLC. Pozwala to na dostosowanie zasad opłat indywidualnie dla każdego kanału, w celu przyciągnięcia (lub zniechęcenia) ruchu routingu. *(Uwaga: ThunderHub nie zastępuje automatycznego narzędzia do zarządzania opłatami, ale do ręcznego dostosowywania jest bardzo skuteczny)*
+- Kanał zamknięcia (*Close*): Interface "Kanał zamknięcia" daje wybór pomiędzy **współpracującym zamknięciem** (domyślnie) lub **wymuszonym zamknięciem** (*Wymuś zamknięcie*) poprzez zdefiniowanie opłat (w Sats/vByte). **Ważne:** W miarę możliwości zawsze preferuj zamknięcie kooperacyjne, aby uniknąć opóźnień w rozliczeniach On-Chain i wyższych opłat. ThunderHub poinformuje Cię, czy peer jest online (możliwa współpraca), czy nie. W przypadku wymuszenia zamknięcia, należy potwierdzić, ponieważ jest to nieodwracalne i spowoduje zamiatanie transakcji z blokadą czasową (zazwyczaj 144 bloki lub ~ 1 dzień na Bitcoin Mainnet).
+- **Otwieranie nowego kanału:** Aby otworzyć nowy kanał, kliknij koło zębate w prawym górnym rogu strony Kanały, a następnie wybierz opcję "Otwórz". Następnie można zainicjować kanał do nowego lub istniejącego urządzenia równorzędnego. Zaletą korzystania z tej strony jest to, że masz przed sobą listę istniejących kanałów, co może pomóc w podjęciu decyzji, gdzie otworzyć nowy kanał.
 
 
 
@@ -568,66 +568,66 @@ ThunderHub znacznie ułatwia tę operację, która w przeciwnym razie byłaby ż
 
 
 
-- Początkowy widok kanału:** Po wejściu do Rebalance, ThunderHub wyświetla listę kanałów, ze wskaźnikiem salda dla każdego z nich (podobnym do tego na stronie Kanały). Od razu widać, które kanały są niezrównoważone. ThunderHub może sortować kanały w kolejności rosnącej równowagi, tak aby najbardziej niezrównoważone kanały wyróżniały się na górze listy (0,0 oznacza całkowicie lokalne lub zdalne).
+- **Początkowy widok kanału:** Po wejściu do Rebalance, ThunderHub wyświetla listę kanałów, ze wskaźnikiem salda dla każdego z nich (podobnym do tego na stronie Kanały). Od razu widać, które kanały są niezrównoważone. ThunderHub może sortować kanały w kolejności rosnącej równowagi, tak aby najbardziej niezrównoważone kanały wyróżniały się na górze listy (0,0 oznacza całkowicie lokalne lub zdalne).
 
 
 
 
 
-- Wybór urządzeń równorzędnych:** Interface ułatwia wybór wychodzących i przychodzących urządzeń równorzędnych do równoważenia.
+- **Wybór urządzeń równorzędnych:** Interface ułatwia wybór wychodzących i przychodzących urządzeń równorzędnych do równoważenia.
 
 
 
 
 
-- Ustawienia parametrów:** Można ustawić :
+- **Ustawienia parametrów:** Można ustawić :
   - **Maksymalna opłata** (w Sats i ppm), którą jesteś skłonny zapłacić
-  - Kwota do przywrócenia równowagi** z opcją "Stała" lub "Docelowa"
-  - Węzły, których należy unikać** podczas routingu
-  - Maksymalny czas próby** wyszukiwania trasy
+- **Kwota do przywrócenia równowagi** z opcją "Stała" lub "Docelowa"
+- **Węzły, których należy unikać** podczas routingu
+- **Maksymalny czas próby** wyszukiwania trasy
 
 
 
 
 
-- Wybierz kanał **źródłowy****: Najpierw wybierz **kanał wychodzący (źródłowy)**, tj. kanał, z którego masz zbyt dużą płynność lokalną, aby się przenieść. W praktyce jest to kanał, w którym lokalny udział jest wysoki (> 50%). Wyobraźmy sobie kanał A z 1 000 000 satelitów, z których 900 000 to satelity lokalne - dobry kandydat do wysłania satelitów gdzie indziej. Klikając ten kanał A jako "wychodzący", ThunderHub oznacza go jako źródło.
+- Wybierz kanał **źródłowy**: Najpierw wybierz **kanał wychodzący (źródłowy)**, tj. kanał, z którego masz zbyt dużą płynność lokalną, aby się przenieść. W praktyce jest to kanał, w którym lokalny udział jest wysoki (> 50%). Wyobraźmy sobie kanał A z 1 000 000 satelitów, z których 900 000 to satelity lokalne - dobry kandydat do wysłania satelitów gdzie indziej. Klikając ten kanał A jako "wychodzący", ThunderHub oznacza go jako źródło.
 
 
 
 
 
-- Wybierz **kanał docelowy****: Następnie należy wybrać **kanał przychodzący (docelowy)**, który musi otrzymać płynność. Zazwyczaj będzie to kanał, w którym jest odwrotnie - większość funduszy znajduje się po drugiej stronie (np. tylko 100 000 lokalnych satelitów z 1 000 000). ThunderHub, po wybraniu kanału źródłowego, posortuje inne kanały w odwrotnej kolejności (malejące saldo), aby pomóc zidentyfikować najbardziej komplementarne kanały. Wybierz kanał B, który ma miejsce po stronie lokalnej. ThunderHub wyświetli wtedy wyraźnie, które dwa kanały zostały wybrane (źródłowy A i docelowy B).
+- Wybierz **kanał docelowy**: Następnie należy wybrać **kanał przychodzący (docelowy)**, który musi otrzymać płynność. Zazwyczaj będzie to kanał, w którym jest odwrotnie - większość funduszy znajduje się po drugiej stronie (np. tylko 100 000 lokalnych satelitów z 1 000 000). ThunderHub, po wybraniu kanału źródłowego, posortuje inne kanały w odwrotnej kolejności (malejące saldo), aby pomóc zidentyfikować najbardziej komplementarne kanały. Wybierz kanał B, który ma miejsce po stronie lokalnej. ThunderHub wyświetli wtedy wyraźnie, które dwa kanały zostały wybrane (źródłowy A i docelowy B).
 
 
 
 
 
-- Ustaw kwotę opłaty i tolerancję:** Formularz umożliwia wprowadzenie :
+- **Ustaw kwotę opłaty i tolerancję:** Formularz umożliwia wprowadzenie :
 
 
 
 
 
-  - Kwota** do zrównoważenia (w Sats). Często wybieramy kwotę równą temu, co zrównoważyłoby oba kanały przy \~50/50. ThunderHub może na przykład wstępnie wypełnić połowę nadwyżki pojemności kanału źródłowego.
+- **Kwota** do zrównoważenia (w Sats). Często wybieramy kwotę równą temu, co zrównoważyłoby oba kanały przy \~50/50. ThunderHub może na przykład wstępnie wypełnić połowę nadwyżki pojemności kanału źródłowego.
   - **Maksymalna opłata**, jaką użytkownik jest skłonny zapłacić za tę operację (opcjonalnie). Opłata ta jest wyrażona w Sats (całkowity koszt routingu okrężnego). Jeśli pozostawisz to pole puste, ThunderHub wyszuka ścieżkę niezależnie od kosztu, co generalnie nie jest wskazane (lepiej ustawić limit, np. 10 Sats dla małego rebalansu lub maksymalną wartość ppm).
 
 
 
 
 
-- Znajdź trasę:** Kliknij przycisk, aby znaleźć trasę. ThunderHub odpytuje LND, aby obliczyć trasę z kanału źródłowego przez sieć do własnego kanału docelowego. Jeśli znajdzie możliwą trasę, która spełnia kryteria opłaty, wyświetli ją ze szczegółami dotyczącymi przeskoków i kosztu opłaty. Na przykład, może wskazać, że znalazł ścieżkę z 3 przeskokami i łączną opłatą 2 Sats.
+- **Znajdź trasę:** Kliknij przycisk, aby znaleźć trasę. ThunderHub odpytuje LND, aby obliczyć trasę z kanału źródłowego przez sieć do własnego kanału docelowego. Jeśli znajdzie możliwą trasę, która spełnia kryteria opłaty, wyświetli ją ze szczegółami dotyczącymi przeskoków i kosztu opłaty. Na przykład, może wskazać, że znalazł ścieżkę z 3 przeskokami i łączną opłatą 2 Sats.
 
 
 
 
 
-- Rozpocznij równoważenie:** Jeśli jesteś zadowolony z proponowanej trasy, kliknij **Balance Channel**. ThunderHub zainicjuje płatność cykliczną za pośrednictwem LND. Jeśli płatność się powiedzie, zobaczysz powiadomienie o powodzeniu, a salda kanałów A i B zostaną zmodyfikowane w czasie rzeczywistym. ThunderHub zaktualizuje wskaźnik salda dla tych kanałów (w idealnym przypadku będą one bardziej zielone niż wcześniej, wskazując na lepsze saldo).
+- **Rozpocznij równoważenie:** Jeśli jesteś zadowolony z proponowanej trasy, kliknij **Balance Channel**. ThunderHub zainicjuje płatność cykliczną za pośrednictwem LND. Jeśli płatność się powiedzie, zobaczysz powiadomienie o powodzeniu, a salda kanałów A i B zostaną zmodyfikowane w czasie rzeczywistym. ThunderHub zaktualizuje wskaźnik salda dla tych kanałów (w idealnym przypadku będą one bardziej zielone niż wcześniej, wskazując na lepsze saldo).
 
 
 
 
 
-- Dostosowania i iteracje:** Jeśli trasa nie zostanie znaleziona przy pierwszej próbie (lub jeśli jest zbyt droga), można dostosować parametry:
+- **Dostosowania i iteracje:** Jeśli trasa nie zostanie znaleziona przy pierwszej próbie (lub jeśli jest zbyt droga), można dostosować parametry:
 
 
 
@@ -666,7 +666,7 @@ W tej zakładce znajdują się :
 
 
 
-- Wykres Invoice:** W prawym górnym rogu znajduje się wykres przedstawiający ewolucję otrzymanych faktur w czasie, umożliwiający wizualizację aktywności węzła.
+- Wykres **Invoice**: W prawym górnym rogu znajduje się wykres przedstawiający ewolucję otrzymanych faktur w czasie, umożliwiający wizualizację aktywności węzła.
 
 
 
@@ -708,13 +708,13 @@ W Forwards, ThunderHub prezentuje :
 
 
 
-- Filtry i opcje wyświetlania:** W prawym górnym rogu filtry umożliwiają sortowanie danych według dnia/tygodnia/miesiąca/roku oraz wybór między wyświetlaniem graficznym lub tabelarycznym.
+- **Filtry i opcje wyświetlania:** W prawym górnym rogu filtry umożliwiają sortowanie danych według dnia/tygodnia/miesiąca/roku oraz wybór między wyświetlaniem graficznym lub tabelarycznym.
 
 
 
 
 
-- Komunikat o aktywności:** Jeśli w wybranym okresie nie wykonano routingu, Interface wyświetli komunikat "No forwards for this period", jak pokazano w tym przykładzie.
+- **Komunikat o aktywności:** Jeśli w wybranym okresie nie wykonano routingu, Interface wyświetli komunikat "No forwards for this period", jak pokazano w tym przykładzie.
 
 
 
@@ -736,7 +736,7 @@ W Forwards, ThunderHub prezentuje :
 
 
 
-- Zagregowane statystyki**: ThunderHub oblicza i wyświetla w górnej części strony sumy i statystyki w danym okresie (np. ostatnie 24 godziny lub 7 dni itp., czasami konfigurowalne).
+- **Zagregowane statystyki**: ThunderHub oblicza i wyświetla w górnej części strony sumy i statystyki w danym okresie (np. ostatnie 24 godziny lub 7 dni itp., czasami konfigurowalne).
 
 
 
@@ -762,19 +762,19 @@ W Chain znajdziesz :
 
 
 
-- Saldo On-Chain :** Wyświetla całkowite saldo BTC dostępne w Wallet LND.
+- Saldo On-Chain: **Wyświetla całkowite saldo BTC dostępne w Wallet LND.**
 
 
 
 
 
-- Lista UTXO:** Wyświetl wszystkie niewydane produkty (UTXO) z kwotą, potwierdzeniami, Address i formatem dla każdego produktu.
+- **Lista UTXO:** Wyświetl wszystkie niewydane produkty (UTXO) z kwotą, potwierdzeniami, Address i formatem dla każdego produktu.
 
 
 
 
 
-- Historia transakcji:** Szczegółowa tabela wszystkich transakcji Bitcoin z typem (wejście/wyjście), datą, kwotą, opłatami, potwierdzeniami, blokiem włączenia, adresami i txid.
+- **Historia transakcji:** Szczegółowa tabela wszystkich transakcji Bitcoin z typem (wejście/wyjście), datą, kwotą, opłatami, potwierdzeniami, blokiem włączenia, adresami i txid.
 
 
 
@@ -796,7 +796,7 @@ W ThunderHub sekcja Amboss umożliwia **połączenie** węzła z kontem Amboss:
 
 
 
-- Ghost Address:** Skonfiguruj **spersonalizowany Lightning Address** dla swojego węzła, ułatwiając płatności przychodzące.
+- **Ghost Address:** Skonfiguruj **spersonalizowany Lightning Address** dla swojego węzła, ułatwiając płatności przychodzące.
 
 
 
@@ -808,13 +808,13 @@ W ThunderHub sekcja Amboss umożliwia **połączenie** węzła z kontem Amboss:
 
 
 
-- Kontrole zdrowia:** Aktywuj **Amboss Healthcheck = Yes**, aby twój węzeł wysyłał regularne pingi do Amboss. Otrzymasz powiadomienia, jeśli twój węzeł wydaje się być offline.
+- Kontrole zdrowia: Aktywuj **Amboss Healthcheck = Yes**, aby twój węzeł wysyłał regularne pingi do Amboss. Otrzymasz powiadomienia, jeśli twój węzeł wydaje się być offline.
 
 
 
 
 
-- Inne funkcje:** Automatyczne wypychanie salda, **integracja Magma/Hydro** (rynek płynności) i dostęp do szczegółowych statystyk wydajności.
+- **Inne funkcje:** Automatyczne wypychanie salda, **integracja Magma/Hydro** (rynek płynności) i dostęp do szczegółowych statystyk wydajności.
 
 
 
@@ -836,16 +836,16 @@ Sekcja **Narzędzia** grupuje różne zaawansowane narzędzia do zarządzania w�
 
 
 
-- Kopie zapasowe:** Ręczne zarządzanie kopiami zapasowymi kanałów (SCB). ThunderHub umożliwia **pobranie pełnego pliku kopii zapasowej** kanałów (opcja "Kopia zapasowa wszystkich kanałów -> Pobierz"). Przechowuj ten plik `channel-all.bak` w bezpiecznym miejscu - jest on niezbędny do odzyskania środków w przypadku awarii. Możesz również **zaimportować** plik kopii zapasowej podczas ponownego wdrażania węzła.
+- **Kopie zapasowe:** Ręczne zarządzanie kopiami zapasowymi kanałów (SCB). ThunderHub umożliwia **pobranie pełnego pliku kopii zapasowej** kanałów (opcja "Kopia zapasowa wszystkich kanałów -> Pobierz"). Przechowuj ten plik `channel-all.bak` w bezpiecznym miejscu - jest on niezbędny do odzyskania środków w przypadku awarii. Możesz również **zaimportować** plik kopii zapasowej podczas ponownego wdrażania węzła.
 
 
 
 
 
-- Księgowość:** Narzędzie do eksportowania raportów finansowych, w tym zarobionych/zapłaconych opłat i wolumenów kierowanych w danym okresie.
-- Podpisane wiadomości:** **Podpisz lub zweryfikuj wiadomości** za pomocą węzła, aby udowodnić Ownership węzła Lightning za pomocą podpisu kryptograficznego.
+- **Księgowość:** Narzędzie do eksportowania raportów finansowych, w tym zarobionych/zapłaconych opłat i wolumenów kierowanych w danym okresie.
+- **Podpisane wiadomości:** Podpisz lub zweryfikuj wiadomości za pomocą węzła, aby udowodnić Ownership węzła Lightning za pomocą podpisu kryptograficznego.
 - Makarony (sekcja "Piekarnia"):** Zarządzaj makaronami LND**, aby utworzyć spersonalizowany dostęp. "Piekarnia" Interface pozwala precyzyjnie wybrać każde uprawnienie: "Dodaj lub usuń Peers", "Utwórz Adresy Łańcuchowe", "Utwórz Faktury", "Utwórz Makarony", "Pochodne Klucze", "Uzyskaj Klucze Dostępu", "Uzyskaj Transakcje Łańcuchowe", "Uzyskaj Faktury", "Uzyskaj Informacje Wallet", "Get Payments", "Get Peers", "Pay Invoices", "Revoke Access Ids", "Send to Chain Addresses", "Sign bytes", "Sign Messages", "Stop daemon", "Verify bytes signature", "Verify messages" itd. Każde uprawnienie można aktywować indywidualnie za pomocą przycisków "Tak/Nie", aby utworzyć makaron dostosowany do indywidualnych potrzeb.
-- Informacje o systemie:** Wyświetlanie wersji Wallet i aktywowanych RPC.
+- **Informacje o systemie:** Wyświetlanie wersji Wallet i aktywowanych RPC.
 
 
 
@@ -871,9 +871,9 @@ Proces ten jest prosty:
 
 
 
-- Kwota**: Określ kwotę do wymiany
-- Address** : Wprowadź Bitcoin odbiór Address
-- Wykonanie**: ThunderHub komunikuje się z Boltz, aby automatycznie przetwarzać Exchange
+- **Kwota**: Określ kwotę do wymiany
+- **Address**: Wprowadź Bitcoin odbiór Address
+- **Wykonanie**: ThunderHub komunikuje się z Boltz, aby automatycznie przetwarzać Exchange
 
 
 
@@ -940,6 +940,6 @@ ThunderHub demokratyzuje zaawansowane zarządzanie węzłami Lightning, udostęp
 
 
 
-- Oficjalna strona:** [thunderhub.io](https://thunderhub.io)
-- Dokumentacja:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- Kod źródłowy GitHub:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Oficjalna strona:** [thunderhub.io](https://thunderhub.io)
+- **Dokumentacja:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **Kod źródłowy GitHub:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

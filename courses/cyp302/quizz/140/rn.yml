@@ -1,0 +1,9 @@
+question: Ni ubuhe kamere k’ingorane y’ugucapura ibintu (factorization) ishingiye ku mutekano w’ibikoresho vy’ubuhinga bwa none bitagira aho bihuriye nka RSA?
+answer: Gucapura umubare mu bice bibiri binini cane vy'intango
+wrong_answers:
+  - Gusenyura umubare mu bice bikurikirana vya 2
+  - Kugabanya umubare ku bigabanywa vyawo bito cane
+  - Gukubitisha imibare ibiri minini y'intango kugira ngo ubone igicuruzwa
+explanation: |
+  Umutekano wa RSA ushingiye ku ngorane zo gucapura umubare munini (igisubizo c’imibare ibiri minini y’intango) mu bice bibiri vy’intango vyawo, igikorwa hafi kidashoboka ata rufunguzo rw’ibanga.
+reviewed: false

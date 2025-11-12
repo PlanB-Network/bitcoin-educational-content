@@ -1,12 +1,12 @@
-question: Hva er sannsynligheten for at noen ved et uhell gjetter listen din på 12 eller 24 ord i en Bitcoin-lommebok?
-answer: Astronomisk lav
+question: Hva er en multisig-lommebok?
+answer: Et sett med lommebøker som krever flere signaturer for å utføre en transaksjon
 wrong_answers:
-  - Høy
-  - Moderat
-  - Lav
-explanation: >-
-  Takket være kryptografien som brukes til å opprette lommeboken, er sannsynligheten
-  for at noen ved et uhell gjetter listen din på 12 eller 24 ord astronomisk lav.
-  Det er som å finne det rette tallet mellom 1 og $2^256$, som nesten tilsvarer
-  å finne et definert atom i universet.
+  - En lommebok som krever en enkelt signatur for å utføre en transaksjon
+  - En lommebok som ikke krever signaturer for å utføre en transaksjon
+  - En lommebok som krever en fysisk signatur for å utføre en transaksjon
+explanation: |
+  En multisig-lommebok er en type Bitcoin-lommebok som krever flere
+  signaturer for å utføre en transaksjon. Dette legger til et ekstra lag med sikkerhet, ettersom det
+  betyr at en enkelt person ikke kan utføre en transaksjon uten godkjenning fra
+  andre.
 reviewed: true

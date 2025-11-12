@@ -1,0 +1,9 @@
+question: Qual é o número predefinido de ligações de saída que um nó Bitcoin core mantém?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  O Bitcoin core mantém 10 conexões de saída por padrão (8 de retransmissão total e 2 somente de retransmissão em bloco).
+reviewed: true

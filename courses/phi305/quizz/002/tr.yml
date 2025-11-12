@@ -1,0 +1,9 @@
+question: Spinoza'nın felsefesinin amacı nedir?
+answer: Özgürlüğe ulaşmak.
+wrong_answers:
+  - Bilimsel bilgi.
+  - Tarihsel bilgi.
+  - Felsefi ve ahlaki bilgi.
+explanation: |
+  Spinoza'nın felsefesi nihayetinde bilgi ve anlayış yoluyla özgürlüğe ulaşmayı amaçlar. Ona göre gerçek özgürlük, bizi belirleyen nedenleri anlamaktan ve zorunluluğun rasyonel kabulünden gelir.
+reviewed: false

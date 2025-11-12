@@ -1,11 +1,8 @@
-question: Vad handlade blockkriget 2017 om?
-answer: En konflikt om huruvida blockstorleken ska ökas för att öka transaktionskapaciteten.
+question: Vad är Hashrate?
+answer: Antalet Hash-beräkningar som en Mining-enhet kan utföra per sekund för att lösa Proof of Work.
 wrong_answers:
-  - En konflikt om huruvida man ska minska blockstorleken för att minska transaktionskapaciteten.
-  - En konflikt om huruvida Block reward ska höjas för att stimulera gruvarbetare.
-  - En konflikt om huruvida Block reward ska sänkas för att avskräcka gruvarbetare.
-explanation: |
-  Blockkriget under 2017 var en konflikt om huruvida man skulle
-  modifiera Bitcoin genom att öka blockstorleken för att utöka
-  transaktionskapacitet.
+  - Den hastighet med vilken en Mining-enhet kan lösa Proof of Work.
+  - Det totala antalet gruvarbetare i Bitcoin-nätverket.
+  - Den totala mängden bitcoins som utvinns genom att utföra ett visst antal försök per sekund att lösa Proof of Work.
+explanation: >-
 reviewed: true

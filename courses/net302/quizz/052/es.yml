@@ -1,0 +1,9 @@
+question: ¿Qué información fundamental debe registrar una pasarela NAT para cada flujo de red?
+answer: La correspondencia entre la IP interna y la IP pública
+wrong_answers:
+  - Tipo de cable de red utilizado
+  - La correspondencia entre IP Address y el servidor DNS
+  - Tipo de protocolo de red utilizado
+explanation: |
+  NAT se basa en una tabla de traducción para mantener la correspondencia que rastrea la asignación entre direcciones internas y públicas para garantizar que los paquetes se enrutan correctamente.
+reviewed: false

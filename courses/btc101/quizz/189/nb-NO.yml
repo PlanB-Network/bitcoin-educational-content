@@ -1,9 +1,8 @@
-question: Hvilket land har gjort Bitcoin til lovlig betalingsmiddel siden 2021?
-answer: El Salvador
+question: Hva er Swiss Bitcoin Pay?
+answer: En løsning for amatørforhandlere for å akseptere Bitcoin
 wrong_answers:
-  - Frankrike
-  - USA
-  - Kina
+  - En sveitsisk bank som aksepterer Bitcoin
+  - En sveitsisk Bitcoin-børs
+  - Et sveitsisk Bitcoin-gruveselskap
 explanation: >-
-  El Salvador har gjort Bitcoin til lovlig betalingsmiddel siden 2021, noe som bidrar til utviklingen av Bitcoin-økonomien i regionen.
-reviewed: false
+  Swiss Bitcoin Pay er en løsning for amatørforhandlere for å akseptere Bitcoin. Andre løsninger inkluderer OpenNode for enkle nettbaserte virksomheter og BTCpay Server for store strukturer eller lidenskapelige bitcoinere.

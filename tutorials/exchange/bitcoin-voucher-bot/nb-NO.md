@@ -4,9 +4,9 @@ description: En Telegram-bot for å kjøpe Bitcoin i konfidensialitet
 ---
 ![image](assets/cover.webp)
 
-_Denne opplæringen ble skrevet av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Denne veiledningen er skrevet av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Innledning
+## Introduksjon
 
 BitcoinVoucherBot er et verktøy som Bitcoins kan kjøpes i Exchange for euro.
 
@@ -32,7 +32,7 @@ I Telegram-chatten forbereder vi en bestilling, med en bankoverføring betaler v
 
 Aktivering er en enkel engangsoperasjon. Fra Telegram, søk etter _@BitcoinVoucherBot_, og så snart du kommer til Bot's chat, skiller en stor _Start / Start_-knapp seg ut nederst. Operasjonen får Bot til å svare, som presenterer en meny med de viktigste kommandoene som er tilgjengelige for den. De første velkomstmeldingene vises også, og vi anbefaler at du leser dem nøye.
 
-**Advarsel **: det er flere svindlere som utgjør seg som original VoucherBot. Hvis du ikke er sikker på søket via Telegram, kan du få tilgang til BitcoinVoucherBot-lenken fra [offisiell nettside] (https://www.bitcoinvoucherbot.com/)
+**Advarsel**: det finnes flere svindlere som utgir seg for å være den originale VoucherBot. Hvis du ikke er sikker på søket via Telegram, gå til BitcoinVoucherBot-lenken fra [offisiell side](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Viktige operasjoner inkluderer:
 - _/fees_: en kommando for å sjekke nettverksavgifter. For å evaluere dem er det alltid best å stole på Mempool.space.
 - _/support_: ved behov dukker det opp kontakter for å rapportere problemer til supportteamet.
 
-# Bitcoin innkjøpsprosedyre
+## Prosedyre for kjøp av Bitcoin
 
-## Klargjøring av ordre
+### Forberedelse av bestillingen
 
 Klikk på _/kjøpe_ i kommandomenyen
 
@@ -97,7 +97,7 @@ Hvis alt er i orden, fortsetter du ved å klikke på _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Betaling
+### Betaling
 
 Etter noen få øyeblikk, som er nødvendig for å behandle dataene, svarer VoucherBot med en melding som inneholder alle detaljene som er nødvendige for å fullføre bestillingen. Avhengig av hva banken din krever, er den relevante informasjonen:
 
@@ -124,7 +124,7 @@ Vær oppmerksom på dette:
 - for alle behov, Bitcoin VoucherBot har en utmerket [support] (https://t.me/BitcoinVoucherGroup) service på Telegram.
 
 ---
-## Forløsning
+### Innløsning
 
 Så snart betalingen er vellykket, sender Bitcoin VoucherBot kupongen direkte inn i chatten. Lynkupongen er i form av en QR-kode, trykt på en oransje bakgrunn.
 
@@ -139,7 +139,7 @@ Det er alle dataene som trengs for å innløse den:
 
 Du kan løse inn kupongen ved å ramme inn QR-koden med skannefunksjonen på en kompatibel Wallet Lightning Network, eller via LNURL, som også vises under QR-koden.
 
-I denne veiledningen brukte vi Wallet Of Satoshi, ved hjelp av skannefunksjonen som aktiveres med _Send_-tasten
+For denne veiledningen brukte vi Wallet Of Satoshi, med skannefunksjonen aktivert av _Send_-knappen.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Med mobilkameraet aktivert, rammer du inn QR-koden i chatten, og åpner Telegram
 
 ![image](assets/it/34.webp)
 
-Før du fortsetter, Wallet Av Satoshi fra en bekreftelsesskjerm som inkluderer beløpet, som nøyaktig samsvarer med beløpet som er uttrykt på kupongen og, som en beskrivelse, BitcoinVoucherBot. For å utbetale kupongen, klikker du bare på _Motta_
+Før du fortsetter, viser Wallet Of Satoshi en bekreftelsesskjerm som inkluderer beløpet, som nøyaktig tilsvarer det som er angitt på kupongen, og som beskrivelse, BitcoinVoucherBot. For å løse inn kupongen er det bare å klikke på _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet Av Satoshi prosesser i noen få øyeblikk
+Wallet Of Satoshi behandler i noen øyeblikk.
 
 ![image](assets/it/36.webp)
 
 og til slutt rapporteres innsamlingen og er umiddelbart tilgjengelig i Wallet-saldoen.
 
-**Wallet i Satoshi er en depotapp: umiddelbart etter at kupongen er innløst, anbefales det å flytte Sats til en Wallet som ikke er depot
+**Wallet of Satoshi er en forvarings-app: rett etter innløsning av kupongen anbefales det å flytte satsene til en ikke-forvarings-lommebok.**
 
 ![image](assets/it/37.webp)
 

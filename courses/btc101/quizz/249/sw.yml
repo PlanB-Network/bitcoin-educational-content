@@ -1,8 +1,8 @@
-question: Je, ni ipi mojawapo ya faida zinazoweza kutokea za kukubali teknolojia mpya kama vile Bitcoin?
-answer: Inaweza generate uchumi mkubwa wa kiwango duniani kote.
+question: Je, ni moja ya matokeo kuu ya Bitcoin kwenye mfumo wa benki?
+answer: Inaruhusu ukombozi kutoka kwa mfumo wa benki.
 wrong_answers:
-  - Inaweza kusababisha kuporomoka kwa uchumi wa dunia.
-  - Inaweza kusababisha kupungua kwa akili ya mwanadamu.
-  - Inaweza kusababisha kuondolewa kwa kazi zote.
+  - Inaruhusu udhibiti wa mfumo wa benki.
+  - Inaruhusu kuondoa mfumo wa benki.
+  - Inaruhusu ufisadi wa mfumo wa benki.
 explanation: >-
 reviewed: true

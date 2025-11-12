@@ -1,0 +1,9 @@
+question: Ni ibihe bikoresho vy’ukwiyakira bishobora gushirwako biciye ku Umbrel?
+answer: Igicu gikurikira
+wrong_answers:
+  - Umuduga wa Google
+  - Dropbox
+  - Umuduga umwe
+explanation: |
+  Umbrel itanga App Store ifise ubuhinga bwo kwiyakira, nka Nextcloud, bwo kubika no guhuza amadosiye wewe nyene.
+reviewed: true

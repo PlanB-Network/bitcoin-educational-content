@@ -1,0 +1,5 @@
+---
+term: BIP0068
+---
+
+NSequence` alanı aracılığıyla göreceli kilit sürelerini kullanma yeteneği tanıtıldı. Bu, bir işlemin bir bloğa dahil edilmeden önce göreceli bir gecikme belirtmesine olanak tanır. Bu gecikme blok sayısı cinsinden ya da 512 saniyenin katı (yani gerçek zaman) olarak tanımlanabilir. NSequence` alanının bu yeni yorumunun yalnızca `nVersion` alanının `2`den büyük veya eşit olması durumunda geçerli olduğunu unutmayın. NSequence` alanının bu yorumu Bitcoin'in mutabakat kuralları seviyesinde gerçekleşir. Göreceli zaman kilidi, önceki bir işlemin kabulünden itibaren bir gecikme belirlerken, mutlak zaman kilidi, işlemin bir bloğa dahil edilemeyeceği kesin bir anı belirtir. BIP68, BIP9 yöntemi kullanılarak ilk kez etkinleştirilen BIP112 ve BIP113 ile birlikte 4 Temmuz 2016 tarihinde bir Soft Fork aracılığıyla tanıtıldı.

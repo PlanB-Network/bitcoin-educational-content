@@ -5,5 +5,5 @@ wrong_answers:
   - Because exporting data automatically completes your tax return with no review.
   - Because CSV files eliminate the need to track cost basis.
 explanation: |
-  Having a digital record in a common format allows for seamless integration into accounting systems, helps maintain audit trails, and supports accurate tax and compliance reporting.
-reviewed: false
+  Having a digital record in a common format enables seamless integration into accounting systems, maintains audit trails, and supports accurate tax and compliance reporting.
+reviewed: true

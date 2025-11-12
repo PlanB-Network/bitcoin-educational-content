@@ -708,7 +708,7 @@ La conexión Tor es necesaria si quieres acceder a tu nodo fuera de tu red local
 Para más información sobre el software Sparrow Wallet, disponemos de un tutorial completo:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Conclusión
 
 

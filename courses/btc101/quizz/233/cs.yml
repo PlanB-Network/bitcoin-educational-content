@@ -1,12 +1,13 @@
-question: Jaký je hlavní účel Lightning Network?
-answer: Umožnit mikrotransakce.
+question: Jaký je jeden z potenciálních přínosů Lightning Network pro tvůrce obsahu?
+answer: Byli by motivováni vytvářet kvalitní obsah, aby si udrželi pozornost uživatelů.
 wrong_answers:
-  - Zvýšit hodnotu Bitcoinu.
-  - Nahradit protokol Bitcoinu.
-  - Vytvořit novou kryptoměnu.
-explanation: >-
-  Lightning Network je druhovrstvové řešení protokolu Bitcoin,
-  které si klade za cíl umožnit mikrotransakce, což jsou transakce velmi nízké hodnoty,
-  které by jinak byly nepraktické kvůli vysokým poplatkům a dlouhým časům potvrzení
-  na blockchainu Bitcoinu.
+  - Mohli by si účtovat více za svůj obsah.
+  - Mohli by oslovit širší publikum.
+  - Mohli by vytvářet obsah rychleji, aby si udrželi pozornost uživatelů.
+explanation: |
+  S Lightning Network by tvůrci obsahu byli motivováni
+  vytvářet kvalitní obsah, aby si udrželi pozornost uživatelů.
+  Uživatelé by na oplátku platili pouze za obsah, který
+  spotřebují, čímž by se eliminovaly předplatné poplatky
+  zaplacené předem.
 reviewed: true

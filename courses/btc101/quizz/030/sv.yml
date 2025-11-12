@@ -1,12 +1,12 @@
-question: Vad är den största fördelen med fiatvalutor?
-answer: De är lätt delbara.
+question: Vilka är de enheter som ansvarar för att utfärda förvaltarvalutor?
+answer: Centralbanker.
 wrong_answers:
-  - De styrs av ett centralt parti.
-  - De är inte lätta att transportera.
-  - De är effektiva och behåller sitt värde över tid.
+  - Affärsbanker.
+  - Regeringar.
+  - Privata institutioner.
 explanation: |
-  Fiatvalutor, såsom dollar och euro, är mycket
-  Liquid och lätta att transportera eftersom de nu till största delen är
-  digitala. Deras värde urholkas dock ständigt av den
-  monetär inflation.
+  Centralbanker är de enheter som ansvarar för att ge ut en
+  förvaltarvaluta. De beslutar om penningpolitiken och
+  bestämmer hur mycket pengar som ska sättas i omlopp eller
+  tryckas.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Đơn vị dữ liệu nào chạy qua Transport Layer cho TCP?
+answer: Phân khúc
+wrong_answers:
+  - Datagram
+  - Khung
+  - Suối
+explanation: |
+  Tại Transport Layer với TCP, đơn vị dữ liệu được gọi là phân đoạn, trong khi UDP sử dụng thuật ngữ gói.
+reviewed: false

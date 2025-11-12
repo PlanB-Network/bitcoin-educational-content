@@ -1,8 +1,8 @@
-question: Sınırlı Supply ve Halving süreci dikkate alındığında Bitcoin'ın genel eğilimi nedir?
-answer: Genel bir yükseliş eğilimi.
+question: İtibari para birimleri ile karşılaştırıldığında, Bitcoin nasıl algılanıyor?
+answer: Paralel bir ekonomi olarak.
 wrong_answers:
-  - Genel bir düşüş eğilimi.
-  - Hiç trend yok.
-  - Fark edilebilir bir model olmaksızın çılgınca dalgalanan bir trend.
+  - Bir ikame ekonomisi olarak.
+  - Endüstriyel bir ekonomi olarak.
+  - Üçüncül bir ekonomi olarak.
 explanation: >-
 reviewed: true

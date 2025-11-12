@@ -1,11 +1,11 @@
-question: Mikä on yksi menetelmä turvata bitcoinsi pitkällä aikavälillä?
-answer: Kaiverruttamalla muistisanesi kestävälle materiaalille, kuten teräkselle.
+question: Mikä on yksilön vastuun merkitys Bitcoinissa?
+answer: Se on ratkaisevan tärkeää, koska olet vastuussa varmuuskopioista.
 wrong_answers:
-  - Säilyttämällä niitä kuumassa lompakossa.
-  - Pitämällä niitä vaihtoalustalla.
-  - Jakamalla muistisanesi työkaverin kanssa.
+  - Se on olennaista, koska sinun täytyy louhia bitcoineja.
+  - Se on olennaista bitcoineja ostaessa.
+  - Se on ratkaisevan tärkeää, koska olet vastuussa lompakon teemasta.
 explanation: |
-  Muistisanesi kaiverruttaminen kestävälle materiaalille, kuten
-  teräkselle, luo fyysisen varmuuskopion avaimistasi, joka on
-  kestävä sekä vesivahinkoja että tulipaloa vastaan, näin ollen turvaten bitcoinsisi pitkällä aikavälillä.
+  Bitcoinissa taloudellinen suvereniteetti kulkee käsi kädessä
+  yksilön vastuun kanssa, koska sinun täytyy itse huolehtia
+  varojesi säilytyksestä noudattamalla suositeltuja varmuuskopiointimenettelyjä.
 reviewed: true

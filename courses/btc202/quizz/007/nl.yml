@@ -1,0 +1,9 @@
+question: Wat moet een wallet doen om de Blockchain status te zien?
+answer: Verbinding maken met een lokale of externe node
+wrong_answers:
+  - Vraag andere wallets in het netwerk
+  - Netwerkminers interviewen
+  - Verbinding maken met een online exchange platform
+explanation: |
+  Een wallet moet verbinding maken met een node om toegang te krijgen tot de Blockchain status en zijn transacties uit te zenden.
+reviewed: true

@@ -56,55 +56,55 @@ Evo su neke od ključnih karakteristika OPNsense-a:
 
 
 
-- Firewall i NAT**: OPNsense pruža naprednu funkcionalnost stateful firewall-a sa stateful filtriranjem, kao i mogućnosti prevođenja mreže Address (NAT).
+- **Firewall i NAT**: OPNsense pruža naprednu funkcionalnost stateful firewall-a sa stateful filtriranjem, kao i mogućnosti prevođenja mreže Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense može biti konfigurisan da upravlja DNS i DHCP uslugama na mreži. Može delovati kao DHCP server, ali se takođe može koristiti kao DNS resolver za uređaje na lokalnoj mreži. Dnsmasq je takođe integrisan po defaultu.
+- **DNS/DHCP**: OPNsense može biti konfigurisan da upravlja DNS i DHCP uslugama na mreži. Može delovati kao DHCP server, ali se takođe može koristiti kao DNS resolver za uređaje na lokalnoj mreži. Dnsmasq je takođe integrisan po defaultu.
 
 
 
 
 
-- VPN**: OPNsense podržava nekoliko VPN protokola, uključujući IPsec, OpenVPN i WireGuard, omogućavajući sigurne veze za daljinski pristup mobilnim radnim stanicama ili međusobno povezivanje lokacija.
+- **VPN**: OPNsense podržava nekoliko VPN protokola, uključujući IPsec, OpenVPN i WireGuard, omogućavajući sigurne veze za daljinski pristup mobilnim radnim stanicama ili međusobno povezivanje lokacija.
 
 
 
 
 
-- Web proxy**: OPNsense uključuje web proxy za kontrolu i filtriranje pristupa Internetu. Takođe se može koristiti za filtriranje sadržaja i upravljanje pristupom mreži.
+- **Web proxy**: OPNsense uključuje web proxy za kontrolu i filtriranje pristupa Internetu. Takođe se može koristiti za filtriranje sadržaja i upravljanje pristupom mreži.
 
 
 
 
 
-- Upravljanje propusnim opsegom (QoS)**: OPNsense nudi funkcije upravljanja kvalitetom usluge (QoS) za prioritizaciju mrežnog saobraćaja i bolje upravljanje mrežnim propusnim opsegom.
+- **Upravljanje propusnim opsegom (QoS)**: OPNsense nudi funkcije upravljanja kvalitetom usluge (QoS) za prioritizaciju mrežnog saobraćaja i bolje upravljanje mrežnim propusnim opsegom.
 
 
 
 
 
-- Captive portal**: ova funkcija vam omogućava upravljanje korisničkim pristupom mreži putem stranice za autentifikaciju (lokalna baza, vaučeri, itd.). To je funkcija koja se često koristi za javne Wi-Fi mreže.
+- **Captive portal**: ova funkcija vam omogućava upravljanje korisničkim pristupom mreži putem stranice za autentifikaciju (lokalna baza, vaučeri, itd.). To je funkcija koja se često koristi za javne Wi-Fi mreže.
 
 
 
 
 
-- IDS/IPS**: OPNsense integriše Suricata kako bi ponudio funkcije detekcije i prevencije upada (IDS/IPS) za zaštitu mreže od napada.
+- **IDS/IPS**: OPNsense integriše Suricata kako bi ponudio funkcije detekcije i prevencije upada (IDS/IPS) za zaštitu mreže od napada.
 
 
 
 
 
-- Visoka dostupnost (CARP)**: OPNsense podržava CARP (*Common Address Redundancy Protocol*) za visoku dostupnost između više OPNsense firewall-ova, osiguravajući da usluga ostane aktivna čak i u slučaju kvara hardvera.
+- **Visoka dostupnost (CARP)**: OPNsense podržava CARP (*Common Address Redundancy Protocol*) za visoku dostupnost između više OPNsense firewall-ova, osiguravajući da usluga ostane aktivna čak i u slučaju kvara hardvera.
 
 
 
 
 
-- Izveštavanje i nadgledanje**: OPNsense pruža alate za izveštavanje i nadgledanje u realnom vremenu kako bi se pratila performansa mreže (sa NetFlow) i otkrili potencijalni problemi, zahvaljujući kreiranju logova. Ovo uključuje grafike. Monit alat je integrisan u OPNsense i omogućava nadzor samog firewall-a.
+- **Izveštavanje i nadgledanje**: OPNsense pruža alate za izveštavanje i nadgledanje u realnom vremenu kako bi se pratila performansa mreže (sa NetFlow) i otkrili potencijalni problemi, zahvaljujući kreiranju logova. Ovo uključuje grafike. Monit alat je integrisan u OPNsense i omogućava nadzor samog firewall-a.
 
 
 
@@ -179,11 +179,11 @@ Naš cilj je da
 
 
 
-- Kreirajte internu virtuelnu mrežu (192.168.10.0/24 - LAN)**, koja može pristupiti Internetu preko OPNsense firewall-a. Za proizvodnu upotrebu, ovo može biti vaša lokalna mreža, kablovska i/ili Wi-Fi.
-- Aktivirajte i konfigurišite NAT** tako da VM-ovi u internom virtuelnom mrežnom okruženju mogu pristupiti Internetu
-- Aktivirajte i konfigurišite DHCP server na OPNsense** da distribuira IP konfiguraciju budućim mašinama povezanim na internu virtuelnu mrežu.
-- Konfigurišite firewall** da dozvoli samo odlazne LAN ka WAN tokove u HTTP (80) i HTTPS (443).
-- Konfigurišite firewall** da dozvoli virtuelnom LAN-u korišćenje OPNsense kao DNS resolver (53).
+- Kreirajte internu virtuelnu mrežu (192.168.10.0/24 - LAN), koja može pristupiti Internetu preko OPNsense firewall-a. Za proizvodnu upotrebu, ovo može biti vaša lokalna mreža, kablovska i/ili Wi-Fi.
+- Aktivirajte i konfigurišite **NAT** tako da VM-ovi u internom virtuelnom mrežnom okruženju mogu pristupiti Internetu
+- Aktivirajte i konfigurišite DHCP server na **OPNsense** da distribuira IP konfiguraciju budućim mašinama povezanim na internu virtuelnu mrežu.
+- Konfigurišite **firewall** da dozvoli samo odlazne LAN ka WAN tokove u HTTP (80) i HTTPS (443).
+- Konfigurišite **firewall** da dozvoli virtuelnom LAN-u korišćenje OPNsense kao DNS resolver (53).
 
 
 
@@ -257,7 +257,7 @@ Zatim ćete doći do Interface sličnog onom ispod. Prijavite se sa prijavom "**
 
 
 
-Na ekranu se pojavljuje novi čarobnjak. Prvi korak je da izaberete raspored tastature koji odgovara vašoj konfiguraciji. Za AZERTY tastaturu, izaberite opciju "**French (accent keys)**" sa liste, zatim dvaput kliknite**.
+Na ekranu se pojavljuje novi čarobnjak. Prvi korak je da izaberete raspored tastature koji odgovara vašoj konfiguraciji. Za AZERTY tastaturu, izaberite opciju **French (accent keys)** sa liste, zatim dvaput kliknite.
 
 
 
@@ -349,7 +349,7 @@ Evo kako funkcioniše:
 
 
 
-Sada imamo :
+Sada imamo:
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-OPNsense Administration Interface može se pristupiti putem HTTPS-a, koristeći IP Address LAN-a** Interface (ili WAN-a). Vaš pretraživač će vas odvesti na stranicu za prijavu. Prijavite se sa "root" nalogom i lozinkom koju ste ranije odabrali.
+OPNsense Administration Interface može se pristupiti putem HTTPS-a, koristeći IP Address LAN-a **Interface** (ili WAN-a). Vaš pretraživač će vas odvesti na stranicu za prijavu. Prijavite se sa "root" nalogom i lozinkom koju ste ranije odabrali.
 
 
 
@@ -566,7 +566,7 @@ Ovo daje sledeći rezultat:
 
 
 
-Sve što preostaje je da kliknete na "**Primeni izmene**" kako biste prebacili nova pravila vatrozida u produkciju. **Imajte na umu da će svi tokovi koji nisu eksplicitno autorizovani biti blokirani po defaultu.
+Sve što preostaje je da kliknete na "**Primeni izmene**" kako biste prebacili nova pravila vatrozida u produkciju. **Imajte na umu da će svi tokovi koji nisu eksplicitno autorizovani biti blokirani po defaultu.**
 
 
 

@@ -1,0 +1,9 @@
+question: Số lượng kết nối đi mặc định mà một nút Bitcoin core duy trì là bao nhiêu?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core duy trì 10 kết nối đi theo mặc định (8 kết nối chuyển tiếp toàn phần và 2 kết nối chỉ chuyển tiếp khối).
+reviewed: true

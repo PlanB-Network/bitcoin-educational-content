@@ -1,0 +1,9 @@
+question: Mikä yliopiston käyttöjärjestelmä edisti TCP/IP-protokollien leviämistä akateemisessa maailmassa?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  Berkeleyn yliopistossa kehitetty BSD Unix oli yksi ensimmäisistä järjestelmistä, johon integroitiin TCP/IP-protokollat, ja se auttoi levittämään niitä laajalti akateemisessa maailmassa.
+reviewed: false

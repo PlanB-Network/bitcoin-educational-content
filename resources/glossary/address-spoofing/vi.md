@@ -14,4 +14,4 @@ Một phương pháp khác để đưa Address sai đến trước nạn nhân l
 Để bảo vệ bản thân khỏi những phương pháp tấn công khác nhau này, điều quan trọng là phải kiểm tra một số ký tự của Address, đặc biệt là mã tổng kiểm tra (ở cuối) trên màn hình thiết bị ký trước khi ký giao dịch.
 
 
-> ► *Đòn tấn công này đôi khi còn được gọi là Address Poisoning
+> ► *Đòn tấn công này đôi khi còn được gọi là Address Poisoning*

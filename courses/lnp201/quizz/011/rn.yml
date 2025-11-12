@@ -1,0 +1,9 @@
+question: Ni kuki Alice irema igikorwa co gukura amahera imbere yo gutangaza igikorwa co gushiramwo amahera?
+answer: Kugira ngo asubire kuronka amahera yiwe mu gihe hoba ingorane na Bob.
+wrong_answers:
+  - Kugira ngo wongere ubushobozi bw'umurongo igihe cose ugurisha
+  - Gukora igikorwa c'umuravyo ubwo nyene umaze gufungura
+  - Kugira ngo Bob ishobore gukoresha ayo mahera ataco ihinduye .
+explanation: |
+  Alice irema igikorwa co gukura amahera kugira ngo asubire kuronka amahera yiwe iyo habaye ingorane kuri Bob, gutyo akagira umutekano w’amahera yashizeko.
+reviewed: false

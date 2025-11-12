@@ -1,0 +1,9 @@
+question: Koja je tipična veličina mrežnog prefiksa korišćenog u IPv6 Address na lokalnoj mreži?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bita
+  - 8 bita
+explanation: |
+  Prvih 64 bita IPv6 Address su generalno rezervisani za prefiks podmreže.
+reviewed: false

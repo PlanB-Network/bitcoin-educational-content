@@ -1,0 +1,9 @@
+question: Ni uwuhe mutungo igikorwa ca Hash gitegerezwa kuba gifise kugira ngo kibe gifise umutekano mu gihe co kugenzura porogarama?
+answer: Uguhangana n'ugutombora
+wrong_answers:
+  - Gusubira inyuma
+  - Gukorana n'imfunguruzo zidahuye
+  - Igihe nyaco
+explanation: |
+  Uguhangana n’ugutombora bituma bidashoboka ko umuntu aronka ibintu bibiri bitandukanye bitanga Hash imwe, ivyo bikaba ari ngirakamaro mu kugenzura ko porogarama zitahinduwe.
+reviewed: false

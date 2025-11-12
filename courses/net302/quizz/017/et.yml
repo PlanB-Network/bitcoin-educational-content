@@ -1,0 +1,9 @@
+question: Mida kujutab endast MTU väärtus võrgus?
+answer: Maksimaalne kaadri suurus, mida saab edastada ilma killustamata
+wrong_answers:
+  - Marsruudi maksimaalne mälumaht ilma fragmenteerimiseta
+  - Maksimaalne hostide arv võrgus ilma fragmenteerimiseta
+  - IP päise minimaalne pikkus ilma fragmenteerimiseta
+explanation: |
+  MTU (Maximum Transmission Unit) määratleb maksimaalse kaadri suuruse, mida saab edastada segmendis ilma killustamata.
+reviewed: false

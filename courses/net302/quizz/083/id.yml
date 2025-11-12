@@ -1,0 +1,9 @@
+question: Bagaimana status entri dalam cache ip neigh ketika pemetaan IP/MAC valid dan terbaru?
+answer: TERJANGKAU
+wrong_answers:
+  - TERHUBUNG
+  - VALID
+  - BEKAS
+explanation: |
+  Status REACHABLE berarti pemetaan IP/MAC diketahui dan berfungsi dalam cache lingkungan.
+reviewed: false

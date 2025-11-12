@@ -7,7 +7,7 @@ description: Nunua na uuze bitcoins kwenye Bull Bitcoin
 
 Bull Bitcoin ni jukwaa la Bitcoin-pekee la Exchange lililoanzishwa mwaka wa 2013 nchini Kanada na Francis Pouliot, mtu mashuhuri katika mfumo ikolojia wa Bitcoin. Falsafa ya Bull Bitcoin ni kuwapa watumiaji zana za uhuru wa kifedha na ukombozi. Jukwaa la Exchange halina uhifadhi, ambayo ina maana kwamba daima unabaki kuwa huru juu ya Bitcoins zako.
 
-Awali ilipatikana tu Kanada, jukwaa hili sasa linapatikana Ulaya na katika nchi nyingi nyingine, likiwa na kiolesura kipya kilichoboreshwa. Toleo hili jipya la Bull Bitcoin linakuwezesha kununua na kuuza bitcoins kwa urahisi na haraka kwa kutumia Lightning na uhamisho wa SEPA wa papo hapo. Pia linajumuisha malipo ya ankara kwa kutumia bitcoins. Hapo baadaye, jukwaa litajumuisha chaguo za DCA, manunuzi ya kiotomatiki, na maagizo ya kikomo.
+Awali ilipatikana tu Kanada, jukwaa hili sasa linapatikana Ulaya na katika nchi nyingi zingine, likiwa na kiolesura kipya kilichoboreshwa. Toleo hili jipya la Bull Bitcoin linakuwezesha kununua na kuuza bitcoins kwa urahisi na haraka kwa kutumia Lightning na uhamisho wa SEPA wa papo hapo. Pia linajumuisha malipo ya ankara kwa kutumia bitcoins. Hapo baadaye, jukwaa litajumuisha chaguo za DCA, ununuzi wa kiotomatiki, na maagizo ya kikomo.
 
 Bull Bitcoin inajivunia kutoa huduma iliyo wazi bila ada zilizofichwa. Tafadhali kumbuka kuwa, kama ilivyo kwa ubadilishaji mwingi, kutumia Bull Bitcoin kunahitaji kukamilisha mchakato wa KYC (Kumjua Mteja Wako).
 
@@ -47,7 +47,7 @@ Sasa hebu tuimarishe usalama wa akaunti yako. Bonyeza "*Akaunti Yangu*".
 ![BULL](assets/fr/05.webp)
 
 
-Nenda kwenye kichupo cha "* Mipangilio ya Usalama*" na uchague "* Mipangilio ya Ufikiaji *".
+Nenda kwenye kichupo cha "*Mipangilio ya Usalama*" na uchague "*Mipangilio ya Ufikiaji*".
 
 
 ![BULL](assets/fr/06.webp)
@@ -68,7 +68,7 @@ Changanua msimbo wa QR na programu yako ya uthibitishaji, weka msimbo wa tarakim
 Ikiwa hujui kutumia programu za uthibitishaji za 2FA, ninapendekeza uangalie mafunzo haya kwenye programu ya Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Weka nenosiri lako ili kuthibitisha.
 
@@ -94,7 +94,7 @@ Chagua "*generate misimbo mipya ya urejeshaji chelezo*" na uhifadhi misimbo hii 
 ![BULL](assets/fr/12.webp)
 
 
-Ili kubinafsisha zaidi Interface yako, nenda kwenye kichupo cha "*Mipangilio ya Programu*", ambapo unaweza kuchagua lugha na sarafu unayopenda.
+Ili kubinafsisha zaidi Interface yako, nenda kwenye kichupo cha "*Mipangilio ya Programu*", ambapo unaweza kuchagua lugha na sarafu unayoipenda.
 
 
 ![BULL](assets/fr/13.webp)
@@ -103,7 +103,7 @@ Ili kubinafsisha zaidi Interface yako, nenda kwenye kichupo cha "*Mipangilio ya 
 ## KYC
 
 
-Ili kufikia utendakazi kamili wa Bull Bitcoin, ambayo ni jukwaa linalodhibitiwa, unahitaji kufanya uthibitishaji wa utambulisho (KYC). Bonyeza "*Endelea Uthibitishaji*".
+Ili kufikia utendakazi kamili wa Bull Bitcoin, ambao ni jukwaa linalodhibitiwa, unahitaji kufanya uthibitishaji wa utambulisho (KYC). Bonyeza "*Endelea Uthibitishaji*".
 
 
 ![BULL](assets/fr/14.webp)
@@ -145,7 +145,7 @@ Ili kuanza, labda utataka kuweka euro kadhaa kwa Bull ili kununua Sats yako ya k
 ![BULL](assets/fr/17.webp)
 
 
-Chagua "* Uhamisho wa SEPA*".
+Chagua "*Uhamisho wa SEPA*".
 
 
 ![BULL](assets/fr/18.webp)
@@ -181,9 +181,9 @@ Weka kiasi unachotaka kununua. Utahitaji pia kuchagua jinsi unavyotaka kuondoa S
 Ikiwa hujui kutumia pochi za Bitcoin, Radi au Liquid, ninapendekeza uchukue kozi yetu maalum ya mafunzo:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Unaweza pia kugundua [mafunzo yetu ya kina kuhusu pochi bora zaidi za Bitcoin](https://planb.network/tutorials/wallet).
+Unaweza pia kugundua [mafunzo yetu ya kina kuhusu pochi bora zaidi za Bitcoin](https://planb.academy/tutorials/wallet).
 
 
 Kisha thibitisha ununuzi wako kwa kubofya "*Thibitisha Nunua*".
@@ -286,10 +286,18 @@ Ili kufuatilia miamala yako yote, unaweza kutazama historia katika menyu ya "*Sh
 ![BULL](assets/fr/36.webp)
 
 
-Sasa unajua jinsi ya kununua na kuuza Bitcoin kwa urahisi na Bull Bitcoin. Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ukiweka kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
+## Anza ununuzi wa mara kwa mara wa kiotomatiki (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Unda agizo la kikomo
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
+Sasa unajua jinsi ya kununua na kuuza Bitcoin kwa urahisi na Bull Bitcoin. Ikiwa umepata mafunzo haya kuwa ya manufaa, nitashukuru sana ukiweka kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
 
 
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina ili kujifunza jinsi ya kudhibiti maneno yako ya Mnemonic kwa njia ifaayo:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

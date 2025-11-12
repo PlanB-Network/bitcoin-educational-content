@@ -1,0 +1,9 @@
+question: Hvilken NAT-modus gjør det mulig for flere titalls enheter å dele en enkelt offentlig IP Address ved å endre porter?
+answer: PAT
+wrong_answers:
+  - Statisk NAT
+  - Dynamisk NAT
+  - Statisk ruting
+explanation: |
+  PAT, også kjent som NAT-overbelastning eller IP-masking, endrer portnumre for å skille mellom økter, slik at mange enheter kan bruke samme offentlige Address.
+reviewed: false

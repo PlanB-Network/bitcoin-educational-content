@@ -1,0 +1,9 @@
+question: DNS 在互联网架构中的主要作用是什么？
+answer: 将域名映射到 IP 地址
+wrong_answers:
+  - 加密路由器之间的通信
+  - 为设备动态分配 MAC 地址
+  - 控制网络服务器的访问权限
+explanation: |
+  DNS（域名系统）将人类可读的域名转换为路由所需的数字 IP 地址。
+reviewed: false

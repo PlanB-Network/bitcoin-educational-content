@@ -1,12 +1,11 @@
-question: Wat voorspelde Milton Friedman in 1999?
-answer: De ontwikkeling van een betrouwbare e-cash.
+question: Wat is de Lightning Network?
+answer: Een betaalnetwerk dat het Bitcoin protocol gebruikt om razendsnelle transacties mogelijk te maken.
 wrong_answers:
-  - De ondergang van fysiek geld.
-  - De opkomst van Bitcoin.
-  - Het einde van overheidscontrole over geld.
+  - Een nieuw type cryptocurrency.
+  - Een nieuwe Blockchain technologie die in de toekomst Bitcoin zal vervangen.
+  - Een methode voor Mining Bitcoin.
 explanation: |
-  Milton Friedman, een bekende econoom, voorspelde in 1999
-  dat er snel een betrouwbare e-cash zou worden ontwikkeld, een methode
-  waarbij je via internet geld kunt overmaken van A naar B,
-  zonder dat A B kent of andersom.
+  De Lightning Network is een betaalnetwerk dat gebruik maakt van het
+  Bitcoin protocol gebruikt om snelle transacties mogelijk te maken. Het is geen
+  aparte cryptocurrency, noch een methode voor Mining Bitcoin.
 reviewed: true

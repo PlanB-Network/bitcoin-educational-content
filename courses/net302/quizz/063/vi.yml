@@ -1,0 +1,9 @@
+question: Mục tiêu chính của việc giới thiệu IPv6 là gì?
+answer: Cung cấp không gian Address gần như không giới hạn
+wrong_answers:
+  - Tăng thông lượng Ethernet lên gấp 4 lần
+  - Dần dần thay thế TCP bằng UDP
+  - Giảm số byte trên mỗi gói
+explanation: |
+  Mục đích chính của IPv6 là giải quyết tình trạng thiếu hụt địa chỉ IP bằng cách mở rộng đáng kể không gian Address.
+reviewed: false

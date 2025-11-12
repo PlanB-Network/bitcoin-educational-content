@@ -15,7 +15,7 @@ En otras palabras, es aconsejable almacenar tus archivos en 3 ubicaciones difere
 
 Para implementar fácilmente esta estrategia de respaldo 3-2-1, puedes optar por una solución de almacenamiento en línea, sincronizando automáticamente o periódicamente los archivos de tu computadora con los de tu nube. Entre estas soluciones de respaldo en línea, obviamente están las de grandes compañías digitales que conoces: Google Drive, Microsoft OneDrive o Apple iCloud. Sin embargo, estas no son las mejores soluciones para proteger tu privacidad. En un tutorial anterior, te presentamos una alternativa que cifra tus documentos para una mejor confidencialidad: Proton Drive.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Al adoptar esta estrategia de respaldo local y en la nube, ya te beneficias de dos tipos diferentes de medios para tus datos, uno de los cuales está fuera del sitio. Para completar la estrategia 3-2-1, simplemente necesitas añadir una copia adicional. Lo que te aconsejamos hacer es simplemente exportar periódicamente tus datos presentes localmente y en tu nube a un medio físico, como una memoria USB o un disco duro externo. De esta manera, incluso si los servidores de tu solución de almacenamiento en línea se destruyen y tu computadora se avería simultáneamente, todavía tienes esta tercera copia en un medio externo para no perder tus datos.
 ![VeraCrypt](assets/notext/01.webp)
@@ -82,7 +82,7 @@ En esta etapa, necesitarás establecer una contraseña para cifrar y descifrar t
 
 También te aconsejamos guardar tu contraseña en un gestor de contraseñas. Esto facilita el acceso y elimina el riesgo de olvido. Para nuestro caso específico, un gestor de contraseñas es preferible a un medio en papel. De hecho, en caso de un robo, aunque tu dispositivo de almacenamiento pueda ser robado, la contraseña en el gestor no puede ser encontrada por el atacante, lo que impedirá el acceso a los datos. Por el contrario, si tu gestor de contraseñas se ve comprometido, aún es necesario el acceso físico al dispositivo para explotar la contraseña y acceder a los datos.
 
-Para más información sobre la gestión de contraseñas, te aconsejamos descubrir este otro tutorial :
+Para más información sobre la gestión de contraseñas, te aconsejamos descubrir este otro tutorial:
 Introduce tu contraseña en los 2 campos designados, luego haz clic en "*Next*". ![VeraCrypt](assets/notext/25.webp)
 VeraCrypt te preguntará si planeas almacenar archivos mayores a 4 GiB en el volumen cifrado. Esta pregunta permite al software seleccionar el sistema de archivos más adecuado. Generalmente, se utiliza el sistema FAT porque es compatible con la mayoría de los sistemas operativos, pero impone un límite máximo de tamaño de archivo de 4 GiB. Si necesitas gestionar archivos más grandes, puedes optar por el sistema exFAT.
 ![VeraCrypt](assets/notext/26.webp)

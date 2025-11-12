@@ -1,0 +1,9 @@
+question: Was ist der Vorteil eines speziellen Laptops gegenüber einem Mini-PC?
+answer: Seine Batterie fungiert als Wechselrichter
+wrong_answers:
+  - Es ist ruhiger
+  - Es hält länger an
+  - Es verbraucht weniger Energie
+explanation: |
+  Der Akku eines Laptops wirkt wie eine natürliche USV und verhindert plötzliche Unterbrechungen im Falle eines Stromausfalls.
+reviewed: true

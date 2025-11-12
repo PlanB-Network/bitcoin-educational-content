@@ -1,0 +1,9 @@
+question: Address ya anycast katika IPv6 ni nini?
+answer: Address iliyopewa nodi nyingi
+wrong_answers:
+  - Address inayojitolea kwa utangazaji anuwai wa kimataifa
+  - Address inayobadilika kila kuwasha upya
+  - Address iliyohifadhiwa kwa nyaraka za kiufundi
+explanation: |
+  Address ya anycast imetumwa kwa vifaa vingi, na uelekezaji hupeleka pakiti kwa ile iliyo karibu zaidi kitopolojia.
+reviewed: false

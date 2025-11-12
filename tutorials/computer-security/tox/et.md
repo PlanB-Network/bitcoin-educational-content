@@ -58,7 +58,7 @@ Tox-protokolli saab kasutada kiirsõnumikliendi kaudu, mille saab alla laadida [
 
 
 
-Sõltuvalt teie operatsioonisüsteemist saate alla laadida ja paigaldada Tox-kliendi, mis vastab :
+Sõltuvalt teie operatsioonisüsteemist saate alla laadida ja paigaldada Tox-kliendi, mis vastab:
 
 
 
@@ -224,7 +224,7 @@ Samuti saate kohandada oma failijagamiskonfiguratsioone iga arutelu jaoks. Tehke
 
 
 
-Interface üksikasjadest saate hallata volitusi, mida annate oma vastuvõtjale :
+Interface üksikasjadest saate hallata volitusi, mida annate oma vastuvõtjale:
 
 
 
@@ -304,4 +304,4 @@ Kui sulle meeldis Toxi avastamine ja saite aru, kuidas see on kasulik teie priva
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

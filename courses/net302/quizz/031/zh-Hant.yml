@@ -1,0 +1,9 @@
+question: 哪個 IPv4 Address 範圍保留給本機環回測試？
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  127.0.0.0/8 範圍用於本機環回。對這個範圍的任何請求都會保留在發端機器內。
+reviewed: false

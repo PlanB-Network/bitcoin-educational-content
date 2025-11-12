@@ -1,13 +1,11 @@
-question: Jakie jest zalecane użycie Cold w trybie offline i Wallet w trybie fizycznym?
-answer: Przechowywanie dużych ilości.
+question: Jaka jest zalecana alternatywa dla używania papieru do przechowywania frazy Mnemonic?
+answer: Grawerowanie na metalowej płytce.
 wrong_answers:
-  - Przechowywanie codziennych wydatków.
-  - Przechowywanie małych ilości.
-  - Przechowywanie krótkoterminowych oszczędności.
+  - Przechowywanie go w pliku cyfrowym.
+  - Napisanie tego na tablicy.
+  - Zapisanie go jako kontaktu w telefonie.
 explanation: |
-  Do przechowywania dużych ilości zalecany jest fizyczny Wallet offline lub Cold
-  przechowywania dużych kwot, ponieważ jest mniej podatny na
-  zagrożenia online niż portfele Hot. Nie jest on jednak
-  do codziennych wydatków, ponieważ jest mniej
-  mniej dostępny dla codziennych transakcji.
+  Jedną z zalecanych alternatyw dla papieru do przechowywania
+  gW-1 jest wygrawerowanie go na metalowej płytce. To
+  rozwiązanie jest bardziej wytrzymałe i długotrwałe.
 reviewed: true

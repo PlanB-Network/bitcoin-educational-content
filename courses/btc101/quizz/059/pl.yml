@@ -1,9 +1,12 @@
-question: Które z poniższych nie jest cechą Bitcoin?
-answer: Łatwo ją ocenzurować.
+question: W którym roku przewiduje się zaprzestanie tworzenia bitcoinów?
+answer: 2140
 wrong_answers:
-  - Można go natychmiast przetransportować.
-  - Ma znikome koszty weryfikacji.
-  - Prowadzi stałą politykę pieniężną.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin ma wszystkie niezbędne cechy, aby być wydajną i zdrową walutą: podzielną, natychmiast transportowalną, nieocenzurowaną, o znikomym koszcie weryfikacji i z polityką pieniężną już ustaloną na wieki z 21 milionami jednostek.
+  Ze względu na mechanizm Halving można matematycznie przewidzieć, że
+  przewidzieć, że tworzenie bitcoinów zakończy się w 2140 roku,
+  kiedy całkowita liczba bitcoinów osiągnie limit 21
+  milionów.
 reviewed: true

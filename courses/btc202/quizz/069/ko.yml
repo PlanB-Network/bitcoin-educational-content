@@ -1,0 +1,9 @@
+question: 미니 PC에 Dust이 축적되면 어떤 주요 위험이 발생하나요?
+answer: 프로세서 스로틀링
+wrong_answers:
+  - Blockchain 블록 삭제
+  - 디스크 손상
+  - RAM 용량 감소
+explanation: |
+  Dust는 환기를 차단하고 과열을 유발하며 스로틀링을 유발하여 프로세서 효율을 떨어뜨립니다.
+reviewed: true

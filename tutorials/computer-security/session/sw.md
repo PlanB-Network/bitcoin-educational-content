@@ -1,5 +1,5 @@
 ---
-name: Kikao
+name: Session
 description: Tuma ujumbe uliosimbwa kwa njia fiche, si metadata
 ---
 ![cover](assets/cover.webp)
@@ -99,13 +99,13 @@ Kisha utalazimika kuchagua kati ya njia mbili za usimamizi wa arifa:
 
 
 
-- Hali ya haraka ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: hukuwezesha kupokea arifa za ujumbe katika muda halisi, kutokana na huduma za arifa zinazotolewa na Google au Apple (kulingana na mfumo wako). Ili hili lifanye kazi, IP yako Address na kitambulisho cha kipekee cha arifa hutumwa kwa Google au Apple, na Kitambulisho cha akaunti ya Session pia kimesajiliwa na seva ya STF (kupitia Tor). Hali hii inahusisha (inakubalika kidogo) udhihirisho wa metadata, lakini haiathiri maudhui ya ujumbe au waasiliani, na hairuhusu shughuli yako halisi kufuatiliwa. Kwa hivyo, hali hii ina ufanisi zaidi katika suala la uitikiaji, lakini inategemea muundo msingi na haina ufanisi kidogo katika suala la usiri.
+- Hali ya haraka ("**Firebase Cloud Messaging/Apple Push Notification Service**"): hukuwezesha kupokea arifa za ujumbe katika muda halisi, kutokana na huduma za arifa zinazotolewa na Google au Apple (kulingana na mfumo wako). Ili hili lifanye kazi, IP yako Address na kitambulisho cha kipekee cha arifa hutumwa kwa Google au Apple, na Kitambulisho cha akaunti ya Session pia kimesajiliwa na seva ya STF (kupitia Tor). Hali hii inahusisha (inakubalika kidogo) udhihirisho wa metadata, lakini haiathiri maudhui ya ujumbe au waasiliani, na hairuhusu shughuli yako halisi kufuatiliwa. Kwa hivyo, hali hii ina ufanisi zaidi katika suala la uitikiaji, lakini inategemea muundo msingi na haina ufanisi kidogo katika suala la usiri.
 
 
 
 
 
-- Hali ya polepole (*upigaji kura wa usuli*)**: programu ya Kipindi inasalia amilifu chinichini, mara kwa mara inapiga kura kwenye mtandao kwa ujumbe mpya. Mbinu hii inahakikisha usiri mkubwa kuliko ule wa kwanza, kwani hakuna data inayotumwa kwa seva za watu wengine; si Google, Apple au seva za STF zinazopokea taarifa yoyote. Kwa upande mwingine, hali hii ina vikwazo viwili: arifa zinaweza kuchelewa (hadi dakika kadhaa), na matumizi ya nishati kwa ujumla ni ya juu kutokana na shughuli za maombi chinichini.
+- Hali ya polepole (**upigaji kura wa usuli**): programu ya Kipindi inasalia amilifu chinichini, mara kwa mara inapiga kura kwenye mtandao kwa ujumbe mpya. Mbinu hii inahakikisha usiri mkubwa kuliko ule wa kwanza, kwani hakuna data inayotumwa kwa seva za watu wengine; si Google, Apple au seva za STF zinazopokea taarifa yoyote. Kwa upande mwingine, hali hii ina vikwazo viwili: arifa zinaweza kuchelewa (hadi dakika kadhaa), na matumizi ya nishati kwa ujumla ni ya juu kutokana na shughuli za maombi chinichini.
 
 
 
@@ -145,7 +145,7 @@ Kifungu hiki cha maneno hufanya kazi kwa njia sawa na vifungu vya Mnemonic vinav
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Tafadhali kumbuka**: Tofauti na vishazi vya Mnemonic vinavyotumika kwenye jalada la Bitcoin, kwenye Kipindi, **lazima uhifadhi kila neno kwa ukamilifu**. Barua 4 za kwanza hazitoshi!
 
@@ -299,4 +299,4 @@ Pia ninapendekeza somo hili lingine, ambalo ninawasilisha Threema, mbadala mwing
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

@@ -1,0 +1,9 @@
+question: Koji protokol dinamički dodeljuje IP Address uređaju?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP protokol automatski dodeljuje IP adrese uređajima na mreži, pojednostavljujući upravljanje Address.
+reviewed: false

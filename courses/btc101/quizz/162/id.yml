@@ -1,9 +1,11 @@
-question: Apa peran penambang dalam protokol Bitcoin?
-answer: Mereka mengamankan jaringan saat ini dan historis
+question: Bagaimana protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk blok berikutnya?
+answer: Dengan hadiah yang ditentukan oleh aturan konsensus dan biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid
 wrong_answers:
-  - Mereka mengatur harga Bitcoin
-  - Mereka mengontrol pasokan Bitcoin
-  - Mereka mengelola transaksi antar pengguna
+  - Dengan jumlah Bitcoin yang tetap
+  - Dengan persentase dari total pasokan Bitcoin
+  - Dengan biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid
 explanation: >-
-  Penambang dalam protokol Bitcoin mengamankan baik jaringan saat ini maupun historis. Mereka tidak mengatur harga Bitcoin, mengontrol pasokannya, atau mengelola transaksi antar pengguna.
+  Protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk
+  blok berikutnya dengan hadiah yang jumlahnya ditentukan oleh aturan konsensus, serta
+  biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid.
 reviewed: false

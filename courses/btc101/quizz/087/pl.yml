@@ -1,13 +1,14 @@
-question: Co to jest Multisig Wallet?
-answer: Zestaw portfeli, który wymaga wielu podpisów do przeprowadzenia transakcji.
+question: Jakie jest ryzyko korzystania z Multisig Wallet?
+answer: Brak dostępu do wystarczającej liczby indywidualnych kluczy prywatnych lub komponentów kopii zapasowych.
 wrong_answers:
-  - Wallet, który wymaga pojedynczego podpisu do wykonania transakcji.
-  - Wallet, który nie wymaga podpisów do przeprowadzenia transakcji.
-  - Wallet, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
+  - Posiadanie dostępu do wystarczającej liczby indywidualnych kluczy prywatnych lub komponentów kopii zapasowych.
+  - Udostępnianie kluczy prywatnych innym stronom.
+  - Udostępnianie kluczy publicznych innym stronom.
 explanation: |
-  Multisig Wallet jest rodzajem Bitcoin Wallet, który wymaga
-  wielu podpisów do wykonania transakcji. Dodaje to
-  dodatkowy Layer bezpieczeństwa, ponieważ oznacza to, że pojedyncza osoba
-  nie może wykonać transakcji bez zgody
-  innych osób.
+  W przypadku korzystania z Multisig Wallet, każdy klucz prywatny
+  Multisig powinien być przechowywany w różnych lokalizacjach. Dzieje się tak
+  ponieważ Multisig wymaga wielu podpisów do przeprowadzenia
+  transakcji, więc potrzebna jest pewna liczba portfeli
+  portfeli. Zatem przechowywanie każdej części w innej lokalizacji
+  dodaje dodatkowy Layer bezpieczeństwa.
 reviewed: true

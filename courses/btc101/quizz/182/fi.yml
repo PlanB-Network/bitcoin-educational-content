@@ -1,9 +1,14 @@
-question: Mitkä seuraavista ominaisuuksista edesauttoivat Bitcoinin käytön laajentumista pimeän verkon markkinapaikoilla, kuten Silk Road?
-answer: Sen hallitsemattomuus ja pseudonyymisyys.
+question: Kuinka Bitcoin ratkaisee Bysantin kenraalien ongelman?
+answer: Käyttämällä Proof of Work -pohjaista lohkoketjua, jonka vaikeustaso on muuttuva.
 wrong_answers:
-  - Sen keskitetty hallinta.
-  - Sen jäljitettävyys ja hallittavuus.
-  - Sen puute pseudonyymisyydessä.
+  - Käyttämällä digitaalisia allekirjoituksia.
+  - Käyttämällä julkista kirjanpitoa.
+  - Käyttämällä Proof of Stake -algoritmia.
 explanation: >-
-  Bitcoinin käyttö laajeni pimeän verkon markkinapaikoille, kuten Silk Road, sen hallitsemattoman ja pseudonyymisen luonteen vuoksi.
+  Bysantin kenraalien ongelma on klassinen ongelma
+  hajautetussa laskennassa, joka käsittää konsensuksen saavuttamisen
+  verkossa, jossa jotkut solmuista voivat olla viallisia tai
+  ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä
+  Proof of Work -pohjaista lohkoketjua, mikä varmistaa, että kaikki
+  solmut ovat yhtä mieltä tapahtumahistorian tilasta.
 reviewed: true

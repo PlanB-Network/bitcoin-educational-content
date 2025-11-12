@@ -1,8 +1,8 @@
-question: Ni faida gani kuu ya mashine maalum za SHA256, au ASICS, katika Bitcoin Mining?
-answer: Wanaongeza kiwango cha Hash kwa joule.
+question: Ni tukio gani muhimu katika ulimwengu wa cryptocurrency mnamo 2017?
+answer: Uzinduzi wa maelfu ya matoleo ya awali ya Sarafu (ICO).
 wrong_answers:
-  - Wanapunguza matumizi ya nishati.
-  - Wanaongeza kasi ya shughuli.
-  - Wanaongeza usalama wa mtandao.
+  - Kupigwa marufuku kwa Bitcoin.
+  - Uundaji wa Bitcoin.
+  - Kutoweka kwa sarafu zote za siri.
 explanation: >-
 reviewed: true

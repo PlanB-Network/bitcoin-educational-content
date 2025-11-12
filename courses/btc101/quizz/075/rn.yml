@@ -1,0 +1,11 @@
+question: Ni ubuhinga ubuhe bukoreshwa mu gukoresha amahera ata nkomanzi hakoreshejwe Bitcoin Wallet?
+answer: Igishushanyo c’umurongo w’uruzitiro.
+wrong_answers:
+  - Igishushanyo c'ibanga gihuye.
+  - Ubuhinga bwo gukingira amakuru.
+  - RSA ubuhinga bwo gukingira.
+explanation: |
+  Gukoresha Bitcoins bisaba ko nyirayo akoresha umurongo w'uruzitiro .
+  Umukono wa digitale (ECDSA) wo gukora umukono
+  ku bijanye n’ugukwiragiza igikorwa ca Bitcoin.
+reviewed: true

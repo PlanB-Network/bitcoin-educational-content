@@ -1,0 +1,9 @@
+question: 什么开源软件通常用作 DNS 服务器的参考？
+answer: 绑定
+wrong_answers:
+  - 阿帕奇
+  - 鱿鱼
+  - 桑巴
+explanation: |
+  BIND（伯克利互联网域名）是全球大多数 DNS 服务器使用的开源参考实现。
+reviewed: false

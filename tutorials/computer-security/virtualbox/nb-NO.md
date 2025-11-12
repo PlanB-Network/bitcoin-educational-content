@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne veiledningen er basert på originalt innhold av Florian Burnel publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne veiledningen er basert på originalt innhold av Florian Burnel publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -59,7 +59,7 @@ For å laste ned VirtualBox for installasjon på en Windows-maskin, finnes det b
 
 
 
-Det er enkelt å installere VirtualBox**, og prosessen er den samme for alle Windows-versjoner. Start med å starte den kjørbare filen for VirtualBox som du nettopp har lastet ned, og klikk deretter på "**Neste**".
+Det er enkelt å installere **VirtualBox**, og prosessen er den samme for alle Windows-versjoner. Start med å starte den kjørbare filen for VirtualBox som du nettopp har lastet ned, og klikk deretter på "**Neste**".
 
 
 
@@ -67,15 +67,15 @@ Det er enkelt å installere VirtualBox**, og prosessen er den samme for alle Win
 
 
 
-Denne installasjonen kan tilpasses, men jeg anbefaler at du installerer alle funksjonene: som er tilfelle med standardvalget. På bildet nedenfor kan du se forskjellige Elements, inkludert :
+Denne installasjonen kan tilpasses, men jeg anbefaler at du installerer alle funksjonene: som er tilfelle med standardvalget. På bildet nedenfor kan du se forskjellige Elements, inkludert:
 
 
 
 
 
-- VirtualBox USB-støtte** for å aktivere VirtualBox til å støtte USB-enheter
-- VirtualBox Bridged Network** for å integrere nettverksstøtte i "Bridge"-modus (den virtuelle maskinen kan koble seg direkte til ditt lokale nettverk)
-- VirtualBox Host-Only Network** for å integrere nettverksstøtte i "Host-Only"-modus (den virtuelle maskinen kan bare kommunisere med den fysiske Windows 11-verten og andre virtuelle maskiner i denne modusen)
+- **VirtualBox USB-støtte** for å aktivere VirtualBox til å støtte USB-enheter
+- **VirtualBox Bridged Network** for å integrere nettverksstøtte i "Bridge"-modus (den virtuelle maskinen kan koble seg direkte til ditt lokale nettverk)
+- **VirtualBox Host-Only Network** for å integrere nettverksstøtte i "Host-Only"-modus (den virtuelle maskinen kan bare kommunisere med den fysiske Windows 11-verten og andre virtuelle maskiner i denne modusen)
 
 
 
@@ -165,10 +165,10 @@ For å opprette en ny virtuell maskin i VirtualBox klikker du ganske enkelt på 
 
 
 
-- Innstillinger**: generell VirtualBox-konfigurasjon (standard VM-mappe, oppdateringshåndtering, språk, NAT-nettverk, utvidelser osv.)
-- Import**: importer en virtuell appliance i OVF-format
-- Eksporter**: eksporter en eksisterende virtuell maskin i OVF-format for å opprette en virtuell appliance
-- Legg til**: legg til en eksisterende virtuell maskin i VirtualBox-inventaret, i standard VirtualBox-format (.vbox) eller XML-format
+- **Innstillinger**: generell VirtualBox-konfigurasjon (standard VM-mappe, oppdateringshåndtering, språk, NAT-nettverk, utvidelser osv.)
+- **Import**: importer en virtuell appliance i OVF-format
+- **Eksporter**: eksporter en eksisterende virtuell maskin i OVF-format for å opprette en virtuell appliance
+- **Legg til**: legg til en eksisterende virtuell maskin i VirtualBox-inventaret, i standard VirtualBox-format (.vbox) eller XML-format
 
 
 
@@ -184,16 +184,16 @@ Til venstre gir delen "**Tools**" tilgang til **avanserte funksjoner, særlig fo
 
 
 
-**Som en påminnelse: VirtualBox støtter en rekke operativsystemer, inkludert Windows, Linux og BSD. I dette eksemplet skal jeg opprette en virtuell maskin for Windows 11. Flere felt må fylles ut:
+**Som en påminnelse: VirtualBox støtter en rekke operativsystemer, inkludert Windows, Linux og BSD. I dette eksemplet skal jeg opprette en virtuell maskin for Windows 11. Flere felt må fylles ut:**
 
 
 
 
 
-- Navn**: navnet på den virtuelle maskinen (dette er navnet som vises i VirtualBox)
-- Maskinmappe**: hvor den virtuelle maskinen skal lagres, vel vitende om at en undermappe med VM-navnet vil bli opprettet på denne plasseringen
-- Type**: typen operativsystem, avhengig av hvilket operativsystem du ønsker å installere
-- Version**: versjonen av systemet du ønsker å installere, i dette tilfellet Windows 11, altså "**Windows11_64**"
+- **Navn**: navnet på den virtuelle maskinen (dette er navnet som vises i VirtualBox)
+- **Maskinmappe**: hvor den virtuelle maskinen skal lagres, vel vitende om at en undermappe med VM-navnet vil bli opprettet på denne plasseringen
+- **Type**: typen operativsystem, avhengig av hvilket operativsystem du ønsker å installere
+- **Version**: versjonen av systemet du ønsker å installere, i dette tilfellet Windows 11, altså "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Klikk på "**Neste**" for å fortsette.
 
 
 
-Avhengig av operativsystemet du valgte i forrige trinn, kommer **VirtualBox med anbefalinger om hvilke ressurser som skal allokeres til den virtuelle maskinen**. Her snakker vi om RAM-minnet du ønsker å allokere til VM-en. La oss anta 4 GB, fordi dette faktisk er anbefalt for Windows 11, men hvis du har lite ressurser, kan du angi 2 GB i stedet. **Fortsett
+Avhengig av operativsystemet du valgte i forrige trinn, kommer **VirtualBox med anbefalinger om hvilke ressurser som skal allokeres til den virtuelle maskinen**. Her snakker vi om RAM-minnet du ønsker å allokere til VM-en. La oss anta 4 GB, fordi dette faktisk er anbefalt for Windows 11, men hvis du har lite ressurser, kan du angi 2 GB i stedet. **Fortsett**.
 
 
 
@@ -231,9 +231,9 @@ VirtualBox støtter tre ulike formater for virtuelle Hard-disker, noe som er en 
 
 
 
-- VDI**, det offisielle VirtualBox-formatet
-- VHD**, som er det offisielle Hyper-V-formatet, selv om det nye VHDX-formatet brukes oftere i disse dager
-- VMDX** er det offisielle VMware-formatet for både VMware Workstation og VMware ESXi
+- **VDI**, det offisielle VirtualBox-formatet
+- **VHD**, som er det offisielle Hyper-V-formatet, selv om det nye VHDX-formatet brukes oftere i disse dager
+- **VMDX** er det offisielle VMware-formatet for både VMware Workstation og VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ På dette tidspunktet er den virtuelle maskinen i lageret vårt, den er konfigur
 
 
 
-For å installere Windows 11, eller et hvilket som helst annet system, trenger vi installasjonskilder. I de fleste tilfeller bruker vi et diskbilde i ISO-format for å installere et operativsystem. **Det er nødvendig å laste inn ISO-bildet av Windows 11 i den virtuelle DVD-stasjonen i den virtuelle VM-en
+For å installere Windows 11, eller et hvilket som helst annet system, trenger vi installasjonskilder. I de fleste tilfeller bruker vi et diskbilde i ISO-format for å installere et operativsystem. **Det er nødvendig å laste inn ISO-bildet av Windows 11 i den virtuelle DVD-stasjonen i den virtuelle VM-en.**
 
 
 
@@ -333,7 +333,7 @@ I mitt tilfelle har den virtuelle maskinen to virtuelle prosessorer:
 
 
 
-**Nøl ikke med å ta en titt på de andre delene av konfigurasjonsmenyen.
+**Nøl ikke med å ta en titt på de andre delene av konfigurasjonsmenyen.**
 
 
 
@@ -390,10 +390,10 @@ På vår fysiske Windows 11-vert, der VirtualBox er installert, kan vi se at map
 
 
 
-- VBOX**-filen (i XML-format) som tilsvarer VM-konfigurasjonen (RAM, CPU osv.)
-- VBOX-PREV**-filen er en sikkerhetskopi av den forrige konfigurasjonen
-- VDI**-filen tilsvarer den virtuelle Hard-disken i dynamisk modus, så den er for øyeblikket bare 13 GB, mens den maksimale størrelsen er 64 GB
-- NVRAM**-filen inneholder BIOS-tilstanden til den virtuelle maskinen, noe som tilsvarer det ikke-flyktige minnet til en fysisk maskin
+- **VBOX-filen** (i XML-format) som tilsvarer VM-konfigurasjonen (RAM, CPU osv.)
+- **VBOX-PREV**-filen er en sikkerhetskopi av den forrige konfigurasjonen
+- **VDI-filen** tilsvarer den virtuelle Hard-disken i dynamisk modus, så den er for øyeblikket bare 13 GB, mens den maksimale størrelsen er 64 GB
+- **NVRAM-filen** inneholder BIOS-tilstanden til den virtuelle maskinen, noe som tilsvarer det ikke-flyktige minnet til en fysisk maskin
 
 
 

@@ -74,13 +74,13 @@ Prikazuje retrospektivni rezultat od `34,593` i perspektivni rezultat od `45,202
 - Ako analitičar zna moj novčić na kraju ciklusa i pokuša da prati njegovo poreklo, naići će na `34,593` potencijalnih izvora, od kojih svaki ima jednaku verovatnoću da bude moj.
 - Ako analitičar zna moj novčić na početku ciklusa i pokuša da odredi njegovu korespondenciju na kraju, suočiće se sa `45,202` mogućih UTXO-a, od kojih svaki ima istu verovatnoću da bude moj.
 
-Zato smatram da je upotreba Whirlpool-a posebno relevantna u strategiji `HODL -> Mix -> Spend -> Replace`. Po mom mišljenju, najlogičniji pristup je držati većinu svojih ušteda u bitkoinima u [hladnom novčaniku, eng. Cold Wallet](https://planb.network/resources/glossary/cold-wallet), dok se stalno održava određeni broj novčića u CoinJoin-i na Samourai za pokrivanje dnevnih troškova. Nakon što se bitkoini iz CoinJoin-a potroše, menjaju se novim kako bi se održao željeni nivo mešanih novčića. Ova metoda nam omogućava da se oslobodimo brige o anonsetima naših UTXO-a, dok vreme potrebno za coinjoin postaje mnogo manje restriktivno.
+Zato smatram da je upotreba Whirlpool-a posebno relevantna u strategiji `HODL -> Mix -> Spend -> Replace`. Po mom mišljenju, najlogičniji pristup je držati većinu svojih ušteda u bitkoinima u [hladnom novčaniku, eng. Cold Wallet](https://planb.academy/resources/glossary/cold-wallet), dok se stalno održava određeni broj novčića u CoinJoin-i na Samourai za pokrivanje dnevnih troškova. Nakon što se bitkoini iz CoinJoin-a potroše, menjaju se novim kako bi se održao željeni nivo mešanih novčića. Ova metoda nam omogućava da se oslobodimo brige o anonsetima naših UTXO-a, dok vreme potrebno za coinjoin postaje mnogo manje restriktivno.
 
 
 Nadam se da je ovaj odgovor rasvetlio Whirlpool model. Ako želite da saznate više o tome kako coinjoins funkcionišu na Bitcoin-u, preporučujem da pročitate moj obuhvatan članak na ovu temu:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Spoljni resursi:**
 
@@ -89,3 +89,4 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

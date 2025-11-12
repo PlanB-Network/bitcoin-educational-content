@@ -1,0 +1,9 @@
+question: Jaká je hlavní slabina kruhové sítě?
+answer: Porucha jediného zařízení může přerušit celou síť
+wrong_answers:
+  - K propojení jednotlivých zařízení je zapotřebí mnoho kabelů
+  - Je obtížné rozšířit
+  - Jeho řízení je složité
+explanation: |
+  V kruhové topologii porucha jednoho zařízení přeruší smyčku a zabrání cirkulaci dat.
+reviewed: false

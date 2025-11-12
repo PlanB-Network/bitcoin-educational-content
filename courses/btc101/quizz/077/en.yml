@@ -1,12 +1,11 @@
-question: What is the risk of sharing the public key of a Bitcoin wallet?
-answer: Losing privacy.
+question: What should be the main concern when you own bitcoin?
+answer: The security of your funds.
 wrong_answers:
-  - Destroying the Bitcoin wallet.
-  - Losing the Bitcoins.
-  - Hacking the Bitcoin wallet.
+  - The value of Bitcoin in dollar terms.
+  - The legality of owning bitcoins.
+  - The permission to spend your funds.
 explanation: |
-  Sharing the public key involves risks to privacy, but not
-  to security. This is because the public key is used to
-  generate Bitcoin addresses and thus receive money, but it
-  does not represent ownership of the Bitcoins.
+  When you own bitcoins, the primary concern is the security
+  of your funds. This is because Bitcoin, like any other form
+  of currency, can be stolen or lost if not properly secured.
 reviewed: true

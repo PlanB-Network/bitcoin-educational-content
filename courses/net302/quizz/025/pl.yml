@@ -1,0 +1,9 @@
+question: Do czego służą zarezerwowane porty w modelu TCP/IP?
+answer: Nasłuchiwanie żądań dotyczących określonych usług
+wrong_answers:
+  - Do automatycznej enkapsulacji datagramów generate
+  - Fizyczne trasowanie ramek sieciowych
+  - Aby kontrolować fragmentację pakietów UDP
+explanation: |
+  Porty to logiczne punkty nasłuchiwania, które umożliwiają aplikacjom sieciowym rozróżnianie różnych usług działających na tym samym hoście.
+reviewed: false

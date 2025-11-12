@@ -1,0 +1,9 @@
+question: Které samohostitelské aplikace lze nainstalovat prostřednictvím aplikace Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Disk Google
+  - Dropbox
+  - OneDrive
+explanation: |
+  Společnost Umbrel nabízí obchod s aplikacemi se službami pro vlastní hostování, jako je například Nextcloud, kde můžete sami ukládat a synchronizovat soubory.
+reviewed: true

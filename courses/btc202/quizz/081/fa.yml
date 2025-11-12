@@ -1,0 +1,9 @@
+question: کدام پارامتر Bitcoin.conf اندازه Mempool را به مگابایت محدود می‌کند؟
+answer: maxmempool
+wrong_answers:
+  - توتالممپل
+  - انقضای حافظه‌پول
+  - mempoolsize
+explanation: |
+  maxmempool حداکثر اندازه Mempool را تنظیم می‌کند (به طور پیش‌فرض 300 مگابایت). وقتی پر شود، تراکنش‌های کم‌سودتر حذف می‌شوند.
+reviewed: true

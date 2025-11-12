@@ -2,7 +2,7 @@ question: Hangi profil KYC dışı edinimi ve yüksek güvenlikli cüzdanların 
 answer: Paranoyak
 wrong_answers:
   - Hodler
-  - İstifleyici
+  - İstifçi
   - Aktif kullanıcı
 explanation: |
   Paranoyak, gizlilik ve güvenliğe öncelik verir, son derece güvenli edinim ve depolama yöntemleri kullanır.

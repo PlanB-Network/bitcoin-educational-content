@@ -1,13 +1,11 @@
-question: Wat is de Mnemonic zin in een Bitcoin Wallet?
-answer: Een lijst van 12 of 24 woorden waarmee je toegang krijgt tot je bitcoins.
+question: Wat is de technologie die wordt gebruikt om veilig geld uit te geven met een Bitcoin Wallet?
+answer: Elliptische curve cryptografie.
 wrong_answers:
-  - Een gekozen wachtwoord voor toegang tot Bitcoin Wallet.
-  - Een code om Bitcoin transacties te versleutelen.
-  - Een geheime herstelzin die de Bitcoin Wallet vernietigt in geval van nood.
+  - Symmetrische cryptografie.
+  - Kwantumcryptografie.
+  - RSA-cryptografie.
 explanation: |
-  Sinds 2017 kan de privésleutel gecodeerd worden in een eenvoudige lijst
-  van 12 of 24 woorden, de Mnemonic-zin genoemd. Deze zin
-  is een back-up van je Bitcoin Wallet, dus het stelt je in staat om
-  toegang tot je bitcoins met elke Bitcoin Wallet
-  software/app te gebruiken.
+  Voor het uitgeven van Bitcoins moet de eigenaar Elliptic Curve
+  Digitale Handtekening Algoritme (ECDSA) om een handtekening te vervalsen
+  voor de verspreiding van een Bitcoin transactie.
 reviewed: true

@@ -1,12 +1,11 @@
-question: Bir Bitcoin Wallet'in açık anahtarını paylaşmanın riski nedir?
-answer: Mahremiyeti kaybetmek.
+question: Bitcoin'a sahip olduğunuzda temel endişeniz ne olmalıdır?
+answer: Fonlarınızın güvenliği.
 wrong_answers:
-  - Bitcoin Wallet yok ediliyor.
-  - Bitcoinleri kaybetmek.
-  - Bitcoin Wallet'i hacklemek.
+  - Bitcoin'in dolar cinsinden değeri.
+  - Bitcoin sahibi olmanın yasallığı.
+  - Fonlarınızı harcama izni.
 explanation: |
-  Açık anahtarın paylaşılması gizlilik için riskler içerir, ancak
-  güvenlik için. Bunun nedeni, açık anahtarın aşağıdakiler için kullanılmasıdır
-  generate Bitcoin adresleri ve dolayısıyla para almak, ancak
-  bitcoins'in Ownership'sını temsil etmemektedir.
+  Bitcoin sahibi olduğunuzda, öncelikli endişe güvenliktir
+  fonlarınızın. Bunun nedeni, Bitcoin'nin diğer tüm formlar gibi
+  para birimi, uygun şekilde güvence altına alınmazsa çalınabilir veya kaybolabilir.
 reviewed: true

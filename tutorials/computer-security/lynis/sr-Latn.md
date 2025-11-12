@@ -22,7 +22,7 @@ ___
 
 
 
-**U ovom vodiču ćemo naučiti kako da izvršimo bezbednosnu proveru na Linux mašini koristeći Lynis! Za one koji ne znaju **Lynis,** to je mali alat za komandnu liniju koji će analizirati konfiguraciju vašeg servera i dati preporuke za **poboljšanje bezbednosti vaše mašine.**
+**U ovom vodiču ćemo naučiti kako da izvršimo bezbednosnu proveru na Linux mašini koristeći Lynis!** Za one koji ne znaju **Lynis**, to je mali alat za komandnu liniju koji će analizirati konfiguraciju vašeg servera i dati preporuke za **poboljšanje bezbednosti vaše mašine**.
 
 
 
@@ -51,7 +51,7 @@ Alat se široko koristi od strane različitih korisnika, uključujući sistemske
 
 
 
-Projekat je dostupan na ovom Address na **Github** :
+Projekat je dostupan na ovom Address na **Github**:
 
 
 
@@ -82,7 +82,7 @@ Ovaj način instalacije omogućava vam da koristite komandu **lynis** sa bilo ko
 
 
 
-Povežite se sa svojim serverom putem SSH i unesite sledeće komande da instalirate Lynis :
+Povežite se sa svojim serverom putem SSH i unesite sledeće komande da instalirate Lynis:
 
 
 
@@ -209,7 +209,7 @@ Da biste prikazali dostupne komande, jednostavno unesite sledeću komandu:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Ovo je ono što dobijaš:
 
 
 
-Ako želite prikazati sve opcije, morate uneti :
+Ako želite prikazati sve opcije, morate uneti:
 
 
 
@@ -321,10 +321,10 @@ Dalje, Lynis će navesti skup tačaka koje odgovaraju svemu što je proverio na 
 
 
 
-- Crveno** za kritične Elements ili nepoštovanje najboljih praksi (na primer, nedostaje paket), tj. vaš server ne poštuje ovu tačku
-- Žuto** za sugestije ili delimičnu usklađenost sa preporukom (recimo da je plus ispuniti tačku istaknutu ovom bojom (neprioritetno))
-- Green** za tačke gde je konfiguracija vašeg servera usklađena
-- Bela**, kada je neutralna
+- **Crveno** za kritične Elements ili nepoštovanje najboljih praksi (na primer, nedostaje paket), tj. vaš server ne poštuje ovu tačku
+- **Žuto** za sugestije ili delimičnu usklađenost sa preporukom (recimo da je plus ispuniti tačku istaknutu ovom bojom (neprioritetno))
+- **Green** za tačke gde je konfiguracija vašeg servera usklađena
+- **Bela**, kada je neutralna
 
 
 
@@ -336,7 +336,7 @@ Ovde možemo videti da Lynis preporučuje instalaciju **fail2ban**:
 
 
 
-U odeljku "**Boot and services**" vidimo da bi zaštita servisa putem *systemd*-a mogla biti poboljšana. S pozitivne strane, Grub2 je prisutan i nema problema sa dozvolama na :
+U odeljku "**Boot and services**" vidimo da bi zaštita servisa putem *systemd*-a mogla biti poboljšana. S pozitivne strane, Grub2 je prisutan i nema problema sa dozvolama na:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Neke informacije o instaliranim paketima :
+Neke informacije o instaliranim paketima:
 
 
 
 
 
-- Clamav** je antivirus.
-- unattend-upgrades** će vam omogućiti da automatski upravljate svojim ažuriranjima i čak restartujete mašinu ili automatski očistite stare pakete, potpuno je podesiv.
-- rkhunter** je anti-rootkit koji skenira vaš fajl sistem.
-- Fail2ban** će se oslanjati na vaše log fajlove prema onome što mu date da pročita i radiće sa **iptables**, na primer da zabrani IP adrese koje pokušavaju da "brute force-uju" vaš server preko SSH.
+- **Clamav** je antivirus.
+- **unattend-upgrades** će vam omogućiti da automatski upravljate svojim ažuriranjima i čak restartujete mašinu ili automatski očistite stare pakete, potpuno je podesiv.
+- **rkhunter** je anti-rootkit koji skenira vaš fajl sistem.
+- **Fail2ban** će se oslanjati na vaše log fajlove prema onome što mu date da pročita i radiće sa **iptables**, na primer da zabrani IP adrese koje pokušavaju da "brute force-uju" vaš server preko SSH.
 
 
 
@@ -623,7 +623,7 @@ Hajde da pogledamo preporuke za SSH. One su navedene ispod. Ne brinite, odmah ć
 
 
 
-Hajde da detaljnije pogledamo moju trenutnu **SSH** konfiguraciju u :**/etc/ssh/sshd_config**
+Hajde da detaljnije pogledamo moju trenutnu **SSH** konfiguraciju u:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Konfiguracija predložena u nastavku još uvek može biti optimizovana, ali vam 
 
 
 
-Mi ćemo :
+Mi ćemo:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Zadrži autentifikaciju lozinkom :
+- Zadrži autentifikaciju lozinkom:
 
 
 
@@ -804,7 +804,7 @@ Vredi napomenuti da je u nekim jurisdikcijama slanje poruke pre autentifikacije 
 
 
 
-Na slikama, ovo daje :
+Na slikama, ovo daje:
 
 
 
@@ -820,7 +820,7 @@ Konačno, ne zaboravimo da proverimo **Lynis audit score**! Vidimo da je **moj H
 
 
 
-**Drugim rečima, što je viši rezultat, to bolje! Stoga treba da radite na svojoj konfiguraciji kako biste postigli najviši mogući rezultat, dok omogućavate vašoj mašini i hostovanim uslugama da funkcionišu normalno (što znači sprovođenje funkcionalnih testova).
+**Drugim rečima, što je viši rezultat, to bolje! Stoga treba da radite na svojoj konfiguraciji kako biste postigli najviši mogući rezultat, dok omogućavate vašoj mašini i hostovanim uslugama da funkcionišu normalno (što znači sprovođenje funkcionalnih testova).**
 
 
 
@@ -896,4 +896,4 @@ Konačno, možete uporediti **Lynis** sa drugim alatima, kojih ima nekoliko. Ako
 
 
 
-**Ovaj vodič je završen, zabavite se sa Lynis!
+**Ovaj vodič je završen, zabavite se sa Lynis!**

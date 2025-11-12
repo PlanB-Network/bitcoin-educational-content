@@ -1,13 +1,11 @@
-question: Koja je preporučena upotreba offline, ili Cold, fizičkog novčanika?
-answer: Skladištenje velikih količina.
+question: Jedna preporučena alternativa korišćenju papira za čuvanje vaše Mnemonic fraze je korišćenje metalne pločice ili uređaja specijalno dizajniranog za čuvanje fraza.
+answer: Urezivanje na metalnu ploču.
 wrong_answers:
-  - Čuvanje dnevnih troškova.
-  - Skladištenje malih količina.
-  - Čuvanje kratkoročnih ušteda.
+  - Čuvanje u digitalnoj datoteci.
+  - Pisanje na beloj tabli.
+  - Čuvanje kao kontakt u vašem telefonu.
 explanation: |
-  Preporučuje se offline, ili Cold, fizički novčanik za
-  skladištenje velikih količina jer je manje podložan
-  online pretnjama nego Hot novčanici. Međutim, nije
-  preporučljiv za dnevne troškove jer je manje
-  dostupan za dnevne transakcije.
+  Jedna od preporučenih alternativa papiru za čuvanje
+  vaše Mnemonic fraze je graviranje na metalnoj ploči. Ovo
+  rešenje je izdržljivije i dugotrajnije.
 reviewed: true

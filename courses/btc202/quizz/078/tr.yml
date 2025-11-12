@@ -1,0 +1,9 @@
+question: BlkNNNNN.dat ile birlikte saklanan revNNNNN.dat dosyalarının amacı nedir?
+answer: Yeniden düzenleme sırasında ayarlanan UTXO'ı geri yükleme
+wrong_answers:
+  - Hard Fork sırasında ayarlanan UTXO'yi geri yükleme
+  - Hard Fork sırasında Mempool'ü geri yükleyin
+  - Yeniden yapılanma sırasında Mempool'in geri yüklenmesi
+explanation: |
+  Her revNNNNN.dat, bir bloğun UTXO seti üzerindeki etkilerini geri almak için gereken verileri içerir ve yeniden düzenlemeleri yönetmeyi kolaylaştırır.
+reviewed: true

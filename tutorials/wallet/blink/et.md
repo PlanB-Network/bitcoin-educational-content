@@ -1,5 +1,5 @@
 ---
-name: Vilkumine
+name: Blink
 description: Täielik Blink Wallet õpetus - saatmine, vastuvõtmine ja Bitcoin kasutamine hõlpsasti
 ---
 

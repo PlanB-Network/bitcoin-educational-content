@@ -1,0 +1,9 @@
+question: Ni amri gani inayoonyesha hali ya kina ya miingiliano yote ya mtandao kwenye Linux?
+answer: onyesho la ip
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - onyesho la njia ya ip
+explanation: |
+  amri ya "ip addr show" huorodhesha violesura vyote vya mtandao, pamoja na hali zao, anwani, na vigezo vinavyohusiana.
+reviewed: false

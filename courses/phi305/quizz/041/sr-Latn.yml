@@ -1,0 +1,9 @@
+question: Ko je Saint-Augustin?
+answer: Jedan od Otaca Crkve.
+wrong_answers:
+  - Filozof prosvetiteljstva.
+  - Astronom.
+  - Pronalazač.
+explanation: |
+  Sveti Avgustin (354-430) je jedan od Otaca Crkve. Kao filozof i teolog, duboko je uticao na zapadno hrišćansko mišljenje delima kao što su 'Ispovesti' i 'Grad Božji'.
+reviewed: false

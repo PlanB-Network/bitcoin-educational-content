@@ -1,0 +1,9 @@
+question: Umbrel Home ve umbrelOS arasındaki fark nedir?
+answer: Umbrel Home önceden yüklenmiş bir mini sunucudur, umbrelOS ise kendin yap kurulumudur
+wrong_answers:
+  - Umbrel Home ücretsizdir, umbrelOS değildir
+  - Umbrel Home Bitcoin'ı desteklemez; umbrelOS destekler
+  - Umbrel Home açık kaynak kodlu, umbrelOS ise tescilli
+explanation: |
+  Umbrel Home, umbrelOS kurulu olarak anahtar teslimi satılırken, umbrelOS kendi donanımınıza DIY olarak kurulabilir.
+reviewed: true

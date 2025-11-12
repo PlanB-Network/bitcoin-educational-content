@@ -1,10 +1,8 @@
-question: Jaki jest jeden ze sposobów nabycia bitcoinów bez KYC?
-answer: Bankomaty Bitcoin.
+question: Do czego podobna jest krzywa adopcji Bitcoin?
+answer: Krzywa S.
 wrong_answers:
-  - Platformy brokerskie.
-  - Platformy DCA.
-  - Przelewy bankowe.
-explanation: |
-  Tekst kursu wspomina, że istnieje kilka sposobów na
-  nabyć Bitcoiny bez KYC, z których jednym są bankomaty Bitcoin.
+  - Krzywa w kształcie litery U.
+  - Krzywa V.
+  - Krzywa W.
+explanation: >-
 reviewed: true

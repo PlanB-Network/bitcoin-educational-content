@@ -1,13 +1,12 @@
-question: Aşağıdakilerden hangisi Bitcoin'ın bir para birimi olarak avantajlarından biri değildir?
-answer: Vergi ödemek için kullanılır.
+question: Var olabilecek en fazla Bitcoin birimi sayısı nedir?
+answer: 21 milyon.
 wrong_answers:
-  - Bölünebilir.
-  - Taşınabilir.
-  - İzinsizdir.
+  - 3 trilyon.
+  - 100 milyon.
+  - Bunun bir sınırı yok.
 explanation: |
-  Bitcoin, bölünebilirliği gibi özellikleri nedeniyle,
-  doğrulanabilirlik, izinsiz yön ve taşınabilirlik,
-  mükemmel bir değer deposu sunar. Ayrıca, tarafsız bir kurum olarak
-  internet para birimi, Exchange'in iyi bir aracını temsil eder
-  sınır tanımaz.
+  Bitcoin'in toplam Supply miktarı 21 milyon ünite ile sınırlandırılmıştır.
+  Bu, Bitcoin'i farklılaştıran önemli bir özelliktir
+  basılabilen güvene dayalı para birimlerinden
+  merkez bankaları tarafından sınırsız miktarda.
 reviewed: true

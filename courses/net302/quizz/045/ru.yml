@@ -1,0 +1,9 @@
+question: Что такое практика искусственного изменения вашего MAC Address?
+answer: Подмена MAC-адресов
+wrong_answers:
+  - Фишинг MAC
+  - MAC Sniffing
+  - Mac Keylogging
+explanation: |
+  Подмена MAC-адреса - это действие по изменению аппаратного Address сетевого Interface, часто по соображениям конфиденциальности или для обхода ограничений.
+reviewed: false

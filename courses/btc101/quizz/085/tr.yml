@@ -1,13 +1,13 @@
-question: Hot Wallet nedir?
-answer: Telefonunuzda veya internete bağlı bilgisayarınızda bir Bitcoin Wallet.
+question: Multisig Wallet için önerilen kullanım şekli nedir?
+answer: Kurumsal kullanım için büyük miktarlarda depolama.
 wrong_answers:
-  - Dokunulduğunda fiziksel olarak Hot olan bir Wallet.
-  - Bitcoin kullanıcıları arasında popüler olan bir Wallet.
-  - Büyük miktarlarda bitcoin depolamak için önerilen bir Wallet.
+  - Kişisel kullanım için küçük miktarlarda depolama.
+  - Kar amacı gütmeyen kullanım için orta miktarlarda depolama.
+  - Bireysel kullanım için günlük harcamaların saklanması.
 explanation: |
-  Hot Wallet, Bitcoin Wallet'u tanımlamak için kullanılan bir terimdir
-  gibi internet erişimi olan bir cihazda depolanan
-  telefon veya bilgisayar. Bu şekilde, yürütmek kolaydır
-  işlemler, ancak aynı zamanda Wallet'un
-  potansiyel olarak çevrimiçi tehditlere karşı savunmasızdır.
+  Büyük miktarlarda depolama için bir Multisig Wallet önerilir
+  ve kurumsal kullanım için birden fazla
+  bir işlem gerçekleştirmek için imzalar. Bu süreç bir
+  ekstra Layer güvenlik, çünkü tek bir kişi
+  başkalarının onayı olmadan bir işlem yapmak.
 reviewed: true

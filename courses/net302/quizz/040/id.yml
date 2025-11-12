@@ -1,0 +1,9 @@
+question: Catatan mana yang wajib ada di setiap file zona DNS?
+answer: SOA (Mulai Otoritas)
+wrong_answers:
+  - PTR (Penunjuk)
+  - AAAA (IPv6 Address)
+  - SRV (Pencari Lokasi Layanan)
+explanation: |
+  Catatan SOA mendefinisikan otoritas zona dan diperlukan di setiap file zona DNS.
+reviewed: false

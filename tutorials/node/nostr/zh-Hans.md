@@ -4,9 +4,10 @@ name: NOSTR
 description: 发现并开始使用NOSTR
 ---
 
-在本指南结束时，您将了解什么是Nostr，您将创建一个账户，并能够使用它。
 
 ![一个新的挑战者已经到来](assets/1.webp)
+
+*在本指南的最后，您将了解什么是 Nostr，您将创建一个账户，并且能够使用它。*
 
 ## 什么是Nostr?
 
@@ -34,9 +35,9 @@ Nostr基于三个组件：密钥对、客户端和中继。
 
 客户端是允许与Nostr互动的软件。主要客户端有：
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 客户端允许用户生成新的密钥对（相当于创建一个账户）或使用现有的密钥对进行认证。
 
@@ -46,7 +47,7 @@ Nostr基于三个组件：密钥对、客户端和中继。
 
 > 💡 专业提示：付费中继通常在过滤垃圾邮件和不需要的内容方面更有效。
 
-# 指南
+## 指南
 
 现在您已经了解了足够的关于Nostr的信息，可以开始并在此协议上创建您的第一个身份了。
 

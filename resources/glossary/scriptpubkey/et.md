@@ -18,4 +18,4 @@ Vastav `scriptSig` oleks:
 
 ![](../../dictionnaire/assets/35.webp)
 
-> ► *Seda kirjaviisi nimetatakse inglise keeles mõnikord ka "locking script"
+> ► *Seda kirjaviisi nimetatakse inglise keeles mõnikord ka "locking script"*

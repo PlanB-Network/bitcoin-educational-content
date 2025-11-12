@@ -34,7 +34,7 @@ Jade Plus 與大多數的 Wallet 管理軟體相容。以下是撰寫本文時�
 在本教學中，我們將透過藍牙連線設定並使用 Jade Plus 與 Blockstream 的 Green Wallet 行動應用程式。此設定非常適合初學者。如果您正在尋找更進階的方法，我建議您參考本教學，我們將在 QR 碼模式下使用 Jade Plus 搭配 Sparrow Wallet：
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Jade Plus 安全模式
 
@@ -127,7 +127,7 @@ Jade Plus 使用基於 「虛擬安全元件 」的安全模型，由 「盲甲�
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-您的 Jade Plus 會顯示 12 個字的 Mnemonic 詞組。 **這個 Mnemonic 讓您可以完全不受限制地存取您所有的 bitcoins。任何擁有這個短語的人都可以盜取您的資金，即使沒有實體接觸到您的 Jade Plus。如果您的 Jade 遺失、被盜或破損，這 12 個字的短語可以恢復您對比特幣的存取權。因此，小心保存並存放在安全的地方是非常重要的。
+您的 Jade Plus 會顯示 12 個字的 Mnemonic 詞組。**這個 Mnemonic 讓您可以完全不受限制地存取您所有的 bitcoins。任何擁有這個短語的人都可以盜取您的資金，即使沒有實體接觸到您的 Jade Plus。如果您的 Jade 遺失、被盜或破損，這 12 個字的短語可以恢復您對比特幣的存取權。因此，小心保存並存放在安全的地方是非常重要的。**
 
 
 您可以在包裝盒內隨附的紙板上書寫，或者為了增加安全性，我建議您將它刻在不銹鋼底座上，以防止火災、水災或倒塌。
@@ -139,9 +139,9 @@ Jade Plus 使用基於 「虛擬安全元件 」的安全模型，由 「盲甲�
 如需更多關於儲存和管理 Mnemonic 詞組的正確方法的資訊，我強烈建議您參考這篇教學，尤其是對於初學者而言：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除
+**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除**
 
 
 按一下螢幕右邊的箭頭，會顯示下列字元。
@@ -162,12 +162,12 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在本教程中，我們將使用 Green Wallet 應用程式來管理 Jade Plus 上託管的 Wallet。這個方法特別適合初學者。如果您想更詳細地管理 Bitcoin Wallet，也可以使用 Sparrow Wallet，我們會在另一個教學中介紹：
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 如需安裝和設定 Blockstream Green 應用程式的說明，請參閱本其他教學的第一部分：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 進入 Blockstream Green 應用程式後，按一下「*設定新的 Wallet*」按鈕。
 
@@ -283,7 +283,7 @@ PIN 碼可為您的 Jade 解鎖。因此，它可以防止未經授權的實體�
 如需「*2FA*」選項的詳細資訊，您可以參考其他教學：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 您的帳戶已建立。
 
@@ -321,7 +321,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c2
 在您的 Wallet 收到您的第一枚比特幣之前，**我強烈建議您進行一次空復原測試**。記下一些參考資訊，例如您的 xpub 或第一次收到的 Address，然後在 Green 應用程式和 Jade Plus 上刪除您的 Wallet，而它還是空的（`選項 -> 裝置 -> Factory Reset`）。然後嘗試使用 Mnemonic 短語的紙張備份還原您的 Wallet。檢查還原後生成的 cookie 資訊是否與您最初寫下的相符。如果是的話，您可以放心您的紙本備份是可靠的。若要瞭解更多有關如何進行測試復原的資訊，請參閱本教程 ：
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## 接收比特幣
 
@@ -419,4 +419,5 @@ Green 會顯示接收 Address，但在使用之前，必須先在 Jade 上檢查
 若想更進一步，我建議您參考這篇有關 Jade Plus 的教學，我們在 QR 模式下使用 Sparrow Wallet 軟體進行設定。您也可以學習如何使用 Hardware Wallet 的進階設定：
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

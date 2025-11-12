@@ -1,0 +1,9 @@
+question: Các cổng dành riêng được sử dụng để làm gì trong mô hình TCP/IP?
+answer: Để lắng nghe các yêu cầu về các dịch vụ cụ thể
+wrong_answers:
+  - Để đóng gói dữ liệu tự động generate
+  - Để định tuyến vật lý các khung mạng
+  - Để kiểm soát sự phân mảnh gói UDP
+explanation: |
+  Cổng là điểm lắng nghe hợp lý cho phép các ứng dụng mạng phân biệt giữa các dịch vụ khác nhau chạy trên cùng một máy chủ.
+reviewed: false

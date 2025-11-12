@@ -1,0 +1,9 @@
+question: Ni itifaki gani ya kisasa inatoa utendaji sawa na IPv5 ililenga katika ubora wa mtandao wa usimamizi wa huduma?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Itifaki ya Kuhifadhi Rasilimali) inaruhusu uhifadhi unaobadilika wa rasilimali za mtandao ili kuhakikisha Ubora wa Huduma (QoS), ambalo lilikuwa lengo asili la IPv5.
+reviewed: false

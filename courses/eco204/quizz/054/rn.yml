@@ -1,0 +1,10 @@
+question: Ni igiki gitegekanijwe n’igihugu kugira ngo gifatwe mu gihe c’ugutera imbere cane kw’ibiciro?
+answer: 50% ku kwezi
+wrong_answers:
+  - 10% ku kwezi
+  - 25% ku kwezi
+  - 75% ku kwezi
+explanation: |
+  Mu mwaka w’2007, igipimo c’ugutera imbere kw’ibiciro muri Zimbabwe carashitse ku rugero rwa 50% ku kwezi,
+  gushiramwo ikimenyetso ku mugaragaro ko igihugu kiri mu bihe vy’ugutera imbere kw’ibiciro.
+reviewed: false

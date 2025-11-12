@@ -1,0 +1,9 @@
+question: Która amerykańska agencja stała za projektem ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Agencja Zaawansowanych Projektów Badawczych) zainicjowała ARPANET, który położył podwaliny pod rozwój protokołu TCP/IP. W 1972 roku agencja została przemianowana na DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

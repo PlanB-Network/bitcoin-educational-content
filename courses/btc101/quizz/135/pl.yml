@@ -1,8 +1,8 @@
-question: Jaka jest funkcja regulacji trudności w sieci Bitcoin?
-answer: Gwarantuje to, że blok jest dodawany do Blockchain mniej więcej co dziesięć minut.
+question: Czym jest przycięty węzeł w kontekście Bitcoin?
+answer: Węzeł, który przechowuje w pamięci tylko N ostatnich bloków.
 wrong_answers:
-  - Określa on cenę Bitcoin.
-  - Reguluje on liczbę bitcoinów, które mogą być wydobywane w Blockchain.
-  - Określa on rozmiar bloku.
+  - Węzeł, który tylko zatwierdza transakcje.
+  - Węzeł, który przesyła informacje tylko do innych węzłów.
+  - Węzeł, który egzekwuje tylko zasady protokołu Bitcoin.
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Spinoza şans hakkında ne düşünüyor?
+answer: Öyle bir şey yok.
+wrong_answers:
+  - Öyle bir şey var.
+  - Bunu kadercilikle bir tutuyor.
+  - Bunu batıl inanç olarak görüyor.
+explanation: |
+  Spinoza'ya göre şans diye bir şey yoktur. Evrendeki her şey zorunlu ve belirlenmiş yasaları izler. Bize şans olarak görünen şey, yalnızca gerçek nedenler hakkındaki bilgisizliğimizin sonucudur.
+reviewed: false

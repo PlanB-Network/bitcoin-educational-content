@@ -1,14 +1,12 @@
-question: Wat moet je back-uppen als je een Wallet met een passphrase gebruikt?
-answer: Je moet een back-up maken van zowel de lijst van 12 of 24 woorden als je passphrase.
+question: Wat betekent de afwezigheid van een Mnemonic zin in een Wallet?
+answer: Dit geeft aan dat Wallet niet veilig is voor langdurige opslag van Bitcoin.
 wrong_answers:
-  - Je hoeft alleen een back-up te maken van de lijst van 12 of 24 woorden.
-  - Je hoeft alleen een back-up te maken van je passphrase.
-  - Je hoeft geen back-up te maken van de lijst van 12 of 24 woorden of van je passphrase.
+  - Het geeft aan dat de Wallet volledig veilig is en geen back-up nodig heeft.
+  - Dit betekent dat de Wallet veel verschillende bindingen kan bevatten.
+  - Het suggereert dat de Wallet automatisch wordt geback-upt door je apparaat.
 explanation: |
-  Wanneer je een Wallet met een passphrase gebruikt, moet je een back-up maken van
-  van zowel de lijst met 12 of 24 woorden als van je passphrase,
-  omdat de lijst met woorden en de passphrase beide
-  nodig zijn om weer toegang te krijgen tot uw geld in geval van
-  verlies van uw telefoon of computer. Zonder het een of het ander,
-  zijn de fondsen niet toegankelijk.
+  Het ontbreken van een lijst van 12 of 24 woorden, dat is de
+  Mnemonic zin, in een Wallet zou je moeten waarschuwen dat de
+  Wallet niet veilig is, omdat het geen standaard back-up
+  procedures.
 reviewed: true

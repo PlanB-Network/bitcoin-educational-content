@@ -1,0 +1,13 @@
+question: Ni impaka iyihe iri mu muryango wa Bitcoin ku bijanye na Mining?
+answer: Uburinganire hagati yo kurondera inyungu no gutanga umusanzu mu gucungera no gukwiragiza urubuga rwa Bitcoin .
+wrong_answers:
+  - Uburinganire hagati yo kwongerera Hashrate no kugabanya umubare w'ibihimba bikora .
+  - Uburinganire hagati yo kwongera igiciro no kugabanya igiciro
+  - Uburinganire hagati yo kwongera umubare w'ibikorwa no kugabanya ingufu zikoreshwa
+explanation: |
+  Impaka ziri mu muryango wa Bitcoin ku bijanye na Mining.
+  izunguruka uburinganire hagati yo kurondera inyungu n’
+  gutanga umusanzu mu mutekano no mu gukwiragiza
+  Bitcoin urusobe rw’ibintu. Hariho imvo zikomeye ku mpande zompi .
+  y’impaka.
+reviewed: true

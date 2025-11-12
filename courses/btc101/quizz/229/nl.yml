@@ -1,8 +1,14 @@
-question: Hoe zijn transacties op de Lightning Network beveiligd?
-answer: Via cryptografie en indirect via de energie die miners verbruiken op Bitcoin.
+question: Wat is het concept van skin in the game in de context van de videogame-industrie?
+answer: Financieel belang hebben bij de uitkomst van een wedstrijd.
 wrong_answers:
-  - Alleen door het gebruik van privésleutels.
-  - Alleen door het gebruik van openbare sleutels.
-  - Alleen door het gebruik van zowel private als publieke sleutels.
-explanation: >-
+  - Pas personages aan met unieke skins die de gameplay verbeteren.
+  - In-game items kopen met echt geld.
+  - Gameskins verkopen voor echt geld.
+explanation: |
+  Het concept van skin in the game is een idee dat onlangs
+  recentelijk aan populariteit heeft gewonnen in de videogame-industrie. Het
+  verwijst in wezen naar het idee dat ontwikkelaars en
+  belanghebbenden een persoonlijke investering of belang hebben in het
+  succes van een game, waardoor hun belangen op één lijn liggen met
+  het leveren van een kwaliteitsproduct.
 reviewed: true

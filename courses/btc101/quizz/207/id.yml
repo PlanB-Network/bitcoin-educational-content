@@ -1,9 +1,10 @@
-question: Apa salah satu risiko potensial dari menyimpan Bitcoin Anda di platform pertukaran?
-answer: Risiko peretasan dan pemblokiran dana.
+question: Apa yang diprediksi oleh Milton Friedman pada tahun 1999?
+answer: Pengembangan e-cash yang dapat diandalkan
 wrong_answers:
-  - Risiko platform meningkatkan harga Bitcoin.
-  - Risiko platform mengendalikan pasokan Bitcoin.
-  - Risiko platform mencegah Anda membeli lebih banyak Bitcoin.
+  - Kejatuhan uang fisik
+  - Munculnya Bitcoin
+  - Berakhirnya kontrol pemerintah terhadap uang
 explanation: >-
-  Teks tersebut menyebutkan bahwa menyimpan Bitcoin Anda di platform pertukaran dapat
-  memaparkan Anda pada risiko peretasan dan pemblokiran dana.
+  Milton Friedman, seorang ekonom terkemuka, memprediksi pada tahun 1999 bahwa e-cash yang dapat diandalkan akan segera dikembangkan, sebuah metode di mana di Internet Anda dapat mentransfer
+  dana dari A ke B tanpa A mengetahui B atau B mengetahui A.
+reviewed: false

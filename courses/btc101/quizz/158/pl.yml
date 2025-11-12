@@ -1,8 +1,13 @@
-question: Jaki jest cel Proof of Work w sieci Bitcoin?
-answer: Proof of Work zapewnia prawdziwość informacji bez ufania stronie trzeciej.
+question: W jaki sposób protokół Bitcoin utrzymuje stały średni czas między utworzeniem dwóch bloków?
+answer: Trudność w znalezieniu ważnego Hash zmienia się co 2016 bloków.
 wrong_answers:
-  - Proof of Work służy do tworzenia nowych bitcoinów poprzez zaufanie stronie trzeciej.
-  - Proof of Work służy do weryfikacji transakcji Bitcoin poprzez zaufanie stronie trzeciej.
-  - Proof of Work jest używany do zmiany protokołu Bitcoin bez ufania stronie trzeciej.
-explanation: >-
+  - Liczba górników jest regulowana do stałej liczby.
+  - Rozmiar bloków jest ustawiony na 10 megabajtów.
+  - Zwiększono nagrodę za znalezienie ważnego Hash.
+explanation: |
+  Protokół Bitcoin zapewnia, że średni czas pomiędzy
+  dwoma blokami pozostaje stały poprzez dostosowanie trudności
+  znalezienia ważnego Hash co 2016 bloków. Zdarzenie to ma miejsce
+  niezależnie od liczby górników i ich mocy obliczeniowej
+  mocy obliczeniowej.
 reviewed: true

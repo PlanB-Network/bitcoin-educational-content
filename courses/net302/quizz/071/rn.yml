@@ -1,0 +1,9 @@
+question: Ni uruhe rudome rukoreshwa mu kwerekana ubunini bw’intango muri IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Urusenga rw'utudomo rw'icumi
+  - Hexadecimal itandukanijwe n'inyuguti zibiri
+  - ICANN
+explanation: |
+  CIDR notation igaragaza umubare w'ibice vy'intango bihoraho inyuma y'agacamuzingi, nk'uko biri muri IPv4.
+reviewed: false

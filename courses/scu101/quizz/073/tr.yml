@@ -2,8 +2,8 @@ question: Parola yöneticisi kullanmanın temel avantajı nedir?
 answer: Yalnızca bir ana parolanın hatırlanması.
 wrong_answers:
   - Artık yeni parolalar oluşturulmuyor.
-  - Mnemonic tekniklerini kullanarak tüm şifrelerin ezberlenmesine yardımcı olmak.
+  - Anımsatıcı teknikler kullanarak tüm şifrelerin ezberlenmesine yardımcı olmak.
   - Çevrimiçi hesap ihtiyacının ortadan kaldırılması.
 explanation: |
-  Kullanıcının diğerlerine erişmek için yalnızca bir şifreyi hatırlaması gerekir.
+  Kullanıcının diğer şifrelerine erişmek için yalnızca bir şifreyi hatırlaması gerekir.
 reviewed: true

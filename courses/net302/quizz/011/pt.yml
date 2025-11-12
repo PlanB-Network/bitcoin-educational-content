@@ -1,0 +1,9 @@
+question: Qual é a principal razão pela qual o IPv5 nunca foi amplamente implantado?
+answer: Continuou a ser experimental
+wrong_answers:
+  - A sua implantação era demasiado dispendiosa
+  - Não era compatível com o IPv6
+  - Tinha grandes falhas de segurança
+explanation: |
+  O IPv5 foi implementado apenas a título experimental. Nunca foi padronizado ou amplamente adotado, e acabou sendo abandonado em favor do IPv6.
+reviewed: false

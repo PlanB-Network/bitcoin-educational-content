@@ -1,0 +1,9 @@
+question: Mis on IPv6 kasutuselevõtu peamine eesmärk?
+answer: Anda praktiliselt piiramatu Address ruum
+wrong_answers:
+  - Ethernet läbilaskevõime suurendamine 4-kordselt
+  - TCP järkjärguline asendamine UDP-ga
+  - Vähendada baitide arvu paketi kohta
+explanation: |
+  IPv6 peamine eesmärk on lahendada IP-aadresside puudus, laiendades massiliselt Address ruumi.
+reviewed: false

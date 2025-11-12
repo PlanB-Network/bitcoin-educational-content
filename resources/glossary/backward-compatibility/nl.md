@@ -1,0 +1,5 @@
+---
+term: ACHTERWAARTSE COMPATIBILITEIT
+---
+
+Verwijst naar het vermogen van een update van protocolregels om compatibiliteit met vorige versies te behouden. Dit betekent dat de wijzigingen zo ontworpen zijn dat oudere knooppunten (knooppunten die versies draaien van voor de regelwijziging) nog steeds kunnen communiceren met het netwerk en de keten met het meeste werk kunnen volgen. Daarom is het essentieel dat de oudere knooppunten noch de nieuwe blokken noch de nieuwe transacties weigeren. Achterwaartse compatibiliteit vermindert de waarschijnlijkheid dat een update het netwerk fragmenteert aanzienlijk, waardoor de verdeling van knooppunten in subgroepen op verschillende ketens wordt vermeden. Om compatibiliteit met vorige versies van het protocol te garanderen, moet een update de bestaande regels strenger maken of nieuwe regels introduceren. Dit principe definieert een "Soft Fork". Omgekeerd, als een update de bestaande regels versoepelt of sommige regels elimineert, dan is deze niet achterwaarts compatibel. Dit zou een "Hard Fork" zijn.

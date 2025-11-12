@@ -1,11 +1,8 @@
-question: Ni gharama gani ya kuendesha nodi ya Bitcoin kwenye Raspberry Pi 4 kwa suala la matumizi ya umeme kwa mwaka (kama 2023)?
-answer: Chini kidogo ya 10€ kwa mwaka.
+question: Ni nini matokeo ya vita vya kuzuia mnamo 2017?
+answer: Watumiaji na nodi walikataa mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kizuizi, na kuamilisha sasisho linaloitwa SegWit.
 wrong_answers:
-  - Zaidi kidogo ya 50 € kwa mwaka.
-  - Chini kidogo ya 100€ kwa mwaka.
-  - Karibu € 200 kwa mwaka.
-explanation: |
-  Kuendesha nodi ya Bitcoin kwenye Raspberry Pi 4 kunagharimu kidogo
-  chini ya 10€ kwa mwaka katika suala la matumizi ya umeme
-  hadi 2023.
+  - Watumiaji na nodi walikubali mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kizuizi, na kuamilisha sasisho linaloitwa SegWit.
+  - Watumiaji na nodi walikataa mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kuzuia, na hawakuwasha sasisho zozote.
+  - Watumiaji na nodi walikubali mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kuzuia, na hawakuwasha masasisho yoyote.
+explanation: >-
 reviewed: true

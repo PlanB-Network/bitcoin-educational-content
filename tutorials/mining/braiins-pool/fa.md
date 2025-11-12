@@ -1,5 +1,5 @@
 ---
-name: استخر Braiins
+name: Braiins Pool
 
 description: مقدمه‌ای بر استخر Braiins
 ---

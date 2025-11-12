@@ -1,0 +1,9 @@
+question: ¿Qué aplicación de Umbrel te permite gestionar tu nodo Lightning con un Interface avanzado?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay Lightning
+  - Relé Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning y ThunderHub ofrecen un Interface completo basado en web para administrar un nodo Lightning.
+reviewed: true

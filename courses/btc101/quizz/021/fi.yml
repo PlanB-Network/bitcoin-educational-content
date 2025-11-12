@@ -1,11 +1,12 @@
-question: Mikä on yksi kullan haitoista rahana?
-answer: Sitä ei ole helppo jakaa osiin.
+question: Mikä on nykypäivän valuutan kehityspolku?
+answer: Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Lohkoketju -> Salamaverkko
 wrong_answers:
-  - Se ei säilytä arvoaan paikasta toiseen.
-  - Se kuluu ajan myötä.
-  - Sitä on helppo tuottaa.
+  - Raakakivi -> Kolikko -> Seteli -> Lohkoketju -> Salamaverkko
+  - Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Salamaverkko
+  - Raakakivi -> Kolikko -> Pankkikortti -> Seteli -> Lohkoketju -> Salamaverkko
 explanation: |
-  Yksi kullan päähaitoista rahana on,
-  että sitä on vaikea jakaa pieniin yksiköihin tarpeen mukaan,
-  mikä tekee siitä vähemmän käytännöllisen käyttää.
+  Valuutta on teknologia, joka on kehittynyt ajan myötä,
+  alkaen raakakivien edustamasta arvosta, muuttuen metallisiksi kolikoiksi,
+  sitten seteleiksi, pankkikorteiksi ja lopulta vertaisverkkoihin
+  Bitcoin-lohkoketjun ja Salamaverkon käytön myötä.
 reviewed: true

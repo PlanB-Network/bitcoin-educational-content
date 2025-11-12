@@ -1,14 +1,12 @@
-question: Je, pesa ina jukumu gani kama chombo cha mawasiliano?
-answer: Inaruhusu mawasiliano ya thamani katika nafasi na wakati na bila hitaji la kumwamini mwenza.
+question: Ni faida gani kuu ya sarafu ya fiat?
+answer: Wanaweza kugawanywa kwa urahisi.
 wrong_answers:
-  - Inaruhusu mawasiliano ya thamani kwenye nafasi pekee na bila hitaji la kumwamini mwenza.
-  - Huruhusu mawasiliano ya thamani kwa muda wote pekee na bila hitaji la kumwamini mwenza.
-  - Inaruhusu mawasiliano ya thamani katika nafasi na wakati na kwa hitaji la kumwamini mwenza.
+  - Wanadhibitiwa na chama kikuu.
+  - Hazisafirishwi kwa urahisi.
+  - Zinafaa kushikilia thamani kwa muda wote.
 explanation: |
-  Pesa kama chombo cha mawasiliano huruhusu mawasiliano kote
-  nafasi na wakati, tunapobadilisha wakati na nguvu zetu kuwa a
-  mali ambayo inaweza kutumika tena katika siku zijazo bila hatari ya
-  kushuka kwa thamani. Pia inaruhusu mawasiliano katika ulimwengu wote
-  lugha ya kawaida, kuwezesha wageni wawili kwa Exchange, biashara,
-  na kukubaliana juu ya thamani ya vitu.
+  Fedha za Fiat, kama vile dola na euro, ni nyingi sana
+  Liquid na inaweza kusafirishwa kwa urahisi kwa sababu sasa ni nyingi
+  kidigitali. Walakini, thamani yao inaharibiwa kila wakati
+  mfumuko wa bei wa fedha.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Какой протокол используют Electrs и Fulcrum для соединения кошельков?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Молния gRPC
+explanation: |
+  Эти программные пакеты открывают сервер Electrum, стандарт, используемый многими кошельками, такими как Sparrow или Electrum Wallet.
+reviewed: true

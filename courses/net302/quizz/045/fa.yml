@@ -1,0 +1,9 @@
+question: عمل تغییر مصنوعی MAC Address چیست؟
+answer: جعل آدرس MAC
+wrong_answers:
+  - فیشینگ MAC
+  - شنود MAC
+  - ثبت کلید مک
+explanation: |
+  جعل آدرس MAC به عمل تغییر سخت‌افزار Address یک شبکه Interface گفته می‌شود، که اغلب به دلایل حفظ حریم خصوصی یا برای دور زدن محدودیت‌ها انجام می‌شود.
+reviewed: false

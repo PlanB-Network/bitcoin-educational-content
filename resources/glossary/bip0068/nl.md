@@ -1,0 +1,5 @@
+---
+term: BIP0068
+---
+
+De mogelijkheid geïntroduceerd om relatieve lock-tijden te gebruiken via het `nSequence` veld. Hierdoor kan een transactie een relatieve vertraging opgeven voordat deze in een blok kan worden opgenomen. Deze vertraging kan worden gedefinieerd in termen van het aantal blokken, of als een veelvoud van 512 seconden (d.w.z. echte tijd). Merk op dat deze nieuwe interpretatie van het `nSequence` veld alleen geldig is als het `nVersion` veld groter of gelijk is aan `2`. Deze interpretatie van het `nSequence` veld vindt plaats op het niveau van de Bitcoin consensusregels. Het relatieve tijdslot stelt een vertraging in die begint vanaf de acceptatie van een vorige transactie, terwijl het absolute tijdslot een precies moment specificeert waarvóór de transactie niet in een blok kan worden opgenomen. BIP68 werd geïntroduceerd via een Soft Fork op 4 juli 2016, naast BIP112 en BIP113, die voor het eerst werden geactiveerd met de BIP9-methode.

@@ -14,7 +14,7 @@ _Den här handledningen tillhandahålls endast i utbildnings- och informationssy
 
 _Den här handledningen är avsedd för installation av RoninDojo v1. För att dra nytta av de senaste förbättringarna och funktionerna rekommenderar jag starkt att du läser vår handledning som är avsedd för direkt installation av RoninDojo v2 på din Raspberry Pi:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -627,7 +627,7 @@ Dessa indikatorer kan användas för alla Bitcoin-transaktioner, men de är sär
 1. Den första indikatorn som beräknas av denna programvara är antalet möjliga kombinationer. Den noteras på räknaren som "nb combinations". Med tanke på UTXO:ernas värden representerar denna indikator antalet möjliga mappningar från ingångar till utgångar.
 
 
-**Om du inte är bekant med termen UTXO rekommenderar jag att du läser den här korta artikeln:
+**Om du inte är bekant med termen UTXO rekommenderar jag att du läser den här korta artikeln:**
 
 
 > Mekanism för en Bitcoin-transaktion: UTXO, inmatningar och utmatningar.

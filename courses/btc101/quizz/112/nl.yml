@@ -1,15 +1,11 @@
-question: Waarom zou je niet-KYC bitcoins kopen?
-answer: Om uw privacy te waarborgen.
+question: Wat is BitcoinTalk?
+answer: Een discussieplek voor Bitcoin gebruikers.
 wrong_answers:
-  - Om de registratie van alle Bitcoin gebruikers te garanderen.
-  - Kopen tegen een lage prijs.
-  - Verkopen tegen een lage prijs.
+  - A Bitcoin Mining software.
+  - A Bitcoin Wallet.
+  - Een Bitcoin conferentie.
 explanation: |
-  Niet-KYC bitcoins kopen betekent bitcoins verwerven zonder
-  het doorlopen van de standaard Know Your Customer
-  verificatieprocedures die veel beurzen en platforms
-  vereisen. Een van de belangrijkste redenen waarom mensen
-  is om hun privacy te behouden en ervoor te zorgen dat hun
-  persoonlijke gegevens en financiële activiteiten
-  geheim blijven.
+  Het BitcoinTalk forum is een discussieplaats voor Bitcoin
+  gebruikers. Het werd opgericht door Satoshi Nakamoto op 22 november,
+  2009.
 reviewed: true

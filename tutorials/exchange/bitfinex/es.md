@@ -22,11 +22,11 @@ Complete la información requerida: introduzca su dirección de correo electrón
 
 Para obtener consejos sobre cómo utilizar y salvaguardar contraseñas fuertes y únicas, consulte también este tutorial :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ahora vamos a configurar el 2FA para asegurar la cuenta. Utiliza una aplicación de autenticación en tu smartphone, como Google Authenticator o Authy por ejemplo. Encontrarás un tutorial sobre esta herramienta aquí :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Escanee el código QR con su aplicación e introduzca los 6 dígitos proporcionados.
 
@@ -53,10 +53,10 @@ Su cuenta ya está creada. Haga clic en "*Iniciar sesión*" para acceder a la pl
 Bitfinex aplica un proceso de verificación (KYC) que cumple con la normativa vigente. En el modo "Básico" es imposible realizar depósitos, retiradas o transacciones, por lo que es imprescindible obtener al menos el nivel de verificación "Básico Plus", o incluso "Intermedio" o "Completo" si fuera necesario:
 
 
-- Básico* es un modo de visualización que permite consultar la plataforma sin realizar ninguna operación;
-- Basic Plus* proporciona acceso a las funciones esenciales, incluidas las operaciones en el mercado al contado y determinadas opciones de depósito y retirada;
-- Intermedio* desbloquea servicios avanzados como negociación con margen, préstamos, operaciones P2P y OTC, y ofrece plazos de depósito reducidos;
-- Full* te da acceso a transferencias bancarias internacionales y a todas las funciones de la plataforma.
+- **Básico** es un modo de visualización que permite consultar la plataforma sin realizar ninguna operación;
+- **Basic Plus** proporciona acceso a las funciones esenciales, incluidas las operaciones en el mercado al contado y determinadas opciones de depósito y retirada;
+- **Intermedio** desbloquea servicios avanzados como negociación con margen, préstamos, operaciones P2P y OTC, y ofrece plazos de depósito reducidos;
+- **Full** te da acceso a transferencias bancarias internacionales y a todas las funciones de la plataforma.
 
 Para cada nivel se requieren documentos adicionales de verificación. Para la mayoría de los usuarios, las cuentas *Básico Plus* o *Intermedio* suelen ser suficientes.
 
@@ -79,11 +79,11 @@ Complete los pasos proporcionando la información y los documentos solicitados. 
 Una vez conectado, verá una barra de navegación en la parte superior de la interfaz con: "*Trading*", "*Derivados*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex ofrece una amplia gama de funcionalidades, incluyendo :
 
 
-- Mercado**: mercado "*clásico*" en el que se pueden cursar órdenes de compra y venta de criptodivisas (bitcoin incluido) ;
-- OTC**: Servicio Over-The-Counter para negociar grandes volúmenes directamente con otro agente, al margen de los libros de órdenes públicos;
-- Financiación**: Área dedicada a la financiación de préstamos y márgenes;
-- Derivados**: Sección de derivados (futuros, etc.), destinada a operadores con experiencia;
-- P2P**: Permite comprar o vender criptomonedas a otros usuarios de igual a igual.
+- **Mercado**: mercado "*clásico*" en el que se pueden cursar órdenes de compra y venta de criptodivisas (bitcoin incluido);
+- **OTC**: Servicio Over-The-Counter para negociar grandes volúmenes directamente con otro agente, al margen de los libros de órdenes públicos;
+- **Financiación**: Área dedicada a la financiación de préstamos y márgenes;
+- **Derivados**: Sección de derivados (futuros, etc.), destinada a operadores con experiencia;
+- **P2P**: Permite comprar o vender criptomonedas a otros usuarios de igual a igual.
 
 Para un uso estándar (compra/venta de bitcoins y depósitos/retiradas), utilizarás principalmente la pestaña "*Trading*", así como las secciones "*Wallet*", "*Deposit*" y "*Withdraw*".
 
@@ -167,9 +167,9 @@ Bitfinex también ofrece opciones de depósito y retirada a través de Lightning
 
 Si estás interesado en la Red relámpago, también tenemos un curso de formación completo para ayudarte a entender cómo funciona:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Después de comprar tus primeros bitcoins, obviamente tienes la opción de dejarlos en la plataforma, pero te recomiendo encarecidamente transferirlos a tu propio monedero en autocustodia. Si aún no sabes cómo utilizar un monedero Bitcoin, te invito a explorar [la sección "Monedero" en Plan ₿ Network](https://planb.network/tutorials/wallet).
+Después de comprar tus primeros bitcoins, obviamente tienes la opción de dejarlos en la plataforma, pero te recomiendo encarecidamente transferirlos a tu propio monedero en autocustodia. Si aún no sabes cómo utilizar un monedero Bitcoin, te invito a explorar [la sección "Monedero" en Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Compra y venta de bitcoins en Bitfinex
 

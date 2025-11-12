@@ -1,9 +1,12 @@
-question: Jaki był przybliżony poziom inflacji w Niemczech w październiku 1923 roku, w szczytowym momencie hiperinflacji?
-answer: 29 500 %
+question: Jaki mechanizm zapewnia dodawanie nowego bloku do Blockchain co dziesięć minut?
+answer: Regulacja trudności.
 wrong_answers:
-  - 5 200 %
-  - 76 %
-  - 110 %
+  - Regulacja prędkości.
+  - Regulacja czasu.
+  - Regulacja blokady.
 explanation: |
-  Miesiącem z najwyższym poziomem inflacji w Niemczech był październik 1923 roku, osiągając szczyt na poziomie 29 500 %.
-reviewed: false
+  Mechanizmem zapewniającym dodawanie nowego bloku do Blockchain co dziesięć minut jest regulacja trudności
+  Blockchain co dziesięć minut jest dostosowanie trudności.
+  Regulacja ta odbywa się co 2016 bloków, czyli około
+  dwa tygodnie.
+reviewed: true

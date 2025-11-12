@@ -1,0 +1,9 @@
+question: Lệnh nào có thể được sử dụng để thêm IP tĩnh Address vào Interface trên Linux?
+answer: địa chỉ ip thêm [Address]/[mặt nạ] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] lên [Address]/[mặt nạ]
+  - tuyến đường ip thêm [Address] dev [Interface]
+  - tuyến đường thêm -net [Address] mặt nạ mạng [mặt nạ] dev [Interface]
+explanation: |
+  Lệnh "ip addr add" là phương pháp hiện đại để gán địa chỉ IP tĩnh Address cho mạng Interface trên Linux.
+reviewed: false

@@ -1,0 +1,8 @@
+question: P2PKH와 비교했을 때 P2WPKH 스크립트의 가장 큰 특징은 무엇인가요?
+answer: 서명은 증인 필드로 이동합니다.
+wrong_answers:
+  - 주소는 base58check로 인코딩됩니다.
+  - 스크립트Pub키에는 개인키의 Hash이 포함되어 있습니다.
+  - P2WPKH는 SegWit와 호환되지 않습니다.
+explanation: |
+  SegWit와 함께 도입된 P2WPKH는 서명을 증인이라는 별도의 섹션으로 이동하여 트랜잭션의 가변성을 방지합니다.

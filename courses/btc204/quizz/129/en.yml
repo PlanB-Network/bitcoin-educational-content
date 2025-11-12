@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   To execute a coinswap, one can use HTLCs (Hash Time-Locked Contracts) or PTLCs (Point Time-Locked Contracts).
 
-reviewed: false
+reviewed: true

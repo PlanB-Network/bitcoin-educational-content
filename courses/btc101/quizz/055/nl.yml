@@ -1,9 +1,12 @@
-question: Wat was bij benadering de inflatie in Duitsland in oktober 1923 op het hoogtepunt van de hyperinflatie?
-answer: 29,500%
+question: Wat is het mechanisme dat ervoor zorgt dat er elke tien minuten een nieuw blok wordt toegevoegd aan de Blockchain?
+answer: Moeilijkheidsaanpassing.
 wrong_answers:
-  - 5,200%
-  - 76%
-  - 110%
+  - Snelheidsaanpassing.
+  - Tijdsaanpassing.
+  - Blokaanpassing.
 explanation: |
-  De maand met de hoogste inflatie in Duitsland was oktober 1923, met een piek van 29.500%.
-reviewed: false
+  Het mechanisme dat ervoor zorgt dat er elke tien minuten een nieuw blok wordt toegevoegd aan de
+  Blockchain elke tien minuten wordt toegevoegd, is de moeilijkheidsaanpassing.
+  Deze aanpassing vindt elke 2016 blokken plaats, of ongeveer
+  twee weken.
+reviewed: true

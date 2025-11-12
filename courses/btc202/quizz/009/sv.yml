@@ -1,0 +1,9 @@
+question: Vilken är den huvudsakliga funktionen för en Bitcoin-nod?
+answer: Spara Blockchain och validera transaktioner och block
+wrong_answers:
+  - Lagra privata nycklar och skapa transaktioner
+  - Skapa nya adresser för användare
+  - Konvertera bitcoins till fiatvalutor
+explanation: |
+  En Bitcoin-nod upprätthåller en kopia av Blockchain och deltar i validering och vidarebefordran av transaktioner och block.
+reviewed: true

@@ -58,7 +58,7 @@ Unaweza kutumia itifaki ya Tox kupitia mteja wa ujumbe wa papo hapo ambao unawez
 
 
 
-Kulingana na mfumo wako wa uendeshaji, unaweza kupakua na kusakinisha kiteja cha Tox kinacholingana :
+Kulingana na mfumo wako wa uendeshaji, unaweza kupakua na kusakinisha kiteja cha Tox kinacholingana:
 
 
 
@@ -304,4 +304,4 @@ Ikiwa umefurahia kugundua Tox na umeweza kuelewa jinsi inavyofaa katika kuimaris
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

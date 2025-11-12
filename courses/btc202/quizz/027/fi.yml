@@ -1,0 +1,9 @@
+question: Mitä erityistä SPV-solmussa on?
+answer: Se säilyttää ainoastaan lohkon otsakkeet
+wrong_answers:
+  - Se säilyttää koko Blockchain-lohkon, koska Genesis-lohko
+  - Se tallentaa vain viimeisimmät lohkot
+  - Se säilyttää vain UTXO-sarjan, ei Blockchain:ta
+explanation: |
+  SPV-solmu todentaa transaktiot lohkootsikoiden ja Merkle-todistusten avulla tallentamatta koko dataa.
+reviewed: true

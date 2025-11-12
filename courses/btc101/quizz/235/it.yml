@@ -1,10 +1,8 @@
-question: Qual è l'unità di Bitcoin utilizzata con Lightning Network?
-answer: Sats.
+question: In che modo Lightning Network potrebbe essere utilizzata nel noleggio di beni?
+answer: Gli utenti si vedrebbero addebitare il tempo in cui utilizzano i beni, per minuto o addirittura per secondo.
 wrong_answers:
-  - Block.
-  - Ether.
-  - Litecoin.
-explanation: |
-  Per funzionare, Lightning Network utilizza i satoshi (chiamati anche sats),
-  la frazione più piccola di bitcoin.
-reviewed: vero
+  - Gli utenti si vedrebbero addebitare una tariffa alta per il noleggio dei beni.
+  - Gli utenti si vedrebbero addebitare un importo in base al valore dei beni.
+  - Gli utenti si vedrebbero addebitare l'importo in base alla condizione dei beni.
+explanation: Si può concepire di utilizzare Lightning Network per il noleggio di beni. Gli utenti si vedrebbero addebitare il tempo in cui utilizzano i beni, per minuto o addirittura per secondo.
+reviewed: true

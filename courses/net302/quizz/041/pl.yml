@@ -1,0 +1,9 @@
+question: Który plik był historycznie używany do lokalnego rozwiązywania przed pojawieniem się globalnego DNS?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Zanim DNS stał się powszechny, rozpoznawanie nazw opierało się na statycznym pliku /etc/hosts w systemach Unix/Linux.
+reviewed: false

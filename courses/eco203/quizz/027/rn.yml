@@ -1,0 +1,9 @@
+question: Ni filozofiya iyihe yatumye Cobden abona ivyerekeye ubutunzi?
+answer: Ubuhinga bwa Bentham
+wrong_answers:
+  - Ukwidegemvya kwa Smith
+  - Ubusosiyalisimu bwa Fourier
+  - Uburinganire bwa Rousseau
+explanation: |
+  Cobden yakozweko n’ubuhinga bwa Bentham bwo gukoresha ibintu, bwaha agaciro ukumererwa neza kw’abantu benshi cane biciye mu bucuruzi bw’ubuntu.
+reviewed: false

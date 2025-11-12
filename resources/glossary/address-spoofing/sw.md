@@ -14,4 +14,4 @@ Njia nyingine ya kuweka Address isiyo sahihi mbele ya mwathiriwa ni matumizi ya 
 Ili kujilinda dhidi ya njia hizi tofauti za mashambulizi, ni muhimu kuangalia wahusika kadhaa wa Address, hasa hundi yake (mwishoni), kwenye skrini ya kifaa cha kusaini kabla ya kusaini manunuzi.
 
 
-> ► *Shambulio hili pia wakati mwingine hujulikana kama Address Poisoning
+> ► *Shambulio hili pia wakati mwingine hujulikana kama Address Poisoning*

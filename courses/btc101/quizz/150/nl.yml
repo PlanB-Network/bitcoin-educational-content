@@ -1,8 +1,14 @@
-question: Wat is de rol van mijnwerkers in het Bitcoin netwerk?
-answer: Miners beveiligen het netwerk en voegen transacties toe aan de blokken.
+question: Wat is het probleem van de Byzantijnse generaals?
+answer: Het is een probleem om informatie te coördineren in een systeem waarin de verschillende actoren niet te vertrouwen zijn.
 wrong_answers:
-  - Miners creëren nieuwe bitcoins.
-  - Miners verifiëren de identiteit van Bitcoin gebruikers.
-  - Mijnwerkers bepalen de prijs van Bitcoin.
-explanation: >-
+  - Het is een probleem van het verifiëren van transacties in een gedecentraliseerd netwerk.
+  - Het is een probleem om dubbele uitgaven in een digitale valuta te voorkomen.
+  - Het is een probleem om consensus te behouden in een gecentraliseerd netwerk.
+explanation: |
+  Het Byzantijnse Generaalsprobleem is een klassiek probleem in
+  gedistribueerd computergebruik, waarbij consensus moet worden bereikt
+  in een netwerk waar sommige knooppunten defect of kwaadaardig kunnen zijn
+  kwaadwillend kunnen zijn. Bitcoin lost dit probleem op door het gebruik van een
+  Blockchain gebaseerd op Proof of Work, die ervoor zorgt dat alle
+  knooppunten het eens zijn over de status van de transactiegeschiedenis.
 reviewed: true

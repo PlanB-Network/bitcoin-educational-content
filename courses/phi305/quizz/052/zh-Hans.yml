@@ -1,0 +1,9 @@
+question: 谁写了 Cypherpunk 宣言？
+answer: 埃里克-休斯
+wrong_answers:
+  - 蒂莫西-梅
+  - Satoshi 中本聪
+  - 米尔顿-弗里德曼
+explanation: |
+  埃里克-休斯是《Cypherpunk 宣言》（1993 年）的作者。这篇开创性的文章为在数字时代使用加密技术保护隐私进行了辩护。
+reviewed: false

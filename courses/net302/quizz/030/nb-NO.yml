@@ -1,0 +1,9 @@
+question: Hvilken protokoll tildeler dynamisk en IP Address til en enhet?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP-protokollen tildeler automatisk IP-adresser til enheter i et nettverk, noe som forenkler administrasjonen av Address.
+reviewed: false

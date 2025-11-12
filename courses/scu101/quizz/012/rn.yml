@@ -1,0 +1,12 @@
+question: Ni kubera iki kugenzura urufunguzo rwa bose rw’urubuga hakoreshejwe uburyo bwo gutanga icemeza ari ngirakamaro?
+answer: Kugira ngo wemeze ko urubuga ari urw’ukuri.
+wrong_answers:
+  - Kugira ngo ntihagire ubuhendanyi bushobora kubaho, ariko gusa iyo uhuye biciye ku rubuga rwa Wi-Fi rwa bose.
+  - Kugira ngo uhagarike igice c’amatangazo yo kuri Internet.
+  - Kugira ngo ntihagire ikintu kibi kiriko kigira urubuga.
+explanation: |
+  Kugenzura urufunguzo rwa bose rw'urubuga hakoreshejwe uburyo bw'icete
+  ni ngombwa kwemeza ko urubuga ari urw’ukuri. Ibi
+  ifasha gukingira abantu b'abanyaruyeri bigira nk'abandi
+  urubuga no gutanga amakuru mu nyandiko rusangi.
+reviewed: true

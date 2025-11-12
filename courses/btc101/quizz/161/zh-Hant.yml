@@ -1,8 +1,8 @@
-question: 對於 Bitcoin Mining 的環境成本，主要的顧慮是什麼？
-answer: 能源消耗。
+question: Bitcoin 如何潛在地幫助生態轉型？
+answer: 它推廣使用 Green 能源。
 wrong_answers:
-  - ASIC 的生產。
-  - ASIC 的回收。
-  - 電力成本。
+  - 它減少了商品的生產。
+  - 它可以調節資源消耗。
+  - 它只限制溫室氣體的排放。
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Que notação é utilizada para indicar o tamanho do prefixo num IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Máscara de rede decimal pontilhada
+  - Hexadecimal separado por dois pontos
+  - ICANN
+explanation: |
+  A notação CIDR especifica o número de bits de prefixo fixo após uma barra, tal como no IPv4.
+reviewed: false

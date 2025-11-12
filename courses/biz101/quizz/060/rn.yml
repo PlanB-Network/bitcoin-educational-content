@@ -1,0 +1,9 @@
+question: Ni igiki gikenewe cane kugira ngo umuntu ashobore gukora Starter profile kugira ngo yemere kwishura Bitcoin?
+answer: Telefone ngendanwa
+wrong_answers:
+  - A Bitcoin Miner ASIC.
+  - Igikoresho ca Hardware Wallet.
+  - Serveri yiyakira
+explanation: |
+  Ivyo bikoresho vya Starter bisaba gusa telefone ngendanwa canke tablette ifise Lightning Wallet, bikaba bituma ari umuti woroshe.
+reviewed: false

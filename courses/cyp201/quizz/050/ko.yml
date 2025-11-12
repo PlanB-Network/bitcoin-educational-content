@@ -1,0 +1,9 @@
+question: passphrase을 확보하기 위한 좋은 관행은 무엇인가요?
+answer: Mnemonic 문구와 별도의 물리적 매체에 저장합니다
+wrong_answers:
+  - 메모하지 않고 마음으로만 외우세요
+  - Mnemonic 문구와 동일한 물리적 매체에 저장합니다
+  - Google 드라이브와 같은 디지털 매체에 녹화
+explanation: |
+  passphrase은 물리적으로 저장해야 하며, 두 가지를 동시에 도난당하는 것을 방지하기 위해 Mnemonic 문구와 분리하여 보관해야 합니다.
+reviewed: false

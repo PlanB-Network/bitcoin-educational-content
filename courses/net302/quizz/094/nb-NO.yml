@@ -1,0 +1,9 @@
+question: Hvilken kommando kan brukes til å spørre en DNS-server om IP Address for et domene?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup er et DNS-spørringsverktøy for å løse opp domenenavn til IP-adresser.
+reviewed: false

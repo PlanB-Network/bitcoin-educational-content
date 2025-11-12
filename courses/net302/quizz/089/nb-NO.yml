@@ -1,0 +1,9 @@
+question: Hvilken protokoll bruker ping-kommandoen for å teste nettverkstilkoblingen?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Kommandoen ping bruker ICMP-protokollen til å sende ekkoforespørsler og måle ventetiden i nettverket.
+reviewed: false

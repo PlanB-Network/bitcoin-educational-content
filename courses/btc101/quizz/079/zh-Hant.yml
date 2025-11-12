@@ -1,11 +1,13 @@
-question: 如何加強 Bitcoin Wallet 的預設安全性？
-answer: 通過在您的 Bitcoin Wallet 上增加一個 passphrase。
+question: 什麼是 Cold Wallet？
+answer: Wallet 是一個實體裝置，用來儲存您的鑰匙，而且不連線至網際網路。
 wrong_answers:
-  - 在 Bitcoin Wallet 中加入第二個私人密碼匙。
-  - 將第二個公開金鑰加入您的 Bitcoin Wallet。
-  - 在您的 Bitcoin Wallet 中加入第二個 Mnemonic 詞組。
+  - 可觸摸的 Wallet 是物理上的 Cold。
+  - 不受 Bitcoin 使用者歡迎的 Wallet。
+  - 建議用來儲存少量比特幣的 Wallet。
 explanation: |
-  如果您不滿意您的
-  Bitcoin Wallet 的預設安全性感到不滿意，您可以隨時在您的
-  passphrase 到您的 Bitcoin Wallet。
+  Cold Wallet 是用來描述 Bitcoin Wallet 的術語。
+  儲存在未連接網際網路的裝置上。
+  網路。這使其不易受到線上威脅、
+  但這也意味著 Wallet 在日常交易中較難存取。
+  日常交易。
 reviewed: true

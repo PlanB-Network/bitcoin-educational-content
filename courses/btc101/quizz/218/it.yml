@@ -1,11 +1,9 @@
-question: Qual è la natura dell'adozione di Bitcoin come descritta in questo corso?
-answer: Virale.
+question: Quando è stata approvata e implementata per la prima volta Lightning Network?
+answer: 2017
 wrong_answers:
-  - Lenta e costante.
-  - Rapida e incontrollabile.
-  - Sporadica e imprevedibile.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  Il testo del corso descrive l'adozione di Bitcoin come virale,
-  suggerendo che si diffonde rapidamente e ampiamente da una
-  persona all'altra, molto simile a un virus, ma in senso positivo.
+  Lightning Network è stata approvata e implementata per la prima volta nel 2017.
 reviewed: vero

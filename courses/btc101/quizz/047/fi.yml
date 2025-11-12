@@ -1,12 +1,10 @@
-question: Mikä on hyperinflaatio?
-answer: Jyrkkä kasvu rahamäärässä.
+question: Mikä on hyperinflaation ilmiön toinen vaihe?
+answer: Valuutan romahdus & hinnannousu.
 wrong_answers:
-  - Pieni kasvu rahamäärässä.
-  - Jyrkkä lasku rahamäärässä.
-  - Pieni lasku rahamäärässä.
+  - Luottamuksen menetys.
+  - Rahanpainamisen noidankehä.
+  - Uuden valuutan synty.
 explanation: |
-  Hyperinflaatio on rahailmiö, jolle on ominaista
-  jyrkkä inflaation kasvu rahanpainamisen kautta
-  viranomaisten toimesta, mikä johtaa täydelliseen
-  luottamuksen menetykseen valuuttaa kohtaan.
+  Hyperinflaation toinen vaihe on valuutan romahdus &
+  hinnannousu, juuri Luottamuksen menetyksen vaiheen jälkeen.
 reviewed: true

@@ -11,29 +11,29 @@ ___
 
 Benvenuti in questo tutorial introduttivo a Nmap, pensato per tutti coloro che desiderano padroneggiare questo potente strumento di scansione di rete. L'obiettivo è quello di fornire le conoscenze fondamentali necessarie per utilizzare Nmap in modo efficace ogni giorno.
 
-Nmap è uno strumento versatile, ampiamente utilizzato dai professionisti dell'IT, delle reti e della cybersecurity per la diagnostica, la scoperta della rete e l'auditing della sicurezza. Questa esercitazione è rivolta a coloro che sono alle prime armi in questi campi e desiderano apprendere le basi di Nmap. Si raccomanda una conoscenza di base dell'amministrazione di sistema e di rete.
+Nmap è uno strumento versatile, ampiamente utilizzato dai professionisti dell'IT, delle reti e della cybersecurity per la diagnostica, l'esplorazione della rete e l'auditing della sicurezza. Questo tutorial è rivolta a coloro che sono alle prime armi in questi campi e desiderano apprendere le basi di Nmap. Si raccomanda una conoscenza di base dell'amministrazione dei sistemi e della rete.
 
-Imparerete le basi di Nmap, come eseguire scansioni di porte, identificare gli host attivi su una rete, rilevare versioni di servizi e sistemi operativi, eseguire scansioni di vulnerabilità e molto altro ancora. Ogni sezione comprende spiegazioni dettagliate ed esempi pratici per aiutarvi a padroneggiare l'uso di Nmap in una varietà di contesti.
+Imparerai le basi di Nmap, come eseguire scansioni di porte, identificare gli host attivi su una rete, rilevare versioni di servizi e sistemi operativi, eseguire scansioni di vulnerabilità e molto altro ancora. Ogni sezione comprende spiegazioni dettagliate ed esempi pratici per aiutarvi a padroneggiare l'uso di Nmap in una varietà di contesti.
 
-Alla fine di questa esercitazione, avrete una solida conoscenza di Nmap e sarete in grado di utilizzarlo efficacemente per migliorare la sicurezza e la gestione delle vostre reti. Buona lettura.
+Alla fine di questa esercitazione, avrai una solida conoscenza di Nmap e sarai in grado di utilizzarlo efficacemente per migliorare la sicurezza e la gestione delle tue reti. Buona lettura.
 
 
 ## 1 - Introduzione a Nmap: Che cos'è Nmap?
 
 ### I. Presentazione
 
-In questa prima sezione, daremo un'occhiata allo strumento di scansione di rete Nmap. Esamineremo i principali Elements da conoscere su questo strumento e il suo funzionamento in generale. Questo ci aiuterà a capire meglio il resto del tutorial.
+In questa prima sezione, daremo un'occhiata allo strumento di scansione di rete Nmap. Esamineremo i principali elementi da conoscere su questo strumento e il suo funzionamento in generale. Questo ci aiuterà a capire meglio il resto del tutorial.
 
 ### II. Introduzione allo strumento Nmap
 
-Nmap, per _Network Mapper_, è uno strumento gratuito e open-source utilizzato per la **scoperta delle reti, la mappatura e la verifica della sicurezza**. Può essere utilizzato anche per altre attività come **inventario di rete, diagnostica o supervisione**.
+Nmap, per _Network Mapper_, è uno strumento gratuito e open-source utilizzato per la **scoperta delle reti, la mappatura e la verifica della sicurezza**. Può essere utilizzato anche per altre attività come **registro di rete, diagnostica o supervisione**.
 
-Può determinare se gli host di una rete mirata sono attivi e raggiungibili, quali servizi di rete sono esposti, quali versioni e tecnologie sono in uso e altre utili informazioni di analisi. Nmap può essere utilizzato per eseguire la scansione di un singolo servizio su una macchina specifica o su un'ampia porzione di rete, fino all'intera Internet.
+Può determinare se gli host di una rete mirata sono attivi e raggiungibili, quali servizi di rete sono esposti, quali versioni e tecnologie sono in uso e altre utili informazioni di analisi. Nmap può essere utilizzato per eseguire la scansione di un singolo servizio su una macchina specifica o su un'ampia porzione di rete, fino all'intera rete Internet.
 
 I punti di forza di Nmap sono molti:
-- **Potente e flessibile**: Nmap può eseguire la scansione di reti di grandi dimensioni e utilizzare tecniche di rilevamento avanzate. Supporta UDP, TCP, ICMP, IPv4 e IPv6 e può eseguire il rilevamento di versioni, scansioni di vulnerabilità o interazioni specifiche per i protocolli. La sua architettura è modulare, in particolare grazie agli script NSE (Nmap Scripting Engine), che vedremo più avanti in questo tutorial.
+- **Potente e flessibile**: Nmap può eseguire la scansione di reti di grandi dimensioni e utilizzare tecniche di rilevamento avanzate. Supporta UDP, TCP, ICMP, IPv4 e IPv6 e può eseguire il rilevamento di versioni, scansioni di vulnerabilità o interazioni specifiche dei protocolli. La sua architettura è modulare, in particolare grazie agli script NSE (Nmap Scripting Engine), che vedremo più avanti in questo tutorial.
 - **Facilità d'uso**: la documentazione ufficiale è abbondante e di ottima qualità. Sono inoltre disponibili numerose risorse della comunità per aiutarvi a iniziare.
-- **Popolarità e longevità**: Nmap è un punto di riferimento nel suo campo dal 1998. La versione attuale, al momento del presente aggiornamento, è la 7.95. Sebbene esistano altri strumenti per compiti specifici, Nmap rimane un must per la mappatura e l'analisi delle reti.
+- **Popolarità e longevità**: Nmap è un punto di riferimento nel suo campo dal 1998. La versione attuale, al momento del presente aggiornamento, è la 7.95. Sebbene esistano altri strumenti per compiti specifici, Nmap rimane un 'must' per la mappatura e l'analisi delle reti.
 
 **Nmap al cinema**
 
@@ -41,17 +41,17 @@ Nmap è uno dei pochi strumenti di sicurezza ad aver acquisito una certa notorie
 
 ![nmap-image](assets/fr/01.webp)
 
-matrice: Scena Reloaded con Nmap
+_Matrix Reloaded: Scena con Nmap_
 
 Appare anche in altre opere cinematografiche.
 
-**Risposta**
+**Feedback**
 
 In qualità di amministratore di sistema e poi di auditor e pentester di cybersecurity, **utilizzo Nmap quasi quotidianamente** e lo **consiglio regolarmente** agli amministratori di sistema che desiderano rafforzare la loro padronanza delle reti e migliorare le loro capacità diagnostiche.
 
 ### III. Funzionamento ad alto livello
 
-Nmap è disponibile per Linux, Windows e macOS. È scritto principalmente in C, C++ e Lua (per gli script NSE). Si usa principalmente alla riga di comando, anche se sono disponibili anche interfacce grafiche come Zenmap. Tuttavia, si consiglia vivamente di iniziare con la riga di comando per capire meglio il suo funzionamento.
+Nmap è disponibile per Linux, Windows e macOS. È scritto principalmente in C, C++ e Lua (per gli script NSE). Si usa principalmente dalla riga di comando, anche se sono disponibili anche interfacce grafiche come Zenmap. Tuttavia, si consiglia vivamente di iniziare con la riga di comando per capire meglio il suo funzionamento.
 
 Un semplice esempio:
 
@@ -59,18 +59,18 @@ Un semplice esempio:
 nmap 192.168.10.13 10.10.10.0/24 -sV -sC --top-ports 250
 ```
 
-Questo comando verrà spiegato in dettaglio più avanti. In questa guida utilizzeremo Nmap su Linux, ma i suoi usi sono simili su altri sistemi. In Windows, Nmap si basa sulla libreria **Npcap** (che sostituisce l'ormai obsoleto WinPcap) per catturare e iniettare i pacchetti di rete.
+Questo comando verrà spiegato in dettaglio più avanti. In questa guida utilizzeremo Nmap su Linux, ma il suo utilizzo è simile su altri sistemi. In Windows, Nmap si basa sulla libreria **Npcap** (che sostituisce l'ormai obsoleto WinPcap) per fermare e introdurre i pacchetti di rete.
 
-Nmap viene utilizzato come un binario convenzionale, come `ls` o `ip`. Alcune funzioni avanzate possono richiedere diritti elevati, poiché lo strumento a volte manipola i pacchetti in modi non convenzionali per provocare reazioni specifiche sui sistemi di destinazione (in particolare per il rilevamento di servizi o vulnerabilità).
+Nmap viene utilizzato come un binario convenzionale, come `ls` o `ip`. Alcune funzioni avanzate possono richiedere credenziali elevate, poiché lo strumento a volte manipola i pacchetti in modi non convenzionali per provocare reazioni specifiche sui sistemi di destinazione (in particolare per il rilevamento di servizi o vulnerabilità).
 
 ### IV. Impatto dell'utilizzo di Nmap
 
 Prima di utilizzare Nmap, è essenziale essere consapevoli del suo potenziale impatto su reti e sistemi:
 - Può inviare **migliaia o addirittura milioni di pacchetti** in un breve lasso di tempo, il che può saturare alcune infrastrutture di rete.
-- È in grado di inviare a generate pacchetti **malformati o non standard**, in grado di disturbare alcune apparecchiature (in particolare i sistemi industriali).
+- È in grado di inviare a generate pacchetti **irregolari o non standard**, in grado di disturbare alcune apparecchiature (in particolare i sistemi industriali).
 - Può produrre un **comportamento simile a quello di un attacco**, che può innescare allarmi nei sistemi di sicurezza (firewall, IDS/IPS, ecc.).
 
-In generale, **Nmap è uno strumento molto loquace**, in quanto genera molto traffico per estrarre quante più informazioni possibili. È quindi consigliabile comprendere appieno il suo funzionamento prima di utilizzarlo in ambienti sensibili o di produzione.
+In generale, **Nmap è uno strumento molto verboso**, in quanto genera molto traffico per estrarre quante più informazioni possibili. È quindi consigliabile comprendere appieno il suo funzionamento prima di utilizzarlo in ambienti sensibili o di produzione.
 
 ### V. Conclusioni
 
@@ -85,7 +85,7 @@ In questa sezione daremo un'occhiata agli usi principali dello strumento di scan
 
 ### II. Utilizzo di Nmap per la diagnostica e la supervisione
 
-Nmap può essere utilizzato per la diagnostica di rete e, più in generale, per il monitoraggio. Così come un ping può essere usato per determinare se due host stanno comunicando, Nmap può essere usato per determinare rapidamente se un host è attivo o se un particolare servizio è operativo. Grazie a [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), è possibile ottenere dati precisi sul tempo di risposta di un host, sul percorso effettuato dai pacchetti, sulla risposta fornita da un servizio specifico, ecc.
+Nmap può essere utilizzato per la diagnostica di rete e, più in generale, per il monitoraggio. Così come un ping può essere usato per determinare se due host stanno comunicando, Nmap può essere usato per determinare rapidamente se un host è attivo o se un particolare servizio è operativo. Grazie a [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), è possibile ottenere dati precisi sul tempo di risposta di un host, sul percorso effettuato dai pacchetti, sulla risposta fornita da un servizio specifico, ecc.
 
 Il comando e il risultato seguenti possono essere utilizzati, ad esempio, per scoprire rapidamente se un server web sull'host **192.168.1.18** è attivo e risponde correttamente:
 
@@ -117,13 +117,13 @@ nmap -sn 192.168.1.0/24
 
 Vedremo più avanti che ci sono diversi metodi utilizzati da Nmap per determinare se un host può essere considerato "attivo", anche se non espone a priori alcun servizio.
 
-### IV. Utilizzo di Nmap per valutare una politica di filtraggio
+### IV. Utilizzo di Nmap per valutare una policy di filtraggio
 
-Nmap ha il vantaggio di essere fattuale: i suoi risultati consentono di stabilire conclusioni concrete, a differenza di qualsiasi documento di architettura o politica di filtraggio. È uno strumento fondamentale per valutare l'efficacia della compartimentazione del sistema informativo, in quanto consente di **verificare se la politica di filtraggio viene effettivamente applicata**.
+Nmap ha il vantaggio di essere oggettivo: i suoi risultati consentono di stabilire conclusioni concrete, a differenza di qualsiasi documento di architettura o policy di filtraggio. È uno strumento fondamentale per valutare l'efficacia della compartimentazione del sistema informativo, in quanto consente di **verificare se la policy di filtraggio viene effettivamente applicata**.
 
 In una rete aziendale, le migliori prassi impongono di segmentare i sistemi in base al loro ruolo, alla loro criticità o alla loro ubicazione. Le regole di filtraggio (spesso implementate tramite firewall) devono limitare le comunicazioni tra le zone. Ma queste configurazioni sono spesso complesse e soggette a errori.
 
-Per verificare che la politica sia stata rispettata, non c'è niente di meglio di un test concreto. Ad esempio, si può verificare che i servizi di amministrazione sensibili (SSH, WinRM, MSSQL, MySQL, ecc.) non siano accessibili da una zona utente.
+Per verificare che la policy sia stata rispettata, non c'è niente di meglio di un test concreto. Ad esempio, si può verificare che i servizi di amministrazione sensibili (SSH, WinRM, MSSQL, MySQL, ecc.) non siano accessibili da una zona utente.
 
 L'uso di **Nmap per testare il criterio di filtraggio** dovrebbe essere sistematico prima che tale criterio venga messo in produzione. Purtroppo, questo controllo viene spesso trascurato.
 
@@ -162,7 +162,7 @@ In questa sezione impareremo a installare lo strumento di scansione di rete Nmap
 
 ### II. Installazione di Nmap in Linux
 
-Nmap è stato originariamente progettato per funzionare su sistemi operativi GNU/Linux. Di conseguenza, grazie alla sua longevità e popolarità, lo troverete in tutti i repository ufficiali delle principali distribuzioni Unix. In questo tutorial, utilizzerò un sistema operativo basato su Debian [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ma potete usarlo esattamente nello stesso modo da una classica Debian, CentOS, Red Hat o altro!
+Nmap è stato originariamente progettato per funzionare su sistemi operativi GNU/Linux. Di conseguenza, grazie alla sua longevità e popolarità, lo troverai in tutti i repository ufficiali delle principali distribuzioni Unix. In questo tutorial, utilizzerò un sistema operativo basato su Debian [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ma potete usarlo esattamente nello stesso modo da una classica derivata Debian, CentOS, Red Hat o altro!
 
 In Debian, per verificare che Nmap sia presente nei repository correnti, si può usare il seguente comando:
 
@@ -178,7 +178,7 @@ The Network Mapper
 $ dnf search '^nmap$'
 ```
 
-La risposta indica chiaramente che il pacchetto "nmap" esiste nei repository (qui, quelli di Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). D'ora in poi, potrete installare Nmap tramite i soliti comandi di installazione, niente di disarmante per il momento 🙂:
+La risposta indica chiaramente che il pacchetto "nmap" esiste nei repository (qui, quelli di Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). D'ora in poi, potrai installare Nmap tramite i soliti comandi di installazione, niente di disarmante per il momento 🙂:
 
 ```
 # Debian and derivatives
@@ -198,20 +198,20 @@ Ecco il risultato atteso:
 
 ![nmap-image](assets/fr/05.webp)
 
-risultato della visualizzazione della versione attuale di Nmap._
+_Risultato della visualizzazione della versione attuale di Nmap._
 
 Si noti la presenza in questa visualizzazione della libreria "libpcap" (_Packet Capture Library_) e della sua versione. Utilizzata anche da Wireshark, "libpcap" è usata da Nmap per creare e manipolare i pacchetti e ascoltare il traffico di rete.
 
 ### III Installazione di Nmap su Windows
 
-Per installarlo su un sistema operativo Windows, iniziate scaricando il binario dal sito ufficiale (e da nessun altro!):
+Per installarlo su un sistema operativo Windows, inizia scaricando il binario dal sito ufficiale (e da nessun altro!):
 - Pagina di download di Nmap sul sito ufficiale: [https://nmap.org/download.html#windows](https://nmap.org/download.html#windows)
 
 È quindi necessario scaricare il file binario denominato `nmap-<VERSION>-setup.exe`:
 
 ![nmap-image](assets/fr/06.webp)
 
-pagina di download del binario di installazione di nmap per Windows
+_Pagina di download del binario di installazione di nmap per Windows_
 
 Una volta che il binario è presente sul sistema, è sufficiente eseguirlo per installare Nmap. L'installazione è semplice e si possono lasciare tutte le opzioni come predefinite.
 
@@ -219,17 +219,17 @@ Il mio riflesso è quello di deselezionare la casella "zenmap (GUI Frontend)". S
 
 ![nmap-image](assets/fr/07.webp)
 
-deselezione opzionale di Zenmap durante l'installazione di Nmap su Windows
+_Deselezione opzionale di Zenmap durante l'installazione di Nmap su Windows_
 
 Al termine dell'installazione di Nmap, viene proposta una seconda installazione: quella della libreria "Npcap":
 
 ![nmap-image](assets/fr/08.webp)
 
-installazione della libreria "Npcap" durante l'installazione di Nmap in Windows
+_Installazione della libreria "Npcap" durante l'installazione di Nmap in Windows_
 
 È la libreria su cui si basa Nmap per gestire le comunicazioni di rete, ossia la creazione, l'invio e la ricezione di pacchetti di rete. Probabilmente vi siete già imbattuti in questa libreria se utilizzate Wireshark su Windows, poiché anch'essa la utilizza e ne richiede l'installazione.
 
-Come per Linux, è possibile verificare che Nmap sia installato aprendo un Prompt dei comandi o un terminale [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") e digitando il seguente comando:
+Come per Linux, è possibile verificare che Nmap sia installato aprendo un Prompt dei comandi o un terminale [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") e digitando il seguente comando:
 
 ```
 nmap --version
@@ -239,27 +239,27 @@ Ecco il risultato atteso:
 
 ![nmap-image](assets/fr/09.webp)
 
-risultato della visualizzazione della versione corrente di Nmap._
+_Risultato della visualizzazione della versione corrente di Nmap._
 
 Nmap è ora installato su Windows. È possibile utilizzarlo esattamente come su Linux, seguendo questa guida.
 
 ### IV. Privilegi locali necessari per utilizzare Nmap
 
-Ma a proposito, quando si usa Nmap, **è necessario avere privilegi locali elevati sul sistema?** La risposta è: *dipende*: **dipende**.
+Ma a proposito, quando si usa Nmap, **è necessario avere privilegi locali elevati sul sistema?** La risposta è: **dipende**.
 
 Nella sua forma più elementare, cioè senza utilizzare le sue opzioni, Nmap non richiede necessariamente diritti privilegiati. Tuttavia, vi renderete presto conto che è meglio usare Nmap in un contesto privilegiato ("root" in Linux, "amministratore" o equivalente in Windows) per poterlo utilizzare al massimo delle sue potenzialità, con il rischio di ricevere un messaggio di errore come questo:
 
 ![nmap-image](assets/fr/10.webp)
 
-messaggio di errore in Linux quando le opzioni di Nmap richiedono i diritti di root
+_Messaggio di errore in Linux quando le opzioni di Nmap richiedono i diritti di root_
 
 Sia su Linux che su Windows, ci sono molti casi in cui Nmap vi chiederà un accesso privilegiato. I motivi principali sono i seguenti (elenco non esaustivo):
 - **Costruzione di pacchetti di rete "grezzi"**: Nmap è in grado di eseguire un'ampia gamma di metodi di scansione, compresa la manipolazione e la costruzione di pacchetti avanzati. È il caso, ad esempio, di eseguire scansioni TCP SYN, che non rispettano il classico *Three-way handshake* degli scambi TCP. Per fare questo, Nmap ha bisogno di utilizzare funzioni diverse da quelle native dei sistemi operativi, che sanno solo rispettare le buone pratiche nelle comunicazioni di rete (fa appello alle librerie "Npcap" e "libcap" viste sopra). È perché Nmap non fa le cose in modo "standard" che è in grado di dedurre alcune informazioni sui sistemi operativi, sui servizi e su alcune vulnerabilità.
 - **Ascoltare il traffico di rete**: alcune opzioni di Nmap richiedono l'ascolto della rete per recuperare determinate informazioni. Questa azione è considerata sensibile nei sistemi operativi, poiché consente anche di ascoltare le comunicazioni di altre applicazioni sul sistema. Proprio come Wireshark, Nmap ha bisogno di privilegi specifici per farlo, che sono più facili da ottenere se ci si trova direttamente in una sessione privilegiata.
 - **Ascolto su porte privilegiate**: nei sistemi operativi, le porte da 0 a 1024 (TCP e UDP) sono dette privilegiate, cioè riservate a usi molto specifici e quindi protette. Anche se oggi questo è un motivo un po' obsoleto, è ancora necessario avere determinati privilegi per ascoltare su queste porte, cosa che Nmap potrebbe dover fare a seconda dell'uso che ne verrà fatto.
-- Invio di pacchetti UDP: Analogamente, l'ascolto di un'applicazione di rete sulle porte UDP (un protocollo stateless) richiede diritti privilegiati sui sistemi operativi. Sarà quindi necessaria una sessione privilegiata se si desidera eseguire una scansione UDP, per la quale Nmap dovrà ascoltare una risposta al fine di analizzare le risposte alle sue scansioni.
+- **Invio di pacchetti UDP**: analogamente, l'ascolto di un'applicazione di rete sulle porte UDP (un protocollo stateless) richiede diritti privilegiati sui sistemi operativi. Sarà quindi necessaria una sessione privilegiata se si desidera eseguire una scansione UDP, per la quale Nmap dovrà ascoltare una risposta al fine di analizzare le risposte alle sue scansioni.
 
-Per essere più precisi, è possibile, almeno in Linux, eseguire Nmap con tutte le sue funzioni e opzioni senza essere root. Ciò si ottiene concedendo le giuste _capacità_ al binario. Tuttavia, questo richiede una manipolazione avanzata e potrebbe non essere così pratico come eseguire Nmap direttamente con i privilegi. Inoltre, questo approccio è meno comune e può creare problemi di sicurezza se configurato male.
+Per essere più precisi, è possibile, almeno in Linux, eseguire Nmap con tutte le sue funzioni e opzioni senza essere root. Ciò si ottiene concedendo le giuste _credenziali_ al binario. Tuttavia, questo richiede una manipolazione avanzata e potrebbe non essere così pratico come eseguire Nmap direttamente con i privilegi. Inoltre, questo approccio è meno comune e può creare problemi di sicurezza se configurato male.
 
 Tuttavia, questo si discosta un po' dal nostro tutorial su Nmap, quindi per ora ne faremo a meno.
 
@@ -267,9 +267,9 @@ Per il resto di questa guida, si presuppone che Nmap sia sempre eseguito come "r
 
 ### V. Conclusioni
 
-Ecco fatto! Nmap è ora installato sul nostro sistema operativo e pronto all'uso, senza bisogno di ulteriori configurazioni. Questa sezione conclude l'introduzione e la presentazione di Nmap. Spero che vi abbia fatto venire l'acquolina in bocca e che siate ansiosi di iniziare a fare pratica.
+Ecco fatto! Nmap è ora installato sul nostro sistema operativo e pronto all'uso, senza bisogno di ulteriori configurazioni. Questa sezione conclude l'introduzione e la presentazione di Nmap. Spero che ti abbia fatto venire l'acquolina in bocca e che tu sia ansioso di iniziare a fare pratica.
 
-Su una nota più seria, ora abbiamo un'idea più precisa di cosa sia lo strumento di mappatura Nmap e di quali siano i suoi usi più comuni, nonché i suoi limiti. Andiamo avanti!
+Restando più seri, ora abbiamo un'idea più precisa di cosa sia lo strumento di mappatura Nmap e di quali siano i suoi usi più comuni, nonché i suoi limiti. Andiamo avanti!
 
 
 ## 4 - Scansione delle porte TCP e UDP con Nmap

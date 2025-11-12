@@ -1,12 +1,12 @@
-question: W jaki sposób protokół Bitcoin nagradza Miner, który znajdzie ważny Hash dla kolejnego bloku?
-answer: Z nagrodą określoną przez zasady konsensusu i opłatami ze wszystkich transakcji zawartych w ważnym bloku.
+question: W jaki sposób protokół Bitcoin wynagradza górnika, który znajdzie ważny hasz dla kolejnego bloku?
+answer: Nagrodą określoną przez zasady konsensusu i opłatami ze wszystkich transakcji zawartych w ważnym bloku.
 wrong_answers:
-  - Ze stałą ilością bitcoinów nieokreśloną przez zasady konsensusu.
-  - Z procentem całkowitej Bitcoin Supply i opłatami ze wszystkich transakcji zawartych w poprzednich blokach.
-  - Z opłatami ze wszystkich transakcji zawartych w ważnym bloku.
+  - Stałą ilością bitcoinów nieokreśloną przez zasady konsensusu.
+  - Procentem całkowitej podaży bitcoina i opłatami ze wszystkich transakcji zawartych w poprzednich blokach.
+  - Opłatami ze wszystkich transakcji zawartych w ważnym bloku.
 explanation: |
-  Protokół Bitcoin nagradza Miner, który znajdzie prawidłowy
-  Hash dla kolejnego bloku z nagrodą, której kwota jest
-  określona przez zasady konsensusu, wraz z opłatami od
+  Protokół Bitcoin wynagradza górnika, który znajdzie prawidłowy
+  hasz dla kolejnego bloku nagrodą, której kwota jest
+  określona przez zasady konsensusu oraz opłatami od
   wszystkich transakcji zawartych w ważnym bloku.
 reviewed: true

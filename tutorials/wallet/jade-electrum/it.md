@@ -1,9 +1,10 @@
 ---
-name: Jade con Electrum
+name: Jade - Electrum
 description: Come usare il tuo Jade o Jade Plus con Electrum (desktop)
 ---
 
 ![cover](assets/cover.webp)
+
 _Questa guida è tratta da una [lezione di Officine Bitcoin](https://officinebitcoin.it/lezioni/jadeele/index.html)_
 
 Il tutorial è realizzato con Jade Classic, ma le operazioni sono valide anche per chi ha Jade Plus.

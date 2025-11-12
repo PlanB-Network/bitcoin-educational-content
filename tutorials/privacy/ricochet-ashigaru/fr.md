@@ -29,36 +29,38 @@ Le Ricochet est simplement une méthode où l'on s'envoie des bitcoins à soi-m�
 Puisque le service est payant sur Ashigaru, un Ricochet implique un coût de `100 000 sats` en tant que frais de service, auxquels s'ajoutent les frais de minage. Ainsi, son utilisation est plutôt recommandée pour des transferts de montants significatifs.
 
 L'application Ashigaru propose deux variantes de Ricochet :
-- Le Ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service d'Ashigaru sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du Ricochet en renforçant sa résistance face à l'analyse de chaîne ;
+
+- Le Ricochet renforcé, ou "*livraison échelonnée*", qui offre l'avantage de répartir les frais de service d'Ashigaru sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du Ricochet en renforçant sa résistance face à l'analyse de chaîne ;
+
 - Le Ricochet classique, qui est conçu pour exécuter l'opération avec rapidité en diffusant toutes les transactions dans un intervalle de temps réduit. Cette méthode, offre donc moins de confidentialité et une résistance aux analyses inférieures à celle de la méthode renforcée. Elle est à privilégier seulement pour des envois urgents.
 
 ## Comment faire un Ricochet sur Ashigaru ?
 
 Effectuer un ricochet sur Ashigaru est très simple : il suffit d’activer l’option correspondante lors de la création d’une transaction d’envoi. Pour commencer, cliquez sur le bouton `+`, puis sur `Send`, et sélectionnez le compte depuis lequel vous souhaitez envoyer les fonds.
 
-02
+![Image](assets/fr/02.webp)
 
 Renseignez les informations de la transaction : le montant à envoyer ainsi que l’adresse finale du destinataire après les sauts du Ricochet. Cochez ensuite l’option `Ricochet`.
 
-03
+![Image](assets/fr/03.webp)
 
 Vous pourrez alors choisir entre les deux modes de Ricochet abordés dans la partie théorique : soit un Ricochet classique, où toutes les transactions sont incluses dans le même bloc, soit une livraison échelonnée, qui améliore la qualité du Ricochet au prix d’un délai plus long.
 
 Une fois votre choix effectué, appuyez sur la flèche en bas de l’écran pour confirmer.
 
-04
+![Image](assets/fr/04.webp)
 
 Sur l’écran suivant, vous verrez le récapitulatif complet de votre transaction. C’est également ici que vous pouvez ajuster le taux de frais pour vos transactions Ricochet en fonction des conditions du marché. Si tout vous convient, faites glisser la flèche verte pour signer et diffuser les transactions de Ricochet.
 
-05
+![Image](assets/fr/05.webp)
 
 Patientez pendant que les différents sauts s’exécutent automatiquement.
 
-06
+![Image](assets/fr/06.webp)
 
 Vos transactions ont été diffusées avec succès.
 
-07
+![Image](assets/fr/07.webp)
 
 Vous connaissez désormais le fonctionnement complet de l’option Ricochet disponible dans l’application Ashigaru. Pour aller plus loin, je vous recommande de suivre ma formation BTC 204, qui vous apprendra en détail comment renforcer votre confidentialité onchain.
 

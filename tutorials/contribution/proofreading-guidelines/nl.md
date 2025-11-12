@@ -1,27 +1,27 @@
 ---
 name: Richtlijnen voor proeflezen
-description: Wat zijn de belangrijke factoren om in gedachten te houden bij het proeflezen op Plan ₿ Network?
+description: Wat zijn de belangrijke factoren om in gedachten te houden bij het proeflezen op Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Welkom bij deze handleiding over de **richtlijnen die gevolgd moeten worden bij het proeflezen van inhoud op Plan ₿ Network**. We zijn blij dat u onze missie deelt om Bitcoin cursussen en lesmateriaal in zoveel mogelijk talen te vertalen, zodat mensen zich bewust worden van hoe het werkt en hoe het gebruikt kan worden in hun dagelijks leven.
+Welkom bij deze handleiding over de **richtlijnen die gevolgd moeten worden bij het proeflezen van inhoud op Plan ₿ Academy**. We zijn blij dat u onze missie deelt om Bitcoin cursussen en lesmateriaal in zoveel mogelijk talen te vertalen, zodat mensen zich bewust worden van hoe het werkt en hoe het gebruikt kan worden in hun dagelijks leven.
 
 
-Ten eerste, bijdragen aan Plan ₿ Network [openbare repository](https://github.com/PlanB-Network/Bitcoin-educational-content) geeft je de kans om handleidingen te schrijven, de bestaande inhoud te proeflezen, of zelfs de toevoeging van een nieuwe taal aan het platform voor te stellen. Om meer te weten te komen, moet je eerst lid worden van onze [Telegram Groep](https://t.me/PlanBNetwork_ContentBuilder) en een korte presentatie schrijven over jezelf en de talen die je spreekt.
+Ten eerste, bijdragen aan Plan ₿ Academy [openbare repository](https://github.com/PlanB-Network/Bitcoin-educational-content) geeft je de kans om handleidingen te schrijven, de bestaande inhoud te proeflezen, of zelfs de toevoeging van een nieuwe taal aan het platform voor te stellen. Om meer te weten te komen, moet je eerst lid worden van onze [Telegram Groep](https://t.me/PlanBNetwork_ContentBuilder) en een korte presentatie schrijven over jezelf en de talen die je spreekt.
 
 
-Deze handleiding is bedoeld voor bijdragers die inhoud willen proeflezen. De meesten van hen weten niet veel over [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) of de [Markdown taal](https://www.markdownguide.org/basic-syntax/) die we gebruiken in de repository. Het is dus belangrijk om wat inzichten te delen over de belangrijkste aspecten die deze taak omvatten.
+Deze handleiding is bedoeld voor bijdragers die inhoud willen proeflezen. De meesten van hen weten niet veel over [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) of de [Markdown taal](https://www.markdownguide.org/basic-syntax/) die we gebruiken in de repository. Het is dus belangrijk om wat inzichten te delen over de belangrijkste aspecten die deze taak omvatten.
 
 
 Hieronder heb ik de meest voorkomende problemen verzameld die proeflezers tegenkomen. Voel je vrij om er meer te suggereren, omdat het anderen kan helpen zich te verbeteren.
 
 
-Voordat je in de details hieronder duikt, is het eerste wat je moet doen deze tutorial lezen over de praktische acties die je moet volgen op Github, door Plan ₿ Network repository te forken, wijzigingen te committen en PR's te verzenden:
+Voordat je in de details hieronder duikt, is het eerste wat je moet doen deze tutorial lezen over de praktische acties die je moet volgen op Github, door Plan ₿ Academy repository te forken, wijzigingen te committen en PR's te verzenden:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Wat is proeflezen?
@@ -38,13 +38,13 @@ Onthoud altijd dat vertalen/proeflezen ONDERWIJS is!
 
 In feite is het ons gezamenlijke doel om zoveel mogelijk mensen te onderwijzen over Bitcoin, dus is het van fundamenteel belang dat het materiaal dat ze lezen vlot en duidelijk is.
 
-In die zin zijn alle medewerkers op Plan ₿ Network docenten!
+In die zin zijn alle medewerkers op Plan ₿ Academy docenten!
 
 
-## De eerste stappen voor proeflezen op Plan ₿ Network
+## De eerste stappen voor proeflezen op Plan ₿ Academy
 
 
-Voordat je aan een nieuwe proefleestaak begint, meld je je aan in de [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder) of informeer je je Plan ₿ Network coördinator, die een speciale [issue] zal openen (https://github.com/orgs/PlanB-Network/projects/3). Wanneer je de link van de issue ontvangt, **vermeld dan dat je begint** met het proeflezen van die inhoud.
+Voordat je aan een nieuwe proefleestaak begint, meld je je aan in de [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder) of informeer je je Plan ₿ Academy coördinator, die een speciale [issue] zal openen (https://github.com/orgs/Plan ₿ Academy/projects/3). Wanneer je de link van de issue ontvangt, **vermeld dan dat je begint** met het proeflezen van die inhoud.
 
 
 Dit systeem helpt de coördinator om de voortgang binnen de repository bij te houden, en het maakt het mogelijk om de inhoud te "claimen" door de proeflezer, waardoor dubbel werk door iemand anders voorkomen wordt.
@@ -60,7 +60,7 @@ Allereerst, **Denk er ALTIJD aan om je repo te SYNCEN op de "dev" branch**. Op d
 
 
 
-Na het succesvol synchroniseren, kun je direct naar de gewenste inhoud gaan en committen op een nieuwe branch, zoals te zien is in deze [tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Anders kun je een nieuwe branch openen om aan te werken, door op "Branches" te klikken, zoals hieronder te zien is.
+Na het succesvol synchroniseren, kun je direct naar de gewenste inhoud gaan en committen op een nieuwe branch, zoals te zien is in deze [tutorial] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Anders kun je een nieuwe branch openen om aan te werken, door op "Branches" te klikken, zoals hieronder te zien is.
 
 
 
@@ -115,11 +115,11 @@ In dit tweede geval, **doe altijd wat onderzoek om te zien of iemand anders in j
 
 
 
-- Een andere goede oplossing is om het EN oorspronkelijke woord/zin te behouden en **een hyperlink** te maken die verwijst naar de [woordenlijst](https://planb.network/en/resources/glossary) op planb.network. Om dit te doen, moet je het woord/de zin tussen vierkante haakjes plaatsen en de link tussen ronde haakjes, zoals je kunt zien in het onderstaande voorbeeld:
+- Een andere goede oplossing is om het EN oorspronkelijke woord/zin te behouden en **een hyperlink** te maken die verwijst naar de [woordenlijst](https://planb.academy/en/resources/glossary) op planb.network. Om dit te doen, moet je het woord/de zin tussen vierkante haakjes plaatsen en de link tussen ronde haakjes, zoals je kunt zien in het onderstaande voorbeeld:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ In het uiteindelijke resultaat (afbeelding hieronder) zie je niet de hele link, 
 
 
 
-Houd er rekening mee dat de verklarende woordenlijstlink die je van de website haalt de taalcode na het woord "network" bevat (voorbeeld: ``https://planb.network/en/resources/glossary/utxo``-> hier kun je de taalcode "en" lezen). Verwijder in dit geval **de taalcode uit de link**, zoals je in het vak hierboven ziet. Op deze manier zal het systeem de lezer automatisch naar de taal van zijn keuze leiden.
+Houd er rekening mee dat de verklarende woordenlijstlink die je van de website haalt de taalcode na het woord "network" bevat (voorbeeld: ``https://planb.academy/en/resources/glossary/utxo``-> hier kun je de taalcode "en" lezen). Verwijder in dit geval **de taalcode uit de link**, zoals je in het vak hierboven ziet. Op deze manier zal het systeem de lezer automatisch naar de taal van zijn keuze leiden.
 
 
 De inhoud van het archief staat vol met hyperlinks zoals deze hierboven. Nu je weet wat ze betekenen, **zorg ervoor dat je geen enkele link** verwijdert die door de oorspronkelijke auteur is ingevoegd.
 
 
 
-- Iets anders met betrekking tot woordweergave is het volgende. Als je "Plan ₿ Network" in de tekst tegenkomt, **laat het dan in deze oorspronkelijke vorm staan**. Vertaal het woord "plan" of het woord "netwerk" niet. Gebruik ook NIET het lidwoord "De" als je Plan ₿ Network introduceert: **beschouw het als een merk**.
+- Iets anders met betrekking tot woordweergave is het volgende. Als je "Plan ₿ Academy" in de tekst tegenkomt, **laat het dan in deze oorspronkelijke vorm staan**. Vertaal het woord "plan" of het woord "netwerk" niet. Gebruik ook NIET het lidwoord "De" als je Plan ₿ Academy introduceert: **beschouw het als een merk**.
 
 
 
@@ -323,7 +323,7 @@ Dubbelcheck altijd alle hyperlinks in de tekst om er zeker van te zijn dat ze co
 
 
 
-- Als de auteur een link invoegt die verwijst naar een Plan ₿ Network cursus of handleiding (**niet** tussen haakjes), dan zal de website automatisch een "kaart" aanmaken met de bijbehorende thumbnail. Zorg er daarom altijd voor dat je **een nieuwe regel toevoegt tussen de tekst en de link**, anders kun je de volgende foutmelding op de website zien.
+- Als de auteur een link invoegt die verwijst naar een Plan ₿ Academy cursus of handleiding (**niet** tussen haakjes), dan zal de website automatisch een "kaart" aanmaken met de bijbehorende thumbnail. Zorg er daarom altijd voor dat je **een nieuwe regel toevoegt tussen de tekst en de link**, anders kun je de volgende foutmelding op de website zien.
 
 
 

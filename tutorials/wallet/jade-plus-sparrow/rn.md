@@ -34,7 +34,7 @@ Jade Plus ihuye n’ibindi bikoresho vyinshi vyo gucunga Wallet. Aha niho hari i
 Muri iyi nyigisho, tuzoshiraho ubuhinga buteye imbere bwa Jade Plus n’ubuhinga bwa Sparrow wallet bwo ku biro mu buryo bwa QR codes. Iyi ntunganyo ni nziza ku bakoresha bo hagati canke bazi utuntu n’utundi. Niba uriko urarondera uburyo bworoshe ku batangura, ndagusavye urabe iyi nyigisho aho dukoresha Jade Plus na Green Wallet ku nzira ya Bluetooth:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Igishushanyo c'umutekano wa Jade Plus
 
@@ -142,7 +142,7 @@ Ushobora kuvyandika ku karto zitangwa mu gasandugu, canke kugira ngo wongere uyi
 Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 n’ukuri, ntushobora kwigera usangira aya majambo kuri internet, nk’uko ndiko ndabikora muri iyi nyigisho. Ico kigereranyo ca Wallet kizokoreshwa gusa kuri Testnet kandi kizokurwaho ku mpera y’inyigisho.
 
@@ -378,7 +378,7 @@ BIP39 passphrase ni ijambobanga ry’ubuhinga ushobora guhitamwo mu mwidegemvyo,
 Imbere yo gutunganya iyi nzira kuri Jade Plus yawe, birakenewe cane ko usoma iyi ngingo kugira ngo utahure neza ingene passphrase ikora kandi wirinde amakosa yoshobora gutuma utakaza amafaranga yawe :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jade yawe ikiri yuguruye (passphrase ishobora kwinjira gusa iyo igikoresho kitafunguwe), genda kuri menu ya "*Options*".
 
@@ -444,7 +444,7 @@ Nimba passphrase yawe ifise akamaro, yemeze.
 Urashobora kubona ko amajambo y'ibanga ya BIP39 ashobora guhinduka amajambo y'inyuguti nini n'amakosa yo kwandika. Niwinjiza passphrase itandukanye gatoyi n'iyo watunganijwe mu ntango, Jade ntizotanga raporo y'ikosa ariko izoronka uwundi mugwi w'imfunguruzo z'ibanga zizoba zitari izo muri Wallet yawe ya mbere.
 
 
-Ni ngombwa rero, igihe uriko uratunganya, gukora akamenyetso k'urutoke rwawe rw'urufunguzo rwa mbere, rushobora kuboneka mu mfuruka y'iburyo hasi y'ibarabara. Nk'akarorero, na passphrase yanje `PBN`, urutoke rwanje rw'urufunguzo ni `3AD1AE65`.
+Ni ngombwa rero, igihe uriko uratunganya, gukora akamenyetso k'urutoke rwawe rw'urufunguzo rwa mbere, rushobora kuboneka mu mfuruka y'iburyo hasi y'ibarabara. Nk'akarorero, na passphrase yanje `Plan ₿ Academy`, urutoke rwanje rw'urufunguzo ni `3AD1AE65`.
 
 
 ![Image](assets/fr/49.webp)
@@ -456,7 +456,7 @@ Igihe cose ufunguye Jade yawe ukoresheje passphrase yawe, urabe ko urutoke rwawe
 Imbere y’uko uronka ama bitcoins yawe ya mbere muri Wallet yawe, **Ndaguhanura cane gukora ikigeragezo co gusubirana ubusa**. Ushire ahabona amakuru amwe amwe y’ishingiro, nka xpub yawe canke ubanza kwakira Address, hanyuma usibe Wallet yawe kuri Jade Plus igihe ikiri ubusa (`Amahitamwo -> Igikoresho -> Gusubiramwo uruganda`). Hanyuma ugerageze gusubizaho Wallet yawe ukoresheje impapuro zawe z'amajambo Mnemonic na passphrase iyo ari yo yose. Suzuma ko amakuru y’ibifungurwa vyasohowe inyuma yo gusubizaho ahuye n’ayo wanditse mu ntango. Nivyashika, urashobora kwizigira yuko amakete yawe y’impapuro ari ay’ukwizigirwa. Kugira ngo umenye vyinshi ku buryo bwo gukora ikigeragezo co gukira, raba iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Gutegura Wallet kuri Sparrow wallet
 
@@ -473,7 +473,7 @@ Tangana n’ugukura no gushiramwo Sparrow wallet [ku rubuga rwemewe](https://spa
 Raba neza ko iyo porogarama ari iyo ukuri be n’uko itagiramwo ubutungane imbere y’uko uyishiramwo. Niba utazi uko wobikora, urashobora kuraba iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow wallet imaze gufunguka, ukande kuri "*Dosiye*", hanyuma ukande kuri "*Wallet nshasha*".
 
@@ -649,4 +649,4 @@ Urakoze cane, ubu urazi gushinga no gukoresha Jade Plus mu buryo bwa QR. Niwaba 
 Kugira ngo tugende kure, ndababwira iyi yindi nyigisho ku Jade Plus, aho tuyitunganya biciye ku Bluetooth n’iporogarama ya telefone ngendanwa Green:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

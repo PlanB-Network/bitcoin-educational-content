@@ -11,11 +11,10 @@ Početak rada sa Bitcoin čini se velikim izazovom za ljude koji su skeptični u
 
 
 
-U ovom vodiču ćemo pogledati Blue Wallet, jednostavan ali veoma efikasan Bitcoin Wallet koji vam omogućava da lično upravljate svojim bitcoinima i takođe da kreirate upravljačke zadruge zasnovane na [Multisig](https://planb.network/resources/glossary/multisig) (ne brinite, vratićemo se na to).
+U ovom vodiču ćemo pogledati Blue Wallet, jednostavan ali veoma efikasan Bitcoin Wallet koji vam omogućava da lično upravljate svojim bitcoinima i takođe da kreirate upravljačke zadruge zasnovane na [Multisig](https://planb.academy/resources/glossary/multisig) (ne brinite, vratićemo se na to).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Kada instalirate, možete kreirati novi Wallet i sačuvati 12 reči za oporavak,
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Sa Blue Wallet možete kreirati odvojene, posvećene Bitcoin portfelje. Na primer, možete imati jedan Wallet za vašu štednju i drugi za vaše dnevne troškove, sve u istoj aplikaciji.
 
@@ -65,10 +64,10 @@ Ako ste navikli na druge Bitcoin portfelje kao što su Phoenix ili Aqua, uopšte
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Plavi Wallet's Bitcoin Wallet predstavlja standardni Wallet u ekosistemu Bitcoin. Možete trošiti bitkoine sve dok posedujete reči za oporavak koje će obezbediti važeći potpis na mreži kako bi se potvrdilo da posedujete bitkoine.
 
@@ -122,7 +121,7 @@ Stoga možete odabrati odnos naknade za transakciju koji vam odgovara ako želit
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Pridržavajte se najbolje prakse odabirom P2WSH formata.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) ili Pay to Witness Script Hash** je metoda zaključavanja koja zaključava odlazne bitkoine vaše transakcije (Izlazi) na Hash prilagođenog skripta koji postavlja Blue Wallet. Glavna prednost ovog tipa zaključavanja je što smanjuje veličinu podataka transakcije i implicitno vam omogućava da platite niže naknade za transakciju.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) ili Pay to Witness Script Hash** je metoda zaključavanja koja zaključava odlazne bitkoine vaše transakcije (Izlazi) na Hash prilagođenog skripta koji postavlja Blue Wallet. Glavna prednost ovog tipa zaključavanja je što smanjuje veličinu podataka transakcije i implicitno vam omogućava da platite niže naknade za transakciju.
 
 
 
@@ -264,7 +263,7 @@ Kada validirate svoju transakciju, biće vam potreban drugi potpis da biste odob
 
 
 
-Drugi potpisnik Wallet, ako je i korisnik, može potpisati transakciju čak i ako nije povezan na Internet (nema Wi-Fi, nema mobilne podatke) skeniranjem QR koda [delimično potpisane transakcije](https://planb.network/resources/glossary/psbt) koju ste upravo kreirali.
+Drugi potpisnik Wallet, ako je i korisnik, može potpisati transakciju čak i ako nije povezan na Internet (nema Wi-Fi, nema mobilne podatke) skeniranjem QR koda [delimično potpisane transakcije](https://planb.academy/resources/glossary/psbt) koju ste upravo kreirali.
 
 
 
@@ -330,12 +329,12 @@ U Podešavanjima > **Lightning Podešavanja**, možete ručno povezati vaš Ligh
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Sada ste završili obilazak Blue Wallet, spremni da koristite Bitcoin u svoj njegovoj jednostavnosti i snazi. Preporučujemo da napravite sledeći korak i saznate kako možete prihvatiti Bitcoin uplate u vašim prodavnicama, zahvaljujući snazi Lightning-a.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

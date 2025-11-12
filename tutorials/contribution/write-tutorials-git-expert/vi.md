@@ -1,30 +1,30 @@
 ---
 name: Đóng góp - Hướng dẫn Git (nâng cao)
-description: Hướng dẫn dành cho người dùng nâng cao để cung cấp hướng dẫn về Plan ₿ Network với Git
+description: Hướng dẫn dành cho người dùng nâng cao để cung cấp hướng dẫn về Plan ₿ Academy với Git
 ---
 ![cover](assets/cover.webp)
 
 Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Bạn đã có:
 
 
 - Chọn một chủ đề cho bài hướng dẫn của bạn;
-- Đã liên hệ với nhóm Plan ₿ Network qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network ;
+- Đã liên hệ với nhóm Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network ;
 - Chọn công cụ đóng góp của bạn.
 
-Trong hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt ngắn gọn các bước chính và hướng dẫn cần thiết để cung cấp hướng dẫn Plan ₿ Network mới. Nếu bạn không quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong 2 hướng dẫn chi tiết hơn sau đây sẽ hướng dẫn bạn từng bước:
+Trong hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt ngắn gọn các bước chính và hướng dẫn cần thiết để cung cấp hướng dẫn Plan ₿ Academy mới. Nếu bạn không quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong 2 hướng dẫn chi tiết hơn sau đây sẽ hướng dẫn bạn từng bước:
 
 
 - **Trung cấp (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Người mới bắt đầu (giao diện web)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Công cụ được đề xuất
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ### 1 - Cấu hình môi trường cục bộ của bạn
 
 
-- Bạn phải có nhánh riêng của [Kho lưu trữ Plan ₿ Network trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Bạn phải có nhánh riêng của [Kho lưu trữ Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Đồng bộ hóa nhánh chính (`dev`) của nhánh fork với kho lưu trữ nguồn.
 - Cập nhật bản sao cục bộ của bạn.
 
@@ -166,11 +166,11 @@ Dưới đây là các trường bắt buộc:
 
 - **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
 
-- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
 
-- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Academy (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Mức độ khó của hướng dẫn, được chọn từ:
     - `beginner`
@@ -191,7 +191,7 @@ Dưới đây là các trường bắt buộc:
 
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143

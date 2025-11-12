@@ -1,0 +1,8 @@
+question: According to responsible disclosure practices, what is the primary ethical dilemma faced by security researchers who discover vulnerabilities in decentralized systems like Bitcoin?
+answer: Balancing the need to inform responsible parties while avoiding disclosure to potentially malicious actors who could exploit the vulnerability
+wrong_answers:
+  - Deciding whether to profit from the vulnerability discovery through bug bounty programs or donate the information freely to the community
+  - Choosing between reporting to government authorities first versus reporting directly to the software development team to avoid regulatory complications
+  - Determining the appropriate financial compensation for vulnerability discovery before agreeing to disclose the information to developers
+explanation: |
+  The core ethical challenge in responsible disclosure is the delicate balance between transparency and security. Researchers must ensure vulnerabilities are addressed without inadvertently providing a roadmap for malicious exploitation. This involves carefully coordinating with developers, timing disclosures appropriately, and considering the broader ecosystem impact. The other options focus on financial or regulatory concerns that, while potentially relevant, are not the primary ethical dilemma outlined in responsible disclosure practices.

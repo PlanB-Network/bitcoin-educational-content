@@ -51,7 +51,7 @@ Kuhusu [bei](https://proton.me/pricing), toleo lisilolipishwa linatoa hadi GB 5 
 Ikiwa bado huna akaunti ya Protoni, utahitaji kuunda moja. Ninakuelekeza kwenye mafunzo yetu ya Barua ya Proton ambamo tunaelezea kwa kina jinsi ya kuunda akaunti ya bure ya Protoni na kuisanidi:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ Sasa uko kwenye Hifadhi yako ya Proton.
 Ili kuongeza faili kwenye Hifadhi yako ya Proton, unapotumia toleo la wavuti pekee (tutajadili matumizi ya toleo la ndani baadaye), unahitaji tu kuburuta na kuangusha hati zako moja kwa moja kwenye Interface. ![PROTON DRIVE](assets/notext/08.webp) Kisha unaweza kupata hati yako kwenye ukurasa wa nyumbani. ![PROTON DRIVE](assets/notext/09.webp) Ili kuongeza kipengee kipya, bofya kitufe cha "*Mpya*" kilicho juu kushoto mwa skrini. ![PROTON DRIVE](assets/notext/10.webp) Chaguo la kukokotoa la "*Pakia faili*" hufungua kichunguzi cha faili kilicho karibu nawe, huku kukuruhusu kuchagua na kuleta hati mpya kwenye Hifadhi ya Proton, kama vile ungefanya kwa kuburuta na kudondosha. ![PROTON DRIVE](assets/notext/11.webp) "*Pakia folda*" hukuruhusu kuleta folda nzima. ![PROTON DRIVE](assets/notext/12.webp) "*Folda mpya*" hukuwezesha kuunda folda ili kupanga hati zako vyema kwenye Hifadhi ya Proton. ![PROTON DRIVE](assets/notext/13.webp) Bofya chaguo hili, weka jina kwenye folda yako. ![PROTON DRIVE](assets/notext/14.webp) Kisha utaipata moja kwa moja kwenye ukurasa wa nyumbani wa Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Hatimaye, "*Hati mpya*" hukuruhusu kuunda hati mpya moja kwa moja kwenye Hifadhi ya Proton. ![PROTON DRIVE](assets/notext/16.webp) Kwa kubofya, hati mpya tupu itafunguka. ![PROTON DRIVE](assets/notext/17.webp) Unaweza kuandika juu yake na kuihariri. ![PROTON DRIVE](assets/notext/18.webp) Ukibofya kitufe cha "*Shiriki*" kilicho upande wa juu kulia, unaweza kushiriki hati. ![PROTON DRIVE](assets/notext/19.webp) Unahitaji tu kuingiza barua pepe ya mchangiaji ambaye ungependa kumpa idhini ya kufikia hati, katika hali ya kusoma tu au yenye haki za kuhariri. ![PROTON DRIVE](assets/notext/20.webp) Ukirudi kwenye Hifadhi yako ya Proton, unaweza kuona kwamba hati imehifadhiwa. ![PROTON DRIVE](assets/notext/21.webp) Katika kichupo cha "*Inayoshirikiwa*", unaweza kupata hati ambazo umeshiriki na wengine. ![PROTON DRIVE](assets/notext/22.webp) Na katika kichupo cha "*Inayoshirikiwa nami*", unaweza kuona hati ambazo wengine wameshiriki nawe. ![PROTON DRIVE](assets/notext/23.webp) Hatimaye, katika kichupo cha "*Tupio*", unaweza kupata hati zako zilizofutwa hivi majuzi. ![PROTON DRIVE](assets/notext/24.webp) Mipangilio mingi ya Hifadhi yako ya Proton imeunganishwa kwenye akaunti yako ya Protoni. Kwa maagizo ya kina juu ya kusanidi akaunti yako, ninakualika uangalie mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Jinsi ya kufunga programu ya Proton Drive?
 
@@ -145,4 +145,4 @@ Hongera, sasa una mkakati thabiti wa chelezo wa 3-2-1, ambao hukuruhusu kupunguz
 Ili kupata maelezo zaidi kuhusu kulinda uwepo wako mtandaoni na kuepuka udukuzi, ninapendekeza pia kushauriana na mafunzo yetu ya kina kuhusu kidhibiti nenosiri cha Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

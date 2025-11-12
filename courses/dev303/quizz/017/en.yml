@@ -1,0 +1,8 @@
+question: What are the three components that make up a String's structure in Rust's memory layout?
+answer: A pointer to heap data, the current length, and the total capacity
+wrong_answers:
+  - A pointer to stack data, the current size, and the maximum length
+  - A memory address, the character count, and the allocation type
+  - A data reference, the byte size, and the ownership status
+explanation: |
+  A String in Rust consists of exactly three components stored on the stack: a pointer to the heap-allocated character data, the current length of the string content, and the total capacity of the allocated buffer. This structure allows strings to efficiently grow and shrink while maintaining knowledge of their boundaries. The other options are incorrect because they either reference wrong locations (stack instead of heap), use imprecise terminology (size vs length, character count vs byte length), or include non-existent components like allocation type or ownership status.

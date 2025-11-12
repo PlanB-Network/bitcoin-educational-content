@@ -31,7 +31,7 @@ RGB - это протокол, который работает поверх Bitc
 
 Чтобы узнать больше о том, как работает протокол RGB, я рекомендую вам пройти этот полный курс обучения:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-совместимый узел Lightning
 
@@ -219,7 +219,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-Теперь мы можем создать актив RGB. Команда будет зависеть от типа актива, который вы хотите создать, и его параметров. Здесь я создаю токен NIA (*Non Inflatable Asset*) под названием "PBN" с запасом в 1000 единиц. Параметр `precision` позволяет определить делимость единиц.
+Теперь мы можем создать актив RGB. Команда будет зависеть от типа актива, который вы хотите создать, и его параметров. Здесь я создаю токен NIA (*Non Inflatable Asset*) под названием "Plan ₿ Academy" с запасом в 1000 единиц. Параметр `precision` позволяет определить делимость единиц.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ curl -X 'GET' \
 
 ![RLN](assets/fr/13.webp)
 
-Далее мы откроем канал, указав соответствующий актив (`PBN`). Команда `/openchannel` позволяет задать размер канала в сатоши и выбрать включение актива RGB. Это зависит от того, что вы хотите создать, но в моем случае команда выглядит так: :
+Далее мы откроем канал, указав соответствующий актив (`Plan ₿ Academy`). Команда `/openchannel` позволяет задать размер канала в сатоши и выбрать включение актива RGB. Это зависит от того, что вы хотите создать, но в моем случае команда выглядит так: :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ http://localhost:3001/openchannel
 
 ![RLN](assets/fr/15.webp)
 
-Канал Lightning теперь открыт и также содержит 500 токенов `PBN` на стороне узла n°1. Если узел n°2 хочет получить токены `PBN`, он должен сгенерировать счет-фактуру. Вот как это сделать:
+Канал Lightning теперь открыт и также содержит 500 токенов `Plan ₿ Academy` на стороне узла n°1. Если узел n°2 хочет получить токены `Plan ₿ Academy`, он должен сгенерировать счет-фактуру. Вот как это сделать:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Теперь мы оплатим этот счет с первого узла, на котором хранится необходимая наличность с токеном `PBN`:
+Теперь мы оплатим этот счет с первого узла, на котором хранится необходимая наличность с токеном `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ curl -X 'GET' \
 
 Я также рекомендую этот учебник, в котором я объясняю, как использовать инструмент RGB CLI, разработанный ассоциацией LNP/BP, для создания контракта RGB:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

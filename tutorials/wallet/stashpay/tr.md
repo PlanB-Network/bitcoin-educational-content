@@ -42,7 +42,7 @@ Uygulama yüklendikten sonra, StashPay ilk kez açtığınızda sizin için bir 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 "Ayarlar" simgesine tıklayarak StashPay ayarlarına erişin, ardından **Yedek oluştur** seçeneğine tıklayın. Ardından kurtarma ifadelerinin görüntülenmesine izin verin. Kurtarma ifadelerinizi telefonunuzun panosuna kopyalamayın, çünkü bunlar cep telefonunuzda yüklü diğer dolandırıcılık uygulamaları tarafından erişilebilir olabilir.
 
@@ -88,7 +88,7 @@ Satoshis almak için bir ağ ücreti ödemeniz gerektiğini fark etmiş olacaks�
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### StashPay ile bitcoin gönderin
 
@@ -106,7 +106,7 @@ StashPay, Breez Geliştirme Kitini temel alan bir Wallet olduğundan, ilginç bi
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Bununla birlikte, Breez SDK, ana zincirdeki bir Address'a bitcoin gönderebileceğiniz minimum bir miktar uygular.
 
@@ -168,4 +168,4 @@ StashPay'in minimalist Bitcoin Wallet'si ile yeni tanıştınız. Bu eğitimi fa
 
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

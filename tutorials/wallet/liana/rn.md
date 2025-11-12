@@ -43,7 +43,7 @@ Iyi nzira ishobora kugufasha gushinga imiterere itandukanye, harimwo :
 
 
 
-- Itegeko ry’ugukurikirana (canke ry’iragi), rituma abazungu bashobora gusubirana amahera iyo uwuriko arakoresha apfuye. Kugira ngo umenye vyinshi kuri iyo nkuru, turagusavye gusoma [igice ca 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac08026-
+- Itegeko ry’ugukurikirana (canke ry’iragi), rituma abazungu bashobora gusubirana amahera iyo uwuriko arakoresha apfuye. Kugira ngo umenye vyinshi kuri iyo nkuru, turagusavye gusoma [igice ca 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac08026-
 - Igikoresho co gusubiza inyuma gikomeye gifise igihe co gusubirana, giha uwugikoresha ubushobozi bwo gukoresha Wallet yiwe ataco ategerezwa kubika ijambo ry’ibanga rihuye n’iryo jambo kandi akagira ingorane yo kwibwa, mu gihe c’ubusuma nk’akarorero.
 - Urusenga rw'umutekano ku bantu batangura na Bitcoin: bazocungera Wallet yabo, kandi "uwubacungera" (incuti yabo, nk'akarorero) azoba afise uburenganzira bwo gusubirana amahera yabo inyuma y'igihe kinaka.
 - Itegeko ry’imikono myinshi (*Multisig*) rifise ibisabwa bigabanywa uko igihe kigenda kirarenga, kugira ngo umuntu ashobore guhangana n’ukubura kw’umwe canke benshi mu bari muri iyo nama, nk’abafatanyabikorwa b’ishirahamwe.
@@ -69,13 +69,13 @@ Muri iyi nyigisho, tuzoshiraho umugambi wo gukurikirana. Tuzoba turiko turakores
 - Igikoresho citwa Ledger Nano S Plus, co gukoresha ku musi ku musi;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - Igiti c’umukara citwa Jade, gikoreshwa mu gusubiza amahera;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Ivyuma bibiri vyo kubika (inkoni za USB) vyo kubika Wallet Descriptor;
@@ -95,7 +95,7 @@ Sura urubuga rwemewe rwa Wizardsardine maze ushiremwo Liana kuri https://wizards
 Kugira ngo umenye ingene wogenzura n'amaboko ukuri n'ubutungane bwa porogaramu imbere yo gushiramwo, turagusavye kuraba iyi nyigisho :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Shira iyo porogarama ku mashini yawe maze uyifungure. Hitamwo "*Rema Liana Wallet*" kugira ngo utunganye Wallet yawe.
 
@@ -286,7 +286,7 @@ Ushobora kumenya uko amafaranga yawe azohera mu kuja ku rubuga rwa "*Ibiceri*". 
 Kugira ngo utahure neza uburyo bwo guserukira UTXO bukoreshwa muri Bitcoin, urashobora kuraba igice ca mbere c’inyigisho yerekeye ibanga muri Bitcoin yanditswe na Loïc Morel :
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Amafaranga y'ubu
 
@@ -495,7 +495,7 @@ Ivyanditswe vyakozwe n’iyi Wallet bizofata uburyo bukurikira:
 ```
 
 
-Kubera ko umutekano wa Bitcoin Wallet yawe na wo uvana n’ugutahura kwawe ingene ikora, ndagusavye kwiga uburyo bw’amasakoshi y’ibintu vy’agaciro n’ivy’ubukuru mu buryo bwimbitse mu gufata iyi nyigisho y’ubuntu ku Plan ₿ Network :
+Kubera ko umutekano wa Bitcoin Wallet yawe na wo uvana n’ugutahura kwawe ingene ikora, ndagusavye kwiga uburyo bw’amasakoshi y’ibintu vy’agaciro n’ivy’ubukuru mu buryo bwimbitse mu gufata iyi nyigisho y’ubuntu ku Plan ₿ Academy :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

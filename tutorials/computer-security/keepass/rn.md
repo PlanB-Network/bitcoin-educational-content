@@ -24,7 +24,7 @@ Igikoresho co gucungera amajambo y’ibanga kiratanga amajambo y’ibanga akomey
 
 Muri iyi nyigisho, tuzokwiga ingene woshiraho no gukoresha umucungerezi w’ijambobanga ryo mu karere kugira ngo wongere umutekano wawe wo kuri internet. Aha, nzobamenyesha KeePass. Ariko rero, nimba uri umutanguzi kandi wipfuza kugira umucungerezi w’ijambobanga ryo kuri internet ashobora gukorana n’ibikoresho vyinshi, ndagusavye gukurikira inyigisho yacu kuri Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

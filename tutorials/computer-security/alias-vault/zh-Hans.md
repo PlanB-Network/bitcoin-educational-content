@@ -1,5 +1,5 @@
 ---
-name: 别名保险库
+name: Alias Vault
 description: 管理密码、双因素身份验证和别名的强大工具（内置电子邮件服务器）--也可自行托管！
 ---
 
@@ -185,7 +185,7 @@ Alias Vault 非常简单：只有一个主页面，即 "主页"，有两个菜�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 要删除作为测试创建的别名，只需登录 "主页"，然后登录 "证书"，点击要删除的身份。右上角会出现_Delete_（删除）命令供您执行。
 

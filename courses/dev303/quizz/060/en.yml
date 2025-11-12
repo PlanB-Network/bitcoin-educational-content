@@ -1,0 +1,8 @@
+question: When developing a custom function-like macro in Rust, what is the primary purpose of using fragment specifiers like `expr`, `ty`, and `ident` in pattern matching?
+answer: To define what kind of code elements can be matched and ensure syntactically valid input
+wrong_answers:
+  - To specify the return type of the generated code and optimize compilation performance
+  - To determine the execution order of macro branches and handle runtime type checking
+  - To control memory allocation patterns and define variable scoping rules in expanded code
+explanation: |
+  Fragment specifiers in macro patterns serve as type constraints that validate the syntax of input tokens during macro expansion. They ensure that the macro receives the correct kind of code element (expression, type, identifier, etc.) and provide clear error messages when invalid syntax is encountered. This happens at compile-time during pattern matching, not during runtime execution, and they don't directly control memory allocation, execution order, or return types of the generated code.

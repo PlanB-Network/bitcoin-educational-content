@@ -5,5 +5,5 @@ wrong_answers:
   - Maandishi ya Bash
   - Vikundi vya Kubernetes
 explanation: |
-  Kila programu katika Umbrel huendeshwa kwenye chombo cha Docker, kuwezesha usimamizi huru na kutengwa.
+  Kila programu katika Umbrel huendeshwa kwenye chombo cha Docker, kuwezesha usimamizi huru pia na kutengwa.
 reviewed: true

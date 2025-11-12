@@ -1,5 +1,5 @@
 question: Wat is de standaardwaarde van de dbcache parameter in Bitcoin core?
-answer: 450 MB
+answer: 450 MiB
 wrong_answers:
   - 128 MB
   - 1 GB

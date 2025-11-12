@@ -1,4 +1,4 @@
-question: Quale aggiunta nell'estate del 2010 ha permesso successivamente i soft fork in Bitcoin?
+question: Quale aggiunta nell'estate del 2010 ha permesso successivamente i soft fork su Bitcoin?
 answer: I codici operativi OP_NOP
 wrong_answers:
   - Il sistema di allerta

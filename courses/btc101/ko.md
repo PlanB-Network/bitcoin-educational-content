@@ -17,7 +17,7 @@ objectives:
 이 과정에서는 Bitcoin의 기본 사항을 25개의 챕터로 설명하여 간단하고 효과적인 방법으로 이 기술을 이해할 수 있도록 합니다. 이 과정에서는 Mining, 지갑, 구매/판매 플랫폼 등의 주제를 포함해 업계 전반의 기초를 살펴봅니다. 이 과정을 마친 후에는 리소스 섹션의 '21가지 포스터'에서 추가 교육 자료도 확인하실 수 있습니다.
 
 
-특별한 지식이 없어도 시작할 수 있습니다. 실제로 다음 콘텐츠는 모든 수준의 학생이 접근할 수 있으며, 완료하는 데 약 15시간이 소요됩니다.
+이 과정을 시작하기 위해 사전 지식은 필요하지 않습니다. BTC 101은 경험 수준에 관계없이 누구나 접근할 수 있도록 설계되었습니다.
 
 
 +++
@@ -205,7 +205,7 @@ Bitcoin의 역사는 Cypherpunk 운동과 디지털 시대의 더 큰 자유를 
 Bitcoin의 역사를 더 자세히 알아보고 싶으시다면 Bitcoin의 기원과 서서히 등장한 과정, 그리고 역사와 커뮤니티의 시작을 알아볼 수 있는 HIS 201 강좌를 적극 추천합니다. 이 강좌는 많은 일화를 포함한 모든 문서와 자료를 갖추고 있습니다:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # 돈
 
@@ -384,7 +384,7 @@ Bitcoin가 주목받는 또 다른 이유는 중앙은행 디지털 화폐, 즉 
 경제적 오류와 자유에 대해 자세히 알아보려면 Bitcoin의 출현을 높이 평가했을 19세기 프랑스 사상가 프레데릭 바스티앙의 삶과 사상을 추적하는 ECO 102 강좌를 수강해 보세요:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## 하이퍼인플레이션
 
@@ -521,7 +521,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 초인플레이션에 대해 더 자세히 알아보려면 초인플레이션 주기가 무엇이고 우리 삶에 미치는 실제 영향을 배울 수 있는 David St-Onge의 ECO 204 강좌를 추천합니다. 또한 이러한 주기 사이의 유사점과 가장 중요한 것은 이러한 주기로부터 자신을 보호하는 방법을 발견하게 될 것입니다.
 
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 2100만 비트코인
 
@@ -576,7 +576,7 @@ Bitcoin은 **2100만 개**의 사전 정의된 최대 수량을 가진 탈중앙
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Mining의 개념은 [Miner 챕터](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)에서 더 자세히 살펴보겠습니다.
+Mining의 개념은 [Miner 챕터](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)에서 더 자세히 살펴보겠습니다.
 
 
 ### 디지털 희소성 보장
@@ -739,13 +739,13 @@ Wallet를 초기화할 때 Mnemonic 구문(개인 키)이라고도 하는 비밀
 따라서 다음 섹션에서 자세히 설명할 좋은 보안 관행을 따른다면 Bitcoin Wallet을 해킹할 확률은 천문학적으로 낮습니다.
 
 
-다양한 지갑 관리 및 보안에 대한 자세한 튜토리얼은 [튜토리얼 섹션](https://planb.network/tutorials/wallet)에서 확인하실 수 있습니다.
+다양한 지갑 관리 및 보안에 대한 자세한 튜토리얼은 [튜토리얼 섹션](https://planb.academy/tutorials/wallet)에서 확인하실 수 있습니다.
 
 
 토끼굴을 내려가는 동안 엔트로피부터 주소 수신까지 Bitcoin Wallet 구축에 대해 자세히 알아보고 싶다면 이 주제에 대한 CYP 201 강좌를 추천합니다:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin 지갑 및 보안
 
@@ -792,7 +792,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 예를 들어 Sparrow wallet을 Hot Wallet로 사용할 수 있습니다:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 - 레벨 2**의 경우, 실제 Wallet을 사용하며 12/24 단어 목록을 확보한 상태입니다. 키가 인터넷에 연결되지 않은 장치에 저장되기 때문에 "Cold Wallet"이라고도 합니다. 이 경우 항상 장치로 모든 거래에 서명해야 하므로 매일 자금에 대한 접근성이 떨어집니다.
@@ -801,11 +801,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 예를 들어 Ledger, 사토칩 또는 탭시그너를 사용할 수 있습니다:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/ko/031.webp)
 
@@ -817,7 +817,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 BIP39 passphrase의 사용법과 기능에 대해 자세히 알아보세요:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/ko/032.webp)
 
@@ -856,7 +856,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 이 단계는 BTC102 강좌에서 안내해 드립니다.
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### 이 단계는 농담이 아닙니다!
 
@@ -906,7 +906,7 @@ Mnemonic 문구를 명확하고 읽기 쉽게 복사할 때 실수하지 않도�
 나만의 Wallet를 설정하고 첫 비트코인을 얻는 방법을 단계별로 알아보고 싶으시다면 이 다른 과정을 수강하는 것을 추천합니다:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 시간의 시험을 통과하다
 
@@ -923,7 +923,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 장기적으로 비트코인을 안전하게 보관하는 한 가지 방법은 강철과 같이 내구성이 뛰어난 소재에 Mnemonic 문구를 새겨 넣는 것입니다. 이렇게 하면 물과 화재에 강한 물리적 백업 키가 만들어집니다.
 
 
-"블록밋"과 같이 저렴한 솔루션이 있는 반면, 보다 전문적인 장비가 필요한 솔루션도 있습니다. 이 주제는 아카데미의 [튜토리얼](https://planb.network/en/tutorials/wallet) 섹션에서 자세히 살펴볼 수 있습니다.
+"블록밋"과 같이 저렴한 솔루션이 있는 반면, 보다 전문적인 장비가 필요한 솔루션도 있습니다. 이 주제는 아카데미의 [튜토리얼](https://planb.academy/en/tutorials/wallet) 섹션에서 자세히 살펴볼 수 있습니다.
 
 
 ![image](assets/ko/036.webp)
@@ -935,7 +935,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 이 첫 번째 방법과 함께 상속 계획을 세우는 것은 사후에 비트코인을 적절히 관리하기 위한 중요한 단계입니다. 이 계획에는 자산의 성격, 접근 방법, 자산을 관리할 수 있는 신뢰할 수 있는 사람의 연락처 정보를 간략하게 설명하는 편지를 직접 작성하는 것이 포함됩니다. 또한 회계사 및/또는 부동산 변호사와 비트코인의 상속을 논의하여 세금 준수를 보장하는 것도 중요하지만, 이 사람에게 비트코인의 관리를 직접 맡겨서는 안 됩니다.
 
 
-비트코인 상속 계획에 대해 더 자세히 알아보고 싶으시다면 파멜라 모건의 저서 [암호화 자산 상속 계획](https://planb.network/resources/books/28)을 읽어보시거나 계획 작성에 대한 안내를 제공하는 BTC102 강좌에 등록해 보시기 바랍니다.
+비트코인 상속 계획에 대해 더 자세히 알아보고 싶으시다면 파멜라 모건의 저서 [암호화 자산 상속 계획](https://planb.academy/resources/books/28)을 읽어보시거나 계획 작성에 대한 안내를 제공하는 BTC102 강좌에 등록해 보시기 바랍니다.
 
 
 ![image](assets/ko/037.webp)
@@ -1055,7 +1055,7 @@ Satoshi의 부재에도 불구하고 Bitcoin는 계속 개발되어 Bitcoin의 �
 어떤 이들은 Bitcoin을 [균사체](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/)와 같은 곰팡이 개체로 정의하고, 어떤 이들은 [블랙홀](https://dergigi.com/)로 묘사하기도 합니다. 좋든 싫든 Bitcoin은 새로운 화폐 시스템의 심장 박동처럼 블록당 10분의 일정한 리듬을 유지하며 계속 존재하고 있습니다.
 
 
-Satoshi 나카모토의 저술에 대해 자세히 알아보시려면 필 샴페인의 ["Satoshi의 책"](https://planb.network/en/resources/books/98) 또는 ARTE 다큐멘터리 "르 미스테어 Satoshi"을 시청해 보시기 바랍니다.
+Satoshi 나카모토의 저술에 대해 자세히 알아보시려면 필 샴페인의 ["Satoshi의 책"](https://planb.academy/en/resources/books/98) 또는 ARTE 다큐멘터리 "르 미스테어 Satoshi"을 시청해 보시기 바랍니다.
 
 
 ![image](assets/ko/044.webp)
@@ -1343,7 +1343,7 @@ Bitcoin에 적용된 게임 이론은 ASIC 채굴기를 사용해 채굴에 성�
 Bitcoin Mining의 특정 주제에 대해 더 자세히 알아보고 싶다면 MIN 201 과정을 참조하세요. Proof-of-Work의 작동 원리와 역할은 물론 Mining 산업의 메커니즘에 대해 알아볼 수 있습니다. 또한 ASIC을 히터로 변환하여 집을 난방하면서 첫 사토시를 채굴할 수 있는 방법도 설명합니다!
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin 및 생태학
 
@@ -1573,13 +1573,13 @@ Bitcoin을 수락하려면 사용 가능한 다양한 솔루션을 검토하고 
 - 간단한 온라인 솔루션: OpenNode
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 - 아마추어 판매자를 위한 솔루션입니다: 스위스 Bitcoin Pay
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 - 대규모 조직이나 열정적인 비트코인을 위한 솔루션입니다: BTCpay 서버
@@ -1588,7 +1588,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 이 주제에 대해 더 자세히 알아보시려면 BIZ101 강좌를 추천합니다! Bitcoin을 회사 재무부에 효과적으로 통합하고, 조직의 프로필에 따라 Bitcoin을 결제 수단으로 수락하고, 관련 세금 및 회계 요구 사항을 이해하는 방법을 알아보세요:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Bitcoin로 저장
 
@@ -1652,7 +1652,7 @@ Bitcoin 구매를 시작하기 전에 다음 사항을 확인하세요:
 **UTXO 주의**: 지갑에 있는 UTXO를 수시로 통합하는 것을 잊지 마세요. 이 방법은 비트코인을 효과적으로 관리하고 거래 시 불필요한 수수료를 피하는 데 필수적입니다.
 
 
-UTXO](https://planb.network/en/resources/glossary/utxo)은 아직 사용되지 않은 트랜잭션의 출력으로, 새 트랜잭션의 입력으로 사용되지 않았음을 의미합니다. 통합은 트랜잭션의 '가중치'를 줄여 수수료를 낮추기 위해 여러 개의 작은 UTXO를 하나의 큰 트랜잭션으로 결합하는 것을 의미합니다.
+UTXO](https://planb.academy/en/resources/glossary/utxo)은 아직 사용되지 않은 트랜잭션의 출력으로, 새 트랜잭션의 입력으로 사용되지 않았음을 의미합니다. 통합은 트랜잭션의 '가중치'를 줄여 수수료를 낮추기 위해 여러 개의 작은 UTXO를 하나의 큰 트랜잭션으로 결합하는 것을 의미합니다.
 
 
 
@@ -1675,7 +1675,7 @@ UTXO](https://planb.network/en/resources/glossary/utxo)은 아직 사용되지 �
 - DCA 플랫폼
 
 
-위에서 소개한 것처럼 비트코인을 모으는 일반적인 방법은 정기적으로 소량을 구매하는 달러 코스트 애버리징(DCA)입니다. 전용 페이지](https://planb.network/tutorials/exchange)에 나열된 것과 같은 여러 플랫폼에서 이 서비스를 제공합니다. DCA를 설정하는 것이 간단할 뿐만 아니라 일반적으로 Wallet으로 인출이 자동으로 이루어지므로 자산을 항상 통제할 수 있습니다.
+위에서 소개한 것처럼 비트코인을 모으는 일반적인 방법은 정기적으로 소량을 구매하는 달러 코스트 애버리징(DCA)입니다. 전용 페이지](https://planb.academy/tutorials/exchange)에 나열된 것과 같은 여러 플랫폼에서 이 서비스를 제공합니다. DCA를 설정하는 것이 간단할 뿐만 아니라 일반적으로 Wallet으로 인출이 자동으로 이루어지므로 자산을 항상 통제할 수 있습니다.
 
 
 오늘날 거의 모든 DCA 솔루션은 비교적 효율적이고 수수료가 거의 비슷하므로 해당 국가의 가용성에 따라 선택이 달라집니다.
@@ -1715,7 +1715,7 @@ KYC는 Bitcoin 업계에서 중요한 논의 주제라는 점을 인식하는 �
 ### 비 KYC 솔루션
 
 
-또한 피어 투 피어 Exchange에서 비트코인을 사고 팔 수 있는 여러 [마켓플레이스](https://planb.network/tutorials/exchange)가 있습니다. 일반적으로 다음을 고려할 수 있습니다:
+또한 피어 투 피어 Exchange에서 비트코인을 사고 팔 수 있는 여러 [마켓플레이스](https://planb.academy/tutorials/exchange)가 있습니다. 일반적으로 다음을 고려할 수 있습니다:
 
 
 
@@ -1731,6 +1731,10 @@ KYC는 Bitcoin 업계에서 중요한 논의 주제라는 점을 인식하는 �
 
 마지막으로, 납세의무는 관할권에 따라 달라질 수 있으므로 위험에 처할 수 있는 조치를 취하기 전에 해당 국가의 규정을 참조하는 것이 좋습니다.
 
+
+비트코인 구매, 사용 및 보안 전략에 대한 지식을 심화하고 싶다면, 이 과정에 이어 **BTC 102** 과정을 수강할 것을 강력히 권장합니다. 그곳에서 귀하의 프로필, 필요 및 개인적 목표에 적합한 도구에 대한 권장 사항 등을 배우게 될 것입니다:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 하이퍼비트코인화
 
@@ -1762,7 +1766,7 @@ Bitcoin의 등장으로 기업, 대학, 규제 기관, 개인은 이 새로운 �
 ![image](assets/ko/079.webp)
 
 
-많은 작가, 사상가, 에세이스트들이 Bitcoin에 대한 교육 콘텐츠를 제작했습니다. 지난 몇 년 동안 저희는 이러한 저작물을 목록화하고 분류하여 [자료 라이브러리](https://planb.network/resources)를 제공함으로써 여러분 중 가장 궁금해하는 분들에게 도움을 드리고자 합니다. 이 섹션에서는 최고의 팟캐스트, 웹사이트, 기사, 튜토리얼, 서적 및 기타 콘텐츠를 찾을 수 있습니다.
+많은 작가, 사상가, 에세이스트들이 Bitcoin에 대한 교육 콘텐츠를 제작했습니다. 지난 몇 년 동안 저희는 이러한 저작물을 목록화하고 분류하여 [자료 라이브러리](https://planb.academy/resources)를 제공함으로써 여러분 중 가장 궁금해하는 분들에게 도움을 드리고자 합니다. 이 섹션에서는 최고의 팟캐스트, 웹사이트, 기사, 튜토리얼, 서적 및 기타 콘텐츠를 찾을 수 있습니다.
 
 
 > "저는 인터넷이 정부의 역할을 줄이는 주요 동력 중 하나가 될 것이라고 생각합니다. 아직은 없지만 곧 개발될 신뢰할 수 있는 전자 현금, 즉 인터넷에서 A가 B를 알지 못하거나 B가 A를 알지 못해도 A에서 B로 자금을 이체할 수 있는 방식이 바로 그것입니다." - 1999년 밀턴 프리드먼의 예측
@@ -1836,7 +1840,7 @@ Lightning Network은 Bitcoin의 확장성 문제를 해결하기 위해 2017년�
 이 소개를 넘어 Lightning Network의 모든 작동 원리를 이해하고 싶다면 이 주제에 대한 Fanis Michalakis의 훌륭한 강좌를 수강하는 것을 추천합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Lightning Network 사용 사례
 

@@ -1,6 +1,6 @@
 ---
 name: Dodavanje snimka konferencije
-description: Kako dodati reprizu konferencije na PlanB Network?
+description: Kako dodati reprizu konferencije na Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Kako dodati reprizu konferencije na PlanB Network?
 Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, omogućavajući svakome da doprinese obogaćivanju platforme.
 
 
-Želite li dodati snimak vaše Bitcoin konferencije na PlanB Network sajt i dati vidljivost ovom događaju, ali ne znate kako? Ovaj vodič je za vas!
+Želite li dodati snimak vaše Bitcoin konferencije na Plan ₿ Academy sajt i dati vidljivost ovom događaju, ali ne znate kako? Ovaj vodič je za vas!
 
 
 Međutim, ako želite da dodate konferenciju koja će se održati u budućnosti, savetujem vam da pročitate ovaj drugi vodič u kojem objašnjavamo kako da dodate novi događaj na sajt.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - Prvo, potrebno je da imate nalog na GitHub-u. Ako ne znate kako da kreirate nalog, napravili smo detaljan vodič da vas uputimo.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -105,7 +105,7 @@ tags:
 Ako još nemate "*project*" identifikator za vašu organizaciju, možete ga dodati prateći ovaj drugi vodič.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/14.webp)
 
 
-- Odaberite svoj Fork iz PlanB Network repozitorijuma:
+- Odaberite svoj Fork iz Plan ₿ Academy repozitorijuma:
 
 ![conference](assets/15.webp)
 
@@ -190,7 +190,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Otvara se nova stranica. Prevucite i otpustite sliku koja predstavlja vašu konferenciju i biće prikazana na PlanB Network sajtu: ![conference](assets/26.webp)
+- Otvara se nova stranica. Prevucite i otpustite sliku koja predstavlja vašu konferenciju i biće prikazana na Plan ₿ Academy sajtu: ![conference](assets/26.webp)
 - Može biti logo, sličica ili čak poster:
 
 ![conference](assets/27.webp)
@@ -299,7 +299,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- Na početku vašeg dokumenta, u "front matter," popunite polje `name:` imenom vaše konferencije i godinom repriza. U polju `description:` napišite kratak opis vašeg događaja na jeziku datoteke. Na primer, za datoteku pod nazivom `en.md`, opis treba da bude na engleskom. Tim PlanB Network će se pobrinuti za prevođenje vašeg opisa koristeći njihov model.
+- Na početku vašeg dokumenta, u "front matter," popunite polje `name:` imenom vaše konferencije i godinom repriza. U polju `description:` napišite kratak opis vašeg događaja na jeziku datoteke. Na primer, za datoteku pod nazivom `en.md`, opis treba da bude na engleskom. Tim Plan ₿ Academy će se pobrinuti za prevođenje vašeg opisa koristeći njihov model.
 - Naslovi prvog nivoa, označeni sa `#`, koriste se za organizaciju konferencije po scenama. Na primer, `# Glavna scena` za glavnu scenu i `# Radionica` za scenu posvećenu radionicama.
 
 
@@ -357,10 +357,10 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada pregledati i, ako je sve u redu, spojiti ga u glavni repozitorijum PlanB Network-a. Trebalo bi da vidite reprize vaše konferencije na sajtu nekoliko dana kasnije.
+Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada pregledati i, ako je sve u redu, spojiti ga u glavni repozitorijum Plan ₿ Academy-a. Trebalo bi da vidite reprize vaše konferencije na sajtu nekoliko dana kasnije.
 
 
-Molimo vas da pratite napredak vašeg PR-a. Moguće je da administrator ostavi komentar tražeći dodatne informacije. Sve dok vaš PR nije validiran, možete ga videti pod karticom `Pull requests` na GitHub repozitorijumu PlanB Network-a:
+Molimo vas da pratite napredak vašeg PR-a. Moguće je da administrator ostavi komentar tražeći dodatne informacije. Sve dok vaš PR nije validiran, možete ga videti pod karticom `Pull requests` na GitHub repozitorijumu Plan ₿ Academy-a:
 
 ![conference](assets/46.webp)
 

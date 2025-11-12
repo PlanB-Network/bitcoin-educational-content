@@ -1,35 +1,18 @@
 ---
 name: Spinoza na Bitcoin
 goal: Gundua viungo vya kifalsafa kati ya mawazo ya Spinoza na Bitcoin kama zana za uhuru kwa karne nyingi.
-objectives: 
-
-
-  - Kuelewa falsafa ya vitendo ya Spinoza na jitihada zake za uhuru.
-  - Kuchunguza dhana za Spinozist za uamuzi na udanganyifu wa kibinadamu.
-  - Kuchambua ulinganifu kati ya mapinduzi ya mawazo ya Spinoza na mapinduzi ya kiteknolojia ya Bitcoin.
-
-
-
+objectives:
+- Kuelewa falsafa ya vitendo ya Spinoza na utafutaji wake wa uhuru.
+- Kuchunguza dhana za Spinoza za udhibiti na udanganyifu wa kibinadamu.
+- Kuchambua mfanano kati ya mapinduzi ya mawazo ya Spinoza na mapinduzi ya teknolojia ya Bitcoin.
+- Kutumia nadharia ya hisia kutambua na kupinga udanganyifu katika mifumo ya kisiasa.
 ---
+# Wakati Spinoza Alikutana na Satoshi
 
-# Uchunguzi wa kifalsafa wa uhuru kupitia Spinoza na Bitcoin
+Gundua jinsi mawazo ya kigeugeu ya mwanafalsafa wa karne ya 17 Baruch de Spinoza kuhusu uhuru, busara, na nguvu yanavyotabiri mapinduzi ya Bitcoin yenye usambazaji. Kozi hii inafunua mfanano wa kushangaza: wote wanakataa imani isiyokuwa na msingi na mamlaka ya kati, wote wanatumia uthabiti wa kihesabu ili kukomboa. Spinoza alikomboa akili kutoka kwa imani za kidini, Bitcoin inakomboa pesa kutoka kwa udhibiti wa serikali.
 
-
-
-Kozi hii inachunguza uhusiano wa kina kati ya falsafa ya kimapinduzi ya Baruch de Spinoza (1632-1677) na Bitcoin, zana mbili za uhuru zilizotenganishwa kwa karne nyingi lakini zilizounganishwa na jitihada sawa: ukombozi wa binadamu kutoka kwa utumwa.
-
-
-
-Tutagundua jinsi Spinoza, baba wa falsafa ya Kutaalamika, alivyokuza maadili ya vitendo ili kutuweka huru kutokana na udanganyifu unaotufunga - hiari, umaliziaji na ushirikina wa kitheolojia. Mbinu yake ya kijiometri na nadharia ya athari inatuonyesha jinsi ya kuelewa mahali petu ulimwenguni na kuelekeza uwepo wetu kwa kile kinachoongeza nguvu zetu za kutenda.
-
-
-
-Kisha kozi huchota ulinganifu wa kuvutia kati ya mapinduzi haya ya Copernican ya mawazo na Bitcoin: mifumo miwili ambayo haihitaji imani kipofu wala mamlaka kuu, lakini tu matumizi ya akili. Kama vile Spinozism ilivyokomboa mawazo kutoka kwa mafundisho ya kidini, Bitcoin hukomboa pesa kutoka kwa udhibiti wa serikali, ikitoa aina mpya ya uhuru wa kiuchumi unaotokana na hisabati na cryptography.
-
-
-
+Jifunze zana za vitendo kutoka kwa maadili ya Spinoza ili kuelewa misingi ya kifalsafa ya bitcoin na kuongeza uwezo wako. Je, uko tayari kuchunguza vifaa viwili vya ukombozi wa binadamu vikubwa zaidi katika historia?
 +++
-
 # Utangulizi
 
 
@@ -41,6 +24,8 @@ Kisha kozi huchota ulinganifu wa kuvutia kati ya mapinduzi haya ya Copernican ya
 
 
 <chapterId>99af4992-fd6c-5142-b168-d927b251574b</chapterId>
+
+:::video id=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
 
 
 
@@ -152,6 +137,8 @@ Ingawa, kama unavyojua, mambo kwa sasa yanakwenda katika mwelekeo sahihi.
 
 <chapterId>f53a9cfd-326e-5b73-a766-3ef2f07c5a49</chapterId>
 
+:::video id=5fac3ddc-c472-4c64-8186-46a8f317e389:::
+
 
 
 :::kitambulisho cha video=5fac3ddc-c472-4c64-8186-46a8f317e389:::
@@ -262,6 +249,8 @@ Iwe njia hizi ni za kifalsafa au kiteknolojia, kama tutakavyoona baadaye, Bitcoi
 
 <chapterId>4cc66e25-335c-591d-9b78-83e5664bbbbc</chapterId>
 
+:::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
+
 
 
 :::kitambulisho cha video=065c5091-69e1-412f-acce-c763ec31d3b1:::
@@ -368,6 +357,8 @@ Kwa maneno mengine, “kupigania utumwa wao kana kwamba wanapigania uhuru wao”
 
 
 <chapterId>84b0187e-1050-5d44-a536-80554896e828</chapterId>
+
+:::video id=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
 
 
 
@@ -491,6 +482,8 @@ Hii ndiyo sababu Mwangaza wa karne ya 18, kutokana na matumizi ya akili, sayansi
 
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
+:::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
+
 
 
 :::kitambulisho cha video=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
@@ -584,6 +577,8 @@ Kwa maneno mengine, wamejaliwa uhuru wa kuchagua, imani potofu ambayo ni ngumu s
 
 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
+
+:::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
 
 
 
@@ -712,6 +707,8 @@ Hatimaye, ikiwa imani katika hiari ni udanganyifu ambao ni vigumu sana kujiondoa
 
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
 
+:::video id=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
+
 
 
 :::kitambulisho cha video=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
@@ -815,6 +812,8 @@ Asante kwa umakini wako, na nitakuona katika sura inayofuata.
 
 
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
+
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
 
 
@@ -937,6 +936,8 @@ Kwa Spinoza, hali ya kidemokrasia ambayo inaruhusu uhuru wa mawazo kwa hiyo ni d
 
 <chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::kitambulisho cha video=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -1035,6 +1036,8 @@ Asante kwa umakini wako.
 
 
 <chapterId>3bb011ce-6f0c-51a6-b41f-25a3b5b7768e</chapterId>
+
+:::video id=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
 
 
 
@@ -1152,6 +1155,8 @@ Na ndiyo maana Spinozism mara nyingi hujulikana kama "falsafa ya furaha".
 
 
 <chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
+
+:::video id=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
 
 
 

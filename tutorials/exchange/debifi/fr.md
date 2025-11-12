@@ -66,9 +66,9 @@ Pour débuter sur Debifi, il vous faut des prérequis.
 
 Vous pouvez utiliser Aqua, un portefeuille Bitcoin et Liquid mais qui supporte aussi la gestion des stablecoins USDT sur divers réseaux. Ou encore le COLDCARD (le Mk4 ou le Q) qui est actuellement le seul hardware pris en charge par Debifi.
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 - KYC (*Know Your Customer*) : en fonction de l’offre de prêt choisie, un processus de vérification d’identité peut être requis. Sur Debifi, chaque offre indique si la KYC est nécessaire ou non. Donc, préparez-vous en conséquence. Le KYC est assuré par des prestataires tiers fiables tels que Sumsub.
 
@@ -76,9 +76,9 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 - Application d'authentification à double facteurs : Debifi exige un code Authenticator pour chaque action importante. C'est une couche supplémentaire de sécurité. Dans ce tutoriel, nous utiliserons Google Authenticator. Alternativement, vous pouvez utiliser d'autres selon votre convenance. 
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 - Site web et application mobile Debifi : Debifi est à la fois un site web et une application mobile, et les deux fonctionnent en binôme. L’application mobile devient un portefeuille, qui stocke votre clé privée, et gère la signature des contrats. En outre, vous devez utiliser le site web pour engager des contrats (une grande interface vous permet de voir de façon générale les contrats de prêts et leurs spécificités).
 
@@ -134,7 +134,7 @@ Pour la sécurité, Debifi vous demandera de suivre trois étapes.
 
 ![image](assets/fr/16.webp)
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Notez que seul votre smartphone enregistré pourra ouvrir votre compte (c’est une mesure supplémentaire de sécurité). 
 
@@ -308,5 +308,5 @@ Vous savez désormais comment prendre en main la plateforme Debifi pour obtenir 
 
 Je vous conseille de suivre ce cours qui vous permet d'examiner de manière approfondie Bitcoin, les Stablecoins et leur apport de souveraineté.
 
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46 
+https://planb.academy/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46 
 

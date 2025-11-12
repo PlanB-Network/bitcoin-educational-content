@@ -1,35 +1,18 @@
 ---
 name: Spinoza en Bitcoin
 goal: Ontdek de filosofische verbanden tussen Spinoza's denken en Bitcoin als vrijheidsmiddel door de eeuwen heen.
-objectives: 
-
-
-  - Spinoza's praktische filosofie en zijn zoektocht naar vrijheid begrijpen.
-  - Het verkennen van de Spinozistische concepten van determinisme en menselijke illusies.
-  - Analyseren van de parallellen tussen Spinoza's revolutie van ideeën en Bitcoin's technologische revolutie.
-
-
-
+objectives:
+- Begrip van Spinoza's praktische filosofie en zijn zoektocht naar vrijheid.
+- Verkenning van de spinozistische concepten van determinisme en menselijke illusies.
+- Analyse van de parallellen tussen Spinoza's ideeënrevolutie en Bitcoin's technologische revolutie.
+- Toepassing van affecttheorie om manipulatie in politieke systemen te herkennen en te weerstaan.
 ---
+# Toen Spinoza Satoshi ontmoette
 
-# Een filosofische verkenning van vrijheid door Spinoza en Bitcoin
+Ontdek hoe de radicale ideeën van de 17e-eeuwse filosoof Baruch de Spinoza over vrijheid, rede en macht de gedecentraliseerde revolutie van Bitcoin voorafgaan. Deze cursus onthult de opvallende parallellen: beide verwerpen blind geloof en centrale autoriteit, beide gebruiken wiskundige nauwkeurigheid om te bevrijden. Spinoza bevrijdde geesten van religieus dogma, Bitcoin bevrijdt geld van staatscontrole.
 
-
-
-Deze cursus verkent de diepe verbanden tussen de revolutionaire filosofie van Baruch de Spinoza (1632-1677) en Bitcoin, twee vrijheidsinstrumenten die eeuwen van elkaar gescheiden zijn, maar verenigd zijn door dezelfde zoektocht: menselijke emancipatie uit slavernij.
-
-
-
-We zullen ontdekken hoe Spinoza, vader van de rationele verlichtingsfilosofie, een praktische ethiek ontwikkelde om ons te bevrijden van de illusies die ons gevangen houden - vrije wil, finalisme en theologisch bijgeloof. Zijn geometrische methode en theorie van affecten laten ons zien hoe we onze plaats in de wereld kunnen begrijpen en hoe we ons bestaan kunnen richten op datgene wat onze kracht om te handelen vergroot.
-
-
-
-De cursus trekt vervolgens fascinerende parallellen tussen deze Copernicaanse revolutie van ideeën en Bitcoin: twee systemen die geen blind geloof of centrale autoriteit vereisen, maar gewoon de uitoefening van de rede. Net zoals het Spinozisme het denken bevrijdde van religieuze dogma's, bevrijdt Bitcoin geld van staatscontrole en biedt het een nieuwe vorm van economische vrijheid, geworteld in wiskunde en cryptografie.
-
-
-
+Leer praktische instrumenten uit Spinoza's ethiek om de filosofische fundamenten van bitcoin te begrijpen en je handelingsvrijheid te vergroten. Klaar om twee van de grootste instrumenten voor menselijke emancipatie uit de geschiedenis te verkennen?
 +++
-
 # Inleiding
 
 

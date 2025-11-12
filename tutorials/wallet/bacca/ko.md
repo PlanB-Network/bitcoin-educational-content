@@ -137,11 +137,11 @@ cargo run -p ledger_manager_gui
 시작하기 전에 Ledger를 처음 사용하는 경우 PIN 코드를 설정하고 복구 문구를 저장했는지 확인하세요. 이러한 초기 단계에는 Ledger Live가 필요하지 않습니다. USB 케이블을 통해 Ledger를 연결하여 전원을 공급하기만 하면 됩니다. 이 두 단계를 어떻게 진행해야 할지 잘 모르겠다면 사용 중인 모델에 맞는 튜토리얼의 시작 부분을 참조하세요:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## 바카 사용
 
@@ -197,4 +197,4 @@ Bitcoin 애플리케이션을 설치하려면 "*설치*"를 클릭한 다음 Led
 또한 소프트웨어를 설치하기 전에 소프트웨어의 무결성과 진위 여부를 확인하는 방법을 설명하는 GnuPG의 이 튜토리얼을 살펴보는 것이 좋습니다. 이는 특히 Liana 또는 Sparrow과 같은 Wallet 관리 소프트웨어를 설치할 때 중요한 작업입니다:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

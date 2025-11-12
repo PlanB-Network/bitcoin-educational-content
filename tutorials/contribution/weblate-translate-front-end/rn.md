@@ -5,7 +5,7 @@ description: Ni gute wogira uruhara mu guhindura Elements idahinduka kuri planb.
 ![cover](assets/cover.webp)
 
 
-Intumbero ya Plan ₿ Network ni ugutanga ibikoresho vy’inyigisho vyo mu rwego rwa mbere ku Bitcoin no kubihindura mu ndimi nyinshi zishoboka. Vyinshi mu bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese kugira uruhara mu gutunganya urubuga. Intererano zishobora kuba mu buryo butandukanye: gukosora no gukosora ibirimwo, guhindura amakuru canke guhingura inyigisho nshasha zo kwongera ku rubuga.
+Intumbero ya Plan ₿ Academy ni ugutanga ibikoresho vy’inyigisho vyo mu rwego rwa mbere ku Bitcoin no kubihindura mu ndimi nyinshi zishoboka. Vyinshi mu bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese kugira uruhara mu gutunganya urubuga. Intererano zishobora kuba mu buryo butandukanye: gukosora no gukosora ibirimwo, guhindura amakuru canke guhingura inyigisho nshasha zo kwongera ku rubuga.
 
 
 Muri iyi nyigisho, tuzokwereka ingene wotanga umusanzu mu buryo bworoshe mu guhindura Elements idahinduka ku rubuga rwacu. Amakuru ari kuri iyo nzira agabanywemwo ibice bibiri nyamukuru:
@@ -18,12 +18,12 @@ Muri iyi nyigisho, tuzokwereka ingene wotanga umusanzu mu buryo bworoshe mu guhi
 Kugira ngo duhindure ibirimwo inyigisho, dukoresha [ubwenge bukorano](https://github.com/Asi0Flammeus/LLM-Umuhinduzi). Hanyuma, kugira ngo dukosore amakosa yoshobora gushika muri izo dosiye, turatumira abakosora amadosiye ngo bashiremwo intererano. Niba wipfuza gukosora ibirimwo, raba inyigisho ikurikira:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Ku rundi ruhande, nimba ushaka guhindura Elements idahinduka y’urubuga (utarimwo ibirimwo inyigisho), uri mu kibanza ciza! Kugira ngo duhindure neza imbere, dukoresha igikoresho ca Weblate, kikaba coroshe cane gukoresha kandi kigafasha uburyo bwo guhindura.
 
 
-Niba wipfuza kwongerako ururimi rushasha rwose kuri Plan ₿ Network, urabe ko ushobora guhamagara umugwi wa Plan ₿ Network biciye ku [mugwi wacu wa Telegaramu](https://t.me/PlanBNetwork_ContentBuilder). Nimba udafise telegaramu, ushobora kohereza ubutumwa kuri mari@planb.network. Raba neza ko wandika ikiganiro gitoyi kivuga uwo uri we be n’indimi uvuga.
+Niba wipfuza kwongerako ururimi rushasha rwose kuri Plan ₿ Academy, urabe ko ushobora guhamagara umugwi wa Plan ₿ Academy biciye ku [mugwi wacu wa Telegaramu](https://t.me/PlanBNetwork_ContentBuilder). Nimba udafise telegaramu, ushobora kohereza ubutumwa kuri mari@planb.network. Raba neza ko wandika ikiganiro gitoyi kivuga uwo uri we be n’indimi uvuga.
 
 Abagize umugwi wacu bazoguha amabwirizwa yihariye kandi bazogufungurira "ibibazo" bijanye kuri Github kugira ngo bahuze ibikorwa vyawe.
 
@@ -31,7 +31,7 @@ Abagize umugwi wacu bazoguha amabwirizwa yihariye kandi bazogufungurira "ibibazo
 Imbere yo gukurikira iyi nyigisho yihariye kugira ngo wongere ururimi rushasha kuri Weblate.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 Niwaba witeguye gutangura guhindura, subira muri iyi nyigisho maze unyure mu ngingo zikurikira.
 
@@ -40,7 +40,7 @@ Niwaba witeguye gutangura guhindura, subira muri iyi nyigisho maze unyure mu ngi
 
 
 
-- Genda kuri [urubuga rw'urubuga rwa Plan ₿ Network](https://urubuga.umugambi.urubuga/):
+- Genda kuri [urubuga rw'urubuga rwa Plan ₿ Academy](https://urubuga.umugambi.urubuga/):
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ Niwaba witeguye gutangura guhindura, subira muri iyi nyigisho maze unyure mu ngi
 ![weblate](assets/06.webp)
 
 
-- Ubu ushobora gusubira ku rubuga rwa Plan ₿ Network:
+- Ubu ushobora gusubira ku rubuga rwa Plan ₿ Academy:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ Niwaba witeguye gutangura guhindura, subira muri iyi nyigisho maze unyure mu ngi
 
 
 - Iyo ubonye amajambo yinjijwe mu bifunga "{", ntukeneye kuyahindura. Nk'akarorero, muri "Konti yawe yararemwe, {{Izina ry'ukoresha}}!", uzohindura interuro yose, ariko uzoguma ufise "izina ry'ukoresha" mu congereza.
-- Iyo ubonye "Plan ₿ Network" mu murongo, urabe ko UTAGIRA ijambo "network" (fata Plan ₿ Network nk'ikimenyetso c'ubudandaji). Vyongeye, wama ukoresha ₿ za Bitcoin!
+- Iyo ubonye "Plan ₿ Academy" mu murongo, urabe ko UTAGIRA ijambo "network" (fata Plan ₿ Academy nk'ikimenyetso c'ubudandaji). Vyongeye, wama ukoresha ₿ za Bitcoin!
 - Niwabona ijambo "réseau" ryonyene, urashobora kurihindura, aho kurihindura.
 - Ntuhindure "B-CERT", kuko ari irindi jambo ridahinduka.
 - Niwabona imirongo irangizwa n’umwanya, urashobora kuyisiga.
@@ -174,4 +174,4 @@ Niwaba witeguye gutangura guhindura, subira muri iyi nyigisho maze unyure mu ngi
 ![weblate](assets/23.webp)
 
 
-Murakoze mbere y’igihe ku ntererano mwatanze mu guhindura Plan ₿ Network! Niba ufise ikibazo canke ibitekerezo vyihariye kuri twebwe, ntutinye kutumenyesha biciye ku [mugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+Murakoze mbere y’igihe ku ntererano mwatanze mu guhindura Plan ₿ Academy! Niba ufise ikibazo canke ibitekerezo vyihariye kuri twebwe, ntutinye kutumenyesha biciye ku [mugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder).

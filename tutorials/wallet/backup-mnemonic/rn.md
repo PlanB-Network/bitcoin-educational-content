@@ -124,12 +124,12 @@ Ushobora kandi gutunganya ububiko bwawe n’amakuru y’inyongera ajanye n’ugu
 Ku rundi ruhande, nimba ukoresha igitabu ca passphrase, nurabe neza ko utacandika ku rurimi rumwe n’ijambo ryawe ry’igitabu ca Mnemonic. Intumbero ya passphrase ni ugukingira Wallet yawe iyo umuntu yivye. Kugira ngo umenye vyinshi ku bijanye n’ingene wokoresha passphrase, raba iyi nyigisho y’inyongera:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Umaze kubika ijambo ryawe rya Mnemonic ku bimenyeshamakuru vy’umubiri, birakenewe cane ko ukora ikigeragezo co gusubira mu gihe Wallet yawe nshasha yaremwe ikiri ubusa. Ico kigeragezo gishimikiye ku kwandika amakuru y’akarorero, ugakuraho n’ibigirankana Wallet iri ubusa, hanyuma ukagerageza kuyigarura ukoresheje gusa ububiko bwawe bw’umubiri bw’ijambo Mnemonic. Ivyo bizokuronsa ubushobozi bwo kugenzura ko ububiko bwawe bushitse kandi ko ata makosa yo kwinjiza. Bituma kandi umenya neza ingene umuntu akira. Muri ubwo buryo, niwaba ukeneye gukira muri kazoza, uzoba witeguye neza kandi uzokwirinda umubabaro wo kugerageza ubwa mbere mu bintu vy’ukuri. Kugira ngo umenye vyinshi ku buryo bwo gukora iki kibazo, raba iyi yindi nyigisho :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Ubwa nyuma, hariho ikibazo c’umubare w’ibisubizo. Iryo hitamwo rivana rwose n’ingene wewe ubwawe umeze. Guhagarika igitigiri c’amakopi, nk’akarorero mu kwandika ijambo ryawe rya Mnemonic rimwe gusa ku gikoresho co gukoresha, biragabanya ingorane zo kwiba, mugabo bikongera ingorane zo gutakaza. Ku rundi ruhande, gukora kopi nyinshi biragabanya ingorane zo gutakaza, ariko bikongera ingorane zo kwiba. Ni wewe rero ubwirizwa kurondera uburinganire bubereye ivyo ukeneye, maze ukamenya igitigiri c’amakopi wumva ko ari yo akwiriye kuruta ayandi yose.
 
@@ -170,9 +170,9 @@ Ubwa nyuma, uburongozi bw’amajambo Mnemonic na bwo buravyura ikibazo c’iragi
 Kugira ngo utere intambwe imwe imbere kandi urushirize gukomeza ubuhinga bwawe bwo gucungera umutekano, ndagusavye kwiga ubuhinga bwa Bitcoin Wallet yawe. Mu gutahura ingene Elements zitandukanye zikorana, hamwe n’akamaro kazo n’ingaruka zazo, uzoshobora gutunganya neza ingamba zawe zo gucungera umutekano uzi neza ingorane zirimwo. Cane cane, niwatahura ku rugero rw’ubuhinga ivyo ijambo Mnemonic rishoboza, uzoshobora guhindura uburyo uvyandika, ubika no kubicungera uko igihe kigenda kirarenga.
 
 
-Ni co gituma ndabatumiye ngo muje mu mahugurwa ya CYP201 atangwa na Plan ₿ Network ku buntu. Iyi nyigisho irasigura mu buryo burambuye ingene ama wallets ya Bitcoin akora, bikagufasha kumenya neza ivy’ubuhinga bihambaye kugira ngo ushobore gucungera neza amahera yawe :
+Ni co gituma ndabatumiye ngo muje mu mahugurwa ya CYP201 atangwa na Plan ₿ Academy ku buntu. Iyi nyigisho irasigura mu buryo burambuye ingene ama wallets ya Bitcoin akora, bikagufasha kumenya neza ivy’ubuhinga bihambaye kugira ngo ushobore gucungera neza amahera yawe :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Niwaba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Ntutinye gusangiza abandi iyi nkuru ku mbuga zanyu zo guhanahana amakuru. Murakoze cane!

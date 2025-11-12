@@ -12,7 +12,7 @@ description: 가장 간단한 커스터디 Wallet 시작하기
 
 Satoshi의 Wallet은 Lightning Network의 Wallet, 관리형이며 사용이 매우 간단합니다.
 
-BTC105 - 지금 찾기](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) 과정의 목적상, Redeem Lightning Network 바우처에 사용됩니다.
+BTC105 - 지금 찾기](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) 과정의 목적상, Redeem Lightning Network 바우처에 사용됩니다.
 
 
 **항상 기억하세요**: 열쇠가 아니라 동전이 아닙니다

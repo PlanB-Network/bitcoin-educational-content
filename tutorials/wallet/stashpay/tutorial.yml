@@ -17,7 +17,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0
+    reward: 0.45
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -77,7 +77,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.42
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -119,10 +119,11 @@ proofreading:
     contributor_names:
     reward: 0.89
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 1.16
+      - Tinnah924
+    reward: 0.58
   - language: tr
     last_contribution_date:
     urgency: 1

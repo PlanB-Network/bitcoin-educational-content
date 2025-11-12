@@ -17,7 +17,7 @@ Iyi nyigisho ya videwo iragufasha gushinga no gukoresha Bitcoin Keeper Wallet nâ
 
 Kugira ngo ubone inyigisho yuzuye ya Bitcoin Keeper Wallet, raba inyigisho hano:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Raba hano ayandi mahuza afise akamaro:
 

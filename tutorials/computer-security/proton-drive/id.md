@@ -36,7 +36,7 @@ Mengenai [penetapan harga](https://proton.me/pricing), versi gratis menawarkan p
 
 Jika Anda belum memiliki akun Proton, Anda perlu membuatnya. Saya merujuk Anda ke tutorial Proton Mail kami, di mana kami menjelaskan secara detail cara membuat dan mengatur akun Proton gratis:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 
 ## Bagaimana cara mengatur Proton Drive?
@@ -105,7 +105,7 @@ Terakhir, di tab "*Trash / Sampah*", Anda dapat menemukan dokumen yang baru-baru
 
 Sebagian besar pengaturan untuk Proton Drive Anda terintegrasi ke dalam akun Proton Anda. Untuk instruksi rinci mengenai pengaturan akun Anda, saya mengundang Anda untuk membaca pada tutorial ini:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Bagaimana cara menginstal perangkat lunak Proton Drive?
 
@@ -158,4 +158,4 @@ Selamat! Anda kini memiliki strategi cadangan 3-2-1 yang sangat kuat, yang memun
 
 Untuk mempelajari lebih lanjut tentang mengamankan keberadaan online Anda dan menghindari peretasan, saya juga merekomendasikan untuk membaca tutorial mendalam kami tentang pengelola kata sandi Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

@@ -15,7 +15,6 @@ Muri iyi nyigisho tuzoba turiko turaraba Blue Wallet, Bitcoin Wallet yoroshe ari
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Iyo umaze gushiramwo, ushobora gukora Wallet nshasha maze ukabika amajambo 12 yo
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Na Blue Wallet ushobora gukora ibitabo bitandukanye, vyihariye vya Bitcoin. Nk’akarorero, urashobora kugira Wallet imwe y’amahera uzigamye, iyindi y’amahera ukoresha ku musi ku musi, vyose bikaba biri mu gitabu kimwe.
 
@@ -65,10 +64,10 @@ Niba waramenyereye ibindi bipimo vya Bitcoin nka Phoenix canke Aqua, ntuzoba uri
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Bitcoin Wallet y’ubururu Wallet igereranya Wallet isanzwe mu bidukikije vya Bitcoin. Ushobora gukoresha ama bitcoins igihe cose uzoba ufise amajambo yo gusubiza azotanga umukono ubereye ku rubuga kugira ngo wemeze ko ari wewe ufise ayo ma bitcoins.
 
@@ -122,7 +121,7 @@ Ushobora rero guhitamwo igipimo c’amahera y’ugucuruza kigubereye nimba ushak
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Gumana ukora neza mu guhitamwo uburyo bwa P2WSH.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) canke Kwishura ku Cabona Inyandiko Hash** ni uburyo bwo gufunga bufunga amafaranga yawe asohoka (Ibisohoka) ku Hash y’inyandiko y’ubuhinga GW up-5ts. Inyungu nyamukuru y’ubwo bwoko bwo gufunga ni uko bugabanya ubunini bw’amakuru y’ibikorwa kandi bikagufasha kwishura amafaranga make y’ibikorwa.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) canke Kwishura ku Cabona Inyandiko Hash** ni uburyo bwo gufunga bufunga amafaranga yawe asohoka (Ibisohoka) ku Hash y’inyandiko y’ubuhinga GW up-5ts. Inyungu nyamukuru y’ubwo bwoko bwo gufunga ni uko bugabanya ubunini bw’amakuru y’ibikorwa kandi bikagufasha kwishura amafaranga make y’ibikorwa.
 
 
 
@@ -264,7 +263,7 @@ Igihe wemeza amafaranga yawe, uzokenera umukono wa kabiri kugira ngo wemeze ko a
 
 
 
-Uwugira kabiri ashize umukono kuri Wallet, nimba na we nyene ari umukoresha, arashobora gusinya iyo nzira naho yoba atari kuri Internet (nta Wi-Fi, nta makuru yo kuri telefone ngendanwa) mu gucapura kode ya QR y’iyo nzira [yashizweko umukono igice](https://planb.network/resources/glossary/psbt) uherutse gukora.
+Uwugira kabiri ashize umukono kuri Wallet, nimba na we nyene ari umukoresha, arashobora gusinya iyo nzira naho yoba atari kuri Internet (nta Wi-Fi, nta makuru yo kuri telefone ngendanwa) mu gucapura kode ya QR y’iyo nzira [yashizweko umukono igice](https://planb.academy/resources/glossary/psbt) uherutse gukora.
 
 
 
@@ -330,12 +329,12 @@ Mu Miterere > **Imiterere y'Umuravyo**, ushobora gufatanya n'amaboko Wallet yawe
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Ubu wararangije urugendo rwa Blue Wallet, witeguriye gukoresha Bitcoin mu buryo bworoshe n’ububasha bwayo bwose. Turagusavye gutera intambwe ikurikira, ukamenya ingene woshobora kwemera amahera ya Bitcoin mu maduka yawe, kubera ububasha bwa Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

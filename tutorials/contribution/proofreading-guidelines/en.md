@@ -1,21 +1,21 @@
 ---
 name: Proofreading Guidelines
-description: What are the important factors to keep in mind while proofreading on Plan ₿ Network?
+description: What are the important factors to keep in mind while proofreading on Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
-Welcome to this tutorial about the **guidelines to follow when proofreading content on Plan ₿ Network**. We are glad you share our mission to translate Bitcoin materials in as many languages as possible, in order to help people gain awareness about how it works and how it can be used in their daily lives.
+Welcome to this tutorial about the **guidelines to follow when proofreading content on Plan ₿ Academy**. We are glad you share our mission to translate Bitcoin materials in as many languages as possible, in order to help people gain awareness about how it works and how it can be used in their daily lives.
 
-First of all, contributing to Plan ₿ Network [public repository](https://github.com/PlanB-Network/bitcoin-educational-content) gives you the chance to write tutorials, proofread the existing content, or even propose the addition of a new language to the platform. To know more, join our [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) first, and write a brief presentation about you and the languages you can speak. 
+First of all, contributing to Plan ₿ Academy [public repository](https://github.com/PlanB-Network/bitcoin-educational-content) gives you the chance to write tutorials, proofread the existing content, or even propose the addition of a new language to the platform. To know more, join our [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) first, and write a brief presentation about you and the languages you can speak. 
 
-The present tutorial is dedicated to contributors who want to proofread content. Most of them don't know much about [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) or the [Markdown language](https://www.markdownguide.org/basic-syntax/) we use inside the repository, so it's important to share some insights on the key factors involved in this task.
+The present tutorial is dedicated to contributors who want to proofread content. Most of them don't know much about [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) or the [Markdown language](https://www.markdownguide.org/basic-syntax/) we use inside the repository, so it's important to share some insights on the key factors involved in this task.
 
 Here below, I gathered the most common issues that proofreaders encounter. Feel free to suggest more, as it can help others improve.
 
-Before diving into the specifics, the first thing to do is read this tutorial on the practical actions to follow on Github, by forking Plan ₿ Network repository, committing changes and sending PRs:
+Before diving into the specifics, the first thing to do is read this tutorial on the practical actions to follow on Github, by forking Plan ₿ Academy repository, committing changes and sending PRs:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## What is proofreading?
@@ -27,11 +27,11 @@ When you undergo this type of task, it's important to follow the meaning of the 
 Always remember that translation/proofreading is EDUCATION!
 
 In fact, our shared goal is to educate as many people as possible on Bitcoin, so it is fundamental that the material they read is smooth and clear. 
-In this sense, all contributors on Plan ₿ Network are educators!
+In this sense, all contributors on Plan ₿ Academy are educators!
 
-## The first steps before proofreading on Plan ₿ Network
+## The first steps before proofreading on Plan ₿ Academy
 
-Before starting a new proofreading task, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or inform your Plan ₿ Network coordinator, who will open a dedicated [issue](https://github.com/orgs/PlanB-Network/projects/3). When you receive the issue link, simply **comment that you are starting** with the proofreading task of that content.
+Before starting a new proofreading task, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or inform your Plan ₿ Academy coordinator, who will open a dedicated [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). When you receive the issue link, simply **comment that you are starting** with the proofreading task of that content.
 
 This system helps the coordinator keep track of the progress inside the repo, and it allows the content to be "claimed" by the proofreader, preventing duplicate efforts by someone else. 
 On the issue itself, you will find the links that redirect you to the content to check. You can simply click on them, or, even better, you can go back to your own forked repo and work directly from there. Let's see how you can do it!
@@ -42,7 +42,7 @@ First of all, **ALWAYS remember to SYNC your repo, on the "dev" branch**. This w
 ![REVIEW](assets/en/1.webp)
 
 
-After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Otherwise, you can open a new branch where to work, by clicking on "Branches", like shown below.
+After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Otherwise, you can open a new branch where to work, by clicking on "Branches", like shown below.
 
 
 ![REVIEW](assets/en/2.webp)
@@ -79,10 +79,10 @@ In this second case, **always do some research to see if someone else in your Bi
 
 - In any case, my advice would be to **insert the EN word nonetheless**, adding the corresponding meaning in the target language inside round parenthesis, following the scheme EN (LANG), or vice-versa. Ex. Address (indirizzo), or indirizzo (address).
 
-- Another good solution is to keep the EN original word/phrase, then **create a hyperlink** that redirects to the [glossary](https://planb.network/en/resources/glossary) on planb.network. To do this, you need to insert the word/phrase inside square brackets, and the link inside round parenthesis, like you can see in the example below: 
+- Another good solution is to keep the EN original word/phrase, then **create a hyperlink** that redirects to the [glossary](https://planb.academy/en/resources/glossary) on planb.network. To do this, you need to insert the word/phrase inside square brackets, and the link inside round parenthesis, like you can see in the example below: 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 In the final result (image below) you will not visualize the entire link, and the word will become clickable.
@@ -91,11 +91,11 @@ In the final result (image below) you will not visualize the entire link, and th
 ![REVIEW](assets/en/5.webp)
 
 
-Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.network/en/resources/glossary/utxo``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
+Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.academy/en/resources/glossary/utxo``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
 
 The content on the repository is full of hyperlinks like these above. Now that you know what they mean, **make sure not to delete any link** inserted by the original author.
 
-- Another thing related to word rendering is the following. If you find "Plan ₿ Network" in the text, **leave it in this original form**. Do not translate the word "plan" or the word "network". Besides, do NOT use the article "The" when introducing Plan ₿ Network: **consider it as a brand**. 
+- Another thing related to word rendering is the following. If you find "Plan ₿ Academy" in the text, **leave it in this original form**. Do not translate the word "plan" or the word "network". Besides, do NOT use the article "The" when introducing Plan ₿ Academy: **consider it as a brand**. 
 
 - The same goes for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", which should also be kept in the original form.
 
@@ -222,7 +222,7 @@ Always double check all the hyperlinks in the text, to make sure they are correc
 ![REVIEW](assets/en/16.webp)
 
 
-- Following on the topic, if the author inserts a link referring to a Plan ₿ Network course or tutorial (**not** inside parenthesis), the website will automatically create a "card" showing the related thumbnail. As a consequence, always make sure that you **add a new line between the text and the link itself**, otherwise you might see the following error on the website.
+- Following on the topic, if the author inserts a link referring to a Plan ₿ Academy course or tutorial (**not** inside parenthesis), the website will automatically create a "card" showing the related thumbnail. As a consequence, always make sure that you **add a new line between the text and the link itself**, otherwise you might see the following error on the website.
 
 
 ![REVIEW](assets/en/17.webp)

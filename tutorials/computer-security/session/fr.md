@@ -81,7 +81,7 @@ Session va alors vous afficher une phrase mnémonique. Copiez-la soigneusement e
 
 Cette phrase fonctionne d’une manière semblable aux phrases mnémoniques utilisées dans les portefeuilles Bitcoin. Je vous recommande donc de consulter cet autre tutoriel, dans lequel je vous explique les bonnes pratiques à suivre pour sauvegarder une phrase mnémonique :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Attention** : Contrairement aux phrases mnémoniques utilisées sur les portefeuilles Bitcoin, sur Session, **vous devez absolument sauvegarder chaque mot en entier**. Les 4 premières lettres ne suffisent pas !
 
@@ -159,4 +159,4 @@ Félicitations, vous êtes maintenant au point sur l'utilisation de la messageri
 
 Je vous recommande également de découvrir cet autre tutoriel, dans lequel je vous présente Threema, une autre alternative intéressante pour votre application de messagerie :
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

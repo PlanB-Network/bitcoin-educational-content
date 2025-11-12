@@ -14,7 +14,7 @@ description: Komplett guide till att använda Peach och växla bitcoins P2P
 KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Vad är Peach?
 
@@ -47,7 +47,7 @@ Som en påminnelse är en Hash data som görs oigenkännliga, på samma sätt so
 *För mer information om hashing kan du följa den här kursen:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Vem kan se mina betalningsuppgifter?**
 

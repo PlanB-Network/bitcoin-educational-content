@@ -47,7 +47,7 @@ Derfor bør logikken være som følger når man bruker et Samourai-utgiftsverkt�
 
 Hvis du ønsker å finne en samarbeidspartner som er villig til å assistere deg i en Stonewall X2-transaksjon, kan du også besøke denne Telegram-gruppen (uoffisiell) vedlikeholdt av Samourai-brukere for å koble sendere og samarbeidspartnere: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Lær mer om Stonewall-transaksjoner**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Lær mer om Stonewall-transaksjoner**](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Hva er formålet med en Stonewall x2-transaksjon?
 

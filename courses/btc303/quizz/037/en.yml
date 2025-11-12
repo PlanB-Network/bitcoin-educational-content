@@ -1,0 +1,8 @@
+question: What was the primary issue that made the Segwit upgrade different from previous Bitcoin upgrades?
+answer: Miners did not signal support despite overwhelming user support, stalling the activation process
+wrong_answers:
+  - The upgrade required a hard fork instead of the usual soft fork implementation method
+  - Technical bugs in the Segwit code prevented safe deployment until they were resolved
+  - Economic nodes rejected the upgrade due to concerns about increased transaction fees
+explanation: |
+  The Segwit upgrade was unique because it faced a coordination problem where there was overwhelming support among Bitcoin users, but miners refused to signal support for the upgrade. This created a stalemate situation where the upgrade couldn't activate through the normal miner-activated soft fork mechanism. Previous upgrades had been relatively painless because they had both user and miner support. This situation led to the proposal of User Activated Soft Forks (UASF) as an alternative activation mechanism that didn't rely on miner signaling, highlighting the tension between different stakeholders in the Bitcoin ecosystem.

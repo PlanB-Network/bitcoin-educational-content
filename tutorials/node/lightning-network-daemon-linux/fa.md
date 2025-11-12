@@ -34,7 +34,7 @@ Lightning Network Daemon یک پیاده‌سازی کامل Go از Lightning N
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## چرا نود لایتنینگ خود را داشته باشید؟
 
@@ -64,7 +64,7 @@ https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 شما دو گزینه برای اجرای یک نمونه از پیاده‌سازی LND بر روی ماشین ما دارید. می‌توانیم یا محیط را بر روی ماشین خودمان تنظیم کنیم تا به صورت محلی اجرا شود، یا LND را از یک کانتینر Docker نصب کنیم. در اینجا، ما بر روی گزینه اول تمرکز خواهیم کرد و در یک آموزش بعدی خواهیم دید که چگونه با Docker پیش برویم.
@@ -665,4 +665,4 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

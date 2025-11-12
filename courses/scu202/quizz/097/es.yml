@@ -6,4 +6,4 @@ wrong_answers:
   - SMTP
 explanation: |
   Quad9 es un servidor DNS público centrado en la privacidad, que filtra los dominios maliciosos y no guarda registros nominativos.
-reviewed: false
+reviewed: true

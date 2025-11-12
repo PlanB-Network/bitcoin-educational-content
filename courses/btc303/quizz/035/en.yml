@@ -1,0 +1,8 @@
+question: What is the mathematical probability formula for a dishonest miner with x percent hash rate to successfully execute fee sniping by re-mining the previous block plus a new block?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  The correct formula is (x/(1-x))^2 because fee sniping requires a miner to successfully mine two consecutive blocks to replace the previous block plus extend the chain. The probability of mining one block against honest miners is x/(1-x), and since two blocks must be mined consecutively, this probability is squared. The other formulas are mathematically plausible but represent different probability scenarios that don't match the specific requirements of fee sniping, where the dishonest miner must overcome the honest network twice in succession.

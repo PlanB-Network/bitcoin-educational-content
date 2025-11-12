@@ -1,6 +1,5 @@
 question: Özel tarama nedir?
-answer: İnternet tarayıcılarının tarama geçmişini, geçici internet dosyalarını, form verilerini, 
-çerezleri ve kullanıcı adları ile parolaları depolamasını engelleyen bir özelliktir.
+answer: İnternet tarayıcılarının tarama geçmişini, geçici internet dosyalarını, form verilerini, çerezleri ve kullanıcı adları ile parolaları depolamasını engelleyen bir özelliktir.
 wrong_answers:
   - Çevrimiçi etkinliğinizi internet servis sağlayıcınızdan gizleyen bir özelliktir.
   - İnternette anonim olarak gezinmenizi sağlayan bir özelliktir.

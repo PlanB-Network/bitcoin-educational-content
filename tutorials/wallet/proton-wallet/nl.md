@@ -20,7 +20,7 @@ De speciale eigenschap van deze Wallet is de mogelijkheid om bitcoins te verstur
 Om Proton Wallet te kunnen gebruiken, heb je een Proton account nodig. Je kunt er gratis een aanmaken door de eerste stappen van deze tutorial over het aanmaken van een Proton mailbox te volgen (alleen het gedeelte "*Een Proton account aanmaken*"). Zodra je account is aangemaakt, kun je verder met de rest van deze handleiding.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Verbinden met Proton Wallet
 
@@ -100,7 +100,7 @@ Je kunt het op een stuk papier schrijven of voor extra veiligheid raad ik aan om
 Voor meer informatie over de juiste manier om je Mnemonic zinnen op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 je moet natuurlijk nooit een foto maken van deze woorden, in tegenstelling tot wat ik doe in deze tutorial.
 
@@ -141,7 +141,7 @@ Hier kun je een BIP39 passphrase toevoegen aan een nieuwe Wallet.
 Om je kennis van de passphrase te verdiepen, raad ik je deze tutorial aan:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Bitcoins ontvangen
 
@@ -239,4 +239,4 @@ Gefeliciteerd, je weet nu hoe je Proton Wallet instelt en gebruikt. Als je deze 
 Om verder te gaan, raad ik deze tutorial aan over Jade Plus, Blockstream's nieuwste Hardware Wallet:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

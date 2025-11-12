@@ -63,7 +63,7 @@ Baada ya kusasisha programu dhibiti ya Jade, chagua Weka Jade kwenye mtandao na 
 ![image](assets/3.webp)
 
 
-Kisha, chagua kuunda Wallet Mpya na uchague maneno 12 kwa generate kishazi chako cha urejeshi. Kubofya Kina kutakupa chaguo la maneno 12 na 24 ya kurejesha urejeshaji.
+Kisha, chagua kuunda Wallet Mpya na uchague maneno 12 ili ku-generate kishazi chako cha urejeshi. Kubofya Kina kutakupa chaguo la maneno 12 au 24 ya urejeshaji.
 
 
 ![image](assets/4.webp)
@@ -186,10 +186,10 @@ Picha hii ina sifa mbadala tupu; jina la faili yake ni image-4-1024x165.webp
 Ongezeko hili linathibitisha kuwa sahihi ni nzuri, na tuna uhakika kwamba ufunguo wa faragha wa "info@greenaddress.it" ulitia saini data (ripoti ya Hash).
 
 
-Sasa tunapaswa Hash faili yetu ya zip iliyopakuliwa na kulinganisha towe jinsi inavyochapishwa. Kumbuka kuwa katika faili ya SHA256SUMS.asc, kuna maandishi kidogo ambayo yanasema "Hash: SHA512" ambayo yananichanganya, kwani faili hiyo ina matokeo ya SHA256 ndani, kwa hivyo nitapuuza hilo.
+Sasa tunapaswa ku-Hash faili yetu ya zip iliyopakuliwa na kulinganisha towe jinsi inavyochapishwa. Kumbuka kuwa katika faili ya SHA256SUMS.asc, kuna maandishi madogo yanayosema "Hash: SHA512" ambayo yananichanganya, kwani faili hiyo ina matokeo ya SHA256 ndani, kwa hivyo nitapuuza hilo.
 
 
-Kwa Mac na Linux, fungua terminal, nenda mahali faili ya zip ilipakuliwa (labda utahitaji kuandika "Vipakuliwa vya cd" tena, isipokuwa kama hujafunga terminal tangu). Kwa njia, unaweza kuangalia kila wakati saraka uliyomo kwa kuandika PWD ("saraka ya kazi ya kuchapisha), na ikiwa hii yote ni ya kigeni, ni muhimu kutazama video ya haraka ya YouTube kwa kutafuta "jinsi ya kuvinjari mfumo wa faili wa Linux/Mac/Windows".
+Kwa Mac na Linux, fungua terminal, kisha nenda mahali faili ya zip ilipakuliwa (labda utahitaji kuandika cd Vipakuliwa tena, isipokuwa hujafunga terminal tangu wakati huo). Kwa njia, unaweza kila wakati kuangalia saraka uliyopo kwa kuandika pwd (print working directory). Ikiwa haya yote ni mapya kwako, inashauriwa kutazama video fupi ya YouTube kwa kutafuta "jinsi ya kuvinjari mfumo wa faili wa Linux/Mac/Windows".
 
 
 Ili kuwa na faili, chapa hii:

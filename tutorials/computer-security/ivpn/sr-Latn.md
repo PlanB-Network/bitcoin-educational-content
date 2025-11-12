@@ -202,9 +202,9 @@ U meniju "*AntiTracker*", izaberite profil blokiranja za vaš anti-tracker. Ovo 
 I eto, sada ste opremljeni da u potpunosti uživate u IVPN-u. Ako takođe želite da poboljšate sigurnost svojih online naloga korišćenjem lokalnog menadžera lozinki, pozivam vas da pogledate naš vodič o KeePass-u, besplatnom i open-source rešenju:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Ako ste zainteresovani da otkrijete drugog VPN provajdera sličnog IVPN-u, kako po karakteristikama tako i po ceni, preporučujem da pogledate naš vodič o Mullvad-u:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

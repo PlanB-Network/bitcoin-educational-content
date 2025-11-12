@@ -6,4 +6,4 @@ wrong_answers:
   - El iOSP
 explanation: |
   Sólo la base AOSP de Android es libre. Los ampliamente utilizados Google Mobile Services son propietarios y no se pueden auditar.
-reviewed: false
+reviewed: true

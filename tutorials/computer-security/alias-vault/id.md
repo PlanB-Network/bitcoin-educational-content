@@ -185,7 +185,7 @@ Sebelum Anda menggunakan email ini untuk layanan login, Anda dapat menguji fungs
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Untuk menghapus alias yang telah Anda buat sebagai tes, yang harus Anda lakukan adalah masuk ke `Home`, lalu `Credentials` dan klik pada identitas yang ingin Anda hapus. Perintah _Delete_ akan muncul di sudut kanan atas untuk Anda lanjutkan.
 

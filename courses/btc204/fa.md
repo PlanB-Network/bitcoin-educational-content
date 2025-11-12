@@ -38,6 +38,8 @@ objectives:
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 به دوره BTC204 خوش آمدید!
 
@@ -127,6 +129,8 @@ Bitcoin یک فرار آرام از یوغ دولت ارائه می‌دهد و 
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin در درجه اول یک ارز است، اما آیا واقعاً می‌دانید که BTC در پروتکل چگونه نمایش داده می‌شود؟
@@ -197,6 +201,8 @@ UTXOs ابزارهای Exchange بر روی Bitcoin هستند. هر تراکن�
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Coinbase Transaction منحصر به فرد است زیرا تنها دستگا�
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### پول: اصالت، یکپارچگی و دوبار خرج کردن
@@ -428,6 +436,8 @@ Coinbase Transaction منحصر به فرد است زیرا تنها دستگا�
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### تعریف و عملیات
@@ -496,9 +506,9 @@ Coinbase Transaction منحصر به فرد است زیرا تنها دستگا�
 چه راهی بهتر برای مقابله با تحلیل Blockchain از یادگیری روش‌های استفاده شده در آن وجود دارد؟ اگر می‌خواهید بدانید چگونه حریم خصوصی خود را در Bitcoin بهبود بخشید، باید این روش‌ها را درک کنید. این به شما درک بهتری از تکنیک‌هایی مانند CoinJoin یا PayJoin (تکنیک‌هایی که در بخش‌های پایانی دوره به آن‌ها خواهیم پرداخت) می‌دهد و اشتباهاتی که ممکن است مرتکب شوید را کاهش می‌دهد.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 در این مورد، می‌توانیم یک قیاس با رمزنگاری و رمزگشایی ترسیم کنیم. یک رمزنگار خوب در درجه اول یک رمزگشا خوب است. برای ابداع یک الگوریتم رمزنگاری جدید، باید بدانید که با چه حملاتی مواجه خواهد شد و همچنین مطالعه کنید که چرا الگوریتم‌های قبلی شکسته شده‌اند. همین اصل در مورد حریم خصوصی Bitcoin صدق می‌کند. درک روش‌های تحلیل Blockchain کلید محافظت در برابر آنهاست. به همین دلیل من یک بخش کامل از تحلیل on chain را در این دوره آموزشی گنجانده‌ام.
 
@@ -547,6 +557,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -739,6 +751,8 @@ b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 یک روش اکتشافی داخلی یک ویژگی خاص است که ما درون یک تراکنش شناسایی می‌کنیم، بدون نیاز به بررسی محیط آن، و که به ما امکان می‌دهد استنتاج‌هایی انجام دهیم. برخلاف الگوها، که بر ساختار کلی تراکنش در سطح بالا تمرکز دارند، روش‌های اکتشافی داخلی بر اساس مجموعه‌ای از داده‌های قابل استخراج هستند. این شامل:
@@ -898,6 +912,8 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1487,6 +1503,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 با مطالعه تکنیک‌هایی که می‌توانند محرمانگی شما را در Bitcoin بشکنند، در این بخش سوم اکنون به بررسی بهترین روش‌هایی که باید برای محافظت از خود اتخاذ کنید، خواهیم پرداخت. هدف این بخش بررسی روش‌های بهبود محرمانگی نیست، موضوعی که بعداً به آن پرداخته خواهد شد، بلکه درک چگونگی تعامل صحیح با Bitcoin برای حفظ محرمانگی‌ای است که به طور طبیعی ارائه می‌دهد، بدون نیاز به استفاده از تکنیک‌های اضافی.
@@ -1659,6 +1677,8 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 همانطور که در بخش تحلیل رشته کشف کردیم، تعداد زیادی از اکتشافات و الگوها وجود دارد که می‌توانند برای استنتاج اطلاعات درباره یک تراکنش استفاده شوند. به عنوان یک کاربر، مهم است که از این تکنیک‌ها آگاه باشید تا بتوانید بهتر از خود در برابر آنها محافظت کنید.
@@ -1809,12 +1829,14 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 اگر می‌خواهید بدانید چگونه UTXOهای خود را برچسب‌گذاری کنید، ما یک آموزش جامع در مورد نرم‌افزار اصلی Bitcoin Wallet موجود انجام داده‌ایم:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC و شناسایی کلید
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1967,6 +1989,8 @@ KYC به یک رویه نظارتی خاص اشاره دارد که توسط ب�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 پس از خواندن فصل قبلی، ممکن است از خود بپرسید که چگونه می‌توانید Bitcoin را بخرید یا بفروشید بدون اینکه مجبور به انجام یک فرآیند تأیید هویت شوید، تا از خطرات مرتبط با KYC اجتناب کنید. چندین روش برای معامله Bitcoin وجود دارد.
@@ -2044,7 +2068,7 @@ KYC به یک رویه نظارتی خاص اشاره دارد که توسط ب�
 -> آموزش Bisq ما را ببینید.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 برای یک گزینه ساده‌تر، می‌توانید [Peach](https://peachbitcoin.com/) را امتحان کنید، یک اپلیکیشن موبایل که خریداران و فروشندگان را با یک سیستم حل اختلاف داخلی متصل می‌کند. این فرآیند نسبت به Bisq شهودی‌تر است.
 
@@ -2052,7 +2076,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 -> آموزش هلو ما را ببینید.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 گزینه آنلاین دیگر [HodlHodl](https://hodlhodl.com/) است، یک پلتفرم معتبر که نقدینگی خوبی ارائه می‌دهد، اگرچه من شخصاً آن را آزمایش نکرده‌ام.
 
@@ -2060,7 +2084,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 -> آموزش HodlHodl ما را ببینید.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 برای راه‌حل‌های مبتنی بر Lightning Network، [RoboSats](https://learn.robosats.com/) و [LNP2PBot](https://lnp2pbot.com/) را امتحان کنید. RoboSats از طریق یک وب‌سایت قابل دسترسی است و استفاده از آن نسبتاً ساده است. LNP2PBot غیرمعمول‌تر است، زیرا از طریق یک سیستم Exchange در برنامه پیام‌رسان تلگرام کار می‌کند.
 
@@ -2071,9 +2095,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 -> آموزش LNP2PBot ما را ببینید.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/fa/096.webp)
 
@@ -2087,7 +2111,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 -> آموزش ما در مورد Relai را ببینید.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 همانطور که در فصل قبل دیدیم، این نوع پلتفرم شما را از خطرات مرتبط با رویه‌های KYC نجات می‌دهد، اما سطح بالاتری از خطر برای شناسایی کلید ارائه می‌دهند. از نظر محرمانگی Bitcoin، این پلتفرم‌ها حفاظت بهتری نسبت به روش‌های خرید با KYC ارائه می‌دهند، اما همچنان کمتر از مبادلات P2P جذاب هستند.
 
@@ -2122,7 +2146,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 چندین پلتفرم که نیازی به مراحل KYC ندارند، امکان مبادله بیت‌کوین با کارت‌های هدیه‌ای که می‌توان در خرده‌فروشی‌های بزرگ استفاده کرد را ارائه می‌دهند. این پلتفرم‌ها شامل [CoinsBee](https://www.coinsbee.com/)، [The Bitcoin Company](https://thebitcoincompany.com/) و [Bitrefill](https://www.bitrefill.com/) هستند. این پلتفرم‌ها استفاده روزانه از بیت‌کوین‌هایتان را بسیار آسان‌تر می‌کنند و به شما امکان دسترسی به طیف گسترده‌ای از محصولات و خدمات را بدون نیاز به تبدیل آن‌ها به ارز فیات می‌دهند.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/fa/098.webp)
 
@@ -2136,13 +2160,15 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 روش دیگر کار در Exchange برای بیت‌کوین‌ها است. این روش کسب می‌تواند جالب باشد، اما میزان شناسایی مورد نیاز بسته به شرایط به طور قابل توجهی متفاوت است.
 
 
-*برای نوشتن این فصل، از دوره آموزشی BTC205 که توسط [@pivi___](https://x.com/pivi___) در Plan ₿ Network ارائه شده است (در حال حاضر فقط به زبان فرانسوی موجود است) استفاده کردم.*
+*برای نوشتن این فصل، از دوره آموزشی BTC205 که توسط [@pivi___](https://x.com/pivi___) در Plan ₿ Academy ارائه شده است (در حال حاضر فقط به زبان فرانسوی موجود است) استفاده کردم.*
 
 
 ## تثبیت، مدیریت UTXO و CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2265,6 +2291,8 @@ $$
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 بیایید نگاهی به چند روش برتر دیگر برای بهینه‌سازی حریم خصوصی شما در Bitcoin بیندازیم.
@@ -2346,6 +2374,8 @@ $$
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2496,6 +2526,8 @@ CoinJoin تکنیکی برای شکستن ردیابی Bitcoin بر روی Block
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2672,6 +2704,8 @@ Zerolink یک پروتکل ترکیبی جامع است که شامل کوین�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 *در سال 2024، ما شاهد تغییرات عمده‌ای در ابزارهای موجود برای کاربرانی هستیم که می‌خواهند کوین‌جوین‌ها را بر روی Bitcoin انجام دهند. ما در حال حاضر در یک نقطه عطف قرار داریم و بازار CoinJoin در حال بازسازی عمده است. این فصل مطمئناً با گذشت زمان به‌روزرسانی خواهد شد.*
@@ -2791,6 +2825,8 @@ Wabisabi پیاده‌سازی دیگری از CoinJoin است که با روی�
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3113,7 +3149,7 @@ Tx0" اولین مرحله در فرآیند مخلوط‌سازی Whirlpool ا�
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3121,6 +3157,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3232,6 +3270,8 @@ Anonsets به عنوان شاخص‌هایی برای ارزیابی درجه م
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3541,7 +3581,7 @@ $$
 اکنون که کوین‌جوین‌ها را به‌طور مفصل بررسی کرده‌ایم، در بخش نهایی دوره خود به سایر تکنیک‌های حفظ حریم خصوصی موجود در Bitcoin خواهیم پرداخت. ما به بررسی پی‌جوین‌ها، انواع خاصی از تراکنش‌های شبه-CoinJoin، پروتکل‌های ثابت Address، و همچنین اقداماتی برای تقویت محرمانگی نه در سطح خود تراکنش‌ها، بلکه در سطح شبکه گره‌ها خواهیم پرداخت.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # درک چالش‌های تکنیک‌های پیشرفته محرمانگی دیگر
 
@@ -3553,6 +3593,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3679,12 +3721,14 @@ PayJoin یک ساختار تراکنش خاص Bitcoin است که با همکا�
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## پرداخت mini-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3858,14 +3902,16 @@ Stonewall x2 شکل خاص دیگری از تراکنش Bitcoin است که هم
 در فصل بعدی، به بررسی تکنیک محرمانگی دیگری خواهیم پرداخت که نسبتاً ناشناخته است، اما به عنوان مکملی برای آنچه که تاکنون مطالعه کرده‌ایم، بسیار مفید است.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## ریشکه‌ها
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3969,12 +4015,14 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 در فصل بعد، به بررسی تکنیک‌های مختلف برای انتقال‌های مخفی Ownership می‌پردازیم. این روش‌ها هم از نظر عملکرد و هم از نظر نتایج، به طور اساسی با آنچه تاکنون بررسی کرده‌ایم متفاوت هستند.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## انتقالات مخفی Ownership
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4161,6 +4209,8 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 در بخش ۴، اهمیت استفاده از یک نود کامل برای حفاظت از محرمانگی تراکنش‌های شما را مورد بحث قرار دادیم. با این حال، مهم است که درک کنید نود شما ممکن است خود در معرض حملاتی باشد که به دنبال استخراج اطلاعات درباره فعالیت‌های شما هستند. بنابراین، در این فصل، به بررسی اقدامات مختلفی که می‌توانید برای حفاظت از حریم خصوصی خود انجام دهید، خواهیم پرداخت، نه در سطح خود تراکنش‌ها یا جریان‌های Bitcoin، بلکه در سطح شبکه.
@@ -4276,6 +4326,8 @@ P2P V2 همچنین به کاهش خطر سانسور و حملات با شنا�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 همانطور که در بخش 3 دیدیم، استفاده مجدد از Address مانعی جدی برای محرمانگی کاربر در پروتکل Bitcoin است. برای کاهش این خطرات، به شدت توصیه می‌شود که برای هر پرداخت جدیدی که در یک Wallet دریافت می‌شود، یک Address دریافت‌کننده خالی generate شود. اگرچه تولید یک Address جدید اکنون با استفاده از نرم‌افزارهای مدرن و کیف‌پول‌های سلسله مراتبی تعیین‌کننده ساده شده است، این عمل ممکن است برخلاف انتظار به نظر برسد.
@@ -4371,10 +4423,10 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 
 ---
-*در بخش‌های زیر از این فصل که به BIP47 اختصاص دارد، به‌طور مفصل به نحوه کارکرد آن خواهیم پرداخت، با تأکید ویژه بر روش‌های رمزنگاری استفاده‌شده. برای درک کامل این توضیحات نسبتاً فنی، ابتدا باید ساختار کیف‌پول‌های HD، روش‌های استخراج کلید و اصول رمزنگاری منحنی بیضوی را بفهمید. اگر مایلید به این مفاهیم عمیق‌تر بپردازید، دوره آموزشی رایگان دیگری در Plan ₿ Network موجود است:*
+*در بخش‌های زیر از این فصل که به BIP47 اختصاص دارد، به‌طور مفصل به نحوه کارکرد آن خواهیم پرداخت، با تأکید ویژه بر روش‌های رمزنگاری استفاده‌شده. برای درک کامل این توضیحات نسبتاً فنی، ابتدا باید ساختار کیف‌پول‌های HD، روش‌های استخراج کلید و اصول رمزنگاری منحنی بیضوی را بفهمید. اگر مایلید به این مفاهیم عمیق‌تر بپردازید، دوره آموزشی رایگان دیگری در Plan ₿ Academy موجود است:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *من هنوز به شما توصیه می‌کنم که آن‌ها را دنبال کنید، زیرا درک عملکرد فنی BIP47 باعث می‌شود که درک سایر پیشنهادات مشابه که در فصل‌های بعدی مورد بحث قرار خواهیم داد، برای شما بسیار آسان‌تر شود.*
 
@@ -5447,12 +5499,14 @@ $$ K0 = k0 \cdot G $$
 *تشکر فراوان از [Fanis Michalakis](https://x.com/FanisMichalakis) برای ویرایش و مشاوره تخصصی‌اش در مقاله‌ای که الهام‌بخش نوشتن این فصل بود!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## پرداخت‌های خاموش
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

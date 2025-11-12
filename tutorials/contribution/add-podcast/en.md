@@ -1,23 +1,23 @@
 ---
-name: Adding a Podcast to PlanB Network
-description: How to add a new podcast to PlanB Network?
+name: Adding a Podcast to Plan ₿ Academy
+description: How to add a new podcast to Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
 PlanB's mission is to provide top-tier educational resources on Bitcoin in as many languages as possible. All content published on the site is open-source and hosted on GitHub, allowing anyone to participate in enriching the platform.
 
-Are you looking to add a Bitcoin podcast to the PlanB Network site and increase visibility for your show, but don't know how? This tutorial is for you!
+Are you looking to add a Bitcoin podcast to the Plan ₿ Academy site and increase visibility for your show, but don't know how? This tutorial is for you!
 ![podcast](assets/01.webp)
 - First, you need to have a GitHub account. If you don't know how to create one, we have made a detailed tutorial to guide you.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) in the `resources/podcasts/` section:
 ![podcast](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![podcast](assets/03.webp)
-- If you have never contributed to the content of PlanB Network before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, allowing you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
+- If you have never contributed to the content of Plan ₿ Academy before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, allowing you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
 ![podcast](assets/04.webp)
 - You will then arrive at the GitHub editing page:
 ![podcast](assets/05.webp)
@@ -99,7 +99,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![podcast](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![podcast](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It's probably called `patch-1`. Click on it:
 ![podcast](assets/16.webp)
@@ -120,7 +120,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`:
 ![podcast](assets/25.webp)
-- A new page will open. Drag and drop your podcast logo into the area. This image will be displayed on the PlanB Network site:
+- A new page will open. Drag and drop your podcast logo into the area. This image will be displayed on the Plan ₿ Academy site:
 ![podcast](assets/26.webp)
 - Be careful, the image must be square, to best fit our website:
 ![podcast](assets/27.webp)
@@ -144,8 +144,8 @@ contributors:
 ![podcast](assets/36.webp)
 - Click on the `Create pull request` button:
 ![podcast](assets/37.webp)
-Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of PlanB Network. You should see your podcast appear on the website a few days later.
+Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of Plan ₿ Academy. You should see your podcast appear on the website a few days later.
 
-Please make sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the PlanB Network GitHub repository:
+Please make sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the Plan ₿ Academy GitHub repository:
 ![podcast](assets/38.webp)
 Thank you very much for your valuable contribution! :)

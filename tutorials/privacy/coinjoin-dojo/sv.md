@@ -111,7 +111,7 @@ Dessa krav styrde de val som utvecklarna av Samourai Wallet gjorde vid utformnin
 **I slutändan finns det inget behov av att ha ett högt antal deltagare per CoinJoin på Whirlpool eftersom anonsets uppnås genom ackumulering av flera CoinJoin-cykler.**
 
 
-[-> Läs mer om Whirlpool anonsets] (https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Läs mer om Whirlpool anonsets] (https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ### Avgifter för pooler och CoinJoin
@@ -237,7 +237,7 @@ Det överskott som inte kunde integreras i poolen, här motsvarande "40 000 Sats
 
 Denna UTXO är farlig för användarens integritet eftersom den inte bara fortfarande är kopplad till sitt förflutna, och därför möjligen till sin ägares identitet, utan dessutom är noterad som tillhörande en användare som har utfört en CoinJoin.
 
-Om denna UTXO slås samman med blandade utdata kommer de att förlora all den integritet som uppnåtts under CoinJoin-cyklerna, särskilt på grund av Common-Input-Ownership-Heuristic (CIOH). Om det slås samman med andra doxiska förändringar riskerar användaren att förlora sin integritet eftersom detta kommer att länka samman de olika ingångarna i CoinJoin-cyklerna. Därför måste den hanteras med försiktighet. Sättet att hantera denna giftiga UTXO kommer att beskrivas i den sista delen av denna artikel, och framtida handledningar kommer att täcka dessa metoder mer noggrant på PlanB Network.
+Om denna UTXO slås samman med blandade utdata kommer de att förlora all den integritet som uppnåtts under CoinJoin-cyklerna, särskilt på grund av Common-Input-Ownership-Heuristic (CIOH). Om det slås samman med andra doxiska förändringar riskerar användaren att förlora sin integritet eftersom detta kommer att länka samman de olika ingångarna i CoinJoin-cyklerna. Därför måste den hanteras med försiktighet. Sättet att hantera denna giftiga UTXO kommer att beskrivas i den sista delen av denna artikel, och framtida handledningar kommer att täcka dessa metoder mer noggrant på Plan ₿ Academy.
 
 
 **Steg 3: Den inledande mixen**
@@ -275,8 +275,8 @@ Att utföra coinjoins via Samourai Wallet med hjälp av din egen Dojo är enligt
 Denna teknik är därför idealisk för dem som vill ha maximal integritet och CoinJoin-cykler av högsta kvalitet. Det kräver dock att du har en Bitcoin-nod till ditt förfogande och, som vi kommer att se senare, kräver det en del installation. Den är därför mer lämpad för användare på mellannivå till avancerad nivå. För nybörjare rekommenderar jag att man bekantar sig med CoinJoin genom dessa två andra handledningar, som visar hur man gör det från Sparrow wallet eller Samourai Wallet (utan Dojo):
 
 
-- [Sparrow wallet CoinJoin tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Sparrow wallet CoinJoin tutorial](https://planb.academy/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### Förstå inställningarna
@@ -287,7 +287,7 @@ Till att börja med kommer du att behöva en Dojo! Dojo är en Bitcoin-nodimplem
 För att köra din egen Dojo har du möjlighet att antingen installera en Dojo-nod självständigt eller dra nytta av Dojo ovanpå en annan "node-in-box" Bitcoin-nodlösning. För närvarande är de tillgängliga alternativen:
 
 
-- [RoninDojo](https://ronindojo.io/), som är en Dojo förbättrad med ytterligare verktyg, inklusive en installationsassistent och en administrationsassistent. Jag beskriver i detalj hur man installerar och använder RoninDojo i denna andra handledning: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), som är en Dojo förbättrad med ytterligare verktyg, inklusive en installationsassistent och en administrationsassistent. Jag beskriver i detalj hur man installerar och använder RoninDojo i denna andra handledning: [RONINDOJO V2](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel] (https://umbrel.com/) med applikationen "Samourai Server";
 - [MyNode] (https://mynodebtc.com/) med applikationen "Dojo";
 - [Nodl] (https://www.nodl.eu/) med applikationen "Dojo";
@@ -412,7 +412,7 @@ I nästa steg kommer du till sidan där du kan konfigurera din Dojo. Välj alter
 ![coinjoin](assets/notext/24.webp)
 
 
-*För nya användare av Samourai blir det då nödvändigt att skapa en Wallet från början. Om du behöver hjälp kan du läsa instruktionerna för att skapa en ny Samourai Wallet [i den här handledningen, särskilt i avsnittet "Skapa en Software Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*För nya användare av Samourai blir det då nödvändigt att skapa en Wallet från början. Om du behöver hjälp kan du läsa instruktionerna för att skapa en ny Samourai Wallet [i den här handledningen, särskilt i avsnittet "Skapa en Software Wallet"](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 
 Om du fortsätter med återställningen av en redan befintlig Samourai Wallet, välj `Restore existing Wallet`, välj sedan `I have a Samourai backup file`.
@@ -588,4 +588,4 @@ Whirlpool-konton är lätt identifierbara på Samourai Wallet genom sin blå fä
 ![coinjoin](assets/notext/53.webp)
 
 
-För att hålla reda på dina automatiska coinjoins rekommenderar jag också att du skapar en Watch-only wallet via Sentinel-appen. Lägg till ZPUB för ditt **Postmix**-konto och övervaka utvecklingen av dina CoinJoin-cykler i realtid. Om du vill förstå hur du använder Sentinel rekommenderar jag att du läser den här andra handledningen på PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+För att hålla reda på dina automatiska coinjoins rekommenderar jag också att du skapar en Watch-only wallet via Sentinel-appen. Lägg till ZPUB för ditt **Postmix**-konto och övervaka utvecklingen av dina CoinJoin-cykler i realtid. Om du vill förstå hur du använder Sentinel rekommenderar jag att du läser den här andra handledningen på Plan ₿ Academy: [**SENTINEL WATCH-ONLY**](https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

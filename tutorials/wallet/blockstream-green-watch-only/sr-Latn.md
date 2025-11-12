@@ -41,9 +41,9 @@ Green je veoma jednostavna aplikacija za korišćenje, što je čini posebno pog
 U ovom vodiču, fokusiraćemo se isključivo na kreiranje Watch-only wallet. Da biste istražili druge upotrebe Green, molimo vas da pogledate naše druge posvećene vodiče:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Instalacija i konfiguracija aplikacije Blockstream Green
 
@@ -181,4 +181,4 @@ Ako ste smatrali ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green
 Takođe vam preporučujem da pogledate ovaj drugi sveobuhvatni vodič o aplikaciji Blockstream Green za postavljanje Hot Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143

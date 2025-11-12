@@ -111,7 +111,7 @@ Ove imperative su usmeravale izbore programera Samourai novčanika u dizajnu Whi
 **Na kraju, nema potrebe za velikim brojem učesnika po coinjoin-u na Whirlpool-u, jer se anonseti postižu kroz akumulaciju više Coinjoin ciklusa.**
 
 
-[-> Saznajte više o Whirlpool anonsetima.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Saznajte više o Whirlpool anonsetima.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ### Bazeni i CoinJoin naknade
@@ -237,7 +237,7 @@ Višak koji nije mogao biti integrisan u bazen, ovde ekvivalentan `40,000 Sats`,
 
 Ovaj UTXO je opasan za privatnost korisnika jer ne samo da je još uvek povezan sa svojom prošlošću, i stoga moguće sa identitetom svog vlasnika, već je dodatno zabeleženo da pripada korisniku koji je izvršio CoinJoin.
 
-Ako se ovaj UTXO spoji sa mešovitim izlazima, izgubićete svu poverljivost stečenu tokom CoinJoin ciklusa, naročito zbog Common-Input-Ownership-Heuristic (CIOH). Ako se spoji sa drugim doxxic kusurima, korisnik rizikuje gubitak poverljivosti jer će to povezati različite ulaze CoinJoin ciklusa. Stoga se mora pažljivo rukovati. Način upravljanja ovim toksičnim UTXO biće detaljno opisan u poslednjem delu ovog članka, a budući tutorijali će detaljnije pokriti ove metode na PlanB Network-u.
+Ako se ovaj UTXO spoji sa mešovitim izlazima, izgubićete svu poverljivost stečenu tokom CoinJoin ciklusa, naročito zbog Common-Input-Ownership-Heuristic (CIOH). Ako se spoji sa drugim doxxic kusurima, korisnik rizikuje gubitak poverljivosti jer će to povezati različite ulaze CoinJoin ciklusa. Stoga se mora pažljivo rukovati. Način upravljanja ovim toksičnim UTXO biće detaljno opisan u poslednjem delu ovog članka, a budući tutorijali će detaljnije pokriti ove metode na Plan ₿ Academy-u.
 
 
 **Korak 3: Početno mešanje**
@@ -275,8 +275,8 @@ Izvođenje coinjoin-a putem Samourai novčanika koristeći sopstveni Dojo je, po
 Ova tehnika je stoga idealna za one koji traže maksimalnu privatnost i najviši kvalitet CoinJoin ciklusa. Međutim, zahteva da imate Bitcoin čvor na raspolaganju i, kao što ćemo kasnije videti, zahteva određeno podešavanje. Stoga je pogodnija za korisnike srednjeg do naprednog nivoa. Za početnike preporučujem da se upoznaju sa CoinJoin kroz ova dva druga tutorijala, koji pokazuju kako to uraditi iz Sparrow novčanika ili Samourai novčanika (bez Dojo):
 
 
-- [Tutorial za Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Tutorial za Sparrow Wallet CoinJoin](https://planb.academy/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### Razumevanje postavke
@@ -287,7 +287,7 @@ Za početak, trebat će vam Dojo! Dojo je implementacija Bitcoin čvora zasnovan
 Da biste pokrenuli sopstveni Dojo, imate dve opcije: možete samostalno instalirati Dojo čvor ili iskoristiti Dojo kao dodatak uz neko drugo „čvor-u-kutiji (eng.node-in-box)“ rešenje za Bitcoin čvor.Trenutno, dostupne opcije su:
 
 
-- [RoninDojo](https://ronindojo.io/), koji je Dojo obogaćen dodatnim alatima, uključujući asistenta za instalaciju i asistenta za administraciju. Detaljno opisujem proceduru za postavljanje i korišćenje RoninDojo-a u ovom drugom vodiču: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), koji je Dojo obogaćen dodatnim alatima, uključujući asistenta za instalaciju i asistenta za administraciju. Detaljno opisujem proceduru za postavljanje i korišćenje RoninDojo-a u ovom drugom vodiču: [RONINDOJO V2](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) sa aplikacijom "Samourai Server";
 - [MyNode](https://mynodebtc.com/) sa aplikacijom "Dojo";
 - [Nodl](https://www.nodl.eu/) sa aplikacijom "Dojo";
@@ -412,7 +412,7 @@ U sledećem koraku, pristupićete stranici posvećenoj konfigurisanju vašeg Doj
 ![coinjoin](assets/notext/24.webp)
 
 
-*Za nove korisnike Samourai-a, biće potrebno da kreiraju novčanik od nule. Ako vam je potrebna pomoć, možete se konsultovati sa uputstvima za postavljanje novog Samourai novčanika [u ovom vodiču, posebno u odeljku "Kreiranje softverskog novčanika"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*Za nove korisnike Samourai-a, biće potrebno da kreiraju novčanik od nule. Ako vam je potrebna pomoć, možete se konsultovati sa uputstvima za postavljanje novog Samourai novčanika [u ovom vodiču, posebno u odeljku "Kreiranje softverskog novčanika"](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 
 Ako nastavljate sa restauracijom već postojećeg Samourai novčanika, izaberite `Restore existing Wallet`, zatim odaberite `I have a Samourai backup file`.
@@ -588,4 +588,4 @@ Whirlpool nalozi su lako prepoznatljivi na Samourai novčaniku po svojoj plavoj 
 ![coinjoin](assets/notext/53.webp)
 
 
-Da biste pratili svoje automatske coinjoin-e, takođe preporučujem postavljanje watch-only novčanika putem aplikacije Sentinel. Dodajte ZPUB vašeg **Postmix** naloga i pratite napredak vaših CoinJoin ciklusa u realnom vremenu. Ako želite da razumete kako koristiti Sentinel, preporučujem da pogledate ovaj drugi vodič na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+Da biste pratili svoje automatske coinjoin-e, takođe preporučujem postavljanje watch-only novčanika putem aplikacije Sentinel. Dodajte ZPUB vašeg **Postmix** naloga i pratite napredak vaših CoinJoin ciklusa u realnom vremenu. Ako želite da razumete kako koristiti Sentinel, preporučujem da pogledate ovaj drugi vodič na Plan ₿ Academy: [**SENTINEL WATCH-ONLY**](https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

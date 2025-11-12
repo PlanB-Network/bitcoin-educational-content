@@ -47,11 +47,11 @@ Green ni programu ambayo ni rahisi kutumia, ambayo inafanya kuvutia kwa wanaoanz
 Blockstream Green pia inasaidia Liquid Network, na hilo ndilo tutakalopata kujua katika mafunzo haya. Ikiwa ungependa kutumia Green kwa programu zingine, ninapendekeza pia uangalie mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Inasakinisha na kusanidi programu ya Blockstream Green
 
@@ -198,7 +198,7 @@ Na hivyo ndivyo, Liquid Wallet yako imeundwa kwa kutumia programu ya Green!
 Kabla ya kupokea bitcoins zako za kwanza kwenye Liquid Wallet yako, **Ninakushauri sana ufanye jaribio tupu la uokoaji **. Andika baadhi ya maelezo ya marejeleo, kama vile xpub yako au kwanza kupokea Address, kisha ufute Wallet yako kwenye programu ya Green ingali tupu. Kisha jaribu kurejesha Wallet yako kwenye Green kwa kutumia nakala zako za karatasi. Hakikisha kuwa maelezo ya kidakuzi yaliyotolewa baada ya kurejesha yanalingana na uliyoandika awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika. Ili kujua zaidi kuhusu jinsi ya kufanya urejeshaji wa jaribio, tafadhali soma mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kuweka Liquid Wallet yako
 
@@ -320,4 +320,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gu
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina kwenye programu ya simu ya Blockstream Green ili kusanidi onchain Bitcoin Hot Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

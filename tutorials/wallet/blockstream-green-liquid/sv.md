@@ -47,11 +47,11 @@ Green är en särskilt lättanvänd applikation, vilket gör den intressant för
 Blockstream Green stöder också Liquid Network, och det är vad vi kommer att ta reda på i den här handledningen. Om du vill använda Green för andra applikationer rekommenderar jag att du också tar en titt på dessa andra handledningar:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Installera och konfigurera Blockstream Green-applikationen
 
@@ -198,7 +198,7 @@ Och det är det, din Liquid Wallet har skapats med hjälp av Green-applikationen
 Innan du får dina första bitcoins på din Liquid Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, och ta sedan bort din Wallet i Green-appen medan den fortfarande är tom. Försök sedan återställa din Wallet på Green med hjälp av dina pappersbackuper. Kontrollera att cookieinformationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurera din Liquid Wallet
 
@@ -320,4 +320,4 @@ Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du 
 Jag rekommenderar också att du kollar in den här andra omfattande handledningen om Blockstream Green-mobilappen för att ställa in en onchain Bitcoin Hot Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

@@ -84,7 +84,7 @@ Jos haluat tietää lisää Dojosta ja oppia asentamaan sen, pyydän sinua seura
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Jos sinulla ei todellakaan ole varaa ylläpitää omaa Dojoa, voit löytää ihmisiä, jotka haluavat jakaa instanssinsa ilmaiseksi osoitteessa [dojobay.pw](https://www.dojobay.pw/mainnet/). Tämä voi olla väliaikainen ratkaisu, mutta pitkällä aikavälillä suosittelen käyttämään omaa Dojoa, jotta voit taata itsemääräämisoikeutesi ja luottamuksellisuutesi.
 

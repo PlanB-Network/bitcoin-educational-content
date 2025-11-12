@@ -84,7 +84,7 @@ Ili kujua zaidi kuhusu Dojo na kujifunza jinsi ya kuisakinisha, ninakualika ufua
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Iwapo huwezi kumudu kuendesha Dojo yako mwenyewe, unaweza kupata watu walio tayari kushiriki mfano wao bila malipo kwenye [dojobay.pw](https://www.dojobay.pw/mainnet/). Hili linaweza kuwa suluhu la muda, lakini baada ya muda mrefu, ninapendekeza utumie Dojo yako ili kuhakikisha uhuru na usiri wako.
 

@@ -111,7 +111,7 @@ Whirlpool با در نظر گرفتن دو نیاز مهم طراحی شد:
 **در نهایت، نیازی به داشتن تعداد زیادی شرکت‌کننده برای CoinJoin در Whirlpool نیست زیرا ناشناس‌سازی‌ها از طریق تجمع چندین چرخه CoinJoin به دست می‌آیند.**
 
 
-[-> درباره مجموعه‌های ناشناس Whirlpool بیشتر بدانید.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> درباره مجموعه‌های ناشناس Whirlpool بیشتر بدانید.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ### استخرها و هزینه‌های CoinJoin
@@ -275,8 +275,8 @@ Whirlpool با در نظر گرفتن دو نیاز مهم طراحی شد:
 بنابراین این تکنیک برای کسانی که به دنبال حداکثر حریم خصوصی و بالاترین کیفیت چرخه‌های CoinJoin هستند، ایده‌آل است. با این حال، نیاز به داشتن یک نود Bitcoin در اختیار شما دارد و همانطور که بعداً خواهیم دید، نیاز به تنظیماتی دارد. بنابراین، بیشتر مناسب کاربران متوسط تا پیشرفته است. برای مبتدیان، توصیه می‌کنم با CoinJoin از طریق این دو آموزش دیگر آشنا شوید، که نشان می‌دهند چگونه این کار را از Sparrow wallet یا Samourai Wallet (بدون Dojo) انجام دهید:
 
 
-- [Sparrow wallet CoinJoin tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin آموزش (بدون Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Sparrow wallet CoinJoin tutorial](https://planb.academy/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin آموزش (بدون Dojo)](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### درک تنظیمات
@@ -287,7 +287,7 @@ Whirlpool با در نظر گرفتن دو نیاز مهم طراحی شد:
 برای اجرای Dojo خود، شما این گزینه را دارید که یا یک نود Dojo را به صورت مستقل نصب کنید، یا از Dojo بر روی یک راه‌حل "نود در جعبه" دیگر مانند نود Bitcoin استفاده کنید. در حال حاضر، گزینه‌های موجود عبارتند از:
 
 
-- [RoninDojo](https://ronindojo.io/)، که یک Dojo با ابزارهای اضافی از جمله دستیار نصب و دستیار مدیریت است. من روش راه‌اندازی و استفاده از RoninDojo را در این آموزش دیگر توضیح می‌دهم: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)؛
+- [RoninDojo](https://ronindojo.io/)، که یک Dojo با ابزارهای اضافی از جمله دستیار نصب و دستیار مدیریت است. من روش راه‌اندازی و استفاده از RoninDojo را در این آموزش دیگر توضیح می‌دهم: [RONINDOJO V2](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)؛
 - [Umbrel](https://umbrel.com/) با برنامه "Samourai Server"؛
 - [MyNode](https://mynodebtc.com/) با برنامه "Dojo"؛
 - [Nodl](https://www.nodl.eu/) با برنامه "Dojo"؛
@@ -412,7 +412,7 @@ passphrase خود را وارد کنید، سپس تأیید کنید که Samou
 ![coinjoin](assets/notext/24.webp)
 
 
-*برای کاربران جدید سامورایی، لازم است که یک Wallet از ابتدا ایجاد کنند. اگر به کمک نیاز دارید، می‌توانید دستورالعمل‌های راه‌اندازی یک سامورایی Wallet جدید را [در این آموزش، به‌ویژه در بخش "ایجاد یک Software Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) مشاوره کنید.*
+*برای کاربران جدید سامورایی، لازم است که یک Wallet از ابتدا ایجاد کنند. اگر به کمک نیاز دارید، می‌توانید دستورالعمل‌های راه‌اندازی یک سامورایی Wallet جدید را [در این آموزش، به‌ویژه در بخش "ایجاد یک Software Wallet"](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) مشاوره کنید.*
 
 
 اگر قصد دارید یک Samourai Wallet موجود را بازیابی کنید، گزینه `Restore existing Wallet` را انتخاب کنید، سپس گزینه `I have a Samourai backup file` را انتخاب کنید.
@@ -588,4 +588,4 @@ UTXOs ترکیبی شما از حساب **Postmix** در رابط کاربری W
 ![coinjoin](assets/notext/53.webp)
 
 
-برای پیگیری کوین‌جوین‌های خودکار خود، همچنین توصیه می‌کنم از طریق اپلیکیشن Sentinel یک Watch-only wallet راه‌اندازی کنید. ZPUB حساب **Postmix** خود را اضافه کرده و پیشرفت چرخه‌های CoinJoin خود را به صورت لحظه‌ای نظارت کنید. اگر می‌خواهید نحوه استفاده از Sentinel را درک کنید، توصیه می‌کنم این آموزش دیگر در شبکه PlanB را مشاوره کنید: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+برای پیگیری کوین‌جوین‌های خودکار خود، همچنین توصیه می‌کنم از طریق اپلیکیشن Sentinel یک Watch-only wallet راه‌اندازی کنید. ZPUB حساب **Postmix** خود را اضافه کرده و پیشرفت چرخه‌های CoinJoin خود را به صورت لحظه‌ای نظارت کنید. اگر می‌خواهید نحوه استفاده از Sentinel را درک کنید، توصیه می‌کنم این آموزش دیگر در شبکه PlanB را مشاوره کنید: [**SENTINEL WATCH-ONLY**](https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

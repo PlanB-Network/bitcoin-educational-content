@@ -84,7 +84,7 @@ Dojo cho phép ứng dụng Ashigaru của bạn tham khảo thông tin blockcha
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Nếu bạn thực sự không đủ khả năng để tự vận hành Dojo, bạn có thể tìm những người sẵn sàng chia sẻ phiên bản Dojo của họ miễn phí tại [dojobay.pw](https://www.dojobay.pw/mainnet/). Đây có thể là giải pháp tạm thời, nhưng về lâu dài, tôi khuyên bạn nên sử dụng Dojo của riêng mình để đảm bảo chủ quyền và tính bảo mật.
 

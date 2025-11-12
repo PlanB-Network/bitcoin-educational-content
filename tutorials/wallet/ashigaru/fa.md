@@ -84,7 +84,7 @@ description: fork از Samourai Wallet برای ایمن‌سازی، مدیری
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 اگر واقعاً نمی‌توانید هزینه راه‌اندازی دوجوی خود را بپردازید، می‌توانید افرادی را پیدا کنید که مایل به اشتراک‌گذاری نسخه خود به‌صورت رایگان در [dojobay.pw](https://www.dojobay.pw/mainnet/) هستند. این ممکن است یک راه‌حل موقت باشد، اما در بلندمدت، توصیه می‌کنم از دوجوی خود استفاده کنید تا حاکمیت و محرمانگی خود را تضمین کنید.
 

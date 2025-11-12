@@ -28,9 +28,9 @@ Green er et svært brukervennlig program, noe som gjør det spesielt egnet for n
 
 I denne veiledningen konsentrerer vi oss utelukkende om å opprette en portefølje som kun inneholder klokker. Hvis du vil utforske andre bruksområder for Green, kan du se våre andre dedikerte veiledninger:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Installere og konfigurere Blockstream Green-applikasjonen
 
@@ -122,5 +122,5 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-applikasjonen for å sette opp en hot wallet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 

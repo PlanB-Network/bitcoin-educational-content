@@ -20,7 +20,7 @@ Katika mafunzo haya, ningependa kukujulisha mojawapo ya suluhu bora zaidi za Sof
 Ikiwa ungependa kujua jinsi ya kutumia Blockstream Green kwenye kompyuta yako, tafadhali rejelea mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Tunawaletea Blockstream Green
 
@@ -185,7 +185,7 @@ Bitcoin Wallet yako sasa imeundwa kwa kutumia programu ya Green!
 Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana ufanye jaribio tupu la uokoaji**. Andika maelezo fulani ya marejeleo, kama vile xpub yako au kwanza kupokea Address, kisha ufute Wallet yako kwenye programu ya Green ingali tupu. Kisha jaribu kurejesha Wallet yako kwenye Green kwa kutumia nakala zako za karatasi. Hakikisha kuwa maelezo ya kidakuzi yaliyotolewa baada ya kurejesha yanalingana na uliyoandika awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika. Ili kujua zaidi kuhusu jinsi ya kufanya urejeshaji wa jaribio, tafadhali soma mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kuweka Wallet yako kwenye Blockstream Green
 

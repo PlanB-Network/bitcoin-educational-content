@@ -6,7 +6,7 @@ description: Wie man mit BTC über Bitrefill Waren und Dienstleistungen kauft?
 
 Obwohl Bitcoin heute hauptsächlich als Sparmittel betrachtet wird, bleibt es eine Währung, deren Nutzen in ihrer Fähigkeit liegt, von Hand zu Hand zu zirkulieren. Wenn Händler in Ihrer Umgebung Bitcoin als Zahlungsmethode akzeptieren, haben Sie die Möglichkeit, direkt bei ihnen damit zu bezahlen. Leider ist diese Praxis noch nicht weit verbreitet, und die meisten Händler akzeptieren BTC noch nicht nativ.
 
-Die beste Lösung bleibt, lokale Händler zu "orange pillen", um sie dazu zu bringen, Bitcoin zu akzeptieren, indem man ihnen die Vorteile dieses Systems erklärt. Sie können die Tutorials im Abschnitt ["*merchants*"](https://planb.network/tutorials/merchant) unserer Website als Unterstützung verwenden. Diese Strategie kann bei kleinen unabhängigen Händlern wirksam sein, erweist sich jedoch bei großen nationalen Ketten als komplexer, da die vor Ort anwesenden Kontakte in der Regel nicht diejenigen sind, die Entscheidungen bezüglich der Zahlungsmethoden treffen.
+Die beste Lösung bleibt, lokale Händler zu "orange pillen", um sie dazu zu bringen, Bitcoin zu akzeptieren, indem man ihnen die Vorteile dieses Systems erklärt. Sie können die Tutorials im Abschnitt ["*merchants*"](https://planb.academy/tutorials/merchant) unserer Website als Unterstützung verwenden. Diese Strategie kann bei kleinen unabhängigen Händlern wirksam sein, erweist sich jedoch bei großen nationalen Ketten als komplexer, da die vor Ort anwesenden Kontakte in der Regel nicht diejenigen sind, die Entscheidungen bezüglich der Zahlungsmethoden treffen.
 
 Während man auf eine massivere Annahme durch diese Ketten wartet, kann man seine Bitcoins über eine Zwischenzahlungsmethode ausgeben: Geschenkkarten. Und genau das bietet Bitrefill an.
 
@@ -28,9 +28,9 @@ Geben Sie eine E-Mail-Adresse ein. Wenn Sie Ihr Konto anonym halten möchten, st
 ![BITREFILL](assets/notext/05.webp)
 Wenn Sie erfahren möchten, wie Sie einfach ein sicheres E-Mail-Postfach erstellen und wie Sie Ihre Passwörter verwalten können, empfehle ich, diese 2 anderen Tutorials zu konsultieren:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klicken Sie dann auf den Button "*Konto erstellen*".
 ![BITREFILL](assets/notext/06.webp)
@@ -44,7 +44,7 @@ Und gehen Sie zum Tab "*Login & Sicherheit*".
 Im Abschnitt "*Zwei-Faktor-Authentifizierung*" klicken Sie auf den Button "*Aktivieren*" und folgen dem Einrichtungsprozess.
 Um mehr darüber zu erfahren, wie Sie die Zwei-Faktor-Authentifizierung nutzen können, um Ihre Online-Konten zu sichern, empfehle ich, dieses andere Tutorial zu entdecken:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Wie kauft man eine Geschenkkarte in BTC auf Bitrefill?
 
@@ -69,4 +69,4 @@ Und damit wissen Sie jetzt, wie Sie Ihre Bitcoins ohne KYC bei großen Einzelhä
 
 Wenn Sie zur Popularisierung von Bitcoin beitragen und einen unabhängigen Händler ermutigen möchten, diese Zahlungsmethode zu adoptieren, empfehle ich, unser komplettes Tutorial über Swiss Bitcoin Pay zu konsultieren. Es ist eine All-in-One-Lösung für BTC-Zahlungsprozessoren, einfach zu installieren und täglich zu verwalten:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

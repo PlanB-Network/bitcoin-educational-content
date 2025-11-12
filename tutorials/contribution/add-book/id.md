@@ -8,7 +8,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 **Apakah Anda ingin menambahkan buku terkait Bitcoin di situs Jaringan PlanB dan meningkatkan visibilitas karya Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!**
 ![book](assets/01.webp)
-- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) di bagian `resources/books/`:
 ![book](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu klik `Create new file`:
@@ -63,7 +63,7 @@ tags:
 - Klik tombol hijau `Propose changes`: ![book](assets/12.webp)
 - Anda kemudian akan tiba di halaman yang merangkum semua perubahan Anda: ![book](assets/13.webp)
 - Klik pada gambar profil GitHub Anda di pojok kanan atas, kemudian pada `Your Repositories`: ![book](assets/14.webp)
-- Pilih fork Anda dari repositori PlanB Network: ![book](assets/15.webp)
+- Pilih fork Anda dari repositori Plan ₿ Academy: ![book](assets/15.webp)
 - Anda seharusnya melihat notifikasi di bagian atas jendela dengan cabang baru Anda. Mungkin disebut `patch-1`. Klik padanya: ![book](assets/16.webp)
 - Anda sekarang berada di cabang kerja Anda: ![book](assets/17.webp)
 - Kembali ke folder `resources/books/` dan pilih folder buku Anda yang baru saja Anda buat dalam commit sebelumnya: ![book](assets/18.webp)
@@ -74,7 +74,7 @@ tags:
 - Biarkan judul commit sebagai default, dan pastikan kotak `Commit directly to the patch-1 branch` dicentang, kemudian klik pada `Commit changes`: ![book](assets/23.webp)
 - Kembali ke folder `assets`: ![book](assets/24.webp)
 - Klik pada tombol `Add file`, kemudian pada `Upload files`: ![book](assets/25.webp)
-- Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar sampul buku Anda ke area tersebut. Gambar ini akan ditampilkan di situs PlanB Network: ![book](assets/26.webp)
+- Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar sampul buku Anda ke area tersebut. Gambar ini akan ditampilkan di situs Plan ₿ Academy: ![book](assets/26.webp)
 - Hati-hati, gambar harus dalam format buku, untuk beradaptasi dengan baik di situs web kami, seperti contoh: ![book](assets/27.webp)
 - Setelah gambar diunggah, pastikan kotak `Commit directly to the patch-1 branch` dicentang, kemudian klik pada `Commit changes`: ![book](assets/28.webp)- Harap dicatat, gambar Anda harus dinamai `cover_en` jika sampulnya dalam bahasa Inggris dan harus dalam format `.webp`. Oleh karena itu, nama file lengkap harus `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, dll. Jika Anda ingin menggunakan gambar sampul yang berbeda untuk setiap bahasa, misalnya dalam kasus terjemahan buku, Anda dapat menempatkannya di lokasi yang sama di folder `assets`: ![book](assets/29.webp)
 - Kembali ke folder `assets` Anda dan klik pada file perantara `.gitkeep`: ![book](assets/30.webp)

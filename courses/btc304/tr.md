@@ -241,7 +241,7 @@ Bitcoin buluşmaları birçok amaca hizmet edebilir:
 
 
 
-Bu olasılıkların birçoğunu bu kursun "[Proje ve girişim örnekleri] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) başlıklı 6/8 bölümünde ayrıntılı olarak ele alacağız.
+Bu olasılıkların birçoğunu bu kursun "[Proje ve girişim örnekleri] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) başlıklı 6/8 bölümünde ayrıntılı olarak ele alacağız.
 
 
 
@@ -353,7 +353,7 @@ Bu nedenle **somut hedefler ve projeler belirlemek çok önemlidir**.
 
 
 
-Ancak, daha sonra [Proje ve girişim örnekleri] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) bölümünde göreceğimiz gibi, **bir buluşma birçok şekilde ve birçok hedefle oluşturulabilir:**
+Ancak, daha sonra [Proje ve girişim örnekleri] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) bölümünde göreceğimiz gibi, **bir buluşma birçok şekilde ve birçok hedefle oluşturulabilir:**
 
 
 
@@ -866,7 +866,7 @@ Aşağıdaki eğitimler için, başlangıçta daha gelişmiş yapılandırmaya i
 Üyelerinizin birbirleriyle doğrudan konuşabilecekleri, birbirlerine yanıt verebilecekleri vb. bir yer oluşturmak istiyorsanız, bir Telegram kanalı değil, bir Telegram grubu oluşturmak isteyebilirsiniz!
 
 
-Doğrudan [Telegram grubu oluştur] başlıklı bir sonraki bölüme gidin (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Doğrudan [Telegram grubu oluştur] başlıklı bir sonraki bölüme gidin (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter'ın kullanımı çok kolaydır ve gizliliğinizi artırmak için birkaç
 1/ **kimliğinizi tanımlayan ve sizi bulmayı kolaylaştıran @ Twitter**. Topluluğunuzun adı "Bitcoin [ŞEHİR]" ise, "@Bitcoin[ŞEHİR]" seçmeniz uygun olacaktır;
 
 
-2/ **topluluğunuz veya buluşmanız için oluşturduğunuz logo ve afiş** (bkz. [Logo, afiş ve afiş oluşturma] bölümü (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **topluluğunuz veya buluşmanız için oluşturduğunuz logo ve afiş** (bkz. [Logo, afiş ve afiş oluşturma] bölümü (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **açıklama**, topluluğunuzla ilgili temel bilgileri birkaç yüz karakterle paylaşmanıza olanak tanır. Örneğin:
@@ -1547,7 +1547,7 @@ Topluluğunuz büyüdükçe ve buluşmalar daha fazla insanı çektikçe, bunu y
 
 
 
-Bunun **daha fazla organizasyon ve daha fazla zaman gerektirdiğini** unutmayın. Neyse ki, [bu kursun 6/8. bölümünde] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), size yardımcı olacak bir dizi yeniden kullanılabilir açık kaynak bulacaksınız.
+Bunun **daha fazla organizasyon ve daha fazla zaman gerektirdiğini** unutmayın. Neyse ki, [bu kursun 6/8. bölümünde] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), size yardımcı olacak bir dizi yeniden kullanılabilir açık kaynak bulacaksınız.
 
 
 Her durumda, her şey sizin veya topluluğunuzun kendiniz için belirlediğiniz kısa, orta ve uzun vadeli eylem planına bağlıdır.
@@ -1619,7 +1619,7 @@ Etkinliği düzenleyeceğiniz yerle iletişime geçin ve tahmini katılımcı sa
 
 
     - Tarihi, saati ve yeri sosyal ağlarınızda ve diğer iletişim kanallarınızda paylaşın. Gerekirse bir kayıt bağlantısı ekleyin.
-    - Özel bir görsel oluşturun (örneğin Canva posteri, bkz. bölüm 2/8 "[Bitcoin topluluğunuz için bir kimlik tasarlama] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Özel bir görsel oluşturun (örneğin Canva posteri, bkz. bölüm 2/8 "[Bitcoin topluluğunuz için bir kimlik tasarlama] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Duyuruyu Telegram ve Twitter'da sabitleyerek ve Discord'da "@everyone" mention'ı kullanarak görünürlüğü en üst düzeye çıkarın.
     - Katılımcıların önceden plan yapabilmeleri için etkinlikten 7 ila 10 gün önce duyuruları yayınlayın.
 
@@ -1721,7 +1721,7 @@ Roma bir günde inşa edilmedi, topluluğunuz da öyle olacak. Bitcoin etrafınd
 Bunu gerçekleştirmek için bir şey çok önemlidir: **Katılımcıların ilgisini canlı tutmak**.
 
 
-Amacı düzenli olarak bir araya gelmek ve Bitcoin hakkında konuşmak olan küçük bir tutkulu bitcoinci grubuyla başlayabilir. Zaman içinde, her bir kişinin uygunluğuna ve ilgi alanlarına bağlı olarak, belirli organizasyon görevlerini grupla paylaşabilir** veya çekirdek **üyeleri belirli projeleri** üstlenmeye davet edebilirsiniz. Bunlar topluluğunuza, buluşmalarınıza veya şehrinize özgü olabilir, hatta [bu kursun 6/8. bölümünde] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) önerilen birçok girişimden esinlenilebilir. **Bu sadece çekirdek üyelerinizden Commitment'u teşvik etmekle kalmaz, aynı zamanda topluluğunuzun büyümesine ve gelişmesine de yardımcı olur.
+Amacı düzenli olarak bir araya gelmek ve Bitcoin hakkında konuşmak olan küçük bir tutkulu bitcoinci grubuyla başlayabilir. Zaman içinde, her bir kişinin uygunluğuna ve ilgi alanlarına bağlı olarak, belirli organizasyon görevlerini grupla paylaşabilir** veya çekirdek **üyeleri belirli projeleri** üstlenmeye davet edebilirsiniz. Bunlar topluluğunuza, buluşmalarınıza veya şehrinize özgü olabilir, hatta [bu kursun 6/8. bölümünde] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) önerilen birçok girişimden esinlenilebilir. **Bu sadece çekirdek üyelerinizden Commitment'u teşvik etmekle kalmaz, aynı zamanda topluluğunuzun büyümesine ve gelişmesine de yardımcı olur.
 
 
 Buluşmalarınız ilerledikçe yeni yüzler ortaya çıkacaktır: önceki döngülerde BTC ve/veya altcoin satın almış kişiler, anlayışlarını derinleştirmek isteyen teknoloji meraklıları veya koşulsuz ve güvenilir üçüncü taraflar olmadan çalışan bu sansürsüz, merkezi olmayan, şeffaf ve adil ödeme sistemini merak eden tamamen yeni başlayanlar.
@@ -1820,7 +1820,7 @@ Bu yaklaşım, güçlü eğitim değerinin ötesinde, gruplar arasında açık k
 Aşağıda 2023-2024 Fransa buluşmalarının ilerleyişi yer almaktadır. Her tema için, kendi etkinlikleriniz için ele alabileceğiniz konular hakkında size fikir verebilecek açık kaynaklı bir sunum ve bir video mevcuttur.
 
 
-Düzenlenebilir ek materyaller [Bitcoin Öğretim Araç Kutusu] (https://planb.network/fr/resources/bet) adresinde de bulunabilir!
+Düzenlenebilir ek materyaller [Bitcoin Öğretim Araç Kutusu] (https://planb.academy/fr/resources/bet) adresinde de bulunabilir!
 
 
 
@@ -2003,7 +2003,7 @@ Bu el ilanları hedef kitleye yönelik olabilir:
 Ayrıca topluluğunuza veya buluşmanıza özel olarak faaliyetlerinizi, hedeflerinizi, sosyal medya bağlantılarınızı, iletişim kanallarınızı ve yaklaşan etkinliklerinizi gösteren bir broşür de tasarlayabilirsiniz.
 
 
-Birkaç broşür halihazırda **planB.network'teki [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)**'da açık kaynak olarak mevcuttur ve zaman içinde daha fazlası eklenecektir.
+Birkaç broşür halihazırda **planB.network'teki [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)**'da açık kaynak olarak mevcuttur ve zaman içinde daha fazlası eklenecektir.
 
 
 Bir örnek, Bitcoin'yi kullanmak için 21 neden içeren [tam kaynaklı bir broşür](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin). Tasarımı da değiştirmeniz, uyarlamanız ve paylaşmanız için [açık kaynak olarak mevcuttur](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Sadece kaynaklarınızı belirtmeyi unutmayın.
@@ -2222,7 +2222,7 @@ Popüler platformlar şunlardır:
 - [**peertube**](https://joinpeertube.org/fr_FR), kurulumu daha karmaşık olsa da kendi video platformunuzu barındırmanıza olanak tanır.
 
 
-Hangisini seçerseniz seçin, kanalınızı çekici kılmak için platforma özgü görseller tasarlayın. Bölüm 2/8]'de bahsedilen Canva (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) önceden hazırlanmış, özelleştirilebilir tasarımlar içeren bir "YouTube Küçük Resmi" kategorisi sunuyor.
+Hangisini seçerseniz seçin, kanalınızı çekici kılmak için platforma özgü görseller tasarlayın. Bölüm 2/8]'de bahsedilen Canva (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) önceden hazırlanmış, özelleştirilebilir tasarımlar içeren bir "YouTube Küçük Resmi" kategorisi sunuyor.
 
 
 
@@ -2857,7 +2857,7 @@ Topluluğunuzun daha da büyümesine yardımcı olmak için, **COMMU302 kursunun
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-önümüzdeki aylarda [planb.network](https://planb.network/) adresinde yayınlanabilir.
+önümüzdeki aylarda [planb.network](https://planb.academy/) adresinde yayınlanabilir.
 
 
 Bir sonraki oturumda aşağıdaki gibi ileri düzey konular ele alınabilir:

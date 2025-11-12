@@ -1,18 +1,18 @@
 ---
 name: Cap waktu diploma jaringan Plan ₿
-description: Pahami bagaimana Plan ₿ Network menerbitkan bukti yang dapat diverifikasi untuk sertifikat dan ijazah Anda
+description: Pahami bagaimana Plan ₿ Academy menerbitkan bukti yang dapat diverifikasi untuk sertifikat dan ijazah Anda
 ---
 ![cover](assets/cover.webp)
 
-Jika Anda membaca ini, kemungkinan besar Anda akan menerima Sertifikat Bitcoin atau ijazah kelulusan untuk salah satu kursus yang Anda ikuti di Plan ₿ Network, jadi selamat atas pencapaian ini!
+Jika Anda membaca ini, kemungkinan besar Anda akan menerima Sertifikat Bitcoin atau ijazah kelulusan untuk salah satu kursus yang Anda ikuti di Plan ₿ Academy, jadi selamat atas pencapaian ini!
 
-Dalam tutorial ini, kita akan melihat bagaimana masalah Plan ₿ Network dapat diverifikasi untuk
+Dalam tutorial ini, kita akan melihat bagaimana masalah Plan ₿ Academy dapat diverifikasi untuk
 
 sertifikat Bitcoin Anda atau Sertifikat Penyelesaian Kursus. Kemudian di bagian kedua, kita akan melihat bagaimana cara memverifikasi keaslian bukti-bukti ini.
 
 # Rencana ₿ Mekanisme bukti jaringan
 
-Di Plan ₿ Network, kami menawarkan sertifikat dan ijazah yang ditandatangani secara kriptografis oleh kami, dan diberi cap waktu di Timechain (yaitu blockchain Bitcoin). Untuk mencapai hal ini, kami harus membuat mekanisme pembuktian yang mengandalkan 2 operasi kriptografi:
+Di Plan ₿ Academy, kami menawarkan sertifikat dan ijazah yang ditandatangani secara kriptografis oleh kami, dan diberi cap waktu di Timechain (yaitu blockchain Bitcoin). Untuk mencapai hal ini, kami harus membuat mekanisme pembuktian yang mengandalkan 2 operasi kriptografi:
 
 1. Tanda tangan GPG pada file teks yang mensintesis pencapaian Anda
 
@@ -24,11 +24,11 @@ Kami percaya bahwa mekanisme pembuktian yang sederhana ini memungkinkan kami unt
 
 ![image](./assets/proof-mechanism.webp)
 
-Perhatikan bahwa berkat mekanisme pembuktian ini, setiap upaya untuk mengubah detail terkecil dari sertifikat atau ijazah Anda akan membuat hash sha256 yang sama sekali berbeda dari file yang ditandatangani, yang akan langsung mengungkapkan pemalsuan karena tanda tangan dan stempel waktu tidak akan valid lagi. Selain itu, jika ada orang yang mencoba memalsukan sertifikat atau ijazah atas nama Plan ₿ Network, verifikasi tanda tangan yang sederhana akan mengungkapkan penipuan tersebut.
+Perhatikan bahwa berkat mekanisme pembuktian ini, setiap upaya untuk mengubah detail terkecil dari sertifikat atau ijazah Anda akan membuat hash sha256 yang sama sekali berbeda dari file yang ditandatangani, yang akan langsung mengungkapkan pemalsuan karena tanda tangan dan stempel waktu tidak akan valid lagi. Selain itu, jika ada orang yang mencoba memalsukan sertifikat atau ijazah atas nama Plan ₿ Academy, verifikasi tanda tangan yang sederhana akan mengungkapkan penipuan tersebut.
 
 ## Bagaimana cara kerja tanda tangan GPG?
 
-Tanda tangan GPG diperoleh dengan menggunakan perangkat lunak sumber terbuka bernama GNU Private Guard. Perangkat lunak ini memungkinkan siapa saja untuk dengan mudah membuat kunci privat, menandatangani dan memverifikasi tanda tangan, serta mengenkripsi dan mendekripsi file. Untuk cakupan tutorial ini, ketahuilah bahwa Plan ₿ Network menggunakan GPG untuk membuat kunci privat/publik dan untuk menandatangani Sertifikat Bitcoin atau Sertifikat Kelulusan Kursus.
+Tanda tangan GPG diperoleh dengan menggunakan perangkat lunak sumber terbuka bernama GNU Private Guard. Perangkat lunak ini memungkinkan siapa saja untuk dengan mudah membuat kunci privat, menandatangani dan memverifikasi tanda tangan, serta mengenkripsi dan mendekripsi file. Untuk cakupan tutorial ini, ketahuilah bahwa Plan ₿ Academy menggunakan GPG untuk membuat kunci privat/publik dan untuk menandatangani Sertifikat Bitcoin atau Sertifikat Kelulusan Kursus.
 
 Di sisi lain, jika seseorang ingin memverifikasi keaslian file yang ditandatangani, mereka dapat menggunakan GPG untuk mengimpor kunci publik dari penerbit dan memverifikasi. Pada bagian kedua dari tutorial ini, kita akan melihat bagaimana cara melakukannya dengan sebuah terminal.
 
@@ -46,7 +46,7 @@ Setelah transaksi ini berada di beberapa blok, siapa pun yang memiliki file awal
 
 ## Langkah 1. Unduh Sertifikat atau Ijazah Anda
 
-Masuk ke dasbor PBN pribadi Anda.
+Masuk ke dasbor Plan ₿ Academy pribadi Anda.
 
 ![image](./assets/login.webp)
 
@@ -70,13 +70,13 @@ Pertama, buka terminal di folder tempat file-file tersebut berada (klik kanan pa
 1. Paket Impor ₿ Kunci PGP publik jaringan dengan perintah berikut:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Anda akan melihat pesan seperti berikut ini jika Anda berhasil mengimpor Kunci PGP
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -100,7 +100,7 @@ Ini adalah contoh hasilnya:
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 Jika Anda melihat pesan seperti "Tanda tangan BAD", itu berarti file tersebut telah dirusak.
@@ -150,8 +150,8 @@ Perintah ini akan melakukannya:
 
 Perhatikan bahwa verifikasi berhasil jika pesan **kedua** berikut ini ditampilkan:
 
-1. Tanda tangan GPG dilaporkan sebagai **"Tanda tangan yang baik dari Plan ₿ Network "**
+1. Tanda tangan GPG dilaporkan sebagai **"Tanda tangan yang baik dari Plan ₿ Academy "**
 
 2. Verifikasi OpenTimestamps menunjukkan stempel waktu blok Bitcoin tertentu dan melaporkan **"Sukses! Blok Bitcoin [blockheight] membuktikan bahwa data sudah ada pada tanggal [stempel waktu]"**
 
-Sekarang setelah Anda mengetahui bagaimana Plan ₿ Network menerbitkan bukti yang dapat diverifikasi untuk setiap Sertifikat Bitcoin dan Ijazah Kelulusan Kursus, Anda dapat dengan mudah memverifikasi integritasnya.
+Sekarang setelah Anda mengetahui bagaimana Plan ₿ Academy menerbitkan bukti yang dapat diverifikasi untuk setiap Sertifikat Bitcoin dan Ijazah Kelulusan Kursus, Anda dapat dengan mudah memverifikasi integritasnya.

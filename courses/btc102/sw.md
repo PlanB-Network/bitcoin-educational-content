@@ -47,7 +47,7 @@ Karibu kwenye BTC102! Ikiwa tayari umekamilisha BTC101, umechunguza dhana muhimu
 Katika sura zilizo mbele yetu, tutakuongoza kupitia hatua za vitendo ili **kupata bitcoins zako za kwanza**, **kuzilinda** ipasavyo, na kuchukua hatua zako za kwanza kwa ujasiri katika mfumo huu wa ikolojia unaokua kwa kasi.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Ingawa Bitcoin imekuwepo kwa zaidi ya miaka 16, tasnia bado ni changa, yenye nguvu, na imejikita katika uhuru. Itifaki yake ya msingi imegawanywa kikamilifu na ni sugu kudhibitiwa na mamlaka yoyote kuu, ikiruhusu mfumo ikolojia kukua kwa njia ya asili na ya kikaboni.
 
@@ -101,7 +101,7 @@ Kufikia mwisho wa kozi hii, utakuwa na zana zote za vitendo unazohitaji ili kuso
 Je, uko tayari kuanza safari yako katika ulimwengu wa Bitcoin? Twende!
 
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.network/resources/glossary) kwa ufafanuzi.
+**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
 
 # Masharti ya kuelewa Bitcoin
 
@@ -143,9 +143,9 @@ Kabla ya kuendelea zaidi, ni muhimu kutofautisha wazi kati ya ulimwengu mbili to
 Iwapo ungependa kuelewa vyema mahali ambapo Bitcoin inatoka na ni nini kinachoifanya kuwa tofauti na miradi mingine, ninapendekeza uangalie kozi hii ya ufuatiliaji bila malipo kwenye historia ya Bitcoin baadaye:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Kama unavyojua, jukwaa la Plan ₿ Network limetolewa kwa ajili ya Bitcoin pekee. Hata hivyo, kuelewa tofauti kati ya Bitcoin na cryptocurrency nyingine kunaweza kukusaidia kuepuka mitego ya miradi isiyo na maana—na wakati mwingine hata ya ulaghai
+Kama unavyojua, jukwaa la Plan ₿ Academy limetolewa kwa ajili ya Bitcoin pekee. Hata hivyo, kuelewa tofauti kati ya Bitcoin na cryptocurrency nyingine kunaweza kukusaidia kuepuka mitego ya miradi isiyo na maana—na wakati mwingine hata ya ulaghai
 
 
 ![image](assets/sw/006.webp)
@@ -367,10 +367,10 @@ Mara tu unapoanza kuingia kwenye Bitcoin, utagundua kwa haraka kwamba usalama wa
 Sura hii inakuelekeza katika baadhi ya hatua rahisi, za vitendo ili kuboresha usafi wako wa kidijitali na kujilinda katika nafasi yako.
 
 
-Iwapo ungependa kuingia ndani zaidi, kozi ya Plan ₿ Network ya SEC101 inatoa uchanganuzi wa kina wa mikakati ya usalama wa mtandao iliyoundwa mahususi kwa watumiaji wa Bitcoin.
+Iwapo ungependa kuingia ndani zaidi, kozi ya Plan ₿ Academy ya SEC101 inatoa uchanganuzi wa kina wa mikakati ya usalama wa mtandao iliyoundwa mahususi kwa watumiaji wa Bitcoin.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Kwa Nini Usalama Mtandaoni Muhimu
 
@@ -398,7 +398,7 @@ Zaidi ya masasisho ya mfumo na ulinzi wa antivirus, jihadhari sana na kupakua pr
 Tabia nyingine nzuri ni kuthibitisha uhalisi na uadilifu wa programu yoyote kabla ya kuisakinisha kwenye mashine yako. Iwapo huna uhakika jinsi ya kufanya hivyo, usijali tuna mafunzo maalum ya kukusaidia katika mchakato huu:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Hatimaye, fanya nakala za mara kwa mara za data yako muhimu. Hifadhi ya nje ya Hard au SSD ni chaguo dhabiti kwa kuhifadhi nakala ya faili zako iwapo kutashindwa kwa ghafla, kudukuliwa au kufutwa kwa bahati mbaya. Utajishukuru baadaye.
 
@@ -406,7 +406,7 @@ Hatimaye, fanya nakala za mara kwa mara za data yako muhimu. Hifadhi ya nje ya H
 Ikiwa unapendelea suluhu za wingu, zingatia kutumia huduma salama kama Proton Drive. Hakikisha tu chaguo lolote utakalochagua linaheshimu faragha yako na linatoa usimbaji fiche thabiti.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Mkakati wa chelezo unaopendekezwa na wengi unajulikana kama kanuni ya 3-2-1. Kanuni hii imebuniwa ili kulinda data yako dhidi ya upotevu wa bahati mbaya, mashambulizi ya mtandaoni, au hata majanga ya asili.
 
@@ -446,12 +446,12 @@ Ukiwa na kidhibiti cha nenosiri, hutawahi kubofya "Umesahau nenosiri" tena au ku
 Kuna wasimamizi wengi wa nenosiri huko nje, lakini ninaweza kupendekeza chaguzi mbili thabiti kulingana na mahitaji yako. Ikiwa unatafuta kitu rahisi kutumia ambacho husawazisha bila mshono kwenye vifaa vingi, Bitwarden ni chaguo bora:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ikiwa ungependa kuweka kila kitu kwenye kifaa chako mwenyewe, KeePass ni chaguo nzuri:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: ulinzi mara mbili
 
@@ -465,7 +465,7 @@ Katika Bitcoin, wewe ni benki yako mwenyewe. Hiyo inamaanisha kuwa wewe pia ni t
 2FA huongeza safu ya pili ya ulinzi kwa kuhitaji msimbo wa wakati mmoja (kawaida tarakimu 6) unaotolewa na programu kama Google Authenticator au Authy. Hii ina maana kwamba hata kama mtu atafanikiwa kupata nenosiri lako, bado hatakuwa na uwezo wa kufikia akaunti yako bila idhini ya kufikia simu yako.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![image](assets/sw/017.webp)
 
@@ -479,7 +479,7 @@ Unapowasha 2FA, hakikisha kuwa umehifadhi ufunguo wa kurejesha programu yako mah
 Kwa wale wanaotaka kuchukua hatua zaidi za usalama, funguo halisi kama vile YubiKey hutoa ulinzi wa kiwango cha juu zaidi.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Kulinda faragha yako
 
@@ -500,12 +500,12 @@ Jambo kuu ni kuchagua mtoaji anayeaminika wa VPN ambaye:
 ![image](assets/sw/019.webp)
 
 
-Tuna mafunzo kadhaa yanayopatikana kwenye Plan ₿ Network ambayo yanaweza kukuongoza kusanidi VPN kwa urahisi. Ninapendekeza sana IPP au Mullvad:
+Tuna mafunzo kadhaa yanayopatikana kwenye Plan ₿ Academy ambayo yanaweza kukuongoza kusanidi VPN kwa urahisi. Ninapendekeza sana IPP au Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Hatua muhimu za kulinda faragha yako mtandaoni pia ni pamoja na:
 
@@ -514,21 +514,21 @@ Hatua muhimu za kulinda faragha yako mtandaoni pia ni pamoja na:
 - Kutumia vivinjari vinavyolenga faragha kama vile Firefox, Brave, au Tor (kwa kuboresha kutokujulikana);
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - Kwa kutumia **sanduku la barua salama** kama vile ProtonMail;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - **Kusimba kwa njia fiche** faili zako kwa zana kama vile Bitlocker (ya Windows) au VeraCrypt (inapatikana kwenye majukwaa mengi).
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Maendeleo ya hatua kwa hatua
 
@@ -545,7 +545,7 @@ Unapozama zaidi katika ulimwengu wa Bitcoin, utaona kwamba hatari huongezeka kad
 Kwa kifupi: usidharau usalama wa mtandao, chukua muda kusanidi mambo ya msingi, na kumbuka kwamba uthabiti ni muhimu. Bila usafi wa kidijitali, hata zana bora zaidi hazitakusaidia sana.
 
 
-Pia hakikisha kuwa umeangalia [mafunzo yetu ya usalama wa kompyuta](https://planb.network/tutorials/computer-security) kwenye Plan ₿ Network.
+Pia hakikisha kuwa umeangalia [mafunzo yetu ya usalama wa kompyuta](https://planb.academy/tutorials/computer-security) kwenye Plan ₿ Academy.
 
 
 ![image](assets/sw/020.webp)
@@ -652,7 +652,7 @@ Muhimu zaidi, usifanye maamuzi ya uwekezaji kulingana na hisia au hofu. Weka mka
 
 Ikiwa bado huna uhakika, **anza kwa kujifunza.**
 
-Tumia saa chache kuchunguza Bitcoin, angalia nyenzo zisizolipishwa kwenye Plan ₿ Network, soma vitabu kadhaa, tupa euro tano ili kujaribu tu, na utazame baadhi ya maudhui bora mtandaoni. Kaa mdadisi. Kadiri unavyopata starehe, ndivyo itakavyokuwa rahisi kurejea mkakati wako, kurekebisha mbinu yako, na kusonga mbele kwa kujiamini.
+Tumia saa chache kuchunguza Bitcoin, angalia nyenzo zisizolipishwa kwenye Plan ₿ Academy, soma vitabu kadhaa, tupa euro tano ili kujaribu tu, na utazame baadhi ya maudhui bora mtandaoni. Kaa mdadisi. Kadiri unavyopata starehe, ndivyo itakavyokuwa rahisi kurejea mkakati wako, kurekebisha mbinu yako, na kusonga mbele kwa kujiamini.
 
 
 ### Kuelewa tete ya BTC
@@ -698,7 +698,7 @@ Ili kuepuka hatari hii, inashauriwa sana kusanidi **Wallet** yako, ambapo ni wew
 Ikiwa uko tayari kuchukua umiliki wa Bitcoin yako na unataka kuzama zaidi katika mbinu bora za kulinda maneno yako ya urejeshaji, ninapendekeza sana uangalie makala haya:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Usiri na busara
 
@@ -722,7 +722,7 @@ Pia ni busara **kugawanya shughuli zako za mtandaoni**. Kwa mfano:
 Ikiwa uko tayari kuingia kwa undani zaidi mada ya faragha ya Bitcoin, tunapendekeza uendelee na Kozi yetu ya Faragha ya Mwaka wa 2, ambapo utajifunza mbinu za kina zaidi za kuweka utambulisho wako na shughuli salama:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Athari za ushuru
 
@@ -902,7 +902,7 @@ Wengi hutafsiri hili kama lengo la Bitcoin: kutoa njia ya kuhamisha thamani bila
 Ili kuongeza maarifa yako ya asili ya Bitcoin, tunatoa kozi ya mafunzo isiyolipishwa, ya kina na iliyohifadhiwa vyema kuhusu somo hili:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Mtandao uliogatuliwa wa kuhamisha thamani
 
@@ -1044,10 +1044,10 @@ Hata hivyo, baada ya zaidi ya muongo mmoja wa kuwepo, Bitcoin inaendelea kuzua m
 ![image](assets/sw/040.webp)
 
 
-Ikiwa ungependa kupanua maarifa yako zaidi, unaweza kuchukua kozi ya BTC101 kwenye Plan ₿ Network, ambayo inatoa uchunguzi wa kina zaidi wa misingi ya kiufundi na kiuchumi ya Bitcoin.
+Ikiwa ungependa kupanua maarifa yako zaidi, unaweza kuchukua kozi ya BTC101 kwenye Plan ₿ Academy, ambayo inatoa uchunguzi wa kina zaidi wa misingi ya kiufundi na kiuchumi ya Bitcoin.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Baada ya utangulizi huu wa Bitcoin (ambao huenda umechukua muda mrefu zaidi ya dakika 5!), sasa umeandaliwa vyema zaidi kufikiria kununua na kupata bitcoins. Katika sura zifuatazo za kozi, tutazama zaidi katika umuhimu wa Bitcoin, utendaji wa sekta yake, na maendeleo ya tabaka zake mbalimbali. Ifuatayo, katika sehemu inayokuja, tutajadili jinsi ya kuanzisha mpango wako wa kibinafsi.
 
@@ -1471,15 +1471,15 @@ Majukwaa haya huruhusu watumiaji kununua na kuuza bitcoins moja kwa moja na kila
 **Tahadhari:** Kwa shughuli yoyote ya kimwili, chagua eneo la umma na salama ili kuepuka ulaghai unaoweza kutokea.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Majukwaa ya Bitcoin-pekee ya Exchange**
@@ -1488,13 +1488,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Majukwaa haya huchukua mbinu ya kirafiki, ikitoa huduma rahisi na ya uwazi. Ni Bitcoin-pekee. Mara nyingi hutekeleza masuluhisho ya ununuzi wa bitcoins kupitia Wastani wa Gharama ya Dollar (DCA) na hutoa uondoaji kiotomatiki kwa Wallet ya kibinafsi. Zinafaa hasa kwa wanaoanza wanaotafuta kukusanya bitcoins kwa njia inayoendelea na salama. Mifano: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Madhumuni ya Jumla au Majukwaa ya Exchange yenye Malengo ya Biashara**
@@ -1503,13 +1503,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Majukwaa haya hutoa vipengele vya juu zaidi ya kununua tu Bitcoin, ikiwa ni pamoja na matumizi na viingilio. Walakini, tunashauri sana dhidi ya biashara. Badala yake, tunapendekeza kununua Bitcoin na kuihamishia kwenye Wallet yako mwenyewe. Uuzaji ni shughuli hatarishi na kwa ujumla haifai kwa zile zinazolenga mkusanyiko wa muda mrefu. Kukaa nje ya mchezo wa biashara mara nyingi ndio njia nadhifu.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Mifumo ya Exchange si pochi salama**. Kuacha bitcoins zako kwenye Exchange kunakuweka kwenye hatari kubwa. Matukio kadhaa yanaweza kusababisha upotezaji wa pesa zako:
 
@@ -1575,7 +1575,7 @@ Mfumo ikolojia wa Mining una wahusika kadhaa wakuu:
 Mining ni ulimwengu wake, na tabaka nyingi za kuchunguza; changamoto za kiufundi, motisha za kiuchumi, na masuala ya nishati yote yanahusika. Kwa wale wanaotaka kuchunguza eneo hili zaidi na kuelewa kwa kweli jinsi linavyofanya kazi, kozi yetu ya MIN201 inakupitisha kila kitu unachohitaji kujua.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Maendeleo katika mfumo wa ikolojia wa Bitcoin
 
@@ -1611,7 +1611,7 @@ Hata kama mtunza huduma angeidhinisha mabadiliko yenye utata, hayataathiri mtand
 Inafaa pia kuzingatia kuwa **Bitcoin Core sio mteja pekee **. Njia mbadala kama vile Bitcoin Knots hutekeleza itifaki ya Bitcoin pia, ikiwapa watumiaji chaguo zaidi na kuimarisha ugatuaji wa mfumo:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Usanifu wa Tabaka wa Bitcoin
 
@@ -1652,7 +1652,7 @@ Hebu sema unanunua kahawa na Bitcoin kwa kutumia msingi wa Layer. Ili malipo yat
 Ikiwa ungependa kujifunza zaidi kuhusu jinsi Lightning Network inavyofanya kazi, tunatoa kozi bora ya mwaka wa pili inayohusu mada hii.
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - **Sidechains**:
@@ -1669,7 +1669,7 @@ Dhana ya Sidechains ilianzishwa mwaka 2014 na Adam Back, Matt Corallo, Luke Dash
 Ikiwa ungependa kuchunguza Liquid kwa undani zaidi, tunatoa kozi ya juu ya mwaka wa tatu juu ya mada:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **RGB**:
@@ -1687,7 +1687,7 @@ Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa
 Ili kuongeza ujuzi wako wa RGB, tunatoa kozi ya mafunzo ya mwaka wa nne (tafadhali kumbuka kuwa ni ya kiufundi sana):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB ni mojawapo tu ya itifaki nyingi zilizojengwa juu ya Bitcoin. Wakati zingine zimepitishwa zaidi kuliko zingine, mpya zinaendelea kuibuka. Uzi wa kawaida ni wazo la kuboresha kila Layer kwa kazi maalum, huku tukihifadhi uadilifu na kutobadilika kwa itifaki ya msingi ya Bitcoin.
 
@@ -1710,17 +1710,17 @@ Leo, kuna zana nyingi zinazopatikana kwa wafanyabiashara wanaotaka kukubali Bitc
 Iwapo unapendelea suluhisho la kughairi na unataka kupokea sarafu ya fiat moja kwa moja kwenye akaunti yako ya benki, huduma za uhifadhi kama OpenNode hutoa matumizi yaliyoratibiwa:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kwa wafanyabiashara ambao wana mwelekeo wa kiufundi zaidi na wanataka udhibiti kamili wa mchakato, Seva ya BTCPay ni chaguo bora la chanzo huria. Kikwazo kikuu ni kwamba inahitaji muda wa kuanzisha na kudumisha, pamoja na ujuzi fulani wa kiufundi:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Mahali pengine katikati, utapata Uswizi Bitcoin Pay, suluhu inayomfaa mtumiaji lakini yenye nguvu ambayo inaleta uwiano mzuri kati ya urahisi wa kutumia, utendakazi na usalama. Inafanya kazi vizuri kwa wauzaji wadogo na biashara kubwa:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Kukubali Bitcoin kunaweza kuleta manufaa kadhaa ya kiutendaji na kifedha kwa biashara. Kama vile pesa taslimu, Bitcoin inaruhusu malipo ya moja kwa moja kati ya mteja na mfanyabiashara (hakuna haja ya benki ya kawaida). Malipo yanayofanywa kupitia Lightning Network ni ya papo hapo na ya mwisho, hivyo kupunguza hatari ya urejeshaji malipo. Na wafanyabiashara wanaposhikilia Bitcoin (kujitunza), wanapata uhuru mkubwa wa kifedha.
 
@@ -1740,7 +1740,7 @@ Zaidi ya hayo, kukubali Bitcoin inaweza kuwa hatua nzuri ya uuzaji. Inaonyesha b
 Iwapo ungependa kuchunguza jinsi Bitcoin inavyoweza kuunganishwa katika biashara yako (iwe kama njia ya malipo, mali ya hazina, au zote mbili) tunatoa kozi ya kiwango cha wanaoanza inayolenga mahitaji hayo:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin inaimarika kama kati ya Exchange, huku kupitishwa kwa matumizi katika tasnia nyingi. Lightning Network imefanya malipo kwa haraka na nafuu, na hivyo kuongeza mvuto wa Bitcoin kwa wafanyabiashara.
 
@@ -2067,7 +2067,7 @@ Ikiwa Hot Wallet yako itakusanya bitcoins nyingi sana, unaweza kuhamisha baadhi 
 Mwishowe, usalama hutegemea sana jinsi unavyotumia zana. Hardware Wallet haitakufaa sana ikiwa utapoteza, kufichua, au kuhatarisha maneno ya Mnemonic. Tahadhari na nidhamu ni ulinzi wako bora dhidi ya kupoteza bitcoins. Kwa zaidi juu ya hili, napendekeza sana kusoma nakala hii:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Mbinu za Kupata na Kiasi cha Muamala
 
@@ -2126,7 +2126,7 @@ Kununua Bitcoin bila kufichua utambulisho wako ni chaguo kwa wale wanaotanguliza
 - **P2P Platforms**: Mifumo kama vile Bisq, RoboSats na Peach huwezesha ubadilishanaji kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, kwa kutumia mifumo ya escrow kupata miamala. Mitandao hii bado ina hatari ya wizi ikiwa mhusika mwingine hatatoa ushirikiano, lakini hatari hiyo hupunguzwa na huduma za escrow.
 - **Mashine Zinazojiendesha za Bitcoin (ATM)**: Baadhi ya ATM (vioski) hukuruhusu kununua Bitcoin kwa pesa taslimu, ingawa ada huwa kubwa, na zingine zinahitaji uthibitishaji wa kitambulisho kwa miamala mikubwa.
 - **Mifumo ya Exchange isiyo na KYC**: Baadhi ya mifumo, hasa nchini Uswisi, inakuwezesha kununua kiasi kidogo cha Bitcoin bila kuhitaji uthibitishaji wa kitambulisho.
-- **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.network/tutorials/mining).
+- **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.academy/tutorials/mining).
 - **Malipo / Mshahara katika bitcoins**: Ikiwa unafanya biashara, unaweza kukubali Bitcoin kama malipo. Ikiwa umeajiriwa, kulingana na eneo la mamlaka lako, unaweza kuomba ulipwe katika Bitcoin. Njia hizi hukuruhusu kupata Bitcoin bila KYC.
 
 
@@ -2294,22 +2294,22 @@ Kitu cha kwanza na cha muhimu zaidi ni usalama. Hardware Wallet ni ya lazima—h
 Hapa kuna mafunzo kadhaa ya pochi ambayo ni nzuri kwa washikaji:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Mara tu Wallet yako inapowekwa, hakikisha umehifadhi nakala ya maneno yako ya urejeshaji (kifungu cha maneno 12 au 24) kwenye nyenzo inayodumu. Ili kuelewa vyema jinsi ya kuchagua kifungu chako cha maneno, fuata mafunzo haya:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Kwa amani ya ziada ya akili, unaweza kuongeza tabaka za ulinzi kama vile:
 
@@ -2317,13 +2317,13 @@ Kwa amani ya ziada ya akili, unaweza kuongeza tabaka za ulinzi kama vile:
 - Wallet yenye saini nyingi iliyo na kifunga saa:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/sw/076.webp)
 
@@ -2338,13 +2338,13 @@ Hodler kamwe hawaachi sarafu zao kwenye exchange. Majukwaa yanaweza kudukuliwa, 
 Hodler kamwe hawaachi sarafu zao kwenye kubadilishana. Majukwaa yanaweza kudukuliwa, kufilisika, au kukamatwa. Mara tu unaponunua, sogeza Bitcoin yako moja kwa moja hadi kwenye Hardware Wallet yako.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![image](assets/sw/077.webp)
 
@@ -2389,7 +2389,7 @@ Mbinu chache bora:
 Ili kufuatilia umiliki wako bila kuhatarisha funguo zako za faragha, zingatia kutumia Watch-only Wallet. Aina hii ya pochi hukuruhusu kufuatilia salio na miamala kwa kutumia funguo zako za umma pekee.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Mbinu ya mshikaji ni rahisi lakini yenye nguvu: nunua, tunza kwa usalama, kisha sahau. Changamoto halisi si ya kiufundi—bali ni ya kisaikolojia. Sehemu ngumu zaidi ni kupinga hamu ya kuuza mapema sana au kuzidiwa na hofu wakati wa kushuka kwa bei. Lakini ukiwa na nidhamu na mtazamo wa muda mrefu, hodling imeonekana kuwa njia ya kuaminika ya kuhifadhi thamani na kujenga utajiri kadri muda unavyopita.
 
@@ -2476,38 +2476,38 @@ Staka inahitaji usanidi wa Wallet unaosawazisha urahisi wa kutumia na usalama wa
 - **Hot Wallet**: Inafaa kwa wanaoanza, pochi za rununu au za mezani hukuruhusu kupokea Sats kwa urahisi na kufanya malipo. Hata hivyo, zinafaa zaidi kwa kiasi kidogo. Pochi za On-Chain zinapendekezwa kwa kurundikana juu ya pochi za Radi kutokana na usimamizi bora wa UTXO. Pochi za programu zinazopendekezwa: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - **Hardware Wallet**: Kadiri umiliki wako wa Bitcoin unavyokua, kupata pesa zako kwa Cold Wallet ni muhimu ili kupunguza hatari ya wizi. Staka kubwa huhamisha pesa mara kwa mara kutoka kwa Hot Wallet hadi Hardware Wallet. Mifano: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Njia ya ufanisi zaidi ni kutumia zote mbili: Hot Wallet kwa stacking ya kila siku na Hardware Wallet kwa hifadhi ya muda mrefu ya Cold. Hot Wallet ni rahisi na rahisi kutumia. Inakuruhusu kumiliki bitcoins zako haraka, badala ya kuziacha kwenye jukwaa ambapo zinaweza kukabiliwa na hatari. Walakini, ikilinganishwa na Hardware Wallet, Hot Wallet inatoa usalama mdogo sana. Kwa hivyo mpangaji lazima ahamishe fedha zake mara kwa mara kwa Cold Wallet yake ili kupata akiba yake ya muda mrefu na kuepuka kuweka fedha nyingi katika Hot Wallet. Mara kwa mara, stacker huunganisha UTXO wakati wa kuhamisha kwenye hifadhi ya Cold; kuunganisha pembejeo ndogo ili kuboresha ada za muamala za siku zijazo.
 
@@ -2535,37 +2535,37 @@ Kisha, una chaguo mbili za kusanidi DCA yako: kuiendesha kiotomatiki au kuisimam
 Mifano ya majukwaa ya DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 Ubadilishanaji mkuu unaounga mkono DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Vibandiko vinaweza pia kutaka kuboresha faragha yao, hata kama si lengo lao kuu. Katika hali hii, wanapaswa kuzingatia kutumia mbinu ya kupata P2P, nje ya majukwaa yaliyodhibitiwa. Tofauti na ununuzi wa kiotomatiki wa DCA, mbinu hizi zinahitaji udhibiti mkakati wako wa ununuzi wewe mwenyewe, kwa hivyo nidhamu ni muhimu ili uendelee kufuata utaratibu.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Kutoa na kupata bitcoins
 
@@ -2595,7 +2595,7 @@ Tabia kuu:
 Kwa ufuatiliaji rahisi bila kuhatarisha usalama, weka Watch-only wallet ili kufuatilia salio kwa kutumia ufunguo wa umma.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Tathmini wasifu wako wa stacker
 
@@ -2689,53 +2689,53 @@ Watumiaji amilifu wanapaswa kutumia aina mbili tofauti za pochi kusawazisha usal
 - Cold Wallet (Hardware Wallet) ili kupata akiba ya muda mrefu.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - Pochi moja au zaidi ya simu ya Hot kwa shughuli za kila siku. Kwa kawaida, mtumiaji anayetumika atakuwa na On-Chain Hot Wallet na Umeme Wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Kutenganisha pesa zako kwa njia hii husaidia kupunguza hatari iwapo Wallet inayotumika kwa malipo ya kila siku itaathiriwa.
 
@@ -2746,22 +2746,22 @@ Kutenganisha pesa zako kwa njia hii husaidia kupunguza hatari iwapo Wallet inayo
 Watumiaji amilifu mara nyingi hulenga kupunguza utegemezi wao kwa watu wengine wanaoaminika, kulingana na hali zao za kibinafsi. Mojawapo ya njia bora zaidi za kufikia hili ni kwa kuendesha nodi zao za Bitcoin. Hii inawaruhusu kutumia mtandao kwa kujitegemea huku wakiboresha ufaragha wa miamala yao.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 Kwa wale wanaotumia Lightning Network mara kwa mara, kudhibiti eneo lao la LND, LDK, au Core-Lightning inaweza kuwa hatua nzuri. Inawapa udhibiti kamili juu ya kufungua na kufunga njia, huongeza uhuru wa kibinafsi, na inaweza hata kusaidia ada za chini za ununuzi; haswa inapolinganishwa na suluhu za kiotomatiki kama vile Phoenix, au mbaya zaidi, pochi za Umeme zilizohifadhiwa.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Upataji wa Bitcoin wa Kawaida
 
@@ -2779,45 +2779,45 @@ Kuna njia kadhaa za kupata Bitcoin, kulingana na kiwango cha faragha unachotafut
 - **Ununuzi wa kawaida kupitia mifumo inayodhibitiwa** kama vile Bitfinex au Bull Bitcoin (inafaa kwa kuongeza Cold Wallet yako);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Upataji wa zisizo za KYC** kupitia huduma za programu-rika-kwa-rika kama vile Peach, Robosats, au ATM za Bitcoin; kukuruhusu kuongeza kwenye Wallet yako bila kufichua maelezo ya kibinafsi.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Kupata mapato katika Bitcoin**, Kuwa mtumiaji hai si tu kuhusu kutumia BTC; pia ni kuhusu kuipata. Ikiwa unafanya biashara, zingatia kukubali Bitcoin kama malipo. Ikiwa wewe ni mfanyakazi, angalia ikiwa mwajiri wako anakupa chaguo la kupokea mshahara wako wote au sehemu katika BTC.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![image](assets/sw/089.webp)
 
@@ -2837,7 +2837,7 @@ Ili kurahisisha matumizi ya Bitcoin, kuna zana nyingi zinazopatikana, kama vile 
 Kwa kuwa bado tupo katika awamu ya mpito ambapo si wafanyabiashara wote wa kila siku wanakubali BTC, kuna baadhi ya njia rahisi lakini zenye ufanisi za kutumia Bitcoin. Kwa mfano, kununua kadi za zawadi kwa kutumia Bitcoin ni suluhisho la vitendo. Watoa huduma wengi kama Bitrefill, Coinsbee, na The Bitcoin Company hutoa huduma hii.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Uelewa wa Kiteknolojia na Kubadilika
 
@@ -2931,21 +2931,21 @@ Mtumiaji mbishi huwa hachanganyi pesa kulingana na asili au matumizi. Badala yak
 - **Cold Wallet (iliyo na nafasi ya hewa na/au DIY)** Malipo ya muda mrefu huhifadhiwa katika pochi zilizo salama sana, zisizo na hewa au DIY. Hivi kwa kawaida ni vifaa vya programu huria au vile vilivyo na msimbo unaoweza kuthibitishwa, kama vile Jade, Coldcard, SeedSigner, Portal au Pasipoti... Wakati wowote inapowezekana, watapata vifaa hivi bila kujulikana; ama kwa kulipa pesa taslimu au kutumia Bitcoin kwenye duka halisi, au kwa kuagiza mtandaoni ukitumia chaguo za usafirishaji wa busara na malipo ya BTC. Nchini Ufaransa, kwa mfano, [Bitcoin Bazar](https://bitcoinbazar.fr/) ni moja ya duka kama hilo. Unaweza kutafuta watoa huduma sawa katika eneo Kwao, kila hatua ni ya msingi. Kila muamala, kila usanidi wa Wallet, na kila mwingiliano na mtandao huzingatiwa kwa umakini mkubwa. Kuteleza mara moja kunaweza kufichua taarifa nyeti zinazoweza kuunganisha utambulisho wao na mali zao za Bitcoin. Lengo lao kuu? Kutumia Bitcoin kwa njia inayolinda faragha ya utambulisho wao, eneo, na hali yao ya kifedha kikamilifu..
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - **Hot Wallet kwa ajili ya shughuli za kila siku**, Kwa matumizi ya kawaida, watumiaji wasio na akili huchagua pochi zinazolenga faragha kama vile Ashigaru, Wasabi Wallet au Sparrow wallet. Pochi hizi zinaauni vipengele vya kina kama vile: miamala ya matumizi ya mini-CoinJoin, viungo vya malipo, zana zinazowezekana za CoinJoin, udhibiti wa sarafu, kuweka lebo kwa UTXO, au uwezo wa kuunganisha kupitia nodi yako ya Bitcoin.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![image](assets/sw/093.webp)
 
@@ -2955,23 +2955,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Kuendesha nodi zao za **Bitcoin ** ni muhimu. Inahakikisha udhibiti kamili wa utangazaji wa shughuli na inaepuka kutegemea miundombinu ya watu wengine. Pia hulinda faragha, huzuia udhibiti, na huwaruhusu wathibitishe kwa uhuru sheria za itifaki ya Bitcoin. Iwe kwenye Linux, Windows, macOS, au kupitia usanidi wa programu-jalizi-na-kucheza kama vile RaspiBlitz, myNode, au Start9, mtumiaji mwenye dhana potofu huchukulia nodi yake kama nguzo isiyoweza kujadiliwa ya uhuru.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - Ili kufanya miamala juu ya **Lightning Network** huku wakiweka kiwango sawa cha udhibiti na busara, pia wanaendesha nodi zao za Umeme. Hii inawaruhusu kudhibiti vituo moja kwa moja na kutumia kwa njia ambayo inapunguza ufuatiliaji au utegemezi kwa huduma za ulezi.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![image](assets/sw/094.webp)
 
@@ -2979,19 +2979,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Usalama hauishii hapo. Kwa kucheleza misemo ya seed, mtumiaji wa paranoid hutumia chelezo za chuma pamoja na bahasha zilizofungwa zinazoonekana kuharibika. Wao huthibitisha mara kwa mara kuwa chelezo husalia bila kuathiriwa na hujaribu taratibu za kurejesha Wallet ili kuwa tayari kwa dharura yoyote.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Linapokuja suala la kupata akiba, wanaweza kutekeleza usanidi wa hali ya juu zaidi kama vile pochi zenye saini nyingi (zilizo na au bila kufuli za saa).
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Mipangilio hii hupunguza hatari. Kuongeza BIP39 passphrase kwa maneno ya seed huongeza safu nyingine ya ulinzi (security layer), na kuhakikisha kwamba ufikiaji wa pesa zao hauwezi kuathiriwa na ugunduzi mmoja tu.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Bitcoiner mwenye wasiwasi mkubwa (paranoid) bila shaka atakuwa na mpango wa urithi uliofikiria kwa makini kwa ajili ya bitcoins zake. Mada hii muhimu itajadiliwa kwa kina katika sehemu inayofuata ya kozi.
 
@@ -3003,50 +3003,50 @@ Kwa upana zaidi, aina hii ya mtumiaji hutumia mbinu za hali ya juu zinazolenga f
 - **Mifumo ya uendeshaji**, kwenye simu zao na kompyuta zao;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **Zana za uthibitishaji** ;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - **Zana za mawasiliano**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - **Zana za usimamizi wa data**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 Ikiwa ungependa kujua zaidi kuhusu somo la usalama wa TEHAMA, tunatoa kozi kamili ya mwaka wa kwanza inayohusu mada hii:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Kununua bitcoins bila kujulikana
 
@@ -3058,21 +3058,21 @@ Kanuni ya msingi kwa mwekezaji mbishi ni kupata Bitcoin bila kuiunganisha na uta
 - Majukwaa ya ununuzi wa P2P kama Bisq, Robosat, LNP2PBot, Peach, HODL HODL, n.k.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Biashara ya pesa taslimu**, kwa mfano katika mikutano ya ndani ya Bitcoin;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - **ATM za Bitcoin**;
@@ -3080,11 +3080,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - **Mining bitcoins **.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Ubadilishanaji wa kati huepukwa kabisa kutokana na hatari zinazosababisha; kwa faragha na kwa udhibiti unaowezekana au utekaji nyara.
 
@@ -3112,7 +3112,7 @@ Pia wanafahamu misingi ya ufuatiliaji wa Blockchain na wanajua jinsi makampuni y
 Kwa wale wanaotaka kuingia zaidi katika On-Chain ya faragha na upinzani wa ufuatiliaji, tunatoa mafunzo ya kina ya mwaka wa pili kuhusu desturi za faragha za Bitcoin:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Kukaa macho na kusasisha mkakati wao
 
@@ -3487,7 +3487,7 @@ Ikihitajika, wasiliana na wakili au mthibitishaji ili kujumuisha rasmi mpango wa
 **Hongera!** Umekamilisha hatua muhimu katika kupata utajiri wako wa Bitcoin. Sasa unaweza kuboresha mpango wako wa urithi kwa kuukagua mara kwa mara na kugundua masuluhisho ya hali ya juu zaidi kama vile kupunguza usanidi wa Multisig kwa kufunga saa:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Rejelea: [*Upangaji wa Urithi wa Cryptoasset, Mwongozo Rahisi kwa Wamiliki* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3578,39 +3578,39 @@ Safari yako haiishii hapa. Bitcoin ni ulimwengu unaoendelea kubadilika, na daima
 - Ili kuongeza usalama wako dijitali, anza na kozi yetu ya utangulizi ya usalama:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Ikiwa umevutiwa na upande wa kiuchumi na kifalsafa wa Bitcoin, angalia kozi hizi za kina:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Wamiliki wa biashara wanaotaka kujumuisha Bitcoin katika mkakati wa kampuni yao hawapaswi kukosa:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Ili kugundua hadithi ya kuvutia ya kuundwa kwa Bitcoin na miaka ya mwanzo ya mfumo, ninapendekeza sana kozi hii:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - Hatimaye, ikiwa una hamu ya kutaka kujua vipengele vya kiufundi vya Bitcoin na mfumo wake wa ikolojia, chunguza kozi hizi za mafunzo:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Changia kwa mfumo wa ikolojia wa Bitcoin
 
@@ -3624,7 +3624,7 @@ Bitcoin ni zaidi ya chombo cha kifedha; ni harakati. Kulingana na ujuzi wako na 
 - **Jiunge na jumuiya ya karibu**: Shiriki katika matukio, mikutano na vikao ili kukutana na washikaji bitcoin wengine na maoni ya Exchange kuhusu maendeleo mapya.
 
 
-Ikiwa ungependa kusaidia kuelimisha wengine, Plan ₿ Network inatafuta wachangiaji kila wakati! Maudhui yetu yote ya elimu ni chanzo huria na yamepangishwa kwenye GitHub. Tunakaribisha wachangiaji kusaidia kusahihisha na kutafsiri maudhui katika lugha mbalimbali; katika Exchange kwa Sats chache! Iwe sasa au baadaye katika safari yako ya Bitcoin, umealikwa kujiunga na [kundi letu la Telegram kwa wachangiaji](https://t.me/PlanBNetwork_ContentBuilder) la Plan ₿ Network.
+Ikiwa ungependa kusaidia kuelimisha wengine, Plan ₿ Academy inatafuta wachangiaji kila wakati! Maudhui yetu yote ya elimu ni chanzo huria na yamepangishwa kwenye GitHub. Tunakaribisha wachangiaji kusaidia kusahihisha na kutafsiri maudhui katika lugha mbalimbali; katika Exchange kwa Sats chache! Iwe sasa au baadaye katika safari yako ya Bitcoin, umealikwa kujiunga na [kundi letu la Telegram kwa wachangiaji](https://t.me/PlanBNetwork_ContentBuilder) la Plan ₿ Academy.
 
 
 ### Maneno ya mwisho
@@ -3633,7 +3633,7 @@ Ikiwa ungependa kusaidia kuelimisha wengine, Plan ₿ Network inatafuta wachangi
 Asante sana kwa kuchukua kozi ya BTC102.
 
 
-Jina langu ni Rogzy, mwanzilishi wa Découvre Bitcoin na mwanzilishi mwenza wa Plan ₿ Network; jukwaa lililowezeshwa na washirika wetu wapya wa ajabu, Tether na Fulgur Ventures, na kwa dhamira yetu ya pamoja ya kuelimisha watu wengi iwezekanavyo kuhusu Bitcoin.
+Jina langu ni Rogzy, mwanzilishi wa Découvre Bitcoin na mwanzilishi mwenza wa Plan ₿ Academy; jukwaa lililowezeshwa na washirika wetu wapya wa ajabu, Tether na Fulgur Ventures, na kwa dhamira yetu ya pamoja ya kuelimisha watu wengi iwezekanavyo kuhusu Bitcoin.
 
 
 Maoni yako ni ya thamani sana. Jisikie huru kuacha maoni kwenye jukwaa na utufahamishe ulichofikiria kuhusu toleo hili lililosasishwa la kozi. Mapendekezo yako hutusaidia kuendelea kuboresha ubora wa maudhui yetu.
@@ -3645,7 +3645,7 @@ Sasa uko tayari kufanya mtihani wa mwisho; mtihani wa maswali 40 ambao utathibit
 Bahati nzuri!
 
 
-Natumaini kukuona tena hivi karibuni katika kozi nyingine ndani ya Plan ₿ Network — iwe ni kozi yangu au ya mwalimu mwingine mahiri kutoka katika jamii hii. Na nani ajuaye? Huenda tukakutana ana kwa ana kwenye mkutano, tukio, au kongamano la Bitcoin.
+Natumaini kukuona tena hivi karibuni katika kozi nyingine ndani ya Plan ₿ Academy — iwe ni kozi yangu au ya mwalimu mwingine mahiri kutoka katika jamii hii. Na nani ajuaye? Huenda tukakutana ana kwa ana kwenye mkutano, tukio, au kongamano la Bitcoin.
 
 
 Kwa mara nyingine tena, hongera kwa jinsi ulivyofikia. Na kumbuka; lengo langu la msingi daima litabaki sawa:

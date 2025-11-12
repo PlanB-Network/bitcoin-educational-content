@@ -16,7 +16,7 @@ PlanB의 사명은 Bitcoin에 대한 최고 수준의 교육 리소스를 가능
 - 먼저 GitHub에 계정이 있어야 합니다. 계정을 만드는 방법을 모르는 경우 자세한 튜토리얼을 만들어 안내해 드립니다.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -118,7 +118,7 @@ tags:
 아직 조직의 "*프로젝트*" 식별자가 없는 경우 이 다른 튜토리얼을 따라 추가할 수 있습니다.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -261,7 +261,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 축하합니다! PR이 성공적으로 생성되었습니다. 이제 관리자가 확인하고 모든 것이 정상이면 PlanB Network의 메인 리포지토리에 병합합니다. 며칠 후 웹사이트에 이벤트가 표시될 것입니다.
 
 
-PR의 진행 상황을 반드시 확인하세요. 관리자가 추가 정보를 요청하는 댓글을 남길 수 있습니다. PR이 검증되지 않은 경우, PlanB Network GitHub 리포지토리의 '풀 리퀘스트' 탭에서 확인할 수 있습니다:
+PR의 진행 상황을 반드시 확인하세요. 관리자가 추가 정보를 요청하는 댓글을 남길 수 있습니다. PR이 검증되지 않은 경우, Plan ₿ Academy GitHub 리포지토리의 '풀 리퀘스트' 탭에서 확인할 수 있습니다:
 
 ![event](assets/38.webp)
 

@@ -1,21 +1,19 @@
 ---
-name: Nghiên cứu về Siêu lạm phát
+name: Các nghiên cứu tình huống về siêu lạm phát
 goal: Hiểu biết về sự xuất hiện các đợt siêu lạm phát trong thế giới tiền pháp định và hậu quả của chúng.
 objectives:
-  - Nghiên cứu các chu kỳ siêu lạm phát
-  - Hiểu rõ tác động thực sự của siêu lạm phát đối với cuộc sống hàng ngày của người dân
-  - Nghiên cứu sự tương đồng của các đợt siêu lạm phát qua các thời kỳ
-  - Ý tưởng chi tiết về cách bảo vệ bản thân khỏi siêu lạm phát
+- Nghiên cứu các chu kỳ siêu lạm phát
+- Hiểu rõ tác động thực sự của siêu lạm phát đối với cuộc sống hàng ngày của người dân
+- Nghiên cứu sự tương đồng của các đợt siêu lạm phát qua các thời kỳ
+- Ý tưởng chi tiết về cách bảo vệ bản thân khỏi siêu lạm phát
 ---
+# Hành Trình Qua Sự Sụp Đổ Kinh Tế
 
-# Hành trình tìm hiểu về nền kinh tế
+Nó trông như thế nào khi tiền mất đi ý nghĩa của nó?
+Khóa học này hướng dẫn bạn qua thế giới hấp dẫn nhưng nghiêm túc của siêu lạm phát. Bạn sẽ khám phá các giai đoạn lịch sử và các trường hợp hiện đại khi đồng tiền sụp đổ và nền kinh tế biến đổi chỉ trong một đêm. Bạn sẽ khám phá các mô hình, nguyên nhân và tác động thực tế đến người dân thường, có được cái nhìn sâu sắc về một trong những hiện tượng kịch tính nhất của kinh tế học.
 
-Khoá học này nhằm mang đến một hiểu biết sâu sắc về sự xuất hiện của các đợt siêu lạm phát trong một thế giới được thống trị bởi tiền pháp định và xem xét những hậu quả to lớn của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ siêu lạm phát, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ trong lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của siêu lạm phát đối với nền kinh tế và cuộc sống hàng ngày của người dân, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và các khoản tiết kiệm của cá nhân và tập thể.
-
-Tại đây, chúng ta sẽ nêu bật xu hướng và mô hình chung của các đợt siêu lạm phát trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ siêu lạm phát. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để bình tĩnh vượt qua những khó khăn trong một bối cảnh kinh tế không ổn định.
-
+Trong suốt hành trình, bạn cũng sẽ khám phá cách các cá nhân và cộng đồng đã vượt qua những giai đoạn hỗn loạn này. Tìm hiểu các chiến lược đã giúp bảo vệ tài sản trong các cuộc khủng hoảng tiền tệ và xây dựng sự hiểu biết sâu sắc hơn về khả năng phục hồi tài chính. Nếu bạn tò mò về các lực lượng kinh tế định hình thế giới của chúng ta, hành trình này mang đến cả kiến thức và góc nhìn thực tế.
 +++
-
 # Giới thiệu
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
@@ -926,7 +924,7 @@ Thông điệp chính ở đây là có nhiều chiến lược để vượt qu
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[Khám phá bộ sưu tập đã quét trong *Bitcoin Educational Toolkit* (cũng có thể truy cập từ phần *Tài nguyên* của nền tảng Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Khám phá bộ sưu tập đã quét trong *Bitcoin Educational Toolkit* (cũng có thể truy cập từ phần *Tài nguyên* của nền tảng Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![hình ảnh](assets/vi/068.webp)
 # Chúng ta đã đến đây như thế nào?

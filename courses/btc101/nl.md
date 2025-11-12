@@ -83,7 +83,7 @@ Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier
 
 Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.network/resources/glossary) voor definities.
+**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
 
 ## De Voorgeschiedenis Van Bitcoin
 
@@ -140,7 +140,7 @@ Maar is Bitcoin "echt" geld? Om dit te begrijpen, moeten we eerst het concept va
 
 Als je de geschiedenis van Bitcoin in meer detail wilt verkennen, raden we je onze HIS 201-cursus aan, waarin je de oorsprong en de geleidelijke opkomst van Bitcoin ontdekt, evenals het begin van zijn geschiedenis en gemeenschap. Deze cursus is volledig gedocumenteerd en voorzien van bronnen, met natuurlijk veel anekdotes:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Geld
 
@@ -259,7 +259,7 @@ We kunnen dit hoofdstuk afsluiten met een citaat van Nobelprijswinnaar F.A Hayek
 
 Om meer te leren over economische drogredenen en vrijheid, nodigen we je uit om onze ECO 102-cursus te ontdekken. Deze cursus beschrijft het leven en de ideeën van Frédéric Bastiat, een 19e-eeuwse Franse denker die de opkomst van Bitcoin zeker zou hebben gewaardeerd:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflatie
 
@@ -346,7 +346,7 @@ Een valuta die afhankelijk is van een vertrouwde derde partij zoals een financi�
 
 Om dieper in te gaan op het onderwerp hyperinflatie, raden we je de ECO 204-cursus van David St-Onge aan, waarin je leert wat hyperinflatoire cycli zijn en wat hun werkelijke impact is op ons leven. Je zult ook de overeenkomsten tussen deze cycli ontdekken en, nog belangrijker, hoe je jezelf ertegen kunt beschermen.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 miljoen bitcoins
 
@@ -391,7 +391,7 @@ Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloon
 | 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
 | 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 
@@ -501,11 +501,11 @@ Wat als iemand per ongeluk onze lijst van 12 of 24 woorden raadt? Het korte antw
 
 De kans dat je Bitcoin wallet gehackt wordt is dus astronomisch klein als je de goede beveiligingspraktijken volgt die we in het volgende hoofdstuk zullen beschrijven.
 
-Kies de juiste wallet voor jouw behoeften en gebruik: gedetailleerde tutorials over het beheren en beveiligen van verschillende wallets zijn beschikbaar in de [tutorialsectie van onze universiteit](https://planb.network/tutorials/wallet).
+Kies de juiste wallet voor jouw behoeften en gebruik: gedetailleerde tutorials over het beheren en beveiligen van verschillende wallets zijn beschikbaar in de [tutorialsectie van onze universiteit](https://planb.academy/tutorials/wallet).
 
 Als je tijdens je reis door het konijnenhol meer wilt leren over het bouwen van een Bitcoin wallet, van entropie tot het ontvangstaddressen, raden we je de CYP 201 cursus aan die aan dit onderwerp is gewijd:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin Wallets En Veiligheid
 
@@ -536,17 +536,17 @@ Hieronder zullen we verschillende beveiligingsniveaus definiëren:
 
 Je kunt bijvoorbeeld Sparrow Wallet gebruiken als hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Niveau 2**, je gebruikt een fysieke wallet en je hebt je lijst van 12/24 woorden beveiligd. Dit wordt doorgaans een "cold wallet" genoemd, omdat je sleutels opgeslagen zijn op een apparaat dat niet verbonden is met het internet. In dit geval moet je elke transactie altijd ondertekenen met je apparaat, waardoor je tegoeden dagelijks minder toegankelijk is.
 
 Je kunt bijvoorbeeld een Ledger, een Satochip of een Tapsigner gebruiken:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/nl/031.webp)
 
@@ -554,7 +554,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Om meer te weten te komen over het gebruik en de werking van de BIP39 passphrase (wachtwoordzin):
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/nl/032.webp)
 
@@ -580,7 +580,7 @@ De veiligheid van je bitcoins is van cruciaal belang en een simpele fout kan des
 
 Houd er rekening mee dat de BTC102-cursus je door deze stap zal begeleiden.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Deze stap is geen grap!
 
@@ -615,7 +615,7 @@ Zowel 'cold' als 'hot' wallets gebruiken de woordenlijstmethode als standaard vo
 
 Als je stap voor stap wilt ontdekken hoe je je eigen wallet kunt opzetten en je eerste bitcoins kunt krijgen, raden we je aan deze cursus te volgen:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## De Tand Des Tijds Doorstaan
 
@@ -627,7 +627,7 @@ Zoals elke vorm van rijkdom, moeten je bitcoins beschermd worden tegen verlies, 
 
 Een methode om je bitcoins op de lange termijn te beveiligen is om je mnemonische zin te graveren op een extreem duurzaam materiaal zoals staal. Hierdoor creëer je een fysieke back-up van je sleutels die bestand is tegen water- en brandschade.
 
-Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.network/en/tutorials/wallet) sectie van onze academie.
+Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.academy/en/tutorials/wallet) sectie van onze academie.
 
 ![image](assets/nl/036.webp)
 
@@ -635,7 +635,7 @@ Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "
 
 Naast deze eerste stap is het opstellen van een nalatenschapsplan een cruciale stap om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood. Dit plan houdt in dat je met de hand een brief schrijft waarin je de aard van je bezittingen beschrijft, hun toegangsmethoden en de contactgegevens van de vertrouwenspersonen die er verantwoordelijk voor zijn. Het is ook belangrijk om de erfenis van bitcoins te bespreken met een accountant en/of notaris om ervoor te zorgen dat de belastingwetgeving wordt nageleefd, zelfs als deze persoon nooit direct moet worden belast met het beheer van je bitcoins.
 
-Als je je verder wilt verdiepen in het onderwerp van het erfenisplan voor je bitcoins, raden we je aan het boek [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) van Pamela Morgan te lezen of je in te schrijven voor de BTC102-cursus, waarin we begeleiding bieden bij het opstellen van je plan.
+Als je je verder wilt verdiepen in het onderwerp van het erfenisplan voor je bitcoins, raden we je aan het boek [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) van Pamela Morgan te lezen of je in te schrijven voor de BTC102-cursus, waarin we begeleiding bieden bij het opstellen van je plan.
 
 ![image](assets/nl/037.webp)
 
@@ -717,7 +717,7 @@ Ondanks de afwezigheid van Satoshi ging de ontwikkeling van Bitcoin door: de ges
 
 Voor sommigen wordt Bitcoin gedefinieerd als een schimmelachtige entiteit zoals een [mycelium](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/), terwijl anderen het beschrijven als een [zwart gat](https://dergigi.com/). Of je het nu leuk vindt of niet, Bitcoin blijft bestaan, met zijn constante ritme van 10 minuten per blok, als de hartslag van een nieuw monetair systeem.
 
-Om meer te weten te komen over de geschriften van Satoshi Nakamoto, raden we ["The Book of Satoshi"](https://planb.network/en/resources/books/98) aan van Phil Champagne of de ARTE documentaire "Le mystaire Satoshi" te lezen.
+Om meer te weten te komen over de geschriften van Satoshi Nakamoto, raden we ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) aan van Phil Champagne of de ARTE documentaire "Le mystaire Satoshi" te lezen.
 
 ![image](assets/nl/044.webp)
 
@@ -909,7 +909,7 @@ De speltheorie toegepast op Bitcoin elimineert oneerlijke miners, die ASIC machi
 
 Als je dieper wilt ingaan op het specifieke onderwerp Bitcoin mining, kun je onze MIN 201 cursus raadplegen. Je ontdekt de werking en de rol van Proof-of-Work, evenals de mechanismen van de mining industrie. We leggen ook uit hoe je een ASIC kunt ombouwen tot een verwarming, zodat je je eerste satoshis kunt minen terwijl je je huis verwarmt!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin en Ecologie
 
@@ -1057,17 +1057,17 @@ We zullen dit onderwerp in detail behandelen in een andere cursus, maar om het e
 
 - Eenvoudige online oplossing: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Oplossing voor amateurwinkeliers: Swiss Bitcoin Pay
 - 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Oplossing voor grote organisaties of gepassioneerde bitcoiners: BTCpay Server
 
 Om dit onderwerp verder uit te diepen, raden wij je onze BIZ101 cursus aan! Ontdek hoe je Bitcoin effectief kunt integreren in de treasury van jouw bedrijf, hoe je Bitcoin kunt accepteren als betaalmiddel volgens het profiel van jouw organisatie en hoe je de bijbehorende belasting- en boekhoudvereisten kunt begrijpen:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparen Met Bitcoin
 
@@ -1082,7 +1082,7 @@ Bitcoin is een belangrijk financieel activum geworden, vooral omdat de hoeveelhe
 - In het verleden behaalde resultaten zijn geen betrouwbare indicator voor toekomstige resultaten.
 - Neem indien nodig contact op met je financieel adviseur.
 
-**Plan ₿ Network geeft geen beleggingsadvies en niets wat hier staat moet als zodanig worden beschouwd**
+**Plan ₿ Academy geeft geen beleggingsadvies en niets wat hier staat moet als zodanig worden beschouwd**
 
 ### Mini checklist voordat je de sprong waagt
 
@@ -1110,7 +1110,7 @@ Deze geleidelijke strategie bestaat uit periodiek aankopen, wat betekent dat je 
 
 **Pas op voor UTXO's**: Vergeet niet om je UTXO's in je wallet van tijd tot tijd te consolideren. Deze praktijk is essentieel voor het effectief beheren van je bitcoins en het vermijden van onnodige kosten tijdens transacties.
 
-Een [UTXO](https://planb.network/en/resources/glossary/utxo) is een output van een transactie die nog niet is uitgegeven, wat betekent dat het niet is gebruikt als input voor een nieuwe transactie. Consolideren betekent het samenvoegen van verschillende kleine UTXO's tot één grotere, om het "gewicht" van de transactie te verminderen en dus lagere kosten te betalen.
+Een [UTXO](https://planb.academy/en/resources/glossary/utxo) is een output van een transactie die nog niet is uitgegeven, wat betekent dat het niet is gebruikt als input voor een nieuwe transactie. Consolideren betekent het samenvoegen van verschillende kleine UTXO's tot één grotere, om het "gewicht" van de transactie te verminderen en dus lagere kosten te betalen.
 
 - Spontane aankoop
 
@@ -1124,7 +1124,7 @@ Er zijn verschillende manieren om bitcoins aan te schaffen, elke manier is onder
 
 - DCA-platforms
 
-Zoals we hierboven introduceerden, is een veelgebruikte methode om bitcoins te verzamelen Dollar Cost Averaging (DCA), waarbij regelmatig kleine hoeveelheden worden gekocht. Verschillende platforms bieden deze service aan, zoals die op onze [speciale pagina](https://planb.network/tutorials/exchange). Naast de eenvoud van het opzetten van een DCA, zijn opnames van tegoeden uit je wallet over het algemeen automatisch, wat betekent dat je altijd controle over je vermogen hebt.
+Zoals we hierboven introduceerden, is een veelgebruikte methode om bitcoins te verzamelen Dollar Cost Averaging (DCA), waarbij regelmatig kleine hoeveelheden worden gekocht. Verschillende platforms bieden deze service aan, zoals die op onze [speciale pagina](https://planb.academy/tutorials/exchange). Naast de eenvoud van het opzetten van een DCA, zijn opnames van tegoeden uit je wallet over het algemeen automatisch, wat betekent dat je altijd controle over je vermogen hebt.
 
 Tegenwoordig zijn bijna alle DCA-oplossingen relatief efficiënt en hebben ze bijna dezelfde tarieven, dus de keuze zal meer afhangen van de beschikbaarheid in jouw land.
 
@@ -1149,7 +1149,7 @@ Het is essentieel om te erkennen dat KYC een belangrijk onderwerp van discussie 
 
 ### Niet-KYC-oplossingen
 
-Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
+Daarnaast zijn er verschillende [marktplaatsen](https://planb.academy/tutorials/exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
 
 - Bitcoin geldautomaten
 - Fysieke ontmoetingen met andere Bitcoin enthousiastelingen
@@ -1163,7 +1163,7 @@ Tot slot is het belangrijk op te merken dat belastingverplichtingen kunnen vari�
 
 Als u uw kennis wilt verdiepen over strategieën voor het kopen, gebruiken en beveiligen van uw bitcoins, raad ik u ten zeerste aan om na deze cursus de cursus **BTC 102** te volgen. Daar ontdekt u onder andere aanbevelingen voor hulpmiddelen die zijn afgestemd op uw profiel, behoeften en persoonlijke doelen:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinisatie
 
@@ -1185,7 +1185,7 @@ Uiteindelijk nodigen we je uit om na te denken over deze nieuwe monetaire revolu
 
 ![image](assets/nl/079.webp)
 
-Als je je kennis over Bitcoin wilt uitbreiden, dan is dit het juiste moment: een groot aantal auteurs, denkers en essayisten hebben educatieve inhoud over Bitcoin gemaakt. De afgelopen jaren hebben we deze werken op een rijtje gezet en gecategoriseerd om een [bibliotheek van bronnen](https://planb.network/resources) aan te bieden aan de meest nieuwsgierigen onder jullie. In deze sectie vind je de beste podcasts, websites, artikelen, tutorials, boeken en andere inhoud.
+Als je je kennis over Bitcoin wilt uitbreiden, dan is dit het juiste moment: een groot aantal auteurs, denkers en essayisten hebben educatieve inhoud over Bitcoin gemaakt. De afgelopen jaren hebben we deze werken op een rijtje gezet en gecategoriseerd om een [bibliotheek van bronnen](https://planb.academy/resources) aan te bieden aan de meest nieuwsgierigen onder jullie. In deze sectie vind je de beste podcasts, websites, artikelen, tutorials, boeken en andere inhoud.
 
 > "Ik denk dat het internet een van de belangrijkste krachten zal zijn om de rol van de overheid te verkleinen. Het enige dat nog ontbreekt, maar dat snel ontwikkeld zal worden, is een betrouwbare e-cash - een methode waarbij je op het internetgeld kunt overmaken van A naar B zonder dat A B kent of B A kent." - Voorspelling van Milton Friedman in 1999
 
@@ -1235,7 +1235,7 @@ Samengevat is het Lightning Network een veelbelovende poging om een efficiënt b
 
 Als je verder wilt gaan dan deze inleiding en alle werkingen van het Lightning Network wilt begrijpen, raden we je aan deze uitstekende cursus van Fanis Michalakis over dit onderwerp te volgen:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Lightning Network Usecases
 

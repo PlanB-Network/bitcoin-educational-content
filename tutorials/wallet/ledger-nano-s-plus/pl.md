@@ -77,7 +77,7 @@ Do tego samouczka potrzebne będą 2 aplikacje: Ledger Live do inicjalizacji Led
 
 W przypadku tych dwóch programów zdecydowanie zalecam sprawdzenie zarówno ich autentyczności (za pomocą GnuPG), jak i integralności (za pomocą Hash) przed zainstalowaniem ich na komputerze. Jeśli nie jesteś pewien, jak to zrobić, możesz skorzystać z tego samouczka:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Jak zainicjować Ledger Nano?
 
@@ -228,7 +228,7 @@ Kodu passphrase nie należy mylić z kodem PIN. Odgrywa on rolę w tworzeniu klu
 passphrase to bardzo potężne narzędzie zwiększające bezpieczeństwo bitcoinów. Jednak bardzo ważne jest, aby zrozumieć, jak działa przed jego wdrożeniem, aby uniknąć utraty dostępu do Wallet. Dlatego radzę zapoznać się z tym innym samouczkiem dedykowanym, jeśli chcesz skonfigurować passphrase na swoim Ledger:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*PIN lock*" pozwala skonfigurować i aktywować automatyczne blokowanie Ledger po określonym czasie bezczynności.
 
@@ -371,7 +371,7 @@ Przed otrzymaniem pierwszych bitcoinów w Wallet, **Zalecam wykonanie testu odzy
 Aby dowiedzieć się więcej o tym, jak wykonać test odzyskiwania, radzę zapoznać się z tym innym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Jak odbierać bitcoiny za pomocą Ledger Nano?
 
@@ -416,7 +416,7 @@ Możesz dodać "*Label*", aby opisać źródło bitcoinów, które zostaną zabe
 Więcej informacji na temat etykietowania można znaleźć w tym poradniku:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Następnie można użyć Address do otrzymywania bitcoinów.
 
@@ -518,4 +518,4 @@ Jeśli ten poradnik okazał się pomocny, będę wdzięczny za pozostawienie kci
 Polecam również zapoznać się z tym kompletnym samouczkiem na temat Ledger Flex:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

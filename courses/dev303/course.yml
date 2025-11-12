@@ -19,133 +19,133 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.53
+    reward: 57.9
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1.26
+    reward: 28.95
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.53
+    reward: 57.9
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.53
+    reward: 57.9
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.53
+    reward: 57.9
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 115.7
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.53
+    reward: 57.9
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 115.7
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.14
+    reward: 96.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.14
+    reward: 96.43
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.76
+    reward: 134.96
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.14
+    reward: 96.43
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.53
+    reward: 57.9
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 77.17
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.14
+    reward: 96.43
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 96.43
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 115.7
 tags:
   - development
   - lightning

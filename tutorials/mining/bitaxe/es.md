@@ -11,7 +11,7 @@ Ha reconstruido el funcionamiento del famoso Antminer S19 de Bitmain, el líder 
 
 Hay varias versiones de BitAxe, con diferentes chips y rendimientos:
 
-| Serie del Modelo Bitaxe  | Chip ASIC | Usado En                     | Tasa de Hash Esperada       | Ideal Para                                                                                                  |
+| Serie del Modelo Bitaxe  | Chip ASIC | Usado En                     | Tasa de Hash Esperada       | Ideal Para                                                                                                 |
 | ------------------------ | --------- | --------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Bitaxe Max (Serie 100)   | 1 x BM1397| Serie Antminer 17           | 400 GH/s (hasta 450 GH/s)   | Principiantes en minería de Bitcoin, ofreciendo una sólida tasa de hash con un consumo de energía moderado.|
 | Bitaxe Ultra (Serie 200) | 1 x BM1366| Antminer S19 XP y S19k Pro  | 500 GH/s (hasta 550 GH/s)   | Mineros serios que buscan equilibrar eficiencia y mayor tasa de hash.                                      |
@@ -46,7 +46,7 @@ Por lo tanto, indica el SSID de la Wi-Fi, es decir, el nombre de tu red, la cont
 
 Como puedes ver en la pantalla, necesitas eliminar las partes `stratum+tcp://` y `:3333`, dejando solo `eu.stratum.braiins.com`. Luego, en el campo `Port`, introduce los 4 dígitos al final de la URL proporcionada por el pool, pero sin el `:`. Aquí, por lo tanto, es `3333`.
 
-En este tutorial, estamos usando el pool de minería Braiins, pero eres libre de elegir otro. Puedes encontrar nuestros tutoriales sobre pools de minería [en el sitio web de PlanB Network](https://planb.network/en/tutorials/mining).
+En este tutorial, estamos usando el pool de minería Braiins, pero eres libre de elegir otro. Puedes encontrar nuestros tutoriales sobre pools de minería [en el sitio web de Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 A continuación, en `User`, introduce tu identificador y luego la `Password`, usualmente, es `"x"` o `"Anything123"`.
 

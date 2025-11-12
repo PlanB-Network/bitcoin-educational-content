@@ -23,7 +23,7 @@ description: پیکربندی ASIC Avalon برای استخراج انفرادی
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 لطفاً توجه داشته باشید که تفاوت قیمت با بخاری‌های سنتی با قدرت معادل، در اکثر موارد، به شما اجازه نمی‌دهد که سود مالی کسب کنید. ساتوشی‌های تولید شده توسط فعالیت Mining هرگز این تفاوت قیمت را جبران نخواهند کرد، مگر اینکه به برق رایگان (مازاد) یا بسیار ارزان دسترسی داشته باشید.
 
@@ -181,9 +181,9 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 در مجموع، ما نیاز داریم به
 
@@ -358,4 +358,4 @@ https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

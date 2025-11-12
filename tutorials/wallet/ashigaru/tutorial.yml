@@ -1,0 +1,25 @@
+id: 9f903b55-2e55-4b06-9627-80f8e178158f
+
+project_id: 16385d20-a3e4-48c7-be88-2d4a80be9389
+
+tags:
+  - software
+  - privacy
+  - wallets
+
+category: mobile
+
+level: advanced
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 4.47

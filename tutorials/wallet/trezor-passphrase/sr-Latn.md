@@ -18,7 +18,7 @@ Pre nego što započnete ovaj tutorijal, ako niste upoznati sa konceptom passphr
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase na Trezoru se obrađuje na klasičan način ako ste se odlučili za BIP39 standard tokom konfiguracije (što preporučujem ako vam nije potreban *Multi-share Backup*). Ono što je posebno kod Trezora je da možete uneti passphrase direktno na Hardware Wallet, ili putem tastature vašeg računara koristeći Trezor Suite softver. Ova druga opcija je znatno manje sigurna, jer računar ima neuporedivo veću površinu za napad nego Hardware Wallet. Međutim, kucanje složenog passphrase može biti brže na konvencionalnoj tastaturi nego na Hardware Wallet, što bi moglo podstaći korišćenje jakih lozinki. Stoga je uvek bolje koristiti passphrase, čak i ako mora biti otkucan, nego ga uopšte ne koristiti. Važno je, međutim, ostati svestan povećanog rizika od numeričkih napada koje to podrazumeva.
 
@@ -36,15 +36,15 @@ U Trezor Suite, imate dva različita načina upravljanja potražnjom za passphra
 
 
 
-Pre nego što započnete ovaj vodič, molimo vas da se uverite da ste već inicijalizovali vaš Trezor i generisali vašu Mnemonic frazu. Ako niste, a vaš Trezor je nov, pratite vodič specifičan za model dostupan na Plan ₿ Network. Kada završite ovaj korak, možete se vratiti na ovaj vodič.
+Pre nego što započnete ovaj vodič, molimo vas da se uverite da ste već inicijalizovali vaš Trezor i generisali vašu Mnemonic frazu. Ako niste, a vaš Trezor je nov, pratite vodič specifičan za model dostupan na Plan ₿ Academy. Kada završite ovaj korak, možete se vratiti na ovaj vodič.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Dodavanje passphrase na Safe 3 ili Safe 5
@@ -79,7 +79,7 @@ Za konkretnije preporuke o odabiru vašeg passphrase, pozivam vas da još jednom
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ako želite da unesete svoj passphrase putem tastature računara, unesite ga u predviđeno polje, a zatim kliknite na "*Access passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Za konkretnije preporuke o odabiru vašeg passphrase, ponovo vas pozivam da pogl
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Unesite svoj passphrase u predviđeno polje, zatim kliknite na dugme "*Access passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Da biste koristili Sparrow Wallet nakon toga, procedura ostaje ista. Svaki put k
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Ako ste smatrali ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj članak na svojim društvenim mrežama. Hvala vam puno!

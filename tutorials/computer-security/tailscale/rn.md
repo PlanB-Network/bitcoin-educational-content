@@ -293,7 +293,7 @@ Umbrel ni urubuga ruzwi cane rwo kwiyakira (cane cane rukoreshwa ku bice vya Bit
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Gukoresha Umbrel na Tailscale hamwe ni ikintu gishimishije cane, kuko Umbrel ikoresha mu buryo bworoshe igice ca Tailscale. Ehe ingene Tailscale ifatanya na Umbrel n'ico izana:
 
@@ -419,7 +419,7 @@ Soma ubuyobozi bwacu bwose bwo gutunganya Sparrow wallet n'uruzitiro rwawe rwa B
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Kugira ngo utunganye Zeus n'urudodo rwawe rw'umuravyo, raba inyigisho yacu ido n
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Kugira ngo umenye vyinshi ku vyerekeye Lightning Network n’ingene ikora kuri Umbrel, genda kuri:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

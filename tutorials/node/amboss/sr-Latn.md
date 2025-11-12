@@ -11,7 +11,7 @@ Lightning Network je Layer protokola Bitcoin, koji je prvenstveno razvijen da po
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Baš kao i na glavnom lancu, postalo je neophodno omogućiti korisnicima da znaju informacije i status mreže, kako bi se olakšale veze između čvorova i minimizirao problem likvidnosti koji se obično javlja u mreži. Zaista, na Lightning Network, preporučujemo mikro-plaćanja relativno manjih iznosa nego što su to transakcije na Bitcoin glavnom lancu.
 
@@ -34,7 +34,7 @@ Kao [Mempool Space](https://Mempool.space), koji pruža korisne informacije o gl
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 U ovom vodiču, provest ćemo vas kroz ovu platformu, koja je esencijalni resurs za korisnike Lightning Network, one koji žele povezati svoj čvor kako bi proširili mrežu, itd.
 
@@ -57,7 +57,7 @@ Jedan od ciljeva Amboss platforme je omogućiti raznim čvorovima u mreži da se
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Na početnoj stranici, takođe ćete pronaći čvorove klasifikovane prema :
 
@@ -147,7 +147,7 @@ U odeljku **Channels** videćete listu otvorenih kanala i veze čvora sa drugim 
 
 - Dolazni odnos**: Iznos koji će vam čvor naplatiti za svaki milion Satoshi koji primi, u zavisnosti od izabranog kanala.
 - Odnos (delovi na milion)** : koji predstavlja broj Satoshi po milion jedinica koje će vam čvor naplatiti kada odlučite da izvršite uplatu putem jednog od njegovih kanala. Recimo da odlučite da izvršite uplatu od `10_000 Sats` putem kanala čiji je ppm odnos `500 Sats`, moraćete da platite čvoru `10_000 * 500 / 1_000_000` satoshija, što je ekvivalentno `5 Sats`.
-- Maksimum [HTLC](https://planb.network/resources/glossary/htlc)** : Maksimalna količina koju ovaj čvor dozvoljava da prenesete putem jednog od ovih kanala.
+- Maksimum [HTLC](https://planb.academy/resources/glossary/htlc)** : Maksimalna količina koju ovaj čvor dozvoljava da prenesete putem jednog od ovih kanala.
 
 
 
@@ -304,4 +304,4 @@ Sada ste završili kompletnu turu kroz funkcije platforme i alate za analizu. Mo
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

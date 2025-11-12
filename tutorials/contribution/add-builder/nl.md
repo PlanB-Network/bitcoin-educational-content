@@ -1,6 +1,6 @@
 ---
 name: Een project toevoegen
-description: Hoe stel je voor om een nieuw project toe te voegen aan PlanB Network?
+description: Hoe stel je voor om een nieuw project toe te voegen aan Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hoe stel je voor om een nieuw project toe te voegen aan PlanB Netwo
 De missie van PlanB is om eersteklas educatieve bronnen aan te bieden over Bitcoin, in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen kan deelnemen aan het verrijken van het platform.
 
 
-Wil je een nieuw Bitcoin "project" toevoegen aan de PlanB Network site en zichtbaarheid geven aan je bedrijf of software, maar weet je niet hoe? Dan is deze tutorial voor jou!
+Wil je een nieuw Bitcoin "project" toevoegen aan de Plan ₿ Academy site en zichtbaarheid geven aan je bedrijf of software, maar weet je niet hoe? Dan is deze tutorial voor jou!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ Wil je een nieuw Bitcoin "project" toevoegen aan de PlanB Network site en zichtb
 - Eerst moet je een GitHub account hebben. Als je niet weet hoe je een account aanmaakt, hebben we een gedetailleerde tutorial gemaakt om je te begeleiden.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
+- Als je nog nooit hebt bijgedragen aan de inhoud van Plan ₿ Academy, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 
 ![project](assets/04.webp)
 
@@ -159,7 +159,7 @@ category: education
 ![project](assets/14.webp)
 
 
-- Selecteer je fork van de PlanB Network repository:
+- Selecteer je fork van de Plan ₿ Academy repository:
 ![project](assets/15.webp)
 
 
@@ -202,7 +202,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- Er wordt een nieuwe pagina geopend. Sleep een afbeelding van je bedrijf of je software naar het gebied. Deze afbeelding wordt weergegeven op de PlanB Network site:
+- Er wordt een nieuwe pagina geopend. Sleep een afbeelding van je bedrijf of je software naar het gebied. Deze afbeelding wordt weergegeven op de Plan ₿ Academy site:
 ![project](assets/26.webp)
 
 
@@ -257,7 +257,7 @@ contributors:
 
 
 
-- Voor de `contributors` sleutel kun je je PlanB Network contributor identifier toevoegen als je die hebt. Als je die niet hebt, laat dit veld dan leeg.
+- Voor de `contributors` sleutel kun je je Plan ₿ Academy contributor identifier toevoegen als je die hebt. Als je die niet hebt, laat dit veld dan leeg.
 - Voor de `description` sleutel moet je gewoon een korte paragraaf toevoegen die je bedrijf of je software beschrijft. De beschrijving moet in dezelfde taal zijn als de bestandsnaam. Je hoeft deze beschrijving niet te vertalen in alle talen die worden ondersteund op de site, omdat de PlanB teams dit zullen doen met behulp van hun model. Zo zou je bestand er bijvoorbeeld uit kunnen zien:
 
 ```yaml
@@ -297,10 +297,10 @@ contributors:
 
 - Klik op de knop `Create pull request`:
 ![project](assets/44.webp)
-Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, integreren in de hoofdrepository van PlanB Network. Je zou je projectprofiel een paar dagen later op de website moeten zien verschijnen.
+Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, integreren in de hoofdrepository van Plan ₿ Academy. Je zou je projectprofiel een paar dagen later op de website moeten zien verschijnen.
 
 
-Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking achterlaten waarin om aanvullende informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het raadplegen in de `Pull requests` tab op de PlanB Network GitHub repository:
+Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking achterlaten waarin om aanvullende informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het raadplegen in de `Pull requests` tab op de Plan ₿ Academy GitHub repository:
 
 ![project](assets/45.webp)
 

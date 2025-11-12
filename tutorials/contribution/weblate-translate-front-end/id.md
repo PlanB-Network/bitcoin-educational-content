@@ -4,7 +4,7 @@ description: Bagaimana Anda dapat berpartisipasi dalam penerjemahan elemen stati
 ---
 ![cover](assets/cover.webp)
 
-Misi Plan ₿ Network adalah untuk menyediakan sumber daya edukasi kelas satu mengenai Bitcoin dan menerjemahkannya ke dalam sebanyak mungkin bahasa. Sebagian besar konten yang dipublikasikan di situs ini bersifat open-source dan di-host di GitHub, sehingga siapa pun dapat berpartisipasi dalam memperkaya platform ini. Kontribusi dapat dilakukan dalam berbagai bentuk: mengoreksi dan mengoreksi konten yang sudah ada, memperbarui informasi, atau membuat tutorial baru untuk ditambahkan ke dalam platform.
+Misi Plan ₿ Academy adalah untuk menyediakan sumber daya edukasi kelas satu mengenai Bitcoin dan menerjemahkannya ke dalam sebanyak mungkin bahasa. Sebagian besar konten yang dipublikasikan di situs ini bersifat open-source dan di-host di GitHub, sehingga siapa pun dapat berpartisipasi dalam memperkaya platform ini. Kontribusi dapat dilakukan dalam berbagai bentuk: mengoreksi dan mengoreksi konten yang sudah ada, memperbarui informasi, atau membuat tutorial baru untuk ditambahkan ke dalam platform.
 
 Dalam tutorial ini, kami akan menunjukkan kepada Anda cara mudah berkontribusi dalam penerjemahan elemen statis di situs web kami. Data pada platform dibagi menjadi dua kategori utama:
 
@@ -14,22 +14,22 @@ Dalam tutorial ini, kami akan menunjukkan kepada Anda cara mudah berkontribusi d
 
 Untuk menerjemahkan konten edukasi, kami menggunakan [kecerdasan buatan] (https://github.com/Asi0Flammeus/LLM-Translator). Kemudian, untuk mengoreksi kesalahan yang mungkin terjadi pada berkas-berkas ini, kami mengundang para korektor untuk berkontribusi. Jika Anda ingin mengoreksi beberapa konten, bacalah tutorial berikut ini:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Di sisi lain, jika Anda tertarik untuk menerjemahkan elemen statis situs web (tidak termasuk konten pendidikan), Anda berada di tempat yang tepat! Untuk menerjemahkan bagian depan secara efektif, kami menggunakan alat Weblate, yang sangat mudah digunakan dan memfasilitasi pendekatan penerjemahan.
 
-Jika Anda ingin menambahkan bahasa yang sama sekali baru ke Plan ₿ Network, pastikan untuk menghubungi tim Plan ₿ Network melalui [grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
+Jika Anda ingin menambahkan bahasa yang sama sekali baru ke Plan ₿ Academy, pastikan untuk menghubungi tim Plan ₿ Academy melalui [grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
 
 Anggota tim kami akan memberi Anda instruksi khusus dan akan membuka "masalah" terkait di Github untuk mengoordinasikan pekerjaan Anda.
 
 Sebelumnya, ikuti tutorial khusus ini untuk menambahkan bahasa baru ke Weblate.
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca poin-poin berikut.
 
 ## Daftar di Weblate
 
 
-- Buka [Weblate yang dihosting sendiri oleh Plan ₿ Network](https://weblate.planb.network/):
+- Buka [Weblate yang dihosting sendiri oleh Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -59,7 +59,7 @@ Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca
 ![weblate](assets/06.webp)
 
 
-- Sekarang Anda dapat kembali ke dasbor Plan ₿ Network:
+- Sekarang Anda dapat kembali ke dasbor Plan ₿ Academy:
 
 ![weblate](assets/07.webp)
 
@@ -144,7 +144,7 @@ Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca
 
 
 - Ketika Anda menemukan kata-kata yang disisipkan di dalam tanda kurung kurawal "{", Anda tidak perlu menerjemahkannya. Misalnya, dalam "Akun Anda telah dibuat, {{nama pengguna}}!", Anda akan menerjemahkan seluruh kalimat, tetapi mempertahankan "nama pengguna" dalam bahasa Inggris.
-- Ketika Anda menemukan "Plan ₿ Network" dalam sebuah string, pastikan untuk TIDAK menerjemahkan kata "network" (pertimbangkan Plan ₿ Network sebagai sebuah merek dagang). Selain itu, selalu gunakan tanda ₿ Bitcoin!
+- Ketika Anda menemukan "Plan ₿ Academy" dalam sebuah string, pastikan untuk TIDAK menerjemahkan kata "network" (pertimbangkan Plan ₿ Academy sebagai sebuah merek dagang). Selain itu, selalu gunakan tanda ₿ Bitcoin!
 - Jika Anda menemukan kata "jaringan" saja, Anda dapat menerjemahkannya.
 - Jangan menerjemahkan "B-CERT", karena ini adalah kata tetap lainnya.
 - Jika Anda menemukan string yang diakhiri dengan spasi, Anda dapat membiarkannya.
@@ -157,5 +157,5 @@ Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca
 
 ![weblate](assets/23.webp)
 
-Terima kasih sebelumnya atas kontribusi Anda dalam penerjemahan Plan ₿ Network! Jika Anda memiliki pertanyaan atau komentar khusus untuk kami, jangan ragu untuk menghubungi kami melalui [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+Terima kasih sebelumnya atas kontribusi Anda dalam penerjemahan Plan ₿ Academy! Jika Anda memiliki pertanyaan atau komentar khusus untuk kami, jangan ragu untuk menghubungi kami melalui [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder).
 

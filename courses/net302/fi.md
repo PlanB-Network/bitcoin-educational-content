@@ -90,7 +90,7 @@ Oletko valmis sukeltamaan tietokoneverkkojen maailmaan? Mennään!
 **HUOMAUTUS**: Kuvaukset perustuvat GNU/Linux CentOS 7 -järjestelmään. Verkkokokoonpanot ovat kuitenkin suurelta osin samat, kun verrataan Debian- ja CentOS-järjestelmiä. Emme siis tee mitään eroa. Jos on, liitämme siihen erityisen logon.
 
 
-**N.B.**: Jos törmäät kurssin aikana tuntemattomiin termeihin, katso määritelmät [sanastosta] (https://planb.network/resources/glossary).
+**N.B.**: Jos törmäät kurssin aikana tuntemattomiin termeihin, katso määritelmät [sanastosta] (https://planb.academy/resources/glossary).
 
 
 
@@ -283,11 +283,11 @@ Jokainen TCP/IP-pinon Layer tarjoaa tiettyjä palveluja, mikä mahdollistaa Addr
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS-protokolla
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP-protokolla
 
@@ -1379,11 +1379,11 @@ Seuraavassa luvussa tarkastelemme yksityiskohtaisesti IP Address:n konfigurointi
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Miten konfiguroin verkon `ip`:n avulla?
@@ -3068,7 +3068,7 @@ Toistuvat tai intensiiviset kyselyt kolmannen osapuolen DNS-palvelimille ilman l
 Paikallis- tai laajakaistaverkkoa valvottaessa tai suojattaessa on tärkeää tunnistaa aktiiviset laitteet ja niiden tarjoamat palvelut. Juuri tätä tekee `nmap` (*Network Mapper*) -työkalu.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Esittelyssä `nmap`
 
@@ -3120,7 +3120,7 @@ Järjestelmänvalvoja voi luottaa `nmap`:iin useissa tehtävissä:
 - **Haavoittuvuuksien estäminen**: havaitse kriittisillä koneilla toimivat epävarmat tai vanhentuneet palvelut.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Prosessikyselytyökalut
 

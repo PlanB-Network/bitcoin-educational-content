@@ -24,7 +24,7 @@ Menadžer lozinki generiše i sigurno čuva jake lozinke, omogućavajući vam pr
 
 U ovom vodiču ćemo istražiti kako postaviti i koristiti menadžer lozinki da poboljšate svoju online sigurnost. Upoznaću vas sa Bitwarden-om, a u drugom vodiču ćemo razmotriti drugo rešenje pod nazivom KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Upozorenje: Menadžer lozinki je odličan za čuvanje lozinki, ali **nikada ne bi trebalo da čuvate svoju bezbednosnu frazu Bitcoin novčanika u njemu!** Zapamtite, bezbednosna fraza treba da bude isključivo sačuvana u fizičkom formatu, kao što je papir ili metal.
 
@@ -117,9 +117,9 @@ Prvo i najvažnije, toplo vam savetujem da postavite dvofaktorsku autentifikacij
 Ako niste sigurni kako da postavite i koristite ove 2FA uređaje, preporučujem da pratite ova 2 druga uputstva:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Da biste to uradili, idite na karticu "*Security*" u meniju "*Settings*".
 
@@ -177,7 +177,7 @@ U obrascu koji se otvori, započnite određivanjem prirode stavke koju treba sa�
 
 ![BITWARDEN](assets/notext/26.webp)
 
-U polje "*Name*" unesite opisni naziv za vaše kredencijale. Ovo će olakšati pretragu i organizaciju vaših lozinki, posebno ako ih imate veliki broj. Na primer, ako želite da sačuvate vaše kredencijale za PlanB Network sajt, možete imenovati ovu stavku na način koji će je učiniti odmah prepoznatljivom tokom vaših budućih pretraga.
+U polje "*Name*" unesite opisni naziv za vaše kredencijale. Ovo će olakšati pretragu i organizaciju vaših lozinki, posebno ako ih imate veliki broj. Na primer, ako želite da sačuvate vaše kredencijale za Plan ₿ Academy sajt, možete imenovati ovu stavku na način koji će je učiniti odmah prepoznatljivom tokom vaših budućih pretraga.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Vaša fascikla se sada pojavljuje u vašem menadžeru.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Možete dodeliti fasciklu identifikatoru prilikom njegovog kreiranja, kao što smo to ranije uradili, ili izmenom postojećeg identifikatora. Na primer, klikom na moj identifikator za PlanB Network, mogu odabrati da ga klasifikujem u fasciklu "*Bitcoin*".
+Možete dodeliti fasciklu identifikatoru prilikom njegovog kreiranja, kao što smo to ranije uradili, ili izmenom postojećeg identifikatora. Na primer, klikom na moj identifikator za Plan ₿ Academy, mogu odabrati da ga klasifikujem u fasciklu "*Bitcoin*".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -304,7 +304,7 @@ Sada ste povezani sa svojim Bitwarden menadžerom putem ekstenzije za pregledač
 ![BITWARDEN](assets/notext/51.webp)
 
 
-Na primer, ako se vratim na PlanB Network sajt i pokušam da se prijavim na svoj nalog, možete videti da Bitwarden ekstenzija integrisana u pregledač prepoznaje polja za prijavu i automatski mi nudi da izaberem identifikator koji sam prethodno sačuvao.
+Na primer, ako se vratim na Plan ₿ Academy sajt i pokušam da se prijavim na svoj nalog, možete videti da Bitwarden ekstenzija integrisana u pregledač prepoznaje polja za prijavu i automatski mi nudi da izaberem identifikator koji sam prethodno sačuvao.
 
 
 ![BITWARDEN](assets/notext/52.webp)
@@ -313,7 +313,7 @@ Ako izaberem ovaj identifikator, Bitwarden popunjava polja za prijavu umesto men
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Ekstenzija je takođe dizajnirana da detektuje kreiranje novih naloga. Na primer, kada kreirate novi nalog na PlanB Network, Bitwarden automatski predlaže čuvanje novog identifikatora.
+Ekstenzija je takođe dizajnirana da detektuje kreiranje novih naloga. Na primer, kada kreirate novi nalog na Plan ₿ Academy, Bitwarden automatski predlaže čuvanje novog identifikatora.
 
 ![BITWARDEN](assets/notext/54.webp)
 

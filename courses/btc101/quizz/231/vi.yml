@@ -1,4 +1,4 @@
-question: Khái niệm chảy tiền trong bối cảnh của Mạng Lưới Lightning là gì?
+question: Khái niệm dòng tiền trong bối cảnh của Mạng Lưới Lightning là gì?
 
 answer: Thực hiện các khoản thanh toán nhỏ liên tục, theo thời gian thực.
 
@@ -9,4 +9,4 @@ wrong_answers:
 
 explanation: Với Mạng Lưới Lightning, chúng ta có thể thực hiện các giao dịch nhỏ mỗi phút, mở ra cánh cửa thử nghiệm với các mô hình kinh tế nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
 
-reviewed: đúng
+reviewed: true

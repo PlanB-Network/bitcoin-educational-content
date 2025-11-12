@@ -108,4 +108,4 @@ Versi tidak terenkripsi dari arsip ZIP "Encrypted.zip" sekarang memungkinkan say
 
 Pastikan untuk menggunakan kata sandi yang kuat untuk melindungi data, dan jika Anda menggunakan file kunci, Anda harus ingat untuk mencadangkannya, jika tidak, Anda tidak akan lagi dapat mendekripsi kontainer PCV yang dihasilkan oleh Picocrypt. Terakhir, Anda harus tahu bahwa ada juga [versi CLI](https://github.com/Picocrypt/CLI) (dengan fitur yang lebih sedikit) yang memungkinkan Anda menjalankan Picocrypt dari command line: dan lagi, Picocrypt membuka pintu ke kemungkinan baru.
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

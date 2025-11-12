@@ -6,4 +6,4 @@ wrong_answers:
   - Aumentar la velocidad de conexión a la red
 explanation: |
   El sandboxing y la virtualización se utilizan principalmente para aislar aplicaciones o sistemas de posibles ataques.
-reviewed: false
+reviewed: true

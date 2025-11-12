@@ -124,12 +124,12 @@ Unaweza pia kuboresha nakala yako kwa maelezo ya ziada yanayohusiana na usaidizi
 Kwa upande mwingine, ikiwa unatumia passphrase, hakikisha huiandiki kwa njia sawa na maneno yako ya Mnemonic. Madhumuni ya passphrase ni kulinda Wallet yako katika tukio la wizi. Ili kujua zaidi kuhusu jinsi ya kutumia passphrase, angalia mafunzo haya ya ziada:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mara tu unapohifadhi maneno yako ya Mnemonic kwenye maudhui halisi, inashauriwa sana ufanye jaribio la kurejesha uwezo wa kufikia akaunti huku Wallet yako uliyounda mpya ingali tupu. Jaribio hili linajumuisha kuandika sampuli ya habari, kufuta kwa makusudi Wallet tupu, kisha kujaribu kuirejesha kwa kutumia tu nakala yako ya kimwili ya maneno ya Mnemonic. Hii itakuwezesha kuangalia kwamba chelezo yako imekamilika na haina makosa ya ingizo. Pia inakuwezesha kujitambulisha na mchakato wa kurejesha. Kwa njia hii, ikiwa unahitaji kupona katika siku zijazo, utakuwa umejitayarisha vyema na kuepuka mkazo wa jaribio la kwanza katika hali halisi ya maisha. Ili kujua zaidi kuhusu jinsi ya kufanya jaribio hili, tazama mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Hatimaye, kuna swali la idadi ya chelezo. Chaguo hili linategemea kabisa hali yako ya kibinafsi. Kupunguza idadi ya nakala, kwa mfano kwa kuandika maneno yako ya Mnemonic mara moja tu kwenye kati, hupunguza hatari ya wizi, lakini huongeza hatari ya kupoteza. Kinyume chake, kufanya nakala kadhaa hupunguza hatari ya kupoteza, lakini huongeza hatari ya wizi. Kwa hivyo ni juu yako kupata usawa unaofaa kwa mahitaji yako, na ubaini idadi ya nakala unazohisi zinafaa zaidi.
 
@@ -170,9 +170,9 @@ Hatimaye, usimamizi wa maneno ya Mnemonic pia huibua swali la urithi. Somo hili 
 Ili kwenda hatua moja zaidi na kuimarisha zaidi mkakati wako wa usalama, ninapendekeza kwamba ujifunze utendakazi wa kiufundi wa Bitcoin Wallet yako. Kwa kuelewa jinsi Elements mbalimbali huingiliana, pamoja na umuhimu na athari zake, utaweza kurekebisha mkakati wako wa usalama kwa ufahamu kamili wa hatari zinazohusika. Hasa, ikiwa unaelewa katika kiwango cha kiufundi kile maneno ya Mnemonic huwezesha, utaweza kurekebisha jinsi unavyorekodi, kuhifadhi na kudhibiti kwa muda.
 
 
-Ndiyo sababu ninakualika kuchukua kozi ya bure ya CYP201 inayotolewa na Plan ₿ Network. Kozi hii ya mafunzo inafafanua kwa kina utendakazi wote wa pochi za Bitcoin, kukuwezesha kumudu vipengele vya kiufundi muhimu ili kupata pesa zako kwa ufanisi :
+Ndiyo sababu ninakualika kuchukua kozi ya bure ya CYP201 inayotolewa na Plan ₿ Academy. Kozi hii ya mafunzo inafafanua kwa kina utendakazi wote wa pochi za Bitcoin, kukuwezesha kumudu vipengele vya kiufundi muhimu ili kupata pesa zako kwa ufanisi :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!

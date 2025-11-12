@@ -51,7 +51,7 @@ U Bitcoin protokolu, stavke kao što su _račun_ ili _novčane jedinice_ ne post
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Sa Bitcoin ono što akumulirate i kasnije trošite su male ili velike jedinice računa merene u Satoshi, predstavljene kao `nepotrošeni izlazi transakcija`, **UTXO**, takođe nazvani `novčići`. Kada koristite UTXO-e za kreiranje transakcije, oni su potpuno uništeni i drugi UTXO-i se stvaraju na njihovom mestu.
 
@@ -568,7 +568,7 @@ Coin kontrola je veoma efikasna praksa za odabir ulaza vaših transakcija. Ručn
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ranije smo razgovarali o `segregation of remains`. Ako želite zaključati ostatke za kasniju obradu i povratiti privatnost (swap na Layer 2), morate se pobrinuti da ih `label` svaki put kada primite jedan. Od Softverskih Novčanika viđenih do sada, samo Electrum grafički boji UTXO ostatke kako bi bili vidljivi na prvi pogled. Drugi, kao što je Sparrow, prikazuju vam lanac u putanji derivacije pojedinačnog UTXO (`m/84'/0'/0'/1/11`).
 

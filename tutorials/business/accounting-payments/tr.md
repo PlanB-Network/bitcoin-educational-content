@@ -28,7 +28,7 @@ Bir sonraki adım, Bitcoin'yı doğrudan işletmenizde kabul etmektir; bunu yapm
 Basit olması için örnek olarak Satoshi'un Wallet'unu kullanacağız. Kurmak ve yapılandırmak için aşağıdaki adımları izleyin:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Kılavuzu izledikten sonra, Bitcoin'yi bir ödeme yöntemi olarak kabul etmeye hazır olacaksınız: mobil uygulamayı açın ve "Al" düğmesine tıklayın, ardından kullanıcı tarafından ödenecek tutarı (genellikle yerel para biriminizde) generate ve Invoice'e girin.
 
@@ -59,7 +59,7 @@ Satış Noktası özelliğini kullanmanın faydaları üç yönlüdür:
 Daha fazla bilgi için Satoshi - Satış Noktası'nın Wallet bölümündeki özel eğitime bakın:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Yönetmelik
 

@@ -1,6 +1,6 @@
 ---
 name: Kuongeza Mjenzi
-description: Jinsi ya kupendekeza kuongezwa kwa mjenzi mpya kwenye PlanB Network?
+description: Jinsi ya kupendekeza kuongezwa kwa mjenzi mpya kwenye Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Jinsi ya kupendekeza kuongezwa kwa mjenzi mpya kwenye PlanB Network
 Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin, katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, ambayo inaruhusu mtu yeyote kushiriki katika kuimarisha jukwaa.
 
 
-Je, ungependa kuongeza "mjenzi" mpya wa Bitcoin kwenye tovuti ya PlanB Network na kutoa mwonekano kwa kampuni au programu yako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
+Je, ungependa kuongeza "mjenzi" mpya wa Bitcoin kwenye tovuti ya Plan ₿ Academy na kutoa mwonekano kwa kampuni au programu yako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ Je, ungependa kuongeza "mjenzi" mpya wa Bitcoin kwenye tovuti ya PlanB Network n
 - Kwanza, unahitaji kuwa na akaunti ya GitHub. Ikiwa hujui jinsi ya kuunda akaunti, tumekuandalia mafunzo ya kina.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- Ikiwa hujawahi kuchangia yaliyomo kwenye PlanB Network hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, ambayo hukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
+- Ikiwa hujawahi kuchangia yaliyomo kwenye Plan ₿ Academy hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, ambayo hukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
 
 ![project](assets/04.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- Ukurasa mpya utafunguliwa. Buruta na udondoshe picha ya kampuni yako au programu yako kwenye eneo hilo. Picha hii itaonyeshwa kwenye tovuti ya PlanB Network:
+- Ukurasa mpya utafunguliwa. Buruta na udondoshe picha ya kampuni yako au programu yako kwenye eneo hilo. Picha hii itaonyeshwa kwenye tovuti ya Plan ₿ Academy:
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- Kwa kitufe cha `wachangiaji`, unaweza kuongeza kitambulisho chako cha mchangiaji kwenye PlanB Network ikiwa unayo. Usipofanya hivyo, acha uga huu tupu.
+- Kwa kitufe cha `wachangiaji`, unaweza kuongeza kitambulisho chako cha mchangiaji kwenye Plan ₿ Academy ikiwa unayo. Usipofanya hivyo, acha uga huu tupu.
 - Kwa kitufe cha `maelezo`, unahitaji tu kuongeza aya fupi inayoelezea kampuni yako au programu yako. Maelezo lazima yawe katika lugha sawa na jina la faili. Hauhitaji kutafsiri maelezo haya katika lugha zote zinazotumika kwenye tovuti, kwani timu za PlanB zitafanya hivyo kwa kutumia muundo wao. Kwa mfano, hii ndiyo faili yako na inaweza kuonekana kama hivi:
 
 ```yaml
@@ -329,10 +329,10 @@ contributors:
 
 ![project](assets/44.webp)
 
-Hongera! PR yako imeundwa. Msimamizi sasa atakagua na, ikiwa kila kitu kiko sawa, ataunganisha kwenye hazina kuu ya PlanB Network. Unapaswa kuona wasifu wako wa mjenzi ukionekana kwenye tovuti siku chache baadaye.
+Hongera! PR yako imeundwa. Msimamizi sasa atakagua na, ikiwa kila kitu kiko sawa, ataunganisha kwenye hazina kuu ya Plan ₿ Academy. Unapaswa kuona wasifu wako wa mjenzi ukionekana kwenye tovuti siku chache baadaye.
 
 
-Hakikisha unafuata maendeleo ya PR yako. Msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuishauri kwenye kichupo cha `Vuta maombi` kwenye hazina ya PlanB Network GitHub:
+Hakikisha unafuata maendeleo ya PR yako. Msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuishauri kwenye kichupo cha `Vuta maombi` kwenye hazina ya Plan ₿ Academy GitHub:
 
 ![project](assets/45.webp)
 

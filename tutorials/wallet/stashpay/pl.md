@@ -42,7 +42,7 @@ Po zainstalowaniu aplikacji StashPay utworzy dla Ciebie początkowy Bitcoin Wall
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Uzyskaj dostęp do ustawień StashPay, klikając ikonę "Ustawienia", a następnie kliknij opcję **Utwórz kopię zapasową**. Następnie autoryzuj wyświetlanie fraz odzyskiwania. Nie kopiuj fraz odzyskiwania do schowka telefonu, ponieważ mogą one być dostępne dla innych nieuczciwych aplikacji zainstalowanych na telefonie.
 
@@ -88,7 +88,7 @@ Zauważyłeś, że aby otrzymać satoshis, będziesz musiał uiścić opłatę s
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Wysyłaj bitcoiny za pomocą StashPay
 
@@ -106,7 +106,7 @@ Ponieważ StashPay jest Wallet opartym na Breez Development Kit, korzysta z inte
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Breez SDK narzuca jednak minimalną kwotę, przy której można wysyłać bitcoiny do Address w głównym łańcuchu.
 
@@ -168,4 +168,4 @@ Właśnie zapoznałeś się z minimalistycznym Bitcoin Wallet od StashPay. Jeśl
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

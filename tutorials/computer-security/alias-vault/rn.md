@@ -185,7 +185,7 @@ Imbere y’uko ukoresha iyi imeyili ku bijanye n’injira, urashobora kugerageza
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Kugira ngo usibe izina ry'ibanga waremye nk'ikigeragezo, ico ubwirizwa gukora n'ukwinjira muri `Home` yawe, hanyuma `Credentials` maze ukande ku nzira ushaka gukuraho. Itegeko _Delete_ rizoboneka mu mfuruka yo hejuru iburyo kugira ngo ushobore gukomeza.
 

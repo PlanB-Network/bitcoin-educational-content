@@ -1,21 +1,18 @@
 ---
-name: Einführung in die Österreichische Schule der Nationalökonomie
-goal: Entdecke die Österreichische Schule der Nationalökonomie. Studiere ihre Ansichten über Gesellschaft und makro-/mikroökonomische Realitäten.
+name: Grundlagen der Österreichischen Schule der Nationalökonomie
+goal: Entdecken Sie die Österreichische Schule der Nationalökonomie als alternativen Rahmen zur Analyse von Märkten und individueller Entscheidungsfindung
 objectives:
-  - Eine Alternative zum Keynesianismus
-  - Die Bedeutung von Hartwährung
-  - Warum und wie werden unsere Wirtschaftszyklen erschaffen?
-  - Warum sind die Zentralbanker verrückt geworden?
+- Die Funktionen von Geld, Kredit und Zentralbanksystemen analysieren
+- Die subjektive Werttheorie und Zeitpräferenz auf Marktverhalten anwenden
+- Die Österreichische Konjunkturtheorie und ihre Ursachen verstehen
+- Die Österreichische Methodologie mit mainstream-ökonomischen Ansätzen vergleichen
 ---
+# Reise zur Österreichischen Ökonomie
 
-# Eine Reise in die Wirtschaftswissenschaften
+Haben Sie sich jemals gefragt, warum manche Ökonomen anders über Märkte, Freiheit und menschliches Verhalten denken? Die Österreichische Ökonomie bietet eine erfrischende Perspektive, die Sie in den Mittelpunkt des ökonomischen Denkens stellt. Anstelle von komplizierter Mathematik und abstrakten Modellen konzentriert sich dieser Ansatz auf Logik, menschliche Entscheidungen und darauf, wie echte Menschen in ihrem täglichen Leben Entscheidungen treffen. Es ist Ökonomie durch die Linse von Freiheit, Rationalität und persönlichem Handeln.
 
-Willkommen zu Théo Mogenet Kurs! Als leidenschaftlicher Kenner der Wirtschaftswissenschaften, Geschichte, Literatur, Politikwissenschaften und Technologie hat er sich dazu entschlossen, sein Wissen über die österreichische Wirtschaftswissenschaft mit Ihnen zu teilen. Diese weniger bekannte Richtung in der Wirtschaftswissenschaft basiert auf menschlicher Rationalität und dem Verhalten freier Akteure. Weniger mathematisch intensiv, handelt es sich vor allem um Logik und soziale Studien.
-
-Diese Denkschule hat bereits mehrere Jahrhunderte hinter sich und eine ganze Reihe von Autoren, Gedanken und Ökonomen stehen dahinter. Große Namen der Wirtschaftswissenschaften wie Hayek, Rothbard, Mises, Bastiat oder Menger haben diese Bewegung lange verteidigt. Im Gegensatz zum allgegenwärtigen Keynesianismus unserer Zeit stellt die österreichische Schule das Individuum wieder in den Mittelpunkt der Gleichung mit einem liberaleren, kapitalistischeren und sogar anarchistischen Ansatz.
-
+Diese Denkschule prägt seit Jahrhunderten Debatten, dank einflussreicher Denker wie Hayek, Mises und Bastiat. Während die keynesianische Mainstream-Ökonomie heute die politischen Diskussionen dominiert, stellt die österreichische Tradition andere Fragen: Was passiert, wenn wir individuelle Freiheit priorisieren? Wie funktionieren freie Märkte tatsächlich, wenn Menschen frei wählen können? Wenn Sie neugierig auf alternative Denkweisen über Märkte, Gesellschaft und Freiheit sind, ist dies Ihre Chance, Ideen zu erkunden, die Sie in Standardlehrbüchern nicht finden werden.
 +++
-
 # Einführung
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

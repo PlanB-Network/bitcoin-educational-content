@@ -6,4 +6,4 @@ wrong_answers:
   - ip route show
 explanation: |
   "ip addr show" liste toutes les interfaces réseau, leur état, leurs adresses et paramètres associés.
-reviewed: false
+reviewed: true 

@@ -6,4 +6,4 @@ wrong_answers:
   - instalar-software
 explanation: |
   El comando "sudo apt install" instala un paquete de software a través del gestor de paquetes APT, el método nativo en Ubuntu.
-reviewed: false
+reviewed: true

@@ -1,31 +1,18 @@
 ---
-name: Máy chủ thanh toán Bitcoin và BTC
-goal: Cài đặt BTC Pay Server cho doanh nghiệp của bạn
-objectives: 
-
-  - Hiểu btcpayserver là gì.
-  - Tự lưu trữ và cấu hình Máy chủ thanh toán BTC.
-  - Sử dụng btcpayserver trong hoạt động kinh doanh hàng ngày của bạn.
-
+name: Làm chủ BTC Pay Server
+goal: Cấu hình một phiên bản BTC Pay Server cho doanh nghiệp địa phương
+objectives:
+- Hiểu các nguyên tắc cơ bản về vai trò của BTCPay Server trong xử lý thanh toán
+- Thành thạo hoạt động bên trong của quy trình cấu hình BTCPay Server
+- Triển khai BTCPay Server trên môi trường đám mây và dựa trên nút
+- Trở thành người vận hành BTC Pay Server
 ---
+# Hành Trình Đến Chủ Quyền Tài Chính
 
-# Máy chủ Bitcoin và BTCPay
+Niềm tin rất mong manh, đặc biệt khi liên quan đến tiền bạc. Khóa học giới thiệu này hướng dẫn bạn qua BTCPay Server, một công cụ mạnh mẽ cho phép bạn chấp nhận thanh toán Bitcoin mà không cần dựa vào bên thứ ba. Bạn sẽ học các kiến thức cơ bản để trở thành người vận hành BTCPay Server
 
-
-Đây là khóa học giới thiệu về BTCPay Server Operator, do Alekos và Bas biên soạn, được melontwist và asi0 điều chỉnh cho phù hợp với Định dạng khóa học Plan ₿.
-
-
-MỘT CÂU CHUYỆN CHƯA HOÀN THÀNH
-
-
-"Đây là lời nói dối, niềm tin của tôi dành cho anh đã tan vỡ, tôi sẽ khiến anh trở nên lỗi thời".
-
-
-Được sản xuất bởi BTCPay Server Foundation
-
-
+Được tạo bởi Alekos và Bas, và chuyển thể bởi melontwist và asi0, khóa học này tiết lộ cách các cá nhân và doanh nghiệp đang xây dựng các giải pháp thay thế cho hệ thống thanh toán truyền thống. Cho dù bạn tò mò về Bitcoin hay sẵn sàng vận hành cơ sở hạ tầng thanh toán cho doanh nghiệp, bạn sẽ khám phá các kỹ năng thực tế thách thức hiện trạng. Sẵn sàng khám phá sự độc lập tài chính thực sự trông như thế nào chưa?
 +++
-
 # Giới thiệu
 
 

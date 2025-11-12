@@ -185,7 +185,7 @@ Enne selle e-posti kasutamist sisselogimisteenuse jaoks saate selle funktsionaal
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Testina loodud aliase kustutamiseks tuleb teil vaid logida sisse oma "Kodu", seejärel "Volitused" ja klõpsata identiteedil, mida soovite kustutada. Paremasse ülanurka ilmub käsk _Delete_, et saaksite jätkata.
 

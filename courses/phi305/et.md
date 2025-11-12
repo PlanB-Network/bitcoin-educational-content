@@ -1,35 +1,18 @@
 ---
 name: Spinoza ja Bitcoin
 goal: Avastage filosoofilised seosed Spinoza mõtte ja Bitcoin kui vabaduse tööriistade vahel läbi sajandite.
-objectives: 
-
-
-  - Spinoza praktilise filosoofia ja tema vabaduspüüdluste mõistmine.
-  - Spinozistlike mõistete determinismi ja inimlike illusioonide uurimine.
-  - Analüüsides paralleele Spinoza ideede revolutsiooni ja Bitcoin tehnoloogilise revolutsiooni vahel.
-
-
-
+objectives:
+- Spinoza praktilise filosoofia ja tema vabaduse otsingu mõistmine.
+- Spinozistlike determinismi ja inimlike illusioonide kontseptsioonide uurimine.
+- Spinoza ideede revolutsiooni ja Bitcoini tehnoloogilise revolutsiooni vaheliste paralleelide analüüsimine.
+- Afektiteooria rakendamine manipuleerimise äratundmiseks ja sellele vastupanu osutamiseks poliitilistes süsteemides.
 ---
+# Kui Spinoza kohtus Satoshiga
 
-# Vabaduse filosoofiline uurimine Spinoza ja Bitcoin kaudu
+Avastage, kuidas 17. sajandi filosoofi Baruch de Spinoza radikaalsed ideed vabadusest, mõistusest ja võimust ennustavad Bitcoini detsentraliseeritud revolutsiooni. See kursus paljastab silmatorkavad paralleelid: mõlemad lükkavad tagasi pimeda usu ja keskse autoriteedi, mõlemad kasutavad vabastamiseks matemaatilist rangust. Spinoza vabastas meeled religioossest dogmast, Bitcoin vabastab raha riiklikust kontrollist.
 
-
-
-See kursus uurib sügavaid seoseid Baruch de Spinoza (1632-1677) ja Bitcoin revolutsioonilise filosoofia vahel, mis on kaks vabaduse tööriista, mida lahutavad sajandid, kuid ühendab üks ja sama püüdlus: inimese vabanemine orjusest.
-
-
-
-Avastame, kuidas Spinoza, ratsionaalse valgustusfilosoofia isa, töötas välja praktilise eetika, et vabastada meid meid vangistavatest illusioonidest - vabast tahtest, finalismist ja teoloogilistest ebauskudest. Tema geomeetriline meetod ja afektiteooria näitavad meile, kuidas mõista meie kohta maailmas ja suunata oma eksistentsi sellele, mis suurendab meie tegutsemisvõimet.
-
-
-
-Seejärel tõmbab kursus põnevaid paralleele selle Koperniku ideede revolutsiooni ja Bitcoin vahel: kaks süsteemi, mis ei nõua ei pimedat usku ega keskvõimu, vaid lihtsalt mõistuse kasutamist. Nii nagu Spinozism vabastas mõtlemise religioossetest dogmadest, vabastab Bitcoin raha riiklikust kontrollist, pakkudes uut liiki majanduslikku vabadust, mille juured on matemaatikas ja krüptograafias.
-
-
-
+Õppige Spinoza eetikast praktilisi tööriistu, et mõista bitcoini filosoofilisi aluseid ja suurendada oma tegutsemisvõimet. Kas olete valmis uurima kahte ajaloo suurimat inimese emantsipatsiooni instrumenti?
 +++
-
 # Sissejuhatus
 
 

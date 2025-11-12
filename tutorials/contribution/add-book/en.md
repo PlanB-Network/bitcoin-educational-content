@@ -1,23 +1,23 @@
 ---
-name: Adding a Book to PlanB Network
-description: How to add a new book to PlanB Network?
+name: Adding a Book to Plan ₿ Academy
+description: How to add a new book to Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
 PlanB's mission is to provide top-tier educational resources on Bitcoin in as many languages as possible. All content published on the site is open-source and hosted on GitHub, allowing anyone to contribute to the enrichment of the platform.
 
-**Do you want to add a book related to Bitcoin on the PlanB Network site and increase the visibility of your work, but don't know how? This tutorial is for you!**
+**Do you want to add a book related to Bitcoin on the Plan ₿ Academy site and increase the visibility of your work, but don't know how? This tutorial is for you!**
 ![book](assets/01.webp)
 - First, you need to have a GitHub account. If you don't know how to create an account, we have made a detailed tutorial to guide you.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) in the `resources/books/` section:
 ![book](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![book](assets/03.webp)
-- If you have never contributed to the contents of PlanB Network before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, allowing you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
+- If you have never contributed to the contents of Plan ₿ Academy before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, allowing you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
 ![book](assets/04.webp)
 - You will then arrive at the GitHub editing page:
 ![book](assets/05.webp)
@@ -71,7 +71,7 @@ tags:
 ![book](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![book](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![book](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It's probably called `patch-1`. Click on it:
 ![book](assets/16.webp)
@@ -93,7 +93,7 @@ tags:
 ![book](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`:
 ![book](assets/25.webp)
-- A new page will open. Drag and drop the cover image of your book into the area. This image will be displayed on the PlanB Network site:
+- A new page will open. Drag and drop the cover image of your book into the area. This image will be displayed on the Plan ₿ Academy site:
 ![book](assets/26.webp)
 - Be careful, the image must be in the format of a book, to best adapt to our website, like for example:
 ![book](assets/27.webp)
@@ -161,8 +161,8 @@ contributors:
 ![book](assets/43.webp)
 - Click on the `Create pull request` button:
 ![book](assets/44.webp)
-Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of the PlanB Network. You should see your book appear on the website a few days later.
+Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of the Plan ₿ Academy. You should see your book appear on the website a few days later.
 
-Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the PlanB Network's GitHub repository:
+Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the Plan ₿ Academy's GitHub repository:
 ![book](assets/45.webp)
 Thank you very much for your valuable contribution! :)

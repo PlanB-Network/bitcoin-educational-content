@@ -90,7 +90,7 @@ Ni mwiteguye kwisuka mw’isi y’imihora ya mudasobwa? Reka tugende!
 **ICIBUKIRO**: Insobanuro zishingiye kuri sisitemu ya GNU/Linux CentOS 7. Ariko rero, imiterere y’urubuga ni imwe cane iyo ugereranya Debian na CentOS. Rero, nta tandukaniro tuzogira. Iyo hariho, tuzoyibanza n’ikimenyetso kinaka.
 
 
-**N.B.**: Niwahura n’amajambo utamenyereye mu gihe c’amashure, usabwe kuraba [urutonde rw’amajambo](https://planb.network/resources/urutonde rw’amajambo) kugira ngo ubone insobanuro.
+**N.B.**: Niwahura n’amajambo utamenyereye mu gihe c’amashure, usabwe kuraba [urutonde rw’amajambo](https://planb.academy/resources/urutonde rw’amajambo) kugira ngo ubone insobanuro.
 
 
 
@@ -283,11 +283,11 @@ Buri Layer y’ikirundo ca TCP/IP itanga ibikorwa vyihariye, bikaba bishoboka ko
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS amasezerano
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Amasezerano ya TCP
 
@@ -1379,11 +1379,11 @@ Mu gice gikurikira, turaza kuraba mu buryo burambuye IP Address configuration ir
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Ni gute notunganya urubuga nkoresheje `ip`?
@@ -3068,7 +3068,7 @@ Ibibazo bisubirwamwo canke bikomeye ku maserukira ya DNS y’uwundi muntu ata ru
 Igihe ugenzura canke ucungera urubuga rwo mu karere canke rwo mu karere kanini, birahambaye cane kumenya ibikoresho bikora n’ibikorwa bigaragaza. Ivyo ni vyo nyene igikoresho ca `nmap` (*Igikoresho co gukora ikarita y'urubuga*) gikora.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Gutanguza `nmap`
 
@@ -3120,7 +3120,7 @@ Umuyobozi ashobora kwizigira `nmap` ku bikorwa vyinshi:
 - **Ukwirinda ingorane**: kubona ibikorwa bidatekanye canke vya kera bikoreshwa ku mashini zihambaye.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Ibikoresho vyo kubaza ibibazo
 

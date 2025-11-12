@@ -1,5 +1,5 @@
 question: ¿Cuál es la función principal del núcleo en un sistema operativo?
-answer: Gestionar el acceso a los equipos
+answer: Gestionar el acceso a los dispositivos hardware
 wrong_answers:
   - Mostrar anuncios
   - Gestionar cuentas de usuario

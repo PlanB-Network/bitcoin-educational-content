@@ -1,12 +1,12 @@
 ---
-name: Teoretisk introduksjon til Lightning Network
+name: Lightning Network-teori
 goal: Oppdag Lightning Network fra et teknisk perspektiv
 objectives:
-  - Forstå driften av nettverkets kanaler.
-  - Bli kjent med begrepene HTLC, LNURL og UTXO.
-  - Tilegne seg håndtering av likviditet og gebyrer i LNN.
-  - Gjenkjenne Lightning Network som et nettverk.
-  - Forstå de teoretiske bruksområdene til Lightning Network.
+- Forstå driften av nettverkets kanaler.
+- Bli kjent med begrepene HTLC, LNURL og UTXO.
+- Tilegne seg håndtering av likviditet og gebyrer i LNN.
+- Gjenkjenne Lightning Network som et nettverk.
+- Forstå de teoretiske bruksområdene til Lightning Network.
 ---
 
 # En reise til Bitcoins andre lag

@@ -738,4 +738,4 @@ LineageOS erbjuder ett moget alternativ för att återfå kontrollen över din A
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

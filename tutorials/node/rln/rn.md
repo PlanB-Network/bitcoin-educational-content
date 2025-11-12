@@ -45,7 +45,7 @@ RGB Contract itunganijwe nk’imashini y’igihugu y’iterambere. Bitangura na 
 Kugira ngo umenye vyinshi ku bijanye n’ingene umurongo wa RGB ukora, ndagusavye gufata iyi nyigisho yuzuye:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-ihuye n'umuravyo gushirwaho
 
@@ -302,7 +302,7 @@ Birumvikana ko ushobora guhindura urutonde rw’ibintu. Kugira ngo twemeze ibiko
 ```
 
 
-Ubu turashobora kurema umutungo wa RGB. Itegeko rizovana n'ubwoko bw'umutungo wipfuza kurema n'imirongo yawo. Aha ndiko ndakora NIA (*Itunga Ridashobora Gufutwa*) token ryitwa "PBN" rifise Supply y'ibice 1000. `Ugushikama` bigufasha gusobanura ukuntu ibice bishobora kugabanywa.
+Ubu turashobora kurema umutungo wa RGB. Itegeko rizovana n'ubwoko bw'umutungo wipfuza kurema n'imirongo yawo. Aha ndiko ndakora NIA (*Itunga Ridashobora Gufutwa*) token ryitwa "Plan ₿ Academy" rifise Supply y'ibice 1000. `Ugushikama` bigufasha gusobanura ukuntu ibice bishobora kugabanywa.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Itegeko rigarura urufunguzo rwa bose rw'uruzitiro rwanje n°2 :
 ![RLN](assets/fr/13.webp)
 
 
-Ibikurikira, tuzofungura umurongo mu kugaragaza umutungo ubereye (`PBN`). Itegeko `/openchannel` rigufasha gusobanura ubunini bw'umurongo mu satoshis no guhitamwo gushiramwo umutungo wa RGB. Bivana n'ico ushaka kurema, ariko muri jewe, itegeko ni :
+Ibikurikira, tuzofungura umurongo mu kugaragaza umutungo ubereye (`Plan ₿ Academy`). Itegeko `/openchannel` rigufasha gusobanura ubunini bw'umurongo mu satoshis no guhitamwo gushiramwo umutungo wa RGB. Bivana n'ico ushaka kurema, ariko muri jewe, itegeko ni :
 
 
 ```bash
@@ -408,7 +408,7 @@ Kugira ngo bemeze ko ivyo bigurishwa, amabuye 6 aracukurwa:
 ![RLN](assets/fr/15.webp)
 
 
-Umurongo w'umuravyo ubu warafunguye kandi urimwo n'ibimenyetso 500 vya `PBN` ku ruhande rwa node n°1. Niba urudodo n°2 rushaka kwakira ibimenyetso vya `PBN`, rutegerezwa kuba generate na Invoice. Ehe ingene wobikora:
+Umurongo w'umuravyo ubu warafunguye kandi urimwo n'ibimenyetso 500 vya `Plan ₿ Academy` ku ruhande rwa node n°1. Niba urudodo n°2 rushaka kwakira ibimenyetso vya `Plan ₿ Academy`, rutegerezwa kuba generate na Invoice. Ehe ingene wobikora:
 
 
 ```bash
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Ubu tuzoriha iyi Invoice kuva ku nzira ya mbere, ifise amahera akenewe n'iyi `PBN` token:
+Ubu tuzoriha iyi Invoice kuva ku nzira ya mbere, ifise amahera akenewe n'iyi `Plan ₿ Academy` token:
 
 
 ```bash
@@ -499,4 +499,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane woshira urukumu rwa
 Ndasaba kandi iyi yindi nyigisho aho ndasigura ingene wokoresha igikoresho ca RGB CLI cakozwe n’ishirahamwe LNP/BP kugira ngo ukore RGB Contract:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

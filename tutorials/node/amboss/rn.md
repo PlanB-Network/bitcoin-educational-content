@@ -11,7 +11,7 @@ Lightning Network ni Layer y’amasezerano ya Bitcoin, yateguwe ahanini mu gutez
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Nk’uko biri ku ruzitiro rwa mbere, vyacitse ngombwa ko abakoresha bamenya amakuru n’aho urubuga ruri, kugira ngo bishobore kworohereza amasano hagati y’ibice no kugabanya ingorane y’amahera ishobora gushika muri rusangi mu rubuga. Nkako, kuri Lightning Network, turasaba ko umuntu yishura amahera makeyi cane kuruta ayo umuntu akoresha ku ruhererekane rwa Bitcoin.
 
@@ -34,7 +34,7 @@ Nka [Ikibanza ca Mempool](https://Mempool.ikibanza), itanga amakuru ngirakamaro 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Muri iyi nyigisho, tuzogutwara mu rugendo rwo kuri iyi platform, ariyo nzira y’ingenzi ku bakoresha Lightning Network, abashaka gufatanya node yabo kugira ngo bagure urubuga, n’ibindi.
 
@@ -57,7 +57,7 @@ Kimwe mu ntumbero z’urubuga rwa Amboss ni ugutuma ama node atandukanye ari mur
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Kuri paji y'intango, uzosanga kandi uturongo twashizwe mu migwi hakurikijwe :
 
@@ -304,4 +304,4 @@ Ubu waragendeye vyose ibiranga urubuga n’ibikoresho vyo gusesangura. Turagusav
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

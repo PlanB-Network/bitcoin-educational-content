@@ -289,9 +289,9 @@ Ikihitajika, rejelea mafunzo yaliyo hapa chini ili kujifahamisha na programu ya 
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Hamisha Wallet Multisig 2-sur-3 hadi Sparrow wallet
 
@@ -464,7 +464,7 @@ Hakuna tatizo wakati huu, hakuna ujumbe wa onyo unaoonekana, na tunapoingiza mua
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Web 2FA & Anwani Zilizoidhinishwa
 
@@ -506,11 +506,11 @@ Kipengele hiki hukuwezesha kutumia programu inayotii TOTP RFC-6238 kama vile Kit
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Kwa maneno madhubuti, kabla ya kusaini muamala, utahitaji kuleta kifaa chako kilichounganishwa na intaneti kilichowezeshwa na NFC karibu na Coldcard yako. Hii itakupeleka kiotomatiki kwenye ukurasa wa wavuti wa coldcard.com, ambapo utaombwa kuingiza msimbo wa tarakimu 6 wa programu yako. Ukiweka msimbo sahihi, ukurasa wa wavuti utakuonyesha ama msimbo wa QR ili kutafuta ColdCardQ, au msimbo wa tarakimu 8 wa kuweka kwenye Mk4 yako, ili kuidhinisha kifaa chako kutia sahihi.
 

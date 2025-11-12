@@ -73,7 +73,7 @@ _این آموزش صرفاً برای اهداف آموزشی و اطلاعات
 اگر می‌خواهید یک همکار پیدا کنید که مایل به کمک در یک تراکنش Stonewall X2 باشد، می‌توانید به این گروه تلگرام (غیررسمی) که توسط کاربران Samourai برای ارتباط فرستندگان و همکاران نگهداری می‌شود، مراجعه کنید: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> درباره تراکنش‌های Stonewall بیشتر بدانید**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> درباره تراکنش‌های Stonewall بیشتر بدانید**](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## هدف از تراکنش Stonewall x2 چیست؟

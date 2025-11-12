@@ -54,7 +54,7 @@ Ili kupakua Electrum, ninapendekeza ufuate hatua za kwanza kwenye somo hili:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Baada ya kupakua kila mara thibitisha toleo kabla ya kulisakinisha, kisha endelea na usanidi wa "Seva Moja", kama utakavyopata katika sehemu ya usaidizi, chini ya `Anza na Dummy Wallet`.
 

@@ -191,7 +191,7 @@ Program biasanya menjalankan operasi pada data.
 Variabel seperti kotak bernama yang kita gunakan untuk menyimpan data. Variabel memungkinkan kita untuk mengaitkan sebuah data dengan nama tertentu, sehingga kita dapat mengambilnya nanti dengan menggunakan nama tersebut.
 
 
-### deklarasi `biarkan`
+### deklarasi biarkan
 
 
 Untuk mendeklarasikan sebuah variabel dalam JavaScript, kita dapat menggunakan kata kunci `let`.
@@ -355,7 +355,7 @@ Bob
 Seperti yang Anda lihat, baik `skor` maupun `pemain` telah diubah.
 
 
-### deklarasi `const` deklarasi
+### deklarasi const deklarasi
 
 
 Sering kali, kita tidak ingin sebuah variabel berubah setelah dibuat. Untuk itu, kita menggunakan `const`.
@@ -875,7 +875,7 @@ undefined
 Apa itu??
 
 
-### `tidak terdefinisi`
+### tidak terdefinisi
 
 
 Nilai khusus `undefined` berarti "tidak ada nilai yang ditetapkan".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` dan cara mengatasinya
+### null dan cara mengatasinya
 
 
 `null` juga merupakan nilai khusus. Ini berarti "tidak ada apa pun di sini, dan saya sengaja melakukannya."
@@ -1075,7 +1075,7 @@ Ini berarti kita dapat menggunakan blok untuk mengisolasi bagian dari kode kita,
 Mengatur kode kita dalam blok-blok memungkinkan kita juga untuk menyusun eksekusi program, dengan konstruksi aliran kontrol seperti `if`
 
 
-### `jika`, `lain`
+### jika, lain
 
 
 Terkadang kita ingin menjalankan kode **hanya jika** sesuatu yang benar. Untuk itulah pernyataan `if` digunakan.
@@ -1190,7 +1190,7 @@ Karena kita menggunakan operator `!` untuk membalikkan variabel `dewasa`.
 Dengan menggunakan blok, logika, dan operator pembanding, kita dapat menyusun eksekusi program, dengan mendefinisikan variabel yang harus bernilai 'benar' (atau 'salah') agar sesuatu dapat terjadi.
 
 
-### `sementara`, `pecah`, `lanjutkan`
+### sementara, pecah, lanjutkan
 
 
 Perulangan `sementara` mengulang kode *selama* suatu kondisi bernilai benar.
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `kembali` (keluaran dari fungsi)
+### kembali (keluaran dari fungsi)
 
 
 Fungsi juga dapat **mengembalikan** nilai. Ini berarti fungsi tersebut mengirimkan nilai kembali ke tempat fungsi itu dipanggil.
@@ -1749,7 +1749,7 @@ JavaScript sering disebut sebagai bahasa berorientasi objek.
 Artinya, ini membantu Anda mengatur kode Anda dengan mengelompokkan nilai dan fungsi menjadi **objek**.
 
 
-### Apa yang dimaksud dengan `objek`?
+### Apa yang dimaksud dengan objek?
 
 
 Sebuah objek dapat berisi data dan fungsi yang beroperasi pada data tersebut. Ketika sebuah fungsi dimasukkan ke dalam sebuah objek, kita menyebutnya sebagai sebuah `metode`.
@@ -2252,7 +2252,7 @@ JavaScript memungkinkan Anda membentuk ulang objek secara bebas, tetapi ketika m
 
 
 
-### Pewarisan dengan `extends` dan `super()`
+### Pewarisan dengan extends dan super()
 
 
 Terkadang Anda ingin membuat kelas yang *hampir* sama dengan kelas lain, tetapi dengan beberapa fitur tambahan.
@@ -2374,7 +2374,7 @@ Jadi untuk meringkas
 Hal ini sangat membantu ketika Anda memiliki beberapa benda yang mirip (seperti mobil, truk, dan sepeda) dan Anda ingin mereka berbagi kode namun tetap berperilaku dengan caranya sendiri.
 
 
-### `instanceof`
+### instanceof
 
 
 Kata kunci `instanceof` memeriksa apakah sebuah objek dibuat dari kelas tertentu.
@@ -2439,7 +2439,7 @@ Ketika Anda menulis program JavaScript yang lebih kompleks, Anda akan menemukan 
 Jika kita tidak menangani kesalahan ini dengan benar, program kita mungkin akan crash atau berperilaku tidak sesuai harapan. JavaScript menyediakan alat untuk mendeteksi dan mengelola kesalahan ini sehingga kita dapat menanganinya dengan lebih baik.
 
 
-### Kesalahan umum: mengakses nilai pada `undefined`
+### Kesalahan umum: mengakses nilai pada undefined
 
 
 Berikut adalah situasi umum yang menyebabkan kesalahan:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 Itulah yang diberitahukan JavaScript kepada Anda: "Hei, Anda mencoba mendapatkan properti `nama` dari sesuatu yang `tidak terdefinisi`, dan itu tidak masuk akal." Dan seperti yang Anda lihat, ketika kesalahan seperti ini terjadi, program akan berhenti berjalan kecuali Anda secara khusus menulis kode untuk menangkap dan menanganinya.
 
 
-### `membuang` kesalahan
+### membuang kesalahan
 
 
 Terkadang Anda ingin secara manual `membangkitkan kesalahan` dalam kode Anda. Dalam hal ini, Anda menggunakan kata kunci `throw`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Pemanggilan kedua menyebabkan kesalahan karena membagi dengan nol tidak diperbolehkan dalam contoh ini.
 
 
-### Menangkap kesalahan dengan `coba...tangkap`
+### Menangkap kesalahan dengan coba...tangkap
 
 
 Jika Anda tidak ingin program Anda crash ketika terjadi kesalahan, Anda dapat menangkap kesalahan tersebut dengan menggunakan blok `try...catch`. Hal ini sangat membantu ketika Anda ingin program Anda tetap berjalan meskipun terjadi kegagalan.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Blok `akhirnya`
+### Blok akhirnya
 
 
 Anda juga dapat menambahkan blok `akhirnya`. Ini adalah kode yang **selalu berjalan**, baik ketika terjadi kesalahan atau tidak.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Bab ini menunjukkan beberapa jebakan paling umum dalam JavaScript, dan cara menghindarinya.
 
 
-### `var` dan Assignment tanpa deklarasi
+### var dan Assignment tanpa deklarasi
 
 
 Pada kode JavaScript yang lebih lama, variabel sering dideklarasikan dengan menggunakan kata kunci `var`. Tidak seperti `let` dan `const`, yang telah Anda pelajari, `var` dapat berperilaku dengan cara yang membingungkan.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Nilai default `"teman"` digunakan ketika tidak ada yang dimasukkan.
 
 
-### Parameter penyebaran (`...`)
+### Parameter penyebaran (...)
 
 
 Bagaimana jika fungsi Anda mengambil sejumlah argumen yang fleksibel?
@@ -3030,7 +3030,7 @@ Fungsi `makeGreeter` adalah fungsi yang membangun fungsi lain. Fungsi ini meneri
 Pola semacam ini sangat dahsyat, karena memungkinkan Anda meninggalkan "lubang" dalam fungsi Anda yang bisa Anda isi nanti dengan perilaku yang Anda perlukan.
 
 
-### `peta()`, `filter()`, `kurangi()`
+### peta(), filter(), kurangi()
 
 
 JavaScript memberi Anda beberapa metode bawaan yang berguna untuk digunakan dengan array.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Properti pribadi sangat membantu ketika Anda ingin mencegah perubahan yang tidak disengaja.
 
 
-### properti `statis`
+### properti statis
 
 
 Terkadang, Anda ingin sebuah properti menjadi milik kelas itu sendiri, bukan milik setiap objek yang Anda buat dari kelas tersebut. Untuk itulah kegunaan dari `static`. Sebuah properti `statis` terdapat di dalam kelas dan semua objek dari kelas tersebut akan merujuk ke properti tersebut.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Ini berguna untuk menyimpan data dan metode bersama yang berlaku untuk seluruh kelompok objek, bukan hanya satu.
 
 
-### `dapatkan` dan `set`
+### dapatkan dan set
 
 
 Dalam JavaScript, `get` dan `set` memungkinkan Anda membuat properti yang *terlihat* seperti variabel biasa, tetapi sebenarnya menjalankan kode khusus di latar belakang.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Ini disebut dengan **properti yang dihitung**. Nilai di dalam tanda kurung siku dievaluasi, dan hasilnya digunakan sebagai kunci.
 
 
-### jenis `Simbol`
+### jenis Simbol
 
 
 Selain string, JavaScript juga memungkinkan Anda menggunakan tipe khusus yang disebut `Symbol` sebagai kunci objek.
@@ -3421,7 +3421,7 @@ Seperti yang Anda lihat, properti `nama` asli entah bagaimana dipertahankan deng
 JavaScript memberi kita beberapa objek bawaan yang berguna yang membantu kita melakukan hal-hal seperti debugging dan operasi matematika.
 
 
-### Metode `konsol` lainnya
+### Metode konsol lainnya
 
 
 Anda telah melihat `console.log`, yang mencetak nilai ke layar.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Berguna untuk beberapa pengujian performa sederhana.
 
 
-### Objek `Matematika`
+### Objek Matematika
 
 
 JavaScript memberi Anda objek `Math` dengan metode yang berguna untuk melakukan perhitungan.
@@ -3770,7 +3770,7 @@ Sebagian besar hal dalam JavaScript yang dapat Anda ulangi (seperti array, strin
 Iterator adalah objek khusus dalam JavaScript yang membantu Anda menelusuri daftar item **satu per satu**.
 
 
-### iterator `Objek`
+### iterator Objek
 
 
 Tidak seperti array atau peta, objek biasa **tidak dapat diiterasi** dengan `for...of`. Jika Anda mencoba ini:
@@ -3892,7 +3892,7 @@ Meskipun objek tidak dapat diiterasi secara langsung, metode ini memberi Anda ak
 Tetapi bagaimana cara kerja iterator?
 
 
-### `Simbol.iterator`
+### Simbol.iterator
 
 
 Rahasia di balik semua iterabel adalah **simbol** khusus yang disebut `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Setiap pemanggilan ke `.next()` akan memberikan nilai berikutnya. Setelah selesa
 ```
 
 
-### `next () `
+### next () 
 
 
 Metode `.next()` digunakan untuk mendapatkan item berikutnya dari urutan.
@@ -4046,7 +4046,7 @@ Inilah yang terjadi:
 Sekarang kelas `Range` kita bekerja seperti sebuah array, dan kita dapat menggunakannya dalam setiap loop yang mengharapkan sebuah perulangan.
 
 
-### Fungsi generator dan `hasil`
+### Fungsi generator dan hasil
 
 
 Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function*` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
@@ -4105,7 +4105,7 @@ Hingga saat ini, kode kita bersifat **sinkron**: kode ini berjalan satu per satu
 Dalam bab ini kami akan memperkenalkan konsep baru: **konkurensi**. Konsep ini memungkinkan kita untuk memanipulasi urutan pengerjaan sesuatu. Hal ini berguna ketika berurusan dengan hal-hal seperti pengatur waktu, masukan dari pengguna, atau membaca file dari disk. JavaScript menawarkan alat yang berbeda untuk melakukan konkurensi.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Fungsi `setTimeout` memungkinkan Anda **menjalankan fungsi di lain waktu**, setelah beberapa waktu berlalu.
@@ -4253,7 +4253,7 @@ Di dalamnya, kami memberinya fungsi dengan dua parameter:
 Pada contoh di atas, kita langsung menyelesaikannya dengan pesan "Berhasil!".
 
 
-### `.then()`
+### .then()
 
 
 Untuk melakukan sesuatu **setelah** janji selesai, kita menggunakan `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `menolak() `
+### menolak() 
 
 
 Mari kita buat janji yang **gagal**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Operasi rantai menggunakan `Promise`s
+### Operasi rantai menggunakan Promises
 
 
 
@@ -4551,7 +4551,7 @@ Mari kita telusuri apa yang dilakukannya:
 Setiap `.then()` menunggu langkah sebelum selesai. Jadi kita dapat membangun **rantai aksi** tanpa bersarang. Hal ini membuat kode lebih mudah dibaca dan lebih mudah di-debug.
 
 
-## Konkurensi dengan `asinkronisasi`/`menunggu`
+## Konkurensi dengan asinkronisasi/menunggu
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Kita telah melihat bagaimana rantai `Promise` membantu kita menghindari neraka c
 Di situlah `async` dan `tunggu` berperan. Keduanya memungkinkan kita menulis kode asinkron **yang terlihat seperti kode sinkron**, sehingga lebih mudah dipahami.
 
 
-### Apa yang dimaksud dengan `asinkronisasi`?
+### Apa yang dimaksud dengan asinkronisasi?
 
 
 Ketika Anda menulis kata kunci `async` sebelum sebuah fungsi, JavaScript secara otomatis membungkus nilai kembalian fungsi tersebut dengan Promise.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Atau Anda dapat menggunakan `tunggu`...
 
 
-### Apa yang dimaksud dengan `menunggu`?
+### Apa yang dimaksud dengan menunggu?
 
 
 Kata kunci `tunggu` memberi tahu JavaScript: "tunggu hingga Janji ini selesai, lalu berikan hasilnya."
@@ -4638,7 +4638,7 @@ Sekarang, kita dapat menggunakan hasilnya seolah-olah itu adalah nilai biasa.
 Mari kita lakukan sesuatu yang lebih berguna sekarang.
 
 
-### Mensimulasikan penundaan dengan `tunggu`
+### Mensimulasikan penundaan dengan tunggu
 
 
 Kita akan membuat fungsi `tunggu` sederhana yang mengambil jumlah milidetik sebagai argumen dan hanya menyelesaikannya setelah beberapa milidetik, tanpa melakukan hal lain:
@@ -4881,7 +4881,7 @@ Iterator asinkronisasi berguna ketika:
 Misalnya, jika Anda ingin memuat pesan dari server obrolan satu per satu, atau mengunduh file besar dalam beberapa bagian, iterator asinkronisasi memberi Anda cara untuk menulis perulangan `for` yang bekerja dengan data yang tertunda.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Kita juga dapat menggunakan iterator asinkronisasi di kelas khusus.
@@ -5287,7 +5287,7 @@ NodeJS memungkinkan kita, antara lain, untuk membangun CLI (Command Line Interfa
 Untuk itu kita membutuhkan cara untuk menerima argumen baris perintah, yang di Node dilakukan dengan menggunakan objek `process` bawaan.
 
 
-### `proses`
+### proses
 
 
 NodeJS menyediakan objek khusus yang disebut `process` yang merepresentasikan program yang sedang berjalan.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Ini mencetak platform sistem operasi, seperti `win32`, `linux`, atau `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Ketika Anda menjalankan program NodeJS dari terminal, Anda dapat memasukkan kata-kata tambahan (argumen) setelah nama skrip. Argumen-argumen ini disimpan di dalam `process.argv`.
@@ -5493,7 +5493,7 @@ Anda tidak perlu menginstal modul-modul bawaan ini, modul-modul ini sudah disert
 Bab-bab berikutnya akan menunjukkan kepada Anda beberapa contoh penggunaannya yang berguna.
 
 
-## Modul `fs`
+## Modul fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 File `package.json` hanyalah file JSON yang menyimpan metadata tentang proyek Anda.
@@ -5960,7 +5960,7 @@ Apa yang dilakukan NPM?
 Apa yang dimaksud dengan `package-lock.json`?
 
 
-### `paket-kunci.json`
+### paket-kunci.json
 
 
 File ini secara otomatis dibuat oleh NPM.
@@ -6023,7 +6023,7 @@ NodeJS sering digunakan sebagai bahasa untuk backend: Anda dapat mengubah skrip 
 Pada bab ini kami akan memperkenalkan beberapa fitur jaringan dasar yang memungkinkan Anda untuk melakukannya.
 
 
-### `fetch()`
+### fetch()
 
 
 Jika Anda ingin program Anda mengunduh data dari situs web atau API, Anda perlu membuat **permintaan HTTP**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Jadi, pastikan string diformat dengan benar.
 
 
-### server `http`
+### server http
 
 
 NodeJS memungkinkan Anda untuk membuat server web tanpa menginstal apa pun.

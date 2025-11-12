@@ -32,7 +32,7 @@ Go to [the official Bitcoin Knots website](https://bitcoinknots.org/#download) t
 
 Before installing the software on your machine, we strongly recommend that you check its authenticity and integrity. If you don't know how, have a look at this other tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Once the software has been verified, install it by following the steps indicated in the installation panel.
 
 ![Image](assets/fr/03.webp)
@@ -117,7 +117,7 @@ Give your wallet a name. You can also protect it with a passphrase BIP39 by clic
 
 The passphrase BIP39 is an optional password that you can choose freely, in addition to your mnemonic phrase, to increase the security of your wallet. Before configuring this feature, we strongly advise you to read the following article, which explains in detail how the passphrase works in theory, and how to avoid mistakes that could lead to the permanent loss of your bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 If you have activated the passphrase option, choose a robust one and save it carefully on one or more secure physical media.
 
 ![Image](assets/fr/18.webp)
@@ -287,4 +287,4 @@ If you found this tutorial useful, I'd be very grateful if you'd leave a green t
 
 I also recommend this other tutorial in which I explain how to set up your own Lightning node:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

@@ -6,7 +6,7 @@ description: Bir Raspberry Pi Zero ve aksesuar seti kullanarak minimal, izole ve
 
 
 
-Plan ₿ Network sayfalarında bir süredir bulunuyorsanız, en çok savunulan güvenlik ayarlarından birinin, neredeyse bir zorunluluk olduğunu, **özel anahtarlarınızın çevrimdışı depolanması yoluyla fon yönetimi olduğunu** zaten öğrenmişsinizdir.
+Plan ₿ Academy sayfalarında bir süredir bulunuyorsanız, en çok savunulan güvenlik ayarlarından birinin, neredeyse bir zorunluluk olduğunu, **özel anahtarlarınızın çevrimdışı depolanması yoluyla fon yönetimi olduğunu** zaten öğrenmişsinizdir.
 
 
 
@@ -14,7 +14,7 @@ Henüz keşfetmediyseniz, bu eğitim boyunca bu konuda daha fazla bilgi edinebil
 
 
 
-Özel anahtarları çevrimdışı yönetmek için, ağdan kalıcı olarak ayrılmış bir cihaza ihtiyaç vardır; bu cihaz bir [donanım cüzdanı](https://planb.network/resources/glossary/hardware-wallet) ya da bu özel işlev için ayrılmış bir airgap bilgisayar olabilir.
+Özel anahtarları çevrimdışı yönetmek için, ağdan kalıcı olarak ayrılmış bir cihaza ihtiyaç vardır; bu cihaz bir [donanım cüzdanı](https://planb.academy/resources/glossary/hardware-wallet) ya da bu özel işlev için ayrılmış bir airgap bilgisayar olabilir.
 
 
 
@@ -500,7 +500,7 @@ Bildiğim cüzdanlar arasında 32 bit sürüm sunan tek cüzdan Electrum'dur. Bu
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Sonuçlar
 

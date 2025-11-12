@@ -2750,7 +2750,7 @@ Antwerp had merchant fairs where merchants often met to settle debts. At the tim
 ![](./assets/fr/5_2_Billet_a_ordre.webp)
 
 
-This effervescence led to the creation of more sophisticated banking institutions. Lombard bankers** and later Dutch merchants perfected credit instruments (bills of exchange, promissory bills, etc.). The modern banking system is based on this idea: money can be credit, not just metal.
+This effervescence led to the creation of more sophisticated banking institutions. **Lombard bankers** and later Dutch merchants perfected credit instruments (bills of exchange, promissory bills, etc.). The modern banking system is based on this idea: money can be credit, not just metal.
 
 
 As you can see, this brings us back to our original question about the origins of money.

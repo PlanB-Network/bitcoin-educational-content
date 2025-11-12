@@ -2806,7 +2806,7 @@ In 1694, the **Bank of England (BoE)** was founded. Thus, the Bank of England wa
 The latter obtained a monopoly on banknote issuance in England (reinforced in 1708, 1742, etc.). From then on, paper money backed by gold reserves circulated alongside coins. So here's what's important to understand for our notion of the state or state institutions taking increasingly firm control over money. First, the Bank of Amsterdam prevented moneychangers from keeping coins and forced them to return them to the Bank. In England, private banks were prohibited from issuing their own bills redeemable in gold.
 
 
-They did allow private banks to issue banknotes, but these could only be exchanged for Bank of England bills
+They did allow private banks to issue banknotes, but these could only be exchanged for Bank of England bills.
 
 
 Bank of England bills, pounds sterling, were redeemable in gold. So they added a third layer to the currency. So we have gold at the base, then Bank of England bills, and then we could have private bank bills on top. Before that, private banks could issue their own bills redeemable in gold. So this is another stage in the gradual takeover of currency by state institutions.
@@ -2824,7 +2824,7 @@ This model was consolidated over the course of the 18th and 19th centuries, to t
 **The emergence of central banks** was a gradual process. These institutions often arose in the context of costly wars, enabling the state to finance itself through debt. When the gold standard was adopted (England, 17th-19th centuries), it provided a veneer of stability, until the great world wars of the 20th century led to the gradual abandonment of gold convertibility. The power to mint money thus shifted from the royal monopoly to more complex entities, first private (goldsmiths, bankers), then semi-public (central banks), reflecting the evolution of monetary sovereignty towards institutionalized, globalized forms.
 
 
-So, this is what I was describing earlier. We have often shifted the burden of sovereign debt directly to either central banks or permission to create money by legal institutions, such as Parliament.
+So, this is what I was describing earlier. We have often shifted the burden of sovereign debt directly to either central banks or the permission to create money by legal institutions, such as Parliament.
 
 
 And the most important fact here is that **we've gone from a debt that could disappear through the bankruptcy of the sovereign to a debt that rested mainly on the shoulders of the population**.
@@ -2838,7 +2838,7 @@ And the most important fact here is that **we've gone from a debt that could dis
 
 :::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
 
-We've already come to the end of this course on the history of money, and to bring it to a close, I wanted to propose two topics. The first topic is the various stages that led to our current fiat currency system. Basically, we're going to take up the facts we saw in point 5 about the creation of central banks. The difference is that we'll be adding the concept of the U.S. dollar, which is ultimately the current reserve currency. We'll take a look at how it evolved, how the dollar came into being, how it evolved, how it changed, what stages it went through to become a fiat system, because the origin of the dollar is a silver coin.
+We've already come to the end of this course on the history of money, and to bring it to a close, I wanted to propose two topics. The first topic is the various stages that led to our current fiat currency system. Basically, we're going to take up the facts we saw in point 5 about the creation of central banks. The difference is that we'll be adding the concept of the US dollar, which is ultimately the current reserve currency. We'll take a look at how it evolved, how the dollar came into being, how it evolved, how it changed, what stages it went through to become a fiat system, because the origin of the dollar is a silver coin.
 
 
 Then, immediately afterwards, I'm going to give you a short segment on the history of finance, to help you understand how we arrived at the welfare state. So we're going to look at two subjects. We'll look at how we arrived at the fiat system, and then immediately afterwards, we'll look at how the evolution of finance led us to the concept of the welfare state.
@@ -2852,7 +2852,7 @@ Let's go back to the 13th century with the florin. To understand how we arrived 
 
 Then came the Antwerp stock exchange, with its concept of discounting and promissory bills.
 
-Then, as we've seen, we had the VOC, the first stock market in Amsterdam. This marked the birth of capitalism, with share companies and the exchange of shares. The Amsterdam bank then imposed the use of deposits by decree. This meant that coins had to be deposited at the end of the day. It was the moneychangers who could no longer keep change in coin form.
+Then, as we've seen, we had the VOC, the first stock market in Amsterdam. This marked the birth of capitalism, with companiy shares and the exchange of shares. The Amsterdam bank then imposed the use of deposits by decree. This meant that coins had to be deposited at the end of the day. It was the moneychangers who could no longer keep change in coin form.
 
 
 Then came the creation of the Bank of England out of the need to create debt to finance the war at the end of the 17th century. So, at that time, private banks became the third layer of money. By the way, this whole section, from the florin to the notion of central bank creation, is extremely well summarized in Nick Batia's famous book "Layered Money", which I was lucky enough to translate with a few colleagues. We did a great job of translating it so that French speakers everywhere could benefit from these teachings.
@@ -2884,7 +2884,7 @@ So, I think it was in 1792, if I'm not mistaken, that they passed a law allowing
 ![](./assets/fr/silver_dollar.webp)
 
 
-Well, obviously, it's not worth a dollar, it's worth about 30 or 40 dollars, it's an ounce of silver, so depending on the price of silver, it's worth at least 30 or 40 US dollars. Today, of course, it's only worth a dollar, but that's precisely the format it was at the time. The U.S. dollar starts from this silver value.
+Well, obviously, it's not worth a dollar, it's worth about 30 or 40 dollars, it's an ounce of silver, so depending on the price of silver, it's worth at least 30 or 40 US dollars. Today, of course, it's only worth a dollar, but that's precisely the format it was at the time. The US dollar starts from this silver value.
 
 
 Then we can move on to the Civil War in America. We had the Confederates printing money. This currency had hyperinflation. It's not in the official Hanke-Krus list because it didn't reach 50%, but it did reach 40% monthly inflation. So they printed a lot of it during the war.

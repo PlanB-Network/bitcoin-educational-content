@@ -2606,20 +2606,20 @@ Over the centuries, several empires have succeeded one another as global economi
 **Portugal** dominated world trade in the second half of the 15th and early 16th centuries, with the **Portuguese Real**. This was a silver coin of relatively uniform weight. The Portuguese, thanks to their advances in navigation, found new sea routes to Africa, Asia and the New World. Military forts and trading posts multiplied from Africa to China (Macau).
 
 
-In response to Europe's thirst for gold and silver, "the constant motivation for the great discoveries was commercial profit and, above all, the quest for gold and silver". However, the Portuguese Empire, overextended and facing competition from the Dutch, English and French, went into decline.
+In response to Europe's thirst for gold and silver, "the constant motivation for the great discoveries was commercial profit and, above all, the quest for gold and silver". However, the Portuguese Empire, overextended and facing competition from the Dutch, English, and French, went into decline.
 
 
 ![](./assets/fr/5_1_Real_Portugais.webp)
 
 
-Here's an artefact, a half-real presto from the time of these Maritime conquests.
+Here's an artefact, a half-Real presto from the time of these Maritime conquests.
 
 
-### The Spanish apogee and the Spanish Dollar (1535-XVIIth century)
+### The Spanish apogee and the Spanish Dollar (1535-17th century)
 
 
 
-With the conquest of the New World, Spain** became the dominant player. Its monarch, controlling gigantic silver mines (Potosí in Bolivia, Zacatecas in Mexico), succeeded in minting money in pure silver, thus avoiding depreciating his own: the **Spanish Real.**
+With the conquest of the New World, **Spain** became the dominant player. Its monarch, controlling gigantic silver mines (Potosí in Bolivia, Zacatecas in Mexico), succeeded in minting money in pure silver, thus avoiding depreciating his own: the **Spanish Real.**
 
 
 ![](./assets/fr/5_1_Dollar_Espagnol.webp)
@@ -2634,10 +2634,10 @@ What's really interesting is that the Spanish dollar was the international reser
 ![](./assets/fr/5_1_maravedi.webp)
 
 
-If we look at the history of reserve currencies, an interesting point emerges: empires didn't inflate their currencies as long as they retained their reserve currency status. **It was only at the end of their domination that they ended up devaluing it, losing this privilege, which was then passed on to a new empire
+If we look at the history of reserve currencies, an interesting point emerges: empires didn't inflate their currencies as long as they retained their reserve currency status. **It was only at the end of their domination that they ended up devaluing it, losing this privilege, which was then passed on to a new empire**.
 
 
-In Spain, the Spanish dollar dominated world trade for almost 200 years, particularly between China and Europe. These coins could even be found in Chinese ports. And that's where we get a nod to history: the American dollar comes directly from this currency. When the United States was formed in 1792, it passed a law to mint its own currency, and its first dollars were created on the model of the Spanish dollar, both in name and coin size.
+In Spain, the Spanish dollar dominated world trade for almost 200 years, particularly between China and Europe. These coins could even be found in Chinese ports. And that's where we get a wink to history: the American dollar comes directly from this currency. When the United States was formed in 1792, it passed a law to mint its own currency, and its first dollars were created on the model of the Spanish dollar, both in name and coin size.
 
 
 To give you an idea of its value, an American dollar was originally a silver coin weighing almost an ounce, or between €30 and €40 in today's money, unlike the paper currency we know today. As for the Spanish dollar, it circulated so widely that it is considered the first true global currency.
@@ -2652,7 +2652,7 @@ Subsequently, Spain faced numerous military conflicts (Flanders, Netherlands, Th
 ### The Dutch rise (17th century)
 
 
-After the Iberian apogee, the **Netherlands** emerged as a new commercial power in the 17th century. Maritime trade, the VOC (Dutch East India Company) and the founding of the **Amsterdam Stock Exchange** (inspired by the one in Antwerp) established this merchant republic as a hub.
+After the Iberian apogee, **the Netherlands** emerged as a new commercial power in the 17th century. Maritime trade, the VOC (Dutch East India Company) and the founding of the **Amsterdam Stock Exchange** (inspired by the one in Antwerp) established this merchant republic as a hub.
 
 
 ![](./assets/fr/5_1_gulden.webp)
@@ -2660,7 +2660,7 @@ After the Iberian apogee, the **Netherlands** emerged as a new commercial power 
 ![](./assets/fr/5_1_VOC.webp)
 
 
-Here is a Gulden from 1722, a beautiful silver coin and a coin issued by the VOC
+Here is a Gulden from 1722, a beautiful silver coin and a coin issued by the VOC.
 
 
 The VOC was an extremely powerful company for its time: it had its own army and even issued its own currency.
@@ -2672,7 +2672,7 @@ The Dutch invented modern capitalism, which began as a means of distributing ris
 Dutch currency, the **Gulden**, gained credibility thanks to its purity in silver, and then to its adoption by the Bank of Amsterdam (1609), where deposits became a preferred form of money in Europe. This is a very important point to mention. Yes, of course there were coins, but what really constituted money in those days was a form of scriptural money. In fact, much of the world's trade passed through the books of the Bank of Amsterdam. This was a real banking breakthrough: international trade was no longer necessarily conducted with physical coins, but directly through the bank's accounting records.
 
 
-This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. There's an interesting character to mention. At this time, a certain **Thomas** **Gresham** worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous "Gresham Law".
+This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. There's an interesting character to mention. At this time, a certain **Thomas Gresham** worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous **"Gresham Law"**.
 
 
 Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with England, the dilution of the gulden in times of conflict, and competition from other powers (France and England) signaled the end of Dutch hegemony. After the Fourth Anglo-Dutch War (1780-84), the decline of the gulden as a reserve currency became irreversible.
@@ -2705,7 +2705,7 @@ As this paper money wiped out all the good precious metal coinage, in accordance
 ### British domination (18th - early 20th centuries)
 
 
-**England**, having overtaken the Netherlands, became the dominant power in the 18th century. The pound sterling is the oldest currency still in use, originally linked to a pound of silver. Gradually, its status grew stronger, underpinned by a financial and fiscal revolution: parliamentary monarchy, strong tax-raising capacity and the creation of the Bank of England in 1694\.
+**England**, having overtaken the Netherlands, became the dominant power in the 18th century. The pound sterling is the oldest currency still in use, originally linked to a pound of silver. Gradually, its status grew stronger, underpinned by a financial and fiscal revolution: parliamentary monarchy, strong tax-raising capacity, and the creation of the Bank of England in 1694\.
 
 
 After a series of wars against France, the United Kingdom emerged victorious in 1815 (Waterloo), confirming its supremacy. Throughout the 19th century, the pound sterling acted as the world's reserve currency. At its peak, with just 2.5% of the world's population, Britain produced 20% of global income and controlled almost a quarter of the earth's surface.

@@ -47,11 +47,11 @@ Green je posebno jednostavna aplikacija za korišćenje, što je čini zanimljiv
 Blockstream Green takođe podržava Liquid Network, i to ćemo saznati u ovom vodiču. Ako želite da koristite Green za druge aplikacije, preporučujem da pogledate i ove druge vodiče:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## Instaliranje i konfiguracija aplikacije Blockstream Green
 
@@ -198,7 +198,7 @@ I to je to, vaš Liquid Wallet je kreiran korišćenjem Green aplikacije!
 Pre nego što primite svoje prve bitkoine na vaš Liquid Wallet, **snažno vam savetujem da izvršite test praznog oporavka**. Zabeležite neke referentne informacije, kao što su vaš xpub ili prvi prijemni Address, zatim obrišite vaš Wallet na Green aplikaciji dok je još uvek prazan. Zatim pokušajte da obnovite vaš Wallet na Green koristeći vaše papirne rezervne kopije. Proverite da li informacije o kolačićima generisane nakon obnove odgovaraju onima koje ste prvobitno zapisali. Ako odgovaraju, možete biti sigurni da su vaše papirne rezervne kopije pouzdane. Da biste saznali više o tome kako izvršiti test oporavka, molimo vas da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Postavljanje vašeg Liquid Wallet
 
@@ -320,4 +320,4 @@ Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green p
 Preporučujem vam da pogledate i ovaj drugi sveobuhvatni vodič o mobilnoj aplikaciji Blockstream Green za postavljanje onchain Bitcoin Hot Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

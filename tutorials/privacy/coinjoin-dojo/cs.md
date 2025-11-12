@@ -64,7 +64,7 @@ Whirlpool byl navržen s ohledem na dvě důležité požadavky:
 Tyto imperativy vedly vývojáře Samourai Wallet při návrhu Whirlpool k omezení počtu účastníků na cyklus. Příliš málo účastníků by ohrozilo efektivitu coinjoinu, drasticky snížilo by se množství generovaných anonymních setů na cyklus, zatímco příliš mnoho účastníků by představovalo problémy s řízením na mobilních aplikacích a brzdilo by tok cyklů.
 **Nakonec není nutné mít ve Whirlpoolu vysoký počet účastníků na coinjoin, protože anonymní sety jsou dosaženy akumulací několika cyklů coinjoinu.**
 
-[-> Dozvědět se více o anonymních setech Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Dozvědět se více o anonymních setech Whirlpool.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Pooly a poplatky za coinjoin
 Aby tyto několik cyklů skutečně zvýšilo anonymní sety smíchaných mincí, musí být stanoven určitý rámec omezující použité množství UTXO. Whirlpool tedy definuje různé pooly.
@@ -148,7 +148,7 @@ Například zde je skutečná Whirlpool Tx0 (ne ode mě): [edef60744f539483d868c
 Přebytek, který nemohl být začleněn do poolu, zde ekvivalentní `40,000 sats`, je přesměrován na účet **špatné banky**, také označovaný jako "toxická změna", aby se zajistilo striktní oddělení od ostatních UTXO v peněžence.
 
 Toto UTXO je nebezpečné pro soukromí uživatele, protože nejenže je stále připojeno ke své minulosti, a tedy možná k identitě jeho majitele, ale navíc je označeno jako patřící uživateli, který provedl coinjoin.
-Pokud je toto UTXO sloučeno s míchanými výstupy, ztratí veškeré získané soukromí během cyklů coinjoin, zejména kvůli heuristice společného vlastnictví vstupů (CIOH). Pokud je sloučeno s dalšími toxickými změnami, uživatel riskuje ztrátu soukromí, protože to spojí různé vstupy cyklů coinjoin. Proto je nutné s ním zacházet opatrně. Způsob, jakým se má tato toxická UTXO spravovat, bude podrobně popsán v poslední části tohoto článku a budoucí tutoriály na PlanB Network tyto metody podrobněji pokryjí.
+Pokud je toto UTXO sloučeno s míchanými výstupy, ztratí veškeré získané soukromí během cyklů coinjoin, zejména kvůli heuristice společného vlastnictví vstupů (CIOH). Pokud je sloučeno s dalšími toxickými změnami, uživatel riskuje ztrátu soukromí, protože to spojí různé vstupy cyklů coinjoin. Proto je nutné s ním zacházet opatrně. Způsob, jakým se má tato toxická UTXO spravovat, bude podrobně popsán v poslední části tohoto článku a budoucí tutoriály na Plan ₿ Academy tyto metody podrobněji pokryjí.
 
 **Krok 3: Počáteční míchání**
 Po dokončení `Tx0` jsou vyrovnávaná UTXO poslána na **premix** účet naší peněženky, připravena být začleněna do jejich prvního cyklu coinjoin, také nazývaného "počáteční míchání". Pokud, jak je tomu v našem příkladu, `Tx0` generuje několik UTXO určených pro míchání, každé z nich bude začleněno do samostatného počátečního coinjoinu.
@@ -168,14 +168,14 @@ Existuje mnoho možností, jak používat Whirlpool. Možnost, kterou zde chci p
 Provádění coinjoinů prostřednictvím aplikace Samourai Wallet s vaším vlastním Dojo je podle mého názoru nejefektivnější strategie pro provádění coinjoinů na Bitcoinu doposud. Tento přístup vyžaduje určitou počáteční investici z hlediska nastavení, ale jakmile je vše na místě, nabízí možnost neustále míchat a remixovat vaše bitcoiny, 24 hodin denně, 7 dní v týdnu, bez nutnosti neustále aktivní aplikace Samourai. Díky Whirlpool CLI, který funguje na Bitcoinovém uzlu, jste vždy připraveni účastnit se coinjoinů. Aplikace Samourai vám poté dává možnost kdykoliv utratit vaše smíšené prostředky, kdekoliv jste, přímo z vašeho smartphonu. Navíc má tato metoda tu výhodu, že vás nikdy nepřipojí k serverům spravovaným týmy Samourai, čímž chrání váš `xpub` před jakoukoliv vnější expozicí.
 
 Tato technika je tedy ideální pro ty, kteří hledají maximální soukromí a nejvyšší kvalitu cyklů coinjoin. Vyžaduje však mít k dispozici Bitcoinový uzel a, jak uvidíme později, vyžaduje určité nastavení. Je tedy více vhodná pro uživatele se středními až pokročilými znalostmi. Pro začátečníky doporučuji seznámit se s coinjoin prostřednictvím těchto dvou dalších tutoriálů, které ukazují, jak na to s Sparrow Wallet nebo Samourai Wallet (bez Dojo):
-- **[Tutoriál coinjoin pro Sparrow Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- **[Tutoriál coinjoin pro Samourai Wallet (bez Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- **[Tutoriál coinjoin pro Sparrow Wallet](https://planb.academy/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Tutoriál coinjoin pro Samourai Wallet (bez Dojo)](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Porozumění nastavení
 Na začátek budete potřebovat Dojo! Dojo je implementace Bitcoinového uzlu založená na Bitcoin Core, vyvinutá týmy Samourai.
 
 Pro spuštění vašeho vlastního Dojo máte možnost buď nainstalovat uzel Dojo autonomně, nebo využít Dojo na vrcholu jiného řešení Bitcoinového uzlu "node-in-box". Aktuálně jsou k dispozici tyto možnosti:
-- [RoninDojo](https://ronindojo.io/), který je Dojo vylepšený o další nástroje, včetně asistenta pro instalaci a asistenta pro správu. Postup nastavení a používání RoninDojo detailně popisuji v tomto dalším tutoriálu: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), který je Dojo vylepšený o další nástroje, včetně asistenta pro instalaci a asistenta pro správu. Postup nastavení a používání RoninDojo detailně popisuji v tomto dalším tutoriálu: [RONINDOJO V2](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) s aplikací "Samourai Server";
 - [MyNode](https://mynodebtc.com/) s aplikací "Dojo";
 - [Nodl](https://www.nodl.eu/) s aplikací "Dojo";- [Citadel](https://runcitadel.space/) s aplikací "Samourai".
@@ -255,7 +255,7 @@ V dalším kroku získáte přístup na stránku určenou pro konfiguraci vašeh
 
 ![coinjoin](assets/notext/24.webp)
 
-*Pro nové uživatele Samourai bude poté nutné vytvořit peněženku od začátku. Pokud potřebujete pomoc, můžete se poradit s návodem na nastavení nové peněženky Samourai [v tomto tutoriálu, konkrétně v sekci "Vytvoření softwarové peněženky"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*Pro nové uživatele Samourai bude poté nutné vytvořit peněženku od začátku. Pokud potřebujete pomoc, můžete se poradit s návodem na nastavení nové peněženky Samourai [v tomto tutoriálu, konkrétně v sekci "Vytvoření softwarové peněženky"](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 Pokud pokračujete v obnově již existující peněženky Samourai, vyberte `Restore existing wallet`, poté zvolte `I have a Samourai backup file`.
 ![coinjoin](assets/notext/25.webp)
 Obvykle byste měli mít svůj soubor pro obnovu vždy ve schránce. Poté klikněte na `PASTE` pro vložení vašeho souboru do určeného místa. Pro jeho dešifrování bude také nutné zadat BIP39 heslovou frázi vaší peněženky do příslušného pole, které se nachází hned pod ním. Pro dokončení klikněte na `FINISH`.
@@ -360,7 +360,7 @@ Vaše smíchaná UTXO jsou viditelná z účtu **Postmix** na Whirlpool GUI. Kro
 Účty Whirlpool jsou na Samourai Wallet snadno rozpoznatelné podle jejich modré barvy. To vám umožňuje utrácet vaše smíchaná UTXO odkudkoli a kdykoli přímo z vašeho smartphonu.
 
 ![coinjoin](assets/notext/53.webp)
-Abychom sledovali vaše automatické coinjoins, doporučuji také nastavit sledovací (watch-only) peněženku prostřednictvím aplikace Sentinel. Přidejte ZPUB vašeho účtu **Postmix** a sledujte průběh vašich cyklů coinjoin v reálném čase. Pokud chcete pochopit, jak používat Sentinel, doporučuji se poradit s tímto dalším tutoriálem na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+Abychom sledovali vaše automatické coinjoins, doporučuji také nastavit sledovací (watch-only) peněženku prostřednictvím aplikace Sentinel. Přidejte ZPUB vašeho účtu **Postmix** a sledujte průběh vašich cyklů coinjoin v reálném čase. Pokud chcete pochopit, jak používat Sentinel, doporučuji se poradit s tímto dalším tutoriálem na Plan ₿ Academy: [**SENTINEL WATCH-ONLY**](https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
 

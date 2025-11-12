@@ -14,7 +14,7 @@ In questo tutorial, vorrei presentarti una delle migliori soluzioni di software 
 
 Se desideri scoprire come utilizzare Blockstream Green sul tuo computer, consulta quest'altra guida:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Introduzione a Blockstream Green
 
@@ -174,7 +174,7 @@ Prima di ricevere i primi bitcoin nel tuo wallet, **ti consiglio vivamente di es
 Prima di ricevere i primi bitcoin nel tuo wallet, **ti consiglio vivamente di eseguire un test di recupero finché è vuoto**. Prendi nota di alcune informazioni di riferimento, come la xpub o il primo indirizzo di ricezione, quindi cancella il wallet dall'app Green, mentre è ancora vuoto. Quindi prova a ripristinare il wallet su Green utilizzando il backup cartaceo. Verifica che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, puoi essere certo che il tuo backup cartaceo è affidabile. Per saperne di più su come effettuare un ripristino di prova, consulta quest'altro tutorial:
 >>>>>>> Stashed changes
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Impostazione del wallet su Blockstream Green
 

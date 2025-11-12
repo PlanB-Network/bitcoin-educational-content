@@ -69,7 +69,7 @@ Whirlpool byl navržen s ohledem na dvě důležité požadavky:
 Tyto imperativy vedly vývojáře Samourai Wallet při návrhu Whirlpool k omezení počtu účastníků na cyklus. Příliš málo účastníků by ohrozilo účinnost coinjoinu, drasticky snížilo by anonymní sety generované s každým cyklem, zatímco příliš mnoho účastníků by představovalo problémy s řízením na mobilních aplikacích a bránilo by průběhu cyklů.
 
 **Nakonec není nutné mít vysoký počet účastníků na coinjoin na Whirlpool, protože anonymní sety jsou vytvářeny akumulací několika cyklů coinjoin.**
-[-> Zjistěte více o anonymních setech Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Zjistěte více o anonymních setech Whirlpool.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Coinjoin pooly a poplatky
 Aby se zajistilo, že několik cyklů skutečně zvýší anonymní sety smíchaných mincí, musí být stanoven určitý rámec pro omezení použitých UTXO. Whirlpool pro tento účel definuje různé pooly.
 
@@ -152,7 +152,7 @@ Přebytek, který se nemohl integrovat do poolu, zde ekvivalentní `40,000 sats`
 
 Toto UTXO je nebezpečné pro soukromí uživatele, protože nejenže je vždy spojeno se svou minulostí, a tedy možná s identitou jeho majitele, ale navíc je označeno jako patřící uživateli, který provedl coinjoin.
 
-Pokud je toto UTXO sloučeno se smíšenými výstupy, tyto ztratí veškeré soukromí získané během cyklů coinjoin, zejména kvůli CIOH (*Common-Input-Ownership-Heuristic*). Pokud je sloučeno s dalšími toxickými změnami, uživatel riskuje ztrátu soukromí, protože to spojí různé vstupy cyklů coinjoin. Musí být tedy zacházeno s opatrností. Způsob, jakým se má tímto toxickým UTXO zacházet, bude podrobně popsán v poslední části tohoto článku a budoucí tutoriály se budou těmto metodám na PlanB Network věnovat hlouběji.
+Pokud je toto UTXO sloučeno se smíšenými výstupy, tyto ztratí veškeré soukromí získané během cyklů coinjoin, zejména kvůli CIOH (*Common-Input-Ownership-Heuristic*). Pokud je sloučeno s dalšími toxickými změnami, uživatel riskuje ztrátu soukromí, protože to spojí různé vstupy cyklů coinjoin. Musí být tedy zacházeno s opatrností. Způsob, jakým se má tímto toxickým UTXO zacházet, bude podrobně popsán v poslední části tohoto článku a budoucí tutoriály se budou těmto metodám na Plan ₿ Academy věnovat hlouběji.
 
 **Krok 3: Počáteční míchání**
 Po dokončení `Tx0` jsou vyrovnány UTXO poslány na **premix** účet naší peněženky, připraveny být zavedeny do jejich prvního cyklu coinjoin, také nazývaného "počáteční míchání". Pokud, jak je tomu v našem příkladu, `Tx0` generuje několik UTXO určených pro míchání, každé z nich bude integrováno do samostatného počátečního coinjoinu.
@@ -174,7 +174,7 @@ Používání Sparrow má tu výhodu, že je poměrně snadné začít, rychle s
 ### Instalace Sparrow Wallet
 Začněte tím, že samozřejmě budete potřebovat software Sparrow Wallet. Můžete ho přímo stáhnout z [oficiálních stránek](https://sparrowwallet.com/download/) nebo na [jejich GitHubu](https://github.com/sparrowwallet/sparrow/releases).
 
-Před instalací softwaru bude důležité ověřit podpis a integritu staženého spustitelného souboru. Pokud chcete více informací o procesu instalace a ověření softwaru Sparrow, doporučuji si přečíst tento další tutoriál: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Před instalací softwaru bude důležité ověřit podpis a integritu staženého spustitelného souboru. Pokud chcete více informací o procesu instalace a ověření softwaru Sparrow, doporučuji si přečíst tento další tutoriál: *[The Sparrow Wallet Guides](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Vytvoření softwarové peněženky
 Po instalaci softwaru budete muset pokračovat ve vytvoření Bitcoin peněženky. Je důležité poznamenat, že pro účast na coinjoinech je nezbytné použití softwarové peněženky (také nazývané "hot wallet"). Proto **nebude možné provádět coinjoiny s peněženkou zabezpečenou hardware peněženkou**.
@@ -289,7 +289,7 @@ V této sekci budete mít možnost zadat cílovou adresu, částku k odeslání 
 
 ![sparrow](assets/notext/33.webp)
 
-[-> Zjistěte více o transakcích Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Zjistěte více o transakcích Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Pokud si přejete provést přesnější výběr vašich mincí k utracení, přejděte na záložku `UTXO`. Vyberte UTXO, které konkrétně chcete spotřebovat, a poté stiskněte tlačítko `Odeslat vybrané` pro zahájení transakce.
 
@@ -307,7 +307,7 @@ Otevře se okno, začněte výběrem cílové peněženky ze seznamu.
 
 ![sparrow](assets/notext/37.webp)
 
-Vyberte práh coinjoinu, po jehož překročení bude výběr proveden automaticky. Nemohu vám dát přesný počet remixů k provedení, protože to se liší podle vaší osobní situace a cílů soukromí, ale vyhněte se výběru příliš nízkého prahu. Doporučuji se poradit s tímto dalším článkem, abyste se dozvěděli více o procesu remixování: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Vyberte práh coinjoinu, po jehož překročení bude výběr proveden automaticky. Nemohu vám dát přesný počet remixů k provedení, protože to se liší podle vaší osobní situace a cílů soukromí, ale vyhněte se výběru příliš nízkého prahu. Doporučuji se poradit s tímto dalším článkem, abyste se dozvěděli více o procesu remixování: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 Možnost `Rozsah indexu` můžete nechat na její výchozí hodnotě, `Plný`. Tato funkce umožňuje míchání současně z různých klientů, ale to není to, co chceme v tomto tutoriálu dělat. Pro dokončení a aktivaci možnosti `Mix do...` stiskněte `Restartovat Whirlpool`.
 
@@ -316,7 +316,7 @@ Možnost `Rozsah indexu` můžete nechat na její výchozí hodnotě, `Plný`. T
 Buďte však opatrní při používání možnosti `Mix do`, protože odstranění smíchaných mincí z vašeho účtu `Postmix` může výrazně zvýšit riziko ohrožení vašeho soukromí. Důvody pro tuto možnost jsou podrobně popsány v následujících sekcích.
 
 ## Jak poznat kvalitu našich cyklů coinjoin?
-Aby byl coinjoin skutečně účinný, je zásadní, aby prezentoval dobrou homogenitu mezi množstvím vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž se zvyšuje nejistota kolem transakce. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool je uznáván jako ten, který přináší největší homogenitu v coinjoinech. Dále je hodnocen výkon několika cyklů coinjoin na základě velikosti skupin, ve kterých je mince skryta. Velikost těchto skupin definuje to, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (od současnosti do minulosti) a druhý, proti prospektivní analýze (od minulosti do současnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: [WHIRLPOOL STATS TOOLS - ANONSETY](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Aby byl coinjoin skutečně účinný, je zásadní, aby prezentoval dobrou homogenitu mezi množstvím vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž se zvyšuje nejistota kolem transakce. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool je uznáván jako ten, který přináší největší homogenitu v coinjoinech. Dále je hodnocen výkon několika cyklů coinjoin na základě velikosti skupin, ve kterých je mince skryta. Velikost těchto skupin definuje to, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (od současnosti do minulosti) a druhý, proti prospektivní analýze (od minulosti do současnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: [WHIRLPOOL STATS TOOLS - ANONSETY](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Jak spravovat postmix?
 Po provedení cyklů coinjoin je nejlepší strategií uchovávat vaše UTXO na účtu **postmix**, čekajíc na jejich budoucí použití. Je dokonce doporučeno nechat je remixovat nekonečně, dokud je nepotřebujete utratit.
@@ -338,11 +338,11 @@ Dále je třeba být opatrný při správě doxxic změny, změny, která nemohl
 - **Konsolidujte je na Monero:** Peněženka Samourai nyní nabízí službu atomické výměny mezi BTC a XMR. To je ideální pro správu toxických UTXO tím, že je konsolidujete na Monero, aniž byste ohrozili své soukromí prostřednictvím CIOH, než je pošlete zpět na Bitcoin. Tato možnost však může být nákladná z hlediska poplatků za těžbu a prémie kvůli omezením likvidity.
 - **Pošlete je do Lightning Network:** Převod těchto UTXO do Lightning Network za účelem využití snížených transakčních poplatků je možnost, která by mohla být zajímavá. Tato metoda však může odhalit určité informace v závislosti na vašem používání Lightning a měla by se proto praktikovat s opatrností.
 
-Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na PlanB Network.
+Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na Plan ₿ Academy.
 
 **Další zdroje:**
-[Video tutoriál Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
-[Video tutoriál Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Video tutoriál Sparrow Wallet](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Video tutoriál Samourai Wallet](https://planb.academy/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Dokumentace Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter vlákno o CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogový příspěvek o CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

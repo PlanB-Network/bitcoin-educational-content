@@ -14,7 +14,7 @@ V tomto návodu bych vám rád představil jedno z nejlepších řešení mobiln
 
 Pokud chcete zjistit, jak používat Blockstream Green na svém počítači, přečtěte si tento další návod:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Představujeme Blockstream Green
 
@@ -124,7 +124,7 @@ Vaše peněženka Bitcoin byla nyní vytvořena pomocí aplikace Green!
 
 Než obdržíte své první bitcoiny do peněženky, **důrazně doporučuji provést test obnovy prázdné peněženky**. Zaznamenejte si některé referenční údaje, jako je vaše xpub nebo první přijímací adresa, a poté peněženku v aplikaci Green vymažte, dokud je ještě prázdná. Poté zkuste peněženku obnovit v aplikaci Zelená pomocí papírových záloh. Zkontrolujte, zda informace o souboru cookie vygenerované po obnovení odpovídají těm, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Další informace o tom, jak provést zkušební obnovu, najdete v tomto dalším návodu:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Nastavení portfolia na Blockstream Green
 

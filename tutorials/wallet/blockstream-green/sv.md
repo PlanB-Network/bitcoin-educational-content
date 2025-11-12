@@ -20,7 +20,7 @@ I den här handledningen vill jag presentera dig för en av de bästa mobila Sof
 Om du vill veta mer om hur du använder Blockstream Green på din dator kan du läsa den här andra handledningen:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Introduktion av Blockstream Green
 
@@ -185,7 +185,7 @@ Din Bitcoin Wallet har nu skapats med hjälp av applikationen Green!
 Innan du tar emot dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna lite referensinformation, till exempel din xpub eller första mottagande Address, och radera sedan din Wallet i Green-appen medan den fortfarande är tom. Försök sedan att återställa din Wallet på Green med hjälp av dina pappersbackuper. Kontrollera att cookieinformationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurera din Wallet på Blockstream Green
 

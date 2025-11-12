@@ -84,7 +84,7 @@ Da biste saznali više o Dojo-u i naučili kako da ga instalirate, pozivam vas d
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Ako stvarno ne možete priuštiti da vodite svoj Dojo, možete pronaći ljude koji su voljni da podele svoju instancu besplatno na [dojobay.pw](https://www.dojobay.pw/mainnet/). Ovo može biti privremeno rešenje, ali na duže staze, preporučujem da koristite svoj Dojo kako biste garantovali svoj suverenitet i poverljivost.
 

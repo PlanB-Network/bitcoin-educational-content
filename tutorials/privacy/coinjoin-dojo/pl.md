@@ -111,7 +111,7 @@ Te imperatywy kierowały wyborami twórców Samourai Wallet przy projektowaniu W
 **Ostatecznie nie ma potrzeby posiadania dużej liczby uczestników na CoinJoin na Whirlpool, ponieważ anonsety są osiągane poprzez akumulację kilku cykli CoinJoin
 
 
-[-> Dowiedz się więcej o anonsach Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Dowiedz się więcej o anonsach Whirlpool.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ### Baseny i opłaty CoinJoin
@@ -237,7 +237,7 @@ Nadwyżka, która nie mogła zostać zintegrowana z pulą, tutaj odpowiadająca 
 
 Ten UTXO jest niebezpieczny dla prywatności użytkownika, ponieważ nie tylko jest nadal powiązany z jego przeszłością, a zatem prawdopodobnie z tożsamością jego właściciela, ale dodatkowo jest odnotowany jako należący do użytkownika, który wykonał CoinJoin.
 
-Jeśli ten UTXO zostanie połączony z mieszanymi danymi wyjściowymi, utracą one całą poufność uzyskaną podczas cykli CoinJoin, zwłaszcza z powodu algorytmu Common-Input-Ownership-Heuristic (CIOH). Jeśli zostanie połączony z innymi zmianami doxxic, użytkownik ryzykuje utratę poufności, ponieważ połączy różne dane wejściowe cykli CoinJoin. Dlatego należy obchodzić się z nim ostrożnie. Sposób zarządzania tym toksycznym UTXO zostanie szczegółowo opisany w ostatniej części tego artykułu, a przyszłe samouczki omówią te metody bardziej szczegółowo w PlanB Network.
+Jeśli ten UTXO zostanie połączony z mieszanymi danymi wyjściowymi, utracą one całą poufność uzyskaną podczas cykli CoinJoin, zwłaszcza z powodu algorytmu Common-Input-Ownership-Heuristic (CIOH). Jeśli zostanie połączony z innymi zmianami doxxic, użytkownik ryzykuje utratę poufności, ponieważ połączy różne dane wejściowe cykli CoinJoin. Dlatego należy obchodzić się z nim ostrożnie. Sposób zarządzania tym toksycznym UTXO zostanie szczegółowo opisany w ostatniej części tego artykułu, a przyszłe samouczki omówią te metody bardziej szczegółowo w Plan ₿ Academy.
 
 
 **Krok 3: Początkowa mieszanka**
@@ -275,8 +275,8 @@ Wykonywanie coinjoinów za pośrednictwem Samourai Wallet przy użyciu własnego
 Technika ta jest zatem idealna dla osób poszukujących maksymalnej prywatności i najwyższej jakości cykli CoinJoin. Wymaga jednak posiadania do dyspozycji węzła Bitcoin i, jak zobaczymy później, wymaga pewnej konfiguracji. Jest więc bardziej odpowiedni dla średnio zaawansowanych i zaawansowanych użytkowników. Początkującym polecam zapoznanie się z CoinJoin za pomocą tych dwóch innych samouczków, które pokazują, jak to zrobić z Sparrow Wallet lub Samourai Wallet (bez Dojo):
 
 
-- [Sparrow Wallet CoinJoin tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Sparrow Wallet CoinJoin tutorial](https://planb.academy/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### Zrozumienie konfiguracji
@@ -287,7 +287,7 @@ Aby rozpocząć, będziesz potrzebował Dojo! Dojo to implementacja węzła Bitc
 Aby uruchomić własne Dojo, masz możliwość zainstalowania węzła Dojo autonomicznie lub skorzystania z Dojo na innym rozwiązaniu węzła Bitcoin "node-in-box". Obecnie dostępne opcje to:
 
 
-- [RoninDojo](https://ronindojo.io/), który jest Dojo wzbogaconym o dodatkowe narzędzia, w tym asystenta instalacji i asystenta administracyjnego. Szczegółową procedurę konfiguracji i korzystania z RoninDojo opisałem w tym poradniku: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), który jest Dojo wzbogaconym o dodatkowe narzędzia, w tym asystenta instalacji i asystenta administracyjnego. Szczegółową procedurę konfiguracji i korzystania z RoninDojo opisałem w tym poradniku: [RONINDOJO V2](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) z aplikacją "Samourai Server";
 - [MyNode](https://mynodebtc.com/) z aplikacją "Dojo";
 - [Nodl](https://www.nodl.eu/) z aplikacją "Dojo";
@@ -412,7 +412,7 @@ W następnym kroku uzyskasz dostęp do strony poświęconej konfiguracji Dojo. W
 ![coinjoin](assets/notext/24.webp)
 
 
-*W przypadku nowych użytkowników Samourai konieczne będzie utworzenie Wallet od podstaw. Jeśli potrzebujesz pomocy, możesz zapoznać się z instrukcjami konfiguracji nowego Samourai Wallet [w tym samouczku, w szczególności w sekcji "Tworzenie Software Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*W przypadku nowych użytkowników Samourai konieczne będzie utworzenie Wallet od podstaw. Jeśli potrzebujesz pomocy, możesz zapoznać się z instrukcjami konfiguracji nowego Samourai Wallet [w tym samouczku, w szczególności w sekcji "Tworzenie Software Wallet"](https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 
 Jeśli kontynuujesz przywracanie już istniejącego Samourai Wallet, wybierz `Przywróć istniejący Wallet`, a następnie wybierz `Mam plik kopii zapasowej Samourai`.
@@ -588,4 +588,4 @@ Konta Whirlpool są łatwo rozpoznawalne na Samourai Wallet dzięki niebieskiemu
 ![coinjoin](assets/notext/53.webp)
 
 
-Aby śledzić automatyczne coinjoiny, zalecam również skonfigurowanie Watch-only wallet za pośrednictwem aplikacji Sentinel. Dodaj ZPUB swojego konta **Postmix** i monitoruj postęp swoich cykli CoinJoin w czasie rzeczywistym. Jeśli chcesz zrozumieć, jak korzystać z Sentinel, polecam zapoznać się z tym innym samouczkiem na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+Aby śledzić automatyczne coinjoiny, zalecam również skonfigurowanie Watch-only wallet za pośrednictwem aplikacji Sentinel. Dodaj ZPUB swojego konta **Postmix** i monitoruj postęp swoich cykli CoinJoin w czasie rzeczywistym. Jeśli chcesz zrozumieć, jak korzystać z Sentinel, polecam zapoznać się z tym innym samouczkiem na Plan ₿ Academy: [**SENTINEL WATCH-ONLY**](https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

@@ -84,7 +84,7 @@ Para saber más sobre Dojo y aprender a instalarlo, te invito a seguir este tuto
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Si realmente no puedes permitirte tener tu propio Dojo, puedes encontrar gente dispuesta a compartir su instancia de forma gratuita en [dojobay.pw](https://www.dojobay.pw/mainnet/). Esta puede ser una solución temporal, pero a largo plazo, te recomiendo que utilices tu propio Dojo para garantizar tu soberanía y confidencialidad.
 

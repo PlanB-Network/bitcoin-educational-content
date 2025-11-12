@@ -28,9 +28,9 @@ A Green é uma aplicação muito fácil de utilizar, o que a torna particularmen
 
 Neste tutorial, vamos concentrar-nos apenas na criação de uma carteira só de relógios. Para explorar outras utilizações do Green, consulte os nossos outros tutoriais dedicados:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Instalar e configurar a aplicação Blockstream Green
 
@@ -122,5 +122,5 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Recomendo também que consulte este outro tutorial completo sobre a aplicação Blockstream Green para configurar uma hot wallet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 

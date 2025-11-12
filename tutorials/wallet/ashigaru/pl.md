@@ -84,7 +84,7 @@ Aby dowiedzieć się więcej o Dojo i dowiedzieć się, jak go zainstalować, za
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Jeśli naprawdę nie możesz sobie pozwolić na uruchomienie własnego Dojo, możesz znaleźć ludzi chętnych do udostępnienia swojej instancji za darmo na [dojobay.pw](https://www.dojobay.pw/mainnet/). Może to być tymczasowe rozwiązanie, ale na dłuższą metę zalecam korzystanie z własnego Dojo, aby zagwarantować sobie suwerenność i poufność.
 

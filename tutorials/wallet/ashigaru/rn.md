@@ -84,7 +84,7 @@ Kugira umenye vyinshi ku vyerekeye Dojo no kumenya ingene woyishiramwo, ndagutum
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Nimba vy’ukuri udashobora kwikorera Dojo yawe, urashobora gusanga abantu bashaka gusangira inkuru yabo ku buntu kuri [dojobay.pw](https://www.dojobay.pw/mainnet/). Ivyo bishobora kuba umuti w’igihe gito, ariko mu gihe kirekire, ndagusavye gukoresha Dojo yawe bwite kugira ngo ushobore kwizera ubusegaba bwawe n’ibanga ryawe.
 

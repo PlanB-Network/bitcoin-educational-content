@@ -28,9 +28,9 @@ Green ist eine sehr einfach zu bedienende Anwendung, die sich besonders für Anf
 
 In diesem Lernprogramm konzentrieren wir uns auf die Erstellung eines reinen Uhrenportfolios. Wenn Sie andere Einsatzmöglichkeiten von Green erkunden möchten, lesen Sie bitte unsere anderen Tutorials:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Installieren und Konfigurieren der Blockstream Green Anwendung
 
@@ -122,5 +122,5 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch, sich dieses andere umfassende Tutorial über die Blockstream Green-Anwendung zur Einrichtung einer Hot Wallet anzusehen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 

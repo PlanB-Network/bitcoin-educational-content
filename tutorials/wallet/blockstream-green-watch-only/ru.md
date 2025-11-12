@@ -28,9 +28,9 @@ Green - очень простое в использовании приложен
 
 В этом руководстве мы сосредоточимся исключительно на создании портфолио, предназначенного только для часов. Чтобы узнать о других способах использования Green, обратитесь к другим нашим специализированным учебникам:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Установка и настройка приложения Blockstream Green
 
@@ -122,5 +122,5 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 Я также рекомендую вам ознакомиться с другим полным руководством по созданию горячего кошелька в приложении Blockstream Green:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 

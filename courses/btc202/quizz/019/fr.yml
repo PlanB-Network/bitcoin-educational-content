@@ -6,4 +6,4 @@ wrong_answers:
   - Rust
 explanation: |
   Bitcoin Core est écrit en C++ et maintenu par une large communauté open source.
-reviewed: false
+reviewed: true 

@@ -89,10 +89,11 @@ proofreading:
       - cindafelicia
     reward: 20.44
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
-    reward: 40.88
+      - MilankovicProtocol
+    reward: 20.44
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -117,10 +118,11 @@ proofreading:
       - Sanja22B
     reward: 16.36
   - language: sw
-    last_contribution_date:
+    last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
-    reward: 32.72
+      - monyangi10
+    reward: 16.36
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -200,6 +202,7 @@ videos:
       - pt: kMgz5HAv6KdExsAtV2ALre
       - sv: tEwEvvX9HMeKcGsC77VByu
       - tr: ts5WejJzWpzVhBr6RyLxQg
+      - nl: 2kgM9637STEX3ceT51rmLT
     youtube:
       - fr: aPqI34tpypM
   - id: 1d850f23-eff1-4725-b284-ce12456a2c26

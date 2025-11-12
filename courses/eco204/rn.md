@@ -1,26 +1,19 @@
 ---
-name: Ivyigwa ku bijanye n'ugutera imbere kw'ibiciro
+name: Amashusho y'ubushakashatsi ku buringanire bukabije bw'amafaranga
 goal: Gutahura ukuntu ibiciro vy’ibintu vyinshi vyadutse mw’isi ya Fiat n’ingaruka zavyo .
-objectives: 
-
-  - Kwiga inzinguzingu z'ugutera imbere kw'ibiciro
-  - Gutahura ingaruka nyazo z'ugutera imbere kw'ibiciro ku buzima bwacu bwa misi yose
-  - Iga ukuntu ivy'ugutera imbere kw'ibiciro bisa mu gihe cose .
-  - Kugira iciyumviro nyaco c'ingene umuntu yokwikingira inflation nyinshi .
-
+objectives:
+- Kwiga inzinguzingu z'ugutera imbere kw'ibiciro
+- Gutahura ingaruka nyazo z'ugutera imbere kw'ibiciro ku buzima bwacu bwa misi yose
+- Iga ukuntu ivy'ugutera imbere kw'ibiciro bisa mu gihe cose .
+- Kugira iciyumviro nyaco c'ingene umuntu yokwikingira inflation nyinshi .
 ---
+# Urugendo mu gusambuka kw'ubukungu
 
-# Urugendo rwo mu bukungu
+Ni gute iyo amafaranga atakaza ibisobanuro vyayo?
+Iyi nshingano ikuyobora mu isi ishimishije ariko ikomeye y'ifaranga ryinshi cane. Uzovumbura ibyabaye mu mateka n'imihango igezweho aho amafaranga yasambukiye kandi ubukungu bwahindutse mu ijoro. Uzovumbura imiterere, impamvu, n'ingaruka nyazo ku bantu ba hose, ubone ubumenyi ku kimwe mu bintu bikomeye cane mu bukungu.
 
-
-Iyi porogarama igamije gutanga ugutahura kwimbitse ku bijanye n’uguseruka kw’ibiciro vy’ibintu vyinshi mw’isi iganzwa n’amahera ya Fiat no gusuzuma ingaruka zikomeye zishobora guterwa n’ivyo. Abazoja muri iyo nama bazokwihweza mu buryo burambuye inzinguzingu z’ugutera imbere kw’ibiciro, basuzume imvo n’imvano, ibituma bitera, kandi batange ingero z’amateka n’iz’iki gihe. Bazosuzuma kandi ingaruka zigaragara z’ugutera imbere cane kw’ibiciro ku bukungu no ku buzima bwa misi yose, bige ingaruka zigira ku gaciro k’amahera, ubushobozi bwo kugura, n’amahera umuntu azigama ku giti ciwe n’ay’abantu bose.
-
-
-Aha, tuzoshira ahabona imigenderanire n’imirongo isanzwe mu bihe vy’ugutera imbere kw’ibiciro mu mateka yose, mu gihe tuzotanga ingamba nziza kandi zitomoye zo kwikingira mu bihe vy’ugutera imbere kw’ibiciro. Abazoja muri iyo nama bazoronka akaryo ko gutohoza uburyo butandukanye bwo gushora imari mu bikorwa n’uburyo bwo kwikingira amafaranga, baronke ibikoresho ngirakamaro n’ubumenyi nyamukuru bwo kugenda mu mazi mu gihe c’ubutunzi budashikamye.
-
-
+Mu nzira, uzovumbura kandi uko abantu n'imitwaro byanyuze muri ibyo bihe bigoye. Wige ingamba zafashije kurinda ubutunzi mu gihe c'ibibazo vy'amafaranga kandi wubake ubumenyi bwimbitse bwo guhangana n'ibibazo vy'amafaranga. Niba ushaka kumenya imbaraga z'ubukungu zigira uruhare mu isi yacu, uru rugendo rutanga ubumenyi n'imyumvire ifatika.
 +++
-
 # Imenyekanisha
 
 

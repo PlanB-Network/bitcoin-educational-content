@@ -196,6 +196,14 @@ To keep track of all your transactions, you can consult the history in the "*Lat
 
 ![BULL](assets/fr/36.webp)
 
+## Bắt đầu mua định kỳ tự động (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Tạo lệnh giới hạn
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Now you know how to buy and sell bitcoin easily with Bull Bitcoin. If you found this tutorial useful, I'd be very grateful if you put a green thumb below. Feel free to share this article on your social networks. Thank you very much!
 
 I also recommend you check out this other comprehensive tutorial to learn how to manage your mnemonic phrase the right way:

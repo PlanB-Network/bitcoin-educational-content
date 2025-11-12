@@ -128,4 +128,4 @@ Puoi anche consultare una sezione dedicata alle notizie e agli eventi dedicati a
 Ora puoi iniziare a scambiare Bitcoin in modo anonimo e sicuro con Vexl. Per saperne di più, dai un’occhiata al nostro corso sulla privacy in Bitcoin.
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

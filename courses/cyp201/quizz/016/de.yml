@@ -6,4 +6,4 @@ wrong_answers:
   - PBKDF2
 explanation: |
   Das Schnorr-Signaturverfahren wurde im November 2021 mit dem Taproot-Update eingeführt.
-reviewed: false
+reviewed: true

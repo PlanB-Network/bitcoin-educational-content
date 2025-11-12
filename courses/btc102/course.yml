@@ -13,7 +13,7 @@ contributor_names:
 published_at: 2023-05-17
 
 # Proofreading metadata
-original_language: fr
+original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
@@ -21,11 +21,12 @@ proofreading:
     contributor_names:
     reward: 40.23
   - language: de
-    last_contribution_date: 2025-08-18
+    last_contribution_date: 2025-11-05
     urgency: 1
     contributor_names:
       - ghub-user-180
-    reward: 15.1
+      - ndalliard
+    reward: 7.55
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -169,8 +170,6 @@ tags:
 
 videos:
   - id: 9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a
-    youtube:
-      - en: ifVSDGtxZxM
     peertube:
       - en: uNFrQeXvnwtqnjbMHT7oXM
       - es: sYqU6TtdtDXZWDBeDVkSmL
@@ -178,8 +177,6 @@ videos:
       - de: 1M5cELRLpZZ26QeEQpH3wP
       - zh-Hant: 8tQXo8e47ptTC2mW3VvSfC
   - id: 2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
-    youtube:
-      - en: G78aCcMhefI
     peertube:
       - en: umPJcVjypV2tDYccNzTGFc
       - es: retj6cRbpMRCweo5DokeVz
@@ -187,8 +184,6 @@ videos:
       - de: 7mJdWVR2ZDxdCtWNjXUQcr
       - zh-Hant: tT6jh3JBJtetWL4auX3j7d
   - id: 7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b
-    youtube:
-      - en: 4zLze9QWt-E
     peertube:
       - en: pixGY7XJmHrszC7oQYJmuw
       - es: qoCtpZjiMV1KQbBMkqdsAb
@@ -196,8 +191,6 @@ videos:
       - de: aVTwrYFsfoH4pJ5sNUkSeW
       - zh-Hant: iE8GppHN1gEkFKKA1Too7g
   - id: 3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f
-    youtube:
-      - en: RLl3TjwDnJ0
     peertube:
       - en: xiNG962Ht4hrTvxUZHheUr
       - es: gWAfiJdG95QFcG8oGWJzEm
@@ -205,8 +198,6 @@ videos:
       - de: vyzb5J1QagtTYaJk986i1k
       - zh-Hant: dKkUv9EfacVVKqPKKeU44t
   - id: 5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f
-    youtube:
-      - en: 42kA6D6ONBY
     peertube:
       - en: ddV2KpH317BEfFNwjYpb29
       - es: rsXzFbjtgS9kH591EoXB35
@@ -214,8 +205,6 @@ videos:
       - de: 3Snf8N3SUYhk4NsdWasyCc
       - zh-Hant: sp4NSctRY1CsrUp97TyVTv
   - id: 8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d
-    youtube:
-      - en: EXfWIxTlusA
     peertube:
       - en: geyZvu7xuFCJhSutnDddFz
       - es: qqtvw3qhhNy98Wgsm1KbNq
@@ -223,8 +212,6 @@ videos:
       - de: sScPvNNBJHTh4HmtW2Uxwn
       - zh-Hant: nWKF3CWEZYDSLGizqUYhuN
   - id: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
-    youtube:
-      - en: H_YcaXbOO90
     peertube:
       - en: 9zd1F7XfLZSU5HM7S8s3u8
       - es: 5ctdEHuFJMoMAknunAWGzE
@@ -232,8 +219,6 @@ videos:
       - de: im7zZZug6pDhjd4arQwdNS
       - zh-Hant: btRm64fShN6vfH1oxU25pL
   - id: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
-    youtube:
-      - en: 7kR_C8oFzq8
     peertube:
       - en: xqQvcardN2DRDnVdAav4AC
       - es: b6M2C3eYNq4CvuqfHCsn8p
@@ -241,8 +226,6 @@ videos:
       - de: bnkg7xJLw82ZDKat44zJGN
       - zh-Hant: q76BnED4oUEBwc6TrnhCAc
   - id: 3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f
-    youtube:
-      - en: vvwClEg8ZOY
     peertube:
       - en: rvoXwuqtKASRACzV8uH16z
       - es: dVa82rPiA9GvRmQad3uQfH
@@ -250,8 +233,6 @@ videos:
       - de: 2KoRKqptumwWYczdVA1j2T
       - zh-Hant: cCtF11FkozMBQTHNUFEg7B
   - id: 4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b
-    youtube:
-      - en: jlbrq560_JI
     peertube:
       - en: prZkQLAaFEC9JtzbHFn64P
       - es: 1rdL8eijF7546wKpmUvEDa
@@ -259,8 +240,6 @@ videos:
       - de: rZd272yw7k78YMaQnuEqMZ
       - zh-Hant: dpFHinvpTM5GeJTPQWoaU6
   - id: 5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c
-    youtube:
-      - en: kQyBMuhqfsk
     peertube:
       - en: oNnoDtATrZtEThmHumkriD
       - es: 9iK1FhKVMKktRGcpUxF3md
@@ -268,8 +247,6 @@ videos:
       - de: aeKMJG8AoS7NjouxBJMVjP
       - zh-Hant: j37YLnynuup1pZXPpJED8Z
   - id: 6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d
-    youtube:
-      - en: snoPO_x9-nA
     peertube:
       - en: od9RFRuWDE2z86qM9tGovJ
       - es: 8RiUvV5ECE2PqeZFoEgqVa
@@ -277,13 +254,9 @@ videos:
       - de: uVpMKMbHi5TiNE5TV33d8B
       - zh-Hant: 6zvgzowvgaQqFVKM5VVWn6
   - id: 7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e
-    youtube:
-      - en: pfrS9pmdBIE
     peertube:
       - en: oSDhkaGXLLBT3yEt31BmXX
   - id: 8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f
-    youtube:
-      - en: b_6MCWYzdGg
     peertube:
       - en: sDi27LPwMD3wP8e9JnRA81
       - es: qevems8fRdB66ow51Lgu4r
@@ -291,7 +264,6 @@ videos:
       - de: i63K5KLxwkxuafYWX7wBFw
       - zh-Hant: jBH9Y47kqzmHa9vcugAgGD
   - id: 58e578ef-bb3c-423d-8431-0c16db8e5f29
-    youtube:
     peertube:
       - es: aee8BTojUSaDFnEPnoUUzC
       - it: 2Gq2JdsnSJJLc5BtPGe1kJ

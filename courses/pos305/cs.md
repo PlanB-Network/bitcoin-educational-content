@@ -1,31 +1,18 @@
 ---
-name: Bitcoin a BTC Pay Server
-goal: Instalace BTC Pay serveru pro vaši firmu
-objectives: 
-
-  - Pochopte, co je to btcpayserver.
-  - Vlastní hostování a konfigurace serveru BTC Pay.
-  - Používejte btcpayserver ve svém každodenním podnikání.
-
+name: Zvládnutí BTC Pay Server
+goal: Nakonfigurovat instanci BTC Pay Server pro místní podnik
+objectives:
+- Porozumět základům role BTCPay Serveru při zpracování plateb
+- Zvládnout vnitřní fungování procesu konfigurace BTCPay Serveru
+- Nasadit BTCPay Server v cloudových a uzlových prostředích
+- Stát se operátorem BTC Pay Serveru
 ---
+# Cesta k finanční suverenitě
 
-# Bitcoin a server BTCPay
+Důvěra je křehká, zejména když jde o peníze. Tento úvodní kurz vás provede BTCPay Serverem, výkonným nástrojem, který vám umožňuje přijímat platby v Bitcoinu bez spoléhání se na třetí strany. Naučíte se základy toho, jak se stát operátorem BTCPay Serveru
 
-
-Toto je úvodní kurz o BTCPay Server Operator, který napsali Alekos a Bas a který byl upraven pro formát kurzu Plan ₿ melontwistem a asi0.
-
-
-NEDOKONČENÝ PŘÍBĚH
-
-
-"Tohle je lež, má důvěra v tebe je narušena, učiním tě zastaralým".
-
-
-Vyrobeno společností BTCPay Server Foundation
-
-
+Tento kurz vytvořili Alekos a Bas a upravili melontwist a asi0. Odhaluje, jak jednotlivci a podniky budují alternativy k tradičním platebním systémům. Ať už vás Bitcoin zajímá, nebo jste připraveni provozovat platební infrastrukturu pro podniky, objevíte praktické dovednosti, které zpochybňují status quo. Jste připraveni prozkoumat, jak ve skutečnosti vypadá finanční nezávislost?
 +++
-
 # Úvod
 
 

@@ -23,7 +23,7 @@ Bisq 2 er den nye versjonen av den populære desentraliserte Bisq-børsen, som b
 - Støtte for flere porteføljetyper
 - Rollesystem med obligatorisk innskudd i BSQ
 
-Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen som er tilgjengelig for øyeblikket. Bisq Easy er utviklet spesielt for nye Bitcoin-brukere. Denne protokollen gjør det mulig for brukere å kjøpe og selge Bitcoins mot fiat-valutaer på en desentralisert peer-to-peer-plattform. Transaksjonene er begrenset til tilsvarende 600 USD (med et minimum på 6 USD), og sikkerheten er avhengig av BTC-selgernes omdømme. Bisq Easy har ingen handelsgebyrer eller krav til depositum. Bisq Easy forventes å erstatte Bisq 1 for kontantbørser under 600 USD (eller tilsvarende).
+Denne veiledningen fokuserer utelukkende på «Bisq Easy», den eneste protokollen som for øyeblikket er tilgjengelig. Bisq Easy er spesielt utviklet for nye Bitcoin-brukere. Denne protokollen lar brukere kjøpe og selge bitcoins mot fiat-valutaer på en desentralisert peer-to-peer-plattform. Transaksjoner er begrenset til tilsvarende 600 USD (med et minimum på 6 USD), og sikkerheten i handelene er basert på BTC-selgernes omdømme. Bisq Easy har verken handelsgebyrer eller krav om sikkerhetsinnskudd. Det er forventet at Bisq Easy vil erstatte Bisq 1 for fiat-handler under 600 USD (eller tilsvarende).
 
 **Hovedfunksjoner:**
 
@@ -62,7 +62,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Den som utarbeider tilbudet, definerer vilkårene for utvekslingen
 - Når forhandlerne har blitt enige om vilkårene (betalingsmåte og pris), begynner utvekslingen
 - Selgeren sender bankopplysningene sine til kjøperen, og kjøperen sender Bitcoin-adressen sin til selgeren
-- Kjøperen betaler kontant og gir selgeren beskjed om dette
+- Kjøperen foretar betalingen i fiat-valuta og varsler selgeren
 - Når betalingen er mottatt, sender selgeren bitcoinsene til kjøperens adresse
 - Utvekslingen er fullført når kjøperen mottar bitcoinsene
 

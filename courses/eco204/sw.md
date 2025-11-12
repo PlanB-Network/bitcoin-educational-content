@@ -1,20 +1,18 @@
 ---
-name: Utafiti wa mfumuko wa bei
+name: Masomo ya Kesi za Mfumuko Mkubwa wa Bei
 goal: Kuelewa kuibuka kwa mfumuko wa bei katika ulimwengu wa pesa za Fiat money (pesa za serikali) na matokeo yao
-objectives: 
-
-  - Soma mizunguko ya mfumuko wa bei
-  - Kuelewa athari halisi za mfumuko wa bei kwenye maisha yetu ya kila siku
-  - Jifunze kufanana kwa mfumuko wa bei kwa wakati wote
-  - Kuwa na wazo halisi la jinsi ya kujikinga na mfumuko wa bei
-
+objectives:
+- Soma mizunguko ya mfumuko wa bei
+- Kuelewa athari halisi za mfumuko wa bei kwenye maisha yetu ya kila siku
+- Jifunze kufanana kwa mfumuko wa bei kwa wakati wote
+- Kuwa na wazo halisi la jinsi ya kujikinga na mfumuko wa bei
 ---
-# Safari ya kuingia kwenye uchumi
+# Safari Kupitia Kuanguka kwa Uchumi
 
-Mpango huu unalenga kutoa uelewa wa kina wa kuibuka kwa mfumuko wa bei katika ulimwengu unaotawaliwa na sarafu ya Fiat money (pesa za serikali) na kuchunguza matokeo yao muhimu. Washiriki watachunguza mizunguko ya mfumuko wa bei kwa undani, wakichanganua sababu, vichochezi, na mifano ya kihistoria na ya kisasa. Pia watachunguza athari zinazoonekana za mfumuko wa bei kwenye uchumi na maisha ya kila siku, wakisoma athari kwenye thamani ya sarafu, uwezo wa kununua, na akiba ya mtu binafsi na ya pamoja.
+Inaonekana vipi pesa zinapopoteza maana yake?
+Kozi hii inakuongoza kupitia ulimwengu wa kuvutia lakini wa kuonya wa mfumuko mkubwa wa bei. Utagundua matukio ya kihistoria na kesi za kisasa ambapo sarafu zilianguka na uchumi ulibadilika usiku mmoja. Utafichua mifumo, sababu, na athari halisi kwa watu wa kawaida, ukipata ufahamu wa moja ya matukio ya kushangaza zaidi ya uchumi.
 
-Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa wa bei katika historia yote, huku tukitoa mikakati madhubuti na thabiti ya kujilinda katika vipindi vya hyperinflation (mfuko mkubwa wa bei). Washiriki watakuwa na fursa ya kuchunguza chaguzi mbalimbali za uwekezaji (investment) na mbinu za Ulinzi wa kifedha (financial protection), kupata zana za vitendo na ujuzi muhimu ili kuzunguka kwa utulivu katika Hali ya kiuchumi isiyo imara (economic instability).
-
+Njiani, pia utagundua jinsi watu binafsi na jamii walivyopitia vipindi hivi vya msukosuko. Jifunze mikakati iliyosaidia kulinda utajiri wakati wa migogoro ya fedha na ujenga uelewa wa kina wa ustahimilivu wa kifedha. Ikiwa una hamu ya kujua nguvu za kiuchumi zinazosawazisha ulimwengu wetu, safari hii inatoa maarifa na mtazamo wa vitendo.
 +++
 # Utangulizi
 

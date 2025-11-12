@@ -1,14 +1,12 @@
 ---
-name: Intangamarara y’Ivyiyumviro ku Lightning Network.
+name: Inyigisho ya Lightning Network
 goal: Vumbura Lightning Network ukoresheje ubuhinga
-objectives: 
-
-  - Gutahura ingene imirongo y’urubuga ikora.
-  - Imenye neza amajambo HTLC, LNURL, na UTXO.
-  - Gufatanya uburongozi bw’amahera n’amahera ya LNN.
-  - Nimumenye ko Lightning Network ari urusobe.
-  - Gutahura ingene Lightning Network ikoreshwa.
-
+objectives:
+- Gutahura ingene imirongo y’urubuga ikora.
+- Imenye neza amajambo HTLC, LNURL, na UTXO.
+- Gufatanya uburongozi bw’amahera n’amahera ya LNN.
+- Nimumenye ko Lightning Network ari urusobe.
+- Gutahura ingene Lightning Network ikoreshwa.
 ---
 
 # Urugendo rwo kuja ku Bitcoin ya kabiri Layer.

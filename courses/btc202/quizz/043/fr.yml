@@ -6,4 +6,4 @@ wrong_answers:
   - Umbrel Home est open source, umbrelOS est propriétaire
 explanation: |
   Umbrel Home est vendu clé-en-main avec umbrelOS déjà installé, tandis qu’umbrelOS peut être installé DIY sur son propre matériel.
-reviewed: false
+reviewed: true 

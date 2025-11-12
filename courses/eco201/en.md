@@ -1,21 +1,18 @@
 ---
-name: Introduction to Austrian Economics
-goal: Discover the Austrian school of economic thought. Study their views on society and macro/micro-economic realities.
+name: Austrian school of economics foundamentals
+goal: Discover Austrian economics as an alternative framework for analyzing markets and individual decision-making
 objectives:
-  - An alternative to Keynesianism
-  - The importance of hard currency
-  - Why and how are our economic cycles created?
-  - Why have central bankers gone mad?
+- Analyze the functions of money, credit, and central banking systems
+- Apply subjective value theory and time preference to market behavior
+- Understand the Austrian business cycle theory and its causes
+- Compare Austrian methodology with mainstream economic approaches
 ---
+# Journey to the Austrian Economics
 
-# A Journey into Economics
+Ever wondered why some economists think differently about markets, freedom, and human behavior? Austrian economics offers a refreshing perspective that puts you at the heart of economic thinking. Instead of heavy math and abstract models, this approach focuses on logic, human choice, and how real people make decisions in their daily lives. It's economics through the lens of freedom, rationality, and personal action.
 
-Welcome to Théo Mogenet's course! Passionate about economics, history, literature, political science, and technology, he has decided to share his knowledge of Austrian economics with you. This branch, less known in economics, is based on human rationality and free actor behavior. Less intense in mathematics, it is a question of logic and social study above all.
-
-This school of thought has already had several centuries behind it and has a whole panorama of authors, thoughts, and economists behind it. Great names in economics such as Hayek, Rothbard, Mises, Bastiat, or Menger have long defended this movement. In contrast to the omnipresent Keynesianism of our day, the Austrian school puts the individual back at the center of the equation with a more liberal, capitalist, and even anarchist approach.
-
+This school of thought has shaped debates for centuries, thanks to influential thinkers like Hayek, Mises, and Bastiat. While mainstream Keynesian economics dominates today's policy discussions, the Austrian tradition asks different questions: What happens when we prioritize individual liberty? How do free markets actually work when people are free to choose? If you're curious about alternative ways of thinking about markets, society, and freedom, this is your chance to explore ideas you won't find in standard textbooks.
 +++
-
 # Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

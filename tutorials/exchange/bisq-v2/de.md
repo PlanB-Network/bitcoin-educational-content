@@ -23,7 +23,7 @@ Bisq 2 ist die neue Version der beliebten dezentralen Bisq-Börse, die im Jahr 2
 - Unterstützung für mehrere Portfoliotypen
 - Rollensystem mit Pfandpflicht in BSQ
 
-Dieser Leitfaden konzentriert sich ausschließlich auf "Bisq Easy", das einzige derzeit verfügbare Protokoll. Bisq Easy wurde speziell für neue Bitcoin-Nutzer entwickelt. Mit diesem Protokoll können Nutzer Bitcoins gegen Fiat-Währungen auf einer dezentralen Peer-to-Peer-Plattform kaufen und verkaufen. Die Transaktionen sind auf den Gegenwert von 600 USD (mit einem Mindestbetrag von 6 USD) begrenzt, und die Sicherheit des Austauschs hängt von der Reputation der BTC-Verkäufer ab. Bisq Easy erhebt keine Handelsgebühren und verlangt keine Sicherheitsleistung. Es wird erwartet, dass Bisq Easy Bisq 1 für Bargeldtransaktionen unter 600 USD (oder dem Gegenwert) ablösen wird.
+Dieser Leitfaden konzentriert sich ausschließlich auf „Bisq Easy“, das derzeit einzige verfügbare Protokoll. Bisq Easy wurde speziell für neue Bitcoin-Nutzer entwickelt. Dieses Protokoll ermöglicht es den Nutzern, Bitcoins gegen Fiat-Währungen auf einer dezentralen Peer-to-Peer-Plattform zu kaufen und zu verkaufen. Transaktionen sind auf das Äquivalent von 600 USD (mit einem Minimum von 6 USD) begrenzt, und die Sicherheit der Geschäfte beruht auf dem Ruf der BTC-Verkäufer. Bisq Easy hat weder Handelsgebühren noch eine Kautionsanforderung. Es ist vorgesehen, dass Bisq Easy Bisq 1 für Fiat-Handelsgeschäfte unter 600 USD (oder Äquivalent) ersetzt.
 
 **Hauptmerkmale:**
 
@@ -62,7 +62,7 @@ Dieser Leitfaden konzentriert sich ausschließlich auf "Bisq Easy", das einzige 
 - Der Ersteller des Angebots legt die Bedingungen für den Austausch fest
 - Sobald sich die Händler auf die Bedingungen (Zahlungsmethode und Preis) geeinigt haben, beginnt der Austausch
 - Der Verkäufer schickt seine Bankdaten an den Käufer, und der Käufer schickt seine Bitcoin-Adresse an den Verkäufer
-- Der Käufer zahlt in bar und benachrichtigt den Verkäufer
+- Der Käufer leistet die Zahlung in Fiat-Währung und benachrichtigt den Verkäufer
 - Sobald die Zahlung eingegangen ist, sendet der Verkäufer die Bitcoins an die Adresse des Käufers
 - Der Austausch ist abgeschlossen, wenn der Käufer die Bitcoins erhält
 

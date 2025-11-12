@@ -1,0 +1,26 @@
+id: 8d8cf344-acc8-4031-81ef-b6ff73ea9623
+name: Bitfeed
+
+links:
+  website: https://bitfeed.live/
+  twitter: https://x.com/bitfeedlive
+
+category: service
+
+contributor_names:
+  - heyolaniran
+
+tags:
+  - node
+  - onchain
+  - use-case
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

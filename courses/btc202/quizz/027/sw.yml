@@ -1,9 +1,9 @@
-question: Ni nini maalum kuhusu nodi ya SPV?
-answer: Inabakiza vichwa vya kuzuia pekee
+question: Ni nini maalum kuhusu node ya SPV?
+answer: Inabakiza vichwa vya blocks pekee
 wrong_answers:
-  - Inabakiza Blockchain nzima tangu kizuizi cha Genesis
+  - Inabakiza Blockchain nzima tangu block ya Genesis
   - Inahifadhi tu vitalu vya hivi karibuni
   - Inaweka tu seti ya UTXO, sio Blockchain
 explanation: |
-  Nodi ya SPV huthibitisha miamala kupitia vichwa vya kuzuia na uthibitisho wa Merkle, bila kuhifadhi data kamili.
+  Node ya SPV huthibitisha miamala kupitia vichwa vya blocks na uthibitisho wa Merkle, bila kuhifadhi data kamili.
 reviewed: true

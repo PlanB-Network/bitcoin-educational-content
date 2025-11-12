@@ -15,7 +15,6 @@ W tym samouczku przyjrzymy się Blue Wallet, prostemu, ale bardzo skutecznemu Bi
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

@@ -5,5 +5,5 @@ wrong_answers:
   - 256 GB
   - 128 GB
 explanation: |
-  De blkNNN.dat-bestanden slaan de blokken opeenvolgend op en bereiken een grootte van ongeveer 128 MB voordat Bitcoin core de volgende opent.
+  De blkNNN.dat-bestanden slaan de blokken opeenvolgend op en bereiken een grootte van ongeveer 128 MB voordat Bitcoin Core de volgende opent.
 reviewed: true

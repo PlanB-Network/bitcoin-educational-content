@@ -2905,47 +2905,47 @@ Kuri bo, igikorwa cose kirahambaye. Igihe cose umuntu akora, igihe cose akora Wa
 ![BTC102-Bitcoin](assets/fr/087.webp)
 
 
-### Ni kubera iki wofata ingingo nk’i?
+### Ni kubera iki wofata ingingo nk’iyo?
 
 
-Guhitamwo umutima wo gushira imbere ubuzima bwite biratanga inyungu nyinshi:
+Guhitamwo umutima wo gushira imbere ubuzima bw'ibanga biratanga inyungu nyinshi :
 
 
 
-- Ukwigenga mu vy’amahera:** Mu kuguma kure y’ivyo amabanki, intwaro n’amashirahamwe akora, urakingira abagucungera canke ngo ntibagufashe mu vyo ushaka.
+- **Kugumana umwidegemvyo wawe w'ivy'ubutunzi:** kwirinda ugucungerwa n'amabanki, intwaro n’amashirahamwe akora, urakingira ukugendurwa na reta canke imbuga zigendurwa.
   
-- Ugukingira itunga:** Iyo ubutunzi canke politike biteye ubwoba, biragoye cane ko abandi bantu bakurikirana canke bafata Bitcoin yawe iyo idafitaniye isano n’akaranga kawe.
+- **Ukugabanya gushobora gushikirwa n'ingorane yo kw'akwa ama BTC yawe:** Iyo ubutunzi busubira inyuma canke budahagaze neza bivuye kuri politike, biragoye cane ko abandi bantu bakurikirana canke bafata Bitcoin y'umukoresha ashira imbere umutekano wiwe.
   
-- Umutekano w’umuntu ushobora gutera imbere:** Abantu bazwi ko bafise ibigwanisho vyinshi vya Bitcoin barashobora kuba abafatwa. Gukomeza guhisha akaranga kawe biragabanya ingorane zo gufatwa n’abantu.
+- **Kugabanya ingorane zo kuboneka cane hamwe n'abashobora kukugirira nabi:** Abantu bazwi ko bafise ibigwanisho vyinshi vya Bitcoin barashobora kuba abafatwa. Gukomeza guhisha akaranga kawe biragabanya ingorane zo gufatwa n’abantu.
 
 
-- Umwidegemvyo wo kudavangura**: Hari ibikorwa canke intwaro zishobora guhagarika amafaranga canke amakonti ashingiye ku gikorwa cawe ca kera canke uwo uri we. Ubuzima bwite buratuma ubwo bubasha buguma bugenzurwa.
+- **Ukugabanya ivangura mu vy'ubutunzi**: Hari ibikorwa canke intwaro zishobora guhagarika amafaranga canke amakonti ashingiye ku gikorwa cawe ca kera canke uwo uri we. Ubuzima bw'ibanga buratuma ubwo bubasha buguma bugenzurwa.
   
-- Gukomeza kuba intahemuka ku mizi ya Bitcoin:** Bitcoin yari yateguwe nk’uburyo bw’amahera butagira uruhusha kandi butagira uruhusha. Gukingira ubuzima bwite bwawe ni kimwe mu vyo gutera iteka iyo ntumbero y’intango.
+- **Gukomeza kuba intahemuka ku mizi ya Bitcoin:** Bitcoin yari yateguwe nk’uburyo bw’amahera butagira uruhusha kandi butagira uruhusha. Gukingira ubuzima bwite bwawe ni kimwe mu vyo gutera iteka iyo ntumbero y’intango.
 
 
-Ni inyishu y’ubwenge, iharuwe ku bibazo vy’ukuri biriho mu bijanye n’ubuhinga bwa none n’ivy’amahera. Egome, iyo nzira isaba utwigoro twinshi. Bisaba umwanya, ubumenyi bw’ubuhinga n’indero. Ariko ku bahisemwo iyo nzira, si ugukoresha Bitcoin gusa; ni ukugira ngo basubire kugenzura amahera yabo, akaranga kabo, n’umwidegemvyo wabo.
+Ubwo buryo buri kura cane yo kuba nk'iyi nyifato isanzwe, iharuwe ku bibazo vy’ukuri biriho mu bijanye n’ubuhinga bwa none n’ivy’amahera. Egome, iyo nzira isaba utwigoro twinshi. Bisaba umwanya, ubumenyi bw’ubuhinga n’indero. Ariko ku bahisemwo iyo nzira, si ugukoresha Bitcoin gusa; ni ukugira ngo basubire kugenzura amahera yabo, akaranga kabo, n’umwidegemvyo wabo.
 
 Si abashoramari canke abakoresha gusa; bariko barahitamwo kuva mu nzira isaba kumenya vyose ku bijanye na bo.
 
 
-### Umugambi w'ishoramari
+### Umugambi wo gushora imitahe w'uwo yama yikeka ko abantu bamuraba
 
 
-Uwo munyabwenge w’umunyamibabaro (Bitcoiner) akurikiza ubuhinga bukomeye bushingiye ku ntego zibiri nyamukuru: kubungabunga ukutamenyekana no kwongerera umutekano. Ubwo bwoko bw’abakoresha burarondera kwirinda gushikirwa n’ibibanza bitegekanijwe (na cane cane ivyo bisaba KYC), gukuraho ugukurikirana amafaranga, no kurwanira amahera yabo ku gucungera, gufatwa, n’ibindi bitera ubwoba biva hanze.
+Uwo munyabwenge w’umunyamakenga (Bitcoiner) akurikiza ubuhinga bukomeye bushingiye ku ntego zibiri nyamukuru: kubungabunga ukutamenyekana no gukomeza umutekano umutekano. Ubwo bwoko bw’abakoresha burarondera kwirinda gushikirwa n’imbuga zitegekanijwe (na cane cane ivyo bisaba KYC), gukuraho ugukurikirana amafaranga, no kurwanira amahera yabo ku gucungera, gufatwa, n’ibindi bitera ubwoba biva hanze.
 
 
 ![BTC102-Bitcoin](assets/fr/092.webp)
 
 
-#### 1. Gushinga ama wallet n'ama node
+#### 1. Gushinga ama ububiko canke wallet ziwe n'ama node
 
 
-Uwukoresha amahera afise ubwoba nta na rimwe avanga amahera ashingiye ku nkomoko canke uko akoresha. Ahubwo, baragabanya Bitcoin yabo kubera intumbero, bakoresheje amasakoshi menshi, yihariye:
+Uwukoresha amahera afise ubwoba nta na rimwe avanga bivanye naho yayakuye canke uko akoresha. Ahubwo, baragabanya Bitcoin yabo kubera intumbero, bakoresheje ama wallet menshi, yihariye:
 
 
 
-- A Cold Wallet (ifise umwuka n’/canke DIY)** Ibintu vy’igihe kirekire bibikwa mu masakoshi atekanye cane, afise umwuka canke DIY. Ivyo ni ibikoresho vy’inkomoko yuguruye canke ivyo bifise kode ishobora kugenzurwa, nka Jade, Coldcard, SeedSigner, Portal canke Passport... Igihe cose bishoboka, bazoronka ivyo bikoresho ata wubizi; canke mu kwishura amahera canke mu gukoresha Bitcoin mw’iduka ry’umubiri, canke mu gusaba kuri Internet n’uburyo bwo kohereza ibintu mu buryo buteye ubwoba be n’ukwishura BTC. Nk’akarorero, mu Bufaransa, [Isoko rya Bitcoin] ni rimwe muri ayo maduka. Ushobora kurondera abatanga ubufasha basa n’abo mu karere kawe.
+- A Cold Wallet (ifise umwuka n’/canke DIY)** Ibintu vy’igihe kirekire bibikwa mu masakoshi atekanye cane, afise umwuka canke DIY. Ivyo ni ibikoresho vy’inkomoko yuguruye canke ivyo bifise kode ishobora kugenzurwa, nka Jade, Coldcard, SeedSigner, Portal canke Passport... Igihe cose bishoboka, bazoronka ivyo bikoresho ata wubizi; canke mu kwishura amahera canke mu gukoresha Bitcoin mw’iduka ushobora gukorako, canke mu gusaba kuri Interinete n’uburyo bwo kohereza ibintu mu buryo buteye ubwoba be n’ukwishura BTC. Nk’akarorero, mu Bufaransa, [Isoko rya Bitcoin] ni rimwe muri ayo maduka. Ushobora kurondera abatanga ubufasha basa n’abo mu karere kawe.
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -2957,7 +2957,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- Hot Wallet ku bikorwa vya misi yose**, Ku gukoresha amahera, abakoresha bafise ubwoba bahitamwo amasakoshi yibanda ku buzima bwite nka Ashigaru, Wasabi Wallet canke Sparrow wallet. Izo nkweto zishigikira ibintu biteye imbere nk’ibi: mini-CoinJoin gukoresha amafaranga, payjoins, ibikoresho bishobora kuba CoinJoin, kugenzura ibiceri, gushiramwo UTXO, canke ubushobozi bwo kwifatanya biciye ku nzira yawe bwite ya Bitcoin.
+- Hot Wallet ku bikorwa vya misi yose**, Ku gukoresha amahera, abakoresha bafise ubwoba bahitamwo amasakoshi yibanda ku buzima bw'ibanga nka Ashigaru, Wasabi Wallet canke Sparrow wallet. Izo nkweto zishigikira ibintu biteye imbere nk’ibi: mini-CoinJoin gukoresha amafaranga, payjoins, ibikoresho bishobora kuba CoinJoin, kugenzura ibiceri, gushiramwo UTXO, canke ubushobozi bwo kwifatanya biciye ku nzira yawe bwite ya Bitcoin.
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -2985,7 +2985,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
-- Kugira ngo bakoreshe **Lightning Network** mu gihe bagumana urugero rumwe rw’ubugenzuzi n’ubukerebutsi, na bo nyene bakoresha urudodo rwabo rw’umuravyo. Ivyo bituma bashobora gucunga imihora ataco baciyeko no gukoresha amahera mu buryo bugabanya ugucungera canke kwizigira ibikorwa vy’ubucungezi.
+- Kugira ngo bakoreshe **Lightning Network** mu gihe bagumana urugero rumwe rw’ubugenzuzi n’ubukerebutsi, na bo nyene bakoresha node yabo ya lightning. Ivyo bituma bashobora gucunga imihora ataco baciyeko no gukoresha amahera mu buryo bugabanya ugucungera canke kwizigira ibikorwa vy’ubucungezi.
 
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

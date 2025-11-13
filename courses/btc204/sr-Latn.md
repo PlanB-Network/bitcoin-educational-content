@@ -4002,7 +4002,7 @@ Ideja ove ricochet metode potiče prvobitno od timova Samourai Wallet-a, koji su
 ![BTC204](assets/sr-Latn/196.webp)
 
 
-Samurai aplikacija nudi dve varijante rikošeta:
+Aplikacija Ashigaru nudi dve varijante ricochet-a (iste one koje smo ranije imali na Samourai):
 
 
 

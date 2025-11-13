@@ -2643,7 +2643,7 @@ L’idée de cette méthode du ricochet provient à l’origine des équipes de 
 
 ![BTC204](assets/fr/196.webp)
 
-L'application Samourai propose deux variantes de ricochet :
+L'application Ashigaru propose deux variantes de ricochet (les mêmes que l'on avait avant sur Samourai) :
 - Le ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service Samourai sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du ricochet en renforçant sa résistance face à l'analyse de chaîne ;
 
 ![BTC204](assets/fr/197.webp)

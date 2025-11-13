@@ -2781,7 +2781,7 @@ Wazo la mbinu hii ya ricochet lilitokana awali na timu za Samourai Wallet, ambaz
 
 ![BTC204](assets/sw/196.webp)
 
-Programu ya Samourai Wallet inatoa matoleo mawili ya ricochet:
+Programu ya Ashigaru inatoa aina mbili za ricochet (zile zile tulizokuwa nazo awali kwenye Samourai):
 
 
 - Ricochet iliyoimarishwa, au *"fast delivery"*, hutoa faida ya kusambaza malipo ya huduma ya Samourai kupitia muamala tano zinazofuatana. Chaguo hili pia huhakikisha kuwa kila muamala unatangazwa kwa wakati tofauti na kurekodiwa katika block tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mmiliki kubadilika. Ingawa ni polepole, njia hii ni bora kwa wale wasio na haraka, kwani huongeza ufanisi wa Ricochet kwa kuimarisha upinzani wake dhidi ya Chain analysis (uchambuzi wa mnyororo);

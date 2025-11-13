@@ -4006,7 +4006,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 ![BTC204](assets/fa/196.webp)
 
 
-برنامه Samurai دو نوع ری‌کوشه ارائه می‌دهد:
+برنامه Ashigaru دو نوع ریكوشه ارائه می‌دهد (همان‌هایی که پیش‌تر در Samourai داشتیم):
 
 
 

@@ -2829,7 +2829,7 @@ A ideia deste método de ricochete vem originalmente das equipas do Samourai Wal
 
 ![BTC204](assets/pt/196.webp)
 
-A aplicação Samurai oferece duas variantes de ricochete:
+O aplicativo Ashigaru oferece duas variantes de ricochete (as mesmas que existiam anteriormente no Samourai):
 
 
 - Ricochete reforçado, ou "entrega escalonada", que oferece a vantagem de repartir a taxa de serviço Samurai pelas cinco transacções sucessivas. Esta opção também garante que cada transação é transmitida num momento distinto e registada num bloco diferente, imitando o mais possível o comportamento de uma mudança de proprietário. Embora mais lento, este método é preferível para quem não tem pressa, pois maximiza a eficiência do ricochete reforçando a sua resistência à análise da cadeia;

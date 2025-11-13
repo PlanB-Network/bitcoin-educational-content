@@ -4015,7 +4015,7 @@ Bu sektirme yönteminin fikri, işleyişi otomatikleştirmek amacıyla onu uygul
 ![BTC204](assets/tr/196.webp)
 
 
-Samuray uygulaması iki sekme çeşidi sunar:
+Ashigaru uygulaması iki ricochet çeşidi sunar (önceden Samourai’de bulunanlarla aynıdır):
 
 
 

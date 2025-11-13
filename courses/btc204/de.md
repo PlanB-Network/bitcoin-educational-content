@@ -2798,7 +2798,7 @@ Die Idee dieser Ricochet-Methode stammt ursprünglich von den Teams von Samourai
 
 ![BTC204](assets/de/196.webp)
 
-Die Samurai-Anwendung bietet zwei Abprallvarianten:
+Die Anwendung Ashigaru bietet zwei Varianten des Ricochet an (dieselben wie zuvor auf Samourai):
 
 
 - Verstärkter Ricochet oder "gestaffelte Zustellung", die den Vorteil bietet, dass die Samurai-Servicegebühr auf die fünf aufeinander folgenden Transaktionen verteilt wird. Diese Option gewährleistet auch, dass jede Transaktion zu einem separaten Zeitpunkt gesendet und in einem anderen Block aufgezeichnet wird, wodurch das Verhalten eines Eigentümerwechsels so genau wie möglich nachgeahmt wird. Obwohl diese Methode langsamer ist, ist sie für diejenigen, die es nicht eilig haben, vorzuziehen, da sie die Effizienz des Abprallers maximiert, indem sie seine Widerstandsfähigkeit gegen Blockchain-Analysen verstärkt;

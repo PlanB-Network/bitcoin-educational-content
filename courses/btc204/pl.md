@@ -3998,7 +3998,7 @@ Pomysł na tę metodę rykoszetu pochodzi pierwotnie od zespołów Samourai Wall
 ![BTC204](assets/pl/196.webp)
 
 
-Aplikacja Samurai oferuje dwa warianty rykoszetów:
+Aplikacja Ashigaru oferuje dwa warianty ricochetu (te same, które mieliśmy wcześniej w Samourai):
 
 
 

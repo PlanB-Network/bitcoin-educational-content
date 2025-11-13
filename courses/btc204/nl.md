@@ -3964,7 +3964,7 @@ Het idee achter deze ricochet-methode komt oorspronkelijk van de teams van Samou
 ![BTC204](assets/nl/196.webp)
 
 
-De Samurai-toepassing biedt twee ricochet-varianten:
+De Ashigaru-app biedt twee varianten van ricochet (dezelfde als die we eerder op Samourai hadden):
 
 
 

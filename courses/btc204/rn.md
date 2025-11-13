@@ -4013,7 +4013,7 @@ Igitekerezo cy’iyi nzira ya ricochet cyakomotse ku makipe ya Samourai Wallet, 
 ![BTC204](assets/rn/196.webp)
 
 
-Igikoresho ca Samurai gitanga uburyo bubiri bwo gutera ricochet:
+Porogaramu Ashigaru itanga ubundi buryo bubiri bwa ricochet (bumwe twari dufite mbere kuri Samourai):
 
 
 

@@ -2832,7 +2832,7 @@ Myšlenka této metody ricochet pochází původně od týmů Samourai Wallet, k
 
 ![BTC204](assets/cs/196.webp)
 
-Aplikace Samurai nabízí dvě varianty ricochetů:
+Aplikace Ashigaru nabízí dvě varianty ricochetu (stejné, jaké jsme měli dříve na Samourai):
 
 
 - Posílený ricochet neboli "rozložené doručení", které nabízí výhodu rozložení servisního poplatku Samurai na pět po sobě jdoucích transakcí. Tato možnost také zajišťuje, že každá transakce je vysílána v samostatném čase a zaznamenána v jiném bloku, což co nejvěrněji napodobuje chování při změně vlastníka. Ačkoli je tato metoda pomalejší, je vhodnější pro ty, kteří nespěchají, protože maximalizuje účinnost ricochetu tím, že posiluje jeho odolnost vůči řetězové analýze;

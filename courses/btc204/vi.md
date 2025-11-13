@@ -2828,7 +2828,7 @@ Phương pháp này không chỉ hiệu quả đối với mối ghép đồng t
 
 ![BTC204](assets/vi/196.webp)
 
-Ứng dụng Samurai cung cấp hai biến thể ricochet:
+Ứng dụng Ashigaru cung cấp hai biến thể ricochet (giống như những gì trước đây có trên Samourai):
 
 
 - Giao dịch ricochet được gia cố, hay "giao hàng theo đợt", cung cấp lợi thế là phân bổ phí dịch vụ Samurai cho năm giao dịch liên tiếp. Tùy chọn này cũng đảm bảo rằng mỗi giao dịch được phát sóng vào một thời điểm riêng biệt và được ghi lại trong một khối khác nhau, mô phỏng càng sát càng tốt hành vi của một thay đổi chủ sở hữu. Mặc dù chậm hơn, phương pháp này được ưa chuộng hơn đối với những người không vội, vì nó tối đa hóa hiệu quả của giao dịch ricochet bằng cách củng cố khả năng chống lại phân tích chuỗi;

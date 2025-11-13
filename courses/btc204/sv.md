@@ -4000,7 +4000,7 @@ Idén med denna ricochet-metod kommer ursprungligen från teamen bakom Samourai 
 ![BTC204](assets/sv/196.webp)
 
 
-Samurai-applikationen erbjuder två rikoschettvarianter:
+Ashigaru-applikationen erbjuder två ricochet-varianter (samma som vi hade tidigare på Samourai):
 
 
 

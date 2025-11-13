@@ -2829,7 +2829,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 
 ![BTC204](assets/zh-Hans/196.webp)
 
-武士 "应用程序提供两种跳弹变体：
+Ashigaru 应用提供两种弹射方式（与之前在 Samourai 上的相同）：
 
 
 - 强化跳转或 "交错交付"，其优点是将 Samurai 服务费分摊到连续的五笔交易中。这种方法还能确保每笔交易都在不同的时间进行广播，并记录在不同的区块中，尽可能模仿物主变更的行为。这种方法虽然速度较慢，但对那些不着急的人来说更可取，因为它通过加强对链式分析的抵抗力，最大限度地提高了跳转的效率；

@@ -2806,7 +2806,7 @@ The idea behind this ricochet method originally came from the teams at Samourai 
 
 ![BTC204](assets/en/196.webp)
 
-The Samurai application offers two ricochet variants:
+The Ashigaru application offers two ricochet variants (the same ones we previously had on Samourai):
 
 
 - Reinforced ricochet, or "staggered delivery", which offers the advantage of spreading the Samurai service charge over the five successive transactions. This option also ensures that each transaction is broadcast at a separate time and recorded in a different block, mimicking as closely as possible the behavior of a transfer of ownership. Although slower, this method is preferable for those who are not in a hurry, as it maximizes the efficiency of the ricochet by reinforcing its resistance to chain analysis.

@@ -2830,7 +2830,7 @@ Ideen bak denne ricochet-metoden kommer opprinnelig fra teamene bak Samourai Wal
 
 ![BTC204](assets/nb-NO/196.webp)
 
-Samurai-applikasjonen tilbyr to rikosjettvarianter:
+Ashigaru-applikasjonen tilbyr to ricochet-varianter (de samme som vi hadde tidligere på Samourai):
 
 
 - Forsterket rikosjett, eller "forskjøvet levering", som gir fordelen av å spre Samurai-gebyret over de fem påfølgende transaksjonene. Dette alternativet sikrer også at hver transaksjon sendes på et separat tidspunkt og registreres i en annen blokk, noe som etterligner oppførselen til et eierskifte så godt som mulig. Selv om denne metoden er langsommere, er den å foretrekke for de som ikke har det travelt, ettersom den maksimerer effektiviteten til rikosjetteringen ved å forsterke dens motstand mot kjedeanalyse;

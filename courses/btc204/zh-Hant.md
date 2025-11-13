@@ -3997,7 +3997,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 ![BTC204](assets/zh-Hant/196.webp)
 
 
-Samurai 應用程式提供兩種跳彈變體：
+Ashigaru 應用程式提供兩種彈射變體（與先前在 Samourai 上的一樣）：
 
 
 

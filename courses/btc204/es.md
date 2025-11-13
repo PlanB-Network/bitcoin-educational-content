@@ -2832,7 +2832,7 @@ La idea de este método de rebote proviene originalmente de los equipos de Samou
 
 ![BTC204](assets/es/196.webp)
 
-La aplicación Samurai ofrece dos variantes de rebote:
+La aplicación Ashigaru ofrece dos variantes de ricochet (las mismas que teníamos antes en Samourai):
 
 
 - Rebote reforzado, o "entrega escalonada", que ofrece la ventaja de repartir el coste del servicio Samurai entre las cinco transacciones sucesivas. Esta opción también garantiza que cada transacción se emita en un momento distinto y se registre en un bloque diferente, imitando al máximo el comportamiento de un cambio de propietario. Aunque más lento, este método es preferible para los que no tienen prisa, ya que maximiza la eficacia del rebote reforzando su resistencia al análisis en cadena;

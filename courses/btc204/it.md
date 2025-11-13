@@ -2828,7 +2828,7 @@ L’idea di questo metodo del ricochet proviene originariamente dai team di Samo
 
 ![BTC204](assets/it/196.webp)
 
-L'applicazione Samurai offre due varianti di rimbalzo:
+L'applicazione Ashigaru offre due varianti di ricochet (le stesse che avevamo prima su Samourai):
 
 
 - Ricochet rinforzato, o "consegna scaglionata", che offre il vantaggio di distribuire il costo del servizio Samurai sulle cinque transazioni successive. Questa opzione garantisce inoltre che ogni transazione venga trasmessa in un momento distinto e registrata in un blocco diverso, imitando il più possibile il comportamento di un cambio di proprietario. Anche se più lento, questo metodo è preferibile per chi non ha fretta, in quanto massimizza l'efficienza del ricochet rafforzando la sua resistenza all'analisi della catena;

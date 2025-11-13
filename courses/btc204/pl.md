@@ -3141,10 +3141,8 @@ Po aresztowaniu założycieli Samourai Wallet i zajęciu ich serwerów 24 kwietn
 ![BTC204](assets/pl/155.webp)
 
 
-Nadal jednak możliwe jest, że narzędzie to zostanie reaktywowane w nadchodzących tygodniach, w zależności od wyniku testów, lub ponownie uruchomione w inny sposób. W każdym razie nie sądzę, aby rynek Bitcoin CoinJoin długo pozostawał bez Supply, ponieważ istnieje na niego popyt. Co więcej, ponieważ model Whirlpool jest najbardziej zaawansowany pod względem poufności, z pewnością będzie on wybierany przez inne implementacje w przyszłości.
 
 
-Uważnie obserwujemy tę sprawę i rozwój związanych z nią narzędzi. Zapewniamy, że będziemy aktualizować ten kurs szkoleniowy w miarę pojawiania się nowych informacji.
 
 
 W następnym rozdziale dowiemy się, czym są "anonsety", jak obliczane są te wskaźniki i jak mogą one pomóc nam oszacować wydajność cykli CoinJoin.
@@ -3152,7 +3150,6 @@ W następnym rozdziale dowiemy się, czym są "anonsety", jak obliczane są te w
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

@@ -2195,15 +2195,12 @@ Sau khi những người sáng lập Samourai Wallet bị bắt và máy chủ c
 
 ![BTC204](assets/vi/155.webp)
 
-Tuy nhiên, vẫn có khả năng công cụ này sẽ được kích hoạt lại trong những tuần tới, tùy thuộc vào kết quả của các thử nghiệm hoặc được khởi chạy lại theo một cách khác. Trong mọi trường hợp, tôi không nghĩ thị trường Bitcoin coinjoin sẽ không thiếu nguồn cung trong thời gian dài, vì nhu cầu vẫn còn đó. Hơn nữa, vì mô hình của Whirlpool là mô hình tiên tiến nhất về mặt bảo mật, nên chắc chắn đây sẽ là mô hình được lựa chọn cho các triển khai khác trong tương lai.
 
-Chúng tôi đang theo dõi chặt chẽ trường hợp này và các diễn biến trong các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật khóa đào tạo này khi có thông tin mới.
 
 Trong chương tiếp theo, chúng ta sẽ tìm hiểu "anonset" là gì, cách tính các chỉ số này và cách chúng có thể giúp chúng ta ước tính hiệu quả của các chu kỳ coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

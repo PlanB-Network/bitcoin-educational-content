@@ -3141,10 +3141,8 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 ![BTC204](assets/zh-Hant/155.webp)
 
 
-不過，視乎試驗結果，這項工具仍有可能在未來幾週內重新啟動，或以不同的方式重新推出。無論如何，我不認為 Bitcoin CoinJoin 市場會長期沒有 Supply 的存在，因為需求是存在的。更重要的是，由於 Whirlpool 的機型在機密性方面是最先進的，因此未來一定會成為其他實作的首選機型。
 
 
-我們正密切注意此案例及相關工具的發展。請放心，我們會在有新資訊時更新本訓練課程。
 
 
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
@@ -3152,7 +3150,6 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

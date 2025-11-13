@@ -3153,10 +3153,8 @@ Samourai Wallet kurucularının tutuklanması ve sunucularının 24 Nisan 2024�
 ![BTC204](assets/tr/155.webp)
 
 
-Bununla birlikte, denemelerin sonucuna bağlı olarak bu aracın önümüzdeki haftalarda yeniden etkinleştirilmesi veya farklı bir şekilde yeniden piyasaya sürülmesi mümkün olmaya devam ediyor. Her halükarda, talep olduğu için Bitcoin CoinJoin pazarının uzun süre Supply'siz kalacağını düşünmüyorum. Dahası, Whirlpool'in modeli gizlilik açısından en gelişmiş model olduğundan, gelecekte diğer uygulamalar için kesinlikle tercih edilen model olacaktır.
 
 
-Bu davayı ve ilgili araçlardaki gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu kursu güncelleyeceğimizden emin olabilirsiniz.
 
 
 Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesaplandığını ve CoinJoin döngülerinin verimliliğini tahmin etmemize nasıl yardımcı olabileceğini öğreneceğiz.
@@ -3164,7 +3162,6 @@ Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesa
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

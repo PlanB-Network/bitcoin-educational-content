@@ -3151,10 +3151,8 @@ Inyuma y’ifatwa ry’abashinze Samourai Wallet n’ifatiswa ry’amaseriveri y
 ![BTC204](assets/rn/155.webp)
 
 
-Ariko rero, birashoboka ko ico gikoresho cosubira gukoreshwa mu ndwi ziza, bivanye n’ivyo ibigeragezo bizovamwo, canke kigasubira gukoreshwa mu buryo butandukanye. Uko biri kwose, sinibaza ko isoko rya Bitcoin CoinJoin rizoba ritagira Supply igihe kirekire, kuko ubukene buriho. Ikindi, nk’uko uburyo bwa Whirlpool ari bwo buteye imbere cane mu bijanye n’ibanga, nta gukeka ko buzoba uburyo bwo guhitamwo ku bindi bikorwa vyo gushirwa mu ngiro muri kazoza.
 
 
-Turaguma twihweza cane iki kibazo n'iterambere mu bikoresho bijanye naco. Nimwizere ko tuzoba turiko turasubiramwo iri shure uko amakuru mashasha azoba ariko araboneka.
 
 
 Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso biharurwa, n'ingene bishobora kudufasha kugereranya ubushobozi bw'ingendo za CoinJoin.
@@ -3162,7 +3160,6 @@ Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso bi
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

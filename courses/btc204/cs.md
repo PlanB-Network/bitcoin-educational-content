@@ -2199,15 +2199,12 @@ Po zatčení zakladatelů Samourai Wallet a zabavení jejich serverů dne 24. du
 
 ![BTC204](assets/cs/155.webp)
 
-Je však možné, že tento nástroj bude v nadcházejících týdnech v závislosti na výsledcích zkoušek znovu aktivován nebo bude spuštěn jiným způsobem. V každém případě si nemyslím, že trh s bitcoinovými mincemi bude dlouho bez nabídky, protože poptávka po nich existuje. A co víc, jelikož model společnosti Whirlpool je z hlediska důvěrnosti nejpokročilejší, bude v budoucnu jistě modelem volby pro další implementace.
 
-Tento případ a vývoj souvisejících nástrojů bedlivě sledujeme. Můžete si být jisti, že tento vzdělávací kurz budeme aktualizovat, jakmile budou k dispozici nové informace.
 
 V příští kapitole se dozvíme, co jsou to "anonsety", jak se tyto ukazatele počítají a jak nám mohou pomoci odhadnout efektivitu cyklů coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

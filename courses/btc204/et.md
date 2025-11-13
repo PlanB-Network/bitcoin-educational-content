@@ -2199,15 +2199,12 @@ Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimis
 
 ![BTC204](assets/et/155.webp)
 
-Siiski on võimalik, et see vahend võetakse lähinädalatel uuesti kasutusele, sõltuvalt katsete tulemustest, või käivitatakse uuesti muul viisil. Igal juhul ei usu ma, et Bitcoin coinjoin turg jääb kaua ilma pakkumiseta, sest nõudlus on olemas. Veelgi enam, kuna Whirlpooli mudel on konfidentsiaalsuse poolest kõige arenenum, on see kindlasti tulevikus teiste rakenduste jaoks valitud mudel.
 
-Jälgime seda juhtumit ja sellega seotud vahendite arengut tähelepanelikult. Võite olla kindel, et uuendame seda koolitust, kui uus teave muutub kättesaadavaks.
 
 Järgmises peatükis saame teada, mis on "anonsetid", kuidas neid näitajaid arvutatakse ja kuidas need aitavad meil hinnata coinjoin'i tsüklite tõhusust.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

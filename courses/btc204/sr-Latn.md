@@ -3140,10 +3140,8 @@ Nakon hapšenja osnivača Samourai Walleta i zaplene njihovih servera 24. aprila
 ![BTC204](assets/sr-Latn/155.webp)
 
 
-Međutim, ostaje mogućnost da će ovaj alat biti ponovo aktiviran u narednim nedeljama, u zavisnosti od ishoda ispitivanja, ili ponovo pokrenut na drugačiji način. U svakom slučaju, ne mislim da će tržište Bitcoin CoinJoin-a dugo biti bez ponude, jer potražnja postoji. Štaviše, pošto je Whirlpool model najnapredniji u smislu poverljivosti, sigurno će biti model izbora za druge implementacije u budućnosti.
 
 
-Pažljivo pratimo ovaj slučaj i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj kurs obuke čim nove informacije budu dostupne.
 
 
 U sledećem poglavlju saznaćemo šta su "anonsets", kako se ovi indikatori izračunavaju i kako nam mogu pomoći da procenimo efikasnost CoinJoin ciklusa.
@@ -3151,7 +3149,6 @@ U sledećem poglavlju saznaćemo šta su "anonsets", kako se ovi indikatori izra
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

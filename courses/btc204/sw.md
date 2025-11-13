@@ -2164,14 +2164,11 @@ Baada ya kukamatwa kwa waanzilishi wa Samourai Wallet na kukamatwa kwa seva zao 
 
 ![BTC204](assets/sw/155.webp)
 
-Hata hivyo, bado inawezekana kwamba zana hii itawashwa tena katika wiki zijazo, kulingana na matokeo ya majaribio, au kuzinduliwa upya kwa njia tofauti. Kwa vyovyote vile, sidhani kama soko la kuunga sarafu ya Bitcoin  litakuwa bila usambazaji kwa muda mrefu, kwani mahitaji yapo. Zaidi ya hayo, kwa vile modeli ya Whirlpool ndiyo ya juu zaidi katika suala la usiri, hakika itakuwa ni kielelezo cha chaguo kwa utekelezaji mwingine katika siku zijazo.
 
-Tunafuatilia kwa karibu kesi hii na maendeleo katika zana zinazohusiana. Kuwa na uhakika kwamba tutakuwa tukisasisha kozi hii ya mafunzo kadri taarifa mpya zinavyopatikana.
 
 Katika sura inayofuata, tutajua "anonsets" ni nini, jinsi viashiria hivi vinavyohesabiwa, na jinsi vinaweza kutusaidia kukadiria ufanisi wa mizunguko ya kuunga sarafu.
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 ## Seti za kutokujulikana
 

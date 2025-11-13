@@ -2199,15 +2199,12 @@ Tras la detención de los fundadores de Samourai Wallet y la incautación de sus
 
 ![BTC204](assets/es/155.webp)
 
-No obstante, sigue siendo posible que esta herramienta se reactive en las próximas semanas, en función del resultado de las pruebas, o que se relance de otra forma. En cualquier caso, no creo que el mercado de coinjoin de Bitcoin se quede sin oferta durante mucho tiempo, ya que la demanda está ahí. Además, como el modelo de Whirlpool es el más avanzado en términos de confidencialidad, seguramente será el modelo elegido para otras implementaciones en el futuro.
 
-Seguimos de cerca este caso y la evolución de las herramientas asociadas. Le aseguramos que actualizaremos este curso de formación a medida que dispongamos de nueva información.
 
 En el próximo capítulo, descubriremos qué son los "anonsets", cómo se calculan estos indicadores y cómo pueden ayudarnos a estimar la eficiencia de los ciclos coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

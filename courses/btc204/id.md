@@ -2197,15 +2197,12 @@ Setelah penangkapan para pendiri Samourai Wallet dan penyitaan server mereka pad
 
 ![BTC204](assets/id/155.webp)
 
-Namun, masih ada kemungkinan bahwa alat ini akan diaktifkan kembali dalam beberapa minggu mendatang, tergantung pada hasil uji coba, atau diluncurkan kembali dengan cara yang berbeda. Bagaimanapun, saya rasa pasar coinjoin Bitcoin tidak akan kekurangan pasokan untuk waktu yang lama, karena permintaan tetap ada. Terlebih lagi, karena model Whirlpool adalah yang paling canggih dalam hal kerahasiaan, model ini pasti akan menjadi model pilihan untuk implementasi lain di masa depan.
 
-Kami terus memantau kasus ini dan perkembangan alat yang terkait. Yakinlah bahwa kami akan memperbarui kursus pelatihan ini saat informasi baru tersedia.
 
 Di bab berikutnya, kita akan mengetahui apa itu "anonset", bagaimana indikator ini dihitung, dan bagaimana indikator ini dapat membantu kita memperkirakan efisiensi siklus coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

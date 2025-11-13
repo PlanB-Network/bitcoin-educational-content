@@ -2199,15 +2199,12 @@ Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinn
 
 ![BTC204](assets/fi/155.webp)
 
-On kuitenkin mahdollista, että tämä väline otetaan uudelleen käyttöön tulevina viikkoina kokeiden tuloksista riippuen tai että se käynnistetään uudelleen eri tavalla. Joka tapauksessa en usko, että Bitcoin coinjoin -markkinat ovat pitkään ilman tarjontaa, sillä kysyntää on. Lisäksi, koska Whirlpoolin malli on luottamuksellisuuden kannalta edistynein, se on varmasti tulevaisuudessa muiden toteutusten valintamalli.
 
-Seuraamme tiiviisti tätä tapausta ja siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tätä koulutusta sitä mukaa, kun uutta tietoa tulee saataville.
 
 Seuraavassa luvussa selvitetään, mitä "anonsetit" ovat, miten nämä indikaattorit lasketaan ja miten niiden avulla voidaan arvioida coinjoin-syklien tehokkuutta.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 

@@ -349,7 +349,7 @@ Meidän on siis myös pystyttävä käsittelemään lohkoketjuanalyysia Bitcoini
 
 Mikä olisikaan parempi tapa torjua lohkoketjuanalyysia kuin tutustua siinä käytettyihin menetelmiin? Jos haluat tietää, miten voit parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä antaa sinulle paremman käsityksen tekniikoista, kuten coinjoin tai payjoin (tekniikoita tarkastelemme kurssin loppuosissa), ja vähentää virheitä, joita saatat tehdä.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -1891,7 +1891,6 @@ Whirlpool on tällä hetkellä ainoa coinjoin-toteutus, joka soveltaa tiukasti Z
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*Vuonna 2024 olemme todistamassa suuria muutoksia niiden käyttäjien käyttettävissä olevissa työkaluissa, jotka haluavat tehdä kolikkoliitoksia Bitcoinissa. Olemme tällä hetkellä käännekohdassa, ja coinjoin-markkinat ovat suuressa rakennemuutoksessa. Tätä lukua päivitetään varmasti ajan myötä.*
 
 Tällä hetkellä Bitcoinissa on pääasiassa 3 erilaista coinjoin-toteutusta:
 
@@ -1899,6 +1898,10 @@ Tällä hetkellä Bitcoinissa on pääasiassa 3 erilaista coinjoin-toteutusta:
 - Whirlpool;
 - Wabisabi;
 - JoinMarket.
+
+Näiden kolmen historialliset toteutuksen lisäksi on hiljattain ilmestynyt uusi: Joinstr. En käsittele sitä tässä luvussa, mutta löydätte kaikki siihen liittyvät tiedot tästä omistetusta oppaasta:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Jokaisen näistä toteutuksista tavoitteena on rikkoa UTXO:n historia coinjoin-transaktioiden avulla. Niiden mekanismit vaihtelevat kuitenkin huomattavasti. Siksi on tärkeää ymmärtää, miten kukin toimii, jotta voit valita tarpeisiisi parhaiten sopivan vaihtoehdon.
 
@@ -1921,6 +1924,8 @@ Tekniset esteet ovat kuitenkin edelleen suuri este. Coinjoinin ekosysteemissä, 
 Huolimatta innovatiivisesta P2P-linkitysmallistaan kolikkojälleenmyyjille JoinMarketilla on joitakin merkittäviä haittoja, erityisesti transaktiorakenteen osalta. Toisin kuin muut toteutukset, kuten Whirlpool, JoinMarket ei takaa täydellistä tasa-arvoa tuotosten välillä, ja on mahdollista jäljittää deterministisiä linkkejä syötteiden ja tuotosten välillä. Lisäksi siinä ei ole välineitä, joilla estettäisiin jo sekoitettujen osien uudelleen sekoittaminen, mikä voisi vaarantaa käyttäjien toivoman luottamuksellisuuden.
 
 Vaikka JoinMarketin konsepti on mielenkiintoinen erityisesti niille, jotka ovat kiinnostuneita dynaamisista likviditeettimarkkinoista, sen rakenteelliset heikkoudet ja tekninen monimutkaisuus tekevät siitä mielestäni vähemmän kiinnostavan sekä aloittelijoille että asiantuntijoille, jotka etsivät coinjoin-toteutusta.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1966,6 +1971,10 @@ Teknisten ongelmien lisäksi Wasabin takana olevan zkSNACKs-yrityksen päätös 
 Vielä huolestuttavampaa on suodatusperiaate, joka on jyrkässä ristiriidassa Bitcoinin filosofian kanssa, jonka mukaan se tarjoaa avoimen, sensuroimattoman rahoitusjärjestelmän. Vaikka voi tuntua perustellulta haluta sulkea pois rikollinen toiminta, tämä suodattaminen voi vaikuttaa myös henkilöihin, joiden toiminta voi olla moraalisesti perusteltua tai yhteiskunnallisesti hyödyllistä, vaikka se luokitellaan tietyissä yhteyksissä laittomaksi. Edward Snowdenin esimerkki havainnollistaa erinomaisesti tätä kahtiajakoa: jotkut hallitukset pitävät häntä rikollisena paljastustensa vuoksi, kun taas toiset pitävät häntä ilmiantajana, joka toimi yleisen edun nimissä. Tämä monitahoisuus korostaa suodatuksen potentiaalista vaaraa, sillä vaikka suodatus onkin hyvää tarkoittava, se voi lopulta heikentää laillisten käyttäjien oikeuksia ja turvallisuutta. Olisin voinut mainita myös aktivistit ja toimittajat, joita vainotaan tietyissä autoritaarisissa järjestelmissä.
 
 Kuten olet varmasti jo ymmärtänyt, suosin ehdottomasti Whirlpool-mallia Bitcoinin kolikkoliitoksissa. Tämä järjestelmä erottuu tiukkuutensa vuoksi ja tarjoaa erinomaiset takeet luottamuksellisuudesta. Se on myös ainoa, joka tarjoaa matemaattisesti täydellisenä pidetyn yhdistelmän. Mielestäni tämä malli edustaa Bitcoinin kolikkojatkojen tulevaisuutta. Kutsun sinut tutustumaan tähän malliin syvällisemmin seuraavassa luvussa.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Miten Whirlpool toimii
 
@@ -2168,7 +2177,7 @@ Ei myöskään ole suositeltavaa siirtää postmix UTXO:t lompakkoon käyttämä
 
 Kuten minkä tahansa Bitcoin-tapahtuman kohdalla, on myös tärkeää, että vastaanottavaa osoitetta ei käytetä uudelleen. Jokainen uusi transaktio on vastaanotettava uuteen, tyhjään osoitteeseen.
 
-Yksinkertaisin ja turvallisin ratkaisu on jättää sekoitetut UTXO:t lepäämään **postmix**-tililleen, antaa niiden sekoittua uudelleen ja koskettaa niitä vain kulutusta varten. Samurai- ja Sparrow-lompakoissa on lisäsuojaus kaikkia näitä ketjuanalyysin riskejä vastaan. Nämä suojaukset auttavat sinua välttämään virheitä.
+Yksinkertaisin ja turvallisin ratkaisu on jättää sekoitetut UTXO:t lepäämään **postmix**-tilille, antaa niiden jatkaa sekoittumista ja koskea niihin vain kulutusta varten. Samourai-lompakot (ja nyt Ashigaru) sekä Sparrow tarjoavat lisäsuojauksia kaikkia näitä ketjuanalyysiin liittyviä riskejä vastaan. Nämä suojaukset auttavat teitä välttämään virheet.
 
 ### Miten hallitset myrkyllisiä vaihtoja?
 
@@ -2181,24 +2190,27 @@ Seuraavassa on muutamia strategioita niiden käyttämiseksi:
 - Merkitse ne **"käyttökelvottomiksi"**: Toinen tapa on lopettaa niiden käyttö, merkitä ne "käyttökelvottomiksi" niille tarkoitetulle tilille ja vain hodlata ne. Näin varmistat, ettet käytä niitä vahingossa. Jos bitcoinin arvo nousee, voi syntyä uusia pooleja, jotka sopivat paremmin myrkyllisille UTXO:ille;
 - **Tee lahjoituksia:** Harkitse lahjoitusten tekemistä Bitcoinin ja siihen liittyvien ohjelmistojen parissa työskenteleville kehittäjille, vaikka ne olisivat kuinka vaatimattomia. Voit myös lahjoittaa yhdistyksille, jotka hyväksyvät BTC:tä. Jos myrkyllisten UTXO:iden hallinta tuntuu liian monimutkaiselta, voit yksinkertaisesti hankkiutua niistä eroon ja tehdä lahjoituksen;
 - **Osta lahjakortteja:** Alustojen, kuten [Bitrefill](https://www.bitrefill.com/), avulla voit vaihtaa bitcoineja lahjakortteihin, joita voit käyttää eri kauppiailla. Tämä voi olla keino luopua myrkyllisistä UTXO:istasi menettämättä niihin liittyvää arvoa;
-- Konsolidoi ne Moneroon: **Samourai Wallet** tarjoaa atomivaihtopalvelun BTC:n ja XMR:n välillä. Tämä sopii erinomaisesti myrkyllisten UTXO:iden hallintaan konsolidoimalla ne Moneroon vaarantamatta luottamuksellisuuttasi CIOH:n kautta, ennen kuin lähetät ne takaisin Bitcoiniin. Tämä vaihtoehto voi kuitenkin olla kallis kaivosmaksujen ja preemion osalta likviditeettirajoitusten vuoksi;
+- **Konsolidointi Moneron kautta:** Samourai Wallet tarjosi aiemmin atomista vaihtopalvelua BTC:n ja XMR:n välillä, mutta se ei ole enää saatavilla pidätysten jälkeen. Menetelmä mahdollisti myrkyllisten UTXO:iden käsittelyn konsolidoimalla ne Moneroon vaarantamatta yksityisyyttä CIOH:n kautta, minkä jälkeen ne voitiin palauttaa Bitcoiniin. Jos vastaava palvelu ilmestyy uudelleen, se voi olla harkitsemisen arvoinen vaihtoehto. On kuitenkin muistettava, että menetelmä voi muuttua kalliiksi sekä louhintamaksujen että likviditeettirajoituksista johtuvan preemion vuoksi käänteisessä muunnossa bitcoineiksi.
 - Lähetä ne Lightning-verkkoon: Näiden UTXO:iden siirtäminen Lightning-verkkoon voi olla houkutteleva vaihtoehto, jos haluat hyötyä alennetuista transaktiomaksuista. Tämä menetelmä voi kuitenkin paljastaa tiettyjä tietoja riippuen siitä, miten käytät Lightningia, ja siksi sitä tulisi käyttää varoen.
 
 ### Miten käytän Whirlpoolia?
 
-Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoimisen jälkeen 24. huhtikuuta 2024 Whirlpool-työkalu ei enää toimi, ei edes niillä, joilla on oma Dojo. Aiemmin se oli käytettävissä Samourai Walletissa ja Sparrow Walletissa.
+Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta 2024 Whirlpool-työkalu ei ole enää käytettävissä Samourai Walletissa ja Sparrow Walletissa.
 
 ![BTC204](assets/fi/155.webp)
 
-On kuitenkin mahdollista, että tämä väline otetaan uudelleen käyttöön tulevina viikkoina kokeiden tuloksista riippuen tai että se käynnistetään uudelleen eri tavalla. Joka tapauksessa en usko, että Bitcoin coinjoin -markkinat ovat pitkään ilman tarjontaa, sillä kysyntää on. Lisäksi, koska Whirlpoolin malli on luottamuksellisuuden kannalta edistynein, se on varmasti tulevaisuudessa muiden toteutusten valintamalli.
 
-Seuraamme tiiviisti tätä tapausta ja siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tätä koulutusta sitä mukaa, kun uutta tietoa tulee saataville.
+
+Tästä lähtien Whirlpool on jälleen käytettävissä Ashigaru-mobisovelluksessa, joka on Samourai Walletin fork, Ashigaru Terminal -ohjelmiston ansiosta.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpoolin toiminnan ydin pysyy muuttumattomana, mutta sen käytössä Samouraihin verrattuna on silti joitakin eroja: vuonna 2025 Ashigarussa on saatavilla vain kaksi poolia, arvoltaan `0.25 BTC` ja `0.025 BTC`, ja niiden sisäänpääsymaksut ovat vastaavasti `0.0125 BTC` ja `0.00125 BTC`.
 
 Seuraavassa luvussa selvitetään, mitä "anonsetit" ovat, miten nämä indikaattorit lasketaan ja miten niiden avulla voidaan arvioida coinjoin-syklien tehokkuutta.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2622,7 +2634,10 @@ Tunnettuja ohjelmistoja, jotka tukevat payjoinia, ovat Sparrow Wallet, Wasabi Wa
 
 ![BTC204](assets/fi/177.webp)
 
-Edistynein payjoin-toteutus oli vain Stowaway Samourai Walletissa. Ohjelmiston perustajien pidätyksen jälkeen tämä työkalu on kuitenkin vain osittain toimiva. Stowawayn etuna on, että se on kattava ja helppokäyttöinen protokolla, joka tukee sekä payjoinien vastaanottamista että lähettämistä. Osittain allekirjoitettuja transaktioita voidaan vaihtaa manuaalisesti skannaamalla useita QR-koodeja tai automaattisesti Torin kautta Sorobanin kautta. Jälkimmäinen viestintävaihtoehto on tällä hetkellä poissa käytöstä.
+
+Edistynein payjoin-toteutus on epäilemättä Stowaway, jonka Samourai Walletin kehittäjät loivat. Ohjelmiston perustajien pidätyksen jälkeen tämä työkalu toimii Samouraissa vain osittain. Se on kuitenkin otettu uudelleen käyttöön Ashigaru-sovelluksessa.
+
+Stowawayn etuna on, että se on täydellinen ja erittäin helppokäyttöinen protokolla, joka tukee sekä payjoin-vastaanottoja että -lähetyksiä. Osittain allekirjoitettuja transaktioita voidaan vaihtaa manuaalisesti skannaamalla useita QR-koodeja tai automaattisesti Torin kautta Sorobanin avulla.
 
 ![BTC204](assets/fi/178.webp)
 
@@ -2632,7 +2647,7 @@ Yksi ratkaisu olisi käyttää transaktiorakenteita, jotka tuovat ketjuanalyysii
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Maksu minikolikkoyhteys
 
@@ -2745,19 +2760,20 @@ Logiikan pitäisi olla seuraava, kun haluat käyttää salassapitovälinettä me
 
 ### Miten käytän Stonewall- ja Stonewall x2 -tapahtumia?
 
-Stonewall- ja Stonewall x2 -tapahtumat ovat käytettävissä sekä Samourai Wallet -sovelluksessa että Sparrow Wallet -ohjelmistossa.
+Stonewall-transaktiot ovat saatavilla sekä Sparrow Walletissa että Ashigaru-sovelluksessa, kun taas Stonewall x2 -transaktioita tukee toistaiseksi vain Ashigaru.
 
 ![BTC204](assets/fi/189.webp)
 
-Samourain perustajien pidättämisen jälkeen Stonewall x2 -tapahtumat toimivat kuitenkin payjoinsin tapaan vain vaihtamalla PSBT-tunnukset manuaalisesti osapuolten välillä. Automaattinen vaihto Sorobanin kautta ei valitettavasti ole enää käytettävissä.
 
 Tämäntyyppinen transaktio on mahdollista suorittaa myös manuaalisesti millä tahansa Bitcoin-lompakko-ohjelmistolla.
 
 Seuraavassa luvussa tarkastelemme toista salassapitotekniikkaa, joka on suhteellisen tuntematon, mutta joka on erittäin hyödyllinen täydentämään sitä, mitä olemme jo opiskelleet.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Kimmokkeet
 
@@ -2812,14 +2828,14 @@ Yleisin käyttötapaus ricochetille on silloin, kun on tarpeen salata aiempi osa
 
 Menetelmä on tehokas ei ainoastaan rinnakkaisliitoksissa vaan myös kaikissa muissa merkinnöissä, jotka voivat vaarantaa osan korvattavuuden.
 
-Idea tästä ricochet-menetelmästä tuli alun perin Samourai Wallet -tiimiltä, jotka integroivat sen sovellukseensa prosessin automatisoimiseksi. Palvelu ei ole ilmainen Samourailla, sillä ricochetista peritään 100 000 satsin palvelumaksu sekä louhintakustannukset. Sen käyttöä suositellaan siksi merkittävien summien siirroissa.
+Tämän ricochet-menetelmän idea on alun perin peräisin Samourai Walletin tiimeiltä, jotka olivat integroituneet sen sovellukseensa toiminnan automatisoimiseksi. Palvelu oli Samouraissa maksullinen, sillä jokaisesta ricochet-toiminnosta perittiin 100 000 satsin kiinteä palvelumaksu, minkä lisäksi tuli louhintamaksuja. Sama pätee nykyään Ashigaru-palvelussa. Menetelmän käyttöä suositellaan siksi lähinnä suuria summia koskeviin siirtoihin.
 
 ![BTC204](assets/fi/196.webp)
 
-Samurai-sovellus tarjoaa kaksi ricochet-vaihtoehtoa:
+Ashigaru-sovellus tarjoaa kaksi ricochet-vaihtoehtoa (samat, jotka olivat aiemmin Samourai-sovelluksessa):
 
 
-- Vahvistettu ricochet eli "porrastettu toimitus", jonka etuna on Samurai-palvelumaksun jakautuminen viidelle peräkkäiselle maksutapahtumalle. Tällä vaihtoehdolla varmistetaan myös, että jokainen transaktio lähetetään erillisenä ajankohtana ja kirjataan eri lohkoon, mikä jäljittelee mahdollisimman hyvin omistajanvaihdoksen käyttäytymistä. Vaikka tämä menetelmä on hitaampi, se on suositeltavampi niille, joilla ei ole kiire, sillä se maksimoi ricochetin tehokkuuden vahvistamalla sen vastustuskykyä ketjuanalyysille;
+- Vahvistettu ricochet eli "portaittainen toimitus" tarjoaa edun, jossa Ashigaru-palvelumaksut jaetaan viidelle peräkkäiselle tapahtumalle. Tämä vaihtoehto varmistaa myös, että jokainen tapahtuma lähetetään eri aikaan ja kirjataan eri lohkoon, mikä mahdollistaa omistajanvaihdoksen käyttäytymisen mahdollisimman tarkan jäljittelyn. Vaikka se on hitaampi, tämä menetelmä on parempi niille, joilla ei ole kiire, sillä se maksimoi ricochet’n tehokkuuden vahvistamalla sen vastustuskykyä ketjuanalyysille;
 
 ![BTC204](assets/fi/197.webp)
 
@@ -2832,7 +2848,7 @@ Ricocheting tarkoittaa yksinkertaisesti bitcoinien lähettämistä itsellesi. On
 
 Seuraavassa luvussa tarkastelemme erilaisia tekniikoita omistusoikeuden salaisiin siirtoihin. Nämä menetelmät eroavat radikaalisti tähän mennessä tarkastelemistamme menetelmistä sekä toiminnan että tulosten osalta.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Salaiset omistusoikeuden siirrot
 
@@ -3072,7 +3088,7 @@ BIP47:n tavoitteena on mahdollistaa useiden maksujen vastaanottaminen ilman osoi
 
 Käyttäjä voi näin ollen jakaa maksukoodinsa täysin vapaasti joko sosiaalisissa verkostoissa tai verkkosivuillaan vaarantamatta luottamuksellisuuttaan, toisin kuin perinteisen vastaanottajan osoitteen tai julkisen avaimen tapauksessa.
 
-Tapahtuman toteuttamiseksi molemmat osapuolet tarvitsevat Bitcoin-lompakon, jossa on BIP47-toteutus, kuten PayNym Samurai Walletissa tai Sparrow Walletissa. Heidän maksukoodiensa yhteinen käyttö luo salaisen kanavan heidän välilleen. Jotta tämä kanava voidaan luoda tehokkaasti, liikkeeseenlaskijan on suoritettava Bitcoin-lohkoketjussa erityinen transaktio, jota kutsutaan "ilmoitustransaktioksi" (tästä lisää myöhemmin).
+Jotta transaktio voidaan suorittaa, molemmilla osapuolilla on oltava Bitcoin-lompakko, jossa on BIP47-toteutus, kuten PayNym Ashigarussa tai Sparrow Wallet. Heidän maksukoodiensa yhteiskäyttö luo salaisen kanavan heidän välilleen. Tämän kanavan tehokkaaksi muodostamiseksi lähettäjän on suoritettava Bitcoin-lohkoketjussa erityinen tapahtuma, jota kutsutaan "ilmoitustapahtumaksi" (annan yksityiskohdat myöhemmin).
 
 Kahden käyttäjän maksukoodien yhdistäminen tuottaa yhteisiä salaisuuksia, jotka puolestaan luovat suuren määrän yksilöllisiä Bitcoin-vastaanottoosoitteita (tasan 2^32 eli noin 4 miljardia). Näin BIP47:n kautta suoritettuja maksuja ei itse asiassa osoiteta itse maksukoodille, vaan pikemminkin klassisille vastaanotto-osoitteille, jotka on johdettu osallistuvien käyttäjien maksukoodeista.
 
@@ -3094,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Tämä koodi voidaan koodata myös QR-koodiksi, jotta viestiminen olisi helpompaa, aivan kuten perinteinen vastaanotto-osoite.
 
-PayNym Bots -robotit, joita näkee toisinaan Twitterissä, ovat Samourai Walletin luomia maksukoodin visuaalisia esityksiä. Ne luodaan käyttämällä hash-funktiota, jolloin ne ovat lähes ainutlaatuisia. Ne ovat muodoltaan pieni merkkijono, joka alkaa kirjaimella `+` :
+Mitä tulee PayNym-botteihin, niihin botteihin, joita toisinaan näkyy X:ssä (Twitterissä), ne ovat Samourai Walletin luomia maksukoodin visuaalisia esityksiä. Ashigaru-järjestelmässä ne ovat nyt hieman erilaisia, mutta periaate on sama. Ne luodaan hajautusfunktion avulla, mikä antaa niille lähes ainutkertaisen luonteen. Ne esitetään pienenä merkkijonona, joka alkaa merkillä `+` :
 
 ```plaintext
 +throbbingpond8B1

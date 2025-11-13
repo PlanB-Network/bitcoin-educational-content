@@ -2825,7 +2825,7 @@ O caso de utilização mais comum para o ricochete ocorre quando é necessário 
 
 Este método é eficaz não só para coinjoins, mas também para qualquer outra marca que possa comprometer a fungibilidade de uma peça.
 
-A ideia deste método de ricochete partiu originalmente das equipas da Samourai Wallet, que o integraram na sua aplicação para automatizar o processo. O serviço não é gratuito na Samourai, uma vez que um ricochete envolve uma taxa de serviço de 100.000 sats, mais os custos de mineração. A sua utilização é, portanto, recomendada para transferências de montantes significativos.
+A ideia deste método de ricochete vem originalmente das equipas do Samourai Wallet, que o tinham integrado na sua aplicação para automatizar o seu funcionamento. O serviço era pago no Samourai, pois cada ricochete implicava um custo fixo de 100 000 sats por taxas de serviço, além das taxas de mineração. O mesmo se aplica hoje no Ashigaru. Assim, a sua utilização é recomendada sobretudo para transferências de montantes elevados.
 
 ![BTC204](assets/pt/196.webp)
 

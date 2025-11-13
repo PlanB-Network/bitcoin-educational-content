@@ -3958,7 +3958,7 @@ De meest voorkomende toepassing van ricochet is wanneer het nodig is om een eerd
 Deze methode is niet alleen effectief voor samenvoegingen, maar ook voor andere markeringen die de vervangbaarheid van een onderdeel in gevaar kunnen brengen.
 
 
-Het idee voor deze ricochet-methode kwam oorspronkelijk van de Samourai Wallet teams, die het in hun applicatie integreerden om het proces te automatiseren. De dienst is niet gratis op Samourai, omdat een ricochet 100.000 Sats kost, plus Mining kosten. Het gebruik wordt daarom aanbevolen voor overschrijvingen van aanzienlijke bedragen.
+Het idee achter deze ricochet-methode komt oorspronkelijk van de teams van Samourai Wallet, die deze in hun applicatie hadden geïntegreerd om de werking te automatiseren. De dienst was betaald op Samourai, aangezien een ricochet een vaste kost van 100.000 sats aan servicekosten met zich meebracht, bovenop de miningkosten. Hetzelfde geldt vandaag de dag op Ashigaru. Daarom wordt het gebruik ervan vooral aanbevolen voor overdrachten van grote bedragen.
 
 
 ![BTC204](assets/nl/196.webp)

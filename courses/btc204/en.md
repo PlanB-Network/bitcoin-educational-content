@@ -2802,7 +2802,7 @@ The most common use case for Ricochet occurs when it's necessary to conceal a pr
 
 This method is effective not only for coinjoins, but also for any other mark that could compromise a UTXO's fungibility.
 
-The idea for this ricochet method originated from the Samourai Wallet team, who integrated it into their application to automate the process. The service is not free on Samourai, since a ricochet involves a service fee of 100,000 sats, plus mining costs. Its use is therefore recommended for transfers of significant amounts.
+The idea behind this ricochet method originally came from the teams at Samourai Wallet, who had integrated it into their application to automate its operation. The service was paid on Samourai, as each ricochet incurred a fixed cost of 100,000 sats for service fees, in addition to mining fees. The same applies today on Ashigaru. Thus, its use is generally recommended for transfers involving large amounts.
 
 ![BTC204](assets/en/196.webp)
 

@@ -2826,7 +2826,7 @@ Kasus penggunaan yang paling umum untuk ricochet terjadi ketika diperlukan untuk
 
 Metode ini efektif tidak hanya untuk coinjoin, tetapi juga untuk tanda lain yang dapat mengganggu kompatibilitas bagian.
 
-Ide untuk metode ricochet ini awalnya berasal dari tim Samourai Wallet, yang mengintegrasikannya ke dalam aplikasi mereka untuk mengotomatiskan prosesnya. Layanan ini tidak gratis di Samourai, karena ricochet melibatkan biaya layanan sebesar 100.000 sat, ditambah biaya penambangan. Oleh karena itu, penggunaannya direkomendasikan untuk transfer dalam jumlah yang signifikan.
+Gagasan mengenai metode ricochet ini berasal dari tim Samourai Wallet, yang telah mengintegrasikannya ke dalam aplikasi mereka untuk mengotomatiskan operasinya. Layanan ini berbayar di Samourai, karena setiap ricochet menimbulkan biaya tetap sebesar 100.000 sats untuk biaya layanan, ditambah biaya penambangan. Hal yang sama berlaku saat ini di Ashigaru. Karena itu, penggunaannya lebih dianjurkan untuk transfer dengan nominal besar.
 
 ![BTC204](assets/id/196.webp)
 

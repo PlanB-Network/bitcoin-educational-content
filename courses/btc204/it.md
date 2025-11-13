@@ -2824,7 +2824,7 @@ Il caso d'uso più comune del rimbalzo si verifica quando è necessario nasconde
 
 Questo metodo è efficace non solo per le coinjoin, ma anche per qualsiasi altro segno che potrebbe compromettere la fungibilità di un pezzo.
 
-L'idea di questo metodo di ricochet è nata dai team di Samourai Wallet, che l'hanno integrato nella loro applicazione per automatizzare il processo. Il servizio non è gratuito su Samourai, in quanto un rimbalzo comporta una tassa di servizio di 100.000 sats, oltre ai costi di estrazione. Il suo utilizzo è quindi consigliato per trasferimenti di importi significativi.
+L’idea di questo metodo del ricochet proviene originariamente dai team di Samourai Wallet, che lo avevano integrato nella loro applicazione per automatizzarne il funzionamento. Il servizio era a pagamento su Samourai, poiché un ricochet comportava un costo fisso di 100.000 sats per le spese di servizio, cui si aggiungevano le commissioni di mining. Lo stesso vale oggi su Ashigaru. Pertanto, il suo utilizzo è consigliato soprattutto per trasferimenti di importi elevati.
 
 ![BTC204](assets/it/196.webp)
 

@@ -3992,7 +3992,7 @@ Najczęstszy przypadek użycia rykoszetu występuje, gdy konieczne jest ukrycie 
 Metoda ta jest skuteczna nie tylko w przypadku coinjoinów, ale także w przypadku wszelkich innych oznaczeń, które mogłyby zagrozić zamienności części.
 
 
-Pomysł na tę metodę rykoszetu pierwotnie wyszedł od zespołów Samourai Wallet, które zintegrowały ją ze swoją aplikacją, aby zautomatyzować proces. Usługa nie jest darmowa na Samourai, ponieważ rykoszet wiąże się z opłatą za usługę w wysokości 100 000 Sats plus koszty Mining. Korzystanie z niej jest zatem zalecane w przypadku przelewów na znaczne kwoty.
+Pomysł na tę metodę rykoszetu pochodzi pierwotnie od zespołów Samourai Wallet, które zintegrowały ją ze swoją aplikacją, aby zautomatyzować jej działanie. Usługa była płatna w Samourai, ponieważ każdy rykoszet wiązał się z kosztem stałym 100 000 sats tytułem opłaty serwisowej, do których dochodziły opłaty za wydobycie. Tak samo jest dziś w Ashigaru. Z tego względu jej użycie zaleca się raczej przy transferach dużych kwot.
 
 
 ![BTC204](assets/pl/196.webp)

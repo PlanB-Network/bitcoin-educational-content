@@ -4009,7 +4009,7 @@ Sekme için en yaygın kullanım durumu, sahip olduğunuz bir UTXO üzerinde dah
 Bu yöntem sadece eş birleşmeler için değil, aynı zamanda bir UTXO'nın değiştirilebilirliğini tehlikeye atabilecek diğer tüm işaretler için de etkilidir.
 
 
-Bu sekme yöntemi fikri ilk olarak, süreci otomatikleştirmek için uygulamalarına entegre eden Samourai Wallet ekiplerinden geldi. Bu hizmet Samourai'de ücretsiz değildir, çünkü bir sekme 100.000 Sats hizmet ücreti ve Mining maliyetlerini içerir. Bu nedenle kullanımı önemli miktarlardaki transferler için tavsiye edilmektedir.
+Bu sektirme yönteminin fikri, işleyişi otomatikleştirmek amacıyla onu uygulamalarına entegre eden Samourai Wallet ekiplerinden ortaya çıkmıştır. Hizmet Samourai’de ücretliydi; çünkü her sektirme, hizmet ücreti olarak sabit 100.000 sats maliyetine ek olarak madencilik ücretlerini de gerektiriyordu. Bugün Ashigaru’da da durum aynıdır. Bu nedenle, yöntemin özellikle yüksek meblağlı transferlerde kullanılması tavsiye edilir.
 
 
 ![BTC204](assets/tr/196.webp)

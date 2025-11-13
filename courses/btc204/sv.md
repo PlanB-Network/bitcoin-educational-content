@@ -3994,7 +3994,7 @@ Det vanligaste användningsfallet för rikoschett inträffar när det är nödv�
 Denna metod är inte bara effektiv för coinjoins, utan även för alla andra märken som kan äventyra en dels fungibilitet.
 
 
-Idén till denna rikoschettmetod kom ursprungligen från Samourais Wallet-team, som integrerade den i sin applikation för att automatisera processen. Tjänsten är inte gratis på Samourai, eftersom en rikoschett innebär en serviceavgift på 100 000 Sats, plus Mining-kostnader. Användningen rekommenderas därför för överföringar av betydande belopp.
+Idén med denna ricochet-metod kommer ursprungligen från teamen bakom Samourai Wallet, som hade integrerat den i sin applikation för att automatisera funktionen. Tjänsten var avgiftsbelagd på Samourai, eftersom varje ricochet medförde en fast kostnad på 100 000 sats i serviceavgifter, utöver miningavgifterna. Detsamma gäller idag på Ashigaru. Därför rekommenderas metoden främst för överföringar av stora belopp.
 
 
 ![BTC204](assets/sv/196.webp)

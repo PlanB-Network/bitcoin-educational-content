@@ -2794,7 +2794,7 @@ Der häufigste Anwendungsfall für Ricochet ist die Notwendigkeit, eine frühere
 
 Diese Methode eignet sich nicht nur für Coinjoins, sondern auch für alle anderen Markierungen, die die Fungibilität eines UTXOs beeinträchtigen könnten.
 
-Die Idee für diese Abprallmethode stammt ursprünglich von den Samourai-Wallet-Teams, die sie in ihre Anwendung integriert haben, um den Prozess zu automatisieren. Der Service ist auf Samourai nicht kostenlos, da ein Ricochet eine Servicegebühr von 100.000 Sats plus Mining-Kosten beinhaltet. Seine Nutzung wird daher für Überweisungen von größeren Beträgen empfohlen.
+Die Idee dieser Ricochet-Methode stammt ursprünglich von den Teams von Samourai Wallet, die sie in ihre Anwendung integriert hatten, um den Ablauf zu automatisieren. Der Dienst war bei Samourai kostenpflichtig, da ein Ricochet eine feste Gebühr von 100.000 Sats für den Service verursachte, zu der die Mining-Gebühren hinzukamen. Dasselbe gilt heute bei Ashigaru. Daher wird ihre Nutzung eher für Überweisungen mit hohen Beträgen empfohlen.
 
 ![BTC204](assets/de/196.webp)
 

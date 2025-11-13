@@ -2828,7 +2828,7 @@ Nejběžnější případ použití ricochetu nastává, když je třeba zakrýt
 
 Tato metoda je účinná nejen pro koincidenční spoje, ale také pro jakoukoli jinou značku, která by mohla ohrozit zaměnitelnost dílu.
 
-S nápadem na tuto metodu ricochet původně přišly týmy společnosti Samourai Wallet, které ji integrovaly do své aplikace, aby proces automatizovaly. Služba není na Samourai zdarma, protože ricochet zahrnuje poplatek za službu ve výši 100 000 sátů plus náklady na těžbu. Její použití se proto doporučuje pro převody významných částek.
+Myšlenka této metody ricochet pochází původně od týmů Samourai Wallet, které ji začlenily do své aplikace, aby automatizovaly její fungování. Služba byla na Samourai placená, neboť ricochet znamenal fixní poplatek 100 000 sats za servisní náklady, ke kterým se přidávaly těžební poplatky. Totéž platí i dnes na Ashigaru. Proto se její použití doporučuje spíše pro převody vysokých částek.
 
 ![BTC204](assets/cs/196.webp)
 

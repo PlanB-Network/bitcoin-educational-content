@@ -2828,7 +2828,7 @@ Yleisin käyttötapaus ricochetille on silloin, kun on tarpeen salata aiempi osa
 
 Menetelmä on tehokas ei ainoastaan rinnakkaisliitoksissa vaan myös kaikissa muissa merkinnöissä, jotka voivat vaarantaa osan korvattavuuden.
 
-Idea tästä ricochet-menetelmästä tuli alun perin Samourai Wallet -tiimiltä, jotka integroivat sen sovellukseensa prosessin automatisoimiseksi. Palvelu ei ole ilmainen Samourailla, sillä ricochetista peritään 100 000 satsin palvelumaksu sekä louhintakustannukset. Sen käyttöä suositellaan siksi merkittävien summien siirroissa.
+Tämän ricochet-menetelmän idea on alun perin peräisin Samourai Walletin tiimeiltä, jotka olivat integroituneet sen sovellukseensa toiminnan automatisoimiseksi. Palvelu oli Samouraissa maksullinen, sillä jokaisesta ricochet-toiminnosta perittiin 100 000 satsin kiinteä palvelumaksu, minkä lisäksi tuli louhintamaksuja. Sama pätee nykyään Ashigaru-palvelussa. Menetelmän käyttöä suositellaan siksi lähinnä suuria summia koskeviin siirtoihin.
 
 ![BTC204](assets/fi/196.webp)
 

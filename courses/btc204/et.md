@@ -2828,7 +2828,7 @@ Kõige sagedamini kasutatakse rikošetti siis, kui on vaja varjata varasemat osa
 
 See meetod on tõhus mitte ainult koosliidete puhul, vaid ka mis tahes muude märkide puhul, mis võivad kahjustada detaili asendatavust.
 
-Selle rikošeti meetodi idee pärineb algselt Samourai Wallet'i meeskonnalt, kes integreeris selle oma rakendusse, et automatiseerida protsessi. Teenus ei ole Samourai jaoks tasuta, sest rikošeti eest tuleb maksta 100 000 sati teenustasu, millele lisanduvad kaevandamiskulud. Seetõttu on selle kasutamine soovitatav märkimisväärsete summade ülekannete puhul.
+Selle rikošeti meetodi idee pärineb algselt Samourai Walleti meeskondadelt, kes olid selle oma rakendusse integreerinud, et toiming automatiseerida. Teenus oli Samourai platvormil tasuline, kuna rikošett tõi kaasa fikseeritud 100 000 sati suuruse teenustasu, millele lisandusid kaevandustasud. Sama kehtib ka tänapäeval Ashigaru platvormil. Seetõttu soovitatakse seda meetodit pigem suurte summade ülekanneteks.
 
 ![BTC204](assets/et/196.webp)
 

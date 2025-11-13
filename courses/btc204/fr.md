@@ -2639,7 +2639,7 @@ Le cas d'utilisation le plus courant de ricochet se présente quand il est néce
 
 Cette méthode est efficace non seulement pour les coinjoins, mais aussi pour toute autre marque qui pourrait compromettre la fongibilité d'une pièce.
 
-L'idée de cette méthode du ricochet provient initialement des équipes de Samourai Wallet qui l'ont intégrée dans leur application pour automatiser le processus. Le service est payant sur Samourai, puisqu'un ricochet implique un coût de 100 000 sats pour les frais de service, auxquels s'ajoutent les frais de minage. Ainsi, son utilisation est plutôt recommandée pour des transferts de montants significatifs.
+L’idée de cette méthode du ricochet provient à l’origine des équipes de Samourai Wallet, qui l’avaient intégrée à leur application afin d’en automatiser le fonctionnement. Le service était payant sur Samourai, puisqu’un ricochet entraînait un coût fixe de 100 000 sats pour les frais de service, auxquels s’ajoutaient les frais de minage. Il en va de même aujourd’hui sur Ashigaru. Ainsi, son utilisation est plutôt recommandée pour des transferts portant sur des gros montants.
 
 ![BTC204](assets/fr/196.webp)
 

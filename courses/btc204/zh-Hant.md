@@ -3991,7 +3991,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 此方法不僅對於共同接合有效，對於任何其他可能影響零件可替代性的標記也同樣有效。
 
 
-這種跳彈方法的構想最初來自 Samourai Wallet 團隊，他們將此方法整合到應用程式中，使流程自動化。這項服務在 Samourai 並不是免費的，因為轉帳需要 100,000 Sats 的服務費，再加上 Mining 的費用。因此建議大額轉帳時使用。
+這種跳躍（ricochet）方法的概念最初來自 Samourai Wallet 的團隊，他們將其整合進應用程式中以自動化其運作。此服務在 Samourai 上是付費的，因為每次跳躍都會產生固定 100,000 聰的服務費，外加礦工費。如今在 Ashigaru 上亦然。因此，建議主要用於大額轉帳。
 
 
 ![BTC204](assets/zh-Hant/196.webp)

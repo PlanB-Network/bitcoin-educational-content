@@ -2828,7 +2828,7 @@ El caso de uso más común para el rebote se produce cuando es necesario ocultar
 
 Este método es eficaz no sólo para las coinjoins, sino también para cualquier otra marca que pueda comprometer la fungibilidad de una pieza.
 
-La idea de este método de rebote surgió originalmente de los equipos de Samourai Wallet, que lo integraron en su aplicación para automatizar el proceso. El servicio no es gratuito en Samourai, ya que un rebote implica una tasa de servicio de 100.000 sats, más los costes de minería. Por tanto, se recomienda su uso para transferencias de importes significativos.
+La idea de este método de rebote proviene originalmente de los equipos de Samourai Wallet, que lo habían integrado en su aplicación para automatizar su funcionamiento. El servicio era de pago en Samourai, ya que un rebote implicaba un coste fijo de 100 000 sats por las tarifas del servicio, a los que se añadían las comisiones de minería. Lo mismo ocurre hoy en Ashigaru. Por ello, su uso se recomienda más bien para transferencias de grandes cantidades.
 
 ![BTC204](assets/es/196.webp)
 

@@ -2824,7 +2824,7 @@ Trường hợp sử dụng phổ biến nhất cho ricochet xảy ra khi cần 
 
 Phương pháp này không chỉ hiệu quả đối với mối ghép đồng thời mà còn hiệu quả với bất kỳ vết nào khác có thể làm giảm khả năng thay thế của một bộ phận.
 
-Ý tưởng cho phương pháp ricochet này ban đầu xuất phát từ nhóm Samourai Wallet, những người đã tích hợp nó vào ứng dụng của họ để tự động hóa quy trình. Dịch vụ này không miễn phí trên Samourai, vì một ricochet liên quan đến phí dịch vụ là 100.000 sats, cộng với chi phí khai thác. Do đó, nên sử dụng phương pháp này để chuyển số tiền lớn.
+Ý tưởng của phương pháp ricochet này ban đầu xuất phát từ các nhóm của Samourai Wallet, những người đã tích hợp nó vào ứng dụng của họ nhằm tự động hóa hoạt động. Dịch vụ này có thu phí trên Samourai, vì mỗi lần ricochet phải chịu chi phí cố định 100.000 sats cho phí dịch vụ, cùng với phí đào. Ngày nay, điều tương tự cũng áp dụng trên Ashigaru. Do đó, việc sử dụng phương pháp này được khuyến nghị chủ yếu cho các giao dịch có giá trị lớn.
 
 ![BTC204](assets/vi/196.webp)
 

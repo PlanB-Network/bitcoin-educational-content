@@ -4007,7 +4007,7 @@ Igikoresho gisanzwe ca ricochet kiba iyo bikenewe guhisha uruhara rwa kera muri 
 Ubu buryo ntibukora neza ku coinjoins gusa, ariko no ku kindi kimenyetso cose coshobora gutuma UTXO idakora neza.
 
 
-Iciyumviro c’ubu buryo bwa ricochet mu ntango cavuye mu migwi ya Samourai Wallet, bakayishira mu bikorwa vyabo kugira ngo iyo nzira ikoreshe mu buryo bwikora. Ivyo bikoresho ntibikoreshwa ku buntu kuri Samourai, kubera ko iyo umuntu akoresheje ricochet, bisaba ko umuntu atanga amahera y’ama Sats 100.000, akongerako amahera y’ama Mining. Ikoreshwa ryayo rero ni ngirakamaro ku bijanye no kwimurira amahera menshi.
+Igitekerezo cy’iyi nzira ya ricochet cyakomotse ku makipe ya Samourai Wallet, bayinjije mu porogaramu yabo kugira ngo bakore isautomatike ry’imikorere yayo. Serivisi yari iyishyurwa kuri Samourai, kuko ricochet yose yateraga igiciro gihamye cya sats 100 000 nk’amafaranga ya serivisi, hakiyongeraho n’amafaranga yo gucukura. Ubu ni ko bimeze no kuri Ashigaru. Ku bw’ibyo, ikoreshwa ryayo rirashimirwa cyane mu koherezanya amafaranga menshi.
 
 
 ![BTC204](assets/rn/196.webp)

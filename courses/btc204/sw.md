@@ -2777,7 +2777,7 @@ Kesi ya kawaida ya matumizi ya ricochet hutokea pale ambapo ni muhimu kuficha us
 
 Njia hii ni muhimu si tu kwa CoinJoin, bali pia kwa alama nyingine yoyote ya kihistoria inayoweza kuhatarisha uwezekano wa sehemu yako ya bitcoin kutambulika.
 
-Wazo la mbinu hii ya ricochet lilianzia kwa timu ya Samourai Wallet, waliyoijumuisha kwenye programu yao ili itekelezwe kiotomatiki. Huduma hii si bure kwenye Samourai, kwani ricochet inahusisha ada ya huduma ya 100,000 Sats, pamoja na gharama za mining (uchimbaji). Kwa hiyo, matumizi yake yanapendekezwa zaidi kwa miamala ya kiasi kikubwa.
+Wazo la mbinu hii ya ricochet lilitokana awali na timu za Samourai Wallet, ambazo ziliiweka kwenye programu yao ili kuifanya ifanye kazi kiotomatiki. Huduma ilikuwa ya kulipiwa kwenye Samourai, kwani kila ricochet ilisababisha gharama ya kudumu ya sats 100,000 kwa ada za huduma, pamoja na ada za uchimbaji. Vivyo hivyo hadi leo kwenye Ashigaru. Hivyo basi, matumizi yake yanapendekezwa zaidi kwa uhamisho wa kiasi kikubwa cha fedha.
 
 ![BTC204](assets/sw/196.webp)
 

@@ -2826,7 +2826,7 @@ Det vanligste bruksområdet for rikosjettering oppstår når det er nødvendig �
 
 Denne metoden er ikke bare effektiv for sammenføyninger, men også for alle andre merker som kan kompromittere en dels fungibilitet.
 
-Ideen til denne rikosjettmetoden kom opprinnelig fra Samourai Wallet-teamene, som integrerte den i applikasjonen sin for å automatisere prosessen. Tjenesten er ikke gratis på Samourai, siden en ricochet innebærer en serviceavgift på 100 000 sats, pluss gruvekostnader. Det anbefales derfor å bruke den for overføringer av betydelige beløp.
+Ideen bak denne ricochet-metoden kommer opprinnelig fra teamene bak Samourai Wallet, som hadde integrert den i sin applikasjon for å automatisere funksjonaliteten. Tjenesten var betalbar på Samourai, ettersom et ricochet medførte en fast kostnad på 100 000 sats i tjenestegebyr, i tillegg til gruvegebyrene. Det samme gjelder i dag på Ashigaru. Dermed anbefales bruken hovedsakelig for overføringer av større beløp.
 
 ![BTC204](assets/nb-NO/196.webp)
 

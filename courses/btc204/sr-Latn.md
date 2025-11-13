@@ -3996,7 +3996,7 @@ Najčešći slučaj upotrebe rikošeta javlja se kada je potrebno prikriti preth
 Ova metoda je efikasna ne samo za coinjoin-e, već i za bilo koji drugi znak koji bi mogao ugroziti fungibilnost UTXO dela.
 
 
-Ideja za rikošet metodu prvobitno je došla od timova Samourai Wallet-a, koji su je integrisali u svoju aplikaciju kako bi automatizovali proces. Usluga nije besplatna na Samourai, jer rikošet uključuje naknadu za uslugu od 100.000 Sats, plus troškove rudarenja. Njena upotreba se stoga preporučuje za transfere značajnih iznosa.
+Ideja ove ricochet metode potiče prvobitno od timova Samourai Wallet-a, koji su je integrisali u svoju aplikaciju kako bi automatizovali njen rad. Usluga je na Samourai-ju bila naplaćivana, jer je svaki ricochet nosio fiksni trošak od 100.000 sats za servisne takse, uz dodatak rudarskih naknada. Isto važi i danas na Ashigaru. Zbog toga se upotreba ove metode preporučuje uglavnom za transfere velikih iznosa.
 
 
 ![BTC204](assets/sr-Latn/196.webp)

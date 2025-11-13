@@ -2634,7 +2634,10 @@ Tuntud tarkvaraprogrammid, mis toetavad payjoin'i, on Sparrow Wallet, Wasabi Wal
 
 ![BTC204](assets/et/177.webp)
 
-Kõige arenenum payjoin rakendamine oli ainult Stowaway Samourai rahakotis. Kuid pärast tarkvara asutajate vahistamist on see tööriist nüüdseks vaid osaliselt toimiv. Stowaway eelis on see, et tegemist on põhjaliku ja lihtsasti kasutatava protokolliga, mis toetab nii payjoini vastuvõtmist kui ka saatmist. Osaliselt allkirjastatud tehinguid saab vahetada käsitsi, skaneerides mitmeid QR-koode, või automaatselt Tori kaudu Sorobani kaudu. Viimane suhtlemisvõimalus on praegu välja lülitatud.
+
+Kõige arenenum payjoin’i teostus on kahtlemata Stowaway, mille leiutasid Samourai Walleti arendajad. Pärast tarkvara asutajate vahistamist töötab see tööriist Samourai platvormil vaid osaliselt. Kuid see on taaskäivitatud Ashigaru rakenduses.
+
+Stowaway eelis seisneb selles, et tegemist on täieliku ja väga lihtsalt kasutatava protokolliga, mis toetab nii payjoin'i vastuvõtmist kui ka saatmist. Osaliselt allkirjastatud tehinguid saab vahetada käsitsi, skaneerides mitut QR-koodi, või automaatselt Tori kaudu Sorobani abil.
 
 ![BTC204](assets/et/178.webp)
 

@@ -3726,8 +3726,11 @@ Porogarama zizwi cane zifasha PayJoin harimwo Sparrow wallet, Wasabi Wallet, Mut
 ![BTC204](assets/rn/177.webp)
 
 
-Ishirwa mu ngiro rya PayJoin ryari ryiza cane ryari Stowaway gusa kuri Samourai Wallet. Ariko rero, kuva abashinze iyo porogarama bafatwa, ubu ico gikoresho kirakora gusa igice. Ivyiza vya Stowaway ni uko ari umurongo wuzuye, woroshe gukoresha, ushigikira kwakira no kohereza ama payjoins. amafaranga afise umukono w’igice ashobora guhindurwa n’amaboko mu gucapura amakode menshi ya QR, canke agahindurwa ubwayo na Tor biciye kuri Soroban. Iryo hitamwo rya nyuma ryo guhanahana amakuru ubu ntaco rikora.
 
+
+Isanamu ya payjoin iteye imbere kurusha izindi ni Stowaway, igikorwa n’ abakora Samourai Wallet. Kuva abashinze iri porogarama bafashwe, iki gikoresho ntikigikora neza kuri Samourai. Ariko cyasubiye gutangizwa kuri porogarama Ashigaru.
+
+Ivyungura rya Stowaway ni uko ari porotokole yuzuye kandi yoroshye gukoresha, ishobora kwakira no kohereza payjoin. Impapuro z'ubucuruzi zasinywe mu buryo buduzuye zirashobora guhererekanywa mu buryo bw'intoki ukoresheje gusikana za QR nyinshi cyangwa mu buryo bwikoresha biciye kuri Tor ukoresheje Soroban.
 
 ![BTC204](assets/rn/178.webp)
 

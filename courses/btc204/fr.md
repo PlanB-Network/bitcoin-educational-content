@@ -2459,7 +2459,9 @@ Parmi les logiciels connus qui prennent en charge le payjoin, il y a Sparrow Wal
 
 ![BTC204](assets/fr/177.webp)
 
-L'implémentation de payjoin la plus avancée était seulement les Stowaway sur Samourai Wallet. Cependant, depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement. L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban. C'est cette dernière option de communication qui est actuellement hors service.
+L'implémentation de payjoin la plus avancée est sûrement les Stowaway inventés par les développeur de Samourai Wallet. Depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement sur Samourai. Mais il a été relancé sur l'applciation Ashigaru.
+
+L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban.
 
 ![BTC204](assets/fr/178.webp)
 

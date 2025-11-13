@@ -3715,8 +3715,11 @@ Dobro poznati softverski novčanici koji podržavaju PayJoin uključuju Sparrow 
 ![BTC204](assets/sr-Latn/177.webp)
 
 
-Najnaprednija PayJoin implementacija bila je Stowaway na Samourai Wallet-u. Međutim, od hapšenja osnivača softvera, ovaj alat je sada samo delimično funkcionalan. Prednost Stowaway-a je što je to sveobuhvatan, jednostavan za korišćenje protokol, koji podržava i primanje i slanje payjoin-a. Delimično potpisane transakcije mogu se razmenjivati ručno skeniranjem nekoliko QR kodova, ili automatski putem Tor-a preko Soroban-a. Ova druga opcija komunikacije trenutno nije u funkciji.
 
+
+Najnaprednija implementacija payjoin-a svakako je Stowaway, koji su osmislili programeri Samourai Walleta. Od hapšenja osnivača softvera, ovaj alat na Samouraiju funkcioniše samo delimično. Međutim, ponovo je pokrenut u aplikaciji Ashigaru.
+
+Prednost Stowaway-a je u tome što je to potpun i veoma jednostavan protokol koji podržava i prijem i slanje payjoin-a. Delimično potpisane transakcije mogu se razmenjivati ručno skeniranjem više QR kodova ili automatski putem Tor-a preko Soroban-a.
 
 ![BTC204](assets/sr-Latn/178.webp)
 

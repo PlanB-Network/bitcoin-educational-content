@@ -2590,8 +2590,11 @@ Wallet maarufu zinazotumia PayJoin ni pamoja na Sparrow Wallet, Wasabi Wallet, M
 
 ![BTC204](assets/sw/177.webp)
 
-Utekelezaji wa hali ya juu zaidi wa PayJoin ulikuwa Stowaway pekee kwenye Sparrow Wallet. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa na mtumiaji mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki kupitia Tor kwa kutumia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
 
+
+Utekelezaji wa payjoin ulioendelea zaidi bila shaka ni Stowaway, uliobuniwa na watengenezaji wa Samourai Wallet. Tangu kukamatwa kwa waanzilishi wa programu, kifaa hiki hufanya kazi sehemu tu kwenye Samourai. Lakini kimeanzishwa upya kwenye programu ya Ashigaru.
+
+Faida ya Stowaway ni kwamba ni itifaki kamili na rahisi sana kutumia, inayowezesha kupokea na kutuma payjoin. Muamala ulio na sahihi ya sehemu unaweza kubadilishwa kwa mkono kwa kuchanganua misimbo kadhaa ya QR au kiotomatiki kupitia Tor ukitumia Soroban.
 
 ![BTC204](assets/sw/178.webp)
 

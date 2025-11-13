@@ -2634,7 +2634,10 @@ Mezi známé programy, které podporují payjoin, patří Sparrow Wallet, Wasabi
 
 ![BTC204](assets/cs/177.webp)
 
-Nejpokročilejší implementací payjoin byl pouze Stowaway na Samourai Wallet. Od zatčení zakladatelů softwaru je však tento nástroj nyní funkční jen částečně. Výhodou Stowaway je, že se jedná o komplexní, snadno použitelný protokol, který podporuje příjem i odesílání payjoinů. Částečně podepsané transakce lze vyměňovat ručně naskenováním několika QR kódů nebo automaticky pomocí Toru přes Soroban. Druhá možnost komunikace je v současné době mimo provoz.
+
+Nejpokročilejší implementací payjoin jsou nepochybně Stowaway, které vynalezli vývojáři Samourai Wallet. Od zatčení zakladatelů softwaru tento nástroj na Samourai funguje už jen částečně. Byl však znovu spuštěn v aplikaci Ashigaru.
+
+Výhodou Stowaway je, že jde o kompletní a velmi snadno použitelný protokol, který podporuje jak příjem, tak odesílání payjoinů. Částečně podepsané transakce lze vyměňovat ručně skenováním několika QR kódů nebo automaticky přes Tor pomocí Sorobanu.
 
 ![BTC204](assets/cs/178.webp)
 

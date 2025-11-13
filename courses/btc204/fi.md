@@ -2634,7 +2634,10 @@ Tunnettuja ohjelmistoja, jotka tukevat payjoinia, ovat Sparrow Wallet, Wasabi Wa
 
 ![BTC204](assets/fi/177.webp)
 
-Edistynein payjoin-toteutus oli vain Stowaway Samourai Walletissa. Ohjelmiston perustajien pidätyksen jälkeen tämä työkalu on kuitenkin vain osittain toimiva. Stowawayn etuna on, että se on kattava ja helppokäyttöinen protokolla, joka tukee sekä payjoinien vastaanottamista että lähettämistä. Osittain allekirjoitettuja transaktioita voidaan vaihtaa manuaalisesti skannaamalla useita QR-koodeja tai automaattisesti Torin kautta Sorobanin kautta. Jälkimmäinen viestintävaihtoehto on tällä hetkellä poissa käytöstä.
+
+Edistynein payjoin-toteutus on epäilemättä Stowaway, jonka Samourai Walletin kehittäjät loivat. Ohjelmiston perustajien pidätyksen jälkeen tämä työkalu toimii Samouraissa vain osittain. Se on kuitenkin otettu uudelleen käyttöön Ashigaru-sovelluksessa.
+
+Stowawayn etuna on, että se on täydellinen ja erittäin helppokäyttöinen protokolla, joka tukee sekä payjoin-vastaanottoja että -lähetyksiä. Osittain allekirjoitettuja transaktioita voidaan vaihtaa manuaalisesti skannaamalla useita QR-koodeja tai automaattisesti Torin kautta Sorobanin avulla.
 
 ![BTC204](assets/fi/178.webp)
 

@@ -2634,7 +2634,10 @@ Entre los programas de software más conocidos que admiten payjoin se incluyen S
 
 ![BTC204](assets/es/177.webp)
 
-La implementación más avanzada de payjoin era sólo Stowaway en Samourai Wallet. Sin embargo, desde el arresto de los fundadores del software, esta herramienta es ahora sólo parcialmente funcional. La ventaja de Stowaway es que es un protocolo completo y fácil de usar, que soporta tanto la recepción como el envío de payjoins. Las transacciones parcialmente firmadas pueden intercambiarse manualmente escaneando varios códigos QR, o automáticamente por Tor a través de Soroban. Esta última opción de comunicación está actualmente fuera de servicio.
+
+La implementación de payjoin más avanzada es sin duda Stowaway, inventada por los desarrolladores de Samourai Wallet. Desde la detención de los fundadores del software, esta herramienta solo funciona parcialmente en Samourai. Pero ha sido relanzada en la aplicación Ashigaru.
+
+La ventaja de Stowaway es que es un protocolo completo y muy fácil de usar, que admite tanto la recepción como el envío de payjoins. Las transacciones parcialmente firmadas pueden intercambiarse manualmente mediante el escaneo de varios códigos QR o automáticamente por Tor a través de Soroban.
 
 ![BTC204](assets/es/178.webp)
 

@@ -3728,8 +3728,11 @@ PayJoin'yi destekleyen tanınmış yazılım programları arasında Sparrow wall
 ![BTC204](assets/tr/177.webp)
 
 
-En gelişmiş PayJoin uygulaması sadece Samourai Wallet üzerindeki Stowaway idi. Ancak, yazılımın kurucularının tutuklanmasından bu yana, bu araç artık yalnızca kısmen işlevseldir. Stowaway'in avantajı, hem payjoins almayı hem de göndermeyi destekleyen kapsamlı, kullanımı kolay bir protokol olmasıdır. kısmen imzalanmış işlemler, birkaç QR kodu taranarak manuel olarak veya Soroban aracılığıyla Tor tarafından otomatik olarak değiştirilebilir. İkinci iletişim seçeneği şu anda hizmet dışıdır.
 
+
+En gelişmiş payjoin uygulaması kuşkusuz Samourai Wallet geliştiricileri tarafından icat edilen Stowaway’dir. Yazılımın kurucularının tutuklanmasından bu yana bu araç Samourai üzerinde yalnızca kısmen çalışmaktadır. Ancak Ashigaru uygulamasında yeniden kullanıma sunulmuştur.
+
+Stowaway’in avantajı, hem payjoin alımını hem de gönderimini destekleyen, eksiksiz ve oldukça kolay kullanılabilir bir protokol olmasıdır. Kısmen imzalanmış işlemler, birden fazla QR kodunun taranmasıyla manuel olarak veya Tor üzerinden Soroban aracılığıyla otomatik olarak değiştirilebilir.
 
 ![BTC204](assets/tr/178.webp)
 

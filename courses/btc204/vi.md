@@ -2630,7 +2630,10 @@ Các chương trình phần mềm nổi tiếng hỗ trợ payjoin bao gồm Spa
 
 ![BTC204](assets/vi/177.webp)
 
-Việc triển khai payjoin tiên tiến nhất chỉ là Stowaway trên Samourai Wallet. Tuy nhiên, kể từ khi những người sáng lập phần mềm bị bắt, công cụ này hiện chỉ hoạt động một phần. Ưu điểm của Stowaway là giao thức toàn diện, dễ sử dụng, hỗ trợ cả việc nhận và gửi payjoin. Các giao dịch đã ký một phần có thể được trao đổi thủ công bằng cách quét một số mã QR hoặc tự động bằng Tor qua Soroban. Tùy chọn giao tiếp sau hiện không còn hoạt động.
+
+Triển khai payjoin tiên tiến nhất chắc chắn là Stowaway, được tạo ra bởi các nhà phát triển Samourai Wallet. Kể từ khi những người sáng lập phần mềm bị bắt, công cụ này chỉ hoạt động một phần trên Samourai. Tuy nhiên, nó đã được khởi động lại trên ứng dụng Ashigaru.
+
+Ưu điểm của Stowaway là đây là một giao thức hoàn chỉnh và rất dễ sử dụng, hỗ trợ cả việc nhận và gửi payjoin. Các giao dịch được ký một phần có thể được trao đổi thủ công bằng cách quét nhiều mã QR hoặc tự động qua Tor thông qua Soroban.
 
 ![BTC204](assets/vi/178.webp)
 

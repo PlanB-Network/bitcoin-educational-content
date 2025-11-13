@@ -3713,8 +3713,11 @@ Välkända program som stöder PayJoin inkluderar Sparrow wallet, Wasabi Wallet,
 ![BTC204](assets/sv/177.webp)
 
 
-Den mest avancerade PayJoin-implementeringen var bara Stowaway på Samourai Wallet. Men sedan arresteringen av programvarans grundare är detta verktyg nu bara delvis funktionellt. Fördelen med Stowaway är att det är ett omfattande, lättanvänt protokoll som stöder både mottagning och sändning av payjoins. Delvis signerade transaktioner kan utbytas manuellt genom att skanna flera QR-koder, eller automatiskt av Tor via Soroban. Det senare kommunikationsalternativet är för närvarande ur drift.
 
+
+Den mest avancerade payjoin-implementeringen är utan tvekan Stowaway, uppfunnen av utvecklarna bakom Samourai Wallet. Sedan grundarna av programvaran greps fungerar detta verktyg endast delvis på Samourai. Men det har åter lanserats i Ashigaru-applikationen.
+
+Fördelen med Stowaway är att det är ett komplett och mycket lättanvänt protokoll som stöder både mottagning och sändning av payjoins. Delvis signerade transaktioner kan utbytas manuellt genom att skanna flera QR-koder eller automatiskt via Tor med Soroban.
 
 ![BTC204](assets/sv/178.webp)
 

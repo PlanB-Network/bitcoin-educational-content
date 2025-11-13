@@ -3710,8 +3710,11 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 ![BTC204](assets/zh-Hant/177.webp)
 
 
-最先進的 PayJoin 實作只有 Samourai Wallet 上的 Stowaway。不過，自從軟體創辦人被捕後，這個工具現在只剩下部分功能。Stowaway 的優點在於它是一個全面、容易使用的協定，同時支援接收和傳送 payjoins。部分簽章交易可透過掃描幾個 QR 代碼手動交換，或透過 Soroban 由 Tor 自動交換。後一種通訊方式目前已停止服務。
 
+
+最先進的 payjoin 實作無疑是由 Samourai Wallet 的開發者發明的 Stowaway。自從軟體創辦人被捕後，這個工具在 Samourai 上僅部分運作。但它已在 Ashigaru 應用程式上重新啟動。
+
+Stowaway 的優點在於，它是一個完整且非常易於使用的協議，同時支援接收與發送 payjoin。部分簽名的交易可透過掃描多個 QR 碼手動交換，或經由 Tor 以 Soroban 自動交換。
 
 ![BTC204](assets/zh-Hant/178.webp)
 

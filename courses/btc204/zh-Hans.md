@@ -2631,7 +2631,10 @@ payjoin 交易实现了两个目标，使用户能够提高支付的保密性。
 
 ![BTC204](assets/zh-Hans/177.webp)
 
-最先进的 payjoin 实现工具只有 Samourai 钱包上的 Stowaway。然而，自从软件创始人被捕后，这个工具现在只能部分运行。Stowaway 的优势在于它是一个全面、易用的协议，同时支持接收和发送 payjoins。部分签名交易可以通过扫描几个 QR 码手动交换，也可以通过 Soroban 的 Tor 自动交换。后一种通信方式目前已停止服务。
+
+最先进的 payjoin 实现无疑是由 Samourai Wallet 的开发者发明的 Stowaway。自从软件创始人被捕后，该工具在 Samourai 上仅能部分运行。但它已在 Ashigaru 应用中重新上线。
+
+Stowaway 的优势在于它是一个完整且非常易于使用的协议，同时支持接收和发送 payjoin。部分签名的交易可以通过扫描多个二维码手动交换，或通过 Tor 以 Soroban 自动交换。
 
 ![BTC204](assets/zh-Hans/178.webp)
 

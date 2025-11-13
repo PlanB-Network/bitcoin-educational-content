@@ -2632,7 +2632,10 @@ Program perangkat lunak terkenal yang mendukung payjoin termasuk Sparrow Wallet,
 
 ![BTC204](assets/id/177.webp)
 
-Implementasi payjoin yang paling canggih hanyalah Stowaway di Samourai Wallet. Namun, sejak penangkapan para pendiri perangkat lunak ini, alat ini sekarang hanya berfungsi sebagian. Keuntungan dari Stowaway adalah protokolnya yang komprehensif dan mudah digunakan, yang mendukung penerimaan dan pengiriman payjoin. Transaksi yang ditandatangani sebagian dapat ditukar secara manual dengan memindai beberapa kode QR, atau secara otomatis dengan Tor melalui Soroban. Opsi komunikasi yang terakhir saat ini tidak tersedia.
+
+Implementasi payjoin yang paling maju tentu saja Stowaway yang diciptakan oleh para pengembang Samourai Wallet. Sejak penangkapan para pendiri perangkat lunak tersebut, alat ini hanya berfungsi sebagian di Samourai. Namun, alat ini telah diaktifkan kembali di aplikasi Ashigaru.
+
+Keunggulan Stowaway adalah bahwa ini merupakan protokol lengkap dan sangat mudah digunakan, yang mendukung penerimaan maupun pengiriman payjoin. Transaksi yang ditandatangani sebagian dapat dipertukarkan secara manual melalui pemindaian beberapa kode QR atau secara otomatis melalui Tor menggunakan Soroban.
 
 ![BTC204](assets/id/178.webp)
 

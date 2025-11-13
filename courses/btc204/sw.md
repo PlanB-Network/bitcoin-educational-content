@@ -2166,6 +2166,10 @@ Baada ya kukamatwa kwa waanzilishi wa Samourai Wallet na kukamatwa kwa seva zao 
 
 
 
+Kuanzia sasa, Whirlpool inapatikana tena kwenye programu ya simu ya Ashigaru, ambayo ni fork ya Samourai Wallet, shukrani kwa programu ya Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 Katika sura inayofuata, tutajua "anonsets" ni nini, jinsi viashiria hivi vinavyohesabiwa, na jinsi vinaweza kutusaidia kukadiria ufanisi wa mizunguko ya kuunga sarafu.
 
 

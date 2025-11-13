@@ -2199,6 +2199,10 @@ Tx0" - это первый шаг в процессе смешивания Whirl
 
 
 
+Отныне Whirlpool снова доступен в мобильном приложении Ashigaru, форке Samourai Wallet, благодаря программному обеспечению Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 В следующей главе мы узнаем, что такое "анонсеты", как рассчитываются эти показатели и как они могут помочь нам оценить эффективность циклов coinjoin.
 
 

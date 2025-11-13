@@ -3157,6 +3157,10 @@ Samourai Wallet kurucularının tutuklanması ve sunucularının 24 Nisan 2024�
 
 
 
+Bundan böyle, Samourai Wallet’in bir fork’u olan Ashigaru mobil uygulamasında Whirlpool yeniden erişilebilir hâle gelmiştir; Ashigaru Terminal yazılımı sayesinde.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesaplandığını ve CoinJoin döngülerinin verimliliğini tahmin etmemize nasıl yardımcı olabileceğini öğreneceğiz.
 
 

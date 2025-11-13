@@ -2224,6 +2224,10 @@ Samourai Wallet के संस्थापकों की गिरफ़्�
 
 
 
+अब से, Whirlpool एक बार फिर Ashigaru मोबाइल ऐप पर उपलब्ध है, जो Samourai Wallet का एक फोर्क है, Ashigaru Terminal सॉफ़्टवेयर की बदौलत।
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 अगले अध्याय में, हम जानेंगे कि "एनॉनसेट्स" क्या होते हैं, ये संकेतक कैसे गिने जाते हैं, और ये CoinJoin साइकिल्स की कार्यक्षमता का अनुमान लगाने में हमारी मदद कैसे कर सकते हैं।
 
 

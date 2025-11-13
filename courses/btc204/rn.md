@@ -3155,6 +3155,10 @@ Inyuma y’ifatwa ry’abashinze Samourai Wallet n’ifatiswa ry’amaseriveri y
 
 
 
+Uhereye ubu, Whirlpool yongeye kuboneka kuri porogarama ya telefone ya Ashigaru, ishami rya Samourai Wallet, kubw’iyifashishwa rya Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso biharurwa, n'ingene bishobora kudufasha kugereranya ubushobozi bw'ingendo za CoinJoin.
 
 

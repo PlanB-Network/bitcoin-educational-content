@@ -3109,6 +3109,10 @@ Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hu
 
 
 
+Voortaan is Whirlpool opnieuw toegankelijk via de mobiele applicatie Ashigaru, een fork van Samourai Wallet, dankzij de software Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indicatoren worden berekend en hoe ze ons kunnen helpen om de efficiëntie van CoinJoin cycli in te schatten.
 
 

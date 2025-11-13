@@ -2201,6 +2201,10 @@ Po zatčení zakladatelů Samourai Wallet a zabavení jejich serverů dne 24. du
 
 
 
+Nyní je Whirlpool opět přístupný v mobilní aplikaci Ashigaru, forku Samourai Wallet, díky softwaru Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 V příští kapitole se dozvíme, co jsou to "anonsety", jak se tyto ukazatele počítají a jak nám mohou pomoci odhadnout efektivitu cyklů coinjoin.
 
 

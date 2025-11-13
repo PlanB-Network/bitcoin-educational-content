@@ -2062,7 +2062,9 @@ Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leur
 
 ![BTC204](assets/fr/155.webp)
 
+Désormais, Whirlpool est à nouveau accessible sur l'application mobile Ashigaru, un fork de Samourai Wallet, grâce au logiciel Ashigaru Terminal.
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
 Dans le chapitre suivant, nous allons découvrir ce que sont les "anonsets", comment ces indicateurs sont calculés, et en quoi ils peuvent nous aider pour estimer l'efficacité des cycles de coinjoins.
 

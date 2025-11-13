@@ -3145,6 +3145,10 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 
 
 
+從現在起，Whirlpool 再度可在 Ashigaru 行動應用程式上使用，該應用程式是 Samourai Wallet 的一個分叉，多虧了 Ashigaru Terminal 軟體。
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
 
 

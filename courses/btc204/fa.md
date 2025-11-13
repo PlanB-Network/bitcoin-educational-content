@@ -3151,6 +3151,10 @@ Tx0" اولین مرحله در فرآیند مخلوط‌سازی Whirlpool ا�
 
 
 
+از این پس، Whirlpool بار دیگر در برنامه موبایل Ashigaru، که یک فورک از Samourai Wallet است، به لطف نرم‌افزار Ashigaru Terminal در دسترس است.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 در فصل بعدی، خواهیم فهمید که "anonsets" چیستند، این شاخص‌ها چگونه محاسبه می‌شوند، و چگونه می‌توانند به ما در تخمین کارایی چرخه‌های CoinJoin کمک کنند.
 
 

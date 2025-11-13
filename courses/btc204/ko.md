@@ -3157,6 +3157,10 @@ Bitcoin 거래와 마찬가지로 수신 Address을 재사용하지 않는 것�
 
 
 
+이제부터 Whirlpool은 Samourai Wallet의 포크인 Ashigaru 모바일 애플리케이션에서 Ashigaru Terminal 소프트웨어를 통해 다시 사용할 수 있습니다.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 다음 장에서는 '무설정'이 무엇인지, 이러한 지표가 어떻게 계산되는지, 그리고 이 지표가 CoinJoin 사이클의 효율성을 추정하는 데 어떻게 도움이 되는지 알아보겠습니다.
 
 

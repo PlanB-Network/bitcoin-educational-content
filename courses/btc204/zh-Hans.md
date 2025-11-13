@@ -2198,6 +2198,10 @@ Tx0 "是惠而浦混合过程的第一步。其目的是准备和均衡UTXO，�
 
 
 
+从现在起，Whirlpool 再次可在 Ashigaru 移动应用上使用，该应用是 Samourai Wallet 的一个分叉，这得益于 Ashigaru Terminal 软件。
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 在下一章中，我们将了解什么是 "anonsets"、这些指标是如何计算的，以及它们如何帮助我们估算联接循环的效率。
 
 

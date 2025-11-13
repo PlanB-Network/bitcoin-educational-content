@@ -3145,6 +3145,10 @@ Efter att grundarna av Samourai Wallet gripits och deras servrar beslagtagits de
 
 
 
+Hädanefter är Whirlpool återigen tillgängligt i mobilappen Ashigaru, en fork av Samourai Wallet, tack vare programvaran Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
 I nästa kapitel tar vi reda på vad "anonsets" är, hur dessa indikatorer beräknas och hur de kan hjälpa oss att uppskatta effektiviteten hos CoinJoin-cykler.
 
 

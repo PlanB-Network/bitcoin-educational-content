@@ -2578,15 +2578,15 @@ Les transactions Stonewall sont disponibles sur Sparrow Wallet ainsi que sur Ash
 
 ![BTC204](assets/fr/189.webp)
 
-En revanche, tout comme pour les payjoins, suite à l'arrestation des fondateurs de Samourai, les transactions Stonewall x2 ne fonctionnent plus qu'en échangeant manuellement les PSBTs entre les parties concernées. L'échange automatique via Soroban n'est hélas plus disponible pour le moment.
-
 Il est également possible de réaliser manuellement ce type de transaction depuis n'importe quel logiciel de portefeuille Bitcoin.
 
 Dans le prochain chapitre, nous allons étudier une autre technique de confidentialité assez peu connue, mais qui est très utile en complément de ce que nous avons déjà étudié.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>

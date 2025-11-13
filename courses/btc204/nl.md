@@ -3874,9 +3874,11 @@ Het is ook mogelijk om dit type transactie handmatig uit te voeren vanaf elke Bi
 In het volgende hoofdstuk kijken we naar een andere vertrouwelijkheidstechniek die relatief onbekend is, maar die erg nuttig is als aanvulling op wat we al bestudeerd hebben.
 
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## De ketsen
 

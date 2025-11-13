@@ -3925,9 +3925,11 @@ Bitcoin Wallet 소프트웨어에서 이러한 유형의 거래를 수동으로 
 다음 장에서는 비교적 잘 알려지지 않았지만 이미 공부한 내용을 보완하는 데 매우 유용한 또 다른 기밀성 기법에 대해 살펴보겠습니다.
 
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 리쳇
 

@@ -2765,9 +2765,11 @@ Bạn cũng có thể thực hiện loại giao dịch này theo cách thủ cô
 
 Trong chương tiếp theo, chúng ta sẽ xem xét một kỹ thuật bảo mật khác ít được biết đến nhưng lại rất hữu ích để bổ sung cho những gì chúng ta đã nghiên cứu.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Những quả bóng nảy lại
 

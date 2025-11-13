@@ -2820,6 +2820,10 @@ Utöver de tekniska frågorna väcker beslutet av zkSNACKs, företaget bakom Was
 Som du säkert har förstått vid det här laget föredrar jag definitivt Whirlpool-modellen för coinjoins på Bitcoin. Detta system sticker ut för sin noggrannhet och erbjuder överlägsna garantier för konfidentialitet. Det är också det enda som erbjuder en mix som anses vara perfekt i ett matematiskt sammanhang. Enligt min mening representerar denna modell framtiden för coinjoins på Bitcoin. Jag inbjuder dig att utforska denna modell mer ingående i nästa kapitel.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Hur Whirlpool verkar
 
 

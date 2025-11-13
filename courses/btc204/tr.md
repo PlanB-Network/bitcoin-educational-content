@@ -2832,6 +2832,10 @@ Daha da endişe verici olan, Bitcoin'ün açık, sansürsüz bir finansal sistem
 Şimdiye kadar anlamış olacağınız gibi, benim tercihim kesinlikle Bitcoin'daki eş birleştirmeler için Whirlpool modelinden yana. Bu sistem titizliği ile öne çıkmakta ve üstün gizlilik garantileri sunmaktadır. Ayrıca matematiksel bağlamda mükemmel olarak kabul edilen bir karışım sunan tek sistemdir. Bana göre bu model, Bitcoin'daki coinjoins'in geleceğini temsil ediyor. Sizi bir sonraki bölümde bu modeli daha derinlemesine incelemeye davet ediyorum.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool nasıl çalışır?
 
 

@@ -1969,6 +1969,10 @@ Mais preocupante ainda é o princípio da filtragem, que contrasta radicalmente 
 
 Como já devem ter percebido, a minha preferência vai definitivamente para o modelo Whirlpool para as junções de moedas em Bitcoin. Este sistema destaca-se pelo seu rigor e oferece garantias superiores de confidencialidade. É também o único a oferecer uma mistura considerada perfeita num contexto matemático. Na minha opinião, este modelo representa o futuro dos coinjoins em Bitcoin. Convido-vos a aprofundar este modelo no próximo capítulo.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Como funciona a Whirlpool
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

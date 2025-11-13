@@ -1945,6 +1945,10 @@ Zaidi ya masuala ya kiufundi, uamuzi wa zkSNACKs, kampuni iliyo nyuma ya Wasabi,
 Jambo linalotia wasiwasi zaidi ni kanuni ya uchujaji, ambayo inatofautiana kwa kiasi kikubwa na falsafa ya Bitcoin ya kutoa mfumo wa kifedha ulio wazi, usiodhibitiwa. Ingawa inaweza kuonekana kuwa sawa kutaka kutenga shughuli za uhalifu, uchujaji huu unaweza pia kuathiri watu ambao vitendo vyao, ingawa vinaainishwa kuwa haramu katika muktadha fulani, vinaweza kuhalalishwa kimaadili au kunufaisha jamii. Mfano wa Edward Snowden unaonyesha kikamilifu mkanganyiko huu: anachukuliwa kuwa mhalifu na baadhi ya serikali kwa ufunuo wake, lakini anaonekana na wengine kama mtoa taarifa aliyefanya hivyo kwa maslahi ya umma. Utata huu unasisitiza hatari inayoweza kutokea ya uchujaji ambao, ingawa una nia njema, unaweza hatimaye kudhoofisha haki na usalama wa watumiaji halali. Ningeweza pia kutaja wanaharakati na waandishi wa habari wanaoteswa chini ya tawala fulani za kimabavu.
 Kama vile utakuwa umekusanya kufikia sasa, upendeleo wangu ni dhahiri kwa mfano wa Whirlpool kwa coinjoin kwenye Bitcoin. Mfumo huu unasimama nje kwa ukali wake na hutoa dhamana ya juu ya usiri. Pia ndiyo pekee inayotoa mchanganyiko unaozingatiwa kuwa mzuri katika muktadha wa hisabati. Kwa maoni yangu, mtindo huu unawakilisha mustakabali wa kuunga sarafu kwenye Bitcoin. Ninakualika uchunguze mtindo huu kwa kina zaidi katika sura inayofuata.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Jinsi Whirlpool inavyofanya kazi
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

@@ -2832,6 +2832,10 @@ Exchange 관리 방법도 두 구현을 구분했습니다. Whirlpool에서는 �
 지금쯤이면 다들 아시겠지만, 저는 Bitcoin에서 코인 조인을 할 때 Whirlpool 모델을 선호합니다. 이 시스템은 엄격함이 돋보이며 뛰어난 기밀성 보장을 제공합니다. 또한 수학적 맥락에서 완벽하다고 여겨지는 믹스를 제공하는 유일한 시스템이기도 합니다. 제 생각에는 이 모델이 Bitcoin 네트워크에서 코인 조인의 미래를 대표한다고 생각합니다. 다음 장에서 이 모델을 더 자세히 살펴보시기 바랍니다.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool 작동 방식
 
 

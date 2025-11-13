@@ -1972,6 +1972,10 @@ Ještě více znepokojující je princip filtrování, který je v radikálním 
 
 Jak jste již jistě pochopili, u Bitcoinu dávám jednoznačně přednost modelu Whirlpool pro spojování mincí. Tento systém vyniká svou přísností a nabízí vynikající záruky důvěrnosti. Jako jediný také nabízí mix, který je v matematickém kontextu považován za dokonalý. Podle mého názoru představuje tento model budoucnost coinjoins na Bitcoinu. Vyzývám vás, abyste se tímto modelem podrobněji zabývali v následující kapitole.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Jak funguje společnost Whirlpool
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

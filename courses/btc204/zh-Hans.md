@@ -1969,6 +1969,10 @@ Wabisabi 是另一种币合实现方式，采用的是集中交易协调的方�
 
 正如你现在已经了解到的，我更倾向于比特币上的 Whirlpool 合币模式。该系统因其严谨性和卓越的保密性而脱颖而出。它也是唯一一个在数学背景下提供完美混合的系统。在我看来，这种模式代表了比特币上币的未来。我邀请大家在下一章中更深入地探讨这种模式。
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## 惠而浦如何工作
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

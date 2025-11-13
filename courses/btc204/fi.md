@@ -1972,6 +1972,10 @@ Vielä huolestuttavampaa on suodatusperiaate, joka on jyrkässä ristiriidassa B
 
 Kuten olet varmasti jo ymmärtänyt, suosin ehdottomasti Whirlpool-mallia Bitcoinin kolikkoliitoksissa. Tämä järjestelmä erottuu tiukkuutensa vuoksi ja tarjoaa erinomaiset takeet luottamuksellisuudesta. Se on myös ainoa, joka tarjoaa matemaattisesti täydellisenä pidetyn yhdistelmän. Mielestäni tämä malli edustaa Bitcoinin kolikkojatkojen tulevaisuutta. Kutsun sinut tutustumaan tähän malliin syvällisemmin seuraavassa luvussa.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Miten Whirlpool toimii
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

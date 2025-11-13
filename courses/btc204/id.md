@@ -1970,6 +1970,10 @@ Yang lebih mengkhawatirkan lagi adalah prinsip penyaringan, yang sangat kontras 
 
 Seperti yang sudah Anda ketahui sekarang, preferensi saya adalah model Whirlpool untuk coinjoin di Bitcoin. Sistem ini menonjol karena ketelitiannya dan menawarkan jaminan kerahasiaan yang unggul. Sistem ini juga merupakan satu-satunya yang menawarkan campuran yang dianggap sempurna dalam konteks matematika. Menurut saya, model ini mewakili masa depan coinjoin di Bitcoin. Saya mengundang Anda untuk menjelajahi model ini secara lebih mendalam di bab selanjutnya.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Cara kerja Whirlpool
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

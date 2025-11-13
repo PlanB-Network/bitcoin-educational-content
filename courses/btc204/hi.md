@@ -1986,6 +1986,10 @@ Whirlpool के विपरीत, जो ZeroLink प्रोटोकॉल
 
 जैसा कि आपने अब तक समझ लिया होगा, मेरी पसंद निश्चित रूप से Bitcoin पर कॉइनजॉइन के लिए Whirlpool मॉडल है। यह सिस्टम अपनी सख्ती के लिए बेहतरीन है और गोपनीयता की बेहतर गारंटी देता है। यह गणितीय संदर्भ में एकमात्र ऐसा मॉडल है जो परफेक्ट मिक्स माना जाता है। मेरी राय में, यह मॉडल Bitcoin पर कॉइनजॉइन का भविष्य है। मैं आपको अगले अध्याय में इस मॉडल को और गहराई से समझने के लिए आमंत्रित करता हूँ।
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool कैसे काम करता है
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

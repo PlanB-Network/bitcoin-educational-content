@@ -2820,6 +2820,10 @@ Whirlpool 實現了 ZeroLink 協定，可確保混合前和混合後的 UTXO 嚴
 現在您應該知道了，我絕對偏好使用 Whirlpool 型號在 Bitcoin 上進行共同接合。此系統因其嚴謹性而脫穎而出，並提供絕佳的保密性保證。它也是唯一能提供在數學上被視為完美的組合的系統。在我看來，這個模型代表了 Bitcoin 上合併的未來。我邀請您在下一章更深入地探討這個模式。
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool 如何運作
 
 

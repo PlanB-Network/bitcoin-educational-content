@@ -1969,6 +1969,10 @@ Thậm chí còn đáng lo ngại hơn là nguyên tắc lọc, trái ngược h
 
 Như bạn đã biết, sở thích của tôi chắc chắn là mô hình Whirlpool cho coinjoin trên Bitcoin. Hệ thống này nổi bật vì tính nghiêm ngặt và cung cấp các đảm bảo bảo mật tuyệt vời. Đây cũng là hệ thống duy nhất cung cấp hỗn hợp được coi là hoàn hảo trong bối cảnh toán học. Theo tôi, mô hình này đại diện cho tương lai của coinjoin trên Bitcoin. Tôi mời bạn khám phá mô hình này sâu hơn trong chương tiếp theo.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool hoạt động như thế nào
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

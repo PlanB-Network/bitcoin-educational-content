@@ -1858,6 +1858,10 @@ Plus préoccupant encore, ce principe de filtrage contraste radicalement avec la
 
 Comme vous l'aurez compris, ma préférence va sans conteste vers le modèle de Whirlpool pour effectuer des coinjoins sur Bitcoin. Ce système se distingue par sa rigueur et offre des garanties supérieures en matière de confidentialité. Il est également le seul à proposer un mixage considéré comme parfait dans un contexte mathématique. À mon sens, ce modèle constitue l'avenir des coinjoins sur Bitcoin. Je vous invite donc à explorer plus en profondeur ce modèle dans le prochain chapitre.
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Le fonctionnement de Whirlpool
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 

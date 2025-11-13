@@ -2818,6 +2818,10 @@ Još zabrinjavajući je princip filtriranja, koji je u radikalnom kontrastu sa f
 Kao što ste do sada već shvatili, moj izbor je definitivno Whirlpool model na Bitcoin-u za coinjoins. Ovaj sistem se ističe svojom rigoroznošću i nudi superiorne garancije poverljivosti. Takođe je jedini koji nudi miks koji se smatra savršenim u matematičkom kontekstu. Po mom mišljenju, ovaj model predstavlja budućnost coinjoins-a na Bitcoin-u. Pozivam vas da istražite ovaj model detaljnije u narednom poglavlju.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Kako Whirlpool funkcioniše
 
 

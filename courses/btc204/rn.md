@@ -2830,6 +2830,10 @@ N’ikindi giteye amaganya ni ingingo ngenderwako y’ugucungera, itandukanye ca
 Nk'uko muzoba mwabikoranye ubu, ivyo nkunda ni vy'ukuri Whirlpool model ku coinjoins kuri Bitcoin. Uwo murongo uratandukanye n’uwukomeye cane kandi uratanga ivyizigiro vyiza kuruta ibindi vyose vy’uko umuntu azoba afise ibanga. Ni ryo ryonyene kandi ritanga uruvange rubonwa ko rutunganye mu bijanye n’imibare. Mu vyiyumviro vyanje, iki kigereranyo kigereranya kazoza k'ama coinjoins kuri Bitcoin. Ndabatumiye ngo musuzume iyo nzira mu buryo bwimbitse mu kigabane gikurikira.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Uko Whirlpool ikora
 
 

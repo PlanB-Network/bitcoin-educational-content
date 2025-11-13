@@ -1970,6 +1970,10 @@ Wasabiバージョン2.0では、新しいコインジョイント手数料ポ�
 
 もうお分かりのように、私はビットコインのコインジョインにはワールプールモデルを好んでいる。このシステムはその厳格さで際立っており、機密性の優れた保証を提供している。また、数学的な文脈で完璧とみなされるミックスを提供する唯一のものです。私の意見では、このモデルはビットコインにおけるコインジョイントの未来を象徴しています。次の章で、このモデルをより深く探求していただきたい。
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## ワールプールの仕組み
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>

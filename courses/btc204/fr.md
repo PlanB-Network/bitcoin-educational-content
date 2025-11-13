@@ -2053,7 +2053,7 @@ Voici différentes stratégies à envisager pour les utiliser :
 - **Marquez-les comme "non dépensables" :** Une autre approche consiste à ne plus les utiliser, à les marquer comme "non dépensables" dans leur compte dédié, et à juste hodl. Cela vous assure ainsi de ne pas les dépenser accidentellement. Si la valeur du bitcoin augmente, de nouvelles pools plus adaptées à vos UTXOs toxiques pourraient voir le jour ;
 - **Faites des donations :** Pensez à faire des dons, même modestes, aux développeurs œuvrant sur Bitcoin et ses logiciels associés. Vous pouvez aussi donner à des associations acceptant le BTC. Si la gestion de vos UTXOs toxiques vous semble trop compliquée, vous pouvez simplement vous en débarrasser en en profitant pour faire une donation ;
 - **Achetez des cartes-cadeaux :** Des plateformes telles que [Bitrefill](https://www.bitrefill.com/) vous permettent d'échanger des bitcoins contre des cartes-cadeaux utilisables chez divers commerçants. Cela peut être une manière de vous séparer de vos UTXOs toxiques sans perdre la valeur associée ;
-- **Consolidez-les sur Monero :** Samourai Wallet offre un service de swap atomique entre BTC et XMR. C'est idéal pour gérer les UTXOs toxiques en les consolidant sur Monero, sans compromettre votre confidentialité via la CIOH, avant de les renvoyer sur Bitcoin. Cette option peut toutefois s'avérer coûteuse en termes de frais de minage et de premium à cause des contraintes de liquidité ;
+- **Les consolider via Monero :** Samourai Wallet proposait autrefois un service de swap atomique entre BTC et XMR, malheureusement indisponible depuis leur arrestation. Cette approche permettait de traiter des UTXOs toxiques en les consolidant sur Monero, sans compromettre votre confidentialité via la CIOH, avant de les renvoyer ensuite sur Bitcoin. Si un service équivalent réapparaît, il peut constituer une option intéressante. Gardez toutefois à l’esprit que cette méthode peut devenir coûteuse, tant en frais de minage qu’en premium lié aux contraintes de liquidité lors de la conversion inverse vers des bitcoins.
 - **Envoyez-les sur le Lightning Network :** Transférer ces UTXOs sur le Lightning Network pour bénéficier de frais de transaction réduits est une option qui peut être intéressante. Cependant, cette méthode peut révéler certaines informations selon votre utilisation de Lightning et doit donc être pratiquée avec prudence.
 
 ### Comment utiliser Whirlpool ?
@@ -2459,7 +2459,7 @@ Parmi les logiciels connus qui prennent en charge le payjoin, il y a Sparrow Wal
 
 ![BTC204](assets/fr/177.webp)
 
-L'implémentation de payjoin la plus avancée est sûrement les Stowaway inventés par les développeur de Samourai Wallet. Depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement sur Samourai. Mais il a été relancé sur l'applciation Ashigaru.
+L'implémentation de payjoin la plus avancée est sûrement les Stowaway inventés par les développeur de Samourai Wallet. Depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement sur Samourai. Mais il a été relancé sur l'application Ashigaru.
 
 L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban.
 

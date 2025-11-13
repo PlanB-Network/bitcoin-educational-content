@@ -3135,7 +3135,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 ### 如何使用 Whirlpool？
 
 
-在 Samourai Wallet 的創始人於 2024 年 4 月 24 日被捕並其伺服器被扣押之後，Whirlpool 工具已無法使用，即使對於那些擁有自己道場的人也是如此。在此之前，它可在 Samourai Wallet 和 Sparrow Wallet 上使用。
+在2024年4月24日Samourai Wallet創辦人被逮捕且其伺服器遭查封之後，Whirlpool 工具已無法在 Samourai Wallet 和 Sparrow Wallet 上使用。
 
 
 ![BTC204](assets/zh-Hant/155.webp)

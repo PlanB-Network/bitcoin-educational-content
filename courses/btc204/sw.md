@@ -2160,7 +2160,7 @@ Hapa kuna baadhi ya mikakati ya kuzitumia:
 
 ### Je, ninatumiaje Whirlpool?
 
-Kufuatia kukamatwa kwa waanzilishi wa Pochi la Samourai na kunaswa kwa seva zao mnamo Aprili 24, 2024, zana ya Whirlpool haifanyi kazi tena, hata kwa wale walio na Dojo zao. Hapo awali, ilipatikana kwenye Pochi la Samourai na Pochi la Sparrow.
+Baada ya kukamatwa kwa waanzilishi wa Samourai Wallet na kukamatwa kwa seva zao tarehe 24 Aprili 2024, kifaa cha Whirlpool hakipatikani tena kwenye Samourai Wallet na Sparrow Wallet.
 
 ![BTC204](assets/sw/155.webp)
 

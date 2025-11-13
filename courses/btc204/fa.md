@@ -3141,7 +3141,7 @@ Tx0" اولین مرحله در فرآیند مخلوط‌سازی Whirlpool ا�
 ### چگونه از Whirlpool استفاده کنم؟
 
 
-پس از دستگیری بنیان‌گذاران Samourai Wallet و توقیف سرورهای آن‌ها در ۲۴ آوریل ۲۰۲۴، ابزار Whirlpool دیگر کار نمی‌کند، حتی برای کسانی که دوجوی خود را دارند. قبلاً این ابزار در Samourai Wallet و Sparrow wallet در دسترس بود.
+پس از بازداشت بنیان‌گذاران Samourai Wallet و ضبط سرورهای آنان در ۲۴ آوریل ۲۰۲۴، ابزار Whirlpool دیگر در Samourai Wallet و Sparrow Wallet در دسترس نیست.
 
 
 ![BTC204](assets/fa/155.webp)

@@ -3145,7 +3145,7 @@ Akira ingamba zimwe zimwe zo kubikoresha:
 ### Nokoresha gute Whirlpool?
 
 
-Inyuma y’aho abashinze Samourai Wallet bafashwe, bagafata ama server yabo ku wa 24 Ndamukiza 2024, igikoresho ca Whirlpool ntikigikora, mbere n’abafise Dojo yabo bwite. Mbere, yari iboneka ku ndege za Samourai Wallet na Sparrow wallet.
+Inyuma y’ifatwa ry’abashinze Samourai Wallet n’ifatiswa ry’amaseriveri yabo ku wa 24 Ndamukiza 2024, igikoresho Whirlpool ntikiboneka kuri Samourai Wallet no kuri Sparrow Wallet.
 
 
 ![BTC204](assets/rn/155.webp)

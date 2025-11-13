@@ -2183,7 +2183,7 @@ Here are some strategies for using them:
 
 ### How do I use Whirlpool?
 
-Following the arrest of Samourai Wallet's founders and the seizure of their servers on April 24, 2024, the Whirlpool tool no longer works, even for those with their own Dojo. Previously, it was available on Samourai Wallet and Sparrow Wallet.
+Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24, 2024, the Whirlpool tool is no longer available on Samourai Wallet and Sparrow Wallet.
 
 ![BTC204](assets/en/155.webp)
 

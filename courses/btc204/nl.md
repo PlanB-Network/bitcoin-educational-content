@@ -3099,7 +3099,7 @@ Hier volgen enkele strategieën om ze te gebruiken:
 ### Hoe gebruik ik Whirlpool?
 
 
-Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april 2024, werkt de Whirlpool tool niet meer, zelfs niet voor degenen met een eigen Dojo. Voorheen was het beschikbaar op Samourai Wallet en Sparrow wallet.
+Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april 2024, is de Whirlpool-tool niet langer beschikbaar op Samourai Wallet en Sparrow Wallet.
 
 
 ![BTC204](assets/nl/155.webp)

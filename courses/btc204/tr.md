@@ -3147,7 +3147,7 @@ Daha sonra, CoinJoin havuzuna girmeyen doxxic değişikliklerin yönetimi konusu
 ### Whirlpool'ü nasıl kullanırım?
 
 
-Samourai Wallet'nin kurucularının tutuklanması ve sunucularına 24 Nisan 2024'te el konulmasının ardından, Whirlpool aracı artık kendi Dojo'larına sahip olanlar için bile çalışmıyor. Daha önce Samourai Wallet ve Sparrow wallet'te kullanılabiliyordu.
+Samourai Wallet kurucularının tutuklanması ve sunucularının 24 Nisan 2024’te ele geçirilmesinin ardından Whirlpool aracı artık Samourai Wallet ve Sparrow Wallet üzerinde kullanılamamaktadır.
 
 
 ![BTC204](assets/tr/155.webp)

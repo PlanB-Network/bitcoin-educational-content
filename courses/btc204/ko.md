@@ -3147,7 +3147,7 @@ Bitcoin 거래와 마찬가지로 수신 Address을 재사용하지 않는 것�
 ### Whirlpool은 어떻게 사용하나요?
 
 
-2024년 4월 24일 사무라이 Wallet의 창시자가 체포되고 서버가 압수됨에 따라, Whirlpool 도구는 자체 도장을 보유한 분들에게도 더 이상 작동하지 않습니다. 이전에는 사무라이 Wallet와 Sparrow wallet에서 사용할 수 있었습니다.
+2024년 4월 24일 Samourai Wallet 설립자들의 체포와 서버 압수 이후, Whirlpool 도구는 Samourai Wallet과 Sparrow Wallet에서 더 이상 사용할 수 없습니다.
 
 
 ![BTC204](assets/ko/155.webp)

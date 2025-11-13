@@ -2191,7 +2191,7 @@ Sau đây là một số chiến lược sử dụng chúng:
 
 ### Tôi sử dụng Whirlpool như thế nào?
 
-Sau khi những người sáng lập Samourai Wallet bị bắt và máy chủ của họ bị tịch thu vào ngày 24 tháng 4 năm 2024, công cụ Whirlpool không còn hoạt động nữa, ngay cả đối với những người có Dojo riêng. Trước đây, công cụ này có sẵn trên Samourai Wallet và Sparrow Wallet.
+Sau khi những người sáng lập Samourai Wallet bị bắt và máy chủ của họ bị thu giữ vào ngày 24 tháng 4 năm 2024, công cụ Whirlpool không còn khả dụng trên Samourai Wallet và Sparrow Wallet.
 
 ![BTC204](assets/vi/155.webp)
 

@@ -2193,7 +2193,7 @@ Her er noen strategier for hvordan du kan bruke dem:
 
 ### Hvordan bruker jeg Whirlpool?
 
-Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av serverne deres den 24. april 2024, fungerer ikke Whirlpool-verktøyet lenger, selv ikke for de med egen Dojo. Tidligere var det tilgjengelig på Samourai Wallet og Sparrow Wallet.
+Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av serverne deres 24. april 2024, er Whirlpool-verktøyet ikke lenger tilgjengelig på Samourai Wallet og Sparrow Wallet.
 
 ![BTC204](assets/nb-NO/155.webp)
 

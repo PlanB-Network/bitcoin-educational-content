@@ -3134,7 +3134,7 @@ Evo nekoliko strategija za njihovo korišćenje:
 ### Kako da koristim Whirlpool?
 
 
-Nakon hapšenja osnivača Samourai novčanika i zaplene njihovih servera 24. aprila 2024. godine, Whirlpool alat više ne radi, čak ni za one sa sopstvenim Dojo-om. Prethodno je bio dostupan za Samourai novčanik i Sparrow novčanik.
+Nakon hapšenja osnivača Samourai Walleta i zaplene njihovih servera 24. aprila 2024, alat Whirlpool više nije dostupan na Samourai Walletu i Sparrow Walletu.
 
 
 ![BTC204](assets/sr-Latn/155.webp)

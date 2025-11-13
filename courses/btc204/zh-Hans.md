@@ -2192,7 +2192,7 @@ Tx0 "是惠而浦混合过程的第一步。其目的是准备和均衡UTXO，�
 
 ### 如何使用惠而浦？
 
-2024 年 4 月 24 日，Samourai 钱包的创始人被捕，其服务器也被查封，此后，漩涡工具已无法使用，即使拥有自己 Dojo 的用户也无法使用。在此之前，Samourai 钱包和 Sparrow 钱包可以使用该工具。
+在2024年4月24日Samourai Wallet创始人被逮捕且其服务器被查封之后，Whirlpool工具在Samourai Wallet和Sparrow Wallet上已无法使用。
 
 ![BTC204](assets/zh-Hans/155.webp)
 

@@ -2195,7 +2195,7 @@ UTXOのマージは最も一般的な間違いである。CIOH（*Common-Input-O
 
 ### ワールプールの使い方は？
 
-2024年4月24日にSamourai Walletの創設者が逮捕され、サーバーが押収された後、Whirlpoolツールは、独自のDojoを持っている人でも使えなくなりました。以前はSamourai WalletとSparrow Walletで利用可能でした。
+2024年4月24日にSamourai Walletの創設者が逮捕され、サーバーが押収されたことを受け、WhirlpoolツールはSamourai WalletおよびSparrow Walletで利用できなくなりました。
 
 ![BTC204](assets/ja/155.webp)
 

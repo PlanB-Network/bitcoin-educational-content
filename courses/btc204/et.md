@@ -2195,7 +2195,7 @@ Siin on mõned strateegiad nende kasutamiseks:
 
 ### Kuidas ma kasutan Whirlpooli?
 
-Pärast Samourai rahakoti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil 2024 ei tööta Whirlpool tööriist enam, isegi nende jaoks, kellel on oma Dojo. Varem oli see saadaval Samourai Walletis ja Sparrow Walletis.
+Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil 2024 ei ole Whirlpooli tööriist enam saadaval Samourai Walletis ja Sparrow Walletis.
 
 ![BTC204](assets/et/155.webp)
 

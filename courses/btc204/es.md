@@ -2195,7 +2195,7 @@ He aquí algunas estrategias para utilizarlos:
 
 ### ¿Cómo se utiliza Whirlpool?
 
-Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril de 2024, la herramienta Remolino ya no funciona, ni siquiera para aquellos que tienen su propio Dojo. Anteriormente, estaba disponible en Samourai Wallet y Sparrow Wallet.
+Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril de 2024, la herramienta Whirlpool ya no está disponible en Samourai Wallet y Sparrow Wallet.
 
 ![BTC204](assets/es/155.webp)
 

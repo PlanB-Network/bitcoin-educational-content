@@ -2193,7 +2193,7 @@ Tx0" - это первый шаг в процессе смешивания Whirl
 
 ### Как пользоваться Whirlpool?
 
-После ареста основателей Samourai Wallet и изъятия их серверов 24 апреля 2024 года инструмент Whirlpool больше не работает, даже для тех, у кого есть собственный Dojo. Ранее он был доступен на Samourai Wallet и Sparrow Wallet.
+После ареста основателей Samourai Wallet и изъятия их серверов 24 апреля 2024 года инструмент Whirlpool больше недоступен в Samourai Wallet и Sparrow Wallet.
 
 ![BTC204](assets/ru/155.webp)
 

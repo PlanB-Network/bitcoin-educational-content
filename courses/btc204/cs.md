@@ -2195,7 +2195,7 @@ Zde je několik strategií, jak je používat:
 
 ### Jak mohu používat produkt Whirlpool?
 
-Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů 24. dubna 2024 již nástroj Whirlpool nefunguje, a to ani pro ty, kteří mají vlastní Dojo. Dříve byl k dispozici v peněženkách Samourai Wallet a Sparrow Wallet.
+Po zatčení zakladatelů Samourai Wallet a zabavení jejich serverů dne 24. dubna 2024 již není nástroj Whirlpool dostupný na Samourai Wallet a Sparrow Wallet.
 
 ![BTC204](assets/cs/155.webp)
 

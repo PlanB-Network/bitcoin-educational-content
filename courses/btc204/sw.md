@@ -2796,7 +2796,7 @@ Ricocheting ina maana ya kutuma bitcoins kwako mwenyewe. Inawezekana kabisa kuwe
 
 Katika sura inayofuata, tunaangalia mbinu tofauti za uhamisho wa siri wa Umiliki. Njia hizi hutofautiana kwa kiasi kikubwa na zile ambazo tumechunguza hadi sasa, kwa suala la uendeshaji na matokeo.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 ## Uhamisho wa siri wa Ownership
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>

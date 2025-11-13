@@ -4027,7 +4027,7 @@ Rikošetiranje jednostavno znači slanje bitkoina sebi. Potpuno je moguće ručn
 U sledećem poglavlju, razmatramo različite tehnike za tajne prenose vlasništva. Ove metode se radikalno razlikuju od onih koje smo do sada ispitali, kako u pogledu operacije, tako i rezultata.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajni prenos vlasništva
 

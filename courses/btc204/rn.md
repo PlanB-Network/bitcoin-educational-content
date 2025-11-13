@@ -4038,7 +4038,7 @@ Ricocheting bisigura gusa kwirungikira ama bitcoins. Birashoboka cane ricochet b
 Mu kigabane gikurikira, turaba ubuhinga butandukanye bwo gutanga Ownership mu mpisho. Ubwo buryo buratandukanye cane n’ubwo twasuzumye gushika ubu, haba mu bijanye n’ingene bukora be n’ivyo buvamwo.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ibanga ry'iherezo rya Ownership
 

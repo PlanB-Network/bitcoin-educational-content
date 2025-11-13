@@ -2845,7 +2845,7 @@ Ashigaru 应用提供两种弹射方式（与之前在 Samourai 上的相同）�
 
 在下一章中，我们将探讨不同的所有权秘密转让技术。这些方法在操作和结果上都与我们迄今为止研究过的方法截然不同。
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## 所有权的秘密转让
 

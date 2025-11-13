@@ -2845,7 +2845,7 @@ Ricochetear significa simplesmente enviar bitcoins para si próprio. É perfeita
 
 No próximo capítulo, analisamos diferentes técnicas de transferências secretas de propriedade. Estes métodos diferem radicalmente dos que analisámos até agora, tanto em termos de funcionamento como de resultados.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Transferências secretas de propriedade
 

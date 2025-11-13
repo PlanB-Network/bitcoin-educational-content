@@ -4031,7 +4031,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 در فصل بعد، به بررسی تکنیک‌های مختلف برای انتقال‌های مخفی Ownership می‌پردازیم. این روش‌ها هم از نظر عملکرد و هم از نظر نتایج، به طور اساسی با آنچه تاکنون بررسی کرده‌ایم متفاوت هستند.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## انتقالات مخفی Ownership
 

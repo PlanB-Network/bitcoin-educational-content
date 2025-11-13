@@ -2822,7 +2822,7 @@ Ricocheting simply means sending bitcoins to yourself. It's perfectly possible t
 
 In the next chapter, we examine various techniques for secret transfers of ownership. These methods differ radically from those we have examined so far, both in terms of operation and results.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Secret transfers of ownership
 

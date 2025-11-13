@@ -2848,7 +2848,7 @@ Ricocheting tarkoittaa yksinkertaisesti bitcoinien lähettämistä itsellesi. On
 
 Seuraavassa luvussa tarkastelemme erilaisia tekniikoita omistusoikeuden salaisiin siirtoihin. Nämä menetelmät eroavat radikaalisti tähän mennessä tarkastelemistamme menetelmistä sekä toiminnan että tulosten osalta.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Salaiset omistusoikeuden siirrot
 

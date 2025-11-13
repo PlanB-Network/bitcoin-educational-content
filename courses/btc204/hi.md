@@ -2873,7 +2873,7 @@ Ashigaru एप्लिकेशन दो रिकोशे संस्क�
 
 अगले अध्याय में, हम Ownership को गुप्त तरीके से ट्रांसफर करने के अलग-अलग तरीकों पर नज़र डालेंगे। ये तरीके ऑपरेशन और नतीजों दोनों ही मामलों में, अब तक जिन्हें हमने देखा है, उनसे बिल्कुल अलग हैं।
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 ## Ownership का गुप्त स्थानांतरण
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>

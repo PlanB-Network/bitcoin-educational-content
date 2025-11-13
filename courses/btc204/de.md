@@ -2814,7 +2814,7 @@ Abprallen bedeutet einfach, Bitcoins an sich selbst zu senden. Es ist durchaus m
 
 Im nächsten Kapitel befassen wir uns mit verschiedenen Techniken für geheime Eigentumsübertragungen. Diese Methoden unterscheiden sich sowohl in ihrer Funktionsweise als auch in ihren Ergebnissen grundlegend von den bisher untersuchten.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Heimliche Eigentumsübertragungen
 

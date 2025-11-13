@@ -2848,7 +2848,7 @@ Rebotear significa simplemente enviarse bitcoins a uno mismo. Es perfectamente p
 
 En el próximo capítulo, examinaremos distintas técnicas de transferencia secreta de la propiedad. Estos métodos difieren radicalmente de los que hemos examinado hasta ahora, tanto en su funcionamiento como en sus resultados.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Transferencias secretas de propiedad
 

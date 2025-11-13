@@ -4040,7 +4040,7 @@ Ricocheting basitçe kendinize bitcoin göndermek anlamına gelir. Özel bir ara
 Bir sonraki bölümde, Ownership'ün gizli transferleri için farklı tekniklere bakacağız. Bu yöntemler hem işleyiş hem de sonuçlar açısından şimdiye kadar incelediklerimizden radikal biçimde farklıdır.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership'in gizli transferleri
 

@@ -4040,7 +4040,7 @@ Ashigaru 애플리케이션은 두 가지 리코셰 변형을 제공합니다(�
 다음 장에서는 Ownership의 비밀 전송을 위한 다양한 기술을 살펴봅니다. 이러한 방법은 작동 방식과 결과 측면에서 지금까지 살펴본 방법과 근본적으로 다릅니다.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership의 비밀 전송
 

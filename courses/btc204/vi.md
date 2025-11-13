@@ -2844,7 +2844,7 @@ Ricocheting đơn giản có nghĩa là gửi bitcoin cho chính bạn. Hoàn to
 
 Trong chương tiếp theo, chúng ta sẽ xem xét các kỹ thuật khác nhau để chuyển giao quyền sở hữu bí mật. Các phương pháp này khác biệt hoàn toàn so với các phương pháp chúng ta đã xem xét cho đến nay, cả về mặt hoạt động và kết quả.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Chuyển nhượng quyền sở hữu bí mật
 

@@ -2844,7 +2844,7 @@ Rimbalzare significa semplicemente inviare bitcoin a se stessi. È perfettamente
 
 Nel prossimo capitolo esamineremo diverse tecniche per il trasferimento segreto della proprietà. Questi metodi differiscono radicalmente da quelli esaminati finora, sia in termini di funzionamento che di risultati.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Trasferimenti segreti di proprietà
 

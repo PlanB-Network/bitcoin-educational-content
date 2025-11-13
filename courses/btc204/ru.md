@@ -2846,7 +2846,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 
 В следующей главе мы рассмотрим различные методы тайной передачи прав собственности. Эти методы радикально отличаются от тех, которые мы рассматривали до сих пор, как по принципу действия, так и по результатам.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Тайная передача прав собственности
 

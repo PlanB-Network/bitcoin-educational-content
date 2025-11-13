@@ -3989,7 +3989,7 @@ Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk
 In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van Ownership. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Geheime overdrachten van Ownership
 

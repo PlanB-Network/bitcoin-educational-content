@@ -2848,7 +2848,7 @@ Ashigaruアプリは2種類のリコシェを提供しています（以前Samou
 
 次の章では、所有権を秘密裏に移転するためのさまざまな手法を見ていく。これらの手法は、運用の面でも結果の面でも、これまで検討してきたものとは根本的に異なる。
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## 所有権の秘密譲渡
 

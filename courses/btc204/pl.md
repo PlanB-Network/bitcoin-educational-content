@@ -4023,7 +4023,7 @@ Rykoszetowanie oznacza po prostu wysyłanie bitcoinów do samego siebie. Ręczne
 W następnym rozdziale przyjrzymy się różnym technikom tajnych transferów Ownership. Metody te różnią się radykalnie od tych, które zbadaliśmy do tej pory, zarówno pod względem działania, jak i wyników.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajne transfery Ownership
 

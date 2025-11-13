@@ -4022,7 +4022,7 @@ Ashigaru 應用程式提供兩種彈射變體（與先前在 Samourai 上的一�
 在下一章中，我們將探討秘密轉移 Ownership 的不同技術。這些方法與我們迄今為止所研究過的方法，無論在操作上或結果上都有很大的不同。
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership 的秘密轉移
 

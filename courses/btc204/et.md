@@ -2764,7 +2764,6 @@ Stonewall-tehingud on saadaval nii Sparrow Walletis kui ka Ashigaru platvormil, 
 
 ![BTC204](assets/et/189.webp)
 
-Kuid nagu ka payjoins'i puhul, toimivad Stonewall x2 tehingud pärast Samourai asutajate vahistamist nüüd ainult asjaomaste osapoolte vahel käsitsi PSBTde vahetamise teel. Kahjuks ei ole automaatne vahetamine Sorobani kaudu enam võimalik.
 
 Seda tüüpi tehinguid on võimalik teha ka käsitsi mis tahes Bitcoini rahakoti tarkvarast.
 

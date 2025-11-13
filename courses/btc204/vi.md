@@ -2760,7 +2760,6 @@ Các giao dịch Stonewall có sẵn trên Sparrow Wallet cũng như trên Ashig
 
 ![BTC204](assets/vi/189.webp)
 
-Tuy nhiên, giống như payjoin, sau vụ bắt giữ những người sáng lập Samourai, các giao dịch Stonewall x2 hiện chỉ hoạt động bằng cách trao đổi PSBT thủ công giữa các bên liên quan. Thật không may, trao đổi tự động qua Soroban không còn khả dụng nữa.
 
 Bạn cũng có thể thực hiện loại giao dịch này theo cách thủ công từ bất kỳ phần mềm ví Bitcoin nào.
 

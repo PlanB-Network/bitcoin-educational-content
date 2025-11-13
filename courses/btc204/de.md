@@ -2730,7 +2730,6 @@ Stonewall-Transaktionen sind sowohl in Sparrow Wallet als auch in Ashigaru verf�
 
 ![BTC204](assets/de/189.webp)
 
-Nach der Verhaftung der Samourai-Gründer funktionieren Stonewall x2-Transaktionen jedoch nur noch durch den manuellen Austausch von PSBTs zwischen den beteiligten Parteien, ebenso wie Payjoins. Der automatische Austausch über Soroban ist leider nicht mehr möglich.
 
 Es ist auch möglich, diese Art von Transaktion manuell von jeder Bitcoin-Wallet-Software aus durchzuführen.
 

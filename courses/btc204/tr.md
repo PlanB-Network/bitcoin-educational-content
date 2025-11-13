@@ -3917,7 +3917,6 @@ Stonewall işlemleri Sparrow Wallet ve Ashigaru üzerinde mevcuttur; ancak Stone
 ![BTC204](assets/tr/189.webp)
 
 
-Bununla birlikte, payjoin'lerde olduğu gibi, Samourai'nin kurucularının tutuklanmasının ardından, Stonewall x2 işlemleri artık yalnızca ilgili taraflar arasında PSBT'lerin manuel olarak değiştirilmesiyle çalışıyor. Ne yazık ki, Soroban üzerinden otomatik Exchange artık mevcut değil.
 
 
 Bu tür bir işlemi herhangi bir Bitcoin Wallet yazılımından manuel olarak gerçekleştirmek de mümkündür.

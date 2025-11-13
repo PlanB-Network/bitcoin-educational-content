@@ -3915,7 +3915,6 @@ Transaksiyo za Stonewall ziraboneka kuri Sparrow Wallet no kuri Ashigaru, mu gih
 ![BTC204](assets/rn/189.webp)
 
 
-Ariko nk’uko biri ku bijanye n’ama payjoins, inyuma y’ugufatwa kw’abashinze Samourai, ubu amafaranga y’ubudandaji ya Stonewall x2 akora gusa mu guhinduranya ama PSBT n’amaboko hagati y’ababifisemwo uruhara. Ikibabaje ni uko Exchange yikora biciye kuri Soroban itagihari.
 
 
 Birashoboka kandi gukora ubwo bwoko bw’ugucuruza n’amaboko ukoresheje porogarama iyo ari yo yose ya Bitcoin Wallet.

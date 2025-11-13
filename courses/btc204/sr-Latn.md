@@ -3904,7 +3904,6 @@ Stonewall transakcije dostupne su na Sparrow Walletu kao i na Ashigaru, dok Ston
 ![BTC204](assets/sr-Latn/189.webp)
 
 
-Međutim, kao i sa payjoins, nakon hapšenja osnivača Samourai-a, Stonewall x2 transakcije sada funkcionišu samo ručnim razmenjivanjem PSBT-ova između uključenih strana. Nažalost, automatska razmena putem Soroban-a više nije dostupna.
 
 
 Takođe je moguće izvršiti ovu vrstu transakcije ručno iz bilo kog Bitcoin novčanik softvera.

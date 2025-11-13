@@ -2764,7 +2764,6 @@ Transakce Stonewall jsou dostupné v peněžence Sparrow Wallet i v Ashigaru, za
 
 ![BTC204](assets/cs/189.webp)
 
-Stejně jako v případě payjoins však po zatčení zakladatelů společnosti Samourai fungují transakce Stonewall x2 nyní pouze na základě ruční výměny PSBT mezi zúčastněnými stranami. Automatická výměna prostřednictvím Sorobanu již bohužel není k dispozici.
 
 Tento typ transakce je možné provést také ručně z libovolného softwaru bitcoinové peněženky.
 

@@ -2762,7 +2762,6 @@ Transaksi Stonewall tersedia di Sparrow Wallet maupun di Ashigaru, sedangkan Sto
 
 ![BTC204](assets/id/189.webp)
 
-Namun, seperti halnya payjoin, setelah penangkapan para pendiri Samourai, transaksi Stonewall x2 sekarang hanya berfungsi dengan menukarkan PSBT secara manual antara pihak-pihak yang bersangkutan. Sayangnya, pertukaran otomatis melalui Soroban tidak lagi tersedia.
 
 Anda juga dapat melakukan jenis transaksi ini secara manual dari perangkat lunak dompet Bitcoin apa pun.
 

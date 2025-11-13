@@ -2761,7 +2761,6 @@ Stonewall 交易可在 Sparrow Wallet 和 Ashigaru 上使用，而 Stonewall x2 
 
 ![BTC204](assets/zh-Hans/189.webp)
 
-然而，与支付连接一样，在 Samourai 创始人被捕后，石墙 x2 交易现在只能通过有关各方之间手动交换 PSBT 来进行。遗憾的是，通过 Soroban 进行的自动交换已不再可用。
 
 也可以通过任何比特币钱包软件手动进行此类交易。
 

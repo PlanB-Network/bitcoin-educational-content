@@ -3917,7 +3917,6 @@ Stonewall 거래는 Sparrow Wallet과 Ashigaru 모두에서 사용할 수 있지
 ![BTC204](assets/ko/189.webp)
 
 
-그러나 페이조인과 마찬가지로 사무라이의 설립자가 체포된 이후 스톤월 x2 거래는 이제 관련 당사자 간에 수동으로 PSBT를 교환해야만 작동합니다. 안타깝게도 소로반을 통한 자동 Exchange는 더 이상 사용할 수 없습니다.
 
 
 Bitcoin Wallet 소프트웨어에서 이러한 유형의 거래를 수동으로 수행할 수도 있습니다.

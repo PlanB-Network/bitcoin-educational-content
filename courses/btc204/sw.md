@@ -2716,7 +2716,6 @@ Muamala ya Stonewall yanapatikana kwenye Sparrow Wallet na pia kwenye Ashigaru, 
 
 ![BTC204](assets/sw/189.webp)
 
-Hata hivyo, kama ilivyo kwa viungo vya malipo, kufuatia kukamatwa kwa waanzilishi wa Samourai, miamala ya Stonewall x2 sasa inafanya kazi tu kupitia kubadilishana PSBT kati ya pande zinazohusika. Kwa bahati mbaya, ubadilishanaji wa kiotomatiki kupitia Soroban haupatikani tena.
 
 Inawezekana pia kutekeleza aina hii ya muamala kwa mikono kutoka kwa programu yoyote ya Bitcoin Wallet.
 

@@ -3899,7 +3899,6 @@ Stonewall 交易可在 Sparrow Wallet 以及 Ashigaru 上使用，而 Stonewall 
 ![BTC204](assets/zh-Hant/189.webp)
 
 
-然而，就像 payjoins 一樣，在 Samourai 的創始人被捕之後，Stonewall x2 交易現在只能透過相關各方之間手動交換 PSBT 來進行。不幸的是，透過 Soroban 的自動 Exchange 已不再可用。
 
 
 也可以從任何 Bitcoin Wallet 軟體手動執行此類交易。

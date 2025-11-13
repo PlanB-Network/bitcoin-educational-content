@@ -2764,7 +2764,6 @@ Stonewall-transaktiot ovat saatavilla sekä Sparrow Walletissa että Ashigaru-so
 
 ![BTC204](assets/fi/189.webp)
 
-Samourain perustajien pidättämisen jälkeen Stonewall x2 -tapahtumat toimivat kuitenkin payjoinsin tapaan vain vaihtamalla PSBT-tunnukset manuaalisesti osapuolten välillä. Automaattinen vaihto Sorobanin kautta ei valitettavasti ole enää käytettävissä.
 
 Tämäntyyppinen transaktio on mahdollista suorittaa myös manuaalisesti millä tahansa Bitcoin-lompakko-ohjelmistolla.
 

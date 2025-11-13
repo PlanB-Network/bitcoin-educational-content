@@ -1374,11 +1374,11 @@ Questo formato è stato creato per fornire una visione "condensata" dell'output 
 
 ![nmap-image](assets/fr/50.webp)
 
-scansione della rete nmap e output in formato "greppable"
+_Scansione della rete nmap e output in formato "greppable"_
 
 In questo caso, ho eseguito un rilevamento della rete, una scansione delle porte e un'analisi delle tecnologie e delle versioni su una rete /24, quindi ho memorizzato l'output in un file in formato "greppable". Alla fine ho ottenuto un file contenente 2 righe per ogni host attivo:
 - La prima riga mi dice che il tal host è _Up_;
-- Una seconda riga mi dice quali porte sono state scansionate, il loro stato e le informazioni sulla tecnologia e sulla versione recuperate in un formato molto specifico: `<porta>/<stato/<protocollo>/<servizio>/<versione>/,`
+- Una seconda riga mi dice quali porte sono state scansionate, il loro stato e le informazioni sulla tecnologia e sulla versione recuperate in un formato molto specifico: `<porta>/<stato/<protocollo>/<servizio>/<versione>/,`.
 
 Questa formattazione con un delimitatore fisso consente una rapida elaborazione con strumenti di elaborazione testi come `grep`, o con linguaggi di scripting e programmazione. Il comando seguente, ad esempio, mi permette di recuperare facilmente le informazioni sull'host `10.10.10.5` nel caso di un'enorme scansione eseguita da Nmap il cui output sarebbe difficile da consultare:
 
@@ -1408,7 +1408,7 @@ nmap 10.10.10.0/24 -sV -oG nmap_scan_10.10.10.0_24.gnmap
 
 Questo formato può essere utilizzato per diversi scopi ed è particolarmente utile per lo scripting/sorting rapido. Tuttavia, tende a essere abbandonato in favore del formato che vedremo in seguito.
 
-nota: il formato greppable `-oG` è stato ufficialmente deprecato da Nmap 7.90. Può ancora essere usato per compatibilità. Può ancora essere usato per motivi di compatibilità, ma si raccomanda di usare il formato XML o normale per qualsiasi sviluppo o parsing automatizzato
+_Nota_: il formato greppable `-oG` è stato ufficialmente deprecato da Nmap 7.90. Può ancora essere usato per compatibilità. Può ancora essere usato per motivi di compatibilità, ma si raccomanda di usare il formato XML o normale per qualsiasi sviluppo o parsing automatizzato
 
 #### C. Formato XML per l'output di Nmap
 
@@ -1416,7 +1416,7 @@ L'ultimo formato che vale la pena menzionare in questa guida è XML. A differenz
 
 XML (_eXtensible Markup Language_) è un linguaggio di markup utilizzato per memorizzare e trasportare dati, offrendo una struttura gerarchica tramite tag personalizzati.
 
-All'interno di Nmap, il formato XML viene utilizzato per generate rapporti dettagliati sulle scansioni eseguite, comprese le informazioni su host, porte e vulnerabilità rilevate, nonché informazioni aggiuntive non visualizzate nell'output standard di Nmap.
+All'interno di Nmap, il formato XML viene utilizzato per generare rapporti dettagliati sulle scansioni eseguite, comprese le informazioni su host, porte e vulnerabilità rilevate, nonché informazioni aggiuntive non visualizzate nell'output standard di Nmap.
 
 Per ottenere un file di output in formato XML, è necessario utilizzare l'opzione `-oX` ("O" da "XML"):
 
@@ -1431,7 +1431,7 @@ Naturalmente, il formato XML non è progettato per essere letto e interpretato d
 
 ![nmap-image](assets/fr/51.webp)
 
-esempio di un record XML per 1 host durante una scansione Nmap
+_Esempio di un record XML per 1 host durante una scansione Nmap_
 
 Ci sono molte informazioni e siamo particolarmente interessati alle due porte aperte:
 
@@ -1453,7 +1453,7 @@ Questo ci permette di riutilizzare queste informazioni con i database e le appli
 
 ![nmap-image](assets/fr/52.webp)
 
-presenza di un CPE nei dettagli di un CVE nel database NVD
+_Presenza di un CPE nei dettagli di un CVE nel database NVD_
 
 Ora abbiamo una migliore comprensione dei vantaggi di questo formato, che offre una struttura molto chiara delle informazioni e contiene tutti i dati raccolti o elaborati da Nmap.
 
@@ -1486,7 +1486,7 @@ Di conseguenza, avremo la nostra intera scansione ben strutturata, con persino a
 
 ![nmap-image](assets/fr/53.webp)
 
-estratto da un rapporto di scansione Nmap in formato HTML generato da xsltproc._
+_Estratto da un rapporto di scansione Nmap in formato HTML generato da xsltproc_
 
 In generale, il file XML salvato da Nmap contiene un riferimento a un altro file in formato XSL:
 
@@ -1498,7 +1498,7 @@ La conversione in HTML è quindi una funzione fornita e facilitata da Nmap, esse
 
 XSLT (_Extensible Stylesheet Language Transformations_) è un sottoinsieme di XSL che consente di visualizzare i dati XML su una pagina web e di "trasformarli", parallelamente agli stili XSL, in informazioni leggibili e formattate in formato HTML.
 
-fonte: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
+_Fonte: [helpx.adobe.com/](https://helpx.adobe.com/fr/dreamweaver/using/xml-xslt.html)_
 
 Il livello di informazione del report è equivalente a quello del formato XML di Nmap e superiore a quello dell'output standard del terminale (_interactive output_).
 
@@ -1510,15 +1510,15 @@ La prima opzione da menzionare è l'opzione `-v`, che aumenta la verbosità di N
 
 ![nmap-image](assets/fr/54.webp)
 
-l'output verboso di nmap utilizzando l'opzione `-v`._
+_L'output verboso di nmap utilizzando l'opzione `-v`_
 
 In una scansione che ha come obiettivo molti host e porte, l'output del terminale diventerà difficile da sfruttare a causa della quantità di informazioni visualizzate. Per questo motivo, questa opzione dovrebbe essere usata in combinazione con le opzioni viste in precedenza, che consentono di memorizzare l'output standard di Nmap in un file. Le informazioni relative all'uso della verbosità non saranno incluse in questo file di output. Come si può vedere dall'esempio precedente, questa verbosità consente di seguire le azioni e le scoperte di Nmap in modo chiaro e diretto. Per le scansioni più lunghe, in cui la visualizzazione dei dati può essere lenta, questo evita di non vedere l'attività corrente di Nmap e di sapere che le cose stanno procedendo e a quale ritmo. Per aumentare la verbosità di un ulteriore livello, è possibile utilizzare l'opzione `-vv`.
 
-Per seguire ulteriormente l'attività di Nmap durante la scansione, è possibile utilizzare l'opzione `-packet-trace'. Con l'opzione `-v`, si ottiene un log in tempo reale di tutte le porte aperte scoperte da Nmap, mentre con questa opzione si ottiene una riga di log per ogni pacchetto inviato a una porta. Questo produce naturalmente un output molto prolisso, ma consente un monitoraggio dettagliato dell'attività di Nmap; ecco un esempio:
+Per seguire ulteriormente l'attività di Nmap durante la scansione, è possibile utilizzare l'opzione `-packet-trace`. Con l'opzione `-v`, si ottiene un log in tempo reale di tutte le porte aperte scoperte da Nmap, mentre con questa opzione si ottiene una riga di log per ogni pacchetto inviato a una porta. Questo produce naturalmente un output molto prolisso, ma consente un monitoraggio dettagliato dell'attività di Nmap, ecco un esempio:
 
 ![nmap-image](assets/fr/55.webp)
 
-monitoraggio dettagliato dell'attività di Nmap tramite `-packet-trace`
+_Monitoraggio dettagliato dell'attività di Nmap tramite `-packet-trace`_
 
 Anche in questo caso, queste informazioni non verranno registrate nel file di output prodotto da Nmap se vengono utilizzate le opzioni `-oN`, `-oG`, `-oX` o `-oA`.
 
@@ -1526,7 +1526,7 @@ Infine, Nmap offre anche due opzioni di debug: `-d` e `-dd`. Queste opzioni si c
 
 ![nmap-image](assets/fr/56.webp)
 
-le opzioni di temporizzazione sono visualizzate nella vista di debug di Nmap
+_Le opzioni di temporizzazione sono visualizzate nella vista di debug di Nmap_
 
 Nelle prossime sezioni vedremo quali sono le opzioni di "Temporizzazione" e perché è utile conoscerle.
 
@@ -1534,7 +1534,7 @@ Infine, se si vuole avere solo una panoramica di base e sintetica dell'andamento
 
 ![nmap-image](assets/fr/57.webp)
 
-informazioni visualizzate dall'opzione `--stats-every` di Nmap
+_Informazioni visualizzate dall'opzione `--stats-every` di Nmap_
 
 In particolare, è possibile ottenere una percentuale di avanzamento, nonché un'indicazione della fase in cui si trova: fase di scoperta dell'host tramite [ping](https://www.it-connect.fr/le-ping-pour-les-debutants/), fase di scoperta delle porte TCP esposte, ecc. Queste informazioni possono essere ottenute anche nell'output del terminale premendo "Invio" durante una scansione.
 
@@ -1543,8 +1543,6 @@ Tuttavia, Nmap non è molto bravo a stimare il tempo necessario per un'operazion
 ### V. Conclusione
 
 In questa sezione abbiamo esaminato una serie di opzioni per salvare i risultati della scansione Nmap in diversi formati di file. Ciò si rivelerà molto utile, poiché in contesti realistici i risultati delle scansioni possono occupare centinaia o addirittura migliaia di righe! Abbiamo anche visto come aumentare il livello di verbosità di Nmap per scopi di debug o per ottenere un rapporto sull'avanzamento della scansione.
-
-
 
 Il formato XML sarà particolarmente utile nella prossima sezione, dove esamineremo alcuni strumenti che possono lavorare con i risultati di Nmap.
 
@@ -1565,8 +1563,7 @@ Il primo strumento che esamineremo per riutilizzare i dati di Nmap nella ricerca
 
 Metasploit è un framework per exploit e attacchi. È una soluzione gratuita e uno strumento riconosciuto che contiene un gran numero di moduli scritti in Ruby o Python. Questi permettono di sfruttare le vulnerabilità, di eseguire attacchi, di generare backdoor, di gestire callback (funzioni C&C o di comunicazione e controllo) e di utilizzare tutto in modo uniforme.
 
-In particolare, questo noto e diffuso framework operativo può lavorare con un [database] postgreSQL(https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) in cui sono memorizzati host, porte, servizi, informazioni di autenticazione e altro ancora.
-
+In particolare, questo noto e diffuso framework operativo può lavorare con un [database postgreSQL](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) in cui sono memorizzati host, porte, servizi, informazioni di autenticazione e altro ancora.
 
 - Documentazione ufficiale di Metasploit: [https://docs.metasploit.com/](https://docs.metasploit.com/)
 
@@ -1598,19 +1595,19 @@ Ecco il risultato dell'esecuzione di tutti questi comandi:
 
 ![nmap-image](assets/fr/58.webp)
 
-importare una scansione Nmap in formato XML nel database di Metasploit
+_Importa una scansione Nmap in formato XML nel database di Metasploit_
 
 Qui si può vedere che ogni host è importato, insieme ai suoi servizi. Questi dati possono essere visualizzati tramite il comando `services` o `services -p <port>` per un servizio specifico:
 
 ![nmap-image](assets/fr/59.webp)
 
-elenco dei servizi importati dal file XML nel database di Metasploit
+_Elenco dei servizi importati dal file XML nel database di Metasploit_
 
-Infine, possiamo riutilizzare rapidamente e facilmente questi dati in un modulo grazie all'opzione `-R`, che "convertirà" l'elenco dei servizi ottenuti come input per la direttiva `RHOSTS`, utilizzata per specificare gli obiettivi dell'attacco da effettuare. Ecco un esempio con il modulo `ssh_login`, che permette di effettuare un attacco brute force ai servizi [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Infine, possiamo riutilizzare rapidamente e facilmente questi dati in un modulo grazie all'opzione `-R`, che "convertirà" l'elenco dei servizi ottenuti come input per la direttiva `RHOSTS`, utilizzata per specificare gli obiettivi dell'attacco da effettuare. Ecco un esempio con il modulo `ssh_login`, che permette di effettuare un attacco brute force ai servizi [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 ![nmap-image](assets/fr/60.webp)
 
-utilizzare l'opzione `services -R` per importare i servizi specificati come obiettivo dell'attacco
+_Utilizzare l'opzione `services -R` per importare i servizi specificati come obiettivo dell'attacco_
 
 Questo è solo un piccolo esempio di ciò che si può fare con i dati di Nmap in Metasploit, ma dà una piccola idea di quanto velocemente e facilmente queste informazioni possano essere riutilizzate come parte di un test di penetrazione, di una scansione di vulnerabilità o di un attacco informatico. Vale anche la pena ricordare che Nmap può essere eseguito direttamente da Metasploit per importare i risultati nel database (comando `db_nmap`), un altro argomento interessante da trattare!
 
@@ -1635,13 +1632,13 @@ Se normalmente Aquatone esegue il port discovery sugli host per trovare i serviz
 
 ![nmap-image](assets/fr/61.webp)
 
-utilizzando i risultati di Nmap in formato XML con `aquatone`._
+_Utilizza i risultati di Nmap in formato XML con `Aquatone`_
 
 Per vostra informazione, ecco un estratto del rapporto prodotto da Aquatone:
 
 ![nmap-image](assets/fr/62.webp)
 
-esempio di un rapporto `aquatone
+_Esempio di un rapporto `Aquatone`_
 
 Personalmente, utilizzo spesso Aquatone per avere una rapida panoramica dei tipi di siti web presenti sulla rete, grazie soprattutto alla sua funzionalità di screenshot.
 
@@ -1655,7 +1652,7 @@ Naturalmente, potete anche sviluppare i vostri script e strumenti in Python, [Po
 
 Questa sezione ci porta alla fine del modulo di esercitazione sull'uso più avanzato di Nmap, in particolare per la scansione delle vulnerabilità attraverso gli script NSE.
 
-La prossima sezione dell'esercitazione si concentrerà, tra l'altro, su alcune ulteriori best practice più tecniche e su suggerimenti sulle scansioni specifiche che Nmap può eseguire. Verranno inoltre illustrate le opzioni di ottimizzazione delle prestazioni delle scansioni, particolarmente utili quando si eseguono scansioni di reti di grandi dimensioni.
+La prossima sezione dell'esercitazione si concentrerà, tra l'altro, su alcune ulteriori 'best practice' più tecniche e su suggerimenti sulle scansioni specifiche che Nmap può eseguire. Verranno inoltre illustrate le opzioni di ottimizzazione delle prestazioni delle scansioni, particolarmente utili quando si eseguono scansioni di reti di grandi dimensioni.
 
 
 ## 11 - Migliorare le prestazioni della scansione di rete
@@ -1666,7 +1663,7 @@ In questo capitolo impareremo a ottimizzare la velocità delle scansioni di rete
 
 Dopo aver dato un'occhiata alle caratteristiche di Nmap, vediamo di capire meglio la sua potenza. Se avete mai usato questo strumento su reti di grandi dimensioni, avrete probabilmente notato che alcune scansioni possono richiedere molto tempo, nonostante la potenza dello strumento. E per una buona ragione: un semplice comando `nmap`, con poche opzioni, può far passare milioni di pacchetti che mirano a centinaia di migliaia di potenziali sistemi e servizi.
 
-Inoltre, alcune configurazioni delle apparecchiature di rete possono imporre intenzionalmente una velocità inferiore (numero di pacchetti al secondo), con il rischio di rifiutare i pacchetti o di vietare l'IP Address per motivi di sicurezza.
+Inoltre, alcune configurazioni delle apparecchiature di rete possono imporre intenzionalmente una velocità inferiore (numero di pacchetti al secondo), con il rischio di rifiutare i pacchetti o di vietare l'indirizzo IP per motivi di sicurezza.
 
 A seconda del contesto, può essere utile cercare di ottimizzare tutto questo, come vedremo in questo capitolo.
 
@@ -1674,7 +1671,7 @@ In ogni caso, è possibile controllare i valori predefiniti dei parametri che st
 
 ![nmap-image](assets/fr/63.webp)
 
-visualizzare le opzioni di temporizzazione tramite l'opzione `-d` di Nmap
+_Visualizza le opzioni di temporizzazione tramite l'opzione `-d` di Nmap_
 
 ### II. Gestione della velocità delle scansioni Nmap
 
@@ -1682,8 +1679,8 @@ visualizzare le opzioni di temporizzazione tramite l'opzione `-d` di Nmap
 
 Per impostazione predefinita, Nmap utilizza la parallelizzazione nelle sue scansioni per ottimizzarle e tutti i parametri che utilizza possono essere modificati tramite varie opzioni. Tuttavia, i casi in cui è effettivamente necessario modificare questi parametri sono piuttosto rari, quindi non li esamineremo in dettaglio in questa guida:
 - `--min-hostgroup/max-hostgroup <size>`: dimensione dei gruppi di scansione degli host paralleli.
-- `--min-parallelismo/max-parallelismo <numprobes>`: parallelizzazione delle sonde.
-- `--scan-delay/--max-scan-delay <time>`: regola il ritardo tra le sonde.
+- `--min-parallelismo/max-parallelismo <numprobes>`: parallelizzazione delle indagini.
+- `--scan-delay/--max-scan-delay <time>`: regola il ritardo tra le indagini.
 
 Sappiate che esistono e che possono essere utilizzati.
 
@@ -1705,8 +1702,8 @@ Un altro parametro con cui possiamo giocare per ottimizzare la velocità delle s
 Per _timeout_, si tratta del **timeout di mancata risposta** dopo il quale Nmap smetterà di attendere una risposta e considererà il servizio o l'host non raggiungibile. Per _retry_, questo è il **numero di tentativi successivi di un'operazione** che Nmap eseguirà prima di passare oltre.
 
 Come per la parallelizzazione, la gestione del _timeout_ e del _retry_ può essere applicata alle fasi di scoperta dell'host o del servizio:
-- `--min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>`: specifica il tempo di andata e ritorno di un Exchange. Anche questo parametro viene calcolato e adattato al volo durante la scansione. Anche in questo caso, questo parametro viene calcolato e adattato al volo durante la scansione. È improbabile che sia necessario usarlo, poiché Nmap calcola questo tempo al volo in base alla reazione della rete.
-- `--max-retries <number>`: limita il numero di ritrasmissioni di un pacchetto durante la scansione della porta. Per impostazione predefinita, Nmap può arrivare a 10 ritentativi per un singolo servizio, soprattutto se trova latenze o perdite a livello di rete, ma nella maggior parte dei casi ne viene eseguito solo uno.
+- `--min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>`: specifica il tempo di andata e ritorno di uno scambio. Anche questo parametro viene calcolato e adattato al volo durante la scansione. Anche in questo caso, questo parametro viene calcolato e adattato al volo durante la scansione. È improbabile che sia necessario usarlo, poiché Nmap calcola questo tempo al volo in base alla reazione della rete.
+- `--max-retries <number>`: limita il numero di ritrasmissioni di un pacchetto durante la scansione della porta. Per impostazione predefinita, Nmap può arrivare a 10 tentativi per un singolo servizio, soprattutto se trova latenze o perdite a livello di rete, ma nella maggior parte dei casi ne viene eseguito solo uno.
 - `--host-timeout <time>`: specifica il tempo massimo che Nmap trascorrerà su un host per tutte le sue operazioni, compresa la scansione delle porte, il rilevamento dei servizi e qualsiasi altra operazione relativa a quell'host. Se questo intervallo di tempo viene superato senza alcuna risposta o **completamento delle operazioni**, Nmap abbandonerà l'host senza visualizzare alcun risultato e passerà al successivo nell'elenco. Ciò consente di controllare il tempo massimo che Nmap trascorre su un determinato host, evitando di rimanere bloccati su host recalcitranti e ottimizzando il tempo complessivo di scansione.
 
 Nel mio lavoro quotidiano, utilizzo le opzioni `--max-retries` e `--host-timeout` per ottimizzare le mie scansioni:
@@ -1718,7 +1715,7 @@ nmap -sV -sC 10.10.10.0/24 --max-retries 0 --host-timeout 15m
 
 Questi parametri offrono una maggiore flessibilità per adattare il comportamento della scansione alle esigenze specifiche e alle condizioni della rete. Tuttavia, è necessario essere consapevoli delle loro implicazioni in termini di carico sugli host scansionati e di potenziale perdita di precisione.
 
-### IV. Uso delle configurazioni preparate
+### IV. Uso delle configurazioni predefinite
 
 Le varie opzioni che abbiamo visto in questo capitolo possono essere utilizzate singolarmente o come parte delle configurazioni già pronte offerte da Nmap. L'opzione che permette di utilizzare questi _templates_ (modelli di configurazione) è `-T <numero>` o `-T <nome>`. Ci sono 5 livelli di _templates_ utilizzabili:
 
@@ -1739,13 +1736,13 @@ Ecco cosa mostrano le informazioni di debug di questa scansione:
 
 ![nmap-image](assets/fr/64.webp)
 
-uso dell'impostazione `-T4` durante una scansione Nmap
+_Uso dell'impostazione `-T4` durante una scansione Nmap_
 
 ### V. Conclusione
 
 In questo capitolo abbiamo esaminato varie tecniche e opzioni che possono essere utilizzate per gestire la potenza, l'aggressività e le prestazioni di Nmap. Queste opzioni sono particolarmente utili per la scansione di reti di grandi dimensioni e, più raramente, per scopi stealth.
 
-Nel prossimo capitolo vedremo alcune best practice per l'utilizzo di Nmap e per garantirne la sicurezza.
+Nel prossimo capitolo vedremo alcune 'best practice' per l'utilizzo di Nmap e per garantirne la sicurezza.
 
 
 ## 12 - Sicurezza e riservatezza dei dati quando si utilizza Nmap
@@ -1760,7 +1757,8 @@ L'uso di Nmap all'interno di un sistema informatico può essere rapidamente clas
 
 Prima di eseguire la scansione di una rete o di un sistema, accertarsi di aver ottenuto le autorizzazioni appropriate. La scansione dei sistemi alla ricerca di vulnerabilità (`NSE scripts`) senza autorizzazione può essere illegale e può avere conseguenze legali, soprattutto se la sicurezza dei sistemi informativi non rientra nei vostri compiti ufficiali.
 
-- Come promemoria: [Codice penale: Capo III: Attacchi a sistemi automatizzati di elaborazione dati](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Come promemoria: [Codice Privacy D.lgs 196/2003 (s.m.i. con D.Lgs. 10 agosto 2018, n. 101 per l'aggiornamento al GDPR - Regolamento UE 2016/679) - Trattamento illecito di dati art.167 e seguenti](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=56&art.flagTipoArticolo=0&art.codiceRedazionale=003G0218&art.idArticolo=167&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2003-07-29&art.progressivo=0)
+[art.167 bis - ter aggiornamento](https://www.gazzettaufficiale.it/atto/stampa/serie_generale/originario).
 
 ### III. Protezione dei dati sensibili
 
@@ -1779,9 +1777,9 @@ In questo modo, un malintenzionato che riesca ad accedere ai risultati di queste
 
 Come abbiamo visto in questo tutorial, Nmap può essere molto prolisso a livello di rete. Può anche inviare pacchetti non correttamente formattati e che non rispettano rigorosamente la struttura del protocollo nei frame e nei pacchetti di rete che genera. Tutte queste azioni possono avere un impatto su alcuni sistemi e servizi, a volte fino a causare malfunzionamenti o saturazione delle risorse di sistema e di rete.
 
-Per evitare incidenti, è necessario padroneggiare il comportamento di Nmap e sapere come adattarlo al contesto in cui viene utilizzato, mediante le varie opzioni discusse in questa esercitazione. Non necessariamente utilizzeremo Nmap allo stesso modo in un sistema informatico contenente [hardware] industriale (https://www.it-connect.fr/actualites/actu-materiel/) e in una rete utente composta da sistemi Windows protetti da un firewall locale o in un nucleo di rete.
+Per evitare incidenti, è necessario padroneggiare il comportamento di Nmap e sapere come adattarlo al contesto in cui viene utilizzato, mediante le varie opzioni discusse in questa esercitazione. Non necessariamente utilizzeremo Nmap allo stesso modo in un sistema informatico contenente [hardware industriale](https://www.it-connect.fr/actualites/actu-materiel/) e in una rete utente composta da sistemi Windows protetti da un firewall locale o in un nucleo di rete.
 
-Si spera che le varie lezioni di questo tutorial vi abbiano insegnato a padroneggiare e analizzare il comportamento di Nmap, ma il modo migliore per imparare è fare. Assicuratevi quindi di conoscere bene le opzioni di Nmap che utilizzerete.
+Si spera che le varie lezioni di questo tutorial vi abbiano insegnato a padroneggiare e analizzare il comportamento di Nmap, ma il modo migliore per imparare è fare. Assicurati quindi di conoscere bene le opzioni di Nmap che utilizzerai.
 
 ### V. Protezione del sistema di scansione
 
@@ -1793,7 +1791,7 @@ Se si è scelto di utilizzare Nmap non attraverso una sessione come `root`, ma c
 
 ![nmap-image](assets/fr/65.webp)
 
-elevazione dei privilegi di Nmap tramite `sudo`
+_Elevazione dei privilegi di Nmap tramite `sudo`_
 
 In questo caso, sto usando il comando Nmap attraverso `sudo`, ma questo mi permette di ottenere una shell interattiva come `root` sul sistema, che non era l'obiettivo originale.
 
@@ -1803,7 +1801,7 @@ Infine, la sicurezza del sistema utilizzato per la scansione deve essere garanti
 
 ### VI. Conclusione
 
-In conclusione, assicuratevi di aver acquisito la giusta padronanza di Nmap prima di utilizzarlo in condizioni reali o di produzione, e siate vigili quando elaborate e gestite i suoi risultati. Sarebbe un peccato causare danni, fughe di dati o facilitare una compromissione, quando l'approccio iniziale è volto a migliorare la sicurezza dell'azienda.
+In conclusione, assicurati di aver acquisito la giusta padronanza di Nmap prima di utilizzarlo in condizioni reali o di produzione, e sii vigile quando elabori e gestisci i tuoi risultati. Sarebbe un peccato causare danni, fughe di dati o facilitare una compromissione, quando l'approccio iniziale è volto a migliorare la sicurezza dell'azienda.
 
 
 ## 13 - Scansione delle porte via TCP: SYN, Connect e FIN
@@ -1812,49 +1810,49 @@ In conclusione, assicuratevi di aver acquisito la giusta padronanza di Nmap prim
 
 In questo capitolo e nel prossimo, esamineremo più da vicino i diversi tipi di scansione TCP disponibili in Nmap, a partire da quelli più comunemente utilizzati: Scansioni SYN, Connect e FIN.
 
-Come avrete notato, Nmap offre diverse opzioni per le scansioni TCP:
+Come hai notato, Nmap offre diverse opzioni per le scansioni TCP:
 
 ![nmap-image](assets/fr/66.webp)
 
-tecniche di scansione disponibili in Nmap
+_Tecniche di scansione disponibili in Nmap_
 
-L'idea è quella di spiegare alcuni di questi metodi, per aiutarvi a capire le loro differenze, i loro vantaggi e i loro limiti. Vedrete che, a seconda del contesto o di ciò che volete sapere, è meglio optare per un'opzione o per un'altra.
+L'idea è quella di spiegare alcuni di questi metodi, per aiutarti a capire le loro differenze, i loro vantaggi e i loro limiti. Vedrai che, a seconda del contesto o di ciò che vuoi sapere, è meglio optare per un'opzione o per un'altra.
 
 ### II. Scansione TCP SYN o "Half Open scan
 
-Il primo tipo di scansione TCP che esamineremo è la `scansione TCP SYN`, nota anche come `scansione mezza aperta`. Se ricordate le scansioni di rete che abbiamo fatto dopo le prime scansioni delle porte, questo è il tipo di scansione usato di default da [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) quando viene eseguito con i diritti di root.
+Il primo tipo di scansione TCP che esamineremo è la `scansione TCP SYN`, nota anche come `scansione mezza aperta`. Se ricordi le scansioni di rete che abbiamo fatto dopo le prime scansioni delle porte, questo è il tipo di scansione usato di default da [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) quando viene eseguito con i diritti di 'root'.
 
-La traduzione vi aiuterà a capire come funziona questa scansione. In effetti, una scansione TCP SYN invierà un pacchetto TCP SYN a ciascuna porta mirata, che è il primo pacchetto inviato da un client (quello che richiede di stabilire una connessione) come parte del famoso _Three way handshake_ TCP. Normalmente, se la porta è aperta sul server di destinazione, con un servizio in esecuzione dietro di essa, il server invia un pacchetto TCP SYN/ACK per convalidare il SYN del client e inizializzare la connessione TCP. Questa risposta assume la forma di un pacchetto TCP con i flag SYN e ACK impostati a 1, che ci permette di confermare che la porta è aperta e conduce a un servizio.
+La traduzione ti aiuterà a capire come funziona questa scansione. In effetti, una scansione TCP SYN invierà un pacchetto TCP SYN a ciascuna porta mirata, che è il primo pacchetto inviato da un client (quello che richiede di stabilire una connessione) come parte del famoso _Three way handshake_ TCP. Normalmente, se la porta è aperta sul server di destinazione, con un servizio in esecuzione dietro di essa, il server invia un pacchetto TCP SYN/ACK per convalidare il SYN del client e inizializzare la connessione TCP. Questa risposta assume la forma di un pacchetto TCP con i flag SYN e ACK impostati a 1, che ci permette di confermare che la porta è aperta e conduce a un servizio.
 
 D'altra parte, se la porta è chiusa, il server invierà un pacchetto `TCP` con i flag RST e ACK impostati a 1 per terminare la richiesta di connessione, così sapremo che nessun servizio sembra essere attivo dietro questa porta:
 
 ![nmap-image](assets/fr/67.webp)
 
-diagramma di comportamento della scansione SYN di tCP per porte aperte e chiuse
+_Diagramma di comportamento della scansione SYN di tCP per porte aperte e chiuse_
 
 Per avere una visione più concreta del `TCP SYN Scan`, ho eseguito una scansione della porta TCP/80 verso un host che aveva un server web attivo su questa porta. Eseguendo una scansione di rete con Wireshark, si può vedere il seguente flusso (origine della scansione: `10.10.14.84`):
 
 ![nmap-image](assets/fr/68.webp)
 
-acquisizione della rete durante una scansione TCP SYN per una porta aperta
+_Acquisizione della rete durante una scansione TCP SYN per una porta aperta_
 
 Nella prima riga si vede che la sorgente della scansione sta inviando un pacchetto TCP all'host `10.10.10.203` sulla porta TCP/80. In questo pacchetto TCP, il flag SYN è impostato su 1 per indicare che si tratta di una richiesta di inizializzazione della connessione TCP.
 
 Poi, sulla seconda riga, vediamo che il target risponde con un `TCP SYN/ACK`, il che significa che accetta di inizializzare una connessione e quindi di ricevere flussi sulla porta TCP/80. Possiamo quindi dedurre che la porta TCP/80 è aperta e che sul server scansionato è presente un server web.
 
-Il nostro host invia quindi un pacchetto RST per chiudere la connessione, consentendo all'host sottoposto a scansione di non mantenere una connessione TCP aperta in attesa di una risposta. Nel caso di una scansione su molte porte, la mancata chiusura delle connessioni TCP potrebbe portare a un denial of service, saturando il numero di connessioni in attesa di risposta che il server può mantenere (vedere [Wikipedia - Syn flood](https://fr.wikipedia.org/wiki/SYN_flood))
+Il nostro host invia quindi un pacchetto RST per chiudere la connessione, consentendo all'host sottoposto a scansione di non mantenere una connessione TCP aperta in attesa di una risposta. Nel caso di una scansione su molte porte, la mancata chiusura delle connessioni TCP potrebbe portare a un denial of service (DOS), saturando il numero di connessioni in attesa di risposta che il server può mantenere (vedere [Wikipedia - Syn flood](https://it.wikipedia.org/wiki/SYN_flood))
 
 In Wireshark è possibile vedere lo stato dei flag TCP per ogni test eseguito. Questo mostra se il pacchetto è un pacchetto SYN, SYN/ACK, ACK, ecc:
 
 ![nmap-image](assets/fr/69.webp)
 
-visualizzare i flag TCP di un pacchetto in Wireshark (TCP SYN qui)
+_Visualizzare i flag TCP di un pacchetto in Wireshark (TCP SYN qui)_
 
 Al contrario, ho eseguito lo stesso test tra le due macchine, ma questa volta eseguendo la scansione di una porta TCP/81 su cui non è attivo alcun servizio (origine della scansione: `10.10.14.84`):
 
 ![nmap-image](assets/fr/70.webp)
 
-acquisizione della rete durante una scansione TCP SYN per una porta chiusa
+_Acquisizione della rete durante una scansione TCP SYN per una porta chiusa_
 
 L'host scansionato restituisce un `TCP RST/ACK` in risposta al mio `TCP SYN` quando la porta non è aperta.
 
@@ -1865,7 +1863,7 @@ Come già detto, quando si esegue Nmap da un terminale privilegiato, la scansion
 nmap -sS 192.168.1.15
 ```
 
-La scansione `TCP SYN' è quella più comunemente utilizzata per motivi di velocità. D'altra parte, la mancata finalizzazione del _Three Way Handshake_ da parte di un client (cioè il mancato invio dell'ACK dopo il SYN/ACK del server) può sembrare sospetta se osservata troppe volte su un server o dalla stessa fonte sulla rete. In effetti, il comportamento normale di un client dopo la ricezione di un pacchetto TCP SYN/ACK in risposta a un TCP SYN è quello di inviare un `riconoscimento` (ACK) e quindi avviare il Exchange.
+La scansione `TCP SYN` è quella più comunemente utilizzata per motivi di velocità. D'altra parte, la mancata finalizzazione del _Three Way Handshake_ da parte di un client (cioè il mancato invio dell'ACK dopo il SYN/ACK del server) può sembrare sospetta se osservata troppe volte su un server o dalla stessa fonte sulla rete. In effetti, il comportamento normale di un client dopo la ricezione di un pacchetto TCP SYN/ACK in risposta a un TCP SYN è quello di inviare un `riconoscimento` (ACK) e quindi avviare lo scambio.
 
 Tuttavia, fornisce una scansione leggermente più veloce, poiché non si preoccupa di inviare un ACK per ogni risposta positiva. Il vantaggio di SYN Scan è la sua velocità, poiché viene inviato un solo pacchetto per ogni porta da scansionare, a scapito di una maggiore possibilità di rilevamento.
 
@@ -1873,35 +1871,35 @@ Inoltre, la scansione TCP SYN è in grado di rilevare se una porta è filtrata (
 
 ![nmap-image](assets/fr/71.webp)
 
-visualizzazione di nmap durante la scansione di una porta filtrata
+_Visualizzazione di nmap durante la scansione di una porta filtrata_
 
 Quando si esegue un'acquisizione di rete al momento della scansione, si può notare che non viene fornita alcuna risposta:
 
 ![nmap-image](assets/fr/72.webp)
 
-acquisizione della rete durante una scansione TCP SYN per una porta filtrata da un firewall
+_Acquisizione della rete durante una scansione TCP SYN per una porta filtrata da un firewall_
 
 La differenza tra una porta chiusa e una porta filtrata è la seguente: una porta filtrata è una porta protetta da un firewall, mentre una porta chiusa è una porta su cui non è in esecuzione alcun servizio e che quindi non è in grado di elaborare i nostri pacchetti TCP. Alcuni tipi di scansione TCP, come la scansione TCP SYN, sono in grado di rilevare se una porta è filtrata, mentre altri tipi di scansione non lo sono.
 
 ### III. Scansione TCP Connect o scansione Full Open
 
-Il secondo tipo di scansione TCP è la scansione `TCP Connect`, nota anche come _Full Open Scan_. Funziona allo stesso modo della scansione TCP SYN, ma questa volta restituisce un `TCP ACK` dopo una risposta positiva dal server (un SYN/ACK). Per questo motivo si chiama `Full Open', in quanto la connessione viene completamente aperta e avviata su ogni porta aperta durante la scansione, rispettando così il TCP _Three Way Handshake_:
+Il secondo tipo di scansione TCP è la scansione `TCP Connect`, nota anche come _Full Open Scan_. Funziona allo stesso modo della scansione TCP SYN, ma questa volta restituisce un `TCP ACK` dopo una risposta positiva dal server (un SYN/ACK). Per questo motivo si chiama `Full Open`, in quanto la connessione viene completamente aperta e avviata su ogni porta aperta durante la scansione, rispettando così il TCP _Three Way Handshake_:
 
 ![nmap-image](assets/fr/73.webp)
 
-diagramma di comportamento di tCP Connect Scan per le porte aperte e chiuse
+_Diagramma di comportamento di TCP Connect Scan per le porte aperte e chiuse_
 
 Ecco cosa si vede transitare sulla rete durante una scansione `TCP Connect` mirata a una porta aperta:
 
 ![nmap-image](assets/fr/74.webp)
 
-sniffing di rete durante una scansione TCP Connect per una porta aperta
+_Sniffing di rete durante una scansione TCP Connect per una porta aperta_
 
 Possiamo vedere che il primo pacchetto TCP inviato è un `TCP SYN` inviato dal client, e il server risponderà con un `TCP SYN/ACK`, indicando che la porta è aperta e ospita un servizio attivo. Per simulare un client legittimo, Nmap invia un `TCP ACK` al server. Al contrario, quando si scansiona una porta chiusa:
 
 ![nmap-image](assets/fr/75.webp)
 
-acquisizione di rete durante una scansione TCP Connect per una porta chiusa
+_Acquisizione di rete durante una scansione TCP Connect per una porta chiusa_
 
 Si noti che la risposta del server al nostro pacchetto `SYN` è ancora una volta un pacchetto `TCP RST/ACK`, quindi si può dedurre che la porta è chiusa e che nessun servizio è in esecuzione su di essa.
 
@@ -1918,7 +1916,7 @@ Una scansione Nmap di 10.000 porte sarà comunque facilmente rilevabile se sono 
 
 Poiché TCP Connect Scan si aspetta una risposta in entrambi i casi, può anche rilevare la presenza di un firewall che potrebbe filtrare le porte sull'host di destinazione.
 
-### IV. Scansione TCP FIN o "Stealth Scan
+### IV. Scansione TCP FIN o "Stealth Scan"
 
 La scansione `TCP FIN`, nota anche come _Stealth Scan_, utilizza il comportamento di un client che termina una connessione TCP per rilevare una porta aperta.
 
@@ -1926,13 +1924,13 @@ In TCP, per fine sessione si intende l'invio di un pacchetto TCP con il flag FIN
 
 ![nmap-image](assets/fr/76.webp)
 
-diagramma di comportamento della scansione tCP FIN per porte aperte e chiuse
+_Diagramma di comportamento della scansione TCP FIN per porte aperte e chiuse_
 
 Ho nuovamente catturato la rete durante una scansione _Stealth_ e questo è ciò che si vede quando la porta scansionata è aperta:
 
 ![nmap-image](assets/fr/77.webp)
 
-acquisizione della rete durante una scansione TCP FIN per una porta aperta
+_Acquisizione della rete durante una scansione TCP FIN per una porta aperta_
 
 Possiamo vedere che il client invia uno o due pacchetti per terminare una connessione TCP e che il server non risponde. Accetta semplicemente la fine della connessione e smette di comunicare.
 
@@ -1940,7 +1938,7 @@ Ecco cosa si vede ora quando si scansiona una porta chiusa:
 
 ![nmap-image](assets/fr/78.webp)
 
-acquisizione di rete durante una scansione TCP FIN per una porta chiusa
+_Acquisizione di rete durante una scansione TCP FIN per una porta chiusa_
 
 Vediamo che il server restituisce un pacchetto `TCP RST/ACK`, quindi c'è una differenza di comportamento tra una porta aperta e una chiusa, e siamo in grado di elencare le porte aperte su un server inviando un pacchetto TCP FIN. Con Nmap, l'opzione `-sF` (`scan FIN`) viene utilizzata per eseguire una scansione TCP FIN:
 
@@ -1959,7 +1957,7 @@ Ecco un esempio del risultato della scansione TCP FIN di Nmap:
 
 ![nmap-image](assets/fr/79.webp)
 
-risultati di una scansione TCP FIN da parte di Nmap
+_Risultati di una scansione TCP FIN da parte di Nmap_
 
 Infatti, una mancata risposta da parte dell'host su una determinata porta può significare che la porta è filtrata, ma anche che è aperta e attiva.
 
@@ -1984,25 +1982,25 @@ Il nome XMAS deriva dal fatto che vedere questi flag attivi è insolito. Quando 
 
 ![nmap-image](assets/fr/80.webp)
 
-flag tCP utilizzati nella scansione XMAS
+_Flag TCP utilizzati nella scansione XMAS_
 
 Senza entrare nel dettaglio del ruolo di questi flag, è importante sapere che quando si invia un pacchetto con questi tre flag abilitati, un servizio attivo dietro la porta di destinazione non restituirà alcun pacchetto. Se invece la porta è chiusa, riceveremo un pacchetto TCP RST/ACK. Ora saremo in grado di distinguere tra il comportamento di una porta aperta e di una chiusa quando elenchiamo le porte di una macchina:
 
 ![nmap-image](assets/fr/81.webp)
 
-diagramma di comportamento di tCP XMAS Scan per porte aperte e chiuse
+_Diagramma di comportamento di TCP XMAS Scan per porte aperte e chiuse_
 
 Sempre seguendo la stessa logica, una scansione di rete sulla porta TCP/80 di un host con un server Web attivo mostra il seguente comportamento quando rileva una porta aperta (origine della scansione `10.10.14.84`):
 
 ![nmap-image](assets/fr/82.webp)
 
-acquisizione della rete durante una scansione TCP XMAS per una porta aperta
+_Acquisizione della rete durante una scansione TCP XMAS per una porta aperta_
 
-Si può notare che l'origine della scansione invia due pacchetti TCP XMAS (con i flag `FIN`, `PSH` e `URG` impostati a 1) all'host `10.10.10.203` e che non c'è alcun ritorno dalla destinazione, a indicare che la porta è aperta. Al contrario, quando si esegue una `scansione TCP XMAS' su una porta chiusa, si osserva il seguente risultato:
+Si può notare che l'origine della scansione invia due pacchetti TCP XMAS (con i flag `FIN`, `PSH` e `URG` impostati a 1) all'host `10.10.10.203` e che non c'è alcun ritorno dalla destinazione, a indicare che la porta è aperta. Al contrario, quando si esegue una `scansione TCP XMAS` su una porta chiusa, si osserva il seguente risultato:
 
 ![nmap-image](assets/fr/83.webp)
 
-cattura della rete durante una scansione TCP XMAS per una porta chiusa
+_Cattura della rete durante una scansione TCP XMAS per una porta chiusa_
 
 La risposta al nostro pacchetto TCP è quindi un `TCP RST/ACK`, che indica che la porta è chiusa. Per utilizzare questa tecnica con Nmap, l'opzione `-sX` (`scan XMAS`) consente di eseguire una scansione TCP XMAS:
 
@@ -2013,29 +2011,29 @@ nmap -sX 192.168.1.15
 
 È importante notare che la scansione TCP XMAS non è in grado di rilevare i firewall che possono trovarsi tra il computer di destinazione e quello di scansione, a differenza di altri tipi di scansione come TCP SYN o Connect. Infatti, un firewall attivo tra i due host garantirà che non venga effettuato alcun ritorno TCP se la porta di destinazione è filtrata (cioè protetta dal firewall). In caso di mancata risposta, è quindi impossibile sapere se la porta è protetta dal firewall o se è aperta e attiva. Occorre inoltre tenere presente che, come la scansione TCP FIN, alcune applicazioni o sistemi operativi come Windows possono falsare i risultati di questo tipo di scansione.
 
-nota: il supporto per le scansioni XMAS/FIN/NULL sulle versioni recenti di Windows rimane limitato e i risultati potrebbero essere incoerenti su questo tipo di target. (Aggiornamento 2025)_
+_Nota: il supporto per le scansioni XMAS/FIN/NULL sulle versioni recenti di Windows rimane limitato e i risultati potrebbero essere incoerenti su questo tipo di target. (Aggiornamento 2025)_
 
 ### III. Scansione TCP nulla
 
-A differenza della scansione TCP XMAS, la scansione TCP Null invia pacchetti di scansione TCP con tutti i flag impostati su 0. Anche questo è un comportamento che non si riscontrerà mai in un normale Exchange tra macchine, poiché l'invio di un pacchetto TCP senza flag non è specificato nell'RFC che descrive il protocollo TCP. Per questo motivo può essere individuato più facilmente.
+A differenza della scansione TCP XMAS, la scansione TCP Null invia pacchetti di scansione TCP con tutti i flag impostati su 0. Anche questo è un comportamento che non si riscontrerà mai in un normale scambio tra macchine, poiché l'invio di un pacchetto TCP senza flag non è specificato nell'RFC che descrive il protocollo TCP. Per questo motivo può essere individuato più facilmente.
 
 Come la scansione TCP XMAS, questa scansione può interferire con alcuni firewall o moduli di filtraggio, consentendo il passaggio dei pacchetti:
 
 ![nmap-image](assets/fr/84.webp)
 
-diagramma di comportamento di tCP Null Scan per porte aperte e chiuse
+_Diagramma di comportamento di TCP Null Scan per porte aperte e chiuse_
 
 Ecco cosa si vede sulla rete durante una scansione TCP Null su una porta aperta:
 
 ![nmap-image](assets/fr/85.webp)
 
-acquisizione della rete durante una scansione TCP Null per una porta aperta
+_Acquisizione della rete durante una scansione TCP Null per una porta aperta_
 
 La macchina di scansione invia un pacchetto senza flag (`[<None>]` in Wireshark) senza alcuna risposta dal server. Al contrario, quando la porta di destinazione è chiusa:
 
 ![nmap-image](assets/fr/86.webp)
 
-acquisizione di rete durante una scansione TCP Null per una porta chiusa
+_Acquisizione di rete durante una scansione TCP Null per una porta chiusa_
 
 Per eseguire una scansione TCP Null con Nmap, è sufficiente utilizzare l'opzione `-sN` (`scan Null`):
 
@@ -2054,19 +2052,19 @@ A differenza di altre scansioni, la scansione TCP ACK non cerca di identificare 
 
 ![nmap-image](assets/fr/87.webp)
 
-diagramma di comportamento della scansione ACK tCP per porte filtrate e non filtrate
+_Diagramma di comportamento della scansione ACK TCP per porte filtrate e non filtrate_
 
 Per eseguire questo tipo di scansione utilizzeremo l'opzione `-sA` di Nmap. Ecco il risultato di una scansione TCP ACK se la porta è filtrata, cioè bloccata e protetta da un firewall:
 
 ![nmap-image](assets/fr/88.webp)
 
-visualizzazione di nmap durante la scansione TCP ACK
+_Visualizzazione di Nmap durante la scansione TCP ACK_
 
 Esempio di risultato per un host con firewall e uno senza. Nmap restituisce `filtro` sulle porte TCP/80 e TCP/81 dell'host `10.10.10.203`. In un'analisi di rete tramite Wireshark, il comportamento è il seguente:
 
 ![nmap-image](assets/fr/89.webp)
 
-acquisizione di rete durante una scansione TCP ACK per una porta non filtrata da un firewall
+_Acquisizione di rete durante una scansione TCP ACK per una porta non filtrata da un firewall_
 
 Il computer di destinazione non restituisce nulla se è presente un firewall.
 
@@ -2137,7 +2135,7 @@ nmap 192.168.0.0/24 192.168.1.3 192.168.1.10-20
 nmap -sn 192.168.1.0/24
 ```
 
-nota: L'opzione `-sP` è obsoleta da diversi anni e dovrebbe essere sostituita da `-sn`. (Aggiornamento 2025)_
+_Nota: L'opzione `-sP` è obsoleta da diversi anni e dovrebbe essere sostituita da `-sn`. (Aggiornamento 2025)_
 
 ```bash
 # Host discovery scan without port scan
@@ -2262,4 +2260,4 @@ Spero che questi comandi vi siano utili. Non dimenticate di adattare l'obiettivo
 
 L'esercitazione su Nmap è terminata. Ora avete le basi necessarie per utilizzare questo strumento completo e potente. Si consiglia vivamente di fare pratica su ambienti controllati (Hack The Box, VulnHub, macchine virtuali) prima di utilizzarlo in produzione.
 
-Rimane ancora molto da esplorare sul funzionamento interno dello strumento e sulle sue funzioni avanzate. Tuttavia, la padronanza dei comandi e dei concetti qui presentati vi consentirà di utilizzare Nmap con sicurezza e pertinenza.
+Rimane ancora molto da esplorare sul funzionamento interno dello strumento e sulle sue funzioni avanzate. Tuttavia, la padronanza dei comandi e dei concetti qui presentati ti consentirà di utilizzare Nmap con sicurezza e pertinenza.

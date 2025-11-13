@@ -54,7 +54,7 @@ Reprenons l'exemple d'Alice, Bob et le Boulanger. La transaction sur la blockcha
 
 ![image](assets/fr/03.webp)
 
-Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "Alice et Bob ont réalisé un petit coinjoin, avec un UTXO chacun en entrée et deux UTXO chacun en sortie".
+Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*Alice et Bob ont réalisé un petit coinjoin, avec un UTXO chacun en entrée et deux UTXO chacun en sortie*".
 
 ![image](assets/fr/04.webp)
 
@@ -71,7 +71,7 @@ Même si l'observateur extérieur parvient à identifier le paterne de la transa
 
 Comme pour les autres transactions collaboratives sur Ashigaru (*Cahoots*), la réalisation d'un Stonewall x2 implique l'échange de transactions partiellement signées entre l'émetteur et le collaborateur. Cet échange peut s'effectuer manuellement, dans le cas où vous vous trouvez physiquement avec votre collaborateur, ou automatiquement grâce au protocole de communication Soroban.
 
-Si vous choisissez la seconde option, vous allez devoir établir une connexion entre Paynyms avant de pouvoir effectuer un Stonewall x2. Pour ce faire, votre Paynym doit "follow" le Paynym de votre collaborateur, et vice-versa. Pour savoir comment faire, vous pouvez suivre le début de cet autre tutoriel :
+Si vous choisissez la seconde option, vous allez devoir établir une connexion entre Paynyms avant de pouvoir effectuer un Stonewall x2. Pour ce faire, votre Paynym doit "*follow*" le Paynym de votre collaborateur, et vice-versa. Pour savoir comment faire, vous pouvez suivre le début de cet autre tutoriel :
 
 https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -79,83 +79,85 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 Pour effectuer une transaction Stonewall x2, cliquez sur l’image de votre Paynym en haut à gauche de l’écran, puis ouvrez le menu `Collaborate`. La personne qui participe avec vous à cette transaction doit faire la même manipulation, sauf si vous réalisez l’échange de QR codes en personne.
 
-06
+![Image](assets/fr/06.webp)
 
 Deux options s’offrent à vous : sélectionnez `Initiate` si vous êtes l’émetteur du paiement, ou `Participate` si vous êtes la personne qui collabore à la transaction sans en être ni le payeur, ni le destinataire effectif.
 
-07
+![Image](assets/fr/07.webp)
 
 Si vous avez le rôle du collaborateur, la procédure est très simple. Pour une collaboration à distance via le réseau Soroban, cliquez sur `Participate`, choisissez le compte que vous souhaitez utiliser, puis appuyez sur `LISTEN FOR CAHOOTS REQUESTS` afin d’attendre la requête envoyée par le payeur.
 
-08
+![Image](assets/fr/08.webp)
 
 En revanche, pour une collaboration en personne via le scan de QR codes, rendez-vous sur la page d’accueil de votre wallet, appuyez sur l’icône du QR code en haut de l’écran, puis scannez le QR code fourni par le payeur qui initie la transaction.
 
-09
+![Image](assets/fr/09.webp)
 
 Si vous êtes dans le rôle du payeur, c’est-à-dire celui qui initie la transaction, rendez-vous dans le menu `Collaborate`, puis sélectionnez `Initiate`.
 
-10
+![Image](assets/fr/10.webp)
 
 Pour le type de transaction, puisque l'on souhaite ici effectuer un Stonewall x2, choisissez cette option.
 
-11
+![Image](assets/fr/11.webp)
 
 Vous pouvez ensuite choisir entre une collaboration en ligne (*Cahoots* via *Soroban*) ou une collaboration en personne, avec les échanges de QR codes.
 
-12
+![Image](assets/fr/12.webp)
 
 ### Cahoots en ligne
 
 Si vous avez opté pour l’option `Online`, sélectionnez ensuite votre collaborateur parmi les Paynyms que vous suivez.
 
-13
+![Image](assets/fr/13.webp)
 
 Cliquez sur `Set up transaction`, puis choisissez le compte à partir duquel vous souhaitez effectuer la dépense.
 
-14
+![Image](assets/fr/14.webp)
 
 Sur la page suivante, renseignez les détails de la transaction : l’adresse du destinataire réel du paiement, le montant à lui envoyer et le taux de frais. Cliquez ensuite sur `Review transaction setup`.
 
-15
+![Image](assets/fr/15.webp)
 
 Vérifiez attentivement les informations, assurez-vous que votre collaborateur est bien en train d’écouter les requêtes de *Cahoots*, puis cliquez sur le bouton vert `BEGIN TRANSACTION` pour initier l’échange des PSBTs via Soroban.
 
-16
+![Image](assets/fr/16.webp)
 
 Patientez jusqu’à la signature complète de la transaction par les deux participants, puis diffusez-la sur le réseau Bitcoin.
 
-17
+![Image](assets/fr/17.webp)
 
 ### Échanges en personne
 
 Si vous souhaitez effectuer l’échange en personne, sélectionnez le type de transaction `STONEWALL X2`, puis choisissez l’option `In Person / Manual`.
 
-18
+![Image](assets/fr/18.webp)
 
 Cliquez sur `Set up transaction`, puis choisissez le compte à partir duquel vous souhaitez effectuer la dépense.
 
-19
+![Image](assets/fr/19.webp)
 
 Sur la page suivante, renseignez les détails de la transaction : l’adresse du destinataire réel du paiement, le montant à lui envoyer et le taux de frais. Cliquez ensuite sur `Review transaction setup`.
 
-20
+![Image](assets/fr/20.webp)
 
 Vérifiez les détails, puis appuyez sur le bouton vert `BEGIN TRANSACTION` pour lancer l’échange des PSBTs via le scan de QR codes.
 
-21
+![Image](assets/fr/21.webp)
 
 L’échange se fait en alternant le scan avec le collaborateur : cliquez sur `SHOW QR CODE` pour afficher votre QR code à votre collaborateur, qui le scannera. Ensuite, il affichera à son tour le sien en cliquant sur `SHOW QR CODE`, et vous devrez le scanner avec `LAUNCH QR Scanner`. Puis répétez ce processus jusqu’à ce que les cinq étapes de l’échange soient complètes.
 
-22
+![Image](assets/fr/22.webp)
 
 Une fois tous les échanges effectués, vérifiez les détails de la transaction, puis diffusez-la en faisant glisser la flèche verte située en bas de l’écran.
 
-23
+![Image](assets/fr/23.webp)
 
-La transaction a bien été diffusée. Sa structure se présente ainsi :
+[La transaction a bien été diffusée](https://mempool.space/testnet4/tx/9082f3d989728aacd290535a1ac374ab8c04a241a1d798b378db626dabea7a24). Sa structure se présente ainsi :
 
-24
+![Image](assets/fr/24.webp)
+
+*Crédit: [mempool.space](https://mempool.space/)*
 
 On peut observer deux inputs provenant de mon portefeuille, respectivement `91 869 sats` et `64 823 sats`, tandis que les deux autres inputs proviennent du wallet de mon collaborateur. Du côté des outputs, un UTXO de `100 000 sats` est envoyé au destinataire effectif du paiement et deux UTXOs de `100 000 sats` et `159 578 sats` retournent vers le portefeuille de mon collaborateur. Pour lui, l’opération est neutre, puisqu’il récupère l’intégralité des fonds qu’il avait placés en input (hors frais de minage auxquels il a contribué). Enfin, de mon côté je reçois un UTXO de change de `56 270 sats`, correspondant à la différence entre le total de mes inputs et le paiement de `100 000 sats` envoyé au destinataire.
 

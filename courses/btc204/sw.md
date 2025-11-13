@@ -2603,7 +2603,7 @@ Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabi
 Suluhisho mojawapo litakuwa kutumia miundo ya muamala inayoleta utata katika uchanganuzi wa msururu bila kuhitaji ushirikiano wa mpokeaji. Hili litatuwezesha kuboresha usiri wa malipo yetu bila kutegemea ushiriki hai wa wafanyabiashara. Hili ndilo hasa tutakalokuwa tukiliangalia katika sura inayofuata.
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 ## Malipo ya mini-CoinJoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>

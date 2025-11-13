@@ -2661,7 +2661,7 @@ PayJoin का इस्तेमाल करने में मुश्क�
 एक समाधान यह हो सकता है कि हम ऐसे लेन-देन के ढांचे का इस्तेमाल करें जो चेन विश्लेषण में अस्पष्टता पैदा करे, बिना प्राप्तकर्ता के सहयोग की जरूरत के। इससे हम व्यापारियों के सक्रिय सहयोग पर निर्भर हुए बिना अपने भुगतानों की गोपनीयता को बेहतर बना सकेंगे। यही हम अगले अध्याय में देखने वाले हैं।
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 ## भुगतान मिनी-जीडब्ल्यू-969
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>

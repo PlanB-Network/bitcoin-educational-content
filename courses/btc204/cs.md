@@ -2647,7 +2647,7 @@ Jedním z řešení by bylo použití transakčních struktur, které do analýz
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Platba mini-coinjoin
 

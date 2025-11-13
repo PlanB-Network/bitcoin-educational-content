@@ -2643,7 +2643,7 @@ Một giải pháp là sử dụng các cấu trúc giao dịch đưa sự mơ h
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Thanh toán mini-coinjoin
 

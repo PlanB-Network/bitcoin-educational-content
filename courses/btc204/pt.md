@@ -2644,7 +2644,7 @@ Uma solução consistiria em utilizar estruturas de transação que introduzisse
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Pagamento mini-coinjoin
 

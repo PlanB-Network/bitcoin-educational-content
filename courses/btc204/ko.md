@@ -3745,7 +3745,7 @@ PayJoin 사용의 어려움은 판매자의 참여 여부에 따라 달라진다
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 결제 미니-CoinJoin
 

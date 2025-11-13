@@ -278,9 +278,10 @@ Restando più seri, ora abbiamo un'idea più precisa di cosa sia lo strumento di
 
 In questa sezione impareremo a eseguire le prime scansioni delle porte utilizzando lo strumento di scansione di rete Nmap. Vedremo come utilizzarlo per compilare un elenco dei servizi di rete esposti su un host, sia che utilizzino i protocolli TCP che UDP.
 
-D'ora in poi, ricordatevi di scansionare solo gli host in un ambiente controllato per i quali disponete di un'autorizzazione esplicita.
+D'ora in poi, ricordati di scansionare solo gli host in un ambiente controllato per i quali disponi di un'autorizzazione esplicita.
 
-- Come promemoria: [Codice penale: Capo III: Attacchi a sistemi automatizzati di elaborazione dati](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Come promemoria: [Codice Privacy D.lgs 196/2003 (s.m.i. con D.Lgs. 10 agosto 2018, n. 101 per l'aggiornamento al GDPR - Regolamento UE 2016/679) - Trattamento illecito di dati art.167 e seguenti](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=56&art.flagTipoArticolo=0&art.codiceRedazionale=003G0218&art.idArticolo=167&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2003-07-29&art.progressivo=0)
+[art.167 bis - ter aggiornamento](https://www.gazzettaufficiale.it/atto/stampa/serie_generale/originario).
 
 **Se non ne avete uno a portata di mano**, vi consiglio le seguenti soluzioni gratuite, che fanno al caso vostro!
 
@@ -288,7 +289,7 @@ D'ora in poi, ricordatevi di scansionare solo gli host in un ambiente controllat
 
 - [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Questa piattaforma offre numerosi sistemi intenzionalmente vulnerabili da scaricare, che possono essere utilizzati tramite VirtualBox (anch'essa una soluzione gratuita) o altri mezzi. Una volta scaricati, non c'è bisogno di una VPN: tutto è locale.
 
-Inoltre, siete liberi di **creare una macchina virtuale** sul vostro sistema operativo preferito e installarvi vari servizi come target di test. Il vantaggio sarà che sarete in grado di vedere cosa succede sul lato server durante una scansione, soprattutto con Wireshark, e di intervenire sul firewall locale quando faremo test più avanzati.
+Inoltre, sei libero di **creare una macchina virtuale** sul tuo sistema operativo preferito e installarti vari servizi come target di test. Il vantaggio sarà che sarai in grado di vedere cosa succede sul lato server durante una scansione, soprattutto con Wireshark, e di intervenire sul firewall locale quando faremo test più avanzati.
 
 Facciamo un po' di pratica!
 
@@ -304,11 +305,11 @@ Nel mio esempio, l'host da scansionare ha l'IP Address "192.168.1.18":
 nmap 192.168.1.18
 ```
 
-Ecco un possibile risultato. Vediamo un classico ritorno di Nmap con molte informazioni:
+Ecco un possibile risultato. Vediamo un classico report di Nmap con molte informazioni:
 
 ![nmap-image](assets/fr/11.webp)
 
-risultati di una semplice scansione TCP eseguita con Nmap
+_Risultati di una semplice scansione TCP eseguita con Nmap_
 
 Dando una rapida occhiata a questo risultato, si capisce che le porte TCP/22 e TCP/80 sono accessibili su questo host.
 
@@ -336,7 +337,7 @@ La terza riga ci dice che l'host in questione è "Up", cioè attivo:
 Host is up (0.00022s latency).
 ```
 
-Infine, Nmap ci informa che 998 porte TCP identificate come chiuse non vengono visualizzate nel file:
+Infine, Nmap ci informa che la porta TCP 998 è identificata come chiusa e non viene visualizzata nel file:
 
 ```
 Not shown: 998 closed tcp ports (conn-refused)
@@ -351,7 +352,7 @@ In questo modo si risparmiano quasi 1.000 righe di output che assomigliano a:
 …
 ```
 
-Grazie a lui per averci risparmiato questo!
+Grazie a lui per averci risparmiato tutto questo!
 
 Perché 998 porte "chiuse"? Aggiungendo le 2 porte aperte si arriva a 1000, e questo è il numero di porte che Nmap scansionerà nella sua configurazione predefinita, non le 65535 porte TCP esistenti! Vedremo più avanti che questa configurazione è interamente e facilmente personalizzabile. Ma se l'host preso di mira ha un servizio in ascolto su una porta piuttosto esotica, questa scansione "predefinita" non lo scoprirà.
 
@@ -364,17 +365,17 @@ Se si consulta il file "/etc/services" di un sistema Linux, si troverà un colle
 
 ![nmap-image](assets/fr/12.webp)
 
-estrae il contenuto del file "/etc/services" in Linux
+_Estrae il contenuto del file "/etc/services" in Linux_
 
-È importante capire che, per il momento, Nmap non ha eseguito alcun rilevamento attivo dei servizi. Ad esempio, non sarebbe stato in grado di identificare il servizio SSH dietro una porta TCP/80 se questo fosse stato il caso. Da qui l'importanza di sapere come usare le opzioni giuste: presto arriverà!
+È importante capire che, per il momento, Nmap non ha eseguito alcun rilevamento attivo dei servizi. Ad esempio, non sarebbe stato in grado di identificare il servizio SSH dietro una porta TCP/80 se questo fosse stato il caso. Da qui l'importanza di sapere come usare le opzioni giuste: presto capirai!
 
 Sapere come interpretare l'output di Nmap è una parte importante della padronanza dello strumento. La buona notizia è che l'output sarà in gran parte lo stesso, indipendentemente dalle opzioni utilizzate.
 
 #### C. Sotto il cofano: analisi della rete tramite Wireshark
 
-Se si osserva attentamente ciò che accade sulla rete Interface dell'host che esegue la scansione del server o su quella del server stesso, le azioni di Nmap saranno molto più chiare. È quello che faremo qui.
+Se si osserva attentamente ciò che accade sull'interfaccia di rete dell'host che esegue la scansione del server o su quella del server stesso, le azioni di Nmap saranno molto più chiare. È quello che faremo qui.
 
-Quello che posso mostrarvi qui è solo una parte di ciò che è visibile in Wireshark. Se volete andare oltre, potete eseguire voi stessi una cattura della rete durante una scansione e poi sfogliare ciò che è stato catturato.
+Quello che posso mostrarti qui è solo una parte di ciò che è visibile in Wireshark. Se vuoi andare oltre, puoi eseguire tu stesso una cattura della rete durante una scansione e poi sfogliare ciò che è stato catturato.
 
 In questo test, l'host di scansione (192.168.1.18) e l'host di destinazione (192.168.1.19) si trovano sulla stessa rete locale.
 
@@ -382,13 +383,13 @@ Nmap inizia scoprendo se l'host di destinazione è attivo sulla rete locale invi
 
 ![nmap-image](assets/fr/13.webp)
 
-richiesta ARP emessa da Nmap per determinare se un host di destinazione è presente sulla rete locale
+_Richiesta ARP emessa da Nmap per determinare se un host di destinazione è presente sulla rete locale_
 
 Se l'host da scansionare si trova su una rete remota, Nmap inizia inviando una richiesta di ping e cerca di raggiungere alcune delle porte più frequentemente esposte (TCP/80, TCP/443):
 
 ![nmap-image](assets/fr/14.webp)
 
-richiesta di ping emessa da Nmap per determinare se un host di destinazione è raggiungibile su una rete remota
+_Richiesta di ping emessa da Nmap per determinare se un host di destinazione è raggiungibile su una rete remota_
 
 Se ottiene una risposta a uno qualsiasi di questi test, considera il bersaglio attivo.
 
@@ -396,19 +397,19 @@ Una volta che Nmap ha determinato che il suo obiettivo è attivo, cercherà di r
 
 ![nmap-image](assets/fr/15.webp)
 
-risoluzione dNS sul target di scansione Nmap
+_Risoluzione DNS sul target di scansione Nmap_
 
 Ora che Nmap ha identificato l'obiettivo e sa che è attivo, inizia la scansione della porta TCP:
 
 ![nmap-image](assets/fr/16.webp)
 
-tCP Trasmissione di pacchetti SYN e ricezione di RST/ACK durante la scansione Nmap
+_TCP trasmissione di pacchetti SYN e ricezione di RST/ACK durante la scansione Nmap_
 
 A tal fine, su ogni porta TCP nel suo intervallo predefinito, **invia pacchetti TCP SYN e attende una risposta**. Nella schermata qui sopra, riceve pacchetti TCP RST/ACK dal server scansionato, il che significa "vai avanti, non c'è niente da vedere qui" - in altre parole, queste porte sono chiuse. Come abbiamo visto nel risultato, questo sarà il caso della maggior parte delle porte scansionate. Con due eccezioni:
 
 ![nmap-image](assets/fr/17.webp)
 
-risposta a un pacchetto TCP SYN inviato sulla porta 22, attivo sulla destinazione della scansione
+_Risposta a un pacchetto TCP SYN inviato sulla porta 22, attivo sulla destinazione della scansione_
 
 Nell'immagine qui sopra, vediamo un pacchetto TCP SYN/ACK inviato dall'host di destinazione. La porta è attiva ed espone un servizio. Nmap conferma la ricezione della risposta, quindi termina la connessione (TCP RST/ACK). **In questo modo ha saputo che la porta TCP/22 era attiva**.
 
@@ -432,13 +433,13 @@ In questo caso, il ritorno ottenuto ha lo stesso formato di una scansione TCP, m
 
 ![nmap-image](assets/fr/18.webp)
 
-risultato di una semplice scansione UDP eseguita con Nmap
+_Risultato di una semplice scansione UDP eseguita con Nmap_
 
 L'opzione "-sU" viene utilizzata per indicare a Nmap che si desidera lavorare su UDP, anziché su TCP, come avviene di default.
 
-A proposito, avrete probabilmente notato che Nmap richiede i diritti di "root" per le scansioni UDP, come menzionato in precedenza nel tutorial.
+A proposito, avrai probabilmente notato che Nmap richiede i diritti di "root" per le scansioni UDP, come menzionato in precedenza nel tutorial.
 
-nota: a partire dalle ultime versioni di Nmap, si raccomanda sempre di eseguire le scansioni UDP con i privilegi di amministratore per garantire risultati affidabili, poiché alcune funzioni richiedono l'accesso non vincolato ai socket di rete
+_Nota_: a partire dalle ultime versioni di Nmap, si raccomanda sempre di eseguire le scansioni UDP con i privilegi di amministratore per garantire risultati affidabili, poiché alcune funzioni richiedono l'accesso non vincolato ai socket di rete.
 
 Le scansioni UDP possono richiedere molto tempo (1100 secondi per scansionare 1000 porte nel mio esempio), a causa dell'assenza del "Three Way Handshake" in UDP, il che significa che Nmap attenderà un ritorno per ogni pacchetto UDP inviato e determinerà la porta come "chiusa" solo se non vi è alcun ritorno dopo un certo tempo (timeout). La risposta degli host sottoposti a scansione non è sistematica e spesso è limitata in termini di numero di risposte al secondo, per evitare alcuni attacchi di amplificazione. Ciò è in contrasto con il TCP, dove la risposta dell'host scansionato è immediata, sia che la porta sia aperta o chiusa. Vedremo più avanti come ottimizzare questo aspetto.
 
@@ -446,36 +447,36 @@ Una seconda difficoltà con UDP è **che i servizi non rispondono sempre ai pacc
 
 #### B. Sotto il cofano: analisi della rete tramite Wireshark
 
-Come per la scansione TCP, diamo un'occhiata più da vicino a ciò che accade a livello di rete durante una scansione UDP utilizzando un'analisi Wireshark. Il comportamento di Nmap nel determinare se un host è attivo è lo stesso.
+Come per la scansione TCP, diamo un'occhiata più da vicino a ciò che accade a livello di rete durante una scansione UDP utilizzando un'analisi Wireshark. Il comportamento di Nmap è lo stesso nel determinare se un host è attivo.
 
 L'unica vera differenza nella scansione di UDP è che Nmap non attende un "Three Way Handshake", poiché questo meccanismo non esiste in UDP (protocollo stateless):
 
 ![nmap-image](assets/fr/19.webp)
 
-trasmissione di pacchetti uDP e ricezione ICMP (porta irraggiungibile) durante la scansione Nmap
+_Trasmissione di pacchetti UDP e ricezione ICMP (porta irraggiungibile) durante la scansione Nmap_
 
 Nella schermata precedente si può notare che Nmap invia un gran numero di pacchetti UDP e riceve in risposta un pacchetto ICMP "Destination unreachable (Port unreachable)". Questo è normale, poiché è la risposta appropriata definita da [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando una porta UDP non è raggiungibile:
 
 ![nmap-image](assets/fr/20.webp)
 
-estratto da RFC 1122._
+_Estratto da RFC 1122_
 
 Diamo un'occhiata più da vicino a questa acquisizione di Wireshark, che mostra **i tre possibili scenari** in UDP:
 
 ![nmap-image](assets/fr/21.webp)
 
-cattura della rete durante una scansione UDP su diverse porte con Nmap._
+_Cattura della rete durante una scansione UDP su diverse porte con Nmap._
 
 I tre casi sono i seguenti:
-- Il primo Exchange è composto dai pacchetti no. 3, 4 e 8, 9. Nmap invia pacchetti UDP sulla porta SNMP classica e quindi **costruisce in anticipo i pacchetti conformi al protocollo**. Quindi ottiene una risposta dal server (pacchetti n. 8 e 9). Risultato: Nmap ha ricevuto una risposta, il servizio è "aperto".
-- Il secondo Exchange è costituito dai pacchetti 6 e 7. Nmap invia un pacchetto UDP "vuoto" (senza struttura di protocollo) alla porta UDP/165 e riceve in risposta un pacchetto ICMP: "Destinazione non raggiungibile (Porta non raggiungibile)". Risultato: Nmap ha ricevuto una risposta (negativa), l'host è attivo, ma il servizio che ha cercato di raggiungere non è operativo su questa porta, che sarà contrassegnata come "chiusa".
-- L'ultimo Exchange è costituito dal pacchetto n. 12: Nmap invia un pacchetto UDP "vuoto" alla porta UDP/1235. Non c'è risposta, nemmeno un rifiuto esplicito da parte dell'host scansionato. Risultato: Nmap contrassegna la porta come "aperta|filtrata", poiché non è in grado di stabilire se ciò sia dovuto alla presenza di un firewall, configurato per non rispondere, o a un servizio UDP attivo che non restituisce comunque alcuna risposta (non obbligatorio in UDP).
+- Il primo scambio è composto dai pacchetti no. 3, 4 e 8, 9. Nmap invia pacchetti UDP sulla porta SNMP classica e quindi **costruisce in anticipo i pacchetti conformi al protocollo**. Quindi ottiene una risposta dal server (pacchetti n. 8 e 9). Risultato: Nmap ha ricevuto una risposta, il servizio è "aperto".
+- Il secondo scambio è costituito dai pacchetti 6 e 7. Nmap invia un pacchetto UDP "vuoto" (senza struttura di protocollo) alla porta UDP/165 e riceve in risposta un pacchetto ICMP: "Destinazione non raggiungibile (Porta non raggiungibile)". Risultato: Nmap ha ricevuto una risposta (negativa), l'host è attivo, ma il servizio che ha cercato di raggiungere non è operativo su questa porta, che sarà contrassegnata come "chiusa".
+- L'ultimo scambio è costituito dal pacchetto n. 12: Nmap invia un pacchetto UDP "vuoto" alla porta UDP/1235. Non c'è risposta, nemmeno un rifiuto esplicito da parte dell'host scansionato. Risultato: Nmap contrassegna la porta come "aperta|filtrata", poiché non è in grado di stabilire se ciò sia dovuto alla presenza di un firewall, configurato per non rispondere, o a un servizio UDP attivo che non restituisce comunque alcuna risposta (non obbligatorio in UDP).
 
 Ecco il risultato visualizzato da Nmap in questi tre casi:
 
 ![nmap-image](assets/fr/22.webp)
 
-i possibili risultati di una scansione UDP eseguita tramite Nmap._
+_I possibili risultati di una scansione UDP eseguita tramite Nmap_
 
 Ora abbiamo un'idea più precisa di come eseguire una scansione UDP e di cosa succede effettivamente quando viene eseguita. Finora abbiamo usato Nmap in modo molto semplice, senza decidere quali porte scansionare, ma le cose stanno per cambiare!
 
@@ -491,7 +492,7 @@ Le 1000 porte scansionate nella modalità predefinita sono scelte in base alla l
 
 ![nmap-image](assets/fr/23.webp)
 
-estratto dal file "/usr/shares/nmap/nmap-services"._
+_Estratto dal file "/usr/shares/nmap/nmap-services"_
 
 Qui, nella terza colonna, vediamo quelle che sembrano probabilità (tra 0 e 1) o una distribuzione percentuale. Si tratta della frequenza di occorrenza di ciascuna coppia porta/protocollo. Possiamo notare che le porte più conosciute (FTP, SSH, TELNET e SMTP in questo estratto) hanno un valore molto più alto rispetto alle altre.
 
@@ -531,7 +532,7 @@ Indipendentemente dall'ordine, Nmap controllerà tutte queste porte e solo quell
 
 ![nmap-image](assets/fr/24.webp)
 
-**Risultato di una scansione Nmap TCP sulle porte indicate**
+_Risultato di una scansione Nmap TCP sulle porte indicate_
 
 **Scansione di una serie di porte**
 
@@ -573,7 +574,7 @@ In quest'ultimo esempio si nota la presenza di "U:" per indicare una porta UDP e
 
 ![nmap-image](assets/fr/25.webp)
 
-*Risultato della scansione delle porte TCP e UDP con Nmap.*
+_Risultato della scansione delle porte TCP e UDP con Nmap_
 
 Questo è un modo interessante per personalizzare le scansioni!
 
@@ -601,13 +602,13 @@ nmap 192.168.1.19 -p-
 
 Quest'ultima operazione richiederà più tempo, soprattutto con UDP, ma sarete sicuri di non perdere nessuna porta aperta.
 
-*Nota: L'opzione "-p-" è il metodo consigliato per la scansione di tutte le porte TCP. Per le scansioni UDP, è consigliabile limitare il numero di porte per motivi di prestazioni, poiché le scansioni complete di tutte le porte UDP possono richiedere tempi molto lunghi.*
+_Nota: L'opzione "-p-" è il metodo consigliato per la scansione di tutte le porte TCP. Per le scansioni UDP, è consigliabile limitare il numero di porte per motivi di prestazioni, poiché le scansioni complete di tutte le porte UDP possono richiedere tempi molto lunghi._
 
 Più avanti nel corso dell'esercitazione, vedremo come ottimizzare la velocità delle scansioni di Nmap in base alle nostre esigenze, il che sarà particolarmente utile per le scansioni su tutte le porte TCP e UDP.
 
 ### V. Conclusioni
 
-In questa sezione abbiamo finalmente fatto un po' di pratica e ora sappiamo **come usare Nmap in modo elementare per scansionare le porte TCP e UDP di un host**. Abbiamo anche analizzato in dettaglio cosa succede a livello di rete e **come Nmap determina se una porta TCP o UDP è attiva o meno**. Infine, sappiamo come selezionare finemente le porte che vogliamo scansionare e **cosa fanno effettivamente le opzioni predefinite di Nmap**. Nel seguito, riutilizzeremo queste conoscenze e le applicheremo alla scansione di un'intera rete, compresa la mappatura globale e la scoperta della rete.
+In questa sezione abbiamo finalmente fatto un po' di pratica e ora sappiamo **come usare Nmap in modo elementare per scansionare le porte TCP e UDP di un host**. Abbiamo anche analizzato in dettaglio cosa succede a livello di rete e **come Nmap determina se una porta TCP o UDP è attiva o meno**. Infine, sappiamo come selezionare finemente le porte che vogliamo scansionare e **cosa fanno effettivamente le opzioni predefinite di Nmap**. Nel seguito, riutilizzeremo queste conoscenze e le applicheremo alla scansione di un'intera rete, compresa la mappatura globale e l'esplorazione della rete.
 
 
 ## 5 - Mappatura e scoperta della rete con Nmap
@@ -618,9 +619,9 @@ In questa sezione impareremo a utilizzare lo strumento di scansione di rete Nmap
 
 In particolare, utilizzeremo quanto appreso nella sezione precedente su come Nmap determina se un host è attivo e raggiungibile.
 
-Come accennato nell'introduzione a Nmap, si tratta di un Network Mapper. Come tale, è lo strumento perfetto per stilare un elenco di host accessibili su una rete, sia locale che remota.
+Come accennato nell'introduzione a Nmap, si tratta di un _Network Mapper_. Come tale, è lo strumento perfetto per stilare un elenco di host accessibili su una rete, sia locale che remota.
 
-**Ritorno dell'autore:**
+**Feedback dell'autore:**
 
 In effetti, come auditor e pentester di cybersecurity, utilizzo sistematicamente Nmap quando eseguo test di penetrazione interni per scoprire dove mi trovo, chi sono i miei vicini sulla rete locale e quali altre reti sono accessibili, nonché i sistemi che vi si trovano. Il mio obiettivo è semplice: mappare la rete, determinare le dimensioni del sistema informativo e, in particolare, delineare la sua superficie di attacco.
 
@@ -628,9 +629,9 @@ La mappatura della rete può essere utile anche nel contesto della diagnostica d
 
 ### II. Utilizzo di Nmap per la scansione di una rete
 
-#### A. Scoprire una rete con una scansione Nmap
+#### A. Esplorare una rete con una scansione Nmap
 
-Ora vorremmo fare un passo avanti e analizzare l'intera rete locale. Nulla di più semplice: basta riutilizzare i comandi visti nella sezione precedente, ma specificando un CIDR invece di un semplice IP Address.
+Ora vorremmo fare un passo avanti e analizzare l'intera rete locale. Nulla di più semplice: basta riutilizzare i comandi visti nella sezione precedente, ma specificando un CIDR invece di un semplice indirizzo IP.
 
 Un CIDR (**Classless Inter Domain Routing**) è la notazione "classica" per specificare un intervallo di rete e la sua estensione (utilizzando la maschera). Ad esempio, "192.168.0.0/24" è una "traduzione" della notazione della maschera decimale "255.255.255.0".
 
@@ -658,7 +659,7 @@ Ecco un esempio dei risultati che si possono ottenere eseguendo una scansione su
 
 ![nmap-image](assets/fr/26.webp)
 
-risultati di una scansione Nmap per mappare diverse reti
+_Risultati di una scansione Nmap per mappare diverse reti_
 
 In particolare, si vedono diversi host attivi e ogni sezione di host inizia con una riga come questa:
 
@@ -682,7 +683,7 @@ Come abbiamo visto nella sezione precedente, per impostazione predefinita Nmap u
 
 ![nmap-image](assets/fr/27.webp)
 
-pacchetti aRP acquisiti durante la scansione di una rete locale con Nmap e le sue opzioni predefinite
+_Pacchetti ARP acquisiti durante la scansione di una rete locale con Nmap e le sue opzioni predefinite_
 
 È quindi in grado di rilevare praticamente tutti gli host della rete locale, poiché la risposta a una richiesta ARP è generalmente fornita da tutti gli host attivi sulla rete e non appare in alcun modo sospetta.
 
@@ -690,7 +691,7 @@ Per le reti remote, Nmap utilizza una combinazione di tecniche:
 
 ![nmap-image](assets/fr/28.webp)
 
-iCMP e i pacchetti TCP catturati durante la scansione di una rete remota con Nmap e le sue opzioni predefinite
+_ICMP e i pacchetti TCP catturati durante la scansione di una rete remota con Nmap e le sue opzioni predefinite_
 
 Per essere più precisi, Nmap utilizza un pacchetto ICMP echo (il caso classico di ping) e un pacchetto ICMP Timestamp, solitamente utilizzato per calcolare i tempi di transito dei pacchetti. Spera di ottenere una risposta da host su reti remote.
 
@@ -708,7 +709,7 @@ Ora abbiamo fatto molta strada e siamo in grado di eseguire la scoperta di base 
 
 ### III. Individuazione della rete senza scansione delle porte con Nmap
 
-Come avrete notato, per impostazione predefinita Nmap **esegue una scansione delle porte in seguito alla scoperta di un host attivo**, il che comporta un'enorme quantità di pacchetti e di attesa per le risposte alla nostra scansione. Se avete 5 host sulla vostra rete, Nmap cercherà di controllare lo stato di circa 5.000 porte, il che richiederà più tempo.
+Come avrete notato, per impostazione predefinita Nmap **esegue una scansione delle porte in seguito alla scoperta di un host attivo**, il che comporta un'enorme quantità di pacchetti e di attesa per le risposte alla nostra scansione. Se hai 5 host sulla tua rete, Nmap cercherà di controllare lo stato di circa 5.000 porte, il che richiederà più tempo.
 
 Tuttavia, è possibile utilizzare le opzioni di Nmap per eseguire **solo una scoperta degli host attivi** su una rete, senza scoprire i loro servizi.
 
@@ -723,7 +724,7 @@ Ecco il risultato di una ricerca di rete Nmap eseguita senza scansione delle por
 
 ![nmap-image](assets/fr/29.webp)
 
-Risultato di una ricerca di rete senza scansione delle porte con Nmap.
+_Risultato di una ricerca di rete senza scansione delle porte con Nmap_
 
 Abbiamo già accennato alle possibili limitazioni dell'uso del solo ICMP per la scoperta degli host (per le reti remote). Ecco perché Nmap utilizza anche alcuni trucchi che possono tradire la presenza di un firewall o di un servizio specifico sugli host. Con l'aiuto delle opzioni, possiamo riutilizzare questi trucchi e persino estenderli, senza dover ricominciare con una scansione completa delle porte di ogni host scoperto.
 
@@ -731,20 +732,18 @@ A tale scopo, utilizzeremo le opzioni "-PS" (TCP SYN) e "-PA" (TCP ACK), che ci 
 
 ```
 # Scan specific ports on a CIDR
-nmap -sn -PP -PS22,3389,445,139 -PA80 192.168.1.0/24
+nmap -sn -PP -PS 22,3389,445,139 -PA 80 192.168.1.0/24
 ```
 
 Questa scansione garantisce già una scoperta dell'host un po' più completa rispetto alle opzioni predefinite.
 
-Stiamo iniziando a ottenere comandi piuttosto completi, utilizzando più opzioni. Questo perché conosciamo il funzionamento di Nmap e le limitazioni delle sue opzioni "predefinite", che a volte ci fanno perdere tempo o non ci fanno scoprire Elements importanti. È proprio questo il motivo per cui bisogna dedicare del tempo alla sua padronanza!
+Stiamo iniziando a ottenere comandi piuttosto completi, utilizzando più opzioni. Questo perché conosciamo il funzionamento di Nmap e le limitazioni delle sue opzioni "predefinite", che a volte ci fanno perdere tempo o non ci fanno scoprire elementi importanti. È proprio questo il motivo per cui bisogna dedicare del tempo alla sua padronanza!
 
 Per dettagliare le opzioni del nostro ultimo ordine:
-
 - "`-sn`: disabilita la scansione delle porte per ogni host attivo scoperto da Nmap.
 - "`-PP`: abilita l'eco ICMP (ping scan) per la scoperta degli host.
 - "`-PS <PORT>`": invia un pacchetto TCP SYN sulla/e porta/e indicata/e per rilevare qualsiasi servizio attivo che tradisca la presenza di un host che non ha risposto al ping.
 - "`-PA <PORT>`": invia un pacchetto TCP ACK sulla/e porta/e indicata/e per rilevare eventuali firewall attivi che tradiscono la presenza di un host che non ha risposto al ping.
-
 
 Nell'esempio precedente, per l'opzione "-PS" ho specificato le porte che considero più frequentemente esposte nei miei contesti Nmap. Queste diverse porte saranno poi testate su ogni host, non per vedere se il servizio che ospitano è realmente attivo, ma per vedere se questo ci permette di scoprire un host che non ha risposto al nostro ICMP Echo pur essendo ancora attivo (tramite una risposta dal servizio o dal firewall dell'host).
 
@@ -752,7 +751,7 @@ Ecco cosa si può vedere in un'acquisizione di rete effettuata al momento di una
 
 ![nmap-image](assets/fr/30.webp)
 
-pacchetti inviati da Nmap durante l'esplorazione avanzata della rete, senza scansione delle porte
+_Pacchetti inviati da Nmap durante l'esplorazione avanzata della rete, senza scansione delle porte_
 
 Troviamo i pacchetti TCP SYN, TCP ACK sulla porta TCP/80 e ICMP echo. Nmap eseguirà tutti questi test per ogni host preso di mira dalla nostra scansione di rilevamento della rete.
 
@@ -764,7 +763,7 @@ Per iniziare, creare un semplice file contenente una voce per riga:
 
 ![nmap-image](assets/fr/31.webp)
 
-contenente un target (host o rete) per riga
+_File che contiene un target (host o rete) per riga_
 
 Quindi, possiamo utilizzare tutte le opzioni di Nmap viste finora e specificare l'opzione "-iL <percorso/file>":
 
@@ -773,9 +772,9 @@ Quindi, possiamo utilizzare tutte le opzioni di Nmap viste finora e specificare 
 nmap -iL /tmp/mesCibles.txt
 ```
 
-Nmap includerà quindi nella sua scansione tutti gli obiettivi contenuti nel nostro file.
+Nmap includerà quindi, nella sua scansione, tutti gli obiettivi contenuti nel nostro file.
 
-Se si vuole essere sicuri che tutti gli obiettivi vengano presi in considerazione, è possibile utilizzare l'opzione "-sL -n". Nmap interpreterà solo i CIDR e gli host presenti nel file e li visualizzerà, senza inviare alcun pacchetto sulla rete:
+Se vuoi essere sicuro che tutti gli obiettivi vengano presi in considerazione, è possibile utilizzare l'opzione "-sL -n". Nmap interpreterà solo i CIDR e gli host presenti nel file e li visualizzerà, senza inviare alcun pacchetto sulla rete:
 
 ```
 # Display targets contained in a file
@@ -839,7 +838,7 @@ Allo stesso modo, possiamo eseguire una scansione completa di tutte le porte TCP
 nmap 192.168.0.0/24 --exclude 192.168.0.4 -p-
 ```
 
-Siete liberi di combinare tutte le opzioni che abbiamo imparato finora per soddisfare le vostre esigenze.
+Sei libero di combinare tutte le opzioni che abbiamo imparato finora per soddisfare le tue esigenze.
 
 ### VI. Conclusione
 
@@ -854,7 +853,7 @@ Nella prossima sezione, esamineremo i meccanismi e le opzioni per scoprire le ve
 
 In questa sezione impareremo a utilizzare Nmap per scoprire e rilevare con precisione le versioni dei servizi e dei sistemi operativi utilizzati dagli host sottoposti a scansione. Verrà dato uno sguardo dettagliato a come Nmap svolge questo compito e alle limitazioni dello strumento per comprendere e interpretare meglio i suoi risultati.
 
-Come abbiamo visto nelle sezioni precedenti di questa guida, per impostazione predefinita, Nmap non controlla quale servizio è esposto sulle porte che scansiona e considera aperte. Quindi, se si sta ascoltando un servizio web sulla porta TCP/22, Nmap continuerà a segnalarlo come aperto, ma come un servizio `SSH'. Questo perché utilizza un [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) locale al vostro sistema per cercare una relazione tra una porta/protocollo e il nome di un servizio (il file `/etc/services/`).
+Come abbiamo visto nelle sezioni precedenti di questa guida, per impostazione predefinita, Nmap non controlla quale servizio è esposto sulle porte che scansiona e considera aperte. Quindi, se si sta ascoltando un servizio web sulla porta TCP/22, Nmap continuerà a segnalarlo come aperto, ma come un servizio `SSH`. Questo perché utilizza un [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) locale al vostro sistema per cercare una relazione tra una porta/protocollo e il nome di un servizio (il file `/etc/services/`).
 
 Nella maggior parte dei casi, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) fornirà le informazioni corrette, poiché in un ambiente di produzione è raro trovare casi del genere. Tuttavia, i casi rimanenti sono situazioni in cui un servizio classico ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), HTTP, ecc.) è esposto su una porta non classica (ad esempio 2022 per un servizio SSH), nel qual caso Nmap non troverà una corrispondenza nel suo database locale, o una che non corrisponde alla realtà, e si perderanno informazioni importanti.
 
@@ -872,42 +871,41 @@ La metodologia classica per trovare queste informazioni è il _banner grabbing_,
 
 ![nmap-image](assets/fr/32.webp)
 
-visualizzare una versione non appena viene stabilita una connessione TCP da un servizio FTP
+_Visualizza una versione non appena viene stabilita una connessione TCP da un servizio FTP_
 
 Qui vediamo che una semplice connessione TCP a questo servizio tramite `telnet` produce un pacchetto TCP contenente la sua tecnologia e la sua versione.
 
-Una volta che ci si è fatti un'idea del tipo di servizio con cui si ha a che fare, si possono anche inviare comandi o richieste specifiche a quel servizio per estrarne informazioni. Queste richieste/comandi possono anche essere inviati alla cieca (senza essere sicuri che si tratti del tipo di servizio giusto), nella speranza che uno di essi provochi una risposta dal servizio in questione.
+Una volta che ci si è fatti un'idea del tipo di servizio con cui si ha a che fare, puoi anche inviare comandi o richieste specifiche a quel servizio per estrarne informazioni. Queste richieste/comandi possono anche essere inviati alla cieca (senza essere sicuri che si tratti del tipo di servizio giusto), nella speranza che uno di essi provochi una risposta dal servizio in questione.
 
 In altri casi, più avanzati, è necessario inviare pacchetti specifici per provocare una reazione, ad esempio un errore, che fornirà informazioni dettagliate sulla versione o sulla tecnologia utilizzata.
 
 Come si può immaginare, Nmap utilizzerà tutte queste tecniche per cercare di identificare il tipo esatto di servizio ospitato su una porta, nonché il nome della sua tecnologia e la versione.
 
-#### B. Comprendere le sonde e le corrispondenze di Nmap
+#### B. Comprendere le indagini e le corrispondenze di Nmap
 
 Per effettuare tutti questi controlli su ogni porta scansionata, Nmap utilizza un database locale che viene aggiornato frequentemente (proprio come il binario o i suoi moduli). Si tratta di un file di testo di diverse migliaia di righe: `/usr/share/nmap/nmap-service-probes`.
 
 Questo file è composto da numerose voci, tutte organizzate intorno a due linee guida principali:
-- La `Sonda`: è la definizione del pacchetto che Nmap invierà nel tentativo di provocare una reazione dal servizio da identificare. Pensate a un tentativo alla cieca come _Hello? Guten Tag? Pronto? Um... Buenos Dias forse? Non appena il servizio bersaglio riceve una sonda che comprende (cioè che parla il protocollo corretto), risponderà a Nmap, che avrà così la conferma del tipo di servizio.
-- Match": si tratta di espressioni regolari che Nmap applica alla risposta ottenuta. Se l'invio di una richiesta HTTP GET ha provocato una risposta da parte del servizio, Nmap applicherà decine di espressioni regolari a questa risposta per identificare la presenza, ad esempio, delle parole `Apache`, `Nginx`, `Microsoft IIS`, ecc.
+- L'`Indagine`: è la definizione del pacchetto che Nmap invierà nel tentativo di provocare una reazione dal servizio da identificare. Pensate a un tentativo alla cieca come _Hello? Guten Tag? Pronto? Um... Buenos Dias forse? Non appena il servizio bersaglio riceve un'indagine che comprende (cioè che parla il protocollo corretto), risponderà a Nmap, che avrà così la conferma del tipo di servizio.
+- `Match`: si tratta di espressioni regolari che Nmap applica alla risposta ottenuta. Se l'invio di una richiesta HTTP GET ha provocato una risposta da parte del servizio, Nmap applicherà decine di espressioni regolari a questa risposta per identificare la presenza, ad esempio, delle parole `Apache`, `Nginx`, `Microsoft IIS`, ecc.
 
-
-Esistono altre direttive per casi specifici, ma le principali per capire come funziona Nmap e personalizzarne l'uso sono queste. Per rendere più concreta questa parte teorica, ecco un esempio:
+Esistono altre direttive per casi specifici, ma le principali, per capire come funziona Nmap e personalizzarne l'uso, sono queste. Per rendere più concreta questa parte teorica, ecco un esempio:
 
 ![nmap-image](assets/fr/33.webp)
 
-esempio di sonda nel file `/usr/share/nmap/nmap-service-probes' di Nmap
+_Esempio di indagine nel file `/usr/share/nmap/nmap-service-probes' di Nmap_
 
-Nella prima riga di questo esempio, vediamo una sonda di facile comprensione chiamata `GetRequest`. Si tratta di un pacchetto TCP contenente una richiesta HTTP GET vuota alla radice del servizio web utilizzando HTTP/1.0, seguita da un feed di riga e da una riga vuota.
+Nella prima riga di questo esempio, vediamo un'indagine di facile comprensione chiamata `GetRequest`. Si tratta di un pacchetto TCP contenente una richiesta HTTP GET vuota alla radice del servizio web utilizzando HTTP/1.0, seguita da un feed di riga e da una riga vuota.
 
-La riga `port` indica a Nmap per quale porta inviare la sonda. Ciò consente di dare priorità ai test e di risparmiare tempo.
+La riga `port` indica a Nmap per quale porta inviare l'indagine. Ciò consente di dare priorità ai test e di risparmiare tempo.
 
 Infine, abbiamo due esempi di `match`. Il primo, ad esempio, categorizzerà il servizio web scansionato come `ajp13` se l'espressione regolare contenuta in questa riga corrisponde alla risposta del servizio ricevuta.
 
-Per aiutarvi a capire come possono essere le sonde, ecco un elenco di alcune delle sonde che troverete in questo file (al momento della stesura di questa guida ce ne sono 188 in tutto).
+Per aiutarti a capire come possono essere le indagini, ecco un elenco di alcune delle indagini che troverete in questo file (al momento della stesura di questa guida ce ne sono 188 in tutto).
 
 ![nmap-image](assets/fr/34.webp)
 
-esempio di diverse sonde utilizzate da Nmap e presenti nel file `/usr/share/nmap/nmap-service-probes`._
+_Esempio di diverse indagini utilizzate da Nmap e presenti nel file `/usr/share/nmap/nmap-service-probes`_
 
 I primi due (chiamati `NULL` e `GenericLines`) sono di particolare interesse, poiché inviano semplicemente un pacchetto TCP vuoto o contenente un'interruzione di riga. I servizi del server spesso si annunciano proprio non appena viene ricevuta una connessione, senza alcuna azione, comando o richiesta specifica da parte del client.
 
@@ -918,7 +916,7 @@ Ecco il caso di un _match_ leggermente più complesso:
 match ssl/http m|^HTTP/1.1 400 Bad Request\r\n.*?Server: nginx/([\d.]+)[^\r\n]*?\r\n.*<title>400 The plain HTTP request was sent to HTTPS port</title>|s p/nginx/ v/$1/ cpe:/a:igor_sysoev:nginx:$1/
 ```
 
-L'espressione regolare esatta è contenuta qui tra la `m|` e la `|`, che delimita qualsiasi espressione regolare in questo file. Si consiglia di leggere l'intero esempio. Si noterà una selezione nell'espressione regolare: `([\d.]+)`, usata per isolare una versione. Questo esempio definisce anche altri Elements come il nome del prodotto `p/nginx/`, la versione recuperata `v/$1/` e il CPE con la versione `cpe:/a:igor_sysoev:nginx:$1/`.
+L'espressione regolare esatta è contenuta qui tra la `m|` e la `|`, che delimita qualsiasi espressione regolare in questo file. Si consiglia di leggere l'intero esempio. Si noterà una selezione nell'espressione regolare: `([\d.]+)`, usata per isolare una versione. Questo esempio definisce anche altri elementi come il nome del prodotto `p/nginx/`, la versione recuperata `v/$1/` e il CPE con la versione `cpe:/a:igor_sysoev:nginx:$1/`.
 
 Un CPE (Common Platform Enumeration) è un sistema di notazione standardizzato utilizzato per identificare e descrivere software e hardware. Questo formato consente una gestione più efficiente delle vulnerabilità e delle configurazioni di sicurezza, e soprattutto un modo unificato di rappresentarle, indipendentemente dal prodotto in questione. Ecco due esempi di CPE: `cpe:/o:microsoft:windows_8.1:r1` e `cpe:/a:apache:http_server:2.4.35`
 
@@ -926,7 +924,7 @@ Qui identifichiamo chiaramente i loro tipi `o` per il sistema operativo, `a` per
 
 Quindi, in caso di _match_ con una di queste espressioni regolari, recupereremo non solo il nome del servizio, ma anche la sua versione e l'esatto CPE, rendendo più facile trovare le CVE che hanno un impatto su questa versione. Troverete queste informazioni nell'output standard di Nmap e vedrete che sono molto utili per altri scopi che tratteremo in alcune sezioni.
 
-La sintassi esatta di _matches_ e, più in generale, delle direttive del file `/usr/share/nmap/nmap-service-probes' non si ferma qui e può sembrare piuttosto complessa se non si è abituati a manipolare Nmap e i suoi risultati. Tuttavia, dovreste almeno tenere a mente la sua esistenza e il suo funzionamento generale, che vi tornerà utile in seguito quando vorrete capire o eseguire il debug di un risultato, personalizzare una scansione o persino contribuire allo sviluppo di Nmap.
+La sintassi esatta di _matches_ e, più in generale, delle direttive del file `/usr/share/nmap/nmap-service-probes` non si ferma qui e può sembrare piuttosto complessa se non si è abituati a manipolare Nmap e i suoi risultati. Tuttavia, dovreste almeno tenere a mente la sua esistenza e il suo funzionamento generale, che vi tornerà utile in seguito quando vorrete capire o eseguire il debug di un risultato, personalizzare una scansione o persino contribuire allo sviluppo di Nmap.
 
 ### III. Uso di Nmap per rilevare le versioni
 
@@ -941,7 +939,7 @@ Ecco un esempio completo del risultato di tale comando:
 
 ![nmap-image](assets/fr/35.webp)
 
-i risultati del rilevamento della versione di Nmap delle applicazioni esposte in rete
+_I risultati del rilevamento della versione di Nmap delle applicazioni esposte in rete_
 
 Qui possiamo vedere che Nmap è riuscito a identificare tutte le versioni dei servizi di rete esposti da questo obiettivo e visualizza queste informazioni in una nuova colonna `VERSION`. È possibile visualizzare informazioni piuttosto precise, anche sul sistema operativo, se queste informazioni fanno parte della firma recuperata.
 
@@ -952,7 +950,7 @@ Per capire in dettaglio cosa succede durante una scansione di vulnerabilità, si
 nmap 192.168.1.0/24 -sV --version-trace
 ```
 
-Di conseguenza, avremo molte informazioni da selezionare. Cercare di identificare le righe che iniziano con `Service scan Hard match`. Si vedranno quindi righe come queste:
+Di conseguenza, avremo molte informazioni da selezionare. Cerca di identificare le righe che iniziano con `Service scan Hard match`. Vedrai quindi righe come queste:
 
 ```
 Service scan hard match (Probe NULL matched with NULL line 789): 10.10.10.187:21 is ftp. Version: |vsftpd|3.0.3||
@@ -964,15 +962,15 @@ Possiamo vedere chiaramente quali _Probes_ sono state utilizzate per rilevare la
 
 ### IV. Test di padronanza e accuratezza del rilevamento
 
-Ora torneremo a una direttiva del file `/usr/share/nmap/nmap-service-probes' che non abbiamo esaminato in precedenza:
+Ora torneremo a una direttiva del file `/usr/share/nmap/nmap-service-probes` che non abbiamo esaminato in precedenza:
 
 ![nmap-image](assets/fr/36.webp)
 
-direttiva `rarità` delle sonde nel file `/usr/share/nmap/nmap-service-probes`._
+_Direttiva `rarità` delle indagini nel file `/usr/share/nmap/nmap-service-probes`_
 
-Questa direttiva viene utilizzata per indicare la rarità (cioè la priorità/probabilità) associata a una _Sonda_. Questa notazione da 1 a 9 consente di controllare la completezza dell'analisi eseguita da Nmap quando invia le _Sonde_. Nel sistema di "notazione" di Nmap, una rarità di 1 fornisce informazioni nella stragrande maggioranza dei casi, mentre una rarità di 8 o 9 rappresenta un caso molto particolare, specifico di una configurazione o di un servizio raramente presente.
+Questa direttiva viene utilizzata per indicare la rarità (cioè la priorità/probabilità) associata a una _Probe_. Questa notazione da 1 a 9 consente di controllare la completezza dell'analisi eseguita da Nmap quando invia le _Probe_. Nel sistema di "notazione" di Nmap, una rarità di 1 fornisce informazioni nella stragrande maggioranza dei casi, mentre una rarità di 8 o 9 rappresenta un caso molto particolare, specifico di una configurazione o di un servizio raramente presente.
 
-Per essere più chiari, in un caso predefinito, Nmap invierà a ciascun servizio da identificare le _Sonde_ che hanno una rarità da 1 a 7. Per dare un'idea della distribuzione delle _Sonde_ per _rarità_, ecco il loro numero:
+Per essere più chiari, in un caso predefinito, Nmap invierà a ciascun servizio da identificare le _Probe_ che hanno una rarità da 1 a 7. Per dare un'idea della distribuzione delle _Probe_ per _rarity_, ecco il loro numero:
 
 ```
 $ grep -E "^rarity" nmap-service-probes |sort |uniq -c
@@ -988,9 +986,9 @@ $ grep -E "^rarity" nmap-service-probes |sort |uniq -c
 54 rarity 9
 ```
 
-Può sembrare controintuitivo, ma ci sono più sonde di `rarità' 8 e 9 rispetto alle altre. Questo è dovuto al fatto che le sonde di rarità 1 sono generiche e funzionano nella maggior parte dei casi, indipendentemente dal servizio (ricordate la sonda `NULL` che invia semplicemente un pacchetto TCP vuoto). Mentre le Sonde più complesse sono quasi uniche per ogni servizio.
+Può sembrare controintuitivo, ma ci sono più sonde di `rarità` 8 e 9 rispetto alle altre. Questo è dovuto al fatto che le sonde di rarità 1 sono generiche e funzionano nella maggior parte dei casi, indipendentemente dal servizio (ricordate la sonda `NULL` che invia semplicemente un pacchetto TCP vuoto). Mentre le _Probe_ più complesse sono quasi uniche per ogni servizio.
 
-Se si desidera gestire manualmente le sonde da usare nella scansione delle versioni, si può usare l'opzione `--version-intensity`. Ecco due esempi:
+Se si desidera gestire manualmente le indagini da usare nella scansione delle versioni, si può usare l'opzione `--version-intensity`. Ecco due esempi:
 
 ```
 # Less accurate version detection than default
@@ -1004,9 +1002,9 @@ Per concludere l'argomento, ecco un esempio di _Probe_ 9 e 8:
 
 ![nmap-image](assets/fr/37.webp)
 
-esempi di sonda a rarità 8 e 9 nel file `/usr/share/nmap/nmap-service-probes`._
+_Esempi di Probe a Rarity 8 e 9 nel file `/usr/share/nmap/nmap-service-probes`_
 
-Queste due _Sonde_ rilevano i server di Quake1 e Quake2 (il videogioco). Interessanti per i nostalgici, ma difficilmente utili nella vita di tutti i giorni.
+Queste due _Probe_ rilevano i server di Quake1 e Quake2 (il videogioco). Interessanti per i nostalgici, ma difficilmente utili nella vita di tutti i giorni.
 
 A seconda delle vostre esigenze di precisione o velocità, ricordate che questo principio di "rarità" esiste e può influenzare il risultato.
 
@@ -1023,13 +1021,13 @@ Ecco un esempio dei risultati. In questo caso, Nmap ci dice che probabilmente si
 
 ![nmap-image](assets/fr/38.webp)
 
-rilevamento della probabilità di identificazione di un sistema operativo da parte di Nmap
+_Rilevamento della probabilità di identificazione di un sistema operativo da parte di Nmap_
 
 Per raggiungere questo obiettivo, Nmap utilizzerà una moltitudine di tecniche che funzionano in modo molto simile a _Probes_ e _Matches_ per il rilevamento di tecnologie e versioni. La differenza principale è che Nmap utilizzerà parametri di "basso livello" di ICMP, TCP, UDP e altri protocolli. Ecco due esempi di test per il rilevamento di un sistema operativo Microsoft Windows 11:
 
 ![nmap-image](assets/fr/39.webp)
 
-esempi di test eseguiti da Nmap per rilevare un sistema operativo Windows 11
+_Esempi di test eseguiti da Nmap per rilevare un sistema operativo Windows 11_
 
 Ammettiamolo, questi test sono molto difficili da interpretare e non cercheremo di capirli a fondo nel contesto di un tutorial introduttivo su Nmap. Se volete approfondire l'argomento, il file contenente queste informazioni è `/usr/share/nmap/nmap-os-db`.
 
@@ -1039,7 +1037,7 @@ Tuttavia, è necessario sapere che il rilevamento del sistema operativo è più 
 
 In questa sezione abbiamo imparato a utilizzare le opzioni di Nmap per rilevare le tecnologie, le versioni e i sistemi operativi degli host e dei servizi scansionati. Ora abbiamo una buona comprensione del modo in cui Nmap ottiene queste informazioni da remoto. Abbiamo anche esaminato le opzioni per gestire la verbosità e l'accuratezza dei test, nonché le limitazioni dello strumento su questi argomenti.
 
-Nella prossima sezione impareremo a utilizzare gli script NSE di Nmap per eseguire un'analisi di sicurezza del nostro sistema informatico. Se necessario, rileggete le ultime sezioni e non esitate a esercitarvi e a scavare nelle viscere dello strumento per padroneggiare meglio ciò che abbiamo imparato finora.
+Nella prossima sezione impareremo a utilizzare gli script NSE di Nmap per eseguire un'analisi di sicurezza del nostro sistema informatico. Se necessario, rileggete le ultime sezioni e non esitare a esercitarti e a scavare nelle viscere dello strumento per padroneggiare meglio ciò che abbiamo imparato finora.
 
 
 ## 7 - Analisi della sicurezza: individuare le vulnerabilità

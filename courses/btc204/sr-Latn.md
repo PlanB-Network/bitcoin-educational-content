@@ -2699,7 +2699,6 @@ Trenutno je Whirlpool jedina implementacija CoinJoin-a koja rigorozno primenjuje
 
 
 
-*U 2024. godini, svedočimo velikim promenama u alatima dostupnim korisnicima koji žele da prave coinjoin-ove na Bitcoin-u. Trenutno smo na prekretnici, a tržište CoinJoin-a prolazi kroz veliko restruktuiranje. Ovo poglavlje će sigurno biti ažurirano tokom vremena*
 
 
 Za sada postoje uglavnom 3 različite implementacije CoinJoin-a na Bitcoin-u:

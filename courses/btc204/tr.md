@@ -2714,7 +2714,6 @@ Bu ayrım aynı zamanda Wallet yazılım seviyesinde ön karışım ve son karı
 
 
 
-*2024 yılında, Bitcoin üzerinde coinjoins yapmak isteyen kullanıcıların kullanabileceği araçlarda büyük değişikliklere tanık oluyoruz. Şu anda bir dönüm noktasındayız ve CoinJoin pazarı büyük bir yeniden yapılanma sürecinden geçiyor. Bu bölümün zaman içinde güncelleneceğinden emin olabilirsiniz.*
 
 
 Şu an için Bitcoin üzerinde temel olarak 3 farklı CoinJoin uygulaması bulunmaktadır:

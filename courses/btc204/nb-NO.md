@@ -1888,7 +1888,6 @@ Whirlpool er for øyeblikket den eneste coinjoin-implementeringen som følger Ze
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*I 2024 er vi vitne til store endringer i verktøyene som er tilgjengelige for brukere som ønsker å gjøre coinjoins på Bitcoin. Vi er nå ved et vendepunkt, og coinjoin-markedet gjennomgår store omstruktureringer. Dette kapittelet vil helt sikkert bli oppdatert over tid.*
 
 For øyeblikket finnes det hovedsakelig tre ulike implementeringer av coinjoin på Bitcoin:
 

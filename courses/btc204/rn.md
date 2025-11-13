@@ -2712,7 +2712,6 @@ Ubu, Whirlpool ni yo yonyene ikoresha CoinJoin ikoresha cane umurongo wa Zerolin
 
 
 
-**Mu mwaka w'2024, turiko turabona amahinduka akomeye mu bikoresho biriho ku bakoresha bipfuza gukora coinjoins kuri Bitcoin. Ubu turi mu gihe c'ihinduka, kandi isoko rya CoinJoin ririko rihindurwa cane. Iki gice nta gukeka ko kizosubirwamwo uko igihe kigenda kirarenga**
 
 
 Kugeza ubu hariho ahanini 3 bitandukanye CoinJoin gushirwa mu ngiro kuri Bitcoin:

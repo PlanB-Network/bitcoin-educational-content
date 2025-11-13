@@ -1891,7 +1891,6 @@ Praegu on Whirlpool ainus coinjoin rakendamine, mis kohaldab rangelt Zerolinki p
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*2024. aastal oleme tunnistajaks olulistele muudatustele tööriistades, mis on kättesaadavad kasutajatele, kes soovivad Bitcoinis coinjoneid teha. Oleme praegu pöördepunktis ja coinjoin-turul on toimumas suured ümberkorraldused. Seda peatükki uuendatakse kindlasti aja jooksul*
 
 Hetkel on Bitcoinis peamiselt 3 erinevat coinjoin rakendust:
 

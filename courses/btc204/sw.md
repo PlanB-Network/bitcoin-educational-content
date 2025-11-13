@@ -1865,7 +1865,6 @@ Kwa sasa, Whirlpool ndiyo utekelezaji pekee wa CoinJoin unaotumia kwa ukali itif
 
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
-Mnamo mwaka wa 2024, tunashuhudia mabadiliko makubwa katika zana zinazopatikana kwa watumiaji wanaotaka kufanya mchanganyiko kwenye Bitcoin. Kwa sasa tuko katika hatua ya mabadiliko, na soko la CoinJoin linafanyiwa marekebisho makubwa. Sura hii hakika itasasishwa baada ya muda.
 
 
 Kwa sasa kuna utekelezaji tatu tofauti wa CoinJoin kwenye Bitcoin:

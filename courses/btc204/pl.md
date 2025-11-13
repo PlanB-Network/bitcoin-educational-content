@@ -2702,7 +2702,6 @@ Obecnie Whirlpool jest jedyną implementacją CoinJoin, która rygorystycznie st
 
 
 
-*W 2024 roku jesteśmy świadkami poważnych zmian w narzędziach dostępnych dla użytkowników chcących tworzyć coinjoiny na Bitcoin. Obecnie znajdujemy się w punkcie zwrotnym, a rynek CoinJoin przechodzi poważną restrukturyzację. Ten rozdział z pewnością będzie z czasem aktualizowany.*
 
 
 Na chwilę obecną istnieją głównie 3 różne implementacje CoinJoin na Bitcoin:

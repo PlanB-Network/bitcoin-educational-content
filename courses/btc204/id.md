@@ -1889,7 +1889,6 @@ Saat ini, Whirlpool merupakan satu-satunya implementasi coinjoin yang menerapkan
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*Pada tahun 2024, kita akan menyaksikan perubahan besar pada alat yang tersedia untuk pengguna yang ingin membuat coinjoin di Bitcoin. Saat ini kita sedang berada di titik balik, dan pasar coinjoin sedang mengalami restrukturisasi besar-besaran. Bab ini pasti akan diperbarui seiring berjalannya waktu.*
 
 Untuk saat ini, ada 3 implementasi coinjoin yang berbeda pada Bitcoin:
 

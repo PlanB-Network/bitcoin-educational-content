@@ -1891,7 +1891,6 @@ Whirlpool on tällä hetkellä ainoa coinjoin-toteutus, joka soveltaa tiukasti Z
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*Vuonna 2024 olemme todistamassa suuria muutoksia niiden käyttäjien käyttettävissä olevissa työkaluissa, jotka haluavat tehdä kolikkoliitoksia Bitcoinissa. Olemme tällä hetkellä käännekohdassa, ja coinjoin-markkinat ovat suuressa rakennemuutoksessa. Tätä lukua päivitetään varmasti ajan myötä.*
 
 Tällä hetkellä Bitcoinissa on pääasiassa 3 erilaista coinjoin-toteutusta:
 

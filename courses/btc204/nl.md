@@ -2666,7 +2666,6 @@ Op dit moment is Whirlpool de enige CoinJoin implementatie die het Zerolink prot
 
 
 
-*In 2024 zijn we getuige van grote veranderingen in de gereedschappen die beschikbaar zijn voor gebruikers die coinjoins willen maken op Bitcoin. We staan momenteel op een keerpunt en de CoinJoin markt ondergaat een grote herstructurering. Dit hoofdstuk zal in de loop van de tijd zeker worden bijgewerkt*
 
 
 Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bitcoin:

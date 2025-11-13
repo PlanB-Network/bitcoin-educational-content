@@ -1891,7 +1891,6 @@ Actualmente, Whirlpool es la única implementación coinjoin que aplica rigurosa
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*En 2024, estamos siendo testigos de grandes cambios en las herramientas disponibles para los usuarios que deseen hacer coinjoins en Bitcoin. Nos encontramos en un punto de inflexión, y el mercado de coinjoins está sufriendo una importante reestructuración. Este capítulo se actualizará con el tiempo*
 
 Por el momento existen principalmente 3 implementaciones diferentes de coinjoin en Bitcoin:
 

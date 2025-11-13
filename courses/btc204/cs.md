@@ -1891,7 +1891,6 @@ V současné době je Whirlpool jedinou implementací coinjoinu, která důsledn
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*V roce 2024 jsme svědky velkých změn v nástrojích, které mají uživatelé, kteří chtějí provádět coinjoiny na Bitcoinu, k dispozici. V současné době se nacházíme v bodě zlomu a trh s coinjoiny prochází zásadní restrukturalizací. Tato kapitola bude jistě časem aktualizována.*
 
 V současné době existují v Bitcoinu především 3 různé implementace coinjoinu:
 

@@ -1888,7 +1888,6 @@ Hiện tại, Whirlpool là triển khai coinjoin duy nhất áp dụng nghiêm 
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*Vào năm 2024, chúng ta đang chứng kiến những thay đổi lớn trong các công cụ dành cho người dùng muốn thực hiện coinjoin trên Bitcoin. Hiện tại chúng ta đang ở một bước ngoặt và thị trường coinjoin đang trải qua quá trình tái cấu trúc lớn. Chương này chắc chắn sẽ được cập nhật theo thời gian.*
 
 Hiện tại có chủ yếu 3 cách triển khai coinjoin khác nhau trên Bitcoin:
 

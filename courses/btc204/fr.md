@@ -1782,8 +1782,6 @@ Actuellement, Whirlpool est la seule implémentation de coinjoin qui applique de
 
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
-*En 2024, nous assistons à d'importants changements dans les outils disponibles pour les utilisateurs désirant réaliser des coinjoins sur Bitcoin. Nous sommes actuellement dans une période charnière, et le marché des coinjoins est en pleine restructuration. Ce chapitre sera donc sûrement mis à jour au fil du temps.*
-
 Pour le moment il existe principalement 3 implémentations de coinjoin différentes sur Bitcoin :
 - Whirlpool ;
 - Wabisabi ;

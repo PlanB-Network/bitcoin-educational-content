@@ -1,85 +1,151 @@
 ---
-name: Payjoin - Samourai Wallet
-description: Comment faire une transaction Payjoin sur Samourai Wallet ?
+name: Ashigaru - Stowaway
+description: Comment faire une transaction Payjoin sur Ashigaru ?
 ---
-![samourai payjoin cover](assets/cover.webp)
+![cover](assets/cover.webp)
 
-***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, les Payjoins Stowaway sur Samourai Wallet ne fonctionnent plus qu'en échangeant manuellement les PSBT entre les parties concernées, à condition que les deux utilisateurs soient connectés à leur propre Dojo. Pour ce qui est de Sparrow, les Payjoins via le BIP78 fonctionnent toujours. Toutefois, il est possible que ces outils soient relancés dans les semaines à venir. En attendant, vous pouvez toujours consulter cet article pour comprendre le fonctionnement théorique des Stowaway.*
+> *Force blockchain spies to rethink everything they think they know.*
 
-*Si vous envisagez de réaliser un Stowaway manuellement, la procédure est très similaire à celle décrite dans ce tutoriel. La principale différence réside dans le choix du type de transaction Stowaway : au lieu de sélectionner `Online`, cliquez sur `In Person / Manual`. Ensuite, vous devrez échanger manuellement les PSBT pour construire la transaction Stowaway. Si vous êtes physiquement proche de votre collaborateur, vous pouvez scanner les QR codes successivement. Si vous êtes à distance, les fichiers JSON peuvent être échangés via un canal de communication sécurisé. Le reste du tutoriel demeure inchangé.*
-
-_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
-
-_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
-
----
-
-> *"Force blockchain spies to rethink everything they think they know."*
-
-Le Payjoin est une structure spécifique de transaction Bitcoin qui permet d'améliorer la confidentialité des utilisateurs lors d'une dépense en collaborant avec le destinataire du paiement. Il existe plusieurs implémentations qui permettent de faciliter la mise en place d'un PayJoin et d'automatiser son opération. Parmi ces implémentations, la plus connue est Stowaway développée par les équipes de Samourai Wallet. Ce tutoriel vous explique comment réaliser une transaction Payjoin Stowaway via l'application Samourai Wallet.
+Le Payjoin est une structure de transaction Bitcoin conçue pour renforcer la confidentialité des utilisateurs en impliquant une collaboration directe avec le destinataire du paiement. Plusieurs implémentations existent afin de faciliter sa mise en œuvre et d’automatiser le processus. Parmi elles, la plus connue reste sans doute Stowaway, initialement développée par l’équipe de Samourai Wallet et aujourd’hui intégrée dans son fork Ashigaru.
 
 ## Comment fonctionne Stowaway ?
 
-Comme évoqué précédemment, Samourai Wallet propose un outil de PayJoin dénommé « _Stowaway_ ». Il est accessible via le logiciel Sparrow Wallet sur PC, ou via l'application Samourai Wallet sur Android. Pour effectuer un Payjoin, le destinataire, qui joue aussi le rôle de collaborateur, doit utiliser un logiciel compatible avec Stowaway, à savoir Sparrow ou Samourai. Ces deux logiciels sont interopérables, ce qui permet de réaliser une transaction Stowaway d'un portefeuille Sparrow vers un portefeuille Samourai, et vice-versa.
+Comme mentionné précédemment, Ashigaru intègre un outil de PayJoin appelé `Stowaway`. Celui-ci est disponible dans l’application Ashigaru sur Android. Pour qu’un Payjoin puisse être réalisé, le destinataire (qui endosse également le rôle de collaborateur) doit utiliser un logiciel compatible avec Stowaway, c’est-à-dire seulement Ashigaru pour le moment.
 
-Stowaway s'appuie sur une catégorie de transactions que Samourai nomme les « _Cahoots_ ». Un Cahoot est en fait une transaction collaborative entre plusieurs utilisateurs, nécessitant un échange d'informations hors de la blockchain Bitcoin. À ce jour, Samourai propose deux outils de Cahoots : Stowaway (les Payjoins) et StonewallX2 (que nous découvrirons dans un prochain article).
+Stowaway repose sur une catégorie de transactions que Samourai désignait sous le nom de "Cahoots". Un Cahoot est une transaction collaborative entre plusieurs utilisateurs, impliquant un échange d’informations en dehors de la blockchain Bitcoin. À l’heure actuelle, Ashigaru propose deux outils de Cahoots : Stowaway (les Payjoins) et StonewallX2.
 
-Les transactions Cahoots requièrent des échanges de transactions partiellement signées entre les utilisateurs. Ce processus peut s'avérer long et contraignant, particulièrement quand on est à distance. Néanmoins, il reste réalisable manuellement avec un autre utilisateur, ce qui peut être pratique si les collaborateurs sont physiquement proches. En pratique, cela implique l'échange manuel de cinq codes QR à scanner successivement.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
-À distance, ce procédé devient trop complexe. Pour résoudre ce problème, Samourai a mis au point un protocole de communication chiffré basé sur Tor, baptisé « _Soroban_ ». Avec Soroban, les échanges nécessaires à un Payjoin se font automatiquement, derrière une interface utilisateur conviviale. C'est cette seconde méthode que nous allons étudier dans cet article.
+Les transactions Cahoots nécessitent un échange de transactions partiellement signées entre les utilisateurs. Ce processus peut être long et fastidieux, surtout lorsqu’il est réalisé à distance. Il reste toutefois possible de le faire manuellement si les collaborateurs se trouvent au même endroit. Concrètement, cela implique de scanner successivement cinq codes QR échangés entre les deux participants.
 
-Ces échanges chiffrés exigent d'établir une connexion et une authentification entre les participants des Cahoots. Les communications Soroban s'appuient donc sur les Paynyms des utilisateurs. Si vous n'êtes pas familier avec les Paynyms, je vous invite à consulter cet article pour plus de détails : [BIP47 - PAYNYM](https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+À distance, cette méthode devient trop complexe. Pour y remédier, Samourai a développé un protocole de communication chiffré reposant sur Tor, nommé "Soroban". Grâce à Soroban, les échanges indispensables à un Payjoin sont automatisés et s’effectuent en arrière-plan.
 
+Ces communications chiffrées nécessitent d’établir une connexion et une authentification entre les participants au Cahoot. C’est pourquoi Soroban s’appuie sur les Paynyms des utilisateurs. Si vous ne maîtrisez pas encore le fonctionnement des Paynyms, je vous invite à consulter ce tutoriel dédié pour en apprendre davantage :
 
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
-Pour faire simple, un Paynym est un identifiant unique lié à votre portefeuille, qui permet diverses fonctionnalités, dont des échanges de messages chiffrés. Le Paynym se présente sous la forme d'un identifiant et d'une illustration représentant un robot. Voici, à titre d'exemple, le mien sur le Testnet :
-![paynym samourai wallet](assets/fr/1.webp)
+Pour résumer, un Paynym est un identifiant unique associé à votre portefeuille, permettant d’activer différentes fonctionnalités, notamment des échanges chiffrés. Il se matérialise sous la forme d’un identifiant accompagné d’une illustration. Voici, par exemple, celui que j’utilise sur le Testnet :
+
+01
 
 **Pour résumer :**
-- _Payjoin_ = Structure spécifique de transaction collaborative ;
-- _Stowaway_ = Implémentation de Payjoin disponible sur Samourai et Sparrow Wallet ;
-- _Cahoots_ = Nom donné par Samourai à tous leurs types de transactions collaboratives, notamment les Payjoin Stowaway ;
-- _Soroban_ = Protocole de communication chiffré établi sur Tor permettant de collaborer avec d'autres utilisateurs dans le cadre d'une transaction Cahoots ;
-- _Paynym_ = Identifiant unique d'un portefeuille permettant d'établir une communication avec un autre utilisateur sur Soroban, en vue d'effectuer une transaction Cahoots.
 
-[**-> En savoir plus sur les transactions Payjoin et leur utilité**](https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+- `Payjoin` = Structure spécifique de transaction collaborative ;
+
+- `Stowaway` = Implémentation de Payjoin disponible sur Ashigaru ;
+
+- `Cahoots` = Nom donné par Samourai à tous leurs types de transactions collaboratives, notamment les Payjoin `Stowaway`, repris aujourd'hui sur Ashigaru ;
+
+- `Soroban` = Protocole de communication chiffré établi sur Tor permettant de collaborer avec d'autres utilisateurs dans le cadre d'une transaction `Cahoots` ;
+
+- `Paynym` = Identifiant unique d'un portefeuille permettant d'établir une communication avec un autre utilisateur sur `Soroban`, en vue d'effectuer une transaction `Cahoots`.
+
+Pour approfondir le fonctionnement des Payjoins et leur utilité en matière de confidentialité onchain, je vous recommande de consulter cet autre tutoriel :
+
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ## Comment établir une connexion entre Paynyms ?
 
-Pour réaliser une transaction Cahoots à distance, notamment un PayJoin (Stowaway) via Samourai, il est nécessaire de « _Suivre_ » l'utilisateur avec qui vous envisagez de collaborer, en utilisant son Paynym. Dans le cas d'un Stowaway, il s'agit de suivre la personne à qui vous désirez envoyer des bitcoins.
+Pour commencer, vous devrez bien entendu installer Ashigaru et y créer un portefeuille :
 
-**Voici la procédure pour établir cette connexion :**
+https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f
 
-Pour commencer, il est nécessaire d'obtenir le code de paiement du Paynym du destinataire du Payjoin. Dans l'application Samourai Wallet, le destinataire doit appuyer sur l'icône de son Paynym (le petit robot) située en haut à gauche de l'écran, puis cliquer sur son surnom de Paynym, commençant par `+...`. Par exemple, le mien est `+namelessmode0aF`. Si votre collaborateur utilise Sparrow Wallet, je vous invite à consulter notre tutoriel dédié en cliquant ici.
+Pour effectuer une transaction Cahoots à distance, notamment un PayJoin (*Stowaway*) via Ashigaru, vous devez d’abord “follow” l’utilisateur avec lequel vous souhaitez collaborer, en utilisant son Paynym. Dans le cadre d’un Stowaway, cela signifie suivre la personne à qui vous souhaitez envoyer des bitcoins. Si vous ne savez pas encore comment suivre un autre Paynym, vous trouverez la procédure détaillée dans ce tutoriel :
 
-![connexion paynym samourai](assets/notext/2.webp)
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
-Votre collaborateur sera alors redirigé vers la page de son Paynym. De là, il pourra soit vous transmettre les identifiants de son Paynym, soit partager avec vous son code QR pour que vous puissiez le scanner. Pour cela, il doit cliquer sur la petite icône `partager` située en haut à droite de son écran.
-![partager paynym samourai](assets/fr/1.webp)
+## Comment faire un Payjoin sur Ashigaru ?
 
-De votre côté, lancez votre application Samourai Wallet et accédez au menu `PayNyms` de la même manière. Si c'est la première utilisation de votre Paynym, vous devrez en obtenir l'identifiant. 
+Pour effectuer une transaction Stowaway, cliquez sur l’image de votre Paynym en haut à gauche de l’écran, puis ouvrez le menu `Collaborate`. La personne qui participe avec vous à cette transaction doit faire la même manipulation, sauf si vous réalisez l’échange de QR codes en personne.
 
-![demander un paynym](assets/notext/3.webp)
+02
 
-Cliquez ensuite sur le `+` bleu en bas à droite de l'écran.
-![ajouter paynym collaborateur](assets/notext/4.webp)
-Vous pouvez alors coller le code de paiement de votre collaborateur en sélectionnant `COLLER LE CODE PAIEMENT`, ou ouvrir la caméra pour scanner son code QR en appuyant sur `SCANNEZ LE CODE QR`.
-![coller identifiant paynym](assets/notext/5.webp)
+Deux options s’offrent à vous : sélectionnez `Initiate` si vous êtes l’émetteur du paiement, ou `Participate` si vous êtes le destinataire du paiement de ce payjoin.
 
-Cliquez sur le bouton `SUIVRE`.
-![suivre paynym](assets/notext/6.webp)
-Validez en cliquant sur `YES`.
-![valider suivre paynym](assets/notext/7.webp)
-Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du BIP47, ce qui n'a rien à voir avec notre tutoriel.
-![connecter paynym](assets/notext/8.webp)
-Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.
+03
 
+Si vous avez le rôle du destinataire, la procédure est très simple. Pour une collaboration à distance via le réseau Soroban, cliquez sur `Participate`, choisissez le compte que vous souhaitez utiliser, puis appuyez sur `LISTEN FOR CAHOOTS REQUESTS` afin d’attendre la requête envoyée par le payeur.
 
-## Comment faire un Payjoin sur Samourai Wallet ?
+04
 
-Si vous avez réalisé ces quelques étapes préalables, vous êtes enfin prêt pour réaliser la transaction Payjoin ! Pour ce faire, suivez notre tutoriel vidéo :
+En revanche, pour une collaboration en personne via le scan de QR codes, rendez-vous sur la page d’accueil de votre wallet, appuyez sur l’icône du QR code en haut de l’écran, puis scannez le QR code fourni par le payeur qui initie la transaction.
 
-![Tutoriel vidéo Payjoin - Samourai Wallet](https://youtu.be/FXW6XZim0ww?si=EXalYwK1t9DT48aE)
+05
 
-**Ressources externes :** 
-- https://docs.samourai.io/en/spend-tools#stowaway.
+Si vous êtes dans le rôle du payeur, c’est-à-dire celui qui initie la transaction, rendez-vous dans le menu `Collaborate`, puis sélectionnez `Initiate`.
+
+06
+
+Pour le type de transaction, puisque l'on souhaite ici effectuer un Payjoin Stowaway, choisissez cette option.
+
+07
+
+Vous pouvez ensuite choisir entre une collaboration en ligne (*Cahoots* via *Soroban*) ou une collaboration en personne, avec les échanges de QR codes.
+
+08
+
+### Cahoots en ligne
+
+Si vous avez opté pour l’option `Online`, sélectionnez ensuite le destinataire parmi les Paynyms que vous suivez.
+
+09
+
+Cliquez sur `Set up transaction`, puis choisissez le compte à partir duquel vous souhaitez effectuer la dépense.
+
+10
+
+Sur la page suivante, renseignez les détails de la transaction : le montant à envoyer au destinataire et le taux de frais. Pas besoin de renseigner d'adresse de réception, puisque c'est le destinataire lui-même qui la transmettra lors des échanges de PSBT.
+
+Cliquez ensuite sur `Review transaction setup`.
+
+11
+
+Vérifiez attentivement les informations, assurez-vous que votre collaborateur est bien en train d’écouter les requêtes de *Cahoots*, puis cliquez sur le bouton vert `BEGIN TRANSACTION` pour initier l’échange des PSBTs via Soroban.
+
+12
+
+Patientez jusqu’à la signature complète de la transaction par les deux participants, puis diffusez-la sur le réseau Bitcoin.
+
+13
+
+### Échanges en personne
+
+Si vous souhaitez effectuer l’échange en personne, sélectionnez le type de transaction `STONEWALL X2`, puis choisissez l’option `In Person / Manual`.
+
+14
+
+Cliquez sur `Set up transaction`, puis choisissez le compte à partir duquel vous souhaitez effectuer la dépense.
+
+15
+
+Sur la page suivante, renseignez les détails de la transaction : le montant à envoyer au destinataire et le taux de frais. Pas besoin de renseigner d'adresse de réception, puisque c'est le destinataire lui-même qui la transmettra lors des échanges de PSBT.
+
+Cliquez ensuite sur `Review transaction setup`.
+
+16
+
+Vérifiez les détails, puis appuyez sur le bouton vert `BEGIN TRANSACTION` pour lancer l’échange des PSBTs via le scan de QR codes.
+
+17
+
+L’échange se fait en alternant le scan avec le collaborateur : cliquez sur `SHOW QR CODE` pour afficher votre QR code à votre collaborateur, qui le scannera. Ensuite, il affichera à son tour le sien en cliquant sur `SHOW QR CODE`, et vous devrez le scanner avec `LAUNCH QR Scanner`. Puis répétez ce processus jusqu’à ce que les cinq étapes de l’échange soient complètes.
+
+18
+
+Une fois tous les échanges effectués, vérifiez les détails de la transaction, puis diffusez-la en faisant glisser la flèche verte située en bas de l’écran.
+
+19
+
+[La transaction a bien été diffusée](https://mempool.space/testnet4/tx/82efd3700bba87b0f172e9cc045e441b38622c95a60df9f39a21f63eb4590a96). Sa structure se présente ainsi :
+
+20
+
+*Crédit: [mempool.space](https://mempool.space/)*
+
+Si l'on analyse cette transaction, on observe en entrée mon UTXO de `164 211 sats` ainsi que l’UTXO de `190 002 sats` appartenant au destinataire effectif du paiement. En sortie, je récupère un UTXO de change de `63 995 sats`, tandis que le destinataire reçoit un UTXO de `290 002 sats`. En comparant inputs et outputs, on constate que le destinataire a bien gagné `100 000 sats`, ce qui correspond au montant de mon paiement effectif, et que de mon côté, j’ai perdu `100 000 sats`, auxquels s’ajoutent les frais de minage.
+
+Évidemment, je peux décrire cette structure car j’ai moi-même construit la transaction. Mais pour un observateur extérieur, il est généralement impossible de déterminer quels UTXOs appartiennent à quel participant, que ce soit en inputs ou en outputs.
+
+Pour approfondir vos connaissances sur la gestion de la confidentialité onchain sur Bitcoin, je vous recommande de suivre ma formation BTC 204 sur Plan ₿ Academy :
+
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

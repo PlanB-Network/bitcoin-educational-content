@@ -50,7 +50,7 @@ Reprenons l'exemple d'Alice chez le boulanger. La transaction sur la blockchain 
 
 ![image](assets/fr/04.webp)
 
-Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "**deux personnes ont réalisé un petit coinjoin, avec un UTXO chacun en entrée et deux UTXO chacun en sortie**".
+Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*deux personnes ont réalisé un petit coinjoin, avec un UTXO chacun en entrée et deux UTXO chacun en sortie*".
 
 ![image](assets/fr/05.webp)
 
@@ -74,29 +74,29 @@ Contrairement aux transactions Stowaway ou Stonewall x2 (*cahoots*), les transac
 
 Pour réaliser une transaction Stonewall sur Sparrow, la procédure est très simple : commencez par créer une transaction comme d’habitude, soit via le menu `Send`, soit depuis le menu `UTXOs` si vous souhaitez faire du *Coin Control*.
 
-06
+![Image](assets/fr/06.webp)
 
 Renseignez ensuite les détails de la transaction : l’adresse du destinataire, un label, le montant à envoyer ainsi que le montant ou le taux de frais en fonction des conditions du marché.
 
-07
+![Image](assets/fr/07.webp)
 
 Avant de confirmer, c’est à cette étape que vous pouvez sélectionner la structure Stonewall. En bas de l’interface, remplacez `Efficiency` par `Privacy`. Si cette option n’apparaît pas, cela signifie que votre portefeuille ne dispose pas d’un nombre suffisant d’UTXOs pour construire ce type de transaction.
 
-08
+![Image](assets/fr/08.webp)
 
 Après avoir sélectionné l’option `Privacy`, vous remarquerez que la structure de la transaction est entièrement modifiée : elle devient une transaction Stonewall, qui consomme plusieurs de vos UTXOs en inputs et produit deux outputs de montants identiques, dont l’une correspond au paiement effectif de `100 000 sats`, en plus des outputs de change.
 
-09
+![Image](assets/fr/09.webp)
 
 Si tout est correct, cliquez sur `Create Transaction`.
 
 Vous pouvez alors vérifier une dernière fois les détails de votre transaction, puis cliquer sur `Finalize Transaction for Signing`.
 
-10
+![Image](assets/fr/10.webp)
 
 Signez ensuite la transaction selon la méthode propre à votre portefeuille, puis cliquez sur `Broadcast Transaction` pour la diffuser sur le réseau Bitcoin en attente de confirmation.
 
-11
+![Image](assets/fr/11.webp)
 
 Vous connaissez désormais le fonctionnement d’une transaction Stonewall sur Sparrow Wallet et savez comment en créer une. Pour approfondir votre maîtrise de ces outils destinés à renforcer votre confidentialité onchain, je vous invite à suivre ma formation BTC 204 sur Plan ₿ Academy :
 

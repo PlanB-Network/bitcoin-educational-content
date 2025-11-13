@@ -347,7 +347,7 @@ Coinbase - это особый тип транзакции Bitcoin, которы
 
 Что может быть лучше анализа блокчейна, чем узнать о методах, используемых в нем? Если вы хотите знать, как улучшить свою конфиденциальность в Биткойне, вам нужно понять эти методы. Это позволит вам лучше понять такие методы, как coinjoin или payjoin (методы, которые мы рассмотрим в заключительных частях курса), и сократить количество ошибок, которые вы можете совершить.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

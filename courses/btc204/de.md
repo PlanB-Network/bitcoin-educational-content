@@ -349,7 +349,7 @@ Wir müssen also auch in der Lage sein, die Blockchain-Analyse bei der Nutzung v
 
 Wie kann man der Blockchain-Analyse besser begegnen, als wenn man die dabei verwendeten Methoden kennenlernt? Wenn Sie wissen wollen, wie Sie Ihre Privatsphäre auf Bitcoin verbessern können, müssen Sie diese Methoden verstehen. Dadurch können Sie Techniken wie Coinjoin oder Payjoin (Techniken, die wir in den letzten Teilen des Kurses betrachten) besser verstehen und die Fehler, die Sie machen könnten, reduzieren.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

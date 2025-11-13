@@ -500,7 +500,7 @@ Så vi måste också kunna hantera Blockchain-analys i vår användning av Bitco
 Finns det något bättre sätt att motverka Blockchain-analys än att lära sig om de metoder som används i den? Om du vill veta hur du kan förbättra din integritet på Bitcoin måste du förstå dessa metoder. Detta kommer att ge dig en bättre förståelse för tekniker som CoinJoin eller PayJoin (tekniker som vi kommer att titta på i de sista delarna av kursen) och minska de misstag du kan göra.
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

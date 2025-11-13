@@ -347,7 +347,7 @@ coinbaseのトランザクションは、出力を生成するために入力を
 
 ブロックチェーン分析に対抗するには、そこで使われている手法を学ぶのが一番だろう。ビットコインでプライバシーを向上させる方法を知りたければ、これらの方法を理解する必要がある。そうすることで、coinjoinやpayjoinのようなテクニック（コースの最後の部分で見るテクニック）をよりよく把握できるようになり、あなたが犯すかもしれないミスを減らすことができます。
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

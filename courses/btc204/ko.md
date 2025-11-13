@@ -510,7 +510,7 @@ Blockchain 분석의 목표 중 하나는 Bitcoin의 다양한 활동을 그룹�
 Blockchain 분석에 대응하는 가장 좋은 방법은 분석에 사용된 방법에 대해 알아보는 것일까요? Bitcoin 개인 정보 보호를 강화하려면 이러한 방법을 이해하는 것이 필수적입니다. 이렇게 하면 CoinJoin 또는 PayJoin(이 과정의 마지막 부분에서 살펴볼 기법)와 같은 기법을 더 잘 이해하고 실수를 줄일 수 있습니다.
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

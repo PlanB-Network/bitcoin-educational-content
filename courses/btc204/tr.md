@@ -510,7 +510,7 @@ Dolayısıyla, Bitcoin kullanımımızda Blockchain analiziyle de başa çıkabi
 Blockchain analizine karşı koymanın, bu analizde kullanılan yöntemleri öğrenmekten daha iyi bir yolu var mı? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu size CoinJoin veya PayJoin gibi teknikleri (kursun son bölümlerinde inceleyeceğimiz teknikler) daha iyi kavramanızı sağlayacak ve yapabileceğiniz hataları azaltacaktır.
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

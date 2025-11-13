@@ -347,7 +347,7 @@ Jadi, kita juga harus mampu mengatasi analisis blockchain dalam penggunaan Bitco
 
 Apa cara yang lebih baik untuk melawan analisis blockchain selain mempelajari metode yang digunakan di dalamnya? Jika Anda ingin tahu cara meningkatkan privasi Anda di Bitcoin, Anda perlu memahami metode-metode ini. Ini akan memberi Anda pemahaman yang lebih baik tentang teknik-teknik seperti coinjoin atau payjoin (teknik yang akan kita bahas di bagian akhir kursus ini), dan mengurangi kesalahan yang mungkin Anda buat.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

@@ -506,7 +506,7 @@ Coinbase Transaction منحصر به فرد است زیرا تنها دستگا�
 چه راهی بهتر برای مقابله با تحلیل Blockchain از یادگیری روش‌های استفاده شده در آن وجود دارد؟ اگر می‌خواهید بدانید چگونه حریم خصوصی خود را در Bitcoin بهبود بخشید، باید این روش‌ها را درک کنید. این به شما درک بهتری از تکنیک‌هایی مانند CoinJoin یا PayJoin (تکنیک‌هایی که در بخش‌های پایانی دوره به آن‌ها خواهیم پرداخت) می‌دهد و اشتباهاتی که ممکن است مرتکب شوید را کاهش می‌دهد.
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

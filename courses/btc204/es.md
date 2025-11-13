@@ -349,7 +349,7 @@ Así que también tenemos que ser capaces de hacer frente al análisis de blockc
 
 ¿Qué mejor manera de contrarrestar el análisis de blockchain que conocer los métodos utilizados en él? Si quieres saber cómo mejorar tu privacidad en Bitcoin, necesitas entender estos métodos. Esto te dará una mejor comprensión de técnicas como coinjoin o payjoin (técnicas que veremos en las partes finales del curso), y reducirá los errores que puedas cometer.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

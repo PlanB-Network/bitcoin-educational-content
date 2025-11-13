@@ -346,7 +346,7 @@ Derfor må vi også kunne håndtere blokkjedeanalyse i vår bruk av Bitcoin. På
 
 Hvilken bedre måte å motvirke blockchain-analyse på enn å lære om metodene som brukes i den? Hvis du vil vite hvordan du kan forbedre personvernet ditt på Bitcoin, må du forstå disse metodene. Dette vil gi deg en bedre forståelse av teknikker som coinjoin eller payjoin (teknikker vi vil se på i de siste delene av kurset), og redusere feilene du kan gjøre.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

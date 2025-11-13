@@ -346,7 +346,7 @@ Vì vậy, chúng ta cũng cần có khả năng đối phó với phân tích b
 
 Còn cách nào tốt hơn để chống lại phân tích blockchain hơn là tìm hiểu về các phương pháp được sử dụng trong đó? Nếu bạn muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn cần hiểu các phương pháp này. Điều này sẽ giúp bạn nắm bắt tốt hơn các kỹ thuật như coinjoin hoặc payjoin (các kỹ thuật chúng ta sẽ xem xét trong các phần cuối của khóa học) và giảm thiểu các lỗi bạn có thể mắc phải.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 

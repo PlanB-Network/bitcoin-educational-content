@@ -1899,6 +1899,8 @@ Licha ya muundo wake wa kiubunifu wa kuunganisha wa P2P kwa waunganishaji, JoinM
 
 Hatimaye, wakati dhana ya JoinMarket inavutia, hasa kwa wale wanaopenda soko la ukwasi wa nguvu, udhaifu wake wa kimuundo na utata wa kiufundi hufanya hivyo, kwa maoni yangu, chini ya kuvutia kwa wanovisi na wataalam wanaotafuta utekelezaji wa kuunga sarafu.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi ni utekelezaji mwingine wa CoinJoin unaolenga kuboresha uratibu wa miamala. Muundo huu ulibuniwa na Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, na István András Seres mnamo 2021, na uliunganishwa katika programu ya Wasabi 2.0 mwaka uliofuata. Wabisabi ni mageuzi makubwa ya muundo wa programu ya Wasabi ya CoinJoin iliyozinduliwa mnamo 2018.

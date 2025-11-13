@@ -1922,6 +1922,8 @@ Mặc dù có mô hình liên kết P2P sáng tạo dành cho coinjoiners, JoinM
 
 Cuối cùng, mặc dù khái niệm JoinMarket rất thú vị, đặc biệt là đối với những người quan tâm đến thị trường thanh khoản năng động, nhưng điểm yếu về mặt cấu trúc và tính phức tạp về mặt kỹ thuật khiến nó, theo tôi, kém hấp dẫn hơn đối với cả người mới bắt đầu và chuyên gia đang tìm kiếm triển khai coinjoin.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi là một triển khai coinjoin khác, với cách tiếp cận tập trung hóa việc phối hợp giao dịch. Mô hình này được hình thành bởi Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero và István András Seres vào năm 2021 và được tích hợp vào phần mềm Wasabi 2.0 vào năm sau. Wabisabi chính xác là sự phát triển của mô hình coinjoin phần mềm Wasabi ra mắt vào năm 2018.

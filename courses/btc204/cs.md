@@ -1925,6 +1925,8 @@ I přes svůj inovativní model propojení P2P pro coinjoinery má JoinMarket n�
 
 A konečně, i když je koncept JoinMarket zajímavý, zejména pro zájemce o dynamický trh s likviditou, jeho strukturální nedostatky a technická složitost jej podle mého názoru činí méně zajímavým jak pro nováčky, tak pro odborníky, kteří hledají implementaci coinjoinu.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi je další implementací coinjoinu s přístupem, který centralizuje koordinaci transakcí. Tento model vymysleli Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero a István András Seres v roce 2021 a následující rok byl začleněn do softwaru Wasabi 2.0. Wabisabi je právě evolucí modelu coinjoin softwaru Wasabi, který byl spuštěn v roce 2018.

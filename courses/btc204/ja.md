@@ -1923,6 +1923,8 @@ JoinMarketはコインジョイナーに対する革新的なP2Pリンクモデ�
 
 最後に、JoinMarketのコンセプトは、特にダイナミックな流動性市場に興味がある人にとっては興味深いものだが、その構造的な弱点と技術的な複雑さから、コインジョイントの実装を探している初心者と専門家の両方にとって、あまり興味深いものではないと私は思う。
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### ワビサビ
 
 Wabisabiはコインジョイントのもう一つの実装であり、トランザクションの調整を一元化するアプローチである。このモデルは2021年にÁdám Ficsór（nopara73）、Yuval Kogman、Lucas Ontivero、István András Seresによって考案され、翌年にWasabi 2.0ソフトウェアに統合された。Wabisabiはまさに、2018年に発表されたWasabiソフトウェアのコインジョインモデルを進化させたものである。

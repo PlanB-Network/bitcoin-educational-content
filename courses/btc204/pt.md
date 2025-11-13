@@ -1922,6 +1922,8 @@ Apesar do seu modelo inovador de ligação P2P para coinjoiners, o JoinMarket te
 
 Finalmente, embora o conceito JoinMarket seja interessante, especialmente para os interessados num mercado de liquidez dinâmico, as suas fraquezas estruturais e complexidade técnica tornam-no, na minha opinião, menos interessante tanto para os principiantes como para os especialistas que procuram uma implementação coinjoin.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi é outra implementação de coinjoin, com uma abordagem que centraliza a coordenação das transacções. Este modelo foi concebido Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero e István András Seres em 2021, e foi integrado ao software Wasabi 2.0 no ano seguinte. Wabisabi é precisamente uma evolução do modelo de coinjoin do software Wasabi lançado em 2018.

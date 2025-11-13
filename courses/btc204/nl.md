@@ -2715,6 +2715,8 @@ Ondanks het innovatieve P2P koppelingsmodel voor coinjoiners, heeft JoinMarket e
 Tot slot, hoewel het JoinMarket concept interessant is, vooral voor degenen die geïnteresseerd zijn in een dynamische liquiditeitsmarkt, maken de structurele zwakheden en technische complexiteit het naar mijn mening minder interessant voor zowel beginners als experts die op zoek zijn naar een CoinJoin implementatie.
 
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 

@@ -2761,6 +2761,8 @@ Naho ifise ubuhinga bushasha bwo guhuza P2P ku ba coinjoiners, JoinMarket irafis
 Ubwa nyuma, naho iciyumviro ca JoinMarket gishimishije cane cane ku bakunda isoko ry’amahera ry’inguvu, intege nke zaryo z’imiterere n’ubuhinga bwaryo butoroshe bituma, mu vyiyumviro vyanje, kidashimishije cane abashasha n’abahinga barondera ugushirwa mu ngiro kwa CoinJoin.
 
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 

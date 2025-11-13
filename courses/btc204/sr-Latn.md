@@ -2749,6 +2749,8 @@ Uprkos svom inovativnom P2P modelu povezivanja za coinjoinere, JoinMarket ima ne
 Konačno, iako je koncept JoinMarket-a zanimljiv, posebno za one koji su zainteresovani za dinamično tržište likvidnosti, njegove strukturne slabosti i tehnička složenost ga čine, po mom mišljenju, manje zanimljivim za početnike i stručnjake koji traže CoinJoin implementaciju.
 
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 

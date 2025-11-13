@@ -2763,6 +2763,8 @@ JoinMarket, coinjoiner'lar için yenilikçi P2P bağlantı modeline rağmen, öz
 Son olarak, JoinMarket konsepti, özellikle dinamik bir likidite piyasasıyla ilgilenenler için ilginç olsa da, yapısal zayıflıkları ve teknik karmaşıklığı, bence, bir CoinJoin uygulaması arayan hem acemiler hem de uzmanlar için daha az ilgi çekici hale getiriyor.
 
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 

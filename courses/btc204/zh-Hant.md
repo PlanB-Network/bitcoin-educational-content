@@ -2751,6 +2751,8 @@ JoinMarket 的主要缺點之一是使用上的複雜性，需要對終端機有
 最後，雖然 JoinMarket 的概念很有趣，特別是對那些對動態流動性市場有興趣的人來說，它的結構弱點和技術複雜性，在我看來，對於尋找 CoinJoin 實作的新手和專家來說，都不太有趣。
 
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 

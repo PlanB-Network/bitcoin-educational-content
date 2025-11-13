@@ -1925,6 +1925,8 @@ Hoolimata oma uuenduslikust P2P-ühendusmudelist coinjoineritele, on JoinMarketi
 
 Lõpuks, kuigi JoinMarket'i kontseptsioon on huvitav, eriti neile, kes on huvitatud dünaamilisest likviidsusturust, muudavad selle struktuurilised puudused ja tehniline keerukus selle minu arvates vähem huvitavaks nii algajatele kui ka ekspertidele, kes otsivad coinjoin'i rakendamist.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi on veel üks coinjoini rakendus, mille lähenemisviis tsentraliseerib tehingu koordineerimise. Selle mudeli mõtlesid Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero ja István András Seres välja 2021. aastal ning see integreeriti Wasabi 2.0 tarkvarasse järgmisel aastal. Wabisabi on just 2018. aastal käivitatud Wasabi tarkvara mündiühendusmudeli edasiarendus.

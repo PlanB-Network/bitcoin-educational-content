@@ -1922,6 +1922,8 @@ JoinMarket 的主要缺点之一是使用复杂，需要对终端有一定程度
 
 最后，虽然 JoinMarket 的概念很有趣，特别是对于那些对动态流动性市场感兴趣的人来说，但我认为，它的结构弱点和技术复杂性使它对于寻找硬币连接实现的新手和专家来说都不那么有趣。
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi 是另一种币合实现方式，采用的是集中交易协调的方法。该模式由Ádám Ficsór (nopara73)、Yuval Kogman、Lucas Ontivero和István András Seres于2021年构思，并于次年集成到Wasabi 2.0软件中。Wabisabi正是2018年推出的Wasabi软件币合模式的进化版。

@@ -2751,6 +2751,8 @@ Pomimo innowacyjnego modelu łączenia P2P dla coinjoinerów, JoinMarket ma pewn
 Wreszcie, chociaż koncepcja JoinMarket jest interesująca, szczególnie dla osób zainteresowanych dynamicznym rynkiem płynności, jej słabości strukturalne i złożoność techniczna sprawiają, że moim zdaniem jest ona mniej interesująca zarówno dla nowicjuszy, jak i ekspertów poszukujących implementacji CoinJoin.
 
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 

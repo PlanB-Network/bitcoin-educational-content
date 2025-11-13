@@ -1925,6 +1925,8 @@ Huolimatta innovatiivisesta P2P-linkitysmallistaan kolikkojälleenmyyjille JoinM
 
 Vaikka JoinMarketin konsepti on mielenkiintoinen erityisesti niille, jotka ovat kiinnostuneita dynaamisista likviditeettimarkkinoista, sen rakenteelliset heikkoudet ja tekninen monimutkaisuus tekevät siitä mielestäni vähemmän kiinnostavan sekä aloittelijoille että asiantuntijoille, jotka etsivät coinjoin-toteutusta.
 
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
+
 ### Wabisabi
 
 Wabisabi on toinen coinjoin-toteutus, jonka lähestymistapa keskittää transaktioiden koordinoinnin. Tämä malli suunniteltiin Ádám Ficsórin (nopara73), Yuval Kogmanin, Lucas Ontiveron ja István András Seresin toimesta vuonna 2021, ja se sisällytettiin Wasabi 2.0 -ohjelmistoon seuraavana vuonna. Wabisabi on nimenomaan vuonna 2018 lanseeratun Wasabi-ohjelmiston coinjoin-mallin evoluutio.

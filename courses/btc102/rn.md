@@ -3060,19 +3060,19 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-Niba wifuza kumenya vyinshi ku bijanye n’umutekano w’ivy’ubuhinga bwa none, turaguha inyigisho yuzuye y’umwaka wa mbere yerekeye iyo nsiguro:
+Niba ukeneye kumenya vyinshi ku bijanye n’umutekano w’ivy’ubuhinga bwa none, turaguha inyigisho yuzuye y’umwaka wa mbere yahariwe ico cirwa:
 
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-#### 2. Gugura ama bitcoins ata wuzi
+#### 2. Kugura  ama bitcoins utabnje kumenyekana
 
 
-Ingingo nyamukuru ku mushoramari w’umunyamibabaro ni ukuronka Bitcoin ataco ayihuje n’akaranga kabo nyakuri. Kugira ngo birinde ama platforms ya KYC no gukingira urutoke rwa On-Chain, bahindukira bakoresha ingamba zitari nke:
+Ingingo nyamukuru yo gushora imitahe w’umunyamibabaro ni ukuronka Bitcoin ataho bihuriye no gutanga umwidondoro wawe. Kugira wirinde imbuga nyinshi zisaba kwimenyekanisha KYC kuri blockchain, hakoreshwa imikenyuro myinshi:
 
 
 
-- Ivyuma vyo kugura ** nka Bisq, Robosat, LNP2PBot, Peach, HODL HODL, n’ibindi ;
+- Ivyuma vyo kugura hagati y'abantu babiri ** nka Bisq, Robosat, LNP2PBot, Peach, HODL HODL, n’ibindi ;
 
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -3086,15 +3086,15 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Ubucuruzi bw’amahera bw’abantu**, nk’akarorero mu makoraniro ya Bitcoin yo mu karere;
+- **Uguhanahana amafaranga hagati mu bantu**, nk’akarorero mu makoraniro ya Bitcoin yo mu karere;
 
 
 https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
-- Amafaranga y’amahera Bitcoin**;
-- Kuronka Sats** mu gutanga ibintu canke ibikorwa muri Exchange ku Bitcoin;
-- Mining amafaranga y’ibice**.
+**- Ivyuma bitanga amahera ya bitcoins**;
+-**Gutsindira ama Sats** mu gutanga ibintu canke ibikorwa mu guhanahana ama bitcoins ku Bitcoin;
+- **Mining amafaranga y’ibice**.
 
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
@@ -3103,91 +3103,89 @@ https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
-Ivy’uguhanahana amakuru bihurikiye hamwe birarindwa rwose kubera ingorane bitera; ivyo bibiri kubera ubuzima bwite no kugira ngo umuntu ashobore gucengera canke gufatwa.
+Imbuga z'uguhanahana amafaranga zigendurwa zirankwa cane bivuye ku ngorane zishobora gukwegera umuntu; ivyo bibiri kubera ubuzima bwite no kugira ngo umuntu ashobore kugenzurwa canke gufatwa.
 
 
 ![BTC102-Bitcoin](assets/fr/091.webp)
 
 
-#### 3. Gukingira onchain gukurikirana
+#### 3. Gukingira gukurikiranwa ku muhora wa onchain
 
 
-Naho woba umaze kuronka ibiceri ata wubizi, birashoboka ko amakuru y’ibanga On-Chain ashobora gusohoka iyo utari maso. Uwukoresha afata intambwe z'inyongera kugira ngo akingire ubuzima bwite ku rugero rw'ugucuruza:
+Naho woba uhejeje kuronka ama bitcoin`, birashoboka ko amakuru y’ibanga On-Chain ashobora gusohoka iyo utari maso. Uwukoresha afata intambwe z'inyongera kugira ngo akingire ubuzima bwite ku rugero rw'ugucuruza:
 
 
 
-- Kwirinda gusubira gukoresha Address**, ​​haba n’amaboko canke ukoresheje ibikoresho biteye imbere nk’Ivyishyurwa Bicereje canke BIP47 ;
-- Gushirako amazina ku ma UTXO yawe** ;
-- Kwimenyereza gucungera imfuruka igihe ukoresha amahera** ;
+- **Irinde gukoresha Address akenshi**, ​​haba n’amaboko canke ukoresheje ibikoresho biteye imbere nk’Ivyishyurwa Bicereje canke BIP47 ;
+-**Gushirako amazina ku ma UTXO yawe** ;
+- **Kwimenyereza gucungera ibiceri vyawe igihe ukoresha amahera** ;
 - Kwirinda gukorana n’ama UTXO** ;
-- Gukoresha imiterere y'ubucuruzi irinda ubuzima bwite**: amafaranga, amafaranga, ricochets, n'amafaranga make...
+- Gukoresha imiterere y'ubucuruzi irinda ubuzima bwawe bw'ibanga**: amafaranga, amafaranga, ricochets, n'amafaranga make...
 
 
 Barazi kandi ivy’ishimikiro vyo gucungera Blockchain kandi barazi ingene amashirahamwe akurikirana ibikorwa. Mu gutahura ubuhinga n’imirongo ikoreshwa n’amashirahamwe y’ugusesangura uruhererekane, barashobora gutera intambwe zikomeye kugira ngo ntibagwe mu mitego izwi.
 
 
-Ku bashaka kwinjira cane mu vy’ubuzima bwite bwa On-Chain n’ukurwanya ubugenzuzi, turatanga inyigisho ziteye imbere z’umwaka wa kabiri ku migenzo y’ubuzima bwite bwa Bitcoin:
+Kubashaka kwinjira cane mu vy’ubuzima bw'ibanga bwa blockchain n’ukurwanya ubugenzuzi, turatanga inyigisho ziteye imbere z’umwaka wa kabiri ku migenzo y’ubuzima bwite bwa Bitcoin:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-#### 4. Gukomeza kuba maso no guhindura ingamba zabo .
+#### 4. Gukomeza kuba maso no guhindura imikenyuro yabo .
 
 
 Itegeko rya Bitcoin, Lightning Network, n’ibikoresho bijanye na ryo biraguma bitera imbere. Uwukoresha aguma ari maso kandi ashobora guhindura:
 
 
 
-- Gukomeza kumenya ubuhinga bushasha bwo gucungera ubuzima bwite n'ibikoresho vyo gucungera umutekano
-- Guhora ugerageza ibikoresho bishasha n'ibikorwa kugira ngo bigume bikora neza
-- Gusuzuma ubudasiba ko amasakoshi y'ibikoresho n'ibikoresho biri ku gihe kandi bikora neza
-- Gusuzuma buri gihe ko amakuru y'inyuma (nk'akarorero, amabaruwa Mnemonic yakingiwe) atahinduwe
-- Gukurikirana iterambere ry'amategeko kugira ngo bahuze ingamba zabo mu gihe nyaco
+- Gukomeza kuguma umenya ubuhinga bushasha bwo kurinda ubuzima bwawe bw'ibanga hamwe n'ibikoresho vyo kurinda umutekano
+- Guhora ugerageza ibikoresho bishasha n'ibikorwa kugira urabe ko bigikora neza
+- Gusuzuma ubudasiba ko wallet y'ibikoresho biri ku gihe kandi bikora neza
+- Gusuzuma buri gihe ko amakuru ubitse (nk'akarorero, amabaruwa Mnemonic yakingiwe) atahinduwe
+- Gukurikirana iterambere ry'amategeko kugira ngo uhuze n'umukenyuro wawe ubwonyene
 
 
-### Gusuzuma ubuzima bwawe
+### Gusuzuma umwidondoro wawe nk'umukoresha w'umunyabwoba
 
 
-Gufata ingamba z’uguhagarika umutima si ingingo umuntu afata ataco akora.  Bisaba gutozwa indero ikomeye, kwama ugira umwete, no gutanga umwanya munini kugira ngo umuntu amenye neza ibikoresho be n’ingene yovyifatamwo neza mu bijanye n’ubuzima bwite.
+Gufata imikenyuro yo kwirinda ikomeye si ikintu wofata minenerwe ivyo bisaba umutima ukomeye hamwe no kudasamara bihiraho, hamwe no gushora imitahe umwanya wose birakenewe kugira unonosore ivyo bikoresho, hamwe n'ingendo nziza mu bijanye no gucungera ubuzima bwawe bw'ibanga. none ubwo buryo burakubereye? ngibi ibimenhyetso nyamukuru vyerekana umukoresha wa bitcoin yiyubara neza:
 
-None iyo nzira yoba ari nziza kuri wewe?
-
-Ehe ibiranga umuntu w’umunyamibabaro:
-
-
-
-- Uba maso kandi uzirikana umutekano**: Uha agaciro kanini cane ubuzima bwite bwawe kandi urafise umutima ukunze wo kwirinda cane kugira ngo amakuru yawe bwite ntasohoke. Ubona ko gucungera amahera ari ikintu gikomeye cogutera ubwoba kandi urarondera n’umwete uburyo bwo kuvyikingira.
-- Independent**: Wanse kwizigira igikorwa ico ari co cose c’uwundi muntu kugira ngo ubike, ucunge, canke urungike amafaranga yawe y’ibiceri. Witeguriye kwakira ama node yawe bwite ya Bitcoin na Lightning, gukoresha ama wallets asobanutse, no kwitwararika inshingano zose zo gucunga ama backups yawe n’imfunguruzo zawe z’ibanga.
-- Utizigira**: Urinda n’umwete ama platforms ya KYC kandi ugahitamwo uburyo bwo kuronka P2P butazwi, naho vyosaba ko uyihebera amahera. Uratahura ko amakuru yose y’ibanga yosangiwe yoshobora umusi umwe gukoreshwa nawe.
-- Ufise ubumenyi n’indero**:Ufise urukundo rwinshi ku bijanye n’umutekano wo kuri internet n’ubuhinga bwo kwongereza ubuzima bwite. Ufata umwanya wo kwiga inyishu zihari, ugapima ibikoresho, ukiyigisha ingene wobikora neza, kandi ugakoresha uburyo bukomeye bwo kugabanya ingorane.
-- Ivy’ukuri n’ivy’ukuri**:Uratahura ko ukutamenyekana kw’amazina yose ari hafi bidashoboka, ariko uragerageza kugabanya ukuntu ubona ibintu uko bishoboka kwose mu gihe uringaniza ubuzima bwite, umutekano, n’ugukoreshwa. Uburyo ukoresha burabandanya gutera imbere mu kwishura ku bitero bishasha be n’iterambere ry’ubuhinga.
+- **Uba maso kandi uzirikana umutekano wawe**: Uha agaciro kanini cane ubuzima bwawe bw'ibanga kandi urafise umutima ukunze wo kwirinda cane kugira ngo amakuru yawe bwite ntasohoke. Ubona ko gucungera amahera ari ikintu gikomeye gihagarika umutima kandi uronderana umwete uburyo bwo kuvyikingira.
+  
+- **Uw'utaco yitayeho**: Wanse kwizigira igikorwa ico ari co cose c’uwundi muntu kugira ngo ubike, urinde, canke urungike amafaranga yawe. Witeguriye kwakira ama node yawe bwite ya Bitcoin na Lightning, gukoresha ama wallets asobanutse, no kwitwararika ivy'utegerezwa vyose vyo gucunga ama bivyo wabitse vyawe n’imfunguruzo zawe z’ibanga.
+  
+- **Ukugira amakenga**: Wirinde cane imbuga za KYC kandi ugahitamwo uburyo bwo kuronka P2P butazwi, naho vyosaba ko uyihebera amahera. Uratahura ko amakuru yose y’ibanga yosangiwe yoshobora umusi umwe gukoreshwa nk'ayakurwanya.
+  
+- **Ufise ubumenyi n'umwete**:Ufise urukundo rwinshi ku bijanye n’umutekano wo kuri interinete n’ubuhinga bwo kwongereza umutekano w'ubuzima bw'ibanga. Ufata umwanya wo kwiga inyishu zihari, ugapima ibikoresho, ukiyigisha ingene wobikora neza, kandi ugakoresha uburyo bukomeye bwo kugabanya ingorane.
+  
+- **Ivy’ukuri kandi biboneka**:Uratahura ko ukutamenyekana kw’amazina yose ari hafi bidashoboka, ariko uragerageza kugabanya ukuntu ubona ibintu uko bishoboka kwose mu gihe uringaniza ubuzima bwite, umutekano, n’ugukoreshwa. Uburyo ukoresha burabandanya gutera imbere mu kwishura ku bitero bishasha be n’iterambere ry’ubuhinga.
 
 
-Nimba izo kamere zisa n’izimenyerewe, birashoboka ko iyo nzira ari nziza kuri wewe. Birasaba kandi bisaba utwigoro tudahinduka, ariko bitanga ubusegaba bwo hejuru mu vy’amahera n’uburinzi bwo gucungera, gufata, canke gukurikirana amahera yawe.
+Nimba izo kamere ubona uzimenyereye, birashoboka ko iyo nzira ari nziza kuri wewe. Birasaba kandi bisaba utwigoro tudahinduka, ariko bitanga ubusegaba bwo hejuru mu vy’amahera n’uburinzi bwo gucungera, gufata, canke gukurikirana amahera yawe.
 
 
 ![BTC102-Bitcoin](assets/fr/088.webp)
 
 
-Ubwo buryo burakenewe canecane nimba:
+Ubwo buryo burashobora kuorana iyo:
 
 
 
 - Gufata amafaranga menshi cane ya Bitcoin,
-- Kubaho munsi y’intwaro y’agahomerabunwa,
-- ukeneye gukingira amazina yawe kubera imvo z’umuntu ku giti ciwe, z’umwuga canke z’ingengabitekerezo.
+- Kubaho utwanga mu ntwaro z'igikenye,
+- ukeneye gukingira amazina yawe kubera imvo z’umuntu ku giti ciwe, z’umwuga canke z'ivyo wemera.
 
 
-Mu gice gikurikira c’amashure, tuzovuga ku ciyumviro gihambaye kenshi kirengagizwa: ingene wotanga amafaranga yawe y’ama bitcoins mu gihe habaye ikintu gikomeye.
+Mu gice gikurikira c’amashure, tuzovuga ku ciyumviro gihambaye kenshi kirengagizwa: ingene wotanga amafaranga yawe y’ama bitcoins mu gihe bibaye ivyihutirwa.
 
 
-# Gukingira abakuzungura n'ubutunzi bwawe
+# Gukingira ba samurarwa bawe n'ubutunzi bwawe
 
 
 <partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 
-## Gukora umugambi w'iragi
+## Gukora umugambi wo gutanga iragi ryawe
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
@@ -3196,37 +3194,41 @@ Mu gice gikurikira c’amashure, tuzovuga ku ciyumviro gihambaye kenshi kirengag
 :::id ya videwo=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e::
 
 
-Kumenya neza ko amafaranga yawe ya bitcoins arungikwa ni inshingano akenshi yirengagizwa ariko ni ngirakamaro cane. Ubusegaba bw’ivy’ubutunzi Bitcoin itanga na bwo buzanana n’ugukenera gucunga neza ivy’ubutunzi. Ivyo bitabaye, abazungu bawe boshobora kwisanga badashobora kuronka amahera yawe waronse kuri Hard. Muri iki gice, tuzokwihweza ivy’ishimikiro vyo gutegura ivy’ubutaka nk’uko bigenda kuri Bitcoin.
+Kwitwararika neza ukuntu uzosiga ama Bitcoins yawe ni igikorwa kenshi gifatwa minenerwe, ariko ni ngirakamaro cane. Ubwigenge mu vy'ubutunzi butangwa  Bitcoin buzanana n’ugukenera gucunga neza ivy’ubutunzi. Ivyo bitabaye, ba samurarwa bawe boshobora kwisanga badashobora kuronka amahera yawe waronse bikugoye. Muri iki gice, tuzokwihweza ivy’ishimikiro vyo gutegura ivy’ubutaka nk’uko bigenda kuri Bitcoin.
 
 
-### Ni kuki ari ngombwa gutegura umugambi wo gukurikirana Bitcoin?
+### Ni kuki ari ngombwa gutegura umugambi wo kuraga bitcoins zawe?
 
 
-Ibaze ikintu gitunguranye(impanuka canke ibintu bitateguwe)kandi ntukiri hano. Umuryango wawe, usanzwe uri mu gahinda, ubu uriko urashikirwa n’iyindi ngorane: kuronka amafaranga yawe y’ama bitcoins. Bashobora kuba bumvise uvuga ivyerekeye imfunguruzo z’ibanga, amajambo Mnemonic, n’ukudasubira inyuma kw’ibikorwa, ariko ivyo vyiyumviro bishobora kuba bitasobanutse kuri bo. Basigaye bagerageza kubimenya bonyene.
+Ibaze ikintu kikuguyeko utaciteze(isanganya canke ikindi kintu cose utateguye) ubwonyene ukaba urahwereye. Umuryango wawe, usanzwe uri mu gahinda, ubu uriko urashikirwa n’iyindi ngorane: kuronka amafaranga yawe y’ama bitcoins. Bashobora kuba bumvise uvuga ivyerekeye imfunguruzo z’ibanga, amajambo Mnemonic, n’ukudasubira inyuma kw’ibikorwa, ariko ivyo vyiyumviro bishobora kuba bitasobanutse kuri bo. Basigaye bagerageza kubimenya bonyene.
 
 
-Uca ufise uburyo bubiri:
+Urafise guhitamwo mw'ubu buryo bubiri:
 
 
 
-- Gufata umwanya wo gushinga umugambi utomoye kandi utunganijwe uzotuma abakunzi bawe bashobora kuronka ama bitcoins yawe mu buryo bworoshe kandi ata nkomanzi;
-- Ntaco bakora, bizigiye ko bazovyiyumvamwo bonyene. Ariko iyo bakoze ikosa, bagatakaza uburenganzira bwo kuronka Wallet canke bakarungika ayo mahera mu mpanuka kuri GW-655 idakwiriye, ubutunzi bwawe bwoshobora gutakaza ubuziraherezo.
+- Gufata umwanya wo kwandika no gutegura neza umugambi utomoye kandi utunganijwe neza uzofasha abaryango bawe gushobora kuronka ama bitcoins yawe mu buryo bworoshe kandi ata nkomanzi;
+  
+- Ntukore nakimwe, bizigiye ko bazokwigeragereza bonyene. Ariko iyo bakoze ikosa, bagatakaza uburenganzira bwo kuronka Wallet canke bakarungika ayo mahera mu mpanuka kuri GW-655 idakwiriye, ubutunzi bwawe bwoshobora gutakaza ubuziraherezo.
 
 
-Gumara iminota 15 gusa gushika kw’isaha ku mugambi w’iragi vyoshobora gutuma vyose bihinduka. Si ikibazo co kwiyubara gusa ahubwo ni uburyo bwo kwerekana inshingano ku boshobora kwizigira wewe.
+Kumara iminota 15 gusa gushika kw’isaha ku mugambi w’iragi vyoshobora gutuma vyose bihinduka. Si ikibazo co kwiyubara gusa ahubwo ni uburyo bwo kwerekana ivyo utegerezwa boshobora kwizigira wewe.
 
 
-### Intumbero z'umugambi wo gukurikirana Bitcoin
+### Intumbero z'umugambi wo kuraga Bitcoin
 
 
 Pamela Morgan, mu gitabu ciwe *[Itegeko ry’iragi ry’ibintu vy’agaciro]*, aradondora intumbero zine z’ingenzi z’umugambi ukomeye w’iragi:
 
 
 
-- Raba neza ko abazungu bawe bashobora gushika ku bitcoins zawe ku gihe kibereye(ariko atari imbere);
-- Kugabanya ingorane zo kwibwa canke gusenyera ku mugozi umwe imbere y’uko baragwa ama bitcoins;
-- Raba neza ko abazungu bawe bazi ingene bokingira ama bitcoins igihe kirekire nimba babishaka;
-- Irinde amatati yo mu muryango kandi ugabanye ingorane zo mu vy’amategeko igihe utanga crypto-assets.
+- Raba neza ko ba samurarwa bawe bashobora gushika kuri bitcoins zawe ku gihe kibereye(ariko atari imbere);
+  
+- Kugabanya ingorane zo kwibwa canke kwinjirirwa imbere y’uko baragwa ama bitcoins;
+  
+- Raba neza ko ba samurarwa bawe bazomenya ingene bokingira ama bitcoins igihe kirekire nimba babishaka;
+  
+- Irinde amatati yo mu muryango kandi ugabanye ingorane zo mu vy’amategeko igihe utanga crypto-ikora.
 
 
 Umugambi wiyumviriwe neza si uwo kwimurira ubutunzi gusa; ni no kurinda abakunzi bawe amakosa asanzwe be n’ibintu bishobora kubatera ubwoba.
@@ -3235,7 +3237,7 @@ Umugambi wiyumviriwe neza si uwo kwimurira ubutunzi gusa; ni no kurinda abakunzi
 Iki gice cahumekewe n’igikorwa ca [Pamela Morgan]. [Igitabo ciwe](https://www.amazon.com/gp/product/1947910116/) kandi naho igitabu ciwe gitanga uburyo burambuye kandi bwemejwe n’abahinga bwo guhingura umugambi w’iragi Bitcoin, **ivyo birimwo ntibigira impanuro zijanye n’amategeko**.  Ni uburyo bwagaragaye, ariko umuntu wese akwiye gukora ubushakashatsi bwiwe bwite maze agahuza impanuro kugira ngo zihure n’ivyo arimwo n’ububasha bwiwe.
 
 
-[Pamela Morgan](https://x.com/pamelawjd) yatanze uburenganzira bwo gukoresha [igikorwa ciwe](https://www.amazon.com/gp/product/1947910116/) muri iri shure, kandi tuzokurikira uburyo bwiwe bwo guhingura umugambi nyawo w’iragi rya Bitcoin. Muri iki kigabane, tuzokwibanda ku gice ca mbere c’igitabu ciwe.
+[Pamela Morgan](https://x.com/pamelawjd) yatanze uburenganzira bwo gukoresha [igikorwa ciwe](https://www.amazon.com/gp/product/1947910116/) muri iki c'igwa, kandi tuzokurikira uburyo bwiwe bwo guhingura umugambi nyawo w’iragi rya Bitcoin. Muri iki kigabane, tuzokwibanda ku gice ca mbere c’igitabu ciwe.
 
 
 ![BTC102-Bitcoin](assets/fr/093.webp)
@@ -3291,12 +3293,17 @@ Abantu benshi baracerezwa n’iyo ntambwe kubera ivyiyumviro bitari vyo bibabuza
 
 
 
-- "*Ndakeneye gukoresha umuvoka.*"** → **Ikinyoma**. Naho umuvoka yoshobora gufasha mu bibazo vy’amategeko, umugambi w’iragi w’ubuhinga Bitcoin urashobora gushirwaho ata n’umwe. Igihambaye cane ni ukugira amabwirizwa atomoye kandi ashobora gushikirwa;
-- "*Ndakeneye kwizigira uwundi muntu.*"** → **Ikinyoma**. Itegeko ryawe rishobora gutegurwa mu buryo bugabanya ivy’ukwizigira, nk’ugukwiragiza amakuru ku bantu benshi canke gukoresha inyishu z’imikono myinshi, harimwo canke hatagira igihe co gufunga;
-- "*Gutegura bizotuma ivy'umutungo wanje vyoroha kwibwa.*"** → **Ikinyoma**.Itegeko ryiyumviriwe neza rikingira ubusuma mu gihe nyene rituma abazungu bawe bashobora kugarura amahera yawe ata nkomanzi. Ariko rero, birahambaye kumenya ko ata muti udashobora guhera: umugambi w’iragi uratuma haba ingorane zo kwiba, bivanye n’amakuru asangiye. Ivyo tuzobivuga mu buryo burambuye mu nyuma;
-- "*Agaciro k'ama bitcoins yanje ni gato cane ku buryo ntashobora gutegura.*"** → **Ikinyoma**.  ni vyiza kwama utegura imbere y’igihe. Abakunzi bawe birashoboka ko batazi umubare nyawo wa Bitcoin ufise, kandi ivyo ni vyiza. Ariko iyo hari ikintu kigushikiye, ntibokwipfuza kukigarura, naho boba batazi igitigiri nyaco? Agaciro ka Bitcoin gashobora gukura cane uko igihe kigenda kirarenga, ni vyiza rero ko boroherwa no kuronka amahera yawe, no kwirinda kubaha icizigiro c’ikinyoma ku bijanye n’agaciro canke kubasiga barondera ikintu coba kitariho.
-- "*Abazungu banje bazovyiyumvamwo bonyene.*"** → **Ikinyoma**. Bitcoin si nk’ikonti ya banki isanzwe. Ata mabwirizwa atomoye, abakunzi bawe boshobora kutazokwigera bashobora kuronka amahera yawe, canke bakaronka igice gusa. Udakunze amakonti ya banki, aho ibigo vy'imari canke aba notari bavugana n'abagize umuryango iyo upfuye, nta muntu azomenyesha umuryango wawe ivyerekeye Bitcoin Wallet yawe. Ni wewe rero ubwirizwa kubishira mu buryo butomoye mu mugambi wawe w’itongo;
-- "*Smart contract ishobora gutwara vyose.*"** → **Ikinyoma**. Smart contract, nka multi-sig Wallet ifise igihe co gufunga, irashobora kuba igice c’umuti, ariko ntizokwigera isubirira umugambi utunganijwe neza, cane cane ku bantu batamenyereye Bitcoin. Ivyo bisubizo vyose bibiri birahuza.
+- **"*Ndakeneye gukoresha umushingwa manza.*"** → **Ikinyoma**. Naho umuvoka yoshobora gufasha mu bibazo vy’amategeko, umugambi w’iragi w’ubuhinga Bitcoin urashobora gushirwaho ata n’umwe. Igihambaye cane ni ukugira amabwirizwa atomoye kandi ashobora gushikirwa;
+  
+- **"*Ndakeneye kwizigira uwundi muntu.*"** → **Ikinyoma**. Itegeko ryawe rishobora gutegurwa mu buryo bugabanya ivy’ukwizigira, nk’ugukwiragiza amakuru ku bantu benshi canke gukoresha inyishu z’imikono myinshi, harimwo canke hatagira igihe co gufunga;
+  
+- **"*Gutegura bizotuma ivy'umutungo wanje vyoroha kwibwa.*"** → **Ikinyoma**.Itegeko ryiyumviriwe neza rikingira ubusuma mu gihe nyene rituma abazungu bawe bashobora kugarura amahera yawe ata nkomanzi. Ariko rero, birahambaye kumenya ko ata muti udashobora guhera: umugambi w’iragi uratuma haba ingorane zo kwiba, bivanye n’amakuru asangiye. Ivyo tuzobivuga mu buryo burambuye mu nyuma;
+  
+- **"*Agaciro k'ama bitcoins yanje ni gato cane ku buryo ntashobora gutegura.*"** → **Ikinyoma**.  ni vyiza kwama utegura imbere y’igihe. Abakunzi bawe birashoboka ko batazi umubare nyawo wa Bitcoin ufise, kandi ivyo ni vyiza. Ariko iyo hari ikintu kigushikiye, ntibokwipfuza kukigarura, naho boba batazi igitigiri nyaco? Agaciro ka Bitcoin gashobora gukura cane uko igihe kigenda kirarenga, ni vyiza rero ko boroherwa no kuronka amahera yawe, no kwirinda kubaha icizigiro c’ikinyoma ku bijanye n’agaciro canke kubasiga barondera ikintu coba kitariho.
+
+- **"*Ba samurarwa banje bazovyiyumvamwo bonyene.*"** → **Ikinyoma**. Bitcoin si nk’ikonti ya banki isanzwe. Ata mabwirizwa atomoye, abakunzi bawe boshobora kutazokwigera bashobora kuronka amahera yawe, canke bakaronka igice gusa. Udakunze amakonti ya banki, aho ibigo vy'imari canke aba notari bavugana n'abagize umuryango iyo upfuye, nta muntu azomenyesha umuryango wawe ivyerekeye Bitcoin Wallet yawe. Ni wewe rero ubwirizwa kubishira mu buryo butomoye mu mugambi wawe w’itongo;
+  
+- **"*Smart contract ishobora gutwara vyose.*"** → **Ikinyoma**. Smart contract, nka multi-sig Wallet ifise igihe co gufunga, irashobora kuba igice c’umuti, ariko ntizokwigera isubirira umugambi utunganijwe neza, cane cane ku bantu batamenyereye Bitcoin. Ivyo bisubizo vyose bibiri birahuza.
 
 
 
@@ -3350,12 +3357,14 @@ Rimbura ahantu hose ufise amafaranga y’ibice canke amafaranga y’ibice bifita
 
 
 - Ivyuma vya Exchange**: Konti zifise BTC canke fiat zihuye n’ivyo uguze vya Bitcoin.
+  
 - Hot wallets (mobile canke kuri mudasobwa)**: Porogarama zishizwe kuri telefone yawe, zikoreshwa mu bikorwa vya misi yose;
-- Hardware wallets** : Ivyuma vy’umubiri bibika imfunguruzo zawe z’ibanga zitari mu murongo;
+  
+- ibikoresho vyo gushingura vyo hanze y'imbuga** : Ivyuma bibika imfunguruzo zawe z’ibanga zitari mu murongo;
 - Ibindi bisubizo**: Multisig, amasakoshi y’impapuro, imfunguruzo z’ibanga zibitswe mu buryo budasanzwe, n’ibindi.
 
 
-Koresha imbonerahamwe kugira ngo utunganye uru rutonde. Iciyumviro si co kubika iyo nyandiko kuri Internet ahubwo ni ukuyibika ahantu hatagira uwuyibika, vyiza ni ukuyibika ku mpapuro. Nk'akarorero:
+Koresha imbonerahamwe kugira ngo utunganye uru rutonde. Iciyumviro si co kubika iyo nyandiko kuri Interinete ahubwo ni ukuyibika ahantu hatagira uwuyibika, vyiza ni ukuyibika ku mpapuro. Nk'akarorero:
 
 
 | General | Storage type | Assets held | Localization | Mnemonic backup | Password (PIN, passphrase...) | Notes |
@@ -3414,7 +3423,9 @@ Nashizeho abantu benshi bo kubafasha gutahura Bitcoin no kugarura itunga ryanje.
 
 
 - Murumuna wanje Bob: +33 6 00 00 00; umuvukanyi wanje@ubutumwa buhambaye.com. Ushobora kwizigira Bob ngo izogufasha muri iyo nzira. Naho atari we afise ubumenyi bwinshi mu vy’ubuhinga bwa Bitcoin, ni we muntu akwiriye kwibaza vyose no kumenya ko wiyubara kugira ngo ushobore kuroranirwa ata nkomanzi.
+  
 - Muvyaranje Natani: +33 6 00 00 00 00; natandelacroix@ubutumwa buhambaye.com. Natani ni we yamenyesheje Bitcoin. Ni umuhinga cane mu vy'ubuhinga bwa none kandi arashobora kwishura ibibazo vyawe vyinshi. Arafise kandi ama Bitcoin kandi arashobora kuguyobora mu vy’ubuhinga. Mwamubonye mu makoraniro y’umuryango, kandi nashizeko ifoto yiwe hano.
+  
 - Ricco: @RiccoSuperBitcoin ku rubuga rwa Twitter; Ricco425@ubutumwa buhambaye.com. Narakoranye cane na Ricco imyaka myinshi. Ntiwigeze umubona, rero urabe ko ushobora guhamagara umuntu akwiye mu kumubaza ngo "Imbwa ya Cédric yitwa nde?" Iyo yishuye ngo "12", ni we. Ricco ni umuhinga mu vy’ubuhinga bwa Bitcoin afise ubugenzi cane kandi afise ubuhinga. Azokwishura ibibazo vyawe vyose kandi urashobora kwizigira urubanza rwiwe ku bijanye n’umutekano wa Bitcoin. Ntukekeranye kumuhamagara, ariko ntukigere umuha uburenganzira bwo kuronka ayo mahera ataco akora.
 
 Bishobora kumvikana bitangaje, ariko ubamenyeshe bose. Ikindi, urashobora kumenya vyinshi mu kwumviriza Andreas Antonopoulos kuri YouTube no mu kugura igitabu *Itegeko ry’iragi ry’ibintu vy’agaciro* canditswe na Pamela Morgan.
@@ -3430,8 +3441,11 @@ Aha niho hari urutonde rw’ibintu mfise, aho biri, n’ingene nobironka.
 
 
 - Nkoresha telefone yanje (Samsung Galaxy S8) kugira ngo nkoreshe telefone yanje ya Samourai Wallet. Ijambo ry’ugusubirana ry’iyi Wallet ribitswe mu bice bibiri: rimwe ribitswe mu nzu y’ububiko bwa banki, irindi ribitswe kuri Marume Bob. PIN yari ikenewe kugira ngo nfungure telefone yanje na Wallet, ndayibika i muhira iwanje no kwa mawe mukuru.
+  
 - Nshobora gushika ku rubuga rwa interineti rwa Exchange Bitfinex biciye kuri mudasobwa yanje ya Dell 2018. Hariho n’ubu nyene hariho ama bitcoins canke amadolari. Kugira ngo ubone ayo mahera, uzokenera guhamagara Bitfinex ataco uhinduye canke ugerageze kwinjira muri konti yanje. (**Urabe maso, ivyo bishobora kuba bitemewe n'amategeko—suzuma amategeko y'aho uba**)..
+  
 - Naronse uburenganzira bwo gukoresha amakonti yanje yo kuri Internet nkoresheje umucungerezi w’ijambobanga. Igitabu c’uwo muyobozi kibikwa mu nzu y’ububiko bwa banki. Konti yanje ya Bitfinex nayo irindwa n’ivyemezo bibiri, bishobora gukoreshwa biciye kuri telefone yanje (Samsung Galaxy S8, Authy app) canke ukoresheje kode y’ububiko nabitse i muhira.
+  
 - Nfise Trezor Model One Hardware Wallet, nshobora kuyironka biciye kuri PC yanje nkoresheje porogarama ya Sparrow wallet. Ijambo ry’ugusubirana ry’iyi Wallet ribitswe mu bice bibiri: rimwe mu nzu y’ububiko bwa banki, irindi na Marume Bob. PIN y’iyi Wallet ibikwa i muhira iwanje no kuri mama. Ico gikoresho ubwaco birashoboka ko kibikwa mu kigega co mu biro vyanje. Nkoresha BIP39 passphrase ku nkoko yanje y’ikigereranyo ca mbere. Iyi passphrase ni ngirakamaro cane kugira ngo umuntu ashobore kuronka amahera ari kuri iyo mashini. Igitabu c’iyi passphrase kibikwa ahantu habiri: i muhira iwanje no kwa mawe.
 
 
@@ -3443,9 +3457,13 @@ Fata ingingo zose zikenewe imbere y’uko ukoresha ayo mahera. Ntukigere umenyes
 
 
 - Ntukihute**. Fata umwanya wo kwiga imbere y’uko ugira ico ukoze. Bitcoin iratekanye iyo ikoreshejwe neza.
+
 - Ntukigere uha umuntu umwe gusa iyo nteruro y’amajambo 24**. Nihagira uwugusaba ko wobironka vyose, nube maso.
+  
 - Ntuhuze ama wallets yanje na mudasobwa itazwi**. Koresha ahantu hatekanye, ata murongo nimba bishoboka.
+  
 - Iyubare ubusuma**. Hariho ubuhendanyi bwinshi bukikuje Bitcoin. Nimwizere gusa abantu bavugwa muri iri kete.
+  
 - Zigama ivyo ukora vyose**.  Fata amajambo, wandike intambwe zihambaye, kandi ukinge ukuntu umuntu ashobora kuronka.
 
 
@@ -3650,7 +3668,7 @@ Izina ryanje ni Rogzy, uwashinze Découvre Bitcoin akaba n'uwashinze Plan ₿ Ne
 Ivyiyumviro vyanyu birafise agaciro kadasanzwe. Ntutinye gusiga ibitekerezo kuri platform maze utumenyeshe ivyo wiyumvira kuri iyi verisiyo ya vuba y’inyigisho. Ivyiyumviro vyanyu biradufasha kuguma tunoza uburyo ibirimwo vyacu.
 
 
-Ubu rero witeguriye gukora ikizame ca nyuma; ikibazo c’ibibazo 40 kizokwemeza ko utahura kandi kiguhe icete cawe.
+Ubu rero witeguriye gukora ikibazo ca nyuma; ikibazo c’ibibazo 40 kizokwemeza ko utahura kandi kiguhe icete cawe.
 
 
 Amahigwe masa!
@@ -3661,10 +3679,10 @@ Nizigiye ko tuzosubira kubabona vuba mu kindi cigwa ku bijanye na Plan ₿ Netwo
 
 Na none, ndabashimiye cane ku kuntu mwashitse kure. Kandi mwibuke; Intumbero yanje nyamukuru izokwama ari imwe:
 
-**Gufasha abantu benshi bashoboka gushika ku busegaba bw'amahera biciye ku Bitcoin.**
+**Gufasha abantu benshi bashoboka gushika ku mwidegemvyo mu vy'ubutunzi biciye kuri bitcoin.**
 
 
-**Ndabipfurije ivyiza vyose mu rugendo rwawe na Bitcoin!**
+**Ndabipfurije kuroranirwa mu rugendo rwawe na Bitcoin!**
 
 
 # Igice ca nyuma

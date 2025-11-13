@@ -3110,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Seda koodi saab kodeerida ka QR-koodina, et lihtsustada suhtlemist, nagu tavalist vastuvõtuaadressi.
 
-Mis puutub PayNym Bots, robotid, mida mõnikord Twitteris näha, siis need on Samourai rahakoti poolt loodud maksekoodi visuaalsed kujutised. Need genereeritakse hash-funktsiooni abil, mis annab neile peaaegu unikaalsuse. Nad on väikese tähemärkide jada kujul, mis algab tähega `+` :
+PayNym Botide kohta, neid roboteid, mida vahel näeb X-is (Twitteris), on tegemist Samourai Walleti loodud maksekoodi visuaalsete kujutistega. Nüüd Ashigaru kasutuselevõtuga on need veidi muutunud, kuid põhimõte jääb samaks. Need luuakse räsi­funktsiooni abil, mis annab neile peaaegu ainulaadse iseloomu. Need esinevad väikese märgijadana, mis algab sümboliga `+` :
 
 ```plaintext
 +throbbingpond8B1

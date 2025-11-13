@@ -4410,7 +4410,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 此代碼也可編碼為 QR 代碼，讓通訊更方便，就像傳統的接收器 Address。
 
 
-至於 PayNym Bots，也就是有時在 Twitter 上看到的機器人，這些都是付款代碼的視覺呈現，由 Samourai Wallet 所製作。它們使用 Hash 函式產生，因此幾乎是唯一的。它們的形式是以 `+` 開頭的一小串字元：
+關於 PayNym Bots，即那些有時會在 X（Twitter）上看到的機器人，它們是由 Samourai Wallet 所建立的付款代碼的視覺化呈現。現在隨著 Ashigaru 的使用，它們略有不同，但原理保持一致。它們透過雜湊函式生成，因此具有近乎唯一的特性。它們通常以一串以 `+` 開頭的小字元序列形式呈現：
 
 
 ```plaintext

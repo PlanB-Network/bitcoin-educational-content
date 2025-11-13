@@ -3048,7 +3048,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Msimbo huu pia unaweza kusimba kama msimbo wa QR, ili kurahisisha mawasiliano, kama vile mapokezi ya kawaida ya address.
 
-Kuhusu PayNym Bots, roboti zinazoonekana wakati mwingine kwenye Twitter, hivi ni viwakilishi vya kuona vya msimbo wa malipo, iliyoundwa na Pochi la Samourai. Wao huzalishwa kwa kutumia kazi ya Hash, kuwapa karibu-pekee. Zinachukua umbo la mfuatano mdogo wa herufi zinazoanza na `+` :
+Kuhusu PayNym Bots — wale roboti wanaoonekana mara nyingine kwenye X (Twitter) — hawa ni vielelezo vya kuona vya msimbo wa malipo, vilivyoundwa na Samourai Wallet. Sasa kupitia Ashigaru, vinaonekana kuwa tofauti kidogo, ingawa kanuni inabaki ile ile. Vinazalishwa kupitia kazi ya hashing, jambo ambalo linawapa upekee wa karibu kamili. Huonekana kama mnyororo mdogo wa herufi unaoanza na `+` :
 
 ```plaintext
 +throbbingpond8B1

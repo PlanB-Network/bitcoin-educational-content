@@ -4413,7 +4413,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Denna kod kan också kodas som en QR-kod för att göra det lättare att kommunicera, precis som en konventionell mottagning Address.
 
 
-När det gäller PayNym Bots, de robotar som ibland syns på Twitter, är dessa visuella representationer av betalningskoden, skapade av Samourai Wallet. De genereras med hjälp av en Hash-funktion, vilket gör dem nästan unika. De har formen av en liten sträng med tecken som börjar med `+` :
+När det gäller PayNym Bots – de robotar som ibland syns på X (Twitter) – är de visuella representationer av betalningskoden, skapade av Samourai Wallet. Med Ashigaru är de numera något annorlunda, men principen är densamma. De genereras via en hashfunktion, vilket ger dem en nästan fullständig unikhet. De visas som en liten teckensträng som börjar med `+` :
 
 
 ```plaintext

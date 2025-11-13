@@ -4417,7 +4417,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Ovaj kod se takođe može kodirati kao QR kod, kako bi se olakšala komunikacija, baš kao konvencionalna prijemna adresa.
 
 
-Što se tiče PayNym Botova, robota koji se ponekad viđaju na Twitteru, oni su vizuelne reprezentacije koda za plaćanje, kreiranog od strane Samourai Wallet-a. Generišu se korišćenjem Hash funkcije, što im daje skoro jedinstvenost. Imaju oblik malog niza karaktera koji počinje sa `+`:
+Što se tiče PayNym Botova, onih robota koji se povremeno mogu videti na X (Twitteru), oni predstavljaju vizuelne prikaze platnog koda koje je kreirao Samourai Wallet. Sada sa Ashigarujem izgledaju nešto drugačije, ali princip ostaje isti. Generišu se putem heš funkcije, što im daje gotovo potpunu jedinstvenost. Pojavljuju se kao mali niz znakova koji počinje sa `+` :
 
 
 ```plaintext

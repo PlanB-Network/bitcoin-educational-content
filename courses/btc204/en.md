@@ -3084,7 +3084,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 This code can also be encoded as a QR code, making it easier to communicate, just like a conventional address.
 
-As for PayNym Bots, the robots sometimes seen on Twitter, these are visual representations of the payment code, created by Samourai Wallet. They are generated using a hash function, giving them near-uniqueness. They take the form of a small string of characters beginning with `+`:
+Regarding PayNym Bots, those bots sometimes seen on X (Twitter), they are visual representations of the payment code created by Samourai Wallet. With Ashigaru, they are now slightly different, but the principle remains the same. They are generated through a hashing function, which grants them near-uniqueness. They appear as a small string of characters beginning with `+` :
 
 ```plaintext
 +throbbingpond8B1

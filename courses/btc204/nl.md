@@ -4377,7 +4377,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Deze code kan ook worden gecodeerd als een QR-code, om de communicatie te vergemakkelijken, net als een conventionele ontvangst Address.
 
 
-PayNym Bots, de robots die soms op Twitter te zien zijn, zijn visuele weergaven van de betalingscode, gemaakt door Samourai Wallet. Ze worden gegenereerd met een Hash functie, waardoor ze bijna uniek zijn. Ze hebben de vorm van een kleine tekenreeks die begint met `+` :
+Wat betreft de PayNym Bots – de robots die men soms ziet op X (Twitter) – het zijn visuele voorstellingen van de betalingscode, gecreëerd door Samourai Wallet. Met Ashigaru zijn ze nu enigszins anders, maar het principe blijft hetzelfde. Ze worden gegenereerd via een hashfunctie, wat hen een bijna-uniciteit verleent. Ze verschijnen als een kleine tekenreeks die begint met `+` :
 
 
 ```plaintext

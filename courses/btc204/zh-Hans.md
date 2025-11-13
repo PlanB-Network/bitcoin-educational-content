@@ -3107,7 +3107,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 该代码还可以编码为 QR 码，以便于通信，就像传统的接收地址一样。
 
-至于 PayNym Bots（有时在 Twitter 上看到的机器人），它们是支付代码的可视化表示，由 Samourai Wallet 创建。它们是用哈希函数生成的，因此具有近乎唯一性。它们的形式是以 `+` 开头的一小串字符：
+关于 PayNym Bots，即那些有时会在 X（Twitter）上看到的机器人，它们是由 Samourai Wallet 创建的支付代码的可视化表现。现在随着 Ashigaru 的使用，它们略有不同，但原理保持不变。它们通过哈希函数生成，因此具有近乎唯一的特性。它们呈现为一个以 `+` 开头的小型字符序列：
 
 ```plaintext
 +throbbingpond8B1

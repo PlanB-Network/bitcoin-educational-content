@@ -4412,7 +4412,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Kod ten można również zakodować jako kod QR, aby ułatwić komunikację, podobnie jak konwencjonalny odbiór Address.
 
 
-Jeśli chodzi o PayNym Bots, czyli roboty widoczne czasem na Twitterze, są to wizualne reprezentacje kodu płatności, stworzone przez Samourai Wallet. Są one generowane przy użyciu funkcji Hash, co zapewnia im niemal niepowtarzalność. Mają postać małego ciągu znaków zaczynającego się od `+`:
+Jeśli chodzi o boty PayNym, czyli te roboty, które czasem można zobaczyć na X (Twitterze), są to wizualne reprezentacje kodu płatności stworzone przez Samourai Wallet. Obecnie, wraz z Ashigaru, wyglądają nieco inaczej, lecz zasada pozostaje ta sama. Generowane są za pomocą funkcji skrótu, co nadaje im niemal pełną unikalność. Występują jako niewielki ciąg znaków rozpoczynający się od `+` :
 
 
 ```plaintext

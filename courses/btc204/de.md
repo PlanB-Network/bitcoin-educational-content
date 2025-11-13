@@ -3076,7 +3076,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Dieser Code kann auch als QR-Code kodiert werden, um die Kommunikation zu erleichtern, genau wie eine herkömmliche Empfangsadresse.
 
-Bei den PayNym Bots, den Robotern, die man manchmal auf Twitter sieht, handelt es sich um visuelle Darstellungen des Zahlungscodes, die von Samourai Wallet erstellt wurden. Sie werden mit einer Hash-Funktion generiert, wodurch sie nahezu eindeutig sind. Sie haben die Form einer kleinen Zeichenkette, die mit "+" beginnt:
+Bezüglich der PayNym Bots – jenen Bots, die man gelegentlich auf X (Twitter) sieht – handelt es sich um visuelle Darstellungen des Zahlungscodes, erstellt von Samourai Wallet. Mit Ashigaru sehen sie inzwischen etwas anders aus, doch das Prinzip bleibt unverändert. Sie werden mittels einer Hashfunktion erzeugt, was ihnen eine nahezu vollständige Einzigartigkeit verleiht. Sie erscheinen in Form einer kleinen Zeichenkette, die mit `+` beginnt:
 
 ```plaintext
 +throbbingpond8B1

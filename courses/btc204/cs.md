@@ -3110,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Tento kód může být také zakódován jako kód QR, aby se s ním dalo snadněji komunikovat, stejně jako s běžnou adresou pro příjem.
 
-Pokud jde o PayNym Bots, roboty, které lze někdy vidět na Twitteru, jedná se o vizuální reprezentaci platebního kódu vytvořenou společností Samourai Wallet. Jsou generovány pomocí hashovací funkce, což jim dává téměř jedinečnost. Mají podobu malého řetězce znaků začínajícího na `+` :
+Pokud jde o PayNym Boty, tedy roboty, které lze občas spatřit na X (Twitteru), jedná se o vizuální zobrazení platebního kódu vytvořená peněženkou Samourai. Nyní, s Ashigaru, jsou mírně odlišné, avšak princip zůstává stejný. Jsou generovány pomocí hashovací funkce, což jim dodává téměř jedinečný charakter. Vystupují jako malý řetězec znaků začínající znakem `+` :
 
 ```plaintext
 +throbbingpond8B1

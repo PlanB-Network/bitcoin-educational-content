@@ -4426,7 +4426,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Iyi kode irashobora kandi gukoreshwa nk’ikode ya QR, kugira ngo yorohe kuvugana, nk’uko nyene bigenda ku nzira isanzwe yo kwakira abantu Address.
 
 
-Naho ku bijanye na PayNym Bots, amaroboti rimwe na rimwe abonwa kuri Twitter, ayo ni amashusho yerekana kode y’ukwishyura, yaremwe na Samourai Wallet. Bivugwa hakoreshejwe igikorwa ca Hash, bikabiha hafi-ubudasa. Bifata uburyo bw'urudodo ruto rw'inyuguti rutangura na `+`:
+Ku bijyanye na PayNym Bots, za robo ziboneka rimwe na rimwe kuri X (Twitter), ni ishusho y’amabwiriza yo kwishyura yakorewe muri Samourai Wallet. Ubu bikoreshejwe na Ashigaru, ziratandukanye gato, ariko uburyo bukomeza kuba bumwe. Zikorwa hifashishijwe imikorere ya hash, bikaba bibaha umwihariko wihariye. Zigaragara nk’umurongo muto w’inyuguti utangirira kuri `+` :
 
 
 ```plaintext

@@ -4428,7 +4428,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 이 코드는 QR 코드로도 인코딩할 수 있으므로 기존 Address와 마찬가지로 더 쉽게 통신할 수 있습니다.
 
 
-트위터에서 가끔 볼 수 있는 로봇인 PayNym 봇의 경우, 사무라이 Wallet에서 만든 결제 코드를 시각적으로 표현한 것입니다. Hash 함수를 사용하여 생성되어 거의 고유성을 갖습니다. 로봇은 `+`로 시작하는 작은 문자열의 형태를 취합니다:
+PayNym Bot은 X(트위터)에서 때때로 보이는 로봇들로, Samourai Wallet이 만든 결제 코드의 시각적 표현입니다. Ashigaru에서는 약간 달라졌지만 기본 원리는 동일합니다. 해시 함수로 생성되며, 이로 인해 거의 고유한 특징을 갖습니다. 이들은 `+`로 시작하는 짧은 문자열 형태로 나타납니다:
 
 
 ```plaintext

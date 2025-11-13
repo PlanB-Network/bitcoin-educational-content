@@ -3106,7 +3106,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Mã này cũng có thể được mã hóa dưới dạng mã QR để dễ dàng giao tiếp hơn, giống như địa chỉ lễ tân thông thường.
 
-Đối với PayNym Bots, các robot đôi khi được nhìn thấy trên Twitter, đây là các biểu diễn trực quan của mã thanh toán, được tạo bởi Samourai Wallet. Chúng được tạo ra bằng cách sử dụng hàm băm, mang lại cho chúng tính gần như duy nhất. Chúng có dạng một chuỗi ký tự nhỏ bắt đầu bằng `+`:
+Về các PayNym Bot — những bot đôi khi xuất hiện trên X (Twitter) — chúng là các dạng biểu diễn trực quan của mã thanh toán, được tạo ra bởi Samourai Wallet. Nay với Ashigaru, chúng có hơi khác biệt đôi chút, nhưng nguyên tắc vẫn giữ nguyên. Chúng được tạo ra bằng một hàm băm, điều này mang lại cho chúng tính gần như duy nhất. Chúng xuất hiện dưới dạng một chuỗi ký tự nhỏ bắt đầu bằng `+` :
 
 ```plaintext
 +throbbingpond8B1

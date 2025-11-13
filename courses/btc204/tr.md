@@ -4428,7 +4428,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Bu kod, tıpkı geleneksel Address alımı gibi iletişimi kolaylaştırmak için bir QR kodu olarak da kodlanabilir.
 
 
-Bazen Twitter'da görülen robotlar olan PayNym Botlarına gelince, bunlar Samourai Wallet tarafından oluşturulan ödeme kodunun görsel temsilleridir. Bir Hash işlevi kullanılarak oluşturulurlar ve bu da onlara neredeyse benzersizlik kazandırır. Bunlar `+` ile başlayan küçük bir karakter dizisi şeklindedir:
+PayNym Bot'lar — zaman zaman X’te (Twitter) görülen bu botlar — Samourai Wallet tarafından oluşturulmuş ödeme kodunun görsel temsilleridir. Ashigaru ile birlikte artık biraz farklı görünseler de temel ilke aynıdır. Bir karma (hash) fonksiyonu aracılığıyla üretilirler; bu da onlara neredeyse tam bir eşsizlik kazandırır. `+` ile başlayan küçük bir karakter dizisi şeklinde görünürler:
 
 
 ```plaintext

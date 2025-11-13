@@ -3110,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 このコードはQRコードとして符号化することもでき、従来の受信アドレスのように簡単に伝達できる。
 
-ツイッターで時々見かけるPayNymボットは、Samourai Walletが作成した決済コードを視覚的に表現したものである。ハッシュ関数を使って生成されるため、一意性に近い。で始まる小さな文字列の形をとる：
+PayNym Botについてですが、X（Twitter）で時折見かけるこれらのボットは、Samourai Wallet によって作成された支払いコードの視覚的表現です。現在は Ashigaru によって若干異なるものになっていますが、原理は変わりません。これらはハッシュ関数によって生成され、ほぼ一意性が与えられています。`+` で始まる小さな文字列として表示されます：
 
 ```plaintext
 +throbbingpond8B1

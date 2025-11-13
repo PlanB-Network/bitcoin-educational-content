@@ -3084,7 +3084,7 @@ Mục đích của BIP47 là giúp có thể nhận được một số lượng
 
 Do đó, người dùng có thể chia sẻ mã thanh toán của mình một cách hoàn toàn tự do, cho dù trên mạng xã hội hay trên trang web của mình, mà không có nguy cơ mất tính bảo mật, không giống như địa chỉ người nhận hoặc khóa công khai thông thường.
 
-Để thực hiện giao dịch, cả hai bên đều cần một ví Bitcoin có triển khai BIP47, chẳng hạn như PayNym trên Samurai Wallet hoặc Sparrow Wallet. Việc sử dụng chung mã thanh toán của họ tạo ra một kênh bí mật giữa họ. Để thiết lập kênh này hiệu quả, bên phát hành phải thực hiện một giao dịch cụ thể trên chuỗi khối Bitcoin, được gọi là "giao dịch thông báo" (sẽ nói thêm về điều này sau).
+Để thực hiện một giao dịch, cả hai bên phải sở hữu một ví Bitcoin có triển khai BIP47, chẳng hạn như PayNym trên Ashigaru hoặc Sparrow Wallet. Việc sử dụng kết hợp các mã thanh toán của họ tạo ra một kênh bí mật giữa hai bên. Để thiết lập hiệu quả kênh này, bên gửi phải thực hiện một giao dịch cụ thể trên blockchain Bitcoin, được gọi là "giao dịch thông báo" (tôi sẽ cung cấp chi tiết sau).
 
 Việc kết hợp các mã thanh toán của hai người dùng sẽ tạo ra các bí mật chung, từ đó tạo ra một số lượng lớn các địa chỉ nhận Bitcoin duy nhất (chính xác là 2^32, hoặc khoảng 4 tỷ). Theo cách này, các khoản thanh toán được thực hiện thông qua BIP47 không thực sự được gửi đến chính mã thanh toán mà là đến các địa chỉ biên lai cổ điển có nguồn gốc từ các mã thanh toán của những người dùng liên quan.
 

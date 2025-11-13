@@ -3088,7 +3088,7 @@ BIP47:n tavoitteena on mahdollistaa useiden maksujen vastaanottaminen ilman osoi
 
 Käyttäjä voi näin ollen jakaa maksukoodinsa täysin vapaasti joko sosiaalisissa verkostoissa tai verkkosivuillaan vaarantamatta luottamuksellisuuttaan, toisin kuin perinteisen vastaanottajan osoitteen tai julkisen avaimen tapauksessa.
 
-Tapahtuman toteuttamiseksi molemmat osapuolet tarvitsevat Bitcoin-lompakon, jossa on BIP47-toteutus, kuten PayNym Samurai Walletissa tai Sparrow Walletissa. Heidän maksukoodiensa yhteinen käyttö luo salaisen kanavan heidän välilleen. Jotta tämä kanava voidaan luoda tehokkaasti, liikkeeseenlaskijan on suoritettava Bitcoin-lohkoketjussa erityinen transaktio, jota kutsutaan "ilmoitustransaktioksi" (tästä lisää myöhemmin).
+Jotta transaktio voidaan suorittaa, molemmilla osapuolilla on oltava Bitcoin-lompakko, jossa on BIP47-toteutus, kuten PayNym Ashigarussa tai Sparrow Wallet. Heidän maksukoodiensa yhteiskäyttö luo salaisen kanavan heidän välilleen. Tämän kanavan tehokkaaksi muodostamiseksi lähettäjän on suoritettava Bitcoin-lohkoketjussa erityinen tapahtuma, jota kutsutaan "ilmoitustapahtumaksi" (annan yksityiskohdat myöhemmin).
 
 Kahden käyttäjän maksukoodien yhdistäminen tuottaa yhteisiä salaisuuksia, jotka puolestaan luovat suuren määrän yksilöllisiä Bitcoin-vastaanottoosoitteita (tasan 2^32 eli noin 4 miljardia). Näin BIP47:n kautta suoritettuja maksuja ei itse asiassa osoiteta itse maksukoodille, vaan pikemminkin klassisille vastaanotto-osoitteille, jotka on johdettu osallistuvien käyttäjien maksukoodeista.
 

@@ -2885,7 +2885,7 @@ Le BIP47 a pour objectif de permettre la réception de nombreux paiements sans p
 
 Un utilisateur peut donc partager son code de paiement en toute liberté, que ce soit sur les réseaux sociaux ou sur son site web, sans risquer de perdre en confidentialité, contrairement à ce qui se passerait avec une adresse de réception classique ou une clé publique.
 
-Pour effectuer une transaction, les deux parties doivent posséder un portefeuille Bitcoin avec une implémentation du BIP47, telle que PayNym sur Samourai Wallet ou Sparrow Wallet. L'utilisation conjointe de leurs codes de paiement crée un canal secret entre eux. Pour établir ce canal de manière efficace, l'émetteur doit effectuer une transaction spécifique sur la blockchain Bitcoin, connue sous le nom de "transaction de notification" (je vous en donnerai les détails ultérieurement).
+Pour effectuer une transaction, les deux parties doivent posséder un portefeuille Bitcoin avec une implémentation du BIP47, telle que PayNym sur Ashigaru ou Sparrow Wallet. L'utilisation conjointe de leurs codes de paiement crée un canal secret entre eux. Pour établir ce canal de manière efficace, l'émetteur doit effectuer une transaction spécifique sur la blockchain Bitcoin, connue sous le nom de "transaction de notification" (je vous en donnerai les détails ultérieurement).
 
 L'association des codes de paiements des deux utilisateurs permet de générer des secrets partagés, qui permettent à leur tour de créer un grand nombre d'adresses de réception Bitcoin uniques (exactement 2^32, soit environ 4 milliards). Ainsi, les paiements effectués via le BIP47 ne sont pas réellement adressés au code de paiement lui-même, mais plutôt à des adresses de réception classiques dérivées des codes de paiement des utilisateurs impliqués.
 
@@ -2905,7 +2905,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Ce code peut également être encodé en QR code, afin de faciliter sa communication, tout comme une adresse de réception classique.
 
-Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur X (Twitter), il s'agit de représentations visuelles du code de paiement, créées par Samourai Wallet. Elles sont générées via une fonction de hachage, ce qui leur confère une quasi-unicité. Ils se présentent sous forme d'une petite chaîne de caractères débutant par `+` :
+Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur X (Twitter), il s'agit de représentations visuelles du code de paiement, créées par Samourai Wallet. Dorénavant avec AShigaru, elles sont légèrement différentes, mais le principe reste le même. Elles sont générées via une fonction de hachage, ce qui leur confère une quasi-unicité. Ils se présentent sous forme d'une petite chaîne de caractères débutant par `+` :
 ```plaintext
 +throbbingpond8B1
 +twilightresonance487

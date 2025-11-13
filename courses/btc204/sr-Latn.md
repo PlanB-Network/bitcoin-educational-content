@@ -4386,7 +4386,7 @@ Cilj BIP47 je omogućiti primanje velikog broja uplata bez ponovnog korišćenja
 Korisnik stoga može deliti svoj platni kod u potpunoj slobodi, bilo na društvenim mrežama ili na svojoj veb stranici, bez rizika od gubitka poverljivosti, za razliku od konvencionalne adrese za primanje ili javnog ključa.
 
 
-Da bi se izvršila transakcija, obe strane treba da imaju Bitcoin novčanik sa BIP47 implementacijom, kao što je PayNym na Samurai Wallet-u ili Sparrow Wallet. Zajednička upotreba njihovih platnih kodova stvara tajni kanal između njih. Da bi se ovaj kanal efikasno uspostavio, izdavalac mora izvršiti specifičnu transakciju na Bitcoin blokčejnu, poznatu kao "notifikaciona transakcija" (više o tome kasnije).
+Da bi se izvršila transakcija, obe strane moraju posedovati Bitcoin novčanik sa implementacijom BIP47, kao što je PayNym na Ashigaru ili Sparrow Wallet. Zajednička upotreba njihovih platnih kodova stvara tajni kanal između njih. Da bi se ovaj kanal efikasno uspostavio, pošiljalac mora izvršiti posebnu transakciju na Bitcoin blokčejnu, poznatu kao „notifikaciona transakcija“ (detalje ću vam dati kasnije).
 
 
 Kombinovanjem kodova plaćanja dva korisnika generišu se zajedničke tajne, koje zauzvrat stvaraju veliki broj jedinstvenih Bitcoin adresa za primanje (tačno 2^32, ili oko 4 milijarde). Na ovaj način, uplate izvršene putem BIP47 nisu zapravo adresirane na sam kod plaćanja, već na klasične adrese za prijem izvedene iz kodova plaćanja uključenih korisnika.

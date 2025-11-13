@@ -3088,7 +3088,7 @@ Cílem BIP47 je umožnit přijímání velkého počtu plateb bez opakovaného p
 
 Uživatel tak může zcela volně sdílet svůj platební kód, ať už na sociálních sítích nebo na svých webových stránkách, aniž by riskoval ztrátu důvěrnosti, na rozdíl od běžné adresy příjemce nebo veřejného klíče.
 
-K provedení transakce potřebují obě strany peněženku Bitcoin s implementací BIP47, například PayNym na Samurai Wallet nebo Sparrow Wallet. Společné použití jejich platebních kódů mezi nimi vytvoří tajný kanál. Aby se tento kanál účinně vytvořil, musí vydavatel provést v bitcoinovém blockchainu určitou transakci, známou jako "notifikační transakce" (více o ní později).
+Aby byla provedena transakce, musí mít obě strany peněženku Bitcoin s implementací BIP47, například PayNym na Ashigaru nebo Sparrow Wallet. Společné použití jejich platebních kódů vytváří mezi nimi tajný kanál. Aby byl tento kanál účinně vytvořen, musí odesílatel provést specifickou transakci na bitcoinovém blockchainu, známou jako „oznamovací transakce“ (podrobnosti vám poskytnu později).
 
 Kombinací platebních kódů dvou uživatelů vznikne sdílené tajemství, které následně vytvoří velký počet jedinečných adres pro příjem bitcoinů (přesně 2^32, tedy asi 4 miliardy). Tímto způsobem nejsou platby provedené prostřednictvím BIP47 ve skutečnosti adresovány na samotný platební kód, ale spíše na klasické přijímací adresy odvozené z platebních kódů zúčastněných uživatelů.
 

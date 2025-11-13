@@ -3062,7 +3062,7 @@ The aim of BIP47 is to enable the receipt of a large number of payments without 
 
 A user can therefore share their payment code with complete freedom, whether on social networks or on their website, without risking any loss of confidentiality, unlike with a conventional recipient address or public key.
 
-To carry out a transaction, both parties need a Bitcoin wallet with a BIP47 implementation, such as PayNym on Samurai Wallet or Sparrow Wallet. The joint use of their payment codes creates a secret channel between them. To establish this channel effectively, the issuer must carry out a specific transaction on the Bitcoin blockchain, known as a "notification transaction" (more on this later).
+To carry out a transaction, both parties must have a Bitcoin wallet implementing BIP47, such as PayNym on Ashigaru or Sparrow Wallet. The combined use of their payment codes creates a secret channel between them. To establish this channel effectively, the sender must perform a specific transaction on the Bitcoin blockchain, known as a “notification transaction” (I will provide further details later).
 
 Combining the payment codes of the two users generates shared secrets, which in turn create a large number of unique Bitcoin receiving addresses (exactly 2^32, or around 4 billion). In this way, payments made via BIP47 are not actually addressed to the payment code itself, but rather to classic receipt addresses derived from the payment codes of the users involved.
 

@@ -4382,7 +4382,7 @@ Syftet med BIP47 är att göra det möjligt att ta emot ett stort antal betalnin
 En användare kan därför dela sin betalkod i full frihet, oavsett om det är på sociala nätverk eller på sin webbplats, utan att riskera någon förlust av sekretess, till skillnad från med en konventionell mottagare Address eller publik nyckel.
 
 
-För att genomföra en transaktion behöver båda parter en Bitcoin Wallet med en BIP47-implementering, t.ex. PayNym on Samurai Wallet eller Sparrow wallet. Den gemensamma användningen av deras betalkoder skapar en hemlig kanal mellan dem. För att etablera denna kanal på ett effektivt sätt måste utgivaren utföra en specifik transaktion på Bitcoin Blockchain, en så kallad "aviseringstransaktion" (mer om detta senare).
+För att genomföra en transaktion måste båda parter ha en Bitcoin-plånbok med en implementering av BIP47, såsom PayNym på Ashigaru eller Sparrow Wallet. Den gemensamma användningen av deras betalningskoder skapar en hemlig kanal mellan dem. För att denna kanal ska kunna upprättas effektivt måste avsändaren utföra en särskild transaktion på Bitcoin-blockkedjan, kallad "notifikationstransaktion" (jag kommer att ge dig detaljerna senare).
 
 
 Genom att kombinera de två användarnas betalkoder skapas delade hemligheter, som i sin tur skapar ett stort antal unika Bitcoin-mottagningsadresser (exakt 2^32, eller cirka 4 miljarder). På detta sätt adresseras betalningar som görs via BIP47 faktiskt inte till själva betalningskoden, utan snarare till klassiska mottagningsadresser som härrör från de inblandade användarnas betalningskoder.

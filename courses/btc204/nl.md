@@ -4346,7 +4346,7 @@ Het doel van BIP47 is om het mogelijk te maken een groot aantal betalingen te on
 Een gebruiker kan zijn of haar betaalcode dus in alle vrijheid delen, op sociale netwerken of op zijn of haar website, zonder risico op verlies van vertrouwelijkheid, in tegenstelling tot een conventionele ontvanger Address of publieke sleutel.
 
 
-Om een transactie uit te voeren, hebben beide partijen een Bitcoin Wallet met een BIP47-implementatie nodig, zoals PayNym op Samurai Wallet of Sparrow wallet. Het gezamenlijke gebruik van hun betaalcodes creëert een geheim kanaal tussen hen. Om dit kanaal effectief tot stand te brengen, moet de uitgever een specifieke transactie uitvoeren op de Bitcoin Blockchain, bekend als een "kennisgevingstransactie" (waarover later meer).
+Om een transactie uit te voeren, moeten beide partijen een Bitcoin-wallet bezitten met een implementatie van BIP47, zoals PayNym op Ashigaru of Sparrow Wallet. Het gezamenlijk gebruik van hun betalingscodes creëert een geheime kanaal tussen hen. Om dit kanaal doeltreffend tot stand te brengen, moet de verzender een specifieke transactie uitvoeren op de Bitcoin-blockchain, bekend als de "kennisgevingstransactie" (de details zal ik u later geven).
 
 
 Het combineren van de betaalcodes van de twee gebruikers genereert gedeelde geheimen, die op hun beurt een groot aantal unieke Bitcoin ontvangstadressen creëren (precies 2^32, of ongeveer 4 miljard). Op deze manier worden betalingen via BIP47 niet geadresseerd aan de betaalcode zelf, maar aan klassieke ontvangstadressen die zijn afgeleid van de betaalcodes van de betrokken gebruikers.

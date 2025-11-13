@@ -3088,7 +3088,7 @@ BIP47 eesmärk on võimaldada suure hulga maksete vastuvõtmist ilma aadresside 
 
 Seega võib kasutaja oma maksekoodi täiesti vabalt jagada, kas sotsiaalvõrgustikes või oma veebisaidil, ilma et ta riskiks konfidentsiaalsuse kaotamisega, erinevalt tavapärasest vastuvõtja aadressist või avalikust võtmest.
 
-Tehingu sooritamiseks vajavad mõlemad osapooled BIP47 rakendusega Bitcoini rahakotti, näiteks PayNym on Samurai Wallet või Sparrow Wallet. Nende maksekoodide ühine kasutamine loob nende vahel salajase kanali. Selle kanali tõhusaks loomiseks peab väljastaja tegema Bitcoini plokiahelas konkreetse tehingu, mida nimetatakse "teavitustehinguks" (sellest lähemalt hiljem).
+Tehingu tegemiseks peavad mõlemad osapooled omama Bitcoini rahakotti BIP47 teostusega, näiteks PayNym Ashigarul või Sparrow Wallet. Nende maksekoodide ühine kasutamine loob nende vahel salajase kanali. Selle kanali tõhusaks loomisel peab saatja tegema Bitcoini plokiahelas konkreetse tehingu, mida tuntakse kui „teavitustehingut“ (annan teile selle üksikasjad hiljem).
 
 Kahe kasutaja maksekoodide kombineerimine tekitab ühiseid saladusi, mis omakorda loovad suure hulga unikaalseid Bitcoini vastuvõtuaadresse (täpselt 2^32 ehk umbes 4 miljardit). Seega ei ole BIP47 kaudu tehtud maksed tegelikult adresseeritud mitte maksekoodile endale, vaid pigem klassikalistele vastuvõtuaadressidele, mis on tuletatud asjaomaste kasutajate maksekoodidest.
 

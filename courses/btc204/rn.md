@@ -4395,7 +4395,7 @@ Intumbero ya BIP47 ni ugutuma umuntu ashobora kwakira amahera menshi ataco asubi
 Uwukoresha rero arashobora gusangira kode yiwe yo kwishura mu mwidegemvyo wose, haba ku mbuga ngurukanabumenyi canke ku rubuga rwiwe, ata ngorane yo gutakaza ibanga, bitandukanye n’uko umuntu asanzwe yakira Address canke urufunguzo rwa bose.
 
 
-Kugira ngo ukore igikorwa, abo bompi barakeneye Bitcoin Wallet n'ugushirwa mu ngiro kwa BIP47, nka PayNym kuri Samurai Wallet canke Sparrow wallet. Gukoresha hamwe amakode yabo yo kwishura biratuma haba umurongo w’ibanga hagati yabo. Kugira ngo uwo muhora ushireho neza, uwuwutanga ategerezwa gukora igikorwa kidasanzwe ku Bitcoin Blockchain, kizwi kw'izina rya "igikorwa co kumenyesha" (ibindi kuri ivyo bizokurikira).
+Kugira ngo haboneke igikorwa cyo kohereza cyangwa kwakira amafaranga, impande zombi zigomba kugira ububiko bwa Bitcoin burimo ishyirwa mu bikorwa rya BIP47, nko kuri PayNym ya Ashigaru cyangwa Sparrow Wallet. Gukoresha hamwe amabanga yabo yo kwishyura bituma habaho umuyoboro w’ibanga ubahuza. Kugira ngo uyu muyoboro ushingwe neza, uwo wohereza agomba gukora igikorwa cyihariye kuri blockchain ya Bitcoin, kizwi nka “transaction de notification” (nzabaha ibisobanuro byayo nyuma).
 
 
 Gufatanya amakode y’ukwishura y’abo babiri bakoresha bituma haba amabanga asangiye, ivyo na vyo bikaba bituma haba umubare munini w’amaderesi yihariye y’ukwakira Bitcoin (2^32 nyavyo, canke nk’imiliyaridi 4). Muri ubwo buryo, amahera yishurwa biciye kuri BIP47 ntabwo mu vy’ukuri arungikwa kuri kode y’ukwishura ubwayo, ahubwo arungikwa ku maderesi ya kera y’ukwakira akomoka ku makode y’ukwishura y’abakoresha bari muri iyo nzira.

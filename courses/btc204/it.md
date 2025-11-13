@@ -3084,7 +3084,7 @@ L'obiettivo del BIP47 è quello di rendere possibile la ricezione di un gran num
 
 L'utente può quindi condividere il proprio codice di pagamento in piena libertà, sia sui social network che sul proprio sito web, senza rischiare alcuna perdita di riservatezza, a differenza di quanto avviene con un indirizzo di destinatario convenzionale o una chiave pubblica.
 
-Per effettuare una transazione, entrambe le parti hanno bisogno di un portafoglio Bitcoin con un'implementazione BIP47, come PayNym su Samurai Wallet o Sparrow Wallet. L'uso congiunto dei loro codici di pagamento crea un canale segreto tra loro. Per stabilire questo canale in modo efficace, l'emittente deve effettuare una transazione specifica sulla blockchain Bitcoin, nota come "transazione di notifica" (per saperne di più).
+Per effettuare una transazione, entrambe le parti devono disporre di un portafoglio Bitcoin con un’implementazione del BIP47, come PayNym su Ashigaru o Sparrow Wallet. L’uso congiunto dei loro codici di pagamento crea un canale segreto tra loro. Per stabilire efficacemente questo canale, il mittente deve effettuare una transazione specifica sulla blockchain di Bitcoin, conosciuta come “transazione di notifica” (vi fornirò i dettagli in seguito).
 
 La combinazione dei codici di pagamento dei due utenti genera segreti condivisi, che a loro volta creano un gran numero di indirizzi unici di ricezione di Bitcoin (esattamente 2^32, ovvero circa 4 miliardi). In questo modo, i pagamenti effettuati tramite BIP47 non sono in realtà indirizzati al codice di pagamento stesso, ma piuttosto ai classici indirizzi di ricezione derivati dai codici di pagamento degli utenti coinvolti.
 

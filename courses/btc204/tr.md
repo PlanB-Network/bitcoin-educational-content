@@ -4397,7 +4397,7 @@ BIP47'nin amacı, adresleri tekrar kullanmadan çok sayıda ödeme almayı mümk
 Bu nedenle bir kullanıcı, geleneksel bir alıcı Address veya açık anahtarın aksine, herhangi bir gizlilik kaybı riski olmadan ödeme kodunu ister sosyal ağlarda ister kendi web sitesinde tam bir özgürlük içinde paylaşabilir.
 
 
-Bir işlemi gerçekleştirmek için her iki tarafın da Samurai Wallet veya Sparrow wallet üzerinde PayNym gibi bir BIP47 uygulamasına sahip bir Bitcoin Wallet'e ihtiyacı vardır. Ödeme kodlarının ortak kullanımı aralarında gizli bir kanal oluşturur. Bu kanalı etkin bir şekilde kurmak için, ihraççının Bitcoin Blockchain üzerinde "bildirim işlemi" olarak bilinen belirli bir işlem gerçekleştirmesi gerekir (bu konuda daha sonra daha fazla bilgi verilecektir).
+Bir işlem gerçekleştirmek için her iki tarafın da BIP47 uygulamasına sahip bir Bitcoin cüzdanına sahip olması gerekir; örnek olarak Ashigaru üzerindeki PayNym veya Sparrow Wallet verilebilir. Ödeme kodlarının birlikte kullanılması, taraflar arasında gizli bir kanal oluşturur. Bu kanalın etkili biçimde kurulabilmesi için göndericinin Bitcoin blokzincirinde "bildirim işlemi" olarak bilinen belirli bir işlemi gerçekleştirmesi gerekir (ayrıntıları size daha sonra vereceğim).
 
 
 İki kullanıcının ödeme kodlarının birleştirilmesi ortak sırlar oluşturur ve bu da çok sayıda benzersiz Bitcoin alıcı adresi yaratır (tam olarak 2^32 veya yaklaşık 4 milyar). Bu şekilde, BIP47 üzerinden yapılan ödemeler aslında ödeme kodunun kendisine değil, ilgili kullanıcıların ödeme kodlarından türetilen klasik makbuz adreslerine yönlendirilir.

@@ -3086,7 +3086,7 @@ Tujuan dari BIP47 adalah untuk memungkinkan menerima pembayaran dalam jumlah bes
 
 Oleh karena itu, seorang pengguna dapat membagikan kode pembayarannya dengan bebas, baik di jejaring sosial atau di situs webnya, tanpa risiko kehilangan kerahasiaan, tidak seperti dengan alamat penerima konvensional atau kunci publik.
 
-Untuk melakukan transaksi, kedua belah pihak membutuhkan dompet Bitcoin dengan implementasi BIP47, seperti PayNym di Samurai Wallet atau Sparrow Wallet. Penggunaan bersama kode pembayaran mereka menciptakan saluran rahasia di antara mereka. Untuk membuat saluran ini secara efektif, penerbit harus melakukan transaksi tertentu pada blockchain Bitcoin, yang dikenal sebagai "transaksi notifikasi" (lebih lanjut tentang ini nanti).
+Untuk melakukan sebuah transaksi, kedua pihak harus memiliki dompet Bitcoin dengan implementasi BIP47, seperti PayNym di Ashigaru atau Sparrow Wallet. Penggunaan bersama kode pembayaran mereka menciptakan saluran rahasia di antara keduanya. Untuk membangun saluran ini secara efektif, pengirim harus melakukan transaksi tertentu pada blockchain Bitcoin, yang dikenal sebagai "transaksi pemberitahuan" (saya akan memberikan rinciannya nanti).
 
 Penggabungan kode pembayaran dari dua pengguna menghasilkan rahasia bersama, yang pada gilirannya akan menghasilkan sejumlah besar alamat penerima Bitcoin yang unik (tepatnya 2^32, atau sekitar 4 miliar). Dengan cara ini, pembayaran yang dilakukan melalui BIP47 tidak benar-benar ditujukan kepada kode pembayaran itu sendiri, melainkan kepada alamat penerimaan klasik yang berasal dari kode pembayaran para pengguna yang terlibat.
 

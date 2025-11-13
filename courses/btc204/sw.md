@@ -3026,7 +3026,7 @@ Lengo la BIP47 ni kufanya uwezekano wa kupokea idadi kubwa ya malipo bila kutumi
 
 Kwa hivyo mtumiaji anaweza kushiriki msimbo wake wa malipo kwa uhuru kamili, iwe kwenye mitandao ya kijamii au kwenye tovuti yake, bila kuhatarisha upotevu wowote wa usiri, tofauti na mpokeaji wa kawaida wa address au ufunguo wa umma.
 
-Ili kutekeleza muamala, pande zote mbili zinahitaji wallet ya Bitcoin yenye utekelezaji wa BIP47, kama vile PayNym kwenye Pochi la Samurai au wallet ya Sparrow. Matumizi ya pamoja ya misimbo yao ya malipo hutengeneza njia ya siri kati yao. Ili kuanzisha kituo hiki kwa ufanisi, mtoaji lazima atekeleze shughuli mahususi kwenye Bitcoin Blockchain, inayojulikana kama "muamala wa arifa" (zaidi kuhusu hili baadaye).
+Ili kufanya muamala, pande zote mbili lazima ziwe na pochi ya Bitcoin yenye utekelezaji wa BIP47, kama vile PayNym kwenye Ashigaru au Sparrow Wallet. Matumizi ya pamoja ya misimbo yao ya malipo huunda njia ya siri kati yao. Ili kuanzisha njia hii kwa ufanisi, mtumaji lazima afanye muamala maalum kwenye blockchain ya Bitcoin unaojulikana kama "muamala wa taarifa" (nitakupa maelezo yake baadaye).
 
 Kuchanganya misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa, ambazo hutengeneza idadi kubwa ya address za kipekee za Bitcoin zinazopokea (haswa 2^32, au karibu bilioni 4). Kwa njia hii, malipo yanayofanywa kupitia BIP47 hayaelekezwi kwa msimbo wa malipo yenyewe, bali kwa Anwani (address) za kawaida za risiti zinazotokana na misimbo ya malipo ya watumiaji wanaohusika.
 

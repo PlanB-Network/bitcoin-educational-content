@@ -3159,6 +3159,8 @@ Uhereye ubu, Whirlpool yongeye kuboneka kuri porogarama ya telefone ya Ashigaru,
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Umutima w’ukuntu Whirlpool ikora uraguma utahindutse, ariko hari itandukaniro rito ugereranyije no kuyikoresha kuri Samourai: mu 2025, kuri Ashigaru, hariho gusa amapuuli abiri afise `0.25 BTC` na `0.025 BTC`, hamwe n’amahera y’ukwinjira angana na `0.0125 BTC` na `0.00125 BTC`.
+
 Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso biharurwa, n'ingene bishobora kudufasha kugereranya ubushobozi bw'ingendo za CoinJoin.
 
 

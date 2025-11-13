@@ -2201,6 +2201,8 @@ D'ora in avanti, Whirlpool è nuovamente accessibile sull’applicazione mobile 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Il cuore del funzionamento di Whirlpool rimane invariato, ma vi sono comunque alcune differenze rispetto al suo utilizzo su Samourai: nel 2025, su Ashigaru, sono disponibili solo due pool, di `0.25 BTC` e `0.025 BTC`, con commissioni di ingresso rispettive pari a `0.0125 BTC` e `0.00125 BTC`.
+
 Nel prossimo capitolo scopriremo cosa sono gli "anonset", come vengono calcolati questi indicatori e come possono aiutarci a stimare l'efficienza dei cicli coinjoin.
 
 

@@ -3161,6 +3161,8 @@ Bundan böyle, Samourai Wallet’in bir fork’u olan Ashigaru mobil uygulaması
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpool’ün çalışma mantığının özü değişmemiştir, ancak Samourai’deki kullanımına kıyasla yine de bazı farklılıklar vardır: 2025 yılında, Ashigaru üzerinde yalnızca iki havuz bulunmaktadır; bunlar `0.25 BTC` ve `0.025 BTC` olup giriş ücretleri sırasıyla `0.0125 BTC` ve `0.00125 BTC`’dir.
+
 Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesaplandığını ve CoinJoin döngülerinin verimliliğini tahmin etmemize nasıl yardımcı olabileceğini öğreneceğiz.
 
 

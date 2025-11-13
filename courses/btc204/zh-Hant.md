@@ -3149,6 +3149,8 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpool 的運作核心保持不變，但與在 Samourai 上的使用相比仍有一些差異：在 2025 年，Ashigaru 上僅提供兩個池，金額分別為 `0.25 BTC` 與 `0.025 BTC`，其對應的進入費用為 `0.0125 BTC` 與 `0.00125 BTC`。
+
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
 
 

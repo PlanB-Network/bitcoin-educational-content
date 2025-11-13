@@ -2205,6 +2205,8 @@ Nyní je Whirlpool opět přístupný v mobilní aplikaci Ashigaru, forku Samour
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Jádro fungování Whirlpool zůstává nezměněné, avšak oproti jeho použití na Samourai existuje několik rozdílů: v roce 2025 jsou na Ashigaru k dispozici pouze dva pooly v hodnotách `0.25 BTC` a `0.025 BTC`, s odpovídajícími vstupními poplatky `0.0125 BTC` a `0.00125 BTC`.
+
 V příští kapitole se dozvíme, co jsou to "anonsety", jak se tyto ukazatele počítají a jak nám mohou pomoci odhadnout efektivitu cyklů coinjoin.
 
 

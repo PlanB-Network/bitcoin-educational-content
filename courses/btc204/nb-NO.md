@@ -2203,6 +2203,8 @@ Fra nå av er Whirlpool igjen tilgjengelig i mobilappen Ashigaru, en fork av Sam
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Kjernen i hvordan Whirlpool fungerer forblir uendret, men det finnes likevel noen forskjeller sammenlignet med bruken på Samourai: i 2025 er kun to pooler tilgjengelige på Ashigaru, med beløp på `0.25 BTC` og `0.025 BTC`, og respektive inngangsgebyrer på `0.0125 BTC` og `0.00125 BTC`.
+
 I neste kapittel skal vi finne ut hva "anonsets" er, hvordan disse indikatorene beregnes, og hvordan de kan hjelpe oss med å estimere effektiviteten til coinjoin-sykluser.
 
 

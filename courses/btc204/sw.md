@@ -2170,6 +2170,8 @@ Kuanzia sasa, Whirlpool inapatikana tena kwenye programu ya simu ya Ashigaru, am
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Kiini cha jinsi Whirlpool inavyofanya kazi hakijabadilika, lakini bado kuna tofauti fulani ikilinganishwa na matumizi yake kwenye Samourai: mwaka 2025, kwenye Ashigaru, kuna pool mbili pekee zinazopatikana, zenye kiasi cha `0.25 BTC` na `0.025 BTC`, pamoja na ada za kuingia za `0.0125 BTC` na `0.00125 BTC` kwa mtiririko huo.
+
 Katika sura inayofuata, tutajua "anonsets" ni nini, jinsi viashiria hivi vinavyohesabiwa, na jinsi vinaweza kutusaidia kukadiria ufanisi wa mizunguko ya kuunga sarafu.
 
 

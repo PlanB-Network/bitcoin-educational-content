@@ -3161,6 +3161,8 @@ Bitcoin 거래와 마찬가지로 수신 Address을 재사용하지 않는 것�
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpool의 핵심 작동 방식은 변하지 않았지만 Samourai에서의 사용과 비교하면 몇 가지 차이가 있습니다. 2025년 기준 Ashigaru에서는 `0.25 BTC` 및 `0.025 BTC` 두 개의 풀만 이용할 수 있으며, 각각의 참가 수수료는 `0.0125 BTC` 및 `0.00125 BTC`입니다.
+
 다음 장에서는 '무설정'이 무엇인지, 이러한 지표가 어떻게 계산되는지, 그리고 이 지표가 CoinJoin 사이클의 효율성을 추정하는 데 어떻게 도움이 되는지 알아보겠습니다.
 
 

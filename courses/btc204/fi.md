@@ -2205,6 +2205,8 @@ Tästä lähtien Whirlpool on jälleen käytettävissä Ashigaru-mobisovellukses
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpoolin toiminnan ydin pysyy muuttumattomana, mutta sen käytössä Samouraihin verrattuna on silti joitakin eroja: vuonna 2025 Ashigarussa on saatavilla vain kaksi poolia, arvoltaan `0.25 BTC` ja `0.025 BTC`, ja niiden sisäänpääsymaksut ovat vastaavasti `0.0125 BTC` ja `0.00125 BTC`.
+
 Seuraavassa luvussa selvitetään, mitä "anonsetit" ovat, miten nämä indikaattorit lasketaan ja miten niiden avulla voidaan arvioida coinjoin-syklien tehokkuutta.
 
 

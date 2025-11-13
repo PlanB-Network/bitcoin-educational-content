@@ -3113,6 +3113,8 @@ Voortaan is Whirlpool opnieuw toegankelijk via de mobiele applicatie Ashigaru, e
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+De kern van de werking van Whirlpool blijft ongewijzigd, maar er zijn toch enkele verschillen vergeleken met het gebruik op Samourai: in 2025 zijn op Ashigaru slechts twee pools beschikbaar, met bedragen van `0.25 BTC` en `0.025 BTC`, en respectieve instapkosten van `0.0125 BTC` en `0.00125 BTC`.
+
 In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indicatoren worden berekend en hoe ze ons kunnen helpen om de efficiëntie van CoinJoin cycli in te schatten.
 
 

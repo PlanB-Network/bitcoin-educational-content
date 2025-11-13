@@ -2205,6 +2205,8 @@ UTXOのマージは最も一般的な間違いである。CIOH（*Common-Input-O
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpool の動作の根幹は変わりませんが、Samourai での利用と比べるといくつかの違いがあります。2025年時点では、Ashigaru では `0.25 BTC` と `0.025 BTC` の2種類のプールのみが利用可能で、対応する参加手数料はそれぞれ `0.0125 BTC` と `0.00125 BTC` です。
+
 次の章では、「アノンセット」とは何か、この指標はどのように計算されるのか、そしてコインジョインサイクルの効率を推定するためにどのように役立つのかについて説明する。
 
 

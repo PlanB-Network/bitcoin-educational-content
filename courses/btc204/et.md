@@ -2205,6 +2205,8 @@ Nüüdsest on Whirlpool taas kättesaadav Ashigaru mobiilirakenduses, mis on Sam
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpooli toimimise tuum jääb muutumatuks, kuid Samourail kasutamisega võrreldes on siiski mõned erinevused: aastal 2025 on Ashigaru platvormil saadaval vaid kaks puuli väärtustega `0.25 BTC` ja `0.025 BTC`, mille vastavad sisenemistasud on `0.0125 BTC` ja `0.00125 BTC`.
+
 Järgmises peatükis saame teada, mis on "anonsetid", kuidas neid näitajaid arvutatakse ja kuidas need aitavad meil hinnata coinjoin'i tsüklite tõhusust.
 
 

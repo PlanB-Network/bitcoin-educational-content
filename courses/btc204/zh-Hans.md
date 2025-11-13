@@ -2202,6 +2202,8 @@ Tx0 "是惠而浦混合过程的第一步。其目的是准备和均衡UTXO，�
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
+Whirlpool 的运行核心保持不变，但与在 Samourai 上的使用相比仍存在一些差异：在 2025 年，Ashigaru 上仅提供两个池，金额分别为 `0.25 BTC` 和 `0.025 BTC`，对应的进入费用为 `0.0125 BTC` 和 `0.00125 BTC`。
+
 在下一章中，我们将了解什么是 "anonsets"、这些指标是如何计算的，以及它们如何帮助我们估算联接循环的效率。
 
 

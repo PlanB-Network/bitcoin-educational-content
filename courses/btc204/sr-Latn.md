@@ -3109,7 +3109,7 @@ Takođe nije preporučljivo prebacivati svoje postmix UTXO-e na novčanik korist
 Kao i kod svake Bitcoin transakcije, takođe je važno ne koristiti ponovo prijemnu adresu. Svaka nova transakcija mora biti primljena na novu, praznu adresu.
 
 
-Najjednostavnije i najsigurnije rešenje je da ostavite svoje izmešane UTXO-ove u mirovanju na njihovom **postmix** računu, dopuštajući im da se ponovo mešaju i koristeći ih samo za trošenje. Samurai i Sparrow novčanici imaju dodatne zaštite protiv svih ovih rizika analize lanca. Ove zaštite vam pomažu da izbegnete pravljenje grešaka.
+Najjednostavnije i najsigurnije rešenje jeste da ostavite svoje izmešane UTXO-e da miruju na **postmix** nalogu, da ih pustite da se nastave remiksovati i da ih dodirujete samo prilikom trošenja. Novčanici Samourai (a sada i Ashigaru) i Sparrow imaju dodatne zaštite protiv svih ovih rizika vezanih za analizu lanca. Ove zaštite vam pomažu da izbegnete greške.
 
 
 ### Kako upravljati toksičnim kusurima?

@@ -2173,7 +2173,7 @@ Bạn cũng không nên chuyển UTXO postmix của mình sang ví bằng các t
 
 Như với bất kỳ giao dịch Bitcoin nào, điều quan trọng là không sử dụng lại địa chỉ nhận. Mỗi giao dịch mới phải được nhận trên một địa chỉ mới, trống.
 
-Giải pháp đơn giản và an toàn nhất là để UTXO hỗn hợp của bạn ở trạng thái nghỉ trong tài khoản **postmix** của họ, để chúng trộn lại và chỉ chạm vào chúng để chi tiêu. Ví Samurai và Sparrow có các biện pháp bảo vệ bổ sung chống lại tất cả các rủi ro phân tích chuỗi này. Các biện pháp bảo vệ này giúp bạn tránh mắc lỗi.
+Giải pháp đơn giản và an toàn nhất là để các UTXO đã trộn của bạn nằm yên trong tài khoản **postmix**, để chúng tiếp tục được trộn lại và chỉ chạm vào chúng khi cần chi tiêu. Ví Samourai (và nay là Ashigaru) và Sparrow có các lớp bảo vệ bổ sung chống lại mọi rủi ro liên quan đến phân tích chuỗi. Những biện pháp bảo vệ này giúp bạn tránh mắc sai lầm.
 
 ### Bạn quản lý những cuộc trao đổi độc hại như thế nào?
 

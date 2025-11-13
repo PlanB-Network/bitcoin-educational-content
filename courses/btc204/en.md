@@ -2165,7 +2165,7 @@ It's also not advisable to transfer your postmix UTXOs to a wallet using scripts
 
 As with any Bitcoin transaction, it is also important not to reuse the receiving address. Each new transaction must be received on a new, blank address.
 
-The simplest and safest solution is to leave your mixed UTXOs at rest in their **postmix** account, letting them remix and only touching them to spend. Samurai and Sparrow wallets feature additional protection against all these chain analysis risks. These protections help you avoid making mistakes.
+The simplest and safest solution is to leave your mixed UTXOs resting in their **postmix** account, allowing them to continue remixing and touching them only when spending. The Samourai wallets (and now Ashigaru) and Sparrow include additional protections against all these risks related to chain analysis. These protections help you avoid making mistakes.
 
 ### How do you manage toxic changes?
 

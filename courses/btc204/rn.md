@@ -3120,7 +3120,7 @@ Si vyiza kandi kwimurira ama UTXO yawe ya postmix kuri Wallet ukoresheje inyandi
 Nk'uko bigenda ku bikorwa vyose vya Bitcoin, birahambaye kandi ko udasubira gukoresha Address yakira. Igihe cose umuntu atanga amafaranga, ategerezwa kwakirwa ku rupapuro rushasha rwa Address rudafise ikintu.
 
 
-Umuti woroshe kandi utekanye ni ugusiga UTXO zawe zivanzwe ziruhutse muri konti yabo ya **postmix**, ukazireka zikora remix kandi ukazikorako gusa kugira ngo zikoreshe. Samurai na Sparrow wallets zifise uburinzi bwongereweko ku bibazo vyose vyo gusesangura uruzitiro. Ivyo bintu bigukingira biragufasha kwirinda gukora amakosa.
+Inzira yoroshye kandi irinda cyane ni ukureka UTXO zawe zavanze ziruhukira kuri konti ya **postmix**, ukazireka zikivanze kandi ukazikoresha gusa igihe ugomba kuzisohora. Ububiko bwa Samourai (kandi ubu na Ashigaru) na Sparrow bufite uburinzi bw’inyongera ku byago byose bijyanye n’isesengura rya chaîne. Ubu burinzi butuma wirinda amakosa.
 
 
 ### None muvyifatamwo gute mu gucungera amahinduka y’ubumara?

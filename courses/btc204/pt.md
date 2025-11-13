@@ -2174,7 +2174,7 @@ Também não é aconselhável transferir seus UTXOs postmix para uma carteira us
 
 Como em qualquer transação Bitcoin, também é importante não reutilizar o endereço de receção. Cada nova transação deve ser recebida num endereço novo e em branco.
 
-A solução mais simples e segura é deixar os seus UTXOs misturados em repouso na sua conta **postmix**, deixando-os remisturar e tocando-lhes apenas para gastar. As carteiras Samurai e Sparrow apresentam protecções adicionais contra todos estes riscos de análise da cadeia. Estas protecções ajudam-no a evitar cometer erros.
+A solução mais simples e mais segura consiste em deixar os seus UTXOs misturados em repouso na conta **postmix**, permitindo que continuem a ser remisturados e tocando neles apenas para gastá-los. As carteiras Samourai (e agora Ashigaru) e Sparrow dispõem de proteções adicionais contra todos esses riscos relacionados à análise de cadeia. Essas proteções ajudam você a evitar cometer erros.
 
 ### Como é que se gerem as trocas tóxicas?
 

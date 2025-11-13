@@ -2160,7 +2160,7 @@ Es ist auch nicht ratsam, Ihre Postmix-UTXOs auf eine Geldbörse zu übertragen,
 
 Wie bei jeder Bitcoin-Transaktion ist es auch hier wichtig, die Empfängeradresse nicht wieder zu verwenden. Jede neue Transaktion muss über eine neue, leere Adresse empfangen werden.
 
-Die einfachste und sicherste Lösung besteht darin, Ihre gemischten UTXOs in ihrem **Postmix**-Konto ruhen zu lassen, sie neu zu mischen und sie nur zum Ausgeben anzufassen. Samurai- und Sparrow-Geldbörsen bieten zusätzlichen Schutz gegen all diese Risiken der Blockchain-Analyse. Diese Schutzmaßnahmen helfen Ihnen, Fehler zu vermeiden.
+Die einfachste und sicherste Lösung besteht darin, Ihre gemixten UTXOs in ihrem **postmix**-Konto ruhen zu lassen, sie weiter remixen zu lassen und sie nur zum Ausgeben zu berühren. Die Samourai-Wallets (und jetzt Ashigaru) sowie Sparrow verfügen über zusätzliche Schutzmechanismen gegen all diese Risiken im Zusammenhang mit der Kettenanalyse. Diese Schutzfunktionen helfen Ihnen, Fehler zu vermeiden.
 
 ### Wie bewältigen Sie doxisches Wechelgeld?
 

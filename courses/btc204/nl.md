@@ -3074,7 +3074,7 @@ Het is ook niet aan te raden om je postmix UTXOs naar een Wallet over te brengen
 Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangende Address niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, lege Address.
 
 
-De eenvoudigste en veiligste oplossing is om je gemengde UTXO's te laten rusten in hun **postmix** account, ze te laten remixen en ze alleen aan te raken om uit te geven. Samurai en Sparrow wallets bieden extra bescherming tegen al deze risico's van ketenanalyse. Deze beschermingen helpen je fouten te vermijden.
+De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten in hun **postmix**-account, ze verder te laten remixen en ze alleen aan te raken wanneer u ze uitgeeft. De Samourai-wallets (en nu ook Ashigaru) en Sparrow beschikken over extra bescherming tegen alle risico’s die verband houden met ketenanalyse. Deze beschermingen helpen u om fouten te vermijden.
 
 
 ### Hoe ga je om met giftige uitwisselingen?

@@ -2042,7 +2042,7 @@ Il est également déconseillé de transférer vos UTXOs postmix vers un portefe
 
 Comme pour toute transaction Bitcoin, il convient également de ne pas réutiliser les adresses de réception. Chaque nouvelle transaction doit être reçue sur une nouvelle adresse vierge.
 
-La solution la plus simple et la plus sûre consiste à laisser vos UTXOs mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse de chaîne. Ces protections vous permettent d'éviter de faire des erreurs.
+La solution la plus simple et la plus sûre consiste à laisser vos UTXOs mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai (et maintenant Ashigaru) et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse de chaîne. Ces protections vous permettent d'éviter de faire des erreurs.
 
 ### Comment bien gérer ses changes toxiques ?
 

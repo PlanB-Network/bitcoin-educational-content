@@ -3110,7 +3110,7 @@ Det är inte heller tillrådligt att överföra dina postmix UTXO:er till en Wal
 Som med alla Bitcoin-transaktioner är det också viktigt att inte återanvända den mottagande Address. Varje ny transaktion måste tas emot på en ny, tom Address.
 
 
-Den enklaste och säkraste lösningen är att låta dina blandade UTXO:er vila på deras **postmix**-konto, låta dem remixa och bara röra dem för att spendera. Samurai- och Sparrow-plånböckerna har ytterligare skydd mot alla dessa risker med kedjeanalys. Dessa skydd hjälper dig att undvika att göra misstag.
+Den enklaste och säkraste lösningen är att låta dina mixade UTXO:er vila på sitt **postmix**-konto, låta dem fortsätta remixas och endast röra dem när de ska spenderas. Plånböckerna Samourai (och nu Ashigaru) samt Sparrow har ytterligare skydd mot alla dessa risker kopplade till kedjeanalys. Dessa skydd hjälper dig att undvika misstag.
 
 
 ### Hur hanterar du giftiga utbyten?

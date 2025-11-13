@@ -2177,7 +2177,7 @@ Rovněž se nedoporučuje převádět postmixové UTXO do peněženky pomocí sk
 
 Stejně jako u každé transakce s bitcoiny je také důležité, abyste znovu nepoužívali adresu příjemce. Každá nová transakce musí být přijata na nové, prázdné adrese.
 
-Nejjednodušším a nejbezpečnějším řešením je nechat smíšené UTXO v klidu na jejich **postmixovém** účtu, nechat je remixovat a sáhnout na ně pouze za účelem utrácení. Peněženky Samurai a Sparrow jsou vybaveny dalšími ochranami proti všem těmto rizikům analýzy řetězce. Tyto ochrany vám pomohou vyhnout se chybám.
+Nejjednodušším a nejbezpečnějším řešením je ponechat své smíchané UTXO v klidu na účtu **postmix**, nechat je dále promíchávat a dotýkat se jich pouze při utrácení. Peněženky Samourai (a nyní Ashigaru) a Sparrow poskytují další ochranu proti všem rizikům souvisejícím s analýzou řetězce. Tato ochranná opatření vám umožňují vyhnout se chybám.
 
 ### Jak zvládáte toxické výměny?
 

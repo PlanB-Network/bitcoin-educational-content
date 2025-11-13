@@ -2177,7 +2177,7 @@ Tampoco es aconsejable transferir tus UTXOs postmix a un monedero usando scripts
 
 Como con cualquier transacción Bitcoin, también es importante no reutilizar la dirección de recepción. Cada nueva transacción debe recibirse en una nueva dirección en blanco.
 
-La solución más sencilla y segura es dejar tus UTXOs mezclados en reposo en su cuenta **postmix**, dejando que se remezclen y sólo tocándolos para gastar. Los monederos Samurai y Sparrow cuentan con protecciones adicionales contra todos estos riesgos de análisis de cadena. Estas protecciones te ayudan a evitar cometer errores.
+La solución más simple y más segura consiste en dejar sus UTXOs mezclados en reposo en su cuenta **postmix**, permitiendo que se sigan remezclando y tocándolos solo al gastarlos. Las billeteras Samourai (y ahora Ashigaru) y Sparrow cuentan con protecciones adicionales contra todos estos riesgos relacionados con el análisis de cadena. Estas protecciones le permiten evitar cometer errores.
 
 ### ¿Cómo se gestionan los intercambios tóxicos?
 

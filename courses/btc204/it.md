@@ -2173,7 +2173,7 @@ Occorre prestare attenzione anche al consolidamento di UTXO misti. Un consolidam
 
 Come per ogni transazione Bitcoin, è importante non riutilizzare l'indirizzo di ricezione. Ogni nuova transazione deve essere ricevuta su un nuovo indirizzo vuoto.
 
-La soluzione più semplice e sicura è quella di lasciare gli UTXO misti a riposo nel loro conto **postmix**, lasciandoli rimescolare e toccandoli solo per spendere. I portafogli Samurai e Sparrow offrono protezioni aggiuntive contro tutti questi rischi di analisi della catena. Queste protezioni vi aiutano a non commettere errori.
+La soluzione più semplice e più sicura consiste nel lasciare i vostri UTXO mixati a riposo nel loro account **postmix**, lasciandoli continuare a remixarsi e toccandoli solo al momento della spesa. I portafogli Samourai (e ora Ashigaru) e Sparrow dispongono di protezioni aggiuntive contro tutti i rischi legati all’analisi della catena. Queste protezioni vi aiutano a evitare errori.
 
 ### Come si gestiscono gli scambi tossici?
 

@@ -3122,7 +3122,7 @@ Ayrıca, yaygın olarak kullanılmayan komut dosyalarını kullanarak postmix UT
 Tüm Bitcoin işlemlerinde olduğu gibi, alıcı Address'in tekrar kullanılmaması da önemlidir. Her yeni işlem yeni, boş bir Address ile alınmalıdır.
 
 
-En basit ve en güvenli çözüm, karışık UTXO'larınızı **postmix** hesaplarında dinlenmeye bırakmak, yeniden karıştırmalarına izin vermek ve yalnızca harcamak için dokunmaktır. Samurai ve Sparrow cüzdanları tüm bu zincir analizi risklerine karşı ek korumalara sahiptir. Bu korumalar hata yapmaktan kaçınmanıza yardımcı olur.
+En basit ve en güvenli çözüm, karıştırılmış UTXO’larınızı **postmix** hesaplarında dinlenmeye bırakmak, onların yeniden karıştırılmasına izin vermek ve yalnızca harcama sırasında dokunmaktır. Samourai cüzdanları (ve artık Ashigaru) ile Sparrow, zincir analizine ilişkin tüm bu risklere karşı ek korumalar sunar. Bu korumalar hata yapmanızı önlemeye yardımcı olur.
 
 
 ### Toksik değişiklikleri nasıl yönetiyorsunuz?

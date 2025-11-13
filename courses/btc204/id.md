@@ -2175,7 +2175,7 @@ Juga tidak disarankan untuk mentransfer UTXO postmix Anda ke dompet menggunakan 
 
 Seperti halnya transaksi Bitcoin lainnya, penting juga untuk tidak menggunakan kembali alamat penerima. Setiap transaksi baru harus diterima di alamat baru yang kosong.
 
-Solusi paling sederhana dan paling aman adalah dengan membiarkan UTXO campuran Anda tetap berada di akun **postmix** mereka, membiarkannya bercampur dan hanya menyentuhnya untuk dibelanjakan. Dompet Samurai dan Sparrow memiliki fitur perlindungan tambahan terhadap semua risiko analisis rantai ini. Perlindungan ini membantu Anda menghindari kesalahan.
+Solusi paling sederhana dan paling aman adalah membiarkan UTXO Anda yang telah tercampur tetap berada di akun **postmix**, membiarkannya terus tercampur ulang, dan menyentuhnya hanya ketika hendak membelanjakannya. Dompet Samourai (dan kini Ashigaru) serta Sparrow memiliki perlindungan tambahan terhadap semua risiko terkait analisis rantai. Perlindungan ini membantu Anda menghindari kesalahan.
 
 ### Bagaimana cara Anda mengelola bursa beracun?
 

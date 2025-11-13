@@ -2177,7 +2177,7 @@ Samuti ei ole soovitatav kanda oma postmix UTXO-d rahakotti üle, kasutades skri
 
 Nagu iga Bitcoini tehingu puhul, on ka siin oluline mitte kasutada vastuvõtvat aadressi uuesti. Iga uus tehing tuleb vastu võtta uuele, tühjale aadressile.
 
-Kõige lihtsam ja turvalisem lahendus on jätta oma segatud UTXOd oma **postmix** kontole, lastes neil uuesti segada ja puudutades neid ainult kulutamiseks. Samurai ja Sparrow rahakottidel on lisakaitsed kõigi nende ahelanalüüsi riskide vastu. Need kaitsed aitavad teil vältida vigu.
+Lihtsaim ja turvalisim lahendus on jätta oma segatud UTXO-d puhkama **postmix**-kontole, lasta neil edasi seguneda ning puudutada neid ainult kulutamiseks. Samourai rahakotid (ja nüüd Ashigaru) ning Sparrow pakuvad täiendavaid kaitsemehhanisme kõigi nende ahelaanalüüsiga seotud riskide vastu. Need kaitsed aitavad teil vigu vältida.
 
 ### Kuidas hallata toksilisi vahetusi?
 

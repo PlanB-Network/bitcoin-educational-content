@@ -2177,7 +2177,7 @@ Ei myöskään ole suositeltavaa siirtää postmix UTXO:t lompakkoon käyttämä
 
 Kuten minkä tahansa Bitcoin-tapahtuman kohdalla, on myös tärkeää, että vastaanottavaa osoitetta ei käytetä uudelleen. Jokainen uusi transaktio on vastaanotettava uuteen, tyhjään osoitteeseen.
 
-Yksinkertaisin ja turvallisin ratkaisu on jättää sekoitetut UTXO:t lepäämään **postmix**-tililleen, antaa niiden sekoittua uudelleen ja koskettaa niitä vain kulutusta varten. Samurai- ja Sparrow-lompakoissa on lisäsuojaus kaikkia näitä ketjuanalyysin riskejä vastaan. Nämä suojaukset auttavat sinua välttämään virheitä.
+Yksinkertaisin ja turvallisin ratkaisu on jättää sekoitetut UTXO:t lepäämään **postmix**-tilille, antaa niiden jatkaa sekoittumista ja koskea niihin vain kulutusta varten. Samourai-lompakot (ja nyt Ashigaru) sekä Sparrow tarjoavat lisäsuojauksia kaikkia näitä ketjuanalyysiin liittyviä riskejä vastaan. Nämä suojaukset auttavat teitä välttämään virheet.
 
 ### Miten hallitset myrkyllisiä vaihtoja?
 

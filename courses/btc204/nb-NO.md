@@ -2175,7 +2175,7 @@ Det er heller ikke tilrådelig å overføre postmix UTXO-er til en lommebok ved 
 
 Som med alle Bitcoin-transaksjoner er det også viktig å ikke gjenbruke mottakeradressen. Hver nye transaksjon må mottas på en ny, tom adresse.
 
-Den enkleste og tryggeste løsningen er å la de blandede UTXO-ene ligge i ro på **postmix**-kontoen deres, la dem remixes og bare røre dem for å bruke dem. Samurai- og Sparrow-lommebøker har ekstra beskyttelse mot alle disse risikoene ved kjedeanalyse. Denne beskyttelsen hjelper deg med å unngå å gjøre feil.
+Den enkleste og sikreste løsningen er å la de miksede UTXO-ene hvile i **postmix**-kontoen deres, la dem remikses og kun røre dem når de skal brukes. Samourai-lommebøkene (og nå Ashigaru) og Sparrow har ekstra beskyttelse mot alle disse risikoene knyttet til kjedeanalyse. Disse beskyttelsene hjelper dere å unngå feil.
 
 ### Hvordan håndterer du giftige utvekslinger?
 

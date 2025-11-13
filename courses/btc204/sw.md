@@ -2142,7 +2142,7 @@ Pia haipendekezi kuhamisha UTXO zako za posta hadi Pochi kwa kutumia hati ambazo
 
 Kama ilivyo kwa muamala wowote wa Bitcoin, ni muhimu pia kutotumia tena kupokea Anwani (address). Kila muamala mpya lazima upokewe kwenye Anwani (address) mpya, tupu.
 
-Suluhisho rahisi na salama zaidi ni kuacha UTXO zako zilizochanganyika zikiwa zimepumzika katika akaunti yao ya **mchanganyiko wa posta**, ukiziacha zichanganyike na kuzigusa tu ili zitumie. Pochi za Samurai na Sparrow zina ulinzi wa ziada dhidi ya hatari hizi zote za uchanganuzi wa minyororo. Ulinzi huu hukusaidia kuepuka kufanya makosa.
+Suluhisho rahisi na salama zaidi ni kuacha UTXO zako zilizochanganywa zikiwa katika hali ya kupumzika kwenye akaunti ya **postmix**, ukiziruhusu ziendelee kuchanganyika na kuzigusa tu unapozitumia. Wallet za Samourai (na sasa Ashigaru) pamoja na Sparrow zina ulinzi wa ziada dhidi ya hatari zote zinazohusiana na uchanganuzi wa mnyororo. Ulinzi huu hukusaidia kuepuka makosa.
 
 ### Je, unadhibiti vipi ubadilishanaji wa sumu?
 

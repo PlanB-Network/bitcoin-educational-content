@@ -3110,7 +3110,7 @@ Nie zaleca się również przenoszenia postmix UTXO do Wallet przy użyciu skryp
 Podobnie jak w przypadku każdej transakcji Bitcoin, ważne jest, aby nie używać ponownie otrzymanego Address. Każda nowa transakcja musi zostać odebrana na nowym, pustym Address.
 
 
-Najprostszym i najbezpieczniejszym rozwiązaniem jest pozostawienie mieszanych UTXO w spoczynku na koncie **postmix**, pozwalając im na remiksowanie i dotykanie ich tylko w celu wydania. Portfele Samurai i Sparrow oferują dodatkowe zabezpieczenia przed wszystkimi tymi zagrożeniami związanymi z analizą łańcucha. Zabezpieczenia te pomagają uniknąć błędów.
+Najprostszym i najbezpieczniejszym rozwiązaniem jest pozostawienie wymieszanych UTXO w spoczynku na koncie **postmix**, pozwalając im dalej się miksować i dotykając ich jedynie podczas wydawania. Portfele Samourai (a teraz także Ashigaru) oraz Sparrow oferują dodatkowe zabezpieczenia przed wszystkimi tymi zagrożeniami związanymi z analizą łańcucha. Zabezpieczenia te pomagają unikać błędów.
 
 
 ### Jak zarządzać toksycznymi wymianami?

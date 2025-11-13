@@ -62,7 +62,7 @@ Même si l'observateur extérieur parvient à identifier le paterne de la transa
 
 ![image](assets/fr/03.webp)
 
-## Comment faire une transaction Stonewall sur Ashigaru ?
+## Comment faire une transaction Stonewall sur Sparrow ?
 
 Initialement développées par l’équipe de Samourai Wallet, les transactions Stonewall ont été reprises par l’application Ashigaru, un fork du portefeuille original créé à la suite de l’arrestation des développeurs de Samourai, et également sur Sparrow Wallet.
 

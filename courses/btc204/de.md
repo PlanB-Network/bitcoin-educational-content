@@ -1886,6 +1886,10 @@ Im Moment gibt es hauptsächlich 3 verschiedene Coinjoin-Implementierungen auf B
 - Wabisabi;
 - JoinMarket.
 
+Zusätzlich zu diesen drei historischen Implementierungen ist kürzlich eine neue entstanden: Joinstr. Ich werde sie in diesem Kapitel nicht behandeln, aber Sie finden alle diesbezüglichen Informationen in diesem speziellen Tutorial:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Jede dieser Implementierungen zielt darauf ab, die Geschichte der UTXOs durch Coinjoin-Transaktionen zu durchbrechen. Ihre Mechanismen unterscheiden sich jedoch erheblich. Es ist daher wichtig zu verstehen, wie sie funktionieren, damit Sie die für Ihre Bedürfnisse am besten geeignete Option wählen können.
 
 ### JoinMarket

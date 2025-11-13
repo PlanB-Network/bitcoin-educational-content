@@ -2714,6 +2714,10 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 - JoinMarket.
 
 
+除了這三種歷史性實作之外，最近又出現了一種新的：Joinstr。我不會在本章中討論它，但您可以在這篇專門的教學中找到所有相關資訊：
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 這些實作的目的都是要透過 CoinJoin 交易來打破 UTXOs 的歷史。然而，它們的機制差異很大。因此，了解它們各自的運作方式是非常重要的，這樣您就可以選擇最適合您需求的方案。
 
 

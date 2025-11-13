@@ -2714,6 +2714,10 @@ Na chwilę obecną istnieją głównie 3 różne implementacje CoinJoin na Bitco
 - JoinMarket.
 
 
+Oprócz tych trzech historycznych implementacji niedawno pojawiła się nowa: Joinstr. Nie omówię jej w tym rozdziale, ale wszystkie związane z nią informacje znajdziecie w tym dedykowanym samouczku:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Każda z tych implementacji ma na celu przerwanie historii UTXO poprzez transakcje CoinJoin. Jednak ich mechanizmy znacznie się różnią. Dlatego ważne jest, aby zrozumieć, jak działa każda z nich, aby móc wybrać opcję najlepiej dostosowaną do swoich potrzeb.
 
 

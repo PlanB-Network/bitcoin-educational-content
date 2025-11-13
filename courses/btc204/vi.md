@@ -1896,6 +1896,10 @@ Hiện tại có chủ yếu 3 cách triển khai coinjoin khác nhau trên Bitc
 - Wabisabi;
 - Tham gia thị trường.
 
+Ngoài ba bản triển khai mang tính lịch sử này, gần đây đã xuất hiện một bản mới: Joinstr. Tôi sẽ không đề cập đến nó trong chương này, nhưng bạn có thể tìm thấy mọi thông tin liên quan trong hướng dẫn chuyên biệt này:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Mỗi triển khai này đều nhằm mục đích phá vỡ lịch sử của UTXO thông qua các giao dịch coinjoin. Tuy nhiên, cơ chế của chúng khác nhau đáng kể. Do đó, điều cần thiết là phải hiểu cách thức hoạt động của từng triển khai để bạn có thể chọn tùy chọn phù hợp nhất với nhu cầu của mình.
 
 ### Tham gia thị trường

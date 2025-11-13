@@ -1899,6 +1899,10 @@ Hetkel on Bitcoinis peamiselt 3 erinevat coinjoin rakendust:
 - Wabisabi;
 - JoinMarket.
 
+Lisaks neile kolmele ajaloolisele teostusele on hiljuti ilmunud uus: Joinstr. Ma ei käsitle seda selles peatükis, kuid leiate kogu selle kohta käiva teabe sellest pühendatud juhendist:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Kõigi nende rakenduste eesmärk on murda UTXOde ajalugu coinjoin-tehingute kaudu. Nende mehhanismid erinevad siiski märkimisväärselt. Seetõttu on oluline mõista, kuidas iga neist töötab, et saaksite valida oma vajadustele kõige paremini sobivaima võimaluse.
 
 ### JoinMarket

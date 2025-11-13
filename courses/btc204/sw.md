@@ -1873,6 +1873,10 @@ Kwa sasa kuna utekelezaji tatu tofauti wa CoinJoin kwenye Bitcoin:
 .Wabisabi
 .JoinMarket
 
+Mbali na utekelezaji haya matatu ya kihistoria, mpya imeibuka hivi karibuni: Joinstr. Sitaiangazia katika sura hii, lakini unaweza kupata taarifa zote zinazohusiana nayo katika mwongozo huu maalumu:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Kila moja ya utekelezaji huu inalenga kuvunja historia ya UTXO kupitia miamala ya CoinJoin. Hata hivyo, mifumo yao inatofautiana sana. Kwa hivyo ni muhimu kuelewa jinsi kila moja inavyofanya kazi, ili uweze kuchagua chaguo linalofaa zaidi mahitaji yako.
 
 ### JoinMarket

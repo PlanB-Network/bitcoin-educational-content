@@ -1891,6 +1891,10 @@ For the moment, there are mainly 3 different coinjoin implementations on Bitcoin
 - Wabisabi;
 - JoinMarket.
 
+In addition to these three historical implementations, a new one has recently emerged: Joinstr. I will not address it in this chapter, but you can find all related information in this dedicated tutorial:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Each of these implementations aims to break the history of UTXOs via coinjoin transactions. However, their mechanisms vary considerably. It is therefore essential to understand how each works, so you can choose the option that best suits your needs.
 
 ### JoinMarket

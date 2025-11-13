@@ -2726,6 +2726,10 @@ Bu ayrım aynı zamanda Wallet yazılım seviyesinde ön karışım ve son karı
 - JoinMarket.
 
 
+Bu üç tarihî uygulamaya ek olarak, yakın zamanda yeni bir tanesi ortaya çıktı: Joinstr. Bu bölümde bundan bahsetmeyeceğim, ancak onunla ilgili tüm bilgileri bu özel eğitimde bulabilirsiniz:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Bu uygulamaların her biri CoinJoin işlemleri aracılığıyla UTXO'ların geçmişini kırmayı amaçlamaktadır. Ancak, mekanizmaları önemli ölçüde farklılık göstermektedir. Bu nedenle her birinin nasıl çalıştığını anlamak çok önemlidir, böylece ihtiyaçlarınıza en uygun seçeneği seçebilirsiniz.
 
 

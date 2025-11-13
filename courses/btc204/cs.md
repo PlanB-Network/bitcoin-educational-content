@@ -1899,6 +1899,10 @@ V současné době existují v Bitcoinu především 3 různé implementace coin
 - Wabisabi;
 - JoinMarket.
 
+Kromě těchto tří historických implementací se nedávno objevila nová: Joinstr. Nebudu se jí zabývat v této kapitole, ale všechny související informace naleznete v tomto specializovaném tutoriálu:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Každá z těchto implementací má za cíl prolomit historii UTXO prostřednictvím transakcí coinjoin. Jejich mechanismy se však značně liší. Je proto nezbytné pochopit, jak každá z nich funguje, abyste si mohli vybrat možnost, která nejlépe vyhovuje vašim potřebám.
 
 ### JoinMarket

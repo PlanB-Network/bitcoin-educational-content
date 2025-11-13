@@ -1896,6 +1896,10 @@ Al momento esistono principalmente 3 diverse implementazioni di coinjoin su Bitc
 - Wabisabi;
 - JoinMarket.
 
+Oltre a queste tre implementazioni storiche, ne è recentemente comparsa una nuova: Joinstr. Non la tratterò in questo capitolo, ma potete trovare tutte le informazioni al riguardo in questo tutorial dedicato:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Ciascuna di queste implementazioni mira a interrompere la storia degli UTXO attraverso le transazioni coinjoin. Tuttavia, i loro meccanismi variano notevolmente. È quindi essenziale capire come funzionano, in modo da poter scegliere l'opzione più adatta alle proprie esigenze.
 
 ### Iscriviti al mercato

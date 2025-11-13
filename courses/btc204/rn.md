@@ -2724,6 +2724,10 @@ Kugeza ubu hariho ahanini 3 bitandukanye CoinJoin gushirwa mu ngiro kuri Bitcoin
 - Injira mw'Isoko.
 
 
+Uretse izi ishyirwa mu bikorwa bitatu vy’inyuma y’ivuka, harabonetse irindi rishasha: Joinstr. Ntarivuga muri iki gice, ariko mushobora kuronka amakuru yose arireba muri iri somo ryihariye:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Imwe muri izo nzira zigamije guca amateka y’ama UTXO biciye mu bikorwa vya CoinJoin. Ariko rero, uburyo bikoreshwa buratandukanye cane. Ni ngombwa rero gutahura ingene kimwe cose gikora, kugira ngo ushobore guhitamwo uburyo bubereye ivyo ukeneye.
 
 

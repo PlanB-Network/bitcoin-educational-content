@@ -1899,6 +1899,10 @@ Tällä hetkellä Bitcoinissa on pääasiassa 3 erilaista coinjoin-toteutusta:
 - Wabisabi;
 - JoinMarket.
 
+Näiden kolmen historialliset toteutuksen lisäksi on hiljattain ilmestynyt uusi: Joinstr. En käsittele sitä tässä luvussa, mutta löydätte kaikki siihen liittyvät tiedot tästä omistetusta oppaasta:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Jokaisen näistä toteutuksista tavoitteena on rikkoa UTXO:n historia coinjoin-transaktioiden avulla. Niiden mekanismit vaihtelevat kuitenkin huomattavasti. Siksi on tärkeää ymmärtää, miten kukin toimii, jotta voit valita tarpeisiisi parhaiten sopivan vaihtoehdon.
 
 ### JoinMarket

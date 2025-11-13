@@ -1787,6 +1787,10 @@ Pour le moment il existe principalement 3 implémentations de coinjoin différen
 - Wabisabi ;
 - JoinMarket.
 
+En plus de ces trois implémentations historiques, une nouvelle a récemment vu le jour : Joinstr. Je ne vais pas l’aborder dans ce chapitre, mais vous pouvez retrouver toutes les informations la concernant dans ce tutoriel dédié :
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Chacune de ces implémentations a pour objectif de rompre l'historique des UTXOs via des transactions coinjoins. Cependant, leurs mécanismes varient considérablement. Il est donc essentiel de comprendre le fonctionnement de chacune pour choisir l'option la plus adaptée à vos besoins.
 
 ### JoinMarket

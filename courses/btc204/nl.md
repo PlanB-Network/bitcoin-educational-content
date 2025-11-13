@@ -2678,6 +2678,10 @@ Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bi
 - JoinMarket.
 
 
+Naast deze drie historische implementaties is er onlangs een nieuwe verschenen: Joinstr. Ik zal deze niet behandelen in dit hoofdstuk, maar u kunt alle bijbehorende informatie terugvinden in deze speciale handleiding:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
+
 Elk van deze implementaties heeft als doel de geschiedenis van UTXO's te doorbreken via CoinJoin transacties. Hun mechanismen verschillen echter aanzienlijk. Het is daarom essentieel om te begrijpen hoe ze werken, zodat je de optie kunt kiezen die het beste bij je behoeften past.
 
 

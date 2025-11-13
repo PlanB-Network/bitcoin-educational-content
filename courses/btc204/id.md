@@ -2833,7 +2833,7 @@ Gagasan mengenai metode ricochet ini berasal dari tim Samourai Wallet, yang tela
 Aplikasi Ashigaru menawarkan dua varian ricochet (sama seperti yang sebelumnya ada di Samourai):
 
 
-- Diperkuat memantul, atau "pengiriman terhuyung-huyung", yang menawarkan keuntungan menyebarkan biaya layanan Samurai ke dalam lima transaksi yang berurutan. Opsi ini juga memastikan bahwa setiap transaksi disiarkan pada waktu yang berbeda dan dicatat dalam blok yang berbeda, meniru semirip mungkin perilaku perubahan pemilik. Meskipun lebih lambat, metode ini lebih disukai bagi mereka yang tidak terburu-buru, karena memaksimalkan efisiensi ricochet dengan memperkuat ketahanannya terhadap analisis rantai;
+- Ricochet yang diperkuat, atau "pengiriman bertahap", menawarkan keuntungan dengan membagi biaya layanan Ashigaru ke dalam lima transaksi berturut-turut. Opsi ini juga memastikan bahwa setiap transaksi disiarkan pada waktu yang berbeda dan dicatat dalam blok yang berbeda, sehingga dapat meniru perilaku perubahan kepemilikan secara sedekat mungkin. Meskipun lebih lambat, metode ini lebih disukai bagi mereka yang tidak terburu-buru, karena memaksimalkan efektivitas ricochet dengan memperkuat ketahanannya terhadap analisis rantai;
 
 ![BTC204](assets/id/197.webp)
 

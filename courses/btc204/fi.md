@@ -2835,7 +2835,7 @@ Tämän ricochet-menetelmän idea on alun perin peräisin Samourai Walletin tiim
 Ashigaru-sovellus tarjoaa kaksi ricochet-vaihtoehtoa (samat, jotka olivat aiemmin Samourai-sovelluksessa):
 
 
-- Vahvistettu ricochet eli "porrastettu toimitus", jonka etuna on Samurai-palvelumaksun jakautuminen viidelle peräkkäiselle maksutapahtumalle. Tällä vaihtoehdolla varmistetaan myös, että jokainen transaktio lähetetään erillisenä ajankohtana ja kirjataan eri lohkoon, mikä jäljittelee mahdollisimman hyvin omistajanvaihdoksen käyttäytymistä. Vaikka tämä menetelmä on hitaampi, se on suositeltavampi niille, joilla ei ole kiire, sillä se maksimoi ricochetin tehokkuuden vahvistamalla sen vastustuskykyä ketjuanalyysille;
+- Vahvistettu ricochet eli "portaittainen toimitus" tarjoaa edun, jossa Ashigaru-palvelumaksut jaetaan viidelle peräkkäiselle tapahtumalle. Tämä vaihtoehto varmistaa myös, että jokainen tapahtuma lähetetään eri aikaan ja kirjataan eri lohkoon, mikä mahdollistaa omistajanvaihdoksen käyttäytymisen mahdollisimman tarkan jäljittelyn. Vaikka se on hitaampi, tämä menetelmä on parempi niille, joilla ei ole kiire, sillä se maksimoi ricochet’n tehokkuuden vahvistamalla sen vastustuskykyä ketjuanalyysille;
 
 ![BTC204](assets/fi/197.webp)
 

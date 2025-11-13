@@ -4018,7 +4018,7 @@ Porogaramu Ashigaru itanga ubundi buryo bubiri bwa ricochet (bumwe twari dufite 
 
 
 
-- Reinforced ricochet, canke "ugutanga ibice", bitanga akamaro ko gukwiragiza amafaranga y'ibikorwa vya Samurai ku bikorwa bitanu bikurikirana. Iryo hitamwo kandi rituma igikorwa cose gitangazwa ku gihe gitandukanye kandi kigafatwa mu gice gitandukanye, kigaca kigana neza uko bishoboka kwose inyifato y’ugutanga Ownership. Naho bugenda buhoro, ubwo buryo burahimbarwa n’abatari mu vyihuta, kuko butuma ricochet ikora neza cane mu gukomeza ubushobozi bwayo bwo guhangana n’isesengura ry’uruzitiro;
+- Ricochet rikomejwe, canke "gutanga mu byiciro", ritanga akarusho ko gusaranganya amafaranga ya serivisi ya Ashigaru ku muhingamo itanu zikurikirana. Iyi choix inemeza kandi ko buri muhingamo itangwa mu gihe kitandukanye kandi ikinjizwa mu kibanza gitandukanye, bigafasha kwigana neza uko guhinduranya nyir'ikintu bikorwa. Naho iba itwara umwanya mwinshi, iyi nzira ni yo yiza ku batihuta, kuko ituma ricochet ikora neza kurusha mbere, yongera imbaraga zo kwihagararaho imbere y'isesengura rya chaîne;
 
 
 ![BTC204](assets/rn/197.webp)

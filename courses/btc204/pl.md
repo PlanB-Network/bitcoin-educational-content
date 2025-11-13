@@ -4003,7 +4003,7 @@ Aplikacja Ashigaru oferuje dwa warianty ricochetu (te same, które mieliśmy wcz
 
 
 
-- Wzmocniony rykoszet lub "dostawa rozłożona w czasie", która oferuje korzyść w postaci rozłożenia opłaty za usługę Samurai na pięć kolejnych transakcji. Opcja ta zapewnia również, że każda transakcja jest nadawana w osobnym czasie i rejestrowana w innym bloku, naśladując jak najdokładniej zachowanie zmiany właściciela. Metoda ta, choć wolniejsza, jest preferowana dla tych, którzy się nie spieszą, ponieważ maksymalizuje wydajność rykoszetu poprzez wzmocnienie jego odporności na analizę łańcucha;
+- Wzmocniony ricochet, czyli „dostarczanie etapowe”, oferuje zaletę rozłożenia opłat za usługę Ashigaru na pięć kolejnych transakcji. Opcja ta zapewnia również, że każda transakcja zostanie nadana w innym momencie i zapisana w innym bloku, co pozwala jak najwierniej imitować zachowanie związane ze zmianą właściciela. Choć jest wolniejsza, metoda ta jest korzystniejsza dla osób, którym się nie spieszy, ponieważ maksymalizuje skuteczność ricochetu, wzmacniając jego odporność na analizę łańcucha;
 
 
 ![BTC204](assets/pl/197.webp)

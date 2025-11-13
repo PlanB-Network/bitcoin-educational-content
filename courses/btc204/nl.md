@@ -3969,7 +3969,7 @@ De Ashigaru-app biedt twee varianten van ricochet (dezelfde als die we eerder op
 
 
 
-- Versterkte ricochet, of "gespreide levering", die het voordeel biedt van het spreiden van de Samurai servicekosten over de vijf opeenvolgende transacties. Deze optie zorgt er ook voor dat elke transactie op een apart tijdstip wordt uitgezonden en in een ander blok wordt vastgelegd, waardoor het gedrag van een verandering van eigenaar zo goed mogelijk wordt nagebootst. Hoewel deze methode langzamer is, verdient ze de voorkeur voor mensen die geen haast hebben, omdat ze de efficiëntie van de ricochet maximaliseert door de weerstand tegen ketenanalyse te versterken;
+- De versterkte ricochet, of "gespreide levering", biedt het voordeel dat de Ashigaru-servicekosten over vijf opeenvolgende transacties worden verdeeld. Deze optie zorgt er tevens voor dat elke transactie op een ander moment wordt uitgezonden en in een ander blok wordt opgenomen, wat het gedrag van een eigendomsoverdracht zo nauwkeurig mogelijk nabootst. Hoewel het trager is, verdient deze methode de voorkeur voor wie geen haast heeft, omdat ze de doeltreffendheid van de ricochet maximaliseert door de weerstand tegen ketenanalyse te versterken;
 
 
 ![BTC204](assets/nl/197.webp)

@@ -4007,7 +4007,7 @@ Aplikacija Ashigaru nudi dve varijante ricochet-a (iste one koje smo ranije imal
 
 
 
-- Ojačani rikošet, ili "isporuka u fazama", koja nudi prednost raspodele troškova Samurai usluge preko pet uzastopnih transakcija. Ova opcija takođe osigurava da se svaka transakcija emituje u različito vreme i zabeleži u različitom bloku, imitirajući što je moguće bliže ponašanje promene vlasnika. Iako sporija, ova metoda je poželjna za one koji nisu u žurbi, jer maksimizira efikasnost rikošeta jačanjem njegove otpornosti na analizu lanca;
+- Pojačani ricochet, ili „postepna isporuka“, nudi prednost raspodele Naknada za Ashigaru uslugu na pet uzastopnih transakcija. Ova opcija takođe obezbeđuje da svaka transakcija bude emitovana u različito vreme i upisana u različit blok, što omogućava da se što vernije imitira ponašanje promene vlasništva. Iako je sporija, ova metoda je bolja za one koji ne žure, jer maksimizuje efikasnost ricocheta jačanjem njegove otpornosti na analizu lanca;
 
 
 ![BTC204](assets/sr-Latn/197.webp)

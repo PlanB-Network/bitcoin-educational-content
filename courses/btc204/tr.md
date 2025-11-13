@@ -4020,7 +4020,7 @@ Ashigaru uygulaması iki ricochet çeşidi sunar (önceden Samourai’de bulunan
 
 
 
-- Samurai hizmet ücretini birbirini takip eden beş işleme yayma avantajı sunan güçlendirilmiş sekme veya "kademeli teslimat". Bu seçenek aynı zamanda her işlemin ayrı bir zamanda yayınlanmasını ve farklı bir bloğa kaydedilmesini sağlayarak Ownership transferinin davranışını mümkün olduğunca yakından taklit eder. Daha yavaş olmasına rağmen, bu yöntem acelesi olmayanlar için tercih edilir, çünkü zincir analizine karşı direncini güçlendirerek ricochet'in verimliliğini en üst düzeye çıkarır;
+- Güçlendirilmiş ricochet, yani "kademeli teslimat", Ashigaru hizmet ücretlerini ardışık beş işleme yayma avantajı sunar. Bu seçenek ayrıca her işlemin farklı bir zamanda yayınlanmasını ve ayrı bir blokta kaydedilmesini sağlayarak mülkiyet değişikliği davranışını olabildiğince yakından taklit eder. Daha yavaş olsa da, bu yöntem acelesi olmayanlar için daha uygundur; çünkü zincir analizine karşı direncini artırarak ricochet’in etkinliğini en üst düzeye çıkarır;
 
 
 ![BTC204](assets/tr/197.webp)

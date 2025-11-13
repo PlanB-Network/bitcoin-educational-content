@@ -4005,7 +4005,7 @@ Ashigaru-applikationen erbjuder två ricochet-varianter (samma som vi hade tidig
 
 
 
-- Förstärkt rikoschett, eller "förskjuten leverans", vilket ger fördelen att Samurai-serviceavgiften sprids över de fem på varandra följande transaktionerna. Detta alternativ säkerställer också att varje transaktion sänds vid en separat tidpunkt och registreras i ett annat block, vilket så nära som möjligt efterliknar beteendet vid ett ägarbyte. Även om den är långsammare är denna metod att föredra för dem som inte har bråttom, eftersom den maximerar ricochetens effektivitet genom att förstärka dess motståndskraft mot kedjeanalys;
+- Den förstärkta ricocheten, eller "stegvis leverans", har fördelen att Ashigaru-tjänsteavgifterna fördelas över fem på varandra följande transaktioner. Detta alternativ säkerställer även att varje transaktion sänds vid en annan tidpunkt och registreras i ett annat block, vilket gör det möjligt att så troget som möjligt efterlikna beteendet vid ett ägarbyte. Även om den är långsammare, är metoden att föredra för dem som inte har bråttom, eftersom den maximerar ricochetens effektivitet genom att stärka dess motståndskraft mot kedjeanalys;
 
 
 ![BTC204](assets/sv/197.webp)

@@ -2835,7 +2835,7 @@ Selle rikošeti meetodi idee pärineb algselt Samourai Walleti meeskondadelt, ke
 Ashigaru rakendus pakub kahte rikosheti varianti (samasuguseid nagu varem Samourai's):
 
 
-- Tugevdatud rikošett ehk "astmeline tarne", mille eeliseks on Samurai teenustasude jaotamine viie järjestikuse tehingu peale. See võimalus tagab ka selle, et iga tehing edastatakse eraldi ajal ja salvestatakse erinevas plokis, jäljendades võimalikult täpselt omaniku vahetuse käitumist. Kuigi see meetod on aeglasem, on see eelistatav neile, kes ei kiirusta, sest see maksimeerib rikošeti tõhusust, tugevdades selle vastupidavust ahelanalüüsile;
+- Tugevdatud rikošett ehk „astmeline kohaletoimetamine“ pakub eelist jaotada Ashigaru teenustasud viie järjestikuse tehingu peale. See valik tagab ka, et iga tehing edastatakse erineval ajal ja salvestatakse eraldi plokki, mis võimaldab võimalikult täpselt jäljendada omandiõiguse muutumise käitumist. Kuigi see on aeglasem, on meetod eelistatav neile, kellel pole kiiret, sest see suurendab rikošeti tõhusust, tugevdades selle vastupanuvõimet ahelaanalüüsile;
 
 ![BTC204](assets/et/197.webp)
 

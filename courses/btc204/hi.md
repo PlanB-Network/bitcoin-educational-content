@@ -2772,7 +2772,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 
 ### स्टोनवॉल और स्टोनवॉल x2 ट्रांजैक्शन का इस्तेमाल कैसे करूँ?
 
-स्टोनवॉल और स्टोनवॉल x2 लेनदेन सामुराई Wallet एप्लिकेशन और स्पैरो Wallet सॉफ्टवेयर दोनों पर उपलब्ध हैं।
+Stonewall लेनदेन Sparrow Wallet और Ashigaru दोनों पर उपलब्ध हैं, जबकि Stonewall x2 फिलहाल केवल Ashigaru द्वारा समर्थित है.
 
 ![BTC204](assets/hi/189.webp)
 

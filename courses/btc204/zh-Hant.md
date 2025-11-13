@@ -3893,7 +3893,7 @@ StonewallX2 交易的工作原理與 Stonewall 交易完全相同，只是前者
 ### 如何使用石牆和石牆 x2 交易？
 
 
-Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wallet 軟體上均可使用。
+Stonewall 交易可在 Sparrow Wallet 以及 Ashigaru 上使用，而 Stonewall x2 目前僅由 Ashigaru 支援。
 
 
 ![BTC204](assets/zh-Hant/189.webp)

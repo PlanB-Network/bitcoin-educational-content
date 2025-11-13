@@ -2760,7 +2760,7 @@ Loogika peaks olema järgmine, kui soovite kasutada konfidentsiaalsusvahendit ku
 
 ### Kuidas kasutada Stonewall ja Stonewall x2 tehinguid?
 
-Stonewall ja Stonewall x2 tehingud on saadaval nii Samourai Wallet'i rakenduses kui ka Sparrow Wallet'i tarkvaras.
+Stonewall-tehingud on saadaval nii Sparrow Walletis kui ka Ashigaru platvormil, samas kui Stonewall x2 on praegu toetatud ainult Ashigaru poolt.
 
 ![BTC204](assets/et/189.webp)
 

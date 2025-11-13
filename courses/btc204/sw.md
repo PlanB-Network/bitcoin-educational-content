@@ -2712,7 +2712,7 @@ Mantiki inapaswa kuwa kama ifuatavyo unapotaka kutumia zana ya usiri kwa gharama
 
 ### Je, ninatumia vipi miamala ya Stonewall na Stonewall x2?
 
-Miamala ya Stonewall na Stonewall x2 inapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet.
+Muamala ya Stonewall yanapatikana kwenye Sparrow Wallet na pia kwenye Ashigaru, ilhali Stonewall x2 kwa sasa yanaungwa mkono na Ashigaru pekee.
 
 ![BTC204](assets/sw/189.webp)
 

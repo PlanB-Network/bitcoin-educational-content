@@ -3911,7 +3911,7 @@ Alice, Bob 제빵사, 찰스를 예로 들어 보겠습니다. Blockchain의 트
 ### 스톤월과 스톤월 x2 트랜잭션은 어떻게 사용하나요?
 
 
-스톤월 및 스톤월 x2 트랜잭션은 사무라이 Wallet 애플리케이션과 Sparrow wallet 소프트웨어 모두에서 사용할 수 있습니다.
+Stonewall 거래는 Sparrow Wallet과 Ashigaru 모두에서 사용할 수 있지만, Stonewall x2는 현재 Ashigaru에서만 지원됩니다.
 
 
 ![BTC204](assets/ko/189.webp)

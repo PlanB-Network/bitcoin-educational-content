@@ -3898,7 +3898,7 @@ Logika bi trebala biti sledeća kada želite da koristite alat za poverljivost p
 ### Kako da koristim Stonewall i Stonewall x2 transakcije?
 
 
-Transakcije Stonewall i Stonewall x2 dostupne su na aplikaciji Samourai Wallet i softveru Sparrow Wallet.
+Stonewall transakcije dostupne su na Sparrow Walletu kao i na Ashigaru, dok Stonewall x2 za sada podržava samo Ashigaru.
 
 
 ![BTC204](assets/sr-Latn/189.webp)

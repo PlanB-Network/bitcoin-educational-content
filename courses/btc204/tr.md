@@ -3911,7 +3911,7 @@ Bir gider için bir gizlilik aracı kullanmak istediğinizde mantık aşağıdak
 ### Stonewall ve Stonewall x2 işlemlerini nasıl kullanabilirim?
 
 
-Stonewall ve Stonewall x2 işlemleri hem Samourai Wallet uygulamasında hem de Sparrow wallet yazılımında mevcuttur.
+Stonewall işlemleri Sparrow Wallet ve Ashigaru üzerinde mevcuttur; ancak Stonewall x2 şu anda yalnızca Ashigaru tarafından desteklenmektedir.
 
 
 ![BTC204](assets/tr/189.webp)

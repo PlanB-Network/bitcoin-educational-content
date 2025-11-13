@@ -2758,7 +2758,7 @@ Logikken bør være som følger når du ønsker å bruke et konfidensialitetsver
 
 ### Hvordan bruker jeg Stonewall og Stonewall x2-transaksjoner?
 
-Stonewall- og Stonewall x2-transaksjoner er tilgjengelige både i Samourai Wallet-applikasjonen og Sparrow Wallet-programvaren.
+Stonewall-transaksjoner er tilgjengelige i Sparrow Wallet så vel som i Ashigaru, mens Stonewall x2 foreløpig kun støttes av Ashigaru.
 
 ![BTC204](assets/nb-NO/189.webp)
 

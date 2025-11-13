@@ -2758,7 +2758,7 @@ Logikanya harus seperti berikut ketika Anda ingin menggunakan alat kerahasiaan u
 
 ### Bagaimana cara menggunakan transaksi Stonewall dan Stonewall x2?
 
-Transaksi Stonewall dan Stonewall x2 tersedia di aplikasi Samourai Wallet dan perangkat lunak Sparrow Wallet.
+Transaksi Stonewall tersedia di Sparrow Wallet maupun di Ashigaru, sedangkan Stonewall x2 untuk saat ini hanya didukung oleh Ashigaru.
 
 ![BTC204](assets/id/189.webp)
 

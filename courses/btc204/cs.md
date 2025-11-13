@@ -2760,7 +2760,7 @@ Pokud chcete použít nástroj pro utajení výdajů, měla by být logika násl
 
 ### Jak mohu používat transakce Stonewall a Stonewall x2?
 
-Transakce Stonewall a Stonewall x2 jsou dostupné v aplikaci Samourai Wallet i v softwaru Sparrow Wallet.
+Transakce Stonewall jsou dostupné v peněžence Sparrow Wallet i v Ashigaru, zatímco Stonewall x2 jsou prozatím podporovány pouze v Ashigaru.
 
 ![BTC204](assets/cs/189.webp)
 

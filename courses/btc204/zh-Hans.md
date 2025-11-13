@@ -2757,7 +2757,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 
 ### 如何使用石墙和石墙 x2 交易？
 
-石墙 "和 "石墙 x2 "交易可在 Samourai 钱包应用程序和 Sparrow 钱包软件上进行。
+Stonewall 交易可在 Sparrow Wallet 和 Ashigaru 上使用，而 Stonewall x2 目前仅由 Ashigaru 支持。
 
 ![BTC204](assets/zh-Hans/189.webp)
 

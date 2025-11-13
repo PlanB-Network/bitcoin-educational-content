@@ -3902,7 +3902,7 @@ Stonewall x2 شکل خاص دیگری از تراکنش Bitcoin است که هم
 ### چگونه از تراکنش‌های Stonewall و Stonewall x2 استفاده کنم؟
 
 
-تراکنش‌های Stonewall و Stonewall x2 در هر دو برنامه Samourai Wallet و نرم‌افزار Sparrow wallet در دسترس هستند.
+تراکنش‌های Stonewall در Sparrow Wallet و همچنین در Ashigaru در دسترس هستند، در حالی که Stonewall x2 در حال حاضر تنها توسط Ashigaru پشتیبانی می‌شود.
 
 
 ![BTC204](assets/fa/189.webp)

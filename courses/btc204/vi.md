@@ -2756,7 +2756,7 @@ Logic phải như sau khi bạn muốn sử dụng công cụ bảo mật cho m�
 
 ### Tôi có thể sử dụng giao dịch Stonewall và Stonewall x2 như thế nào?
 
-Các giao dịch Stonewall và Stonewall x2 đều có sẵn trên cả ứng dụng Samourai Wallet và phần mềm Sparrow Wallet.
+Các giao dịch Stonewall có sẵn trên Sparrow Wallet cũng như trên Ashigaru, trong khi Stonewall x2 hiện chỉ được hỗ trợ bởi Ashigaru.
 
 ![BTC204](assets/vi/189.webp)
 

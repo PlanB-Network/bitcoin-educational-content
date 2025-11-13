@@ -2760,7 +2760,7 @@ StonewallX2取引はStonewall取引と全く同様に機能するが、前者は
 
 ### StonewallおよびStonewall x2の取引はどのように利用できますか？
 
-StonewallとStonewall x2の取引は、Samourai WalletアプリケーションとSparrow Walletソフトウェアの両方で利用可能です。
+Stonewall トランザクションは Sparrow Wallet および Ashigaru で利用できますが、Stonewall x2 は現時点では Ashigaru のみがサポートしています。
 
 ![BTC204](assets/ja/189.webp)
 

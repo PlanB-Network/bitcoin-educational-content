@@ -2760,7 +2760,7 @@ Logiikan pitäisi olla seuraava, kun haluat käyttää salassapitovälinettä me
 
 ### Miten käytän Stonewall- ja Stonewall x2 -tapahtumia?
 
-Stonewall- ja Stonewall x2 -tapahtumat ovat käytettävissä sekä Samourai Wallet -sovelluksessa että Sparrow Wallet -ohjelmistossa.
+Stonewall-transaktiot ovat saatavilla sekä Sparrow Walletissa että Ashigaru-sovelluksessa, kun taas Stonewall x2 -transaktioita tukee toistaiseksi vain Ashigaru.
 
 ![BTC204](assets/fi/189.webp)
 

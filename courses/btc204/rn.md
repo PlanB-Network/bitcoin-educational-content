@@ -3909,7 +3909,7 @@ Ivyiyumviro bikwiye kuba ibi bikurikira igihe ushaka gukoresha igikoresho c’ib
 ### Nokoresha gute amafaranga y’amabuye n’amabuye x2?
 
 
-Ivy’ugucuruza vy’amabuye n’ivy’amabuye x2 biraboneka kuri porogarama ya Samourai Wallet no kuri porogarama ya Sparrow wallet.
+Transaksiyo za Stonewall ziraboneka kuri Sparrow Wallet no kuri Ashigaru, mu gihe Stonewall x2 kugeza ubu ziterwa inkunga na Ashigaru gusa.
 
 
 ![BTC204](assets/rn/189.webp)

@@ -1055,13 +1055,13 @@ Ora vogliamo utilizzare lo scanner di rete Nmap per rilevare le vulnerabilità n
 Per raggiungere questo obiettivo, Nmap si affida agli script NSE (_Nmap Scripting Engine_), che possono essere considerati come moduli che consentono un approccio granulare ai test.
 
 Con le giuste opzioni, chiederemo a Nmap di utilizzare i suoi vari script NSE su ogni servizio scoperto, permettendoci di scoprire:
-- Errori di configurazione ;
-- Ulteriori e più avanzate scoperte di versioni e sistemi operativi ;
-- Vulnerabilità note (CVE) ;
-- Identificatori deboli ;
-- Elements caratteristico di un'infezione da malware ;
-- Possibilità di negazione del servizio ;
-- Ecc.
+- Errori di configurazione;
+- Ulteriori e più avanzate scoperte di versioni e sistemi operativi;
+- Vulnerabilità note (CVE);
+- Identificatori deboli;
+- Elementi caratteristici di un'infezione da malware;
+- Possibilità di negazione del servizio;
+- Ecc...
 
 Come si può vedere, gli script NSE estendono in modo significativo le capacità di Nmap in termini di operazioni di rete che può eseguire. E questo per eseguire operazioni molto più avanzate che in passato. La buona notizia è che, come al solito, queste funzioni possono essere utilizzate semplicemente tramite un'opzione e in un contesto predefinito. Questo è ciò che vedremo in seguito.
 
@@ -1080,8 +1080,6 @@ Ricordate che per impostazione predefinita, se non si specifica nulla, Nmap scan
 
 Prima di utilizzare questa funzionalità in un sistema informativo di produzione, vi invito a continuare a leggere il tutorial. Nelle sezioni successive, vedremo come controllare meglio l'impatto e i tipi di test che verranno eseguiti.
 
-
-
 Riutilizzando ciò che abbiamo imparato in precedenza, possiamo, ad esempio, essere più completi e scansionare tutte le porte TCP di un obiettivo:
 
 ```
@@ -1093,7 +1091,7 @@ Ecco il risultato di una scansione Nmap utilizzando gli script NSE:
 
 ![nmap-image](assets/fr/40.webp)
 
-esempio dei risultati di una scansione di vulnerabilità su un host tramite Nmap._
+_Esempio dei risultati di una scansione di vulnerabilità su un host tramite Nmap_
 
 Qui vediamo la visualizzazione di informazioni aggiuntive di interesse nel contesto di un'analisi di vulnerabilità:
 - Il servizio FTP è accessibile in modo anonimo e non è protetto da autenticazione. Lo script NSE incaricato di questa verifica ce lo dice e mostra anche parte della struttura ad albero del servizio FTP. Qui vediamo che abbiamo accesso alla directory `C` del sistema Windows!
@@ -1120,7 +1118,7 @@ Sia chiaro: Nmap non è in grado di effettuare un test di penetrazione completo 
 - **Dipendenza dagli aggiornamenti**: Il [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) degli script NSE di Nmap è in continua evoluzione, ma può esserci un ritardo tra la scoperta di una nuova vulnerabilità e l'aggiunta di uno script corrispondente a Nmap. Di conseguenza, Nmap potrebbe non essere sempre aggiornato con le ultime vulnerabilità.
 - **Falsi positivi e falsi negativi**: come ogni strumento di sicurezza, gli script NSE di Nmap possono produrre falsi positivi (falsi avvisi di vulnerabilità) o falsi negativi (vulnerabilità reali non rilevate). È un aspetto da tenere presente quando si analizzano i risultati di Nmap.
 
-È quindi importante capire cosa fa e cosa non fa Nmap e, allo stesso modo, sapere come interpretare i suoi risultati. In particolare, nel corso di questo tutorial abbiamo visto che le opzioni predefinite possono farci perdere importanti Elements che possono essere scoperti con un uso attento.
+È quindi importante capire cosa fa e cosa non fa Nmap e, allo stesso modo, sapere come interpretare i suoi risultati. In particolare, nel corso di questo tutorial abbiamo visto che le opzioni predefinite possono farci perdere importanti elementi che possono essere scoperti con un uso attento.
 
 Che siate un amministratore di sistema di rete, un ingegnere della sicurezza o addirittura un CISO, l'uso di Nmap vi offre una panoramica dello stato di sicurezza di un sistema informatico. Si tratta di un primo passo importante per la sicurezza di un sistema, che può essere eseguito regolarmente dal team IT. Tuttavia, non dovrebbe sostituire l'intervento e la consulenza di esperti di [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), che saranno in grado di scoprire i punti deboli in modo molto più completo di Nmap.
 
@@ -1139,32 +1137,32 @@ Questa sezione fa seguito alla precedente esercitazione, in cui abbiamo imparato
 
 ### II. Il concetto di script NSE di Nmap
 
-Gli script NSE di Nmap consentono di estendere le sue funzionalità in modo estremamente flessibile. Sono scritti in LUA, un linguaggio di scripting più facile da gestire e da accedere rispetto al C o al C# utilizzati da Nmap. Il vantaggio di utilizzare uno script LUA con Nmap piuttosto che uno strumento autonomo è che ci permette di sfruttare la velocità di esecuzione e le funzionalità standard di Nmap (rilevamento di host, porte e versioni, ecc.).
+Gli script NSE di Nmap consentono di estendere le sue funzionalità in modo estremamente flessibile. Sono scritti in 'LUA', un linguaggio di scripting più facile da gestire e da accedere rispetto a 'C' o a 'C#' utilizzati da Nmap. Il vantaggio di utilizzare uno script 'LUA' con Nmap piuttosto che uno strumento autonomo è che ci permette di sfruttare la velocità di esecuzione e le funzionalità standard di Nmap (rilevamento di host, porte e versioni, ecc.).
 
 Gli script sono organizzati per categoria e uno stesso script può appartenere a più di una categoria:
 
-| Catégorie       | Description |
+| Categorie      | Descrizione |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **auth**       | Contiene script relativi all'autenticazione dei servizi, incluso l'accesso anonimo o l'elenco degli utenti. Esempi: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contiene script relativi alle operazioni di trasmissione sulla rete, in particolare al fine di sfruttare e scoprire determinati servizi, host o protocolli basati sulla trasmissione (IPv6, wake on lan, IGMP, etc.). Esempi: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contiene script relativi alle operazioni di brute force di autenticazione dei servizi (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Esempi: `ssh-brute`, `vnc-brute`. |
+| **default**    | Contiene gli script utilizzati nel caso predefinito (utilizando `-sC`). Diversi criteri sono utilizzati per convalidare l'ingresso di uno script in questa categoria, compresa la velocità di esecuzione, la struttura dell'output, l'affidabilità del test, il carattere "intrusivo" o di "rischio", ecc... |
+| **discovery**  | Contiene script relativi all'analisi avanzata della rete e dei servizi. Ad esempio, elenca il contenuto di una condivisione SMB, una versione di un servizio VNC, richieste SNMP, ecc... Esempi: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contiene script che possono causare la negazione del servizio. Questi possono essere script creati per sfruttare una vulnerabilità negazione-di-servizio o script che hanno un effetto negazione-di-servizio. Attenzione dunque (sono esclusi dalla categoria `default`). Esempi: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contiene script creati per sfruttare direttamente la vulnerabilità. Esempi: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contiene script che richiedono l'uso di una risorsa di terze parti, come una base di informazioni online. Ciò indica un tentativo di connettersi al mondo esterno (attenzione alla riservatezza). Esempi: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contiene script progettati per inviare frame, pacchetti o impostazioni inaspettate da un servizio. Ciò consente di causare errori o malfunzionamenti al fine di ottenere vulnerabilità o informazioni tecniche. Esempi: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contiene script che sono classificati come "rischiosi" da un punto di vista di disponibilità o di rilevamento. Possono causare un crash del sistema o essere rilevati come dannosi da una soluzione di sicurezza. Questa è la categoria inversa `safe`. Esempi: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contiene script progettati per rilevare la presenza di un elemento caratteristico malware, come una porta di ascolto comunemente utilizzata da una backdoor nota. Esempi: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contiene script che sono considerati sicuri da un punto di vista di rilevamento o stabilità. Questa è la categoria inversa di `intrusive` e contiene la stragrande maggioranza di script di lettura di elementi di configurazione o di identificazione di versione avanzata. Esempi: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contiene script che permettono il rilevamento di versione avanzata. Possono essere utilizzati in aggiunta alle Probes e ai Matchs studiati in precedenza durante la rilevazione di una versione richiede operazioni più complesse. Esempi: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contiene script progettati per rilevare la presenza di vulnerabilità conosciute (CVE) senza sfruttarli (inverso della categoria "exploit"). Di solito semplicemente segnalare lo stato di un servizio. Esempi: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Tecnicamente, le categorie a cui appartiene uno script sono indicate direttamente nel suo codice.
 
 ![nmap-image](assets/fr/41.webp)
 
-categorie di script nSE `ftp-anon`._
+_Categorie di script NSE `ftp-anon`_
 
 Questo esempio mostra parte del codice dello script NSE `ftp-anon.nse`, la cui esecuzione è stata vista nella sezione precedente.
 
@@ -1174,13 +1172,13 @@ Per impostazione predefinita, gli script NSE di Nmap si trovano nella directory 
 
 ![nmap-image](assets/fr/42.webp)
 
-estrae il contenuto della directory `/usr/share/nmap/scripts/` contenente gli script NSE._
+_Estrae il contenuto della directory `/usr/share/nmap/scripts/` contenente gli script NSE_
 
 Questa directory contiene oltre 5.000 script NSE. Nella maggior parte dei casi, la prima parte del nome dello script contiene il protocollo o la categoria a cui appartiene. Questo ci permette di ordinare l'elenco, ad esempio se vogliamo elencare tutti gli script che si rivolgono al servizio FTP:
 
 ![nmap-image](assets/fr/43.webp)
 
-elenco degli script NSE Nmap con nomi che iniziano con `ftp-`._
+_Elenco degli script NSE Nmap con nomi che iniziano con `ftp-`_
 
 Nmap non offre un'opzione per sfogliare ed elencare gli script NSE; si può usare il comando `-script-help` seguito dal nome di una categoria o da una parola:
 
@@ -1192,11 +1190,11 @@ nmap --script-help=ftp-*
 nmap --script-help=discovery
 ```
 
-Tuttavia, il risultato sarà il nome di ogni script e la sua descrizione, il che non è ottimale se la ricerca porta a diverse decine di script:
+Tuttavia, il risultato sarà il nome di ogni script e la sua descrizione, il che non è ottimale se la ricerca della porta ha diverse decine di script:
 
 ![nmap-image](assets/fr/44.webp)
 
-risultato dell'utilizzo del comando `-script-help' di Nmap
+_Risultato dell'utilizzo del comando `-script-help` di Nmap_
 
 A mio parere, il metodo più efficace è quello di usare i classici comandi Linux nella directory `/usr/share/nmap/scripts/`:
 
@@ -1269,7 +1267,7 @@ Abbiamo quindi un risultato molto preciso:
 
 ![nmap-image](assets/fr/45.webp)
 
-risultato dell'utilizzo dello script NSE `ftp-anon` su una porta FTP via Nmap._
+_Risultato dell'utilizzo dello script NSE `ftp-anon` su una porta FTP via Nmap_
 
 Vediamo il risultato dell'esecuzione dello script `ftp-anon` sulla porta 21 e su nessun'altra porta, perché abbiamo specificato l'opzione `-p 21`. Avremmo anche potuto eseguire una scansione di base delle porte, eseguendo lo script NSE `ftp-anon` solo sui servizi FTP rilevati:
 
@@ -1284,9 +1282,9 @@ Per una breve descrizione di ciò che fa uno script NSE, si può usare l'opzione
 
 ![nmap-image](assets/fr/46.webp)
 
-aiutare a visualizzare i risultati per lo script NSE `sshv1`._
+_Aiuta a visualizzare i risultati per lo script NSE `sshv1`_
 
-In breve, ancora una volta possiamo riutilizzare tutte le opzioni di scoperta della rete, i servizi, le versioni e le tecnologie che abbiamo usato finora!
+In breve, ancora una volta possiamo riutilizzare tutte le opzioni di indagine della rete, i servizi, le versioni e le tecnologie che abbiamo usato finora!
 
 #### C. Gestione degli argomenti degli script
 
@@ -1300,13 +1298,13 @@ Questo script ha opzioni "predefinite", che possiamo personalizzare per adattarl
 
 ![nmap-image](assets/fr/47.webp)
 
-risultato della visualizzazione dell'aiuto per lo script NSE `ssh-brute` con un link a nmap.org._
+_Risultato della visualizzazione dell'aiuto per lo script NSE `ssh-brute` con un link a nmap.org_
 
 Cliccando sul link indicato, si arriva a questa pagina web del sito [https://nmap.org](https://nmap.org/):
 
 ![nmap-image](assets/fr/48.webp)
 
-elenco di argomenti che possono essere passati allo script NSE `ssh-brute` di Nmap
+_Elenco di argomenti che possono essere passati allo script NSE `ssh-brute` di Nmap_
 
 Qui abbiamo una chiara visione degli argomenti che possono essere usati, i principali nel nostro contesto sono `passdb` (file contenente un elenco di password) e `userdb` (file contenente un elenco di utenti). La documentazione si riferisce alle librerie interne di Nmap, in quanto questi meccanismi di forza bruta e le opzioni associate sono mutualizzati per essere usati in modo uniforme in diversi script (`ssh-brute`, `mysql-brute`, `mssql-brute`, ecc.) e quindi avranno più o meno gli stessi argomenti:
 
@@ -1327,11 +1325,11 @@ Come si può vedere in quest'ultimo comando, è possibile specificare gli argome
 
 ![nmap-image](assets/fr/49.webp)
 
-risultato di un'esecuzione bruteforce di SSH tramite Nmap._
+_Risultato di un'esecuzione bruteforce di SSH tramite Nmap_
 
 Come si può notare, le informazioni generate dagli script NSE sono precedute da `NSE: [nome dello script]` nell'output interattivo (output del terminale), rendendole più facili da trovare. Nella visualizzazione abituale dei risultati di Nmap, abbiamo semplicemente un riepilogo che indica se sono stati scoperti o meno identificatori deboli (comprese le password, ricordate).
 
-Per fare un ulteriore passo avanti e per ricordare che tutto questo può essere usato in aggiunta a tutte le opzioni che abbiamo già esaminato, ecco un comando che scoprirà la rete `10.10.10.0/24`, scansionerà le 2000 porte TCP più frequenti ed eseguirà una ricerca di accesso anonimo sui servizi FTP e una campagna di forza bruta sui servizi SSH:
+Per fare un ulteriore passo avanti e per ricordare che tutto questo può essere usato in aggiunta a tutte le opzioni che abbiamo già esaminato, ecco un comando che analizzerà la rete `10.10.10.0/24`, scansionerà le 2000 porte TCP più frequenti ed eseguirà una ricerca di accesso anonimo sui servizi FTP e una campagna di forza bruta sui servizi SSH:
 
 ```
 # Example of a complete command using multiple scripts
@@ -1342,9 +1340,9 @@ Questo è solo un esempio dei molti script disponibili e delle loro opzioni. Ma 
 
 ### V. Conclusioni
 
-In questa sezione abbiamo imparato a utilizzare gli script NSE di Nmap per eseguire varie operazioni. Vi invito a scoprire le diverse categorie di script e gli script stessi, per vedere quanti test possono automatizzare.
+In questa sezione abbiamo imparato a utilizzare gli script NSE di Nmap per eseguire varie operazioni. Ti invito a scoprire le diverse categorie di script e gli script stessi, per vedere quanti test possono automatizzare.
 
-Per diverse sezioni abbiamo accumulato opzioni di scoperta, scansione ed enumerazione più o meno avanzate. Ormai dovreste essere consapevoli che l'output e la visualizzazione dei risultati di Nmap iniziano a diventare piuttosto estesi, a volte persino troppo prolissi per il nostro terminale. Nella prossima sezione impareremo a gestire questo output, in particolare memorizzandolo in file di vari formati.
+Per diverse sezioni abbiamo accumulato opzioni di analisi, scansione ed enumerazione più o meno avanzate. Ormai dovreste essere consapevoli che l'output e la visualizzazione dei risultati di Nmap iniziano a diventare piuttosto estesi, a volte persino troppo prolissi per il nostro terminale. Nella prossima sezione impareremo a gestire questo output, in particolare memorizzandolo in file di vari formati.
 
 
 ## 9 - Gestione dei dati di output di Nmap

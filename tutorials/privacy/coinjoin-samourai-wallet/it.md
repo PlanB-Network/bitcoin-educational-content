@@ -219,7 +219,11 @@ Impostazioni > Risoluzione problemi > Test passphrase/backup
 
 Inserisci la tua passphrase per eseguire la verifica.
 
+![samourai](assets/notext/16.webp)
+
 Samourai confermerà se è valida.
+
+![samourai](assets/notext/17.webp)
 
 Per verificare il tuo backup della frase di recupero, accedi all'icona del tuo PayNym Bot, situata in alto a sinistra dello schermo, e segui questo percorso:
 ```plaintext
@@ -235,28 +239,45 @@ Dopo aver creato il tuo wallet, inizierai con un singolo account, identificato d
 
 Per fare ciò, clicca sul simbolo blu `+` situato in basso a destra dello schermo.
 
-Poi clicca sul pulsante verde `Ricevi`.
+![samourai](assets/notext/18.webp)
+
+Poi clicca sul pulsante verde `Recevoir`.
+
+![samourai](assets/notext/19.webp)
 
 Samourai genererà automaticamente un nuovo indirizzo vuoto per ricevere bitcoin.
 
+![samourai](assets/notext/20.webp)
+
 Puoi inviare lì i bitcoin da mixare.
+
+![samourai](assets/notext/21.webp)
 
 ### Effettuare la Tx0
 Quando la transazione è confermata, possiamo iniziare il processo di coinjoin. Per fare ciò, clicca sul pulsante blu `+` in basso a destra dello schermo.
 
+![samourai](assets/notext/22.webp)
+
 Poi clicca su `Whirlpool` in blu.
+
+![samourai](assets/notext/23.webp)
 
 Attendi mentre Whirlpool si inizializza e Samourai crea gli account necessari.
 
-Arriverai quindi alla homepage di Whirlpool. Clicca su `Start`.
-Seleziona l'UTXO dall'account **deposito** che desideri inviare nei cicli di coinjoin, quindi clicca su `Next`.
+![samourai](assets/notext/24.webp)
+
+Arriverai quindi alla homepage di Whirlpool. Clicca su `DEMARRER` (Iniziare).
+
+![samourai](assets/notext/25.webp)
+
+Seleziona l'UTXO dall'account **deposito** che desideri inviare nei cicli di coinjoin, quindi clicca su `SUIVANT`(Avanti).
 ![samourai](assets/notext/26.webp)
 
 Nel passo successivo, dovrai scegliere il livello di commissione da allocare al `Tx0` così come al tuo primo mix. Questa impostazione determinerà la velocità con cui il tuo `Tx0` e il tuo coinjoin iniziale (o i coinjoin iniziali) verranno confermati. Tieni presente che le commissioni di mining per la `Tx0` e il mix iniziale sono a tuo carico, ma non dovrai pagare commissioni di mining per i remix successivi. Hai la scelta tra le opzioni `Bassa`, `Normale` o `Alta`.
 
 ![samourai](assets/notext/27.webp)
 
-Nella stessa finestra, hai l'opzione di scegliere la pool in cui entrerai. Dato che inizialmente ho selezionato un UTXO di `454,258 sats`, la mia unica scelta possibile è la pool da `100,000 sats`. Questa pagina ti presenta anche le commissioni di servizio della pool, in aggiunta alle commissioni di mining, il che ti permette di conoscere il costo totale per questo ciclo di coinjoin. Se approvi tutto, seleziona la pool appropriata e continua cliccando sul pulsante blu `VERIFY CYCLE DETAILS`.
+Nella stessa finestra, hai l'opzione di scegliere la pool in cui entrerai. Dato che inizialmente ho selezionato un UTXO di `454,258 sats`, la mia unica scelta possibile è la pool da `100,000 sats`. Questa pagina ti presenta anche le commissioni di servizio della pool, in aggiunta alle commissioni di mining, il che ti permette di conoscere il costo totale per questo ciclo di coinjoin. Se approvi tutto, seleziona la pool appropriata e continua cliccando sul pulsante blu `VERIFIER DETAILS CYCLE` (Verifica i dettagli del ciclo).
 
 ![samourai](assets/notext/28.webp)
 
@@ -265,11 +286,11 @@ Potrai quindi vedere tutti i dettagli del tuo ciclo di coinjoin:
 - le varie commissioni sostenute;
 - l'importo del doxxic change...
 
-Verifica le informazioni, poi clicca sul pulsante verde `START CYCLE`.
+Verifica le informazioni, poi clicca sul pulsante verde `DÉMARRER CYCLE` (Comincia ciclo).
 
 ![samourai](assets/notext/29.webp)
 
-Apparirà una finestra per offrirti di segnare il toxic change risultante dal tuo ingresso nel ciclo di coinjoin come "non spendibile". Selezionando `SÌ`, questo UTXO non sarà visibile nel tuo wallet e non potrà essere selezionato per future transazioni. Tuttavia, rimarrà accessibile nell'elenco degli UTXO nel tuo wallet, dove potrai manualmente cambiarne lo stato. Si raccomanda di optare per questa opzione per evitare qualsiasi errore di gestione che potrebbe compromettere la tua privacy in seguito. Se scegli `NO`, il toxic change rimarrà disponibile per l'uso nel tuo wallet. Se vuoi saperne di più sulla gestione e sull'uso di questo toxic change, ti consiglio di leggere l'ultima parte di questo tutorial.
+Apparirà una finestra per offrirti di segnare il toxic change risultante dal tuo ingresso nel ciclo di coinjoin come "non spendibile". Selezionando `OUI`(Si), questo UTXO non sarà visibile nel tuo wallet e non potrà essere selezionato per future transazioni. Tuttavia, rimarrà accessibile nell'elenco degli UTXO nel tuo wallet, dove potrai manualmente cambiarne lo stato. Si raccomanda di optare per questa opzione per evitare qualsiasi errore di gestione che potrebbe compromettere la tua privacy in seguito. Se scegli `NON`(No), il toxic change rimarrà disponibile per l'uso nel tuo wallet. Se vuoi saperne di più sulla gestione e sull'uso di questo toxic change, ti consiglio di leggere l'ultima parte di questo tutorial.
 
 ![samourai](assets/notext/30.webp)
 
@@ -278,67 +299,76 @@ Samourai trasmetterà quindi il tuo Tx0.
 ![samourai](assets/notext/31.webp)
 
 ### Effettuare i coinjoin
-Una volta pubblicata la Tx0, puoi trovarla nella scheda `Transazioni` del menu Whirlpool.
+Una volta pubblicata la Tx0, puoi trovarla nella scheda `Transactions` del menu Whirlpool.
 
 ![samourai](assets/notext/32.webp)
-I tuoi UTXO pronti per essere mixati si trovano nella scheda `Mixing in progress...`, che corrisponde all'account **Premix**.
+I tuoi UTXO pronti per essere mixati si trovano nella scheda `Mixing in progresso...`, che corrisponde all'account **Premix**.
 ![samourai](assets/notext/33.webp)
 
 Una volta confermata la `Tx0`, i tuoi UTXO verranno automaticamente registrati presso il coordinatore, e i mix iniziali inizieranno successivamente in modo automatico.
 
 ![samourai](assets/notext/34.webp)
 Controllando la finestra `Remixing`, che corrisponde all'account **Postmix**, osserverai gli UTXO risultanti dai mix iniziali. Queste UTXO rimarranno pronti per il remix successivo, che non comporterà alcun costo aggiuntivo. Ti consiglio di consultare quest'altro articolo per saperne di più sul processo di remix e sull'efficienza di un ciclo coinjoin: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
-![samourai](assets/notext/35.webp)**Passo 4: I Remix**
-Dopo il mix iniziale, gli UTXO vengono trasferiti al conto **postmix**. Questo conto raccoglie gli UTXO già mixati e quelli in attesa di remix. Quando il client Whirlpool è attivo, gli UTXO situati nel conto **postmix** sono automaticamente disponibili per il remix e verranno scelti casualmente per partecipare a questi nuovi cicli.
 
-Come promemoria, i remix sono al 100% gratuiti: non sono richieste commissioni di servizio aggiuntive o commissioni di mining. Mantenere gli UTXO nel conto **postmix** mantiene quindi intatto il loro valore e migliora simultaneamente il loro anonset. Ecco perché è importante consentire a questi UTXO di partecipare a più cicli di coinjoin. Non ti costa assolutamente nulla e aumenta i loro livelli di anonimato.
+![samourai](assets/notext/35.webp)
 
-Quando decidi di spendere UTXO mixati, puoi farlo direttamente da questo conto **postmix**. È consigliabile mantenere gli UTXO mixati in questo conto per beneficiare dei remix gratuiti e per evitare che lascino il circuito Whirlpool, il che potrebbe diminuire la loro riservatezza.
 
-Come vedremo nel tutorial seguente, c'è anche l'opzione `mix to` che offre la possibilità di inviare automaticamente gli UTXO mixati ad un altro wallet, come un cold wallet, dopo un numero definito di coinjoin.
+È possibile sospendere temporaneamente il remixing di un UTXO premendo il pulsante di pausa situato alla sua destra. Per renderlo nuovamente idoneo al remixing, basta cliccare sullo stesso pulsante una seconda volta. È importante notare che può essere eseguito solo un coinjoin per utente e per pool simultaneamente. Pertanto, se hai 6 UTXO da 100.000 sats pronti per il coinjoin, solo uno di essi può essere mescolato. Dopo aver mescolato un UTXO, Samourai Wallet procede a selezionare casualmente un nuovo UTXO disponibile per diversificare e bilanciare il remixing di ciascuna moneta.
 
-È possibile sospendere temporaneamente il remix di un UTXO premendo il pulsante di pausa situato alla sua destra. Per renderlo nuovamente idoneo al remix, è sufficiente fare clic sullo stesso pulsante una seconda volta. È importante notare che è possibile eseguire solo un coinjoin per utente e per pool contemporaneamente. Pertanto, se hai 6 UTXO di `100 000 sats` pronti per il coinjoin, solo uno di essi può essere mixato. Dopo aver mixato un UTXO, Samourai Wallet procede alla selezione casuale di un nuovo UTXO dalla tua disponibilità, al fine di diversificare ed equilibrare il remix di ciascun UTXO.
 
 ![samourai](assets/notext/36.webp)
 
-Per garantire la disponibilità continua dei tuoi UTXO per il remix, è necessario mantenere attiva l'applicazione Samourai in background. Dovresti vedere una notifica sul tuo telefono che conferma che Whirlpool è in esecuzione. Chiudere l'applicazione o spegnere il telefono metterà in pausa i coinjoin.
+Per garantire la disponibilità continua dei tuoi UTXO per il remixing, è necessario mantenere l'applicazione Samourai attiva in background. Dovresti vedere una notifica sul tuo telefono che conferma che Whirlpool è in esecuzione. Chiudere l'applicazione o spegnere il telefono metterà in pausa i coinjoin.
+
 
 ### Completare i coinjoin
-Per spendere i tuoi bitcoin mixati, vai all'account **Postmix** indicato come `Remixing` nelle schede del menu Whirlpool.
+Per spendere i tuoi bitcoin mescolati, vai all'account **Postmix** indicato come `Remixing` nelle schede del menu Whirlpool.
 
 ![samourai](assets/notext/37.webp)
 
-Fai clic sul logo Whirlpool blu situato in basso a destra.
+Clicca sul logo blu di Whirlpool situato in basso a destra.
 
 ![samourai](assets/notext/38.webp)
 
-Quindi fai clic su `Spend Mixed UTXOs`.
+
+Then click on `Spend Mixed UTXOs`
 
 ![samourai](assets/notext/39.webp)
 
-Inserisci l'indirizzo del destinatario e l'importo da inviare, allo stesso modo di qualsiasi altra transazione effettuata con Samourai Wallet. Lo sfondo blu indica che i fondi vengono spesi da un account Whirlpool, e non dall'account **deposito**.
+
+Ora puoi inserire l'indirizzo del destinatario e l'importo da inviare, nello stesso modo di qualsiasi altra transazione effettuata con Samourai Wallet. Lo sfondo blu indica che i fondi vengono spesi da un account Whirlpool, e non dall'account **deposito**.
 
 ![samourai](assets/notext/40.webp)
 
-Facendo clic sui 3 piccoli punti in alto a destra, hai l'opzione di selezionare UTXO specifici.
+Cliccando sui 3 piccoli punti in alto a destra, hai la possibilità di selezionare UTXO specifici.
+
 ![samourai](assets/notext/41.webp)
-Facendo clic sul quadrato bianco in alto a destra della finestra, puoi scansionare il codice QR dell'indirizzo del destinatario con la tua fotocamera.
+
+Cliccando sul quadrato bianco in alto a destra della finestra, puoi scansionare il codice QR dell'indirizzo di ricezione con la tua fotocamera.
 
 ![samourai](assets/notext/42.webp)
 
-Inserisci le informazioni necessarie per la tua transazione di spesa, quindi fai clic sul pulsante blu `VERIFY TRANSACTION`.
+
+Inserisci le informazioni necessarie per la tua transazione di spesa, poi clicca sul pulsante blu `VERIFIER TRANSACTION` (VERIFICA TRANSAZIONE).
+
 
 ![samourai](assets/notext/43.webp)
 
-Nel passaggio successivo, hai l'opzione di modificare la commissione associata alla tua transazione. Puoi anche abilitare l'opzione Stonewall spuntando la casella corrispondente. Se l'opzione Stonewall non è selezionabile, significa che il tuo account **Postmix** non contiene un UTXO di dimensioni sufficienti per supportare questa particolare struttura di transazione.
 
-[-> Scopri di più sulle transazioni Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+Nel passaggio successivo, hai la possibilità di modificare il tasso di commissione associato alla tua transazione. Puoi anche abilitare l'opzione Stonewall spuntando la casella corrispondente. Se l'opzione Stonewall non è selezionabile, significa che il tuo account Postmix non contiene un UTXO di dimensioni sufficienti per supportare questa particolare struttura di transazione.
+
+
+[-> Scopri di più sulle Transazioni Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+
 
 Se tutto è di tuo gradimento, fai clic sul pulsante verde `SEND ... BTC`.
 
 ![samourai](assets/notext/44.webp)
 
 Samourai procederà quindi a firmare la tua transazione prima di trasmetterla sulla rete. Devi solo aspettare che venga aggiunta a un blocco da un miner.
+
+![samourai](assets/notext/45.webp)
+
 ### Utilizzo di uno SCODE
 A volte, i team di Samourai Wallet offrono degli "SCODE". Uno SCODE è un codice promozionale che fornisce uno sconto sulle commissioni di servizio della pool. Samourai Wallet occasionalmente offre tali codici ai suoi utenti durante eventi speciali. Consiglio di [seguire Samourai Wallet](https://twitter.com/SamouraiWallet) sui social media per non perdere i futuri SCODE.
 
@@ -346,9 +376,15 @@ Per applicare uno SCODE su Samourai, prima di iniziare un nuovo ciclo di coinjoi
 
 Clicca su `SCODE (codice promozionale) Whirlpool`.
 
+![samourai](assets/notext/47.webp)
+
 Inserisci lo SCODE nella finestra che si è aperta, poi convalida cliccando su `OK`.
 
+![samourai](assets/notext/48.webp)
+
 Whirlpool si chiuderà automaticamente. Attendi che Samourai finisca di caricare, poi apri nuovamente il menu Whirlpool.
+
+![samourai](assets/notext/49.webp)
 
 Assicurati che il tuo SCODE sia stato correttamente registrato cliccando ancora una volta sui tre piccoli punti, poi selezionando `SCODE (codice promozionale) Whirlpool`. Se è tutto in ordine, sei pronto per iniziare un nuovo ciclo Whirlpool con uno sconto sulle commissioni di servizio. È importante notare che questi SCODE sono temporanei: rimangono validi per alcuni giorni prima di diventare obsoleti.
 

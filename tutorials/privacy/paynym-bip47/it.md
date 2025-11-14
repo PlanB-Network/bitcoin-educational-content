@@ -251,7 +251,7 @@ Diffie-Hellman, nella sua prima versione, è un protocollo di accordo sulle chia
 
 ![image](assets/11.webp)
 
-Questo segreto condiviso (la chiave rossa) può essere utilizzato per eseguire altre operazioni. Tipicamente, questo segreto condiviso può essere utilizzato per crittografare e decrittografare una comunicazione su una rete non sicura
+Questo segreto condiviso (la chiave rossa) può essere utilizzato per eseguire altre operazioni. Tipicamente, questo segreto condiviso può essere utilizzato per crittografare e decrittografare una comunicazione su una rete non sicura.
 
 ![image](assets/12.webp)
 
@@ -425,21 +425,21 @@ Ora vediamo come funziona questa transazione di notifica. Immaginiamo che Alice 
 
 1- Alice calcola un segreto condiviso con ECDH:
 
-- Seleziona una coppia di chiavi dal suo portafoglio HD situato su un ramo diverso rispetto al suo codice di pagamento. Nota che questa coppia non dovrebbe essere facilmente associata all'indirizzo di notifica di Alice o all'identità di Alice (vedi sezione precedente).
+- seleziona una coppia di chiavi dal suo portafoglio HD situato su un ramo diverso rispetto al suo codice di pagamento. Nota che questa coppia non dovrebbe essere facilmente associata all'indirizzo di notifica di Alice o all'identità di Alice (vedi sezione precedente).
 
 - Alice seleziona la chiave privata da questa coppia. La chiameremo "a" (minuscolo).
 
-- Alice recupera la chiave pubblica associata all'indirizzo di notifica di Bob. Questa chiave è il primo figlio derivato dal codice di pagamento di Bob (indice 0). La chiameremo "B" (maiuscolo). La chiave privata associata a questa chiave pubblica è chiamata "b" (minuscolo). "B" è determinata tramite l'addizione di punti e il raddoppio sulla curva ellittica a partire da "G" (il punto generatore) con "b" (la chiave privata): B = b·G.
+- Alice recupera la chiave pubblica associata all'indirizzo di notifica di Bob. Questa chiave è il primo figlio derivato dal codice di pagamento di Bob (indice 0). La chiameremo "B" (maiuscolo). La chiave privata associata a questa chiave pubblica è chiamata "b" (minuscolo). "B" è determinata tramite l'addizione di punti e il raddoppio sulla curva ellittica a partire da "G" (il punto generatore) con "b" (la chiave privata): B = b·G
 
 - Alice calcola un punto segreto "S" (maiuscolo) sulla curva ellittica tramite l'addizione di punti e il raddoppio, applicando la sua chiave privata "a" alla chiave pubblica di Bob "B": S = a·B
 
 - Alice calcola il blinding factor (fattore cieco) "f" che sarà utilizzato per crittografare il suo codice di pagamento. Per fare ciò, genera un numero pseudo-casuale utilizzando la funzione HMAC-SHA512. Come secondo input a questa funzione, utilizza un valore che solo Bob sarà in grado di recuperare: (x), che è la coordinata x del punto segreto calcolato in precedenza. Il primo input è (o), che è il UTXO consumato come input per questa transazione (outpoint): **f = HMAC-SHA512(o, x)**
 
-2- Alice converte il suo codice di pagamento personale in base binaria;
+2- Alice converte il suo codice di pagamento personale in base binaria.
 
 3- Utilizza questo fattore "cieco" come chiave per eseguire la crittografia simmetrica sul contenuto del suo codice di pagamento. L'algoritmo di crittografia utilizzato è  XOR. L'operazione eseguita è simile al cifrario di Vernam, noto anche come "one-time pad":
 
-- Alice prima divide il suo fattore  "cieco" in due parti: i primi 32 byte sono chiamati "f1" e gli ultimi 32 byte sono chiamati "f2". Quindi abbiamo: **f = f1 || f2**.
+- Alice prima divide il suo fattore  "cieco" in due parti: i primi 32 byte sono chiamati "f1" e gli ultimi 32 byte sono chiamati "f2". Quindi abbiamo: **f = f1 || f2**
 
 - Alice calcola il ciphertext (x') della coordinata x della chiave pubblica (x) del suo codice di pagamento e, separatamente, calcola il ciphertext (c') del suo chain code (c). "f1" e "f2" fungono da chiavi di crittografia, e viene utilizzata l'operazione XOR. Si ha quindi: **x' = x XOR f1 c' = c XOR f2**
 
@@ -581,15 +581,15 @@ Ricordiamo che, Bob deve essere in grado di accedere al codice di pagamento di A
 
 3. se il primo byte del payload di OP_RETURN è 0x01, Bob inizia la ricerca di un eventuale segreto condiviso con ECDH:
 
-- Bob seleziona la chiave pubblica in input della transazione. Ovvero seleziona la chiave pubblica di Alice chiamata "A" con: **A = a·G**;
+- Bob seleziona la chiave pubblica in input della transazione. Ovvero seleziona la chiave pubblica di Alice chiamata "A" con: **A = a·G**
 
 
 - Bob seleziona la chiave privata "b" associata al suo indirizzo di notifica personale: **b**;
 
 
-- Bob calcola il punto segreto "S" (segreto condiviso ECDH) sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "b" alla chiave pubblica di Alice "A":  **S = b·A**;
+- Bob calcola il punto segreto "S" (segreto condiviso ECDH) sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "b" alla chiave pubblica di Alice "A":  **S = b·A**
 
-- Bob determina il punto segreto "f" che consentirà di decifrare il payload (contenuto) del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica: **f = HMAC-SHA512(o, x)**;
+- Bob determina il punto segreto "f" che consentirà di decifrare il payload (contenuto) del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica: **f = HMAC-SHA512(o, x)**
 
 
 4. Bob interpreta i dati di OP_RETURN nella transazione di notifica come un codice di pagamento. Semplicemente decifrerà il payload (contenuto) di questo potenziale codice di pagamento utilizzando il fattore cieco "f".
@@ -617,11 +617,11 @@ Per l'UTXO in input, Bob può recuperarlo osservando la transazione di notifica.
 
 Come visto nella parte su Diffie-Hellman, scambiando le rispettive chiavi pubbliche e applicando segretamente le loro chiavi private alla chiave pubblica dell'altro, Alice e Bob possono trovare un punto preciso e segreto sulla curva ellittica. La transazione di notifica si basa su questo meccanismo:
 
-la coppia di chiavi di Bob: **B = b·G**;
+la coppia di chiavi di Bob: **B = b·G**
 
-la coppia di chiavi di Alice: **A = a·G**;
+la coppia di chiavi di Alice: **A = a·G**
 
-per un punto segreto S (x,y): **S = a·B = a·b·G = b·a·G = b·A**.
+per un punto segreto S (x,y): **S = a·B = a·b·G = b·a·G = b·A**
 
 ![Schema generazione di un segreto condiviso con ECDHE](assets/19.webp)
 Ora che Bob conosce il codice di pagamento di Alice, sarà in grado di rilevare i pagamenti BIP47 da parte di Alice e potrà derivare le chiavi private che bloccano i bitcoin ricevuti.

@@ -29,10 +29,10 @@ Potete recuperare la puntata a questi link diretti:
 
 Sistemi operativi:
 
-- Raspiblitz
-- Umbrel
-- MyNode
-- Raspibolt
+- Raspiblitz;
+- Umbrel;
+- MyNode;
+- Raspibolt.
 
 ## File di Configurazione
 

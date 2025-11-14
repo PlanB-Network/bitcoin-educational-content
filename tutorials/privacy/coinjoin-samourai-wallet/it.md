@@ -181,28 +181,38 @@ Per iniziare avrai bisogno dell'app Samourai Wallet. Puoi scaricarla direttament
 ### Creare un Software wallet
 Dopo aver installato il software, dovrai procedere con la creazione di un wallet Bitcoin su Samourai. Se ne hai già uno, puoi passare direttamente al passo successivo.
 
-All'apertura dell'applicazione, premi il pulsante blu `Start`. Ti verrà quindi chiesto di selezionare una posizione nei file del tuo telefono dove verrà memorizzato il backup crittografato del tuo nuovo wallet.
+All'apertura dell'applicazione, premi il pulsante blu `Dèmarrer` (Inizia). Ti verrà quindi chiesto di selezionare una posizione nei file del tuo telefono dove verrà memorizzato il backup crittografato del tuo nuovo wallet.
 
 ![samourai](assets/notext/9.webp)
-Attiva Tor cliccando sulla corrispondente tacca. A questo punto, hai anche l'opzione per selezionare un Dojo specifico. Tuttavia, in questo tutorial, continueremo con il Dojo predefinito; quindi puoi lasciare disabilitata l'opzione. Quando Tor è connesso, premi il pulsante `Crea un nuovo wallet`.
+Attiva Tor cliccando sulla corrispondente tacca. A questo punto, hai anche l'opzione per selezionare un Dojo specifico. Tuttavia, in questo tutorial, continueremo con il Dojo predefinito; quindi puoi lasciare disabilitata l'opzione. Quando Tor è connesso, premi il pulsante `Crée un nouveau portefeuille`(Crea un nuovo wallet).
 ![samourai](assets/notext/10.webp)
 
 Samourai Wallet ti chiede quindi di impostare una passphrase BIP39. Questa password aggiuntiva è molto importante poiché agisce direttamente nella derivazione delle tue chiavi private. Una potenziale perdita di questa passphrase comporterebbe l'impossibilità di accedere ai tuoi bitcoin, rendendoli irrimediabilmente persi. Per ripristinare il tuo wallet Samourai, è imperativo avere sia la tua frase di recupero di 12 parole che la passphrase.
 
-È quindi essenziale scegliere una passphrase robusta e fare una o più copie fisiche, su carta o su un supporto metallico, per garantire la sicurezza dei tuoi bitcoin. Dopo aver completato queste operazioni, spunta la casella `Sono consapevole che in caso di perdita...`, poi premi il pulsante `NEXT`.
+È quindi essenziale scegliere una passphrase robusta e fare una o più copie fisiche, su carta o su un supporto metallico, per garantire la sicurezza dei tuoi bitcoin. Dopo aver completato queste operazioni, spunta la casella `Je suis conscient qu'en cas de perte...` (Sono consapevole che in caso di perdita...), poi premi il pulsante `SUIVANT`(Avanti).
 
 ![samourai](assets/notext/11.webp)
 
-Dovrai quindi definire un codice PIN composto da 5 a 8 cifre. Questo codice garantirà l'accesso al tuo wallet sul tuo telefono. Sarà richiesto ogni volta che vorrai aprire l'applicazione Samourai. Opta per un codice PIN robusto e assicurati di tenere una copia di backup. Dopo di che, puoi premere il pulsante `NEXT`.
-Samourai ti inviterà a inserire nuovamente il tuo codice PIN per conferma. Inseriscilo, poi premi `FINALIZE`.
+Dovrai quindi definire un codice PIN composto da 5 a 8 cifre. Questo codice garantirà l'accesso al tuo wallet sul tuo telefono. Sarà richiesto ogni volta che vorrai aprire l'applicazione Samourai. Opta per un codice PIN robusto e assicurati di tenere una copia di backup. Dopo di che, puoi premere il pulsante `SUIVANT`(Avanti).
+
+![samourai](assets/notext/12.webp)
+
+Samourai ti inviterà a inserire nuovamente il tuo codice PIN per conferma. Inseriscilo, poi premi `SUIVANT`(Avanti).
+
+![samourai](assets/notext/13.webp)
 
 Avrai quindi accesso alla tua frase di recupero composta da 12 parole. Questa frase ti permette di recuperare il tuo wallet con la passphrase precedentemente inserita. È fortemente consigliato fare una o più copie di questa frase su supporti fisici, come carta o materiale metallico, per garantire la sicurezza dei tuoi bitcoin in caso di problemi.
 
 Dopo aver effettuato queste copie di sicurezza, sarai indirizzato all'interfaccia del tuo nuovo wallet Samourai.
 
+![samourai](assets/notext/14.webp)
+
 Ti viene offerto di ottenere il tuo PayNym Bot. Puoi richiederlo se lo desideri, anche se non è essenziale per il nostro tutorial.
 
+![samourai](assets/notext/15.webp)
+
 Prima di procedere a ricevere bitcoin su questo nuovo wallet, è fortemente consigliato ricontrollare la validità delle copie di sicurezza del tuo wallet (la passphrase e la frase di recupero). Per verificare la passphrase, puoi selezionare l'icona del tuo PayNym Bot situata in alto a sinistra dello schermo, poi seguire il percorso:
+
 ```plaintext
 Impostazioni > Risoluzione problemi > Test passphrase/backup
 ```

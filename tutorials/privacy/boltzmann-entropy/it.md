@@ -16,7 +16,7 @@ _Questo materiale è fornito esclusivamente a scopo educativo e informativo. Non
 Il **Boltzmann Calculator** è uno strumento per analizzare una transazione Bitcoin, misurandone il livello di **entropia** e altre metriche avanzate.  
 Fornisce una panoramica dettagliata delle connessioni tra input e output, offrendo una valutazione quantitativa del livello di **privacy** della transazione ed evidenziando eventuali errori di struttura.
 
-Questo strumento è stato sviluppato dai team di Samourai Wallet e OXT, ma può essere utilizzato su qualsiasi transazione Bitcoin, indipendentemente dal wallet utilizzato.
+Questo strumento è stato sviluppato dal team di Samourai Wallet e OXT, ma può essere utilizzato su qualsiasi transazione Bitcoin, indipendentemente dal wallet utilizzato.
 
 ## Come utilizzare il Boltzmann Calculator?
 Per utilizzare il Boltzmann Calculator sono disponibili due opzioni. La prima consiste nell’installarlo direttamente sul proprio PC. In alternativa, è possibile utilizzare il sito web KYCP.org (_Know Your Coin Privacy_), che offre una piattaforma di utilizzo semplificata. Per gli utenti di RoninDojo, questo strumento è già integrato nel nodo.

@@ -2943,7 +2943,7 @@ Gold was undervalued. Gold was still at $35 per ounce, which in no way reflected
 ### The modern fiat currency system and its implications
 
 
-And that's what sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. And in the end, we have a unilateral decision to completely sever the link between precious metals and money, following an over-impression.
+And that's what sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. And in the end, we have a unilateral decision to completely sever the link between precious metals and money, following an over-issuance.
 
 
 As a result, there is no longer any link between gold and banknotes or scriptural money. And it's not even a fractional reserve system - that's an outdated concept. Instead, it's the private banks that issue and create money through bank credit. Money is mainly created through bank credit, and is correlated to the key interest rate set by the central bank.
@@ -2974,7 +2974,7 @@ Thank you for your attention.
 ### The invention of paper money and the first great bubble
 
 
-With the creation of central banks in the XVIIIᵉ century, a real revolution was born: magic money in the form of banknotes. The most striking example in France is John Law. This Scotsman, exiled in Paris, proposed to the regent, the Duc d'Orléans, to solve the bankruptcy of the royal finances by creating a state bank and a colonial trading company: the famous **Banque Royale** and the **Compagnie du Mississippi**.
+With the creation of central banks in the 18th century, a real revolution was born: magic money in the form of banknotes. The most striking example in France is John Law. This Scotsman, exiled in Paris, proposed to the regent, the Duc d'Orléans, to solve the bankruptcy of the royal finances by creating a state bank and a colonial trading company: the famous **Banque Royale** and the **Compagnie du Mississippi**.
 
 
 With this system, Law linked paper money to his company's shares. The more banknotes circulated, the higher the value of the shares, the more solid the bank seemed to be... until speculation outstripped reality. The bubble burst suddenly in 1720, ruining the nobility, the bourgeoisie and much of Europe, which had come to speculate on rue Quincampoix. The result: a lasting distrust of paper money in France, and Europe's first lesson in speculative bubbles.
@@ -2983,7 +2983,7 @@ With this system, Law linked paper money to his company's shares. The more bankn
 ![image](./assets/fr/paper_illustration.webp)
 
 
-### When land becomes "collateral
+### When land becomes "collateral"
 
 
 A century later, the French Revolution broke new ground with **assignats**, a currency backed by seized Church property. An attractive idea on paper - transforming land into monetary collateral - but ineffective: land is neither liquid nor divisible. The result: hyperinflation, multiple prohibitions on land use, uncontrolled inflation and shortages.
@@ -3013,7 +3013,7 @@ In the 1990s, the "Asian miracle" had the world dreaming. Exchange rates pegged 
 The Internet bubble (2000) was followed by the subprime real estate bubble. Securitization transformed bank loans into "triple-A" financial products, spread all over the world. The promise: eliminate risk by diluting it. The reality: all risks were in fact correlated. When real estate collapsed, so did the entire global banking system.
 
 
-The result: massive public bailouts, quantitative easing and zero interest rates. And with it, a headlong rush: each crisis will no longer purge the excesses, but will be covered by ever more debt and money printing. This is what led to the current situation: **the "everything bubble "**, where everything - stocks, real estate, art, crypto, even Pokémon cards - inflates artificially.
+The result: massive public bailouts, quantitative easing and zero interest rates. And with it, a headlong rush: each crisis will no longer purge the excesses, but will be covered by ever more debt and money printing. This is what led to the current situation: **the "everything bubble"**, where everything - stocks, real estate, art, crypto, even Pokémon cards - inflates artificially.
 
 
 ### The eternal return of magic money
@@ -3096,7 +3096,7 @@ Thank you!
 Historian Frederic C. Lane proposes a revolutionary thesis: the anatomy of the state throughout history is shaped by the technologies used to project violence. Starting from the Weberian principle that the state holds a monopoly on legitimate violence, Lane observes that this monopoly - paradoxically more efficient than competition in this field - evolves according to the relationship between the cost of attack and the cost of defense.
 
 
-This analysis, taken up by the authors of "L'Individu Souverain" (1997), explains the historical mutations in political organization: from the medieval feudal system to the city-states of the Renaissance, then to the industrial nation-states and finally to the modern welfare states. Each transition corresponds to a major technological break in the exercise of violence, occurring approximately every 400-500 years.
+This analysis, taken up by the authors of "The Sovereign Individual" (1997), explains the historical mutations in political organization: from the medieval feudal system to the city-states of the Renaissance, then to the industrial nation-states and finally to the modern welfare states. Each transition corresponds to a major technological break in the exercise of violence, occurring approximately every 400-500 years.
 
 
 ### Medieval balance

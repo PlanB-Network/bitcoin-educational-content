@@ -110,6 +110,8 @@ L'associazione dei codici di pagamento dei due utenti genera segreti condivisi c
 
 Il codice di pagamento agisce quindi come un identificatore virtuale, derivato dal seed del wallet. Nella struttura di derivazione degli HD wallet, il codice di pagamento si trova a profondità 3, nel livello account del wallet.
 
+![image](assets/3.webp)
+
 Il suo scopo di derivazione è indicato come 47' (0x8000002F) in riferimento al BIP47. Un percorso di derivazione per un codice di pagamento riutilizzabile potrebbe essere ad esempio:
 
 **m/47'/0'/0'/**

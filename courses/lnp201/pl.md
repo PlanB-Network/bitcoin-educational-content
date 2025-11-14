@@ -19,7 +19,7 @@ Zanurz się w sercu sieci Lightning, systemu niezbędnego dla przyszłych transa
 Dzięki sieci kanałów płatności sieć Lightning umożliwiają szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje zobowiązujące, HTLC (kontrakty haszowe z blokadą czasową), klucze unieważniające, mechanizmy karzące, routowanie warstwowe i faktury.
 
 
-Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć sieć Lightning i jej używać. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku satówego przed zanurzeniem się w kurs LNP201.
+Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć sieć Lightning i jej używać. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku Satoshiego przed zanurzeniem się w kurs LNP201.
 
 
 Miłego odkrywania!

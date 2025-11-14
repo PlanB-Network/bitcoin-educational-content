@@ -6,4 +6,4 @@ wrong_answers:
   - Liczba transakcji, które kanał może obsłużyć dziennie
 explanation: |
   Przepustowość kanału odpowiada łącznym środkom dwóch uczestników i pozostaje stała, aby określić możliwe transakcje.
-reviewed: false
+reviewed: true

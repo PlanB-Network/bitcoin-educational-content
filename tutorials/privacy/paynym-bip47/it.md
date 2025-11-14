@@ -381,7 +381,7 @@ Un malintenzionato che osserva la rete pubblica non sicura può ottenere solo le
 ECDH è quindi un algoritmo che consente lo scambio di chiavi. Spesso viene utilizzato insieme ad altri metodi crittografici per definire un protocollo. Ad esempio, ECDH è utilizzato nel cuore di TLS (Transport Layer Security), un protocollo di crittografia ed autenticazione utilizzato per il livello di trasporto di Internet. TLS utilizza ECDHE per lo scambio di chiavi, una variante di ECDH in cui le chiavi sono effimere per garantire la riservatezza persistente. Oltre a quest'ultimo, TLS utilizza anche un algoritmo di autenticazione come ECDSA, un algoritmo di crittografia come AES e una funzione di hash come SHA256.
 TLS definisce in particolare la "s" in "https", così come il lucchetto che si vede nel browser in alto a sinistra, i quali garantiscono la crittografia della comunicazione. Quindi, state utilizzando ECDH leggendo questo articolo e probabilmente lo utilizzate quotidianamente senza accorgervene.
 
-### La transazione di notifica.
+### La transazione di notifica
 
 Come abbiamo scoperto nella parte precedente, ECDH è una variante dello scambio di Diffie-Hellman che coinvolge coppie di chiavi basate su una curva ellittica. Per fortuna, abbiamo molte coppie di chiavi che rispettano questo standard nei nostri portafogli Bitcoin!
 
@@ -407,10 +407,11 @@ Quindi, un singolo codice di pagamento non costituisce un rischio diretto per la
 
 Ad esempio, immaginiamo che io voglia fare una donazione con BIP47 a un movimento di protesta pacifica in Canada:
 
-- Questa organizzazione ha pubblicato il suo codice di pagamento direttamente sul suo sito web o sui suoi social media.
-- Questo codice è associato al movimento.
-- Recupero questo codice di pagamento.
-- Prima di poter inviare loro una transazione, devo assicurarmi che siano a conoscenza del mio codice di pagamento personale, che è anche associato alla mia identità poiché lo uso per ricevere transazioni dai miei social media.
+- questa organizzazione ha pubblicato il suo codice di pagamento direttamente sul suo sito web o sui suoi social media;
+- questo codice è associato al movimento;
+- recupero questo codice di pagamento;
+- prima di poter inviare loro una transazione, devo assicurarmi che siano a conoscenza del mio codice di pagamento personale, che è anche associato alla mia identità poiché lo uso per ricevere transazioni dai miei social media.
+
 Come posso trasmetterlo loro? Se lo invio con un mezzo di comunicazione tradizionale, le informazioni rischiano di trapelare e rischio di essere etichettato come una persona che sostiene movimenti pacifici.
 La transazione di notifica non è certamente l'unico modo per trasmettere segretamente il codice di pagamento del mittente, ma al momento svolge perfettamente questo ruolo applicando diverse strati di sicurezza.
 Nello schema qui sotto, le linee rosse rappresentano il momento in cui il flusso di informazioni deve essere interrotto, e le frecce nere rappresentano i collegamenti indiscutibili che possono essere fatti da un osservatore esterno:
@@ -430,9 +431,9 @@ Ora vediamo come funziona questa transazione di notifica. Immaginiamo che Alice 
 
 - Alice recupera la chiave pubblica associata all'indirizzo di notifica di Bob. Questa chiave è il primo figlio derivato dal codice di pagamento di Bob (indice 0). La chiameremo "B" (maiuscolo). La chiave privata associata a questa chiave pubblica è chiamata "b" (minuscolo). "B" è determinata tramite l'addizione di punti e il raddoppio sulla curva ellittica a partire da "G" (il punto generatore) con "b" (la chiave privata): B = b·G.
 
-- Alice calcola un punto segreto "S" (maiuscolo) sulla curva ellittica tramite l'addizione di punti e il raddoppio, applicando la sua chiave privata "a" alla chiave pubblica di Bob "B": S = a·B.
+- Alice calcola un punto segreto "S" (maiuscolo) sulla curva ellittica tramite l'addizione di punti e il raddoppio, applicando la sua chiave privata "a" alla chiave pubblica di Bob "B": S = a·B
 
-- Alice calcola il blinding factor (fattore cieco) "f" che sarà utilizzato per crittografare il suo codice di pagamento. Per fare ciò, genera un numero pseudo-casuale utilizzando la funzione HMAC-SHA512. Come secondo input a questa funzione, utilizza un valore che solo Bob sarà in grado di recuperare: (x), che è la coordinata x del punto segreto calcolato in precedenza. Il primo input è (o), che è il UTXO consumato come input per questa transazione (outpoint): **f = HMAC-SHA512(o, x)**.
+- Alice calcola il blinding factor (fattore cieco) "f" che sarà utilizzato per crittografare il suo codice di pagamento. Per fare ciò, genera un numero pseudo-casuale utilizzando la funzione HMAC-SHA512. Come secondo input a questa funzione, utilizza un valore che solo Bob sarà in grado di recuperare: (x), che è la coordinata x del punto segreto calcolato in precedenza. Il primo input è (o), che è il UTXO consumato come input per questa transazione (outpoint): **f = HMAC-SHA512(o, x)**
 
 2- Alice converte il suo codice di pagamento personale in base binaria;
 
@@ -497,25 +498,25 @@ Credito: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus R
 
 Se confrontiamo questo schema con ciò che ho descritto in precedenza:
 
-- "Wallet Priv-Key" dal lato di Alice corrisponde a: a.
-- "Child Pub-Key 0" dal lato di Bob corrisponde a: B.
-- "Notification Shared Secret" corrisponde a: f.
-- "Masked Payment Code" corrisponde al codice di pagamento mascherato, cioè con il payload cifrato: x' e c'.
+- "Wallet Priv-Key" dal lato di Alice corrisponde a: a;
+- "Child Pub-Key 0" dal lato di Bob corrisponde a: B;
+- "Notification Shared Secret" corrisponde a: f;
+- "Masked Payment Code" corrisponde al codice di pagamento mascherato, cioè con il payload cifrato: x' e c';
 - "Notification Transaction" (transazione di notifica) è la transazione che contiene l'OP_RETURN.
 
 Riassumo i passaggi che abbiamo appena visto per effettuare una transazione di notifica:
 
-- Alice ottiene il codice di pagamento e l'indirizzo di notifica di Bob.
+- Alice ottiene il codice di pagamento e l'indirizzo di notifica di Bob;
 
-- Alice seleziona un UTXO che le appartiene nel suo HD wallet con la corrispondente coppia di chiavi.
+- Alice seleziona un UTXO che le appartiene nel suo HD wallet con la corrispondente coppia di chiavi;
 
-- Calcola un punto segreto sulla curva ellittica tramite ECDH.
+- calcola un punto segreto sulla curva ellittica tramite ECDH;
 
-- Utilizza questo punto segreto per calcolare un HMAC che è il fattore di cecità ("Blinding factor").
+- utilizza questo punto segreto per calcolare un HMAC che è il fattore di cecità ("Blinding factor");
 
-- Utilizza questo Blinding factor per crittografare il contenuto del suo codice di pagamento personale.
+- utilizza questo Blinding factor per crittografare il contenuto del suo codice di pagamento personale;
 
-- Utilizza un output di transazione OP_RETURN per trasferire il codice di pagamento mascherato a Bob.
+- utilizza un output di transazione OP_RETURN per trasferire il codice di pagamento mascherato a Bob.
 
 
 Per comprendere più in dettaglio il suo funzionamento, in particolare l'utilizzo di OP_RETURN, studiamo insieme una vera transazione di notifica. Ho effettuato una transazione di questo tipo su Testnet che puoi trovare cliccando qui:
@@ -568,30 +569,30 @@ Se confrontiamo il mio codice di pagamento in chiaro con l'OP_RETURN, possiamo v
 Successivamente, è possibile riconoscere (in verde) la versione (0x01), il campo di bit (0x00) e la parità della chiave pubblica (0x02). E, alla fine del codice di pagamento, i byte vuoti in nero (0x00) che servono per riempire fino a raggiungere un totale di 80 byte. Tutti questi metadati vengono trasmessi in chiaro (non crittografati).
 Infine, si può osservare che l'ascissa della chiave pubblica (in blu) e il codice di stringa (in rosso) sono stati crittografati. Questo costituisce il payload del codice di pagamento.
 
-### Ricezione della transazione di notifica.
+### Ricezione della transazione di notifica
 
 Ora che Alice ha inviato la transazione di notifica a Bob, vediamo come quest'ultimo la interpreta.
 
 Ricordiamo che, Bob deve essere in grado di accedere al codice di pagamento di Alice. Senza questa informazione, come vedremo nella parte successiva, non sarà in grado di derivare le coppie di chiavi create da Alice e quindi non potrà accedere ai suoi bitcoin ricevuti con BIP47. Al momento, il payload (contenuto) del codice di pagamento di Alice è crittografato. Vediamo insieme come Bob lo decifra.
 
-1. Bob monitora le transazioni che creano output con il suo indirizzo di notifica.
+1. Bob monitora le transazioni che creano output con il suo indirizzo di notifica;
 
-2. Quando una transazione ha un output sul suo indirizzo di notifica, Bob la analizza per vedere se contiene un output OP_RETURN che rispetta lo standard BIP47.
+2. quando una transazione ha un output sul suo indirizzo di notifica, Bob la analizza per vedere se contiene un output OP_RETURN che rispetta lo standard BIP47;
 
-3. Se il primo byte del payload di OP_RETURN è 0x01, Bob inizia la ricerca di un eventuale segreto condiviso con ECDH:
+3. se il primo byte del payload di OP_RETURN è 0x01, Bob inizia la ricerca di un eventuale segreto condiviso con ECDH:
 
-- Bob seleziona la chiave pubblica in input della transazione. Ovvero seleziona la chiave pubblica di Alice chiamata "A" con: **A = a·G**
-
-
-- Bob seleziona la chiave privata "b" associata al suo indirizzo di notifica personale: **b**
+- Bob seleziona la chiave pubblica in input della transazione. Ovvero seleziona la chiave pubblica di Alice chiamata "A" con: **A = a·G**;
 
 
-- Bob calcola il punto segreto "S" (segreto condiviso ECDH) sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "b" alla chiave pubblica di Alice "A":  **S = b·A**
-
-- Bob determina il punto segreto "f" che consentirà di decifrare il payload (contenuto) del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica: **f = HMAC-SHA512(o, x)**
+- Bob seleziona la chiave privata "b" associata al suo indirizzo di notifica personale: **b**;
 
 
-4. Bob interpreta i dati di OP_RETURN nella transazione di notifica come un codice di pagamento. Semplicemente decifrerà il payload (contenuto) di questo potenziale codice di pagamento utilizzando il fattore di cieco "f":
+- Bob calcola il punto segreto "S" (segreto condiviso ECDH) sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "b" alla chiave pubblica di Alice "A":  **S = b·A**;
+
+- Bob determina il punto segreto "f" che consentirà di decifrare il payload (contenuto) del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica: **f = HMAC-SHA512(o, x)**;
+
+
+4. Bob interpreta i dati di OP_RETURN nella transazione di notifica come un codice di pagamento. Semplicemente decifrerà il payload (contenuto) di questo potenziale codice di pagamento utilizzando il fattore cieco "f".
 
 - Bob divide il punto segreto "f" in due parti: i primi 32 byte di "f" saranno "f1" e gli ultimi 32 byte saranno "f2".
 - Bob decifra il valore dell'ascissa cifrata (x') della chiave pubblica del codice di pagamento di Alice:
@@ -616,11 +617,11 @@ Per l'UTXO in input, Bob può recuperarlo osservando la transazione di notifica.
 
 Come visto nella parte su Diffie-Hellman, scambiando le rispettive chiavi pubbliche e applicando segretamente le loro chiavi private alla chiave pubblica dell'altro, Alice e Bob possono trovare un punto preciso e segreto sulla curva ellittica. La transazione di notifica si basa su questo meccanismo:
 
-La coppia di chiavi di Bob: **B = b·G**
+la coppia di chiavi di Bob: **B = b·G**;
 
-La coppia di chiavi di Alice: **A = a·G**
+la coppia di chiavi di Alice: **A = a·G**;
 
-Per un punto segreto S (x,y): **S = a·B = a·b·G = b·a·G = b·A**
+per un punto segreto S (x,y): **S = a·B = a·b·G = b·a·G = b·A**.
 
 ![Schema generazione di un segreto condiviso con ECDHE](assets/19.webp)
 Ora che Bob conosce il codice di pagamento di Alice, sarà in grado di rilevare i pagamenti BIP47 da parte di Alice e potrà derivare le chiavi private che bloccano i bitcoin ricevuti.
@@ -642,17 +643,17 @@ Se confrontiamo questo schema con ciò che ho descritto in precedenza:
 
 Riassumo i passaggi che abbiamo appena visto insieme per ricevere e interpretare una transazione di notifica:
 
-- Bob monitora le transazioni in uscita verso il suo indirizzo di notifica.
+- Bob monitora le transazioni in uscita verso il suo indirizzo di notifica;
 
-- Quando ne rileva una, recupera le informazioni contenute nell'OP_RETURN.
+- quando ne rileva una, recupera le informazioni contenute nell'OP_RETURN;
 
-- Bob seleziona la chiave pubblica in input e calcola un punto segreto tramite ECDH.
+- Bob seleziona la chiave pubblica in input e calcola un punto segreto tramite ECDH;
 
-- Utilizza questo punto segreto per calcolare un HMAC che è il fattore di cecità.
+- utilizza questo punto segreto per calcolare un HMAC che è il fattore di cecità;
 
-- Utilizza questo fattore di cecità per decifrare il payload del codice di pagamento di Alice contenuto nell'OP_RETURN.
+- utilizza questo fattore di cecità per decifrare il payload del codice di pagamento di Alice contenuto nell'OP_RETURN.
 
-### La transazione di pagamento BIP47.
+### La transazione di pagamento BIP47
 
 Vediamo insieme il processo di pagamento con BIP47. Per ricordarvi la situazione attuale:
 
@@ -673,29 +674,29 @@ descriviamo il percorso di derivazione di un codice di pagamento come segue: m/4
 - le coppie di chiavi figlie rinforzate sono codici di pagamento effimeri: m/47'/0'/0'/ da 0' a 2 147 483 647'/.
   Ogni volta che Alice desidera inviare un pagamento a Bob, genera un nuovo indirizzo univoco vuoto utilizzando nuovamente il protocollo ECDH:
   
-- Alice seleziona la prima chiave privata derivata dal suo codice di pagamento riutilizzabile personale: **a**
+- Alice seleziona la prima chiave privata derivata dal suo codice di pagamento riutilizzabile personale: **a**;
 
 
-- Alice seleziona la prima chiave pubblica non utilizzata derivata dal codice di pagamento di Bob. Questa chiave pubblica, chiamata "B", è associata alla chiave privata "b" di cui solo Bob è a conoscenza.
+- Alice seleziona la prima chiave pubblica non utilizzata derivata dal codice di pagamento di Bob. Questa chiave pubblica, chiamata "B", è associata alla chiave privata "b" di cui solo Bob è a conoscenza;
 
 **B = b·G**
 
-- Alice calcola un punto segreto "S" sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "a" alla chiave pubblica di Bob "B":
+- Alice calcola un punto segreto "S" sulla curva ellittica mediante l'addizione e il raddoppio dei punti applicando la sua chiave privata "a" alla chiave pubblica di Bob "B";
 
 **S = a·B**
 
-- Da questo punto segreto, Alice calcola il segreto condiviso "s" (minuscolo). Per farlo, seleziona l'ascissa del punto segreto "S" chiamata "Sx" e passa questo valore alla funzione di hash SHA256.
+- da questo punto segreto, Alice calcola il segreto condiviso "s" (minuscolo). Per farlo, seleziona l'ascissa del punto segreto "S" chiamata "Sx" e passa questo valore alla funzione di hash SHA256;
 
 **s = SHA256(Sx)**
 
 Non fidarti. Verifica! Se desideri comprendere i principi di base di una funzione di hash, troverai tutto ciò che ti serve in questo articolo. E se non ti fidi del NIST (hai ragione) e desideri comprendere in dettaglio il funzionamento di SHA256, ti spiego tutto in questo articolo.
 
-- Alice utilizza questo segreto condiviso "s" per calcolare un indirizzo di ricezione dei pagamenti Bitcoin. Inizialmente, verifica che "s" sia contenuto nell'ordine della curva secp256k1. Se non è così, incrementa l'indice della chiave pubblica di Bob per derivare un altro segreto condiviso.
+- Alice utilizza questo segreto condiviso "s" per calcolare un indirizzo di ricezione dei pagamenti Bitcoin. Inizialmente, verifica che "s" sia contenuto nell'ordine della curva secp256k1. Se non è così, incrementa l'indice della chiave pubblica di Bob per derivare un altro segreto condiviso;
 
-- Successivamente, calcola una chiave pubblica "K0" aggiungendo sulla curva ellittica i punti "B" e "s·G". In altre parole, Alice somma la chiave pubblica derivata dal codice di pagamento di Bob "B" con un altro punto calcolato sulla curva ellittica mediante l'addizione e il raddoppio dei punti con il segreto condiviso "s" dal punto generatore della curva secp256k1 "G". Questo nuovo punto rappresenta una chiave pubblica, che chiamiamo "K0": **K0 = B + s·G**
+- successivamente, calcola una chiave pubblica "K0" aggiungendo sulla curva ellittica i punti "B" e "s·G". In altre parole, Alice somma la chiave pubblica derivata dal codice di pagamento di Bob "B" con un altro punto calcolato sulla curva ellittica mediante l'addizione e il raddoppio dei punti con il segreto condiviso "s" dal punto generatore della curva secp256k1 "G". Questo nuovo punto rappresenta una chiave pubblica, che chiamiamo "K0": **K0 = B + s·G**;
 
 
-- Utilizzando questa chiave pubblica "K0", Alice può derivare un indirizzo di ricezione vuoto in modo standard (ad esempio, SegWit V0 in Bech32).
+- utilizzando questa chiave pubblica "K0", Alice può derivare un indirizzo di ricezione vuoto in modo standard (ad esempio, SegWit V0 in Bech32).
 
 Una volta che Alice ha questo indirizzo di ricezione "K0" appartenente a Bob, può creare una transazione Bitcoin classica, selezionando un UTXO che le appartiene su un altro ramo del suo wallet HD e inviandolo all'indirizzo "K0" di Bob.
 
@@ -704,19 +705,19 @@ Una volta che Alice ha questo indirizzo di ricezione "K0" appartenente a Bob, pu
 Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 Se corrispondiamo questo schema a quanto descritto in precedenza:
 
-- "Child Priv-Key" da parte di Alice corrisponde a: a.
-- "Child Pub-Key 0" da parte di Bob corrisponde a: B.
-- "Payment Secret 0" corrisponde a: s.
+- "Child Priv-Key" da parte di Alice corrisponde a: a;
+- "Child Pub-Key 0" da parte di Bob corrisponde a: B;
+- "Payment Secret 0" corrisponde a: s;
 - "Payment Pub-Key 0" corrisponde a: K0.
 
 Riassumo i passaggi che abbiamo appena visto insieme per inviare un pagamento BIP47:
 
-- Alice seleziona la prima chiave privata figlia derivata dal suo codice di pagamento personale.
-- Calcola un punto segreto sulla curva ellittica utilizzando ECDH dalla prima chiave pubblica figlia non utilizzata derivata dal codice di pagamento di Bob.
-- Utilizza questo punto segreto per calcolare un segreto condiviso con SHA256.
-- Utilizza questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica.
-- Aggiunge questo nuovo punto segreto alla chiave pubblica di Bob.
-- Ottiene una nuova chiave pubblica "effimera" di cui solo Bob ha la chiave privata associata.
+- Alice seleziona la prima chiave privata figlia derivata dal suo codice di pagamento personale;
+- calcola un punto segreto sulla curva ellittica utilizzando ECDH dalla prima chiave pubblica figlia non utilizzata derivata dal codice di pagamento di Bob;
+- utilizza questo punto segreto per calcolare un segreto condiviso con SHA256;
+- utilizza questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica;
+- aggiunge questo nuovo punto segreto alla chiave pubblica di Bob;
+- ottiene una nuova chiave pubblica "effimera" di cui solo Bob ha la chiave privata associata;
 - Alice può inviare una transazione classica a Bob con l'indirizzo "effimero" di ricezione derivato.
 
 Se desidera effettuare un secondo pagamento, ripeterà i passaggi sopra descritti, ad eccezione del fatto che selezionerà la seconda chiave pubblica derivata dal codice di pagamento di Bob. Cioè la prossima chiave non utilizzata. Avrà quindi un secondo indirizzo di ricezione appartenente a Bob "K1".
@@ -740,12 +741,12 @@ Sembra una transazione classica con un input consumato, un output di pagamento d
 
 Credito: https://blockstream.info/
 
-### Ricezione del pagamento BIP47 e derivazione della chiave privata.
+### Ricezione del pagamento BIP47 e derivazione della chiave privata
 
 Alice ha effettuato il suo primo pagamento verso un indirizzo BIP47 vuoto di Bob. Vediamo insieme come Bob riceve questo pagamento. Inoltre vedremo perché Alice non ha accesso alla chiave privata dell'indirizzo che ha appena generato e come Bob trova questa chiave per poter spendere i bitcoin appena ricevuti.
 Appena Bob riceve la transazione di notifica da parte di Alice, deriva la chiave pubblica BIP47 "K0" prima ancora che la corrispondente transazione di pagamento venga inviata. Quindi osserva tutti i pagamenti verso l'indirizzo associato. In realtà, deriva immediatamente più indirizzi che osserverà (K0, K1, K2, K3...). Ecco come deriva questa chiave pubblica "K0":
 
-- Bob seleziona la prima chiave privata figlia derivata dal suo codice di pagamento. Questa chiave privata è chiamata "b". È associata alla chiave pubblica "B" con cui Alice ha effettuato i calcoli nella fase precedente: **b**
+- Bob seleziona la prima chiave privata figlia derivata dal suo codice di pagamento. Questa chiave privata è chiamata "b". È associata alla chiave pubblica "B" con cui Alice ha effettuato i calcoli nella fase precedente: **b**;
 
 - Bob seleziona la prima chiave pubblica di Alice derivata dal suo codice di pagamento. Questa chiave è chiamata "A". È associata alla chiave privata "a" con cui Alice ha effettuato i calcoli e di cui solo Alice è a conoscenza. Bob può effettuare questo processo perché conosce il codice di pagamento di Alice che gli è stato trasmesso con la transazione di notifica.
 **A = a·G**
@@ -774,15 +775,15 @@ Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus R
 
 Se corrispondiamo questo schema a quanto vi ho descritto in precedenza:
 
-- "Child Priv-Key 0" da parte di Bob corrisponde a: b.
+- "Child Priv-Key 0" da parte di Bob corrisponde a: b
 
-- "Child Pub-Key 0" da parte di Alice corrisponde a: A.
+- "Child Pub-Key 0" da parte di Alice corrisponde a: A
 
-- "Payment Secret 0" corrisponde a: s.
+- "Payment Secret 0" corrisponde a: s
 
-- "Payment Pub-Key 0" corrisponde a: K0.
+- "Payment Pub-Key 0" corrisponde a: K0
 
-- "Payment Priv-Key 0" corrisponde a: k0.
+- "Payment Priv-Key 0" corrisponde a: k0
 
 Riassumo i passaggi che abbiamo appena visto insieme per ricevere un pagamento BIP47 e calcolare la corrispondente chiave privata:
 
@@ -810,7 +811,7 @@ Una volta trovato il segreto condiviso con ECDH, Alice e Bob calcolano la chiave
 
 ![Derivazione dell'indirizzo di ricezione BIP47 dal segreto condiviso](assets/26.webp)
 
-### Rimborso del pagamento BIP47.
+### Rimborso del pagamento BIP47
 
 Bob conosce già il codice di pagamento riutilizzabile di Alice, dispone già di tutte le informazioni necessarie per inviarle un rimborso. Non avrà bisogno di contattare nuovamente Alice per chiederle alcuna informazione. Bob dovrà semplicemente notificarla con una transazione di notifica, in particolare affinché possa recuperare i suoi indirizzi BIP47 con il suo seed, e poi potrà anche inviarle fino a 2^32 pagamenti.
 Bob può rimborsare Alice nello stesso modo in cui lei gli ha inviato i pagamenti. I ruoli si invertono.
@@ -821,7 +822,7 @@ Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus R
 
 Ora conosci tutti i dettagli di questa magnifica soluzione che è il BIP47.
 
-## Utilizzi derivati di PayNym.
+## Utilizzi derivati di PayNym
 
 L'implementazione di questo BIP47 su Samourai Wallet ha dato origine a PayNym, identificatori calcolati dai codici di pagamento degli utenti. Oggi, la loro utilità va ben oltre l'uso del BIP47.
 
@@ -863,7 +864,7 @@ Qualsiasi soluzione veramente positiva per la privacy dell'utente deve essere di
 
 - installare e utilizzare il proprio nodo Bitcoin RoninDojo.
 
-### Risorse esterne e ringraziamenti:
+### Risorse esterne e ringraziamenti
 
 Grazie a LaurentMT e Théo Pantamis per i numerosi concetti che mi hanno spiegato e che ho utilizzato in questo articolo. Spero di essere riuscito a trasmetterli con precisione.
 

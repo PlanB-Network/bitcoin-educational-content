@@ -838,7 +838,7 @@ Se desideri sapere di più sulle transazioni collaborative e, più in generale, 
 
 Oltre a queste transazioni collaborative, di recente si è osservato che il team di Samourai sta lavorando su un protocollo di autenticazione legato a PayNym: Auth47. Questo strumento è già implementato e consente, ad esempio, di autenticarsi su un sito web che accetta questo metodo tramite un PayNym. In futuro, penso che oltre a questa possibilità di autenticazione sul web, Auth47 si inserirà in un progetto più ampio legato all'ecosistema BIP47/PayNym/Samourai. Forse questo protocollo verrà utilizzato per ottimizzare ulteriormente l'esperienza dell'utente del wallet Samourai Wallet, in particolare nell'uso degli strumenti di spesa. 
 
-## La mia opinione personale su BIP47.
+## La mia opinione personale su BIP47
 
 Ovviamente, il principale svantaggio del BIP47 è la transazione di notifica. Questo porta l'utente a dover pagare una commissione per il suo mining, il che può essere fastidioso per alcuni. D'altra parte, l'argomento dello "spam" sulla blockchain di Bitcoin è assolutamente inaccettabile. Chiunque paghi una commissione per la sua transazione deve essere in grado di registrarla nel registro, indipendentemente dal suo scopo. Affermare il contrario significa schierarsi a favore della censura.
 È possibile che in futuro vengano trovate altre soluzioni meno costose per comunicare il codice di pagamento del mittente al destinatario e per consentire a quest'ultimo di conservarlo in modo sicuro. Ma, per il momento, la transazione di notifica rimane la soluzione con il minor numero di compromessi.

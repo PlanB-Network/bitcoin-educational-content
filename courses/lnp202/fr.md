@@ -29,3 +29,83 @@ LNP 202 est une formation accessible aux utilisateurs intermédiaires, qui vous 
 ## Aperçu du cours
 
 
+## Comprendre ce qu'est un nœud Lightning
+
+
+### Les implémentations
+
+
+
+## Pourquoi exploiter son propre nœud ?
+
+
+
+## Choisir la solution adaptée à son usage
+
+
+
+
+# Créer son premier nœud Lightning
+
+## Installer LND avec Umbrel
+
+
+
+## Ouvrir son premier canal Lightning
+
+
+
+## Fermer un canal Lightning
+
+
+
+# Gérer les liquidités de son nœud Lightning
+
+
+
+## Utiliser un gestionnaire de nœud Lightning
+
+(ThunderHub / RTL) + Alby Hub ?
+
+## Obtenir de la liquidité entrante
+
+LN+ / LSP
+
+
+
+
+# Protéger son nœud Lightning
+
+## Watchtower : rôle et mise en place
+
+
+
+## Sauvegarder son nœud et protéger ses sats
+
+
+
+
+
+# Libérer le potentiel de votre nœud Lightning
+
+
+
+
+## Connecter un portefeuille mobile
+
+
+
+
+
+## Gérer les frais et le routage
+
+
+## Naviguer dans le réseau Lightning
+
+
+### Visualiser sa position (LNVisualizer)
+
+
+
+
+

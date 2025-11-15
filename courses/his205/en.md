@@ -2943,22 +2943,22 @@ Gold was undervalued. Gold was still at $35 per ounce, which in no way reflected
 ### The modern fiat currency system and its implications
 
 
-And that's what sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. And in the end, we have a unilateral decision to completely sever the link between precious metals and money, following an over-issuance.
+This sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. Ultimately, a unilateral decision completely severed the link between precious metals and money, following an over-issuance.
 
 
-As a result, there is no longer any link between gold and banknotes or scriptural money. And it's not even a fractional reserve system - that's an outdated concept. Instead, it's the private banks that issue and create money through bank credit. Money is mainly created through bank credit, and is correlated to the key interest rate set by the central bank.
+As a result, there is no longer any link between gold and banknotes or scriptural money. And it's not even a fractional reserve system - that's an outdated concept. Instead, private banks issue and create money through bank credit. Money is mainly created this way and is correlated to the key interest rate set by the central bank.
 
 
-There really is no limit. There really isn't a reserve level anymore, at least in America and Canada. The reserve level is simply the fact that banks have to arrange to be able to respond to interbank exchanges so as not to run out of liquidity.
+There really is no limit. There are no mandatory reserve levels anymore, at least in America and Canada. The only reserve is the need for banks to arrange to be able to respond to interbank exchanges so as not to run out of liquidity.
 
 
-They just need to make sure they can make these transfers, but there's no 3%, 1%, 10% compulsory reserve. We've really moved away from the fractional reserve concept. Now it's the central banks, the governments through their fiscal deficits, the central banks through quantitative easing, QE, and the private banks through the creation of bank loans that can increase the total money supply and, in my opinion, inflation.
+They just need to make sure they can make these transfers, but there's no 3%, 1%, 10% compulsory reserve. We've truly moved away from the fractional reserve concept. Now, it's central banks, governments through fiscal deficits, central banks through quantitative easing (QE), and private banks through the creation of bank loans that can increase the total money supply and, in my opinion, cause inflation.
 
 
-And by the way, in conclusion, if you want to understand very well the link between money and inflation, I've got a course on Plan B of about five hours dedicated to this subject and you're going to learn, in fact, the difference between price increases, what we see in life, and inflation. They're not the same thing. Often, when we refer to inflation, we're talking about price increases, not inflation. Inflation is a fairly precise concept, explained by the increase in the money supply.
+To understand the link between money and inflation, I recommend a five-hour course I have on Plan B dedicated to this subject. You will learn the difference between price increases, which is what we see in life, and inflation. They're not the same thing. Often, when we refer to inflation, we're talking about price increases, not inflation itself. Inflation is a fairly precise concept, explained by the increase in the money supply.
 
 
-And so, to conclude this subject on the fiat world, I'd like to explain that there is a resource to help you better understand the phenomena I've just explained can result from this situation, which is inflation.
+To conclude this section on the fiat world, I'd like to point out a resource to help you better understand the phenomena I've just explained, such as inflation.
 
 
 Thank you for your attention.
@@ -2974,10 +2974,10 @@ Thank you for your attention.
 ### The invention of paper money and the first great bubble
 
 
-With the creation of central banks in the 18th century, a real revolution was born: magic money in the form of banknotes. The most striking example in France is John Law. This Scotsman, exiled in Paris, proposed to the regent, the Duc d'Orléans, to solve the bankruptcy of the royal finances by creating a state bank and a colonial trading company: the famous **Banque Royale** and the **Compagnie du Mississippi**.
+With the creation of central banks in the 18th century, a real revolution was born: magic money in the form of banknotes. The most striking example in France is that of John Law. This Scotsman, exiled in Paris, proposed to the regent, the Duc d'Orléans, a solution to the bankruptcy of the royal finances by creating a state bank and a colonial trading company: the famous **Banque Royale** and the **Compagnie du Mississippi**.
 
 
-With this system, Law linked paper money to his company's shares. The more banknotes circulated, the higher the value of the shares, the more solid the bank seemed to be... until speculation outstripped reality. The bubble burst suddenly in 1720, ruining the nobility, the bourgeoisie and much of Europe, which had come to speculate on rue Quincampoix. The result: a lasting distrust of paper money in France, and Europe's first lesson in speculative bubbles.
+With this system, Law linked paper money to his company's shares. The more banknotes circulated, the higher the value of the shares, and the more solid the bank seemed to be... until speculation outstripped reality. The bubble burst suddenly in 1720, ruining the nobility, the bourgeoisie, and much of Europe, which had come to speculate on rue Quincampoix. The result: a lasting distrust of paper money in France, and Europe's first lesson in speculative bubbles.
 
 
 ![image](./assets/fr/paper_illustration.webp)
@@ -2986,10 +2986,10 @@ With this system, Law linked paper money to his company's shares. The more bankn
 ### When land becomes "collateral"
 
 
-A century later, the French Revolution broke new ground with **assignats**, a currency backed by seized Church property. An attractive idea on paper - transforming land into monetary collateral - but ineffective: land is neither liquid nor divisible. The result: hyperinflation, multiple prohibitions on land use, uncontrolled inflation and shortages.
+A century later, the French Revolution broke new ground with **assignats**, a currency backed by seized Church property. An attractive idea on paper - transforming land into monetary collateral - but ineffective: land is neither liquid nor divisible. The result: hyperinflation, multiple prohibitions on land use, uncontrolled inflation, and shortages.
 
 
-Napoleon, deeply affected by this chaos, re-established gold and silver as the monetary basis in 1800 with the creation of the Banque de France, thereby guaranteeing the regular pay of his armies. A pragmatic way to regain confidence: pay in coin.
+Napoleon, deeply affected by this chaos, re-established gold and silver as the monetary basis in 1800 with the creation of the Banque de France, thereby guaranteeing the regular pay of his armies. A pragmatic way to regain confidence: pay in hard currency.
 
 
 ### The Roaring Twenties and the Great Depression of 1929
@@ -2998,13 +2998,13 @@ Napoleon, deeply affected by this chaos, re-established gold and silver as the m
 Let's skip two centuries. After the First World War, governments financed the effort through inflation and the suspension of gold. In the 1920s, the American Fed pursued an overly accommodating monetary policy to support the British pound. The result: easy credit, unbridled speculation on Wall Street, share purchases on credit, and the emergence of a real estate and banking bubble.
 
 
-When the machine went haywire, the crash of 1929 was inevitable: massive bank failures, record unemployment, queues at soup kitchens. This gave rise to the persistent misconception that **all deflation is bad**, whereas we need to distinguish between deflation through growth (healthy) and deflation through debt (devastating).
+When the machine went haywire, the crash of 1929 was inevitable: massive bank failures, record unemployment, and queues at soup kitchens. This gave rise to the persistent misconception that **all deflation is bad**, whereas we need to distinguish between deflation through growth (healthy) and deflation through debt (devastating).
 
 
 ### Asia in the 90s and the domino effect
 
 
-In the 1990s, the "Asian miracle" had the world dreaming. Exchange rates pegged to the dollar, growth at 8-10%, Western capital pouring in. All was well... until the tide receded. Bankruptcies cascaded, currencies devalued by 80%, investors ruined. The IMF had to intervene, imposing painful reforms. The same scenario as always: abundant capital, credit-fed bubbles, then collapse.
+In the 1990s, the "Asian miracle" had the world dreaming. Exchange rates were pegged to the dollar, growth was at 8-10%, and Western capital was pouring in. All was well... until the tide receded. Bankruptcies cascaded, currencies devalued by 80%, and investors were ruined. The IMF had to intervene, imposing painful reforms. The same scenario as always: abundant capital, credit-fed bubbles, then collapse.
 
 
 ### 2008 and the era of the permanent bubble
@@ -3019,10 +3019,10 @@ The result: massive public bailouts, quantitative easing and zero interest rates
 ### The eternal return of magic money
 
 
-From one century to the next, one constant emerges: as soon as a society believes it can create wealth with money instead of producing real goods, bubbles appear. From John Law to 2008, from the rue Quincampoix to Wall Street, the process repeats itself: euphoria, credit, boom and bust.
+From one century to the next, one constant emerges: as soon as a society believes it can create wealth with money instead of producing real goods, bubbles appear. From John Law to 2008, from the rue Quincampoix to Wall Street, the process repeats itself: euphoria, credit, boom, and bust.
 
 
-And in the end, invariably, when nobody trusts paper any more, people look for something else - gold, land, safe havens... or new currencies. Yesterday Napoleon imposed metal, today some see Bitcoin as the successor.
+And in the end, invariably, when nobody trusts paper anymore, people look for something else - gold, land, safe havens... or new currencies. Yesterday Napoleon imposed metal, today some see Bitcoin as the successor.
 
 
 The history of finance is a never-ending cycle: print, speculate, collapse. Until the next bubble.
@@ -3037,48 +3037,48 @@ The history of finance is a never-ending cycle: print, speculate, collapse. Unti
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
-This short section on the subject of money and violence will revisit many of the events we've already seen throughout the course. Just to summarize a few anecdotes that I find interesting.
+This short section will revisit many of the events we've already seen throughout the course, summarizing a few anecdotes that I find interesting.
 
 
 ### Technology and violence
 
 
-A short list of anecdotes that we've probably already talked about in the course. And it's to introduce a very fascinating discussion I had with Theo about a lecture Theo gave at B-Ondy that I found very interesting in terms of technological advances and the effects they have on the relationship of violence between the population and the State.
+Here are a few anecdotes that we've probably already talked about in the course. They serve to introduce a very fascinating discussion I had with Theo about a lecture he gave at B-Ondy, which I found very interesting in terms of how technological advances affect the relationship of violence between the population and the State.
 
 
 ### Money and state coercion
 
 
-And so to introduce this section, I'm going to give you a little list, really not exhaustive, just to remind you of the events we've probably already covered in the course.
+To introduce this section, I'm going to give you a brief and non-exhaustive list, just to remind you of the events we've probably already covered in the course.
 
-So, one link I can already make with money and violence is that when it comes to worthless paper money that can be printed ad infinitum, it often comes with all kinds of rules and all kinds of threats. And we can already talk about assignats, where it was literally written on the paper that counterfeiters were threatened with death, and so it's easy to find in the legal texts of the time death threats for those who didn't accept this famous paper money.
-
-
-Still in France, in one of the legal texts I was able to obtain about France during the Revolution, I saw in certain legal texts related to currency, the description of the per diem for transporting the guillotine, for those who transported and operated the guillotine, the per diem to which they were entitled for doing their job was described, I found this rather zany.
+One link I can already make with money and violence is that when it comes to worthless paper money that can be printed ad infinitum, it often comes with all kinds of rules and all kinds of threats. We can already talk about the assignats, where it was literally written on the banknotes that counterfeiters were threatened with death. It's easy to find in the legal texts of the time death threats for those who didn't accept this famous paper money.
 
 
-We've also talked about coinage in China, with the state supervising the coinage and we saw in this section at the beginning of the course that the choice of coins, some of which were less beautiful, were discarded, with consequences provided for in the law.
+Still in France, in one of the legal texts I was able to obtain from the Revolutionary era, I saw that the per diem for transporting and operating the guillotine was described in the currency-related sections. I found this rather zany.
 
 
-There's also an anecdote about a king in England who ended up cutting off the hands of those who minted money if they didn't behave as he expected them to.
+We've also talked about coinage in China, with the state supervising the minting. We saw in a section at the beginning of the course that when coins, some of which were less beautiful, were discarded, there were legal consequences.
 
 
-Also, in China, I've read references to a seizure of copper from Buddhist monasteries. At a time when copper was gaining in value, destabilizing their economy which was based on a kind of signet money that had little to do with the value of the metal, they resorted to finding a place where there was wealth and seized copper from monasteries in China.
+There's also an anecdote about a king in England who ended up cutting off the hands of those who minted money if they didn't behave as he expected.
 
 
-The same applied to monasteries in England during the English Reformation. When the famous king quarreled with the Pope in connection with his divorce, there was another reason behind it all, this divorce with the Pope, and that was that he took advantage of the abolition of all monasteries to seize the wealth that was contained in these ecclesiastical organizations.
+Also, in China, I've read about the seizure of copper from Buddhist monasteries. At a time when copper was gaining in value and destabilizing their economy - which was based on a form of fiat money that had little to do with the metal's value - they resorted to finding a place where there was wealth and seized the copper from monasteries.
 
 
-During the French Revolution, they seized all the Church's assets. They saw beautiful coins created from bell metal.
+The same applied to monasteries in England during the English Reformation. When the famous king quarreled with the Pope over his divorce, there was another reason behind it all: he took advantage of the abolition of the monasteries to seize the wealth contained in these ecclesiastical organizations.
 
 
-If we go back even further, one of the notions of economic violence and freedom, of liberticidal laws, is really **Diocletian with his hereditary caste which was directly linked to the fact that the peasants no longer wanted to accept the devalued currency**, so they wanted to leave their work as peasants, and Diocletian reacted simply by telling them "you can't leave your land and your children either", same thing for the soldiers.
+During the French Revolution, they seized all the Church's assets. They saw beautiful coins created from melted-down church bells.
 
 
-I think it's a pretty explicit form of violence, and I could conclude by talking about the Knights Templar or a French king. When the Knights Templar settled in France, I imagine he saw the manna of Templar wealth and had state funding problems. He sued the Templar Order, and some of them were able to walk away with part of the treasure, making for a very interesting show in the U.S. or Canada. I don't know who produced it, but it's called The Mystery of Oak Island, and it's about people who think there's a Templar treasure buried on an island in Canada, in the Maritimes, and they've been drilling for years, maybe even more than a decade, to make some kind of well. They've found a well with lots of galleries, and they're looking for a treasure buried by the Knights Templar on this island, which has given rise to this TV show. I salute my father, who is a big fan of this show.
+If we go back even further, one of the most explicit notions of economic violence and freedom, of liberticidal laws, is **Diocletian with his hereditary caste which was directly linked to the fact that the peasants no longer wanted to accept the devalued currency**. They wanted to leave their work as peasants, and Diocletian reacted simply by telling them, "you can't leave your land, and neither can your children". The same thing applied to the soldiers.
 
 
-So there you have it, that's the very quick list of facts we've seen during, most of the facts we've seen during this course which, I think, raise a link with violence and I'll leave you with the next part from Theo who's going to tell us a very interesting story about technological change and the balance of power between the plebs and the authorities.
+I think that's a pretty explicit form of violence. I could conclude by talking about the Knights Templar or a French king. When the Knights Templar settled in France, I imagine he saw the manna of Templar wealth and had state funding problems. He sued the Templar Order, and some of them were able to walk away with part of the treasure, which has given rise to a very interesting show in the U.S. or Canada. I don't know who produced it, but it's called *The Mystery of Oak Island*. It's about people who think there's a Templar treasure buried on an island in Canada, in the Maritimes, and they've been drilling for years - maybe even more than a decade - to make some kind of well. They've found a well with lots of galleries, and they're looking for a treasure buried by the Knights Templar on this island, which is the subject of this TV show. I salute my father, who is a big fan of this show.
+
+
+So there you have it: a very quick list of facts we've seen during this course which, I think, raise the link with violence. I'll leave you with the next part from Theo, who's going to tell us a very interesting story about technological change and the balance of power between the plebs and the authorities.
 
 Thank you!
 
@@ -3096,13 +3096,13 @@ Thank you!
 Historian Frederic C. Lane proposes a revolutionary thesis: the anatomy of the state throughout history is shaped by the technologies used to project violence. Starting from the Weberian principle that the state holds a monopoly on legitimate violence, Lane observes that this monopoly - paradoxically more efficient than competition in this field - evolves according to the relationship between the cost of attack and the cost of defense.
 
 
-This analysis, taken up by the authors of "The Sovereign Individual" (1997), explains the historical mutations in political organization: from the medieval feudal system to the city-states of the Renaissance, then to the industrial nation-states and finally to the modern welfare states. Each transition corresponds to a major technological break in the exercise of violence, occurring approximately every 400-500 years.
+This analysis, taken up by the authors of "The Sovereign Individual" (1997), explains the historical mutations in political organization: from the medieval feudal system to the city-states of the Renaissance, then to the industrial nation-states and finally to the modern welfare states. Each transition corresponds to a major technological breakthrough in the exercise of violence, occurring approximately every 400-500 years.
 
 
 ### Medieval balance
 
 
-In the Middle Ages, the agrarian economy was 90% dominant. The peasant, literally rooted to his land, could not flee from the lord and his knights. Military technology - hand-forged armor, years of sword training - was extremely expensive. This asymmetry massively favors attack over defense.
+In the Middle Ages, the agrarian economy was over 90% dominant. The peasant, literally rooted to his land, could not flee from the lord and his knights. Military technology - hand-forged armor, years of sword training - was extremely expensive. This asymmetry massively favored attack over defense.
 
 
 The immobile agricultural producer becomes the captive of the local monopolist of violence. His capacity for tax extraction reaches new heights - although, paradoxically, medieval taxes remain modest compared to the 78% of compulsory levies in modern times. The lord can tax at will, because the peasant can neither resist nor leave.
@@ -3111,10 +3111,10 @@ The immobile agricultural producer becomes the captive of the local monopolist o
 ### The Merchant Renaissance
 
 
-The emergence of Hanseatic trade in the North and Mediterranean trade in the South transformed the situation. Merchants, the main creators of added value, possessed mobile capital - their ships. They needed only light maritime militias, as the seas were difficult to police. Above all, they can easily migrate to a neighboring port if taxation becomes excessive.
+The emergence of Hanseatic trade in the North and Mediterranean trade in the South transformed the situation. Merchants, the main creators of added value, possessed mobile capital - their ships. They needed only light maritime militias, as the seas were difficult to police. Above all, they could easily migrate to a neighboring port if taxation becomes excessive.
 
 
-This mobility created tax competition between city-states. Venice, Genoa and Bruges had to offer the most liberal framework possible: reliable contracts, quality currency, insurance, minimal taxation. Princes had to seduce rather than coerce. Asymmetry reverses: defense (through flight) becomes easier than attack.
+This mobility created tax competition between city-states. Venice, Genoa and Bruges had to offer the most liberal framework possible: reliable contracts, quality currency, insurance, minimal taxation. Princes had to seduce rather than coerce. The symmetry reverses: defense (through flight) becomes easier than attack.
 
 
 ### The industrial era

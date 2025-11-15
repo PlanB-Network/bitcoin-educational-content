@@ -2847,35 +2847,35 @@ Then, immediately afterwards, I'm going to give you a short segment on the histo
 ### The European foundations of modern banking
 
 
-Let's go back to the 13th century with the florin. To understand how we arrived at the fiat model, we need to start with the 13th century. So, yes, we have the florin, but there was also a technology that emerged at the same time with the Medici, the concept of bills of exchange.
+Let's go back to the 13th century with the florin. To understand how we arrived at the fiat model, we need to start with the 13th century. Alongside the florin, a technology emerged at the same time with the Medici, the concept of bills of exchange.
 
 
 Then came the Antwerp stock exchange, with its concept of discounting and promissory bills.
 
-Then, as we've seen, we had the VOC, the first stock market in Amsterdam. This marked the birth of capitalism, with companiy shares and the exchange of shares. The Amsterdam bank then imposed the use of deposits by decree. This meant that coins had to be deposited at the end of the day. It was the moneychangers who could no longer keep change in coin form.
+Then, as we've seen, we had the VOC, the first stock market in Amsterdam. This marked the birth of capitalism, with company shares and the exchange of shares. The Amsterdam bank then imposed the use of deposits by decree. This meant that coins had to be deposited at the end of the day. It was the moneychangers who could no longer keep change in coin form.
 
 
-Then came the creation of the Bank of England out of the need to create debt to finance the war at the end of the 17th century. So, at that time, private banks became the third layer of money. By the way, this whole section, from the florin to the notion of central bank creation, is extremely well summarized in Nick Batia's famous book "Layered Money", which I was lucky enough to translate with a few colleagues. We did a great job of translating it so that French speakers everywhere could benefit from these teachings.
+Then came the creation of the Bank of England out of the need to create debt to finance the war at the end of the 17th century. At that time, private banks became the third layer of money. By the way, this whole section, from the florin to the notion of central bank creation, is extremely well summarized in Nick Bhatia's famous book "Layered Money", which I was lucky enough to translate with a few colleagues. We did a great job of translating it so that French speakers everywhere could benefit from these teachings.
 
 
 So we're at the end of the 17th century. The Bank of England was created to finance the war.
 
-The private banks took over the third layer of the currency. In fact, private bank bills were no longer redeemable in gold, and it was the Bank of England's bills that were redeemable in gold. This demonstrates the seizure of the power of exchange by the institution that is the Bank of England.
+The private banks took over the third layer of the currency. In fact, private bank bills were no longer redeemable in gold: it was the Bank of England's bills that were redeemable in gold. This demonstrates the seizure of the power of exchange by the institution that is the Bank of England.
 
 
-Then came the panic of 1776. Everyone moves up the money pyramid. What this means is that in 1776, there's a run on the banks, and so all the people who have third-layer paper, i.e. private bank bills, try to get Bank of England bills, and then try to get gold, but obviously there wasn't enough gold in the vaults. They declared a kind of banking vacation to avoid paying back the gold bills, and this gave rise to the concept of the lender of last resort.
+Then came the panic of 1776. Everyone rushed up the money pyramid. What this means is that in 1776, there's a run on the banks, and so all the people who have third-layer paper, i.e., private bank bills, try to get Bank of England bills, and then try to get gold, but obviously there wasn't enough gold in the vaults. They declared a kind of banking holiday to avoid paying back the gold bills, and this gave rise to the concept of the lender of last resort.
 
 
 ### The evolution of the US dollar
 
 
-So we went from the florin to the Bank of England. Then, of course, there was the First and Second World Wars, but before that, in 1796, on the other side of the Atlantic, we had the Americans. In 1776, it was still an English colony, British, and so the colonies, this is a Connecticut bill, it's real, it's a Connecticut two-shilling bill from 1776.
+So we went from the florin to the Bank of England. Then, of course, there was the First and Second World Wars, but before that, in 1796, on the other side of the Atlantic, we had the Americans. In 1776, America was still an English colony, British, and so the colonies - this is a Connecticut bill, it's real, it's a Connecticut two-shilling bill from 1776 - had this paper currency.
 
 
 ![](./assets/fr/two_shilling.webp)
 
 
-This was just before they declared war on England and could eventually issue their own currency. In the meantime, they had this paper currency, but they also used the Spanish dollar for cash, for coins. In fact, the name dollar stuck for the American dollar.
+This was just before they declared war on England and could eventually issue their own currency. In the meantime, they used this paper currency, but they also used the Spanish dollar for cash, for coins. In fact, the name dollar stuck for the American dollar.
 
 
 So, I think it was in 1792, if I'm not mistaken, that they passed a law allowing them to coin money. And to give you an example, this is a modern American dollar.
@@ -2884,16 +2884,16 @@ So, I think it was in 1792, if I'm not mistaken, that they passed a law allowing
 ![](./assets/fr/silver_dollar.webp)
 
 
-Well, obviously, it's not worth a dollar, it's worth about 30 or 40 dollars, it's an ounce of silver, so depending on the price of silver, it's worth at least 30 or 40 US dollars. Today, of course, it's only worth a dollar, but that's precisely the format it was at the time. The US dollar starts from this silver value.
+Well, obviously, it's not worth a dollar in face value, it's worth about 30 or 40 dollars, as it's an ounce of silver. So, depending on the price of silver, it's worth at least 30 or 40 US dollars. Today, of course, a paper dollar is only worth a dollar, but that's precisely the format it was at the time. The US dollar starts from this silver value.
 
 
-Then we can move on to the Civil War in America. We had the Confederates printing money. This currency had hyperinflation. It's not in the official Hanke-Krus list because it didn't reach 50%, but it did reach 40% monthly inflation. So they printed a lot of it during the war.
+Then we can move on to the Civil War in America. The Confederates were printing money. This currency had hyperinflation. It's not in the official Hanke-Krus list because it didn't reach 50%, but it did reach 40% monthly inflation. So they printed a lot of it during the war.
 
 
 ![](./assets/fr/confederate.webp)
 
 
-And their opponents to the north had dollars, too. We just saw Confederate dollars, and now it's Northern dollars. And they were called the greenback because the back was green.
+And their opponents to the north had dollars, too. We just saw Confederate dollars, and now we're looking at Northern dollars. They were called the greenback because the back was green.
 
 
 ![](./assets/fr/greenback.webp)
@@ -2902,7 +2902,7 @@ And their opponents to the north had dollars, too. We just saw Confederate dolla
 And I invite you to compare the difference in size with modern banknotes. Back then, banknotes were bigger.
 
 
-So the north won. The greenback became the currency of the Americas. Then came the founding of the FED in 1913. Then came the First World War.
+So the north won. The greenback became the currency of a reunified America. Then came the founding of the FED in 1913. Then came the First World War.
 
 And in the aftermath of the First World War, the last series of banknotes printed always included the words "redeemable in gold on demand". So, in 1928, you have to realize that $20 at the time bought almost an ounce of gold. The price of gold was $20.67. So you could say that $20.67 per ounce. So this bill could buy an ounce of gold in 1928.
 
@@ -2910,17 +2910,17 @@ And in the aftermath of the First World War, the last series of banknotes printe
 ![](./assets/fr/1928.webp)
 
 
-And today, an ounce of gold is worth US$3,000. So you can see the power of devaluation here, of course. And this is the last bill printed with the words "redeemable in gold". We'll see right after Order 6102, where they seized all the gold. In fact, they seized both the gold and the gold certificates. So, this is a gold certificate from 1928.
+And today, an ounce of gold is worth US$3,000. So you can see the power of devaluation here, of course. And this is the last bill printed with the words "redeemable in gold". We'll see right after Executive Order 6102, where they seized all the gold. In fact, they seized both the gold and the gold certificates. So, this is a gold certificate from 1928.
 
 
 ![](./assets/fr/Gold_certificate.webp)
 
 
-And not only was it "redeemable in gold" like the 1928 bill, it was also redeemable in gold coins. It really is written in gold coins. It really is a "gold certificate". And they've all been seized. It was illegal until 1964 to own them. I'm very happy to have one.
+Not only was it "redeemable in gold" like the 1928 bill, it was also redeemable in gold coins. It really is written payable in gold coins. It really is a "gold certificate". And they've all been seized. It was illegal until 1964 to own them. I'm very happy to have one.
 
-It was illegal. Then in 1964, it was illegal to own gold until 1974, if I'm not mistaken. But in the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll mention shortly. And so, starting in 1933, when they made "order 6102", executive order 6102, they seized gold. It was illegal to possess it. There were big prison sentences if you were caught keeping your gold. In those days, every ounce of gold was exchanged for a bill like that, after in 1934. So, in 1928, it still says "redeemable in gold".
+It was illegal. Then in 1964, it was illegal to own gold until 1974, if I'm not mistaken. But in the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll mention shortly. And so, starting in 1933, when they issued "Order 6102", Executive Order 6102, they seized gold. It was illegal to possess it. There were big prison sentences if you were caught keeping your gold. In those days, every ounce of gold was exchanged for a bill like that, after 1934. So, in 1928, it still says "redeemable in gold".
 
-In 1933, they issued Executive Order 6102. They seize all the gold. And then they give $20.67 for every ounce of gold. And then, here's the scam. They issue new bills in 1934 and it says on them "this note is legal tender for all debt".
+In 1933, they issued Executive Order 6102. They seized all the gold. And then they gave $20.67 for every ounce of gold. And then, here's the scam. They issued new bills in 1934 and it says on them "this note is legal tender for all debt".
 
 
 ![](./assets/fr/1934.webp)
@@ -2929,15 +2929,15 @@ In 1933, they issued Executive Order 6102. They seize all the gold. And then the
 The notion of legal tender appears here, replacing "redeemable in gold". The two bills look the same, it's just the little words that change. And the scam is that they devalued the dollar at the time. It went from an ounce of gold for $20.67 to $35 dollars an ounce in 1934. That was a devaluation of the dollar of about 40%. There was a devaluation of the dollar at that time.
 
 
-Then came the Second World War. After the Second World War, the Bretton Woods Agreement centralized all the world's gold in the United States. The Americans issued banknotes in exchange. The bills are no longer exchangeable for gold at the population level, but are exchangeable for gold at the state level.
+Then came the Second World War. After the Second World War, the Bretton Woods Agreement centralized all the world's gold in the United States. The Americans issued banknotes in exchange. The bills were no longer exchangeable for gold at the population level, but were exchangeable for gold at the state level.
 
 
-Eventually, countries like France and Germany will suspect that there are probably more dollar bills in circulation than gold in US vaults.
+Eventually, countries like France and Germany began to suspect that there were probably more dollar bills in circulation than gold in US vaults.
 
-So they asked to repatriate their gold. Well, they said, "Okay, we'll do it, but it'll take a little time. In 1971, our friend Richard Nixon cut the link between banknotes and gold once and for all, blaming speculators in the process.
+So they asked to repatriate their gold. Well, they said, "Okay, we'll do it, but it'll take a little time." In 1971, our friend Richard Nixon cut the link between banknotes and gold once and for all, blaming speculators in the process.
 
 
-Gold was undervalued. Gold was still at $35 per ounce, which in no way reflected the volume of money that had been printed, nor the market value of gold. In the space of just a few years, the price rose from $34 to $800. As we've seen in previous eras, there were times, in Rome for example, when this sort of link between, say, the denarius and the solidus was detached, leaving gold to float. And that's what happened then. Gold floated. There was a price discovery and gold was worth a lot more in dollar terms afterwards.
+Gold was undervalued. Gold was still at $35 per ounce, which in no way reflected the volume of money that had been printed, nor the market value of gold. In the space of just a few years, the price rose from $34 to $800. As we've seen in previous eras, there were times, in Rome for example, when this sort of link between, say, the denarius and the solidus was detached, leaving gold to float. And that's what happened then. Gold floated. There was a price discovery, and gold was worth a lot more in dollar terms afterwards.
 
 
 ### The modern fiat currency system and its implications

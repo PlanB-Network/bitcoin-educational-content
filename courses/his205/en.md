@@ -2431,15 +2431,15 @@ This transformation reveals the fragility of complex civilizations. The division
 The history and emergence of money in the Middle Ages is marked by periods of regression, innovation, and economic recovery.
 
 
-For example, when the Roman army left Britain, no more Roman coins entered the island. Around 435 AD, the use of coins disappeared completely in Britain, a phenomenon unique in the former Roman provinces. For almost two centuries, the British economy went without coinage, until the 7th century, when Merovingian and continental-inspired coins gradually reappeared.
+For example, when the Roman army left Britain, no more Roman coins entered the island. Around 435 AD, the use of coins disappeared completely in Britain, a phenomenon unique in the former Roman provinces. For almost two centuries, the British economy went without coinage until the 7th century, when Merovingian and continental-inspired coins gradually reappeared.
 
 
-From the 8th century onwards, Christian influence contributed to the reintroduction of coinage in Northern Europe. The key figure in this period was Pepin the Short, King of the Franks, who introduced the denarius in 752, later taken over by his son Charlemagne. Charlemagne widely extended the use of the silver denarius, creating a European monetary standard for several centuries.
+From the 8th century onwards, Christian influence contributed to the reintroduction of coinage in Northern Europe. The key figure in this period was Pepin the Short, King of the Franks, who introduced the denarius in 752, later adopted by his son Charlemagne. Charlemagne widely extended the use of the silver denarius, creating a European monetary standard for several centuries.
 
 In England, coinage enjoyed a significant revival with the production of the silver penny under King Offa of Mercia around 765. This currency became so important that it remained virtually unchanged for 500 years.
 
 
-As a first artifact related to this period, I offer you a reproduction of an English penny from the period.
+As a first artifact related to this period, I offer you a reproduction of an English penny from that time.
 
 
 ![](./assets/fr/3_5_penny.webp)
@@ -2457,7 +2457,7 @@ In England, the monetary system was protected from dilution by innovative fiscal
 However, the temptation to profit through monetary dilution led to crises, as in the reign of Henry I in the 12th century, when the quality of coinage fell dramatically. Severe reforms, sometimes accompanied by violent measures against coiners, temporarily restored confidence in the currency.
 
 
-The Middle Ages also saw the emergence of sophisticated financial practices, such as the use of tally sticks in England, to circumvent the ban on usury and extend credit. The Church was not very keen on interest-bearing loans, so various techniques were used to circumvent the prohibition on the use of interest.
+The Middle Ages also saw the emergence of sophisticated financial practices, such as the use of tally sticks in England to circumvent the ban on usury and extend credit. The Church was not very keen on interest-bearing loans, so various techniques were used to circumvent the prohibition on the use of interest.
 
 
 These innovations were a response to the chronic shortage of metallic money, and encouraged the emergence of an embryonic financial market.
@@ -2466,7 +2466,7 @@ These innovations were a response to the chronic shortage of metallic money, and
 The Crusades, meanwhile, stimulated Mediterranean trade, fostering the development of international exchanges and new banking practices, notably through the Order of the Knights Templar. The Knights Templar became important financial intermediaries, enabling crusaders to obtain liquidity far from home, foreshadowing the modern European banking system.
 
 
-And to make the link with the Templars, I have here a French medieval coin, and you can recognize a beautiful cross in the center. It was quite common for coins of this era to bear this cross.
+To make the link with the Templars, I have here a French medieval coin, and you can recognize a beautiful cross in the center. It was quite common for coins of this era to bear this cross.
 
 
 ![](./assets/fr/3_5_Denier-france.webp)
@@ -2481,13 +2481,13 @@ At the same time, the Hundred Years' War (1337-1453) forced states to adopt more
 The Middle Ages were thus marked by a constant tension between the need for reliable money for trade and the constant temptation for rulers to dilute money for immediate profit. This conflict profoundly shaped European monetary development, laying the foundations for modern economic systems.
 
 
-And to conclude this section, I'd like to add a rather interesting anecdote that happened around this time in England. This anecdote is taken from the book here, "History of Money" by Glyn Davies.
+To conclude this section, I'd like to add a rather interesting anecdote from England around this time. This anecdote is taken from the book here, "History of Money" by Glyn Davies.
 
 
 It mentions that in England, the shift to Parliament transferred the burden of debt from the sovereign to Parliament, resulting in chronic state indebtedness. Before that, the debt weighed on the sovereign's shoulders.
 
 
-And once Parliament was able to seize some of this power of money creation, it enabled the creation of long-term debts that were borne by the people, not by the king. Previously, if the king went bankrupt or if there was a change of king, the debt was extinguished with him.
+Once Parliament was able to seize some of this power of money creation, it enabled the creation of long-term debts that were borne by the people, not by the king. Previously, if the king went bankrupt or if there was a change of king, the debt was extinguished with him.
 
 
 The moment the creation of debt is carried out by Parliament, the concept of sovereign debt emerges, as it is potentially unlimited over time. As long as the State exists, as long as Parliament exists, this debt exists, and they had to find all sorts of ways of refinancing it and spreading it over time. It's a major paradigm shift, where it was no longer the king or royalty who guaranteed or bore the burden of these debts; it was now Parliament and therefore its citizens.
@@ -2500,7 +2500,7 @@ The moment the creation of debt is carried out by Parliament, the concept of sov
 
 :::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
 
-We've already reached the section of the course where we talk about the period known as the Renaissance. It takes place against a backdrop of tragic crisis, with the meteoric spread of the plague by fleas on rats boarding ships. This tragedy, however, informs us about the growth of trade and travel in the high medieval period. Earlier in this period, not so many people moved so far and so fast.
+We've now reached the section of the course where we talk about the period known as the Renaissance. It takes place against a backdrop of tragic crisis, with the meteoric spread of the plague by fleas on rats boarding ships. This tragedy, however, informs us about the growth of trade and travel in the high medieval period. Earlier in this period, not so many people moved so far and so fast.
 
 
 ### The Florin of Florence
@@ -2509,7 +2509,7 @@ We've already reached the section of the course where we talk about the period k
 The return of gold coinage to Europe during the Renaissance marks a fundamental turning point in monetary history. **It all began with the Florin of Florence in 1252, the first major gold coin minted in Europe since the fall of Rome**. With its remarkably constant weight and purity (around 3.5 grams of pure gold), the florin remained unchanged for four centuries and rapidly became an essential pan-European monetary reference.
 
 
-And here I have a reproduction of a Florin. A gold Florin made of pewter and stamped by a French artist who makes excellent pieces, engraved and struck by hand.
+Here I have a reproduction of a Florin: a gold Florin made of pewter and stamped by a French artist who makes excellent pieces, engraved and struck by hand.
 
 
 ![](./assets/fr/4_Florin.webp)
@@ -2524,22 +2524,22 @@ This return to gold coinage was motivated by a specific context: the collapse of
 ![](./assets/fr/4_Hongrie.webp)
 
 
-I have here a Byzantine coin that I find interesting. I'm going to draw a parallel with a coin from the period, a coin from Hungary at the time. This coin is cup-shaped, like a miniature bowl. And the iconography on it is a kind of religious figure with kings holding crosses in their hands side by side. It's the same kind of bowl-shaped piece, and this one comes from Hungary. It was quite customary to copy coins from other countries. As Byzantine coins were generally accepted, it happened that other countries copied these coins. As you can see when you compare them side by side, these pieces are very similar.
+I have here a Byzantine coin that I find interesting. I'm going to draw a parallel with a coin from the same period from Hungary. This coin is cup-shaped, like a miniature bowl. The iconography on it is a kind of religious figure with kings holding crosses in their hands side by side. It's the same kind of bowl-shaped piece, and this one comes from Hungary. It was quite customary to copy coins from other countries. As Byzantine coins were generally accepted, other countries would often copy them. As you can see when you compare them side by side, these pieces are very similar.
 
 
-Northern Italy, notably Florence, Venice and Genoa, took advantage of this context to launch new hard currencies, coins with a stable precious metal content. Venice followed Florence's example by minting the ducat in 1270, a currency almost identical to the florin and widely used in Mediterranean trade.
+Northern Italy, notably Florence, Venice, and Genoa, took advantage of this context to launch new hard currencies - coins with a stable precious metal content. Venice followed Florence's example by minting the ducat in 1270, a currency almost identical to the florin and widely used in Mediterranean trade.
 
 
 The florin became the first international reserve currency, adopted in over 150 European cities before the end of the 14th century. With the creation of a large-scale Florentine banking network, led by the Medici, monetary and accounting management was thoroughly modernized, even reducing the need to physically transport gold.
 
 
-That's something else that's really interesting. There was a time when a lot of coin shipments were lost on sea voyages. This technological advance, the registers with double-entry bookkeeping, enables the creation of scriptural money. So we can reduce the number of coin settlements and instead make a writing game, which greatly reduces the risk of losing money in transit.
+That's another really interesting point. There was a time when a lot of coin shipments were lost on sea voyages. This technological advance - the registers with double-entry bookkeeping - enabled the creation of scriptural money. This made it possible to reduce the number of coin settlements and instead use a system of written entries, which greatly reduces the risk of losing money in transit.
 
 
-Monetary development was also accompanied by a significant evolution in banking methods. Inspired in part by the Crusades' contact with Muslim banking practices, medieval Europe saw the emergence of rudimentary banking systems in Florence, Venice, Barcelona and Genoa as early as the 13th century. The Knights Templar, a religious and military order, had already developed a system enabling crusaders to travel without taking their wealth directly with them.
+Monetary development was also accompanied by a significant evolution in banking methods. Inspired in part by the Crusades' contact with Muslim banking practices, medieval Europe saw the emergence of rudimentary banking systems in Florence, Venice, Barcelona, and Genoa as early as the 13th century. The Knights Templar, a religious and military order, had already developed a system enabling crusaders to travel without taking their wealth with them.
 
 
-So, they would deposit a Templar office in their country, and they could travel with a form of letter and collect the coins when they arrived at their crusade destination.
+They would deposit funds at a Templar office in their country and could then travel with a form of letter and collect the coins upon arrival at their crusade destination.
 
 This meant we didn't have to carry around precious metal coins.
 
@@ -2547,7 +2547,7 @@ This meant we didn't have to carry around precious metal coins.
 It was also during this period that Europe became aware of the existence of paper money in China, thanks to Marco Polo's journey in the 13th century. However, the development of banknotes would wait several centuries, as Europe preferred to perfect its metal coinage methods first. Leonardo da Vinci, close to Luca Pacioli, a renowned chartered accountant, actively contributed to the improvement of money presses, promoting faster, more uniform coin production.
 
 
-We're talking here, of course, about the pendulum striking I referred to earlier in the course. This made it possible to make more uniform pieces than hammer striking, and above all, it allowed writing around the taler, as I've already shown you. This is a European taler from 1793, so you can see that there's writing on the fringe.
+We're talking here, of course, about the pendulum striking I referred to earlier in the course. This made it possible to make more uniform pieces than hammer striking, and above all, allowed for writing around the edge of the coin, as I've already shown you. This is a European taler from 1793, so you can see that there's writing on the fringe.
 
 
 ![image](./assets/fr/4_thaler.webp)
@@ -2562,7 +2562,7 @@ From the 16th century onwards, the monetary center of gravity shifted to Spain, 
 The Renaissance also marked a major artistic evolution in coinage, with coins such as the thaler (Joachimsthaler), the origin of the term "dollar". These large silver coins reflect the new artistic and mechanical minting techniques made possible by technical innovation from northern Europe.
 
 
-Finally, the financial Renaissance ushered in the transition to economic modernity, with the development of banking, credit and financial markets, and the emergence of the first forms of modern capitalism in the great commercial cities of Amsterdam, London and Stockholm, laying the foundations for the international financial system as we know it today. And that's the subject of our next video.
+Finally, the financial Renaissance ushered in the transition to economic modernity, with the development of banking, credit, and financial markets, and the emergence of the first forms of modern capitalism in the great commercial cities of Amsterdam, London, and Stockholm, laying the foundations for the international financial system as we know it today. And that's the subject of our next video.
 
 
 

@@ -14,7 +14,7 @@ objectives:
 # A journey through the history of coinage
 
 
-This captivating course will take you on an exploration of the fascinating evolution of money from the earliest civilizations to our current monetary system. We'll cross the ages, from Neolithic to modern times, discovering how money has shaped and been shaped by the great human civilizations. From Mesopotamian proto-money to crypto-currencies, Lydian coins, the Renaissance florin and the advent of central banking, this course offers a comprehensive perspective on one of the fundamental pillars of our societies.
+This captivating course will take you on an exploration of the fascinating evolution of money from the earliest civilizations to our current monetary system. We'll cross the ages, from Neolithic to modern times, discovering how money has shaped and been shaped by the great human civilizations. From Mesopotamian proto-money to crypto-currencies, Lydian coins, the Renaissance florin, and the advent of central banking, this course offers a comprehensive perspective on one of the fundamental pillars of our societies.
 
 
 
@@ -31,10 +31,10 @@ This captivating course will take you on an exploration of the fascinating evolu
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
-Welcome to this course on the history of money. Obviously, as the title suggests, we're going to explore the historical evolution of coins together. From the Neolithic era to the present day, we'll look at the major empires and civilizations of the past.
+Welcome to this course on the history of money. As the title suggests, we're going to explore the historical evolution of coins together. From the Neolithic era to the present day, we'll look at the major empires and civilizations of the past.
 
 
-However, this course is not limited to a simple chronology of dates or historical events. Rather, our real aim is to provide an in-depth understanding of the fundamental concepts involved in the emergence of money, or rather CURRENCIES.
+However, this course is not limited to a simple chronology of dates or historical events. Rather, our real aim is to provide an in-depth understanding of the fundamental concepts involved in the emergence of money, or rather, CURRENCIES.
 
 
 ### Fundamental concepts to explore
@@ -67,7 +67,7 @@ We'll look in detail at the advent of paper money and central banking, drawing p
 Finally, we'll draw a parallel with our contemporary monetary system, exploring its consequences, and tracing the history of finance to better understand how we arrived at today's welfare state.
 
 
-And, as a bonus, we'll also look at the many fascinating etymological links linked to money, which continue to affect our daily lives in different languages.
+And, as a bonus, we'll also look at the many fascinating etymological links related to money, which continue to affect our daily lives in different languages.
 
 
 ### Course structure
@@ -100,16 +100,16 @@ Thank you and enjoy!
 Why go all the way back to the Neolithic to talk about money? The answer is simple: we can't fully understand the emergence of money without also looking at the emergence of civilizations themselves. To understand why the first monetary systems came into being, we need to understand what led nomadic hunter-gatherer groups to settle down.
 
 
-A tribe with no division of labor, no specialization, where each individual is responsible for producing what he or she needs, simply has no need for money. Likewise, an agricultural community practicing only subsistence farming, where each person cultivates for himself, does not yet feel the need for a universal exchange intermediary.
+A tribe with no division of labor, no specialization, where each individual is responsible for producing what he or she needs, simply has no need for money. Likewise, an agricultural community practicing only subsistence farming, where each person cultivates for themselves, does not yet feel the need for a universal exchange intermediary.
 
 
 ### Sedentarization and its consequences
 
 
-That's why I think it's interesting to start our exploration in the Neolithic period. We'll see how sedentarization gradually gave rise to villages, then cities and finally great civilizations. It was this sedentarization and the production of food surpluses that made labor specialization possible, creating the fertile ground essential to the emergence and evolution of the first monetary concepts.
+That's why I think it's interesting to start our exploration in the Neolithic period. We'll see how sedentarization gradually gave rise to villages, then cities, and finally great civilizations. It was this sedentarization and the production of food surpluses that made labor specialization possible, creating the fertile ground essential to the emergence and evolution of the first monetary concepts.
 
 
-Just as human interactions give rise to language, we can consider that money appears naturally, or not (Incas, Spartans), in the course of the formation and organization of civilizations. In my opinion, the appearance or non-appearance of money has everything to do with the form of social and economic organization of each society.
+Just as human interactions give rise to language, we can consider that money appears naturally, or not (as with the Incas and Spartans), in the course of the formation and organization of civilizations. In my opinion, the appearance or non-appearance of money has everything to do with the form of social and economic organization of each society.
 
 
 ### Chronology of human evolution
@@ -118,7 +118,7 @@ Just as human interactions give rise to language, we can consider that money app
 But first, let's look at an even broader historical context.
 
 
-Like any first presentation, I'm going to do exactly the opposite of what I said in the introduction to the course, i.e., give you a list of dates and historical events that follow on from each other. The idea here is to place the emergence of money in its historical context, in relation to other human advances such as the cooking of food, the wheel, the domestication of certain cereals and animals, the building of the pyramids and the founding of the first cities.
+Like any first presentation, I'm going to do exactly the opposite of what I said in the introduction to the course and give you a list of dates and historical events that follow on from each other. The idea here is to place the emergence of money in its historical context, in relation to other human advances such as the cooking of food, the wheel, the domestication of certain cereals and animals, the building of the pyramids and the founding of the first cities.
 
 
 So, let's take a look at the evolution of mankind from prehistoric times onwards.
@@ -133,10 +133,10 @@ An overview of human evolution from Australopithecus to modern man, following te
 - **3 million years ago** - Appearance of *Australopithecus*.
 - **2 million years ago** - Hominins begin to leave Africa.
 - **1.6 million years ago** - Hominins reach southern Europe and Asia.
-- **1 million years ago** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk cave, South Africa).
+- **1 million years ago** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk Cave, South Africa).
 - **Around 400,000 BC** - Neanderthals live in Europe and Asia.
 - **Around 300,000 BC** - Appearance of *Homo sapiens*.
-- **80,000 years ago** - *Homo sapiens* began migrating to all parts of the world.
+- **80,000 years ago** - *Homo sapiens* begins migrating to all parts of the world.
 - **73,000 years ago** - Blombos Caves in South Africa (oldest known art forms).
 - **50,000 years ago** - *Homo sapiens* reached Europe.
 - **30,000 years ago** - Cave paintings from the Chauvet cave in France.
@@ -149,9 +149,9 @@ An overview of human evolution from Australopithecus to modern man, following te
 - **Around 6500 BC** - Sedentary life begins in Greece.
 - **6000 years ago** - Beginning of river irrigation in Egypt and Mesopotamia.
 - **Around 5000 BC** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
-- **Around 4000 BC** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas and vicuñas).
+- **Around 4000 BC** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas, and vicuñas).
 - **Around 3500-3000 BC** - The Botai people begin to domesticate and breed horses.
-- **Around the beginning of the Bronze Age** - The Sumerians had already invented the wheel and the sailboat, and developed arithmetic, astronomy and the first form of writing.
+- **Around the beginning of the Bronze Age** - The Sumerians had already invented the wheel and the sailboat, and developed arithmetic, astronomy, and the first form of writing.
 - **Around 2800 BC** - Uruk, at its peak, reached a population of up to 80,000.
 - **2600-2200 BC** - First signs of urban development in the Greek world. Expansion of Mediterranean crops (wheat, vines, olives).
 - **2560 BC** - Construction of the Great Pyramid of Giza.
@@ -161,7 +161,7 @@ An overview of human evolution from Australopithecus to modern man, following te
 - **1st century AD** - North African Berbers domesticate the camel.
 
 
-So, here's this historical overview to give us a perspective on the emergence of certain technologies, domestication of certain animals, and cultures, to put it in context with the emergence of writing and money, which will be the subject of our next section.
+So, here is this historical overview to give us a perspective on the emergence of certain technologies, domestication of certain animals, and cultures, to put it in context with the emergence of writing and money, which will be the subject of our next section.
 
 
 ## From Hunter-Gatherer to Farmer: The Dawn of Civilization
@@ -173,7 +173,7 @@ So, here's this historical overview to give us a perspective on the emergence of
 ### The transition to agriculture and sedentarization
 
 
-In this chapter, we're going to talk about the transition from hunting and gathering to subsistence agriculture, crafts and trade. I felt it was important to explain this transition to a sedentary life and agriculture, to understand how the first cities were built, which eventually led to the creation and emergence of certain monetary systems during Antiquity.
+In this chapter, we're going to talk about the transition from hunting and gathering to subsistence agriculture, crafts, and trade. I felt it was important to explain this transition to a sedentary life and agriculture, to understand how the first cities were built, which eventually led to the creation and emergence of certain monetary systems during Antiquity.
 
 
 This section is an extract from a course available on The Great Courses website called Ancient Mesopotamia, Life in the Cradle of Civilization, given by Professor Amanda Podany of California State Polytechnic University, Ponoma.
@@ -206,7 +206,7 @@ Those who follow the "keto" diet will agree: eating a lot of bread is probably n
 Given all these disadvantages, who would have chosen to become a farmer back then? Well, some popular theories suggest that humans were forced to adopt agriculture and that it wasn't really a choice. Even with wild grains, there was a major problem. Large quantities of grain could not be transported easily. They had to be stored somewhere. Once the grain was stored, it made sense to stay close by. So, you grew wild grain, which wasn't necessarily agriculture, and when you grew it in large quantities, you had to store it somewhere, making it difficult to transport. This likely contributed to the first phases of sedentarization. It may well have been the initial reason why people settled in a particular place. If this place provided food all year round, there was no need to follow herds or travel constantly.
 
 
-In the Natoufian culture, up to a hundred people lived together in villages made up of round houses. A popular theory explaining the beginnings of agriculture is that this change was stimulated by climate change. Around 11,000 years ago, the climate in the Near East became colder and drier than before. Plants and animals that had previously been abundant became rarer. Communities would then have begun to cultivate the plants on which they dependeded, or to keep young animals to raise and profit from them, such as sheep, goats and cattle, which would lend themselves well to such breeding. This would have been a very gradual process. So, there wasn't a precise moment when they all became farmers who domesticated animals.
+In the Natoufian culture, up to a hundred people lived together in villages made up of round houses. A popular theory explaining the beginnings of agriculture is that this change was stimulated by climate change. Around 11,000 years ago, the climate in the Near East became colder and drier than before. Plants and animals that had previously been abundant became rarer. Communities would then have begun to cultivate the plants on which they depended, or to keep young animals to raise and profit from them, such as sheep, goats, and cattle, which would lend themselves well to such breeding. This would have been a very gradual process. So, there wasn't a precise moment when they all became farmers who domesticated animals.
 
 
 Another theory is that the villages themselves created the problem solved by domestication. Intensive hunting and gathering would have destabilized the natural environment. According to one hypothesis, the Natoufians had achieved such demographic success that they had become too numerous for their immediate environment. Thus, the swamps and areas where natural crops were grown may not have been productive enough for the village's population. The immediate environment was not able to provide for everyone. They would then have started to cultivate directly on site and increase their food supply.

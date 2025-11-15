@@ -3129,25 +3129,25 @@ The "welfare state" emerged: industrial planning (Japan, Korea), military protec
 ### The microprocessor revolution
 
 
-Three technological innovations are now upsetting these age-old balances. The microprocessor is transforming warfare: an operator in Nevada pilots a drone in Afghanistan with surgical precision. The Gulf War (1991) demonstrated this breakthrough: the world's fourth largest army (Iraq) was wiped out in 45 days, with fewer than 200 deaths on the coalition side. Technological superiority made frontal attack impossible.
+Three technological innovations are now upsetting these age-old balances. The microprocessor is transforming warfare: an operator in Nevada pilots a drone in Afghanistan with surgical precision. The Gulf War (1991) demonstrated this breakthrough: the world's fourth-largest army (Iraq) was wiped out in 45 days, with fewer than 200 deaths on the coalition side. Technological superiority made frontal attack impossible.
 
 
-The Internet and asymmetric cryptography are revolutionizing the creation of value. A developer can work from anywhere with a MacBook and Starlink, exporting his production instantly and free of charge. Digital nomads escape geographical captivity, pitting states against each other in a way not seen since the Renaissance.
+The Internet and asymmetric cryptography are revolutionizing the creation of value. A developer can work from anywhere with a MacBook and Starlink, exporting their production instantly and free of charge. Digital nomads escape geographical captivity, pitting states against each other in a way not seen since the Renaissance.
 
 
-Bitcoin represents the culmination of this logic: a currency freed from the State, protected by an inviolable cryptographic shield. Wealth becomes defensible against any physical force. The individual regains the ability to defend himself against state monopoly.
+Bitcoin represents the culmination of this logic: a currency freed from the State, protected by an inviolable cryptographic shield. Wealth becomes defensible against any physical force. The individual regains the ability to defend themselves against state monopoly.
 
 
 ### The collapse of the Westphalian model
 
 
-Western welfare states, designed for the industrial age, are becoming obsolete. Value creators - developers, artists, financiers - are migrating to Singapore, Dubai or El Salvador, preferring fewer public services in exchange for minimal taxation. Modern giants (Apple, Tether) need neither offices nor physical infrastructure.
+Western welfare states, designed for the industrial age, are becoming obsolete. Value creators - developers, artists, financiers - are migrating to Singapore, Dubai or El Salvador, preferring fewer public services in exchange for minimal taxation. Modern giants like Apple and Tether need neither offices nor physical infrastructure.
 
 
-This brain drain creates a spiral: fewer net contributors, degraded public services, increased taxation on those who stay, accelerated departures. States must radically downsize or go bankrupt. Fragmentation into small, competitive jurisdictions - a new model of digital city-states - seems inevitable.
+This brain drain creates a spiral: fewer net contributors, degraded public services, increased taxation on those who stay, and accelerated departures. States must radically downsize or go bankrupt. Fragmentation into small, competitive jurisdictions - a new model of digital city-states - seems inevitable.
 
 
-History teaches us that these transitions take generations. But Bitcoin's currency-state separation could accelerate the process. Individuals now vote with their feet and their cryptographic wallets, redrawing the map of global power along lines we're only beginning to perceive.
+History teaches us that these transitions take generations. But Bitcoin's separation of currency and state could accelerate the process. Individuals now vote with their feet and their cryptographic wallets, redrawing the map of global power along lines we're only beginning to perceive.
 
 
 ## A very short history of finance
@@ -3159,72 +3159,72 @@ History teaches us that these transitions take generations. But Bitcoin's curren
 Following this account of the history of money, which takes us right up to the fiat system, I'd like to quickly and succinctly explain the evolution of finance that eventually led to the welfare state. Initially, in Roman times, we had coins.
 
 
-It's a financial technology that allowed the empire to pay soldiers, expand, trade. It worked very well, except that eventually there were too many valuations. At some point when they stopped expanding and stopped getting spoils from their wars, from territory expansion, their system collapsed.
+Coins were a financial technology that allowed the empire to pay soldiers, expand, and trade. It worked very well, except that eventually there were too many devaluations. At some point when they stopped expanding and stopped getting spoils from their wars and territory expansion, their system collapsed.
 
 
 ### The evolution of financial technologies
 
 
-Then came the Middle Ages, when there was very little evolution until the Florin, which brought back a stable currency, and banking developments in Italy and Antwerp, where the concept of "time value of money" was developed, in other words, discounting. They developed discounting to create a form of paper money in which a "promissory note" was promised, i.e. a promise that at a later date we would be able to recover $100 plus an interest rate.
+Then came the Middle Ages, when there was very little evolution until the Florin, which brought back a stable currency, and banking developments in Italy and Antwerp, where the concept of "time value of money" was developed - in other words, discounting. They developed discounting to create a form of paper money in which a "promissory note" was issued, i.e., a promise that at a later date one would be able to recover $100 plus an interest rate.
 
 
-We've developed a financial technology that allows us to sell the ticket before the end of the term, so if you sell it after 4 months out of a 6-month term, the person will actually pay a premium to compensate for the loss of yield for the remaining 2 months.
+This created a financial technology that allows the holder to sell the note before the end of the term, so if you sell it after 4 months out of a 6-month term, the person will actually pay a premium to compensate for the loss of yield for the remaining 2 months.
 
 
-This was a financial technology developed in Antwerp and Amsterdam at the time. Later, we saw the evolution of central banks and the notion of lender of last resort. During the Bank of Amsterdam, the use of coins in international trade was abandoned in favor of scriptural money.
+This was a financial technology developed in Antwerp and Amsterdam at the time. Later, we saw the evolution of central banks and the notion of lender of last resort. It can be argued that during the Bank of Amsterdam, the use of coins in international trade was abandoned in favor of scriptural money.
 
 
-Later, in the 18th century, in terms of financial technology, we can talk about insurance. So there's an anecdote that's very well told in Neil Ferguson's book "The Ascent of Money". The first insurance company to be born was called **Scottish Widow**, and essentially, it was the clergy who wanted to develop insurance for priests who sometimes died earlier, died suddenly. The clergy, at the time, were looking after their wives and offspring in Scotland for a year. And so the clergy found that perhaps a little too short and so **they invented actuarial calculations** to literally calculate how many taxpayers it took into this system so that, depending also on how many priests died suddenly too soon.
+Later, in the 18th century, in terms of financial technology, we can talk about insurance. So there's an anecdote that's very well told in Neil Ferguson's book "The Ascent of Money". The first insurance company to be born was called **Scottish Widow**, and essentially, it was the clergy who wanted to develop insurance for priests who sometimes died earlier, died suddenly. The clergy, at the time, were looking after their wives and offspring in Scotland for a year. And so the clergy found this one-year period perhaps a little too short. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
 
 
-They developed actuarial calculations to say "Okay, well, each priest gives us this amount and then if the priest dies, well, the insurance will cover to ensure the survival of his wife and children until they probably die." So it was the first insurance company called "Scottish Widow" that invented this system, and there it was deployed.
+They developed actuarial calculations to say "Okay, well, each priest gives us this amount and then if the priest dies, well, the insurance will cover the costs to ensure the survival of his wife and children until they are self-sufficient." So it was the first insurance company called "Scottish Widow" that popularized this system, and there it was deployed.
 
 
 ### From private insurance to the welfare state
 
 
-So insurance is part of the history of financial technology. And this brings me to the concept of the welfare state, which is that private insurance eventually came up against a problem, a notion of optimization, where we say to ourselves, if we offer health insurance to people who are healthy, they may have less interest in paying the premium because they say to themselves, "I'm healthy, I won't get sick On the other hand, people who know they're sick will certainly want to subscribe.
+So insurance is part of the history of financial technology. And this brings me to the concept of the welfare state, which is that private insurance eventually came up against a problem, a notion of optimization, where we say to ourselves, if we offer health insurance to people who are healthy, they may have less interest in paying the premium because they say to themselves, "I'm healthy, I won't get sick". On the other hand, people who know they're sick will certainly want to subscribe.
 
 
-And so you're going to have an imbalance between the number of sick people who will take out health insurance, as opposed to healthy people who may take out less. So there's a sort of imbalance, and if you had calculated the figures, they wouldn't balance out because you probably wouldn't be able to insure enough healthy people to take out your insurance. In economics, this is the concept of **moral hazard**.
+This creates an imbalance between the number of sick people who will take out health insurance, as opposed to healthy people who may take out less. So there's a sort of imbalance, and if you calculate the figures, they wouldn't balance out because you probably wouldn't be able to insure enough healthy people to offset the costs. In economics, this is the concept of **moral hazard**.
 
 
 One of the ideas that's been put forward is to make insurance compulsory. If everyone is obliged to contribute, it rebalances the whole thing and both healthy and unhealthy people will contribute, distributing the risks to the largest population.
 
 
-And so, in many parts of the world, the state has said, well, we'll take care of that. And I imagine, I'm not an expert on this issue, but I can see that this same reasoning is probably applied to all sorts of other forms of insurance, such as unemployment insurance. We see a desire to simplify and optimize, we think it will be simpler if there's just one organization to take care of it.
+And so, in many parts of the world, the state has said, "Well, we'll take care of that". While I'm not an expert on this issue, I can see that this same reasoning is probably applied to all sorts of other forms of insurance, such as unemployment insurance. There is a desire to simplify and optimize, based on the thinking that it will be simpler if there's just one organization to take care of it.
 
 
-So I think this led, in my opinion, to a centralization of all these insurance concepts, leading to the birth of the welfare state, where all these financial concepts that were originally private enterprises, private initiatives to meet an insurance market need to distribute risk among the population, were seized upon by the state for reasons that are probably quite logical in relation to moral hazard and the desire to optimize.
+In my opinion, this led to a centralization of all these insurance concepts, and ultimately to the birth of the welfare state, where all these financial concepts that were originally private enterprises, private initiatives to meet an insurance market need to distribute risk among the population, were seized upon by the state for reasons that are probably quite logical in relation to moral hazard and the desire to optimize.
 
 
 ### Alternative models and reflections on state monopolies
 
 
-And in the end, in some countries like Canada, we end up with several types of insurance - health insurance, unemployment insurance - that are state monopolies.
+Ultimately, in some countries like Canada, we end up with several types of insurance - health insurance, unemployment insurance - that are state monopolies.
 
 
-I can give you an example I know. I know that in Switzerland it's a bit different.
+I can give you an example I know. In Switzerland, the system is a bit different.
 
-In Switzerland, there are private mutual insurance companies, private hospitals and so you can choose your mutual insurance company, you can choose your package within your mutual insurance company and you have relatively universal services, even if a large part of this system remains private.
+In Switzerland, there are private mutual insurance companies and private hospitals, so you can choose your mutual insurance company, you can choose your package within your mutual insurance company. You still get relatively universal services, even if a large part of this system remains private.
 
 
-So I think it's possible that it's also privately operated. But everything I wanted to describe to you, in fact, is not a statement to express whether one system is better than the other, it was rather to explain to you that in reading about the history of finance, I realized why in the West, particularly in France, particularly in Canada, the State wanted to take control of its financial principles.
+So I think it's possible that it's also privately operated. But everything I wanted to describe to you, in fact, is not a statement to express whether one system is better than the other, it was rather to explain to you that in reading about the history of finance, I realized why in the West, particularly in France, particularly in Canada, the State wanted to take control of these financial principles.
 
 
 The point I wanted to make is that the concept of insurance is first and foremost an evolution of finance, and as governments are sometimes so good at doing, they will try to take control of it, just as they have tried to take control of money, for several reasons. One reason, incidentally, is the concept of the lender of last resort.
 
 
-It's much better if there's a big institution behind it that distributes the risk more widely. That was the initial initiative where, if I go back to this notion of lender of last resort, where this institution could actually choose those that are strong enough to survive, we're going to prevent them from collapsing by lending them money.
+The idea is that it's much better if there's a big institution behind it that distributes the risk more widely. That was the initial initiative behind the notion of lender of last resort, where this institution could actually choose institutions that were strong enough to survive and prevent them from collapsing by lending them money.
 
 
-At the time, there was a real analysis when this concept finally appeared for the first time, but in the end, in fact, we save everyone, "too big to fail", it applies to almost all the banks because there is centralization, and also to all the big companies and so we see that in the end, it's still a concept that is applied "at large" by the State, a little like the concept of insurance that I've just described to you.
+At the time, there was a real analysis when this concept finally appeared for the first time, but what ended up happening is that we save everyone, "too big to fail", it applies to almost all the banks because there is centralization, and also to all the big companies. In the end, we see that it's still a concept that is applied "at large" by the State, similar to the concept of insurance that I've just described to you.
 
 
-In the end, the state decides that it's going to take care of everything, so this financial technology that was first created in Scotland to respond to a specific problem eventually leads us to this welfare state that uses its actuarial financial principles to offer services to its population in need, but I think we can agree that the notion of monopoly that arises from this leads to all sorts of problems that we're currently experiencing in Canada, that we're experiencing in France, and I think there are different models to propose, for example Switzerland.
+Ultimately, the state decides that it's going to take care of everything, turning a financial technology created in Scotland to solve a specific problem into the vast welfare state we know today. It uses actuarial financial principles to offer services to its population in need. However, we can agree that the monopolies arising from this system create all sorts of problems, which we are currently experiencing in countries like Canada and France. Fortunately, different models exist, such as the one in Switzerland.
 
 
-We simply have to realize that this concept of the welfare state emanates from finance, and that there are probably other avenues we can explore than the famous state monopolies, and I would even apply this reasoning to the concept of central banks as lenders of last resort, but that's another subject.
+We simply have to realize that this concept of the welfare state emanates from finance. This realization suggests that we can explore avenues other than the famous state monopolies, and I would even apply this reasoning to the concept of central banks as lenders of last resort - but that's a subject for another time.
 
 
 # Final section

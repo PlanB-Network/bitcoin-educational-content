@@ -2580,7 +2580,7 @@ Finally, the financial Renaissance ushered in the transition to economic moderni
 ### The historical importance of precious metals
 
 
-Welcome to this section on the emergence of reserve currencies and central banks. As the first point of this new section, we're going to focus on the evolution of reserves, currencies, excuse me, global reserves.
+Welcome to this section on the emergence of reserve currencies and central banks. As the first point of this new section, we're going to focus on the evolution of global reserve currencies.
 
 
 Precious metals, especially gold and silver, have long been considered the basis of wealth and power in empires. The thirst for gold has always been a dominant driving force, and it was the influx of precious metals that had the most direct and obvious effect on monetary developments in Europe. In medieval and early Renaissance times, this obsession with gold and silver was due to the difficulty of retaining value in other forms of merchandise, as well as to the strong demand from foreign powers, particularly in trade with the Orient.
@@ -2603,7 +2603,7 @@ Over the centuries, several empires have succeeded one another as global economi
 
 
 
-**Portugal** dominated world trade in the second half of the 15th and early 16th centuries, with the **Portuguese Real**. This was a silver coin of relatively uniform weight. The Portuguese, thanks to their advances in navigation, found new sea routes to Africa, Asia and the New World. Military forts and trading posts multiplied from Africa to China (Macau).
+**Portugal** dominated world trade in the second half of the 15th and early 16th centuries, with the **Portuguese Real**, a silver coin of relatively uniform weight. The Portuguese, thanks to their advances in navigation, found new sea routes to Africa, Asia, and the New World. Military forts and trading posts multiplied from Africa to China (Macau).
 
 
 In response to Europe's thirst for gold and silver, "the constant motivation for the great discoveries was commercial profit and, above all, the quest for gold and silver". However, the Portuguese Empire, overextended and facing competition from the Dutch, English, and French, went into decline.
@@ -2612,20 +2612,20 @@ In response to Europe's thirst for gold and silver, "the constant motivation for
 ![](./assets/fr/5_1_Real_Portugais.webp)
 
 
-Here's an artefact, a half-Real presto from the time of these Maritime conquests.
+Here's an artifact, a half-Real presto from the time of these Maritime conquests.
 
 
 ### The Spanish apogee and the Spanish Dollar (1535-17th century)
 
 
 
-With the conquest of the New World, **Spain** became the dominant player. Its monarch, controlling gigantic silver mines (Potosí in Bolivia, Zacatecas in Mexico), succeeded in minting money in pure silver, thus avoiding depreciating his own: the **Spanish Real.**
+With the conquest of the New World, **Spain** became the dominant player. Its monarch, controlling gigantic silver mines (Potosí in Bolivia, Zacatecas in Mexico), succeeded in minting money in pure silver, thus avoiding depreciating his own currency: the **Spanish Real.**
 
 
 ![](./assets/fr/5_1_Dollar_Espagnol.webp)
 
 
-The Spanish real, also known as the "piece of eight". It got its nickname because it was often cut into eighths to create smaller coins. It's also known as the **Spanish dollar**. The coin you see here dates from 1814, so it's a slightly more recent example. The very first Spanish dollar coins, however, weren't quite as perfect: they were hammer-struck, much less round and crisp.
+The Spanish real, also known as the "piece of eight", got its nickname because it was often cut into eighths to create smaller coins. It was also known as the **Spanish dollar**. The coin you see here dates from 1814, so it's a slightly more recent example. The very first Spanish dollar coins, however, weren't quite as perfect: they were hammer-struck, much less round and crisp.
 
 
 What's really interesting is that the Spanish dollar was the international reserve currency at the time. The Spanish authority also had its own local currency, the maravedi, and to adjust the money supply, it carried out regular recalls. For example, a copper or bronze coin initially worth one maravedi might be recalled and stamped with a "2", then later with a "4", and so on up to "8". In the high-resolution photo, you can clearly see an "8" stamped in. It's a way of making the money supply grow... and inevitably, it created inflation.
@@ -2637,7 +2637,7 @@ What's really interesting is that the Spanish dollar was the international reser
 If we look at the history of reserve currencies, an interesting point emerges: empires didn't inflate their currencies as long as they retained their reserve currency status. **It was only at the end of their domination that they ended up devaluing it, losing this privilege, which was then passed on to a new empire**.
 
 
-In Spain, the Spanish dollar dominated world trade for almost 200 years, particularly between China and Europe. These coins could even be found in Chinese ports. And that's where we get a wink to history: the American dollar comes directly from this currency. When the United States was formed in 1792, it passed a law to mint its own currency, and its first dollars were created on the model of the Spanish dollar, both in name and coin size.
+In Spain, the Spanish dollar dominated world trade for almost 200 years, particularly between China and Europe. These coins could even be found in Chinese ports. And that's where we get a wink from history: the American dollar comes directly from this currency. When the United States was formed in 1792, it passed a law to mint its own currency, and its first dollars were created on the model of the Spanish dollar, both in name and coin size.
 
 
 To give you an idea of its value, an American dollar was originally a silver coin weighing almost an ounce, or between €30 and €40 in today's money, unlike the paper currency we know today. As for the Spanish dollar, it circulated so widely that it is considered the first true global currency.
@@ -2652,7 +2652,7 @@ Subsequently, Spain faced numerous military conflicts (Flanders, Netherlands, Th
 ### The Dutch rise (17th century)
 
 
-After the Iberian apogee, **the Netherlands** emerged as a new commercial power in the 17th century. Maritime trade, the VOC (Dutch East India Company) and the founding of the **Amsterdam Stock Exchange** (inspired by the one in Antwerp) established this merchant republic as a hub.
+After the Iberian apogee, **the Netherlands** emerged as a new commercial power in the 17th century. Maritime trade, the VOC (Dutch East India Company), and the founding of the **Amsterdam Stock Exchange** (inspired by the one in Antwerp) established this merchant republic as a hub.
 
 
 ![](./assets/fr/5_1_gulden.webp)
@@ -2672,7 +2672,7 @@ The Dutch invented modern capitalism, which began as a means of distributing ris
 Dutch currency, the **Gulden**, gained credibility thanks to its purity in silver, and then to its adoption by the Bank of Amsterdam (1609), where deposits became a preferred form of money in Europe. This is a very important point to mention. Yes, of course there were coins, but what really constituted money in those days was a form of scriptural money. In fact, much of the world's trade passed through the books of the Bank of Amsterdam. This was a real banking breakthrough: international trade was no longer necessarily conducted with physical coins, but directly through the bank's accounting records.
 
 
-This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. There's an interesting character to mention. At this time, a certain **Thomas Gresham** worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous **"Gresham Law"**.
+This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. There's an interesting character to mention: **Thomas Gresham**. At this time, he worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous **"Gresham Law"**.
 
 
 Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with England, the dilution of the gulden in times of conflict, and competition from other powers (France and England) signaled the end of Dutch hegemony. After the Fourth Anglo-Dutch War (1780-84), the decline of the gulden as a reserve currency became irreversible.
@@ -2681,13 +2681,13 @@ Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with Engla
 ### French power, ambitions and failures (17th-18th centuries)
 
 
-Under Louis XIV, **France** became the greatest continental power in Europe. However, the French currency never achieved the status of a dominant reference: numerous devaluations, heavy taxation, costly wars (the League of Augsburg, the War of the Spanish Succession, etc.) weighed heavily on the stability of the monetary system.
+Under Louis XIV, **France** became the greatest continental power in Europe. However, the French currency never achieved the status of a dominant reference: numerous devaluations, heavy taxation, and costly wars (the League of Augsburg, the War of the Spanish Succession, etc.) weighed heavily on the stability of the monetary system.
 
 
-The first major experiment in paper money was conducted by a certain John Law (1716-1720). The Banque Générale issued bills backed by promises of government debt. This scheme led to a speculative bubble and collapse (the Mississippi Bubble) in 1720. This disaster left France with a lasting distrust of paper money. It was this disastrous experience that led Richard Cantillon to become wealthy thanks to this system of stating principles, now known as the Cantillon effect, where money printing enriches those with access to the printing press.
+The first major experiment in paper money was conducted by John Law (1716-1720). The Banque Générale issued bills backed by promises of government debt. This scheme led to a speculative bubble and collapse (the Mississippi Bubble) in 1720. This disaster left France with a lasting distrust of paper money. It was this disastrous experience that led Richard Cantillon to become wealthy thanks to this system of stating principles, now known as the Cantillon effect, where money printing enriches those with access to the printing press.
 
 
-When this mistrust finally faded, another French paper fiasco: revolutionary **assignats**. Issued from 1790 onwards based on the confiscation of clergy property. These assignats experienced galloping hyperinflation, making them officially the first hyperinflation in history to exceed 50% per month. In 1795, although their face value had been multiplied, they were trading at just a few percent of their initial value.
+When this mistrust finally faded, another French paper fiasco: revolutionary **assignats**. Issued from 1790 onwards based on the confiscation of clergy property, these assignats experienced galloping hyperinflation, making them officially the first hyperinflation in history to exceed 50% per month. In 1795, although their face value had been multiplied, they were trading at just a few percent of their initial value.
 
 
 More restrictive laws sought to impose the assignat, but without success. The government tried to impose it, going so far as to threaten those who didn't accept it with death, and forcing shopkeepers to stay open. But of course, in the end, it didn't work.
@@ -2696,7 +2696,7 @@ More restrictive laws sought to impose the assignat, but without success. The go
 ![](./assets/fr/5_1_assignat.webp)
 
 
-As this paper money wiped out all the good precious metal coinage, in accordance with that famous Gresham's Law, they found themselves with a coin shortage, and to mint coins they used bell metal seized from the clergy. Here's a beautiful piece of bell metal minted from this recovered copper, by melting down the coins seized from the clergy.
+As this paper money wiped out all the good precious metal coinage, in accordance with that famous Gresham's Law, they found themselves with a coin shortage. To mint coins, they used bell metal seized from the clergy. Here's a beautiful piece of bell metal minted from this recovered copper, by melting down the coins seized from the clergy.
 
 
 ![](./assets/fr/5_1_cloche.webp)
@@ -2717,10 +2717,10 @@ The **Industrial Revolution** and the adoption of a **Gold Standard** (1717 or 1
 However, the First World War (1914-1918) put an end to this system. Within weeks, all the major warring powers suspended gold convertibility. The British Empire, and later the pound, emerged from the Second World War in a weakened state, giving way to the American dollar in the 20th century.
 
 
-And as an artefact, here I have some beautiful and interesting pieces. Actually, they're monetary weights. This one is the sovereign. So, the earliest representations of the pound are sovereigns. I only have money weights to represent these coins because I can't afford to buy a real sovereign. So, to weigh them, we had the scales, then we put the monetary weight of the sovereign's equivalent.
+And as an artefact, I have some beautiful and interesting pieces here. These are monetary weights. This one is the sovereign. So, the earliest representations of the pound are sovereigns. I only have money weights to represent these coins because I can't afford to buy a real sovereign. To weigh them, we used scales and then placed the monetary weight equivalent to the sovereign's value on the other side.
 
 
-And this, the sovereigns, was a monetary coin, a gold coin originally worth one pound. And preceding this famous sovereign was the Guinea, the same principle, a coin. The Guinea was so named because the precious metals it contained came from this country, Guinea.
+And this, the sovereign, was a monetary coin - a gold coin originally worth one pound. Preceding this famous sovereign was the Guinea, based on the same principle. The Guinea was so named because the precious metals it contained came from the region of Guinea.
 
 
 
@@ -2736,7 +2736,7 @@ And this, the sovereigns, was a monetary coin, a gold coin originally worth one 
 
 :::video id=7661b7b5-e00f-48f3-b69a-6fb2eb5ebba4:::
 
-Following on from this section on the history of the first reserve currencies, and the evolution of reserve currencies, here's a segment on the emergence of central banks. It follows much the same path as the emergence of reserve currencies, but focuses a little more on the banking technologies of the time.
+Following on from this section on the history of the first reserve currencies and their evolution, here's a segment on the emergence of central banks. It follows much the same path as the emergence of reserve currencies, but focuses a little more on the banking technologies of the time.
 
 
 ### The beginnings of banks and proto-banks
@@ -2744,7 +2744,7 @@ Following on from this section on the history of the first reserve currencies, a
 As early as the 13th century, Italians (Florence, Genoa, Venice...) developed double-entry accounting techniques. Later, **Antwerp** (16th c.) became Northern Europe's leading financial center, a role that was later taken over by **Amsterdam**, thanks to the Amsterdam Stock Exchange (1609), where VOC shares were traded.
 
 
-Antwerp had merchant fairs where merchants often met to settle debts. At the time, new financial instruments were invented. This one is a little more recent, 1761, but this is a **promissory note**. You can see that it's handwritten, and you can see that there are inscriptions on the back. It's a magnificent artifact of the period.
+Antwerp had merchant fairs where merchants often met to settle debts. New financial instruments were invented at the time. This one is a little more recent, 1761, but this is a **promissory note**. You can see that it's handwritten, and you can see that there are inscriptions on the back. It's a magnificent artifact of the period.
 
 
 ![](./assets/fr/5_2_Billet_a_ordre.webp)

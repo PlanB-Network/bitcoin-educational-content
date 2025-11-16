@@ -498,7 +498,7 @@ The Incas had no monetary system, but they did have an abundance of precious met
 
 In China, coins were developed with a completely different approach to Western traditions. It was fiat money from the start. They were cast coins.
 
-And here, Mr. Davies mentions trade. There were indeed exchanges between the Chinese and other populations at certain times, but the intermediary of exchange for foreign trade was rather silk. As we'll see later, gold was also used in China's frontier regions, where the Chinese population was smaller. And not even for international trade; for that, it was silk.
+And here, Mr. Davies mentions trade. There were indeed exchanges between the Chinese and other populations at certain times, but the medium of exchange for foreign trade was rather silk. As we'll see later, gold was also used in China's frontier regions, where the Chinese population was smaller. And not even for international trade; for that, it was silk.
 
 
 So, I imagine that perhaps for the format of the coins, they may have been influenced by other civilizations of the same era that developed this technology.
@@ -642,7 +642,7 @@ By the 5th and 4th millennia BC, Egypt was already experiencing intense commerci
 With the emergence of the first Egyptian chiefdoms around 3650-3400 BC, the site of Maadi, south of present-day Cairo, became a major center for copper technology and long-distance trade, notably with Mesopotamia via the Syrian coast.
 
 
-Although large-scale trade was mainly based on barter, a primitive form of money ("paleo-currency"), made up of prestige items such as semi-precious stones and fossil shells, probably existed. Gold probably already played an important role in these exchanges. The first explicit mention of a coin in Egyptian documents in the middle of the 3rd millennium BC reflects a long maturation linked to commercial practices.
+Although large-scale trade was mainly based on barter, a primitive form of money ("paleo-currency"), made up of prestige items such as semi-precious stones and fossil shells, probably existed. Gold probably already played an important role in these exchanges. The first explicit mention of a coin in Egyptian documents in the middle of the 3rd millennium BC reflects a long development linked to commercial practices.
 
 
 In archaic society (here we're not necessarily talking about Egypt, but archaic societies in general), payments were frequent, not to buy directly, but to pay dowries, religious rituals, and other social obligations. These transactions required precise pricing and valuation. Many primitive societies had privileged, monetiform (i.e. countable) objects, in terms of which this value was estimated. If you're paying a dowry, of course, you have to note down some quantity of an object to be exchanged to pay the dowry. This value is essentially that of people.
@@ -870,7 +870,7 @@ To discourage the use of  money, Sparta employed **heavy, impractical metal bars
 ### The Limits of the Anti-Monetary Model
 
 
-The Spartan organization illustrates the constraints of **Dunbar's number** applied to the societal scale. **By rejecting money as a neutral intermediary of exchange, Sparta condemned itself to limiting its civic society to a limited number of citizens capable of maintaining relations of direct trust**. The homoioi (Spartan citizens) represented just 1% of the total population, surrounded by thousands of hilotes (slaves).
+The Spartan organization illustrates the constraints of **Dunbar's number** applied to the societal scale. **By rejecting money as a neutral medium of exchange, Sparta condemned itself to limiting its civic society to a limited number of citizens capable of maintaining relations of direct trust**. The homoioi (Spartan citizens) represented just 1% of the total population, surrounded by thousands of hilotes (slaves).
 
 
 This organization, initially a source of exceptional military cohesion, proved to be structurally fragile. **The Battle of Leuctres (371 BC) demonstrated the limits of this system**: the loss of life irreparably shattered the Spartan social fabric, leading to the collapse of their civilizational model.
@@ -1688,7 +1688,7 @@ Note that this vision resembles that of commodity money theory, but goes one ste
 In response, they'll give us the example of the locker room coupon. They'll say: "Yes, but no, when you have a locker room coupon for your garment, can we call the cash register coupon a garment?
 
 
-Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a locker room coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment; it's a mode, a means of exchange, an intermediary of exchange, or a generally accepted means of payment**.
+Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a locker room coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment; it's a mode, a means of exchange, a medium of exchange, or a generally accepted means of payment**.
 
 
 So you can't draw a parallel between a locker room coupon and a fiat currency bill, since the locker room coupon allows you to obtain a particular good in exchange, it's a token that allows you to retrieve your good. Whereas a banknote, fiat currency, is a universal coupon that allows you access to any good.

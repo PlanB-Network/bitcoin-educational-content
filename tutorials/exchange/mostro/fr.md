@@ -7,7 +7,7 @@ description: Plateforme d'échange Bitcoin P2P sans KYC via Lightning et Nostr
 
 Comment acquérir ou vendre des bitcoins sans compromettre sa souveraineté financière ? Les plateformes centralisées imposent des procédures KYC invasives exposant vos données personnelles, avec possibilités de gel arbitraire de comptes ou de surveillance étatique.
 
-**Mostro P2P** propose une alternative décentralisée combinant Lightning Network, protocole Nostr et hold invoices. Son innovation majeure : un système d'escrow automatisé où vos bitcoins restent sous votre contrôle durant tout l'échange, éliminant les risques de vol, faillite d'exchange ou confiscation arbitraire.
+**Mostro P2P** propose une alternative décentralisée combinant Lightning Network, protocole Nostr et hold invoices. Son innovation majeure : un système d'escrow automatisé où vos bitcoins restent sous votre contrôle durant tout l'échange, éliminant les risques de vol, faillite d'échangeur ou confiscation arbitraire.
 
 ## Qu'est-ce que Mostro P2P ?
 
@@ -326,7 +326,7 @@ mostro-cli fiatsent -o 305a59d0-dbee-4880-9b9a-44a60486ba4a
 
 ### Étape 8 : Réception des bitcoins
 
-Dès que le vendeur confirme réception du fiat et libère l'escrow avec la commande `release`, vous recevez instantanément vos bitcoins sur la Lightning invoice que vous aviez fournie.
+Dès que le vendeur confirme la réception du fiat et libère l'escrow avec la commande `release`, vous recevez instantanément vos bitcoins sur la Lightning invoice que vous aviez fournie.
 
 ### Étape 9 : Évaluation
 
@@ -362,8 +362,8 @@ Cette section démontre la vente de bitcoins via Mostro Mobile en suivant un cas
 L'application comporte 3 onglets principaux :
 
 - **Order Book** : Parcourez les ordres d'achat (BUY BTC) et de vente (SELL BTC) disponibles
-- **My Trades** : Consultez vos ordres actifs et historique
-- **Chat** : Communiquez avec vos contreparties de manière chiffrée
+- **My Trades** : Consultez vos ordres actifs et l'historique
+- **Chat** : Communiquez avec vos cocontractants de manière chiffrée
 
 ![Interface principale](assets/fr/14.webp)
 
@@ -391,7 +391,7 @@ Remplissez le formulaire de création :
 2. **Amount** : Entrez le montant en fiat (ex: 1 à 3 EUR)
 3. **Payment methods** : Choisissez la méthode (ex: "Revolut")
 4. **Price type** : Sélectionnez "Market Price" (prix du marché)
-5. **Premium** : Ajustez la prime (slider de -10% à +10%, recommandé : 0% pour vendre rapidement)
+5. **Premium** :  Ajustez la prime (curseur de -10 % à +10 %, recommandé : 0 % pour vendre rapidement)
 
 Appuyez sur **Submit** pour publier votre ordre.
 
@@ -409,9 +409,9 @@ Lorsqu'un acheteur prend votre ordre, vous recevez une notification. Consultez l
 
 ![Ordre pris par un acheteur](assets/fr/19.webp)
 
-**Instruction importante** : Vous devez maintenant **payer la hold invoice** affichée pour verrouiller vos bitcoins (ici 4674 sats pour 1-5 EUR) dans l'escrow. Vous avez **15 minutes maximum** sinon l'échange sera annulé.
+**Instruction importante** : Vous devez maintenant **payer la hold invoice** affichée pour verrouiller vos bitcoins (ici, 4674 sats pour 1-5 EUR) dans l'escrow. Vous avez **15 minutes maximum** sinon l'échange sera annulé.
 
-Copiez la hold invoice et payez-la depuis votre wallet Lightning (Phoenix, Breez, etc.).
+Copiez la hold invoice et payez-la depuis votre portefeuille Lightning (Phoenix, Breez, etc.).
 
 ### Étape 4 : Communiquer avec l'acheteur
 
@@ -450,12 +450,12 @@ L'échange est terminé !
 
 ### Acheter des bitcoins avec l'app mobile
 
-Le processus pour **acheter** des bitcoins est similaire mais inversé :
+Le processus pour **acheter** des bitcoins est similaire, mais inversé :
 
 1. Parcourez l'onglet **Order Book** > **BUY BTC** pour voir les ordres de vente
 2. Appuyez sur un ordre intéressant et consultez les détails
 3. Appuyez sur **Take Order**
-4. Fournissez votre Lightning invoice (générée depuis votre wallet)
+4. Fournissez votre Lightning invoice (générée depuis votre portefeuille)
 5. Attendez que le vendeur active l'escrow
 6. Contactez le vendeur via **CONTACT** pour obtenir ses coordonnées de paiement
 7. Envoyez le paiement fiat (conservez les preuves)
@@ -465,7 +465,7 @@ Le processus pour **acheter** des bitcoins est similaire mais inversé :
 
 ### Gestion des problèmes
 
-**Annuler un ordre** : Dans **My Trades**, appuyez sur votre ordre puis sur le bouton **CANCEL** (disponible uniquement avant qu'il soit pris).
+**Annuler un ordre** : Dans **My Trades**, appuyez sur votre ordre puis sur le bouton **CANCEL** (disponible uniquement avant qu'il ne soit déclenché).
 
 **Ouvrir un litige** : Si un désaccord survient, appuyez sur **DISPUTE** dans les détails de l'ordre. Joignez toutes les preuves (captures d'écran du chat, références de transaction bancaire).
 
@@ -473,7 +473,7 @@ Le processus pour **acheter** des bitcoins est similaire mais inversé :
 
 ### Avantages
 
-**Souveraineté financière** : Vos bitcoins ne quittent jamais votre contrôle direct grâce au mécanisme de hold invoice, éliminant les risques de faillite d'exchange ou piratage.
+**Souveraineté financière** : Vos bitcoins ne quittent jamais votre contrôle direct grâce au mécanisme de hold invoice, éliminant les risques de faillite d'échangeur ou piratage.
 
 **Résistance à la censure** : Aucune autorité ne peut fermer le réseau ou censurer vos ordres. Le système fonctionne tant qu'il existe des relais Nostr opérationnels.
 
@@ -493,9 +493,9 @@ Le processus pour **acheter** des bitcoins est similaire mais inversé :
 
 ## Conclusion
 
-Mostro P2P représente une alternative prometteuse aux exchanges centralisés, combinant Lightning Network, Nostr et escrow automatisé pour des échanges véritablement décentralisés. Malgré son développement précoce et sa liquidité limitée, la plateforme offre déjà souveraineté financière, résistance à la censure et anonymat par défaut.
+Mostro P2P représente une alternative prometteuse aux échangeurs centralisés, combinant Lightning Network, Nostr et escrow automatisé pour des échanges véritablement décentralisés. Malgré son développement précoce et sa liquidité limitée, la plateforme offre déjà souveraineté financière, résistance à la censure et anonymat par défaut.
 
-Pour les bitcoiners privilégiant autonomie et confidentialité, Mostro constitue une option viable méritant exploration progressive. Son architecture décentralisée garantit une évolution communautaire plutôt que commerciale, ouvrant la voie à un futur d'échanges Bitcoin véritablement libres.
+Pour les bitcoiners privilégiant autonomie et confidentialité, Mostro constitue une option viable méritant une exploration progressive. Son architecture décentralisée garantit une évolution communautaire plutôt que commerciale, ouvrant la voie à un futur d'échanges Bitcoin véritablement libres.
 
 ## Ressources
 

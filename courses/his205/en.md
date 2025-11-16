@@ -498,7 +498,7 @@ The Incas had no monetary system, but they did have an abundance of precious met
 
 In China, coins were developed with a completely different approach to Western traditions. It was fiat money from the start. They were cast coins.
 
-And here, Mr. Davies mentions trade. There were indeed exchanges between the Chinese and other populations at certain times, but the intermediary of exchange was rather silk for foreign trade. As we'll see later, gold was also used in China's frontier regions, where the Chinese population was smaller. And not even for international trade, for that it was silk.
+And here, Mr. Davies mentions trade. There were indeed exchanges between the Chinese and other populations at certain times, but the intermediary of exchange for foreign trade was rather silk. As we'll see later, gold was also used in China's frontier regions, where the Chinese population was smaller. And not even for international trade; for that, it was silk.
 
 
 So, I imagine that perhaps for the format of the coins, they may have been influenced by other civilizations of the same era that developed this technology.
@@ -517,13 +517,13 @@ We can also speak of Sargon of Akkad, who reigned from 2334 to 2279 BC.
 He was the first ruler of the Akkadian Empire, which is another civilization that emerged in Mesopotamia. And I mention Sargon because he was the first to establish a postal service for these famous tablets here, which I've already introduced to you.
 
 
-Imagine that there really were even clay envelopes. The tablets could be wrapped in clay envelopes with the person's signature on the outside, to ensure confidentiality. So people would break open the envelope to retrieve the tablet. We owe this postal system to Sargon of Akkad.
+Imagine that there really were even clay envelopes. The tablets could be wrapped in clay envelopes with the person's signature on the outside to ensure confidentiality. So people would break open the envelope to retrieve the tablet. We owe this postal system to Sargon of Akkad.
 
 
 Then there's Babylon, the great city that became the capital of the Babylonian Empire. Another civilization, renowned for its imposing Ziggurat and palaces, and the famous Code of Hammurabi, best known for its highly advanced legal code.
 
 
-And two cities to conclude this section. We have Ashur, which was the capital of the Assyrian Empire, an important religious center. And we have Nineveh, which was later the capital of the Assyrian Empire. They moved their capital there and it's known for its powerful army, vast palaces and libraries. And it's also one of the possible locations of the legendary Hanging Gardens of Babylon. We often hear this famous wonder of the ancient world.
+And two cities to conclude this section. We have Ashur, which was the capital of the Assyrian Empire, an important religious center. And we have Nineveh, which was later the capital of the Assyrian Empire. They moved their capital there and it's known for its powerful army, vast palaces and libraries. And it's also one of the possible locations of the legendary Hanging Gardens of Babylon. We often hear of this famous wonder of the ancient world.
 
 But there's no trace of these famous hanging gardens in Babylon. In Nineveh, on the other hand, there is archaeological evidence of gardens on several storeys. It's possible that Greek historians such as Herodotus confused Nineveh with Babylon. When they visited cities in Mesopotamia, perhaps they referred to it as Babylon. Traces of famous hanging gardens have been found in Nineveh, and scholars may wonder whether Nineveh is the famous place where these gardens were located, referred to as the Babylonian Hanging Gardens.
 
@@ -556,7 +556,7 @@ Large landholdings dominated the economy. Landowners exploited their land direct
 The loans taken out by farmers were not intended for productive investment - with the exception of shipping companies - but rather to ensure their survival until the next harvest. This situation frequently led to chronic indebtedness of the farmers.
 
 
-I allow myself to draw a parallel here with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented oriented towards of profit through trade and crafts.
+I allow myself to draw a parallel here with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented towards of profit through trade and crafts.
 
 
 So what we're trying to say here is that I'm drawing a parallel with the fact that people used financial lending tools not necessarily to improve their means of production, and later in Rome, profits were not necessarily reinvested, but rather used to increase the prestige of the people who could benefit from these profits. We're still a long way from the capitalist spirit that emerged later in the Middle Ages, when jobs could be created to improve the means of production, and surpluses were taken and created in the pursuit of profit. So we can see that economic organization had not yet reached the third stage of the economic evolutions listed above.
@@ -592,7 +592,7 @@ The transition to a wage labor market was a difficult one. It required two major
 Finally, from the 26th century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** A little like the example of Kanesh, where silver metal was received for hoarding.
 
 
-From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. "Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough, we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
+From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. "Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough; we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
 
 
 We can't ignore the empirical data present in Near Eastern archives attesting to the existence of **some market mechanisms**, incorporating **notions of profit** and **loss**, **price fluctuations** and situations of **scarcity**. But the fundamental difficulty lies in determining the relative importance of market-based exchange within the ancient Mesopotamian economy as a whole.
@@ -624,7 +624,7 @@ This section is dedicated to the economic and monetary organization of ancient E
 
 - **Old Kingdom (c. 2575 - c. 2130 BC)**. A period marked by the construction of the great pyramids, notably those of Giza. This was the golden age of the centralized Egyptian monarchy.
 - **Middle Kingdom (c. 1938 - c. 1630 BC)**. Political and cultural renaissance after a period of instability.
-- **New Kingdom (c. 1539 - 1075 BC)**. A period of territorial expansion, military power and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
+- **New Kingdom (c. 1539 - 1075 BC)**. A period of territorial expansion, military power, and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
 - **1323 BC. - Death of Tutankhamun**. The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
 - **Ramses II - Reigned 1279-1213 BC**. One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
 - **1275 BC - Sea Peoples**. Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
@@ -657,7 +657,7 @@ Returning to Egypt, during the ancient empire, the "shât(y)", originally a conc
 This notion of shât(y) was eventually abandoned, perhaps because of the risk of fraud. We'll see later that the Egyptians were slow to adopt stamped coins and even continued to weigh them, even after they had been adopted by their neighbors.
 
 
-In the Middle Ages, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was during this period that a form of scriptural money appeared, where payments could be recorded in writing, or by actual transfer.
+In the Middle Kingdom, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was during this period that a form of scriptural money appeared, where payments could be recorded in writing, or by actual transfer.
 
 
 In the New Kingdom, the monetary system became more complex, integrating different commodity currencies valued in metals (gold, silver, copper), standardized fabrics, cereals and oil. Fabrics were referred to as "cloth measures". **Prices for everyday goods were often expressed in grain or copper, while precious objects were valued in gold or silver. Silver, which was rarer in Egypt than gold, became particularly prized.** Silver was overvalued compared to gold, which was more abundant in Egypt.
@@ -779,10 +779,10 @@ In China, coins did not necessarily need to be officially marked or guaranteed. 
 ![](./assets/fr/1-2-3_chine.webp)
 
 
-This is a Chrine coin from the Middle Ages. It's a cast coin with a square hole in the middle. It was used to thread a rope through and then make bracelets or necklaces, but not necessarily for wearing, it was more for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
+This is a Chinese coin from the Middle Ages. It's a cast coin with a square hole in the middle. It was used to thread a rope through and then make bracelets or necklaces, but not necessarily for wearing, it was more for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
 
 
-The state's monetary monopoly, belatedly established by Wudi des Han in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
+The state's monetary monopoly, belatedly established by Wudi of the Han in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
 
 
 **The low intrinsic value of Chinese currencies prevented hoarding, guaranteeing their smooth circulation**. Indeed, precious metals were rarely used as current currency, to avoid hoarding. They didn't want to use gold because it was too expensive, so it was hoarded. That was the concept. **Only silk represented a real high-value currency in Chinese international trade**. The Chinese traded with silk, not gold.
@@ -828,7 +828,7 @@ This vision was echoed in the collapse of the Roman Empire: when territorial exp
 An alternative economic reading challenges this parasitic vision. **Ancient cities functioned above all as centers of specialization and division of labor**. Their role went beyond simple extraction: they concentrated specialized crafts, organized trade networks, and served as hubs for long-distance exchanges.
 
 
-This urban specialization created a productive interdependence with the hinterland. **Towns could not survive without rural agricultural supplies, but the hinterland benefited in return from artisanal products, technical innovations and access to Mediterranean trade networks**. The division of labor allowed for mutual productivity gains, even if the distribution of benefits may have seemed unbalanced.
+This urban specialization created a productive interdependence with the hinterland. **Towns could not survive without rural agricultural supplies, but the hinterland benefited in return from artisanal products, technical innovations, and access to Mediterranean trade networks**. The division of labor allowed for mutual productivity gains, even if the distribution of benefits may have seemed unbalanced.
 
 
 The chronic food insecurity of the time partly explains this apparent asymmetry. The risk of famine and crop destruction was a constant threat to rural populations, while urban artisans, connected to international trade networks, enjoyed greater economic stability.
@@ -852,7 +852,7 @@ This medieval decentralization, while reducing commercial efficiency, paradoxica
 Archaeological discoveries reveal the existence of **shopping ports and trading quarters in Mesopotamian cities as early as the second millennium**. These infrastructures attest to the existence of organized markets, even if their exact functioning remains debated.
 
 
-Karl Polanyi, initially skeptical about the existence of genuine market mechanisms in antiquity, qualified his position by acknowledging that he may have underestimated the early emergence of market exchanges. This intellectual evolution reflects the complexity of interpreting ancient economic systems, where institutional redistribution, reciprocal exchange and nascent market transactions coexisted.
+Karl Polanyi, initially skeptical about the existence of genuine market mechanisms in antiquity, qualified his position by acknowledging that he may have underestimated the early emergence of market exchanges. This intellectual evolution reflects the complexity of interpreting ancient economic systems, where institutional redistribution, reciprocal exchange, and nascent market transactions coexisted.
 
 
 ### Sparta versus Athens

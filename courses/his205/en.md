@@ -958,7 +958,7 @@ To illustrate this period, here's a coin from the region of India and a coin fro
 Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 BC that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 BC. These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
 
 
-I have here one of the earliest Lydian coins, representing a kind of lion with a prey in front, and we notice that there is often a stamen, a kind of hole formed at the back. Some think that this may be to assess the purity of the metal, to avoid it being just a kind of surface layer. This is one of the first pieces. This one is obviously a copy. All my gold and electrum pieces are copies or modern recreations, to avoid spending all my savings on this collection.
+I have here one of the earliest Lydian coins, representing a kind of lion with a prey in front, and we notice that there is often a stamp, a kind of hole formed at the back. Some think that this may be to assess the purity of the metal, to avoid it being just a kind of surface layer. This is one of the first pieces. This one is obviously a copy. All my gold and electrum pieces are copies or modern recreations, to avoid spending all my savings on this collection.
 
 
 ![](./assets/fr/1-3-1_1_lydia.webp)
@@ -970,7 +970,7 @@ But I also have a real Persian piece that we're about to see. This is what these
 Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, it seems that the first Lydian, Achaemenid and Greek coins were not initially used for small-scale commerce. Indeed, the monetary units were far too large for everyday use. What's more, their circulation was limited to regions close to where they were produced.
 
 
-Here, I find it important to mention that, although I've read in several works of anthropological allegiance, the coins, as I've already shown - whether the electrum ones or this Persian coin to which I'll return in a very short while - were too big to buy bread, say, every day. I've seen estimates that would make us think it was the equivalent of a day's work for a peasant or a soldier, so it would be too big. It's like trying to pay a day's wages for your meal, your breakfast, or your lunch. Except that I've seen in other works that smaller units of these blobs have been found, so smaller coins, which may make us think that maybe there was a possible use for everyday purchases.
+Here, I find it important to mention that, although I've read in several works of an anthropological nature, the coins, as I've already shown - whether the electrum ones or this Persian coin to which I'll return in a very short while - were too big to buy bread, say, every day. I've seen estimates that would make us think it was the equivalent of a day's work for a peasant or a soldier, so it would be too big. It's like trying to pay a day's wages for your meal, your breakfast, or your lunch. Except that I've seen in other works that smaller units of these blobs have been found, so smaller coins, which may make us think that maybe there was a possible use for everyday purchases.
 
 So here, the anthropological "proof" that it wasn't used for everyday trade, because the denomination or unit was too big, isn't very solid in my opinion because we've found examples of coins that are smaller, that could have been adapted to everyday purchases.
 
@@ -990,7 +990,7 @@ Lydian coinage underwent a major evolution during the reign of the famous king C
 ### Persian expansion and Greek adoption
 
 
-When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted this innovation. Around 500 BC, under the reign of Darius I, the Persians established their own monetary system with gold darics and silver siglois, often bearing the royal effigy in warlike poses. This royal Persian coinage was mainly used in the Hellenized regions of the Persian Empire and gradually spread, although its use remained uneven, **some regions, such as Egypt, still preferred exchange in weighed metal (bullion).**.
+When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted this innovation. Around 500 BC, under the reign of Darius I, the Persians established their own monetary system with gold darics and silver siglois, often bearing the royal effigy in warlike poses. This royal Persian coinage was mainly used in the Hellenized regions of the Persian Empire and gradually spread, although its use remained uneven, with **some regions, such as Egypt, still preferred exchange in weighed metal (bullion).**.
 
 
 ![](./assets/fr/1-3-1_2_Siglos.webp)
@@ -1127,7 +1127,7 @@ Welcome to this segment dedicated to the different theories on the emergence of 
 
 > This brief preamble serves no other purpose than to highlight the context of the survey. On the conceptual level, the debate is open between the supporters of K. Polanyi's thesis and those of M. Weber. For the former, gift and redistribution play a central role, with market exchange playing only a marginal role, mainly in international exchanges. For the others, on the contrary, the market is at the heart of the current historical process.
 
-For example, in Mesopotamia, one theory of emergence suggests that the temple, as the authority, creates the unit of account or monetary unit, imposes it, and then merchants adopt it for trade. The opposite theory posits that, no, this monetary unit emerges naturally from the market to facillitate trade. There are well-sourced examples of this in Mesopotamia.
+For example, in Mesopotamia, one theory of emergence suggests that the temple, as the authority, creates the unit of account or monetary unit, imposes it, and then merchants adopt it for trade. The opposite theory posits that, no, this monetary unit emerges naturally from the market to facilitate trade. There are well-sourced examples of this in Mesopotamia.
 
 
 As for bartering, some theories suggest that it was mainly used in international exchanges, i.e., with people we simply didn't trust.
@@ -1166,7 +1166,7 @@ There are a lot of advantages to doing this - no need to check it, weigh it, all
 
 We already know that the first precious metal coins were not used to facilitate daily exchanges because their value was far too high. We also know that they were mainly used for military payments. This is a good argument for the thesis that money didn't necessarily emerge from the market. The units of account, the denominations of the first coins, were probably too large for, say, buying bread or doing daily shopping. It could, for example, be the equivalent of a day's wages. Not necessarily that people were paid wages in those days, but that's to give you an idea of the scale. So these coins probably had too much purchasing power to be used in small-scale trade. On the other hand, there's nothing to say that these coins wouldn't have been used to make larger exchanges, such as merchant exchanges. We know that they were mainly used for military payments. This is one of the most popular theories to explain the appearance of the first coins. Remember, we're talking about coins here, not necessarily about money in general. So, the first coins had their first role, and that was to pay for military payments, for mercenaries.
 
-Alexandre the Great, for example, made great use of it, as we'll see later.
+Alexander the Great, for example, made great use of it, as we'll see later.
 
 
 We've also seen that as early as ancient China, cowrie shells were used for economic exchange (**remunerating labor, measuring value and purchasing land)**. What's more, in Mesopotamia and Egypt, functional monetary systems already existed and were used for trade, wage payments and tax payments. What I'm suggesting here is that it's definitely wrong to think that coins in the Western conception emerge from the need to make exchanges more fluid.
@@ -1486,7 +1486,7 @@ It's a form of monetary premium, an overlay on the monetary premium. But its mon
 And why does this proposal for a monetary premium qualify as a unification of the two theories of debt money and commodity money? Well, I don't feel that the value of a gold coin necessarily comes from its "intrinsic value". No, in fact, it's as much a notion of confidence as it is for fiat money. It's a notion of monetary demand. And it's not really because it has a small percentage of industrial use, another "utility". If we say that industrial use is 10% of its value, we could value that at $300 per ounce. If gold sells on the market for $3,000 an ounce, the difference between $300 and $3,000 is the famous monetary premium. It's this monetary demand for gold that explains it. Just because fiat has zero use value doesn't mean it's any different. For me, it's exactly the same thing. So on both sides, the theory of debt money or commodity money, I don't think that the sort of extra quality that gold would have of having a minimal use value changes anything.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, we can propose that this use creates a demand at the origin and initiates the process that becomes money.** Whereas, at the level of debt money, it's more an imposition by an authority, so the source, the initiation of emergence, and the conepts are completely different. **But I think that at the level of value, how to explain the value of money, with the monetary premium, we can just as easily explain why fiat money has the value we attribute to it and why commodity money has the value** we attribute to it. For me, it's the same process, and it's called the money premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, we can propose that this use creates a demand at the origin and initiates the process that becomes money.** Whereas, at the level of debt money, it's more an imposition by an authority, so the source, the initiation of emergence, and the concepts are completely different. **But I think that at the level of value, how to explain the value of money, with the monetary premium, we can just as easily explain why fiat money has the value we attribute to it and why commodity money has the value** we attribute to it. For me, it's the same process, and it's called the money premium.
 
 
 #### The monetary premium
@@ -1685,13 +1685,13 @@ In this vision, money always retains a real value, as it remains linked to a tan
 Note that this vision resembles that of commodity money theory, but goes one step further. They propose that money should **always** be a commodity. And when we say to them: "*Yes, but we can agree that a banknote is money for this group; it can be backed by gold, it works, and the banknote as such is money*".
 
 
-In response, they'll give us the example of the checkroom coupon. They'll say: "Yes, but no, when you have a checkroom coupon for your garment, can we call the cash register coupon a garment?
+In response, they'll give us the example of the locker room coupon. They'll say: "Yes, but no, when you have a locker room coupon for your garment, can we call the cash register coupon a garment?
 
 
-Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a checkroom coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment; it's a mode, a means of exchange, an intermediary of exchange, or a generally accepted means of payment**.
+Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a locker room coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment; it's a mode, a means of exchange, an intermediary of exchange, or a generally accepted means of payment**.
 
 
-So you can't draw a parallel between a checkroom coupon and a fiat currency bill, since the checkroom coupon allows you to obtain a particular good in exchange, it's a token that allows you to retrieve your good. Whereas a banknote, fiat currency, is a universal coupon that allows you access to any good.
+So you can't draw a parallel between a locker room coupon and a fiat currency bill, since the locker room coupon allows you to obtain a particular good in exchange, it's a token that allows you to retrieve your good. Whereas a banknote, fiat currency, is a universal coupon that allows you access to any good.
 
 
 And in my opinion, of course, even fiat money can be considered as money if it is considered as such by the population. And I think it's a semantic error to insist that it can't be money, since it's a coupon to obtain real money, at least at the time, which was the underlying gold.
@@ -1741,7 +1741,7 @@ This paradox clearly shows the gap between these two monetary conceptions: for t
 To conclude this section on the various monetary theories, let's talk about the child prodigy of monetary theories, admired by many modern economists who work for central banks, and named modern monetary theory, often known as MMT.
 
 
-**Modern Monetary Theory (MMT)** is an economic approach that holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory :
+**Modern Monetary Theory (MMT)** is an economic approach that holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory:
 
 
 **Money is a creation of the State, not a limited resource**
@@ -2004,7 +2004,7 @@ Maintaining a fleet was at the heart of this monetary necessity. A single Atheni
 Athens imposed its silver currency on all members of the League of Delos. This monetary standardization served several strategic objectives. Firstly, it facilitated the collection of tributes by creating a common unit of account. Secondly, it reinforced the economic dependence of vassal cities on Athens. Finally, it symbolically projected Athenian power across the entire maritime empire.
 
 
-This monetary policy contrasts sharply with the Spartan model. Sparta, a land power, could rely on the labor of the Peloponnesian hilots (slaves) for its subsistence. Its closed, city-centric economic system did not require sophisticated monetary instruments. Citizen-soldiers lived together, shared common meals, and didn't need money for daily exchanges.
+This monetary policy contrasts sharply with the Spartan model. Sparta, a land power, could rely on the labor of the Peloponnesian helots (slaves) for its subsistence. Its closed, city-centric economic system did not require sophisticated monetary instruments. Citizen-soldiers lived together, shared common meals, and didn't need money for daily exchanges.
 
 
 ### Currency as a vehicle for maritime trade
@@ -2028,7 +2028,7 @@ History shows that currency, while a powerful tool for projecting power, is no g
 ### Two models, two destinies
 
 
-The opposition between Athens and Parthia illustrates two fundamental approaches to social and economic organization. Athens represents the open, commercial, monetarized model - the forerunner of modern maritime empires. Sparta embodies the closed, autarkic model, based on civic trust rather than monetary instruments.
+The opposition between Athens and Sparta illustrates two fundamental approaches to social and economic organization. Athens represents the open, commercial, monetarized model - the forerunner of modern maritime empires. Sparta embodies the closed, autarkic model, based on civic trust rather than monetary instruments.
 
 
 These two systems show that the adoption of currency is closely linked to the political and economic model chosen. For a maritime and commercial power such as Athens, money became indispensable. For a closed warrior society like Sparta, it represents a threat to social order. This ancient dichotomy still informs debates on the role of money in the organization of societies.
@@ -2095,7 +2095,7 @@ Here, we return to a concept we've already discussed with the Greeks of melting 
 ![](./assets/fr/3_2_Carthage.webp)
 
 
-As a result, the weight of bronze coins, aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary valuation due to these wars.
+As a result, the weight of bronze coins, aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary devaluation due to these wars.
 
 
 ### The silver denier and monetary stability
@@ -2152,7 +2152,7 @@ A major fire ravages much of the city; Nero is accused of being responsible.
 
 **69 A.D.: Year of the Four Emperors**
 
-A chaotic period with four emperors in quick succession (Galba, Otto, Vitellius, Vespasian).
+A chaotic period with four emperors in quick succession (Galba, Otho, Vitellius, Vespasian).
 
 
 **79 A.D.: Vesuvius eruption** 
@@ -2248,7 +2248,7 @@ And I'm taking a little break to say a few words on the subject. It was really a
 It was really Aurelian who invented this form of devaluation, which is much faster than the gradual devaluation of metal, which still forced us to print coins one by one. What he did was to take all the existing coins, recall them and stamp them with a punch to change their face value. It's a real turning point. That's when inflation became exponential.
 
 
-As a way of expressing and giving you a visual appreciation of this extreme valuation, I've found some very interesting statistics on the price of grain in Egypt from 40 BC to the 3rd century, i.e., over 300 years. For example, I have a Greek tetradrachma. There was the equivalent in Egypt at the time, an Egyptian tetradrachma under Roman occupation in the 3rd century. In Egypt, they still used the denomination drachmas and it was the equivalent of a denarius.
+As a way of expressing and giving you a visual appreciation of this extreme devaluation, I've found some very interesting statistics on the price of grain in Egypt from 40 BC to the 3rd century, i.e., over 300 years. For example, I have a Greek tetradrachma. There was the equivalent in Egypt at the time, an Egyptian tetradrachma under Roman occupation in the 3rd century. In Egypt, they still used the denomination drachmas and it was the equivalent of a denarius.
 
 
 ![](./assets/fr/3_3_egypt-tetradrachm.webp)

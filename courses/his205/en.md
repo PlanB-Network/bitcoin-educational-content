@@ -14,7 +14,7 @@ objectives:
 # A journey through the history of coinage
 
 
-This captivating course will take you on an exploration of the fascinating evolution of money from the earliest civilizations to our current monetary system. We'll cross the ages, from Neolithic to modern times, discovering how money has shaped and been shaped by the great human civilizations. From Mesopotamian proto-money to crypto-currencies, Lydian coins, the Renaissance florin, and the advent of central banking, this course offers a comprehensive perspective on one of the fundamental pillars of our societies.
+This captivating course will take you on an exploration of the fascinating evolution of money from the earliest civilizations to our current monetary system. We'll cross the ages, from Neolithic to modern times, discovering how money has shaped and been shaped by the great human civilizations. From Mesopotamian proto-money to cryptocurrencies, Lydian coins, the Renaissance florin, and the advent of central banking - this course offers a comprehensive perspective on one of the fundamental pillars of our societies.
 
 
 
@@ -34,7 +34,7 @@ This captivating course will take you on an exploration of the fascinating evolu
 Welcome to this course on the history of money. As the title suggests, we're going to explore the historical evolution of coins together. From the Neolithic era to the present day, we'll look at the major empires and civilizations of the past.
 
 
-However, this course is not limited to a simple chronology of dates or historical events. Rather, our real aim is to provide an in-depth understanding of the fundamental concepts involved in the emergence of money, or rather, CURRENCIES.
+However, this course is not limited to a simple chronology of dates or historical events. Rather, our real aim is to provide an in-depth understanding of the fundamental concepts involved in the emergence of money, or rather, currencies.
 
 
 ### Fundamental concepts to explore
@@ -471,7 +471,7 @@ Sumerian temples epitomized this tension: they used popular monetary innovations
 The Mesopotamian experience establishes lasting precedents for the evolution of financial systems. It demonstrates that **financial sophistication often precedes technological innovations by several millennia**, which are usually associated with it. The concepts of interest, credit, negotiable instruments and mortgage collateral did not wait for the invention of metallic money to develop.
 
 
-This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These fundamental questions have persisted throughout economic history, extending to contemporary debates on digital currencies and crypto-currencies.
+This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These fundamental questions have persisted throughout economic history, extending to contemporary debates on digital currencies and cryptocurrencies.
 
 
 # Economy and money in ancient civilizations
@@ -964,7 +964,7 @@ I have here one of the earliest Lydian coins, representing a kind of lion with a
 ![](./assets/fr/1-3-1_1_lydia.webp)
 
 
-But I also have a real Persian piece that we're about to see. This is what these early pieces looked like. It's like a kind of blob, or lumps in English, of metal that was stamped at the time.
+But I also have a real Persian piece that we're about to see. This is what these early pieces looked like. It's like a kind of blob, or lump in English, of metal that was stamped at the time.
 
 
 Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, it seems that the first Lydian, Achaemenid and Greek coins were not initially used for small-scale commerce. Indeed, the monetary units were far too large for everyday use. What's more, their circulation was limited to regions close to where they were produced.
@@ -996,7 +996,7 @@ When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted
 ![](./assets/fr/1-3-1_2_Siglos.webp)
 
 
-I have here a real Persian sigloi or siglos. The little design we have here represents a king with the hole a little effaced. This is a silver coin, unlike the darik, which was made of gold. So they were able to separate these two metals: they were no longer electrum coins. They separated gold and silver coins with bimetallism, but maintained the same concept of a blob of precious metal coins with a hole at the back, again, we suppose, to check the metal content.
+I have here a real Persian sigloi or siglos. The little design we have here represents a king with the hole a little effaced. This is a silver coin, unlike the daric, which was made of gold. So they were able to separate these two metals: they were no longer electrum coins. They separated gold and silver coins with bimetallism, but maintained the same concept of a blob of precious metal coins with a hole at the back, again, we suppose, to check the metal content.
 
 
 The rapid adoption of coins by the Greeks seems to have been stimulated by their close contacts with the Lydians, particularly through the Greek colonies in Asia Minor. The first Greeks to mint coins were probably the inhabitants of Aegina in the mid-sixth century BC, who introduced the drachma, whose weight varied from region to region, and whose name literally means "handful of grain" or "handful of arrows".
@@ -1412,7 +1412,7 @@ Here, Lyn refers to Bitcoin.
 
 > Some rare chemical elements, such as rhodium, are rarer than gold, but have low stock-flow ratios because they are consumed by industry as quickly as they are mined. A rhodium coin or ingot can be purchased as a specialized collectible or store of value, but is not suitable as a socially accepted currency, and so does not emerge naturally as money.
 
-Saifedean talks about this at length in his book "The Bitcoin Standard". For those unfamiliar with the stock-to-flow ratio, it's simply when you compare the existing stock, the reserves that exist in the market, compared to the new stock coming in, the influx of new stock. It's often rather counter-intuitive, because you might think that something you have in large quantities isn't scarce, but in fact it isn't. It's more a question of the capacity you have to supply it. Rather, it's the capacity we have to have new stock that, according to this model, gives us the information as to whether this object is rare or not. It's not because we don't have something in stock that it's rare, it's just maybe that we don't have it. So, if we take gold, we have a lot of gold stocks because it's used as a store of value, and the inflow of new stocks is something like 1% to 3% a year of new gold stocks coming in through gold mining. Whereas, what she's saying here, if we're talking about rhodium, it's rarer than gold, but we don't have any stock because it's consumed as it goes along. So it doesn't take a lot of new supply to double the existing stock. Whereas with gold, it would take at least 50 years to renew, to double the stock. Unlike most goods that are consumed, where it's fairly easy, and doesn't take many years of production to double the existing stock, since it's consumed as it goes along.
+Saifedean talks about this at length in his book "The Bitcoin Standard". For those unfamiliar with the stock-to-flow ratio, it's simply when you compare the existing stock, the reserves that exist in the market, compared to the new stock coming in, the influx of new stock. It's often rather counter-intuitive, because you might think that something you have in large quantities isn't scarce, but in fact it isn't. It's more a question of the capacity you have to supply it. Rather, it's the capacity we have to have new stock that, according to this model, gives us the information as to whether this object is rare or not. It's not because we don't have something in stock that it's rare, it's just maybe that we don't have it. So, if we take gold, we have a lot of gold stocks because it's used as a store of value, and the inflow of new stocks is something like 1% to 3% per year of new gold stocks coming in through gold mining. Whereas, what she's saying here, if we're talking about rhodium, it's rarer than gold, but we don't have any stock because it's consumed as it goes along. So it doesn't take a lot of new supply to double the existing stock. Whereas with gold, it would take at least 50 years to renew, to double the stock. Unlike most goods that are consumed, where it's fairly easy, and doesn't take many years of production to double the existing stock, since it's consumed as it goes along.
 
 
 *"Gold has maintained a stock-to-flow ratio of between 25x and 100x throughout modern history, usually around 50x or more, briefly never falling below 16x, even during the Gold Rush of the mid-19th century. "*
@@ -1643,7 +1643,7 @@ Let's explore a clear summary of these theories together.
 ### The "always a debt" theory
 
 
-Here is a summary of the monetary theory known as **"debt money "**, according to which money is fundamentally a form of debt:
+Here is a summary of the monetary theory known as **"debt money"**, according to which money is fundamentally a form of debt:
 
 
 According to this theory, developed in particular by Alfred Mitchell-Innes and further developed by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
@@ -1667,7 +1667,7 @@ What bothers me about this theory is that it asserts that money is always a debt
 **Always a commodity:**
 
 
-Here's a clear summary of the monetary theory known as **"commodity money "**, where money always emerges as a commodity, notably gold, which emerges from a need to be able to trade, a commodity that will generally be accepted abroad and which is acquired for trading purposes.
+Here's a clear summary of the monetary theory known as **"commodity money"**, where money always emerges as a commodity, notably gold, which emerges from a need to be able to trade, a commodity that will generally be accepted abroad and which is acquired for trading purposes.
 
 
 According to this theory, developed by classical economists (Adam Smith, David Ricardo) and taken up by Marx, money emerges naturally as a commodity among others, often a precious metal such as gold or silver, which has an intrinsic value independent of its monetary role. Initially, these commodities are spontaneously chosen by economic players to facilitate trade, thanks to their intrinsic qualities (scarcity, durability, divisibility, and stability).
@@ -2098,7 +2098,7 @@ Here, we return to a concept we've already discussed with the Greeks of melting 
 As a result, the weight of bronze coins, aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary devaluation due to these wars.
 
 
-### The silver denier and monetary stability
+### The silver denarius and monetary stability
 
 
 It was against this critical backdrop that Rome introduced the famous silver denarius around 212 BC. This reform ensured remarkable monetary stability, with the denarius remaining the dominant currency for almost 450 years. Rome owes this stability to rigorous management, despite a major repricing in 146 BC and considerable production to finance its immense armies, notably during the Punic, Social (91-87 BC), and Macedonian wars. By way of example, maintaining a single Roman legion cost around 1.5 million denarii per year, illustrating the scale of monetary needs.
@@ -2145,17 +2145,17 @@ Period of political stability and prosperity under the reign of Augustus, markin
 Controversial Roman emperor, known for his tyranny, persecutions and disastrous management after the burning of Rome.
 
 
-**64 A.D.: Great Fire of Rome**
+**64 AD: Great Fire of Rome**
 
 A major fire ravages much of the city; Nero is accused of being responsible.
 
 
-**69 A.D.: Year of the Four Emperors**
+**69 AD: Year of the Four Emperors**
 
 A chaotic period with four emperors in quick succession (Galba, Otho, Vitellius, Vespasian).
 
 
-**79 A.D.: Vesuvius eruption** 
+**79 AD: Vesuvius eruption** 
 
 Volcano that destroyed the cities of Pompeii and Herculaneum, exceptionally preserving their remains under the ashes.
 
@@ -2185,10 +2185,10 @@ First significant incursions of Germanic peoples across Roman borders.
 A period marked by political instability, with many short-lived emperors, civil wars, economic crises and continuous invasions.
 
 
-**Aurelian (AD 270-275) radically revalued the Roman currency**, attempting to restore its nominal value despite high inflation.
+**Aurelian (270-275 AD) radically revalued the Roman currency**, attempting to restore its nominal value despite high inflation.
 
 
-**301 A.D.: Diocletian's Price Edict** 
+**301 AD: Diocletian's Price Edict** 
 
 Emperor Diocletian tried in vain to halt rampant inflation by imposing strict price and wage controls throughout the empire.
 
@@ -2209,7 +2209,7 @@ Rome is taken by various Germanic peoples (including the Ostrogoths), an event c
 In this section on Antiquity, we've already come to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
 
 
-After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sesterces. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
+After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sestertius. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
 
 
 ![](./assets/fr/3_3_aureus.webp)
@@ -2227,10 +2227,10 @@ After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome,
 However, from Nero onwards (AD 54-68), Rome began a slow devaluation of its coins, progressively reducing their weight and purity to finance growing imperial expenditure, particularly after the great fire of Rome in AD 64. These devaluations had notable effects: purer coins were withdrawn from circulation through hoarding or export, in accordance with **Gresham's law**, while devalued coins proliferated, causing a gradual rise in prices.
 
 
-The third century marks a dramatic turning point, with a spectacular acceleration in devaluations under the emperors Septimius Severus, Caracalla, and Gallien. The main silver coin, the denarius and then the antoninian, saw its silver content drop to just 2%. At the same time, the gold weight of the aureus dropped by half. This monetary crisis was accompanied by unprecedented political instability, barbarian invasions and recurrent civil wars.
+The third century marks a dramatic turning point, with a spectacular acceleration in devaluations under the emperors Septimius Severus, Caracalla, and Gallienus. The main silver coin, the denarius and then the antoninianus, saw its silver content drop to just 2%. At the same time, the gold weight of the aureus dropped by half. This monetary crisis was accompanied by unprecedented political instability, barbarian invasions and recurrent civil wars.
 
 
-This allows me to introduce the last piece in this section, an antoninian. We don't know what this piece was called at the time. We call it an antoninian. This coin has the particularity of being worth two denarii, but the problem is that it's only 1.5 times as big as a denarius. What's more, eventually, they were only billon coins, i.e., a non-pure alloy of silver and other metals. The coins were simply coated with silver. It was a fine example of monetary decay.
+This allows me to introduce the last piece in this section, an antoninianus. We don't know what this piece was called at the time. We call it an antoninianus. This coin has the particularity of being worth two denarii, but the problem is that it's only 1.5 times as big as a denarius. What's more, eventually, they were only billon coins, i.e., a non-pure alloy of silver and other metals. The coins were simply coated with silver. It was a fine example of monetary decay.
 
 
 ![](./assets/fr/3_3_antoninien.webp)
@@ -2242,7 +2242,7 @@ This allows me to introduce the last piece in this section, an antoninian. We do
 Faced with this situation, Emperor Aurelian (270-275 AD) attempted to stabilize the system by nominally revaluing currencies, but **this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.**
 
 
-And I'm taking a little break to say a few words on the subject. It was really at this time that inflation in the 3rd century took an almost exponential turn. Before, even if coins were devalued, the fact that they were handmade, one by one, minted, still assured us of a certain control over inflation. I have statistics that over 300 years of devaluation, it amounted to maybe 4% inflation per year. Just before Aurelian's reform, inflation was around 3% a year. Aurelian stamped a purity measurement on the XXI sign coin, i.e., 20 parts bronze to one part silver, i.e., 5% purity. He marketed these 5% silver coins and stamped this sign on them. The problem was that he recalled all the other coins, the ones that were really more devalued, and also stamped the famous XXI on them. So he revalued the face value of all the coins. The result was an inflation rate of 20% per year, instead of the 3% we'd seen before this technique was introduced.
+And I'm taking a little break to say a few words on the subject. It was really at this time that inflation in the 3rd century took a rapid exponential increase. Before, even if coins were devalued, the fact that they were handmade, one by one, minted, still assured us of a certain control over inflation. I have statistics that over 300 years of devaluation, it amounted to maybe 4% inflation per year. Just before Aurelian's reform, inflation was around 3% per year. Aurelian stamped a purity measurement on the XXI sign coin, i.e., 20 parts bronze to one part silver, i.e., 5% purity. He marketed these 5% silver coins and stamped this sign on them. The problem was that he recalled all the other coins, the ones that were really more devalued, and also stamped the famous XXI on them. So he revalued the face value of all the coins. The result was an inflation rate of 20% per year, instead of the 3% we'd seen before this technique was introduced.
 
 
 It was really Aurelian who invented this form of devaluation, which is much faster than the gradual devaluation of metal, which still forced us to print coins one by one. What he did was to take all the existing coins, recall them and stamp them with a punch to change their face value. It's a real turning point. That's when inflation became exponential.
@@ -2298,13 +2298,13 @@ To conclude, I'd like to share with you this quote from *A History of Money: Fro
 
 :::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
 
-This section looks at the links between monetary dilution and inflation, from causes to consequences. Monetary dilution is one of the major economic phenomena in Roman monetary history, with direct effects on inflation. From the 1st century AD, there was an initial slow phase of dilution of silver coinage (denarius) from the reign of Nero (54-68 AD) onwards, accelerated by repeated military and financial crises, notably under Septimius Severus (193-211) and Gallien (253-268).
+This section looks at the links between monetary dilution and inflation, from causes to consequences. Monetary dilution is one of the major economic phenomena in Roman monetary history, with direct effects on inflation. From the 1st century AD, there was an initial slow phase of dilution of silver coinage (denarius) from the reign of Nero (54-68 AD) onwards, accelerated by repeated military and financial crises, notably under Septimius Severus (193-211) and Gallienus (253-268).
 
 
 We also note a more gradual devaluation of the aureus. This difference in the rate of devaluation highlights two points:
 
 
-1 \- The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (antoninian) and the imposition of a face value by marking "XXI" (Aurelian)
+1 \- The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
 
 
 2 \- The State's desire to delay as long as possible the devaluation of the aureus, the reserve of value that enables the elite to maintain their purchasing power at the expense of the less fortunate. We'll come back to this principle often enough in this course, notably with the concept known as the "Cantillon effect" and with the redenominations of the Maravedi in Spain.
@@ -2325,7 +2325,7 @@ The reform initiated during Aurelian's reign allowed inflation to soar. Inflatio
 I have two quotes to share with you in connection with Aurelian. The first comes from *A History of Money: From Ancient Times to the Present Day*:
 
 
-*"as far as the Roman economy is concerned, Aurelian's contribution was more of a disaster than a triumph. It was largely due to the nature of his "reform" that the rate of inflation was able to increase far beyond what had previously been possible, even under the irresponsible Gallien. For two centuries after Aurelian, inflation became endemic throughout the Roman Empire "*
+*"as far as the Roman economy is concerned, Aurelian's contribution was more of a disaster than a triumph. It was largely due to the nature of his "reform" that the rate of inflation was able to increase far beyond what had previously been possible, even under the irresponsible Gallienus. For two centuries after Aurelian, inflation became endemic throughout the Roman Empire "*
 
 
 The second comes from the book *Ancient History from Coins* and concerns the detachment of the monetary system from gold:
@@ -2380,7 +2380,7 @@ This monetary deterioration not only destroyed the empire's internal cohesion. I
 Roman monetary history can be divided into three distinct periods. The first, from the Julio-Claudians to the Antonines (27 BC - end of 2nd century), maintained relative stability. Under Trajan, the empire reached its apogee: covering 5 million km², Rome became the first millionaire city in history. The denarius retains a silver purity of 98% to 80% - a moderate devaluation still allowing the economy to function.
 
 
-The second period, the 3rd century, was one of military anarchy. Twenty-six emperors succeeded one another in the space of a few decades. The currency collapsed: the antoninian, supposedly worth two denarii, contained only 1.5 in metallic weight - the first attempt to divorce legal and real value. This manipulation triggers Gresham's Law: bad money drives out good money. Citizens hoarded the good coins, spending only the devalued ones.
+The second period, the 3rd century, was one of military anarchy. Twenty-six emperors succeeded one another in the space of a few decades. The currency collapsed: the antoninianus, supposedly worth two denarii, contained only 1.5 in metallic weight - the first attempt to divorce legal and real value. This manipulation triggers Gresham's Law: bad money drives out good money. Citizens hoarded the good coins, spending only the devalued ones.
 
 
 Monetary treasures uncovered by archaeologists reveal this economic anxiety. Buried amphorae show, by stratification, how the Romans deposited the best coins first, gradually adding the devalued ones. These ancient "stacks" bear witness to human action in the face of uncertainty - an attempt to preserve value in a decaying world.
@@ -2547,7 +2547,7 @@ This meant we didn't have to carry around precious metal coins.
 It was also during this period that Europe became aware of the existence of paper money in China, thanks to Marco Polo's journey in the 13th century. However, the development of banknotes would wait several centuries, as Europe preferred to perfect its metal coinage methods first. Leonardo da Vinci, close to Luca Pacioli, a renowned chartered accountant, actively contributed to the improvement of money presses, promoting faster, more uniform coin production.
 
 
-We're talking here, of course, about the pendulum striking I referred to earlier in the course. This made it possible to make more uniform pieces than hammer striking, and above all, allowed for writing around the edge of the coin, as I've already shown you. This is a European taler from 1793, so you can see that there's writing on the fringe.
+We're talking here, of course, about the pendulum striking I referred to earlier in the course. This made it possible to make more uniform pieces than hammer striking, and above all, allowed for writing around the edge of the coin, as I've already shown you. This is a European thaler from 1793, so you can see that there's writing on the fringe.
 
 
 ![image](./assets/fr/4_thaler.webp)
@@ -2646,7 +2646,7 @@ To give you an idea of its value, an American dollar was originally a silver coi
 However, this influx of precious metals from the Americas caused inflation in Europe. During the Price Revolution (c. 1540-1640), the cost of living in England increased sevenfold. In Spain, the abundance of silver had a perverse resource curse effect, hindering the development of solid banking institutions.
 
 
-Subsequently, Spain faced numerous military conflicts (Flanders, Netherlands, Thirty Years' War), and its finances gradually collapsed. Instead of devaluing the world-renowned silver coin, successive rulers chose to default on or depreciate the copper coin (vellon) used by the local population. This is what I described earlier with the Maravedis.
+Subsequently, Spain faced numerous military conflicts (Flanders, Netherlands, Thirty Years' War), and its finances gradually collapsed. Instead of devaluing the world-renowned silver coin, successive rulers chose to default on or depreciate the copper coin (vellón) used by the local population. This is what I described earlier with the Maravedis.
 
 
 ### The Dutch rise (17th century)
@@ -2720,7 +2720,7 @@ However, the First World War (1914-1918) put an end to this system. Within weeks
 And as an artefact, I have some beautiful and interesting pieces here. These are monetary weights. This one is the sovereign. So, the earliest representations of the pound are sovereigns. I only have money weights to represent these coins because I can't afford to buy a real sovereign. To weigh them, we used scales and then placed the monetary weight equivalent to the sovereign's value on the other side.
 
 
-And this, the sovereign, was a monetary coin - a gold coin originally worth one pound. Preceding this famous sovereign was the Guinea, based on the same principle. The Guinea was so named because the precious metals it contained came from the region of Guinea.
+And this, the sovereign, was a monetary coin - a gold coin originally worth one pound. Preceding this famous sovereign was the guinea, based on the same principle. The guinea was so named because the precious metals it contained came from the region of Guinea.
 
 
 

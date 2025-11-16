@@ -1098,7 +1098,7 @@ And this technology of hand minting, one by one, probably helped to control the 
 
 There's also a notion I wanted to talk about, which I could do with this metal tool here.
 
-In the Middle Ages, there was also a notion of spreading the coin out, so we made it wider and wider, thinner and thinner, and one of the reasons was that it was easier to test the sound. This way, by spreading the silver out, it created a frequency and we could validate a notion of the piece's purity simply by listening to it. That's where the expression sounding money comes from. In 'sound money,' the standard weight was determined using a balance scale, or trebuchet, to weigh it. And so we moved from small, round coins to slightly thinner, wider coins.
+In the Middle Ages, there was also a notion of spreading the coin out, so we made it wider and wider, thinner and thinner, and one of the reasons was that it was easier to test the sound. This way, by spreading the silver out, it created a frequency and we could validate a notion of the piece's purity simply by listening to it. That's where the expression sound money comes from. In sound money, the standard weight was determined using a balance scale, or trebuchet, to weigh it. And so we moved from small, round coins to slightly thinner, wider coins.
 
 
 ### Pendulum striking

@@ -2853,11 +2853,9 @@ Faida ni mbili:
 - **Shirika lililoundwa**: unaweza kufafanua majukumu wazi, na kuifanya iwe rahisi kuendesha jumuiya yako na kutekeleza miradi.
 
 
-Ili kusaidia jumuiya yako kukua zaidi, **ufuatiliaji wa kozi ya COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a718f">
+Kwa lengo la kuifanya jamii yenu izidi kustawi, **haiwezi kutolewa nje ya uwezekano kwamba mwendelezo wa mafunzo haya utatolewa kwenye [Plan ₿ Academy](https://planb.academy/) katika miezi ijayo**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-inaweza kutolewa kwenye [planb.network](https://planb.academy/) katika miezi ijayo.
 
 
 Kipindi hiki kijacho kinaweza kuchunguza mada za juu kama vile:

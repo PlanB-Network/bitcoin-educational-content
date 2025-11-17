@@ -2853,11 +2853,9 @@ Ivyiza bivamwo ni bibiri:
 - **Ishirahamwe ry'imiterere**: urashobora gusobanura uruhara rutomoye, bigatuma vyoroha gutwara umuryango wawe no gukora imigambi.
 
 
-Kugira ngo ufashe umuryango wawe gukura cane, **ugukurikirana inyigisho ya COMMU302** <img width="80" uburebure="18" alt="imagine" src="
+Mu ntumbero yo guteza imbere n’ukurumbiza umuryango wanyu kurushaho, **ntibikurwaho ko haca hasohoka ibindi bikurikira iri somo kuri [Plan ₿ Academy](https://planb.academy/) mu mezi ari imbere**.
 
-/>
 
-bishobora gusohoka kuri [planb.urubuga](https://planb.urubuga/) mu mezi ari imbere.
 
 
 Iki kiganiro gikurikira coshobora gutohoza ingingo ziteye imbere nka:

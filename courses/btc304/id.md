@@ -2853,11 +2853,9 @@ Manfaatnya ada dua:
 - **Organisasi terstruktur**: Anda dapat mendefinisikan peran yang jelas, sehingga lebih mudah untuk menjalankan komunitas dan melaksanakan proyek.
 
 
-Untuk membantu komunitas Anda berkembang lebih jauh, **sebuah tindak lanjut dari kursus COMMU302** <img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Dengan tujuan membantu komunitas Anda berkembang lebih jauh, **tidak tertutup kemungkinan bahwa lanjutan pelatihan ini akan dirilis di [Plan ₿ Academy](https://planb.academy/) dalam beberapa bulan mendatang**.
 
-<img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-akan dirilis di [planb.network](https://planb.academy/) dalam beberapa bulan mendatang.
 
 
 Sesi berikutnya dapat mengeksplorasi topik-topik lanjutan seperti:

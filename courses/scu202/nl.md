@@ -156,7 +156,7 @@ Ben je klaar om je IT-beveiliging volledig onder controle te krijgen, je individ
 
 
 
-**N.B.:** Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.network/resources/glossary) voor definities
+**N.B.:** Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities
 
 
 
@@ -179,7 +179,7 @@ De SCU101-cursus was een inleidende cursus die bedoeld was om een solide basis t
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Veilig online surfen
 
@@ -974,7 +974,7 @@ Deze aanpak is gebaseerd op een *rollende release* model, waarbij pakketten cont
 
 Arch Linux is vooral gericht op gevorderde gebruikers die totale controle over hun omgeving willen, maar een zekere complexiteit in installatie en onderhoud accepteren. Deze technische eis heeft geleid tot het ontstaan van verschillende afgeleide distributies die het gebruik ervan willen democratiseren.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 De bekendste is Manjaro, dat de technische basis van Arch behoudt, maar vereenvoudigde installatie, vooraf geconfigureerde bureaubladomgevingen en een iets vertraagde releasecyclus biedt om updates te stabiliseren.
 
@@ -1062,7 +1062,7 @@ Ubuntu, ontwikkeld door Canonical en gelanceerd in 2004, is een van de populairs
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint werd gelanceerd in 2006 en is een van Ubuntu afgeleide distributie, o
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint onderscheidt zich door zijn eenvoud, de standaard aanwezigheid van multimediacodecs en een goed ontworpen updatetool. Aan de andere kant leunt het zwaar op de infrastructuur van Ubuntu, waardoor het afhankelijk is van Ubuntu's technische keuzes (met name op kernel- en repository-niveau). Mint is vooral geschikt voor niet-technische gebruikers, of mensen die een kant-en-klaar systeem willen dat niet te veel hoeft te leren.
 
@@ -1108,7 +1108,7 @@ De installatie verloopt soepel, essentiële software is voorgeïnstalleerd en me
 
 Elementary OS, dat in 2011 werd gelanceerd, is een op Ubuntu gebaseerde distributie die zich vooral richt op het ontwerp en de consistentie van Interface. De desktopomgeving Pantheon is geïnspireerd op macOS. De Pantheon desktopomgeving, geïnspireerd door macOS, is minimalistisch, elegant en vloeiend. Het systeem blijft echter minder aanpasbaar dan andere distributies, en sommige geavanceerde gebruikers kunnen zich beperkt voelen door de keuzemogelijkheden van Interface en de opzettelijk gesloten structuur. Het is zeer geschikt voor esthetisch gevoelige gebruikers die op zoek zijn naar een eenvoudig, samenhangend systeem voor dagelijks gebruik.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora is een Red Hat-ondersteunde distributie, gericht op de nieuwste technolog
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed of Leap):
@@ -1179,7 +1179,7 @@ Debian bestaat in verschillende takken, waaronder *Stable* (zeer betrouwbare, ma
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux is een minimalistische, continu bijwerkbare distributie, geleverd zon
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Gespecialiseerde distributie
 
@@ -1246,7 +1246,7 @@ Tails is een Debian-gebaseerde, privacy-gerichte live-distributie. Alles gaat do
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Noot:** Een live distributie is een Linux besturingssysteem dat direct vanaf een USB-stick of CD kan worden gebruikt, zonder installatie op de Hard schijf.
 
@@ -1300,7 +1300,7 @@ PureOS is een van Debian afgeleide distributie ontwikkeld door Purism, volledig 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix combineert Debian met het Tor netwerk in een twee-VM architectuur (gatewa
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Dit panorama geeft je een overzicht van het huidige ecosysteem van Linux-distributies, zodat je de distributie kunt kiezen die het beste past bij je technische profiel en doelstellingen.
 
@@ -1938,7 +1938,7 @@ Voor meer informatie over het Ubuntu-installatieprogramma kun je ook deze tutori
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Zodra de installatie is voltooid, verwijdert u de USB-sleutel wanneer daarom wordt gevraagd en start u opnieuw op. Ubuntu is nu geïnstalleerd en klaar voor gebruik op je machine.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kantoorpakket
 
 
@@ -3114,13 +3114,13 @@ Naast deze paar basistools raad ik je ook aan om essentiële beveiligingstools t
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Tot slot van dit hoofdstuk volgen hier een paar best practices die je dagelijks kunt volgen:
 
@@ -3212,9 +3212,9 @@ Een complex wachtwoord is moeilijk te onthouden. Ik raad daarom aan om een wacht
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Verander ten slotte dit wachtwoord regelmatig-om de 3 tot 6 maanden-vooral als je machine wordt gebruikt in gedeelde of mobiele omgevingen.
 
@@ -3314,13 +3314,13 @@ Ten slotte is een van de belangrijkste maatregelen die je kunt nemen om jezelf t
 - Linux distributies versleutelen de schijf niet automatisch, tenzij deze optie is geselecteerd tijdens de installatie. Je kunt LUKS gebruiken om de schijf te versleutelen
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 In alle gevallen moet het ontcijferingswachtwoord sterk zijn, gescheiden van het systeemwachtwoord en opgeslagen in een veilige wachtwoordmanager. Als je een externe schijf of USB-sleutel met gevoelige gegevens gebruikt, overweeg dan ook om deze afzonderlijk te versleutelen met tools zoals VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Het principe van de minste privileges
 
@@ -3417,7 +3417,7 @@ Deze technologie is gebaseerd op een hypervisor, een softwareprogramma dat de cr
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Op het gebied van IT-beveiliging is een van de grote voordelen van virtuele machines hun vermogen om te compartimenteren. Een VM deelt zijn bestanden, processen of netwerktoegang niet met het hostsysteem, tenzij je deze uitwisselingen expliciet configureert. Dus als een VM wordt geïnfecteerd door malware of als je er gevoelige software in test, blijft de impact beperkt tot die virtuele machine: je hoofdsysteem blijft intact, op voorwaarde dat de isolatieparameters worden gerespecteerd (geen gedeelde mappen, geen USB-apparaten doorgeven aan de VM...).
 
@@ -3953,7 +3953,7 @@ Op een goed onderhouden Linux machine die voor persoonlijke doeleinden wordt geb
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Onder macOS
 
@@ -4061,11 +4061,11 @@ Dit systeem vertrouwt op asymmetrische cryptografie en gereedschappen zoals GnuP
 
 
 
-Om meer te leren over cryptografische Hash functies en digitale handtekeningen, nodig ik je uit om de gratis CYP 201 cursus te volgen die wordt aangeboden op Plan ₿ Network:
+Om meer te leren over cryptografische Hash functies en digitale handtekeningen, nodig ik je uit om de gratis CYP 201 cursus te volgen die wordt aangeboden op Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Software-integriteit en -authenticiteit verifiëren
 
@@ -4469,7 +4469,7 @@ Met deze configuratie is Alice al beschermd tegen veel voorkomende bedreigingen.
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice houdt zich dus aan de 3-2-1 regel: het heeft 3 kopieën van zijn bestanden (computer, USB-stick, cloud), opgeslagen op minstens 2 verschillende media (interne schijf, USB-stick, externe server), met minstens 1 off-site kopie (de cloud server).
 
@@ -4556,7 +4556,7 @@ Volledige encryptie is als een slot: zolang het wachtwoord niet wordt gegeven, b
 Onder Linux is de standaardoplossing LUKS (*Linux Unified Key Setup*). LUKS is een versleuteld volumebeheersysteem dat in de meeste distributies is geïntegreerd. Wanneer het systeem voor het eerst wordt geïnstalleerd, wordt je meestal gevraagd om de hele computerschijf te versleutelen. Natuurlijk raad ik je sterk aan om deze optie te activeren. Zodra encryptie is ingeschakeld, zal het systeem bij elke keer opstarten om het wachtwoord vragen, zelfs voordat het besturingssysteem wordt geladen. Dit zorgt ervoor dat fysieke toegang tot de schijf de beveiliging niet kan omzeilen.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Als je een externe schijf of USB-stick wilt versleutelen, kan dit ook vanaf de opdrachtregel of via de grafische Interface. De schijf moet worden geformatteerd, dus alle bestaande gegevens gaan verloren als er niet eerst een back-up wordt gemaakt.
 
@@ -4832,7 +4832,7 @@ Raadpleeg deze volledige tutorial voor meer informatie over deze oplossing:
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ Dit protocol is perfect voor het veilig uitwisselen van gevoelige bestanden met 
 
 Een uitstekend alternatief is Cryptomator. Met deze open source software kun je een kluis maken: een speciale map waarin alle bestanden die worden opgeslagen automatisch worden versleuteld. Deze kluis kan worden gesynchroniseerd met clouddiensten zoals Dropbox, Google Drive of Nextcloud zonder dat de provider ooit toegang heeft tot de onversleutelde gegevens. De applicatie is beschikbaar op alle besturingssystemen, inclusief Android en iOS, en vereist geen speciale technische vaardigheden om te gebruiken.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Ten slotte is het ook mogelijk om VeraCrypt in containermodus te gebruiken, waardoor een bestand wordt gemaakt dat fungeert als een versleuteld archief dat kan worden gemount zoals een schijf.
 
@@ -5580,9 +5580,9 @@ Ik zou dus niet aanraden om Google Chrome te gebruiken, noch persoonlijk noch pr
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Dappere
 
@@ -5742,7 +5742,7 @@ Firefox blijft een benchmark voor beveiliging en privacy, ondanks het feit dat h
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-browser
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Het nadeel is een aanzienlijke prestatievermindering (hoge latentie) en beperkte compatibiliteit met bepaalde websites. Tor Browser is ideaal voor gevoelige activiteiten (journalistiek, activisme...), maar minder geschikt voor gewoon dagelijks gebruik.
 
@@ -5765,11 +5765,11 @@ Het nadeel is een aanzienlijke prestatievermindering (hoge latentie) en beperkte
 
 [Mullvad Browser](https://mullvad.net/en/browser) is het resultaat van de samenwerking tussen de Tor Foundation en Mullvad VPN. Het is gebaseerd op de Tor browser, die zelf is afgeleid van Firefox ESR. Mullvad Browser is ontworpen om de privacy van de gebruiker te maximaliseren. Standaard bevat het geavanceerde bescherming tegen fingerprinting, trackers en scripts van derden.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Het heeft de meeste beveiligings- en privacyfuncties van Tor Browser, met één verschil: het leidt het verkeer niet om via het Tor netwerk. Om IP Address lekken te voorkomen, kun je het gebruiken in combinatie met een VPN (idealiter Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser is een uitstekende oplossing als je je zorgen maakt over je privacy, of je nu een beginner of een gevorderde gebruiker bent.
 
@@ -5795,7 +5795,7 @@ Standaard activeert LibreWolf de geavanceerde beveiligingsinstellingen van Firef
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen-browser
 
@@ -5813,7 +5813,7 @@ Vanuit het oogpunt van beveiliging en privacy beschikt Zen over een ingebouwde b
 
 Zen Browser is een interessant alternatief als je op zoek bent naar een Gecko-browseromgeving die gratis, innovatief, overzichtelijk en privacyvriendelijk is.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-gebaseerde browsers
 
@@ -5855,7 +5855,7 @@ Orion is volledig ontwikkeld door het Kagi-team (bekend van de reclamevrije zoek
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browsers zonder rendering engines
 
 
@@ -6035,9 +6035,9 @@ Een wachtwoordmanager genereert en bewaart veilig sterke wachtwoorden, zodat je 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Het gebruik van een wachtwoordmanager heeft een aantal voordelen: het vereenvoudigt je dagelijkse leven doordat je niet meer een heleboel wachtwoorden hoeft te onthouden en het minimaliseert de belangrijkste zwakke plek bij authenticatie: de gebruiker zelf.
 
@@ -6047,13 +6047,13 @@ Als het op authenticatie aankomt, moet het gebruik van een wachtwoordmanager wor
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Een VPN gebruiken
 
@@ -6087,11 +6087,11 @@ Een goede VPN moet een duidelijk no-logging beleid hebben, moderne technologieë
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 VPN's met een hoog profiel moeten vermeden worden. Ondanks hun agressieve marketing blijven het gecentraliseerde commerciële diensten, vaak gevestigd in minder beschermende jurisdicties en zelden transparant over hun feitelijke technische werking.
 
@@ -6626,7 +6626,7 @@ GrapheneOS integreert geen propriëtaire componenten. Je bent vrij om Google-die
 Graphene is alleen compatibel met recente Google Pixels (Pixel 6, 7, 8 en 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Openbare Wi-Fi-netwerken, zoals die in cafés, hotels of het openbaar vervoer, z
 Om jezelf te beschermen, vermijd je gewoon het gebruik van deze openbare netwerken of gebruik je een VPN, dat een versleutelde tunnel creëert tussen je apparaat en een externe server. Deze tunnel kapselt je gegevens in, waardoor ze extreem moeilijk te onderscheppen of te wijzigen zijn.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Wat betreft je Wi-Fi-thuisnetwerk, daar zullen we het over hebben in het laatste deel van de SCU 202-cursus.
 
@@ -6921,7 +6921,7 @@ Een regelmatige back-up van je smartphonegegevens is erg belangrijk voor je veil
 Om dit te bereiken, moet je versleutelde lokale oplossingen gebruiken, zoals een externe schijf of een versleutelde USB-sleutel (bijvoorbeeld met Veracrypt). Als dat niet lukt, kun je met zelf gehoste cloudoplossingen zoals *Syncthing* of *Nextcloud* een back-up van je gegevens maken op een persoonlijke server, terwijl je volledige controle houdt over de toegang en vertrouwelijkheid. In tegenstelling tot commerciële cloudservices (Google Drive, iCloud...) beperken deze oplossingen de blootstelling van je informatie aan derden aanzienlijk.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Vegen op afstand
 
@@ -7019,7 +7019,7 @@ Signal heeft echter een zwak punt als het gaat om anonimiteit: de applicatie ver
 Kortom, Signal is een zeer goede messaging-oplossing, maar helaas vereist het een verbinding vanaf een telefoonnummer.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram is een zeer populaire berichtendienst dankzij zijn ergonomie en functie
 Telegram kan daarom technisch gezien toegang krijgen tot de inhoud van de meeste gesprekken die niet expliciet beveiligd zijn. Zelfs als het bedrijf een ferme houding aanneemt tegenover overheidsinstanties, is Telegram geen optimale oplossing voor vertrouwelijke of gevoelige uitwisselingen, tenzij je expliciet gebruik maakt van de "geheime uitwisselingen", die veel minder praktisch zijn op een dagelijkse basis.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Een ander belangrijk aspect van Threema is het bedrijfsmodel: de applicatie is n
 Ik denk dat deze messaging oplossing uitstekend is, maar het grootste nadeel is dat de broncode voor de servers propriëtair blijft.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpelX chatten
 
@@ -7088,7 +7088,7 @@ Contacten worden toegevoegd via tijdelijke links of statische adressen (permanen
 In termen van veiligheid en vertrouwelijkheid gaat SimpleX verder dan de meeste bestaande berichtensystemen, door metadata tot een minimum te beperken en elke afhankelijkheid van een centrale directory of unieke identificatie te elimineren. Deze architectuur brengt echter wel een aantal compromissen met zich mee op het gebied van gebruiksvriendelijkheid: soms minder intuïtieve ergonomie, de noodzaak van een kleine leercurve in het begin en afhankelijkheid van de beschikbaarheid van relay servers.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Sessie
 
@@ -7105,7 +7105,7 @@ Technisch gezien implementeert Session end-to-end encryptie voor berichten, best
 De Session-client en -server zijn open-source. De software is beschikbaar op Android, iOS, Windows, macOS en Linux, met een optie om tussen apparaten te synchroniseren via de Mnemonic zin, vergelijkbaar met die gebruikt wordt in Bitcoin wallets. Deze zin geeft de gebruiker exclusieve controle over zijn of haar gegevens, maar legt ook een grote verantwoordelijkheid op het gebied van back-ups.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Aan de andere kant, hoewel sommige componenten (cryptografie en netwerken) als o
 Keet is beschikbaar op Android, iOS, Windows, macOS en Linux, en kan tussen apparaten worden gesynchroniseerd met behulp van een Mnemonic-zin.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ De applicatie is gecertificeerd door ANSSI (*Agence Nationale de la Sécurité d
 Olvid is compatibel met Android, iOS, Windows, macOS en Linux. De ergonomie blijft eenvoudig en toegankelijk. De applicatie beschikt ook over een versleuteld back-upsysteem voor sleutels en contacten, zodat je een account op een nieuw apparaat kunt herstellen.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Te vermijden messaging-toepassingen
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile is de mobiele versie van de populaire open-source e-mailclien
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden is een van de meest uitgebreide open-source wachtwoordmanagers op de m
 Je kunt de servers van Bitwarden gebruiken of het zelf hosten als je dat wilt voor totale controle. De Interface-mobiel is duidelijk en vloeiend, met naadloze integratie in het Android- of iOS-systeem.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass is een historische wachtwoordmanager gebaseerd op versleutelde lokale be
 Er is ook [KeePassium](https://keepassium.com/) voor iOS, een goed geïntegreerde toepassing in het Apple ecosysteem, compatibel met het KeePass formaat en open-source. Een ander iOS-alternatief voor een KeePass-client is Strongbox, maar deze software is al enkele jaren niet meer open-source.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Niet alle VPN's zijn echter gelijk. Populaire diensten zoals NordVPN of ExpressV
 Mullvad is een van de beste VPN's op het gebied van privacybescherming. Je hebt geen e-mail of wachtwoord nodig: je account is gekoppeld aan een eenvoudig willekeurig nummer. Betaling kan in bitcoins of contant. De mobiele client is open-source, eenvoudig te gebruiken en krachtig. Mullvad houdt geen logs bij, volgt zijn gebruikers niet en publiceert regelmatig onafhankelijke beveiligingsaudits.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN is een ander uitstekend privacygericht alternatief. Het biedt een eenvoudige en efficiënte mobiele Interface, geen logverzameling en staat anonieme registratie toe. Je kunt ook in bitcoins betalen. De applicatie bevat een firewall die al het niet-VPN verkeer blokkeert, wat erg handig kan zijn op een smartphone. De clients zijn open-source.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis is een uitgebreide open-source applicatie. Het versleutelt je 2FA-database
 Ente Auth is een moderne, open-source, multi-platform oplossing met end-to-end versleutelde back-ups. Het stelt je in staat om je 2FA-codes veilig te synchroniseren op mobiel, desktop en web. Je kunt het ook offline gebruiken, zonder cloudback-up of accountcreatie.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth biedt veel extra functies: Organisatie op tags, aangepaste pictogrammen voor elke dienst, notities, favorieten, geïntegreerd zoeken, veilig delen van teamcode.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth biedt veel extra functies: Organisatie op tags, aangepaste pictogramme
 Authy biedt 2FA synchronisatie op meerdere apparaten, wat handig kan zijn, maar de applicatie is niet open-source en vereist een telefoonnummer voor registratie. Voor beginners is het echter completer dan Google Authenticator, vooral dankzij de cloudback-upfunctie.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Als u meer wilt weten over wachtwoordmanagers, 2FA-authenticatie en VPN's, raad ik u aan de hoofdstukken in de SCU-101-cursus te lezen:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Weer
 
@@ -8267,7 +8267,7 @@ Zoals we in het vorige hoofdstuk hebben ontdekt, is het beveiligen van je thuisn
 Na een overzicht van de theoretische basis, leidt dit hoofdstuk je door duidelijke, praktische en effectieve stappen om de beveiliging van je lokale netwerk te verbeteren.
 
 
-*Let op: De informatie die hier wordt gegeven is algemeen, aangezien Plan ₿ Network gericht is op een internationaal publiek. Afhankelijk van uw lokale omstandigheden en uw ISP worden bepaalde best practices hier mogelijk niet genoemd, of op een andere manier toegepast.*
+*Let op: De informatie die hier wordt gegeven is algemeen, aangezien Plan ₿ Academy gericht is op een internationaal publiek. Afhankelijk van uw lokale omstandigheden en uw ISP worden bepaalde best practices hier mogelijk niet genoemd, of op een andere manier toegepast.*
 
 
 ### Je netwerkapparatuur kiezen en beveiligen
@@ -8305,9 +8305,9 @@ Als uw router niet langer wordt onderhouden maar nog steeds hardwarematig correc
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Deze systemen maken een fijnere controle mogelijk van firewallregels, uitgaande en inkomende verbindingen, netwerksegmentatie (VLAN's) en DNS-beheer, maar zijn meer gericht op gevorderde gebruikers.
 
@@ -8344,9 +8344,9 @@ Het is daarom noodzakelijk dat je je identificaties onmiddellijk na de installat
 Dit wachtwoord moet lang zijn (40 tekens), complex (cijfers, kleine letters, hoofdletters en symbolen), uniek (niet elders te hergebruiken) en willekeurig. Ik raad uiteraard aan om een wachtwoordmanager te gebruiken om generate te maken en deze gegevens veilig op te slaan.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Waarschuwing: verwar het administratiewachtwoord van de router (dat de toegang tot de configuratie beschermt) niet met het Wi-Fi-wachtwoord (waarmee je verbinding kunt maken met het draadloze netwerk). Dit zijn twee verschillende Elements en beide moeten gewijzigd worden.
 
@@ -8384,7 +8384,7 @@ Dit systeem is oorspronkelijk ontworpen om het verbinden van apparaten met Wi-Fi
 Sommige routers staan je toe om van buitenaf, via het internet, verbinding te maken met hun Interface administratie. Deze functie vergroot het aanvalsoppervlak van uw router op onredelijke wijze. Schakel deze functie volledig uit, tenzij je een specifieke behoefte hebt aan beheer op afstand. Gebruik zelfs dan altijd een VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Verouderde of onveilige protocollen**:
@@ -8505,7 +8505,7 @@ In de praktijk kunnen DNS-codering en serveromschakeling op verschillende niveau
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Op het niveau van het besturingssysteem: Sommige besturingssystemen integreren standaard versleutelde DNS-ondersteuning (DoT of DoH), waardoor alle DNS-verzoeken die door de netwerkstack van het systeem gaan beveiligd worden. Dit beveiligt echter niet de hele computer of telefoon: Toepassingen kunnen deze instelling omzeilen als ze geconfigureerd zijn om een andere DNS-resolver of een ander protocol te gebruiken.
 
 
@@ -8520,7 +8520,7 @@ Bovendien ondersteunen modemrouters die door ISP's worden geleverd deze functies
 Om nog een stap verder te gaan, kun je ook een lokale DNS-filteroplossing instellen, zoals Pi-hole of AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Deze tools werken als een kleine DNS-server in je netwerk en blokkeren verzoeken naar domeinen waarvan bekend is dat ze reclame, browsertrackers, phishing of kwaadaardige sites hosten. Met deze tools kun je ook je eigen blokkadelijsten maken of de filtering aanpassen aan de aangesloten apparaten.
 
@@ -8541,19 +8541,19 @@ De twee belangrijkste oplossingen voor particuliere klanten zijn:
 - WireGuard: Modern, snel en lichtgewicht
 - OpenVPN: Ouder, maar zeer volwassen en configureerbaar
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Hier is een complete tutorial over Tailscale, een eenvoudig te configureren VPN-oplossing die WireGuard gebruikt:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Je kunt dit VPN direct hosten op een compatibele router, op een kleine computer (zoals een Raspberry Pi) of op een speciale server thuis. Je kunt het ook als client direct op elk apparaat installeren.
 
 Maar een VPN is niet alleen voor toegang op afstand. Je kunt ook een klassieke VPN-client op je apparaten gebruiken om al je uitgaande verkeer te versleutelen, zelfs als je niet thuis bent (openbare Wi-Fi, hotel, universiteit, etc.). In dit geval maakt je apparaat verbinding met een VPN-server van derden (commercieel of zelf gehost), die vervolgens je verbindingen naar het internet doorstuurt. Dit verbergt je echte IP Address voor de ISP, beschermt je gegevens tegen lokale spionage en vermijdt bepaalde vormen van censuur.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Tot slot is het ook mogelijk om een VPN rechtstreeks op je router in te stellen, zodat je alle apparaten in je huis kunt beschermen zonder dat je op elk apparaat een VPN-client hoeft te installeren.
 
@@ -8563,17 +8563,17 @@ Zodra je netwerk goed geconfigureerd en gesegmenteerd is, is het belangrijk om v
 
 De eerste stap is het centraliseren van beveiligingslogs. Elk apparaat dat verbonden is met het netwerk genereert logs met informatie over verbindingen, fouten of verdachte activiteiten. In plaats van deze logs individueel te raadplegen, raad ik aan om ze naar een server te sturen die ze kan groeperen, sorteren en analyseren. Met oplossingen zoals Graylog of Elastic Stack (ELK) kun je deze logs samenvoegen in een grafische Interface waar je kunt zoeken naar specifieke gebeurtenissen, waarschuwingen kunt aanmaken of netwerkactiviteit kunt visualiseren.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Voer vervolgens regelmatig actieve scans uit van je lokale netwerk, bijvoorbeeld met Nmap. Dit geeft je een overzicht van alle apparaten op je netwerk en de poorten die ze hebben geopend. Als je een onbekend apparaat of een ongebruikelijke service ziet, kan dit een teken zijn van een aanval.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Om nog verder te gaan, kun je een IDS (*Intrusion Detection System*) of zelfs een IPS (*Intrusion Prevention System*) installeren. Deze tools, zoals Suricata of Snort, monitoren netwerkstromen in realtime en detecteren handtekeningen van bekende aanvallen (poortscans, injecties, verdachte verbindingen, etc.). Het IDS waarschuwt, terwijl het IPS bepaalde acties automatisch kan blokkeren.
 
 Tot slot is het monitoren van bandbreedteverbruik ook een goede indicator voor abnormale activiteit. Als een apparaat plotseling veel data verbruikt zonder duidelijke reden, kan dit een ongeautoriseerde download, een datalek of zelfs een gecompromitteerd apparaat verraden. Tools zoals ntopng of vnStat stellen je in staat om inkomende en uitgaande stromen per apparaat te bekijken.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Back-up en veerkracht
 

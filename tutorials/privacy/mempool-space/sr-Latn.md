@@ -14,9 +14,9 @@ U ranim Bitcoin danima, bilo je neophodno pokrenuti Bitcoin čvor kako bi se pri
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Pokrenuti su projekti za proširenje Bitcoin zajednice, čineći je dostupnijom svima koji ne poseduju čvor i/ili nemaju potrebne tehničke veštine.
 
@@ -46,7 +46,7 @@ Sve šira upotreba u ekosistemu i činjenica da je Mempool.space otvorenog koda 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Osnove Mempool.space
 
@@ -176,7 +176,7 @@ Otkrijte različite Bitcoin transakcione šeme kako biste poboljšali svoju pove
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Ubrzajte svoje transakcije
 
@@ -200,7 +200,7 @@ Možete izvršiti akciju zamene naknade sa novčanicima koji prihvataju ovaj meh
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Ako vam svi ovi termini deluju previše tehnički, preporučujem da [pogledate naš rečnik](https://planb.network/resources/glossary), koji sadrži definicije svih tehničkih termina vezanih za Bitcoin i njegov ekosistem.
+Ako vam svi ovi termini deluju previše tehnički, preporučujem da [pogledate naš rečnik](https://planb.academy/resources/glossary), koji sadrži definicije svih tehničkih termina vezanih za Bitcoin i njegov ekosistem.
 
 
 
@@ -235,7 +235,7 @@ Rudar se odnosi na osobu koja upravlja rudnikom, tj. računar koji učestvuje u 
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Rudari su poput "validatora" koji verifikuju i grupišu transakcije u blokove. Da bi dodali novi blok u Bitcoin mrežu, moraju rešiti složenu matematičku zagonetku (Proof-of-Work). Prvi rudar koji reši zagonetku osvaja Bitcoin nagradu (blok grant + naknade za transakcije uključene u blok).
 
@@ -372,4 +372,4 @@ Sada kada ste stigli do kraja svog putovanja na Mempool.space, postanite sopstve
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

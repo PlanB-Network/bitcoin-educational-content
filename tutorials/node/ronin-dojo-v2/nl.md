@@ -20,7 +20,7 @@ deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. W
 
 In een vorige tutorial hebben we al uitgelegd hoe je RoninDojo v1 installeert en gebruikt. Het afgelopen jaar hebben de RoninDojo teams echter versie 2 van hun implementatie gelanceerd, wat een belangrijk keerpunt betekende in de architectuur van de software. Ze zijn namelijk afgestapt van de Linux Manjaro distributie ten gunste van Debian. Daarom bieden ze niet langer een voorgeconfigureerd image voor automatische installatie op de Raspberry Pi. Maar er is nog wel een methode voor handmatige installatie. Dit is wat ik heb gebruikt voor mijn eigen node, en sindsdien werkt RoninDojo v2 fantastisch op mijn Raspberry Pi 4. Daarom bied ik een nieuwe tutorial aan over hoe je RoninDojo v2 handmatig installeert op een Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Inhoudsopgave:
 
@@ -333,7 +333,7 @@ Eenmaal op de RoninUI homepage, zal je gevraagd worden om de setup te starten. K
 ![lets start](assets/notext/25.webp)
 
 
-In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager] (https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Na het uitvoeren van coinjoins met Whirlpool is het handig om het bereikte priva
 Om de berekeningsmechanismen van deze anonsets beter te begrijpen, raad ik je aan het artikel te lezen: REMIX - Whirlpool, waarin de werking van deze indices gedetailleerd wordt beschreven.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

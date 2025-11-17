@@ -1,26 +1,18 @@
 ---
-name: Introduktion till österrikisk ekonomi
-goal: Upptäck den österrikiska skolan inom ekonomiskt tänkande. Studera deras syn på samhället och makro-/mikroekonomiska realiteter.
-objectives: 
-
-  - Ett alternativ till keynesianismen
-  - Betydelsen av Hard-valutan
-  - Varför och hur skapas våra ekonomiska cykler?
-  - Varför har centralbankerna blivit galna?
-
+name: Grunderna i den österrikiska ekonomiska skolan
+goal: Upptäck österrikisk ekonomi som ett alternativt ramverk för att analysera marknader och individuellt beslutsfattande
+objectives:
+- Analysera funktionerna hos pengar, kredit och centralbankssystem
+- Tillämpa subjektiv värdeteori och tidspreferens på marknadsbeteende
+- Förstå den österrikiska konjunkturteorin och dess orsaker
+- Jämföra österrikisk metodologi med mainstream ekonomiska tillvägagångssätt
 ---
+# Resan till den österrikiska ekonomin
 
-# En resa in i ekonomin
+Har du någonsin undrat varför vissa ekonomer tänker annorlunda om marknader, frihet och mänskligt beteende? Österrikisk ekonomi erbjuder ett uppfriskande perspektiv som placerar dig i hjärtat av ekonomiskt tänkande. Istället för tung matematik och abstrakta modeller fokuserar detta tillvägagångssätt på logik, mänskliga val och hur riktiga människor fattar beslut i sina dagliga liv. Det är ekonomi genom frihetens, rationalitetens och personliga handlingens lins.
 
-
-Välkommen till Théo Mogenets kurs! Han har en passion för ekonomi, historia, litteratur, statsvetenskap och teknik och har bestämt sig för att dela med sig av sina kunskaper om österrikisk ekonomi. Denna gren, som är mindre känd inom nationalekonomin, bygger på mänsklig rationalitet och fria aktörers beteende. Mindre intensiv i matematik, det är en fråga om logik och sociala studier framför allt.
-
-
-Denna tankeskola har redan flera århundraden på nacken och har ett helt panorama av författare, tankar och ekonomer bakom sig. Stora namn inom nationalekonomin som Hayek, Rothbard, Mises, Bastiat eller Menger har länge försvarat denna rörelse. I motsats till dagens allestädes närvarande keynesianism sätter den österrikiska skolan individen tillbaka i centrum för ekvationen med ett mer liberalt, kapitalistiskt och till och med anarkistiskt synsätt.
-
-
+Denna tankeskola har format debatter i århundraden, tack vare inflytelserika tänkare som Hayek, Mises och Bastiat. Medan den keynesianska mainstream-ekonomin dominerar dagens politiska diskussioner, ställer den österrikiska traditionen andra frågor: Vad händer när vi prioriterar individuell frihet? Hur fungerar fria marknader egentligen när människor är fria att välja? Om du är nyfiken på alternativa sätt att tänka om marknader, samhälle och frihet, är detta din chans att utforska idéer som du inte hittar i standardläroböcker.
 +++
-
 # Inledning
 
 

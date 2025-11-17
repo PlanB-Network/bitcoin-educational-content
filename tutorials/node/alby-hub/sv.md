@@ -548,4 +548,4 @@ Och nu vet du hur du använder Lightning med din egen nod med hjälp av Alby Hub
 För att i detalj förstå alla blixtmekanismer som vi har manipulerat i den här handledningen rekommenderar jag starkt att du upptäcker vår gratis utbildning i ämnet :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

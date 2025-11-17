@@ -1,26 +1,19 @@
 ---
-name: Studie hyperinflace
+name: Případové studie hyperinflace
 goal: Pochopení vzniku hyperinflací ve světě Fiatu a jejich důsledků
-objectives: 
-
-  - Studium hyperinflačních cyklů
-  - Pochopit skutečné dopady hyperinflace na náš každodenní život
-  - Studie podobností hyperinflací v průběhu času
-  - Mít konkrétní představu o tom, jak se chránit před hyperinflací
-
+objectives:
+- Studium hyperinflačních cyklů
+- Pochopit skutečné dopady hyperinflace na náš každodenní život
+- Studie podobností hyperinflací v průběhu času
+- Mít konkrétní představu o tom, jak se chránit před hyperinflací
 ---
+# Cesta ekonomickým kolapsem
 
-# Cesta do ekonomiky
+Jak to vypadá, když peníze ztrácejí svůj význam?
+Tento kurz vás provede fascinujícím, avšak otřesným světem hyperinflace. Objevíte historické epizody a moderní případy, kdy měny zkolabovaly a ekonomiky se přes noc proměnily. Odhalíte vzorce, příčiny a reálný dopad na každodenní životy lidí a získáte vhled do jednoho z nejdramatičtějších jevů ekonomie.
 
-
-Cílem tohoto programu je poskytnout hluboké porozumění vzniku hyperinflací ve světě, kde dominuje Fiat měna, a prozkoumat jejich významné důsledky. Účastníci se budou podrobně zabývat cykly hyperinflace, zkoumat její příčiny, spouštěče a uvádět historické i současné příklady. Budou také zkoumat hmatatelný dopad hyperinflace na ekonomiku a každodenní život, studovat dopady na hodnotu měny, kupní sílu a individuální i kolektivní úspory.
-
-
-Upozorníme zde na trendy a společné vzorce v epizodách hyperinflace v historii a zároveň poskytneme účinné a konkrétní strategie, jak se v období hyperinflace chránit. Účastníci budou mít příležitost prozkoumat různé investiční možnosti a finanční obranné mechanismy a získají praktické nástroje a nezbytné znalosti pro klidnou orientaci v nestabilním ekonomickém klimatu.
-
-
+Po cestě také objevíte, jak jednotlivci a komunity procházeli těmito bouřlivými obdobími. Naučte se strategie, které pomohly chránit bohatství během měnových krizí, a vybudujte si hlubší porozumění finanční odolnosti. Pokud vás zajímají ekonomické síly, které formují náš svět, tato cesta nabízí jak znalosti, tak praktickou perspektivu.
 +++
-
 # Úvod
 
 
@@ -1427,8 +1420,8 @@ Klíčovým poznatkem je, že existuje několik strategií, jak překonat hyperi
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
+[Objevte naskenovanou kolekci v *Bitcoin Educational Toolkit* (také přístupné z části *Zdroje* na platformě Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
-[Objevte naskenovanou sbírku v souboru vzdělávacích nástrojů *Bitcoin* (přístupný také v sekci *Zdroje* na platformě Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/cs/068.webp)

@@ -42,7 +42,7 @@ Este treinamento é um esforço conjunto de três de nossos professores:
 
 - Renaud Lifchitz, especialista em cibersegurança
 - Théo Pantamis, doutor em matemática aplicada
-- Rogzy, Co-fundador da Plan ₿ Network
+- Rogzy, Co-fundador da Plan ₿ Academy
 
 Sua higiene digital é crucial em um mundo cada vez mais digital. Apesar do aumento constante no número de ataques cibernéticos e vigilância em massa, ainda não é tarde demais para dar o primeiro passo e se proteger.
 'Dans esta formação, não estamos buscando torná-lo um especialista, anônimo ou inatacável, isso é impossível. Em vez disso, oferecemos algumas soluções simples e acessíveis a todos para começar a transformar seus hábitos online e retomar o controle de sua soberania digital.
@@ -127,7 +127,7 @@ O TOR é legal e é usado por jornalistas, ativistas da liberdade e outras pesso
 
 ![image](assets/pt/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN e conexão com a internet
 
@@ -152,9 +152,9 @@ No entanto, o uso de um VPN público não garante anonimato completo. Muitos pro
 
 Por fim, um VPN também pode ser usado para bloquear anúncios online, oferecendo uma experiência de navegação mais agradável e segura. No entanto, é importante fazer sua própria pesquisa para encontrar o VPN mais adequado às suas necessidades específicas. O uso de um VPN é recomendado para reforçar a segurança, mesmo ao navegar na internet em casa. Isso ajuda a garantir um nível mais alto de segurança para os dados trocados online. Por fim, certifique-se de verificar os URLs e o pequeno cadeado na barra de endereço para confirmar que você está no site que pensa estar visitando.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS e redes Wi-Fi públicas
 
@@ -267,9 +267,9 @@ NÃO, geralmente é desaconselhável pagar aos hackers em caso de ransomware ou 
 
 Se você detectar um vírus em seu computador, desconecte-o da internet, faça uma análise antivírus completa e exclua os arquivos infectados. Em seguida, atualize seus softwares e sistema operacional e altere suas senhas para evitar outras intrusões.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementação das soluções.
 
@@ -309,7 +309,7 @@ Em geral, começar a usar um novo endereço de e-mail mais seguro não é uma m�
 
 Bônus Bitcoin: Pode ser aconselhável criar um endereço de e-mail especialmente para nossas atividades Bitcoin (criação de contas de troca) para realmente separar os centros de atividade em nossas vidas.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Gerenciador de senhas
 
@@ -358,9 +358,9 @@ Para criar uma password forte, é recomendado usar um grande número de caracter
 
 Passwords geradas aleatoriamente oferecem um nível de segurança superior, embora possam ser mais difíceis de lembrar. Gestores de passwords podem gerar passwords aleatórias mais seguras. Ao usar um gestor de passwords, não é necessário memorizar todas as suas passwords. É importante substituir gradualmente as suas passwords antigas pelas geradas pelo gestor, pois são mais fortes e mais longas. Certifique-se de que a password mestre do seu gestor de passwords também é forte e segura.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Autenticação de 2 fatores
 
@@ -409,9 +409,9 @@ Continue aprendendo e implementando gradualmente as boas práticas!
 
 Regra de ouro: A segurança da informação é um alvo em movimento que se adaptará ao seu percurso de aprendizagem!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Seção Prática
 
@@ -423,7 +423,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Proteger sua caixa de e-mail é uma etapa importante para garantir a segurança de suas atividades online e preservar seus dados pessoais. Este tutorial irá guiá-lo, passo a passo, na criação e configuração de uma conta ProtonMail, um provedor reconhecido pelo seu alto nível de segurança que oferece criptografia de ponta a ponta das suas comunicações. Seja você um novato ou um usuário experiente, as boas práticas apresentadas aqui ajudarão a fortalecer a segurança do seu e-mail, aproveitando as funcionalidades avançadas do ProtonMail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Segurança em 2FA
 
@@ -431,11 +431,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 A autenticação de dois fatores (2FA) tornou-se essencial para proteger suas contas online. Neste tutorial, você aprenderá a configurar e usar o aplicativo 2FA Authy, que gera códigos dinâmicos de 6 dígitos para proteger suas contas. O Authy é muito fácil de usar e sincroniza em vários dispositivos. Descubra como instalar e configurar o Authy e, assim, fortaleça a segurança de suas contas online agora mesmo:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Outra opção é usar uma chave de segurança física. Este outro tutorial mostra como configurar e usar uma chave de segurança como segundo fator de autenticação:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Criando um gerenciador de senhas
 
@@ -445,11 +445,11 @@ A gestão de senhas é um desafio na era digital. Todos nós temos inúmeros con
 
 Neste tutorial, descubra como configurar o Bitwarden, um gerenciador de senhas open-source, e como sincronizar suas credenciais em todos os seus dispositivos para simplificar seu uso diário:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Para usuários mais avançados, também ofereço um tutorial sobre outro software gratuito e open-source para usar localmente na gestão de suas senhas:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Protegendo suas contas
 
@@ -457,9 +457,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Nestes dois tutoriais, também vou guiá-lo na segurança de suas contas online e explicar como adotar gradualmente práticas mais seguras para gerenciar suas senhas diariamente.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Mudança de navegador & VPN
 
@@ -469,13 +469,13 @@ A proteção da sua privacidade online também é um ponto a ser considerado par
 
 Proponho que você descubra duas soluções de VPN confiáveis e pagáveis com bitcoin, que são IVPN e Mullvad. Estes tutoriais guiarão você para instalar, configurar e usar Mullvad ou IVPN em todos os seus dispositivos:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Além disso, descubra como usar o Tor Browser, um navegador especificamente projetado para proteger sua privacidade online:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Configuração de Backup
 
@@ -483,11 +483,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Proteger seus arquivos pessoais também é um ponto essencial. Este tutorial mostra como implementar uma estratégia de backup eficaz usando o Proton Drive. Descubra como usar esta solução de nuvem segura para aplicar o método 3-2-1: três cópias dos seus dados em dois suportes diferentes, sendo uma cópia fora do local. Assim, você garante a acessibilidade e a segurança dos seus arquivos sensíveis:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 E para proteger seus arquivos armazenados em mídias removíveis como um pendrive USB ou um disco rígido externo, também mostro como criptografar e descriptografar essas mídias facilmente usando o VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Vá além
 

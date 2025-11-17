@@ -1,23 +1,23 @@
 ---
 name: Ajouter un projet
-description: Comment proposer l'ajout d'un nouveau projet sur PlanB Network ?
+description: Comment proposer l'ajout d'un nouveau projet sur Plan ₿ Academy ?
 ---
 ![project](assets/cover.webp)
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
-Vous souhaitez ajouter un nouveau "project" Bitcoin sur le site de PlanB Network et donner de la visibilité à votre entreprise ou à votre logiciel, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
+Vous souhaitez ajouter un nouveau "project" Bitcoin sur le site de Plan ₿ Academy et donner de la visibilité à votre entreprise ou à votre logiciel, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 ![project](assets/01.webp)
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait un tutoriel détaillé pour vous accompagner.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) dans la section `resources/project/` :
 ![project](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![project](assets/03.webp)
-- Si vous n'avez encore jamais contribué sur les contenus de PlanB Network, vous allez devoir créer votre fork du dépôt original. Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Cliquez sur le bouton `Fork this repository` :
+- Si vous n'avez encore jamais contribué sur les contenus de Plan ₿ Academy, vous allez devoir créer votre fork du dépôt original. Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Cliquez sur le bouton `Fork this repository` :
 ![project](assets/04.webp)
 - Vous arrivez ensuite sur la page d'édition de GitHub :
 ![project](assets/05.webp)
@@ -112,7 +112,7 @@ category: education
 ![project](assets/13.webp)
 - Cliquez sur votre image de profil GitHub en haut à droite, puis sur `Your Repositories` :
 ![project](assets/14.webp)
-- Sélectionnez votre fork du dépôt de PlanB Network :
+- Sélectionnez votre fork du dépôt de Plan ₿ Academy :
 ![project](assets/15.webp)
 - Vous devriez voir apparaître sur le haut de la fenêtre une notification avec votre nouvelle branche. Elle s'appelle sûrement `patch-1`. Cliquez dessus :
 ![project](assets/16.webp)
@@ -134,7 +134,7 @@ category: education
 ![project](assets/24.webp)
 - Cliquez sur le bouton `Add file`, puis sur `Upload files` :
 ![project](assets/25.webp)
-- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image de votre entreprise ou de votre logiciel. C'est cette image qui sera affichée sur le site de PlanB Network :
+- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone une image de votre entreprise ou de votre logiciel. C'est cette image qui sera affichée sur le site de Plan ₿ Academy :
 ![project](assets/26.webp)
 - Ça peut être le logo ou une icône :
 ![project](assets/27.webp)
@@ -164,7 +164,7 @@ contributors:
  - 
 ```
 
-- Pour la clé `contributors`, vous pouvez ajouter votre identifiant de contributeur à PlanB Network si vous en avez un. Si vous n'en avez pas, laissez ce champ vide.
+- Pour la clé `contributors`, vous pouvez ajouter votre identifiant de contributeur à Plan ₿ Academy si vous en avez un. Si vous n'en avez pas, laissez ce champ vide.
 - Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre entreprise ou votre logiciel. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de PlanB le feront avec leur modèle. Par exemple, voici à quoi pourrait ressembler votre fichier :
 ```yaml
 description: |
@@ -188,9 +188,9 @@ contributors:
 ![project](assets/43.webp)
 - Cliquez sur le bouton `Create pull request` :
 ![project](assets/44.webp)
-Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant la vérifier et, si tout est conforme, l'intégrer au dépôt principal de PlanB Network. Vous devriez voir votre profil de project apparaître sur le site web quelques jours plus tard.
+Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant la vérifier et, si tout est conforme, l'intégrer au dépôt principal de Plan ₿ Academy. Vous devriez voir votre profil de project apparaître sur le site web quelques jours plus tard.
 
-Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de PlanB Network :
+Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de Plan ₿ Academy :
 ![project](assets/45.webp)
 Merci beaucoup pour votre précieuse contribution ! :)
 

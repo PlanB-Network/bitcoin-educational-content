@@ -134,13 +134,13 @@ description: 在家轻松制作 Mining。
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 第二种方法是将我们连接到单机版的 Mining pool，如 Public Pool，请按照本指南进行操作：
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### 布雷恩斯游泳池
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 完成后，我们就进入了Braiins矿池仪表盘。我们要做的就是告诉矿池，我们要连接我们的矿工，所以在屏幕左侧，你会发现很多条目。我们需要转到 "工人"。
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-这里会出现一个窗口，提供我们将迷你 Miner 连接到池所需的信息。在这里，我们唯一能做的更改就是选择 Stratum V2。要了解什么是 Stratum v2，请参阅 [词汇表](https://planb.network/en/resources/glossary/stratum-v2) 中的此条目。
+这里会出现一个窗口，提供我们将迷你 Miner 连接到池所需的信息。在这里，我们唯一能做的更改就是选择 Stratum V2。要了解什么是 Stratum v2，请参阅 [词汇表](https://planb.academy/en/resources/glossary/stratum-v2) 中的此条目。
 
 
 

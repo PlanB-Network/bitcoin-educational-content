@@ -1,6 +1,6 @@
 ---
 name: Dodawanie powtórki konferencji
-description: Jak dodać powtórkę konferencji w PlanB Network?
+description: Jak dodać powtórkę konferencji w Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Jak dodać powtórkę konferencji w PlanB Network?
 Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na temat Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, dzięki czemu każdy może przyczynić się do wzbogacenia platformy.
 
 
-Czy chcesz dodać powtórkę swojej konferencji Bitcoin na stronie PlanB Network i zapewnić widoczność tego wydarzenia, ale nie wiesz jak? Ten poradnik jest dla Ciebie!
+Czy chcesz dodać powtórkę swojej konferencji Bitcoin na stronie Plan ₿ Academy i zapewnić widoczność tego wydarzenia, ale nie wiesz jak? Ten poradnik jest dla Ciebie!
 
 
 Jeśli jednak chcesz dodać konferencję, która odbędzie się w przyszłości, radzę przeczytać ten samouczek, w którym wyjaśniamy, jak dodać nowe wydarzenie do witryny.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - Po pierwsze, musisz mieć konto na GitHub. Jeśli nie wiesz, jak utworzyć konto, przygotowaliśmy szczegółowy samouczek, który Cię poprowadzi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- Jeśli nigdy wcześniej nie współtworzyłeś zawartości PlanB Network, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
+- Jeśli nigdy wcześniej nie współtworzyłeś zawartości Plan ₿ Academy, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
 
 ![conference](assets/04.webp)
 
@@ -105,7 +105,7 @@ tags:
 Jeśli nie masz jeszcze identyfikatora "*project*" dla swojej organizacji, możesz go dodać, postępując zgodnie z tym samouczkiem.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/14.webp)
 
 
-- Wybierz Fork z repozytorium PlanB Network:
+- Wybierz Fork z repozytorium Plan ₿ Academy:
 
 ![conference](assets/15.webp)
 
@@ -190,7 +190,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Otworzy się nowa strona. Przeciągnij i upuść obraz, który reprezentuje Twoją konferencję i będzie wyświetlany na stronie PlanB Network: ![conference](assets/26.webp)
+- Otworzy się nowa strona. Przeciągnij i upuść obraz, który reprezentuje Twoją konferencję i będzie wyświetlany na stronie Plan ₿ Academy: ![conference](assets/26.webp)
 - Może to być logo, miniatura, a nawet plakat:
 
 ![conference](assets/27.webp)
@@ -299,7 +299,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- Na początku dokumentu, we "front matter", wypełnij pole `name:` z nazwą konferencji i rokiem powtórek. W polu `description:` wpisz krótki opis wydarzenia w języku pliku. Na przykład, dla pliku o nazwie `en.md`, opis powinien być w języku angielskim. Zespół PlanB Network zajmie się tłumaczeniem opisu przy użyciu swojego modelu.
+- Na początku dokumentu, we "front matter", wypełnij pole `name:` z nazwą konferencji i rokiem powtórek. W polu `description:` wpisz krótki opis wydarzenia w języku pliku. Na przykład, dla pliku o nazwie `en.md`, opis powinien być w języku angielskim. Zespół Plan ₿ Academy zajmie się tłumaczeniem opisu przy użyciu swojego modelu.
 - Tytuły pierwszego poziomu, oznaczone `#`, są używane do organizowania konferencji według scen. Na przykład `# Main Stage` dla sceny głównej i `# Workshop Room` dla sceny poświęconej warsztatom.
 
 
@@ -357,10 +357,10 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Gratulacje! Twój PR został pomyślnie utworzony. Administrator przejrzy go teraz i, jeśli wszystko jest w porządku, połączy go z głównym repozytorium PlanB Network. Powtórki Twojej konferencji powinny pojawić się na stronie kilka dni później.
+Gratulacje! Twój PR został pomyślnie utworzony. Administrator przejrzy go teraz i, jeśli wszystko jest w porządku, połączy go z głównym repozytorium Plan ₿ Academy. Powtórki Twojej konferencji powinny pojawić się na stronie kilka dni później.
 
 
-Pamiętaj, aby śledzić postępy swojego PR. Możliwe, że administrator pozostawi komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz go wyświetlić w zakładce `Pull requests` w repozytorium PlanB Network na GitHubie:
+Pamiętaj, aby śledzić postępy swojego PR. Możliwe, że administrator pozostawi komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz go wyświetlić w zakładce `Pull requests` w repozytorium Plan ₿ Academy na GitHubie:
 
 ![conference](assets/46.webp)
 

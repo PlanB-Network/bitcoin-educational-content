@@ -344,7 +344,7 @@ Wallet شما به شماره تلفن شما متصل است:
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 شما همچنین دارای عملکرد "**Clan**" هستید که به شما امکان می‌دهد یک سیستم چند امضایی تعاونی را مدیریت کنید: اعضای کلن باید هر هزینه را تأیید کنند و شما می‌توانید به‌طور خودکار وجوه را بین آن‌ها توزیع کنید.
 
@@ -439,13 +439,13 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 ماچانکورا قابلیت همکاری بین کیف پول‌های مختلف لایتنینگ را فراهم می‌کند. در این نمایش، ما بیت‌کوین‌ها را از ماچانکورا واتساپ Wallet خود به یک Wallet از Satoshi Wallet ارسال می‌کنیم.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 برای ارسال، لطفاً عدد 1 را وارد کنید که با گزینه "SEND BTC" مطابقت دارد. سپس، گزینه ارسال "Lightning Address" را انتخاب کنید، سپس Address را که بیت‌کوین‌ها باید به آن ارسال شوند وارد کنید. در نهایت، معیار ارزش "Sats" را انتخاب کنید، تعداد ساتوشی‌هایی که باید ارسال شوند را مشخص کنید و ارسال را تأیید کنید.
 
@@ -577,9 +577,9 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### بررسی موجودی حساب
 

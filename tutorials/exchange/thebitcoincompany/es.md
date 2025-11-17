@@ -40,7 +40,7 @@ En resumen, "gastar" y "sustituir" parecen ser el camino a seguir. Participar en
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 El mensaje no puede ser más claro: "Gasta tus Bitcoins en todas partes".
 
@@ -117,9 +117,9 @@ Si eres de la vieja escuela y quieres descubrir cómo crear fácilmente un buzó
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Por nuestra parte, vamos a optar por "Iniciar sesión con Lightning".
 
@@ -154,7 +154,7 @@ Así que vamos a abrir nuestro Wallet Phoenix, y escanear el código QR que se m
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Al instante, se le identifica a través de su Wallet Lightning, que puede ser Phoenix u otro, por supuesto, ya que la mayoría de los monederos del mercado admiten esta función.
 
@@ -291,4 +291,4 @@ Si quieres ayudar a popularizar Bitcoin y animar a un comerciante independiente 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

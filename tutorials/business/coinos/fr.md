@@ -298,4 +298,4 @@ Je vous remercie d'avoir lu cet article jusqu'à la fin. Si ce tutoriel vous a �
 
 Je vous suggère de découvrir ce tutoriel sur Aqua. Il s'agit également d'un portefeuille, à l'instar de Coinos qui prend en charge Bitcoin, Liquid et Lightning.
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

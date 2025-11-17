@@ -1,26 +1,19 @@
 ---
-name: Studije hiperinflacije
+name: Studije slučajeva hiperinflacije
 goal: Razumevanje pojave hiperinflacija u svetu Fiat valuta i njihovih posledica
-objectives: 
-
-  - Proučavanje ciklusa hiperinflacije
-  - Razumeti stvarne uticaje hiperinflacije na naše svakodnevne živote
-  - Proučavanje sličnosti hiperinflacija kroz vreme
-  - Imajte konkretnu ideju o tome kako se zaštititi od hiperinflacija
-
+objectives:
+- Proučavanje ciklusa hiperinflacije
+- Razumeti stvarne uticaje hiperinflacije na naše svakodnevne živote
+- Proučavanje sličnosti hiperinflacija kroz vreme
+- Imajte konkretnu ideju o tome kako se zaštititi od hiperinflacija
 ---
+# Putovanje kroz ekonomski kolaps
 
-# Putovanje u ekonomiju
+Kako izgleda kada novac gubi svoje značenje?
+Ovaj kurs vas vodi kroz fascinantan, ali otrežnjujući svet hiperinflacije. Otkrit ćete istorijske epizode i savremene slučajeve u kojima su valute kolabиrale i ekonomije se transformisale preko noći. Otkrit ćete obrasce, uzroke i stvarni uticaj na svakodnevne ljude, stiču uvid u jedan od najdramatičnijih fenomena ekonomije.
 
-
-Ovaj program ima za cilj da pruži duboko razumevanje pojave hiperinflacija u svetu kojim dominira Fiat valuta i da ispita njihove značajne posledice. Učesnici će detaljno istražiti cikluse hiperinflacije, analizirajući uzroke, okidače, kao i istorijske i savremene primere. Takođe će ispitati opipljiv uticaj hiperinflacija na ekonomiju i svakodnevni život, proučavajući posledice na vrednost valute, kupovnu moć, kao i individualne i kolektivne uštede.
-
-
-Ovde ćemo istaknuti trendove i uobičajene obrasce u epizodama hiperinflacije kroz istoriju, dok ćemo pružiti efikasne i konkretne strategije za zaštitu tokom perioda hiperinflacije. Učesnici će imati priliku da istraže različite investicione opcije i mehanizme finansijske odbrane, stičući praktične alate i osnovno znanje za mirno snalaženje u nestabilnoj ekonomskoj klimi.
-
-
+Usput ćete takođe otkriti kako su pojedinci i zajednice navigirali kroz ove turbulentne periode. Naučite strategije koje su pomogle u zaštiti bogatstva tokom valutnih kriza i izgradite dublje razumevanje finansijske otpornosti. Ako ste radoznali o ekonomskim silama koje oblikuju naš svet, ovo putovanje nudi i znanje i praktičnu perspektivu.
 +++
-
 # Uvod
 
 
@@ -1369,7 +1362,7 @@ Ključna poruka je da postoji nekoliko strategija za prevazilaženje hiperinflac
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Otkrijte skeniranu kolekciju u *Bitcoin Educational Toolkit* (takođe dostupno iz odeljka *Resursi* na Plan ₿ Network platformi.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Otkrijte skeniranu kolekciju u *Bitcoin Educational Toolkit* (takođe dostupno iz odeljka *Resursi* na Plan ₿ Academy platformi.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![slika](assets/sr-Latn/068.webp)

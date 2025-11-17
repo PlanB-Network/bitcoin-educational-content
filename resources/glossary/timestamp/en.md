@@ -1,5 +1,5 @@
 ---
-term: HORODATAGE
+term: TIMESTAMP
 ---
 
 Timestamping, or "Timestamp" in English, is a mechanism for associating a precise time mark with an event, data or message. In the general context of computer systems, timestamping is used to determine the chronological order of operations and to verify the integrity of data over time.

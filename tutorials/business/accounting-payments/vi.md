@@ -28,7 +28,7 @@ Bước tiếp theo là chấp nhận Bitcoin trực tiếp trong doanh nghiệp
 Để đơn giản, chúng tôi sẽ sử dụng Wallet của Satoshi làm ví dụ. Hãy làm theo các bước sau để cài đặt và cấu hình:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Sau khi làm theo hướng dẫn, bạn sẽ sẵn sàng chấp nhận Bitcoin làm phương thức thanh toán: chỉ cần mở ứng dụng di động và nhấp vào nút "Nhận", sau đó nhập số tiền (thường là tiền tệ địa phương của bạn) vào generate và Invoice do người dùng thanh toán.
 
@@ -59,7 +59,7 @@ Có ba lợi ích khi sử dụng tính năng Điểm bán hàng:
 Để biết thêm thông tin, hãy xem hướng dẫn chuyên sâu về Wallet của Satoshi - Điểm bán hàng:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Quy định
 

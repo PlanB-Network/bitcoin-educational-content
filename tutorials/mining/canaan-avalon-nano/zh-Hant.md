@@ -23,7 +23,7 @@ description: 設定您的 ASIC Avalon 用於獨採或 Miner 匯集
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 請注意，在絕大多數情況下，與同等功率的傳統加熱器之間的價格差異不會讓您獲得財務利潤。除非您能獲得免費（剩餘）或非常便宜的電力，否則 Mining 的活動所產生的 Satoshis 絕對無法彌補這種價格差異。
 
@@ -207,9 +207,9 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 總括而言，我們需要
 
@@ -358,4 +358,4 @@ https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

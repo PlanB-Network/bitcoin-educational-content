@@ -21,9 +21,9 @@ Avec cette application, Breez vous offre un contrôle complet sur les configurat
 
 Vous pouvez explorer les différentes options du portefeuille Breez en suivant notre tutoriel ci-dessous. Cette étape vous sera utile pour mieux comprendre l’écosystème du point de vente et adopter les bonnes pratiques afin de sécuriser efficacement les bitcoins associés à votre seed.
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ## Utiliser Breez POS
@@ -77,4 +77,4 @@ Vous pouvez également afficher un résumé journalier de vos ventes et du monta
 
 Vous avez désormais une prise en main complète du point de vente proposé par l'application Breez pour une intégration fluide de Bitcoin dans votre commerce. Si ce tutoriel vous a été utile, nous vous recommandons notre tutoriel sur be-BOP, une plateforme de e-commerce qui vous permet d'encaisser des paiements en bitcoins et de monétiser votre activité.
 
-https://planb.network/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

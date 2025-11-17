@@ -39,7 +39,7 @@ Dans cet exemple, nous utiliserons une connexion à un serveur Electrum tournant
 
 N'hésitez pas à vous référer à notre tutoriel Umbrel si vous souhaitez avoir plus d'information à ce sujet : 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Cette option offre une synchronisation plus rapide qu'avec Bitcoin Core. Si vous préférez, vous pouvez sélectionner "Bitcoin Core" et configurer la connexion à votre nœud local. Les étapes suivantes restent identiques quel que soit votre choix.
 
@@ -67,7 +67,7 @@ Sélectionnez votre hardware wallet. Dans cet exemple, nous utilisons un Coldcar
 
 Vous trouverez ci-dessous notre tutoriel concernant ce hardware wallet : 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Pour un Coldcard, vous devez exporter les clés publiques depuis le hardware wallet soit avec une connexion USB soit via une carte microSD.
 
@@ -137,9 +137,9 @@ Pour créer un portefeuille multisig, commencez par ajouter tous les hardware wa
 
 Voici les liens des tutoriels concernant le Ledger et le Passport : 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Ajoutez le Passport en nommant le hardware wallet (par exemple "Passport multi") et en important ses clés via carte microSD ou QR code. Puis cliquez sur "Continue" pour passer à la suite.
 

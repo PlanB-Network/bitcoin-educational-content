@@ -22,7 +22,7 @@ Lorsque le téléchargement est achevé, veuillez accorder les permissions néce
 
 Une fois l'application installée, à votre première ouverture StashPay vous créera un portefeuille Bitcoin initial. Avant toute transaction, nous vous recommandons de faire la sauvegarde de ce portefeuille. Retrouvez ci-dessous, toutes nos directives pour assurer une bonne sauvegarde de vos phrases de récupération.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Accédez aux paramètres de StashPay en cliquant sur l'icône "Paramètres" puis cliquez sur l'option **Créer une sauvegarde**. Autorisez ensuite l'affichage des phrases de récupération. Ne copiez pas vos phrases de récupération dans le presse-papier de votre téléphone, car elles peuvent être accessibles à d'autres applications frauduleuses installées sur votre mobile.
 
@@ -46,7 +46,7 @@ Vous pouvez consulter l'historique de vos transactions en cliquant sur l'icône 
 
 Vous aurez constaté que pour recevoir des satoshis vous aurez à payer des frais de réseau. Ces frais seront déduits des satoshis que vous êtes sur le point de recevoir. En effet StashPay est un portefeuille qui se base sur le Kit de Développement de Breez. Pour recevoir des satoshis avec l'implémentation sans nœud Lightning du Kit, Breez facturera au client (StashPay dans notre cas) `0,25% + 40 satoshis`. Découvrez-en plus avec notre tutoriel sur Misty Breez.
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Envoyer des bitcoins avec StashPay
 
@@ -56,7 +56,7 @@ Envoyer des bitcoins avec StashPay est assez intuitif grâce à l'interface mini
 
 StashPay étant un portefeuille basé sur le Kit de Développement de Breez, il bénéficie d'un avantage intéressant : envoyer des bitcoins sur la chaîne principale avec peu de frais. Pour effectuer les transactions entre les différentes chaînes du protocole Bitcoin, Breez utilise le service Boltz et permet aux clients qui implémentent le Kit de Développement de profiter de ce service directement dans leur application.
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Toutefois, Breez SDK vous impose un montant minimal à partir duquel vous pouvez envoyer des bitcoins vers une adresse de la chaîne principale.
 
@@ -88,4 +88,4 @@ Le menu **Exporter le journal** liste toutes les actions des infrastructures de 
 
 Vous venez de prendre en main le portefeuille Bitcoin minimaliste StashPay. Si vous avez trouvé ce tutoriel utile, nous vous recommandons notre cursus pour débuter avec Bitcoin et obtenir vos premiers bitcoins.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

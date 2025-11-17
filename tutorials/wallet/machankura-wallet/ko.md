@@ -344,7 +344,7 @@ Wallet는 휴대폰 번호에 연결되어 있습니다:
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 또한 "**클랜**" 기능을 사용하면 클랜원들이 각 지출을 승인해야 하며, 클랜원들에게 자동으로 자금을 분배할 수 있는 협동 다중 서명 시스템을 관리할 수 있습니다.
 
@@ -439,13 +439,13 @@ Machankura 계정이 자동으로 생성됩니다. 메뉴로 돌아가 사용자
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 마찬쿠라는 서로 다른 라이트닝 지갑 간의 상호운용성을 지원합니다. 이 데모에서는 Machankura WhatsApp Wallet에서 Satoshi의 Wallet로 비트코인을 전송합니다.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 송금하려면 "BTC 보내기" 옵션에 해당하는 숫자 1을 입력합니다. 다음으로 "Lightning Address" 송금 옵션을 선택한 다음 비트코인을 전송할 Address를 입력합니다. 마지막으로 "Sats" 가치 측정값을 선택하고 전송할 사토시 개수를 표시한 후 발송을 확인합니다.
 
@@ -577,9 +577,9 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### 잔액 확인
 

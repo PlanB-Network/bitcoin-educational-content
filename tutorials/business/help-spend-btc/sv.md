@@ -13,7 +13,7 @@ description: En kort guide för att stimulera kunder att spendera sina bitcoins 
 Du har äntligen bestämt dig för att acceptera Bitcoin i ditt företag och allt är klart: Lightning Network Wallet är konfigurerat för att ta emot betalningar, dina anställda vet hur de ska använda den skrivskyddade versionen av Wallet för att ta emot betalningar för din räkning, Point of Sale (PoS) har konfigurerats med butiksprodukter och uppdateras varje månad och du vet redan hur du ska hantera Bitcoin-redovisningen från kunder. Om du inte vet hur du gör det kan du titta på den här handledningen:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Vad är problemet?
 
@@ -129,7 +129,7 @@ Metoden för implementering lämnas till handlaren, men här är kortfattat någ
 I vilket fall som helst är det alltid en god praxis att se till att ditt företag, om det har en fysisk plats, är närvarande och uppdaterat på [BTC Map](https://btcmap.org/map). De flesta bitcoinanvändare är bekanta med detta verktyg, och nästan alla som har spenderat bitcoin i fysiska butiker har åtminstone en gång kontrollerat vilka platser som accepterar dem. Om du vill lära dig hur du lägger till din butik på BTC Map eller vill ha mer information, se denna handledning:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Hantering av redovisning
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Om du undrar hur du hanterar bokföringen av just intjänade bitcoins, oavsett om du har tillämpat en av rabattpolicyerna eller inte, är det här handledningen för dig:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Slutsats
 

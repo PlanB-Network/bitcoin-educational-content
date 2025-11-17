@@ -74,7 +74,7 @@ In demselben Einstellungsmenü kannst du auch die Anwendungssprache und die verw
 
 Bevor du deine ersten Bitcoins in deiner Wallet empfängst, **rate ich dir dringend, eine leere Wiederherstellungstest durchzuführen**. Notiere dir einige Referenzinformationen, wie deine xpub oder deine erste Empfangsadresse, lösche dann deine Wallet in der Aqua-App, während sie noch leer ist. Versuche dann, deine Wallet mit deinem Papier-Backup wiederherzustellen. Überprüfe, ob die nach der Wiederherstellung erzeugten Informationen mit denen übereinstimmen, die du ursprünglich notiert hast. Wenn ja, kannst du sicher sein, dass dein Papier-Backup zuverlässig ist. Weitere Informationen dazu, wie man einen Wiederherstellungstest durchführt, findest du in diesem anderen Tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Du kannst es auf meinem Bildschirm nicht sehen, da ich einen Emulator verwende, aber in den Einstellungen findest du eine Option, um die App mit einem biometrischen Authentifizierungssystem zu sperren. Ich empfehle dringend, dieses Sicherheitsmerkmal zu aktivieren, da ohne es jeder, der Zugriff auf dein entsperrtes Telefon hat, deine Bitcoins stehlen könnte. Du kannst Face ID auf iOS oder deinen Fingerabdruck auf Android verwenden. Falls diese Methoden während der Authentifizierung fehlschlagen, kannst du die App immer noch mit dem PIN-Code deines Telefons aufrufen.
 
@@ -191,5 +191,5 @@ Falls dir dieses Tutorial hilfreich war, wäre ich dankbar, wenn du unten einen 
 
 Ich empfehle dir auch, dieses andere umfassende Tutorial über die Blockstream Green Mobile App zu lesen, das eine weitere interessante Lösung für die Einrichtung deiner Liquid Wallet ist:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 

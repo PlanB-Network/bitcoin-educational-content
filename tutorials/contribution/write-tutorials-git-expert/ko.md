@@ -1,6 +1,6 @@
 ---
 name: 기여 - Git 튜토리얼(고급)
-description: 고급 사용자를 위한 Git을 사용한 Plan ₿ Network 튜토리얼 제공 가이드
+description: 고급 사용자를 위한 Git을 사용한 Plan ₿ Academy 튜토리얼 제공 가이드
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: 고급 사용자를 위한 Git을 사용한 Plan ₿ Network 튜토
 새 튜토리얼 추가에 대한 이 튜토리얼을 따라하기 전에 몇 가지 사전 단계를 완료해야 합니다. 아직 완료하지 않았다면 이 소개 튜토리얼을 먼저 살펴본 다음 여기로 돌아와 주세요:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 이미 가지고 계십니다:
 
 
 
 - 튜토리얼의 테마를 선택합니다;
-- 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder) 또는 paolo@planb.network 을 통해 Plan ₿ Network 팀에 문의하세요;
+- 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder) 또는 paolo@planb.network 을 통해 Plan ₿ Academy 팀에 문의하세요;
 - 기여 도구를 선택하세요.
 
 
-이 튜토리얼에서는 숙련된 Git 사용자를 위해 새로운 Plan ₿ Network 튜토리얼을 제공하기 위한 핵심 단계와 필수 지침을 간략하게 요약해 드립니다. Git 및 GitHub에 익숙하지 않다면 단계별로 안내하는 다른 두 개의 자세한 튜토리얼 중 하나를 따르는 것이 좋습니다:
+이 튜토리얼에서는 숙련된 Git 사용자를 위해 새로운 Plan ₿ Academy 튜토리얼을 제공하기 위한 핵심 단계와 필수 지침을 간략하게 요약해 드립니다. Git 및 GitHub에 익숙하지 않다면 단계별로 안내하는 다른 두 개의 자세한 튜토리얼 중 하나를 따르는 것이 좋습니다:
 
 
 
 - 중급(GitHub 데스크톱):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - 초보자(웹 Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 추천 도구
 
@@ -217,11 +217,11 @@ reward:
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Network 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- 카테고리**: Plan ₿ Network 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
+- 카테고리**: Plan ₿ Academy 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
 
 
 
@@ -252,7 +252,7 @@ reward:
 교사 ID에 대한 자세한 내용은 해당 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -382,7 +382,7 @@ print("Hello, Bitcoin!")
     - 관련성이 높고 품질이 우수한지 확인하세요.
 - 그래픽 헌장**:
     - 글꼴: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - 색상 Plan ₿ Network:
+    - 색상 Plan ₿ Academy:
         - 주황색: `#FF5C00`
         - 검정: `#000000`
         - 흰색: `#FFFFFF`

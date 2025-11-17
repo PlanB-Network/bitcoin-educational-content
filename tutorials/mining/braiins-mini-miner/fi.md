@@ -68,17 +68,17 @@ Ensimmäinen vaihtoehto on `Pools`.
 
 Tässä kohdassa meidän on päätettävä, mitä poolia käytetään. Tässä oppaassa esitellään kaksi vaihtoehtoa. Ensimmäinen on yhdistäminen Braiins-louhintapooliin, jota myös ammattimaiset louhijat käyttävät, kuten näet tästä oppaasta:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Toinen vaihtoehto on yhdistäminen solo-louhintapooliin, kuten Public Pool. Seuraa tätä ohjetta:
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Braiins pool
 
 Yhdistääksemme tähän pooliin meidän täytyy luoda tili. Tämä pooli suorittaa myös maksuja Lightning Networkin kautta, joten voimme vastaanottaa muutamia satseja päivässä. Tätä varten on määritettävä Lightning-osoite palkkioiden vastaanottamista varten. Jos et tiedä, kuinka tili luodaan Braiins-poolissa tai kuinka Lightning-osoite määritetään, voit seurata tätä ohjetta:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Kun tämä on tehty, olemme Braiins-poolin hallintapaneelissa. Meidän on ilmoitettava poolille, että haluamme yhdistää yhden louhijoistamme. Näytön vasemmasta reunasta löydät useita valintoja. Valitse "workers".
 
@@ -88,7 +88,7 @@ Klikkaa sitten oikeassa reunassa olevaa violettia painiketta "Connect workers".
 
 ![image](assets/en/05.webp)
 
-Tämän jälkeen avautuu ikkuna, jossa on tarvittavat tiedot Mini Minerin liittämiseksi pooliin. Ainoa muutos, jonka voimme tehdä, on valita Stratum V2. Lisätietoa Stratum v2:sta löydät tästä [sanastosta](https://planb.network/en/resources/glossary/stratum-v2).
+Tämän jälkeen avautuu ikkuna, jossa on tarvittavat tiedot Mini Minerin liittämiseksi pooliin. Ainoa muutos, jonka voimme tehdä, on valita Stratum V2. Lisätietoa Stratum v2:sta löydät tästä [sanastosta](https://planb.academy/en/resources/glossary/stratum-v2).
 
 ![image](assets/en/10.webp)
 

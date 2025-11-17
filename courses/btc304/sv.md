@@ -241,7 +241,7 @@ Bitcoin-möten kan tjäna många syften:
 
 
 
-Vi kommer att gå igenom många av dessa möjligheter i detalj i del 6/8 av den här kursen, med titeln "[Exempel på projekt och initiativ] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Vi kommer att gå igenom många av dessa möjligheter i detalj i del 6/8 av den här kursen, med titeln "[Exempel på projekt och initiativ] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Ditt första evenemang kommer troligen att vara en meet-up. Dess huvudsyfte är 
 
 
 
-Men som vi kommer att se senare i [Exempel på projekt och initiativ] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kan en träff byggas upp på många sätt, med många mål:**
+Men som vi kommer att se senare i [Exempel på projekt och initiativ] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kan en träff byggas upp på många sätt, med många mål:**
 
 
 
@@ -866,7 +866,7 @@ För handledningarna nedan använde vi ursprungligen "Telegram +" APK, vilket m�
 Om du vill skapa en plats där dina medlemmar kan prata direkt med varandra, svara på varandra osv. bör du kanske skapa en Telegram-grupp och inte en Telegram-kanal!
 
 
-Gå direkt till nästa avsnitt med rubriken [Skapa en Telegramgrupp] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Gå direkt till nästa avsnitt med rubriken [Skapa en Telegramgrupp] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter är mycket lätt att använda, och för att förbättra din integritet b
 1/ ** @ Twitter**, som definierar din identitet och gör dig lätt att hitta. Om din kommuns namn är "Bitcoin [CITY]" är det lämpligt att välja "@Bitcoin[CITY]";
 
 
-2/ **den logotyp och banner** som du har skapat för din community eller mötesplats (se avsnitt [Skapa en logotyp, affisch och banner] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **den logotyp och banner** som du har skapat för din community eller mötesplats (se avsnitt [Skapa en logotyp, affisch och banner] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **beskrivningen**, som gör att du kan dela viktig information om ditt samhälle med några hundra tecken. Till exempel
@@ -1547,7 +1547,7 @@ I det andra fallet kan ett andra månatligt evenemang ägnas åt ett specifikt t
 
 
 
-Tänk på att **detta kräver mer organisation och mer av din tid**. Lyckligtvis hittar du i [del 6/8 av den här kursen] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) en rad återanvändbara resurser med öppen källkod som kan hjälpa dig.
+Tänk på att **detta kräver mer organisation och mer av din tid**. Lyckligtvis hittar du i [del 6/8 av den här kursen] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) en rad återanvändbara resurser med öppen källkod som kan hjälpa dig.
 
 
 I vilket fall som helst beror allt på den handlingsplan på kort, medellång och lång sikt som du eller ditt samhälle har fastställt för er själva.
@@ -1619,7 +1619,7 @@ Kontakta den plats där du ska hålla evenemanget och boka den för det beräkna
 
 
     - Dela datum, tid och plats på dina sociala nätverk och andra kommunikationskanaler. Inkludera en registreringslänk om det behövs.
-    - Skapa en särskild visuell del (till exempel en Canva-poster, se del 2/8 "[Designa en identitet för din Bitcoin-grupp] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Skapa en särskild visuell del (till exempel en Canva-poster, se del 2/8 "[Designa en identitet för din Bitcoin-grupp] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maximera synligheten genom att fästa tillkännagivandet på Telegram och Twitter och använda ett "@everyone"-omnämnande på Discord.
     - Skicka ut meddelanden 7 till 10 dagar före evenemanget så att deltagarna kan planera i förväg.
 
@@ -1721,7 +1721,7 @@ Rom byggdes inte på en dag, och det kommer inte heller ditt samhälle att göra
 För att få det att hända är en sak avgörande: **hålla deltagarna engagerade**.
 
 
-Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.**
+Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.**
 
 
 Allteftersom dina möten fortskrider kommer nya ansikten att dyka upp: människor som köpte BTC och/eller altcoins i tidigare cykler, teknikentusiaster som vill fördjupa sin förståelse eller nybörjare som är nyfikna på detta ocensurerbara, decentraliserade, transparenta och rättvisa betalningssystem som fungerar utan villkor och utan betrodda tredje parter.
@@ -1820,7 +1820,7 @@ Utöver det starka pedagogiska värdet gör detta tillvägagångssätt det möjl
 Nedan är den franska mötesprogressionen 2023-2024. För varje tema finns en presentation med öppen källkod och en video, som kan ge dig idéer om ämnen som du kan ta upp i dina egna evenemang.
 
 
-Ytterligare redigerbart material finns också i [Bitcoin Teaching Toolbox] (https://planb.network/fr/resources/bet)!
+Ytterligare redigerbart material finns också i [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Dessa flygblad kan riktas till:
 Du kan också utforma en flyer som är specifik för ditt community eller din mötesplats och som presenterar dina aktiviteter, mål, länkar till sociala medier, kommunikationskanaler och kommande evenemang.
 
 
-Flera flyers finns redan **tillgängliga som öppen källkod i [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** på planB.network och fler kommer att läggas till med tiden.
+Flera flyers finns redan **tillgängliga som öppen källkod i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** på planB.network och fler kommer att läggas till med tiden.
 
 
 Ett exempel är ett [komplett flygblad](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 skäl att använda Bitcoin. Dess design är också [tillgänglig i öppen källkod](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) så att du kan ändra, anpassa och dela den. Kom bara ihåg att ange dina källor.
@@ -2222,7 +2222,7 @@ Populära plattformar inkluderar:
 - [**peertube**] (https://joinpeertube.org/fr_FR), låter dig vara värd för din egen videoplattform, men det är mer komplicerat att ställa in.
 
 
-Oavsett vad du väljer, utforma plattformsspecifika bilder för att göra din kanal tilltalande. Canva, som nämns i [del 2/8] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) erbjuder en "YouTube Thumbnail" -kategori med färdiga, anpassningsbara mönster.
+Oavsett vad du väljer, utforma plattformsspecifika bilder för att göra din kanal tilltalande. Canva, som nämns i [del 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) erbjuder en "YouTube Thumbnail" -kategori med färdiga, anpassningsbara mönster.
 
 
 
@@ -2853,11 +2853,9 @@ Fördelarna är tvåfaldiga:
 - **Strukturerad organisation**: du kan definiera tydliga roller, vilket gör det lättare att driva din community och genomföra projekt.
 
 
-För att hjälpa ditt samhälle att växa ytterligare, **en uppföljning av COMMU302-kursen**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+I syfte att låta ert community utvecklas ytterligare **kan det inte uteslutas att en fortsättning på denna utbildning publiceras på [Plan ₿ Academy](https://planb.academy/) inom de kommande månaderna**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-kan komma att släppas på [planb.network](https://planb.network/) under de kommande månaderna.
 
 
 Nästa session kan behandla avancerade ämnen som t.ex:

@@ -90,7 +90,7 @@ I slutet av kursen har du grundläggande kunskaper för att effektivt administre
 **ANMÄRKNING**: Beskrivningarna är baserade på ett GNU/Linux CentOS 7-system. Nätverkskonfigurationerna är dock i stort sett desamma när man jämför ett Debian- med ett CentOS-system. Så vi kommer inte att göra någon åtskillnad. När det finns en, kommer vi att prefixera den med en specifik logotyp.
 
 
-**N.B.**: Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan] (https://planb.network/resources/glossary) för definitioner.
+**N.B.**: Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan] (https://planb.academy/resources/glossary) för definitioner.
 
 
 
@@ -283,11 +283,11 @@ Varje Layer i TCP/IP-stacken tillhandahåller specifika tjänster, vilket gör d
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS-protokoll
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP-protokollet
 
@@ -1379,11 +1379,11 @@ I nästa kapitel tittar vi närmare på konfigurationen av IP Address under Linu
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Hur konfigurerar jag nätverket med `ip`?
@@ -3068,7 +3068,7 @@ Upprepade eller intensiva förfrågningar till DNS-servrar från tredje part uta
 När man övervakar eller säkrar ett lokalt eller brett nätverk är det viktigt att identifiera aktiva enheter och de tjänster som de exponerar. Det är precis vad verktyget `nmap` (*Network Mapper*) gör.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Introduktion till `nmap`
 
@@ -3120,7 +3120,7 @@ En administratör kan förlita sig på `nmap` för flera uppgifter:
 - **Sårbarhetsförebyggande åtgärder**: upptäcka osäkra eller föråldrade tjänster som körs på kritiska maskiner.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Verktyg för processförhör
 

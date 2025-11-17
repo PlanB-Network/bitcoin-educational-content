@@ -44,13 +44,13 @@ Sie können Aurora Store auch von anderen Anwendungsspeichern wie F-Droid oder I
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Wir empfehlen jedoch, die APK-Datei direkt von der offiziellen Website herunterzuladen, um die Authentizität und Integrität von Aurora Store sicherzustellen.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Eine APK-Datei (Android Package Kit) ist das Paketformat, das vom Android-Betriebssystem für die Verteilung und Installation von Anwendungen verwendet wird. Es ist das Äquivalent zu **.exe**-Dateien unter Windows oder **.dmg**-Dateien unter macOS.
 
@@ -155,4 +155,4 @@ Aurora Store ist mehr als nur ein Anwendungsspeicher, es ist eine Open-Source-L�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

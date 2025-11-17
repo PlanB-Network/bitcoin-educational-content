@@ -289,9 +289,9 @@ W razie potrzeby zapoznaj się z poniższymi samouczkami, aby zapoznać się z o
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Eksport Wallet Multisig 2-sur-3 do Sparrow wallet
 
@@ -464,7 +464,7 @@ Tym razem nie ma problemu, nie pojawia się żaden komunikat ostrzegawczy, a kie
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Web 2FA i adresy na białej liście
 
@@ -506,11 +506,11 @@ Ta funkcja umożliwia korzystanie z aplikacji zgodnej z TOTP RFC-6238, takiej ja
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Mówiąc konkretnie, przed podpisaniem transakcji należy zbliżyć urządzenie z obsługą NFC i dostępem do Internetu do karty Coldcard. Spowoduje to automatyczne przejście do strony internetowej coldcard.com, na której zostaniesz poproszony o wprowadzenie 6-cyfrowego kodu aplikacji. Jeśli wprowadzisz prawidłowy kod, strona internetowa wyświetli kod QR do zeskanowania dla ColdCardQ lub 8-cyfrowy kod do wprowadzenia na Mk4, aby autoryzować urządzenie do podpisania.
 

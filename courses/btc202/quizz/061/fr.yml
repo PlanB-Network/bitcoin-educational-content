@@ -6,4 +6,4 @@ wrong_answers:
   - La possibilité d’utiliser Electrs hors-ligne
 explanation: |
   Tailscale offre la sécurité de WireGuard mais avec la rapidité d’une connexion en Clearnet, contrairement à Tor qui est lent.
-reviewed: false
+reviewed: true 

@@ -1,4 +1,4 @@
-question: Một cách mà Bitcoin đã hòa nhập sâu hơn vào thị trường truyền thống là gì?
+question: Một cách mà Bitcoin đã hòa nhập sâu hơn vào thị trường tài chính truyền thống là gì?
 answer: Sự xuất hiện của Bitcoin ETFs.
 wrong_answers:
   - Việc cấm Bitcoin.
@@ -8,6 +8,6 @@ explanation: |
   Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng cách
   hòa nhập ngày càng sâu vào thị trường truyền thống.
   Sự xuất hiện của Bitcoin ETFs, quy định rõ ràng hơn,
-  và việc tiếp cận dễ dàng hơn với các công cụ lưu trữ chỉ khuyến khích
+  và việc tiếp cận dễ dàng hơn với các công cụ tích trữ chỉ khuyến khích
   xu hướng này.
 reviewed: true

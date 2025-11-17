@@ -10,7 +10,7 @@ Chcete přidat Bitcoin podcast na stránky sítě PlanB a zvýšit viditelnost v
 ![podcast](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak jej vytvořit, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) v sekci `resources/podcasts/`:
@@ -86,7 +86,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Klikněte na vaši profilovou fotografii v pravém horním rohu, poté na `Your Repositories`:
 ![podcast](assets/14.webp)
-- Vyberte váš fork repozitáře PlanB Network:
+- Vyberte váš fork repozitáře Plan ₿ Academy:
 ![podcast](assets/15.webp)
 - Na vrchu okna byste měli vidět oznámení s vaší novou větví. Pravděpodobně se jmenuje `patch-1`. Klikněte na ni:
 ![podcast](assets/16.webp)
@@ -107,7 +107,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Klikněte na tlačítko `Add file`, poté na `Upload files`:
 ![podcast](assets/25.webp)
-- Otevře se nová stránka. Přetáhněte logo vašeho podcastu do dané oblasti. Tento obrázek bude zobrazen na webu PlanB Network: ![podcast](assets/26.webp)
+- Otevře se nová stránka. Přetáhněte logo vašeho podcastu do dané oblasti. Tento obrázek bude zobrazen na webu Plan ₿ Academy: ![podcast](assets/26.webp)
 - Buďte opatrní, obrázek musí být čtvercový, aby co nejlépe pasoval na náš web: ![podcast](assets/27.webp)
 - Jakmile je obrázek nahrán, ověřte, že je zaškrtnuto políčko `Commit directly to the patch-1 branch`, poté klikněte na `Commit changes`: ![podcast](assets/28.webp)
 - Buďte opatrní, váš obrázek musí být pojmenován `logo` a musí být ve formátu `.webp`. Celý název souboru by tedy měl být: `logo.webp`: ![podcast](assets/29.webp)
@@ -119,7 +119,7 @@ contributors:
 - Měli byste vidět zprávu, která indikuje, že vaše větev prošla změnami. Klikněte na tlačítko `Compare & pull request`: ![podcast](assets/35.webp)
 - Přidejte jasný název a popis k vašemu PR: ![podcast](assets/36.webp)
 - Klikněte na tlačítko `Create pull request`: ![podcast](assets/37.webp)
-Gratulujeme! Vaše PR bylo úspěšně vytvořeno. Administrátor to nyní zkontroluje a pokud je vše v pořádku, sloučí to do hlavního repozitáře PlanB Network. Na webu byste měli vidět svůj podcast několik dní poté.
+Gratulujeme! Vaše PR bylo úspěšně vytvořeno. Administrátor to nyní zkontroluje a pokud je vše v pořádku, sloučí to do hlavního repozitáře Plan ₿ Academy. Na webu byste měli vidět svůj podcast několik dní poté.
 
-Ujistěte se, že sledujete průběh vašeho PR. Administrátor vám může zanechat komentář s žádostí o dodatečné informace. Dokud vaše PR není validováno, můžete ho zobrazit na kartě `Pull requests` na GitHub repozitáři PlanB Network: ![podcast](assets/38.webp)
+Ujistěte se, že sledujete průběh vašeho PR. Administrátor vám může zanechat komentář s žádostí o dodatečné informace. Dokud vaše PR není validováno, můžete ho zobrazit na kartě `Pull requests` na GitHub repozitáři Plan ₿ Academy: ![podcast](assets/38.webp)
 Moc vám děkujeme za vaši cennou příspěvek! :)

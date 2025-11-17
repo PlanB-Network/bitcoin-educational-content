@@ -1,21 +1,18 @@
 ---
-name: Introduksjon til Østerriksk Økonomi
-goal: Oppdag den østerrikske skolen innen økonomisk tenkning. Studer deres syn på samfunnet og makro-/mikroøkonomiske realiteter.
+name: Grunnleggende om den østerrikske økonomiske skolen
+goal: Oppdag østerriksk økonomi som et alternativt rammeverk for å analysere markeder og individuell beslutningstaking
 objectives:
-  - Et alternativ til Keynesianismen
-  - Viktigheten av hard valuta
-  - Hvorfor og hvordan skapes våre økonomiske sykluser?
-  - Hvorfor har sentralbankfolk blitt gale?
+- Analysere funksjonene til penger, kreditt og sentralbanksystemer
+- Anvende subjektiv verditeori og tidspreferanse på markedsatferd
+- Forstå den østerrikske konjunkturteorien og dens årsaker
+- Sammenligne østerriksk metodologi med mainstream økonomiske tilnærminger
 ---
+# Reisen til den østerrikske økonomiske skolen
 
-# En reise inn i økonomien
+Har du noen gang lurt på hvorfor noen økonomer tenker annerledes om markeder, frihet og menneskelig atferd? Østerriksk økonomi tilbyr et forfriskende perspektiv som setter deg i sentrum av økonomisk tenkning. I stedet for tung matematikk og abstrakte modeller, fokuserer denne tilnærmingen på logikk, menneskelige valg og hvordan virkelige mennesker tar beslutninger i sitt daglige liv. Det er økonomi gjennom linsen av frihet, rasjonalitet og personlig handling.
 
-Velkommen til Théo Mogenets kurs! Lidenskapelig opptatt av økonomi, historie, litteratur, statsvitenskap og teknologi, har han bestemt seg for å dele sin kunnskap om østerriksk økonomi med deg. Denne grenen, mindre kjent i økonomi, er basert på menneskelig rasjonalitet og fri aktør oppførsel. Mindre intens i matematikk, det er først og fremst et spørsmål om logikk og sosial studie.
-
-Denne skolen har allerede flere århundrer bak seg og har et helt panorama av forfattere, tanker og økonomer bak seg. Store navn i økonomi som Hayek, Rothbard, Mises, Bastiat eller Menger har lenge forsvart denne bevegelsen. I motsetning til den allestedsnærværende Keynesianismen i vår tid, setter den østerrikske skolen individet tilbake i sentrum av ligningen med en mer liberal, kapitalistisk og til og med anarkistisk tilnærming.
-
+Denne tankegangen har formet debatter i århundrer, takket være innflytelsesrike tenkere som Hayek, Mises og Bastiat. Mens mainstream keynesiansk økonomi dominerer dagens politiske diskusjoner, stiller den østerrikske tradisjonen andre spørsmål: Hva skjer når vi prioriterer individuell frihet? Hvordan fungerer frie markeder egentlig når folk er frie til å velge? Hvis du er nysgjerrig på alternative måter å tenke på om markeder, samfunn og frihet, er dette din sjanse til å utforske ideer du ikke vil finne i standard lærebøker.
 +++
-
 # Introduksjon
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

@@ -6,7 +6,7 @@ description: Wie man mit einem Raspberry Pi Zero und einem Zubehörkit einen min
 
 
 
-Wenn Sie schon eine Weile auf den Seiten von Plan ₿ Network unterwegs sind, haben Sie bereits gelernt, dass eine der am meisten empfohlenen Sicherheitseinstellungen, fast ein Muss, **die Verwaltung von Geldern durch Offline-Speicherung Ihrer privaten Schlüssel** ist.
+Wenn Sie schon eine Weile auf den Seiten von Plan ₿ Academy unterwegs sind, haben Sie bereits gelernt, dass eine der am meisten empfohlenen Sicherheitseinstellungen, fast ein Muss, **die Verwaltung von Geldern durch Offline-Speicherung Ihrer privaten Schlüssel** ist.
 
 
 
@@ -14,7 +14,7 @@ Falls Sie es noch nicht entdeckt haben, finden Sie in diesem Tutorial Links zu O
 
 
 
-Um private Schlüssel offline zu verwalten, benötigt man daher ein dauerhaft vom Netzwerk getrenntes Gerät, sei es ein [Hardware-Wallet](https://planb.network/resources/glossary/hardware-wallet) oder ein Airgap-Computer, der dieser speziellen Funktion gewidmet ist.
+Um private Schlüssel offline zu verwalten, benötigt man daher ein dauerhaft vom Netzwerk getrenntes Gerät, sei es ein [Hardware-Wallet](https://planb.academy/resources/glossary/hardware-wallet) oder ein Airgap-Computer, der dieser speziellen Funktion gewidmet ist.
 
 
 
@@ -500,7 +500,7 @@ Unter den Geldbörsen, die ich kenne, ist die einzige, die eine 32-Bit-Version b
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Schlussfolgerungen
 

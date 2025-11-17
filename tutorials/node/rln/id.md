@@ -31,7 +31,7 @@ Kontrak RGB terstruktur seperti mesin status evolusioner. Dimulai dengan Genesis
 
 Untuk mempelajari lebih lanjut mengenai cara kerja protokol RGB, saya sarankan Anda mengikuti kursus pelatihan komprehensif ini:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Pemasangan simpul Lightning yang kompatibel dengan RGB
 
@@ -219,7 +219,7 @@ Anda tentu saja dapat menyesuaikan pesanan. Untuk mengonfirmasi transaksi, kami 
 ./regtest.sh mine 1
 ```
 
-Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "PBN" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
+Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "Plan ₿ Academy" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ Perintah ini mengembalikan kunci publik dari simpul saya n°2:
 
 ![RLN](assets/fr/13.webp)
 
-Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`PBN`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
+Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`Plan ₿ Academy`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ Untuk mengonfirmasi transaksi, 6 blok ditambang:
 
 ![RLN](assets/fr/15.webp)
 
-Saluran Lightning sekarang terbuka dan juga berisi 500 token `PBN` di sisi node n°1. Jika node n°2 ingin menerima token `PBN`, ia harus membuat faktur. Berikut cara melakukannya:
+Saluran Lightning sekarang terbuka dan juga berisi 500 token `Plan ₿ Academy` di sisi node n°1. Jika node n°2 ingin menerima token `Plan ₿ Academy`, ia harus membuat faktur. Berikut cara melakukannya:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `PBN`:
+Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga merekomendasikan tutorial lain yang menjelaskan cara menggunakan alat bantu RGB CLI yang dikembangkan oleh asosiasi LNP/BP untuk membuat kontrak RGB:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

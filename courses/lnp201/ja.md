@@ -1,12 +1,12 @@
 ---
-name: Lightning Networkへの理論的導入
+name: ライトニングネットワーク理論
 goal: 技術的な観点からLightning Networkを発見する
 objectives:
-  - ネットワークのチャネルの運用を理解する。
-  - HTLC、LNURL、UTXOという用語に慣れ親しむ。
-  - LNNの流動性管理と手数料を同化する。
-  - Lightning Networkをネットワークとして認識する。
-  - Lightning Networkの理論的な使用法を理解する。
+- ネットワークのチャネルの運用を理解する。
+- HTLC、LNURL、UTXOという用語に慣れ親しむ。
+- LNNの流動性管理と手数料を同化する。
+- Lightning Networkをネットワークとして認識する。
+- Lightning Networkの理論的な使用法を理解する。
 ---
 
 # Bitcoinのセカンドレイヤーへの旅

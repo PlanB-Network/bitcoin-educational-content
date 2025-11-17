@@ -441,4 +441,4 @@ Nu is je Fedora systeem up-to-date en klaar voor gebruik voor al je dagelijkse t
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

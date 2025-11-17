@@ -11,11 +11,10 @@ Memulai dengan Bitcoin tampaknya menjadi tantangan besar bagi orang-orang yang s
 
 
 
-Dalam tutorial ini kita akan melihat Blue Wallet, Bitcoin Wallet yang sederhana namun sangat efektif yang memungkinkan Anda untuk mengelola bitcoin Anda secara pribadi dan juga untuk membuat koperasi manajemen berdasarkan [Multisig] (https://planb.network/resources/glossary/multisig) (jangan khawatir, kita akan kembali ke sana).
+Dalam tutorial ini kita akan melihat Blue Wallet, Bitcoin Wallet yang sederhana namun sangat efektif yang memungkinkan Anda untuk mengelola bitcoin Anda secara pribadi dan juga untuk membuat koperasi manajemen berdasarkan [Multisig] (https://planb.academy/resources/glossary/multisig) (jangan khawatir, kita akan kembali ke sana).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Setelah terinstal, Anda bisa membuat Wallet baru dan menyimpan 12 kata pemulihan
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Dengan Blue Wallet, Anda dapat membuat portofolio Bitcoin yang terpisah dan berdedikasi. Sebagai contoh, Anda bisa memiliki satu Wallet untuk tabungan dan satu lagi untuk pengeluaran harian Anda, semuanya dalam satu aplikasi yang sama.
 
@@ -65,10 +64,10 @@ Jika Anda terbiasa dengan portofolio Bitcoin lainnya seperti Phoenix atau Aqua, 
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Bitcoin Wallet berwarna biru mewakili Wallet standar dalam ekosistem Bitcoin. Anda dapat membelanjakan bitcoin selama Anda memiliki kata pemulihan yang akan memberikan tanda tangan yang valid di jaringan untuk mengautentikasi bahwa Anda memiliki bitcoin.
 
@@ -122,7 +121,7 @@ Oleh karena itu, Anda dapat memilih rasio biaya transaksi yang sesuai untuk Anda
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Ikuti praktik terbaik dengan memilih format P2WSH.
 
 
 
-❗ **[P2WSH] (https://planb.network/resources/glossary/p2wsh) atau Pay to Witness Script Hash** adalah metode penguncian yang mengunci bitcoin keluar (Output) dari transaksi Anda ke Hash dari skrip khusus yang dibuat oleh Blue Wallet. Keuntungan utama dari jenis penguncian ini adalah mengurangi ukuran data transaksi dan secara implisit memungkinkan Anda untuk membayar biaya transaksi yang lebih rendah.
+❗ **[P2WSH] (https://planb.academy/resources/glossary/p2wsh) atau Pay to Witness Script Hash** adalah metode penguncian yang mengunci bitcoin keluar (Output) dari transaksi Anda ke Hash dari skrip khusus yang dibuat oleh Blue Wallet. Keuntungan utama dari jenis penguncian ini adalah mengurangi ukuran data transaksi dan secara implisit memungkinkan Anda untuk membayar biaya transaksi yang lebih rendah.
 
 
 
@@ -264,7 +263,7 @@ Saat memvalidasi transaksi Anda, Anda memerlukan tanda tangan kedua untuk menyet
 
 
 
-Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani transaksi meskipun dia tidak terhubung ke Internet (tidak ada Wi-Fi, tidak ada data seluler) dengan memindai kode QR dari [transaksi yang ditandatangani sebagian] (https://planb.network/resources/glossary/psbt) yang baru saja Anda buat.
+Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani transaksi meskipun dia tidak terhubung ke Internet (tidak ada Wi-Fi, tidak ada data seluler) dengan memindai kode QR dari [transaksi yang ditandatangani sebagian] (https://planb.academy/resources/glossary/psbt) yang baru saja Anda buat.
 
 
 
@@ -330,12 +329,12 @@ Dalam Pengaturan > **Pengaturan Lightning**, Anda dapat secara manual mengaitkan
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Anda sekarang telah menyelesaikan tur Blue Wallet, siap untuk menggunakan Bitcoin dengan segala kesederhanaan dan kekuatannya. Kami menyarankan Anda untuk mengambil langkah selanjutnya, dan mencari tahu bagaimana Anda dapat menerima pembayaran Bitcoin di toko-toko Anda, berkat kekuatan Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

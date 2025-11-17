@@ -241,7 +241,7 @@ Các cuộc gặp gỡ Bitcoin có thể phục vụ nhiều mục đích:
 
 
 
-Chúng tôi sẽ đề cập chi tiết đến nhiều khả năng này trong phần 6/8 của khóa học này, có tiêu đề "[Ví dụ về các dự án và sáng kiến](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Chúng tôi sẽ đề cập chi tiết đến nhiều khả năng này trong phần 6/8 của khóa học này, có tiêu đề "[Ví dụ về các dự án và sáng kiến](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Sự kiện đầu tiên của bạn có thể sẽ là một buổi gặp mặt
 
 
 
-Tuy nhiên, như chúng ta sẽ thấy sau trong [Ví dụ về các dự án và sáng kiến](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **một buổi gặp mặt có thể được tổ chức theo nhiều cách, với nhiều mục tiêu:**
+Tuy nhiên, như chúng ta sẽ thấy sau trong [Ví dụ về các dự án và sáng kiến](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **một buổi gặp mặt có thể được tổ chức theo nhiều cách, với nhiều mục tiêu:**
 
 
 
@@ -866,7 +866,7 @@ Trong các hướng dẫn dưới đây, ban đầu chúng tôi sử dụng APK 
 Nếu bạn muốn tạo một nơi mà các thành viên có thể trò chuyện trực tiếp với nhau, phản hồi cho nhau, v.v., thì bạn có thể muốn tạo một nhóm Telegram chứ không phải một kênh Telegram!
 
 
-Đi thẳng đến phần tiếp theo có tiêu đề [Tạo nhóm Telegram](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Đi thẳng đến phần tiếp theo có tiêu đề [Tạo nhóm Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter rất dễ sử dụng và để cải thiện quyền riêng tư, bạn
 1/ **tài khoản @Twitter**, giúp định nghĩa danh tính của bạn và giúp bạn dễ dàng được tìm thấy. Nếu tên cộng đồng của bạn là "Bitcoin [THÀNH PHỐ]", hãy chọn "@Bitcoin[THÀNH PHỐ]";
 
 
-2/ **logo và biểu ngữ** bạn đã tạo cho cộng đồng hoặc buổi gặp mặt của mình (xem phần [Tạo logo, áp phích và biểu ngữ](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo và biểu ngữ** bạn đã tạo cho cộng đồng hoặc buổi gặp mặt của mình (xem phần [Tạo logo, áp phích và biểu ngữ](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **phần mô tả**, cho phép bạn chia sẻ thông tin chính về cộng đồng của mình trong vài trăm ký tự. Ví dụ:
@@ -1547,7 +1547,7 @@ Trong trường hợp thứ hai, sự kiện hàng tháng thứ hai có thể d�
 
 
 
-Xin lưu ý rằng **việc này đòi hỏi sự tổ chức và thời gian của bạn nhiều hơn**. May mắn thay, trong [phần 6/8 của khóa học này](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), bạn sẽ tìm thấy một loạt các tài nguyên mã nguồn mở có thể tái sử dụng để hỗ trợ.
+Xin lưu ý rằng **việc này đòi hỏi sự tổ chức và thời gian của bạn nhiều hơn**. May mắn thay, trong [phần 6/8 của khóa học này](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), bạn sẽ tìm thấy một loạt các tài nguyên mã nguồn mở có thể tái sử dụng để hỗ trợ.
 
 
 Trong mọi trường hợp, tất cả đều phụ thuộc vào kế hoạch hành động ngắn hạn, trung hạn và dài hạn mà bạn hoặc cộng đồng của bạn đặt ra cho chính mình.
@@ -1619,7 +1619,7 @@ Liên hệ với địa điểm bạn sẽ tổ chức sự kiện và đặt ch
 
 
     - Chia sẻ ngày, giờ và địa điểm trên mạng xã hội và các kênh truyền thông khác. Đính kèm liên kết đăng ký nếu cần.
-    - Tạo hình ảnh chuyên dụng (ví dụ như áp phích Canva, xem phần 2/8 "[Thiết kế nhận diện cho cộng đồng Bitcoin của bạn](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Tạo hình ảnh chuyên dụng (ví dụ như áp phích Canva, xem phần 2/8 "[Thiết kế nhận diện cho cộng đồng Bitcoin của bạn](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Tối đa hóa khả năng hiển thị bằng cách ghim thông báo trên Telegram và Twitter và sử dụng tính năng đề cập "@everyone" trên Discord.
     - Đăng thông báo từ 7 đến 10 ngày trước sự kiện để người tham dự có thể lên kế hoạch trước.
 
@@ -1721,7 +1721,7 @@ Thành Rome không phải xây dựng trong một ngày, và cộng đồng củ
 Để làm được điều đó, có một điều cần thiết: **giữ cho người tham gia luôn tích cực**.
 
 
-Nó có thể bắt đầu với một nhóm nhỏ những người đam mê bitcoin, với mục tiêu là thường xuyên gặp gỡ và thảo luận về Bitcoin. Theo thời gian, tùy thuộc vào khả năng và sở thích của mỗi người, bạn có thể **chia sẻ một số nhiệm vụ tổ chức với nhóm** hoặc mời các thành viên cốt cán **thực hiện các dự án cụ thể**. Những dự án này có thể mang tính độc đáo đối với cộng đồng, buổi gặp mặt hoặc thành phố của bạn, hoặc thậm chí được truyền cảm hứng từ nhiều sáng kiến được đề xuất trong [phần 6/8 của khóa học này](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Điều này không chỉ thúc đẩy Commitment từ các thành viên cốt cán của bạn mà còn giúp cộng đồng của bạn phát triển và thịnh vượng.**.
+Nó có thể bắt đầu với một nhóm nhỏ những người đam mê bitcoin, với mục tiêu là thường xuyên gặp gỡ và thảo luận về Bitcoin. Theo thời gian, tùy thuộc vào khả năng và sở thích của mỗi người, bạn có thể **chia sẻ một số nhiệm vụ tổ chức với nhóm** hoặc mời các thành viên cốt cán **thực hiện các dự án cụ thể**. Những dự án này có thể mang tính độc đáo đối với cộng đồng, buổi gặp mặt hoặc thành phố của bạn, hoặc thậm chí được truyền cảm hứng từ nhiều sáng kiến được đề xuất trong [phần 6/8 của khóa học này](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Điều này không chỉ thúc đẩy Commitment từ các thành viên cốt cán của bạn mà còn giúp cộng đồng của bạn phát triển và thịnh vượng.**.
 
 
 Khi buổi gặp mặt của bạn diễn ra, những gương mặt mới sẽ xuất hiện: những người đã mua BTC và/hoặc altcoin trong các chu kỳ trước, những người đam mê công nghệ muốn đào sâu hiểu biết hoặc những người mới bắt đầu tò mò về hệ thống thanh toán không thể kiểm duyệt, phi tập trung, minh bạch và công bằng này, hoạt động mà không cần điều kiện và không có bên thứ ba đáng tin cậy.
@@ -1820,7 +1820,7 @@ Ngoài giá trị giáo dục mạnh mẽ, phương pháp này còn cho phép ch
 Dưới đây là tiến trình gặp mặt tại Pháp năm 2023-2024. Mỗi chủ đề đều có bài thuyết trình nguồn mở và video, có thể giúp bạn có thêm ý tưởng về các chủ đề để đưa vào sự kiện của riêng mình.
 
 
-Bạn cũng có thể tìm thấy các tài liệu chỉnh sửa bổ sung trong [Hộp công cụ giảng dạy Bitcoin](https://planb.network/fr/resources/bet)!
+Bạn cũng có thể tìm thấy các tài liệu chỉnh sửa bổ sung trong [Hộp công cụ giảng dạy Bitcoin](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Những tờ rơi này có thể hướng tới:
 Bạn cũng có thể thiết kế tờ rơi dành riêng cho cộng đồng hoặc buổi gặp mặt của mình, trình bày các hoạt động, mục tiêu, liên kết mạng xã hội, kênh truyền thông và sự kiện sắp tới.
 
 
-Một số tờ rơi hiện đã có sẵn dưới dạng mã nguồn mở trong **[Hộp công cụ giảng dạy Bitcoin](https://planb.network/fr/resources/bet)** trên planB.network và nhiều tờ rơi khác sẽ được bổ sung theo thời gian.
+Một số tờ rơi hiện đã có sẵn dưới dạng mã nguồn mở trong **[Hộp công cụ giảng dạy Bitcoin](https://planb.academy/fr/resources/bet)** trên planB.network và nhiều tờ rơi khác sẽ được bổ sung theo thời gian.
 
 
 Một ví dụ là một [tờ rơi có nguồn đầy đủ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) với 21 lý do nên sử dụng Bitcoin. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) để bạn chỉnh sửa, điều chỉnh và chia sẻ. Chỉ cần nhớ ghi rõ nguồn.
@@ -2222,7 +2222,7 @@ Các nền tảng phổ biến bao gồm:
 - [**peertube**](https://joinpeertube.org/fr_FR) cho phép bạn lưu trữ nền tảng video của riêng mình, mặc dù việc thiết lập phức tạp hơn.
 
 
-Dù bạn chọn nền tảng nào, hãy thiết kế hình ảnh phù hợp với từng nền tảng để kênh của bạn trở nên hấp dẫn. Canva, được đề cập trong [phần 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) cung cấp danh mục "Hình thu nhỏ YouTube" với các thiết kế có sẵn và có thể tùy chỉnh.
+Dù bạn chọn nền tảng nào, hãy thiết kế hình ảnh phù hợp với từng nền tảng để kênh của bạn trở nên hấp dẫn. Canva, được đề cập trong [phần 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) cung cấp danh mục "Hình thu nhỏ YouTube" với các thiết kế có sẵn và có thể tùy chỉnh.
 
 
 
@@ -2853,11 +2853,9 @@ Có hai lợi ích:
 - **Tổ chức có cấu trúc**: bạn có thể xác định vai trò rõ ràng, giúp điều hành cộng đồng và thực hiện các dự án dễ dàng hơn.
 
 
-Để giúp cộng đồng của bạn phát triển hơn nữa, **khóa học tiếp theo của COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Nhằm giúp cộng đồng của bạn phát triển mạnh mẽ hơn nữa, **không loại trừ khả năng một phần tiếp theo của khóa đào tạo này sẽ được ra mắt trên [Plan ₿ Academy](https://planb.academy/) trong những tháng tới**.
 
-<img width="80" height="18" alt="hình ảnh" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-có thể được phát hành trên [planb.network](https://planb.network/) trong những tháng tới.
 
 
 Phiên tiếp theo có thể khám phá các chủ đề nâng cao như:

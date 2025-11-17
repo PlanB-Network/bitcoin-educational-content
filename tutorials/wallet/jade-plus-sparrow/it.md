@@ -36,7 +36,7 @@ custode | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
 
 In questa esercitazione, imposteremo una configurazione avanzata di Jade Plus con il software desktop Sparrow Wallet in modalità codici QR. Questa configurazione è ideale per utenti intermedi o esperti. Se cercate un approccio più semplice per i principianti, vi consiglio di dare un'occhiata a questa esercitazione in cui utilizziamo Jade Plus con Green Wallet tramite una connessione Bluetooth:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Il modello di sicurezza Jade Plus
 
@@ -111,7 +111,7 @@ Potete scriverlo sul cartoncino fornito nella scatola, oppure, per maggiore sicu
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, vi consiglio di seguire quest'altro tutorial, soprattutto se siete principianti:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.
 
@@ -269,7 +269,7 @@ La passphrase BIP39 è una password opzionale che si può scegliere liberamente 
 
 Prima di configurare questa opzione su Jade Plus, si consiglia vivamente di leggere questo articolo per comprendere appieno il funzionamento teorico della passphrase ed evitare errori che potrebbero portare alla perdita dei bitcoin:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Con Jade ancora bloccato (la passphrase può essere inserita solo quando il dispositivo non è sbloccato), accedere al menu "*Opzioni*".
 
@@ -314,7 +314,7 @@ Se la passphrase è valida, confermare.
 
 Si noti che le passphrase BIP39 sono sensibili alle maiuscole e alle minuscole. Se si inserisce una passphrase leggermente diversa da quella configurata inizialmente, Jade non segnalerà un errore ma ricaverà un'altra serie di chiavi crittografiche che non saranno quelle del portafoglio iniziale.
 
-È quindi importante, durante la configurazione, prendere nota dell'impronta digitale della chiave master, che si trova nell'angolo in basso a destra dello schermo. Ad esempio, con la mia passphrase `PBN`, l'impronta digitale della mia chiave master è `3AD1AE65`.
+È quindi importante, durante la configurazione, prendere nota dell'impronta digitale della chiave master, che si trova nell'angolo in basso a destra dello schermo. Ad esempio, con la mia passphrase `Plan ₿ Academy`, l'impronta digitale della mia chiave master è `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,7 +322,7 @@ Ogni volta che si sblocca Jade con la passphrase, verificare che l'impronta digi
 
 Prima di ricevere i primi bitcoin nel portafoglio, **consiglio vivamente di eseguire un test di ripristino a vuoto**. Prendete nota di alcune informazioni di riferimento, come il vostro indirizzo xpub o il primo indirizzo di ricezione, quindi cancellate il vostro portafoglio sul Jade Plus mentre è ancora vuoto (`Opzioni -> Dispositivo -> Ripristino dati di fabbrica`). Quindi provare a ripristinare il portafoglio utilizzando i backup cartacei della frase mnemonica e di qualsiasi passphrase. Verificate che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, potete essere certi che i vostri backup cartacei sono affidabili. Per saperne di più su come eseguire un ripristino di prova, date un'occhiata a quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Configurazione del portafoglio su Sparrow Wallet
 
@@ -334,7 +334,7 @@ Iniziate scaricando e installando Sparrow Wallet [dal sito ufficiale](https://sp
 
 Assicuratevi di verificare l'autenticità e l'integrità del software prima dell'installazione. Se non sapete come fare, consultate questa guida:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Una volta aperto Sparrow Wallet, fare clic sulla scheda "*File*", quindi su "*Nuovo portafoglio*".
 
@@ -452,4 +452,4 @@ Congratulazioni, ora sapete come impostare e utilizzare Jade Plus in modalità Q
 
 Per approfondire, vi consiglio quest'altro tutorial su Jade Plus, in cui lo configuriamo via Bluetooth con l'applicazione mobile Green:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

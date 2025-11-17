@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network diplomite ajatempel
+name: Plan ₿ Academy diplomite ajatempel
 description: Mõista, kuidas Plan ₿ võrgustik väljastab kontrollitavat tõendit teie tunnistuse ja diplomite kohta
 ---
 
@@ -37,11 +37,11 @@ Igaüks saab kasutada OpenTimestamps'i faili ajatempliga märkimiseks ja saada k
 OpenTimestamps suudab seda teenust pakkuda tasuta tänu väga tõhusale viisile sellise tõendi salvestamiseks Bitcoin'i plokiahelas. See kasutab faili sha256 räsi kui teie faili unikaalset identifikaatorit ja ehitab teiste kasutajate esitatud failide räsidest merkle puu, ankurdamaks ainult Merkle puu struktuuri räsi OpReturn tehingus.
 Kui see tehing on mõnes plokis, saab igaüks, kellel on algne fail ja sellega seotud `.ots` fail, kontrollida ajatempli autentsust. Õpetuse teises osas näeme, kuidas kontrollida oma Bitcoin Certificate'i või mõne kursuse lõpetamise diplomi õigsust terminali ja OpenTimestamps veebilehe graafilise liidese kaudu.
 
-# Kuidas kontrollida Plan ₿ Network Certificate'i või Diplomit
+# Kuidas kontrollida Plan ₿ Academy Certificate'i või Diplomit
 
 ## 1. samm. Laadige alla oma Certificate või Diplom
 
-Logige sisse oma isiklikule PBN armatuurlauale.
+Logige sisse oma isiklikule Plan ₿ Academy armatuurlauale.
 
 ![image](./assets/login.webp)
 
@@ -63,16 +63,16 @@ Pakkige sisu lahti, paremklõpsates `.zip` failil ja valides "Extract". Leiate s
 
 Avage esmalt terminal kaustas, kus failid asuvad (paremklõpsates kausta aknal ja klõpsates "Open in Terminal"). Seejärel järgige alltoodud juhiseid
 
-1. Importige Plan ₿ Network avalik PGP võti järgmise käsu abil:
+1. Importige Plan ₿ Academy avalik PGP võti järgmise käsu abil:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Kui PGP võti on edukalt imporditud, peaksite nägema sõnumit nagu järgmine
 
 ```
-gpg: key 8F12D0C63B1A606E: avalik võti "PlanB Network (kasutatud PBN platvormil) <admin@planb.network>" imporditud
+gpg: key 8F12D0C63B1A606E: avalik võti "Plan ₿ Academy (kasutatud Plan ₿ Academy platvormil) <admin@planb.network>" imporditud
 gpg: Kokku töödeldud: 1
 gpg:               imporditud: 1
 ```
@@ -87,7 +87,7 @@ gpg --verify certificate.txt
 
 See käsk peaks näitama teile allkirja detaile, sealhulgas:
 
-- Kes selle allkirjastas (Plan ₿ Network)
+- Kes selle allkirjastas (Plan ₿ Academy)
 - Millal see allkirjastati
 - Kas allkiri on kehtiv
 
@@ -97,7 +97,7 @@ See on näide tulemusest:
 gpg: Allkiri tehtud lun 11 nov 2024, 00:39:04 CET
 gpg:                kasutades RSA võtit 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                väljaandja "admin@planb.network"
-gpg: Hea allkiri "PlanB Network (kasutatud PBN platvormil) <admin@planb.network>" [tundmatu]
+gpg: Hea allkiri "Plan ₿ Academy (kasutatud Plan ₿ Academy platvormil) <admin@planb.network>" [tundmatu]
 ```
 
 Kui näete sõnumit nagu "BAD signature", tähendab see, et failiga on manipuleeritud.
@@ -143,7 +143,7 @@ See käsk teeb järgmist:
 
 Pane tähele, et verifitseerimine on edukas, kui kuvatakse **mõlemad** järgmised sõnumid:
 
-1. GPG allkirja kirjeldatakse kui **"Hea allkiri Plan ₿ Network'ilt"**
+1. GPG allkirja kirjeldatakse kui **"Hea allkiri Plan ₿ Academy'ilt"**
 2. OpenTimestamps verifitseerimine näitab konkreetset Bitcoin'i ploki ajatemplit ja teatab **"Edu! Bitcoin'i plokk [ploki kõrgus] tõendab, et andmed eksisteerisid seisuga [ajatempel]"**
 
-Nüüd, kui tead, kuidas Plan ₿ Network väljastab kontrollitava tõendi mistahes Bitcoin'i sertifikaadi ja kursuse lõpetamise diplomi jaoks, saad sa hõlpsalt kontrollida selle terviklikkust.
+Nüüd, kui tead, kuidas Plan ₿ Academy väljastab kontrollitava tõendi mistahes Bitcoin'i sertifikaadi ja kursuse lõpetamise diplomi jaoks, saad sa hõlpsalt kontrollida selle terviklikkust.

@@ -1,31 +1,18 @@
 ---
-name: Bitcoin na BTC kwishura Serveri
-goal: Shiraho BTC Pay Server ku bucuruzi bwawe
-objectives: 
-
-  - Mutahure ico btcpayserver ari co.
-  - Kwiyakira no gutunganya Server ya BTC Pay.
-  - Koresha btcpayserver mu bucuruzi bwawe bwa misi yose.
-
+name: Kwigira inzobere muri BTC Pay Server
+goal: Gushiraho urugero rwa BTC Pay Server ku bucuruzi bwo mu gace
+objectives:
+- Gusobanukirwa ibanze by'uruhare rwa BTCPay Server mu gutunganya kwishyura
+- Kumenya neza imikorere y'imbere y'inzira yo gushiraho BTCPay Server
+- Gushiraho BTCPay Server ku bice bya cloud n'ibice bishingiye kuri node
+- Kuba umukoresha wa BTC Pay Server
 ---
+# Urugendo rwo kugera ku bwigenge bw'imari
 
-# Bitcoin na Serveri ya BTCPay
+Icizere ntikiri cyoroshye, cyane cyane iyo kivuga amafaranga. Iri somo ryo gutangura rirakuyobora muri BTCPay Server, igikoresho gikomeye kiguha uburenganzira bwo kwakira ubwishyu bwa Bitcoin utishingikirije ku bandi bantu. Uziga ibanze byo kuba umukoresha wa BTCPay Server
 
-
-Iyi ni inyigisho y'intango ku bijanye n'umukoresha wa BTCPay, yanditswe na Alekos na Bas, yahinduwe ku buryo bw'inyigisho y'umugambi ₿ na melontwist na asi0.
-
-
-INKURU ITARAHEZE
-
-
-"Ibi Ni Ibinyoma, Ukwizigira Kwanje Muri Wewe Kuracitse, Nzoguhindura Uwutagikoreshwa".
-
-
-Ivyakozwe n'ishirahamwe ry'abakozi ba BTCPay
-
-
+Ryakozwe na Alekos na Bas, kandi ryahinduwe na melontwist na asi0, iri somo rirerekanye uburyo abantu n'ubucuruzi bubaka ubundi buryo bwo kwishyura butandukanye n'uburyo gakondo. Waba ufite amatsiko kuri Bitcoin cyangwa witeguye gukora ibikorwa remezo by'ubwishyu ku bucuruzi, uzavumbura ubumenyi bufatika burwanya ibisanzwe. Witeguye gucukumbura uko ubwigenge bw'imari bumeze mu by'ukuri?
 +++
-
 # Imenyekanisha
 
 

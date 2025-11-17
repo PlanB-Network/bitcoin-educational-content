@@ -32,7 +32,7 @@ Envoy یک برنامه مدیریت Bitcoin Wallet است که توسط Foundat
 اگر شما یک کاربر پیشرفته هستید و می‌خواهید ویژگی‌های پیچیده‌تری را بررسی کنید، توصیه می‌کنم این آموزش دیگر را بررسی کنید که در آن پاسپورت را با Sparrow wallet پیکربندی می‌کنیم:
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## جعبه‌گشایی پاسپورت
 
@@ -246,7 +246,7 @@ Hardware Wallet شما پیشنهاد می‌کند که فریمور آن را 
 قبل از نصب آن بر روی دستگاه خود، اکیداً توصیه می‌کنیم که اصالت و یکپارچگی فریمور دانلود شده را بررسی کنید. اگر به کمک نیاز دارید، این آموزش را مشاوره کنید:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### با برنامه Envoy
 
@@ -371,7 +371,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 برای اطلاعات بیشتر در مورد روش صحیح ذخیره و مدیریت عبارت Mnemonic خود، به شدت توصیه می‌کنم این آموزش دیگر را دنبال کنید، به ویژه اگر مبتدی هستید:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 البته، شما هرگز نباید این کلمات را در اینترنت به اشتراک بگذارید، همانطور که من در این آموزش انجام می‌دهم. این نمونه Wallet فقط در Testnet استفاده خواهد شد و در پایان آموزش حذف خواهد شد.
 
@@ -674,4 +674,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 برای اطلاعات بیشتر، به آموزش ما درباره نرم‌افزار Liana مراجعه کنید:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

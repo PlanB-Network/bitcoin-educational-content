@@ -46,7 +46,7 @@ Ilmoita siis Wi-Fi:n SSID eli verkkosi nimi, salasana sekä valitsemasi louhinta
 
 Kuten näytöllä näkyy, sinun täytyy poistaa `stratum+tcp://` ja `:3333` osat, jättäen vain `eu.stratum.braiins.com`. Sen jälkeen `Port`-kenttään syötetään poolin antaman URL:n lopussa olevat 4 numeroa, mutta ilman `:`-merkkiä. Tässä tapauksessa se on siis `3333`.
 
-Tässä oppaassa käytämme Braiinsin louhintapoolia, mutta voit vapaasti valita toisen. Löydät oppaamme louhintapooleista [PlanB Network -verkkosivustolta](https://planb.network/en/tutorials/mining).
+Tässä oppaassa käytämme Braiinsin louhintapoolia, mutta voit vapaasti valita toisen. Löydät oppaamme louhintapooleista [Plan ₿ Academy -verkkosivustolta](https://planb.academy/en/tutorials/mining).
 
 Seuraavaksi `User`-kenttään syötetään tunnisteesi ja sitten `Password`, yleensä se on `"x"` tai `"Anything123"`.
 

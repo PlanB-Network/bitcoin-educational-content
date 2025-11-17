@@ -77,7 +77,7 @@ Bu eğitim için 2 yazılım uygulamasına ihtiyacınız olacak: Ledger'yı baş
 
 Bu iki yazılım için, makinenize yüklemeden önce hem orijinalliklerini (GnuPG ile) hem de bütünlüklerini (Hash ile) kontrol etmenizi şiddetle tavsiye ederim. Bunu nasıl yapacağınızdan emin değilseniz, bu diğer öğreticiyi takip edebilirsiniz:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Ledger Nano Nasıl Başlatılır?
 
@@ -228,7 +228,7 @@ passphrase PIN kodu ile karıştırılmamalıdır. Kriptografik anahtarlarınız
 passphrase, bitcoinlerinizin güvenliğini artırmak için çok güçlü bir araçtır. Ancak, Wallet'ünüze erişimi kaybetmemek için uygulamadan önce nasıl çalıştığını anlamak çok önemlidir. Bu nedenle, Ledger'ünüzde bir passphrase kurmak istiyorsanız, size özel bu diğer eğitime başvurmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PIN kilidi*" menüsü, belirli bir süre kullanılmadığında Ledger'inizin otomatik olarak kilitlenmesini yapılandırmanıza ve etkinleştirmenize olanak tanır.
 
@@ -371,7 +371,7 @@ Wallet'ünüzdeki ilk bitcoinlerinizi almadan önce, **kuru çalıştırma kurta
 Kurtarma testinin nasıl yapılacağı hakkında daha fazla bilgi edinmek için bu diğer eğitime başvurmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ledger Nano ile bitcoin nasıl alınır?
 
@@ -416,7 +416,7 @@ Bu Address ile güvence altına alınacak bitcoinlerin kaynağını açıklamak 
 Etiketleme hakkında daha fazla bilgi için bu diğer eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Daha sonra bu Address'i bitcoin almak için kullanabilirsiniz.
 
@@ -518,4 +518,4 @@ Eğer bu yazıyı faydalı bulduysanız, aşağıya beğenilerinizi bırakırsan
 Ayrıca Ledger Flex hakkındaki bu tam eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -134,13 +134,13 @@ Miningを開始するにはプールに接続する必要があるため、"Conf
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 2つ目のオプションは、パブリックプールのようなソロでミナを行うMining poolに接続することである：
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### ブレイインズ・プール
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 これが完了したら、Braiinsプールのダッシュボードに入ります。私たちがしなければならないのは、マイナーの1人と接続したいことをプールに伝えることである。"ワーカー "に行く必要があります。
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-ミニMinerをプールに接続するために必要な情報が表示される。ここで唯一変更できるのは、Stratum V2を選択することである。Stratum v2が何であるかは、[glossary](https://planb.network/en/resources/glossary/stratum-v2)のエントリーを参照のこと。
+ミニMinerをプールに接続するために必要な情報が表示される。ここで唯一変更できるのは、Stratum V2を選択することである。Stratum v2が何であるかは、[glossary](https://planb.academy/en/resources/glossary/stratum-v2)のエントリーを参照のこと。
 
 
 

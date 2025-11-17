@@ -1,14 +1,14 @@
 ---
-name: Professor Plan ₿ Network
-description: Hur lägger jag till eller ändrar min lärarprofil på Plan ₿ Network?
+name: Professor Plan ₿ Academy
+description: Hur lägger jag till eller ändrar min lärarprofil på Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Om du planerar att bidra till Plan ₿ Network genom att skriva en ny handledning eller kurs behöver du en lärarprofil. Denna profil gör det möjligt för dig att få lämpliga krediter för det innehåll du bidrar med till plattformen.
+Om du planerar att bidra till Plan ₿ Academy genom att skriva en ny handledning eller kurs behöver du en lärarprofil. Denna profil gör det möjligt för dig att få lämpliga krediter för det innehåll du bidrar med till plattformen.
 
 
-För de av er som redan har varit involverade i att skapa utbildningsinnehåll på Plan ₿ Network har ni förmodligen redan en lärarprofil. Du hittar den i mappen `/professors` [på vårt GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Om din profil redan existerar hittar du din inloggning i filen `professor.yml`.
+För de av er som redan har varit involverade i att skapa utbildningsinnehåll på Plan ₿ Academy har ni förmodligen redan en lärarprofil. Du hittar den i mappen `/professors` [på vårt GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Om din profil redan existerar hittar du din inloggning i filen `professor.yml`.
 
 
 För att göra ändringar i din profil, gå till avsnittet "Redigera din lärarprofil" i slutet av denna handledning.
@@ -17,13 +17,13 @@ För att göra ändringar i din profil, gå till avsnittet "Redigera din lärarp
 ## Lägg till en ny lärare med vår programvara
 
 
-Det enklaste sättet att skapa din lärarprofil på Plan ₿ Network är att använda vårt integrerade Python-verktyg. Så här fungerar det.
+Det enklaste sättet att skapa din lärarprofil på Plan ₿ Academy är att använda vårt integrerade Python-verktyg. Så här fungerar det.
 
 
 ### 1 - Konfigurera din lokala miljö
 
 
-Du måste ha din egen Fork från [Plan ₿ Network repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Du måste ha din egen Fork från [Plan ₿ Academy repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Synkronisera huvudgrenen (`dev`) i din Fork med källkatalogen.
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-När du är på startsidan anger du den lokala sökvägen till din repository-klon, det språk du skriver på och ditt GitHub-ID. Om du skapar den här profilen för någon annan och redan har en professorsprofil anger du ditt ID i fältet "*PBN Professor's ID*". Om du skapar din egen profil kommer du inte att ha ett Professor's ID ännu, eftersom du håller på att skapa ett, så lämna det här fältet tomt.
+När du är på startsidan anger du den lokala sökvägen till din repository-klon, det språk du skriver på och ditt GitHub-ID. Om du skapar den här profilen för någon annan och redan har en professorsprofil anger du ditt ID i fältet "*Plan ₿ Academy Professor's ID*". Om du skapar din egen profil kommer du inte att ha ett Professor's ID ännu, eftersom du håller på att skapa ett, så lämna det här fältet tomt.
 
 
 Klicka sedan på knappen "*New Professor*".
@@ -156,8 +156,8 @@ Om du behärskar användningen av Git kan du ändra din lärarprofil genom att s
 För nybörjare rekommenderar jag att du gör modifieringen direkt via GitHubs Interface-webb. Se till att du har ett GitHub-konto. Om du inte vet hur du skapar ett, följ denna handledning:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Gå till [Plan ₿ Network:s GitHub-arkiv för data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Gå till [Plan ₿ Academy:s GitHub-arkiv för data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ Klicka på pennikonen när du befinner dig i den fil du vill ändra.
 ![Image](assets/fr/06.webp)
 
 
-Om du inte redan har en Fork från Plan ₿ Network-arkivet kommer GitHub att föreslå att du skapar en. Klicka på "*Fork this repository*".
+Om du inte redan har en Fork från Plan ₿ Academy-arkivet kommer GitHub att föreslå att du skapar en. Klicka på "*Fork this repository*".
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Skriv ett meddelande som beskriver din ändring och välj sedan "*Föreslå änd
 En sammanfattning av dina ändringar visas. Om du vill göra ytterligare ändringar i din profil kan du gå tillbaka till mapparna och göra ytterligare commits. När du är klar klickar du på "*Create pull request*".
 
 
-En Pull Request är en begäran som görs för att integrera ändringar från din gren till huvudgrenen i Plan ₿ Network-arkivet, vilket möjliggör granskning och diskussion av ändringar innan de slås samman.
+En Pull Request är en begäran som görs för att integrera ändringar från din gren till huvudgrenen i Plan ₿ Academy-arkivet, vilket möjliggör granskning och diskussion av ändringar innan de slås samman.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Se till, i början av Interface, att din arbetsgren slås samman med `dev`-grenen i Plan ₿ Network-arkivet (som är huvudgrenen).
+Se till, i början av Interface, att din arbetsgren slås samman med `dev`-grenen i Plan ₿ Academy-arkivet (som är huvudgrenen).
 
 
 Ange en titel som kort sammanfattar de ändringar som du vill slå samman med källarkivet. Lägg till en kort kommentar som beskriver ändringarna och klicka sedan på Green-knappen "*Create pull request*" för att bekräfta pull request:
@@ -220,7 +220,7 @@ Ange en titel som kort sammanfattar de ändringar som du vill slå samman med k�
 ![Image](assets/fr/11.webp)
 
 
-Din PR kommer då att synas på fliken "*Pull Request*" i Plan ₿ Network:s huvudarkiv. Allt du behöver göra nu är att vänta på att en administratör ska sammanfoga din modifiering.
+Din PR kommer då att synas på fliken "*Pull Request*" i Plan ₿ Academy:s huvudarkiv. Allt du behöver göra nu är att vänta på att en administratör ska sammanfoga din modifiering.
 
 
 ![Image](assets/fr/12.webp)

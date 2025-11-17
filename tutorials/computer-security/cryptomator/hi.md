@@ -42,7 +42,7 @@ ___
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 क्रिप्टोमेटर एप्लिकेशन **विंडोज़** (exe / msi), **लिनक्स**, **macOS** के साथ-साथ **एंड्रॉइड** और **iOS** पर भी उपलब्ध है। वैसे, एंड्रॉइड एप्लिकेशन को छोड़कर, सभी एप्लिकेशन निःशुल्क हैं, जिसके लिए आपको भुगतान करना होगा (14.99 यूरो)।
 

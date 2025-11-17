@@ -31,11 +31,11 @@ Mengenai alat pengeluaran individu, semuanya berfungsi normal asalkan, tentu saj
 
 Komentar di Twitter telah menyoroti bahwa privasi yang ditawarkan oleh transaksi Stonewall sekarang mungkin berkurang. Nilai tambah dari transaksi Stonewall terletak pada fakta bahwa strukturnya tidak dapat dibedakan dari transaksi Stonewall x2. Ketika seorang analis menemukan pola spesifik ini, mereka tidak dapat menentukan apakah itu Stonewall standar dengan satu pengguna atau Stonewall x2 yang melibatkan dua pengguna. Namun, seperti yang akan kita lihat dalam paragraf berikutnya, melakukan transaksi Stonewall x2 menjadi lebih kompleks karena ketidaktersediaan Soroban. Beberapa oleh karena itu berpikir bahwa seorang analis sekarang mungkin mengasumsikan bahwa setiap transaksi dengan struktur ini adalah Stonewall normal. Secara pribadi, saya tidak berbagi asumsi ini. Meskipun transaksi Stonewall x2 mungkin kurang sering terjadi (dan saya pikir mereka sudah sebelum insiden ini), fakta bahwa mereka masih mungkin dapat membatalkan seluruh analisis berdasarkan asumsi bahwa mereka tidak.
 
-**[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 Mengenai Ricochet, saya belum dapat memverifikasi apakah layanan ini masih beroperasi, karena tidak memiliki Dojo di Testnet, dan saya lebih memilih untuk tidak mengambil risiko menghabiskan `100 000 sats` ke dompet yang mungkin dikendalikan oleh otoritas. Jika Anda telah memiliki kesempatan untuk menguji alat ini baru-baru ini, saya mengundang Anda untuk menghubungi saya agar kami dapat memperbarui artikel ini.
 
-Jika Anda perlu menggunakan Ricochet, perlu diketahui bahwa Anda selalu dapat melakukan operasi ini secara manual dengan perangkat lunak dompet apa pun. Untuk mempelajari cara melakukan berbagai lompatan secara manual dengan benar, saya merekomendasikan untuk berkonsultasi dengan artikel lain ini: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Jika Anda perlu menggunakan Ricochet, perlu diketahui bahwa Anda selalu dapat melakukan operasi ini secara manual dengan perangkat lunak dompet apa pun. Untuk mempelajari cara melakukan berbagai lompatan secara manual dengan benar, saya merekomendasikan untuk berkonsultasi dengan artikel lain ini: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Alat JoinBot tidak lagi beroperasi, karena sepenuhnya bergantung pada partisipasi dompet yang dikelola oleh Samourai.
 
@@ -46,9 +46,9 @@ Mengenai jenis transaksi kolaboratif lainnya, sering disebut sebagai "cahoots," 
 Setelah beberapa pengujian, tampaknya Soroban tidak lagi berfungsi. Untuk melakukan transaksi kolaboratif ini, pertukaran data harus dilakukan secara manual. Berikut adalah dua opsi untuk melakukan pertukaran ini:
 - Jika Anda secara fisik dekat dengan kolaborator Anda, Anda dapat memindai kode QR secara berurutan;
 Jika Anda berjarak jauh dari rekan kerja Anda, Anda dapat bertukar PSBT melalui saluran komunikasi eksternal ke aplikasi. Namun, berhati-hatilah, karena data yang terkandung dalam PSBT ini sensitif dalam hal privasi. Saya merekomendasikan menggunakan layanan pesan terenkripsi untuk memastikan kerahasiaan pertukaran.
-**[-> Pelajari lebih lanjut tentang transaksi Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Pelajari lebih lanjut tentang transaksi Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Pelajari lebih lanjut tentang transaksi Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Pelajari lebih lanjut tentang transaksi Stowaway.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Mengenai Whirlpool, protokol ini tampaknya tidak lagi berfungsi, bahkan untuk pengguna yang memiliki Dojo mereka sendiri. Saya telah memantau RoninDojo saya beberapa hari ini dan mencoba beberapa manipulasi dasar, tetapi CLI Whirlpool tidak dapat terhubung sejak server dimatikan.
 
@@ -148,7 +148,7 @@ Jika Anda menggunakan perangkat lunak lain selain Sparrow, seperti Electrum, unt
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat melihat [tutorial khusus kami](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat melihat [tutorial khusus kami](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Saya juga merekomendasikan untuk secara manual mengimpor label yang Anda asosiasikan dengan UTXO Anda di Samourai. Ini akan memungkinkan Anda untuk melakukan kontrol koin yang efektif di Sparrow selanjutnya.
 
@@ -204,7 +204,7 @@ Jika Anda menggunakan perangkat lunak lain seperti Electrum untuk memulihkan dom
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat mengonsultasikan [tutorial khusus kami](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat mengonsultasikan [tutorial khusus kami](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Saya juga merekomendasikan untuk secara manual mengimpor label yang Anda asosiasikan dengan UTXO Anda di Samourai. Ini akan memungkinkan Anda untuk melakukan kontrol koin yang efektif di Sparrow selanjutnya.
 

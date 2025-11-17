@@ -14,7 +14,7 @@ description: راه‌اندازی و استفاده از Lipa lightning mobile 
 اگر می‌خواهید اطلاعات بیشتری درباره Lightning Network کسب کنید و بفهمید که چگونه از نظر فنی کار می‌کند، توصیه می‌کنم این دوره را بگذرانید:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 در این آموزش، ما به بررسی **Lipa**، یک Wallet Lightning ساده و مؤثر که در سوئیس توسعه یافته است، خواهیم پرداخت.
 
@@ -131,7 +131,7 @@ Interface لیپا حول ۴ تب اصلی سازماندهی شده است که
 برای اطلاعات بیشتر در مورد نحوه صحیح پشتیبان‌گیری و مدیریت عبارت بازیابی خود، به شدت توصیه می‌کنم این آموزش دیگر را دنبال کنید، به ویژه اگر مبتدی هستید:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## دریافت بیت‌کوین‌ها
 

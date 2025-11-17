@@ -42,7 +42,7 @@ Cryptomator ni mbadala wa programu zingine, haswa Picocrypt iliyotolewa katika n
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Programu ya Cryptomator inapatikana kwenye **Windows** (exe / msi), **Linux**, **macOS,** lakini pia **Android** na **iOS**. Kwa njia, maombi yote hayana malipo, isipokuwa kwa programu ya Android, ambayo unapaswa kulipa (euro 14.99).
 

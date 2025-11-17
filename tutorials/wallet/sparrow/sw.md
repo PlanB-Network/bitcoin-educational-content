@@ -38,7 +38,7 @@ Nenda kwenye [ukurasa rasmi wa upakuaji wa Sparrow Wallet](https://sparrowwallet
 Ni muhimu kuangalia uadilifu na uhalisi wa programu kabla ya kuisakinisha. Ikiwa hujui jinsi ya kufanya hivyo, utapata mafunzo kamili hapa:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Baada ya Sparrow kusakinishwa, unaweza kuruka skrini za maelezo ya awali na kwenda moja kwa moja kwenye skrini ya usimamizi wa muunganisho.
 
@@ -107,9 +107,9 @@ Tafadhali kumbuka kuwa ukitumia Bitcoin Core node iliyokatwa, hutaweza kurejesha
 Ili kusanidi nodi ya Bitcoin Core, unaweza kushauriana na mojawapo ya mafunzo yafuatayo, kulingana na mfumo wako wa uendeshaji:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Kwenye Sparrow, nenda kwenye kichupo cha "*Bitcoin Core*".
 
@@ -314,7 +314,7 @@ Unaweza kuiandika kwenye karatasi au, kwa usalama zaidi, uichonge kwenye chuma c
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -325,7 +325,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Unaweza pia kuchagua kuongeza passphrase ya BIP39 kwa kubofya kisanduku cha "Tumia passphrase". Onyo: kutumia passphrase inaweza kuwa muhimu sana, lakini ikiwa huelewi jinsi inavyofanya kazi, inaweza kuwa hatari sana. Ndiyo maana nakushauri sana usome nakala hii fupi ya kinadharia kuhusu mada hii:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mara tu unapohifadhi Mnemonic yako na passphrase yoyote kwenye kifaa halisi, bofya "*Thibitisha Hifadhi Nakala*".
 
@@ -378,7 +378,7 @@ Kuna njia mbili kuu za kuunganisha Hardware Wallet yako na Sparrow:
 Sparrow inasaidia njia hizi zote za mawasiliano na inaendana na pochi nyingi za vifaa kwenye soko.
 
 
-Kwa mafunzo haya, nitakuwa nikitumia Ledger Nano S na kebo, lakini utaratibu ni sawa katika hali ya Air-Gap. Utapata maelezo mahususi kwa Hardware Wallet yako katika mafunzo yake mahususi kwenye Plan ₿ Network.
+Kwa mafunzo haya, nitakuwa nikitumia Ledger Nano S na kebo, lakini utaratibu ni sawa katika hali ya Air-Gap. Utapata maelezo mahususi kwa Hardware Wallet yako katika mafunzo yake mahususi kwenye Plan ₿ Academy.
 
 
 Kabla ya kuanza, hakikisha kwamba Wallet tayari imesanidiwa kwenye Hardware Wallet yako. Ikiwa unatumia muunganisho wa waya, unganishe kwenye kompyuta yako kupitia kebo.
@@ -471,7 +471,7 @@ Ikiwa unatumia Hardware Wallet, ni muhimu sana kuangalia Address kwenye skrini y
 ![Image](assets/fr/44.webp)
 
 
-Kwa watumiaji wa Hardware Wallet Air-Gap, uthibitishaji wa Address hutofautiana kulingana na muundo wa kifaa. Tazama mafunzo maalum ya Plan ₿ Network kwa maagizo sahihi.
+Kwa watumiaji wa Hardware Wallet Air-Gap, uthibitishaji wa Address hutofautiana kulingana na muundo wa kifaa. Tazama mafunzo maalum ya Plan ₿ Academy kwa maagizo sahihi.
 
 
 Baada ya shughuli hiyo kutangazwa na mlipaji, utaona ikionekana kwenye kichupo cha "*Muamala*". Unaweza kubofya juu yake kwa maelezo zaidi, kama vile txid.
@@ -552,7 +552,7 @@ Hii inakupeleka kwenye ukurasa unaoelezea Elements ya muamala wako. Hakikisha ku
 Ni muhimu kuweka Sighash chaguo-msingi. Ili kuelewa ni kwa nini, angalia kozi hii ya mafunzo, ambayo ninaelezea kila kitu unachohitaji kujua kuhusu Sighash:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Kwenye skrini inayofuata, chaguo hutofautiana kulingana na aina ya Wallet unayotumia:
 
@@ -668,4 +668,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaacha kido
 Pia ninapendekeza somo hili lingine ambalo ninaelezea jinsi ya kusanidi Hardware Wallet COLDCARD Q na Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

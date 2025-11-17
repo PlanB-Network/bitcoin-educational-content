@@ -17,7 +17,7 @@ I den här handledningen kommer vi att täcka processen för att skapa ett före
 Om du är intresserad av att integrera Bitcoin i ditt företag rekommenderar jag också att du tar del av vår kompletta teoretiska utbildning i ämnet:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Skapa ett Bitfinex-konto
 
@@ -37,12 +37,12 @@ Fyll i den information som krävs: ange din e-postadress Address och ditt föret
 För tips om hur du använder och skyddar starka, unika lösenord, se även denna handledning:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi ska nu konfigurera 2FA för att säkra kontot. Använd en autentiseringsapplikation på din smartphone, som till exempel Google Authenticator eller Authy. Du hittar en handledning om detta verktyg här:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skanna QR-koden med din app och ange de 6 siffrorna som anges.
 
@@ -234,7 +234,7 @@ Bitfinex erbjuder också insättnings- och uttagsalternativ via Lightning Networ
 Om du är intresserad av Lightning Network har vi också en komplett utbildning som hjälper dig att förstå hur den fungerar:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Köpa och sälja bitcoins på Bitfinex
 
@@ -352,4 +352,4 @@ Beroende på ditt företags mål och struktur kan användningen av Bitfinex vari
 För en mer djupgående titt på detta ämne rekommenderar jag den här omfattande utbildningskursen om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

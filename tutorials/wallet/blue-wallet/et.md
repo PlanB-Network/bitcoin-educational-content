@@ -11,11 +11,10 @@ Bitcoin kasutamisega alustamine tundub olevat suur väljakutse inimestele, kes o
 
 
 
-Selles õpetuses vaatame Blue Wallet, lihtsat, kuid väga tõhusat Bitcoin Wallet, mis võimaldab teil isiklikult hallata oma bitcoin'e ja luua ka [Multisig](https://planb.network/resources/glossary/multisig) põhinevaid halduskooperatiive (ärge muretsege, me tuleme selle juurde tagasi).
+Selles õpetuses vaatame Blue Wallet, lihtsat, kuid väga tõhusat Bitcoin Wallet, mis võimaldab teil isiklikult hallata oma bitcoin'e ja luua ka [Multisig](https://planb.academy/resources/glossary/multisig) põhinevaid halduskooperatiive (ärge muretsege, me tuleme selle juurde tagasi).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Pärast paigaldamist saate luua uue Wallet ja salvestada 12 taastamissõna või 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Blue Wallet abil saate luua eraldi, spetsiaalsed Bitcoin portfellid. Näiteks saate ühes ja samas rakenduses kasutada ühte Wallet portfelli oma säästude jaoks ja teist oma igapäevaste kulude jaoks.
 
@@ -65,10 +64,10 @@ Kui olete harjunud teiste Bitcoin portfellidega, nagu Phoenix või Aqua, siis ei
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Sinine Wallet Bitcoin Wallet esindab Bitcoin ökosüsteemi standardset Wallet. Võite kulutada bitcoine, kui teil on olemas taastamissõnad, mis annavad võrgus kehtiva allkirja, et tõendada, et bitcoine kuuluvad teile.
 
@@ -122,7 +121,7 @@ Seega saate valida teile sobiva tehingutasu suhtarvu, kui soovite, et teie tehin
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Järgige parimaid tavasid, valides P2WSH-vormingu.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) ehk Pay to Witness Script Hash** on lukustusmeetod, mis lukustab teie tehingu väljaminevad bitcoinid (väljundid) Blue Wallet poolt loodud kohandatud skripti Hash-le. Selle lukustustüübi peamine eelis on see, et see vähendab tehinguandmete suurust ja võimaldab teil kaudselt maksta väiksemaid tehingutasusid.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) ehk Pay to Witness Script Hash** on lukustusmeetod, mis lukustab teie tehingu väljaminevad bitcoinid (väljundid) Blue Wallet poolt loodud kohandatud skripti Hash-le. Selle lukustustüübi peamine eelis on see, et see vähendab tehinguandmete suurust ja võimaldab teil kaudselt maksta väiksemaid tehingutasusid.
 
 
 
@@ -264,7 +263,7 @@ Tehingu kinnitamisel on vaja teist allkirja, et kinnitada bitcoinide kulutamine.
 
 
 
-Teine Wallet allakirjutaja, kui ta on samuti kasutaja, saab tehingu allkirjastada isegi siis, kui ta ei ole võrgus (ei ole Wi-Fi, ei ole mobiilseid andmeid), skaneerides äsja loodud [osaliselt allkirjastatud tehingu](https://planb.network/resources/glossary/psbt) QR-koodi.
+Teine Wallet allakirjutaja, kui ta on samuti kasutaja, saab tehingu allkirjastada isegi siis, kui ta ei ole võrgus (ei ole Wi-Fi, ei ole mobiilseid andmeid), skaneerides äsja loodud [osaliselt allkirjastatud tehingu](https://planb.academy/resources/glossary/psbt) QR-koodi.
 
 
 
@@ -330,12 +329,12 @@ Seadetes > **Valguse seaded** saate käsitsi ühendada oma Lightning Wallet, kui
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Nüüd olete lõpetanud Blue Wallet tuuri, valmis kasutama Bitcoin kogu selle lihtsuses ja võimsuses. Soovitame astuda järgmise sammu ja teada saada, kuidas saate tänu Lightning'i võimsusele oma kauplustes Bitcoin makseid vastu võtta.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

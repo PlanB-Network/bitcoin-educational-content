@@ -23,7 +23,7 @@ Dessa enheter marknadsförs antingen som en extra värmare, som i fallet med **A
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Observera att prisskillnaden mot traditionella värmare med motsvarande effekt i de allra flesta fall inte gör det möjligt för dig att göra en ekonomisk vinst. De satoshis som genereras av Mining:s verksamhet kommer aldrig att kompensera för denna prisskillnad, såvida du inte har tillgång till gratis (överskott) eller mycket billig el.
 
@@ -207,9 +207,9 @@ Mer information om hur du ansluter till en Mining pool finns i dessa handledning
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Sammanfattningsvis behöver vi
 
@@ -358,4 +358,4 @@ För att få reda på mer, ta en titt på vår handledning om den överlägsna v
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

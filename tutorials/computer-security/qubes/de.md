@@ -101,7 +101,7 @@ Qubes OS bietet außerdem vollständige Transparenz und Kontrolle über Ihre dig
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Anstatt ein undurchdringliches System zu schaffen, konzentriert sich Qubes OS auf die Widerstandsfähigkeit: Es kapselt den Schaden im Falle einer Kompromittierung ein und reduziert so das Risiko für den Rest des Systems. Dieser pragmatische Ansatz macht Qubes OS zu einer bevorzugten Wahl für Benutzer mit hohen Sicherheitsanforderungen oder die ein Maximum an Kontrolle über ihr digitales Leben behalten wollen.
 
@@ -126,7 +126,7 @@ Um Qubes OS zu installieren, laden Sie das offizielle ISO-Image von der Qubes OS
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Ganz gleich, ob Sie sicher im Internet surfen, vertrauliche Informationen schüt
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

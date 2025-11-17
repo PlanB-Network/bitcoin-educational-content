@@ -13,7 +13,7 @@ description: Müşterileri daha az değerli para birimleri kullanmak yerine bitc
 Sonunda işletmenizde Bitcoin'yi kabul etmeye karar verdiniz ve her şey hazır: Lightning Network Wallet ödeme almak için ayarlandı, çalışanlarınız sizin adınıza ödeme almak için Wallet'ün salt okunur sürümünü nasıl kullanacaklarını biliyor, Satış Noktası (PoS) mağaza ürünleriyle yapılandırıldı ve aylık olarak güncellendi ve müşterilerden gelen Bitcoin muhasebesini nasıl yöneteceğinizi zaten biliyorsunuz. Nasıl yapacağınızı bilmiyorsanız bu eğitimi izleyin:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Sorun Nedir
 
@@ -129,7 +129,7 @@ Uygulama yöntemi satıcıya bırakılmıştır, ancak kısaca, burada bazı mev
 Her durumda, işletmenizin, fiziksel bir konumu varsa, [BTC Map](https://btcmap.org/map)'te mevcut ve güncel olduğundan emin olmak her zaman iyi bir uygulamadır. Çoğu bitcoin kullanıcısı bu araca aşinadır ve bitcoin'i fiziksel mağazalarda harcayanların neredeyse hepsi en az bir kez hangi yerlerin kabul ettiğini kontrol etmiştir. Mağazanızı BTC Map'e nasıl ekleyeceğinizi öğrenmek veya daha fazla bilgi almak istiyorsanız, bu öğreticiyi izleyin:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Muhasebe Yönetimi
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 İndirim politikalarından birini uygulayıp uygulamadığınıza bakılmaksızın, yeni kazanılan bitcoinlerin muhasebesini nasıl yöneteceğinizi merak ediyorsanız, bu eğitim tam size göre:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Sonuç
 

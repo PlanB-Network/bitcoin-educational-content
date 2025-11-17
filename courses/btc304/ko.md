@@ -2853,11 +2853,9 @@ Bitcoin의 토끼굴에 빠지면 인생에 대한 관점이 달라집니다.
 - **구조화된 조직**: 명확한 역할을 정의할 수 있어 커뮤니티 운영과 프로젝트 수행이 더욱 쉬워집니다.
 
 
-커뮤니티가 더욱 성장하도록 돕기 위해 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" /> COMMU302 과정의 후속 조치입니다
+여러분의 커뮤니티가 더욱 성장하도록 돕기 위해, **앞으로 몇 달 안에 이 교육의 후속 과정이 [Plan ₿ Academy](https://planb.academy/)에 공개될 가능성을 배제할 수 없습니다**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-앞으로 몇 달 내에 [planb.network](https://planb.academy/)에서 출시될 예정입니다.
 
 
 다음 세션에서는 다음과 같은 고급 주제를 살펴볼 수 있습니다:

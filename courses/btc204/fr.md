@@ -1,4 +1,4 @@
- ---
+---
 name: La confidentialité sur Bitcoin
 goal: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
 objectives:
@@ -3169,7 +3169,7 @@ Outre son rôle de sauvegarde des codes de paiement, la transaction de notificat
 
 Avant de détailler le fonctionnement technique de la transaction de notification, il est important de discuter du modèle de confidentialité associé au BIP47, qui justifie certaines mesures prises lors de la création de cette transaction initiale.
 
-Le code de paiement, en soi, ne présente pas un risque direct pour la confidentialité. À l'inverse du modèle traditionnel de Bitcoin, qui vise à briser le lien entre l'identité de l'utilisateur et ses transactions (qui sont publiques) en préservant l'anonymat des clés et des adresses, le code de paiement peut être ouvertement associé à une identité sans constituer une menace.
+Le code de paiement, en lui-même, ne présente pas de risque direct pour la confidentialité. Contrairement au modèle traditionnel de Bitcoin, qui vise à rompre le lien entre l'identité de l'utilisateur et ses transactions (qui sont publiques) en préservant l'anonymat des clés et des adresses, le code de paiement peut être ouvertement associé à une identité sans constituer une menace.
 
 En effet, le code de paiement n'est pas utilisé pour dériver directement les adresses recevant les paiements BIP47. Ces adresses sont plutôt générées via l'application d'ECDH entre les clés dérivées des codes de paiement des deux parties concernées.
 
@@ -3203,7 +3203,7 @@ Maintenant, voyons comment fonctionne cette transaction de notification. Imagino
 
 - Elle sélectionne une paire de clés au sein de son portefeuille HD se trouvant sur une branche différente de son code de paiement. Attention, cette paire ne doit pas être associée facilement à l'adresse de notification d'Alice, ni à l'identité d'Alice (voir section précédente) ;
 
-- Alice sélectionne la clé privée de cette paire. Nous la nommons $a$ (minuscule) ;
+- Alice sélectionne la clé privée de cette paire. Nous la nommons $a$ (minuscule) :
 
 $$
 a
@@ -3211,15 +3211,21 @@ $$
 
 - Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index $/0$). Nous nommons cette clé publique $B$ (majuscule). La clé privée associée à cette clé publique est nommée $b$ (minuscule). $B$ est déterminée par addition et doublement de points sur la courbe elliptique depuis $G$ (le point générateur) avec $b$ (la clé privée) :
 
-$$ B = b \cdot G $$
+$$
+B = b \cdot G 
+$$
 
-- Alice calcule un point secret $S$ (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$.
+- Alice calcule un point secret $S$ (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$ :
 
-$$ S = a \cdot B $$
+$$ 
+S = a \cdot B 
+$$
 
-- Alice calcule le facteur aveuglant $f$ qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : $x$ qui est l'abscisse du point secret calculé précédemment. La première entrée est $o$ qui est l'UTXO consommé en input de cette transaction (outpoint).
+- Alice calcule le facteur aveuglant $f$ qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo-aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : $x$ qui est l'abscisse du point secret calculé précédemment. La première entrée est $o$ qui est l'UTXO consommé en input de cette transaction (outpoint) :
 
-$$ f = \text{HMAC-SHA512}(o, x) $$
+$$ 
+f = \text{HMAC-SHA512}(o, x) 
+$$
 
 **2- Alice convertit son code de paiement personnel en base 2 (binaire).**
 
@@ -3227,12 +3233,18 @@ $$ f = \text{HMAC-SHA512}(o, x) $$
 
 - Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés $f1$ et les 32 derniers octets sont nommés $f2$. On a donc :
 
-$$ f = f1 || f2 $$
+$$ 
+f = f1 || f2 
+$$
 
-- Alice calcule le chiffré $x'$ de l'abscisse de la clé publique $x$ de son code de paiement, et le chiffré $c'$ de son code de chaîne $c$ séparément. $f1$ et $f2$ agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif).
+- Alice calcule le chiffré $x'$ de l'abscisse de la clé publique $x$ de son code de paiement, et le chiffré $c'$ de son code de chaîne $c$ séparément. $f1$ et $f2$ agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif) :
 
-$$ x' = x \oplus f1 $$
-$$ c' = c \oplus f2 $$
+$$ 
+x' = x \oplus f1 
+$$
+$$ 
+c' = c \oplus f2 
+$$
 
 - Alice remplace les valeurs réelles de l'abscisse de la clé publique $x$ et du code de chaîne $c$ dans son code de paiement par les valeurs chiffrées $x'$ et $c'$.
 
@@ -3387,7 +3399,7 @@ D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 \therefore D \oplus L = E
 $$
 
-Ensuite, cette méthode de chiffrement ressemble beaucoup au chiffre de Vernam (One-Time Pad), le seul algorithme de chiffrement connu à ce jour qui dispose d'une sécurité inconditionnelle (ou absolue). Pour que le chiffre de Vernam dispose de cette caractéristique, il faut que la clé de chiffrement soit parfaitement aléatoire, qu'elle soit de même taille que le message et qu'elle ne soit utilisée qu'une seule fois. Dans la méthode de chiffrement utilisée ici pour le BIP47, la clé est bien de la même taille que le message, le facteur aveuglant fait exactement la même taille que la concaténation de l'abscisse de la clé publique avec le code de chaîne du code de paiement. Cette clé de chiffrement est bien utilisée une seule fois. En revanche, cette clé n'est pas issue d'un parfait aléa puisqu'elle est un HMAC. Elle est plutôt pseudo-aléatoire. Ce n'est donc pas un chiffre de Vernam, mais la méthode s'en rapproche.
+Ensuite, cette méthode de chiffrement ressemble beaucoup au chiffre de Vernam (*One-Time Pad*), le seul algorithme de chiffrement connu à ce jour qui dispose d'une sécurité inconditionnelle (ou absolue). Pour que le chiffre de Vernam dispose de cette caractéristique, il faut que la clé de chiffrement soit parfaitement aléatoire, qu'elle soit de même taille que le message et qu'elle ne soit utilisée qu'une seule fois. Dans la méthode de chiffrement utilisée ici pour le BIP47, la clé est bien de la même taille que le message, le facteur aveuglant fait exactement la même taille que la concaténation de l'abscisse de la clé publique avec le code de chaîne du code de paiement. Cette clé de chiffrement est bien utilisée une seule fois. En revanche, cette clé n'est pas issue d'un parfait aléa puisqu'elle est un HMAC. Elle est plutôt pseudo-aléatoire. Ce n'est donc pas un chiffre de Vernam, mais la méthode s'en rapproche.
 
 ### Réception de la transaction de notification
 
@@ -3395,44 +3407,58 @@ Maintenant qu'Alice a envoyé la transaction de notification à Bob, voyons comm
 
 **1-** Bob surveille les transactions qui créent des sorties avec son adresse de notification.
 
-**2-** Lorsqu'une transaction dispose d'un output sur son adresse de notification, Bob l'analyse pour voir si elle contient une sortie OP_RETURN respectant le standard BIP47. 
+**2-** Lorsqu'une transaction dispose d'un output sur son adresse de notification, Bob l'analyse pour voir si elle contient une sortie `OP_RETURN` respectant le standard BIP47. 
 
-**3-** Si le premier octet de la charge utile de l'OP_RETURN est `0x01`, Bob commence sa recherche d'un éventuel secret partagé avec ECDH :
+**3-** Si le premier octet de la charge utile de l'`OP_RETURN` est `0x01`, Bob commence sa recherche d'un éventuel secret partagé avec ECDH :
 - Bob sélectionne la clé publique en input de la transaction. C'est-à-dire la clé publique d'Alice nommée $A$ avec :
 
-$$ A = a \cdot G $$
+$$ 
+A = a \cdot G 
+$$
 
 - Bob sélectionne la clé privée $b$ associée à son adresse de notification personnelle :
 
-$$ b $$
+$$ 
+b 
+$$
 
 - Bob calcule le point secret $S$ (secret partagé ECDH) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $b$ sur la clé publique d'Alice $A$ :
 
-$$ S = b \cdot A $$
+$$ 
+S = b \cdot A 
+$$
 
 - Bob détermine le facteur aveuglant $f$ qui va permettre de déchiffrer la charge utile du code de paiement d'Alice. De la même manière qu'Alice l'avait calculé précédemment, Bob va trouver $f$ en appliquant HMAC-SHA512 sur $x$ la valeur en abscisse du point secret $S$, et sur $o$ l'UTXO consommé en input de cette transaction de notification :
 
-$$ f = \text{HMAC-SHA512}(o, x) $$
+$$ 
+f = \text{HMAC-SHA512}(o, x) 
+$$
 
-**4-** Bob interprète les données de l'OP_RETURN dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant $f$ :
+**4-** Bob interprète les données de l'`OP_RETURN` dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant $f$ :
 - Bob sépare le facteur aveuglant $f$ en 2 parties : les 32 premiers octets de $f$ seront $f1$ et les 32 derniers octets seront $f2$ ;
 - Bob déchiffre la valeur de l'abscisse chiffrée $x'$ de la clé publique du code de paiement d'Alice :
 
-$$ x = x' \oplus f1 $$
+$$ 
+x = x' \oplus f1 
+$$
 
 - Bob déchiffre la valeur du code de chaîne chiffré $c'$ du code de paiement d'Alice :
 
-$$ c = c' \oplus f2 $$
+$$ 
+c = c' \oplus f2 
+$$
 
 **5-** Bob vérifie si la valeur de la clé publique du code de paiement d'Alice fait bien partie du groupe secp256k1. Si c'est bien le cas, il interprète cela comme un code de paiement valide. Sinon, il ignore cette transaction.
 
-Maintenant que Bob est en connaissance du code de paiement d'Alice, celle-ci peut lui envoyer jusqu'à `2^32` paiements, sans avoir plus jamais besoin de refaire une transaction de notification de ce type.
+Maintenant que Bob est en connaissance du code de paiement d'Alice, celle-ci peut lui envoyer jusqu'à `2^32` paiements, sans jamais avoir besoin de refaire une transaction de notification de ce type.
 
 Pourquoi cela fonctionne-t-il ? Comment Bob peut-il parvenir à déterminer le même facteur aveuglant qu'Alice, et donc à déchiffrer son code de paiement ? Étudions plus en détail l'action d'ECDH dans ce que l'on vient de décrire.
 
 Tout d'abord, nous avons affaire à un chiffrement symétrique. Cela veut dire que la clé de chiffrement et la clé de déchiffrement sont la même valeur. Cette clé dans la transaction de notification, c'est le facteur aveuglant : 
 
-$$ f = f1 || f2 $$
+$$ 
+f = f1 || f2 
+$$
 
 Il faut donc qu'Alice et Bob obtiennent la même valeur pour $f$, sans pour autant le transmettre directement puisqu'un attaquant pourrait le subtiliser et déchiffrer l'information secrète. Ce facteur aveuglant est obtenu en appliquant HMAC-SHA512 sur 2 valeurs : 
 - l'abscisse d'un point secret ;
@@ -3441,15 +3467,21 @@ Il faut donc qu'Alice et Bob obtiennent la même valeur pour $f$, sans pour auta
 Bob doit donc disposer de ces deux informations pour déchiffrer la charge utile du code de paiement d'Alice. Pour l'UTXO en input, Bob peut simplement le récupérer en observant la transaction de notification. Pour le point secret, Bob va devoir utiliser ECDH. Comme vu dans la section précédente sur Diffie-Hellman, simplement en s'échangeant leurs clés publiques respectives et en appliquant secrètement leurs clés privées sur la clé publique de l'autre, Alice et Bob peuvent trouver un point précis et secret sur la courbe elliptique. La transaction de notification s'appuie sur ce mécanisme :
 - La paire de clés de Bob :
 
-$$ B = b \cdot G $$
+$$ 
+B = b \cdot G 
+$$
 
 - La paire de clés d'Alice : 
 
-$$ A = a \cdot G $$
+$$ 
+A = a \cdot G 
+$$
 
 - Pour un secret $S (x, y)$ :
 
-$$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
+$$ 
+S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A 
+$$
 
 ![BTC204](assets/fr/234.webp)
 
@@ -3457,10 +3489,10 @@ Maintenant que Bob connait le code de paiement d'Alice, il va être en capacité
 
 Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner et interpréter une transaction de notification :
 - Bob surveille les sorties de transaction vers son adresse de notification ;
-- Lorsqu'il en détecte une, il récupère les informations contenues dans l'OP_RETURN ;
+- Lorsqu'il en détecte une, il récupère les informations contenues dans l'`OP_RETURN` ;
 - Bob sélectionne la clé publique en input et calcule un point secret grâce à ECDH ;
 - Il utilise ce point secret pour calculer un HMAC qui est le facteur aveuglant ;
-- Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'OP_RETURN.
+- Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'`OP_RETURN`.
 
 ![BTC204](assets/fr/235.webp)
 
@@ -3479,25 +3511,37 @@ Avant de vous expliquer ce processus, je pense qu'il est important de rappeler s
 Chaque fois qu'Alice souhaite envoyer un paiement à Bob, elle dérive une nouvelle adresse vierge unique, grâce une nouvelle fois au protocole ECDH :
 - Alice sélectionne la première clé privée dérivée depuis son code de paiement réutilisable personnel :
 
-$$ a $$
+$$ 
+a 
+$$
 
 - Alice sélectionne la première clé publique inutilisée dérivée depuis le code de paiement de Bob. Cette clé publique, nous l'appellerons $B$. Elle est associée à la clé privée $b$ dont seul Bob a connaissance :
 
-$$ B = b \cdot G $$
+$$ 
+B = b \cdot G 
+$$
 
 - Alice calcule un point secret $S$ sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$ :
 
-$$ S = a \cdot B $$
+$$ 
+S = a \cdot B 
+$$
 
 - À partir de ce point secret, Alice va calculer le secret partagé $s$ (minuscule). Pour ce faire, elle sélectionne l'abscisse du point secret $S$ nommée $Sx$, et elle passe cette valeur dans la fonction de hachage SHA256 :
 
-$$ S = (Sx, Sy) $$
-$$ s = \text{SHA256}(Sx) $$
+$$ 
+S = (Sx, Sy) 
+$$
+$$ 
+s = \text{SHA256}(Sx) 
+$$
 
 - Alice utilise ce secret partagé $s$ pour calculer une adresse de réception de paiement Bitcoin. Dans un premier temps, elle vérifie que $s$ est bien contenu dans l'ordre de la courbe secp256k1. Si ce n'est pas le cas, elle incrémente l'index de la clé publique de Bob afin de dériver un autre secret partagé ;
 - Dans un second temps, elle calcule une clé publique $K0$ en additionnant sur la courbe elliptique les points $B$ et $s·G$. En d'autres termes, Alice additionne la clé publique dérivée depuis le code de paiement de Bob $B$ avec un autre point calculé sur la courbe elliptique par addition et doublement de points avec le secret partagé $s$ depuis le point générateur de la courbe secp256k1 $G$. Ce nouveau point représente une clé publique, et nous le nommons $K0$ :
 
-$$ K0 = B + s \cdot G $$
+$$ 
+K0 = B + s \cdot G 
+$$
 
 - Avec cette clé publique $K0$, Alice peut dériver une adresse de réception vierge de façon standard (par exemple SegWit V0 en bech32).
 
@@ -3514,7 +3558,7 @@ Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiem
 
 ![BTC204](assets/fr/236.webp)
 
-Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, sauf qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaîne clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $K1$ :
+Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, sauf qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $K1$ :
 
 ![BTC204](assets/fr/237.webp)
 
@@ -3538,33 +3582,47 @@ Dès que Bob reçoit la transaction de notification de la part d'Alice, il déri
 
 - Bob sélectionne la première clé privée fille dérivée depuis son code de paiement. Cette clé privée est nommée $b$. Elle est associée à la clé publique $B$ avec laquelle Alice avait fait ses calculs dans l'étape précédente :
 
-$$ b $$
+$$ 
+b 
+$$
 
 - Bob sélectionne la première clé publique d'Alice dérivée depuis son code de paiement. Cette clé est nommée $A$. Elle est associée à la clé privée $a$ avec laquelle Alice avait fait ses calculs, et dont seule Alice a connaissance. Bob peut réaliser ce processus puisqu'il est en connaissance du code de paiement d'Alice qui lui a été transmis avec la transaction de notification :
 
-$$ A = a \cdot G $$
+$$ 
+A = a \cdot G 
+$$
 
 - Bob calcule le point secret $S$, par addition et doublement de points sur la courbe elliptique, en appliquant sa clé privée $b$ sur la clé publique d'Alice $A$. On retrouve ici l'utilisation d'ECDH qui nous garantit que ce point $S$ sera le même pour Bob et pour Alice :
 
-$$ S = b \cdot A $$
+$$ 
+S = b \cdot A 
+$$
 
 - De la même manière qu'Alice, Bob isole l'abscisse de ce point $S$. Nous avons nommé cette valeur $Sx$. Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé $s$ (minuscule) :
 
-$$ s = \text{SHA256}(Sx) $$
+$$ 
+s = \text{SHA256}(Sx) 
+$$
 
 - Toujours de la même manière qu'Alice, Bob calcule le point $s·G$ sur la courbe elliptique. Puis, il additionne ce point secret avec sa clé publique $B$. Il obtient alors un nouveau point sur la courbe elliptique qu'il interprète comme une clé publique $K0$ :
 
-$$ K0 = B + s \cdot G $$
+$$ 
+K0 = B + s \cdot G 
+$$
 
 Une fois que Bob dispose de cette clé publique $K0$, il peut dériver la clé privée associée afin de pouvoir dépenser ses bitcoins. C'est le seul à pouvoir générer cette clé privée :
 
 - Bob additionne sa clé privée fille $b$ dérivée depuis son code de paiement personnel. C'est le seul à pouvoir obtenir la valeur de $b$. Puis, il additionne $b$ avec le secret partagé $s$ afin d'obtenir $k0$, la clé privée de $K0$ :
 
-$$ k0 = b + s $$
+$$ 
+k0 = b + s 
+$$
 
 Grâce à la loi de groupe de la courbe elliptique, Bob obtient exactement la clé privée correspondant à la clé publique utilisée par Alice. Nous avons donc bien :
 
-$$ K0 = k0 \cdot G $$
+$$ 
+K0 = k0 \cdot G 
+$$
 
 Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un paiement BIP47 et calculer la clé privée correspondante :
 - Bob sélectionne la première clé privée fille dérivée depuis son code de paiement personnel ;
@@ -3608,11 +3666,11 @@ Le BIP47 a beaucoup été critiqué pour son inefficience on-chain. Comme expliq
 
 Cependant, dans certaines situations, la transaction de notification peut constituer un obstacle pour l'utilisateur. Prenons l'exemple d'une donation unique à un destinataire : avec une adresse Bitcoin classique, une seule transaction suffit pour réaliser la donation. Mais avec le BIP47, deux transactions sont nécessaires : une pour la notification et une autre pour le paiement effectif. Lorsque la demande d'espace dans les blocs est faible et que les frais de transaction sont bas, cette étape supplémentaire n'est généralement pas un problème. Toutefois, en période de congestion, les frais de transaction peuvent devenir exorbitants pour un seul paiement, doublant potentiellement le coût pour l'utilisateur par rapport à une transaction Bitcoin standard, ce qui peut s'avérer inacceptable pour l'utilisateur.
 
-Pour les situations où l'utilisateur prévoit de réaliser uniquement quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessiter l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
+Pour les situations où l'utilisateur ne prévoit d'effectuer que quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessiter l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
 
 ---
 
-*Pour bien comprendre ce chapitre, il est essentiel de maîtriser le fonctionnement d'ECDH (Elliptic Curve Diffie-Hellman) et de la dérivation de clés cryptographiques dans un portefeuille HD. Ces concepts ont été détaillés dans le chapitre précédent sur le BIP47. Je n'y reviendrai donc pas ici. Si vous n'êtes pas encore familiarisé avec ces notions, je vous recommande de consulter le chapitre précédent avant de poursuivre celui-ci. Je n'aborderai pas non plus à nouveau les risques associés à la réutilisation des adresses de réception, ni l'importance d'avoir un identifiant unique pour recevoir des paiements.*
+*Pour bien comprendre ce chapitre, il est essentiel de maîtriser le fonctionnement d'ECDH (Elliptic Curve Diffie-Hellman) et de la dérivation de clés cryptographiques dans un portefeuille HD. Ces concepts ont été détaillés dans le chapitre précédent sur le BIP47, je n'y reviendrai donc pas ici. Si vous n'êtes pas encore familiarisé avec ces notions, je vous recommande de consulter le chapitre précédent avant de poursuivre celui-ci. Je n'aborderai pas non plus à nouveau les risques associés à la réutilisation des adresses de réception, ni l'importance d'avoir un identifiant unique pour recevoir des paiements.*
 
 ---
 

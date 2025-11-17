@@ -2853,11 +2853,9 @@ Los beneficios son dobles:
 - **Organización estructurada**: puedes definir funciones claras, lo que facilita la gestión de tu comunidad y la realización de proyectos.
 
 
-Para que tu comunidad crezca aún más, **un seguimiento del curso COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Con el objetivo de que su comunidad prospere aún más, **no se descarta que una continuación de esta formación pueda publicarse en [Plan ₿ Academy](https://planb.academy/) en los próximos meses**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-podría publicarse en [planb.network](https://planb.academy/) en los próximos meses.
 
 
 Esta próxima sesión podría explorar temas avanzados como:

@@ -2855,7 +2855,6 @@ Fördelarna är tvåfaldiga:
 
 I syfte att låta ert community utvecklas ytterligare **kan det inte uteslutas att en fortsättning på denna utbildning publiceras på [Plan ₿ Academy](https://planb.academy/) inom de kommande månaderna**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 kan komma att släppas på [planb.network](https://planb.academy/) under de kommande månaderna.
 

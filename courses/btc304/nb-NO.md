@@ -2855,7 +2855,6 @@ Fordelene er todelt:
 
 For å bidra til at fellesskapet deres kan blomstre enda mer, **er det ikke utelukket at en oppfølger til dette kurset kan bli lansert på [Plan ₿ Academy](https://planb.academy/) i de kommende månedene**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 kan bli utgitt på [planb.network](https://planb.academy/) i løpet av de kommende månedene.
 

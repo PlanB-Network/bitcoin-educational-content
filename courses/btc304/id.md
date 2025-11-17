@@ -2855,7 +2855,6 @@ Manfaatnya ada dua:
 
 Dengan tujuan membantu komunitas Anda berkembang lebih jauh, **tidak tertutup kemungkinan bahwa lanjutan pelatihan ini akan dirilis di [Plan ₿ Academy](https://planb.academy/) dalam beberapa bulan mendatang**.
 
-<img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 akan dirilis di [planb.network](https://planb.academy/) dalam beberapa bulan mendatang.
 

@@ -2855,7 +2855,6 @@ Los beneficios son dobles:
 
 Con el objetivo de que su comunidad prospere aún más, **no se descarta que una continuación de esta formación pueda publicarse en [Plan ₿ Academy](https://planb.academy/) en los próximos meses**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 podría publicarse en [planb.network](https://planb.academy/) en los próximos meses.
 

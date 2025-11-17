@@ -2855,7 +2855,6 @@ Bitcoin의 토끼굴에 빠지면 인생에 대한 관점이 달라집니다.
 
 여러분의 커뮤니티가 더욱 성장하도록 돕기 위해, **앞으로 몇 달 안에 이 교육의 후속 과정이 [Plan ₿ Academy](https://planb.academy/)에 공개될 가능성을 배제할 수 없습니다**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 앞으로 몇 달 내에 [planb.network](https://planb.academy/)에서 출시될 예정입니다.
 

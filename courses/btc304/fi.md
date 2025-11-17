@@ -2855,7 +2855,6 @@ Hyödyt ovat kaksijakoiset:
 
 Tavoitteena auttaa yhteisöänne kukoistamaan entistä enemmän, **ei ole poissuljettua, että tämän koulutuksen jatko-osa julkaistaan [Plan ₿ Academy](https://planb.academy/) -sivustolla tulevina kuukausina**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 voidaan julkaista [planb.network](https://planb.academy/) lähikuukausina.
 

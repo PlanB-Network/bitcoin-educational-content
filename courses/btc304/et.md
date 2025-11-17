@@ -2855,7 +2855,6 @@ Kasu on kahekordne:
 
 Sooviga aidata teie kogukonnal veelgi enam areneda **ei ole välistatud, et selle koolituse jätkukursus ilmub lähikuudel platvormil [Plan ₿ Academy](https://planb.academy/)**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 võidakse avaldada [planb.network](https://planb.academy/) lähikuudel.
 

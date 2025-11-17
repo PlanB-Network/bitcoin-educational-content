@@ -2855,7 +2855,6 @@ I vantaggi sono duplici:
 
 Con l’obiettivo di far crescere ulteriormente la vostra comunità, **non si esclude che un seguito di questa formazione possa essere pubblicato su [Plan ₿ Academy](https://planb.academy/) nei prossimi mesi**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 potrebbe essere rilasciato su [planb.network](https://planb.academy/) nei prossimi mesi.
 

@@ -2855,7 +2855,6 @@ Bitcoin - это огромная кроличья нора, затрагива�
 
 С целью дальнейшего развития вашего сообщества **не исключено, что в ближайшие месяцы выйдет продолжение этого обучения на платформе [Plan ₿ Academy](https://planb.academy/)**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 может быть выпущен на [planb.network](https://planb.academy/) в ближайшие месяцы.
 

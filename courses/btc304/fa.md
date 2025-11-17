@@ -2855,7 +2855,6 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 
 با هدف آن‌که جامعه شما بیش‌ از پیش شکوفا شود، **排排排排排**
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 ممکن است در ماه‌های آینده در [planb.network](https://planb.academy/) منتشر شود.
 

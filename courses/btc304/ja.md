@@ -2855,7 +2855,6 @@ Bitcoinのウサギの穴に落ちると、人生観が変わる。
 
 皆様のコミュニティがさらに発展するように、**今後数か月のうちに本研修の続編が [Plan ₿ Academy](https://planb.academy/) に公開される可能性も排除できません**。
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 今後数ヶ月のうちに[planb.network](https://planb.academy/)でリリースされるかもしれない。
 

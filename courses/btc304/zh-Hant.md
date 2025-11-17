@@ -2855,7 +2855,6 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 
 為使您的社群更進一步蓬勃發展，**未來數月內，本課程的後續內容有可能在 [Plan ₿ Academy](https://planb.academy/) 上推出，這一可能性不容排除**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 可能會在未來幾個月內於 [planb.network](https://planb.academy/) 發佈。
 

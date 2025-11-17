@@ -2855,7 +2855,6 @@ Prednosti su dvostruke:
 
 Sa ciljem da vaša zajednica još više napreduje, **nije isključeno da će nastavak ove obuke izaći na [Plan ₿ Academy](https://planb.academy/) u narednim mesecima**.
 
-![immagine](https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430)
 
 može biti objavljeno na [planb.network](https://planb.academy/) u narednim mesecima.
 

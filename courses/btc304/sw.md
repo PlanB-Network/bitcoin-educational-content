@@ -2855,7 +2855,6 @@ Faida ni mbili:
 
 Kwa lengo la kuifanya jamii yenu izidi kustawi, **haiwezi kutolewa nje ya uwezekano kwamba mwendelezo wa mafunzo haya utatolewa kwenye [Plan ₿ Academy](https://planb.academy/) katika miezi ijayo**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 inaweza kutolewa kwenye [planb.network](https://planb.academy/) katika miezi ijayo.
 

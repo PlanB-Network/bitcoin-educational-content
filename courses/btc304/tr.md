@@ -2855,7 +2855,6 @@ Faydaları iki yönlüdür:
 
 Topluluğunuzun daha da gelişmesini sağlamak amacıyla, **önümüzdeki aylarda bu eğitimin bir devamının [Plan ₿ Academy](https://planb.academy/) üzerinde yayımlanması ihtimali göz ardı edilemez**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 önümüzdeki aylarda [planb.network](https://planb.academy/) adresinde yayınlanabilir.
 

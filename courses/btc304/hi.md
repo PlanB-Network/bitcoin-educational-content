@@ -2854,7 +2854,6 @@ Bitcoin एक विशाल खरगोश-खाल है, जो इत�
 
 आपके समुदाय को और अधिक विकसित होने में सहायता करने के उद्देश्य से, **यह संभव है कि आने वाले महीनों में इस प्रशिक्षण का एक अगला भाग [Plan ₿ Academy](https://planb.academy/) पर प्रकाशित हो**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
 आने वाले महीनों में [planb.network](https://planb.academy/) पर जारी किया जा सकता है।
 

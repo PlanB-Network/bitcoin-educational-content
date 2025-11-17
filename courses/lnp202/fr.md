@@ -178,11 +178,79 @@ La bonne nouvelle, c’est qu’aujourd’hui, exploiter son propre nœud Lightn
 
 ## Choisir la solution adaptée à son usage
 
+Il est aujourd’hui possible d'avoir une expérience utilisateur très proche de celle d’un portefeuille Lightning custodial, tout en restant en self-custody. L’objectif de ce chapitre est justement de vous aider à choisir la voie la plus adaptée à votre profil.
 
+### Option 1 : ne pas utiliser Lightning directement
 
+La première solution consiste tout simplement à ne pas utiliser Lightning de manière native, mais à passer par un portefeuille Bitcoin ou Liquid qui embarque des swaps atomiques. C’est par exemple le cas des applications Aqua ou Bull Bitcoin Wallet, qui permettent de payer des invoices Lightning sans exploiter vous-même un nœud Lightning, mais tout en restant en self-custody.
 
+Le principe est le suivant : vos fonds restent en Bitcoin onchain ou sur Liquid, dans un portefeuille dont vous détenez les clés de manière classique. Lorsque vous scannez une invoice Lightning, le portefeuille envoie une transaction (onchain ou Liquid) vers un service de swap atomique. Ce service se charge ensuite de réaliser le paiement Lightning depuis son propre nœud, en échange de vos bitcoins reçus onchain ou via Liquid. En pratique, vous n’avez donc pas de canaux Lightning à gérer, mais vous pouvez tout de même régler des invoices Lightning.
 
+13
 
+L’avantage majeur de cette approche, par rapport à un portefeuille Lightning custodial classique, est que vous restez en possession de vos fonds à 100 % à chaque instant. Les bitcoins sont dans votre portefeuille onchain ou Liquid, avec votre propre phrase mnémonique. Même pendant le swap, vous restez en possession de vos fonds, car le swap est atomique. Il repose sur un mécanisme cryptographique qui garantit qu’il n’existe que deux issues possibles : soit le swap réussit entièrement, soit il échoue et le service ne peut pas s’approprier vos fonds.
+
+La plupart des portefeuilles qui proposent ce type de fonctionnalité s’appuient sur [Boltz](https://boltz.exchange/) pour la partie technique du swap.
+
+Cette solution présente aussi des avantages intéressants en termes de confidentialité, surtout lorsqu’elle est couplée à Liquid. Pour un débutant, c’est également très simple à mettre en place et à sauvegarder : une phrase mnémonique classique, pas de canaux, pas de liquidité à équilibrer...
+
+En revanche, cette approche a des limites. D’abord, elle n’est pas incensurable : vous dépendez de la disponibilité et de la bonne volonté du service de swap. Si celui-ci ne veut plus traiter votre compte, ou cesse d’opérer, vous ne pouvez plus payer d'invoices Lightning par son intermédiaire. Ensuite, il existe des frais non négligeables : vous payez à la fois les frais de transaction onchain ou Liquid, et la commission du service de swap. Aussi, en cas de forte augmentation des frais onchain, cela peut devenir très cher d'utiliser Lightning.
+
+Donc pour un usage ponctuel, cela reste acceptable, mais pour un utilisateur très actif sur Lightning, il vaut mieux faire les choses comme il faut avec un vrai nœud Lightning.
+
+### Option 2 : les nœuds Lightning embarqués
+
+La deuxième catégorie de solutions repose sur les nœuds Lightning embarqués directement dans une application mobile. Phoenix Wallet a été le pionnier de ce modèle et reste une référence. Aujourd’hui, d’autres projets proposent des approches comparables, comme Zeus (en mode embedded) ou BitKit.
+
+L’idée est simple : l’application exécute en réalité un nœud Lightning, mais toutes les opérations complexes sont gérées automatiquement en arrière-plan. Vous disposez d’une interface de "wallet Lightning" avec une phrase mnémonique pour la sauvegarde, vous voyez un solde et vous payez des invoices, mais vous ne gérez ni canaux, ni liquidité, ni la plupart des paramètres.
+
+014
+
+Ces solutions sont toujours self-custodial. Les clés qui contrôlent les fonds sont générées et stockées sur votre téléphone, et la sauvegarde passe par une seed ou un mécanisme équivalent. Vous n’êtes pas simplement titulaire d’un compte chez un prestataire, vous possédez réellement des bitcoins verrouillés dans des canaux qui vous appartiennent et ne peuvent pas vous être volés.
+
+Les avantages des nœuds LN embarqués sont nombreux :
+* installation et prise en main extrêmement simples ;
+* expérience utilisateur proche d’un wallet Lightning custodial, mais tout en étant en self-custody ;
+* pas de gestion manuelle des canaux ou de la liquidité ;
+* sauvegarde relativement simple.
+
+Mais ces portefeuilles embarqués ont aussi des limites importantes. D’abord, sur le plan de la confidentialité, l’opérateur du service (par exemple ACINQ dans le cas de Phoenix) dispose d’une vision assez fine des flux qui transitent par votre nœud : montants, fréquences, destinataires, même si c'est amené à s'améliorer, notamment avec l'adoption progressive des *Trampoline Nodes*. Ensuite, vous êtes fortement dépendant de cet opérateur comme pair Lightning principal. Si le nœud d’ACINQ devient indisponible (dans le cas de Phoenix), si l’entreprise subit des pressions réglementaires ou change son modèle économique, votre expérience utilisateur peut être fortement dégradée, voire compromise.
+
+Enfin, cette simplicité a un prix. Les services de nœuds LN embarqués facturent généralement des frais spécifiques sur les dépôts, les retraits ou certaines opérations de gestion de canaux. Ce modèle reste cohérent au regard du service offert selon moi, mais pour un usage intensif, il peut se révéler beaucoup plus coûteux qu’un nœud Lightning classique bien géré.
+
+### Option 3 : le nœud Lightning classique
+
+La troisième solution, celle que nous allons approfondir dans ce cours LNP 202, consiste à exploiter un nœud Lightning classique sur un serveur ou un appareil dédié.
+
+Par "classique" j'entends que vous installez et configurez vous-même une implémentation Lightning (par exemple LND) au-dessus de votre propre nœud Bitcoin. Vous choisissez vos pairs, vous ouvrez vos canaux, vous gérez votre liquidité entrante et sortante, et vous définissez vos politiques de frais de routage.
+
+Sur le plan de la souveraineté, c’est la meilleure solution. Vous ne dépendez plus d’une entreprise spécifique pour vos canaux ou vos paiements : si un pair vous censure ou ferme un canal, vous pouvez en ouvrir un autre avec un nœud différent. Si un service disparaît, vos sats restent dans les canaux que vous contrôlez, et vous pouvez les rapatrier onchain. Vous avez également la possibilité d’optimiser vos coûts à long terme : une fois vos canaux correctement dimensionnés et gérés, le coût global des paiements peut devenir très faible.
+
+En termes de confidentialité, vous êtes évidemment soumis aux limites du modèle de Lightning lui-même, mais vous ne livrez pas l’intégralité de votre activité à un opérateur unique.
+
+En revanche, mettre en place un nœud Lightning classique est évidemment plus complexe : il faut installer, configurer, maintenir, surveiller les mises à jour, comprendre la logique des canaux et des politiques de frais, gérer les canaux et les liquidités, etc. Une mauvaise configuration, une sauvegarde négligée ou une gestion imprudente peuvent conduire plus facilement à la perte de sats. Le nœud doit également tourner en permanence.
+
+C’est précisément ce chemin que je vous propose de suivre dans ce cours, en vous accompagnant dans chaque étape pour limiter les risques et structurer votre approche.
+
+### Quelle solution pour quel profil d’utilisateur ?
+
+Pour choisir la solution adaptée à votre profil d'utilisateur Lightning, il faut vous situer sur deux axes : votre fréquence d’utilisation de Lightning et votre appétence pour la gestion technique.
+
+Vous réalisez peu de paiements Lightning, de manière ponctuelle, mais vous souhaitez tout de même pouvoir régler des invoices LN depuis votre téléphone de temps en temps, sans renoncer à la self-custody : un portefeuille Bitcoin ou Liquid avec fonctionnalité de swap est probablement la meilleure option. Vous restez propriétaire de vos fonds, vous ne gérez pas de nœud, et vous acceptez des frais un peu plus élevés en échange de la simplicité.
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+Vous utilisez Lightning assez régulièrement et vous souhaitez bénéficier des avantages d’un véritable nœud, sans pour autant passer du temps sur la gestion des canaux, des frais ou de l’infrastructure : un nœud Lightning embarqué sur mobile est une bonne solution. Vous conservez la garde de vos fonds, l’UX reste très accessible, et toute la complexité est cachée, au prix d’une dépendance marquée à un opérateur.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Vous êtes un utilisateur intermédiaire ou avancé, prêt à investir du temps pour comprendre et piloter votre infrastructure, et vous tenez à disposer d’un maximum de contrôle sur vos canaux, votre liquidité et vos frais : un nœud Lightning classique sur serveur est la meilleure voie. C’est la solution la plus exigeante, mais aussi la plus cohérente avec l’idée de souveraineté.
 
 
 # Créer son premier nœud Lightning

@@ -2856,7 +2856,6 @@ De voordelen zijn tweeledig:
 Met de bedoeling uw gemeenschap verder te laten bloeien, **valt niet uit te sluiten dat er in de komende maanden een vervolg op deze opleiding verschijnt op [Plan ₿ Academy](https://planb.academy/)**.
 
 
-wordt de komende maanden mogelijk uitgebracht op [planb.network](https://planb.academy/).
 
 
 Tijdens deze volgende sessie kunnen geavanceerde onderwerpen aan bod komen, zoals:

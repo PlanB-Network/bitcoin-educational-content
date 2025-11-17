@@ -2856,7 +2856,6 @@ I vantaggi sono duplici:
 Con l’obiettivo di far crescere ulteriormente la vostra comunità, **non si esclude che un seguito di questa formazione possa essere pubblicato su [Plan ₿ Academy](https://planb.academy/) nei prossimi mesi**.
 
 
-potrebbe essere rilasciato su [planb.network](https://planb.academy/) nei prossimi mesi.
 
 
 La prossima sessione potrebbe esplorare argomenti avanzati quali:

@@ -2856,7 +2856,6 @@ Kasu on kahekordne:
 Sooviga aidata teie kogukonnal veelgi enam areneda **ei ole välistatud, et selle koolituse jätkukursus ilmub lähikuudel platvormil [Plan ₿ Academy](https://planb.academy/)**.
 
 
-võidakse avaldada [planb.network](https://planb.academy/) lähikuudel.
 
 
 Järgmisel istungil võiks uurida selliseid edasijõudnute teemasid nagu:

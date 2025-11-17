@@ -2856,7 +2856,6 @@ Faydaları iki yönlüdür:
 Topluluğunuzun daha da gelişmesini sağlamak amacıyla, **önümüzdeki aylarda bu eğitimin bir devamının [Plan ₿ Academy](https://planb.academy/) üzerinde yayımlanması ihtimali göz ardı edilemez**.
 
 
-önümüzdeki aylarda [planb.network](https://planb.academy/) adresinde yayınlanabilir.
 
 
 Bir sonraki oturumda aşağıdaki gibi ileri düzey konular ele alınabilir:

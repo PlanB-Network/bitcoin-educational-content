@@ -2856,7 +2856,6 @@ Có hai lợi ích:
 Nhằm giúp cộng đồng của bạn phát triển mạnh mẽ hơn nữa, **không loại trừ khả năng một phần tiếp theo của khóa đào tạo này sẽ được ra mắt trên [Plan ₿ Academy](https://planb.academy/) trong những tháng tới**.
 
 
-có thể được phát hành trên [planb.network](https://planb.academy/) trong những tháng tới.
 
 
 Phiên tiếp theo có thể khám phá các chủ đề nâng cao như:

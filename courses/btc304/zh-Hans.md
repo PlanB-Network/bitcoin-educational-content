@@ -2856,7 +2856,6 @@ Bitcoin 是一个巨大的兔子洞，涉及历史、经济、文学、数学、
 为使您的社区进一步蓬勃发展，**在未来数月内，这门课程的后续内容可能会在 [Plan ₿ Academy](https://planb.academy/) 上发布，这种可能性不能排除**。
 
 
-可能会在未来几个月内在 [planb.network](https://planb.academy/) 上发布。
 
 
 下一届会议可以探讨一些高级主题，例如

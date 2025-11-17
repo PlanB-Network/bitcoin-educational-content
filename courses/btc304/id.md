@@ -2856,7 +2856,6 @@ Manfaatnya ada dua:
 Dengan tujuan membantu komunitas Anda berkembang lebih jauh, **tidak tertutup kemungkinan bahwa lanjutan pelatihan ini akan dirilis di [Plan ₿ Academy](https://planb.academy/) dalam beberapa bulan mendatang**.
 
 
-akan dirilis di [planb.network](https://planb.academy/) dalam beberapa bulan mendatang.
 
 
 Sesi berikutnya dapat mengeksplorasi topik-topik lanjutan seperti:

@@ -1977,7 +1977,6 @@ The benefits are twofold:
 - **Structured organization**: you can define clear roles, making it easier to run your community and carry out projects.
 
 With the aim of helping your community flourish even further, **it is not out of the question that a follow-up to this training may be released on [Plan ₿ Academy](https://planb.academy/) in the coming months**.
-may be released on [planb.network](https://planb.academy/) in the coming months.
 
 This next session could explore advanced topics such as:
 - Designing presentations or workshops for your meetups and setting clear objectives.

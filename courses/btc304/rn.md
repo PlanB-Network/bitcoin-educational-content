@@ -2856,7 +2856,6 @@ Ivyiza bivamwo ni bibiri:
 Mu ntumbero yo guteza imbere n’ukurumbiza umuryango wanyu kurushaho, **ntibikurwaho ko haca hasohoka ibindi bikurikira iri somo kuri [Plan ₿ Academy](https://planb.academy/) mu mezi ari imbere**.
 
 
-bishobora gusohoka kuri [planb.urubuga](https://planb.urubuga/) mu mezi ari imbere.
 
 
 Iki kiganiro gikurikira coshobora gutohoza ingingo ziteye imbere nka:

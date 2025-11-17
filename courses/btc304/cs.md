@@ -2856,7 +2856,6 @@ Výhody jsou dvojí:
 S cílem podpořit další rozkvět vaší komunity **nelze vyloučit, že v nadcházejících měsících vyjde pokračování tohoto školení na [Plan ₿ Academy](https://planb.academy/)**.
 
 
-může být v příštích měsících zveřejněn na [planb.network](https://planb.academy/).
 
 
 Další zasedání by se mohlo zabývat pokročilými tématy, jako jsou:

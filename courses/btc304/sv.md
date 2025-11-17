@@ -2856,7 +2856,6 @@ Fördelarna är tvåfaldiga:
 I syfte att låta ert community utvecklas ytterligare **kan det inte uteslutas att en fortsättning på denna utbildning publiceras på [Plan ₿ Academy](https://planb.academy/) inom de kommande månaderna**.
 
 
-kan komma att släppas på [planb.network](https://planb.academy/) under de kommande månaderna.
 
 
 Nästa session kan behandla avancerade ämnen som t.ex:

@@ -16,7 +16,7 @@ Ainsi, même dans une logique de préservation de la valeur de son épargne Bitc
 
 Si vous devez passer par un échangeur pour être en mesure de dépenser vos Bitcoins, alors ils valent potentiellement 0. Si vous pouvez les dépenser partout, ils valent bien plus.
 
-En synthèse, "dépenser" & "remplacer" semble être la voie à suivre. Participez au développement de l'adoption, distribuez des satoshis dans le maximum d'endroits, puis rachetez dès que possible les sats dépensés.
+En synthèse "spend" & "replace" semble être la voie à suivre. Participez au développement de l'adoption, distribuez des satoshis dans le maximum d'endroits, puis rachetez dès que possible les sats dépensés.
 
 
 

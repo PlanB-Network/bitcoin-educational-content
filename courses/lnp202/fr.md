@@ -31,7 +31,7 @@ LNP 202 est une formation accessible aux utilisateurs intermédiaires, qui vous 
 
 ## Comprendre ce qu'est un nœud Lightning
 
-Avant de lancer votre propre nœud LN, je vous propose de revoir brièvement dans ce chapitre le fonctionnement théorique de base du Lightning Network. Il est en effet important de comprendre les mécanismes en jeu, car cela vous permettra d’identifier les risques et d’adopter les bonnes pratiques pour les limiter. Je n’entrerai toutefois pas dans les détails ici, car ce n’est pas l’objectif principal de ce cours. Si vous souhaitez approfondir le sujet, je vous recommande vivement de consulter le cours LNP 201 de Fanis, qui fait référence en la matière :
+Avant de lancer votre propre nœud LN, je vous propose de revoir brièvement dans ce chapitre le fonctionnement théorique de base du Lightning Network. Il est en effet important de comprendre les mécanismes en jeu, car cela vous permettra d’identifier les risques et d’adopter les bonnes pratiques pour les limiter. Je n’entrerai toutefois pas dans les détails ici, car ce n’est pas l’objectif principal de ce cours. Si vous souhaitez approfondir le sujet, je vous recommande vivement de consulter le cours LNP 201 de Fanis Michalakis, qui fait référence en la matière :
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -62,9 +62,7 @@ Il n’existe donc aucun entre-deux sur Lightning : soit vous avez un nœud (mê
 
 ### Rappels sur le fonctionnement du Lightning Network
 
-Dans cette section, je vous propose un rappel rapide du fonctionnement de Lightning. Une nouvelle fois, si vous souhaitez une présentation plus approfondie des concepts théoriques, je vous invite à consulter le cours dédié :
-
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+Dans cette section, je vous propose un rappel rapide du fonctionnement de Lightning. Une nouvelle fois, si vous souhaitez une présentation plus approfondie des concepts théoriques, je vous invite à consulter le cours dédié LNP 201.
 
 #### Canaux de paiement : ouvrir, mettre à jour et fermer
 
@@ -152,11 +150,37 @@ LDK (*Lightning Development Kit*) est un kit de développement en Rust, maintenu
 
 Dans ce cours LNP 202, nous nous concentrerons principalement sur LND, car il s’agit de l’implémentation la plus utilisée dans les solutions clé en main destinées aux particuliers, comme Umbrel.
 
-## Pourquoi exploiter son propre nœud ?
+Voilà pour ce bref rappel sur le fonctionnement de Lightning. Une nouvelle fois, si certains concepts vous échappent ou si vous souhaitez les approfondir avant de passer à la pratique, le cours de Fanis Michalakis est la référence incontournable sur le sujet :
 
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+
+## Pourquoi exploiter son propre nœud Lightning ?
+
+Répondre à cette question est assez simple, puisqu’elle est rhétorique : sans son propre nœud, on n’utilise plus réellement Lightning, mais seulement l’illusion de Lightning au travers de l’infrastructure d’une entreprise.
+
+Utiliser un portefeuille Lightning custodial signifie que les bitcoins appartiennent techniquement à l’entreprise qui opère le nœud. Vous ne détenez pas les clés privées et vous ne contrôlez pas les canaux. Votre solde de portefeuille n’est qu’une ligne dans la base de données d’un prestataire. C’est certes très pratique pour les débutants, l’expérience utilisateur est souvent fluide, mais la question de fond est la suivante : quel est l’intérêt de se donner la peine d’utiliser Bitcoin et Lightning si l’on renonce précisément à ce qui les distingue des monnaies étatiques et des banques ?
+
+Les deux principales propositions de valeur de Bitcoin sont la souveraineté monétaire (ne plus dépendre d’une autorité centrale pour l’émission et la détention) et la résistance à la censure (impossibilité pour un tiers d’empêcher ou de filtrer des paiements légitimes). Un système custodial sur Lightning va frontalement à l’encontre de ces deux objectifs : vous ne pouvez pas vérifier l’offre monétaire interne de la plateforme, et par définition, un opérateur qui détient tous les fonds et tous les canaux peut censurer, retarder, prioriser ou bloquer vos paiements. Dans ces conditions, on peut légitimement se demander, **à quoi bon utiliser le bitcoin via Lightning si c’est pour reproduire les mêmes modèles de confiance et de dépendance qu’avec les systèmes de monnaie étatique traditionnels**.
+
+> What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party.
+
+*Satoshi Nakamoto, Bitcoin White Paper.*
+
+Au-delà de la philosophie, les inconvénients plus concrets pour vous sont les suivants. D’abord, vous n’avez aucun moyen de vérifier que l’entreprise détient réellement les bitcoins correspondant aux soldes affichés. Elle peut fonctionner en réserve fractionnaire, être victime d’un piratage, faire faillite ou disparaître purement et simplement. Vous êtes alors un créancier parmi d’autres, sans garantie effective de récupération de vos fonds.
+
+Ensuite, l’entreprise est soumise à des risques réglementaires : injonctions, gel de fonds, demandes de blocage d’utilisateurs ou de transactions, surveillance renforcée, voire interdiction pure et simple d’activité dans certaines juridictions. Chaque contrainte qui pèse sur le prestataire se répercute mécaniquement sur vous.
+
+Sur le plan de la confidentialité, la situation n’est pas meilleure. Un opérateur custodial voit l’ensemble de vos flux : montants, fréquences, destinataires, soldes, habitudes de dépenses. Combinées à des informations données pas l'application et éventuellement à l’analyse de chaîne sous-jacente sur Bitcoin, ces informations peuvent permettre de dresser un profil très précis de votre activité financière. Là encore, on s’éloigne totalement de l’objectif de réduction de la surveillance financière que permet Bitcoin.
+
+La bonne nouvelle, c’est qu’aujourd’hui, exploiter son propre nœud Lightning n’est plus réservé à des experts techniques, comme ça pouvait être le cas à la fin des années 2010. Il existe des solutions relativement simples à mettre en place pour les particuliers que nous allons détailler dans le prochain chapitre.
 
 
 ## Choisir la solution adaptée à son usage
+
+
+
+
 
 
 

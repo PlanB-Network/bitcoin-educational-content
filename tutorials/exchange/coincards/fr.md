@@ -122,7 +122,7 @@ Vous obtenez alors un tableau de bord vous permettant de suivre et de rassembler
 
 ![Coincards](assets/fr/18.webp)
 
-Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de grandes enseignes pour vos dépenses quotidiennes. Ce n'est pas une méthode particulièrement satisfaisante, et cela reste du "do-it-yourself". Mais en attendant que davantage de gens prennent conscience de l'intérêt pour eux d'accepter la monnaie électronique dans leur commerce, c'est tout de même très utile…
+Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de grandes enseignes pour vos dépenses quotidiennes. Ce n'est pas une méthode particulièrement satisfaisante, et cela reste du "do-it-yourself". Mais en attendant que davantage de gens prennent conscience de l'intérêt pour eux d'accepter le cash électronique dans leur commerce, c'est tout de même très utile…
 
 Si vous souhaitez contribuer à la popularisation de Bitcoin et encourager un commerçant indépendant à adopter cette méthode de paiement, je vous recommande de consulter notre tutoriel complet sur Swiss Bitcoin Pay. Il s'agit d'une solution tout-en-un pour les processeurs de paiement en BTC, facile à installer et à gérer au quotidien :
 

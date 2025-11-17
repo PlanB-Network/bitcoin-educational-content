@@ -84,7 +84,7 @@ Om meer te weten te komen over Dojo en te leren hoe je het installeert, nodig ik
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Als je het je echt niet kunt veroorloven om je eigen Dojo te beheren, kun je mensen vinden die bereid zijn om hun instantie gratis te delen op [dojobay.pw](https://www.dojobay.pw/mainnet/). Dit kan een tijdelijke oplossing zijn, maar op de lange termijn raad ik je aan om je eigen Dojo te gebruiken om je soevereiniteit en vertrouwelijkheid te garanderen.
 

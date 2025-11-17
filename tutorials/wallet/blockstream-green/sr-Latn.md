@@ -20,7 +20,7 @@ U ovom vodiču, želeo bih da vas upoznam sa jednim od najboljih mobilnih Softwa
 Ako želite da saznate kako da koristite Blockstream Green na svom računaru, pogledajte ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Predstavljamo Blockstream Green
 
@@ -185,7 +185,7 @@ Vaš Bitcoin Wallet je sada kreiran korišćenjem aplikacije Green!
 Pre nego što primite svoje prve bitkoine u svoj Wallet, **toplo vam savetujem da izvršite test praznog oporavka**. Zapišite neke referentne informacije, kao što su vaš xpub ili prvi prijemni Address, zatim obrišite svoj Wallet u aplikaciji Green dok je još uvek prazan. Zatim pokušajte da obnovite svoj Wallet na Green koristeći svoje papirne rezervne kopije. Proverite da li informacije o kolačićima generisane nakon obnove odgovaraju onima koje ste prvobitno zapisali. Ako odgovaraju, možete biti sigurni da su vaše papirne rezervne kopije pouzdane. Da biste saznali više o tome kako izvršiti test oporavka, molimo vas da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Postavljanje vašeg Wallet na Blockstream Green
 

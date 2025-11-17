@@ -37,7 +37,7 @@ Transakcije u dosluhu uključuju razmenu delimično potpisanih transakcija izme�
 Kada se radi na daljinu, ovaj proces postaje previše složen. Da bi se rešio ovaj problem, Samourai je razvio šifrovani komunikacioni protokol zasnovan na Tor-u, nazvan "Soroban." Sa Soroban-om, neophodne razmene za PayJoin su automatizovane iza korisnički prijatnog interfejsa. Ovo je druga metoda koju ćemo istražiti u ovom članku.
 
 
-Ove šifrovane razmene zahtevaju uspostavljanje veze i autentifikaciju između Cahoots učesnika. Soroban koristi Paynyme korisnika kao osnovu za uspostavljanje komunikacije. Ako niste upoznati sa Paynyms, pozivam vas da pogledate ovaj članak za više detalja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Ove šifrovane razmene zahtevaju uspostavljanje veze i autentifikaciju između Cahoots učesnika. Soroban koristi Paynyme korisnika kao osnovu za uspostavljanje komunikacije. Ako niste upoznati sa Paynyms, pozivam vas da pogledate ovaj članak za više detalja: [BIP47 - PAYNYM](https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 Jednostavno rečeno, Paynym je jedinstveni identifikator povezan sa vašim novčanikom koji omogućava razne funkcionalnosti, uključujući šifrovanu razmenu poruka. Paynym je predstavljen u obliku identifikatora i ilustracije koja predstavlja robota. Evo primera mog na Testnet-u: ![Paynym Sparrow](assets/en/1.webp)
 
@@ -53,7 +53,7 @@ Jednostavno rečeno, Paynym je jedinstveni identifikator povezan sa vašim novč
 - _Paynym_ = Jedinstveni identifikator novčanika koji omogućava komunikaciju sa drugim korisnikom putem Soroban mreže, radi realizacije Cahoots transakcije.
 
 
-[**-> Saznajte više o PayJoin transakcijama i njihovoj korisnosti**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Saznajte više o PayJoin transakcijama i njihovoj korisnosti**](https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Kako uspostaviti vezu između Paynyms?

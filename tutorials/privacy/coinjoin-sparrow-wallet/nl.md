@@ -115,7 +115,7 @@ Deze vereisten leidden de keuzes van de ontwikkelaars van Samourai Wallet in het
 
 **Het is uiteindelijk niet nodig om een hoog aantal deelnemers per CoinJoin op Whirlpool te hebben, omdat de anonsets worden gemaakt over de opeenstapeling van meerdere CoinJoin cycli.**
 
-[-> Meer informatie over Whirlpool anonsets] (https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Meer informatie over Whirlpool anonsets] (https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### CoinJoin zwembaden en vergoedingen
 
@@ -283,7 +283,7 @@ Het gebruik van Sparrow heeft het voordeel dat het vrij eenvoudig is om mee te b
 Om te beginnen heb je natuurlijk de Sparrow wallet software nodig. Deze kun je direct downloaden van [de officiële website](https://sparrowwallet.com/download/) of op [hun GitHub](https://github.com/sparrowwallet/Sparrow/releases).
 
 
-Voordat je de software installeert, is het belangrijk om de handtekening en integriteit van het zojuist gedownloade uitvoerbare bestand te verifiëren. Als je meer details wilt over het installatieproces en de verificatie van Sparrow software, raad ik je aan deze andere tutorial te lezen: *[The Sparrow wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Voordat je de software installeert, is het belangrijk om de handtekening en integriteit van het zojuist gedownloade uitvoerbare bestand te verifiëren. Als je meer details wilt over het installatieproces en de verificatie van Sparrow software, raad ik je aan deze andere tutorial te lezen: *[The Sparrow wallet Guides](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Een Software Wallet aanmaken
@@ -468,7 +468,7 @@ In dit gedeelte hebt u de mogelijkheid om de bestemming Address, het te verzende
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Meer informatie over Stonewall-transacties](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Meer informatie over Stonewall-transacties](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Als je een preciezere selectie wilt maken van de munten die je wilt uitgeven, ga dan naar het tabblad `UTXO's`. Selecteer de UTXO's die je specifiek wilt verbruiken en druk vervolgens op de knop `Verstuur Geselecteerd` om de transactie te starten.
@@ -496,7 +496,7 @@ Er wordt een venster geopend, begin met het selecteren van de bestemming Wallet 
 ![sparrow](assets/notext/37.webp)
 
 
-Kies de CoinJoin drempel waarboven de opname automatisch zal plaatsvinden. Ik kan je geen exact aantal remixen geven om uit te voeren, omdat dit varieert afhankelijk van je persoonlijke situatie en je privacy doelen, maar vermijd het kiezen van een te lage drempel. Ik raad je aan dit andere artikel te raadplegen voor meer informatie over het remixproces: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Kies de CoinJoin drempel waarboven de opname automatisch zal plaatsvinden. Ik kan je geen exact aantal remixen geven om uit te voeren, omdat dit varieert afhankelijk van je persoonlijke situatie en je privacy doelen, maar vermijd het kiezen van een te lage drempel. Ik raad je aan dit andere artikel te raadplegen voor meer informatie over het remixproces: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Je kunt de optie `Indexbereik` op de standaardwaarde `Volledig` laten staan. Deze functie maakt het mogelijk om gelijktijdig van verschillende clients te mixen, maar dat is niet wat we in deze tutorial willen doen. Om de `Mix to...` optie af te sluiten en te activeren, druk je op `Restart Whirlpool`.
@@ -510,9 +510,9 @@ Wees echter voorzichtig bij het gebruik van de optie `Mix to`, omdat het verwijd
 
 ## Hoe weet je de kwaliteit van onze CoinJoin cycli?
 
-Wil een CoinJoin echt effectief zijn, dan is het essentieel dat er een goede homogeniteit is tussen de hoeveelheden inputs en outputs. Deze homogeniteit vergroot het aantal mogelijke interpretaties in de ogen van een externe waarnemer, waardoor de onzekerheid rond de transactie toeneemt. Om deze onzekerheid van een CoinJoin te kwantificeren, kan men de entropie van de transactie berekenen. Voor een diepgaande verkenning van deze indicatoren verwijs ik je naar de tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Het Whirlpool model wordt erkend als het model dat de meeste homogeniteit in coinjoins oplevert.
+Wil een CoinJoin echt effectief zijn, dan is het essentieel dat er een goede homogeniteit is tussen de hoeveelheden inputs en outputs. Deze homogeniteit vergroot het aantal mogelijke interpretaties in de ogen van een externe waarnemer, waardoor de onzekerheid rond de transactie toeneemt. Om deze onzekerheid van een CoinJoin te kwantificeren, kan men de entropie van de transactie berekenen. Voor een diepgaande verkenning van deze indicatoren verwijs ik je naar de tutorial: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Het Whirlpool model wordt erkend als het model dat de meeste homogeniteit in coinjoins oplevert.
 
-Vervolgens wordt de prestatie van verschillende CoinJoin cycli geëvalueerd op basis van de grootte van de groepen waarin een Coin verborgen zit. De grootte van deze groepen bepaalt wat de anonsets genoemd worden. Er zijn twee soorten anonsets: de eerste beoordeelt de privacywinst tegen retrospectieve analyse (van het heden naar het verleden) en de tweede tegen prospectieve analyse (van het verleden naar het heden). Voor een gedetailleerde uitleg van deze twee indicatoren nodig ik je uit om de tutorial te raadplegen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Vervolgens wordt de prestatie van verschillende CoinJoin cycli geëvalueerd op basis van de grootte van de groepen waarin een Coin verborgen zit. De grootte van deze groepen bepaalt wat de anonsets genoemd worden. Er zijn twee soorten anonsets: de eerste beoordeelt de privacywinst tegen retrospectieve analyse (van het heden naar het verleden) en de tweede tegen prospectieve analyse (van het verleden naar het heden). Voor een gedetailleerde uitleg van deze twee indicatoren nodig ik je uit om de tutorial te raadplegen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Hoe postmix beheren?
@@ -549,14 +549,14 @@ Vervolgens moet je voorzichtig zijn met het beheren van doxische verandering, de
 - Stuur ze naar de Lightning Network:** Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten is een optie die interessant kan zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van je gebruik van Lightning, en moet daarom met voorzichtigheid worden toegepast.
 
 
-Gedetailleerde tutorials over het implementeren van deze verschillende technieken worden binnenkort aangeboden op PlanB Network.
+Gedetailleerde tutorials over het implementeren van deze verschillende technieken worden binnenkort aangeboden op Plan ₿ Academy.
 
 
 **Toegevoegde bronnen:**
 
-[Sparrow wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Sparrow wallet Video Tutorial](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet Video Tutorial](https://planb.academy/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Documentatie - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

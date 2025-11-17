@@ -47,11 +47,11 @@ Green یک برنامه بسیار آسان برای استفاده است که 
 Blockstream Green همچنین از Liquid Network پشتیبانی می‌کند و این چیزی است که در این آموزش به آن پی خواهیم برد. اگر مایلید از Green برای برنامه‌های دیگر استفاده کنید، توصیه می‌کنم نگاهی به این آموزش‌های دیگر نیز بیندازید:
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ## نصب و پیکربندی برنامه Blockstream Green
 
@@ -198,7 +198,7 @@ Green سپس عبارت Mnemonic شما را ارائه می‌دهد. قبل ا
 قبل از اینکه اولین بیت‌کوین‌های خود را روی Liquid Wallet دریافت کنید، **به شدت توصیه می‌کنم یک تست بازیابی خالی انجام دهید**. برخی اطلاعات مرجع، مانند xpub یا اولین دریافت Address خود را یادداشت کنید، سپس Wallet خود را در برنامه Green در حالی که هنوز خالی است حذف کنید. سپس سعی کنید Wallet خود را با استفاده از پشتیبان‌های کاغذی روی Green بازیابی کنید. بررسی کنید که اطلاعات کوکی تولید شده پس از بازیابی با آنچه که در ابتدا یادداشت کرده‌اید مطابقت دارد. اگر مطابقت دارد، می‌توانید مطمئن باشید که پشتیبان‌های کاغذی شما قابل اعتماد هستند. برای اطلاعات بیشتر در مورد چگونگی انجام یک تست بازیابی، لطفاً به این آموزش دیگر مراجعه کنید:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## راه‌اندازی Liquid Wallet شما
 
@@ -320,4 +320,4 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 همچنین توصیه می‌کنم این آموزش جامع دیگر در مورد اپلیکیشن موبایل Blockstream Green را بررسی کنید تا یک Bitcoin Hot Wallet زنجیره‌ای را راه‌اندازی کنید:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

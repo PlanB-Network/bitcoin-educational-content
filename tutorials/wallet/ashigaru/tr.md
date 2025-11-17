@@ -84,7 +84,7 @@ Dojo hakkında daha fazla bilgi edinmek ve nasıl kurulacağını öğrenmek iç
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Kendi Dojo'nuzu çalıştırmaya gerçekten gücünüz yetmiyorsa, [dojobay.pw] (https://www.dojobay.pw/mainnet/) adresinde örneklerini ücretsiz olarak paylaşmak isteyen kişiler bulabilirsiniz. Bu geçici bir çözüm olabilir, ancak uzun vadede, egemenliğinizi ve gizliliğinizi garanti altına almak için kendi Dojo'nuzu kullanmanızı tavsiye ederim.
 

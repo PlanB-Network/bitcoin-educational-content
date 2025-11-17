@@ -1,0 +1,27 @@
+id: 6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
+
+tags:
+  - software
+  - privacy
+  - personal-security
+
+category: on-chain
+
+level: intermediate
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-13
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

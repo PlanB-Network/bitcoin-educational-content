@@ -84,7 +84,7 @@ Ashigaru 应用程序集成了一套先进的UTXO 保密和管理工具：
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 如果您实在无力运行自己的 Dojo，您可以在 [dojobay.pw](https://www.dojobay.pw/mainnet/) 上找到愿意免费共享实例的人。这可能是一个临时解决方案，但从长远来看，我建议您使用自己的 Dojo，以确保您的主权和保密性。
 

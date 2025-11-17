@@ -84,7 +84,7 @@ Untuk mengetahui lebih lanjut tentang Dojo dan mempelajari cara menginstalnya, s
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Jika Anda benar-benar tidak mampu menjalankan Dojo Anda sendiri, Anda dapat menemukan orang yang bersedia membagikan instance mereka secara gratis di [dojobay.pw] (https://www.dojobay.pw/mainnet/). Ini mungkin merupakan solusi sementara, tetapi dalam jangka panjang, saya sarankan Anda menggunakan Dojo Anda sendiri untuk menjamin kedaulatan dan kerahasiaan Anda.
 

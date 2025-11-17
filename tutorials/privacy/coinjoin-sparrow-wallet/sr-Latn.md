@@ -69,7 +69,7 @@ Whirlpool se izdvaja od drugih CoinJoin metoda korišćenjem "_ZeroLink_" transa
 
 Ovaj restriktivni pristup ulazima daje Whirlpool CoinJoin transakcijama jedinstvenu karakteristiku: potpuni izostanak determinističkih veza između ulaza i izlaza. Drugim rečima, svaki izlaz ima jednaku verovatnoću da bude pripisan bilo kojem učesniku, u poređenju sa svim ostalim izlazima transakcije.
 
-U početku, broj učesnika u svakom Whirlpool CoinJoin-u bio je ograničen na 5, sa 2 nova učesnika i 3 remiksera (ove pojmove ćemo objasniti kasnije). Međutim, porast [on-chain](https://planb.network/resources/glossary/onchain) transakcijskih naknada primećen 2023. godine naveo je Samourai timove da preispitaju svoj model kako bi poboljšali privatnost uz smanjenje troškova. Tako, uzimajući u obzir tržišnu situaciju naknada i broj učesnika, koordinator sada može organizovati coinjoin-ove uključujući 6, 7 ili 8 učesnika. Ove unapređene sesije nazivaju se "_Surge Cycles_". Važno je napomenuti da, bez obzira na postavku, uvek postoje samo 2 nova učesnika u Whirlpool coinjoin-ovima.
+U početku, broj učesnika u svakom Whirlpool CoinJoin-u bio je ograničen na 5, sa 2 nova učesnika i 3 remiksera (ove pojmove ćemo objasniti kasnije). Međutim, porast [on-chain](https://planb.academy/resources/glossary/onchain) transakcijskih naknada primećen 2023. godine naveo je Samourai timove da preispitaju svoj model kako bi poboljšali privatnost uz smanjenje troškova. Tako, uzimajući u obzir tržišnu situaciju naknada i broj učesnika, koordinator sada može organizovati coinjoin-ove uključujući 6, 7 ili 8 učesnika. Ove unapređene sesije nazivaju se "_Surge Cycles_". Važno je napomenuti da, bez obzira na postavku, uvek postoje samo 2 nova učesnika u Whirlpool coinjoin-ovima.
 
 
 Stoga su Whirlpool transakcije karakterisane identičnim brojem ulaza i izlaza, koji mogu biti:
@@ -115,7 +115,7 @@ Ove imperative su vodile izbore programera Samourai novčanika u dizajnu Whirlpo
 
 **Na kraju, nema potrebe imati veliki broj učesnika po CoinJoin-u na Whirlpool-u jer se anonsetovi prave tokom akumulacije nekoliko CoinJoin ciklusa.**
 
-[-> Saznajte više o Whirlpool anonsetima.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Saznajte više o Whirlpool anonsetima.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### CoinJoin bazeni i naknade
 
@@ -283,7 +283,7 @@ Korišćenje Sparrow-a ima prednost što je prilično lako započeti, brzo se po
 Da biste započeli, očigledno će vam biti potreban Sparrow softver. Možete ga direktno preuzeti sa [zvanične veb stranice](https://sparrowwallet.com/download/) ili na [njihovom GitHub-u](https://github.com/sparrowwallet/sparrow/releases).
 
 
-Pre nego što instalirate softver, važno je da proverite potpis i integritet izvršnog fajla koji ste upravo preuzeli. Ako želite više detalja o procesu instalacije i verifikaciji Sparrow softvera, savetujem vam da pročitate ovaj drugi vodič: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Pre nego što instalirate softver, važno je da proverite potpis i integritet izvršnog fajla koji ste upravo preuzeli. Ako želite više detalja o procesu instalacije i verifikaciji Sparrow softvera, savetujem vam da pročitate ovaj drugi vodič: *[The Sparrow Wallet Guides](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Kreiraj softverski novčanik
@@ -468,7 +468,7 @@ U ovom odeljku, imaćete opciju da unesete adresu destinacije, iznos za slanje i
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Saznajte više o Stonewall transakcijama.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ako želite preciznije da odaberete koje novčiće ćete potrošiti, idite na karticu `UTXOs`. Izaberite UTXO-e koje želite da iskoristite, zatim pritisnite dugme `Send Selected` da pokrenete transakciju.
@@ -476,7 +476,7 @@ Ako želite preciznije da odaberete koje novčiće ćete potrošiti, idite na ka
 
 ![sparrow](assets/notext/34.webp)
 
-Konačno, opcija `Mix to...` dostupna na Sparrow omogućava automatsko uklanjanje odabranog UTXO iz CoinJoin ciklusa, bez dodatnih troškova. Ova funkcija omogućava određivanje broja remiksa nakon kojih UTXO neće biti reintegrisan u vaš `Postmix` nalog, već će biti direktno prebačen na drugi novčanik. Ova opcija se često koristi za automatsko slanje mešanih bitkoina na [hladni novčanik](https://planb.network/resources/glossary/cold-wallet).
+Konačno, opcija `Mix to...` dostupna na Sparrow omogućava automatsko uklanjanje odabranog UTXO iz CoinJoin ciklusa, bez dodatnih troškova. Ova funkcija omogućava određivanje broja remiksa nakon kojih UTXO neće biti reintegrisan u vaš `Postmix` nalog, već će biti direktno prebačen na drugi novčanik. Ova opcija se često koristi za automatsko slanje mešanih bitkoina na [hladni novčanik](https://planb.academy/resources/glossary/cold-wallet).
 
 Da biste koristili ovu opciju, počnite tako što ćete otvoriti novčanik primaoca zajedno sa vašim CoinJoin novčanikom unutar Sparrow softvera.
 
@@ -496,7 +496,7 @@ Otvara se prozor, započnite izborom novčanika odredišta sa padajuće liste.
 ![sparrow](assets/notext/37.webp)
 
 
-Izaberite CoinJoin prag nakon kojeg će povlačenje biti automatski izvršeno. Ne mogu vam dati tačan broj remiksa koji treba da izvedete, jer to varira u zavisnosti od vaše lične situacije i ciljeva privatnosti, ali izbegavajte da izaberete suviše nizak prag. Preporučujem da konsultujete ovaj drugi članak kako biste saznali više o procesu remiksovanja: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Izaberite CoinJoin prag nakon kojeg će povlačenje biti automatski izvršeno. Ne mogu vam dati tačan broj remiksa koji treba da izvedete, jer to varira u zavisnosti od vaše lične situacije i ciljeva privatnosti, ali izbegavajte da izaberete suviše nizak prag. Preporučujem da konsultujete ovaj drugi članak kako biste saznali više o procesu remiksovanja: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Možete ostaviti opciju `Index range` na njenoj podrazumevanoj vrednosti, `Full`. Ova funkcija omogućava mešanje istovremeno sa različitih klijenata, ali to nije ono što želimo da uradimo u ovom uputstvu. Da biste završili i aktivirali opciju `Mix to...`, pritisnite `Restart Whirlpool`.
@@ -510,9 +510,9 @@ Međutim, budite oprezni kada koristite opciju `Mix to`, jer uklanjanje mešanih
 
 ## Kako znati kvalitet naših CoinJoin ciklusa?
 
-Da bi CoinJoin bio zaista efikasan, neophodno je da pokazuje dobru homogenost između količina ulaza i izlaza. Ova uniformnost pojačava broj mogućih interpretacija u očima spoljnog posmatrača, čime se povećava neizvesnost oko transakcije. Da bi se kvantifikovala ova neizvesnost generisana od strane CoinJoin-a, može se pribegavati izračunavanju entropije transakcije. Za detaljno istraživanje ovih indikatora, upućujem vas na tutorijal: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool model je prepoznat kao onaj koji donosi najveću homogenost u coinjoin-ima.
+Da bi CoinJoin bio zaista efikasan, neophodno je da pokazuje dobru homogenost između količina ulaza i izlaza. Ova uniformnost pojačava broj mogućih interpretacija u očima spoljnog posmatrača, čime se povećava neizvesnost oko transakcije. Da bi se kvantifikovala ova neizvesnost generisana od strane CoinJoin-a, može se pribegavati izračunavanju entropije transakcije. Za detaljno istraživanje ovih indikatora, upućujem vas na tutorijal: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool model je prepoznat kao onaj koji donosi najveću homogenost u coinjoin-ima.
 
-Zatim se procenjuje performanse nekoliko CoinJoin ciklusa na osnovu veličine grupa u kojima je novčić sakriven. Veličina ovih grupa definiše ono što se naziva anonsetima. Postoje dve vrste anonseta: prvi procenjuje dobijenu privatnost protiv retrospektivne analize (od sadašnjosti ka prošlosti) i drugi, protiv prospektivne analize (od prošlosti ka sadašnjosti). Za detaljno objašnjenje ova dva indikatora, pozivam vas da pogledate tutorijal: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Zatim se procenjuje performanse nekoliko CoinJoin ciklusa na osnovu veličine grupa u kojima je novčić sakriven. Veličina ovih grupa definiše ono što se naziva anonsetima. Postoje dve vrste anonseta: prvi procenjuje dobijenu privatnost protiv retrospektivne analize (od sadašnjosti ka prošlosti) i drugi, protiv prospektivne analize (od prošlosti ka sadašnjosti). Za detaljno objašnjenje ova dva indikatora, pozivam vas da pogledate tutorijal: [Whirlpool STATS TOOLS - ANONSETS](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Kako upravljati postmixom?
@@ -554,9 +554,9 @@ Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti do
 
 **Dodatni resursi:**
 
-[Sparrow novčanik video tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Sparrow novčanik video tutorial](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai novčanik video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai novčanik video tutorial](https://planb.academy/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai novčanik Dokumentacija - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

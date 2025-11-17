@@ -115,7 +115,7 @@ Dessa krav styrde de val som utvecklarna av Samourai Wallet gjorde vid utformnin
 
 **I slutändan finns det inget behov av att ha ett högt antal deltagare per CoinJoin på Whirlpool eftersom anonsets görs under ackumuleringen av flera CoinJoin-cykler.**
 
-[-> Läs mer om Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+[-> Läs mer om Whirlpool anonsets.](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### CoinJoin pooler och avgifter
 
@@ -243,7 +243,7 @@ Här är till exempel en riktig Tx0 Whirlpool (som inte kommer från mig): [edef
 Denna UTXO är farlig för användarens integritet eftersom den inte bara alltid är kopplad till sitt förflutna, och därför möjligen till sin ägares identitet, utan dessutom noteras som tillhörande en användare som har utfört en CoinJoin.
 
 
-Om denna UTXO slås samman med blandade utgångar kommer den senare att förlora all den integritet som uppnåtts under CoinJoin-cyklerna, särskilt på grund av CIOH (*Common-Input-Ownership-Heuristic*). Om den slås samman med andra giftiga förändringar riskerar användaren att förlora sin integritet eftersom detta kommer att länka samman de olika posterna i CoinJoin-cyklerna. Den måste därför behandlas med försiktighet. Sättet att hantera denna giftiga UTXO kommer att beskrivas i den sista delen av denna artikel, och framtida handledningar kommer att gå djupare in på dessa metoder i PlanB Network.
+Om denna UTXO slås samman med blandade utgångar kommer den senare att förlora all den integritet som uppnåtts under CoinJoin-cyklerna, särskilt på grund av CIOH (*Common-Input-Ownership-Heuristic*). Om den slås samman med andra giftiga förändringar riskerar användaren att förlora sin integritet eftersom detta kommer att länka samman de olika posterna i CoinJoin-cyklerna. Den måste därför behandlas med försiktighet. Sättet att hantera denna giftiga UTXO kommer att beskrivas i den sista delen av denna artikel, och framtida handledningar kommer att gå djupare in på dessa metoder i Plan ₿ Academy.
 
 
 **Steg 3: Den inledande mixen**
@@ -283,7 +283,7 @@ Att använda Sparrow har fördelen att det är ganska enkelt att komma igång me
 För att börja behöver du naturligtvis Sparrow wallet-programvaran. Du kan ladda ner den direkt från [den officiella webbplatsen] (https://sparrowwallet.com/download/) eller på [deras GitHub] (https://github.com/sparrowwallet/Sparrow/releases).
 
 
-Innan du installerar programvaran är det viktigt att verifiera signaturen och integriteten för den körbara filen som du just har laddat ner. Om du vill ha mer information om installationsprocessen och verifiering av Sparrow-programvara rekommenderar jag att du läser den här andra handledningen: *[The Sparrow wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Innan du installerar programvaran är det viktigt att verifiera signaturen och integriteten för den körbara filen som du just har laddat ner. Om du vill ha mer information om installationsprocessen och verifiering av Sparrow-programvara rekommenderar jag att du läser den här andra handledningen: *[The Sparrow wallet Guides](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Skapa en Software Wallet
@@ -468,7 +468,7 @@ I det här avsnittet har du möjlighet att ange destinationen Address, beloppet 
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Läs mer om Stonewall-transaktioner] (https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Läs mer om Stonewall-transaktioner] (https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Om du vill göra ett mer exakt urval av dina mynt att spendera, gå till fliken `UTXOs`. Välj de UTXO:er som du specifikt vill konsumera och tryck sedan på knappen `Send Selected` för att initiera transaktionen.
@@ -496,7 +496,7 @@ Ett fönster öppnas, börja med att välja destinationen Wallet från rullgardi
 ![sparrow](assets/notext/37.webp)
 
 
-Välj det CoinJoin tröskelvärde över vilket uttaget kommer att göras automatiskt. Jag kan inte ge dig ett exakt antal remixer att utföra, eftersom detta varierar beroende på din personliga situation och dina integritetsmål, men undvik att välja en tröskel som är för låg. Jag rekommenderar att du läser den här andra artikeln för att lära dig mer om remixningsprocessen: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Välj det CoinJoin tröskelvärde över vilket uttaget kommer att göras automatiskt. Jag kan inte ge dig ett exakt antal remixer att utföra, eftersom detta varierar beroende på din personliga situation och dina integritetsmål, men undvik att välja en tröskel som är för låg. Jag rekommenderar att du läser den här andra artikeln för att lära dig mer om remixningsprocessen: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Du kan låta alternativet `Indexintervall` vara kvar på standardvärdet `Full`. Denna funktion gör det möjligt att mixa samtidigt från olika klienter, men det är inte vad vi vill göra i denna handledning. För att slutföra och aktivera alternativet `Mix to...`, tryck på `Restart Whirlpool`.
@@ -510,9 +510,9 @@ Var dock försiktig när du använder alternativet `Mix to`, eftersom borttagnin
 
 ## Hur vet man kvaliteten på våra CoinJoin-cykler?
 
-För att en CoinJoin verkligen ska vara effektiv är det viktigt att den uppvisar en god homogenitet mellan beloppen för in- och utdata. Denna enhetlighet förstärker antalet möjliga tolkningar i en extern observatörs ögon och ökar därmed osäkerheten kring transaktionen. För att kvantifiera denna osäkerhet som genereras av en CoinJoin kan man beräkna transaktionens entropi. För en djupgående undersökning av dessa indikatorer hänvisar jag dig till handledningen: [BOLTZMANN CALCULATOR] (https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-modellen är erkänd som den som ger mest homogenitet i coinjoins.
+För att en CoinJoin verkligen ska vara effektiv är det viktigt att den uppvisar en god homogenitet mellan beloppen för in- och utdata. Denna enhetlighet förstärker antalet möjliga tolkningar i en extern observatörs ögon och ökar därmed osäkerheten kring transaktionen. För att kvantifiera denna osäkerhet som genereras av en CoinJoin kan man beräkna transaktionens entropi. För en djupgående undersökning av dessa indikatorer hänvisar jag dig till handledningen: [BOLTZMANN CALCULATOR] (https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-modellen är erkänd som den som ger mest homogenitet i coinjoins.
 
-Därefter utvärderas prestandan hos flera CoinJoin-cykler baserat på storleken på de grupper i vilka ett mynt är dolt. Storleken på dessa grupper definierar vad som kallas anonsets. Det finns två typer av anonsets: den första bedömer den integritet som uppnåtts mot retrospektiv analys (från nutid till dåtid) och den andra mot prospektiv analys (från dåtid till nutid). För en detaljerad förklaring av dessa två indikatorer ber jag dig att läsa handledningen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Därefter utvärderas prestandan hos flera CoinJoin-cykler baserat på storleken på de grupper i vilka ett mynt är dolt. Storleken på dessa grupper definierar vad som kallas anonsets. Det finns två typer av anonsets: den första bedömer den integritet som uppnåtts mot retrospektiv analys (från nutid till dåtid) och den andra mot prospektiv analys (från dåtid till nutid). För en detaljerad förklaring av dessa två indikatorer ber jag dig att läsa handledningen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.academy/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Hur hanterar man postmix?
@@ -549,14 +549,14 @@ Därefter måste du vara försiktig med att hantera doxisk förändring, den fö
 - Skicka dem till Lightning Network:** Att överföra dessa UTXO:er till Lightning Network för att dra nytta av reducerade transaktionsavgifter är ett alternativ som kan vara intressant. Denna metod kan dock avslöja viss information beroende på din användning av Lightning och bör därför användas med försiktighet.
 
 
-Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer snart att erbjudas på PlanB Network.
+Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer snart att erbjudas på Plan ₿ Academy.
 
 
 **Ytterligare resurser:**
 
-[Sparrow wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Sparrow wallet Video Tutorial](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet Video Tutorial](https://planb.academy/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

@@ -28,9 +28,9 @@ Green adalah aplikasi yang sangat mudah digunakan, membuatnya sangat cocok untuk
 
 Dalam tutorial ini, kita hanya akan berkonsentrasi pada pembuatan portofolio khusus jam tangan. Untuk menjelajahi penggunaan Green lainnya, silakan baca tutorial khusus kami yang lain:
 
-https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Menginstal dan mengonfigurasi aplikasi Blockstream Green
 
@@ -122,5 +122,5 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya pada aplikasi Blockstream Green untuk menyiapkan hot wallet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 

@@ -485,7 +485,7 @@ This seminal period also reveals the power issues inherent in any monetary innov
 
 :::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
-In this section entitled "The great civilizations of the Bronze Age", we'll start with an extract from the book A History of Money: From Ancient Times to Present Day by Glyn Davies, which I think is an excellent introduction to this section on the great civilizations of antiquity.
+In this section entitled "The great civilizations of the Bronze Age", we'll start with an extract from the book *A History of Money: From Ancient Times to Present Day* by Glyn Davies, which I think is an excellent introduction to this section on the great civilizations of antiquity.
 
 
 > Toynbee identifies some twenty-one different "civilizations", but since fifteen of these derived directly or indirectly from earlier examples, he reduces the number of independently developed civilizations to six: Sumerian, Egyptian, Minoan, Chinese, Mayan and Andean. Of these, only the Incas of the Andes managed to achieve a high degree of civilization without using money, although paradoxically they had an abundance of the materials generally considered best for use as money - gold and silver.
@@ -556,7 +556,7 @@ Large landholdings dominated the economy. Landowners exploited their land direct
 The loans taken out by farmers were not intended for productive investment - with the exception of shipping companies - but rather to ensure their survival until the next harvest. This situation frequently led to chronic indebtedness of the farmers.
 
 
-I allow myself to draw a parallel here with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented towards of profit through trade and crafts.
+Allow me to draw a parallel with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented towards of profit through trade and crafts.
 
 
 So what we're trying to say here is that I'm drawing a parallel with the fact that people used financial lending tools not necessarily to improve their means of production, and later in Rome, profits were not necessarily reinvested, but rather used to increase the prestige of the people who could benefit from these profits. We're still a long way from the capitalist spirit that emerged later in the Middle Ages, when jobs could be created to improve the means of production, and surpluses were taken and created in the pursuit of profit. So we can see that economic organization had not yet reached the third stage of the economic evolutions listed above.
@@ -657,7 +657,7 @@ Returning to Egypt, during the ancient empire, the "shât(y)", originally a conc
 This notion of shât(y) was eventually abandoned, perhaps because of the risk of fraud. We'll see later that the Egyptians were slow to adopt stamped coins and even continued to weigh them, even after they had been adopted by their neighbors.
 
 
-In the Middle Kingdom, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was during this period that a form of scriptural money appeared, where payments could be recorded in writing, or by actual transfer.
+In the Middle Ages, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was during this period that a form of scriptural money appeared, where payments could be recorded in writing, or by actual transfer.
 
 
 In the New Kingdom, the monetary system became more complex, integrating different commodity currencies valued in metals (gold, silver, copper), standardized fabrics, cereals and oil. Fabrics were referred to as "cloth measures". **Prices for everyday goods were often expressed in grain or copper, while precious objects were valued in gold or silver. Silver, which was rarer in Egypt than gold, became particularly prized.** Silver was overvalued compared to gold, which was more abundant in Egypt.
@@ -704,7 +704,7 @@ To conclude, I'd like to quote from the book "The Origins of Money", which lists
 *develop the possibility of economic play through the use of methods such as devaluations and successive revaluations to reduce or increase imports and exports at lower cost*
 
 
-So, even in those archaic times, the author proposes that coins had already been invented or emerged under state control and were already being manipulated in terms of their quantity of precious metals and weight to manage the economy. I allow myself to give you a little scoop regarding a subsequent section. **Even in the earliest forms of coinage, which were made of electrum, an alloy of gold and silver, we know from analyzing the content of precious metals in these coins that the first issuers, for example, Croesus, had less gold than in natural electrum.**
+So, even in those archaic times, the author proposes that coins had already been invented or emerged under state control and were already being manipulated in terms of their quantity of precious metals and weight to manage the economy. Allow me to give you a little scoop regarding a subsequent section. **Even in the earliest forms of coinage, which were made of electrum, an alloy of gold and silver, we know from analyzing the content of precious metals in these coins that the first issuers, for example, Croesus, had less gold than in natural electrum.**
 
 
 This means they already knew how to separate gold and silver, and issued coins containing less gold.
@@ -923,12 +923,12 @@ To kick off this section, I'd like to offer you an extract from Glyn Davies' boo
 *Excerpt from A History of Money: From Ancient Times to the Present Day by Glyn Davies:*
 
 
-> From its place of origin in Lydia and Ionia, the knowledge and use of coins spread rapidly eastwards within the Persian Empire, and westwards across the Ionian and Aegean islands to mainland Greece and its western colonies, particularly Sicily. This innovation also spread northwards, reaching Macedonia, Thrace, and the Black Sea, but was only partially, belatedly, and reluctantly accepted in Egypt.
+> From its birthplace in Lydia and Ionia the knowledge and use of coins spread rapidly east into the Persian empire and west through the rest of the Ionian and Aegean islands to mainland Greece, and then to its western colonies, especially Sicily. It also spread northward to Macedonia, Thrace and the Black Sea, but it was only partially, reluctantly and belatedly accepted in Egypt.
 
 I find it interesting to mention here that in Egypt, they continued to weigh coins long after the advent of minted coin technology. I think that's important to note. The quote continues:
 
 
-> Similarly, mainland Italy was initially slow to adopt these Greek financial innovations, in contrast to the rapid acceptance observed in Sicily.
+> Similarly, mainland Italy also was at first rather slow in accepting the Greek financial innovations, in contrast to the speed with which they were adopted by Sicily.
 
 *Apart from these two limited exceptions (continental Italy and Lower Egypt), the use of coinage spread rapidly around the countries bordering the central and eastern Mediterranean, as well as across the vast and growing Persian Empire, from Mesopotamia **to India.** It remains unclear whether India had already independently developed an embryonic monetary system by this time, independently of Chinese or Lydian developments. Regardless of whether India had independently developed its own currency, the increasing contacts between India and the Near East led to Indian coinage being a direct adaptation of Lydian and Greek invention, first through the Persian Empire and then the Macedonian Empire* (with the conquests of Alexander the Great and his father).
 
@@ -1212,8 +1212,8 @@ It should be noted, however, that this theory does not deny that bartering exist
 Here are two excerpts from *Aux origines de la monnaie* on this subject:
 
 
-> The model outlined by M. Mauss in his famous "Essai sur le don" has been adopted by Egyptologists with as much unanimity and enthusiasm as lack of discernment. This has led to a number of confusions, which we won't go into here. Let us simply note that this model applies to so-called primitive societies, which is not the case of Pharaonic Egypt.
->
+> The model outlined by M. Mauss in his famous "The Gift" has been adopted by Egyptologists with as much unanimity and enthusiasm as lack of discernment. This has led to a number of confusions, which we won't go into here. Let us simply note that this model applies to so-called primitive societies, which is not the case of Pharaonic Egypt.
+
 
 > Breads, i.e., processed cereals, were therefore units of account which, like the shât (y) of the Old Kingdom, also enabled the opening of credits in diversified goods. This simple example shows that the economy of Pharaonic Egypt was not confined to a system of redistribution. It was highly complex, involving a multitude of exchanges.
 
@@ -1234,7 +1234,7 @@ So, as we saw earlier in the section on Egypt and even Mesopotamia and China, we
 In this section, we cover the theory of debt money.
 
 
-The theory of **debt money**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This introduces the notions of the quantification of exchanges and transfer. Thus, money would be above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
+The theory of **debt money**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This concept introduces the notion of the quantification of exchanges and transfer. Thus, money would be above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
 
 
 An even more advanced form of this theory is that all money is a debt. So someone who possesses money would have a claim on society in general, a claim on all those who accept that money. And since money, **in their vision, must be accepted in a compulsory way**, otherwise it's not money, because if you can refuse this money, their system doesn't work. In a given group that has identified a currency, all those who possess it, it's as if they have a debt to all the other members of that society who accept that currency, and those who accept the currency have a form of debt to the person who possesses that monetary unit. This is essentially their theory.
@@ -1538,7 +1538,7 @@ So there are two definitions for the word money: cash (banknotes) and wealth.
 ### Currency vs monnaie vs devise
 
 
-A currency (devise) is necessarily the currency of another country, otherwise we just say money (monnaie). If you're French, you'd say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe".
+A currency (devise) is necessarily the currency of another country, otherwise we just say money (monnaie). If you're French, you'd say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe" (The pound sterling is the currency of the United Kingdom and the euro is the currency of Europe).
 
 
 Often, people who haven't delved into these semantic problems, in translating these terms, will often be inclined to speak of currency (devise) when it's written currency, but no, currency is money (monnaie) when it's your country's currency, and it's devise when we're talking about other currencies. And so, the problem here that I often see is that in English, there are two words: there's "money", which is a concept, and there's "currency", which is really the unit of a country that is used to make exchanges. So we can just talk about the concept of money; it's easy - it's the concept of the word *money*; it's money in general. And *currency* is very simple to equate with the currency of a country. Whereas in French, unfortunately, people will often say yes, "mais ce n'est pas une monnaie" when talking about bitcoin because it's not the currency of a country, but often, I think they're referring to the terms currency instead. This is wrong on the one hand, because since El Salvador, bitcoin has been the currency of a state. The fact remains that people will often say: *but no, it's not the currency of a state, it can't be money*. But in fact, if we refer to the broader concept of *money*, bitcoin fits into this definition perfectly, in my opinion. It's just that in French, we don't have two words to separate these two concepts. We could say that the word argent refers to currency, but unfortunately, that's not its precise definition. *Argent* (money) refers to wealth or banknotes. You can't really make an equivalence with the word *money*. *Money* is really the concept of currency (monnaie).
@@ -1710,7 +1710,7 @@ Their vision boils down to the fact that you can't consider a gold coin in a ban
 
 Also, on the subject of **claim**, the same author notes the following:
 
-*"Bastiat is quite at liberty to imagine a voucher for the whole of society presented as "an immense bazaar", but this little addition, this seemingly innocuous extension, is the whole difference between credit and money. Money is not a claim on a particular store. There is no such thing as an anonymous claim. But the anonymity that characterizes money, and therefore its generality, is what makes it so powerful. Money is not like credit, still less is it in any way reducible to it. **Money is much more than credit.**"*
+> Bastiat is quite at liberty to imagine a voucher for the whole of society presented as "an immense bazaar", but this little addition, this seemingly innocuous extension, is the whole difference between credit and money. Money is not a claim on a particular store. There is no such thing as an anonymous claim. But the anonymity that characterizes money, and therefore its generality, is what makes it so powerful. Money is not like credit, still less is it in any way reducible to it. **Money is much more than credit.**
 
 
 **A paradox: debt money vs. commodity money**
@@ -1744,16 +1744,16 @@ To conclude this section on the various monetary theories, let's talk about the 
 **Modern Monetary Theory (MMT)** is an economic approach that holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory:
 
 
-**Money is a creation of the State, not a limited resource**
+- **Money is a creation of the State, not a limited resource**
 
 
-*Taxes and borrowing are not used directly to finance public spending, but rather to regulate inflation, influence economic behavior, and maintain demand for the national currency.*
+- Taxes and borrowing are not used directly to finance public spending, but rather to regulate inflation, influence economic behavior, and maintain demand for the national currency.*
 
-**The real limit to government spending is inflation, not the budget deficit or public debt.**
+- The real limit to government spending is inflation, not the budget deficit or public debt.
 
-*If the money created is channelled into sectors that can absorb it, there will be no inflation either*.
+- If the money created is channelled into sectors that can absorb it, there will be no inflation either.
 
-**The government must therefore adjust its spending according to the real resources available (manpower, industrial capacity, natural resources) to avoid excessive inflation.**
+- The government must therefore adjust its spending according to the real resources available (manpower, industrial capacity, natural resources) to avoid excessive inflation.
 
 
 ### The role of taxes in MMT
@@ -2209,7 +2209,7 @@ Rome is taken by various Germanic peoples (including the Ostrogoths), an event c
 In this section on Antiquity, we've already come to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
 
 
-After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sestertius. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
+After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sestertii. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
 
 
 ![](./assets/fr/3_3_aureus.webp)
@@ -2586,17 +2586,16 @@ Welcome to this section on the emergence of reserve currencies and central banks
 Precious metals, especially gold and silver, have long been considered the basis of wealth and power in empires. The thirst for gold has always been a dominant driving force, and it was the influx of precious metals that had the most direct and obvious effect on monetary developments in Europe. In medieval and early Renaissance times, this obsession with gold and silver was due to the difficulty of retaining value in other forms of merchandise, as well as to the strong demand from foreign powers, particularly in trade with the Orient.
 
 
-Over the centuries, several empires have succeeded one another as global economic centers. The country that dominates world trade during a given period is usually awarded reserve currency status. These include :
+Over the centuries, several empires have succeeded one another as global economic centers. The country that dominates world trade during a given period is usually awarded reserve currency status. These include:
 
 
-**Spain and Portugal (15th and 16th centuries)**
+- Spain and Portugal (15th and 16th centuries)
 
+- The United Provinces (Netherlands) in the 17th century
 
-**The United Provinces (Netherlands) in the 17th century**
+- France and Great Britain in the 18th and 19th centuries
 
-**France and Great Britain in the 18th and 19th centuries**
-
-**The United States in the 20th century**
+- The United States in the 20th century
 
 
 ### The Portuguese boom and the Real (1450-1530)
@@ -2869,7 +2868,7 @@ Then came the panic of 1776. Everyone rushed up the money pyramid. What this mea
 ### The evolution of the US dollar
 
 
-So we went from the florin to the Bank of England. Then, of course, there was the First and Second World Wars, but before that, in 1796, on the other side of the Atlantic, we had the Americans. In 1776, America was still an English colony, British, and so the colonies - this is a Connecticut bill, it's real, it's a Connecticut two-shilling bill from 1776 - had this paper currency.
+So we went from the florin to the Bank of England. Then, of course, there was the First and Second World Wars, but before that, in 1796, on the other side of the Atlantic, we had the Americans. In 1776, America was still an English colony, British, and so the colonies had this paper currency. The following is a Connecticut two-shilling bill from 1776.
 
 
 ![](./assets/fr/two_shilling.webp)
@@ -2893,7 +2892,7 @@ Then we can move on to the Civil War in America. The Confederates were printing 
 ![](./assets/fr/confederate.webp)
 
 
-And their opponents to the north had dollars, too. We just saw Confederate dollars, and now we're looking at Northern dollars. They were called the greenback because the back was green.
+And their opponents to the north had dollars, too. We just saw Confederate dollars, and now we're looking at Northern dollars. They were called "the greenback" because the back was green.
 
 
 ![](./assets/fr/greenback.webp)
@@ -2920,7 +2919,7 @@ Not only was it "redeemable in gold" like the 1928 bill, it was also redeemable 
 
 It was illegal. Then in 1964, it was illegal to own gold until 1974, if I'm not mistaken. But in the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll mention shortly. And so, starting in 1933, when they issued "Order 6102", Executive Order 6102, they seized gold. It was illegal to possess it. There were big prison sentences if you were caught keeping your gold. In those days, every ounce of gold was exchanged for a bill like that, after 1934. So, in 1928, it still says "redeemable in gold".
 
-In 1933, they issued Executive Order 6102. They seized all the gold. And then they gave $20.67 for every ounce of gold. And then, here's the scam. They issued new bills in 1934 and it says on them "this note is legal tender for all debt".
+In 1933, they issued Executive Order 6102. They seized all the gold. Then, they gave $20.67 for every ounce of gold. Afyerwards, the scam came to light: they issued new bills in 1934 with the printed text "this note is legal tender for all debt".
 
 
 ![](./assets/fr/1934.webp)
@@ -2943,7 +2942,7 @@ Gold was undervalued. Gold was still at $35 per ounce, which in no way reflected
 ### The modern fiat currency system and its implications
 
 
-This sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. Ultimately, a unilateral decision completely severed the link between precious metals and money, following an over-issuance.
+This part sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. Ultimately, a unilateral decision completely severed the link between precious metals and money, following an over-issuance.
 
 
 As a result, there is no longer any link between gold and banknotes or scriptural money. And it's not even a fractional reserve system - that's an outdated concept. Instead, private banks issue and create money through bank credit. Money is mainly created this way and is correlated to the key interest rate set by the central bank.
@@ -2955,8 +2954,9 @@ There really is no limit. There are no mandatory reserve levels anymore, at leas
 They just need to make sure they can make these transfers, but there's no 3%, 1%, 10% compulsory reserve. We've truly moved away from the fractional reserve concept. Now, it's central banks, governments through fiscal deficits, central banks through quantitative easing (QE), and private banks through the creation of bank loans that can increase the total money supply and, in my opinion, cause inflation.
 
 
-To understand the link between money and inflation, I recommend a five-hour course I have on Plan B dedicated to this subject. You will learn the difference between price increases, which is what we see in life, and inflation. They're not the same thing. Often, when we refer to inflation, we're talking about price increases, not inflation itself. Inflation is a fairly precise concept, explained by the increase in the money supply.
+To understand the link between money and inflation, I recommend a course I have on Plan ₿ Network dedicated to this subject. You will learn the difference between price increases, which is what we see in life, and inflation. They're not the same thing. In fact, when we refer to inflation, we're often talking about price increases, not inflation itself. Inflation is a fairly precise concept, explained by the increase in the money supply.
 
+https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 To conclude this section on the fiat world, I'd like to point out a resource to help you better understand the phenomena I've just explained, such as inflation.
 
@@ -3053,8 +3053,7 @@ To introduce this section, I'm going to give you a brief and non-exhaustive list
 
 One link I can already make with money and violence is that when it comes to worthless paper money that can be printed ad infinitum, it often comes with all kinds of rules and all kinds of threats. We can already talk about the assignats, where it was literally written on the banknotes that counterfeiters were threatened with death. It's easy to find in the legal texts of the time death threats for those who didn't accept this famous paper money.
 
-
-Still in France, in one of the legal texts I was able to obtain from the Revolutionary era, I saw that the per diem for transporting and operating the guillotine was described in the currency-related sections. I found this rather zany.
+To remain in France, in one of the legal texts I was able to obtain from the Revolutionary era, I saw that the "per diem" for transporting and operating the guillotine was described in the currency-related sections. I found this rather zany.
 
 
 We've also talked about coinage in China, with the state supervising the minting. We saw in a section at the beginning of the course that when coins, some of which were less beautiful, were discarded, there were legal consequences.
@@ -3167,17 +3166,15 @@ Coins were a financial technology that allowed the empire to pay soldiers, expan
 
 Then came the Middle Ages, when there was very little evolution until the Florin, which brought back a stable currency, and banking developments in Italy and Antwerp, where the concept of "time value of money" was developed - in other words, discounting. They developed discounting to create a form of paper money in which a "promissory note" was issued, i.e., a promise that at a later date one would be able to recover $100 plus an interest rate.
 
-
-This created a financial technology that allows the holder to sell the note before the end of the term, so if you sell it after 4 months out of a 6-month term, the person will actually pay a premium to compensate for the loss of yield for the remaining 2 months.
-
-
-This was a financial technology developed in Antwerp and Amsterdam at the time. Later, we saw the evolution of central banks and the notion of lender of last resort. It can be argued that during the Bank of Amsterdam, the use of coins in international trade was abandoned in favor of scriptural money.
+This system created a financial technology that allows the holder to sell the note before the end of the term, so if you sell it after 4 months out of a 6-month term, the person will actually pay a premium to compensate for the loss of yield for the remaining 2 months.
 
 
-Later, in the 18th century, in terms of financial technology, we can talk about insurance. So there's an anecdote that's very well told in Neil Ferguson's book "The Ascent of Money". The first insurance company to be born was called **Scottish Widow**, and essentially, it was the clergy who wanted to develop insurance for priests who sometimes died earlier, died suddenly. The clergy, at the time, were looking after their wives and offspring in Scotland for a year. And so the clergy found this one-year period perhaps a little too short. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
+It was a financial technology developed in Antwerp and Amsterdam at the time. Later, we saw the evolution of central banks and the notion of lender of last resort. It can be argued that during the Bank of Amsterdam , the use of coins in international trade was abandoned in favor of scriptural money.
+
+Later, in the 18th century, in terms of financial technology, we can talk about insurance. So there's an anecdote that's very well told in Neil Ferguson's book "The Ascent of Money". The first insurance company to be born was called **Scottish Widowss**, and essentially, it was the clergy who wanted to develop insurance for priests who sometimes died earlier, died suddenly. The clergy, at the time, were looking after their wives and offspring in Scotland for a year. And so the clergy found this one-year period perhaps a little too short. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
 
 
-They developed actuarial calculations to say "Okay, well, each priest gives us this amount and then if the priest dies, well, the insurance will cover the costs to ensure the survival of his wife and children until they are self-sufficient." So it was the first insurance company called "Scottish Widow" that popularized this system, and there it was deployed.
+They developed actuarial calculations to say "Okay, well, each priest gives us this amount. Then, if the priest dies, well, the insurance will cover the costs to ensure the survival of his wife and children until they are self-sufficient." So it was the first insurance company called "Scottish Widows" that popularized this system, and where it was deployed.
 
 
 ### From private insurance to the welfare state
@@ -3186,13 +3183,13 @@ They developed actuarial calculations to say "Okay, well, each priest gives us t
 So insurance is part of the history of financial technology. And this brings me to the concept of the welfare state, which is that private insurance eventually came up against a problem, a notion of optimization, where we say to ourselves, if we offer health insurance to people who are healthy, they may have less interest in paying the premium because they say to themselves, "I'm healthy, I won't get sick". On the other hand, people who know they're sick will certainly want to subscribe.
 
 
-This creates an imbalance between the number of sick people who will take out health insurance, as opposed to healthy people who may take out less. So there's a sort of imbalance, and if you calculate the figures, they wouldn't balance out because you probably wouldn't be able to insure enough healthy people to offset the costs. In economics, this is the concept of **moral hazard**.
+This system creates an imbalance between the number of sick people who will take out health insurance, as opposed to healthy people who may take out less. So there's a sort of imbalance: if you calculate the figures, they wouldn't balance out because you probably wouldn't be able to insure enough healthy people to offset the costs. In economics, this is the concept of **moral hazard**.
 
 
 One of the ideas that's been put forward is to make insurance compulsory. If everyone is obliged to contribute, it rebalances the whole thing and both healthy and unhealthy people will contribute, distributing the risks to the largest population.
 
 
-And so, in many parts of the world, the state has said, "Well, we'll take care of that". While I'm not an expert on this issue, I can see that this same reasoning is probably applied to all sorts of other forms of insurance, such as unemployment insurance. There is a desire to simplify and optimize, based on the thinking that it will be simpler if there's just one organization to take care of it.
+And so, in many parts of the world, the state has said, "Well, we'll take care of that". While I'm not an expert on this issue, I can see that this same reasoning is probably applied to all sorts of other forms of insurance, such as unemployment insurance. There is a desire to simplify and optimize, based on the idea that it will be simpler if there's just one organization to take care of it.
 
 
 In my opinion, this led to a centralization of all these insurance concepts, and ultimately to the birth of the welfare state, where all these financial concepts that were originally private enterprises, private initiatives to meet an insurance market need to distribute risk among the population, were seized upon by the state for reasons that are probably quite logical in relation to moral hazard and the desire to optimize.
@@ -3204,9 +3201,7 @@ In my opinion, this led to a centralization of all these insurance concepts, and
 Ultimately, in some countries like Canada, we end up with several types of insurance - health insurance, unemployment insurance - that are state monopolies.
 
 
-I can give you an example I know. In Switzerland, the system is a bit different.
-
-In Switzerland, there are private mutual insurance companies and private hospitals, so you can choose your mutual insurance company, you can choose your package within your mutual insurance company. You still get relatively universal services, even if a large part of this system remains private.
+I can give you an example I know. In Switzerland, the system is a bit different. There are private mutual insurance companies and private hospitals, so you can choose your mutual insurance company, you can choose your package within your mutual insurance company. You still get relatively universal services, even if a large part of this system remains private.
 
 
 So I think it's possible that it's also privately operated. But everything I wanted to describe to you, in fact, is not a statement to express whether one system is better than the other, it was rather to explain to you that in reading about the history of finance, I realized why in the West, particularly in France, particularly in Canada, the State wanted to take control of these financial principles.

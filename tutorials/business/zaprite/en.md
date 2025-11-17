@@ -53,7 +53,7 @@ Your Bitcoin payments will be listed, by whether they come in as Bitcoin on-chai
 Going further down, we have our payment links. You can create a payment link there. That's just something simple you can shoot out to someone.
 Each payment link is composed of a title, a image, your brand logo, and your brand color. 
 
-![](assets/en/09.webp)
+![Payment Link Creation Form](assets/en/09.webp)
 
 You can give a description, for example, let's just say "dijital Technologies payment"
 I'll just say Pay to dijital Technologies.
@@ -94,7 +94,7 @@ Nothing does show up there, but if any payments are made, they will show up ther
 And then we also have the option to unpublish or delete this as well. And if we take a note, just make a new tab…
 Paste in that link, it shows that same view that we were just looking at.
 And that is the payment link. If we go back… To our homepage…
-Let's go down to the payment links page. You can see our link that we created is here as well. The income summary is also available at the top of this page.
+Let's go down tow the payment links page. You can see our link that we created is here as well. The income summary is also available at the top of this page.
 
 ### POS
 
@@ -141,22 +141,26 @@ And that is the point-of-sale system.
 
 ### Event Tickets
 
-![](assets/en/11.webp)
+![Event Tickets are a new feature that will have a processing cost](assets/en/11.webp)
+
 Going down the line of merchant tools, we can also create event tickets. So you can enable event tickets as a new feature of ZapRite. These are subject to transaction fees, as outlined in the pricing page of our website and our knowledge article, so you can read further there.the pricing page of our website and our knowledge article. By clicking it below, you have, have read and agreed to our standard pricing and billing policies.
-So, if we just double-check on the pricing… Let's see… So once we have, Whenever you enable your account, They do take a 1% processing for event tickets, plus $3 per ticket, so just keep that in mind as you make tickets.
+So, if we just double-check on the pricing… Let's see… So once you enable your account, they do take a 1% processing for event tickets, plus $3 per ticket, so just keep that in mind as you make tickets.
 But, for invoices, payment requests, payment links, there are no fees for that, no fees for the point of sale. But for event tickets, the APAI usage and WooCommerce plugin, there is a 1% fee.
 And the 1% fees apply to any on-chain Liquid, Lightning, or Tether payments, likely just to cover their infrastructure, since Lightning servers and, I believe Liquid nodes would have a fee.
 There is a fee cap of $15 per transaction, just FYI.
-There's no additional charge on top of, existing fiat processing.
+There's no additional charge on top of existing fiat processing.
 
 [Zaprite Support: Event Tickets](https://help.zaprite.com/en/articles/11565182-how-to-create-event-tickets-in-zaprite#h_6070a198be)
-[Zaprite Pricing](https://help.zaprite.com/en/articles/12125797-zaprite-pricing)
 
+[Zaprite Pricing](https://help.zaprite.com/en/articles/12125797-zaprite-pricing)
+<!-- 
 ZapRite Processing, this gives us a quicker breakdown.
 So the account fee is just $25 a month per regular, or $250 annually.
 $240 annually.
 And then they have a table breakdown for the, percentages that they do charge.
-Fees would be capped at $15.
+Fees would be capped at $15. -->
+
+
 I'm gonna go down to invoices.
 Here, once again, we have our income summary at the top. It'll separate your BTC from fiat payments. It'll show how many payments you have received, accordingly. And this will just list out any and all invoices that you have created.
 So I have created 6 so far, for my software development business, or for my IT consulting business.

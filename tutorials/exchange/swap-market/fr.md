@@ -1,6 +1,6 @@
 ---
 name: SwapMarket
-description: Agrégateur de services d'échanges entre Bitcoin on-chain et Lightning
+description: Agrégateur de services de swaps Bitcoin et Lightning
 ---
 
 ![cover](assets/cover.webp)

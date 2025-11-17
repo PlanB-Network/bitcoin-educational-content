@@ -129,7 +129,7 @@ Bisq 2 permet de créer plusieurs identités. Chaque identité peut être utilis
 ![Liste des offres](assets/fr/10.webp)
 - Dans le second cas, vous pouvez afficher et filtrer les offres avec les boutons en haut à droite de l'interface
 ![Filtres des offres](assets/fr/11.webp)
-- Une fois votre offre choisie, vous n'avez plus qu'à choisir les modalités de paiement puis valider le récapitulatif ddes termes de l'échange
+- Une fois votre offre choisie, vous n'avez plus qu'à choisir les modalités de paiement puis valider le récapitulatif des termes de l'échange
 ![Choix modalités de paiement](assets/fr/12.webp)
 ![Configuration du trade](assets/fr/13.webp)
 ![Récapitulatif du trade](assets/fr/14.webp)

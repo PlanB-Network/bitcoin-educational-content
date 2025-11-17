@@ -2853,7 +2853,7 @@ Bitcoin 是一个巨大的兔子洞，涉及历史、经济、文学、数学、
 - 结构化的组织：您可以定义明确的角色，从而更轻松地管理社区和开展项目。
 
 
-为了帮助您的社区进一步发展，**COMMU302 课程的后续课程**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+为使您的社区进一步蓬勃发展，**在未来数月内，这门课程的后续内容可能会在 [Plan ₿ Academy](https://planb.academy/) 上发布，这种可能性不能排除**。
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 

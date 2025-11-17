@@ -2853,7 +2853,7 @@ Bitcoin یک دنیای پیچیده و گسترده است که به تاریخ
 - **سازمان‌دهی ساختاری**: شما می‌توانید نقش‌های مشخصی را تعریف کنید که مدیریت جامعه و اجرای پروژه‌ها را آسان‌تر می‌کند.
 
 
-برای کمک به رشد بیشتر جامعه خود، **دنباله‌ای برای دوره COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+با هدف آن‌که جامعه شما بیش‌ از پیش شکوفا شود، **排排排排排**
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 

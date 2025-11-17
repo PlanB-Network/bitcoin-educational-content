@@ -2853,7 +2853,7 @@ Có hai lợi ích:
 - **Tổ chức có cấu trúc**: bạn có thể xác định vai trò rõ ràng, giúp điều hành cộng đồng và thực hiện các dự án dễ dàng hơn.
 
 
-Để giúp cộng đồng của bạn phát triển hơn nữa, **khóa học tiếp theo của COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Nhằm giúp cộng đồng của bạn phát triển mạnh mẽ hơn nữa, **không loại trừ khả năng một phần tiếp theo của khóa đào tạo này sẽ được ra mắt trên [Plan ₿ Academy](https://planb.academy/) trong những tháng tới**.
 
 <img width="80" height="18" alt="hình ảnh" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 

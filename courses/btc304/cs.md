@@ -2853,7 +2853,7 @@ Výhody jsou dvojí:
 - **Strukturovaná organizace**: můžete definovat jasné role, což usnadňuje řízení komunity a realizaci projektů.
 
 
-Abyste pomohli své komunitě dále růst, **doplnění kurzu COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+S cílem podpořit další rozkvět vaší komunity **nelze vyloučit, že v nadcházejících měsících vyjde pokračování tohoto školení na [Plan ₿ Academy](https://planb.academy/)**.
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 

@@ -2853,7 +2853,7 @@ De voordelen zijn tweeledig:
 - **Gestructureerde organisatie**: je kunt duidelijke rollen definiëren, waardoor het eenvoudiger wordt om je community te leiden en projecten uit te voeren.
 
 
-Om je community verder te helpen groeien, **een vervolg op de COMMU302 cursus**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Met de bedoeling uw gemeenschap verder te laten bloeien, **valt niet uit te sluiten dat er in de komende maanden een vervolg op deze opleiding verschijnt op [Plan ₿ Academy](https://planb.academy/)**.
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 

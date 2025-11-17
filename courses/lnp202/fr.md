@@ -37,7 +37,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### C'est quoi un nœud Lightning ?
 
-Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comprendre ce qu’est le Lightning Network. Il s’agit d’un protocole de couche supérieure, construit au-dessus de Bitcoin, destiné à permettre des transactions en BTC offchain, rapides (à finalité quasi instantanée) et généralement peu coûteuses. "Offchain" signifie que les transactions effectuées sur Lightning ne sont pas destinées à apparaître sur la blockchain principale de Bitcoin. Lightning constitue également une réponse, certes partielle, à l’augmentation de l’usage de Bitcoin et aux phénomènes de congestion onchain, qui suscitent des inquiétudes quant à la scalabilité du système.
+Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comprendre ce qu’est le Lightning Network. Il s’agit d’un protocole de couche supérieure, construit au-dessus de Bitcoin, destiné à permettre des transactions en BTC offchain, rapides (à finalité quasi instantanée) et généralement peu coûteuses. *Offchain* signifie que les transactions effectuées sur Lightning ne sont pas destinées à apparaître sur la blockchain principale de Bitcoin. Lightning constitue également une réponse, certes partielle, à l’augmentation de l’usage de Bitcoin et aux phénomènes de congestion onchain, qui suscitent des inquiétudes quant à la scalabilité du système.
 
 Pour fonctionner, Lightning repose sur l’ouverture de canaux de paiement entre les participants, au sein desquels les transactions peuvent être réalisées presque instantanément, avec des frais souvent minimes, sans qu’il soit nécessaire de les inscrire une par une sur la blockchain Bitcoin. Ces canaux peuvent rester ouverts très longtemps et ne requièrent des transactions onchain qu’au moment de leur ouverture et de leur fermeture.
 
@@ -46,7 +46,7 @@ Un nœud Lightning est justement un participant à ce réseau Lightning : il ouv
 * de créer et gèrer des canaux de paiement bidirectionnels avec d’autres nœuds ;
 * d'échanger des messages avec l’ensemble du réseau Lightning.
 
-001
+![Image](assets/fr/001.webp)
 
 ### Nœud vs Wallet Lightning : une distinction importante
 
@@ -68,39 +68,39 @@ Dans cette section, je vous propose un rappel rapide du fonctionnement de Lightn
 
 Le cœur du réseau Lightning repose sur les canaux de paiement bidirectionnels. Un canal peut être ouvert (c’est-à-dire créé), mis à jour au fil des transactions Lightning, puis finalement fermé. Du point de vue onchain, un canal n’est rien d’autre qu’une sortie multisignature 2/2.
 
-002
+![Image](assets/fr/002.webp)
 
 Du point de vue Lightning, il s’agit d’un canal de paiement disposant de liquidités réparties entre les deux participants.
 
-003
+![Image](assets/fr/003.webp)
 
 - **Ouverture d’un canal :**
 
-Deux nœuds décident d’ouvrir un canal. L’un d’eux engage des bitcoins dans une transaction onchain appelée "transaction de funding". Cette transaction crée une sortie reposant sur un script multisignature 2-of-2, ce qui signifie que dépenser ces fonds sur Bitcoin nécessite la signature des deux nœuds du canal. Avant de diffuser cette transaction, la partie qui apporte les fonds demande à l’autre de signer une "transaction de retrait", non publiée onchain, mais qui lui permet de récupérer ses fonds en cas de problème.
+Deux nœuds décident d’ouvrir un canal. L’un d’eux engage des bitcoins dans une transaction onchain appelée *transaction de funding*. Cette transaction crée une sortie reposant sur un script multisignature 2-of-2, ce qui signifie que dépenser ces fonds sur Bitcoin nécessite la signature des deux nœuds du canal. Avant de diffuser cette transaction, la partie qui apporte les fonds demande à l’autre de signer une *transaction de retrait*, non publiée onchain, mais qui lui permet de récupérer ses fonds en cas de problème.
 
-004
+![Image](assets/fr/004.webp)
 
 - **Transactions d’engagement :**
 
-L’état du canal (c’est-à-dire la répartition des sats entre A et B) est représenté par une "transaction d’engagement", connue des deux nœuds mais non diffusée immédiatement sur la blockchain. Cette transaction décrit comment redistribuer onchain les fonds du canal en fonction des paiements réalisés sur Lightning.
+L’état du canal (c’est-à-dire la répartition des sats entre A et B) est représenté par une *transaction d’engagement*, connue des deux nœuds mais non diffusée immédiatement sur la blockchain. Cette transaction décrit comment redistribuer onchain les fonds du canal en fonction des paiements réalisés sur Lightning.
 
 À chaque paiement Lightning, les deux nœuds signent un nouvel état qui remplace le précédent. L’ancien est révoqué grâce à un mécanisme de clés de révocation : si l’un des participants tente de diffuser un ancien état, l’autre peut récupérer l’intégralité des fonds en guise de pénalité.
 
 L’idée importante ici est qu’il existe en permanence une transaction Bitcoin signée, non diffusée onchain, conservée par les nœuds, et qui permet de redistribuer les sats de chacun selon les paiements opérées sur le Lightning Network.
 
-005
+![Image](assets/fr/005.webp)
 
 - **Fermeture de canal :**
 
 Un canal peut être fermé proprement via une fermeture coopérative, lorsque les deux parties s’accordent sur l’état final du canal, ou de manière unilatérale (une fermeture forcée) si l’un des participants cesse de coopérer ou devient injoignable. Dans tous les cas, la fermeture prend la forme d’une transaction onchain qui dépense la sortie 2/2 et répartit les fonds entre les participants selon le dernier état valide du canal.
 
-006
+![Image](assets/fr/006.webp)
 
 Lightning fonctionne ainsi comme une couche secondaire ancrée sur Bitcoin : seuls certains événements (l’ouverture et la fermeture des canaux) apparaissent sur la blockchain principale. Les paiements intermédiaires restent offchain.
 
 Avant de continuer, voici deux notions essentielles pour comprendre la gestion d’un canal Lightning :
-- La "liquidité" : c'est quantité de sats disponibles d’un côté du canal ;
-- La "capacité" : c'est le montant total verrouillé dans l’output multisig 2/2, c’est-à-dire la somme des liquidités des deux côtés du canal.
+- La *liquidité* : c'est quantité de sats disponibles d’un côté du canal ;
+- La *capacité* : c'est le montant total verrouillé dans l’output multisig 2/2, c’est-à-dire la somme des liquidités des deux côtés du canal.
 
 #### Un réseau de canaux et de liquidité
 
@@ -108,15 +108,15 @@ Un canal ne sert pas uniquement aux paiements entre deux nœuds : il s’inscrit
 
 Chaque nœud connaît, via le protocole de gossip, une carte de ce réseau : quels canaux existent, quels nœuds sont connectés par un canal bidirectionnel, et quelles capacités sont publiées. Pour envoyer un paiement à un destinataire sans canal direct, votre nœud calcule un itinéraire composé de plusieurs sauts : votre nœud → nœud X → nœud Y → nœud destinataire. À chaque saut, le paiement transite dans un canal qui doit disposer de suffisamment de liquidité dans le sens du paiement.
 
-007
+![Image](assets/fr/007.webp)
 
 La liquidité d’un canal n’est donc pas symétrique : un côté peut être très chargé tandis que l’autre est presque vide. La gestion de cette liquidité, c'est-à-dire savoir où se trouvent les sats et dans quel sens ils peuvent circuler, constitue l’un des aspects les plus importants de l’exploitation d’un nœud Lightning. Nous aborderons cela en détail dans les chapitres pratiques à venir.
 
 #### HTLC : acheminer un paiement sans se faire voler
 
-Pour permettre aux paiements de transiter par des nœuds intermédiaires sans nécessiter de confiance, Lightning utilise des contrats intelligents appelés "HTLC" (*Hashed Time-Locked Contracts*). Pour faire simple, un HTLC conditionne le transfert de fonds à la révélation d’un secret et intègre une contrainte temporelle permettant de protéger l’expéditeur en cas d’échec de la transaction. Chaque paiement est donc soumis à la présentation d’une préimage (un secret dont le hachage correspond à une valeur convenue). Si le destinataire final fournit cette préimage, il peut réclamer les fonds, ce qui permet en cascade à chaque nœud intermédiaire de récupérer les siens.
+Pour permettre aux paiements de transiter par des nœuds intermédiaires sans nécessiter de confiance, Lightning utilise des contrats intelligents appelés *HTLC* (*Hashed Time-Locked Contracts*). Pour faire simple, un HTLC conditionne le transfert de fonds à la révélation d’un secret et intègre une contrainte temporelle permettant de protéger l’expéditeur en cas d’échec de la transaction. Chaque paiement est donc soumis à la présentation d’une préimage (un secret dont le hachage correspond à une valeur convenue). Si le destinataire final fournit cette préimage, il peut réclamer les fonds, ce qui permet en cascade à chaque nœud intermédiaire de récupérer les siens.
 
-008
+![Image](assets/fr/008.webp)
 
 Je vous épargne les détails techniques du fonctionnement des HTLCs, car ils ne sont pas indispensables dans le cadre de ce cours. Vous en trouverez une explication approfondie dans la formation théorique LNP 201. Retenez simplement que les HTLCs permettent d’effectuer des échanges atomiques : soit le transfert aboutit entièrement et personne n’est lésé dans le routage, soit il échoue et chaque participant récupère ses fonds initiaux. Il n’existe pas d’entre-deux possible.
 
@@ -128,25 +128,25 @@ Tout comme pour Bitcoin, il existe plusieurs implémentations du protocole Light
 
 LND est une implémentation complète du protocole Lightning, écrite en Go et développée par Lightning Labs.
 
-009
+![Image](assets/fr/009.webp)
 
 #### Core Lightning (*CLN*)
 
-Core Lightning (anciennement "C-Lightning") est l’implémentation développée par Blockstream. Elle est écrite en C, avec certains composants en Rust.
+Core Lightning (anciennement *C-Lightning*) est l’implémentation développée par Blockstream. Elle est écrite en C, avec certains composants en Rust.
 
-010
+![Image](assets/fr/010.webp)
 
 #### Eclair
 
 Eclair est une implémentation écrite en Scala et développée par l’entreprise française ACINQ. ACINQ exploite l’un des plus importants nœuds de routage du réseau Lightning avec Eclair, et utilise cette implémentation comme base logicielle pour ses propres produits, comme l’application Phoenix.
 
-011
+![Image](assets/fr/011.webp)
 
 #### LDK (*Lightning Development Kit*)
 
 LDK (*Lightning Development Kit*) est un kit de développement en Rust, maintenu par Spiral (Block, ex-Square). Ce n’est pas un daemon prêt à l’emploi comme LND ou CLN, mais une bibliothèque destinée aux développeurs souhaitant intégrer Lightning directement dans leurs applications.
 
-012
+![Image](assets/fr/012.webp)
 
 Dans ce cours LNP 202, nous nous concentrerons principalement sur LND, car il s’agit de l’implémentation la plus utilisée dans les solutions clé en main destinées aux particuliers, comme Umbrel.
 
@@ -186,7 +186,7 @@ La première solution consiste tout simplement à ne pas utiliser Lightning de m
 
 Le principe est le suivant : vos fonds restent en Bitcoin onchain ou sur Liquid, dans un portefeuille dont vous détenez les clés de manière classique. Lorsque vous scannez une invoice Lightning, le portefeuille envoie une transaction (onchain ou Liquid) vers un service de swap atomique. Ce service se charge ensuite de réaliser le paiement Lightning depuis son propre nœud, en échange de vos bitcoins reçus onchain ou via Liquid. En pratique, vous n’avez donc pas de canaux Lightning à gérer, mais vous pouvez tout de même régler des invoices Lightning.
 
-13
+![Image](assets/fr/013.webp)
 
 L’avantage majeur de cette approche, par rapport à un portefeuille Lightning custodial classique, est que vous restez en possession de vos fonds à 100 % à chaque instant. Les bitcoins sont dans votre portefeuille onchain ou Liquid, avec votre propre phrase mnémonique. Même pendant le swap, vous restez en possession de vos fonds, car le swap est atomique. Il repose sur un mécanisme cryptographique qui garantit qu’il n’existe que deux issues possibles : soit le swap réussit entièrement, soit il échoue et le service ne peut pas s’approprier vos fonds.
 
@@ -202,9 +202,9 @@ Donc pour un usage ponctuel, cela reste acceptable, mais pour un utilisateur tr�
 
 La deuxième catégorie de solutions repose sur les nœuds Lightning embarqués directement dans une application mobile. Phoenix Wallet a été le pionnier de ce modèle et reste une référence. Aujourd’hui, d’autres projets proposent des approches comparables, comme Zeus (en mode embedded) ou BitKit.
 
-L’idée est simple : l’application exécute en réalité un nœud Lightning, mais toutes les opérations complexes sont gérées automatiquement en arrière-plan. Vous disposez d’une interface de "wallet Lightning" avec une phrase mnémonique pour la sauvegarde, vous voyez un solde et vous payez des invoices, mais vous ne gérez ni canaux, ni liquidité, ni la plupart des paramètres.
+L’idée est simple : l’application exécute en réalité un nœud Lightning, mais toutes les opérations complexes sont gérées automatiquement en arrière-plan. Vous disposez d’une interface de *wallet Lightning* avec une phrase mnémonique pour la sauvegarde, vous voyez un solde et vous payez des invoices, mais vous ne gérez ni canaux, ni liquidité, ni la plupart des paramètres.
 
-014
+![Image](assets/fr/014.webp)
 
 Ces solutions sont toujours self-custodial. Les clés qui contrôlent les fonds sont générées et stockées sur votre téléphone, et la sauvegarde passe par une seed ou un mécanisme équivalent. Vous n’êtes pas simplement titulaire d’un compte chez un prestataire, vous possédez réellement des bitcoins verrouillés dans des canaux qui vous appartiennent et ne peuvent pas vous être volés.
 
@@ -222,7 +222,7 @@ Enfin, cette simplicité a un prix. Les services de nœuds LN embarqués facture
 
 La troisième solution, celle que nous allons approfondir dans ce cours LNP 202, consiste à exploiter un nœud Lightning classique sur un serveur ou un appareil dédié.
 
-Par "classique" j'entends que vous installez et configurez vous-même une implémentation Lightning (par exemple LND) au-dessus de votre propre nœud Bitcoin. Vous choisissez vos pairs, vous ouvrez vos canaux, vous gérez votre liquidité entrante et sortante, et vous définissez vos politiques de frais de routage.
+Par *classique* j'entends que vous installez et configurez vous-même une implémentation Lightning (par exemple LND) au-dessus de votre propre nœud Bitcoin. Vous choisissez vos pairs, vous ouvrez vos canaux, vous gérez votre liquidité entrante et sortante, et vous définissez vos politiques de frais de routage.
 
 Sur le plan de la souveraineté, c’est la meilleure solution. Vous ne dépendez plus d’une entreprise spécifique pour vos canaux ou vos paiements : si un pair vous censure ou ferme un canal, vous pouvez en ouvrir un autre avec un nœud différent. Si un service disparaît, vos sats restent dans les canaux que vous contrôlez, et vous pouvez les rapatrier onchain. Vous avez également la possibilité d’optimiser vos coûts à long terme : une fois vos canaux correctement dimensionnés et gérés, le coût global des paiements peut devenir très faible.
 

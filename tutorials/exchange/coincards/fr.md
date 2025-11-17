@@ -4,7 +4,7 @@ description: Comment acheter des biens et des services en BTC avec Coincards ?
 ---
 ![cover](assets/cover.webp)
 
-> Bitcoin: Un système de paiement électronique pair-à-pair
+> Bitcoin: A Peer-to-Peer Electronic Cash System
 
 C'est la raison d'être de Bitcoin, être dépensé en pair-à-pair sans avoir à demander la permission à qui que ce soit. Aujourd'hui, très peu de marchands acceptent bitcoin en échange de leurs biens et services (nous n'en sommes qu'aux prémices), rendant la tâche difficile à ceux d'entre nous qui ont besoin de dépenser leurs satoshis. **Coincards** est là pour tenter de résoudre ce problème, en vous permettant de dépenser vos bitcoins pour **acheter des cartes-cadeaux.**
 

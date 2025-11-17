@@ -1,5 +1,5 @@
 ---
-ijambo: OP_FROMALTSTACK (0X6C)
+term: OP_FROMALTSTACK (0X6C)
 
 ---
 

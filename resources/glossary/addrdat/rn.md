@@ -1,5 +1,5 @@
 ---
-ijambo: ADDR.DAT.
+term: ADDR.DAT.
 
 ---
 

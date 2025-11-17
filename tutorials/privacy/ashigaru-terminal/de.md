@@ -27,6 +27,8 @@ In diesem ersten Tutorial werde ich Sie durch die Installation und den Betrieb v
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Ashigaru-Terminal installieren
 
 
@@ -286,7 +288,7 @@ In diesem Lernprogramm werden wir uns für die zweite Methode entscheiden. Wenn 
 
 
 
-Bitte beachten Sie auch, dass Sie mit dem Ashigaru Terminal Ihre Bitcoins nicht direkt ausgeben können. Du kannst entweder denselben wallet im Ashigaru Terminal und in der Ashigaru App synchronisieren (was ich in diesem Tutorial tun werde), oder die Option "Mix to" verwenden (die wir uns im nächsten Tutorial ansehen werden), um dein Geld nach einer bestimmten Anzahl von Mix-Zyklen automatisch an eine wallet Hardware zu senden.
+Beachten Sie auch, dass Ashigaru Terminal es nicht ermöglicht, Ihre Bitcoins direkt auszugeben. Sie können entweder dasselbe Wallet auf Ashigaru Terminal und in der Ashigaru-App synchronisieren (was ich in diesem Tutorial tun werde) oder im Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Wählen Sie dann den Portfoliotyp "Hot Wallet".
 
 
 
-*Hinweis*: Mit der Option `Watch-only` können Sie den `xpub` eines wallet speichern, um die Funktion `Mix to` zu einem späteren Zeitpunkt zu verwenden. Allerdings kann dieser wallet-Typ natürlich nicht an Coinjoins teilnehmen. Wir werden auf diese Funktion im nächsten Tutorial noch einmal im Detail zurückkommen.
 
 
 
@@ -447,4 +448,5 @@ Die Bedienung ist dann identisch mit der von Sparrow, da Ashigaru Terminal ein f
 
 
 
-Jetzt wissen Sie, wie Sie Ashigaru Terminal installieren und verwenden können. Im nächsten Tutorial werden wir uns ansehen, wie man mit dieser Software Coinjoins erstellt und wie man Hintergründe in "*Postmix*" verwaltet, entweder über die Ashigaru-Anwendung oder mit der Option "Mischen nach".
+Sie wissen nun, wie man Ashigaru Terminal installiert und verwendet. Im nächsten Tutorial sehen wir uns an, wie man mit dieser Software Coinjoins durchführt und wie man Gelder im "*Postmix*" verwaltet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

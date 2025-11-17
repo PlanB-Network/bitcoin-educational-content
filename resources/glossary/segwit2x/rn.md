@@ -1,5 +1,5 @@
 ---
-ijambo: SEGWIT2X
+term: SEGWIT2X
 
 ---
 

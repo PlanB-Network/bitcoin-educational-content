@@ -1,5 +1,5 @@
 ---
-ijambo: STRATUM V2
+term: STRATUM V2
 
 ---
 

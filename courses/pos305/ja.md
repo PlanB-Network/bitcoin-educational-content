@@ -1,31 +1,18 @@
 ---
-name: BitcoinとBTCペイサーバー
-goal: BTC Payサーバーのインストール
-objectives: 
-
-  - btcpayserver が何であるかを理解してください。
-  - BTC Payサーバーをセルフホストし、設定します。
-  - 日常業務にbtcpayserverをご利用ください。
-
+name: BTC Pay Serverをマスターする
+goal: 地元企業向けにBTC Pay Serverインスタンスを設定する
+objectives:
+- 決済処理におけるBTCPay Serverの役割の基礎を理解する
+- BTCPay Serverの設定プロセスの内部動作を習得する
+- クラウドおよびノードベースの環境にBTCPay Serverを展開する
+- BTC Pay Serverのオペレーターになる
 ---
+# 金融主権への旅
 
-# BitcoinとBTCPayサーバー
+信頼は脆いものです、特にお金に関しては。この入門コースでは、第三者に依存せずにBitcoin決済を受け入れることができる強力なツールであるBTCPay Serverをご案内します。BTCPay Serverオペレーターになるための基礎を学びます
 
-
-これはAlekosとBasによって書かれたBTCPayサーバーオペレーターの入門コースで、melontwistとasi0によってPlan ↪Sc_20BFのコースフォーマットに適応されました。
-
-
-未完の物語
-
-
-「これは嘘だ、あなたへの信頼は崩れた、あなたを廃人にしてやる」。
-
-
-BTCPayサーバー財団が制作
-
-
+AlekosとBasによって作成され、melontwistとasi0によって改編されたこのコースは、個人や企業が従来の決済システムに代わるものをどのように構築しているかを明らかにします。Bitcoinに興味がある方でも、企業向けの決済インフラを運用する準備ができている方でも、現状に挑戦する実践的なスキルを発見できます。金融的自立が実際にどのようなものかを探求する準備はできていますか?
 +++
-
 # はじめに
 
 

@@ -2853,11 +2853,9 @@ Kasu on kahekordne:
 - **Struktureeritud organisatsioon**: saate määratleda selged rollid, mis lihtsustab kogukonna juhtimist ja projektide elluviimist.
 
 
-Et aidata oma kogukonnal veelgi kasvada, **selline jätkukursus COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Sooviga aidata teie kogukonnal veelgi enam areneda **ei ole välistatud, et selle koolituse jätkukursus ilmub lähikuudel platvormil [Plan ₿ Academy](https://planb.academy/)**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-võidakse avaldada [planb.network](https://planb.academy/) lähikuudel.
 
 
 Järgmisel istungil võiks uurida selliseid edasijõudnute teemasid nagu:

@@ -1,5 +1,5 @@
 ---
-ijambo: OP_SUB (0X94)
+term: OP_SUB (0X94)
 
 ---
 

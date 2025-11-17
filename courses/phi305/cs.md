@@ -1,35 +1,18 @@
 ---
 name: Spinoza a Bitcoin
 goal: Objevte filozofické souvislosti mezi Spinozovým myšlením a Bitcoin jako nástrojem svobody v průběhu staletí.
-objectives: 
-
-
-  - Porozumění Spinozově praktické filozofii a jeho hledání svobody.
-  - Zkoumání spinozistických konceptů determinismu a lidských iluzí.
-  - Analýza paralel mezi Spinozovou revolucí idejí a technologickou revolucí Bitcoin.
-
-
-
+objectives:
+- Pochopení Spinozovy praktické filosofie a jeho hledání svobody.
+- Zkoumání spinozistických konceptů determinismu a lidských iluzí.
+- Analýza paralel mezi Spinozovou revolucí myšlenek a technologickou revolucí Bitcoinu.
+- Aplikace teorie afektů k rozpoznání a odporu vůči manipulaci v politických systémech.
 ---
+# Když se Spinoza setkal se Satoshim
 
-# Filozofické zkoumání svobody prostřednictvím Spinozy a Bitcoin
+Objevte, jak radikální myšlenky filozofa 17. století Barucha de Spinozy o svobodě, rozumu a moci předznamenávají decentralizovanou revoluci Bitcoinu. Tento kurz odhaluje pozoruhodné paralely: oba odmítají slepou víru a centrální autoritu, oba používají matematickou přísnost k osvobození. Spinoza osvobodil mysli od náboženského dogmatu, Bitcoin osvobozuje peníze od státní kontroly.
 
-
-
-Tento kurz zkoumá hluboké souvislosti mezi revoluční filozofií Barucha de Spinozy (1632-1677) a Bitcoin, dvěma nástroji svobody, které od sebe dělí celá staletí, ale spojuje je stejný cíl: osvobození člověka z otroctví.
-
-
-
-Zjistíme, jak Spinoza, otec racionální osvícenské filozofie, vyvinul praktickou etiku, která nás má osvobodit od iluzí, jež nás vězní - svobodné vůle, finalismu a teologických pověr. Jeho geometrická metoda a teorie afektů nám ukazují, jak pochopit naše místo ve světě a směřovat naši existenci k tomu, co zvyšuje naši sílu jednat.
-
-
-
-Kurz pak uvádí fascinující paralely mezi touto koperníkovskou revolucí idejí a Bitcoin: dva systémy, které nevyžadují slepou víru ani centrální autoritu, ale prostě jen používání rozumu. Stejně jako spinozismus osvobodil myšlení od náboženských dogmat, Bitcoin osvobozuje peníze od státní kontroly a nabízí novou formu ekonomické svobody, která má kořeny v matematice a kryptografii.
-
-
-
+Naučte se praktické nástroje ze Spinozovy etiky k pochopení filozofických základů bitcoinu a zvyšte svou autonomii. Jste připraveni prozkoumat dva z největších nástrojů lidské emancipace v dějinách?
 +++
-
 # Úvod
 
 

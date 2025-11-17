@@ -1,5 +1,5 @@
 ---
-ijambo: OP_NOP (0X61)
+term: OP_NOP (0X61)
 
 ---
 

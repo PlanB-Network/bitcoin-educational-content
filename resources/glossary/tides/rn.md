@@ -1,5 +1,5 @@
 ---
-ijambo: TIDES
+term: TIDES
 
 ---
 

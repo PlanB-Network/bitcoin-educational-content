@@ -1,5 +1,5 @@
 ---
-ijambo: KUVANGA
+term: KUVANGA
 
 ---
 

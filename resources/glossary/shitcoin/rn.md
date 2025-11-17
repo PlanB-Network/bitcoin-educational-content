@@ -1,5 +1,5 @@
 ---
-ijambo: SHITCOIN
+term: SHITCOIN
 
 ---
 

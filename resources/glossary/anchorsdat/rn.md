@@ -1,5 +1,5 @@
 ---
-ijambo: ANCHORS.DAT.
+term: ANCHORS.DAT.
 
 ---
 

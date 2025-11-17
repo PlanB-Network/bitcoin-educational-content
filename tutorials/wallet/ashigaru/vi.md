@@ -84,7 +84,7 @@ Dojo cho phép ứng dụng Ashigaru của bạn tham khảo thông tin blockcha
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Nếu bạn thực sự không đủ khả năng để tự vận hành Dojo, bạn có thể tìm những người sẵn sàng chia sẻ phiên bản Dojo của họ miễn phí tại [dojobay.pw](https://www.dojobay.pw/mainnet/). Đây có thể là giải pháp tạm thời, nhưng về lâu dài, tôi khuyên bạn nên sử dụng Dojo của riêng mình để đảm bảo chủ quyền và tính bảo mật.
 
@@ -579,3 +579,4 @@ Sau khi giao dịch thông báo được xác nhận, bạn có thể gửi ti�
 
 
 Bây giờ bạn đã biết cách sử dụng các tính năng cơ bản của ứng dụng Ashigaru. Trong các bài hướng dẫn sau, chúng ta sẽ xem xét cách tận dụng các giao dịch chi tiêu nâng cao, cũng như Whirlpool, tính năng coinjoin kế thừa từ Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

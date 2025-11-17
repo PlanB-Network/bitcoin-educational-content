@@ -1,5 +1,5 @@
 ---
-ijambo: DEBUG.LOG
+term: DEBUG.LOG
 
 ---
 

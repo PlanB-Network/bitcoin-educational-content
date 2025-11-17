@@ -1,5 +1,5 @@
 ---
-용어: SIGHASH 플래그
+term: SIGHASH 플래그
 
 ---
 

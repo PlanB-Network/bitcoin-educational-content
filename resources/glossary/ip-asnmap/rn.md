@@ -1,5 +1,5 @@
 ---
-ijambo: IP_ASN.MAP
+term: IP_ASN.MAP
 
 ---
 

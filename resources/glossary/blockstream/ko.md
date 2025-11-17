@@ -1,5 +1,5 @@
 ---
-기간입니다: BLOCKSTREAM
+term: BLOCKSTREAM
 
 ---
 

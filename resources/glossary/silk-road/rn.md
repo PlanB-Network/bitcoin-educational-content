@@ -1,5 +1,5 @@
 ---
-ijambo: SILK ROAD
+term: SILK ROAD
 
 ---
 

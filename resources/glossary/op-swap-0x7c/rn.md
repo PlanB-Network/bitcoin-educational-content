@@ -1,5 +1,5 @@
 ---
-ijambo: OP_SWAP (0X7C)
+term: OP_SWAP (0X7C)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: MEMPOOL.DAT
+term: MEMPOOL.DAT
 
 ---
 

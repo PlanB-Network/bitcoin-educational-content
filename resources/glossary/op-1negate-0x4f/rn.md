@@ -1,5 +1,5 @@
 ---
-ijambo: OP_1NEGATE (0X4F)
+term: OP_1NEGATE (0X4F)
 
 ---
 

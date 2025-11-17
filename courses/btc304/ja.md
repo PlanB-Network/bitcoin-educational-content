@@ -2853,11 +2853,9 @@ Bitcoinのウサギの穴に落ちると、人生観が変わる。
 - 構造化された組織：明確な役割を定義できるので、コミュニティの運営やプロジェクトの実施が容易になります。
 
 
-コミュニティをさらに発展させるために、**COMMU302コースのフォローアップ**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />。
+皆様のコミュニティがさらに発展するように、**今後数か月のうちに本研修の続編が [Plan ₿ Academy](https://planb.academy/) に公開される可能性も排除できません**。
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-今後数ヶ月のうちに[planb.network](https://planb.academy/)でリリースされるかもしれない。
 
 
 次のセッションでは、次のような高度なトピックを探求することができる：

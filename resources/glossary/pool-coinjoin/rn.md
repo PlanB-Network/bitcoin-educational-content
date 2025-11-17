@@ -1,5 +1,5 @@
 ---
-ijambo: POOL (CoinJoin)
+term: POOL (CoinJoin)
 
 ---
 

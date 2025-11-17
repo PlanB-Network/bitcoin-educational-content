@@ -1,5 +1,5 @@
 ---
-ijambo: OP_FALSE (0X00)
+term: OP_FALSE (0X00)
 
 ---
 

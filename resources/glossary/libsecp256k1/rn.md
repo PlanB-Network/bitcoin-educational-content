@@ -1,5 +1,5 @@
 ---
-ijambo: LIBSECP256K1
+term: LIBSECP256K1
 
 ---
 

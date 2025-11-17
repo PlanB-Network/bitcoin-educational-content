@@ -1,5 +1,5 @@
 ---
-ijambo: OP_PUSHDATA2 (0X4D)
+term: OP_PUSHDATA2 (0X4D)
 
 ---
 

@@ -84,7 +84,7 @@ Tor के ज़रिए `.apk` फ़ाइल डाउनलोड कर�
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 अगर आप वाकई अपना खुद का डोजो चलाने का खर्च नहीं उठा सकते, तो आप [dojobay.pw](https://www.dojobay.pw/mainnet/) पर ऐसे लोगों को ढूंढ सकते हैं जो अपना इंस्टेंस मुफ़्त में शेयर करने को तैयार हैं। यह एक अस्थायी समाधान हो सकता है, लेकिन लंबे समय में, मैं आपको अपनी संप्रभुता और गोपनीयता की गारंटी के लिए अपना खुद का डोजो इस्तेमाल करने की सलाह देता हूँ।
 
@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 अब आप आशिगारू एप्लिकेशन की बुनियादी सुविधाओं का उपयोग करना जानते हैं। आगे के ट्यूटोरियल्स में, हम उन्नत व्यय लेनदेन का लाभ उठाने के तरीके के साथ-साथ Whirlpool, जो कि समुराई Wallet से विरासत में मिला कॉइनजॉइन कार्यान्वयन है, पर भी चर्चा करेंगे।
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

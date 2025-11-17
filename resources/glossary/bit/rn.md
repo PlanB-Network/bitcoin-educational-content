@@ -1,5 +1,5 @@
 ---
-ijambo: BIT
+term: BIT
 
 ---
 

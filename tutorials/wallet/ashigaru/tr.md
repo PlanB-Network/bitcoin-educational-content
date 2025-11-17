@@ -84,7 +84,7 @@ Dojo hakkında daha fazla bilgi edinmek ve nasıl kurulacağını öğrenmek iç
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Kendi Dojo'nuzu çalıştırmaya gerçekten gücünüz yetmiyorsa, [dojobay.pw] (https://www.dojobay.pw/mainnet/) adresinde örneklerini ücretsiz olarak paylaşmak isteyen kişiler bulabilirsiniz. Bu geçici bir çözüm olabilir, ancak uzun vadede, egemenliğinizi ve gizliliğinizi garanti altına almak için kendi Dojo'nuzu kullanmanızı tavsiye ederim.
 
@@ -579,3 +579,4 @@ Bildirim işlemi onaylandıktan sonra, arayüzün sağ üst köşesindeki küç�
 
 
 Artık Ashigaru uygulamasının temel özelliklerini nasıl kullanacağınızı biliyorsunuz. Gelecek eğitimlerde, Samuray Wallet'dan miras alınan coinjoin uygulaması Whirlpool'in yanı sıra gelişmiş harcama işlemlerinden nasıl yararlanacağınıza bakacağız.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

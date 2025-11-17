@@ -84,7 +84,7 @@ Dojo에 대해 자세히 알아보고 설치 방법을 배우려면 이 전용 �
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 직접 도장을 운영할 여력이 없다면 [dojobay.pw](https://www.dojobay.pw/mainnet/)에서 자신의 인스턴스를 무료로 공유하려는 사람들을 찾을 수 있습니다. 이는 일시적인 해결책이 될 수 있지만 장기적으로는 자신의 도장을 사용하여 주권과 기밀을 보장하는 것이 좋습니다.
 
@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 이제 아시가루 애플리케이션의 기본 기능을 사용하는 방법을 알아봤습니다. 다음 튜토리얼에서는 고급 지출 거래를 활용하는 방법과 사무라이 Wallet에서 계승한 코인조인 구현인 Whirlpool에 대해 살펴보겠습니다.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

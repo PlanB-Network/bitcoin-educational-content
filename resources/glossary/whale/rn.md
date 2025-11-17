@@ -1,5 +1,5 @@
 ---
-ijambo: BALENE
+term: BALENE
 
 ---
 

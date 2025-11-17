@@ -1,24 +1,18 @@
 ---
-name: Bitcoin and BTC Pay Server
-goal: Install BTC Pay Server for your business
+name: Mastering BTC Pay Server
+goal: Configure a BTC Pay Server instance for a local business
 objectives:
-  - Understand what btcpayserver is.
-  - Self-host and configure BTC Pay Server.
-  - Use btcpayserver in your daily business.
+- Understand the fundamentals of BTCPay Server's role in payment processing
+- Master the innerworking of BTCPay Server configuration process
+- Deploy BTCPay Server on cloud and node-based environments
+- Become a BTC Pay Server operator
 ---
+# Journey to Financial Sovereignty
 
-# Bitcoin and BTCPay Server
+Trust is fragile, especially when it comes to money. This introductory course guides you through BTCPay Server, a powerful tool that lets you accept Bitcoin payments without relying on third parties. You'll learn the fundamentals of becoming a BTCPay Server operator
 
-This is an introductory course on BTCPay Server Operator, written by Alekos and Bas, which was adapted for the Plan ₿ Course Format by melontwist and asi0.
-
-AN UNFINISHED STORY
-
-"This Is Lies, My Trust In You Is Broken, I Will Make You Obsolete".
-
-Produced by BTCPay Server Foundation
-
+Created by Alekos and Bas, and adapted by melontwist and asi0, this course reveals how individuals and businesses are building alternatives to traditional payment systems. Whether you're curious about Bitcoin or ready to run payment infrastructures for businesses, you'll discover practical skills that challenge the status quo. Ready to explore what financial independence actually looks like?
 +++
-
 # Introduction
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>

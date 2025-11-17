@@ -1,5 +1,5 @@
 ---
-ijambo: MAX_BLOCK_SIZE
+term: MAX_BLOCK_SIZE
 
 ---
 

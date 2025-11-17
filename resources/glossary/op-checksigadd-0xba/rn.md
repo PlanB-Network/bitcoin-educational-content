@@ -1,5 +1,5 @@
 ---
-ijambo: OP_CHECKSIGADD (0XBA)
+term: OP_CHECKSIGADD (0XBA)
 
 ---
 

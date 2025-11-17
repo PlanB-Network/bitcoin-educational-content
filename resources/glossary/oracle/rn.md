@@ -1,5 +1,5 @@
 ---
-ijambo: ORACLE
+term: ORACLE
 
 ---
 

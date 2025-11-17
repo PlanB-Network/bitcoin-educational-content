@@ -1,5 +1,5 @@
 ---
-ijambo: OP_EQUAL (0X87)
+term: OP_EQUAL (0X87)
 
 ---
 

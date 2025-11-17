@@ -1,5 +1,5 @@
 ---
-기간입니다: BLOCKSIZE WAR
+term: BLOCKSIZE WAR
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-ijambo: TIMELOCK
+term: TIMELOCK
 
 ---
 

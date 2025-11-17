@@ -1,5 +1,5 @@
 ---
-ijambo: OP_GREATERTHANOREQUAL (0XA2)
+term: OP_GREATERTHANOREQUAL (0XA2)
 
 ---
 

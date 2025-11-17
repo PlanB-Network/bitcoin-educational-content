@@ -1,5 +1,5 @@
 ---
-ijambo: OP_NOTIF (0X64)
+term: OP_NOTIF (0X64)
 
 ---
 

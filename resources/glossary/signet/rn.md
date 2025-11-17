@@ -1,5 +1,5 @@
 ---
-ijambo: SIGNET
+term: SIGNET
 
 ---
 

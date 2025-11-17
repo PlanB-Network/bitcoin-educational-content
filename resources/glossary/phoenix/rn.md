@@ -1,5 +1,5 @@
 ---
-ijambo: PHOENIX
+term: PHOENIX
 
 ---
 

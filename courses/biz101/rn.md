@@ -1070,80 +1070,80 @@ Kugira ngo tworohereze uburyo bwo gufata ingingo, twasobanuye imirongo ine itand
 #### Umwirondoro wa 1 – Uwutanguye
 
 
-| Attribute                        | The Starter                                                                                                                                |
+| Akaranga                         | Uwutangura                                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
-| **Transaction Frequency**        | "first transaction in order to learn", "taking payment once in a while"                                                                    |
-| **Business Type Examples**       | Creative economy (content creators, blogs, articles, etc.), occasional tips, one-off in-person product sales, associations, one-off events |
-| **Payment Type**                 | Generally a few cents to a few euros/dollars; under ~300 euros/dollars per item                                                            |
-| **Settings Complexity**          | None                                                                                                                                       |
-| **Example Recommended Solution** | A custodial Lightning wallet like Wallet of Satoshi or a non-custodial wallet like Phoenix                                                 |
-| **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone                                                                                  |
-| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer’s personal wallet                                                                        |
-| **Fees**                         | Customer pays Bitcoin Lightning fees plus any applicable app fees                                                                          |
-| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
-| **Management and Roles**         | Single app management; minimal role differentiation                                                                                        |
-| **Accounting Exports**           | Basic transaction history lists                                                                                                            |
-| **API**                          | No                                                                                                                                         |
+| **Urugezo rwibitekerezo**                | "kugerageza kuriha iryambere muburyo bugaragara  ", "kuronka amahera yambere yibikorwa vyanje vyo kuri internet", "kwiha intumbero yokuronka akarusho nagatoya"                                   |
+| **Umurindi wama rungika**        | "irungika ryambere kugira wige ", "kwemera amarihwa rimwe na rimwe"                                                                    
+| **Akarorero kinganda**       | ubutunzi bwuzuyemwo ibitekerezo ( gukora atureresi kuri interineti , ibinyamakuru kuri interineti) , gutunganya ibirori, kwidandariza ibidandazwa, amashirahamwe , ibirori vyiharije   |
+| **Uburyo bwokuriha**                 | kenshi na keshi muma jana yama yero canke amadorari munsi ya 300 yamadorari canke ama yero kuri buri kinyamakuru                                                            |
+| **Amategeko agoye**          | ntanamwe                                                                                                                                     |
+| **Akarorero kinyishu zisabwa** | ingodo yikorana buhanga ya Lightning ibitsweko amakuru , Nkigodo yikorana buhanga ya satoshi  , canke ingodo yikorana buhanga itabika amakuru nka  Phoenix.                                              |
+| **Ishusho umudandaza abona kurubuga**           | ingodo ya Bitcoin Lightning yororohejwe : application muri telephone ngendanwa                                                                                 |
+| **Ishusho umukiriya abona kurubuga**           | ikode ya QR ya bitcoin, bapimishije bakoresheje yikorana buhanga yumu kiriya                                                                        |
+| **Imisoro**                         | umukiriya arariha imisoro ya Bitcoin Lightning  hamwe nimisoro ya application asabwa                                                                         |
+| **Igikoresho cubudandaji**         | application yo kubuntu kuri ayama terephone manini manini , canke bakoresheje igikoresho cokurihirako( nkakarorero Bitcoinize)                                                                  |
+| **Gutunganya hamwe nishingano**         | ugutunganya biciye kuri application imwe ; ubutandukanire bwishingano butari bunini                                                                                      |
+| **Gutunganya amatungo**           | intonde za kera zamarungika yintango                                                                                                           |
+| **API**                          | oya                                                                                                                                         |
 
 
 #### Umwirondoro wa 2 – Ivy'ingenzi
 
 
-| Attribute                        | The Essential                                                                                                                              |
+|     akaranga                    | Ibintu ngirakamaro                                                                                                                           |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | "I accept Bitcoin in my business but I do not expect meaningful volume"                                                                    |
-| **Transaction Frequency**        | Few transactions per month                                                                                                                 |
-| **Business Type Examples**       | Bars, restaurants, semi-regular sales of fresh or directly sourced products, multiple stores under one owner, creative economy for artists |
-| **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred per item; under ~300 per item and under ~3,000 per month                       |
-| **Settings Complexity**          | Minimal (mobile app)                                                                                                                       |
-| **Example Recommended Solution** | Swiss Bitcoin Pay                                                                                                                          |
-| **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone; simple invoicing with minimal details                                           |
-| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                        |
-| **Fees**                         | Typically <1% for sending to a Bitcoin address, and <1.5% for converting to fiat                                                           |
-| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
-| **Management and Roles**         | Option for a sell-only role for employees; online dashboard for administration                                                             |
-| **Accounting Exports**           | CSV export with complete transaction details                                                                                               |
-| **API**                          | Yes                                                                                                                                        |
+| **Urugezo rwibiterezo**                | "ndemeye bitcoin muruganda rwanje, mugabo siniteze umwimbu munini"                                                                    |
+| **Umurindi wama rungika**        | amarungika amwamwe buri kwezi                                                                                                                 |
+| **Akarorero kubwoko bwibikorwa**       | ubunywero , uburiro ,ubucuruzi ,  amaduka meshi buri kwizina ryumuntu umwe, umutungo wibitekerezo kubahinga |
+| **Uryo bwokurihabu**                 | kenshi na keshi muma jana yama yero canke amadorari munsi ya 300 yamadorari canke ama yero kuri buri kinyamakuru , munsi ya 300 kukinyamakuru hamwe nomunsi ya 300 kukwezi                      |
+| **Amategeko agoye**          | Nimiburiburi ( application yo mwiterephone ngendanwa)                                                                                                                       |
+| **Akarorero kinyishu zisabwa** |  Swiss Bitcoin Pay                                                                                                                          |
+| **Ishusho umudandaza abona kurubuga**           | ingodo yubuhinga ngurukana bumenyi ya bitcoin Lightning isanzwe , application kuri telephone ngendanwa ; fagitire iriko ibintu bikenewe gusa                                          |
+| **ishusho umukiriya abona kurubuga**           |   ikode ya QR ya bitcoin, bapimishije bakoresheje ingodo yikorana buhanga  yumu kiriya                                                                      |
+| **Imisoro**                         | akeshi na keshi > 1% mwirungika igana kumuhora  wa bitcoin , hamwe na 1,5 % muvuganye kuri ayamahera asanzwe akoreshwa na leta                                                            |
+| **Igikoresho cubudandaji**         | application yo kubuntu kuri ayama terephone manini manini , canke bakoresheje igikoresho cokurihirako( nkakarorero Bitcoinize)                                                                                                                                   |
+| **Gutunganya hamwe nishingano**         | amahitamwo ya kazi ko kudandaza kuba kozi gusa ; aho umu bossi akwirikirana amakuru y'uruganda                                                             |
+| **Gutunganya amatungo**           | kugaragaza CSV idonido amarungika yabaye                                                                                                 |
+| **API**                          | ego                                                                                                                                       |
 
 
 #### Umwirondoro wa 3 – Umuhinga
 
 
-| Attribute                        | The Professional                                                                                                                                       |
+| Akaranga                       | Ubunyamwuga                                                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                | - A payment method like any other for my e-commerce - Or joint management for a group of businesses ready for higher volumes                           |
-| **Transaction Frequency**        | Multiple transactions per day                                                                                                                          |
-| **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
-| **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
-| **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTCPay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
-| **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
-| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
-| **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
-| **Point of Sale Device**         | Website store, optional physical display (e.g. iPad showing the site or Bitcoin terminal)                                                              |
-| **Management and Roles**         | Fully featured store with multiple admin roles; employees and customers interact with the system                                                       |
-| **Accounting Exports**           | CSV export with complete transaction details                                                                                                           |
-| **API**                          | Yes                                                                                                                                                    |
+| **Urugezo rwibiterezo**                | - uburyo bwokuriha nkubundi kurudandazwa rwanje rwokubuhinga bwa none, canke ukwitunganya kwama shirahamwe yinganda kugira bakore uruja nuruza rwama rungika manini manini                           |
+| **Umurindi wama rungika**        | amarungika meshi kumunsi                                                                                                                          |
+| **Akarorero kinganda**       | Urubuga rw'urudandazwa go kuri interineti rwo kumurindi urihejuru cane , ikibanza gito cisoko , imirwi yamaduka agaragara(click & collect ) , PME                           |
+| **Uburyo bwokuriha**                 | Keshi na keshi mutu  dolari canke mutu yero gushika mumajana yama dolari canke ama yero  ,ntambibe zigitigira camahera agobwa kurungikwa, munsi ya 250000 burimwaka                                    |
+| **Amategeko agoye**          | kuva kukintu gisanzwe gushika kukintu gikora neza( kubika(hébergement) muri local cank cloud ) , bisaba keshi iduka ryo kuri interinete                                                            |
+| **Akarorero kinyishu zisabwa** | BTC Pay Server kuri e-comerce et ou environnement physique ZapRite, Musqet ou PayWithFlash kuri  checkout, Be-BOP i duka ririmwo              |
+| **Ishusho umudandaza abona kurubuga**           | urubuga rwo kuri interineti rurimwo uburyo bwa fagitire , uburyo bwogutora ikidandazwa ushaka hamwe nuburyo bwo kuriha , fagitire yikora kubera ubuhinga burimwo bw'urudandazwa rwo kuri interineti ( e-commerce) |
+| **ishusho umukiriya abona kurubuga**           |   ikode ya QR ya bitcoin, bapimishije bakoresheje ingodo yikorana buhanga yumu kiriya                                                                                  |
+| **Imisoro**                         | kuvanga hagati ya   backend open-source  yokubuntu hamwe nuburyo bwo kwemererwa kubika ( hébergement), ibikorwa vya Lightning birihishwa imisoro yokuruhande rwo kumukiriya  bifatanye nimisoro ya Bitcoin Lightning  na < 1.5 % ya yamvunjishijwe     |
+| **Igikoresho cubudandaji**         | iduka kumbuga ngurukana bumenyi , kugaragaza muburyo buboneka ( akarorero IPad yerekana urubuga , igikoresho ca bitcoin )                                                            |
+| **Gutunganya hamwe ninshingano**         | iduka rikora neza rifise inshingano nyishi zubuyobozi, abakozi hamwe naba kiriya baraganira hagati yabo                                                       |
+| **Gutunganya amatungo**           | kugaragaza CSV idonido amarungika yabaye                                                                                                           |
+| **API**                          | ego                                                                                                                                                     |
 
 
 #### Umwirondoro wa 4 – Ikigo
 
 
-| Attribute                        | The Enterprise                                                                                                                                  |
+| Akaranga                        | Uruganda                                                                                                                                  |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **State of Mind**                | - A strategic payment method for the business - With some development to integrate into the service platform as per specific specifications     |
-| **Transaction Frequency**        | Unlimited, high-frequency transactions                                                                                                          |
-| **Business Type Examples**       | Mid-sized enterprises, IT service companies, large corporations, major marketplaces                                                             |
-| **Payment Type**                 | Any size or volume                                                                                                                              |
-| **Settings Complexity**          | Medium to high, depending on the choice of architecture                                                                                         |
-| **Example Recommended Solution** | Custom-made architecture or orchestration of SaaS-hosted solutions, potentially using third-party LSP (*Lightning Service Provider*) services   |
-| **Merchant Interface**           | Fully customized front-end and back-end interfaces fully integrated into the business’s workflows and processes                                 |
-| **Customer Interface**           | Ranging from a Bitcoin QR payment code to a fully custom UI and/or API integration                                                              |
-| **Fees**                         | Combination of internal development and third-party fees; customer pays Bitcoin Lightning fees plus any transaction fees from service providers |
-| **Point of Sale Device**         | Custom-designed solutions tailored to the enterprise environment                                                                                |
-| **Management and Roles**         | Fully customized roles across sales, administration, devops, accounting, and finance                                                            |
-| **Accounting Exports**           | Fully customized accounting exports                                                                                                             |
+| **Urugezo rwibiterezo**                | - uburyo bwokurihamwo bimwe vyubuhinga muru ganda, hamwe ni terambera ryokongerereza kumbuga amaseruvise yiharije kandi yiyumviweko      |
+| **Umurindi wama rungika**        | ntambibe , amarungika kumurindi uri hejuru                                                                                                         |
+| **Akarorero kinganda**       | Inganda zibayabaye , amashirahwe yibikorwa vyikorana buhanga , inganda zinini, ikibuga cisoko kinini                                                              |
+| **Uburyo bwokuriha**                 | amahera yose , uko angana  kose                                                                                                                              |
+| **Amategeko agoye**          | hagati na hagati gushika kurugezo runini bivana namahitamwo yinyubako ushaka                                                                                         |
+| **Akarorero kinyishu zisabwa** | inyubako iri kubipimo canke gutunganya ibisubizo vyishi vya SaaS  hébergées, bituma hashobora kujamwo ama seruvise ya LSP( Lightning Service Provider)   |
+| **Ishusho umudandaza abona kurubuga**           | Fully customized front-end and back-end interfaces fully integrated into the business’s workflows and processes                                 |
+| **ishusho umukiriya abona kurubuga**           | Ranging from a Bitcoin QR payment code to a fully custom UI and/or API integration                                                              |
+| **Imisoro**                         | Combination of internal development and third-party fees; customer pays Bitcoin Lightning fees plus any transaction fees from service providers |
+| **Igikoresho cubudandaji**         | Custom-designed solutions tailored to the enterprise environment                                                                                |
+| **Gutunganya hamwe ninshingano**         | Fully customized roles across sales, administration, devops, accounting, and finance                                                            |
+| **Gutunganya amatungo**           | Fully customized accounting exports                                                                                                             |
 | **API**                          | Yes                                                                                                                                             |
 
 Mu bice bikurikira, tuzodondora ido n’ido ubucuruzi bumwebumwe n’imiti ihuye n’umwe muri bo.

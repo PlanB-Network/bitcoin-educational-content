@@ -942,7 +942,7 @@ I find it interesting to mention here that in Egypt, they continued to weigh coi
 ![](./assets/fr/1-3-0_indes.webp)
 
 
-To illustrate this period, here's a coin from the region of India and a coin from the Bactria region, which is a little to the west of the Indian peninsula, close to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
+To illustrate this period in a visual form, here's a coin from a region in India, the Bactria region, which is a close to the west of the Indian peninsula, near to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
 
 
 

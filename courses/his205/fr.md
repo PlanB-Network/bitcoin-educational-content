@@ -1048,12 +1048,11 @@ Une devise est nécessairement la monnaie d'un autre pays, sinon on dit juste mo
 Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la traduction de ces termes, seront portés souvent à parler de devise quand c'est écrit currency, mais non, currency, c'est monnaie quand c'est la monnaie de votre pays, et c'est devise lorsqu'on parle d'autres monnaies. Et donc, la problématique ici que je vois souvent, c'est que en anglais, il y a deux mots, il y a “money” qui est un concept et il y a “currency” qui est vraiment l'unité d'un pays qui est utilisé pour faire les échanges. Donc, on peut parler juste du concept de monnaie, c'est facile, c'est le concept du mot *money*, c'est la monnaie en général et *currency*, c'est très simple à équivaloir à la monnaie d'un pays. Tandis qu'en français, malheureusement, souvent, les gens vont dire oui, «mais ce n'est pas une monnaie» en parlant de bitcoin parce que ce n'est pas la monnaie d'un pays, mais souvent, je crois qu'ils font référence aux termes plutôt currency. C'est faux d'un côté parce depuis le El Salvador bitcoin est bien la monnaie d'un État. Il reste que souvent, les gens vont dire: *mais non, ce n'est pas la monnaie d'un état, ça ne peut pas être de la monnaie*. Mais en fait, si on fait référence aux mots plus larges, le concept de *money* en anglais, bitcoin rentre dans cette définition parfaitement à mon avis. Et donc, on peut tout à fait dire que bitcoin est une monnaie, c'est simplement  qu'en français, nous n'avons pas deux mots pour séparer ces deux concepts. On pourrait dire qu'on a le mot argent qui fait plutôt référence à monnaie, mais malheureusement, ce n'est pas sa définition précise. *Argent*, c'est plutôt la richesse ou les billets. On ne peut pas vraiment faire une équivalence avec le mot *money*. *Money* c'est vraiment le concept de monnaie.
 
 
-## La définition de Saifedean Ammous 
-<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
-:::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
+## La définition de Saifedean Ammous ù
 
-![](assets/12.webp)
-![](assets/13.webp)
+<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
+
+:::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
 
 #### Qu'est ce que la monnaie ? 
 

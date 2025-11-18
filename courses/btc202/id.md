@@ -1038,278 +1038,139 @@ Untuk sedikit mempercepat IBD, Anda dapat meningkatkan RAM yang dialokasikan ke 
 
 ![Image](assets/fr/025.webp)
 
-Secara default, nilai parameter `dbcache` di Bitcoin core diatur ke 450 MiB, atau sekitar 472 MB. Dengan meningkatkan nilai ini, Anda dapat sedikit mempercepat IBD. Namun, saya tidak menyarankan untuk mendorong parameter ini terlalu tinggi: bahkan mengaturnya ke 4 GiB hanya akan membuat sinkronisasi sekitar 10% lebih cepat, dan dapat menyebabkan Anda kehilangan waktu jika terjadi gangguan selama IBD.
+Secara default, nilai  parameter `dbcache` di Bitcoin Core diatur ke 450 MiB, atau sekitar 472 MB. Dengan meningkatkan nilai ini, Anda dapat sedikit mempercepat IBD (Initial Block Download). Namun, saya tidak merekomendasikan untuk mendorong parameter ini terlalu tinggi: bahkan mengaturnya ke 4 GiB hanya akan membuat sinkronisasi sekitar 10% lebih cepat, dan dapat menyebabkan Anda kehilangan waktu jika terjadi gangguan selama IBD.
 
+Berhati-hatilah untuk tidak mengalokasikan nilai yang terlalu besar untuk mesin Anda. Jika RAM yang tersedia untuk UmbrelOS habis, node Anda dapat berhenti mendadak, mengganggu IBD dan mengharuskan Anda untuk memulai ulang secara manual, yang mengakibatkan hilangnya banyak waktu.
 
+Untuk mengetahui lebih lanjut tentang dampak parameter `dbcache` pada sinkronisasi awal, saya merekomendasikan analisis ini oleh Jameson Lopp: [Effects of DBcache Size on Bitcoin Node Sync Speed](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/).
 
-Berhati-hatilah untuk tidak mengalokasikan nilai yang terlalu besar untuk mesin Anda. Jika RAM yang tersedia untuk UmbrelOS habis, simpul Anda mungkin berhenti tiba-tiba, mengganggu IBD dan mengharuskan Anda memulai ulang secara manual, yang mengakibatkan hilangnya banyak waktu.
-
-
-
-Untuk mengetahui lebih lanjut tentang dampak parameter `dbcache` pada sinkronisasi awal, saya merekomendasikan analisis ini oleh Jameson Lopp: [*Pengaruh Ukuran DBcache pada Kecepatan Sinkronisasi Node Bitcoin*] (https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
-
-
-
-Setelah IBD node Anda selesai (sinkronisasi 100%), Anda sekarang memiliki node Bitcoin yang beroperasi penuh. Selamat, Anda sekarang menjadi bagian integral dari jaringan Bitcoin!
-
-
+Setelah IBD node Anda selesai (sinkronisasi 100%), Anda sekarang memiliki Node Bitcoin yang berfungsi penuh. Selamat, Anda sekarang adalah bagian integral dari jaringan Bitcoin!
 
 ![Image](assets/fr/027.webp)
 
-
-
-Pada bagian selanjutnya, kita akan membahas penggunaan praktis dari node baru Anda: bagaimana menghubungkan Wallet Anda ke node tersebut, dan aplikasi apa saja yang harus Anda instal untuk menjadi seorang Bitcoiner yang berdaulat.
-
-
-
-
+Di bagian selanjutnya, kita akan menjelajahi penggunaan praktis node baru Anda: cara menghubungkan wallet Anda ke node tersebut, dan aplikasi apa yang harus Anda pasang untuk menjadi Bitcoiner Berdaulat (Sovereign Bitcoiner).
 
 # Menghubungkan Wallet Anda ke node Anda
 
-
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>
-
-
 
 ## Pengindeks: peran, operasi, dan solusi
 
-
 <chapterId>4f93c07a-f0cb-435f-8b68-162f316d7039</chapterId>
 
+Jika Anda telah menjelajahi Node Bitcoin sebelum mengambil kursus ini, Anda mungkin pernah menemukan istilah "indexer" (pengindeks). Ini adalah aplikasi seperti Electrs atau Fulcrum, yang dapat ditambahkan ke Node Bitcoin Core. Tetapi apa sebenarnya peran mereka? Bagaimana mereka bekerja dalam praktik? Dan haruskah Anda memasangnya di Node Bitcoin baru Anda? Itulah yang akan kita jelajahi dalam bab ini.
 
+### Apa yang dimaksud dengan Indexer?
 
-Jika Anda telah menjelajahi node Bitcoin sebelum mengikuti kursus ini, Anda mungkin pernah menemukan istilah "pengindeks". Ini adalah alat seperti Electrs atau Fulcrum, yang dapat ditambahkan ke node Bitcoin core. Tapi apa sebenarnya peran mereka? Bagaimana cara kerjanya dalam praktik? Dan haruskah Anda menginstalnya pada node Bitcoin yang baru? Itulah yang akan kita bahas dalam bab ini.
+Secara umum, indexer adalah program yang memindai sekumpulan data mentah, mengekstrak kunci yang relevan (seperti kata, pengidentifikasi, dan alamat), dan membangun file tambahan, yang disebut "indeks", di mana setiap kunci merujuk ke lokasi yang tepat dari data dalam korpus. Fase pra-pemrosesan ini menggunakan CPU time dan membutuhkan sedikit ruang disk, tetapi menghilangkan kebutuhan untuk memproses seluruh korpus setiap kali database ditanyakan; cukup dengan menanyai indeks akan menghasilkan respons yang hampir instan.
 
+Dalam istilah awam, prinsipnya sama dengan indeks dalam sebuah buku: jika Anda mencari informasi tertentu, daripada membaca ulang seluruh buku, Anda melihat indeks untuk langsung menemukan halaman tempat informasi yang Anda cari terdapat.
 
-
-### Apa yang dimaksud dengan pengindeks?
-
-
-
-Secara umum, pengindeks adalah program yang memindai sekumpulan data mentah, mengekstrak kunci-kunci yang relevan (seperti kata, pengenal, dan alamat), dan membuat file tambahan, yang disebut "indeks", di mana setiap kunci merujuk ke lokasi data yang tepat dalam korpus. Fase pra-pemrosesan ini menggunakan waktu CPU dan membutuhkan beberapa ruang disk, tetapi menghilangkan kebutuhan untuk memproses seluruh korpus setiap kali basis data ditanyakan; cukup dengan menginterogasi indeks akan menghasilkan respons yang hampir seketika.
-
-
-
-Dalam istilah awam, prinsipnya sama seperti indeks dalam buku: jika Anda mencari informasi tertentu, daripada membaca ulang seluruh buku, Anda membaca indeks untuk langsung menemukan halaman di mana informasi yang Anda cari muncul.
-
-
-
-Pada node Bitcoin, seperti Bitcoin core, data Blockchain disimpan dalam bentuk mentah dan kronologis. Setiap blok berisi transaksi, yang pada gilirannya berisi input dan output, tanpa klasifikasi tertentu berdasarkan Address, pengenal, atau Wallet. Organisasi linier ini dioptimalkan untuk validasi blok, tetapi tidak cocok untuk pencarian yang ditargetkan. Sebagai contoh, jika Anda ingin menemukan semua transaksi yang terkait dengan Address tertentu di node yang tidak diindeks, Anda harus meninjau secara manual seluruh Blockchain, blok demi blok dan transaksi demi transaksi. Di sinilah pengindeks pada node Bitcoin Anda berperan.
-
-
+Dalam Node Bitcoin, seperti Bitcoin Core, data Blockchain disimpan dalam bentuk mentah dan kronologisnya. Setiap blok berisi transaksi, yang pada gilirannya berisi input dan output, tanpa klasifikasi tertentu berdasarkan alamat, pengidentifikasi, atau wallet. Organisasi linier ini dioptimalkan untuk validasi blok, tetapi tidak cocok untuk pencarian yang ditargetkan. Misalnya, jika Anda ingin menemukan semua transaksi yang terhubung ke alamat tertentu di node yang tidak diindeks, Anda harus meninjau seluruh Blockchain secara manual, blok demi blok dan transaksi demi transaksi. Di sinilah peran indexer di Node Bitcoin Anda.
 
 ![Image](assets/fr/085.webp)
 
-
-
-Pengindeks adalah program perangkat lunak khusus yang menganalisis kumpulan data mentah ini (set Blockchain, Mempool, UTXO) dan mengekstrak kunci, seperti pengidentifikasi transaksi, alamat, dan ketinggian blok. Dari kunci-kunci ini, program ini membangun indeksnya, mengasosiasikan setiap kunci dengan lokasi yang tepat dari informasi dalam penyimpanan node.
-
-
+Indexer adalah program perangkat lunak khusus yang menganalisis massa data mentah ini (Blockchain, Mempool, set UTXO) dan mengekstrak kunci, seperti pengidentifikasi transaksi, alamat, dan ketinggian blok (block heights). Dari kunci-kunci ini, ia membangun indeksnya, mengasosiasikan setiap kunci dengan lokasi yang tepat dari informasi dalam penyimpanan node.
 
 ![Image](assets/fr/086.webp)
 
 
+Pengindeksan memungkinkan Anda untuk mencari informasi di node Anda dengan cepat, akurat, dan efisien. Misalnya, ketika Anda menghubungkan wallet seperti Sparrow ke node Anda, wallet tersebut dapat menampilkan saldo suatu alamat hampir secara instan. Secara konkret, wallet tersebut menanyai indexer dengan permintaan seperti: "UTXO mana yang terkait dengan script-Hash ini?" Indexer merespons hampir seketika, tanpa harus membaca ulang seluruh Blockchain, karena data ini sudah tercantum dalam databasenya.
 
-Pengindeksan memungkinkan Anda untuk mencari informasi di node Anda dengan cepat, akurat, dan efisien. Sebagai contoh, ketika Anda menghubungkan Wallet seperti Sparrow ke node Anda, node tersebut dapat menampilkan saldo Address hampir seketika. Secara konkret, ini menanyakan pengindeks dengan permintaan seperti: "_UTXO mana yang terkait dengan skrip ini-Hash?_" Pengindeks merespons hampir seketika, tanpa harus membaca ulang seluruh Blockchain, karena data ini sudah terdaftar di dalam basis datanya.
+### Apakah Bitcoin core memiliki Indexer?
 
+Tanpa perlu perangkat lunak tambahan, Bitcoin Core tidak secara ketat menawarkan indexer alamat lengkap yang sebanding dengan yang ditemukan di perangkat lunak seperti Electrs atau Fulcrum. Meskipun demikian, Bitcoin core memang menggabungkan beberapa mekanisme pengindeksan internal, serta opsi opsional untuk memperluas kemampuan kuerinya. Untuk sepenuhnya memahami situasinya, kita perlu menengok kembali sejarah proyek.
 
+Hingga Bitcoin Core versi 0.8.0, validasi transaksi didasarkan pada indeks transaksi global, yang dikenal sebagai `txindex`. Indeks ini mereferensikan semua transaksi Blockchain dan output-nya. Ketika node menerima transaksi baru, node melihat indeks ini untuk memverifikasi bahwa output yang dikonsumsi (input) benar-benar ada dan belum digunakan. Oleh karena itu, `txindex` sangat diperlukan untuk validasi transaksi pada saat itu.
 
-### Apakah Bitcoin core memiliki pengindeks?
+Namun, pendekatan ini memiliki keterbatasan: lambat, mahal dalam hal penyimpanan, dan berlebihan dalam hal informasi. Untuk mengatasinya, versi 0.8.0 memperkenalkan perombakan model validasi yang disebut _**Ultraprune**_. Alih-alih menyimpan semuanya dalam bentuk indeks transaksi, Bitcoin Core mempertahankan database sederhana yang didedikasikan semata-mata untuk UTXO, yang disebut `chainstate` (dalam bahasa sehari-hari, ini dikenal sebagai "UTXO set"), dan memperbarui daftarnya saat output dipakai dan dibuat.
 
+Metode ini jauh lebih cepat dan hanya menyimpan keadaan registri saat ini, membuat indexer `txindex` tidak diperlukan. Namun, alih-alih menghapus kode `txindex`, para pengembang telah memilih untuk menjaga fungsionalitas ini di balik parameter sederhana (`txindex=1`). Dengan mengaktifkan opsi ini di node Anda, Anda dapat menanyakan transaksi apa pun dari `txid`.
 
+Berlawanan dengan kepercayaan umum, Bitcoin Core tidak menawarkan pengindeksan berbasis Address seperti Electrs atau Fulcrum. Ada beberapa alasan untuk pilihan ini:
 
-Tanpa memerlukan perangkat lunak tambahan, Bitcoin core tidak menawarkan pengindeks Address yang lengkap seperti yang terdapat pada perangkat lunak seperti Electrs atau Fulcrum. Namun demikian, Bitcoin core menggabungkan beberapa mekanisme pengindeksan internal, serta opsi opsional untuk memperluas kemampuan pengindeksannya. Untuk memahami situasi ini sepenuhnya, kita perlu melihat kembali sejarah proyek ini.
+- Peran Bitcoin Core bukanlah untuk menjadi Block explorer lengkap, atau untuk menyediakan API yang disesuaikan untuk setiap penggunaan. Mengintegrasikan indeks berbasis Address akan menyiratkan komitmen pemeliharaan jangka panjang yang melampaui cakupan awal perangkat lunak.
+- Sebagian besar kasus penggunaan sudah dapat dicakup dengan cara lain. Misalnya, untuk memperkirakan saldo suatu Address, Anda dapat menggunakan perintah `scantxoutset`, yang langsung menanyakan UTXO set tanpa memerlukan indeks penuh.
+- Setiap program perangkat lunak memiliki persyaratan spesifik mengenai format atau jenis data yang akan diindeks (Address, Hash script, tag kepemilikan, dll.). Lebih fleksibel dan logis untuk membiarkan program-program ini membangun indeks khusus mereka sendiri daripada memperbaiki solusi generik di Bitcoin Core.
 
+Bitcoin Core memang memiliki indexer transaksi opsional (`txindex`), sisa dari operasi historisnya, tetapi tidak menyediakan indeks Address, atau Interface langsung untuk pencarian kompleks. Oleh karena itu, dalam beberapa kasus, mungkin berguna untuk menambahkan indexer eksternal.
 
+### Haruskah Anda menambahkan Indexer Address ke node Anda?
 
-Hingga Bitcoin core versi 0.8.0, validasi transaksi didasarkan pada indeks transaksi global, yang dikenal sebagai `txindex`. Indeks ini mereferensikan semua transaksi Blockchain dan keluarannya. Ketika sebuah node menerima transaksi baru, node tersebut berkonsultasi dengan indeks ini untuk memverifikasi bahwa output yang dikonsumsi (dalam input) benar-benar ada dan belum digunakan. oleh karena itu, `txindex` sangat diperlukan untuk validasi transaksi pada saat itu.
+Menambahkan indexer Address, seperti Electrs atau Fulcrum, tidak wajib; itu tergantung pada kebutuhan spesifik Anda.
 
+Jika Anda hanya ingin menghubungkan wallet, seperti Sparrow, ke node Anda untuk melihat saldo dan menyiarkan transaksi, ini sepenuhnya mungkin langsung melalui Interface RPC Bitcoin Core, baik secara lokal maupun jarak jauh melalui Tor.
 
+Di sisi lain, untuk menggunakan perangkat lunak yang lebih canggih, seperti menjalankan Mempool.Locally, instalasi indexer alamat Address sangat diperlukan untuk block explorer ruang blok.
 
-Namun, pendekatan ini memiliki keterbatasan: lambat, mahal dalam hal penyimpanan, dan berlebihan dalam hal informasi. Untuk mengatasi hal ini, versi 0.8.0 memperkenalkan perombakan model validasi yang disebut ***Ultraprune***. Alih-alih menyimpan semuanya dalam bentuk indeks transaksi, Bitcoin core memelihara basis data sederhana yang didedikasikan khusus untuk UTXO, yang disebut `chainstate` (dalam bahasa sehari-hari, ini dikenal sebagai "set UTXO"), dan memperbarui daftarnya saat output dikonsumsi dan dibuat.
+Indexer membutuhkan waktu sinkronisasi (kurang dari IBD) dan akan menempati ruang disk tambahan. Jika SSD Anda masih memiliki cukup ruang kosong setelah mengunduh Blockchain, Anda dapat dengan mudah menambahkan indexer.
 
+### Indexer mana yang harus dipilih?
 
-
-Metode ini jauh lebih cepat dan hanya menyimpan status register saat ini, sehingga pengindeks `txindex` tidak diperlukan. Namun, alih-alih menghapus kode `txindex`, para pengembang memilih untuk menyimpan fungsionalitas ini di balik parameter sederhana (`txindex=1`). Dengan mengaktifkan opsi ini pada node Anda, Anda dapat menanyakan transaksi apa pun dari `txid`.
-
-
-
-Berlawanan dengan kepercayaan umum, Bitcoin core tidak menawarkan pengindeksan berbasis Address seperti Electrs atau Fulcrum. Ada beberapa alasan untuk pilihan ini:
-
-
-
-
-
-- Peran Bitcoin core bukan untuk menjadi Block explorer yang lengkap, atau untuk menyediakan API yang disesuaikan untuk setiap penggunaan. Mengintegrasikan indeks berbasis Address akan menyiratkan pemeliharaan jangka panjang Commitment yang melampaui cakupan awal perangkat lunak.
-
-
-
-
-
-- Sebagian besar kasus penggunaan sudah dapat dicakup dengan cara lain. Sebagai contoh, untuk memperkirakan saldo Address, Anda dapat menggunakan perintah `scantxoutset`, yang secara langsung menanyakan set UTXO tanpa memerlukan indeks lengkap.
-
-
-
-
-
-- Setiap program perangkat lunak memiliki persyaratan khusus mengenai format atau jenis data yang akan diindeks (skrip Address, Hash, tag hak milik, dll.). Lebih fleksibel dan logis untuk membiarkan program-program ini membangun indeks khusus mereka sendiri daripada memperbaiki solusi generik di Bitcoin core.
-
-
-
-Bitcoin core memiliki pengindeks transaksi opsional (`txindex`), sisa-sisa operasi historisnya, tetapi tidak menyediakan indeks Address, atau Interface langsung untuk pencarian yang kompleks. Oleh karena itu, dalam beberapa kasus, mungkin berguna untuk menambahkan pengindeks eksternal.
-
-
-
-### Haruskah Anda menambahkan pengindeks Address ke node Anda?
-
-
-
-Menambahkan pengindeks Address, seperti Electrs atau Fulcrum, tidak wajib; tergantung pada kebutuhan spesifik Anda.
-
-
-
-Jika Anda hanya ingin menghubungkan Wallet, seperti Sparrow, ke node Anda untuk melihat saldo dan menyiarkan transaksi, hal ini sangat mungkin dilakukan secara langsung melalui Bitcoin core Interface RPC, baik secara lokal maupun jarak jauh melalui Tor.
-
-
-
-Di sisi lain, untuk menggunakan perangkat lunak yang lebih canggih, seperti menjalankan Mempool.Secara lokal, pemasangan pengindeks Address menjadi sangat diperlukan untuk ruang Block explorer.
-
-
-
-Pengindeks memerlukan waktu sinkronisasi tertentu (lebih singkat daripada IBD) dan akan menggunakan ruang disk tambahan. Jika SSD Anda masih memiliki ruang kosong yang cukup setelah mengunduh Blockchain, Anda dapat dengan mudah menambahkan pengindeks.
-
-
-
-### Pengindeks mana yang harus dipilih?
-
-
-
-Dua program perangkat lunak biasanya digunakan untuk membangun jenis indeks Address ini dan membuatnya dapat diakses: **Electrs** dan **Fulcrum**. Alat-alat ini mengindeks Blockchain menurut script-Hash (alamat) dan kemudian mengusulkan Interface standar (protokol Electrum), yang terhubung dengan berbagai dompet, seperti Electrum Wallet, Sparrow, atau Phoenix.
-
-
+Dua program perangkat lunak yang umum digunakan untuk membangun jenis indeks Address ini dan membuatnya dapat diakses adalah: **Electrs** dan **Fulcrum**. Aplikasi-aplikasi ini mengindeks Blockchain sesuai dengan script-hash (Address) dan kemudian menawarkan Interface terstandarisasi (protokol Electrum), tempat banyak wallet, seperti Electrum Wallet, Sparrow, atau Phoenix, terhubung.
 
 ![Image](assets/fr/087.webp)
 
+Sederhananya, Electrs cukup ringkas: mengindeks Blockchain lebih cepat dan membutuhkan ruang disk lebih sedikit, tetapi memiliki kinerja sedikit lebih buruk daripada Fulcrum pada kueri. Sebaliknya, Fulcrum mengonsumsi lebih banyak ruang disk dan membutuhkan waktu lebih lama untuk mengindeks, tetapi menawarkan kinerja kueri yang superior.
 
+Untuk penggunaan individu, saya merekomendasikan Electrs: yang mengonsumsi lebih sedikit ruang, terawat dengan baik, dan, meskipun sedikit lebih lambat pada permintaan tertentu daripada Fulcrum, itu masih lebih dari cukup untuk penggunaan sehari-hari. Jika Anda punya waktu dan ruang disk, Anda juga dapat mencoba Fulcrum, yang akan berkinerja jauh lebih baik, terutama pada wallet dengan banyak alamat untuk diverifikasi.
 
-Sederhananya, Electrs cukup ringkas: mengindeks Blockchain lebih cepat dan menggunakan lebih sedikit ruang disk, tetapi kinerjanya sedikit kurang baik dibandingkan Fulcrum dalam hal kueri. Sebaliknya, Fulcrum menghabiskan lebih banyak ruang disk dan membutuhkan waktu lebih lama untuk mengindeks, tetapi menawarkan kinerja kueri yang superior.
+Secara konkret, pada Agustus 2025, Electrs akan membutuhkan penyimpanan sekitar 56 GB, dibandingkan dengan sekitar 178 GB untuk Fulcrum. Oleh karena itu, pilihan indexer Anda juga bergantung pada kapasitas penyimpanan Anda:
 
-
-
-Untuk penggunaan individu, saya merekomendasikan Electrs: ia mengkonsumsi lebih sedikit ruang, terpelihara dengan baik, dan, meskipun sedikit lebih lambat pada permintaan tertentu daripada Fulcrum, masih lebih dari cukup untuk penggunaan sehari-hari. Jika Anda memiliki waktu dan ruang penyimpanan, Anda juga bisa mencoba Fulcrum, yang akan berkinerja jauh lebih baik, terutama pada dompet dengan banyak alamat yang harus diverifikasi.
-
-
-
-Secara konkret, pada bulan Agustus 2025, Electrs akan membutuhkan sekitar 56 GB penyimpanan, dibandingkan dengan sekitar 178 GB untuk Fulcrum. Oleh karena itu, pilihan pengindeks Anda juga tergantung pada kapasitas penyimpanan Anda:
-
-
-
-
-- Jika ruang disk Anda sangat terbatas, Anda harus puas dengan Bitcoin core tanpa pengindeks Address eksternal.
-- Jika Anda ingin menggunakan pengindeks, tetapi masih terkendala oleh kapasitas, pilihlah Electrs.
+- Jika ruang disk Anda sangat terbatas, Anda harus puas dengan Bitcoin Core tanpa indexer Address eksternal.
+- Jika Anda ingin menggunakan indexer, tetapi masih terkendala oleh kapasitas, pilih Electrs.
 - Jika Anda memiliki jumlah ruang disk yang nyaman, Fulcrum mungkin yang Anda cari.
 
-
-
-Untuk sisa kursus BTC 202 ini, saya akan menggunakan Electrs, tetapi Anda dapat dengan mudah mengikuti dengan Fulcrum: prosedur instalasi identik, seperti halnya koneksi Interface ke Wallet, karena keduanya mengekspos server Electrum.
-
-
+Untuk sisa kursus BTC 202 ini, saya akan menggunakan Electrs, tetapi Anda dapat dengan mudah mengikutinya dengan Fulcrum: prosedur instalasi identik, seperti halnya koneksi Interface ke wallet, karena keduanya mengekspos server Electrum.
 
 ### Bagaimana cara memasang pengindeks di Umbrel?
 
-
-
-Untuk memasang Electrs (atau Fulcrum) pada Umbrel Anda, prosedurnya sangat mudah: buka App Store, cari aplikasi yang relevan (terletak di tab Bitcoin), lalu klik tombol "*Install*".
-
-
+Untuk memasang Electrs (atau Fulcrum) di Umbrel Anda, prosedurnya mudah: buka App Store, cari aplikasi yang relevan (terletak di tab Bitcoin), lalu klik tombol "_Install_".
 
 ![Image](assets/fr/028.webp)
 
-
-
 Setelah instalasi selesai, Electrs akan melanjutkan dengan fase sinkronisasi (pengindeksan), yang dapat memakan waktu beberapa jam.
-
-
 
 ![Image](assets/fr/029.webp)
 
-
-
 Setelah sinkronisasi selesai, Anda dapat menghubungkan perangkat lunak Wallet Anda ke server Electrum, yang dihosting di Umbrel.
-
-
 
 ## Bagaimana cara menghubungkan Wallet saya ke node Bitcoin saya?
 
-
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
+Sekarang setelah Anda memiliki Node Bitcoin lengkap, saatnya menggunakannya dengan baik! Di bab berikutnya, kita akan menjelajahi potensi penggunaan lain untuk instans Umbrel Anda. Namun, mari kita mulai dengan dasar-dasarnya: menghubungkan perangkat lunak wallet Anda untuk memanfaatkan informasi dari Blockchain Anda sendiri dan mendistribusikan transaksi melalui node Anda sendiri.
 
+Seperti yang disebutkan di atas, ada dua interface koneksi utama:
 
-Sekarang setelah Anda memiliki node Bitcoin yang lengkap, saatnya untuk memanfaatkannya dengan baik! Di bab berikutnya, kita akan menjelajahi potensi penggunaan lain untuk instance Umbrel Anda. Namun, mari kita mulai dengan dasar-dasarnya: menghubungkan perangkat lunak Wallet Anda untuk memanfaatkan informasi dari Blockchain Anda sendiri dan mendistribusikan transaksi melalui node Anda sendiri.
+- Koneksi langsung ke Bitcoin Core melalui RPC;
+- Atau, koneksi ke server Electrum (Electrs atau Fulcrum).
 
+Dalam tutorial ini, kita akan berkonsentrasi pada koneksi ke node Anda melalui Tor, karena ini adalah solusi yang sederhana dan aman untuk pemula. Saya sangat menyarankan untuk tidak mengekspos port RPC node Anda secara terbuka (in the clear), karena kesalahan konfigurasi merupakan risiko signifikan terhadap keamanan dan kerahasiaan data Anda. Kerugian utama dari komunikasi melalui Tor adalah kelambatannya. Di bab berikutnya, kita akan menjelajahi alternatif yang cepat dan aman untuk Tor untuk akses jarak jauh ke node Anda: VPN.
 
+Kami akan menggunakan Sparrow sebagai contoh dalam bab ini, tetapi prosedurnya sama untuk semua perangkat lunak manajemen wallet lain yang menerima koneksi ke server Electrum. Cukup temukan pengaturan yang sesuai di parameter aplikasi Anda (biasanya di "_Server_", "_Network_", "_Node_"...).
 
-Seperti disebutkan di atas, ada dua antarmuka koneksi utama:
-
-
-
-
-- Sambungan langsung ke Bitcoin core melalui RPC;
-- Atau sambungkan ke server Electrum (Electrs atau Fulcrum).
-
-
-
-Dalam tutorial ini, kita akan berkonsentrasi pada koneksi ke node Anda melalui Tor, karena ini adalah solusi yang sederhana dan aman untuk pemula. Saya sangat menyarankan agar Anda tidak membuka port RPC node Anda secara terbuka, karena kesalahan konfigurasi akan menimbulkan risiko yang signifikan terhadap keamanan dan kerahasiaan data Anda. Kerugian utama dari komunikasi melalui Tor adalah kelambatannya. Dalam bab berikutnya, kita akan menjelajahi alternatif yang cepat dan aman untuk Tor untuk akses jarak jauh ke node Anda: VPN.
-
-
-
-Kita akan menggunakan Sparrow sebagai contoh dalam bab ini, tetapi prosedurnya sama untuk semua perangkat lunak manajemen Wallet yang menerima koneksi ke server Electrum. Cukup cari pengaturan yang sesuai di parameter aplikasi Anda (biasanya di "*Server*", "*Network*", "*Node*"...).
-
-
-
-Pada Sparrow, buka tab "*File*" dan masuk ke menu "Pengaturan".
-
-
+Pada Sparrow, buka tab "*File*" dan masuk ke menu "Setting".
 
 ![Image](assets/fr/030.webp)
 
-
-
 Kemudian klik "*Server*" untuk mengakses parameter koneksi.
-
-
 
 ![Image](assets/fr/031.webp)
 
+Anda kemudian akan menemukan tiga opsi untuk menautkan perangkat lunak Anda ke Node Bitcoin:
 
-
-Anda kemudian akan menemukan tiga opsi untuk menautkan perangkat lunak Anda ke node Bitcoin:
-
-
-
-
-- Public Server* (kuning): secara default, jika Anda tidak memiliki node Bitcoin, opsi ini menghubungkan Anda ke node publik yang tidak Anda miliki (biasanya milik perusahaan). Opsi ini tidak relevan di sini, karena Anda memiliki node Anda sendiri di Umbrel.
-- Bitcoin core* (Green): opsi ini sesuai dengan koneksi melalui Interface RPC, yaitu langsung ke Bitcoin core.
-- Private Electrum* (biru): opsi ini memungkinkan Anda terhubung melalui pengindeks Interface Electrum Server (Electrs atau Fulcrum) milik pengindeks Anda.
-
-
+- **Public Server (kuning)**: secara default, jika Anda tidak memiliki Node Bitcoin, opsi ini menghubungkan Anda ke node publik yang bukan milik Anda (biasanya milik perusahaan). Opsi ini tidak relevan di sini, karena Anda memiliki node sendiri di Umbrel.
+- **Bitcoin Core (hijau)**: opsi ini sesuai dengan koneksi melalui Interface RPC, yaitu, langsung ke Bitcoin Core.
+- **Private Electrum (biru)**: opsi ini memungkinkan Anda terhubung melalui Interface Electrum Server (indexer Anda, Electrs atau Fulcrum).
 
 ### Koneksi ke Bitcoin core RPC
 
-
-
-Jika node Umbrel Anda tidak memiliki pengindeks, ini adalah opsi yang perlu Anda pilih. Pada Sparrow, klik "*Bitcoin core*".
-
-
+Jika node Umbrel Anda tidak memiliki indexer, ini adalah opsi yang perlu Anda pilih. Di Sparrow, klik "_Bitcoin Core_".
 
 ![Image](assets/fr/032.webp)
 
-
-
-Anda kemudian perlu memasukkan beberapa informasi untuk membuat koneksi ke node Anda. Semua data ini dapat diakses dari aplikasi "*Bitcoin Node*" pada Umbrel dengan mengklik tombol "*Connect*" di sudut kanan atas Interface.
-
-
+Anda kemudian perlu memasukkan beberapa informasi untuk membuat koneksi ke node Anda. Semua data ini dapat diakses dari aplikasi "_Bitcoin Node_" di Umbrel dengan mengeklik tombol "_Connect_" di sudut kanan atas Interface.
 
 ![Image](assets/fr/033.webp)
 

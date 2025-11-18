@@ -28,6 +28,17 @@ LNP 202 est une formation accessible aux utilisateurs intermédiaires, qui vous 
 
 ## Aperçu du cours
 
+Ce cours LNP 202 est la suite logique de deux autres cours sur Plan ₿ Network :
+
+- BTC 202, dans lequel je vous explique comment déployer votre premier nœud Bitcoin. Il est absolument indispensable d’avoir appliqué ce qui est présenté dans BTC 202 avant de suivre LNP 202, car je pars du principe que vous disposez déjà d’un nœud Bitcoin sous Umbrel, synchronisé, configuré et sécurisé.
+
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+
+- LNP 201, dans lequel Fanis Michalakis détaille le fonctionnement théorique du Lightning Network. Ce cours n’est pas obligatoire pour suivre LNP 202, mais je vous recommande vivement de le consulter au préalable, car il vous permettra de mieux comprendre les manipulations que nous allons réaliser ici.
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+
 
 ## Comprendre ce qu'est un nœud Lightning
 
@@ -250,12 +261,73 @@ https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-370
 
 https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Vous êtes un utilisateur intermédiaire ou avancé, prêt à investir du temps pour comprendre et piloter votre infrastructure, et vous tenez à disposer d’un maximum de contrôle sur vos canaux, votre liquidité et vos frais : un nœud Lightning classique sur serveur est la meilleure voie. C’est la solution la plus exigeante, mais aussi la plus cohérente avec l’idée de souveraineté.
+Vous êtes un utilisateur intermédiaire ou avancé, prêt à investir du temps pour comprendre et piloter votre infrastructure, et vous tenez à disposer d’un maximum de contrôle sur vos canaux, votre liquidité et vos frais : un nœud Lightning classique sur serveur est la meilleure voie. C’est la solution la plus exigeante, mais aussi la plus cohérente avec l’idée de souveraineté de Bitcoin.
 
 
 # Créer son premier nœud Lightning
 
 ## Installer LND avec Umbrel
+
+Maintenant que nous avons revu les bases de Lightning et les solutions disponibles, il est temps de passer à la pratique. Pour suivre ce cours, vous aurez besoin d’un nœud Bitcoin synchronisé sur Umbrel. Cette formation LNP 202 est la continuité de BTC 202 ; si vous n’avez pas encore de nœud Bitcoin, je vous invite à suivre cette autre formation avant de revenir ici une fois votre nœud synchronisé. Je vous recommande vivement de la consulter, car je ne reviendrai pas en détail sur son fonctionnement, sa configuration, ni sur les mesures de sécurité à appliquer.
+
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+
+Dans ce premier chapitre, nous allons voir comment installer LND sur votre Umbrel. Le fonctionnement d’Umbrel rend cette étape très simple, puisqu’il suffit d’installer une application.
+
+Depuis la page d’accueil, ouvrez l’`App Store` situé en bas de l’interface.
+
+015
+
+Dans la barre de recherche, saisissez `Lightning Node`, puis cliquez sur l’application.
+
+016
+
+Cliquez ensuite sur le bouton `Install` pour lancer l’installation.
+
+017
+
+Depuis la page d’accueil, cliquez sur l’application pour l’ouvrir, puis sélectionnez `Setup a new node`.
+
+018
+
+Une phrase mnémonique de 24 mots vous est donnée. Conservez-la précieusement dans un endroit sûr. Nous verrons plus en détail dans le prochain chapitre comment récupérer l’accès à votre nœud Lightning (c'est un processus beaucoup plus complexe que pour un simple portefeuille Bitcoin) mais retenez pour le moment que cette phrase joue un rôle crucial et doit être sauvegardée avec le plus grand soin.
+
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+Sauvegardez cette phrase de la même manière qu’une phrase mnémonique classique : sur un support physique (papier ou métal) stocké dans un endroit sécurisé, puis cliquez sur le bouton `NEXT`.
+
+019
+
+Saisissez ensuite les mots de votre phrase afin de vérifier que vous les avez correctement notés.
+
+020
+
+Un message d’avertissement vous rappellera que l’application est en version bêta et que le Lightning Network demeure une technologie expérimentale. Évidemment, n’engagez jamais sur votre nœud Lightning des montants que vous n’êtes pas prêt à perdre.
+
+Vous arriverez ensuite sur l’interface principale de votre nœud Lightning. Sur la gauche, vous trouverez votre portefeuille Bitcoin onchain hébergé sur votre nœud. C'est celui qui a été généré à partir de la phrase de 24 mots que vous venez de sauvegarder.
+
+Au centre, vous trouverez votre portefeuille Lightning. Il correspond en réalité à vos liquidités sortantes, c’est-à-dire les bitcoins qui vous appartiennent au sein de vos canaux Lightning.
+
+Sur la droite, vous verrez plusieurs informations importantes concernant votre nœud :
+- Le nombre de connexions et de canaux ouverts ;
+- Le total de vos liquidités sortantes, c’est-à-dire ce que vous pouvez théoriquement dépenser sur Lightning ;
+- Le total de vos liquidités entrantes, c’est-à-dire ce que vous pouvez théoriquement recevoir sur Lightning.
+
+021
+
+Votre nœud Lightning est désormais prêt à ouvrir ses premiers canaux pour effectuer des paiements. Mais avant cela, voyons comment protéger vos sats !
+
+## Sauvegarder son nœud Lightning
+
+
+
+
+
+
+
+## Watchtower : rôle et mise en place
+
+
 
 
 
@@ -282,13 +354,11 @@ LN+ / LSP
 
 
 
-# Protéger son nœud Lightning
-
-## Watchtower : rôle et mise en place
 
 
 
-## Sauvegarder son nœud et protéger ses sats
+
+
 
 
 

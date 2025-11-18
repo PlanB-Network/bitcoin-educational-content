@@ -309,56 +309,46 @@ Writing was born in this city around 3000 BC, motivated primarily by economic ne
 The system developed was called "cuneiform", from the Latin "cuneus" meaning "wedge", in reference to the use of a wedge-shaped stylus to print signs on moist clay tablets.
 
 
-Here, I have a copy of a tablet with cuneiform writing on it. So, they had a kind of stylus made from reeds, I think, and they traced in wet clay the shapes, the cuneiform writing, to write on these tablets.
+Here below, you can admire my copy of a tablet with cuneiform writing. In order to write on these tablets, I believe they used a kind of stylus made from reeds, to trace the wet clay and create the shapes, the cuneiform writing.
 
 
 ![](./assets/fr/1-1-3_1_Tablette_small.webp)
 
 
-I also have what I believe to be a genuine Sumerian tablet with a small cuneiform script in the center. On this tablet, there are signatures made by rolling a cylinder, which I'll show you in a moment.
+I also have what I believe to be a genuine Sumerian tablet with a small cuneiform script in the center. On this tablet, there are signatures made by rolling a cylinder, which I'll show you afterwards.
 
 
-These marks with little figures were the signature form of the time when signing a contract or a letter, simply because people obviously didn't know how to write; only scribes mastered this technique.
-
+The marks with small figures served as signatures during a time when most people couldn't write, as only skilled scribes had that ability.
 
 ![](./assets/fr/1-1-3_2_Tablette_big.webp)
 
 
-And here I have this famous cylinder, which is in fact a stone in which certain shapes have been engraved. We roll this signature cylinder, called a cylinder seal in English, to sign letters and signify that it's us, the author, or we who have written, or that this letter has been written in our name.
+Below, you can see the cylinder mentioned above: a stone engraved with specific shapes. People used to roll this signature cylinder, known as a cylinder seal in English, to sign letters. It was a way to explicit the names of the authors, or to indicate that they were composed in their name.
 
-
-Scribes of the time therefore used this famous wedge-shaped stylus to print signs on wet tablets.
-
+Scribes of the time therefore used there wedge-shaped stylus to print signs on wet tablets.
 
 ![](./assets/fr/1-1-3_3_cylindre.webp)
 
 
-Cuneiform was not a language, but a writing system for recording spoken languages. In English, we'd say "writing is written language", and then we'd say that "cuneiform is a script, not a language". So, in French, we'd say that cuneiform is not a language, but a way of codifying a language.
+Cuneiform characters did not represent a language, but a writing system for recording spoken languages. In English, we'd say "writing is a  written language", and then we'd say that "cuneiform is a script, not a language". So, in French, we'd say that cuneiform is not a language, but a way of codifying a language.
 
-
-### The evolution and uses of writing
+### The evolution and the uses of writing
 
 
 During its first centuries of existence, this script remained limited, serving essentially as a mnemonic system for recording quantities, lists of agricultural goods, and equipment. Only gradually did it become capable of **phonetically rendering names** and complete sentences.
 
 
-So, in the beginning, for example, for names, you couldn't write names in cuneiform script because it simply represented things, elements of reality, like an ox or wheat, that were traced out. They were really little images, and as time went by, they really became a form of script.
+Initially, names couldn't be expressed in cuneiform script because it primarily represented objects and elements of reality, such as an ox or wheat, depicted as small images. Over time, these images evolved into a more developed form of script, allowing for the representation of names and complex concepts.
 
+If the person's name was Laura, for example, we could have taken a word, an acronym that sounded like "water" and a second one like "ras", and form the name Laura with it. That's how the first form of written language developed.
 
-For names, if the person's name were, say, Laura, we'd take a word, an acronym that sounds like "water" and a second one like "ras", and form the name Laura with it. That's how the first form of language writing developed.
-
-
-And for the record, the acronyms were originally, let's say, you drew the head of an ox, you could see the shape of the ox's head, and little by little, the drawings were simplified to represent nothing more than a sort of line. Scholars believe that this was because they held the wet clay tablet in one hand, and it was easier to redraw the initials by turning them. It's also thought to be due to the way the scribes held the tablets.
-
+For the record, to represent acronyms originally, if you wanted to draw the head of an ox, you could see the shape of the ox's head. Little by little, the drawings were simplified to represent nothing more than a sort of line. Scholars believe that this happened because people held the wet clay tablet in one hand, so it was easier to redraw the initials by turning them. It's also thought to be due to the way the scribes held the tablets.
 
 You can still see the connection with, say, wheat or the ox's head in cuneiform acronyms, and they're always leaning to one side.
 
+Throughout its three millennia of use, cuneiform writing primarily served to maintain economic and administrative records. However, the inhabitants of Mesopotamia soon developed a deep-seated desire to preserve everything that deserved to stand the test of time in a written form. Thus, stories, legends and songs, hitherto transmitted orally by itinerant musicians, were immortalized in writing, often copied by scribes in training. They copied texts that already existed, mainly legends or texts that held a certain cultural value.
 
-Throughout its three millennia of use, cuneiform writing retained as its principal role the keeping of economic and administrative records. However, the inhabitants of Mesopotamia soon developed a deep-seated desire to preserve in writing everything that deserved to stand the test of time. Thus, stories, legends and songs, hitherto transmitted orally by itinerant musicians, were immortalized in writing, often copied by scribes in training. They copied texts that already existed. And it was often these legends or texts that held a certain cultural value.
-
-
-A case in point is the **Gilgamesh Epic**, possibly a **historical king of the Sumerian city-state of Uruk** circa 2900-2350 BC.
-
+An important example is the **Gilgamesh Epic**, possibly a **historical king of the Sumerian city-state of Uruk** around 2900-2350 BC.
 
 This form of writing, which was both an economic management tool and a cultural vector, lasted until the 1st century AD, before disappearing for good, leaving behind a precious testimony to the civilization that saw its birth.
 
@@ -371,9 +361,7 @@ This form of writing, which was both an economic management tool and a cultural 
 
 ### Pre-monetary credit systems
 
-
 In ancient Mesopotamia, economic organization was based on highly sophisticated mechanisms that existed long before the invention of metal coins. From the outset, formal and informal credit systems were already an essential form of money, enabling local populations to carry out many complex economic transactions.
-
 
 It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages, and even marriage agreements. Writing these tablets required the expertise of specialized scribes, a task costly in time and effort, **but justified when financial interests were at stake.** People didn't write love letters to each other back then, they didn't use a scribe to write about their anxieties. They hired a scribe to write documents, whether there was a connection or an economic reason.
 
@@ -778,18 +766,13 @@ In China, coins did not necessarily need to be officially marked or guaranteed. 
 
 ![](./assets/fr/1-2-3_chine.webp)
 
+The one above is a Chinese coin from the Middle Ages. It is a cast coin featuring a square hole in the center. This hole was used to thread a rope through, allowing the coins to be strung together to create bracelets or necklaces. However, these were not primarily for wearing; they were mainly used for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
 
-This is a Chinese coin from the Middle Ages. It's a cast coin with a square hole in the middle. It was used to thread a rope through and then make bracelets or necklaces, but not necessarily for wearing, it was more for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
+The state's monetary monopoly, belatedly established by Wudi of the Han Dinasty in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
 
+**The low intrinsic value of Chinese currencies prevented hoarding, guaranteeing their smooth circulation**.Precious metals were seldom used as circulating currency to prevent hoarding. Gold, being too expensive, was typically set aside rather than spent. Instead, **only silk represented a real high-value currency in Chinese international trade**. The Chinese traded using silk, not gold.
 
-The state's monetary monopoly, belatedly established by Wudi of the Han in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
-
-
-**The low intrinsic value of Chinese currencies prevented hoarding, guaranteeing their smooth circulation**. Indeed, precious metals were rarely used as current currency, to avoid hoarding. They didn't want to use gold because it was too expensive, so it was hoarded. That was the concept. **Only silk represented a real high-value currency in Chinese international trade**. The Chinese traded with silk, not gold.
-
-
-During economic or monetary crises, particularly when the price of copper was rising, innovative solutions were adopted: thus, as early as the 2nd century AD, coins in circulation were cut to create smaller units, enabling fluid circulation to be maintained at lower cost. **Other periods, such as that of Wang Mang (early 1st century AD), experimented with highly fiduciary currencies, where face values were far higher than their actual metal content, thus prefiguring banknotes**. What this means is that they took a coin and stamped say 50, 100, 200 on it to represent 200 coins. That must have created a lot of inflation.
-
+During economic or monetary crises, particularly when the price of copper was rising, innovative solutions were adopted: thus, as early as the 2nd century AD, coins in circulation were cut to create smaller units, enabling fluid circulation to be maintained at lower cost. Other eras, such as that of Wang Mang (early 1st century AD), experimented with highly fiduciary currencies, where face values were far higher than their actual metal content, thus prefiguring banknotes. They took a coin and stamped values like 50, 100, or 200 on it to indicate larger amounts, such as 200 coins. This practice likely contributed to significant inflation.
 
 As mentioned above, this system was based on a social convention between the State, producers, and merchants, but also on authoritarian and severe rules for those who didn't play the game, notably in relation to the choice of pieces (whether beautiful or not) or the length of fabrics (not in line with the standard).
 
@@ -942,7 +925,7 @@ I find it interesting to mention here that in Egypt, they continued to weigh coi
 ![](./assets/fr/1-3-0_indes.webp)
 
 
-To illustrate this period in a visual form, here's a coin from a region in India, the Bactria region, which is a close to the west of the Indian peninsula, near to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
+To illustrate this period in a visual form, here above is a coin from a region in India, the Bactria region, which is a close to the west of the Indian peninsula, near to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
 
 
 
@@ -957,14 +940,12 @@ To illustrate this period in a visual form, here's a coin from a region in India
 
 Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 BC that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 BC. These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
 
-
-I have here one of the earliest Lydian coins, representing a kind of lion with a prey in front, and we notice that there is often a stamp, a kind of hole formed at the back. Some think that this may be to assess the purity of the metal, to avoid it being just a kind of surface layer. This is one of the first pieces. This one is obviously a copy. All my gold and electrum pieces are copies or modern recreations, to avoid spending all my savings on this collection.
-
+Below, you can see one of the earliest Lydian coins, featuring a lion with its prey in front. You might notice a stamp or hole at the back, which some believe was used to test the metal's purity and ensure it wasn't just a surface layer. While this is one of the earliest examples, it's important to note that this piece is a copy. All my gold and electrum pieces are replicas or modern recreations, designed to prevent me from spending all my savings on this collection.
 
 ![](./assets/fr/1-3-1_1_lydia.webp)
 
 
-But I also have a real Persian piece that we're about to see. This is what these early pieces looked like. It's like a kind of blob, or lump in English, of metal that was stamped at the time.
+But I also have a real Persian piece that we're about to see. This is what these early pieces looked like. It's like a kind of blob (or lump, in English) of metal that was stamped at the time.
 
 
 Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, it seems that the first Lydian, Achaemenid and Greek coins were not initially used for small-scale commerce. Indeed, the monetary units were far too large for everyday use. What's more, their circulation was limited to regions close to where they were produced.
@@ -996,11 +977,9 @@ When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted
 ![](./assets/fr/1-3-1_2_Siglos.webp)
 
 
-I have here a real Persian sigloi or siglos. The little design we have here represents a king with the hole a little effaced. This is a silver coin, unlike the daric, which was made of gold. So they were able to separate these two metals: they were no longer electrum coins. They separated gold and silver coins with bimetallism, but maintained the same concept of a blob of precious metal coins with a hole at the back, again, we suppose, to check the metal content.
-
+Above, you can admire a genuine Persian sigloi (or siglos). The small design features a king, although the hole has been slightly worn away. The siglos is a silver coin, in contrast to the daric, which was made of gold. The Persians could distinguish these two metals, and they moved away from electrum coins. So, they implemented bimetallism, using both gold and silver while maintaining the same concept of coins made from precious metals, often with a hole at the back, presumably for checking the metal content.
 
 The rapid adoption of coins by the Greeks seems to have been stimulated by their close contacts with the Lydians, particularly through the Greek colonies in Asia Minor. The first Greeks to mint coins were probably the inhabitants of Aegina in the mid-sixth century BC, who introduced the drachma, whose weight varied from region to region, and whose name literally means "handful of grain" or "handful of arrows".
-
 
 The success of Greek coinage was as much due to its convenience for important transactions, such as the payment of mercenaries, as to the economic and political expansion of the cities. Currency rapidly became a central element of the Greek and, later, Roman economy, while retaining a strong symbolic dimension, notably through its association with the law (nomos).
 
@@ -1077,35 +1056,25 @@ This manipulation, observable from the earliest Lydian coins, suggests that mone
 ### From punched blobs to minted coins
 
 
-So, as we've just done a section on the emergence of coins, I wanted to do a very short section on the evolution of coin manufacture. As we've seen, it all began with blobs of electrum and then gold and silver, where both sides were marked with a punch, either with the king's face or a hole in the back to check purity.
+After a section about the emergence of coins, I wanted to introduce a very short section on the evolution of coin manufacturing. As we have seen, it all began with blobs of electrum, proceeding with gold and silver, where both sides were marked with a punch, either with the king's face, or a hole in the back to check purity.
 
 
 ![](./assets/fr/1-3-1_2_Siglos.webp)
 
+Later, as we'll explore in a subsequent section, the Greeks refined this technology by creating round coins that were hammered on both sides. They would take a smooth, flat piece of precious metal, engrave the desired design on one side, and then hammer it by hand to create the finished coin.
 
-Then, as we'll see in a subsequent section, the Greeks perfected this technology by making round coins that were hammered on both sides. So they would install a round, flat piece of precious metal that was smooth and hammered on both sides with a pattern in which they had engraved the reverse of the mark they wanted to inscribe, and then hammered the coins in this manner, by hand.
-
-
-
-And this technology of hand minting, one by one, probably helped to control the notion of inflation at the time, even if coins were greatly diluted to produce more. This was definitely the case in the Roman period and, to a lesser extend, in the Greek period during certain wars. This notion of making coins one at a time nevertheless limited the authority's production capacity and had a positive effect on inflation control, despite the enormous devaluations we saw. So we went from a blob that was punched to a round coin that was hammered.
-
+The technology of hand minting coins individually likely played a role in controlling inflation during that time, even though the coins were often diluted to increase production. This was particularly evident during the Roman period and, to a lesser extent, during certain wars in the Greek period. While minting coins one at a time limited the authority's capacity for mass production, it effectively contributed to inflation control, despite the significant devaluations that occurred. Thus, the evolution progressed from a blob of metal being punched to a round, hammered coin.
 
 ![](./assets/fr/1-3-2_1_drachm.webp)
 
 
 ### Medieval evolution
 
-
-There's also a notion I wanted to talk about, which I could do with this metal tool here.
-
-In the Middle Ages, there was also a notion of spreading the coin out, so we made it wider and wider, thinner and thinner, and one of the reasons was that it was easier to test the sound. This way, by spreading the silver out, it created a frequency and we could validate a notion of the piece's purity simply by listening to it. That's where the expression sound money comes from. In sound money, the standard weight was determined using a balance scale, or trebuchet, to weigh it. And so we moved from small, round coins to slightly thinner, wider coins.
-
+In the Middle Ages, there was also a trend of spreading coins out, making them wider and thinner. One reason for this was that it became easier to test their sound, which was often used as an indicator of authenticity. By spreading the silver out, a distinct frequency was produced, so people could validate the coin's purity simply by listening to it. This practice gave birth to the term "sound money". In the context of sound money, the standard weight was determined by using a balance scale or "trebuchet" for weighing. Thus, the evolution continued from small, round coins to slightly thinner, wider coins.
 
 ### Pendulum striking
 
-
-And the last technology to arrive at the end of the Middle Ages, at the beginning of the modern era, was the notion of pendulum striking. This was a kind of screw that was tightened to strike the coins, thus generating coins with this new form of striking. And what was special about it was that you could put a pattern on the outside of the coin to try and solve the problem of clipping, where a certain part of the coin would be removed to recover the precious silver and perhaps cast other coins, or simply keep the metal as a resource.
-
+The last technology to arrive at the end of the Middle Ages, at the beginning of the modern era, was the notion of pendulum striking. It was a kind of screw that was tightened to strike the coins, thus generating coins with this new form of striking. What was speaicl about this development was the ability to engrave a pattern on the surface of the coin to address the issue of clipping. Clipping involved removing a portion of the coin to reclaim precious silver, which could then be used to mint other coins or simply retained as a resource.
 
 So this notion of pendulum striking helped with the clipping phenomenon. And it's interesting to note that this technology actually came from France. In England, for example, they hired French engineers to come and show them how to make these machines. What's funny, I think, is that there were supporters of hammer minting who were against it and who delayed the application of this technology. In any good technology, there are always people who are against it, who want to keep the old technology. I thought it was pretty crazy to realize that even a technology that seems really superior - you can make more parts, they're harder to copy - there were still people who were attached to the famous hammer method. There was a shift between producing parts that were made with this famous pendulum striking and then returning to hammer striking. And finally, of course, it was pendulum striking that finally took hold and gave us these beautiful modern pieces where you can find either little lines, little ridges around to avoid clipping, probably related to the word clipping, ridges, and you can still see today either ridges or text or drawings that are inscribed on the edge of the piece.
 
@@ -1336,13 +1305,13 @@ That's what sums up their vision. We discuss this with Ulrich in our chat in the
 ### The example of the Yap stones
 
 
-A striking example is that of the monumental stones on the island of Yap. Some of these stones, despite their immobility or even physical disappearance, continued to function fully as money thanks to a collective agreement, underlining the essentially social and symbolic dimension of money.
+Here below, you can admire a striking example of the monumental stones on the island of Yap. Some of these stones, despite their immobility or even physical disappearance, continued to function fully as money thanks to a collective agreement, underlining the essentially social and symbolic dimension of money.
 
 
 ![](./assets/fr/Pierre_de_Yap.webp)
 
 
-This is a really interesting analysis of the Yap stones. Saifedean Ammous also mentions this example in his book The Bitcoin Standard. According to him, it's the system that most closely resembles bitcoin, a kind of central register that's there for all to see, that's public, that keeps the accounts, that manages who owns what. And so, this anthropological vision recovers this same example to explain that all this represents is an agreement, a social consensus in this society, which is absolutely true. And I find this mention of the lost stones very interesting. They would go hundreds of kilometers out to sea in small rafts and bring the stones back. Sometimes the stone fell to the bottom. But this stone was still used in the monetary system. A person could say "Yes, so the stone we dropped, you see, in such and such a place, well it's mine, so we can exchange it". There wasn't necessarily a need for physicality, for possession to enable exchange, because in fact the stones were so big that they often stayed in the same place. So it was more a question of changing hands with these stones. This was done in a transactional way, but possession changed without necessarily moving. It's a kind of proof of consensus. I think it's really interesting to see it in this anthropological vision of money.
+This is a really interesting analysis of the Yap stones. Saifedean Ammous also mentions this example in his book "The Bitcoin Standard". According to him, the Yap Island system most closely resembles Bitcoin, a kind of central record that everyone can consult, that is public, maintaining accounts and managing ownership of things. This anthropological perspective illustrates that all of this represents an agreement or social consensus within society, which is fundamentally accurate. And I find this mention of the lost stones very interesting. They would go hundreds of kilometers out to sea in small rafts and bring the stones back. Sometimes the stone fell to the bottom of the sea, but this stone would still be used in the monetary system. A person could say "Yes, we dropped the stone in such a place; it's mine, so we can exchange it". There wasn't necessarily a need for physical possession to facilitate exchange, as the stones were so large that they often stayed in one place. Instead, the focus was on changing hands with these stones in a transactional manner, allowing ownership to shift without the stones actually moving. It was a form of "proof of consensus", highlighting an interesting anthropological perspective on money.
 
 
 ### Protocurrencies and social obligations
@@ -1550,11 +1519,6 @@ Often, people who haven't delved into these semantic problems, in translating th
 <chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
 
 :::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
-
-![](assets/12.webp)
-
-![](assets/13.webp)
-
 
 #### What is money?
 
@@ -1779,28 +1743,21 @@ This theory only applies to a handful of countries (see Stephanie Kelton's tweet
 
 And what is true monetary sovereignty? It means being able to raise debt in your own currency. You have to be able to run a trade surplus to have enough currency reserves, enough foreign currency, so that you don't have to raise money in foreign currency to be able to import goods. This concerns a handful of countries.
 
-I have a tweet here from Stephanie Kelton, who is a kind of poster woman for this movement, who has written a book called "The Deficit Myth", who mentions in one of her tweets that different countries like the United States, Japan, Canada, Australia, the United Kingdom, can't run out of money.
+Here below, you can see a tweet from Stephanie Kelton, who is a kind of poster woman for this movement. She wrote a book called "The Deficit Myth". In the tweet, she writes that different countries like the United States, Japan, Canada, Australia, the United Kingdom, can't run out of money.
 
 
 ![image](./assets/fr/no_debt_crisis.webp)
 
 
-Strangely, it only lists six countries? Why is that? Because they have real monetary sovereignty. But there are around 200 countries on Earth, and not all of them have monetary sovereignty. So, my criticism of this theory, apart from being a little strange and non-functional, is that it only works for a few countries that enjoy true monetary sovereignty, those that can issue treasury bills in their own currency. And this is to some extent to the detriment of the rest of the world. It's as if, by creating this currency, they were exporting their inflation elsewhere, as the United States has been doing with its exorbitant privilege for decades. It's almost a kind of monetary colonialism, where countries that enjoy worldwide confidence and demand for their currency to buy the goods they produce, can print as much money as they want without causing too much inflation, because they usually export it.
-
+Strangely, it only lists six countries? Why is that? Because they have real monetary sovereignty. But there are around 200 countries on Earth, and not all of them have monetary sovereignty. So, my criticism of this theory, apart from being a little strange and non-functional, is that it only works for a few countries that enjoy true monetary sovereignty, those that can issue treasury bills in their own currency. To some extent, it goes to the detriment of the rest of the world. By creating this currency, it's like they were exporting their inflation elsewhere, akin to what the United States has been doing with its exorbitant privilege for decades. This resembles a form of monetary colonialism, where countries that have global confidence and demand for their currency can print as much money as they wish without incurring significant inflation, often because they export that inflation.
 
 This theory is difficult to apply to import-dependent economies that need to maintain international confidence in their currency.
 
-
 This theory also calls for a certain level of centralized planning of the economy, notably to ensure greater control over real resources (workers, raw materials, industrial capacity) and to manage inflation.
-
-
-![](assets/14.webp)
-
 
 # The fall and rebirth of money
 
 <partId>87a34ca9-782b-5ade-b51a-400f88ed7b0c</partId>
-
 
 ## Greek coins
 
@@ -2071,8 +2028,7 @@ In this section on Antiquity, we now turn our attention to the Roman Republic. R
 The decisive encounter with the Greeks of southern Italy truly introduced the Romans to minted silver coins. Around 280 BC, Rome began producing its own silver coins in imitation of Greek didrachms. The first regular issue of silver coins in Rome dates back precisely to 269 BC, featuring the legendary twins Romulus and Remus suckled by the she-wolf, a symbol that has become iconic.
 
 
-In fact, many Roman coins from the Republic period depict founding myths. And I've got one here, a superb coin, a real one, from the king, King Tatius. This coin illustrates a myth about the abduction of women from Sabina. So this famous Tatius was the king in this region. There was a founding myth that the Romans went to take women from Sabina, a people who lived close to the Romans. And later, King Tatius became a co-king with one of the founders of Rome, King Romulus.
-
+In fact, many Roman coins from the Republic period depict founding myths. You can see mine here below: it's a superb, real coin from King Tatius. It illustrates the myth of the abduction of women from the Sabines. Tatius was the king of this region, and the founding myth tells of how the Romans abducted women from the Sabines, a population who lived nearby. Subsequently, King Tatius became a co-king with Romulus, one of the founders of Rome.
 
 ![](./assets/fr/3_2_tatius.webp)
 
@@ -2089,13 +2045,13 @@ The term "coin" has its origins in the temple of Juno Moneta in Rome. Legend has
 Military conflicts had a considerable influence on Roman monetary development. During the Second Punic War (218-201 BC) against Carthage, Rome faced severe financial difficulties in the face of Hannibal's invasion. To alleviate these urgent needs, Rome resorted for the first time to an exceptional issue of gold coins, as well as to a significant devaluation of its silver coinage, from an initial purity of 97% to around 89%. The weight of bronze coins (aes) also dropped drastically, losing almost 80% in six years.
 
 
-Here, we return to a concept we've already discussed with the Greeks of melting precious metals that were kept in a temple to alleviate economic crises. And to talk about **Carthage**, I have here a real Carthaginian coin. These Carthaginian coins featured a palm tree on one side - you can see it here, probably much better in the high-resolution photo - and on the other side, it was a horse. And on this coin, the horse isn't very recognizable, it's very worn.
+Here, we can revisit a concept we've previously discussed regarding the Greeks melting precious metals stored in temples to help alleviate economic crises. And to talk about **Carthage**, here below you can admire a real Carthaginian coin from my collection. These Carthaginian coins featured a palm tree on one side, and a horse on the other side. On this coin, the horse isn't very recognizable, a it's very worn.
 
 
 ![](./assets/fr/3_2_Carthage.webp)
 
 
-As a result, the weight of bronze coins, aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary devaluation due to these wars.
+As a result, the weight of bronze coins, known as aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary devaluation due to these wars.
 
 
 ### The silver denarius and monetary stability
@@ -2206,7 +2162,7 @@ Rome is taken by various Germanic peoples (including the Ostrogoths), an event c
 ### Augustus' monetary reforms
 
 
-In this section on Antiquity, we've already come to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
+In this section on Antiquity, we have already arrived to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
 
 
 After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sestertii. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
@@ -2230,7 +2186,7 @@ However, from Nero onwards (AD 54-68), Rome began a slow devaluation of its coin
 The third century marks a dramatic turning point, with a spectacular acceleration in devaluations under the emperors Septimius Severus, Caracalla, and Gallienus. The main silver coin, the denarius and then the antoninianus, saw its silver content drop to just 2%. At the same time, the gold weight of the aureus dropped by half. This monetary crisis was accompanied by unprecedented political instability, barbarian invasions and recurrent civil wars.
 
 
-This allows me to introduce the last piece in this section, an antoninianus. We don't know what this piece was called at the time. We call it an antoninianus. This coin has the particularity of being worth two denarii, but the problem is that it's only 1.5 times as big as a denarius. What's more, eventually, they were only billon coins, i.e., a non-pure alloy of silver and other metals. The coins were simply coated with silver. It was a fine example of monetary decay.
+This part allows me to introduce the final piece in this section: the antoninianus. The original name of this coin is unknown, but we refer to it as an antoninianus today. It has the distinction of being valued at two denarii, despite being only 1.5 times larger than a denarius. Furthermore, over time, these coins became merely billon coins, meaning they were made from an alloy of silver and other metals rather than pure silver. The coins were often just coated with silver, serving as a notable example of monetary decay.
 
 
 ![](./assets/fr/3_3_antoninien.webp)
@@ -2239,17 +2195,15 @@ This allows me to introduce the last piece in this section, an antoninianus. We 
 ![](./assets/fr/3_3_Denier-Antoninien.webp)
 
 
-Faced with this situation, Emperor Aurelian (270-275 AD) attempted to stabilize the system by nominally revaluing currencies, but **this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.**
+Faced with this situation, Emperor Aurelian (270-275 AD) attempted to stabilize the system by nominally revaluing currencies, but this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.
 
+I will introduce a digression on the subject. During the 3rd century, inflation experienced a rapid exponential increase. Previously, even though coins were devalued, the handmade process of minting them one by one provided some control over inflation. Statistics indicate that over 300 years of devaluation, inflation averaged about 4% per year. Just before Aurelian's reform, inflation was approximately 3% annually.
 
-And I'm taking a little break to say a few words on the subject. It was really at this time that inflation in the 3rd century took a rapid exponential increase. Before, even if coins were devalued, the fact that they were handmade, one by one, minted, still assured us of a certain control over inflation. I have statistics that over 300 years of devaluation, it amounted to maybe 4% inflation per year. Just before Aurelian's reform, inflation was around 3% per year. Aurelian stamped a purity measurement on the XXI sign coin, i.e., 20 parts bronze to one part silver, i.e., 5% purity. He marketed these 5% silver coins and stamped this sign on them. The problem was that he recalled all the other coins, the ones that were really more devalued, and also stamped the famous XXI on them. So he revalued the face value of all the coins. The result was an inflation rate of 20% per year, instead of the 3% we'd seen before this technique was introduced.
-
+Aurelian introduced a purity measurement on the XXI sign coin, indicating a composition of 20 parts bronze to 1 part silver, or 5% purity. He marketed these 5% silver coins and stamped the XXI sign on them. However, he also recalled all the other, more devalued coins and stamped the same XXI on them. This effectively revalued the face value of all coins. The outcome was a staggering inflation rate of 20% per year, far exceeding the previous 3% rate before this technique was implemented.
 
 It was really Aurelian who invented this form of devaluation, which is much faster than the gradual devaluation of metal, which still forced us to print coins one by one. What he did was to take all the existing coins, recall them and stamp them with a punch to change their face value. It's a real turning point. That's when inflation became exponential.
 
-
-As a way of expressing and giving you a visual appreciation of this extreme devaluation, I've found some very interesting statistics on the price of grain in Egypt from 40 BC to the 3rd century, i.e., over 300 years. For example, I have a Greek tetradrachma. There was the equivalent in Egypt at the time, an Egyptian tetradrachma under Roman occupation in the 3rd century. In Egypt, they still used the denomination drachmas and it was the equivalent of a denarius.
-
+To visually illustrate this extreme devaluation, I've found some fascinating statistics on the price of grain in Egypt from 40 BC to the 3rd century, spanning over 300 years. Below, you can see a Greek tetradrachma from my collection. At that time, in Egypt under Roman occupation in the 3rd century, the equivalent was an Egyptian tetradrachma. The denomination of drachmas was still in use, and it corresponded to a denarius.
 
 ![](./assets/fr/3_3_egypt-tetradrachm.webp)
 
@@ -2257,11 +2211,9 @@ As a way of expressing and giving you a visual appreciation of this extreme deva
 ![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
 
 
-So the Egyptian tetradrachm I have here was the equivalent of a denarius. You can see that the coin is made of billon or bronze, that there is no precious metal. You can compare it to the original Greek tetradrachm to see the physical devaluation over these 300 years. It's a million-fold increase in the price of grain in Egypt.
-
+So the Egyptian tetradrachm I have was the equivalent of a denarius. You can see that the coin is made of billon (or bronze), so it does not contain any precious metal. You can compare it to the original Greek tetradrachm to see the physical devaluation over these 300 years. It's a million-fold increase in the price of grain in Egypt.
 
 It's the physical expression of Aurelian's reform. It should be noted that the majority, the average over these 300 years of inflation, was around 4%. It was only at the end, when Aurelian made his reform, that this inflation became rather exponential and we arrived at this measure of 1 million. Prices were a million times higher at the end of the 3rd century than in the 1st century BC.
-
 
 His successor **Diocletian** (284-305 AD) attempted even more radical reforms: he issued new currencies (notably the argenteus, purer but too limited in quantity), imposed drastic price controls (Price Edict of 301 AD) and **established a tax system based on payments in kind**. Despite these efforts, Diocletian's reforms failed to curb rampant inflation.
 
@@ -2304,14 +2256,11 @@ This section looks at the links between monetary dilution and inflation, from ca
 We also note a more gradual devaluation of the aureus. This difference in the rate of devaluation highlights two points:
 
 
-1 \- The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
+1. The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
 
+2. The State's desire to postpone as long as possible the devaluation of the aureus, the reserve of value that enables the elite to maintain their purchasing power at the expense of the less fortunate. We will frequently revisit this principle throughout the course, especially in connection with the concept known as the "Cantillon effect" and the redenominations of the Maravedi in Spain.
 
-2 \- The State's desire to delay as long as possible the devaluation of the aureus, the reserve of value that enables the elite to maintain their purchasing power at the expense of the less fortunate. We'll come back to this principle often enough in this course, notably with the concept known as the "Cantillon effect" and with the redenominations of the Maravedi in Spain.
-
-
-So, what we need to understand here is that the phenomenon is very interesting, and we see it repeated throughout history. We'll go over it again with the Maravedi in a subsequent section. We've seen this with all reserve currencies too, throughout the history of reserve currencies. You don't touch the reserve unit of value, which is the aureus in Rome, for example, but you don't hesitate to devalue the unit of account used by the population, used in trade, in everyday exchanges. So, monetary inflation is passed on to the people, while those who can afford gold coins remain unaffected.
-
+This phenomenon is quite interesting and has recurred throughout history. We will revisit it with the Maravedi in a subsequent section. This pattern is evident with all reserve currencies as well; the reserve unit of value, such as the aureus in Rome, remains untouched. However, the unit of account used by the general population for trade and everyday transactions is often devalued. As a result, monetary inflation affects the common people, while those who can afford gold coins remain largely unaffected.
 
 And by the way, **it's the same phenomenon that's being created today with currency devaluation, which allows financial assets to rise in value**, and so it's the people who use the currency, the poorest people, who get poorer, and this in turn enriches, through money creation, the assets of those who are able, who have the means to protect themselves against devaluation, and so it deepens social inequalities. That's my little political rant.
 
@@ -2439,7 +2388,7 @@ From the 8th century onwards, Christian influence contributed to the reintroduct
 In England, coinage enjoyed a significant revival with the production of the silver penny under King Offa of Mercia around 765. This currency became so important that it remained virtually unchanged for 500 years.
 
 
-As a first artifact related to this period, I offer you a reproduction of an English penny from that time.
+As a first artifact related to this period, let me show you a reproduction of an English penny from that time.
 
 
 ![](./assets/fr/3_5_penny.webp)
@@ -2466,7 +2415,7 @@ These innovations were a response to the chronic shortage of metallic money, and
 The Crusades, meanwhile, stimulated Mediterranean trade, fostering the development of international exchanges and new banking practices, notably through the Order of the Knights Templar. The Knights Templar became important financial intermediaries, enabling crusaders to obtain liquidity far from home, foreshadowing the modern European banking system.
 
 
-To make the link with the Templars, I have here a French medieval coin, and you can recognize a beautiful cross in the center. It was quite common for coins of this era to bear this cross.
+To make the link with the Templars, here below you can observe a French medieval coin, where you can recognize a beautiful cross in the center. It was quite common for coins of this era to bear this cross.
 
 
 ![](./assets/fr/3_5_Denier-france.webp)
@@ -2509,13 +2458,13 @@ We've now reached the section of the course where we talk about the period known
 The return of gold coinage to Europe during the Renaissance marks a fundamental turning point in monetary history. **It all began with the Florin of Florence in 1252, the first major gold coin minted in Europe since the fall of Rome**. With its remarkably constant weight and purity (around 3.5 grams of pure gold), the florin remained unchanged for four centuries and rapidly became an essential pan-European monetary reference.
 
 
-Here I have a reproduction of a Florin: a gold Florin made of pewter and stamped by a French artist who makes excellent pieces, engraved and struck by hand.
+Here below you can see a reproduction of a Florin: a gold Florin made of pewter and stamped by a French artist who makes excellent pieces, engraved and struck manually.
 
 
 ![](./assets/fr/4_Florin.webp)
 
 
-This return to gold coinage was motivated by a specific context: the collapse of the Byzantine solidus and the Muslim economic decline caused by the Mongol invasions created a monetary vacuum for international trade.
+This return to gold coinage was driven by a specific context: the collapse of the Byzantine solidus and the economic decline of the Muslim world due to the Mongol invasions created a monetary vacuum in international trade.
 
 
 ![](./assets/fr/4_Byzantine.webp)
@@ -2524,11 +2473,11 @@ This return to gold coinage was motivated by a specific context: the collapse of
 ![](./assets/fr/4_Hongrie.webp)
 
 
-I have here a Byzantine coin that I find interesting. I'm going to draw a parallel with a coin from the same period from Hungary. This coin is cup-shaped, like a miniature bowl. The iconography on it is a kind of religious figure with kings holding crosses in their hands side by side. It's the same kind of bowl-shaped piece, and this one comes from Hungary. It was quite customary to copy coins from other countries. As Byzantine coins were generally accepted, other countries would often copy them. As you can see when you compare them side by side, these pieces are very similar.
+The first image above shows a Byzantine coin that I find quite interesting. I'm going to draw a parallel with a coin from the same period from Hungary (second image above). The Hungarian coin is cup-shaped, like a miniature bowl. The iconography features religious figures depicted as kings holding crosses side by side. This piece is bowl-shaped and originates from Hungary.
 
+It was quite customary to copy coins from other countries. As Byzantine coins were generally accepted, other countries would often copy them. As you can see when you compare them side by side: these pieces are very similar.
 
-Northern Italy, notably Florence, Venice, and Genoa, took advantage of this context to launch new hard currencies - coins with a stable precious metal content. Venice followed Florence's example by minting the ducat in 1270, a currency almost identical to the florin and widely used in Mediterranean trade.
-
+Northern Italy, notably Florence, Venice, and Genoa, took advantage of this context to launch new hard currencies - coins with a stable precious metal content. Venice followed Florence's example by minting the ducat in 1270, a currency that was almost identical to the florin and widely used in Mediterranean trade.
 
 The florin became the first international reserve currency, adopted in over 150 European cities before the end of the 14th century. With the creation of a large-scale Florentine banking network, led by the Medici, monetary and accounting management was thoroughly modernized, even reducing the need to physically transport gold.
 
@@ -2546,9 +2495,7 @@ This meant we didn't have to carry around precious metal coins.
 
 It was also during this period that Europe became aware of the existence of paper money in China, thanks to Marco Polo's journey in the 13th century. However, the development of banknotes would wait several centuries, as Europe preferred to perfect its metal coinage methods first. Leonardo da Vinci, close to Luca Pacioli, a renowned chartered accountant, actively contributed to the improvement of money presses, promoting faster, more uniform coin production.
 
-
-We're talking here, of course, about the pendulum striking I referred to earlier in the course. This made it possible to make more uniform pieces than hammer striking, and above all, allowed for writing around the edge of the coin, as I've already shown you. This is a European thaler from 1793, so you can see that there's writing on the fringe.
-
+We are referring to the pendulum striking technique mentioned earlier in the course. This method enabled the production of more uniform coins compared to hammer striking and, importantly, allowed for inscriptions around the edge of the coin, as I previously demonstrated. The one below is a European thaler from 1793, which clearly shows writing on the fringe.
 
 ![image](./assets/fr/4_thaler.webp)
 
@@ -2600,18 +2547,15 @@ Over the centuries, several empires have succeeded one another as global economi
 
 ### The Portuguese boom and the Real (1450-1530)
 
+**Portugal** dominated world trade in the second half of the 15th and early 16th centuries, with the **Portuguese Real**, a silver coin of relatively uniform weight. The Portuguese, thanks to their advancements in navigation, found new sea routes to Africa, Asia, and the New World. Military forts and trading posts multiplied from Africa to China (Macau).
 
-
-**Portugal** dominated world trade in the second half of the 15th and early 16th centuries, with the **Portuguese Real**, a silver coin of relatively uniform weight. The Portuguese, thanks to their advances in navigation, found new sea routes to Africa, Asia, and the New World. Military forts and trading posts multiplied from Africa to China (Macau).
-
-
-In response to Europe's thirst for gold and silver, "the constant motivation for the great discoveries was commercial profit and, above all, the quest for gold and silver". However, the Portuguese Empire, overextended and facing competition from the Dutch, English, and French, went into decline.
+In response to Europe's demand for gold and silver, "the constant motivation for the great discoveries was commercial profit, particularly the pursuit of gold and silver." However, the Portuguese Empire, overextended and facing competition from the Dutch, English, and French, began to decline.
 
 
 ![](./assets/fr/5_1_Real_Portugais.webp)
 
 
-Here's an artifact, a half-Real presto from the time of these Maritime conquests.
+Here above you can see a Portuguese half-Real from the time of these Maritime conquests.
 
 
 ### The Spanish apogee and the Spanish Dollar (1535-17th century)
@@ -2624,11 +2568,9 @@ With the conquest of the New World, **Spain** became the dominant player. Its mo
 ![](./assets/fr/5_1_Dollar_Espagnol.webp)
 
 
-The Spanish real, also known as the "piece of eight", got its nickname because it was often cut into eighths to create smaller coins. It was also known as the **Spanish dollar**. The coin you see here dates from 1814, so it's a slightly more recent example. The very first Spanish dollar coins, however, weren't quite as perfect: they were hammer-struck, much less round and crisp.
+The Spanish real, also known as the "piece of eight", got its nickname because it was often cut into eighths to create smaller coins. It was also known as the **Spanish dollar**. The coin you see above dates from 1814, making it a slightly more recent example. However, the very first Spanish dollar coins were not as refined; they were hammer-struck and generally less round and crisp.
 
-
-What's really interesting is that the Spanish dollar was the international reserve currency at the time. The Spanish authority also had its own local currency, the maravedi, and to adjust the money supply, it carried out regular recalls. For example, a copper or bronze coin initially worth one maravedi might be recalled and stamped with a "2", then later with a "4", and so on up to "8". In the high-resolution photo, you can clearly see an "8" stamped in. It's a way of making the money supply grow... and inevitably, it created inflation.
-
+What's particularly interesting is that the Spanish dollar served as the international reserve currency at the time. The Spanish authorities also issued their own local currency, the maravedi, and regularly adjusted the money supply through recalls. For example, a copper or bronze coin initially worth one maravedi might be recalled and stamped with "2," then later with "4," and so on, potentially reaching "8." In the high-resolution photo, you can clearly see the "8" stamped on the coin. This method effectively expanded the money supply... which inevitably led to inflation.
 
 ![](./assets/fr/5_1_maravedi.webp)
 
@@ -2659,11 +2601,9 @@ After the Iberian apogee, **the Netherlands** emerged as a new commercial power 
 ![](./assets/fr/5_1_VOC.webp)
 
 
-Here is a Gulden from 1722, a beautiful silver coin and a coin issued by the VOC.
-
+In the first photo above, you can see a Gulden from 1722 (a beautiful silver coin), while in the second, there is a coin issued by the VOC.
 
 The VOC was an extremely powerful company for its time: it had its own army and even issued its own currency.
-
 
 The Dutch invented modern capitalism, which began as a means of distributing risk in risky ventures such as expeditions to the New World or the search for new trade routes. Joint-stock companies enabled several investors to pool their money and share the risk. To facilitate these exchanges, it was then necessary to create institutions capable of negotiating and exchanging these securities. Thus, in 1602, the first joint-stock company and stock exchange were created.
 
@@ -2695,7 +2635,7 @@ More restrictive laws sought to impose the assignat, but without success. The go
 ![](./assets/fr/5_1_assignat.webp)
 
 
-As this paper money wiped out all the good precious metal coinage, in accordance with that famous Gresham's Law, they found themselves with a coin shortage. To mint coins, they used bell metal seized from the clergy. Here's a beautiful piece of bell metal minted from this recovered copper, by melting down the coins seized from the clergy.
+As this paper money replaced all the quality precious metal coinage, aligning with the famous Gresham's Law, a coin shortage ensued. To mint new coins, they used bell metal seized from the clergy. Here below you can see a beautiful piece of bell metal, crafted from recovered copper by melting down the coins taken from the clergy.
 
 
 ![](./assets/fr/5_1_cloche.webp)
@@ -2716,12 +2656,10 @@ The **Industrial Revolution** and the adoption of a **Gold Standard** (1717 or 1
 However, the First World War (1914-1918) put an end to this system. Within weeks, all the major warring powers suspended gold convertibility. The British Empire, and later the pound, emerged from the Second World War in a weakened state, giving way to the American dollar in the 20th century.
 
 
-And as an artefact, I have some beautiful and interesting pieces here. These are monetary weights. This one is the sovereign. So, the earliest representations of the pound are sovereigns. I only have money weights to represent these coins because I can't afford to buy a real sovereign. To weigh them, we used scales and then placed the monetary weight equivalent to the sovereign's value on the other side.
+And as an artefact, you can see some beautiful and interesting pieces below. These are monetary weights. The first one is the sovereign: the earliest representations of the pound. I only have money weights to represent these coins because I can't afford to buy a real sovereign. To weigh them, we used scales and then placed the monetary weight equivalent to the sovereign's value on the other side.
+The sovereign was a monetary coin - a gold coin originally worth one pound. 
 
-
-And this, the sovereign, was a monetary coin - a gold coin originally worth one pound. Preceding this famous sovereign was the guinea, based on the same principle. The guinea was so named because the precious metals it contained came from the region of Guinea.
-
-
+Preceding the famous sovereign was the guinea, which operated on the same principle. The guinea was named for the precious metals it contained, sourced from the region of Guinea.
 
 ![](./assets/fr/5_2_sovereign.webp)
 
@@ -2743,7 +2681,7 @@ Following on from this section on the history of the first reserve currencies an
 As early as the 13th century, Italians (Florence, Genoa, Venice...) developed double-entry accounting techniques. Later, **Antwerp** (16th c.) became Northern Europe's leading financial center, a role that was later taken over by **Amsterdam**, thanks to the Amsterdam Stock Exchange (1609), where VOC shares were traded.
 
 
-Antwerp had merchant fairs where merchants often met to settle debts. New financial instruments were invented at the time. This one is a little more recent, 1761, but this is a **promissory note**. You can see that it's handwritten, and you can see that there are inscriptions on the back. It's a magnificent artifact of the period.
+Antwerp hosted merchant fairs where traders frequently gathered to settle debts, leading to the invention of new financial instruments. The bill below, dated 1761 and more recent, is a **promissory note**. It features handwritten details, along with inscriptions on the back, making it a magnificent artifact from that period.
 
 
 ![](./assets/fr/5_2_Billet_a_ordre.webp)
@@ -2867,32 +2805,25 @@ Then came the panic of 1776. Everyone rushed up the money pyramid. What this mea
 
 ### The evolution of the US dollar
 
-
-So we went from the florin to the Bank of England. Then, of course, there was the First and Second World Wars, but before that, in 1796, on the other side of the Atlantic, we had the Americans. In 1776, America was still an English colony, British, and so the colonies had this paper currency. The following is a Connecticut two-shilling bill from 1776.
-
+We transitioned from the florin to the establishment of the Bank of England. Of course, there were the First and Second World Wars in the interim, but earlier, in 1796, developments were also occurring on the other side of the Atlantic. In 1776, America was still a British colony, and the colonies used this paper currency. Below is a Connecticut two-shilling bill from 1776.
 
 ![](./assets/fr/two_shilling.webp)
 
+Before declaring war on England and eventually issuing their own currency, the colonies used this paper currency, alongside the Spanish dollar for cash transactions. In fact, the term "dollar" remained to indicate the American dollar.
 
-This was just before they declared war on England and could eventually issue their own currency. In the meantime, they used this paper currency, but they also used the Spanish dollar for cash, for coins. In fact, the name dollar stuck for the American dollar.
-
-
-So, I think it was in 1792, if I'm not mistaken, that they passed a law allowing them to coin money. And to give you an example, this is a modern American dollar.
-
+If I'm not mistaken, in 1792 they passed a law that allowed them to coin money. As an example, the one below is an American dollar of the modern era.
 
 ![](./assets/fr/silver_dollar.webp)
 
+Well, obviously, it doesn't have a face value of just one dollar; it is worth around 30 or 40 dollars, as it represents an ounce of silver. Its value fluctuates based on the price of silver, typically placing it at least at 30 or 40 US dollars. Today, of course, a paper dollar retains only its face value of one dollar, but at that time, the US dollar was rooted in this silver value.
 
-Well, obviously, it's not worth a dollar in face value, it's worth about 30 or 40 dollars, as it's an ounce of silver. So, depending on the price of silver, it's worth at least 30 or 40 US dollars. Today, of course, a paper dollar is only worth a dollar, but that's precisely the format it was at the time. The US dollar starts from this silver value.
-
-
-Then we can move on to the Civil War in America. The Confederates were printing money. This currency had hyperinflation. It's not in the official Hanke-Krus list because it didn't reach 50%, but it did reach 40% monthly inflation. So they printed a lot of it during the war.
+Let us talk about the Civil War in America now. The Confederates were printing money, which was hyper-inflated. This phenomenon is not included in the official Hanke-Krus list, as it did not reach a hyperinflation rate of 50%. However, it did experience a monthly inflation rate of 40%, indicating that a substantial amount of currency was printed during the war.
 
 
 ![](./assets/fr/confederate.webp)
 
 
-And their opponents to the north had dollars, too. We just saw Confederate dollars, and now we're looking at Northern dollars. They were called "the greenback" because the back was green.
+Their opponents of the north also had dollars. Just above, you could see Confederate dollars, while below you can observe Northern dollars. They were called "the greenback" because the back was green.
 
 
 ![](./assets/fr/greenback.webp)
@@ -2901,43 +2832,44 @@ And their opponents to the north had dollars, too. We just saw Confederate dolla
 And I invite you to compare the difference in size with modern banknotes. Back then, banknotes were bigger.
 
 
-So the north won. The greenback became the currency of a reunified America. Then came the founding of the FED in 1913. Then came the First World War.
+As we know, the north won, so the greenback became the currency of the reunified American states. Then came the founding of the FED in 1913, and the First World War.
 
-And in the aftermath of the First World War, the last series of banknotes printed always included the words "redeemable in gold on demand". So, in 1928, you have to realize that $20 at the time bought almost an ounce of gold. The price of gold was $20.67. So you could say that $20.67 per ounce. So this bill could buy an ounce of gold in 1928.
+In the aftermath of the First World War, the last series of printed banknotes always included the words "redeemable in gold on demand". So, in 1928, $20 bought almost an ounce of gold, as the price of gold was $20.67. The bill in the image below could buy an ounce of gold in 1928.
 
 
 ![](./assets/fr/1928.webp)
 
 
-And today, an ounce of gold is worth US$3,000. So you can see the power of devaluation here, of course. And this is the last bill printed with the words "redeemable in gold". We'll see right after Executive Order 6102, where they seized all the gold. In fact, they seized both the gold and the gold certificates. So, this is a gold certificate from 1928.
+Today, an ounce of gold is worth US $3,000. So you can see the power of devaluation here, of course. It was the last bill containing the words "redeemable in gold". We'll see that right after the Executive Order 6102, they would seize all the gold. In fact, they would seize both the gold and the gold certificates. 
+
+Here below you can see a gold certificate from 1928.
 
 
 ![](./assets/fr/Gold_certificate.webp)
 
 
-Not only was it "redeemable in gold" like the 1928 bill, it was also redeemable in gold coins. It really is written payable in gold coins. It really is a "gold certificate". And they've all been seized. It was illegal until 1964 to own them. I'm very happy to have one.
+Not only was it "redeemable in gold" like the 1928 bill, it was also redeemable in gold coins: it really is a "gold certificate". They've all been seized after Executive Order 6102. Up until 1964, it was even illegal to own them. 
 
-It was illegal. Then in 1964, it was illegal to own gold until 1974, if I'm not mistaken. But in the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll mention shortly. And so, starting in 1933, when they issued "Order 6102", Executive Order 6102, they seized gold. It was illegal to possess it. There were big prison sentences if you were caught keeping your gold. In those days, every ounce of gold was exchanged for a bill like that, after 1934. So, in 1928, it still says "redeemable in gold".
+I'm very happy to have one.
 
-In 1933, they issued Executive Order 6102. They seized all the gold. Then, they gave $20.67 for every ounce of gold. Afyerwards, the scam came to light: they issued new bills in 1934 with the printed text "this note is legal tender for all debt".
+Starting from 1964, it became illegal to own gold, until 1974, if I'm not mistaken. In the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll describe shortly. In 1933, when they issued "Executive Order 6102", they seized gold and it became illegal to possess it. You received a big prison sentence if you were caught keeping your gold. During those days, every ounce of gold was exchanged for a bill similar to the one below, after 1934. 
+
+As we said, in 1928, a dollar still had the "redeemable in gold" text on it.
+
+After the issuance of the Executive Order 6102, they seized all the gold and exchanged $20.67 for every ounce of gold. Afterwards, the scam came to light: they issued new bills in 1934 with the printed text "this note is legal tender for all debts".
 
 
 ![](./assets/fr/1934.webp)
 
+The concept of legal tender emerges here, replacing the phrase "redeemable in gold." The two bills may look identical, with only a few words changing, but the scam lies in the fact that the dollar was devalued during this period; it decreased from an ounce of gold being valued at $20.67 to $35 per ounce in 1934. It represented a devaluation of approximately 40%!
 
-The notion of legal tender appears here, replacing "redeemable in gold". The two bills look the same, it's just the little words that change. And the scam is that they devalued the dollar at the time. It went from an ounce of gold for $20.67 to $35 dollars an ounce in 1934. That was a devaluation of the dollar of about 40%. There was a devaluation of the dollar at that time.
-
-
-Then came the Second World War. After the Second World War, the Bretton Woods Agreement centralized all the world's gold in the United States. The Americans issued banknotes in exchange. The bills were no longer exchangeable for gold at the population level, but were exchangeable for gold at the state level.
-
+Then came the Second World War. Following the war, the Bretton Woods Agreement centralized much of the world's gold in the United States. The Americans issued banknotes in exchange, though these bills were no longer redeemable for gold by the general public. Instead, they remained exchangeable for gold at the state level.
 
 Eventually, countries like France and Germany began to suspect that there were probably more dollar bills in circulation than gold in US vaults.
 
 So they asked to repatriate their gold. Well, they said, "Okay, we'll do it, but it'll take a little time." In 1971, our friend Richard Nixon cut the link between banknotes and gold once and for all, blaming speculators in the process.
 
-
-Gold was undervalued. Gold was still at $35 per ounce, which in no way reflected the volume of money that had been printed, nor the market value of gold. In the space of just a few years, the price rose from $34 to $800. As we've seen in previous eras, there were times, in Rome for example, when this sort of link between, say, the denarius and the solidus was detached, leaving gold to float. And that's what happened then. Gold floated. There was a price discovery, and gold was worth a lot more in dollar terms afterwards.
-
+Gold was undervalued at $35 per ounce, a price that did not correspond to the volume of money that had been printed or its true market value. Over just a few years, the price surged from $34 to $800. Similar to historical examples, such as in Rome, where the connection between the denarius and the solidus was severed, gold was allowed to float. This fact led to a process of price discovery, resulting in gold being valued much higher in dollar terms thereafter.
 
 ### The modern fiat currency system and its implications
 

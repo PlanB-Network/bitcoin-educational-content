@@ -1,0 +1,8 @@
+question: Ni igiki gishobora gutuma umucukuzi w’amabuye y’agaciro w’umunyakuri afise x kw’ijana hash rate ashobora gukora neza sniping y’amahera akoresheje re-mining block ya kera yongeyeko block nshasha?
+answer: (x/(1-x))^2.
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2.
+explanation: |
+  Formule ibereye ni (x/(1-x))^2 kuko amafaranga sniping bisaba umucukuzi gucukura neza amabuye abiri akurikiranye kugira ngo asubirire amabuye y’imbere yongerako uruzitiro. Ivyo bishobora gutuma mining ibuye rimwe rirwanya abacukuzi b’inzirabugunge ni x/(1-x), kandi kubera ko amabuye abiri ategerezwa gucukurwa akurikiranye, ivyo bishoboka ni inzira y’inzira. Ayandi ma formule ni ay’imibare ariko agereranya ibintu bitandukanye bishobora gushika bidahuye n’ibisabwa vyihariye vyo gufata amafaranga, aho umucukuzi w’ubuhemu ategerezwa gutsinda uruja n’uruza rw’ubuhemu incuro zibiri zikurikiranye.

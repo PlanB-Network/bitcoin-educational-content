@@ -1,0 +1,8 @@
+question: Theo khuôn khổ công bố có trách nhiệm đã thảo luận, lý do chính khiến các nhà phát triển tránh vá ngay các lỗ hổng không nghiêm trọng trong Bitcoin Core là gì?
+answer: Để ngăn chặn bản vá tiết lộ bản chất của lỗ hổng trước khi triển khai rộng rãi
+wrong_answers:
+  - Để có đủ thời gian cho các nhà phát triển altcoin thực hiện các bản sửa lỗi độc lập của riêng họ trước
+  - Để cho phép thử nghiệm toàn diện trên các nhóm mining khác nhau trước khi phát hành bất kỳ bản cập nhật bảo mật nào
+  - Để duy trì khả năng tương thích ngược với các phiên bản nút cũ hơn không thể xử lý các bản vá khẩn cấp
+explanation: |
+  Câu trả lời đúng nêu bật một nghịch lý quan trọng trong việc vá lỗi bảo mật: bản thân bản vá có thể làm lộ lỗ hổng. Chương này nhấn mạnh rằng các nhà phát triển phải cẩn thận che giấu các bản vá vì việc phát hành chúng ngay lập tức có thể tiết lộ lỗ hổng cho kẻ tấn công trước khi hầu hết các nút được bảo vệ. Các câu trả lời sai, mặc dù hợp lý, nhưng lại trình bày sai các ưu tiên: thông báo về altcoin xảy ra sau khi triển khai mạng Bitcoin, việc kiểm tra nhóm mining không phải là mối quan tâm chính đối với các sự cố không nghiêm trọng, và khả năng tương thích ngược không quyết định thời điểm phát hành các bản vá bảo mật.

@@ -1,0 +1,8 @@
+question: Ni igiki ubuzima bwite bwa blockchain buvuga cane cane mu bijanye na Bitcoin?
+answer: Amakuru utangaza mu gukoresha ku rubuga rwa blockchain
+wrong_answers:
+  - Ugupfuka imfunguruzo z’ibanga zibitswe muri wallet yawe.
+  - Uburinzi bw’uruja n’uruza rwawe rwa internet igihe ukoresha Bitcoin.
+  - Ugutamenyekana kwatanzwe hakoreshejwe aderesi nyinshi za wallet
+explanation: |
+  Ubuzima bwite bwa Blockchain buvuga canecane amakuru umenyesha mu gukoresha ku rubuga rwa blockchain, ivyo bikaba bikoreshwa ku bikorwa vyose wohereje no kwakira. Ivyo bitandukanye n’ugushiramwo amakuru mu buryo bwa wallet (ari vyo birinda imfunguruzo zibitswe), umutekano wo gukoresha interineti (ari wo muzigo w’ubuzima bwite wa off-chain), canke iciyumviro kitari co c’uko aderesi nyinshi zituma umuntu adashobora kumenya amazina yiwe. Ugusohoka kw’ubuzima bwite ku ruzitiro bishika biciye mu gusubira gukoresha aderesi no gukoranya, aho amafaranga ashobora guhurizwa hamwe kugira ngo yerekane uburyo bwerekeye ibikorwa vy’ivy’ubutunzi vy’abakoresha.

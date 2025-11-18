@@ -1,0 +1,8 @@
+question: Menurut bab ini, apa batasan utama yang tidak dapat dilindungi oleh full node?
+answer: Penulisan ulang berantai yang dapat menghabiskan dua kali lipat transaksi Anda
+wrong_answers:
+  - Perangkat lunak berbahaya mencuri kunci pribadi Anda dari memori
+  - "Blok tidak valid yang tidak mengikuti aturan konsensus Bitcoin"
+  - Jadwal penerbitan koin yang salah dan melanggar protokol
+explanation: |
+  Walaupun full node dapat memverifikasi bahwa blok mengikuti aturan konsensus, mencegah penerbitan koin yang tidak valid, dan mendeteksi pelanggaran protokol, full node tidak dapat mencegah penulisan ulang rantai di mana para penambang mengorganisir ulang blockchain untuk melakukan transaksi dua kali lipat. Bab ini secara khusus menyatakan bahwa tidak peduli seberapa canggih perangkat lunak Anda, Anda harus tetap percaya bahwa blok yang berisi koin Anda tidak akan ditulis ulang. Inilah sebabnya mengapa mekanisme pertahanan Bitcoin bergantung pada menunggu beberapa konfirmasi untuk mengurangi kemungkinan penulisan ulang rantai ke tingkat yang dapat diterima.

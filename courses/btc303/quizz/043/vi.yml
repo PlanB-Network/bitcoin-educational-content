@@ -1,0 +1,8 @@
+question: Khái niệm về sự hài hòa Bitcoin, được mô tả thông qua phép loại suy của David Harding, chủ yếu nhấn mạnh điều gì về hoạt động của mạng?
+answer: Hàng ngàn nút đầy đủ xác minh giao dịch một cách độc lập để đạt được thỏa thuận hài hòa mà không cần sự tin tưởng giữa các nhà điều hành
+wrong_answers:
+  - Các nhóm Mining phải phối hợp nỗ lực của mình để cùng hát một bài hát và tạo ra các khối một cách đồng bộ.
+  - Các nhà phát triển Bitcoin cần đạt được sự đồng thuận nhất trí trước khi thực hiện bất kỳ thay đổi hoặc nâng cấp giao thức nào
+  - Tất cả người dùng Bitcoin phải đồng ý về tính hợp lệ của giao dịch thông qua quy trình bỏ phiếu dân chủ để duy trì sự ổn định của mạng
+explanation: |
+  Phép loại suy về sự hài hòa của David Harding nhấn mạnh rằng sức mạnh của Bitcoin đến từ hàng ngàn full node độc lập, mỗi node hoạt động riêng biệt để xác minh giao dịch, tạo ra sự đồng thuận hài hòa về trạng thái sổ cái mà không cần bất kỳ người vận hành node nào phải tin tưởng lẫn nhau. Điều này được so sánh với một dàn hợp xướng, trong đó mỗi thành viên hát độc lập nhưng cùng nhau tạo nên sự hài hòa tuyệt đẹp. Những câu trả lời sai đã diễn giải sai khái niệm này bằng cách gợi ý các yêu cầu phối hợp giữa thợ đào, nhà phát triển hoặc người dùng, điều này mâu thuẫn với nguyên tắc cơ bản của việc xác minh độc lập, vốn khiến Bitcoin trở nên không cần sự tin tưởng và phi tập trung.

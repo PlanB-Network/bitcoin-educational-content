@@ -1,0 +1,8 @@
+question: Gregory Maxwellin analyysin mukaan mikä luo sen perustavanlaatuisen kompromissin, joka pakottaa käyttäjät käyttämään luotettavia palveluita Bitcoin:n skaalauskeskusteluissa?
+answer: Sekä liian suuri resurssien käyttö hinnoittelee validoijat ulos että liian kallis lohkotilan käyttö riitojenratkaisua varten
+wrong_answers:
+  - Ristiriita transaktioiden läpimenon lisäämisen ja riittävän mining-kannattavuuden säilyttämisen välillä eri poolikokoluokissa
+  - Jännite erillisten todistajapäivitysten toteuttamisen ja taaksepäin yhteensopivuuden säilyttämisen vanhan wallet -ohjelmiston kanssa välillä
+  - Kakkoskerroksen ratkaisujen ja on-chain:n skaalauslähestymistapojen välinen kilpailu rajallisista kehitysresursseista ja yhteisön tuesta
+explanation: |
+  Maxwell havaitsi kaksipuolisen ongelman, jossa Bitcoin menettää etujaan molempiin suuntiin: jos resurssien käyttö on liian suurta käytettävissä olevaan teknologiaan nähden, validoinnista tulee liian kallista ja se kallistaa käyttäjiä, jotka joutuvat luottamaan luotettuihin kolmansiin osapuoliin sen sijaan, että validoisivat itsenäisesti. Jos taas kapasiteetti on liian pieni ja transaktiomenetelmät ovat tehottomia, lohkoketjun käyttäminen riidanratkaisua varten tulee kohtuuttoman kalliiksi, mikä taas ajaa käyttäjät luotettavien palvelujen piiriin. Tämä luo herkän tasapainon, jossa skaalautumisratkaisujen on navigoitava.

@@ -1,0 +1,8 @@
+question: Bitcoin'ın güvenilmez özelliği dijital işlemlerde özellikle neye olan ihtiyacı ortadan kaldırıyor?
+answer: İşlemleri işlemek ve doğrulamak için güvenilir üçüncü taraflar
+wrong_answers:
+  - Bitcoin düğümlerini çalıştırmak için donanım ve yazılım bileşenleri
+  - Özel anahtarların ve imzaların güvenliğini sağlamak için kriptografik algoritmalar
+  - Geçerli bloklar üzerinde anlaşmak için ağ mutabakat mekanizmaları
+explanation: |
+  Bitcoin'nin güvenilmez özelliği, işlemlerin işlenmesi ve doğrulanması için bankalar veya finans kurumları gibi güvenilir üçüncü taraflara olan ihtiyacı özellikle ortadan kaldırır. Satoshi Nakamoto'nun Bitcoin whitepaper'ında açıkladığı gibi, geleneksel ticaret güvenilir aracılar olarak hizmet veren finansal kurumlara dayanır, ancak Bitcoin'nin tasarımı, merkezi olmayan mutabakat mekanizması aracılığıyla sistemin herhangi bir güvenilir taraf olmadan doğru şekilde çalışmasına izin verir. Diğer seçenekler, Bitcoin'nin hala ihtiyaç duyduğu temel teknik bileşenleri temsil etmektedir - katılmak için hala donanım/yazılıma ihtiyacınız vardır, kriptografik güvenlik temel olmaya devam etmektedir ve ağ mutabakatı, Bitcoin'nin ortadan kaldırdığı bir şey olmaktan ziyade güvenilmezliğe nasıl ulaştığıdır.

@@ -1,0 +1,8 @@
+question: O que é que a propriedade sem confiança da Bitcoin elimina especificamente da necessidade de transacções digitais?
+answer: Terceiros de confiança para processar e validar transacções
+wrong_answers:
+  - Componentes de hardware e software para executar os nós Bitcoin
+  - Algoritmos criptográficos para proteger chaves e assinaturas privadas
+  - Mecanismos de consenso na rede para chegar a acordo sobre blocos válidos
+explanation: |
+  A propriedade sem confiança do Bitcoin elimina especificamente a necessidade de terceiros de confiança, como bancos ou instituições financeiras, para processar e validar transacções. Como Satoshi Nakamoto explicou no whitepaper do Bitcoin, o comércio tradicional depende de instituições financeiras que servem como intermediários de confiança, mas o design do Bitcoin permite que o sistema funcione corretamente sem quaisquer partes de confiança através do seu mecanismo de consenso descentralizado. As outras opções representam componentes técnicos essenciais que o Bitcoin continua a exigir - continua a ser necessário hardware/software para participar, a segurança criptográfica continua a ser fundamental e o consenso de rede é a forma como o Bitcoin alcança a falta de confiança e não algo que elimina.

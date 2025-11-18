@@ -1,0 +1,8 @@
+question: Mikä on se perusvaatimus, jonka avulla käyttäjät voivat varmistaa, että Bitcoin-ohjelmisto "toimii kuten mainostetaan" avoimen lähdekoodin periaatteiden mukaisesti?
+answer: Käyttäjillä on oltava rajoittamaton pääsy sen ohjelmiston lähdekoodiin, jonka he haluavat todentaa
+wrong_answers:
+  - Käyttäjien on saatava lupa Bitcoin-ytimen ylläpitäjiltä ennen verifiointityökalujen käyttöä
+  - Käyttäjien on maksettava kohtuullinen maksu saadakseen käyttöönsä virallisista lähteistä kootut varmennuskoodit
+  - Käyttäjien on luotettava luotettavien kehittäjien kryptografisiin allekirjoituksiin ohjelmiston käyttäytymisen vahvistamiseksi
+explanation: |
+  Luvussa todetaan nimenomaisesti, että jotta käyttäjät voivat varmistaa, että Bitcoin-ohjelmisto "toimii kuten mainostetaan", heillä on oltava rajoittamaton pääsy lähdekoodiin. Tämä liittyy suoraan "älä luota, tarkista" -periaatteeseen ja avoimen lähdekoodin määritelmän vaatimukseen lähdekoodin saatavuudesta. Väärät vastaukset ovat ristiriidassa avoimen lähdekoodin keskeisten periaatteiden kanssa: luvan vaatiminen rikkoo vapaan saatavuuden periaatetta, maksujen maksaminen on ristiriidassa kustannuksettoman jakelun vaatimuksen kanssa, ja pelkkiin allekirjoituksiin luottaminen heikentää avoimen lähdekoodin tarjoamaa tarkastuksen kautta tapahtuvan todentamisen mahdollisuutta.

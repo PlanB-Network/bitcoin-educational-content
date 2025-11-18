@@ -1,0 +1,8 @@
+question: Jaký je podle diskutovaného rámce odpovědného zveřejňování hlavní důvod, proč se vývojáři vyhýbají okamžitému opravování nekritických zranitelností v jádře Bitcoin?
+answer: Zabránit tomu, aby samotná záplata odhalila povahu zranitelnosti předtím, než dojde k jejímu rozsáhlému nasazení
+wrong_answers:
+  - Aby měli vývojáři altcoinů dostatek času na implementaci vlastních nezávislých oprav
+  - Aby bylo možné před vydáním aktualizací zabezpečení provést komplexní testování v různých skupinách mining
+  - Zachování zpětné kompatibility se staršími verzemi uzlů, které nedokážou zpracovat nouzové záplaty
+explanation: |
+  Správná odpověď upozorňuje na zásadní paradox bezpečnostních záplat: samotná oprava může odhalit zranitelnost. Kapitola zdůrazňuje, že vývojáři musí záplaty pečlivě maskovat, protože jejich okamžité zveřejnění by mohlo odhalit zranitelnost útočníkům dříve, než bude většina uzlů chráněna. Špatné odpovědi jsou sice věrohodné, ale zkreslují priority: k oznámení altcoinů dochází až po nasazení sítě Bitcoin, testování poolu mining není primárním zájmem u nekritických problémů a zpětná kompatibilita neurčuje načasování bezpečnostních záplat.

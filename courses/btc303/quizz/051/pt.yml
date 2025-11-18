@@ -1,0 +1,8 @@
+question: De acordo com a crítica de Ragnar Lifthasir, que problema é que as narrativas simplistas de Bitcoin, como "apenas HODL", criam para o ecossistema de Bitcoin?
+answer: Tornam-se monomanias que levam os utilizadores a ignorar aspectos mais importantes como a segurança e a utilização sem confiança
+wrong_answers:
+  - "Incentivam uma atividade comercial excessiva que desestabiliza o preço do Bitcoin e a dinâmica do mercado"
+  - Criam falsas expectativas sobre rendimentos garantidos que conduzem a um controlo e intervenção regulamentares
+  - Promovem a utilização centralizada do câmbio que concentra as participações do Bitcoin em serviços de custódia
+explanation: |
+  Lifthasir define estas narrativas simplistas como "monomanias" - um foco excessivo numa única ideia que faz com que as pessoas negligenciem considerações indiscutivelmente mais importantes. Ao concentrarem-se apenas na posse do Bitcoin, os utilizadores podem negligenciar aspectos críticos como as práticas de segurança adequadas, a auto-custódia, ou a utilização do Bitcoin de uma forma não confiável. As outras opções, embora potencialmente problemáticas, não são a crítica específica que Lifthasir faz à simplificação excessiva das mensagens sobre o Bitcoin.

@@ -1,0 +1,8 @@
+question: Menurut pembahasan bab ini mengenai kompatibilitas Bitcoin, jenis kompatibilitas apa yang disediakan oleh soft fork?
+answer: Kompatibilitas maju dan mundur, membuatnya sepenuhnya kompatibel
+wrong_answers:
+  - Hanya kompatibilitas ke belakang, memungkinkan perangkat lunak baru untuk memproses data lama
+  - Hanya kompatibilitas ke depan, memungkinkan perangkat lunak lama untuk memproses data baru
+  - Baik kompatibilitas ke depan maupun ke belakang, membutuhkan pembaruan sistem yang lengkap
+explanation: |
+  Bab ini dengan jelas menyatakan bahwa 'Perubahan pada aturan konsensus Bitcoin dikatakan sebagai fork lunak jika sepenuhnya kompatibel Bab ini mendefinisikan sepenuhnya kompatibel sebagai kompatibel ke depan dan ke belakang. Kompatibilitas ke depan berarti perangkat lunak lama dapat memproses data dari versi yang lebih baru dengan mengabaikan bagian yang tidak dimengerti, sedangkan kompatibilitas ke belakang berarti perangkat lunak baru dapat memproses data yang lama. Kompatibilitas ganda inilah yang menjadikan soft fork sebagai mekanisme peningkatan yang lebih disukai untuk Bitcoin, karena tidak merusak sistem yang sudah ada sekaligus memungkinkan fungsionalitas baru.

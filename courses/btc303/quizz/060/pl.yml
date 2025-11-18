@@ -1,0 +1,8 @@
+question: Zgodnie z definicją open source, jaki jest podstawowy wymóg dotyczący opłat podczas redystrybucji oprogramowania open source w ramach zbiorczej dystrybucji oprogramowania?
+answer: Licencja nie wymaga opłaty licencyjnej ani innej opłaty za taką sprzedaż
+wrong_answers:
+  - Rozsądny koszt reprodukcji musi zostać naliczony w celu pokrycia kosztów rozwoju
+  - Opłaty licencyjne są dozwolone, ale nie mogą przekraczać 5% ceny dystrybucji
+  - Opłaty administracyjne mogą być wymagane, ale tylko w przypadku redystrybucji komercyjnej
+explanation: |
+  Definicja open source wyraźnie stwierdza w punkcie "Wolna redystrybucja", że "Licencja nie wymaga tantiem ani innych opłat za taką sprzedaż" Oznacza to, że oprogramowanie open source musi być swobodnie redystrybuowane bez obowiązkowych opłat lub tantiem. Inne opcje błędnie sugerują, że różne rodzaje opłat są dozwolone, co naruszałoby podstawową zasadę swobodnej redystrybucji, która definiuje oprogramowanie open source.

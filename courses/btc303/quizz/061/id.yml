@@ -1,0 +1,8 @@
+question: Apa persyaratan mendasar yang memungkinkan pengguna untuk memverifikasi bahwa perangkat lunak Bitcoin 'berfungsi seperti yang diiklankan' sesuai dengan prinsip-prinsip open source yang telah dibahas?
+answer: Pengguna harus memiliki akses tak terbatas ke kode sumber perangkat lunak yang ingin mereka verifikasi
+wrong_answers:
+  - Pengguna harus mendapatkan izin dari pengelola Bitcoin Core sebelum mengakses alat verifikasi
+  - Pengguna harus membayar biaya yang wajar untuk mengakses binari verifikasi yang dikompilasi dari sumber resmi
+  - Pengguna harus mengandalkan tanda tangan kriptografi dari pengembang tepercaya untuk memvalidasi perilaku perangkat lunak
+explanation: |
+  Bab ini secara eksplisit menyatakan bahwa agar pengguna dapat memverifikasi perangkat lunak Bitcoin 'berfungsi seperti yang diiklankan,' mereka harus memiliki akses tak terbatas ke kode sumber. Hal ini berhubungan langsung dengan prinsip 'Jangan Percaya, Verifikasi' dan persyaratan definisi open source untuk ketersediaan kode sumber. Jawaban yang salah bertentangan dengan prinsip-prinsip inti open source: membutuhkan izin melanggar prinsip akses gratis, membayar biaya bertentangan dengan persyaratan distribusi tanpa biaya, dan hanya mengandalkan tanda tangan melemahkan kemampuan verifikasi-melalui-pemeriksaan yang disediakan oleh open source.

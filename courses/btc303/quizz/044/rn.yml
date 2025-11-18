@@ -1,0 +1,8 @@
+question: Ni ikihe kibazo nyaco cari ku bijanye n’ivyo bikoresho vy’ubuhinga bwa none vyitwa BIP66 soft fork Shaolinfry yavuze ko ari ikimenyamenya co kurwanya amaforogo yoroshe akoreshwa n’abacukuzi?
+answer: 95% vya hashrate vyerekanye ko biteguye ariko nk'igice ntivyari vyemeza amategeko yavuguruwe kandi vyacukuwe ku gice kitagira akamaro
+wrong_answers:
+  - Abacukuzi b’amabuye y’agaciro banse gutanga ikimenyetso c’uko bashigikiye naho abakoresha bariko barasaba cane, bituma iyo nzira yo gusubiramwo ihagarara ubuziraherezo
+  - Ijanisha ritoyi ry'abacukuzi b'amabuye y'agaciro ryarateye veto ku guhindura urubuga rwose naho benshi mu bakoresha bashigikiye .
+  - Iryo vugurura ryatumye uruzitiro rudahera ruca ibice kubera ko abacukuzi n'abakoresha batavuga rumwe ku bijanye n'ivyo gushirwa mu ngiro .
+explanation: |
+  Ivyabaye kuri BIP66 vyerekanye akaga gakomeye mu maforogo yoroshe akoreshwa n’abacukuzi: ukwitegura gutanga ikimenyetso ntikwemeza ko vyemewe vy’ukuri. Naho 95% vy’abacukuzi b’amabuye y’agaciro bagaragaje ko biteguriye gusubiramwo, hafi igice c’abacukuzi ntibari bemeza neza amategeko mashasha maze bacukura amabuye y’agaciro ku butaka butagira akamaro. Ivyo vyerekanye ko gutanga ikimenyetso c’ububasha bwa hash bishobora kuzimiza kandi ntibituma hashirwa mu ngiro neza, ivyo bikaba vyari bimwe mu mpamvu nyamukuru za Shaolinfry zo gusaba User Activated Soft Forks nk’uburyo bwo gusubiramwo bushobora kwizigirwa kuruta.

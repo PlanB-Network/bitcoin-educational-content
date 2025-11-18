@@ -1,0 +1,8 @@
+question: Satoshi Nakamoto'nun bakış açısına göre, kaybolan bitcoinlerin dolaşımdaki diğer coinlere etkisi nedir?
+answer: Herkese bağış olarak diğer herkesin madeni paralarını biraz daha değerli hale getiriyorlar
+wrong_answers:
+  - mining ödülleri için mevcut toplam değeri azaltarak ağ güvenliğini azaltırlar
+  - Zaman içinde parasal sistemi istikrarsızlaştıran deflasyonist baskı yaratırlar
+  - Amaçlanan tedarik seviyesini korumak için ek mining ile değiştirilmelidirler
+explanation: |
+  Satoshi Nakamoto, kaybedilen coinlerin, etkin arzın azalması nedeniyle coinlerini daha değerli hale getirerek diğer tüm bitcoin sahiplerine bir bağış işlevi gördüğünü açıkladı. Bu olumlu bir deflasyonist etkidir, istikrarı bozucu bir güç değildir. Kayıp coinler mining ödüllerini etkilemez çünkü bunlar mevcut arzdan değil yeni basılan coinlerden ve işlem ücretlerinden gelir. Bitcoin'ün protokolü kayıp madeni paraların yerini almaz - bunlar kalıcı olarak dolaşım dışı kalır, bu da aslında artan kıtlık yoluyla kalan sahiplere fayda sağlar.

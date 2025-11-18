@@ -1,0 +1,8 @@
+question: Který přístup by podle definice uvedené pro škálování Bitcoin NEBYL považován za legitimní škálování?
+answer: Zvýšení propustnosti transakcí tím, že uživatelé musí u většiny transakcí důvěřovat centralizovaným zpracovatelům plateb
+wrong_answers:
+  - Použití menšího počtu bajtů na vstupech transakcí díky efektivnějším kódovacím schématům
+  - Implementace řešení s vrstvenou architekturou, která staví protokoly nad Bitcoin
+  - Zlepšení výkonu ověřování podpisu pro rychlejší zpracování bloků
+explanation: |
+  Kapitola výslovně definuje škálování Bitcoin jako "zvyšování kapacity využití Bitcoin bez ohrožení jeho odolnosti vůči cenzuře" Správná odpověď tuto definici porušuje, protože požadavek, aby uživatelé důvěřovali centralizovaným zpracovatelům plateb, přímo ohrožuje odolnost systému Bitcoin vůči cenzuře, což je jeho hlavní hodnota. Všechny nesprávné odpovědi představují legitimní přístupy ke škálování uvedené v kapitole: efektivní kódování snižuje využití zdrojů, vrstvená řešení umožňují dodatečnou kapacitu při zachování vlastností základní vrstvy a vylepšené ověřování podpisů zvyšuje výkon bez kompromisů v oblasti centralizace.

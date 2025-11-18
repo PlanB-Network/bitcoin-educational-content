@@ -1,0 +1,8 @@
+question: Theo định nghĩa của cuốn sách, kịch bản nào thể hiện khả năng mở rộng Bitcoin hợp pháp trong khi vẫn duy trì khả năng chống kiểm duyệt?
+answer: Triển khai các thuật toán xác minh chữ ký tiết kiệm không gian hơn giúp giảm kích thước đầu vào giao dịch
+wrong_answers:
+  - Khuyến khích người dùng di chuyển giao dịch sang các sàn giao dịch tập trung để giảm khối lượng on-chain
+  - Triển khai lọc giao dịch tự động để ưu tiên một số loại hoạt động kinh tế nhất định
+  - Tạo các nút xác thực được chính phủ phê duyệt có thể xử lý giao dịch hiệu quả hơn
+explanation: |
+  Cuốn sách định nghĩa việc mở rộng quy mô Bitcoin là "tăng khả năng sử dụng của Bitcoin mà không ảnh hưởng đến khả năng chống kiểm duyệt của nó". Xác minh chữ ký tiết kiệm không gian phù hợp trực tiếp với định nghĩa này bằng cách làm cho các giao dịch sử dụng ít byte hơn trong khi vẫn duy trì tính phi tập trung. Tất cả các câu trả lời sai đều làm giảm khả năng chống kiểm duyệt: các sàn giao dịch tập trung giới thiệu các bên thứ ba đáng tin cậy, bộ lọc giao dịch tạo ra các cơ chế kiểm duyệt và các nút được chính phủ phê duyệt tập trung hóa thẩm quyền xác thực. Việc mở rộng quy mô thực sự bảo tồn các đặc tính cốt lõi của Bitcoin đồng thời cải thiện hiệu quả.

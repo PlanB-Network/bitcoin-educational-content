@@ -1,0 +1,8 @@
+question: Düşmanca düşünme yaklaşımına göre, bir miktar riski kabul etmek yerine Bitcoin'daki bilinen tüm zayıflıkların ele alınması gerekmesinin temel nedeni nedir?
+answer: Bitcoin, düşmanların yakalanmadan veya sorumlu tutulmadan zayıflıklardan yararlanabileceği sahte bir çevrimiçi ortamda çalışır
+wrong_answers:
+  - "Bitcoin'nin resmi güvenlik modeli, tüm potansiyel saldırı vektörlerinin ortadan kaldırıldığının matematiksel olarak kanıtlanmasını gerektirir"
+  - Bitcoin'ün dağıtılmış yapısı, küçük zayıflıkların bile tüm düğümlerde sistem çapında arızalara dönüşebileceği anlamına gelir
+  - "Bitcoin'ün sabit arzı, geleneksel finansal sistemlerden farklı olarak başarılı saldırılardan kaynaklanan kayıpları absorbe etmeyi ekonomik olarak olanaksız kılıyor"
+explanation: |
+  Doğru cevap, Andrew Poelstra'nın çevrimiçi sistemler ile fiziksel sistemler hakkındaki temel görüşünü yansıtmaktadır. Bazı riskleri kabul ettiğimiz ve kolluk kuvvetlerine güvendiğimiz binaların aksine, Bitcoin saldırganların görünürlük veya sonuç olmaksızın hareket edebildiği sahte bir ortamda çalışır. Bu temel fark, bilinen her zayıflığın kaçınılmaz olarak istismar edileceği anlamına gelir ve kapsamlı güvenliği isteğe bağlı risk yönetimi yerine gerekli kılar.

@@ -1,0 +1,8 @@
+question: Apa yang membuat pemrosesan transaksi Bitcoin tahan sensor?
+answer: Pemesanan transaksi dilakukan secara kolektif oleh sekumpulan penambang yang dinamis yang dapat bergabung atau meninggalkannya
+wrong_answers:
+  - Validasi transaksi dienkripsi menggunakan protokol kriptografi canggih yang tidak dapat dibobol oleh pemerintah
+  - Catatan transaksi disimpan di beberapa server cadangan yang dikendalikan oleh organisasi tepercaya yang berbeda
+  - Biaya transaksi secara otomatis disesuaikan untuk mencegah serangan ekonomi dari otoritas terpusat
+explanation: |
+  Bitcoin mencapai ketahanan terhadap sensor melalui desentralisasi penambang, di mana pemesanan transaksi dilakukan secara kolektif oleh semua penambang yang memilih untuk berpartisipasi. Hal ini menciptakan sebuah sistem yang dinamis di mana setiap orang dapat bergabung atau keluar dari proses mining dengan bebas, menghilangkan satu titik kontrol yang dapat ditekan untuk menyensor transaksi. Jawaban yang salah menggambarkan fitur teknis, pihak yang dipercaya, atau mekanisme ekonomi yang tidak membahas masalah inti dari kontrol terdesentralisasi atas pemrosesan transaksi.

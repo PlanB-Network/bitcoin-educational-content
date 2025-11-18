@@ -1,0 +1,8 @@
+question: Prema proračunima Pietera Wuillea, maksimalna teoretska količina Bitcoin koja će ikada postojati kada svi novčići budu iskopani je 21 milion.
+answer: 20.999.999,9769 BTC
+wrong_answers:
+  - 21,000,000.0000 BTC tačno
+  - 20.999.817,3131 BTC
+  - 20.500.000,0000 BTC approximately
+explanation: |
+  Pieter Wuille je izračunao da je teoretski maksimalni broj 20,999,999.9769 BTC, što je nešto manje od često navođenih 21 milion. Ovo je zbog specifičnog rasporeda prepolovljavanja i zaokruživanja u Bitcoin kodu. Brojka od 21 milion je zaokružena aproksimacija. Brojka 20,999,817.3131 predstavlja stvarnu cirkulišuću ponudu nakon uračunavanja izgubljenih novčića i grešaka mining do određenog bloka, a ne teoretski maksimum.

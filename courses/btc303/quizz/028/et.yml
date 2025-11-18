@@ -1,0 +1,8 @@
+question: Mis on peamine mure tasu snaipimise puhul, kui Bitcoin blokisubsiidium läheneb nullile?
+answer: Kaevandajad võivad leida, et varasemate plokkide ümberkirjutamine kõrgete tasudega on kasumlikum kui mining uute plokkide ümberkirjutamine
+wrong_answers:
+  - Tehingutasud muutuvad tavakasutajate jaoks liiga kalliks, et nad saaksid Bitcoin tehinguid endale lubada
+  - Bitcoin koguvarud ületavad 21 miljonit mining suurenenud stiimulite tõttu
+  - Kaevurid lõpetavad mining täielikult, sest tehingutasud üksi ei suuda katta elektrikulusid
+explanation: |
+  Fee sniping tekib siis, kui kaevurid üritavad uuesti kaevandada eelmisi plokke, mis sisaldasid kõrge tasu eest tehtavaid tehinguid, selle asemel, et ausalt laiendada ahelat. See muutub majanduslikult ratsionaalseks, kui eelmise ploki tasud ületavad märkimisväärselt praeguse mempool'i tasusid. Kuigi edu tõenäosus on väiksem kui ausal mining, võib potentsiaalne tasu olla palju suurem. Selline käitumine on eriti murettekitav, sest see võib tekitada kaskaadiefekti, kus rohkem kaevandajaid osaleb ebaausates tegevustes, mis lõpuks ohustab Bitcoin turvamudelit, kui plokkide toetused vähenevad.

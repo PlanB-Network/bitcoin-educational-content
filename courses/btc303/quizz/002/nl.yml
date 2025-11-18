@@ -1,0 +1,8 @@
+question: Wat zijn de twee belangrijkste aspecten van decentralisatie in Bitcoin?
+answer: Miner decentralisatie en full node decentralisatie
+wrong_answers:
+  - Transactie decentralisatie en wallet decentralisatie
+  - Netwerkdecentralisatie en protocoldecentralisatie
+  - Decentralisatie van gebruikers en ontwikkelaars
+explanation: |
+  De decentralisatie van Bitcoin heeft twee belangrijke componenten: decentralisatie van de mijnwerkers en decentralisatie van full node. Miner decentralisatie betekent dat het verwerken en bestellen van transacties niet wordt gecontroleerd door een enkele entiteit, maar door een dynamisch collectief van miners die zich vrij kunnen aansluiten of vertrekken. Full node decentralisatie verwijst naar de validatie van blokken aan de rand van het netwerk door gebruikers zelf, in plaats van door vertrouwde autoriteiten. Deze twee aspecten werken samen om censuurbestendigheid te bereiken - miners voorkomen dat transacties gecentraliseerd worden geordend, terwijl volledige knooppunten zorgen voor een vertrouwensloze validatie van de blockchain.

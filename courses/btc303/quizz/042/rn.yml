@@ -1,0 +1,8 @@
+question: Ni igiki catumye Shaolinfry asaba uburyo bwo gukoresha Soft Fork (UASF) mu gihe c’ugusubiramwo Segwit?
+answer: Abacukuzi ntibariko baratanga ikimenyetso c’uko bashigikiye Segwit naho abakoresha bariko barayishigikira cane, ivyo bikaba vyatumye haba uguhagarara
+wrong_answers:
+  - Uburyo bwa fork bwariho bwari buhoro cane kandi bwasaba urutonde rw'igihe co gukora vyihuta
+  - Amaforogo ya Hard yabonwa ko ari akaga cane kandi uburyo bushasha bworoshe bwa fork bwari bukenewe kugira ngo umuntu agire umutekano .
+  - Abahinguzi ba Bitcoin Core basavye ubundi buryo bwo kugabanya inshingano zabo mu guhindura ibintu .
+explanation: |
+  Dushingiye ku gice, igihe kode yo gukoresha Segwit yasohoka mu kwezi kwa Gitugutu 2016, hariho ugushigikira gukomeye cane mu bakoresha Bitcoin, ariko abacukuzi ntibagaragaje ko bashigikiye iyo nzira, ivyo vyatumye gukoresha bihagarara ata n’umuti ubonetse. Ivyo vyatumye hakenerwa uburyo bundi butashingiye ku bimenyetso vy’abacukuzi, bituma Shaolinfry asaba UASF nk’umuti wokoresha ugushitsa amategeko menshi mu vy’ubutunzi aho gukoresha ububasha bwa hash.

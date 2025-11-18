@@ -1,0 +1,8 @@
+question: Jak przeciwnik mógłby najskuteczniej zakłócić otwarty proces rozwoju Bitcoin zgodnie z taktyką Simple Sabotage Field Manual?
+answer: Infiltrując dyskusje w celu zatrzymania postępu poprzez niekończące się obawy o nieistotne kwestie i powtarzanie ustalonych debat
+wrong_answers:
+  - "Przeprowadzając rozproszone ataki typu "odmowa usługi" na komputery osobiste i serwery deweloperów Bitcoin Core"
+  - Przekupując pule mining, aby odrzucały aktualizacje oprogramowania i utrzymywały starsze wersje protokołu w nieskończoność
+  - Tworząc konkurencyjne kryptowaluty, które oferują lepsze funkcje, aby odciągnąć deweloperów od projektów Bitcoin
+explanation: |
+  W podręczniku Simple Sabotage Field Manual opisano taktyki infiltracji mające na celu zakłócanie organizacji od wewnątrz, w tym wstrzymywanie postępów poprzez nieistotne obawy i ponowne omawianie ustalonych dyskusji. Ponieważ rozwój Bitcoin jest otwarty dla każdego, te taktyki socjotechniczne stanowią realne zagrożenie. Pozostałe opcje reprezentują raczej ataki zewnętrzne niż wewnętrzne metody sabotażu opisane w podręczniku, które koncentrują się na wykorzystaniu otwartego, opartego na współpracy charakteru procesu rozwoju Bitcoin.

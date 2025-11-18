@@ -1,0 +1,8 @@
+question: Bitcoin'ın ağ güvenliğinin maliyetini nihai olarak kimin üstleneceği açısından blok sübvansiyonu ile işlem ücretleri arasındaki temel fark nedir?
+answer: Blok sübvansiyon maliyetleri parasal enflasyon yoluyla blok sahipleri tarafından karşılanırken, işlem ücretleri harcama yapanlar tarafından ödenir
+wrong_answers:
+  - Blok sübvansiyon maliyetleri madenciler tarafından ekipman masrafları yoluyla ödenirken, işlem ücretleri düğüm operatörleri tarafından karşılanır
+  - Blok sübvansiyon maliyetleri tüm ağ katılımcıları arasında eşit olarak paylaşılırken, işlem ücretleri yalnızca büyük kurumları etkiler
+  - Blok sübvansiyon maliyetleri işlem ücretleri aracılığıyla borsalar tarafından karşılanırken, işlem ücretleri wallet sağlayıcıları tarafından ödenir
+explanation: |
+  Paul Sztorc'un da belirttiği gibi, blok sübvansiyonu ve işlem ücretleri doğaları gereği temelde farklıdır. Blok sübvansiyonu, mevcut arzı sulandıran ve parasal enflasyon yoluyla tüm bitcoin sahiplerine etkili bir şekilde mal olan yeni bitcoin yaratımını temsil eder. Buna karşılık işlem ücretleri, işlem yapmak isteyen kullanıcılar tarafından yapılan doğrudan ödemelerdir, yani harcama yapanlar bu maliyeti doğrudan üstlenirler. Bu bölüm, blok sübvansiyonu zaman içinde azaldıkça güvenlik maliyetlerinin nasıl sahiplerden harcayıcılara kayacağını göstererek bu geçişi örneklendirmektedir.

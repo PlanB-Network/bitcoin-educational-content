@@ -1,0 +1,8 @@
+question: Vilken viktig egenskap i Bitcoin:s utvecklingsprocess gör den särskilt sårbar för infiltrationstaktik som beskrivs i sabotagemanualer från krigstiden?
+answer: Bitcoin-utvecklingen är öppen för alla att delta i utan grindvakter
+wrong_answers:
+  - Bitcoin-utvecklingen förlitar sig på en liten grupp betrodda kärnunderhållare
+  - Bitcoin-utveckling kräver formellt myndighetsgodkännande för större förändringar
+  - Bitcoin-utvecklingen använder kod med sluten källkod som begränsar externa bidrag
+explanation: |
+  Bitcoin:s öppna utvecklingsprocess, som är en av dess största styrkor när det gäller decentralisering och transparens, skapar också en sårbarhet för infiltration av motståndare. Eftersom vem som helst kan delta i diskussioner, föreslå ändringar och delta i granskningsprocessen utan att behöva tillstånd eller inloggningsuppgifter, kan dedikerade angripare utnyttja denna öppenhet. De kan fördröja utvecklingen genom ändlösa frågor om irrelevanta problem, köpslå om exakta formuleringar, upprepa redan avklarade diskussioner eller använda "sociala Sybil-attacker" med flera falska identiteter för att skapa falska intryck av motstånd. Denna öppenhet står i skarp kontrast till slutna utvecklingsmodeller som har grindvakter eller godkännandeprocesser som kan filtrera bort dåliga aktörer.

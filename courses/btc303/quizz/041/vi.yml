@@ -1,0 +1,8 @@
+question: Đặc điểm kỹ thuật cụ thể nào mà fork cứng của Satoshi vô tình tạo ra để hỗ trợ nâng cấp fork mềm trong tương lai?
+answer: Các toán tử Script OP_NOP1 đến OP_NOP10 mã lệnh
+wrong_answers:
+  - Cơ chế kích hoạt BIP65 và BIP113 cho tín hiệu khai thác
+  - Khung tương thích ngược và tiến cho những thay đổi đồng thuận
+  - Hệ thống kích hoạt ngày cờ fork (UASF) mềm do người dùng kích hoạt
+explanation: |
+  Theo phân tích của Eric Lombrozo, fork cứng của Satoshi (được truyền đạt kém và ẩn trong một cam kết về các thay đổi makefile) đã vô tình tạo ra các mã lệnh OP_NOP1 đến OP_NOP10. Các mã 'không hoạt động' này được thiết kế để không làm gì khi được thực thi, nhưng chúng cung cấp các trình giữ chỗ có thể được sử dụng lại cho các chức năng mới thông qua các nhánh mềm. Điều này đã được chứng minh là đúng đắn, khi OP_NOP2 trở thành OP_CHECKLOCKTIMEVERIFY (BIP65) và OP_NOP3 trở thành OP_CHECKSEQUENCEVERIFY (BIP112). Các lựa chọn khác không chính xác vì BIP65 và BIP113 là các bản nâng cấp sử dụng các mã lệnh này thay vì tạo ra chúng, khuôn khổ tương thích là một phương pháp tiếp cận mang tính khái niệm hơn là một tính năng kỹ thuật, và UASF được đề xuất muộn hơn nhiều trong cuộc tranh cãi về Segwit.

@@ -1,0 +1,8 @@
+question: Mikä on matemaattinen todennäköisyyskaava sille, että epärehellinen louhija, jolla on x prosentin hash-aste, onnistuu suorittamaan maksullisen snipkauksen uudelleen-mining edellisen lohkon ja uuden lohkon avulla?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  Oikea kaava on (x/(1-x))^2, koska fee sniping edellyttää, että louhija louhii onnistuneesti kaksi peräkkäistä lohkoa korvatakseen edellisen lohkon ja jatkaakseen ketjua. Todennäköisyys, että mining louhii yhden lohkon rehellisiä louhijoita vastaan, on x/(1-x), ja koska kaksi lohkoa on louhittava peräkkäin, tämä todennäköisyys on neliö. Muut kaavat ovat matemaattisesti uskottavia, mutta ne edustavat erilaisia todennäköisyysskenaarioita, jotka eivät vastaa maksullisen sniplauksen erityisvaatimuksia, joissa epärehellisen louhijan on voitettava rehellinen verkko kahdesti peräkkäin.

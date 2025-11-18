@@ -1,0 +1,8 @@
+question: K jakému zásadnímu posunu dochází ve struktuře bezpečnostních nákladů Bitcoin, když se bloková dotace blíží nule?
+answer: Náklady na zabezpečení se přesouvají z plateb držitelů prostřednictvím měnové inflace na platby utrácejících osob prostřednictvím transakčních poplatků
+wrong_answers:
+  - Náklady na zabezpečení se přesouvají z nákladů, které hradí těžaři prostřednictvím investic do hardwaru, na náklady, které hradí uzly prostřednictvím spotřeby elektřiny
+  - Náklady na cenné papíry se přesouvají z úhrady ze strany burz prostřednictvím poplatků za obchodování na úhradu ze strany poskytovatelů wallet prostřednictvím poplatků za služby
+  - Náklady na bezpečnost se přesouvají z nákladů hrazených vývojáři prostřednictvím údržby kódu na náklady hrazené uživateli prostřednictvím účasti v síti
+explanation: |
+  Kapitola jasně vysvětluje, že dnes držitelé platí za bezpečnost Bitcoin prostřednictvím měnové inflace (nové mince vznikají prostřednictvím blokové dotace), ale v budoucnu, až se bloková dotace přiblíží nule, budou utrácející platit za bezpečnost prostřednictvím transakčních poplatků. To představuje zásadní ekonomickou změnu v tom, kdo nese náklady na udržování bezpečnosti sítě, a to přechod od modelu, kdy tvorba nových mincí financuje mining, k modelu, kdy transakční poplatky musí těžaře dostatečně motivovat k zabezpečení sítě.

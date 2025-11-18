@@ -1,0 +1,8 @@
+question: Ni irihe tandukaniro ry’ubuhinga ry’intango hagati y’ububiko bwa GitHub bwa Bitcoin Core n’izindi kopi ibihumbi n’ibihumbi z’ububiko bumwe nyene zikwiragizwa kw’isi yose?
+answer: Nta tandukaniro ry’ubuhinga ririho; ikora nk'ikibanza c'imibano kugira ngo iterambere ribe ryiza
+wrong_answers:
+  - Ububiko bwa GitHub burimwo imikono y'ibanga yemeza ko ari verisiyo yemewe .
+  - Ububiko bwa GitHub burafise uburenganzira budasanzwe bwo gukora bubuza guhindura bitaremewe ku rubuga rwa kode
+  - Ububiko bwa GitHub buragumya urufunguzo nyamukuru rwemeza izindi kopi zose z'ububiko kw'isi yose .
+explanation: |
+  Dushingiye ku nseguro ya Jameson Lopp yavuzwe muri iki kigabane, ububiko bwa Bitcoin Core bwa GitHub burasa n’izindi kopi zose mu buryo bw’ubuhinga. Insobanuro yayo ni iyo mu kibano gusa - yacitse ikintu nyamukuru co guhuza iterambere. Ububiko bukora nk’ikintu co gufasha aho kuba ububasha bw’ubuhinga, kandi iyo buzimangana, mu buryo busanzwe hoba hariho ikintu gishasha co gushimikirako. Ivyo vyerekana kamere ya Bitcoin yegerejwe aho ata bubiko bumwe bufise ubukuru bw’ubuhinga ku bundi.

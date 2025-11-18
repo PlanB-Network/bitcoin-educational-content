@@ -151,79 +151,66 @@ _Schermata dei codici di recupero di ProtonMail con l'elenco dei codici di recup
 Quando si aggiunge un account, conserva i codici di recupero forniti dal servizio. La maggior parte dei siti offre codici di recupero statici e monouso da conservare in un luogo sicuro. Conserva questi codici di backup al di fuori di Proton Authenticator, in modo da poter accedere al tuo account se perdi l'accesso all'applicazione 2FA.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Installazione di IOS e importazione di codice
 
 Ora che avete configurato Proton Authenticator su macOS, potreste volerlo utilizzare anche su iPhone o iPad. Ecco come ottenere i codici 2FA su più dispositivi.
 
 ### Scaricare l'applicazione su iOS
 
-Andate sull'App Store e cercate "Proton Authenticator". Scaricate e installate l'applicazione sul vostro dispositivo iOS.
+Vai sull'App Store e cerca "Proton Authenticator". Scarica e installa l'applicazione sul tuo dispositivo iOS.
 
 ![PROTON AUTHENTICATOR](assets/fr/16.webp)
 
-*Processo di installazione su iOS: schermata di benvenuto, procedura guidata di importazione, selezione delle applicazioni compatibili e schermata finale "Importa codici da Proton Authenticator "*
+_Processo di installazione su iOS: schermata di benvenuto, procedura guidata di importazione, selezione delle applicazioni compatibili e schermata finale "Importa codici da Proton Authenticator"_
 
 ### Metodo 1: Esportazione/importazione tramite file JSON
 
-Se non si utilizza la sincronizzazione automatica (account iCloud o Proton), è necessario trasferire manualmente i codici dal Mac all'iPhone:
+Se non utilizzi la sincronizzazione automatica (account iCloud o Proton), è necessario trasferire manualmente i codici dal Mac all'iPhone:
 
 **Fase 1 - Esportazione da macOS** :
 
-Sul Mac, aprire Proton Authenticator e andare su Impostazioni (icona ingranaggio). Nel menu, fare clic su "Esporta".
+Sul Mac, apri Proton Authenticator e vai su Impostazioni (icona ingranaggio). Nel menu, fai clic su "Esporta".
 
 ![PROTON AUTHENTICATOR](assets/fr/17.webp)
 
-*Menu delle impostazioni di Proton Authenticator su macOS con l'opzione "Esporta" visibile*
+_Menu delle impostazioni di Proton Authenticator su macOS con l'opzione "Esporta" visibile_
 
 ![PROTON AUTHENTICATOR](assets/fr/18.webp)
 
-*Finestra di esportazione con nome del file "Proton_Authenticator_backup_2025" e pulsante "Salva "*
+_Finestra di esportazione con nome del file "Proton_Authenticator_backup_2025" e pulsante "Salva "_
 
-Salvare il file JSON sul Mac. È possibile inviarlo tramite e-mail sicura o salvarlo in iCloud Drive per accedervi dall'iPhone.
+Salva il file JSON sul Mac. È possibile inviarlo tramite e-mail sicura o salvarlo in iCloud Drive per accedervi dall'iPhone.
 
 **Fase 2 - Importazione su iOS** :
 
-Sul vostro iPhone, installate Proton Authenticator e, durante la configurazione, scegliete di importare i codici. Selezionare "Proton Authenticator" dall'elenco e importare il file JSON.
+Sul tuo iPhone, installa Proton Authenticator e, durante la configurazione, scegli di importare i codici. Seleziona "Proton Authenticator" dall'elenco e importa il file JSON.
 
 ![PROTON AUTHENTICATOR](assets/fr/19.webp)
 
-*Processo di importazione su iOS: Localizzazione del file JSON, conferma dell'importazione e schermate di configurazione con opzioni Face ID e iCloud*
+_Processo di importazione su iOS: Localizzazione del file JSON, conferma dell'importazione e schermate di configurazione con opzioni Face ID e iCloud_
 
 ### Metodo 2: Sincronizzazione automatica
 
-**Via account Proton (per la sincronizzazione multipiattaforma)** :
+**Via account Proton (per la sincronizzazione multipiattaforma)**:
 
-Se non si è ancora configurato un account Proton e si desidera sincronizzare tra diversi sistemi operativi, l'applicazione chiederà di creare o collegare un account Proton.
+Se non hai ancora configurato un account Proton e se desideri sincronizzare tra diversi sistemi operativi, l'applicazione chiederà di creare o collegare un account Proton.
 
 ![PROTON AUTHENTICATOR](assets/fr/20.webp)
 
-*Schermata di sincronizzazione del dispositivo che chiede di creare un account Proton gratuito o di collegarsi a un account esistente*
+_Schermata di sincronizzazione del dispositivo che chiede di creare un account Proton gratuito o di collegarsi a un account esistente_
 
-**Via iCloud (solo per l'ecosistema Apple)** :
+**Via iCloud (solo per l'ecosistema Apple)**:
 
 Se si utilizzano solo dispositivi Apple, è possibile scegliere la sincronizzazione iCloud nelle impostazioni dell'applicazione. Questo metodo sincronizza automaticamente e in modo sicuro i codici tra tutti i dispositivi Apple, senza bisogno di un account Proton.
 
 
 ## Backup e ripristino criptati
 
-Una delle caratteristiche principali di Proton Authenticator è il back-up end-to-end dei codici 2FA, che garantisce che in caso di perdita o cambio di dispositivo non si debba ricominciare da capo.
+Una delle caratteristiche principali di Proton Authenticator è il back-up end-to-end dei codici 2FA, ciò garantisce che in caso di perdita o cambio di dispositivo non si debba ricominciare da capo.
 
 ### Crittografia end-to-end
 
-Quando si tratta di backup crittografato nel cloud con Proton Authenticator, i segreti TOTP vengono crittografati localmente sul dispositivo prima di essere inviati al server Proton. La decodifica è possibile solo da parte vostra, sui dispositivi collegati al vostro account Proton. Proton AG non dispone della chiave per leggere i codici registrati.
+Quando si tratta di backup crittografato nel cloud con Proton Authenticator, i segreti TOTP vengono crittografati localmente sul dispositivo prima di essere inviati al server Proton. La decodifica è possibile solo da parte tua, sui dispositivi collegati al tuo account Proton. Proton AG non dispone della chiave per leggere i codici registrati.
 
 Su iOS, se si sceglie iCloud anziché l'account Proton, i dati vengono crittografati secondo gli standard Apple. Il backup locale su Android consente di crittografare il file di backup con una password a scelta.
 
@@ -231,11 +218,9 @@ Su iOS, se si sceglie iCloud anziché l'account Proton, i dati vengono crittogra
 
 Se il telefono viene smarrito, rubato o si cambia telefono :
 
-**Con il backup di Proton abilitato**: Installare Proton Authenticator sul nuovo dispositivo. Durante la configurazione iniziale, accedere allo stesso account Proton. Immediatamente, l'applicazione sincronizzerà e scaricherà tutti i codici 2FA dal backup criptato.
-
-**Con il backup di iCloud (iOS)**: Collegare il nuovo iPhone/iPad con lo stesso ID Apple e assicurarsi di attivare il Portachiavi iCloud. Dopo aver installato Proton Authenticator, collegarsi a iCloud. I codici dovrebbero sincronizzarsi tramite iCloud e apparire.
-
-**Nessun backup nel cloud**: Dovrete importare i vostri account manualmente. Se avete esportato un file di backup, utilizzate la funzione Importa in Proton Authenticator. Nel peggiore dei casi, se non si dispone di un backup, è necessario utilizzare i codici di backup per ciascun servizio o contattare l'assistenza.
+- **Con il backup di Proton abilitato**: installa Proton Authenticator sul nuovo dispositivo. Durante la configurazione iniziale, accedi allo stesso account Proton. Immediatamente, l'applicazione sincronizzerà e scaricherà tutti i codici 2FA dal backup criptato.
+- **Con il backup di iCloud (iOS)**: collega il nuovo iPhone/iPad con lo stesso ID Apple e assicurarti di attivare il Portachiavi iCloud. Dopo aver installato Proton Authenticator, collegarti a iCloud. I codici dovrebbero sincronizzarsi tramite iCloud e apparire.
+- **Nessun backup nel cloud**: dovrai importare i tuoi account manualmente. Se hai esportato un file di backup, utilizza la funzione Importa in Proton Authenticator. Nel peggiore dei casi, se non si dispone di un backup, è necessario utilizzare i codici di backup per ciascun servizio o contattare l'assistenza.
 
 Proton Authenticator consente di esportare gli account in qualsiasi momento, sia come file crittografato che come codice QR multi-account. Queste opzioni offrono una maggiore sicurezza.
 
@@ -250,19 +235,19 @@ Quando si attiva la 2FA su un servizio, spesso viene fornito un elenco di codici
 
 ### Non confondete le vostre password e i codici 2FA
 
-Si è tentati di utilizzare un gestore di password che memorizzi anche i TOTP. Tuttavia, tenere la password e il codice 2FA nello stesso posto crea un unico punto di errore e indebolisce la doppia autenticazione. Per la massima sicurezza, molti esperti consigliano di separare i due fattori: le password in un gestore sicuro e i codici 2FA in un'applicazione separata come Proton Authenticator. Tuttavia, utilizzare un gestore integrato è sempre meglio che non avere affatto la 2FA.
+Sarai tentato di utilizzare un gestore di password che memorizzi anche i TOTP. Tuttavia, tenere la password e il codice 2FA nello stesso posto crea un unico punto di errore e indebolisce la doppia autenticazione. Per la massima sicurezza, molti esperti consigliano di separare i due fattori: le password in un gestore sicuro e i codici 2FA in un'applicazione separata come Proton Authenticator. Tuttavia, utilizzare un gestore integrato è sempre meglio che non avere affatto la 2FA.
 
 ### Attivare diversi metodi 2FA
 
-Idealmente, utilizzate più di un secondo fattore per i vostri account critici. Non esitate ad aggiungere una chiave di sicurezza fisica se il servizio lo consente. Per maggiori informazioni, consultate il nostro tutorial sulle chiavi fisiche Yubikey:
+Idealmente, utilizza più di un secondo fattore per i tuoi account critici. Non esitare ad aggiungere una chiave di sicurezza fisica se il servizio lo consente. Per maggiori informazioni, consultate il nostro tutorial sulle chiavi fisiche Yubikey:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-Allo stesso modo, tenete a portata di mano dei codici di emergenza stampati.
+Allo stesso modo, tieni a portata di mano dei codici di emergenza stampati.
 
 ### Discrezione e protezione del dispositivo
 
-Non permettete a nessuno di cercare il vostro telefono sbloccato. Con Proton Authenticator, i codici sono protetti da PIN/biometria: non divulgate questo PIN. Allo stesso modo, fate attenzione al phishing: anche con il 2FA, se fornite un codice a un sito fraudolento in tempo reale, potrebbe essere utilizzato da un malintenzionato.
+Non permettere a nessuno di cercare il tuo telefono sbloccato. Con Proton Authenticator, i codici sono protetti da PIN/biometria: non divulgare questo PIN. Allo stesso modo, fai attenzione al phishing: anche con il 2FA, se fornisci un codice a un sito fraudolento in tempo reale, potrebbe essere utilizzato da un malintenzionato.
 
 ### Aggiornamenti e audit
 
@@ -272,47 +257,16 @@ Mantenere Proton Authenticator aggiornato (gli aggiornamenti correggono eventual
 ## Confronto con altre applicazioni
 
 Come si colloca Proton Authenticator rispetto ad altre applicazioni di autenticazione? Ecco un riepilogo comparativo:
+- **Proton Authenticator**: open source, backup in cloud crittografato E2EE opzionale, sincronizzazione su più dispositivi, blocco locale, nessun tracciamento, disponibile su mobile e desktop.
+- **Google Authenticator**: proprietario, backup tramite account Google dal 2023 ma senza crittografia end-to-end (le chiavi possono essere viste da Google), sincronizzazione multidispositivo aggiunta nel 2023, nessun blocco delle applicazioni per impostazione predefinita, contiene tracker di Google.
+- **Aegis Authenticator**: open source, solo backup locale, nessuna sincronizzazione cloud, codice/blocco biometrico, nessun tracciamento, solo Android.
+- **Authy**: proprietario, backup su cloud criptato con password ma codice chiuso, sincronizzazione su più dispositivi, blocco PIN/impronta digitale, raccoglie il numero di telefono, l'applicazione desktop verrà dismessa nel marzo 2024.
 
-**Proton Authenticator**: Open source, backup in cloud crittografato E2EE opzionale, sincronizzazione su più dispositivi, blocco locale, nessun tracciamento, disponibile su mobile e desktop.
-
-**Google Authenticator**: Proprietario, backup tramite account Google dal 2023 ma senza crittografia end-to-end (le chiavi possono essere viste da Google), sincronizzazione multidispositivo aggiunta nel 2023, nessun blocco delle applicazioni per impostazione predefinita, contiene tracker di Google.
-
-**Aegis Authenticator**: Open source, solo backup locale, nessuna sincronizzazione cloud, codice/blocco biometrico, nessun tracciamento, solo Android.
-
-**Autentico**: Proprietario, backup su cloud criptato con password ma codice chiuso, sincronizzazione su più dispositivi, blocco PIN/impronta digitale, raccoglie il numero di telefono, l'applicazione desktop verrà dismessa nel marzo 2024.
-
-Di seguito troverete la nostra guida ad Authy:
+Di seguito troverai la nostra guida ad Authy:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Proton Authenticator è una delle soluzioni più complete e sicure disponibili: open source, sincronizzazione criptata su più dispositivi, nessun seguito commerciale.
-Per prima cosa, potete consultare la nostra guida a ProtonMail per maggiori informazioni:
-
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
-
-Accedere al proprio account ProtonMail e andare alle impostazioni di sicurezza. Cercate l'opzione "Autenticazione a due fattori" e attivatela.
-
-![PROTON AUTHENTICATOR](assets/fr/08.webp)
-
-*Pagina delle impostazioni di ProtonMail con l'opzione "Authenticator app" nella sezione "Autenticazione a due fattori "*
-
-Fare clic sul pulsante per attivare l'autenticatore e ProtonMail chiederà di scegliere un'applicazione di autenticazione.
-
-![PROTON AUTHENTICATOR](assets/fr/09.webp)
-
-*Finestra di configurazione di ProtonMail 2FA con i pulsanti "Annulla" e "Avanti "*
-
-ProtonMail visualizzerà quindi un codice QR da scansionare con la propria applicazione di autenticazione.
-
-![PROTON AUTHENTICATOR](assets/fr/10.webp)
-
-*Codice QR ProtonMail da scansionare con la vostra applicazione di autenticazione, con l'opzione "Inserisci manualmente la chiave" disponibile*
-
-Se si preferisce inserire la chiave manualmente, fare clic su "Enter key manually instead" per visualizzare la chiave segreta.
-
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Attach files by dragging & dropping, selecting or pasting them.
-
+Proton Authenticator è una delle soluzioni più complete e sicure disponibili: open source, sincronizzazione criptata su più dispositivi, nessun tracciamento commerciale.
 
 
 ## Risorse e supporto
@@ -322,7 +276,7 @@ Attach files by dragging & dropping, selecting or pasting them.
 - **Sito web ufficiale**: [proton.me/authenticator](https://proton.me/authenticator) - Presentazione del prodotto e download
 - **Pagina di download**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Link per tutti i sistemi operativi
 - **Supporto Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Guida ufficiale all'attivazione di 2FA
-- **Blog di Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Annuncio e caratteristiche dettagliate
+- **Blog di Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Annunci e caratteristiche dettagliate
 
 ### Codice sorgente e trasparenza
 
@@ -331,17 +285,12 @@ Attach files by dragging & dropping, selecting or pasting them.
 
 ### Test di sicurezza consigliati
 
-Dopo la configurazione, testare la configurazione:
+Dopo la configurazione, testa la configurazione:
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Controlla se i tuoi account sono stati compromessi
 - [2FA Directory](https://2fa.directory/) - Elenco dei servizi che supportano 2FA
 
 ### Comunità e discussioni
 
-- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - La comunità ufficiale di Proton
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - La community ufficiale di Proton
 - **Forum delle guide sulla privacy**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Discussioni tecniche su questioni di privacy
-- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Consigli generali sulla privacy
-
-### Altro
-
-- [Have I Been Pwned](https://haveibeenpwned.com/) - Controlla se i tuoi account sono stati compromessi
-- [2FA Directory](https://2fa.directory/) - Elenco dei servizi che supportano 2FA
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Consigli generali sulla privacy.

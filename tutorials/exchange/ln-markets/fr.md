@@ -1,6 +1,6 @@
 ---
 name: LN Markets
-description: Plateforme de trading Bitcoin sur Lightning Network sans KYC
+description: Plateforme de trading Bitcoin sur le Lightning Network
 ---
 
 ![cover](assets/cover.webp)

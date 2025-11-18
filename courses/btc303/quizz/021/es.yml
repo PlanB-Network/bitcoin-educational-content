@@ -1,0 +1,8 @@
+question: ¿Qué sirve de seudónimo en el sistema de seudónimos de Bitcoin?
+answer: Direcciones derivadas de claves públicas
+wrong_answers:
+  - "Nombres de usuario descriptivos como 'watchme1984'"
+  - Claves privadas almacenadas en monederos
+  - Identificadores de transacción en la cadena de bloques
+explanation: |
+  Bitcoin utiliza direcciones derivadas de claves públicas como seudónimos en lugar de nombres de usuario arbitrarios u otros identificadores. Esta elección de diseño sirve a múltiples propósitos importantes: elimina la necesidad de registrar seudónimos de antemano en la cadena de bloques, reduce los incentivos para reutilizar el mismo seudónimo, evita la hinchazón innecesaria de la cadena de bloques y hace que sea mucho más difícil para los actores maliciosos hacerse pasar por otros. El uso de nombres de usuario descriptivos requeriría un sistema de registro y crearía vulnerabilidades de seguridad, mientras que las claves privadas deben permanecer secretas y los identificadores de transacción tienen un propósito diferente en el sistema.

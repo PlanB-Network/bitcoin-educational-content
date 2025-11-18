@@ -1,0 +1,8 @@
+question: MIT-lisenssin mukaan, jonka nojalla Bitcoin Core on jaettu, mikä rajoitus koskee johdettujen teosten jakelua?
+answer: Johdettujen teosten jakelussa on noudatettava samoja ehtoja kuin alkuperäisen ohjelmiston lisenssissä
+wrong_answers:
+  - Johdettuja teoksia ei saa myydä kaupallisesti, vaan ne on aina jaettava maksutta
+  - Johdetut teokset edellyttävät Bitcoin Core -kehittäjien nimenomaista kirjallista lupaa ennen jakelua
+  - Johdettujen teosten on sisällettävä alkuperäinen Bitcoin Core -brändi, eikä niitä saa nimetä uudelleen tai brändätä uudelleen
+explanation: |
+  MIT-lisenssi edellyttää, että johdettuja teoksia jaetaan samoilla lisenssiehdoilla kuin alkuperäistä ohjelmistoa, mikä takaa avoimen lähdekoodin luonteen säilymisen. Tämä ei kiellä kaupallista myyntiä (väärä vastaus 1), ei vaadi lupaa kehittäjiltä (väärä vastaus 2) eikä edellytä alkuperäisen tuotemerkin säilyttämistä (väärä vastaus 3). Lisenssissä todetaan nimenomaan, että muutokset ja johdetut teokset on sallittava samoilla ehdoilla, jolloin säilytetään luvaton kehitysmalli, joka mahdollistaa Lightning Network:n ja sivuketjujen kaltaiset innovaatiot.

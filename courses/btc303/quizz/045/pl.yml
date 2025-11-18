@@ -1,0 +1,8 @@
+question: Jakie było problematyczne podejście Satoshi podczas implementacji twardego fork, którego deweloperzy Bitcoin nigdy by dziś nie użyli?
+answer: Ukrycie przełomowej zmiany w zatwierdzeniu z wprowadzającym w błąd opisem, który nie wskazywał na modyfikacje zasad konsensusu
+wrong_answers:
+  - Wdrożenie twardego fork bez wcześniejszego publicznego ogłoszenia lub komunikacji ze społecznością Bitcoin
+  - Łączenie wielu hard forków w jedno wydanie bez odpowiednich testów lub procesów przeglądu przez społeczność
+  - Natychmiastowa aktywacja twardego fork bez zapewnienia użytkownikom wystarczającego czasu na aktualizację oprogramowania węzła
+explanation: |
+  Zgodnie z analizą Erica Lombrozo, problematyczne podejście Satoshi polegało na ukrywaniu zmian łamiących konsensus w commitach z wprowadzającym w błąd opisem, który wspominał jedynie o "reverted makefile.unix wx-config version 0.3.6" bez żadnego wskazania zmian łamiących konsensus. Ta praktyka ukrywania krytycznych modyfikacji konsensusu w niewinnie wyglądających commitach zostałaby uznana za niedopuszczalną według dzisiejszych standardów, gdzie przejrzystość i jasna komunikacja na temat zmian konsensusu są podstawowymi zasadami rozwoju Bitcoin.

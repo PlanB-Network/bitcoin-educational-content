@@ -1,0 +1,8 @@
+question: Theo định nghĩa nguồn mở, mối quan hệ bắt buộc giữa các tác phẩm phái sinh và các điều khoản cấp phép của chúng so với phần mềm gốc là gì?
+answer: Các tác phẩm phái sinh phải được phép phân phối theo các điều khoản tương tự như giấy phép của phần mềm gốc
+wrong_answers:
+  - Các tác phẩm phái sinh phải được phân phối theo các điều khoản cấp phép hạn chế hơn so với phần mềm gốc
+  - Các tác phẩm phái sinh phải được phát hành theo một giấy phép hoàn toàn khác không tương thích với bản gốc
+  - Các tác phẩm phái sinh chỉ có thể được phân phối theo giấy phép độc quyền yêu cầu thanh toán tiền bản quyền
+explanation: |
+  Định nghĩa nguồn mở nêu rõ rằng "giấy phép phải cho phép sửa đổi và các tác phẩm phái sinh, và phải cho phép chúng được phân phối theo cùng các điều khoản như giấy phép của phần mềm gốc". Điều này đảm bảo rằng các tác phẩm phái sinh duy trì các quyền tự do tương tự như bản gốc, ngăn chặn việc ai đó lấy mã nguồn mở và biến nó thành độc quyền. Các lựa chọn khác vi phạm nguyên tắc cơ bản này bằng cách hạn chế quyền tự do hoặc thay đổi khả năng tương thích cấp phép.

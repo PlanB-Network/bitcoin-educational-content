@@ -1,0 +1,8 @@
+question: Vad krävs för att använda Bitcoin på ett förtroendefritt sätt enligt protokollets design?
+answer: Kör en helt validerande Bitcoin-nod för att själv verifiera alla block och transaktioner
+wrong_answers:
+  - Använda en välrenommerad kryptovalutabörs med starka säkerhetsåtgärder och försäkringar
+  - Förlitar sig på flera betrodda tjänster från tredje part för att korsverifiera transaktionsinformation
+  - Installera verifierad wallet-programvara från officiella källor med digitala signaturer
+explanation: |
+  För att använda Bitcoin på ett tillförlitligt sätt måste du köra en helt validerande Bitcoin-nod som oberoende verifierar att alla block följer konsensusregler, kontrollerar schemat för myntutgivning och förhindrar dubbelspendering. Detta säkerställer att du inte lägger ut verifiering till andra, vilket upprätthåller den förtroendefria egenskapen. Att använda börser eller tjänster från tredje part innebär att man litar på att andra berättar sanningen om blockkedjans tillstånd. Även om verifierad programvara är viktig för säkerheten, eliminerar det inte behovet av din egen valideringsnod för att uppnå verklig tillförlitlighet i Bitcoin-systemet.

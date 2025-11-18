@@ -1,0 +1,8 @@
+question: Bitcoin'ın güvenlik varsayımlarını binalar gibi geleneksel fiziksel güvenlik sistemlerinden ayıran nedir?
+answer: Bitcoin bilinen tüm zayıflıkları ele almalıdır çünkü çevrimiçi düşmanlar anonimdir ve herhangi bir güvenlik açığından yararlanabilirler
+wrong_answers:
+  - Bitcoin matematiksel kanıtlara dayanırken, binalar fiziksel bariyerlere ve kolluk kuvvetlerine dayanır
+  - "Bitcoin'ün güvenliği ekonomik teşviklere dayanırken, binalar görünür güvenlik önlemleriyle caydırıcılık sağlıyor"
+  - Bitcoin koruma için kriptografik imzalar kullanırken, binalar erişim kontrolü ve izleme sistemlerine güveniyor
+explanation: |
+  Temel ayrım, Bitcoin gibi çevrimiçi sistemlerin, faillerin tespit edilip kovuşturulabilmesi nedeniyle bir miktar riski kabul edebileceğimiz fiziksel sistemlerin aksine, bilinen herhangi bir zayıflığı kaçınılmaz olarak istismar edecek anonim düşmanlarla karşı karşıya olmasıdır. Andrew Poelstra'nın da belirttiği gibi, çevrimiçi ortamda kolluk kuvvetlerini caydırma lüksüne sahip değiliz - sisteme düşmanca zarar vermek mümkünse, anonim aktörler bunu yapacaktır. Bu da Bitcoin'i hesaplanmış riskleri kabul etmek yerine tüm güvenlik açıklarını ele almaya zorlamaktadır.

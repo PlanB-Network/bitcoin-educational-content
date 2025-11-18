@@ -1,0 +1,8 @@
+question: Was ist nach dem Responsible Disclosure Framework der primäre strategische Grund dafür, den Altcoin-Entwicklern Patches für Schwachstellen erst dann zur Verfügung zu stellen, wenn die Korrekturen im Bitcoin-Netzwerk weit verbreitet sind?
+answer: Um zu verhindern, dass Angreifer dieselbe Sicherheitslücke auf Bitcoin ausnutzen, während Altcoins gepatcht werden
+wrong_answers:
+  - "Um den Wettbewerbsvorteil von Bitcoin gegenüber alternativen Kryptowährungsimplementierungen zu erhalten"
+  - Um sicherzustellen, dass Altcoin-Entwickler genügend Zeit haben, um die Korrekturen zu verstehen und ordnungsgemäß umzusetzen
+  - Vermeidung rechtlicher Haftungsprobleme, die sich aus einer verfrühten Offenlegung von Projekten Dritter ergeben könnten
+explanation: |
+  Die Zeitstrategie spiegelt einen Ansatz wider, bei dem die Sicherheit an erster Stelle steht und das Netzwerk von Bitcoin geschützt werden muss, bevor anderen geholfen wird. Wenn Altcoins gleichzeitig benachrichtigt würden, könnten Angreifer Altcoin-Implementierungen studieren oder ausnutzen, um die Schwachstelle zu verstehen, und dann möglicherweise Bitcoin-Knoten angreifen, die noch nicht aufgerüstet haben. Der sequenzielle Ansatz stellt sicher, dass Bitcoin weitreichend geschützt wird, bevor die Hilfe auf andere Netzwerke ausgeweitet wird, wodurch das Zeitfenster für die Ausnutzung der Schwachstelle im gesamten Ökosystem minimiert wird.

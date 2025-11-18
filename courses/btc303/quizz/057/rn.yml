@@ -1,0 +1,8 @@
+question: Ni ingingo ngenderwako iyihe y’ishimikiro ituma abahinguzi bashobora guhingura ubuhinga nka Lightning Network, CoinJoin, na OpenTimestamps hejuru ya Bitcoin batarondera kwemererwa?
+answer: Iterambere ritagira uruhusha rituma umuntu wese ashobora kwubaka amategeko n’ibikorwa kuri Bitcoin ata ruhusha asaba ubuyobozi ubwo ari bwo bwose .
+wrong_answers:
+  - Uruhusha rwo gukoresha inkomoko yuguruye rusaba ko ibikorwa vyose biva kuri vyo vyemezwa ubwavyo kandi bikajanwa mu bubiko nyamukuru bwa Bitcoin Core .
+  - Uruhusha rwa MIT rutegeka ko imigambi yose ishingiye kuri Bitcoin itegerezwa kuronka uruhusha rutomoye ruvuye ku mugwi w’iterambere rya Bitcoin Core imbere y’uko ikoreshwa .
+  - Amategeko y'ubumwe ahita yemeza kandi yemerera umurongo mushasha wose wubatswe hejuru ya Bitcoin biciye mu nzira yo kugenzura blockchain .
+explanation: |
+  Iterambere ritagira uruhusha ni inyishu ibereye kuko ni ingingo ngenderwako y’ishimikiro ituma umuntu wese yubaka kuri Bitcoin atasavye uruhusha. Inyishu zitari zo ntizibereye kuko: uruhusha rwo gukoresha inkomoko yuguruye ntirusaba kwemererwa canke kwinjira muri Bitcoin Core; uruhusha rwa MIT mu vy’ukuri rutanga uruhusha rwagutse rutasaba kwemererwa n’abahinguzi; kandi amategeko y’uguhurizako yemeza ibikorwa n’amabuye, atari amasezerano yo ku rwego rwo hejuru yubatswe hejuru ya Bitcoin.

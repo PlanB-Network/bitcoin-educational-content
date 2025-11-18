@@ -1,0 +1,8 @@
+question: Millise lahenduse pakub Satoshi Nakamoto Bitcoin valge raamatu kohaselt välja double-spending probleemi lahendamiseks?
+answer: Võrdsetest partneritest hajutatud ajatemplite server, mis kasutab tehingu kronoloogilise järjestuse arvutuslikku tõestamist
+wrong_answers:
+  - Tsentraliseeritud server, millel on mitme usaldusväärse asutuse lävendallkirjad
+  - Fikseeritud serverite föderatsioon, kus enamus peab iga tehingu heaks kiitma
+  - Pime allkirja süsteem koos keskse usaldusväärse osapoolega topeltkulude vältimiseks
+explanation: |
+  Satoshi Nakamoto tegi konkreetselt ettepaneku kasutada generate tehingu kronoloogilise järjestuse arvutuslikuks tõendamiseks "peer-to-peer hajutatud ajatemplite serverit", nagu on märgitud Bitcoin valges raamatus. Võtmesõna on "hajutatud", mis tähendab, et puudub keskne kontrollpunkt. Valed vastused esindavad varasemaid ebaõnnestunud katseid digitaalsele rahale, mis tuginesid tsentraliseeritud või pooltsentraliseeritud lähenemisviisidele, mis muutsid need tsensuuri ja ebaõnnestumise suhtes haavatavaks - täpselt need probleemid, mida Bitcoin pidi lahendama tõelise detsentraliseerimise abil.

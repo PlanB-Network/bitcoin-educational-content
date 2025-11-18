@@ -1,0 +1,8 @@
+question: Satoshi 的硬版 fork 無意間創造了什麼特定的技術功能，讓日後的軟版 fork 升級成為可能？
+answer: 指令碼運算符 OP_NOP1 至 OP_NOP10 運算符號
+wrong_answers:
+  - BIP65 和 BIP113 礦工信號的啟動機制
+  - 共識變更的前向與後向相容性架構
+  - 使用者啟動軟 fork (UASF) 旗艦日啟動系統
+explanation: |
+  根據 Eric Lombrozo 的分析，Satoshi 的硬 fork（因溝通不善而隱藏在有關 makefile 變更的提交中）無意間創建了 OP_NOP1 到 OP_NOP10 的操作碼。這些「無操作」代碼被設計成在執行時不做任何事情，但它們提供了占位符，日後可透過軟叉來重新使用新功能。事實證明這是有先見之明的，因為 OP_NOP2 成為 OP_CHECKLOCKTIMEVERIFY (BIP65)，而 OP_NOP3 則成為 OP_CHECKSEQUENCEVERIFY (BIP112)。其他選項都是錯誤的，因為 BIP65 和 BIP113 是使用這些操作碼的升級，而不是創造這些操作碼，相容性框架是一種概念性的方法，而不是技術特性，而且 UASF 是在 Segwit 爭議期間很久之後才提出的。

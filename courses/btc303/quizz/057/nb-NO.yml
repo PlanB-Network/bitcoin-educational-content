@@ -1,0 +1,8 @@
+question: Hvilket grunnleggende prinsipp gjør det mulig for utviklere å lage systemer som Lightning Network, CoinJoin og OpenTimestamps på toppen av Bitcoin uten å søke godkjenning?
+answer: Tillatelsesfri utvikling gjør det mulig for hvem som helst å bygge protokoller og applikasjoner på Bitcoin uten å kreve autorisasjon fra noen sentral myndighet
+wrong_answers:
+  - Lisensiering av åpen kildekode krever at alle avledede verk automatisk godkjennes og integreres i Bitcoin Core-hovedlageret
+  - MIT-lisensen krever at alle Bitcoin-baserte prosjekter må få eksplisitt tillatelse fra Bitcoin Core-utviklingsteamet før distribusjon
+  - Konsensusregler validerer og autoriserer automatisk alle nye protokoller som bygges på toppen av Bitcoin gjennom blokkjedeverifiseringsprosessen
+explanation: |
+  Tillatelsesfri utvikling er det riktige svaret fordi det er det grunnleggende prinsippet som gjør det mulig for alle å bygge på Bitcoin uten å be om tillatelse. De gale svarene er feil fordi: lisensiering av åpen kildekode krever ikke automatisk godkjenning eller integrering i Bitcoin Core; MIT-lisensen gir faktisk brede tillatelser uten å kreve godkjenning fra utviklere; og konsensusregler validerer transaksjoner og blokker, ikke protokoller på høyere nivå som er bygget på toppen av Bitcoin.

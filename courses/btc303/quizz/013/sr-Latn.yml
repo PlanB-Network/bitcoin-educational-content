@@ -1,0 +1,8 @@
+question: Prema prezentaciji Matta Coralla, kakav je odnos između sistema bez poverenja i sistema sa poverenjem u arhitekturi Bitcoin?
+answer: Možete izgraditi pouzdane sisteme na vrhu sistema bez poverenja, ali ne i sisteme bez poverenja na vrhu pouzdanih sistema.
+wrong_answers:
+  - Možete izgraditi sisteme bez poverenja na vrhu pouzdanih sistema, ali ne i pouzdane sisteme na vrhu sistema bez poverenja.
+  - I trustless i trusted sistemi mogu biti izgrađeni jedan na drugom bez ikakvih arhitektonskih ograničenja
+  - Trustless i pouzdani sistemi moraju raditi nezavisno i ne mogu biti slojeviti jedan na drugi.
+explanation: |
+  Ključni uvid Matta Coralla je da Bitcoin-ov sloj bez poverenja omogućava fleksibilnost u dizajnu sistema. Osnovni sloj bez poverenja, kao što je Bitcoin-ov protokol, omogućava programerima da kreiraju pouzdane usluge (kao što su skrbnički novčanici) na višim slojevima, dok zadržavaju osnovne sigurnosne garancije. Međutim, obrnuto je nemoguće - ne možete kreirati sisteme bez poverenja ako sama osnova zahteva poverenje, jer bi bilo koja svojstva bez poverenja bila narušena ranjivostima pouzdanog osnovnog sloja.

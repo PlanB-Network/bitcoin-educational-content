@@ -1,0 +1,8 @@
+question: Selon la définition de l'open source, quelle est la relation requise entre les œuvres dérivées et leurs conditions de licence par rapport au logiciel original ?
+answer: Les travaux dérivés doivent pouvoir être distribués selon les mêmes conditions que la licence du logiciel d'origine
+wrong_answers:
+  - Les œuvres dérivées doivent être distribuées selon des conditions de licence plus restrictives que celles du logiciel original
+  - Les œuvres dérivées doivent être diffusées sous une licence complètement différente et incompatible avec l'original
+  - Les œuvres dérivées ne peuvent être distribuées qu'en vertu de licences propriétaires qui exigent le paiement de redevances
+explanation: |
+  La définition de l'open source stipule explicitement que "la licence doit autoriser les modifications et les travaux dérivés, et doit leur permettre d'être distribués dans les mêmes conditions que la licence du logiciel original" Cela garantit que les œuvres dérivées conservent les mêmes libertés que l'original, empêchant ainsi quiconque de prendre un code source ouvert et d'en faire une propriété. Les autres options violent ce principe fondamental en restreignant la liberté ou en modifiant la compatibilité des licences.

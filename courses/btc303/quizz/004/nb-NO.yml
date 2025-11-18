@@ -1,0 +1,8 @@
+question: Hvilken løsning foreslår Satoshi Nakamoto for å løse double-spending-problemet, ifølge Bitcoin-hvitboken?
+answer: En peer-to-peer-distribuert tidsstempelserver som bruker beregningsbevis for kronologisk transaksjonsrekkefølge
+wrong_answers:
+  - En sentralisert server med terskelsignaturer fra flere betrodde autoriteter
+  - En føderasjon av faste servere der flertallet må godkjenne hver transaksjon
+  - Et blindt signatur-system med sentral betrodd part for å forhindre dobbeltbruk
+explanation: |
+  Satoshi Nakamoto foreslo spesifikt å bruke en "peer-to-peer-distribuert tidsstempelserver for å generate beregne bevis på den kronologiske rekkefølgen av transaksjoner", som det står i Bitcoin-hvitboken. Nøkkelordet er "distribuert", som betyr at det ikke finnes noe sentralt kontrollpunkt. De gale svarene representerer tidligere mislykkede forsøk på digitale penger som baserte seg på sentraliserte eller halvsentraliserte tilnærminger, noe som gjorde dem sårbare for sensur og fiasko - akkurat de problemene Bitcoin var designet for å løse gjennom ekte desentralisering.

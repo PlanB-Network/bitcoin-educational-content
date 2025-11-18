@@ -1,0 +1,8 @@
+question: Qual è la sfida principale che rende la pubblicazione delle patch di vulnerabilità per Bitcoin particolarmente complessa rispetto ai tradizionali sistemi software centralizzati?
+answer: Il codice stesso della patch può rivelare la vulnerabilità ai potenziali aggressori che analizzano le modifiche
+wrong_answers:
+  - La natura decentralizzata significa che non esiste un'autorità centrale che coordini le tempistiche di distribuzione delle patch
+  - "Il meccanismo di consenso del Bitcoin richiede l'approvazione della maggioranza prima che qualsiasi patch di sicurezza possa essere implementata"
+  - La natura open-source significa che tutte le vulnerabilità devono essere rese pubbliche prima che vengano sviluppate le patch
+explanation: |
+  Il testo sottolinea specificamente che gli sviluppatori devono essere estremamente attenti quando pubblicano le patch perché "la patch stessa potrebbe rivelare la vulnerabilità" Questo crea una sfida unica in cui la soluzione può inavvertitamente esporre il problema. Il quarto punto descrive il modo in cui gli sviluppatori del Bitcoin verificano se una patch è stata "mascherata abbastanza bene", facendola esaminare da sviluppatori esperti senza conoscere la vulnerabilità specifica. Se questi esperti non riescono a identificare la vulnerabilità dalla patch, questa viene considerata sicura da distribuire. Le altre opzioni non sono corrette: c'è un coordinamento attraverso i manutentori del Bitcoin Core, non è richiesto il consenso per le patch e le vulnerabilità sono mantenute private durante la divulgazione responsabile.

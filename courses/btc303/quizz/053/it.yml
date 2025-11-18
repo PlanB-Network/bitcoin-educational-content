@@ -1,0 +1,8 @@
+question: Cosa distingue i presupposti di sicurezza del Bitcoin da quelli dei tradizionali sistemi di sicurezza fisica come gli edifici?
+answer: Il Bitcoin deve affrontare tutte le debolezze conosciute perché gli avversari online sono anonimi e sfrutteranno qualsiasi vulnerabilità
+wrong_answers:
+  - Il Bitcoin si basa su prove matematiche, mentre gli edifici dipendono da barriere fisiche e dall'applicazione della legge
+  - "La sicurezza del Bitcoin si basa su incentivi economici, mentre gli edifici utilizzano la deterrenza attraverso misure di sicurezza visibili"
+  - Il Bitcoin utilizza firme crittografiche per la protezione, mentre gli edifici si affidano a sistemi di controllo degli accessi e di monitoraggio
+explanation: |
+  La distinzione fondamentale è che i sistemi online come il Bitcoin devono affrontare avversari anonimi che inevitabilmente sfrutteranno qualsiasi punto debole noto, a differenza dei sistemi fisici dove possiamo accettare un certo rischio perché i responsabili possono essere identificati e perseguiti. Come ha notato Andrew Poelstra, online non possiamo permetterci il lusso della deterrenza delle forze dell'ordine: se è possibile danneggiare il sistema in modo avverso, gli attori anonimi lo faranno. Questo costringe il Bitcoin ad affrontare tutte le vulnerabilità piuttosto che accettare rischi calcolati.

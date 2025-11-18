@@ -1,0 +1,8 @@
+question: V čem se upgrade Segwit lišil od předchozích upgradů Bitcoin?
+answer: Těžaři nesignalizovali podporu navzdory obrovské podpoře uživatelů, což zdrželo proces aktivace
+wrong_answers:
+  - Upgrade vyžadoval tvrdou metodu fork namísto obvyklé měkké metody fork
+  - Technické chyby v kódu Segwit bránily bezpečnému nasazení, dokud nebyly vyřešeny
+  - Ekonomické uzly upgrade odmítly kvůli obavám ze zvýšených transakčních poplatků
+explanation: |
+  Upgrade na Segwit byl jedinečný, protože se potýkal s problémem koordinace, kdy mezi uživateli Bitcoin existovala drtivá podpora, ale těžaři odmítali dát najevo podporu upgradu. Tím vznikla patová situace, kdy se upgrade nemohl aktivovat prostřednictvím běžného mechanismu soft fork aktivovaného těžaři. Předchozí upgrady byly relativně bezbolestné, protože měly podporu uživatelů i těžařů. Tato situace vedla k návrhu uživatelsky aktivovaných vidlic Soft (UASF) jako alternativního aktivačního mechanismu, který se nespoléhal na signalizaci těžařů, což zdůraznilo napětí mezi různými zúčastněnými stranami v ekosystému Bitcoin.

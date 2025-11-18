@@ -1,0 +1,8 @@
+question: Vilken grundläggande egenskap skiljer bokens definition av Bitcoin-skalning från vanliga alternativa definitioner som används inom Bitcoin-området?
+answer: Det kräver uttryckligen att censurmotståndet bibehålls som en begränsning samtidigt som användningskapaciteten ökar
+wrong_answers:
+  - Den fokuserar uteslutande på att öka blockchain-transaktionens genomströmning snarare än effektivitetsförbättringar
+  - Den prioriterar utveckling av skiktad arkitektur framför alla ändringar av basprotokollet för blockkedjan
+  - Den lägger tonvikten på att minska beräkningskraven för noder snarare än att utöka nätverkskapaciteten
+explanation: |
+  I boken definieras skalning som "att öka Bitcoin:s användningskapacitet utan att kompromissa med dess censurmotstånd", vilket uttryckligen inkluderar censurmotståndsbegränsningen. Detta skiljer den från andra definitioner som enbart fokuserar på ökad transaktionskapacitet, effektivitetsförbättringar eller skiktade system utan att ta hänsyn till bevarandet av Bitcoin:s grundläggande egenskaper. Kravet på censurresistens säkerställer att skalningslösningar inte undergräver Bitcoin:s kärnvärde i att vara ett förtroendefritt, decentraliserat system som inte kan kontrolleras av någon enskild enhet.

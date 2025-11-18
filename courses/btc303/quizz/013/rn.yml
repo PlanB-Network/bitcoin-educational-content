@@ -1,0 +1,8 @@
+question: Dushingiye ku vyo Matt Corallo yashikirije, ni isano irihe riri hagati y’uburyo butagira icizigiro n’uburyo bwizigirwa mu nyubakwa za Bitcoin?
+answer: Ushobora kwubaka uburyo bwizigirwa hejuru y'uburyo butagira icizigiro, ariko si uburyo butagira icizigiro hejuru y'uburyo bwizigirwa .
+wrong_answers:
+  - Ushobora kwubaka uburyo butagira icizigiro hejuru y’uburyo bwizigirwa, ariko si uburyo bwizigirwa hejuru y’uburyo butagira icizigiro .
+  - Ubuhinga bwompi butagira icizigiro n’ubw’ukwizigirwa burashobora kwubakwa hejuru y’ubundi ata n’imwe ibujijwe mu vy’ubwubatsi .
+  - Trustless n'uburyo bwizigirwa butegerezwa gukora bwigenga kandi ntibushobora gushirwa hejuru y'ubundi .
+explanation: |
+  Iciyumviro nyamukuru ca Matt Corallo ni uko igice c’ishimikiro ca Bitcoin kitagira icizigiro gishoboza guhindura uko umuntu akora. Umushinge utagira icizigiro nk’umurongo wa Bitcoin uremesha abahinguzi guhingura ibikorwa vyizigirwa (nk’amasakoshi y’ububiko) ku bice vy’imbere mu gihe bazigama ivyemezo vy’umutekano vy’ishimikiro. Ariko rero, ibihushanye n’ivyo ntibishoboka - ntushobora kurema uburyo butagira icizigiro vy’ukuri iyo umushinge ubwawo usaba kwizigirwa, kuko ibintu vyose bitagira icizigiro vyoshobora guhungabanywa n’ubugoyagoye bw’uruzitiro rw’ishimikiro rwizigirwa.

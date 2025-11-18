@@ -1,0 +1,8 @@
+question: Quel est le principal inconvénient des systèmes financiers de confiance que la conception sans confiance de Bitcoin vise à résoudre ?
+answer: L'impossibilité d'effectuer des transactions totalement irréversibles en raison des exigences en matière de médiation des litiges
+wrong_answers:
+  - La forte consommation d'énergie nécessaire au traitement des paiements électroniques par les banques
+  - Le nombre limité de transactions qui peuvent être traitées par seconde par les institutions financières
+  - L'obligation pour les clients de fournir des documents d'identification personnelle excessifs
+explanation: |
+  Selon Satoshi Nakamoto dans le livre blanc Bitcoin, les systèmes financiers traditionnels souffrent d'une faiblesse fondamentale : les transactions totalement irréversibles ne sont pas possibles parce que les institutions financières doivent arbitrer les conflits. Cela crée une cascade de problèmes : augmentation des coûts de transaction en raison de la médiation, élimination des petites transactions occasionnelles et propagation des exigences de confiance dans l'ensemble du système. Les autres options, bien que potentiellement pertinentes pour les systèmes financiers, ne constituent pas le problème central auquel s'attaque spécifiquement la conception sans confiance du Bitcoin. L'innovation de Bitcoin consiste à permettre le règlement final sans exiger qu'un tiers de confiance annule les transactions.

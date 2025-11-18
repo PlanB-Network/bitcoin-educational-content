@@ -1,0 +1,8 @@
+question: Secondo la definizione di open source, qual è il requisito principale relativo alle tariffe quando si ridistribuisce il software open source come parte di una distribuzione aggregata di software?
+answer: La licenza non richiederà royalty o altri compensi per tale vendita
+wrong_answers:
+  - Deve essere addebitato un costo di riproduzione ragionevole per coprire le spese di sviluppo
+  - Le commissioni di royalty sono consentite, ma non devono superare il 5% del prezzo di distribuzione
+  - Possono essere richiesti diritti amministrativi, ma solo per le ridistribuzioni commerciali
+explanation: |
+  La definizione di open source afferma esplicitamente, alla voce "Libera ridistribuzione", che "La licenza non richiede royalty o altri compensi per tale vendita" Ciò significa che il software open source deve essere liberamente ridistribuibile senza dover pagare diritti o royalties. Le altre opzioni suggeriscono erroneamente che sono consentiti vari tipi di compensi, il che violerebbe il principio fondamentale della libera ridistribuzione che definisce il software open source.

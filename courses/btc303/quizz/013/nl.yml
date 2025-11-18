@@ -1,0 +1,8 @@
+question: Wat is volgens de presentatie van Matt Corallo de relatie tussen vertrouwensloze en vertrouwde systemen in de architectuur van Bitcoin?
+answer: Je kunt vertrouwde systemen bouwen bovenop een vertrouwensloos systeem, maar geen vertrouwensloze systemen bovenop vertrouwde systemen
+wrong_answers:
+  - Je kunt vertrouwensloze systemen bouwen bovenop vertrouwde systemen, maar geen vertrouwde systemen bovenop vertrouwensloze systemen
+  - Zowel vertrouwensloze als vertrouwde systemen kunnen op elkaar worden gebouwd zonder enige architecturale beperkingen
+  - Trustless en vertrouwde systemen moeten onafhankelijk opereren en kunnen niet over elkaar heen gelegd worden
+explanation: |
+  Matt Corallo's belangrijkste inzicht is dat de vertrouwensloze basislaag van Bitcoin flexibiliteit in het systeemontwerp mogelijk maakt. Een vertrouwensloze basis zoals Bitcoin's protocol stelt ontwikkelaars in staat om vertrouwde diensten (zoals custodial wallets) te creëren op hogere lagen met behoud van de onderliggende veiligheidsgaranties. Het omgekeerde is echter onmogelijk - je kunt geen echt vertrouwensloze systemen maken als de basis zelf vertrouwen vereist, omdat alle vertrouwensloze eigenschappen ondermijnd zouden worden door de kwetsbaarheden van de vertrouwde basislaag.

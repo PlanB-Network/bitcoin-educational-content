@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste gevolg als Bitcoin Core pull requests erg lang duren voordat ze door beheerders worden samengevoegd in het repository?
+answer: Het geeft aan dat er te weinig beoordelaars beschikbaar zijn om de voorgestelde codewijzigingen te evalueren
+wrong_answers:
+  - "Het toont aan dat de beheerders opzettelijk het ontwikkelingsproces van Bitcoin vertragen."
+  - "Het toont aan dat de voorgestelde wijzigingen fundamenteel onverenigbaar zijn met de consensusregels van Bitcoin."
+  - "Het onthult dat het GitHub platform technische beperkingen heeft voor het omgaan met Bitcoin's codebase"
+explanation: |
+  Volgens de inhoud van het hoofdstuk duurt het lang voordat pull requests worden samengevoegd, voornamelijk door een gebrek aan review, wat voortkomt uit onvoldoende reviewers in plaats van tegenwerking van maintainers of technische problemen. Het reviewproces is cruciaal voor de veiligheid van Bitcoin, omdat het de kwaliteit van de code waarborgt en kwaadaardige wijzigingen voorkomt. Dit knelpunt bestaat omdat het reviewen van complexe cryptografische code expertise en tijd vereist, waardoor gekwalificeerde reviewers een schaars goed zijn in het ontwikkelproces.

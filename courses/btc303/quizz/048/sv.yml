@@ -1,0 +1,8 @@
+question: Varför är det praktiskt taget omöjligt att formellt bevisa Bitcoin:s säkerhet trots att den fungerar effektivt i praktiken?
+answer: Systemets komplexitet och nebulösa natur gör formella säkerhetsbevis ogenomförbara, till skillnad från enklare protokoll med tydliga antaganden
+wrong_answers:
+  - Bitcoin-utvecklare undviker avsiktligt formella bevis för att bibehålla flexibilitet och möjliggöra framtida protokolländringar
+  - Problemet med diskreta logaritmer och kryptografiska antaganden är för avancerade för nuvarande matematiska bevismetoder
+  - Formella säkerhetsbevis skulle avslöja sårbarheter för motståndare, så de hålls hemliga av kärnutvecklare
+explanation: |
+  Som Jameson Lopp förklarar byggdes Bitcoin utan en formellt definierad specifikation eller säkerhetsmodell på grund av dess inneboende komplexitet och nebulösa natur. Till skillnad från enklare system som signeringsprotokoll som har tydliga säkerhetsantaganden, involverar Bitcoin flera samverkande komponenter, inklusive kryptografi, ekonomi, spelteori och mänskligt beteende. Denna komplexitet gör det omöjligt att skapa formella matematiska säkerhetsbevis, även om systemet uppvisar praktisk säkerhet genom verklig drift.

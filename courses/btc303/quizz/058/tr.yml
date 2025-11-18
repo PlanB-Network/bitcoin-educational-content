@@ -1,0 +1,8 @@
+question: Açık kaynak tanımı gerekliliklerine göre, bir açık kaynak yazılım dağıtımında kaynak kodu kasıtlı olarak gizlendiğinde ne olmalıdır?
+answer: Kasıtlı olarak gizlenmiş kaynak kodu açık kaynak ilkelerini ihlal eder ve buna izin verilmez
+wrong_answers:
+  - Gizlenmiş koda, işlevselliğini açıklayan ayrıntılı belgeler eşlik etmelidir
+  - Derlenmiş ikili dosyalar da sağlandığı sürece gizlenmiş kod kabul edilebilir
+  - Gizlenmiş kod, çoğaltma maliyetleriyle birlikte ayrı bir indirme yoluyla kullanıma sunulmalıdır
+explanation: |
+  Açık kaynak tanımı açıkça 'kasıtlı olarak gizlenmiş kaynak koduna izin verilmediğini' belirtmektedir Bu temel bir gerekliliktir çünkü gizleme, kodun anlamlı bir şekilde incelenmesini, değiştirilmesini ve anlaşılmasını engeller, bu da açık kaynak yazılımın temel amaçlarını ortadan kaldırır. Kaynak kodu 'bir programcının programı değiştireceği tercih edilen biçimde' olmalıdır, bu da gizlemeyi dokümantasyon veya dağıtım yöntemlerinden bağımsız olarak açık kaynak ilkeleriyle uyumsuz hale getirir.

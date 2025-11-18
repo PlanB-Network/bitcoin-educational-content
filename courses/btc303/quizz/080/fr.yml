@@ -1,0 +1,8 @@
+question: Quel est le principal défi qui rend la publication de correctifs de vulnérabilité pour Bitcoin particulièrement complexe par rapport aux systèmes logiciels centralisés traditionnels ?
+answer: Le code du correctif lui-même peut révéler la vulnérabilité aux attaquants potentiels qui analysent les modifications
+wrong_answers:
+  - La nature décentralisée signifie qu'il n'y a pas d'autorité centrale pour coordonner le calendrier de déploiement des correctifs
+  - "Le mécanisme de consensus du Bitcoin exige l'approbation de la majorité avant que les correctifs de sécurité puissent être mis en œuvre
+  - La nature open-source signifie que toutes les vulnérabilités doivent être divulguées publiquement avant que des correctifs ne soient développés
+explanation: |
+  Le texte souligne en particulier que les développeurs doivent être extrêmement prudents lorsqu'ils publient des correctifs, car "le correctif lui-même peut révéler la vulnérabilité" Cela crée un défi unique où la solution peut exposer le problème par inadvertance. Le quatrième point décrit comment les développeurs de Bitcoin testent si un correctif a été "suffisamment bien déguisé" en demandant à des développeurs expérimentés de l'examiner sans connaître la vulnérabilité spécifique. Si ces experts ne parviennent pas à identifier la vulnérabilité à partir du correctif, celui-ci est considéré comme pouvant être déployé en toute sécurité. Les autres options sont incorrectes : la coordination est assurée par les responsables du Bitcoin Core, le consensus n'est pas nécessaire pour les correctifs et les vulnérabilités restent confidentielles lors de la divulgation responsable.

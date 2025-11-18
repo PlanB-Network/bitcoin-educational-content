@@ -1,0 +1,8 @@
+question: Theo tính toán của Pieter Wuille, số lượng lý thuyết tối đa của Bitcoin có thể tồn tại sau khi tất cả các đồng tiền được đào là bao nhiêu?
+answer: 20.999.999,9769 BTC
+wrong_answers:
+  - Chính xác là 21.000.000,0000 BTC
+  - 20.999.817,3131 BTC
+  - Khoảng 20.500.000,0000 BTC
+explanation: |
+  Pieter Wuille đã tính toán rằng nguồn cung tối đa lý thuyết là 20.999.999,9769 BTC, thấp hơn một chút so với con số thường được đề cập là 21 triệu. Điều này là do lịch trình halving cụ thể và việc làm tròn trong mã của Bitcoin. Con số 21 triệu là một con số gần đúng được làm tròn. Con số 20.999.817,3131 thể hiện nguồn cung lưu hành thực tế sau khi đã tính đến các đồng tiền bị mất và lỗi mining cho đến một khối cụ thể, chứ không phải là mức tối đa lý thuyết.

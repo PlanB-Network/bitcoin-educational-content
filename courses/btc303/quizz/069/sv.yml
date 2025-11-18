@@ -1,0 +1,8 @@
+question: Enligt bokens definition, vilket scenario representerar legitim Bitcoin-skalning samtidigt som censurmotståndet bevaras?
+answer: Implementering av mer utrymmeseffektiva algoritmer för signaturverifiering som minskar storleken på transaktionens indata
+wrong_answers:
+  - Uppmuntra användare att flytta transaktioner till centraliserade börser för att minska on-chain-volymen
+  - Implementering av automatisk transaktionsfiltrering för att prioritera vissa typer av ekonomisk aktivitet
+  - Skapa myndighetsgodkända valideringsnoder som kan behandla transaktioner mer effektivt
+explanation: |
+  I boken definieras Bitcoin-skalning som "att öka Bitcoin:s användningskapacitet utan att kompromissa med dess censurmotstånd" Rymdeffektiv signaturverifiering passar direkt in i denna definition genom att transaktioner använder färre bytes samtidigt som decentraliseringen bibehålls. De felaktiga svaren äventyrar alla censurmotståndet: centraliserade börser introducerar betrodda tredje parter, transaktionsfiltrering skapar censurmekanismer och statligt godkända noder centraliserar valideringsbehörigheten. Sann skalning bevarar Bitcoin:s kärnegenskaper samtidigt som effektiviteten förbättras.

@@ -1,0 +1,8 @@
+question: Qual é a principal vulnerabilidade que fez com que as primeiras tentativas de moeda digital falhassem antes do Bitcoin?
+answer: Baseavam-se em servidores centrais que podiam ser censurados ou encerrados
+wrong_answers:
+  - Utilizaram algoritmos criptográficos inadequados para a segurança das transacções
+  - Não dispunham de capacidade informática suficiente para processar as transacções de forma eficiente
+  - Não implementaram mecanismos adequados de autenticação dos utilizadores
+explanation: |
+  As primeiras moedas digitais falharam porque dependiam de servidores centrais para o processamento e validação das transacções. Como explicado no capítulo, esta centralização tornou-se o seu "calcanhar de Aquiles" porque os governos ou outros adversários podiam facilmente censurar, controlar ou desligar estes pontos centrais de falha. Mesmo as tentativas de utilizar vários servidores numa federação continuavam a deixar o sistema vulnerável, uma vez que cada servidor podia "falhar, ou ser levado a falhar, um a um" O Bitcoin resolveu este problema eliminando a necessidade de qualquer autoridade central através do seu sistema descentralizado proof-of-work.

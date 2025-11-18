@@ -1,0 +1,8 @@
+question: Koji je primarni razlog zašto se GitHub repozitorijum Bitcoin Core smatra posebnim u poređenju sa hiljadama drugih kopija istog repozitorijuma širom sveta?
+answer: Služi kao društveno priznata žarišna tačka za razvoj Bitcoin, ne zbog bilo kakve tehničke superiornosti.
+wrong_answers:
+  - Sadrži kriptografske ključeve koji autentifikuju zvanična Bitcoin Core izdanja i ažuriranja
+  - Ima ekskluzivne tehničke karakteristike i dozvole koje druge kopije repozitorijuma ne mogu replicirati.
+  - Pravno je zaštićen MIT licencom kao jedini autoritativni izvor Bitcoin koda.
+explanation: |
+  Kao što Jameson Lopp objašnjava, GitHub repozitorijum Bitcoin Core je tehnički identičan hiljadama drugih kopija širom sveta, ali je postao društveno prihvaćena žarišna tačka za koordinaciju razvoja. Nema posebne tehničke karakteristike, mehanizme kriptografske autentifikacije ili pravne zaštite koje ga čine superiornijim. MIT Licenca zapravo osigurava da svako može slobodno kopirati i redistribuirati kod. Ako bi ovaj repozitorijum nestao, zajednica bi jednostavno uspostavila novu žarišnu tačku negde drugde, pokazujući da je njegova važnost isključivo društvena konvencija, a ne tehnička nužnost.

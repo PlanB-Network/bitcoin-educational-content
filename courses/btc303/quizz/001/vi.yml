@@ -1,0 +1,8 @@
+question: Mục đích chính của việc phân quyền trong Bitcoin là gì?
+answer: Để đạt được khả năng chống kiểm duyệt
+wrong_answers:
+  - Để tăng tốc độ xử lý giao dịch
+  - Để giảm chi phí tiêu thụ năng lượng
+  - Để đơn giản hóa giao diện người dùng
+explanation: |
+  Tính phi tập trung trong Bitcoin chủ yếu nhằm đạt được khả năng chống kiểm duyệt, nghĩa là không một thực thể đơn lẻ nào có thể kiểm soát, chặn hoặc thao túng các giao dịch. Điều này được nêu rõ trong văn bản: 'Phi tập trung là một phương tiện để đạt được khả năng chống kiểm duyệt.' Các lựa chọn khác đều không chính xác vì tính phi tập trung thực sự khiến Bitcoin chậm hơn và tiêu tốn nhiều năng lượng hơn so với các hệ thống tập trung, đồng thời khiến hệ thống trở nên phức tạp hơn thay vì đơn giản hơn. Khả năng chống kiểm duyệt là yếu tố phân biệt Bitcoin với các hệ thống tiền tệ truyền thống và ngăn chặn chính phủ hoặc các cơ quan chức năng khác đóng cửa hoặc kiểm soát những người có thể sử dụng nó.

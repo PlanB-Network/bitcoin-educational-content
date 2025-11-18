@@ -1,0 +1,8 @@
+question: Wat maakt Bitcoin's vertrouwensloze eigendom specifiek overbodig in digitale transacties?
+answer: Vertrouwde derde partijen voor het verwerken en valideren van transacties
+wrong_answers:
+  - Hardware- en softwarecomponenten voor Bitcoin knooppunten
+  - Cryptografische algoritmen om privésleutels en handtekeningen te beveiligen
+  - Netwerkconsensusmechanismen om het eens te worden over geldige blokken
+explanation: |
+  De vertrouwensloze eigenschap van Bitcoin elimineert specifiek de noodzaak voor vertrouwde derde partijen zoals banken of financiële instellingen om transacties te verwerken en valideren. Zoals Satoshi Nakamoto uitlegde in de Bitcoin whitepaper, vertrouwt traditionele handel op financiële instellingen die dienen als vertrouwde tussenpersonen, maar het ontwerp van Bitcoin maakt het mogelijk dat het systeem correct functioneert zonder vertrouwde partijen door het gedecentraliseerde consensusmechanisme. De andere opties vertegenwoordigen essentiële technische componenten die Bitcoin nog steeds nodig heeft - je hebt nog steeds hardware/software nodig om deel te nemen, cryptografische beveiliging blijft fundamenteel en netwerkconsensus is hoe Bitcoin vertrouwensloosheid bereikt in plaats van iets dat het elimineert.

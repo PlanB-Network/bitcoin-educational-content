@@ -1,0 +1,8 @@
+question: Koja je primarna svrha da iskusni programeri pregledaju zakrpu za ranjivost bez informacija o specifičnoj ranjivosti?
+answer: Da se testira da li zakrpa adekvatno prikriva ranjivost od potencijalnih napadača
+wrong_answers:
+  - "Da se obezbedi da zakrpa ne unese nove greške u kodnu bazu"
+  - Da se verifikuje da zakrpa prati odgovarajuće standarde i konvencije kodiranja
+  - Da se potvrdi da zakrpa pruža dovoljna poboljšanja performansi
+explanation: |
+  Prema praksama odgovornog otkrivanja, programeri testiraju da li je zakrpa dovoljno dobro prikrivena tako što je daju iskusnim programerima koji nisu obavešteni o ranjivosti, tražeći od njih da identifikuju šta ona popravlja. Ako ovi stručnjaci ne mogu da uoče ranjivost čak i znajući da je zakrpa popravlja, verovatno je dobro sakrivena od potencijalnih napadača. Ovo je ključno jer same zakrpe mogu otkriti ranjivosti, što potencijalno omogućava zlonamernu eksploataciju. Druge opcije, iako važne aspekte pregleda koda, nisu primarna svrha ove specifične prakse u upravljanju ranjivostima.

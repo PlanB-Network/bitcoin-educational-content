@@ -1,0 +1,8 @@
+question: Satoshi Nakamoto, Bitcoin whitepaper girişinde geleneksel finansal sistemlerle ilgili hangi sorunu tanımlıyor?
+answer: Finansal kurumlar anlaşmazlıklara aracılık etmekten kaçınamaz, bu da geri dönüşü olmayan işlemleri tamamen imkansız hale getirir
+wrong_answers:
+  - Bankalar, tüm elektronik işlemleri tüketiciler için kârsız hale getiren aşırı ücretler talep etmektedir
+  - Kredi kartı şirketleri dijital ürünler ve çevrimiçi hizmetler için ödeme yapmayı reddediyor
+  - Hükümet düzenlemeleri finans kuruluşlarının uluslararası sınırlar ötesinde faaliyet göstermesini engelliyor
+explanation: |
+  Satoshi, güvenilir üçüncü taraflar olarak hizmet veren finans kuruluşlarının anlaşmazlıklara aracılık etmekten kaçınamayacağını ve bunun da geri dönüşü olmayan işlemleri tamamen engellediğini özellikle belirtmektedir. Bu durum güvene dayalı modelde içsel zayıflıklar yaratmakta, arabuluculuk yoluyla maliyetleri artırmakta ve tacirleri müşterilere karşı temkinli olmaya zorlamaktadır. Diğer seçenekler, Satoshi'nin geleneksel ödeme sistemlerine ilişkin analizinde bahsedilmeyen farklı sorunları tanımlamaktadır.

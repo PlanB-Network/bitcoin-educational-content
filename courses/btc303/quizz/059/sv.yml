@@ -1,0 +1,8 @@
+question: Vad är den primära konsekvensen när Bitcoin Core pull requests tar mycket lång tid innan de slås samman till förvaret av underhållare?
+answer: Det indikerar en brist på tillgängliga granskare för att utvärdera de föreslagna kodändringarna
+wrong_answers:
+  - "Det visar att underhållare medvetet saktar ner Bitcoin:s utvecklingsprocess"
+  - "Det visar att de föreslagna ändringarna i grunden är oförenliga med Bitcoin:s konsensusregler"
+  - "Det visar sig att GitHub-plattformen har tekniska begränsningar för att hantera Bitcoin:s kodbas"
+explanation: |
+  Enligt kapitlets innehåll tar det lång tid att slå samman pull requests främst på grund av bristande granskning, vilket beror på otillräckliga granskare snarare än obstruktion från underhållare eller tekniska problem. Granskningsprocessen är avgörande för Bitcoin:s säkerhet, eftersom den säkerställer kodkvalitet och förhindrar skadliga ändringar. Denna flaskhals uppstår eftersom granskning av komplex kryptografisk kod kräver expertis och tid, vilket gör kvalificerade granskare till en knapp resurs i utvecklingsprocessen.

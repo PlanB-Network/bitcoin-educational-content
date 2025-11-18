@@ -1,0 +1,8 @@
+question: BIP42'ye göre Bitcoin'ın blok sübvansiyonunun sıfıra ulaştığı yaklaşık yıl ne olacaktır?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Bölüme göre, BIP42 çok uzun vadeli bir enflasyon hatasını düzeltti ve blok sübvansiyonunun 2140 yılı civarında sıfıra ulaşmasını sağladı. Bu, Bitcoin'in sübvansiyona dayalı bir ödül sisteminden tamamen ücrete dayalı bir sisteme geçeceği ve ağ güvenliği maliyetlerinin enflasyon yoluyla ödeme yapan sahiplerden işlem ücretleri yoluyla ödeme yapan harcamacılara nasıl karşılandığını temelden değiştireceği zamandır.

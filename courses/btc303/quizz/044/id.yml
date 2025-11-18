@@ -1,0 +1,8 @@
+question: Apa masalah spesifik dengan BIP66 soft fork yang dikutip Shaolinfry sebagai bukti terhadap soft fork yang diaktifkan oleh penambang?
+answer: 95% dari hashrate mengisyaratkan kesiapan, tetapi sekitar setengahnya tidak benar-benar memvalidasi aturan yang ditingkatkan dan menambang di blok yang tidak valid
+wrong_answers:
+  - Penambang menolak memberi sinyal dukungan meskipun ada permintaan pengguna yang luar biasa, menyebabkan peningkatan terhenti tanpa batas waktu
+  - Sebagian kecil penambang memveto peningkatan untuk seluruh jaringan meskipun ada dukungan mayoritas dari pengguna
+  - Peningkatan ini menyebabkan perpecahan rantai permanen karena penambang dan pengguna tidak setuju dengan detail implementasi
+explanation: |
+  Insiden BIP66 mengungkapkan kelemahan kritis dalam soft fork yang diaktifkan oleh penambang: kesiapan sinyal tidak menjamin validasi yang sebenarnya. Meskipun 95% penambang mengindikasikan bahwa mereka siap untuk peningkatan, sekitar setengahnya tidak memvalidasi aturan baru dengan benar dan secara keliru menambang di blok yang tidak valid. Hal ini menunjukkan bahwa hash power signaling dapat menyesatkan dan tidak memastikan implementasi yang tepat, yang merupakan salah satu argumen utama Shaolinfry dalam mengusulkan User Activated Soft Forks sebagai mekanisme peningkatan yang lebih andal.

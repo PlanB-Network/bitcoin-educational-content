@@ -1,0 +1,8 @@
+question: Koja je primarna tehnička razlika između GitHub repozitorijuma Bitcoin Core i hiljada drugih kopija istog repozitorijuma distribuiranih globalno?
+answer: Ne postoji tehnička razlika; služi kao društvena žarišna tačka za pogodnost razvoja
+wrong_answers:
+  - GitHub skladište sadrži kriptografske potpise koji ga potvrđuju kao zvaničnu verziju
+  - GitHub repozitorijum ima posebne privilegije za commit koje sprečavaju neovlašćene izmene u kodnoj bazi.
+  - GitHub skladište održava glavni ključ koji validira sve ostale kopije skladišta širom sveta
+explanation: |
+  Prema analizi Jamesona Loppa navedene u poglavlju, GitHub repozitorijum Bitcoin Core je tehnički identičan svim drugim kopijama. Njegov značaj je isključivo društveni - postao je žarište za koordinaciju razvoja. Repozitorijum služi kao pitanje pogodnosti, a ne tehničkog autoriteta, i ako bi nestao, nova tačka fokusa bi se prirodno pojavila. Ovo pokazuje decentralizovanu prirodu Bitcoin gde nijedan repozitorijum nema tehničku nadmoć nad drugima.

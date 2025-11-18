@@ -1,0 +1,8 @@
+question: Menurut kerangka kerja pengungkapan yang bertanggung jawab yang telah dibahas, apa alasan utama pengembang menghindari untuk segera menambal kerentanan non-kritis di Bitcoin Core?
+answer: Untuk mencegah patch itu sendiri mengungkapkan sifat kerentanan sebelum penyebaran luas terjadi
+wrong_answers:
+  - Untuk memberikan waktu yang cukup bagi pengembang altcoin untuk mengimplementasikan perbaikan independen mereka sendiri terlebih dahulu
+  - Untuk memungkinkan pengujian komprehensif di seluruh mining pool yang berbeda sebelum merilis pembaruan keamanan apa pun
+  - Untuk mempertahankan kompatibilitas ke belakang dengan versi simpul yang lebih lama yang tidak dapat menangani tambalan darurat
+explanation: |
+  Jawaban yang benar menyoroti paradoks penting dalam penambalan keamanan: perbaikan itu sendiri dapat mengekspos kerentanan. Bab ini menekankan bahwa pengembang harus berhati-hati dalam menyamarkan patch karena mempublikasikannya dengan segera dapat mengungkap kerentanan kepada penyerang sebelum sebagian besar node terlindungi. Jawaban yang salah, meskipun masuk akal, salah menggambarkan prioritas: pemberitahuan altcoin terjadi setelah penyebaran jaringan Bitcoin, pengujian pool mining bukanlah masalah utama untuk masalah yang tidak kritis, dan kompatibilitas ke belakang tidak mendorong waktu patch keamanan.

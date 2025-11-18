@@ -1,0 +1,8 @@
+question: Je, ni mbinu gani yenye matatizo Satoshi iliyotumia wakati wa kutekeleza fork ngumu ambayo watengenezaji wa Bitcoin hawatawahi kutumia leo?
+answer: Kuficha mabadiliko ya uvunjaji wa ahadi na maelezo ya kupotosha ambayo hayakuonyesha dalili za marekebisho ya sheria ya makubaliano.
+wrong_answers:
+  - Utekelezaji wa fork ngumu bila tangazo lolote la umma au mawasiliano kwa jumuiya ya Bitcoin hapo awali
+  - Kuchanganya uma nyingi ngumu hadi toleo moja bila majaribio sahihi au michakato ya ukaguzi wa jumuiya
+  - Kuamilisha fork ngumu mara moja bila kuwapa watumiaji muda wa kutosha wa kuboresha programu zao za nodi
+explanation: |
+  Kulingana na uchanganuzi wa Eric Lombrozo, mbinu yenye matatizo ya Satoshi ilikuwa ikificha mabadiliko ya kuvunja makubaliano katika ahadi yenye maelezo ya kupotosha ambayo yalitaja tu 'reverted makefile.unix wx-config toleo la 0.3.6' bila dalili yoyote ya mabadiliko hayo. Zoezi hili la kuficha marekebisho muhimu ya maafikiano katika ahadi zisizo na hatia litachukuliwa kuwa lisilokubalika na viwango vya leo, ambapo uwazi na mawasiliano ya wazi kuhusu mabadiliko ya makubaliano ni kanuni za msingi za ukuzaji wa Bitcoin.

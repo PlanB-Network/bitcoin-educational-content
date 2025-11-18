@@ -1,0 +1,8 @@
+question: Hva er den viktigste grunnen til at utviklere unngår å lappe ikke-kritiske sårbarheter i Bitcoin Core med en gang, i henhold til rammeverket for ansvarlig offentliggjøring?
+answer: For å forhindre at selve oppdateringen avslører sårbarhetens natur før utbredt distribusjon finner sted
+wrong_answers:
+  - For å gi altcoin-utviklere tilstrekkelig tid til å implementere sine egne uavhengige løsninger først
+  - For å muliggjøre omfattende testing på tvers av ulike mining-pooler før sikkerhetsoppdateringer lanseres
+  - For å opprettholde bakoverkompatibilitet med eldre nodeversjoner som ikke kan håndtere nødoppdateringer
+explanation: |
+  Det riktige svaret belyser et viktig paradoks ved sikkerhetsoppdateringer: selve løsningen kan avsløre sårbarheten. Kapittelet understreker at utviklere må være nøye med å skjule oppdateringer fordi publisering av dem umiddelbart kan avsløre sårbarheten for angripere før de fleste noder er beskyttet. Selv om de gale svarene er plausible, gir de en feilaktig fremstilling av prioriteringene: Altcoin-varsling skjer etter at Bitcoin-nettverket er tatt i bruk, mining-pooltesting er ikke det viktigste for ikke-kritiske problemer, og bakoverkompatibilitet er ikke avgjørende for tidspunktet for sikkerhetsoppdateringer.

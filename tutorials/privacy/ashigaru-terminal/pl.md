@@ -27,6 +27,8 @@ W tym pierwszym poradniku przeprowadzę cię przez instalację i obsługę Ashig
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Zainstaluj terminal Ashigaru
 
 
@@ -286,7 +288,7 @@ W tym samouczku wybierzemy drugą metodę. Jeśli jednak wolisz utworzyć zupeł
 
 
 
-Należy również pamiętać, że Ashigaru Terminal nie pozwala na bezpośrednie wydawanie bitcoinów. Możesz albo zsynchronizować ten sam wallet w Ashigaru Terminal i w aplikacji Ashigaru (co zrobię w tym samouczku), albo użyć opcji `Mix to` (której przyjrzymy się w następnym samouczku), aby automatycznie wysłać swoje środki do sprzętu wallet po określonej liczbie cykli miksowania.
+Zauważ również, że Ashigaru Terminal nie pozwala na bezpośrednie wydawanie bitcoinów. Możesz zsynchronizować ten sam portfel na Ashigaru Terminal i w aplikacji Ashigaru (co zrobię w tym samouczku) lub w Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Następnie wybierz typ portfela `Hot Wallet`.
 
 
 
-*Uwaga*: opcja `Watch-only` pozwala na zapisanie `xpub` sprzętu wallet w celu użycia funkcji `Mix to` w późniejszym terminie. Jednak ten typ wallet oczywiście nie może uczestniczyć w coinjoinach. Wrócimy do tej funkcji w szczegółach w następnym samouczku.
 
 
 
@@ -447,4 +448,5 @@ Obsługa jest identyczna jak w Sparrow, ponieważ Ashigaru Terminal jest fork se
 
 
 
-Teraz już wiesz, jak zainstalować i używać Ashigaru Terminal. W następnym samouczku przyjrzymy się, jak tworzyć coinjoiny za pomocą tego oprogramowania i jak zarządzać tłami w "*Postmix*", za pośrednictwem aplikacji Ashigaru lub za pomocą opcji `Mix to`.
+Wiesz już, jak zainstalować i obsługiwać Ashigaru Terminal. W następnym samouczku zobaczymy, jak wykonywać coinjoiny za pomocą tego oprogramowania i jak zarządzać środkami w "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

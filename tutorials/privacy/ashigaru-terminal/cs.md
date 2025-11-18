@@ -27,6 +27,8 @@ V tomto prvním tutoriálu vás seznámím s instalací a ovládáním terminál
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Instalace terminálu Ashigaru
 
 
@@ -286,7 +288,7 @@ V tomto návodu se rozhodneme pro druhou metodu. Pokud však dáváte přednost 
 
 
 
-Upozorňujeme také, že terminál Ashigaru neumožňuje utrácet bitcoiny přímo. Můžete buď synchronizovat stejný wallet v Ashigaru Terminálu a v aplikaci Ashigaru (což udělám v tomto návodu), nebo použít možnost `Mix to` (na kterou se podíváme v dalším návodu), aby se vaše prostředky automaticky odeslaly na hardware wallet po nastaveném počtu cyklů mixu.
+Všimněte si také, že Ashigaru Terminal neumožňuje přímo utrácet vaše bitcoiny. Můžete buď synchronizovat stejnou peněženku na Ashigaru Terminal a v aplikaci Ashigaru (což udělám v tomto tutoriálu), nebo ve Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Poté vyberte typ portfolia `Hot Wallet`.
 
 
 
-*Poznámka*: možnost `Pouze sledování` umožňuje uložit `xpub` hardwaru wallet, abyste mohli později použít funkci `Mix to`. Tento typ wallet se však samozřejmě nemůže účastnit coinjoins. K této funkci se podrobněji vrátíme v příštím návodu.
 
 
 
@@ -447,4 +448,5 @@ Provoz je pak totožný s provozem Sparrow, protože terminál Ashigaru je fork 
 
 
 
-Nyní víte, jak nainstalovat a používat terminál Ashigaru. V příštím tutoriálu se podíváme na to, jak pomocí tohoto softwaru vytvářet coinjoiny a jak spravovat pozadí v "*Postmixu*", a to buď prostřednictvím aplikace Ashigaru, nebo pomocí možnosti `Mix to`.
+Nyní už víte, jak nainstalovat a používat Ashigaru Terminal. V dalším tutoriálu si ukážeme, jak provádět coinjoiny pomocí tohoto softwaru a jak spravovat prostředky v "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

@@ -84,7 +84,7 @@ Dojo позволяет вашему приложению Ashigaru получа�
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Если вы действительно не можете позволить себе содержать собственный Dojo, вы можете найти людей, готовых бесплатно поделиться своим инстансом на [dojobay.pw](https://www.dojobay.pw/mainnet/). Это может быть временным решением, но в долгосрочной перспективе я рекомендую вам использовать свой собственный Dojo, чтобы гарантировать свой суверенитет и конфиденциальность.
 
@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 Теперь вы знаете, как использовать основные возможности приложения Ashigaru. В следующих уроках мы рассмотрим, как использовать преимущества расширенных транзакций, а также Whirlpool, реализацию coinjoin, унаследованную от Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

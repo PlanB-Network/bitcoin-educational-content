@@ -84,7 +84,7 @@ description: fork از Samourai Wallet برای ایمن‌سازی، مدیری
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 اگر واقعاً نمی‌توانید هزینه راه‌اندازی دوجوی خود را بپردازید، می‌توانید افرادی را پیدا کنید که مایل به اشتراک‌گذاری نسخه خود به‌صورت رایگان در [dojobay.pw](https://www.dojobay.pw/mainnet/) هستند. این ممکن است یک راه‌حل موقت باشد، اما در بلندمدت، توصیه می‌کنم از دوجوی خود استفاده کنید تا حاکمیت و محرمانگی خود را تضمین کنید.
 
@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 اکنون می‌دانید چگونه از ویژگی‌های پایه‌ای برنامه Ashigaru استفاده کنید. در آموزش‌های آینده، به بررسی نحوه استفاده از تراکنش‌های پیشرفته هزینه‌کرد، و همچنین Whirlpool، پیاده‌سازی coinjoin که از Samurai Wallet به ارث رسیده است، خواهیم پرداخت.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

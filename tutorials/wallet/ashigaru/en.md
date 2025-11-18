@@ -65,7 +65,7 @@ The Dojo enables your Ashigaru application to consult blockchain information, vi
 To find out more about Dojo and learn how to install it, I invite you to follow this dedicated tutorial :
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 If you really can't afford to run your own Dojo, you can find people willing to share their instance for free at [dojobay.pw](https://www.dojobay.pw/mainnet/). This may be a temporary solution, but in the long term, I recommend you use your own Dojo to guarantee your sovereignty and confidentiality.
 
@@ -440,3 +440,4 @@ Once the notification transaction has been confirmed, you can send your donation
 
 
 You now know how to use the basic features of the Ashigaru application. In future tutorials, we'll look at how to take advantage of advanced spending transactions, as well as Whirlpool, the coinjoin implementation inherited from Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

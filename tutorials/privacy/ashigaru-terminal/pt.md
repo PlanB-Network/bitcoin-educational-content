@@ -27,6 +27,8 @@ Neste primeiro tutorial, vou mostrar-lhe a instalação e o funcionamento do Ter
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Instalar o terminal Ashigaru
 
 
@@ -286,7 +288,7 @@ Neste tutorial, vamos optar pelo segundo método. No entanto, se preferir criar 
 
 
 
-Note-se também que o Terminal Ashigaru não lhe permite gastar os seus bitcoins diretamente. Pode sincronizar o mesmo wallet no Ashigaru Terminal e na aplicação Ashigaru (o que farei neste tutorial), ou usar a opção `Mix to` (que veremos no próximo tutorial) para enviar automaticamente os seus fundos para um hardware wallet após um determinado número de ciclos de mistura.
+Observe também que o Ashigaru Terminal não permite gastar seus bitcoins diretamente. Você pode sincronizar a mesma carteira no Ashigaru Terminal e no aplicativo Ashigaru (o que farei neste tutorial), ou no Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Em seguida, selecionar o tipo de carteira `Hot Wallet`.
 
 
 
-*Nota*: a opção `Watch-only` permite guardar o `xpub` de um hardware wallet para utilizar a função `Mix to` numa data posterior. Entretanto, este tipo de wallet obviamente não pode participar de coinjoins. Voltaremos a falar desta função em detalhes no próximo tutorial.
 
 
 
@@ -447,4 +448,5 @@ O funcionamento é então idêntico ao do Sparrow, uma vez que o Terminal Ashiga
 
 
 
-Agora já sabe como instalar e utilizar o Terminal Ashigaru. No próximo tutorial, veremos como criar coinjoins com este software e como gerir os fundos no "*Postmix*", quer através da aplicação Ashigaru, quer utilizando a opção `Mix to`.
+Agora você já sabe como instalar e usar o Ashigaru Terminal. No próximo tutorial, veremos como realizar coinjoins com este software e como gerenciar os fundos em "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

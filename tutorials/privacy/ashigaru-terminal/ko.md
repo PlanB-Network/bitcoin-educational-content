@@ -27,6 +27,8 @@ description: 데스크톱에서 아시가루를 사용하여 코인조인 만들
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. 아시가루 터미널 설치
 
 
@@ -286,7 +288,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-아시가루 터미널에서는 비트코인을 직접 사용할 수 없다는 점도 유의하시기 바랍니다. 아시가루 터미널과 아시가루 앱에서 동일한 wallet을 동기화하거나(이 튜토리얼에서는 제가 할 것입니다), '믹스 투' 옵션(다음 튜토리얼에서 살펴보겠습니다)을 사용해 설정한 믹스 주기 후에 자동으로 자금을 wallet 하드웨어로 전송할 수 있습니다.
+또한 Ashigaru Terminal에서는 비트코인을 직접 사용할 수 없습니다. 동일한 지갑을 Ashigaru Terminal과 Ashigaru 앱(이 튜토리얼에서 제가 할 방법) 또는 Sparrow Wallet에서 동기화할 수 있습니다.
 
 
 
@@ -324,7 +326,6 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-*참고*: '감시 전용' 옵션을 사용하면 나중에 '믹스 투' 기능을 사용하기 위해 wallet 하드웨어의 'xpub'을 저장할 수 있습니다. 그러나 이 유형의 wallet은 코인 조인에 참여할 수 없습니다. 다음 튜토리얼에서 이 기능에 대해 자세히 살펴보겠습니다.
 
 
 
@@ -447,4 +448,5 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-이제 아시가루 터미널을 설치하고 사용하는 방법을 알아봤습니다. 다음 튜토리얼에서는 이 소프트웨어로 코인조인을 만드는 방법과 아시가루 애플리케이션을 통해 또는 '믹스 투' 옵션을 사용해 '*포스트믹스*'에서 배경을 관리하는 방법에 대해 살펴보겠습니다.
+이제 Ashigaru Terminal을 설치하고 사용하는 방법을 알게 되었습니다. 다음 튜토리얼에서는 이 소프트웨어로 coinjoin을 수행하고 "*Postmix*"에서 자금을 관리하는 방법을 알아보겠습니다.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

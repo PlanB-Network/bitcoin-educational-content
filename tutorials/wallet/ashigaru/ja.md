@@ -84,7 +84,7 @@ Dojoの詳細とインストール方法については、専用のチュート�
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 どうしても自分のDojoを運営する余裕がない場合は、[dojobay.pw](https://www.dojobay.pw/mainnet/)で無料でインスタンスを共有してくれる人を見つけることができます。これは一時的な解決策かもしれませんが、長期的には、あなたの主権と機密性を保証するために、あなた自身の道場を使うことをお勧めします。
 
@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 これで足軽アプリの基本的な使い方はお分かりいただけたと思います。今後のチュートリアルでは、高度なお小遣い取引の活用方法や、サムライWalletから継承されたコインジョイント実装であるWhirlpoolについて見ていきます。
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

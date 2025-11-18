@@ -84,7 +84,7 @@ Om meer te weten te komen over Dojo en te leren hoe je het installeert, nodig ik
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Als je het je echt niet kunt veroorloven om je eigen Dojo te beheren, kun je mensen vinden die bereid zijn om hun instantie gratis te delen op [dojobay.pw](https://www.dojobay.pw/mainnet/). Dit kan een tijdelijke oplossing zijn, maar op de lange termijn raad ik je aan om je eigen Dojo te gebruiken om je soevereiniteit en vertrouwelijkheid te garanderen.
 
@@ -579,3 +579,4 @@ Zodra de meldingstransactie is bevestigd, kun je je donaties naar het project st
 
 
 Je weet nu hoe je de basisfuncties van de Ashigaru-applicatie kunt gebruiken. In toekomstige tutorials zullen we kijken hoe je voordeel kunt halen uit geavanceerde uitgaven transacties, evenals Whirlpool, de coinjoin implementatie geërfd van Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

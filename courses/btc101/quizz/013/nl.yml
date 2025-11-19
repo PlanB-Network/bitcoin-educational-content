@@ -1,0 +1,12 @@
+question: Wat zijn de belangrijkste kenmerken van een effectieve valuta?
+answer: Fungibel, Deelbaar, Liquid.
+wrong_answers:
+  - Vruchtbaar, Deelbaar, Bederfelijk.
+  - Fungibel, Ondeelbaar, Liquid.
+  - Niet ontvlambaar, Deelbaar, Liquid.
+explanation: |
+  Een effectieve munteenheid moet fungibel (uitwisselbaar
+  zonder waardeverlies), deelbaar (scheidbaar in kleine
+  delen om transacties van verschillende volumes te vergemakkelijken), en
+  Liquid (gemakkelijk converteerbaar in goederen of diensten).
+reviewed: true

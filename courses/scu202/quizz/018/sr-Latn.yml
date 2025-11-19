@@ -1,0 +1,9 @@
+question: Koji je upravitelj paketa koji koriste Debian i Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian i Ubuntu koriste APT menadžer paketa, zasnovan na .deb formatu, za upravljanje instalacijom i ažuriranjem softvera.
+reviewed: false

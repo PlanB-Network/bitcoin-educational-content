@@ -1,0 +1,9 @@
+question: Ni ibihe bisubizo bimwebimwe vyo gupfuka amakuru ku bikoresho bitandukanye?
+answer: BitLocker ku Windows, LUKS ku Linux, n’uburyo bushizwemwo ku Mac.
+wrong_answers:
+  - BitLocker kuri Linux, LUKS kuri Mac, n’uburyo bushizwemwo kuri Windows.
+  - BitLocker ya Mac, LUKS ya Windows, n’uburyo bushizwemwo kuri Linux.
+  - LUKS ku bikoresho vyose bikoreshwa.
+explanation: |
+  Uburyo butandukanye bwo gukoresha burafise inyishu zitandukanye zo gupfuka amakuru. BitLocker ni iya Windows, LUKS ni iya Linux, Mac na yo ifise uburyo bwo gupfuka amakuru.
+reviewed: true

@@ -1,10 +1,10 @@
-question: Hva er rollen til gruvearbeidere i forhold til kraftverk som ennå ikke er koblet til nettet?
-answer: De fungerer som en siste instans kjøper
+question: Hva er en av grunnene til at Bitcoin er attraktivt for visse grupper?
+answer: Dets evne til å tilby løsninger som tillitsløs elektronisk kontanter, motstandsdyktighet mot sensur, eller en transparent og uforanderlig pengepolitikk.
 wrong_answers:
-  - De forsyner kraftverkene med elektrisitet
-  - De kobler kraftverkene til nettet
-  - De regulerer prisen på elektrisitet
+  - Det er lett å forfalske.
+  - Det er kontrollert av en sentral myndighet.
+  - Det er ikke pseudonymt.
 explanation: >-
-  Gruvearbeidere fungerer som en siste instans kjøper for kraftverk som ennå ikke er koblet
-  til nettet. Dette lar kraftverkene sikre finansiering selv før de blir
-  koblet til det elektriske nettverket.
+  Bitcoins desentraliserte natur, pseudonymitet og motstandsdyktighet mot sensur
+  gjør det attraktivt for grupper som teknofiler, cypherpunks, libertarianske, og
+  gullentusiaster.

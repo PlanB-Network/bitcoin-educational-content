@@ -1,0 +1,9 @@
+question: Mikä organisaatio valvoo Internet-protokollien teknistä hallintoa?
+answer: Internet-arkkitehtuurilautakunta
+wrong_answers:
+  - Internet-yhteisö
+  - World Wide Web Consortium
+  - Sähkö- ja elektroniikkainsinöörien instituutti
+explanation: |
+  Internet-arkkitehtuurilautakunta (IAB) valvoo teknistä hallintoa ja koordinoi Internet-protokollien kehitystä.
+reviewed: false

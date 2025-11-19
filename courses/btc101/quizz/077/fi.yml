@@ -1,12 +1,9 @@
-question: Mikä on riski jakaa Bitcoin-lompakon julkinen avain?
-answer: Yksityisyyden menettäminen.
+question: Mikä tulisi olla päätavoite omistaessasi bitcoineja?
+answer: Varojesi turvallisuus.
 wrong_answers:
-  - Bitcoin-lompakon tuhoaminen.
-  - Bitcoinien menettäminen.
-  - Bitcoin-lompakon hakkerointi.
+  - Bitcoinin arvo dollareissa.
+  - Bitcoinien omistamisen laillisuus.
+  - Lupa käyttää varojasi.
 explanation: |
-  Julkisen avaimen jakaminen sisältää riskejä yksityisyydelle, mutta ei
-  turvallisuudelle. Tämä johtuu siitä, että julkinen avain käytetään
-  Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen, mutta se
-  ei edusta omistusoikeutta Bitcoineihin.
+  Omistaessasi bitcoineja, päätavoite on varojesi turvallisuus. Tämä johtuu siitä, että Bitcoin, kuten mikä tahansa muu valuutta, voidaan varastaa tai menettää, jos sitä ei ole asianmukaisesti suojattu.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Vad är huvudmålet för den paranoida bitcoiner?
+answer: För att skydda deras integritet
+wrong_answers:
+  - Att snabbt samla på sig satoshis
+  - För att maximera handelsvinsterna
+  - För att hålla sina bitcoins långsiktigt
+explanation: |
+  Den paranoida bitcoinern försöker i första hand undvika all spårbarhet av sina transaktioner och sin identitet.
+reviewed: false

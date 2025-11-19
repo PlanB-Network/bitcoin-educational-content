@@ -6,4 +6,4 @@ wrong_answers:
   - En fermant et rouvrant le canal après chaque transaction
 explanation: |
   Chaque transaction au sein du canal met à jour l'état du canal avec une nouvelle transaction d'engagement, reflétant la répartition actuelle des fonds entre les deux participants.
-reviewed: false
+reviewed: true 

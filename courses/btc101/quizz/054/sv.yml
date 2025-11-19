@@ -1,0 +1,11 @@
+question: Vad heter evenemanget när belöningen för Mining halveras?
+answer: Halving
+wrong_answers:
+  - Fördubbling
+  - Kvarsittning
+  - Trippel
+explanation: |
+  Händelsen då belöningen för Mining halveras kallas
+  Halving. Denna händelse ger den monetära utgivningskurvan en
+  trappliknande form.
+reviewed: true

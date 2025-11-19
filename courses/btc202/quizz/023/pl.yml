@@ -1,0 +1,9 @@
+question: Jaka jest różnica między zasadami konsensusu a zasadami przekaźnika?
+answer: Konsensus definiuje ważność, przekazuje dyfuzję transakcji
+wrong_answers:
+  - Konsensus definiuje opłaty, przekaźnik definiuje adresy
+  - Konsensus zarządza Blockchain, przekaźnik zarządza kluczami prywatnymi
+  - Konsensus wybiera górników, przekaźnik wybiera kupców
+explanation: |
+  Zasady konsensusu określają, co jest ważne w Bitcoin, podczas gdy zasady przekazywania zarządzają transakcjami między węzłami.
+reviewed: true

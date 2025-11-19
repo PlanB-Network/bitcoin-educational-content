@@ -1,5 +1,5 @@
 question: Welche Vorteile bieten Passkeys als Alternative zu traditionellen Passwörtern?
-answer: Sie bieten verschlüsselte Zufallsschlüssel in Kombination mit einem lokalen Faktor, die von einem Anbieter gehostet werden, aber außerhalb ihrer Reichweite bleiben.
+answer: Sie bieten verschlüsselte Zufallsschlüssel in Kombination mit einem lokalen Faktor. Die Schlüssel werden von einem Anbieter gehostet, aber verbleiben außerhalb dessen Zugriff.
 wrong_answers:
   - Sie sind leichter zu merken als traditionelle Passwörter.
   - Sie erfordern keine zusätzlichen Authentifizierungsfaktoren.
@@ -7,7 +7,7 @@ wrong_answers:
 explanation: |
   Passkeys bieten verschlüsselte Zufallsschlüssel in Kombination mit einem lokalen
   Faktor (Biometrie oder PIN), die von einem Anbieter gehostet werden,
-  aber außerhalb ihrer Reichweite bleiben. Dieser Ansatz eliminiert die
+  aber außerhalb dessen Zugriff bleiben. Dieser Ansatz eliminiert die
   Notwendigkeit für Passwörter und bietet somit ein hohes Maß an Sicherheit
   ohne die Einschränkungen, die mit traditionellen
   Passwörtern verbunden sind.

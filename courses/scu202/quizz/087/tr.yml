@@ -1,0 +1,9 @@
+question: Hangi açık kaynak VPN uygulaması e-posta olmadan anonim hesap oluşturmaya izin verir ve Bitcoin ödemelerini kabul eder?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN, e-posta veya şifre gerektirmeden tamamen anonim hesap oluşturmasıyla öne çıkıyor ve Bitcoin veya nakit olarak ödeme kabul ediyor.
+reviewed: false

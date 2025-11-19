@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale di un ambiente desktop Linux?
+answer: Fornire la grafica Interface
+wrong_answers:
+  - Gestione dell'avvio del sistema
+  - Compilazione del kernel Linux
+  - Protezione dai virus
+explanation: |
+  L'ambiente desktop raggruppa Elements visivi e interattivi (finestre, menu, icone, pannelli, ecc.) per consentire all'utente di interagire graficamente con il sistema.
+reviewed: false

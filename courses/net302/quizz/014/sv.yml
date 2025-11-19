@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med IPv5 (Stream Protocol, ST)?
+answer: Säkerställande av tjänstekvalitet för vissa flöden
+wrong_answers:
+  - Utöka kapaciteten för IP-adressering
+  - Tillhandahåller bakåtkompatibilitet med IPv6
+  - Minska storleken på TCP/IP-nätverkspaketen
+explanation: |
+  IPv5 (ST) utformades för att tillhandahålla tjänstekvalitet (QoS) för multimediaströmmar, till exempel VoIP, genom att garantera bandbredd och prioritet.
+reviewed: false

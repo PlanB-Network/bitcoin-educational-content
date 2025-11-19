@@ -1,0 +1,9 @@
+question: Koja su glavna ograničenja antivirusnih aplikacija za mobilne uređaje?
+answer: Oni su ograničeni pred stvarnim pretnjama
+wrong_answers:
+  - Oni čine telefon nekompatibilnim sa mobilnim mrežama
+  - Oni uklanjaju aplikacije za razmenu poruka
+  - Oni povećavaju trajanje baterije
+explanation: |
+  Mobilni antivirusni softver ne nudi zaštitu protiv fišinga ili loših autorizacija, i pruža samo ograničenu sigurnost protiv glavnih pretnji.
+reviewed: false

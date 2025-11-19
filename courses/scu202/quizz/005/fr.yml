@@ -1,0 +1,9 @@
+question: Quel système d’exploitation domine aujourd’hui le marché des ordinateurs personnels ?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows détient environ 71 % de parts de marché sur les ordinateurs personnels, grâce notamment à son installation par défaut et à un large écosystème logiciel.
+reviewed: false

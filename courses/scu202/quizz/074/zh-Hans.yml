@@ -1,0 +1,9 @@
+question: 是什么事件迫使谷歌将 Android 调整为触摸式 Interface？
+answer: 第一代 iPhone 发布
+wrong_answers:
+  - 微软收购诺基亚
+  - 创建 CyanogenMod
+  - Play 商店的推出
+explanation: |
+  2007 年，iPhone 的出现迫使谷歌重新考虑安卓系统，使其与触摸屏兼容，放弃了使用物理键盘设备的想法。
+reviewed: false

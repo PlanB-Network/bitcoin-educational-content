@@ -1,0 +1,9 @@
+question: Lightning Network doğrudan bağlı olmayan bir düğüme para gönderilmesine nasıl izin veriyor?
+answer: Ödemeyi aracı düğümler üzerinden yönlendirerek
+wrong_answers:
+  - Her düğüm arasında On-Chain işlemlerini kullanarak
+  - Otomatik olarak geçici bir kanal kurarak
+  - Fonları doğrudan çoklu imza adresleri ile göndererek
+explanation: |
+  Lightning Network, gönderici ve alıcı arasında doğrudan bir kanal gerektirmeden bir ödemenin birkaç aracı düğüm üzerinden yönlendirilmesini sağlar.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat zou er gebeuren als een gebruiker van een knooppunt ervoor kiest om andere regels te volgen die in tegenspraak zijn met de bestaande consensusregels?
+answer: Het knooppunt zal niet langer deel uitmaken van het Bitcoin netwerk.
+wrong_answers:
+  - Het knooppunt wordt onderdeel van een ander Bitcoin netwerk.
+  - Het knooppunt wordt gestraft door het Bitcoin netwerk.
+  - Het knooppunt wordt beloond door het Bitcoin netwerk.
+explanation: |
+  Als een gebruiker van een knooppunt besluit om andere regels te volgen die
+  die de huidige consensusregels ongeldig maken, dan zou dit knooppunt
+  niet langer deel uitmaken van het Bitcoin netwerk.
+reviewed: true

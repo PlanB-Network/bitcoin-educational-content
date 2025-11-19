@@ -1,0 +1,8 @@
+question: Qual è la ragione principale per cui l'effettiva offerta circolante di Bitcoin sarà significativamente inferiore al massimo teorico di circa 21 milioni di BTC?
+answer: Lo smarrimento delle chiavi private, il furto di wallet e le monete inviate a indirizzi sbagliati tolgono definitivamente i bitcoin dalla circolazione
+wrong_answers:
+  - Gli aggiustamenti della difficoltà del Mining riducono automaticamente l'offerta totale per mantenere la scarsità nel tempo
+  - Le commissioni di transazione vengono bruciate durante l'elaborazione, riducendo gradualmente la disponibilità di bitcoin
+  - "Il protocollo Bitcoin blocca automaticamente le monete che non si sono mosse per lunghi periodi per prevenire l'inflazione"
+explanation: |
+  Il capitolo spiega che mentre il massimo teorico è di circa 20.999.817 BTC, l'offerta effettivamente utilizzabile è molto più bassa a causa di errori umani e perdite. Le chiavi private perse rendono i bitcoin permanentemente inaccessibili, i portafogli vengono rubati o dimenticati e le monete vengono talvolta inviate a indirizzi non validi. Questi fattori creano una riduzione permanente dell'offerta che avvantaggia i detentori rimanenti, poiché Satoshi ha notato che le monete perse fanno sì che le monete degli altri valgano di più.

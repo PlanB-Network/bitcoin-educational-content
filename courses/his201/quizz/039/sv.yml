@@ -1,0 +1,9 @@
+question: Vem var först med att implementera Mining med en GPU (Graphics Processing Unit) 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  I april 2010 använde han OpenCL-miljön för att involvera GPU i Bitcoin Mining. Den 10 maj [publicerade](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) han sin körbara fil på forumet.
+reviewed: true

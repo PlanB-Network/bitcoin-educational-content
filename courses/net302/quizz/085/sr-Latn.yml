@@ -1,0 +1,9 @@
+question: Koja komanda se može koristiti da se proveri kroz koji Interface i prolaz bi paket ka 8.8.8.8 bio rutiran?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> pokazuje tačan put koji bi paket prešao da bi stigao do određene destinacije.
+reviewed: false

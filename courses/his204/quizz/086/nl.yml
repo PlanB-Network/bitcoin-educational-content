@@ -1,0 +1,8 @@
+question: Welk idee wordt de drogreden van Montaigne genoemd?
+answer: Exchange is een nulsomspel
+wrong_answers:
+  - Exchange is een positief-somspel
+  - Afhankelijk van tijd en plaats is Exchange soms een nulsomspel, soms een positief-somspel
+  - Exchange is altijd ongunstig voor de zwakkere partij
+explanation: |
+  De drogreden van Montaigne is het idee dat Exchange een nulsomspel is, d.w.z. wat de één wint, verliest de ander. Dit idee is onjuist, omdat vrijwillige Exchange voor beide partijen voordelig is.

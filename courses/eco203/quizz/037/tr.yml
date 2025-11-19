@@ -1,0 +1,9 @@
+question: Romalılara göre Latince'de mülkiyetin tanımı neydi?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Roma hukukunda jus utendi et abutendi, mülkiyeti kullanma ve kötüye kullanma hakkı olarak tanımlar ve nedenlerini araştırmadan kullanımı vurgular.
+reviewed: false

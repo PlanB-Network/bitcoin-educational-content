@@ -1,0 +1,9 @@
+question: Bitcoin'ın ilk tasarımı sırasında Satoshi Nakamoto'nun ana ilham kaynağı neydi?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Büyük benzerliklerine rağmen, Satoshi'nin ana ilham kaynağı b-money, bit gold ve RPOW modelleri değildi çünkü Ağustos 2008'den önce bunlardan haberdar değildi.
+reviewed: true

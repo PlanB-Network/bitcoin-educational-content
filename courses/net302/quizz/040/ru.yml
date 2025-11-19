@@ -1,0 +1,9 @@
+question: Какая запись является обязательной в каждом файле зоны DNS?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (указатель)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  Запись SOA определяет полномочия зоны и необходима в каждом файле зоны DNS.
+reviewed: false

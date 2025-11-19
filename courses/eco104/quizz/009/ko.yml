@@ -1,0 +1,11 @@
+question: The Times 03/Jan/2009 첫 번째 Bitcoin 블록의 은행에 대한 두 번째 구제 금융 직전에 총리라는 인용문의 의미는 무엇입니까?
+answer: 이는 손실을 사회화하는 금융 시스템의 능력을 강조합니다
+wrong_answers:
+  - 이는 더 타임즈 신문에 대한 Satoshi의 감사를 의미합니다
+  - 구제금융이 우리 사회에 어떤 혜택을 가져왔는지 보여주는 좋은 예입니다
+  - Blockchain에 메시지를 저장하는 Bitcoin의 기능을 보여줍니다
+explanation: |
+  이는 타임즈 신문 [기사](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h)를 참고한 것입니다
+  은행들이 위험한 행동을 하고 있으며, 그 결과는 거의 없고
+  은행들이 위험한 행동을 하고 있으며, 그 손실은 통화 보유자들에게 전가될 것이라는 우려를 반영한 것입니다.
+reviewed: true

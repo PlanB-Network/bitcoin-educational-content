@@ -1,0 +1,9 @@
+question: उबंटू वितरण पर सभी पैकेजों को अद्यतन करने के लिए किस कमांड का उपयोग किया जा सकता है?
+answer: sudo apt अपडेट && sudo apt अपग्रेड
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf अपग्रेड
+  - सुडो अपडेट-ऑल
+explanation: |
+  उबंटू (और डेबियन) पर, "sudo apt update && sudo apt upgrade" कमांड पैकेज सूची को सिंक्रनाइज़ करता है और सभी उपलब्ध अपडेट इंस्टॉल करता है।
+reviewed: false

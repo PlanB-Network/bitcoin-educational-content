@@ -1,0 +1,9 @@
+question: Miksi digitaalisten tiedostojen metatiedot ovat riski yksityisyydelle?
+answer: Ne voivat paljastaa arkaluonteisia tietoja
+wrong_answers:
+  - Ne hidastavat virustorjunnan avautumista joissakin järjestelmissä
+  - Ne estävät tiedostojen jakamisen sähköpostitse
+  - Ne voivat isännöidä kiristysohjelmia
+explanation: |
+  Metatiedot voivat sisältää luottamuksellisia tietoja, jotka eivät näy tiedostoa avattaessa, kuten GPS-koordinaatit, tekijän nimi, tunniste tai muutoshistoria, joita voidaan hyödyntää tietämättäsi.
+reviewed: false

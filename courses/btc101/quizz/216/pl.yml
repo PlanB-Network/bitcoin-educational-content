@@ -1,13 +1,11 @@
-question: Jaki jest status Bitcoin w Salwadorze?
-answer: Prawny środek płatniczy.
+question: Czym jest trylemat łańcucha bloków?
+answer: Protokół oparty na łańcuchu bloków może spełnić tylko dwa z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
 wrong_answers:
-  - Kryminalizacja.
-  - Nieznany.
-  - Nieuregulowane.
+  - Protokół oparty na łańcuchu bloków może spełnić tylko jedno z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
+  - Protokół oparty na łańcuchu bloków może spełnić wszystkie z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
+  - Protokół oparty na łańcuchu bloków nie może spełnić żadnego z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
 explanation: |
-  W tekście kursu wspomniano, że niektóre kraje zakazały
-  i kryminalizowały użycie Bitcoin, dodając do tego
-  złożoność przyjęcia Bitcoin w oparciu o kultury, epoki i narody
-  narodów. Jednak Salwador był na tyle odważny, by przyjąć Bitcoin jako
-  jako legalny środek płatniczy.
+  Trylemat łańcucha bloków odnosi się do wyzwania polegającego na tym, że
+  protokół na nim oparty może spełnić tylko dwa spośrod następujących kryteriów:
+  decentralizacja, bezpieczeństwo i skalowalność.
 reviewed: true

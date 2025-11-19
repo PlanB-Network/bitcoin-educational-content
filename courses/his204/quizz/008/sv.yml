@@ -1,0 +1,8 @@
+question: Vilken typ av skatt förespråkade Vauban i sina skrifter?
+answer: Proportionell skatt alla måste ge samma procentandel av sin inkomst till staten
+wrong_answers:
+  - Progressiv beskattning skattesatsen för de rika måste vara högre än den för de fattiga
+  - Schablonskatt Oavsett inkomst betalar du samma belopp varje år till staten
+  - Regressiv beskattning Skattesatserna för de fattiga måste vara högre än för de rika
+explanation: |
+  Vauban förespråkade en proportionell skatt, den "kungliga tionden", som bestod i att ta ut en tiondel (10%) av alla fransmäns inkomster, oavsett deras sociala status. Han ansåg att denna skatt skulle vara mer rättvis och effektiv än det befintliga skattesystemet.

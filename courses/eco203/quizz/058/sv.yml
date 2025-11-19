@@ -1,0 +1,9 @@
+question: Hur ser Bastiat på ljustillverkarnas efterfrågan?
+answer: Han avvisar det eftersom det strider mot det allmänna intresset
+wrong_answers:
+  - Han stöder det eftersom det är viktigt att skydda arbetstillfällen
+  - Han är neutral i denna fråga
+  - Han anser att ljustillverkarna har rätt
+explanation: |
+  Bastiat kritiserar ljustillverkarnas krav och framhåller att protektionism gynnar särintressen på bekostnad av allmänintresset.
+reviewed: false

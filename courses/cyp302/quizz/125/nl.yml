@@ -1,0 +1,9 @@
+question: Welk groot probleem probeerden de cryptografen Diffie, Hellman en Merkle op te lossen in de jaren 1970?
+answer: De problemen van sleuteldistributie en -beheer
+wrong_answers:
+  - De ontwikkeling van post-kwantumcryptografie
+  - Beveiligen van militaire communicatie
+  - Symmetrische coderingstechnieken verbeteren
+explanation: |
+  Diffie, Hellman en Merkle werden gemotiveerd door de praktische problemen van sleuteldistributie en -beheer om communicatie te beveiligen, cruciale uitdagingen in een wereld die overgaat op digitale communicatie.
+reviewed: false

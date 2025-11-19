@@ -1,0 +1,9 @@
+question: Vad är den största fördelen med att använda en lösenordshanterare?
+answer: Det hjälper dig att skapa starka lösenord och komma ihåg dem, så att du inte behöver göra det.
+wrong_answers:
+  - Du loggas automatiskt in på dina onlinekonton.
+  - Det skyddar din dator från virus.
+  - Den lagrar alla dina lösenord på ett ställe, vilket gör dem lättare att hitta.
+explanation: |
+  En lösenordshanterare hjälper dig att skapa och komma ihåg starka lösenord så att du inte behöver göra det. Den lagrar alla dina lösenord på ett säkert sätt och genererar starka lösenord åt dig.
+reviewed: true

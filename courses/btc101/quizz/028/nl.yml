@@ -1,0 +1,9 @@
+question: Wat is de betekenis van fiatgeld?
+answer: Fiat-geld is geld dat waarde heeft omdat een overheid het onderhoudt en mensen vertrouwen hebben in de waarde ervan, in plaats van dat het gedekt wordt door een fysiek goed zoals goud.
+wrong_answers:
+  - Fiat-geld is geld dat gedekt wordt door een fysiek goed, zoals goud of zilver, wat betekent dat de waarde ervan direct gekoppeld is aan de waarde van dat goed.
+  - Fiat-geld is een type cryptocurrency dat werkt op een gedecentraliseerd netwerk, waardoor peer-to-peer transacties mogelijk zijn zonder dat er een centrale autoriteit nodig is.
+  - Fiat-geld is geld dat geen intrinsieke waarde heeft en niet gebruikt kan worden voor transacties, waardoor het in wezen waardeloos is in de economie.
+explanation: |
+  Fiat-geld is bij overheidsbesluit ingesteld als wettig betaalmiddel en de waarde ervan is niet afgeleid van een fysiek goed.
+reviewed: true

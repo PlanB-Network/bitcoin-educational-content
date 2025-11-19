@@ -1,0 +1,11 @@
+question: Hashrate, Bitcoin ağında neyi ölçer?
+answer: Saniye başına hesaplamalar
+wrong_answers:
+  - Saniye başına işlem sayısı
+  - Aktif düğüm sayısı
+  - Şebeke tarafından tüketilen elektrik miktarı
+explanation: |
+  Bitcoin ağındaki Hashrate, aşağıdakilerin sayısını ölçer
+  saniyede gerçekleştirilebilen hesaplamalar. Bu bir anahtar
+  ağın sağlığı ve güvenliğinin göstergesi.
+reviewed: true

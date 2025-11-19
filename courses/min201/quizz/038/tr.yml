@@ -1,0 +1,14 @@
+question: Bitcoin Mining bağlamında Attakai girişimi nedir?
+answer: Ağa katkıda bulunurken Mining'yi daha erişilebilir ve daha az zararlı hale getirmeyi amaçlayan bir girişim
+wrong_answers:
+  - Bitcoin'ün fiyatını artırmayı amaçlayan bir girişim
+  - Ağın Hashrate'ünü azaltmayı amaçlayan bir girişim
+  - Hashing gücünü merkezileştirmeyi amaçlayan bir girişim
+explanation: |
+  Attakai girişimi, Bitcoin Mining'yı daha iyi hale getirmeyi amaçlamaktadır
+  erişilebilir ve daha az zararlı. İnsanları madencilik yapmaya teşvik ediyor
+  daha uygun fiyatlı donanım ve çözümlerle evde
+  gürültü kirliliğinin azaltılması. Girişim ayrıca şu hususları da vurgulamaktadır
+  güvenliğine katkıda bulunmanın önemi ve
+  gW-5 ağının merkezsizleştirilmesi.
+reviewed: true

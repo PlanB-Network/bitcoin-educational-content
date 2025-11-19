@@ -1,11 +1,9 @@
-question: Millistes valdkondades tekitab Bitcoin küsimusi?
-answer: Krüptograafia, mänguteooria, majandus ja rahapoliitika, arvutiteadus, filosoofia, energia, seadused ja regulatsioonid
+question: Mida võimaldab Lightning Network?
+answer: Kohesed, madala kuluga Bitcoin'i tehingud.
 wrong_answers:
-  - Ainult arvutiteadus ja majandus
-  - Ainult krüptograafia ja mänguteooria
-  - Ainult filosoofia ja energia
+  - Kohesed, kõrge kuluga Bitcoin'i tehingud.
+  - Viivitatud, madala kuluga Bitcoin'i tehingud.
+  - Viivitatud, kõrge kuluga Bitcoin'i tehingud.
 explanation: >-
-  Bitcoin on multidistsiplinaarne objekt, mis tekitab küsimusi seoses
-  mitmete valdkondadega, sealhulgas krüptograafia, mänguteooria, majandus ja rahapoliitika,
-  arvutiteadus, filosoofia, energia, seadused ja regulatsioonid.
-reviewed: false
+  Lightning Network võimaldab koheseid, madala kuluga Bitcoin'i tehinguid,
+  lahendades seeläbi Bitcoin'i skaleeritavuse probleemi.

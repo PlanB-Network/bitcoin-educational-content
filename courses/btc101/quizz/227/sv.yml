@@ -1,0 +1,8 @@
+question: Vad är en av de potentiella tillämpningarna av Lightning Network i vardagen?
+answer: Omedelbar fakturering i handeln.
+wrong_answers:
+  - Mining nya Bitcoins.
+  - Skapande av nya kryptovalutor.
+  - Ökning av värdet på Bitcoin.
+explanation: >-
+reviewed: true

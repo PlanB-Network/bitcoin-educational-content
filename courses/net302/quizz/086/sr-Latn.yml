@@ -1,0 +1,9 @@
+question: Koja komanda se preporučuje za analizu aktivnih TCP i UDP konekcija na Linux sistemu?
+answer: ss
+wrong_answers:
+  - arp
+  - ip link
+  - ifup
+explanation: |
+  Komanda ss zamenjuje netstat za brzo prikazivanje svih aktivnih mrežnih konekcija.
+reviewed: false

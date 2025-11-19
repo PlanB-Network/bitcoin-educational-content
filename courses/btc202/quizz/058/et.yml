@@ -1,0 +1,9 @@
+question: Mis on teie sõlme Tor-side peamine piirang?
+answer: Aeglus
+wrong_answers:
+  - Krüpteerimise puudumine
+  - Spam
+  - RPC kasutamise võimatus
+explanation: |
+  Tor-ühendused on turvalised, kuid aeglasemad kui alternatiivid, näiteks VPN.
+reviewed: true

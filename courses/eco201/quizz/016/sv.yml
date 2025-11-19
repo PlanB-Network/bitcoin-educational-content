@@ -1,0 +1,13 @@
+question: Vad innebär begreppet minskande marginalnytta?
+answer: Varje ytterligare enhet av en vara är mindre eftertraktad än den föregående.
+wrong_answers:
+  - Varje ytterligare enhet av en vara är mer eftertraktad än den föregående.
+  - Varje ytterligare enhet av en vara är lika eftertraktad som den föregående.
+  - Önskemålet om varje ytterligare enhet av en vara fluktuerar oförutsägbart.
+explanation: |
+  Begreppet minskande marginalnytta innebär att varje ytterligare
+  ytterligare enhet av en vara är mindre önskvärd än den
+  föregående. Detta beror på att när en individ förvärvar mer
+  av en vara, desto mindre nytta ger varje ytterligare enhet av den
+  varan ger.
+reviewed: true

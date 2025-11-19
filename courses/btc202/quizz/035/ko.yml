@@ -1,0 +1,9 @@
+question: 정전 시 노드를 보호하는 데 권장되는 구성 요소는 무엇인가요?
+answer: 인버터
+wrong_answers:
+  - 두 번째 그래픽 카드
+  - 추가 라우터
+  - USB 허브
+explanation: |
+  인버터는 정전 시 갑작스러운 시스템 종료를 방지하고 노드의 안정성을 보호합니다.
+reviewed: true

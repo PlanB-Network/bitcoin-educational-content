@@ -1,0 +1,13 @@
+question: Sabit para Supply sisteminde para Supply'daki bir artışın enflasyon ve deflasyon üzerindeki etkisi nedir?
+answer: Supply parasındaki bir artış, üretimdeki bir artışın neden olduğu potansiyel deflasyonu ortadan kaldırır.
+wrong_answers:
+  - Supply parasındaki bir artış deflasyona yol açar.
+  - Supply parasındaki bir artışın enflasyon veya deflasyon üzerinde hiçbir etkisi yoktur.
+  - Supply parasındaki bir artış üretimde bir düşüşe yol açar.
+explanation: |
+  Bu bölümde, sabit paralı bir Supply sisteminde, bir artışın
+  üretimdeki düşüş teorik olarak deflasyona, yani fiyatlarda düşüşe yol açmalıdır,
+  çünkü daha fazla mal ve hizmet mevcut olacaktır. Bununla birlikte, mevcut fiat
+  para sistemindeki bir artış, potansiyel deflasyonu ortadan kaldırır
+  üretim artışından kaynaklanmaktadır.
+reviewed: false

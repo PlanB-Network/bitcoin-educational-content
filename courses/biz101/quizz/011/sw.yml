@@ -1,9 +1,9 @@
-question: Je, umeme ina faida gani kwa wauzaji kuhusu ukamilishaji wa malipo?
-answer: Malipo ya Umeme hukamilika karibu papo hapo, na hivyo kupunguza hatari ya kubatilishwa au ulaghai.
+question: Je, Lightning ina faida gani kwa wauzaji kuhusu ukamilishaji wa malipo?
+answer: Malipo ya Lightning hukamilika karibu papo hapo, na hivyo kupunguza hatari ya kubatilishwa au ulaghai.
 wrong_answers:
   - Inahitaji saa 24 za kusubiri kabla ya pesa kutumika.
   - Inawaruhusu wateja kurejesha malipo yao wakati wowote.
   - Inafanya miamala kubadilishwa kikamilifu kwa hadi siku 90.
 explanation: |
-  Kwa Umeme, mara tu malipo yanapopitishwa na kutatuliwa kupitia mtandao, ni ya mwisho. Hii huondoa hali za urejeshaji pesa zinazoonekana kwenye mifumo ya kawaida ya malipo.
-reviewed: false
+  Kwa Lightning, mara tu malipo yanapopitishwa na kutatuliwa kupitia mtandao, ni ya mwisho. Hii huondoa hali za urejeshaji pesa zinazoonekana kwenye mifumo ya kawaida ya malipo.
+reviewed: true

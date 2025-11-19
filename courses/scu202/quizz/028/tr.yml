@@ -1,0 +1,9 @@
+question: Resmi Ubuntu depolarından yazılım yüklemek için hangi komut kullanılabilir?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap oluştur
+  - yazılım yükle
+explanation: |
+  "sudo apt install" komutu, Ubuntu'daki yerel yöntem olan APT paket yöneticisi aracılığıyla bir yazılım paketi yükler.
+reviewed: false

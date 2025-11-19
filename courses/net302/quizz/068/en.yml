@@ -1,0 +1,9 @@
+question: What mechanism converts a MAC address into a 64-bit identifier for generating an IPv6 address?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  The EUI-64 mechanism transforms a 48-bit MAC address into a 64-bit identifier, used in IPv6 auto-configuration.
+reviewed: false

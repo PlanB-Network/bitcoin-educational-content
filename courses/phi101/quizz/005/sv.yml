@@ -1,0 +1,9 @@
+question: Vilken är den dominerande synen på makt i västerländsk filosofi och historieskrivning?
+answer: Makt är en korrumperande kraft som leder till förtryck
+wrong_answers:
+  - Kraft är nödvändigt för mänsklighetens framsteg och välstånd
+  - Makt är ett neutralt verktyg som kan användas för gott eller ont
+  - Alla ovanstående
+explanation: |
+  I västerländsk filosofi och historieskrivning ses makt ofta som en korrumperande kraft som sannolikt leder till förtryck och missbruk, vilket belyser farorna med auktoritetskoncentration och de negativa effekterna på individens frihet.
+reviewed: true

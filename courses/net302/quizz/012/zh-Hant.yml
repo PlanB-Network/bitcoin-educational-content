@@ -1,0 +1,9 @@
+question: 經典網際網路協定版本 (IPv4) 的數值是多少？
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 對應於 IP 標頭「版本」欄位中的值 4。
+reviewed: false

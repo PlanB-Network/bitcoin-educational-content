@@ -1,0 +1,9 @@
+question: 由于 Raspberry Pi 特别轻便，哪个发行版最适合它？
+answer: RaspiBlitz
+wrong_answers:
+  - 伞
+  - 我的节点
+  - 开始9
+explanation: |
+  RaspiBlitz 针对树莓派（Raspberry Pi）进行了优化，与 Umbrel 不同的是，RaspiBlitz 仍然很轻巧，而 Umbrel 对这些机器来说已经太重了。
+reviewed: true

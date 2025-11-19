@@ -1,0 +1,9 @@
+question: Bitcoin'ı dijital bir varlık olarak ele almak ile muhasebede bir para birimi gibi ele almak arasındaki temel fark nedir?
+answer: Dijital bir varlık olarak, her işlemin maliyet esası ve kazanç / kayıplarının izlenmesi gerekirken, bir para birimi gibi ele alınırsa, yeniden değerlemeler daha basit ve daha az sıklıkta olacaktır.
+wrong_answers:
+  - Dijital bir varlık olarak değerlendirildiğinde, tüm vergilerden tamamen muaftır.
+  - Bir para birimi gibi muamele gördüğünde, işlem kayıtlarına gerek yoktur.
+  - Bunu bir para birimi gibi ele almak, derhal yeni bir muhasebe yazılımına geçmeyi gerektirir.
+explanation: |
+  Dijital varlık muamelesi tipik olarak her işlemde sermaye kazançlarının veya kayıplarının hesaplanmasını içerir ve bu da karmaşıklığı artırır. Bitcoin bir para birimi gibi muhasebeleştirilseydi, daha basit olurdu; sadece fiat değerini diğer para birimleri için yapıldığı gibi periyodik olarak güncelleyin.
+reviewed: false

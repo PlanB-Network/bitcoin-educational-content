@@ -1,10 +1,11 @@
-question: Koja je druga faza fenomena hiperinflacije?
-answer: Kolaps valute & povećanje cena.
+question: Kako se zove događaj kada se nagrada za rudarenje prepolovi?
+answer: Halving (prepolovljavanje)
 wrong_answers:
-  - Gubitak poverenja.
-  - Zaoštreni krug štampanja novca.
-  - Pojavljuje se nova valuta.
+  - Udvostručavanje
+  - Četvrtinjenje
+  - Utrostručavanje
 explanation: |
-  Druga faza hiperinflacije je kolaps valute &
-  povećanje cena, odmah nakon faze gubitka poverenja.
+  Događaj kada se nagrada za rudarenje prepolovi naziva se
+  Halving. Ovaj događaj daje krivoj monetarnog izdavanja
+  oblik stepenica.
 reviewed: true

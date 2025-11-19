@@ -1,0 +1,9 @@
+question: Dlaczego pojedynczy Wallet nie jest uważany za uczestnika sieci Bitcoin?
+answer: Ponieważ nie weryfikuje transakcji ani bloków
+wrong_answers:
+  - Ponieważ nie może kluczy prywatnych generate
+  - Ponieważ nie może tworzyć adresów Bitcoin
+  - Ponieważ nie weryfikuje sprzedaży ani adresów
+explanation: |
+  Wallet nie waliduje bezpośrednio bloków i transakcji; po prostu zarządza kluczami i zależy od węzłów w pozostałym zakresie.
+reviewed: true

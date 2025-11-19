@@ -1,0 +1,9 @@
+question: lsofの-uオプションはいつ使うのですか？
+answer: ユーザーによるフィルタリング
+wrong_answers:
+  - DNS解決を強制するには
+  - 開いているポートを表示するには
+  - DNSサーバーを指定するには
+explanation: |
+  lsofの-uオプションは、特定のユーザーまたはUIDによってオープンされたファイルに出力を制限する。
+reviewed: false

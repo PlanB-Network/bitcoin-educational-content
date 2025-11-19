@@ -1,0 +1,13 @@
+question: Weimar'da borçların yeniden değerlenmesinin etkisi ne oldu?
+answer: Hissedarlar, tüm tazminatların ödenmiş olması koşuluyla ilk yatırımlarının yüzde 2,5'ini aldılar.
+wrong_answers:
+  - Bu durum para biriminin daha da değer kaybetmesine yol açtı.
+  - Bu da işsizliğin artmasına neden oldu.
+  - Bu da yabancı yatırımların azalmasına yol açmıştır.
+explanation: |
+  Weimar'da, bazı borçlar yeniden değerlemeye tabi tutularak
+  enflasyon.
+  Devlete ait kredilerin yeniden değerlenmesine ilişkin bir karar 1925 yılında yasalaştı ve hissedarların
+  tüm tazminatların ödenmesi koşuluyla ilk yatırımlarının yüzde 2,5'ini alacaklardır
+  ödenmişti.
+reviewed: false

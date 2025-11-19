@@ -1,0 +1,9 @@
+question: Która platforma automatycznie usuwa metadane po przesłaniu zdjęcia?
+answer: Sygnał
+wrong_answers:
+  - Gmail
+  - Perspektywy
+  - Twój blog
+explanation: |
+  Signal (podobnie jak Session i inne bezpieczne usługi przesyłania wiadomości) czyści metadane udostępnianych obrazów, aby chronić prywatność użytkowników.
+reviewed: false

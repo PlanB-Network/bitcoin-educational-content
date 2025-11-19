@@ -1,0 +1,8 @@
+question: Hvilken type angrep innebærer at en enkelt enhet kontrollerer flere noder for å fremstå som flere enheter, og hvorfor er det ikke effektivt mot Bitcoins konsensusmekanisme?
+answer: Sybil-angrep; det er ineffektivt fordi Bitcoin bruker proof-of-works datakraft til konsensus i stedet for å telle noder
+wrong_answers:
+  - "Eclipse-angrep; det er ineffektivt fordi Bitcoin krypterer all nodekommunikasjon ved hjelp av avanserte kryptografiske protokoller"
+  - "Denial-of-service-angrep; det er ineffektivt fordi Bitcoin automatisk omfordeler trafikk over friske noder i nettverket"
+  - "Angrep med sosial manipulering; det er ineffektivt fordi Bitcoin-utviklere bruker formelle verifiseringsmetoder for å forhindre manipulering"
+explanation: |
+  Et Sybil-angrep oppstår når én enhet kontrollerer flere noder for å utgi seg for å være mange separate enheter. Dette angrepet er imidlertid ineffektivt mot Bitcoin fordi nettverket ikke baserer seg på telling av noder eller demokratisk stemmegivning blant nettverksdeltakerne. I stedet bruker Bitcoin proof-of-work-konsensus, der det er datakraften (hashpower) som avgjør nettverksbeslutningene, ikke antallet noder. Dette gjør det umulig for en angriper å få innflytelse bare ved å kjøre mange noder uten tilsvarende beregningsressurser.

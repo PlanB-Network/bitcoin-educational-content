@@ -1,0 +1,9 @@
+question: Franklin D. Roosevelt tarafından imzalanan hangi kararname 1933 ve 1975 yılları arasında ABD'de bireylerin altın bulundurmasını yasaklamıştır?
+answer: 6102 sayılı Yürütme Emri
+wrong_answers:
+  - Federal Rezerv Yasası
+  - Glass-Steagall Yasası
+  - 9066 sayılı Yürütme Emri
+explanation: |
+  Roosevelt tarafından 5 Nisan 1933 tarihinde imzalanan bu kararname Yeni Düzen'in bir parçası olarak yürürlüğe konmuştur. Bu emir 1934 yılında Altın Rezerv Yasası ile pekiştirilmiştir.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Berapa tingkat inflasi di Zimbabwe pada November 2008?
-answer: 79,600,000,000%
+question: Apa perintah untuk memverifikasi jumlah bitcoin yang beredar pada sebuah node Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
 explanation: |
-  Pada November 2008, tingkat inflasi bulanan mata uang Zimbabwe telah mencapai puncaknya sebesar 79,600,000,000%, yang menghancurkan nilai dolar Zimbabwe menjadi 0.
+  Perintah untuk memverifikasi jumlah bitcoin yang beredar pada sebuah node Bitcoin adalah bitcoin-cli gettxoutsetinfo. Perintah ini menyediakan transparansi dan dapat diverifikasi, memperkuat kepercayaan pada sistem Bitcoin.
 reviewed: true

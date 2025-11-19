@@ -1,5 +1,5 @@
 ---
-name: 位元戳記
+name: Bitstamp
 
 description: 如何使用 Bitstamp
 ---

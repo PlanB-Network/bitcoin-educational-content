@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen syy siihen, että Bitcoin:n suorituskykyvirheitä voidaan tietoturva-asiantuntijoiden mukaan mahdollisesti käyttää aseena verkko-osioiden luomiseen?
+answer: Suorituskykyvirheitä voidaan käyttää strategisesti erottamaan tietyt louhijat ja pörssit muusta verkosta, mikä mahdollistaa tuplakulutushyökkäykset
+wrong_answers:
+  - Suorituskykyvirheet vaikuttavat ensisijaisesti tapahtumien vahvistusaikoihin, mikä tekee verkosta epäluotettavan kauppiaille ja käyttäjille
+  - Suorituskykyvirheet kuluttavat liikaa laskennallisia resursseja, mikä pakottaa solmut sammumaan ja vähentää verkon hajautumista
+  - Suorituskykyvirheet aiheuttavat muistivuotoja, jotka lopulta kaatavat solmuja, mikä johtaa väliaikaiseen verkon epävakauteen ja hash-nopeuden laskuun
+explanation: |
+  Gregory Maxwell varoitti erityisesti siitä, että kun suorituskykyongelmia käytetään asiantuntevasti, niitä voidaan käyttää verkon strategiseen jakamiseen - esimerkiksi erottamalla "louhija A ja vaihtopalvelu B" yhteen osioon, kun taas kaikki muut menevät toiseen osioon, jolloin luodaan edellytykset tuplalaskuhyökkäyksille. Tämä osoittaa, miksi näennäisesti vähäpätöisiin ongelmiin olisi suhtauduttava potentiaalisesti vakavina, sillä niitä voidaan käyttää aseena hienostuneilla tavoilla, jotka eivät ole heti ilmeisiä.

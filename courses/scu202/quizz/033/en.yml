@@ -1,0 +1,9 @@
+question: What mechanism must be enabled in the UEFI to prevent the execution of unsigned code at boot time?
+answer: Secure Boot
+wrong_answers:
+  - Fast Boot
+  - Fast Startup
+  - Trusted Platform Module (TPM)
+explanation: |
+  Secure Boot ensures that only authenticated software can boot the system, thus limiting the risk of bootkit/rootkit infection.
+reviewed: false

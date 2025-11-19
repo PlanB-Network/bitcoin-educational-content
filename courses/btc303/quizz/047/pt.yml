@@ -1,0 +1,8 @@
+question: De acordo com as tácticas do Manual de Campo de Sabotagem Simples, como é que um adversário pode perturbar de forma mais eficaz o processo de desenvolvimento aberto do Bitcoin?
+answer: Infiltrando-se nas discussões para bloquear o progresso através de preocupações intermináveis sobre questões irrelevantes e de repetição de debates estabelecidos
+wrong_answers:
+  - "Ao lançar ataques distribuídos de negação de serviço contra os computadores pessoais e servidores dos programadores do Bitcoin Core"
+  - Subornando os pools mining para rejeitarem actualizações de software e manterem indefinidamente versões mais antigas do protocolo
+  - Criando criptomoedas concorrentes que oferecem melhores caraterísticas para afastar os programadores dos projectos Bitcoin
+explanation: |
+  O Manual de Campo de Sabotagem Simples delineou tácticas de infiltração para perturbar as organizações a partir do seu interior, incluindo a paralisação do progresso através de preocupações irrelevantes e a repetição de discussões estabelecidas. Uma vez que o desenvolvimento do Bitcoin está aberto a qualquer pessoa, estas tácticas de engenharia social representam uma ameaça real. As outras opções representam ataques externos em vez dos métodos de sabotagem interna descritos no manual, que se concentram na exploração da natureza aberta e colaborativa do processo de desenvolvimento do Bitcoin.

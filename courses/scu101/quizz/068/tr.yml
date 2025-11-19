@@ -1,0 +1,11 @@
+question: Güvenlik açıklarının yaygın bir nedeni nedir?
+answer: İnsan ihmali.
+wrong_answers:
+  - Elektrik kesintileri.
+  - Yavaş internet hızı.
+  - Modası geçmiş donanım.
+explanation: |
+  Güvenlik açıkları çoğu zaman, varsayılabilir şifrelerin kullanılması 
+  veya şifrelerin güvensiz yerlere yazılması gibi insan hatalarından kaynaklanır.
+  Bilgisayar güvenliğini tehlikeye atmak için her zaman sofistike saldırılar gerekmeyebilir.
+  reviewed: true

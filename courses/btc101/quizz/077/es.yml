@@ -1,11 +1,11 @@
-question: ¿Cuál es el riesgo de compartir la clave pública de una cartera de Bitcoin?
-answer: Perder la privacidad.
+question: ¿Cuál debería ser la principal preocupación cuando posees bitcoin?
+answer: La seguridad de tus fondos.
 wrong_answers:
-  - Destruir la cartera de Bitcoin.
-  - Perder los Bitcoins.
-  - Hackear la cartera de Bitcoin.
+  - El valor del Bitcoin en términos de dólares.
+  - La legalidad de poseer bitcoins.
+  - El permiso para gastar tus fondos.
 explanation: |
-  Compartir la clave pública implica riesgos para la privacidad, pero no
-  para la seguridad. Esto se debe a que la clave pública se utiliza para
-  generar direcciones de Bitcoin y así recibir dinero, pero no representa la propiedad de los Bitcoins.
+  Cuando posees bitcoins, la preocupación principal es la seguridad
+  de tus fondos. Esto se debe a que el Bitcoin, como cualquier otra forma
+  de moneda, puede ser robado o perdido si no se asegura adecuadamente.
 reviewed: true

@@ -1,10 +1,12 @@
-question: Which country has declared Bitcoin as a legal tender?
-answer: El Salvador.
+question: In what fields does Bitcoin raise questions?
+answer: Cryptography, game theory, economics and monetary policy, computer science, philosophy, energy, laws, and regulation.
 wrong_answers:
-  - United States.
-  - China.
-  - India.
-explanation: >-
-  El Salvador has taken the bold step of adopting Bitcoin in its entirety,
-  declaring it as a legal tender.
+  - Only computer science and economics
+  - Only cryptography and game theory.
+  - Only philosophy and energy.
+explanation: |
+  Bitcoin is a multidisciplinary subject that raises
+  questions related to various fields, including
+  cryptography, game theory, economics and monetary policy,
+  computer science, philosophy, energy, laws, and regulation.
 reviewed: true

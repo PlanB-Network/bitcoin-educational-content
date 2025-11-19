@@ -1,0 +1,9 @@
+question: Câu nào mô tả tốt nhất chế độ duyệt web riêng tư?
+answer: Nó giới hạn việc ghi lại dấu vết cục bộ
+wrong_answers:
+  - Nó làm cho việc lướt Internet trở nên ẩn danh
+  - Chặn tất cả các trình theo dõi và tập lệnh độc hại
+  - Nó xóa các tiện ích mở rộng đang hoạt động
+explanation: |
+  Chế độ riêng tư chỉ ngăn chặn việc ghi lại lịch sử và cookie cục bộ nhưng không đảm bảo tính ẩn danh trên Internet.
+reviewed: false

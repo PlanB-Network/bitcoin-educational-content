@@ -1,0 +1,9 @@
+question: What is the main goal of introducing IPv6?
+answer: Provide a virtually unlimited address space
+wrong_answers:
+  - Increase Ethernet throughput by a factor of 4
+  - Gradually replace TCP with UDP
+  - Reduce the number of bytes per packet
+explanation: |
+  The main purpose of IPv6 is to solve the shortage of IP addresses by massively expanding the address space.
+reviewed: false

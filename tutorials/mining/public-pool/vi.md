@@ -1,5 +1,5 @@
 ---
-name: Hồ Bơi Công Cộng
+name: Public Pool
 description: Giới thiệu về Hồ Bơi Công Cộng
 ---
 

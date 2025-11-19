@@ -1,9 +1,13 @@
-question: Mikä näistä vaihtoehdoista on väärä koskien Bitcoin-lompakon sisältävän laitteen menettämistä?
-answer: Voit palauttaa lompakkosi ja käyttää bitcoinejasi nollaamalla salasanasi.
+question: Mikä on hot wallet?
+answer: Bitcoin-lompakko puhelimessasi tai tietokoneellasi, joka on yhdistetty internetiin.
 wrong_answers:
-  - Menetät kaikki Bitcoinsisi, jos sinulla ei ole muistisanaista fraasia.
-  - Voit varmistaa julkisilla avaimillasi, etteivät bitcoinisi ole kuluneet.
-  - Voit palauttaa lompakkosi ja käyttää bitcoinejasi muistisanaista fraasin avulla.
+  - Lompakko, joka on fyysisesti kuuma koskettaa.
+  - Lompakko, joka on suosittu Bitcoin-käyttäjien keskuudessa.
+  - Lompakko, jota suositellaan suurien määrien bitcoinien säilyttämiseen.
 explanation: |
-  Lompakkoa sisältävän laitteen menettäminen ei välttämättä tarkoita Bitcoiniesi menettämistä. Sen, mikä mahdollistaa lompakkosi palauttamisen ja bitcoiniesi käytön, on muistisanaista fraasi.
+  Hot wallet on termi, jota käytetään kuvaamaan Bitcoin-lompakkoa,
+  joka on tallennettu laitteelle, jolla on internetyhteys, kuten
+  puhelin tai tietokone. Näin ollen on helppo suorittaa
+  transaktioita, mutta se myös tarkoittaa, että lompakko on
+  potentiaalisesti altis online-uhille.
 reviewed: true

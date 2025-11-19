@@ -1,0 +1,9 @@
+question: Wat zijn op een muntstuk de 3 fundamentele criteria waarmee iemand kan garanderen dat hij het later kan uitgeven?
+answer: De munt moet intact en authentiek zijn en mag niet dubbel geslagen zijn.
+wrong_answers:
+  - De munt moet oud, zeldzaam en in goede staat zijn.
+  - De munt moet universeel geaccepteerd en legaal zijn en op een bank bewaard worden.
+  - De munt moet door de staat zijn goedgekeurd, geregistreerd en duurzaam zijn.
+explanation: |
+  Elk rationeel individu dat een munt wil accepteren, digitaal of fysiek, verzekert zich ervan dat de munt niet veranderd is, dat het inderdaad een echte munt is en dat de munt niet hergebruikt kan worden door de uitgever.
+reviewed: false

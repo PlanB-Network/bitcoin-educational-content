@@ -1,5 +1,5 @@
 ---
-name: RGB Blixtnod
+name: RGB Lightning Node
 description: Hur startar jag en RGB-kompatibel Lightning-nod med RLN?
 ---
 ![cover](assets/cover.webp)
@@ -45,7 +45,7 @@ En RGB Contract är strukturerad som en evolutionär tillståndsmaskin. Den bör
 Om du vill lära dig mer om hur RGB-protokollet fungerar rekommenderar jag att du går den här omfattande utbildningen:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-kompatibel installation av blixtnod
 
@@ -96,7 +96,7 @@ För att fungera behöver `RGB-lightning-node` daemon närvaro och konfiguration
 
 
 
-- En `bitcoind`** nod
+- En **bitcoind** nod
 
 
 Varje RLN-instans kommer att behöva kommunicera med `bitcoind` för att sända och övervaka sina On-Chain-transaktioner. Autentisering (inloggning/lösenord) och URL (host/port) måste tillhandahållas till daemon.
@@ -104,7 +104,7 @@ Varje RLN-instans kommer att behöva kommunicera med `bitcoind` för att sända 
 
 
 
-- En indexerare** (Electrum eller Esplora)
+- En **indexerare** (Electrum eller Esplora)
 
 
 daemon måste kunna lista och utforska On-Chain-transaktioner, i synnerhet för att hitta den UTXO som en tillgång har förankrats på. Du måste ange webbadressen till din Electrum-server eller Esplora.
@@ -112,7 +112,7 @@ daemon måste kunna lista och utforska On-Chain-transaktioner, i synnerhet för 
 
 
 
-- En proxy RGB**
+- En proxy **RGB**
 
 
 Proxyservern är en komponent (valfri, men rekommenderas starkt) för att förenkla Exchange av RGB *sändningar* mellan Lightning-peers. Återigen måste en URL anges.
@@ -272,10 +272,10 @@ Med inloggning :
 Du kan också anpassa dessa Elements via API:et `init`/`unlock`.
 
 
-## Utfärdande av en RGB-token
+## Utfärdande av en RGB token
 
 
-För att utfärda en token börjar vi med att skapa "färgbara" UTXO:er:
+För att utfärda en token börjar vi med att skapa "färgbara" UTXO: er:
 
 
 ```bash
@@ -302,7 +302,7 @@ Du kan naturligtvis anpassa beställningen. För att bekräfta transaktionen, mi
 ```
 
 
-Vi kan nu skapa en RGB-tillgång. Kommandot beror på vilken typ av tillgång du vill skapa och dess parametrar. Här skapar jag en NIA (*Non Inflatable Asset*) token med namnet "PBN" med en Supply på 1000 enheter. Med `precision` kan du definiera enheternas delbarhet.
+Vi kan nu skapa en RGB-tillgång. Kommandot beror på vilken typ av tillgång du vill skapa och dess parametrar. Här skapar jag en NIA (*Non Inflatable Asset*) token med namnet "Plan ₿ Academy" med en Supply på 1000 enheter. Med `precision` kan du definiera enheternas delbarhet.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Kommandot returnerar den publika nyckeln för min nod nr 2 :
 ![RLN](assets/fr/13.webp)
 
 
-Därefter öppnar vi kanalen genom att ange den relevanta tillgången (`PBN`). Med kommandot `/openchannel` kan du definiera storleken på kanalen i satoshis och välja att inkludera RGB-tillgången. Det beror på vad du vill skapa, men i mitt fall är kommandot :
+Därefter öppnar vi kanalen genom att ange den relevanta tillgången (`Plan ₿ Academy`). Med kommandot `/openchannel` kan du definiera storleken på kanalen i satoshis och välja att inkludera RGB-tillgången. Det beror på vad du vill skapa, men i mitt fall är kommandot :
 
 
 ```bash
@@ -389,7 +389,7 @@ Läs mer om detta här:
 - `peer_pubkey_och_opt_addr`: Identifierare för den peer som vi vill ansluta till (den publika nyckel som vi hittade tidigare);
 - kapacitet i sat: Total kanalkapacitet i satoshis ;
 - `push_msat`: Belopp i millisatoshis som initialt överförs till motparten när kanalen öppnas (här överför jag omedelbart 10 000 Sats så att han kan göra en RGB-överföring senare) ;
-- `tillgångsbelopp`: Belopp för RGB-tillgångar som ska överföras till kanalen ;
+- `tillgång_belopp`: Mängden RGB-tillgångar som ska överföras till kanalen ;
 - `asset_id` : Unik identifierare för den RGB-tillgång som är engagerad i kanalen;
 - "Offentlig": Anger om kanalen ska göras offentlig för routing i nätverket.
 
@@ -408,7 +408,7 @@ För att bekräfta transaktionen bryts 6 block:
 ![RLN](assets/fr/15.webp)
 
 
-Lightning-kanalen är nu öppen och innehåller också 500 `PBN`-tokens på nod n°1:s sida. Om nod nr 2 vill ta emot `PBN`-tokens måste den göra generate och Invoice. Så här gör du för att göra det:
+Lightning-kanalen är nu öppen och innehåller också 500 `Plan ₿ Academy`-tokens på nod n°1:s sida. Om nod n°2 vill ta emot `Plan ₿ Academy`-tokens måste den generate och Invoice. Så här gör du för att göra det:
 
 
 ```bash
@@ -429,12 +429,12 @@ Med :
 
 
 - `amt_msat`: Invoice-belopp i millisatoshis (minst 3000 Sats) ;
-- `expiry_sec` : Invoice:s utgångstid i sekunder ;
+- `expiry_sec` : Invoice utgångstid i sekunder ;
 - `asset_id` : Identifierare för den RGB-tillgång som är associerad med Invoice ;
-- `tillgång_belopp`: Belopp för RGB-tillgång som ska överföras med denna Invoice.
+- `tillgång_belopp`: Beloppet för den RGB-tillgång som ska överföras med denna Invoice.
 
 
-Som svar kommer du att få en RGB Invoice:
+Som svar får du en RGB Invoice:
 
 
 ```txt
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `PBN`-token:
+Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `Plan ₿ Academy` token:
 
 
 ```bash
@@ -479,7 +479,7 @@ Så här sätter du in en Lightning-nod som modifierats för att bära RGB-tillg
 
 
 - En regtest-miljö (via `./regtest.sh`) eller Testnet ;
-- En Lightning-nod (`RGB-lightning-node`) baserad på en `bitcoind`, en indexerare och en `RGB-proxyserver` ;
+- En Lightning-nod (`RGB-lightning-node`) baserad på en `bitcoind`, en indexerare och en `RGB-proxy-server` ;
 - En serie JSON REST API:er för att öppna/stänga kanaler, utfärda tokens, överföra tillgångar via Lightning etc.
 
 
@@ -488,15 +488,15 @@ Tack vare denna process :
 
 
 
-- Lightning engagement-transaktioner innehåller en ytterligare utgång (OP_RETURN eller Taproot) med förankring av en RGB-övergång;
-- Överföringar görs på exakt samma sätt som traditionella Lightning-betalningar, men med tillägget av en RGB-token;
+- Lightning engagement-transaktioner inkluderar en ytterligare utgång (OP_RETURN eller Taproot) med förankring av en RGB-övergång;
+- Överföringar görs på exakt samma sätt som traditionella Lightning-betalningar, men med tillägg av en RGB token;
 - Flera RLN-noder kan kopplas samman för att dirigera och experimentera med betalningar över flera noder, förutsatt att det finns tillräcklig likviditet i både bitcoins och tillgången RGB på vägen.
 
 
-Om du tyckte att den här handledningen var användbar skulle jag vara mycket tacksam om du lägger en Green-tumme nedan. Du är välkommen att dela den här artikeln på dina sociala nätverk. Tack så mycket!
+Om du tyckte att denna handledning var användbar skulle jag vara mycket tacksam om du sätter en Green-tumme nedan. Du är välkommen att dela den här artikeln på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också den här andra handledningen där jag förklarar hur man använder RGB CLI-verktyget som utvecklats av LNP/BP-föreningen för att skapa en RGB Contract:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

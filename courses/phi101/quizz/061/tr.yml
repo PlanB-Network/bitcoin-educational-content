@@ -1,0 +1,9 @@
+question: Henri Pirenne'in gelişmekte olan kapitalizmin beşiği olarak gördüğü İtalyan tüccar kenti hangisidir?
+answer: Venedik'e.
+wrong_answers:
+  - Cenova.
+  - Florence.
+  - Yukarıdakilerin hepsi.
+explanation: |
+  Henri Pirenne, deniz ticaretindeki merkezi rolü ve ortaklıklar ve kredi gibi gelişmiş ticari uygulamaları erken geliştirmesi nedeniyle Venedik'i kapitalizmin beşiği olarak görmektedir.
+reviewed: true

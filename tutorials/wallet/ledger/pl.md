@@ -6,6 +6,9 @@ description: Jak skonfigurować urządzenie Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*Ledger ogłosił zakończenie wsparcia programowego dla klasycznego Nano S od 25 czerwca 2025 roku: to urządzenie nie będzie już otrzymywać aktualizacji bezpieczeństwa ani nie będzie zgodne z nowymi funkcjami, co naraża użytkowników na ryzyko luk oraz przyszłej niekompatybilności. Środki pozostają jednak dostępne dzięki frazie mnemotechnicznej, ale zdecydowanie zaleca się migrację na nowszy model w celu zapewnienia bezpieczeństwa i trwałości dostępu do swoich bitcoinów. Uwaga, chodzi tutaj o **stary Nano S**, a nie o **Nano S Plus**, który wciąż jest wspierany.*
+
+___
 
 Cold fizyczne Wallet - €60 - Początkujący - Aby zabezpieczyć €2,000 do €50,000
 
@@ -320,4 +323,4 @@ https://armantheparman.com/ledgersparrow/
 Aby zgłębić ten temat i zwiększyć bezpieczeństwo Wallet na Ledger Nano z BIP39 passphrase, zapraszam do zapoznania się z tym obszernym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

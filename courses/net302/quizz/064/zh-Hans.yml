@@ -1,0 +1,9 @@
+question: IPv6 Address 的比特长度是多少？
+answer: 128 位
+wrong_answers:
+  - 512 位
+  - 64 位
+  - 256 位
+explanation: |
+  IPv6 Address 长度为 128 比特，而 IPv4 Address 长度为 32 比特。
+reviewed: false

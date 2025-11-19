@@ -1,0 +1,9 @@
+question: Koji je najbolji preporučeni metod zaključavanja ekrana za pametni telefon?
+answer: Alfanumerička lozinka
+wrong_answers:
+  - Grafički dijagram
+  - Prepoznavanje lica
+  - Nema zaključavanja
+explanation: |
+  Alfanumeričke lozinke nude najbolji otpor pokušajima neovlašćenog pristupa, za razliku od grafičkih šema ili biometrije.
+reviewed: false

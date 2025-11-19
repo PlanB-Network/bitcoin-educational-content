@@ -1,0 +1,9 @@
+question: 使用者何時必須安裝索引器？
+answer: 若要執行 Block explorer
+wrong_answers:
+  - 適用於 Mining 區塊自己
+  - 要啟動 Lightning Network
+  - 簽署交易
+explanation: |
+  索引器成為進階用途不可或缺的工具，例如本機探索器。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Geleneksel para birimi sistemlerinin üzerine inşa edilen ödeme rayları ?
+answer: Esasen ödeme işlemcilerinin ücretleri aracılığıyla tüccarlar tarafından ödenir
+wrong_answers:
+  - Esasen ücretsizdir çünkü müşteri satıcı tarafından gösterilen fiyatı öder
+  - Satıcının istediği fiyata ek olarak müşteri tarafından ödenir
+  - Müşteri verilerini yeniden satan kart şirketleri tarafından ödenir
+explanation: |
+  Hiçbir şey bedava değildir. Geleneksel para sistemlerinde yerleşik ödeme rayları, her işlem için sabit bir ücret ve/veya yüzde bir ücret alan kart şirketleri ve alıcı bankalar gibi çeşitli satıcılar tarafından işletilmektedir
+reviewed: false

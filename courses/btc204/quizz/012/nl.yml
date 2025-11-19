@@ -1,0 +1,9 @@
+question: Hoe worden dubbele uitgaven op Bitcoin voorkomen?
+answer: Door alle systeemtransacties openbaar uit te zenden.
+wrong_answers:
+  - Door de identiteit van gebruikers voor elke transactie te verifiëren.
+  - Door periodiek transacties te laten controleren door accountants.
+  - Door het aantal transacties per gebruiker te beperken.
+explanation: |
+  Om de afwezigheid van een transactie te bevestigen en zo dubbele uitgaven te voorkomen, moet elke gebruiker op de hoogte zijn van alle eerdere transacties.
+reviewed: false

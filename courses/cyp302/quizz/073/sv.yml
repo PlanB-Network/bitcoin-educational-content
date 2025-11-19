@@ -1,0 +1,9 @@
+question: Hur kan en nyckel definieras i skiftkryptering?
+answer: Ett tal från 0 till 25
+wrong_answers:
+  - Ett slumpmässigt ord
+  - Valfritt slumptal utan begränsning
+  - Ett nummer från 1 till 26
+explanation: |
+  Vid skiftkryptering är nyckeln ett tal mellan 0 och 25, vilket motsvarar antalet skiftpositioner som tillämpas på varje bokstav i meddelandet i ett alfabet med 26 bokstäver.
+reviewed: false

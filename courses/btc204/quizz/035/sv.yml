@@ -1,0 +1,9 @@
+question: Vem upptäckte heuristiken med återanvändning av Address?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Den första personen som diskuterade detta koncept var Satoshi Nakamoto i del 10 av Bitcoin White Paper.
+reviewed: false

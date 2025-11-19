@@ -1,0 +1,9 @@
+question: Hva er de viktigste kriteriene du bør sjekke før du velger et meldingsprogram?
+answer: Ende-til-ende-kryptering og åpen kildekode
+wrong_answers:
+  - Sterk autentisering og åpen kildekode
+  - Ende-til-ende-kryptering og desentraliserte servere
+  - Sterk autentisering og desentraliserte servere
+explanation: |
+  Ende-til-ende-kryptering sikrer konfidensialitet i utvekslingen, og åpen kildekode gjør det mulig å verifisere at denne sikkerheten er korrekt implementert.
+reviewed: false

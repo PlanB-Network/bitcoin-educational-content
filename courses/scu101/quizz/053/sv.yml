@@ -1,0 +1,12 @@
+question: Varför anses biometriska data vara mindre säkra än kombinationen av kunskap och innehav för 2FA?
+answer: Biometriska data ska finnas kvar på autentiseringsenheten och får inte lämnas ut online.
+wrong_answers:
+  - Biometriska data är lättare att extrahera även om de förvaras offline på autentiseringsenheten.
+  - Biometriska data är både svårare att komma ihåg och att använda när man använder en autentiseringsenhet.
+  - Biometriska dataverktyg är dyrare att implementera och är därför inte kostnadseffektiva jämfört med andra lösningar.
+explanation: |
+  Biometriska data är mindre säkra eftersom de bör finnas kvar på
+  autentiseringsenheten och inte lämnas ut online. Om
+  om de lämnas ut på nätet kan de stjälas och användas för
+  obehörig åtkomst.
+reviewed: true

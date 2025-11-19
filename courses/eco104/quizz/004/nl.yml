@@ -1,0 +1,11 @@
+question: Wat is één reden dat fiatvaluta leidt tot gecentraliseerde controle?
+answer: Het stelt overheden in staat om het geld Supply en de rentetarieven te controleren.
+wrong_answers:
+  - Het wordt gedekt door fysieke grondstoffen zoals goud en zilver.
+  - Het is bestand tegen inflatie.
+  - Het moedigt gedecentraliseerde financiële systemen aan.
+explanation: |
+  Fiat-valuta geeft overheden de macht om het geld Supply en de
+  rentevoeten, waardoor ze de economische activiteit kunnen beïnvloeden en resulteren in gecentraliseerde controle
+  in gecentraliseerde controle.
+reviewed: true

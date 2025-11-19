@@ -1,0 +1,9 @@
+question: Vilken certifiering är erkänd över hela världen inom området cybersäkerhet?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP-certifieringen är en av de mest internationellt erkända inom cybersäkerhetsområdet.
+reviewed: false

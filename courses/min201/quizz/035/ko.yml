@@ -1,0 +1,11 @@
+question: Bitcoin 네트워크에서 Hashrate은 무엇을 측정하나요?
+answer: 초당 계산
+wrong_answers:
+  - 초당 트랜잭션 수
+  - 활성 노드 수
+  - 네트워크에서 소비하는 전력량
+explanation: |
+  Bitcoin 네트워크의 Hashrate는 초당 수행할 수 있는 계산의
+  초당 수행할 수 있는 계산 수를 측정합니다. 이는 네트워크의 상태와 보안을 나타내는
+  네트워크의 상태와 보안을 나타내는 핵심 지표입니다.
+reviewed: true

@@ -1,10 +1,11 @@
-question: Qual é uma das razões pelas quais o Bitcoin passa por tantas bolhas especulativas?
-answer: Porque o Bitcoin é uma moeda que é usada em todo o mundo.
+question: Qual é uma maneira de obter bitcoins sem comprá-los?
+answer: Aceitá-los como forma de pagamento pelos produtos ou serviços que você oferece.
 wrong_answers:
-  - Porque o Bitcoin na verdade não é usado em lugar algum.
-  - Porque o Bitcoin é uma bolha que vai desaparecer.
-  - Porque o Bitcoin não está sujeito a ciclos econômicos.
+  - Pegá-los emprestados de um amigo e nunca devolvê-los.
+  - Ganhar em uma loteria.
+  - Encontrá-los na rua.
 explanation: >-
-  O Bitcoin passa por muitas bolhas especulativas porque é uma moeda
-  que de fato é usada em todo o mundo.
+  Uma maneira de obter bitcoins sem comprá-los é aceitá-los como
+  forma de pagamento pelos produtos ou serviços que você oferece. Isso permite que você adquira
+  bitcoins através do seu trabalho.
 reviewed: true

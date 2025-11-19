@@ -1,0 +1,9 @@
+question: Vad är mönstret för en förenklad betalning på Bitcoin?
+answer: 1 eller flera UTXO:er i ingångarna och 2 UTXO:er i utgångarna.
+wrong_answers:
+  - 1 UTXO i input och 1 UTXO i output
+  - Flera UTXO:er i ingången och 1 UTXO i utgången
+  - 5 UTXO:er i ingångar och 5 UTXO:er i utgångar
+explanation: |
+  I en förenklad betalning förbrukar användaren en eller flera UTXO som insatsvaror för att i utdata uppfylla en betalning UTXO och en förändring UTXO (alltså 2 UTXO).
+reviewed: false

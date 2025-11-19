@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste voordeel van een wachtwoordmanager?
+answer: Het helpt je sterke wachtwoorden te maken en ze te onthouden, zodat jij dat niet hoeft te doen.
+wrong_answers:
+  - Je wordt automatisch aangemeld bij je online accounts.
+  - Het beschermt je computer tegen virussen.
+  - Het slaat al je wachtwoorden op één plek op, zodat je ze makkelijker kunt terugvinden.
+explanation: |
+  Een wachtwoordmanager helpt je bij het maken en onthouden van sterke wachtwoorden, zodat jij dat niet hoeft te doen. Het slaat al je wachtwoorden op een veilige manier op en genereert sterke wachtwoorden voor je.
+reviewed: true

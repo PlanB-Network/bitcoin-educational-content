@@ -1,0 +1,11 @@
+question: Wat is de gouden regel om jezelf te beschermen tegen frauduleuze e-mails?
+answer: Controleer zorgvuldig de volledige naam van de afzender en de herkomst van de e-mail.
+wrong_answers:
+  - Antwoord altijd op verdachte e-mails.
+  - Open alle e-mailbijlagen om de inhoud te controleren.
+  - Deel je persoonlijke informatie alleen met bekende afzenders.
+explanation: |
+  De gouden regel om jezelf te beschermen tegen frauduleuze e-mails
+  is om zorgvuldig de volledige naam van de afzender te controleren, evenals
+  en de herkomst van de e-mail. Bij twijfel, verwijderen!
+reviewed: true

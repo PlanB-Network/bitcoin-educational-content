@@ -1,0 +1,9 @@
+question: Vad är en pseudorandom sträng?
+answer: En sträng som ser ut att komma från en enhetlig variabel men som produceras av en expansionsalgoritm
+wrong_answers:
+  - En sträng som genereras med identisk sannolikhet för varje tecken
+  - En sträng med fast längd från en naturlig slumpmässig händelse
+  - En slumpmässig sträng som endast väljs bland de binära värdena 0 och 1
+explanation: |
+  En pseudorandomsträng produceras av en expansionsalgoritm från en mindre seed, på ett sätt som efterliknar ett enhetligt urval bland alla strängar av samma längd.
+reviewed: false

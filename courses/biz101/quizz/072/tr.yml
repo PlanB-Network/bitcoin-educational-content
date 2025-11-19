@@ -1,0 +1,9 @@
+question: Kurumsal sistemler envanteri otomatik olarak nasıl günceller?
+answer: İş akışı tetikleyicileri aracılığıyla
+wrong_answers:
+  - Manuel güncellemeler
+  - Gün sonu yüklemeleri
+  - Zamanlanmış raporlar
+explanation: |
+  İş akışı tetikleyicileri sistemleri gerçek zamanlı olarak günceller.
+reviewed: false

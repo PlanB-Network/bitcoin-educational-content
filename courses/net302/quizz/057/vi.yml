@@ -1,0 +1,9 @@
+question: Tham số nào trong tệp ifcfg-eth0 chỉ ra cấu hình DHCP?
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - CỔNG=dhcp
+explanation: |
+  Tham số "BOOTPROTO=dhcp" chỉ định rằng Interface sẽ lấy cấu hình thông qua giao thức DHCP.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Carl Menger'in marjinal değer teorisi ile Leon Walras ve William Stanley Jevons'un teorileri arasındaki temel fark nedir?
+answer: Walras ve Jevons değeri nesnel ve ölçülebilir bir olgu olarak değerlendirirken, Menger'in teorisi öncelikle özneldir.
+wrong_answers:
+  - Menger'in teorisi öncelikle nesneldir, Walras ve Jevons ise değeri öznel ve ölçülemez bir olgu olarak görmektedir.
+  - Menger'in teorisi değerin emek teorisine dayanırken, Walras ve Jevons değerin üretimde kullanılan toprak miktarına dayandığını düşünmektedir.
+  - Menger'in teorisi fizyokratların toprak değeri teorisine dayanırken, Walras ve Jevons değerin üretimde kullanılan emeğe dayandığını düşünmektedir.
+explanation: |
+  Bu bölüme göre, Menger'in marjinal değer teorisi
+  özneldir, yani bireyin kendi görüşüne dayanır
+  bir mal veya hizmetten elde edebilecekleri fayda algısı
+  hizmet. Diğer taraftan, Walras ve Jevons
+  değerin nesnel ve ölçülebilir bir olgu olması.
+reviewed: true

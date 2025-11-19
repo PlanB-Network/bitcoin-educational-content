@@ -1,0 +1,9 @@
+question: Bir perakende satış noktasında günümüzün kart tabanlı ödeme sürecinin karmaşıklığını ne karakterize eder?
+answer: Birden fazla aracıyı, birkaç adımı içerir ve fonların tamamen ödenmesi günler alabilir.
+wrong_answers:
+  - Sadece bir anlık adım gerektirir ve fonlar hemen ödenir.
+  - Yalnızca fiziksel nakde dayanır ve aracılar yoktur.
+  - Kart bir kez okutulduğunda, satıcının anında ve geri alınamaz bir şekilde paraya sahip olmasını sağlar.
+explanation: |
+  Kart ödemeleri genellikle bir aracılar zinciri (alıcılar, kartı verenler, kart ağları) içerir, yetkilendirme ve mutabakat adımları gerektirir ve tüccarın net fonları alması 48 saatten birkaç güne kadar sürebilir.
+reviewed: false

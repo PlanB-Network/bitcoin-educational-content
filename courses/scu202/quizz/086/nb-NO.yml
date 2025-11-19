@@ -1,0 +1,9 @@
+question: Hvilket åpen kildekode-oversettelsesprogram fungerer med ulike motorer og samler ikke inn de oversatte tekstene dine?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou fungerer som en Interface for flere motorer, uten å spore eller samle inn personopplysninger, i motsetning til proprietære tjenester.
+reviewed: false

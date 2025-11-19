@@ -1,0 +1,9 @@
+question: Hangi uygulama mesaj yönlendirme için merkezi bir sunucu olmadan radikal bir şekilde merkezi olmayan bir mimari sunar?
+answer: Keet
+wrong_answers:
+  - Telgraf
+  - Sinyal
+  - Threema
+explanation: |
+  Keet, tüm iletişimlerin merkezi bir sunucu olmadan doğrudan kullanıcılar arasında geçtiği, yüksek esneklik ve gizliliği garanti eden eşler arası bir modele dayanmaktadır.
+reviewed: false

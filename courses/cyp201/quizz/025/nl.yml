@@ -1,0 +1,9 @@
+question: Welke eigenschap van Schnorr staat het combineren van meerdere publieke sleutels tot één toe?
+answer: Sleutelaggregatie
+wrong_answers:
+  - Batchverificatie
+  - Buigzaamheid
+  - Handtekening Verdichting
+explanation: |
+  Schnorr maakt het mogelijk om meerdere publieke sleutels samen te voegen tot een enkele sleutel.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste nieuwigheid van P2WPKH scripts vergeleken met P2PKH?
+answer: Handtekeningen worden verplaatst naar het veld Getuige.
+wrong_answers:
+  - Adressen worden gecodeerd in base58check.
+  - De scriptPubKey bevat de Hash van de privésleutel.
+  - P2WPKH is niet verenigbaar met SegWit.
+explanation: |
+  P2WPKH, geïntroduceerd met SegWit, verplaatst handtekeningen naar een aparte sectie genaamd Witness om vervalsing van transacties te voorkomen.

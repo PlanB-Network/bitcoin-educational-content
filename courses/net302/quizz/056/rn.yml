@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ugukorana n’abandi?
+answer: Ihuriro ry'imirongo myinshi y'urubuga
+wrong_answers:
+  - Kwongerako aderesi za IP ku rubuga rw'aho hantu
+  - Gukora ikiraro ca Wi-Fi
+  - Kugabanya ubunini bw'amapakete ku mugozi wa RJ45
+explanation: |
+  Network bonding ihuza interfaces nyinshi z’umubiri zikaba imwe y’ubwenge, itanga redundancy canke yongera uburebure bw’umurongo.
+reviewed: false

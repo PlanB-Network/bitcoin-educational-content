@@ -1,0 +1,9 @@
+question: Jaki poważny błąd w zabezpieczeniach naraża wyciek danych na efekt domina?
+answer: Używanie tego samego hasła w wielu witrynach
+wrong_answers:
+  - Korzystanie z publicznej sieci VPN
+  - Zbyt częste usuwanie historii przeglądania
+  - Nawigacja w trybie tekstowym
+explanation: |
+  Ponowne użycie hasła w różnych witrynach umożliwia atakującemu, w przypadku naruszenia bezpieczeństwa usługi, uzyskanie dostępu do innych kont przy użyciu tego samego hasła.
+reviewed: false

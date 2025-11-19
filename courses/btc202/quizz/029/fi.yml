@@ -1,0 +1,9 @@
+question: Mikä on Full node:n tärkein ominaisuus?
+answer: Se lataa ja validoi koko Blockchain:n
+wrong_answers:
+  - Se säilyttää ainoastaan lohkon otsakkeet
+  - Se poistaa vanhat lohkot tarkistuksen jälkeen
+  - Se on riippuvainen toisesta solmusta tapahtumien validoimiseksi
+explanation: |
+  Full node säilyttää koko Blockchain:n ja validoi jokaisen lohkon ja tapahtuman itsenäisesti.
+reviewed: true

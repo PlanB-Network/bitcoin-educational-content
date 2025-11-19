@@ -1,0 +1,9 @@
+question: Tại sao nên sử dụng ứng dụng tường lửa như NetGuard hoặc RethinkDNS trên Android?
+answer: Kiểm soát các kết nối Internet riêng lẻ
+wrong_answers:
+  - Tự động lưu tất cả dữ liệu
+  - Bỏ chặn tất cả các mạng Wi-Fi
+  - Gỡ cài đặt bất kỳ loại vi-rút nào
+explanation: |
+  Các ứng dụng này hoạt động như tường lửa cục bộ, cho phép chặn hoặc cấp phép lưu lượng truy cập đi theo từng ứng dụng.
+reviewed: false

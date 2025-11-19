@@ -1,0 +1,9 @@
+question: 哪個 Linux 指令會顯示作用中的網路路由表？
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping 路由
+  - netstat -s
+explanation: |
+  ip route show 會列出核心已知的路由，以及 IP 封包所經過的路徑。
+reviewed: false

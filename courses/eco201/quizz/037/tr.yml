@@ -1,0 +1,13 @@
+question: Avusturya İş Döngüsü Teorisi'ne göre kredi artışına bağlı olarak faiz oranlarındaki düşüşün ani etkileri nelerdir?
+answer: Girişimciler daha fazla kaynak ödünç alabilir ve böylece daha üst düzey üretim aşamaları yaratabilirler. Üretim yapısındaki bu genişleme tüketimin azalmasına yol açmayacaktır çünkü tüketicilerin mevcut tüketimlerini ertelemeleri söz konusu değildir. Başka bir deyişle, GSYİH büyür.
+wrong_answers:
+  - Girişimciler daha az kaynak ödünç alabilir ve böylece daha düşük sipariş üretim aşamaları yaratabilirler. Üretim yapısındaki bu genişleme tüketimin artmasıyla sonuçlanacaktır çünkü tüketiciler mevcut tüketimlerini ertelemektedir. Başka bir deyişle, GSYİH küçülür.
+  - Girişimciler daha fazla kaynak ödünç alabilir ve böylece daha düşük sipariş üretim aşamaları yaratabilirler. Üretim yapısındaki bu genişleme tüketimin azalmasıyla sonuçlanacaktır çünkü tüketiciler mevcut tüketimlerini ertelememektedir. Başka bir deyişle, GSYİH küçülür.
+  - Girişimciler daha az kaynak ödünç alabilir ve böylece daha üst düzey üretim aşamaları yaratabilirler. Üretim yapısındaki bu genişleme tüketimin artmasıyla sonuçlanacaktır çünkü tüketiciler mevcut tüketimlerini ertelemektedir. Başka bir deyişle, GSYİH büyür.
+explanation: |
+  Avusturyacı İş Döngüsü Teorisi'ne göre
+  kredi artışına bağlı olarak faiz oranlarının düşmesi, girişimcilerin borç alabilmesini
+  daha fazla kaynak ve dolayısıyla daha üst düzey üretim aşamaları yaratır. Bu uzantı
+  üretim yapısı tüketimin azalmasıyla sonuçlanmayacaktır çünkü
+  tüketicinin mevcut tüketimini ertelemesi söz konusu değildir. Başka bir deyişle, GSYİH büyür.
+reviewed: true

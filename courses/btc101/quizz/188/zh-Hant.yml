@@ -1,8 +1,8 @@
-question: 什麼是 BTCMap？
-answer: 一個列出所有接受 Bitcoin 的商家的平台。
+question: 以下哪些行動可以幫助想要在日常生活中使用 Bitcoin 的人呢？
+answer: 準備一份所有接受 Bitcoin 的商家清單。
 wrong_answers:
-  - 全球所有 Bitcoin 礦山的地圖。
-  - 全球所有 Bitcoin 交易所的地圖。
-  - 全球所有 Bitcoin 使用者的地圖。
+  - 提高 Bitcoin 的價格。
+  - 減少比特幣的數量。
+  - 限制使用 Bitcoin。
 explanation: >-
 reviewed: true

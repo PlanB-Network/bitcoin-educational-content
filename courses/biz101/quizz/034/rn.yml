@@ -1,0 +1,9 @@
+question: Ni igiki kigaragara mu bari muri iyo nama bakoresha ama node kuri Lightning Network?
+answer: Abakoresha ama node y’umwuga bariko bararushiriza gutanga amahera, mu gihe abakoresha ku giti cabo bibanda ku node “zo ku ruhande”, bagahindura uko urubuga rugizwe.
+wrong_answers:
+  - Abanyamideri ku giti cabo barasubiriye abakoresha bose b’umwuga burundu.
+  - Amabanki manini manini ubu akoresha hagati mu bibanza vyose vya Lightning.
+  - Iryo shirahamwe ryarafunze ama node y’abantu ku giti cabo kugira ngo ryemerere amashirahamwe manini manini gusa.
+explanation: |
+  Hariho ugutera imbere mu bijanye n’ugushikama n’ugushikama bitangwa n’ibigo vy’umwuga, mu gihe abakoresha ba misi yose bizigira inyishu zoroshe canke zakira, bituma urubuga rukomera kandi rushikira.
+reviewed: false

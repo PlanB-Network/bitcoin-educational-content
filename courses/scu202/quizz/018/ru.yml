@@ -1,0 +1,9 @@
+question: Какой менеджер пакетов используется в Debian и Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian и Ubuntu используют менеджер пакетов APT, основанный на формате .deb, для управления установкой и обновлением программного обеспечения.
+reviewed: false

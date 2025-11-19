@@ -1,0 +1,9 @@
+question: Mitä jakelua pidetään vanhimpana edelleen ylläpidettävänä?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Patrick Volkerdingin vuonna 1993 luoma Slackware on vanhin yhä toimiva Linux-jakelu.
+reviewed: false

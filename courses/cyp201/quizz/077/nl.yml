@@ -1,0 +1,9 @@
+question: Waarom zijn descriptors bijzonder nuttig voor wallets met meerdere handtekeningen?
+answer: Ze omvatten de xpub van elke factor en beschrijven de multisignature-structuur
+wrong_answers:
+  - Ze maken een Mnemonic zin overbodig
+  - Ze vereenvoudigen het genereren van geharde sleutels
+  - Ze maken multi-handtekeningen compatibel met alle scripts
+explanation: |
+  Beschrijvingen bevatten de uitgebreide openbare sleutels van alle deelnemers, wat het herstel en beheer van configuraties met meerdere handtekeningen vergemakkelijkt.
+reviewed: false

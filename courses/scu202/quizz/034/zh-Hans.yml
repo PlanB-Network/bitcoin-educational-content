@@ -1,0 +1,9 @@
+question: 要确保个人电脑的访问安全，您首先应该做什么？
+answer: 设置强大的会话密码
+wrong_answers:
+  - 安装杀毒软件
+  - 配置 UFW 防火墙
+  - 启用磁盘加密
+explanation: |
+  在采取任何其他措施之前，会话密码是防止未经授权访问机器的第一道安全屏障。
+reviewed: false

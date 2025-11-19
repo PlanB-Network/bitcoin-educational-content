@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’inyandiko ya DNS ikoreshwa mu gukora ikarita y’izina ry’itongo rifise IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Ubwoko AAAA (quad-A) bukoreshwa mu gukora ikarita y'izina ry'indangarubuga rifise IPv6 Address, mu gihe ubwoko A bugenewe IPv4.
+reviewed: false

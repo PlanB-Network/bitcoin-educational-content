@@ -1,0 +1,9 @@
+question: Který prohlížeč zavedl JavaScript v roce 1995?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator integroval jazyk JavaScript, který v roce 1995 vyvinul Brendan Eich a který umožňuje dynamickou interaktivitu webových stránek.
+reviewed: false

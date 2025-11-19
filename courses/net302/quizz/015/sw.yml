@@ -1,0 +1,9 @@
+question: Ni ukubwa gani wa juu wa kinadharia wa datagram ya IP?
+answer: baiti 65,536
+wrong_answers:
+  - baiti 1,500
+  - 512 ka
+  - 255 ka
+explanation: |
+  Ukubwa wa juu zaidi wa datagram ya IP ni baiti 65,536 iliyoamuliwa na kikomo cha uga wa jumla wa urefu katika kichwa cha IP.
+reviewed: false

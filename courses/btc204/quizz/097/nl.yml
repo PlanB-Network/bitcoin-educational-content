@@ -1,0 +1,10 @@
+question: Wat zegt een grote anonset over de privacy van een UTXO?
+answer: Verbeterde privacy.
+wrong_answers:
+  - Minder privacy.
+  - Verbeterde traceerbaarheid.
+  - Snellere CoinJoin transactiesnelheden.
+explanation: |
+  Een grote anonset wijst op een hoge mate van anonimiteit, omdat het moeilijk wordt om een specifieke UTXO te onderscheiden binnen de homogene set.
+  
+reviewed: false

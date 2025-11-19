@@ -1,0 +1,9 @@
+question: 哪个平台会在上传照片时自动删除元数据？
+answer: 信号
+wrong_answers:
+  - 电子邮件
+  - 展望
+  - 您的博客
+explanation: |
+  Signal（与会话和其他安全信息服务一样）会清除共享图片的元数据，以保护用户隐私。
+reviewed: false

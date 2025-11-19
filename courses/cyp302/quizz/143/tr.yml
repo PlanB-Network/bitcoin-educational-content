@@ -1,0 +1,9 @@
+question: Mevcut tüm bilgi işlem kaynaklarını kullanarak 2048 bitlik bir tamsayıyı çarpanlarına ayırmak için tahmini süre nedir?
+answer: Evrenin yaşının çok ötesinde
+wrong_answers:
+  - Klasik bilgisayarlarla birkaç ay
+  - Süper bilgisayarlarla birkaç dakika
+  - Bitcoin Mining çiftliği için birkaç on yıl
+explanation: |
+  2048-bit sayıları çarpanlara ayırmanın karmaşıklığı, evrenin yaşını aşan bir süre boyunca mevcut tüm bilgi işlem kaynaklarını kullanarak bile çözmenin neredeyse imkansız olacağı şekildedir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Browser mana yang menawarkan pemblokiran iklan dan pelacak, perlindungan sidik jari, dan berbasis Chromium?
+answer: Berani
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave memiliki fitur pemblokiran iklan, pelacak, dan perlindungan sidik jari tingkat lanjut secara default, semuanya berbasis Chromium.
+reviewed: false

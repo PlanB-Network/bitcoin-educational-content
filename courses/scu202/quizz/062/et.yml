@@ -1,0 +1,9 @@
+question: Milline brauser tagab anonüümsuse, suunates liikluse läbi detsentraliseeritud, kuid suure latentsusega võrgu?
+answer: Tor brauser
+wrong_answers:
+  - Mullvad Browser
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser tugineb Tor-võrgule, et anonüümseks muuta sirvimist, mis toob aga kaasa märkimisväärse jõudluse languse.
+reviewed: false

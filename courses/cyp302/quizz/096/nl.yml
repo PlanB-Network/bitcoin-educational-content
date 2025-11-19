@@ -1,0 +1,9 @@
+question: Wat zijn de drie basisstappen in een MAC-schema?
+answer: Sleutelgeneratie, taggeneratie, verificatie
+wrong_answers:
+  - Encryptie, decryptie, transmissie
+  - Genereren van openbare sleutels, versleutelen van privé-sleutels, validatie
+  - Hashen van berichten, tagversleuteling, tagverdeling
+explanation: |
+  Een MAC-schema bestaat uit drie hoofdstappen: het genereren van een geheime sleutel, het produceren van een tag voor het bericht en het verifiëren dat het ontvangen bericht en de tag overeenkomen.
+reviewed: false

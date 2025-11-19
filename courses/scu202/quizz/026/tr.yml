@@ -1,0 +1,9 @@
+question: Hangi komut gizli dosyalar da dahil olmak üzere bir klasörün ayrıntılı içeriğini görüntüler?
+answer: ls -lah
+wrong_answers:
+  - klasör göster
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" gizli dosyalar (nokta ile başlayan) dahil olmak üzere dosya ve klasörleri ayrıntılı olarak görüntüler.
+reviewed: false

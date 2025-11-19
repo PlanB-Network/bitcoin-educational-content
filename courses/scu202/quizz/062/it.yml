@@ -1,0 +1,9 @@
+question: Quale browser garantisce l'anonimato reindirizzando il traffico attraverso una rete decentralizzata ma ad alta latenza?
+answer: Browser Tor
+wrong_answers:
+  - Browser Mullvad
+  - Lince
+  - LibreWolf
+explanation: |
+  Tor Browser si affida alla rete Tor per rendere anonima la navigazione, a costo di un significativo calo delle prestazioni.
+reviewed: false

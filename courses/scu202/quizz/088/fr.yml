@@ -1,0 +1,9 @@
+question: Quel gestionnaire de mots de passe open source permet de stocker localement ses identifiants sans cloud obligatoire ?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Password Manager
+explanation: |
+  KeePassDX fonctionne sur la base de fichiers locaux chiffrés, sans nécessiter de cloud ni d'inscription à un service centralisé.
+reviewed: false

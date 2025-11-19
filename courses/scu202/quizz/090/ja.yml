@@ -1,0 +1,9 @@
+question: Bitcoinメインネットワーク上のP2P接続にデフォルトで使用されるネットワークポートはどれですか？
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  ポート8333は、BitcoinノードがMainnetへのピアツーピア接続に使用する標準ポートです。
+reviewed: false

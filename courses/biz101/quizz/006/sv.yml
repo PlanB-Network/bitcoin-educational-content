@@ -1,0 +1,9 @@
+question: Varför är taket på 21 miljoner för Bitcoin-emissionen viktigt?
+answer: Det skapar en deflationistisk tillgång som skyddar sitt värde mot godtycklig inflation.
+wrong_answers:
+  - Det säkerställer att regeringar kan trycka så många bitcoins som behövs.
+  - Det förhindrar att någon skickar transaktioner efter att taket har nåtts.
+  - Det eliminerar all volatilitet i Bitcoin:s pris.
+explanation: |
+  Genom att ha en maximal Supply på 21 miljoner är Bitcoin:s knapphet Hard-kodad, vilket gör att den skiljer sig fundamentalt från inflationsvalutor där Supply kan ökas hur mycket som helst.
+reviewed: false

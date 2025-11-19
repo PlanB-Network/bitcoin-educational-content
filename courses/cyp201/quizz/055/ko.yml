@@ -1,0 +1,9 @@
+question: seed에 적용된 HMAC-SHA512 기능의 출력은 몇 개의 파트로 나뉘나요?
+answer: 256비트의 두 부분
+wrong_answers:
+  - 512비트의 단일 부분
+  - 170비트의 세 부분
+  - 128비트의 네 부분
+explanation: |
+  HMAC-SHA512의 출력은 마스터 개인 키(256비트)와 마스터 chain code(256비트)의 두 부분으로 나뉩니다.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Koja je glavna prednost zlata kao valute?
-answer: Izuzetno je izdržljiv.
+question: Koja je posledica štampanja novca?
+answer: To vodi do inflacije, postepeno osiromašujući stanovništvo.
 wrong_answers:
-  - Lako je deljiv ili prenosiv na velike udaljenosti.
-  - To je lako proverljivo.
-  - Nije regulisano od strane vlade.
+  - To dovodi do deflacije, postepeno obogaćujući stanovništvo.
+  - To vodi ka stabilnoj ekonomiji bez inflacije ili deflacije.
+  - To dovodi do smanjenja ponude novca.
 explanation: |
-  Iako se ne može lako deliti ili transportovati na velike udaljenosti, zlato je veoma izdržljiv materijal, što ga čini dobrim čuvarom vrednosti. Zlatnici su se koristili kao valuta u prošlosti, ali ne bi služili istoj svrsi u današnjoj digitalnoj eri.
+  Štampanje novca, ili stvaranje novog novca od strane centralnih banaka, 
+  dovodi do inflacije. To je zato što povećanje novčane mase smanjuje 
+  kupovnu moć novca, što dovodi do viših cena i smanjenja vrednosti štednje.
 reviewed: true

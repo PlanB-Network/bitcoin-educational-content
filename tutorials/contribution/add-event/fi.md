@@ -10,7 +10,7 @@ Jos haluat lisätä Bitcoin-konferenssin PlanB-verkon sivustolle ja lisätä nä
 ![event](assets/01.webp)
 - Ensimmäiseksi sinun on oltava GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) osiossa `resources/conference/`:
@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Pariisi, Ranska
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -81,9 +81,9 @@ tagit:
   - Kansainvälinen
 ```
 ![tapahtuma](assets/09.webp)
-Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
+Jos organisaatiollasi ei vielä ole "*project*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -97,7 +97,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![tapahtuma](assets/13.webp)
 - Napsauta GitHub-profiilikuvakettasi oikeassa yläkulmassa, sitten `Your Repositories`:
 ![tapahtuma](assets/14.webp)
-- Valitse PlanB Network -repositoriosi haarautuma:
+- Valitse Plan ₿ Academy -repositoriosi haarautuma:
 ![tapahtuma](assets/15.webp)
 - Sinun pitäisi nähdä ilmoitus ikkunan yläosassa uudesta haarastasi. Sen nimi on todennäköisesti `patch-1`. Napsauta sitä:
 ![tapahtuma](assets/16.webp)
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Palaa takaisin `assets` -kansioon:
 ![tapahtuma](assets/24.webp)
 - Napsauta `Add file` -painiketta, sitten `Upload files`: ![tapahtuma](assets/25.webp)
-- Uusi sivu avautuu. Vedä ja pudota kuva, joka edustaa konferenssiasi ja näytetään PlanB Network -sivustolla:
+- Uusi sivu avautuu. Vedä ja pudota kuva, joka edustaa konferenssiasi ja näytetään Plan ₿ Academy -sivustolla:
 ![tapahtuma](assets/26.webp)
 - Se voi olla logo, pikkukuva tai jopa juliste:
 ![tapahtuma](assets/27.webp)
@@ -146,3 +146,4 @@ Onnittelut! PR:äsi on luotu onnistuneesti. Ylläpitäjä tarkistaa sen nyt, ja 
 Muista seurata PR:si edistymistä. Ylläpitäjä saattaa jättää kommentin pyytäen lisätietoja. Niin kauan kuin PR:äsi ei ole vahvistettu, voit konsultoida sitä `Vetopyynnöt`-välilehdessä PlanB Networkin GitHub-repositoriossa:
 ![tapahtuma](assets/38.webp)
 Suurkiitokset arvokkaasta panoksestasi! :)
+

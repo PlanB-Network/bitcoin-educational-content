@@ -1,0 +1,9 @@
+question: SegWit v0 Address'ın oluşturulmasında HASH160 uygulamasından önce hangi adım gelir?
+answer: Açık anahtarın sıkıştırılması
+wrong_answers:
+  - Sağlama toplamının eklenmesi
+  - Bech32 formatına dönüştürme
+  - Base58check'te kodlama
+explanation: |
+  Açık anahtar, HASH160 Hash işlevinden geçmeden önce boyutunu azaltmak için sıkıştırılmalıdır.
+reviewed: false

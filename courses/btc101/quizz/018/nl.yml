@@ -1,0 +1,12 @@
+question: Wat is het belangrijkste voordeel van Bitcoin ten opzichte van andere valuta?
+answer: Het biedt een uitstekende waardeopslag dankzij de strikt beperkte Supply en neutraliteit.
+wrong_answers:
+  - Het is ondeelbaar en niet transporteerbaar.
+  - Het is een goed voorbeeld van een valuta die lijdt onder monetaire inflatie.
+  - Het wordt algemeen geaccepteerd in de handel door alle kooplieden ter wereld.
+explanation: |
+  Het belangrijkste voordeel van Bitcoin ten opzichte van andere valuta
+  is dat het een uitstekend waardebehoud biedt vanwege zijn
+  strikt beperkte Supply en het ontbreken van een betrouwbare partij. Dit
+  maakt het een goede keuze voor langetermijnsparen.
+reviewed: true

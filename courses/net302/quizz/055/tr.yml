@@ -1,0 +1,9 @@
+question: Linux'ta hangi komut tüm ağ arayüzlerinin ayrıntılı durumunu gösterir?
+answer: ip addr göster
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip rota göster
+explanation: |
+  "ip addr show" komutu tüm ağ arayüzlerini durumları, adresleri ve ilişkili parametreleriyle birlikte listeler.
+reviewed: false

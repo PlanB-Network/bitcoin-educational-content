@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’abanyagihugu b’abanyagihugu bo mu kinyamakuru Le Censeur?
+answer: Gukuraho politike mu kibano
+wrong_answers:
+  - Intambara y'abanyeshure
+  - Gutunga
+  - Gushiramwo Leta hamwe
+explanation: |
+  Comte na Dunoyer baraburanira gukuraho politike mu kibano, bagamije kugabanya ubufasha bwa Leta no gushiramwo imbere inyungu z’abahingura.
+reviewed: false

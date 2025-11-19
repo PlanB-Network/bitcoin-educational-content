@@ -1,0 +1,9 @@
+question: Jaki typ protokołu należy aktywować w celu szyfrowania żądań DNS w skali sieci lokalnej?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) i DoT (DNS over TLS) szyfrują żądania DNS, uniemożliwiając ich przechwycenie.
+reviewed: false

@@ -1,12 +1,11 @@
-question: Comment le Lightning Network peut-il potentiellement transformer les modèles d'affaires existants dans l'industrie du jeu vidéo ?
-answer: Il permet aux joueurs de miser de très petites sommes d'argent lorsqu'ils jouent à des jeux.
+question: Quelle est une manière de tester le Lightning Network par vous-même ?
+answer: En essayant l'application de podcast appelée Fountain.
 wrong_answers:
-  - Il permet aux joueurs de miner du Bitcoin en jouant.
-  - Il permet aux développeurs de jeux d'accepter le Bitcoin comme moyen de paiement pour leurs jeux.
-  - Il permet aux joueurs d'acheter des objets en jeu avec du Bitcoin.
+  - En minant du Bitcoin avec un ordinateur personnel.
+  - En achetant du Bitcoin auprès d'une banque.
+  - En créant une nouvelle cryptomonnaie.
 explanation: >-
-  Le Lightning Network permet aux joueurs de miser de très petites sommes d'argent
-  lorsqu'ils jouent à des jeux, comme quelques satoshis. Cela permet d'établir
-  un enjeu qui stimule la compétition tout en augmentant significativement le coût de déploiement
-  de bots.
+  Une manière de tester le Lightning Network par vous-même est d'essayer
+  l'application de podcast Fountain, qui vous permet d'être récompensé avec quelques sats pour
+  l'écoute de vos podcasts préférés.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Qual è lo stato di una voce nella cache ip neigh quando la mappatura IP/MAC è valida e recente?
+answer: RAGGIUNGIBILE
+wrong_answers:
+  - COLLEGATO
+  - VALIDO
+  - STALLO
+explanation: |
+  Lo stato REACHABLE significa che la mappatura IP/MAC è nota e funzionale nella cache di quartiere.
+reviewed: false

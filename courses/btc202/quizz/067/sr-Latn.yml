@@ -1,0 +1,9 @@
+question: Koje su sigurnosne kopije potrebne za vraćanje Lightning čvora?
+answer: seed i SCB
+wrong_answers:
+  - seed i txindex fajl
+  - seed i javna IP Address
+  - seed i 2FA
+explanation: |
+  Vraćanje Lightning čvora zahteva i seed i SCB (Static Channel Backup), bez kojih sredstva iz kanala ne mogu biti povraćena.
+reviewed: true

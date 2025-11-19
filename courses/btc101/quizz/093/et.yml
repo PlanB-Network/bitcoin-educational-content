@@ -1,9 +1,10 @@
-question: Mida on vaja varundada, kui kasutate rahakotti koos paroolilausega?
-answer: Teil on vaja varundada nii 12 või 24 sõna loend kui ka teie paroolilause.
+question: Mida näitab mnemoonilise fraasi puudumine rahakotis?
+answer: Rahakott ei ole turvaline pikaajaliseks hoiustamiseks
 wrong_answers:
-  - Teil on vaja varundada ainult 12 või 24 sõna loend.
-  - Teil on vaja varundada ainult teie paroolilause.
-  - Teil ei ole vaja varundada ei 12 või 24 sõna loendi ega teie paroolilauset.
+  - Rahakott on turvaline pikaajaliseks hoiustamiseks
+  - Rahakott ei ole turvaline lühiajaliseks hoiustamiseks
+  - Rahakott ei ole turvaline kulutamiseks
 explanation: |
-  Kui kasutate rahakotti koos paroolilausega, peate varundama nii 12 või 24 sõna loendi kui ka teie paroolilause. See on seetõttu, et nii sõnade loend kui ka paroolilause on vajalikud juhuks, kui kaotate oma telefoni või arvuti, et taastada juurdepääs oma vahenditele. Ilma ühe või teiseta ei ole vahendid kättesaadavad.
+  12 või 24 sõnast koosneva nimekirja, ehk mnemoonilise fraasi puudumine rahakotis peaks teid hoiatama, et
+  rahakott ei ole turvaline, kuna see ei järgi standardset varundamisprotseduuri.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Co je to anycast Address v protokolu IPv6?
+answer: Address přiřazený k více uzlům
+wrong_answers:
+  - Address určený pro globální vícesměrové vysílání
+  - Address, který se mění při každém restartu
+  - Address vyhrazený pro technickou dokumentaci
+explanation: |
+  Anycast Address je přiřazen více zařízením a směrování doručí paket tomu, které je topologicky nejblíže.
+reviewed: false

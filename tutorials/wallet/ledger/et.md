@@ -6,6 +6,10 @@ description: Kuidas seadistada oma Ledger Nano S seadet
 
 ![pilt](assets/cover.webp)
 
+*Ledger teatas klassikalise Nano S tarkvaratoe lõpetamisest alates 25. juunist 2025: see seade ei saa enam turvavärskendusi ega ühildu uusi funktsioone, mistõttu puutuvad kasutajad kokku võimalike turvaaukude ja tulevikus ühilduvuse probleemidega. Fondidele on siiski juurdepääs mnemoonilise fraasi abil, kuid soovitatakse tungivalt üle minna uuemale mudelile, et tagada oma bitcoinide turvalisus ja pikaajaline ligipääs. Tähelepanu, siin on jutt **vanast Nano S-ist**, mitte **Nano S Plus**-ist, mis jätkab tuge.*
+
+___
+
 Külm füüsiline rahakott – 60€ – Algaja – Turvamaks 2000€ kuni 50 000€
 
 Ledger on Prantsuse lahendus bitcoinide turvaliseks hoidmiseks lihtsal viisil.
@@ -211,6 +215,6 @@ https://armantheparman.com/ledgersparrow/
 
 Selle teema süvendamiseks ja oma rahakoti turvalisuse tugevdamiseks Ledger Nano'ga koos BIP39 passphrase'iga kutsun teid tutvuma selle põhjaliku õpetusega:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

@@ -1,0 +1,9 @@
+question: Který konfigurační soubor definuje statickou síť Interface v systému RHEL-like?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  V systémech RHEL, CentOS a podobných systémech má každý Interface svůj vlastní soubor ifcfg-* umístěný v /etc/sysconfig/network-scripts/.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wie zijn de uitvinders van de Lightning Network?
+answer: Thaddeus Dryja en Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos en Adam Back
+  - Pieter Wuille en Gregory Maxwell
+  - Satoshi Nakamoto en Hal Finney
+explanation: |
+  Thaddeus Dryja en Joseph Poon vonden in 2016 de Lightning Network uit om de schaalbaarheid van Bitcoin te verbeteren.
+reviewed: false

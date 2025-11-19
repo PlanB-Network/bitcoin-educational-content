@@ -1,0 +1,9 @@
+question: 哪个组织负责互联网协议的技术管理？
+answer: 互联网架构委员会
+wrong_answers:
+  - 互联网社区
+  - 万维网联盟
+  - 电气与电子工程师学会
+explanation: |
+  互联网架构委员会（IAB）负责监督技术管理并协调互联网协议的发展。
+reviewed: false

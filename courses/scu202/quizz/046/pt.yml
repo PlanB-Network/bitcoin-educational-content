@@ -1,0 +1,9 @@
+question: Ao automatizar as suas cópias de segurança, que precauções essenciais devem ser tomadas regularmente?
+answer: Restauração de testes
+wrong_answers:
+  - Alterar o seu fornecedor de serviços Internet
+  - Desativar as cópias de segurança de férias
+  - Testar a encriptação
+explanation: |
+  É importante restaurar uma cópia de segurança regularmente para garantir que os ficheiros não estão corrompidos ou inacessíveis quando necessário.
+reviewed: false

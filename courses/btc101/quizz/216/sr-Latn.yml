@@ -1,9 +1,9 @@
-question: Kakav je status Bitkoina u El Salvadoru?
-answer: Zakonsko sredstvo plaćanja.
+question: Šta je Blockchain trilema?
+answer: Protokol zasnovan na Blockchain-u može zadovoljiti samo dva od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
 wrong_answers:
-  - Kriminalizovano.
-  - Nepoznato.
-  - Neregulisano.
+  - Protokol zasnovan na Blockchain-u može zadovoljiti samo jedan od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
+  - Protokol zasnovan na Blockchain-u može zadovoljiti sve kriterijume decentralizacije, sigurnosti i skalabilnosti.
+  - Protokol zasnovan na Blockchain-u ne može zadovoljiti nijedan od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
 explanation: |
-  Tekst kursa pominje da su neke zemlje zabranile i kriminalizovale upotrebu Bitkoina, što dodaje složenost usvajanju Bitkoina zasnovanom na kulturama, epohama i nacijama. Međutim, El Salvador je bio dovoljno hrabar da ga usvoji kao zakonsko sredstvo plaćanja.
+  Blockchain trilema odnosi se na izazov da protokol zasnovan na Blockchain-u može zadovoljiti samo dva kriterijuma od decentralizacije, sigurnosti i skalabilnosti.
 reviewed: true

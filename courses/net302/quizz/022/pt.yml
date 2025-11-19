@@ -1,0 +1,9 @@
+question: Qual é o objetivo do sinalizador "ACK" num segmento TCP?
+answer: Para acusar a receção dos segmentos
+wrong_answers:
+  - Para iniciar o encerramento da ligação
+  - Para encriptar o fluxo de dados trocados
+  - Para identificar a porta de serviço utilizada
+explanation: |
+  Quando ativado, o sinalizador ACK confirma que um segmento foi recebido com êxito e especifica o próximo número de sequência esperado.
+reviewed: false

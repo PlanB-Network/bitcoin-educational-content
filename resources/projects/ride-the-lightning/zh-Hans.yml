@@ -1,0 +1,2 @@
+description: |
+  开源、基于网络的 Interface，可轻松管理一个或多个 Lightning 节点（LND、Core Lightning、Eclair）。RTL 提供广泛的功能，包括渠道管理、支付、备份和交换，所有这些功能都通过直观的 Interface 实现，可在数分钟内部署到众多平台上。

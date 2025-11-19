@@ -1,0 +1,9 @@
+question: Wat is asynchrone streamcodering?
+answer: Een vercijfering waarvan de sleutelstroom afhangt van zowel de sleutel als Elements van de eerder vercijferde tekst
+wrong_answers:
+  - Een versleuteling die bij elk gebruik een willekeurige sleutelstroom genereert
+  - Een versleuteling waarbij de sleutel voor elk bericht moet worden veranderd
+  - Een versleuteling waarvan de sleutelstroom alleen afhangt van de initiële sleutel
+explanation: |
+  Asynchrone stroomversleuteling is een type versleuteling waarbij de sleutelstroom wordt beïnvloed door de sleutel en Elements van de versleutelde tekst.
+reviewed: false

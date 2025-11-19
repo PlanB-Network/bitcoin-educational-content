@@ -1,0 +1,9 @@
+question: Cypherpunk 선언문은 누가 작성했나요?
+answer: 에릭 휴즈.
+wrong_answers:
+  - 티모시 메이.
+  - Satoshi 나카모토.
+  - 밀턴 프리드먼.
+explanation: |
+  에릭 휴즈는 Cypherpunk 선언문(1993)의 저자입니다. 디지털 시대에 개인 정보를 보호하기 위한 암호화의 사용을 옹호하는 중요한 글입니다.
+reviewed: false

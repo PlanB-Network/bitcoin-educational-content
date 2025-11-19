@@ -1,0 +1,9 @@
+question: Hur beräknas en publik nyckel från en privat nyckel?
+answer: Genom att använda skalär multiplikation på den elliptiska kurvan
+wrong_answers:
+  - Genom att tillämpa en Hash på den privata nyckeln
+  - Genom asymmetrisk kryptering
+  - Med upprepad addition av numeriska värden
+explanation: |
+  Den publika nyckeln erhålls genom skalär multiplikation av den privata nyckeln med generatorpunkten G på den elliptiska kurvan.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad är en standardmetod för att återställa din Wallet?
+answer: Skriva in din Mnemonic-fras i en Wallet-programvara.
+wrong_answers:
+  - Spara din Mnemonic-fras i en digital fil.
+  - Skriva din Mnemonic-fras på en whiteboard.
+  - Dela din Mnemonic-fras med en betrodd vän.
+explanation: |
+  Standardmetoden för att säkerhetskopiera den privata nyckeln i en
+  Bitcoin Wallet är genom att ange din Mnemonic-fras i valfri
+  Wallet-programvara. Detta gör att du kan återställa din Wallet.
+reviewed: false

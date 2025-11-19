@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal diferencia entre anonimato y seudonimato en el contexto de las transacciones de Bitcoin?
+answer: En los sistemas seudónimos como Bitcoin, los pagos pueden rastrearse entre seudónimos, mientras que en los sistemas anónimos no existe rastro alguno
+wrong_answers:
+  - Los sistemas seudónimos utilizan nombres reales, mientras que los anónimos utilizan nombres falsos para todas las transacciones
+  - Los sistemas anónimos requieren claves públicas, mientras que los pseudónimos sólo utilizan claves privadas para identificarse
+  - "Los sistemas seudónimos ocultan el importe de las transacciones, mientras que los anónimos sólo ocultan la identidad del remitente"
+explanation: |
+  Bitcoin es seudónimo, no anónimo, porque todas las transacciones entre direcciones (seudónimos) son rastreables en la blockchain. En un sistema verdaderamente anónimo, no habría rastro de dónde procede el dinero ni adónde va, lo que teóricamente podría lograrse mediante pruebas de conocimiento cero. Sin embargo, la transparencia de Bitcoin permite a cualquiera seguir el flujo de bitcoins entre distintas direcciones, lo que lo convierte en seudónimo en lugar de anónimo. Los seudónimos en Bitcoin son direcciones derivadas de claves públicas, no nombres de usuario arbitrarios o identidades reales.

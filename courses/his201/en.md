@@ -22,6 +22,9 @@ Of course, this course is centered on the figure of Satoshi Nakamoto, whose word
 
 ## Course overview
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Welcome to the HIS201 course!
 This course aims to tell you the story of Bitcoin's creation in a way you've never read before. Although it is filled with fascinating details, it is often overlooked. We will endeavor to describe it in all its complexity, from its conception by Satoshi Nakamoto to his early disappearance and the handover to the community.
 
@@ -88,6 +91,8 @@ Are you ready to explore the incredible saga of Bitcoin's creation? Then let’s
 ## eCash: Chaumian Digital Cash
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Before delving into the actual story of Bitcoin's creation by Satoshi Nakamoto, it is appropriate to discuss what preceded it. We will address the topic in three stages: first, we will introduce the concept of Chaumian digital cash commonly called *eCash*; then, we will talk about private currencies based on centralized systems such as e-gold; finally, we will describe the technical models that were imagined before the implementation of the robust distributed system that is Bitcoin.
 
 Let's start with the first concept, eCash. eCash stems from the work of David Chaum, an American computer scientist and cryptographer born in 1955. He is considered a pioneer in the field of anonymous communications and a forerunner of the cypherpunks. He made a major contribution to the development of cryptography in the 1980s. At the same time, he developed his digital cash model ("Chaumian") and attempted to implement it in the 1990s through his company DigiCash.
@@ -105,30 +110,32 @@ To solve this problem, *asymmetric* cryptography, also known as public key crypt
 
 This type of cryptography allows for implementing both encryption algorithms and signature processes. Asymmetric encryption involves using the public key as an encryption key and the private key as a decryption key. The user generates a pair of keys, keeps the private key, and shares the public key with their correspondents so they can send messages. This type of encryption is analogous to a mailbox that the recipient uses to receive letters, of which only they possess the key.
 
-![Asymmetric encryption](assets/en/01.webp)
+![Asymmetric encryption](assets/en/001.webp)
 
 Digital signatures, on the other hand, rely on using the private key as a signature key and the public key as a verification key. The user generates a pair of keys, signs a message with the private key, and sends it to their correspondents, who can verify its authenticity using the public key. Thus, they never need to know the private key.
 
-![Digital signature](assets/en/02.webp)
+![Digital signature](assets/en/002.webp)
 
 Several researchers independently discovered asymmetric cryptography during the 1970s. However, the first to present what they had found were Whitfield Diffie and Martin Hellman, two cryptographers from Stanford University. In November 1976, they published a paper titled "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" in the journal *IEEE Transactions on Information Theory*, which described a key exchange algorithm (intended for the transmission of secret keys for symmetric encryption) as well as a digital signature process. In the introduction of this paper, they wrote:
 > "We stand today on the brink of a revolution in cryptography. The development of cheap digital hardware has freed it from the design limitations of mechanical computing and brought the cost of high-grade cryptographic devices down to where they can be used in commercial applications such as remote cash dispensers and computer terminals. In turn, such applications create a need for new types of cryptographic systems which minimize the necessity of secure key distribution channels and supply the equivalent of a written signature. At the same time, theoretical developments in information theory and computer science show promise of providing provably secure cryptosystems, changing this ancient art into a science."
 
 Here is a photograph from 1977, taken by Chuck Painter for the Stanford News Service. In it, you can see Whitfield Diffie (on the right) and Martin Hellman (in the center). The person on the left is the cryptographer Ralph Merkle, who was on the verge of making the same discovery.
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
 
 The article by Diffie and Hellman paved the way for many innovations. One of these was the [RSA cryptosystem](https://people.csail.mit.edu/rivest/Rsapaper.pdf), which was designed in 1977 by cryptographers Ronald Rivest, Adi Shamir, and Leonard Adleman (who gave it their names) and patented by MIT in 1983. This system allows both the encryption and signing of messages, thanks to the interchange of the roles of the keys. RSA was publicly presented for the first time in an [article by Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) published in the magazine *Scientific American* in August 1977, which was titled "Mathematical Games: A new kind of cipher that would take millions of years to break."
 
 The discovery of asymmetric cryptography also motivated the creation of one-way functions, which made calculating an image (forward direction) and obtaining a pre-image (reverse direction) very difficult. In particular, it led to the development of the first cryptographic hash functions, which transformed a variable-size message into a fixed-size digest. Between 1989 and 1991, Ronald Rivest designed several hashing algorithms (MD2, MD4, and MD5) for MIT.
 
-The basic cryptographic elements of Bitcoin stem from this research. The ECDSA signature scheme, allowing the authorization of spending a traditional transaction, was created in 1992 for NIST. The SHA-256 hash function, used in multiple places in the protocol, was published in 2001 as part of the SHA-2 algorithm suite made public by the NSA. For more information on this topic, refer to the course [Crypto 301](../crypto301/fr.md) presented by Loïc Morel.
+The basic cryptographic elements of Bitcoin stem from this research. The ECDSA signature scheme, allowing the authorization of spending a traditional transaction, was created in 1992 for NIST. The SHA-256 hash function, used in multiple places in the protocol, was published in 2001 as part of the SHA-2 algorithm suite made public by the NSA. For more information on this topic, refer to the course CYP201 written by Loïc Morel.
+
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Blind Signatures and Electronic Cash
 
 This revolution in cryptography also inspired the young David Chaum, a computer scientist from the West Coast who was then a doctoral student at the University of Berkeley. He quickly became passionate about privacy protection and was very concerned about the future of freedom and confidentiality in a society that was becoming increasingly computerized.
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/en/004.webp)
 David Chaum in the 90s (source: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 In his [foundational article](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), "Security Without Identification: Transaction Systems to Make Big Brother Obsolete" published in 1985 in *Communications of the ACM*, he wrote:
@@ -148,7 +155,7 @@ In its technical operation, the eCash model is based on the blind signature proc
 
 Here is an illustration of the different steps involved in the creation and replacement of a Chaumian note (from *L'Élégance de Bitcoin*):
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/en/005.webp)
 
 The actions (each corresponding to a mathematical operation or an information transmission) are as follows:
 
@@ -172,12 +179,12 @@ All this implies that no bank in the system can link the payment to Alice's iden
 
 In 1990, David Chaum founded Digicash B.V., a company based in Amsterdam, the Netherlands, to implement his idea of electronic cash. This company held the patents for his invention. At that time, the Internet was still in its infancy (the Web was still under development), and e-commerce did not exist; thus, the eCash model constituted a formidable opportunity.
 
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/en/006.webp)
 
 However, it was not David Chaum's company that first tested the model: it was the cypherpunks who implemented it without regard for the patents and did not ask for permission to do so. Thus, a protocol named Magic Money was [proposed](https://cypherpunks.venona.com/date/1994/02/msg00247.html) on the cypherpunks mailing list on February 4, 1994, by an anonymous developer going by the name Pr0duct Cypher. This protocol allowed for creating one's currency by operating an email server that served as an eCash mint. The cypherpunks had fun making all sorts of units of account like Tacky Tokens, GhostMarks, DigiFrancs, and NexusBucks. However, the utility of these tokens was minimal, and exchanges were very rare.
 On the side of DigiCash, after a few years of development, a prototype was [presented](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) in May 1994 at the first international conference on the World Wide Web at CERN in Geneva. The company then conducted a trial on October 19 of that year, issuing units called "CyberBucks", which were not backed by any other currency. Various merchants accepted CyberBucks as part of this experiment. The cypherpunks also took to it, using it to conduct real exchanges. Thus, CyberBucks acquired value on the market. However, this value collapsed when eCash was deployed in the traditional banking system.
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
 Photo (blurry) of the DigiCash team in 1995: David Chaum is on the far left (source: [Chaum.com](https://chaum.com/ecash/))
 
 The introduction of eCash into the banking system began in October 1995, when DigiCash's partnership with Mark Twain Bank, a small bank in Missouri, started. Unlike the case of CyberBucks, whose exchange rate was floating, the unit of account was backed by the US dollar. Between 1996 and 1998, six banks followed Mark Twain Bank: Merita Bank in Finland, Deutsche Bank in Germany, Advance Bank in Australia, Bank Austria in Austria, Den norske Bank in Norway, and Credit Suisse in Switzerland. The press then promised a bright future for this system.
@@ -192,7 +199,7 @@ Other alternative centralized systems, such as e-gold and Liberty Reserve, also 
 
 Then, eCash inspired the cypherpunks who developed models such as b-money, bit gold, and RPOW. They added proof of work and other elements later found in Bitcoin. We will study these concepts in Chapter 3.
 
-Finally, David Chaum's model significantly influenced Satoshi Nakamoto when he developed his concept of currency. This is evidenced by the multiple references in the [white paper](assets/pdf/bitcoin-20090324.pdf) (the title, the description of the problem in section 2, the name of the PDF [sent](https://gwern.net/doc/bitcoin/2008-nakamoto) to Wei Dai in August 2008), as well as his private and public interventions. In this sense, eCash is the main predecessor of Bitcoin, even if it is not the only one.
+Finally, David Chaum's model significantly influenced Satoshi Nakamoto when he developed his concept of currency. This is evidenced by the multiple references in the [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (the title, the description of the problem in section 2, the name of the PDF [sent](https://gwern.net/doc/bitcoin/2008-nakamoto) to Wei Dai in August 2008), as well as his private and public interventions. In this sense, eCash is the main predecessor of Bitcoin, even if it is not the only one.
 
 Satoshi Nakamoto created a robust and confidential digital currency, real electronic cash, with Bitcoin. In doing so, he realized the [prediction](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) of Milton Friedman, Nobel Prize in Economics and founder of the Chicago School, who said in an interview with the National Taxpayers Union Foundation in 1999:
 
@@ -200,6 +207,8 @@ Satoshi Nakamoto created a robust and confidential digital currency, real electr
 
 ## Private Digital Currencies
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 In the previous chapter, we explored the first form of electronic cash that emerged from the advent of the Internet and modern cryptography: David Chaum's eCash model. This model significantly influenced Satoshi Nakamoto and was a key milestone on the path that led to Bitcoin. However, the story of cryptocurrency's origins doesn't end with eCash; it also includes experiments with private currencies operating on the Internet, developed in the late 1990s.
 
@@ -219,7 +228,7 @@ To enforce these restrictions, Abraham Lincoln founded a government agency in 18
 The situation became even more restricted afterwards. The central bank, called the Federal Reserve of the United States, was created in 1913, following the banking panic of 1907. Then, the classic gold standard was abandoned in 1933 as part of F.D. Roosevelt's New Deal, with [Executive Order 6102](https://fr.wikipedia.org/wiki/Executive_Order_6102), which prohibited individuals and companies located in the United States from holding gold. The reference to gold in the monetary system was finally abandoned in 1971 when Richard Nixon announced the end of the dollar's convertibility into gold internationally.
 With the repeal of the gold possession ban and the Internet development starting in the 1970s, the idea of deploying private currencies re-emerged. This was the case with Bernard von NotHaus, who launched the Liberty Dollar in 1998, a currency based on gold and silver that could be found in silver coins and representative notes. A non-profit organization managed the system called NORFED (acronym for National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Starting in 2003, the Liberty Dollar was also available in digital form, through an account system similar to e-gold (see the following section). The system experienced a certain level of success. Besides the circulating coins, NORFED's vaults contained about 8 million dollars in precious metals to ensure the currency's convertibility, including 6 million to back the digital unit.
 
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/en/008.webp)
 Liberty Dollar (10 dollars) in silver from 2003 (source: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
 In September 2006, the U.S. Mint issued a [press release](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), written jointly with the Department of Justice, in which it concluded that the use of NORFED's coins violated section 486 of title 18 of the United States Code and constituted "a federal crime." Consequently, after an FBI raid on NORFED's premises in 2007, the violations were held against NotHaus and his associates, who were arrested in 2009 and tried in March 2011. In 2014, Bernard von NotHaus was sentenced on appeal to six months of house arrest and three years of probation.
@@ -230,7 +239,7 @@ The principle was that each unit of e-gold could be converted into real gold. Th
 
 The e-gold system took advantage of the nascent Web, particularly the recent Netscape browser. Each client could access their account from the website, rather than having to operate dedicated software. For the time, the platform was very high-performing, utilizing a real-time gross settlement system inspired by interbank transfer. Here is what sending e-gold looked like in 2005 (image from a [tutorial](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) of the time):
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/en/009.webp)
 
 The e-gold system met with great success: at its peak in 2006, it [guaranteed](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3.6 tons of gold, worth more than 80 million dollars, [processed](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75,000 transactions per day, for an annualized volume of 3 billion dollars, and managed more than 2.7 million accounts.
 This success was abruptly halted following the intervention of the State. After an investigation conducted by the Secret Service, Douglas Jackson, his two companies, and his associates were [indicted](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html) on April 27, 2007, by the Department of Justice for facilitating money laundering and operating a money transfer business without a license. In November 2008, Douglas Jackson was found guilty and was sentenced to 3 years of probation, including 6 months of house arrest under electronic surveillance. After an unsuccessful license attempt, e-gold was forced to shut down permanently in November 2009.
@@ -241,7 +250,7 @@ Other systems were created following the same model. GoldMoney, founded by James
 
 Another example of a centralized private currency system is Liberty Reserve, which allowed users to hold and transfer electronic currencies pegged to the US dollar, the euro, or gold. Arthur Budovsky, an American of Ukrainian origin, and Vladimir Kats, a Russian immigrant from Saint Petersburg, created this system. In 2006, Arthur Budovsky expatriated to Costa Rica, which was then considered a tax haven, where he registered his company, Liberty Reserve S.A.
 
-![Liberty Reserve logo in 2009](assets/en/10.webp)
+![Liberty Reserve logo in 2009](assets/en/010.webp)
 Liberty Reserve logo in 2009 (source: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
 The system was quite similar to e-gold, except that the funds (primarily in dollars) were held in offshore bank accounts, rather than private vaults. Liberty Reserve greatly benefited from the shutdown of e-gold in April 2007 following the indictment of Douglas Jackson and his associates. In May 2013, [according to the U.S. Department of Justice](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf), the platform had over one million users worldwide, including more than 200,000 in the United States, and processed 12 million financial transactions annually, for a combined volume of more than $1.4 billion. The use was primarily for criminal activities, but [was not limited to](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) these: Liberty Reserve was also used by Forex traders or for overseas transfers.
@@ -261,7 +270,7 @@ The original vision of PayPal was revolutionary, in line with Peter Thiel's libe
 
 > "Of course, what we're calling 'convenient' for American users will be revolutionary for the developing world. Many of these countries' governments play fast and loose with their currencies. They use inflation and sometimes wholesale currency devaluations, like we saw in Russia and several Southeast Asian countries last year, to take wealth away from their citizens. Most of the ordinary people there never have an opportunity to open an offshore account or to get their hands on more than a few bills of a stable currency like U.S. dollars. Eventually, PayPal will be able to change this. In the future, when we make our service available outside the U.S. and as Internet penetration continues to expand to all economic tiers of people, PayPal will give citizens worldwide more direct control over their currencies than they ever had before. It will be nearly impossible for corrupt governments to steal wealth from their people through their old means because if they try, the people will switch to dollars, Pounds, or Yen, in effect dumping the worthless local currency for something more secure."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/11.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
 Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute (source: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
 However, things did not evolve in the desired direction, and PayPal had to comply with all sorts of financial regulations, to the point that the service is now famous for its payment censorship and account freezes worldwide. It was naive to believe such a system could challenge the established power.
@@ -275,6 +284,8 @@ Because centralized systems are fragile, proponents of freedom, including cypher
 ## Decentralized Models Before Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin represents a decentralized model of digital currency. In doing so, it avoids the need for a trusted third party, which would constitute a single point of failure in the system. As shown by the examples of eCash, digital gold currencies, and Liberty Reserve, the centralization of a system intending to be an alternative to the existing system inevitably leads to its closure.
 Bitcoin, however, was not the first concept of decentralized currency to have been proposed. Since the late 1990s, such models have been described by the cypherpunks, who were obsessed with the freedom and privacy of individuals on the Internet and believed (like David Chaum) that monitoring systems led to a dystopian future. They [called](https://cypherpunks.venona.com/date/1993/03/msg00392.html) for "writing code" and considered "electronic money" as an essential element to their ideal. (*original: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."*)
 
@@ -284,14 +295,14 @@ In this chapter, we will study the emergence of various foundational technical e
 
 With the emergence of computers in the 1950s, the possibility of connecting them appeared. This is how the first computer networks were formed, leading to the development of the Internet, the "network of networks," in the 1970s. The question of the infrastructure of these networks inevitably arose. That's why the Polish-American computer scientist Paul Baran, in his foundational 1964 article (describing packet switching), listed three types of networks: the centralized network, relying on a single node; the distributed network, where each point is a node; the decentralized (non-distributed) network, relying on a distributed network of multiple nodes.
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/12.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
 
 Two pure models can be derived from these considerations: the client-server model, where a central server responds to clients' requests, and the peer-to-peer model, where each node has the same role in the system. This latter model was particularly useful for file sharing in the 2000s, with the creation of BitTorrent and other similar protocols. The Tor network is decentralized, not purely peer-to-peer.
 A problem encountered in distributed architectures is the issue of distributed consensus, commonly referred to as the Byzantine Generals Problem, which was formalized by Leslie Lamport, Robert Shostak, and Marshall Pease in a [paper](https://lamport.azurewebsites.net/pubs/byz.pdf) published in 1982. This problem addresses the challenge of transmission reliability and the integrity of participants in peer-to-peer systems, and it applies in cases where the components of a computer system need to agree.
 
 The problem is stated as a metaphor involving the Byzantine Empire's army generals, besieging an enemy city with their troops, intending to attack and can only communicate via messengers. The goal is to find a strategy (i.e., an algorithm) that can manage the presence of traitors and ensure that all loyal generals agree on a battle plan so that the attack is successful. Here is an illustration (source: *L'Élégance de Bitcoin*):
 
-![The Byzantine Generals Problem](assets/en/13.webp)
+![The Byzantine Generals Problem](assets/en/013.webp)
 
 Solving this problem is important for distributed systems that manage a unit of account. Such systems require that participants agree on the ownership of account units, that is, who owns what.
 
@@ -305,11 +316,11 @@ However, timestamping is particularly useful in the digital world, where files (
 
 In 1991, a confidential and secure timestamping technique was proposed by Stuart Haber and Scott Stornetta, two researchers working for Bell Communications Research Inc. (commonly called "Bellcore"), an R&D consortium located in New Jersey. In [their paper](http://www.staroceans.org/e-book/Haber_Stornetta.pdf), titled "How to time-stamp a digital document", they described how a certified timestamping service could use a one-way function (such as the MD4 hash function) and a signature algorithm to increase the confidentiality of client documents and the reliability of the certification. In particular, the idea was to chain the information by involving the previous timestamp in applying the one-way function.
 
-![Example of certified timestamping](assets/en/14.webp)
+![Example of certified timestamping](assets/en/014.webp)
 Example of certified timestamping (source: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber and Stornetta implemented their idea by publishing cryptographic fingerprints (resulting from hashing the useful data) in the classified ads of the New York Times in 1992. They then founded their own company, Surety Technologies, in 1994 to fully dedicate themselves to this activity. They are thus [known](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) for creating the first timestamp chain, with the previous fingerprint being taken into account in the calculation of the new fingerprint to be published in the newspaper, which foreshadowed the Bitcoin blockchain.
-Three papers by Haber and Stornetta were cited by Satoshi Nakamoto in the [Bitcoin white paper](assets/pdf/bitcoin-20090324.pdf): the previously mentioned 1991 paper, a [paper](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) from 1993 that improved upon the protocols proposed in the earlier one, notably through the use of Merkle trees, and a [paper](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) from 1997 that presented a way to name files using one-way functions universally. Also cited was a [paper](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) describing a new timestamping system written in 1999 by Henri Massias, Xavier Serret-Avila, and Jean-Jacques Quisquater, three men working for the cryptography research group at the Catholic University of Louvain, in Belgium.
+Three papers by Haber and Stornetta were cited by Satoshi Nakamoto in the [Bitcoin white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): the previously mentioned 1991 paper, a [paper](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) from 1993 that improved upon the protocols proposed in the earlier one, notably through the use of Merkle trees, and a [paper](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) from 1997 that presented a way to name files using one-way functions universally. Also cited was a [paper](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) describing a new timestamping system written in 1999 by Henri Massias, Xavier Serret-Avila, and Jean-Jacques Quisquater, three men working for the cryptography research group at the Catholic University of Louvain, in Belgium.
 ### Proof of Work and Hashcash
 
 Proof of work is a process that allows a computer device to demonstrate objectively and quantifiably that it has expended energy to be selected for access to a service or privilege. It is a mechanism to resist Sybil attacks, which makes it difficult for an attacker to multiply identities excessively to disrupt or take control of any reputation system.
@@ -317,7 +328,7 @@ Proof of work is a process that allows a computer device to demonstrate objectiv
 The proof of work concept was first described in 1992 by computer scientists Cynthia Dwork and Moni Naor, who worked at the IBM Almaden research center, located south of San Jose in California. In a [research paper](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf) titled "Pricing via Processing or Combatting Junk Mail", they presented a method to combat spam in email inboxes. The model consisted of forcing users to solve a cryptographic puzzle for each email sent, to limit the ability to send mass emails while allowing occasional senders not to be hindered. However, they never went as far as to implement their idea.
 With the popularization of the Internet in the 1990s, the problem of unwanted email became increasingly pressing, including on the mailing list of the cypherpunks. This is why the concept by Dwork and Naor was [implemented](https://cypherpunks.venona.com/date/1997/03/msg00774.html) by the young British cypherpunk Adam Back in 1997 with Hashcash, an algorithm producing simple proofs of work using a hash function. More specifically, it involves finding a partial collision of the considered hash function, that is, obtaining two messages that have a footprint starting with the same data bits (note: from version 1.0 released in 2002, it involves discovering a partial collision for the zero print, namely finding a pre-image whose footprint starts with a determined number of binary zeros). Since the hash function is one-way, such an achievement can only be realized by testing the different possibilities individually, which requires an energy expenditure.
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/en/015.webp)
 Adam Back in 2001 (source: [archive of Adam Back's personal page](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
 However, the cypherpunks did not limit themselves to considering proof of work as a simple means of limiting spam; they also wanted to use it to guarantee the cost of producing a digital currency. Thus, in 1997, Adam Back [envisaged](https://cypherpunks.venona.com/date/1997/04/msg00822.html) this idea himself, but he was aware that the proofs of work therefore obtained could not be transferred in a fully distributed manner (because of the double-spending problem) and that it was thus necessary to go through a centralized system like eCash. Similarly, in 1996, cryptographers Ronald Rivest and Adi Shamir described [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), a centralized micropayment system whose coins were supposed to be impossible to counterfeit thanks to the production of proofs of work.
@@ -336,7 +347,7 @@ Currency creation was open to all participants through proof of work, broadcasti
 Although quite ingenious, Wei Dai's concept of b-money was not entirely functional. It thus had major flaws, such as vulnerability to Sybil attacks on the network (anyone could theoretically add new nodes to the network), network centralization in the case where servers would be pre-selected, and the issue related to the stabilization of the unit of account (who decrees the observable prices on the market?).
 After its publication on the list, b-money caught the attention of the cypherpunks, and in particular [that of Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). However, Wei Dai never implemented his model, not only because it was dysfunctional, but also due to the [disillusionment](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) of the cryptographer towards crypto-anarchy. Nevertheless, b-money was cited in the Bitcoin white paper, making it one of its precursors.
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
 
 ### bit gold: digital gold before Bitcoin
 
@@ -344,7 +355,7 @@ The second model that emerged from the cypherpunks' ideas was the idea of bit go
 
 In 1994, Nick Szabo created a private mailing list called libtech-l. As its name suggests, it aimed to host discussions on liberatory techniques, allowing the protection of individual freedoms against the assaults of authorities. Cypherpunks like Wei Dai and Hal Finney had access, as did economists Larry White and George Selgin, proponents of Hayekian currency competition and free banking.
 
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/en/017.webp)
 Nick Szabo in 1997 (source: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
 Nick Szabo initially described his concept on the libtech-l list before hosting a [draft](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) of a white paper on his personal website in 1999. He then presented bit gold in 2005 in an [article](https://unenumerated.blogspot.com/2005/12/bit-gold.html) published on his blog, Unenumerated.
@@ -365,7 +376,7 @@ The server managed the reusable proof-of-work tokens and was responsible for sig
 
 Here is an illustration [designed](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) by Hal Finney himself:
 
-![Exchange in RPOW](assets/en/18.webp)
+![Exchange in RPOW](assets/en/018.webp)
 
 Hal Finney not only designed the model but also personally implemented it. On August 15, 2004, he [announced](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) the launch of the RPOW system on the cypherpunks mailing list, in addition to documenting its operation on the dedicated website (rpow.net). He then [presented](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) it at the CodeCon 2005 conference held in San Francisco, where he discussed the potential uses for proof-of-work tokens, namely: value transfer, spam regulation, commerce in video games, online gambling like poker, and anti-leeching on file-sharing protocols like BitTorrent.
 However, RPOW had intrinsic flaws that may explain why it did not achieve the expected success:
@@ -379,7 +390,7 @@ Thus, the actual use of RPOW was anecdotal. Still, Hal Finney deserves credit fo
 
 Another lesser-known predecessor model of Bitcoin, but significant here, is the distributed credit protocol Ripple, designed by Canadian developer Ryan Fugger in 2004. The young Canadian was inspired by the concept of the [local exchange trading system](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), something he had experienced in Vancouver before designing his protocol. He published the Ripple [white paper](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) on April 14, 2004. Then he implemented it through a proof of concept called RipplePay, which operated on a central server and allowed users to connect with just an email address.
 
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/en/019.webp)
 Ryan Fugger circa 2010 (source: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
 The concept of Ripple was based on the idea that money was essentially made up of IOUs, that is, credit. It was about establishing a peer-to-peer network whose links would be credit relationships between people. Payments were then made by routing a series of loans, with all participants acting as bankers lending money to each other. Alice could pay David $10 by lending $10 to Bob and asking Bob to do the same to Carole. Carole did the same to David: David's account was credited $10 from Alice's money creation. The system worked somewhat by ripples, which explains the project's name.
@@ -407,6 +418,8 @@ Bitcoin thus forms the culmination of a quest for cybercurrency, a currency exis
 ## The Birth of Bitcoin
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 After learning where Bitcoin came from, we will focus on its history. This has been the subject of numerous articles, podcasts, and videos, so much so that it has almost become a founding myth. As we have seen, Bitcoin is inseparable from the context in which it was created; the same is true for the events that took place during its early years, which have shaped what it is today, with its qualities and flaws.
 Bitcoin was created by Satoshi Nakamoto, an unknown individual claiming to be Japanese, who took the time to thoughtfully design it before unveiling it to the public. Subsequently, they did everything to ensure that Bitcoin was launched under the best conditions, that it was well presented in discussions, and that an increasing number of people used it. Ultimately, the creator's effort lay as much in the economic initiation of the system as in its initial design, if not more.
 
@@ -428,7 +441,7 @@ It was in August 2008 that Satoshi decided to prepare for the launch of Bitcoin.
 
 On August 20th, the creator of Bitcoin [contacted](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf), Adam Back, by sending him an email asking for advice on how to cite his paper on Hashcash in the white paper. It's hard not to see this as a pretext to ensure that the inventor of Hashcash became aware of his new system.
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/en/020.webp)
 Adam Back in 2012 (source: [Adam Back's personal page](http://www.cypherspace.org/adam/))
 
 The email contained a link to a draft of the white paper. The PDF file name was `ecash.pdf`, and its title was "Electronic Cash Without a Trusted Third Party." The abstract is the same as the first version, which will be published in October, with a one-word difference. Unfortunately, we do not have the full document.
@@ -442,7 +455,7 @@ For his part, Satoshi finishes preparing to make his invention public. On Octobe
 
 ### The publication of the white paper
 
-On October 31, 2008, Satoshi Nakamoto publishes the [first version of the white paper](assets/pdf/bitcoin-20081003.pdf) on an email mailing list dedicated to cryptography, simply called the "Cryptography mailing list." This list has been managed by developer Perry Metzger since 1996, its [creation](https://cypherpunks.venona.com/date/1996/12/msg00102.html), and has been hosted on his personal site, Metdowd.com, since [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). It is the successor to the cypherpunks list, with the difference that it is subject to strict moderation. In 2008, several former cypherpunks, such as John Gilmore, Hal Finney, and Len Sassaman, still participated.
+On October 31, 2008, Satoshi Nakamoto publishes the [first version of the white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) on an email mailing list dedicated to cryptography, simply called the "Cryptography mailing list." This list has been managed by developer Perry Metzger since 1996, its [creation](https://cypherpunks.venona.com/date/1996/12/msg00102.html), and has been hosted on his personal site, Metdowd.com, since [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). It is the successor to the cypherpunks list, with the difference that it is subject to strict moderation. In 2008, several former cypherpunks, such as John Gilmore, Hal Finney, and Len Sassaman, still participated.
 
 In his first [email](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) addressed to the list, Satoshi writes:
 
@@ -458,7 +471,7 @@ It also lists the main properties of his model:
 
 In his email, he includes a link to the white paper, which is already hosted on Bitcoin.org. This short 9-page document, presented as a scientific article, describes the technical workings of Bitcoin and focuses on the problem of online payments.
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
 
 Satoshi received a few responses following this announcement, but most were skeptical. He is notably criticized for three things:
 
@@ -468,7 +481,7 @@ Satoshi received a few responses following this announcement, but most were skep
 - Finally, an individual named Ray Dillinger (using the pseudonym bear) [wonders](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) about the value of the unit of account, lamenting the fact that "computational proofs of work have no intrinsic value" and criticizing their inflationary nature due to the technical evolution of computer hardware. Satoshi [replies](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) that "the increase in hardware speed is accounted for" by the periodic adjustment of the production difficulty.
 Even though skepticism is the predominant attitude on the list, it is not shared by everyone subscribed to the mailing list. In particular, one person stands out from the others with their enthusiasm: Hal Finney, who has an optimistic view of the future and never gave up on the idea of electronic cash, despite the failures of the 90s. He [stated](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) on this matter a few years later that "cryptographic graybeards [...] tend to become cynical" but that he "was more idealistic" having "always loved cryptography, its mystery, and its paradox." (*original: "I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it."*) Thus, on November 7, he wrote in an [email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) to the list that "Bitcoin seems to be a very promising idea" and compares Satoshi's model to Nick Szabo's bit gold. (*original: "Bitcoin seems to be a very promising idea."*)
 
-![Hal Finney in 2007](assets/en/22.webp)
+![Hal Finney in 2007](assets/en/022.webp)
 Hal Finney in 2007
 
 ### Monetary Policy and Software Code
@@ -476,7 +489,7 @@ Hal Finney in 2007
 Bitcoin uses a distributed consensus algorithm that allows all network nodes to agree on the contents of a ledger, which Hal Finney refers to in his first email as the "block chain," in two words. The correct blockchain chosen is the one that has the most blocks, and conflicts over competing blocks are resolved according to this simple principle. The mechanism would be refined [later](https://sourceforge.net/p/bitcoin/code/109/) to account for the amount of work accumulated rather than the number of blocks.
 
 This consensus mechanism allows for the imposition of all sorts of rules and incentives (to use the last phrase of the white paper) within the system. Since Bitcoin constitutes a distributed timestamping service, it is also possible to have these rules interact with time. Hence, the difficulty adjustment algorithm that comes into play to regulate the production of new blocks and the associated bitcoins: if the number of blocks produced over a given period is too high, then the difficulty of production increases; in the opposite case, it decreases. Thus, Bitcoin differs from RPOW, where the work proofs form the units of account.
-Thanks to this difficulty adjustment, Bitcoin can have a monetary policy, meaning that the amount of new units issued by the protocol can be predetermined. Initially, it is planned for the monetary issuance to be constant to encourage producing nodes to contribute their computing power to the network, and there are no transaction fees. As Satoshi Nakamoto writes in the "Incentive" section of the [white paper](assets/pdf/bitcoin-20081003.pdf):
+Thanks to this difficulty adjustment, Bitcoin can have a monetary policy, meaning that the amount of new units issued by the protocol can be predetermined. Initially, it is planned for the monetary issuance to be constant to encourage producing nodes to contribute their computing power to the network, and there are no transaction fees. As Satoshi Nakamoto writes in the "Incentive" section of the [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 > "The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation."
 
 This property, confirmed by Satoshi [on the mailing list](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) and [in his private correspondence](https://mmalmi.github.io/satoshi/#email-3), does not escape James A. Donald. On November 9, he [criticizes](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html) the "work of tracking who owns what" (i.e., mining) for being "paid by seigniorage" and for "requiring inflation," even though he notes that "predictable inflation is less objectionable than inflation that gets jiggered around from time to time to transfer wealth from one voting block to another." (*original: "in the proposed system the work of tracking who owns what coins is paid for by seigniorage, which requires inflation. This is not an intolerable flaw - predictable inflation is less objectionable than inflation that gets jiggered around from time to time to transfer wealth from one voting block to another."*) Furthermore, he [notes](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html) that a mining node which "ignores all the spends it does not care about" suffers "no adverse consequences," thereby highlighting the problem of censorship. (*original: "If one node is ignoring all spends that it does not care about, it suffers no adverse consequences."*)
@@ -519,7 +532,7 @@ On January 10th, Hal Finney attempted to launch the executable file of the softw
 From these exchanges between Satoshi and Hal Finney emerged version 0.1.3, [published](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) on January 12th, which was much more stable than the previous ones. Satoshi also took advantage of his conversation with Hal Finney to give him some bitcoins: he [sent](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) him 10 bitcoins via his IP address in the night from January 11th to 12th, at 3:30 a.m. This was the first transfer from one person to another on the network.
 But Hal Finney is not the only person trying Bitcoin at that time. This is also the case for Dustin D. Trammell, an American computer security researcher who was then interested in digital currencies (and particularly in the electronic version of the Liberty Dollar), who discovered Bitcoin via the mailing list. On January 11, he runs the software on one of his work machines (but he does not mine his first [block](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) until the 13th due to a technical problem). During the night of January 11 to 12, he extensively gets in touch with Satoshi, with whom he [communicates](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) over the following days. On January 15, Dustin Trammell [receives](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) also 25 bitcoins from him.
 
-![Dustin Trammell](assets/en/23.webp)
+![Dustin Trammell](assets/en/023.webp)
 Dustin Trammell (source: [Dustin Trammell's blog archive](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
 Subsequently, other people try to get the software working. This is the case for Nicholas Bohm, a British lawyer, who sent an email on January 25 on the bitcoin-list because he encountered a technical problem and exchanged privately with Satoshi. A certain Jeff Kane managed to get version 0.1.3 working on January 30. Nicholas Bohm will be mentioned alongside Dustin Trammell in the credits of version 0.1.5 of the software released in early February.
@@ -534,6 +547,8 @@ However, this work was insufficient, and it took Satoshi's perseverance to kicks
 
 ## Presentation to the World
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 After examining how Bitcoin was designed and launched by Satoshi Nakamoto, let's focus on how it was publicly presented. Following its launch at the beginning of 2009, the network was operational. Still, there were few generating nodes (Satoshi mined most of the blocks), and activity was virtually non-existent (32 actual transactions took place during January). The project only had a basic website and a SourceForge page for downloading the software. Moreover, communication about Bitcoin was limited to the Metzdowd Cryptography mailing list, followed at best by a few hundred people passionate about cryptography.
 
@@ -556,7 +571,7 @@ This is the headline from the British newspaper *The Times* on that day, indicat
 - On one hand, it prevents backdating the launch of the network by proving that the system could not have been started before January 3, since Satoshi could not have known about the headline before the newspaper was published;
 - On the other hand, it symbolically indicates what Bitcoin stands against by referring to the monetary and financial context of the time.
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 At the time, the world felt the full impact of the financial crisis that began in 2007 with the bursting of the subprime bubble in the United States. Governments bailed out financial institutions to prevent further bankruptcies after the fall of the investment bank Lehman Brothers on September 15, 2008, and central banks engaged in quantitative easing by injecting liquidity into the financial markets. This use of public money created for the occasion unsettled a number of citizens who realized that the banking system is actually one of private profits and socialized losses.
 
@@ -591,7 +606,7 @@ Next, in the same email, Jonathan Thornburg discusses the topic of zombie comput
 
 Finally, the last comment comes from John Gilmore, a founding member of the cypherpunks and the keeper of the movement's first mailing list from 1992 to 1997. In an email sent on January 25, he highlights the supposed ecological consequences of Bitcoin and [writes](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) that "the last thing we need is to deploy a system designed to burn all available cycles, consuming electricity and generating carbon dioxide, all over the Internet, to produce small amounts of bitbux to get emails or spams through." Satoshi [replies](https://mmalmi.github.io/satoshi/#email-3) to him privately that "it would be ironic to have to choose between economic freedom and environmental preservation." He adds that "proof of work is the only solution [he has] found to make a peer-to-peer electronic cash system work" and that, even if it were to consume a lot of energy, "it would still waste less than the labor and resource-intensive conventional banking activity it would replace."
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/en/025.webp)
 John Gilmore in 2007 (source: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
 On the 27th, Hal Finney [mentions](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) ways to reduce the energy dissipation associated with calculating proof of work. An hour later, he [writes](https://twitter.com/halfin/status/1153096538) on Twitter, "thinking about how to reduce CO2 emissions from a widespread Bitcoin implementation."
@@ -609,7 +624,7 @@ On February 11th, Satoshi published an [introduction message](https://p2pfoundat
 > "The fundamental problem with conventional currency is all the trust that's needed to make it work. We must trust the central bank not to debase the currency, but the history of fiat currencies is full of breaches of that trust. We must trust banks to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them to protect our privacy, to not let identity thieves drain our accounts. Their significant overhead costs make micropayments impossible."
 
 He claims to be a Japanese man on his [profile](https://p2pfoundation.ning.com/profile/SatoshiNakamoto), but that's not all. An interface update in 2011 revealed his age: 35 years old, which means he was 32 or 33 years old in 2009. Then, in 2014, it was [discovered](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) that he had indicated a specific date of birth: April 5, 1975. This seemingly innocuous date is likely a composite reference to the prohibition for American citizens to own gold between 1933 and 1975 in the United States. The day of April 5th relates to the day this prohibition was established by the [Executive Order 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) signed by President Franklin Delano Roosevelt on April 5, 1933, and the year 1975 corresponds to its repeal with the enactment of the [Public Law 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). This detail is very important since this prohibition ended the classical gold standard (where one could obtain gold in exchange for a representative bill), allowed the devaluation of the dollar (through the Gold Reserve Act in 1934), and facilitated the establishment of the floating exchange rate monetary regime that we know following the Nixon Shock of 1971.
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/26.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
 
 Satoshi Nakamoto's profile on the P2P Foundation forum on March 17, 2011 (source: [forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -630,7 +645,7 @@ Satoshi's communication strategy is gradually bearing fruit. In April 2009, othe
 
 On April 12, Mike Hearn sent an [email](https://plan99.net/~mike/satoshi-emails/thread1.html) to Satoshi, asking a series of questions about Bitcoin. He noted that "it is rare to encounter truly revolutionary ideas" and did not fail to mention Ripple.
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 Mike Hearn and Satoshi Nakamoto discussed various aspects of Bitcoin, such as scaling, micropayments, how the software works, and the absence of chargebacks. In particular, Mike Hearn asked Satoshi why he chose the quantity of "24 million" (*sic*) for the total amount of bitcoins and whether they could be subdivided. Satoshi then gave the following explanation:
 
@@ -646,7 +661,7 @@ Satoshi's communication also caught the attention of a young Finnish computer sc
 
 > "The system is anonymous, and no government could possibly tax or prevent the transactions. There's no central bank that can debase the currency with the unlimited creation of new money. The widespread adoption of such a system seems like something that could have a devastating effect on the state's ability to feed off its citizens."
 
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/en/028.webp)
 Martti Malmi in 2013 (source: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 Martti then sends an [email](https://mmalmi.github.io/satoshi/#email-1) to Satoshi stating that he is the author of this text, where he writes that he "would like to help with Bitcoin" even though he "doesn't have much experience in development yet." Satoshi Nakamoto replies on May 2, telling him that his "understanding of Bitcoin" is "right on the money."
@@ -682,7 +697,7 @@ After some discussions on the technical solution to adopt, Martti Malmi [install
 
 The first users begin to register at the beginning of the following month. On December 9, the [first message](https://bitcointalk.org/index.php?topic=12.msg40#msg40) posted by someone other than Satoshi appears, which truly kicks off the discussions. As an illustration, here is a [screenshot](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/) of the forum on May 29, 2010:
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
 
 The launch of the new forum was an opportunity to release [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) of the software, which Satoshi Nakamoto and Martti Malmi had been working on for months, which was done on December 16. This version includes improvements such as minimization to the taskbar, automatic startup at launch, and multithreading for mining production. The software was also adapted for Linux, thanks to Malmi's contribution and tests carried out by the newly arrived NewLibertyStandard (whose case will be addressed in the next chapter).
 
@@ -697,6 +712,8 @@ In the fall of 2009, Bitcoin seemed ready to grow. It was precisely then that th
 
 ## The Bootstrapping of Cryptocurrency
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
 
 In the previous chapters, we observed how Satoshi Nakamoto implemented his idea and communicated about it to introduce Bitcoin to the world. However, not everything depended on him: people also needed to assign value to the unit of account. Since this allowed for the remuneration of miners through transaction fees and rewarded merchants through natural deflation, such appreciation was essential for the system's security.
 
@@ -734,7 +751,7 @@ The last two reasons are much more significant as they motivate people to mine c
 
 At the end of September 2009, an individual using the pseudonym NewLibertyStandard (which we will abbreviate as NLS) discovered Bitcoin. He tries the software and starts mining. The first block he produces is [block 23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). He is a Linux user and therefore uses the "emulator" Wine to run the software. He is interested in political freedom and precious metals, as evidenced by his [avatar](https://bitcointalk.org/index.php?action=profile;u=26) on the forum, which depicts an American Eagle on which the word "liberty" is inscribed. He thus sees Bitcoin as an equivalent of gold in the digital world: on his [personal page](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), he presents Satoshi Nakamoto's creation as "an economic revolution" and as "the gold standard of digital currency."
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
 
 In October 2009, the first currency exchange service was established, allowing people to convert their dollars into bitcoins and their bitcoins back into dollars. The creator registered on the Bitcoin-dedicated forum on SourceForge and announced the opening of his service there. To estimate the exchange rate, he based it on the energy cost required to obtain a unit, considering the price of electricity at his location and the frequency of his production. On his page, he [wrote](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
@@ -742,7 +759,7 @@ In October 2009, the first currency exchange service was established, allowing p
 
 Here are the indicative exchange rates of the NLS service, also published on NLS's personal page:
 
-![Indicative exchange rates of the NLS service](assets/en/31.webp)
+![Indicative exchange rates of the NLS service](assets/en/031.webp)
 
 Transactions are settled via email at newlibertystandard@gmail.com. Dollar transfers are made exclusively through PayPal, and fees are charged for the operation.
 
@@ -764,7 +781,7 @@ The coordination effort is primarily conducted on the forum. On January 27, a Du
 
 On February 5, NLS [suggested](https://bitcointalk.org/index.php?topic=41.msg238#msg238) that bitcoin, like currencies traded on the foreign exchange market, adopt the ticker symbol BTC and the symbol of the Thai baht (฿). Until then, there was no established practice: for example, Satoshi and Martti used the letters `bc` to describe units in their [correspondence](https://mmalmi.github.io/satoshi/#email-119). The use of the BTC symbol quickly became standardized. On February 24, the currency symbol (the capital B crossed by two vertical bars) was [designed](https://bitcointalk.org/index.php?topic=64.msg504#msg504) by Satoshi, who then created the first real Bitcoin logo.
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
 
 Gradually, people began to accept bitcoin. This was the case for the user SmokeTooMuch in December 2009, who had just arrived and [reported the existence](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) of a paysafecard gift card sales service named BTC 2 PSC. The service was later [mentioned](https://mmalmi.github.io/satoshi/#email-141) positively by Satoshi on February 4, 2010. This was also the case for NLS who, on February 9, [opened](https://bitcointalk.org/index.php?topic=30.msg305#msg305) his own online store, the Liberty Swap Variety Shop, where he offered stamps and stickers for sale.
 
@@ -774,7 +791,7 @@ The exchange with the dollar also developed, and within two months, no fewer tha
 - BitcoinExchange (bitcoinexchange.com), Martti Malmi's platform, which uniquely [gauges](https://mmalmi.github.io/satoshi/#email-25) supply and demand by considering the euros and bitcoins deposited by users, and which is [opened to the public](https://bitcointalk.org/index.php?topic=68.msg591#msg591) on March 2, 2010;
 - Bitcoin Market (bitcoinmarket.com), a peer-to-peer marketplace using PayPal that is [launched](https://bitcointalk.org/index.php?topic=20.msg726#msg726) by someone named dwdollar on March 16, and which will see significant success before the emergence of Mt. Gox in July.
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
 [Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) of the Bitcoin Market interface later on (August 2011)
 
 On March 11, the first poker game involving bitcoins is [organized](https://bitcointalk.org/index.php?topic=80.msg781#msg781) by the administrator of BitcoinFX, inaugurating the strong relationship that will exist between gambling and cryptocurrency. The game is won by dwdollar, who earns [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
@@ -783,7 +800,7 @@ Other services accepting bitcoin emerge, such as the voice over IP service [Link
 
 The first dedicated Bitcoin custodial service also appears: MyBitcoin, a web application that enables easy and serene use of cryptocurrency, especially on mobile. Thanks to this service, users do not need to download the complete chain data to send and receive transactions, nor do they need to keep their bitcoins themselves by saving their private keys.
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
 
 At that time, lightweight wallets (known as "SPV") did not exist, so Satoshi Nakamoto himself deemed it acceptable to use this type of software, even though this use went against the principle of disintermediation at the heart of Bitcoin. On May 18, 2010, he [wrote](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) on the forum:
 
@@ -818,6 +835,8 @@ However, this question never bothered Satoshi, who saw the bootstrapping of a ne
 ## Graphics Cards, Pizzas, and Free Bitcoins
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 In the previous part, we explored how Bitcoin came into existence, how it was introduced to the public, and how it was economically initiated. In the spring of 2010, as Bitcoin commerce was beginning to bloom, Satoshi Nakamoto and the few people supporting him were determined to keep the flame alive. Fortunately, other individuals joined the effort, notably miner Laszlo Hanyecz and developer Gavin Andresen, who stood out for their actions.
 
 In this chapter, we will examine the first deployment of mining by graphics processing unit (GPU), Satoshi Nakamoto's fortune, the first purchase of a physical good with bitcoins, the establishment of a bitcoin faucet giving out free units, and the evolution of the software and network before Slashdot.
@@ -828,14 +847,14 @@ The increasingly high demand for bitcoin was accompanied by a gradual increase i
 
 Satoshi Nakamoto was very concerned about this increase in difficulty and maintained a [history](https://bitcointalk.org/index.php?topic=43.msg249#msg249) on the forum starting in February 2010. Here is what it looked like:
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
 
 Despite this enthusiasm about the increase in computing power on the network, Satoshi was nevertheless looking to slow down the specialization of mining to favor the distribution of units. Until then, miners used their central processing units (CPUs) to extract new bitcoins. However, these processors proved inefficient for performing repetitive operations, compared to graphics processing units (GPUs), which are far more suited to this type of repetitive calculation. Consequently, everyone, including Satoshi himself, knew then that this evolution was inevitable. On December 19, 2009, he [stated](https://bitcointalk.org/index.php?topic=12.msg54#msg54) as follows:
 "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. It's much easier to get new users up to speed if they don't have to worry about GPU drivers and compatibility. It's nice how anyone with just a CPU can compete fairly equally right now."
 
 However, a few months later, Pandora's box was opened. The troublemaker is Laszlo Hanyecz, a 28-year-old American developer of Hungarian origin, living in Florida. He discovered Bitcoin in April 2010. On the 9th, he [acquired](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3,300 bitcoins from NLS for about $20, then tested the system by making a few transfers. On the 18th, he attempted to congest the network by multiplying transactions from his [public address](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), but it held up.
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
 Laszlo Hanyecz with his son in May 2018 (source: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 Subsequently, he [adapted](https://bitcointalk.org/index.php?topic=116.msg972#msg972) the software code to make it work on the Mac OS X operating system. Then he worked on optimizing mining by using the OpenCL environment, which allows the [involvement of the GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) in generating bitcoins. On May 10, he published his [executable](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) and [offered](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) to write patches to enable other miners to do so. This optimization quickly allowed him to occupy a significant place in block production.
@@ -850,7 +869,7 @@ This rise in mining also had a significant consequence: Satoshi stopped producin
 
 Satoshi's mining activity has a distinct pattern, making it possible to identify the blocks he likely found with a few false positives. Developer Sergio Lerner highlighted this mining pattern in 2013 and named it the Patoshi Pattern.
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
 
 The Patoshi Pattern between blocks 0 and 50,000, as observed on the website [satoshiblocks.info](http://satoshiblocks.info/): each point corresponds to a block. The blue lines are formed from Satoshi's blocks, and the other lines represent the output of other miners.
 
@@ -858,11 +877,11 @@ According to a study by Whale Alert published in 2020, Satoshi mined about 22,50
 
 With the increase in computing power in the fall of 2009, the proportion of Satoshi's computing power relative to the total network power gradually decreased. It went from 75% in March 2009 to 60% in September, then down to 15% in December, and reached 0% in May. Below is a graph made by [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) in 2014:
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
 
 Moreover, Satoshi's decline in mining dominance is not merely passive: he slows down his production during the same period. Indeed, Satoshi's stated goal is for everyone to participate: he does not mine for financial gain, but to ensure the network's operation until incentives take effect. Thus, he reduces his hash rate (the number of calculations performed each second) three times during this mining period: the first time from 4.5 to 2.5 MH/s in June 2009, the second time from 2.5 to 1 MH/s in October, and the third time from 1 to 0 MH/s in May 2010. Here is a chart of his hash rate evolution during this period ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)):
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
 
 Satoshi's mining is therefore decidedly altruistic, as [Jameson Lopp points out](https://blog.lopp.net/was-satoshi-a-greedy-miner/). When he stops mining on May 3, 2010 (his last block is [block 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), it constitutes another achievement in the slow development of Bitcoin: the takeover of transaction confirmation by economic actors.
 
@@ -874,12 +893,12 @@ A foundational event also marks May 2010: the first purchase of a physical good 
 
 After four days, this offer was accepted. A young Californian named Jeremy Sturdivant accepted the exchange on the IRC instant messaging service.
 
-![Jeremy Sturdivant in May 2018](assets/en/40.webp)
+![Jeremy Sturdivant in May 2018](assets/en/040.webp)
 Jeremy Sturdivant in May 2018 (source: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 On May 22, he ordered two pizzas from Papa John's, delivered to Laszlo in Jacksonville, Florida. He [received](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 bitcoins in exchange, worth about $44 at the Bitcoin Market rate. Here is a photograph of these two pizzas, [shared](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) by Laszlo himself:
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
 
 This concludes the first purchase of a physical good with bitcoins, even if this purchase is indirect. Laszlo is congratulated by [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196), who writes that "a big step has been taken." NLS also adds a [positive comment](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) on this matter.
 
@@ -895,7 +914,7 @@ Nevertheless, the increase in cryptocurrency's purchasing power did not detract 
 
 This period also saw the arrival of a key figure in the history of Bitcoin: Gavin Andresen, a 44-year-old developer born in Australia who [acquired](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) U.S. nationality in 2004 and was living in Amherst, Massachusetts at the time. Returning from a trip to Australia and temporarily unemployed, he discovered Bitcoin at the end of May through an [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) by Neil McAllister published on InfoWorld. This article presented Satoshi Nakamoto's project as an "open-source innovation."
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
 Gavin Andresen in Townsville, Queensland, Australia (source: [CIO archive](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
 Curious and inventive, he quickly began working on a personal project: a "Bitcoin Faucet" which gives bitcoins to anyone who requests them. On June 11th, he [launched](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) his service and presented it on the forum as follows:
@@ -917,6 +936,8 @@ However, by the end of June, activity on the network had remained quite modest. 
 
 ## The Great Slashdotting
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
+
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
 
 At the beginning of the summer of 2010, Bitcoin was based on a shaky foundation despite some encouraging initial developments. The software had few developers other than Satoshi Nakamoto. Miners were amateurs on their personal computers. There were about twenty services related to Bitcoin, and actual exchanges were just as rare. However, things were about to change drastically during the year's second half.
 
@@ -959,7 +980,7 @@ On July 11, 2010, a revised version of the Bitcoin presentation written by Teppy
 
 > "How's this for a disruptive technology? Bitcoin is a peer-to-peer, network-based digital currency with no central bank, and no transaction fees. Using a proof-of-work concept, nodes burn CPU cycles searching for bundles of coins, broadcasting their findings to the network. Analysis of energy usage indicates that the market value of Bitcoins is already above the value of the energy needed to generate them, indicating healthy demand. The community is hopeful the currency will remain outside the reach of any government."
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/en/043.webp)
 
 The publication was noticed, and nearly 500 comments were posted in a few days. For Bitcoin, this success led to a massive influx of visitors to the site and forum. The use of the blockchain surged: the number of transactions carried out on the network increased from 42 on July 10 to 1,641 on the 12th, reaching 5,554 on the 14th, an all-time high. The system held up despite the increased load. On the 14th, developer Gavin Andresen [wrote](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) on the forum:
 
@@ -973,12 +994,12 @@ Another effect of the influx of people from Slashdot is the increased computing 
 
 Among those who discovered Bitcoin thanks to Slashdot was Jed McCaleb, a 35-year-old American entrepreneur and programmer known for co-founding and developing the peer-to-peer file-sharing software eDonkey2000 in the 2000s. Realizing the difficulty of obtaining bitcoin in exchange for dollars, he decided "on a whim" to create an efficient marketplace. To do this, he repurposed one of his old projects developed in 2007: Magic The Gathering Online eXchange (MTGOX), a website that allowed buying and selling cards for the online game *Magic: The Gathering Online*. He reused the domain name of this project (mtgox.com), which became the name of the new platform: Mt. Gox, pronounced "Mount Gox".
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/en/044.webp)
 Jed McCaleb in 2013 (source: Ariel Zambelich for [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 One week later, on July 18, Jed McCaleb launched his exchange platform and [announced](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) it on the forum. Thanks to his expertise, he ensured the platform operated as an automated marketplace, similar to modern online exchanges. [According to him](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), it stood out from Bitcoin Market because it was "always online, automated," "the site was faster and had dedicated hosting," and "the interface was more user-friendly." As a result, Mt. Gox quickly became the primary means of acquiring bitcoin, establishing itself as the benchmark for dollar quotations.
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
 Interface of the Mt. Gox platform in February 2011 (source: [Mt. Gox archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
 Initially, the platform accepted payments via PayPal. However, in October 2010, following too many chargeback requests, PayPal [blocked](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) Jed McCaleb's account, which forced him to suspend deposits and withdrawals on the platform temporarily. A few weeks later, he [restored](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) transfers by adding Liberty Reserve as a payment method. Subsequently, he also accepted transactions via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) upon request, and bank transfers [in dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) and [in euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
@@ -991,6 +1012,8 @@ In the following months, technical, economic, and mining improvements flourished
 ## The First Technical Issues
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
+
 As mentioned in the last chapter, the influx of users from Slashdot on July 11, 2010, caused a huge wave of interest in Satoshi Nakamoto's project. The network's use exploded, and the exchange rate increased tenfold, as did the computing power dedicated to the system. Thus, Bitcoin experienced unprecedented growth over the summer.
 
 However, this success was accompanied by technical issues, with the discovery of some vulnerabilities in the software. Greater popularity meant more people inspecting the code and a higher likelihood of operational anomalies. And this is precisely what happened on August 15 with the value overflow incident, the first "breakdown" in Bitcoin's history, which lasted about 15 hours. This period was naturally marked by an improvement in the software, to anticipate various threats and correct flaws as much as possible.
@@ -1002,7 +1025,7 @@ However, the creator of Bitcoin is not working on the code alone. He can count o
 
 Finally, we can mention Jeff Garzik (using the pseudonym jgarzik on the forum), an American developer and contributor in the world of free software, notably for the Red Hat distribution, and a libertarian follower of the Austrian school of economics. He discovered Bitcoin through the article on Slashdot and almost immediately got involved in Bitcoin.
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/en/046.webp)
 Jeff Garzik in 2013 (source: [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
 Satoshi's first goal is to make the software and protocol more secure, to cope with the recent increase in usage. Together with Gavin Andresen, they consider the various attacks that could occur (including denial of service attacks) and strive to correct the vulnerabilities discovered. This is how a system of checkpoints is added on July 17th ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), preventing the chain from being rewritten before a certain date, and the notion of work is integrated on July 25th ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) to refine the mechanism for selecting the correct chain by the nodes.
@@ -1043,7 +1066,7 @@ This parameter was [added](https://sourceforge.net/p/bitcoin/code/103/) discreet
 Although Satoshi did not mention the existence of the block size limit, several people noticed its presence in the code over time. It was thus remarked upon as early as August 12 by a Russian-speaking forum member using the pseudonym throughput who [stated](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), in a relatively favorable tone, that "Another interesting aspect is that the byte size of the block (so the number of transactions in it) is limited." Later, on September 30, it was Theymos who [pointed out](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) to another member that "Bitcoin won't allow blocks over 1MB, so assuming a (rather small) average transaction size of 216 bytes, Bitcoin can only handle 4,629 transactions every 10 minutes."
 Finally, the presence of this parameter affects Jeff Garzik who [declares](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) to be "much more concerned about scalability than government shutdown" and who [asks](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) how it is possible to "sell bitcoin to serious investors, with built-in limitations like the 463 transactions per minute limit." Consequently, on October 3rd, he proposes a patch on the forum to increase the block size limit to 7.168 MB to "match PayPal's average transaction rate." Theymos responds by saying that "applying this patch will make you incompatible with other Bitcoin clients." This message is endorsed by Satoshi Nakamoto who [recommends](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) not using the patch and states: "We can phase in a change later if we get closer to needing it." The latter [clarifies](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) his thoughts the next day by guiding how to make such a protocol change.
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/47.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
 
 This discussion marks the beginning of the debate on scalability, which would eventually lead to a real civil war between 2015 and 2017, known as the blocksize war.
 
@@ -1069,6 +1092,8 @@ In the following months, technical, economic, and mining improvements emerged, g
 ## The Digital Gold Rush
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 In the previous part, we studied the effect that the publication of the Bitcoin presentation on Slashdot (slashdotting) had and how Satoshi and his aides managed the initial technical troubles. By the end of the summer, the project had weathered the storm and was ready to welcome an increasing number of people. The fall of 2010 thus marked a period of success for Bitcoin.
 This period was particularly a golden era for mining, which saw significant improvements with the emergence of the first GPU farms and the first cooperative. The resources deployed were increasing, and the performance of dedicated algorithms was improving. It was somewhat a "digital gold rush," as a blogger of the time (using the pseudonym jimbobway) [wrote](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), noting that "thousands of internet users" were mining bitcoins "in hopes of fortune" and that many of them were attempting "to develop software and hardware tools to mine bitcoins more efficiently" in hopes of becoming filthy rich. (*original: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
 
@@ -1076,13 +1101,13 @@ This period was particularly a golden era for mining, which saw significant impr
 
 After Bitcoin was slashdotted in July 2010, the high financial reward from the price increase and the possibility of future growth encouraged individuals to dedicate themselves to generating bitcoin more intensively. That's why the [hash rate](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) of the network, which was at 0.22 GH/s on July 11, went up to 2.78 GH/s on the 17th, then to 5.79 GH/s on August 15, to eventually reach 9.94 GH/s on September 19 and finally 12.58 GH/s on September 29.
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/48.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
 Total network hash rate from July 11 to October 5, 2010 (source: [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
 
 The biggest miner of this period was a German developer who went by the name ArtForz. After learning about Bitcoin through Slashdot, he quickly got involved in software development and spent much time on the IRC channel #bitcoin-dev. In particular, he developed his own GPU mining algorithm with OpenCL, which he ran with his computer's graphics card.
 He started generating bitcoins on July 19. On July 25, in a thread surveying users about their bitcoin holdings, ArtForz [stated](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) he had generated 1,700 bitcoins in 6 days, which corresponds to 4% of the hash rate, or 80 MH/s. Gradually, he built a large mining farm, which would be known as "ArtFarm." In August, his farm [included](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770s, allowing him to increase from 76 MH/s on August 9 to about 450 MH/s on the 13th.
 
-![ArtForz's mining production between August and October 2010](assets/en/49.webp)
+![ArtForz's mining production between August and October 2010](assets/en/049.webp)
 ArtForz's mining production between August and October 2010 (source: Blackburn et al., "[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)")
 
 Over the weeks, ArtForz came to control a significant portion of the network's computing power. On September 2, the miner puddinpop [stated](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957) that he has "about 12 5770s using his OpenCL client" and that he has "more than 1 Ghash/s," giving him "20% of the network's hash capacity." (*original: "ArtForz, on IRC, has like 12 or so 5770s running his own OpenCL client. The entire network is doing something around 5-6Ghash/s, and he alone has stated that he has over 1Ghash/s."*) On September 23, ArtForz [declared](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0) to hold a hash rate of nearly 2 GH/s, still representing 20% of the hashing. On October 3, theymos [stated](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) that ArtForz "has 20 to 30% of the network's computing power." (*original: "he has 20-30% of the network's CPU power"*)
@@ -1112,7 +1137,7 @@ On November 23, a modified version of the `getwork` function was added to the [c
 
 On November 27, a young Czech developer named Marek Palatinus, using the pseudonym slush, [published](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) a description of "cooperative mining" on the forum, a model that exploits `getwork` and Jeff Garzik's logic. This model is based on the partial proofs of work produced by the miners (pay-per-share). The next day, Satoshi Nakamoto [approved] the concept (https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119).
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
 Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013
 
 The two estimation models were implemented in December. First, the puddinpop concept was applied on December 1st by the user doubled, who [invited](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) people to connect to his pooled mining server. The group formed [produced](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) its first block (95,420) on December 4th. After producing an additional block a few days later, doublec's server was [shut down](https://bluishcoder.co.nz/bitcoin-pool/) on the 15th. The service permanently closed its doors on the 17th, due to the emergence of a much more efficient cooperative: Bitcoin.cz Mining.
@@ -1123,7 +1148,7 @@ During the night of December 15th to 16th, the cooperative was finally [launched
 
 The cooperative would become a benchmark in Bitcoin mining. It [carried](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) several names over the years: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, and finally Slush Pool, about its creator. It became Braiins Pool in September 2022.
 
-![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
+![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
 Logo of Slush's cooperative in September 2011 (source: [archive](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) of the site)
 
 ### The Great Leap Forward in Mining
@@ -1133,6 +1158,8 @@ However, fall was not the only successful mining method. It was also a success f
 
 ## The Blossoming of the Ecosystem
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 In the previous chapter, we explored how mining developed during the second half of 2010. By fall, this advancement was well established. However, mining was not the only aspect of Bitcoin that found success: its ecosystem did.
 
@@ -1150,11 +1177,13 @@ It was with the French community that things changed, notably through the action
 
 A few days later, on the 30th, he published a [news release](https://linuxfr.org/news/connaissez-vous-les-bitcoins) in French on LinuxFr.org (DLFP). This release, titled "Do you know about bitcoins?", is probably the first presentation of Bitcoin written in the language of Molière. The article reached a large number of people, generating nearly 350 comments. Here is the first paragraph as it [appeared](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) at that time:
 
-![Do you know about bitcoins?](assets/en/52.webp)
+![Do you know about bitcoins?](assets/en/052.webp)
+
+> **Articles: Do you know bitcoins?** Bitcoin is an electronic currency designed in 2009 by a certain Satoshi Nakamoto. This currency differs from other electronic currencies by its fully decentralized peer-to-peer nature and its clever use of basic cryptographic concepts. It relies on software written in C++ and released under the free MIT license.
 
 In particular, this dispatch draws the attention of a certain Ploum, real name Lionel Dricot, a 29-year-old Belgian blogger and free software advocate. On October 25, he [published](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) an article on his blog, titled "Geek Currency, Monkey Money?", in which he advocates for decentralization and supports the principle of Bitcoin. Many French-speaking internet users heard about Bitcoin through this means, including [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), the developer who would go on to create Bitcoin Cash in 2017.
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
 Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections (source: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
 On the same day, Ploum opened the [discussion thread](https://bitcointalk.org/index.php?topic=1567.0) "French" on the Bitcoin forum. Messages from French-speaking forum members increased over the following months. Notably, David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), registered on October 17 and future founder of Bitcoin-Central, and Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), registered on November 7 and future owner of the Mt. Gox platform, participated. It also saw the involvement of a certain Jean-Luc who would open the site [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) on December 23 and begin to [promote](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) it in January. A [French sub-forum](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) would eventually be created by Martti Malmi on February 1, 2011.
@@ -1162,22 +1191,22 @@ On the same day, Ploum opened the [discussion thread](https://bitcointalk.org/in
 ### The Development of Communication
 In addition to the development of linguistic communities, there is a certain innovation in the methods used for communication about Bitcoin. On October 4th, a 38-year-old Australian using the pseudonym noagendamarket [launched](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) an initiative named BitcoinMedia. Promoting Bitcoin by creating content and advertising it in places likely to attract an audience is the idea. Although this initiative did not meet the expected success, it has the merit of leading to the production of the first videos talking about Bitcoin. The first video of the channel, [published](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) on October 5th, is a Google Search Story, created using the YouTube tool (see the screenshot below). The other videos will be generated with Xtranormal, an easy tool for creating video sequences from a set of pre-designed characters and settings.
 
-![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
+![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
 
 Blog posts about Bitcoin are proliferating during this period. This is notably the case for Jon Matonis, who runs the blog *The Monetary Future* where he discusses digital currencies, free banking, and cryptography. He discovered Bitcoin in March and [exchanged](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) with Satoshi, after which he started writing on the subject. In October, he publishes a [third article](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html) where he talks about the price increase and details the novelties of the ecosystem.
 
-![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
+![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
 Profile picture of Jon Matonis in 2011 (source: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 At this time, a new Bitcoin logo has also been proposed. On November 1st, a forum member using the pseudonym bitboy [published](https://bitcointalk.org/index.php?topic=1631.0) graphic elements to highlight the cryptocurrency. One of these elements is an orange logo with the B crossed out and slightly tilted:
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
 
 ### A Growing Economy
 This period is also marked by a remarkable growth of the ecosystem at the economic level. During the fall of 2010, platforms like Mt. Gox, Bitcoin Market, and others existed, but that was not enough. This is how over-the-counter exchanges start to multiply. Besides the exchanges done through private messages on the forum, a slightly more rigorous system is implemented: #bitcoin-otc. It is an IRC channel on Freenode [opened](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) by a user going by the name nanotube on October 18. The order book is hosted on the [associated website](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php) and exchanges take place directly between the parties, without an escrow deposit, through various payment methods (PayPal, Liberty Reserve). The number of services accepting bitcoin also increases, even if it remains relatively low, as [attested](https://web.archive.org/web/20101120224505/http://www.bitcoin.org/trade) by the listing page of the official site.
 All these elements lead to the price increasing drastically. While it has stabilized around 6¢ since August, it begins to rise at the beginning of October. It goes to 10¢, reaching 20¢ at the end of the month. On November 6, it surpasses 50¢, which does not fail to [excite](https://bitcointalk.org/index.php?topic=1681.0) the forum members.
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
 BTC Price between July 18 and October 18, 2010, on Mt. Gox (source: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
 The rise of Bitcoin means that things start to be measured, whether in terms of price, activity on the chain, or mining. Everyone knows the ecosystem is experiencing some growth, but no one knows how to estimate it correctly. That's why services emerged during the second half of the year 2010 and at the beginning of 2011, among which the main ones are:
@@ -1194,7 +1223,7 @@ One last element indicating Bitcoin's success is that some sought to test its li
 
 At the end of 2010, a significant event was the Electronic Frontier Foundation's acceptance of Bitcoin. This organisation is an international organization for protecting freedoms on the Internet, co-founded in 1900 by Mitch Kapor, John Gilmore, and John Perry Barlow. This was particularly important to the early adopters of Bitcoin, who were cypherpunks at heart. They were keen on accepting Bitcoin.
 
-![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
+![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
 
 It was the forum member named Kiba who took the initiative on August 13, 2010, by [proposing](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) to contact the EFF and suggest they accept a donation, [collected](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) from the community. For this purpose, he set up an [account](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) on MyBitcoin where he gathered the funds and wished to transfer access to the EFF. He drafted an email (corrected by the community) that he sent at the end of August.
 
@@ -1229,6 +1258,8 @@ During the fall of 2010, the ecosystem surrounding Bitcoin evolved significantly
 ## The Disappearance of Satoshi
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
+
 We saw how Bitcoin took flight following the publication of the text on Slashdot in July 2010. With various advancements in software, mining, and the economy in the fall, the project was finally on the right track. That's why this period coincided with Satoshi Nakamoto's gradual withdrawal.
 
 The departure of Bitcoin's creator was precipitated by two reasons: on one hand, a growing challenge to his status, calling for more decentralized and consensual management; on the other hand, his almost paranoid fear of state authorities. This latter motivation was notably expressed in December 2010 in the context of the financial blockade of WikiLeaks, which could no longer receive funds through traditional means and for whom Bitcoin provided a relevant alternative means. In this chapter, we will describe in detail the unfolding of this disappearance.
@@ -1251,13 +1282,13 @@ Gavin, who is close to Satoshi but also discusses with other developers, clearly
 
 The triggering event for Satoshi's departure is the WikiLeaks affair. WikiLeaks is a non-governmental organization founded by cypherpunk Julian Assange in 2006, aiming to give a voice to whistleblowers and information leaks while protecting their sources. During the year 2010, the confidential documents revealed by the NGO were relayed by major media and caused a stir in public opinion. These concerns, in particular, the excessive actions of the American military, such as civilian casualties and acts of torture committed, in Afghanistan (Afghan War Diary) and Iraq (Iraq War Logs).
 
-![WikiLeaks logo in November 2010](assets/en/59.webp)
+![WikiLeaks logo in November 2010](assets/en/059.webp)
 
 WikiLeaks' funding is primarily based on public donations, so the organization relies on payment processors to receive online payments. However, following these revelations, pressure is put on these intermediaries who fear the regulator's reaction. This is why the online payment company Moneybookers [freezes](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) the NGO's account on October 14.
 
 This situation opens a royal path for using Bitcoin, which does not rely on any trusted third party and would resist financial censorship much better. In November, Amir Taaki, a 22-year-old British-Iranian using the pseudonym genjix, opened the hypothesis on the forum.
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
 Amir Taaki in December 2012 in Bratislava (source: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
 Hacker, anarchist, and [poker player](https://bitcointalk.org/index.php?topic=1487.0), he recently learned about Satoshi Nakamoto's model. He sees in WikiLeaks' situation an opportunity to demonstrate the utility of Bitcoin. On November 10, he [writes](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) the following message on the forum:
@@ -1347,6 +1378,8 @@ This mysterious aspect surrounding the creator of Bitcoin was well summarized by
 ## The Community Taking Over
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
+
 After Satoshi Nakamoto's departure, it became necessary to proceed without him. Fortunately, Bitcoin was an open project to which anyone could contribute, so its founder's disappearance was not fatal. As developer Jeff Garzik wrote in July 2010 (regarding the possibility of the founder's absence):
 
 > "People worry an awful lot about rules and rule-making. But there is no driving need for any Continuity of Government plan, here. As long as the source code remains open, that is sufficient. If there is a need, and enough interest, the community will provide. Trust in the community."
@@ -1377,25 +1410,25 @@ But it's primarily the website management that Martti needs to delegate. At the 
 
 Its appearance also changed. In December 2010, the website still looked like it had during the Satoshi era. Here is a [snapshot](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/) from December 5:
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/61.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
 
 Thus, a touch of color was [added](https://web.archive.org/web/20110216125441/http://www.bitcoin.org/) in early 2011:
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/62.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
 
 In April, the website's layout changed due to a redesign [organized](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) by the community. Here is what it [looked like](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) then:
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/63.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
 
 Finally, in September 2011, a new change was [made](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) by Nils Schneider. A new GitHub repository was [created](https://github.com/bitcoin/bitcoin.org) for the occasion. This design would last longer: it would not be changed until 2013. Here it is (note that Bitcoin-the-software is then described as "a community-driven open source project"):
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/64.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
 
 Regarding the wiki, it was initially based on DokuWiki, a free engine integrated into the website. However, in December 2010, Mark Karpelès, a French developer living in Japan and using the pseudonym MagicalTux on the forum, created a new wiki at bitcoin.it. This wiki is based on the MediaWiki engine, which he finds more elegant and easier to use. The initial idea is not to replace the existing documentation, but, as Mark [expresses](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) on IRC, to develop "a less formal, more community-oriented wiki."
 
 This new wiki appeals to [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) and [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), so they quickly consider making it the main wiki. Here is a [snapshot](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page) taken on May 21:
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/65.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
 
 A few days after the launch, the link titled "wiki" on the Bitcoin.org homepage [points](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) to bitcoin.it. The content is gradually transferred from the DokuWiki version. On January 31, Martti [indicates](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) on the forum that this is the new wiki.
 
@@ -1413,12 +1446,12 @@ February also marks the [first filmed presentation](https://www.youtube.com/watc
 
 Even though the first events occurred in the United States, the French community was not left behind. On May 25, to mark Gavin Andresen's visit to Paris, a lunch was organized in the La Défense district, attended by notable figures such as Lucien Grondin, David François, and Jon Matonis (who was also visiting).
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/66.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
 Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt (source: [forum archive](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 A month later, on June 15, the first public presentation of Bitcoin in French [took place](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), again in Paris. It was conducted by Renaud Lifchitz (nono2357), a young cybersecurity expert who had discovered Bitcoin a year earlier. The [presented content](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) was of very high quality, and the audience turnout was so good that the room was packed.
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/67.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
 Bitcoin presentation by Renaud Lifchitz on June 15, 2011 (source: [forum archive](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
 Following this experience, the Parisian community [organized](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) a social gathering on July 11. This event brought together individuals like Pierre Noizat and Émilien Dutang.
@@ -1438,7 +1471,7 @@ Firstly, videos on the subject began to proliferate on YouTube. On March 22, the
 
 In April, the topic of digital currency was covered by major mainstream press outlets such as [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), and [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). In May, the movement gained momentum, and Bitcoin was mentioned almost everywhere, notably in [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), on [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), on [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), and [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 
-![Gavin Andresen in Forbes in April 2011](assets/en/68.webp)
+![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
 Gavin Andresen in Forbes in April 2011 (source: [Forbes archive](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
 Radio was also used to discuss cryptocurrency. An episode of a Canadian CBC Radio show was [dedicated](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) to the topic of currency and Bitcoin on February 27. Bitcoin was also mentioned in several episodes of FreeTalkLive, a libertarian-oriented show in the United States. In particular, the topic was [discussed](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) more extensively on March 16, 2011, especially in the context of the rise of Silk Road. Finally, on May 24, Bitcoin was the subject of a [short segment](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) on National Public Radio in the United States.
@@ -1449,12 +1482,12 @@ Individual bloggers are also interested. This is the case for Rick Falkvinge, th
 
 The popularization of Bitcoin means that its price increases significantly. While it had dropped to 20 cents in December 2010, it reached parity with the dollar on February 9, 2011. At that time, Hal Finney [stated](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) that community members are "really lucky to be at the beginning of a possibly explosive new phenomenon." He had a good instinct, as what happens next is lightning-fast.
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
 Photograph published by jimbobway on the forum the day of parity with the dollar (source: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 Indeed, the media frenzy of spring gradually creates an unprecedented speculative phenomenon. After stagnating at around $1 for several months, the price went up and reached $3 at the end of April. In May, it is at $8. Finally, on June 8, the price of bitcoin reached a historic high of $32 on Mt. Gox! This increase corresponds to a 160-fold increase in six months.
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
 Average price of BTC between January 1 and June 30, 2011 (source: [Bitbo.io](https://calendar.bitbo.io/price/))
 
 Naturally, this speculative movement is reminiscent of a financial bubble, an overvaluation of a financial product compared to its fundamental value. In the case of a currency like Bitcoin, it's about a fleeting enthusiasm that results in a dizzying rise in price, followed by a sharp decline caused by the lack of conviction of new participants. This is how the price evolution is [described](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) as a "bubble" by a Reuters columnist on May 27, in one of the first "obituaries" of Bitcoin.

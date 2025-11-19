@@ -1,0 +1,9 @@
+question: Quel moteur de rendu est aujourd’hui le plus répandu et équipe la majorité des navigateurs modernes ?
+answer: Blink
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, développé à partir d’un fork de WebKit par Google, est aujourd’hui le moteur de rendu dominant, équipant Chrome, Edge, Opera, Brave, Vivaldi, etc.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proyek manakah yang meletakkan dasar-dasar Internet modern di akhir tahun 1960-an?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET adalah jaringan interkoneksi pertama, yang dirancang untuk menghubungkan beberapa pusat penelitian, dan merupakan pendahulu langsung dari Internet.
+reviewed: false

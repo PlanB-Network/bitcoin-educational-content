@@ -1,0 +1,9 @@
+question: Jaký správce balíčků používají Debian a Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian a Ubuntu používají ke správě instalace a aktualizace softwaru správce balíčků APT založený na formátu .deb.
+reviewed: false

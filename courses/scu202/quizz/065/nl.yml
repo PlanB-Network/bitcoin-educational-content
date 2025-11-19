@@ -1,0 +1,9 @@
+question: Welke bewering beschrijft het best de privénavigatiemodus?
+answer: Het beperkt de opname van lokale sporen
+wrong_answers:
+  - Het maakt surfen op internet anoniem
+  - Blokkeert alle schadelijke trackers en scripts
+  - Het verwijdert actieve extensies
+explanation: |
+  De privémodus voorkomt alleen het lokaal loggen van geschiedenis en cookies, maar garandeert geen anonimiteit op het internet.
+reviewed: false

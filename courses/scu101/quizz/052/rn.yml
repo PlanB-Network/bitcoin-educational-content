@@ -1,0 +1,12 @@
+question: Ni kuki ibimenyetso vy’ibikoresho, nk’imfunguruzo za USB canke amakarata y’ubwenge, bibonwa ko ari vyo bitanga umutekano mwiza kuri 2FA?
+answer: Ba generate urufunguzo rwihariye rw’urubuga rwose maze bagasuzuma URL imbere yo kwemera guhuza.
+wrong_answers:
+  - Biragoye cane kwiba ku mubiri, ariko iyo abasuma bashoboye, bazokura amabanga muri ico gikoresho bitagoranye.
+  - Ba generate ijambobanga rimwe gusa ku rubuga rwose kandi bagasuzuma URL imbere yo kwemera guhuza.
+  - Ni ubuhinga bushasha kandi burazimvye, rero bitegerezwa kuba vyiza kuruta.
+explanation: |
+  Ivyerekana ibikoresho bitanga umutekano mwiza kubera ko
+  generate urufunguzo rwihariye rw’urubuga rwose maze ugenzure
+  URL imbere yo kwemera ihuriro. Ivyo bituma biba vyinshi .
+  biragoye cane ko umunyaruyeri ashobora kuronka uburenganzira ata wemerewe.
+reviewed: true

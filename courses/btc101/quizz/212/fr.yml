@@ -1,12 +1,10 @@
-question: Comment ce cours décrit-il Bitcoin ?
-answer: Un sujet multidisciplinaire.
+question: Que suggère ce cours sur l'avenir du Bitcoin ?
+answer: Il ne va pas disparaître.
 wrong_answers:
-  - Un sujet simple.
-  - Un sujet physique.
-  - Un sujet mono-disciplinaire.
+  - Il sera remplacé par une meilleure technologie.
+  - Il sera interdit dans le monde entier.
+  - Il perdra sa valeur.
 explanation: |
-  Bitcoin est décrit comme un sujet multidisciplinaire car
-  il soulève des questions liées à divers domaines, incluant
-  la cryptographie, la théorie des jeux, l'économie et la politique monétaire,
-  l'informatique, la philosophie, l'énergie, les lois et la régulation.
+  Selon ce cours, le Bitcoin ne va pas disparaître. 
+  Au contraire, la révolution ne fait que commencer.
 reviewed: true

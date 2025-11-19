@@ -1,0 +1,9 @@
+question: Vad gör låsningsskriptet i en Bitcoin-transaktion?
+answer: Det ställer särskilda villkor för att använda de tillhörande medlen
+wrong_answers:
+  - Den skickar automatiskt pengarna till flera adresser
+  - Den bestämmer värdet på den UTXO som ska skapas
+  - Det låser tillfälligt fonderna för att förhindra överdrivna utgifter
+explanation: |
+  Låsningsskriptet ställer villkor, t.ex. att man måste signera med en privat nyckel, för att låsa upp och använda pengarna i en transaktion.
+reviewed: false

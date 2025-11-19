@@ -1,0 +1,9 @@
+question: Mikä on suositeltava varmuuskopiointisääntö, jolla varmistetaan tietojen kestävyys katastrofin sattuessa?
+answer: Kolme kopiota kahdella eri tallennusvälineellä, joista yksi muualla kuin toimipaikassa
+wrong_answers:
+  - 10 kappaletta, 5 eri välineellä, joista 3 muualla kuin toimipaikassa
+  - 2 kappaletta, 2 eri välineellä, joista 2 muualla kuin toimipaikassa
+  - 4 kappaletta, 4 eri välineellä, joista 2 muualla kuin toimipaikassa
+explanation: |
+  3-2-1-sääntö tarkoittaa, että tietojen katoamisen, varkauden tai turmeltumisen varalta säilytetään kolme kopiota tiedoista vähintään kahdella eri tietovälineellä, joista yksi sijaitsee muualla kuin toimipaikassa.
+reviewed: false

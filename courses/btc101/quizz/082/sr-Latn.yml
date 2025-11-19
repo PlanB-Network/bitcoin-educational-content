@@ -1,9 +1,11 @@
-question: Koja je tehnologija koja se koristi za sigurno trošenje sredstava koristeći Bitkoin novčanik?
-answer: Kriptografija eliptičkih krivih.
+question: Koji je rizik prekomernog komplikovanja sigurnosti i pristupačnosti vaših bitkoina?
+answer: Možete se povrediti ako nepravilno rukujete rezervnim novčanicima.
 wrong_answers:
-  - Simetrična kriptografija.
-  - Kvantna kriptografija.
-  - RSA kriptografija.
+  - Možete se povrediti ako nepažljivo rukujete fizičkim novčanicima.
+  - Možete se povrediti ako nepravilno rukujete digitalnim novčanicima.
+  - Možete se povrediti ako nepažljivo rukujete Multisig novčanicima.
 explanation: |
-  Trošenje Bitkoina zahteva od vlasnika da koristi Elliptic Curve Digital Signature Algorithm (ECDSA) kako bi stvorio potpis za propagaciju Bitkoin transakcije.
+  Prekomplikovanje sigurnosti i pristupačnosti vaših
+  bitkoina može vam naškoditi ako, na primer, pogrešno
+  rukujete rezervnim kopijama vaših novčanika. Ovo je zato što su jednostavne procedure pravljenja rezervnih kopija ključne za ponovno dobijanje pristupa vašim sredstvima u slučaju gubitka vašeg telefona ili računara.
 reviewed: true

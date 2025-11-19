@@ -1,0 +1,9 @@
+question: Bir fotoğrafın EXIF meta verilerinde tipik olarak hangi bilgiler bulunabilir?
+answer: Tarih, saat, GPS konumu, cihaz modeli, yazar
+wrong_answers:
+  - Kamera ürün yazılımı kaynak kodu
+  - Fotoğrafçının Wi-Fi şifresi
+  - En son antivirüs sonuçları
+explanation: |
+  Bir fotoğrafın EXIF meta verileri genellikle çekim ve kamera hakkında ayrıntılı bağlamsal bilgiler içerir.
+reviewed: false

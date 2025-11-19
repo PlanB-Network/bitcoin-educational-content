@@ -1,9 +1,9 @@
-question: 最初にリリースされたBitcoinソフトウェアのバージョンは何ですか？
-answer: Bitcoin-0.1.0.
+question: BitcoinネットワークにおけるBitcoinノードの役割は何ですか？
+answer: 新しいブロックとその中のトランザクションを検証します。
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  最初にリリースされたBitcoinソフトウェアはBitcoin-0.1.0でした。これは2009年1月8日にサトシ・ナカモトによって発表されました。
-  レビュー済み: true
+  - 新しいBitcoinを作成し、それらをブロックに入れます。
+  - Bitcoinの価格を調整します。
+  - Bitcoinネットワークを管理します。
+explanation: |
+  BitcoinネットワークにおけるBitcoinノードは、新しいブロックとその中のトランザクションの検証を扱います。このBitcoinノードのネットワークがあることで、真に分散化されたものとなっています。
+reviewed: true

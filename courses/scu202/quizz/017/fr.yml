@@ -1,0 +1,9 @@
+question: Quelle distribution est considérée comme la plus ancienne encore maintenue ?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, créée en 1993 par Patrick Volkerding, est la plus ancienne distribution Linux toujours active aujourd’hui.
+reviewed: false

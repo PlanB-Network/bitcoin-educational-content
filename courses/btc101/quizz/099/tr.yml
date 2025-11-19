@@ -1,0 +1,11 @@
+question: Bitcoin'lerinizi Exchange platformlarında bırakmaktan kaçınmanız neden tavsiye edilir?
+answer: Hacker saldırılarına karşı hassas olabilirler.
+wrong_answers:
+  - Exchange platformları rastgele ücretler almaktadır.
+  - Bitcoin, Exchange platformlarında değer kaybeder.
+  - Exchange platformları düzenlenmiş bir kurum değildir.
+explanation: |
+  Bitcoin'lerinizi Exchange üzerinde bırakmaktan kaçınmanız tavsiye edilir
+  platformlar çünkü bilgisayar korsanlarına karşı hassas olabilirler
+  saldırılar.
+reviewed: true

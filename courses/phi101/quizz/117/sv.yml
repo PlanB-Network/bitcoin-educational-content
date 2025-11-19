@@ -1,0 +1,9 @@
+question: Vad är enligt Keynes det största problemet med guldmyntfoten?
+answer: Det begränsar statens förmåga att finansiera sina utgifter
+wrong_answers:
+  - Det främjar inflation
+  - Det hindrar internationell handel
+  - Alla de andra svaren är korrekta.
+explanation: |
+  Keynes menade att guldmyntfoten begränsade regeringarnas möjligheter att justera penningmängden Supply, vilket hindrade dem från att enkelt finansiera sina utgifter, särskilt under ekonomiska kriser.
+reviewed: true

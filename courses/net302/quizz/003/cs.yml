@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda sběrnicové topologie?
+answer: Nízké náklady na instalaci
+wrong_answers:
+  - Vysoká redundance
+  - Nízká latence
+  - Vysoká dostupnost
+explanation: |
+  Sběrnice se spoléhá na jediné fyzické médium, což snižuje náklady na instalaci, ale také přináší jediný bod selhání.
+reviewed: false

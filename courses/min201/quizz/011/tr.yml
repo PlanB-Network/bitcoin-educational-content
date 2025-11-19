@@ -1,0 +1,12 @@
+question: Bitcoin'da Mining merkezileşmesiyle mücadele etmek için tartışılan bazı stratejiler nelerdir?
+answer: Bitcoin'deki Mining merkezileşmesiyle mücadele etmek için tartışılan stratejiler arasında Home Mining, Stratum V2 protokolü, açık kaynaklı Mining yazılımı ve aktörlerin ve coğrafyanın çeşitlendirilmesi yer almaktadır.
+wrong_answers:
+  - Bitcoin'te Mining merkezileşmesiyle mücadele etmek için tartışılan stratejiler arasında blok boyutunun artırılması, hisse kanıtı uygulanması ve Mining'i denetleyecek merkezi bir otorite oluşturulması yer almaktadır.
+  - Mining'in Bitcoin'deki merkezileşmesiyle mücadele etmek için tartışılan stratejiler arasında Block reward'nın azaltılması, bir işlem ücreti uygulanması ve bir Mining vergisi oluşturulması yer almaktadır.
+  - Bitcoin'daki Mining merkezileşmesiyle mücadele etmek için tartışılan stratejiler arasında Mining'un zorluğunun artırılması, bir Mining üst sınırı uygulanması ve bir Mining piyangosu oluşturulması yer almaktadır.
+explanation: |
+  Bu bölümde Mining ile mücadele için çeşitli stratejiler tartışılmaktadır
+  ev Mining de dahil olmak üzere Bitcoin'de merkezileştirme
+  Stratum V2 protokolü, açık kaynaklı Mining yazılımı ve
+  aktörlerin ve coğrafyanın çeşitlendirilmesi.
+reviewed: true

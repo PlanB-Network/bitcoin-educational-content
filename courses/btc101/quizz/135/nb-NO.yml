@@ -1,11 +1,10 @@
-question: Hva er betydningen av vanskelighetsjusteringen i Bitcoin-nettverket?
-answer: Den sikrer at en blokk blir lagt til omtrent hvert tiende minutt.
+question: Hva er en beskåret node i konteksten av Bitcoin?
+answer: En node som kun beholder de siste N blokkene i minnet
 wrong_answers:
-  - Den bestemmer prisen på Bitcoin.
-  - Den regulerer antallet Bitcoins som kan utvinnes.
-  - Den bestemmer størrelsen på en blokk.
+  - En node som kun validerer transaksjoner
+  - En node som kun overfører informasjon til andre noder
+  - En node som kun håndhever reglene til Bitcoin-protokollen
 explanation: >-
-  Vanskelighetsjusteringen i Bitcoin-nettverket sikrer at en blokk
-  blir lagt til omtrent hvert tiende minutt. Dette er en del av protokollreglene
-  i Bitcoin-nettverket.
+  En beskåret node i konteksten av Bitcoin er en node som kun beholder
+  de siste N blokkene i minnet.
 reviewed: false

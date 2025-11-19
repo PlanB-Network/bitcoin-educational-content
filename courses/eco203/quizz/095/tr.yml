@@ -1,0 +1,9 @@
+question: Bastiat'ya göre hukukun doğal antropolojik temelleri nelerdir?
+answer: Yaşam, özgürlük ve mülkiyet.
+wrong_answers:
+  - Güç, eşitsizlik ve tahakküm.
+  - Özgürlük, eşitlik ve kardeşlik.
+  - Adalet, otorite ve kardeşlik.
+explanation: |
+  Bastiat, hukukun doğal temellerini yaşam, özgürlük ve mülkiyet olarak tanımlar; bu üç temel insani yasalardan önce vardır ve doğal hakların temelini oluşturur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni igiki KITASHIMISHIJWE igihe utanga uburenganzira bwo gushika ku bitcoins zawe?
+answer: Guha umuntu umwe ijambo Mnemonic
+wrong_answers:
+  - Gusangira amakuru hagati y'abantu benshi
+  - Gukoresha amabaruwa apfutse
+  - Kwandika ikete ry'insobanuro
+explanation: |
+  Kwizigira umuntu umwe gusa ijambo Mnemonic ata mutekano wongereweko, birongereza cane ingorane zo kwibwa mu buzima bwawe bwose.
+reviewed: false

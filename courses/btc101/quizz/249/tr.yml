@@ -1,0 +1,8 @@
+question: Bitcoin'ın bankacılık sistemi üzerindeki temel sonuçlarından biri nedir?
+answer: Bankacılık sisteminden özgürleşmeyi sağlar.
+wrong_answers:
+  - Bankacılık sisteminin kontrol edilmesini sağlar.
+  - Bankacılık sisteminin ortadan kaldırılmasını sağlar.
+  - Bankacılık sisteminin yozlaşmasına izin verir.
+explanation: >-
+reviewed: true

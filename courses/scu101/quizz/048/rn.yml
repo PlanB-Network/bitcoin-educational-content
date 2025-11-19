@@ -1,0 +1,9 @@
+question: Muri ibi bikurikira ni ubuhe buryo bwiza kandi butekanye mu kwemeza 2FA?
+answer: Kode yashizweho na porogaramu nka Google Ivyemezo canke Authy.
+wrong_answers:
+  - Guhamagara kuri telefone canke kode ya SMS ku nyiri konti
+  - Imeyili ifise kode y'iminota 10 imbere muri yo igenewe uwufise konti
+  - Ikete ryoherejwe ku nzu y’uwufise konti Address.
+explanation: |
+  Intambwe ya kabiri muri 2FA ishobora kuba kode y’igihe gito yoherezwa biciye kuri SMS, email, kode ivugwa n’ikoreshwa, canke urufunguzo rw’umutekano rw’umubiri. Ariko rero, ubwo buryo bwose ntibutuma tuguma dufise umutekano umwe.
+reviewed: true

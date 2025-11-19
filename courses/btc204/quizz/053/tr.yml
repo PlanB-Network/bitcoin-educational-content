@@ -1,0 +1,10 @@
+question: Sessiz Ödemelerdeki Etiketlerin amacı nedir?
+answer: Tarama iş yükünü makul olmayan bir şekilde artırmadan birden fazla farklı statik adres kullanmak için.
+wrong_answers:
+  - İşlemin gerçek alıcısını gizlemek için Sessiz Ödemeler işlemlerini şifrelemek.
+  - Harici bir gözlemci tarafından bağlanamayan birden fazla farklı statik adres kullanmak için.
+  - Sessiz Ödemeleri bir ödeme referansı şeklinde tanımlamak için Blockchain üzerine görünür bir etiket yerleştirmek.
+explanation: |
+  Etiketler, Wallet organizasyonunu kolaylaştıran ana statik Address'den generate çoklu statik adresler için kullanılır. Ancak, tarama genel anahtarı hepsi için aynı olduğundan, harici bir gözlemci bu etiketli statik adresler arasında kolayca bir bağlantı kurabilir.
+  
+reviewed: false

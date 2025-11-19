@@ -1,0 +1,9 @@
+question: Vilket tillägg sommaren 2010 möjliggjorde därefter Soft-gafflar i Bitcoin?
+answer: Operationskoderna OP_NOP
+wrong_answers:
+  - Varningssystemet
+  - Gränsen för blockstorlek
+  - Standardformat för transaktioner
+explanation: |
+  Det här var no-op-instruktioner som inte ogiltigförklarade skriptet om de utfördes. De gjorde det möjligt att lägga till OP_CHECKLOCKTIMEVERIFY och OP_CHECKSEQUENCEVERIFY i protokollet 2015/2016.
+reviewed: true

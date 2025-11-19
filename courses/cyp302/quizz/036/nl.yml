@@ -1,0 +1,9 @@
+question: Wat betekent het als twee getallen coprime zijn?
+answer: Hun grootste gemene deler is gelijk aan 1
+wrong_answers:
+  - Hun som is een even getal
+  - Ze zijn zelfs allebei
+  - Ze hebben geen andere gemene delers dan 1 en zichzelf
+explanation: |
+  Twee getallen zijn coprime als hun grootste gemene deler 1 is, wat betekent dat ze geen priemfactoren delen, een belangrijke eigenschap in cryptografie.
+reviewed: false

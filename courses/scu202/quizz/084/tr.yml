@@ -1,0 +1,9 @@
+question: Anonimlik söz konusu olduğunda Signal'in ana kusuru nedir?
+answer: Bir telefon numarası kullanılmasını gerektirir
+wrong_answers:
+  - Açık kaynak değil
+  - Mesajları merkezi bir sunucuda depolar
+  - Değiş tokuş edilen dosyaları şifrelemez
+explanation: |
+  Signal'e kaydolmak için bir telefon numarası gerekiyor, bu da protokol güçlü bir şifreleme sağlasa da potansiyel izlenebilirliği beraberinde getiriyor.
+reviewed: false

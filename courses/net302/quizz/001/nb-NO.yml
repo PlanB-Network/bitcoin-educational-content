@@ -1,0 +1,9 @@
+question: Hvilken topologi kobler alt utstyret til ett enkelt sentralt punkt?
+answer: Stjerne
+wrong_answers:
+  - Ring
+  - Buss
+  - Mesh
+explanation: |
+  I en stjernetopologi er hver enhet koblet til en sentral enhet, noe som forenkler administrasjon og vedlikehold.
+reviewed: false

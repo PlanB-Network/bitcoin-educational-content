@@ -1,0 +1,9 @@
+question: Dự án nào được khởi xướng vào năm 1983 nhằm tạo ra một hệ điều hành hoàn toàn miễn phí?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - Dự án Hệ thống X Window
+  - Sáng kiến nguồn mở
+explanation: |
+  Richard Stallman đã khởi động dự án GNU vào năm 1983 để phát triển một hệ điều hành hoàn toàn miễn phí.
+reviewed: false

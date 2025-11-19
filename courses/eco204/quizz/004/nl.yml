@@ -1,0 +1,10 @@
+question: Wat is de definitie van inflatie volgens Larousse?
+answer: Inflatie is een fenomeen dat gekenmerkt wordt door een algemene en voortdurende stijging van het prijsniveau.
+wrong_answers:
+  - Inflatie is een fenomeen dat gekenmerkt wordt door een algemene en voortdurende daling van het prijsniveau.
+  - Inflatie is een fenomeen dat gekenmerkt wordt door een specifieke en voortdurende stijging van het prijsniveau.
+  - Inflatie is een fenomeen dat gekenmerkt wordt door een algemene en intermitterende stijging van het prijsniveau.
+explanation: |
+  Volgens Larousse wordt inflatie gedefinieerd als een fenomeen dat gekenmerkt wordt
+  een algemene en voortdurende stijging van het prijsniveau.
+reviewed: false

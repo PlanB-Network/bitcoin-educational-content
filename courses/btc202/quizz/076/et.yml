@@ -1,0 +1,9 @@
+question: Milline on Mempool vaikimisi suuruspiirang Bitcoin core-s?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Vaikimisi piirab Bitcoin core Mempool 300 MB. Kui see ületab seda, heidab ta vähem tulusad tehingud välja.
+reviewed: true

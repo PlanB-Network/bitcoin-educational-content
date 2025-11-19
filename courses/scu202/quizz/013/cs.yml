@@ -1,0 +1,9 @@
+question: Jaký projekt byl zahájen v roce 1983 s cílem vytvořit zcela svobodný operační systém?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - Projekt systému X Window
+  - Iniciativa Open Source
+explanation: |
+  Richard Stallman zahájil projekt GNU v roce 1983 s cílem vyvinout zcela svobodný operační systém.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir para birimi ağı olarak Bitcoin'ın tanımlayıcı özelliği nedir?
+answer: Nakit gibidir ve işlemler için merkezi bir otorite veya aracı gerektirmez.
+wrong_answers:
+  - Sadece bir devlet kurumu tarafından yetkilendirildiğinde çalışabilir.
+  - Herhangi bir kullanıcının talebi üzerine yeni para birimleri çıkarır.
+  - Bankaların her işlemi doğrulaması ve sonuçlandırması gerekiyor.
+explanation: |
+  Bitcoin merkezi olmayan bir ağ olarak çalışır ve herkesin izinsiz olarak katılmasına izin verir. İşlemler merkezi bir otorite tarafından değil, düğümler ve madenciler tarafından doğrulanır.
+reviewed: false

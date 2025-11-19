@@ -1,0 +1,10 @@
+question: Wat is een Bitcoin die Address ontvangt?
+answer: Een tekenreeks die wordt gebruikt om bitcoins te ontvangen.
+wrong_answers:
+  - Een code die wordt gebruikt om bitcoins te versturen.
+  - Een algoritme voor Mining bitcoins.
+  - A Smart contract.
+explanation: |
+  Een ontvangende Address wordt gebruikt om bitcoins te ontvangen in een Wallet.
+  
+reviewed: false

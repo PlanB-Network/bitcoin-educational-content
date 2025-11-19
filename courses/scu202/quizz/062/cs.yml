@@ -1,0 +1,9 @@
+question: Který prohlížeč zaručuje anonymitu přesměrováním provozu přes decentralizovanou síť s vysokou latencí?
+answer: Prohlížeč Tor
+wrong_answers:
+  - Prohlížeč Mullvad
+  - Lynx
+  - LibreWolf
+explanation: |
+  Prohlížeč Tor Browser se při anonymním prohlížení spoléhá na síť Tor, ovšem za cenu výrazného poklesu výkonu.
+reviewed: false

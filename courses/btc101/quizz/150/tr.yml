@@ -1,0 +1,14 @@
+question: Bizanslı Generallerin Sorunu Nedir?
+answer: Bu, çeşitli aktörlere güvenilemeyen bir sistemde bilgiyi koordine etme sorunudur.
+wrong_answers:
+  - Bu, merkezi olmayan bir ağdaki işlemleri doğrulama sorunudur.
+  - Bu, dijital bir para biriminde çifte harcamayı önleme sorunudur.
+  - Bu, merkezi bir ağda fikir birliğini sürdürme sorunudur.
+explanation: |
+  Bizans Generalleri Problemi klasik bir problemdir
+  fikir birliğine varmayı içeren dağıtık bilgi işlem
+  bazı düğümlerin hatalı olabileceği bir ağda veya
+  kötü niyetli. Bitcoin bu problemi, bir "Bitcoin" kullanarak çözmektedir
+  Blockchain, Proof of Work'ı temel alır ve bu da tüm
+  düğümler işlem geçmişinin durumu konusunda hemfikirdir.
+reviewed: true

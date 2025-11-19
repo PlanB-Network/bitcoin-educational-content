@@ -1,0 +1,9 @@
+question: 远程访问家庭网络的最佳方式是什么？
+answer: 使用个人 VPN
+wrong_answers:
+  - 打开公共 SSH 端口
+  - 激活路由器云
+  - 使用 WPS
+explanation: |
+  VPN 可创建一个加密隧道来访问本地网络，而不会将关键端口暴露在互联网上。
+reviewed: false

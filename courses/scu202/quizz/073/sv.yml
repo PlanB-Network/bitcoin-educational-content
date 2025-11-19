@@ -1,0 +1,9 @@
+question: Vilken Android-komponent är fortfarande helt öppen källkod och kan granskas av communityn?
+answer: AOSP
+wrong_answers:
+  - Googles mobila tjänster
+  - Play Butik
+  - IOSP
+explanation: |
+  Endast Androids AOSP-bas är gratis. De allmänt använda Google Mobile Services är proprietära och okontrollerbara.
+reviewed: false

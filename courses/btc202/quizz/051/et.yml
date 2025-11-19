@@ -1,0 +1,9 @@
+question: Millal peab kasutaja paigaldama indekseerija?
+answer: Block explorer käivitamine
+wrong_answers:
+  - Mining plokkide puhul ise
+  - Lightning Network aktiveerimiseks
+  - Tehingute allkirjastamiseks
+explanation: |
+  Indekseerija muutub hädavajalikuks edasijõudnute jaoks, näiteks kohaliku ekspluateerija jaoks.
+reviewed: true

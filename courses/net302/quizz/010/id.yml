@@ -1,0 +1,9 @@
+question: Protokol modern mana yang menyediakan fungsionalitas yang mirip dengan tujuan IPv5 dalam manajemen kualitas layanan jaringan?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol) memungkinkan reservasi dinamis sumber daya jaringan untuk menjamin Kualitas Layanan (QoS), yang merupakan tujuan awal IPv5.
+reviewed: false

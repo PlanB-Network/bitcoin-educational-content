@@ -1,0 +1,9 @@
+question: Hvilket universitetsoperativsystem bidro til spredningen av TCP/IP-protokoller i den akademiske verden?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, som ble utviklet ved Berkeley University, var et av de første systemene som integrerte TCP/IP-protokoller og bidro til å spre dem i den akademiske verden.
+reviewed: false

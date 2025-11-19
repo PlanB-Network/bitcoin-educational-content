@@ -1,0 +1,9 @@
+question: Co należy dodać do NAT, aby prawidłowo zabezpieczyć sieć?
+answer: Zapora sieciowa
+wrong_answers:
+  - Lokalny serwer DNS
+  - Serwer proxy HTTP
+  - Program antywirusowy
+explanation: |
+  Sam NAT nie jest wystarczający do filtrowania złośliwego ruchu: musi być uzupełniony regułami zapory sieciowej w celu precyzyjnej kontroli ruchu.
+reviewed: false

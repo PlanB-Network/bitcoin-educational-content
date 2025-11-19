@@ -1,10 +1,8 @@
-question: Berapa waktu rata-rata antara pembuatan dua blok dalam protokol Bitcoin?
-answer: 10 menit
+question: Apa keuntungan utama dari mesin SHA256 khusus, atau ASICS, dalam penambangan Bitcoin?
+answer: Mereka meningkatkan laju hash per joule
 wrong_answers:
-  - 5 menit
-  - 15 menit
-  - 20 menit
+  - Mereka mengurangi konsumsi energi
+  - Mereka meningkatkan kecepatan transaksi
+  - Mereka meningkatkan keamanan jaringan
 explanation: >-
-  Rata-rata, sebuah blok dibuat setiap 10 menit dalam protokol Bitcoin.
-  Waktu ini tetap konstan tanpa memandang jumlah penambang dan kekuatan komputasi mereka.
-reviewed: false
+  Mesin SHA256 khusus, atau ASICS, meningkatkan laju hash per joule dalam penambangan Bitcoin. Ini berarti jumlah percobaan per detik dan per energi yang dikonsumsi.

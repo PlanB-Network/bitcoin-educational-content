@@ -1,10 +1,10 @@
-question: Wie niedrig sind die Gebühren für Transaktionen im Lightning-Netzwerk, oft weniger als...?
-answer: 0,5%.
+question: Was ist die Einheit von Bitcoin, die im Lightning-Netzwerk verwendet wird?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Die Gebühren für Transaktionen im Lightning-Netzwerk sind extrem niedrig, oft
-  weniger als 0,5%.
+  - Block.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Das Lightning-Netzwerk verwendet Satoshis (auch Sats genannt), die
+  Dezimale von Bitcoin, um zu funktionieren.
 reviewed: true

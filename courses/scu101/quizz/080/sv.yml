@@ -1,0 +1,9 @@
+question: Varför är det bra att skapa två separata e-postadresser?
+answer: Att skilja allmän kommunikation från kontoåterställning.
+wrong_answers:
+  - Att skilja på professionell och personlig kommunikation.
+  - För att skapa flera konton och öka synligheten online.
+  - För att ta emot mer skräppost.
+explanation: |
+  Genom att separera e-postadresser kan du begränsa riskerna och bättre skydda åtkomsten till viktiga konton.
+reviewed: true

@@ -8,4 +8,4 @@ Märgitakse, et enamik sõlmi jätab vaikimisi konfiguratsioonid, nagu need on k
 
 Näiteks tehing, mis ei eralda mingeid tasusid, on konsensusreeglite kohaselt kehtiv ja mittestandardne, sest Bitcoin Core'i vaikimisi poliitika parameetri `minRelayTxFee` jaoks on `0.00001` (BTC/kB).
 
-> ► * Mõnikord kasutatakse standardimisreeglite kohta ka terminit "mempoolreeglid"
+> ► *Mõnikord kasutatakse standardimisreeglite kohta ka terminit "mempoolreeglid"*

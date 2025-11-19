@@ -1,0 +1,9 @@
+question: Lightning Network'daki bir satıcı ödemeleri kabul etmek için öncelikle ne tür bir likiditeyi yönetmelidir?
+answer: Gelen likidite
+wrong_answers:
+  - Giden likidite
+  - Yüksek toplam kanal kapasitesi
+  - Yüksek bir On-Chain dengesi
+explanation: |
+  Bir satıcının ödeme alabilmesi için gelen likiditeye sahip olması gerekir, yani ödemeleri kabul edebilmesi için kanalın karşı tarafında fonların mevcut olması gerekir.
+reviewed: false

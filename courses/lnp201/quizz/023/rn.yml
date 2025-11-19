@@ -1,0 +1,9 @@
+question: Ni kuki Alice na Bob Exchange bakora amabanga yabo ku bikorwa vya Commitment vya kera?
+answer: Kugira ngo umwe wese ashobore kwikingira iyo uwundi asohoye igikorwa ca kera .
+wrong_answers:
+  - Kugira ngo wongere ubushobozi bw'umurongo
+  - Kugira ngo umwe wese abuze uwundi kuronka ayo mahera
+  - Kugira ngo ayo mahera agabanywe kimwe .
+explanation: |
+  Guhana amabanga y’ibintu vya kera bituma umwe wese muri bo ashobora guhana uwundi mu gihe yogerageza guhenda mu gutangaza ibintu vya kera.
+reviewed: false

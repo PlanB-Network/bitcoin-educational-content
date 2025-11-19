@@ -1,0 +1,10 @@
+question: Muhtemel anons ne anlama geliyor?
+answer: Döngülerin çıkışındaki ayırt edilemeyen UTXO'lar grubunun boyutu.
+wrong_answers:
+  - Döngülerin girişindeki ayırt edilemeyen UTXO'lar grubunun boyutu.
+  - Bir havuzdaki ayırt edilemeyen UTXO'lar grubunun büyüklüğü.
+  - Anonimliğe ulaşmak için gereken işlem sayısı.
+explanation: |
+  İleriye dönük anonset, girişteki UTXO'ı bilerek, incelenen UTXO'ın bir döngünün çıkışında saklandığı grubun boyutunu, yani bu grup içinde bulunan ayırt edilemeyen madeni paraların sayısını gösterir.
+  
+reviewed: false

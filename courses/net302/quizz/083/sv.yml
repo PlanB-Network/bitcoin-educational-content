@@ -1,0 +1,9 @@
+question: Vad är statusen för en post i ip neigh cache när IP/MAC-mappningen är giltig och ny?
+answer: NÅBAR
+wrong_answers:
+  - ANSLUTEN
+  - VALID
+  - STALE
+explanation: |
+  Tillståndet REACHABLE innebär att IP/MAC-mappningen är känd och fungerar i grannskapets cache.
+reviewed: false

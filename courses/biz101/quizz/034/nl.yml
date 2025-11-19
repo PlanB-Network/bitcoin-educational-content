@@ -1,0 +1,9 @@
+question: Welke trend zien we bij deelnemers die knooppunten bedienen op de Lightning Network?
+answer: Professionele knooppuntbeheerders bieden steeds meer liquiditeit, terwijl individuele gebruikers zich richten op "randknooppunten", waardoor de samenstelling van het netwerk verschuift.
+wrong_answers:
+  - Individuele hobbyisten hebben alle professionele operators volledig vervangen.
+  - Grote banken beheren nu centraal alle Lightning-nodes.
+  - Het netwerk heeft persoonlijke nodes afgesloten om alleen grote bedrijven toe te laten.
+explanation: |
+  Er is een verschuiving naar meer liquiditeit en stabiliteit geleverd door professionele entiteiten, terwijl alledaagse gebruikers vertrouwen op vereenvoudigde of gehoste oplossingen, waardoor het netwerk robuuster en toegankelijker wordt.
+reviewed: false

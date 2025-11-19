@@ -1,0 +1,8 @@
+question: Wat is het primaire technische verschil tussen de GitHub repository van Bitcoin Core en de duizenden andere kopieën van dezelfde repository die wereldwijd gedistribueerd worden?
+answer: Er is geen technisch verschil; het dient als een sociaal brandpunt voor ontwikkeling
+wrong_answers:
+  - Het GitHub repository bevat cryptografische handtekeningen die het authenticeren als de officiële versie
+  - De GitHub repository heeft speciale commit privileges die ongeautoriseerde wijzigingen aan de codebase voorkomen
+  - Het GitHub repository onderhoudt een hoofdsleutel die alle andere repository kopieën wereldwijd valideert
+explanation: |
+  Volgens de analyse van Jameson Lopp die in het hoofdstuk wordt aangehaald, is de GitHub repository van Bitcoin Core technisch identiek aan alle andere kopieën. Het belang ervan is puur sociaal - het is het centrale punt voor ontwikkelingscoördinatie geworden. De repository dient eerder voor het gemak dan als technische autoriteit, en als het zou verdwijnen, zou er vanzelf een nieuw centraal punt ontstaan. Dit toont de gedecentraliseerde aard van Bitcoin aan, waar geen enkele opslagplaats technische suprematie over anderen heeft.

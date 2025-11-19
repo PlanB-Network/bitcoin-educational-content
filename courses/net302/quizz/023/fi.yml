@@ -1,0 +1,9 @@
+question: Mikä on TCP:n monivaiheisen yhteyden muodostusmenettelyn nimi?
+answer: Kolmensuuntainen kättely
+wrong_answers:
+  - Nelisuuntainen kättely
+  - Liukuikkuna
+  - Tarkistusprosessi
+explanation: |
+  Kolmensuuntaisessa kättelyssä synkronoidaan sekvenssinumerot asiakkaan ja palvelimen välillä ennen hyötykuorman tietojen Exchange:ta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: None Itegeko rya Say risobanurwa gute nk’uko Jean-Baptiste Say na Bastiat babivuga?
+answer: Ibintu n'ibikorwa birahindurwa n'ibintu n'ibikorwa
+wrong_answers:
+  - Supply irema ivyo isaba
+  - Uko ibintu vyinshi bihingurwa ni ko bikoreshwa cane .
+  - Ivyo bisabwa ni vyo bigena Supply.
+explanation: |
+  Itegeko rya Say rivuga yuko uguhingura ibintu bituma umuntu ashobora guhanahana amakuru, gutyo bikaba biha agaciro ubutunzi bw’isoko.
+reviewed: false

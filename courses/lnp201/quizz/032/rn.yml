@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’amahera y’urugendo muri Lightning Network?
+answer: Gutera intege amashirahamwe y'ubuhuza gutanga amafaranga yabo yo gutanga amafaranga
+wrong_answers:
+  - Kugira ngo ugabanye umubare w'ibikorwa ku rubuga
+  - Kugira ngo umurongo wose ugire amahera ahagije .
+  - Kugira ngo uhite ubaze inzira ngufi kurusha izindi
+explanation: |
+  Amafaranga y’inzira akoreshwa mu gusubiza inyuma ama node y’ubuhuza arungika amahera mu gutanga amafaranga yabo kugira ngo bishobore gutanga amafaranga biciye ku rubuga rwose.
+reviewed: false

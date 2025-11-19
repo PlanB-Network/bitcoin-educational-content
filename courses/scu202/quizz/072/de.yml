@@ -1,0 +1,9 @@
+question: Wie kann ich ein alternatives ROM auf einem Android-Smartphone installieren?
+answer: Entsperren des Bootloaders
+wrong_answers:
+  - Apple-Konto erstellen
+  - Einsetzen einer speziellen SIM-Karte
+  - Entwicklermodus auf iOS aktivieren
+explanation: |
+  Das Entsperren des Bootloaders ist unerlässlich, um ein neues Systemabbild auf ein Android-Smartphone zu schreiben.
+reviewed: false

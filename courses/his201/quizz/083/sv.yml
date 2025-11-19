@@ -1,0 +1,9 @@
+question: Vilken var den högsta kurs som Bitcoin nådde i juni 2011?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  Den 8 juni nådde priset på Bitcoin en historisk topp på 32 USD på Mt. Gox. Det föll dock snabbt efter det.
+reviewed: true

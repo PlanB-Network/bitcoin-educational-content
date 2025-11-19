@@ -1,0 +1,9 @@
+question: Какая команда отображает подробный статус всех сетевых интерфейсов в Linux?
+answer: показать ip addr
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  команда "ip addr show" выводит список всех сетевых интерфейсов с указанием их состояния, адресов и связанных с ними параметров.
+reviewed: false

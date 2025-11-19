@@ -1,0 +1,8 @@
+question: Vad är den privata nyckeln i en Bitcoin Wallet?
+answer: En hemlig nyckel som gör att du kan signera dina transaktioner.
+wrong_answers:
+  - En publik nyckel som används för generate Bitcoin-adresser.
+  - En hemlig lista med ord för att förstöra en Wallet i nödfall.
+  - En hemlig nyckel för att kryptera Bitcoin-transaktioner.
+explanation: >-
+reviewed: true

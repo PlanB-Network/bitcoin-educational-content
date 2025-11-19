@@ -1,0 +1,9 @@
+question: Bitcoin 节点的主要功能是什么？
+answer: 保存 Blockchain 并验证交易和区块
+wrong_answers:
+  - 存储私钥和建立交易
+  - 为用户创建新地址
+  - 将比特币兑换成法定货币
+explanation: |
+  Bitcoin 节点维护 Blockchain 的副本，并参与验证和转发交易和区块。
+reviewed: true

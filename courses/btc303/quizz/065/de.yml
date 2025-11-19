@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass zunehmende Blockgrößen zu einer höheren Wahrscheinlichkeit veralteter Blöcke in Bitcoin mining führen?
+answer: Größere Blöcke benötigen mehr Zeit, um sich im Netzwerk zu verbreiten und zu validieren, was zu längeren Zeitfenstern führt, in denen Miner an veralteten Blockchain-Tipps arbeiten
+wrong_answers:
+  - Größere Blöcke erfordern mehr Rechenleistung für den Abbau, was dazu führt, dass die Miner länger brauchen, um gültige proof-of-work-Lösungen zu finden
+  - "Größere Blöcke verringern die Wirksamkeit des Mechanismus zur Anpassung der Schwierigkeit, was zu unvorhersehbaren Blockzeitintervallen führt
+  - Größere Blöcke führen zu mehr Transaktionskonflikten zwischen konkurrierenden Blöcken, was es schwieriger macht, zu entscheiden, welcher Block akzeptiert werden sollte
+explanation: |
+  Die richtige Antwort nennt den Kernmechanismus, der hinter veralteten Blöcken steckt. Wenn Blöcke größer sind, benötigen sie mehr Bandbreite für die Übertragung zwischen den Knoten und mehr Zeit für die Validierung. Während dieser verlängerten Ausbreitungszeit können mehrere Miner konkurrierende Blöcke in gleicher Höhe finden, da sie den neuesten Block noch nicht erhalten haben. Dies führt zu einem Wettlauf, bei dem letztlich nur ein Block akzeptiert werden kann, wodurch die anderen veraltet sind. Die falschen Antworten verwechseln dieses Ausbreitungsproblem mit mining-Schwierigkeiten, Konsensmechanismen oder Transaktionskonflikten, die von dem Zeitproblem, das veraltete Blöcke verursacht, getrennt sind.

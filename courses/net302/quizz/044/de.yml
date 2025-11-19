@@ -1,0 +1,9 @@
+question: Welche Hauptrolle spielt das DNS in der Internet-Architektur?
+answer: Zuordnung von Domänennamen zu IP-Adressen
+wrong_answers:
+  - Verschlüsselung der Kommunikation zwischen Routern
+  - Dynamische Zuweisung von MAC-Adressen an Geräte
+  - Kontrolle des Zugangs zu Webservern
+explanation: |
+  DNS (Domain Name System) übersetzt von Menschen lesbare Domänennamen in numerische IP-Adressen, die für die Weiterleitung benötigt werden.
+reviewed: false

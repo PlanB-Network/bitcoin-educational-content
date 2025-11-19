@@ -1,5 +1,5 @@
 ---
-name: BIP39 Passphrase
+name: BIP-39 Passphrase
 description: Понимание принципа работы парольной фразы
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ HD-кошельки обычно генерируются из мнемонич�
 ## Как выбрать хорошую парольную фразу?
 Чтобы парольная фраза была эффективной, она должна быть достаточно длинной и случайной. Так же, как и с сильным паролем, я рекомендую выбирать парольную фразу, которая будет как можно более длинной и случайной, с разнообразием букв, цифр и символов, чтобы любая атака перебором была невозможна.
 
+Согласно [исследованию, проведённому Trezor в 2019 году](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), злоумышленник, имеющий доступ к вашему seed и использующий арендуемый на AWS мощный GPU (NVIDIA Tesla V100), может протестировать почти 620 миллионов парольных фраз всего за 1 доллар. Для сравнения: в 2019 году взлом парольной фразы из 12 случайных строчных букв стоил бы в среднем **77 миллионов долларов**.
+
+Тем не менее, я не рекомендую ограничиваться 12 символами. Лучше ориентируйтесь на текущие стандарты для надежных паролей: в 2025 году — как минимум 13 случайных символов, включая цифры, строчные и прописные буквы, а также символы; либо 14 символов, если используются только строчные и прописные буквы. Разумеется, я рекомендую идти дальше и, например, использовать парольную фразу из 20 символов с символами, чтобы предвидеть будущие изменения и учитывать человеческие риски, не охваченные этими исследованиями.
+
 Также важно правильно сохранить эту парольную фразу, так же как и мнемоническую фразу. **Потеря её означает потерю доступа к вашим биткоинам**. Я настоятельно советую не запоминать её только в своей голове, так как это необоснованно увеличивает риск потери. Идеально записать её на физическом носителе (бумаге или металле) отдельно от мнемонической фразы. Этот резервный носитель, очевидно, должен храниться в другом месте, отличном от места хранения вашей мнемонической фразы, чтобы предотвратить их одновременное компрометирование.
 
 ## Учебные пособия
 
 Чтобы настроить парольную фразу на устройстве Ledger (Stax, Flex или Nano), вы можете проконсультироваться с этим учебным пособием:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 На COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 На Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 На Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 На устройстве Trezor (Safe 3, Safe 5 или Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+На SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+На SeedSigner с Seedkeeper:
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

@@ -1,0 +1,9 @@
+question: Vilken är den största nackdelen med bankomater (Automated Teller Machines, ATM)?
+answer: Ofta mycket höga avgifter.
+wrong_answers:
+  - Behov av en snabb internetanslutning.
+  - Bristande stöd för lokala valutor.
+  - Transaktionssäkerhet garanteras inte.
+explanation: |
+  Att köpa bitcoins via bankomater är en intressant lösning för användarnas integritet, men deras största nackdel är att de ofta tar ut orimliga avgifter.
+reviewed: false

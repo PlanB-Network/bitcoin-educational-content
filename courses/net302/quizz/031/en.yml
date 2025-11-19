@@ -1,0 +1,9 @@
+question: Which IPv4 address range is reserved for local loopback testing?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  The range 127.0.0.0/8 is used for local loopback. Any request to this range stays within the originating machine.
+reviewed: false

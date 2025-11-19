@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van smart contracts in de RGB omgeving?
+answer: Geautomatiseerde Bitcoin deals implementeren zonder een centraal register
+wrong_answers:
+  - Het opzetten van gecentraliseerde Bitcoin registers vergemakkelijken
+  - Zorg voor een openbare Interface voor alle Bitcoin transacties
+  - Vereenvoudiging van de uitvoering van ERC-20 tokens op Bitcoin
+explanation: |
+  RGB slimme contracten maken de automatisering van overeenkomsten mogelijk terwijl het gebruik van gecentraliseerde registers vermeden wordt, en vertrouwen op Bitcoin voor cryptografische ankers.
+reviewed: false

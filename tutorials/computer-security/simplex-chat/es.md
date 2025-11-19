@@ -1,5 +1,5 @@
 ---
-name: Chat SimpleX
+name: SimpleX Chat
 description: El primer buzón sin identificación de usuario
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Lanzada en 2021, SimpleX es una aplicación de mensajería instantánea gratuita
 
 
 
-A diferencia de la mayoría de las aplicaciones que requieren una cuenta o un número de teléfono, SimpleX te permite iniciar conversaciones compartiendo un enlace o un código QR efímero. Cada enlace crea un canal cifrado único, y los contactos no pueden encontrar o volver a ponerse en contacto con el remitente sin un Exchange explícito. Los mensajes se cifran de extremo a extremo y pasan por servidores de retransmisión que los borran tras su envío y no ven ni al remitente ni al destinatario, ni sus claves.
+A diferencia de la mayoría de las aplicaciones que requieren una cuenta o un número de teléfono, SimpleX te permite iniciar conversaciones compartiendo un enlace o un código QR efímero. Cada enlace crea un canal cifrado único, y los contactos no pueden encontrar o volver a ponerse en contacto con el remitente sin un intercambio explícito. Los mensajes se cifran de extremo a extremo y pasan por servidores de retransmisión que los borran tras su envío y no ven ni al remitente ni al destinatario, ni sus claves.
 
 
 
@@ -18,7 +18,7 @@ A diferencia de la mayoría de las aplicaciones que requieren una cuenta o un n�
 
 
 
-La arquitectura de la red es totalmente descentralizada y no federada: los servidores no se conocen entre sí, no mantienen un directorio global y no alojan ningún perfil de usuario. Mejor aún, cada usuario puede instalar y utilizar su propio servidor de retransmisión, sin dejar de ser interoperable con los de la red pública.
+La arquitectura de la red es totalmente descentralizada y no federada: Los servidores no se conocen entre sí, no mantienen un directorio global y no alojan ningún perfil de usuario. Mejor aún, cada usuario puede instalar y utilizar su propio servidor de retransmisión, sin dejar de ser interoperable con los de la red pública.
 
 
 
@@ -26,7 +26,7 @@ SimpleX es completamente de código abierto (clientes, protocolos y servidores),
 
 
 
-SimpleX integra todas las funciones clásicas de las aplicaciones de mensajería. Sin embargo, su ergonomía sigue siendo menos fluida que la de WhatsApp o Signal. También puede resultar más restrictiva de usar, sobre todo a la hora de añadir contactos. Así pues, en mi opinión, es una alternativa pertinente a WhatsApp o Signal para los usuarios que sitúan la confidencialidad en el centro de sus prioridades, y que están dispuestos, por esa razón, a hacer algunas concesiones en la comodidad cotidiana de uso.
+SimpleX integra todas las funciones clásicas de las aplicaciones de mensajería. Sin embargo, su ergonomía sigue siendo menos fluida que la de WhatsApp o Signal. También puede resultar más restrictiva de usar, sobre todo a la hora de añadir contactos. Así pues, en nuestra opinión, es una alternativa pertinente a WhatsApp o Signal para los usuarios que sitúan la confidencialidad en el centro de sus prioridades, y que están dispuestos, por esa razón, a hacer algunas concesiones en la comodidad cotidiana de uso.
 
 
 
@@ -34,13 +34,13 @@ SimpleX integra todas las funciones clásicas de las aplicaciones de mensajería
 | -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | ----------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
-| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                            | ❌                             | ❌                        | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opcional)   | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
+| Telegram             | 🟡 (opcional) | ❌                | 🟡                  | ✅                            | ❌                               | ❌                        | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                             | ❌                        | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                             | ❌                        | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                             | ❌                        | 2012              |
 | Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                            | ✅                             | 🟡 (federado)           | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                           | 🟡 (vía email)          | 2017              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                             | 🟡 (vía email)          | 2017              |
 | Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                            | ✅                             | 🟡 (federado)           | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                            | ✅                             | ✅                        | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                            | ✅                             | ✅                        | 2021              |
@@ -133,7 +133,7 @@ En primer lugar, accede a la configuración haciendo clic en tu foto de perfil, 
 
 
 
-La configuración por defecto suele ser adecuada para la mayoría de los usuarios. Sin embargo, te recomiendo que vayas al menú "*Base de datos passphrase y exportación*". Aquí es donde puedes exportar la base de datos de tu cuenta SimpleX para realizar copias de seguridad.
+La configuración por defecto suele ser adecuada para la mayoría de los usuarios. Sin embargo, te recomendamos que vayas al menú "*Base de datos passphrase y exportación*". Aquí es donde puedes exportar la base de datos de tu cuenta SimpleX para realizar copias de seguridad.
 
 
 
@@ -141,7 +141,7 @@ También puedes modificar el passphrase utilizado para cifrar esta base de datos
 
 
 
-**Tenga en cuenta**: si elige esta opción, la pérdida del passphrase supondrá la pérdida permanente de todos sus perfiles y mensajes SimpleX.
+**Ten en cuenta**: si eliges esta opción, la pérdida del passphrase supondrá la pérdida permanente de todos tus perfiles y mensajes SimpleX.
 
 
 
@@ -149,7 +149,7 @@ También puedes modificar el passphrase utilizado para cifrar esta base de datos
 
 
 
-También te recomiendo que vayas al menú "*Privacidad y seguridad*", donde podrás activar la opción "*Bloqueo SimpleX*". Esto protege el acceso a la aplicación con un código de bloqueo.
+También te recomendamos que vayas al menú "*Privacidad y seguridad*", donde podrás activar la opción "*Bloqueo SimpleX*". Esto protege el acceso a la aplicación con un código de bloqueo.
 
 
 
@@ -174,24 +174,24 @@ Para conectar con otra persona en SimpleX, tienes dos opciones:
 
 
 
-- Utilice un enlace de un solo uso;
-- Utilice un Address estático reutilizable.
+- Utilizar un enlace de un solo uso;
+- Utilizar una dirección estática reutilizable.
 
 
 
-Una Address estática permite a cualquiera que la conozca ponerse en contacto contigo en SimpleX. Es un Address persistente, que puede ser utilizado varias veces, por diferentes personas, sin límite de tiempo. Es esta persistencia la que lo hace más vulnerable al spam. Sin embargo, a diferencia de otras aplicaciones de mensajería, basta con borrar tu Address de SimpleX para detener todo el spam, sin afectar a las conversaciones existentes. De hecho, esta Address sólo se utiliza para establecer la conexión inicial, y deja de ser necesaria una vez iniciada la Exchange.
+Una dirección estática permite a cualquiera que la conozca ponerse en contacto contigo en SimpleX. Es una dirección persistente, que puede ser utilizado varias veces, por diferentes personas, sin límite de tiempo. Es esta persistencia la que lo hace más vulnerable al spam. Sin embargo, a diferencia de otras aplicaciones de mensajería, basta con borrar tu dirección de SimpleX para detener todo el spam, sin afectar a las conversaciones existentes. De hecho, esta dirección sólo se utiliza para establecer la conexión inicial, y deja de ser necesaria una vez iniciado el intercambio.
 
 
 
-En cambio, los enlaces de un solo uso sólo pueden ser utilizados una vez por cualquier usuario. Una vez que un contacto lo utiliza, el enlace deja de ser válido. Tendrás que generate uno nuevo para cada nueva conexión.
+En cambio, los enlaces de un solo uso sólo pueden ser utilizados una vez por cualquier usuario. Una vez que un contacto lo utiliza, el enlace deja de ser válido. Tendrás que generar uno nuevo para cada nueva conexión.
 
 
 
-### Con Address estático
+### Con dirección estática
 
 
 
-Si desea utilizar la Address, haga clic en su foto de perfil en la parte inferior izquierda de la Interface y, a continuación, seleccione "*Crear SimpleX Address*". A continuación, vuelva a hacer clic en "*Crear SimpleX Address*".
+Si deseas utilizar la dirección, haz clic en tu foto de perfil en la parte inferior izquierda de la Interfaz y, a continuación, selecciona "*Crear dirección SimpleX*". A continuación, vuelve a hacer clic en "*Crear dirección SimpleX*".
 
 
 
@@ -199,7 +199,7 @@ Si desea utilizar la Address, haga clic en su foto de perfil en la parte inferio
 
 
 
-Ya has creado tu Address reutilizable. Puedes compartirla con las personas que quieran ponerse en contacto contigo, mostrándoles el código QR o enviándoles el enlace.
+Ya has creado tu dirección reutilizable. Puedes compartirla con las personas que quieran ponerse en contacto contigo, mostrándoles el código QR o enviándoles el enlace.
 
 
 
@@ -207,11 +207,11 @@ Ya has creado tu Address reutilizable. Puedes compartirla con las personas que q
 
 
 
-Pulse el botón "*Configuración Address*". Aquí puedes configurar los permisos asociados a tu Address. La opción "*Compartir con contactos*" hace que tu Address sea visible en tu perfil de SimpleX. Así, tus contactos podrán consultarla y reenviarla a otras personas que deseen ponerse en contacto contigo.
+Pulsa el botón "*Configuración de dirección*". Aquí puedes configurar los permisos asociados a tu dirección. La opción "*Compartir con contactos*" hace que tu dirección sea visible en tu perfil de SimpleX. Así, tus contactos podrán consultarla y reenviarla a otras personas que deseen ponerse en contacto contigo.
 
 
 
-La opción "*Aceptar automáticamente*" acepta automáticamente las conexiones entrantes a través de tu Address. Esto significa que cualquiera que tenga tu Address podrá ver tu perfil y enviarte un mensaje, a menos que actives la opción "*Aceptar de incógnito*". Esto oculta tu nombre y foto de perfil cuando se establece una nueva conexión, sustituyéndolos por un seudónimo aleatorio, distinto para cada interlocutor.
+La opción "*Aceptar automáticamente*" acepta automáticamente las conexiones entrantes a través de tu dirección. Esto significa que cualquiera que tenga tu dirección podrá ver tu perfil y enviarte un mensaje, a menos que actives la opción "*Aceptar de incógnito*". Esto oculta tu nombre y foto de perfil cuando se establece una nueva conexión, sustituyéndolos por un seudónimo aleatorio, distinto para cada interlocutor.
 
 
 
@@ -219,7 +219,7 @@ La opción "*Aceptar automáticamente*" acepta automáticamente las conexiones e
 
 
 
-### Con eslabón reutilizable
+### Con enlace no reutilizable
 
 
 
@@ -235,7 +235,7 @@ Si tu contacto te ha enviado un enlace, haz clic en "*Escanear / Pegar enlace*" 
 
 
 
-SimpleX genera entonces un enlace de un solo uso. Puedes reenviarlo a tu contacto por cualquier medio: Exchange físico, otro tipo de mensajería, etc.
+SimpleX genera entonces un enlace de un solo uso. Puedes reenviarlo a tu contacto por cualquier medio: intercambio físico, otro tipo de mensajería, etc.
 
 
 
@@ -243,17 +243,17 @@ SimpleX genera entonces un enlace de un solo uso. Puedes reenviarlo a tu contact
 
 
 
-También puede elegir qué perfil desea asociar a este enlace de invitación. Para ello, haga clic en su perfil justo debajo del código QR. A continuación podrá :
+También puedes elegir qué perfil deseas asociar a este enlace de invitación. Para ello, hagz clic en tu perfil justo debajo del código QR. A continuación podrás:
 
 
 
 
-- seleccione uno de sus perfiles existentes (veremos cómo crear varios perfiles en la siguiente sección);
-- o elige el modo "*Incógnito*", que oculta tu nombre y foto de perfil con un seudónimo generado aleatoriamente para tu interlocutor.
+- Seleccionar uno de tus perfiles existentes (veremos cómo crear varios perfiles en la siguiente sección);
+- O elegir el modo "*Incógnito*", que oculta tu nombre y foto de perfil con un seudónimo generado aleatoriamente para tu interlocutor.
 
 
 
-Aquí, elijo el modo "*Incógnito*".
+Aquí, elegimos el modo "*Incógnito*".
 
 
 
@@ -261,7 +261,7 @@ Aquí, elijo el modo "*Incógnito*".
 
 
 
-Mi contacto utilizó el enlace. Por su parte, no activó el modo "*Incógnito*", razón por la cual veo su nombre de perfil, "*Bob*". Por otro lado, Bob no ve mi nombre real "*Loïc Morel*", sino un seudónimo aleatorio, en este caso "*RealSynergy*".
+Un contacto utilizó el enlace. Por su parte, no activó el modo "*Incógnito*", razón por la cual veo su nombre de perfil, "*Bob*". Por otro lado, Bob no ve mi nombre real "*Loïc Morel*", sino un seudónimo aleatorio, en este caso "*RealSynergy*".
 
 
 
@@ -269,7 +269,7 @@ Mi contacto utilizó el enlace. Por su parte, no activó el modo "*Incógnito*",
 
 
 
-Podría empezar a chatear inmediatamente, pero primero me gustaría comprobar que estoy hablando con Bob, y no con algún malintencionado que pueda haber interceptado el enlace o llevado a cabo un ataque MITM.
+Podríamos empezar a chatear inmediatamente, pero primero nos gustaría comprobar que estamos hablando con Bob, y no con algún malintencionado que pueda haber interceptado el enlace o llevado a cabo un ataque MITM.
 
 
 
@@ -301,7 +301,7 @@ Si la verificación se realiza correctamente, aparecerá un icono en forma de es
 
 
 
-Ahora puedes Exchange libremente mensajes, llamadas y archivos con Bob, dependiendo de los permisos que hayas establecido para esta conversación.
+Ahora puedes intercambiar libremente mensajes, llamadas y archivos con Bob, dependiendo de los permisos que hayas establecido para esta conversación.
 
 
 
@@ -313,7 +313,7 @@ Una de las características más potentes de SimpleX es la posibilidad de gestio
 
 
 
-Por ejemplo, puede crear un archivo :
+Por ejemplo, puedes crear un archivo:
 
 
 
@@ -325,7 +325,7 @@ Por ejemplo, puede crear un archivo :
 
 
 
-Eso es lo que vamos a hacer aquí. Empiezo configurando mi perfil principal, el vinculado a mi identidad real. Para ello, hago clic en mi foto de perfil, en la esquina inferior derecha, y luego en mi nombre de usuario.
+Eso es lo que vamos a hacer aquí. Comenzamos configurando el perfil principal, el vinculado a nuestra identidad real. Para ello, hacemos clic en la foto de perfil, en la esquina inferior derecha, y luego en el nombre de usuario.
 
 
 
@@ -333,7 +333,7 @@ Eso es lo que vamos a hacer aquí. Empiezo configurando mi perfil principal, el 
 
 
 
-A continuación, hago clic en mi foto de perfil para cambiarla y añadir una nueva.
+A continuación, hacemos clic en lai foto de perfil para cambiarla y añadir una nueva.
 
 
 
@@ -357,7 +357,7 @@ Aquí verás todos tus perfiles. Haz clic en "*Añadir perfil*" para crear uno n
 
 
 
-A continuación, elige la información para tu nuevo perfil: nombre, foto, etc. Aquí utilizo un seudónimo y una imagen diferente para ocultar mi identidad real en determinados intercambios.
+A continuación, elige la información para tu nuevo perfil: Nombre, foto, etc. Aquí utilizamos un seudónimo y una imagen diferente para ocultar nuestra identidad real en determinados intercambios.
 
 
 
@@ -373,7 +373,7 @@ Si mantienes el dedo pulsado sobre un perfil, puedes ocultarlo. Esto lo hará in
 
 
 
-Una vez creados sus perfiles, puede gestionarlos de forma independiente. En la página de inicio, sólo tienes que seleccionar el perfil activo que deseas mostrar.
+Una vez creados tus perfiles, puedes gestionarlos de forma independiente. En la página de inicio, sólo tienes que seleccionar el perfil activo que deseas mostrar.
 
 
 
@@ -381,7 +381,7 @@ Una vez creados sus perfiles, puede gestionarlos de forma independiente. En la p
 
 
 
-Cuando creas un enlace de invitación o Address estático, ahora puedes elegir qué perfil asociar a él. Por ejemplo, si selecciono el perfil "*Satoshi Nakamoto*" para generate un enlace y se lo envío a Alice, ella sólo verá mi identidad seudónima "*Satoshi Nakamoto*", sin conocer nunca mi identidad real "*Loïc Morel*". Por el contrario, si le proporciono un enlace desde mi perfil real, ella no tendrá forma de enlazar con mi perfil seudónimo.
+Cuando creas un enlace de invitación o dirección estática, ahora puedes elegir qué perfil asociar a él. Por ejemplo, si seleccionamos el perfil "*Satoshi Nakamoto*" para generar un enlace y se lo envío a Alice, ella sólo verá mi identidad seudónima "*Satoshi Nakamoto*", sin conocer nunca mi identidad real "*Loïc Morel*". Por el contrario, si le proporciono un enlace desde mi perfil real, ella no tendrá forma de enlazar con mi perfil seudónimo.
 
 
 
@@ -389,12 +389,12 @@ Cuando creas un enlace de invitación o Address estático, ahora puedes elegir q
 
 
 
-Enhorabuena, ya conoces la mensajería SimpleX, una excelente alternativa a WathsApp
+Enhorabuena, ya conoces la mensajería SimpleX, una excelente alternativa a WhatsApp
 
 
 
-También recomiendo este otro tutorial, en el que presento Threema, otra alternativa interesante para tu aplicación de mensajería:
+También recomendamos este otro tutorial, en el que presentamos Threema, otra alternativa interesante para tu aplicación de mensajería:
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

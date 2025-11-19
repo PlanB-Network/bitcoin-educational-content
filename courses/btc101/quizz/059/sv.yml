@@ -1,0 +1,12 @@
+question: Vilket år förutspås det att skapandet av bitcoins kommer att upphöra?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  På grund av Halving-mekanismen kan det matematiskt förutsägas
+  förutsägas att skapandet av bitcoins kommer att upphöra 2140,
+  när det totala antalet bitcoins når sin gräns på 21
+  miljoner.
+reviewed: true

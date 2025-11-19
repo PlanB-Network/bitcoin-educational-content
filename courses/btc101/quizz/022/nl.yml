@@ -1,0 +1,9 @@
+question: Waarom is goud geen draagbaar materiaal?
+answer: Omdat het dicht en zwaar is, is het onhandig om in grote hoeveelheden te dragen.
+wrong_answers:
+  - Omdat het te waardevol is om te worden verplaatst.
+  - Omdat het niet gemakkelijk in kleinere vormen kan worden gegoten.
+  - Omdat het een Liquid is bij kamertemperatuur.
+explanation: |
+  Goud is dicht en zwaar, wat betekent dat het fysiek lastig kan zijn om grote hoeveelheden te vervoeren. Dit gewicht maakt het minder geschikt voor transport in vergelijking met lichtere materialen.
+reviewed: true

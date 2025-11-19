@@ -1,0 +1,9 @@
+question: Bir Ethernet ağında bir IP Address ile bir MAC Address'ı ilişkilendirmek için hangi protokol kullanılır?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Çözümleme Protokolü (ARP) IP adreslerini yerel ağlardaki MAC adresleriyle eşleştirir.
+reviewed: false

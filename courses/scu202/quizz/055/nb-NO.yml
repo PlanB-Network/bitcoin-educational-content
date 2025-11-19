@@ -1,0 +1,9 @@
+question: Hvilken gjengivelsesmotor er den mest utbredte i dag, og driver de fleste moderne nettlesere?
+answer: Blink
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, som er utviklet av Google på grunnlag av WebKit Fork, er i dag den dominerende gjengivelsesmotoren i Chrome, Edge, Opera, Brave, Vivaldi og mange flere.
+reviewed: false

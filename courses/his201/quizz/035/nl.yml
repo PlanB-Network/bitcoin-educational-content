@@ -1,0 +1,9 @@
+question: Wanneer vond de eerste Exchange tussen Bitcoin en de dollar plaats?
+answer: 12 oktober 2009
+wrong_answers:
+  - 8 mei 2009
+  - 30 december 2009
+  - 11 maart 2010
+explanation: |
+  Martti maakte 5.050 bitcoins over naar NLS, die vervolgens $5,02 overmaakte naar zijn PayPal-rekening. Dit kwam overeen met een eenheidsprijs van ongeveer $0,001.
+reviewed: true

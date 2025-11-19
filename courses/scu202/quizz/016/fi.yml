@@ -1,0 +1,9 @@
+question: Mikä jakeluperhe käyttää RPM-paketinhallintaa?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  RPM-formaatin aloitti Red Hat, ja se on Fedoran, RHEL:n, CentOS:n, AlmaLinuxin, Rocky Linuxin ja muiden vastaavien jakeluiden perusta.
+reviewed: false

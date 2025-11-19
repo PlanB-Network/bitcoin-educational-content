@@ -1,0 +1,9 @@
+question: Mikä sovellus tarjoaa radikaalisti hajautetun arkkitehtuurin, jossa ei ole keskitettyä palvelinta viestien reititystä varten?
+answer: Keet
+wrong_answers:
+  - Telegrammi
+  - Signaali
+  - Threema
+explanation: |
+  Keet perustuu vertaisverkkomalliin, jossa kaikki viestintä kulkee suoraan käyttäjien välillä ilman keskitettyä palvelinta, mikä takaa korkean häiriönsietokyvyn ja luottamuksellisuuden.
+reviewed: false

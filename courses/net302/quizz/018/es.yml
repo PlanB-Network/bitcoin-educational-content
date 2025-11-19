@@ -1,0 +1,9 @@
+question: ¿Qué es un datagrama en el contexto del protocolo IP?
+answer: Un bloque de datos autónomo transportado por la red
+wrong_answers:
+  - Un mensaje cifrado destinado a un único dispositivo
+  - Un segmento TCP encapsulado en UDP
+  - Una señal física del acceso a la red Layer
+explanation: |
+  Los datos IP se transmiten en forma de datagramas, bloques independientes que contienen toda la información necesaria para la entrega.
+reviewed: false

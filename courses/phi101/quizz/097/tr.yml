@@ -1,0 +1,9 @@
+question: Marksist din eleştirisi nedir?
+answer: İnsanları gerçek kurtuluşları için mücadele etmekten uzaklaştırır.
+wrong_answers:
+  - Entelektüellerin afyonudur.
+  - Özgürlük ve eşitlik ilkeleriyle bağdaşmamaktadır.
+  - İşgücünde hiçbir katma değer sağlamaz.
+explanation: |
+  Marx dini, işçileri sömürü yapılarını değiştirmeye teşvik etmeksizin maddi koşulları hakkında teselli ederek onları kurtuluş mücadelelerinden uzaklaştıran bir araç olarak görür.
+reviewed: true

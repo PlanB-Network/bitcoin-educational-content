@@ -1,12 +1,12 @@
 ---
 name: Attakaï
 
-description: transformerer en S9 til et hjemmevarmesystem
+description: Omforming av en S9 til en hjemmevarmer
 ---
 
 ![cover](assets/cover.webp)
 
-# Attakai - gjør hjemmemining mulig og tilgjengelig!
+## Attakaï - hjemme-mining gjort mulig og tilgjengelig!
 
 Initiativet "Attakaï" utforsker Bitcoin-mining ved bruk av generert varme. Guiden tilbyr løsninger for å gjøre minere egnet for bruk som radiatorer i hjem, noe som gir mer komfort og energisparing. Bitcoin justerer automatisk miningvanskeligheten og belønner minerne for deres arbeid. Imidlertid kan konsentrasjonen av hashrate utgjøre risikoer for nettverksnøytraliteten. "Attakaï" gir en praktisk guide for økonomisk retrofitting av minere, som lar deltakerne redusere sine strømregninger og bli belønnet med sats uten KYC.
 
@@ -29,7 +29,6 @@ Noen selskaper har kommet med ideen om å samle behovet for databehandlingskraft
 Bitcoin og dets proof of work skiller seg ut fordi de automatisk justerer vanskelighetsgraden for mining basert på mengden databehandling utført av hele nettverket, denne mengden kalles hashrate og uttrykkes i hasher per sekund. I dag er den anslått til 280 Exahash per sekund, eller 280 milliarder milliarder hasher per sekund. Denne hashraten representerer arbeid og derfor en mengde energi brukt. Jo høyere hashrate, desto høyere øker vanskelighetsgraden, og omvendt. Således kan en Bitcoin-miner aktiveres eller deaktiveres når som helst uten noen innvirkning på nettverket, i motsetning til radiator/servere som må forbli stabile for å tilby tjenesten sin. Mineren belønnes for arbeidet som er gjort i forhold til andres arbeid, uansett hvor liten denne deltakelsen kan være.
 Oppsummert produserer både en elektrisk radiator og en Bitcoin-miner 1 kW varme for 1 kW elektrisitet forbrukt. Men, mineren mottar også bitcoins som belønning. Uavhengig av prisen på elektrisitet, prisen på bitcoin, eller konkurransen om miningaktivitet på Bitcoin-nettverket, er det økonomisk mer fordelaktig å varme opp med en miner enn en elektrisk radiator.
 
-![Videopresentasjon](https://youtu.be/gKoh44UCSnE)
 
 ### Den tilføyde verdien for Bitcoin
 
@@ -59,38 +58,38 @@ Antminer S9 kommer i flere varianter (i, j) som bringer mindre modifikasjoner ti
 
 Prisen på ASIC-er varierer avhengig av mange faktorer som prisen på bitcoin, nettverksvanskeligheter, maskineffektivitet og strømkostnad. Derfor er det vanskelig å gi et nøyaktig estimat for kjøp av en brukt maskin. I februar 2023 varierer den forventede prisen i Frankrike generelt mellom €100 og €200, men disse prisene kan endre seg raskt.
 
-![bilde](assets/guide-achat/1.webp)
+![bilde](assets/fr/001.webp)
 
 Antminer S9 består av følgende deler:
 
 - 3 hashboards hvor brikkene som produserer hashkraften er plassert
 
-![bilde](assets/guide-achat/2.webp)
+![bilde](assets/fr/002.webp)
 
 - Et kontrollkort som inkluderer en spor for et SD-kort, en Ethernet-port og kontakter for hashboards og vifter. Dette er hjernen til din ASIC.
-  ![bilde](assets/guide-achat/3.webp)
+  ![bilde](assets/fr/003.webp)
 
 - 3 datakabler som kobler hashboards til kontrollkortet.
 
-![bilde](assets/guide-achat/4.webp)
+![bilde](assets/fr/004.webp)
 
 - Strømforsyningen som opererer på 220V og kan plugges inn som en vanlig husholdningsapparat.
 
-![bilde](assets/guide-achat/5.webp)
+![bilde](assets/fr/005.webp)
 
 - 2 120mm vifter.
 
-![bilde](assets/guide-achat/6.webp)
+![bilde](assets/fr/006.webp)
 
 - En hann C13-kabel.
 
-![bilde](assets/guide-achat/7.webp)
+![bilde](assets/fr/007.webp)
 Når du kjøper en brukt maskin, er det viktig å sjekke at alle deler er inkludert og fungerer. Under utvekslingen bør du be selgeren om å slå på maskinen for å verifisere at den fungerer som den skal. Det er viktig å sjekke at enheten slår seg på korrekt, og deretter sjekke internettforbindelsen ved å koble til en Ethernet-kabel og få tilgang til Bitmain-tilkoblingsgrensesnittet via en nettleser på samme lokale nettverk. Du kan finne denne IP-adressen ved å koble til grensesnittet på din internett-router og se etter tilkoblede enheter. Denne adressen bør ha følgende format: 192.168.x.x
-![bilde](assets/guide-achat/8.webp)
+![bilde](assets/fr/008.webp)
 
 Sjekk også at standard påloggingsinformasjon fungerer (brukernavn: root, passord: root). Hvis standard påloggingsinformasjon ikke fungerer, må du utføre en tilbakestilling av maskinen.
 
-![bilde](assets/guide-achat/9.webp)
+![bilde](assets/fr/009.webp)
 
 Når du er tilkoblet, bør du kunne se statusen for hver hashboard på dashbordet. Hvis miner er tilkoblet en pool, bør du se at alle hashboards fungerer. Det er viktig å merke seg at minere lager mye støy, noe som er normalt. Sørg også for at viftene fungerer som de skal.
 
@@ -100,7 +99,7 @@ For å oppsummere denne veiledningen i én setning: **"Ikke stol, verifiser."**
 
 ## Kapittel 2: Kjøpsguide for Modifikasjonsdeler
 
-![bilde](assets/piece/1.webp)
+![bilde](assets/fr/010.webp)
 
 ### Hvordan forvandle din Antminer S9 til en stille og tilkoblet varmeovn?
 
@@ -110,24 +109,24 @@ Hvis du eier en Antminer S9, vet du sannsynligvis hvor høy og klumpete den kan 
 
 De originale viftene til Antminer S9 er for høye til å bruke den som en varmeovn. Løsningen er å erstatte dem med stillere vifter. Teamet vårt har testet flere modeller fra Noctua-merket og valgt Noctua NF-A14 iPPC-2000 PWM som det beste kompromisset. Sørg for å velge 12V-versjonen av viftene. Denne 140mm viften kan produsere opptil 1300W varme samtidig som den opprettholder et teoretisk støynivå på 31 dB. For å montere disse 140mm viftene, trenger du en 140mm til 120mm adapter, som du kan finne i DécouvreBitcoin-butikken. Vi vil også legge til 140mm beskyttelsesgriller.
 
-![bilde](assets/piece/1.webp)
-![bilde](assets/piece/2.webp)
-![bilde](assets/piece/3.webp)
+![bilde](assets/fr/010.webp)
+![bilde](assets/fr/011.webp)
+![bilde](assets/fr/012.webp)
 Strømforsyningens vifte er også ganske støyende og trenger å bli byttet ut. Vi anbefaler Noctua NF-A6x25 PWM. Merk at kontaktene til Noctua-viftene ikke er de samme som de originale, så du vil trenge en kontaktadapter for å koble dem til. To burde være nok. Igjen, sørg for å velge 12V-versjonen av viften.
-![bilde](assets/piece/4.webp)
-![bilde](assets/piece/5.webp)
+![bilde](assets/fr/013.webp)
+![bilde](assets/fr/014.webp)
 
 ### 2. Legg til en WIFI/Ethernet-bro
 
 I stedet for å bruke en Ethernet-kabel, kan du koble din Antminer til WIFI ved å legge til en WIFI/Ethernet-bro. Vi har valgt vonets vap11g-300 fordi den enkelt lar deg hente WIFI-signalet fra din Internett-boks og overføre det til din Antminer via Ethernet uten å skape et subnett. Hvis du har elektriske ferdigheter, kan du strømforsyne den direkte med Antminerens strømforsyning uten behov for å legge til en USB-lader. For dette, vil du trenge en kvinnelig 5.5mmx2.1mm jack.
 
-![bilde](assets/piece/6.webp)
-![bilde](assets/piece/7.webp)
+![bilde](assets/fr/015.webp)
+![bilde](assets/fr/016.webp)
 
 ### 3. Valgfritt: Legg til en smart plugg
 
 Hvis du ønsker å slå på/av din Antminer fra smarttelefonen din og overvåke strømforbruket, kan du legge til en smart plugg. Vi testet ANTELA-pluggen i 16A-versjonen, kompatibel med smartlife-applikasjonen. Denne smarte pluggen lar deg sjekke daglig og månedlig strømforbruk og kobles direkte til din Internett-boks via WIFI.
-![bilde](assets/piece/8.webp)
+![bilde](assets/fr/017.webp)
 
 > Liste over utstyr og lenker
 >
@@ -141,7 +140,7 @@ Hvis du ønsker å slå på/av din Antminer fra smarttelefonen din og overvåke 
 
 ## Kapittel 3 - VEILEDNING: Hvordan gjøre en miner til en varmeovn?
 
-![bilde](assets/hardware/0.webp)
+![bilde](assets/fr/039.webp)
 
 Hvis du er en dyktig DIY-entusiast og ser etter å gjøre en miner til en varmeovn, er denne veiledningen for deg. Vi ønsker å advare deg om at modifisering av en elektronisk enhet kan medføre elektriske og brannrisikoer. Det er essensielt å ta alle nødvendige forholdsregler for å unngå skader eller personskader.
 Rett fra fabrikken er ikke en miner egentlig brukbar som en radiator i et hjem fordi den er for støyende og ikke justerbar. Det er imidlertid mulig å gjøre enkle modifikasjoner for å løse disse problemene.
@@ -164,14 +163,14 @@ Vi starter med å erstatte strømforsyningsviften.
 
 > ADVARSEL: Først og fremst, før du starter, sørg for at du har trukket ut støpselet til mineren for å unngå risiko for elektrisk støt.
 
-![bilde](assets/hardware/1.webp)
+![bilde](assets/fr/040.webp)
 
 Vi starter med å erstatte strømforsyningsviften.
 
 Først, fjern de 6 skruene på siden av kabinettet som holder det lukket. Når skruene er fjernet, åpne forsiktig kabinettet for å fjerne plastdekselet som beskytter komponentene.
 
-![bilde](assets/hardware/2.webp)
-![bilde](assets/hardware/3.webp)
+![bilde](assets/fr/041.webp)
+![bilde](assets/fr/042.webp)
 Neste steg er å fjerne den originale viften, og være forsiktig så du ikke skader de andre komponentene. For å gjøre dette, fjern skruene som holder den på plass og forsiktig skrell av den hvite limen rundt kontakten. Det er viktig å fortsette forsiktig for å unngå å skade ledningene eller kontaktene.
 
 Når den originale viften er fjernet, vil du legge merke til at kontaktene til den nye Noctua-viften ikke passer med de til den originale viften. Faktisk har den nye viften 3 ledninger, inkludert en gul ledning som tillater hastighetskontroll. Imidlertid vil ikke denne ledningen bli brukt i dette spesifikke tilfellet. For å koble til den nye viften, anbefales det å bruke en spesiell adapter. Det er imidlertid viktig å merke seg at denne adapteren noen ganger kan være vanskelig å finne.
@@ -196,38 +195,38 @@ Når tilkoblingene er gjort, sørg for å plassere plastdekselet over plastkasse
 Til slutt, sett på dekselet igjen og skru de 6 skruene på sidene for å holde alt sikkert på plass. Og der har du det, strømforsyningkabinettet ditt er nå utstyrt med en ny vifte.
 ### Bytte av de 2 hovedviftene
 
-1. Først, koble fra viftene og skru dem ut.
-   ![bilde](assets/hardware/19.webp)
+- Først, koble fra viftene og skru dem ut.
+   ![bilde](assets/fr/058.webp)
 
-2. Kontaktene til de nye Noctua-viftene passer ikke til de originale, men ikke få panikk! Ta frem din kutter og klipp forsiktig de små plastikkflikene slik at kontaktene passer perfekt med din miner.
+- Kontaktene til de nye Noctua-viftene passer ikke til de originale, men ikke få panikk! Ta frem din kutter og klipp forsiktig de små plastikkflikene slik at kontaktene passer perfekt med din miner.
 
-![bilde](assets/hardware/20.webp)
-![bilde](assets/hardware/21.webp)
+![bilde](assets/fr/059.webp)
+![bilde](assets/fr/060.webp)
 
-3. Nå er det på tide å installere 3D-delene!
+- Nå er det på tide å installere 3D-delene!
    Fest dem på begge sider av mineren ved hjelp av skruene du fjernet fra viftene. Skru til skruehodet går inn i 3D-delen og den holdes sikkert på plass. Vær forsiktig så du ikke strammer for mye, da du kan deformere delen og en av skruene kan berøre en kondensator! Klipp deretter forsiktig de små plastikkflikene slik at kontaktene passer perfekt med din miner.
 
-![bilde](assets/hardware/22.webp)
+![bilde](assets/fr/061.webp)
 
-4. Nå, la oss gå videre til viftene.
+- Nå, la oss gå videre til viftene.
    Fest dem til 3D-delene ved hjelp av skruene som følger med i esken. Vær oppmerksom på luftstrømmens retning, pilene på sidene av viftene vil indikere retningen å følge. Gå fra Ethernet-port-siden til den andre siden. Se bildet nedenfor.
 
-![bilde](assets/hardware/23.webp)
-![bilde](assets/hardware/24.webp)
-![bilde](assets/hardware/25.webp)
+![bilde](assets/fr/062.webp)
+![bilde](assets/fr/063.webp)
+![bilde](assets/fr/064.webp)
 
-5. Siste steg: Koble til viftene og fest grillene på toppen med de ubrukte skruene fra vifteesken. Du har bare 4, men 2 per grill i motsatte hjørner vil være nok. Du kan også se etter andre lignende skruer i en jernvarehandel om nødvendig.
+- Siste steg: Koble til viftene og fest grillene på toppen med de ubrukte skruene fra vifteesken. Du har bare 4, men 2 per grill i motsatte hjørner vil være nok. Du kan også se etter andre lignende skruer i en jernvarehandel om nødvendig.
 
-![bilde](assets/hardware/26.webp)
-'![bilde](assets/hardware/27.webp)
+![bilde](assets/fr/065.webp)
+'![bilde](assets/fr/066.webp)
 
 Mens du venter på å kunne tilby et mer tiltalende kabinett for din nye varmeovn, kan du feste kabinettet og strømforsyningen sammen med elektrikerstrips.
 
-![bilde](assets/hardware/28.webp)
+![bilde](assets/fr/067.webp)
 
 Og for den siste finishen, koble Vonet-broen til Ethernet-porten på strømforsyningen. Hvis du ikke allerede har gjort det, kan du følge denne veiledningen for å sette opp broen din.
 
-![bilde](assets/hardware/29.webp)
+![bilde](assets/fr/068.webp)
 
 Og der har du det, gratulerer! Du har nettopp byttet ut hele den mekaniske delen av din miner. Du bør nå høre mye mindre støy.
 
@@ -241,7 +240,7 @@ Denne metoden kan anvendes innen 10 minutter etter at mineren er startet.
 
 Etter å ha slått på mineren i 2 minutter, vennligst trykk på "Reset"-knappen i 5 sekunder, og slipp den deretter. Mineren vil bli gjenopprettet til fabrikkinnstillingene innen 4 minutter og vil automatisk starte på nytt (det er ikke nødvendig å slå den av).
 
-![bilde](assets/software/1.webp)
+![bilde](assets/fr/018.webp)
 
 Gjenopprett via websiden
 
@@ -251,7 +250,7 @@ Logg inn på brukergrensesnittet til mineren din, klikk på "Oppgrader" >> "Utf�
 For denne delen vil vi anta at maskinen fungerer, kjører, og at dens originale operativsystem er installert. Vi vil kort se på grensesnittet til det originale operativsystemet tilbudt av Bitmain.
 Først, koble til maskinen din gjennom ditt lokale nettverk:
 
-![bilde](assets/software/2.webp)
+![bilde](assets/fr/019.webp)
 
 Når du er på innloggingssiden, må du logge inn på ASIC-en ved hjelp av standard påloggingsinformasjon:
 
@@ -262,11 +261,11 @@ Når du er på innloggingssiden, må du logge inn på ASIC-en ved hjelp av stand
 
 Det primære operativsystemet er relativt grunnleggende. Med de 4 fanene: System, Miner Configuration, Miner Status, Network. I fanen Miner Configuration, kan du konfigurere opptil 3 mining-pools.
 
-![bilde](assets/software/3.webp)
+![bilde](assets/fr/020.webp)
 
 I fanen Miner Status, kan du observere ulike informasjoner om den direkte driften av ASIC-en. Hashraten uttrykt i GH/s, mer detaljert informasjon om poolen, samt detaljer om statusen til hver hashboard og viftehastigheten i rotasjoner/minutt.
 
-![bilde](assets/software/4.webp)
+![bilde](assets/fr/021.webp)
 
 ### Braiins OS+'
 
@@ -284,60 +283,60 @@ Braiins OS-programvaren kan enkelt installeres på alle de ovennevnte maskinene.
 
 Det er flere måter å installere Braiins OS+ på en ASIC. Du kan referere til denne guiden samt den offisielle dokumentasjonen fra Braiins og videotutorials.
 Lær hvordan du enkelt kan installere Braiins OS+ direkte på minnet til din Antminer ved hjelp av BOS toolbox, erstatte det originale operativsystemet, gjennom de detaljerte trinnene nedenfor. Hvis du ønsker å beholde det originale OS parallelt, kan du installere Braiins OS+ på et SD-kort.
-1. Slå på din Antminer og koble den til internettboksen din.
-2. Last ned BOS-verktøykassen for Windows / Linux.
-3. Pakk ut den nedlastede filen og åpne bos-toolbox.bat-filen, velg språk, og etter et øyeblikk vil du se dette vinduet:
-   ![bilde](assets/software/5.webp)
+- Slå på din Antminer og koble den til internettboksen din.
+- Last ned BOS-verktøykassen for Windows / Linux.
+- Pakk ut den nedlastede filen og åpne bos-toolbox.bat-filen, velg språk, og etter et øyeblikk vil du se dette vinduet:
+   ![bilde](assets/fr/022.webp)
 
-4. BOS-verktøykassen vil gjøre det enkelt for deg å finne IP-adressen til din Antminer og installere Braiins OS+. Hvis du allerede kjenner IP-adressen til maskinen din, kan du hoppe over til trinn 8. Ellers, gå til skannefanen.
+- BOS-verktøykassen vil gjøre det enkelt for deg å finne IP-adressen til din Antminer og installere Braiins OS+. Hvis du allerede kjenner IP-adressen til maskinen din, kan du hoppe over til trinn 8. Ellers, gå til skannefanen.
 
-![bilde](assets/software/6.webp)
+![bilde](assets/fr/023.webp)
 
-5. Vanligvis, på hjemmenettverk, er IP-adresseområdet mellom 192.168.1.1 og 192.168.1.255, så skriv inn "192.168.1.0/24" i feltet for IP-område. Hvis nettverket ditt er annerledes, vennligst endre disse adressene. Deretter klikker du på "Start".
+- Vanligvis, på hjemmenettverk, er IP-adresseområdet mellom 192.168.1.1 og 192.168.1.255, så skriv inn "192.168.1.0/24" i feltet for IP-område. Hvis nettverket ditt er annerledes, vennligst endre disse adressene. Deretter klikker du på "Start".
 
-6. Vær oppmerksom, hvis Antmineren har et passord, vil ikke deteksjonen fungere. Hvis det er tilfellet, er den enkleste løsningen å utføre en fabrikkinnstilling.
+- Vær oppmerksom, hvis Antmineren har et passord, vil ikke deteksjonen fungere. Hvis det er tilfellet, er den enkleste løsningen å utføre en fabrikkinnstilling.
 
-7. Du bør se alle Antminerene på nettverket ditt, her er IP-adressen 192.168.1.37.
+- Du bør se alle Antminerene på nettverket ditt, her er IP-adressen 192.168.1.37.
 
-![bilde](assets/software/7.webp)
+![bilde](assets/fr/024.webp)
 
-8. Klikk på Tilbake, deretter gå til installasjonsfanen, skriv inn den tidligere funnete IP-adressen i Miner(s)-feltet og "admin" (eller "root") i Passord-feltet, som er standardpassordet, deretter klikker du på "Start".
+- Klikk på Tilbake, deretter gå til installasjonsfanen, skriv inn den tidligere funnete IP-adressen i Miner(s)-feltet og "admin" (eller "root") i Passord-feltet, som er standardpassordet, deretter klikker du på "Start".
    Hvis installasjonen ikke fungerer med "admin" eller "root" som passord, kan det være nødvendig å utføre en fabrikkinnstilling og prøve igjen.
 
-![bilde](assets/software/8.webp)
+![bilde](assets/fr/025.webp)
 
-9. Etter noen øyeblikk vil din Antminer starte på nytt, og du vil kunne få tilgang til Braiins OS+-grensesnittet på den aktuelle IP-adressen, her 192.168.1.37, direkte i adressefeltet til nettleseren din. Standard brukernavn er "root" og det er ikke noe standard passord.
+- Etter noen øyeblikk vil din Antminer starte på nytt, og du vil kunne få tilgang til Braiins OS+-grensesnittet på den aktuelle IP-adressen, her 192.168.1.37, direkte i adressefeltet til nettleseren din. Standard brukernavn er "root" og det er ikke noe standard passord.
    Installere Braiins OS+ på et SD-kort
 
-![bilde](assets/software/9.webp)
+![bilde](assets/fr/026.webp)
 
-![bilde](assets/software/10.webp)
+![bilde](assets/fr/027.webp)
 
 Den andre metoden bruker det originale grensesnittet til din Antminer. Denne metoden fungerer for maskiner med et operativsystem som dateres fra før 2019.
 
 ### Antminer-grensesnitt
 
-1. Last ned det nye operativsystemet som skal installeres her.
-2. Som i forrige seksjon, koble til maskinen din gjennom ditt lokale nettverk.
-3. Gå til System-fanen og deretter Oppgradering.
-4. Last opp filen du lastet ned og flash bildet.
+- Last ned det nye operativsystemet som skal installeres her.
+- Som i forrige seksjon, koble til maskinen din gjennom ditt lokale nettverk.
+- Gå til System-fanen og deretter Oppgradering.
+- Last opp filen du lastet ned og flash bildet.
 
-![bilde](assets/software/11.webp)
+![bilde](assets/fr/028.webp)
 
 ### Micro SD-kort
 
 En annen metode lar deg bruke et micro SD-kort. Denne metoden fungerer kun med maskiner med et operativsystem som dateres fra etter 2019.
 
-1. Last ned det nye operativsystemet som skal installeres her.
+- Last ned det nye operativsystemet som skal installeres her.
 
-2. Flash det nedlastede bildet på et micro SD-kort. For dette kan du bruke Etcher. Det vil ikke fungere å bare kopiere filen til micro SD-kortet.
-3. Hvis du eier en Antminer S9 og dens varianter (S9i, S9j), må du justere jumperne for å tvinge din ASIC til å starte fra filen på micro SD-kortet i stedet for NAND. Hvis du har en annen modell, kan du hoppe over til del 4. Jumperne er plassert på kontrollkortet på den øvre delen av ASIC-en, nær Ethernet-porten. Du må fjerne det ved å skyve det bakover. Når jumperposisjonen er endret som vist på bildene nedenfor BOOT FROM SD, kan du sette inn kontrollkortet på nytt og koble til S9 igjen.
-![bilde](assets/software/12.webp)
+- Flash det nedlastede bildet på et micro SD-kort. For dette kan du bruke Etcher. Det vil ikke fungere å bare kopiere filen til micro SD-kortet.
+- Hvis du eier en Antminer S9 og dens varianter (S9i, S9j), må du justere jumperne for å tvinge din ASIC til å starte fra filen på micro SD-kortet i stedet for NAND. Hvis du har en annen modell, kan du hoppe over til del 4. Jumperne er plassert på kontrollkortet på den øvre delen av ASIC-en, nær Ethernet-porten. Du må fjerne det ved å skyve det bakover. Når jumperposisjonen er endret som vist på bildene nedenfor BOOT FROM SD, kan du sette inn kontrollkortet på nytt og koble til S9 igjen.
+![bilde](assets/fr/029.webp)
 
-![bilde](assets/software/13.webp)
+![bilde](assets/fr/030.webp)
 
-4. Sett inn micro SD-kortet i ASIC-en.
-5. Start ASIC-en. Hvis den automatiske installasjonsversjonen ble brukt, vil det nye operativsystemet bli installert automatisk. Installasjonen er fullført når begge LED-lysene lyser samtidig. Du kan starte ASIC-en på nytt og fjerne micro SD-kortet. Hvis den andre versjonen ble lastet ned, må du la micro SD-kortet være inne i ASIC-en.
+- Sett inn micro SD-kortet i ASIC-en.
+- Start ASIC-en. Hvis den automatiske installasjonsversjonen ble brukt, vil det nye operativsystemet bli installert automatisk. Installasjonen er fullført når begge LED-lysene lyser samtidig. Du kan starte ASIC-en på nytt og fjerne micro SD-kortet. Hvis den andre versjonen ble lastet ned, må du la micro SD-kortet være inne i ASIC-en.
 
 For mer informasjon om installasjon, kan du besøke denne delen av Braiins-nettstedet.
 
@@ -354,7 +353,7 @@ Du vil da bli møtt av Brains OS+ Dashboard.
 
 ### Dashboard
 
-![bilde](assets/software/14.webp)
+![bilde](assets/fr/031.webp)
 
 På denne første siden kan du observere maskinens sanntidsytelse.
 
@@ -362,7 +361,7 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 - På høyre side, den reelle hashraten, gjennomsnittstemperaturen på chipen, estimert effektivitet i W/THs, og strømforbruk.
 - Nedenfor, viftehastigheten i prosent av maksimal hastighet og antall rotasjoner per minutt.
 
-![bilde](assets/software/15.webp)
+![bilde](assets/fr/032.webp)
 
 - Lenger ned, vil du finne en detaljert visning av hvert hashbord. Gjennomsnittstemperaturen på kortet og chipene det inneholder, spenning, og frekvens.
 - Detaljer om de aktive gruvebassengene i Pools.
@@ -371,18 +370,18 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 ### Konfigurasjon
 
-![bilde](assets/software/16.webp)
+![bilde](assets/fr/033.webp)
 
 ### System
 
-![bilde](assets/software/17.webp)
+![bilde](assets/fr/034.webp)
 
 ### Hurtigaksjoner
 
-![bilde](assets/software/18.webp)
+![bilde](assets/fr/035.webp)
 
-Konfigurering av et basseng
-Man kan forestille seg en gruvepool som et landbrukskooperativ. Bønder samler sin produksjon sammen for å redusere variansen i tilbud og etterspørsel og dermed oppnå en mer stabil inntekt for sin virksomhet. En gruvepool fungerer på samme måte, og det råmaterialet som samles sammen er hasher. Faktisk tillater oppdagelsen av en enkelt gyldig hash opprettelsen av en blokk og dermed vinning av coinbase eller belønningen, som for øyeblikket er 6,25 BTC pluss transaksjonsgebyrene inkludert i blokken. Hvis du miner alene, vil du kun bli belønnet når du finner en blokk. Ved å være i konkurranse mot alle andre minere på planeten, ville du ha veldig liten sjanse for å vinne denne store lotteriet, og du måtte fortsatt betale gebyrene forbundet med å bruke din miner uten noen garanti for suksess. Gruvepooler adresserer dette problemet ved å samle databehandlingskraften til flere (tusenvis av) minere og dele deres belønninger basert på prosentandelen av deltakelse i poolens hashrate når en blokk blir funnet. For å visualisere sjansene dine for å mine en blokk alene, kan du bruke dette verktøyet. Ved å legge inn informasjonen til en Antminer S9, kan vi se at sjansene for å finne en hash som tillater opprettelsen av en blokk er 1 i 24,777,849 for hver blokk eller 1 i 172,068 per dag. I gjennomsnitt (med en konstant hashrate og vanskelighetsgrad), ville det ta 471 år å finne en blokk.
+## Konfigurasjon av en pool
+Man kan forestille seg en gruvepool som et landbrukskooperativ. Bønder samler sin produksjon sammen for å redusere variansen i tilbud og etterspørsel og dermed oppnå en mer stabil inntekt for sin virksomhet. En gruvepool fungerer på samme måte, og det råmaterialet som samles sammen er hasher. Faktisk tillater oppdagelsen av en enkelt gyldig hash opprettelsen av en blokk og dermed vinning av coinbase eller belønningen, som for øyeblikket er 3,125 BTC pluss transaksjonsgebyrene inkludert i blokken. Hvis du miner alene, vil du kun bli belønnet når du finner en blokk. Ved å være i konkurranse mot alle andre minere på planeten, ville du ha veldig liten sjanse for å vinne denne store lotteriet, og du måtte fortsatt betale gebyrene forbundet med å bruke din miner uten noen garanti for suksess. Gruvepooler adresserer dette problemet ved å samle databehandlingskraften til flere (tusenvis av) minere og dele deres belønninger basert på prosentandelen av deltakelse i poolens hashrate når en blokk blir funnet. For å visualisere sjansene dine for å mine en blokk alene, kan du bruke dette verktøyet. Ved å legge inn informasjonen til en Antminer S9, kan vi se at sjansene for å finne en hash som tillater opprettelsen av en blokk er 1 i 24,777,849 for hver blokk eller 1 i 172,068 per dag. I gjennomsnitt (med en konstant hashrate og vanskelighetsgrad), ville det ta 471 år å finne en blokk.
 Men, siden alt i Bitcoin er sannsynlighet, skjer det noen ganger at solo-minere blir belønnet for å ta denne risikoen: Solo Bitcoin Miner Løser Blokk Med Hash Rate på Bare 10 TH/s, Slår Ekstremt Usannsynlige Odds – Decrypt
 
 Hvis du liker å gamble, kan du prøve det, men vår guide vil ikke fokusere i den retningen. I stedet vil vi konsentrere oss om gruvepoolen som best passer våre behov for å skape et oppvarmingssystem.
@@ -394,17 +393,17 @@ Belønningsmodellen som interesserer oss er PPS, som står for "pay-per-share". 
 - Linecoin: Fordelen med Linecoin er antallet funksjoner som tilbys, som et detaljert dashbord, muligheten til å gjøre uttak med en Paynym (BIP 47) for bedre personvernbeskyttelse, og integreringen av en Telegram-bot samt direkte konfigurerbare automatiseringer i mobilapplikasjonen. Denne poolen miner kun Bitcoin-blokker, men det minste beløpet for uttak forblir høyt på 100 000 sats. Vi vil undersøke grensesnittet til en av disse poolene mer detaljert i en fremtidig artikkel.
 For å konfigurere en pool i Braiins OS+, må du opprette en konto i en av poolene du velger. Her vil vi ta eksemplet med Linecoin:
 
-![bilde](assets/software/19.webp)
+![bilde](assets/fr/036.webp)
 
 Når kontoen din er opprettet, klikk på Koble til Pool
 
 Deretter kopierer du Stratum-adressen samt brukernavnet ditt:
 
-![bilde](assets/software/20.webp)
+![bilde](assets/fr/037.webp)
 
 Du kan nå gå tilbake til Braiins OS+-grensesnittet for å legge inn disse legitimasjonene. For passordet, kan du la feltet stå tomt.
 
-![bilde](assets/software/21.webp)
+![bilde](assets/fr/038.webp)
 
 ### Overklokking og Underklokking
 
@@ -425,3 +424,5 @@ Dette setter en øvre grense for hash-raten som en maskin kan ha. Autotuning er 
 Sluttresultatet er en høyere hash-rate per watt med elektrisitet, noe som betyr større fortjenestemarginer for gruvearbeidere. Grunnen til at maskiner ikke distribueres med denne typen programvare er at maskinvarians er uønsket, ettersom kunder ønsker å vite nøyaktig hva de får, og det er derfor en dårlig idé for produsenter å selge et produkt som ikke har konsekvent og forutsigbar ytelse fra en maskin til en annen. I tillegg krever autotuning på chip-nivå betydelige utviklingsressurser, ettersom det er komplekst å implementere. Produsenter bruker allerede mye ressurser på å utvikle sine egne firmware. Det finnes programvareløsninger som tillater autotuning, slik som Braiins OS+. I tillegg til å forbedre ASIC-ytelsen med opptil 20%.
 
 > Guide laget av DecouvreBitcoin, mer info om MINAGE 201 - kreditt Jim og Ajelex'
+
+

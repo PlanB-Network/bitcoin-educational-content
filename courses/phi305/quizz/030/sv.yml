@@ -1,0 +1,9 @@
+question: Vem säger att "människan inte är ett imperium inom ett imperium"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Det var Spinoza som hävdade att "människan inte är ett imperium inom ett imperium". Denna fras uttrycker tanken att människan inte är skild från naturen, utan en integrerad del av den, underkastad samma lagar.
+reviewed: false

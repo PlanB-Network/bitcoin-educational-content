@@ -1,0 +1,5 @@
+---
+term: Anchor UTGÅNGAR
+---
+
+Ett förslag som syftar till att förbättra hanteringen av transaktionsavgifter inom Lightning-kanaler. Vid varje tillståndsändring i en Lightning-kanal skapar och undertecknar intressenterna en ny Commitment Transaction som återspeglar den nya fördelningen av medel inom kanalen. Problemet med denna mekanism ligger i att fastställa transaktionsavgifterna vid tidpunkten för dess skapande. Transaktionsavgifterna i Bitcoin-nätverket är föremål för betydande fluktuationer, både uppåt och nedåt. Om de avgifter som fastställts för den sista Commitment Transaction är otillräckliga vid tidpunkten för den ensidiga stängningen av kanalen kommer det inte bara att ta avsevärd tid att bekräfta transaktionen, utan de temporala låsmekanismerna (tidslås) kan också möjliggöra stöld av medel. Anchor-utgångar reserverar en liten del av medlen i en Commitment Transaction för att täcka framtida avgifter. I händelse av överbelastning i nätverket och stigande avgifter kan Anchor-utgångar möjliggöra ändring av transaktionsavgifter efter skapandet av Commitment Transaction, vilket säkerställer en tillräckligt snabb stängning av Lightning-kanalen.

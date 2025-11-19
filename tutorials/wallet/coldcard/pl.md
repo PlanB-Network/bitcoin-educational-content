@@ -1,5 +1,5 @@
 ---
-name: Karta Cold
+name: COLDCARD Mk
 
 description: Tworzenie, tworzenie kopii zapasowych i używanie klucza prywatnego Bitcoin z urządzeniem Coldcard i Bitcoin Core
 ---
@@ -110,8 +110,8 @@ Zapoznaj się z naszymi przewodnikami instalacji i konfiguracji dla Bitcoin Core
 
 
 
-- Uruchamianie własnego węzła z Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Konfiguracja Tora dla węzła Bitcoin Core:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Uruchamianie własnego węzła z Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Konfiguracja Tora dla węzła Bitcoin Core:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 Najpierw włóż kartę micro SD do Coldcard, a następnie wyeksportuj Wallet do Bitcoin Core, wykonując następujące czynności: Advanced/Tools > Export Wallet > Bitcoin Core. Na karcie micro SD zostaną zapisane dwa pliki: Bitcoin-core.sig i Bitcoin-core.txt. Włóż kartę micro SD do komputera, na którym zainstalowany jest Bitcoin Core i otwórz plik .txt. Zobaczysz wiersz "Dla Wallet z odciskiem palca klucza głównego" Sprawdź, czy ośmioznakowy XFP pasuje do tego, który zanotowałeś podczas tworzenia klucza prywatnego"

@@ -1,9 +1,11 @@
-question: Mitä termi fiduciary tarkoittaa valuuttojen yhteydessä?
-answer: Se viittaa valuuttoihin, jotka ovat arvokkaita vain luottamuksen vuoksi keskuslaitokseen, joka niitä säätelee.
+question: Mikä on historiallinen polku, jota instituutiot ovat seuranneet fiat-valuuttojen käyttöönotossa?
+answer: Johtajat keskittävät kullan ja esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, ja jota sitten vähitellen aliarvostetaan.
 wrong_answers:
-  - Se viittaa valuuttoihin, jotka ovat kultavarannon tukemia ja joita pienet kaupalliset pankit laskevat liikkeelle.
-  - Se viittaa valuuttoihin, jotka ovat arvokkaita vain fidusiaaristen transaktioiden yhteydessä.
-  - Se viittaa valuuttoihin, joita käytetään vain tietyn laitoksen sisällä.
+  - Johtajat esittelevät uuden valuutan, joka on tuettu kullalla, ja jonka arvoa sitten vähitellen kasvatetaan.
+  - Johtajat esittelevät uuden valuutan, jolla ei ole sisäistä arvoa, ja jonka arvoa sitten vähitellen kasvatetaan.
+  - Johtajat esittelevät uuden valuutan, joka on tuettu hyödykekorilla, ja jonka arvoa pidetään vakiona.
 explanation: |
-  Fidusiaariset valuutat eivät ole fyysisen hyödykkeen, kuten kullan tai hopean, tukemia. Niiden arvo perustuu ihmisten luottamukseen ja uskoon laitoksiin, jotka ne laskevat liikkeelle ja säätelevät niitä.
+  Historiallisesti johtajat ovat keskittäneet kullan ja esitelleet
+  uuden valuutan, joka on arvoltaan vastaava kullan kanssa. Tämä uusi
+  valuutta sitten vähitellen aliarvostetaan, usein kansan edun nimissä.
 reviewed: true

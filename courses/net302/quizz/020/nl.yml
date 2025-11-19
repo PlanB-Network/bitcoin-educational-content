@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen TCP en UDP?
+answer: TCP is verbindingsgericht, UDP niet
+wrong_answers:
+  - TCP werkt alleen op lokale netwerken, UDP op internet
+  - TCP gebruikt altijd encryptie, UDP nooit
+  - TCP beheert IP-fragmentatie, UDP handelt compressie af
+explanation: |
+  TCP vereist dat er een verbinding wordt opgezet en gecontroleerd, terwijl UDP pakketten verstuurt zonder eerst een sessie op te zetten of te controleren.
+reviewed: false

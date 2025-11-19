@@ -1,9 +1,9 @@
-question: Milloin Bitcoinia käytettiin ensimmäistä kertaa fyysisten tavaroiden ostamiseen?
-answer: Kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC; llä.
+question: Mikä on siirtomaksujen tarkoitus Bitcoin-siirroissa?
+answer: Ne ovat kannustin louhijoille sisällyttää siirto seuraavaan lohkoon.
 wrong_answers:
-  - Kun Hal Finney osti auton 100 000 BTC: llä.
-  - Kun Satoshi Nakamoto osti talon 1 000 000 000 BTC: llä.
-  - Mikään muista vaihtoehdoista.
+  - Ne ovat hallituksen määräämä vero.
+  - Ne ovat maksu, jonka Bitcoin-verkko perii palveluidensa käytöstä.
+  - Ne ovat maksu, jonka lompakon tarjoaja perii.
 explanation: |
-  Ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen, oli kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC: llä, 22.5.2010, joka tunnetaan nyt Pizza Päivänä.
+  Siirtomaksut Bitcoin-siirroissa toimivat kannustimena louhijoille sisällyttää siirto seuraavaan lohkoon. Maksut luovat vapaan markkinan siirtojen sisällyttämiselle lohkoihin.
 reviewed: true

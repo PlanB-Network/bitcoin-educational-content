@@ -1,0 +1,11 @@
+question: Ni igiki gisobanura amajambo The Times 03/Jan/2009 umukuru w’igihugu ari ku ruhande rw’ugutabara ubwa kabiri amabanki yo mu gice ca mbere ca Bitcoin?
+answer: Birerekana ubushobozi bw'ubuhinga bwacu bw'ivy'ubutunzi bwo gufasha abantu gutakaza .
+wrong_answers:
+  - Bisobanura ko Satoshi ashima ikinyamakuru The Times .
+  - Bitanga akarorero kanini k'ingene ubutabazi bwagiriye akamaro igihugu cacu .
+  - Bitwereka ubushobozi bwa Bitcoin bwo kubika ubutumwa muri Blockchain.
+explanation: |
+  Ivyo ni ibivugwa mu kinyamakuru Times [ingingo] (https: //www.thetimes.co.uk/ingingo/umukuru w’igihugu-alistair-umukunzi-ari-ku ruhande-rw’ugufasha-amabanki-n9l382mn62h) kigaragaza Satoshi’s 
+  ivyiyumviro vy’uko amabanki yariko arigira inyifato mbi, ataco 
+  ingaruka kuri bo, kandi ko ivyo bahomvye vyosangira n’abafise amafaranga.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni ubuhe buryo busanzwe bwo kugarura Wallet yawe?
+answer: Kwinjiza ijambo ryawe rya Mnemonic muri porogarama iyo ari yo yose ya Wallet.
+wrong_answers:
+  - Kubika ijambo ryawe rya Mnemonic muri dosiye ya digitale.
+  - Kwandika ijambo ryawe rya Mnemonic ku kibaho cera.
+  - Gusangira ijambo ryawe rya Mnemonic n’umugenzi wizigira.
+explanation: |
+  Uburyo busanzwe bwo gukingira urufunguzo rwihariye muri
+  Bitcoin Wallet ni mu kwinjiza ijambo ryawe rya Mnemonic muri iryo ari ryo ryose
+  Porogaramu ya Wallet. Ivyo bigufasha kugarura Wallet yawe.
+reviewed: false

@@ -1,0 +1,8 @@
+question: UTXO'larınızı zaman zaman cüzdanlarınızda birleştirmenizin nedenlerinden biri nedir?
+answer: İşlemler sırasında gereksiz ücretlerden kaçınmak için.
+wrong_answers:
+  - Bitcoinlerinizin değerini artırmak için.
+  - Bitcoinlerinizin çalınmasını önlemek için.
+  - Bitcoinlerinizin her zaman kullanılabilir olmasını sağlamak için.
+explanation: >-
+reviewed: true

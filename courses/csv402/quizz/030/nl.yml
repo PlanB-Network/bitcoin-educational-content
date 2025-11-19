@@ -1,0 +1,9 @@
+question: Wat zijn de onderdelen van een RGB Consignment die Bob (ontvanger) ontvangt voor een Contract?
+answer: Genesis, Schema, Interface en Interface Implementation
+wrong_answers:
+  - Genesis, Schema, overgang en uitbreiding
+  - Schema, Interface, Handtekening en PSBT
+  - Genesis, Interface, PSBT en geschiedenis
+explanation: |
+  De Consignment van een RGB Contract omvat de Genesis, Schema, Interface en Interface Implementation, die alle gegevens leveren die nodig zijn om de Contract te valideren.
+reviewed: false

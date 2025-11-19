@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med de specialiserade redovisningsverktygen Bitcoin?
+answer: Att förenkla automatisk insamling och behandling av Bitcoin-relaterade uppgifter
+wrong_answers:
+  - För att förbättra säkerheten för Bitcoin:s privata nycklar
+  - För att underlätta direkt handel med Bitcoin på decentraliserade börser för företag
+  - Att sätta upp ett PoS-system för att ta emot Bitcoin-betalningar
+explanation: |
+  Dessa verktyg är utformade för att automatisera datainsamling, formatkonvertering, skatteberäkning och transaktionskategorisering.
+reviewed: false

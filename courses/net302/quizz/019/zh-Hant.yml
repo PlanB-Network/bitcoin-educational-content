@@ -1,0 +1,9 @@
+question: IP 通訊協定在 TCP/IP 模型中的主要角色是什麼？
+answer: 將資料封包從一台主機傳送至另一台主機
+wrong_answers:
+  - 管理網路通訊的加密
+  - 確保應用程式之間的持久連線
+  - 將 MAC 位址轉換為 IP 位址
+explanation: |
+  IP 通訊協定處理裝置的邏輯位址，並確保資料包在互連網路上傳。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken teknik hjälper till att skydda mot risken för spårning som orsakas av kundkännedom?
+answer: CoinJoin-transaktioner
+wrong_answers:
+  - Användning av VPN
+  - Användningen av en Full node
+  - Validering genom Proof of Work
+explanation: |
+  Coinjoins har effekten att bryta ett mynts historia, vilket hjälper dig att motverka risken för spårning i samband med kundkännedom.
+reviewed: false

@@ -1,0 +1,9 @@
+question: IANA가 각 지역 인터넷 레지스트리(RIR)에 일반적으로 할당하는 IPv6 블록 크기는 얼마인가요?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  2006년부터 각 RIR은 일반적으로 /12 블록의 IPv6를 수신하여 지역 할당을 위한 매우 큰 예비량을 제공합니다.
+reviewed: false

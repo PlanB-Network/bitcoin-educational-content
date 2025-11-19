@@ -1,5 +1,5 @@
 ---
-name: Fungua Node
+name: Open Node
 
 description: Sanidi Open Node kwa biashara yako ya mtandaoni
 

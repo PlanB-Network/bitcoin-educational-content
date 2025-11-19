@@ -1,0 +1,9 @@
+question: Vilket koncept för elektroniska pengar nämndes uttryckligen av Satoshi Nakamoto i Bitcoin:s vitbok?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit guld (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Detta var den första referensen. Satoshi lade till den i augusti 2008 efter sina diskussioner med Wei Dai.
+reviewed: true

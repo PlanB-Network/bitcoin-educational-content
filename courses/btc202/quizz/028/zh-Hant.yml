@@ -1,0 +1,9 @@
+question: pruned 節點與 Full node 節點有何不同？
+answer: 它會逐漸消除舊區塊
+wrong_answers:
+  - 它不會驗證舊的交易
+  - 它無法中繼整個區塊
+  - 它不保留任何 Blockchain 的本機副本，只保留 UTXO 設定。
+explanation: |
+  pruned 節點驗證整個鏈，但只保留最近的部分區塊，以限制其儲存。
+reviewed: true

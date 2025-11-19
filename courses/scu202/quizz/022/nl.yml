@@ -1,0 +1,9 @@
+question: Welke distributie gebruikt standaard de Cinnamon bureaubladomgeving?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon is ontwikkeld door het Linux Mint-team om een moderne, klassieke Interface aan te bieden, dicht bij Windows.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - 150 millions
 explanation: |
   Bitcoin est programmé pour avoir une émission limitée à environ 21 millions de bitcoins.
-reviewed: false
+reviewed: true 

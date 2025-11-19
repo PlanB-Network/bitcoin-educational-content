@@ -1,0 +1,9 @@
+question: Which of these desktop environments is particularly recommended for older or less powerful machines?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Cinnamon
+  - KDE Plasma
+explanation: |
+  LXQt, like Xfce, consumes few resources and is designed to run efficiently on low-performance hardware.
+reviewed: false

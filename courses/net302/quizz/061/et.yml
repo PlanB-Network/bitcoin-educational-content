@@ -1,0 +1,9 @@
+question: Mis on anycast Address IPv6-s?
+answer: Address, mis on määratud mitmele sõlmpunktile
+wrong_answers:
+  - Address, mis on pühendatud ülemaailmsele multisaatmisele
+  - Address, mis muutub iga taaskäivitusega
+  - Address, mis on reserveeritud tehnilise dokumentatsiooni jaoks
+explanation: |
+  Anycast Address on määratud mitmele seadmele ja marsruutimine edastab paketi sellele, mis on topoloogiliselt kõige lähemal.
+reviewed: false

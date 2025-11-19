@@ -1,9 +1,9 @@
-question: Mikä oli inflaatioaste Zimbabwessa marraskuussa 2008?
-answer: 79 600 000 000%
+question: Mikä on komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79 600 000 000 000 000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Marraskuussa 2008 Zimbabwen valuutan kuukausittainen inflaatioaste kohosi 79 600 000 000%; iin, mikä murskasi Zimbabwen dollarin arvon nollaan.
+  Komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa, on bitcoin-cli gettxoutsetinfo. Tämä komento tarjoaa läpinäkyvyyttä ja todennettavuutta, vahvistaen luottamusta Bitcoin-järjestelmään.
 reviewed: true

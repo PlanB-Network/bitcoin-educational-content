@@ -1,0 +1,9 @@
+question: Vilken renderingsmotor skapades från en Fork av KHTML för att utrusta Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Blinka
+explanation: |
+  WebKit är en Fork av KHTML, vald av Apple för Safari från 2003 och framåt, och därefter antagen av många webbläsare.
+reviewed: false

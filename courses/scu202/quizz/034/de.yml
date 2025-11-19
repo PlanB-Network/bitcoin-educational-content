@@ -1,0 +1,9 @@
+question: Was sollten Sie als Erstes tun, um den Zugang zu Ihrem persönlichen Computer zu sichern?
+answer: Setzen Sie ein sicheres Sitzungspasswort
+wrong_answers:
+  - Installation eines Antivirenprogramms
+  - Konfigurieren der UFW-Firewall
+  - Aktivieren der Festplattenverschlüsselung
+explanation: |
+  Das Sitzungskennwort ist die erste Sicherheitsbarriere, die den unbefugten Zugriff auf Ihren Rechner verhindert, noch vor allen anderen zusätzlichen Maßnahmen.
+reviewed: false

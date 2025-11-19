@@ -1,23 +1,23 @@
 ---
-name: Ajouter un livre sur PlanB Network
-description: Comment ajouter un nouveau livre sur PlanB Network ?
+name: Ajouter un livre sur Plan ₿ Academy
+description: Comment ajouter un nouveau livre sur Plan ₿ Academy ?
 ---
 ![book](assets/cover.webp)
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
-**Vous souhaitez ajouter un livre en rapport avec Bitcoin sur le site de PlanB Network et donner de la visibilité à votre ouvrage, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !**
+**Vous souhaitez ajouter un livre en rapport avec Bitcoin sur le site de Plan ₿ Academy et donner de la visibilité à votre ouvrage, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !**
 ![book](assets/01.webp)
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait un tutoriel détaillé pour vous accompagner.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) dans la section `resources/books/` :
 ![book](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![book](assets/03.webp)
-- Si vous n'avez encore jamais contribué sur les contenus de PlanB Network, vous allez devoir créer votre fork du dépôt original. Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Cliquez sur le bouton `Fork this repository` :
+- Si vous n'avez encore jamais contribué sur les contenus de Plan ₿ Academy, vous allez devoir créer votre fork du dépôt original. Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Cliquez sur le bouton `Fork this repository` :
 ![book](assets/04.webp)
 - Vous arrivez ensuite sur la page d'édition de GitHub :
 ![book](assets/05.webp)
@@ -72,7 +72,7 @@ tags:
 ![book](assets/13.webp)
 - Cliquez sur votre image de profil GitHub en haut à droite, puis sur `Your Repositories` :
 ![book](assets/14.webp)
-- Sélectionnez votre fork du dépôt de PlanB Network :
+- Sélectionnez votre fork du dépôt de Plan ₿ Academy :
 ![book](assets/15.webp)
 - Vous devriez voir apparaître sur le haut de la fenêtre une notification avec votre nouvelle branche. Elle s'appelle sûrement `patch-1`. Cliquez dessus :
 ![book](assets/16.webp)
@@ -94,7 +94,7 @@ tags:
 ![book](assets/24.webp)
 - Cliquez sur le bouton `Add file`, puis sur `Upload files` :
 ![book](assets/25.webp)
-- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone l'image de couverture de votre livre. Cette image sera affichée sur le site de PlanB Network :
+- Une nouvelle page va s'ouvrir. Glissez et déposez dans la zone l'image de couverture de votre livre. Cette image sera affichée sur le site de Plan ₿ Academy :
 ![book](assets/26.webp)
 - Attention, l'image doit être dans le format d'un livre, afin de s'adapter au mieux à notre site web, comme par exemple :
 ![book](assets/27.webp)
@@ -163,8 +163,8 @@ contributors:
 ![book](assets/43.webp)
 - Cliquez sur le bouton `Create pull request` :
 ![book](assets/44.webp)
-Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant la vérifier et, si tout est conforme, l'intégrer au dépôt principal de PlanB Network. Vous devriez voir votre livre apparaître sur le site web quelques jours plus tard.
+Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant la vérifier et, si tout est conforme, l'intégrer au dépôt principal de Plan ₿ Academy. Vous devriez voir votre livre apparaître sur le site web quelques jours plus tard.
 
-Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de PlanB Network :
+Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de Plan ₿ Academy :
 ![book](assets/45.webp)
 Merci beaucoup pour votre précieuse contribution ! :)

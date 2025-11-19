@@ -1,0 +1,9 @@
+question: Welke van deze bureaubladomgevingen wordt vooral aanbevolen voor oudere of minder krachtige machines?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Kaneel
+  - KDE Plasma
+explanation: |
+  LXQt verbruikt net als Xfce weinig bronnen en is ontworpen om efficiënt te draaien op hardware met lage prestaties.
+reviewed: false

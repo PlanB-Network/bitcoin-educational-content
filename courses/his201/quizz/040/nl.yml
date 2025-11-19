@@ -1,0 +1,9 @@
+question: Hoeveel bitcoins (ongeveer) heeft Satoshi Nakamoto in totaal gemijnd?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1.122.693 bitcoins, volgens een onderzoek van Whale Alert gepubliceerd in 2020. Satoshi staakte zijn Mining activiteiten in mei 2010.
+reviewed: true

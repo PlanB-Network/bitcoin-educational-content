@@ -1,0 +1,9 @@
+question: Kes arvab, et inimene võib pigem häirida loodust kui alluda sellele?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes uskus, et inimene võib pigem häirida loodust kui läbida seda. See dualistlik nägemus seab inimese looduse vastu ja väidab, et me võime oma tahte abil tõusta üle loodusseaduste.
+reviewed: false

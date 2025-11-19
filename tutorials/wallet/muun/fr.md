@@ -6,15 +6,15 @@ description: Mise en place de votre portefeuille Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
+[Muun](https://muun.com/) est un portefeuille en auto-garde pour bitcoin et lightning.
 
-## video tutorial
+## Tutoriel vidéo
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Guide d'utilisation complet
 
-Guide d'utilisation complet (avec captures d'écran) de l'application Muun; un portefeuille mobile Bitcoin convivial vous permettant de transiger sur le Lightning Network.
+Guide utilisateur complet (avec captures d’écran) pour l’application Muun ; un portefeuille Bitcoin mobile convivial qui vous permet de réaliser des transactions sur le Lightning Network.
 
 ![image](assets/0.5.webp)
 
@@ -122,15 +122,15 @@ Voici la traduction des instructions :
 
 Cette procédure d’urgence vous aidera à récupérer vos fonds si vous n’êtes pas en mesure d’utiliser Muun sur votre appareil.
 
-1. Trouvez votre code de récupération
+- Trouvez votre code de récupération
 
 Vous avez écrit ce code sur un bout de papier avant de créer votre kit d’urgence. Vous en aurez besoin plus tard.
 
-2. Téléchargez l’outil de recouvrement
+- Téléchargez l’outil de récupération
 
 Allez sur la page https://github.com/muun/recovery et téléchargez l’outil sur votre ordinateur
 
-3. Récupérez vos fonds
+- Récupérez vos fonds
 
 Exécutez l’outil de récupération et suivez les étapes. L’outil se chargera de transférer vos fonds à une adresse Bitcoin de votre choix.
 
@@ -174,7 +174,7 @@ Les options de personnalisation se trouvent sous le menu “Invoice settings”.
 
 ![image](assets/28.webp)
 
-##Utiliser la fonction LNURL
+## Utilisation de la fonction LNURL
 
 Le portefeuille Muun offre la possibilité d’utiliser LNURL pour recevoir des transactions. Cette fonction, qui s’active en appuyant sur le symbole carré de balayage (scan) situé en haut à droite de la page, comporte quelques avantages dont celle de vous éviter d’avoir à partager une facture pour recevoir une transaction. Plutôt, vous devez balayer un code QR pour recevoir les informations de paiement que vous pourrez ensuite valider pour confirmer le procédé transactionnel.
 

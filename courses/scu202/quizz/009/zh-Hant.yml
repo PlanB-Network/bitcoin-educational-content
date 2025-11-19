@@ -1,0 +1,9 @@
+question: 作業系統的主要角色是什麼？
+answer: 硬體、使用者和應用程式之間的中介
+wrong_answers:
+  - 整合式防毒軟體
+  - 圖形軟體
+  - 即時通訊伺服器
+explanation: |
+  作業系統扮演中央軟體 Layer 的角色，可讓應用程式和使用者存取並控制硬體。
+reviewed: false

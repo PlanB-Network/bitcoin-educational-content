@@ -1,0 +1,9 @@
+question: Vilken typ av algebraisk struktur ligger till grund för abstrakt algebra?
+answer: Grupp
+wrong_answers:
+  - Fält
+  - Ring
+  - Matris
+explanation: |
+  Gruppen är den grundläggande algebraiska struktur som abstrakt algebra bygger på och som definieras av en uppsättning Elements och en binär operation som respekterar vissa egenskaper.
+reviewed: false

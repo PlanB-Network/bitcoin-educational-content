@@ -1,0 +1,9 @@
+question: Apa peran relai Nostr yang dipasang pada Umbrel?
+answer: Hosting publikasi Anda secara lokal
+wrong_answers:
+  - Periksa transaksi Bitcoin
+  - Membuat saluran Nostr dengan kontak Anda
+  - Cadangan lokal Blockchain Nostr
+explanation: |
+  Relai Nostr pada Umbrel memungkinkan data dihosting secara lokal, menjamin ketersediaan dan kedaulatan.
+reviewed: true

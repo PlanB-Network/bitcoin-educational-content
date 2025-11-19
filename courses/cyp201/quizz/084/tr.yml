@@ -1,0 +1,9 @@
+question: Bir işlemde Bitcoin Address'ın birincil rolü nedir?
+answer: UTXO'ları kod içinde kilitleyinPubKey
+wrong_answers:
+  - ScriptSig'deki UTXO'ların kilidini açın
+  - İşlemin sona erdiğini bildirir
+  - Onay bloğunu tanımlayın
+explanation: |
+  UTXO'ları kilitlemek için scriptPubKey'e bir Bitcoin Address yerleştirilir. Fonların kilidini açmak için gerekli koşulları belirler.
+reviewed: false

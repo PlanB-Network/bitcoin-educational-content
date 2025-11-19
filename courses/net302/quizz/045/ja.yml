@@ -1,0 +1,9 @@
+question: MAC Addressを人為的に変更する行為とは？
+answer: MACスプーフィング
+wrong_answers:
+  - MACフィッシング
+  - MACスニッフィング
+  - Macのキーロギング
+explanation: |
+  MACスプーフィングとは、ネットワークInterfaceのハードウェアAddressを変更する行為で、多くの場合、プライバシー上の理由や制限を回避するために行われる。
+reviewed: false

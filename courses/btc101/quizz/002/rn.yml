@@ -1,0 +1,11 @@
+question: Ni ibihe bintu bibiri nyamukuru biranga Bitcoin?
+answer: Bitcoin ni porotokole ya mudasobwa kandi ni igice c’amahera.
+wrong_answers:
+  - Bitcoin ni amafaranga y'umubiri n'ay'umubare Wallet.
+  - Bitcoin ni ubwoko bw’itunga n’ubwoko bw’itunga.
+  - Bitcoin ni ifaranga ry’imbere n’iry’imbere.
+explanation: |
+  Bitcoin ni porotokole ya mudasobwa ikoresha ubuhinga .
+  nk’ubuhinga bwo gukingira amakuru n’ubuhinga bwa Blockchain, be n’ivy’amahera
+  unit ikoreshwa mu gukora ibikorwa.
+reviewed: true

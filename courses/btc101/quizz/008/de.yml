@@ -1,11 +1,13 @@
-question: Was bedeutet es, dass Bitcoin eine neutrale Währung ist?
-answer: Sie wird von keiner Entität oder Institution kontrolliert.
+question: Was ist die Unabhängigkeitserklärung des Cyberspace?
+answer: Ein Text, der behauptet, dass der Cyberspace eine eigene Sphäre abseits der physischen Welt ist und nicht denselben Gesetzen unterliegen sollte.
 wrong_answers:
-  - Sie wird von einer einzelnen Entität oder Institution kontrolliert.
-  - Sie wird von der Regierung reguliert.
-  - Sie wird nur für große Transaktionen verwendet.
+  - Eine Erklärung, die die Unabhängigkeit von Bitcoin von traditionellen Finanzsystemen feststellt.
+  - Ein Text, der behauptet, dass der Cyberspace durch staatliche Regulierung kontrolliert werden sollte.
+  - Eine Erklärung, die für die Unabhängigkeit der Piratenbewegung von jeglicher Regulierung eintritt.
 explanation: |
-  Bitcoin ist eine neutrale Währung, was bedeutet, dass sie
-  von keiner Entität oder Institution kontrolliert wird, sodass jeder Nutzer
-  die gleichen Rechte hat. Dies ist ein Schlüsselaspekt seiner Dezentralisierung.
+  Die Unabhängigkeitserklärung des Cyberspace wurde
+  1996 von John Perry Barlow verfasst. Dieses Dokument behauptet,
+  dass der Cyberspace eine eigene Sphäre abseits der physischen
+  Welt ist, sodass industrielle Regierungen dort ihre
+  Autorität nicht durchsetzen können.
 reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Qué elemento de un nombre de dominio representa el dominio de nivel superior (TLD)?
+answer: El elemento situado más a la derecha
+wrong_answers:
+  - El elemento situado más a la izquierda
+  - El segundo nivel después del anfitrión
+  - El nombre del host principal
+explanation: |
+  El TLD es siempre el elemento situado más a la derecha del FQDN, como .com, .org o .fr.
+reviewed: false

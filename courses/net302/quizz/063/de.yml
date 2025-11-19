@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel der Einführung von IPv6?
+answer: Bieten Sie einen praktisch unbegrenzten Address-Raum
+wrong_answers:
+  - Erhöhung des Ethernet-Durchsatzes um den Faktor 4
+  - TCP schrittweise durch UDP ersetzen
+  - Reduzieren Sie die Anzahl der Bytes pro Paket
+explanation: |
+  Der Hauptzweck von IPv6 besteht darin, den Mangel an IP-Adressen zu beheben, indem der Address-Raum massiv erweitert wird.
+reviewed: false

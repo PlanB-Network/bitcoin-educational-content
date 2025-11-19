@@ -1,0 +1,8 @@
+question: Bitcoin Core çekme isteklerinin bakımcılar tarafından depoyla birleştirilmeden önce çok uzun zaman almasının birincil sonucu nedir?
+answer: Önerilen kod değişikliklerini değerlendirmek için mevcut gözden geçiricilerin eksikliğine işaret etmektedir
+wrong_answers:
+  - "Bu durum, bakımcıların Bitcoin'in gelişim sürecini kasıtlı olarak yavaşlattığını gösteriyor"
+  - "Önerilen değişikliklerin Bitcoin'nin uzlaşı kuralları ile temelden uyumsuz olduğunu gösteriyor"
+  - "GitHub platformunun Bitcoin'ün kod tabanını işlemek için teknik sınırlamaları olduğunu ortaya koyuyor"
+explanation: |
+  Bölüm içeriğine göre pull request'lerin birleştirilmesi uzun zaman almaktadır, bunun başlıca nedeni ise gözden geçirme eksikliğidir; bu da bakımcıların engellemesi ya da teknik sorunlardan ziyade gözden geçirenlerin yetersizliğinden kaynaklanmaktadır. İnceleme süreci, kod kalitesini sağladığı ve kötü niyetli değişiklikleri önlediği için Bitcoin'ün güvenliği açısından çok önemlidir. Bu darboğazın nedeni karmaşık kriptografik kodların gözden geçirilmesinin uzmanlık ve zaman gerektirmesi ve nitelikli gözden geçiricilerin geliştirme sürecinde kıt bir kaynak haline gelmesidir.

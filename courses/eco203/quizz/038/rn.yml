@@ -1,0 +1,9 @@
+question: Bastiat abona gute insobanuro nziza y’itunga?
+answer: Bitegerezwa kwitwararika imvo n’imvano .
+wrong_answers:
+  - Bitegerezwa kwitwararika ingaruka .
+  - Bitegerezwa kwitwararika itegeko .
+  - Bitegerezwa gushingiye ku kwemerwa n'abantu .
+explanation: |
+  Bastiat abona ko umutungo ukwiye gusobanurwamwo ibintu biwutera, nk’ibikorwa n’inguvu z’umuntu ku giti ciwe, aho gusobanurwamwo nk’inyubako gusa itegekanijwe n’amategeko.
+reviewed: false

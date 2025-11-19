@@ -1,0 +1,9 @@
+question: Hangi ifade özel tarama modunu en iyi şekilde açıklar?
+answer: Yerel izlerin kaydını sınırlar
+wrong_answers:
+  - İnternette gezinmeyi anonim hale getirir
+  - Tüm kötü amaçlı izleyicileri ve komut dosyalarını engeller
+  - Etkin uzantıları siler
+explanation: |
+  Özel mod sadece geçmişin ve çerezlerin yerel olarak kaydedilmesini önler, ancak internette anonimliği garanti etmez.
+reviewed: false

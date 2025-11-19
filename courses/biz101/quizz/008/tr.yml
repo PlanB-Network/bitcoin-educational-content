@@ -1,0 +1,9 @@
+question: Hangi ifade Bitcoin'ın işletmeler için bir ağ ve varlık olarak rolünü en iyi şekilde ortaya koymaktadır?
+answer: Küresel, merkezi olmayan bir sistemde hem bir değer deposu hem de bir Exchange aracı olarak hareket edebilir.
+wrong_answers:
+  - Yalnızca yerel bir hediye kartı sistemi olarak işlev görebilir.
+  - Gerçek bir faydası olmayan, yalnızca spekülatif bir ticaret aracıdır.
+  - İşleyebilmesi için tek bir ülkenin para politikalarına bağlı olması gerekir.
+explanation: |
+  Bitcoin'ün küresel, internete özgü tasarımı, sadece bir değer deposu olarak değil, aynı zamanda bir Exchange aracı olarak da hizmet vermesine olanak tanıyarak işletmelere dünya çapında hızlı, izinsiz ve nihai işlem mutabakatı sağlar.
+reviewed: false

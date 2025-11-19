@@ -1,0 +1,12 @@
+question: USDt gibi sabit coinler değerde göreceli istikrarı nasıl sağlıyor?
+answer: İstikrarlı bir varlığa veya para birimine sabitlenirler.
+wrong_answers:
+  - Merkezi bir otorite ya da hükümet tarafından desteklenirler.
+  - Güvenli işlemler için Blockchain teknolojisine güveniyorlar.
+  - Diğer kripto para birimlerine benzer şekilde dalgalanmalara maruz kalırlar.
+explanation: |
+  Stablecoinler sabitlenerek değerde göreceli istikrarı korurlar
+  aBD doları veya altın gibi daha istikrarlı bir varlığa veya para birimine.
+  Bu sabitleme, genellikle diğer para birimleriyle ilişkilendirilen oynaklığı azaltmaya yardımcı olur
+  gW-1 gibi dijital varlıklar.
+reviewed: true

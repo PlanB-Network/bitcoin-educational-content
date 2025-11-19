@@ -1,0 +1,9 @@
+question: Genel olarak IANA tarafından her Bölgesel İnternet Kaydı'na (RIR) tahsis edilen IPv6 blok boyutu nedir?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  2006 yılından bu yana, her RIR tipik olarak bir /12 IPv6 bloğu almakta ve bölgesel tahsis için çok büyük bir rezerv sağlamaktadır.
+reviewed: false

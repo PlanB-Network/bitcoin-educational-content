@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan att använda Salsa20-algoritmen med en 128-bitars nyckel och en 256-bitars nyckel?
+answer: Nyckellängden påverkar antalet rundor i algoritmen.
+wrong_answers:
+  - Nyckellängden ändrar typen av kryptering.
+  - En 128-bitars nyckel används för strömkryptering och en 256-bitars nyckel för blockkryptering.
+  - Nyckelns längd har ingen inverkan i Salsa20.
+explanation: |
+  I det symmetriska krypteringsschemat Salsa20 påverkar nyckellängden (128 eller 256 bitar) antalet rundor i algoritmen, utan att själva algoritmens kärna ändras.
+reviewed: false

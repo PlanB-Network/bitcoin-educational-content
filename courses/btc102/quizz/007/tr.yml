@@ -1,0 +1,9 @@
+question: Veri yedekleme açısından 3-2-1 kuralı ne anlama geliyor?
+answer: Verilerin 3 kopyası, 2 farklı ortamda saklanmalı ve bunlardan 1’i uzak bir konumda tutulmalıdır
+wrong_answers:
+  - 2 çevrimiçi ortamda ve 1 fiziksel cihazda 3 kopya
+  - biri tesis dışında olmak üzere 2 kopyalı 3 medya
+  - 2'si şifrelenmiş ve 1'i tesis dışında saklanan 3 kopya
+explanation: |
+  Bu kural, daha fazla esneklik için 1 kopyası tesis dışında saklanmak üzere 2 farklı medya türünde 3 veri kopyası bulundurulmasını önermektedir.
+reviewed: false

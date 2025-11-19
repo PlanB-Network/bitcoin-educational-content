@@ -1,0 +1,9 @@
+question: Hur förbättrar RGB skalbarheten jämfört med traditionella Blockchain?
+answer: Genom att begränsa lagring och validering till att endast omfatta relevanta tillståndsövergångar
+wrong_answers:
+  - Genom att praktiskt taget öka storleken på Bitcoin-blocken
+  - Genom att länka varje Contract direkt till alla UTXO
+  - Genom att centralisera Contract-data till ett fåtal centrala servrar
+explanation: |
+  RGB minskar lagrings- och valideringskraven genom att endast behålla de data som är relevanta för varje deltagare.
+reviewed: false

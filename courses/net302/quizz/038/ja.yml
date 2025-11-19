@@ -1,0 +1,9 @@
+question: IANAがRIRに割り当てるIPv4ブロックのサイズを表す典型的なCIDR範囲は？
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANAはIPv4空間をサイズ/8のブロックに分割し、それぞれに2^24のアドレスを格納している。
+reviewed: false

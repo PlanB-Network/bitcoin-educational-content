@@ -1,5 +1,5 @@
 ---
-name: SimpleX vestlus
+name: SimpleX Chat
 description: Esimene postkast ilma kasutajatunnuseta
 ---
 ![cover](assets/cover.webp)
@@ -243,7 +243,7 @@ SimpleX genereerib seejärel ühekordselt kasutatava lingi. Seda saate edastada 
 
 
 
-Samuti saate valida, millist profiili selle kutselinkiga seostada. Selleks klõpsake oma profiilil kohe QR-koodi all. Seejärel saate :
+Samuti saate valida, millist profiili selle kutselinkiga seostada. Selleks klõpsake oma profiilil kohe QR-koodi all. Seejärel saate:
 
 
 
@@ -313,7 +313,7 @@ Nüüd saate vabalt Exchange sõnumeid, kõnesid ja faile koos Bobiga, sõltuval
 
 
 
-Näiteks võiksite luua :
+Näiteks võiksite luua:
 
 
 
@@ -397,4 +397,4 @@ Soovitan ka seda teist õpetust, kus ma tutvustan Threema't, mis on veel üks hu
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

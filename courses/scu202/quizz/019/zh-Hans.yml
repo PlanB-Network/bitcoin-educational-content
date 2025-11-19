@@ -1,0 +1,9 @@
+question: 什么是 Linux 发行版？
+answer: 围绕 Linux 内核构建的完整操作系统
+wrong_answers:
+  - 软件包管理器
+  - Linux 桌面环境
+  - Linux 操作系统的自动安装脚本
+explanation: |
+  Linux 发行版集成了内核、系统工具、软件、引导加载程序和软件包管理，提供了一个随时可用的系统。
+reviewed: false

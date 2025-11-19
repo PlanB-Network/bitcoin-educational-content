@@ -1,0 +1,9 @@
+question: Koji alat prikazuje detaljne DNS poruke, uključujući zapise i proces razrešavanja?
+answer: kopaj
+wrong_answers:
+  - domaćin
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) pruža detaljne informacije o DNS rezoluciji, uključujući tipove zapisa.
+reviewed: false

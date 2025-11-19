@@ -1,9 +1,9 @@
-question: Warum wurde Gold zum Standardtauschmittel?
-answer: Aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit.
+question: Warum ist Gold kein portables Material?
+answer: Weil es dicht und schwer ist, was es umständlich macht, es in großen Mengen zu tragen.
 wrong_answers:
-  - Aufgrund seiner Häufigkeit, Haltbarkeit und Unteilbarkeit.
-  - Aufgrund seiner Seltenheit, Vergänglichkeit und Teilbarkeit.
-  - Aufgrund seiner Häufigkeit, Vergänglichkeit und Unteilbarkeit.
+  - Weil es zu wertvoll ist, um bewegt zu werden.
+  - Weil es nicht leicht in kleinere Formen gebracht werden kann.
+  - Weil es bei Raumtemperatur flüssig ist.
 explanation: |
-  Gold wurde aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit zum Standardtauschmittel: seine Seltenheit verhinderte die Entwertung, die durch Produktion verursacht werden könnte; seine Haltbarkeit stellte sicher, dass es nicht mit der Zeit erodieren würde, und seine Teilbarkeit ermöglichte die Verwendung in Transaktionen unterschiedlicher Größen.
+  Gold ist dicht und schwer, was bedeutet, dass das Tragen großer Mengen davon körperlich herausfordernd sein kann. Dieses Gewicht macht es im Vergleich zu leichteren Materialien weniger praktisch für den Transport.
 reviewed: true

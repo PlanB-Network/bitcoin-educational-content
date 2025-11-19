@@ -1,0 +1,9 @@
+question: Waarom is het essentieel om je e-mail te beveiligen?
+answer: Omdat je hiermee je wachtwoorden opnieuw kunt instellen
+wrong_answers:
+  - Omdat het wordt gebruikt om nieuwsbrieven te ontvangen
+  - Omdat het al je wachtwoorden bevat
+  - Omdat het uw bankgegevens bevat
+explanation: |
+  De mailbox is het centrale toegangspunt voor het achterhalen van wachtwoorden en het compromitteren van meerdere accounts in het geval van een inbreuk.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apakah Immanuel Kant adalah seorang filsuf?
+answer: Jerman.
+wrong_answers:
+  - Bahasa Inggris.
+  - Polandia.
+  - Belanda.
+explanation: |
+  Immanuel Kant (1724-1804) adalah seorang filsuf Jerman, yang dianggap sebagai salah satu pemikir terpenting pada masa Pencerahan. Ia mengembangkan filsafat kritis yang berusaha mendamaikan rasionalisme dan empirisme.
+reviewed: false

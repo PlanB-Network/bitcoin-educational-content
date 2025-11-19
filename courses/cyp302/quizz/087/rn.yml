@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo gupfuka bukoresha umurongo w’intango kandi bugatuma habaho ugupfuka kw’ibishoboka?
+answer: CBC (Ugufatanya amabuye y'agaciro)
+wrong_answers:
+  - ECB (Igitabo c'amategeko y'ubuhinga bwa none)
+  - AES-128
+  - SHA-256
+explanation: |
+  Uburyo bwa CBC bukoresha umurongo w’intango kandi bukoresha XOR hagati y’igice cose c’inyandiko rusangi n’igice ca mbere cashizwemwo amakuru, bikaba bituma ugushiramwo amakuru bishoboka kandi bifise umutekano kuruta ECB.
+reviewed: false

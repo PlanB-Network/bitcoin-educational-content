@@ -1,0 +1,9 @@
+question: Trình duyệt nào giới thiệu JavaScript vào năm 1995?
+answer: Trình duyệt Netscape
+wrong_answers:
+  - Trình duyệt Internet Explorer
+  - Firefox
+  - Cuộc đi săn
+explanation: |
+  Netscape Navigator tích hợp ngôn ngữ JavaScript, được Brendan Eich phát triển vào năm 1995, để cho phép tương tác động trên các trang web.
+reviewed: false

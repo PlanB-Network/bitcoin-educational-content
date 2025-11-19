@@ -1,0 +1,9 @@
+question: RC4 neden eşzamanlı bir akış şifresi olarak sınıflandırılır?
+answer: Anahtar akışı düz metin ve şifreli metinden bağımsızdır
+wrong_answers:
+  - Anahtar akışı önceki şifreli metin değerlerine bağlıdır
+  - Düz metin anahtar akışına entegre edilmelidir
+  - Yalnızca düz metne dayalı bir anahtar akışı kullanır
+explanation: |
+  RC4 eşzamanlı bir akış şifresidir çünkü anahtar akışı düz metne veya şifreli metne değil yalnızca başlangıç anahtarına bağlıdır ve bu akışın mesajlardan bağımsız olmasını sağlar.
+reviewed: false

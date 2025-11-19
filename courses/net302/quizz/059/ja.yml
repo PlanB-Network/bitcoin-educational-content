@@ -1,0 +1,9 @@
+question: LinuxのInterfaceに固定IPのAddressを追加するには、どのコマンドを使用できますか？
+answer: ip addr add [Address]/[mask] dev [Interface].
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask］
+  - ip route add [Address] dev [Interface].
+  - route add -net [Address] netmask [mask] dev [Interface］
+explanation: |
+  ip addr add "コマンドは、Linux上のネットワークInterfaceに静的IP Addressを割り当てる最新の方法である。
+reviewed: false

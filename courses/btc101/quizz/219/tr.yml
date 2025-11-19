@@ -1,0 +1,8 @@
+question: Lightning Network ne tür bir ağ oluşturuyor?
+answer: Bir ödeme kanalları ağı.
+wrong_answers:
+  - Mining düğümlerinden oluşan bir ağ.
+  - Blockchain düğümlerinden oluşan bir ağ.
+  - Kripto para borsalarından oluşan bir ağ.
+explanation: >-
+reviewed: true

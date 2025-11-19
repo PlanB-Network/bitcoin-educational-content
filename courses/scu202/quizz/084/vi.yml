@@ -1,0 +1,9 @@
+question: Nhược điểm chính của Signal khi nói đến tính ẩn danh là gì?
+answer: Nó yêu cầu sử dụng số điện thoại
+wrong_answers:
+  - Nó không phải là mã nguồn mở
+  - Nó lưu trữ tin nhắn trên một máy chủ trung tâm
+  - Nó không mã hóa các tập tin trao đổi
+explanation: |
+  Signal yêu cầu phải có số điện thoại để đăng ký, điều này có thể dẫn đến khả năng truy xuất nguồn gốc mặc dù giao thức đảm bảo mã hóa mạnh.
+reviewed: false

@@ -1,0 +1,8 @@
+question: O que torna o processamento de transacções do Bitcoin resistente à censura?
+answer: A ordenação das transacções é realizada coletivamente por um conjunto dinâmico de mineiros a que qualquer pessoa pode aderir ou abandonar
+wrong_answers:
+  - A validação das transacções é encriptada utilizando protocolos criptográficos avançados que os governos não conseguem quebrar
+  - Os registos de transacções são armazenados em vários servidores de backup controlados por diferentes organizações de confiança
+  - As taxas de transação são automaticamente ajustadas para evitar ataques económicos de autoridades centralizadas
+explanation: |
+  O Bitcoin alcança a resistência à censura através da descentralização dos mineiros, onde a ordenação das transacções é realizada coletivamente por todos os mineiros que optam por participar. Isto cria um sistema dinâmico em que qualquer pessoa pode entrar ou sair do processo mining livremente, eliminando qualquer ponto de controlo único que possa ser pressionado a censurar transacções. As respostas erradas descrevem caraterísticas técnicas, partes de confiança ou mecanismos económicos que não abordam a questão central do controlo descentralizado sobre o processamento de transacções.

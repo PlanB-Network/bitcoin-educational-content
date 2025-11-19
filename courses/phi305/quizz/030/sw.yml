@@ -1,0 +1,9 @@
+question: Ni nani anayesema kwamba "mtu si himaya ndani ya himaya"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Mtakatifu Augustin.
+explanation: |
+  Spinoza ndiye aliyedai kuwa "mtu si himaya ndani ya himaya". Kifungu hiki kinaonyesha wazo kwamba mwanadamu hajatenganishwa na maumbile, lakini ni sehemu yake muhimu, chini ya sheria sawa.
+reviewed: false

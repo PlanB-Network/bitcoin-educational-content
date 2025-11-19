@@ -1,0 +1,9 @@
+question: Vad är fördelen med att använda en egen lösenordshanterare som Bitwarden eller KeePass?
+answer: Du kan styra var dina lösenord lagras, vilket ger ökad säkerhet och kontroll.
+wrong_answers:
+  - De är enklare och alltid säkrare att använda än tjänster från tredje part.
+  - De erbjuder vanligtvis fler funktioner än tjänster från tredje part, även om de är dyrare.
+  - De är billigare och snabbare än tjänster från tredje part.
+explanation: |
+  Med lösenordshanterare som Bitwarden eller KeePass kan du själv styra var dina lösenord lagras, vilket kan ge mer säkerhet och kontroll. De kan dock kräva mer teknisk kunskap för att användas.
+reviewed: true

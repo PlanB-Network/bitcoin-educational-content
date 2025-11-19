@@ -1,0 +1,9 @@
+question: 1960'ların sonunda modern internetin temelleri hangi proje ile atılmıştır?
+answer: ARPANET
+wrong_answers:
+  - Dünya Çapında Ağ
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET, çeşitli araştırma merkezlerini birbirine bağlamak için tasarlanmış ilk birbirine bağlı ağdı ve İnternet'in doğrudan öncüsüdür.
+reviewed: false

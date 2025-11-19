@@ -6,4 +6,4 @@ wrong_answers:
   - SmokeTooMuch
 explanation: |
   Dieser Dienst war rudimentär: Austausche wurden per E-Mail ausgehandelt, und Zahlungen erfolgten über PayPal. Der Wechselkurs basierte auf den Mining-Kosten von NewLibertyStandard selbst.
-reviewed: false
+reviewed: true

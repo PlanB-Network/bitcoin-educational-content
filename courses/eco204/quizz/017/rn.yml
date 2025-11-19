@@ -1,0 +1,12 @@
+question: Ni igiki nyamukuru kinegura insobanuro ya Cagan y’ugutera imbere cane kw’ibiciro?
+answer: Igitigiri c'ibice 50 kw'ijana ni ubusa kandi ntikirimwo ibihe bimwebimwe vy'ugutera imbere kw'ibiciro
+wrong_answers:
+  - Insobanuro ni yagutse cane kandi irimwo ibice vyinshi cane vy'ugutera imbere kw'ibiciro
+  - Insobanuro ya kera kandi ntikora ku bukungu bwa none
+  - Insobanuro ntiyitaho ingaruka z'ugutera imbere kw'ibiciro ku bukungu .
+explanation: |
+  Abanegura insobanuro ya Cagan, nka Bernholz, bavuga ko 50% .
+  igipimo
+  ni ububisha kandi ntibishiramwo ibice bimwebimwe vy’ugutera imbere kw’ibiciro bifise ivyo nyene .
+  ibiranga uburyo nk’ibice vy’ugutera imbere cane.
+reviewed: false

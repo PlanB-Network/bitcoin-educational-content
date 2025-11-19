@@ -1,0 +1,12 @@
+question: Vad är orsaken till depressionen enligt både monetarister och keynesianer?
+answer: Otillräcklig samlad efterfrågan
+wrong_answers:
+  - Överproduktion
+  - Höga räntor
+  - Hög inflation
+explanation: |
+  För både monetarister och keynesianer är orsaken till depressionen
+  otillräcklig aggregerad efterfrågan. De anser att man genom att ge incitament
+  kreditexpansion (sänkta räntor) och att använda statens underskottskapacitet
+  underskottskapacitet för att öka efterfrågan kommer att kickstarta en återhämtning.
+reviewed: true

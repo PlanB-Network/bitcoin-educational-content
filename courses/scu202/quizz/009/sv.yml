@@ -1,0 +1,9 @@
+question: Vilken är operativsystemets huvudsakliga roll?
+answer: Förmedlare mellan hårdvara, användare och applikationer
+wrong_answers:
+  - Integrerat antivirusprogram
+  - Programvara för grafik
+  - Server för direktmeddelanden
+explanation: |
+  Operativsystemet fungerar som en central programvara Layer som gör det möjligt för applikationer och användaren att komma åt och styra hårdvaran.
+reviewed: false

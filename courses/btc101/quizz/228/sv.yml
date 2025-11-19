@@ -1,0 +1,10 @@
+question: Vad är enheten för Bitcoin som används i Lightning Network?
+answer: Sats.
+wrong_answers:
+  - Block.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Lightning Network använder satoshis (även kallad Sats), decimalen
+  gW-4:s decimal för att fungera.
+reviewed: true

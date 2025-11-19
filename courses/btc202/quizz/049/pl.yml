@@ -1,0 +1,9 @@
+question: Jaka jest domyślna wartość parametru dbcache w Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Domyślnie Bitcoin core przydziela 450 MiB (472 MB) do pamięci podręcznej.
+reviewed: true

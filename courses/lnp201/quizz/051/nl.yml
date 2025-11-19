@@ -1,0 +1,9 @@
+question: Wat kunnen deelnemende knooppunten bereiken met de driehoeksopeningstechniek?
+answer: Inkomende en uitgaande liquiditeit in elk kanaal
+wrong_answers:
+  - Lagere routingkosten
+  - Een onbeperkt aantal transacties zonder bevestiging
+  - Een directe link met elk ander netwerkknooppunt
+explanation: |
+  De driehoek openingstechniek stelt elk knooppunt in staat om evenwichtige liquiditeit te bereiken, zowel inkomend als uitgaand, door een lus van kanalen te vormen tussen verschillende deelnemers.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 인터넷에서 각 장비를 식별하는 데 주로 사용되는 프로토콜은 무엇인가요?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  인터넷 프로토콜(IP)은 각 장치에 고유한 Address을 할당하고 데이터 패킷을 라우팅할 수 있도록 합니다.
+reviewed: false

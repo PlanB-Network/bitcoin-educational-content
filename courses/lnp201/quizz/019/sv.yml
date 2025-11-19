@@ -1,0 +1,9 @@
+question: Vad garanterar Commitment Transaction-systemet till deltagare i en Lightning-kanal?
+answer: Att var och en kan återfå sina medel genom att publicera den senast signerade transaktionen
+wrong_answers:
+  - Att transaktionerna är synliga på Bitcoin Blockchain
+  - Att kanalens kapacitet ökar med varje transaktion
+  - Att avgifterna delas mellan de två deltagarna
+explanation: |
+  De signerade Commitment-transaktionerna säkerställer att varje deltagare kan återfå sina medel genom att publicera den senaste versionen om kanalen stängs.
+reviewed: false

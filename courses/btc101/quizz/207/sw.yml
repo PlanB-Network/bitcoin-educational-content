@@ -1,8 +1,12 @@
-question: Je, ni ipi mojawapo ya hatari zinazoweza kutokea za kuacha Bitcoin yako kwenye jukwaa la Exchange?
-answer: Hatari za udukuzi na kuzuia fedha.
+question: Milton Friedman alitabiri nini mnamo 1999?
+answer: Maendeleo ya e-cash ya kuaminika.
 wrong_answers:
-  - Hatari ya jukwaa kuongeza bei ya Bitcoin.
-  - Hatari ya jukwaa kudhibiti Supply ya Bitcoin.
-  - Hatari ya Bitcoin kuzidiwa kwa bei na cryptocurrency.
-explanation: >-
+  - Uharibifu wa pesa za kimwili.
+  - Kuongezeka kwa Bitcoin.
+  - Mwisho wa udhibiti wa serikali juu ya pesa.
+explanation: |
+  Milton Friedman, mwanauchumi mashuhuri, alitabiri mnamo 1999
+  kwamba e-cash yenye kutegemeka ingetengenezwa hivi karibuni, njia
+  ambapo kwenye mtandao unaweza kuhamisha fedha kutoka A hadi B,
+  bila A kujua B au kinyume chake.
 reviewed: true

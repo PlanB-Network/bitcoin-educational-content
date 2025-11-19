@@ -1,0 +1,10 @@
+question: Vilket alternativ gör det möjligt att aktivera eller inaktivera P2P transport V2 i konfigurationsfilen för Bitcoin Core?
+answer: v2transport=
+wrong_answers:
+  - p2penetrerbar=
+  - nätverkv2=
+  - aktiverav2=
+explanation: |
+  P2P V2-transport kan ändras med alternativet v2transport= i en Core-nods konfigurationsfil.
+  
+reviewed: false

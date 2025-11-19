@@ -1,0 +1,9 @@
+question: 哪種 Wi-Fi 加密通訊協定最適合保護您的家庭網路安全？
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - 快速 BSS
+explanation: |
+  WPA3 是最新且最安全的通訊協定，糾正了先前版本的缺點，並提供更好的防禦攻擊能力。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke macOS-tool maakt volledige versleuteling van de systeemschijf mogelijk?
+answer: FileVault
+wrong_answers:
+  - Schijfhulpprogramma
+  - iCloud sleutelhanger
+  - BitLocker
+explanation: |
+  FileVault is de native oplossing voor schijfversleuteling die in macOS is geïntegreerd.
+reviewed: false

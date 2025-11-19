@@ -1,0 +1,9 @@
+question: Ko su bila dva glavna tvorca Unixa?
+answer: Ken Thompson i Dennis Ritchie
+wrong_answers:
+  - Richard Stallman i Linus Torvalds
+  - Andrew S. Tanenbaum i Larry Ewing
+  - Steve Jobs i Bill Gates
+explanation: |
+  Unix su razvili Ken Thompson i Dennis Ritchie u AT&T Bell Labs krajem 1960-ih i početkom 1970-ih.
+reviewed: false

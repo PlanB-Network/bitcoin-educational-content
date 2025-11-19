@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’urufunguzo rwa bose rufise ubuhinga bwa Schnorr?
+answer: 32 bayiti
+wrong_answers:
+  - 33 bayiti
+  - 64 bayiti
+  - 128 ibice
+explanation: |
+  Urufunguzo rwa bose rwa Schnorr rugereranywa gusa na x-coordinate y’agace kari ku nzira y’uruzitiro, ivyo bikaba bigabanya ubunini bwarwo kugera kuri 32 bytes.
+reviewed: false

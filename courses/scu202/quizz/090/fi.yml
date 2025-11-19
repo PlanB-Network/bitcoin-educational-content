@@ -1,0 +1,9 @@
+question: Mitä verkkoporttia käytetään oletusarvoisesti P2P-yhteyksiin Bitcoin-pääverkossa?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Portti 8333 on vakioportti, jota Bitcoin-solmut käyttävät Mainnet:een muodostettaviin vertaisverkkoyhteyksiin.
+reviewed: false

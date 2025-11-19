@@ -1,0 +1,12 @@
+question: Vad är det potentiella resultatet av en plötslig värdeminskning eller en förlust av förtroende för en förvaltningsvaluta?
+answer: Hyperinflation.
+wrong_answers:
+  - Deflation.
+  - En stabil ekonomi.
+  - En ökning av värdet på valutan.
+explanation: |
+  En plötslig devalvering eller ett förlorat förtroende för en förtroendevaluta
+  valuta kan leda till hyperinflation. Detta är en situation
+  där priserna på varor och tjänster ökar i en extremt
+  extremt hög takt, vilket ofta leder till ekonomisk instabilitet.
+reviewed: true

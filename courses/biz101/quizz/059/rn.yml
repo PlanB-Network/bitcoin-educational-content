@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bubiri bwa Wallet bufatwa mu vyo gutangura?
+answer: Amasakoshi y'umuravyo y'ububiko n'atari ububiko
+wrong_answers:
+  - Hot na Cold ububiko Bitcoin amasakoshi
+  - Multisig n'impapuro Bitcoin
+  - Ivyuma n'ubwonko amasakoshi y'umuravyo
+explanation: |
+  Umwirondoro wa Starter ukoresha amasakoshi y’umuravyo afise ububiko canke atari ububiko.
+reviewed: false

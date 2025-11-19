@@ -1,0 +1,9 @@
+question: Vad är Hayeks kritik av socialismen?
+answer: Han kritiserar de medel som socialismen använder för att uppnå sina mål, till exempel central planering och avskaffande av privat egendom.
+wrong_answers:
+  - Han förkastar socialismens mål, såsom rättvisa och jämlikhet.
+  - Han tycker att socialism är en alltför gammal doktrin.
+  - Inget av ovanstående.
+explanation: |
+  Hayek kritiserar inte socialismen för dess mål utan för dess metoder, såsom centralplanering och avskaffande av privat egendom, som han anser vara farliga för den individuella friheten och den ekonomiska effektiviteten.
+reviewed: true

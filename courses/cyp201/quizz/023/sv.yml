@@ -1,0 +1,9 @@
+question: Vilken är den gemensamma punkt som används av alla deltagare för att beräkna en publik nyckel i Bitcoin?
+answer: Generatorpunkten G
+wrong_answers:
+  - SHA256 Hash
+  - En Mnemonic-fras
+  - Den komprimerade offentliga nyckeln
+explanation: |
+  Generatorpunkten G för den elliptiska kurvan secp256k1 används för att beräkna publika nycklar från privata nycklar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kaydırmalı şifrelemede bir anahtar nasıl tanımlanabilir?
+answer: 0 ila 25 arasında bir sayı
+wrong_answers:
+  - Rastgele bir kelime
+  - Kısıtlama olmaksızın herhangi bir rastgele sayı
+  - 1'den 26'ya kadar bir sayı
+explanation: |
+  Kaydırmalı şifrelemede anahtar, 26 harfli bir alfabede mesajın her harfine uygulanan kaydırma konumu sayısına karşılık gelen 0 ile 25 arasında bir sayıdır.
+reviewed: false

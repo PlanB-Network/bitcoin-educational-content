@@ -1,0 +1,9 @@
+question: Mis on rakendus Layer (TCP/IP) kaudu vahetatava andmeühiku nimi?
+answer: Sõnum
+wrong_answers:
+  - Raam
+  - Segment
+  - Datagramm
+explanation: |
+  TCP/IP-mudelis nimetatakse rakenduse Layer kaudu vahetatavaid andmeid sõnumiteks (või voogudeks, olenevalt kontekstist).
+reviewed: false

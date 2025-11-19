@@ -1,0 +1,9 @@
+question: Wie heißt das emblematische Linux-Maskottchen?
+answer: Smoking
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux ist seit 1996 das offizielle Maskottchen des Linux-Kernels und wurde von Larry Ewing geschaffen.
+reviewed: false

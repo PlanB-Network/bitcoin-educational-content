@@ -1,0 +1,9 @@
+question: Bu hikayede mum üreticilerinin haksız rakibi olarak kim görülüyor?
+answer: Güneş
+wrong_answers:
+  - Yabancı mum üreticileri
+  - Elektrik
+  - Yağ lambaları
+explanation: |
+  Bastiat hicvinde güneşten haksız rakip olarak söz eder ve mum üreticilerinin taleplerini abartarak korumacı önlemlerin saçmalığını vurgular.
+reviewed: false

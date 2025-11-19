@@ -6,4 +6,4 @@ wrong_answers:
   - Un elevato saldo on-chain
 explanation: |
   Per ricevere pagamenti, un venditore deve avere liquidità in entrata, il che significa che i fondi devono essere disponibili sul lato opposto del canale per poter accettare pagamenti.
-reviewed: false
+reviewed: true

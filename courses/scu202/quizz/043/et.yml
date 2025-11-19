@@ -1,0 +1,9 @@
+question: Mis kasu on Hash faili või tarkvaramanifesti PGP-allkirja kontrollimisest?
+answer: See tagab, et fail pärineb ametlikust allikast
+wrong_answers:
+  - Tagab tarkvara veavaba paigaldamise
+  - See tagab automaatsed programmiuuendused
+  - See tagab, et fail on täielik ja seda ei ole muudetud
+explanation: |
+  PGP-allkiri, mis on kinnitatud arendaja avaliku võtme abil, tagab, et autentitud fail pärineb algsest allikast.
+reviewed: false

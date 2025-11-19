@@ -1,0 +1,9 @@
+question: What's the name of the emblematic Linux mascot?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux has been the official Linux kernel mascot since 1996, created by Larry Ewing.
+reviewed: false

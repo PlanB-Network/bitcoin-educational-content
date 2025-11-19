@@ -1,0 +1,9 @@
+question: Jakie informacje można zazwyczaj znaleźć w metadanych EXIF zdjęcia?
+answer: Data, godzina, pozycja GPS, model urządzenia, autor
+wrong_answers:
+  - Kod źródłowy oprogramowania sprzętowego kamery
+  - Hasło Wi-Fi fotografa
+  - Najnowsze wyniki antywirusowe
+explanation: |
+  Metadane EXIF zdjęcia często zawierają szczegółowe informacje kontekstowe na temat ujęcia i aparatu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Varför hävdar österrikarna att socialismen är omöjlig att uppnå?
+answer: De hävdar att socialismen är ekonomiskt ineffektiv men moraliskt rättvis.
+wrong_answers:
+  - Socialism är naturstridigt.
+  - Socialism är ekonomiskt effektivt men omoraliskt.
+  - Österrikare kritiserar socialismen för att den inte tillåter innovation och skapande av välstånd.
+explanation: |
+  Ekonomer från den österrikiska skolan anser att socialismen är ekonomiskt ineffektiv på grund av avsaknaden av fria prismekanismer, som är nödvändiga för att effektivt samordna ekonomin, även om de ibland erkänner dess moraliska avsikter.
+reviewed: true

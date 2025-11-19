@@ -1,8 +1,8 @@
-question: Jaki rodzaj sieci tworzy Lightning Network?
-answer: Sieć kanałów płatności.
+question: Jaki jest główny cel sieci Lightning?
+answer: Ułatwienie mikrotransakcji.
 wrong_answers:
-  - Sieć węzłów Mining.
-  - Sieć węzłów Blockchain.
-  - Sieć giełd kryptowalut.
+  - Zwiększenie wartości bitcoina.
+  - Zastąpienie protokółu Bitcoin.
+  - Utworzenie nowej kryptowaluty.
 explanation: >-
 reviewed: true

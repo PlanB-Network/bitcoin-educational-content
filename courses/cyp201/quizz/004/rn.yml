@@ -1,0 +1,9 @@
+question: Ni uwuhe mugwi w’ibikorwa vya Hash ukoreshwa kugira ngo generate ibe ibimenyetso vy’intoke bigufi muri Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 ifatanya SHA256 na RIPEMD160 ku bimenyetso vy’intoke vy’ibice 160 vya generate, cane cane ku maderesi ya Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Warum ist die Umstellung auf IPv6 notwendig geworden?
+answer: IPv4 Address Erschöpfung
+wrong_answers:
+  - Versagen des NAT-Protokolls bei IPv4
+  - Inkompatibilität der Subnetzmaske
+  - Ende der DHCP-Unterstützung
+explanation: |
+  Die Erschöpfung der IPv4-Adressen trieb den Übergang zu IPv6 voran, das einen wesentlich größeren Address-Raum bietet.
+reviewed: false

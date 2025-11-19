@@ -1,0 +1,8 @@
+question: Bitcoin Core'un GitHub deposu ile aynı deponun küresel olarak dağıtılan diğer binlerce kopyası arasındaki temel teknik fark nedir?
+answer: Teknik bir fark yoktur; gelişim kolaylığı için sosyal bir odak noktası görevi görür
+wrong_answers:
+  - GitHub deposu, resmi sürüm olduğunu doğrulayan kriptografik imzalar içerir
+  - GitHub deposu, kod tabanında yetkisiz değişiklikleri önleyen özel commit ayrıcalıklarına sahiptir
+  - GitHub deposu, dünya çapındaki diğer tüm depo kopyalarını doğrulayan bir ana anahtar tutar
+explanation: |
+  Jameson Lopp'un bu bölümde atıfta bulunulan analizine göre, Bitcoin Core'un GitHub deposu teknik olarak diğer tüm kopyalarla aynıdır. Önemi tamamen sosyaldir - geliştirme koordinasyonu için odak noktası haline gelmiştir. Depo, teknik otoriteden ziyade bir kolaylık meselesi olarak hizmet vermektedir ve ortadan kalkması halinde doğal olarak yeni bir odak noktası ortaya çıkacaktır. Bu da Bitcoin'in tek bir deponun diğerleri üzerinde teknik üstünlüğe sahip olmadığı merkezi olmayan yapısını göstermektedir.

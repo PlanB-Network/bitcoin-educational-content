@@ -1,0 +1,8 @@
+question: Hur fungerar dekryptering i skiftchiffer?
+answer: Genom att subtrahera nyckeln från varje krypterad bokstav och tillämpa modulo 26
+wrong_answers:
+  - Genom att subtrahera nyckeln från varje krypterad bokstav och tillämpa modulo 20
+  - Genom att multiplicera nyckeln med varje krypterad bokstav
+  - Genom att dela upp nyckeln från varje krypterad bokstav och tillämpa modulo 27
+explanation: |
+  I skiftchiffer utförs dekryptering genom att subtrahera nyckeln från varje krypterad bokstav och sedan tillämpa modulo 26 för att återgå till originaltexten. Modulo 26 gör det möjligt att återgå till början av alfabetet efter bokstaven Z.

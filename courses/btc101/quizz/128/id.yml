@@ -1,11 +1,11 @@
-question: Apa peran penambang dalam jaringan Bitcoin?
-answer: Mereka memvalidasi transaksi dengan memasukkannya ke dalam sebuah blok.
+question: Apa arti dari penyesuaian kesulitan dalam jaringan Bitcoin?
+answer: Ini memastikan bahwa sebuah blok ditambahkan kira-kira setiap sepuluh menit.
 wrong_answers:
-  - Mereka menciptakan Bitcoin baru.
-  - Mereka mengelola jaringan Bitcoin.
-  - Mereka mengatur harga Bitcoin.
+  - Ini menentukan harga Bitcoin.
+  - Ini mengatur jumlah Bitcoin yang dapat ditambang.
+  - Ini menentukan ukuran sebuah blok.
 explanation: >-
-  Penambang dalam jaringan Bitcoin memiliki peran untuk memvalidasi transaksi
-  dengan memasukkannya ke dalam sebuah blok. Mereka melakukan ini dengan memecahkan teka-teki kriptografi dalam
-  proses yang disebut bukti kerja.
+  Penyesuaian kesulitan dalam jaringan Bitcoin memastikan bahwa sebuah blok
+  ditambahkan kira-kira setiap sepuluh menit. Ini adalah bagian dari aturan protokol
+  jaringan Bitcoin.
 reviewed: false

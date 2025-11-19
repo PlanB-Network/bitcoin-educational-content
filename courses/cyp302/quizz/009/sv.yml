@@ -1,0 +1,9 @@
+question: Vilket steg ingår inte i säkerhetsbeviset för ett modernt kryptografiskt system?
+answer: Konfigurera en användare Interface
+wrong_answers:
+  - Fastställande av säkerhetsdefinitioner
+  - Antaganden om matematisk komplexitet
+  - Den matematiska demonstrationen av säkerhet
+explanation: |
+  Säkerhetsbeviset i modern kryptografi fokuserar på mål och matematiska antaganden och utesluter aspekter som användaren Interface, som inte är relevant för kryptografisk säkerhet.
+reviewed: false

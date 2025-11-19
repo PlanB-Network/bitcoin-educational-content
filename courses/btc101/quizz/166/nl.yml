@@ -1,0 +1,8 @@
+question: Wat is een van de redenen dat Bitcoin aantrekkelijk is voor bepaalde groepen?
+answer: Het vermogen om oplossingen te bieden zoals Trustless elektronisch geld, weerstand tegen censuur of transparant en onveranderlijk monetair beleid.
+wrong_answers:
+  - Het is gemakkelijk te vervalsen en kan oplossingen creëren om meer geld te ontvangen met een simpele klik.
+  - Het wordt gecontroleerd door een centrale autoriteit die vrijelijk kapitaal verdeelt onder de gebruikers.
+  - Het is geen pseudoniem, dus elke gebruiker is bekend en wordt vertrouwd.
+explanation: >-
+reviewed: true

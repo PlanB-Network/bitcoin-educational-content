@@ -1,0 +1,9 @@
+question: Bitcoin coreにリモートアクセスする最良の方法は？
+answer: RPCポートの露出
+wrong_answers:
+  - Torの使用
+  - VPNの利用
+  - Electrumサーバーの公開
+explanation: |
+  暗号化されていないRPCポートを公開することは、大きなセキュリティリスクをもたらす。TorかVPNが望ましい。
+reviewed: true

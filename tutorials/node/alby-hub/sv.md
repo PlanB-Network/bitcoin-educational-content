@@ -1,5 +1,5 @@
 ---
-name: Alby nav
+name: Alby Hub
 description: Hur lanserar du enkelt din egen Lightning-nod?
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ Beroende på dina behov finns Alby Hub i 4 olika konfigurationer:
 
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 
 Detta första alternativ är idealiskt för nybörjare och är Alby Cloud-alternativet. Det gör att du kan distribuera en hubb direkt på en Alby-hanterad server, tillgänglig via din Alby Hub Interface. Även om Alby hanterar servern behåller du suveräniteten över dina medel, eftersom dina nycklar krypteras med ett lösenord som endast du känner till. Dina nycklar måste dock förbli dekrypterade i RAM-minnet för att noden ska fungera, vilket teoretiskt sett utsätter dem för risk om någon fysiskt kommer åt servern. Det är en intressant kompromiss för nybörjare, men det är viktigt att vara medveten om riskerna.
@@ -209,7 +209,7 @@ Du har nu tillgång till din Lightning-nod.
 ![ALBY HUB](assets/fr/20.webp)
 
 
-Den första åtgärden är att spara din återställningsfras, från vilken dina nycklar härleds. För att göra detta, klicka på "Inställningar". Med den här frasen kan du återfå åtkomst till din Wallet om du har aktiverat automatiska säkerhetskopior.
+Den första åtgärden du bör vidta är att spara din återställningsfras, från vilken dina nycklar härleds. För att göra detta, klicka på "Inställningar". Med den här frasen kan du återfå åtkomst till din Wallet om du har aktiverat automatiska säkerhetskopior.
 
 
 ![ALBY HUB](assets/fr/21.webp)
@@ -446,7 +446,7 @@ Gå tillbaka till Alby Go-applikationen, skanna QR-koden eller klistra in hemlig
 ![ALBY HUB](assets/fr/50.webp)
 
 
-Klicka på "Finish*".
+Klicka på "Finish".
 
 
 ![ALBY HUB](assets/fr/51.webp)
@@ -548,4 +548,4 @@ Och nu vet du hur du använder Lightning med din egen nod med hjälp av Alby Hub
 För att i detalj förstå alla blixtmekanismer som vi har manipulerat i den här handledningen rekommenderar jag starkt att du upptäcker vår gratis utbildning i ämnet :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

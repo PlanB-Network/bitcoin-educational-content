@@ -1,0 +1,8 @@
+question: Zgodnie z argumentem Shaolinfry'ego dotyczącym User Activated Soft Forks (UASF), jaki jest główny problem z soft forkami aktywowanymi przez górników w odniesieniu do implementacji aktualizacji?
+answer: Niewielki procent hashrate może zawetować ulepszenia dla wszystkich, tworząc bezwładność ulepszeń
+wrong_answers:
+  - Górnicy mogą odwrócić miękkie aktywacje fork po wdrożeniu poprzez konsensus większościowy
+  - Węzły ekonomiczne tracą kontrolę nad regułami walidacji, gdy górnicy sygnalizują aktywację
+  - Zmiany Soft fork stają się trwałe i nie mogą być modyfikowane po ich aktywacji przez górników
+explanation: |
+  Shaolinfry zidentyfikował, że sygnalizacja górnicza tworzy naturalny system weta, w którym nawet niewielki procent hashrate może uniemożliwić aktywację aktualizacji dla całej sieci. Ta "bezwładność aktualizacji" staje się bardziej problematyczna, gdy mining staje się bardziej zdecentralizowany, potencjalnie blokując korzystne ulepszenia protokołu. Pozostałe opcje błędnie przedstawiają sposób działania soft forków - górnicy nie mogą jednostronnie odwrócić aktywacji, węzły ekonomiczne zachowują uprawnienia do walidacji, a soft forki mogą być teoretycznie modyfikowane poprzez kolejne aktualizacje.

@@ -1,0 +1,9 @@
+question: Wat is het hoofddoel van asymmetrische cryptografie in de context van communicatie tussen Alice en Bob?
+answer: Bob een geheim bericht laten verzenden naar Alice met haar openbare sleutel
+wrong_answers:
+  - Bob berichten laten versleutelen en ontsleutelen zonder openbare sleutel
+  - Om te voorkomen dat Alice de berichten van Bob ontcijfert
+  - Alice het bericht laten versleutelen om de integriteit te verifiëren
+explanation: |
+  In asymmetrische cryptografie stelt de publieke sleutel van Alice Bob in staat om een versleuteld bericht te versturen dat alleen zij kan ontsleutelen, waardoor de vertrouwelijkheid van het bericht wordt gegarandeerd.
+reviewed: false

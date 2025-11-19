@@ -1,0 +1,9 @@
+question: 引進 IPv6 的主要目的是什麼？
+answer: 提供幾乎無限制的 Address 空間
+wrong_answers:
+  - 將乙太網路吞吐量提高 4 倍
+  - 逐漸以 UDP 取代 TCP
+  - 減少每個封包的位元組數量
+explanation: |
+  IPv6 的主要目的是透過大規模擴充 Address 空間來解決 IP 位址短缺的問題。
+reviewed: false

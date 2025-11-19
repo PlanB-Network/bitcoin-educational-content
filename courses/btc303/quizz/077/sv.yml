@@ -1,0 +1,8 @@
+question: Vad är den viktigaste skillnaden mellan "avslöjande" och "publicering" i samband med Bitcoin:s hantering av säkerhetsproblem?
+answer: Disclosure innebär att leverantören informeras privat, medan publicering innebär att sårbarheten görs känd för potentiella angripare offentligt
+wrong_answers:
+  - Disclosure gäller för kritiska sårbarheter, medan publication gäller för icke-kritiska sårbarheter som är svårare att utnyttja
+  - Disclosure innebär att Bitcoin Core-utvecklare meddelas, medan publicering innebär att altcoin och andra implementeringsteam informeras
+  - Disclosure kräver omedelbara åtgärder och korrigeringar, medan publication möjliggör gradvisa korrigeringar genom normalt utvecklingsflöde
+explanation: |
+  Gregory Maxwell betonade denna viktiga distinktion i diskussionen på e-postlistan. Disclosure avser den ansvarsfulla handlingen att privat informera programvaruunderhållarna (leverantören) om en sårbarhet så att de kan arbeta med en fix. Publicering innebär däremot att sårbarhetsinformationen görs tillgänglig för allmänheten, vilket i praktiken informerar potentiella angripare om hur sårbarheten kan utnyttjas. Denna distinktion är viktig eftersom avslöjande bidrar till att skydda systemet, medan för tidig publicering kan orsaka skada genom att göra det möjligt för illasinnade aktörer att utnyttja sårbarheten innan adekvata försvar finns på plats.

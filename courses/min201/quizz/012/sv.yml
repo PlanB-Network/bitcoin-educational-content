@@ -1,0 +1,14 @@
+question: Hur fungerar en Mining pool och varför är den nödvändig?
+answer: En Mining pool är en grupp miners som kombinerar sina dataresurser för att öka sina chanser till Mining. Detta samarbete är nödvändigt eftersom en isolerad liten Mining-maskin konkurrerar mot branschjättar, vilket minskar dess chanser att lyckas till en försumbar nivå. Genom att gå samman i en pool kan miners kombinera sin datorkraft, hitta block oftare och sedan fördela belöningarna proportionellt mot varje Miner:s bidrag till poolen.
+wrong_answers:
+  - En Mining pool är en grupp gruvarbetare som delar samma Mining-maskin för att öka sina chanser till Mining. Detta samarbete är nödvändigt eftersom en enda Mining-maskin endast kan bryta en begränsad mängd Bitcoin.
+  - En Mining pool är en grupp gruvarbetare som delar samma Mining-programvara för att öka sina chanser till Mining. Detta samarbete är nödvändigt eftersom olika Mining-programvaror har olika effektivitet.
+  - En Mining pool är en grupp gruvarbetare som delar samma Mining-plats för att öka sina chanser till Mining. Detta samarbete är nödvändigt eftersom platsen för Mining-verksamheten kan påverka effektiviteten hos Mining.
+explanation: |
+  I kapitlet förklaras att en Mining pool är en grupp av
+  miners som kombinerar sina dataresurser för att öka
+  deras chanser till Mining. Detta samarbete är nödvändigt
+  eftersom en isolerad liten Mining-maskin konkurrerar med
+  mot branschjättar, vilket minskar dess chanser att lyckas till en
+  en försumbar nivå.
+reviewed: true

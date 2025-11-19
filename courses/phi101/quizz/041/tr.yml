@@ -1,0 +1,9 @@
+question: Aziz Augustinus'a göre, Tanrı insana özgür irade verdiği gerçeğini, her şeye gücü yeten ve her şeyi bilen olduğu gerçeğiyle nasıl bağdaştırmaktadır?
+answer: Tanrı kötülüğe izin verir ki insanlar hatalarından ders çıkarıp ruhen gelişebilsinler.
+wrong_answers:
+  - İnsanların özgür iradeleriyle yapmayı seçtikleri kötülüklerden Tanrı sorumlu değildir.
+  - Tanrı insanların kötülüğü seçmesini engelleyecek güce sahip değildir.
+  - Yukarıdaki cevapların hepsi.
+explanation: |
+  Aziz Augustinus, Tanrı'nın özgür iradeye izin vererek, insanların öğrenebilmesi ve kendilerini mükemmelleştirebilmesi için kötülük olasılığını bıraktığına ve özgürlüğü yanlış seçimlere rağmen ruhsal gelişimin bir aracı haline getirdiğine inanır.
+reviewed: true

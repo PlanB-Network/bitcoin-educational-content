@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaobadilisha MAC Address kuwa kitambulisho cha biti-64 kwa ajili ya kuzalisha IPv6 Address?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  Utaratibu wa EUI-64 hubadilisha 48-bit MAC Address kuwa kitambulisho cha biti 64, kinachotumika katika usanidi otomatiki wa IPv6.
+reviewed: false

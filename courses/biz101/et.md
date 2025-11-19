@@ -1,22 +1,19 @@
 ---
 name: Bitcoin ettevõtetele
 goal: Õppige makse- ja riigikassa põhitõdesid, et võtta oma ettevõte bitcoini kasutusele
-objectives: 
-
-  - Bitcoin kui arenev valuuta ja ärivahend
-  - Mõista, miks ja kuidas ettevõte saab bitcoini hoida riigikassas või kasutada seda maksete tegemiseks
-  - Kas teil on konkreetne idee, kuidas bitcoini makseid praktikas vastu võtta?
-  - Olge valmis eelarve- ja raamatupidamisnõuete haldamiseks
-
+objectives:
+- Avastage Bitcoin kui tekkiv valuuta ja ärivahend
+- Mõistke, miks ja kuidas saab ettevõte hoida bitcoini kassas või kasutada seda maksete tegemiseks
+- Omage konkreetset ettekujutust, kuidas praktikas Bitcoini makseid vastu võtta
+- Olge valmis haldama maksu- ja raamatupidamisnõudeid
 ---
-# Alusta oma ettevõtte teekonda bitcoini võrgus
+# Alusta oma ettevõtte teekonda Bitcoin võrgustikus
 
-Avastage Bitcoini ja Lightning Networki praktilised võimalused ning uurige, kuidas need võivad sarnaselt internetiga **muutada teie äritegevust**. Alates digitaalsest kapitalist kuni kiirete, ökonoomsete ja skaleeritavate makseteni, pakub Bitcoin ettevõtjatele **kasutamisvõimalusi**.
+Avaста Bitcoini ja Lightning Network'i praktilised võimalused ning uuri, kuidas need võivad, sarnaselt internetiga, muuta teie ärioperatsioone. Alates kassast kuni kiire, ökonoomse ja skaleeritava makseteni pakub Bitcoin ettevõtetele laia valikut kasutusjuhtumeid.
 
-Selle juhendi kaudu saate teada, kuidas mõista Bitcoini kui globaalset, universaalset ja internetipõhist rahavõrku. Tänu oma ainulaadsetele põhiomadustele pakub **Bitcoin märkimisväärseid täiustusi võrreldes traditsiooniliste valuutavõrkudega**. Saate teada, miks ja kuidas kasutada Bitcoini klassikaliste finantskasutuse juhtumite, näiteks kapitali säilitamise ja maksesüsteemide puhul. Lisaks käsitletakse selles juhendis Bitcoini omandamist ja hoidmist, sealhulgas sellega seotud raamatupidamis- ja maksunõudeid, ning lihtsate või suuremahuliste Bitcoini makselahenduste rakendamist.
+Selle kursuse jooksul õpid mõistma Bitcoini kui globaalset, universaalset ja internetipõhist rahavõrgustikku. Oma ainulaadsete põhiomaduste poolest pakub Bitcoin märkimisväärseid parandusi võrreldes traditsiooniliste valuutadega. Avastada, miks ja kuidas kasutada Bitcoini klassikaliste finantsjuhtumite jaoks, nagu kapitali säilitamine ja maksesüsteemid. Lisaks käsitleb see kursus Bitcoini omandamist ja hoidmist, sealhulgas seotud raamatupidamis- ja fiskaalsenõudeid, samuti lihtsate või suure mahuga Bitcoin maksete lahenduste rakendamist.
 
-Olenemata sellest, kas olete **väikeettevõte või suurkorporatsioon**, võib Bitcoini integreerimine teie igapäevatöösse muuta teie ettevõtte **vastupidavamaks, tootlikumaks ja konkurentsivõimelisemaks**. Iga internetipõhine ettevõte muutub Bitcoinile orienteeritud ettevõtteks ja see kursus tagab, et olete selleks valmis. Esimesed lõigud kordavad Bitcoini toimimise põhialuseid, nii et isegi kui olete algaja, saate edasiminekuks vajalikud põhiteadmised. Satoshi leiutise põhitõdede õppimine on alati hea mõte, kas enne või pärast BIZ101-i sukeldumist.
-
+Olenemata sellest, kas olete väike ettevõte või suur korporatsioon, võib Bitcoini integreerimine teie igapäevastesse operatsioonidesse muuta teie ettevõtte vastupidavamaks, produktiivsemaks ja konkurentsivõimelisemaks. Iga internetipõhine ettevõte muutub Bitcoin-orienteeritud ettevõtteks ja see kursus tagab, et olete valmis.
 +++
 # Sissejuhatus
 
@@ -34,6 +31,8 @@ Kursus algab tavapäraste valuutade ja maksemehhanismide üksikasjaliku uurimise
 Olenemata sellest, kas esindate väikeettevõtet või suurt korporatsiooni, on selle kursuse eesmärk anda teile teadmised, et integreerida Bitcoin oma igapäevastesse toimingutesse, suurendades seeläbi teie ettevõtte vastupidavust, tõhusust ja konkurentsieelist. Kuna Bitcoin jätkab majandusmaastiku ümberkujundamist, ei ole nende murranguliste tehnoloogiate mõistmine pelgalt võimalus, vaid strateegiline vajadus. Valmistuge osalema sisuka sisu, praktiliste näidete ja strateegiliste juhiste abil, mis võimaldavad teil Bitcoini arenevas maailmas navigeerida ja seda ära kasutada!
 
 Olete valmis sukelduma ettevõtete jaoks mõeldud Bitcoini maailma? Lähme!
+
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 # Valuuta, maksesüsteemid ja Bitcoin
 
@@ -64,22 +63,22 @@ Kokkuvõtteks võib öelda, et valuutad on võrgustikud, mis on loodud väärtus
 Heal vääringul on mitu olulist omadust, mis muudavad selle tõhusaks väärtuse vahetamise hõlbustamiseks. Siin on igaühe lühike selgitus:
 
 
-- Turvaline**: Raha peab olema kaitstud varguse või volitamata juurdepääsu eest, tagades, et kasutajad saavad seda kindlalt hoida ja üle kanda. Turvalisus on kriitilise tähtsusega usalduse loomiseks süsteemi vastu.
-- Võltsimiskindel**: Raha peab olema äärmiselt raskesti või võimatult võltsitav. See tagab, et iga ühik on ehtne, säilitab oma väärtuse ja hoiab ära võltsitud ühikute ringlusse sattumisest tingitud inflatsiooni. Näiteks kulda on ajalooliselt hinnatud mitte ainult selle ilu ja harulduse tõttu, vaid ka seetõttu, et seda on äärmiselt raske toota. Erinevalt paberrahadest või digitaalsetest kirjetest ei saa kulda lihtsalt "teha" - seda tuleb kaevandada maast. See looduslik nappus ja tootmise keerukus on aidanud kullal säilitada oma staatust usaldusväärse väärtuse säilitaja ja autentsuse mõõdupuuna.
-- Haruldane**: Hea valuuta peab olema piiratud varuga või selle emissioon peab olema kontrollitud. Nappus tagab selle väärtuse säilimise aja jooksul, vältides ületootmist, mis vähendaks ostujõudu. Näiteks kasutasid teatavad Ameerika indiaanlaste hõimud rahana helmed. Esialgu oli nende helmede tootmine raske, mis säilitas nende nappuse ja väärtuse. Kui aga Euroopa kaupmehed hakkasid massiliselt tootma ja turgu pärlitega üle ujutama, kadus nende haruldus. Kuna pakkumine kasvas, kaotasid helmed oma ostujõu, mis õõnestas nende rolli usaldusväärse väärtuse säilitaja rollis.
-- Lubadusteta**: Minevikus vermiti kuld- ja hõbemünte sageli eraisikute, kohalike omavalitsuste või kaupmeeste poolt, kellel oli juurdepääs toorainele. See süsteem toimis mõnikord kuningate või valitsejate antud lepingute või litsentside alusel. Aja jooksul tsentraliseerisid kuningad ja valitsused selle protsessi, et saavutada suurem kontroll majandusliku stabiilsuse, maksustamise ja rahasüsteemi üle. Üks kuulus näide on **thaler**, hõbemünt, mille kohalikud kaevurid ja võimud lõid esmakordselt 1518. aastal **Joachimsthali orus** (tänapäeva Jáchymov Tšehhi Vabariigis). Nimi "thaler" tuleneb saksa sõnast **"Thal "**, mis tähendab "org" Need mündid, mis olid tuntud oma kvaliteetse hõbeda poolest, hakkasid laialdaselt levima kogu Euroopas. Aja jooksul arenes termin keeleliselt ja geograafiliselt edasi, andes lõpuks nime "dollar", mis võeti Ameerika Ühendriikides kasutusele oma valuuta kohta.
+- **Turvaline**: Raha peab olema kaitstud varguse või volitamata juurdepääsu eest, tagades, et kasutajad saavad seda kindlalt hoida ja üle kanda. Turvalisus on kriitilise tähtsusega usalduse loomiseks süsteemi vastu.
+- **Võltsimiskindel**: Raha peab olema äärmiselt raskesti või võimatult võltsitav. See tagab, et iga ühik on ehtne, säilitab oma väärtuse ja hoiab ära võltsitud ühikute ringlusse sattumisest tingitud inflatsiooni. Näiteks kulda on ajalooliselt hinnatud mitte ainult selle ilu ja harulduse tõttu, vaid ka seetõttu, et seda on äärmiselt raske toota. Erinevalt paberrahadest või digitaalsetest kirjetest ei saa kulda lihtsalt "teha" - seda tuleb kaevandada maast. See looduslik nappus ja tootmise keerukus on aidanud kullal säilitada oma staatust usaldusväärse väärtuse säilitaja ja autentsuse mõõdupuuna.
+- **Haruldane**: Hea valuuta peab olema piiratud varuga või selle emissioon peab olema kontrollitud. Nappus tagab selle väärtuse säilimise aja jooksul, vältides ületootmist, mis vähendaks ostujõudu. Näiteks kasutasid teatavad Ameerika indiaanlaste hõimud rahana helmed. Esialgu oli nende helmede tootmine raske, mis säilitas nende nappuse ja väärtuse. Kui aga Euroopa kaupmehed hakkasid massiliselt tootma ja turgu pärlitega üle ujutama, kadus nende haruldus. Kuna pakkumine kasvas, kaotasid helmed oma ostujõu, mis õõnestas nende rolli usaldusväärse väärtuse säilitaja rollis.
+- **Lubadusteta**: Minevikus vermiti kuld- ja hõbemünte sageli eraisikute, kohalike omavalitsuste või kaupmeeste poolt, kellel oli juurdepääs toorainele. See süsteem toimis mõnikord kuningate või valitsejate antud lepingute või litsentside alusel. Aja jooksul tsentraliseerisid kuningad ja valitsused selle protsessi, et saavutada suurem kontroll majandusliku stabiilsuse, maksustamise ja rahasüsteemi üle. Üks kuulus näide on **thaler**, hõbemünt, mille kohalikud kaevurid ja võimud lõid esmakordselt 1518. aastal **Joachimsthali orus** (tänapäeva Jáchymov Tšehhi Vabariigis). Nimi "thaler" tuleneb saksa sõnast **"Thal"**, mis tähendab "org" Need mündid, mis olid tuntud oma kvaliteetse hõbeda poolest, hakkasid laialdaselt levima kogu Euro
 
 Nüüdisaegsel ajastul said valuutad seigniorage'i süsteemi raames täielikult lubatud, mis tähendab, et ainult volitatud üksused - näiteks keskpangad või riigikassad - said mündid vermida või pangatähti trükkida. Üksikisikutel ei ole enam seaduslikult lubatud raha toota, mis tagab tsentraliseeritud kontrolli selle emiteerimise ja pakkumise üle.
 
 Tänapäeval on krüptoraha Bitcoin, mis tegutseb ilma tsentraliseeritud kontrollita, seigniorage'i põhimõtte kahtluse alla seadnud. Bitcoin on "loata" süsteem, kus igaüks võib osaleda valuuta kasutamises ilma luba küsimata ja kaevandamise kaudu selle loomises. Selline detsentraliseerimine eemaldab valitsustelt emiteerimise monopoli, mis tõstatab küsimusi võimaliku tagasipöördumise kohta vabaturul põhinevate konkurentsivõimeliste valuutasüsteemide juurde.
 
 
-- Arvestusüksus**: Valuuta peaks olema standardne mõõtühik kaupade ja teenuste väärtuse võrdlemiseks. See lihtsustab kaubandust ning muudab hinnakujunduse läbipaistvaks ja järjepidevaks kõikides tehingutes.
-- Vastupidav**: Raha peab aja jooksul vastu pidama kulumisele. Füüsilised vääringud, nagu mündid või pangatähed, peavad vastu pidama kahjustustele, samas kui digitaalsed vääringud peavad säilima turvaliselt ja ilma andmekaotuse ohuta.
-- Kaasaskantav**: Raha peab olema kergesti transporditav ja kasutatav, võimaldades kaubavahetust üle vahemaade. Seda saab saavutada füüsilise teisaldatavuse (kerged mündid või pangatähed) või digitaalsete ülekandesüsteemide abil.
-- Jagatav**: Valuuta peaks olema jagatav väiksemateks ühikuteks, et hõlbustada erineva suurusega tehinguid. Selline paindlikkus tagab, et see on praktiline nii väikeste ostude kui ka suuremahulise kaubanduse puhul.
-- Süütud**: Kõik rahaühikud peavad olema vahetatavad ja võrdse väärtusega. Näiteks peab üks dollarivõlg olema samaväärne mis tahes teise dollarivõlgiga. Selline ühtsus tagab tehingute õigluse ja lihtsuse.
-- Tunnistatav**: Valuuta peab olema kergesti tuvastatav ja usaldusväärne. Füüsilised vääringud saavutavad selle ainulaadsete kujunduste ja turvaelementide abil, samas kui digitaalsed vääringud võivad tugineda kontrolliprotokollidele. See tagab laialdase aktsepteeritavuse ja vähendab pettuse ohtu.
+- **Arvestusüksus**: Valuuta peaks olema standardne mõõtühik kaupade ja teenuste väärtuse võrdlemiseks. See lihtsustab kaubandust ning muudab hinnakujunduse läbipaistvaks ja järjepidevaks kõikides tehingutes.
+- **Vastupidav**: Raha peab aja jooksul vastu pidama kulumisele. Füüsilised vääringud, nagu mündid või pangatähed, peavad vastu pidama kahjustustele, samas kui digitaalsed vääringud peavad säilima turvaliselt ja ilma andmekaotuse ohuta.
+- **Kaasaskantav**: Raha peab olema kergesti transporditav ja kasutatav, võimaldades kaubavahetust üle vahemaade. Seda saab saavutada füüsilise teisaldatavuse (kerged mündid või pangatähed) või digitaalsete ülekandesüsteemide abil.
+- **Jagatav**: Valuuta peaks olema jagatav väiksemateks ühikuteks, et hõlbustada erineva suurusega tehinguid. Selline paindlikkus tagab, et see on praktiline nii väikeste ostude kui ka suuremahulise kaubanduse puhul.
+- **Süütud**: Kõik rahaühikud peavad olema vahetatavad ja võrdse väärtusega. Näiteks peab üks dollarivõlg olema samaväärne mis tahes teise dollarivõlgiga. Selline ühtsus tagab tehingute õigluse ja lihtsuse.
+- **Tunnistatav**: Valuuta peab olema kergesti tuvastatav ja usaldusväärne. Füüsilised vääringud saavutavad selle ainulaadsete kujunduste ja turvaelementide abil, samas kui digitaalsed vääringud võivad tugineda kontrolliprotokollidele. See tagab laialdase aktsepteeritavuse ja vähendab pettuse ohtu.
 
 Need omadused muudavad valuuta praktiliseks, usaldusväärseks ja tõhusaks kaubanduse hõlbustamiseks ja väärtuse säilitamiseks majanduses.
 
@@ -132,16 +131,16 @@ Maksesüsteemid on meetodid ja infrastruktuurid, mis võimaldavad raha ülekandm
 **Kasutamine B2C ja B2B:**
 
 
-- B2C (Business-to-Consumer):**
+- **B2C (Business-to-Consumer):**
     - Tarbijad kasutavad sageli sularaha, kaarte ja digitaalseid rahakotte igapäevaste ostude tegemiseks - näiteks toidukaupade ostmiseks, veebiostude tegemiseks või selliste teenuste osutamiseks nagu sõidujagamine.
     - Kiirus, mugavus ja madalad tasud (tarbija jaoks) on sageli peamised prioriteedid.
     - Kontaktivaba ja mobiilimaksed on selles valdkonnas üha populaarsemad tänu nende kasutusmugavusele.
-- B2B (Business-to-Business):**
+- **B2B (Business-to-Business):**
     - Ettevõtted kasutavad tarnijatele maksmiseks, suurte arvete tasumiseks või korduvate maksete tegemiseks tavaliselt ülekandeid, tšekke ja arveldussüsteeme.
     - Sageli keskendutakse jälgitavusele, dokumenteerimisele ja võimele käsitleda suuremaid tehinguväärtusi.
     - Kaardikasutus on olemas, kuid see on kõrgemate tasude ja tehingulimiitide tõttu vähem levinud. Tekkimas on digitaalsed lahendused, nagu integreeritud makseplatvormid, mis aitavad ühtlustada ja automatiseerida raamatupidamisarvestuse ja -maksete tegemise protsesse.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/et/001.webp)
 
 *Graafik: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -149,7 +148,7 @@ Maksesüsteemid on meetodid ja infrastruktuurid, mis võimaldavad raha ülekandm
 
 Kui klient kasutab kaupluses krediitkaarti, loeb POS-terminal kaardi, mis edastab tehinguandmed turvaliselt kaupmehe vastuvõtvasse panka. Omandaja edastab selle teabe asjaomasele kaardivõrgule (nt Visa või Mastercard), mis seejärel suunab taotluse emitendile - pangale, kes andis kliendi kaardi. Väljaandja kontrollib kliendi kontot või krediidiliini ning saadab võrgu ja vastuvõtja kaudu tagasi autoriseeringu, mis võimaldab kaupmehel makseid vastu võtta.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/et/002.webp)
 
 See pealtnäha lihtne tehing hõlmab tegelikult üle 15 etapi, 7 vahendajat ja võtab keskmiselt 48 tundi kuni 5 päeva, enne kui kaupmees saab raha kätte. Järgmiste päevade jooksul toimub kliiringu- ja arveldusprotsess. Kaardivõrk koondab päeva tehingud ja koordineerib raha vahetamist ostja ja emitendi vahel. Keskpank tagab nende pankadevaheliste arvelduste täpsuse ja stabiilsuse. Lõpuks saab kaupmehe pangakonto netosumma (miinus tasud), mis on krediteeritud kaardikorraldajalt, millega tehingu elutsükkel on lõpule viidud.
 
@@ -192,19 +191,19 @@ Nii nagu me läksime häälkõnede eest minuti kaupa maksmisest üle peaaegu tas
 Bitcoin on **peer-to-peer digitaalne valuutavahetussüsteem** (elektrooniline sularaha). Mõiste "Bitcoin" viitab järgmistele komponentidele:
 
 
-- Arvutiprotokoll**, mis hõlbustab väärtuste vahetamist Internetis ilma vahendajateta, ilma luba nõudmata ja pseudonüümselt. See kasutab täiustatud krüptograafilisi põhimõtteid.
-- Füüsiline võrk**, mis koosneb internetiga ühendatud masinatest (sõlmedest, kaevandajatest jne), mida haldavad üksikisikud ja ettevõtted, moodustades detsentraliseeritud süsteemi (ilma keskasutuse või ühe kontrollpunktita).
-- Süsteemi arvestusüksus**. Rohkem kui 21 miljonit bitcoin'i ei ole kunagi olemas. Iga bitcoin jaguneb 100 miljoniks ühikuks, mida nimetatakse "satoshideks", mis on nimetatud selle anonüümse looja auks.
+- **Arvutiprotokoll**, mis hõlbustab väärtuste vahetamist Internetis ilma vahendajateta, ilma luba nõudmata ja pseudonüümselt. See kasutab täiustatud krüptograafilisi põhimõtteid.
+- **Füüsiline võrk**, mis koosneb internetiga ühendatud masinatest (sõlmedest, kaevandajatest jne), mida haldavad üksikisikud ja ettevõtted, moodustades detsentraliseeritud süsteemi (ilma keskasutuse või ühe kontrollpunktita).
+- **Süsteemi arvestusüksus**. Rohkem kui 21 miljonit bitcoin'i ei ole kunagi olemas. Iga bitcoin jaguneb 100 miljoniks ühikuks, mida nimetatakse "satoshideks", mis on nimetatud selle anonüümse looja auks.
 
 Üheskoos teevad Bitcoinist **kandjapoolse vara** ja digitaalse valuuta **mitte emitendita**. Omandiõigus on tagatud üksnes **privaatse krüptograafilise võtme** omamisega, mis annab täieliku kontrolli **vahendajate või usaldusväärsete kolmandate isikute** üle. Omandiõiguse ülekandmisel on see kohe **täielik**: uus omanik on selle täielik omanik, ilma et ta sõltuks kesksest asutusest, kes kaitse või konverteeritavuse tagamisel. Tehingud on **kindlad** - kui need on plokiahelasse salvestatud, ei saa neid muuta ega kustutada.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/et/003.webp)
 
 Bitcoinil on fikseeritud rahapoliitika, mille **ülemmäär on 21 miljonit bitcoinit**, millest ~19,8 miljonit on juba jaotatud. See muudab selle **deflatsiooniliseks**, mille väärtus kasvab aja jooksul, kuna kasutajad hoiustavad sinna säästusid ja tootlikkuse kasvu.
 
 Selle tehnilised omadused ületavad kulla ja dollari omadusi kokku, mis teeb sellest kõige raskema finantsvara, mis on kunagi loodud. Bitcoin on nii väärtuse säilitaja kui ka vahetusvahend, valmiv valuuta. Kujutage ette väärtuse ülekandmist ühe ettevõtte kassast teise kiiresti, ilma vahendajateta, minimaalsete kuludega, ilma pettusteta, 24/7 ja ilma kolmanda osapoole osaluseta.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/et/004.webp)
 
 Bitcoin säilitab tõhusalt väärtust, sest selle pearaamat on võltsimiskindel. Selle väärtus suureneb tänu haruldasele ja piiratud pakkumisele ning kasutajate arvu suurenemisest tulenevatele vahetusvõimalustele.
 
@@ -215,30 +214,30 @@ Bitcoin kutsub meid üles mõtlema uuesti raha enda olemuse üle. Kas te võiksi
 **BITCOINI ISIKUTUNNISTUS**
 
 
-- Vanus:** 15 aastat (3. jaanuar 2009)
-- Päevane börsiväärtus:** 10 miljardit dollarit (> CAC40)
-- Turukapitalisatsioon:** 1,8 triljonit dollarit (> Meta, Visa, Silver ; < Apple, Google, Gold)
-- Kasutajad:** ~100-200 miljonit (1-2% maailma elanikkonnast)
-- Volatiilsus:** sisemiselt puudub (1 Bitcoin = 1 Bitcoin), väliselt väga kõrge (fiat-valuuta vahetuses)
-- Tulemused:** Esimene tehing $0,0009; nüüd $100,000 (x100 miljonit)
-- Võrgu kättesaadavus (kasutusaeg):** 100% alates 2013. aastast
-- Surnuks kuulutatud või kritiseeritud:** Üks kord kuus
+- **Vanus:** 15 aastat (3. jaanuar 2009)
+- **Päevane börsiväärtus:** 10 miljardit dollarit (> CAC40)
+- **Turukapitalisatsioon:** 1,8 triljonit dollarit (> Meta, Visa, Silver ; < Apple, Google, Gold)
+- **Kasutajad:** ~100-200 miljonit (1-2% maailma elanikkonnast)
+- **Volatiilsus:** sisemiselt puudub (1 Bitcoin = 1 Bitcoin), väliselt väga kõrge (fiat-valuuta vahetuses)
+- **Tulemused:** Esimene tehing $0,0009; nüüd $100,000 (x100 miljonit)
+- **Võrgu kättesaadavus (kasutusaeg):** 100% alates 2013. aastast
+- **Surnuks kuulutatud või kritiseeritud:** Üks kord kuus
 
 **Inimliku koostöö ime:**
 
 
 - Täiesti **avatud lähtekoodiga**
-- Juriidiline isik:** Puudub
-- Tegevjuht:** Ei ole
-- Riskikapitali investeeringud:** Ei ole
-- Turundus:** Ei ole
-- Teadus- ja arendustegevus:** Vabatahtlik tegevus
-- Juhtimine:** Kasutajate poolt
-- Uuenduslik majandusmudel:** Blokkide loomist subsideeritakse tehingutasudega (oksjonipõhine)
+- **Juriidiline isik:** Puudub
+- **Tegevjuht:** Ei ole
+- **Riskikapitali investeeringud:** Ei ole
+- **Turundus:** Ei ole
+- **Teadus- ja arendustegevus:** Vabatahtlik tegevus
+- **Juhtimine:** Kasutajate poolt
+- **Uuenduslik majandusmudel:** Blokkide loomist subsideeritakse tehingutasudega (oksjonipõhine)
 
 Lisateabe saamiseks Bitcoini, selle ajaloo, toimimise ja kasutamise kohta soovitan jälgida ka seda teist põhjalikku kursust:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Lightning Network'i tutvustus
 
@@ -249,13 +248,13 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 Lightning Network on **protokoll ja võrk**, mis hõlbustab Bitcoini tehinguid minimaalse suhtlemisega Bitcoini peamise plokiahelaga. See toimib järgmiselt:
 
 
-- Esialgne seadistamine:** Rahalised vahendid lukustatakse (deponeeritakse) põhiplokiahelas, et luua maksekanal 2 osapoole vahel.
-- Maksevõrk:** Mitme osapoole vaheliste maksekanalite võrk moodustab maksevõrgu (marsruutimine ja ühendamine).
-- Tehingud väljaspool ahelat:** Tehingud toimuvad osapoolte vahel, kuid neid **ei avaldata** kohe Bitcoini põhiplokiahelas (**"off-chain "**).
-- On-chain arveldused:** Bitcoini põhiplokiahelas (**"on-chain**") avaldatakse ainult **kanalite tehingute lõppsaldo**, mis võimaldab vahepeal teha arvukalt tehinguid. Selline mitmete maksete koondamine vähendab ülekoormust ja seega madalamaid tasusid võrreldes paljude "on-chain" tehingute tegemisega.
-- Kanali sulgemine:** Kasutaja võib oma kanali igal ajal sulgeda ja oma Bitcoini tagasi nõuda, avaldades viimase tehingu seisu. See on põhimõte, et tehingud on **"avaldatavad" igal hetkel, kuid "avaldamata "**, kuni see on vajalik. Väljumine (kanali sulgemine) võib olla ühepoolne (mis tahes 2 osapoole otsus igal ajal) või vastastikku otsustatud (mille tulemuseks on väiksemad ahelasisesed tasud)
+- **Esialgne seadistamine:** Rahalised vahendid lukustatakse (deponeeritakse) põhiplokiahelas, et luua maksekanal 2 osapoole vahel.
+- **Maksevõrk:** Mitme osapoole vaheliste maksekanalite võrk moodustab maksevõrgu (marsruutimine ja ühendamine).
+- **Tehingud väljaspool ahelat:** Tehingud toimuvad osapoolte vahel, kuid neid **ei avaldata** kohe Bitcoini põhiplokiahelas (**"off-chain"**).
+- **On-chain arveldused:** Bitcoini põhiplokiahelas (**"on-chain"**) avaldatakse ainult **kanalite tehingute lõppsaldo**, mis võimaldab vahepeal teha arvukalt tehinguid. Selline mitmete maksete koondamine vähendab ülekoormust ja seega madalamaid tasusid võrreldes paljude "on-chain" tehingute tegemisega.
+- **Kanali sulgemine:** Kasutaja võib oma kanali igal ajal sulgeda ja oma Bitcoini tagasi nõuda, avaldades viimase tehingu seisu. See on põhimõte, et tehingud on **"avaldatavad"** igal hetkel, kuid **"avaldamata"**, kuni see on vajalik. Väljumine (kanali sulgemine) võib olla ühepoolne (mis tahes 2 osapoole otsus igal ajal) või vastastikku otsustatud (mille tulemuseks on väiksemad ahelasisesed tasud)
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/et/005.webp)
 
 Selline lähenemine väldib iga tehingu sooritamise aeglust ja keerukust otse Bitcoini peamises plokiahelas, salvestades ainult lõppsaldod ja säilitades selle turvalisuse. Lightning Network on kiht Bitcoini "peal", kuid jääb selle külge ankurdatud.
 
@@ -265,14 +264,14 @@ Protokolliga luuakse masinate **võrk**, mille kanalid moodustavad universaalse 
 
 Lightning Network võimaldab vahetut väärtuste vahetamist valguse kiirusel. See on nagu e-posti protokoll, mida rakendatakse maksete suhtes: järgmise põlvkonna maksevõrk. See muudab radikaalselt "raha" liikumist, muutes selle sama tasuta ja kiireks kui andmeedastuse internetis.
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/et/006.webp)
 
 **Vaimne eelis:**
 
 
-- Kiirus:** Kohene tehing.
-- Madalad tasud:** Palju madalamad kulud võrreldes traditsiooniliste pangavõrgustikega.
-- Lihtne kasutuselevõtt:** Ettevõtjad saavad Lightning-maksete vastuvõtmise kiiresti sisse seada, kasutades selleks vaid nutitelefoni rakendust või maksunuppu oma veebisaidil.
+- **Kiirus:** Kohene tehing.
+- **Madalad tasud:** Palju madalamad kulud võrreldes traditsiooniliste pangavõrgustikega.
+- **Lihtne kasutuselevõtt:** Ettevõtjad saavad Lightning-maksete vastuvõtmise kiiresti sisse seada, kasutades selleks vaid nutitelefoni rakendust või maksunuppu oma veebisaidil.
 
 Lightning-infrastruktuur ületab traditsioonilisi maksesüsteeme kiiruse, kulude ja energiatõhususe poolest. Kui kaupmehed võtavad selle üha enam kasutusele, kiireneb hoogu: kui maksed saavad mööduda pankadevahelisest võrgustikust, siis miks peaks jätkama märkimisväärse osa tulude loovutamist tänastele vahendajatele?
 
@@ -293,23 +292,23 @@ Lightning pakub pilguheitu tulevikku, kus kõik internetipõhiseks muutunud ette
 Lightning Network on ideaalne Bitcoini maksete tegemiseks füüsilistes või veebipoodides tänu selle kiirusele ja maksete lõplikkusele.
 
 
-- Kiirus:** Lightning (~500ms kuni paar sekundit) on oluliselt kiirem kui Bitcoini põhivõrk, kus tehingute kinnitamine võib võtta umbes 30 minutit. Suurte ostude puhul (üle 1000 dollari) võib siiski eelistada Bitcoini põhivõrku, kuna kiirus on vähem kriitiline. Need üksikasjad on aga keskmise kasutaja eest sageli varjatud, sest rakendused teevad neid otsuseid sujuvalt taustal.
-- Lõplikkus:** Kui makse on Lightningile tehtud, on see lõplik. Kolmandate osapoolte poolt tehtavate tagasimaksete või pettusega seotud vaidluste võimalus puudub.
-- Tasud:** Lightning Networki tehingutasud on minimaalsed ja neid maksab kasutaja, mitte kaupmees. Kaupmeestele tekivad tasud ainult siis, kui nad peavad hiljem oma Bitcoini teise võrku või teenusesse üle kandma.
+- **Kiirus:** Lightning (~500ms kuni paar sekundit) on oluliselt kiirem kui Bitcoini põhivõrk, kus tehingute kinnitamine võib võtta umbes 30 minutit. Suurte ostude puhul (üle 1000 dollari) võib siiski eelistada Bitcoini põhivõrku, kuna kiirus on vähem kriitiline. Need üksikasjad on aga keskmise kasutaja eest sageli varjatud, sest rakendused teevad neid otsuseid sujuvalt taustal.
+- **Lõplikkus:** Kui makse on Lightningile tehtud, on see lõplik. Kolmandate osapoolte poolt tehtavate tagasimaksete või pettusega seotud vaidluste võimalus puudub.
+- **Tasud:** Lightning Networki tehingutasud on minimaalsed ja neid maksab kasutaja, mitte kaupmees. Kaupmeestele tekivad tasud ainult siis, kui nad peavad hiljem oma Bitcoini teise võrku või teenusesse üle kandma.
 
 **VALGUSTUSKAART**
 
 
-- Leiutis:** 2015
-- Käivitamine:** 2016
-- Vanus:** 7 aastat (esimene tehing: 28. detsember 2017)
-- Võrgustiku tehniline võimekus:** skaalal suudab see käsitleda 1000 korda rohkem koheseid tehinguid kui traditsioonilised süsteemid.
-- Tehingu suurus:** ulatub nii suurest kuni 1000 korda väiksemini kui traditsioonilised süsteemid.
-- Tehingute kiirus:** Kuni 100 korda kiirem.
-- Tasud:** Kuni 90% madalamad.
-- Makse lõpptähtaeg:** Peaaegu kohene (sageli ~500 millisekundit, mõnikord mõni sekund).
-- Energiatarbimine:** ~8% traditsioonilisest ülemaailmsest rahasüsteemist.
-- Omadused:**
+- **Leiutis:** 2015
+- **Käivitamine:** 2016
+- **Vanus:** 7 aastat (esimene tehing: 28. detsember 2017)
+- **Võrgustiku tehniline võimekus:** skaalal suudab see käsitleda 1000 korda rohkem koheseid tehinguid kui traditsioonilised süsteemid.
+- **Tehingu suurus:** ulatub nii suurest kuni 1000 korda väiksemini kui traditsioonilised süsteemid.
+- **Tehingute kiirus:** Kuni 100 korda kiirem.
+- **Tasud:** Kuni 90% madalamad.
+- **Makse lõpptähtaeg:** Peaaegu kohene (sageli ~500 millisekundit, mõnikord mõni sekund).
+- **Energiatarbimine:** ~8% traditsioonilisest ülemaailmsest rahasüsteemist.
+- **Omadused:**
     - Peer-to-peer
     - Universaalne
     - Litsentsita
@@ -320,7 +319,7 @@ Lightning Network on ideaalne Bitcoini maksete tegemiseks füüsilistes või vee
 
 Lisateabe saamiseks Lightning Networki tehnilise toimimise kohta soovitan jälgida ka seda teist põhjalikku kursust:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin riigikassas
 
@@ -364,7 +363,7 @@ Traditsioonilises majandusteoorias (keynesiaanlikus) nähakse kapitali sageli li
 
 Õnneks sunnib Bitcoin meid kõike ümber mõtlema ja need eelarvamused kahtluse alla seadma. On olemas üks mõttekoolkond - Austria majandusteaduskond -, mis võib neid küsimusi valgustada ja aidata meil kapitali tegelikku olemust uuesti läbi mõelda.
 
-**Kord oli kord*
+**Kord oli kord**
 
 Alustame lühikese looga:
 
@@ -374,7 +373,7 @@ Enne oda valmistamise alustamist otsustab kalamees panna kõrvale kala, et end e
 
 Kuigi ta pühendab oma aega oda ehitamisele, toetub ta oma reservidele, lükates meeleldi edasi osa oma vahetutest mugavustest (mis peegeldab tema **ajalist eelistust**). Pärast mitmepäevast rasket tööd saab ta tugeva oda valmis.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/et/007.webp)
 
 Nüüd saab ta oda abil kala palju kiiremini ja väiksema vaevaga püüda. Ta ei pea end enam nii palju kurnama kui varem ja hakkab isegi kala ülejääki koguma. See ülejääk avab talle uusi võimalusi: ta võib seda varuda, jagada või investeerida teistesse projektidesse saarel. Kohese tarbimise edasilükkamisega ja oma kapitali kasutamisega on kalur oluliselt parandanud oma tõhusust ja tulevikuväljavaateid."
 
@@ -389,16 +388,16 @@ Austria majandusteaduskond on saanud oma nime selle asutajate ja esimeste toetaj
 Austria vaates on kapital tihedalt seotud ideega, et tarbimist lükatakse edasi, et luua vahendeid või tootmisressursse, mis suurendavad tulevast tootmist. See protsess, mida nimetatakse kapitali akumulatsiooniks, on Austria majandusteoorias keskne. Selle vaatenurga põhielemendid on järgmised:
 
 
-- Ajaline eelistus ja edasilükatud tarbimine**: Üksikisikud eelistavad loomulikult tarbida pigem praegu kui hiljem, kuid nad võivad tarbimist edasi lükata, kui nad ootavad suuremat kasu tulevikus. Täna säästes saab ressursse investeerida kapitalikaupadesse (tööriistad, masinad, infrastruktuur), mis suurendavad aja jooksul tootlikkust. Ühiskonnad või üksikisikud, kelle ajaline eelistus on väiksem, säästavad rohkem ja investeerivad pikaajalistesse projektidesse, soodustades jätkusuutlikku majanduskasvu.
-- Kapital kui tulevase tootmise mootor**: Kapitalikaupu käsitletakse kui vahepealseid vahendeid, mida kasutatakse lõpptarbekaupade tootmiseks. Kapitali kogumisega saavad ettevõtjad suurendada tootlikkust ja luua tulevikus rohkem jõukust. Näiteks võib ressursse kasutada tarbekaupade kohese tootmise asemel tehaste või masinate ehitamiseks. Kuigi see vähendab lühiajalist tarbimist, võimaldab sellest tulenev tõhusus hiljem suuremat tootmist ja jõukust.
-- Kaudne tootmine ja tõhusus**: Austria majandusteadlased, nagu Eugen Böhm-Bawerk, rõhutasid kaudse tootmise ideed - pikemad ja keerulisemad tootmisprotsessid, mis hõlmavad mitut etappi. Kuigi need protsessid võtavad aega, annavad nad lõppkokkuvõttes tõhusamaid ja tootlikumaid tulemusi, näiteks puidu töötlemiseks saeveski ehitamine, mitte palgi käsitsi kogumine.
-- Intressimäärad kui signaalid**: Austria arvates peegeldavad intressimäärad loomulikult üksikisikute ajalisi eelistusi. Kõrged intressimäärad viitavad eelistusele kohese tarbimise suhtes, samas kui madalad intressimäärad soodustavad säästmist ja pikaajalisi investeeringuid. Kui keskpangad manipuleerivad intressimääradega kunstlikult, moonutavad nad neid loomulikke signaale, mis viib ressursside valesti jaotamiseni ja mittesäästvate investeeringute (väärinvesteeringute) tekkimiseni.
+- **Ajaline eelistus ja edasilükatud tarbimine**: Üksikisikud eelistavad loomulikult tarbida pigem praegu kui hiljem, kuid nad võivad tarbimist edasi lükata, kui nad ootavad suuremat kasu tulevikus. Täna säästes saab ressursse investeerida kapitalikaupadesse (tööriistad, masinad, infrastruktuur), mis suurendavad aja jooksul tootlikkust. Ühiskonnad või üksikisikud, kelle ajaline eelistus on väiksem, säästavad rohkem ja investeerivad pikaajalistesse projektidesse, soodustades jätkusuutlikku majanduskasvu.
+- **Kapital kui tulevase tootmise mootor**: Kapitalikaupu käsitletakse kui vahepealseid vahendeid, mida kasutatakse lõpptarbekaupade tootmiseks. Kapitali kogumisega saavad ettevõtjad suurendada tootlikkust ja luua tulevikus rohkem jõukust. Näiteks võib ressursse kasutada tarbekaupade kohese tootmise asemel tehaste või masinate ehitamiseks. Kuigi see vähendab lühiajalist tarbimist, võimaldab sellest tulenev tõhusus hiljem suuremat tootmist ja jõukust.
+- **Kaudne tootmine ja tõhusus**: Austria majandusteadlased, nagu Eugen Böhm-Bawerk, rõhutasid kaudse tootmise ideed - pikemad ja keerulisemad tootmisprotsessid, mis hõlmavad mitut etappi. Kuigi need protsessid võtavad aega, annavad nad lõppkokkuvõttes tõhusamaid ja tootlikumaid tulemusi, näiteks puidu töötlemiseks saeveski ehitamine, mitte palgi käsitsi kogumine.
+- **Intressimäärad kui signaalid**: Austria arvates peegeldavad intressimäärad loomulikult üksikisikute ajalisi eelistusi. Kõrged intressimäärad viitavad eelistusele kohese tarbimise suhtes, samas kui madalad intressimäärad soodustavad säästmist ja pikaajalisi investeeringuid. Kui keskpangad manipuleerivad intressimääradega kunstlikult, moonutavad nad neid loomulikke signaale, mis viib ressursside valesti jaotamiseni ja mittesäästvate investeeringute (väärinvesteeringute) tekkimiseni.
 
 **Kahe kapitali vorm tänapäeva majanduses**
 
 Võlapõhise rahasüsteemi raames, milles me tegutseme, **on olemas teist tüüpi kapital**: see, mis tekib koheselt, kui pank loob laenu lihtsa krediidimehhanismi kaudu. See hõlmab likviidsuse loomist ex nihilo, kus pank laenab raha, mida ta tegelikult eelnevalt ei hoia, vaid loob seda tagasimaksmise lubaduse alusel.
 
-Ühest küljest on "Austria" kapital tegeliku säästmise tulemus, protsess, mis hõlmab läbimõeldud majanduslikke otsuseid ja hoolikat ohvreid. Teisest küljest on võlapõhise raha loomisega loodud kapital hetkeline ja kunstlik konstruktsioon. Kuigi need kaks kapitaliliiki on projektide rahastamiseks kasutamisel pealtnäha sarnased, on nad oma olemuselt põhimõtteliselt erinevad**.
+Ühest küljest on "Austria" kapital tegeliku säästmise tulemus, protsess, mis hõlmab läbimõeldud majanduslikke otsuseid ja hoolikat ohvreid. Teisest küljest on võlapõhise raha loomisega loodud kapital hetkeline ja kunstlik konstruktsioon. Kuigi need kaks kapitaliliiki on projektide rahastamiseks kasutamisel pealtnäha sarnased, on nad oma olemuselt põhimõtteliselt erinevad.
 
 Neid kahte kapitalivormi ei tohiks kunagi segamini ajada, kuid võlapõhises süsteemis on see sageli nii, mis **määrastab majandussignaale** ja viib sageli väärinvesteeringuteni. See vääritimõistmine heidab valgust sellele, miks kapitalismi sageli põhjendamatult kritiseeritakse
 
@@ -419,18 +418,18 @@ Bitcoin pakub võimalust kapitali kogumiseks ja säilitamiseks pikemas perspekti
 **Austria koolkonna võtmefiguurid**
 
 
-- Carl Menger**: Menger töötas välja subjektiivse väärtuse teooria, mis väidab, et kaupade väärtus sõltub pigem individuaalsetest eelistustest kui tootmiskuludest.
-- Ludwig von Mises**: Mises, kes on Austria koolkonna nurgakivi, tutvustas praxeoloogiat (inimtegevuse teooria) ja kirjutas "Inimtegevus", mis on sotsialismi ja tsentraalse planeerimise sügav kriitika.
-- Friedrich Hayek**: Hayek, Misesi õpilane, sai 1974. aastal Nobeli majanduspreemia oma töö eest detsentraliseeritud teadmiste ja turu spontaansuse kohta. Oma raamatus _The Road to Serfdom_ kritiseeris ta teravalt tsentraliseeritud kontrolli.
-- Murray Rothbard**: Rothbard, Mises'i õpilane ja veendunud libertarismi pooldaja, töötas välja anarhokapitalismi teooria, mis kujutab ette riigita ühiskonda, mida valitsevad vabatahtlikud lepingud. Tema raamat "Inimene, majandus ja riik" on Austria majandusteaduse põhiteos.
+- **Carl Menger**: Menger töötas välja subjektiivse väärtuse teooria, mis väidab, et kaupade väärtus sõltub pigem individuaalsetest eelistustest kui tootmiskuludest.
+- **Ludwig von Mises**: Mises, kes on Austria koolkonna nurgakivi, tutvustas praxeoloogiat (inimtegevuse teooria) ja kirjutas "Inimtegevus", mis on sotsialismi ja tsentraalse planeerimise sügav kriitika.
+- **Friedrich Hayek**: Hayek, Misesi õpilane, sai 1974. aastal Nobeli majanduspreemia oma töö eest detsentraliseeritud teadmiste ja turu spontaansuse kohta. Oma raamatus _The Road to Serfdom_ kritiseeris ta teravalt tsentraliseeritud kontrolli.
+- **Murray Rothbard**: Rothbard, Mises'i õpilane ja veendunud libertarismi pooldaja, töötas välja anarhokapitalismi teooria, mis kujutab ette riigita ühiskonda, mida valitsevad vabatahtlikud lepingud. Tema raamat "Inimene, majandus ja riik" on Austria majandusteaduse põhiteos.
 
 **Teised mõjukad majandusteadlased**
 
 
-- Milton Friedman**: Kuigi Friedman ei ole otseselt seotud Austria koolkonnaga, toetas ta paljusid turupõhiseid ja liberaalseid ideid. Tema monetaristlik poliitika erineb Austria mõtteviisist, kuid jagab nende kriitikat riigi liigse sekkumise suhtes majandusse.
-- Frédéric Bastiat**: Sajandi prantsuse majandusteadlane Bastiat mõjutas Austria koolkonda oma töödega vabakaubandusest ja majanduspoliitika nähtamatutest tagajärgedest. Tema essee "Mis on nähtav ja mis ei ole nähtav" on majandusliberalismi põhitekst.
+- **Milton Friedman**: Kuigi Friedman ei ole otseselt seotud Austria koolkonnaga, toetas ta paljusid turupõhiseid ja liberaalseid ideid. Tema monetaristlik poliitika erineb Austria mõtteviisist, kuid jagab nende kriitikat riigi liigse sekkumise suhtes majandusse.
+- **Frédéric Bastiat**: Sajandi prantsuse majandusteadlane Bastiat mõjutas Austria koolkonda oma töödega vabakaubandusest ja majanduspoliitika nähtamatutest tagajärgedest. Tema essee "Mis on nähtav ja mis ei ole nähtav" on majandusliberalismi põhitekst.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/et/008.webp)
 
 *Atribuutsioon: Ludwig von Misesi Instituut*
 
@@ -440,11 +439,11 @@ Need mõtlejad kujundasid ideed, et riigi sekkumine moonutab turgu ja et majandu
 
 Lisateave selle teema kohta:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Bitcoini hoidmine riigikassas
 
@@ -486,7 +485,7 @@ Esiteks, **võrreldes varasemate tulemustega ei saa tagada tulevasi tulemusi**. 
 
 Teiseks, Bitcoin on seni kogenud **4-aastaseid tsükleid**, mis tähendab, et rohkem kui 4-aastase ajahorisondiga on panus alati olnud kasumlik. Nende jaoks, kes näevad Bitcoini kui investeeringut, võib lühiajaline ajahorisont (<4 aastat) olla riskantne.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/et/009.webp)
 
 *MICHAEL SAYLOR: "Parim Bitcoini hinnasignaal on 4 aasta libisev keskmine. "* Vt ülaltoodud diagrammi.
 
@@ -547,7 +546,7 @@ Te ei pea ostma täpselt 1 Bitcoini, sest Bitcoin on jagatav alamühikuteks, mid
 
 Lisaks sellele saab 21 miljonit bitcoin'i ehk **2,1 kvadriljonit satoshi** tõhusalt esitada 64-bitise täisarvuga. See tähendab, et vaatamata kõrgele hinnale terve bitcoini kohta jääb see tänu jagatavusele kättesaadavaks paljudele investoritele. Seega ei ole vaja osta tervet bitcoini, et osaleda võrgus või investeerida sellesse digitaalsesse varasse.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/et/010.webp)
 
 Pidagem meeles, et selle suhteliselt madal koguturukapitalisatsioon, võrreldes teiste varadega, nagu aktsiad, kuld või kinnisvara, jätab selle väärtuse kasvuvõime puutumata. Kuna selle levik on endiselt väga väike (umbes 1% maailma elanikkonnast), siis arvatakse, et oleme alles selle tõusu alguses. See teeb sellest **se kõige ebasümmeetrilisema panuse meie põlvkonnale**: praegu on väga väike tõenäosus, et see langeb praegu nulli, ja suur tõenäosus, et see jätkab tõusu.
 
@@ -560,11 +559,12 @@ Selle teise stsenaariumi puhul muutub erinevate seisukohtade ühtlustamine oluli
 Praegu on enamusomaniku stsenaarium, mille kohaselt teeb otsuse enamusomanik, kõige tüüpilisem Bitcoini omavate ettevõtete seas. Siin on mõned reaalsed näited :
 
 
-- Sõltumatud spetsialistid**: Konsultandid, tervishoiutöötajad või juristid, kes investeerivad osa oma pikaajalistest rahalistest vahenditest Bitcoini. Üldiselt on nendel spetsialistidel juba hoiu- või tähtajalised hoiukontod, mille tootlus on kasin.
-- Tehnoloogiasektori juhid**: Juhtkond, kes müüs oma ettevõtte ja investeeris osa oma isikliku valdusettevõtte tuludest paar aastat tagasi Bitcoini. Täna naudivad nad mugavat finantsolukorda ja investeerivad uuesti uutesse ettevõtmistesse.
-- Väga väikeste ettevõtete omanikud** : Ettevõtjad teenuste, põllumajanduse või käsitöö valdkonnas, kes on mõistnud Bitcoini potentsiaali ja eraldavad osa oma riigikassast sellele. Nende peamine motivatsioon seisneb mitmekesistamises ja sellega kaasnevas vabaduses
-- Börsil noteeritud ettevõtted**, nagu MicroStrategy, on loonud pretsedendi, konverteerides märkimisväärse osa oma ettevõtte varadest Bitcoiniks, näidates ülemaailmset muutust ettevõtete kapitali jaotamise strateegiates. 2024. aasta sügiseks olid paljud teised ettevõtted järginud oma eeskuju, mis seadustab seda suundumust veelgi.
+- **Sõltumatud spetsialistid**: Konsultandid, tervishoiutöötajad või juristid, kes investeerivad osa oma pikaajalistest rahalistest vahenditest Bitcoini. Üldiselt on nendel spetsialistidel juba hoiu- või tähtajalised hoiukontod, mille tootlus on kasin.
+- **Tehnoloogiasektori juhid**: Juhtkond, kes müüs oma ettevõtte ja investeeris osa oma isikliku valdusettevõtte tuludest paar aastat tagasi Bitcoini. Täna naudivad nad mugavat finantsolukorda ja investeerivad uuesti uutesse ettevõtmistesse.
+- **Väga väikeste ettevõtete omanikud**: Ettevõtjad teenuste, põllumajanduse või käsitöö valdkonnas, kes on mõistnud Bitcoini potentsiaali ja eraldavad osa oma riigikassast sellele. Nende peamine motivatsioon seisneb mitmekesistamises ja sellega kaasnevas vabaduses
+- **Börsil noteeritud ettevõtted**, nagu MicroStrategy, on loonud pretsedendi, konverteerides märkimisväärse osa oma ettevõtte varadest Bitcoiniks, näidates ülemaailmset muutust ettevõtete kapitali jaotamise strateegiates. 2024. aasta sügiseks olid paljud teised ettevõtted järginud oma eeskuju, mis seadustab seda suundumust veelgi.
 
+Avastage ajakohastatud nimekiri ettevõtetest, kes hoiavad kõige rohkem bitcoine kassas, samuti hoitavad summad, saidil: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Ettevõtete valduses olevate bitcoinide maksustamine
 
 Ettevõtete puhul, mis ei ole struktureeritud eraldi juriidiliste isikutena - näiteks füüsilisest isikust ettevõtjad või muud juriidilise isiku staatuseta isikud - peegeldab Bitcoini tehingute maksustamine sageli üksikisikute suhtes kohaldatavat kohtlemist. Paljudel juhtudel kohaldatakse samu eeskirju, mis kehtivad kapitalikasumi või tulu suhtes, nagu siis, kui üksikisik müüb Bitcoini. Näiteks mõnes riigis võidakse kasumit käsitleda osana ettevõtja isiklikust sissetulekust, mille suhtes kohaldatakse **isiku tulumaksu astmestikku**.
@@ -583,34 +583,34 @@ Nende erinevuste tõttu otsustavad **mõni ettevõtteomanikud osta ja hoida Bitc
 
 Bitcoini omandamiseks on kolm võimalust:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/et/011.webp)
 
 
-- Kaupade või teenuste eest:**
+- **Kaupade või teenuste eest:**
 
 Kuna Bitcoin toimib vahetusvahendina, on võimalik ette kujutada ringmajandust. Kuigi see on praegu veel haruldane, hakkavad üha enam ettevõtteid Bitcoini makseid vastu võtma - miks mitte ka teie? (Vt järgmist peatükki)
 
 
-- Bitcoini kaevandamine:**
+- **Bitcoini kaevandamine:**
 
 See hõlmab tasu teenimist kaevandusmasinate käitamisest. Mittespetsialiseerunud ettevõtete puhul jääb see suhteliselt marginaalseks. Võite osaleda vahendajate kaudu, kes müüvad või rendivad teile arvutust, võrku ja hooldust. Kui masinad kuuluvad teile, saate neid amortiseeritavate varadena arvestada. Suures mahus peate hoolikalt arvutama investeeringu tasuvust, sest turg on väga konkurentsitihe ja nõuab kulude, eelkõige elektrienergia, head ettenägemist.
 
-Et rohkem teada saada kaevandamismeetodite kohta, võite [tutvuda meie õpetuste jaotisega "kaevandamine"](https://planb.network/tutorials/mining).
+Et rohkem teada saada kaevandamismeetodite kohta, võite [tutvuda meie õpetuste jaotisega "kaevandamine"](https://planb.academy/tutorials/mining).
 
 
-- Bitcoini ostmine:**
+- **Bitcoini ostmine:**
 
 See on kaugelt kõige levinum meetod, mida tehakse kas vastastikuste börside kaudu või tavaliselt spetsialiseeritud kauplemisplatvormidel. Bitcoini omandamisel ettevõtte varana peavad ettevõtted järgima rangeid regulatiivseid standardeid ja Know-Your-Customer (KYC) menetlusi. Kui nad ostavad seda spetsialiseeritud kauplemisplatvormidelt, peavad ettevõtted tavaliselt esitama üksikasjalikku teavet ettevõtte kohta, sealhulgas isikut tõendavad dokumendid, finantsaruanded ja aadressi tõendavad dokumendid, et täita KYC- ja rahapesuvastaseid nõudeid.
 
 Et õppida, kuidas avada ärikonto ja kasutada seda bitcoinide ostmiseks, müümiseks ja ülekandmiseks, saate vaadata neid kahte spetsiaalselt ettevõtetele mõeldud õpetust, mis hõlmavad Krakeni ja Bitfinexi platvormide äriversioone:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Lisateavet bitcoinide omandamise meetodite kohta vahetuse või peer-to-peer kaudu saate [tutvuda meie õpetuste jaotisega "vahetus"](https://planb.network/tutorials/exchange).
+Lisateavet bitcoinide omandamise meetodite kohta vahetuse või peer-to-peer kaudu saate [tutvuda meie õpetuste jaotisega "vahetus"](https://planb.academy/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/et/012.webp)
 
 ### Mis hinnaga?
 
@@ -634,7 +634,7 @@ Tegelikkuses on Bitcoini potentsiaalne väärtuse kasv selline, et isegi kui te 
 
 Kinnisvaratööstus kordab sageli, et "alati on õige aeg osta", unustades, et kui kinnisvara kaotaks oma funktsiooni väärtuse säilitajana - üleminek varadele nagu Bitcoin -, võiksid hinnad pöörduda tagasi lähemale nende kasutusväärtusele (kaitse). Bitcoin seevastu ei teeni muud eesmärki kui väärtuse säilitamine, mis võib tähendada, et "alati on õige aeg osta" Tulevik näitab.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/et/013.webp)
 
 *Credit: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
@@ -647,25 +647,25 @@ See krüptograafiline võti on äärmiselt suur juhuslik arv. Kasutajakogemuse l
 See toob kaasa hoidmise küsimuse: Bitcoini hoidmine tähendab, et võtme(te) on käes. Kas te hoiate neid ise või delegeerite selle ülesande kolmandale isikule. On olemas ka vahepealsed lahendused. Vaatame üle kõige levinumad stsenaariumid:
 
 
-- Iseseisev hoidmine:**
+- **Iseseisev hoidmine:**
 
 Seda võimalust soovitavad tõelised Bitcoini entusiastid, sest see on kooskõlas Bitcoini algse disainiga. Te tegutsete oma pangana: puudub oht, et kolmas isik teid petab, kuid te vastutate võtme(te) turvalisuse eest. Teil on täielik juurdepääs oma rahalistele vahenditele 24/7. Kui ärikeskkonnas võib olla vaja, et tehinguid sooritaksid mitu inimest, on teil vaja sobivaid vahendeid ja menetlusi juurdepääsu ja turvalisuse haldamiseks.
 
 
-- Kolmanda osapoole hooldus:**
+- **Kolmanda osapoole hooldus:**
 
 Näiteks võib vahetus- või ostuteenus luua teie jaoks konto, konverteerida teie traditsioonilise valuuta Bitcoiniks ja hoida seda teie nimel, kasutades oma turvasüsteeme. Enamik selliseid teenuseid võimaldab teil oma bitcoinid välja võtta rahakotti, mille võti on ainult teie käes. Kuni te seda ei tee, ei ole bitcoinid teie tegelikuks omanikuks; te loodate nende lubadusele, et nad teile tagasi maksavad. See tähendab, et tuleb tasakaalustada turvariske (nende ja sinu riskid) ja vastaspoole riski (nad võivad ebaõnnestuda või kaduda). Mõnede ettevõtete jaoks on see vastuvõetav, kuigi üldiselt ei soovitata seda pikaajalise säilitamise või 100 % eraldise puhul. Hoiuteenused võivad võtta ka hoiustamistasu.
 
 
-- "Paber Bitcoin" (ETFid või ETPd):**
+- **"Paber Bitcoin" (ETFid või ETPd):**
 
 Need on traditsioonilised finantsinstrumendid, mis esindavad Bitcoini fraktsioone, mis jäljendavad selle hinna arengut. Teoreetiliselt ostab ja hoiab toote taga olev asutus Bitcoini. Teie sissemaksed ja väljamaksed tehakse traditsioonilises vääringus (nt dollarites või eurodes), mitte Bitcoinis. Välja arvatud teatavate toodete puhul, mis võimaldavad väljamakseid tegelikus Bitcoinis (et vältida maksustatavat sündmust mõnes jurisdiktsioonis), hõlmavad need instrumendid iga-aastaseid haldustasusid. Siin toetute asutuse turvalisusele ja seisate silmitsi vastaspoole riskiga (näiteks kui valitsus otsustab konfiskeerida kõik asutuse valduses olevad Bitcoinid, nagu juhtus 1933. aastal USA täitevmääruse 6102 alusel kulla puhul). Nende peamine eelis on lihtne juurdepääs, kuna neid levitatakse traditsiooniliste finantskanalite kaudu. Nad ei vaja krüptograafilisi võtmeid, kuid ei paku ühtki Bitcoinile omast omadust: Bitcoini võrku ei saa kasutada 24/7, et vabalt ja ilma loata väärtust liigutada. Nad kopeerivad ainult finantstulemusi, mitte Bitcoini enda funktsionaalsust või suveräänsust.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/et/014.webp)
 
 Lisaks sellele mõjutab Bitcoini hoidmise vorm oluliselt teie ettevõtte varade kaitsmiseks vajalikke turvameetmeid. Olenemata sellest, kas valite oma võtmete otsese kontrolli säilitamiseks isehoidmise, kasutades ühe või mitme allkirjaga riistvara rahakotte jne või delegeerite selle ülesande kolmanda osapoole hoiuteenustele või ETFidele, on iga valikuga seotud oma riskiprofiil. Näiteks pakub isehoidmine täielikku juurdepääsu, kuid nõuab rangeid sisemisi turvaprotokolle, samas kui kolmanda osapoole lahendused vähendavad halduskoormust vastaspoole riski arvelt. Erinevuste täiendavaks illustreerimiseks on siinsel graafikul esitatud iga hoidmistüübi turvamudel, mis aitab teil valida teie organisatsiooni vajadustele kõige paremini sobiva lähenemisviisi:
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/et/015.webp)
 
 ### Kellelt osta?
 
@@ -674,12 +674,12 @@ Kui valite "paberkandjal Bitcoini", siis pöördute finantsasutuste, näiteks pa
 Kui otsustate osta tegelikku Bitcoini turuplatsi (vahetuse) või maakleri kaudu, on teil mitu põhikategooriat:
 
 
-- Suured rahvusvahelised või välismaised platvormid:**
+- **Suured rahvusvahelised või välismaised platvormid:**
 
 Näiteks Kraken, Coinbase või Binance, mida on ajalooliselt kasutanud paljud eraisikud. Mõnel on tekkinud probleeme ja selget soovitust on raske anda. Üks nõuanne: kui kasutate neid, ärge jätke oma bitcoin'e sinna kauemaks kui vaja.
 
 
-- Reguleeritud teenusepakkujad (registreeritud digitaalsete varade teenusepakkujad):**
+- Reguleeritud teenusepakkujad (registreeritud digitaalsete varade teenusepakkujad):
 
 Näiteks Prantsusmaal on sellised platvormid nagu Paymium (vahetus) või BullBitcoin (maakler) tuntud selle poolest, et nende juhtimisel on tõelised Bitcoini entusiastid ja nad on saavutanud kindla edu. USAs on sellised teenusepakkujad nagu River või Swann. Üldiselt on oluline uurida teenusepakkuja põlvnemist: nende mainet, tulemusi, populaarsust Bitcoini kogukonnas ja seda, kas nende juhtkond on kooskõlas Bitcoini põhiväärtustega.
 
@@ -692,12 +692,12 @@ Näiteks Prantsusmaal on sellised platvormid nagu Paymium (vahetus) või BullBit
 Lisaks tasudele ja täitmise kiirusele - mis on vähem olulised, kui mõtlete pikemas perspektiivis (mitu aastat) - peaks ettevõte kaaluma ka seda, mida on vaja teha:
 
 
-- Kas kasutajaliides:** Kas platvorm on kasutajasõbralik?
-- Raamatupidamisfunktsioonid:** Vähemalt võimalus eksportida tehingute ajalugu .CSV-vormingus.
-- Hoiustamine ja turvalisus:** Kas platvorm hoiab bitcoin'e teie nimel või annab see omandiõiguse teile üle? Milline on nende turvalisuse korraldus? Kas neil on "väljavõtmislukud" või muud väljavõtmispiirangud?
-- Klienditugi:** Kvaliteet, reageerimisvõime ja personaalne abi, eriti kui olete alustamas.
-- Maine ja eetos:** Usaldusväärsus ja platvormi väärtused.
-- Korduvate ostude tugi:** Kui plaanite koguda Bitcoini aja jooksul plaanitud ostudega.
+- **Kas kasutajaliides:** Kas platvorm on kasutajasõbralik?
+- **Raamatupidamisfunktsioonid:** Vähemalt võimalus eksportida tehingute ajalugu .CSV-vormingus.
+- **Hoiustamine ja turvalisus:** Kas platvorm hoiab bitcoin'e teie nimel või annab see omandiõiguse teile üle? Milline on nende turvalisuse korraldus? Kas neil on "väljavõtmislukud" või muud väljavõtmispiirangud?
+- **Klienditugi:** Kvaliteet, reageerimisvõime ja personaalne abi, eriti kui olete alustamas.
+- **Maine ja eetos:** Usaldusväärsus ja platvormi väärtused.
+- **Korduvate ostude tugi:** Kui plaanite koguda Bitcoini aja jooksul plaanitud ostudega.
 
 # Individuaalsed Bitcoini makselahendused igale ettevõttele
 
@@ -713,37 +713,37 @@ Algusaegadel võimaldas internetivõrk kõrvaldada suhtluskanalitest vahendajad 
 
 Bitcoin on usalduse infrastruktuur, mille esimene rakendus on vahendajate eemaldamine väärtuse ja raha säilitamisest ja vahetamisest. Sellele infrastruktuurile tekivad ka muud praegu kujuteldamatud rakendused. Teie esialgne kohalolek siin on samaväärne veebisaidi omamisega: värav võrdõiguslikele maksetele ja väärtuste vahetamisele.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/et/016.webp)
 
 Vaadake nüüd praktilise ettevõtte perspektiivi, mille põhitegevusel ei ole midagi pistmist Bitcoiniga. Miks peaks ta otsustama Bitcoini makseid vastu võtta?
 
 
-- Bitcoini riigikassa loomine:**
+- **Bitcoini riigikassa loomine:**
 
 Vt meie eelmist artiklit Bitcoini ostmise kohta. Mõned spetsialistid otsustavad kas veendumuse või mitmekesistamisstrateegia tõttu Bitcoini makseid vastu võtta. Mõned Bitcoini kasutajad väidavad, et mida vähem finantsiliselt kallutatud ettevõte on - see tähendab, et tal ei ole aega ega vahendeid keeruliste finantsmanöövritega tegelemiseks -** seda kriitilisemaks muutub selle ettevõtte jaoks, et talle makstakse kõige raskemini kättesaadavas rahavormis**. See ühtlustab mänguvälja, võimaldades isegi väikestel, ajaliselt piiratud ettevõtetel säilitada väärtust, ilma et nad satuksid finantsmängudesse.
 
 
-- Uue demograafilise sihtrühma saavutamine:**
+- **Uue demograafilise sihtrühma saavutamine:**
 
 Bitcoini kasutajate arv kasvab ja neil on märkimisväärne ostujõud. Loomulikult suunduvad nad ettevõtete poole, mis aktsepteerivad nende valuutat. Lisaks, kuna tegemist on esimese universaalse, internetis levinud vääringuga, saate meelitada ka rahvusvahelisi kliente, kes läbisegi.
 
 
-- Nähtavuse suurendamine:**
+- **Nähtavuse suurendamine:**
 
 Lisades oma ettevõtte näiteks sellistele platvormidele nagu BTCmap.org. Ainult vähesed ettevõtted aktsepteerivad praegu Bitcoini, nii et suust-suhu töötab teie kasuks. Samuti eristab see teid konkurentidest.
 
 
-- Madalamad tasud:**
+- **Madalamad tasud:**
 
 Bitcoini välkmaksed toimuvad Lightning Networki kaudu. **Tasud on minimaalsed ja need maksab ostja**. Ei ole makseterminali tasusid, makse autoriseerimise ebaõnnestumisi ega pettusi. Võrdluseks, maksetööstus (kaardid, terminalid, ülekanded, makseteenuse pakkujad jne) maksab aastas umbes 2,2 triljonit dollarit kogu maailmas. Kui lisada sellele veel tagasimaksed ja pettused, siis kokku "kooritakse" peaaegu kümnendik USA SKPst tootlikelt ettevõtetelt kogu maailmas ainult väärtuse ülekandmiseks. Sõltumata teie ettevõttest on finantstasud koormaks, mida tuleks optimeerida, ning mõnel juhul võivad kõrged tasud lämmatada teatud ärimudelid.
 
 
-- Vabadus ja loata, 24/7:**
+- **Vabadus ja loata, 24/7:**
 
 Bitcoini kasutamiseks ei ole vaja luba küsida. Igaüks saab majanduses osaleda mõne minutiga, kasutades nutitelefoni rakendust. Saate saata või saada makse ükskõik kellelt - eraisikult või ettevõttelt - igal ajal, ilma ajaliste piirangute või viivitusteta.
 
 
-- Kasutage Bitcoini võrgustiku eeliseid:**
+- Kasutage Bitcoini võrgustiku eeliseid:
 
 Te ei ole kohustatud hoidma oma makseid Bitcoini kujul - eriti kui teil on vaja maksta tarnijatele või tasuda käibemaksu. Teatavad teenused võivad konverteerida kõik või osa teie Bitcoin-maksetest teie valitud vääringusse (nt eurod teie IBANi) tasu eest. Sellise stsenaariumi puhul võib Bitcoini vastuvõtmise eelis seisneda uute kasutajate ligimeelitamises või Bitcoini olemuslikes eelistes (nt madalamad tasud, ööpäevaringne töö ning pettuse- ja tagasipöördumisohu puudumine).
 
@@ -839,19 +839,19 @@ Järgnevates peatükkides kirjeldame üksikasjalikult iga äriprofiili ja igale 
 
 Starter-profiil on mõeldud ettevõtetele, loojatele ja üksikisikutele, kes soovivad uurida Bitcoini makseid ilma märkimisväärsete ressursside või eksperditeadmisteta. Need on tavaliselt need, kes tegelevad väga väikese tehingumahuga (võib-olla mõned näpunäited, annetused või aeg-ajalt toimuv müük) ning soovivad lihtsat ja kerget sissejuhatust Bitcoini ja Lightning Networki ökosüsteemi. Starter-meetodi peamine väärtus seisneb selle minimaalses ülesehituses: enamasti on vaja vaid nutitelefoni või tahvelarvutit, mis on varustatud Lightningiga ühilduva põhilise rahakotiga.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/et/017.webp)
 
 Selle profiili üks iseloomulikke tunnuseid on keskendumine väikesemahulistele maksetele, mis harva ületavad mõnisada eurot või dollarit kuus. See tagasihoidlik skaala muudab selle suurepäraseks valikuks kõigile, kes soovivad katsetada turgu Bitcoiniga, ilma suuremate mahtude kasutuselevõtuga kaasnevate keerukusteta. Lisaks võimaldab see vahetut praktilist õppimist; kuna operatsioonisurve on väiksem ja rahalised panused väiksemad, saab vigu ohjeldada ja õppetunde kiiresti õppida. Alates kunstnikest, kes müüvad käsitööd nädalavahetusel toimuvatel laatadel, kuni mittetulundusühinguteni, kes võtavad vastu ühekordseid annetusi, rõhutavad selle kategooria kasutajad sageli ligipääsetavust ja kasutusmugavust rohkem kui täiustatud funktsioone.
 
 Starter-profiili kaks kõige tavalisemat rahakoti seadistust hõlmavad otsustamist eestkoste ja mittekoste lahenduste vahel. Halduskohustuslik rahakott (näiteks Wallet of Satoshi või Blink) võimaldab kolmanda osapoole teenusel hallata privaatvõtmeid ja taustatoiminguid, vähendades seeläbi kasutaja tehnilist vastutust. Selline korraldus on eriti atraktiivne neile, kes hindavad eelkõige mugavust ja soovivad võimalikult lihtsat kasutuselevõttu. Teisest küljest annavad mittehaldatavad Lightning-rahakotid (nagu Phoenix või Breez) privaatvõtmed ja täieliku kontrolli ettevõtte omaniku kätte, pakkudes suuremat autonoomiat ja privaatsust, kuid vastutasuks veidi suuremat algset vaeva. Mõlemal juhul on kaasaegsed kasutajaliidesed tavaliselt nii kasutajasõbralikud, et igaüks saab mõne minutiga hakkama oluliste ülesannetega (QR-koodi genereerimine, maksesumma sisestamine ja tehingute kinnitamine).
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/et/018.webp)
 
 Kuigi turvaprobleemid võivad tunduda vähem pakilised, kui tehingud on väikesed, on siiski oluline kehtestada põhilised kaitsemeetmed. Isegi üks nutitelefon või tahvelarvuti, mida kasutatakse Bitcoin-maksete vastuvõtmiseks, tuleks lukustada parooliga või biomeetrilise turvaseadmega, ja varukoopiaid (alates sisselogimisandmete jälgimisest hoiustatava rahakoti jaoks kuni mittehoiustatava rahakoti seemnefraasi kaitsmiseni) tuleb võtta tõsiselt. Töötajatele, kes tegelevad tehingutega füüsilises keskkonnas, oleks kasulik teada põhitõdesid: kuidas avada rakendus, kuidas esitada QR-kood kliendile ja kuidas kontrollida, kas makse on tõepoolest kohale jõudnud.
 
 Kuigi raamatupidamisarvestus ja aruandlus on Starter-profiili puhul suhteliselt lihtne, tuleb seda siiski hoolikalt kaaluda. Kuigi tehingumahud võivad olla minimaalsed, aitab täpsete andmete säilitamine vältida segadust ja säilitada läbipaistvust finantsauditite või maksudokumentide esitamise korral. Paljud rahakoti rakendused võimaldavad kasutajatel eksportida põhilist tehingulugu CSV-failina; väikeettevõtte või üksikettevõtja jaoks võib nende failide korrapärane salvestamine muuta kontode kooskõlastamist palju lihtsamaks. Samuti on mõistlik jälgida ligikaudset fiatväärtust (näiteks eurodes või dollarites) iga tehingu laekumise hetkel. Kuna Bitcoini hind võib kõikuda, on konverteerimiskursside arvestamine hinda muutes hindamatu väärtusega raamatupidamises ja maksude tasumisel.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/et/019.webp)
 
 Ettevõtete jaoks, kes soovivad täiendada oma füüsilisi või isiklikke makseid veebipõhiste annetuste või jootraha andmisega, on nüüd lihtne integreerida Lightning jootraha nuppu või annetuste vidinat veebisaidile või blogile. Platvormid, nagu BTCPay Server, pakuvad hõlpsasti konfigureeritavaid maksenuppe, samas kui mõned sotsiaalmeedia- ja livestreamiteenused toetavad juba Lightning-nippe koos aadressidega. Järelikult saab isegi Starter-ettevõte luua tagasihoidliku, kuid ülemaailmse patroonide võrgustiku. Vahepeal saavad need, kes eelistavad mitte hoida Bitcoini pikaajaliselt, uurida osalist või automaatset konverteerimist fiat-valuutaks, kasutades teatavaid hoiustatavaid rahakotte või kolmanda osapoole teenuseid. Kuigi see võimalus hõlmab täiendavaid tasusid ja võimalikke KYC-kohustusi, aitab see ettevõtetel vältida vahetuskursi kõikumist ja säilitada oma olemasolevad finantstööprotsessid minimaalsete häiretega.
 
@@ -863,21 +863,21 @@ Soovitatavate rahakottide ja põhiliste seadistuste üksikasjalikud õpetused le
 
 **Iseseisvad LN rahakotid/sõlmed:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Kinnisvara LN rahakotid:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Oluline
 
@@ -889,35 +889,35 @@ Erinevalt Starter-profiilist peavad Essential-ettevõtted Bitcoini makseid taval
 
 Tehnoloogiasoovitused selles segmendis keskenduvad sageli **Swiss Bitcoin Pay**-le, mis on lihtsustatud lahendus kaupmeeste jaoks Bitcoini maksete lihtsaks vastuvõtmiseks. Sellel on kasutajasõbralik PoS-rakendus, mis ei nõua töötajatelt tehnilisi teadmisi. Erinevalt tavalistest Bitcoini rahakottidest keskendub see ainult maksete vastuvõtmisele, võimaldades töötajatel seadet kasutada ilma turvariskideta. Mitu PoS-rakendust saab ühendada sama kontoga, mida saab kasutada tahvelarvutites, registrites, nutitelefonides või arvutite veebiversiooni kaudu, mis toetab Android ja iOS. Samuti saate luua menüü, kus on müügil olevad tooted ja nendega seotud hinnad, mis võimaldab töötajal lihtsalt valida PoSi abil kliendile ostukorvi ja seejärel kogu summa maha arvutada.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/et/020.webp)
 
 Makseid saab kas Bitcoinis konkreetsele aadressile välja võtta või konverteerida fiat-valuutaks ja kanda igapäevaselt pangakontole. Swiss Bitcoin Pay automatiseerib protsessi, käsitledes Bitcoini ja Lightning Networki makseid ilma käsitsi sekkumiseta. Raha hoitakse enne ülekandmist maksimaalselt 24 tundi. Kuigi see ei ole täielikult mittekaitstav nagu BTCPay Server, tasakaalustab see mugavust ja turvalisust ning ei nõua KYC-i.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/et/021.webp)
 
 Tasud on konkurentsivõimelised: 0,21% esimesel aastal, seejärel 1% Bitcoin-maksete puhul ja 1,5% fiat-maksete puhul, sealhulgas Bitcoin-tehingute kulud. Swiss Bitcoin Pay pakub praktilist vahepealset lahendust Open Node'i ja keeruliste isehostetavate süsteemide, nagu BTCPay Server, vahel, seades prioriteediks lihtsuse, turvalisuse ja finantsautonoomia.
 
 Sellise seadistuse abil saavad personaalsed ettevõtted kiiresti koostada maksearveid, esitada oma klientidele QR-koode ja võtta vastu Lightning- või ahelatehinguid minimaalse hõõrdumisega. Personalil on vaja vaid lühikest sissejuhatust, et neid makseid käsitleda, samas kui juhid saavad logida veebipõhisele armatuurlauale, et võrrelda igapäevast müüki ja pääseda ligi põhilistele aruannetele. Lihtsustatud halduskonsooli kättesaadavus aitab ka väiksematel asutustel jälgida nii fiat- kui ka krüptotulu ühest liidesest, vähendades seeläbi segadust ja vähendades käsitsi raamatupidamisele kuluvat aega.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/et/022.webp)
 
 Teine oluline eelis Essentiali lähenemisviisi puhul on rõhuasetus kiirele kasutuselevõtule ja minimaalsele häirele. Selliseid lahendusi nagu Swiss Bitcoin Pay saab luua mõne tunniga, mitte päevade või nädalatega. Näiteks tagasihoidlikult hõivatud restorani omaniku või juhi jaoks on lõppeesmärk integreerida Bitcoini vastuvõtmine, ilma et see põhjustaks viivitusi kassas või segadust personali seas. Kui kassasüsteem on konfigureeritud, võib juht lihtsalt anda töötajatele kiireid juhiseid arve kuvamiseks ja makse tasumise kontrollimiseks. Parimal juhul kinnitatakse kliendi tehing Lightning Networki kaudu peaaegu koheselt ja ettevõtte halduspaneel registreerib samaaegselt uue makse reaalajas.
 
 Kuigi Essential-profiil ei nõua väga keerukaid raamatupidamissüsteeme, on siiski mõistlik pidada nõuetekohast tehingute arvestust. Tööriistad nagu Swiss Bitcoin Pay pakuvad CSV-ekspordi funktsioone, mis võimaldavad juhtidel registreerida iga Bitcoini müügi fiat-ekvivalentne väärtus ja jälgida seda koos teiste tuluallikatega. Selline dokumentatsiooni tase on enamiku väikeettevõtete jaoks piisav ning elementaarne arusaam vahetuskurssidest aitab maksude esitamise ja üldise finantsjärelevalve puhul.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/et/023.webp)
 
 Teie profiilile kõige sobivam hübriidlahendus on tõenäoliselt Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Teine kergesti rakendatav lahendus, kuid selle puuduseks on see, et see on 100% eestkostetav, on Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kui olete valmis oma käed määrima ja soovite protsessi täielikku kontrolli, on BTCPay Server tarkvara suurepärane valik. BTCPay Serveri peamine puudus on siiski see, et selle seadistamine ja haldamine on aeganõudev ja nõuab teatud tehnilisi teadmisi, kuid te võite järgida meie juhiseid:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Lõpuks, füüsiliste müügipunktide täienduseks võiksite kaaluda [Bitcoinize PoS](https://bitcoinize.com/) loomist.
 
@@ -929,19 +929,19 @@ Professional-profiil on suunatud ettevõtetele, kes on ületanud juhuslikud või
 
 Üks professionaalse kaupmehe iseloomulikke omadusi on vajadus **täiustatud funktsioonide** ja **kohandatavate lahenduste** järele, mis säilitavad tõhususe isegi tehingumahu kasvades. Erinevalt Essentiali kasutajatest, kes võivad olla rahul lihtsa tööriistaga, mis mahub kenasti nutitelefoni rakendusse, nõuavad professionaalsed ettevõtjad tavaliselt selliseid funktsioone nagu arvete üksikasjalik kohandamine, keerukad aruandluse armatuurlauad ja võimalus määrata mitu haldusrolli.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/et/024.webp)
 
 Näiteks restoranigrupil võivad olla töötajad, kes tegelevad arvete ja varude haldamisega, samal ajal kui eraldi meeskond jälgib tootenimekirju ja turunduskampaaniaid. Sellises keskkonnas peab Bitcoini makselahendus sobituma kenasti nende olemasolevate organisatsiooniliste struktuuridega.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/et/025.webp)
 
 Mis puudutab tehnoloogiat ja vahendeid, siis sellised lahendused nagu **BTC Pay Server** moodustavad sageli Professionali seadistuse tuuma. BTC Pay Server on avatud lähtekoodiga platvorm, mida saab kasutada kas kohapealses või pilvehostingus ning mis pakub ulatuslikke integratsioonivõimalusi veebisaitide ja e-kaubanduse platvormide jaoks. Kasutades oma instantsi, säilitavad ettevõtted suure kontrolli maksevoo iga aspekti üle, alates automaatselt genereeritud kassalehekülgedest kuni teatisteni, mis käivitavad sisemised protsessid, kui makse on kinnitatud.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/et/026.webp)
 
 Lisaks võivad sellised tööriistad nagu [Zaprite](https://zaprite.com/) või [Musqet](https://musqet.tech/) täiustada kassakogemust veelgi, võimaldades üksikasjalikumat kohandamist (alates brändivalikutest kuni keerukate aruandlusvõimalusteni). Need, kes eelistavad kõik-ühes veebipõhist jaemüügikeskkonda, võivad kasutada [Be-BOP](https://be-bop.io/), e-poe lahendust, mis on loodud Bitcoin-maksete hõlbustamiseks, ilma et kasutusmugavust ohverdataks.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/et/027.webp)
 
 Nende tehnoloogiate rakendamine professionaalses keskkonnas tähendab, et tuleb pöörata suurt tähelepanu **tegevuse keerukusele**. Automatiseeritud arvete esitamise töövood, mitme valuuta kuvamine ja sünkroniseerimine olemasolevate inventarisüsteemidega on kõik hästi integreeritud platvormi tunnused. Võimalus täpselt eksportida tehinguandmeid (kas CSV-failide, otseste API-kutsete või kohandatud vormingute kujul) aitab ettevõtetel tõhusalt ühildada bitcoin-müüki teiste tuluvoogudega.
 
@@ -949,13 +949,13 @@ Turvalisuse ja rollide haldamine on Professional-kasutajate jaoks veel üks olul
 
 Kui tegemist on reaalsete näidetega, siis võtke näiteks keskmise suurusega e-kaubanduspood, mis on spetsialiseerunud tehnikatarvikutele. Ettevõte võiks integreerida BTC Pay Serveri oma olemasolevasse veebipoodi, genereerides automaatselt Bitcoini makseaadressid kassas. Kliendid viivad oma ostud lõpule Lightning- või ahelas oleva aadressi skaneerimisega ning poe platvorm kinnitab makse koheselt. Samal ajal ajakohastab sisemine süsteem tellimuse staatust ja käivitab saatmisteatised. Tänu täiustatud aruandlusfunktsioonidele saab finantsmeeskond hõlpsasti vaadata igapäevast Bitcoini müüki, eksportida konsolideeritud pearaamatu auditeerimiseks ja jälgida kõigi BTC-varude väärtust, mida ettevõte otsustab säilitada.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/et/028.webp)
 
 *[Krediit: Bitcoin Bazari pood Pariisis, Prantsusmaal.](https://bitcoinbazar.fr/)*
 
 Kui soovite süveneda rakendamise üksikasjadesse ja uurida BTC Pay Serveri praktilisi konfiguratsioone, vaadake järgmist kursust:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Ettevõte
 
@@ -990,8 +990,8 @@ Iga lahenduskategooria puhul on alati kompromissid. Näiteks esialgses "proovipe
 Kui alustate nullist - teil ei ole kauplust, tootehaldustarkvara ega müügipunktisüsteemi (POS) - on teil mitu võimalust:
 
 
-- Allhanke korras:** Saate ostuvõimalustega veebisaidi loomise sisse osta ja seejärel lisada Bitcoini maksevõimalused koos traditsiooniliste kauplusesiseste lahendustega.
-- Lihtsad lahendused:** Alternatiivina võite kasutada selliseid platvorme nagu Accessing.app, et seda ise teha. Peamised eelised on järgmised:
+- **Allhanke korras:** Saate ostuvõimalustega veebisaidi loomise sisse osta ja seejärel lisada Bitcoini maksevõimalused koos traditsiooniliste kauplusesiseste lahendustega.
+- **Lihtsad lahendused:** Alternatiivina võite kasutada selliseid platvorme nagu Accessing.app, et seda ise teha. Peamised eelised on järgmised:
     - Kiire ja taskukohane veebipoe või füüsilise poe loomine.
     - Sobib hooajaliste ettevõtete, ürituste, restoranide või jaemüügipoodide jaoks.
     - Toodete määratlemine ja haldamine nii füüsilise kui ka online-müügi jaoks.
@@ -1009,25 +1009,25 @@ Kuigi Lightning Network pakub suuremat tõhusust ja madalamaid tasusid, on selle
 Uued infrastruktuurid on edukad, sest nad on tõhusamad, ja varajased kasutuselevõtjad liituvad, sest nad saavad sellest käegakatsutavat kasu. Siin on tähelepanekud Lightning Networki kohta aastal 2024:
 
 
-- Ülikiired tehingud:** Tehingud on sageli peaaegu kohesed (<500 ms) ja neil on äärmiselt väike veamäär.
-- Võrgustiku professionaliseerumine:** Suuremad mängijad tagavad likviidsuse kogu võrgus, samal ajal kui üksikisikud on suures osas lõpetanud maksete suunamise ja juhivad nüüd enamasti "servasõlmi"
-- Parem kasutajakogemus:** Mobiilirakendused üksikkasutajate jaoks on oluliselt paranenud. Sellised funktsioonid nagu liitmine, staatilised Bolt12-arved ja nullkinnitusmaksed (0-conf) on laialdaselt kättesaadavad, muutes suhtluse sujuvaks. Koostalitlusvõime probleemid (nt sunniviisiline sulgemine) ei ole enam suur probleem.
-- Täiustatud sõlmede ja kanalite haldamine:** Nii individuaalsed kui ka professionaalsed lahendused on arenenud. Näiteks toetab BTC Pay Server nüüd arvukalt lisasid teiste teenusepakkujatega ühendamiseks (PSP-d, sisse- ja väljaminekud jne). Tootmisse on jõudmas ka uued infrastruktuuripakkujad, näiteks LightSpark ja Alby Hub.
-- Kaupmeeste vastuvõtmise kasv:** Kaupmehed nagu BitRefill teatavad Bitcoini maksete arvu suurenemisest oma aktiivsete kasutajate seas, kusjuures Bitcoin on selgelt muutunud Lightningi asemel Bitcoini suunas. Lisaks sellele on Lightning tänu väga madalatele tasudele eelistatud väikeste maksete puhul (keskmiselt 32 eurot tehingu kohta).
+- **Ülikiired tehingud:** Tehingud on sageli peaaegu kohesed (<500 ms) ja neil on äärmiselt väike veamäär.
+- **Võrgustiku professionaliseerumine:** Suuremad mängijad tagavad likviidsuse kogu võrgus, samal ajal kui üksikisikud on suures osas lõpetanud maksete suunamise ja juhivad nüüd enamasti "servasõlmi"
+- **Parem kasutajakogemus:** Mobiilirakendused üksikkasutajate jaoks on oluliselt paranenud. Sellised funktsioonid nagu liitmine, staatilised Bolt12-arved ja nullkinnitusmaksed (0-conf) on laialdaselt kättesaadavad, muutes suhtluse sujuvaks. Koostalitlusvõime probleemid (nt sunniviisiline sulgemine) ei ole enam suur probleem.
+- **Täiustatud sõlmede ja kanalite haldamine:** Nii individuaalsed kui ka professionaalsed lahendused on arenenud. Näiteks toetab BTC Pay Server nüüd arvukalt lisasid teiste teenusepakkujatega ühendamiseks (PSP-d, sisse- ja väljaminekud jne). Tootmisse on jõudmas ka uued infrastruktuuripakkujad, näiteks LightSpark ja Alby Hub.
+- **Kaupmeeste vastuvõtmise kasv:** Kaupmehed nagu BitRefill teatavad Bitcoini maksete arvu suurenemisest oma aktiivsete kasutajate seas, kusjuures Bitcoin on selgelt muutunud Lightningi asemel Bitcoini suunas. Lisaks sellele on Lightning tänu väga madalatele tasudele eelistatud väikeste maksete puhul (keskmiselt 32 eurot tehingu kohta).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/et/029.webp)
 
 *[Allikas: BTC kaart](https://btcmap.org/)*
 
 
-- Võrgumõõdikud:** Lightning'ile lukustatud kanalite ja bitcoinide koguarv on endiselt stabiilne: ligikaudu 20 000 sõlme, 5 200 BTC ja 60 000 kanalit. See kajastab siiski ainult osa võrgustikust ja näitab osalejate rotatsiooni, kus osaleb vähem eraisikuid ja rohkem professionaale.
-- Lightning kui sild võrkude vahel:** Lightning-võrgustiku tõhusus ja kättesaadavus on juba praegu sillaks teiste omavahel ühendatud võrkudega (nt FediMint, Liquid jne).
+- **Võrgumõõdikud:** Lightning'ile lukustatud kanalite ja bitcoinide koguarv on endiselt stabiilne: ligikaudu 20 000 sõlme, 5 200 BTC ja 60 000 kanalit. See kajastab siiski ainult osa võrgustikust ja näitab osalejate rotatsiooni, kus osaleb vähem eraisikuid ja rohkem professionaale.
+- **Lightning kui sild võrkude vahel:** Lightning-võrgustiku tõhusus ja kättesaadavus on juba praegu sillaks teiste omavahel ühendatud võrkudega (nt FediMint, Liquid jne).
 
 **Pangakoti tagasitulek**
 
 Bitcoin ja Lightning Network viivad lõpule **digitaalse rahakoti revolutsiooni**. Uued veebiteenused võimaldavad nüüd **tehinguid ilma konto loomiseta** - teie rahakotist saab teie identiteet! Selliste protokollidega nagu **Nostr Wallet Connect (NWC)** ja **LN-URL-AUTH** saavad rahakotid kasutajaid sujuvalt autentida ja võimaldada tehinguid ilma traditsiooniliste kontodeta. Möödas on päevad, mil lihtsate ostude või tellimuste puhul on konto väsinud. Enam ei ole vaja esitada isiku- või makseteavet, mis võib sattuda häkkimiseks ja müügiks pimedas veebis, nagu meile liiga sageli hiljutised sündmused meelde tuletavad.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/et/030.webp)
 
 Homsed kaupmehed võtavad selle uuenduse omaks, pakkudes klientidele turvalisemat, sujuvamat (ühe kliki) kogemust, mis austab ka nende privaatsust.
 
@@ -1047,13 +1047,13 @@ Järgnev sisu on mõeldud ainult hariduslikel eesmärkidel ja seda ei tohiks pid
 
 Maailmas liigitatakse Bitcoini sageli mitte valuutaks, vaid digitaalseks varaks. See eristamine mõjutab oluliselt Bitcoini arvestust ettevõtetes, mõjutades maksukohustusi, finantsaruandlust ja nõuetele vastavust. Ettevõtted, kes aktsepteerivad Bitcoini makseviisina või kasutavad seda kassavahendina, peavad neid regulatiivseid nüansse mõistma.
 
-Kõige olulisem tagajärg**, mida tuleb meeles pidada, on see, et enamikus jurisdiktsioonides tekitab Bitcoini teenimine, müümine, kauplemine või kasutamine ostude tegemiseks tavaliselt **maksustatava sündmuse** ja kasumi suhtes kohaldatakse kapitalitulu maksu.
+Kõige olulisem tagajärg, mida tuleb meeles pidada, on see, et enamikus jurisdiktsioonides tekitab Bitcoini teenimine, müümine, kauplemine või kasutamine ostude tegemiseks tavaliselt **maksustatava sündmuse** ja kasumi suhtes kohaldatakse kapitalitulu maksu.
 
 Bitcoini arvestuse teine aspekt on kahte liiki kapitalikasumi eristamine:
 
 
-- Latentsed kasumid/kahjumid:** Realiseerimata kasumid või kahjumid, mis põhinevad raamatupidamisperioodi lõpus hoitava Bitcoini väärtusel.
-- Tegelik kasum/kahjum:** Realiseeritud kasum või kahjum, kui Bitcoin müüakse või vahetatakse eelarveaasta jooksul.
+- **Latentsed kasumid/kahjumid:** Realiseerimata kasumid või kahjumid, mis põhinevad raamatupidamisperioodi lõpus hoitava Bitcoini väärtusel.
+- **Tegelik kasum/kahjum:** Realiseeritud kasum või kahjum, kui Bitcoin müüakse või vahetatakse eelarveaasta jooksul.
 
 Need arvutused sõltuvad suuresti sellest, kas Bitcoini hoitakse pikaajalisteks investeeringuteks või lühiajaliseks operatiivseks kasutamiseks. Lisaks peavad ettevõtted viima oma raamatupidamistavad vastavusse kohalike maksustruktuuridega, kuna eeskirjad on riigiti väga erinevad.
 
@@ -1104,9 +1104,9 @@ Bitcoini õiguslik ja raamatupidamislik käsitlus erineb märkimisväärselt era
 Ettevõtete jaoks võib Bitcoini liigitada erinevate kontode alla sõltuvalt selle kasutusotstarbest:
 
 
-- Põhivara:** Bitcoini puhul, mida hoitakse pikaajaliselt strateegilise investeeringuna.
-- Varud:** Tootmisprotsessides kasutatava Bitcoini puhul (harvaesinev kasutusjuhtum, näiteks on see nii professionaalsete kauplejate puhul).
-- Sularaha või riigikassa kontod:** Bitcoini jaoks, mida hoitakse likviidsete varadena, peamiselt operatiivsete tehingute või lühiajalise riigikassa haldamise jaoks.
+- **Põhivara:** Bitcoini puhul, mida hoitakse pikaajaliselt strateegilise investeeringuna.
+- **Varud:** Tootmisprotsessides kasutatava Bitcoini puhul (harvaesinev kasutusjuhtum, näiteks on see nii professionaalsete kauplejate puhul).
+- **Sularaha või riigikassa kontod:** Bitcoini jaoks, mida hoitakse likviidsete varadena, peamiselt operatiivsete tehingute või lühiajalise riigikassa haldamise jaoks.
 
 Klassifitseerimise valik sõltub ettevõtte tegevusest ja strateegiast, mis mõjutab finantsaruandlust ja maksukohustusi. Kontrollige alati kohalikke eeskirju, sest need liigitused võivad riigiti erineda.
 
@@ -1117,16 +1117,16 @@ Bitcoini õiguslik tunnustamine ja käsitlemine on jurisdiktsiooniti erinev. Mõ
 Enamikus riikides liigitatakse Bitcoin digitaalseks varaks ja selle käsitlemist reguleerivad üldised raamatupidamisstandardid. Ettevõtted peavad Bitcoini tehingute üle arvestust pidama järgmiselt:
 
 
-- Kapitalikasumi/kahjumi kajastamine:** Ettevõtjad peavad oma finantstulemustes kajastama realiseeritud kasumit või kahjumit.
-- Latentse kasumi/kahjumi hindamine:** Realiseerimata kasum või kahjum tuleb sageli teatada, kuid see ei pruugi otseselt mõjutada maksustatavat tulu.
-- Vastavus raamatupidamisstandarditele:** Ettevõtted peavad integreerima Bitcoini tehingud standardsetesse raamatupidamistavadesse, tagades läbipaistvuse ja täpsuse.
+- **Kapitalikasumi/kahjumi kajastamine:** Ettevõtjad peavad oma finantstulemustes kajastama realiseeritud kasumit või kahjumit.
+- **Latentse kasumi/kahjumi hindamine:** Realiseerimata kasum või kahjum tuleb sageli teatada, kuid see ei pruugi otseselt mõjutada maksustatavat tulu.
+- **Vastavus raamatupidamisstandarditele:** Ettevõtted peavad integreerima Bitcoini tehingud standardsetesse raamatupidamistavadesse, tagades läbipaistvuse ja täpsuse.
 
 Bitcoini raamatupidamisarvestuse käsitlusviis on geograafiliselt erinev:
 
 
-- Ameerika Ühendriigid:** IRS liigitab Bitcoini **varana, mis on sarnane aktsiate, võlakirjade või kinnisvara**. See klassifikatsioon tähendab, et mis tahes tehing, mis on seotud krüptoraha, näiteks selle teenimine, müümine, kauplemine või isegi selle kasutamine ostude tegemiseks, võib tekitada maksustatava sündmuse ja kasumi suhtes kohaldatakse kapitalitulu maksu.
-- Euroopa Liit:** Liikmesriigid käsitlevad Bitcoini üldiselt pigem spekulatiivse varana kui funktsionaalse valuutana. Seetõttu maksustatakse kasum sageli kapitalitulu maksuga.
-- Aasia:** Sellised riigid nagu Singapur ja Jaapan on võtnud vastu progressiivsed õigusraamistikud, mis käsitlevad Bitcoini tehinguid teatud kontekstis soodsalt. Kuid üldiselt käsitletakse bitcoinit **aineliste varadena** ja seda mõõdetakse õiglases väärtuses aruandekuupäeval, kusjuures muutused kajastatakse kasumiaruandes.
+- Ameerika Ühendriigid: **IRS liigitab Bitcoini varana, mis on sarnane aktsiate, võlakirjade või kinnisvara**. See klassifikatsioon tähendab, et mis tahes tehing, mis on seotud krüptoraha, näiteks selle teenimine, müümine, kauplemine või isegi selle kasutamine ostude tegemiseks, võib tekitada maksustatava sündmuse ja kasumi suhtes kohaldatakse kapitalitulu maksu.
+- **Euroopa Liit:** Liikmesriigid käsitlevad Bitcoini üldiselt pigem spekulatiivse varana kui funktsionaalse valuutana. Seetõttu maksustatakse kasum sageli kapitalitulu maksuga.
+- Aasia: Sellised riigid nagu Singapur ja Jaapan on võtnud vastu progressiivsed õigusraamistikud, mis käsitlevad Bitcoini tehinguid teatud kontekstis soodsalt. Kuid üldiselt käsitletakse bitcoinit **aineliste varadena** ja seda mõõdetakse õiglases väärtuses aruandekuupäeval, kusjuures muutused kajastatakse kasumiaruandes.
 
 Oluline on mõista oma tegevusriigi eeskirju ja kohandada oma raamatupidamistavasid vastavalt sellele.
 
@@ -1135,9 +1135,9 @@ Oluline on mõista oma tegevusriigi eeskirju ja kohandada oma raamatupidamistava
 Krüptoraha innovatsiooni kiire tempo on sageli kiirem kui regulatiivsed raamistikud. Alates Bitcoini tunnustamisest digitaalseks varaks on ülemaailmsete eeskirjade ajakohastamine toimunud järk-järgult, kuid lüngad on endiselt olemas:
 
 
-- Kohtupraktika puudumine:** Konkreetseid raamatupidamispraktikaid on selgitatud vähe, mistõttu on jäänud ruumi tõlgendamiseks.
-- Käimasolevad arutelud:** Paljudes jurisdiktsioonides on endiselt lahendamata sellised küsimused nagu varjatud kahjumi maksustamine.
-- Piiriülene keerukus:** Rahvusvaheliselt tegutsevad ettevõtted seisavad silmitsi erinevate riiklike raamatupidamisstandardite ühitamisega.
+- **Kohtupraktika puudumine:** Konkreetseid raamatupidamispraktikaid on selgitatud vähe, mistõttu on jäänud ruumi tõlgendamiseks.
+- **Käimasolevad arutelud:** Paljudes jurisdiktsioonides on endiselt lahendamata sellised küsimused nagu varjatud kahjumi maksustamine.
+- **Piiriülene keerukus:** Rahvusvaheliselt tegutsevad ettevõtted seisavad silmitsi erinevate riiklike raamatupidamisstandardite ühitamisega.
 
 Vaatamata nendele väljakutsetele pakuvad paljude riikide proaktiivsed seisukohad ettevõtetele kindlat alust Bitcoini kaasamiseks oma tegevusse. Krüptoraha raamatupidamisarvestuse uute keerukuste lahendamiseks on oluline jätkata ajakohastamist ja rahvusvahelist ühtlustamist.
 
@@ -1146,9 +1146,9 @@ Vaatamata nendele väljakutsetele pakuvad paljude riikide proaktiivsed seisukoha
 Bitcoini liigitus finantsaruannetes on jurisdiktsiooniti erinev ja sõltub selle eesmärgipärasest kasutamisest ettevõttes. Laias laastus käsitletakse Bitcoini kui digitaalset vara, mis on sarnane varude, investeeringute või valuutaga, kuid millel on unikaalsed omadused, mis mõjutavad selle raamatupidamiskäsitlust.
 
 
-- Digitaalne vara või immateriaalne vara**: Paljud jurisdiktsioonid, sealhulgas Prantsusmaa ja Euroopa Liit, liigitavad Bitcoini pigem digitaalseks või immateriaalseks varaks kui seaduslikuks maksevahendiks. See liigitus nõuab, et ettevõtted peavad Bitcoini raamatupidamisarvestust erinevalt fiatvaluutadest.
-- Inventuur**: Kui ettevõtte põhitegevus hõlmab Bitcoiniga kauplemist, näiteks krüptovaluutavahetus või -maaklerid, liigitatakse Bitcoin varudeks. Sellisel juhul järgitakse hindamisel varude raamatupidamisstandardeid.
-- Finantsinvesteering**: Ettevõtted, kes hoiavad Bitcoini pikaajalise varana, võivad liigitada selle finantsinvesteeringuks. Näiteks Ameerika Ühendriikides võiksid ettevõtted Bitcoini raamatupidamisarvestust pidada finantsaruandlusstandardite nõukogu (FASB) suuniste kohaselt, kajastades turuväärtuse languse korral väärtuse langust.
+- **Digitaalne vara või immateriaalne vara**: Paljud jurisdiktsioonid, sealhulgas Prantsusmaa ja Euroopa Liit, liigitavad Bitcoini pigem digitaalseks või immateriaalseks varaks kui seaduslikuks maksevahendiks. See liigitus nõuab, et ettevõtted peavad Bitcoini raamatupidamisarvestust erinevalt fiatvaluutadest.
+- **Inventuur**: Kui ettevõtte põhitegevus hõlmab Bitcoiniga kauplemist, näiteks krüptovaluutavahetus või -maaklerid, liigitatakse Bitcoin varudeks. Sellisel juhul järgitakse hindamisel varude raamatupidamisstandardeid.
+- **Finantsinvesteering**: Ettevõtted, kes hoiavad Bitcoini pikaajalise varana, võivad liigitada selle finantsinvesteeringuks. Näiteks Ameerika Ühendriikides võiksid ettevõtted Bitcoini raamatupidamisarvestust pidada finantsaruandlusstandardite nõukogu (FASB) suuniste kohaselt, kajastades turuväärtuse languse korral väärtuse langust.
 
 **Klassifikatsiooni tagajärjed :**
 
@@ -1161,8 +1161,8 @@ Bitcoini liigitus finantsaruannetes on jurisdiktsiooniti erinev ja sõltub selle
 Hindamismeetodid on raamatupidamismeetodid, mida kasutatakse Bitcoini soetusmaksumuse määramiseks, mis on oluline tehingute käigus tekkiva kasumi või kahjumi täpseks arvutamiseks. Üldiselt on kõige parem **säilitada raamatupidamissüsteemis alati ajakohastatud väärtust jooksvate Bitcoini positsioonide kulude** kohta. See tagab läbipaistvuse, maksueeskirjade järgimise ja hoiab ära mahajäämuse, kui on vaja teha arvutusi.
 
 
-- Esimesena sisse, esimesena välja (FIFO)**: See meetod, mis on levinud sellistes jurisdiktsioonides nagu Austraalia ja India, hindab Bitcoini varaseima soetusmaksumuse alusel. See võib muutuda üsna **kompleksseks**, sest see võib nõuda iga bitcoini osa eraldi jälgimist müügi korral.
-- Kaalutud keskmine maksumus (WAC)**: Sageli eelistatakse suure mahuga tehingute puhul selle **ühtsuse** tõttu, nagu näiteks Ameerika Ühendriikides.
+- **Esimesena sisse, esimesena välja (FIFO)**: See meetod, mis on levinud sellistes jurisdiktsioonides nagu Austraalia ja India, hindab Bitcoini varaseima soetusmaksumuse alusel. See võib muutuda üsna **kompleksseks**, sest see võib nõuda iga bitcoini osa eraldi jälgimist müügi korral.
+- **Kaalutud keskmine maksumus (WAC)**: Sageli eelistatakse suure mahuga tehingute puhul selle **ühtsuse** tõttu, nagu näiteks Ameerika Ühendriikides.
 
 Väga soovitatav on pidada üksikasjalikku töövihikut Bitcoini kulude jälgimise kohta **sellest hetkest, kui ettevõte hakkab Bitcoini ostma või seda maksetena vastu võtma**, et tagada täpne ja organiseeritud arvestus. Ainuüksi see kaalutlus peaks olema peamine, kui valitakse tarkvaralahendust Bitcoini makse vastuvõtmiseks või Bitcoini ostmiseks.
 
@@ -1180,11 +1180,11 @@ Ettevõtted peavad tagama, et mis iganes **Maksevahendid**, mida nad kasutavad, 
 ### Väljakutsed
 
 
-- Volatiilsus**: Bitcoini hind kõigub märkimisväärselt, mis tekitab raskusi osaluste hindamisel ja tulevaste finantstulemuste prognoosimisel.
-- Regulatiivne kontroll**: Bitcoini piiratud staatus piirab selle kasutamist riigikassa varana.
-- Regulatiivne ebakindlus** : Bitcoini arenev regulatiivne maastik jätab ettevõtted sageli ebaselgeks. Näiteks võivad muutused maksupoliitikas, näiteks Indias või Ameerika Ühendriikides, mõjutada raamatupidamispraktikaid üleöö.
-- Valesti juhtimise riskid** : Ebakorrektne klassifitseerimine või Bitcoini tehingute kontrollimata jätmine võib põhjustada nõuetele vastavuse probleeme, karistusi või mainekahjustusi.
-- Ümberkvalifitseerimise riskid**: Kui ettevõte hoiab märkimisväärse osa oma varadest Bitcoinis, võib ettevõte saada hinnalangusest tulenevaid võimalikke kahjusid. Sellel võivad olla tõsised tagajärjed, eriti kui sellised langused toimuvad siis, kui tuleb teha makseid tarnijatele, töötajatele või makse. Lisaks võidakse ettevõtte omanikku võtta vastutusele, mis võib kaasa tuua trahve või muid õiguslikke probleeme, näiteks süüdistusi ettevõtte vara väärkasutamises.
+- **Volatiilsus**: Bitcoini hind kõigub märkimisväärselt, mis tekitab raskusi osaluste hindamisel ja tulevaste finantstulemuste prognoosimisel.
+- **Regulatiivne kontroll**: Bitcoini piiratud staatus piirab selle kasutamist riigikassa varana.
+- **Regulatiivne ebakindlus**: Bitcoini arenev regulatiivne maastik jätab ettevõtted sageli ebaselgeks. Näiteks võivad muutused maksupoliitikas, näiteks Indias või Ameerika Ühendriikides, mõjutada raamatupidamispraktikaid üleöö.
+- **Valesti juhtimise riskid**: Ebakorrektne klassifitseerimine või Bitcoini tehingute kontrollimata jätmine võib põhjustada nõuetele vastavuse probleeme, karistusi või mainekahjustusi.
+- **Ümberkvalifitseerimise riskid**: Kui ettevõte hoiab märkimisväärse osa oma varadest Bitcoinis, võib ettevõte saada hinnalangusest tulenevaid võimalikke kahjusid. Sellel võivad olla tõsised tagajärjed, eriti kui sellised langused toimuvad siis, kui tuleb teha makseid tarnijatele, töötajatele või makse. Lisaks võidakse ettevõtte omanikku võtta vastutusele, mis võib kaasa tuua trahve või muid õiguslikke probleeme, näiteks süüdistusi ettevõtte vara väärkasutamises.
 
 ## Raamatupidamisvahendid ja tarkvara
 
@@ -1200,13 +1200,13 @@ Kui ettevõte otsustab integreerida Bitcoini oma raamatupidamises, lihtsustavad 
 
 Need on sageli tark täiendus suurtele organisatsioonidele, kellel on mitu rahakotti ja vara erinevatel platvormidel või börsidel.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/et/031.webp)
 
 Enamiku väikeettevõtete jaoks piisab siiski sageli lihtsast tehingulugu sisaldavast .csv-failist. Eesmärk on dokumenteerida iga makse puhul kuupäev, summa, samaväärne väärtus eurodes/dollaris ja asjaomased Bitcoini aadressid. Enamik Bitcoini makselahendusi (BTC Pay Server, Swiss Bitcoin Pay jne) või vahetusplatvorme (Bitfinex, Kraken, Coinbase jne) pakuvad juba mehhanismi tehingute ajaloo eksportimiseks. Selle faili esitamine raamatupidajale võimaldab lihtsustada andmete sisestamist ja eristada selgelt Bitcoiniga seotud sissetulevaid ja väljaminevaid voogusid.
 
 Nende jaoks, kes hoiavad oma Bitcoini ise, on UTXOde (*Unspent Transaction Outputs*) haldamine oluline samm. Õige UTXO märgistamine aitab jälgida iga BTC-fragmendi päritolu, eristada kutsetegevusega seotud tehinguid isiklikeks kuludeks tehtud tehingutest ning hõlbustada jälgitavust õiguslikel või maksustamise eesmärkidel. Enamik headest Bitcoini rahakoti tarkvaradest võimaldab teil importida oma rahakoti, kasutades oma varundust (või xpubi, sõltuvalt teie seadistusest), ja märgistada UTXO-d nende päritolu või sihtkoha alusel. Teie abistamiseks on siin täielik õpetus, mis on pühendatud sellele praktikale:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettevõte, on võimalik **arveid tasuda Bitcoinis**. Oluline on tehingu nõuetekohane dokumenteerimine. Kui maksate isehaldatavast rahakotist, on ideaalne luua tehing, kus on märgitud arve number ja makse eesmärk oma etikettides. Kui eelistate arve arveldada vahetuse kaudu, on teil ka võimalus eksportida kviitung või tehingu ajalugu, et lisada see oma raamatupidamisdokumentidesse. Selline läbipaistvus lihtsustab kõigi teie BTC-operatsioonide jälgimist ja aruandlust.
 
@@ -1221,12 +1221,12 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **näide**:
 
 
-- Bitcoini konverteerimiskurss**: 1 Bitcoin = 40 000 eurot.
-- Tehing 1**: Klient ostab mitu küpsetist 20 euro eest.
+- **Bitcoini konverteerimiskurss**: 1 Bitcoin = 40 000 eurot.
+- **Tehing 1**: Klient ostab mitu küpsetist 20 euro eest.
     - Bitcoini ekvivalent: (20 / 40,000) = 0,0005 Bitcoin = 50,000 Satoshis.
     - Ümberarvestustasu: 1,5% (20 eurot × 0,015 eurot) = 0,30 eurot.
     - Saadud neto: 20 eurot - 0,30 eurot = 19,70 eurot.
-- Tehing 2**: Klient ostab kohvi 5 euro eest.
+- **Tehing 2**: Klient ostab kohvi 5 euro eest.
     - Bitcoini ekvivalent: (5 / 40,000) = 0.000125 Bitcoin = 12,500 Satoshis.
     - Ümberarvestustasu: 1,5% (5 € × 0,015 €) = 0,075 €.
     - Saadud neto: 5 eurot - 0,075 eurot = 4,93 eurot.
@@ -1234,9 +1234,9 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **Tehingute kokkuvõte**:
 
 
-- Müük kokku**: 25 eurot.
-- Tasud kokku**: 0,375 eurot.
-- Saadud netoeurod**: 24 625 eurot.
+- **Müük kokku**: 25 eurot.
+- **Tasud kokku**: 0,375 eurot.
+- **Saadud netoeurod**: 24 625 eurot.
 
 **Bilansimõju**:
 
@@ -1252,8 +1252,8 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **näide**:
 
 
-- Bitcoini konverteerimiskurss**: 1 Bitcoin = 40 000 eurot.
-- Kliendi tehing**: Klient ostab küpsetisi 50 euro eest.
+- **Bitcoini konverteerimiskurss**: 1 Bitcoin = 40 000 eurot.
+- **Kliendi tehing**: Klient ostab küpsetisi 50 euro eest.
     - Bitcoini ekvivalent: (50 / 40,000) = 0.00125 Bitcoin = 125,000 Satoshis.
     - Ümberarvestus (50%): 25 € väärtuses Bitcoin = 0,000625 Bitcoin = 62,500 Satoshis.
         - Ümberarvestustasu: 1,5% (25 € × 0,015) = 0,375 €.
@@ -1263,10 +1263,10 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **Kokkuvõte**:
 
 
-- Müük kokku**: 50 eurot.
-- Tasud**: 0,375 eurot.
-- Saadud netoeurod**: 24 625 eurot.
-- Bitcoin säilitatud**: 62,500 Satoshis.
+- **Müük kokku**: 50 eurot.
+- **Tasud**: 0,375 eurot.
+- **Saadud netoeurod**: 24 625 eurot.
+- **Bitcoin säilitatud**: 62,500 Satoshis.
 
 **Bilansimõju**:
 
@@ -1283,10 +1283,10 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **näide**:
 
 
-- Bitcoini konverteerimiskurss maksmisel**: 1 Bitcoin = 30 000 eurot.
-- Kliendi tehing**: Klient maksab teenuste eest 3000 euro väärtuses.
+- **Bitcoini konverteerimiskurss maksmisel**: 1 Bitcoin = 30 000 eurot.
+- **Kliendi tehing**: Klient maksab teenuste eest 3000 euro väärtuses.
     - Bitcoini ekvivalent: (3,000 / 30,000) = 0,1 Bitcoin = 10,000,000 Satoshis.
-- Aasta lõpu hindamine**:
+- **Aasta lõpu hindamine**:
     - Bitcoini ümberarvestuskurss aasta lõpus: 1 Bitcoin = 35 000 eurot.
     - Bitcoini osaluse hindamine: 0.1 Bitcoin × 35 000 eurot = 3500 eurot.
     - Realiseerimata kasum: 3500 eurot - 3000 eurot = 500 eurot.
@@ -1294,9 +1294,9 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **Kokkuvõte**:
 
 
-- Kokku kajastatud tulu**: 3000 eurot.
-- Bitcoin Holding**: 0.1 Bitcoin väärtusega 3500 eurot bilansis.
-- Realiseerimata kasum**: 500 eurot, mis on avaldatud finantsmärkustes, kuid ei ole realiseeritud tuluna.
+- **Kokku kajastatud tulu**: 3000 eurot.
+- **Bitcoin Holding**: 0.1 Bitcoin väärtusega 3500 eurot bilansis.
+- **Realiseerimata kasum**: 500 eurot, mis on avaldatud finantsmärkustes, kuid ei ole realiseeritud tuluna.
 
 **Bilansimõju**:
 
@@ -1312,16 +1312,16 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **näide**:
 
 
-- Bitcoini ostud klientidelt**:
+- **Bitcoini ostud klientidelt**:
     - Ostu 1: 2000 eurot hinnaga 20 000 €/BTC = 0,1 Bitcoin = 10 000 000 Satoshis.
     - Ostu 2: 3000 € 25 000 €/BTC = 0,12 Bitcoin = 12 000 000 Satoshis.
     - Ostu 3: 5000 € 30 000 €/BTC = 0,1667 Bitcoin = 16 670 000 Satoshis.
-    - Haldatud bitcoinid kokku**: 0.3867 Bitcoin = 38,670,000 Satoshis.
-- Aasta lõpu hindamine**:
+- **Haldatud bitcoinid kokku**: 0.3867 Bitcoin = 38,670,000 Satoshis.
+- **Aasta lõpu hindamine**:
     - Bitcoini hind aasta lõpus: 40,000 €/BTC.
     - Koguväärtus: 0,3867 Bitcoin × 40 000 eurot = 15 468 eurot.
     - Realiseerimata kasum: 15 468 eurot - 10 000 eurot (kogumaksumus) = 5 468 eurot.
-- Müük 50% Bitcoinist**:
+- Müük 50% **Bitcoinist**:
     - Bitcoin Müüdud: 0.19335 Bitcoin.
     - Müügitulu: 0.734 eurot.
     - Kulubaas (kaalutud keskmine):
@@ -1333,9 +1333,9 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 **Kokkuvõte**:
 
 
-- Bitcoini jääk**: 0.(40 000 €/BTC).
-- Realiseeritud kasum**: 2 735 eurot, mis on kajastatud kasumiaruandes.
-- Realiseerimata kasum**: 5 468 eurot, mis on avaldatud finantsmärkustes (sh ülejäänud Bitcoini realiseerimata väärtus).
+- **Bitcoini jääk**: 0.(40 000 €/BTC).
+- **Realiseeritud kasum**: 2 735 eurot, mis on kajastatud kasumiaruandes.
+- **Realiseerimata kasum**: 5 468 eurot, mis on avaldatud finantsmärkustes (sh ülejäänud Bitcoini realiseerimata väärtus).
 
 **Bilansimõju**:
 
@@ -1366,3 +1366,5 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+

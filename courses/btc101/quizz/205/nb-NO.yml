@@ -1,10 +1,9 @@
-question: Hva er en av grunnene til at du bør konsolidere dine UTXOer i lommeboken din fra tid til annen?
-answer: For å unngå unødvendige gebyrer under transaksjoner.
+question: Hva beskrives Bitcoin som i teksten?
+answer: Et tverrfaglig objekt
 wrong_answers:
-  - For å øke verdien av din Bitcoin.
-  - For å forhindre at din Bitcoin blir stjålet.
-  - For å sikre at din Bitcoin alltid er tilgjengelig.
+  - Et enkelt objekt
+  - Et komplekst objekt
+  - Et enfaglig objekt
 explanation: >-
-  Teksten nevner at det å konsolidere dine UTXOer i lommeboken din
-  fra tid til annen er essensielt for effektivt å håndtere dine bitcoins og for å unngå unødvendige
-  gebyrer under transaksjoner.
+  Bitcoin beskrives som et tverrfaglig objekt fordi det reiser spørsmål relatert til ulike felt, inkludert kryptografi, spillteori, økonomi
+  og pengepolitikk, datavitenskap, filosofi, energi, lover og regulering.

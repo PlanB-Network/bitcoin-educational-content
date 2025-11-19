@@ -1,0 +1,9 @@
+question: Vilken roll spelar Bayes sats inom sannolikhetslära?
+answer: Det gör det möjligt att beräkna villkorlig sannolikhet genom att vända på händelserna.
+wrong_answers:
+  - Den anger sannolikheten för att en enskild händelse inträffar.
+  - Den definierar den totala sannolikheten för alla möjliga händelser.
+  - Det gäller endast kontinuerliga variabler.
+explanation: |
+  Bayes sats gör det möjligt att beräkna sannolikheten för en händelse A givet B genom att vända på sannolikheterna och är en viktig del av sannolikhetsteorin.
+reviewed: false

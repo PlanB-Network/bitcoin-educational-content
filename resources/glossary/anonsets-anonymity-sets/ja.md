@@ -15,4 +15,4 @@ term: アノニマスセット
 
 ![](../../dictionnaire/assets/40.webp)
 
-> フランス語では一般的に "anonset "を使う。しかし、"ensemble d'anonymat "や "potentiel d'anonymat "と訳されることもある。英語でもフランス語でも、"スコア "という用語はアノニセット（前向きスコア、回顧的スコア）を指すのに使われることもある*。
+> フランス語では一般的に "anonset" を使う。しかし、"ensemble d'anonymat" や "potentiel d'anonymat" と訳されることもある。英語でもフランス語でも、"スコア" という用語はアノニセット（前向きスコア、回顧的スコア）を指すのに使われることもある。

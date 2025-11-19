@@ -1,0 +1,11 @@
+question: None wokora iki umaze kugura Bitcoin ku rubuga rwa Exchange?
+answer: Kura ama bitcoins uyarungike kuri Wallet yawe.
+wrong_answers:
+  - Siga ama bitcoins ku rubuga.
+  - Gurisha ama bitcoins ubwo nyene.
+  - Kwimurira ama bitcoins ku yindi nzira ya Exchange.
+explanation: |
+  Ico canditswe c’amashure kirahanura yuko umuntu amaze kugura Bitcoin, .
+  bitegerezwa guca bikuraho ama UTXO ku bibanza vya Exchange .
+  kugira ngo bigabanye ingorane zo gutera amakuru n’uguhagarika amafaranga.
+reviewed: true

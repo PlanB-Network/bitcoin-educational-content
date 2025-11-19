@@ -1,0 +1,9 @@
+question: Milline on Umbrelile paigaldatud Nostr relee roll?
+answer: Hosta oma väljaandeid kohapeal
+wrong_answers:
+  - Bitcoin tehingute kontrollimine
+  - Loo Nostr-kanalid oma kontaktidega
+  - Blockchain Nostri kohalik varukoopia
+explanation: |
+  Nostri relee Umbrelil võimaldab andmeid hoida kohapeal, tagades kättesaadavuse ja suveräänsuse.
+reviewed: true

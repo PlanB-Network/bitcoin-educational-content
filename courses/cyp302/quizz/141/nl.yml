@@ -1,0 +1,9 @@
+question: Waarom wordt het ontbinden in factoren van een product van twee zeer grote priemgetallen als een moeilijk probleem beschouwd?
+answer: Omdat het een onbetaalbare hoeveelheid rekentijd vereist, zelfs voor supercomputers.
+wrong_answers:
+  - Omdat er voor elke factor een openbare sleutel nodig is.
+  - Omdat het alleen basisberekeningen betreft.
+  - Omdat het afhankelijk is van vermenigvuldiging en niet van deling.
+explanation: |
+  Het ontbinden in factoren van een enorm getal, het product van twee grote priemgetallen, vereist rekenkracht die de capaciteit van de huidige computers te boven gaat, waardoor deze taak praktisch onuitvoerbaar is.
+reviewed: false

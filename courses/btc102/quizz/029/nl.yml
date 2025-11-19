@@ -1,0 +1,9 @@
+question: Welke grote speler ontwerpt ASIC's voor Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Gieterij USA
+explanation: |
+  Bitmain is een van de toonaangevende fabrikanten van gespecialiseerde hardware voor Bitcoin Mining.
+reviewed: false

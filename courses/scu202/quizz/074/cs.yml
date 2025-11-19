@@ -1,0 +1,9 @@
+question: Jaká událost přiměla společnost Google k přeorientování systému Android na dotykové ovládání Interface?
+answer: Vydání prvního iPhonu
+wrong_answers:
+  - Převzetí společnosti Nokia společností Microsoft
+  - Vytvoření CyanogenMod
+  - Spuštění obchodu Play
+explanation: |
+  Příchod iPhonu v roce 2007 donutil společnost Google přehodnotit systém Android tak, aby byl kompatibilní s dotykovými displeji, a opustit myšlenku zařízení s fyzickou klávesnicí.
+reviewed: false

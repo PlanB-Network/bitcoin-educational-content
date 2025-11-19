@@ -1,11 +1,12 @@
-question: Que s'est-il passé avec le dollar zimbabwéen en avril 2009 ?
-answer: Le Ministre des Finances a annoncé la suspension du dollar zimbabwéen et a autorisé l'utilisation de différentes devises étrangères pour le commerce.
+question: Quels principes économiques Bitcoin respecte-t-il ?
+answer: Principes de l'économie autrichienne.
 wrong_answers:
-  - Le dollar zimbabwéen a chuté de plus de 72%.
-  - Le gouvernement a accepté de compenser les vétérans de guerre pour un montant équivalent à 450 millions de dollars américains.
-  - Le gouvernement a dû recourir à l'utilisation de la planche à billets.
+  - Principes de l'économie keynésienne.
+  - Principes de l'économie marxiste.
+  - Principes de l'économie néoclassique.
 explanation: |
-  En avril 2009, le Ministre des Finances a annoncé la
-  suspension du dollar zimbabwéen et a autorisé l'utilisation
-  de différentes devises étrangères pour le commerce.
+  Bitcoin s'aligne sur les principes de l'économie autrichienne.
+  Sa quantité limitée et l'absence d'entité centrale le protègent
+  des risques inhérents d'inflation que l'on observe dans
+  les monnaies traditionnelles.
 reviewed: true

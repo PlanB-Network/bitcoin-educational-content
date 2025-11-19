@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe gihambaye kugira ngo abazungu bawe basubize ama bitcoins yawe ata makosa?
+answer: Gutanga amabwirizwa atomoye
+wrong_answers:
+  - Kwizigira imfunguruzo z'ibanga zose
+  - Guhindura kenshi amajambobanga
+  - Gukoresha urubuga rwa KYC Exchange
+explanation: |
+  Amabwirizwa adondora neza kandi atahurwa aratuma abakunzi bawe bashobora kuronka neza ayo mahera.
+reviewed: false

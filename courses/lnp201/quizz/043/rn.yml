@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe Bob ishobora gushiramwo muri Invoice kugira ngo yorohereze guca mu nzira?
+answer: Imirongo iri hafi ifise amahera ahagije canke ukubaho kw'imirongo yigenga
+wrong_answers:
+  - Urufunguzo rwihariye rw'ibice vyo hagati
+  - Ikarata yuzuye y'imirongo yose y'urubuga
+  - Umubare nyawo w'amahera ariho ku muhora wose
+explanation: |
+  Mu kwerekana imihora iri hafi ifise amahera canke mu guhishura imihora y’abantu ku giti cabo, Bob ifasha Alice guhitamwo inzira zifise amahirwe menshi yo kuroranirwa.
+reviewed: false

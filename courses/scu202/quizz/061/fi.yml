@@ -1,0 +1,9 @@
+question: Mikä selain tarjoaa mainosten ja jäljittäjien eston, sormenjälkien suojauksen ja perustuu Chromiumiin?
+answer: Rohkea
+wrong_answers:
+  - Firefox
+  - Tor
+  - Kromi
+explanation: |
+  Brave tarjoaa oletusarvoisesti mainosten eston, seurantalaitteet ja kehittyneen sormenjälkisuojauksen, jotka kaikki perustuvat Chromiumiin.
+reviewed: false

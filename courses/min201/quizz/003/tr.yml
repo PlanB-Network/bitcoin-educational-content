@@ -1,0 +1,13 @@
+question: Madencilerin Bitcoin Mining sürecine katılmaları için temel finansal teşvik nedir?
+answer: Mining ödülü
+wrong_answers:
+  - Bitcoin ağını kontrol etme yeteneği
+  - İstenildiği zaman yeni bitcoin yaratabilme yeteneği
+  - Bitcoin'ün fiyatını manipüle etme yeteneği
+explanation: |
+  Madenciler için başlıca finansal teşvik
+  gW-5 Mining süreci Mining ödülüdür. Bu
+  ödül, madencileri teşvik etmek için güçlü bir özendirici görevi görür
+  enerjisine rağmen Mining sürecine katılmak için
+  maliyet.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Vilka är de viktigaste kännetecknen för en effektiv valuta?
+answer: Fungibel, delbar, Liquid.
+wrong_answers:
+  - Fungibel, delbar, förgänglig.
+  - Fungibel, Indivisibel, Liquid.
+  - Ej avyttringsbar, delbar, Liquid.
+explanation: |
+  En effektiv valuta måste vara fungibel (utbytbar
+  utan värdeförlust), delbar (separerbar i små delar för att
+  delar för att underlätta transaktioner av olika volymer) och
+  Liquid (lätt konvertibel till varor eller tjänster).
+reviewed: true

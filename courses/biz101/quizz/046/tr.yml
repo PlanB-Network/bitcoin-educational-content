@@ -1,0 +1,9 @@
+question: Para biriminin birincil işlevi nedir?
+answer: Exchange değerini basitleştiren bir aracı olarak hareket etmek
+wrong_answers:
+  - İçsel değeri fiziksel formda saklamak için
+  - Takasın yerini tamamen doğrudan mal karşılığı malın alması Exchange
+  - Tüm ekonomik işlemleri tek bir otorite aracılığıyla merkezileştirmek
+explanation: |
+  Para birimi, bir takas sisteminde ihtiyaç duyulan karmaşık Exchange oranları ağını azaltan ortak bir araç olarak hizmet ederek ticareti basitleştirir ve böylece işlemleri kolaylaştırır.
+reviewed: false

@@ -30,6 +30,8 @@ Théo; contributo
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Obiettivo: aggiornamento!**
 
 Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
@@ -40,7 +42,7 @@ Questa formazione è uno sforzo congiunto di tre dei nostri professori:
 
 - Renaud Lifchitz, esperto in sicurezza informatica
 - Théo Pantamis, dottore in matematica applicata
-- Rogzy, Co-fondatore di Plan ₿ Network
+- Rogzy, Co-fondatore di Plan ₿ Academy
 
 La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante il costante aumento di casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
 Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile: ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
@@ -52,7 +54,8 @@ Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tut
 - Capitolo 2 - Utilizzare Internet in sicurezza
 
 Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle sue implicazioni in termini di sicurezza. Esploreremo poi le specificità dei browser, in particolare per quanto riguarda la gestione dei cookie. Vedremo anche come garantire una navigazione più sicura e anonima, utilizzando strumenti come TOR. Successivamente, metteremo l'accento sull'uso delle VPN per rafforzare la protezione dei tuoi dati. Infine, concluderemo con alcune raccomandazioni sull'uso sicuro delle connessioni WiFi.
-![](assets/it/1.webp)
+
+![image](assets/it/001.webp)
 
 **Sezione 2: Buone pratiche nell'uso del computer**
 
@@ -60,7 +63,8 @@ Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle
 - Capitolo 4 - Hack e gestione del backup
 
 In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Innanzitutto, esploreremo i diversi sistemi operativi: Mac, PC e Linux, evidenziandone le specificità e i punti di forza. Successivamente, ci concentreremo sui metodi per proteggerti efficacemente dai tentativi di hacking e per rafforzare la sicurezza dei tuoi dispositivi. Infine, metteremo l'accento sull'importanza di proteggere e fare regolarmente il backup dei tuoi dati per prevenire perdite o ransomware.
-![](assets/it/2.webp)
+
+![image](assets/it/002.webp)
 
 **Sezione 3: Implementazione delle soluzioni**
 
@@ -71,7 +75,8 @@ In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Inn
 In questa terza sezione pratica, passeremo alla pratica con l'implementazione delle tue soluzioni concrete.
 
 Prima di tutto, vedremo come proteggere la tua casella di posta, essenziale per le tue comunicazioni e spesso presa di mira dai pirati informatici. Successivamente, ti presenteremo cos'è un gestore di password: una soluzione pratica per non dimenticare o confondere le tue password, mantenendole comunque sicure. Infine, parleremo di una misura di sicurezza aggiuntiva, l'autenticazione a due fattori, che aggiunge un ulteriore livello di protezione ai tuoi account. Tutto sarà spiegato in modo chiaro e accessibile.
-![](assets/it/3.webp)
+
+![image](assets/it/003.webp)
 
 **Sezione Bonus: Intervista con Pantamis e Renaud**
 
@@ -88,18 +93,22 @@ Pronto a rafforzare la tua sicurezza digitale e riprendere il controllo dei tuoi
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Durante la navigazione su internet, è importante evitare alcuni errori comuni per preservare la propria sicurezza online. Ecco alcuni consigli per evitarli:
 
 ### Attenzione ai download di software:
 
 Si consiglia di scaricare software dal sito ufficiale anziché da siti generici.
 Esempio: Utilizzare www.signal.org/download e non www.logicieltelechargement.fr/signal.
-![](assets/notext/4.webp)
+
+![image](assets/it/004.webp)
 
 È anche consigliabile privilegiare i software open source perché spesso sono più sicuri e privi di software dannosi. Un software "open-source", ovvero aperto o libero, è un software il cui codice è noto a tutti e accessibile a tutti. È quindi possibile verificare, tra le altre cose, che non ci siano accessi nascosti per rubare i vostri dati personali.
 
 > Bonus: i software open source sono spesso gratuiti! Questa università è al 100% open source, quindi potete anche voi verificare il nostro codice tramite il nostro GitHub.
-> ![](assets/notext/5.webp)
+
+![image](assets/it/005.webp)
 
 ### Gestione dei cookie: errori e buone pratiche
 
@@ -111,7 +120,8 @@ I cookie sono file creati dai siti web per memorizzare informazioni sul vostro d
 
 Esistono due grandi famiglie di browser: quelli basati su Chrome e quelli basati su Firefox.
 Anche se entrambe le famiglie offrono un livello di sicurezza simile, si consiglia di evitare il browser Chrome di Google a causa dei suoi tracker. Possono essere preferite alternative più leggere di Chrome, come Chromium o Brave. Brave è particolarmente consigliato per la sua capacità di bloccare le pubblicità. Potrebbe essere necessario utilizzare più browser per accedere a determinati siti.
-![](assets/notext/6.webp)
+
+![image](assets/it/006.webp)
 
 ### La navigazione privata, TOR e altre alternative per una navigazione più sicura e anonima
 
@@ -120,32 +130,38 @@ La navigazione privata, anche se non nasconde la navigazione al proprio provider
 Un'alternativa più avanzata è la rete TOR (The Onion Router), che offre l'anonimato mascherando l'indirizzo IP dell'utente e consentendo l'accesso al Darknet. TOR Browser è un browser appositamente progettato per utilizzare la rete TOR. Consente di visitare sia siti web convenzionali che siti web in .onion, che sono generalmente gestiti da individui e possono avere una natura illegale.
 
 TOR è legale ed è utilizzato da giornalisti, attivisti per la libertà e altre persone che desiderano sfuggire alla censura in paesi autoritari. Tuttavia, è importante capire che TOR non protegge i siti visitati né il computer stesso. Inoltre, l'utilizzo di TOR può rallentare la connessione Internet poiché i dati passano attraverso i computer di altre tre persone prima di raggiungere la loro destinazione. È anche essenziale notare che TOR non è una soluzione infallibile per garantire l'anonimato al 100% e non deve essere utilizzato per condurre attività illegali.
-![](assets/notext/7.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+![image](assets/it/007.webp)
+
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN e connessione Internet
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### i VPN
 
 La protezione della propria connessione Internet è un aspetto cruciale della sicurezza online e l'utilizzo di reti private virtuali (VPN) è un metodo efficace per migliorare questa sicurezza, sia per le aziende che per gli utenti individuali.
 
 Le VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo così la connessione più sicura. In un contesto professionale, le VPN consentono ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda da remoto. I dati scambiati sono crittografati, rendendo molto più difficile l'intercettazione da parte di terzi. Oltre a garantire l'accesso a una rete interna, l'uso di una VPN può consentire a un utente di far passare la propria connessione Internet attraverso la rete interna dell'azienda, dando l'impressione che la connessione provenga dall'azienda stessa. Ciò può essere particolarmente utile per accedere a servizi online che sono geograficamente limitati.
-![](assets/it/8.webp)
+
+![image](assets/it/008.webp)
 
 ### Tipi di VPN
 
 Ci sono due tipi principali di VPN: le VPN aziendali e le VPN per il grande pubblico, come NordVPN. Le VPN aziendali tendono ad essere più costose e complesse, mentre le VPN per il grande pubblico sono generalmente più accessibili e facili da usare. NordVPN, ad esempio, consente agli utenti di connettersi a Internet passando attraverso un server situato in un altro paese, il che può consentire di aggirare le restrizioni geografiche.
 
 Tuttavia, l'uso di una VPN per il grande pubblico non garantisce un anonimato completo. Molti fornitori di VPN conservano informazioni sui propri utenti, il che potrebbe compromettere potenzialmente la loro anonimato. Sebbene le VPN possano essere utili per migliorare la sicurezza online, non sono una soluzione universale. Sono efficaci per alcuni utilizzi specifici, come l'accesso a servizi geograficamente limitati o il miglioramento della sicurezza in movimento, ma non garantiscono una sicurezza totale. Quando si sceglie una VPN, è essenziale privilegiare l'affidabilità e la parte tecnica piuttosto che la popolarità. I fornitori di VPN che raccolgono meno informazioni personali sono generalmente i più sicuri. Servizi come iVPN e Mullvad non raccolgono informazioni personali e consentono persino pagamenti in Bitcoin per una maggiore privacy.
-![](assets/notext/9.webp)
+
+![image](assets/it/009.webp)
+
 Infine, una VPN può anche essere utilizzata per bloccare la pubblicità online, offrendo così un'esperienza di navigazione più piacevole e sicura. Tuttavia, è importante fare le proprie ricerche per trovare la VPN più adatta alle proprie esigenze specifiche. L'uso di una VPN è consigliato per rafforzare la sicurezza, anche quando si naviga su Internet da casa. Ciò contribuisce a garantire un livello più elevato di sicurezza per i dati scambiati online. Infine, assicurati di verificare gli URL e il lucchetto nella barra degli indirizzi per confermare di essere sul sito che pensi di visitare.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS e le reti Wi-Fi pubbliche
 
@@ -154,7 +170,9 @@ In materia di sicurezza online, è essenziale comprendere che la connessione 4G 
 Nell'Unione europea, la protezione dei dati è regolamentata dal Regolamento generale sulla protezione dei dati (GDPR). È quindi più sicuro utilizzare fornitori europei di punti di accesso Wi-Fi, come la SNCF, che non rivendono i dati di connessione degli utenti. Tuttavia, il semplice fatto che un sito mostri un lucchetto non garantisce la sua autenticità. È importante verificare la chiave pubblica del sito utilizzando un sistema di certificati per confermarne l'autenticità. Sebbene la crittografia dei dati impedisca a terzi di intercettare i dati scambiati, è comunque possibile per un individuo malintenzionato fingersi il sito e trasferire i dati in chiaro.
 
 Per evitare truffe online, è fondamentale verificare l'identità del sito su cui stai navigando, controllando in particolare l'estensione e il nome di dominio. Inoltre, fai attenzione ai truffatori che utilizzano lettere simili negli URL per ingannare gli utenti.
-![](assets/it/10.webp)
+
+![image](assets/it/010.webp)
+
 In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza online, sia per le aziende che per gli utenti individuali. Inoltre, l'adozione di buone abitudini di navigazione può contribuire a una migliore igiene digitale. Nella prossima sezione di questo corso, affronteremo la sicurezza del computer, inclusi gli aggiornamenti, l'antivirus e la gestione delle password.
 
 # Buone pratiche per l'uso del computer
@@ -165,6 +183,8 @@ In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza onli
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
+
 La sicurezza dei nostri computer è una questione fondamentale nel mondo digitale odierno. Oggi affronteremo tre punti chiave:
 
 - la scelta del computer
@@ -174,11 +194,14 @@ La sicurezza dei nostri computer è una questione fondamentale nel mondo digital
 ### La scelta del computer e del sistema operativo
 
 Per quanto riguarda la scelta del computer, non ci sono differenze significative di sicurezza tra i computer vecchi e quelli nuovi. Tuttavia, esistono differenze di sicurezza tra i sistemi operativi: Windows, Linux e Mac.
-![](assets/notext/11.webp)
+
+![image](assets/it/011.webp)
+
 Riguardo a Windows, è consigliato non utilizzare un account amministratore quotidianamente, ma piuttosto creare due account separati: un account amministratore e un account per l'uso quotidiano. Windows è spesso più esposto a software dannosi a causa del suo elevato numero di utenti e della facilità di passaggio dall'utente all'amministratore. Al contrario, le minacce sono meno numerose su Linux e Mac.
 
 La scelta del sistema operativo deve essere fatta in base alle proprie esigenze e preferenze. I sistemi Linux sono notevolmente migliorati negli ultimi anni, diventando sempre più user-friendly. Ubuntu è un'alternativa interessante per i principianti, con un'interfaccia grafica facile da usare. È possibile partizionare un computer per sperimentare con Linux mantenendo comunque Windows, ma ciò può risultare complesso. Spesso è preferibile avere un computer dedicato, una macchina virtuale o una chiavetta USB per testare Linux o Ubuntu.
-![](assets/notext/12.webp)
+
+![image](assets/it/012.webp)
 
 ### Aggiornamento del software
 
@@ -197,7 +220,9 @@ Per darti un esempio concreto di errore: un software crackato che non può esser
 
 La scelta e l'installazione di un antivirus sono importanti. Windows Defender, l'antivirus integrato in Windows, è una soluzione sicura ed efficace. Per una soluzione gratuita è estremamente buono e molto meglio di molte soluzioni gratuite disponibili online. Infatti, è necessario fare attenzione agli antivirus scaricati da Internet, che possono essere dannosi o obsoleti.
 Per coloro che desiderano investire in un antivirus a pagamento, è consigliato scegliere un antivirus che analizzi intelligentemente le minacce sconosciute ed emergenti, come Kaspersky. Gli aggiornamenti dell'antivirus sono essenziali per proteggersi dalle nuove minacce.
-![](assets/notext/13.webp)
+
+![image](assets/it/013.webp)
+
 Nota: Linux e Mac, grazie al loro sistema di separazione dei diritti degli utenti, spesso non hanno bisogno di un antivirus.
 
 Infine, ecco alcune buone pratiche per la sicurezza del tuo computer e dei tuoi dati. È importante scegliere un antivirus efficace e piacevole da utilizzare. È anche cruciale adottare buone pratiche sul proprio computer, come non inserire chiavi USB sconosciute o trovate in luoghi sospetti. Queste chiavi USB potrebbero contenere programmi dannosi che si avviano automaticamente una volta inserite. Il controllo della chiave USB non servirà a nulla una volta che sarà stata inserita. Alcune aziende sono state vittime di hacking a causa di chiavi USB lasciate in modo negligente in zone accessibili, come un parcheggio.
@@ -209,6 +234,8 @@ In conclusione, è fondamentale optare per un sistema operativo adatto alle prop
 ## Hack & gestione del backup: proteggere i propri dati
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### Come attaccano gli hacker?
 
@@ -229,7 +256,9 @@ La regola d'oro qui è verificare attentamente il nome completo del mittente e l
 ### Ransomware e tipi di attacchi informatici:
 
 Il ransomware è un tipo di software dannoso che crittografa i dati dell'utente e richiede un riscatto per decifrarli. Questo tipo di attacco è sempre più comune e può diventare molto fastidioso per un'azienda o un individuo. Per proteggersi, è essenziale creare backup dei file più sensibili! Questo non fermerà il ransomware, ma ti permetterà semplicemente di ignorarlo.
-![](assets/notext/14.webp)
+
+![image](assets/it/014.webp)
+
 Effettua regolarmente il backup dei tuoi dati importanti su un supporto esterno o un servizio di archiviazione online sicuro. In questo modo, in caso di attacco informatico o guasto hardware, potrai recuperare i tuoi dati senza perdere informazioni cruciali.
 
 Soluzione semplice:
@@ -244,9 +273,9 @@ NO, di solito è sconsigliato pagare gli hacker in caso di ransomware o altri ti
 
 Se rilevi un virus sul tuo computer, disconnettilo da Internet, effettua una scansione antivirus completa ed elimina i file infetti. Successivamente, aggiorna i tuoi software e il sistema operativo e cambia le tue password per evitare ulteriori intrusioni.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementazione delle soluzioni.
 
@@ -255,6 +284,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Gestione delle caselle di posta
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Inizio della sezione 2 del corso!
 
@@ -271,7 +302,8 @@ Nonostante tutti abbiamo già una casella di posta, è importante considerare la
 ### Scelta del provider di posta e gestione degli indirizzi email
 
 La corretta gestione dei nostri indirizzi email è cruciale per garantire la sicurezza dei nostri accessi online. È importante scegliere un provider di posta sicuro e rispettoso della privacy. Ad esempio, ProtonMail è un servizio di posta sicuro e rispettoso della privacy.
-![](assets/notext/15.webp)
+
+![image](assets/it/015.webp)
 
 Nella scelta di un provider di posta e nella creazione di una password, è essenziale non riutilizzare mai la stessa password per diversi servizi online. È consigliabile creare nuovi indirizzi email regolarmente e separare gli utilizzi utilizzando indirizzi email diversi. È meglio optare per un servizio di posta sicuro per gli account critici. È importante anche notare che alcuni servizi limitano la lunghezza delle password, quindi è importante fare attenzione a questa limitazione. Sono disponibili anche servizi per la creazione di indirizzi email temporanei, che possono essere utilizzati per account a durata limitata.
 
@@ -280,16 +312,19 @@ Nella scelta di un provider di posta e nella creazione di una password, è essen
 ### Dovrei cambiare casella di posta?
 
 Si consiglia di utilizzare il sito Have I Been Pwned (Sono stato violato) - https://haveibeenpwned.com/ - per verificare se il tuo indirizzo email è stato compromesso e per essere avvisati di future violazioni dei dati. Un database violato potrebbe essere sfruttato da hacker per inviare email di phishing o riutilizzare password compromesse.
-![](assets/notext/16.webp)
+
+![image](assets/it/016.webp)
 
 In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro è una pratica giusta, e addirittura necessaria se si desidera ripartire da basi sane.
 Bonus Bitcoin: può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i punti di attività nelle nostre vite.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Gestore di password
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Cosa è un gestore di password?
 
@@ -302,15 +337,20 @@ Con un gestore di password, non è più necessario preoccuparsi di dimenticare l
 - LastPass: Uno dei gestori più popolari. È un servizio di terze parti, il che significa che le vostre password sono memorizzate sui loro server. Offre una versione gratuita e una versione a pagamento, con un'interfaccia user-friendly.
 
 - Dashlane: È anche un servizio di terze parti, con un'interfaccia intuitiva e funzionalità aggiuntive come il monitoraggio delle informazioni delle carte di credito e note sicure.
-  ![](assets/notext/17.webp)
+
+![image](assets/it/017.webp)
 
 ### Auto-hosting per un maggiore controllo:
 
 - Bitwarden: È uno strumento open source, il che significa che è possibile esaminare il suo codice per verificare la sua sicurezza. Sebbene Bitwarden offra un servizio di hosting, consente anche agli utenti di selh-hostare la propria istanza, il che significa che è possibile controllare dove vengono memorizzate le vostre password, offrendo potenzialmente maggiore sicurezza e controllo.
 
 - KeePass: È una soluzione open source che è principalmente destinata al self-hosting. I vostri dati sono memorizzati localmente per impostazione predefinita, ma è possibile sincronizzare il database delle password utilizzando diversi metodi se lo si desidera. KeePass è ampiamente riconosciuto per la sua sicurezza e flessibilità, anche se potrebbe essere un po' meno user-friendly per i principianti.
-  ![](assets/notext/18.webp)
-  (Nota: La scelta tra un servizio di terze parti o un servizio di slef-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre il self-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
+
+![image](assets/it/018.webp)
+
+Per soluzioni self-hosted come KeePass, è possibile sincronizzare il database tra più dispositivi senza utilizzare servizi centralizzati di terze parti. Strumenti come **Syncthing** consentono una sincronizzazione crittografata e decentralizzata direttamente tra i dispositivi. Questo approccio mantiene i dati sotto il tuo controllo garantendone al contempo la disponibilità su tutti i tuoi dispositivi.
+
+(Nota: La scelta tra un servizio di terze parti o un servizio di slef-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre il self-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
 
 ### Cosa è una buona password:
 
@@ -327,13 +367,15 @@ Per creare una password forte, si consiglia di utilizzare un gran numero di cara
 
 Le password generate casualmente offrono un livello di sicurezza superiore, anche se possono essere più difficili da ricordare. I gestori di password possono generare password casuali più sicure. Utilizzando un gestore di password, non è necessario memorizzare tutte le password. È importante sostituire gradualmente le vecchie password con quelle generate dal gestore, poiché sono più forti e più lunghe. Assicurarsi che la password principale del gestore di password sia anche forte e sicura.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## I 2 fattori di autenticazione
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Perché implementare il 2FA
 
@@ -344,8 +386,10 @@ Questo secondo passaggio può essere:
 - Un codice temporaneo inviato tramite SMS.
 - Un codice generato da un'applicazione come Google Authenticator o Authy.
 - Una chiave di sicurezza fisica che inserisci nel tuo computer.
-  ![](assets/notext/19.webp)
-  Con il 2FA, anche se un hacker ottiene la tua password, non potrà accedere al tuo account senza questo secondo fattore di verifica. Questo rende il 2FA essenziale per proteggere i tuoi account online da accessi non autorizzati.
+
+![image](assets/it/019.webp)
+
+Con il 2FA, anche se un hacker ottiene la tua password, non potrà accedere al tuo account senza questo secondo fattore di verifica. Questo rende il 2FA essenziale per proteggere i tuoi account online da accessi non autorizzati.
 
 ### Quale opzione scegliere?
 
@@ -356,6 +400,8 @@ Le diverse opzioni per l'autenticazione forte offrono livelli di sicurezza varia
 - I token hardware, come le chiavi USB o le smart card, offrono la massima sicurezza generando una chiave privata unica per ogni sito e verificando l'URL prima di autorizzare la connessione.
 
 Per una sicurezza ottimale con l'autenticazione forte, si consiglia di utilizzare un indirizzo email sicuro, un gestore di password sicuro e di adottare il 2FA utilizzando YubiKey. È anche consigliabile acquistare due YubiKey per prevenire la perdita o il furto, ad esempio conservando una copia di backup sia a casa che con sé.
+
+Per quanto riguarda le potenziali minacce all'autenticazione a due fattori (2FA) tramite SIM, un esempio comune è l'attacco di "swap", in cui un truffatore ruba il numero di telefono di un utente collegandolo a una scheda SIM controllata dal truffatore stesso. Ci sono diversi modi in cui un quest'ultimo può farlo. Ad ogni modo, questa minaccia sia solitamente una preoccupazione importante solo per individui di alto profilo e persone di interesse.
 
 La biometria può essere utilizzata come sostituto, ma è meno sicura della combinazione di conoscenza e possesso. I dati biometrici devono rimanere sull'apparecchio di autenticazione e non devono essere divulgati online. È importante considerare il modello di minaccia associato ai diversi metodi di autenticazione e adattare la propria scelta di conseguenza.
 
@@ -372,9 +418,9 @@ Continuate ad imparare e ad implementare gradualmente le buone pratiche!
 
 Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatta al vostro percorso di apprendimento!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Sezione Pratica
 
@@ -386,7 +432,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Proteggere la propria casella di posta elettronica è un passaggio importante per mettere in sicurezza le proprie attività online e preservare i propri dati personali. Questo tutorial vi guiderà, passo dopo passo, nella creazione e configurazione di un account ProtonMail, un fornitore riconosciuto per il suo alto livello di sicurezza che offre la crittografia end-to-end delle vostre comunicazioni. Che siate principianti o utenti esperti, le buone pratiche proposte qui vi aiuteranno a rafforzare la sicurezza della vostra casella di posta, sfruttando al contempo le funzionalità avanzate di ProtonMail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Sicurezza con 2FA
 
@@ -394,11 +440,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 L'autenticazione a due fattori (2FA) è diventata essenziale per proteggere i tuoi account online. In questo tutorial imparerai a configurare e utilizzare l'app 2FA Authy, che genera codici dinamici a 6 cifre per proteggere i tuoi account. Authy è molto semplice da usare e si sincronizza su più dispositivi. Scopri come installare e configurare Authy e rafforza la sicurezza dei tuoi account online fin da subito:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Un'altra opzione è utilizzare una chiave di sicurezza fisica. Questo altro tutorial ti mostra come configurare e utilizzare una chiave di sicurezza come secondo fattore di autenticazione:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Creazione di un gestore di password
 
@@ -408,11 +454,11 @@ La gestione delle password è una sfida nell'era digitale. Abbiamo tutti numeros
 
 In questo tutorial, scopri come configurare Bitwarden, un gestore di password open-source, e come sincronizzare le tue credenziali su tutti i tuoi dispositivi per semplificare l'uso quotidiano:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Per gli utenti più esperti, offro anche un tutorial su un altro software gratuito e open-source da utilizzare localmente per gestire le tue password:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Sicurezza dei tuoi account
 
@@ -420,9 +466,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 In questi due tutorial, ti guiderò anche nella sicurezza dei tuoi account online e ti spiegherò come adottare gradualmente pratiche più sicure per la gestione quotidiana delle tue password.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Cambio di browser e VPN
 
@@ -432,13 +478,13 @@ La protezione della tua privacy online è anche un punto da considerare per gara
 
 Ti propongo di scoprire due soluzioni VPN affidabili e pagabili in bitcoin, ovvero IVPN e Mullvad. Questi tutorial ti guidano nell'installare, configurare e utilizzare Mullvad o IVPN su tutti i tuoi dispositivi:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Scopri inoltre come utilizzare Tor Browser, un browser specificamente progettato per proteggere la tua privacy online:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Configurazione del backup
 
@@ -446,11 +492,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Proteggere i tuoi file personali è anche un punto essenziale. Questo tutorial ti mostra come implementare una strategia di backup efficace grazie a Proton Drive. Scopri come utilizzare questa soluzione cloud sicura per applicare il metodo 3-2-1: tre copie dei tuoi dati su due supporti diversi, di cui una copia fuori sede. In questo modo garantisci l'accessibilità e la sicurezza dei tuoi file sensibili:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 E per proteggere i tuoi file archiviati su supporti rimovibili come una chiavetta USB o un disco rigido esterno, ti mostro anche come crittografare e decrittografare facilmente questi supporti grazie a VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Andare oltre
 
@@ -459,6 +505,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Come lavorare in questa industria della sicurezza informatica
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 La cybersecurity, un settore in forte crescita, offre molte opportunità per coloro che sono appassionati della protezione dei sistemi e dei dati. Se questo settore ti intriga, ecco alcuni passaggi chiave per orientarti.
 
@@ -489,11 +537,14 @@ L'evoluzione costante delle minacce richiede un costante monitoraggio delle noti
 - Governance: Standard ISO, regolamenti GDPR/CCPA.
 
 Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare con successo nel mondo della cybersecurity.
-![](assets/notext/20.webp)
+
+![image](assets/it/020.webp)
 
 ## Intervista a Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
 
@@ -502,12 +553,15 @@ Tre dimensioni sono fondamentali da considerare nel gestire le password: la crea
 In generale, è sconsigliato utilizzare estensioni del browser per il riempimento automatico delle password. Questi strumenti possono rendere l'utente più vulnerabile agli attacchi di phishing. Renaud, un esperto riconosciuto in materia di sicurezza informatica, preferisce una gestione manuale tramite KeePass, che implica una copia e incolla manuale della password. Le estensioni tendono ad aumentare la superficie di attacco, possono rallentare le prestazioni del browser e quindi presentano un rischio non trascurabile. Pertanto, l'uso minimo di estensioni sul browser è una pratica consigliata.
 
 I gestori di password solitamente incoraggiano l'uso di fattori di autenticazione aggiuntivi, come l'autenticazione a due fattori. Per una sicurezza ottimale, è consigliabile conservare gli OTP (One-Time Password) sul proprio dispositivo mobile. AndoTP offre una soluzione open source per generare e memorizzare i codici OTP sul telefono. Se Google Authenticator consente l'esportazione dei seed dei codici di autenticazione, la fiducia nella loro conservazione su un account Google è limitata. Pertanto, le applicazioni OTI e AndoTP sono consigliate per una gestione autonoma degli OTP.
-![](assets/notext/21.webp)
+
+![image](assets/it/021.webp)
+
 La questione dell'eredità digitale e del lutto digitale solleva l'importanza di avere una procedura per trasmettere le password dopo la morte di una persona. Un gestore di password facilita questa transizione memorizzando in modo sicuro tutti i segreti digitali in un unico luogo. Il gestore di password consente anche di identificare tutti gli account aperti e gestirne la chiusura o il trasferimento. È consigliabile annotare la password principale su carta, ma è necessario conservarla in un luogo nascosto e sicuro. Se il disco rigido è crittografato e il computer è bloccato, la password non sarà accessibile, nemmeno in caso di furto.
 
 ### Verso un'era post-password: esplorazione di alternative credibili
 
 Le password, sebbene onnipresenti, presentano numerosi svantaggi, tra cui la possibilità di una trasmissione rischiosa durante il processo di autenticazione. Aziende leader come Microsoft e Apple propongono alternative innovative come la biometria e i token hardware, indicando una tendenza progressiva verso l'abbandono delle password.
+
 Passkeys, per esempio, offre chiavi casuali crittografate, combinate con un fattore locale (biometria o PIN), che sono ospitate da un fornitore ma rimangono al di fuori della sua portata. Sebbene ciò richieda un aggiornamento dei siti web, l'approccio elimina la necessità di password, offrendo così un livello di sicurezza elevato senza i vincoli associati alle password tradizionali o alla gestione di un deposito digitale sicuro.
 Passkiz è un'altra alternativa valida e sicura per la gestione delle password. Tuttavia, rimane una domanda importante: quella della disponibilità in caso di guasto del fornitore. Sarebbe quindi auspicabile che i giganti di Internet propongano sistemi per garantire questa disponibilità.
 
@@ -518,6 +572,7 @@ L'autenticazione diretta sul servizio in questione rappresenta un'opzione intere
 La sicurezza informatica può essere compromessa da pratiche semplici e dall'uso di password predefinite, come "admin". Non sempre sono necessari attacchi sofisticati per mettere a rischio la sicurezza informatica. Ad esempio, le password degli amministratori di un canale YouTube erano scritte nel codice sorgente privato di un'azienda. Le vulnerabilità di sicurezza sono spesso il risultato della negligenza umana.
 
 È importante notare anche che Internet è molto centralizzato e ampiamente controllato dagli Stati Uniti. Il server DNS può essere soggetto a censura e spesso utilizza DNS falsi per bloccare l'accesso a determinati siti. Il DNS è un protocollo vecchio e insufficientemente sicuro, il che può causare problemi di sicurezza. Nuovi protocolli, come DNSsec, sono emersi ma sono ancora poco utilizzati. Per aggirare la censura e il blocco degli annunci, è possibile scegliere fornitori DNS alternativi.
+
 Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la migliore sicurezza e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle".
 
 Esiste anche il sistema di autenticazione Lightning, che genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.

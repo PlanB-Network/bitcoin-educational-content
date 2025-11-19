@@ -1,0 +1,9 @@
+question: Apa cara terbaik untuk mengakses jaringan rumah Anda dari jarak jauh?
+answer: Menggunakan VPN pribadi
+wrong_answers:
+  - Buka port SSH publik
+  - Aktifkan router cloud
+  - Gunakan WPS
+explanation: |
+  VPN membuat terowongan terenkripsi untuk mengakses jaringan lokal tanpa mengekspos port penting ke Internet.
+reviewed: false

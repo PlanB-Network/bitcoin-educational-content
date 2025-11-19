@@ -1,0 +1,14 @@
+question: Mining pool nasıl çalışır ve neden gereklidir?
+answer: Bir Mining pool, Mining şanslarını artırmak için bilgi işlem kaynaklarını birleştiren bir grup madencidir. Bu işbirliği gereklidir çünkü izole edilmiş küçük bir Mining makinesi endüstri devlerine karşı rekabet ederek başarı şansını ihmal edilebilir bir düzeye indirir. Madenciler bir araya gelerek hesaplama güçlerini birleştirebilir, daha sık blok bulabilir ve ardından ödülleri her bir Miner'ün havuza katkısıyla orantılı olarak dağıtabilir.
+wrong_answers:
+  - Mining pool, Mining şanslarını artırmak için aynı Mining makinesini paylaşan bir grup madencidir. Bu işbirliği gereklidir çünkü tek bir Mining makinesi yalnızca sınırlı miktarda Bitcoin çıkarabilir.
+  - Bir Mining pool, Mining şanslarını artırmak için aynı Mining yazılımını paylaşan bir grup madencidir. Bu işbirliği gereklidir çünkü farklı Mining yazılımları farklı verimliliklere sahiptir.
+  - Bir Mining pool, Mining şanslarını artırmak için aynı Mining konumunu paylaşan bir grup madencidir. Bu işbirliği gereklidir çünkü Mining operasyonunun yeri Mining'un verimliliğini etkileyebilir.
+explanation: |
+  Bu bölümde Mining pool'in bir grup Mining pool olduğu açıklanmaktadır
+  artırmak için bilgi işlem kaynaklarını birleştiren madenciler
+  gW-12 şansları. Bu işbirliği gereklidir
+  çünkü izole edilmiş küçük bir Mining makinesi
+  sektör devlerine karşı başarı şansını azaltarak
+  ihmal edilebilir bir seviyede.
+reviewed: true

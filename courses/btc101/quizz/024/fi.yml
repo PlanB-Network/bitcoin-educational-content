@@ -1,9 +1,13 @@
-question: Mikä on fiat-valuuttojen pääasiallinen haittapuoli?
-answer: Niiden arvoa syö jatkuvasti rahapoliittinen inflaatio.
+question: Mikä seuraavista ei ole Bitcoinin etu valuuttana?
+answer: Sitä käytetään verojen maksamiseen.
 wrong_answers:
-  - Niitä ei ole helppo kuljettaa.
-  - Niiden arvo kasvaa jatkuvasti rahapoliittisen inflaation seurauksena.
-  - Niitä ei voi jakaa osiin.
+  - Se on jaettavissa.
+  - Se on siirrettävissä.
+  - Siihen ei tarvita lupaa.
 explanation: |
-  Fiat-valuuttojen, kuten dollarin ja euron, pääasiallinen haittapuoli on, että niiden arvoa syö jatkuvasti rahapoliittinen inflaatio. Tämä johtuu niitä hallinnoivien tahojen (kuningas, keskuspankki, keisari, diktaattori) aiheuttamasta arvon alenemisesta.
+  Bitcoinin ominaisuudet, kuten sen jaettavuus,
+  todennettavuus, luvan puuttuminen ja siirrettävyys,
+  tarjoavat erinomaisen arvon säilyttäjän. Lisäksi neutraalina
+  internet-valuuttana se edustaa hyvää vaihdon välinettä,
+  joka ei tunne rajoja.
 reviewed: true

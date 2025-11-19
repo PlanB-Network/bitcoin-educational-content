@@ -1,0 +1,9 @@
+question: 기존 인터넷 프로토콜 버전(IPv4)의 숫자는 어떻게 되나요?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4는 IP 헤더의 '버전' 필드에 있는 값 4에 해당합니다.
+reviewed: false

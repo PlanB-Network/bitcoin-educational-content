@@ -1,0 +1,8 @@
+question: Lightning Network을 직접 테스트해 볼 수 있는 방법은 무엇인가요?
+answer: Fountain이라는 팟캐스트 애플리케이션을 사용해 보세요.
+wrong_answers:
+  - 개인용 컴퓨터를 사용하는 Mining Bitcoin.
+  - 은행에서 Bitcoin를 구매하면 됩니다.
+  - 새로운 암호화폐를 만들면 됩니다.
+explanation: >-
+reviewed: true

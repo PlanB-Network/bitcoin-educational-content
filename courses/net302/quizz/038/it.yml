@@ -1,0 +1,9 @@
+question: Quale tipico intervallo CIDR rappresenta la dimensione di un blocco IPv4 assegnato dalla IANA a un RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  La IANA divide lo spazio IPv4 in blocchi di dimensione /8, ciascuno contenente 2^24 indirizzi.
+reviewed: false

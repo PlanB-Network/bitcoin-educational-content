@@ -1,0 +1,13 @@
+question: Bitcoin protokolü iki bloğun oluşturulması arasında tutarlı bir ortalama süreyi nasıl koruyor?
+answer: Geçerli bir Hash bulmanın zorluğu her 2016 bloğunda değişmektedir.
+wrong_answers:
+  - Madencilerin sayısı sabit bir sayıya göre düzenlenmiştir.
+  - Blokların boyutu 10 megabayt olarak ayarlanmıştır.
+  - Geçerli bir Hash bulmanın ödülü artırıldı.
+explanation: |
+  Bitcoin protokolü, iki protokol arasındaki ortalama sürenin
+  zorluğunu ayarlayarak iki blok sabit kalır
+  her 2016 blokta geçerli bir Hash bulma. Bu olay gerçekleşir
+  madencilerin sayısına ve hesaplamalarına bakılmaksızın
+  güç.
+reviewed: true

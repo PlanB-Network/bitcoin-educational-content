@@ -276,7 +276,7 @@ Täältä löydät kaksi vaihtoehtoa tietojen varmuuskopiointia varten:
 
 
 
-"Threema Safe* tallentaa kaikki tilitietosi, keskusteluja lukuun ottamatta, Threeman palvelimille. Nämä tiedot salataan salasanalla, jonka valitsit tiliäsi luodessasi, jolloin varmistetaan, ettei Threema pääse niihin käsiksi. Varmuuskopiot tehdään automaattisesti ja säännöllisesti.
+"**Threema Safe** tallentaa kaikki tilitietosi, keskusteluja lukuun ottamatta, Threeman palvelimille. Nämä tiedot salataan salasanalla, jonka valitsit tiliäsi luodessasi, jolloin varmistetaan, ettei Threema pääse niihin käsiksi. Varmuuskopiot tehdään automaattisesti ja säännöllisesti.
 
 
 
@@ -436,8 +436,8 @@ Onneksi olkoon, olet nyt vauhdissa Threema-viestien käytössä, joka on loistav
 
 
 
-Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille :
+Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

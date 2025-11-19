@@ -1,0 +1,10 @@
+question: Vilken term beskriver det skydd som en CoinJoin erbjuder mot analys av ett mynts tidigare transaktioner?
+answer: Retrospektiv anonset.
+wrong_answers:
+  - Framtida anonset.
+  - Spårbarhetsmotstånd.
+  - Temporär integritet.
+explanation: |
+  Skyddet mot analys från nuet till det förflutna är det som kallas retrospektiv anonset.
+  
+reviewed: false

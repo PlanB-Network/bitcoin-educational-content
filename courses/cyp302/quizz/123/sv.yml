@@ -1,0 +1,9 @@
+question: Vilket problem uppstår om Jim's Sporting Goods använder samma nyckelpar för alla kunder?
+answer: Alla kunder kan få tillgång till andras kommunikation
+wrong_answers:
+  - Nyckeln skulle bli för stor
+  - Kommunikationerna skulle bli långsammare
+  - Kunderna skulle behöva byta nycklar vid varje köp
+explanation: |
+  Genom att använda samma nyckel för alla skulle Jim's Sporting Goods äventyra konfidentialitet och integritet, eftersom varje kund potentiellt skulle kunna komma åt andra kunders data.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Chức năng chính của MAC Address trong mạng cục bộ là gì?
+answer: Xác định duy nhất một mạng Interface
+wrong_answers:
+  - Dịch tên miền thành IP Address
+  - Gán IP Address một cách động cho một máy chủ
+  - Xác định tốc độ kết nối internet của bạn
+explanation: |
+  MAC Address đóng vai trò là mã định danh phần cứng duy nhất cho mỗi mạng Interface, cho phép phân biệt các thiết bị về mặt vật lý trên mạng cục bộ.
+reviewed: false

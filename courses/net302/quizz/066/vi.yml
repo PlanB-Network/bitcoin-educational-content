@@ -1,0 +1,9 @@
+question: Hai thời hạn sử dụng liên quan đến IPv6 Address được gán tự động là gì?
+answer: Thời hạn sử dụng ưu tiên và thời hạn sử dụng hợp lệ
+wrong_answers:
+  - Thời gian thuê và thời gian nắm giữ
+  - Thời gian sống và thời hạn sử dụng
+  - Tuổi thọ ban đầu và tuổi thọ thứ cấp
+explanation: |
+  Tuổi thọ ưu tiên xác định thời gian sử dụng bình thường của Address và tuổi thọ hợp lệ xác định tổng thời gian hiệu lực của nó.
+reviewed: false

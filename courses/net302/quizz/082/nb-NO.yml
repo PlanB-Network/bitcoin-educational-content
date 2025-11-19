@@ -1,0 +1,9 @@
+question: Hvilket moderne verktøy erstatter arp på nyere Linux-distribusjoner?
+answer: ip nabo
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - rute
+explanation: |
+  ip neigh, fra iproute2-pakken, erstatter arp for håndtering av IP/MAC-assosiasjoner på moderne Linux.
+reviewed: false

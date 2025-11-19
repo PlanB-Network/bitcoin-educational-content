@@ -1,9 +1,9 @@
-question: Šta se dešava ako vaš privatni ključ bude otkriven trećoj strani?
-answer: Treća strana može potrošiti vaše bitkoine.
+question: Šta nije Mnemonic fraza u kontekstu Bitkoina?
+answer: Lozinka za vaš Bitkoin novčanik.
 wrong_answers:
-  - Treća strana može samo da pregleda vašu istoriju transakcija.
-  - Treća strana može promeniti vaš privatni ključ.
-  - Treća strana može pristupiti vašim ličnim informacijama.
+  - Spisak od 12 reči iz određenog rečnika.
+  - Lista od 24 reči iz određenog rečnika.
+  - Tajna za pristup vašem Bitkoin fondu.
 explanation: |
-  Ako vaš privatni ključ bude otkriven trećoj strani, povezani fondovi više nisu sigurni, jer privatni ključ omogućava pristup vašim fondovima.
+  Fraza Mnemonic u kontekstu Bitkoina je lista od 12 ili 24 reči koja vam omogućava da povratite vaš novčanik na bilo kojoj Bitkoin aplikaciji za novčanike. Svako ko ima pristup ovoj listi takođe može pristupiti vašim bitkoinima.
 reviewed: true

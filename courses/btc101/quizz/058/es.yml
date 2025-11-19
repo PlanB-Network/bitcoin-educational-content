@@ -1,11 +1,12 @@
-question: ¿Qué ocurrió con el dólar zimbabuense en abril de 2009?
-answer: El Ministro de Finanzas anunció la suspensión del dólar zimbabuense y autorizó el uso de diferentes monedas extranjeras para el comercio.
+question: ¿Con qué principios económicos se alinea Bitcoin?
+answer: Principios de la economía austriaca.
 wrong_answers:
-  - El dólar zimbabuense se desplomó en más del 72%.
-  - El gobierno acordó compensar a los veteranos de guerra por un monto equivalente a 450 millones de dólares estadounidenses.
-  - El gobierno tuvo que recurrir a poner en marcha la impresora de billetes.
+  - Principios de la economía keynesiana.
+  - Principios de la economía marxista.
+  - Principios de la economía neoclásica.
 explanation: |
-  En abril de 2009, el Ministro de Finanzas anunció la
-  suspensión del dólar zimbabuense y autorizó el uso
-  de diferentes monedas extranjeras para el comercio.
+  Bitcoin se alinea con los principios de la economía austriaca.
+  Su cantidad limitada y la falta de una entidad central lo protegen
+  de los riesgos inherentes de inflación que se ven en
+  las monedas tradicionales.
 reviewed: true

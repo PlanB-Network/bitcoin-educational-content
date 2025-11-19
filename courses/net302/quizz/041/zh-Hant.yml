@@ -1,0 +1,9 @@
+question: 在全球 DNS 出現之前，歷史上哪個檔案用於本地解析？
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  在 DNS 普及之前，Unix/Linux 系統上的名稱解析依賴於靜態的 /etc/hosts 檔案。
+reviewed: false

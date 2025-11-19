@@ -1,0 +1,9 @@
+question: Jaka jest główna wada ekosystemu macOS?
+answer: Zamknięcie i zależność od Apple
+wrong_answers:
+  - Zbyt duża otwartość oprogramowania
+  - Słaba optymalizacja grafiki
+  - Brak aktualizacji
+explanation: |
+  Ścisła integracja macOS ze sprzętem Apple prowadzi do uzależnienia i przywiązania do zastrzeżonego ekosystemu marki.
+reviewed: false

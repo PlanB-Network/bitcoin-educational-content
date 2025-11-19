@@ -1,0 +1,9 @@
+question: Vem har rätt att fragmentera ett IPv6-paket?
+answer: Endast källvärd
+wrong_answers:
+  - Endast den första mellanliggande routern
+  - Endast destinationsrouter
+  - Alla routrar
+explanation: |
+  I IPv6 utförs fragmentering uteslutande av källvärden, aldrig av mellanliggande routrar.
+reviewed: false

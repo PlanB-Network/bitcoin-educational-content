@@ -1,0 +1,11 @@
+question: Vilken roll har en notarie i samband med Bitcoin-arv?
+answer: De säkerställer efterlevnad av skattereglerna.
+wrong_answers:
+  - De förvaltar dina bitcoins efter din död.
+  - De ändrar din arvsplan.
+  - De säkrar dina bitcoins i ett kassaskåp.
+explanation: |
+  I samband med Bitcoin-arv är det viktigt att
+  diskutera arvet av bitcoins med en notarie för att säkerställa
+  skatteöverensstämmelse.
+reviewed: false

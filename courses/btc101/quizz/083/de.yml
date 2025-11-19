@@ -1,9 +1,12 @@
-question: Welche Analogie wird in diesem Kurs verwendet, um zu erklären, wie man Bitcoins empfangen kann, ohne dem Absender zu erlauben, deine Mittel zu stehlen?
-answer: Ein Briefkasten.
+question: Was ist die empfohlene Verwendung eines mobilen Wallets?
+answer: Speichern von täglichen Ausgaben.
 wrong_answers:
-  - Ein Bankkonto.
-  - Ein Safe.
-  - Ein Haus.
+  - Speichern von langfristigen Ersparnissen.
+  - Speichern von mittelfristigen Ersparnissen.
+  - Speichern großer Beträge.
 explanation: |
-  Die Analogie, die verwendet wird, um zu erklären, wie man Bitcoins empfangen kann, ohne dem Absender zu erlauben, deine Mittel zu stehlen, ist ein Briefkasten. Die Leute deponieren Geld darin, aber nur du kannst ihn öffnen.
+  Ein mobiles Wallet wird für tägliche Ausgaben empfohlen, weil
+  es einfach ist, Transaktionen damit durchzuführen. Es wird jedoch
+  nicht für das Speichern großer Beträge oder für langfristige Ersparnisse empfohlen, da es potenziell anfällig für
+  Online-Bedrohungen ist.
 reviewed: true

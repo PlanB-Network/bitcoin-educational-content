@@ -1,0 +1,9 @@
+question: Która dystrybucja domyślnie korzysta ze środowiska graficznego Cinnamon?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon został opracowany przez zespół Linux Mint, aby zaoferować nowoczesny, klasyczny Interface, zbliżony do Windows.
+reviewed: false

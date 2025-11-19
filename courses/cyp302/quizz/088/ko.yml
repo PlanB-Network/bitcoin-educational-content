@@ -1,0 +1,9 @@
+question: AES 표준으로 채택된 블록 암호화 알고리즘은 무엇인가요?
+answer: 린다엘 암호
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael Cipher는 높은 성능과 보안성으로 인해 NIST에서 대칭 암호화 표준(AES)으로 채택되었습니다.
+reviewed: false

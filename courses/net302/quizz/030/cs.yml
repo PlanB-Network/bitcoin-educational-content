@@ -1,0 +1,9 @@
+question: Který protokol dynamicky přiřazuje zařízení IP Address?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Protokol DHCP automaticky přiděluje IP adresy zařízením v síti, čímž zjednodušuje správu Address.
+reviewed: false

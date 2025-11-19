@@ -1,0 +1,9 @@
+question: Ni ibihe 2 Elements bigize Block reward muri Coinbase Transaction?
+answer: Infashanyo y’amabuye n’amahera y’ugucuruza.
+wrong_answers:
+  - Infashanyo y’amabuye n’ama bonus y’umuvuduko.
+  - Uburenganzira bwo gusohora n’amahera y’umutekano.
+  - Ivyo bihembo vya Mining n’imisoro y’uruja n’uruza.
+explanation: |
+  Iyo Miner ibonye ububiko bubereye, barafise uburenganzira bwo guhabwa impembo igizwe, ku ruhande rumwe, n’infashanyo y’ububiko, ku rundi ruhande, amahera y’ibikorwa bashize mu bubiko bwabo.
+reviewed: false

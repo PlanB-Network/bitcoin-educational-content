@@ -1,0 +1,8 @@
+question: What mechanism ensures Bitcoin's supply limit is enforced without requiring trust in any central authority?
+answer: Full nodes running verification code that automatically rejects blocks with invalid coinbase transactions
+wrong_answers:
+  - A distributed consensus algorithm that requires majority approval for any supply changes
+  - Cryptographic proof-of-work that mathematically prevents creation of excess coins
+  - Network validators that vote on transaction validity through a democratic process
+explanation: |
+  Bitcoin's supply limit is enforced through full nodes that run verification code to check every block's coinbase transaction against the consensus rules. Even if some nodes turn malicious and accept invalid blocks with excessive rewards, honest nodes will simply ignore them and continue with the valid chain. This creates a trustless system where you don't need to trust any individual or authority - you only need to run code that verifies the rules are being followed, making the network collectively secure against supply inflation attempts.

@@ -1,0 +1,11 @@
+question: Wat is BitcoinTalk?
+answer: Een discussieplek voor Bitcoin gebruikers.
+wrong_answers:
+  - A Bitcoin Mining software.
+  - A Bitcoin Wallet.
+  - Een Bitcoin conferentie.
+explanation: |
+  Het BitcoinTalk forum is een discussieplaats voor Bitcoin
+  gebruikers. Het werd opgericht door Satoshi Nakamoto op 22 november,
+  2009.
+reviewed: true

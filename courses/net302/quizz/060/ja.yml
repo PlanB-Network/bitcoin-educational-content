@@ -1,0 +1,9 @@
+question: IPv4の127.0.0.1に相当するIPv6ループバックAddressとは？
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  ::1/128 "AddressはループバックAddressであり、マシン内部のテストに使用される。
+reviewed: false

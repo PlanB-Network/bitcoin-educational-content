@@ -1,0 +1,9 @@
+question: Mida teeb IP-protokoll, kui datagramm ületab läbitava võrgu MTU-d?
+answer: Ta tükeldab selle mitmeks tükiks
+wrong_answers:
+  - See krüpteerib kogu andmeprogrammi enne saatmist
+  - See lükkab selle alati tagasi ja saadab veateate
+  - Ta surub selle enne edastamist kokku
+explanation: |
+  Kui datagrammi suurus ületab MTU, killustab marsruuter selle mitmeks väiksemaks paketiks, mis sobivad sihtvõrku.
+reviewed: false

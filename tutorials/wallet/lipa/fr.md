@@ -10,7 +10,7 @@ Les portefeuilles Lightning, comme tous les portefeuilles mobiles, sont considé
 
 Si vous souhaitez approfondir vos connaissances sur le réseau Lightning et comprendre son fonctionnement technique, je vous conseille de suivre ce cours :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dans ce tutoriel, nous allons découvrir **Lipa**, un portefeuille Lightning simple et efficace développé en Suisse.
 
@@ -82,7 +82,7 @@ Pour sauvegarder votre portefeuille, rendez-vous dans l'onglet "Paramètres" pui
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase de récupération, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Recevoir des bitcoins
 

@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe atari mu rufunguzo rwagutse?
+answer: Amateka y'ugucuruza urufunguzo
+wrong_answers:
+  - Umubare w'urutonde rw'urufunguzo
+  - Urufunguzo (rw'ibanga canke rwa bose)
+  - Ivyo chain code.
+explanation: |
+  Urufunguzo rwagutse rurimwo gusa amakuru akenewe kugira ngo umuntu abone urufunguzo rw’abana, atari amakuru yerekeye ibikorwa.
+reviewed: false

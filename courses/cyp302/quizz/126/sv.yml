@@ -1,0 +1,9 @@
+question: Vad tillåter Diffie-Hellman-nyckeln Exchange-protokollet?
+answer: Det gör det möjligt för två parter att skapa en gemensam hemlig nyckel genom att dela offentlig information.
+wrong_answers:
+  - Det ger möjlighet till en personlig hemlig nyckel Exchange för varje session.
+  - Det gör det möjligt att använda en offentlig nyckel för kryptering och en privat nyckel för dekryptering.
+  - Det möjliggör Exchange för elektronisk valuta.
+explanation: |
+  Diffie-Hellman-protokollet gör det möjligt för två parter att offentligt dela information samtidigt som det säkerställs att endast de kan generate en gemensam nyckel för att säkra sina framtida utbyten.
+reviewed: false

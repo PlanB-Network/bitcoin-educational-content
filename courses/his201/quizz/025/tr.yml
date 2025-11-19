@@ -1,0 +1,9 @@
+question: 2009'da Bitcoin prototip ağının gerçek lansmanı ne zaman yapıldı?
+answer: 9 Ocak 2009, saat 02:54:25 UTC
+wrong_answers:
+  - 3 Ocak 2009, saat 18:15:05 UTC
+  - 8 Ocak 2009, saat 19:27:40 UTC
+  - 12 Ocak 2009, saat 03:30:25 UTC
+explanation: |
+  Bu, Timestamp Nakamoto tarafından yazılım kodu birkaç saat önce posta listesinde yayınlandıktan sonra çıkarılan Blockchain'in 1. bloğunun Satoshi'üdür. Genesis bloğu (0) 3 ve 8 Ocak tarihleri arasında oluşturuldu, ancak gerçek bir ağ yoktu.
+reviewed: true

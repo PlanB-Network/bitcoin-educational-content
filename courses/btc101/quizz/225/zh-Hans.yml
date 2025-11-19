@@ -1,7 +1,7 @@
-question: 闪电网络是何时被验证和实施的？
-answer: 2017
+question: 比特币协议中的区块大小是多少？
+answer: 1MB
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: 闪电网络在2017年被验证和实施。
+  - 1MB
+  - 2MB
+  - 3MB
+explanation: 比特币协议中的区块大小是5MB。

@@ -1,0 +1,9 @@
+question: Bitcoin'ı kabul eden hangi servis, 11 Temmuz 2010'da Slashdot'ta Bitcoin'ı tanıtan kişi olan Teppy tarafından yönetiliyordu?
+answer: MMORPG Çölde Bir Masal
+wrong_answers:
+  - VPN Mullvad
+  - VoIP hizmeti Link2VoIP
+  - Web barındırma hizmeti Vekja.net
+explanation: |
+  Bu [başladı] (https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) 19 Mayıs'ta Bitcoin'i kabul etmek için.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe kigaragaza ubutumwa bwa DNS burambuye, harimwo n’amakuru n’ingene bitorera umuti?
+answer: kwimba
+wrong_answers:
+  - uwutwara
+  - ping
+  - arp
+explanation: |
+  dig (Domain Amakuru Groper) itanga amakuru arambuye yerekeye umuti wa DNS, harimwo ubwoko bw'inyandiko.
+reviewed: false

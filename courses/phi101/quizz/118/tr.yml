@@ -1,0 +1,9 @@
+question: Özel para birimleri arasında rekabet fikrini kim ortaya attı?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek, hükümetlerin para birimi üzerindeki etkisini azaltmak ve merkezi politikalar yerine piyasaya dayalı parasal istikrarı teşvik etmek için özel para birimleri arasında rekabet fikrini önermiştir.
+reviewed: true

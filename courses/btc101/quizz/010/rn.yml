@@ -1,0 +1,11 @@
+question: Bitcoin igereranya iki uretse ubuhinga bwayo?
+answer: Impinduka zirwanya uburyo bwa kera bw’ivy’ubutunzi n’ubundi buryo bushingiye ku gukorera mu mucyo, kwegereza ubutegetsi abaturage, no ku busegaba bw’umuntu ku giti ciwe.
+wrong_answers:
+  - Uburyo bushasha bw’amafaranga y’ubuhinga bwa none akora neza kurusha amafaranga y’ubuhinga bwa none kuko yihuta.
+  - Uburyo abantu ku giti cabo bashobora kuronka amahera biciye muri Mining.
+  - Igikoresho abagizi ba nabi bakoresha mu gukora ibikorwa bitemewe n’amategeko.
+explanation: |
+  Uretse ubuhinga bwayo, Bitcoin igereranya ihinduka .
+  ku bijanye n'imirongo y'ivy'ubutunzi ya kera: amasezerano
+  ishira mu ngiro uburyo bushasha bw’amahera ata kigo na kimwe gihambaye.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká je aplikace Shelter pro Android?
+answer: Vytvoření izolovaného profilu pro rozdělení používá
+wrong_answers:
+  - Automatické šifrování všech dat telefonu
+  - Blokování nechtěných hovorů
+  - Instalace aplikací mimo Obchod Play
+explanation: |
+  Shelter umožňuje pomocí funkce Work Profile oddělit aplikace a data v izolovaném prostoru.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest wartość liczbowa klasycznej wersji protokołu internetowego (IPv4)?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 odpowiada wartości 4 w polu "Version" nagłówka IP.
+reviewed: false

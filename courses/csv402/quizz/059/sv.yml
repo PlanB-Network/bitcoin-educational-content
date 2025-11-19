@@ -1,0 +1,9 @@
+question: Vilken funktion har RGB-proxyservern i en RGB Lightning Node-miljö?
+answer: Underlätta Exchange- och RGB-försändelser
+wrong_answers:
+  - Tillhandahålla publika nycklar för noder för att öppna kanaler
+  - Behåll historik över RGB:s tillståndsövergångar
+  - Undvik duplicerade tickers för RGB-tokens
+explanation: |
+  RGB-proxyservern förenklar kommunikationen av RGB-försändelser mellan Lightning-deltagare genom att fungera som en mellanhand, vilket möjliggör en smidigare användarupplevelse nära den som för närvarande upplevs med Bitcoin och Lightning.
+reviewed: false

@@ -1,0 +1,9 @@
+question: SegWit v0 Address 생성에 HASH160을 적용하기 전에 어떤 단계가 선행되나요?
+answer: 공개 키의 압축
+wrong_answers:
+  - 체크섬 추가하기
+  - Bech32 형식으로 변환
+  - Base58check에서 인코딩
+explanation: |
+  공개 키는 HASH160 Hash 함수를 통과하기 전에 크기를 줄이기 위해 압축해야 합니다.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Woshobora gute gukomeza umutekano w’imbere y’igihe wa Bitcoin Wallet yawe?
+answer: Mu kwongerako passphrase kuri Bitcoin yawe Wallet.
+wrong_answers:
+  - Mu kwongerako urufunguzo rwa kabiri rw'ibanga kuri Bitcoin Wallet yawe.
+  - Mu kwongerako urufunguzo rwa kabiri rwa bose kuri Bitcoin Wallet yawe.
+  - Mu kwongerako ijambo rya kabiri rya Mnemonic kuri Bitcoin Wallet yawe.
+explanation: |
+  Niba utanyuzwe n’umutekano w’ivyawe
+  Bitcoin Wallet, urashobora kwama uyikomeza mu kwongerako .
+  passphrase ku Bitcoin yawe Wallet.
+reviewed: true

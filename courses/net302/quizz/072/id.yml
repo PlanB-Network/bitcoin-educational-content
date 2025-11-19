@@ -1,0 +1,9 @@
+question: Jenis blok IPv6 apa yang memungkinkan perusahaan mempertahankan awalannya meskipun berganti ISP?
+answer: PI (Penyedia Independen)
+wrong_answers:
+  - PA (Penyedia yang Dapat Diagregasi)
+  - LIR (Pendaftaran Internet Lokal)
+  - IP (Penyedia yang Dapat Dipertukarkan)
+explanation: |
+  Blok PI (Provider Independent) dialokasikan secara langsung ke sebuah organisasi oleh RIR, secara independen dari Penyedia Layanan Internet.
+reviewed: false

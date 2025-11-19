@@ -1,12 +1,13 @@
-question: ¿Cuál es una de las aplicaciones potenciales de la Red Lightning en la vida cotidiana?
-answer: Facturación instantánea en el comercio.
+question: ¿Qué es una plataforma DCA?
+answer: Un servicio que permite a los usuarios invertir una cantidad fija de dinero en un activo a intervalos regulares.
 wrong_answers:
-  - Minar nuevos Bitcoins.
-  - Crear nuevas criptomonedas.
-  - Aumentar el valor de Bitcoin.
-explanation: >-
-  La Red Lightning abre la puerta a una amplia gama de aplicaciones potenciales
-  para Bitcoin que anteriormente estaban fuera de alcance debido a las restricciones necesarias para
-  asegurar la seguridad y descentralización de Bitcoin. Entre estas aplicaciones en
-  la vida cotidiana, podemos mencionar la facturación instantánea en el comercio.
+  - Un tipo de intercambio de criptomonedas que solo permite el comercio de Bitcoin.
+  - Un servicio financiero que proporciona préstamos a inversores para el comercio con margen.
+  - Una herramienta de software que rastrea los precios de las acciones en tiempo real sin ninguna característica de inversión.
+explanation: |
+  Una plataforma DCA se refiere a una plataforma que facilita
+  el Promedio de Costo en Dólares (DCA, por sus siglas en inglés), una estrategia de inversión donde
+  un individuo invierte una cantidad fija de dinero en un
+  activo particular a intervalos regulares, independientemente del
+  precio del activo.
 reviewed: true

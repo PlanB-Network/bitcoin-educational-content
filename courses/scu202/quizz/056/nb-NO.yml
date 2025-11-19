@@ -1,0 +1,9 @@
+question: Hvilken gjengivelsesmotor ble laget fra en Fork av KHTML for å utstyre Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Blink
+explanation: |
+  WebKit er en Fork av KHTML, valgt av Apple for Safari fra 2003 og utover, og senere tatt i bruk av mange nettlesere.
+reviewed: false

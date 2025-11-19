@@ -1,0 +1,9 @@
+question: Wat moet je vermijden met USB-sticks?
+answer: Onbekende USB-sticks aansluiten
+wrong_answers:
+  - Gebruik USB-sticks met NTFS-formattering
+  - Versleutel je eigen USB-sticks
+  - Gebruik nieuwe USB-sticks
+explanation: |
+  Het aansluiten van een onbekende USB-stick kan de computer infecteren met malware of gevoelige gegevens stelen.
+reviewed: false

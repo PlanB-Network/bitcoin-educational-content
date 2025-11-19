@@ -1,0 +1,9 @@
+question: Miksi UTXO-joukon koko kasvaa rakenteellisesti ajan myötä?
+answer: Kukin maksu luo yleensä kaksi uutta UTXO:ta
+wrong_answers:
+  - Perinteiset maksut eivät kuluta UTXO:tä panoksina
+  - Kukin Fork lisää olemassa olevien UTXO:iden lukumäärää
+  - Bitcoineja voidaan luoda ääretön määrä
+explanation: |
+  Maksutapahtuma kuluttaa yhden UTXO:n ja luo usein kaksi uutta (maksu + Exchange), mikä kasvattaa joukon kokonaiskokoa.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Banka hesabı olmayan kişiler için Bitcoin'ın temel faydalarından biri nedir?
+answer: Bitcoin, sosyal statünüz veya siyasi konumunuz ne olursa olsun işlemlerde eşitlik sağlar.
+wrong_answers:
+  - Bitcoin, en zengin kullanıcıları ödüllendirerek işlemlerde eşitsizliğe izin verir.
+  - Bitcoin sadece banka hesabı ve solcu bir siyasi pozisyonu olan insanlara fayda sağlamaktadır.
+  - Bitcoin yalnızca yüksek sosyal statüye sahip kişilere fayda sağlamaktadır.
+explanation: |
+  Metinde, dünyada 2,4 milyar insan olduğundan bahsedilmektedir
+  ve Bitcoin, banka hesabı olmadan dünyaya
+  sosyal statülerine bakılmaksızın işlemlerde eşitlik
+  ya da siyasi pozisyon.
+reviewed: true

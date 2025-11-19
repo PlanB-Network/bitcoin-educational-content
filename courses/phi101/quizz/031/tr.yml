@@ -1,0 +1,9 @@
+question: Roma hukukunun ilk yazılı kodifikasyonunun adı nedir?
+answer: On İki Levha Yasası
+wrong_answers:
+  - Hammurabi Kanunları
+  - The Digest
+  - Justinianus'un Fermanları
+explanation: |
+  On İki Levha Kanunu, Roma hukukunun ilk yazılı kodifikasyonudur ve yasaları resmileştirmek ve yasaları herkes için erişilebilir kılarak vatandaşlar arasında yasal eşitliği sağlamak için oluşturulmuştur.
+reviewed: true

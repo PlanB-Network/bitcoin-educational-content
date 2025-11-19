@@ -1,0 +1,9 @@
+question: Pourquoi le chiffrement intégral d’un disque ou d’une clé USB est-il crucial pour la sécurité de vos données ?
+answer: Il empêche tout accès non autorisé aux fichiers
+wrong_answers:
+  - Il accélère la lecture et l’écriture des fichiers
+  - Il protège contre les pannes matérielles
+  - Il permet de partager le disque plus facilement
+explanation: |
+  Le chiffrement intégral rend les données totalement inexploitables sans la clé ou le mot de passe, même si un attaquant possède physiquement le disque.
+reviewed: false

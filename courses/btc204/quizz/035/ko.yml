@@ -1,0 +1,9 @@
+question: Address 재사용의 휴리스틱은 누가 발견했나요?
+answer: Satoshi 나카모토
+wrong_answers:
+  - 비탈릭 부테린
+  - 할 피니
+  - 개빈 안드레센
+explanation: |
+  이 개념을 처음 논의한 사람은 Bitcoin 백서 10부에서 Satoshi 나카모토입니다.
+reviewed: true

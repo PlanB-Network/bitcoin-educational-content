@@ -1,0 +1,13 @@
+question: Vilken inverkan kan det nuvarande finansiella systemet ha på politiska aktörer?
+answer: De har inga incitament att göra radikala förändringar, vilket gör att systemet kan fortsätta sin bana fram till en eventuell implosion.
+wrong_answers:
+  - De är motiverade att göra radikala förändringar för att förhindra en eventuell implosion.
+  - De är inte motiverade att upprätthålla status quo för att säkerställa sin egen rikedom.
+  - De uppmuntras att tänka långsiktigt.
+explanation: |
+  Eftersom politiska aktörer gynnas av det nuvarande finansiella
+  finansiella systemet har de inget incitament att göra radikala förändringar.
+  Detta gör att systemet kan fortsätta sin bana fram till en
+  till en eventuell implosion, eftersom systemet är reglerat och
+  begränsas för att undvika sin egen kollaps.
+reviewed: true

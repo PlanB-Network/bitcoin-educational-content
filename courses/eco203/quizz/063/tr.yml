@@ -1,0 +1,9 @@
+question: Margaret Thatcher'ın Laffer eğrisine ilişkin temel fikri nedir?
+answer: Ekonomiyi canlandırmak için vergiler azaltılmalıdır
+wrong_answers:
+  - Zenginler üzerindeki vergiler artırılmalıdır
+  - Kamu hizmetlerinin finansmanı için yüksek vergi oranları korunmalıdır
+  - Tüm vergiler muhafaza edilmelidir
+explanation: |
+  Laffer eğrisinden esinlenen Margaret Thatcher, ekonomik büyümeyi teşvik etmek için vergilerin azaltılmasını savunmuştur.
+reviewed: false

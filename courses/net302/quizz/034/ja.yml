@@ -1,0 +1,9 @@
+question: コンピュータネットワークにおけるIPv4 Addressの主な役割は何ですか？
+answer: ネットワークを一意に識別 Interface
+wrong_answers:
+  - ネットワーク上のデバイス全体を識別
+  - ネットワーク上でMACアドレスを動的に割り当てる
+  - generate DNS名
+explanation: |
+  IPv4 Addressは、デバイスの各ネットワークInterfaceに割り当てられ、ネットワーク上でデバイスの位置を特定し、到達することを可能にする。
+reviewed: false

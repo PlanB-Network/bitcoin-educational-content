@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van decentralisatie in Bitcoin?
+answer: Weerstand tegen censuur bereiken
+wrong_answers:
+  - De verwerkingssnelheid van transacties verhogen
+  - Kosten voor energieverbruik verlagen
+  - De gebruikersinterface vereenvoudigen
+explanation: |
+  Decentralisatie in Bitcoin dient in de eerste plaats om censuurbestendigheid te bereiken, wat betekent dat geen enkele entiteit transacties kan controleren, blokkeren of manipuleren. Dit staat expliciet in de tekst: "Decentralisatie is een middel om censuurbestendigheid te bereiken De andere opties zijn onjuist, omdat decentralisatie Bitcoin juist langzamer en energie-intensiever maakt dan gecentraliseerde systemen, en het maakt het systeem complexer in plaats van eenvoudiger. Weerstand tegen censuur is wat Bitcoin onderscheidt van traditionele geldsystemen en voorkomt dat overheden of andere autoriteiten het kunnen afsluiten of kunnen bepalen wie het mag gebruiken.

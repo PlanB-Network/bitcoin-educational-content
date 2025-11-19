@@ -1,0 +1,9 @@
+question: Blok şifreleme ve akış şifreleme terimleri arasındaki temel karışıklık kaynağı nedir?
+answer: Blok şifreler bazen yalnızca ECB veya CBC gibi blok modlarını kullanan algoritmalar olarak anlaşılır.
+wrong_answers:
+  - Akış şifreleri her zaman blok şifrelerden daha az güvenlidir.
+  - Blok şifreler her seferinde bir bit üzerinde çalışır.
+  - Akış şifreleri her zaman dolgu gerektirir.
+explanation: |
+  Karışıklık, bazılarının blok şifreleri yalnızca belirli engelleme modlarını kullanan algoritmalar olarak görmesinden kaynaklanmaktadır, oysa gerçekte OFB modu gibi şifreleme şemalarını içerebilirler.
+reviewed: false

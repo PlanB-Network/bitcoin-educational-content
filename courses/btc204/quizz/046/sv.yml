@@ -1,0 +1,10 @@
+question: Vilken kryptografisk nyckel Exchange-algoritm är kärnan i BIP47:s verksamhet?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Den algoritm som används är ECDH (Elliptic Curve Diffie-Hellman). Det är en variant av den klassiska Diffie-Hellman-algoritmen som använder elliptiska kurvor.
+  
+reviewed: false

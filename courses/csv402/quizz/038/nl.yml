@@ -1,0 +1,9 @@
+question: In het YAML-bestand dat wordt gebruikt om een activum uit te geven, welk veld definieert het totale aantal uitgegeven tokens?
+answer: uitgegevenVoorraad
+wrong_answers:
+  - assetOwner
+  - spec
+  - bedrag
+explanation: |
+  Het veld "issuedSupply" in het YAML-bestand definieert het totale aantal tokens dat is uitgegeven voor de Contract.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Eliptik eğriler üzerinde skaler çarpmanın temel özelliği nedir?
+answer: Tek yönlü fonksiyon
+wrong_answers:
+  - Kolayca ters çevrilebilir
+  - Asal sayıların çarpanlara ayrılmasına dayanarak
+  - Hesaplaması çok uzun
+explanation: |
+  Eliptik eğriler üzerinde skaler çarpma tek yönlü bir fonksiyondur, bu da özel anahtarın açık anahtardan alınmasını imkansız hale getirir.
+reviewed: false

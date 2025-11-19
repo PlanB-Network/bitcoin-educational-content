@@ -1,0 +1,11 @@
+question: Wat is de eerste aanvalsvector voor hackers?
+answer: E-mails
+wrong_answers:
+  - Sociale media
+  - Websites voor online winkelen
+  - Bancaire websites
+explanation: |
+  E-mails zijn de eerste aanvalsvector voor hackers. Ze gebruiken
+  phishing pogingen om gevoelige informatie te ontfutselen zoals
+  je gegevens en wachtwoorden.
+reviewed: false

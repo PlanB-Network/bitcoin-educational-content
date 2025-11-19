@@ -1,0 +1,9 @@
+question: Hvorfor utgjør metadata om digitale filer en risiko for personvernet?
+answer: De kan avsløre sensitiv informasjon
+wrong_answers:
+  - De reduserer hastigheten på antivirusprogrammet på enkelte systemer
+  - De forhindrer fildeling via e-post
+  - De kan være vert for løsepengevirus
+explanation: |
+  Metadata kan inneholde konfidensiell informasjon som ikke er synlig når filen åpnes, for eksempel GPS-koordinater, forfatternavn, identifikator eller endringshistorikk, og som kan utnyttes uten at du vet om det.
+reviewed: false

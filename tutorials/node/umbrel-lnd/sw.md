@@ -1,5 +1,5 @@
 ---
-name: Mwavuli LND
+name: Umbrel LND
 description: Mafunzo ya kina juu ya kusakinisha na kusanidi Lightning Network Daemon (LND) kwenye Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Ili kusakinisha Umbrel na kusanidi nodi yako ya Bitcoin, tunapendekeza ufuate ma
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Hakikisha nodi yako ya Bitcoin imesasishwa na inafanya kazi ipasavyo, kwani Lightning Network inaitegemea kwa shughuli zote za off-chain.
 
@@ -57,7 +57,7 @@ Kwa utangulizi kamili wa kinadharia kwa Lightning Network, tunapendekeza usome k
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Kozi hii itakupa msingi kamili wa dhana za kimsingi za Lightning Network, kabla ya kuendelea na mazoezi na nodi yako ya LND.
 
@@ -96,7 +96,7 @@ Kuendesha nodi yako mwenyewe ya Umeme (LND) kwenye Umbrel hukupa mamlaka kamili 
 - Hakuna usimamizi kamili wa nodi - programu hudhibiti chaneli chinichini
 - Maelewano kati ya unyenyekevu na uhuru
 - Utegemezi wa miundombinu ya wasambazaji kwa ukwasi
-- Vizuizi vya kiufundi (simu mahiri moja haiwezi kuelekeza malipo kwa wengine)
+- Vizuizi vya kiufundi (simu mahiri moja hauwezi kuelekeza malipo kwa wengine)
 
 
 
@@ -150,11 +150,11 @@ LND (Lightning Network Daemon) itatumwa kwenye Umbrel yako kama programu. Ukiifu
 
 
 
-Unaweza kuchagua kati ya kuunda nodi mpya au kurejesha moja kutoka kwa chelezo/seed. Kwa usakinishaji wa mara ya kwanza, chagua kuunda nodi mpya. Programu ya Njia ya Umeme ita generate kishazi cha Mnemonic chenye maneno 24 (Umeme wako wa seed): iandike kwa uangalifu sana (ikiwa ni bora nje ya mtandao, kwenye karatasi), kwani itatumika kurejesha pesa zako za Umeme ikihitajika.
+Unaweza kuchagua kati ya kuunda nodi mpya au kurejesha moja kutoka kwa chelezo/seed. Kwa usakinishaji wa mara ya kwanza, chagua kuunda nodi mpya. Programu ya Njia ya Umeme ita generate kishazi cha Mnemonic chenye maneno 24 (Umeme wako wa seed): liandike kwa uangalifu sana (ikiwa ni bora nje ya mtandao, kwenye karatasi), kwani litatumika kurejesha pesa zako za Umeme likihitajika.
 
 
 
-**Kumbuka: Kwenye matoleo ya hivi majuzi ya Umbrel, usakinishaji wa programu ya Umeme hutoa seed ya maneno 24 (nodi ya Mwavuli ya Bitcoin yenyewe haifanyi hivyo).
+**Kumbuka**: Kwenye matoleo ya hivi majuzi ya Umbrel, usakinishaji wa programu ya Umeme hutoa seed ya maneno 24 (nodi ya Mwavuli ya Bitcoin yenyewe haifanyi hivyo).
 
 
 
@@ -496,11 +496,11 @@ Nodi yako ya Mwavuli ya Umeme inahitaji aina mbili za chelezo:
 
 - Ina maelezo ya kituo cha Umeme
 - Huwasha kufungwa kwa kituo kwa lazima katika tukio la kuacha kufanya kazi
-- Muhimu:** Kamwe usihifadhi faili ya `channel.db` mwenyewe (hatari ya adhabu)
+- **Muhimu:** Kamwe usihifadhi faili ya `channel.db` mwenyewe (hatari ya adhabu)
 
 
 
-** Utaratibu wa kuhifadhi nakala kwa mikono
+**Utaratibu wa kuhifadhi nakala kwa mikono**
 
 
 
@@ -613,17 +613,17 @@ Ili kujua zaidi kuhusu kusanidi na kutumia minara, tunapendekeza uangalie mafunz
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Mazoea mengine bora
 
 
 
 
 
-- Masasisho ya programu:** Sasisha Umbrel na LND (marekebisho ya usalama)
-- Ulinzi wa maunzi:** Tumia mfumo thabiti (Raspberry Pi na SSD, mini-PC) na UPS
-- Usalama wa mtandao:** Weka usanidi chaguo-msingi wa Tor, badilisha nenosiri la msimamizi wa Umbrel (chaguo-msingi: "moneyprintergobrrr")
-- Usimbaji fiche:** Washa usimbaji fiche wa diski ikiwezekana
+- **Masasisho ya programu:** Sasisha Umbrel na LND (marekebisho ya usalama)
+- **Ulinzi wa maunzi:** Tumia mfumo thabiti (Raspberry Pi na SSD, mini-PC) na UPS
+- **Usalama wa mtandao:** Weka usanidi chaguo-msingi wa Tor, badilisha nenosiri la msimamizi wa Umbrel (chaguo-msingi: "moneyprintergobrrr")
+- **Usimbaji fiche:** Washa usimbaji fiche wa diski ikiwezekana
 
 
 
@@ -639,7 +639,7 @@ Programu ya Umbrel's Lightning Node hutoa mambo muhimu ya kudhibiti chaneli zako
 
 
 
-Mfumo wa kisasa wa usimamizi wa nodi za Umeme unaotegemea wavuti unaowekwa kwenye wavuti unaoweza kusakinishwa kupitia Duka la Programu la Umbrel.
+Mfumo wa kisasa wa usimamizi wa nodi za Umeme unaotegemea wavuti unaowekwa kwenye wavuti na unaoweza kusakinishwa kupitia Duka la Programu la Umbrel.
 
 
 
@@ -691,10 +691,10 @@ RTL ni "kisu cha jeshi la Uswizi" kamili cha kusimamia eneo la Umeme kwa mbinu i
 
 
 
-- Shell ya Umeme** : Mstari wa amri (lncli) kupitia kivinjari
-- BTC RPC Explorer & Mempool** : Ufuatiliaji Blockchain
-- LNmetrics & Torq**: Uchanganuzi wa utendaji wa njia
-- Amboss & 1ML**: Usimamizi wa "Kijamii" wa nodi yako (lakabu, anwani, uchanganuzi wa mtandao)
+- **Shell ya Umeme** : Mstari wa amri (lncli) kupitia kivinjari
+- **BTC RPC Explorer & Mempool** : Ufuatiliaji Blockchain
+- **LNmetrics & Torq**: Uchanganuzi wa utendaji wa njia
+- **Amboss & 1ML**: Usimamizi wa "Kijamii" wa nodi yako (lakabu, anwani, uchanganuzi wa mtandao)
 
 
 
@@ -718,7 +718,7 @@ Zana hizi zinaweza kusakinishwa kwa kubofya mara chache tu kupitia Hifadhi ya Pr
 
 
 
-Kuendesha nodi yako ya LND kwenye Umbrel ni hatua muhimu kuelekea uhuru wa kifedha. Ingawa inahitaji ushirikishwaji wa kiufundi zaidi kuliko suluhisho la uhifadhi, faida katika suala la udhibiti, usiri na ushiriki hai katika Lightning Network ni kubwa.
+Kuendesha nodi yako ya LND kwenye Umbrel ni hatua muhimu kuelekea kwa uhuru wa kifedha. Ingawa kunahitaji ushirikishwaji wa kiufundi zaidi kuliko suluhisho la uhifadhi, faida katika suala la udhibiti, usiri na ushiriki hai katika Lightning Network ni kubwa.
 
 
 

@@ -1,0 +1,9 @@
+question: İletim yapan bir düğümün bir kanalın tam likiditesini tahmin etmesi neden zordur?
+answer: Çünkü fonların kesin dağılımını sadece iki katılımcı bilir
+wrong_answers:
+  - Çünkü kanalların toplam kapasitesi sürekli değişmektedir
+  - Aracı düğümlerin ücretleri yayınlanmadığı için
+  - Çünkü kanallar her işlemden sonra otomatik olarak kapanır
+explanation: |
+  Bir kanaldaki fonların kesin dağılımı yalnızca iki katılımcı düğüm tarafından görülebilir ve diğer düğümlerin yönlendirme için mevcut likiditeyi tahmin etmesini önler.
+reviewed: false

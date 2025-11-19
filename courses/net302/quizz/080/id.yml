@@ -1,0 +1,9 @@
+question: Perangkat lunak grafis apa yang dapat digunakan untuk memberikan analisis edukasi yang mendetail tentang paket jaringan yang ditangkap?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Rute
+explanation: |
+  Wireshark adalah penganalisis paket grafis untuk pemeriksaan mendalam terhadap lalu lintas jaringan yang ditangkap.
+reviewed: false

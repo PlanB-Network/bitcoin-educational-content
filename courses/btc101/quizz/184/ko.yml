@@ -1,0 +1,8 @@
+question: 비즈니스에 Bitcoin을 수용하기 위한 솔루션을 선택할 때 고려해야 할 한 가지 요소는 무엇인가요?
+answer: 예상 거래량입니다.
+wrong_answers:
+  - 로고 색상입니다.
+  - 직원 수입니다.
+  - 본사의 위치입니다.
+explanation: >-
+reviewed: true

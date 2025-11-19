@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus avaliku IPv4 Address ja erasektori IPv4 Address vahel?
+answer: Avalik Address on ainulaadne ja marsruutitav Internetis
+wrong_answers:
+  - Privaatne Address on ainulaadne ja marsruutitav Internetis
+  - Avalik Address määratakse alati DHCP abil
+  - Privaatne Address määratakse alati DHCP abil
+explanation: |
+  Avalik IPv4 Address on globaalselt unikaalne ja marsruutitav Internetis, samas kui privaatne Address kehtib ainult kohalikus võrgus.
+reviewed: false

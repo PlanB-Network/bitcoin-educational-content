@@ -1,0 +1,9 @@
+question: Kuidas nimetatakse TCP-s mitmeetapilist ühenduse loomise protseduuri?
+answer: Kolmesuunaline käepigistus
+wrong_answers:
+  - Neljasuunaline käepigistus
+  - Liugaken
+  - Kontrollimise protsess
+explanation: |
+  Kolmesuunaline käepigistus sünkroniseerib kliendi ja serveri järjestusnumbrid enne mis tahes Exchange kasuliku koormuse andmete edastamist.
+reviewed: false

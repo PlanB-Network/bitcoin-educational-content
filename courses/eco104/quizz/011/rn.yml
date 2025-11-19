@@ -1,0 +1,19 @@
+question: Ni igiki gitandukanya Bitcoin n’amahera ya kera agenzurwa n’amabanki nkuru canke intwaro?
+answer: Bose .
+wrong_answers:
+  - Bitcoin isaba gukorana hagati y’abacukuzi, ama node, n’abategura
+  - Bitcoin iremeza umuntu wese kugira uruhara mu muhora no gukora uruhara ruhambaye .
+  - Bitcoin yishingikirije ku buryo bwo kwumvikana bushizwe ahantu hamwe
+explanation: |
+  Igitandukanya Bitcoin n’amafaranga y’agaciro ni uko ari 
+  igikorwa co gukorana hagati y’inshingano zitatu z’ingenzi n’abanyagihugu.
+  Nodes zituma urusobe rudatunganye kandi rutekanye mu gukora nk’abacungera amarembo.
+  Abacukuzi b’amabuye y’agaciro ni bo bajejwe gukora amafaranga no kubungabunga Blockchain.
+  Abategura ni abahinga cane bo mu muryango wa Bitcoin bakorana . 
+  kugira ngo babungabunge kandi batere imbere porogarama ziha ubushobozi urubuga.
+  Umuryango, biciye mu gukoresha Bitcoin, ni wo uyiha agaciro.
+  Imwe muri izo nshingano ni ngirakamaro kugira ngo Bitcoin ikore neza kandi iroranirwe nk’ishirahamwe . 
+  amafaranga y’ubuhinga bwa none. Mu kwemera ivyo bikorwa bihambaye abakinyi b’ingenzi, Bitcoin irashobora . 
+  gukora nk’uburyo bwegerejwe, butekanye, buboneye, kandi bufise inshingano bwa Exchange ku 
+  abakoresha bose, bikaba bituma ritandukanye cane n’amafaranga akoreshwa muri rusangi dukoresha uno musi.
+reviewed: true

@@ -191,7 +191,7 @@ BitBox02 kommer automatiskt att ansluta till en nod. Låt oss se var den anslute
 ![image](assets/21.webp)
 
 
-Och här kan vi se att den ansluter till shiftcryptos nod. Inte så bra. Vi har förrått alla våra Bitcoin-adresser till dem, och vår IP Address (inte seed naturligtvis; de kan se våra adresser/balanser, men kan inte spendera dem). Vi kan ange våra egna noddetaljer på den här sidan (utanför ramen för den här guiden), eller så kan vi använda bättre programvara som Sparrow Bitcoin Wallet, Electrum Desktop Wallet eller Specter Desktop. Jag kommer att demonstrera Sparrow Bitcoin Wallet senare i guiden.
+Och här kan vi se att den ansluter till shiftcryptos nod. Det är inte så bra. Vi har förrått alla våra Bitcoin-adresser till dem, och vår IP Address (inte seed naturligtvis; de kan se våra adresser/balanser, men kan inte spendera dem). Vi kan ange våra egna noddetaljer på den här sidan (utanför ramen för den här guiden), eller så kan vi använda bättre programvara som Sparrow Bitcoin Wallet, Electrum Desktop Wallet eller Specter Desktop. Jag kommer att demonstrera Sparrow Bitcoin Wallet senare i guiden.
 
 
 ![image](assets/22.webp)
@@ -228,4 +228,4 @@ Koppla nu bort enheten och stäng av BitBox02-appen
 Avslutning av avsnittet bitbox02 av Parman.
 
 
-Din divice är nu fullt fungerande och kan användas på alla skrivbordslösningar som specter, sparrow och med bitboxen Interface.
+Din divice är nu fullt fungerande och kan användas på alla stationära lösningar såsom specter, Sparrow och med bitboxen Interface.

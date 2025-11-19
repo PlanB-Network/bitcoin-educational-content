@@ -1,0 +1,9 @@
+question: Vilka komponenter ingår i en RGB Consignment som Bob (mottagaren) tar emot för en Contract?
+answer: Genesis, Schema, Interface och Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Övergång och förlängning
+  - Schema, Interface, Signature och PSBT
+  - Genesis, Interface, PSBT och historia
+explanation: |
+  Consignment för en RGB Contract omfattar Genesis, Schema, Interface och Interface Implementation, som tillhandahåller alla data som behövs för att validera Contract.
+reviewed: false

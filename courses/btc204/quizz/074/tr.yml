@@ -1,0 +1,8 @@
+question: Aşağıdaki cevaplar arasında hangisi kendi düğümünüzü kullanmanın bir faydasını temsil etmiyor?
+answer: İşlem ücretlerinin azaltılması.
+wrong_answers:
+  - Uzlaşmaya katılmak.
+  - Üçüncü taraflardan bağımsız olmak.
+  - İşlem sansürüne direnebilmek.
+explanation: |
+  İşte Bitcoin'nin tam egemen kullanımı için kendi düğümünüze sahip olmanın neden çok önemli olduğu: Sansüre karşı direnç; İşlemleriniz kimse tarafından engellenemez; Üçüncü taraflardan bağımsızlık; Blockchain verilerini doğrulamak için artık herhangi bir harici hizmete bağımlı değilsiniz; Aktif katılım; Kendi doğrulama kurallarınızı belirleme ve fikir birliğine doğrudan katılma olanağına sahipsiniz; Ağa katkı; Bir düğüm çalıştırarak Bitcoin ağını güçlendirmeye ve dağıtmaya yardımcı olursunuz; Teknik eğitim; Bir Full node'i yönetmek, Bitcoin hakkındaki teknik bilginizi derinleştirmek için mükemmel bir yoldur.

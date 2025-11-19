@@ -1,13 +1,12 @@
-question: Ni ipi kati ya zifuatazo ambayo sio faida ya Bitcoin kama sarafu?
-answer: Inatumika kulipa kodi.
+question: Je, ni idadi gani ya juu zaidi ya vitengo vya Bitcoin vinavyoweza kuwepo?
+answer: milioni 21.
 wrong_answers:
-  - Inagawanyika.
-  - Inasafirishwa.
-  - Haina ruhusa.
+  - 3 trilioni.
+  - milioni 100.
+  - Hakuna kikomo.
 explanation: |
-  Bitcoin, kutokana na sifa zake kama vile mgawanyiko wake,
-  uthibitisho, kipengele cha chini cha ruhusa na usafiri,
-  inatoa duka bora la thamani. Aidha, kama upande wowote
-  sarafu ya mtandaoni, inawakilisha njia nzuri ya Exchange
-  ambayo haijui mipaka.
+  Jumla ya Supply ya Bitcoin imefikia vitengo milioni 21.
+  Hiki ni kipengele muhimu cha Bitcoin kinachoitofautisha
+  kutoka kwa sarafu za uaminifu, ambazo zinaweza kuchapishwa
+  kiasi cha ukomo na benki kuu.
 reviewed: true

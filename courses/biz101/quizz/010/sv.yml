@@ -1,0 +1,9 @@
+question: Hur bidrar Lightning Network till att minska avgifterna för Bitcoin-transaktioner?
+answer: Genom att genomföra de flesta transaktioner off-chain och endast publicera transaktioner för avveckling av kanaler på huvudsidan Blockchain.
+wrong_answers:
+  - Genom att ta bort all kryptografisk verifiering från betalningar.
+  - Genom att centralisera kontrollen till en stor betalningshub.
+  - Genom att kräva att handlarna betalar alla nätverkskostnader i förskott.
+explanation: |
+  Eftersom Lightning-transaktioner sker off-chain avräknas endast de slutliga kanaltillstånden på Bitcoin Blockchain. Detta minskar överbelastningen och sänker därmed avgifterna genom att undvika att göra många On-Chain-transaktioner.
+reviewed: false

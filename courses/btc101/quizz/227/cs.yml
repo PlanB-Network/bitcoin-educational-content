@@ -1,11 +1,12 @@
-question: Co by se mohlo stát s tradičními službami pro převod peněz jako Western Union, centrálními bankami, Visa a Mastercard, pokud by nepřijaly technologii Lightning Network?
-answer: Mohly by zaniknout.
+question: Jaké je jedno z potenciálních využití Lightning Network v každodenním životě?
+answer: Okamžité fakturování v obchodě.
 wrong_answers:
-  - Mohly by se stát populárnějšími.
-  - Mohly by se stát bezpečnějšími.
-  - Mohly by se stát decentralizovanějšími.
-explanation: |
-  Tradiční služby pro převod peněz jako Western Union,
-  centrální banky, Visa a Mastercard by mohly zaniknout, pokud
-  nepřijmou technologii Lightning Network.
+  - Těžba nových Bitcoinů.
+  - Vytváření nových kryptoměn.
+  - Zvyšování hodnoty Bitcoinu.
+explanation: >-
+  Lightning Network otevírá dveře široké škále potenciálních aplikací
+  pro Bitcoin, které byly dříve nedosažitelné kvůli omezením nutným
+  pro zajištění bezpečnosti a decentralizace Bitcoinu. Mezi tyto aplikace v
+  každodenním životě můžeme zmínit okamžité fakturování v obchodě.
 reviewed: true

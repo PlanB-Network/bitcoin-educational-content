@@ -1,0 +1,9 @@
+question: Quelle est la méthode la plus recommandée pour accéder à distance à son réseau domestique ?
+answer: Utiliser un VPN personnel
+wrong_answers:
+  - Ouvrir un port SSH public
+  - Activer le cloud du routeur
+  - Utiliser WPS
+explanation: |
+  Le VPN crée un tunnel chiffré pour accéder au réseau local sans exposer de port critique à Internet.
+reviewed: false

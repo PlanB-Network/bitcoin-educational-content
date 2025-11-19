@@ -1,9 +1,9 @@
 question: Cosa permette Lightning Network rispetto alle transazioni tradizionali sulla blockchain di Bitcoin?
-answer: Transazioni veloci con commissioni minime
+answer: Transazioni veloci con fee minime
 wrong_answers:
   - Transazioni anonime e non tracciabili
   - Transazioni in grandi quantità senza limiti di volume
   - Transazioni tra diverse blockchain
 explanation: |
   Lightning Network consente transazioni veloci e a basso costo attraverso canali di pagamento off-chain, il che si differenzia dalle transazioni regolari sulla blockchain.
-reviewed: false
+reviewed: true

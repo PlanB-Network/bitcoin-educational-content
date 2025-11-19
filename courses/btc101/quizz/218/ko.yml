@@ -1,0 +1,10 @@
+question: Lightning Network은 언제 처음 검증되고 구현되었나요?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  Lightning Network은 2017년에 처음 검증 및 구현되었습니다
+  2017년에 처음 검증 및 구현되었습니다.
+reviewed: true

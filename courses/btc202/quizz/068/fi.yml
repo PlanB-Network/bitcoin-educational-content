@@ -1,0 +1,9 @@
+question: Mitkä ovat käyttöjärjestelmän ja sovellusten säännöllisten päivitysten kolme tärkeintä etua?
+answer: Turvallisuus, luotettavuus, toimivuus
+wrong_answers:
+  - Nopeus, anonymiteetti, yhteensopivuus
+  - Turvallisuus, muisti, varastointi
+  - Luottamuksellisuus, toimivuus, luotettavuus
+explanation: |
+  Päivityksillä varmistetaan tietoturva haavoittuvuuksilta, yhteensopivuus kehittyneiden versioiden ja uusien ominaisuuksien kanssa sekä järjestelmän luotettavuus.
+reviewed: true

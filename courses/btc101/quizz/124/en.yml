@@ -1,10 +1,12 @@
-question: What is the version of the first Bitcoin software released?
-answer: Bitcoin-0.1.0.
+question: What is the role of a Bitcoin node in the Bitcoin network?
+answer: It validates new blocks and included transactions.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  The first Bitcoin software released was Bitcoin-0.1.0. It was announced
-  by Satoshi Nakamoto on January 8, 2009.
+  - It creates new Bitcoins and puts them in the blocks.
+  - It regulates the price of Bitcoin.
+  - It manages the Bitcoin network.
+explanation: |
+  A Bitcoin node in the Bitcoin network handles the
+  validation of new blocks and included transactions. It is
+  this network of Bitcoin nodes that makes it truly
+  decentralized.
 reviewed: true

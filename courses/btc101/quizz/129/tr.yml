@@ -1,0 +1,8 @@
+question: Bitcoin ağı, Bitcoin protokolü içinde kötü niyetli davranmanın çok maliyetli olmasını nasıl sağlar?
+answer: Protokol kuralları ve ekonomik teşvikler aracılığıyla.
+wrong_answers:
+  - Sıkı düzenleme ve gözetim yoluyla.
+  - Gelişmiş güvenlik önlemlerinin kullanılması yoluyla.
+  - Yasal işlem tehdidiyle.
+explanation: >-
+reviewed: true

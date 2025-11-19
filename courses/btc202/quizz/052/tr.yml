@@ -1,0 +1,9 @@
+question: Electrs ve Fulcrum arasındaki en büyük fark nedir?
+answer: Electrs daha kompakt, Fulcrum daha güçlü
+wrong_answers:
+  - Electrs ücretsiz değildir, Fulcrum ücretsizdir
+  - Fulcrum Electrum protokolünü desteklemez
+  - Electrs tescilli, Fulcrum açık kaynak kodlu
+explanation: |
+  Electrs daha az disk alanı kullanırken, Fulcrum isteklere daha hızlı yanıt verir ancak daha fazla kaynak tüketir.
+reviewed: true

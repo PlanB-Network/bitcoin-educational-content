@@ -1,0 +1,9 @@
+question: Mitä asiakirjaa, jota kutsutaan usein SHA256SUMS tai MANIFEST, tarvitaan ladatun ohjelmiston eheyden tarkistamiseen?
+answer: Tiedosto, jossa luetellaan ohjelmiston jalanjäljet
+wrong_answers:
+  - Käyttöopas
+  - Tiedosto, jossa luetellaan kehittäjien allekirjoitukset
+  - Koko projektin lähdekoodi
+explanation: |
+  Manifesti tai SHA256SUMS-tiedosto sisältää jokaisen projektin jakaman tiedoston Hash:n ja mahdollistaa niiden eheyden tarkistamisen.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ni iyihe nomero y’ibarabara ry’isoko rya mbere rya Bitcoin?
+answer: Igipande ca 170.
+wrong_answers:
+  - Igipande ca 1.
+  - Igipande ca 17.
+  - Igipande ca 1700.
+explanation: |
+  Isoko rya mbere rya Bitcoin, ryari isoko ry’umwaka w’1990.
+  10 BTC hagati ya Satoshi Nakamoto na Hal Finney, ni vyo vyanditswe
+  mu gice ca 170.
+reviewed: true

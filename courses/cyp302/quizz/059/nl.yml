@@ -1,0 +1,9 @@
+question: Welke Franse wiskundige introduceerde het concept van groepen in de 19e eeuw?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois ontwikkelde de groepentheorie om de oplossingen van polynomiale vergelijkingen van graden hoger dan vijf te bestuderen.
+reviewed: false

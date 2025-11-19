@@ -1,0 +1,12 @@
+question: Ana akım ekonomistler ve merkezi planlamacılar neden Avusturyalı ekonomistlerden genellikle hoşlanmazlar?
+answer: Avusturyalı ekonomistler geleceğin belirsizliğini, niceliksel ekonomik tahminlerin yanlışlığını ve ekonomik müdahalenin zararlı etkilerini vurgulamaktadır.
+wrong_answers:
+  - Avusturyalı ekonomistler sosyalizmi savunurlar.
+  - Avusturyalı ekonomistler piyasanın gücüne inanmazlar.
+  - Avusturyalı ekonomistler matematiksel modeller kullanmazlar.
+explanation: |
+  Avusturyalı ekonomistler geleceğin belirsizliğini, yanlışlığını ve
+  ve ekonomik müdahalenin zararlı etkilerini ortaya koymaktadır,
+  ana akım ekonomistlerin ve merkez bankalarının inanç ve uygulamalarına ters düşen
+  planlamacılar.
+reviewed: true

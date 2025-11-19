@@ -1,10 +1,9 @@
-question: Apa yang memungkinkan oleh Lightning Network?
-answer: Transaksi Bitcoin instan dengan biaya rendah.
+question: Berapa waktu rata-rata antara dua blok dalam protokol Bitcoin?
+answer: 10 menit
 wrong_answers:
-  - Transaksi Bitcoin instan dengan biaya tinggi.
-  - Transaksi Bitcoin tertunda dengan biaya rendah.
-  - Transaksi Bitcoin tertunda dengan biaya tinggi.
+  - 5 menit
+  - 15 menit
+  - 20 menit
 explanation: >-
-  Lightning Network memungkinkan transaksi Bitcoin instan dengan biaya rendah,
-  sehingga menyelesaikan masalah skalabilitas Bitcoin.
+  Rata-rata, waktu antara dua blok dalam protokol Bitcoin adalah 10 menit.
 reviewed: false

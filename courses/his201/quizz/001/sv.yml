@@ -1,0 +1,9 @@
+question: Vilka kryptografer skapade RSA-kryptosystemet 1978?
+answer: Ronald Rivest, Adi Shamir och Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman och Ralph Merkle
+  - Marc Girault, Guillaume Poupard och Jacques Stern
+  - Alfred Menezes, Minghua Qu och Scott Vanstone
+explanation: |
+  Rivest, Shamir och Adleman namngav RSA-algoritmen med sina tre initialer.
+reviewed: true

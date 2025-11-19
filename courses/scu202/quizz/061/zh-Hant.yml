@@ -1,0 +1,9 @@
+question: 哪款瀏覽器提供廣告和追蹤器封鎖、指紋保護，並基於 Chromium？
+answer: 勇敢
+wrong_answers:
+  - Firefox
+  - Tor
+  - 鉻合金
+explanation: |
+  Brave 的預設功能包括廣告封鎖、追蹤器和進階指紋保護，全部以 Chromium 為基礎。
+reviewed: false

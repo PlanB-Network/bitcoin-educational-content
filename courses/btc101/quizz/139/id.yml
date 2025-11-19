@@ -1,9 +1,10 @@
-question: Berapa jumlah perkiraan node yang tersebar di seluruh dunia per September 2023?
-answer: 45.000 node
+question: Mengapa biaya terjangkau dan aksesibilitas dari sebuah node Bitcoin itu penting?
+answer: Ini memfasilitasi desentralisasi dari jaringan
 wrong_answers:
-  - 10.000 node
-  - 100.000 node
-  - 500.000 node
+  - Ini meningkatkan kapasitas transaksi dari jaringan
+  - Ini menurunkan kapasitas transaksi dari jaringan
+  - Ini meningkatkan hadiah blok untuk penambang
 explanation: >-
-  Per September 2023, terdapat sekitar 45.000 node yang tersebar di seluruh dunia.
+  Biaya terjangkau dan aksesibilitas dari sebuah node Bitcoin itu penting
+  karena ini memfasilitasi desentralisasi dari jaringan.
 reviewed: false

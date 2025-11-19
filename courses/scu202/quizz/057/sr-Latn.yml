@@ -1,0 +1,9 @@
+question: Koji pregledač je uveo JavaScript 1995. godine?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator je integrisao JavaScript jezik, koji je razvio Brendan Eich 1995. godine, kako bi omogućio dinamičku interaktivnost na web stranicama.
+reviewed: false

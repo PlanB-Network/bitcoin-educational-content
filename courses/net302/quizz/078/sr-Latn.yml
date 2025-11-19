@@ -1,0 +1,9 @@
+question: U kojoj DNS zoni se nalaze PTR zapisi za IPv6 reverznu rezoluciju?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Zona ip6.arpa je specifično posvećena reverznoj rezoluciji IPv6 adresa, dok se in-addr.arpa koristi za IPv4.
+reviewed: false

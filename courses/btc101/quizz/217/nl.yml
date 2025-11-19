@@ -1,0 +1,8 @@
+question: Wat maakt de Lightning Network mogelijk?
+answer: Directe, goedkope Bitcoin transacties.
+wrong_answers:
+  - Directe Bitcoin transacties met hoge kosten.
+  - Vertraagde, goedkope Bitcoin transacties.
+  - Vertraagde, dure Bitcoin transacties.
+explanation: >-
+reviewed: true

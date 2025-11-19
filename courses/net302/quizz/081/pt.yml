@@ -1,0 +1,9 @@
+question: Que ferramenta de linha de comando captura o tráfego de rede para análise em tempo real?
+answer: tcpdump
+wrong_answers:
+  - escavação
+  - nmap
+  - ferramenta eletrónica
+explanation: |
+  o tcpdump captura e regista os pacotes que circulam numa rede Interface para análise.
+reviewed: false

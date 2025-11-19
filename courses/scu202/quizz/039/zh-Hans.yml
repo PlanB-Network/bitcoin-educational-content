@@ -1,0 +1,9 @@
+question: 安装重要的操作系统更新后，通常需要做些什么才能完全应用补丁？
+answer: 重新启动计算机
+wrong_answers:
+  - 重置密码
+  - 断开 Wi-Fi 网络连接
+  - 删除临时文件
+explanation: |
+  某些操作系统更新，如内核或关键库的更新，只有在重启机器后才会生效。
+reviewed: false

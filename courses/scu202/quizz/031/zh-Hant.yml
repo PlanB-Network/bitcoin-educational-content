@@ -1,0 +1,9 @@
+question: 在沙箱或虛擬機器中執行應用程式的主要優勢是什麼？
+answer: 限制妥協的影響
+wrong_answers:
+  - 加速程式執行
+  - 減少 RAM 消耗
+  - 提高網路連線速度
+explanation: |
+  沙箱和虛擬化主要用來隔離應用程式或系統，使其免受潛在攻擊。
+reviewed: false

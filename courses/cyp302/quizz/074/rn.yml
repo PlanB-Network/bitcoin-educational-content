@@ -1,0 +1,9 @@
+question: None bigenda gute iyo hakoreshejwe urufunguzo rwa 7 mu gupfuka ijambo CAT?
+answer: Ijambo rihinduka JHA .
+wrong_answers:
+  - Ijambo rihinduka JBA .
+  - Ijambo rihinduka JHB .
+  - Ijambo rihinduka ZHA .
+explanation: |
+  Hakoreshejwe urufunguzo rwa 7, urudome rwose rw’ijambo CAT ruhindurwa n’ibibanza 7 mu nyuguti, ivyo bikaba bituma haba ijambo JHA ry’ibanga.
+reviewed: false

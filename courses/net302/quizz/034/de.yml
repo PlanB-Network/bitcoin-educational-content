@@ -1,0 +1,9 @@
+question: Was ist die Hauptaufgabe eines IPv4 Address in einem Computernetz?
+answer: Eindeutige Identifizierung eines Netzes Interface
+wrong_answers:
+  - Identifizieren Sie das gesamte Gerät in einem Netzwerk
+  - Dynamische Zuweisung von MAC-Adressen in einem Netzwerk
+  - generate DNS-Namen
+explanation: |
+  Jedem Netz-Interface eines Geräts wird ein IPv4-Address zugewiesen, mit dem es im Netz lokalisiert und erreicht werden kann.
+reviewed: false

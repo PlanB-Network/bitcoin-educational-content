@@ -1,9 +1,10 @@
-question: Wofür ermöglicht das Lightning-Netzwerk?
-answer: Sofortige, kostengünstige Bitcoin-Transaktionen.
+question: Was ist das durchschnittliche Zeitintervall zwischen der Erstellung von zwei Blöcken im Bitcoin-Protokoll?
+answer: 10 Minuten.
 wrong_answers:
-  - Sofortige, hochpreisige Bitcoin-Transaktionen.
-  - Verzögerte, kostengünstige Bitcoin-Transaktionen.
-  - Verzögerte, hochpreisige Bitcoin-Transaktionen.
-explanation: >-
-  Das Lightning-Netzwerk ermöglicht sofortige, kostengünstige Bitcoin-Transaktionen und löst damit das Skalierbarkeitsproblem von Bitcoin.
+  - 5 Minuten.
+  - 15 Minuten.
+  - 20 Minuten.
+explanation: |
+  Das durchschnittliche Zeitintervall zwischen der Erstellung von zwei
+  Blöcken im Bitcoin-Protokoll beträgt 10 Minuten.
 reviewed: true

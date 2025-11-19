@@ -1,0 +1,9 @@
+question: ¿Qué comando se puede utilizar para añadir una IP estática Address a una Interface en Linux?
+answer: ip add add [Address]/[máscara] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[máscara]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  El comando "ip addr add" es el método moderno para asignar una IP estática Address a una red Interface en Linux.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Varför ska man använda en brandväggsapplikation som NetGuard eller RethinkDNS på Android?
+answer: Kontrollera individuella Internetanslutningar
+wrong_answers:
+  - Spara alla data automatiskt
+  - Avblockera alla Wi-Fi-nätverk
+  - Avinstallera eventuella virus
+explanation: |
+  Dessa applikationer fungerar som lokala brandväggar och gör det möjligt att blockera eller auktorisera utgående trafik för varje enskild applikation.
+reviewed: false

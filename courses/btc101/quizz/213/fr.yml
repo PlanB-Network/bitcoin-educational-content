@@ -1,9 +1,11 @@
-question: Quel est l'objectif principal de la révolution Bitcoin selon ce cours ?
-answer: Créer un monde où la souveraineté humaine est un droit, la vie privée est respectée par défaut, et l'argent n'est pas manipulé.
+question: Que suggère ce cours sur le rythme d'apprentissage concernant Bitcoin ?
+answer: Il est compliqué d'assimiler tout d'un coup, donc prenez votre temps.
 wrong_answers:
-  - Créer un monde où la vie privée n'est pas un droit humain, et l'argent est manipulé par les banques.
-  - Créer un monde où les gouvernements n'ont aucun pouvoir, et la société est chaotique.
-  - Créer un monde où l'argent physique est obsolète.
+  - Il est facile d'apprendre tout d'un coup.
+  - Il est impossible d'apprendre tout sur Bitcoin.
+  - Il n'est pas nécessaire d'apprendre tout sur Bitcoin.
 explanation: |
-  Ce texte de cours suggère que l'objectif principal de la révolution Bitcoin est de créer un monde où la souveraineté humaine est un droit, la vie privée est respectée par défaut, et l'argent n'est pas manipulé.
+  Le cours suggère qu'il y a tant à explorer avec
+  Bitcoin qu'il est compliqué d'assimiler tout d'un
+  coup, donc on devrait prendre son temps.
 reviewed: true

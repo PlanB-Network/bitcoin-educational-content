@@ -1,0 +1,12 @@
+question: Bir Wallet'de Mnemonic ifadesinin bulunmaması neyi gösterir?
+answer: Bu da Wallet'ün Bitcoin'nin uzun süreli depolanması için güvenli olmadığını göstermektedir.
+wrong_answers:
+  - Wallet'ün tamamen güvenli olduğunu ve herhangi bir yedekleme gerektirmediğini gösterir.
+  - Bu, Wallet'in birçok farklı tahvili tutabileceği anlamına gelir.
+  - Bu, Wallet'nın cihazınız tarafından otomatik olarak yedeklendiğini gösterir.
+explanation: |
+  12 veya 24 kelimelik bir listenin olmaması, yani
+  Mnemonic ifadesi, bir Wallet'de sizi şu konuda uyarmalıdır
+  Wallet standart yedeklemeyi takip etmediği için güvenli değildir
+  prosedürler.
+reviewed: true

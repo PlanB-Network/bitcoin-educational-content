@@ -1,11 +1,12 @@
-question: ¿Qué podría suceder con los servicios tradicionales de transferencia de dinero como Western Union, los bancos centrales, Visa y Mastercard si no adoptan la tecnología de Lightning Network?
-answer: Podrían desaparecer.
+question: ¿Cuál es una de las aplicaciones potenciales de la Red Lightning en la vida cotidiana?
+answer: Facturación instantánea en el comercio.
 wrong_answers:
-  - Podrían volverse más populares.
-  - Podrían volverse más seguros.
-  - Podrían volverse más descentralizados.
-explanation: |
-  Los servicios tradicionales de transferencia de dinero como Western Union,
-  los bancos centrales, Visa y Mastercard podrían desaparecer si no
-  adoptan la tecnología de Lightning Network.
+  - Minar nuevos Bitcoins.
+  - Crear nuevas criptomonedas.
+  - Aumentar el valor de Bitcoin.
+explanation: >-
+  La Red Lightning abre la puerta a una amplia gama de aplicaciones potenciales
+  para Bitcoin que anteriormente estaban fuera de alcance debido a las restricciones necesarias para
+  asegurar la seguridad y descentralización de Bitcoin. Entre estas aplicaciones en
+  la vida cotidiana, podemos mencionar la facturación instantánea en el comercio.
 reviewed: true

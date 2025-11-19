@@ -1,0 +1,10 @@
+question: Hoeveel is de BTC-beloning na de vierde Halving?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Na de vierde Halving, die plaatsvindt op blokhoogte
+  840.000, is de BTC-beloning voor Mining 3,125 BTC.
+reviewed: true

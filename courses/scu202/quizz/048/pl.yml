@@ -1,0 +1,9 @@
+question: Dlaczego pełne szyfrowanie dysku lub klucza USB ma kluczowe znaczenie dla bezpieczeństwa danych?
+answer: Zapobiega nieautoryzowanemu dostępowi do plików
+wrong_answers:
+  - Przyspiesza odczyt i zapis plików
+  - Chroni przed awarią sprzętu
+  - Ułatwia udostępnianie dysków
+explanation: |
+  Pełne szyfrowanie sprawia, że dane są całkowicie bezużyteczne bez klucza lub hasła, nawet jeśli atakujący fizycznie posiada dysk.
+reviewed: false

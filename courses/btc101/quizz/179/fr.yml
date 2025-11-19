@@ -1,10 +1,11 @@
-question: Quelle est l'une des raisons pour lesquelles le Bitcoin connaît tant de bulles spéculatives ?
-answer: Parce que le Bitcoin est une monnaie qui est utilisée partout dans le monde.
+question: Quelle est une manière d'obtenir des bitcoins sans les acheter ?
+answer: Les accepter comme moyen de paiement pour les produits ou services que vous proposez.
 wrong_answers:
-  - Parce que le Bitcoin n'est réellement utilisé nulle part.
-  - Parce que le Bitcoin est une bulle qui va disparaître.
-  - Parce que le Bitcoin n'est pas soumis aux cycles économiques.
+  - Les emprunter à un ami et ne jamais les rendre.
+  - Les gagner à la loterie.
+  - Les trouver dans la rue.
 explanation: >-
-  Le Bitcoin connaît de nombreuses bulles spéculatives parce que c'est une monnaie
-  qui est réellement utilisée partout dans le monde.
+  Une manière d'obtenir des bitcoins sans les acheter est de les accepter comme
+  moyen de paiement pour les produits ou services que vous proposez. Cela vous permet d'acquérir
+  des bitcoins à travers votre travail.
 reviewed: true

@@ -1,0 +1,10 @@
+question: 2021년 베네수엘라에서 디지털 볼리바르의 Exchange 비율은 얼마였나요?
+answer: 백만 대 1.
+wrong_answers:
+  - 천 대 1.
+  - 만 대 1.
+  - 10만 대 1.
+explanation: |
+  2021년에 베네수엘라의 디지털 볼리바르가 새로운
+  백만 대 1로 리디노미네이션되었습니다.
+reviewed: false

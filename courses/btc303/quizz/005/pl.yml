@@ -1,0 +1,8 @@
+question: Do czego konkretnie odnosi się decentralizacja górników w Bitcoin?
+answer: Porządkowanie transakcji jest wykonywane zbiorowo przez dynamiczny zestaw górników, a nie przez pojedynczy podmiot
+wrong_answers:
+  - Walidacja bloków jest rozproszona między wieloma zaufanymi organami zamiast jednego centralnego serwera
+  - Nagrody mining są równo rozdzielane między wszystkich uczestników sieci Bitcoin
+  - Sprzęt mining jest produkowany przez różne firmy, aby zapobiec monopolizacji sprzętu
+explanation: |
+  Decentralizacja Miner oznacza w szczególności, że zamawianie transakcji nie jest kontrolowane przez żaden pojedynczy podmiot lub stałą grupę, ale raczej przez kolektyw górników, którzy mogą swobodnie dołączać lub odchodzić. Różni się to od walidacji bloków (która odnosi się do decentralizacji full node), dystrybucji nagród lub produkcji sprzętu. Dynamiczny charakter kolektywu mining - w którym każdy może uczestniczyć bez pozwolenia - sprawia, że Bitcoin jest odporny na cenzurę i uniemożliwia pojedynczej stronie kontrolowanie, które transakcje są uwzględniane w blokach.

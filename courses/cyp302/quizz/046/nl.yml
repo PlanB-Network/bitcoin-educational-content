@@ -1,0 +1,9 @@
+question: Welke functie wordt gebruikt om het aantal gehele getallen kleiner dan N te berekenen die copriem zijn met N?
+answer: De Phi-functie van Euler
+wrong_answers:
+  - De gammafunctie van Euler
+  - Sigma-functie van Euler
+  - Dirichlet's Beta-functie
+explanation: |
+  De Phi-functie van Euler bepaalt het aantal gehele getallen kleiner dan N die copriem zijn met N, een centraal concept in cryptografische stellingen gebaseerd op priemgetallen.
+reviewed: false

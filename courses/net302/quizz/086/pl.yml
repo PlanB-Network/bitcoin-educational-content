@@ -1,0 +1,9 @@
+question: Które polecenie jest zalecane do analizowania aktywnych połączeń TCP i UDP w systemie Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - łącze ip
+  - ifup
+explanation: |
+  Polecenie ss zastępuje netstat, aby szybko wyświetlić wszystkie aktywne połączenia sieciowe.
+reviewed: false

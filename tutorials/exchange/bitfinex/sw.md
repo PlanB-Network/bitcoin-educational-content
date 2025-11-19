@@ -8,7 +8,7 @@ description: Ninawezaje kutumia Bitfinex?
 Ilianzishwa mwaka 2012, Bitfinex ni mojawapo ya majukwaa ya kwanza ya Bitcoin na Altcoin Exchange. Hapo awali ililenga ubadilishanaji wa P2P Bitcoin, jukwaa lilipanua huduma zake kwa haraka ili kujumuisha biashara ya pembezoni, ufadhili wa P2P, biashara ya bidhaa zinazotoka nje, na soko la OTC ("*kaunta*") kwa ajili ya malipo ya kiasi kikubwa.
 
 
-Leo, Bitfinex ni jukwaa kamili, kuruhusu ununuzi rahisi wa bitcoins na matumizi ya vipengele vya juu vya biashara na zana za udhibiti wa hatari. Inapatikana katika toleo la wavuti, na kwa shughuli rahisi, programu ya rununu iliyo rahisi kutumia inapatikana pia.
+Leo, Bitfinex ni jukwaa kamili, linaloruhusu ununuzi rahisi wa bitcoins na matumizi ya vipengele vya juu vya biashara na zana za udhibiti wa hatari. Unaopatikana katika toleo la wavuti, na kwa shughuli rahisi, programu ya rununu iliyo rahisi kutumia inapatikana pia.
 
 
 Bitfinex inaunga mkono kikamilifu uundaji wa Bitcoin, kuwekeza katika teknolojia kama vile Lightning Network na kukuza suluhu za rika-kwa-rika kwa ajili ya uhuru wa kifedha.
@@ -23,7 +23,7 @@ Nenda kwa [tovuti rasmi ya Bitfinex](https://www.bitfinex.com/). Kwenye ukurasa 
 ![BITFINEX](assets/fr/01.webp)
 
 
-Kamilisha maelezo yanayohitajika: weka barua pepe yako Address na nchi unakoishi. Chagua jina la mtumiaji na nenosiri salama, kisha ubofye "*Jisajili*" ili kuthibitisha usajili.
+Kamilisha maelezo yanayohitajika: weka barua pepe yako Address na nchi unayoishi. Chagua jina la mtumiaji na nenosiri salama, kisha ubofye "*Jisajili*" ili kuthibitisha usajili.
 
 
 ![BITFINEX](assets/fr/02.webp)
@@ -32,12 +32,12 @@ Kamilisha maelezo yanayohitajika: weka barua pepe yako Address na nchi unakoishi
 Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sasa tutasanidi 2FA ili kulinda akaunti. Tumia programu ya uthibitishaji kwenye simu yako mahiri, kama vile Kithibitishaji cha Google au Authy kwa mfano. Utapata mafunzo juu ya zana hii hapa:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Changanua msimbo wa QR na programu yako na uweke tarakimu 6 zilizotolewa.
 
@@ -77,10 +77,10 @@ Bitfinex inatumia mchakato wa uthibitishaji (KYC) ambao unatii kanuni za sasa. K
 
 
 
-- Basic* ni hali ya kuonyesha pekee, inayokuruhusu kushauriana na jukwaa bila kufanya shughuli zozote;
-- Basic Plus* hutoa ufikiaji wa huduma muhimu, ikiwa ni pamoja na miamala ya soko la doa na chaguo zilizochaguliwa za kuweka na kutoa pesa;
-- Ya kati* hufungua huduma za kina kama vile biashara ya ukingo, mikopo, miamala ya P2P na OTC, na inatoa muda uliopunguzwa wa kuweka amana;
-- Kamili* hukupa idhini ya kufikia uhamisho wa kimataifa wa benki na vipengele vyote vya mfumo.
+- **Basic** ni hali ya kuonyesha pekee, inayokuruhusu kushauriana na jukwaa bila kufanya shughuli zozote;
+- **Basic Plus** hutoa ufikiaji wa huduma muhimu, ikiwa ni pamoja na miamala ya soko la doa na chaguo zilizochaguliwa za kuweka na kutoa pesa;
+- **Ya kati** hufungua huduma za kina kama vile biashara ya ukingo, mikopo, miamala ya P2P na OTC, na inatoa muda uliopunguzwa wa kuweka amana;
+- **Kamili** hukupa idhini ya kufikia uhamisho wa kimataifa wa benki na vipengele vyote vya mfumo.
 
 
 Kwa kila ngazi, nyaraka za ziada zinahitajika kwa uthibitishaji. Kwa watumiaji wengi, akaunti za *Basic Plus* au *Intermediate* kwa ujumla zinatosha.
@@ -115,11 +115,11 @@ Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Deri
 
 
 
-- Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin) ;
-- OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
-- Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
-- Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
-- P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
+- **Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin) ;
+- **OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
+- **Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
+- **Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
+- **P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
 
 
 Kwa matumizi ya kawaida (kununua/kuuza bitcoins na amana/kutoa), utatumia hasa kichupo cha "*Trading*", pamoja na sehemu za "*Wallet*", "*Amana*" na "*Toa*".
@@ -173,7 +173,7 @@ Ili kutoa pesa, utaratibu ni sawa: nenda kwenye menyu ndogo ya "*Toa*".
 ![BITFINEX](assets/fr/15.webp)
 
 
-Bofya kwenye "* Uhamisho wa benki*".
+Bofya kwenye "**Uhamisho wa benki**".
 
 
 ![BITFINEX](assets/fr/16.webp)
@@ -203,7 +203,7 @@ Ili kuweka Bitcoin kwenye Bitfinex, fikia menyu ndogo ya "*Amana*".
 ![BITFINEX](assets/fr/19.webp)
 
 
-Bofya kwenye "* Cryptocurrency*".
+Bofya kwenye "**Cryptocurrency**".
 
 
 ![BITFINEX](assets/fr/13.webp)
@@ -221,7 +221,7 @@ Ili kuondoa Bitcoin, nenda kwenye menyu ndogo ya "*Toa*".
 ![BITFINEX](assets/fr/21.webp)
 
 
-Bofya kwenye "* Cryptocurrency*".
+Bofya kwenye "**Cryptocurrency**".
 
 
 ![BITFINEX](assets/fr/22.webp)
@@ -245,9 +245,9 @@ Bitfinex pia inatoa chaguzi za kuweka na uondoaji kupitia Lightning Network, kuw
 Ikiwa ungependa Lightning Network, pia tuna kozi kamili ya mafunzo ili kukusaidia kuelewa jinsi inavyofanya kazi:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Baada ya kununua bitcoins zako za kwanza, ni wazi kuwa una fursa ya kuwaacha kwenye jukwaa, lakini ninapendekeza sana kuwahamisha kwenye Wallet yako mwenyewe kwa kujitegemea. Ikiwa bado hujui jinsi ya kutumia Bitcoin Wallet, ninakualika uchunguze [sehemu ya "Wallet" kwenye Plan ₿ Network](https://planb.network/tutorials/wallet).
+Baada ya kununua bitcoins zako za kwanza, ni wazi kuwa una fursa ya kuwaacha kwenye jukwaa, lakini ninapendekeza sana kuwahamisha kwenye Wallet yako mwenyewe kwa kujitegemea. Ikiwa bado hujui jinsi ya kutumia Bitcoin Wallet, ninakualika uchunguze [sehemu ya "Wallet" kwenye Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Kununua na kuuza bitcoins kwenye Bitfinex

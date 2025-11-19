@@ -1,0 +1,9 @@
+question: Która organizacja została założona w 1998 roku w celu promowania terminu "open source"?
+answer: Open Source Initiative (OSI)
+wrong_answers:
+  - Fundacja Wolnego Oprogramowania (FSF)
+  - Projekt Debian
+  - Fundacja Mozilla
+explanation: |
+  OSI został stworzony w celu podkreślenia pragmatycznego, technicznego aspektu otwartości kodu, w odróżnieniu od filozofii wolnego oprogramowania.
+reviewed: false

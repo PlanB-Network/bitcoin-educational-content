@@ -1,0 +1,9 @@
+question: İki faktörlü kimlik doğrulama neden önerilir?
+answer: Ekstra bir katman güvenlik ekler
+wrong_answers:
+  - Kod sayısını azaltarak erişimi basitleştirir
+  - Şifre olmadan girişe izin verir
+  - Parola yöneticisi kullanımının yerini alır
+explanation: |
+  2FA, parolaya ek olarak geçici bir kod gerektirir ve bu da çevrimiçi bir hesabın korunmasını büyük ölçüde güçlendirir.
+reviewed: false

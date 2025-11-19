@@ -1,0 +1,10 @@
+question: Hur stor andel av Bitcoin:s totala transaktionsvolym har använts för olaglig verksamhet?
+answer: Mindre än 1%
+wrong_answers:
+  - 2-4%
+  - Mer än 5 procent
+  - Det är okänt
+explanation: |
+  Enligt en rapport från Chainalysis 2020 står olaglig aktivitet endast för
+  för cirka 0,34% av alla Bitcoin-transaktioner.
+reviewed: true

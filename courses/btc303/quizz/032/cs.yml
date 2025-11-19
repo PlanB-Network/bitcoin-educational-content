@@ -1,0 +1,8 @@
+question: Jaký mechanismus zajistí, aby byl limit dodávek Bitcoin vynucen, aniž by bylo nutné důvěřovat nějakému centrálnímu orgánu?
+answer: Plné uzly s ověřovacím kódem, který automaticky odmítá bloky s neplatnými transakcemi coinbase
+wrong_answers:
+  - Algoritmus distribuovaného konsensu, který vyžaduje většinový souhlas pro všechny změny v dodávkách
+  - Kryptografický kód proof-of-work, který matematicky zabraňuje vytváření přebytečných mincí
+  - Síťové validátory, které hlasují o platnosti transakcí prostřednictvím demokratického procesu
+explanation: |
+  Limit nabídky Bitcoin je vynucován prostřednictvím plných uzlů, které spouštějí ověřovací kód, jenž kontroluje každou transakci bloku coinbase s pravidly konsensu. I když se některé uzly stanou zlomyslnými a přijmou neplatné bloky s nadměrnými odměnami, poctivé uzly je budou jednoduše ignorovat a budou pokračovat v platném řetězci. Vzniká tak systém bez důvěry, kde není třeba důvěřovat žádné osobě ani autoritě - stačí spustit kód, který ověřuje dodržování pravidel, čímž je síť kolektivně zabezpečena proti pokusům o inflaci nabídky.

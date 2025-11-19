@@ -1,0 +1,9 @@
+question: Miksi koko levyn tai USB-avaimen salaus on ratkaisevan tärkeää tietojesi turvallisuuden kannalta?
+answer: Se estää luvattoman pääsyn tiedostoihin
+wrong_answers:
+  - Nopeuttaa tiedostojen lukemista ja kirjoittamista
+  - Suojaa laitteistovikoja vastaan
+  - Se helpottaa levyn jakamista
+explanation: |
+  Täydellinen salaus tekee tiedoista täysin käyttökelvottomia ilman avainta tai salasanaa, vaikka levy olisi fyysisesti hyökkääjän hallussa.
+reviewed: false

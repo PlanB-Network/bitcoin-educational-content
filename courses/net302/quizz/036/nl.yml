@@ -1,0 +1,9 @@
+question: Waarom was de migratie naar IPv6 noodzakelijk?
+answer: IPv4 Address uitputting
+wrong_answers:
+  - Storing van het NAT-protocol op IPv4
+  - Subnetmasker incompatibiliteit
+  - Einde van DHCP-ondersteuning
+explanation: |
+  De uitputting van IPv4-adressen leidde tot de overgang naar IPv6, dat een veel grotere Address-ruimte biedt.
+reviewed: false

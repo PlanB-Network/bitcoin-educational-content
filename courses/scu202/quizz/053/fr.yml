@@ -1,0 +1,9 @@
+question: Quelle plateforme supprime automatiquement les métadonnées lors de l’envoi d’une photo ?
+answer: Signal
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Votre blog
+explanation: |
+  Signal (tout comme Session et d’autres messageries sécurisées) nettoie les métadonnées des images partagées pour protéger la vie privée des utilisateurs.
+reviewed: false

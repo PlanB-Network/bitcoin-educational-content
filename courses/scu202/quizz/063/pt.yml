@@ -1,0 +1,9 @@
+question: Que navegador de texto, sem suporte para gráficos Interface ou JavaScript, é o mais antigo que ainda se mantém?
+answer: Lince
+wrong_answers:
+  - Navegador Mullvad
+  - Polipropileno
+  - Vivaldi
+explanation: |
+  O Lynx, que surgiu em 1992, funciona em modo de texto, não suporta JavaScript e ainda é utilizado para fins muito específicos.
+reviewed: false

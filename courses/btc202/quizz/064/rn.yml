@@ -1,0 +1,9 @@
+question: Ni iyihe mpamvu nyamukuru yo gushiramwo Block explorer yo mu karere nka Mempool.Space kuri Umbrel?
+answer: Kuzigama ibanga no gukoresha amakuru ava ku nzira yawe bwite
+wrong_answers:
+  - Kwihutisha guhuza kwa mbere kwa Bitcoin core
+  - Yongera ubushobozi bwo kubika buboneka ku mabuye
+  - Kuronka imirongo y'umuravyo
+explanation: |
+  Block explorer yo mu karere irabuza IP gusohoka kandi yizigira amakuru yawe bwite yemejwe, igatanga ibanga n’ukwizigirwa.
+reviewed: true

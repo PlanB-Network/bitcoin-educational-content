@@ -1,0 +1,9 @@
+question: Hvorfor er det lurt å fjerne ubrukt eller foreldet programvare fra datamaskinen?
+answer: For å redusere angrepsflaten
+wrong_answers:
+  - For å øke hastigheten på Internett-tilkoblingen din
+  - For å forbedre beskyttelsesvektorene
+  - For å øke batteriets levetid
+explanation: |
+  Jo mindre programvare som er installert, desto færre potensielle sårbarheter kan angriperne utnytte.
+reviewed: false

@@ -1,27 +1,27 @@
 ---
 name: Retningslinjer for korrekturlesing
-description: Hvilke faktorer er det viktig å huske på når man korrekturleser på Plan ₿ Network?
+description: Hvilke faktorer er det viktig å huske på når man korrekturleser på Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Velkommen til denne veiledningen om **retningslinjer for korrekturlesing av innhold på Plan ₿ Network**. Vi er glade for at du deler vårt mål om å oversette Bitcoin-materiell til så mange språk som mulig, for å hjelpe folk med å få kunnskap om hvordan det fungerer og hvordan det kan brukes i hverdagen.
+Velkommen til denne veiledningen om **retningslinjer for korrekturlesing av innhold på Plan ₿ Academy**. Vi er glade for at du deler vårt mål om å oversette Bitcoin-materiell til så mange språk som mulig, for å hjelpe folk med å få kunnskap om hvordan det fungerer og hvordan det kan brukes i hverdagen.
 
 
-Først og fremst kan du bidra til Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
+Først og fremst kan du bidra til Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
 
 
-Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github] (https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
+Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
 
 
 Her har jeg samlet de vanligste problemene som korrekturlesere støter på. Kom gjerne med flere forslag, da det kan hjelpe andre med å forbedre seg.
 
 
-Før du går nærmere inn på detaljene, bør du først lese denne veiledningen om de praktiske handlingene du skal følge på Github, ved å forke Plan ₿ Network-depotet, legge inn endringer og sende PR-er:
+Før du går nærmere inn på detaljene, bør du først lese denne veiledningen om de praktiske handlingene du skal følge på Github, ved å forke Plan ₿ Academy-depotet, legge inn endringer og sende PR-er:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Hva er korrekturlesing?
@@ -38,13 +38,13 @@ Husk alltid at oversettelse/korrekturlesing er UTDANNING!
 
 Vårt felles mål er faktisk å utdanne så mange som mulig i Bitcoin, og da er det avgjørende at materialet de leser, er lettfattelig og tydelig.
 
-I denne forstand er alle bidragsytere på Plan ₿ Network pedagoger!
+I denne forstand er alle bidragsytere på Plan ₿ Academy pedagoger!
 
 
-## De første trinnene før korrekturlesing på Plan ₿ Network
+## De første trinnene før korrekturlesing på Plan ₿ Academy
 
 
-Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Network-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/PlanB-Network/projects/3). Når du mottar lenken til saken, skriver du bare **kommentarer om at du starter** med korrekturlesingen av det aktuelle innholdet.
+Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Academy-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/Plan ₿ Academy/projects/3). Når du mottar lenken til saken, skriver du bare **kommentarer om at du starter** med korrekturlesingen av det aktuelle innholdet.
 
 
 Dette systemet hjelper koordinatoren med å holde oversikt over fremdriften i repoen, og det gjør det mulig å "kreve" innholdet av korrekturleseren, slik at man unngår at noen andre gjør dobbeltarbeid.
@@ -60,7 +60,7 @@ Først og fremst, **HUSK ALLTID å synkronisere repoen din på "dev"-grenen**. P
 
 
 
-Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
+Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
 
 
 
@@ -115,11 +115,11 @@ I det andre tilfellet bør du **alltid undersøke om noen andre i Bitcoin-felles
 
 
 
-- En annen god løsning er å beholde det opprinnelige ordet/uttrykket, og deretter **opprette en hyperkobling** som viderekobler til [glossary] (https://planb.network/en/resources/glossary) på planb.network. For å gjøre dette må du sette ordet/uttrykket inn i hakeparenteser, og lenken inn i runde parenteser, slik du kan se i eksempelet nedenfor:
+- En annen god løsning er å beholde det opprinnelige ordet/uttrykket, og deretter **opprette en hyperkobling** som viderekobler til [glossary] (https://planb.academy/en/resources/glossary) på planb.network. For å gjøre dette må du sette ordet/uttrykket inn i hakeparenteser, og lenken inn i runde parenteser, slik du kan se i eksempelet nedenfor:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ I det endelige resultatet (bildet nedenfor) vil du ikke se hele lenken, og ordet
 
 
 
-Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.network/en/resources/glossary/UTXO``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
+Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.academy/en/resources/glossary/utxo``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
 
 
 Innholdet i depotet er fullt av hyperlenker som disse ovenfor. Nå som du vet hva de betyr, må du **ikke slette lenker** som er satt inn av den opprinnelige forfatteren.
 
 
 
-- En annen ting relatert til ordgjengivelse er følgende. Hvis du finner "Plan ₿ Network" i teksten, **la det stå i sin opprinnelige form**. Ikke oversett ordet "plan" eller ordet "nettverk". Dessuten skal du IKKE bruke artikkelen "The" når du introduserer Plan ₿ Network: **betrakt det som en merkevare**.
+- En annen ting relatert til ordgjengivelse er følgende. Hvis du finner "Plan ₿ Academy" i teksten, **la det stå i sin opprinnelige form**. Ikke oversett ordet "plan" eller ordet "nettverk". Dessuten skal du IKKE bruke artikkelen "The" når du introduserer Plan ₿ Academy: **betrakt det som en merkevare**.
 
 
 
@@ -234,8 +234,6 @@ Sørg for å sjekke den opprinnelige språkfilen (ofte EN eller FR) for å se hv
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Korrekturlesing av quiz
 
 
@@ -245,11 +243,20 @@ Visste du at du også kan korrekturlese quizspørsmålene i hvert emne? Hvis du 
 Igjen, sørg for at du er i en egen filial som du åpner spesielt for dette formålet, og informer alltid koordinatoren.
 
 
-Når du har gjennomgått spørsmålet, må du sørge for å endre statusen "gjennomgått" fra "false" til "true", som vist i bildet nedenfor.
-
+En viktig ting å huske på når du korrekturleser denne typen _yml_-filer, er å unngå å legge til kolon ``:`` inne i teksten. Faktisk brukes kolon **kun** til å skille nøkkelverdipar som "wrong_answers" fra resten. Du kan se et eksempel på dette i bildet nedenfor:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Når du har gjennomgått spørsmålet, må du sørge for å endre statusen "gjennomgått" fra "false" til "true", som vist i bildet nedenfor. Sørg for at disse statusordene er på engelsk, uansett hvilket språk du jobber med!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Hvis statuslinjen "reviewed:true" mangler, må du sørge for å **legge den til på slutten av prøven**.
 
 
 ## Korrekturlesing av ordlister
@@ -258,7 +265,35 @@ Når du har gjennomgått spørsmålet, må du sørge for å endre statusen "gjen
 På samme måte som med quizene, kan du også korrekturlese ordlisten. Den opprinnelige ordlisten er skrevet på fransk, så du vil finne setninger som f.eks: "På fransk kan dette uttrykket oversettes til..."
 
 
-I tilfeller som dette bør du tilpasse denne setningen til målspråket ditt, eller til engelsk.
+I slike tilfeller bør du tilpasse setningen til målspråket eller til engelsk. Du kan for eksempel skrive "På engelsk brukes uttrykket ...".
+
+Hvis tittelen står på engelsk, kan du tilpasse setningen til ditt eget språk: "På swahili er dette uttrykket..."
+
+
+Sørg også for å skrive titler med STORE BOKSTAVER.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Tittel og beskrivelse av PR-en din
+
+
+Når du sender PR-en din, er det fint om du navngir den i dette formatet: [KORREKTURLESING] INNHOLDSNAVN - SPRÅK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+I **kommentardelen av PR-en** kan du dessuten skrive "lukkes" + nummeret på saken som koordinatoren sendte deg da du startet korrekturlesingen, etterfulgt av ``#``.
+
+Hvis du for eksempel nettopp har sendt en PR med korrekturlesing av cyp201 + spørrekonkurranser, kan du skrive "stenger [#2934] (https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+På denne måten blir PR-en og saken koblet sammen, og den som leser det offentlige Github-arkivet, kan enkelt finne informasjon.
+
 
 
 ## Annen beste praksis
@@ -269,11 +304,11 @@ I tilfeller som dette bør du tilpasse denne setningen til målspråket ditt, el
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Når du bruker "erstatt alt"-funksjonen, er det viktig å dobbeltsjekke resultatet for å sikre at lenker ikke også er endret. Hvis du for eksempel vil endre ordet "Bitcoin" til "Bitkoin" (noe som kan være nødvendig på enkelte språk), kan du bruke "erstatt alle"-funksjonen til å oppdatere alle forekomster i teksten. Vær imidlertid oppmerksom på at dette verktøyet også vil endre alle lenker som inneholder ordet, noe som kan føre til omdirigeringsproblemer.
+Når du bruker "erstatt alt"-funksjonen, er det viktig å dobbeltsjekke resultatet for å sikre at ikke også lenkene er endret. Hvis du for eksempel vil endre ordet "Bitcoin" til "Bitkoin" (noe som kan være nødvendig på enkelte språk), kan du bruke "erstatt alle"-funksjonen til å oppdatere alle forekomster i teksten. Vær imidlertid oppmerksom på at dette verktøyet også vil endre alle lenker som inneholder ordet, noe som kan føre til omdirigeringsproblemer.
 
 
 I eksempelet nedenfor har korrekturleseren brukt funksjonen ovenfor til å erstatte "Satoshi" med "Satoshi(Sats)", og har også endret lenken til en veiledning som inneholder selve ordet. Som en konsekvens ble lenken ugyldig.
@@ -283,23 +318,35 @@ Dobbeltsjekk alltid alle hyperkoblinger i teksten for å sikre at de er korrekte
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Hvis forfatteren legger inn en lenke som henviser til et Plan ₿ Network-kurs eller en veiledning (**ikke** innenfor parentes), vil nettstedet automatisk opprette et "kort" som viser det relaterte miniatyrbildet. Sørg derfor alltid for at du **har et mellomrom mellom teksten og selve lenken**, ellers kan du se følgende feil på nettstedet.
+- Hvis forfatteren legger inn en lenke som henviser til et Plan ₿ Academy-kurs eller en veiledning (**ikke** innenfor parentes), vil nettstedet automatisk opprette et "kort" som viser det relaterte miniatyrbildet. Sørg derfor alltid for at du **legger til en ny linje mellom teksten og selve lenken**, ellers kan du få følgende feilmelding på nettstedet.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Det samme skjer med "bildekoder" som denne ``[IMAGE](asset/fr/001.webp)``: Pass på at du alltid legger til en ny linje mellom bildekoden og teksten. Et eksempel nedenfor:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- En annen god fremgangsmåte du kan bruke når du er ferdig med korrekturlesingen og sender PR-en, er å gå tilbake til den opprinnelige saken som ble åpnet av koordinatoren, og kommentere med "Korrekturlesing utført". **Husk også å legge inn lenken til PR-en din der**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Konklusjon
@@ -309,6 +356,9 @@ For å oppsummere kan det å være oppmerksom på de vanligste korrekturleserfei
 
 
 Husk alltid at nybegynnere kan lese disse kursene og veiledningene, så det er vårt ansvar å sørge for at de forstår dem fullt ut. Som korrekturleser er du en pedagog!
+
+
+Nå er du klar til å begynne å korrekturlese kurs, opplæringsprogrammer, spørrekonkurranser og ordlister. Følg med for å også begynne å sjekke bilder og videotranskripsjoner ;)
 
 
 Takk for at du har lest denne veiledningen, og god fornøyelse med korrekturlesingen!

@@ -1,0 +1,9 @@
+question: Který historický příkaz lze použít k nahlédnutí do mezipaměti ARP ve většině systémů?
+answer: arp
+wrong_answers:
+  - dig
+  - nslookup
+  - ping
+explanation: |
+  Příkaz arp umožňuje zobrazit nebo upravit mezipaměť ARP, která lokálně ukládá mapování IP/MAC.
+reviewed: false

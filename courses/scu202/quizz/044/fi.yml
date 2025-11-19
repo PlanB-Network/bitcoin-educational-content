@@ -1,0 +1,9 @@
+question: Millä toiminnolla varmistetaan, että ladattua ohjelmistoa ei ole muutettu sen virallisen julkaisun jälkeen?
+answer: Eheyden todentaminen Hash:n avulla
+wrong_answers:
+  - Aitouden todentaminen kehittäjän allekirjoituksella
+  - Ohjelmistoanalyysi palomuurin kautta
+  - Ohjelman suorittaminen vikasietotilassa
+explanation: |
+  Eheyden tarkistaminen perustuu ladatun tiedoston Hash:n ja kehittäjän julkaiseman tiedoston Hash:n vertailuun. Kaikki tiedoston muutokset muuttavat tätä Hash:tä.
+reviewed: false

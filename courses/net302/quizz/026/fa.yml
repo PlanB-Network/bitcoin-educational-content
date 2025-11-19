@@ -1,0 +1,9 @@
+question: کدام واحد داده در Layer اینترنت مدل TCP/IP استفاده می‌شود؟
+answer: دیتاگرام
+wrong_answers:
+  - بخش
+  - قاب
+  - پیام
+explanation: |
+  اینترنت Layer دیتاگرام‌ها را دستکاری می‌کند و بخش‌هایی از Transport Layer را کپسوله می‌کند.
+reviewed: false

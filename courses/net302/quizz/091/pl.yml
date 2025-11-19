@@ -1,0 +1,9 @@
+question: Które polecenie służy do skanowania otwartych portów hosta i identyfikowania dostępnych usług?
+answer: nmap
+wrong_answers:
+  - kopać
+  - narzędzie
+  - ip neigh
+explanation: |
+  nmap wykrywa otwarte porty, ujawnione usługi i czasami typ zdalnego systemu operacyjnego.
+reviewed: false

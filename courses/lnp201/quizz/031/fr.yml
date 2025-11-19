@@ -6,4 +6,4 @@ wrong_answers:
   - Les frais de routage définis par chaque nœud
 explanation: |
   Le montant maximal qu'un paiement indirect peut transférer dépend de la plus faible liquidité disponible dans les canaux empruntés, car chaque canal doit ajuster les fonds de chaque côté.
-reviewed: false
+reviewed: true 

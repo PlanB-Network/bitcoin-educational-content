@@ -1,0 +1,9 @@
+question: Vad är syftet med att använda ett lockbete Wallet med en passphrase?
+answer: För att simulera en Wallet med en liten mängd vid fysiskt tvång
+wrong_answers:
+  - Lägg till en automatisk säkerhetskopiering av transaktioner
+  - generate ytterligare en Mnemonic-fras
+  - Skydda UTXO:er från dubbla utgifter
+explanation: |
+  En falsk Wallet används för att avleda en angripares uppmärksamhet genom att ge tillgång till en Wallet som innehåller en liten mängd bitcoins.
+reviewed: false

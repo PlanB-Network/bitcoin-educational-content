@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste voordeel van een VPN?
+answer: Internetverkeer versleutelen
+wrong_answers:
+  - Versnel je internetverbinding
+  - Opslagcapaciteit vergroten
+  - Geïntegreerd antivirusprogramma
+explanation: |
+  Een VPN creëert een beveiligde tunnel en versleutelt de uitwisselingen tussen je apparaat en een tussenliggende server, waardoor de vertrouwelijkheid wordt versterkt.
+reviewed: false

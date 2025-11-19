@@ -1,0 +1,9 @@
+question: Vilken typ av grupp är särskilt viktig för kryptografi med publik nyckel på grund av dess förmåga att generate alla Elements genom exponentiering?
+answer: Cykliska grupper
+wrong_answers:
+  - Icke-abeliska grupper
+  - Oändliga grupper
+  - Komplexa talgrupper
+explanation: |
+  Inom kryptografi är cykliska grupper viktiga eftersom de gör det möjligt att generera alla Elements i gruppen genom att använda exponentiering av ett enda element, kallat generator.
+reviewed: false

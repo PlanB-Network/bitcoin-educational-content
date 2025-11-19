@@ -1,0 +1,9 @@
+question: Apa hal pertama yang harus Anda lakukan untuk mengamankan akses ke komputer pribadi Anda?
+answer: Tetapkan kata sandi sesi yang kuat
+wrong_answers:
+  - Memasang antivirus
+  - Mengkonfigurasi firewall UFW
+  - Mengaktifkan enkripsi disk
+explanation: |
+  Kata sandi sesi adalah penghalang keamanan pertama untuk mencegah akses yang tidak sah ke mesin Anda, sebelum tindakan tambahan lainnya.
+reviewed: false

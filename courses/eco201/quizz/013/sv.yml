@@ -1,0 +1,13 @@
+question: Vad är huvudproblemet med det fraktionella reservsystemet?
+answer: Det största problemet med systemet med fraktionella reserver är att betydande uttag från en viss bank potentiellt kan leda till att den går i konkurs.
+wrong_answers:
+  - Huvudproblemet med det fraktionella reservsystemet är att det hindrar bankerna från att låna ut pengar.
+  - Huvudproblemet med systemet med fraktionella reserver är att det kräver att bankerna håller mer reserver än de får i inlåning.
+  - Det största problemet med systemet med fraktionella reserver är att det hindrar bankerna från att skapa nya pengar.
+explanation: |
+  I ett fraktionellt reservsystem håller bankerna bara en bråkdel
+  av sina insättares medel i reserv och lånar ut resten
+  resten. Om många kunder samtidigt skyndar sig att ta ut sina
+  sina pengar kanske banken inte har tillräckligt med reserver för att möta
+  för att möta dessa krav, vilket kan leda till konkurs.
+reviewed: true

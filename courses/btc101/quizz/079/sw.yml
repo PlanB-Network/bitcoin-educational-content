@@ -1,11 +1,13 @@
-question: Unawezaje kuimarisha usalama chaguo-msingi wa Bitcoin Wallet yako?
-answer: Kwa kuongeza passphrase kwa Bitcoin Wallet yako.
+question: Cold Wallet ni nini?
+answer: Wallet katika kifaa halisi ambacho huhifadhi funguo zako na hakijaunganishwa kwenye mtandao.
 wrong_answers:
-  - Kwa kuongeza ufunguo wa pili wa faragha kwenye Bitcoin Wallet yako.
-  - Kwa kuongeza ufunguo wa pili wa umma kwenye Bitcoin Wallet yako.
-  - Kwa kuongeza kishazi cha pili cha Mnemonic kwenye Bitcoin Wallet yako.
+  - Wallet ambayo ni Cold ya kugusa.
+  - Wallet ambayo haipendezwi na watumiaji wa Bitcoin.
+  - Wallet ambayo inapendekezwa kwa kuhifadhi kiasi kidogo cha bitcoins.
 explanation: |
-  Ikiwa haujaridhika na usalama wa chaguo-msingi wa yako
-  Bitcoin Wallet, unaweza kuimarisha kila wakati kwa kuongeza a
-  passphrase kwa Bitcoin Wallet yako.
+  Cold Wallet ni neno linalotumiwa kuelezea Bitcoin Wallet
+  ambayo imehifadhiwa kwenye kifaa ambacho hakijaunganishwa na
+  mtandao. Hii inaifanya iwe chini ya hatari ya vitisho vya mtandaoni,
+  lakini pia inamaanisha kuwa Wallet haipatikani kwa urahisi
+  shughuli za kila siku.
 reviewed: true

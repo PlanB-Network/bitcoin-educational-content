@@ -1,0 +1,9 @@
+question: Essential profil işletmeleri için önerilen birincil ödeme çözümü nedir?
+answer: İsviçre Bitcoin Maaşı
+wrong_answers:
+  - Açık Düğüm
+  - BTCPay Sunucusu
+  - Bitcoinize PoS
+explanation: |
+  Basitlik ve güvenliği dengeleyen Essential profili için önerilen çözüm olarak Swiss Bitcoin Pay'i öne çıkarıyoruz.
+reviewed: false

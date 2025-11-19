@@ -3,7 +3,7 @@ answer: issuedSupply
 wrong_answers:
   - assetOwner
   - spec
-  - importe
+  - amount
 explanation: |
   El campo "issuedSupply" del archivo YAML define la cantidad total de tokens emitidos para el contrato.
 reviewed: false

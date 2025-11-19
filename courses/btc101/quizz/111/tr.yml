@@ -1,0 +1,12 @@
+question: Bitcoin Blockchain'ın ilk bloğunda yer alan mesaj nedir?
+answer: 03/jan/2009 Şansölye bankalar için ikinci kurtarma paketinin eşiğinde.
+wrong_answers:
+  - Silahlanma yarışında büyük bir savaşı kazanabilir ve birkaç yıl boyunca yeni bir özgürlük alanı elde edebiliriz.
+  - Hükümetler Napster gibi merkezi olarak kontrol edilen ağların başını kesmekte başarılıdır, ancak Gnutella ve Tor gibi saf P2P ağları kendi başlarına ayakta duruyor gibi görünmektedir.
+  - Yukarıdakilerin hiçbiri.
+explanation: |
+  Olarak da bilinen Bitcoin Blockchain'ün ilk bloğu
+  gW-6 bloğu, 03/jan/2009 mesajını içerir
+  Şansölye bankalar için ikinci kurtarma paketinin eşiğinde
+  gW-4'ün Genesis bloğuna o günkü Zaman başlığı.
+reviewed: true

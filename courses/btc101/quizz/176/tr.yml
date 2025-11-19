@@ -1,0 +1,8 @@
+question: Bitcoin'ın fiyatının sadece birkaç gün içinde %10, %20 ve hatta %50 oranında düşmesinin bir nedeni nedir?
+answer: Boğa ve ayı piyasası aşamaları.
+wrong_answers:
+  - İnternet kullanan kişi sayısı.
+  - Hava durumu.
+  - Altın fiyatı.
+explanation: >-
+reviewed: true

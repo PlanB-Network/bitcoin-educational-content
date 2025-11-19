@@ -1,0 +1,8 @@
+question: Qual é a principal preocupação com a cobrança de taxas quando o subsídio de bloco do Bitcoin se aproxima de zero?
+answer: Os mineiros podem achar mais rentável reescrever blocos anteriores com taxas elevadas em vez de escrever novos blocos mining
+wrong_answers:
+  - As taxas de transação tornar-se-ão demasiado caras para que os utilizadores regulares possam pagar as transacções Bitcoin
+  - A oferta total de Bitcoin excederá 21 milhões devido ao aumento dos incentivos mining
+  - Os mineiros vão parar completamente com o mining porque as taxas de transação, por si só, não conseguem cobrir os custos de eletricidade
+explanation: |
+  O "fee sniping" ocorre quando os mineiros tentam voltar a minerar blocos anteriores que continham transacções com taxas elevadas, em vez de estenderem honestamente a cadeia. Isto torna-se economicamente racional quando as taxas de um bloco anterior excedem significativamente as do mempool atual. Embora a probabilidade de sucesso seja menor do que a do mining honesto, a recompensa potencial pode ser muito maior. Este comportamento é particularmente preocupante porque pode criar um efeito de cascata onde mais mineiros se envolvem em práticas desonestas, ameaçando em última análise o modelo de segurança do Bitcoin quando os subsídios de bloco diminuem.

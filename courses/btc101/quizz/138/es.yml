@@ -1,11 +1,11 @@
-question: ¿Cuál es la función principal de los nodos en la red de Bitcoin?
-answer: Mantener una copia de la blockchain de Bitcoin, validar transacciones, transmitir información a otros nodos y hacer cumplir las reglas del protocolo de Bitcoin.
+question: ¿De qué trataba la guerra de bloques en 2017?
+answer: Un conflicto sobre si aumentar el tamaño del bloque para expandir la capacidad de transacción.
 wrong_answers:
-  - Mantener una copia de la blockchain de Bitcoin, validar transacciones, transmitir información al gobierno y cambiar las reglas del protocolo de Bitcoin.
-  - Solo mantener una copia de la blockchain de Bitcoin.
-  - Solo transmitir información a otros nodos.
-explanation: >-
-  Los nodos en la red de Bitcoin realizan varias funciones cruciales, incluyendo
-  mantener una copia de la blockchain de Bitcoin, validar transacciones, transmitir
-  información a otros nodos y hacer cumplir las reglas del protocolo de Bitcoin.
+  - Un conflicto sobre si disminuir el tamaño del bloque para reducir la capacidad de transacción.
+  - Un conflicto sobre si aumentar la recompensa por bloque para incentivar a los mineros.
+  - Un conflicto sobre si disminuir la recompensa por bloque para desincentivar a los mineros.
+explanation: |
+  La guerra de bloques en 2017 fue un conflicto sobre si
+  modificar Bitcoin aumentando el tamaño del bloque para expandir
+  la capacidad de transacción.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilket av disse skrivebordsmiljøene anbefales spesielt for eldre eller mindre kraftige maskiner?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Kanel
+  - KDE Plasma
+explanation: |
+  LXQt, i likhet med Xfce, bruker få ressurser og er utviklet for å kjøre effektivt på maskinvare med lav ytelse.
+reviewed: false

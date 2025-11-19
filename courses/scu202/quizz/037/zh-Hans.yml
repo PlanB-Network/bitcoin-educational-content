@@ -1,0 +1,9 @@
+question: 哪类软件是计算机攻击的最关键入口之一？
+answer: 网络浏览器
+wrong_answers:
+  - PDF 阅读器
+  - 文本编辑器
+  - 文件管理器
+explanation: |
+  网络浏览器经常接触到外部内容，因此成为网络犯罪分子的主要攻击载体。
+reviewed: false

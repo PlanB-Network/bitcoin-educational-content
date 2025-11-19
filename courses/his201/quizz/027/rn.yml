@@ -1,0 +1,9 @@
+question: Ni ikihe kinyamakuru c’Ubwongereza cashizwe mu gice ca Bitcoin Genesis muri Mukakaro 2009?
+answer: Igitabu ca Times
+wrong_answers:
+  - Umurinzi
+  - Uwigenga
+  - Itelegarafe
+explanation: |
+  Ico canditswe nyaco cari ikinyamakuru The Times, 03/Jan/2009, umukuru w’igihugu ari ku ruhande rwo gufasha amabanki ubwa kabiri.
+reviewed: true

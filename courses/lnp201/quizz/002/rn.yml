@@ -1,0 +1,9 @@
+question: Iyo Alice yoherereje Bob amasatoshi 40.000 avuye mu nzira yo kwishura aho mu ntango afise amasatoshi 100.000, ni amahera angahe asigaranye inyuma y’ugucuruza?
+answer: 60.000
+wrong_answers:
+  - 30.000
+  - 40.000
+  - 140.000 z'amasatoshi
+explanation: |
+  Amaze kohereza amasatoshi 40.000, amafaranga Alice asigaje mu muyoboro ni amasatoshi 60.000.
+reviewed: false

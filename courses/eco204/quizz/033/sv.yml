@@ -1,0 +1,13 @@
+question: Vilka var effekterna av omvärderingen av skulderna i Weimar?
+answer: Aktieägarna fick 2,5 procent av sin ursprungliga investering under förutsättning att alla skadestånd hade betalats.
+wrong_answers:
+  - Det ledde till en ytterligare devalvering av valutan.
+  - Det orsakade en ökning av arbetslösheten.
+  - Det resulterade i en minskning av de utländska investeringarna.
+explanation: |
+  I Weimar revalverades vissa skulder för att kompensera för effekterna av
+  inflationen.
+  Ett beslut om att omvärdera statligt ägda lån blev lag 1925, vilket resulterade i att aktieägarna
+  fick 2,5 procent av sin ursprungliga investering förutsatt att alla skadestånd
+  hade betalats.
+reviewed: false

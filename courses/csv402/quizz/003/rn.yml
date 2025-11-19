@@ -1,0 +1,9 @@
+question: Ni ingaruka izihe zo gutakaza Stash mu masezerano ya RGB?
+answer: Amateka ya Contract n'amakuru ajanye navyo ntibishobora gusubirwamwo
+wrong_answers:
+  - Amakuru ashobora gusubirwamwo avuye kuri Blockchain nimba ufise seed.
+  - Kopi y’ayo makuru iraboneka ku ma server ya RGB mu Busuwisi .
+  - Amakuru arasubirwamwo ku bari muri iyo nama bose
+explanation: |
+  Muri Client-side Validation, umukoresha wese ni we abazwa Stash yiwe, iyo Stash idasubirwamwo ahandi, bikaba bituma ukubura kwayo kuba gutomoye.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin yan zincirleri aşağıdakilerin hangileri?
+answer: Liquid ve Rootstock (RSK)
+wrong_answers:
+  - Poligon ve Arbitrum
+  - Jüpiter ve Fantom
+  - Bitcoin Nakit ve Bitcoin Satoshi Vizyon
+explanation: |
+  Liquid ve RSK, Bitcoin ile 2WP (2-way peg), 2 yönlü peg'e (çift yönlü değer transferi) sahip yan zincirlerdir. Diğer seçenekler yan zincir değildir veya Bitcoin Blockchain ile 2 WP'ye sahip değildir.
+reviewed: false

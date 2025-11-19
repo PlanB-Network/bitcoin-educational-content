@@ -1,11 +1,10 @@
-question: Manakah dari opsi berikut ini bukan merupakan keuntungan dari mata uang fiat?
-answer: Mereka tunduk pada inflasi moneter
+question: Apa potensi kerugian dari mata uang digital bank sentral (CBDCs)?
+answer: Mereka dapat menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter.
 wrong_answers:
-  - Mereka mudah dibawa
-  - Mereka mudah dibagi
-  - Mereka diterima oleh semua negara
+  - Mereka dapat menyebabkan penurunan dalam pasokan uang.
+  - Mereka dapat menyebabkan penurunan dalam nilai Bitcoin.
+  - Mereka dapat menyebabkan penurunan dalam nilai emas.
 explanation: |
-  Mata uang fiat, seperti dolar dan euro, sangat likuid dan
-  mudah dibawa karena sekarang sebagian besar digital. Namun, nilai mereka terus
-  terkikis oleh inflasi moneter.
+  Mata uang digital bank sentral (CBDCs) berpotensi menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter. Hal ini karena mereka akan menawarkan ekonomi yang lebih terpusat, dengan bank sentral memiliki lebih banyak kontrol
+  atas pasokan uang.
 reviewed: true

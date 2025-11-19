@@ -1,0 +1,9 @@
+question: Qual é o comprimento de bits de um IPv6 Address?
+answer: 128 bits
+wrong_answers:
+  - 512 bits
+  - 64 bits
+  - 256 bits
+explanation: |
+  Um IPv6 Address tem 128 bits de comprimento, em comparação com 32 bits para um IPv4 Address.
+reviewed: false

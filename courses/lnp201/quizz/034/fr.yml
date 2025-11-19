@@ -6,4 +6,4 @@ wrong_answers:
   - La signature cryptographique de chaque nœud du chemin
 explanation: |
   Le nœud émetteur doit connaître la topologie du réseau pour calculer la route jusqu'au destinataire, permettant de choisir le meilleur chemin.
-reviewed: false
+reviewed: true 

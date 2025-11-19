@@ -1,0 +1,9 @@
+question: Yayılma terimi AES şifrelemesi bağlamında ne anlama gelir?
+answer: Düz metindeki bir değişiklik, şifreli metinde önemli bir değişikliğe neden olur
+wrong_answers:
+  - Şifreli metin her zaman aynı uzunluktadır
+  - Anahtar baytlar eşit olarak dağıtılır
+  - Hassas bilgiler her şifreli metin bloğunda karıştırılır
+explanation: |
+  Yayılma, düz metindeki küçük bir değişikliğin şifreli metinde önemli bir değişikliğe yol açarak saldırganın düz metni çıkarmasını zorlaştırması anlamına gelir.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ni igiki cari itegeko ry’idini ry’agaciro kuruta ayandi yose muri Brezile imbere y’uko risubirwamwo idini rya nyuma mu 1994?
+answer: 500.000
+wrong_answers:
+  - 1.000.000
+  - 250.000
+  - 100.000
+explanation: |
+  Igitigiri c’amafaranga menshi kuruta ibindi vyose muri Brezile carashitse ku 500.000, kandi ica nyuma .
+  
+  gusubira guhindura idini mu 1994 vyakozwe ku rugero rw'abantu 2.750 kuri 1.'
+reviewed: false

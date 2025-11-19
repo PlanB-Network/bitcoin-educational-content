@@ -1,0 +1,9 @@
+question: Mikä on tärkein ero raakatoteutuksen ja node-in-a-box-toteutuksen välillä?
+answer: Interface ja integroidut sovellukset
+wrong_answers:
+  - Verkkoyhteensopivuus
+  - Blockchain:n koko tallennettuna levylle
+  - Käytetty protokolla ja valuutta
+explanation: |
+  Raakatoteutus asentaa vain solmuohjelmiston, kun taas node-in-a-box lisää Interface:n, App Storen ja integroidut palvelut.
+reviewed: true

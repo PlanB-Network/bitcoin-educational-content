@@ -1,0 +1,9 @@
+question: Vilken är den rekommenderade metoden för att lagra lösenordet för datakryptering?
+answer: Skriv ner lösenordet på ett papper och förvara det på ett säkert ställe.
+wrong_answers:
+  - Spara lösenordet i en textfil på datorn.
+  - Dela lösenordet med betrodda vänner.
+  - Använd ett vanligt lösenord som är lätt att komma ihåg.
+explanation: |
+  Vi rekommenderar att du skriver ner lösenordet för datakryptering på papper och förvarar det på en säker plats. På så sätt förhindrar du att tillgången till krypterade data går förlorad.
+reviewed: true

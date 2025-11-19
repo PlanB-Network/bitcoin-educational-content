@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med Lightning Network som byggs ovanpå Bitcoin?
+answer: För att möjliggöra snabbare, nästan omedelbara betalningar med minimal On-Chain-interaktion.
+wrong_answers:
+  - Att ersätta Bitcoin:s Blockchain helt och hållet och lagra alla transaktioner lokalt.
+  - Att tillhandahålla ett nätverk med behörighet som styrs av en enda enhet.
+  - Att sakta ner transaktioner för att säkerställa att de förblir fullt spårbara för myndigheter.
+explanation: |
+  Lightning Network är ett "andra-Layer"-protokoll som gör det möjligt för deltagare att skapa betalningskanaler, genomföra off-chain-transaktioner och endast reglera det slutliga nettobalansen på Bitcoin Blockchain. Denna design ger högre hastigheter och lägre kostnader.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni akamaro akahe gukoresha node yawe bwite ya Bitcoin bitanga?
+answer: Ukwikukira
+wrong_answers:
+  - Amafaranga
+  - Gushira hamwe
+  - Umuvuduko
+explanation: |
+  Gukoresha node yawe bwite bituma wigenga ku bandi bantu kandi bikarinda ubuzima bwite bw’ibikorwa vyawe.
+reviewed: false

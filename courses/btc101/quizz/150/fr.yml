@@ -1,11 +1,14 @@
-question: Quel est le rôle des mineurs dans le réseau Bitcoin ?
-answer: Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs.
+question: Quel est le problème des généraux byzantins ?
+answer: C'est un problème de coordination des informations dans un système où les différents acteurs ne peuvent pas être considérés comme fiables.
 wrong_answers:
-  - Les mineurs créent de nouveaux bitcoins.
-  - Les mineurs vérifient l'identité des utilisateurs de Bitcoin.
-  - Les mineurs fixent le prix du Bitcoin.
-explanation: >-
-  Les mineurs utilisent leur puissance de calcul pour résoudre des problèmes mathématiques complexes,
-  ce qui leur permet d'ajouter de nouvelles transactions à la blockchain. Ce processus sécurise
-  le réseau et maintient son intégrité.
+  - C'est un problème de vérification des transactions dans un réseau décentralisé.
+  - C'est un problème d'empêchement du double paiement dans une monnaie numérique.
+  - C'est un problème de maintien du consensus dans un réseau centralisé.
+explanation: |
+  Le problème des généraux byzantins est un problème classique en
+  informatique distribuée, qui implique d'atteindre un consensus
+  dans un réseau où certains des nœuds peuvent être défectueux ou
+  malveillants. Bitcoin résout ce problème grâce à l'utilisation d'une
+  blockchain basée sur la Preuve de Travail, qui assure que tous
+  les nœuds sont d'accord sur l'état de l'historique des transactions.
 reviewed: true

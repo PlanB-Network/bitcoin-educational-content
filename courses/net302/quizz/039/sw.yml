@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kuu kati ya IPv4 Address ya umma na IPv4 Address ya kibinafsi?
+answer: Address ya umma ni ya kipekee na inaweza kubadilishwa kwenye Mtandao
+wrong_answers:
+  - Address ya kibinafsi ni ya kipekee na inaweza kubadilishwa kwenye Mtandao
+  - Address ya umma kila mara hutolewa na DHCP
+  - Address ya kibinafsi inatolewa kila wakati na DHCP
+explanation: |
+  IPv4 Address ya umma ni ya kipekee duniani kote na inaweza kubadilishwa kwenye Mtandao, wakati Address ya kibinafsi inatumika ndani ya mtandao wa ndani pekee.
+reviewed: false

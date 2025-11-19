@@ -1,0 +1,9 @@
+question: ¿Qué representa el valor MTU en una red?
+answer: Tamaño máximo de trama que puede transmitirse sin fragmentación
+wrong_answers:
+  - La capacidad máxima de almacenamiento de un router sin fragmentación
+  - Número máximo de hosts en una red sin fragmentación
+  - Longitud mínima del encabezado IP sin fragmentación
+explanation: |
+  La MTU (unidad de transmisión máxima) define el tamaño máximo de una trama que puede transmitirse en un segmento sin necesidad de fragmentación.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Šta treba da uradite nakon kupovine Bitkoina na menjačnici?
-answer: Povuci bitkoine i pošalji ih na svoj novčanik.
+question: Koja zemlja je proglasila Bitkoin kao zakonsko sredstvo plaćanja?
+answer: El Salvador.
 wrong_answers:
-  - Ostavite bitkoine na platformi.
-  - Prodaj bitkoine odmah.
-  - Prenesite bitkoine na drugu menjačnicu.
-explanation: |
-  Tekst kursa savetuje da nakon kupovine Bitkoina, treba odmah povući UTXO-e sa menjačnica kako bi se smanjili rizici od hakovanja i blokiranja sredstava.
+  - Sjedinjene Američke Države.
+  - Kina.
+  - Indija.
+explanation: >-
 reviewed: true

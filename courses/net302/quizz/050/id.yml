@@ -1,0 +1,9 @@
+question: Apa yang harus ditambahkan ke NAT untuk mengamankan jaringan dengan benar?
+answer: Firewall
+wrong_answers:
+  - Server DNS lokal
+  - Proxy HTTP
+  - Antivirus
+explanation: |
+  NAT saja tidak cukup untuk menyaring trafik yang berbahaya: NAT harus dilengkapi dengan aturan firewall untuk kontrol trafik yang halus.
+reviewed: false

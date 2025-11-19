@@ -1,0 +1,9 @@
+question: Který protokol dynamicky přiděluje životnost automaticky distribuovaným adresám IPv6?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 explicitně spravuje dobu životnosti prostřednictvím pronájmu, zatímco NDP ji oznamuje v konfiguračních zprávách směrovače.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mục đích chính của IPv5 (Giao thức luồng, ST) là gì?
+answer: Đảm bảo chất lượng dịch vụ cho một số luồng nhất định
+wrong_answers:
+  - Mở rộng khả năng định địa chỉ IP
+  - Cung cấp khả năng tương thích ngược với IPv6
+  - Giảm kích thước của các gói tin mạng TCP/IP
+explanation: |
+  IPv5 (ST) được thiết kế để cung cấp chất lượng dịch vụ (QoS) cho các luồng đa phương tiện, chẳng hạn như VoIP, bằng cách đảm bảo băng thông và mức độ ưu tiên.
+reviewed: false

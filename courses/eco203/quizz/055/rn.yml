@@ -1,0 +1,9 @@
+question: Ni nde abonwa ko ari umuhiganwa w’abahinguzi b’amabuye y’agaciro ataco akora muri iyi nkuru?
+answer: Izuba
+wrong_answers:
+  - Abanyamahanga bakora amabuye y'agaciro
+  - Amashanyarazi
+  - Amatara y'amavuta
+explanation: |
+  Mu nkuru yiwe y’ugutwengera mu nda, Bastiat avuga ko izuba ari ryo rihiganwa ata co rivuze, akagaragaza ubujuju bw’ingero z’uburinzi mu kurengera ivyo abahinguzi b’amabuye y’agaciro basaba.
+reviewed: false

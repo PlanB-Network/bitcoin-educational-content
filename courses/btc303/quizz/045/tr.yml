@@ -1,0 +1,8 @@
+question: Bitcoin geliştiricilerinin bugün asla kullanmayacağı sert bir fork'yi uygularken Satoshi'in kullandığı sorunlu yaklaşım neydi?
+answer: Kırıcı değişikliği, uzlaşma kuralı değişikliklerine dair hiçbir belirti vermeyen yanıltıcı bir açıklama ile bir işlemde gizlemek
+wrong_answers:
+  - Bitcoin topluluğuna önceden herhangi bir duyuru veya iletişim yapılmadan sert fork'ün uygulanması
+  - Uygun test veya topluluk inceleme süreçleri olmadan birden fazla hard fork'u tek bir sürümde birleştirmek
+  - Kullanıcılara düğüm yazılımlarını yükseltmeleri için yeterli zaman tanımadan sabit fork'in hemen etkinleştirilmesi
+explanation: |
+  Eric Lombrozo'nun analizine göre, Satoshi'nin sorunlu yaklaşımı, fikir birliğini bozan bir değişikliği, bozan değişiklikleri belirtmeden yalnızca 'makefile.unix wx-config sürüm 0.3.6 geri alındı' şeklinde yanıltıcı bir açıklama ile gizlemekti. Kritik fikir birliği değişikliklerini zararsız görünen taahhütlerde gizlemeye yönelik bu uygulama, fikir birliği değişiklikleri hakkında şeffaflık ve açık iletişimin Bitcoin geliştirmenin temel ilkeleri olduğu günümüz standartlarına göre kabul edilemez olarak değerlendirilecektir.

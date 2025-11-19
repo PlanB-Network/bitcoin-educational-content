@@ -1,0 +1,9 @@
+question: Welke open source browser, ontwikkeld door een non-profitorganisatie, is de belangrijkste exponent van de Gecko-engine?
+answer: Mozilla Firefox
+wrong_answers:
+  - Dappere
+  - Safari
+  - Chroom
+explanation: |
+  Mozilla Firefox, ontwikkeld door de Mozilla Foundation, is de toonaangevende op Gecko gebaseerde browser, bekend om zijn Commitment voor privacy.
+reviewed: false

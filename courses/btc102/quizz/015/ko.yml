@@ -1,0 +1,9 @@
+question: Bitcoin에서 빠르고 저렴한 비용으로 거래할 수 있는 시스템은 무엇인가요?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - 리플 네트워크
+  - RGB
+explanation: |
+  Lightning Network는 빠른 결제를 가능하게 하고 BTC 거래 비용을 절감하는 두 번째 Layer 솔루션입니다.
+reviewed: false

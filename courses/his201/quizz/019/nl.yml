@@ -1,0 +1,9 @@
+question: Wat was de naam van het gedistribueerde kredietprotocol dat in 2004 werd ontworpen door Ryan Fugger en meerdere keren werd genoemd door Satoshi Nakamoto in zijn geschriften?
+answer: Rimpeling
+wrong_answers:
+  - Golven
+  - Tsunami
+  - Zwellen
+explanation: |
+  In 2009 [schreef] Satoshi (https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) dat Ripple uniek was omdat het vertrouwen verspreidde in plaats van het te concentreren.
+reviewed: true

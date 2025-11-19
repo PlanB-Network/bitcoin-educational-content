@@ -1,0 +1,8 @@
+question: Lightning Network은 어떤 종류의 네트워크를 생성하나요?
+answer: 결제 채널 네트워크.
+wrong_answers:
+  - Mining 노드 네트워크입니다.
+  - Blockchain 노드 네트워크입니다.
+  - 암호화폐 거래소 네트워크입니다.
+explanation: >-
+reviewed: true

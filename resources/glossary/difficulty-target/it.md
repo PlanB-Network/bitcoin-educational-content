@@ -10,4 +10,4 @@ Questo obiettivo viene modificato ogni 2016 blocchi (circa ogni due settimane), 
 
 ![](../../dictionnaire/assets/34.webp)
 
-> *L'obiettivo di difficoltà è talvolta chiamato anche "fattore di difficoltà" Per estensione, può essere indicato con la sua codifica nelle intestazioni dei blocchi con il termine "nBits"
+> *L'obiettivo di difficoltà è talvolta chiamato anche "fattore di difficoltà".* Per estensione, può essere indicato con la sua codifica nelle intestazioni dei blocchi con il termine "nBits".

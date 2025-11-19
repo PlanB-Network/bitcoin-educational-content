@@ -1,0 +1,11 @@
+question: Hur kan du stärka standardsäkerheten för din Bitcoin Wallet?
+answer: Genom att lägga till en passphrase till din Bitcoin Wallet.
+wrong_answers:
+  - Genom att lägga till en andra privat nyckel till din Bitcoin Wallet.
+  - Genom att lägga till en andra publik nyckel till din Bitcoin Wallet.
+  - Genom att lägga till en andra Mnemonic-fras till din Bitcoin Wallet.
+explanation: |
+  Om du inte är nöjd med standardsäkerheten hos din
+  Bitcoin Wallet, kan du alltid stärka den genom att lägga till en
+  passphrase till din Bitcoin Wallet.
+reviewed: true

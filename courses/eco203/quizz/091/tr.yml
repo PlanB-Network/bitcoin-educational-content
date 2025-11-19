@@ -1,0 +1,8 @@
+question: Bastiat'ya göre mülkiyet hakkı yasalar tarafından mı yaratılmıştır yoksa yasalardan önce mi gelmiştir?
+answer: mevzuattan önce gelir
+wrong_answers:
+  - mevzuat ile oluşturulmuştur
+  - sosyal Contract tarafından yaratıldı
+  - genel iradeye bağlıdır
+explanation: |
+  Bastiat mülkiyet hakkını, sadece savunulmasını sağlaması gereken hukuktan önce gelen doğal bir hak olarak görmektedir.

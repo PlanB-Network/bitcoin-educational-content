@@ -1,0 +1,9 @@
+question: Bugün hangi node-in-a-box çözümü pazar lideri?
+answer: Şemsiye
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel, kurulum kolaylığı ve zengin App Store'u sayesinde en popüler node-in-a-box çözümüdür.
+reviewed: true

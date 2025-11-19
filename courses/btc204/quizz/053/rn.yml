@@ -1,0 +1,10 @@
+question: Ni igiki gifise intumbero y’Ivyanditswe mu Kwishura Bicereje?
+answer: Gukoresha aderesi nyinshi zitandukanye zidahinduka ata kwongera ku buryo budasanzwe igikorwa co gupima.
+wrong_answers:
+  - Kugira ngo ushiremwo amakuru y’Ivyishyurwa vy’Icereje kugira ngo uhishe uwuyakira vy’ukuri.
+  - Gukoresha amaderesi menshi atandukanye adashobora guhuzwa n'umuntu wo hanze.
+  - Gushiramwo ikimenyetso kiboneka kuri Blockchain kugira ngo umenye Ivyishyurwa Bicereje mu buryo bw’ikimenyetso c’ukwishyura.
+explanation: |
+  Ivyandiko bikoreshwa kuri generate aderesi nyinshi zidahinduka zivuye kuri Address, ivyo bikaba vyorohereza Wallet gutegura. Ariko rero, umuntu wo hanze yoshobora gushinga isano hagati y’izo aderesi zidahinduka zifise amazina, kubera ko urufunguzo rwa bose rwo gucapura ari rumwe kuri bose.
+  
+reviewed: false

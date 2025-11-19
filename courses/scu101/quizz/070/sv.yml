@@ -1,0 +1,9 @@
+question: Vad är syftet med Lightning-autentisering?
+answer: Den genererar en annan identifierare för varje tjänst, utan att tillhandahålla ett e-postmeddelande Address eller personlig information.
+wrong_answers:
+  - Tillåter vem som helst, även utan en Lightning Wallet, att autentisera sig utan ett e-postmeddelande Address, om ett giltigt ID visas.
+  - Det gör att du kan använda samma lösenord för alla tjänster.
+  - Den skickar påminnelser om att byta lösenord varje månad.
+explanation: |
+  Lightning-autentisering genererar en annan identifierare för varje tjänst, utan att tillhandahålla ett Address-e-postmeddelande eller personlig information. Detta kan förbättra integriteten och säkerheten genom att minska mängden personlig information som delas med varje tjänst.
+reviewed: true

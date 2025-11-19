@@ -1,0 +1,9 @@
+question: Где обычно настраиваются DNS-серверы в системе Linux?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  В файле /etc/resolv.conf указываются DNS-серверы и поисковые домены для разрешения имен.
+reviewed: false

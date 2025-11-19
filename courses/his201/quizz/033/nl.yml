@@ -1,0 +1,9 @@
+question: Welke Miner uit 2009 verloor al zijn bitcoins door zijn computer op de vuilnisbelt te gooien in 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NieuweVrijheidStandaard
+explanation: |
+  Deze Britse ingenieur had 8.000 bitcoins gegenereerd met zijn computer tussen februari en april 2009. Zijn zaak werd [gepubliceerd](https: //www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) door de Guardian.
+reviewed: true

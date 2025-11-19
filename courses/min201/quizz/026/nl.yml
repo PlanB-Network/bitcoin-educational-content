@@ -1,0 +1,12 @@
+question: Wat is de rol van knooppunten in het Bitcoin netwerk?
+answer: Knooppunten handhaven de integriteit door transacties en blokken te verifiëren en valideren.
+wrong_answers:
+  - Knooppunten maken en valideren blokken.
+  - Knooppunten verifiëren alleen transacties.
+  - Knooppunten hebben geen rol in het Bitcoin netwerk.
+explanation: |
+  In het Bitcoin netwerk handhaven knooppunten de integriteit van het
+  netwerk door transacties en blokken te
+  blokken. Een onjuist of frauduleus blok wordt afgewezen
+  door knooppunten, waardoor de veiligheid van het netwerk behouden blijft.
+reviewed: true

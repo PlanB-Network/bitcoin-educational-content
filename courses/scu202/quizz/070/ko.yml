@@ -1,0 +1,9 @@
+question: CalyxOS에 통합된 MicroG란 무엇인가요?
+answer: Google 서비스의 무료 재구현
+wrong_answers:
+  - 권한 관리자
+  - Android용 오픈 소스 VPN
+  - Google의 독점적인 바이러스 백신
+explanation: |
+  MicroG는 공식 바이너리를 설치하지 않고도 Google API 종속 애플리케이션을 실행할 수 있는 오픈 소스 대안입니다.
+reviewed: false

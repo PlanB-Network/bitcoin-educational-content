@@ -1,5 +1,5 @@
 ---
-name: 简单登录
+name: Simple Login
 description: 用别名保护身份
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ description: 用别名保护身份
 开源工具开发人员开发了一系列应用程序套件，正是为了让用户找回一点隐私：他们仍然可以登录，但使用的是别名，而不是暴露其私人身份的工具。
 
 
-我个人尝试过并仍在测试的最简单的登录方法是 [简单登录](https://simplelogin.io/)。
+在我个人尝试过并仍在测试的工具中，最简单的就是 [Simple Login](https://simplelogin.io/)。
 
 
 ## 别名

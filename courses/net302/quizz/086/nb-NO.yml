@@ -1,0 +1,9 @@
+question: Hvilken kommando anbefales for å analysere aktive TCP- og UDP-tilkoblinger på et Linux-system?
+answer: ss
+wrong_answers:
+  - arp
+  - ip-kobling
+  - ifup
+explanation: |
+  Kommandoen ss erstatter netstat og viser raskt alle aktive nettverkstilkoblinger.
+reviewed: false

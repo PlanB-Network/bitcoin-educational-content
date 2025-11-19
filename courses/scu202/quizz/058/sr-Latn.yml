@@ -1,0 +1,9 @@
+question: Rendering engine koji je koristio Internet Explorer od verzije 4 nadalje i dominirao tržištem početkom 2000-ih je Trident.
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Treptaj
+explanation: |
+  Trident, razvijen od strane Microsofta, predstavljen je sa Internet Explorerom 4.0 1997. godine i dominirao je internetom tokom perioda virtuelnog monopola Internet Explorera.
+reviewed: false

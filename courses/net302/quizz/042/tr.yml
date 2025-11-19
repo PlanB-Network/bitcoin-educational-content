@@ -1,0 +1,9 @@
+question: Bir alan adının hangi öğesi Üst Düzey Alan Adını (TLD) temsil eder?
+answer: En sağdaki öğe
+wrong_answers:
+  - En soldaki öğe
+  - Ana bilgisayardan sonraki ikinci seviye
+  - Ana bilgisayar adı
+explanation: |
+  TLD her zaman FQDN'nin .com, .org veya .fr gibi en sağdaki öğesidir.
+reviewed: false

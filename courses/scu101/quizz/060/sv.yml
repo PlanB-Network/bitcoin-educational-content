@@ -1,0 +1,10 @@
+question: Vad är en av de aspekter av cybersäkerhet som kräver regelbunden övervakning?
+answer: Den ständiga utvecklingen av hot
+wrong_answers:
+  - Aktiemarknaden
+  - Vädret
+  - Nyheterna
+explanation: |
+  I kapitlet nämns att den ständiga utvecklingen av hot
+  inom cybersäkerhet kräver regelbunden övervakning.
+reviewed: true

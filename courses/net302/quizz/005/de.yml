@@ -1,0 +1,9 @@
+question: Welches Dokument dient als technische Referenz für TCP/IP-Protokollspezifikationen?
+answer: RFC
+wrong_answers:
+  - Weißbuch
+  - ISO
+  - IIP
+explanation: |
+  RFCs (Request For Comments) sind die Referenzdokumente, die die Spezifikationen der TCP/IP-Protokolle definieren.
+reviewed: false

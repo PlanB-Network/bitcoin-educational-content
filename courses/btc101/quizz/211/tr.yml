@@ -1,0 +1,11 @@
+question: Bu derste anlatıldığı şekliyle Bitcoin'ın benimsenmesinin doğası nedir?
+answer: Viral.
+wrong_answers:
+  - Yavaş ve istikrarlı.
+  - Hızlı ve kontrol edilemez.
+  - Sporadik ve öngörülemez.
+explanation: |
+  Kurs metni Bitcoin'in benimsenmesini viral olarak tanımlamaktadır,
+  birinden diğerine hızlı ve geniş bir şekilde yayıldığını düşündürmektedir
+  virüs gibi, ama iyi bir virüs.
+reviewed: true

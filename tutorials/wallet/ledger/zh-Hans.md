@@ -6,6 +6,10 @@ description: 如何设置您的Ledger Nano S设备
 
 ![image](assets/cover.webp)
 
+*Ledger宣布自2025年6月25日起停止对经典Nano S的软件支持：该设备将不再接收安全更新，也不再兼容新功能，这将使用户面临漏洞和未来不兼容的风险。不过，资金仍可通过助记词访问，但强烈建议迁移到更新的型号，以确保您的比特币的安全和长期可用性。请注意，此处指的是**旧版Nano S**，而不是仍在支持的**Nano S Plus**。*
+
+___
+
 冷物理钱包 - €60 - 初学者 - 用于保护€2,000至€50,000的资金
 
 Ledger是法国提供的一种简单方式来保护比特币的解决方案。
@@ -211,6 +215,6 @@ https://armantheparman.com/ledgersparrow/
 
 为了更深入地探讨这个话题，并通过BIP39 passphrase加强您Ledger Nano钱包的安全性，我邀请您查看这个完整的教程：
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

@@ -1,0 +1,9 @@
+question: Ni ubunini ubuhe bwa dosiye blkNNNNN.dat imbere y'uko dosiye nshasha iremwa?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  Amadosiye ya blkNNNNN.dat abika amabuye mu buryo bukurikiranye kandi ashika ku bunini bwa 128 MiB imbere y’uko Bitcoin core ifungura irikurikira.
+reviewed: true

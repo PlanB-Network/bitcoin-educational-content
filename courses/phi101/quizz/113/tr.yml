@@ -1,0 +1,9 @@
+question: Hayek'in Keynesyen para politikasına yönelik temel eleştirisi nedir?
+answer: Ekonomik balonlar ve durgunluklar yaratır
+wrong_answers:
+  - Uzun vadeli yatırımları destekler
+  - Sosyal eşitsizlikleri azaltır
+  - İç talebi kontrolsüz bir şekilde artırır
+explanation: |
+  Hayek Keynesyen para politikasını, yapay aşırı yatırım döngülerini teşvik ederek ekonomik balonlara ve bu balonlar patladığında kaçınılmaz olarak durgunluklara yol açtığını belirterek eleştirmiştir.
+reviewed: true

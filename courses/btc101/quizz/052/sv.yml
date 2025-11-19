@@ -1,0 +1,9 @@
+question: Vilket av följande är inte en Bitcoin-karaktäristik?
+answer: Det blir lätt censurerat.
+wrong_answers:
+  - Den är omedelbart transportabel.
+  - Den har försumbara kostnader för verifiering.
+  - Den har en fast penningpolitik.
+explanation: |
+  Bitcoin har alla nödvändiga egenskaper för att vara en effektiv och hälsosam valuta: delbar, omedelbart transporterbar, ocensoriserbar, försumbar kostnad för verifiering och med en penningpolitik som redan är fastställd för århundraden framöver med 21 miljoner enheter.
+reviewed: true

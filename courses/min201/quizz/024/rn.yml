@@ -1,0 +1,10 @@
+question: Ico kintu citwa iki iyo impembo y’ibikorwa vya Mining Bitcoin igabanutse igice?
+answer: Halving.
+wrong_answers:
+  - Gukubita kabiri
+  - Gushiramwo ivyicaro bine
+  - Gukubita gatatu
+explanation: |
+  Ivyo kugabanya ivyiza vya Mining, Halving buri
+  imyaka ine, ni ikintu kizwi kw’izina rya Halving.
+reviewed: true

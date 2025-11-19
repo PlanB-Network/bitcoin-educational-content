@@ -1,0 +1,9 @@
+question: Jak nazywa się emblematyczna maskotka Linuksa?
+answer: Smoking
+wrong_answers:
+  - Książę
+  - Beastie
+  - daemon
+explanation: |
+  Tux jest oficjalną maskotką jądra Linux od 1996 roku, stworzoną przez Larry'ego Ewinga.
+reviewed: false

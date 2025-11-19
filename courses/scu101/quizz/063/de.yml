@@ -1,11 +1,9 @@
-question: Welche Aspekte der Kryptografie werden in der Cybersicherheit verwendet?
-answer: SSL/TLS, symmetrische/asymmetrische Verschlüsselung
+question: Welche Zertifizierung ist im Bereich der Cybersicherheit weltweit anerkannt?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Das Kapitel listet SSL/TLS und symmetrische/asymmetrische
-  Verschlüsselung als einige der Aspekte der Kryptografie auf, die in
-  der Cybersicherheit verwendet werden.
-reviewed: true
+  Die CISSP-Zertifizierung ist eine der international anerkanntesten im Bereich der Cybersicherheit.
+reviewed: false

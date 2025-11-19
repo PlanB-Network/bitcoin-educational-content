@@ -1,0 +1,9 @@
+question: ウェブリクエストの機密性を保護するために、ISPのDNSに取って代わるサービスはどれか？
+answer: クワッド9
+wrong_answers:
+  - グーグルDNS
+  - ディーエイチシーピー
+  - SMTP
+explanation: |
+  Quad9はプライバシーに重点を置いたパブリックDNSサーバーで、悪意のあるドメインをフィルタリングし、指名ログを残さない。
+reviewed: false

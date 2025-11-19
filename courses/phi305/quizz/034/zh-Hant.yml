@@ -1,0 +1,9 @@
+question: 拉馬克是誰？
+answer: 達爾文之前的一位法國博物學家。
+wrong_answers:
+  - 一位荷蘭哲學家。
+  - 斯賓諾莎的弟子。
+  - 一位經典的畫家。
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) 是一位法國博物學家，他比達爾文更早提出進化論。他的轉化論包括後天性狀的繼承。
+reviewed: false

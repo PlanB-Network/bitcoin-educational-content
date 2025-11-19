@@ -1,0 +1,9 @@
+question: MACのAddressをIPv6のAddressを生成するための64ビット識別子に変換するメカニズムは何ですか？
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  EUI-64メカニズムは、48ビットのMAC Addressを64ビットの識別子に変換し、IPv6の自動コンフィギュレーションで使用される。
+reviewed: false

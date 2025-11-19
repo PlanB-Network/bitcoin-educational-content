@@ -1,0 +1,9 @@
+question: Minkälainen protokolla olisi otettava käyttöön DNS-pyyntöjen salaamiseksi paikallisverkon tasolla?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) ja DoT (DNS over TLS) salaavat DNS-pyynnöt ja estävät niiden sieppaamisen.
+reviewed: false

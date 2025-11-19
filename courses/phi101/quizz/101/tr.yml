@@ -1,0 +1,9 @@
+question: Ludwig von Mises'e göre polilojizm nedir?
+answer: Polilojizm aklın tekliğine ve evrenselliğine meydan okur.
+wrong_answers:
+  - Polilogizm, dillerin ve kültürlerin çeşitliliğini açıklayan bir teoridir.
+  - Avusturyalılar bunu Marksist mantığın çelişkili olduğunu göstermek için kullanırlar.
+  - Polilojizm, safsataların tespit edilmesini sağlayan bir metin analizi yöntemidir.
+explanation: |
+  Ludwig von Mises'e göre polilojizm, düşünce yapılarının sınıflar veya gruplar arasında farklılık gösterdiği fikridir ve aklın evrensel olduğu ve herkes için aynı şekilde uygulanabilir olduğu fikrine meydan okur.
+reviewed: true

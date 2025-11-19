@@ -1,0 +1,9 @@
+question: Která rodina distribucí používá správce balíčků RPM?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  Formát RPM vznikl z iniciativy společnosti Red Hat a je základem distribucí Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux a dalších příbuzných distribucí.
+reviewed: false

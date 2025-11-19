@@ -1,0 +1,9 @@
+question: Mikä on IPv6 Address:n bittien pituus?
+answer: 128-bittinen
+wrong_answers:
+  - 512 bittiä
+  - 64-bittinen
+  - 256-bittinen
+explanation: |
+  IPv6 Address on 128 bittiä pitkä, kun taas IPv4 Address on 32 bittiä pitkä.
+reviewed: false

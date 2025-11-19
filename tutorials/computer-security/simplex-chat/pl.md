@@ -243,7 +243,7 @@ Następnie SimpleX generuje jednorazowy link. Możesz przekazać go swojemu kont
 
 
 
-Możesz również wybrać profil, który ma być powiązany z tym linkiem do zaproszenia. Aby to zrobić, kliknij swój profil tuż pod kodem QR. Będziesz wtedy mógł :
+Możesz również wybrać profil, który ma być powiązany z tym linkiem do zaproszenia. Aby to zrobić, kliknij swój profil tuż pod kodem QR. Będziesz wtedy mógł:
 
 
 
@@ -313,7 +313,7 @@ Jedną z najpotężniejszych funkcji SimpleX jest możliwość zarządzania kilk
 
 
 
-Na przykład, można utworzyć :
+Na przykład, można utworzyć:
 
 
 
@@ -397,4 +397,4 @@ Polecam również ten poradnik, w którym przedstawiam Threema, kolejną ciekaw�
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

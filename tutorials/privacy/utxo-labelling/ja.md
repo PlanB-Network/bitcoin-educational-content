@@ -1,5 +1,5 @@
 ---
-name: UTXOのラベリング
+name: Labelling UTXO
 description: UTXOを適切にラベル付けする方法は？
 ---
 ![cover](assets/cover.webp)

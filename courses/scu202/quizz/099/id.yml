@@ -1,0 +1,9 @@
+question: Protokol enkripsi Wi-Fi mana yang terbaik untuk mengamankan jaringan rumah Anda?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS cepat
+explanation: |
+  WPA3 adalah protokol terbaru dan paling aman, memperbaiki kekurangan versi sebelumnya dan menawarkan perlindungan yang lebih baik terhadap serangan.
+reviewed: false

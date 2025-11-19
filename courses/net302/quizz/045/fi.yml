@@ -1,0 +1,9 @@
+question: Mikä on MAC Address:n keinotekoinen muuntaminen?
+answer: MAC-spoofing
+wrong_answers:
+  - MAC Phishing
+  - MAC Sniffing
+  - Mac-kirjanpito
+explanation: |
+  MAC-huijaus on verkon Interface:n laitteiston Address:n muuttamista, usein yksityisyyden suojaamiseksi tai rajoitusten kiertämiseksi.
+reviewed: false

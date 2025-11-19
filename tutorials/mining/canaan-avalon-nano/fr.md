@@ -13,7 +13,7 @@ Aujourd'hui Canaan, un des principaux fabricants de machines ASIC décide de s'a
 
 Ces appareils sont marketés comme étant pour l'un un chauffage d'appoint en ce qui concerne le **Avalon Nano 3S (140W)**, ou carrément comme un mini radiateur d'une puissance de **800W** pour le **Avalon Mini 3**.
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Attention, la différence de prix avec des chauffages traditionnels de puissance équivalente ne permet pas, dans la grande majorité des cas, d'être gagnant financièrement. Les satoshis générés par l'activité de mining ne compenseront jamais cet écart de prix, à moins d'avoir accès à de l'électricité gratuite (surplus), ou très bon marché.
 
@@ -109,9 +109,9 @@ Dans notre cas nous choisissons:
 
 Pour plus de détails sur la manière de se connecter à une pool de minage, veuillez vous référer à ces tutoriels :
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 En synthèse il nous faut:
 
@@ -180,4 +180,4 @@ Nous voilà arrivés au bout de ce tuto qui nous aura appris comment connecter n
 
 Pour aller plus loin, vous pouvez consulter notre tutoriel consacré à la version supérieure des Avalon : le Mini 3.
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

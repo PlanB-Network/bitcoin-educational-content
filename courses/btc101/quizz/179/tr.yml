@@ -1,0 +1,8 @@
+question: Bitcoinleri satın almadan elde etmenin bir yolu nedir?
+answer: Sunduğunuz ürün veya hizmetler için bir ödeme aracı olarak kabul edin.
+wrong_answers:
+  - Onları bir arkadaşınızdan ödünç alın ve asla geri vermeyin.
+  - Piyangodan kazan.
+  - Onları sokakta bul.
+explanation: >-
+reviewed: true

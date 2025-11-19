@@ -14,13 +14,13 @@ RASPIBLITZ - Come eseguire un nodo Lightning e Bitcoin Full Node di BTC session
 
 # Guida all'installazione di Raspiblitz di Parman
 
-Il Raspiblitz è un eccellente sistema per eseguire un nodo Bitcoin e le relative app. Raccomando questo e il nodo My Node alla maggior parte degli utenti (avere due nodi per la ridondanza sarebbe ideale). Un vantaggio importante è che il nodo Raspiblitz è "Software Open Source gratuito", a differenza di MyNode o Umbrel. Perché è importante? Vlad Costa spiega. Puoi anche eseguire il RaspbiBlitz con una connessione WiFi anziché Ethernet - ecco una guida supplementare per questo. (Non ho trovato un modo per farlo con MyNode).
+Il Raspiblitz è un sistema eccellente per eseguire un nodo Bitcoin e le relative app. Consiglio questo e il nodo MyNode alla maggior parte degli utenti (idealmente avere due nodi per ridondanza). Un grande vantaggio è che il nodo Raspiblitz è “Free Open Source Software”, a differenza di MyNode o Umbrel. [Perché è importante? Vlad Costa lo spiega.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Puoi anche eseguire il Raspiblitz con una connessione WiFi invece che ethernet – ecco una [guida supplementare](https://armantheparman.com/headless-wifi/) per questo. (Non ho trovato un modo per farlo con MyNode).
 
 Puoi acquistare un nodo già pronto con uno schermo miniaturizzato allegato, oppure puoi costruirlo tu stesso (non hai bisogno di uno schermo).
 
-La guida sulla pagina di GitHub è eccellente, ma potrebbe essere troppo dettagliata per un utente moderatamente esperto. Le mie istruzioni saranno più concise e sperabilmente più facili da seguire.
+La [guida sulla pagina GitHub](https://github.com/rootzoll/raspiblitz) è eccellente, ma forse troppo dettagliata per un utente con esperienza moderata. Le mie istruzioni saranno più concise e, si spera, più facili da seguire.
 
-Essenzialmente, il processo è molto simile al processo di configurazione di un nodo MyNode con un Raspberry Pi 4. La guida Raspiblitz suggerisce di acquistare un monitor, ma in realtà non ne hai bisogno e non lo consiglierei. Non hai nemmeno bisogno di una tastiera o di un mouse aggiuntivi. Accedi semplicemente al menu terminale del dispositivo tramite un computer sulla stessa rete domestica e utilizza il comando ssh tramite il terminale. Questo è possibile con Linux/Mac (facile) e un po' più difficile con Windows.
+Fondamentalmente, il processo è molto simile a quello per configurare un [nodo MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) con un Raspberry Pi 4. La guida Raspiblitz suggerisce di acquistare un monitor, ma in realtà non ne hai bisogno e non lo consiglierei. Non hai nemmeno bisogno di una tastiera o di un mouse aggiuntivi. Basta accedere al menu del terminale del dispositivo tramite un computer sulla stessa rete domestica e usare il comando ssh dal terminale. Questo è possibile con Linux/Mac (facile) e un po' più difficile con Windows.
 
 ## Passo 1: Acquista l'attrezzatura.
 
@@ -49,11 +49,11 @@ Questo è più veloce, ma inutilmente costoso:
 
 ## Passo 2: Scarica l'immagine di Raspiblitz
 
-Vai al sito web di Raspiblitz su Github e trova il link "download image":
+Vai al [sito GitHub di Raspiblitz](https://github.com/rootzoll/raspiblitz) e trova il link “download image”:
 
 ![image](assets/4.webp)
 
-L'hash sha-256 del file scaricato è fornito sul sito web. Cambierà con ogni aggiornamento. Se non capisci di cosa si tratta, dovresti farlo, quindi ho scritto una guida che puoi leggere qui.
+L'hash sha-256 del file scaricato è fornito sul sito web. Cambierà con ogni aggiornamento. Se non capisci di cosa si tratta, dovresti, quindi ho scritto una [guida che puoi leggere qui.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 
@@ -61,9 +61,10 @@ L'hash sha-256 del file scaricato è fornito sul sito web. Cambierà con ogni ag
 
 Prima di procedere, se non conosci il sistema di file sulla riga di comando, è facile imparare e dovresti farlo.
 
-Ecco un video utile per Linux, ma si applica anche a Mac.
+Ecco un [video utile per Linux, ma vale anche per Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Per Windows, ecco un semplice tutorial.
+Per Windows, ecco un [semplice tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_AGGIORNAMENTO: La verifica pgp/gpg è ora disponibile. Avrai bisogno della chiave pubblica di Openoms. [Ecco](http://parman.org/downloadable/openoms.txt) (potresti aver bisogno della modalità in incognito affinché il link funzioni – http, non https)_
 Mac/Linux
 
 Aspetta che il file finisca di scaricare (importante!), quindi apri il terminale, vai nella cartella in cui hai scaricato il file e digita il seguente comando...
@@ -89,7 +90,7 @@ Il computer ci pensa per circa 20 secondi. Verifica che l'hashfile di output cor
 
 ## Passo 4: Flash della scheda SD
 
-Puoi usare Balena Etcher per farlo. Scaricalo qui.
+Puoi usare Balena Etcher per farlo. [Scaricalo qui](https://www.balena.io/etcher/).
 
 Etcher è autoesplicativo da usare. Inserisci la tua scheda micro SD e flasha il software Raspiblitz (.img file) sulla scheda SD.
 
@@ -144,7 +145,7 @@ Per Mac/Linux, nel terminale digita:
 ssh admin@indirizzo_IP_del_tuo_Pi
 ```
 
-Per Windows, dovrai installare putty per accedere al Pi tramite SSH. Digita lo stesso comando di cui sopra.
+Per Windows, è necessario installare [putty](http://putty.org/) per connettersi al Pi tramite ssh. Digita lo stesso comando di sopra.
 
 La prima volta che lo fai, o ogni volta che cambi il sistema operativo del Pi cambiando la scheda SD, potresti ricevere o meno questo errore...
 

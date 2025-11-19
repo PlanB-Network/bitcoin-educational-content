@@ -1,0 +1,8 @@
+question: Jaka jest główna różnica między anonimowością a pseudonimowością w kontekście transakcji Bitcoin?
+answer: W systemach pseudonimowych, takich jak Bitcoin, płatności można śledzić między pseudonimami, podczas gdy w systemach anonimowych nie ma takiego śladu
+wrong_answers:
+  - Systemy pseudoanonimowe używają prawdziwych nazw, podczas gdy systemy anonimowe używają fałszywych nazw dla wszystkich transakcji
+  - Systemy anonimowe wymagają kluczy publicznych, podczas gdy systemy pseudoanonimowe używają tylko kluczy prywatnych do identyfikacji
+  - "Systemy pseudoanonimowe ukrywają kwoty transakcji, podczas gdy systemy anonimowe ukrywają jedynie tożsamość nadawcy"
+explanation: |
+  Bitcoin jest pseudonimowy, a nie anonimowy, ponieważ wszystkie transakcje między adresami (pseudonimami) są identyfikowalne w łańcuchu bloków. W prawdziwie anonimowym systemie nie byłoby śladu tego, skąd pochodzą pieniądze i dokąd zmierzają, co teoretycznie można by osiągnąć dzięki dowodom zerowej wiedzy. Jednak przejrzystość Bitcoin pozwala każdemu śledzić przepływ bitcoinów między różnymi adresami, czyniąc go raczej pseudonimowym niż anonimowym. Pseudonimy w Bitcoin to adresy pochodzące z kluczy publicznych, a nie arbitralne nazwy użytkowników lub prawdziwe tożsamości.

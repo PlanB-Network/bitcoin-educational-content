@@ -1,0 +1,12 @@
+question: Wokora iki amajambo y’invugo yawe ya Mnemonic amaze kwandikwa?
+answer: Kora kopi ya kabiri maze uyibike ahantu hatandukanye.
+wrong_answers:
+  - Ubisangize umugenzi wizigira.
+  - Uyirungikire wewe nyene.
+  - Bibike muri telefone yawe.
+explanation: |
+  Amajambo y’interuro yawe ya Mnemonic amaze kwandikwa, ni .
+  birasabwa gukora kopi ya kabiri maze ukayibika mu .
+  ikibanza gitandukanye n’ica mbere. Ivyo bitanga ububiko mu 2019.
+  igihe co gutakaza canke gukora impanuka n’ikopi ya mbere.
+reviewed: true

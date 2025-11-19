@@ -1,0 +1,9 @@
+question: Ni thamani gani ya nambari ya toleo la kawaida la itifaki ya Mtandao (IPv4)?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 inalingana na thamani 4 katika uwanja wa "Toleo" la kichwa cha IP.
+reviewed: false

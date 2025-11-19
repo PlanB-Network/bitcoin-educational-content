@@ -1,0 +1,9 @@
+question: Che cos'è una distribuzione Linux?
+answer: Un sistema operativo completo costruito attorno al kernel Linux
+wrong_answers:
+  - Un gestore di pacchetti
+  - Un ambiente desktop Linux
+  - Uno script di installazione automatica per il sistema operativo Linux
+explanation: |
+  Una distribuzione Linux integra il kernel, gli strumenti di sistema, il software, il bootloader e la gestione dei pacchetti per fornire un sistema pronto all'uso.
+reviewed: false

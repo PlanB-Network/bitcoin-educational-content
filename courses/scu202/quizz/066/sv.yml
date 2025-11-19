@@ -1,0 +1,9 @@
+question: Vilka lokala data gör det möjligt för annonsörer att spåra dina surfvanor på flera olika webbplatser?
+answer: Cookies från tredje part
+wrong_answers:
+  - JavaScript-kod
+  - Lokal historia
+  - SSL-certifikatet
+explanation: |
+  Tredjepartscookies, som placeras av externa reklambyråer, används för att spåra användaraktivitet på olika webbplatser och skapa en reklamprofil.
+reviewed: false

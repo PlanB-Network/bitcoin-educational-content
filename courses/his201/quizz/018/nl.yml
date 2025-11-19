@@ -1,0 +1,9 @@
+question: Wat was er uniek aan RPOW vergeleken met andere concepten voor digitale valuta zoals eCash, b-geld en bitgoud?
+answer: Het was gebaseerd op een transparante server
+wrong_answers:
+  - Het gebruikte Proof of Work
+  - De rekeneenheid was nergens door gedekt
+  - Gebruikers hadden digitale biljetten van specifieke denominaties in plaats van rekeningen
+explanation: |
+  Het gebruikte Proof of Work zoals b-geld en bitgoud, maar er was geen back-up, zoals bij bitgoud. Net als eCash (en later Bitcoin) maakte RPOW het bezit van individuele digitale biljetten mogelijk in plaats van een rekening en het was in dit opzicht relatief vertrouwelijk.
+reviewed: true

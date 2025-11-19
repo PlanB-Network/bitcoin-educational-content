@@ -1,0 +1,9 @@
+question: Vad innebär "onion routing" i Lightning Network?
+answer: Det innebär att varje mellannod bara känner till sina närmaste grannar på vägen.
+wrong_answers:
+  - Att direkt överföra pengar från nod till nod med kännedom om den slutliga mottagaren
+  - För att beräkna avgifter för varje mellanliggande nod oberoende
+  - För att skicka pengar till alla noder på vägen samtidigt
+explanation: |
+  Onion-routing innebär att varje mellannod endast känner till föregående och nästa nod, vilket innebär att slutmottagarens konfidentialitet bevaras.
+reviewed: false

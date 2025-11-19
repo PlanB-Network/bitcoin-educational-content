@@ -1,0 +1,10 @@
+question: Linux와 Mac에 백신이 자주 필요한가요?
+answer: 이것은 거짓입니다
+wrong_answers:
+  - 사실입니다
+  - Linux에만 바이러스 백신이 필요합니다.
+  - Mac에만 백신이 필요합니다.
+explanation: |
+  Linux와 Mac은 사용자 권한 분리 덕분에
+  시스템 덕분에 바이러스 백신이 필요하지 않은 경우가 많습니다.
+reviewed: true

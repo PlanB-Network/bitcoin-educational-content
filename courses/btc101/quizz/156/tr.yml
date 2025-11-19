@@ -1,0 +1,8 @@
+question: Bitcoin protokolünde iki bloğun oluşturulması arasındaki ortalama süre nedir?
+answer: 10 dakika.
+wrong_answers:
+  - 5 dakika.
+  - 15 dakika.
+  - 20 dakika.
+explanation: >-
+reviewed: true

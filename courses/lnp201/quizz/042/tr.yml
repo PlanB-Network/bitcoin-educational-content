@@ -1,0 +1,9 @@
+question: Hangi kriter bir düğümün verimli bir ödeme rotası seçmesine yardımcı olabilir?
+answer: Kanalların toplam kapasitesine bağlı olarak başarı olasılığı
+wrong_answers:
+  - Düğümler arasındaki coğrafi mesafe
+  - Düşük ücret seviyesine sahip düğümlerin varlığı
+  - Hedef düğüm tarafından yapılan ödeme sayısı
+explanation: |
+  Kanalların toplam kapasitesi, işlemler için daha büyük bir likidite mevcudiyetine işaret ettiğinden, daha yüksek bir başarı olasılığına işaret edebilir.
+reviewed: false

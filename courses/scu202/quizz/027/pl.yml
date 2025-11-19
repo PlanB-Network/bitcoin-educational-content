@@ -1,0 +1,9 @@
+question: Które narzędzie graficzne w Ubuntu ułatwia zarządzanie regułami zapory sieciowej?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptyczny
+explanation: |
+  GUFW to graficzny Interface dla firewalla UFW, umożliwiający aktywację, dezaktywację i konfigurację reguł bez przechodzenia przez terminal.
+reviewed: false

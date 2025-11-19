@@ -1,0 +1,9 @@
+question: Welk beveiligingsprobleem ontstaat er als hetzelfde bericht meerdere keren wordt versleuteld in het vereenvoudigde RSA cryptosysteem?
+answer: Het bericht zal altijd dezelfde codering opleveren
+wrong_answers:
+  - Het bericht is kwetsbaar voor brute force-aanvallen
+  - Het bericht wordt omgekeerd
+  - Het bericht wordt onmogelijk te ontcijferen
+explanation: |
+  In een vereenvoudigde RSA zal het meerdere keren versleutelen van een bericht altijd hetzelfde resultaat opleveren, wat de versleuteling kwetsbaar maakt voor aanvallen.
+reviewed: false

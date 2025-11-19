@@ -1,0 +1,9 @@
+question: Bastiat'ya göre hukukçuların ilkesi nedir?
+answer: Hukukun mülkiyete önceliği ilkesidir
+wrong_answers:
+  - Mülkiyetin yasalara göre önceliği ilkesidir
+  - Kanun önünde eşitlik ilkesidir
+  - Devlet müdahalesi olmaksızın mülkiyet hakkıdır
+explanation: |
+  Bastiat'ya göre hukukçuların ilkesi, iktisatçılarınkinin aksine, hukuku mülkiyetten önce gelen bir konuma yerleştirir ki Bastiat bu konumu adaletsizlik yaratma potansiyeli nedeniyle eleştirir.
+reviewed: false

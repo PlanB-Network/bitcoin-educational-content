@@ -1,0 +1,9 @@
+question: Które ustawienie zmusza Bitcoin core do łączenia się tylko przez sieć Tor?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Opcja onlynet=onion ogranicza wszystkie połączenia wychodzące do sieci Tor, podczas gdy listenonion=1 pozwala tylko na nasłuchiwanie przychodzących połączeń Tor.
+reviewed: true

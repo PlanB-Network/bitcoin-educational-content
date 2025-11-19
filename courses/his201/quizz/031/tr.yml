@@ -1,0 +1,9 @@
+question: Google mühendisi Mike Hearn, Bitcoin'ı keşfetmeden önce hangi dijital para sistemiyle ilgileniyordu?
+answer: Dalgalanma
+wrong_answers:
+  - Özgürlük Rezervi
+  - eLD
+  - RPOW
+explanation: |
+  Ryan Fugger Bitcoin'i ilk olarak Nisan 2009'da Google Group projesinde duydu. Soru sormak için hemen Satoshi ile temasa geçti.
+reviewed: true

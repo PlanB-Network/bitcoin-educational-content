@@ -1,0 +1,9 @@
+question: Yedeklemelerinizi otomatikleştirirken, düzenli olarak hangi temel önlemlerin alınması gerekiyor?
+answer: Test restorasyonu
+wrong_answers:
+  - İnternet servis sağlayıcınızı değiştirin
+  - Tatil yedeklemelerini devre dışı bırakma
+  - Şifrelemenin test edilmesi
+explanation: |
+  Dosyaların bozulmadığından veya gerektiğinde erişilemediğinden emin olmak için düzenli olarak bir yedeği geri yüklemek önemlidir.
+reviewed: false

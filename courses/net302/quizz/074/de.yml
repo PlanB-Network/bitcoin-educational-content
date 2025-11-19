@@ -1,0 +1,9 @@
+question: Welche Organisation verwaltet die anfängliche Zuweisung von IPv6-Address-Blöcken weltweit?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  Die IANA steht an der Spitze der Zuteilungshierarchie und delegiert IPv6-Blöcke an die fünf Regional Internet Registries (RIRs).
+reviewed: false

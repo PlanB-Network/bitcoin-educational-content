@@ -1,0 +1,9 @@
+question: 与 Tor 相比，Tailscale 在远程访问 Umbrel 方面的主要优势是什么？
+answer: 更快的连接
+wrong_answers:
+  - 比 WireGuard 更强的加密功能
+  - 与企业路由器兼容
+  - 能够离线使用电子表格
+explanation: |
+  Tailscale 具有 WireGuard 的安全性，但与速度较慢的 Tor 不同，它具有 Clearnet 连接的速度。
+reviewed: true

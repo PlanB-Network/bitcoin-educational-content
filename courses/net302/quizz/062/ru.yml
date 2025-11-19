@@ -1,0 +1,9 @@
+question: Какая нотация используется для вставки IPv6 Address в URL?
+answer: IPv6 Address заключен в квадратные скобки
+wrong_answers:
+  - IPv6 Address заключен в скобки
+  - IPv6 Address заключен в кавычки
+  - IPv6 Address записывается в сыром виде
+explanation: |
+  Квадратные скобки используются для разделения IPv6 Address и порта в URL, чтобы избежать двусмысленности.
+reviewed: false

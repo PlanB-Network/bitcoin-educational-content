@@ -1,0 +1,9 @@
+question: Kes on Saint-Augustin?
+answer: Üks kirikuisadest.
+wrong_answers:
+  - Valgustusfilosoof.
+  - Astronoom.
+  - Leiutaja.
+explanation: |
+  Püha Augustinus (354-430) on üks kirikuisadest. Filosoof ja teoloog, kes mõjutas sügavalt lääne kristlikku mõtlemist selliste teostega nagu "Tunnistused" ja "Jumala linn".
+reviewed: false

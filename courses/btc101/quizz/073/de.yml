@@ -1,11 +1,9 @@
-question: Was ist der private Schlüssel in einem Bitcoin-Wallet?
-answer: Ein geheimer Schlüssel, der es Ihnen ermöglicht, Ihre Transaktionen zu signieren.
+question: Wie hoch ist die Wahrscheinlichkeit, dass jemand zufällig Ihre Liste von 12 oder 24 Wörtern in einem Bitcoin-Wallet errät?
+answer: Astronomisch niedrig.
 wrong_answers:
-  - Ein öffentlicher Schlüssel, der zur Generierung von Bitcoin-Adressen verwendet wird.
-  - Eine geheime Liste von Wörtern, um ein Wallet im Bedarfsfall zu zerstören.
-  - Ein geheimer Schlüssel zur Verschlüsselung von Bitcoin-Transaktionen.
-explanation: >-
-  Bei der Einrichtung eines Bitcoin-Wallets wird eine geheime Liste von Wörtern, genannt mnemonischer Seed, generiert.
-  Diese Wiederherstellungsliste ist sehr wichtig, da sie das Eigentum
-  an den Bitcoins und damit das Recht, sie zu versenden, repräsentiert.
+  - Hoch.
+  - Mäßig.
+  - Stark.
+explanation: |
+  Dank der Kryptografie, die zur Erstellung des Wallets verwendet wird, ist die Wahrscheinlichkeit, dass jemand zufällig Ihre Liste von 12 oder 24 Wörtern errät, astronomisch niedrig. Es ist wie die Suche nach der richtigen Zahl zwischen 1 und $2^256$, was fast dem Finden eines bestimmten Atoms im Universum gleichkommt.
 reviewed: true

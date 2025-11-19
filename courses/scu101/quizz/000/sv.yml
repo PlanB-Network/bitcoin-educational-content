@@ -1,0 +1,15 @@
+question: Vad är den största skillnaden mellan att surfa privat och att använda TOR-nätverket?
+answer: Tor maskerar användarens IP Address, medan Private browsing inte gör det.
+wrong_answers:
+  - Privat surfning och TOR är samma sak.
+  - Privat surfning maskerar användarens IP Address, medan TOR inte gör det.
+  - TOR lämnar lokala spår på din dator, medan privat surfning inte gör det.
+explanation: |
+  Privat surfning är en funktion som hindrar webbläsare
+  webbläsare från att lagra webbhistorik, temporära internetfiler
+  internetfiler, formulärdata, cookies samt användarnamn och lösenord.
+  Den döljer dock inte surfningen från din internetleverantör
+  tjänsteleverantör. Å andra sidan erbjuder TOR-nätverket
+  anonymitet genom att maskera användarens IP Address och tillåta
+  tillgång till Darknet.
+reviewed: true

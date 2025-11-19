@@ -1,0 +1,9 @@
+question: Vad är en Linux-distribution?
+answer: Ett komplett operativsystem uppbyggt kring Linux-kärnan
+wrong_answers:
+  - En pakethanterare
+  - En Linux-skrivbordsmiljö
+  - Ett automatiserat installationsskript för operativsystemet Linux
+explanation: |
+  En Linux-distribution integrerar kärnan, systemverktyg, programvara, bootloader och pakethantering för att tillhandahålla ett färdigt system.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vilket är ett av de grundläggande axiomen inom österrikisk ekonomi?
+answer: Ett av de grundläggande axiomen är positiva tidspreferenser, som baseras på individuella val av varor eller tjänster idag snarare än imorgon.
+wrong_answers:
+  - Ett av de grundläggande axiomen är att räntesatserna sätts godtyckligt.
+  - Ett av de grundläggande axiomen är att man förlitar sig på empiriska data.
+  - Ett av de grundläggande axiomen är att tillfälliga experiment används för att bekräfta eller
+explanation: |
+  Inom österrikisk ekonomi är ett av de grundläggande axiomen positiva tidspreferenser
+  preferenser, som baseras på individuella val av varor eller tjänster idag snarare än
+  än i morgon på grund av osäkerhet om framtiden.
+reviewed: true

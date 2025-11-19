@@ -1,0 +1,9 @@
+question: Vad är värdegrunden enligt Frédéric Bastiat?
+answer: Verktyg
+wrong_answers:
+  - Arbete
+  - Knapphet
+  - Efterfrågan
+explanation: |
+  Bastiat anammar Says idé om att nyttan är grunden för värdet, i motsats till teorier som bygger på arbete eller knapphet.
+reviewed: false

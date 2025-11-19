@@ -1,0 +1,8 @@
+question: Neden Exchange'da daha fazlasını almak için her zaman daha azını verdiğimizi söylüyoruz?
+answer: Çünkü her zaman daha çok değer verdiğimiz bir şey için daha az değer verdiğimiz bir şeyden vazgeçeriz
+wrong_answers:
+  - Çünkü bu, ürünlerimizi değerinden daha fazlasına sattığımız bir aptal oyunudur
+  - Çünkü paranın bir değeri vardır, her satış bir zenginliktir
+  - Çünkü satıcılar her zaman alıcılardan daha akıllıdır
+explanation: |
+  Daha fazla değer verdiğimiz şeyi elde etmek için daha az değer verdiğimiz şeyi veririz, bu da Exchange'i karşılıklı olarak faydalı hale getirir.

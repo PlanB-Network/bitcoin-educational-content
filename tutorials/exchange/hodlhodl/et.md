@@ -12,9 +12,8 @@ Hodl Hodl on detsentraliseeritud Bitcoin vahetusplatvorm, mis eelistab kasutaja 
 
 https://hodlhodl.com/pages/faq_help
 
-## kirjutamisjuhend:
+## Alustage oma teekonda Hodl Hodl-is
 
-Alusta oma teekonda HodlHodliga: Samm-sammult juhend
 
 ![pilt](assets/5.webp)
 
@@ -45,43 +44,43 @@ Selleks, et alustada BTC kauplemist, peate esmalt esitama oma BTC aadressi. Seda
 
 Juhendaja Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Külastage hodlhodl.com ja looge oma konto. Ainsad andmed, mida peate esitama, on kasutajanimi ja e-posti aadress. Seejärel suunatakse teid avalehele.
+- Külastage hodlhodl.com ja looge oma konto. Ainsad andmed, mida peate esitama, on kasutajanimi ja e-posti aadress. Seejärel suunatakse teid avalehele.
 
 ![cover](assets/11.webp)
 
-2. Klõpsake veebisaidi päises nuppu ‘Buy BTC’.
+- Klõpsake veebisaidi päises nuppu ‘Buy BTC’.
 
 ![cover](assets/12.webp)
 
-3. Valige soovitud maksetüüp ja -meetod. Vajadusel saate siin määrata ka konkreetse summa.
+- Valige soovitud maksetüüp ja -meetod. Vajadusel saate siin määrata ka konkreetse summa.
 
 ![cover](assets/13.webp)
 
-4. Valige soovitud pakkumine. Seejärel saate üle vaadata tehingu üksikasjad ning lugeda ka kaupleja tegevusaruandeid ja hinnanguid.
+- Valige soovitud pakkumine. Seejärel saate üle vaadata tehingu üksikasjad ning lugeda ka kaupleja tegevusaruandeid ja hinnanguid.
 
 ![cover](assets/14.webp)
 
-5. Kui olete rahul, saate määrata, kui palju soovite osta, sisestada aadressi, kuhu soovite bitcoini saata, ja kinnitada müüja poolt reklaamitud maksemeetodi. Klõpsake ‘Accept offer and create contract’.
+- Kui olete rahul, saate määrata, kui palju soovite osta, sisestada aadressi, kuhu soovite bitcoini saata, ja kinnitada müüja poolt reklaamitud maksemeetodi. Klõpsake ‘Accept offer and create contract’.
 
 ![cover](assets/15.webp)
 
-6. Nüüd on teie leping loodud ja peate vajutama ‘Generate Escrow’, kus teilt küsitakse makseparooli loomist. Makseparool on kasutaja deposiidi võtmepaari krüpteerimisvõti. Seda kasutatakse bitcoini deposiiti lisamiseks või sellest vabastamiseks.
+- Nüüd on teie leping loodud ja peate vajutama ‘Generate Escrow’, kus teilt küsitakse makseparooli loomist. Makseparool on kasutaja deposiidi võtmepaari krüpteerimisvõti. Seda kasutatakse bitcoini deposiiti lisamiseks või sellest vabastamiseks.
 
 ![cover](assets/16.webp)
 
-7. Nüüd peate ootama, kuni müüja deposiitib oma bitcoini deposiidi rahakotti. Lepingu alustamise järel saate müüjaga vestelda lehe paremal küljel asuvas vestlusaknas.
+- Nüüd peate ootama, kuni müüja deposiitib oma bitcoini deposiidi rahakotti. Lepingu alustamise järel saate müüjaga vestelda lehe paremal küljel asuvas vestlusaknas.
 
 ![cover](assets/17.webp)
 
-8. Kui müüja on oma vahendid deposiiti deposiitnud, näete seda ekraani, mis soovitab teil mitte saata oma raha enne, kui on toimunud piisav arv plokiahela kinnitusi (see varieerub sõltuvalt tehingu tingimustest). Müüja deposiidi tehingu edenemise kontrollimiseks klõpsake sinisel lingil ‘Deposit Transaction ID’.
+- Kui müüja on oma vahendid deposiiti deposiitnud, näete seda ekraani, mis soovitab teil mitte saata oma raha enne, kui on toimunud piisav arv plokiahela kinnitusi (see varieerub sõltuvalt tehingu tingimustest). Müüja deposiidi tehingu edenemise kontrollimiseks klõpsake sinisel lingil ‘Deposit Transaction ID’.
 
 ![cover](assets/18.webp)
 
-9. Kui kinnitamine on toimunud, teavitatakse teid ja seejärel saate saata raha müüjale antud detailidele. Pärast seda klõpsake ‘Ive Sent The Payment’.
+- Kui kinnitamine on toimunud, teavitatakse teid ja seejärel saate saata raha müüjale antud detailidele. Pärast seda klõpsake ‘Ive Sent The Payment’.
 
 ![cover](assets/19.webp)
 
-10. Seejärel peate ootama, kuni müüja kinnitab, et on raha kätte saanud, mille järel bitcoini vabastatakse teie poolt lepingu alguses määratud aadressile. Teil on ka võimalus hinnata oma kauplejat.
+- Seejärel peate ootama, kuni müüja kinnitab, et on raha kätte saanud, mille järel bitcoini vabastatakse teie poolt lepingu alguses määratud aadressile. Teil on ka võimalus hinnata oma kauplejat.
 
 ![cover](assets/20.webp)
 

@@ -1,0 +1,9 @@
+question: Jaký open-source software se běžně používá jako referenční pro servery DNS?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Chobotnice
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) je referenční implementace s otevřeným zdrojovým kódem, kterou používá většina serverů DNS na celém světě.
+reviewed: false

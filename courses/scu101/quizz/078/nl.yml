@@ -1,0 +1,9 @@
+question: Wat is een fundamenteel criterium bij het aanmaken van een nieuw e-mailaccount?
+answer: Gebruik een uniek en sterk wachtwoord.
+wrong_answers:
+  - Hergebruik het wachtwoord van andere accounts.
+  - Kies een eenvoudig wachtwoord om het gemakkelijk te onthouden.
+  - Kies een wachtwoord met de naam van je huisdier.
+explanation: |
+  Een uniek en sterk wachtwoord is essentieel om te voorkomen dat hackers toegang krijgen tot het e-mailaccount.
+reviewed: true

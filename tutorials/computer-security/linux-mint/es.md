@@ -16,29 +16,29 @@ Una computadora infectada con malware puede leer tus direcciones de Bitcoin, exp
 
 ## ¿Cuál es la solución?
 
-Recomiendo a la mayoría de los usuarios de Bitcoin que utilicen una computadora dedicada libre de malware (con acceso a Internet) para realizar transacciones de Bitcoin. Sugiero que las personas utilicen un sistema operativo de código abierto como Linux Mint, pero si es necesario, pueden usar Windows o Mac, eso es mejor que usar una computadora regular y muy utilizada que inevitablemente tiene malware oculto en ella.
+Recomendamos a la mayoría de los usuarios de Bitcoin que utilicen una computadora dedicada libre de malware (con acceso a Internet) para realizar transacciones de Bitcoin. Sugerimos que las personas utilicen un sistema operativo de código abierto como Linux Mint, pero si es necesario, pueden usar Windows o Mac, eso es mejor que usar una computadora regular y muy utilizada que inevitablemente tiene malware oculto en ella.
 
 Un obstáculo con el que se encuentran las personas es la instalación de un nuevo sistema operativo en dichas computadoras. Esta guía está diseñada para ayudar con eso.
 
-Existen muchas variedades de Linux y he probado varias. Mi recomendación para los usuarios de Bitcoin es Linux Mint, porque es fácil de instalar, muy rápido (especialmente al iniciar y apagar), no está sobrecargado (cada software adicional es un riesgo) y rara vez se ha bloqueado o se ha comportado de manera extraña (en comparación con otras versiones como Ubuntu y Debian).
+Existen muchas variedades de Linux y hemos probado varias. Nuestra recomendación para los usuarios de Bitcoin es Linux Mint, porque es fácil de instalar, muy rápido (especialmente al iniciar y apagar), no está sobrecargado (cada software adicional es un riesgo) y rara vez se ha bloqueado o se ha comportado de manera extraña (en comparación con otras versiones como Ubuntu y Debian).
 
-Algunos pueden ser muy reacios a un nuevo sistema operativo y prefieren Windows o Mac OS. Lo entiendo, pero los sistemas operativos de Windows y Apple son de código cerrado, por lo que tenemos que confiar en lo que están haciendo; no creo que esa sea una buena política, pero no es todo o nada. Preferiría que las personas utilicen una computadora recién instalada con Windows o Mac OS en lugar de una computadora muy utilizada (con quién sabe qué malware se ha acumulado en ella). Un paso mejor es utilizar una computadora Linux recién instalada, que es lo que voy a demostrar.
+Algunos pueden ser muy reacios a un nuevo sistema operativo y prefieren Windows o Mac OS. Lo entendemos, pero los sistemas operativos de Windows y Apple son de código cerrado, por lo que tenemos que confiar en lo que están haciendo; no creemos que esa sea una buena política, pero no es todo o nada. Preferiríamos que las personas utilicen una computadora recién instalada con Windows o Mac OS en lugar de una computadora muy utilizada (con quién sabe qué malware se ha acumulado en ella). Un paso mejor es utilizar una computadora Linux recién instalada, que es lo que vamos a demostrar.
 
-Si estás nervioso por usar Linux debido a lo desconocido, eso es natural, pero también lo es dedicar algo de tiempo para aprender. Hay tanta información disponible en línea. Aquí tienes un excelente video corto que introduce los conceptos básicos de la línea de comandos y que recomiendo encarecidamente.
+Si estás nervioso por usar Linux debido a lo desconocido, eso es natural, pero también lo es dedicar algo de tiempo para aprender. Hay tanta información disponible en línea. Aquí tienes un excelente video corto que introduce los conceptos básicos de la línea de comandos y que recomendamos ampliamente.
 Elige una computadora
 
-Comenzaré con lo que creo que es la mejor opción. Luego daré mi opinión sobre las alternativas.
+Comenzaremos con lo que creemos que es la mejor opción. Luego daremos nuestra opinión sobre las alternativas.
 
 Opción ideal:
 
-Mi recomendación, si puedes permitírtelo y si el tamaño de tu billetera de Bitcoin lo justifica, es obtener una computadora portátil nueva de nivel básico. El modelo más básico construido en estos días es lo suficientemente bueno para manejar para lo que se va a utilizar. Las especificaciones del procesador y la RAM no son relevantes, porque todas serán lo suficientemente buenas.
+Nuestra recomendación, si puedes permitírtelo y si el tamaño de tu billetera de Bitcoin lo justifica, es obtener una computadora portátil nueva de nivel básico. El modelo más básico construido en estos días es lo suficientemente bueno para manejar para lo que se va a utilizar. Las especificaciones del procesador y la RAM no son relevantes, porque todas serán lo suficientemente buenas.
 
 Evita:
 
 - Cualquier combinación de tableta, incluido Surface Pro
 - Chromebooks: a menudo la capacidad de almacenamiento es demasiado baja
 - Cualquier computadora con una unidad eMMC; si tiene una unidad SSD, eso es perfecto
-- Mac: son caras y el hardware no se lleva bien con los sistemas operativos Linux en mi experiencia
+- Mac: son caras y el hardware no se lleva bien con los sistemas operativos Linux en nuestra experiencia
 - Cualquier cosa reacondicionada o de segunda mano (aunque no es un factor decisivo absoluto)
   En su lugar, busca una laptop con Windows 11 (Actualmente, Windows 11 es la última versión. Nos desharemos de ese software, no te preocupes). Busqué en amazon.com "Laptop con Windows 11" y encontré este buen ejemplo:
   ![imagen](assets/1.webp)
@@ -47,7 +47,7 @@ El precio de este es bueno. Las especificaciones son suficientes. Tiene una cám
 
 ![imagen](assets/2.webp)
 
-Algunos de los más baratos solo tienen 64 GB de espacio en el disco; no he probado laptops con unidades tan pequeñas, probablemente esté bien tener 64 GB, pero podría ser un poco justo.
+Algunos de los más baratos solo tienen 64 GB de espacio en el disco; no hemos probado laptops con unidades tan pequeñas, probablemente esté bien tener 64 GB, pero podría quedar un poco justo.
 
 ## Otras opciones - Tails
 
@@ -55,9 +55,9 @@ Tails es un sistema operativo que se inicia desde una memoria USB y toma tempora
 
 No es una mala opción y es gratuita, pero es un poco engorrosa para nuestro propósito. Instalar nuevo software en ella no es tan sencillo. Una buena característica es que viene con Electrum, pero la desventaja es que no lo instalaste tú mismo. Asegúrate de que la memoria USB que uses tenga al menos 8 GB.
 
-Tu flexibilidad se reduce si usas Tails. Es posible que no puedas seguir varias guías para configurar lo que necesitas y hacer que funcione correctamente. Por ejemplo, si sigues mi guía para instalar Bitcoin Core, se necesitan modificaciones para que funcione. No creo que haga una guía específica para Tails, así que tendrías que desarrollar tus habilidades y hacerlo por tu cuenta.
+Tu flexibilidad se reduce si usas Tails. Es posible que no puedas seguir varias guías para configurar lo que necesitas y hacer que funcione correctamente. Por ejemplo, si sigues nuestra guía para instalar Bitcoin Core, se necesitan modificaciones para que funcione. No creemos que vayamos a realizar una guía específica para Tails, así que tendrías que desarrollar tus habilidades y hacerlo por tu cuenta.
 
-Tampoco estoy seguro de cómo interactuarán las carteras de hardware con este sistema operativo.
+Tampoco estamos seguros de cómo interactuarán las carteras de hardware con este sistema operativo.
 
 Dicho esto, una computadora con Tails para transacciones de Bitcoin es una buena opción adicional y sin duda te ayudará a mejorar tus habilidades de privacidad en general al aprender a usar Tails.
 
@@ -67,17 +67,17 @@ Esto es muy similar a Tails, excepto que el sistema operativo no está dedicado 
 
 La ventaja es que tienes menos restricciones y las cosas funcionarán sin ajustes avanzados.
 
-No estoy seguro de qué tan bien este sistema aísla el malware en la computadora existente del disco de arranque USB que utilizas para el nuevo sistema operativo. Probablemente haga un buen trabajo y probablemente no sea tan bueno como Tails. Debido a que no lo sé, mi preferencia es la laptop dedicada.
+No sabemos qué tan bien este sistema aísla el malware en la computadora existente del disco de arranque USB que utilizas para el nuevo sistema operativo. Probablemente haga un buen trabajo y probablemente no sea tan bueno como Tails. Debido a que no lo sabemos, preferimos la laptop dedicada.
 Otras opciones - Tu propia laptop o computadora de escritorio usada
 
-Usar una computadora usada no es lo ideal, principalmente porque desconozco el funcionamiento interno de malware sofisticado, ni si borrar un disco es suficiente para deshacerse de él. Probablemente lo sea, pero no quiero subestimar la astucia de los hackers malintencionados. Tú puedes decidir, yo no quiero comprometerme.
-Si eliges usar una computadora de escritorio antigua en lugar de una computadora portátil antigua, esto estará bien, excepto que ocupará permanentemente espacio para tus transacciones de bitcoin, que probablemente sean raras; no deberías usarla para otra cosa. En cambio, con una computadora portátil, simplemente puedes guardarla e incluso ocultarla para mayor seguridad.
+Usar una computadora usada no es lo ideal, principalmente porque desconocemos el funcionamiento interno de malware sofisticado, ni si borrar un disco es suficiente para deshacerse de él. Probablemente lo sea, pero no queremos subestimar la astucia de los hackers malintencionados. Tú puedes decidir, no queremos comprometernos.
+Si eliges usar una computadora de escritorio antigua en lugar de una computadora portátil antigua, esto estará bien, excepto que ocupará permanentemente espacio para tus transacciones de Bitcoin, que probablemente sean raras; no deberías usarla para otra cosa. En cambio, con una computadora portátil, simplemente puedes guardarla e incluso ocultarla para mayor seguridad.
 
 ## Instalando Linux Mint en cualquier computadora
 
 Estas son instrucciones para eliminar cualquier sistema operativo de tu nueva computadora portátil e instalar Linux Mint, pero puedes adaptarlas para instalar casi cualquier versión de Linux en casi cualquier computadora.
 
-Vamos a usar cualquier computadora para grabar el sistema operativo en una memoria USB de algún tipo. No importa qué memoria USB uses, siempre y cuando sea compatible con un puerto USB, y sugiero un mínimo de 16 GB.
+Vamos a usar cualquier computadora para grabar el sistema operativo en una memoria USB de algún tipo. No importa qué memoria USB uses, siempre y cuando sea compatible con un puerto USB, y sugerimos un mínimo de 16 GB.
 
 Consigue una de estas cosas:
 
@@ -99,11 +99,11 @@ Habrá algunos "sabores" para elegir. Elige "Cinnamon" para seguir esta guía. H
 
 ![image](assets/7.webp)
 
-En la siguiente página, puedes desplazarte hacia abajo para ver los espejos (los espejos son varios servidores que tienen una copia del archivo que queremos). Puedes verificar la descarga usando SHA256 y gpg (recomendado), pero voy a omitir explicarlo aquí ya que he escrito guías al respecto anteriormente.
+En la siguiente página, puedes desplazarte hacia abajo para ver los espejos (los espejos son varios servidores que tienen una copia del archivo que queremos). Puedes verificar la descarga usando SHA256 y gpg (recomendado), pero vamos a omitir explicarlo aquí ya que hemos escrito guías al respecto anteriormente.
 
 ![image](assets/8.webp)
 
-Elige un espejo que esté más cerca de ti y haz clic en su enlace (el texto verde en la columna del espejo). El archivo comenzará a descargarse, la versión que estoy descargando tiene 2.1 gigabytes.
+Elige un espejo que esté más cerca de ti y haz clic en su enlace (el texto verde en la columna del espejo). El archivo comenzará a descargarse, la versión que estamos descargando tiene 2.1 gigabytes.
 
 Una vez descargado, puedes grabar el archivo en un dispositivo de memoria portátil y hacerlo arrancable. Para hacer esto, la forma más fácil es usar Balena Etcher. Descárgalo e instálalo si no lo tienes.
 
@@ -134,7 +134,7 @@ Finalmente llegarás al escritorio. En este punto, aún no has terminado. En rea
 
 ![image](assets/11.webp)
 
-Recuerda quitar la memoria USB y luego reiniciar. Después de reiniciar, estarás utilizando el sistema operativo por primera vez como un nuevo usuario. Felicitaciones.
+Recuerda quitar la memoria USB y luego reiniciar. Después de reiniciar, estarás utilizando el sistema operativo por primera vez como un nuevo usuario. Felicitaciones!
 
 Una de las primeras cosas que debes hacer (y hacer regularmente) es mantener el sistema actualizado.
 

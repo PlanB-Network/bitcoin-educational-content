@@ -1,0 +1,9 @@
+question: Varför är autentiserad kryptering motståndskraftig mot attacker med vald chiffertext?
+answer: Eftersom varje ändring av chiffertexten av en angripare gör taggen ogiltig
+wrong_answers:
+  - Eftersom den använder en enda krypteringsalgoritm
+  - Eftersom varje ändring av chiffertexten av en angripare gör nyckeln ogiltig
+  - Eftersom det bara krypterar meddelandet utan tagg
+explanation: |
+  Ett autentiserat krypteringsschema är utformat för att upptäcka ändringar av chiffertexten, vilket gör taggen ogiltig vid manipuleringsförsök och säkerställer motståndskraft mot attacker med vald chiffertext.
+reviewed: false

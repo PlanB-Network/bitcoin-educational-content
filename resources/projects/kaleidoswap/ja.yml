@@ -1,0 +1,4 @@
+description: |
+  Kaleidoswapは、Lightning Networkで資産のアトミックな非保管スワップを可能にする分散型取引プロトコルです。RGBライトニング・ノードの上に構築されたKaleidoswapにより、ユーザーはTrustless方式でBitcoinとRGBトークンを取引することができます。
+  
+  オープンソースのデスクトップ・アプリケーションとしてリリースされたKaleidoswapは、現在Testnet環境でのマルチアセット取引をサポートしており、ライトニング・ネイティブ・アセット、RGBチャネル、流動性プロバイダー（LSP）と対話するためのユーザーフレンドリーなInterfaceを提供しています。Kaleidoswapは、Bitcoin上で完全にピアツーピアでプログラマブルな金融Layerを提供し、ソブリン・トレーダーや開発者に力を与えるように設計されています。

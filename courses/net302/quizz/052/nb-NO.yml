@@ -1,0 +1,9 @@
+question: Hvilken grunnleggende informasjon må en NAT-gateway registrere for hver nettverksflyt?
+answer: Tilordningen mellom intern IP og offentlig IP
+wrong_answers:
+  - Type nettverkskabel som brukes
+  - Tilordningen mellom IP Address og DNS-server
+  - Type nettverksprotokoll som brukes
+explanation: |
+  NAT er avhengig av en oversettelsestabell for å opprettholde korrespondansen mellom interne og offentlige adresser, slik at pakkene rutes på riktig måte.
+reviewed: false

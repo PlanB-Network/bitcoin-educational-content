@@ -1,0 +1,9 @@
+question: Welche Komponente wird empfohlen, um einen Knoten im Falle eines Stromausfalls zu schützen?
+answer: Ein Wechselrichter
+wrong_answers:
+  - Eine zweite Grafikkarte
+  - Ein zusätzlicher Router
+  - Ein USB-Hub
+explanation: |
+  Ein Wechselrichter verhindert plötzliche Abschaltungen im Falle eines Stromausfalls und schützt die Stabilität des Knotens.
+reviewed: true

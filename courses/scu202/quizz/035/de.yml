@@ -1,0 +1,9 @@
+question: Welches Tool kann auf einem Linux-Rechner die Systemsicherheit analysieren und generate einen detaillierten Bericht mit Empfehlungen erstellen?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptische
+explanation: |
+  Lynis ist ein umfassendes Sicherheitsüberprüfungsprogramm für Linux, das das System auf Schwachstellen und Fehlkonfigurationen untersucht.
+reviewed: false

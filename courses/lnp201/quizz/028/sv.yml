@@ -1,0 +1,9 @@
+question: Vad kan Bob göra om han upptäcker ett försök av Alice att fuska under kanalstängningen?
+answer: Använd spärrnyckeln för att återfå alla medel
+wrong_answers:
+  - Avbryt Alice:s Commitment Transaction
+  - Permanent stängning av kanalen utan möjlighet att öppna den igen
+  - Gör anspråk på endast hälften av de tillgängliga medlen
+explanation: |
+  I händelse av fusk kan Bob använda spärrnyckeln för att återfå alla medel från kanalen och därmed straffa Alice för hennes försök.
+reviewed: false

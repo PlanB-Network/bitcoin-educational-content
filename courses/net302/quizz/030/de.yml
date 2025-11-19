@@ -1,0 +1,9 @@
+question: Welches Protokoll weist einem Gerät dynamisch eine IP Address zu?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Das DHCP-Protokoll weist den Geräten in einem Netzwerk automatisch IP-Adressen zu und vereinfacht so die Address-Verwaltung.
+reviewed: false

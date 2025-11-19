@@ -1,0 +1,9 @@
+question: 可以使用什麼機制來載入 UTXO 集的快照，讓節點快速可用？
+answer: 臆測
+wrong_answers:
+  - 假定狀態
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo 會載入 UTXO 集的快照，讓節點快速啟動並運作，同時在背景中重建完整的 UTXO 集。
+reviewed: true

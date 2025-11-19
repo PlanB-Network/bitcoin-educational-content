@@ -1,0 +1,10 @@
+question: 클래식 리쳇은 보통 몇 번의 연속 트랜잭션을 수행하나요?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  리코셰트 방식은 일반적으로 본인에게 4번의 거래를 하고 최종 수취인에게 자금을 보내는 마지막 거래가 포함됩니다.
+  
+reviewed: true

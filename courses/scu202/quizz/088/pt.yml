@@ -1,0 +1,9 @@
+question: Qual é o gestor de palavras-passe de código aberto que lhe permite armazenar as suas credenciais localmente, sem necessidade de uma nuvem?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Gestor de palavras-passe Google
+explanation: |
+  O KeePassDX funciona com base em ficheiros locais encriptados, sem necessidade de uma nuvem ou de subscrição de um serviço centralizado.
+reviewed: false

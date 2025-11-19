@@ -1,0 +1,9 @@
+question: Какую команду можно использовать для обновления всех пакетов на дистрибутиве Ubuntu?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  На Ubuntu (и Debian) команда "sudo apt update && sudo apt upgrade" синхронизирует список пакетов и устанавливает все доступные обновления.
+reviewed: false

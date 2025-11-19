@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 的白皮書提出了什麼？
+answer: 網際網路上 Exchange 的分散方式。
+wrong_answers:
+  - 新的自由政策。
+  - 集中式 Exchange 通訊協定。
+  - 一個政治方案。
+explanation: |
+  Satoshi 白皮書 Nakamoto 提出 Bitcoin 作為網際網路上 Exchange 的分散媒介。它提出了一個沒有中央機構的點對點電子支付系統。
+reviewed: false

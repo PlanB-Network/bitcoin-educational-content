@@ -1,0 +1,9 @@
+question: کدام پروتکل به صورت پویا یک IP Address به دستگاه اختصاص می‌دهد؟
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - نَتّ
+explanation: |
+  پروتکل DHCP به‌طور خودکار آدرس‌های IP را به دستگاه‌های موجود در یک شبکه اختصاص می‌دهد و مدیریت Address را ساده می‌کند.
+reviewed: false

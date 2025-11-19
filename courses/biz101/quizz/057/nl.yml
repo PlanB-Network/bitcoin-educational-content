@@ -1,0 +1,9 @@
+question: Waarom is het belangrijk om de fiatwaarde bij te houden op het moment van elke Bitcoin transactie?
+answer: Zorgen voor een nauwkeurige boekhouding en naleving van de belastingwetgeving
+wrong_answers:
+  - Om automatisch de Wallet balans te verhogen
+  - Om real-time markthandel rechtstreeks vanaf de Wallet mogelijk te maken
+  - De door het netwerk opgelegde transactiekosten verlagen
+explanation: |
+  Het bijhouden van de fiatwaarde helpt bedrijven om hun boekhouding te beheren met fluctuerende Bitcoin-prijzen.
+reviewed: false

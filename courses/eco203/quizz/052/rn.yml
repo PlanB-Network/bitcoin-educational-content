@@ -1,0 +1,9 @@
+question: Ni umwanzuro uwuhe Bastiat ashika ku ngaruka z’ugusambura ku bukungu?
+answer: Ni bibi ku bukungu .
+wrong_answers:
+  - Ni vyiza ku bukungu .
+  - Ntibigira aho bihuriye n'ubutunzi
+  - Bivana n'ingene ubutunzi bumeze .
+explanation: |
+  Bastiat yerekana ko ugusambura ari umuzigo w’ubutunzi kuko bihindura ubutunzi bw’agaciro kandi ntibigira agaciro kongereweko.
+reviewed: false

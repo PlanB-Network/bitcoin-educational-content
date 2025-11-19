@@ -1,0 +1,9 @@
+question: Hva er IP-protokollens hovedrolle i TCP/IP-modellen?
+answer: Leverer datapakker fra en vert til en annen
+wrong_answers:
+  - Administrer kryptering av nettverkskommunikasjon
+  - Sikre vedvarende forbindelser mellom applikasjoner
+  - Oversette MAC-adresser til IP-adresser
+explanation: |
+  IP-protokollen håndterer den logiske adresseringen av enheter og sørger for at pakker rutes på tvers av sammenkoblede nettverk.
+reviewed: false

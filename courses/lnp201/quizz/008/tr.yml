@@ -1,0 +1,9 @@
+question: Bitcoin'de 2/2 çoklu imza Address nasıl çalışır?
+answer: Fonların açılması ve harcanması için iki imza gerekmektedir.
+wrong_answers:
+  - Fonların iki anahtardan sadece biriyle harcanmasını sağlar.
+  - İşlemleri yalnızca belirli kilitleme durumlarında yetkilendirir.
+  - Yalnızca halka açık adreslere fon göndermek için kullanılır.
+explanation: |
+  2/2 çoklu imza Address, Lightning kanallarının güvenliği için kullanılan fonların harcanması için ilgili her iki tarafın da imzasını gerektirir.
+reviewed: false

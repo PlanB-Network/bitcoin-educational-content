@@ -1,0 +1,9 @@
+question: Koja verzija Bitcoin core je uvela Ultraprune model?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  Od verzije 0.8.0, Bitcoin core više ne koristi globalni indeks, već direktno održava UTXO skup zahvaljujući Ultraprune.
+reviewed: true

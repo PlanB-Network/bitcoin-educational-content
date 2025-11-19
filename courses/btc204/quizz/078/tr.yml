@@ -1,0 +1,10 @@
+question: Bir CoinJoin tarafından bir Coin'in geçmiş işlemlerinin analizine karşı sunulan korumayı hangi terim tanımlar?
+answer: Retrospektif anons.
+wrong_answers:
+  - Prospektif anons.
+  - İzlenebilirlik direnci.
+  - Zamansal gizlilik.
+explanation: |
+  Bugünden geçmişe yönelik analize karşı koruma, geriye dönük anonset olarak adlandırılan şeydir.
+  
+reviewed: false

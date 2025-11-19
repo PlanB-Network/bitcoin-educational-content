@@ -1,0 +1,9 @@
+question: Vilket är det viktigaste ekonomiska verktyg som Keynes rekommenderar för att stimulera ekonomin?
+answer: Ökade offentliga utgifter
+wrong_answers:
+  - Skattesänkningar
+  - Liberalisering av marknaden
+  - Ökad export
+explanation: |
+  Keynes förespråkade ökade offentliga utgifter för att stimulera den totala efterfrågan, särskilt under perioder av lågkonjunktur, för att minska arbetslösheten och stimulera den ekonomiska tillväxten.
+reviewed: true

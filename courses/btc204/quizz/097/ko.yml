@@ -1,0 +1,10 @@
+question: 큰 익명 집합은 UTXO의 프라이버시에 대해 무엇을 의미하나요?
+answer: 향상된 개인 정보 보호.
+wrong_answers:
+  - 개인정보 보호 강화.
+  - 향상된 추적성.
+  - 더 빨라진 CoinJoin 트랜잭션 속도.
+explanation: |
+  익명 집합이 크면 동질 집합 내에서 특정 UTXO를 구별하기 어려워지므로 익명성이 높음을 나타냅니다.
+  
+reviewed: true

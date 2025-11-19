@@ -1,0 +1,9 @@
+question: passphrase ile Wallet yemini kullanmanın amacı nedir?
+answer: Fiziksel zorlama durumunda bir Wallet'yi küçük bir miktar ile simüle etmek için
+wrong_answers:
+  - İşlemlerin otomatik yedeğini ekleyin
+  - generate ek bir Mnemonic cümlesi
+  - UTXO'ları çifte harcamadan koruyun
+explanation: |
+  Sahte bir Wallet, az miktarda bitcoin içeren bir Wallet'e erişim sağlayarak saldırganın dikkatini başka yöne çekmek için kullanılır.
+reviewed: false

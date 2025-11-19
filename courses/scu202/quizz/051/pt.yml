@@ -1,0 +1,9 @@
+question: Que ferramenta de linha de comandos é recomendada para Linux para remover todos os metadados de uma imagem ou ficheiro PDF?
+answer: exiftool
+wrong_answers:
+  - bloco de notas
+  - nanoexif
+  - sudoedit
+explanation: |
+  o exiftool é uma ferramenta poderosa para apresentar e remover metadados de uma grande variedade de ficheiros (imagens, PDFs, áudio, etc.).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline parameeter ifcfg-eth0 failis näitab DHCP konfiguratsiooni?
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  Parameeter "BOOTPROTO=dhcp" määrab, et Interface peaks saama oma konfiguratsiooni DHCP-protokolli kaudu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který správce hesel s otevřeným zdrojovým kódem umožňuje ukládat přihlašovací údaje lokálně bez nutnosti použití cloudu?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Správce hesel Google
+explanation: |
+  KeePassDX funguje na bázi šifrovaných místních souborů bez nutnosti použití cloudu nebo předplatného centralizované služby.
+reviewed: false

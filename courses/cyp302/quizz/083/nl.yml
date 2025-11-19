@@ -1,0 +1,9 @@
+question: Waarom worden pseudo-willekeurige stroomcijfers in de praktijk vaker gebruikt dan one-time pads?
+answer: Ze staan het gebruik van een kortere sleutel toe terwijl een langere sleutelstroom wordt gegenereerd
+wrong_answers:
+  - Ze hebben geen geheime sleutel nodig
+  - Ze gebruiken een combinatie van symmetrische en asymmetrische encryptie
+  - Ze hebben geen sleutelupdates nodig
+explanation: |
+  Pseudo-willekeurige stroomcijfers zijn praktischer omdat ze het mogelijk maken om een korte sleutel uit te breiden tot een langere sleutelstroom, waardoor het niet nodig is om een sleutel op te slaan die net zo lang is als het bericht zelf.
+reviewed: false

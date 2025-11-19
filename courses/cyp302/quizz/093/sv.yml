@@ -1,0 +1,9 @@
+question: Vilken är den typiska blockstorleken för blockchifferkryptering?
+answer: 64, 128, 192 eller 256 bitar
+wrong_answers:
+  - 8, 16, 32 eller 64 bitar
+  - 4, 8, 16 eller 32 bitar
+  - 256, 512, 1024 eller 2048 bitar
+explanation: |
+  Blockchiffer bearbetar data i block med fast storlek, vanligtvis 64, 128, 192 eller 256 bitar, för att säkerställa optimal säkerhet och integritet för krypteringen.
+reviewed: false

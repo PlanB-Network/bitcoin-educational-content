@@ -1,0 +1,8 @@
+question: Wat is de Coinbase Transaction?
+answer: De eerste transactie van het blok dat de beloning van de Miner bevat.
+wrong_answers:
+  - Een transactie uitgevoerd op de Exchange Coinbase.
+  - De tweede transactie van het blok met de hoogste vergoedingen.
+  - Een transactie uitgevoerd door de Miner nadat hij de beloning heeft ontvangen.
+explanation: >-
+reviewed: true

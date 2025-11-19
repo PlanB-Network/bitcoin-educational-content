@@ -1,0 +1,9 @@
+question: Vad begränsar beloppet för en indirekt betalning på Lightning Network?
+answer: Den minsta tillgängliga likviditeten i en kanal för den valda vägen
+wrong_answers:
+  - Antalet inblandade mellanliggande noder
+  - Den totala kapaciteten för Lightning Network
+  - De routingavgifter som fastställs av varje nod
+explanation: |
+  Det maximala belopp som en indirekt betalning kan överföra beror på den lägsta tillgängliga likviditeten i de kanaler som används, eftersom varje kanal måste justera medlen på vardera sidan.
+reviewed: false

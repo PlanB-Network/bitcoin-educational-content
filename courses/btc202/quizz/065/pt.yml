@@ -1,0 +1,9 @@
+question: Qual é o primeiro passo a dar no caso de um bug na Umbrel?
+answer: generate um pacote de diagnóstico
+wrong_answers:
+  - Reinstalar o Bitcoin core e refazer o IBD
+  - Limpar a cache
+  - Desativar a 2FA
+explanation: |
+  No caso de um problema, começamos por gerar um pacote de diagnóstico na secção de resolução de problemas para analisar o problema e manter um registo.
+reviewed: true

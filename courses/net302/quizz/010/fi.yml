@@ -1,0 +1,9 @@
+question: Mikä nykyaikainen protokolla tarjoaa samanlaisia toimintoja kuin mitä IPv5:llä tavoiteltiin verkon palvelun laadunhallinnassa?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol) mahdollistaa verkkoresurssien dynaamisen varaamisen palvelunlaadun (Quality of Service, QoS) takaamiseksi, mikä oli IPv5:n alkuperäinen tavoite.
+reviewed: false

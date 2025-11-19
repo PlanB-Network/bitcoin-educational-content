@@ -1,0 +1,9 @@
+question: Apa tujuan utama memperkenalkan IPv6?
+answer: Menyediakan ruang Address yang hampir tak terbatas
+wrong_answers:
+  - Meningkatkan throughput Ethernet dengan faktor 4
+  - Ganti TCP dengan UDP secara bertahap
+  - Mengurangi jumlah byte per paket
+explanation: |
+  Tujuan utama dari IPv6 adalah untuk mengatasi kekurangan alamat IP dengan memperluas ruang Address secara besar-besaran.
+reviewed: false

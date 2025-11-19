@@ -1,13 +1,13 @@
-question: Hot Wallet ni nini?
-answer: Bitcoin Wallet kwenye simu au kompyuta yako iliyounganishwa kwenye mtandao.
+question: Je, ni matumizi gani yanayopendekezwa ya Multisig Wallet?
+answer: Kuhifadhi kiasi kikubwa kwa matumizi ya ushirika.
 wrong_answers:
-  - Wallet ambayo ni Hot ya kugusa.
-  - Wallet ambayo ni maarufu kati ya watumiaji wa Bitcoin.
-  - Wallet ambayo inapendekezwa kwa kuhifadhi kiasi kikubwa cha bitcoins.
+  - Kuhifadhi kiasi kidogo kwa matumizi ya kibinafsi.
+  - Kuhifadhi kiasi cha wastani kwa matumizi yasiyo ya faida.
+  - Kuhifadhi gharama za kila siku kwa matumizi ya mtu binafsi.
 explanation: |
-  Hot Wallet ni neno linalotumiwa kuelezea Bitcoin Wallet
-  ambayo imehifadhiwa kwenye kifaa chenye ufikiaji wa mtandao, kama vile a
-  simu au kompyuta. Kwa njia hii, ni rahisi kutekeleza
-  shughuli, lakini pia ina maana kwamba Wallet ni
-  uwezekano wa kuathiriwa na vitisho vya mtandaoni.
+  Multisig Wallet inapendekezwa kwa kuhifadhi kiasi kikubwa
+  na kwa matumizi ya kampuni kwa sababu inahitaji nyingi
+  saini za kufanya shughuli. Utaratibu huu unaongeza
+  ziada ya Layer ya usalama, kwa sababu mtu mmoja hawezi
+  kufanya shughuli bila idhini ya wengine.
 reviewed: true

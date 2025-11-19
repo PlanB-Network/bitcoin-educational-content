@@ -1,11 +1,13 @@
-question: A curva de adoção do Bitcoin é semelhante a qual?
-answer: Uma curva em S.
+question: Qual é o status do Bitcoin em El Salvador?
+answer: Moeda legal.
 wrong_answers:
-  - Uma curva em U.
-  - Uma curva em V.
-  - Uma curva em W.
-explanation: >-
-  A adoção do Bitcoin, como qualquer nova tecnologia, segue uma curva em S.
-  Este é um padrão comum para a adoção de novas tecnologias, onde a adoção começa
-  lentamente, depois acelera antes de desacelerar à medida que a saturação é atingida.
+  - Criminalizado.
+  - Desconhecido.
+  - Não regulamentado.
+explanation: |
+  O texto do curso menciona que alguns países proibiram
+  e criminalizaram o uso do Bitcoin, aumentando a
+  complexidade da adoção do Bitcoin com base em culturas, épocas e
+  nações. No entanto, El Salvador foi corajoso o suficiente para adotá-lo
+  como uma moeda legal.
 reviewed: true

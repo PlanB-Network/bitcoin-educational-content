@@ -1,0 +1,11 @@
+question: Hoe wordt het proces genoemd dat transacties op het Bitcoin netwerk verifieert?
+answer: Mining
+wrong_answers:
+  - Graven
+  - Oogsten
+  - Landbouw
+explanation: |
+  Het proces dat transacties verifieert op het Bitcoin
+  netwerk wordt Mining genoemd. Miners voeren een cryptografische
+  taak en worden beloond met de uitgifte van nieuwe bitcoins.
+reviewed: true

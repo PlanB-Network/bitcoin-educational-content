@@ -1,0 +1,9 @@
+question: Vilken organisation hanterar den första tilldelningen av IPv6 Address-block över hela världen?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA står högst upp i tilldelningshierarkin och delegerar IPv6-block till de fem regionala internetregistren (RIR).
+reviewed: false

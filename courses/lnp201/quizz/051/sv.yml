@@ -1,0 +1,9 @@
+question: Vad innebär tekniken med triangelöppning för deltagande noder?
+answer: Inkommande och utgående likviditet i varje kanal
+wrong_answers:
+  - Sänkta avgifter för routning
+  - Ett obegränsat antal transaktioner utan bekräftelse
+  - En direktlänk med varje annan nätverksnod
+explanation: |
+  Triangelöppningstekniken gör det möjligt för varje nod att uppnå balanserad likviditet, både inkommande och utgående, genom att bilda en loop av kanaler mellan flera deltagare.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Dışarıdan bir gözlemcinin Stonewall ve Stonewall x2 işlemleri arasında ayrım yapmasını engelleyen unsur nedir?
+answer: İşlemlerin şekli aynıdır
+wrong_answers:
+  - İşlemler şifrelenir
+  - İşlemlerde yer alan tutarlar her zaman aynıdır
+  - İşlemlerin dijital imzaları aynı algoritma tarafından oluşturulur
+explanation: |
+  Dışarıdan bakıldığında işlem modeli tamamen aynıdır. Bu nedenle, ek bağlam bilgileri olmadan, bir Stonewall işlemini bir Stonewall x2 işleminden ayırt etmek imkansızdır, çünkü aynı modeli benimserler.
+  
+reviewed: false

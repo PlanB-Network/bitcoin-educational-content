@@ -1,0 +1,9 @@
+question: 公衆Wi-Fiネットワークを利用する際のVPNの主な目的は何ですか？
+answer: デバイスとVPNサーバー間のトラフィックを暗号化
+wrong_answers:
+  - インターネット接続の匿名化
+  - アップデートの自動インストール
+  - generate 強力なパスワード
+explanation: |
+  VPNはすべてのネットワークトラフィックを暗号化し、公衆Wi-Fiのような安全でないネットワークでの傍受からデータを保護します。
+reviewed: false

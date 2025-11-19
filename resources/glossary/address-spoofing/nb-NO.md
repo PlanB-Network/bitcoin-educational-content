@@ -14,4 +14,4 @@ En annen metode for å plassere feil Address foran offeret er bruk av bedragersk
 For å beskytte deg mot disse ulike angrepsmetodene er det viktig å sjekke flere tegn i Address, spesielt sjekksummen (på slutten), på skjermen til signeringsenheten før du signerer transaksjonen.
 
 
-> ► *Dette angrepet omtales også noen ganger som Address-forgiftning
+> ► *Dette angrepet omtales også noen ganger som Address-forgiftning*

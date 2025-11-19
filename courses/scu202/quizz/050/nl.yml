@@ -1,0 +1,9 @@
+question: Waarom vormen metadata van digitale bestanden een risico voor de privacy?
+answer: Ze kunnen gevoelige informatie onthullen
+wrong_answers:
+  - Ze vertragen het openen van antivirus op sommige systemen
+  - Ze voorkomen het delen van bestanden via e-mail
+  - Ze kunnen ransomware hosten
+explanation: |
+  Metagegevens kunnen vertrouwelijke informatie bevatten die niet zichtbaar is wanneer het bestand wordt geopend, zoals GPS-coördinaten, de naam van een auteur, een identificatiecode of een wijzigingsgeschiedenis, die zonder uw medeweten kunnen worden misbruikt.
+reviewed: false

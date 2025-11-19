@@ -1,0 +1,9 @@
+question: Ni imvo imwe iyihe yatumye abashoramari b’inzego n’amashirahamwe manini bakunda Bitcoin?
+answer: Bitcoin’s kwemerwa n’abakinyi bakuru b’ivy’ubutunzi, nka BlackRock n’uguterimbere kwa Spot Bitcoin ETFs, vyatumye yemezwa nk’umutungo w’agaciro.
+wrong_answers:
+  - Igiciro ca Bitcoin’s gishirwaho kandi kigashingira intahe n’inzego za leta.
+  - Ivy’ugukoresha Bitcoin bikingirwa n’amabanki nkuru.
+  - Ntibisaba gutahura ivy’itunga ry’ubuhinga bwa none canke amategeko agenga ivy’amahera.
+explanation: |
+  Iyo inzego zikomeye zemeye ko Bitcoin ari ishoramari ribereye, bimenyesha isoko ko ryakuze birenze ivyo umuntu yokwiyumvira. Ibintu nka Spot Bitcoin ETFs bituma ubucuruzi bworoha kuronka ubumenyi, bikaba bituma abantu benshi bavyemera.
+reviewed: false

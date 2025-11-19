@@ -1,0 +1,13 @@
+question: Varför är det rekommenderat att begränsa antalet tillägg som installeras i webbläsaren?
+answer: För att undvika potentiella säkerhets- och prestandaproblem.
+wrong_answers:
+  - För att spara lagringsutrymme på din enhet.
+  - För att förhindra att webbläsaren kraschar.
+  - För att undvika att spåras av webbplatser från tredje part.
+explanation: |
+  Även om webbläsartillägg kan erbjuda användbara
+  funktioner, men de kan också utgöra säkerhetsrisker eftersom de
+  kan komma åt dina data och din surfaktivitet. Dessutom kan
+  om du har för många tillägg kan det göra webbläsaren långsammare och
+  påverka dess prestanda.
+reviewed: true

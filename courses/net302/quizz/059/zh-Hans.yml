@@ -1,0 +1,9 @@
+question: 使用哪条命令可以在 Linux 上将静态 IP Address 添加到 Interface？
+answer: IP ADDR ADD [Address]/[MASK] DEV [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[掩码］
+  - ip route add [Address] dev [Interface]
+  - 路由添加 -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  在 Linux 系统中，"ip addr add "命令是为网络 Interface 分配静态 IP Address 的现代方法。
+reviewed: false

@@ -1,0 +1,8 @@
+question: De acordo com a discussão do capítulo sobre a compatibilidade do Bitcoin, que tipo de compatibilidade é proporcionada por um fork suave?
+answer: Compatibilidade com versões anteriores e posteriores, tornando-o totalmente compatível
+wrong_answers:
+  - Apenas compatibilidade com versões anteriores, permitindo que o novo software processe dados antigos
+  - Apenas compatibilidade com o futuro, permitindo que o software antigo processe novos dados
+  - Sem compatibilidade com versões anteriores ou posteriores, exigindo actualizações completas do sistema
+explanation: |
+  O capítulo afirma claramente que "uma alteração às regras de consenso do Bitcoin é considerada um fork suave se for totalmente compatível" O capítulo define "totalmente compatível" como sendo compatível tanto com a versão anterior como com a anterior. A compatibilidade com o futuro significa que o software antigo pode processar dados de versões mais recentes ignorando as partes que não compreende, enquanto a compatibilidade com o passado significa que o software novo pode processar dados antigos. Esta dupla compatibilidade é o que faz com que os soft forks sejam o mecanismo de atualização preferido para o Bitcoin, uma vez que não quebram os sistemas existentes ao mesmo tempo que permitem novas funcionalidades.

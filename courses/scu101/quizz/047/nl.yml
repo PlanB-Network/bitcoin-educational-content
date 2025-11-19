@@ -1,0 +1,12 @@
+question: Wat is het doel van het implementeren van 2FA?
+answer: Je online accounts beschermen tegen ongeautoriseerde toegang.
+wrong_answers:
+  - Het moeilijker maken voor u om toegang te krijgen tot uw eigen account
+  - Uw online activiteiten bijhouden
+  - De snelheid van je internetverbinding verhogen
+explanation: |
+  2FA voegt een extra Layer aan beveiliging toe aan je online
+  accounts. Zelfs als een hacker je wachtwoord bemachtigt, kunnen ze
+  geen toegang krijgen tot je account zonder de tweede
+  verificatiefactor.
+reviewed: true

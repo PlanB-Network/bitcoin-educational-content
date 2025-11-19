@@ -1,0 +1,9 @@
+question: Welk voordeel biedt Lightning webwinkeliers met betrekking tot finaliteit van betalingen?
+answer: Betalingen met Lightning worden vrijwel direct afgerond, waardoor het risico op storno's of fraude afneemt.
+wrong_answers:
+  - Je moet 24 uur wachten voordat je het geld kunt uitgeven.
+  - Hiermee kunnen klanten op elk gewenst moment hun betaling terugvorderen.
+  - Het maakt transacties tot 90 dagen volledig omkeerbaar.
+explanation: |
+  Met Lightning is een betaling definitief zodra deze door het netwerk is geleid en afgewikkeld. Dit elimineert de terugboekingsscenario's die je ziet bij traditionele betalingssystemen.
+reviewed: false

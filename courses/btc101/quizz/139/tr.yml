@@ -1,0 +1,11 @@
+question: Bir Bitcoin düğümünün uygun fiyatlı ve olası tüm kullanıcılar için erişilebilir kalması neden önemlidir?
+answer: Çünkü ağın merkezsizleştirilmesini kolaylaştırır.
+wrong_answers:
+  - Çünkü ağın işlem kapasitesini artırır.
+  - Çünkü ağın işlem kapasitesini düşürür.
+  - Çünkü madenciler için Block reward'i artırıyor.
+explanation: |
+  Bir Bitcoin düğümünün uygun maliyeti ve erişilebilirliği
+  merkezden uzaklaştırılmasını kolaylaştırdığı için önemlidir
+  ağ.
+reviewed: true

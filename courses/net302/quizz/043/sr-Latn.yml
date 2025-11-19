@@ -1,0 +1,9 @@
+question: Koji softver otvorenog koda se obično koristi kao referenca za DNS servere?
+answer: BIND
+wrong_answers:
+  - Apač
+  - Lignja
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) je referentna implementacija otvorenog koda koju koristi većina DNS servera širom sveta.
+reviewed: false

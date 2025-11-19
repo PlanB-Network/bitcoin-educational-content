@@ -1,0 +1,9 @@
+question: Millä ilmaisella, monialustaisella ohjelmistolla voidaan luoda salattu säiliötiedosto, joka voidaan asentaa virtuaalilevyn tavoin?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCryptin avulla voit luoda salattuja säiliöitä, joita voidaan käyttää virtuaalilevyinä kaikissa yleisimmissä käyttöjärjestelmissä.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welcher Begriff bezieht sich auf die ersten drei Bytes eines MAC Address?
+answer: OUI (Organisatorisch eindeutiger Bezeichner)
+wrong_answers:
+  - SID (Sitzungsbezeichner)
+  - LUI (Lokaler eindeutiger Bezeichner)
+  - PAN (Physikalische Address Nummer)
+explanation: |
+  Die OUI wird von der IEEE zugewiesen und identifiziert den Hersteller der Netzwerkkarte in einem MAC Address.
+reviewed: false

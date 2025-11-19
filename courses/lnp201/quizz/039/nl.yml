@@ -1,0 +1,9 @@
+question: Wat gebeurt er als een kanaal met een actieve HTLC geforceerd wordt gesloten?
+answer: De HTLC is als uitvoer opgenomen in de Commitment transacties.
+wrong_answers:
+  - De HTLC wordt automatisch geannuleerd.
+  - De fondsen worden herverdeeld onder de vorige knooppunten.
+  - Het kanaal kan niet worden gesloten totdat de HTLC is verlopen.
+explanation: |
+  Tijdens een gedwongen sluiting worden hangende HTLC's weergegeven als uitgangen in de Commitment transacties, waardoor hun uitvoering of terugkeer volgens de gedefinieerde voorwaarden wordt gegarandeerd.
+reviewed: false

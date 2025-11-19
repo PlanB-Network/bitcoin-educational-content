@@ -1,0 +1,9 @@
+question: Ni kuki Wallet imwe itabonwa ko ari umunyamuryango w’urubuga rwa Bitcoin?
+answer: Kuko ntivyemeza amafaranga canke amabuye .
+wrong_answers:
+  - Kuko idashobora generate imfunguruzo z'ibanga .
+  - Kuko ntishobora kurema aderesi za Bitcoin .
+  - Kuko ntivyemeza ugurisha canke aderesi .
+explanation: |
+  Wallet ntiyemeza ata guca ku ruhande amabuye n’ibikorwa; gusa igenzura imfunguruzo kandi ivana n'ibihimba ku bindi.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Mida tähendab termin fiduciary valuutade kontekstis?
-answer: See viitab valuutadele, millel puudub sisemine väärtus ja mis sõltuvad usaldusest nende reguleerivate institutsioonide vastu.
+question: Mis on ajalooline pretsedent fiaatraha kasutamisele?
+answer: Juhtide poolt kulla tsentraliseerimine ja uue valuuta tutvustamine, mis on võrdne väärtuses kullaga, mida seejärel järk-järgult devalveeritakse.
 wrong_answers:
-  - See viitab valuutadele, mida toetab kuld.
-  - See viitab valuutadele, mida kasutatakse ainult fidutsiaarseteks tehinguteks.
-  - See viitab valuutadele, mida kasutatakse ainult kindlas institutsioonis.
+  - Juhtide poolt uue valuuta tutvustamine, mis on tagatud kullaga, mida seejärel järk-järgult suurendatakse väärtuses.
+  - Juhtide poolt uue valuuta tutvustamine ilma sisemise väärtuseta, mida seejärel järk-järgult suurendatakse väärtuses.
+  - Juhtide poolt uue valuuta tutvustamine, mis on tagatud kaupade korviga, mida seejärel hoitakse stabiilsena väärtuses.
 explanation: |
-  Fidutsiaarsed valuutad on need, mida ei toeta füüsiline kaup nagu kuld või hõbe. Nende väärtus tuleneb inimeste usaldusest ja kindlustundest institutsioonide vastu, mis neid väljastavad ja reguleerivad.
+  Ajalooliselt on juhid tsentraliseerinud kulla ja tutvustanud uut valuutat,
+  mis on võrdne väärtuses kullaga. See uus valuuta devalveeritakse seejärel järk-järgult, tihti
+  varjatuna kui rahva huvides olev tegevus.
 reviewed: true

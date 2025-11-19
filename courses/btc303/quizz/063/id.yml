@@ -1,0 +1,8 @@
+question: Apa perbedaan teknis utama antara repositori GitHub Bitcoin Core dengan ribuan salinan repositori yang sama yang didistribusikan secara global?
+answer: Tidak ada perbedaan teknis; ini berfungsi sebagai titik fokus sosial untuk kenyamanan pembangunan
+wrong_answers:
+  - Repositori GitHub berisi tanda tangan kriptografi yang mengautentikasi sebagai versi resmi
+  - Repositori GitHub memiliki hak komit khusus yang mencegah modifikasi yang tidak sah pada basis kode
+  - Repositori GitHub menyimpan kunci utama yang memvalidasi semua salinan repositori lainnya di seluruh dunia
+explanation: |
+  Menurut analisis Jameson Lopp yang dikutip dalam bab ini, repositori GitHub Bitcoin Core secara teknis identik dengan semua salinan lainnya. Signifikansinya murni bersifat sosial - repositori ini telah menjadi titik fokus untuk koordinasi pengembangan. Repositori ini berfungsi sebagai masalah kenyamanan daripada otoritas teknis, dan jika repositori ini menghilang, titik fokus baru akan muncul secara alami. Hal ini menunjukkan sifat desentralisasi Bitcoin di mana tidak ada satu repositori pun yang memiliki supremasi teknis di atas repositori lainnya.

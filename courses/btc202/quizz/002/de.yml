@@ -1,0 +1,9 @@
+question: Welche Datenbank hält ein Bitcoin-Knoten lokal vor, um nicht verbrauchte Ausgaben zu verfolgen?
+answer: Das UTXO-Set
+wrong_answers:
+  - Der Mempool
+  - Der Blockchain
+  - Die Geschichte des Wallet
+explanation: |
+  Der Knoten behält die UTXO-Menge, d. h. die Menge der nicht verbrauchten Ausgaben, die für künftige Transaktionen zur Verfügung stehen.
+reviewed: true

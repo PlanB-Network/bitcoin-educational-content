@@ -1,0 +1,9 @@
+question: Hur kan BTC Pay Server distribueras i en professionell miljö?
+answer: Lokalt eller via molnbaserad hosting
+wrong_answers:
+  - Exklusivt på dedikerade hårdvaruapparater
+  - Genom en helt outsourcad tjänst från tredje part
+  - Som en mobil applikation
+explanation: |
+  Flexibiliteten att distribuera BTC Pay Server på plats eller i molnet gör att företag kan välja den installation som bäst passar deras operativa behov.
+reviewed: false

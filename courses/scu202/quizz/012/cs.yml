@@ -1,0 +1,9 @@
+question: Která organizace byla založena v roce 1998 za účelem propagace pojmu "open source"?
+answer: Iniciativa Open Source (OSI)
+wrong_answers:
+  - Nadace pro svobodný software (FSF)
+  - Projekt Debian
+  - Nadace Mozilla
+explanation: |
+  OSI byla vytvořena s cílem zdůraznit pragmatický, technický aspekt otevřenosti kódu na rozdíl od filozofie svobodného softwaru.
+reviewed: false

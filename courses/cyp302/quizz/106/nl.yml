@@ -1,0 +1,9 @@
+question: Welk mechanisme voorkomt reflectieaanvallen in veilige communicatie?
+answer: Een unieke identificatiecode toevoegen voor elke deelnemer
+wrong_answers:
+  - De sleutellengte verhogen
+  - Meerdere toetsen gebruiken voor elk bericht
+  - Een extra sleutel toevoegen in elk bericht
+explanation: |
+  Het toevoegen van een unieke identificatie voor elke deelnemer in het versleutelde bericht voorkomt reflectieaanvallen, omdat het de herkomst van de berichten kan onderscheiden.
+reviewed: false

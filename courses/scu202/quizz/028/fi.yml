@@ -1,0 +1,9 @@
+question: Millä komennolla voidaan asentaa ohjelmistoja Ubuntun virallisista arkistoista?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - install-software
+explanation: |
+  Komento "sudo apt install" asentaa ohjelmistopaketin APT-paketinhallinnan kautta, joka on Ubuntun alkuperäinen menetelmä.
+reviewed: false

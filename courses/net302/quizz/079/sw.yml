@@ -1,0 +1,9 @@
+question: Ni aina gani ya rekodi ya DNS inatumika kuweka ramani ya jina la kikoa na IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Aina ya AAAA (quad-A) inatumika kuweka ramani ya jina la kikoa na IPv6 Address, huku aina A ikiwa imehifadhiwa kwa IPv4.
+reviewed: false

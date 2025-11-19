@@ -1,8 +1,8 @@
-question: Когда была проверена и внедрена сеть Lightning Network?
-answer: 2017
+question: Какой размер блока в протоколе Bitcoin?
+answer: 4MB
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: Сеть Lightning Network была проверена и внедрена в 2017 году.
-reviewed: false
+  - 1MB
+  - 2MB
+  - 3MB
+explanation: >-
+  Размер блока в протоколе Bitcoin составляет 4MB.

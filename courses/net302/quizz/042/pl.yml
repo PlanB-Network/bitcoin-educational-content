@@ -1,0 +1,9 @@
+question: Jaki element nazwy domeny reprezentuje domenę najwyższego poziomu (TLD)?
+answer: Najbardziej wysunięty na prawo element
+wrong_answers:
+  - Najbardziej wysunięty na lewo element
+  - Drugi poziom po hoście
+  - Główna nazwa hosta
+explanation: |
+  TLD jest zawsze najbardziej wysuniętym na prawo elementem FQDN, takim jak .com, .org lub .fr.
+reviewed: false

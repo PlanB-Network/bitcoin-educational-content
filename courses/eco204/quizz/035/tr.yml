@@ -1,0 +1,11 @@
+question: Hiper enflasyonun tasarruflar üzerindeki etkisi nedir?
+answer: Sermaye ve gelirin değerini aşındırarak uzun vadeli planlamayı zorlaştırır.
+wrong_answers:
+  - Tasarrufların değerini artırır.
+  - Tasarruflar üzerinde hiçbir etkisi yoktur.
+  - İnsanları daha fazla tasarruf etmeye teşvik eder.
+explanation: |
+  Hiperenflasyon döneminde tasarruf yapmak zorlaşır. Para hızla
+  değerini kaybederek uzun vadeli planlamayı zorlaştırır. Bu finansal istikrarsızlık
+  stres ve kaygıya neden olabilir.
+reviewed: false

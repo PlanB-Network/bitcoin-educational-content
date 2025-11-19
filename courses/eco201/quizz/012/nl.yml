@@ -1,0 +1,13 @@
+question: Wat is het primaire doel van de Bitcoin cursus die in het hoofdstuk wordt genoemd?
+answer: Het primaire doel van de cursus is om nieuwe Bitcoin enthousiastelingen te onderwijzen in gezonde economische principes.
+wrong_answers:
+  - Het hoofddoel van de cursus is om nieuwe Bitcoin enthousiastelingen te leren hoe ze Bitcoin moeten ontginnen.
+  - Het primaire doel van de cursus is om nieuwe Bitcoin enthousiastelingen te leren hoe ze in Bitcoin kunnen investeren.
+  - Het primaire doel van de cursus is om nieuwe Bitcoin enthousiastelingen te leren hoe ze hun eigen cryptocurrencies kunnen maken.
+explanation: |
+  Het doel van de cursus is om nieuwe Bitcoin enthousiastelingen kennis bij te brengen over
+  de fundamentele principes van de economie, in het bijzonder die
+  van de Oostenrijkse economische school. Deze kennis is
+  cruciaal om de waarde en het potentieel van
+  Bitcoin als alternatief voor traditionele monetaire systemen.
+reviewed: true

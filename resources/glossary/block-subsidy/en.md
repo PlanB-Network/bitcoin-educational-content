@@ -2,6 +2,8 @@
 term: BLOCK SUBSIDY
 ---
 
-The amount of new units that can be created by the miner who solves a block. This subsidy is part of the block reward along with transaction fees. It is distributed within a specific transaction called "coinbase". Initially set at 50 bitcoins per block in 2009, this subsidy is halved every 210,000 blocks (approximately every four years) through a process known as "halving". When the subsidy falls below the amount of 1 sat, it can no longer be collected, and the block reward will rely solely on transaction fees. Unless there is a protocol change, the circulating money supply can then no longer be increased.
+The block subsidy is the amount of new bitcoins that a miner is allowed to create when successfully mining a block. It forms part of the block reward, alongside transaction fees, and is issued through a special transaction called the coinbase transaction. 
+Initially set at 50 BTC per block in 2009, the subsidy is reduced by half every 210,000 blocks (roughly every four years) through a process known as a halving. 
+Once the subsidy drops below 1 satoshi, it will no longer be collectible, and miners will be compensated solely through transaction fees. Unless the protocol is changed, the circulating supply of bitcoins will stop increasing at that point, effectively capping the total monetary supply.
 
-> ► *The English translation is "Block Subsidy".*
+> ► *The French translation is "Subvention de bloc".*

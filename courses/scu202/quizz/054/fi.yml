@@ -1,0 +1,9 @@
+question: Mitä tietoja valokuvan EXIF-metatiedoista yleensä löytyy?
+answer: Päivämäärä, kellonaika, GPS-sijainti, laitemalli, tekijä
+wrong_answers:
+  - Kameran laiteohjelmiston lähdekoodi
+  - Valokuvaajan Wi-Fi-salasana
+  - Viimeisimmät antivirus tulokset
+explanation: |
+  Valokuvan EXIF-metatiedot sisältävät usein yksityiskohtaista taustatietoa otoksesta ja kamerasta.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: KOMPAKT BLOK RÖLE
+---
+
+Ağ düğümleri için bant genişliğinden tasarruf sağlayan bir yöntem öneren BIP152 aracılığıyla 2016 yılında Bitcoin core'de tanıtılan protokol. Kompakt Blok Aktarımı, düğümlerin Mempool'lerinde yeni bir bloğun işlemlerinin çoğuna zaten sahip olduğu varsayımına dayanarak blok bilgilerinin kompakt bir şekilde iletilmesine olanak tanır. Her bir işlemi tam olarak iletmek yerine, ki bu yinelemeye neden olur, Kompakt Blok Aktarımı, eşler tarafından zaten bilinen işlemler için yalnızca kısa tanımlayıcıları, seçilen birkaç işlemle birlikte (özellikle Coinbase Transaction ve düğümün bilmemesi muhtemel olanlar) göndermeyi önerir. Düğüm daha sonra eşlerinden eksik işlemleri talep edebilir. Compact Block Relay böylece blok yayılımı sırasında değiş tokuş edilen veri miktarını azaltır, bu da bant genişliği artışlarını azaltır ve ağın genel verimliliğini artırır.

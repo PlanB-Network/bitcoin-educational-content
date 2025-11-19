@@ -1,0 +1,9 @@
+question: 哪種應用程式提供完全分散的架構，沒有中央伺服器負責訊息路由？
+answer: Keet
+wrong_answers:
+  - 電報
+  - 訊號
+  - Threema
+explanation: |
+  Keet 以點對點模式為基礎，所有通訊都直接在使用者之間傳遞，沒有中央伺服器，保證了高度的彈性和機密性。
+reviewed: false

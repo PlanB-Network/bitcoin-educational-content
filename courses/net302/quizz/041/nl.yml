@@ -1,0 +1,9 @@
+question: Welk bestand werd historisch gezien gebruikt voor lokale resolutie vóór de komst van globaal DNS?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/netwerk
+  - /etc/resolve
+explanation: |
+  Voordat DNS wijdverspreid werd, was naamresolutie afhankelijk van het statische bestand /etc/hosts op Unix/Linux-systemen.
+reviewed: false

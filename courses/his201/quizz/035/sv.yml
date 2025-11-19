@@ -1,0 +1,9 @@
+question: När inträffade den första Exchange mellan Bitcoin och dollarn?
+answer: 12 oktober 2009
+wrong_answers:
+  - 8 maj 2009
+  - 30 december 2009
+  - 11 mars 2010
+explanation: |
+  Martti överförde 5 050 bitcoins till NLS, som sedan överförde 5,02 USD till hans PayPal-konto. Detta motsvarade ett enhetspris på cirka 0,001 USD.
+reviewed: true

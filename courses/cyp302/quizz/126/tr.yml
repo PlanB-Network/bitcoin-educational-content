@@ -1,0 +1,9 @@
+question: Diffie-Hellman anahtar Exchange protokolü neye izin verir?
+answer: İki tarafın açık bilgileri paylaşarak ortak bir gizli anahtar oluşturmasını sağlar.
+wrong_answers:
+  - Her oturum için yüz yüze bir gizli anahtar Exchange'e izin verir.
+  - Şifreleme için bir açık anahtar ve şifre çözme için bir özel anahtar kullanılmasına izin verir.
+  - Elektronik para biriminin Exchange'sine izin verir.
+explanation: |
+  Diffie-Hellman protokolü, iki tarafın bilgiyi herkese açık olarak paylaşmasını sağlarken, gelecekteki alışverişlerini güvence altına almak için yalnızca generate ortak bir anahtar kullanabilmelerini sağlar.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koji tip napada uključuje jednu entitetu koja kontroliše više čvorova da bi se pojavila kao više entiteta, i zašto nije efikasan protiv Bitcoin-ovog mehanizma konsenzusa?
+answer: Sybil napad; neefikasan je jer Bitcoin koristi računarsku snagu proof-of-work za konsenzus umesto brojanja čvorova
+wrong_answers:
+  - "Napad pomračenja; neefikasan je jer Bitcoin šifrira sve komunikacije čvorova koristeći napredne kriptografske protokole"
+  - "Napad uskraćivanjem usluge; neefikasan je jer Bitcoin automatski preraspodeljuje saobraćaj preko zdravih čvorova u mreži"
+  - "Napad socijalnog inženjeringa; neefikasan je jer programeri Bitcoin koriste metode formalne verifikacije kako bi sprečili manipulaciju"
+explanation: |
+  Sybil napad se dešava kada jedan entitet kontroliše više čvorova kako bi se predstavio kao mnogo odvojenih entiteta. Međutim, ovaj napad je neefikasan protiv Bitcoin jer mreža ne zavisi od brojanja čvorova ili demokratskog glasanja među učesnicima mreže. Umesto toga, Bitcoin koristi proof-of-work konsenzus gde računska snaga (hashpower) određuje odluke mreže, a ne broj čvorova. Ovo čini nemogućim za napadača da stekne uticaj jednostavno pokretanjem mnogih čvorova bez odgovarajućih računskih resursa.

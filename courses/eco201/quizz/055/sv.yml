@@ -1,0 +1,10 @@
+question: Vilken roll spelar axiomen i österrikiska ekonomiska resonemang?
+answer: Axiom är grundläggande Elements som man kan dra logiska slutsatser från.
+wrong_answers:
+  - Axiom är irrelevanta i österrikiska ekonomiska resonemang.
+  - Axiom används för att fastställa samband mellan variabler baserat på empiriska data.
+  - Axiom används för att bekräfta eller förkasta hypoteser genom tillfälliga experiment.
+explanation: |
+  I österrikiska ekonomiska resonemang spelar axiom en avgörande roll. De är
+  grundläggande Elements som man kan dra logiska slutsatser från.
+reviewed: true

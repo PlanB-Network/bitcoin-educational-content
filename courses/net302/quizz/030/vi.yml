@@ -1,0 +1,9 @@
+question: Giao thức nào gán IP Address một cách động cho một thiết bị?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Giao thức DHCP tự động gán địa chỉ IP cho các thiết bị trên mạng, giúp đơn giản hóa việc quản lý Address.
+reviewed: false

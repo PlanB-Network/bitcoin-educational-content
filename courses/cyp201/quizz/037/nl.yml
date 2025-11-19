@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste beperking van JBOK wallets?
+answer: Ze vereisen een onafhankelijke back-up voor elke privésleutel
+wrong_answers:
+  - Ze staan het genereren van nieuwe adressen niet toe
+  - Ze zijn niet compatibel met digitale handtekeningen
+  - Ze gebruiken ongecomprimeerde openbare sleutels
+explanation: |
+  JBOK wallets dwingen de gebruiker om van elke privésleutel afzonderlijk een back-up te maken, wat het beheer bemoeilijkt.
+reviewed: false

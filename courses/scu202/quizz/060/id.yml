@@ -1,0 +1,9 @@
+question: Peramban sumber terbuka mana, yang dikembangkan oleh organisasi nirlaba, yang merupakan eksponen utama mesin Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Berani
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, yang dikembangkan oleh Mozilla Foundation, adalah peramban berbasis Gecko terkemuka, yang terkenal dengan Commitment untuk privasi.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni amakuru ayahe akwiye kwerekanwa ku gicapo?
+answer: Inkomoko ya UTXO.
+wrong_answers:
+  - Itariki y'iremwa rya UTXO.
+  - Ubwinshi bwa UTXO.
+  - Igitigiri c'amahera ajanye no kurema UTXO.
+explanation: |
+  Gushirako amazina ni akamenyero keza gafasha kwibuka inkomoko ya UTXO.
+  
+reviewed: false

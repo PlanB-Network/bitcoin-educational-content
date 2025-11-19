@@ -1,0 +1,9 @@
+question: Modern şifreleme için kaba kuvvet saldırılarına karşı güvenli kabul edilen anahtar boyutu nedir?
+answer: 128 bit
+wrong_answers:
+  - 16 bit
+  - 64 bit
+  - 100 bit
+explanation: |
+  En az 128 bitlik bir anahtarla, modern şifreleme şu anda kaba kuvvet saldırılarına karşı güvenli kabul edilmektedir, çünkü deneme sayısı gerçekçi olmayacaktır.
+reviewed: false

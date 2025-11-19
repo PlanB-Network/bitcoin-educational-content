@@ -460,7 +460,7 @@ Se siete alle prime armi con la costruzione, iniziate con questa [MakerBits pres
 - L'aggiunta di lightning:lnurl1234xyz creerà un QR che richiede l'apertura del portafoglio dell'utente per questa fattura alla scansione (ultima app lightning installata su iOS, impostazione in Android)
 - Se state flashando un esp32 via web funzionerà solo con questi browser (TL:DR Chrome, Edge e Opera).
 - Tenere presente il riferimento PIN-OUT per l'esp
-- Quando utilizzate FOSSoftware o FOSGuide, linkate sempre l'autore. Tutti amano veder crescere il proprio bambino e questo dà inizio a una catena di costruzione che è davvero impressionante da vedere :)
+- Quando utilizzate FOSSoftware o FOSGuide, linkate sempre l'autore. Tutti amano veder crescere il proprio bambino e questo dà inizio a una catena di costruzione che è davvero impressionante da vedere:)
 
 Vieni nel [Gruppo Telegram di Makerbits](https://t.me/makerbits) se hai bisogno di aiuto per un progetto - ci siamo noi!
 

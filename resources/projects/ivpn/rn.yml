@@ -1,0 +1,10 @@
+description: |
+  IVPN ni umurimo wa VPN wibanda ku buzima bwite udashiramwo ibikorwa vy’abakoresha kandi ntukwegeranya canke ngo ubike amakuru y’umuntu ku giti ciwe iyo yiyandikishije. Twemera kwishura amahera, Monero, na Bitcoin. Twiyemeje gukorera mu mucyo no gucungera umutekano, urubuga rwacu n’amaporogarama yose ya IVPN akaba ari open-source.
+  
+  Server zacu, harimwo email n’ivyo guhanahana amakuru, ni twebwe ubwacu kandi zikoreshwa natwe. Twiyemeza gukora igenzura ry’umutekano ryigenga buri mwaka kandi ntitwisuka mu kwamamaza kw’ibinyoma, nk’ukwishura kugira ngo umuntu asuzume canke gusezerana ko tutazomenyekana.
+  
+  Turatanga intererano ubudasiba ku mashirahamwe nka EFF, Open Rights Group, n’umugambi wa Tor. Ubucuruzi bwacu bwishingikiriza gusa ku kwiyandikisha kwishurwa, ata n’imwe mu mirimo y’inyongera canke imbuga zo gusubiramwo VPN.
+  
+  Ivyo dufise birimwo uguhitamwo WireGuard, amategeko ya OpenVPN canke IPSec, AntiTracker ibuza amatangazo n’abakurikirana, uburyo bwa Killswitch/Firewall, amaserver ya DNS yigenga adashobora kwinjira mu gitabu, inzira za VPN zikoreshwa n’amaguru menshi, ugurungika imbere ku mbuga, na Obfsproxy kugira ngo ukingire ugucengera.
+  
+  Naho dusobanura ko VPNs zidashobora gushika ku kutamenyekana canke kubuza gukusanya amakuru n’ibigo bikomeye nka Google canke Facebook, twizeza ko VPN yizigirwa nk’iyacu ishobora gupfuka neza amakuru yawe n’ibisabwa vya DNS, kwongera umutekano ku mbuga za bose zitizigirwa, gupfuka IP yawe Address, no gukingira ubugenzuzi bw’amakuru canke geo. Turi igice co kwizigirwa c’ingene ukingira ubuzima bwite bwawe, igihe cose wokwizigira kurusha ISP yawe.

@@ -1,0 +1,9 @@
+question: 可以使用什么机制加载 UTXO 集的快照，使节点快速可用？
+answer: 臆想
+wrong_answers:
+  - 假设州
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo 会加载 UTXO 数据集的快照，使节点快速启动并运行，同时在后台重建完整的 UTXO 数据集。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat is de eerste stap in het openen van een Lightning-kanaal tussen twee deelnemers?
+answer: Exchange berichten met de bedragen en publieke sleutels
+wrong_answers:
+  - Publiceer onmiddellijk een depottransactie op de Blockchain
+  - Een 2/2-meervoudige handtekening Address maken zonder voorafgaande Exchange
+  - Onderteken de opnametransactie vóór Exchange van openbare sleutels
+explanation: |
+  Het openen van een kanaal begint met een Exchange van berichten tussen de twee partijen, waarin ze de bedragen delen die ze willen vastleggen en hun publieke sleutels.
+reviewed: false

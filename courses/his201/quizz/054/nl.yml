@@ -1,0 +1,9 @@
+question: Welke Amerikaanse ontwikkelaar zag een vreemd blok tijdens het value overflow incident op 15 augustus 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Dit blok, dat misbruik maakte van een fout, creëerde meer dan 184 miljard bitcoins.
+reviewed: true

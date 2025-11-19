@@ -1,0 +1,9 @@
+question: Wat is een aanbevolen praktijk voor het beheren van het hoofdwachtwoord van een wachtwoordmanager?
+answer: Schrijf het op papier en bewaar het op een veilige plaats.
+wrong_answers:
+  - Sla het op in je e-mail.
+  - Gebruik hetzelfde wachtwoord voor alle accounts.
+  - Leer het uit je hoofd.
+explanation: |
+  Het wordt aanbevolen om het hoofdwachtwoord van een wachtwoordmanager op papier te zetten en op een verborgen en veilige plaats te bewaren. Als de Hard schijf versleuteld is en de computer op slot zit, is het wachtwoord zelfs bij inbraak niet toegankelijk.
+reviewed: true

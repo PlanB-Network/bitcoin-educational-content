@@ -1,10 +1,11 @@
-question: Bagaimana Anda dapat memperkuat keamanan default dari dompet Bitcoin Anda?
-answer: Dengan menambahkan passphrase ke dompet Bitcoin Anda
+question: Apa itu dompet dingin?
+answer: Dompet fisik di mana kunci Anda disimpan pada perangkat yang tidak terhubung ke internet
 wrong_answers:
-  - Dengan menambahkan kunci privat kedua ke dompet Bitcoin Anda
-  - Dengan menambahkan kunci publik kedua ke dompet Bitcoin Anda
-  - Dengan menambahkan frasa mnemonik kedua ke dompet Bitcoin Anda
+  - Dompet yang secara fisik dingin saat disentuh
+  - Dompet yang tidak populer di antara pengguna Bitcoin
+  - Dompet yang direkomendasikan untuk menyimpan jumlah bitcoin yang kecil
 explanation: |
-  Jika Anda tidak puas dengan keamanan default dari dompet Bitcoin Anda,
-  Anda selalu dapat memperkuatnya dengan menambahkan passphrase ke dompet Bitcoin Anda.
+  Dompet dingin adalah istilah yang digunakan untuk menggambarkan dompet Bitcoin yang disimpan
+  pada perangkat yang tidak terhubung ke internet. Hal ini membuatnya kurang rentan
+  terhadap ancaman online, tetapi juga berarti bahwa dompet tersebut kurang mudah diakses untuk transaksi sehari-hari.
 reviewed: true

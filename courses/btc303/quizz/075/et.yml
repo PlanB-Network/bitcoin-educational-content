@@ -1,0 +1,8 @@
+question: Gregory Maxwelli seisukoht haavatavuse tõsiduse hindamise kohta: millist lähenemisviisi peaksid arendajad kasutama, kui nad hindavad avastatud turvaprobleemide võimalikku mõju?
+answer: Käsitleda haavatavusi tõsisematena kui praegu teadaolevad ja eeldada, et neid võib kergesti ära kasutada, isegi kui need tunduvad raskesti kasutatavatena
+wrong_answers:
+  - Keskenduda ainult koheselt märgatavale mõjule ja liigitada haavatavused nende praeguste teadaolevate kasutamismeetodite alusel
+  - Seada haavatavused tähtsuse järjekorda nende tehnilise keerukuse alusel ja lükata edasi selliste probleemide parandamist, mida on teoreetiliselt raske ära kasutada
+  - Hinnata iga haavatavust eraldi, arvestamata, kuidas mitmed väiksemad probleemid võivad kombineeritult tekitada suuri turvariske
+explanation: |
+  Maxwell väidab, et arendajad peaksid käsitlema haavatavusi tõsisematena, kui need paistavad, sest raskesti ekspluateeritavad probleemid võivad õige tehnikaga muutuda triviaalseteks ja näiliselt väikesed probleemid võivad areneda tõsisteks ohtudeks. Ta rõhutab, et lihtsaid jõudlusvigu saab kasutada relvana võrgu jagamiseks ja double-spending rünnakute võimaldamiseks. See konservatiivne lähenemisviis tunnistab, et arendajad ei pruugi esialgu mõista haavatavuse täielikku kasutamispotentsiaali, mistõttu on mõistlik eeldada halvimat stsenaariumi, mitte alahinnata ohtu.

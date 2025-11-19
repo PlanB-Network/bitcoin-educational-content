@@ -1,0 +1,9 @@
+question: Bitcoinの実装を実行し、互いに接続されたマシンの集合を何と呼ぶか？
+answer: Bitcoinネットワーク
+wrong_answers:
+  - Bitcoinプロトコル
+  - Bitcoin通貨
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoinネットワークは、接続されたすべてのノードで構成され、それぞれがプロトコルの異なる実装を実行している。
+reviewed: true

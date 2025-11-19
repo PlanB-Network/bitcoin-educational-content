@@ -1,0 +1,9 @@
+question: Vem anförtrodde en järnlåda till värdshusvärden Robert Morriss för säker förvaring?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Det var Thomas J. Beale som överlämnade en järnlåda med krypterade dokument och ett meddelande till Robert Morriss med instruktioner om han inte skulle återvända.
+reviewed: false

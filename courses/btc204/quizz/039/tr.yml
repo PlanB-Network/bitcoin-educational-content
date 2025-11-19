@@ -1,0 +1,9 @@
+question: Alıcı adreslerinin sosyal medyada paylaşılmaması neden tavsiye edilir?
+answer: Çünkü zincir üzerindeki faaliyetleri gerçek bir kimliğe bağlamak için kullanılabilirler.
+wrong_answers:
+  - Çünkü kötü niyetli bilgisayar korsanları tarafından kolayca hacklenebilirler.
+  - Çünkü dolandırıcılık tekliflerini çekebilir ve sizi kimlik avı kampanyalarına maruz bırakabilirler.
+  - Çünkü ortak girdi Ownership sezgiselinin uygulanmasına izin verebilirler.
+explanation: |
+  Bitcoin alıcı adreslerinin internette paylaşılması, bir kimliği (gerçek veya takma isim) zincir üzerindeki faaliyetle ilişkilendirerek zincir analizi için bir giriş noktası olarak kullanılabilir.
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   The retrospective anonset measures the resistance of a coin's privacy against a present-to-past analysis (output to input).
 
-reviewed: false
+reviewed: true

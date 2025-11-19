@@ -1,0 +1,9 @@
+question: Vad kallas den flerstegsuppbyggnadsprocedur för anslutning som används i TCP?
+answer: Trevägs handskakning
+wrong_answers:
+  - Fyrvägs handskakning
+  - Skjutbart fönster
+  - Checksummprocess
+explanation: |
+  Trevägshandskakningen synkroniserar sekvensnummer mellan klient och server innan någon Exchange av nyttolastdata.
+reviewed: false

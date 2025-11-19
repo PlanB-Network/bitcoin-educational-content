@@ -1,0 +1,9 @@
+question: Quale caratteristica di TCP ottimizza il throughput adattando il numero di segmenti inviati senza riconoscimento immediato?
+answer: La finestra scorrevole
+wrong_answers:
+  - Frammentazione dinamica
+  - Commutazione di pacchetto
+  - Routing statico
+explanation: |
+  La "finestra scorrevole" consente l'invio di più segmenti in successione, quindi sposta l'intervallo a ogni conferma per ottimizzare il flusso.
+reviewed: false

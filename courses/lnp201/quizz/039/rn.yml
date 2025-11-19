@@ -1,0 +1,9 @@
+question: None bigenda gute iyo umurongo ufise HTLC ikora upfungiwe ku nguvu?
+answer: HTLC iri mu bikorwa vya Commitment nk’umusaruro.
+wrong_answers:
+  - HTLC irakurwaho ubwayo.
+  - Amahera asubira guhabwa ama node ya kera.
+  - Ico kinogo ntigishobora gupfungwa gushika HTLC irangiriye.
+explanation: |
+  Mu gihe c’ugufunga ku nguvu, HTLCs zitegerejwe zigereranywa nk’ibisohoka mu bikorwa vya Commitment, gutyo zigatuma zishirwa mu ngiro canke zigaruka hakurikijwe ivyangombwa vyasobanuwe.
+reviewed: false

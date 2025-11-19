@@ -1,0 +1,9 @@
+question: Jaka operacja gwarantuje, że pobrane oprogramowanie nie zostało zmodyfikowane od czasu jego oficjalnej publikacji?
+answer: Weryfikacja integralności za pomocą Hash
+wrong_answers:
+  - Weryfikacja autentyczności za pomocą podpisu dewelopera
+  - Analiza oprogramowania przez zaporę sieciową
+  - Uruchamianie programu w trybie awaryjnym
+explanation: |
+  Sprawdzanie integralności opiera się na porównaniu Hash pobranego pliku z plikiem opublikowanym przez dewelopera. Każda modyfikacja pliku modyfikuje ten Hash.
+reviewed: false

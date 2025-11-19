@@ -1,0 +1,9 @@
+question: 什麼操作可確保下載的軟體自正式發行後未曾修改？
+answer: 透過 Hash 進行完整性驗證
+wrong_answers:
+  - 透過開發人員的簽名驗證真偽
+  - 透過防火牆進行軟體分析
+  - 在安全模式下執行程式
+explanation: |
+  完整性檢查以比較下載檔案的 Hash 與開發者所公佈的 Hash 為基礎。對檔案的任何修改都會修改此 Hash。
+reviewed: false

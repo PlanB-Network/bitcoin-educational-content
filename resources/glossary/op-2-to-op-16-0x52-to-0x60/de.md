@@ -13,4 +13,4 @@ OP_3
 OP_CHECKMULTISIG
 ```
 
-> ► *Alle diese Opcodes werden manchmal auch als OP_PUSHNUM_N bezeichnet
+> ► *Alle diese Opcodes werden manchmal auch als OP_PUSHNUM_N bezeichnet*

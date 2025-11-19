@@ -1,0 +1,14 @@
+question: Vad är det yttersta syftet med ekonomisk verksamhet enligt Carl Menger?
+answer: Det yttersta syftet med ekonomisk aktivitet är konsumtion.
+wrong_answers:
+  - Det yttersta syftet med ekonomisk verksamhet är produktion.
+  - Det yttersta syftet med ekonomisk aktivitet är sparande.
+  - Det yttersta syftet med ekonomisk aktivitet är investeringar.
+explanation: |
+  Enligt Carl Menger är varor endast ekonomiska varor
+  ekonomiska varor (värderade) eftersom de tjänar som medel för att uppnå mål
+  som väljs och värderas av individer. Därför, för Menger,
+  utgångspunkten för ekonomisk analys är konsumtionsvaror,
+  eller slutprodukter, eftersom de utgör det yttersta syftet med
+  ekonomisk aktivitet.
+reviewed: true

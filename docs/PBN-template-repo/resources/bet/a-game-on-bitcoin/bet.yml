@@ -1,0 +1,42 @@
+# generate a random uuid v4
+id: 9456004d-12ca-49e8-8814-3af65edbb90a
+
+# (updated 2025-07)
+# 2 options: Visual Content, Educational Content
+type: Educational Content
+
+links:
+  # below there is the link embeded into the platform's "download" button
+  download: # a Plan ₿ Network public link to a folder where people can download the contents
+  # below there is the content displayed on the platform, under the "view" button
+  view:
+    # it can specified for each language the localized file, default displayed file is English
+    - it: # paste here a Plan ₿ Network public link to a readable document
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author_github_username #insert your github username
+
+# Associate to a project
+# copy here the id of the project that organizes this content
+project_id: ccaacfff-12c3-4b5c-80f8-0f077422d62b
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: YYYY-MM-DD
+    urgency: 1 # default value
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: 0 # default value
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
+tags:
+  - adoption
+  - use-case
+  - mining

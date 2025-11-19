@@ -1,0 +1,9 @@
+question: Hvor er DNS-servere vanligvis konfigurert på et Linux-system?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/nettverk/grensesnitt
+  - /etc/hosts.allow
+explanation: |
+  Filen /etc/resolv.conf angir DNS-servere og søkedomener for navneløsning.
+reviewed: false

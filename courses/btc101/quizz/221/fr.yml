@@ -1,11 +1,10 @@
-question: Qu'est-ce que le Lightning Network ?
-answer: Un réseau de paiement qui utilise le protocole Bitcoin pour permettre des transactions ultra-rapides.
+question: Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent inférieurs à... ?
+answer: 0,5 %
 wrong_answers:
-  - Un nouveau type de cryptomonnaie.
-  - Une nouvelle technologie blockchain qui remplacera Bitcoin à l'avenir.
-  - Une méthode pour miner du Bitcoin.
-explanation: |
-  Le Lightning Network est un réseau de paiement qui utilise le
-  protocole Bitcoin pour permettre des transactions rapides. Ce n'est pas
-  une cryptomonnaie séparée, ni une méthode pour miner du Bitcoin.
+  - 1 %
+  - 2 %
+  - 3 %
+explanation: >-
+  Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent
+  inférieurs à 0,5 %.
 reviewed: true

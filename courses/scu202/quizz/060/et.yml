@@ -1,0 +1,9 @@
+question: Milline mittetulundusühingu poolt välja töötatud avatud lähtekoodiga brauser on Gecko mootori juhtiv esindaja?
+answer: Mozilla Firefox
+wrong_answers:
+  - Brave
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, mille on välja töötanud Mozilla Foundation, on juhtiv Gecko-põhine brauser, mis on tuntud oma Commitment privaatsuse eest.
+reviewed: false

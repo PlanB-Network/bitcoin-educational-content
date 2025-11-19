@@ -1,0 +1,9 @@
+question: すべてのDNSゾーンファイルで必須のレコードはどれですか？
+answer: SOA（権威の開始）
+wrong_answers:
+  - PTR（ポインタ）
+  - AAAA (IPv6 Address)
+  - SRV（サービスロケーター）
+explanation: |
+  SOAレコードはゾーン権限を定義し、すべてのDNSゾーンファイルに必要である。
+reviewed: false

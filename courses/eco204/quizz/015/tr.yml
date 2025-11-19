@@ -1,0 +1,11 @@
+question: Bernholz'a göre hiperenflasyonun tanımı nedir?
+answer: Hiperenflasyon, yüksek enflasyonun bir uzantısıdır ve para yaratma yoluyla finanse edilen büyük bütçe açıkları ile karakterize edilir.
+wrong_answers:
+  - Hiperenflasyon, Supply parasındaki bir düşüştür.
+  - Hiperenflasyon, Supply parasındaki ılımlı bir artıştır.
+  - Hiperenflasyon üretimin azalmasıdır.
+explanation: |
+  Bu bölümde, Bernholz'a göre hiperenflasyonun bir
+  tarafından finanse edilen büyük bütçe açıkları ile karakterize edilen yüksek enflasyonun uzantısı
+  para yaratma.
+reviewed: false

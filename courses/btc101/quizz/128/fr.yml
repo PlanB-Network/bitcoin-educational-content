@@ -1,11 +1,11 @@
-question: Lorsque vous créez un plan de succession, qu'est-ce qui n'est pas nécessaire d'inclure ?
-answer: Le nom du portefeuille Bitcoin que vous utilisez habituellement.
+question: Quelle est la fonction de l'ajustement de difficulté dans le réseau Bitcoin ?
+answer: Il garantit qu'un bloc est ajouté à la blockchain environ toutes les dix minutes.
 wrong_answers:
-  - Une lettre manuscrite listant vos actifs.
-  - Une description de comment accéder à vos fonds.
-  - Les informations de contact de personnes de confiance.
-explanation: |
-  Créer un plan de succession est une étape cruciale pour assurer que vos bitcoins seront correctement gérés après votre décès.
-  Ce plan peut inclure une lettre manuscrite listant vos actifs,
-  leurs méthodes d'accès, et les informations de contact de personnes de confiance à contacter.
+  - Il détermine le prix du Bitcoin.
+  - Il régule le nombre de bitcoins qui peuvent être minés dans la blockchain.
+  - Il détermine la taille d'un bloc.
+explanation: >-
+  L'ajustement de difficulté dans le réseau Bitcoin assure qu'un bloc
+  est ajouté environ toutes les dix minutes. Cela fait partie des règles du protocole
+  du réseau Bitcoin.
 reviewed: true

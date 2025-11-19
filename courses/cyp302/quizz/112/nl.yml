@@ -1,0 +1,9 @@
+question: Waarom is RC4 geclassificeerd als een synchroon streamcijfer?
+answer: De sleutelstroom is onafhankelijk van de klaartekst en de cijfertekst
+wrong_answers:
+  - De sleutelstroom is afhankelijk van de waarden van de vorige cijfertekst
+  - De klaartekst moet worden geïntegreerd in de sleutelstroom
+  - Het gebruikt een sleutelstroom die alleen gebaseerd is op de platte tekst
+explanation: |
+  RC4 is een synchroon streamcijfer omdat de sleutelstroom alleen afhankelijk is van de initiële sleutel en niet van de klare tekst of de cijfertekst, waardoor de onafhankelijkheid van deze stroom van de berichten wordt gegarandeerd.
+reviewed: false

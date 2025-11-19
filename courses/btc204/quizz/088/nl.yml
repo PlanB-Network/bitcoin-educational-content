@@ -1,0 +1,10 @@
+question: Welke strategie gebruikt Wabisabi om de anonimiteit van deelnemers te vergroten?
+answer: Met een paar zeer grote transacties.
+wrong_answers:
+  - Met veel zeer kleine transacties.
+  - Met één kleine transactie.
+  - Zonder transacties.
+explanation: |
+  Om de anonimiteit van deelnemers te vergroten, gebruikt Wabisabi zeer grote CoinJoin transacties die tientallen deelnemers groeperen.
+  
+reviewed: false

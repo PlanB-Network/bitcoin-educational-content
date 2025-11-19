@@ -1,12 +1,9 @@
-question: ¿Cuál es la consecuencia de la hiperinflación?
-answer: Una disminución drástica en el valor de la moneda.
+question: ¿Cuál fue aproximadamente la tasa de inflación en Alemania en octubre de 1923, en el punto álgido de la hiperinflación?
+answer: 29 500 %
 wrong_answers:
-  - Una pequeña disminución en el valor de la moneda.
-  - Un aumento drástico en el valor de la moneda.
-  - Un pequeño aumento en el valor de la moneda.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Debido a la hiperinflación, las personas rápidamente pierden
-  toda confianza en la moneda, lo que lleva a
-  una disminución drástica de su valor en un corto período
-  de tiempo.
-reviewed: true
+  El mes con la tasa de inflación más alta en Alemania fue octubre de 1923, alcanzando un pico del 29 500 %.
+reviewed: false

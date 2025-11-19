@@ -1,9 +1,9 @@
-question: Perché l'oro non è un materiale facilmente trasportabile?
-answer: Perché è denso e pesante, caratteristiche che lo rendono ingombrante da trasportare in grandi quantità.
+question: Cosa significa il termine fiduciario nel contesto delle valute?
+answer: Si riferisce a valute che sono considerate di valore solo a causa della fiducia nell'istituzione centrale che le regola.
 wrong_answers:
-  - Perché è troppo prezioso per essere spostato.
-  - Perché non può essere facilmente modellato in forme più piccole.
-  - Perché è un liquido a temperatura ambiente.
+  - Si riferisce a valute che sono supportate dall'oro e sono emesse da piccole banche commerciali.
+  - Si riferisce a valute che hanno valore solo per transazioni fiduciarie.
+  - Si riferisce a valute che sono utilizzate solo all'interno di una specifica istituzione.
 explanation: |
-  L'oro è denso e pesante, il che significa che trasportare grandi quantità può essere fisicamente impegnativo. Questo peso lo rende meno conveniente per il trasporto rispetto a materiali più leggeri.
+  Le valute fiduciarie non sono supportate da una merce fisica come l'oro o l'argento. Il loro valore deriva dalla fiducia che le persone hanno nelle istituzioni che le emettono e le regolano.
 reviewed: true

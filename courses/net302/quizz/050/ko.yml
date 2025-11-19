@@ -1,0 +1,9 @@
+question: 네트워크를 제대로 보호하려면 NAT에 무엇을 추가해야 하나요?
+answer: 방화벽
+wrong_answers:
+  - 로컬 DNS 서버
+  - HTTP 프록시
+  - 바이러스 백신
+explanation: |
+  NAT만으로는 악성 트래픽을 필터링하기에 충분하지 않으며, 세분화된 트래픽 제어를 위한 방화벽 규칙으로 보완해야 합니다.
+reviewed: false

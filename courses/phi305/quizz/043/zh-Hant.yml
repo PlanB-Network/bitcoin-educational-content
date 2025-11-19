@@ -1,0 +1,9 @@
+question: 是誰說的「邪惡無所不在」？
+answer: 蘇格拉底
+wrong_answers:
+  - Leibnitz.
+  - 斯賓諾莎
+  - 笛卡爾
+explanation: |
+  evil is nothing」是蘇格拉底的觀點，也是哲學傳統的觀點。對蘇格拉底來說，惡來自於無知；如果一個人真正知道什麼是善，他就不會自願作惡。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Profesyonel profildeki işletmeler genellikle hangi gelişmiş özellikleri talep ediyor?
+answer: Gelişmiş raporlama panoları ve çoklu idari roller
+wrong_answers:
+  - Temel işlem kaydı ve standart makbuzlar
+  - Basit Wallet entegrasyonu ve QR kodu oluşturma
+  - Herhangi bir raporlama seçeneği olmadan fiat'a otomatik dönüşüm
+explanation: |
+  Profesyonel işletmeler, karmaşık iş akışlarına uyacak şekilde özelleştirilebilir faturalara, gelişmiş raporlamaya ve rol yönetimine ihtiyaç duyar.
+reviewed: false

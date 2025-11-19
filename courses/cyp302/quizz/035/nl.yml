@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van getaltheorie?
+answer: De eigenschappen van gehele getallen en de functies die ermee werken bestuderen
+wrong_answers:
+  - Meetkundige transformaties analyseren
+  - De structuur van willekeurige geometrische figuren in een eindige groep bestuderen
+  - Symmetrische versleutelingsalgoritmen ontwikkelen
+explanation: |
+  Getaltheorie richt zich op de eigenschappen van gehele getallen en de functies die worden toegepast op gehele getallen, vaak voor toepassingen in cryptografie, vooral in de context van openbare sleutelcryptografie.
+reviewed: false

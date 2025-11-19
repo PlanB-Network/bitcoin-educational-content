@@ -1,0 +1,9 @@
+question: Ni igiki gihatira Bitcoin core kwifatanya gusa biciye ku rubuga rwa Tor?
+answer: urusenga gusa=igitunguru
+wrong_answers:
+  - kwumviriza=1
+  - toron gusa=1
+  - urusenga=tor
+explanation: |
+  Ihitamwo rya onlynet=onion ribuza amahuza yose asohoka ku rubuga rwa Tor, mu gihe listenonion=1 ishobora gusa kuguha uburenganzira bwo kwumviriza amahuza ya Tor yinjira.
+reviewed: true

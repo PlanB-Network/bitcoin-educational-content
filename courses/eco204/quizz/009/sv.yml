@@ -1,0 +1,12 @@
+question: Vad är sambandet mellan inflation och deflation i en ekonomi?
+answer: Inflation och deflation är som kommunicerande kärl i en ekonomi. En produktionsökning kan leda till deflation, men om penningmängden Supply samtidigt ökas upphävs den deflationistiska effekten, vilket leder till inflation.
+wrong_answers:
+  - Inflation och deflation är oberoende av varandra i en ekonomi.
+  - Inflation leder alltid till deflation i en ekonomi.
+  - Deflation leder alltid till inflation i en ekonomi.
+explanation: |
+  I kapitlet förklaras att inflation och deflation är som kommunicerande
+  kommunicerande kärl i en ekonomi. En produktionsökning kan leda till deflation, men om
+  pengar Supply samtidigt ökar, upphävs den deflationära effekten,
+  vilket resulterar i inflation.
+reviewed: false

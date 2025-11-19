@@ -1,0 +1,9 @@
+question: 라벨에 어떤 정보를 표시해야 하나요?
+answer: UTXO의 기원.
+wrong_answers:
+  - UTXO의 생성 날짜입니다.
+  - UTXO 크기입니다.
+  - UTXO 생성에 관련된 수수료 금액입니다.
+explanation: |
+  라벨을 붙이는 것은 UTXO의 출처를 기억하는 데 도움이 되는 좋은 습관입니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Millise käsuga saab Ubuntu distributsiooni kõiki pakette uuendada?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Ubuntus (ja Debianis) sünkroonib käsk "sudo apt update && sudo apt upgrade" paketiloendi ja installib kõik olemasolevad uuendused.
+reviewed: false

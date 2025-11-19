@@ -1,0 +1,9 @@
+question: RGB 컨텍스트에서 Schema 구성 요소에 해당하는 객체 지향 프로그래밍(OOP)은 무엇인가요?
+answer: 클래스 정의
+wrong_answers:
+  - 클래스 생성자
+  - Interface 구현
+  - 메서드 프로토타이핑
+explanation: |
+  Schema는 Business Logic의 속성, 메서드 및 규칙을 설명하는 OOP의 클래스 정의에 해당합니다.
+reviewed: false

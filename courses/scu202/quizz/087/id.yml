@@ -1,0 +1,9 @@
+question: Aplikasi VPN sumber terbuka mana yang memungkinkan pembuatan akun anonim tanpa email dan menerima pembayaran Bitcoin?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN menonjol karena pembuatan akunnya yang sepenuhnya anonim, tanpa memerlukan email atau kata sandi, dan menerima pembayaran dalam Bitcoin atau uang tunai.
+reviewed: false

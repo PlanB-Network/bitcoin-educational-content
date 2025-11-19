@@ -1,0 +1,8 @@
+question: Apa alasan utama mengapa repositori GitHub Bitcoin Core dianggap istimewa dibandingkan dengan ribuan salinan repositori yang sama di seluruh dunia?
+answer: Ini berfungsi sebagai titik fokus yang diakui secara sosial untuk pengembangan Bitcoin, bukan karena keunggulan teknis apa pun
+wrong_answers:
+  - Ini berisi kunci kriptografi yang mengotentikasi rilis dan pembaruan resmi Bitcoin Core
+  - Memiliki fitur teknis dan izin eksklusif yang tidak dapat ditiru oleh salinan repositori lain
+  - Dilindungi secara hukum oleh Lisensi MIT sebagai satu-satunya sumber otoritatif kode Bitcoin
+explanation: |
+  Seperti yang dijelaskan oleh Jameson Lopp, repositori GitHub Bitcoin Core secara teknis identik dengan ribuan salinan lainnya di seluruh dunia, tetapi telah menjadi titik fokus yang diterima secara sosial untuk koordinasi pengembangan. Tidak ada fitur teknis khusus, mekanisme otentikasi kriptografi, atau perlindungan hukum yang membuatnya lebih unggul. Lisensi MIT sebenarnya memastikan bahwa setiap orang dapat menyalin dan mendistribusikan ulang kode secara bebas. Jika repositori ini menghilang, komunitas hanya akan membangun titik fokus baru di tempat lain, menunjukkan bahwa pentingnya repositori ini adalah murni konvensi sosial daripada kebutuhan teknis.

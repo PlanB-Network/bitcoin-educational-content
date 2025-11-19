@@ -1,0 +1,9 @@
+question: Vilket protokoll används huvudsakligen för att identifiera varje utrustning på Internet?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Internetprotokollet (IP) tilldelar varje enhet en unik Address och gör det möjligt att dirigera datapaket.
+reviewed: false

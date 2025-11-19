@@ -1,0 +1,14 @@
+question: Vad är privat surfning?
+answer: En funktion som hindrar webbläsare från att lagra webbhistorik, temporära internetfiler, formulärdata, cookies samt användarnamn och lösenord.
+wrong_answers:
+  - En funktion som döljer din onlineaktivitet för din internetleverantör.
+  - En funktion som gör att du kan surfa anonymt på internet.
+  - En funktion som skyddar din enhet från virus och annan skadlig programvara.
+explanation: |
+  Privat surfning är en funktion som hindrar webbläsare
+  webbläsare från att lagra webbhistorik, temporära internetfiler
+  internetfiler, formulärdata, cookies samt användarnamn och lösenord.
+  Det döljer dock inte din onlineaktivitet från din
+  internetleverantör eller gör att du kan surfa anonymt på
+  anonymt på internet.
+reviewed: true

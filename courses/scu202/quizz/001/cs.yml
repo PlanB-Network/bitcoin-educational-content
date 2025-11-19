@@ -1,0 +1,9 @@
+question: Které postupy jsou nezbytné pro omezení odhalení vašich údajů při surfování na internetu?
+answer: Pravidelné mazání souborů cookie
+wrong_answers:
+  - Uchovávejte všechny soubory cookie
+  - Zakázat soukromý režim prohlížeče
+  - Používání zastaralého prohlížeče
+explanation: |
+  Odstraněním nebo omezením souborů cookie se sníží sledování reklam a zachová se soukromí při procházení webu.
+reviewed: false

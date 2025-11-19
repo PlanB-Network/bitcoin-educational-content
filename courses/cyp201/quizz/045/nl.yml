@@ -1,0 +1,9 @@
+question: Wat is de Hash functie die gebruikt wordt om de checksum van een Mnemonic frase te berekenen?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  De checksum van een Mnemonic zin wordt berekend door een eenvoudige SHA256 Hash toe te passen op de entropie.
+reviewed: false

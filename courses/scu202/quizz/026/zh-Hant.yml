@@ -1,0 +1,9 @@
+question: 哪個指令會顯示資料夾的詳細內容，包括隱藏的檔案？
+answer: ls -lah
+wrong_answers:
+  - 顯示資料夾
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" 詳細顯示檔案和資料夾，包括隱藏的檔案 (以點開始)。
+reviewed: false

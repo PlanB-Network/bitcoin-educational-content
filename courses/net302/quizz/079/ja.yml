@@ -1,0 +1,9 @@
+question: ドメイン名とIPv6 Addressの対応付けに使用されるDNSレコードのタイプは何ですか？
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  タイプAAAA（quad-A）はドメイン名とIPv6 Addressをマッピングするために使用され、タイプAはIPv4用に予約されている。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken information kan Bob inkludera i en Invoice för att underlätta routingen?
+answer: Närliggande kanaler med tillräcklig likviditet eller förekomsten av privata kanaler
+wrong_answers:
+  - Den privata nyckeln för mellanliggande noder
+  - Den fullständiga kartan över alla nätverkets kanaler
+  - Den exakta mängden tillgänglig likviditet för varje kanal
+explanation: |
+  Genom att ange närliggande kanaler med likviditet eller avslöja privata kanaler hjälper Bob Alice att välja rutter med större sannolikhet att lyckas.
+reviewed: false

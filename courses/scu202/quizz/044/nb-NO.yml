@@ -1,0 +1,9 @@
+question: Hvilken operasjon sikrer at nedlastet programvare ikke har blitt endret siden den offisielle publiseringen?
+answer: Integritetsverifisering via Hash
+wrong_answers:
+  - Bekreftelse av autentisitet via utviklerens signatur
+  - Programvareanalyse via brannmur
+  - Kjører programmet i sikker modus
+explanation: |
+  Integritetskontrollen er basert på å sammenligne Hash i den nedlastede filen med den som er publisert av utvikleren. Enhver endring av filen endrer denne Hash.
+reviewed: false

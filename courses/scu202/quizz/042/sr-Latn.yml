@@ -1,0 +1,9 @@
+question: Zašto uvek treba proveriti integritet i autentičnost softvera preuzetog sa Interneta?
+answer: Da biste izbegli instaliranje malvera
+wrong_answers:
+  - Da bi se poboljšale performanse sistema
+  - Da se uštedi propusni opseg
+  - Da biste ubrzali instalaciju
+explanation: |
+  Provera integriteta i autentičnosti pomaže u sprečavanju instalacije oštećenog, zaraženog ili nelegitimnog softvera.
+reviewed: false

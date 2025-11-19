@@ -1,0 +1,9 @@
+question: What type of DNS record is used to map a domain name with an IPv6 address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Type AAAA (quad-A) is used to map a domain name with an IPv6 address, while type A is reserved for IPv4.
+reviewed: false

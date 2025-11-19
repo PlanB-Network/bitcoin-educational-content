@@ -1,0 +1,9 @@
+question: 哪一種電腦攻擊使用詐騙訊息來擷取資訊？
+answer: 網路釣魚
+wrong_answers:
+  - 勒索軟體
+  - DDoS
+  - SQL 注入
+explanation: |
+  網路釣魚使用欺騙性的電子郵件或訊息，誘使人們洩露機密資訊或安裝惡意軟體。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Enligt fysiokraterna, vad är ursprunget till den ekonomiska ordningen?
+answer: Marknadens naturlagar.
+wrong_answers:
+  - Regeringsbeslut.
+  - Internationell rätt.
+  - Aristokratins privilegier.
+explanation: |
+  Fysiokraterna ansåg att den ekonomiska ordningen härrörde från marknadens naturlagar och hävdade att marknaden, utan ingripande, tenderar mot en balans som säkerställer allmänt välstånd.
+reviewed: true

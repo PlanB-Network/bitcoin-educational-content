@@ -1,0 +1,9 @@
+question: Jakiego bezpłatnego, wieloplatformowego oprogramowania można użyć do utworzenia zaszyfrowanego pliku kontenera, który można zamontować jak dysk wirtualny?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt umożliwia tworzenie zaszyfrowanych kontenerów, które mogą być dostępne jako dyski wirtualne we wszystkich głównych systemach operacyjnych.
+reviewed: false

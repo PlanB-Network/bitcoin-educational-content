@@ -1,0 +1,9 @@
+question: Millise küberturvalisuse reegli kohaselt soovitatakse piirata iga kasutaja või tarkvara õigusi vaid hädavajalikuga?
+answer: Väikseimate privileegide põhimõte
+wrong_answers:
+  - Topelt autentimine
+  - Tugev paroolipoliitika
+  - Regulaarne varundamine
+explanation: |
+  Väikseimate privileegide põhimõte tähendab, et igale ülesandele antakse ainult vajalikud õigused, vähendades seega kompromissiriski.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Vad är jungfru bitcoins?
+answer: Nyligen utvunna bitcoins som aldrig har använts och som inte har någon historik kopplad till sig.
+wrong_answers:
+  - Bitcoins som har använts i olagliga aktiviteter.
+  - Bitcoins som har gått förlorade eller glömts bort.
+  - Bitcoins som har förvarats i en Wallet under lång tid.
+explanation: |
+  Virgin bitcoins är nyligen utvunna bitcoins som aldrig har
+  spenderats och inte har någon historia kopplad till sig. Dessa
+  bitcoins anses ofta vara mer värdefulla eftersom de
+  aldrig har blivit besudlade, vilket ger viss garanti mot
+  av tillsynsmyndigheter eller större Exchange-plattformar.
+reviewed: true

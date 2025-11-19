@@ -1,0 +1,9 @@
+question: Millist graafikatarkvara saab kasutada, et anda üksikasjalik hariduslik analüüs tabatud võrgupakettide kohta?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Marsruut
+explanation: |
+  Wireshark on graafiline pakettide analüsaator, mis võimaldab võrguliikluse põhjalikku uurimist.
+reviewed: false

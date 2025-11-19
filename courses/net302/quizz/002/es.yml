@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal punto débil de una red en anillo?
+answer: El fallo de un solo dispositivo puede interrumpir toda la red
+wrong_answers:
+  - Requiere muchos cables para conectar cada equipo
+  - Es difícil ampliar
+  - Su gestión es compleja
+explanation: |
+  En una topología en anillo, el fallo de un dispositivo rompe el bucle e impide la circulación de datos.
+reviewed: false

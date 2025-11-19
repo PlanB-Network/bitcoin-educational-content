@@ -1,0 +1,9 @@
+question: Perintah mana yang mengambil IP lokal Address dari Umbrel Anda jika akses melalui umbrel.local gagal?
+answer: nama host -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  Jika terjadi masalah pendeteksian, Anda dapat menggunakan perintah hostname -I pada mesin Umbrel untuk mengetahui IP lokalnya.
+reviewed: true

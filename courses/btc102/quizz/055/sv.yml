@@ -1,0 +1,9 @@
+question: Vilket medium rekommenderas för säker säkerhetskopiering av din Mnemonic-fras?
+answer: Metallbackup med förseglat ogenomskinligt kuvert
+wrong_answers:
+  - Krypterad lagring på USB-enhet
+  - Pappersbackup med transparent fodral
+  - Säkerhetskopiering i ett säkert moln
+explanation: |
+  En katastrofbeständig metallbackup ger ett långvarigt skydd mot skador och obehörig åtkomst. Det förseglade ogenomskinliga kuvertet gör att du kan verifiera om någon har fått tillgång till Mnemonic-frasen.
+reviewed: false

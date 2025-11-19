@@ -1,0 +1,9 @@
+question: Który system operacyjny dominuje na dzisiejszym rynku komputerów PC?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows ma 71% udziału w rynku komputerów osobistych dzięki domyślnej instalacji i rozbudowanemu ekosystemowi oprogramowania.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Locke'a göre Devletin temel amaçları nelerdi?
+answer: Bireylerin hayatını, özgürlüğünü ve mülkiyetini korumak.
+wrong_answers:
+  - Kanunları uygulamak ve düzeni sağlamak.
+  - Ortak refahı ve sosyal adaleti teşvik etmek.
+  - Dini ve ahlaki değerleri savunmak.
+explanation: |
+  Locke'a göre Devletin birincil görevi, bireylerin barış ve refah içinde yaşamalarını sağlamak için başta yaşam, özgürlük ve mülkiyet olmak üzere doğal hakların güvenliğini sağlamaktır.
+reviewed: true

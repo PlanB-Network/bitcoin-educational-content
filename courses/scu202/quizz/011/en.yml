@@ -1,0 +1,9 @@
+question: What's the major distinction between the free software movement and open source?
+answer: Priority given to freedom or technical efficiency
+wrong_answers:
+  - Use of C or assembly language
+  - Native or PC mobile application development
+  - The presence or absence of the international community
+explanation: |
+  Free software is about user freedom; open source is about transparency and technical efficiency.
+reviewed: false

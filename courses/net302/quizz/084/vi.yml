@@ -1,0 +1,9 @@
+question: Lệnh lịch sử nào có thể được sử dụng để tham khảo bộ đệm ARP trên hầu hết các hệ thống?
+answer: arp
+wrong_answers:
+  - đào
+  - nslookup
+  - ping
+explanation: |
+  Lệnh arp cho phép bạn xem hoặc sửa đổi bộ đệm ARP, nơi lưu trữ ánh xạ IP/MAC cục bộ.
+reviewed: false

@@ -1,0 +1,9 @@
+question: یک نود در هنگام راه‌اندازی مجدد ابتدا به کدام فایل‌ها مراجعه می‌کند تا همتایان قدیمی خود را پیدا کند؟
+answer: anchors.dat و peers.dat
+wrong_answers:
+  - Mempool.dat و peers.dat
+  - Mempool.dat و ip.dat
+  - ip.dat و anchors.dat
+explanation: |
+  Bitcoin core ابتدا به anchors.dat (همتایان خروجی قبلی) مراجعه می‌کند، سپس به peers.dat (کتاب شناخته شده Address) برای اتصال مجدد مراجعه می‌کند.
+reviewed: true

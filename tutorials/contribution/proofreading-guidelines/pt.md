@@ -1,27 +1,27 @@
 ---
 name: Diretrizes de revisão
-description: Quais são os factores importantes a ter em conta na revisão de provas no Plan ₿ Network?
+description: Quais são os factores importantes a ter em conta na revisão de provas no Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Bem-vindo a este tutorial sobre as **diretrizes a seguir na revisão de conteúdos do Plan ₿ Network**. Estamos satisfeitos por partilhar a nossa missão de traduzir os materiais do Bitcoin no maior número de línguas possível, de modo a ajudar as pessoas a conhecerem o seu funcionamento e a forma como pode ser utilizado no seu dia a dia.
+Bem-vindo a este tutorial sobre as **diretrizes a seguir na revisão de conteúdos do Plan ₿ Academy**. Estamos satisfeitos por partilhar a nossa missão de traduzir os materiais do Bitcoin no maior número de línguas possível, de modo a ajudar as pessoas a conhecerem o seu funcionamento e a forma como pode ser utilizado no seu dia a dia.
 
 
-Antes de mais, contribuir para o [repositório público](https://github.com/PlanB-Network/Bitcoin-educational-content) do Plan ₿ Network dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
+Antes de mais, contribuir para o [repositório público](https://github.com/PlanB-Network/Bitcoin-educational-content) do Plan ₿ Academy dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
 
 
-O presente tutorial é dedicado aos colaboradores que pretendem rever conteúdos. A maioria deles não sabe muito sobre o [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou a [linguagem Markdown](https://www.markdownguide.org/basic-syntax/) que usamos dentro do repositório, por isso é importante partilhar algumas ideias sobre os principais factores envolvidos nesta tarefa.
+O presente tutorial é dedicado aos colaboradores que pretendem rever conteúdos. A maioria deles não sabe muito sobre o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou a [linguagem Markdown](https://www.markdownguide.org/basic-syntax/) que usamos dentro do repositório, por isso é importante partilhar algumas ideias sobre os principais factores envolvidos nesta tarefa.
 
 
 Aqui em baixo, reuni os problemas mais comuns que os revisores encontram. Não hesite em sugerir mais, pois isso pode ajudar outros a melhorar.
 
 
-Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório Plan ₿ Network, submetendo alterações e enviando PRs:
+Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório Plan ₿ Academy, submetendo alterações e enviando PRs:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## O que é a revisão de provas?
@@ -38,13 +38,13 @@ Lembre-se sempre que a tradução/revisão é EDUCAÇÃO!
 
 De facto, o nosso objetivo comum é educar o maior número possível de pessoas sobre o Bitcoin, pelo que é fundamental que o material que lêem seja suave e claro.
 
-Neste sentido, todos os colaboradores do Plan ₿ Network são educadores!
+Neste sentido, todos os colaboradores do Plan ₿ Academy são educadores!
 
 
-## Os primeiros passos antes da revisão de provas no Plan ₿ Network
+## Os primeiros passos antes da revisão de provas no Plan ₿ Academy
 
 
-Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de telegramas] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o seu coordenador do Plan ₿ Network, que abrirá uma [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
+Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de telegramas] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o seu coordenador do Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/Plan ₿ Academy/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
 
 
 Este sistema ajuda o coordenador a acompanhar o progresso dentro do repositório e permite que o conteúdo seja "reclamado" pelo revisor, evitando a duplicação de esforços por outra pessoa.
@@ -60,7 +60,7 @@ Antes de mais, **Lembre-se SEMPRE de SINCRONIZAR o seu repo, no ramo "dev "**. D
 
 
 
-Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
+Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
 
 
 
@@ -115,11 +115,11 @@ Neste segundo caso, **faz sempre alguma pesquisa para ver se alguém na tua comu
 
 
 
-- Outra boa solução é manter a palavra/frase original EN e depois **criar uma hiperligação** que redireccione para o [glossário](https://planb.network/en/resources/glossary) em planb.network. Para o fazer, tem de inserir a palavra/frase entre parênteses rectos e a hiperligação entre parênteses rectos, como pode ver no exemplo abaixo:
+- Outra boa solução é manter a palavra/frase original EN e depois **criar uma hiperligação** que redireccione para o [glossário](https://planb.academy/en/resources/glossary) em planb.network. Para o fazer, tem de inserir a palavra/frase entre parênteses rectos e a hiperligação entre parênteses rectos, como pode ver no exemplo abaixo:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ No resultado final (imagem abaixo), não visualizará a ligação completa e a p
 
 
 
-Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.network/en/resources/glossary/UTXO``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
+Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.academy/en/resources/glossary/utxo``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
 
 
 O conteúdo do repositório está cheio de hiperligações como estas acima. Agora que sabe o que significam, **certifique-se de que não apaga nenhuma hiperligação** inserida pelo autor original.
 
 
 
-- Outro aspeto relacionado com a tradução de palavras é o seguinte. Se encontrar "Plan ₿ Network" no texto, **deixe-o na sua forma original**. Não traduza a palavra "plan" (plano) ou a palavra "network" (rede). Para além disso, NÃO utilize o artigo "The" quando apresentar o Plan ₿ Network: **considere-o como uma marca**.
+- Outro aspeto relacionado com a tradução de palavras é o seguinte. Se encontrar "Plan ₿ Academy" no texto, **deixe-o na sua forma original**. Não traduza a palavra "plan" (plano) ou a palavra "network" (rede). Para além disso, NÃO utilize o artigo "The" quando apresentar o Plan ₿ Academy: **considere-o como uma marca**.
 
 
 
@@ -205,7 +205,7 @@ Em seguida, encontrará alguns exemplos de questões de formato a que deve prest
 
 
 
-- Preste atenção a pontuações estranhas como `\*\*\`, ou ``**`` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
+- Preste atenção a pontuações estranhas como `**`, ou `**` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
 
 
 
@@ -234,22 +234,29 @@ Certifique-se de que verifica o ficheiro da língua original (frequentemente EN 
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Revisão de questionários
 
 
-Sabia que também pode rever as perguntas dos questionários de cada curso? Por exemplo, se quiser rever os testes do curso BTC101 em TI, pode abrir uma secção específica e seguir este caminho: "cursos" -> "BTC101" -> "questionário". Aí, encontrará todas as pastas dedicadas a cada pergunta, juntamente com o respetivo ficheiro de língua em formato _yml_.
+Sabia que também pode rever as perguntas dos questionários de cada curso? Por exemplo, se quiser rever os testes do curso BTC101 em TI, pode abrir uma secção específica e seguir este caminho: "cursos" -> "BTC101" -> "questionário". Aí, encontrará todas as pastas dedicadas a cada pergunta, juntamente com o ficheiro de língua correspondente no formato _yml_.
 
 
 Mais uma vez, certifique-se de que se encontra num balcão específico que abriu especificamente para este efeito e informe sempre o coordenador.
 
 
-Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "falso" para "verdadeiro", como mostra a imagem abaixo.
-
+Uma coisa importante a ter em mente ao revisar este tipo de arquivo _yml_ é evitar adicionar dois pontos ``:`` dentro do texto. De facto, os dois pontos são **apenas** usados para separar pares de valores chave como "wrong_answers" do resto. Pode ver um exemplo na imagem abaixo:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "falso" para "verdadeiro", como mostra a imagem abaixo. Certifique-se de que mantém estas palavras de estado em inglês, independentemente da língua em que está a trabalhar!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Se a linha de estado "reviewed:true" estiver em falta, certifique-se de que a **adiciona no final do teste**.
 
 
 ## Revisão do glossário
@@ -258,7 +265,35 @@ Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "f
 Tal como os testes, também pode rever o glossário. O glossário original foi escrito em francês, pelo que encontrarás frases como: "Em francês, esta expressão pode ser traduzida por..."
 
 
-Em casos como este, por favor, adapte esta frase à sua língua de chegada ou ao inglês.
+Em casos como este, adapte a frase à sua língua de chegada ou ao inglês. Por exemplo, pode escrever "Em inglês, esta expressão...".
+
+Se o título for deixado em inglês, pode adaptar a frase à sua língua: "Em suaíli, esta expressão..."
+
+
+Além disso, certifique-se de que escreve os títulos em LETRAS MAIÚSCULAS.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## O título e a descrição do seu PR
+
+
+Quando enviar o seu RP, seria ótimo se o nomeasse utilizando este formato: [REVISÃO] NOME DO CONTEÚDO - LÍNGUA:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Além disso, na secção **comentário do PR**, pode escrever "fecha" + o número do problema que o coordenador lhe enviou quando iniciou a tarefa de revisão, precedido de ``#``.
+
+Por exemplo, se acabou de enviar um RP com a revisão do cyp201 + quizzes, pode escrever "fecha [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Desta forma, o PR e o problema estarão ligados e quem ler o repositório público do Github poderá encontrar facilmente as informações.
+
 
 
 ## Outras boas práticas
@@ -269,37 +304,49 @@ Em casos como este, por favor, adapte esta frase à sua língua de chegada ou ao
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Ao utilizar a função "substituir tudo", é importante verificar novamente os resultados para garantir que as hiperligações também não foram alteradas. Por exemplo, se pretender alterar a palavra "Bitcoin" para "Bitkoin" (o que pode ser necessário em algumas línguas), a utilização da função "substituir tudo" pode atualizar eficazmente todas as instâncias no texto. No entanto, tenha em atenção que esta ferramenta também modificará quaisquer hiperligações que contenham essa palavra, o que poderá levar a problemas de redireccionamento.
+Ao utilizar a função "substituir tudo", é importante verificar novamente os resultados para garantir que as hiperligações também não foram alteradas. Por exemplo, se pretender alterar a palavra "Bitcoin" para "Bitkoin" (o que pode ser necessário em algumas línguas), a utilização da função "substituir tudo" pode atualizar eficazmente todas as instâncias no texto. No entanto, tenha em atenção que esta ferramenta também modificará todas as hiperligações que contenham essa palavra, o que poderá levar a problemas de redireccionamento.
 
 
-No exemplo abaixo, o revisor utilizou a função acima para substituir "Satoshi" por "Satoshi(Sats)" e também alterou a hiperligação para um tutorial que contém a própria palavra. Como consequência, a hiperligação tornou-se inválida.
+No exemplo abaixo, o revisor utilizou a função acima para substituir "Satoshi" por "Satoshi(Sats)", e também alterou a hiperligação para um tutorial que continha a própria palavra. Como consequência, a hiperligação tornou-se inválida.
 
 
 Verifique sempre todas as hiperligações no texto, para se certificar de que estão corretas.
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial Plan ₿ Network (**não** entre parêntesis), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Como consequência, certifique-se sempre de que **tem um espaço entre o texto e a própria ligação**, caso contrário, poderá ver o seguinte erro no sítio Web.
+- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial Plan ₿ Academy (**não** entre parênteses), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Como consequência, certifique-se sempre de que **acrescenta uma nova linha entre o texto e a própria ligação**, caso contrário poderá ver o seguinte erro no sítio Web.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+O mesmo acontece com "códigos de imagem" como este ``[IMAGE](asset/fr/001.webp)``: certifique-se de que adiciona sempre uma nova linha entre o código de imagem e o texto. Um exemplo abaixo:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Por fim, outra boa prática a aplicar quando terminar a sua tarefa de revisão e enviar o RP é voltar ao problema original aberto pelo coordenador e comentar com "Revisão efectuada". **Certifique-se de que também insere aí a ligação do seu RP**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Conclusão
@@ -308,7 +355,10 @@ Verifique sempre todas as hiperligações no texto, para se certificar de que es
 Em suma, estar ciente dos erros comuns dos revisores pode ajudá-lo a melhorar as suas competências na verificação de conteúdos. É fácil ignorar aspectos como o contexto ou a coerência, e a deteção destes erros pode fazer uma grande diferença.
 
 
-Tem sempre em mente que um principiante pode ler estes cursos e tutoriais, pelo que é da nossa responsabilidade garantir que eles compreendem plenamente. Como revisor, é um educador!
+Tenha sempre em mente que um principiante pode ler estes cursos e tutoriais, pelo que é da nossa responsabilidade garantir que eles compreendem plenamente. Como revisor, é um educador!
+
+
+Agora está pronto para começar a rever cursos, tutoriais, questionários e glossários. Fica atento para começares também a verificar imagens e transcrições de vídeos ;)
 
 
 Obrigado por ter lido este tutorial e desfrute da sua jornada de revisão de textos!

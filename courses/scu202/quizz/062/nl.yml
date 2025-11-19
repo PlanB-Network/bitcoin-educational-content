@@ -1,0 +1,9 @@
+question: Welke browser garandeert anonimiteit door het verkeer om te leiden via een gedecentraliseerd netwerk met hoge latentie?
+answer: Tor-browser
+wrong_answers:
+  - Mullvad Browser
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser vertrouwt op het Tor-netwerk om browsen te anonimiseren, maar dit gaat ten koste van de prestaties.
+reviewed: false

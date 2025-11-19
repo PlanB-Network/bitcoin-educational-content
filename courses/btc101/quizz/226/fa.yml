@@ -1,8 +1,8 @@
-question: Lightning Network چه نوع شبکه‌ای ایجاد می‌کند؟
-answer: شبکه‌ای از کانال‌های پرداخت.
+question: هدف اصلی Lightning Network چیست؟
+answer: برای تسهیل تراکنش‌های خرد.
 wrong_answers:
-  - شبکه‌ای از گره‌های Mining.
-  - شبکه‌ای از گره‌های Blockchain.
-  - شبکه‌ای از صرافی‌های ارز دیجیتال.
+  - برای افزایش ارزش Bitcoin.
+  - برای جایگزینی پروتکل Bitcoin.
+  - برای ایجاد یک ارز دیجیتال جدید.
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Milline toiming tagab, et allalaaditud tarkvara ei ole pärast selle ametlikku avaldamist muudetud?
+answer: Terviklikkuse kontrollimine Hash kaudu
+wrong_answers:
+  - Autentsuse kontrollimine arendaja allkirja abil
+  - Tarkvara analüüs tulemüüri kaudu
+  - Programmi käivitamine turvalises režiimis
+explanation: |
+  Terviklikkuse kontroll põhineb allalaaditud faili Hash võrdlemisel arendaja avaldatud Hash-ga. Iga faili muutmine muudab seda Hash.
+reviewed: false

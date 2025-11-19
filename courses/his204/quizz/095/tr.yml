@@ -1,0 +1,8 @@
+question: Condorcet serbest ticareti savunurken hangi bakana karşı çıkmıştır?
+answer: Necker
+wrong_answers:
+  - Calonne
+  - Trudaine
+  - Choiseul
+explanation: |
+  Condorcet, ekonomik liberalizm ilkelerini savunarak serbest ticaret konusunda Necker'e karşı çıktı.

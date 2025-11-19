@@ -1,0 +1,9 @@
+question: Vad kallas en grupp som uppfyller kommutativitetsvillkoret?
+answer: En abelisk grupp
+wrong_answers:
+  - En sluten grupp
+  - En associativ grupp
+  - En invers grupp
+explanation: |
+  En abelisk, eller kommutativ, grupp är en grupp där ordningen på Elements i den binära operationen inte påverkar resultatet. Detta innebär att för varje a och b gäller a ∘ b = b ∘ a.
+reviewed: false

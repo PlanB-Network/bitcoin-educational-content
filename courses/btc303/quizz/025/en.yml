@@ -1,0 +1,8 @@
+question: What are the two main ways that private financial information can leak when using Bitcoin?
+answer: On-chain through blockchain analysis and off-chain through intercepted communications
+wrong_answers:
+  - Through wallet software bugs and mining pool data breaches
+  - Via exchange hacks and government surveillance programs
+  - Through social media posts and public transaction announcements
+explanation: |
+  According to the chapter content, private data can leak in two primary ways: on-chain and off-chain. On-chain leaks occur through analysis of the public blockchain, where transaction patterns, address reuse, and clustering can reveal financial information. Off-chain leaks happen when malicious actors intercept internet communications or through other non-blockchain means. While the wrong answers mention real security concerns in the Bitcoin ecosystem, they don't represent the fundamental categorization of how privacy leaks occur as outlined in the material.

@@ -1,0 +1,9 @@
+question: Bu riskler arasında hangisi nakit P2P değişimleri ile ilişkili değildir?
+answer: Veri sızıntısı riski.
+wrong_answers:
+  - Kişisel güvenlik riski.
+  - Hırsızlık riski.
+  - Yasal risk.
+explanation: |
+  Cash P2P borsaları birçok risk barındırır, ancak KYC yapılmasını gerektirmezler. Bu nedenle, veri sızıntısı riski yoktur.
+reviewed: false

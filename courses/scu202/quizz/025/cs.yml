@@ -1,0 +1,9 @@
+question: Jaký formát balíčků vyvinula společnost Canonical k oddělení aplikací a jejich závislostí?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Formát Snap, vyvinutý společností Canonical, umožňuje instalaci samostatného softwaru, který je izolován od systému a nezávisle aktualizován.
+reviewed: false

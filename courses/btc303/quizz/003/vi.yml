@@ -1,0 +1,8 @@
+question: Bitcoin đã giải quyết vấn đề gì mà các loại tiền kỹ thuật số trước đây không giải quyết được?
+answer: Vấn đề double-spending theo cách phi tập trung
+wrong_answers:
+  - Vấn đề mã hóa trong mạng ngang hàng
+  - Vấn đề lưu trữ cho các giao dịch kỹ thuật số
+  - Vấn đề tốc độ trong thanh toán trực tuyến
+explanation: |
+  Bước đột phá của Bitcoin là giải quyết vấn đề của double-spending mà không cần đến cơ quan quản lý trung ương. Vấn đề của double-spending là ngăn chặn việc ai đó chi tiêu cùng một đồng tiền kỹ thuật số hai lần. Các loại tiền kỹ thuật số trước đây đã thất bại vì chúng phụ thuộc vào máy chủ trung tâm hoặc các cơ quan quản lý đáng tin cậy, khiến chúng dễ bị kiểm duyệt và lỗi điểm đơn. Bitcoin đã giải quyết vấn đề này thông qua máy chủ dấu thời gian phân tán ngang hàng sử dụng proof-of-work, cho phép mạng lưới đồng thuận về thứ tự giao dịch mà không cần bất kỳ sự kiểm soát trung tâm nào.

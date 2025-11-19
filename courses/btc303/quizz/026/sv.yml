@@ -1,0 +1,8 @@
+question: Vad avser blockchain-sekretess specifikt i samband med Bitcoin?
+answer: Den information du avslöjar genom att göra transaktioner på blockkedjan
+wrong_answers:
+  - Kryptering av privata nycklar som lagras i din wallet
+  - Skyddet av din internetanslutning när du använder Bitcoin
+  - Den anonymitet som ges genom att använda flera wallet-adresser
+explanation: |
+  Blockchain-sekretess avser specifikt den information du avslöjar genom att göra transaktioner på blockkedjan, vilket gäller alla transaktioner du skickar och tar emot. Detta skiljer sig från wallet-kryptering (som skyddar lagrade nycklar), internetanslutningssäkerhet (som är off-chain-integritet) eller missuppfattningen att flera adresser ger anonymitet. Sekretessläckage i kedjan sker genom återanvändning av adresser och klustring, där transaktioner kan länkas samman för att avslöja mönster om användarnas finansiella aktiviteter.

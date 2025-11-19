@@ -1,0 +1,9 @@
+question: Wat is de grootte van een ruwe privésleutel die gebruikt wordt op Bitcoin?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 1024 bits
+explanation: |
+  Een privésleutel in Bitcoin is een 256-bits willekeurig geheel getal, waardoor de sleutelruimte groot genoeg is om de veiligheid te garanderen.
+reviewed: false

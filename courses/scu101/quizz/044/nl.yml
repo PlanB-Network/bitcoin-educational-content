@@ -1,0 +1,9 @@
+question: Waarom is het belangrijk om je oude wachtwoorden geleidelijk te vervangen door wachtwoorden gegenereerd door een wachtwoordmanager?
+answer: Wachtwoorden gegenereerd door een wachtwoordmanager zijn sterker en langer, en bieden dus meer veiligheid.
+wrong_answers:
+  - De wachtwoordmanager verwijdert automatisch oude wachtwoorden.
+  - Wachtwoordmanagers kunnen maar een beperkt aantal wachtwoorden opslaan.
+  - Wachtwoordmanagers vereisen dat alle wachtwoorden door hen worden gegenereerd.
+explanation: |
+  Een wachtwoordmanager genereert sterkere en langere wachtwoorden, die meer veiligheid bieden. Door geleidelijk je oude wachtwoorden te vervangen door deze, kun je de beveiliging van je online accounts verbeteren.
+reviewed: true

@@ -1,8 +1,8 @@
-question: Koji je jedan od razloga zašto Bitkoin nije balon koji će nestati?
-answer: Zato što je to valuta koja se zapravo koristi svuda u svetu.
+question: Koji je jedan faktor koji treba uzeti u obzir prilikom odabira rešenja za prihvatanje Bitkoina za vaše poslovanje?
+answer: Očekivani obim transakcija.
 wrong_answers:
-  - Zato što se zapravo nigde ne koristi.
-  - Zato što je kontrolisan od strane centralnog autoriteta.
-  - Zato što je lako falsifikovati.
+  - Boja vašeg logotipa.
+  - Broj zaposlenih.
+  - Lokacija vašeg sedišta.
 explanation: >-
 reviewed: true

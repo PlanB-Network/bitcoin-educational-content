@@ -1,0 +1,9 @@
+question: 哪個詞彙是指 MAC Address 的前三個位元組？
+answer: OUI（組織唯一識別碼）
+wrong_answers:
+  - SID（會話識別碼）
+  - LUI（本地唯一識別碼）
+  - PAN（實體 Address 號碼）
+explanation: |
+  OUI 由 IEEE 指定，可在 MAC Address 中識別網卡製造商。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakie jest główne zastosowanie segmentacji sieci opartej na VLAN w sieci domowej?
+answer: Izolacja różnych typów urządzeń lub zastosowań
+wrong_answers:
+  - Zwiększenie zasięgu Wi-Fi dla urządzeń
+  - Szyfrowanie połączeń sieciowych indywidualnie dla każdego urządzenia
+  - Automatyczne włączanie WPA3
+explanation: |
+  Sieci VLAN mogą być używane do dzielenia urządzeń, ograniczając rozprzestrzenianie się ataku między segmentami.
+reviewed: false

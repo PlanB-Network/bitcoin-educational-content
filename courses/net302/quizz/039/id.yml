@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara IPv4 Address publik dan IPv4 Address privat?
+answer: Address publik bersifat unik dan dapat dirutekan di Internet
+wrong_answers:
+  - Address pribadi bersifat unik dan dapat dirutekan di Internet
+  - Address publik selalu ditetapkan oleh DHCP
+  - Address pribadi selalu ditetapkan oleh DHCP
+explanation: |
+  IPv4 Address publik bersifat unik secara global dan dapat dirutekan di Internet, sedangkan Address pribadi hanya berlaku di dalam jaringan lokal.
+reviewed: false

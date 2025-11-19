@@ -1,0 +1,9 @@
+question: Welke moderne tool vervangt arp op recente Linux distributies?
+answer: ip buren
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - route
+explanation: |
+  ip neigh, uit de iproute2 suite, vervangt arp voor het beheren van IP/MAC associaties op moderne Linux.
+reviewed: false

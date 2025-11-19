@@ -1,0 +1,9 @@
+question: Phần mềm Bitcoin ban đầu được kết hợp vào năm 2009 có những tính năng gì?
+answer: Wallet, cung và nhỏ
+wrong_answers:
+  - Node, Miner và Block explorer
+  - Wallet, trực thăng và Miner
+  - Miner và Mining pool
+explanation: |
+  Phần mềm Bitcoin ban đầu tích hợp các chức năng Wallet, node và Miner thành một chương trình duy nhất.
+reviewed: true

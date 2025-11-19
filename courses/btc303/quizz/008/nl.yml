@@ -1,0 +1,8 @@
+question: Wat maakt Bitcoin's transactieverwerking bestand tegen censuur?
+answer: Het ordenen van transacties wordt collectief uitgevoerd door een dynamische groep miners waar iedereen zich bij kan aansluiten of uit kan stappen
+wrong_answers:
+  - Transactievalidatie wordt versleuteld met behulp van geavanceerde cryptografische protocollen die overheden niet kunnen kraken
+  - Transactierecords worden opgeslagen op meerdere back-upservers die worden beheerd door verschillende vertrouwde organisaties
+  - Transactiekosten worden automatisch aangepast om economische aanvallen van gecentraliseerde autoriteiten te voorkomen
+explanation: |
+  Bitcoin is bestand tegen censuur door decentralisatie van de miners, waarbij het bestellen van transacties collectief wordt uitgevoerd door alle miners die ervoor kiezen om deel te nemen. Dit creëert een dynamisch systeem waarbij iedereen vrij kan deelnemen of uittreden uit het mining proces, waardoor er geen enkel controlepunt is dat onder druk kan worden gezet om transacties te censureren. De foute antwoorden beschrijven technische kenmerken, vertrouwde partijen of economische mechanismen die het kernprobleem van gedecentraliseerde controle over transactieverwerking niet aanpakken.

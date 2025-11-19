@@ -1,0 +1,9 @@
+question: Vad betyder "topologi" i ett datornätverk?
+answer: Hur enheter är sammankopplade
+wrong_answers:
+  - Internetanslutningens hastighet
+  - Den typ av protokoll som används för kommunikation
+  - Till märket på routrar som används i ett nätverk
+explanation: |
+  Topologi avser den fysiska eller logiska strukturen i ett nätverk och hur dess komponenter är anslutna.
+reviewed: false

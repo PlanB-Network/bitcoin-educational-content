@@ -1,0 +1,9 @@
+question: Bastiat tarafından tanımlanan iki yağma biçimi nedir?
+answer: Yasal yağma ve yasadışı yağma
+wrong_answers:
+  - Ahlaki yağma ve ahlaksız yağma
+  - İç yağma ve dış yağma
+  - Malların yağmalanması ve hizmetlerin yağmalanması
+explanation: |
+  Bastiat, yasalarla tanımlanan ve genellikle devlet tarafından uygulanan (vergiler gibi) yasal yağma ile hırsızlık veya saldırı gibi yasal çerçevenin dışında gerçekleşen yasadışı yağma arasında ayrım yapar.
+reviewed: true

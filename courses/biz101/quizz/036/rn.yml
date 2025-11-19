@@ -1,0 +1,9 @@
+question: Ni gute Lightning Network iriko irafasha guhingura kazoza k’ubudandaji bwo kuri internet n’ibikorwa vy’ubuhinga bwa none?
+answer: Mu gutuma habaho ibikorwa bitobito bitagiramwo amahane, bihita, kandi bitagira uruhusha, bikaba vyugurura uburyo bushasha bwo gukora ubudandaji n’inzira z’amahera.
+wrong_answers:
+  - Mu kubuza ubuhinga bushasha bwo gukora ubudandaji buzoza kuri Internet.
+  - Mu gusaba abacuruzi gukoresha inzira nyene zo kwishura buhoro kandi zizimvye nk’uko vyari kera.
+  - Mu gutuma ibintu vya digitale bidashobora kugurishwa kubera amafaranga menshi.
+explanation: |
+  Ubushobozi bwa Lightning bwo kohereza utugingo ngengabuzima dutoduto ubwo nyene kandi kugiciro gito buremesha ubuhinga bushasha mu bintu nk’ivyo kwishura uko ugenda, kwishura ku mbuga ngurukanabumenyi, n’ugucuruza kw’imashini ku mashini, bishobora guhindura ingene ibikorwa vyo kuri interineti bikoreshwa.
+reviewed: false

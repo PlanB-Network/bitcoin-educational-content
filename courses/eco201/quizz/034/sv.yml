@@ -1,0 +1,13 @@
+question: Vad är den österrikiska teorin om konjunkturcykeln?
+answer: Den österrikiska teorin om konjunkturcykeln är en teori som förklarar ekonomiska cykler som endogen dynamik i banksystemet med fraktionella reserver och betonar den sekventiella karaktären hos mänskligt handlande och räntefluktuationernas inverkan på den intertemporala samordningen av ekonomiska aktörer.
+wrong_answers:
+  - Den österrikiska teorin om konjunkturcykeln är en teori som förklarar ekonomiska cykler som ett resultat av externa händelser och djuriska andar.
+  - Den österrikiska teorin om konjunkturcykeln är en teori som förklarar ekonomiska cykler som ett resultat av förändringar i den samlade efterfrågan och Supply.
+  - Den österrikiska konjunkturteorin är en teori som förklarar konjunkturcykler som ett resultat av förändringar i sysselsättningsnivå, BNP eller konsumentprisindex.
+explanation: |
+  Den österrikiska teorin om konjunkturcykeln, utvecklad av Ludwig von Mises
+  och Friedrich Hayek, förklarar ekonomiska cykler som endogen dynamik i det fraktionerade
+  banksystemet med fraktionella reserver. Den betonar det mänskliga handlandets sekventiella natur och
+  och räntefluktuationernas inverkan på den intertemporala samordningen av ekonomiska
+  aktörer.
+reviewed: true

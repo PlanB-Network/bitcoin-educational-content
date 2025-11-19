@@ -1,0 +1,9 @@
+question: V jakém programovacím jazyce je Bitcoin core napsán?
+answer: C++
+wrong_answers:
+  - Přejít na
+  - JavaScript
+  - Rust
+explanation: |
+  Bitcoin core je napsán v jazyce C++ a je udržován rozsáhlou komunitou uživatelů s otevřeným zdrojovým kódem.
+reviewed: true

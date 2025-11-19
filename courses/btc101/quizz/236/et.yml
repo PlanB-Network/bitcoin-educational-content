@@ -1,8 +1,10 @@
-question: Mis on skin in the game kontseptsioon videomängude tööstuses?
-answer: Omama rahalist osalust mängu tulemuses
+question: Mis on üks potentsiaalne ärivõimalus, mis tuleneb Lightning Network'ist?
+answer: Uued majandusmudelid, kus tarbijad maksavad sisu eest vastavalt sellele, mida nad tarbivad
 wrong_answers:
-  - Investeerimine mängu arendusse
-  - Pärisraha eest mängusiseste esemete ostmine
-  - Mängunahkade müümine pärisraha eest
+  - Uued krüptovaluutad
+  - Uued plokiahela tehnoloogiad
+  - Uued makseviisid
 explanation: >-
-  Skin in the game kontseptsioon on idee, mis on hiljuti videomängude tööstuses populaarsust kogunud. See hõlmab sisuliselt rahalist osalust mängu tulemuses.
+  Lightning Network avab Bitcoin'i kasutajatele hulgaliselt põnevaid kasutusjuhte. Sellest tulenevad majandusmudelid ja ärivõimalused on arvukad
+  ja mitmekesised, sealhulgas uued majandusmudelid, kus tarbijad maksavad sisu eest vastavalt sellele, mida nad tarbivad.
+reviewed: false

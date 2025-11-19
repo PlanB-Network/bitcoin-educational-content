@@ -1,0 +1,9 @@
+question: Který příkaz zobrazí podrobný obsah složky včetně skrytých souborů?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" podrobně zobrazí soubory a složky včetně skrytých souborů (začínajících tečkou).
+reviewed: false

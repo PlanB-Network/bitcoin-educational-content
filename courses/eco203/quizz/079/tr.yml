@@ -1,0 +1,9 @@
+question: Bastiat'ya göre, aşırı devlet müdahalesi toplum için nasıl bir tehlike oluşturmaktadır?
+answer: Bireysel sorumluluğu yok eder ve özel girişimi sınırlar
+wrong_answers:
+  - Ekonomik büyümeyi ve inovasyonu teşvik eder
+  - Herkes için eşit fırsatları garanti eder
+  - Bireyleri eylemlerinin sonuçlarından korur
+explanation: |
+  Bastiat'ya göre, aşırı devlet müdahalesi bireylerin özerkliğini azaltır ve inisiyatif alma yeteneklerini engeller, böylece bireysel sorumluluk ve yaratıcılığı zayıflatır.
+reviewed: false

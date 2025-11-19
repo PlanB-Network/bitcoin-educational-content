@@ -1,9 +1,11 @@
-question: Jaké je riziko přílišné komplikace zabezpečení a přístupnosti vašich bitcoinů?
-answer: Můžete si ublížit, pokud špatně zacházíte se záložními peněženkami.
+question: Čím je často reprezentován soukromý klíč v Bitcoinové peněžence?
+answer: Seznamem 12 nebo 24 slov.
 wrong_answers:
-  - Můžete si ublížit, pokud špatně zacházíte s fyzickými peněženkami.
-  - Můžete si ublížit, pokud špatně zacházíte s digitálními peněženkami.
-  - Můžete si ublížit, pokud špatně zacházíte s multisig peněženkami.
+  - Seznamem 12 nebo 48 slov.
+  - Seznamem 32 slov.
+  - Seznamem 64 slov.
 explanation: |
-  Přílišná komplikace zabezpečení a přístupnosti vašich bitcoinů vám může ublížit, pokud například špatně zacházíte se zálohami vašich peněženek. To je proto, že jednoduché postupy zálohování jsou klíčové pro znovuzískání přístupu k vašim prostředkům v případě ztráty telefonu nebo počítače.
+  V Bitcoinové peněžence je soukromý klíč často reprezentován
+  seznamem 12 nebo 24 slov, který se také nazývá seed fráze
+  nebo mnemonická fráze.
 reviewed: true

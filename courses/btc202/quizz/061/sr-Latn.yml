@@ -1,0 +1,9 @@
+question: Koja je glavna prednost Tailscale-a u odnosu na Tor za daljinski pristup Umbrel-u?
+answer: Brža veza
+wrong_answers:
+  - Jača enkripcija od WireGuard-a
+  - Kompatibilnost sa enterprise ruterima
+  - Sposobnost korišćenja Electrs-a van mreže
+explanation: |
+  Tailscale nudi sigurnost WireGuard-a, ali sa brzinom clearnet veze, za razliku od Tor-a, koji je sporiji.
+reviewed: true

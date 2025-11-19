@@ -1,5 +1,5 @@
-question: W jaki sposób blokada czasowa chroni przed oszustwami w transakcjach Commitment?
-answer: Uniemożliwia to stronie naruszającej natychmiastowe odzyskanie środków
+question: W jaki sposób blokada czasowa chroni przed oszustwami w transakcjach zobowiązujących?
+answer: Uniemożliwia stronie naruszającej natychmiastowe odzyskanie środków
 wrong_answers:
   - Automatycznie zwraca środki oszustowi
   - Anuluje transakcję w przypadku próby oszustwa

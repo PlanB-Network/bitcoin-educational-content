@@ -1,5 +1,5 @@
 ---
-name: Sinal
+name: Signal
 description: Exprimir-se livremente
 ---
 ![cover](assets/cover.webp)
@@ -269,8 +269,8 @@ Parabéns, agora está a par da utilização do serviço de mensagens Signal, um
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

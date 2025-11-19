@@ -1,0 +1,8 @@
+question: Ni tatizo gani mahususi la BIP66 laini ya fork ambalo Shaolinfry alitaja kama ushahidi dhidi ya uma laini zilizowashwa na wachimbaji?
+answer: 95% ya utayari wa hashrate ulioashiria lakini takriban nusu haikuwa ikithibitisha sheria zilizoboreshwa na kuchimbwa kwenye kizuizi batili.
+wrong_answers:
+  - Wachimbaji walikataa kuashiria msaada licha ya mahitaji makubwa ya watumiaji, na kusababisha uboreshaji kukwama kwa muda usiojulikana
+  - Asilimia ndogo ya wachimba migodi walipinga kusasishwa kwa mtandao mzima licha ya usaidizi mwingi kutoka kwa watumiaji
+  - Uboreshaji huo ulisababisha mgawanyiko wa kudumu kwa sababu wachimbaji na watumiaji walitofautiana katika maelezo ya utekelezaji
+explanation: |
+  Tukio la BIP66 lilifichua dosari kubwa katika uma laini zilizowashwa na wachimbaji: utayari wa kuashiria hauhakikishii uthibitishaji halisi. Licha ya 95% ya wachimbaji kuashiria kuwa walikuwa tayari kwa uboreshaji, takriban nusu hawakuwa wakithibitisha sheria mpya ipasavyo na walichimba kimakosa kwenye kizuizi batili. Hili lilionyesha kuwa uwekaji ishara wa nguvu ya hashi unaweza kupotosha na hauhakikishi utekelezwaji ufaao, ambayo ilikuwa mojawapo ya hoja kuu za Shaolinfry za kupendekeza Forks Zilizowashwa na Mtumiaji za Soft kama njia inayotegemeka zaidi ya kuboresha.

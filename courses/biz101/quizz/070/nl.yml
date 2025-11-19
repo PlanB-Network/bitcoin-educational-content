@@ -1,0 +1,9 @@
+question: Welke geavanceerde functies worden doorgaans gevraagd door bedrijven met een professioneel profiel?
+answer: Geavanceerde rapportagedashboards en meerdere beheerdersrollen
+wrong_answers:
+  - Basis transactie registratie en standaard ontvangstbewijzen
+  - Eenvoudige Wallet integratie en QR code generatie
+  - Automatische conversie naar fiat zonder rapportageopties
+explanation: |
+  Professionele bedrijven hebben aanpasbare facturen, geavanceerde rapportage en rolbeheer nodig voor hun complexe workflows.
+reviewed: false

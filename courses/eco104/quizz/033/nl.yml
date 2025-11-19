@@ -1,0 +1,12 @@
+question: Wat is een voordeel van gecentraliseerde stablecoins, ondanks hun mogelijkheid om fondsen te bevriezen?
+answer: Ze kunnen snel reageren om gebruikers in bepaalde scenario's te beschermen
+wrong_answers:
+  - Ze bieden volledige decentralisatie en veiligheid
+  - Ze zijn niet onderworpen aan regels of interventies
+  - Ze werken onafhankelijk van wetshandhaving
+explanation: |
+  Gecentraliseerde stablecoins hebben de mogelijkheid om in te grijpen
+  in te grijpen wanneer dat in het belang is van gebruikers en de algehele stabiliteit van het systeem
+  van het systeem, zoals blijkt uit voorbeelden waarbij bevroren fondsen werden
+  werden gebruikt om consumenten te beschermen en te voorkomen dat hackers konden profiteren.
+reviewed: true

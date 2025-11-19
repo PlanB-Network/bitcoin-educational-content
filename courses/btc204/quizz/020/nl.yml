@@ -1,0 +1,9 @@
+question: Als we naar een patroon zoeken, welk deel van de transactie zullen we dan bestuderen?
+answer: De structuur
+wrong_answers:
+  - De metagegevens
+  - De scripts
+  - De handtekening
+explanation: |
+  Een transactiepatroon is eenvoudigweg een model of een algemene structuur van een typische transactie die kan worden gevonden op de Blockchain, waarvan de waarschijnlijke interpretatie bekend is.
+reviewed: false

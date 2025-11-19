@@ -1,0 +1,8 @@
+question: Hangi fikir Montaigne'in sofizmi olarak adlandırılmıştır?
+answer: Exchange sıfır toplamlı bir oyundur
+wrong_answers:
+  - Exchange pozitif toplamlı bir oyundur
+  - Zamana ve yere bağlı olarak, Exchange bazen sıfır toplamlı bir oyun, bazen de pozitif toplamlı bir oyundur
+  - Exchange her zaman zayıf tarafın aleyhinedir
+explanation: |
+  Montaigne'in yanılgısı, KİS-4'ün sıfır toplamlı bir oyun olduğu, yani birinin kazandığını diğerinin kaybettiği fikridir. Bu fikir yanlıştır, çünkü gönüllü KİS-4 karşılıklı fayda sağlar.

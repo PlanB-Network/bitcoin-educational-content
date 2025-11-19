@@ -1,0 +1,9 @@
+question: Bastiat'ya göre, bireysel sorumluluk üzerinde aşırı devlet müdahalesinin sonucu nedir?
+answer: Bireyleri eylemlerinin sonuçlarından koruyarak sorumluluğu yok eder
+wrong_answers:
+  - Daha fazla kural koyarak bireysel sorumluluğu güçlendirir
+  - Vatandaşları kamusal yaşama aktif olarak katılmaya teşvik eder
+  - Daha adil bir sosyal adaleti garanti eder
+explanation: |
+  Bastiat, devletin aşırı müdahalesinin, bireylerin eylemlerinin sonuçlarını tam olarak üstlenme olasılığını ortadan kaldırdığına ve bunun da sorumluluk duygularını zayıflattığına inanmaktadır.
+reviewed: false

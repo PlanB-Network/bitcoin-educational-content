@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, miks IPv5 ei ole kunagi laialdaselt kasutusele võetud?
+answer: See jäi eksperimentaalseks
+wrong_answers:
+  - Selle kasutuselevõtt oli liiga kulukas
+  - See ei ühildunud IPv6-ga
+  - Sellel olid suured turvaaugud
+explanation: |
+  IPv5 rakendati ainult eksperimentaalselt. Seda ei standardiseeritud ega võetud kunagi laialdaselt kasutusele ning lõpuks loobuti sellest IPv6 kasuks.
+reviewed: false

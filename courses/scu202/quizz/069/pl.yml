@@ -1,0 +1,9 @@
+question: Jaki jest główny powód, dla którego tak ważne jest aktualizowanie przeglądarki?
+answer: Usuwanie krytycznych luk w zabezpieczeniach
+wrong_answers:
+  - Poprawa szybkości ładowania strony
+  - Zapobieganie phishingowi
+  - Optymalizacja zużycia pamięci
+explanation: |
+  Aktualizacje nadają priorytet lukom w zabezpieczeniach, które mogą umożliwić atakującemu naruszenie bezpieczeństwa systemu.
+reviewed: false

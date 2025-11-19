@@ -1,0 +1,9 @@
+question: Hvilket pakkeformat har Canonical utviklet for å isolere applikasjoner og deres avhengigheter?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Snap-formatet, som er utviklet av Canonical, gjør det mulig å installere selvstendig programvare som er isolert fra systemet og oppdateres uavhengig av dette.
+reviewed: false

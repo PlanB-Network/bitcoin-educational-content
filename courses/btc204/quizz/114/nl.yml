@@ -1,0 +1,10 @@
+question: Waarom past de analist CoinJoin niet toe op een Stonewall-type transactie?
+answer: Omdat er 2 uitgangen zijn met dezelfde hoeveelheden
+wrong_answers:
+  - Omdat er maar 2 ingangen zijn
+  - Omdat ze niet bekend zijn met dit patroon
+  - Omdat er meer outputs dan inputs zijn
+explanation: |
+  Een Stonewall-transactie van buitenaf analyseren leidt niet tot de toepassing van CoinJoin, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is CoinJoin in dit specifieke geval dus niet van toepassing.
+  
+reviewed: false

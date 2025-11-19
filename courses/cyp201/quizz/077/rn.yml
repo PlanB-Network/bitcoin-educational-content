@@ -1,0 +1,9 @@
+question: Ni kubera iki ibisobanuro ari ngirakamaro canecane ku bikoresho vy’amasakoshi vy’amasinya menshi?
+answer: Birimwo xpub y'ikintu cose kandi bidondora imiterere y'imikono myinshi .
+wrong_answers:
+  - Bikuraho ivy'uko hakenewe ijambo Mnemonic .
+  - Birorosha uruvyaro rw'imfunguruzo zikomeye .
+  - Batuma imikono myinshi ihuye n'inyandiko zose
+explanation: |
+  Ivyo bisobanuro birimwo imfunguruzo za bose zagutse z’abaje mu nama bose, ivyo bikaba bifasha gusubizaho no gucunga imiterere y’imikono myinshi.
+reviewed: false

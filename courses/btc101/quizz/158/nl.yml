@@ -1,0 +1,13 @@
+question: Hoe houdt het Bitcoin protocol een consistente gemiddelde tijd tussen het aanmaken van twee blokken?
+answer: De moeilijkheid om een geldige Hash te vinden past zich elke 2016-blok aan.
+wrong_answers:
+  - Het aantal mijnwerkers is beperkt tot een vast aantal.
+  - De grootte van de blokken wordt aangepast naar 10 megabytes.
+  - De beloning voor het vinden van een geldige Hash is verhoogd.
+explanation: |
+  Het Bitcoin protocol zorgt ervoor dat de gemiddelde tijd tussen
+  twee blokken constant blijft door de moeilijkheidsgraad van
+  het vinden van een geldige Hash om de 2016 blokken. Deze gebeurtenis gebeurt
+  ongeacht het aantal miners en hun rekenkracht
+  kracht.
+reviewed: true

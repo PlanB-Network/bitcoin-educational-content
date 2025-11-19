@@ -1,0 +1,9 @@
+question: Welk commando geeft de gedetailleerde inhoud van een map weer, inclusief verborgen bestanden?
+answer: ls -lah
+wrong_answers:
+  - map weergeven
+  - lijst-bestanden -gedetailleerd
+  - viewdir -a
+explanation: |
+  "ls -lah" geeft bestanden en mappen in detail weer, inclusief verborgen bestanden (beginnend met een punt).
+reviewed: false

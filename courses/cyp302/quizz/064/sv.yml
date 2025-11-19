@@ -1,0 +1,9 @@
+question: Vad säkerställer en MAC-kod (Message Authentication Code) i ett kryptografiskt system?
+answer: Meddelandets integritet och äkthet
+wrong_answers:
+  - Meddelandets konfidentialitet
+  - Komprimering av meddelandet
+  - Omvandling av meddelandet till binärt
+explanation: |
+  En MAC-kod (Message Authentication Code) används för att säkerställa att meddelandet inte har ändrats och att det verkligen kommer från den förmodade avsändaren.
+reviewed: false

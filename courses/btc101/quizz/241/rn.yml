@@ -1,0 +1,11 @@
+question: Ni ikihe kimwe mu bintu nyamukuru biranga Bitcoin?
+answer: Ishobora guhindurwa aho hose kw’isi ata ruhusha n’umwe ruvuye ku kigo na kimwe.
+wrong_answers:
+  - Ishobora gukoreshwa gusa n’umugwi w’abantu batoranijwe.
+  - Bisaba uruhusha ruva ku butegetsi bukuru kugira ngo bikoreshwe.
+  - Ishobora gukoreshwa mu bihugu bimwebimwe gusa.
+explanation: |
+  Ico canditswe kivuga ko Bitcoin ari izina ry’uruyeri kandi ko rishobora kuba .
+  guhindurwa aho hose kw'isi ata ruhusha
+  y’ikintu ico ari co cose.
+reviewed: true

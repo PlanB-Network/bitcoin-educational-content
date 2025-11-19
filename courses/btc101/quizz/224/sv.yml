@@ -1,0 +1,10 @@
+question: Vad är det genomsnittliga tidsintervallet mellan skapandet av två block i Bitcoin-protokollet?
+answer: 10 minuter.
+wrong_answers:
+  - 5 minuter.
+  - 15 minuter.
+  - 20 minuter.
+explanation: |
+  Det genomsnittliga tidsintervallet mellan skapandet av två
+  block i Bitcoin-protokollet är 10 minuter.
+reviewed: true

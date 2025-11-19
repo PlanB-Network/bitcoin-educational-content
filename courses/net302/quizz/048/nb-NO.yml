@@ -1,0 +1,9 @@
+question: Hvilken Layer i OSI-modellen tilhører MAC Address?
+answer: Datalink Layer
+wrong_answers:
+  - Applikasjon Layer
+  - Transport Layer
+  - Nettverk Layer
+explanation: |
+  MAC Address opererer på Layer 2 i OSI-modellen, kjent som "datalink Layer", der den brukes til maskinvareadressering av rammer.
+reviewed: false

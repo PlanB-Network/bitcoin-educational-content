@@ -1,0 +1,9 @@
+question: Quale sistema operativo universitario ha favorito la diffusione dei protocolli TCP/IP nel mondo accademico?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, sviluppato dall'Università di Berkeley, è stato uno dei primi sistemi a integrare i protocolli TCP/IP e ha contribuito alla loro diffusione nel mondo accademico.
+reviewed: false

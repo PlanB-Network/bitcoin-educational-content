@@ -1,0 +1,11 @@
+question: Merkezi olarak planlanmış bir ekonominin kaçınılmaz olarak sermaye yanlış tahsisi yaşamasının temel nedeni nedir?
+answer: Yanlış tahsisleri ortaya çıkaracak ve düzeltecek piyasa fiyatları veya iflaslar yoktur.
+wrong_answers:
+  - Merkezi planlamacılar verimli değildir.
+  - Merkezi planlamacılar yeterli bilgiye sahip değildir.
+  - Merkezi planlamacılar kaynakları verimli bir şekilde tahsis etme konusunda motive değildir.
+explanation: |
+  Merkezi olarak planlanan bir ekonomide, piyasa fiyatları veya iflaslar yoktur
+  yanlış tahsisleri ortaya çıkarmak ve düzeltmek için. Sonuç olarak, hatalar aşağıdakiler gerçekleşene kadar birikecektir
+  savurganlık, yaşam koşullarında önemli bir düşüşle belirgin hale gelir.
+reviewed: true

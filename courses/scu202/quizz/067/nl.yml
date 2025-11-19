@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van een VPN als je op een openbaar Wi-Fi-netwerk surft?
+answer: Versleutel verkeer tussen apparaat en VPN-server
+wrong_answers:
+  - Uw internetverbinding anonimiseren
+  - Automatisch updates installeren
+  - generate sterke wachtwoorden
+explanation: |
+  Een VPN versleutelt al het netwerkverkeer en beschermt zo je gegevens tegen onderschepping op onbeveiligde netwerken zoals openbare Wi-Fi.
+reviewed: false

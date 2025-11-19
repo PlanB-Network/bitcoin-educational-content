@@ -1,0 +1,9 @@
+question: Quale distribuzione utilizza l'ambiente desktop Cinnamon per impostazione predefinita?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon è stato sviluppato dal team di Linux Mint per offrire un Interface moderno e classico, vicino a Windows.
+reviewed: false

@@ -1,0 +1,8 @@
+question: I vilka länder genomfördes ekonomiska reformer inspirerade av fysiokratin?
+answer: Frankrike, Italien, Tyskland
+wrong_answers:
+  - England, Frankrike, Tyskland
+  - Holland, Italien, Sverige
+  - Spanien, Portugal, Ryssland
+explanation: |
+  Försök till fysiokratiska reformer gjordes i Frankrike, Italien och Tyskland, men de blev ofta kortlivade på grund av motstånd från etablerade intressen.

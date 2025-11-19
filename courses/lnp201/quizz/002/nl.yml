@@ -1,0 +1,9 @@
+question: Als Alice 40.000 satoshis naar Bob stuurt via een betalingskanaal waar ze aanvankelijk 100.000 satoshis heeft, hoeveel geld heeft ze dan nog over na de transactie?
+answer: 60.000 satoshis
+wrong_answers:
+  - 30.000 satoshis
+  - 40.000 satoshis
+  - 140.000 satosjis
+explanation: |
+  Na het verzenden van 40.000 satoshis is het saldo van Alice in het kanaal 60.000 satoshis.
+reviewed: false

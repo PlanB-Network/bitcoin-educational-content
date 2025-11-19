@@ -1,9 +1,11 @@
-question: Kuidas saab luua tervet raha?
-answer: Raha on loomulik sotsiaalne nähtus, mis peab tekkima turult ja vabatahtlikust konsensusest.
+question: Mis on Bitcoini peamine eesmärk?
+answer: Riigi ja raha lahutamine
 wrong_answers:
-  - Valitsus kehtestab selle seaduste kaudu
-  - Inimesed kasutavad vägivalda ja sundi, et teisi sundida oma raha aktsepteerima
-  - Tervet raha ei saa luua
-explanation: >-
-  Terve raha on loomulik sotsiaalne nähtus, mis peab tekkima turult ja vabatahtlikust konsensusest. Ükski inimene või inimrühm ei saa luua raha.
+  - Asendada kuld globaalse standardina
+  - Teha tehingud kiiremaks ja odavamaks
+  - Teha kõik rikkaks
+explanation: |
+  Bitcoin loodi eesmärgiga lahutada riik rahast.
+  See on vastus praeguse finantssüsteemi süsteemsetele väljakutsetele,
+  kus riigil on kontroll raha pakkumise üle ja see võib seda oma kasuks manipuleerida.
 reviewed: true

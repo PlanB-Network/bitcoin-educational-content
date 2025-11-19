@@ -1,9 +1,10 @@
-question: Mis on hinnanguline bitcoini kogus ringluses pärast esimest poolitamist?
-answer: 10,500,000 BTC
+question: Mis on avaliku võtme roll Bitcoin'i rahakotis?
+answer: Seda kasutatakse Bitcoin'i aadresside genereerimiseks ja seeläbi raha vastuvõtmiseks
 wrong_answers:
-  - 5,250,000 BTC
-  - 15,750,000 BTC
-  - 21,000,000 BTC
+  - Seda kasutatakse Bitcoin'i tehingute krüpteerimiseks
+  - Seda kasutatakse Bitcoin'i rahakoti ligipääsuks
+  - Seda kasutatakse Bitcoin'i rahakoti varundamiseks
 explanation: |
-  Pärast esimest poolitamist, mis toimub ploki kõrgusel 210,000, oli hinnanguline bitcoini kogus ringluses 10,500,000 BTC, mis on pool kogu bitcoini kogusest, mis lõpuks ringlusesse jõuab.
+  Avalik võti tuletatakse privaatvõtmest ja seda kasutatakse Bitcoin'i aadresside genereerimiseks,
+  et raha vastu võtta.
 reviewed: true

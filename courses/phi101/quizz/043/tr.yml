@@ -1,0 +1,9 @@
+question: Aziz Thomas Aquinas'a göre doğal hukuk ile beşeri hukuk arasındaki ilişki nedir?
+answer: İnsan hukukunun adil ve meşru olabilmesi için doğal hukuka uygun olması gerekir.
+wrong_answers:
+  - Beşeri hukuk doğal hukuktan üstündür çünkü meşru otoriteler tarafından yürürlüğe konmuştur.
+  - Doğal hukuk insan hukukuna eşittir.
+  - İnsan hukuku sadece kısmen geçerlidir.
+explanation: |
+  Aziz Thomas Aquinas'a göre insan hukuku meşruiyetini evrensel ahlaki ilkeleri ifade eden doğal hukuka uygunluğundan alır. Eğer insan hukuku doğal hukukla çelişirse, adaletini ve meşruiyetini kaybeder.
+reviewed: true

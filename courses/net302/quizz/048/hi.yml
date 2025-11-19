@@ -1,0 +1,9 @@
+question: OSI मॉडल के किस Layer से MAC Address संबंधित है?
+answer: डेटा लिंक Layer
+wrong_answers:
+  - अनुप्रयोग Layer
+  - परिवहन Layer
+  - नेटवर्क Layer
+explanation: |
+  MAC Address, OSI मॉडल के Layer 2 पर कार्य करता है, जिसे "डेटा लिंक Layer" के रूप में जाना जाता है, जहां इसका उपयोग फ्रेम के हार्डवेयर एड्रेसिंग के लिए किया जाता है।
+reviewed: false

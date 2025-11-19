@@ -1,10 +1,8 @@
-question: Jedan od načina za sticanje bitkoina bez KYC-a je korišćenje peer-to-peer (P2P) platformi kao što su LocalBitcoins ili Bisq, gde možete direktno trgovati sa drugim korisnicima.
-answer: Bitkoin bankomati.
+question: Kakvog je izgleda kriva usvajanja Bitkoina?
+answer: S-krivulja.
 wrong_answers:
-  - Broker platforme.
-  - DCA platforme.
-  - Bankovni transferi.
-explanation: |
-  Tekst kursa pominje da postoji nekoliko načina za
-  sticanje Bitkoina bez KYC, od kojih je jedan Bitkoin bankomati.
+  - Kriva U-oblik.
+  - V-krivulja.
+  - W-krivulja.
+explanation: >-
 reviewed: true

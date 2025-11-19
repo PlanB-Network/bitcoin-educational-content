@@ -1,0 +1,9 @@
+question: Lý do chính khiến việc cập nhật trình duyệt là điều cần thiết là gì?
+answer: Sửa các lỗ hổng bảo mật quan trọng
+wrong_answers:
+  - Cải thiện tốc độ tải trang
+  - Ngăn chặn lừa đảo
+  - Tối ưu hóa việc sử dụng bộ nhớ
+explanation: |
+  Các bản cập nhật ưu tiên các lỗ hổng bảo mật có thể cho phép kẻ tấn công xâm phạm hệ thống của bạn.
+reviewed: false

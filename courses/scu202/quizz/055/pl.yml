@@ -1,0 +1,9 @@
+question: Który silnik renderujący jest obecnie najbardziej rozpowszechniony i obsługuje większość współczesnych przeglądarek?
+answer: Mrugnięcie
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, opracowany z WebKit Fork przez Google, jest obecnie dominującym silnikiem renderującym, napędzającym Chrome, Edge, Opera, Brave, Vivaldi i inne.
+reviewed: false

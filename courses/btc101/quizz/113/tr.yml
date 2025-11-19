@@ -1,0 +1,11 @@
+question: Bitcoin ilk kez ne zaman fiziksel mal satın almak için kullanıldı?
+answer: Laszlo Hanyecz 10.000 BTC karşılığında 2 pizza satın aldığında.
+wrong_answers:
+  - Hal Finney 100,000 BTC'ye bir araba aldığında.
+  - Satoshi Nakamoto 1.000.000.000 BTC karşılığında bir ev satın aldığında.
+  - Diğer seçeneklerin hiçbiri.
+explanation: |
+  Bitcoin ilk kez fiziksel satın alma için kullanıldı
+  laszlo Hanyecz'in 2 pizzayı 10.000 dolara satın almasıydı
+  BTC, artık Pizza Günü olarak bilinen 2010/05/22 tarihinde
+reviewed: true

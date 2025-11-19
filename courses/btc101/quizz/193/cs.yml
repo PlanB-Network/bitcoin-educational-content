@@ -1,9 +1,12 @@
-question: Jaká je jedna z iniciativ, která přispívá k tomu, aby byla ekonomika Bitcoinu přístupnější a pohodlnější pro všechny?
-answer: BTCMap.
+question: Co je impulzivní nákup?
+answer: Okamžitý nákup Bitcoinu pro získání expozice.
 wrong_answers:
-  - Bitcoin Exchange.
-  - Bitcoin Mining.
-  - BTCLottery.
-explanation: >-
-  BTCMap je jednou z iniciativ, která přispívá k tomu, aby byla ekonomika Bitcoinu přístupnější a pohodlnější pro všechny. Jedná se o otevřený a spolupracující projekt, který seznamuje všechny obchodníky přijímající Bitcoin, stejně jako různé komunity Bitcoinu po celém světě.
+  - Nákup Bitcoinu v pravidelných intervalech.
+  - Nákup Bitcoinu pouze když cena klesne.
+  - Nákup Bitcoinu pouze když cena stoupne.
+explanation: |
+  Text kurzu vysvětluje, že impulzivní nákup je
+  použit k okamžitému získání expozice vůči Bitcoinu. Například,
+  to může znamenat nákup během pádu ceny nebo využití
+  bonusu.
 reviewed: true

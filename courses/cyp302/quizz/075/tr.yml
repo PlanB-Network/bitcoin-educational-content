@@ -1,0 +1,9 @@
+question: Kerckhoff'un ilkesi Linux gibi açık sistemlerin güvenliğini nasıl kolaylaştırır?
+answer: Potansiyel güvenlik açıklarının kamuya açık bir şekilde doğrulanmasına olanak tanır
+wrong_answers:
+  - Şifreleme algoritmalarını görünmez hale getirir
+  - Potansiyel kullanıcı sayısını sınırlar
+  - Benzersiz anahtarların kullanılmasını sağlar
+explanation: |
+  Kerckhoff'un ilkesi, açık kaynaklı sistemlerde olduğu gibi, güvenlik kusurlarının kamuya açık bir şekilde doğrulanmasını sağlar ve bu da sistemleri şeffaflık yoluyla daha güvenilir hale getirir. Güvenlik, şifreleme işleminin kendisi tarafından değil, yalnızca anahtar tarafından sağlanır.
+reviewed: false

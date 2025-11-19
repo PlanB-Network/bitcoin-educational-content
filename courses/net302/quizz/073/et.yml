@@ -1,0 +1,9 @@
+question: Milline on IPv6-bloki suurus, mille IANA on üldiselt eraldanud igale piirkondlikule internetiregistrile (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Alates 2006. aastast saab iga piirkondlik piirkondliku raadioinfrastruktuuride komitee tavaliselt /12 IPv6-bloki, mis annab väga suure reservi piirkondlikuks jaotamiseks.
+reviewed: false

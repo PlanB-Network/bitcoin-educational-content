@@ -1,0 +1,9 @@
+question: Sözde rastgele zincirler bağlamında bir seed'ın ana işlevi nedir?
+answer: Daha uzun bir zincir oluşturmak için bir başlangıç noktası olarak hizmet etmek
+wrong_answers:
+  - Bir sözde rastgele zincirin sabit uzunluğunu tanımlamak için
+  - Bir sözde rastgele zincirin bütünlüğünü doğrulamak için
+  - Bir zincirin değerlerine tekdüze bir dağılım eklemek için
+explanation: |
+  seed, daha uzun bir sözde rastgele zinciri generate'e genişletmek için bir genişletme algoritması tarafından başlangıç noktası olarak kullanılan daha kısa bir dizedir.
+reviewed: false

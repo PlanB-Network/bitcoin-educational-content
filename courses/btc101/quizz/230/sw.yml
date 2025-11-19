@@ -1,10 +1,8 @@
-question: Je, Lightning Network inawezesha nini?
-answer: Kufanya shughuli kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+question: Je, Lightning Network inaweza kubadilisha vipi miundo ya biashara iliyopo katika tasnia ya mchezo wa video?
+answer: Inaruhusu wachezaji kuweka pesa kidogo sana wakati wa kucheza michezo.
 wrong_answers:
-  - Kuunda miunganisho ya kituo cha moja kwa moja tu na ubadilishanaji wa kati.
-  - Ili kuunda miunganisho ya vituo ambayo inahitaji uthibitisho mwingi kwa ununuzi wowote.
-  - Kuanzisha miunganisho ya moja kwa moja ya vituo ambayo imezuiliwa kwa miamala mikubwa pekee.
-explanation: |
-  Lightning Network inafanya uwezekano wa kufanya shughuli kati ya
-  watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+  - Inaruhusu wachezaji kuchimba Bitcoin wakati wa kucheza michezo.
+  - Huruhusu wasanidi wa mchezo kukubali Bitcoin kama malipo ya michezo yao.
+  - Huruhusu wachezaji kununua vitu vya ndani ya mchezo na Bitcoin.
+explanation: >-
 reviewed: true

@@ -1,0 +1,10 @@
+question: Hoeveel opeenvolgende transacties voert een klassieke ricochet meestal uit?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  De ricochet-methode houdt meestal in dat je 4 transacties naar jezelf maakt en een laatste om het geld naar de uiteindelijke ontvanger te sturen.
+  
+reviewed: false

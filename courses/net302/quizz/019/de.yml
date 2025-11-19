@@ -1,0 +1,9 @@
+question: Was ist die Hauptaufgabe des IP-Protokolls im TCP/IP-Modell?
+answer: Übermittlung von Datenpaketen von einem Host zu einem anderen
+wrong_answers:
+  - Verwaltung der Verschlüsselung der Netzwerkkommunikation
+  - Sicherstellung dauerhafter Verbindungen zwischen Anwendungen
+  - MAC-Adressen in IP-Adressen umwandeln
+explanation: |
+  Das IP-Protokoll regelt die logische Adressierung von Geräten und sorgt dafür, dass Pakete über zusammengeschaltete Netze weitergeleitet werden.
+reviewed: false

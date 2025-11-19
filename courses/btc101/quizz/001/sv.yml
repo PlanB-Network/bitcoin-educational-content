@@ -1,0 +1,9 @@
+question: Varför betalar vi avgifter i Bitcoin?
+answer: Att skapa en fri marknad för att inkludera transaktioner i block.
+wrong_answers:
+  - För att introducera hur man bryter Bitcoin.
+  - Att låta rika människor betala mer.
+  - För att utesluta myndigheter från nätverket.
+explanation: |
+  Avgifter är nödvändiga för att skapa en fri marknad för att inkludera transaktioner i block. Faktum är att ett block har en storlek på 1 MB (som utökades till 4 MB efter SegWit-uppdateringen), så antalet transaktioner som kan "infogas" i ett block är begränsat till några tusen transaktioner per block.
+reviewed: true

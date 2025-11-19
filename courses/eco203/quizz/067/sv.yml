@@ -1,0 +1,9 @@
+question: Vilken är den största skillnaden mellan filosofisk moral och ekonomisk moral enligt Bastiat?
+answer: Den ena vänder sig till hjärtat, den andra till intellektet
+wrong_answers:
+  - Den ena är individuell, den andra är kollektiv
+  - Den ena är antik, den andra är modern
+  - Den ena är religiös, den andra är sekulär
+explanation: |
+  Filosofisk moral vädjar till känslor och personlig dygd, medan ekonomisk moral syftar till att rationellt utbilda genom att visa på konsekvenserna av handlingar.
+reviewed: false

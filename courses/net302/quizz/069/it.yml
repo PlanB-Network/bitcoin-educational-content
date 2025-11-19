@@ -1,0 +1,9 @@
+question: Qual è la dimensione tipica del prefisso di rete utilizzato in un indirizzo IPv6 su una rete locale?
+answer: 64 bit
+wrong_answers:
+  - 32 bit
+  - 48 bit
+  - 8 bit
+explanation: |
+  I primi 64 bit di un indirizzo IPv6 sono generalmente riservati al prefisso di sottorete.
+reviewed: false

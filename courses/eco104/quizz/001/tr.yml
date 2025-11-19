@@ -1,0 +1,11 @@
+question: Bir takas sisteminde başarılı bir işlem için aşağıdakilerden hangisi gereklidir?
+answer: İsteklerin çifte tesadüfü
+wrong_answers:
+  - Ortak bir hesap birimi
+  - Bir merkezi bankacılık otoritesi
+  - Minimum bakiye gereksinimi
+explanation: |
+  Takas sisteminde işlemler doğrudan iki taraf arasında mal veya hizmet değişimi şeklinde gerçekleşir
+  para kullanılmaksızın hizmetler. Başarılı bir işlem, aşağıdakilerin iki kez çakışmasını gerektirir
+  ister, yani her iki taraf da diğerinin takas etmek istediği bir şeye sahip olmalıdır.
+reviewed: true

@@ -1,11 +1,11 @@
-question: Je, ni moja ya hatari gani zinazohusiana na kununua Bitcoin?
-answer: Bei yake inaweza kushuka hadi 0.
+question: Je, ni jambo gani mojawapo unapaswa kuzingatia unapochagua jukwaa la DCA?
+answer: Upatikanaji katika nchi yako.
 wrong_answers:
-  - Inaweza kuibiwa kwa urahisi.
-  - Inaweza kurudiwa.
-  - Inaweza kupotea kimwili.
+  - Rangi ya nembo ya jukwaa.
+  - Idadi ya watumiaji kwenye jukwaa.
+  - Umri wa jukwaa.
 explanation: |
-  Maandishi ya kozi yanataja kuwa Bitcoin ni tete sana
-  mali ya kifedha, na bei yake inaweza kushuka hadi 0, ambayo ni moja
-  ya hatari zinazohusiana na kununua Bitcoin.
+  Maandishi haya ya kozi yanataja hilo wakati wa kuchagua DCA
+  jukwaa, chaguo sahihi itategemea zaidi juu yake
+  upatikanaji katika nchi yako.
 reviewed: true

@@ -1,0 +1,8 @@
+---
+term: BIP0352
+---
+
+Voorstel voor verbetering door Josibake en Ruben Somsen dat Silent Payments introduceert, een methode voor het gebruik van statische Bitcoin adressen om betalingen te ontvangen zonder Address hergebruik, interactie en zonder zichtbare On-Chain koppeling tussen verschillende betalingen. Deze techniek elimineert de noodzaak om generate nieuwe, ongebruikte ontvangstadressen te geven voor elke transactie, waardoor de gebruikelijke interacties in Bitcoin, waarbij de ontvanger een nieuwe Address moet geven aan de betaler, vermeden worden.
+
+
+In dit systeem gebruikt de betaler de openbare sleutel van de ontvanger en zijn eigen privésleutel om generate een nieuwe Address te maken voor elke betaling. Alleen de ontvanger kan met zijn privésleutel de privésleutel berekenen die bij deze Address hoort. ECDH (*Elliptic-Curve Diffie-Hellman*), een cryptografisch Exchange sleutelalgoritme, wordt gebruikt om een gedeeld geheim vast te stellen dat vervolgens wordt gebruikt om de ontvangende Address en privésleutel af te leiden (alleen aan de kant van de ontvanger). Om de voor hen bestemde Stille Betalingen te identificeren, moeten ontvangers de Blockchain scannen en elke transactie onderzoeken die aan de criteria voor Stille Betalingen voldoet. In tegenstelling tot BIP47, dat een kennisgevingstransactie gebruikt om het betalingskanaal tot stand te brengen, elimineren Stille Betalingen deze stap, wat een transactie bespaart. Het nadeel is echter dat de ontvanger alle potentiële transacties moet scannen om, door toepassing van ECDH, te bepalen of ze aan hem gericht zijn.

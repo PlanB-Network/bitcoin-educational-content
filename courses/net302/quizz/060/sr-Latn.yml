@@ -1,0 +1,9 @@
+question: Koja je IPv6 loopback adresa Address, ekvivalentna adresi 127.0.0.1 u IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address je loopback Address, koristi se za interno testiranje mašine.
+reviewed: false

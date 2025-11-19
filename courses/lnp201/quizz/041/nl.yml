@@ -1,0 +1,9 @@
+question: Waarom is het moeilijk voor een zendende node om de exacte liquiditeit van een kanaal in te schatten?
+answer: Omdat alleen de twee deelnemers de precieze verdeling van de fondsen kennen
+wrong_answers:
+  - Omdat de totale capaciteit van de kanalen constant verandert
+  - Omdat de vergoedingen van tussenliggende knooppunten niet worden gepubliceerd
+  - Omdat kanalen automatisch sluiten na elke transactie
+explanation: |
+  De precieze verdeling van fondsen in een kanaal is alleen zichtbaar voor de twee deelnemende knooppunten, waardoor andere knooppunten geen inschatting kunnen maken van de beschikbare liquiditeit voor routering.
+reviewed: false

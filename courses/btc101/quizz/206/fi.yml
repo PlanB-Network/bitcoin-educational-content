@@ -1,9 +1,9 @@
-question: Mitä ovat FOMO ja FUD?
-answer: Tunteita, jotka voivat johtaa impulsiiviseen ja mahdollisesti haitalliseen päätöksentekoon.
+question: Mikä on Bitcoin-vallankumouksen päätavoite tämän kurssin mukaan?
+answer: Luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyyttä kunnioitetaan oletusarvoisesti, ja rahaa ei manipuloida.
 wrong_answers:
-  - Bitcoin-lompakoiden tyyppejä.
-  - Strategioita Bitcoinin ostamiseen.
-  - Bitcoinia koskevia säädöksiä.
-explanation: >-
-  Teksti selittää, että FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty, Doubt) ovat tunteita, jotka voivat johtaa impulsiiviseen ja mahdollisesti haitalliseen päätöksentekoon Bitcoinia ostaessa.
+  - Luoda maailma, jossa yksityisyys ei ole ihmisoikeus, ja rahaa manipuloivat pankit.
+  - Luoda maailma, jossa hallituksilla ei ole valtaa, ja yhteiskunta on kaoottinen.
+  - Luoda maailma, jossa fyysinen raha on vanhentunutta.
+explanation: |
+  Tämän kurssitekstin mukaan Bitcoin-vallankumouksen päätavoite on luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyyttä kunnioitetaan oletusarvoisesti, ja rahaa ei manipuloida.
 reviewed: true

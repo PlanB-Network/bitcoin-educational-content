@@ -1,0 +1,9 @@
+question: What's the main difference between a public IPv4 address and a private IPv4 address?
+answer: A public address is unique and routable on the Internet
+wrong_answers:
+  - A private address is unique and routable on the Internet
+  - A public address is always assigned by DHCP
+  - A private address is always assigned by DHCP
+explanation: |
+  A public IPv4 address is globally unique and routable on the Internet, while a private address is only valid within a local network.
+reviewed: false

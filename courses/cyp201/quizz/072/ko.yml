@@ -1,0 +1,9 @@
+question: 파생 경로에서 아포스트로피(') 또는 h는 무엇을 의미하나요?
+answer: 강화된 파생
+wrong_answers:
+  - 일반 파생
+  - 외부 파생
+  - 비표준 파생어
+explanation: |
+  아포스트로피는 파생이 강화되었음을 나타내며, 부모 개인키가 자식 키를 generate으로 만들려면 부모 개인키가 필요합니다.
+reviewed: false

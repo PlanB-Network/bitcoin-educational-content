@@ -1,0 +1,9 @@
+question: 哪個系統因其開放原始碼、社群模式而脫穎而出呢？
+answer: GNU/Linux
+wrong_answers:
+  - 視窗
+  - MacOS
+  - Chrome OS
+explanation: |
+  GNU/Linux 是免費的，由全世界的社群共同開發，保證了使用者的透明度、安全性和彈性。
+reviewed: false

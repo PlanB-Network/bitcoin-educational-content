@@ -1,0 +1,10 @@
+question: Vad mäter forward anonymity?
+answer: Integritetsmotståndet mot en analys från dåtid till nutid.
+wrong_answers:
+  - Motståndet mot integritet mot en analys av nutid till dåtid.
+  - Motståndet mot integritet mot en framtid-till-nutid-analys.
+  - Motståndet mot integritet mot en analys av framtid till förflutet.
+explanation: |
+  Forward anonymity mäter ett mynts integritet mot en analys från dåtid till nutid (inmatning till utmatning).
+  
+reviewed: false

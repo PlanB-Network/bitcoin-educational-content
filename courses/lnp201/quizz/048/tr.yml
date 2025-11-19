@@ -1,0 +1,9 @@
+question: Keysend teknolojisi Invoice olmadan bir fon transferini nasıl mümkün kılıyor?
+answer: Gönderici, fonların kilidini açmak için HTLC'lerde bir sır oluşturur
+wrong_answers:
+  - Alıcı, transferi doğrulamak için bir Hash oluşturur
+  - Ödeme, gönderen ve alıcı arasında doğrudan bir kanal aracılığıyla doğrulanır
+  - Fonlar ek teminat olmaksızın doğrudan kredilendirilir
+explanation: |
+  Keysend, göndericinin HTLC'lere gömülü bir sırrı generate'e aktarmasına olanak tanıyarak alıcının bir Invoice yayınlamadan fonların kilidini açmasını sağlar.
+reviewed: false

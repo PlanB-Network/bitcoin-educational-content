@@ -1,9 +1,12 @@
-question: Qual é o conceito de skin in the game no contexto da indústria de videogames?
-answer: Ter uma participação financeira no resultado de um jogo.
+question: Quais são algumas oportunidades de negócios potenciais fornecidas pela Lightning Network?
+answer: Novos modelos econômicos onde os consumidores pagam pelo conteúdo com base no que consomem.
 wrong_answers:
-  - Customizar personagens com skins únicas que melhoram a jogabilidade.
-  - Comprar itens dentro do jogo com dinheiro real.
-  - Vender skins do jogo por dinheiro real.
-explanation: |
-  O conceito de skin in the game é uma ideia que recentemente ganhou popularidade na indústria de videogames. Ele se refere essencialmente à ideia de que desenvolvedores e partes interessadas têm um investimento pessoal ou participação no sucesso de um jogo, o que alinha seus interesses com a entrega de um produto de qualidade.
+  - Novos modelos econômicos onde os consumidores pagam usando diferentes criptomoedas.
+  - Novos modelos econômicos onde os consumidores usam blockchains personalizadas.
+  - Novos modelos econômicos onde os consumidores não pagam por nenhum conteúdo.
+explanation: >-
+  A Lightning Network abre uma multiplicidade de casos de uso empolgantes para
+  os usuários do Bitcoin. Os modelos econômicos resultantes e as oportunidades de negócios são numerosos
+  e variados, incluindo novos modelos econômicos onde os consumidores pagam pelo conteúdo com base
+  no que consomem.
 reviewed: true

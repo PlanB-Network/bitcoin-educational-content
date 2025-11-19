@@ -1,0 +1,9 @@
+question: Hoe wordt de veiligheid van een RGB overgang in een Lightning-kanaal gewaarborgd als een verouderde toestand wordt uitgezonden?
+answer: Door de strafmechanismen van het Lightning Channel
+wrong_answers:
+  - Door automatisch alle eerdere transacties te annuleren
+  - Door de strafmechanismen van het RGB protocol
+  - Door tussenkomst van de RGB activa emittent via zijn handtekening geassocieerd met de Genesis
+explanation: |
+  Het klassieke strafmechanisme van Lightning Network zorgt ervoor dat het verspreiden van een oude toestand kan worden bestraft door het terugvorderen van alle betrokken fondsen, inclusief RGB activa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä renderöintimoottori on nykyään yleisimmin käytetty, ja se käyttää suurinta osaa nykyaikaisista selaimista?
+answer: Vilkku
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Googlen WebKit Fork:sta kehittämä Blink on nykyään hallitseva renderöintimoottori, joka toimii muun muassa Chromessa, Edgessä, Operassa, Bravessa ja Vivaldissa.
+reviewed: false

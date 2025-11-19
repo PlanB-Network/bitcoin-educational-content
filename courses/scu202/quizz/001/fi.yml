@@ -1,0 +1,9 @@
+question: Mitkä käytännöt ovat välttämättömiä, jotta tietojesi altistumista voidaan rajoittaa, kun surffaat Internetissä?
+answer: Poista evästeet säännöllisesti
+wrong_answers:
+  - Pidä kaikki evästeet
+  - Poista selaimen yksityinen tila käytöstä
+  - Vanhentuneen selaimen käyttäminen
+explanation: |
+  Evästeiden poistaminen tai rajoittaminen vähentää mainonnan seurantaa ja säilyttää yksityisyyden selaamisen aikana.
+reviewed: false

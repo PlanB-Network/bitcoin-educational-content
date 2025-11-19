@@ -1,0 +1,9 @@
+question: Vad är nyckelgenereringsalgoritmens funktion i ett symmetriskt krypteringsschema?
+answer: Den genererar en privat nyckel
+wrong_answers:
+  - Den genererar en offentlig nyckel
+  - Det hashar meddelandet
+  - Det krypterar meddelandet
+explanation: |
+  I ett symmetriskt krypteringsschema producerar nyckelgenereringsalgoritmen en privat nyckel som sedan används för att kryptera och dekryptera meddelanden.
+reviewed: false

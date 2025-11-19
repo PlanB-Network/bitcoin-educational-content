@@ -1,0 +1,8 @@
+question: Wat is het grootste risico van het gebruik van een bewaarservice om je bitcoins op te slaan?
+answer: De vertrouwde derde partij kan uw toegang tot uw geld op elk moment beperken.
+wrong_answers:
+  - De vertrouwde derde partij kan de waarde van je bitcoins op elk moment verhogen.
+  - De vertrouwde derde partij kan de waarde van je bitcoins op elk moment verlagen.
+  - De vertrouwde derde partij kan je bitcoins op geen enkel moment dupliceren.
+explanation: >-
+reviewed: true

@@ -1,0 +1,12 @@
+question: Varför är det rekommenderat att ladda ner programvara från den officiella webbplatsen för utgivaren snarare än generiska webbplatser?
+answer: För att säkerställa att programvaran är fri från skadlig programvara.
+wrong_answers:
+  - Att stödja utgivaren ekonomiskt.
+  - Eftersom programvaran vanligtvis är billigare på den officiella webbplatsen.
+  - Eftersom programvaran på generiska webbplatser vanligtvis är föråldrad.
+explanation: |
+  Att ladda ner programvara från den officiella webbplatsen för
+  utgivaren säkerställer att du får den legitima
+  version av programvaran, som är fri från all skadlig programvara
+  programvara som kan skada din enhet eller stjäla dina data.
+reviewed: true

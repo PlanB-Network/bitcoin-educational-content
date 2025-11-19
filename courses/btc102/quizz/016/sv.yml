@@ -1,0 +1,9 @@
+question: Upp till hur många decimaler kan en Bitcoin delas?
+answer: Åtta
+wrong_answers:
+  - Sex
+  - Tolv
+  - Sju
+explanation: |
+  En Bitcoin kan delas ner till åttonde decimalen, med en enhet som kallas Satoshi eller sat.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Wat is het verschil tussen ondernemings-VPN's en consumenten-VPN's?
+answer: VPN's voor bedrijven zijn duurder en complexer, terwijl VPN's voor consumenten toegankelijker en gebruiksvriendelijker zijn.
+wrong_answers:
+  - VPN's voor bedrijven zijn meestal veiliger dan VPN's voor consumenten, die altijd duurder zijn.
+  - VPN's voor consumenten zijn altijd duurder dan VPN's voor bedrijven vanwege de economische schaal waartoe de laatste toegang hebben.
+  - Vanwege hun meer veeleisende doelgroep versleutelen bedrijfs-VPN's altijd gegevens, terwijl consumenten-VPN's dat niet doen.
+explanation: |
+  Enterprise VPN's zijn ontworpen voor bedrijven en zijn
+  meestal duurder en complexer om op te zetten en te beheren.
+  VPN's voor consumenten zijn daarentegen bedoeld voor
+  individuele gebruikers en zijn over het algemeen toegankelijker en
+  gebruiksvriendelijker.
+reviewed: true

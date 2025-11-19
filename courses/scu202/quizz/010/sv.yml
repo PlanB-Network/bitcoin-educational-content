@@ -1,0 +1,9 @@
+question: Vad heter den emblematiska Linux-maskoten?
+answer: Smoking
+wrong_answers:
+  - Hertigen
+  - Beastie
+  - daemon
+explanation: |
+  Tux har varit den officiella maskoten för Linux-kärnan sedan 1996 och skapades av Larry Ewing.
+reviewed: false

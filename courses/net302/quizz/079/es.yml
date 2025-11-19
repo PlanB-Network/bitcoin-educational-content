@@ -1,0 +1,9 @@
+question: ¿Qué tipo de registro DNS se utiliza para asignar un nombre de dominio a un Address IPv6?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  El tipo AAAA (quad-A) se utiliza para asignar un nombre de dominio a un Address IPv6, mientras que el tipo A está reservado para IPv4.
+reviewed: false

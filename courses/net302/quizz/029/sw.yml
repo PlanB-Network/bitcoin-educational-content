@@ -1,0 +1,9 @@
+question: Madhumuni ya huduma za awali katika muundo wa TCP/IP ni nini?
+answer: Dhibiti ubadilishanaji kati ya tabaka
+wrong_answers:
+  - Simba ujumbe wa mtandao kiotomatiki
+  - Sambaza anwani za IP kwa seva pangishi za mbali
+  - Angalia urefu wa jumla wa pakiti za IP
+explanation: |
+  Kanuni za awali za huduma hufafanua mawasiliano ya Interface kati ya tabaka tofauti, kuwezesha ubadilishanaji wa mtandao kuanzishwa, kudumishwa au kukomeshwa.
+reviewed: false

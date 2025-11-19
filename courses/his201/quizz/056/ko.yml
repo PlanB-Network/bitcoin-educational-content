@@ -1,0 +1,9 @@
+question: 2010년 9월에 소프트웨어에서 인식한 표준 스크립트 출력 패턴은 무엇인가요?
+answer: 공개 키(P2PK)에 의한 수신 및 Address(P2PKH)에 의한 수신
+wrong_answers:
+  - Address(P2PKH)에 의한 영수증 및 다중 서명 서명 스크립트(P2MS)에 의한 영수증
+  - Address(P2PKH)에 의한 영수증 및 스크립트에 의한 영수증(P2SH)
+  - 공개 키(P2PK)에 의한 수신 및 스크립트에 의한 수신(P2SH)
+explanation: |
+  이 두 가지 유형은 Bitcoin 초기부터 사용되었습니다. P2MS 유형은 2012년 3월에 표준이 되었고, P2SH 유형은 2012년 4월에 프로토콜에 추가되었습니다.
+reviewed: true

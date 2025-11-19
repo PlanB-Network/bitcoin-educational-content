@@ -1,0 +1,9 @@
+question: Which command is used to scan a host's open ports and identify accessible services?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - ip neigh
+explanation: |
+  nmap detects open ports, exposed services and sometimes the type of remote operating system.
+reviewed: false

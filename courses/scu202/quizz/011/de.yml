@@ -1,0 +1,9 @@
+question: Was ist der Hauptunterschied zwischen der Bewegung für freie Software und Open Source?
+answer: Vorrang für die Freiheit oder die technische Effizienz
+wrong_answers:
+  - Verwendung von C oder Assemblersprache
+  - Entwicklung von nativen oder PC-Mobilanwendungen
+  - Die Anwesenheit oder Abwesenheit der internationalen Gemeinschaft
+explanation: |
+  Bei freier Software geht es um die Freiheit der Nutzer, bei Open Source um Transparenz und technische Effizienz.
+reviewed: false

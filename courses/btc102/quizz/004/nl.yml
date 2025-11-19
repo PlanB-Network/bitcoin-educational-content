@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste mechanisme van een Ponzi-systeem?
+answer: Vroege investeerders worden betaald met het geld van nieuwe investeerders
+wrong_answers:
+  - Rendementen komen van een echt product op de markt
+  - Beleggers ontvangen dividenden van bedrijven
+  - Winsten worden gegenereerd door slimme contracten op de Blockchain
+explanation: |
+  Bij een Ponzi-regeling wordt er geen echt product gemaakt en zijn de uitbetalingen alleen afhankelijk van de komst van nieuwe deelnemers.
+reviewed: false

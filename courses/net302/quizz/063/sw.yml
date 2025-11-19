@@ -1,0 +1,9 @@
+question: Je, lengo kuu la kutambulisha IPv6 ni lipi?
+answer: Toa nafasi isiyo na kikomo ya Address
+wrong_answers:
+  - Ongeza upitishaji wa Ethaneti kwa kipengele cha 4
+  - Hatua kwa hatua badilisha TCP na UDP
+  - Punguza idadi ya baiti kwa kila pakiti
+explanation: |
+  Kusudi kuu la IPv6 ni kutatua uhaba wa anwani za IP kwa kupanua kwa kiasi kikubwa nafasi ya Address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký typ záznamu DNS se používá k namapování názvu domény na IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Typ AAAA (quad-A) se používá k mapování názvu domény s IPv6 Address, zatímco typ A je vyhrazen pro IPv4.
+reviewed: false

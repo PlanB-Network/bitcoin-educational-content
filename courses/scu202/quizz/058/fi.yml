@@ -1,0 +1,9 @@
+question: Mitä renderöintimoottoria Internet Explorer käytti versiosta 4 alkaen ja hallitsi markkinoita 2000-luvun alussa?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Vilkku
+explanation: |
+  Microsoftin kehittämä Trident otettiin käyttöön Internet Explorer 4.0:n mukana vuonna 1997, ja se hallitsi Internetiä Internet Explorerin lähes monopoliaseman aikana.
+reviewed: false

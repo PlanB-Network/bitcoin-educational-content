@@ -1,10 +1,11 @@
-question: ¿Cuál es la unidad de Bitcoin utilizada en la Lightning Network?
-answer: Sats.
+question: ¿Cómo podría utilizarse potencialmente la Red Lightning para alquilar bienes?
+answer: Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo que utilicen los bienes.
 wrong_answers:
-  - Bloque.
-  - Ether.
-  - Litecoin.
-explanation: |
-  La Lightning Network utiliza satoshis (también llamados sats), el
-  decimal de bitcoin, para funcionar.
+  - Los usuarios podrían ser cobrados una tarifa alta por alquilar los bienes.
+  - Los usuarios podrían ser cobrados basándose en el valor de los bienes.
+  - Los usuarios podrían ser cobrados basándose en la condición de los bienes.
+explanation: >-
+  Con la Red Lightning, es concebible usar este sistema para
+  alquilar bienes. Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo
+  que utilicen los bienes.
 reviewed: true

@@ -1,12 +1,12 @@
-question: Gde su bitkoini uskladišteni?
-answer: U Bitkoin Blockchainu.
+question: Koje je centralno pitanje koje treba postaviti sebi kada birate između Bitkoin novčanika, u smislu samostalnog čuvanja?
+answer: Da li ste vlasnik sredstava ili kontrolu nad svojim novcem prepuštate trećoj strani?
 wrong_answers:
-  - U Bitkoin novčaniku.
-  - Na uređaju gde je instaliran novčanik.
-  - U trezoru Federalnih rezervi.
+  - Da li je novčanik osiguran sa passphrase?
+  - Da li novčanik omogućava primanje i slanje bitkoina?
+  - Mogu li podeliti svoj novčanik sa drugom osobom?
 explanation: |
-  Iako su vaši privatni ključevi sačuvani u vašem novčaniku, sami
-  bitkoini su zapravo sačuvani na Bitkoin
-  Blockchainu, koji je javni distribuirani Ledger unutar
-  Bitcoin peer-to-peer mreže.
+  Kada birate Bitkoin novčanik, centralno pitanje je:
+  da li ste vi vlasnik sredstava ili prepuštate kontrolu
+  vašeg novca trećoj strani? Ovo je zato što je vlasnik
+  privatnog ključa vlasnik Bitkoina.
 reviewed: true

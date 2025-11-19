@@ -1,0 +1,12 @@
+question: Vad är en metod för att säkra dina bitcoins på lång sikt?
+answer: Gravera din Mnemonic-fras på ett motståndskraftigt material som stål.
+wrong_answers:
+  - Förvara dem i en Hot Wallet.
+  - Håller dem på en Exchange-plattform.
+  - Dela din Mnemonic-fras med en kollega.
+explanation: |
+  Genom att gravera din Mnemonic-fras på ett motståndskraftigt material som
+  stål skapar en fysisk säkerhetskopia av dina nycklar som är
+  motståndskraftig mot både vattenskador och eld, vilket säkerställer din
+  bitcoins på lång sikt.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Cần phải thêm gì vào NAT để bảo mật mạng đúng cách?
+answer: Tường lửa
+wrong_answers:
+  - Máy chủ DNS cục bộ
+  - Một proxy HTTP
+  - Một phần mềm diệt vi-rút
+explanation: |
+  Chỉ riêng NAT không đủ để lọc lưu lượng truy cập độc hại: nó phải được bổ sung bằng các quy tắc tường lửa để kiểm soát lưu lượng truy cập chi tiết.
+reviewed: false

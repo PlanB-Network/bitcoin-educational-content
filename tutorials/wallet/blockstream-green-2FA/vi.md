@@ -4,6 +4,12 @@ description: Setting up a 2/2 multisig on Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Lưu ý:** Từ tháng 5 năm 2025, sẽ không thể kích hoạt các tài khoản mới được bảo vệ bằng xác thực hai yếu tố (2FA). Tính năng này chỉ khả dụng đối với người dùng đã từng kích hoạt loại tài khoản này trước đó.*
+
+___
+
 A software wallet is an application installed on a computer, smartphone or other Internet-connected device, enabling you to manage and secure your Bitcoin wallet keys. Unlike hardware wallets, which isolate private keys, "hot" wallets therefore operate in an environment potentially exposed to cyber-attacks, increasing the risk of piracy and theft.
 
 Software wallets should be used to manage reasonable amounts of bitcoins, especially for everyday transactions. They can also be an interesting option for people with limited bitcoin assets, for whom investment in a hardware wallet may seem disproportionate. However, their constant exposure to the Internet makes them less secure for storing your long-term savings or large funds. For the latter, it's best to opt for more secure solutions, such as hardware wallets.
@@ -20,7 +26,7 @@ Green is a particularly easy-to-use application, which makes it interesting for 
 
 Blockstream Green also supports the Liquid network, a Bitcoin sidechain developed by Blockstream for fast, confidential transactions outside the main blockchain. In this tutorial, we focus exclusively on Bitcoin, but I've also made another tutorial to learn how to use Liquid on Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 multisig option (2FA)
 
@@ -40,7 +46,7 @@ Another disadvantage of this security method is that you'll have to use minority
 
 If you prefer not to use the 2FA option and simply wish to set up a "*singlesig*" wallet on Green, I invite you to consult this other tutorial :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installing and configuring Blockstream Green software
 
@@ -54,7 +60,7 @@ For Android users, you can also install the application via the `.apk` file [ava
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Launch the application, then check the "I accept the conditions...*" box.
+Launch the application, then check the "I accept the conditions..." box.
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -148,7 +154,7 @@ Click on the green button "*Increase the security of your account by adding the 
 
 You will then be able to choose the authentication method to access the second key of your 2/2 multisig. For this tutorial, we'll be using an authentication application. If you're not familiar with this type of application, I recommend you consult our tutorial on Authy :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Select "*Authenticator Application*".
 
@@ -264,4 +270,4 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile application to set up a Liquid wallet :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

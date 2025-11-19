@@ -1,0 +1,8 @@
+question: Wat voor netwerk creëert Lightning Network?
+answer: Een netwerk van betaalkanalen.
+wrong_answers:
+  - Een netwerk van Mining knooppunten.
+  - Een netwerk van Blockchain knooppunten.
+  - Een netwerk van cryptocurrency-beurzen.
+explanation: >-
+reviewed: true

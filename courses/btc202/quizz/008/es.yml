@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de una Bitcoin Wallet?
+answer: Almacenamiento y gestión de claves privadas
+wrong_answers:
+  - Almacenar y gestionar el Blockchain completo
+  - Comprobar la validez del bloque
+  - Transacciones de red de retransmisión
+explanation: |
+  Un Bitcoin Wallet gestiona las claves privadas que permiten gastar bitcoins, pero no realiza las funciones de un nodo.
+reviewed: true

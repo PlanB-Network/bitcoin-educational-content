@@ -1,0 +1,8 @@
+question: Bastiat'ya göre gerçek dayanışmanın temel özelliği nedir?
+answer: Gönüllüdür ve kanunen zorunlu değildir
+wrong_answers:
+  - Vergilerle finanse edilir
+  - Kolektif ihtiyaçları karşılamak için dayatılır
+  - Suistimalleri önlemek için devlet tarafından düzenlenir
+explanation: |
+  Bastiat'ya göre, gerçek dayanışma ancak herhangi bir yasal zorunluluk olmaksızın gönüllü bir Commitment'dan kaynaklanabilir.

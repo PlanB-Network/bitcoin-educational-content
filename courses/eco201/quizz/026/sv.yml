@@ -1,0 +1,11 @@
+question: Vad innebär det att en vara har hög säljbarhet?
+answer: Den bör önskas av så många som möjligt, för det mesta.
+wrong_answers:
+  - Det ska vara önskvärt av ett fåtal personer, för det mesta.
+  - Den bör önskas av så många som möjligt, en del av tiden.
+  - Det ska vara önskvärt av ett fåtal personer, en del av tiden.
+explanation: |
+  En vara med hög säljbarhet är en vara som är allmänt eftertraktad
+  och som lätt kan bytas mot andra varor eller tjänster.
+  Detta gör den lämplig att använda som pengar.
+reviewed: true

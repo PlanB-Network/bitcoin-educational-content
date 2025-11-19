@@ -1,0 +1,9 @@
+question: Jaký mechanismus umožňuje externí přístup k interní službě prostřednictvím NAT?
+answer: Přesměrování portů
+wrong_answers:
+  - Fragmentace paketů
+  - Směrování RIP
+  - Komprese NAT
+explanation: |
+  Přesměrování portů umožňuje přesměrovat externí připojení na určitého interního hostitele prostřednictvím brány NAT.
+reviewed: false

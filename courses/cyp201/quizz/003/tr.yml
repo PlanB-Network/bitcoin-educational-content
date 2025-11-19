@@ -1,0 +1,9 @@
+question: SHA256 ve RIPEMD160 arasındaki temel fark nedir?
+answer: RIPEMD160, SHA256'dan daha kısa hash'ler üretir
+wrong_answers:
+  - RIPEMD160'ın aksine SHA256 artık kullanılmamaktadır
+  - RIPEMD160 yalnızca Proof-of-Work mekanizmasında kullanılır
+  - SHA256 asla diğer hashing işlevleriyle birleştirilmez
+explanation: |
+  RIPEMD160 160 bitlik hashler üretirken SHA256 256 bitlik hashler üretir.
+reviewed: false

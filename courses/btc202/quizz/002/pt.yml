@@ -1,0 +1,9 @@
+question: Que base de dados é que um nó Bitcoin mantém localmente para registar a produção não gasta?
+answer: O conjunto UTXO
+wrong_answers:
+  - O Mempool
+  - O Blockchain
+  - A história do Wallet
+explanation: |
+  O nó mantém o conjunto UTXO, que é o conjunto de outputs não gastos disponíveis para transacções futuras.
+reviewed: true

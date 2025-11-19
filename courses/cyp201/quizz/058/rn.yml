@@ -1,0 +1,9 @@
+question: Ni uwuhe murimo ukoreshwa mu gukura seed mu mvugo Mnemonic?
+answer: PBKDF2 na HMAC-SHA512
+wrong_answers:
+  - SHA256 yonyene
+  - Kabiri SHA256
+  - AES-256
+explanation: |
+  seed ikoreshwa hakoreshejwe igikorwa ca PBKDF2 n'ibisubirwamwo vya HMAC-SHA512 na 2048, bivuye ku majambo Mnemonic na passphrase.
+reviewed: false

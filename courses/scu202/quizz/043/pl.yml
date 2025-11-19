@@ -1,0 +1,9 @@
+question: Jaka jest korzyść z weryfikacji podpisu PGP na pliku Hash lub manifeście oprogramowania?
+answer: Gwarantuje to, że plik pochodzi z oficjalnego źródła
+wrong_answers:
+  - Gwarantuje instalację oprogramowania bez błędów
+  - Gwarantuje automatyczne aktualizacje programu
+  - Gwarantuje to, że plik jest kompletny i nie został zmodyfikowany
+explanation: |
+  Podpis PGP, zweryfikowany przy użyciu klucza publicznego dewelopera, gwarantuje, że uwierzytelniony plik pochodzi z oryginalnego źródła.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji tip IPv6 bloka omogućava kompaniji da zadrži svoj prefiks čak i kada promeni ISP?
+answer: PI (Provider Independent)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (Lokalni Internet Registar)
+  - IP (Zamenljivi Provajder)
+explanation: |
+  PI (Provider Independent) blok se dodeljuje direktno organizaciji od strane RIR-a, nezavisno od Internet provajdera.
+reviewed: false

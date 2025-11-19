@@ -1,0 +1,9 @@
+question: Quel format de paquet a été développé par Canonical pour isoler les applications et leurs dépendances ?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Le format Snap, mis au point par Canonical, permet l’installation de logiciels auto-contenus, isolés du système et mis à jour indépendamment.
+reviewed: false

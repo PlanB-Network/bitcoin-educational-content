@@ -1,0 +1,9 @@
+question: Jaký je stav položky v mezipaměti ip neigh, když je mapování IP/MAC platné a aktuální?
+answer: REACHABLE
+wrong_answers:
+  - PŘIPOJENO
+  - VALID
+  - STALE
+explanation: |
+  Stav REACHABLE znamená, že mapování IP/MAC je známé a funkční v sousední mezipaměti.
+reviewed: false

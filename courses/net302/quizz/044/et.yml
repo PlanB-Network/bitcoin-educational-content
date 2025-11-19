@@ -1,0 +1,9 @@
+question: Milline on DNSi peamine roll Interneti-arhitektuuris?
+answer: Domeeninimede kaardistamine IP-aadressidele
+wrong_answers:
+  - Marsruuterite vahelise side krüpteerimine
+  - MAC-aadresside dünaamiline määramine seadmetele
+  - Kontrollida juurdepääsu veebiserveritele
+explanation: |
+  DNS (domeeninimede süsteem) tõlgib inimloetavad domeeninimed numbrilisteks IP-aadressideks, mis on vajalikud marsruutimiseks.
+reviewed: false

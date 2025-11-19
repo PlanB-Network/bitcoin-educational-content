@@ -1,0 +1,11 @@
+question: Ni igiki Cagan afata ku bijanye n’ugutera imbere cane kw’ibiciro?
+answer: Igipimo c’ugutera imbere kw’ibiciro c’ibice 50% ku kwezi.
+wrong_answers:
+  - Igipimo c’ugutera imbere kw’ibiciro c’ibice 50% ku mwaka.
+  - Igipimo c’ugutera imbere kw’ibiciro c’ibice 25% ku kwezi.
+  - Igipimo c’ugutera imbere kw’ibiciro c’ibice 25% ku mwaka.
+explanation: |
+  Iciyumviro ca Cagan gisobanura ko ugutera imbere kw'ibiciro ari igipimo c'ugutera imbere kw'ibiciro ku rugero rwa 50%
+  ku kwezi. Ico kigereranyo gishobora rimwe na rimwe gutuma umuntu agira insobanuro zidasobanutse, n’
+  imyaka ifise ibiharuro vyinshi vy’ugutera imbere kw’ibiciro ariko idahuye n’insobanuro ikomeye y’ugutera imbere kw’ibiciro cane.
+reviewed: false

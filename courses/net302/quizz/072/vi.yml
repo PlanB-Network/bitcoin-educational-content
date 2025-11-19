@@ -1,0 +1,9 @@
+question: Loại khối IPv6 nào cho phép công ty giữ nguyên tiền tố ngay cả khi thay đổi ISP?
+answer: PI (Nhà cung cấp độc lập)
+wrong_answers:
+  - PA (Nhà cung cấp có thể tổng hợp)
+  - LIR (Cơ quan đăng ký Internet cục bộ)
+  - IP (Nhà cung cấp có thể hoán đổi)
+explanation: |
+  Khối PI (Nhà cung cấp độc lập) được RIR phân bổ trực tiếp cho một tổ chức, độc lập với Nhà cung cấp dịch vụ Internet.
+reviewed: false

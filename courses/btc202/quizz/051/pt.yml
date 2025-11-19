@@ -1,0 +1,9 @@
+question: Quando é que um utilizador deve instalar um indexador?
+answer: Para executar um Block explorer
+wrong_answers:
+  - Para os blocos Mining em si
+  - Para ativar o Lightning Network
+  - Para assinar transacções
+explanation: |
+  Um indexador torna-se indispensável para utilizações avançadas, como um explorador local.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilken protokoll brukes til å knytte en IP Address til en MAC Address i et Ethernet-nettverk?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Resolution Protocol (ARP) tilordner IP-adresser til MAC-adresser i lokale nettverk.
+reviewed: false

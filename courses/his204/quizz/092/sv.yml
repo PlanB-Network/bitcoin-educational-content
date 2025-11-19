@@ -1,0 +1,8 @@
+question: Om vilket ämne skrev Condorcet inte?
+answer: Bankerna
+wrong_answers:
+  - Frihet för spannmålshandeln
+  - Sysslor
+  - Slaveri
+explanation: |
+  Condorcet skrev om fri handel med spannmål, corvée och slaveri, men han skrev inte om banker.

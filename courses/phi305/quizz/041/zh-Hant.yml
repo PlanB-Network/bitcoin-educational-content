@@ -1,0 +1,9 @@
+question: 誰是 Saint-Augustin？
+answer: 教父之一。
+wrong_answers:
+  - 啟蒙運動的哲學家。
+  - 一位天文學家
+  - 發明家
+explanation: |
+  聖奧古斯丁 (354-430) 是教父之一。他是一位哲學家和神學家，他的《懺悔錄》和《上帝之城》等作品深刻地影響了西方基督教思想。
+reviewed: false

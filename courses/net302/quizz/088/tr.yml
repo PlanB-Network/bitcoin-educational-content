@@ -1,0 +1,9 @@
+question: Hangi Linux komutu aktif ağ yönlendirme tablosunu görüntüler?
+answer: ip rota göster
+wrong_answers:
+  - ifconfig -a
+  - ping rotası
+  - netstat -s
+explanation: |
+  ip route show, çekirdek tarafından bilinen rotaları ve IP paketleri tarafından alınan yolları listeler.
+reviewed: false

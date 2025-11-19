@@ -1,0 +1,9 @@
+question: Mu bijanye n’ubuhinga bwa RSA, igiharuro c’imibare ibiri y’intango p na q gihuye n’iki?
+answer: Igizwe n'umubare wose N ukoreshwa nk'umubare w'ibikorwa
+wrong_answers:
+  - Ni urufunguzo rwa bose
+  - Ikora nk'urufunguzo rwo gufungura
+  - Ikoreshwa gusa ku generate igiharuro e .
+explanation: |
+  Muri RSA, umubare wose N ni umusaruro w'imibare ibiri minini y'intango p na q, kandi ukoreshwa nk'umurongo w'ibikorwa vyo gupfuka no gukuraho.
+reviewed: false

@@ -6,6 +6,10 @@ description: Anleitung zur Einrichtung Ihres Ledger Nano S Geräts
 
 ![image](assets/cover.webp)
 
+*Ledger hat das Ende des Software-Supports für den klassischen Nano S ab dem 25. Juni 2025 angekündigt: Dieses Gerät erhält keine Sicherheitsupdates mehr und ist nicht mehr mit neuen Funktionen kompatibel, was seine Nutzer langfristig Sicherheitslücken und Inkompatibilitäten aussetzt. Die Gelder bleiben jedoch über die mnemonische Phrase zugänglich, dennoch wird dringend empfohlen, auf ein neueres Modell umzusteigen, um die Sicherheit und den dauerhaften Zugriff auf Ihre Bitcoins zu gewährleisten. Achtung, es handelt sich hier um den **alten Nano S** und nicht um den **Nano S Plus**, der weiterhin unterstützt wird.*
+
+___
+
 Kalter physischer Geldbeutel – 60 € – Anfänger – Zum Sichern von 2.000 € bis 50.000 €
 
 Ledger ist die französische Lösung zur sicheren Aufbewahrung von Bitcoins auf einfache Weise.
@@ -214,6 +218,6 @@ https://armantheparman.com/ledgersparrow/'
 
 Um dieses Thema zu vertiefen und die Sicherheit Ihres Wallets auf einem Ledger Nano mit einer BIP39 passphrase zu erhöhen, lade ich Sie ein, dieses vollständige Tutorial zu lesen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

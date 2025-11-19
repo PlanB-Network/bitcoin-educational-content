@@ -1,0 +1,9 @@
+question: Euler teoremine göre, a ve N tam sayıları için a^ϕ(N) mod N üs alma işleminin sonucu nedir?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Euler teoremi, iki a ve N tamsayısı için a^ϕ(N) mod N üstelleştirmesinin her zaman 1 mod N'ye eşit olduğunu belirtir ve bu özellik kriptografide kullanılır.
+reviewed: false

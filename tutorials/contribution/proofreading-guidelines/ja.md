@@ -9,10 +9,10 @@ description: Plan ₿ Networkの校正で留意すべき点は何ですか？
 このチュートリアルへようこそ。Bitcoinの資料をできるだけ多くの言語で翻訳し、Bitcoinがどのように機能し、日常生活でどのように使用できるかを人々に知ってもらうという私たちの使命に共感していただき、うれしく思います。
 
 
-まず第一に、Plan ₿ Network [公開リポジトリ](https://github.com/PlanB-Network/Bitcoin-educational-content) に貢献することで、チュートリアルを書いたり、既存のコンテンツを校正したり、あるいはプラットフォームに新しい言語を追加することを提案するチャンスを得ることができます。もっと知るには、まず私たちの[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)に参加し、あなたとあなたが話せる言語について簡単なプレゼンテーションを書いてください。
+まず第一に、Plan ₿ Academy [公開リポジトリ](https://github.com/PlanB-Network/Bitcoin-educational-content) に貢献することで、チュートリアルを書いたり、既存のコンテンツを校正したり、あるいはプラットフォームに新しい言語を追加することを提案するチャンスを得ることができます。もっと知るには、まず私たちの[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)に参加し、あなたとあなたが話せる言語について簡単なプレゼンテーションを書いてください。
 
 
-このチュートリアルは、コンテンツの校正を希望するコントリビューターに捧げます。彼らのほとんどは[Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)やリポジトリ内で使用している[Markdown言語](https://www.markdownguide.org/basic-syntax/)についてあまり知らないので、このタスクに関わる重要な要素についての洞察を共有することが重要です。
+このチュートリアルは、コンテンツの校正を希望するコントリビューターに捧げます。彼らのほとんどは[Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)やリポジトリ内で使用している[Markdown言語](https://www.markdownguide.org/basic-syntax/)についてあまり知らないので、このタスクに関わる重要な要素についての洞察を共有することが重要です。
 
 
 以下に、校正者が遭遇する最も一般的な問題を集めました。他の人の改善にも役立つので、遠慮なく提案してください。
@@ -21,7 +21,7 @@ description: Plan ₿ Networkの校正で留意すべき点は何ですか？
 具体的な内容に飛び込む前に、まず最初にすべきことは、Plan ₿ Networkリポジトリのフォーク、変更のコミット、PRの送信など、Github上で従うべき実践的な行動に関するこのチュートリアルを読むことだ：
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 校正とは何か？
@@ -44,7 +44,7 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 ## Plan ₿ Networkで校正する前の最初のステップ
 
 
-新しい校正タスクを開始する前に、[Telegram グループ](https://t.me/PlanBNetwork_ContentBuilder) でお知らせいただくか、Plan ₿ Networkコーディネーターにお知らせください。コーディネーターが専用の [issue](https://github.com/orgs/PlanB-Network/projects/3) を開設します。issueのリンクを受け取ったら、**その内容の校正タスクを開始**するとコメントしてください。
+新しい校正タスクを開始する前に、[Telegram グループ](https://t.me/PlanBNetwork_ContentBuilder) でお知らせいただくか、Plan ₿ Networkコーディネーターにお知らせください。コーディネーターが専用の [issue](https://github.com/orgs/Plan ₿ Academy/projects/3) を開設します。issueのリンクを受け取ったら、**その内容の校正タスクを開始**するとコメントしてください。
 
 
 このシステムは、コーディネーターがレポ内の進捗状況を把握するのに役立ち、校正者によってコンテンツが「クレーム」され、他の誰かによる重複作業を防ぐことができる。
@@ -60,7 +60,7 @@ issue自体には、チェックすべきコンテンツにリダイレクトす
 
 
 
-同期に成功したら、この[チュートリアル](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6)にあるように、目的のコンテンツに直接アクセスして新しいブランチにコミットできます。そうでなければ、下図のように "Branches" をクリックして新しいブランチを開き、そこで作業することができます。
+同期に成功したら、この[チュートリアル](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)にあるように、目的のコンテンツに直接アクセスして新しいブランチにコミットできます。そうでなければ、下図のように "Branches" をクリックして新しいブランチを開き、そこで作業することができます。
 
 
 
@@ -94,7 +94,7 @@ issue自体には、チェックすべきコンテンツにリダイレクトす
 ## 原語か翻訳か？
 
 
-コンテンツの校正を行う際には、必ずオリジナルの英語（またはフランス語）**版を確認することが重要です。私たちはAI言語ツールを使って翻訳しているため、ターゲット言語でのレンダリングが流動的であったり、最終的な読者にとって理解しやすいものではないかもしれないことに注意してください。
+コンテンツの校正を行う際には、必ずオリジナルの英語（またはフランス語）**版**を確認することが重要です。私たちはAI言語ツールを使って翻訳しているため、ターゲット言語でのレンダリングが流動的であったり、最終的な読者にとって理解しやすいものではないかもしれないことに注意してください。
 
 
 したがって、必要であれば、自由に文章を調整し、文章を修正してください。私たちの目的は流動性を高めることですが、常に原文の意味に従います。特定の単語の扱いについて疑問がある場合は、必ず翻訳コーディネーターにお尋ねください。
@@ -115,11 +115,11 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 
-- もう一つの良い解決策は、ENオリジナルの単語/フレーズをそのままにして、planb.networkの[glossary](https://planb.network/en/resources/glossary)にリダイレクトするハイパーリンク**を作成することです。これを行うには、下の例のように、単語/フレーズを角括弧の中に、リンクを丸括弧の中に挿入する必要があります：
+- もう一つの良い解決策は、ENオリジナルの単語/フレーズをそのままにして、planb.networkの[glossary](https://planb.academy/en/resources/glossary)にリダイレクトするハイパーリンクを作成することです。これを行うには、下の例のように、単語/フレーズを角括弧の中に、リンクを丸括弧の中に挿入する必要があります：
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 
-ウェブサイトから取得する用語集のリンクには、「network」という単語の後に言語コードが含まれていることにご注意ください（例：``https://planb.network/en/resources/glossary/UTXO``->ここでは言語コード「en」を読むことができます）。この場合、上のボックスのように、**リンクから言語コードを削除してください。そうすれば、システムは自動的に読者を指定された言語に誘導します。
+ウェブサイトから取得する用語集のリンクには、「network」という単語の後に言語コードが含まれていることにご注意ください（例：``https://planb.academy/en/resources/glossary/utxo``->ここでは言語コード「en」を読むことができます）。この場合、上のボックスのように、**リンクから言語コードを削除してください**。そうすれば、システムは自動的に読者を指定された言語に誘導します。
 
 
 リポジトリ上のコンテンツは、上記のようなハイパーリンクでいっぱいです。リンクが何を意味するのかわかったところで、**原作者が挿入したリンク**を削除しないようにしてください。
 
 
 
-- もうひとつ、言葉の表記に関連することとして、次のようなものがある。本文中に「Plan ₿ Network」があったら、**この原形のままにしておく**。plan "や "network "は訳さないこと。また、Plan ₿ Networkを紹介するときに「The」という冠詞を使わないこと： **ブランドとして考えてください。
+- もうひとつ、言葉の表記に関連することとして、次のようなものがある。本文中に「Plan ₿ Academy」があったら、**この原形のままにしておく**。plan や network は訳さないこと。また、Plan ₿ Networkを紹介するときに「The」という冠詞を使わないこと： **ブランドとして考えてください**。
 
 
 
@@ -166,7 +166,7 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 
-タイトルの前のHash記号**は絶対に削除しないでください。
+タイトルの前のHash記号**は絶対に削除しないでください**。
 
 
 同時に、上の画像にあるチャプターIDの部分、``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>``や、``::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::`` のようなビデオ参照は変更しないでください。
@@ -234,8 +234,6 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## クイズ校正
 
 
@@ -245,11 +243,20 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 もう一度言うが、この目的のために開設した専用支店であることを確認し、必ずコーディネーターに報告すること。
 
 
-質問を確認した後、下の画像のように「reviewed」のステータスを「false」から「true」に変更してください。
-
+この種の_yml_ファイルを校正するときに注意すべき重要なことは、テキストの中にコロン ``:`` を加えないようにすることです。実際、コロンは "wrong_answers "のようなキーとバリューのペアを区切るためだけに使われます。下の画像に例があります：
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+問題を見直したら、下の画像のように「reviewed」のステータスを「false」から「true」に変更してください。どの言語で作業している場合でも、これらのステータスの単語は必ず英語にしてください！
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+もし「reviewed:true」というステータス行がない場合は、クイズの最後に追加してください。
 
 
 ## 用語集の校正
@@ -258,7 +265,35 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 クイズと同じように、用語集も校正することができます。元の用語集はフランス語で書かれているので、次のような文章があります：「フランス語では、この表現は...と訳せます。
 
 
-このような場合は、この文章をあなたの母国語、あるいは英語に直してください。
+このような場合、文章をターゲット言語または英語に直してください。例えば、"In English, this expression... "というように。
+
+タイトルが英語のままなら、その文章をあなたの言語に合わせることができる："スワヒリ語では、この表現は..."
+
+
+また、タイトルは必ず大文字で書くこと。
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## PRのタイトルと説明
+
+
+PRを送る際、次のような形式で名前をつけると素晴らしいでしょう：[校正] 内容名 - 言語：
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+また、PR**の**コメント欄には、校正作業を開始したときにコーディネーターから送られてきたissueの番号と "closes "を、その前に``#``と書いてください。
+
+例えば、cyp201の校正＋クイズのPRを送ったばかりなら、「closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)」と書けばいい。
+
+
+こうすることで、PRとイシューがつながり、公開されているGithubリポジトリを誰が読んでも簡単に情報を見つけることができる。
+
 
 
 ## その他のベストプラクティス
@@ -269,37 +304,49 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-全置換」機能を使用する場合、リンクも変更されていないか、結果をダブルチェックすることが重要です。例えば、"Bitcoin "という単語を "Bitkoin "に変更したい場合（言語によっては必要な場合もあります）、"全置換 "機能を使用すると、テキスト内のすべてのインスタンスを効率的に更新することができます。ただし、このツールはその単語を含むリンクも変更するため、リダイレクトの問題につながる可能性があることに注意してください。
+全置換」機能を使用する場合、リンクも変更されていないか、結果をダブルチェックすることが重要です。例えば、"Bitcoin "という単語を "Bitkoin "に変更したい場合（言語によっては必要な場合もあります）、"全置換 "機能を使用すると、テキスト内のすべてのインスタンスを効率的に更新することができます。ただし、このツールを使用すると、その単語を含むリンクも変更されるため、リダイレクトの問題につながる可能性があることに注意してください。
 
 
-下の例では、校正者が上記の関数を使って「Satoshi」を「Satoshi(Sats)」に置き換え、さらにその単語そのものを含むチュートリアルへのリンクを変更した。その結果、リンクは無効となった。
+下の例では、校正者は上記の関数を使って「Satoshi」を「Satoshi(Sats)」に置き換え、さらにその単語そのものを含むチュートリアルへのリンクを変更した。その結果、リンクは無効となりました。
 
 
 本文中のハイパーリンクが正しいかどうか、必ず再確認すること。
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- トピックに続いて、著者がPlan ₿ Networkコースやチュートリアルを参照するリンクを挿入した場合(**括弧内**ではない)、ウェブサイトは自動的に関連するサムネイルを表示する「カード」を作成します。その結果、**テキストとリンクの間にスペースがある**ことを常に確認してください。
+- Plan ₿ Networkのコースやチュートリアルにリンクを貼る場合（括弧の中ではなく）、ウェブサイトは自動的に関連するサムネイルを表示する "カード "を作成します。その結果、テキストとリンクの間に改行を入れるようにしてください。
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+このような「画像コード」でも同じことが起こります ``[IMAGE](asset/fr/001.webp)``: 画像コードとテキストの間には必ず改行を入れてください。以下に例を示します：
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- 最後に、校正作業を終えてPRを送信する際のもう1つのベストプラクティスは、コーディネーターが開いた元のissueに戻り、「校正完了」とコメントすることです。 **その際、あなたのPRリンクも必ず挿入してください**。
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## 結論
@@ -309,6 +356,9 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 初心者がこれらのコースやチュートリアルを読む可能性があることを常に念頭に置き、彼らが完全に理解できるようにするのが私たちの責任です。校正者として、あなたは教育者です！
+
+
+これで、コース、チュートリアル、クイズ、用語集の校正を始める準備が整いました。画像やビデオ原稿のチェックも開始しますので、ご期待ください。）
 
 
 このチュートリアルをお読みいただきありがとうございました！

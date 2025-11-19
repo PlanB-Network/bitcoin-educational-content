@@ -1,0 +1,9 @@
+question: Mobil antivirüs uygulamalarının temel sınırlamaları nelerdir?
+answer: Gerçek tehditler karşısında sınırlıdırlar
+wrong_answers:
+  - Telefonu mobil ağlarla uyumsuz hale getirirler
+  - Mesajlaşma uygulamalarını kaldırıyorlar
+  - Pil ömrünü uzatırlar
+explanation: |
+  Mobil antivirüs yazılımı, kimlik avı veya kötü yetkilendirmelere karşı koruma sağlamaz ve ana tehditlere karşı yalnızca sınırlı güvenlik sunar.
+reviewed: false

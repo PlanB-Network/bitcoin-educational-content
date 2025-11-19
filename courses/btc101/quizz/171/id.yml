@@ -1,11 +1,8 @@
-question: Bagaimana protokol Bitcoin memastikan sifatnya yang tidak dapat disensor dan tidak dapat dihentikan?
-answer: Setiap komponen dari protokol tersebut didistribusikan secara geografis di seluruh dunia
+question: Apa tren umum Bitcoin karena jumlahnya yang terbatas dan proses pemotongan?
+answer: Tren umum ke atas.
 wrong_answers:
-  - Menggunakan jaringan node yang terdesentralisasi
-  - Menggunakan algoritma kompleks untuk memvalidasi transaksi
-  - Menggunakan tingkat enkripsi yang tinggi
+  - Tren umum ke bawah.
+  - Tidak ada tren sama sekali.
+  - Tren yang berfluktuasi liar tanpa pola yang dapat dikenali.
 explanation: >-
-  Protokol Bitcoin memastikan sifatnya yang tidak dapat disensor dan tidak dapat dihentikan karena
-  setiap komponen dari protokol tersebut didistribusikan secara geografis di seluruh dunia. Sebagai
-  contoh, terdapat sekitar 40.000 node Bitcoin di semua benua.
-reviewed: false
+  Bitcoin, karena jumlahnya yang terbatas sebanyak 21 juta bitcoin dan proses pemotongannya (memotong penciptaan moneter setiap 4 tahun sekali rata-rata), mengikuti tren umum ke atas.

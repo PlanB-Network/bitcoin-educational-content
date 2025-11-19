@@ -1,0 +1,9 @@
+question: Voltaire'in Londra Borsası Exchange ile ilgili pasajının ana fikri nedir?
+answer: Tüm dinlere mensup işadamları farklılıklarını bir kenara bırakarak ortak kâra odaklanırlar.
+wrong_answers:
+  - Dünyanın farklı dinleri, inançlarını barış içinde uygulamak için Stock Exchange'de bir araya geliyor.
+  - Londra Borsası, ahlaki değerlerin göz ardı edildiği bir spekülasyon ve yolsuzluk merkezidir.
+  - Rekabet ve bireycilik ruhunun hakim olduğu iş dünyasında dinin yeri yoktur.
+explanation: |
+  Voltaire, Londra Borsası'nda işadamlarının ortak bir ekonomik hedef doğrultusunda işbirliği yapmak için dini farklılıklarını aştıklarını vurgulayarak, maddi çıkarların dini bölünmelerden daha öncelikli olduğunu göstermektedir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Que motor de renderização foi utilizado pelo Internet Explorer a partir da versão 4 e dominou o mercado no início da década de 2000?
+answer: Tridente
+wrong_answers:
+  - Osga
+  - WebKit
+  - Piscar os olhos
+explanation: |
+  O Trident, desenvolvido pela Microsoft, foi introduzido com o Internet Explorer 4.0 em 1997 e dominou a Web durante o período de monopólio virtual do Internet Explorer.
+reviewed: false

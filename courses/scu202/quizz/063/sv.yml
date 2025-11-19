@@ -1,0 +1,9 @@
+question: Vilken textbrowser, utan stöd för Interface-grafik eller JavaScript, är den äldsta som fortfarande används?
+answer: Lynx
+wrong_answers:
+  - Mullvad Browser
+  - Polypan
+  - Vivaldi
+explanation: |
+  Lynx, som lanserades 1992, fungerar i textläge, stöder inte JavaScript och används fortfarande för mycket specifika ändamål.
+reviewed: false

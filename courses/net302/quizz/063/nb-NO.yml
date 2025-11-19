@@ -1,0 +1,9 @@
+question: Hva er hovedmålet med innføringen av IPv6?
+answer: Gir et praktisk talt ubegrenset Address-område
+wrong_answers:
+  - Øker Ethernet-gjennomstrømningen med en faktor på 4
+  - Gradvis erstatte TCP med UDP
+  - Reduser antall byte per pakke
+explanation: |
+  Hovedformålet med IPv6 er å løse mangelen på IP-adresser ved å utvide Address-området massivt.
+reviewed: false

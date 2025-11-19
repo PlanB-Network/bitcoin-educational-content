@@ -1,0 +1,9 @@
+question: RGB mimarisinde Interface Implementation'ın amacı nedir?
+answer: Schema alanlarını Interface'de tanımlanan adlarla eşleştirin
+wrong_answers:
+  - Doğrulama için AluVM komut dosyalarını derleyin
+  - Contract'in küresel durumlarını ve sahip olunan durumlarını tanımlamak için
+  - İstemci tarafı kriptografik kanıtları saklamak için
+explanation: |
+  Interface Implementation, Schema'un Business Logic'si ile Interface tarafından okunabilen sunum arasındaki bağlantıyı kurar.
+reviewed: false

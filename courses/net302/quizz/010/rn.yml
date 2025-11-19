@@ -1,0 +1,9 @@
+question: Ni iyihe porotokole y’ubu itanga ibikorwa bisa n’ivyo IPv5 yari igamije mu bijanye n’uburyo bwo gucunga ibikorwa vy’urubuga?
+answer: ISVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Itegeko ryo gucungera ibikoresho) riremeza gucungera ibikoresho vy'urubuga kugira ngo umuntu ashobore gutanga uburyo bwo gutanga ibikoresho (QoS), ari vyo vyari intumbero y'intango ya IPv5.
+reviewed: false

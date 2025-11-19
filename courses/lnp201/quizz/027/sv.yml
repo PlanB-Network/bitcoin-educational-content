@@ -1,0 +1,9 @@
+question: Varför är påtvingad stängning mindre önskvärd?
+answer: Det går långsammare och avgifterna kan vara olämpliga
+wrong_answers:
+  - Det kräver auktorisation från Satoshi Nakamoto
+  - Det tvingar fram återskapandet av en kanal senare
+  - Det förhindrar användning av spärrnyckeln
+explanation: |
+  Tvångsavslut är mindre önskvärt eftersom det innehåller en tidsspärr, som gör processen långsammare, och avgifterna kan vara olämpliga eftersom de fastställdes vid tidpunkten för kanalens skapande.
+reviewed: false

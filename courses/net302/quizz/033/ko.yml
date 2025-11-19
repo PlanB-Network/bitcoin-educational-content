@@ -1,0 +1,9 @@
+question: 여러 내부 컴퓨터가 하나의 공용 IP Address을 공유하여 인터넷에 액세스할 수 있는 기술은 무엇인가요?
+answer: NAT(네트워크 Address 번역)
+wrong_answers:
+  - ARP(Address 해상도 프로토콜)
+  - DHCP(동적 호스트 구성 프로토콜)
+  - CIDR(클래스 없는 도메인 간 라우팅)
+explanation: |
+  NAT는 비공개 내부 주소를 공용 IP Address로 변환하여 여러 장치가 동일한 외부 연결을 공유할 수 있도록 합니다.
+reviewed: false

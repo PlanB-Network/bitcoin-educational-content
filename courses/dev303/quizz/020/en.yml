@@ -1,0 +1,8 @@
+question: What is the main difference between methods and associated functions in Rust structures?
+answer: Methods take self as their first parameter, while associated functions do not
+wrong_answers:
+  - Methods are public by default, while associated functions are private by default
+  - Methods can only read data, while associated functions can modify structure fields
+  - Methods use dot notation to call, while associated functions use arrow notation
+explanation: |
+  Methods in Rust are functions defined in an impl block that take some form of self as their first parameter (self, &self, or &mut self), allowing them to operate on instances of the structure. Associated functions are also defined in impl blocks but don't take self as a parameter, making them similar to static methods in other languages. Associated functions are called using double colon syntax (Type::function_name()) and are commonly used as constructors, while methods are called on instances using dot notation. The other options are incorrect because both methods and associated functions follow the same visibility rules, both can be designed to modify or read data depending on their implementation, and associated functions use double colon syntax, not arrow notation.

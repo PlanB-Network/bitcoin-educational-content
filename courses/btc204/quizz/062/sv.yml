@@ -1,0 +1,10 @@
+question: Vilket av dessa alternativ är inte en metod för automatiskt val av delar?
+answer: Tysta betalningar
+wrong_answers:
+  - Förgrening och avgränsning
+  - FIFO
+  - Knapsack-lösare
+explanation: |
+  Till skillnad från de andra tre alternativen är Silent Payments inte en metod för att välja delar, utan ett protokoll för att använda statiska adresser.
+  
+reviewed: false

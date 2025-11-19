@@ -1,9 +1,12 @@
-question: Mikä on prosessin nimi, joka varmentaa transaktioita Bitcoin-verkossa?
-answer: Louhinta
+question: Kuinka usein vaikeustason säätö tapahtuu?
+answer: Joka 2016 lohkon välein.
 wrong_answers:
-  - Kaivaminen
-  - Korjuu
-  - Viljely
+  - Joka 1048 lohkon välein.
+  - Joka 512 lohkon välein.
+  - Joka 4032 lohkon välein.
 explanation: |
-  Prosessi, joka varmentaa transaktioita Bitcoin-verkossa, on nimeltään louhinta. Louhijat suorittavat kryptografisen tehtävän ja palkitaan uusien bitcoinien liikkeellelaskulla.
+  Vaikeustason säätö on mekanismi, joka tapahtuu
+  joka 2016 lohkon välein, eli noin kahden viikon välein, varmistaakseen, että
+  uusi lohko lisätään lohkoketjuun keskimäärin joka kymmenes minuutti,
+  riippumatta globaalista hashratesta.
 reviewed: true

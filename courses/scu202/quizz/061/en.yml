@@ -1,0 +1,9 @@
+question: Which browser offers ad and tracker blocking, fingerprinting protection and is based on Chromium?
+answer: Brave
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave features ad blocking, trackers and advanced fingerprinting protection by default, all based on Chromium.
+reviewed: false

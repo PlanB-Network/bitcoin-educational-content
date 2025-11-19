@@ -1,0 +1,9 @@
+question: Šta je Linux distribucija?
+answer: Potpuni operativni sistem izgrađen oko Linux kernela
+wrong_answers:
+  - Upravljač paketima
+  - Linux desktop okruženje
+  - Automatizovani skript za instalaciju operativnog sistema Linux
+explanation: |
+  Linux distribucija integriše kernel, sistemske alate, softver, bootloader i upravljanje paketima kako bi obezbedila sistem spreman za upotrebu.
+reviewed: false

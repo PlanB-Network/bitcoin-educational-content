@@ -1,0 +1,9 @@
+question: Hva er den viktigste bruken av VLAN-basert nettverkssegmentering i et hjemmenettverk?
+answer: Isoler ulike typer apparater eller bruksområder
+wrong_answers:
+  - Øk Wi-Fi-rekkevidden for enheter
+  - Krypter nettverkstilkoblinger individuelt for hver enhet
+  - Aktiver WPA3 automatisk
+explanation: |
+  VLAN kan brukes til å dele opp enheter, noe som begrenser spredningen av et angrep mellom segmentene.
+reviewed: false

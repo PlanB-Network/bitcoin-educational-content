@@ -1,0 +1,9 @@
+question: Vad är målet med heuristiken för interna transaktioner?
+answer: För att identifiera Exchange.
+wrong_answers:
+  - För att identifiera bedrägliga transaktioner i realtid.
+  - För att identifiera transaktionsmönster.
+  - För att identifiera ett kluster som tillhör samma enhet.
+explanation: |
+  Den interna heuristiken gör det möjligt för oss att identifiera Exchange i syfte att observera användaren i efterföljande transaktioner.
+reviewed: false

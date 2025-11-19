@@ -1,8 +1,9 @@
-question: Opłaty za transakcje na Lightning Network są niezwykle niskie, często niższe niż...?
-answer: 0.5%.
+question: Jak nazywa się jednostka bitcoina używana w sieci Lightning?
+answer: Sat
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
+  - Blok
+  - Eter
+  - Litecoin
+explanation: |
+  Sieć Lightning używa satoshich (zwanych również satami), dziesiętnej części bitcoina.
 reviewed: true

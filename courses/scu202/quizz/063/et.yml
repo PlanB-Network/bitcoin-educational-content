@@ -1,0 +1,9 @@
+question: Milline tekstibrauser, millel puudub Interface graafika või JavaScript-tugi, on vanim veel säilinud?
+answer: Lynx
+wrong_answers:
+  - Mullvad Browser
+  - Polüpaan
+  - Vivaldi
+explanation: |
+  Lynx, mis ilmus 1992. aastal, töötab tekstirežiimis, ei toeta JavaScripti ja seda kasutatakse ikka veel väga spetsiifilistel eesmärkidel.
+reviewed: false

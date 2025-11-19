@@ -1,0 +1,9 @@
+question: Ni intumbero iyihe y’urutonde mu gukuraho imfunguruzo z’abana?
+answer: Gutandukanya urufunguzo rw'abavukanyi babiri
+wrong_answers:
+  - Raba kamere y'urufunguzo (rwa bose canke rw'ibanga)
+  - Sobanura urugero rw'umutekano w'urufunguzo
+  - Yongerako Layer y'umutekano
+explanation: |
+  Index iremesha gutandukanya imfunguruzo z'abana zikomoka ku muvyeyi umwe.
+reviewed: false

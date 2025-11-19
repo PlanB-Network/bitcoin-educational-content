@@ -1,0 +1,15 @@
+question: Wat is het belangrijkste verschil tussen privé browsen en het TOR-netwerk gebruiken?
+answer: Tor maskeert het IP Address van de gebruiker, terwijl Private browsing dat niet doet.
+wrong_answers:
+  - Privénavigatie en TOR zijn hetzelfde.
+  - Private browsing maskeert het IP Address van de gebruiker, terwijl TOR dat niet doet.
+  - TOR laat lokale sporen achter op je computer, terwijl private browsing dat niet doet.
+explanation: |
+  Privénavigatie is een functie die voorkomt dat
+  browsers geen browsegeschiedenis, tijdelijke internet
+  bestanden, formuliergegevens, cookies en gebruikersnamen en wachtwoorden.
+  Het verbergt het browsen echter niet voor uw internetprovider
+  serviceprovider. Aan de andere kant biedt het TOR-netwerk
+  anonimiteit door het IP Address van de gebruiker te maskeren en toegang te verlenen tot het Darknet
+  toegang tot het Darknet.
+reviewed: true

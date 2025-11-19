@@ -1,0 +1,9 @@
+question: Organisasi mana yang memberikan nomor versi protokol IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) mengelola Assignment nomor versi protokol IP dan alokasi rentang protokol.
+reviewed: false

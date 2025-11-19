@@ -1,0 +1,9 @@
+question: Hepsi bir arada online perakende ortamını tercih eden işletmeler için hangi alternatif çözümden bahsediliyor?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Açık Düğüm
+  - İsviçre Bitcoin Maaşı
+explanation: |
+  Be-BOP, Bitcoin ödemelerini kolaylaştıran entegre bir çevrimiçi e-mağaza isteyenler için bir seçenektir.
+reviewed: false

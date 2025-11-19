@@ -1,0 +1,9 @@
+question: Lord Acton'ın tarih konusundaki temel tezi nedir?
+answer: Özgürlük ve güç arasındaki çatışma, ilerlemenin ve toplumların evriminin itici gücüdür.
+wrong_answers:
+  - İlerleme doğrusal ve kaçınılmazdır, özgürlük ve eşitlik toplumuna götürür.
+  - Tarih, özgürlük dönemlerini tiranlık dönemlerinin takip ettiği bir tekrar döngüsüdür.
+  - Ekonomik faktörler tarihin akışının ana belirleyicileridir.
+explanation: |
+  Lord Acton, tarihin öncelikle özgürlük ve iktidar arasındaki çatışmayla şekillendiğini savunmakta ve bu mücadelenin ilerleme ve toplumların daha fazla bireysel özgürlüğe doğru evrilmesi için gerekli olduğunu düşünmektedir.
+reviewed: true

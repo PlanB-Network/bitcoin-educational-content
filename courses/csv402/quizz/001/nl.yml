@@ -1,0 +1,9 @@
+question: Wat is een essentieel kenmerk van de afdichtingen voor eenmalig gebruik die in de RGB worden gebruikt?
+answer: Ze kunnen maar één keer worden gesloten
+wrong_answers:
+  - Ze kunnen maar twee keer worden gesloten
+  - Ze garanderen de vertrouwelijkheid van transacties
+  - Ze elimineren de noodzaak voor consensus over Blockchain
+explanation: |
+  Verzegelingen voor eenmalig gebruik maken het mogelijk om unieke cryptografische vastleggingen te maken, waardoor duplicatie of dubbele uitgaven worden voorkomen.
+reviewed: false

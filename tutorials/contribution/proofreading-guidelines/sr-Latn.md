@@ -1,27 +1,27 @@
 ---
 name: Smernice za lekturu
-description: Koji su važni faktori koje treba imati na umu prilikom lekture na Plan ₿ Network?
+description: Koji su važni faktori koje treba imati na umu prilikom lekture na Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Dobrodošli u ovaj vodič o **smernicama koje treba pratiti prilikom lekture sadržaja na Plan ₿ Network**. Drago nam je što delite našu misiju da prevedemo materijale Bitcoin na što više jezika, kako bismo pomogli ljudima da steknu svest o tome kako funkcioniše i kako se može koristiti u njihovom svakodnevnom životu.
+Dobrodošli u ovaj vodič o **smernicama koje treba pratiti prilikom lekture sadržaja na Plan ₿ Academy**. Drago nam je što delite našu misiju da prevedemo materijale Bitcoin na što više jezika, kako bismo pomogli ljudima da steknu svest o tome kako funkcioniše i kako se može koristiti u njihovom svakodnevnom životu.
 
 
-Prvo i najvažnije, doprinos Plan ₿ Network [javnom repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content) daje vam priliku da pišete tutorijale, lektorirate postojeći sadržaj ili čak predložite dodavanje novog jezika na platformu. Da biste saznali više, pridružite se našoj [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) prvo, i napišite kratku prezentaciju o sebi i jezicima koje govorite.
+Prvo i najvažnije, doprinos Plan ₿ Academy [javnom repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content) daje vam priliku da pišete tutorijale, lektorirate postojeći sadržaj ili čak predložite dodavanje novog jezika na platformu. Da biste saznali više, pridružite se našoj [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) prvo, i napišite kratku prezentaciju o sebi i jezicima koje govorite.
 
 
-Ovaj vodič je posvećen saradnicima koji žele da lektorišu sadržaj. Većina njih ne zna mnogo o [Github-u](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ili o [Markdown jeziku](https://www.markdownguide.org/basic-syntax/) koji koristimo unutar repozitorijuma, pa je važno podeliti neka saznanja o ključnim faktorima uključenim u ovaj zadatak.
+Ovaj vodič je posvećen saradnicima koji žele da lektorišu sadržaj. Većina njih ne zna mnogo o [Github-u](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ili o [Markdown jeziku](https://www.markdownguide.org/basic-syntax/) koji koristimo unutar repozitorijuma, pa je važno podeliti neka saznanja o ključnim faktorima uključenim u ovaj zadatak.
 
 
 Ovde sam prikupio najčešće probleme sa kojima se lektori susreću. Slobodno predložite još, jer to može pomoći drugima da se poboljšaju.
 
 
-Pre nego što pređete na detalje, prva stvar koju treba da uradite je da pročitate ovaj vodič o praktičnim akcijama koje treba pratiti na Github-u, forkovanjem Plan ₿ Network repozitorijuma, pravljenjem izmena i slanjem PR-ova:
+Pre nego što pređete na detalje, prva stvar koju treba da uradite je da pročitate ovaj vodič o praktičnim akcijama koje treba pratiti na Github-u, forkovanjem Plan ₿ Academy repozitorijuma, pravljenjem izmena i slanjem PR-ova:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Šta je lektura?
@@ -38,13 +38,13 @@ Uvek zapamtite da je prevođenje/lektorisanje OBRAZOVANJE!
 
 Zapravo, naš zajednički cilj je da edukujemo što više ljudi o Bitcoin, tako da je od suštinskog značaja da materijal koji čitaju bude jasan i razumljiv.
 
-U tom smislu, svi saradnici na Plan ₿ Network su edukatori!
+U tom smislu, svi saradnici na Plan ₿ Academy su edukatori!
 
 
-## Prvi koraci pre lekture na Plan ₿ Network
+## Prvi koraci pre lekture na Plan ₿ Academy
 
 
-Pre nego što započnete novi zadatak lekture, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog Plan ₿ Network koordinatora, koji će otvoriti posvećen [issue](https://github.com/orgs/PlanB-Network/projects/3). Kada dobijete link za issue, jednostavno **komentarišite da započinjete** sa zadatkom lekture tog sadržaja.
+Pre nego što započnete novi zadatak lekture, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog Plan ₿ Academy koordinatora, koji će otvoriti posvećen [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Kada dobijete link za issue, jednostavno **komentarišite da započinjete** sa zadatkom lekture tog sadržaja.
 
 
 Ovaj sistem pomaže koordinatoru da prati napredak unutar repozitorijuma i omogućava da lektor "preuzme" sadržaj, sprečavajući dupliranje napora od strane nekog drugog.
@@ -60,7 +60,7 @@ Prvo i najvažnije, **UVEK zapamtite da SINHRONIZUJETE svoj repo, na "dev" grani
 
 
 
-Nakon uspešnog sinhronizovanja, možete direktno pristupiti sadržaju od interesa i izvršiti promene na novoj grani, kao što je prikazano u ovom [uputstvu](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). U suprotnom, možete otvoriti novu granu na kojoj ćete raditi, klikom na "Branches", kao što je prikazano ispod.
+Nakon uspešnog sinhronizovanja, možete direktno pristupiti sadržaju od interesa i izvršiti promene na novoj grani, kao što je prikazano u ovom [uputstvu](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). U suprotnom, možete otvoriti novu granu na kojoj ćete raditi, klikom na "Branches", kao što je prikazano ispod.
 
 
 
@@ -115,11 +115,11 @@ U ovom drugom slučaju, **uvek uradite istraživanje da vidite da li je neko dru
 
 
 
-- Još jedno dobro rešenje je da zadržite EN originalnu reč/frazu, zatim **kreirate hipervezu** koja preusmerava na [glossary](https://planb.network/en/resources/glossary) na planb.network. Da biste to uradili, potrebno je da umetnete reč/frazu unutar uglastih zagrada, a link unutar okruglih zagrada, kao što možete videti u primeru ispod:
+- Još jedno dobro rešenje je da zadržite EN originalnu reč/frazu, zatim **kreirate hipervezu** koja preusmerava na [glossary](https://planb.academy/en/resources/glossary) na planb.network. Da biste to uradili, potrebno je da umetnete reč/frazu unutar uglastih zagrada, a link unutar okruglih zagrada, kao što možete videti u primeru ispod:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ U konačnom rezultatu (slika ispod) nećete vizualizovati ceo link, a reč će p
 
 
 
-Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.network/resources/glossary/UTXO``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
+Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.academy/resources/glossary/utxo``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
 
 
 Sadržaj u repozitorijumu je pun hiperveza kao što su ove iznad. Sada kada znate šta znače, **pazite da ne obrišete nijednu vezu** koju je umetnuo originalni autor.
 
 
 
-- Još jedna stvar vezana za prikazivanje reči je sledeća. Ako pronađete "Plan ₿ Network" u tekstu, **ostavite ga u ovom originalnom obliku**. Ne prevodite reč "plan" ili reč "network". Takođe, NE koristite član "The" kada predstavljate Plan ₿ Network: **smatrajte ga brendom**.
+- Još jedna stvar vezana za prikazivanje reči je sledeća. Ako pronađete "Plan ₿ Academy" u tekstu, **ostavite ga u ovom originalnom obliku**. Ne prevodite reč "plan" ili reč "network". Takođe, NE koristite član "The" kada predstavljate Plan ₿ Academy: **smatrajte ga brendom**.
 
 
 
@@ -205,7 +205,7 @@ Ispod možete pronaći nekoliko primera problema sa formatiranjem na koje treba 
 
 
 
-- Obratite pažnju na čudnu interpunkciju kao što je `\*\*\`, ili ``**`` što može predstavljati loše prikazivanje simbola za podebljavanje. Na slici ispod, možete videti da su zvezdice samo sa desne strane reči, što izgleda čudno.
+- Obratite pažnju na čudnu interpunkciju kao što je `**`, ili `**` što može predstavljati loše prikazivanje simbola za podebljavanje. Na slici ispod, možete videti da su zvezdice samo sa desne strane reči, što izgleda čudno.
 
 
 
@@ -234,61 +234,73 @@ Obavezno proverite originalnu jezičku datoteku (često EN ili FR) da vidite gde
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Kviz lektura
 
 
-Da li ste znali da možete i lektorisati pitanja za kviz u svakom kursu? Na primer, ako želite da lektorišete kvizove za BTC101 u IT-u, možete otvoriti posebnu granu i pratiti ovaj put: "courses" -> "BTC101" -> "quiz". Tamo ćete pronaći sve foldere posvećene svakom pitanju, zajedno sa pripadajućom jezičkom datotekom u _yml_ formatu.
+Da li ste znali da možete i lektorisati pitanja za kviz u svakom kursu? Na primer, ako želite da lektorišete kvizove za BTC101 u IT-u, možete otvoriti posebnu granu i pratiti ovaj put: "courses" -> "BTC101" -> "quiz". Tamo ćete pronaći sve foldere posvećene svakom pitanju, zajedno sa odgovarajućom jezičkom datotekom u _yml_ formatu.
 
 
 Još jednom, uverite se da ste u posebnoj grani koju otvarate posebno za ovu svrhu, i uvek obavestite koordinatora.
 
 
-Nakon pregleda pitanja, obavezno promenite status "reviewed" sa "false" na "true," kao što je prikazano na slici ispod.
-
+Važna stvar koju treba imati na umu prilikom lekture ove vrste _yml_ datoteke je izbegavanje dodavanja dvotački ``:`` unutar teksta. Zapravo, dvotačka se koristi **samo** za razdvajanje parova ključ-vrednost kao što je "wrong_answers" od ostatka. Primer možete videti na slici ispod:
 
 
 ![REVIEW](assets/en/12.webp)
 
 
-## Lektura korekture rečnika
-
-
-Baš kao i kvizove, možete lektorisati i rečnik. Originalni rečnik je napisan na francuskom, tako da ćete naći rečenice poput: "Na francuskom, ovaj izraz se može prevesti kao..."
-
-
-U slučajevima poput ovog, molimo vas da prilagodite ovu rečenicu vašem ciljanom jeziku ili engleskom.
-
-
-## Druge najbolje prakse
-
-
-
-- Ako treba da pretražujete specifične reči unutar teksta, možete kliknuti na ``CTRL+F`` i pojaviće se deo za pronalaženje-zamenu. Ovaj deo je veoma koristan kada treba da skočite na određeni deo teksta, ili treba da zamenite specifične reči/rečenice u seriji, bez prelistavanja celog sadržaja.
+After reviewing the question, make sure you change the "reviewed" status from "false" to "true," as shown in the image below. Make sure to keep these status words in English, no matter what language you are working on!
 
 
 
 ![REVIEW](assets/en/13.webp)
 
 
-
-Kada koristite funkciju "zameni sve", važno je dvaput proveriti rezultate kako biste osigurali da linkovi nisu takođe izmenjeni. Na primer, ako želite da promenite reč "Bitcoin" u "Bitkoin" (što može biti potrebno u nekim jezicima), korišćenje funkcije "zameni sve" može efikasno ažurirati sve instance u tekstu. Međutim, budite svesni da će ovaj alat takođe izmeniti sve linkove koji sadrže tu reč, što može dovesti do problema sa preusmeravanjem.
-
-
-U primeru ispod, lektor je koristio gorenavedenu funkciju da zameni "Satoshi" sa "Satoshi(Sats)", i takođe promenio link ka tutorijalu koji sadrži samu reč. Kao posledica, link je postao nevažeći.
+Ako nedostaje statusna linija "reviewed:true", obavezno je **dodajte na kraj kviza**.
 
 
-Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tačne.
+## Lektura korekture rečnika
 
+
+Baš kao i kvizove, možete i lektorisati rečnik. Originalni rečnik je napisan na francuskom, tako da ćete naći rečenice poput: "Na francuskom, ovaj izraz se može prevesti kao..."
+
+
+U slučajevima poput ovog, molimo vas da prilagodite rečenicu vašem ciljanom jeziku ili engleskom. Na primer, možete napisati "Na engleskom, ovaj izraz...".
+
+Ako je naslov ostavljen na engleskom, možete prilagoditi rečenicu svom jeziku: "Na svahiliju, ovaj izraz..."
+
+
+DODATNO, UVERITE SE DA SU NASLOVI NAPISANI VELIKIM SLOVIMA.
 
 
 ![REVIEW](assets/en/14.webp)
 
 
+## Naslov i opis vašeg PR-a
 
 
-- Prateći temu, ako autor umetne link koji se odnosi na Plan ₿ Network kurs ili tutorijal (**ne** unutar zagrada), vebsajt će automatski kreirati "kartu" koja prikazuje povezanu sličicu. Kao posledica toga, uvek se uverite da **imate razmak između teksta i samog linka**, inače biste mogli videti sledeću grešku na vebsajtu.
+Kada pošaljete svoj PR, bilo bi sjajno ako ga nazovete koristeći ovaj format: [PROOFREADING] NAZIV SADRŽAJA - JEZIK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Pored toga, u **odeljku za komentare PR-a**, možete napisati "closes" + broj problema koji vam je koordinator poslao kada ste započeli zadatak lekture, prethodno dodajući ``#``.
+
+Na primer, ako ste upravo poslali PR sa lekturom cyp201 + kvizova, možete napisati "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Na ovaj način, PR i problem će biti povezani, i svako ko čita javni Github repozitorijum može lako pronaći informacije.
+
+
+
+## Druge najbolje prakse
+
+
+
+- Ako treba da pretražujete specifične reči unutar teksta, možete kliknuti na ``CTRL+F`` i pojaviće se deo za pronalaženje-zamenu. Ovaj deo je veoma koristan kada treba da skočite na određeni deo teksta, ili treba da zamenite specifične reči/rečenice u seriji, bez listanja celog sadržaja.
 
 
 
@@ -296,10 +308,45 @@ Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tač
 
 
 
+Kada koristite funkciju "zameni sve", važno je dvaput proveriti rezultate kako biste osigurali da linkovi nisu takođe izmenjeni. Na primer, ako želite da promenite reč "Bitcoin" u "Bitkoin" (što može biti potrebno u nekim jezicima), korišćenje funkcije "zameni sve" može efikasno ažurirati sve instance u tekstu. Međutim, budite svesni da će ovaj alat takođe izmeniti sve linkove koji sadrže tu reč, što može dovesti do problema sa preusmeravanjem.
 
 
-- Konačno, još jedna najbolja praksa koju treba primeniti kada završite zadatak lekture i pošaljete PR je da se vratite na originalni problem koji je otvorio koordinator i komentarišete sa "Proofreading done". **Obavezno tamo umetnite i link vašeg PR-a**.
+U primeru ispod, lektor je koristio gorenavedenu funkciju da zameni "Satoshi" sa "Satoshi(Sats)", i takođe je promenio link ka tutorijalu koji sadrži samu reč. Kao posledica, link je postao nevažeći.
 
+
+Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tačne.
+
+
+
+![REVIEW](assets/en/16.webp)
+
+
+
+
+- Prateći temu, ako autor umetne link koji se odnosi na Plan ₿ Academy kurs ili tutorijal (**ne** unutar zagrada), vebsajt će automatski kreirati "kartu" koja prikazuje povezanu sličicu. Kao posledica toga, uvek se pobrinite da **dodate novi red između teksta i samog linka**, inače biste mogli videti sledeću grešku na vebsajtu.
+
+
+
+![REVIEW](assets/en/17.webp)
+
+
+Isto se dešava i sa "kodovima slike" kao što je ovaj ``[IMAGE](asset/fr/001.webp)``: uvek se pobrinite da dodate novi red između koda slike i teksta. Primer ispod:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Zaključak
@@ -311,4 +358,7 @@ Ukratko, biti svestan uobičajenih grešaka lektora može vam zaista pomoći da 
 Uvek imajte na umu da početnik može čitati ove kurseve i tutorijale, tako da je naša odgovornost da osiguramo da oni u potpunosti razumeju. Kao lektor, vi ste edukator!
 
 
-Hvala što ste pročitali ovaj vodič i uživajte u svom putovanju kroz lekturu!
+Sada ste spremni da počnete sa kursevima lekture, tutorijalima, kvizovima i rečima iz rečnika. Ostanite u toku kako biste počeli sa proverom slika i transkripata video zapisa ;)
+
+
+Hvala što ste pročitali ovaj vodič i uživajte u svom putovanju lekture!

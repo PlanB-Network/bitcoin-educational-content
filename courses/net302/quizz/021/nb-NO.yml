@@ -1,0 +1,9 @@
+question: Hvilken TCP-funksjon optimaliserer gjennomstrømningen ved å tilpasse antallet segmenter som sendes uten umiddelbar bekreftelse?
+answer: Det glidende vinduet
+wrong_answers:
+  - Dynamisk fragmentering
+  - Pakkesvitsjing
+  - Statisk ruting
+explanation: |
+  Det "glidende vinduet" gjør det mulig å sende flere segmenter etter hverandre, og endrer deretter rekkevidden for hver bekreftelse for å optimalisere flyten.
+reviewed: false

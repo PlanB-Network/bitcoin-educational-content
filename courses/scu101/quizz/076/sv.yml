@@ -1,0 +1,9 @@
+question: Varför är det rekommenderat att använda slumpmässigt genererade lösenord?
+answer: För att motstå brute-force-attacker.
+wrong_answers:
+  - För att göra dem lättare att komma ihåg.
+  - För att minska deras komplexitet.
+  - För att motstå Sybil-attacker.
+explanation: |
+  Slumpmässighet gör det svårare att gissa sig till lösenord genom att prova sig fram, vilket stärker säkerheten mot brute-force-attacker.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Hur säkerställer Bitcoin-nätverket att det är för kostsamt att agera skadligt inom Bitcoin-protokollet?
+answer: Genom protokollsregler och ekonomiska incitament.
+wrong_answers:
+  - Genom strikt reglering och tillsyn.
+  - Genom användning av avancerade säkerhetsåtgärder.
+  - Genom hot om rättsliga åtgärder.
+explanation: >-
+reviewed: true

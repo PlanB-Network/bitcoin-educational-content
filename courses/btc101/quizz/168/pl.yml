@@ -1,8 +1,8 @@
-question: W jaki sposób Bitcoin może potencjalnie pomóc w transformacji ekologicznej?
-answer: Promuje wykorzystanie energii Green.
+question: Jaki jest jeden ze sposobów na złagodzenie zmienności kursu bitcoina?
+answer: Zabezpieczenia finansowe (stablecoiny).
 wrong_answers:
-  - Zmniejsza to produkcję towarów.
-  - Reguluje zużycie zasobów.
-  - Ogranicza emisję tylko gazów cieplarnianych.
+  - Inwestowanie wszystkich pieniędzy w bitcoina.
+  - Ignorowanie trendów rynkowych.
+  - Zakup większej ilości bitcoina, gdy cena spadnie.
 explanation: >-
 reviewed: true

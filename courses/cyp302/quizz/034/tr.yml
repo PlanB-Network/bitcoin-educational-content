@@ -1,0 +1,9 @@
+question: Sözde rastgele dizgi nedir?
+answer: Tekdüze bir değişkenden geliyor gibi görünen ancak bir genişletme algoritması tarafından üretilen bir dize
+wrong_answers:
+  - Her karakter için aynı olasılıkla oluşturulan bir dize
+  - Doğal rastgele bir olaydan elde edilen sabit uzunlukta bir dize
+  - Yalnızca 0 ve 1 ikili değerlerinden seçilen rastgele bir dize
+explanation: |
+  Sözde rastgele bir dize, aynı uzunluktaki tüm dizeler arasında tekdüze bir seçimi taklit edecek şekilde, daha küçük bir seed'dan bir genişletme algoritması tarafından üretilir.
+reviewed: false

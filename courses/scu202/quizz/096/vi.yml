@@ -1,0 +1,9 @@
+question: Loại giao thức nào nên được kích hoạt để mã hóa các yêu cầu DNS trên quy mô mạng cục bộ?
+answer: Bộ Y tế
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS qua HTTPS) và DoT (DNS qua TLS) mã hóa các yêu cầu DNS, ngăn chặn chúng bị chặn.
+reviewed: false

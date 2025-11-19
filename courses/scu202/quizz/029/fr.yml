@@ -1,0 +1,9 @@
+question: Quelle version d’Ubuntu est recommandée aux débutants pour sa stabilité et la durée de son support ?
+answer: LTS (Long Term Support)
+wrong_answers:
+  - Rolling Release
+  - First version
+  - Alpha Release
+explanation: |
+  La version LTS d’Ubuntu est maintenue cinq ans et offre plus de stabilité, ce qui la rend idéale pour les utilisateurs débutants.
+reviewed: false

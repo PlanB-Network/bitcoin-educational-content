@@ -1,0 +1,9 @@
+question: 如果数据报超过了所经过网络的 MTU，IP 协议会如何处理？
+answer: 他把它分成几块
+wrong_answers:
+  - 它在发送前对整个数据报进行加密
+  - 它总是拒绝并发送错误信息
+  - 他在发送前对其进行了压缩
+explanation: |
+  如果数据报大小超过 MTU，路由器会将其分割成几个适合目标网络的较小数据包。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken åpen kildekode-nettleser, utviklet av en ideell organisasjon, er den ledende eksponenten for Gecko-motoren?
+answer: Mozilla Firefox
+wrong_answers:
+  - Modig
+  - Safari
+  - Krom
+explanation: |
+  Mozilla Firefox, som er utviklet av Mozilla Foundation, er den ledende Gecko-baserte nettleseren, kjent for sin Commitment-holdning til personvern.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wie creëerde het Mt. Gox Exchange platform op 18 juli 2010, een week na de grote slashdotting van Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Hij creëerde deze efficiënte marktplaats in een opwelling, omdat hij zich realiseerde hoe moeilijk het was om Bitcoin in Exchange voor dollars te krijgen (vooral op de Bitcoin Markt).
+reviewed: true

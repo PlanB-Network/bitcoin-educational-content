@@ -1,0 +1,14 @@
+question: Bitcoin ağındaki zorluk ayarlama mekanizmasının amacı nedir?
+answer: Blokların ortalama her 10 dakikada bir çıkarılmasını sağlamak için
+wrong_answers:
+  - Zaman içinde Mining'in zorluğunu artırmak için
+  - Mining'nin zorluğunu zaman içinde azaltmak için
+  - Aynı Miner'ün ardışık blokları kazmamasını sağlamak için
+explanation: |
+  Zorluk ayarlaması, aşağıdaki durumlarda çok önemli bir mekanizmadır
+  gW-4 ağının çalışması, blokların
+  ortalama her 10 dakikada bir çıkarılır. Bu ayarlama
+  mekanizması, yeni bloklar için Mining süresinin
+  sayısından bağımsız olarak zaman içinde sabit kalır
+  madenciler veya ağın genel hesaplama gücü.
+reviewed: true

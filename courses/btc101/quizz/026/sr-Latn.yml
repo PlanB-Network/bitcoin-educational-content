@@ -1,13 +1,10 @@
-question: Zašto zlato ne može dobro da posluje u globalizovanom i digitalnom svetu?
-answer: Zato što mu je potreban centralni entitet da bi bio deljiv i lako zamenljiv.
+question: Zašto se Bitkoin smatra novim oblikom novca?
+answer: Jer je to digitalni novac bez centralnog entiteta.
 wrong_answers:
-  - Zato što nije dovoljno vredno.
-  - Zato što nije dovoljno retko.
-  - Jer vremenom erodira.
+  - Zato što je digitalna valuta podržana zlatom.
+  - Zato što je to valuta koja zahteva banku Blockchain.
+  - Jer tako kažu Federalne rezerve.
 explanation: |
-  Zlato ne može da održi korak u globalizovanom i digitalnom svetu
-  jer mu je potreban centralni entitet da bi bilo deljivo i
-  lako zamenljivo. To ga čini manje praktičnim za korišćenje u
-  svetu gde su transakcije sve više digitalne i
-  decentralizovane.
+  Bitkoin se može posmatrati kao novi oblik novca, jer proizlazi
+  iz peer-to-peer mreže bez centralnog entiteta.
 reviewed: true

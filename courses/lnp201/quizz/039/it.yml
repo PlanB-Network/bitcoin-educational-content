@@ -1,9 +1,9 @@
 question: Cosa succede se un canale con un HTLC attivo viene chiuso forzatamente?
-answer: L'HTLC è incluso nelle transazioni di impegno come un output.
+answer: L'HTLC è incluso nelle commitment transaction come un output
 wrong_answers:
-  - L'HTLC viene automaticamente cancellato.
-  - I fondi vengono ridistribuiti ai nodi precedenti.
-  - Il canale non può essere chiuso fino alla scadenza dell'HTLC.
+  - L'HTLC viene automaticamente cancellato
+  - I fondi vengono ridistribuiti ai nodi precedenti
+  - Il canale non può essere chiuso fino alla scadenza dell'HTLC
 explanation: |
-  Durante una chiusura forzata, gli HTLC in sospeso sono rappresentati come output nelle transazioni di impegno, garantendo così la loro esecuzione o restituzione secondo le condizioni definite.
-reviewed: false
+  Durante una chiusura forzata, gli HTLC in sospeso sono rappresentati come output nelle commitment transaction, garantendo così la loro esecuzione o restituzione secondo le condizioni definite.
+reviewed: true

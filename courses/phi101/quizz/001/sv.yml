@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan historia och filosofi?
+answer: Alla de andra svaren
+wrong_answers:
+  - Historia beskriver det förflutna medan filosofi dömer det
+  - Historia är faktabaserad, medan filosofi är normativ
+  - Historia fokuserar på händelser, medan filosofi fokuserar på begrepp
+explanation: |
+  Skillnaden mellan historia och filosofi ligger i deras respektive tillvägagångssätt: historia koncentrerar sig på att beskriva och analysera tidigare händelser, medan filosofi försöker bedöma, tolka och fastställa normer baserade på abstrakta begrepp.
+reviewed: true

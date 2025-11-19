@@ -1,0 +1,9 @@
+question: IPv6 ters çözümleme için PTR kayıtları hangi DNS bölgesine yerleştirilir?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Ip6.arpa bölgesi özellikle IPv6 adreslerinin ters çözümlemesine ayrılmıştır, in-addr.arpa ise IPv4 için kullanılır.
+reviewed: false

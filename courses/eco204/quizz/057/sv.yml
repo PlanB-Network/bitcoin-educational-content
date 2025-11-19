@@ -1,0 +1,11 @@
+question: Vad heter den serietidning som rekommenderas för den som är nyfiken på den tyska erfarenheten efter första världskriget?
+answer: Rikets bankir
+wrong_answers:
+  - Rikets dollar
+  - Rikets inflation
+  - Rikets ekonomi
+explanation: |
+  För den som är nyfiken på den tyska erfarenheten efter första världskriget
+  rekommenderar föreläsningen serietidningen The Reich's Banker. Den berättar hur Tyskland
+  lyckades övervinna hyperinflationen, bland annat genom skapandet av Rentenmark.
+reviewed: false

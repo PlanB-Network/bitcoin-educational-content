@@ -1,0 +1,9 @@
+question: Loại phần mềm nào được khuyến nghị để tải xuống một cách minh bạch?
+answer: Phần mềm miễn phí
+wrong_answers:
+  - Phần mềm độc quyền
+  - Phần mềm ở phiên bản beta
+  - Phần mềm tích hợp quảng cáo
+explanation: |
+  Phần mềm nguồn mở được khuyến khích sử dụng vì mã của nó có thể được cộng đồng kiểm tra, tăng cường tính bảo mật và minh bạch.
+reviewed: false

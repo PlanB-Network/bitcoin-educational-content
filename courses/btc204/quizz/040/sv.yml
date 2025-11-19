@@ -1,0 +1,9 @@
+question: Varför är bitcoins som köps via P2P-börser ofta dyrare än de som köps på reglerade plattformar?
+answer: Ytterligare risker, transaktionsavgifter och en premie för integritet.
+wrong_answers:
+  - Marknadsvolatilitet, risker för dubbla utgifter och efterlevnad av lagar och regler.
+  - Registreringsavgifter, begränsade alternativ och längre valideringstid.
+  - Registreringsavgifter, strikta regler och låg säkerhet.
+explanation: |
+  Bitcoins som säljs på P2P-plattformar är i allmänhet dyrare än de från reglerade plattformar. Detta påslag beror på flera faktorer: säljaren tar på sig fler risker, de måste också täcka extra kostnader och Exchange erbjuder köparen en högre grad av integritet.
+reviewed: false

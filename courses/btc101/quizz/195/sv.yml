@@ -1,0 +1,10 @@
+question: Vad är ett av sätten att förvärva bitcoins utan KYC?
+answer: Bitcoin ATM.
+wrong_answers:
+  - Plattformar för mäklare.
+  - DCA-plattformar.
+  - Banköverföringar.
+explanation: |
+  I kurstexten nämns att det finns flera sätt att
+  förvärva Bitcoins utan KYC, varav ett är Bitcoin bankomater.
+reviewed: true

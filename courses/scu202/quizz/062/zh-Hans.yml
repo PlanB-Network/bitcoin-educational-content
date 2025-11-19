@@ -1,0 +1,9 @@
+question: 哪种浏览器可通过分散但高延迟的网络重定向流量，从而保证匿名性？
+answer: Tor 浏览器
+wrong_answers:
+  - Mullvad 浏览器
+  - 山猫
+  - LibreWolf
+explanation: |
+  Tor 浏览器依靠 Tor 网络实现匿名浏览，其代价是性能大幅下降。
+reviewed: false

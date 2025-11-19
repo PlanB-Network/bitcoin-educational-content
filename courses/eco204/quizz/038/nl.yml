@@ -1,0 +1,11 @@
+question: Wat is de term voor een bedrijf dat voornamelijk blijft werken door goedkoop te lenen, ondanks het feit dat het insolvent is of bijna failliet gaat onder normale marktomstandigheden?
+answer: Zombiebedrijf
+wrong_answers:
+  - Spookbedrijf
+  - Vampier bedrijf
+  - Fantoomgezelschap
+explanation: |
+  Een zombiebedrijf is een bedrijf dat onder normale marktomstandigheden
+  insolvent of bijna failliet zou zijn, maar voornamelijk blijft opereren door goedkope
+  lenen.
+reviewed: false

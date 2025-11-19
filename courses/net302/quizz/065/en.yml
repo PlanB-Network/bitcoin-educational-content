@@ -1,0 +1,9 @@
+question: Which protocol dynamically assigns lifetimes to automatically distributed IPv6 addresses?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 explicitly manages lifetimes through lease, while NDP announces them in its router configuration messages.
+reviewed: false

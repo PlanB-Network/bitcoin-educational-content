@@ -1,0 +1,9 @@
+question: Vad är den största nackdelen med macOS-ekosystemet?
+answer: Inneslutning och beroende av Apple
+wrong_answers:
+  - För mycket öppenhet i programvaran
+  - Svag grafikoptimering
+  - Brist på uppdateringar
+explanation: |
+  MacOS nära integration med Apples hårdvara leder till beroende och inlåsning i varumärkets egna ekosystem.
+reviewed: false

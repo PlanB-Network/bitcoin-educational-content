@@ -1,0 +1,9 @@
+question: Quel est le principal inconvénient de l’écosystème macOS ?
+answer: Enfermement et dépendance à Apple
+wrong_answers:
+  - Trop grande ouverture logicielle
+  - Faible optimisation graphique
+  - Manque de mises à jour
+explanation: |
+  L’intégration poussée de macOS avec le matériel Apple entraîne une dépendance et un verrouillage à l’écosystème propriétaire de la marque.
+reviewed: false

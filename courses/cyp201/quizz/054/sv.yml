@@ -1,0 +1,9 @@
+question: Vilken är passphrase:s huvudsakliga roll i en Bitcoin HD Wallet?
+answer: Modifiera nyckelderivationen för att förbättra säkerheten
+wrong_answers:
+  - Dekryptera pågående transaktioner
+  - generate och Wallet:s UTXO:er
+  - Skydda Wallet-åtkomst med ansikts-ID
+explanation: |
+  passphrase fungerar som en andra säkerhetsfaktor och ändrar nyckelderivationen seed för att förhindra åtkomst till Wallet om Mnemonic-frasen äventyras.
+reviewed: false

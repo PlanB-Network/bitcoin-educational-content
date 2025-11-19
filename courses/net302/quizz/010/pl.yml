@@ -1,0 +1,9 @@
+question: Który z nowoczesnych protokołów zapewnia funkcjonalność podobną do tej, którą IPv5 miał na celu w zarządzaniu jakością usług sieciowych?
+answer: RSVP
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol) umożliwia dynamiczną rezerwację zasobów sieciowych w celu zagwarantowania jakości usług (QoS), co było pierwotnym celem IPv5.
+reviewed: false

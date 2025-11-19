@@ -1,10 +1,11 @@
-question: Hva handlet blokk-krigen i 2017 om?
-answer: En konflikt om hvorvidt man skulle øke blokkstørrelsen for å øke transaksjonskapasiteten
+question: Hva er HashRate?
+answer: Det totale antallet forsøk på å finne det riktige tallet i Proof of Work.
 wrong_answers:
-  - En konflikt om hvorvidt man skulle redusere blokkstørrelsen for å redusere transaksjonskapasiteten
-  - En konflikt om hvorvidt man skulle øke blokkbelønningen for å motivere gruvearbeidere
-  - En konflikt om hvorvidt man skulle redusere blokkbelønningen for å demotivere gruvearbeidere
+  - Hastigheten som en miner kan løse Proof of Work.
+  - Det totale antallet minere i Bitcoin-nettverket.
+  - Det totale antallet bitcoins som er utvunnet.
 explanation: >-
-  Blokk-krigen i 2017 var en konflikt om hvorvidt man skulle modifisere Bitcoin
-  ved å øke blokkstørrelsen for å øke transaksjonskapasiteten.
+  HashRate refererer til det totale antallet forsøk som minere gjør
+  per sekund for å løse Proof of Work. Det er et mål på den beregningsmessige kraften
+  til Bitcoin-nettverket.
 reviewed: false

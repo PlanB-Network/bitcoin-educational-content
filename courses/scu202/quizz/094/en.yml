@@ -1,0 +1,9 @@
+question: Which project laid the foundations of the modern Internet in the late 1960s?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET was the first interconnected network, designed to link several research centers, and is the direct precursor of the Internet.
+reviewed: false

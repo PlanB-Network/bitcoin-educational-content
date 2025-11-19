@@ -1,0 +1,9 @@
+question: “Iterambere ry’ibiciro ryihishijwe” ni iki mu bijanye n’uburyo bw’amahera bushingiye ku myenda?
+answer: Ni ukwongerekana kw’amahera Supply (hafi 7% ku mwaka) kugabanya umugabane wawe w’agaciro rusangi iyo udashize amahera canke ngo ukure itunga nk’uko bibereye.
+wrong_answers:
+  - Ni ijambo ry’ubutunzi ryemewe ry’inyungu zidahinduka.
+  - Bivuga imibare y’ugutera imbere kw’ibiciro itasohowe n’amabanki akomeye.
+  - Bisigura ko ibiciro bitazokwigera biduga, mbere n’igihe amahera Supply yoba yagutse.
+explanation: |
+  Inflation yihishije ibaho iyo amahera Supply yagutse, bikagabanya ubushobozi bwo kugura bw’amahera azigamiwe. Iyo ubucuruzi butashize amahera canke ngo bukingire ubutunzi bwabwo, burashobora gutakaza agaciro kubera ubwo buryo butekanye bwo guhindura amahera.
+reviewed: false

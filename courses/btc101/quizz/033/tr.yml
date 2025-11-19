@@ -1,0 +1,12 @@
+question: İtibari bir para biriminin değerini düşürmek için merkezi kuruluşlar tarafından kullanılan strateji nedir?
+answer: Parasal kütleyi her yıl yüzde birkaç oranında artırırlar.
+wrong_answers:
+  - Parasal kütlelerini her yıl yüzde birkaç oranında azaltırlar.
+  - Başlangıç kütlesine kıyasla parasal kütlesini sabit tutarlar.
+  - Parasal kütlesi başlangıç kütlesine kıyasla rastgele dalgalanır.
+explanation: |
+  Merkezi kuruluşlar genellikle bir para biriminin değerini artırarak devalüe ederler
+  başlangıçtakine kıyasla yüzde birkaç oranında parasal kütle
+  her yıl. Bu sessiz devalüasyon genellikle şu şekilde gerekçelendirilmektedir
+  halkın menfaatlerine uygun olması.
+reviewed: true

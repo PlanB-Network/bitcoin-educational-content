@@ -1,0 +1,9 @@
+question: Simetrik şifreleme ve şifre çözme işlemlerinde anahtarın rolü nedir?
+answer: Mesajı şifrelemek ve şifresini çözmek için kullanılır
+wrong_answers:
+  - Sadece mesajın şifresini çözmek için kullanılır
+  - Bir mesaj bütünlüğü doğrulama kodu oluşturmak için kullanılır
+  - generate diğer anahtarlar için herkese açık olarak paylaşılır
+explanation: |
+  Simetrik şifreleme şemalarında, aynı özel anahtar hem mesajı gönderirken şifrelemek hem de aldıktan sonra şifresini çözmek için kullanılır.
+reviewed: false

@@ -1,0 +1,10 @@
+question: CoinJoin işlemi nedir?
+answer: Birden fazla kullanıcının UTXO'larını birleştirdiği işbirliğine dayalı bir işlem.
+wrong_answers:
+  - Yalnızca iki kullanıcı arasındaki işbirliğine dayalı bir işlem.
+  - Tek bir kullanıcının birden fazla adrese para gönderdiği bir işlem.
+  - Merkezi bir aktörün müşterilerinin bitcoinlerini karıştırdığı bir işlem.
+explanation: |
+  CoinJoin işlemi, birden fazla kullanıcının coinlerini karıştırdığı ortak bir işlemdir.
+  
+reviewed: false

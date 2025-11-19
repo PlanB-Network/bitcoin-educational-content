@@ -1,27 +1,27 @@
 ---
 name: 校對指引
-description: 在 Plan ₿ Network 上進行校對時要注意哪些重要因素？
+description: 在 Plan ₿ Academy 上進行校對時要注意哪些重要因素？
 ---
 
 ![github](assets/cover.webp)
 
 
-歡迎閱讀本教學，內容關於校對 Plan ₿ Network 上的內容時**應遵循的準則。我們很高興您能認同我們的使命，將 Bitcoin 的資料翻譯成儘可能多的語言，以協助人們瞭解它的運作方式，以及如何在日常生活中使用。
+歡迎閱讀本教學，內容關於校對 Plan ₿ Academy 上的內容時**應遵循的準則**。我們很高興您能認同我們的使命，將 Bitcoin 的資料翻譯成儘可能多的語言，以協助人們瞭解它的運作方式，以及如何在日常生活中使用。
 
 
-首先，貢獻 Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)讓您有機會撰寫教學、校對現有內容，甚至建議在平台上加入新的語言。若要瞭解更多資訊，請先加入我們的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，並寫下關於您和您會說的語言的簡短介紹。
+首先，貢獻 Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)讓您有機會撰寫教學、校對現有內容，甚至建議在平台上加入新的語言。若要瞭解更多資訊，請先加入我們的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，並寫下關於您和您會說的語言的簡短介紹。
 
 
-本教學專門提供給想要校對內容的撰稿人。他們大多不太瞭解 [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我們在儲存庫內部使用的 [Markdown 語言](https://www.markdownguide.org/basic-syntax/)，因此有必要分享一些關於這項工作所涉及的關鍵因素的心得。
+本教學專門提供給想要校對內容的撰稿人。他們大多不太瞭解 [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我們在儲存庫內部使用的 [Markdown 語言](https://www.markdownguide.org/basic-syntax/)，因此有必要分享一些關於這項工作所涉及的關鍵因素的心得。
 
 
 以下是我收集的校對人員最常遇到的問題。歡迎提出更多的建議，因為這可以幫助他人改進。
 
 
-在深入瞭解具體細節之前，首先要做的是閱讀本教學，瞭解在 Github 上應遵循的實際操作：fork Plan ₿ Network 倉庫、提交變更和發送 PR：
+在深入瞭解具體細節之前，首先要做的是閱讀本教學，瞭解在 Github 上應遵循的實際操作：fork Plan ₿ Academy 倉庫、提交變更和發送 PR：
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 什麼是校對？
@@ -38,13 +38,13 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 
 事實上，我們的共同目標是讓盡可能多的人了解 Bitcoin，因此最基本的是讓他們讀到的資料流暢、清晰。
 
-從這個意義上說，Plan ₿ Network 上的所有貢獻者都是教育者！
+從這個意義上說，Plan ₿ Academy 上的所有貢獻者都是教育者！
 
 
-## 在 Plan ₿ Network 上進行校對之前的第一步
+## 在 Plan ₿ Academy 上進行校對之前的第一步
 
 
-在開始新的校對工作之前，請在 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 中公佈，或通知您的 Plan ₿ Network 協調員，他們會開啟專屬的 [issue] (https://github.com/orgs/PlanB-Network/projects/3)。當您收到問題連結時，只需**註明您正開始**該內容的校對工作。
+在開始新的校對工作之前，請在 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 中公佈，或通知您的 Plan ₿ Academy 協調員，他們會開啟專屬的 [issue] (https://github.com/orgs/Plan ₿ Academy/projects/3)。當您收到問題連結時，只需**註明您正開始**該內容的校對工作。
 
 
 此系統可協助協調員追蹤 repo 內的進度，並允許校對員「認領」內容，以防止其他人重複工作。
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 
 
 
-同步成功後，您可以直接存取感興趣的內容，並在新的分支上提交，如本 [教學](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) 所示。否則，您可以點選「分支」開啟一個新的分支，如下圖所示。
+同步成功後，您可以直接存取感興趣的內容，並在新的分支上提交，如本 [教學](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) 所示。否則，您可以點選「分支」開啟一個新的分支，如下圖所示。
 
 
 
@@ -115,11 +115,11 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
-- 另一個好的解決方案是保留 EN 原有的字/詞，然後**建立一個超連結**，重定向到 planb.network 上的 [詞彙表](https://planb.network/en/resources/glossary)。要做到這一點，您需要在方括號內插入單詞/短語，並在圓括弧內插入鏈接，就像您在下面的示例中看到的那樣：
+- 另一個好的解決方案是保留 EN 原有的字/詞，然後**建立一個超連結**，重定向到 planb.network 上的 [詞彙表](https://planb.academy/en/resources/glossary)。要做到這一點，您需要在方括號內插入單詞/短語，並在圓括弧內插入鏈接，就像您在下面的示例中看到的那樣：
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
-請注意，您將從網站取得的詞彙連結，在「network」一詞後面含有語言代碼（例如： ``https://planb.network/en/resources/glossary/UTXO`-> 此處您可以讀取語言代碼「en」）。在這種情況下，**從連結中移除語言代碼**，就像您在上面方塊中看到的那樣。這樣，系統就會自動將讀者帶到他們指定的語言。
+請注意，您將從網站取得的詞彙連結，在「network」一詞後面含有語言代碼（例如： ``https://planb.academy/en/resources/glossary/utxo`-> 此處您可以讀取語言代碼「en」）。在這種情況下，**從連結中移除語言代碼**，就像您在上面方塊中看到的那樣。這樣，系統就會自動將讀者帶到他們指定的語言。
 
 
 資源庫上的內容充滿了像上面這些超連結。現在您知道它們的意思了，**請確定不要刪除原作者插入的任何連結**。
 
 
 
-- 與字彙詮釋相關的另一件事如下。如果您在文中找到「Plan ₿ Network」，請**保留此原始形式**。請勿翻譯「計畫」或「網路」。此外，在介紹 Plan ₿ Network 時，請勿使用「The」一詞： **將其視為一個品牌**。
+- 與字彙詮釋相關的另一件事如下。如果您在文中找到「Plan ₿ Academy」，請**保留此原始形式**。請勿翻譯「計畫」或「網路」。此外，在介紹 Plan ₿ Academy 時，請勿使用「The」一詞： **將其視為一個品牌**。
 
 
 
@@ -205,7 +205,7 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
-- 注意一些奇怪的標點符號，如`\*\*`或``**``，它們可能代表粗體符號的不良渲染。在下面的圖片中，您可以看到星號只出現在單字的右邊，看起來很奇怪。
+- 注意一些奇怪的標點符號，如`**`或`**`，它們可能代表粗體符號的不良渲染。在下面的圖片中，您可以看到星號只出現在單字的右邊，看起來很奇怪。
 
 
 
@@ -234,61 +234,73 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 ![REVIEW](assets/en/11.webp)
 
+## 测验校对
 
 
-## 測驗校對
+您知道您还可以校对每门课程的测验题吗？例如，如果您想校对信息技术 BTC101 的测验，您可以打开一个专门的分支，然后按照以下路径进行操作："课程" -> "BTC101" -> "测验"。在那里，您可以找到每个问题的所有专用文件夹，以及 _yml_ 格式的相关语言文件。
 
 
-您知道您也可以校對每門課程的測驗題嗎？舉例來說，如果您想要校對 IT 課程中 BTC101 的測驗題，您可以開啟一個專屬的分支，並遵循下列路徑："courses" -> "BTC101" -> "quiz"。在那裡，您會找到所有專門針對每個問題的資料夾，以及 _yml_ 格式的相關語言檔案。
+再次，确保您在专门为此目的开设的专用分行，并始终通知协调员。
 
 
-再次確認您是在專門為此目的而開設的專用分行，並務必通知協調員。
-
-
-檢閱問題後，請確認您已將「已檢閱」狀態從「false」變更為「true」，如下圖所示。
-
+在校对这类 _yml_ 文件时，要注意避免在文本中添加冒号 ``:``。事实上，冒号仅**用于分隔 "wrong_answers "等键值对和其他键值对**。下图就是一个例子：
 
 
 ![REVIEW](assets/en/12.webp)
 
 
-## 詞彙校對
-
-
-就像測驗一樣，您也可以校對詞彙表。原版詞彙表是用法文撰寫的，因此您會發現像這樣的句子：「在法語中，這個表達可以翻譯成......」
-
-
-在這種情況下，請將此句子改用您的目標語言，或改用英語。
-
-
-## 其他最佳實踐
-
-
-
-- 如果您需要在文字中搜尋特定的字詞，您可以按一下 ``CTRL+F`` 並顯示尋找取代部分。當您需要跳到文字的特定部分，或需要批次取代特定的字詞/句子，而不需要捲動完整內容時，這部分非常有用。
+审阅问题后，确保将 "已审阅 "状态从 "假 "更改为 "真"，如下图所示。无论您使用哪种语言，都要确保这些状态词使用英语！
 
 
 
 ![REVIEW](assets/en/13.webp)
 
 
-
-使用「全部取代」功能時，請務必仔細檢查結果，以確保連結也沒有被修改。例如，如果您要將「Bitcoin」改成「Bitkoin」（在某些語言中可能是必要的），使用「取代所有」功能可以有效地更新文字中的所有實例。不過，請注意此工具也會修改包含該單字的任何連結，可能會導致重定向問題。
-
-
-在下面的範例中，校對人員使用上述功能將「Satoshi」改成「Satoshi(Sats)」，同時也將連結變更為包含該單字本身的教學。結果，連結變得無效。
+如果缺少状态行 "reviewed:true"，请确保**在测验**的结尾处添加。
 
 
-務必仔細檢查文中的所有超連結，確保它們是正確的。
+## 词汇校对
 
+
+与测验一样，您也可以校对词汇表。最初的词汇表是用法语写的，所以你会发现像这样的句子："在法语中，这个表达可以翻译成......"
+
+
+在这种情况下，请根据目标语言或英语改写句子。例如，您可以写 "在英语中，这个表达......"。
+
+如果标题为英文，您可以根据自己的语言调整句子："在斯瓦希里语中，这个表达......"
+
+
+此外，确保用大写字母书写标题。
 
 
 ![REVIEW](assets/en/14.webp)
 
 
+## PR 的标题和描述
 
 
-- 接著這個主題，如果作者插入指向 Plan ₿ Network 課程或教學的連結（***不在括弧內），網站會自動建立一個顯示相關縮圖的 「卡片」。因此，請務必在文字與連結之間**一個空格，否則您可能會在網站上看到以下錯誤。
+当您发送公关稿时，如果能使用以下格式为其命名，那将会非常棒：[校对] 内容名称 - 语言：
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+此外，在 PR**的**评论部分，您可以写上 "已关闭 "+协调人在您开始校对任务时发送给您的问题编号，前面加上 "#"。
+
+例如，如果您刚刚发送了校对 cyp201 + quizzes 的 PR，您可以写 "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)" 。
+
+
+这样，PR 和问题就会连接起来，无论谁阅读 Github 公共仓库，都能轻松找到相关信息。
+
+
+
+## 其他最佳做法
+
+
+
+- 如果需要搜索文本中的特定词语，可以点击 ``CTRL+F`` ，然后会出现查找-替换部分。当你需要跳转到文本的特定部分，或者需要批量替换特定的单词/句子，而不需要滚动整个内容时，这部分非常有用。
 
 
 
@@ -296,19 +308,57 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
+使用 "全部替换 "功能时，一定要仔细检查结果，确保链接没有被修改。例如，如果您想将单词 "Bitcoin "改为 "Bitkoin"（在某些语言中可能是必要的），使用 "全部替换 "功能可以有效地更新文本中的所有实例。但要注意的是，该工具也会修改包含该单词的任何链接，可能会导致重定向问题。
 
 
-- 最後，當您完成校對工作並傳送 PR 時，另一個最佳做法是回到協調員開啟的原始問題，並註解「校對完成」。 **請務必同時在那裡插入您的 PR 連結**。
+在下面的例子中，校对员使用上述功能将 "Satoshi "替换为 "Satoshi(Sats)"，并将链接改为包含该词本身的教程。结果，链接失效。
+
+
+务必仔细检查文本中的所有超链接，确保其正确无误。
 
 
 
-## 總結
+![REVIEW](assets/en/16.webp)
 
 
-總而言之，瞭解校對人員常犯的錯誤確實可以幫助您在檢查內容時提高技巧。我們很容易忽略上下文或一致性等問題，抓住這些錯誤就能讓情況大不相同。
 
 
-請永遠記住，初學者可能會閱讀這些課程和教學，因此我們有責任確保他們完全理解。身為校對人員，您就是一位教育者！
+- 顺着主题，如果作者插入了指向 Plan ₿ Academy 课程或教程的链接（**不**在括号内），网站会自动创建一个 "卡片"，显示相关缩略图。因此，请务必在文本和链接本身之间**加一行新线**，否则网站可能会出现以下错误。
 
 
-感謝您閱讀本教程，祝您校對之旅愉快！
+
+![REVIEW](assets/en/17.webp)
+
+
+同样的情况也会发生在 "图像代码 "中，例如``[IMAGE](asset/fr/001.webp)``：请确保在图像代码和文本之间添加新行。下面是一个例子：
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
+
+
+## 结论
+
+
+总之，了解校对员的常见错误确实有助于提高您检查内容的技能。我们很容易忽略上下文或一致性等问题，而抓住这些错误就能使情况大为改观。
+
+
+请记住，初学者可能会阅读这些课程和教程，因此我们有责任确保他们完全理解。作为校对人员，您就是一名教育者！
+
+
+现在，您可以开始校对课程、教程、测验和词汇表了。敬请期待，您还可以开始检查图片和视频记录;)
+
+
+感谢您阅读本教程，祝您校对之旅愉快！

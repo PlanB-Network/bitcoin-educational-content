@@ -1,0 +1,9 @@
+question: संस्करण 0.5 के बाद से Bitcoin core के साथ कौन से दो घटक वितरित किए गए हैं?
+answer: Bitcoin-qt और bitcoind
+wrong_answers:
+  - bitcoin-cli और Bitcoin-gui
+  - Bitcoin-Miner और Bitcoin-Wallet
+  - Bitcoin-कोर और Bitcoin-नोड
+explanation: |
+  संस्करण 0.5 से, Bitcoin core में एक ग्राफिकल Interface (Bitcoin-qt) और एक कमांड-लाइन Interface (bitcoind) शामिल है।
+reviewed: true

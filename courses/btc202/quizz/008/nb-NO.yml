@@ -1,0 +1,9 @@
+question: Hva er hovedfunksjonen til en Bitcoin Wallet?
+answer: Oppbevaring og håndtering av private nøkler
+wrong_answers:
+  - Lagre og administrer hele Blockchain
+  - Kontroller blokkens gyldighet
+  - Transaksjoner i relénettverk
+explanation: |
+  En Bitcoin Wallet administrerer de private nøklene som gjør det mulig å bruke bitcoins, men utfører ikke funksjonene til en node.
+reviewed: true

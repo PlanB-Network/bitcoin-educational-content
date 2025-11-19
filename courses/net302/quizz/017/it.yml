@@ -1,0 +1,9 @@
+question: Cosa rappresenta il valore MTU in una rete?
+answer: La dimensione massima del frame che può essere trasmessa senza frammentazione
+wrong_answers:
+  - La capacità massima di memorizzazione di un router senza frammentazione
+  - Il numero massimo di host su una rete senza frammentazione
+  - Lunghezza minima dell'intestazione IP senza frammentazione
+explanation: |
+  L'MTU (Maximum Transmission Unit) definisce la dimensione massima di un frame che può essere trasmesso su un segmento senza richiedere la frammentazione.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale comando può essere usato per verificare attraverso quale Interface e gateway verrebbe instradato un pacchetto verso 8.8.8.8?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> mostra il percorso esatto di un pacchetto per raggiungere una destinazione specifica.
+reviewed: false

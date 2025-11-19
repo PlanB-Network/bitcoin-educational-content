@@ -1,0 +1,9 @@
+question: Ni ikihe kigereranyo kiri muri dosiye ifcfg-eth0 kigaragaza imiterere ya DHCP?
+answer: GUTANGUZA=dhcp
+wrong_answers:
+  - IPADDR=ububiko
+  - GUTANGA=dhcp
+  - IREMBA=dhcp
+explanation: |
+  "BOOTPROTO=dhcp" igaragaza ko Interface ishobora kuronka imiterere yayo biciye ku nzira ya DHCP.
+reviewed: false

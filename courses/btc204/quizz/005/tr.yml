@@ -1,0 +1,9 @@
+question: Bir işlemdeki girdi nedir?
+answer: Daha önce harcanmamış bir UTXO'a referans.
+wrong_answers:
+  - Madencilerden bir onay sinyali.
+  - Blockchain'e yeni bir blok eklendi.
+  - İşlemi güvence altına almak için bir doğrulama kodu.
+explanation: |
+  Her işlem girdisi bir UTXO'ye referanstır, yani önceki bir işlemin çıktısıdır.
+reviewed: false

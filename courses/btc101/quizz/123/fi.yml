@@ -1,9 +1,9 @@
-question: Mikä on ensimmäisen Bitcoin-siirron lohkon numero?
-answer: Lohko 170.
+question: Miksi Bitcoin-siirron vahvistusten määrä on tärkeä?
+answer: Mitä enemmän vahvistuksia siirrolla on, sitä muuttumattomammaksi se tulee.
 wrong_answers:
-  - Lohko 1.
-  - Lohko 17.
-  - Lohko 1700.
-explanation: |
-  Ensimmäinen Bitcoin-siirto, joka oli 10 BTC: n siirto Satoshi Nakamoton ja Hal Finneyn välillä, on kirjattu lohkoon 170.
+  - Mitä enemmän vahvistuksia siirrolla on, sitä arvokkaammaksi se muuttuu.
+  - Mitä enemmän vahvistuksia siirrolla on, sitä nopeammin se käsitellään.
+  - Mitä enemmän vahvistuksia siirrolla on, sitä vähemmän turvallinen se on.
+explanation: >-
+  Bitcoin-siirron vahvistusten määrä kertoo, kuinka monta lohkoa on louhittu siirtoa sisältävän lohkon päälle. Mitä enemmän vahvistuksia siirrolla on, sitä muuttumattomammaksi se tulee.
 reviewed: true

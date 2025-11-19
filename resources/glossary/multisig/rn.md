@@ -1,0 +1,8 @@
+---
+term: Multisig
+---
+
+Multisignature wallets, akenshi zivugwa mu buryo bugufi ngo "Multisig," zigenewe kwongereza umutekano w'ama bitcoins mu gusaba imikono myinshi iva ku mfunguruzo zitandukanye z'ibanga kugira ngo umuntu yemererwe gukoresha amahera. Ubwo buryo buragabanya ingorane hagati y’imfunguruzo nyinshi, ivyo bikaba bifasha kugabanya ingorane zo gutakaza n’ubusuma (bivanye n’imiterere ya Multisig). Amasakoshi ya Multisig akora ku buryo bwa "m-of-n", aho `m` igereranya umubare mutoyi w'imikono isabwa kugira ngo umuntu yemeze igikorwa, kandi `n` ni umubare wose w'imfunguruzo zikoreshwa. Nk’akarorero, ugushiraho 2 kuri 3 bisaba imikono ibiri kuri itatu ishoboka kugira ngo umuntu yemeze ko ikintu yagurishije. Ubwo buryo buratanga umutekano mwiza cane ugereranije n’amasakoshi afise urufunguzo rumwe, ariko kandi burazana ibintu vyinshi bigoranye mu bijanye no kuvyifatamwo neza no kubicungera. Ikindi kandi, amafaranga akoresheje ingingo ngenderwako za kera za Multisig ntabwo ari ay’abantu ku giti cabo kandi arazimvye cane mu mahera kuruta amafaranga asanzwe akoreshwa n’umuntu umwe. Ariko rero, ibintu bishasha biherutse gukorwa nka Taproot be n’ugukoresha ibisobanuro vyitezwe ko bizogabanya, nimba bitazokuraho, izo nzitizi z’ibimenyetso vyinshi.
+
+
+> ► *Abakinnyi bamwebamwe ba bitcoins baratandukanya amajambo "Multisig" na "Ikigereranyo Multisig." Nkako, bamwebamwe bavuga ko Multisig ari n-of-n vy’ukuri, mu gihe Multisig y’imbere ari m-of-n. Ariko rero, mu rurimi rusangi, vyemewe kwerekeza kuri "Multisig" mbere no ku m-of-n.*

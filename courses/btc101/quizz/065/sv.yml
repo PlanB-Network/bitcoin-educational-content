@@ -1,0 +1,12 @@
+question: Vilka är de tre huvudfunktionerna för en Bitcoin Wallet?
+answer: Ta emot bitcoins, skicka bitcoins, säkra dem mot hacking och stöldförsök.
+wrong_answers:
+  - Lagra bitcoins, skicka bitcoins, säkra dem mot hackning och stöldförsök.
+  - Tillåt mottagande av bitcoins, lagra bitcoins, säkra dem mot hacking och stöldförsök.
+  - Tillåt mottagande av bitcoins, tillåt sändning av bitcoins, försäljning av bitcoins.
+explanation: |
+  En Bitcoin Wallet används för att interagera med Bitcoin
+  nätverket. Dess tre huvudfunktioner är att tillåta mottagning
+  bitcoins, tillåta sändning av bitcoins och säkra dem mot
+  hacknings- och stöldförsök.
+reviewed: true

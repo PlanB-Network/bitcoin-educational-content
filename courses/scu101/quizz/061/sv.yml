@@ -1,0 +1,10 @@
+question: Vilka är några av de programmeringsspråk som används inom cybersäkerhet?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  I kapitlet listas Python, C och Java som några av de
+  programmeringsspråk som används inom cybersäkerhet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Who is Saint-Augustin?
+answer: One of the Fathers of the Church.
+wrong_answers:
+  - A philosopher of the Enlightenment.
+  - An astronomer.
+  - An inventor.
+explanation: |
+  Saint Augustine (354-430) is one of the Fathers of the Church. A philosopher and theologian, he profoundly influenced Western Christian thought with works such as 'The Confessions' and 'The City of God'.
+reviewed: false

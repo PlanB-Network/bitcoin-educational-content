@@ -1,0 +1,9 @@
+question: Wat is de primaire betalingsoplossing die wordt aanbevolen voor bedrijven met een essentieel profiel?
+answer: Zwitsers Bitcoin loon
+wrong_answers:
+  - Open knooppunt
+  - BTCPay server
+  - Bitcoinize PoS
+explanation: |
+  We benadrukken Swiss Bitcoin Pay als de aanbevolen oplossing voor een Essential-profiel, waarbij eenvoud en veiligheid in balans zijn.
+reviewed: false

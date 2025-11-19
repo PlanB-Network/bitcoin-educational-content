@@ -1,0 +1,9 @@
+question: UTXO'lar neden sıklıkla banknotlarla karşılaştırılıyor?
+answer: Bütünüyle harcanmalıdırlar
+wrong_answers:
+  - Tükenene kadar birden fazla kez kullanılabilirler
+  - Yalnızca belirli işlemlerde kullanılabilirler
+  - Küçük sabit miktarlardaki bitcoinleri temsil ederler
+explanation: |
+  Bir banknot gibi, bir UTXO da bir işlemde tamamen harcanmalıdır ve fazlası para üstü olarak gönderene iade edilir.
+reviewed: false

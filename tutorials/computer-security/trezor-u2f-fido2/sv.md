@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Stärk din säkerhet på nätet med Trezor
 ---
 ![cover](assets/cover.webp)
@@ -18,11 +18,11 @@ Metoden bygger på asymmetrisk kryptografi: inga hemliga data överförs, vilket
 
 
 
-Förutom U2F, som möjliggör tvåfaktorsautentisering, stöder Trezors även FIDO2 (*Fast IDentity Online 2.0*), en utveckling av U2F. Detta är ett standardiserat autentiseringsprotokoll från 2018, som utökar logiken i U2F och syftar till att helt ersätta lösenord. Det är baserat på två komponenter: *WebAuthn* (webbläsarsidan) och *CTAP2* (sidan med den fysiska nyckeln). FIDO2 möjliggör "lösenordslös" autentisering: användare identifierar sig enbart via sin Trezor-enhet, som fungerar som en unik kryptografisk token, utan ytterligare lösenord. Detta protokoll är nu kompatibelt med ett antal onlinetjänster, särskilt sådana som är inriktade på företag.
+Förutom U2F, som möjliggör tvåfaktorsautentisering, stöder Trezors även FIDO2 (*Fast IDentity Online 2.0*), en utveckling av U2F. Detta är ett standardiserat autentiseringsprotokoll från 2018, som utökar logiken i U2F och syftar till att helt ersätta lösenord. Det är baserat på två komponenter: *WebAuthn* (webbläsarsidan) och *CTAP2* (sidan med den fysiska nyckeln). FIDO2 möjliggör "lösenordslös" autentisering: användare identifierar sig enbart via sin Trezor-enhet, som fungerar som en unik kryptografisk token, utan något ytterligare lösenord. Detta protokoll är nu kompatibelt med ett antal onlinetjänster, särskilt sådana som är inriktade på företag.
 
 
 
-Förutom "lösenordslös*" funktionalitet möjliggör FIDO2 även tvåfaktorsautentisering på liknande sätt som U2F.
+Förutom "lösenordslös" funktionalitet möjliggör FIDO2 även tvåfaktorsautentisering på liknande sätt som U2F.
 
 
 
@@ -34,7 +34,7 @@ I den här guiden får du veta hur du aktiverar U2F eller FIDO2 för tvåfaktors
 
 
 
-**U2F är kompatibel med alla Trezor-modeller, men FIDO2 stöds endast av Safe 3, Safe 5 och Model T, inte Model One.
+**U2F är kompatibel med alla Trezor-modeller, men FIDO2 stöds endast av Safe 3, Safe 5 och Model T, inte Model One.**
 
 
 
@@ -118,7 +118,7 @@ Du kan sedan trycka på din Trezor-skärm för att bekräfta autentiseringen.
 
 
 
-Fördelen med att använda en Hardware Wallet Trezor för tvåfaktorsautentisering är att du enkelt kan återställa dina nycklar tack vare Mnemonic-frasen. Utöver denna grundläggande säkerhetskopia kan du också använda en nödkod som tillhandahålls av varje tjänst där du har aktiverat 2FA. Med den här nödkoden kan du ansluta till ditt konto om du tappar bort din säkerhetsnyckel. Den ersätter därför 2FA för en anslutning vid behov.
+Fördelen med att använda en Hardware Wallet Trezor för tvåfaktorsautentisering är att du enkelt kan återställa dina nycklar tack vare Mnemonic-frasen. Utöver denna grundläggande säkerhetskopia kan du också använda en nödkod som tillhandahålls av varje tjänst där du har aktiverat 2FA. Med den här nödkoden kan du ansluta till ditt konto om du tappar bort din säkerhetsnyckel. Den ersätter därför 2FA för en anslutning om det behövs.
 
 
 
@@ -134,7 +134,7 @@ Jag rekommenderar att du förvarar den här koden på en annan plats än där du
 
 
 
-Detta tillvägagångssätt ger dig två nivåer av säkerhetskopiering i händelse av förlust av din Trezor för 2FA-autentisering: en första säkerhetskopiering med Mnemonic-frasen för alla dina konton och en andra specifik för varje konto med nödkoderna. Det är dock viktigt att **inte förväxla Mnemonic:s roll med nödkodens** :
+Detta tillvägagångssätt ger dig två nivåer av säkerhetskopiering i händelse av förlust av din Trezor för 2FA-autentisering: en första säkerhetskopiering med Mnemonic-frasen för alla dina konton och en andra specifik för varje konto med nödkoderna. Det är dock viktigt att **inte förväxla Mnemonic:s roll med nödkodens**:
 
 
 
@@ -216,7 +216,7 @@ Från och med nu är det inte längre nödvändigt att ange din e-post Address e
 
 
 
-Bekräfta anslutningen till din Trezor genom att ange din PIN-kod Hardware Wallet.
+Bekräfta anslutningen till din Trezor genom att ange din Hardware Wallet PIN-kod.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Ersätt helt enkelt `<CREDENTIAL_ID>` med en av dina identifierare. I mitt fall skulle detta till exempel ge :
+Ersätt helt enkelt `<CREDENTIAL_ID>` med en av dina identifierare. I mitt fall skulle detta till exempel ge:
 
 
 
@@ -353,4 +353,4 @@ Jag skulle också rekommendera den här andra handledningen, där vi tittar på 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

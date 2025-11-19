@@ -1,0 +1,9 @@
+question: Taproot과 함께 Bitcoin에 도입된 서명 알고리즘은 무엇인가요?
+answer: 슈노르 서명 체계
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  슈노르 서명 체계는 2021년 11월 Taproot 업데이트와 함께 도입되었습니다.
+reviewed: false

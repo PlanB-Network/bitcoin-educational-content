@@ -1,0 +1,9 @@
+question: Wat is de capaciteit van een betalingskanaal?
+answer: Het totale bedrag aan fondsen dat de twee deelnemers kunnen Exchange
+wrong_answers:
+  - De tijdslimiet waarbinnen het kanaal open kan blijven staan
+  - Het maximale bedrag dat een deelnemer in een enkele transactie kan verzenden
+  - Het aantal transacties dat een kanaal per dag kan ondersteunen
+explanation: |
+  De capaciteit van het kanaal komt overeen met de totale fondsen van de twee deelnemers en blijft vast om de mogelijke uitwisselingen te bepalen.
+reviewed: false

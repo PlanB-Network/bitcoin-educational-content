@@ -1,13 +1,13 @@
-question: What is one of the potential applications of the Lightning Network in everyday life?
-answer: Instant billing in commerce.
+question: What is a DCA platform?
+answer: A service that enables users to invest a fixed amount of money into an asset at regular intervals.
 wrong_answers:
-  - Mining new Bitcoins.
-  - Creating new cryptocurrencies.
-  - Increasing the value of Bitcoin.
-explanation: >-
-  The Lightning Network opens the door to a wide range of potential
-  applications
-  for Bitcoin that were previously out of reach due to the constraints necessary to
-  ensure the security and decentralization of Bitcoin. Among these applications in
-  everyday life, we can mention instant billing in commerce.
+  - A type of cryptocurrency exchange that only allows trading of Bitcoin.
+  - A financial service that provides loans to investors for margin trading.
+  - A software tool that tracks stock prices in real-time without any investment features.
+explanation: |
+  A DCA platform refers to a platform that facilitates
+  Dollar-Cost Averaging (DCA), an investment strategy where
+  an individual invests a fixed amount of money into a
+  particular asset at regular intervals, regardless of the
+  asset's price.
 reviewed: true

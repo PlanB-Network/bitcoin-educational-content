@@ -1,0 +1,9 @@
+question: Mikä organisaatio antaa IP-protokollan versionumerot?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) hallinnoi IP-protokollan versionumeroiden Assignment:ta ja protokolla-alueiden jakamista.
+reviewed: false

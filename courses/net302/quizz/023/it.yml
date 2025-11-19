@@ -1,0 +1,9 @@
+question: Come si chiama la procedura di creazione della connessione in più fasi nel protocollo TCP?
+answer: Stretta di mano a tre vie
+wrong_answers:
+  - Stretta di mano a quattro vie
+  - Finestra scorrevole
+  - Processo di checksum
+explanation: |
+  L'handshake a tre vie sincronizza i numeri di sequenza tra client e server prima di qualsiasi Exchange di dati di payload.
+reviewed: false

@@ -1,13 +1,11 @@
-question: Bitcoin Wallet 中的 Mnemonic 詞組是什麼？
-answer: 由 12 或 24 個字組成的清單，可讓您存取您的 bitcoins。
+question: 使用 Bitcoin Wallet 安全花費資金的技術是什麼？
+answer: 橢圓曲線密碼學。
 wrong_answers:
-  - 存取 Bitcoin Wallet 的選定密碼。
-  - 加密 Bitcoin 交易的代碼。
-  - 可在需要時銷毀 Bitcoin Wallet 的秘密恢復詞組。
+  - 對稱密碼學。
+  - 量子密碼學。
+  - RSA 加密技術。
 explanation: |
-  自 2017 年起，私人密碼匙可編碼為一個簡單的清單
-  12 或 24 個單詞，稱為 Mnemonic 詞組。此短語
-  是您的 Bitcoin Wallet 的備份，因此它允許您使用任何 Bitcoin Wallet
-  使用任何 Bitcoin Wallet
-  軟體/應用程式存取您的比特幣。
+  使用比特幣需要擁有者使用橢圓曲線
+  數位簽章演算法 (ECDSA) 來偽造簽章
+  以傳播 Bitcoin 交易。
 reviewed: true

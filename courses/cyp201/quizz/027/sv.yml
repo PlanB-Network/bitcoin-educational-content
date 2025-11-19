@@ -1,0 +1,9 @@
+question: Vilken ECDSA-signatursårbarhet korrigerades av SegWit?
+answer: Formbarhet
+wrong_answers:
+  - Batchverifiering
+  - Bristande aggregering
+  - Alltför stora signaturer
+explanation: |
+  SegWit korrigerade ECDSA-signaturernas formbarhet, vilket möjliggjorde användningar som Lightning Network.
+reviewed: false

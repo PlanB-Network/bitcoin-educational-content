@@ -1,0 +1,9 @@
+question: Vad är Jacques Rueffs huvudargument när det gäller valuta?
+answer: Papperspengar är farliga och leder till dirigism
+wrong_answers:
+  - Papperspengar är stabila och förutsägbara
+  - Papperspengar är nödvändiga för ekonomisk utveckling
+  - Papperspengar måste backas upp av fysiska tillgångar
+explanation: |
+  Jacques Rueff ansåg att papperspengar, genom att underlätta myndigheternas kontroll av ekonomin, gynnade dirigism och utgjorde en risk för den monetära stabiliteten.
+reviewed: true

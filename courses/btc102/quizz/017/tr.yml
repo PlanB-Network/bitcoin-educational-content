@@ -1,0 +1,9 @@
+question: Madencilik (mining) ödülünün programlı olarak bölünmesini ifade eden terim nedir?
+answer: Halving (Yarılanma)
+wrong_answers:
+  - Fork
+  - İkiye ayırma
+  - Coinbase
+explanation: |
+  Halving, her 210.000 blokta bir Mining sübvansiyonunun Halving'ünü ifade eder.
+reviewed: false

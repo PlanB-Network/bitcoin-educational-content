@@ -1,0 +1,9 @@
+question: Jaká je hlavní chyba služby Signal, pokud jde o anonymitu?
+answer: Vyžaduje použití telefonního čísla
+wrong_answers:
+  - Není to open source
+  - Ukládá zprávy na centrálním serveru
+  - Nešifruje vyměňované soubory
+explanation: |
+  Signál vyžaduje k registraci telefonní číslo, což přináší možnost vysledovatelnosti, přestože protokol zajišťuje silné šifrování.
+reviewed: false

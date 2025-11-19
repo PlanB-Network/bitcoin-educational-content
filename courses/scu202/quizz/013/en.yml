@@ -1,0 +1,9 @@
+question: What project was initiated in 1983 to create an entirely free operating system?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System project
+  - Open Source Initiative
+explanation: |
+  Richard Stallman launched the GNU project in 1983 to develop a totally free operating system.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Który termin odnosi się do pierwszych trzech bajtów MAC Address?
+answer: OUI (niepowtarzalny identyfikator organizacyjny)
+wrong_answers:
+  - SID (identyfikator sesji)
+  - LUI (lokalny unikatowy identyfikator)
+  - PAN (fizyczny numer Address)
+explanation: |
+  OUI jest przypisywany przez IEEE i identyfikuje producenta karty sieciowej w MAC Address.
+reviewed: false

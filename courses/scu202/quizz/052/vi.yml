@@ -1,0 +1,9 @@
+question: Nên thực hiện những biện pháp nào trước khi chia sẻ tệp trực tuyến hoặc qua email?
+answer: Dọn sạch tất cả siêu dữ liệu
+wrong_answers:
+  - Mã hóa tất cả siêu dữ liệu
+  - Xác thực tất cả siêu dữ liệu
+  - Đổi tên tất cả siêu dữ liệu
+explanation: |
+  Việc dọn dẹp siêu dữ liệu ngăn chặn việc tiết lộ thông tin nhạy cảm một cách vô tình khi chia sẻ tệp.
+reviewed: false

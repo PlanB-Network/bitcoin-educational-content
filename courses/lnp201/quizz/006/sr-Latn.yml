@@ -1,9 +1,9 @@
-question: Šta je UTXO u kontekstu Bitcoin?
-answer: Deo neprotraćenih bitkoina povezanih sa skriptom
+question: Šta je UTXO u kontekstu Bitcoin-a?
+answer: Deo nepotrošenih bitkoina povezanih sa skriptom
 wrong_answers:
-  - Potpuno potvrđena transakcija na Blockchain
+  - Potpuno potvrđena transakcija na Blockchain-u
   - Javni ključ koji generiše Bitcoin adrese
-  - Iznos Bitcoin podeljen na više delova
+  - Iznos bitkoina podeljen na više delova
 explanation: |
-  UTXO, ili Neutrošeni Izlaz Transakcije, je neutrošeni izlaz transakcije, koji predstavlja određenu količinu bitkoina koju vlasnik može koristiti.
-reviewed: false
+  UTXO, ili neutrošeni izlaz transakcije, je neutrošeni izlaz transakcije, koji predstavlja određenu količinu bitkoina koju vlasnik može koristiti.
+reviewed: true

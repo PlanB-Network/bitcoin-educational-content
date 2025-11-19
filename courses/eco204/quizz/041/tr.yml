@@ -1,0 +1,15 @@
+question: Yeniden değerlemenin Address yapmadığı hiperenflasyonun altında yatan neden nedir?
+answer: Paranın genişlemesi Supply.
+wrong_answers:
+  - Para Supply'deki düşüş.
+  - Mal ve hizmet talebindeki artış.
+  - Mal ve hizmetlere olan talebin azalması.
+explanation: |
+  Hiperenflasyonun temel nedeni Supply parasının genişlemesidir.
+  
+  Yeniden değerleme, enflasyon dönemlerinde hükümetler tarafından alınan yaygın bir önlemdir,
+  
+  ancak temelde yatan bu sorunu çözmez. Bu sadece para birimini yeniden adlandırmanın bir yoludur
+  
+  ve sıfırları kaldırın.'
+reviewed: false

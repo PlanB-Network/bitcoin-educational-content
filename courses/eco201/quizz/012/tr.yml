@@ -1,0 +1,13 @@
+question: Bölümde bahsedilen Bitcoin kursunun temel amacı nedir?
+answer: Kursun temel amacı, yeni Bitcoin meraklılarını sağlam ekonomik ilkeler konusunda eğitmektir.
+wrong_answers:
+  - Kursun temel amacı, yeni Bitcoin meraklılarına Bitcoin madenciliğinin nasıl yapılacağını öğretmektir.
+  - Kursun birincil amacı, yeni Bitcoin meraklılarına Bitcoin'e nasıl yatırım yapılacağını öğretmektir.
+  - Kursun temel amacı, yeni Bitcoin meraklılarına kendi kripto paralarını nasıl yaratacaklarını öğretmektir.
+explanation: |
+  Kurs, yeni Bitcoin meraklılarını şu konularda eğitmeyi amaçlamaktadır
+  ekonominin temel ilkeleri, özellikle de
+  avusturya Ekonomi Okulu'nun bir parçasıdır. Bu bilgi
+  değerini ve potansiyelini anlamak için çok önemlidir
+  Geleneksel para sistemlerine alternatif olarak Bitcoin.
+reviewed: true

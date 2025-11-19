@@ -1,0 +1,13 @@
+question: Wat is de fundamentele missie van Bitcoin?
+answer: Een censuurbestendig Exchange netwerk zijn.
+wrong_answers:
+  - Om traditionele valuta te vervangen.
+  - Transacties anoniem maken.
+  - Een nieuwe vorm van investering creëren.
+explanation: |
+  De fundamentele missie van Bitcoin is om een
+  censuurbestendig Exchange netwerk te zijn. De Bitcoin
+  gemeenschap streeft voortdurend naar versterking van
+  distributie, censuurbestendigheid en de anti-fragiliteit
+  van het netwerk te versterken.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vad är schweizisk Bitcoin-lön?
+answer: En lösning för amatörhandlare att acceptera Bitcoin.
+wrong_answers:
+  - En schweizisk bank som tar emot Bitcoin.
+  - En Bitcoin Exchange från Schweiz.
+  - Ett Mining-företag som är verksamt i Schweiz.
+explanation: >-
+reviewed: true

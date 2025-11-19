@@ -1,0 +1,9 @@
+question: Koji grafički softver se može koristiti za pružanje detaljne edukativne analize uhvaćenih mrežnih paketa?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Ruta
+explanation: |
+  Wireshark je grafički analizator paketa za detaljno ispitivanje uhvaćenog mrežnog saobraćaja.
+reviewed: false

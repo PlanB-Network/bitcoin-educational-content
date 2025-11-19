@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan distribusi Linux?
+answer: Sistem operasi lengkap yang dibangun di sekitar kernel Linux
+wrong_answers:
+  - Manajer paket
+  - Lingkungan desktop Linux
+  - Skrip instalasi otomatis untuk sistem operasi Linux
+explanation: |
+  Distribusi Linux mengintegrasikan kernel, peralatan sistem, perangkat lunak, bootloader, dan manajemen paket untuk menyediakan sistem yang siap digunakan.
+reviewed: false

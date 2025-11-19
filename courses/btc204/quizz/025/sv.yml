@@ -1,0 +1,9 @@
+question: Vad är KYC?
+answer: Ett förfarande för att verifiera och registrera kundernas identitet.
+wrong_answers:
+  - Ett kryptografiskt system för att säkra finansiella transaktioner.
+  - En valideringsmetod för finansiella transaktioner.
+  - En marknadsföringsteknik för att analysera kundbeteende.
+explanation: |
+  KYC står för Know Your Customer (känn din kund). Det är verkligen ett regleringsförfarande för att verifiera kundens identitet.
+reviewed: false

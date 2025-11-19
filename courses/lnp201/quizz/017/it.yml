@@ -1,9 +1,9 @@
-question: Cosa succede se Bob invia una fattura ad Alice per 30.000 satoshi?
-answer: Alice crea una transazione di impegno per trasferire 30.000 satoshi a Bob nel canale.
+question: Cosa succede se Bob invia ad Alice un'invoice per 30.000 satoshi?
+answer: Alice crea una commitment transaction per trasferire 30.000 satoshi a Bob nel canale.
 wrong_answers:
   - Alice deve aprire un nuovo canale per effettuare questo trasferimento.
-  - Bob riceve automaticamente i 30.000 satoshi nel suo portafoglio.
-  - La fattura viene pagata tramite una transazione on-chain su Bitcoin.
+  - Bob riceve automaticamente i 30.000 satoshi nel suo wallet.
+  - L'invoice viene pagata tramite una transazione on-chain su Bitcoin.
 explanation: |
-  Quando Bob invia una fattura ad Alice, lei crea e firma una nuova transazione di impegno per aggiustare la distribuzione dei fondi, trasferendo così 30.000 satoshi nel canale.
-reviewed: false
+  Quando Bob invia un'invoice ad Alice, lei crea e firma una nuova commitment transaction per aggiornare la distribuzione dei fondi, trasferendo così 30.000 satoshi nel canale.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wat is OpenNode?
+answer: Een eenvoudige online oplossing voor bedrijven om Bitcoin te accepteren.
+wrong_answers:
+  - Een type Bitcoin knooppunt dat gelijktijdig door veel gebruikers wordt gebruikt.
+  - Een Bitcoin Mining software die open-source is.
+  - Een Bitcoin Exchange platform.
+explanation: >-
+reviewed: true

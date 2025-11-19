@@ -1,0 +1,9 @@
+question: Šta je prva stvar koju treba da uradite kako biste osigurali pristup svom ličnom računaru?
+answer: Postavite jaku lozinku za sesiju
+wrong_answers:
+  - Instaliranje antivirusa
+  - Konfigurisanje UFW vatrozida
+  - Omogući šifrovanje diska
+explanation: |
+  Lozinka sesije je prva sigurnosna barijera za sprečavanje neovlašćenog pristupa vašem uređaju, pre bilo kojih drugih dodatnih mera.
+reviewed: false

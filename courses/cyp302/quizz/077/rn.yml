@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe ingingo ngenderwako ya Kerckhoff ifise mu bijanye n’ugukora amakuru y’ibanga?
+answer: Kugira ngo umutekano wishingikirije ku rufunguzo rw’ibanga, atari ku ibanga ry’umugambi .
+wrong_answers:
+  - Kugira ngo umutekano wishingikirije ku banga ry’umugambi, atari ku rufunguzo rw’ibanga .
+  - Gusaba urufunguzo rurerure cane rwo gupfuka
+  - Kugira ngo umenye neza ko ubutumwa bwose bufise urufunguzo rwihariye
+explanation: |
+  Dushingiye ku ngingo ya Kerckhoff, umutekano w’urutonde rw’amakuru y’ibanga ukwiye kwizigira gusa urufunguzo rw’ibanga, atari ku banga ry’urutonde rw’amakuru ubwarwo.
+reviewed: false

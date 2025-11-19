@@ -1,0 +1,9 @@
+question: Kuka ylläpitää Bitcoin Knots-hanketta?
+answer: Luke Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots:tä ylläpitää Luke Dashjr, ja se toimii ensisijaisena vaihtoehtoisena asiakkaana Bitcoin core:lle.
+reviewed: true

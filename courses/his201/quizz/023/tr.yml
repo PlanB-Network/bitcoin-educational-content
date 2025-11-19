@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 31 Ekim 2008'de Bitcoin beyaz kağıdını nerede yayınladı?
+answer: Kriptografi posta listesi
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Cypherpunks posta listesinin halefi olan bu e-posta posta listesi 1996 yılından beri geliştirici Perry Metzger tarafından yönetilmektedir.
+reviewed: true

@@ -4,9 +4,9 @@ description: Acheter et vendre des bitcoins sur Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
-Bull Bitcoin est une plateforme d’échange Bitcoin-only fondée en 2013 au Canada par Francis Pouliot, une figure emblématique de l’écosystème Bitcoin. La philosophie de Bull Bitcoin est d'offrir aux utilisateurs des outils de souveraineté et d’émancipation financière. La plateforme d'échange est non-dépositaire, ce qui signifie que vous restez toujours souverain sur vos bitcoins.
+Bull Bitcoin est une plateforme spécialement conçue pour l'échange de Bitcoin, créée en 2013 au Canada par Francis Pouliot, une figure emblématique de l’écosystème Bitcoin. La philosophie de Bull Bitcoin est d'offrir aux utilisateurs des outils de souveraineté et d’émancipation financière. La plateforme d'échange est non-dépositaire, ce qui signifie que vous restez toujours souverain sur vos bitcoins.
 
-Initialement disponible uniquement au Canada, la plateforme est maintenant disponible en Europe et dans de nombreux autres pays, avec une toute nouvelle interface optimisée. Cette nouvelle version de Bull Bitcoin vous permet d'acheter et de vendre des bitcoins de manière simple et rapide grâce à l'utilisation de Lightning et des virements SEPA instantanés. Elle intègre également le paiement de factures en bitcoins. À termes, la plateforme va également intégrer des options de DCA, d'achats automatiques ou encore d'ordres limites.
+Initialement accesible uniquement au Canada, la plateforme est maintenant disponible en Europe et dans de nombreux autres pays, avec une toute nouvelle interface optimisée. Cette nouvelle version de Bull Bitcoin vous permet d'acheter et de vendre des bitcoins de manière simple et rapide grâce à l'utilisation de Lightning et des virements SEPA instantanés. Elle intègre également le paiement de factures en bitcoins. À termes, la plateforme va également intégrer des options de DCA, d'achats automatiques ou encore d'ordres limites.
 
 Bull Bitcoin met un point d’honneur à fournir un service transparent et sans frais cachés. Notons que comme la plupart des plateformes d'échange, l'utilisation de Bull Bitcoin requiert de réaliser un KYC (procédure d'identification des clients).
 
@@ -48,7 +48,7 @@ Scannez le QR code avec votre application d'authentification, saisissez le code 
 
 Si vous n'êtes pas familiarisé avec l'utilisation des applications d'authentification pour le 2FA, je vous recommande de consulter ce tutoriel sur l'application Authy :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Entrez votre mot de passe pour confirmer.
 
@@ -123,9 +123,9 @@ Indiquez le montant que vous souhaitez acheter. Vous devrez également choisir l
 
 Si vous n'êtes pas familier avec l'utilisation des portefeuilles Bitcoin, Lightning ou Liquid, je vous suggère de suivre notre formation dédiée :
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Vous pouvez aussi explorer [nos tutoriels détaillés sur les meilleurs portefeuilles Bitcoin](https://planb.network/tutorials/wallet).
+Vous pouvez aussi explorer [nos tutoriels détaillés sur les meilleurs portefeuilles Bitcoin](https://planb.academy/tutorials/wallet).
 
 Confirmez ensuite votre achat en cliquant sur "*Confirm Buy*".
 
@@ -192,9 +192,17 @@ Pour suivre toutes vos opérations, vous pouvez consulter l'historique dans le m
 
 ![BULL](assets/fr/36.webp)
 
+## Lancer un achat récurrent automatique (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Créer un ordre limite
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Vous savez maintenant comment acheter et vendre du bitcoin facilement avec Bull Bitcoin. Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de mettre un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
 
 Je vous conseille également de découvrir cet autre tutoriel complet pour apprendre à gérer votre phrase mnémonique de la bonne manière :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 

@@ -1,10 +1,12 @@
-question: Apa itu b-money milik Wei Dai?
-answer: Sebuah ide tentang mata uang digital anonim di mana deteksi penipuan dilakukan oleh komunitas evaluator daripada otoritas pusat.
+question: Apa peran uang sebagai alat komunikasi?
+answer: Ini memungkinkan komunikasi nilai melintasi ruang dan waktu tanpa perlu mempercayai pihak lawan
 wrong_answers:
-  - Sebuah mata uang digital yang banyak digunakan sebelum Bitcoin.
-  - Bentuk uang digital yang diciptakan oleh CIA.
-  - Sebuah mata uang digital yang diciptakan oleh Wei Dai sebagai pesaing Bitcoin.
+  - Ini memungkinkan komunikasi nilai melintasi ruang saja tanpa perlu mempercayai pihak lawan
+  - Ini memungkinkan komunikasi nilai melintasi waktu saja tanpa perlu mempercayai pihak lawan
+  - Ini memungkinkan komunikasi nilai melintasi ruang dan waktu dengan perlu mempercayai pihak lawan
 explanation: |
-  b-money milik Wei Dai adalah ide tentang mata uang digital anonim tanpa entitas pusat,
-  yang sangat menginspirasi Bitcoin sebagaimana dikutip dalam whitepaper Bitcoin.
+  Uang sebagai alat komunikasi memungkinkan komunikasi melintasi ruang dan waktu, saat kita mengubah waktu dan energi kita menjadi aset yang dapat digunakan kembali
+  di masa depan tanpa risiko devaluasi. Ini juga memungkinkan komunikasi dalam
+  bahasa umum universal, memungkinkan dua orang asing untuk bertukar, berdagang, dan setuju
+  pada nilai suatu hal.
 reviewed: true

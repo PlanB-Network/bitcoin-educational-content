@@ -1,0 +1,9 @@
+question: Welke versie van Ubuntu wordt aanbevolen voor beginners vanwege de stabiliteit en de lange ondersteuningsperiode?
+answer: LTS (langdurige ondersteuning)
+wrong_answers:
+  - Rolling Release
+  - Eerste versie
+  - Alfa-uitgave
+explanation: |
+  De LTS-versie van Ubuntu wordt vijf jaar lang onderhouden en biedt meer stabiliteit, waardoor het ideaal is voor beginnende gebruikers.
+reviewed: false

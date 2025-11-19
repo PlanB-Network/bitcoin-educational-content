@@ -1,0 +1,9 @@
+question: Ku RGB, ni kuki ari vyiza gukoresha Tapret aho gukoresha Opret ku masezerano?
+answer: Kugira ngo bigabanye ukuboneka no kwirinda gucengera
+wrong_answers:
+  - Kugira ngo ugabanye igiciro c'ugucuruza
+  - Kubera ko OP_RETURN idahuye n’umuravyo .
+  - Kugira ngo wongere ubunini bw'amasezerano
+explanation: |
+  Tapret iragufasha gushiramwo amasezerano mu buryo bw’ubukerebutsi, bitandukanye na OP_RETURN, ivyo bikaba bituma ahita aboneka kandi akagenzurwa.
+reviewed: false

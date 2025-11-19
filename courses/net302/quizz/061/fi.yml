@@ -1,0 +1,9 @@
+question: Mikä on anycast Address IPv6:ssa?
+answer: Address, joka on määritetty useille solmuille
+wrong_answers:
+  - Address, joka on tarkoitettu maailmanlaajuiseen monilähetykseen
+  - Address, joka muuttuu jokaisen uudelleenkäynnistyksen yhteydessä
+  - Address on varattu tekniselle dokumentaatiolle
+explanation: |
+  Anycast Address on määritetty useille laitteille, ja reititys toimittaa paketin topologisesti lähimpänä olevalle laitteelle.
+reviewed: false

@@ -2,8 +2,8 @@ question: Quale criterio può aiutare un nodo a scegliere un percorso di pagamen
 answer: La probabilità di successo basata sulla capacità totale dei canali
 wrong_answers:
   - La distanza geografica tra i nodi
-  - La presenza di nodi con un livello di commissione basso
+  - La presenza di nodi con fee basse
   - Il numero di pagamenti effettuati dal nodo destinatario
 explanation: |
-  La capacità totale dei canali può indicare una maggiore probabilità di successo, poiché suggerisce una maggiore disponibilità di liquidità per le transazioni.
-reviewed: false
+  La capacità totale dei canali può indicare una maggiore probabilità di successo, poiché suggerisce una liquidità maggiore, disponibile per le transazioni.
+reviewed: true

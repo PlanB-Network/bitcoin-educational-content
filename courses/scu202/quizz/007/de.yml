@@ -1,0 +1,9 @@
+question: Welches System zeichnet sich durch sein Open-Source- und Community-basiertes Modell aus?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux ist frei und wird von einer weltweiten Gemeinschaft entwickelt, die Transparenz, Sicherheit und Flexibilität für den Benutzer garantiert.
+reviewed: false

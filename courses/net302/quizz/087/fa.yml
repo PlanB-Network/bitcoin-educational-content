@@ -1,0 +1,9 @@
+question: کدام دستور مسیر طی شده توسط بسته‌ها برای رسیدن به مقصد IP را نشان می‌دهد؟
+answer: تریس روت
+wrong_answers:
+  - ss
+  - آرپ
+  - tcpdump
+explanation: |
+  traceroute هر روتر میانی بین فرستنده و هدف را با استفاده از TTL نمایش می‌دهد.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Iciyumviro co kwirinda gisobanura iki mw’isi ya Bitcoin?
+answer: Kubika imfunguruzo zawe z'ibanga wewe nyene
+wrong_answers:
+  - Kwizigira imfunguruzo zawe ku rubuga rwihariye rwa Exchange
+  - Kwizeza imfunguruzo zawe banki y'ishoramari
+  - Kuzigama imfunguruzo zawe za bose wewe nyene
+explanation: |
+  Ukwirinda bituma uwukoresha aguma afise ububasha bwose ku bitcoins vyiwe biciye ku mfunguruzo ziwe bwite.
+reviewed: false

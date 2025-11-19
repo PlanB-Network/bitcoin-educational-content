@@ -1,0 +1,8 @@
+question: Qual è la ragione principale per cui l'aumento delle dimensioni dei blocchi porta a una maggiore probabilità di blocchi stantii in Bitcoin mining?
+answer: I blocchi più grandi richiedono più tempo per essere propagati e convalidati attraverso la rete, creando finestre più lunghe in cui i minatori lavorano su punte di blockchain obsolete
+wrong_answers:
+  - Blocchi più grandi richiedono una maggiore potenza di calcolo per essere estratti, facendo sì che i minatori impieghino più tempo per trovare soluzioni proof-of-work valide
+  - "L'aumento delle dimensioni dei blocchi riduce l'efficacia del meccanismo di regolazione della difficoltà, portando a intervalli di tempo imprevedibili per i blocchi"
+  - I blocchi più grandi creano un maggior numero di conflitti di transazione tra blocchi concorrenti, rendendo più difficile determinare quale blocco debba essere accettato
+explanation: |
+  La risposta corretta identifica il meccanismo alla base dei blocchi stantii. Quando i blocchi sono più grandi, richiedono più larghezza di banda per il trasferimento tra i nodi e più tempo per la convalida. Durante questo lungo periodo di propagazione, più minatori possono trovare blocchi concorrenti alla stessa altezza, poiché non hanno ancora ricevuto il blocco più recente. Questo crea una condizione di gara in cui solo un blocco può essere accettato, rendendo gli altri stantii. Le risposte sbagliate confondono questo problema di propagazione con la difficoltà del mining, con i meccanismi di consenso o con i conflitti delle transazioni, che sono problemi separati dal problema della tempistica che causa i blocchi stantii.

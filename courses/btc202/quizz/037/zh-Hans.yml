@@ -1,0 +1,9 @@
+question: 哪种类型的机器是 Bitcoin 家庭节点的最佳选择？
+answer: 一台 NUC 型迷你电脑
+wrong_answers:
+  - 笔记本电脑
+  - 超级计算机
+  - 游戏机
+explanation: |
+  微型电脑（NUC、Tiny、OptiPlex Micro......）功耗低、性能可靠、易于适配，是理想的折衷方案。
+reviewed: true

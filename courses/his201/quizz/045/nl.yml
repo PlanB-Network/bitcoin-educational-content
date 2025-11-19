@@ -1,0 +1,9 @@
+question: Wat is de naam van de website die aanzienlijk heeft bijgedragen aan het bekendmaken van Bitcoin in juli 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Op 11 juli 2010 publiceerde Teppy een presentatie over Bitcoin op deze populaire site, wat leidde tot een massale toestroom van gebruikers.
+reviewed: true

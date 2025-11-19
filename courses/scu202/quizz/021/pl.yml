@@ -1,0 +1,9 @@
+question: Jaki komponent środowiska graficznego służy do wizualnej nawigacji po plikach i folderach?
+answer: Menedżer plików
+wrong_answers:
+  - Menedżer sesji
+  - Composer X11
+  - Menedżer pakietów
+explanation: |
+  Menedżer plików (taki jak Nautilus, Dolphin, Thunar) pozwala użytkownikowi zarządzać plikami i folderami za pomocą graficznego Interface.
+reviewed: false

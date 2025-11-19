@@ -1,11 +1,10 @@
-question: ¿Cuál es una de las principales características de Bitcoin?
-answer: Se puede intercambiar en cualquier parte del mundo sin ninguna autorización de ninguna entidad.
+question: ¿Cuál es una de las principales razones por las que se creó Bitcoin?
+answer: Proponer el cambio del sistema financiero.
 wrong_answers:
-  - Solo puede ser utilizado por un grupo selecto de personas.
-  - Requiere autorización de una autoridad central para ser utilizado.
-  - Solo puede ser utilizado en ciertos países.
+  - Proponer la eliminación del dinero.
+  - Proponer la creación de una nueva forma de tecnología IA.
+  - Proponer el control de la población mundial.
 explanation: |
-  El texto menciona que Bitcoin es pseudónimo y puede ser
-  intercambiado en cualquier parte del mundo sin la autorización
-  de ninguna entidad.
+  El texto menciona que Satoshi Nakamoto creó Bitcoin en
+  2008 para proponer el cambio del sistema financiero.
 reviewed: true

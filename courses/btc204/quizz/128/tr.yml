@@ -1,0 +1,10 @@
+question: Gizli bir mülk olan Exchange'de bir Smart contract'ın faydası nedir?
+answer: Her iki tarafın da diğerinin fonlarını geri almasına olanak tanıyan bilgileri eş zamanlı ve sistematik olarak ortaya çıkarmak.
+wrong_answers:
+  - Mülkiyet bilgilerini yalnızca meşru alıcının şifresini çözebileceği şekilde şifreleyerek gizliliği sağlayın.
+  - İnsan etkileşimlerini en aza indirmek ve hataları azaltmak için aktarım sürecini otomatikleştirin.
+  - Hile girişimleri durumunda her iki tarafın bitcoinlerini tutarak anlaşmazlık çözümünü kolaylaştırmak.
+explanation: |
+  Birbirine güvenmeyen taraflar arasında alışverişi mümkün kılmak için Smart contract sistemleri kullanılır. Smart contract, önceden tanımlanmış koşullar sağlandığında otomatik olarak çalışan bir programdır ve bizim durumumuzda Exchange özelliğinin karşılıklı güven gerektirmeden otomatik olarak gerçekleştirilmesini sağlar. Smart contract, katılımcılar arasında iki hassas bilginin aynı anda ifşa edilmesine izin verir. Ya normal bir şekilde yürütülür ve her bir taraf diğerinin fonlarını geri alır ya da başarısız olur ve herkes orijinal fonlarını korur.
+  
+reviewed: false

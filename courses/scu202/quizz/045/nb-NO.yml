@@ -1,0 +1,9 @@
+question: Hvilket macOS-verktøy muliggjør full systemdiskkryptering?
+answer: FileVault
+wrong_answers:
+  - Diskverktøy
+  - iCloud-nøkkelring
+  - BitLocker
+explanation: |
+  FileVault er den opprinnelige diskkrypteringsløsningen som er integrert i macOS.
+reviewed: false

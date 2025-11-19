@@ -1,0 +1,9 @@
+question: Wat is de grootste tekortkoming van Signal als het gaat om anonimiteit?
+answer: Het vereist het gebruik van een telefoonnummer
+wrong_answers:
+  - Het is geen open bron
+  - Het slaat berichten op een centrale server op
+  - Het versleutelt uitgewisselde bestanden niet
+explanation: |
+  Signal vereist een telefoonnummer om te registreren, wat traceerbaarheid mogelijk maakt, ook al zorgt het protocol voor sterke encryptie.
+reviewed: false

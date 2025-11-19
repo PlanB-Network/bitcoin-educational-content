@@ -1,0 +1,9 @@
+question: Kim yazmış "Doğada hiçbir şey olmaz ki, bir nedene bağlanabilsin
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Spinoza şöyle yazmıştır: "Doğada, içinde var olan bir kusura atfedilebilecek hiçbir şey olmaz". Bu ifade, doğanın kendi türünde mükemmel olduğu ve kusurların yalnızca insan yargıları olduğu fikrini ifade eder.
+reviewed: false

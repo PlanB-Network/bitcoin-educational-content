@@ -1,10 +1,10 @@
-question: Hva er Lightning Network?
-answer: Et betalingsnettverk som bruker Bitcoin-protokollen for å muliggjøre lynraske transaksjoner.
+question: Hva er gebyrene for transaksjoner på Lightning Network ofte mindre enn?
+answer: 0,5%
 wrong_answers:
-  - En ny type kryptovaluta.
-  - En blokkjedeteknologi som er separat fra Bitcoin.
-  - En metode for å utvinne Bitcoin.
+  - 1%
+  - 2%
+  - 3%
 explanation: >-
-  Lightning Network er et betalingsnettverk som bruker Bitcoin-protokollen
-  for å muliggjøre raske transaksjoner. Det er ikke en separat kryptovaluta eller en metode for
-  å utvinne Bitcoin.
+  Gebyrene for transaksjoner på Lightning Network er ekstremt lave, ofte
+  mindre enn 0,5%.
+reviewed: false

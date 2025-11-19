@@ -1,0 +1,9 @@
+question: Hangi tipik CIDR aralığı IANA tarafından bir RIR'ye tahsis edilen IPv4 bloğunun boyutunu temsil eder?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA, IPv4 alanını her biri 2^24 adres içeren /8 boyutunda bloklara böler.
+reviewed: false

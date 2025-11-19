@@ -1,0 +1,9 @@
+question: Hva er hensikten med den spesielle IPv4-notasjonen 0.0.0.0.0?
+answer: Slik angir du alle grensesnitt eller en ikke-tildelt Address
+wrong_answers:
+  - Slik sender du en melding til alle nettverkene
+  - Slik tester du en enhets lokale tilkobling
+  - For å indikere en adresserings- eller tilkoblingsfeil på den lokale ruteren
+explanation: |
+  0.0.0.0.0-notasjonen brukes lokalt for å representere fraværet av en tildelt Address eller for å lytte på alle grensesnitt.
+reviewed: false

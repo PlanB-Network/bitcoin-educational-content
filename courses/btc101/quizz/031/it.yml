@@ -1,13 +1,12 @@
-question: Quale dei seguenti non è un vantaggio di Bitcoin come valuta?
-answer: Viene utilizzato per pagare le tasse.
+question: Qual è il numero massimo di unità Bitcoin che possono esistere?
+answer: 21 milioni.
 wrong_answers:
-  - È divisibile.
-  - È trasportabile.
-  - È permissionless.
+  - 3 trilioni.
+  - 100 milioni.
+  - Non c'è limite.
 explanation: |
-  Bitcoin, grazie alle sue proprietà come la divisibilità,
-  verificabilità, l'aspetto permissionless e la trasportabilità,
-  è un'eccellente riserva di valore. Come valuta neutrale
-  di internet, inoltre, rappresenta un buon mezzo di scambio
-  che non conosce confini.
-reviewed: true
+  La fornitura totale di Bitcoin è limitata a 21 milioni di unità.
+  Questa è una caratteristica fondamentale di Bitcoin che lo differenzia
+  dalle valute fiduciarie, che possono essere stampate in
+  quantità illimitate dalle banche centrali.
+reviewed: vero

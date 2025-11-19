@@ -1,0 +1,9 @@
+question: Ni kuki igipimo c’amamiliyoni 21 ku gutanga Bitcoin gihambaye?
+answer: Irema umutungo w’ugutakaza agaciro, ugakingira agaciro kawo ugutakaza agaciro kw’ibiciro ataco bimaze.
+wrong_answers:
+  - Bituma intwaro zishobora gucapura amafaranga menshi nk’uko bikenewe.
+  - Bibuza umuntu wese kohereza amafaranga iyo cap ishitse.
+  - Bikuraho uguhinduka kwose mu giciro ca Bitcoin.
+explanation: |
+  Mu kugira Supply irenga miliyoni 21, ubukene bwa Bitcoin burafise kode ya Hard, bikaba bituma itandukanye cane n’amahera y’inflation aho Supply ishobora kwongerwa uko ishaka.
+reviewed: false

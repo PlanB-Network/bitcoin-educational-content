@@ -1,0 +1,8 @@
+question: Jaki jest matematyczny wzór na prawdopodobieństwo, że nieuczciwy górnik z x-procentowym hash rate z powodzeniem wykona fee sniping poprzez re-mining poprzedniego bloku plus nowego bloku?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  Prawidłowy wzór to (x/(1-x))^2, ponieważ fee sniping wymaga od górnika pomyślnego wydobycia dwóch kolejnych bloków w celu zastąpienia poprzedniego bloku i przedłużenia łańcucha. Prawdopodobieństwo mining jednego bloku przeciwko uczciwym górnikom wynosi x/(1-x), a ponieważ dwa bloki muszą być wydobyte kolejno, prawdopodobieństwo to jest podniesione do kwadratu. Inne wzory są matematycznie wiarygodne, ale reprezentują różne scenariusze prawdopodobieństwa, które nie pasują do specyficznych wymagań snipingu opłat, w którym nieuczciwy górnik musi pokonać uczciwą sieć dwa razy z rzędu.

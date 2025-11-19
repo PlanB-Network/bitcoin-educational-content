@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi pravidly konsensu a pravidly relay?
+answer: Konsensus definuje platnost, zprostředkovává šíření transakcí
+wrong_answers:
+  - Konsensus definuje poplatky, relé definuje adresy
+  - Konsensus spravuje Blockchain, relé spravuje soukromé klíče
+  - Konsensus vybírá těžaře, relé vybírá obchodníky
+explanation: |
+  Pravidla konsensu určují, co je v Bitcoin platné, zatímco pravidla relay řídí transakce mezi uzly.
+reviewed: true

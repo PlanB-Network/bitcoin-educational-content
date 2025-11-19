@@ -355,7 +355,7 @@ Diese Unterdrückung der Zinssätze kommt jedoch mit Kosten: Sie macht Kapital l
 
 Dieser Balanceakt läuft nicht ganz wie geplant...
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Abbildung [Schulden vs BIP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -406,7 +406,7 @@ Abbildung: Leistung nach Vermögensklasse ([Aktien](https://finance.yahoo.com/qu
 
 Mit diesem Hinterherhinken der Löhne hinter den Vermögenspreisen haben wir eine der größten Vermögensübertragungen von der Unterschicht zur Oberschicht in der jüngeren Geschichte gesehen.
 
-![Bild](assets/2.webp)
+![Bild](assets/en/002.webp)
 
 Abbildung: Anteil des gesamten [Nettovermögens](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
@@ -476,7 +476,7 @@ Vor der Schöpfung von Bitcoin legten eine Handvoll Visionäre den Grundstein f�
 
 #### Die Cypherpunks
 
-Die Cypherpunks sind eine Gruppe von technikaffinen Rebellen, die sich in den 70ern zusammenschlossen, um mit einem mächtigen Werkzeug für individuelle Freiheit und Bürgerrechte zu kämpfen: Kryptographie. Sie glaubten, dass die Fähigkeit, Informationen zu verschlüsseln, den Menschen die Macht geben würde, die Kontrolle von zentralisierten Autoritäten zurückzugewinnen. Stellen Sie sich vor, Sie könnten Ihre Online-Kommunikation privat und sicher vor neugierigen Blicken halten - dafür kämpften sie!
+Die Cypherpunks sind eine Gruppe von technikaffinen Rebellen, die sich in den 80ern zusammenschlossen, um mit einem mächtigen Werkzeug für individuelle Freiheit und Bürgerrechte zu kämpfen: Kryptographie. Sie glaubten, dass die Fähigkeit, Informationen zu verschlüsseln, den Menschen die Macht geben würde, die Kontrolle von zentralisierten Autoritäten zurückzugewinnen. Stellen Sie sich vor, Sie könnten Ihre Online-Kommunikation privat und sicher vor neugierigen Blicken halten - dafür kämpften sie!
 
 Eines der bemerkenswertesten Ergebnisse der Cypherpunks war die Cypherpunks-Mailingliste, die 1992 eingerichtet wurde. Über die Liste konnten Individuen Ideen austauschen und kryptografische Technologien, Konzepte digitaler Währungen und Initiativen zum Schutz der Privatsphäre diskutieren. Dies führte zur Bildung einer Gemeinschaft von Gleichgesinnten, einschließlich Entwicklern, Aktivisten und Forschern.
 
@@ -786,7 +786,7 @@ Non-Custodial Wallets sind eine Art von Bitcoin-Wallet, bei der Sie der alleinig
 
 Non-Custodial Wallets bieten ein höheres Maß an Sicherheit und Privatsphäre im Vergleich zu Custodial Wallets, da Sie der Einzige sind, der für die Sicherheit Ihrer Gelder verantwortlich ist. Beispiele für Non-Custodial Wallets sind Hardware-Wallets wie [Coldcard](https://store.coinkite.com/store/coldcard) und [Trezor](https://trezor.io/), die physische Geräte sind, die Ihre privaten Schlüssel offline speichern und eine zusätzliche Sicherheitsebene bieten. Andere beliebte Non-Custodial Wallets sind Software-Wallets wie [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) und [Blockstream Green](https://blockstream.com/green/), die auf Ihren Computer oder Ihr mobiles Gerät heruntergeladen und installiert werden können.
 
-\*_Obwohl wir keine spezifische Wallet empfehlen können, raten wir dringend dazu, die Kontrolle über Ihre Bitcoin durch Selbstverwahrung oder kollaborative Verwahrung zu übernehmen, was die Auswahl einer Wallet beinhaltet, die Ihren Bedürfnissen und Vorlieben entspricht. Es ist wesentlich, gründliche Recherchen durchzuführen, bevor Sie sich für eine Wallet entscheiden, um sicherzustellen, dass sie Ihren Sicherheits- und Benutzerfreundlichkeitsanforderungen entspricht._
+*Obwohl wir keine spezifische Wallet empfehlen können, raten wir dringend dazu, die Kontrolle über Ihre Bitcoin durch Selbstverwahrung oder kollaborative Verwahrung zu übernehmen, was die Auswahl einer Wallet beinhaltet, die Ihren Bedürfnissen und Vorlieben entspricht. Es ist wesentlich, gründliche Recherchen durchzuführen, bevor Sie sich für eine Wallet entscheiden, um sicherzustellen, dass sie Ihren Sicherheits- und Benutzerfreundlichkeitsanforderungen entspricht.*
 
 Während Custodial Wallets bequem erscheinen mögen, bringen sie erhebliche Risiken mit sich. Indem Sie die Verwahrung Ihrer privaten Schlüssel an einen Dritten übergeben, geben Sie ihnen effektiv die Kontrolle über Ihre Gelder. Wenn der Verwahrer insolvent wird, gehackt wird oder schließt, könnten Sie den Zugang zu Ihren Bitcoin verlieren. Und dies ist schon unzählige Male passiert, mit hochkarätigen Beispielen wie den Hacks von Mt. Gox und QuadrigaCX, die zum Verlust von Kundengeldern führten, oder FTX, Voyager, BlockFi und Celsius, die katastrophale Insolvenzen erlebten, die zum Verlust ihrer Kundengelder führten. Besonders für Ersparnisse ist es entscheidend, Selbstverwahrung zu praktizieren und die Verantwortung für die Sicherung Ihrer Bitcoin zu übernehmen.
 
@@ -1076,7 +1076,7 @@ Wie die Geschichte von Adanna zeigte, ist Inflation eine schmerzhafte Realität 
 
 Um die Auswirkung der zweistelligen Inflation zu veranschaulichen: Eine Inflationsrate von 10%, wie sie Europa im Oktober 2022 erlebte, würde einen Verlust der Kaufkraft von 61,5% über zehn Jahre bedeuten.
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 _**Abbildung:** Inflationsauswirkungen auf die Kaufkraft_
 
@@ -1337,7 +1337,7 @@ Jetzt haben Energieproduzenten jedoch eine Möglichkeit, diese ansonsten verschw
 
 Schließlich sind Bitcoin-Miner motiviert, kostengünstige Energiequellen zu suchen, da ihre Gewinne von den Energiekosten abhängen. Folglich suchen sie aktiv nach ungenutzter Energie oder anderen Energieformen, die sonst ungenutzt bleiben würden. Ein bemerkenswertes Beispiel ist Flare-Gas, das freigesetzt wird, wenn Erdölunternehmen Öl aus dem Boden extrahieren. Flare-Gas ist ein Nebenprodukt dieses Prozesses und wird typischerweise abgefackelt, aufgrund der hohen Kosten, die mit dessen Einfang verbunden sind. Diese Praxis, bekannt als Abfackeln, führt nicht nur zu Energieverschwendung, sondern setzt auch Methan und verschiedene andere Gase in die Atmosphäre frei.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Abbildung:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1470,7 +1470,7 @@ In den letzten Jahren hat sich Bitcoin jedoch als mächtiges Werkzeug für finan
 
 Während die Welt in Entsetzen zusah, wie die Taliban 1996 die Kontrolle über Afghanistan übernahmen, lebte dieses junge Mädchen Roya im Herzen des Konflikts. Mit nur sieben Jahren fand sie sich inmitten der Turbulenzen und Unsicherheiten des Krieges wieder, als ihre Heimatstadt von den Taliban invadiert und besetzt wurde. Trotz der Gefahr und Widrigkeiten, denen sie ausgesetzt war, und der Tatsache, dass sie nicht zur Schule gehen konnte, weigerte sich Roya, besiegt zu werden. Stattdessen wandte sie sich der Bildung zu, als Weg, die durch ihre Umstände auferlegten Einschränkungen zu überwinden.
 
-![image](assets/5.webp) \***Abbildung:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+![image](assets/en/005.webp) **Abbildung:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob ist eine Pionierin im Bereich Technologie und Unternehmertum in Afghanistan. Sie wurde nicht nur von der Zeitschrift TIME als eine der 100 einflussreichsten Personen der Welt für das Jahr 2013 [genannt](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf), nachdem sie "Internet-Klassenzimmer in afghanischen Oberschulen aufgebaut hatte." Sie gründete auch im Jahr 2010 die Afghan Citadel Software Company, mit dem Ziel, "Arbeitsplätze für Universitätsabsolventen zu schaffen - insbesondere für Frauen." Und als ob das nicht genug wäre, gründete sie anschließend den Digital Citizen Fund. Diese gemeinnützige Organisation arbeitet daran, Frauen und Kinder in Entwicklungsländern durch Technologie zu ermächtigen.
 
 Jedoch war Roya auf dieser Reise nicht allein. Bitcoin hat sich als unschätzbares Werkzeug in ihrer Mission erwiesen, Frauen zu ermächtigen. Trotz zahlreicher Hindernisse, einschließlich rechtlicher Barrieren, die Frauen daran hindern, zu arbeiten und Bankkonten zu eröffnen, war Roya entschlossen, einen Weg zu finden, die Frauen, die mit ihr arbeiteten, zu bezahlen.
@@ -1522,31 +1522,31 @@ Inhaber eines Cafés, Vietnam
 
 „In meinem Café im Bezirk Binh Thanh bedienen wir eine junge Kundschaft und gelegentliche Touristen und bieten eine Vielzahl von Getränken an, darunter Kaffee, Softdrinks und Cocktails. Tether ist zu unserer bevorzugten Lösung geworden, um Zahlungen von ausländischen Kunden zu verarbeiten, die keine lokale Währung oder Bankkonten haben. Obwohl die Verkäufe durch Tether derzeit klein sein mögen, bietet es uns eine bequeme Möglichkeit, die Währungslücke zu überbrücken und unsere internationalen Gäste zu bedienen. Kunden sind oft erstaunt über unsere Offenheit, Kryptowährungszahlungen zu akzeptieren, was einen bleibenden Eindruck auf ihre Erfahrung hinterlässt."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 Parvinee Ratchaphokhinpiti
 Rentner, Thailand
 
 „USDt hat meine internationalen Geldüberweisungen revolutioniert. Als Rentnerin war ich früher auf langsame Banküberweisungen angewiesen. Dank USDt kann ich jetzt mühelos Geld durch einen digitalen Vermögenswert-Austausch senden. Innerhalb von 30 Minuten erhielt meine Schwester die Mittel. Die Zeitersparnis ist unbezahlbar und sorgt für schnelle und problemlose Transaktionen.“
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 Jamie Tran
 Klavierlehrer, Vietnam
 
 „Geld an meine Verwandten im Ausland zu senden, war eine häufige Notwendigkeit, doch der Prozess des Währungsumtauschs bei lokalen Wechselstuben erwies sich als zeitaufwendig und teuer. Um diese Herausforderungen zu bewältigen, stellte ich meine Verwandten auf die Bequemlichkeit der Nutzung von USDt um. Diese einfache Veränderung hat es unserer Familie ermöglicht, erhebliche Zeit und Geld bei unseren finanziellen Transaktionen zu sparen. Mit USDt genießen wir jetzt vereinfachte Überweisungen ins Ausland, die effiziente und kostengünstige Unterstützung für unsere Lieben gewährleisten.“
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 Roman
 Russischer Expat, lebt in Vietnam
 
 „Lebend in Vietnam, sende ich häufig Tether an meine Verwandten und Cousins in Russland. Geldüberweisungen ins Ausland mit Tether sind problemlos im Vergleich zur Nutzung traditioneller Bankmethoden. Keine Bankbesuche, notariellen Dokumente oder Erklärungen sind erforderlich. Mit keinen Sendelimits, minimalen Gebühren und schnellen Transaktionen werden Mittel innerhalb von Minuten geliefert.“
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 Luis Graterol
 Audiovisuell, Venezuela
 
 „Mein Name ist Luis Graterol, und Tether hat mir geholfen, meine Ersparnisse auf eine andere Weise zu sichern. In Venezuela leiden wir unter der hohen Inflation, und Tether hat sehr geholfen. Seine Benutzbarkeit ist einfach, und in vielen Fällen können Sie Transaktionen ohne Gebühren durchführen. USDt macht mein Leben einfacher! Es hilft mir auch, seine Nutzung im audiovisuellen Bereich zu fördern; seit ich seine Einfachheit entdeckt habe, erhalte ich meine Zahlungen in USDt, und ich spare das mühsame lokale Fiat, das viele von uns betrifft!“
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 

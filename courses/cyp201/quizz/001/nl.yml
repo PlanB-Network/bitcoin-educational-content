@@ -1,0 +1,9 @@
+question: Welke eigenschap zorgt ervoor dat het computationeel onmogelijk is om de invoer van een Hash te achterhalen?
+answer: Voorbeeldweerstand
+wrong_answers:
+  - Weerstand tegen botsingen
+  - Lawine-effect
+  - Tweede preimage weerstand
+explanation: |
+  Preimage-resistentie zorgt ervoor dat het praktisch onmogelijk is om het originele bericht uit zijn Hash te vinden.
+reviewed: false

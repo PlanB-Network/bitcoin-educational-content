@@ -6,9 +6,9 @@ description: Setting up your Muun wallet
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
+[Muun](https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 
-## video tutorial
+## Video tutorial
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 
@@ -122,15 +122,15 @@ Here is the translation of the instructions:
 
 This emergency procedure will help you recover your funds if you are unable to use Muun on your device.
 
-1. Find your recovery code
+- Find your recovery code
 
 You wrote this code on a piece of paper before creating your emergency kit. You will need it later.
 
-2. Download the recovery tool
+- Download the recovery tool
 
 Go to the page https://github.com/muun/recovery and download the tool to your computer.
 
-3. Recover your funds
+- Recover your funds
 
 Run the recovery tool and follow the steps. The tool will transfer your funds to a Bitcoin address of your choice.
 

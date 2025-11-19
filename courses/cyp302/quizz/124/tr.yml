@@ -1,0 +1,9 @@
+question: Güvenli çevrimiçi iletişim için anahtarların yüz yüze değişimi neden pratik değildir?
+answer: Verimsiz olmakla birlikte yüksek kurumsal maliyetlere yol açar
+wrong_answers:
+  - Şifrelenmiş iletişimi kullanılamaz hale getirir
+  - İstemci başına birden fazla anahtar kullanılmasını gerektirir
+  - Tekrarlanan işlemler için anahtarların yeniden kullanılmasını önler
+explanation: |
+  Anahtarların şahsen değiştirilmesi, özellikle büyük ölçekte, işlemleri yavaşlattığı ve her yeni müşteri için önemli lojistik maliyetler getirdiği için maliyetli ve verimsizdir.
+reviewed: false

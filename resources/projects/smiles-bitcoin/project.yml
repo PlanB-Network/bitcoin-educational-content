@@ -1,0 +1,22 @@
+id: 92f7c161-727b-4aae-b3f2-f54000b8dfd8
+name: sMiles Bitcoin
+category: service
+
+links:
+  website: https://www.smilesbitcoin.com/
+  twitter: https://twitter.com/smilesbitcoin
+  youtube: https://youtube.com/@smilesbitcoin
+
+tags:
+  - use-case
+  - adoption
+  - lightning
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-24
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

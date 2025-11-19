@@ -1,0 +1,8 @@
+question: Jaká byla hlavní kritika vznesená v první e-mailové reakci na oznámení Satoshi Nakamota o whitepaperu Bitcoin v konferenci Cryptography?
+answer: Zdálo se, že navrhovaný systém nelze škálovat na požadovanou velikost
+wrong_answers:
+  - Použité kryptografické algoritmy nebyly dostatečně bezpečné pro finanční aplikace
+  - Architektura peer-to-peer by způsobila, že by systém byl zranitelný vůči síťovým útokům
+  - Mechanismus konsensu by spotřeboval příliš mnoho výpočetní energie na to, aby byl praktický
+explanation: |
+  Hned první věta první e-mailové odpovědi na oznámení Satoshi o bílé knize Bitcoin výslovně uvádí: "nezdá se, že by se škálovala na požadovanou velikost To ukazuje, že obavy ohledně škálování existovaly již od prvních veřejných diskusí o Bitcoin, dokonce ještě před spuštěním sítě. Ostatní možnosti, ačkoli potenciálně oprávněné obavy pro kryptoměnový systém, nebyly hlavním tématem této první reakce, která okamžitě označila škálovatelnost za hlavní problém návrhu Satoshi.

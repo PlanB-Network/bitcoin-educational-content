@@ -1,0 +1,9 @@
+question: Welche Art von DNS-Eintrag wird verwendet, um einen Domänennamen mit einem IPv6 Address abzubilden?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Der Typ AAAA (Quad-A) wird verwendet, um einen Domänennamen mit einem IPv6 Address abzubilden, während der Typ A für IPv4 reserviert ist.
+reviewed: false

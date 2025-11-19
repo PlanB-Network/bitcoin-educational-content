@@ -1,0 +1,14 @@
+question: Wat is de rol van een centrale bank als geldschieter in laatste instantie?
+answer: De centrale bank leent geld aan noodlijdende banken tijdens crises om een domino-effect te voorkomen dat het hele financiële systeem zou kunnen verlammen.
+wrong_answers:
+  - De centrale bank leent geld aan noodlijdende banken tijdens crises om haar eigen winst te verhogen.
+  - De centrale bank leent tijdens crises geld aan noodlijdende banken om hun activiteiten over te nemen.
+  - De centrale bank leent geld aan noodlijdende banken tijdens crises om de staatsschuld te verhogen.
+explanation: |
+  Het concept van een centrale bank als geldschieter in laatste instantie
+  ontstond in de 19e eeuw in Engeland als reactie op
+  herhaaldelijke bankruns die de financiële stabiliteit bedreigden. Door
+  door te lenen aan banken in nood, kan de centrale bank een domino-effect van
+  een domino-effect van bankfaillissementen die zouden kunnen leiden tot een
+  recessie of depressie.
+reviewed: true

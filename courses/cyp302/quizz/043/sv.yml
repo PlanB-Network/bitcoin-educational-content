@@ -1,0 +1,9 @@
+question: Vilken typ av grupp använder främst kryptografi?
+answer: Grupper definierade av heltal eller Elements beskrivna av heltal
+wrong_answers:
+  - Grupper av komplexa tal eller Elements beskrivna av komplexa tal
+  - Grupper av geometriska transformationer eller Elements beskrivna av geometriska transformationer
+  - Grupper av rationella tal eller Elements beskrivna av rationella tal
+explanation: |
+  Kryptografi använder grupper baserade på heltal, eller Elements som beskrivs av heltal, till exempel punkterna på en elliptisk kurva, för kryptering och signering.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
-nome: Stonewall x2
-descrizione: Comprensione e utilizzo delle transazioni Stonewall x2
+name: Stonewall x2
+description: Comprensione e utilizzo delle transazioni Stonewall x2
 ---
 ![cover stonewall x2](assets/cover.webp)
 
@@ -16,7 +16,7 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 > *Rendi ogni spesa un coinjoin.*
 
-## Cosa è una transazione Stonewall x2?
+## Cos'è una transazione Stonewall x2?
 
 Stonewall x2 è una forma specifica di transazione Bitcoin che mira ad aumentare la privacy dell'utente durante una spesa, collaborando con una terza parte non coinvolta nella spesa stessa. Questo metodo simula un mini-coinjoin tra due partecipanti, effettuando contemporaneamente un pagamento a una terza parte. Le transazioni Stonewall x2 sono disponibili sia sull'applicazione Samourai Wallet che sul software Sparrow Wallet. Entrambi sono interoperabili.
 

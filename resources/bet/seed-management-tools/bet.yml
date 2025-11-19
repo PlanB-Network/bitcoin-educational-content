@@ -1,0 +1,53 @@
+id: 087c4dda-ce74-4e19-b057-a45345493965
+type: Visual Content
+links:
+  download: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+  view:
+    - ar: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - cs: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - de: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - en: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - es: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - et: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - fa: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - fi: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - fr: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - hi: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - id: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - it: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - ja: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - ko: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - nb-NO: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - nl: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - pl: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - pt: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - rn: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - ru: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - si: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - sr-Latn: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - sv: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - sw: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - tr: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - vi: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - zh-Hans: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+    - zh-Hant: https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet/seed-management-tools/assets
+
+
+contributor_names:
+  - LoicPandul
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+tags:
+  - keys
+  - backup
+  - user-friendly
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-19
+    urgency: 1
+    contributor_names: LoicPandul
+    reward: 0

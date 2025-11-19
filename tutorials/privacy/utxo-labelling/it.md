@@ -1,6 +1,6 @@
 ---
-nome: Labelling UTXO
-descrizione: Come etichettare correttamente i tuoi UTXO
+name: Labelling UTXO
+description: Come etichettare correttamente i tuoi UTXO
 ---
 ![cover](assets/cover.webp)
 
@@ -14,7 +14,7 @@ Ad esempio, se ricevo un UTXO da una transazione P2P effettuata su Bisq con Char
 
 Assegnare delle etichette agli UTXO permette di ricordarne facilmente l’origine o l’utilizzo previsto, facilitando la gestione dei fondi e migliorando la propria privacy. Questa pratica diventa ancora più efficace quando viene affiancata alla funzione di ["coin control"](https://planb.academy/resources/glossary/coin-control), peculiarità offerta da molti wallet avanzati, e che permette all’utente di scegliere manualmente quali UTXO utilizzare come input in una determinata transazione.
 
-L’uso combinato di etichetta e coin control consente di distinguere con precisione le fonti da cui provengono i fondi, evitando di mescolare UTXO provenienti da contesti diversi. Ciò aiuta a ridurre i rischi legati all’euristica che analizza le proprietà in comune tra gli input (in inglese: Common Input Ownership Heuristic (CIOH)), secondo cui gli input di una transazione sono probabilmente controllati dallo stesso utente, ipotesi che può compromettere seriamente la privacy.
+L’uso combinato di labelling e coin control consente di distinguere con precisione le fonti da cui provengono i fondi, evitando di mescolare UTXO provenienti da contesti diversi. Ciò aiuta a ridurre i rischi legati all’euristica che analizza le proprietà in comune tra gli input (in inglese: Common Input Ownership Heuristic, CIOH), secondo cui gli input di una transazione sono probabilmente controllati dallo stesso utente, ipotesi che può compromettere seriamente la privacy.
 
 Riprendendo l’esempio di prima: supponiamo di aver ricevuto un UTXO no-KYC tramite Bisq. Vorrei evitare di combinarlo con un UTXO ottenuto, ad esempio, da un exchange centralizzato che richiede la verifica dell’identità (KYC). Assegnando delle etichette distinte a ciascun UTXO, una per l’UTXO no-KYC e un’altra per quello KYC, posso identificarli facilmente e scegliere consapevolmente quale usare per un determinato acquisto, grazie alla funzionalità di coin control.
 
@@ -42,9 +42,9 @@ Questi indicatori dipenderanno dai tuoi criteri, come la distinzione tra UTXO KY
 
 In ogni caso, tieni presente che un'etichetta valida è quella che sarai in grado di comprendere quando ne avrai bisogno. Se il wallet è principalmente destinato al tenere i fondi di risparmio, potrebbe essere che le etichette siano utili solo tra diversi anni. Assicurati dunque che siano chiare, precise e complete.
 
-È inoltre consigliabile mantenere l'identificatore di un UTXO attraverso le transazioni. Ad esempio, durante un consolidamento di UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come "consolidamento", ma specificamente come "consolidamento no-KYC" per mantenere una traccia chiara dell'origine dell'UTXO.
+È inoltre consigliabile utilizzare l'identificatore di un UTXO durante le transazioni. Ad esempio, durante un consolidamento di UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come "consolidamento", ma specificamente come "consolidamento no-KYC" per mantenere una traccia chiara dell'origine dell'UTXO.
 
-Infine, non è necessario apporre la data su un'etichetta. La maggior parte dei wallet mostra già la data della transazione, ed è sempre possibile recuperare queste informazioni con un block explorer utilizzando il suo TXID (ID della transazione).
+Infine, non è necessario apporre la data su un'etichetta. La maggior parte dei wallet mostra già la data della transazione, ed è sempre possibile recuperare queste informazioni con un block explorer utilizzando il TXID (ID della transazione).
 
 ## Tutorial: il labelling su Specter Desktop
 
@@ -52,11 +52,11 @@ Su Specter Desktop, nella schermata principale del tuo wallet, seleziona la sche
 
 ![labelling](assets/notext/3.webp)
 
-Qui vedrai l’elenco di tutti i tuoi indirizzi, con gli eventuali bitcoin ad essi associati. Di default, gli indirizzi sono identificati dall’indice numerico visualizzato nella colonna "Label". Per modificare un’etichetta:
+Vedrai l’elenco di tutti i tuoi indirizzi, con gli eventuali bitcoin ad essi associati. Di default, gli indirizzi sono identificati dall’indice numerico visualizzato nella colonna "Label". Per modificare un’etichetta:
 
-Clicca sull’etichetta corrente.
-Inserisci la nuova etichetta desiderata.
-Conferma cliccando sull’icona blu.
+clicca sull’etichetta corrente;
+inserisci la nuova etichetta desiderata;
+conferma cliccando sull’icona blu.
 
 ![labelling](assets/notext/4.webp)
 

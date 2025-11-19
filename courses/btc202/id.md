@@ -1174,194 +1174,102 @@ Anda kemudian perlu memasukkan beberapa informasi untuk membuat koneksi ke node 
 
 ![Image](assets/fr/033.webp)
 
-
-
-Tab "*Detail RPC*" menampilkan semua informasi yang diperlukan untuk koneksi. Pilih untuk menyambung melalui Tor Address (dalam format `.onion`).
-
-
+Tab "*RPC Details*" menampilkan semua informasi yang diperlukan untuk koneksi. Pilih untuk menyambung melalui Tor Address (dalam format `.onion`).
 
 ![Image](assets/fr/034.webp)
 
-
-
-Masukkan data ini di bidang yang sesuai pada Sparrow wallet, lalu klik tombol "*Test Connection*".
-
-
+Masukkan data ini di kolom yang sesuai pada wallet Sparrow, lalu klik tombol "*Test Connection*".
 
 ![Image](assets/fr/035.webp)
 
-
-
-Jika koneksi berhasil, tanda centang Green dan pesan konfirmasi akan muncul.
-
-
+Jika koneksi berhasil, tanda centang hijau dan pesan konfirmasi akan muncul.
 
 ![Image](assets/fr/036.webp)
 
+Tanda centang di kanan bawah Interface wallet Sparrow sekarang akan berwarna hijau (menunjukkan koneksi langsung ke Bitcoin Core).
 
-
-Tanda centang di kanan bawah Interface Sparrow wallet sekarang akan menjadi Green (mengindikasikan koneksi langsung ke Bitcoin core).
-
-
-
-**Catatan:** Agar koneksi berhasil, node Anda harus 100% tersinkronisasi. Jika tidak demikian, harap tunggu hingga akhir IBD.
-
-
+**Catatan**: Agar koneksi berhasil, node Anda harus 100% tersinkronisasi. Jika tidak demikian, harap tunggu hingga akhir IBD.
 
 ### Terhubung ke Electrs
 
-
-
-Jika node Anda memiliki pengindeks, lebih baik untuk terhubung ke pengindeks daripada menggunakan Bitcoin core secara langsung, karena kueri Anda akan diproses lebih cepat.
-
-
+Jika node Anda memiliki indexer, lebih baik untuk terhubung ke indexer tersebut daripada menggunakan Bitcoin Core secara langsung, karena kueri Anda akan diproses lebih cepat.
 
 Pada Sparrow, buka tab "*Private Electrum*".
 
-
-
 ![Image](assets/fr/037.webp)
 
+Anda kemudian perlu memasukkan beberapa informasi untuk membuat koneksi dengan indexer Anda. Anda akan menemukan data ini di aplikasi "_Electrs_" (atau, jika berlaku, "_Fulcrum_") di Umbrel.
 
-
-Anda kemudian harus memasukkan beberapa informasi untuk membuat koneksi dengan pengindeks Anda. Anda akan menemukan data ini di aplikasi "*Electrs*" (atau, jika ada, "*Fulcrum*") di Umbrel.
-
-
-
-Pilih tab "*Tor*" untuk mendapatkan koneksi `.onion` Address. Jika Anda ingin menghubungkan perangkat lunak Wallet seluler, Anda juga dapat memindai kode QR secara langsung.
-
-
+Pilih tab "_Tor_" untuk mendapatkan Address koneksi `.onion`. Jika Anda ingin menghubungkan perangkat lunak wallet seluler, Anda juga dapat memindai kode QR secara langsung.
 
 ![Image](assets/fr/038.webp)
 
-
-
-Cukup masukkan Tor Address dari server Electrum Anda pada kolom "*URL*", lalu klik tombol "*Test Connection*".
-
-
+Cukup masukkan Tor Address dari server Electrum Anda di kolom "_URL_", lalu klik tombol "_Test Connection_".
 
 ![Image](assets/fr/039.webp)
 
-
-
 Jika koneksi berhasil, tanda centang dan pesan konfirmasi akan ditampilkan.
-
-
 
 ![Image](assets/fr/040.webp)
 
+Tanda centang di sudut kanan bawah Interface wallet Sparrow akan berubah menjadi biru (warna yang terkait dengan koneksi ke server Electrum).
 
+**Catatan**: Agar koneksi berfungsi, indexer Anda harus 100% tersinkronisasi. Jika ini tidak terjadi, tunggu hingga proses pengindeksan selesai.
 
-Tanda centang di sudut kanan bawah Interface Sparrow wallet akan berubah menjadi biru (warna yang terkait dengan koneksi ke server Electrum).
+Sekarang Anda tahu cara menghubungkan wallet Anda ke Node Bitcoin Anda! Di bab berikutnya, saya akan memperkenalkan Anda pada beberapa aplikasi tambahan yang tersedia di Umbrel yang sangat saya sukai, dan yang akan memungkinkan Anda untuk meningkatkan penggunaan Bitcoin harian Anda melalui node Anda.
 
-
-
-**Catatan:** Agar koneksi dapat berfungsi, pengindeks Anda harus disinkronkan 100%. Jika tidak demikian, tunggu sampai proses pengindeksan selesai.
-
-
-
-Sekarang Anda sudah tahu cara menghubungkan Wallet Anda ke node Bitcoin Anda! Pada bab berikutnya, saya akan memperkenalkan Anda pada beberapa aplikasi tambahan yang tersedia di Umbrel yang sangat saya sukai, dan yang akan memungkinkan Anda untuk meningkatkan penggunaan Bitcoin sehari-hari melalui node Anda.
-
-
-
-
-## Ikhtisar aplikasi yang tersedia
-
+## Daftar aplikasi yang tersedia
 
 <chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>
 
+Umbrel menawarkan toko aplikasi yang luas. Seperti yang akan Anda lihat, ada banyak aplikasi yang terkait dengan Bitcoin, tetapi juga berbagai macam aplikasi di berbagai bidang yang berbeda: solusi self-hosting untuk layanan dan file, aplikasi produktivitas, aplikasi keuangan yang lebih umum, manajemen media, keamanan dan administrasi jaringan, pengembangan, kecerdasan buatan, jejaring sosial, dan bahkan otomatisasi rumah.
 
+Dalam kursus BTC 202 ini, kami akan berkonsentrasi secara eksklusif pada aplikasi yang terkait dengan Bitcoin. Namun, jangan ragu untuk menjelajahi sisa katalog untuk aplikasi yang mungkin berguna bagi Anda.
 
-Umbrel menawarkan toko aplikasi yang luas. Seperti yang akan Anda lihat, ada banyak alat yang terkait dengan Bitcoin, tetapi juga berbagai macam aplikasi di bidang yang sangat berbeda: solusi self-hosting untuk layanan dan file, aplikasi produktivitas, alat keuangan yang lebih umum, manajemen media, keamanan dan administrasi jaringan, pengembangan, kecerdasan buatan, jejaring sosial, dan bahkan otomatisasi rumah.
-
-
-
-Dalam kursus BTC 202 ini, kita akan berkonsentrasi secara eksklusif pada aplikasi yang berhubungan dengan Bitcoin. Namun, jangan ragu untuk menjelajahi katalog lainnya untuk alat yang mungkin berguna bagi Anda.
-
-
-
-Tentu saja, tidak mungkin untuk mencantumkan semua aplikasi Bitcoin di sini. Dalam bab ini, saya ingin memperkenalkan Anda pada alat bantu penting yang akan memfasilitasi dan memperkaya penggunaan Bitcoin sehari-hari.
-
-
+Tentu saja, tidak mungkin untuk mencantumkan semua aplikasi Bitcoin di sini. Dalam bab ini, saya ingin memperkenalkan Anda pada aplikasi penting yang akan memfasilitasi dan memperkaya penggunaan Bitcoin harian Anda.
 
 ### Mempool.space
 
+Dalam penggunaan Bitcoin sehari-hari, jika ada satu aplikasi yang benar-benar sangat diperlukan, itu adalah block explorer. Baik dapat diakses secara online maupun dipasang secara lokal, aplikasi ini mengubah data mentah Blockchain menjadi format yang terstruktur, jelas, dan mudah dibaca. Aplikasi ini juga dilengkapi dengan mesin pencari yang memungkinkan pengguna untuk dengan cepat menemukan blok, transaksi, atau alamat tertentu.
 
+Secara nyata, explorer memungkinkan Anda memperkirakan biaya yang diperlukan agar transaksi Anda disertakan dalam sebuah blok, kemudian melacak perkembangannya: cari tahu apakah kemungkinan besar akan disertakan dalam waktu dekat, tergantung pada pasar biaya, dan akhirnya memastikan bahwa itu memang telah dimasukkan ke dalam blok. Aplikasi ini juga menawarkan kemungkinan untuk menganalisis transaksi masa lalu Anda dan melihat riwayatnya. Singkatnya, ini adalah Pisau Tentara Swiss (Swiss Army Knife) bagi bitcoiner.
 
-Dalam penggunaan Bitcoin sehari-hari, jika ada satu alat yang benar-benar sangat diperlukan, itu adalah Block explorer. Baik dapat diakses secara online maupun diinstal secara lokal, alat ini mengubah data mentah Blockchain menjadi format yang terstruktur, jelas, dan mudah dibaca. Alat ini juga dilengkapi dengan mesin pencari yang memungkinkan pengguna untuk menemukan blok, transaksi, atau Address tertentu dengan cepat.
-
-
-
-Secara konkret, penjelajah memungkinkan Anda untuk memperkirakan biaya yang diperlukan agar transaksi Anda dapat dimasukkan ke dalam sebuah blok, kemudian melacak perkembangannya: cari tahu apakah transaksi tersebut akan dimasukkan dalam waktu dekat, tergantung pada pasar biaya, dan akhirnya mengonfirmasi bahwa transaksi tersebut telah dimasukkan ke dalam sebuah blok. Ini juga menawarkan kemungkinan untuk menganalisis transaksi Anda di masa lalu dan melihat riwayatnya. Singkatnya, ini adalah Pisau Tentara Swiss bagi para bitcoiner.
-
-
-
-Seperti yang telah disebutkan sebelumnya, penjelajah dapat di-host secara online di situs web atau dijalankan secara lokal di komputer Anda. Kerugian utama dari layanan online adalah mereka bisa membahayakan privasi Anda. Tanpa VPN atau Tor, server yang meng-hosting penjelajah bisa menghubungkan IP Address Anda dengan transaksi yang Anda lihat, yang bisa memberikan titik masuk yang ideal untuk analisis rantai.
-
-
+Seperti yang disebutkan sebelumnya, explorer dapat di-host secara online di situs web atau dijalankan secara lokal di mesin Anda. Kerugian utama dari layanan online adalah layanan tersebut dapat mengganggu privasi Anda. Tanpa VPN atau Tor, server yang menjadi host explorer dapat menautkan alamat IP Anda ke transaksi yang Anda lihat, yang dapat memberikan titik masuk yang ideal untuk analisis rantai (chain analysis).
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Terlebih lagi, Penyedia Layanan Internet (ISP) Anda mungkin mengetahui bahwa Anda melihat transaksi tertentu melalui situs Block explorer. Hal ini juga menimbulkan pertanyaan tentang kepercayaan: Anda harus bergantung pada layanan online untuk memberikan Anda informasi yang akurat tentang transaksi Anda, tanpa dapat memverifikasi kebenarannya sendiri.
+Terlebih lagi, Penyedia Layanan Internet (ISP) Anda mungkin tahu bahwa Anda melihat transaksi tertentu melalui situs block explorer. Ini juga menimbulkan pertanyaan kepercayaan: Anda harus bergantung pada layanan online untuk memberi Anda informasi yang akurat tentang transaksi Anda, tanpa dapat memverifikasi kebenarannya sendiri.
 
+Itulah mengapa selalu lebih baik menggunakan block explorer lokal Anda sendiri. Dengan cara ini, tidak ada data yang terkait dengan aktivitas pencarian Anda yang akan bocor, karena semua kueri diproses langsung di mesin yang Anda kendalikan, tanpa melewati Internet. Terlebih lagi, explorer lokal bergantung pada data dari Node Bitcoin Anda sendiri, yang telah Anda validasi sendiri, sesuai dengan aturan Anda sendiri, dan yang dapat Anda percayai.
 
-
-Itulah sebabnya mengapa selalu lebih baik menggunakan Block explorer lokal Anda sendiri. Dengan cara ini, tidak ada data yang terkait dengan aktivitas penelusuran Anda yang akan bocor, karena semua kueri diproses secara langsung di mesin yang Anda kendalikan, tanpa melewati Internet. Terlebih lagi, penjelajah lokal mengandalkan data dari node Bitcoin Anda sendiri, yang telah Anda validasi sendiri, sesuai dengan aturan Anda sendiri, dan yang dapat Anda percayai.
-
-
-
-Umbrel menawarkan beberapa penjelajah blok:
-
-
-
+Umbrel menawarkan beberapa block explorer:
 
 - Mempool.Space
 - Bitfeed
 - BTC RPC Explorer
 
+Saya sangat menyukai Mempool.Space, yang telah saya pasang di node saya. Harap dicatat: untuk menggunakan sebagian besar block explorer di Umbrel, indexer Address diperlukan. Oleh karena itu, Anda memerlukan aplikasi Bitcoin Node (atau Bitcoin Knots), yang memiliki blockchain 100% tersinkronisasi, serta indexer seperti Electrs atau Fulcrum, yang juga 100% tersinkronisasi.
 
-
-Saya sangat menyukai Mempool.Space, yang saya pasang di node saya. Harap diperhatikan: untuk menggunakan sebagian besar penjelajah blok di Umbrel, diperlukan pengindeks Address. Oleh karena itu, Anda memerlukan aplikasi Bitcoin Node (atau Bitcoin Knots), yang memiliki Blockchain yang tersinkronisasi 100%, serta pengindeks seperti Electrs atau Fulcrum, yang juga tersinkronisasi 100%.
-
-
-
-Setelah aplikasi terinstal, cukup buka aplikasi tersebut untuk mengakses penjelajah Anda.
-
-
+Setelah aplikasi terinstall, cukup buka untuk mengakses explorer Anda sendiri.
 
 ![Image](assets/fr/041.webp)
 
-
-
 Untuk mempelajari lebih lanjut tentang cara menggunakan Mempool.Space explorer, saya merekomendasikan tutorial komprehensif ini:
-
-
 
 https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-### Simpul Petir
+### Lightning Node
 
+Setelah Anda memiliki node Bitcoin Anda sendiri, Anda juga dapat menyiapkan Node Lightning Anda sendiri untuk melakukan transaksi off-chain, tanpa bergantung pada infrastruktur pihak ketiga.
 
+Umbrel menawarkan sejumlah aplikasi untuk membantu Anda menjalankan Node Lightning Anda. Anda sudah dapat memilih di antara dua implementasi utama:
 
-Setelah Anda memiliki node Bitcoin Anda sendiri, Anda juga dapat menyiapkan node Lightning Anda sendiri untuk melakukan transaksi off-chain, tanpa bergantung pada infrastruktur pihak ketiga.
-
-
-
-Umbrel menawarkan sejumlah aplikasi untuk membantu Anda menyiapkan dan menjalankan simpul Lightning Anda. Anda sudah bisa memilih di antara dua implementasi utama:
-
-
-
-
-- LND, melalui aplikasi *Lightning Node*;
-- Inti Petir.
-
-
+- LND, melalui aplikasi "Lightning Node";
+- Core Lightning.
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-Anda kemudian dapat mengelola node Anda dari Interface utama, atau, untuk fungsionalitas yang lebih besar dan opsi lanjutan, instal *Ride The Lightning* atau *ThunderHub*. Alat-alat ini akan memberi Anda sistem manajemen Interface berbasis web yang jauh lebih komprehensif untuk node Anda.
-
-
+Anda kemudian dapat mengelola node Anda dari Interface utama, atau, untuk fungsionalitas yang lebih besar dan opsi lanjutan, instal _Ride The Lightning _atau _ThunderHub_. Aplikasi ini akan memberi Anda sistem manajemen interface berbasis web yang jauh lebih komprehensif untuk node Anda.
 
 https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
@@ -1369,65 +1277,29 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 ![Image](assets/fr/088.webp)
 
-
-
-Terakhir, saya merekomendasikan aplikasi *Lightning Network+*, yang memungkinkan Anda menemukan rekan-rekan yang dapat diajak untuk membuka saluran, sehingga memungkinkan transaksi tunai keluar dan masuk.
-
-
+Terakhir, saya merekomendasikan aplikasi _Lightning Network+_, yang memungkinkan Anda menemukan peer untuk membuka channel, memungkinkan transaksi tunai keluar dan masuk.
 
 ![Image](assets/fr/089.webp)
 
+Berkat Umbrel, mengelola Node Lightning pribadi telah sangat disederhanakan, tetapi masih relatif kompleks. Karena alasan ini, kami akan melihat lebih dekat subjek ini di kursus mendatang yang sepenuhnya didedikasikan untuk penggunaan ini.
 
+### Tailscale
 
-Berkat Umbrel, mengelola Lightning node pribadi sudah sangat disederhanakan, tetapi masih relatif rumit. Untuk alasan ini, kita akan melihat lebih dekat pada subjek ini dalam kursus mendatang yang dikhususkan sepenuhnya untuk penggunaan ini.
+Aplikasi lain yang sangat saya sukai di Umbrel adalah Tailscale. Ini adalah aplikasi VPN yang dirancang untuk menyederhanakan pembuatan jaringan aman antara banyak perangkat, di mana pun mereka berada di dunia. Berbeda dengan VPN tradisional, yang mengandalkan server terpusat, Tailscale memanfaatkan protokol WireGuard untuk membuat koneksi terenkripsi end-to-end antara berbagai mesin Anda. Ini berarti Anda dapat menyebarkan VPN yang berfungsi hanya dalam beberapa menit, tanpa memerlukan konfigurasi jaringan yang rumit.
 
-
-
-### Skala ekor
-
-
-
-Aplikasi lain yang sangat saya sukai di Umbrel adalah Tailscale. Ini adalah aplikasi VPN yang dirancang untuk menyederhanakan pembuatan jaringan aman di antara beberapa perangkat, di mana pun mereka berada di dunia. Tidak seperti VPN tradisional, yang mengandalkan server terpusat, Tailscale menggunakan protokol WireGuard untuk membuat koneksi terenkripsi ujung-ke-ujung di antara berbagai mesin Anda. Ini berarti Anda bisa menggunakan VPN yang berfungsi hanya dalam beberapa menit, tanpa perlu konfigurasi jaringan yang rumit.
-
-
-
-Di Umbrel, instalasi Tailscale menghubungkan node Bitcoin Anda ke jaringan pribadi virtual Anda sendiri. Setelah dikonfigurasi, node Anda mendapatkan IP Tailscale Address pribadi, yang hanya dapat diakses dari perangkat lain yang terhubung ke jaringan Tailscale yang sama (seperti komputer, ponsel cerdas, dan tablet). Koneksi ini dienkripsi dari ujung ke ujung dan tidak melewati jaringan publik yang tidak terlindungi, sehingga secara signifikan meningkatkan keamanan dibandingkan dengan koneksi yang tidak terenkripsi.
-
-
+Di Umbrel, instalasi Tailscale menghubungkan Node Bitcoin Anda ke jaringan pribadi virtual Anda sendiri. Setelah dikonfigurasi, node Anda memperoleh alamat IP Tailscale pribadi, yang hanya dapat diakses dari perangkat lain yang terhubung ke jaringan Tailscale yang sama (seperti komputer, smartphone, dan tablet). Koneksi ini terenkripsi end-to-end dan tidak melewati jaringan publik yang tidak terlindungi, secara signifikan meningkatkan keamanan dibandingkan koneksi yang tidak terenkripsi.
 
 ![Image](assets/fr/090.webp)
 
-
-
 Secara konkret, Tailscale menawarkan beberapa keuntungan saat menggunakan Umbrel Anda:
 
+- Anda dapat mengelola Interface Umbrel atau mengakses aplikasi yang terhubung ke node Anda (seperti Mempool, Ride The Lightning, ThunderHub...) dari mana saja, seolah-olah Anda berada di jaringan lokal yang sama, tanpa mengekspos port di Internet dan tanpa melalui Tor, yang sangat lambat;
+- Anda dapat terhubung ke server Electrum Anda (Electrs atau Fulcrum) atau langsung ke Bitcoin Core melalui VPN Anda, menggantikan Tor. Ini memberikan koneksi yang aman, sebanding dengan menggunakan Tor, tetapi dengan kecepatan yang jauh lebih tinggi dan latensi yang berkurang. Singkatnya, Anda mempertahankan manfaat privasi dan keamanan Tor sambil menikmati kecepatan koneksi Clearnet. Untuk wallet On-Chain, keuntungan ini mungkin tampak marginal, tetapi jika Anda berencana untuk mengatur Node Lightning Anda sendiri di kemudian hari, perbedaannya sangat besar. Memang, melakukan pembayaran melalui node Anda saat bepergian di Tor sangat lambat karena banyaknya pertukaran yang diperlukan, sedangkan dengan Tailscale, ini berfungsi dengan sempurna.
+- Tidak perlu mengkonfigurasi aturan NAT, membuka port, atau mengatur server VPN konvensional. Setelah aplikasi dipasang di Umbrel dan perangkat Anda, jaringan secara otomatis terbentuk.
 
+Oleh karena itu, Tailscale di Umbrel adalah solusi yang sangat menarik jika Anda ingin mengakses node Anda dari mana saja di dunia dengan cara yang aman, berkinerja tinggi, dan mudah dikonfigurasi, tanpa mengorbankan privasi atau keamanan.
 
-
-
-- Anda dapat mengelola Interface Umbrel atau mengakses aplikasi yang terhubung ke node Anda (seperti Mempool, Ride The Lightning, ThunderHub...) dari mana saja, seolah-olah Anda berada di jaringan lokal yang sama, tanpa membuka port di Internet dan tanpa melalui Tor, yang sangat lambat;
-
-
-
-
-
-- Anda bisa tersambung ke peladen Electrum Anda (Electrs atau Fulcrum) atau langsung ke Bitcoin core melalui VPN Anda, melewati Tor. Ini memberikan koneksi yang aman, sebanding dengan menggunakan Tor, tetapi dengan kecepatan yang jauh lebih tinggi dan latensi yang lebih rendah. Singkatnya, Anda tetap mendapatkan manfaat privasi dan keamanan dari Tor sambil menikmati kecepatan koneksi Clearnet. Untuk On-Chain Wallet, keuntungan ini mungkin terlihat kecil, tetapi jika Anda berencana untuk menyiapkan node Lightning Anda sendiri di kemudian hari, perbedaannya cukup besar. Memang, melakukan pembayaran melalui node Anda saat bepergian dengan Tor sangat lambat karena banyaknya pertukaran yang diperlukan, sedangkan dengan Tailscale, ini bekerja dengan sempurna.
-
-
-
-
-
-- Tidak perlu mengonfigurasi aturan NAT, membuka porta, atau menyiapkan server VPN konvensional. Setelah aplikasi terinstal di Umbrel dan perangkat Anda, jaringan secara otomatis terbentuk.
-
-
-
-Oleh karena itu, Tailscale pada Umbrel merupakan solusi yang sangat menarik jika Anda ingin mengakses node Anda dari mana saja di seluruh dunia dengan cara yang aman, berkinerja tinggi, dan mudah dikonfigurasikan, tanpa mengorbankan privasi atau keamanan.
-
-
-
-Untuk menginstal dan mengkonfigurasi Tailscale pada Umbrel Anda, lihat tutorial ini, bagian 4: "*Menggunakan Tailscale pada Umbrel*":
-
-
+Untuk memasang dan mengkonfigurasi Tailscale di Umbrel Anda, lihat tutorial ini, bagian 4: "_Menggunakan Tailscale di Umbrel_":
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 

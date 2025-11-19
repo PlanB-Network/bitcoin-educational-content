@@ -1,0 +1,36 @@
+id: 9e019639-7d23-4f78-8520-ff87bbaf36d7
+start_date: 2025-11-21 08:30:00
+end_date: 2025-11-23 18:00:00
+timezone: Europe/Paris
+address_city_country: Annecy, France
+address_line_2: Novotel Annecy Centre, 1 Place Marie Curie, 1 Av. Berthollet, 74000
+name: B-Only 2025 Annecy
+type: conference
+description: |
+  "La conférence B-Only 2025 à Annecy est l’événement incontournable
+  pour les Bitcoiners et les passionnés de Bitcoin, ainsi que pour tous les
+  curieux désireux d’en savoir plus sur cette révolution monétaire.
+
+  Pour sa troisième édition, le B-Only vous propose une immersion totale dans
+  l’univers du Bitcoin, où vous pourrez à la fois approfondir vos connaissances,
+  découvrir de nouvelles perspectives et, surtout, rencontrer une communauté
+  engagée et dynamique.
+
+  Avec un focus exclusif sur Bitcoin, les conférences aborderont son écosystème,
+  ses acteurs clés, et les valeurs fondamentales qui définissent son ethos.
+  
+  L’événement se déroule sur trois jours complets, comprenant des conférences
+  enrichissantes, des ateliers pratiques et des moments d’échanges conviviaux.
+  Vous n’aurez à vous soucier de rien : deux nuits d’hébergement et les repas
+  sont inclus, vous permettant de vous concentrer pleinement sur l’expérience.
+
+  Rejoignez-nous pour trois jours d’apprentissage, de partage et de rencontres
+  autour du thème unique de Bitcoin."
+language:
+  - fr
+links:
+  website: https://b-only.org/
+tags:
+  - adoption
+  - market-trends
+  - community

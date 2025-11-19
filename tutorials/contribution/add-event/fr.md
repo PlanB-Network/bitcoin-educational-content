@@ -4,7 +4,7 @@ description: Comment proposer l'ajout d'un nouvel évènement sur Plan ₿ Acade
 ---
 ![event](assets/cover.webp)
 
-La mission de Plan₿ est de mettre à disposition des ressources pédagogiques de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
+La mission de Plan ₿ Academy est de mettre à disposition des ressources pédagogiques de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
 Vous souhaitez ajouter une conférence Bitcoin sur le site de Plan ₿ Academy et donner de la visibilité à votre évènement, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 

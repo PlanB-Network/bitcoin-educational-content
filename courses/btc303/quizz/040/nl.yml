@@ -1,0 +1,8 @@
+question: Volgens de bespreking van Bitcoin compatibiliteit in het hoofdstuk, welk type compatibiliteit biedt een zachte fork?
+answer: Zowel voorwaartse als achterwaartse compatibiliteit, waardoor het volledig compatibel is
+wrong_answers:
+  - Alleen achterwaartse compatibiliteit, waardoor nieuwe software oude gegevens kan verwerken
+  - Alleen voorwaartse compatibiliteit, waardoor oude software nieuwe gegevens kan verwerken
+  - Noch voorwaartse noch achterwaartse compatibiliteit, waardoor volledige systeemupdates nodig zijn
+explanation: |
+  Het hoofdstuk stelt duidelijk: "Een verandering in de Bitcoin consensusregels wordt een zachte fork genoemd als het volledig compatibel is Het definieert volledig compatibel als zowel voorwaarts als achterwaarts compatibel. Voorwaartse compatibiliteit betekent dat oude software gegevens van nieuwere versies kan verwerken door delen die het niet begrijpt te negeren, terwijl achterwaartse compatibiliteit betekent dat nieuwe software oude gegevens kan verwerken. Deze dubbele compatibiliteit maakt soft forks het voorkeursupgrade mechanisme voor Bitcoin, omdat ze bestaande systemen niet kapot maken en toch nieuwe functionaliteit mogelijk maken.

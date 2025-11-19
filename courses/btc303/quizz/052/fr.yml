@@ -1,0 +1,8 @@
+question: Selon l'axiome de résistance d'Eric Voskuil, quelle hypothèse fondamentale doit être acceptée pour que Bitcoin ait un sens en tant que système ?
+answer: Qu'il est possible pour un système de résister au contrôle de l'État
+wrong_answers:
+  - Que la majorité de la puissance du réseau restera toujours honnête
+  - Les algorithmes cryptographiques ne seront jamais cassés par l'informatique quantique
+  - Les utilisateurs privilégieront toujours la décentralisation à la commodité
+explanation: |
+  L'axiome de résistance suppose que les systèmes peuvent résister au contrôle de l'État, ce qui est fondamental pour l'objectif de Bitcoin en tant que monnaie sans permission. Sans cette hypothèse, l'ensemble du principe de Bitcoin s'effondre puisqu'il serait inévitablement contrôlé par les États. Les autres options, bien que pertinentes pour la sécurité de la Bitcoin, ne font pas partie de l'axiome de résistance de Voskuil, qui traite spécifiquement du fondement philosophique selon lequel la résistance au contrôle de l'État est possible.

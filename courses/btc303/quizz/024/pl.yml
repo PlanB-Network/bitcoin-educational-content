@@ -1,0 +1,8 @@
+question: Jaki jest główny powód, dla którego Bitcoin używa adresów pochodzących z kluczy publicznych jako pseudonimów zamiast opisowych nazw użytkowników?
+answer: Aby umożliwić bezpieczne tworzenie adresów offline bez konieczności rejestracji blockchain
+wrong_answers:
+  - Aby transakcje były całkowicie anonimowe i niemożliwe do wyśledzenia na blockchainie
+  - Aby zmniejszyć moc obliczeniową potrzebną do weryfikacji transakcji
+  - Aby umożliwić nieograniczone ponowne użycie tego samego pseudonimu w wielu transakcjach
+explanation: |
+  Bitcoin używa adresów pochodzących z kluczy publicznych jako pseudonimów, ponieważ system ten pozwala użytkownikom bezpiecznie tworzyć nowe adresy offline bez konieczności rejestrowania ich najpierw w łańcuchu bloków. Korzystanie z opisowych nazw użytkowników wymagałoby ogłoszenia powiązania między nazwą użytkownika a kluczem publicznym w łańcuchu bloków, co wiązałoby się z opłatami, rozdęciem łańcucha bloków i zmniejszeniem bezpieczeństwa. Dodatkowo, nazwy użytkowników zachęcałyby do ponownego użycia (zmniejszając prywatność) i stwarzałyby ryzyko podszywania się. System oparty na adresach eliminuje te problemy, zachowując jednocześnie bezpieczeństwo kryptograficzne niezbędne do prawidłowego funkcjonowania Bitcoin.

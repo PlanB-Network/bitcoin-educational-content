@@ -14,7 +14,7 @@ RGB - это протокол, который работает поверх Bitc
 
 Чтобы узнать больше о том, как работает протокол RGB, я рекомендую вам пройти этот полный курс обучения:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Внутренняя логика RGB основана на библиотеках Rust, которые вы, как разработчики, можете импортировать в свои проекты для управления частью *Client-side Validation*. Кроме того, команда LNP/BP работает над привязками для других языков, но эта работа еще не завершена. Кроме того, другие организации, такие как Bitfinex, разрабатывают свои собственные интеграционные стеки, но о них мы поговорим в другом руководстве. На данный момент CLI `rgb` является официальным эталоном, даже если он остается относительно недоработанным.
 
@@ -135,8 +135,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Затем следующая команда выводит глобальные состояния (имя, тикер, предложение...) и список Owned States, то есть распределений (например, 1 миллион токенов `PBN`, определенных в UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Затем следующая команда выводит глобальные состояния (имя, тикер, предложение...) и список Owned States, то есть распределений (например, 1 миллион токенов `Plan ₿ Academy`, определенных в UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 Я также рекомендую этот другой учебник, в котором я объясняю, как запустить RGB-совместимую ноду Lightning для обмена токенами почти мгновенно:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

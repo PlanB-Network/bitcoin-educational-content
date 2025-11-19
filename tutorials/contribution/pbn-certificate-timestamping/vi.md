@@ -1,17 +1,17 @@
 ---
-name: Dấu thời gian của bằng cấp Plan ₿ Network
-description: Hiểu cách Plan ₿ Network cấp các bằng chứng có thể xác minh được cho chứng chỉ và bằng cấp của bạn
+name: Dấu thời gian của bằng cấp Plan ₿ Academy
+description: Hiểu cách Plan ₿ Academy cấp các bằng chứng có thể xác minh được cho chứng chỉ và bằng cấp của bạn
 ---
 
 ![cover](assets/cover.webp)
 
-Nếu bạn đang đọc điều này, có khả năng cao là bạn đã nhận được một Chứng chỉ Bitcoin hoặc bằng tốt nghiệp cho một trong những khóa học bạn đã tham gia trên Plan ₿ Network, vì vậy xin chúc mừng bạn đã đạt được thành tựu này!
+Nếu bạn đang đọc điều này, có khả năng cao là bạn đã nhận được một Chứng chỉ Bitcoin hoặc bằng tốt nghiệp cho một trong những khóa học bạn đã tham gia trên Plan ₿ Academy, vì vậy xin chúc mừng bạn đã đạt được thành tựu này!
 
-Trong hướng dẫn này, chúng tôi sẽ xem xét cách Plan ₿ Network cấp các bằng chứng có thể xác minh được cho Chứng chỉ Bitcoin hoặc bất kỳ Bằng tốt nghiệp khoá học nào của bạn. Sau đó, trong phần thứ hai, chúng tôi sẽ xem cách xác minh tính xác thực của những bằng chứng này.
+Trong hướng dẫn này, chúng tôi sẽ xem xét cách Plan ₿ Academy cấp các bằng chứng có thể xác minh được cho Chứng chỉ Bitcoin hoặc bất kỳ Bằng tốt nghiệp khoá học nào của bạn. Sau đó, trong phần thứ hai, chúng tôi sẽ xem cách xác minh tính xác thực của những bằng chứng này.
 
-# Cơ chế tạo bằng chứng của Plan ₿ Network
+# Cơ chế tạo bằng chứng của Plan ₿ Academy
 
-Tại Plan ₿ Network, chúng tôi cung cấp cho bạn chứng chỉ và bằng cấp đã được chúng tôi ký bằng mật mã và dấu thời gian trên Timechain (tức là Blockchain Bitcoin). Để thực hiện điều này, chúng tôi đã phải tìm ra một cơ chế tạo bằng chứng dựa trên 2 thao tác mật mã:
+Tại Plan ₿ Academy, chúng tôi cung cấp cho bạn chứng chỉ và bằng cấp đã được chúng tôi ký bằng mật mã và dấu thời gian trên Timechain (tức là Blockchain Bitcoin). Để thực hiện điều này, chúng tôi đã phải tìm ra một cơ chế tạo bằng chứng dựa trên 2 thao tác mật mã:
 
 1. Một chữ ký GPG trên một tệp văn bản tổng hợp thành tựu của bạn
 2. Gán nhãn thời gian cho tệp đã ký thông qua [opentimestamps](https://opentimestamps.org/).
@@ -21,11 +21,11 @@ Chúng tôi tin rằng cơ chế cấp bằng chứng đơn giản này cho phé
 
 ![image](./assets/proof-mechanism.webp)
 
-Lưu ý rằng nhờ vào cơ chế chứng minh này, bất kỳ nỗ lực nào nhằm thay đổi ngay cả chi tiết nhỏ nhất của chứng chỉ hoặc bằng cấp của bạn sẽ tạo ra một mã hash sha256 hoàn toàn khác của tệp đã ký, điều này sẽ lập tức tiết lộ sự can thiệp bởi vì chữ ký và dấu thời gian sẽ không còn hợp lệ nữa. Hơn nữa, nếu ai đó cố gắng giả mạo một số chứng chỉ hoặc bằng cấp do Plan ₿ Network cấp, việc xác minh chữ ký đơn giản sẽ tiết lộ gian lận.
+Lưu ý rằng nhờ vào cơ chế chứng minh này, bất kỳ nỗ lực nào nhằm thay đổi ngay cả chi tiết nhỏ nhất của chứng chỉ hoặc bằng cấp của bạn sẽ tạo ra một mã hash sha256 hoàn toàn khác của tệp đã ký, điều này sẽ lập tức tiết lộ sự can thiệp bởi vì chữ ký và dấu thời gian sẽ không còn hợp lệ nữa. Hơn nữa, nếu ai đó cố gắng giả mạo một số chứng chỉ hoặc bằng cấp do Plan ₿ Academy cấp, việc xác minh chữ ký đơn giản sẽ tiết lộ gian lận.
 
 ## Chữ ký GPG hoạt động như thế nào?
 
-Chữ ký GPG có được nhờ sử dụng phần mềm mã nguồn mở có tên GNU Private Guard. Phần mềm này cho phép bất kỳ ai cũng dễ dàng tạo ra khóa riêng, ký và xác minh chữ ký cũng như mã hóa và giải mã tệp tin. Trong phạm vi của hướng dẫn này, bạn chỉ cần biết rằng Plan ₿ Network sử dụng GPG để tạo khóa riêng/công khai của mình và để ký vào bất kỳ Chứng chỉ Bitcoin hoặc Bằng tốt nghiệp khoá học nào của nền tảng.
+Chữ ký GPG có được nhờ sử dụng phần mềm mã nguồn mở có tên GNU Private Guard. Phần mềm này cho phép bất kỳ ai cũng dễ dàng tạo ra khóa riêng, ký và xác minh chữ ký cũng như mã hóa và giải mã tệp tin. Trong phạm vi của hướng dẫn này, bạn chỉ cần biết rằng Plan ₿ Academy sử dụng GPG để tạo khóa riêng/công khai của mình và để ký vào bất kỳ Chứng chỉ Bitcoin hoặc Bằng tốt nghiệp khoá học nào của nền tảng.
 
 Mặt khác, nếu ai đó muốn xác minh tính xác thực của một tệp đã ký, họ có thể sử dụng GPG để nhập khóa công khai của người phát hành và xác minh. Trong phần thứ hai của hướng dẫn, chúng ta sẽ xem cách làm điều này với một terminal.
 
@@ -37,11 +37,11 @@ Bất kỳ ai cũng có thể sử dụng OpenTimestamps để gán nhãn thời
 OpenTimestamps có thể cung cấp dịch vụ này miễn phí là nhờ vào việc lưu trữ hiệu quả một bằng chứng như vậy trong Blockchain Bitcoin. Nó sử dụng mã hash sha256 của tệp như một định danh duy nhất của tệp của bạn và xây dựng một cây merkle với các hash khác của tệp được gửi từ người dùng khác và chỉ neo hash của cấu trúc cây Merkle trong một giao dịch OpReturn.
 Sau khi giao dịch này được đưa vào một khối, bất kỳ ai có tập tin gốc và file `.ots` liên quan đến nó có thể xác minh tính xác thực của việc gán nhãn thời gian. Trong phần thứ hai của hướng dẫn, chúng ta sẽ xem cách xác minh Chứng chỉ Bitcoin của bạn hoặc bất kỳ Bằng tốt nghiệp khoá học nào với một terminal và với giao diện đồ họa qua trang web của OpenTimestamps.
 
-# Cách xác minh Chứng chỉ hoặc Bằng tốt nghiẹp của Plan ₿ Network
+# Cách xác minh Chứng chỉ hoặc Bằng tốt nghiẹp của Plan ₿ Academy
 
 ## Bước 1. Tải xuống Chứng chỉ hoặc Bằng tốt nghiệp của bạn
 
-Đăng nhập vào bảng điều khiển PBN cá nhân của bạn.
+Đăng nhập vào bảng điều khiển Plan ₿ Academy cá nhân của bạn.
 
 ![image](./assets/login.webp)
 
@@ -63,16 +63,16 @@ Giải nén nội dung bằng cách nhấp chuột phải vào file `.zip` và c
 
 Đầu tiên mở một terminal trong thư mục chứa các file (nhấp chuột phải vào cửa sổ thư mục và nhấp vào "Open in Terminal"). Sau đó làm theo các hướng dẫn dưới đây
 
-1. Nhập khóa công khai PGP của Plan ₿ Network với lệnh sau:
+1. Nhập khóa công khai PGP của Plan ₿ Academy với lệnh sau:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Bạn nên thấy một thông báo như sau nếu bạn đã nhập khóa PGP thành công
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -87,7 +87,7 @@ gpg --verify certificate.txt
 
 Lệnh này sẽ hiển thị cho bạn các chi tiết về chữ ký, bao gồm:
 
-- Ai đã ký nó (Plan ₿ Network)
+- Ai đã ký nó (Plan ₿ Academy)
 - Khi nào nó được ký
 - Liệu chữ ký có hợp lệ không
 
@@ -97,7 +97,7 @@ Lệnh này sẽ hiển thị cho bạn các chi tiết về chữ ký, bao gồ
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 Nếu bạn thấy một thông báo như "BAD signature", điều đó có nghĩa là file đã bị thay đổi.
@@ -143,7 +143,7 @@ Lệnh này sẽ:
 
 Lưu ý rằng việc xác minh thành công nếu **cả hai** thông điệp sau được hiển thị:
 
-1. Chữ ký GPG được báo cáo là **"Chữ ký tốt từ Plan ₿ Network"**
+1. Chữ ký GPG được báo cáo là **"Chữ ký tốt từ Plan ₿ Academy"**
 2. Xác minh OpenTimestamps hiển thị một nhãn thời gian khối Bitcoin cụ thể và báo cáo **"Thành công! Khối Bitcoin [blockheight] chứng thực dữ liệu tồn tại kể từ [timestamp]"**
 
-Giờ đây, bạn đã biết cách Plan ₿ Network phát hành bằng chứng có thể xác minh được cho bất kỳ Chứng chỉ Bitcoin và Bằng tốt nghiệp khóa học nào, bạn có thể dễ dàng xác minh tính toàn vẹn của nó.
+Giờ đây, bạn đã biết cách Plan ₿ Academy phát hành bằng chứng có thể xác minh được cho bất kỳ Chứng chỉ Bitcoin và Bằng tốt nghiệp khóa học nào, bạn có thể dễ dàng xác minh tính toàn vẹn của nó.

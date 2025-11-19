@@ -1,0 +1,8 @@
+question: Enligt Shaolinfrys argument för User Activated Soft Forks (UASF), vad är det största problemet med gruvarbetaraktiverade mjuka gafflar när det gäller uppgraderingsimplementering?
+answer: En liten andel av hashrate kan lägga in veto mot uppgraderingar för alla, vilket skapar tröghet i uppgraderingen
+wrong_answers:
+  - Gruvarbetare kan återkalla mjuka fork-aktiveringar efter implementering genom majoritetsöverenskommelse
+  - Ekonomiska noder förlorar kontrollen över valideringsreglerna när gruvarbetare signalerar aktivering
+  - Soft fork-förändringar blir permanenta och kan inte ändras när gruvarbetare aktiverar dem
+explanation: |
+  Shaolinfry identifierade att miner-signalering skapar ett naturligt vetosystem där även en liten andel av hashrate kan förhindra att uppgraderingar aktiveras för hela nätverket. Denna "uppgraderingströghet" blir mer problematisk när mining blir mer decentraliserad, vilket potentiellt kan blockera fördelaktiga protokollförbättringar. De andra alternativen ger en felaktig bild av hur mjuka gafflar fungerar - gruvarbetare kan inte ensidigt upphäva aktiveringar, ekonomiska noder behåller valideringsbehörigheten och mjuka gafflar kan teoretiskt sett modifieras genom efterföljande uppgraderingar.

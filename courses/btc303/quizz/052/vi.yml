@@ -1,0 +1,8 @@
+question: Theo tiên đề kháng cự của Eric Voskuil, giả định cơ bản nào phải được chấp nhận để Bitcoin có ý nghĩa như một hệ thống?
+answer: Rằng một hệ thống có thể chống lại sự kiểm soát của nhà nước
+wrong_answers:
+  - Phần lớn sức mạnh băm của mạng sẽ luôn trung thực
+  - Các thuật toán mật mã sẽ không bao giờ bị phá vỡ bởi máy tính lượng tử
+  - Người dùng sẽ luôn ưu tiên sự phân quyền hơn là sự tiện lợi
+explanation: |
+  Tiên đề kháng cự giả định rằng các hệ thống có thể chống lại sự kiểm soát của nhà nước, vốn là nền tảng cho mục đích của Bitcoin với tư cách là một loại tiền tệ không cần xin phép. Nếu không có giả định này, toàn bộ tiền đề của Bitcoin sẽ sụp đổ vì nó chắc chắn sẽ bị nhà nước kiểm soát. Các lựa chọn khác, mặc dù liên quan đến an ninh của Bitcoin, không nằm trong tiên đề kháng cự của Voskuil, vốn đề cập cụ thể đến nền tảng triết học cho thấy khả năng chống lại sự kiểm soát của nhà nước là có thể.

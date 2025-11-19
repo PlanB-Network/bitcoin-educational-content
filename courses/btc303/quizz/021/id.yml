@@ -1,0 +1,8 @@
+question: Apa yang berfungsi sebagai nama samaran dalam sistem nama samaran Bitcoin?
+answer: Alamat yang berasal dari kunci publik
+wrong_answers:
+  - "Nama pengguna deskriptif seperti 'watchme1984'"
+  - Kunci pribadi yang tersimpan dalam dompet
+  - ID transaksi pada blockchain
+explanation: |
+  Bitcoin menggunakan alamat yang berasal dari kunci publik sebagai nama samaran, bukan nama pengguna atau pengenal lainnya. Pilihan desain ini memiliki beberapa tujuan penting: menghilangkan kebutuhan untuk mendaftarkan nama samaran terlebih dahulu pada blockchain, mengurangi insentif untuk menggunakan kembali nama samaran yang sama, menghindari blockchain yang tidak perlu, dan membuatnya lebih sulit bagi aktor jahat untuk meniru orang lain. Menggunakan nama pengguna deskriptif akan membutuhkan sebuah sistem registrasi dan menciptakan kerentanan keamanan, sedangkan private key harus tetap rahasia dan ID transaksi memiliki tujuan yang berbeda di dalam sistem.

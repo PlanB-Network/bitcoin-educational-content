@@ -1,27 +1,27 @@
 ---
 name: 校對指引
-description: 在 Plan ₿ Network 上進行校對時要注意哪些重要因素？
+description: 在 Plan ₿ Academy 上進行校對時要注意哪些重要因素？
 ---
 
 ![github](assets/cover.webp)
 
 
-歡迎閱讀本教學，內容關於校對 Plan ₿ Network 上的內容時**應遵循的準則**。我們很高興您能認同我們的使命，將 Bitcoin 的資料翻譯成儘可能多的語言，以協助人們瞭解它的運作方式，以及如何在日常生活中使用。
+歡迎閱讀本教學，內容關於校對 Plan ₿ Academy 上的內容時**應遵循的準則**。我們很高興您能認同我們的使命，將 Bitcoin 的資料翻譯成儘可能多的語言，以協助人們瞭解它的運作方式，以及如何在日常生活中使用。
 
 
-首先，貢獻 Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)讓您有機會撰寫教學、校對現有內容，甚至建議在平台上加入新的語言。若要瞭解更多資訊，請先加入我們的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，並寫下關於您和您會說的語言的簡短介紹。
+首先，貢獻 Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)讓您有機會撰寫教學、校對現有內容，甚至建議在平台上加入新的語言。若要瞭解更多資訊，請先加入我們的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，並寫下關於您和您會說的語言的簡短介紹。
 
 
-本教學專門提供給想要校對內容的撰稿人。他們大多不太瞭解 [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我們在儲存庫內部使用的 [Markdown 語言](https://www.markdownguide.org/basic-syntax/)，因此有必要分享一些關於這項工作所涉及的關鍵因素的心得。
+本教學專門提供給想要校對內容的撰稿人。他們大多不太瞭解 [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我們在儲存庫內部使用的 [Markdown 語言](https://www.markdownguide.org/basic-syntax/)，因此有必要分享一些關於這項工作所涉及的關鍵因素的心得。
 
 
 以下是我收集的校對人員最常遇到的問題。歡迎提出更多的建議，因為這可以幫助他人改進。
 
 
-在深入瞭解具體細節之前，首先要做的是閱讀本教學，瞭解在 Github 上應遵循的實際操作：fork Plan ₿ Network 倉庫、提交變更和發送 PR：
+在深入瞭解具體細節之前，首先要做的是閱讀本教學，瞭解在 Github 上應遵循的實際操作：fork Plan ₿ Academy 倉庫、提交變更和發送 PR：
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 什麼是校對？
@@ -38,13 +38,13 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 
 事實上，我們的共同目標是讓盡可能多的人了解 Bitcoin，因此最基本的是讓他們讀到的資料流暢、清晰。
 
-從這個意義上說，Plan ₿ Network 上的所有貢獻者都是教育者！
+從這個意義上說，Plan ₿ Academy 上的所有貢獻者都是教育者！
 
 
-## 在 Plan ₿ Network 上進行校對之前的第一步
+## 在 Plan ₿ Academy 上進行校對之前的第一步
 
 
-在開始新的校對工作之前，請在 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 中公佈，或通知您的 Plan ₿ Network 協調員，他們會開啟專屬的 [issue] (https://github.com/orgs/PlanB-Network/projects/3)。當您收到問題連結時，只需**註明您正開始**該內容的校對工作。
+在開始新的校對工作之前，請在 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 中公佈，或通知您的 Plan ₿ Academy 協調員，他們會開啟專屬的 [issue] (https://github.com/orgs/Plan ₿ Academy/projects/3)。當您收到問題連結時，只需**註明您正開始**該內容的校對工作。
 
 
 此系統可協助協調員追蹤 repo 內的進度，並允許校對員「認領」內容，以防止其他人重複工作。
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 
 
 
-同步成功後，您可以直接存取感興趣的內容，並在新的分支上提交，如本 [教學](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) 所示。否則，您可以點選「分支」開啟一個新的分支，如下圖所示。
+同步成功後，您可以直接存取感興趣的內容，並在新的分支上提交，如本 [教學](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) 所示。否則，您可以點選「分支」開啟一個新的分支，如下圖所示。
 
 
 
@@ -115,11 +115,11 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
-- 另一個好的解決方案是保留 EN 原有的字/詞，然後**建立一個超連結**，重定向到 planb.network 上的 [詞彙表](https://planb.network/en/resources/glossary)。要做到這一點，您需要在方括號內插入單詞/短語，並在圓括弧內插入鏈接，就像您在下面的示例中看到的那樣：
+- 另一個好的解決方案是保留 EN 原有的字/詞，然後**建立一個超連結**，重定向到 planb.network 上的 [詞彙表](https://planb.academy/en/resources/glossary)。要做到這一點，您需要在方括號內插入單詞/短語，並在圓括弧內插入鏈接，就像您在下面的示例中看到的那樣：
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
-請注意，您將從網站取得的詞彙連結，在「network」一詞後面含有語言代碼（例如： ``https://planb.network/en/resources/glossary/utxo`-> 此處您可以讀取語言代碼「en」）。在這種情況下，**從連結中移除語言代碼**，就像您在上面方塊中看到的那樣。這樣，系統就會自動將讀者帶到他們指定的語言。
+請注意，您將從網站取得的詞彙連結，在「network」一詞後面含有語言代碼（例如： ``https://planb.academy/en/resources/glossary/utxo`-> 此處您可以讀取語言代碼「en」）。在這種情況下，**從連結中移除語言代碼**，就像您在上面方塊中看到的那樣。這樣，系統就會自動將讀者帶到他們指定的語言。
 
 
 資源庫上的內容充滿了像上面這些超連結。現在您知道它們的意思了，**請確定不要刪除原作者插入的任何連結**。
 
 
 
-- 與字彙詮釋相關的另一件事如下。如果您在文中找到「Plan ₿ Network」，請**保留此原始形式**。請勿翻譯「計畫」或「網路」。此外，在介紹 Plan ₿ Network 時，請勿使用「The」一詞： **將其視為一個品牌**。
+- 與字彙詮釋相關的另一件事如下。如果您在文中找到「Plan ₿ Academy」，請**保留此原始形式**。請勿翻譯「計畫」或「網路」。此外，在介紹 Plan ₿ Academy 時，請勿使用「The」一詞： **將其視為一個品牌**。
 
 
 
@@ -323,7 +323,7 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 
 
-- 顺着主题，如果作者插入了指向 Plan ₿ Network 课程或教程的链接（**不**在括号内），网站会自动创建一个 "卡片"，显示相关缩略图。因此，请务必在文本和链接本身之间**加一行新线**，否则网站可能会出现以下错误。
+- 顺着主题，如果作者插入了指向 Plan ₿ Academy 课程或教程的链接（**不**在括号内），网站会自动创建一个 "卡片"，显示相关缩略图。因此，请务必在文本和链接本身之间**加一行新线**，否则网站可能会出现以下错误。
 
 
 

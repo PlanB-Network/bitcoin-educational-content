@@ -1,0 +1,8 @@
+question: Qual é a principal consequência quando as solicitações de pull do Bitcoin Core levam muito tempo antes de serem mescladas ao repositório pelos mantenedores?
+answer: Indica uma falta de revisores disponíveis para avaliar as alterações propostas ao código
+wrong_answers:
+  - "Demonstra que os responsáveis pela manutenção estão a atrasar deliberadamente o processo de desenvolvimento do Bitcoin"
+  - "Mostra que as alterações propostas são fundamentalmente incompatíveis com as regras de consenso do Bitcoin"
+  - "Revela que a plataforma GitHub tem limitações técnicas para lidar com a base de código do Bitcoin"
+explanation: |
+  De acordo com o conteúdo do capítulo, os pull requests demoram muito tempo a serem fundidos, principalmente devido à falta de revisão, que decorre da insuficiência de revisores e não da obstrução do responsável ou de questões técnicas. O processo de revisão é crucial para a segurança do Bitcoin, pois garante a qualidade do código e evita alterações maliciosas. Este estrangulamento existe porque a revisão de código criptográfico complexo requer experiência e tempo, tornando os revisores qualificados um recurso escasso no processo de desenvolvimento.

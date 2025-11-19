@@ -20,7 +20,7 @@ _Ovaj vodič je pružen isključivo u obrazovne i informativne svrhe. Ne podrža
 
 U prethodnom vodiču, već smo objasnili postupak instalacije i korišćenja RoninDojo v1. Međutim, tokom protekle godine, timovi RoninDojo su lansirali verziju 2 svoje implementacije, što je označilo značajnu prekretnicu u arhitekturi softvera. Naime, prešli su sa Linux Manjaro distribucije na Debian. Shodno tome, više ne nude unapred konfigurisan imidž za automatsku instalaciju na Raspberry Pi. Ali i dalje postoji metoda za ručnu instalaciju. Ovo je ono što sam koristio za svoj čvor, i od tada, RoninDojo v2 radi odlično na mom Raspberry Pi 4. Stoga nudim novi vodič o tome kako ručno instalirati RoninDojo v2 na Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Sadržaj:
 
@@ -45,7 +45,7 @@ RoninDojo je Dojo, tako da omogućava laku integraciju Whirlpool CLI u vaš Bitc
 Iza Whirlpool CLI, RoninDojo uključuje razne alate za poboljšanje funkcionalnosti vašeg Dojo-a. Među njima, Boltzmann kalkulator analizira nivo privatnosti vaših transakcija, Electrum server omogućava povezivanje vaših Bitcoin novčanika sa vašim čvorom, a Mempool server omogućava vam da lokalno pregledate vaše transakcije, bez curenja informacija.
 
 
-U poređenju sa drugim node rešenjima kao što je Umbrel, RoninDojo je jasno fokusiran na [On-Chain](https://planb.network/resources/glossary/onchain) rešenja i alate za privatnost. Za razliku od Umbrel-a, RoninDojo ne podržava postavljanje Lightning node-a niti integraciju opštijih server aplikacija. Iako RoninDojo nudi manje svestranih alata od Umbrel-a, ima sve osnovne funkcionalnosti za upravljanje vašim On-Chain aktivnostima.
+U poređenju sa drugim node rešenjima kao što je Umbrel, RoninDojo je jasno fokusiran na [On-Chain](https://planb.academy/resources/glossary/onchain) rešenja i alate za privatnost. Za razliku od Umbrel-a, RoninDojo ne podržava postavljanje Lightning node-a niti integraciju opštijih server aplikacija. Iako RoninDojo nudi manje svestranih alata od Umbrel-a, ima sve osnovne funkcionalnosti za upravljanje vašim On-Chain aktivnostima.
 
 
 Ako vam nisu potrebne generalističke funkcionalnosti ili one povezane sa Lightning mrežom koje nudi Umbrel, a tražite jednostavan, stabilan čvor sa osnovnim alatima kao što su Whirlpool ili Mempool, RoninDojo bi mogao biti idealno rešenje. Dok Umbrel teži da postane mini server za više zadataka orijentisan ka Lightning mreži i svestranosti, RoninDojo, u skladu sa filozofijom Samourai novčanika, fokusira se na osnovne alate za privatnost korisnika.
@@ -332,7 +332,7 @@ Jednom kada se nađete na početnoj stranici RoninUI, bićete pozvani da započn
 ![lets start](assets/notext/25.webp)
 
 
-U ovoj fazi, RoninUI vam prikazuje vašu `root` lozinku. Važno je da je čuvate na sigurnom. Možete se odlučiti za fizičku kopiju, na papiru, ili je sačuvati u [menadžeru lozinki](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+U ovoj fazi, RoninUI vam prikazuje vašu `root` lozinku. Važno je da je čuvate na sigurnom. Možete se odlučiti za fizičku kopiju, na papiru, ili je sačuvati u [menadžeru lozinki](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)
@@ -542,7 +542,7 @@ Nakon obavljanja coinjoin-a sa Whirlpool-om, korisno je precizno proceniti nivo 
 Da biste produbili svoje razumevanje mehanizama izračunavanja ovih anonseta, preporučujem čitanje članka: REMIX - Whirlpool, koji detaljno opisuje funkcionisanje ovih pokazatelja.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

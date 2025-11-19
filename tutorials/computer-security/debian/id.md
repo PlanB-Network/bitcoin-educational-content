@@ -227,7 +227,7 @@ Jika Anda telah mengunduh file `.deb` (paket Debian), Anda dapat menginstalnya d
 sudo apt install ./name.deb
 ```
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Sistem Debian Anda sekarang telah terinstal dan siap digunakan untuk tugas sehari-hari.
 
@@ -237,4 +237,4 @@ Anda juga dapat mengubah lingkungan desktop Anda (misalnya ke XFCE, KDE, dll.) t
 
 Untuk mempelajari lebih lanjut tentang Debian, dan secara umum tentang distribusi GNU/Linux, saya sarankan Anda untuk membaca kursus ini:
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

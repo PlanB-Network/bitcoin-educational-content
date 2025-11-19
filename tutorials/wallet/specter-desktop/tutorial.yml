@@ -1,0 +1,25 @@
+id: 9c5684cd-4391-46f8-b0bc-f7fe8a9431ec
+
+project_id: 75aa8e7c-d603-431e-9250-04dca714654c
+
+tags:
+  - wallets
+  - guides
+  - user-friendly
+
+category: desktop
+
+level: beginner
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-15
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 1.22

@@ -1,0 +1,8 @@
+question: Apa yang dimaksud dengan desentralisasi penambang secara khusus dalam Bitcoin?
+answer: Pemesanan transaksi dilakukan secara kolektif oleh sekumpulan penambang yang dinamis, bukan oleh satu entitas tunggal
+wrong_answers:
+  - Validasi blok didistribusikan ke beberapa otoritas tepercaya, bukan ke satu server pusat
+  - Hadiah mining didistribusikan secara merata di antara semua peserta dalam jaringan Bitcoin
+  - Perangkat keras mining diproduksi oleh perusahaan yang berbeda untuk mencegah monopoli peralatan
+explanation: |
+  Desentralisasi Miner secara khusus berarti bahwa pemesanan transaksi tidak dikontrol oleh satu entitas atau kelompok tetap, melainkan oleh sekelompok penambang yang dapat dengan bebas bergabung atau keluar. Hal ini berbeda dengan validasi blok (yang berhubungan dengan desentralisasi full node), distribusi reward, atau pembuatan perangkat keras. Sifat dinamis dari kolektif mining - di mana setiap orang dapat berpartisipasi tanpa izin - adalah apa yang membuat Bitcoin tahan terhadap sensor dan mencegah satu pihak untuk mengontrol transaksi mana yang dimasukkan ke dalam blok.

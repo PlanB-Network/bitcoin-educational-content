@@ -1,6 +1,6 @@
 ---
 name: Bidrag - Git-handledning (avancerad)
-description: Guide för avancerade användare som erbjuder en handledning i Plan ₿ Network med Git
+description: Guide för avancerade användare som erbjuder en handledning i Plan ₿ Academy med Git
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: Guide för avancerade användare som erbjuder en handledning i Plan
 Innan du följer denna handledning om hur du lägger till en ny handledning måste du ha slutfört några inledande steg. Om du inte redan har gjort det kan du först läsa den här inledande handledningen och sedan komma tillbaka hit:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Du har redan:
 
 
 
 - Välj ett tema för din handledning;
-- Kontaktade Plan ₿ Network-teamet via [Telegramgrupp](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
+- Kontaktade Plan ₿ Academy-teamet via [Telegramgrupp](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Välj dina bidragsverktyg.
 
 
-I denna handledning för erfarna Git-användare sammanfattar vi kort de viktigaste stegen och de viktigaste riktlinjerna för att erbjuda en ny Plan ₿ Network-handledning. Om du inte är bekant med Git och GitHub rekommenderar jag att du istället följer en av dessa andra 2 mer detaljerade handledningar som tar dig steg för steg:
+I denna handledning för erfarna Git-användare sammanfattar vi kort de viktigaste stegen och de viktigaste riktlinjerna för att erbjuda en ny Plan ₿ Academy-handledning. Om du inte är bekant med Git och GitHub rekommenderar jag att du istället följer en av dessa andra 2 mer detaljerade handledningar som tar dig steg för steg:
 
 
 
 - Mellanliggande (GitHub Desktop):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - Nybörjare (webb Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Förslag på verktyg
 
@@ -80,7 +80,7 @@ För att skapa diagram och visuella bilder:
 
 
 
-- Du måste ha din egen Fork av [Plan ₿ Network repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+- Du måste ha din egen Fork av [Plan ₿ Academy repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Synkronisera huvudgrenen (`dev`) i din Fork med källkatalogen.
 - Uppdatera din lokala klon.
 
@@ -213,15 +213,15 @@ Här är de obligatoriska fälten:
 
 
 
-- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Academy:s tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategori**: Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: `dator`, `hårdvara`, `mobil`, `backup`);
+- **kategori**: Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Academy:s webbplatsstruktur (t.ex. för plånböcker: `dator`, `hårdvara`, `mobil`, `backup`);
 
 
 
@@ -252,7 +252,7 @@ Här är de obligatoriska fälten:
 För mer information om ditt lärar-ID, se motsvarande handledning:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -382,7 +382,7 @@ print("Hello, Bitcoin!")
     - Se till att de är relevanta och av hög kvalitet.
 - **Grafisk charter**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Färger Plan ₿ Network:
+    - Färger Plan ₿ Academy:
         - Orange: `#FF5C00`
         - Svart: `#000000`
         - Vit: `#FFFFFFFF`

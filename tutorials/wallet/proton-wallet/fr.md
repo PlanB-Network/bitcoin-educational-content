@@ -14,7 +14,7 @@ La particularité de ce portefeuille est la possibilité d'envoyer des bitcoins 
 
 Pour utiliser Proton Wallet, vous devez obligatoirement posséder un compte Proton. Vous pouvez en créer un gratuitement en suivant les premières étapes de ce tutoriel dédié à la création d'une boîte mail Proton (seulement la section "*Créer un compte Proton*"). Une fois votre compte configuré, vous pourrez poursuivre avec la suite de ce tutoriel.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Se connecter à Proton Wallet
 
@@ -68,7 +68,7 @@ Vous pouvez l'inscrire sur un bout de papier, ou bien pour plus de sécurité, j
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Évidemment, vous ne devez jamais prendre en photo ces mots, contrairement à ce que je fais dans ce tutoriel.**_
 
@@ -96,7 +96,7 @@ C'est à cette étape que vous avez la possibilité d'ajouter une passphrase BIP
 
 Pour approfondir vos connaissances sur la passphrase, je vous recommande de consulter ce tutoriel :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Recevoir des bitcoins
 
@@ -160,5 +160,5 @@ Félicitations, vous savez dorénavant comment configurer et utiliser Proton Wal
 
 Pour aller plus loin, je vous recommande de consulter ce tutoriel sur le Jade Plus, le tout dernier hardware wallet de Blockstream :
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 

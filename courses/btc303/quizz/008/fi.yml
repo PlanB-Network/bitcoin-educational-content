@@ -1,0 +1,8 @@
+question: Mikä tekee Bitcoin:n tapahtumankäsittelystä sensuurin kestävää?
+answer: Transaktioiden tilaaminen tapahtuu kollektiivisesti dynaamisella joukolla louhijoita, joihin kuka tahansa voi liittyä tai lähteä
+wrong_answers:
+  - Tapahtumien validointi on salattu käyttäen kehittyneitä salausprotokollia, joita hallitukset eivät voi murtaa
+  - Tapahtumatiedot tallennetaan useille varmuuskopiointipalvelimille, joita valvovat eri luotettavat organisaatiot
+  - Transaktiomaksut mukautetaan automaattisesti keskusviranomaisten taloudellisten hyökkäysten estämiseksi
+explanation: |
+  Bitcoin saavuttaa sensuurin vastustuskyvyn kaivostyöläisten hajauttamisella, jossa kaikki halukkaat kaivostyöläiset suorittavat transaktioiden tilaamisen kollektiivisesti. Tämä luo dynaamisen järjestelmän, jossa kuka tahansa voi liittyä mining-prosessiin tai poistua siitä vapaasti, jolloin ei ole enää mitään yksittäistä hallintapistettä, jota voitaisiin painostaa sensuroimaan transaktioita. Väärissä vastauksissa kuvataan teknisiä ominaisuuksia, luotettavia osapuolia tai taloudellisia mekanismeja, jotka eivät käsittele transaktioiden käsittelyn hajautettua valvontaa koskevaa ydinkysymystä.

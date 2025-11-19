@@ -89,7 +89,7 @@ Je, uko tayari kuzama katika ulimwengu wa mitandao ya kompyuta? Twende!
 **KUMBUKA**: Maelezo yanatokana na mfumo wa GNU/Linux CentOS 7. Walakini, usanidi wa mtandao kwa kiasi kikubwa ni sawa wakati wa kulinganisha Debian na mfumo wa CentOS. Kwa hivyo, hatutafanya tofauti yoyote. Wakati kuna moja, tutakiambisha kwa nembo mahususi.
 
 
-**N.B.**: Ukikutana na maneno yoyote usiyoyafahamu wakati wa kozi, tafadhali soma [faharasa](https://planb.network/resources/glossary) kwa ufafanuzi.
+**N.B.**: Ukikutana na maneno yoyote usiyoyafahamu wakati wa kozi, tafadhali soma [faharasa](https://planb.academy/resources/glossary) kwa ufafanuzi.
 
 
 
@@ -137,7 +137,7 @@ Faida ya mpangilio huu iko katika unyenyekevu wa cabling yake, na kutokuwepo kwa
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/sw/001.webp)
 
 
 
@@ -151,7 +151,7 @@ Mpangilio huu wa daraja hufanya kazi vyema hasa kwa mitandao mikubwa inayohitaji
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/sw/002.webp)
 
 
 
@@ -165,7 +165,7 @@ Faida kuu ya topolojia ya bus ni gharama ya chini ya usakinishaji, shukrani kwa 
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/sw/003.webp)
 
 
 
@@ -179,7 +179,7 @@ Mpangilio huu hurahisisha usimamizi na matengenezo: ikiwa kifaa kimoja cha pembe
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/sw/004.webp)
 
 
 
@@ -196,7 +196,7 @@ Biashara ni kwamba idadi ya miunganisho itakayoanzishwa inaongezeka kwa kasi na 
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/sw/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Tabaka nne za muundo wa TCP/IP ni:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/sw/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Kila Layer ya rundo la TCP/IP hutoa huduma mahususi, na kuifanya iwezekane kwa m
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## protocol ya IPv5 QoS
 
@@ -390,7 +390,7 @@ Datagram inapozidi MTU ya sehemu ya mtandao inayohitaji kuvuka, vifaa vya kuelek
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/sw/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Uhamisho kwa hivyo unafuata mchakato ulioandaliwa:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/sw/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Baada ya kuwasili, mchakato umebadilishwa: mashine ya kupokea inapata sura kweny
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/sw/009.webp)
 
 
 
@@ -455,7 +455,7 @@ Mabadiliko ya data katika kila Layer yanaweza kufupishwa kama:
 - **Frame**: Kizuizi cha mwisho kiko tayari kutumwa kupitia mkondo halisi na Network Access Layer.
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/sw/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Idadi ya address zinazopatikana hutofautiana sana kati ya madarasa: kutoka mitan
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/sw/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Tunataka subnet 4 za hadi wapangishi 60 kila moja.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/sw/012.webp)
 
 
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP Protocol 
 
@@ -680,7 +680,7 @@ TCP ni protocol inayolenga muunganisho, kumaanisha kuwa inaanzisha uhusiano wa w
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/sw/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Ili kuboresha kutegemewa, TCP hutumia kipima muda: mara sehemu inapotumwa, hesab
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/sw/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Usawazishaji wa mfuatano wa Exchange unatokana na utaratibu maarufu wa **"*three
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/sw/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Kwa maneno ya kiutendaji, dirisha la kutelezesha linafafanua anuwai ya nambari z
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/sw/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Usimamizi huu sahihi, unaochanganya uelekezaji unaonyumbulika wa IP na udhibiti 
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/sw/017.webp)
 
 
 
@@ -793,7 +793,7 @@ Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/sw/018.webp)
 
 
 
@@ -802,7 +802,7 @@ Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/sw/019.webp)
 
 
 
@@ -837,7 +837,7 @@ Kwa kuchanganya kipengele cha mlalo (mawasiliano kati ya programu zilizosambazwa
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/sw/020.webp)
 
 
 
@@ -897,7 +897,7 @@ mfano: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/sw/021.webp)
 
 
 
@@ -1184,7 +1184,7 @@ Ni muhimu kukumbuka kuwa MAC Address na IP Address ni vitambulishi viwili tofaut
 - Mfano unaoonekana wa MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/sw/022.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Ni muhimu kukumbuka kuwa MAC Address na IP Address ni vitambulishi viwili tofaut
 - Mfano unaoonekana wa IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/sw/023.webp)
 
 
 
@@ -1259,7 +1259,7 @@ Mbali na kushughulikia uhaba wa IPv4, NAT pia huimarisha usalama kwa kuunda kizu
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/sw/024.webp)
 
 
 
@@ -1332,7 +1332,7 @@ _Kuonyesha jinsi hii inavyofanya kazi, zingatia mfano ufuatao:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/sw/025.webp)
 
 
 
@@ -1380,11 +1380,11 @@ Katika sura inayofuata, tutaangalia kwa undani usanidi wa IP Address chini ya Li
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Je, ninawezaje kusanidi mtandao na `ip`?
@@ -1501,7 +1501,7 @@ Katika mazingira ya kitaaluma, lengo ni kuhakikisha uendelevu wa huduma na/au ku
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/sw/026.webp)
 
 
 
@@ -1957,7 +1957,7 @@ Kwa usanidi otomatiki, kuna njia kadhaa:
 Hapa kuna mfano wa jinsi ya kubadilisha MAC Address kuwa EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/sw/027.webp)
 
 
 
@@ -2096,7 +2096,7 @@ Huu hapa ni muhtasari wa aina tofauti za vichwa vya viendelezi vilivyofafanuliwa
 Kichwa hiki, ikiwa kipo, kila mara huwekwa mara baada ya kichwa cha msingi. Ina maelezo ambayo lazima yachakatwa na kila kipanga njia kando ya njia ya pakiti, tofauti na vichwa vingine vingi, ambavyo kwa kawaida hushughulikiwa tu na nodi lengwa. Matumizi ya kawaida ni pamoja na kuashiria vigezo vya kimataifa au kuomba hatua mahususi za uchakataji kadiri pakiti inavyosafiri kupitia mtandao.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/sw/028.webp)
 
 
 #### Inaelekeza header
@@ -2121,7 +2121,7 @@ Sehemu nne za kwanza za kichwa hiki cha mizizi ni:
 Sehemu ya "Sehemu Zilizosalia" huanza na jumla ya idadi ya sehemu zilizosalia na hupunguzwa kwa moja kwa kila mruko.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/sw/029.webp)
 
 
 #### Kichwa cha kugawanyika (Fragment Header)
@@ -2138,7 +2138,7 @@ Kichwa cha kugawanyika kina sehemu zifuatazo:
 - **M flag**: inaonyesha ikiwa vipande zaidi vinafuata.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/sw/030.webp)
 
 
 #### Kijajuu cha uthibitishaji Authentication Header (AH)
@@ -2150,7 +2150,7 @@ Kichwa hiki kimeundwa ili kulinda mawasiliano kwa kuthibitisha uhalisi wa mtumaj
 Katika tukio la jaribio la ulaghai la kurekebisha, msimbo wa uthibitishaji hautalingana tena, na datagram inaweza kukataliwa. Utaratibu huu pia hulinda dhidi ya mashambulizi ya uchezaji wa marudio kwa kugundua urudufishaji ambao haujaidhinishwa.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/sw/031.webp)
 
 
 #### Kijajuu cha Chaguo Lengwa (Destination Options Header)
@@ -2162,7 +2162,7 @@ Kichwa hiki kinakusudiwa tu kwa mpokeaji wa mwisho wa datagramu. Inaweza kutumik
 Hapo awali, hakuna chaguo kama hilo lililofafanuliwa katika protocol. Hata hivyo, kichwa hiki kilianzishwa wakati IPv6 ilipoundwa, ili kuruhusu viendelezi vya siku zijazo kuongezwa bila kurekebisha muundo wa jumla wa pakiti. Chaguo batili, kwa mfano, hutumika tu kuweka kichwa kwa wingi wa baiti 8 kwa madhumuni ya upatanishi wa kumbukumbu.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/sw/032.webp)
 
 
 Muundo wa pakiti za IPv6 umejengwa kwa utengano wazi kati ya kichwa kidogo cha msingi na vichwa vya kiendelezi vya msimu. Usanifu huu unahakikisha utendakazi wa kawaida wa uchakataji na unyumbufu unaohitajika ili kuendeleza itifaki na kuunganisha usalama, uelekezaji changamano au mifumo ya ubora wa huduma, huku ikidumisha upatanifu na miundomsingi ya siku zijazo.
@@ -2509,7 +2509,7 @@ Wireshark inapatikana kwenye mifumo mingi ya uendeshaji, ikiwa ni pamoja na Linu
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/sw/033.webp)
 
 
 
@@ -2560,7 +2560,7 @@ Amri hii hutoa ripoti ya kina kuhusu `enp0s3` Interface, mkataba wa kawaida wa k
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/sw/034.webp)
 
 
 
@@ -3073,7 +3073,7 @@ Maswali yanayorudiwa au ya kina kwa seva za DNS za watu wengine bila ruhusa yana
 Unapofuatilia au kupata mtandao wa eneo au eneo pana, ni muhimu kutambua vifaa vinavyotumika na huduma zinazofichua. Hivi ndivyo zana ya `nmap` (*Network Mapper*) hufanya.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Tunakuletea `nmap`
 
@@ -3112,7 +3112,7 @@ Katika hali hii, wapangishi wote katika safu `192.168.0.0` hadi `192.168.0.255` 
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/sw/035.webp)
 
 
 
@@ -3125,7 +3125,7 @@ Msimamizi anaweza kutegemea `nmap` kwa kazi kadhaa:
 - **Kinga ya hatari**: tambua huduma zisizo salama au zilizopitwa na wakati zinazoendeshwa kwenye mashine muhimu.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Mchakato wa zana za kuhoji
 
@@ -3282,3 +3282,4 @@ Kujua zana hizi, kila moja ikilinganishwa na hatua mahususi ya muundo wa TCP/IP,
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

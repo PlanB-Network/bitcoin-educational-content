@@ -1,0 +1,8 @@
+question: Millise probleemi lahendas Bitcoin, mida varasemad digitaalsed valuutad ei suutnud lahendada?
+answer: double-spending probleem detsentraliseeritult
+wrong_answers:
+  - Krüpteerimisprobleem võrdõigusvõrkudes
+  - Digitaalsete tehingute säilitamise probleem
+  - Online-maksete kiiruse probleem
+explanation: |
+  Bitcoin läbimurre oli double-spending probleemi lahendamine, ilma et selleks oleks vaja keskasutust. double-spending probleem seisneb selles, et keegi ei saa sama digitaalset münti kaks korda kulutada. Varasemad digitaalvaluutad ebaõnnestusid, sest nad tuginesid kesksetele serveritele või usaldusväärsetele asutustele, mis muutis need tundlikuks tsensuuri ja ühekordsete tõrkepunktide suhtes. Bitcoin lahendas selle probleemi proof-of-work abil peer-to-peer hajutatud ajatemplite serveriga, mis võimaldab võrgustikul kokku leppida tehingukorralduses ilma keskse kontrollita.

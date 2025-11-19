@@ -1,0 +1,8 @@
+question: Mis oli peamine küsimus, mis eristas Segwiti uuendust eelmistest Bitcoin uuendustest?
+answer: Kaevurid ei andnud märku toetusest hoolimata kasutajate ülekaalukast toetusest, mis pidurdas aktiveerimisprotsessi
+wrong_answers:
+  - Uuendamine nõudis tavalise pehme fork rakendusmeetodi asemel kõva fork rakendamist
+  - Tehnilised vead Segwit'i koodis takistasid turvalist kasutuselevõttu, kuni need on kõrvaldatud
+  - Majandussõlmed lükkasid uuendamise tagasi, kuna nad olid mures suurenenud tehingutasude pärast
+explanation: |
+  Segwiti uuendamine oli ainulaadne, sest see seisis silmitsi koordineerimisprobleemiga, kus Bitcoin kasutajate seas oli ülekaalukas toetus, kuid kaevurid keeldusid uuenduse toetamisest. See tekitas patiseisundi, kus uuendust ei saanud aktiveerida tavalise kaevurite poolt aktiveeritud pehme fork mehhanismi kaudu. Varasemad uuendused olid olnud suhteliselt valutu, sest neil oli nii kasutajate kui ka kaevurite toetus. See olukord viis kasutaja poolt aktiveeritud Soft forkside (UASF) kui alternatiivse aktiveerimismehhanismi, mis ei sõltunud kaevurite signaalimisest, välja pakkumiseni, mis tõi esile Bitcoin ökosüsteemi erinevate sidusrühmade vahelised pinged.

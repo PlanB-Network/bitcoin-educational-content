@@ -1,0 +1,8 @@
+question: According to the open source definition, what is the primary requirement regarding fees when redistributing open source software as part of an aggregate software distribution?
+answer: The license shall not require a royalty or other fee for such sale
+wrong_answers:
+  - A reasonable reproduction cost must be charged to cover development expenses
+  - Royalty fees are permitted but must not exceed 5% of the distribution price
+  - Administrative fees may be required but only for commercial redistributions
+explanation: |
+  The open source definition explicitly states under 'Free Redistribution' that 'The license shall not require a royalty or other fee for such sale.' This means open source software must be freely redistributable without mandatory fees or royalties. The other options incorrectly suggest that various types of fees are permitted, which would violate the fundamental principle of free redistribution that defines open source software.

@@ -22,11 +22,11 @@ Vous pouvez télécharger Aurora Store sur le [site officiel](https://auroraoss.
 
 Vous pouvez également télécharger Aurora Store depuis d'autres magasins d'applications comme F-Droid ou IzzyOnDroid.
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Il est cependant recommandé de télécharger le fichier APK directement sur le site Web officiel afin de s'assurer de l'authenticité et de l'intégrité d'Aurora Store.
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Un fichier APK (Android Package Kit) est le format de paquet utilisé par le système d'exploitation Android pour la distribution et l'installation d'applications. C'est l'équivalent des fichiers **.exe** sous Windows ou **.dmg** sous macOS.
 
@@ -75,5 +75,5 @@ Aurora Store intègre Exodus, une solution qui analyse et détecte les traqueurs
 
 Plus qu'un magasin d'applications, Aurora Store se positionne comme une solution open source qui vous permet de prendre le contrôle de l'utilisation de vos données. Il vous apporte l'information utile sur vos applications et vous permet de protéger votre vie numérique de la collecte abusive. Pour renforcer votre confidentialité, découvrez notre cursus sur la sécurité des données numériques : mettez en place un environnement numérique personnel, sécurisé et fiable.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 

@@ -18,7 +18,7 @@ description: 通过 Lightning Network 在企业中采用 Bitcoin。
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 为了促进 Bitcoin 在全球各社区的应用，Satoshi 的 Wallet 还设立了一个销售点，鼓励用户在其社区找到行之有效的用途：用 Bitcoin 购买和销售商品和服务。
 
@@ -174,16 +174,16 @@ Wallet 和 Satoshi POS 应用程序的每个用户都有自己在应用程序中
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 如果您正在寻找适合中小型企业的完整 PoS 系统，我还向您推荐 Swiss Bitcoin Pay：
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 最后，了解我们完整的培训课程，学习 Bitcoin 支付和企业现金流的基础知识：
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

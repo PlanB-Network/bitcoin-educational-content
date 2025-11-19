@@ -1,0 +1,8 @@
+question: I henhold til rammeverket for ansvarlig offentliggjøring, hva er den primære strategiske grunnen til å gi sårbarhetsoppdateringer til altcoin-utviklere først etter at løsningene er bredt distribuert i Bitcoin-nettverket?
+answer: For å forhindre at angripere utnytter den samme sårbarheten på Bitcoin mens altcoins oppdateres
+wrong_answers:
+  - "For å opprettholde Bitcoins konkurransefortrinn i forhold til alternative implementeringer av kryptovaluta"
+  - For å sikre at altcoin-utviklere har tilstrekkelig tid til å forstå og implementere løsningene på riktig måte
+  - For å unngå juridiske ansvarsproblemer som kan oppstå som følge av for tidlig offentliggjøring til tredjepartsprosjekter
+explanation: |
+  Tidsstrategien gjenspeiler en sikkerhetstilnærming der Bitcoins nettverk må beskyttes før man hjelper andre. Hvis altcoins ble varslet samtidig, kunne angripere studere altcoin-implementeringer eller utnytte dem for å forstå sårbarheten, og deretter potensielt angripe Bitcoin-noder som ennå ikke har oppgradert. Den sekvensielle tilnærmingen sikrer at Bitcoin beskyttes i stor skala før hjelpen utvides til andre nettverk, noe som minimerer tidsvinduet for utnyttelse av sårbarheten i hele økosystemet.

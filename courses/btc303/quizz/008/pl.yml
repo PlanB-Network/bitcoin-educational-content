@@ -1,0 +1,8 @@
+question: Co sprawia, że przetwarzanie transakcji Bitcoin jest odporne na cenzurę?
+answer: Porządkowanie transakcji jest wykonywane zbiorowo przez dynamiczny zestaw górników, do którego każdy może dołączyć lub go opuścić
+wrong_answers:
+  - Walidacja transakcji jest szyfrowana przy użyciu zaawansowanych protokołów kryptograficznych, których rządy nie mogą złamać
+  - Zapisy transakcji są przechowywane na wielu serwerach kopii zapasowych kontrolowanych przez różne zaufane organizacje
+  - Opłaty transakcyjne są automatycznie dostosowywane, aby zapobiec atakom ekonomicznym ze strony scentralizowanych władz
+explanation: |
+  Bitcoin osiąga odporność na cenzurę poprzez decentralizację górników, w której zamawianie transakcji jest przeprowadzane wspólnie przez wszystkich górników, którzy zdecydują się uczestniczyć. Tworzy to dynamiczny system, w którym każdy może swobodnie dołączyć lub opuścić proces mining, eliminując jakikolwiek pojedynczy punkt kontroli, który mógłby być naciskany w celu cenzurowania transakcji. Błędne odpowiedzi opisują cechy techniczne, zaufane strony lub mechanizmy ekonomiczne, które nie odnoszą się do podstawowej kwestii zdecentralizowanej kontroli nad przetwarzaniem transakcji.

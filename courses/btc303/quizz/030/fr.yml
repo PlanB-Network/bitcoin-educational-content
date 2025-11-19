@@ -1,0 +1,8 @@
+question: Selon le point de vue de Satoshi Nakamoto, quel est l'effet des bitcoins perdus sur les autres pièces en circulation ?
+answer: Ils augmentent légèrement la valeur des pièces de tous les autres en guise de don à chacun
+wrong_answers:
+  - Ils réduisent la sécurité du réseau en diminuant la valeur totale disponible pour les récompenses mining
+  - Ils créent une pression déflationniste qui déstabilise le système monétaire au fil du temps
+  - Ils doivent être remplacés par des mining supplémentaires pour maintenir le niveau d'approvisionnement prévu
+explanation: |
+  Satoshi Nakamoto a expliqué que les pièces perdues fonctionnent comme un don à tous les autres détenteurs de bitcoins en augmentant la valeur de leurs pièces en raison de la réduction de l'offre effective. Il s'agit d'un effet déflationniste positif, et non d'une force déstabilisatrice. Les pièces perdues n'affectent pas les récompenses de la mining puisqu'elles proviennent des pièces nouvellement frappées et des frais de transaction, et non de l'offre existante. Le protocole de Bitcoin ne remplace pas les pièces perdues - elles restent définitivement hors circulation, ce qui profite en fait aux détenteurs restants en augmentant la rareté.

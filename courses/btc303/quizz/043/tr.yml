@@ -1,0 +1,8 @@
+question: David Harding'in benzetmesiyle tanımlanan Bitcoin uyumu kavramı, ağın işleyişi hakkında öncelikle neyi vurguluyor?
+answer: Binlerce tam düğüm, operatörler arasında güven gerektirmeden uyumlu bir anlaşma sağlamak için işlemleri bağımsız olarak doğrular
+wrong_answers:
+  - Mining havuzları aynı şarkıyı söylemek ve senkronize bir uyum içinde bloklar üretmek için çabalarını koordine etmelidir
+  - Bitcoin geliştiricilerinin herhangi bir protokol değişikliği veya yükseltmesi yapmadan önce oybirliğiyle fikir birliğine varmaları gerekir
+  - Tüm Bitcoin kullanıcıları, ağ istikrarını korumak için demokratik bir oylama süreci aracılığıyla işlem geçerliliği üzerinde anlaşmalıdır
+explanation: |
+  David Harding'in armoni benzetmesi, Bitcoin'ün gücünün, her biri işlemleri doğrulamak için ayrı ayrı çalışan binlerce bağımsız tam düğümden geldiğini ve herhangi bir düğüm operatörünün diğerlerine güvenmesine gerek kalmadan defter durumu hakkında uyumlu bir anlaşma yarattığını vurgulamaktadır. Bu, her bir üyenin bağımsız olarak şarkı söylediği ancak birlikte güzel bir uyum oluşturduğu bir koroya benzetilmektedir. Yanlış cevaplar bu kavramı madenciler, geliştiriciler ya da kullanıcılar arasında koordinasyon gerekliliğini öne sürerek yanlış yorumlamaktadır ki bu da Bitcoin'ü güvenilmez ve merkezi olmayan yapan temel bağımsız doğrulama ilkesiyle çelişmektedir.

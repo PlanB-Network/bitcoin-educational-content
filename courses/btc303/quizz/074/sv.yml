@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med att låta erfarna utvecklare granska en sårbarhetsuppdatering utan att vara informerade om den specifika sårbarheten?
+answer: För att testa om korrigeringen på ett adekvat sätt döljer sårbarheten för potentiella angripare
+wrong_answers:
+  - "För att säkerställa att korrigeringen inte introducerar nya buggar i kodbasen"
+  - För att verifiera att patchen följer korrekta kodningsstandarder och konventioner
+  - För att bekräfta att patchen ger tillräckliga prestandaförbättringar
+explanation: |
+  Enligt praxis för ansvarsfullt avslöjande testar utvecklare om en patch har döljts tillräckligt bra genom att tillhandahålla den till erfarna utvecklare som inte har informerats om sårbarheten och be dem identifiera vad den åtgärdar. Om dessa experter inte kan upptäcka sårbarheten även om de vet att en patch fixar en, är den sannolikt väl dold för potentiella angripare. Detta är avgörande eftersom korrigeringar i sig kan avslöja sårbarheter, vilket potentiellt möjliggör skadlig exploatering. De andra alternativen är visserligen viktiga aspekter av kodgranskning, men de är inte det primära syftet med denna specifika metod för sårbarhetshantering.

@@ -6,4 +6,4 @@ wrong_answers:
   - 1024 Bytes
 explanation: |
   SHA512 verwendet 128-Byte-Blöcke, was 1024 Bits entspricht, für seine Berechnungen.
-reviewed: false
+reviewed: true

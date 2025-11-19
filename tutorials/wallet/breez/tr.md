@@ -86,7 +86,7 @@ Ardından yedeklemenizi onaylamak ve uzaktan yedekleme hesabınızı Breez Walle
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **ÖNEMLİ**: Breez Wallet'ünüze ekstra bir Layer güvenlik eklemek için bir PIN kodu tanımlayabilir ve bunu Wallet'e erişimin yetkili olduğunu doğrulamak için ayarlayabilirsiniz.
 

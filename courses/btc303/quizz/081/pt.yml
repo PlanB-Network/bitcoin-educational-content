@@ -1,0 +1,8 @@
+question: Qual é a principal razão pela qual os erros de desempenho no Bitcoin podem ser potencialmente utilizados como arma para criar partições de rede, de acordo com os especialistas em segurança?
+answer: Os bugs de desempenho podem ser estrategicamente implantados para separar mineiros e trocas específicas do resto da rede, permitindo ataques de gasto duplo
+wrong_answers:
+  - Os erros de desempenho afectam principalmente os tempos de confirmação das transacções, tornando a rede pouco fiável para comerciantes e utilizadores
+  - Os erros de desempenho consomem recursos computacionais excessivos, obrigando os nós a encerrar e reduzindo a descentralização da rede
+  - Os erros de desempenho criam fugas de memória que acabam por bloquear os nós, levando a uma instabilidade temporária da rede e a uma taxa de hash reduzida
+explanation: |
+  Gregory Maxwell alertou especificamente para o facto de os bugs de desempenho, quando implementados com perícia, poderem ser utilizados para dividir a rede estrategicamente - por exemplo, separando "o mineiro A e a bolsa B" numa partição, enquanto todos os outros vão para outra, criando condições para ataques de duplo gasto. Isto demonstra porque é que problemas aparentemente menores devem ser tratados como potencialmente graves, uma vez que podem ser transformados em armas de formas sofisticadas que não são imediatamente óbvias.

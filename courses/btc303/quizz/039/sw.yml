@@ -1,0 +1,8 @@
+question: Kulingana na hoja ya Shaolinfry ya Forks za Soft zilizoamilishwa na Mtumiaji (UASF), ni shida gani kuu ya uma laini ulioamilishwa na wachimbaji kuhusu uboreshaji wa utekelezaji?
+answer: Asilimia ndogo ya hashrate inaweza kupinga masasisho kwa kila mtu, na kuunda hali ya kuboresha
+wrong_answers:
+  - Wachimbaji wanaweza kubadilisha uanzishaji laini wa fork baada ya utekelezaji kupitia maafikiano ya wengi
+  - Nodi za kiuchumi hupoteza udhibiti wa sheria za uthibitishaji wakati wachimbaji wanaashiria kuwezesha
+  - Mabadiliko ya Soft fork huwa ya kudumu na hayawezi kurekebishwa mara tu wachimbaji watakapoyawezesha
+explanation: |
+  Shaolinfry alibainisha kuwa utoaji wa ishara kwa wachimbaji hutengeneza mfumo wa asili wa kura ya turufu ambapo hata asilimia ndogo ya hashrate inaweza kuzuia uboreshaji kuwezesha mtandao mzima. 'Inertia hii ya kuboresha' inakuwa na matatizo zaidi kadiri mining inavyozidi kugatuliwa, na hivyo kuzuia uboreshaji wa itifaki yenye manufaa. Chaguzi zingine zinaonyesha vibaya jinsi uma laini zinavyofanya kazi - wachimbaji hawawezi kutengua uanzishaji upande mmoja, nodi za kiuchumi zihifadhi mamlaka ya uthibitishaji, na uma laini zinaweza kurekebishwa kinadharia kupitia uboreshaji unaofuata.

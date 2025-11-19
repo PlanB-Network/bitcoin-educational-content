@@ -31,7 +31,7 @@ Secondement, un autre indicateur peut être calculé pour évaluer la résistanc
 ![Sources probables en entrée](assets/fr/5.webp)
 Le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ». En français, j'aime bien nommer cela « anonset rétrospectif ». Sur le schéma ci-dessous, cela correspond à toutes les bulles orange Tx0 :
 ![backward anonset](assets/fr/6.webp)
-Pour en savoir plus sur la méthode de calcul de ces indicateurs, je vous conseille de lire [mon thread twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sur ce sujet. Nous préparons également un article plus complet sur PlanB Network.
+Pour en savoir plus sur la méthode de calcul de ces indicateurs, je vous conseille de lire [mon thread twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sur ce sujet. Nous préparons également un article plus complet sur Plan ₿ Academy.
 
 Je suis conscient que la réponse fournie peut sembler insatisfaisante, car vous espériez un chiffre défini pour le nombre de remix, et je vous oriente vers de la documentation. La raison en est que le nombre de remix constitue un indicateur peu fiable pour évaluer l'anonymat gagné sur des cycles de coinjoins. Il n'est donc pas possible de définir un nombre fixe de remix comme seuil de sécurité absolu et universel.
 

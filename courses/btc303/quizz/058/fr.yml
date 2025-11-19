@@ -1,0 +1,8 @@
+question: Selon les exigences de la définition de l'open source, que doit-il se passer lorsque le code source est délibérément obscurci dans une distribution de logiciel open source ?
+answer: Le code source délibérément obscurci viole les principes de l'open source et n'est pas autorisé
+wrong_answers:
+  - Le code obscurci doit être accompagné d'une documentation détaillée expliquant sa fonctionnalité
+  - Le code obscurci est acceptable à condition que les binaires compilés soient également fournis
+  - Le code obscurci doit être mis à disposition par le biais d'un téléchargement séparé avec les coûts de reproduction
+explanation: |
+  La définition de l'open source stipule explicitement que "le code source délibérément obscurci n'est pas autorisé" Il s'agit d'une exigence fondamentale, car l'obscurcissement empêche l'examen, la modification et la compréhension du code, ce qui va à l'encontre des objectifs fondamentaux des logiciels libres. Le code source doit se présenter sous "la forme préférée dans laquelle un programmeur modifierait le programme", ce qui rend l'obscurcissement incompatible avec les principes de l'open source, indépendamment de la documentation ou des méthodes de distribution.

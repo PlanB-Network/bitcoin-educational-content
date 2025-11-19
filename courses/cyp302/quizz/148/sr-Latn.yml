@@ -6,4 +6,4 @@ wrong_answers:
   - Gaussova funkcija
 explanation: |
   Eulerova Fi funkcija (ili totijent funkcija) se koristi za izračunavanje broja međusobno prostih brojeva sa celim brojem N, posebno za složene brojeve.
-reviewed: false
+reviewed: true

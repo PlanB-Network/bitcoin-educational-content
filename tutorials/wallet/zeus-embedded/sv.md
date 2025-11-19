@@ -17,7 +17,7 @@ Men applikationen innehåller också en "Embedded node".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Som en påminnelse är Lightning ett nätverk som fungerar parallellt med Bitcoin, vilket gör det möjligt att växla bitcoins utan att systematiskt behöva genomföra On-Chain-transaktioner. Resultatet är nästan omedelbara transaktioner, utan att behöva vänta 10 minuter på att ett block ska valideras. Detta är särskilt användbart när man betalar en handlare i den fysiska världen. Dessutom ger Lightning en anmärkningsvärd nivå av **konfidentialitet** som Bitcoin-nätverket inte har inbyggt*.
 
@@ -200,7 +200,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Med Zeus kan du sedan lägga till en nota för att denominera din betalning, ell
 
 
 
-Observera att till skillnad från en Wallet som [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), beräknas rutten med Zeus lokalt och delegeras inte till en tredje part (ACINQ i fallet med Phoenix). Så du är den enda som vet vem som är mottagare av betalningen. Vi förlorar lite effektivitet (betalningar tar lite längre tid att slutföra, men vi vinner mycket när det gäller integritet).
+Observera att till skillnad från en Wallet som [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), beräknas rutten med Zeus lokalt och delegeras inte till en tredje part (ACINQ i fallet med Phoenix). Så du är den enda som vet vem som är mottagare av betalningen. Vi förlorar lite effektivitet (betalningar tar lite längre tid att slutföra, men vi vinner mycket när det gäller integritet).
 
 
 
@@ -422,8 +422,8 @@ Grattis, du är nu redo att använda Zeus Embedded, det mobila belysningssysteme
 
 
 
-För att ta reda på mer om den tekniska driften av Lightning Network kan du hitta Fanis Michalakis utmärkta gratis Plan ₿ Network-utbildning:
+För att ta reda på mer om den tekniska driften av Lightning Network kan du hitta Fanis Michalakis utmärkta gratis Plan ₿ Academy-utbildning:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -85,11 +85,11 @@ Kui vajate abi seadme esmasel seadistamisel, on meil iga Trezori mudeli kohta ka
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Uue portfelli kohta
 
@@ -139,7 +139,7 @@ Lisateabe saamiseks selle kohta, kuidas oma Mnemonic fraase õigesti salvestada 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Valige Trezori seadistamisel aktsiate koguarv, mida soovite konfigureerida. Kõige levinumad konfiguratsioonid on 2-de-3 ja 3-de-5. Selle näite jaoks loome 2-de-3, seega valin 3 aktsiat. Iga aktsia esindab 20-sõnalist Mnemonic fraasi.
 
@@ -273,7 +273,7 @@ Palju õnne, te olete nüüd kursis Trezori riistvaraliste rahakottide ühe ja m
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kui leidsite selle õpetuse kasulikuks, oleksin tänulik, kui jätaksite allpool Green pöidla. Jagage seda artiklit julgelt oma suhtlusvõrgustikes. Tänan teid väga!
 

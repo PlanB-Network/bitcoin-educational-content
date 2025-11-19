@@ -1,0 +1,8 @@
+question: Prema poglavlju, šta razlikuje soft fork od hard fork u promenama konsenzusnih pravila Bitcoin?
+answer: Meki fork je potpuno kompatibilan (i unapred i unazad kompatibilan), dok je tvrdi fork samo unazad kompatibilan.
+wrong_answers:
+  - Meki fork zahteva aktivaciju signalizacijom rudara dok tvrdi fork koristi aktivaciju na određeni dan
+  - Meki fork menja postojeće opkode dok tvrdi fork samo dodaje nove opkode kao što su OP_NOP1-OP_NOP10
+  - Meki fork može biti implementiran tajno u commit-ovima dok tvrdi fork zahteva javno objavljivanje
+explanation: |
+  Poglavlje jasno definiše tipove kompatibilnosti: forward kompatibilnost omogućava starom softveru da obrađuje nove podatke ignorišući nepoznate delove, dok backward kompatibilnost omogućava novom softveru da obrađuje stare podatke. Soft fork održava oba tipa kompatibilnosti, čineći ga potpuno kompatibilnim. Hard fork održava samo backward kompatibilnost, što znači da novi softver može obrađivati stare podatke, ali stari softver ne može obrađivati nove podatke iz nadograđenog sistema. Ova razlika je ključna za razumevanje Bitcoin mehanizama nadogradnje i zašto su soft forkovi preferirani za održavanje harmonije mreže.

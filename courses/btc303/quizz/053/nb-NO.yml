@@ -1,0 +1,8 @@
+question: Hva skiller Bitcoins sikkerhetsforutsetninger fra tradisjonelle fysiske sikkerhetssystemer som bygninger?
+answer: Bitcoin må adressere alle kjente svakheter fordi motstandere på nettet er anonyme og vil utnytte enhver sårbarhet
+wrong_answers:
+  - Bitcoin baserer seg på matematiske bevis, mens bygninger er avhengige av fysiske barrierer og rettshåndhevelse
+  - "Bitcoins sikkerhet er basert på økonomiske insentiver, mens bygninger bruker avskrekking gjennom synlige sikkerhetstiltak"
+  - Bitcoin bruker kryptografiske signaturer for beskyttelse, mens bygninger er avhengige av adgangskontroll- og overvåkingssystemer
+explanation: |
+  Den viktigste forskjellen er at nettbaserte systemer som Bitcoin står overfor anonyme motstandere som uunngåelig vil utnytte enhver kjent svakhet, i motsetning til fysiske systemer der vi kan akseptere en viss risiko fordi gjerningsmennene kan identifiseres og straffeforfølges. Som Andrew Poelstra bemerket, har vi på nettet ikke den luksusen det er å kunne avskrekke politimyndigheter - hvis det er mulig å skade systemet, vil anonyme aktører gjøre det. Dette tvinger Bitcoin til å ta tak i alle sårbarheter i stedet for å akseptere kalkulerte risikoer.

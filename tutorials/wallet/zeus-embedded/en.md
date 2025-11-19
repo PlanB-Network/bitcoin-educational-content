@@ -13,7 +13,7 @@ But the application also features an "Embedded node".
 **It's this facet of the application that we'll be exploring in this tutorial.** This allows anyone to have their own lightning node on mobile, without the need for a dedicated server, in the same way as ACINQ offers its incredible Wallet lightning Phoenix.
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *As a reminder, Lightning is a network that operates in parallel with Bitcoin, enabling bitcoins to be exchanged without having to systematically carry out On-Chain transactions. The result is near-instantaneous transactions, with no need to wait 10 minutes for a block to be validated. This is particularly useful when paying a merchant in the physical world. What's more, Lightning provides a remarkable level of **confidentiality** that the Bitcoin network does not possess natively*.
 
@@ -155,7 +155,7 @@ You can write it on paper, or perhaps, for added security, engrave it on stainle
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -266,7 +266,7 @@ Zeus then lets you add a note to denominate your payment, or view the route your
 ![image](assets/fr/22.webp)
 
 
-Note that unlike a Wallet like [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), with Zeus the route is calculated locally and not delegated to a third party (ACINQ in the case of Phoenix). So you're the only one who knows the recipient of the payment. We lose a little efficiency (payments take a little longer to complete, but we gain a lot in terms of privacy).
+Note that unlike a Wallet like [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), with Zeus the route is calculated locally and not delegated to a third party (ACINQ in the case of Phoenix). So you're the only one who knows the recipient of the payment. We lose a little efficiency (payments take a little longer to complete, but we gain a lot in terms of privacy).
 
 
 
@@ -326,7 +326,7 @@ Congratulations, you're now ready to use Zeus Embedded, the Wallet mobile lighti
 
 
 
-To find out more about the technical operation of Lightning Network, you can find Fanis Michalakis' excellent free Plan ₿ Network training:
+To find out more about the technical operation of Lightning Network, you can find Fanis Michalakis' excellent free Plan ₿ Academy training:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

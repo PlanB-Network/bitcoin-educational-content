@@ -95,7 +95,7 @@ Kode QR dihasilkan di layar. Sekali lagi, Anda harus mengomunikasikan kode QR in
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Saat ini kami memiliki:*
 
@@ -145,7 +145,7 @@ Anda sekarang diminta untuk memilih sifat rahasia yang akan dikirimkan antara 2 
 
 
 
-Di sini rahasia kami adalah pesan singkat dengan memilih **"Pesan Teks Cepat "**. Ketik pesan Anda (untuk kami "PlanB Network rocks") lalu tekan **"ENTER "**.
+Di sini rahasia kami adalah pesan singkat dengan memilih **"Pesan Teks Cepat "**. Ketik pesan Anda (untuk kami "Plan ₿ Academy rocks") lalu tekan **"ENTER "**.
 
 
 Perangkat kemudian menghasilkan kata sandi acak baru yang disebut **"Kata Sandi Teleportasi "**, dalam contoh "NE XG BT SK".
@@ -190,7 +190,7 @@ Tekan tombol **"QR "** untuk memindai kode QR yang disajikan oleh perangkat peng
 
 
 
-Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pesan yang diterima memang "PlanB Network rocks". Itu saja.
+Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pesan yang diterima memang "Plan ₿ Academy rocks". Itu saja.
 
 
 

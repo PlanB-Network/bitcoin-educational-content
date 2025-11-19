@@ -1,0 +1,8 @@
+question: Enligt Matt Corallos presentation, vad är förhållandet mellan tillförlitliga och icke-förtroendefulla system i Bitcoin:s arkitektur?
+answer: Du kan bygga betrodda system ovanpå ett opålitligt system, men inte opålitliga system ovanpå betrodda system
+wrong_answers:
+  - Man kan bygga opålitliga system ovanpå pålitliga system, men inte pålitliga system ovanpå opålitliga system
+  - Både tillförlitliga och icke-förtroendefulla system kan byggas ovanpå varandra utan några arkitektoniska begränsningar
+  - Trustless och betrodda system måste fungera oberoende av varandra och kan inte läggas i lager ovanpå varandra
+explanation: |
+  Matt Corallos viktigaste insikt är att Bitcoin:s förtroendelösa baslager möjliggör flexibilitet i systemdesignen. En tillitslös grund som Bitcoin:s protokoll gör det möjligt för utvecklare att skapa betrodda tjänster (som depåplånböcker) på högre lager samtidigt som de underliggande säkerhetsgarantierna bevaras. Det omvända är dock omöjligt - det går inte att skapa helt tillförlitliga system om själva grunden kräver tillit, eftersom alla tillförlitliga egenskaper skulle undergrävas av sårbarheterna i det tillförlitliga baslagret.

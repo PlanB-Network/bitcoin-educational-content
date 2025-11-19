@@ -1,30 +1,30 @@
 ---
 name: Kontribusi - Tutorial Web GitHub (pemula)
-description: Panduan lengkap untuk tutorial Plan ₿ Network dengan GitHub Web
+description: Panduan lengkap untuk tutorial Plan ₿ Academy dengan GitHub Web
 ---
 ![cover](assets/cover.webp)
 
 Sebelum mengikuti tutorial menambahkan tutorial baru ini, Anda harus menyelesaikan beberapa langkah awal. Jika Anda belum melakukannya, silakan lihat tutorial pengantar ini terlebih dahulu, lalu kembali ke sini:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Anda sudah memiliki:
 
 
 - Pilih tema untuk tutorial Anda;
-- Menghubungi tim Plan ₿ Network melalui [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau paolo@planb.network ;
+- Menghubungi tim Plan ₿ Academy melalui [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau paolo@planb.network ;
 - Pilih alat kontribusi Anda.
 
-Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda ke Plan ₿ Network menggunakan versi web GitHub. Jika Anda sudah menguasai Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Sebagai gantinya, saya sarankan Anda untuk melihat salah satu dari 2 tutorial lainnya, di mana saya merinci panduan yang harus diikuti dan langkah-langkah untuk membuat perubahan dari file:
+Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda ke Plan ₿ Academy menggunakan versi web GitHub. Jika Anda sudah menguasai Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Sebagai gantinya, saya sarankan Anda untuk melihat salah satu dari 2 tutorial lainnya, di mana saya merinci panduan yang harus diikuti dan langkah-langkah untuk membuat perubahan dari file:
 
 
 - **Pengguna yang berpengalaman**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Menengah (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prasyarat
 
@@ -33,22 +33,22 @@ Prasyarat sebelum memulai tutorial:
 
 - Memiliki [akun GitHub](https://github.com/signup);
 - Memiliki fork dari [Plan ₿ Repositori sumber jaringan] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Memiliki [profil guru di Plan ₿ Network] (https://planb.network/professors) (hanya jika Anda menawarkan tutorial lengkap).
+- Memiliki [profil guru di Plan ₿ Academy] (https://planb.academy/professors) (hanya jika Anda menawarkan tutorial lengkap).
 
 Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Setelah semuanya siap dan Anda memiliki repositori repositori Plan ₿ Network, Anda dapat mulai menambahkan tutorial.
+Setelah semuanya siap dan Anda memiliki repositori repositori Plan ₿ Academy, Anda dapat mulai menambahkan tutorial.
 
 ## 1 - Membuat cabang baru
 
-Buka browser Anda dan arahkan ke halaman fork Anda di repositori Plan ₿ Network. Ini adalah fork yang Anda buat di GitHub. URL fork Anda akan terlihat seperti ini: `https://github.com/[nama pengguna Anda]/konten-pendidikan-bitcoin`:
+Buka browser Anda dan arahkan ke halaman fork Anda di repositori Plan ₿ Academy. Ini adalah fork yang Anda buat di GitHub. URL fork Anda akan terlihat seperti ini: `https://github.com/[nama pengguna Anda]/konten-pendidikan-bitcoin`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,7 +74,7 @@ Sebuah cabang di Git mewakili versi paralel dari proyek, memungkinkan Anda untuk
 
 Sekarang setelah cabang yang berfungsi telah dibuat, saatnya untuk mengintegrasikan tutorial baru Anda.
 
-Di dalam file cabang, Anda harus menemukan subfolder yang sesuai untuk penempatan tutorial Anda. Pengaturan folder mencerminkan bagian yang berbeda dari situs web Plan ₿ Network. Dalam contoh kita, karena kita akan menambahkan tutorial mengenai Green Wallet, maka buka jalur berikut ini: `bitcoin-educational-content\tutorials\wallet` yang sesuai dengan bagian `WALLET` di situs web:
+Di dalam file cabang, Anda harus menemukan subfolder yang sesuai untuk penempatan tutorial Anda. Pengaturan folder mencerminkan bagian yang berbeda dari situs web Plan ₿ Academy. Dalam contoh kita, karena kita akan menambahkan tutorial mengenai Green Wallet, maka buka jalur berikut ini: `bitcoin-educational-content\tutorials\wallet` yang sesuai dengan bagian `WALLET` di situs web:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -148,11 +148,11 @@ Berikut adalah bidang yang wajib diisi:
 
 - **id**: Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
 
-- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
+- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Academy mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
 
-- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Academy (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Tingkat kesulitan tutorial, dipilih dari:
     - `beginner`
@@ -173,7 +173,7 @@ Berikut adalah bidang yang wajib diisi:
 
 Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -344,7 +344,7 @@ Tanda seru di awal menunjukkan gambar. Teks alternatif, yang membantu aksesibili
 
 ![GITHUB](assets/fr/35.webp)
 
-Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan grafis Plan ₿ Network (Rencana ₿ Jaringan) untuk memastikan konsistensi visual:
+Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan grafis Plan ₿ Academy (Rencana ₿ Jaringan) untuk memastikan konsistensi visual:
 
 
 - **Huruf**: Gunakan [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -353,7 +353,7 @@ Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan gra
  - Hitam: #000000
  - Putih: #FFFFFF
 
-**Sangat penting bahwa semua visual yang diintegrasikan ke dalam tutorial Anda bebas dari hak cipta atau menghormati lisensi file sumber**. Oleh karena itu, semua diagram yang dipublikasikan di Plan ₿ Network tersedia di bawah lisensi CC-BY-SA, dengan cara yang sama seperti teks.
+**Sangat penting bahwa semua visual yang diintegrasikan ke dalam tutorial Anda bebas dari hak cipta atau menghormati lisensi file sumber**. Oleh karena itu, semua diagram yang dipublikasikan di Plan ₿ Academy tersedia di bawah lisensi CC-BY-SA, dengan cara yang sama seperti teks.
 
 **-> Tips:** Ketika berbagi file di tempat umum, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, dan detail pembuat. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan operasi ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner] (https://exifcleaner.com/), yang memungkinkan Anda untuk membersihkan metadata dokumen dengan hanya menarik dan melepas.
 
@@ -365,13 +365,13 @@ Untuk melanjutkan dengan Pull Request, setelah menyimpan semua perubahan Anda, k
 
 ![GITHUB](assets/fr/36.webp)
 
-Pull Request adalah permintaan yang dibuat untuk mengintegrasikan perubahan dari cabang Anda ke dalam cabang utama repositori Plan ₿ Network, yang memungkinkan peninjauan dan diskusi perubahan sebelum digabungkan.
+Pull Request adalah permintaan yang dibuat untuk mengintegrasikan perubahan dari cabang Anda ke dalam cabang utama repositori Plan ₿ Academy, yang memungkinkan peninjauan dan diskusi perubahan sebelum digabungkan.
 
 Sebelum melanjutkan, periksa dengan saksama di bagian bawah antarmuka bahwa perubahan ini sesuai dengan yang Anda harapkan:
 
 ![GITHUB](assets/fr/37.webp)
 
-Pastikan, di bagian atas antarmuka, bahwa cabang kerja Anda digabungkan ke cabang `dev` pada repositori Plan ₿ Network (yang merupakan cabang utama).
+Pastikan, di bagian atas antarmuka, bahwa cabang kerja Anda digabungkan ke cabang `dev` pada repositori Plan ₿ Academy (yang merupakan cabang utama).
 
 Masukkan sebuah judul yang secara singkat meringkas perubahan yang ingin Anda gabungkan dengan repositori sumber. Tambahkan komentar singkat yang menjelaskan perubahan-perubahan ini (jika Anda memiliki nomor isu yang terkait dengan pembuatan tutorial Anda, ingatlah untuk mencatat `Tutup #{nomor isu}` sebagai sebuah komentar), lalu klik tombol hijau "*Buat permintaan penarikan*" untuk mengonfirmasi permintaan penggabungan:
 
@@ -389,6 +389,6 @@ Jika Anda ingin membuat perubahan pada kontribusi Anda setelah Anda mengirimkan 
 
 
 - Jika PR Anda masih terbuka dan belum digabungkan, lakukan perubahan di cabang kerja yang sama. Perubahan yang dikomit akan ditambahkan ke PR yang masih terbuka;
-- Jika PR Anda telah digabungkan dengan cabang utama, Anda harus mengulang proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan fork Anda disinkronkan dengan repositori sumber Plan ₿ Network pada cabang `dev` sebelum melanjutkan.
+- Jika PR Anda telah digabungkan dengan cabang utama, Anda harus mengulang proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan fork Anda disinkronkan dengan repositori sumber Plan ₿ Academy pada cabang `dev` sebelum melanjutkan.
 
 Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih banyak!

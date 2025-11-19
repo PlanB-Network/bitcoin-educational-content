@@ -44,11 +44,11 @@ Lorsque vous désactivez le mode test, vous devez configurer votre portefeuille 
 
 ![configure-wallet](assets/fr/04.webp)
 
-Si vous ne possédez pas encore un portefeuille Bitcoin et/ou Lightning, nous vous recommandons de découvrir nos tutoriels sur les [portefeuilles mobiles](https://planb.network/tutorials/wallet).
+Si vous ne possédez pas encore un portefeuille Bitcoin et/ou Lightning, nous vous recommandons de découvrir nos tutoriels sur les [portefeuilles mobiles](https://planb.academy/tutorials/wallet).
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **IMPORTANT** : Dans la configuration de votre portefeuille, choisissez le type **BTC (On-Chain)** lorsque vous recevez des montants importants, de l'ordre de milliers d'euros pour assurer la fiabilité de confirmation sur Bitcoin et le type **LN address**, lorsque vous souhaitez recevoir des micro-paiements instantanés dans votre commerce.
 
@@ -205,5 +205,5 @@ Dans la section **Business Settings** :
 
 Vous avez une bonne prise en main de Speed, intégrez Bitcoin dans votre commerce et développez votre économie locale circulaire basée sur Bitcoin. Si ce tutoriel vous a été utile, nous sommes convaincues que vous apprécierez tout autant notre tutoriel sur Swiss Bitcoin Pay.
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 

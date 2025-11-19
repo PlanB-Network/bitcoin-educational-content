@@ -21,7 +21,7 @@ objectives:
 
 
 
-BTC 202 是一门通俗易懂的课程，旨在教您如何自己编织 Bitcoin 结，即使您不是技术专家。首先，我们将定义什么是 Bitcoin 结、它有什么用途以及为什么自己编织一个 Bitcoin 结是绝对必要的。然后，我将一步步指导您选择硬件、安装必要的软件、连接 Wallet，并进行首次可能的优化，使其更进一步。
+BTC 202 是一门易于学习的课程，旨在教您如何运行自己的比特币节点，即使您不是技术专家。我们将首先定义什么是比特币节点、它的作用以及为什么自行运行一个节点是绝对必要的。然后，我将一步步指导您选择硬件、安装所需软件、连接钱包软件，并进行初步优化以进一步提升。
 
 
 
@@ -118,7 +118,7 @@ BTC 202 是一门通俗易懂的课程，旨在教您如何自己编织 Bitcoin 
 
 
 
-与所有 Plan ₿ Network 课程一样，在最后部分，您将看到期末考试，以测试您对 Bitcoin 节点的了解程度。
+与所有 Plan ₿ Academy 课程一样，在最后部分，您将看到期末考试，以测试您对 Bitcoin 节点的了解程度。
 
 
 
@@ -410,7 +410,7 @@ Bitcoin core 是 Bitcoin 协议的参考软件。它源于 Satoshi Nakamoto 在 
 
 
 
-Bitcoin core 是用 C++ 编写的。它也是一个开源项目，由开发人员社区维护，这些开发人员是志愿者，或由不同实体（通常是生态系统中对 Core 的开发有既得利益的公司）支付报酬。[代码托管在 GitHub 上](https://github.com/Bitcoin/Bitcoin)，开发遵循严格的流程：
+Bitcoin Core 是一个用 C++ 编写的软件。它也是一个由开发者社区维护的开源项目——这些开发者要么是志愿者，要么由不同的实体资助（通常是生态系统中希望 Core 开发顺利进行的公司）。[代码托管在 GitHub 上](https://github.com/bitcoin/bitcoin)，开发遵循严格的模型：
 
 
 
@@ -448,7 +448,7 @@ Bitcoin core 的开发遵循 "任人唯贤 "的逻辑：我们鼓励新的贡献
 
 - Libbitcoin**: 由 Amir Taaki 开发、Eric Voskuil 维护的模块化 C++ 库；
 - Bcoin**：JavaScript 实现，已停止维护；
-- BTCD/btcsuit**e: Go 语言的实现。
+- **BTCD/btcsuite** ：用 Go 实现的版本。
 
 
 
@@ -481,7 +481,7 @@ Bitcoin core 的开发遵循 "任人唯贤 "的逻辑：我们鼓励新的贡献
 
 
 
-## 为什么要自寻烦恼？
+## 为什么要运行自己的节点？
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bitcoin core 的开发遵循 "任人唯贤 "的逻辑：我们鼓励新的贡献
 
 
 
-事实上，正如我们在前几章中指出的，打结并没有直接的经济收益。因此，人们可能会认为这样做没有任何个人利益。然而，经营自己的结点却能带来许多个人利益。为了让大家相信这一点，我将在本章中从技术和战略两方面阐述为什么要安装和使用自己的 Bitcoin 节点。
+正如我们在前几章中强调的那样，运行一个节点并不会带来直接的经济收益。因此，人们可能认为这样做没有个人利益。然而，运行自己的节点具有许多个人优势。为使您信服，本章将介绍所有技术性和战略性的理由，这些理由应促使您安装并使用自己的比特币节点。
 
 
 
@@ -516,7 +516,7 @@ Bitcoin core 的开发遵循 "任人唯贤 "的逻辑：我们鼓励新的贡献
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 不可监控的交易
 
@@ -576,7 +576,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-掌握这些知识可以增强您对工具的信心，减少出错或受骗的风险。自己编织绳结也是一种学习方式。
+掌握这些知识可以增强您对工具的信心，并减少出错或遭遇诈骗的风险。运行自己的节点也是一种学习过程。
 
 
 
@@ -692,7 +692,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-> 不是你的结，不是你的规则。
+> 不是你的节点，就不是你的规则。
 
 
 ## 不同类型的 Bitcoin 节点
@@ -706,7 +706,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-### 完整的结
+### 全节点
 
 
 
@@ -730,7 +730,7 @@ Full node 不需要信任任何人，因为它验证并了解系统中的所有�
 
 
 
-### pruned 结
+### 修剪节点
 
 
 
@@ -754,7 +754,7 @@ pruned 节点会像 Full node 一样验证从 Genesis 区块到工作最多的�
 
 
 
-### 光结/SPV
+### 轻节点 / SPV
 
 
 
@@ -849,7 +849,7 @@ Nakamoto, S. (2008). *Bitcoin：点对点电子现金系统*。https://Bitcoin.o
 
 
 
-#### Bitcoin core （极端多数客户）
+#### Bitcoin Core（占绝对多数的客户端）
 
 
 
@@ -865,11 +865,11 @@ Nakamoto, S. (2008). *Bitcoin：点对点电子现金系统*。https://Bitcoin.o
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots（主要替代客户）
+#### Bitcoin Knots（主要替代客户端）
 
 
 
@@ -886,7 +886,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 - 政策**：有些人出于非技术原因喜欢使用 Knots 等替代客户端，主要是为了支持 Core 的替代方案，从而减少 Core 的垄断。如果 Core 遭到破坏，那么不仅要有可靠、维护良好的替代客户端，还要知道如何有效利用它们。还有一些人使用 Knots 是出于抗议目的，因为他们对 Core 开发人员失去了信心，或者不赞成客户端的大多数管理人员。
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 我个人建议您选择 Core，主要是为了更快地从安全补丁中受益。事实上，Knots 中发现的一些漏洞迟迟得不到修正。更广泛地说，Core 的开发过程结构稳固，得到了大量贡献者的支持，而 Knots 仅由一个人维护，社区规模小得多。另一方面，中继规则在今天往往会失去其效用，尤其是当只有极少数网络应用时（如渗流理论）。
 
@@ -942,7 +942,7 @@ Umbrel 于 2020 年推出，当时只是一个简单的 Bitcoin 节点和一些�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### 启动9（StartOS）
 
@@ -968,7 +968,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### 我的节点
 
@@ -986,7 +986,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Umbrel 的代码是公开的（你可以查看、Fork 和修改它），但它�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 如上一节所述，我选择在一台价格便宜的小型翻新电脑上运行本教程：联想 ThinkCentre M900 Tiny*，配备英特尔酷睿 i7 处理器和 16GB 内存。对于运行 Umbrel（尤其是 Bitcoin 节点）来说，这是一个非常舒适的配置。不过，我之所以选择这个配置，是因为我想在以后安装一个 Lightning 节点和其他要求更高的应用程序。我还为我的 ThinkCentre 增加了一个 2TB SSD，以保留完整的 Blockchain 并仍有舒适的余量。在这种配置下，总成本为 270 欧元，包括所有费用。
 
@@ -1822,7 +1822,7 @@ http://192.168.1.42
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ hostname -I
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 输入密码后，点击 "*创建*"按钮。
 
@@ -1944,7 +1944,7 @@ Umbrel 的 Interface 非常直观：
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 为此，请单击设置中的相应方框。
 
@@ -2435,7 +2435,7 @@ Umbrel 提供广泛的应用程序商店。正如你所看到的，这里有许�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 此外，您的互联网服务提供商（ISP）可能知道您正在通过 Block explorer 网站查看某项交易。这也提出了一个信任问题：您必须依赖在线服务为您提供准确的交易信息，而无法亲自验证其真实性。
 
@@ -2472,7 +2472,7 @@ Umbrel 提供多种区块探索器：
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### 闪电节点
 
@@ -2492,15 +2492,15 @@ Umbrel 提供大量应用程序，帮助您启动和运行您的 Lightning 节�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 然后，您可以从主 Interface 管理您的节点，或者安装 *Ride The Lightning* 或 *ThunderHub* 以获得更多功能和高级选项。这些工具将为您的节点提供更全面的基于网络的 Interface 管理系统。
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2590,7 @@ Nostr 客户端 ***noStrudel*** 或 ***Snort*** 也可在 Umbrel 上使用。有
 
 
 
-最后，还有Umbrel上的***Nostr Wallet Connect***应用，它可以在Nostr中实现本地闪电支付。具体来说，您可以将您未来的闪电节点与您的Nostr客户连接起来，发送小额支付（称为 "*zaps*"），以奖励内容或以货币化方式进行互动，而无需通过第三方服务。这些付款直接从您的个人节点通过您的渠道发送。
+最后，Umbrel 上的 ***Nostr Wallet Connect*** 应用程序允许在 Nostr 中进行原生的闪电支付。具体来说，您可以将未来的闪电节点连接到您的 Nostr 客户端，以发送称为“*zaps*”的微支付，用于奖励内容或进行货币化交互，而无需通过第三方服务。这些付款直接从您的个人节点通过您的通道发出。
 
 
 
@@ -2598,7 +2598,7 @@ Nostr 客户端 ***noStrudel*** 或 ***Snort*** 也可在 Umbrel 上使用。有
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay 服务器
 
@@ -2626,7 +2626,7 @@ BTCPay Server 的架构基于 Bitcoin 节点，对于 Lightning，则基于兼�
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # 高级概念和最佳实践
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## 维护伞结
+## 维护您的 Umbrel 节点
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2751,7 @@ Umbrel 还提供通过 Tor 在其服务器上自动动态备份 SCB 的选项，
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### 诊断和自助
 
@@ -2929,7 +2929,7 @@ assumeutxo "是另一个现有参数，但与 "assumevalid "不同，它不是�
 
 
 
-## 剖析您的 Bitcoin 结
+## 您的比特币节点结构
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2941,7 @@ assumeutxo "是另一个现有参数，但与 "assumevalid "不同，它不是�
 
 
 
-- gW-402 **块**存储在磁盘上、
+- 存储在磁盘上的区块链**区块**,
 - 在键值数据库中维护**UTXO 集**、
 - 而 **Mempool** 则存储在 RAM 中，并定期序列化。
 
@@ -3077,9 +3077,9 @@ UTXO 集的增长还源于 Bitcoin 上简单支付交易的结构。事实上，
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-由于必须将其中的一部分保存在 RAM 中才能在合理的时间内验证交易，UTXO 集可能会逐渐导致 Full node 的运行成本过高。为了解决这个问题，已经有一些建议，特别是 [Utreexo](https://planb.network/resources/glossary/utreexo)。
+由于必须将其中的一部分保存在 RAM 中才能在合理的时间内验证交易，UTXO 集可能会逐渐导致 Full node 的运行成本过高。为了解决这个问题，已经有一些建议，特别是 [Utreexo](https://planb.academy/resources/glossary/utreexo)。
 
 
 
@@ -3093,7 +3093,7 @@ Mempool 是已收到但尚未确认的本地有效交易集。需要提醒的是
 
 
 - 参数分配给 Mempool 的大小：拥有较大 Mempool 的节点比拥有较小 Mempool 的节点能容纳更多的事务（除非后者变空）；
-- gW-433 规则：这些规则是节点中继规则的子集，规定了未经确认的交易必须符合哪些特征才能在 Mempool 中被接受；
+- mempool规则：它们构成节点转发规则的一个子集，并定义未确认交易必须满足的特征，才能被接受进入mempool；
 - 交易渗透：由于各种因素，某项交易可能已经分发到网络的某一部分，但尚未到达另一部分。
 
 
@@ -3135,10 +3135,10 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（下
 - 当节点关闭时，`anchors.dat` 会保存传出的对等节点的地址，以便下次启动时可以快速尝试再次联系它们。
 - `banlist.json` 包含操作员或节点决定的本地禁令（重复无效行为），以防止节点重新连接或接受来自这些特定对等节点的连接。
 - fee_estimates.dat "存储观察到的确认的时间跨度统计数据，费用估算器使用这些数据提出与创建交易时选择的延迟目标一致的费用率。
-- gW-446.conf` 包含节点的配置参数。您可以在这里调整中继规则。下一章我会详细介绍。
+- `bitcoin.conf` 包含您的节点配置参数。特别是在此文件中可以调整转发规则。我将在下一章中更详细地说明；
 - settings.json "包含 "Bitcoin.conf "的附加参数。
 - `debug.log` 是诊断文本日志，可用于在出现错误时了解节点活动。
-- gW-448.pid` 在运行时存储进程标识符，以便其他应用程序或脚本轻松识别 bitcoind (*Bitcoin daemon*)，并在必要时与其交互。它在节点启动时创建，并在关闭时删除。
+- `bitcoind.pid` 在运行期间记录进程标识符，使其他应用程序或脚本能够轻松识别 Bitcoind（*Bitcoin Daemon*）并在需要时与其交互。它在节点启动时创建，在停止时删除；
 - ip_asn.map "是一个 IP → ASN 映射表（独立系统），用于分组和对等多样化（"-asmap "选项）。
 - 当启用"-listenonion "选项时，"onion_v3_private_key "会存储 Tor v3 服务的私钥，以便在重启之间保持稳定的洋葱 Address。
 - 当使用 `-i2psam=` 时，"i2p_private_key "会存储 I2P 私钥，以便在 I2P 上建立传出连接和可能的传入连接。
@@ -3154,9 +3154,9 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（下
 
 
 
-- `wallets/` 是存放一个或多个的默认目录；
+- `wallets/` 是默认目录，用于存放一个或多个钱包；
 - `wallets/<name>/Wallet.dat` 是 Wallet 的 SQLite 数据库（键、描述符、事务元数据等）；
-- wallets/<name>/Wallet.dat-journal` 是 SQLite 回滚日志。
+- `wallets/<name>/wallet.dat-journal` 是 SQLite 回滚日志。
 
 
 
@@ -3335,10 +3335,10 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 - addnode"：除通常的发现外，还添加一个友好的对等节点进行联系（可多次指定）。
-- connect`：严格限制连接到所提供的 Address（可多次指定）。核心不会连接到任何其他节点。
+- `connect`：严格限制连接到提供的地址（可多次指定）。Core 不会连接到任何其他节点；
 - `seednode`: 仅用于在连接到节点时填写书籍-Address，然后断开连接。
 - maxconnections`：定义传入和传出连接的全局上限。默认情况下，该参数设置为 125，这意味着您的节点永远不会接受超过 125 个连接。
-- maxuploadtarget`：设定上传上限，以限制 24 小时滑动窗口的带宽。此上限不会影响近期 Elements 的基本传播。
+- `maxuploadtarget` ：限制上传以在24小时滚动窗口内控制带宽。此限制不会影响必要的最新元素传播；
 - onlynet"： 仅将传出连接限制到选定的网络（"ipv4"、"ipv6"、"onion"、"i2p"、"cjdns"）。例如，如果希望节点只通过 Tor 连接到 Bitcoin 网络，可以启用 `onlynet=onion` 参数并禁止传入连接（或也只允许通过 Tor 连接）。
 - dnsseed`：允许或禁止 _DNS 种子在本地 Address 池不足时请求对等体（默认值：`1`，除非 `-connect` 或 `-maxconnections=0`）。
 - `forcednsseed`: 强制在启动时请求 _DNS 种子，即使已有地址库存（默认值：`0`）。
@@ -3362,7 +3362,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 - `torcontrol=127.0.0.1:9051`,
 - proxyrandomize=1`、
 - listen=1`、
-- bind=127.0.0.1`、
+- `bind=127.0.0.1`,
 - upnp=0`、
 - natpmp=0`。
 
@@ -3418,7 +3418,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- blocksonly=1`：禁止接受和重传从对等节点收到的未确认交易（除非有特殊权限）。节点现在只上传和广播区块。本地创建的交易仍可广播（将节点与 Wallet 软件一起使用）。这大大降低了对带宽和内存的要求，但代价是降低了对中继的实用性，以及对 Mempool 的完全不熟悉。
+- `blocksonly=1` ：禁用从节点接收的未确认交易的接受和转发（特殊权限除外）。节点仅下载并广播区块。本地创建的交易仍可广播（用于将节点与钱包软件一起使用）。这大大减少了带宽和RAM的需求，但降低了中继的实用性，并使节点对内存池完全不了解。
 
 
 
@@ -3448,7 +3448,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- datacarrier=1`：允许通过 `OP_RETURN` 输出转发和（如果 Mining 通过节点）包含携带非财务数据的交易（默认值：`1`）。停用此参数会略微减少非财务数据垃圾邮件的表面积，但代价是降低了与某些用途的兼容性。在任何情况下，您都必须接受已挖掘的 `OP_RETURN`。
+- `datacarrier=1` ：允许中继并（如果通过节点挖矿）通过 `OP_RETURN` 输出包含携带非金融数据的交易（默认：`1`）。禁用此参数会略微减少非金融数据垃圾信息的传播面，但会降低与某些用例的兼容性。无论如何，您必须接受已挖出的 `OP_RETURN`。
 
 
 
@@ -3490,13 +3490,13 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- peerbloomfilters=1`：启用对 Bloom 过滤器 (BIP37) 的支持，以便向瘦客户端提供过滤后的区块/交易（默认值：`0`）。警告：这会增加资源负荷。
+- `peerbloomfilters=1` ：启用 Bloom 过滤器（BIP37）支持，以向轻客户端提供过滤后的区块/交易（默认：`0`）。注意，这会增加系统资源负载。
 
 
 
 
 
-- peerblockfilters=1`：向对等设备提供 BIP157 (*Neutrino*) 紧凑型过滤器（默认值：`0`）。
+- `peerblockfilters=1` ：向节点提供紧凑型 BIP157（*Neutrino*）过滤器（默认：`0`）。
 
 
 
@@ -3520,7 +3520,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`：定义 Wallet 生成的接收地址格式。
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` ：定义钱包为接收生成的地址格式。
 
 
 
@@ -3568,7 +3568,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- fallbackfee=<amt>`：估计器耗尽数据时使用的回退率（BTC/kvB）（默认值：`0.00`）。将其设置为 0 将完全禁用回退。
+- `fallbackfee=<amt>` ：当估算器缺少数据时使用的备用费率（BTC/kvB）（默认：`0.00`）。将其设置为0将完全禁用备用机制。
 
 
 
@@ -3660,7 +3660,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- txindex=1`：建立并维护已确认事务的全局索引。对于某些查询（`getrawtransaction` 非 Wallet）和探索目的必不可少，但会显著增加磁盘占用。与 pruned 模式不兼容。
+- `txindex=1` ：构建并维护已确认交易的全局索引。对于某些请求（钱包外的 `getrawtransaction`）和探索用途是必需的，但会显著增加磁盘占用。与修剪模式不兼容。
 
 
 
@@ -3894,7 +3894,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-现在您有几种选择。下一个合乎逻辑的步骤是建立自己的 "闪电 "节点，让您可以完全独立地进行 off-chain 交易。这将是 2025 年秋季发布的 Plan ₿ Network 课程的主题。
+现在您有几种选择。下一个合乎逻辑的步骤是建立自己的 "闪电 "节点，让您可以完全独立地进行 off-chain 交易。这将是 2025 年秋季发布的 Plan ₿ Academy 课程的主题。
 
 
 
@@ -3902,7 +3902,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # 最后部分

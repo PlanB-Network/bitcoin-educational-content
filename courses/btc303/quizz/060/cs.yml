@@ -1,0 +1,8 @@
+question: Jaký je podle definice open source hlavní požadavek týkající se poplatků při šíření softwaru s otevřeným zdrojovým kódem v rámci souhrnné distribuce softwaru?
+answer: Licence nevyžaduje licenční poplatky ani jiné poplatky za takový prodej
+wrong_answers:
+  - Musí být účtovány přiměřené náklady na reprodukci, aby byly pokryty náklady na vývoj
+  - Autorské poplatky jsou povoleny, ale nesmí překročit 5 % distribuční ceny
+  - Mohou být vyžadovány správní poplatky, ale pouze za komerční redistribuce
+explanation: |
+  Definice open source v části "Volné šíření" výslovně uvádí, že "Licence nesmí vyžadovat licenční nebo jiný poplatek za takový prodej" To znamená, že open source software musí být volně šiřitelný bez povinných poplatků nebo licenčních poplatků. Ostatní možnosti nesprávně naznačují, že jsou povoleny různé druhy poplatků, což by porušovalo základní princip volného šíření, který definuje software s otevřeným zdrojovým kódem.

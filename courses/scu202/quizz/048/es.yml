@@ -6,4 +6,4 @@ wrong_answers:
   - Facilita el uso compartido del disco
 explanation: |
   El cifrado completo hace que los datos sean completamente inutilizables sin la clave o contraseña, incluso si un atacante posee físicamente el disco.
-reviewed: false
+reviewed: true

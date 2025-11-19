@@ -1,27 +1,27 @@
 ---
 name: Adding Educational Tools
-description: How to add new educational materials on PlanB Network?
+description: How to add new educational materials on Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
 PlanB's mission is to provide leading educational resources on Bitcoin, in as many languages as possible. All content published on the site is open-source and hosted on GitHub, which allows anyone to participate in enriching the platform.
 
-Beyond tutorials and training, PlanB Network also offers a vast library of varied educational content on Bitcoin, accessible to everyone, [in the "BET" (_Bitcoin Educational Toolkit_) section](https://planb.network/resources/bet). This database includes educational posters, memes, humorous propaganda posters, technical diagrams, logos, and other tools for users. The goal of this initiative is to support individuals and communities teaching Bitcoin around the world by providing them with the necessary visual resources.
+Beyond tutorials and training, Plan ₿ Academy also offers a vast library of varied educational content on Bitcoin, accessible to everyone, [in the "BET" (_Bitcoin Educational Toolkit_) section](https://planb.academy/resources/bet). This database includes educational posters, memes, humorous propaganda posters, technical diagrams, logos, and other tools for users. The goal of this initiative is to support individuals and communities teaching Bitcoin around the world by providing them with the necessary visual resources.
 
 Do you want to participate in enriching this database, but don't know how? This tutorial is for you!
 
-*It is imperative that all content integrated into the site is free of rights or respects the source file's license. Also, all visuals published on PlanB Network are made available under the [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license.*
+*It is imperative that all content integrated into the site is free of rights or respects the source file's license. Also, all visuals published on Plan ₿ Academy are made available under the [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license.*
 ![event](assets/01.webp)
 - First, you need to have an account on GitHub. If you don't know how to create an account, we have made a detailed tutorial to guide you.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) in the `resources/bet/` section:
 ![event](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![event](assets/03.webp)
-- If you have never contributed to the contents of PlanB Network before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, which allows you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
+- If you have never contributed to the contents of Plan ₿ Academy before, you will need to create your fork of the original repository. Forking a repository means creating a copy of that repository on your own GitHub account, which allows you to work on the project without affecting the original repository. Click on the `Fork this repository` button:
 ![event](assets/04.webp)
 - You will then arrive at the GitHub editing page:
 ![event](assets/05.webp)
@@ -48,9 +48,9 @@ contributors:
 
 Here are the details to fill in for each field:
 
-- **`project`**: Indicate your organization's identifier on PlanB Network. If you do not yet have a "project" identifier for your company, you can create one by following this tutorial.
+- **`project`**: Indicate your organization's identifier on Plan ₿ Academy. If you do not yet have a "project" identifier for your company, you can create one by following this tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  If you do not have one, you can simply use your name, your pseudonym, or the name of your company without having created a project profile.
 
@@ -76,7 +76,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 For example, your YAML file could look like this:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -93,7 +93,7 @@ links:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -110,7 +110,7 @@ links:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)
@@ -181,7 +181,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-What we are doing here is anticipating the future link to your file, once your proposal has been merged into the source repository of the PlanB Network.
+What we are doing here is anticipating the future link to your file, once your proposal has been merged into the source repository of the Plan ₿ Academy.
 - Go back to your `bet.yml` file and click on the pencil icon: ![event](assets/47.webp)
 - Add your link there:
 ![event](assets/48.webp)
@@ -202,9 +202,9 @@ What we are doing here is anticipating the future link to your file, once your p
 ![event](assets/54.webp)
 - Click on the `Create pull request` button:
 ![event](assets/55.webp)
-Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of PlanB Network. You should see your BET appear on the website a few days later.
+Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of Plan ₿ Academy. You should see your BET appear on the website a few days later.
 
-Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can consult it in the Pull requests tab on the PlanB Network GitHub repository:
+Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can consult it in the Pull requests tab on the Plan ₿ Academy GitHub repository:
 ![event](assets/56.webp)
 Thank you very much for your valuable contribution! :)
 

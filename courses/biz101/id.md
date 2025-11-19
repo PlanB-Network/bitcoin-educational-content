@@ -1,22 +1,19 @@
 ---
 name: Bitcoin untuk Bisnis
 goal: Pelajari dasar-dasar pembayaran dan perbendaharaan untuk membawa perusahaan Anda ke bitcoin
-objectives: 
-
-  - Bitcoin sebagai mata uang yang sedang berkembang dan alat bisnis
-  - Memahami mengapa dan bagaimana sebuah bisnis dapat menyimpan bitcoin dalam bentuk treasury atau menggunakannya untuk pembayaran
-  - Memiliki gambaran konkret tentang cara menerima pembayaran bitcoin dalam praktiknya
-  - Bersiaplah untuk mengelola persyaratan fiskal dan akuntansi
-
+objectives:
+- Temukan Bitcoin sebagai mata uang yang berkembang dan alat bisnis
+- Pahami mengapa dan bagaimana bisnis dapat menyimpan bitcoin di kas atau menggunakannya untuk pembayaran
+- Miliki ide konkret tentang cara menerima pembayaran Bitcoin dalam praktik
+- Bersiaplah untuk mengelola persyaratan fiskal dan akuntansi
 ---
-# Memulai perjalanan perusahaan Anda di jaringan bitcoin
+# Mulai perjalanan perusahaan Anda di jaringan Bitcoin
 
-Temukan kemampuan praktis Bitcoin dan Lightning Network, dan jelajahi bagaimana, seperti halnya internet, keduanya dapat **mengubah operasi bisnis Anda**. Dari modal digital hingga pembayaran yang cepat, ekonomis, dan terukur, Bitcoin menawarkan spektrum yang luas untuk berbagai macam kasus penggunaan untuk bisnis.
+Temukan kemampuan praktis dari jaringan Bitcoin dan Lightning, dan jelajahi bagaimana, seperti internet, mereka dapat mengubah operasi bisnis Anda. Dari perbendaharaan hingga pembayaran yang cepat, ekonomis, dan skalabel, Bitcoin menawarkan spektrum luas kasus penggunaan untuk bisnis.
 
-Dalam panduan ini, Anda akan belajar bagaimana memahami Bitcoin sebagai jaringan keuangan global, universal, dan jaringan internet. Dengan karakteristik fundamentalnya yang unik, **Bitcoin memberikan peningkatan yang signifikan dibandingkan jaringan mata uang tradisional**. Anda akan menemukan mengapa dan bagaimana cara memanfaatkan Bitcoin untuk kasus-kasus keuangan klasik seperti penyimpanan modal dan sistem pembayaran. Selain itu, panduan ini akan membahas cara memperoleh dan menyimpan Bitcoin, termasuk persyaratan akuntansi dan fiskal yang terkait, serta mengimplementasikan solusi pembayaran Bitcoin sederhana atau skala besar.
+Sepanjang kursus ini, Anda akan belajar memahami Bitcoin sebagai jaringan moneter global, universal, dan asli internet. Dengan karakteristik fundamental yang unik, Bitcoin menawarkan peningkatan signifikan dibandingkan mata uang tradisional. Anda akan menemukan mengapa dan bagaimana memanfaatkan Bitcoin untuk kasus penggunaan keuangan klasik seperti penyimpanan modal dan sistem pembayaran. Selain itu, kursus ini akan mencakup akuisisi dan kepemilikan Bitcoin, termasuk persyaratan akuntansi dan fiskal terkait, serta implementasi solusi pembayaran Bitcoin sederhana atau skala besar.
 
-Entah Anda seorang **bisnis kecil atau perusahaan besar**, mengintegrasikan Bitcoin ke dalam operasi harian Anda dapat membuat perusahaan Anda lebih **tahan banting, produktif, dan kompetitif**. Setiap perusahaan berbasis internet akan menjadi perusahaan yang berorientasi pada Bitcoin, dan kursus ini memastikan Anda siap. Bagian awal kursus ini merangkum dasar-dasar operasi Bitcoin, jadi meskipun Anda seorang pemula, Anda akan mendapatkan pengetahuan dasar yang diperlukan untuk melanjutkan. Mempelajari dasar-dasar penemuan Satoshi selalu merupakan ide yang bagus, baik sebelum atau sesudah mempelajari BIZ101.
-
+Baik Anda adalah bisnis kecil atau korporasi besar, mengintegrasikan Bitcoin ke dalam operasi harian Anda dapat membuat perusahaan Anda lebih tangguh, produktif, dan kompetitif. Setiap perusahaan berbasis internet akan menjadi perusahaan berorientasi Bitcoin, dan kursus ini memastikan Anda siap.
 +++
 # Pendahuluan
 
@@ -35,7 +32,7 @@ Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujua
 
 Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.network/resources/glossary) untuk definisi.
+**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
 
 # Mata uang, sistem pembayaran, dan Bitcoin
 
@@ -242,7 +239,7 @@ Bitcoin menantang kita untuk mempertimbangkan kembali sifat uang itu sendiri. Da
 
 Untuk informasi lebih lanjut tentang Bitcoin, sejarahnya, cara kerjanya, dan penggunaannya, saya juga menyarankan untuk mengikuti kursus komprehensif lainnya:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Pengantar ke Jaringan Lightning
 
@@ -324,7 +321,7 @@ Lightning Network sangat ideal untuk pembayaran Bitcoin di toko fisik atau onlin
 
 Untuk informasi lebih lanjut mengenai cara kerja teknis Lightning Network, saya juga menyarankan untuk mengikuti kursus komprehensif lainnya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin dalam perbendaharaan
 
@@ -444,11 +441,11 @@ Para pemikir ini membentuk gagasan bahwa intervensi negara mendistorsi pasar dan
 
 Untuk informasi lebih lanjut tentang topik ini:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Menyimpan bitcoin dalam bentuk treasury
 
@@ -601,7 +598,7 @@ Karena Bitcoin berfungsi sebagai alat tukar, maka dimungkinkan untuk membayangka
 
 Hal ini melibatkan perolehan imbalan dari pengoperasian mesin-mesin pertambangan. Untuk bisnis yang tidak terspesialisasi, hal ini masih relatif kecil. Anda bisa berpartisipasi melalui perantara yang akan menjual atau menyewakan komputasi, jaringan, dan pemeliharaan kepada Anda. Jika Anda memiliki mesin tersebut, Anda dapat memperhitungkannya sebagai aset yang dapat disusutkan. Dalam skala besar, Anda perlu menghitung laba atas investasi dengan cermat karena pasarnya sangat kompetitif dan membutuhkan antisipasi biaya yang baik, terutama biaya listrik.
 
-Untuk mempelajari lebih lanjut tentang metode penambangan, Anda dapat [lihat bagian "penambangan" di tutorial kami](https://planb.network/tutorials/mining).
+Untuk mempelajari lebih lanjut tentang metode penambangan, Anda dapat [lihat bagian "penambangan" di tutorial kami](https://planb.academy/tutorials/mining).
 
 
 - **Membeli Bitcoin:**
@@ -610,11 +607,11 @@ Sejauh ini, ini adalah metode yang paling umum, dilakukan melalui bursa peer-to-
 
 Untuk mempelajari cara membuka akun bisnis dan menggunakannya untuk membeli, menjual, dan mentransfer bitcoin, Anda dapat melihat dua tutorial yang dirancang khusus untuk bisnis, yang mencakup platform Kraken dan Bitfinex dalam versi korporatnya:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Untuk mempelajari lebih lanjut mengenai metode-metode untuk mendapatkan bitcoin melalui bursa atau peer-to-peer, Anda bisa [lihat bagian "bursa" dalam tutorial kami](https://planb.network/tutorials/exchange).
+Untuk mempelajari lebih lanjut mengenai metode-metode untuk mendapatkan bitcoin melalui bursa atau peer-to-peer, Anda bisa [lihat bagian "bursa" dalam tutorial kami](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/id/012.webp)
 
@@ -874,21 +871,21 @@ Untuk tutorial terperinci mengenai wallet yang direkomendasikan dan pengaturan d
 
 **Dompet/simpul LN kustodian mandiri:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Dompet LN Kustodian:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Yang Penting
 
@@ -920,15 +917,15 @@ Meskipun profil Essential tidak menuntut sistem akuntansi yang sangat canggih, t
 
 Solusi hibrida yang paling cocok untuk profil Anda kemungkinan adalah Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Solusi lain yang mudah diimplementasikan, tetapi dengan kekurangan karena 100% kustodian, adalah Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Jika Anda siap terjun dan menginginkan kontrol penuh atas prosesnya, perangkat lunak BTCPay Server adalah pilihan yang sangat baik. Namun, kelemahan utama BTCPay Server adalah pengaturan dan pengelolaannya memakan waktu dan membutuhkan tingkat keahlian teknis tertentu, tetapi Anda dapat mengikuti panduan kami:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Terakhir, sebagai pelengkap tempat penjualan fisik, Anda dapat mempertimbangkan untuk membuat [Bitcoinize PoS] (https://bitcoinize.com/).
 
@@ -966,7 +963,7 @@ Untuk contoh di dunia nyata, pertimbangkan sebuah toko e-commerce berukuran seda
 
 Untuk mempelajari lebih dalam tentang implementasi spesifik dan menjelajahi konfigurasi langsung BTC Pay Server, lihat kursus berikut ini:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## The Enterprise
 
@@ -1217,7 +1214,7 @@ Akan tetapi, sebuah file `.csv` sederhana yang berisi riwayat transaksi sering k
 
 Bagi mereka yang menyimpan sendiri Bitcoin mereka, mengelola UTXO (*Unspent Transaction Outputs*) adalah langkah penting. Pelabelan UTXO yang tepat membantu melacak asal usul setiap pecahan BTC, membedakan transaksi yang terkait dengan aktivitas profesional dengan transaksi untuk pengeluaran pribadi, dan memudahkan penelusuran untuk tujuan hukum atau pajak. Sebagian besar perangkat lunak dompet Bitcoin yang baik memungkinkan Anda untuk mengimpor dompet Anda menggunakan file cadangan Anda (atau xpub Anda, tergantung pada pengaturan Anda) dan menandai UTXO berdasarkan asal atau tujuannya. Untuk membantu Anda, berikut ini adalah tutorial lengkap yang didedikasikan untuk praktik ini:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bisa melunasi faktur dengan Bitcoin. Kuncinya adalah mendokumentasikan transaksi dengan benar. Jika Anda membayar dari dompet penyimpanan mandiri, sangat ideal untuk membuat transaksi dengan mencatat nomor faktur dan tujuan pembayaran pada label Anda. Jika Anda lebih memilih untuk menyelesaikan faktur melalui bursa, Anda juga memiliki opsi untuk mengekspor tanda terima atau riwayat transaksi untuk dimasukkan ke dalam catatan akuntansi Anda. Transparansi ini akan menyederhanakan pelacakan dan pelaporan semua operasi BTC Anda.
 

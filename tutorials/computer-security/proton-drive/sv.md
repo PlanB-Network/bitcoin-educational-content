@@ -51,7 +51,7 @@ När det gäller [prissättning] (https://proton.me/pricing) erbjuder den kostna
 Om du ännu inte har ett Proton-konto måste du skapa ett. Jag hänvisar dig till vår Proton Mail-handledning där vi förklarar i detalj hur du skapar ett gratis Proton-konto och ställer in det:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ Du befinner dig nu på din Proton Drive.
 För att lägga till filer på din Proton Drive, när du enbart använder webbversionen (vi kommer att diskutera användningen av den lokala versionen senare), behöver du bara dra och släppa dina dokument direkt till Interface. ![PROTON DRIVE](assets/notext/08.webp) Du kan sedan hitta ditt dokument på startsidan. ![PROTON DRIVE](assets/notext/09.webp) För att lägga till ett nytt objekt klickar du på knappen "*Ny*" längst upp till vänster på skärmen. ![PROTON DRIVE](assets/notext/10.webp) Funktionen "*Ladda upp fil*" öppnar din lokala filutforskare, så att du kan välja och importera nya dokument till Proton Drive, precis som du skulle göra genom att dra och släppa. ![PROTON DRIVE](assets/notext/11.webp) Med "*Upload folder*" kan du importera en hel mapp. ![PROTON DRIVE](assets/notext/12.webp) "*Ny mapp*" gör att du kan skapa en mapp för att bättre organisera dina dokument på Proton Drive. ![PROTON DRIVE](assets/notext/13.webp) Klicka på det här alternativet och tilldela mappen ett namn. ![PROTON DRIVE](assets/notext/14.webp) Då hittar du den direkt på startsidan för Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Slutligen kan du med "*Nytt dokument*" skapa ett nytt textdokument direkt i Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Genom att klicka på den öppnas ett nytt tomt dokument. ![PROTON DRIVE](assets/notext/17.webp) Du kan skriva i det och redigera det. ![PROTON DRIVE](assets/notext/18.webp) Om du klickar på knappen "*Share*" längst upp till höger kan du dela dokumentet. ![PROTON DRIVE](assets/notext/19.webp) Du behöver bara ange e-postadressen till den bidragsgivare som du vill ge tillgång till dokumentet, antingen i skrivskyddat läge eller med redigeringsrättigheter. ![PROTON DRIVE](assets/notext/20.webp) Om du går tillbaka till din Proton Drive kan du se att dokumentet har sparats framgångsrikt. ![PROTON DRIVE](assets/notext/21.webp) Under fliken "*Shared*" hittar du de dokument som du har delat med andra. ![PROTON DRIVE](assets/notext/22.webp) Och på fliken "*Shared with me*" kan du se de dokument som andra har delat med dig. ![PROTON DRIVE](assets/notext/23.webp) Slutligen, på fliken "*Trash*" kan du hitta dina nyligen raderade dokument. ![PROTON DRIVE](assets/notext/24.webp) De flesta inställningar för din Proton Drive är integrerade i ditt Proton-konto. För detaljerade instruktioner om hur du konfigurerar ditt konto uppmanar jag dig att läsa denna handledning:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Hur installerar jag Proton Drive-programvaran?
 
@@ -145,4 +145,4 @@ Grattis, du har nu en mycket robust 3-2-1 backup-strategi som gör att du drasti
 Om du vill veta mer om hur du säkrar din närvaro på nätet och undviker hackning rekommenderar jag också att du läser vår detaljerade handledning om lösenordshanteraren Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

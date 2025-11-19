@@ -1,0 +1,8 @@
+question: Apa yang membuat sistem online seperti Bitcoin pada dasarnya berbeda dari sistem fisik dalam hal ancaman musuh?
+answer: Sistem online menghadapi musuh pseudonim dan anonim yang dapat mengeksploitasi kelemahan apa pun tanpa terlihat atau tertangkap
+wrong_answers:
+  - Sistem online memiliki algoritme kriptografi yang lebih kompleks yang lebih sulit dianalisis untuk mengetahui kerentanan keamanannya
+  - Sistem fisik dapat dilindungi oleh penegak hukum, sementara sistem online hanya mengandalkan bukti matematis
+  - Sistem online memproses transaksi lebih cepat sehingga memudahkan musuh untuk melancarkan serangan terkoordinasi
+explanation: |
+  Perbedaan utama yang disoroti oleh Andrew Poelstra adalah bahwa sistem fisik dapat mengandalkan penegakan hukum dan visibilitas musuh untuk menangkal serangan, bahkan menerima beberapa risiko seperti bangunan yang dibakar. Namun, sistem online seperti Bitcoin beroperasi di lingkungan di mana musuh dapat bertindak secara samaran atau anonim, terhubung dari mana saja, dan mengeksploitasi kelemahan tanpa diketahui atau tertangkap. Perbedaan mendasar ini berarti bahwa semua kelemahan yang diketahui dalam Bitcoin harus ditangani, karena kelemahan tersebut pasti akan dieksploitasi oleh musuh yang tidak terlihat yang tidak menghadapi konsekuensi dunia nyata.

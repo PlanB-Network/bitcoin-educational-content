@@ -1,0 +1,8 @@
+question: When creating a custom function-like macro that needs to handle different numbers of input arguments, which fragment specifier and repetition pattern combination would be most appropriate?
+answer: Use $($x:expr),* to match zero or more expressions separated by commas
+wrong_answers:
+  - Use $($x:ident)+ to match one or more identifiers without separators
+  - Use $($x:ty);* to match zero or more types separated by semicolons
+  - Use $($x:expr)? to match an optional single expression with no repetition
+explanation: |
+  The pattern $($x:expr),* is specifically designed for variable argument macros, where expr matches any expression and the ,* syntax handles zero or more repetitions separated by commas. This is exactly what's needed for macros like vec! that can accept varying numbers of arguments. The other options are incorrect because: ident only matches identifiers (not full expressions), ty matches types (not values), and ? matches optional single items rather than variable repetitions.

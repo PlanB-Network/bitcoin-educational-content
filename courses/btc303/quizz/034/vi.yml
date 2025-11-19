@@ -1,0 +1,8 @@
+question: Lý do chính khiến nguồn cung lưu hành thực tế của Bitcoin thấp hơn đáng kể so với mức tối đa lý thuyết là khoảng 21 triệu BTC là gì?
+answer: Mất khóa riêng tư, trộm cắp wallet và tiền xu được gửi đến địa chỉ sai sẽ vĩnh viễn loại bỏ bitcoin khỏi lưu thông
+wrong_answers:
+  - Việc điều chỉnh độ khó của Mining sẽ tự động giảm tổng nguồn cung để duy trì tình trạng khan hiếm theo thời gian
+  - Phí giao dịch bị đốt trong quá trình xử lý, dần dần làm giảm nguồn cung bitcoin có sẵn
+  - "Giao thức Bitcoin tự động khóa các đồng tiền không di chuyển trong thời gian dài để ngăn ngừa lạm phát"
+explanation: |
+  Chương này giải thích rằng mặc dù mức tối đa lý thuyết là khoảng 20.999.817 BTC, nhưng nguồn cung thực tế có thể sử dụng lại thấp hơn nhiều do lỗi của con người và mất mát. Việc mất khóa riêng tư khiến bitcoin vĩnh viễn không thể truy cập được, ví bị đánh cắp hoặc bị lãng quên, và đôi khi tiền được gửi đến các địa chỉ không hợp lệ. Những yếu tố này tạo ra sự sụt giảm nguồn cung vĩnh viễn, mang lại lợi ích cho những người nắm giữ còn lại, vì Satoshi đã lưu ý rằng việc mất tiền khiến tiền của mọi người khác có giá trị hơn.

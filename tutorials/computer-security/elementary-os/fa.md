@@ -11,7 +11,7 @@ description: جایگزین ایده‌آل برای ویندوز و مک‌او
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## چرا Elementary OS را انتخاب کنیم؟
 
@@ -380,4 +380,4 @@ sudo apt update && sudo apt install -y git python3 python3-pip build-essential w
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

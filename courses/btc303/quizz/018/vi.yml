@@ -1,0 +1,8 @@
+question: Tính chất không cần tin cậy của Bitcoin đặc biệt loại bỏ nhu cầu gì trong các giao dịch kỹ thuật số?
+answer: Bên thứ ba đáng tin cậy để xử lý và xác thực giao dịch
+wrong_answers:
+  - Các thành phần phần cứng và phần mềm để chạy các nút Bitcoin
+  - Thuật toán mã hóa để bảo mật khóa riêng và chữ ký
+  - Cơ chế đồng thuận mạng để thống nhất các khối hợp lệ
+explanation: |
+  Tính năng không cần tin cậy của Bitcoin đặc biệt loại bỏ nhu cầu sử dụng các bên thứ ba đáng tin cậy như ngân hàng hoặc tổ chức tài chính để xử lý và xác thực giao dịch. Như Satoshi Nakamoto đã giải thích trong sách trắng Bitcoin, thương mại truyền thống phụ thuộc vào các tổ chức tài chính đóng vai trò trung gian đáng tin cậy, nhưng thiết kế của Bitcoin cho phép hệ thống hoạt động chính xác mà không cần bất kỳ bên thứ ba đáng tin cậy nào thông qua cơ chế đồng thuận phi tập trung. Các tùy chọn khác đại diện cho các thành phần kỹ thuật thiết yếu mà Bitcoin vẫn yêu cầu - bạn vẫn cần phần cứng/phần mềm để tham gia, bảo mật mật mã vẫn là nền tảng cơ bản, và đồng thuận mạng là cách Bitcoin đạt được tính không cần tin cậy chứ không phải là thứ nó loại bỏ.

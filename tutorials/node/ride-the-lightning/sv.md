@@ -645,7 +645,7 @@ Exponera aldrig RTL direkt på Internet. Ge företräde åt :
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### God säkerhetspraxis
 
@@ -703,4 +703,4 @@ För att fördjupa din förståelse för hur Lightning Network fungerar rekommen
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

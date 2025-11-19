@@ -60,7 +60,7 @@ _Lisaturvalisuse huvides seadistage PIN-kood_
 
 ## Lightning Networki kohta
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoini välkuvõrk muudab Bitcoini tehingud revolutsiooniliselt kiiremaks, odavamaks ja tõhusamaks. See sobib ideaalselt igapäevaseks kasutamiseks, võimaldades peaaegu koheseid makseid minimaalsete tasudega, mis on ideaalne mikrotehingute jaoks, näiteks kohvi ostmiseks või sagedaste väikeostude tegemiseks.
 

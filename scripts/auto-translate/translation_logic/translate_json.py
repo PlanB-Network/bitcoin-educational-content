@@ -54,7 +54,7 @@ class GlossaryManager:
         sorted_terms = sorted(self.glossary_terms, key=len, reverse=True)
         
         for term in sorted_terms:
-            pattern = re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE)
+            pattern = re.compile(r'\b' + re.escape(term) + r'\b')
             if pattern.search(working_text):
                 replacement = self._create_replacement_token()
                 working_text = pattern.sub(replacement, working_text)

@@ -665,7 +665,7 @@ Test je installatie na de configuratie:
 
 
 
-### Alternatieven voor Plan ₿ Network
+### Alternatieven voor Plan ₿ Academy
 
 
 Raadpleeg onze andere gidsen voor maximale bescherming:
@@ -673,14 +673,14 @@ Raadpleeg onze andere gidsen voor maximale bescherming:
 
 
 
-- [Firefox verhard](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Geavanceerde multi-platform configuratie
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Volledige netwerkanonimiteit
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximale bescherming tegen vingerafdrukken
+- [Firefox verhard](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Geavanceerde multi-platform configuratie
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Volledige netwerkanonimiteit
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximale bescherming tegen vingerafdrukken
 
 
 
-Als je meer wilt leren over de geschiedenis en werking van browsers, en over de belangrijkste digitale objecten in je dagelijks leven, nodig ik je uit om onze nieuwe gratis training SCU 202 te ontdekken, beschikbaar op Plan ₿ Network:
+Als je meer wilt leren over de geschiedenis en werking van browsers, en over de belangrijkste digitale objecten in je dagelijks leven, nodig ik je uit om onze nieuwe gratis training SCU 202 te ontdekken, beschikbaar op Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

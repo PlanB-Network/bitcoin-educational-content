@@ -1,0 +1,8 @@
+question: Bitcoin'ın açıklayıcı kullanıcı adları yerine takma ad olarak genel anahtarlardan türetilen adresleri kullanmasının temel nedeni nedir?
+answer: Blok zinciri kaydı gerektirmeden güvenli çevrimdışı adres oluşturmayı sağlamak için
+wrong_answers:
+  - İşlemleri blok zincirinde tamamen anonim ve izlenemez hale getirmek için
+  - İşlem doğrulaması için gereken hesaplama gücünü azaltmak için
+  - Aynı takma adın birden fazla işlemde sınırsız olarak yeniden kullanılmasına izin vermek için
+explanation: |
+  Bitcoin, açık anahtarlardan türetilen adresleri takma ad olarak kullanır çünkü bu sistem, kullanıcıların önce blok zincirine kaydetmelerine gerek kalmadan çevrimdışı olarak güvenli bir şekilde yeni adresler oluşturmalarına olanak tanır. Açıklayıcı kullanıcı adlarının kullanılması, kullanıcı adı ve açık anahtar arasındaki bağlantının blok zincirinde duyurulmasını gerektirecek, bu da ücretlere mal olacak, blok zincirini şişirecek ve güvenliği azaltacaktır. Ayrıca, kullanıcı adları yeniden kullanımı teşvik edecek (gizliliği azaltacak) ve kimliğe bürünme riskleri yaratacaktır. Adrese dayalı sistem bu sorunları ortadan kaldırırken Bitcoin'in düzgün çalışması için gereken kriptografik güvenliği de korur.

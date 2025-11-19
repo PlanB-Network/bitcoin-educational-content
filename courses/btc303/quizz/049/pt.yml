@@ -1,0 +1,8 @@
+question: De acordo com a abordagem do pensamento contraditório, qual é a principal razão pela qual todos os pontos fracos conhecidos do Bitcoin devem ser resolvidos em vez de se aceitar um certo nível de risco?
+answer: O Bitcoin funciona num ambiente em linha pseudónimo, onde os adversários podem explorar os pontos fracos sem serem apanhados ou responsabilizados
+wrong_answers:
+  - "O modelo de segurança formal do Bitcoin exige uma prova matemática de que todos os potenciais vectores de ataque foram eliminados"
+  - A natureza distribuída do Bitcoin significa que mesmo pequenas fraquezas podem transformar-se em falhas em todo o sistema em todos os nós
+  - "O fornecimento fixo do Bitcoin torna economicamente inviável a absorção de perdas resultantes de ataques bem sucedidos, ao contrário dos sistemas financeiros tradicionais"
+explanation: |
+  A resposta correta reflecte a visão fundamental de Andrew Poelstra sobre os sistemas em linha e os sistemas físicos. Ao contrário dos edifícios, onde aceitamos algum risco e confiamos na aplicação da lei, o Bitcoin funciona num ambiente pseudónimo onde os atacantes podem agir sem visibilidade ou consequências. Esta diferença fundamental significa que todas as fraquezas conhecidas serão inevitavelmente exploradas, tornando a segurança abrangente essencial e não uma gestão de risco opcional.

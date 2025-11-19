@@ -1,5 +1,5 @@
 ---
-name: 通称ボールト
+name: Alias Vault
 description: パスワード、二要素認証、エイリアスを管理する強力なツール（電子メールサーバー内蔵） - セルフホスティングも可能！
 ---
 
@@ -185,7 +185,7 @@ Alias Vaultは非常にシンプルで、`Home`というメインページが1�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 テスト用に作成したエイリアスを削除するには、`Home`にログインし、次に`Credentials`をクリックし、削除したいIDをクリックします。右上に _Delete_ コマンドが表示されるので、次に進みます。
 

@@ -58,7 +58,7 @@ Untuk menambahkan perangkat baru, cukup ulangi proses instalasi yang telah dijel
 
 Untuk dapat mengatur kode autentikasi 2FA melalui aplikasi seperti Authy pada sebuah akun, akun tersebut harus mendukung fitur ini. Saat ini, mayoritas layanan online memang menawarkan opsi 2FA, namun tidak selalu demikian. Mari kita ambil contoh akun email Proton yang telah saya presentasikan dalam tutorial lain:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 Anda umumnya akan menemukan opsi 2FA ini di pengaturan akun Anda, seringkali di bawah bagian "*Password*" atau "*Security*".

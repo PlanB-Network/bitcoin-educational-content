@@ -1,0 +1,8 @@
+question: Was hält Gregory Maxwell für ein größeres Risiko für Bitcoin als 51%ige Angriffe?
+answer: Menschen, die die Dezentralisierungseigenschaften von Bitcoin nicht verstehen oder schützen
+wrong_answers:
+  - Bergleute konzentrieren zu viel Rechenleistung an einem Ort
+  - Staatliche Vorschriften, die Bitcoin-mining-Betriebe verhindern
+  - "Technische Schwachstellen in den kryptographischen Algorithmen von Bitcoin"
+explanation: |
+  Laut Gregory Maxwells Reddit-Beitrag, der im Kapitel zitiert wird, sind 51%ige Angriffe zwar ein theoretisches Problem, aber das weitaus größere Risiko besteht darin, dass Bitcoin-Nutzer die Dezentralisierungseigenschaften, die Bitcoin gegenüber zentralisierten Alternativen so wertvoll machen, nicht verstehen, sich nicht darum kümmern und sie nicht schützen. Das liegt daran, dass die Dezentralisierung die Zensurresistenz von Bitcoin ausmacht - sein Hauptunterscheidungsmerkmal zu traditionellen Geldsystemen. Wenn die Menschen diese Eigenschaften nicht aktiv schützen, könnte Bitcoin allmählich zentralisiert werden, bis Zensur möglich wird, was den größten Teil seines Wertversprechens zerstören würde. Die anderen Optionen sind zwar potenziell bedenklich, aber nicht das, was Maxwell speziell als die größere Bedrohung für den langfristigen Erfolg von Bitcoin identifiziert hat.

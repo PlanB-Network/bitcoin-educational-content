@@ -289,9 +289,9 @@ description: Откройте для себя функцию Co-Sign и испо
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1-экспорт Wallet Multisig 2-сур-3 до Sparrow wallet
 
@@ -464,7 +464,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Web 2FA и белые адреса
 
@@ -506,11 +506,11 @@ https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Если говорить конкретно, то перед подписанием транзакции вам нужно будет поднести свое устройство с поддержкой NFC, подключенное к Интернету, к Coldcard. Это автоматически приведет вас на веб-страницу coldcard.com, где вам будет предложено ввести 6-значный код для вашего приложения. Если вы ввели правильный код, на веб-странице появится QR-код для сканирования ColdCardQ или 8-значный код для ввода на Mk4, чтобы авторизовать ваше устройство для подписи.
 

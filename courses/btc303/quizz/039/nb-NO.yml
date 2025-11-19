@@ -1,0 +1,8 @@
+question: I henhold til Shaolinfrys argument for brukeraktiverte Soft-forks (UASF), hva er hovedproblemet med gruvearbeideraktiverte softforks når det gjelder implementering av oppgraderinger?
+answer: En liten andel av hashrate kan nedlegge veto mot oppgraderinger for alle, noe som skaper treghet i oppgraderingene
+wrong_answers:
+  - Utvinnere kan reversere myke fork-aktiveringer etter implementering gjennom majoritetskonsensus
+  - Økonomiske noder mister kontroll over valideringsreglene når utvinnere signaliserer aktivering
+  - Soft fork-endringene blir permanente og kan ikke endres når gruvearbeiderne har aktivert dem
+explanation: |
+  Shaolinfry identifiserte at miner-signalering skaper et naturlig vetosystem der selv en liten prosentandel av hashrate kan forhindre at oppgraderinger aktiveres for hele nettverket. Denne "oppgraderingströgheten" blir mer problematisk etter hvert som mining blir mer desentralisert, og kan potensielt blokkere fordelaktige protokollforbedringer. De andre alternativene gir en feilaktig fremstilling av hvordan soft forks fungerer - utvinnere kan ikke reversere aktiveringer ensidig, økonomiske noder beholder valideringsmyndighet, og soft forks kan teoretisk sett endres gjennom påfølgende oppgraderinger.

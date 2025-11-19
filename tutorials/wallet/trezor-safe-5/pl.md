@@ -104,7 +104,7 @@ W tym samouczku pokażę, jak korzystać z Trezor Safe 5 z [oprogramowaniem do z
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Będziesz także potrzebował oprogramowania Trezor Suite, aby skonfigurować Safe 5, sprawdzić jego autentyczność i zainstalować oprogramowanie układowe. Będziemy używać tego oprogramowania tylko do tego celu, a później będzie ono potrzebne tylko do aktualizacji oprogramowania układowego. Do codziennego zarządzania Wallet będziemy używać wyłącznie Sparrow Wallet, ponieważ jest on zoptymalizowany pod kątem Bitcoin i łatwy w użyciu, nawet dla początkujących (Sparrow obsługuje tylko Bitcoin, a nie altcoiny).
 
@@ -122,7 +122,7 @@ W przypadku obu tych programów zdecydowanie zalecam sprawdzenie zarówno ich au
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Uruchamianie Trezor Safe 5
 
@@ -220,7 +220,7 @@ Jeśli chcesz dowiedzieć się więcej o innych opcjach tworzenia kopii zapasowy
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 
 ![Image](assets/fr/14.webp)
@@ -287,7 +287,7 @@ Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zar
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/19.webp)
 
@@ -401,7 +401,7 @@ Po otwarciu Sparrow Wallet upewnij się, że oprogramowanie jest podłączone do
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Kliknij zakładkę "*File*", a następnie "*New Wallet*".
 
@@ -483,7 +483,7 @@ Aby dowiedzieć się więcej o tym, jak wykonać test odzyskiwania, proponuję z
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Jak mogę odbierać bitcoiny za pomocą Trezor Safe 5?
 
@@ -641,6 +641,6 @@ Gratulacje, jesteś teraz na bieżąco z podstawową obsługą Trezor Safe 5 i S
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Jeśli uznałeś ten poradnik za przydatny, będę wdzięczny za pozostawienie kciuka Green poniżej. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!

@@ -1,0 +1,8 @@
+question: What serves as pseudonyms in Bitcoin's pseudonymous system?
+answer: Addresses derived from public keys
+wrong_answers:
+  - "Descriptive usernames like 'watchme1984'"
+  - Private keys stored in wallets
+  - Transaction IDs on the blockchain
+explanation: |
+  Bitcoin uses addresses derived from public keys as pseudonyms rather than arbitrary usernames or other identifiers. This design choice serves multiple important purposes: it eliminates the need to register pseudonyms beforehand on the blockchain, reduces incentives for reusing the same pseudonym, avoids unnecessary blockchain bloat, and makes it much harder for malicious actors to impersonate others. Using descriptive usernames would require a registration system and create security vulnerabilities, while private keys must remain secret and transaction IDs serve a different purpose in the system.

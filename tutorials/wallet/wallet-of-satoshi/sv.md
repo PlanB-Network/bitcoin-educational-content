@@ -12,7 +12,7 @@ _Den här handledningen skrevs av_ [Bitcoin Campus] (https://linktr.ee/bitcoinca
 
 Wallet av Satoshi är en Lightning Network Wallet, custodial, och mycket enkel att använda.
 
-I kursen [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) används den för att ange Redeem Lightning Network vouchers.
+I kursen [BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) används den för att ange Redeem Lightning Network vouchers.
 
 
 **Kom alltid ihåg**: _inte dina nycklar, inte dina mynt_

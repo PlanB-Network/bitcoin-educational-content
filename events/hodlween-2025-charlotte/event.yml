@@ -1,0 +1,21 @@
+id: afeedbcc-9930-44d7-a69d-d1ccf7de6b8c
+start_date: 2025-10-31 23:00:00
+end_date: 2025-11-01 03:00:00
+timezone: America/New_York
+address_city_country: Charlotte , North Carolina, USA
+name: HODLween 2025 Charlotte
+type: meetup
+description: |
+  "HODLween is a bitcoin-themed Halloween party including live music,
+  performances, hidden bitcoin, spectacular decor, and an epic costume contest
+  for best Satoshi Nakamoto. It is the longest running Bitcoin Halloween party
+  worldwide, brought to you by Bitcoin Charlotte.
+  
+  HODLween is not a Web3, NFT, crypto, blockchain, or altcoin event."
+language:
+  - en
+links:
+  website: https://hodlween.party/
+tags:
+  - adoption
+  - community

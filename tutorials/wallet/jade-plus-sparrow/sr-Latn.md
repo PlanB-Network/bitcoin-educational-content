@@ -34,7 +34,7 @@ Jade Plus je kompatibilan sa većinom Wallet softvera za upravljanje. Ovde je sa
 U ovom vodiču, postavićemo naprednu konfiguraciju Jade Plus sa desktop softverom Sparrow Wallet u režimu QR kodova. Ova konfiguracija je idealna za korisnike srednjeg ili naprednog nivoa. Ako tražite jednostavniji pristup za početnike, preporučujem da pogledate ovaj vodič gde koristimo Jade Plus sa Green Wallet preko Bluetooth veze:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Model bezbednosti Jade Plus
 
@@ -142,7 +142,7 @@ Možete ga napisati na kartonu koji je priložen u kutiji, ili za dodatnu sigurn
 Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic frazom, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naravno, nikada ne smete deliti ove reči na Internetu, kao što to radim u ovom uputstvu. Ovaj uzorak Wallet će biti korišćen samo na Testnet i biće obrisan na kraju uputstva.
 
@@ -378,7 +378,7 @@ BIP39 passphrase je opcionalna lozinka koju možete slobodno izabrati, i koja se
 Pre nego što konfigurišete ovu opciju na vašem Jade Plus, preporučuje se da pročitate ovaj članak kako biste u potpunosti razumeli teorijski rad passphrase i izbegli greške koje bi mogle dovesti do gubitka vaših bitkoina :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Sa vašim Jade i dalje zaključanim (passphrase se može uneti samo kada uređaj nije otključan), pristupite meniju "*Opcije*".
 
@@ -444,7 +444,7 @@ Ako je vaš passphrase važeći, potvrdite.
 Imajte na umu da su BIP39 lozinke osetljive na velika i mala slova, kao i na tipografske greške. Ako unesete passphrase koji je malo drugačiji od onog koji je prvobitno konfigurisan, Jade neće prijaviti grešku, već će izvesti drugi skup kriptografskih ključeva koji neće biti oni u vašem početnom Wallet.
 
 
-Važno je, dakle, prilikom konfigurisanja, zabeležiti otisak vašeg glavnog ključa, koji se može naći u donjem desnom uglu ekrana. Na primer, sa mojim passphrase `PBN`, otisak mog glavnog ključa je `3AD1AE65`.
+Važno je, dakle, prilikom konfigurisanja, zabeležiti otisak vašeg glavnog ključa, koji se može naći u donjem desnom uglu ekrana. Na primer, sa mojim passphrase `Plan ₿ Academy`, otisak mog glavnog ključa je `3AD1AE65`.
 
 
 ![Image](assets/fr/49.webp)
@@ -456,7 +456,7 @@ Svaki put kada otključate svoj Jade sa svojim passphrase, proverite da li je ot
 Pre nego što primite svoje prve bitkoine u vaš Wallet, **toplo vam savetujem da izvršite test praznog oporavka**. Zabeležite neke referentne informacije, kao što su vaš xpub ili prvi prijemni Address, zatim obrišite vaš Wallet na Jade Plus dok je još uvek prazan (`Options -> Device -> Factory Reset`). Zatim pokušajte da obnovite vaš Wallet koristeći vaše papirne rezervne kopije Mnemonic fraze i bilo kojeg passphrase. Proverite da li informacije o kolačićima generisane nakon obnove odgovaraju onima koje ste prvobitno zapisali. Ako odgovaraju, možete biti sigurni da su vaše papirne rezervne kopije pouzdane. Da biste saznali više o tome kako izvršiti test oporavka, pogledajte ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurisanje Wallet na Sparrow Wallet
 
@@ -473,7 +473,7 @@ Počnite preuzimanjem i instaliranjem Sparrow Wallet [sa zvanične veb stranice]
 Obavezno proverite autentičnost i integritet softvera pre instalacije. Ako ne znate kako to da uradite, molimo vas da pogledate ovaj vodič:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kada se otvori Sparrow Wallet, kliknite na karticu "*File*", zatim na "*New Wallet*".
 
@@ -649,4 +649,4 @@ Vaša transakcija je emitovana i čeka potvrdu.
 Da biste nastavili dalje, preporučujem ovaj drugi vodič o Jade Plus, gde ga konfigurišemo putem Bluetooth-a sa Green mobilnom aplikacijom:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

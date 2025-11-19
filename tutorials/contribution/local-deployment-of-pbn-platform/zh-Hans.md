@@ -1,12 +1,12 @@
 ---
-name: 本地运行 Plan ₿ Network 平台指南
-description: 如何在本地环境中运行 Plan ₿ Network，以测试我对 Plan ₿ Network 教育内容的贡献或校对/审核？
+name: 本地运行 Plan ₿ Academy 平台指南
+description: 如何在本地环境中运行 Plan ₿ Academy，以测试我对 Plan ₿ Academy 教育内容的贡献或校对/审核？
 ---
 ![github](assets/cover.webp)
 
 ## 综述
 
-本教程将逐步说明如何使用 Docker、虚拟密钥和自定义资源库配置，在本地计算机上从 Plan ₿ Network 安装 Bitcoin 学习管理系统。
+本教程将逐步说明如何使用 Docker、虚拟密钥和自定义资源库配置，在本地计算机上从 Plan ₿ Academy 安装 Bitcoin 学习管理系统。
 
 如果你不明白上面的部分，别担心，本教程就是为你准备的！
 
@@ -106,7 +106,7 @@ docker compose up -d --build -V
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 注意：如果更改任何源文件，应用程序将自动重新加载。
 
@@ -142,7 +142,7 @@ docker exec --user=root bitcoin-learning-management-system-api-1 chmod 777 /tmp/
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10.自定义存储库（可选）**
 

@@ -1,0 +1,8 @@
+question: Que mudança fundamental ocorre na estrutura de custos de segurança da Bitcoin quando o subsídio por categoria se aproxima de zero?
+answer: Os custos de segurança deixam de ser pagos pelos detentores através da inflação monetária e passam a ser pagos pelos utilizadores através das taxas de transação
+wrong_answers:
+  - Os custos de segurança deixam de ser pagos pelos mineiros através do investimento em hardware e passam a ser pagos pelos nós através do consumo de eletricidade
+  - Os custos de segurança deixam de ser pagos pelas bolsas, através de comissões de negociação, e passam a ser pagos pelos fornecedores de wallet, através de taxas de serviço
+  - Os custos de segurança deixam de ser pagos pelos programadores através da manutenção do código e passam a ser pagos pelos utilizadores através da participação na rede
+explanation: |
+  O capítulo explica claramente que, atualmente, os detentores pagam pela segurança do Bitcoin através da inflação monetária (criação de novas moedas através do subsídio por bloco), mas no futuro, quando o subsídio por bloco se aproximar de zero, os utilizadores pagarão pela segurança através de taxas de transação. Isto representa uma mudança económica fundamental em relação a quem suporta o custo de manter a segurança da rede, passando de um modelo em que a criação de novas moedas financia o mining para um modelo em que as taxas de transação devem fornecer incentivos suficientes para os mineiros protegerem a rede.

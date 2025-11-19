@@ -1,26 +1,18 @@
 ---
-name: Wprowadzenie do ekonomii austriackiej
-goal: Odkryj austriacką szkołę myśli ekonomicznej. Przeanalizuj ich poglądy na społeczeństwo i realia makro/mikroekonomiczne.
-objectives: 
-
-  - Alternatywa dla keynesizmu
-  - Znaczenie waluty Hard
-  - Dlaczego i w jaki sposób powstają cykle gospodarcze?
-  - Dlaczego bankierzy centralni oszaleli?
-
+name: Podstawy austriackiej szkoły ekonomii
+goal: Odkryj ekonomię austriacką jako alternatywne ramy do analizy rynków i indywidualnego podejmowania decyzji
+objectives:
+- Analizować funkcje pieniądza, kredytu i systemów bankowości centralnej
+- Stosować teorię wartości subiektywnej i preferencji czasowej do zachowań rynkowych
+- Zrozumieć austriacką teorię cyklu koniunkturalnego i jej przyczyny
+- Porównać metodologię austriacką z mainstreamowymi podejściami ekonomicznymi
 ---
+# Podróż do ekonomii austriackiej
 
-# Podróż w głąb ekonomii
+Czy zastanawiałeś się kiedyś, dlaczego niektórzy ekonomiści myślą inaczej o rynkach, wolności i ludzkim zachowaniu? Ekonomia austriacka oferuje odświeżającą perspektywę, która stawia cię w centrum myślenia ekonomicznego. Zamiast skomplikowanej matematyki i abstrakcyjnych modeli, to podejście koncentruje się na logice, ludzkich wyborach i tym, jak prawdziwi ludzie podejmują decyzje w swoim codziennym życiu. To ekonomia przez pryzmat wolności, racjonalności i osobistego działania.
 
-
-Witamy na kursie Théo Mogeneta! Pasjonat ekonomii, historii, literatury, nauk politycznych i technologii, postanowił podzielić się z wami swoją wiedzą na temat ekonomii austriackiej. Ta gałąź, mniej znana w ekonomii, opiera się na ludzkiej racjonalności i zachowaniu wolnych aktorów. Mniej intensywna w matematyce, jest przede wszystkim kwestią logiki i badań społecznych.
-
-
-Ta szkoła myślenia ma już za sobą kilka stuleci i stoi za nią cała panorama autorów, myśli i ekonomistów. Wielkie nazwiska ekonomii, takie jak Hayek, Rothbard, Mises, Bastiat czy Menger od dawna bronią tego nurtu. W przeciwieństwie do wszechobecnego keynesizmu naszych czasów, szkoła austriacka stawia jednostkę z powrotem w centrum równania z bardziej liberalnym, kapitalistycznym, a nawet anarchistycznym podejściem.
-
-
+Ta szkoła myślenia kształtowała debaty przez wieki, dzięki wpływowym myślicielom takim jak Hayek, Mises i Bastiat. Podczas gdy główny nurt ekonomii keynesowskiej dominuje w dzisiejszych dyskusjach politycznych, tradycja austriacka zadaje inne pytania: Co się dzieje, gdy priorytetem jest wolność jednostki? Jak naprawdę działają wolne rynki, gdy ludzie mogą swobodnie wybierać? Jeśli jesteś ciekawy alternatywnych sposobów myślenia o rynkach, społeczeństwie i wolności, to jest twoja szansa, aby poznać idee, których nie znajdziesz w standardowych podręcznikach.
 +++
-
 # Wprowadzenie
 
 
@@ -96,7 +88,7 @@ Gdy instytucja finansowa posiada licencję bankową, zasadniczo oznacza to, że 
 Po zakupie domu użytkownik zleca swojemu bankierowi przelanie pieniędzy na konto sprzedawcy. Jeśli konto sprzedającego znajduje się w innym banku, Twój bankier powiadamia odpowiedniego bankiera w innej instytucji, aby upewnić się, że konto sprzedającego zostanie odpowiednio zasilone, jednocześnie obciążając Twoje konto odpowiednią kwotą.
 
 
-![image](assets/en/01.webp)
+![image](assets/pl/001.webp)
 
 
 Rysunek 1: Kreacja pieniądza jako zapis księgowy
@@ -123,7 +115,7 @@ Ta zagadka dała początek nowoczesnym bankom centralnym. W XIX wieku w Anglii p
 Oprócz utrzymywania stabilności finansowej, banki centralne są odpowiedzialne za ustalanie kluczowych stóp procentowych. Stopy te określają koszt, po jakim licencjonowane banki mogą pożyczać środki od banku centralnego, zasadniczo definiując koszt płynności dla instytucji finansowych, które odgrywają kluczową rolę w udzielaniu pożyczek w naszych gospodarkach. Dlatego też stopy te służą jako punkt odniesienia dla całego systemu finansowego. Jako osoba fizyczna, oprocentowanie kredytu hipotecznego można podzielić na stopę procentową i marżę banku.
 
 
-![image](assets/en/02.webp)
+![image](assets/pl/002.webp)
 
 
 Rysunek 2: Upadłość Lehman Brothers (15/09/2008)
@@ -135,7 +127,7 @@ Podczas poważnego kryzysu finansowego w 2008 r. Lehman Brothers, duży bank inw
 Chociaż środki te zapobiegły kaskadowej fali bankructw, w niewielkim stopniu złagodziły późniejsze spowolnienie gospodarcze. Miliony ludzi straciło pracę i domy, wydatki konsumentów gwałtownie spadły, firmy upadły, a banki poniosły znaczne straty. Pomimo historycznie niskich stóp procentowych, niewielu było chętnych do zaciągania pożyczek, co doprowadziło do błędnego koła, w którym początkowy spadek wydatków i inwestycji sam się wzmocnił. W związku z tym bankierzy centralni podjęli dalsze kroki, wdrażając programy luzowania ilościowego (QE). W ramach tych programów banki centralne kupowały obligacje rządowe i papiery wartościowe zabezpieczone hipoteką od banków komercyjnych za pomocą rezerw banku centralnego.
 
 
-![image](assets/en/03.webp)
+![image](assets/pl/003.webp)
 
 
 Wykres 3: Stopy procentowe w głównych gospodarkach / Źródło: EBC
@@ -150,7 +142,7 @@ W przeciwieństwie do wielu oczekiwań, programy QE nie ożywiły znacząco wzro
 Niemniej jednak z tego epizodu można wyciągnąć podstawową zasadę ekonomiczną: kiedy tworzony jest nowy pieniądz, początkowo przynosi on korzyści tym, którzy znajdują się najbliżej źródła pieniądza, kosztem tych, którzy znajdują się dalej. To spostrzeżenie ekonomiczne pochodzi z XVIII wieku, kiedy Richard Cantillon przedstawił je w swoim "Eseju o naturze handlu w ogóle" Jest on obecnie potocznie nazywany "efektem Cantillona".
 
 
-![image](assets/en/04.webp)
+![image](assets/pl/004.webp)
 
 
 Rysunek 4: Efekt Cantillona w pigułce / Źródło: River Financial
@@ -162,7 +154,7 @@ W tym przypadku bankierzy, dyrektorzy banków, właściciele akcji i obligacji, 
 Zasadniczo system jest wypaczony. Banki są z natury niestabilne, ale ich upadek może zagrozić całej gospodarce. Ta pokusa nadużycia zachęca dyrektorów banków do podejmowania nadmiernego ryzyka w celu maksymalizacji przychodów banku, wiedząc, że bank centralny ostatecznie ich uratuje, przenosząc koszty na podatników. W takich scenariuszach bankierzy centralni tworzą warunki do masowego transferu siły nabywczej od ciężko pracujących osób i oszczędzających do właścicieli aktywów i osób powiązanych z systemem finansowym, odłączając w ten sposób proces tworzenia bogactwa od jego akumulacji.
 
 
-![image](assets/en/05.webp)
+![image](assets/pl/005.webp)
 
 
 Rysunek 5: Dystrybucja bogactwa w Chinach + Europie + USA / Źródło: OECD
@@ -177,7 +169,7 @@ W dłuższych okresach polityki zerowych stóp procentowych (ZIRP) banki mają o
 Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowania się w szeroko zakrojone wydatki. Ponieważ rządy nie ponoszą kosztów zaciągania pożyczek i mogą polegać na bankach centralnych, które skupują ich obligacje w ramach programów QE, mają one naturalną motywację do wydawania jak największej ilości pieniędzy, szczególnie w demokratycznych kontekstach, w których wydatki mogą przyciągnąć głosy. Tendencja ta często lekceważy długoterminowe konsekwencje takiej rozrzutności fiskalnej, prowadząc do znacznego wzrostu poziomu długu publicznego w gospodarkach rozwiniętych od czasu globalnego kryzysu finansowego (GFC).
 
 
-![image](assets/en/06.webp)
+![image](assets/pl/006.webp)
 
 
 Wykres 6: Dług publiczny i prywatny jako % PKB (świat, ważony PKB na kraj) / Źródło MFW
@@ -234,7 +226,7 @@ Takie pytania nurtowały ekonomistów i filozofów przez wiele stuleci i doczeka
 Po tym, jak teoria wartości ziemi fizjokratów, zakładająca, że cała wartość pochodzi z ziemi, została obalona przez klasyczną teorię wartości pracy ekonomistów, postulującą, że wartość dobra wynika z ilości pracy włożonej w jego produkcję, przyszła kolej na marginalną teorię wartości, która zastąpiła tę ostatnią. W latach siedemdziesiątych XIX wieku, po Marksie, ostatnim z klasycznych ekonomistów, trzy nowe szkoły myśli ekonomicznej pojawiły się niemal jednocześnie wokół marginalnej teorii wartości: szkoła lozańska z Leonem Walrasem, szkoła nowoczesna lub neoklasyczna z Williamem Stanleyem Jevonsem oraz szkoła austriacka z Carlem Mengerem. Ta rewolucja w teorii wartości stanowiła znaczącą odnowę myśli ekonomicznej.
 
 
-![image](assets/en/07.webp)
+![image](assets/pl/007.webp)
 
 
 Od lewej do prawej: William Stanley Jevons, Carl Menger, Léon Walras
@@ -249,7 +241,7 @@ Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzecz
 ### Wartość subiektywna
 
 
-![image](assets/en/08.webp)
+![image](assets/pl/008.webp)
 
 
 Austriacki ekonomista odrzuca koncepcję następców Adama Smitha i porzuca ideę, że wartość dobra wynika z ilości pracy wykorzystanej do jego produkcji, na rzecz poglądu, że jego wartość jest określana przez jednostkę, która w każdym kontekście dokonuje mentalnego aktu wyceny w odniesieniu do określonej ilości dobra lub usługi. Ten intelektualny skok dokonany przez Mengera podważa obiektywność wartości: dla niego wartość nie jest obiektywną właściwością dóbr; jest jedynie wynikiem relacji, jaką jednostka ma z tą rzeczą: "wartość nie istnieje poza ludzką świadomością"
@@ -285,7 +277,7 @@ Ta subiektywna koncepcja wartości, rozumiana jako psychologiczny związek jedno
 ### Podział pracy
 
 
-![image](assets/en/09.webp)
+![image](assets/pl/009.webp)
 
 
 Zwiedzanie fabryki gwoździ, Léonard Defrance (XVIII w.)
@@ -380,7 +372,7 @@ Ta gra ilustruje problem często spotykany w prawdziwym życiu: przy braku mecha
 ### Pieniądze na rozwiązanie problemów z koordynacją
 
 
-![image](assets/en/10.webp)
+![image](assets/pl/010.webp)
 
 
 Problem ten ma mniejszy wpływ na małe społeczności (np. rodziny, kręgi przyjaciół), ponieważ w takich przypadkach wszyscy znają się bezpośrednio, co umożliwia wzajemne zapamiętywanie swojego wkładu. Zakładając, że opuszczenie społeczności (dezercja) wiąże się z kosztami, system reputacji oparty na pamięci poszczególnych agentów jest zwykle wystarczający, aby uniknąć pułapek związanych z dylematem więźnia.
@@ -410,7 +402,7 @@ W czasach przedcywilizacyjnych technologie te nie istniały. Dlatego nasi przodk
 ### Podwójna koincydencja chęci i możliwości sprzedaży
 
 
-![image](assets/en/11.webp)
+![image](assets/pl/011.webp)
 
 
 Pieniądze mogą być postrzegane jako rozwiązanie odkryte przez naszych przodków w celu Address, co ekonomiści nazywają problemem "podwójnej koincydencji pragnień". Problem ten ma trzy wymiary: przestrzenny, czasowy i interpersonalny.
@@ -479,7 +471,7 @@ Ta subiektywna ocena wartości dóbr przyszłych w porównaniu z dobrami teraźn
 Ta koncepcja względnej wyceny dóbr przyszłych w stosunku do dóbr teraźniejszych leży u podstaw zjawiska odsetek. Rzeczywiście, w gospodarce z niezmanipulowanymi rynkami kapitałowymi referencyjne stopy procentowe (uważane za wolne od ryzyka niewypłacalności) są określane na przecięciu kapitału Supply i popytu. W związku z tym stopy te reprezentują stan preferencji czasowych dla całej gospodarki: wzrost stopy procentowej wynika ze względnego wzrostu popytu na kapitał w porównaniu do Supply, co wskazuje na wyższe preferencje czasowe. I odwrotnie, spadek stóp procentowych wynika ze wzrostu oszczędności, co oznacza wzrost Supply kapitału, wskazując na zmniejszenie preferencji czasowych.
 
 
-![image](assets/en/12.webp)
+![image](assets/pl/012.webp)
 
 
 W gospodarce, w której stopy procentowe nie są manipulowane przez bank centralny, mamy tendencję do obserwowania krzywej dochodowości nachylonej w górę: im dłuższy termin zapadalności długu, tym wyższa stopa procentowa. Odwrotna sytuacja nie może mieć miejsca, ponieważ oznaczałoby to, że przyszłość jest bardziej pewna niż teraźniejszość, co jest logiczną niemożliwością.
@@ -491,7 +483,7 @@ Koncepcja preferencji czasowej i sposób, w jaki wyrażamy własne preferencje c
 ### Teoria kapitału
 
 
-![image](assets/en/13.webp)
+![image](assets/pl/013.webp)
 
 
 Na początku tego kursu zobaczyliśmy, że dla Carla Mengera dobra są uważane za dobra ekonomiczne (cenione) tylko dlatego, że służą jako środki do celów wybranych i cenionych przez jednostki. Zgodnie z tym poglądem, cała analiza ekonomiczna obraca się wokół konsumpcji, ponieważ jest ona ostatecznie motywującym celem całej działalności gospodarczej. Dlatego dla Mengera punktem wyjścia analizy ekonomicznej są dobra konsumpcyjne lub dobra finalne, ponieważ reprezentują one ostateczny cel działalności gospodarczej. Wszystkie inne dobra w gospodarce, które możemy nazwać "dobrami pośrednimi", mają wartość tylko dlatego, że umożliwiają jednostkom uzyskanie tych dóbr konsumpcyjnych: są to dobra wykorzystywane do produkcji innych dóbr.
@@ -515,7 +507,7 @@ Ze względu na sekwencyjny charakter ludzkiego działania, te międzyokresowe wy
 Aby zilustrować ten punkt, powróćmy do przykładu podanego przez Böhm-Bawerka w jego pracy "Kapitał i odsetki":
 
 
-![image](assets/en/14.webp)
+![image](assets/pl/014.webp)
 
 
 Eugen von Böhm-Bawerk (1851-1914)
@@ -524,7 +516,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 ### Robinson Crusoe i Production Detour/Roundabout:
 
 
-![image](assets/en/15.webp)
+![image](assets/pl/015.webp)
 
 
 Sklep Robinson Crusoe wyładowany z wraku, John Alexander Gilfillan (1793-1864)
@@ -560,7 +552,7 @@ Jak wspomniano w pierwszym rozdziale, stopy procentowe były manipulowane przez 
 Doskonale ilustruje to poniższy wykres: stopy długoterminowe są niższe niż stopy krótkoterminowe. Po pierwsze, nie ma to absolutnie żadnego sensu, ponieważ oznaczałoby to, że przyszłość jest bardziej pewna niż teraźniejszość. Po drugie, uzasadnia to pytanie o konsekwencje dla alokacji kapitału: jeśli wszyscy są zachęcani do działania tak, jakby oszczędności były obfite, podczas gdy oszczędzających nigdzie nie można znaleźć, ponieważ nie są nagradzani za oszczędzanie, jakie konsekwencje może to mieć dla gospodarki?
 
 
-![image](assets/en/16.webp)
+![image](assets/pl/016.webp)
 
 
 Tego dowiemy się w kolejnym rozdziale poświęconym austriackiej teorii cyklu koniunkturalnego!
@@ -605,7 +597,7 @@ Aby opisać to zjawisko czasowej błędnej koordynacji i jego konsekwencje tak j
 Aby ułatwić nasze wyjaśnienie, powrócimy do klasyfikacji dóbr Mengera i przedstawimy strukturę produkcyjną na diagramie składającym się z dowolnej liczby etapów:
 
 
-![image](assets/en/17.webp)
+![image](assets/pl/017.webp)
 
 
 Na powyższym diagramie zasoby początkowe przechodzą przez różne etapy produkcji, ulegając transformacjom, które przybliżają je do stanu końcowych dóbr konsumpcyjnych (poprzez interakcję z pierwotnymi czynnikami produkcji: czasem, ziemią, pracą). Wysokość prawego boku trójkąta schematycznie reprezentuje PKB, ponieważ oznacza sumę wszystkich dóbr konsumpcyjnych sprzedanych w danym okresie. Różnica między poszczególnymi słupkami odpowiada wartości dodanej (w ujęciu pieniężnym) wygenerowanej na każdym etapie procesu. Różnica ta może być również postrzegana jako dochód związany z każdym etapem (przychody - koszty).
@@ -617,7 +609,7 @@ Jeśli na poziomie zagregowanym podmioty gospodarcze zwiększą swoje oszczędno
 Otrzymamy wówczas rozszerzoną strukturę produkcji, zmianę, którą można jakościowo przedstawić na poniższym diagramie:
 
 
-![image](assets/en/18.webp)
+![image](assets/pl/018.webp)
 
 
 W tym przypadku wartość pieniężna pożądanych dóbr konsumpcyjnych spadła, uwalniając zasoby do stworzenia dodatkowego etapu produkcji. W tym scenariuszu, w którym spadek stóp procentowych jest konsekwencją zmniejszonej konsumpcji, tj. zwiększonych oszczędności, pole trójkąta, reprezentujące ilość pieniądza w obiegu, pozostaje niezmienione. Przekształcenie struktury produkcji (wydłużenie) wynika po prostu z przeniesienia siły nabywczej z jednej części struktury do drugiej.
@@ -641,7 +633,7 @@ Przy niższych stopach procentowych przedsiębiorcy mogą pożyczać więcej zas
 Należy zauważyć, że jest to całkowicie logiczna konsekwencja ekspansji kredytowej. W zakresie, w jakim banki wytwarzają media powiernicze poprzez udzielanie pożyczek, należy naturalnie oczekiwać wzrostu ogólnej siły nabywczej.
 
 
-![image](assets/en/19.webp)
+![image](assets/pl/019.webp)
 
 
 W miarę napływu kredytów do gospodarki poprzez pożyczki dla przedsiębiorców, powinniśmy zaobserwować wzrost zysków w sektorach produkcyjnych oddalonych od konsumpcji i spadek względnych zysków w sektorach bliższych konsumpcji. Ta wyższa rentowność wspiera następnie realokację kapitału w kierunku tych nowych, bardziej kapitałochłonnych etapów (przemysł stoczniowy, motoryzacyjny, budownictwo, zaawansowane technologie itp.) oraz spadek inwestycji w sektorach bliższych konsumpcji.
@@ -665,7 +657,7 @@ Takie dostosowanie można postrzegać jako okres, w którym niedostateczna konsu
 Niestety, ten depresyjny mechanizm jest często zakłócany przez władzę polityczną i banki centralne starające się "pobudzić" gospodarkę poprzez wydatki deficytowe i łatwą politykę pieniężną.
 
 
-![image](assets/en/20.webp)
+![image](assets/pl/020.webp)
 
 
 Zarówno monetaryści, jak i keynesiści uważają, że przyczyną depresji jest niewystarczający zagregowany popyt, więc nie zwracają uwagi na ewolucję cen względnych, która, jak widzieliśmy, stanowi sedno problemu. W związku z tym uważają oni, że zapewnienie zachęty do ekspansji kredytowej (obniżenie stóp procentowych) i wykorzystanie zdolności deficytowej państwa do pobudzenia popytu zapoczątkuje ożywienie. W krótkim okresie takie działania mogą wydawać się przynosić pożądane efekty: deficyt wspiera wydatki, podczas gdy obniżenie stóp procentowych prowadzi do wyższych cen aktywów, co z kolei zachęca ich posiadaczy do zwiększenia wydatków. Jednak taki impuls w końcu zanika, podczas gdy problem strukturalny pozostaje, a nawet pogarsza się, ponieważ błędna alokacja kapitału utrzymuje się dzięki sztucznie niskim stopom procentowym.
@@ -724,7 +716,7 @@ Swoim artykułem Mises wprowadził do debaty nowy wymiar. Odkładając na bok ut
 ### Wyjaśnienie niemożności kalkulacji ekonomicznej
 
 
-![image](assets/en/21.webp)
+![image](assets/pl/021.webp)
 
 
 Większość błędnych przekonań na temat argumentów Misesa wynika z niezrozumienia roli odgrywanej przez klasę menedżerów i przedsiębiorców w gospodarce kapitalistycznej. Mises nigdy nie odrzucał zdolności menedżerów do opracowywania wydajnych planów produkcji w ramach ich własnych operacji. Zamiast tego podkreślał znaczenie przedsiębiorców i akcjonariuszy, którzy jako właściciele środków produkcji alokują kapitał w różnych branżach, tworząc w ten sposób ceny, które służą jako dane wejściowe w obliczeniach ekonomicznych menedżerów.
@@ -751,7 +743,7 @@ Proces ten ma kluczowe znaczenie, ponieważ weryfikuje lub unieważnia efektywno
 Z tej perspektywy gospodarka centralnie planowana nieuchronnie doświadczy błędnej alokacji kapitału. W krótkim i średnim okresie takie błędne alokacje mogą pozostać niezauważone, ponieważ nie ma cen rynkowych ani bankructw, które mogłyby je ujawnić. Jednak ze względu na brak sprzężenia zwrotnego (ceny) i mechanizmów realokacji (bankructwa), błędy będą się kumulować, aż marnotrawstwo stanie się widoczne poprzez znaczny spadek warunków życia.
 
 
-![image](assets/en/22.webp)
+![image](assets/pl/022.webp)
 
 
 ### Perspektywa austriacka i porażki innych szkół ekonomicznych
@@ -766,7 +758,7 @@ Pomimo tych imponujących prognoz i licznych empirycznych dowodów na niemożno�
 ### Austriacka teoria cyklu koniunkturalnego jako szczególny przypadek niemożliwości kalkulacji ekonomicznej w socjalizmie
 
 
-![image](assets/en/23.webp)
+![image](assets/pl/023.webp)
 
 
 W poprzednim rozdziale wyjaśniliśmy dynamikę przeinwestowania i błędnej alokacji kapitału wynikającej z manipulacji stopami procentowymi przez banki centralne. Zasadniczo to, co wyjaśniliśmy, można postrzegać jako szczególny przypadek niemożności kalkulacji ekonomicznej w socjalizmie, zastosowany do sfery rynków pieniężnych. Kiedy ceny są ustalane poza ich wartościami rynkowymi, przedsiębiorcy i alokatorzy kapitału są zachęcani do angażowania się w inwestycje, których nie można utrzymać w dłuższej perspektywie z powodu braku oszczędności. Ingerując w system cen, centralni planiści (w tym przypadku bankierzy centralni) tworzą błędną koordynację między podmiotami gospodarczymi. W tym przypadku błędna koordynacja międzyokresowa pociąga za sobą przeinwestowanie w dobra inwestycyjne wyższego rzędu i niedoinwestowanie w dobra inwestycyjne niższego rzędu, co stanowi szczególny przejaw błędnej alokacji kapitału w różnych branżach.

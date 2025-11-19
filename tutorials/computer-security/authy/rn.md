@@ -91,7 +91,7 @@ Kugira ngo wongereko igikoresho gishasha, subiramwo gusa uburyo bwo gushiramwo b
 Kugira ngo ushireho kode y’ukwemeza 2FA biciye ku porogarama nka Authy kuri konti, konti itegerezwa gushigikira iki kintu. Muri iki gihe, amasezerano menshi yo kuri internet aratanga iyo nzira ya 2FA, ariko ivyo si ko vyama bimeze. Reka dufate akarorero ka konti ya Proton mail nashize ahabona mu yindi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

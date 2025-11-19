@@ -51,7 +51,7 @@ Fiyatlandırma] (https://proton.me/pricing) ile ilgili olarak, ücretsiz sürüm
 Henüz bir Proton hesabınız yoksa, bir tane oluşturmanız gerekecektir. Sizi, ücretsiz bir Proton hesabının nasıl oluşturulacağını ve ayarlanacağını ayrıntılı olarak açıkladığımız Proton Mail eğitimimize yönlendiriyorum:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ Ardından "*Sürücü*" üzerine tıklayın.
 Proton Drive'ınıza dosya eklemek için, yalnızca web sürümünü kullanıyorsanız (yerel sürümün kullanımını daha sonra tartışacağız), belgelerinizi doğrudan Interface'e sürükleyip bırakmanız yeterlidir. ![PROTON DRIVE](assets/notext/08.webp) Daha sonra belgenizi ana sayfada bulabilirsiniz. ![PROTON DRIVE](assets/notext/09.webp) Yeni bir öğe eklemek için ekranın sol üst köşesindeki "*Yeni*" düğmesine tıklayın. ![PROTON DRIVE](assets/notext/10.webp) "*Dosya yükle*" işlevi yerel dosya gezgininizi açar ve tıpkı sürükleyip bırakarak yaptığınız gibi yeni belgeleri seçmenize ve Proton Drive'a aktarmanıza olanak tanır. ![PROTON DRIVE](assets/notext/11.webp) "*Klasör yükle*" tüm bir klasörü içe aktarmanızı sağlar. ![PROTON DRIVE](assets/notext/12.webp) "*Yeni klasör*" Proton Drive'da belgelerinizi daha iyi organize etmek için bir klasör oluşturmanızı sağlar. ![PROTON DRIVE](assets/notext/13.webp) Bu seçeneğe tıklayın, klasörünüze bir isim verin. ![PROTON DRIVE](assets/notext/14.webp) Daha sonra doğrudan Proton Drive'ın ana sayfasında bulacaksınız. ![PROTON DRIVE](assets/notext/15.webp) Son olarak, "*Yeni belge*" doğrudan Proton Drive'da yeni bir metin belgesi oluşturmanıza olanak tanır. ![PROTON DRIVE](assets/notext/16.webp) Üzerine tıkladığınızda, yeni bir boş belge açılır. ![PROTON DRIVE](assets/notext/17.webp) Üzerine yazabilir ve düzenleyebilirsiniz. ![PROTON DRIVE](assets/notext/18.webp) Sağ üstteki "*Share*" düğmesine tıklarsanız, belgeyi paylaşabilirsiniz. ![PROTON DRIVE](assets/notext/19.webp) Belgeye salt okunur modda veya düzenleme haklarıyla erişim vermek istediğiniz katılımcının e-postasını girmeniz yeterlidir. ![PROTON DRIVE](assets/notext/20.webp) Proton Drive'ınıza geri dönerseniz, belgenin başarıyla kaydedildiğini görebilirsiniz. ![PROTON DRIVE](assets/notext/21.webp) "*Paylaşılan*" sekmesinde, başkalarıyla paylaştığınız belgeleri bulabilirsiniz. ![PROTON DRIVE](assets/notext/22.webp) Ve "*Benimle paylaşılanlar*" sekmesinde, başkalarının sizinle paylaştığı belgeleri görebilirsiniz. ![PROTON DRIVE](assets/notext/23.webp) Son olarak, "*Çöp Kutusu*" sekmesinde, son silinen belgelerinizi bulabilirsiniz. ![PROTON DRIVE](assets/notext/24.webp) Proton Drive'ınız için çoğu ayar Proton hesabınıza entegre edilmiştir. Hesabınızı ayarlama hakkında ayrıntılı talimatlar için sizi bu eğiticiye başvurmaya davet ediyorum:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Proton Drive yazılımı nasıl kurulur?
 
@@ -145,4 +145,4 @@ Tebrikler, artık koşullar ne olursa olsun kişisel belgelerinize erişimi kayb
 Çevrimiçi varlığınızı güvence altına alma ve bilgisayar korsanlığını önleme hakkında daha fazla bilgi edinmek için Bitwarden şifre yöneticisi hakkındaki ayrıntılı eğitimimize de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

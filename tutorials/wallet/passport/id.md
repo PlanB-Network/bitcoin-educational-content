@@ -22,7 +22,7 @@ Untuk mengelola dompet aman Anda pada Passport, Anda memiliki beberapa opsi. Dom
 
 Jika Anda seorang pemula, pilihan termudah adalah menggunakan Passport Anda dengan aplikasi asli Envoy, yang dikembangkan oleh Foundation. Untuk mengetahui cara menggunakan Envoy dengan Passport Anda, lihat tutorial lainnya:
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Membuka Kotak Paspor
 
@@ -141,7 +141,7 @@ Untuk melakukan ini, gunakan kartu MicroSD yang disertakan dalam kotak Passport 
 
 Sebelum menginstalnya di perangkat Anda, kami sangat menyarankan Anda untuk memeriksa keaslian dan integritas firmware yang diunduh. Jika Anda memerlukan bantuan dalam hal ini, bacalah tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Setelah memeriksa file `.bin`, letakkan file tersebut di MicroSD Anda, lalu masukkan ke dalam Passport. Penjelajah file Passport akan terbuka. Pilih file `vN.N.N-passport.bin`.
 
@@ -208,7 +208,7 @@ Klik tombol konfirmasi untuk melihat frasa mnemonik Anda.
 
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.
 
@@ -295,7 +295,7 @@ Sebelum melanjutkan, jika Anda mau, Anda dapat menambahkan kata sandi BIP39. Kat
 
 Sebelum mengonfigurasi opsi ini pada Passport Anda, sangat disarankan agar Anda membaca artikel ini untuk memahami sepenuhnya operasi teoritis dari kata sandi dan menghindari kesalahan yang dapat menyebabkan hilangnya bitcoin Anda:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 Untuk mengaktifkannya, buka menu "*Lainnya*" dan klik "*Masukkan Kata Sandi*".
@@ -309,7 +309,7 @@ Masukkan kata sandi Anda menggunakan keypad aA1, dan pastikan Anda menyimpannya 
 Harap diperhatikan bahwa kata sandi BIP39 peka terhadap huruf besar-kecil dan kesalahan ketik. Jika Anda memasukkan kata sandi yang sedikit berbeda dengan yang dikonfigurasikan pada awalnya, Passport tidak akan melaporkan kesalahan, tetapi akan mendapatkan satu set kunci kriptografi lain yang tidak sama dengan kunci yang ada di dompet awal Anda.
 
 
-Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu tempat sidik jari kunci utama yang akan diberikan pada langkah berikutnya. Sebagai contoh, dengan kata sandi saya `Plan B Network`, sidik jari kunci utama saya adalah `745D526B`.
+Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu tempat sidik jari kunci utama yang akan diberikan pada langkah berikutnya. Sebagai contoh, dengan kata sandi saya `Plan ₿ Academy`, sidik jari kunci utama saya adalah `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -321,7 +321,7 @@ Setiap kali Anda membuka kunci, setelah menuliskan kata sandi, periksa pada laya
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di Passport saat masih kosong (`Pengaturan -> Lanjutan -> Hapus Passport`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik dan kata sandi apa pun. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut tentang cara melakukan pemulihan tes, silakan baca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 
 ![Image](assets/fr/53.webp)
@@ -336,7 +336,7 @@ Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (
 
 Pastikan untuk memeriksa keaslian dan integritas perangkat lunak sebelum instalasi. Jika Anda tidak tahu cara melakukannya, silakan baca tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Setelah Sparrow Wallet terbuka, klik tab "*File*", lalu "*Dompet Baru*".
 
@@ -490,4 +490,4 @@ Selamat, Anda sekarang tahu cara mengonfigurasi dan menggunakan Passport. Jika A
 
 Untuk informasi lebih lanjut, lihat tutorial kami tentang perangkat lunak Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

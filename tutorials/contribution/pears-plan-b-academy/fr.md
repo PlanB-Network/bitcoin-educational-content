@@ -15,7 +15,7 @@ L’objectif de Pears est simple : permettre la diffusion et l’utilisation d�
 
 ---
 
-**Résumé :**
+**TL;DR :**
 
 - Installez Pears ;
 

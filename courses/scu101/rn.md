@@ -133,7 +133,7 @@ Uriteguye gukomeza umutekano wawe muvy'ubuhinga bwa none no gusubirana ububasha 
 Igihe uriko urarondera kuri interineti, birahambaye cane ko wirinda amakosa asanzwe akogwa kugira ngo ugume ufise umutekano wawe kuri interineti. Ngizi inama zimwe zimwe zo kuzirinda:
 
 
-### Urabe maso mu kuvoma porogarame ku rubuga:
+### Urabe maso mu kuvoma porogarame ku rubuga
 
 
 uhanuwe kuvoma porogarame ku rubuga rwemewe rw’uwasohoye iyo porogarame aho kuyikura ku mbuga rusangi.
@@ -335,7 +335,7 @@ Kugira ngo wikingire neza, ningombwa ko utahura ingene abakwinjirira bagerageza 
 Nk’itegeko rusangi, imigera(nyabwonko) iza kubera ko wemereye inyabwonko yawe ko iyitumira. Ibi birashobora kugaragara mu kuvoma porogarame ziteye amakenga, dosiye ya torrent izayamaze gufata umugera, canke gusa mu gufyonda kuri iryo huza (link) riri muri imeyiri y’ububeshi.
 
 
-### Ububeshi buciye mudutego (Phishing), ukuba maso kuma emeyiri y'ububeshi:
+### Ububeshi buciye mudutego (Phishing), ukuba maso kuma emeyiri y'ububeshi
 
 
 Itwararike! imeyiri nizo ziza ubwambere mugutegwa. Dore inama zimwe zimwe:
@@ -351,7 +351,7 @@ Ivyo bifatanijwe na imeyiri n’amashusho bishobora kubamwo ibintu bibi. Ntuvome
 Itegeko ry’inzahabu aha ni ugusuzuma neza izina ryose ry’uwarungitse imeyiri be n’aho iyo imeyiri ikomoka. Igihe ufise amakenga, uyifute!
 
 
-### Ransomware n’ubwoko bw’ibitero vyo kuri interineti:
+### Ransomware n’ubwoko bw’ibitero vyo kuri interineti
 
 
 Ransomware ni ubwoko bwa porogarame mbi zinyegeza amakuru y’abakoresha kandi zigasaba incungu kugira ngo zigarukane ayo amakuru. Ubwo bwoko bw’igitero bugenda buragwira kandi burashobora gutera ingorane cane ku mashirahamwe n’abantu ku giti cabo. Kugira ngo wikingire, nivyakamaro cane kugira ububiko bw' inyongera bw’amadosiye yakamaro cane! Ivyo ntibizohagarika iyo ransomware(igitero cincungu), ariko bizotuma ushobora kuyirengagiza.
@@ -486,7 +486,7 @@ Ku bijanye n'imiti y'ukwitunganyiriza nka KeePass, birashoboka gusanisha urutond
 (Iciyumviro: Guhitamwo hagati ya  serivise yu wundi muntu canke  kwitunganyiriza bivana n’urugero rw’ubuhinga bwawe n’ingene ushira imbere ububasha kuruta uburyo bwo gukoresha.  serivise yu wundi muntu muri rusangi irabereye abantu benshi, mu gihe  kwitunganyiriza bisaba ubumenyi bwinshi mu vy’ubuhinga ariko bishobora gutanga ububasha bwinshi n’amahoro muvy'umutekano)
 
 
-### Ijambo ry'ibanga ryiza rirangwa niki:
+### Ijambo ry'ibanga ryiza rirangwa niki
 
 
 ijambo ry'ibanga ryiza muri rusangi ni:
@@ -563,7 +563,7 @@ Biometrics irashobora gukoreshwa nk’iyindi nyishu, ariko nitanga umutekano ukw
 Ubwa nyuma, bishobora kuba vyiza gutanga insiguro ngufi ku bijanye na HOTP be na TOTP OTPs: HOTP ni ijambo ry'ibanga rikoreshwa rimwe rishingiye ku buhinga bwa HMAC (Message ya Kode y’Ukwemeza ishingiye Hash), mu gihe TOTP ari OTP ishingiye ku gihe. Ibintu nyamukuru biranga ubwo buryo ni uko amajambo y’ibanga ashobora gukoreshwa rimwe gusa, Ijambo ryose rivutse riba ryihariye, kandi urufunguzo rusangi ruriho hagati y’igikoresho c’uwakira n’igisenge(seriveri) co kwemeza ko umuntu ari we. Itandukaniro ry’ibanze hagati y’izo sistem zibiri riri mu kuntu ijambo ry'ibanga rivuka: TOTP ishingiye ku gihe, mu gihe HOTP ishingiye ku vyo guharura.
 
 
-### Gusozera icigwa:
+### Gusozera icigwa
 
 
 Nk’uko mwabitahuye, gushirwa mu ngiro isuku ryiza muvy'ubuhinga bwa none si ngombwa ngo bibe vyoroshe, ariko biguma bishoboka!
@@ -707,7 +707,7 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 Niba ukunda cane gukingira ama sisteme na’amakuru, igisata c’umutekano wo kuri interineti kiratanga uturyo twinshi. Nimba iki gisata kigutera umunezero, ng’izi intambwe nyamukuru zizokuyobora.
 
 
-### Ishingiro ry'inyigisho n'ivyemezo:
+### Ishingiro ry'inyigisho n'ivyemezo
 
 
 Ubumenyi bukomeye mubijanye na siyanse y'inyabwonko, ubuhinga bwo gutanga amakuru canke ikindi gisata gifitaniye isano n’ivyo, akenshi ni co kintu ciza co gutangurirako. Izi nyigisho zitanga umushinge wa nkenerwa kugira ngo umuntu atahure ibihanze ubuhinga bwa none bijanye n’umutekano wo kuri interineti. Kugira ngo umuntu yuzuze iyo nyigisho, ni vyiza ko aronka ivyemezo vyemewe muri ico gisata. Naho ivyo vyemezo bishobora gutandukanywa hakurikijwe akarere, bimwebimwe, nka CISSP canke CEH, biremerwa kw’isi yose.
@@ -716,7 +716,7 @@ Ubumenyi bukomeye mubijanye na siyanse y'inyabwonko, ubuhinga bwo gutanga amakur
 Ivy’umutekano wo kuri interineti ni igisata kinini kandi kiguma gitera imbere. Kwimenyereza neza ibikoresho vyangombwa be na sisteme zigiye zitandukanye n'ikintu gihambaye. Ikindi, hamwe n’ibice vyinshi, kuva ku kwishura ku bibazo gushika ku gutera/kwinjirira vy’inyifato runtu, ni vyiza kubimenya cane canke no kubinonosora.
 
 
-### Kuronka ubumenyi bushingiye ku bikorwa:
+### Kuronka ubumenyi bushingiye ku bikorwa
 
 
 Ntidushobora gufata minenerwe akamaro k’ubumenyi bushingiye ku bikorwa. Kurondera kwimenyereza umwuga mu vy'icaro vya bashasha mu mashirahamwe afise uturwi two gucunga umutekano wo kuri interineti ni uburyo bwiza cane bwo gukoresha ubumenyi ufise mu vy’inyigisho no kuronka ubumenyi ngirakamaro bishingiye kubikorwa. Ikindi kandi, kwifatanya n’amarushanwa yo guterara/kwinjirira vy’inyifato runtu canke kwigana ivy’umutekano wo kuri interineti birashobora gutuma ubuhinga bwawe butera imbere mu bihe vy’ukuri.
@@ -728,7 +728,7 @@ Inkomezi z’urumuhora wa kinyamwuga ni iz’agaciro kanini cane. Kwifatanya n�
 Ukubangamirwa cane kuguma gutera imbere ivyo rero bikaba bica bituma hakenerwa gucungera umwanya wose kandi kenshi amakuru n'inyigisho zabigenewe. Mu rwego aho ukwizigirana ari kwo guhambaye cane, gukorana n’inyifato runtu ni ngombwa ku ntambwe yose y’akazi kawe.
 
 
-### Ubuhinga n’Ibikoresho vyo kunonosora:
+### Ubuhinga n’Ibikoresho vyo kunonosora
 
 
 

@@ -1,6 +1,6 @@
 ---
-nome: Coinjoin - Samourai Wallet
-descrizione: Come eseguire un coinjoin su Samourai Wallet?
+name: Coinjoin - Samourai Wallet
+description: Come eseguire un coinjoin su Samourai Wallet?
 ---
 ![cover](assets/cover.webp)
 

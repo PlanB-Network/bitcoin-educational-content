@@ -1,6 +1,6 @@
 ---
-nome: Remix - Whirlpool
-descrizione: Quanti remix dovrebbero essere fatti su Whirlpool?
+name: Remix - Whirlpool
+description: Quanti remix dovrebbero essere fatti su Whirlpool?
 ---
 ![cover remix- wp](assets/cover.webp)
 
@@ -12,7 +12,7 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 ---
 
-> *"Rompi il collegamento che le tue monete lasciano dietro di sé"*
+> *"Rompi il collegamento che i tuoi UTXO lasciano dietro di sé"*
 
 Questa è una domanda che mi viene spesso posta. **Quanti remix dovrebbero essere fatti con Whirlpool per ottenere risultati soddisfacenti?**
 

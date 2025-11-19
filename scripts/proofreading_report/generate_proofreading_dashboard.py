@@ -938,6 +938,104 @@ def generate_html(data):
                 padding: 0.5rem;
             }}
         }}
+
+        /* Table of Contents */
+        .toc-section {{
+            background: var(--color-card);
+            border-radius: 8px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--color-primary);
+        }}
+
+        .toc-section h2 {{
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+        }}
+
+        .toc-nav {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }}
+
+        .toc-link {{
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: var(--color-bg);
+            color: var(--color-text);
+            text-decoration: none;
+            border-radius: 4px;
+            border: 1px solid var(--color-border);
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }}
+
+        .toc-link:hover {{
+            background: var(--color-primary);
+            color: white;
+            border-color: var(--color-primary);
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }}
+
+        /* Back to Top Button */
+        .back-to-top {{
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            z-index: 1000;
+        }}
+
+        .back-to-top:hover {{
+            background: var(--color-primary-dark);
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }}
+
+        .back-to-top.show {{
+            display: flex;
+        }}
+
+        /* Smooth scrolling */
+        html {{
+            scroll-behavior: smooth;
+        }}
+
+        /* Responsive TOC */
+        @media (max-width: 768px) {{
+            .toc-nav {{
+                flex-direction: column;
+            }}
+
+            .toc-link {{
+                width: 100%;
+                text-align: center;
+            }}
+
+            .back-to-top {{
+                bottom: 1rem;
+                right: 1rem;
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }}
+        }}
     </style>
 </head>
 <body>
@@ -951,9 +1049,21 @@ def generate_html(data):
     </header>
 
     <div class="container">
+        <!-- Table of Contents -->
+        <div class="toc-section">
+            <h2>📑 Table of Contents</h2>
+            <nav class="toc-nav">
+                <a href="#overview" class="toc-link">📊 Overview</a>
+                <a href="#content-matrix" class="toc-link">📋 Content Matrix Overview</a>
+                <a href="#contribution-finder" class="toc-link">🎯 Contribution Finder</a>
+                <a href="#recent-contributions" class="toc-link">🕒 Last Proofreading Contributions</a>
+                <a href="#leaderboards" class="toc-link">🏆 Leaderboards</a>
+            </nav>
+        </div>
+
         <!-- Statistics -->
         <div class="section">
-            <h2>📊 Overview</h2>
+            <h2 id="overview">📊 Overview</h2>
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-value" id="stat-courses">0</div>
@@ -976,7 +1086,7 @@ def generate_html(data):
 
         <!-- Section 1: Matrix Overview -->
         <div class="section">
-            <h2>📋 Content Matrix Overview</h2>
+            <h2 id="content-matrix">📋 Content Matrix Overview</h2>
 
             <div class="type-selector">
                 <label class="type-option active">
@@ -1047,7 +1157,7 @@ def generate_html(data):
 
         <!-- Section 2: Contribution Finder -->
         <div class="section">
-            <h2>🎯 Contribution Finder - Where You're Needed Most (Top 10)</h2>
+            <h2 id="contribution-finder">🎯 Contribution Finder - Where You're Needed Most (Top 10)</h2>
 
             <div class="filters">
                 <div class="filter-group">
@@ -1095,13 +1205,13 @@ def generate_html(data):
 
         <!-- Section 3: Last Proofreading Contributions -->
         <div class="section">
-            <h2>🕒 Last Proofreading Contributions</h2>
+            <h2 id="recent-contributions">🕒 Last Proofreading Contributions</h2>
             <div id="recent-contributions-list"></div>
         </div>
 
         <!-- Section 4: Leaderboards -->
         <div class="section">
-            <h2>🏆 Leaderboards</h2>
+            <h2 id="leaderboards">🏆 Leaderboards</h2>
 
             <div class="tabs">
                 <button class="tab active" data-tab="course-contributors">Top Course Contributors</button>
@@ -1754,7 +1864,28 @@ def generate_html(data):
 
         // Initialize on load
         window.addEventListener('DOMContentLoaded', init);
+
+        // Back to Top Button functionality
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {{
+            if (window.pageYOffset > 300) {{
+                backToTopButton.classList.add('show');
+            }} else {{
+                backToTopButton.classList.remove('show');
+            }}
+        }});
+
+        backToTopButton.addEventListener('click', () => {{
+            window.scrollTo({{
+                top: 0,
+                behavior: 'smooth'
+            }});
+        }});
     </script>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
 </body>
 </html>"""
 

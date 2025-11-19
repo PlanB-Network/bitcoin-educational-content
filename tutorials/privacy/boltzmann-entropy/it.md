@@ -1,6 +1,6 @@
 ---
-nome: Boltzmann Calculator
-descrizione: Comprendere il concetto di entropia utilizzando il Boltzmann Calculator.
+name: Boltzmann Calculator
+description: Comprendere il concetto di entropia utilizzando il Boltzmann Calculator.
 ---
 ![cover](assets/cover.webp)
 

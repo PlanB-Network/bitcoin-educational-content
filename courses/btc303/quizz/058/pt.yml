@@ -1,0 +1,8 @@
+question: De acordo com os requisitos da definição de código-fonte aberto, o que deve acontecer quando o código-fonte é deliberadamente ofuscado numa distribuição de software de código-fonte aberto?
+answer: O código-fonte deliberadamente ofuscado viola os princípios de código aberto e não é permitido
+wrong_answers:
+  - O código ofuscado deve ser acompanhado de documentação pormenorizada que explique a sua funcionalidade
+  - O código ofuscado é aceitável desde que os binários compilados também sejam fornecidos
+  - O código ofuscado deve ser disponibilizado através de um descarregamento separado com custos de reprodução
+explanation: |
+  A definição de código-fonte aberto afirma explicitamente que "não é permitido código-fonte deliberadamente ofuscado" Este é um requisito fundamental porque a ofuscação impede o escrutínio, a modificação e a compreensão do código, o que vai contra os objectivos centrais do software de código aberto. O código fonte deve estar na 'forma preferida na qual um programador modificaria o programa', tornando a ofuscação incompatível com os princípios do software livre, independentemente da documentação ou dos métodos de distribuição.

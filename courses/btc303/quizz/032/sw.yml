@@ -1,0 +1,8 @@
+question: Ni utaratibu gani unaohakikisha kikomo cha usambazaji cha Bitcoin kinatekelezwa bila kuhitaji uaminifu katika mamlaka yoyote kuu?
+answer: Nodi kamili zinazotumia msimbo wa uthibitishaji ambao hukataa vizuizi kiotomatiki na miamala batili ya coinbase
+wrong_answers:
+  - Kanuni ya makubaliano iliyosambazwa ambayo inahitaji idhini ya wengi kwa mabadiliko yoyote ya usambazaji
+  - Cryptographic proof-of-work ambayo huzuia kihisabati kuundwa kwa sarafu za ziada
+  - Waidhinishaji wa mtandao wanaopiga kura kuhusu uhalali wa ununuzi kupitia mchakato wa kidemokrasia
+explanation: |
+  Kikomo cha ugavi cha Bitcoin kinatekelezwa kupitia nodi kamili zinazotumia msimbo wa uthibitishaji ili kuangalia kila muamala wa coinbase wa block dhidi ya sheria za makubaliano. Hata kama baadhi ya nodi zitageuka kuwa mbaya na kukubali vizuizi batili vyenye zawadi nyingi, nodi za uaminifu zitazipuuza na kuendelea na msururu halali. Hii inaunda mfumo usioaminika ambapo huhitaji kuamini mtu binafsi au mamlaka yoyote - unahitaji tu kutekeleza msimbo unaothibitisha kuwa sheria zinafuatwa, na kufanya mtandao kuwa salama kwa pamoja dhidi ya majaribio ya mfumuko wa bei.

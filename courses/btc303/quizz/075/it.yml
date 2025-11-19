@@ -1,0 +1,8 @@
+question: Secondo la prospettiva di Gregory Maxwell sulla valutazione della gravità delle vulnerabilità, quale approccio dovrebbero adottare gli sviluppatori per valutare l'impatto potenziale dei problemi di sicurezza scoperti?
+answer: Trattare le vulnerabilità come più gravi di quelle attualmente conosciute e supporre che possano essere facilmente sfruttabili anche se appaiono difficili da sfruttare
+wrong_answers:
+  - Concentrarsi solo sull'impatto immediatamente osservabile e classificare le vulnerabilità in base ai metodi di sfruttamento attualmente conosciuti
+  - Dare priorità alle vulnerabilità in base alla loro complessità tecnica e ritardare le correzioni per i problemi che sembrano teoricamente difficili da sfruttare
+  - Valutare ogni vulnerabilità in modo isolato, senza considerare come più problemi minori potrebbero combinarsi per creare grandi rischi per la sicurezza
+explanation: |
+  Maxwell sostiene che gli sviluppatori dovrebbero considerare le vulnerabilità più gravi di quanto non sembrino, perché i problemi difficili da sfruttare possono diventare banali con la tecnica giusta e i problemi apparentemente minori possono trasformarsi in minacce serie. Sottolinea che semplici bug di prestazioni possono essere utilizzati come armi per partizionare la rete e consentire attacchi double-spending. Questo approccio conservativo riconosce che gli sviluppatori potrebbero non comprendere inizialmente l'intero potenziale di sfruttamento di una vulnerabilità, rendendo prudente ipotizzare lo scenario peggiore piuttosto che sottovalutare la minaccia.

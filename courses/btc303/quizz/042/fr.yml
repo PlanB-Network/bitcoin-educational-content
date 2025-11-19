@@ -1,0 +1,8 @@
+question: Quelle est la principale raison pour laquelle Shaolinfry a proposé le mécanisme Soft Fork activé par l'utilisateur (UASF) au cours du processus de mise à niveau de Segwit ?
+answer: Les mineurs n'ont pas signalé leur soutien à Segwit malgré le soutien massif des utilisateurs, ce qui a conduit à une impasse
+wrong_answers:
+  - Le mécanisme fork souple existant était trop lent et nécessitait un délai d'activation plus rapide
+  - Les fourches Hard ont été jugées trop risquées et une nouvelle méthode douce fork a été jugée nécessaire pour des raisons de sécurité
+  - Les développeurs du Bitcoin Core ont demandé une alternative pour réduire leur responsabilité dans les mises à jour
+explanation: |
+  Selon le chapitre, lorsque le code d'activation Segwit a été publié en octobre 2016, il y avait un soutien massif parmi les utilisateurs de Bitcoin, mais les mineurs n'ont pas signalé leur soutien à la mise à niveau, ce qui a bloqué l'activation sans aucune résolution en vue. Cela a créé le besoin d'un mécanisme alternatif qui ne repose pas sur la signalisation des mineurs, ce qui a conduit Shaolinfry à proposer UASF comme une solution qui utiliserait l'application de la majorité économique au lieu de l'activation de la puissance de hachage.

@@ -1,0 +1,8 @@
+question: O que é que serve de pseudónimo no sistema de pseudónimos do Bitcoin?
+answer: Endereços derivados de chaves públicas
+wrong_answers:
+  - "Nomes de utilizador descritivos como 'watchme1984'"
+  - Chaves privadas armazenadas em carteiras
+  - IDs de transação na cadeia de blocos
+explanation: |
+  O Bitcoin utiliza endereços derivados de chaves públicas como pseudónimos em vez de nomes de utilizador arbitrários ou outros identificadores. Esta escolha de design serve vários propósitos importantes: elimina a necessidade de registar previamente pseudónimos na cadeia de blocos, reduz os incentivos à reutilização do mesmo pseudónimo, evita o inchaço desnecessário da cadeia de blocos e torna muito mais difícil para os agentes maliciosos fazerem-se passar por outros. A utilização de nomes de utilizador descritivos exigiria um sistema de registo e criaria vulnerabilidades de segurança, enquanto as chaves privadas devem permanecer secretas e os IDs de transação têm uma finalidade diferente no sistema.

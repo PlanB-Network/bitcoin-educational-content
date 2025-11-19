@@ -1,0 +1,8 @@
+question: Satoshi Nakamoto 在 Bitcoin 白皮書中指出的區塊鏈隱私權的兩個主要問題是什麼？
+answer: Address 重複使用和位址群組
+wrong_answers:
+  - 交易費用和確認延遲
+  - 雙重花費和雜湊碰撞
+  - 網路擁塞與 mining 集中化
+explanation: |
+  在 Bitcoin 白皮書第 7 節中，Satoshi Nakamoto 認為地址重複使用和地址聚類是主要的區塊鏈隱私問題。Address 重複使用發生在同一地址被多次使用時，這使得交易很容易連結到同一使用者。Address 聚類是指能夠判斷不同的地址屬於同一所有者，特別是通過多輸入交易揭示所有輸入由同一人控制。其他選項是 Bitcoin 的技術或操作挑戰，但不是白皮書中 Satoshi 特別討論的隱私權問題。

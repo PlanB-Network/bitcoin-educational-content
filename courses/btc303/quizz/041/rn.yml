@@ -1,0 +1,8 @@
+question: Ni ikihe kintu c’ubuhinga kidasanzwe fork ikomeye ya fork yaremye ataco yiyumviriye catumye fork yoroshe ishobora guhindurwa muri kazoza?
+answer: Inyandiko ikoresha OP_NOP1 gushika kuri OP_NOP10
+wrong_answers:
+  - BIP65 na BIP113 uburyo bwo gukoresha ikimenyetso c'abacukuzi
+  - Imbere n'inyuma y'uguhuza inzego z'amahinduka
+  - Uwukoresha yakoresheje ubuhinga bwo gukoresha umusi w'ibendera fork (UASF)
+explanation: |
+  Dushingiye ku icegeranyo ca Eric Lombrozo, Satoshi ikomeye fork (yari imenyeshejwe nabi kandi yihishije mu masezerano yerekeye amahinduka ya makefile) yaremye OP_NOP1 ataco yiyumviriye biciye ku opcodes za OP_NOP10. Izo kode 'no operation' zari zagenewe kutagira ico zikora iyo zishizwe mu ngiro, ariko zatanga ibibanza bishobora gusubirwamwo mu nyuma kugira ngo zikoreshe ubuhinga bushasha biciye ku maforogo yoroshe. Ivyo vyagaragaye ko ari vyiza, kuko OP_NOP2 yacitse OP_CHECKLOCKTIMEVERIFY (BIP65) na OP_NOP3 yacitse OP_CHECKSEQUENCEVERIFY (BIP112). Ayandi mahitamwo ntabwo ari meza kuko BIP65 na BIP113 nizo zari zivuguruwe zakoresheje izo opcodes aho kuzirema, urutonde rw’uguhuza ni uburyo bw’ivyiyumviro aho kuba ikintu c’ubuhinga, kandi UASF yasabwe mu nyuma cane mu gihe c’impaka za Segwit.

@@ -1,0 +1,8 @@
+question: Hậu quả chính khi các yêu cầu kéo Bitcoin Core mất rất nhiều thời gian trước khi được người bảo trì hợp nhất vào kho lưu trữ là gì?
+answer: Điều này cho thấy thiếu người đánh giá có thể đánh giá các thay đổi mã được đề xuất
+wrong_answers:
+  - "Điều này chứng tỏ rằng những người bảo trì đang cố tình làm chậm quá trình phát triển của Bitcoin"
+  - "Điều này cho thấy những thay đổi được đề xuất về cơ bản không tương thích với các quy tắc đồng thuận của Bitcoin"
+  - "Điều này cho thấy nền tảng GitHub có những hạn chế về mặt kỹ thuật trong việc xử lý cơ sở mã của Bitcoin"
+explanation: |
+  Theo nội dung chương, việc hợp nhất các yêu cầu kéo mất nhiều thời gian, chủ yếu do thiếu đánh giá, xuất phát từ việc thiếu người đánh giá chứ không phải do sự cản trở của người bảo trì hoặc các vấn đề kỹ thuật. Quy trình đánh giá rất quan trọng đối với bảo mật của Bitcoin, vì nó đảm bảo chất lượng mã và ngăn chặn các thay đổi độc hại. Điểm nghẽn này tồn tại do việc đánh giá mã hóa phức tạp đòi hỏi chuyên môn và thời gian, khiến các đánh giá viên đủ tiêu chuẩn trở thành nguồn lực khan hiếm trong quá trình phát triển.

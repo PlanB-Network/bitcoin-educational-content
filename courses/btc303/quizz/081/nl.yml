@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste reden dat prestatiebugs in Bitcoin mogelijk bewapend kunnen worden om netwerkpartities te maken volgens beveiligingsexperts?
+answer: Prestatiebugs kunnen strategisch worden ingezet om specifieke miners en exchanges te scheiden van de rest van het netwerk, waardoor dubbelbestedingsaanvallen mogelijk worden
+wrong_answers:
+  - Prestatiebugs hebben vooral invloed op de bevestigingstijden van transacties, waardoor het netwerk onbetrouwbaar wordt voor verkopers en gebruikers
+  - Prestatiebugs verbruiken buitensporig veel rekenkracht, waardoor knooppunten worden gedwongen uit te schakelen en de netwerkdecentralisatie afneemt
+  - Prestatiebugs creëren geheugenlekken die uiteindelijk nodes laten crashen, wat leidt tot tijdelijke netwerkinstabiliteit en verminderde hashsnelheid
+explanation: |
+  Gregory Maxwell waarschuwde specifiek dat performance bugs, wanneer ze vakkundig worden ingezet, kunnen worden gebruikt om het netwerk strategisch te partitioneren - bijvoorbeeld door 'miner A en exchange B' in één partitie te scheiden terwijl alle anderen in een andere partitie gaan, waardoor de voorwaarden worden gecreëerd voor double-spend aanvallen. Dit laat zien waarom ogenschijnlijk kleine problemen moeten worden behandeld als potentieel ernstig, omdat ze kunnen worden bewapend op geraffineerde manieren die niet direct duidelijk zijn.

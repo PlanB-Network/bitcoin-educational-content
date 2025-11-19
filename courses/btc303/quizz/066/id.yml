@@ -1,0 +1,8 @@
+question: Dalam konteks mining tanpa validasi, apa risiko keamanan utama yang dihadapi oleh penambang ketika mereka menunda validasi blok penuh untuk menghindari blok basi?
+answer: Mereka berisiko membangun di atas blockchain yang tidak valid untuk sementara waktu, membuang-buang daya komputasi pada rantai yang pada akhirnya akan ditolak
+wrong_answers:
+  - Mereka berisiko memiliki blok mereka sendiri yang ditolak oleh jaringan karena validasi yang tidak lengkap dari transaksi sebelumnya
+  - Mereka berisiko kehilangan hadiah mining mereka secara permanen karena mining tanpa validasi dianggap sebagai pelanggaran protokol
+  - Mereka berisiko menciptakan serangan pembelanjaan ganda karena tidak dapat memverifikasi bahwa transaksi yang masuk adalah sah
+explanation: |
+  Ketika penambang mempraktikkan mining tanpa validasi, mereka hanya memeriksa proof-of-work pada header blok dan segera memulai mining di atasnya sambil mengunduh dan memvalidasi seluruh blok secara paralel. Resiko kritisnya adalah mereka mungkin membangun di atas blok yang tidak valid, yang berarti usaha komputasi mereka terbuang sia-sia pada cabang blockchain yang akan ditolak setelah blok yang tidak valid ditemukan. Hal ini merusak keamanan jaringan karena sebagian dari kekuatan mining tidak berkontribusi pada rantai terkuat yang valid, yang merupakan mekanisme keamanan fundamental Bitcoin.

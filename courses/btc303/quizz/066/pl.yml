@@ -1,0 +1,8 @@
+question: W kontekście mining bez walidacji, jakie jest główne zagrożenie bezpieczeństwa, na jakie narażeni są górnicy, którzy odkładają pełną walidację bloków, aby uniknąć nieaktualnych bloków?
+answer: Ryzykują oni tymczasowe budowanie na nieważnym blockchainie, marnując moc obliczeniową na łańcuch, który ostatecznie zostanie odrzucony
+wrong_answers:
+  - Istnieje ryzyko, że ich własne bloki zostaną odrzucone przez sieć z powodu niekompletnej walidacji poprzednich transakcji
+  - Ryzykują trwałą utratę nagród mining, ponieważ brak walidacji mining jest uważany za naruszenie protokołu
+  - Ryzykują one podwójne ataki, ponieważ nie mogą zweryfikować, czy przychodzące transakcje są legalne
+explanation: |
+  Kiedy górnicy praktykują mining bez walidacji, sprawdzają tylko proof-of-work w nagłówku bloku i natychmiast rozpoczynają mining na nim, jednocześnie pobierając i walidując cały blok równolegle. Krytycznym ryzykiem jest to, że mogą oni budować na nieprawidłowym bloku, co oznacza, że ich wysiłek obliczeniowy jest marnowany na gałąź łańcucha bloków, która zostanie odrzucona po wykryciu nieprawidłowego bloku. Podważa to bezpieczeństwo sieci, ponieważ część mocy mining nie przyczynia się do najsilniejszego ważnego łańcucha, który jest podstawowym mechanizmem bezpieczeństwa Bitcoin.

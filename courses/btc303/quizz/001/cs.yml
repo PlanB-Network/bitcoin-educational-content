@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel decentralizace v systému Bitcoin?
+answer: Dosažení odolnosti vůči cenzuře
+wrong_answers:
+  - Zvýšení rychlosti zpracování transakcí
+  - Snížení nákladů na spotřebu energie
+  - Zjednodušení uživatelského rozhraní
+explanation: |
+  Decentralizace v Bitcoin slouží především k dosažení odolnosti vůči cenzuře, což znamená, že žádný subjekt nemůže kontrolovat, blokovat nebo manipulovat transakce. To je v textu výslovně uvedeno: "Decentralizace je prostředkem k dosažení odolnosti vůči cenzuře Ostatní možnosti jsou nesprávné, protože decentralizace ve skutečnosti činí systém Bitcoin pomalejším a energeticky náročnějším než centralizované systémy a činí systém spíše složitějším než jednodušším. Odolnost vůči cenzuře je to, co odlišuje systém Bitcoin od tradičních peněžních systémů a brání vládám nebo jiným orgánům v tom, aby jej vypnuly nebo kontrolovaly, kdo jej může používat.

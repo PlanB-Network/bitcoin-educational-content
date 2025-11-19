@@ -1,0 +1,8 @@
+question: Vad är det som gör Bitcoin:s transaktionshantering censurresistent?
+answer: Transaktionsorder utförs kollektivt av en dynamisk uppsättning gruvarbetare som vem som helst kan ansluta sig till eller lämna
+wrong_answers:
+  - Transaktionsvalideringen krypteras med hjälp av avancerade kryptografiska protokoll som inte kan brytas av myndigheter
+  - Transaktionsposter lagras på flera backup-servrar som kontrolleras av olika betrodda organisationer
+  - Transaktionsavgifter justeras automatiskt för att förhindra ekonomiska attacker från centraliserade myndigheter
+explanation: |
+  Bitcoin uppnår censurmotstånd genom decentralisering av utvinnare, där transaktionsbeställning utförs kollektivt av alla utvinnare som väljer att delta. Detta skapar ett dynamiskt system där vem som helst kan ansluta sig till eller lämna mining-processen fritt, vilket eliminerar varje enskild kontrollpunkt som skulle kunna pressas att censurera transaktioner. De felaktiga svaren beskriver tekniska funktioner, betrodda parter eller ekonomiska mekanismer som inte tar itu med kärnfrågan om decentraliserad kontroll över transaktionshanteringen.

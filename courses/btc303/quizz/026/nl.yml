@@ -1,0 +1,8 @@
+question: Waar verwijst blockchainprivacy specifiek naar in de context van Bitcoin?
+answer: De informatie die u vrijgeeft door transacties op de blockchain
+wrong_answers:
+  - De versleuteling van privé sleutels opgeslagen in uw wallet
+  - De bescherming van uw internetverbinding tijdens het gebruik van Bitcoin
+  - De anonimiteit door het gebruik van meerdere wallet adressen
+explanation: |
+  Blockchain privacy verwijst specifiek naar de informatie die je vrijgeeft door transacties op de blockchain, die van toepassing is op alle transacties die je verstuurt en ontvangt. Dit is anders dan wallet encryptie (die opgeslagen sleutels beschermt), internetverbinding beveiliging (dat is off-chain privacy), of de misvatting dat meerdere adressen anonimiteit bieden. On-chain privacylekken ontstaan door hergebruik van adressen en clustering, waarbij transacties aan elkaar kunnen worden gekoppeld om patronen over de financiële activiteiten van gebruikers te onthullen.

@@ -1,0 +1,8 @@
+question: Según los expertos en seguridad, ¿cuál es la razón principal por la que los fallos de rendimiento de Bitcoin pueden convertirse en armas para crear particiones de red?
+answer: Los fallos de rendimiento pueden desplegarse estratégicamente para separar mineros e intercambios específicos del resto de la red, permitiendo ataques de doble gasto
+wrong_answers:
+  - Los fallos de rendimiento afectan principalmente a los tiempos de confirmación de las transacciones, lo que hace que la red no sea fiable para comerciantes y usuarios
+  - Los fallos de rendimiento consumen excesivos recursos informáticos, obligando a los nodos a apagarse y reduciendo la descentralización de la red
+  - Los fallos de rendimiento crean fugas de memoria que acaban bloqueando los nodos, lo que provoca una inestabilidad temporal de la red y una reducción de la tasa de hash
+explanation: |
+  Gregory Maxwell advirtió específicamente de que los fallos de rendimiento, cuando se despliegan de forma experta, pueden utilizarse para dividir la red estratégicamente, por ejemplo, separando al "minero A y al intercambio B" en una partición mientras todos los demás van a otra, creando las condiciones para ataques de doble gasto. Esto demuestra por qué los problemas aparentemente menores deben tratarse como potencialmente graves, ya que pueden convertirse en armas de formas sofisticadas que no son inmediatamente obvias.

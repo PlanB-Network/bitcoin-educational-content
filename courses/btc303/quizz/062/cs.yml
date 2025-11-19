@@ -1,0 +1,8 @@
+question: Jaký je podle definice open source požadovaný vztah mezi odvozenými díly a jejich licenčními podmínkami ve srovnání s původním softwarem?
+answer: Odvozená díla musí být povoleno šířit za stejných podmínek jako licence původního softwaru
+wrong_answers:
+  - Odvozená díla musí být šířena za přísnějších licenčních podmínek než původní software
+  - Odvozená díla musí být vydána pod zcela jinou licencí, která není kompatibilní s původní
+  - Odvozená díla lze šířit pouze na základě licencí, které vyžadují placení licenčních poplatků
+explanation: |
+  Definice open source výslovně uvádí, že "licence musí umožňovat modifikace a odvozená díla a musí umožňovat jejich šíření za stejných podmínek jako licence původního softwaru" Tím je zajištěno, že odvozená díla si zachovají stejné svobody jako originál, což brání tomu, aby někdo vzal kód s otevřeným zdrojovým kódem a udělal z něj proprietární. Ostatní možnosti tento základní princip porušují, protože buď omezují svobodu, nebo mění kompatibilitu licencí.

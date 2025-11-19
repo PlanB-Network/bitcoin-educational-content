@@ -1,0 +1,8 @@
+question: Vad är det främsta skälet till att prestandabuggar i Bitcoin potentiellt kan användas som vapen för att skapa nätverksavdelningar enligt säkerhetsexperter?
+answer: Prestandabuggar kan användas strategiskt för att separera specifika miners och börser från resten av nätverket, vilket möjliggör attacker med dubbla utgifter
+wrong_answers:
+  - Prestandabuggarna påverkar främst bekräftelsetiderna för transaktioner, vilket gör nätverket opålitligt för handlare och användare
+  - Prestandabuggar förbrukar alltför stora beräkningsresurser, vilket tvingar noder att stänga av och minskar decentraliseringen av nätverket
+  - Prestandabuggar skapar minnesläckor som till slut kraschar noder, vilket leder till tillfällig nätverksinstabilitet och minskad hashfrekvens
+explanation: |
+  Gregory Maxwell varnade särskilt för att prestandabuggar, när de används på ett skickligt sätt, kan användas för att dela upp nätverket strategiskt - till exempel genom att separera "miner A och exchange B" i en partition medan alla andra går in i en annan, vilket skapar förutsättningar för attacker med dubbla utgifter. Detta visar varför till synes mindre problem bör behandlas som potentiellt allvarliga, eftersom de kan användas som vapen på sofistikerade sätt som inte är omedelbart uppenbara.

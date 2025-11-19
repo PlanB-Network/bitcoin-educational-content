@@ -1,0 +1,8 @@
+question: Dushingiye ku gitabu cera ca Bitcoin, ni umuti uwuhe Satoshi Nakamoto atanga wo gutorera umuti ingorane ya double-spending?
+answer: Serveri y'ikidodo c'igihe itangazwa n'urunganwe ikoresheje ikimenyamenya c'ibarabara c'urutonde rw'ibikorwa
+wrong_answers:
+  - Serveri ihuriweko n'imikono y'imbere ivuye ku butegetsi bwinshi bwizewe
+  - Ihuriro ry'abakozi bahoraho aho benshi bategerezwa kwemeza igikorwa cose
+  - Uburyo bwo gushirako umukono w'impumyi n'umugwi wizigirwa hagati wo kwirinda gukoresha amahera kabiri
+explanation: |
+  Satoshi Nakamoto yasavye canecane gukoresha ‘server y’ikidodo c’igihe itangazwa n’abandi ku generate ikimenyamenya c’ubuhinga bw’ibarabara c’urutonde rw’ibihe vy’ibikorwa’ nk’uko bivugwa mu gitabu cera ca Bitcoin. Ijambo ry’ingenzi ni ‘ugusangira,’ risobanura ko ata kintu nyamukuru co kugenzura. Inyishu zitari zo zigereranya ivyagezwe vyananiwe mbere vy’amahera y’ubuhinga bwa none vyishingikirije ku buryo bwo gushirwa hamwe canke bushizwe ahantu hamwe, ivyo bikaba vyatumye zishobora gushikirwa n’ugucengera no kunanirwa - ni zo nyene ingorane Bitcoin yagenewe gutorera umuti biciye mu kwegereza ubutegetsi vy’ukuri.

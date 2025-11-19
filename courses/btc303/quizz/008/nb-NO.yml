@@ -1,0 +1,8 @@
+question: Hva gjør Bitcoins transaksjonsbehandling sensurresistent?
+answer: Transaksjonsbestillingen utføres kollektivt av et dynamisk sett med utvinnere som hvem som helst kan slutte seg til eller forlate
+wrong_answers:
+  - Transaksjonsvalidering krypteres ved hjelp av avanserte kryptografiske protokoller som myndighetene ikke kan bryte
+  - Transaksjonsposter lagres på flere backup-servere som kontrolleres av ulike betrodde organisasjoner
+  - Transaksjonsgebyrer justeres automatisk for å forhindre økonomiske angrep fra sentraliserte myndigheter
+explanation: |
+  Bitcoin oppnår sensurresistens gjennom desentralisering av utvinnerne, der transaksjonsbestillingen utføres kollektivt av alle utvinnere som velger å delta. Dette skaper et dynamisk system der hvem som helst fritt kan slutte seg til eller forlate mining-prosessen, noe som eliminerer ethvert enkelt kontrollpunkt som kan bli presset til å sensurere transaksjoner. De gale svarene beskriver tekniske funksjoner, betrodde parter eller økonomiske mekanismer som ikke tar for seg kjerneproblemet med desentralisert kontroll over transaksjonsbehandlingen.

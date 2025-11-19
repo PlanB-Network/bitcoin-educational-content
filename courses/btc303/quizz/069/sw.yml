@@ -1,0 +1,8 @@
+question: Kulingana na ufafanuzi wa kitabu hiki, ni hali gani inayowakilisha kiwango halali cha Bitcoin huku ikihifadhi upinzani wa udhibiti?
+answer: Utekelezaji wa algoriti za uthibitishaji wa saini zinazotumia nafasi zaidi ambazo hupunguza ukubwa wa ingizo la muamala
+wrong_answers:
+  - Kuhimiza watumiaji kuhamishia miamala hadi ubadilishanaji wa kati ili kupunguza sauti ya on-chain
+  - Utekelezaji wa uchujaji wa shughuli otomatiki ili kutanguliza aina fulani za shughuli za kiuchumi
+  - Kuunda nodi za uthibitishaji zilizoidhinishwa na serikali ambazo zinaweza kuchakata miamala kwa ufanisi zaidi
+explanation: |
+  Kitabu hiki kinafafanua kuongeza kwa Bitcoin kama 'kuongeza uwezo wa matumizi wa Bitcoin bila kuathiri upinzani wake wa udhibiti.' Uthibitishaji wa sahihi wa nafasi unalingana moja kwa moja na ufafanuzi huu kwa kufanya miamala kutumia baiti chache huku ikidumisha ugatuaji. Hitilafu hujibu upinzani wote wa udhibiti wa maelewano: ubadilishanaji wa kati huanzisha washirika wengine wanaoaminika, uchujaji wa miamala huunda mifumo ya udhibiti, na nodi zilizoidhinishwa na serikali huweka mamlaka ya uthibitishaji katikati. Uongezaji wa kweli huhifadhi sifa kuu za Bitcoin huku ukiboresha ufanisi.

@@ -1,0 +1,8 @@
+question: Minkä ongelman Satoshi Nakamoto tunnistaa perinteisissä rahoitusjärjestelmissä Bitcoin:n valkoisen paperin johdannossa?
+answer: Rahoituslaitokset eivät voi välttää riitojen sovittelua, mikä tekee täysin peruuttamattomista liiketoimista mahdottomia
+wrong_answers:
+  - Pankit veloittavat kohtuuttomia maksuja, jotka tekevät kaikista sähköisistä maksutapahtumista kuluttajille kannattamattomia
+  - Luottokorttiyhtiöt kieltäytyvät käsittelemästä digitaalisten tavaroiden ja verkkopalvelujen maksuja
+  - Hallituksen määräykset estävät rahoituslaitoksia toimimasta kansainvälisten rajojen yli
+explanation: |
+  Satoshi:ssa todetaan erityisesti, että luotettuina kolmansina osapuolina toimivat rahoituslaitokset eivät voi välttää riitojen sovittelua, mikä estää täysin peruuttamattomat liiketoimet. Tämä aiheuttaa luontaisia heikkouksia luottamukseen perustuvaan malliin, lisää sovittelusta aiheutuvia kustannuksia ja pakottaa kauppiaat olemaan varovaisia asiakkaiden suhteen. Muissa vaihtoehdoissa kuvataan erilaisia ongelmia, joita ei mainita Satoshi:n analyysissä perinteisistä maksujärjestelmistä.

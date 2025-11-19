@@ -1,0 +1,8 @@
+question: Co koncepcja harmonii Bitcoin, opisana za pomocą analogii Davida Hardinga, przede wszystkim podkreśla w działaniu sieci?
+answer: Tysiące pełnych węzłów niezależnie weryfikuje transakcje, aby osiągnąć harmonijne porozumienie bez konieczności zaufania między operatorami
+wrong_answers:
+  - Pule Mining muszą koordynować swoje wysiłki, aby śpiewać tę samą piosenkę i produkować bloki w zsynchronizowanej harmonii
+  - Deweloperzy Bitcoin muszą osiągnąć jednomyślny konsensus przed wdrożeniem jakichkolwiek zmian lub aktualizacji protokołu
+  - Wszyscy użytkownicy Bitcoin muszą zgodzić się na ważność transakcji poprzez demokratyczny proces głosowania, aby utrzymać stabilność sieci
+explanation: |
+  Analogia harmonii Davida Hardinga podkreśla, że siła Bitcoin pochodzi z tysięcy niezależnych pełnych węzłów, z których każdy pracuje osobno w celu weryfikacji transakcji, tworząc harmonijne porozumienie co do stanu księgi bez konieczności zaufania innym operatorom węzłów. Można to porównać do chóru, w którym każdy członek śpiewa niezależnie, ale razem tworzą piękną harmonię. Błędne odpowiedzi błędnie interpretują tę koncepcję, sugerując wymagania dotyczące koordynacji między górnikami, programistami lub użytkownikami, co jest sprzeczne z podstawową zasadą niezależnej weryfikacji, która sprawia, że Bitcoin jest pozbawiony zaufania i zdecentralizowany.

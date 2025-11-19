@@ -1,0 +1,8 @@
+question: Mis peab avatud lähtekoodi määratluse nõuete kohaselt juhtuma, kui lähtekood on avatud lähtekoodiga tarkvara levitamisel tahtlikult varjatud?
+answer: Tahtlikult varjatud lähtekood rikub avatud lähtekoodi põhimõtteid ja on keelatud
+wrong_answers:
+  - Varjutatud koodiga peab kaasnema üksikasjalik dokumentatsioon, mis selgitab selle funktsionaalsust
+  - Varjutatud kood on vastuvõetav, kui esitatakse ka kompileeritud binaarkoodid
+  - Varjutatud kood tuleb teha kättesaadavaks eraldi allalaadimise kaudu, mille reprodutseerimine on kulukas
+explanation: |
+  Avatud lähtekoodi definitsioonis on selgesõnaliselt öeldud, et "tahtlikult varjatud lähtekood ei ole lubatud" See on põhinõue, sest hägustamine takistab koodi sisulist kontrollimist, muutmist ja mõistmist, mis on vastuolus avatud lähtekoodiga tarkvara põhieesmärkidega. Lähtekood peab olema "eelistatud kujul, milles programmeerija muudaks programmi", mistõttu on varjamine vastuolus avatud lähtekoodi põhimõtetega, sõltumata dokumentatsioonist või levitamismeetoditest.

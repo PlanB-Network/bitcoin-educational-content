@@ -1,0 +1,8 @@
+question: Vad innebär "trustless" enligt Pieter Wuille i samband med distribuerade system?
+answer: Ett system som inte kräver några betrodda parter för att fungera korrekt
+wrong_answers:
+  - Ett system där användarna inte kan lita på någon av deltagarna eller validatorerna
+  - Ett system som eliminerar alla former av förtroende, inklusive programvara och hårdvara
+  - Ett system där transaktioner inte kan återkallas eller bestridas av någon
+explanation: |
+  Trustless hänvisar specifikt till en teknisk egenskap där ett distribuerat system kan fungera korrekt utan att kräva några betrodda parter. Detta skiljer sig från att eliminera allt förtroende (du litar fortfarande på din programvara/hårdvara) eller förhindra reversering (Bitcoin-transaktioner kan reverseras genom kedjeomskrivningar). Termen betyder inte heller att användarna inte kan lita på deltagarna - snarare att systemets korrekthet inte är beroende av att man litar på dem.

@@ -1,0 +1,8 @@
+question: Ni ingorane iyihe Bitcoin yatorera umuti amafaranga y’imbere ya digitale yananiwe gutorera umuti?
+answer: Ikibazo ca double-spending mu buryo bwegerejwe
+wrong_answers:
+  - Ikibazo co gupfuka amakuru mu mihora y'urunganwe
+  - Ikibazo c'ububiko bw'amafaranga y'ubuhinga bwa none
+  - Ikibazo c'umuvuduko mu kwishura kuri internet
+explanation: |
+  Ico Bitcoin yashitseko ni ugutorera umuti ingorane ya double-spending ata butegetsi bwa mbere busaba. Ikibazo ca double-spending ni ingorane yo kubuza umuntu gukoresha igiceri kimwe ca digitale incuro zibiri. Amafaranga y’imbere y’igihe y’ubuhinga bwa none yarananiwe kubera ko yizigiye abakozi bakuru canke abategetsi bizigirwa, ivyo bikaba vyatuma ashobora gushikirwa n’ugucengera no gushikirwa n’ibintu bimwe bimwe bishobora kunanirwa. Bitcoin yatorera umuti ivyo biciye ku serveri yayo y’ibimenyetso vy’igihe itangazwa n’abandi ikoresheje proof-of-work, bituma urubuga rwemeranya ku bijanye n’ugutegeka ibikorwa ata n’umwe agenzura hagati.

@@ -6,7 +6,7 @@ description: Comment utiliser Robosats
 
 ![cover](assets/cover.webp)
 
-RoboSats (https://learn.robosats.com/) est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning pour minimiser les exigences de garde et de confiance.
+RoboSats (https://learn.robosats.com/) est un moyen facile d'échanger des bitcoins contre des devises nationales en toute confidentialité. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning pour minimiser les exigences de garde et de confiance.
 
 ![video](https://youtu.be/XW_wzRz_BDI)
 
@@ -26,11 +26,11 @@ RoboSats - Un échange P2P simple et privé basé sur Lightning
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Robot        | Votre identité de transaction privée générée automatiquement. Ne réutilisez pas le même robot plus d'une fois, car cela peut compromettre votre vie privée.                                                                                                                 |
 | Token        | Une chaîne de caractères aléatoires utilisée pour générer votre robot unique.                                                                                                                                                                                               |
-| Maker        | Un utilisateur qui crée une offre d'achat ou de vente de Bitcoins.                                                                                                                                                                                                          |
-| Taker        | Un utilisateur qui accepte l'offre d'un autre utilisateur d'acheter ou de vendre des Bitcoins.                                                                                                                                                                              |
-| Bond         | Une quantité de Bitcoins bloquée par les deux parties en tant qu'engagement à jouer le jeu équitablement et à remplir leur part de la transaction. Les engagements représentent généralement 3% du montant total de la transaction et sont alimentés par des factures Hodl. |
-| Trade Escrow | Utilisé par le vendeur comme méthode de détention du montant de la transaction en Bitcoins, en utilisant à nouveau des factures Hodl.                                                                                                                                       |
-| Frais        | RoboSats facture 0,2% du montant de la transaction, qui est réparti entre le créateur et l'accepteur. L'accepteur paie 0,175% et le créateur paie 0,025%.                                                                                                                   |
+| Maker        | Un utilisateur qui crée une offre d'achat ou de vente de bitcoins.                                                                                                                                                                                                          |
+| Taker        | Un utilisateur qui accepte l'offre d'un autre utilisateur d'acheter ou de vendre des bitcoins.                                                                                                                                                                              |
+| Bond         | Une quantité de bitcoins bloquée par les deux parties en tant qu'engagement à jouer le jeu équitablement et à remplir leur part de la transaction. Les engagements représentent généralement 3 % du montant total de la transaction et sont alimentés par des factures Hodl. |
+| Trade Escrow | Utilisé par le vendeur comme méthode de détention du montant de la transaction en bitcoins, en utilisant à nouveau des factures Hodl.                                                                                                                                       |
+| Frais        | RoboSats facture 0,2 % du montant de la transaction, qui est réparti entre le créateur et l'accepteur. L'accepteur paie 0,17 5% et le créateur paie 0,025 %.                                                                                                                   |
 
 ## Ce dont vous avez besoin
 
@@ -55,7 +55,7 @@ Utilisez RoboSats pour acheter vos premiers sats ? Pourquoi ne pas demander à u
 3. Via l'APK Android
 4. Votre propre client
 
-Si vous êtes nouveau sur le navigateur Tor, en apprenez plus et téléchargez-le [ici](https://www.torproject.org/download/).
+Si vous êtes nouveau sur le navigateur Tor, apprenez-en plus et téléchargez-le [ici](https://www.torproject.org/download/).
 Une petite note pour les utilisateurs iOS qui souhaitent accéder à RoboSats via Tor depuis leur téléphone. "Onion Browser" n'est pas Tor Browser. Utilisez plutôt Orbot + Safari et Orbot + DuckDuckGo.
 
 ## Achat de Bitcoin
@@ -80,7 +80,7 @@ Cliquez sur Offres pour parcourir le carnet de commandes. En haut de la page, vo
 
 - Choisissez Acheter
 - Choisissez votre devise
-- Choisissez votre(s) méthode(s) de paiement
+- Choisissez votre ou vos méthode(s) de paiement
 
 ![image](assets/5.webp)
 
@@ -102,7 +102,7 @@ Ensuite, dans votre portefeuille Lightning, générez une facture pour le montan
 
 ![image](assets/9.webp)
 
-Attendez que le vendeur bloque le montant de sa transaction. Lorsque cela se produit, RoboSats passera automatiquement à l'étape suivante où la fenêtre de discussion s'ouvrira. Dites bonjour et demandez au vendeur ses informations de paiement en devise fiduciaire. Une fois fournies, envoyez le paiement via la méthode choisie, puis confirmez cela dans RoboSats. Toutes les discussions dans RoboSats sont chiffrées PGP, ce qui signifie que seuls vous et votre pair commercial pouvez lire les messages.
+Attendez que le vendeur bloque le montant de sa transaction. Lorsque cela se produit, RoboSats passera automatiquement à l'étape suivante où la fenêtre de discussion s'ouvrira. Dites bonjour et demandez au vendeur ses informations de paiement en devise fiduciaire. Une fois fournies, envoyez le paiement via la méthode choisie, puis confirmez cela dans RoboSats. Toutes les discussions dans RoboSats sont chiffrées PGP, ce qui signifie que seuls vous et votre partenaire commercial pouvez lire les messages.
 
 ![image](assets/10.webp)
 
@@ -130,21 +130,21 @@ Vous voulez avoir plusieurs transactions en cours en même temps, mais vous ne v
 En plus de prendre l'offre de quelqu'un d'autre, vous pouvez créer la vôtre et attendre qu'un autre Robot vienne à vous.
 
 - Ouvrez la page de création.
-- Définissez si votre commande est d'acheter ou de vendre du Bitcoin.
+- Définissez si votre commande est d'acheter ou de vendre du bitcoin.
 - Entrez le montant et la devise que vous souhaitez acheter/vendre.
 - Entrez la ou les méthodes de paiement que vous êtes prêt à utiliser.
-- Entrez le pourcentage de "Prime sur le marché" que vous êtes prêt à accepter. Notez que ce chiffre peut être négatif pour enchérir à un prix inférieur au prix actuel du marché.
+- Entrez le pourcentage de "Premium over Market Price" (prix par rapport au prix du marché) que vous êtes prêt à accepter. Notez que ce chiffre peut être négatif pour enchérir à un prix inférieur au prix actuel du marché.
 - Cliquez sur Créer une commande.
 - Payez la facture Lightning pour verrouiller votre caution de créateur.
 - Votre commande est maintenant active. Asseyez-vous et attendez que quelqu'un l'accepte.
 
 ![image](assets/15.webp)
 
-### Paiements sur chaîne
+### Paiements on-chain
 
-RoboSats est axé sur Lightning, mais les acheteurs ont la possibilité de recevoir leurs sats sur une adresse Bitcoin sur chaîne. Les acheteurs peuvent sélectionner cette option après avoir bloqué leur caution. Après avoir sélectionné sur chaîne, l'acheteur verra un aperçu des frais. Les frais supplémentaires pour ce service comprennent :
+RoboSats est axé sur Lightning, mais les acheteurs ont la possibilité de recevoir leurs sats sur une adresse Bitcoin on-chain. Les acheteurs peuvent sélectionner cette option après avoir bloqué leur caution. Après avoir sélectionné on-chain, l'acheteur verra un aperçu des frais. Les frais supplémentaires pour ce service comprennent :
 
-- Des frais de swap collectés par RoboSats - Ces frais sont dynamiques et varient en fonction de l'activité du réseau Bitcoin.
+- Des frais d'échange collectés par RoboSats - Ces frais sont dynamiques et varient en fonction de l'activité du réseau Bitcoin.
 - Des frais de minage pour la transaction de paiement - Cela peut être configuré par l'acheteur.
 
 ![image](assets/16.webp)
@@ -155,7 +155,7 @@ RoboSats permet aux utilisateurs d'échanger des sats dans leur portefeuille Lig
 
 En tant qu'acheteur d'une offre "Swap In", vous envoyez du Bitcoin sur chaîne à votre pair et recevez des sats en retour, moins les frais et/ou primes annoncés, dans votre portefeuille Lightning. En tant qu'acheteur d'une offre "Swap Out", vous envoyez des sats via Lightning et recevez du Bitcoin, moins les frais et/ou primes, sur votre adresse sur chaîne. Les utilisateurs de Samourai ou Sparrow Wallet peuvent également utiliser la fonction Stowaway pour effectuer un échange.
 
-Les offres d'échange RoboSats peuvent également inclure des alternatives adossées au Bitcoin telles que RBTC, LBTC et WBTC. Vous devez faire très attention si vous interagissez avec ces jetons car ils comportent tous différents compromis. Le Bitcoin adossé n'est pas du Bitcoin !
+Les offres d'échange RoboSats peuvent également inclure des alternatives adossées au Bitcoin telles que RBTC, LBTC et WBTC. Vous devez faire preuve d'une extrême prudence lorsque vous interagissez avec ces jetons, car ils présentent tous divers inconvénients. Le Bitcoin adossé n'est pas du Bitcoin !
 
 ![image](assets/17.webp)
 
@@ -172,13 +172,13 @@ Les utilisateurs de nœuds Umbrel, Citadel et Start9 peuvent installer leur prop
 
 ## FAQ
 
-### Est-ce que je peux être victime d'une arnaque ?
+### Puis-je me faire arnaquer ?
 
 En tant qu'acheteur, si vous avez envoyé la monnaie fiduciaire requise pour votre côté de l'échange, mais que le vendeur ne vous libère pas les sats, vous pouvez ouvrir un litige. Si, au cours de ce processus de litige, vous pouvez prouver aux arbitres de RoboSats que vous avez bien envoyé la monnaie fiduciaire, les fonds encaissés par le vendeur et leur caution commerciale vous seront restitués. Comment puis-je annuler un échange ?
 
 Vous pouvez annuler un échange après avoir posté votre caution en cliquant sur le bouton Annulation collaborative dans le menu de l'échange. Si votre partenaire d'échange est d'accord pour annuler, vous ne supporterez aucun frais. Mais si votre partenaire d'échange souhaite finaliser l'échange et que vous décidez d'annuler quand même, vous perdrez votre caution commerciale.
 
-### Est-ce que RoboSats fonctionne avec la méthode de paiement 'X' ?
+### RoboSats fonctionne-t-il avec le mode de paiement 'X' ?
 
 Il n'y a aucune restriction sur les méthodes de paiement dans RoboSats. Si vous ne voyez pas d'offres dans votre méthode de paiement souhaitée, créez votre propre offre en l'utilisant !
 

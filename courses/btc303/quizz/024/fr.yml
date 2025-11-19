@@ -1,0 +1,8 @@
+question: Quelle est la principale raison pour laquelle Bitcoin utilise des adresses dérivées de clés publiques comme pseudonymes au lieu de noms d'utilisateur descriptifs ?
+answer: Permettre la création sécurisée d'adresses hors ligne sans nécessiter l'enregistrement de la blockchain
+wrong_answers:
+  - Rendre les transactions complètement anonymes et intraçables sur la blockchain
+  - Pour réduire la puissance de calcul nécessaire à la vérification des transactions
+  - Permettre la réutilisation illimitée d'un même pseudonyme dans le cadre de plusieurs transactions
+explanation: |
+  Bitcoin utilise des adresses dérivées de clés publiques comme pseudonymes parce que ce système permet aux utilisateurs de créer en toute sécurité de nouvelles adresses hors ligne sans avoir à les enregistrer d'abord sur la blockchain. L'utilisation de noms d'utilisateur descriptifs nécessiterait d'annoncer le lien entre le nom d'utilisateur et la clé publique sur la blockchain, ce qui coûterait des frais, gonflerait la blockchain et réduirait la sécurité. En outre, les noms d'utilisateur encourageraient la réutilisation (ce qui réduirait la confidentialité) et créeraient des risques d'usurpation d'identité. Le système basé sur les adresses élimine ces problèmes tout en maintenant la sécurité cryptographique nécessaire au bon fonctionnement du Bitcoin.

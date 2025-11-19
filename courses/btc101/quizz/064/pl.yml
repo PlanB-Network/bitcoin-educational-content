@@ -1,12 +1,11 @@
-question: W którym roku odbędzie się 7. Halving?
+question: W którym roku odbędzie się 7. halving?
 answer: 2036
 wrong_answers:
   - 2032
   - 2028
   - 2048
 explanation: |
-  7. Halving powinien nastąpić w 2036 r., a szacowana liczba
-  liczba Bitcoin w obiegu wyniesie 20 835 937,5 szt,
-  co będzie w przybliżeniu odpowiadać 99,22% całkowitej liczby
-  Supply.
+  7. halving powinien nastąpić w 2036 r., a szacowana liczba
+  liczba bitcoinów w obiegu wyniesie 20 835 937,5 szt,
+  co będzie w przybliżeniu odpowiadać 99,22% całkowitej liczby bitcoinów.
 reviewed: true

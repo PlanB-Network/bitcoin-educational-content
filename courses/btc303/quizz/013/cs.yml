@@ -1,0 +1,8 @@
+question: Jaký je podle prezentace Matta Coralla vztah mezi nedůvěryhodnými a důvěryhodnými systémy v architektuře Bitcoin?
+answer: Důvěryhodné systémy lze budovat nad nedůvěryhodným systémem, ale ne nedůvěryhodné systémy nad důvěryhodnými systémy
+wrong_answers:
+  - Bezdůvěryhodné systémy můžete budovat nad důvěryhodnými systémy, ale ne důvěryhodné systémy nad bezdůvěryhodnými systémy
+  - Bezdůvěryhodné i důvěryhodné systémy lze stavět nad sebou bez jakýchkoli architektonických omezení
+  - Systémy Trustless a důvěryhodné systémy musí fungovat nezávisle a nelze je vrstvit na sebe
+explanation: |
+  Klíčovým poznatkem Matta Coralla je, že nedůvěryhodná základní vrstva Bitcoin umožňuje flexibilitu při návrhu systému. Bezdůvěryhodný základ, jako je protokol Bitcoin, umožňuje vývojářům vytvářet důvěryhodné služby (například úschovné peněženky) na vyšších vrstvách při zachování základních bezpečnostních záruk. Opačný postup však není možný - nelze vytvářet skutečně nedůvěryhodné systémy, pokud samotný základ vyžaduje důvěryhodnost, protože jakékoli nedůvěryhodné vlastnosti by byly narušeny zranitelnostmi důvěryhodné základní vrstvy.

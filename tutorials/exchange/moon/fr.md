@@ -5,7 +5,7 @@ description: Payez en bitcoins partout où les cartes bancaires Visa sont accept
 
 ![cover](assets/cover.webp)
 
-Moon permet d’utiliser des cryptomonnaies comme le bitcoin pour acheter des cartes Visa virtuelles et des cartes cadeaux sans KYC, utilisables chez des millions de commerçants en ligne, comme une carte bancaire classique. Elle offre ainsi un moyen simple de dépenser ses sats partout où Visa est accepté, sans passer par une plateforme d'échange.
+Moon permet d’utiliser des cryptomonnaies comme le bitcoin pour acheter des cartes Visa virtuelles et des cartes-cadeaux sans KYC, utilisables chez des millions de commerçants en ligne, comme une carte bancaire classique. Elle offre ainsi un moyen simple de dépenser ses sats partout où Visa est acceptée, sans passer par une plateforme d'échange.
 
 Cette approche illustre l’ambition première de Moon : rendre l’usage du bitcoin accessible au grand public en facilitant les paiements du quotidien partout dans le monde, en attendant que plus de commerçants acceptent ce moyen de paiement nativement. C'est une sorte de passerelle entre Bitcoin et le monde bancaire traditionnel. Dans ce tutoriel, nous vous invitons à découvrir ce service innovant, son concept et les principales fonctionnalités qu’il propose.
 
@@ -16,7 +16,7 @@ Les paiements en ligne représentent une révolution apportée par l'évolution 
 Moon apporte une innovation majeure : la possibilité d’utiliser le bitcoin et d’autres cryptomonnaies pour alimenter ces cartes bancaires virtuelles. Le service s’appuie sur l’infrastructure de Visa afin de vous permettre d’obtenir des cartes rechargeables en bitcoins (Lightning), sans ouvrir de compte bancaire ni fournir d’informations d’identité, dans la limite des plafonds d’utilisation prévus.
 
 Avec Moon, vous disposez ainsi d’un véritable pont entre vos bitcoins et le système de paiement par carte Visa, accepté sur la majorité des sites marchands. Vous pouvez ainsi utiliser vos bitcoins pour :
-- Effectuer des achats sur des sites de e-commerce ;
+- Effectuer des achats sur des sites d'e-commerce ;
 - Régler vos abonnements en ligne ;
 - Et bien d’autres usages encore.
 
@@ -40,7 +40,7 @@ Une fois votre compte créé, sur le **"Tableau de bord"**, vous pouvez remarque
 
 Pour obtenir une nouvelle carte, cliquez sur le bouton **"Nouvelle carte"**. Moon vous offre plusieurs types de cartes :
 - **La carte Visa Moon 1X**, une carte virtuelle personnelle utilisable uniquement aux États-Unis et non rechargeable. Cette carte vous permet de dépenser jusqu'à 1000 dollars, sans aucun frais de transaction ;
-- **La carte Visa Moon X**, une carte virtuelle personnelle disponible dans plus de 147 pays, offrant une limite mensuelle de dépenses fixée à 4 000 USD. Elle est valable pendant trois ans et applique des frais de transaction de 1 %, avec un minimum de 1$ par opération.
+- **La carte Visa Moon X**, une carte virtuelle personnelle disponible dans plus de 147 pays, offrant une limite mensuelle de dépenses fixée à 4 000 USD. Elle est valable pendant trois ans et applique des frais de transaction de 1 %, avec un minimum de 1 $ par opération.
 
 ![visas](assets/fr/04.webp)
 
@@ -85,7 +85,7 @@ Votre carte sera automatiquement créditée dès que le paiement de l'invoice Li
 
 ![recharged](assets/fr/12.webp)
 
-Grâce à cette carte virtuelle, vous pouvez régler des produits et services en ligne comme avec n’importe quelle carte Visa classique. Par exemple, vous pourriez suivre le tout dernier cours premium consacré au minage de Bitcoin disponible sur notre plateforme. Bien que cet exemple soit purement illustratif (puisque nous acceptons déjà les paiements en bitcoins natifs) il permet de montrer la simplicité d’utilisation de la carte Moon.
+Grâce à cette carte virtuelle, vous pouvez régler des produits et services en ligne comme avec n’importe quelle carte Visa classique. Par exemple, vous pourriez suivre le tout dernier cours premium consacré au minage de Bitcoin disponible sur notre plateforme. Bien que cet exemple soit purement illustratif (puisque nous acceptons déjà les paiements en bitcoins natifs), il permet de montrer la simplicité d’utilisation de la carte Moon.
 
 https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
 
@@ -100,14 +100,14 @@ Vous pouvez ensuite retrouver l'intégralité de vos transactions sur le tableau
 
 ## Organiser ses cartes
 
-Moon est un service qui vous permet d'avoir plusieurs cartes sur un même compte. Vous pouvez ainsi avoir une carte Visa Moon et des cartes cadeaux avec des soldes différents, ou payer des cartes cadeaux à partir de votre carte Visa Moon X.
+Moon est un service qui vous permet d'avoir plusieurs cartes sur un même compte. Vous pouvez ainsi avoir une carte Visa Moon et des cartes-cadeaux avec des soldes différents, ou payer des cartes-cadeaux à partir de votre carte Visa Moon X.
 
 ![buygift](assets/fr/16.webp)
 
-Lorsque vous cochez la case **Appliquer le crédit**, Moon prélève directement le montant de la recharge de votre carte cadeau depuis votre carte Visa.
+Lorsque vous cochez la case **Appliquer le crédit**, Moon prélève directement le montant de la recharge de votre carte-cadeau depuis votre carte Visa.
 
 Vous disposez désormais d'un processeur de cartes virtuelles basé sur l'infrastructure de Visa, qui respecte votre confidentialité et protège vos données.
 
-Nous vous invitons également à découvrir notre tutoriel sur Bitrefill, afin d'utiliser bitcoin pour payer des cartes cadeaux de vos services favoris :
+Nous vous invitons également à découvrir notre tutoriel sur Bitrefill, afin d'utiliser bitcoin pour payer des cartes-cadeaux de vos services favoris :
 
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

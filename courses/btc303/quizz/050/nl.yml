@@ -1,0 +1,8 @@
+question: Welk type aanval houdt in dat een enkele entiteit meerdere knooppunten controleert om zich voor te doen als meerdere entiteiten, en waarom is het niet effectief tegen het consensusmechanisme van Bitcoin?
+answer: Sybil-aanval; niet effectief omdat Bitcoin de rekenkracht van proof-of-work gebruikt voor consensus in plaats van knooppunten te tellen
+wrong_answers:
+  - "Eclipse-aanval; deze is niet effectief omdat Bitcoin alle knooppuntcommunicatie versleutelt met behulp van geavanceerde cryptografische protocollen."
+  - "Denial-of-service aanval; het is niet effectief omdat Bitcoin automatisch verkeer herverdeelt over gezonde knooppunten in het netwerk."
+  - "Social engineering-aanval; niet effectief omdat Bitcoin-ontwikkelaars formele verificatiemethoden gebruiken om manipulatie te voorkomen"
+explanation: |
+  Een Sybil-aanval vindt plaats wanneer één entiteit meerdere nodes controleert om zich voor te doen als vele afzonderlijke entiteiten. Deze aanval is echter niet effectief tegen Bitcoin, omdat het netwerk niet vertrouwt op het tellen van knooppunten of democratisch stemmen onder netwerkdeelnemers. In plaats daarvan gebruikt Bitcoin proof-of-work consensus waarbij rekenkracht (hashpower) netwerkbeslissingen bepaalt, niet het aantal nodes. Dit maakt het onmogelijk voor een aanvaller om invloed te krijgen door simpelweg veel nodes te laten draaien zonder de bijbehorende rekenkracht.

@@ -1,0 +1,8 @@
+question: Selon l'approche contradictoire, quelle est la principale raison pour laquelle toutes les faiblesses connues de Bitcoin doivent être corrigées plutôt que d'accepter un certain niveau de risque ?
+answer: Bitcoin opère dans un environnement en ligne pseudonyme où les adversaires peuvent exploiter les faiblesses sans être pris ou tenus pour responsables
+wrong_answers:
+  - "Le modèle de sécurité formel de Bitcoin exige la preuve mathématique que tous les vecteurs d'attaque potentiels ont été éliminés
+  - La nature distribuée de Bitcoin signifie que même de petites faiblesses peuvent entraîner des défaillances en cascade sur l'ensemble des nœuds du système
+  - "L'offre fixe de Bitcoin rend économiquement impossible l'absorption des pertes résultant d'attaques réussies, contrairement aux systèmes financiers traditionnels
+explanation: |
+  La bonne réponse reflète l'idée clé d'Andrew Poelstra sur les systèmes en ligne par rapport aux systèmes physiques. Contrairement aux bâtiments où nous acceptons un certain risque et où nous comptons sur les forces de l'ordre, Bitcoin opère dans un environnement pseudonyme où les attaquants peuvent agir sans visibilité ni conséquences. Cette différence fondamentale signifie que chaque faiblesse connue sera inévitablement exploitée, ce qui rend une sécurité complète essentielle plutôt qu'une gestion des risques facultative.

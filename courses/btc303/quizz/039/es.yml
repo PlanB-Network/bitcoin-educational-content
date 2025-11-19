@@ -1,0 +1,8 @@
+question: Según el argumento de Shaolinfry a favor de las horquillas Soft activadas por el usuario (UASF), ¿cuál es el principal problema de las horquillas blandas activadas por el minero en lo que respecta a la implementación de actualizaciones?
+answer: Un pequeño porcentaje de hashrate puede vetar las mejoras para todos, creando una inercia de mejora
+wrong_answers:
+  - Los mineros pueden anular las activaciones suaves de fork tras su aplicación mediante consenso mayoritario
+  - Los nodos económicos pierden el control sobre las reglas de validación cuando los mineros señalan la activación
+  - Los cambios de Soft fork pasan a ser permanentes y no pueden modificarse una vez que los mineros los activan
+explanation: |
+  Shaolinfry identificó que la señalización de los mineros crea un sistema de veto natural en el que incluso un pequeño porcentaje de hashrate puede impedir que las mejoras se activen para toda la red. Esta "inercia de actualización" se vuelve más problemática a medida que mining se descentraliza, bloqueando potencialmente mejoras beneficiosas del protocolo. Las otras opciones tergiversan el funcionamiento de las bifurcaciones suaves: los mineros no pueden revertir las activaciones unilateralmente, los nodos económicos conservan la autoridad de validación y las bifurcaciones suaves pueden modificarse teóricamente mediante actualizaciones posteriores.

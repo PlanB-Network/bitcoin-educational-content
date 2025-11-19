@@ -1,0 +1,8 @@
+question: Mikä on tärkein tekninen ero Bitcoin Coren GitHub-arkiston ja tuhansien muiden, maailmanlaajuisesti jaettujen saman arkiston kopioiden välillä?
+answer: Teknistä eroa ei ole, vaan se toimii kehityksen sosiaalisena keskipisteenä
+wrong_answers:
+  - GitHub-arkisto sisältää kryptografisia allekirjoituksia, jotka todentavat sen viralliseksi versioksi
+  - GitHub-arkistossa on erityiset sitoutumisoikeudet, jotka estävät luvattomat muutokset koodipohjaan
+  - GitHub-arkisto ylläpitää pääavainta, joka validoi kaikki muut arkistokopiot maailmanlaajuisesti
+explanation: |
+  Luvussa mainitun Jameson Loppin analyysin mukaan Bitcoin Coren GitHub-tietovarasto on teknisesti identtinen kaikkien muiden kopioiden kanssa. Sen merkitys on puhtaasti sosiaalinen - siitä on tullut kehityksen koordinoinnin keskipiste. Arkisto toimii pikemminkin mukavuus- kuin teknisen auktoriteetin vuoksi, ja jos se katoaisi, uusi keskuspaikka syntyisi luonnollisesti. Tämä osoittaa Bitcoin:n hajautetun luonteen, jossa millään yksittäisellä säilytyspaikalla ei ole teknistä ylivaltaa muihin nähden.

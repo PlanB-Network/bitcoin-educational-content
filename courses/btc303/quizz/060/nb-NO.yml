@@ -1,0 +1,8 @@
+question: I henhold til definisjonen av åpen kildekode, hva er hovedkravet når det gjelder avgifter ved videredistribusjon av programvare med åpen kildekode som en del av en samlet programvaredistribusjon?
+answer: Lisensen skal ikke kreve royalty eller annen avgift for slikt salg
+wrong_answers:
+  - En rimelig reproduksjonskostnad må belastes for å dekke utviklingskostnader
+  - Royaltyavgifter er tillatt, men må ikke overstige 5 % av distribusjonsprisen
+  - Administrative avgifter kan kreves, men kun for kommersiell videredistribusjon
+explanation: |
+  Definisjonen av åpen kildekode sier eksplisitt under "Fri videredistribusjon" at "Lisensen skal ikke kreve royalty eller annen avgift for slikt salg" Dette betyr at programvare med åpen kildekode må kunne videredistribueres fritt uten obligatoriske avgifter eller royalties. De andre alternativene antyder feilaktig at ulike typer avgifter er tillatt, noe som ville bryte med det grunnleggende prinsippet om fri videredistribusjon som definerer åpen kildekode-programvare.

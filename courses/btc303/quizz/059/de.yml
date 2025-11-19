@@ -1,0 +1,8 @@
+question: Was ist die Hauptfolge, wenn Bitcoin Core Pull Requests sehr lange brauchen, bevor sie von den Maintainern in das Repository integriert werden?
+answer: Es deutet darauf hin, dass nicht genügend Prüfer zur Verfügung stehen, um die vorgeschlagenen Codeänderungen zu bewerten
+wrong_answers:
+  - "Es zeigt, dass die Betreuer den Entwicklungsprozess von Bitcoin absichtlich verlangsamen"
+  - "Sie zeigt, dass die vorgeschlagenen Änderungen grundsätzlich nicht mit den Konsensregeln von Bitcoin vereinbar sind
+  - "Es zeigt sich, dass die GitHub-Plattform technische Beschränkungen für die Handhabung der Codebasis von Bitcoin hat
+explanation: |
+  Dem Inhalt des Kapitels zufolge dauert es lange, bis Pull-Requests zusammengeführt werden, vor allem wegen mangelnder Überprüfung, die eher auf eine unzureichende Anzahl von Überprüfern als auf eine Behinderung durch die Betreuer oder technische Probleme zurückzuführen ist. Der Überprüfungsprozess ist entscheidend für die Sicherheit von Bitcoin, da er die Qualität des Codes sicherstellt und böswillige Änderungen verhindert. Dieser Engpass besteht, weil die Überprüfung von komplexem kryptographischem Code Fachwissen und Zeit erfordert, was qualifizierte Prüfer zu einer knappen Ressource im Entwicklungsprozess macht.

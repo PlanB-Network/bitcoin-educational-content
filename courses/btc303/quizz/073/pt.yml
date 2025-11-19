@@ -1,0 +1,8 @@
+question: De acordo com as práticas de divulgação responsável do Bitcoin Core, quando é que os detalhes da vulnerabilidade devem ser divulgados publicamente depois de uma correção ter sido implementada?
+answer: Depois de mais de 80% dos nós Bitcoin terem implementado as correcções
+wrong_answers:
+  - Imediatamente após o lançamento da correção para evitar falsas suposições de segurança
+  - Depois de todas as principais altcoins terem sido notificadas e atualizado as suas implementações
+  - Após um período de embargo normal de 90 dias, independentemente do estatuto de destacamento
+explanation: |
+  O Bitcoin Core segue um cronograma de divulgação baseado na implantação, em vez de um período de tempo fixo. O limite de 80% garante que a grande maioria da rede esteja protegida antes que os atacantes possam tomar conhecimento da vulnerabilidade através da divulgação pública. Esta abordagem dá prioridade à segurança da rede em relação a prazos arbitrários, uma vez que a divulgação prematura poderia expor os restantes 20% dos nós a ataques direcionados. As outras opções representam práticas comuns na segurança tradicional de software, mas não têm em conta a natureza descentralizada do Bitcoin, em que os utilizadores têm de atualizar voluntariamente os seus nós.

@@ -1,0 +1,8 @@
+question: Koja je glavna ranjivost koja je uzrokovala neuspeh ranih pokušaja digitalne valute pre Bitcoin?
+answer: Oni su se oslanjali na centralne servere koji su mogli biti cenzurisani ili isključeni.
+wrong_answers:
+  - Koristili su neadekvatne kriptografske algoritme za sigurnost transakcija
+  - Nisu imali dovoljno računske snage za efikasnu obradu transakcija
+  - Nisu uspeli da implementiraju odgovarajuće mehanizme za autentifikaciju korisnika.
+explanation: |
+  Rane digitalne valute nisu uspele jer su zavisile od centralnih servera za obradu i validaciju transakcija. Kao što je objašnjeno u poglavlju, ova centralizacija postala je njihova "Ahilova peta" jer su vlade ili drugi protivnici mogli lako cenzurisati, kontrolisati ili ugasiti ove centralne tačke neuspeha. Čak su i pokušaji korišćenja više servera u federaciji ostavljali sistem ranjivim jer bi svaki server mogao "zatajiti, ili biti nateran da zataji, jedan po jedan." Bitcoin je to rešio eliminisanjem potrebe za bilo kojom centralnom autoritetom kroz svoj decentralizovani proof-of-work sistem.

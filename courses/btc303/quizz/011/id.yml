@@ -1,0 +1,8 @@
+question: Menurut definisi Pieter Wuille, apa yang dimaksud dengan 'trustless' dalam konteks sistem terdistribusi?
+answer: Sistem yang tidak memerlukan pihak tepercaya untuk berfungsi dengan benar
+wrong_answers:
+  - Sistem di mana pengguna tidak dapat mempercayai peserta atau validator mana pun
+  - Sistem yang menghilangkan semua bentuk kepercayaan termasuk perangkat lunak dan perangkat keras
+  - Sistem di mana transaksi tidak dapat dibatalkan atau disengketakan oleh siapa pun
+explanation: |
+  Trustless secara khusus mengacu pada properti teknis di mana sistem terdistribusi dapat berfungsi dengan benar tanpa memerlukan pihak yang dipercaya. Hal ini berbeda dengan menghilangkan semua kepercayaan (Anda masih mempercayai perangkat lunak/perangkat keras Anda) atau mencegah pembatalan (transaksi Bitcoin dapat dibatalkan melalui penulisan ulang berantai). Istilah ini juga tidak berarti pengguna tidak dapat mempercayai partisipan - melainkan, kebenaran sistem tidak bergantung pada kepercayaan mereka.

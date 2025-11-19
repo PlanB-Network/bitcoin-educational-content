@@ -99,19 +99,19 @@ Thank you, and enjoy the course!
 ### Why start in the Neolithic
 
 
-Why go all the way back to the Neolithic to talk about money? The answer is simple: we can't fully understand the emergence of money without also looking at the emergence of civilizations themselves. To understand why the first monetary systems came into being, we need to understand what led nomadic hunter-gatherer groups to settle down.
+Why go all the way back to the Neolithic to talk about money? The answer is simple: we can't fully understand the emergence of money without also examining the rise of civilizations themselves. To understand why the first monetary systems came into being, we need to understand what led nomadic hunter-gatherer groups to settle down.
 
 
-A tribe with no division of labor, no specialization, where each individual is responsible for producing what he or she needs, simply has no need for money. Likewise, an agricultural community practicing only subsistence farming, where each person cultivates for themselves, does not yet feel the need for a universal exchange intermediary.
+A tribe with no division of labor, no specialization, where individuals are responsible for producing their own needs, simply has no need for money. Likewise, an agricultural community practicing only subsistence farming, where each person cultivates their own food, does not yet feel the need for a common medium of exchange.
 
 
 ### Sedentarization and its consequences
 
 
-That's why I think it's interesting to start our exploration in the Neolithic period. We'll see how sedentarization gradually gave rise to villages, then cities, and finally great civilizations. It was this sedentarization and the production of food surpluses that made labor specialization possible, creating the fertile ground essential to the emergence and evolution of the first monetary concepts.
+Starting our exploration in the Neolithic period is a logical choice. We'll see how sedentarization gradually gave rise to villages, then cities, and finally great civilizations. It was this sedentarization and the production of food surpluses that made labor specialization possible, creating the fertile ground essential for the emergence and evolution of the first monetary concepts.
 
 
-Just as human interactions give rise to language, we can consider that money appears naturally, or not (as with the Incas and Spartans), in the course of the formation and organization of civilizations. In my opinion, the appearance or non-appearance of money has everything to do with the form of social and economic organization of each society.
+Just as human interactions give rise to language, money can appear naturally in the course of a civilization's formation and organization, a tendency that is not universal, as seen in societies like the Incas and Spartans. Ultimately, whether a society develops money depends entirely on its specific social and economic organization.
 
 
 ### Chronology of human evolution
@@ -120,50 +120,48 @@ Just as human interactions give rise to language, we can consider that money app
 But first, let's look at an even broader historical context.
 
 
-Like any first presentation, I'm going to do exactly the opposite of what I said in the introduction to the course and give you a list of dates and historical events that follow on from each other. The idea here is to place the emergence of money in its historical context, in relation to other human advances such as the cooking of food, the wheel, the domestication of certain cereals and animals, the building of the pyramids and the founding of the first cities.
+To do this, I'm now going to present a chronological list of key events, relating the development of money to other major human advances like the cooking of food, the invention of the wheel, the domestication of animals and cereals, the building of the pyramids, and the founding of the first cities.
 
 
-So, let's take a look at the evolution of mankind from prehistoric times onwards.
-
-An overview of human evolution from Australopithecus to modern man, following technological advances and population movements up to the Neolithic period.
+Let's begin with an overview of human evolution, tracing our journey from Australopithecus to modern man by following technological advances and population movements that led up to the Neolithic period.
 
 
-### Historical context of mankind
+### A Chronology of Human History
 
 
 
-- **3 million years ago** - Appearance of *Australopithecus*.
-- **2 million years ago** - Hominins begin to leave Africa.
-- **1.6 million years ago** - Hominins reach southern Europe and Asia.
-- **1 million years ago** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk Cave, South Africa).
-- **Around 400,000 BC** - Neanderthals live in Europe and Asia.
-- **Around 300,000 BC** - Appearance of *Homo sapiens*.
-- **80,000 years ago** - *Homo sapiens* begins migrating to all parts of the world.
-- **73,000 years ago** - Blombos Caves in South Africa (oldest known art forms).
-- **50,000 years ago** - *Homo sapiens* reached Europe.
-- **30,000 years ago** - Cave paintings from the Chauvet cave in France.
-- **15,000 years ago** - Lascaux cave paintings in France and Australian rock art.
-- **Around 9000 BC** - Domestication of barley in the Fertile Crescent.
-- **Around 9000 BC** - Corn cultivation in Mexico.
-- **Around 8000 BC** - Domestication of goats and sheep in the Fertile Crescent.
-- **Around 7250 BC** - Ain Ghazal (Jordan) reveals a village of a few hundred inhabitants.
-- **Around 7000 BC** - Çatalhöyük (Turkey) has up to 8,000 inhabitants.
-- **Around 6500 BC** - Sedentary life begins in Greece.
-- **6000 years ago** - Beginning of river irrigation in Egypt and Mesopotamia.
-- **Around 5000 BC** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
-- **Around 4000 BC** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas, and vicuñas).
-- **Around 3500-3000 BC** - The Botai people begin to domesticate and breed horses.
-- **Around the beginning of the Bronze Age** - The Sumerians had already invented the wheel and the sailboat, and developed arithmetic, astronomy, and the first form of writing.
-- **Around 2800 BC** - Uruk, at its peak, reached a population of up to 80,000.
-- **2600-2200 BC** - First signs of urban development in the Greek world. Expansion of Mediterranean crops (wheat, vines, olives).
+- **c. 3,000,000 BC** - Appearance of *Australopithecus* in Africa.
+- **c. 2,000,000 BC** - Hominins begin to leave Africa.
+- **c. 1,600,000 BC** - Hominins reach southern Europe and Asia.
+- **c. 1,000,000 BC** - First evidence of domestic cooking with fire (charred bones and plant remains in Wonderwerk Cave, South Africa).
+- **c. 400,000 BC** - Neanderthals inhabit Europe and Asia.
+- **c. 300,000 BC** - Appearance of *Homo sapiens* in Africa.
+- **c. 80,000 BC** - *Homo sapiens* begins migrating out of Africa to all parts of the world.
+- **c. 73,000 BC** - Oldest known symbolic art found in Blombos Caves, South Africa.
+- **c. 50,000 BC** - *Homo sapiens* reach Europe.
+- **c. 30,000 BC** - Cave paintings in Chauvet Cave in France.
+- **c. 15,000 BC** - Lascaux cave paintings in France and Australian rock art.
+- **c. 9000 BC** - Domestication of barley in the Fertile Crescent.
+- **c. 9000 BC** - Corn cultivation in Mexico.
+- **c. 8000 BC** - Domestication of goats and sheep in the Fertile Crescent.
+- **c. 7250 BC** - Ain Ghazal (Jordan) becomes a village of a few hundred inhabitants.
+- **c. 7000 BC** - Çatalhöyük (Turkey) has a population up to 8,000.
+- **c. 6500 BC** - Sedentary life begins in Greece.
+- **c. 6000 BC** - Beginning of river irrigation in Egypt and Mesopotamia.
+- **c. 5000 BC** - Appearance of the "three sisters" agricultural combination (corn, squash, beans).
+- **c. 4000 BC** - Domestication of the camel in Central Asia. (The camelid family originated in North America during the Eocene 45 million years ago. These camels would then have migrated to Asia via a thin strip of land that linked the two continents at that time in the Bering Strait. Another part of the family would have headed for South America, where its descendants still live today: llamas, alpacas, and vicuñas).
+- **c. 3500–3000 BC** - The Botai people begin to domesticate horses.
+- **Around the beginning of the Bronze Age** - The Sumerians invent the wheel and sailboat, and develop arithmetic, astronomy, and the first form of writing.
+- **c. 2800 BC** - Uruk reaches a peak population of up to 80,000.
+- **2600–2200 BC** - First signs of urban development in the Greek world; expansion of Mediterranean crops (wheat, vines, olives).
 - **2560 BC** - Construction of the Great Pyramid of Giza.
-- **Around 1500 BC** - Minoan civilization.
-- **Around 1300 BC** - Mycenaean civilization.
-- **Around 1250 to 1150 BC** - Collapse of the Bronze Age civilizations.
+- **c. 1500 BC** - Minoan civilization flourishes.
+- **c. 1300 BC** - Mycenaean civilization flourishes.
+- **c. 1250–1150 BC** - Collapse of the Bronze Age civilizations.
 - **1st century AD** - North African Berbers domesticate the camel.
 
 
-So, here is this historical overview to give us a perspective on the emergence of certain technologies, domestication of certain animals, and cultures, to put it in context with the emergence of writing and money, which will be the subject of our next section.
+So, this historical overview provides perspective on the emergence of certain technologies, animal domestication, and cultures, contextualizing them with the development of writing and money, which we will discuss next.
 
 
 ## From Hunter-Gatherer to Farmer: The Dawn of Civilization
@@ -175,10 +173,10 @@ So, here is this historical overview to give us a perspective on the emergence o
 ### The transition to agriculture and sedentarization
 
 
-In this chapter, we're going to talk about the transition from hunting and gathering to subsistence agriculture, crafts, and trade. I felt it was important to explain this transition to a sedentary life and agriculture, to understand how the first cities were built, which eventually led to the creation and emergence of certain monetary systems during Antiquity.
+This chapter explores the transition from hunting and gathering to agriculture, crafts, trade, and a sedentary lifestyle. Understanding this shift is crucial for grasping how the first cities developed, which ultimately led to the emergence of monetary systems in intiquity.
 
 
-This section is an extract from a course available on The Great Courses website called Ancient Mesopotamia, Life in the Cradle of Civilization, given by Professor Amanda Podany of California State Polytechnic University, Ponoma.
+This section is an extract from the course *Ancient Mesopotamia, Life in the Cradle of Civilization*, available on The Great Courses website and taught by Professor Amanda Podany of California State Polytechnic University, Pomona.
 
 
 ### The paradoxes of adopting agriculture

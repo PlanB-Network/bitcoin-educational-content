@@ -4,7 +4,7 @@ description: Comment ajouter des nouveaux supports éducatifs sur Plan ₿ Acade
 ---
 ![event](assets/cover.webp)
 
-La mission de Plan₿ est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
+La mission de Plan ₿ Academy est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
 Au-delà des tutoriels et des formations, Plan ₿ Academy offre également une vaste bibliothèque de contenus pédagogiques variés sur Bitcoin, accessibles à tous, [dans la section "BET" (*Bitcoin Educational Toolkit*)](https://planb.academy/resources/bet). Cette base de données inclut des posters éducatifs, des mèmes, des affiches de propagande humoristiques, des schémas techniques, des logos, et d'autres outils pour les utilisateurs. L'objectif de cette initiative est de soutenir les individus et les communautés qui enseignent Bitcoin à travers le monde, en leur fournissant les ressources visuelles nécessaires.
 
@@ -76,7 +76,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 	- `Visual Content` pour les autres types de contenus divers.
 
 - **`links`** : Fournissez les liens vers vos contenus. Vous avez deux options :
-	- Si vous choisissez d'héberger votre contenu directement sur le GitHub de Plan₿, vous devrez ajouter les liens de ce fichier durant les étapes suivantes.
+	- Si vous choisissez d'héberger votre contenu directement sur le GitHub de Plan ₿ Academy, vous devrez ajouter les liens de ce fichier durant les étapes suivantes.
 	- Si vos contenus sont hébergés ailleurs, comme sur votre site web personnel, indiquez les liens correspondants ici :
 	    - `download` : Un lien pour télécharger votre contenu.
 	    - `view` : Un lien pour visualiser votre contenu (peut être le même que le lien de téléchargement). Si votre contenu est disponible en plusieurs langues, ajoutez un lien pour chaque langue.
@@ -229,7 +229,7 @@ description: |
 ```
 
 - Pour la clé `name`, vous pouvez ajouter le nom de votre contenu ;
-- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre contenu. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de Plan₿ le feront avec leur modèle. 
+- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre contenu. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de Plan ₿ Academy le feront avec leur modèle. 
 
 Par exemple, voici à quoi pourrait ressembler votre fichier :
 

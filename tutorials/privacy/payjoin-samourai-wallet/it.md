@@ -1,6 +1,6 @@
 ---
-nome: Payjoin - Samourai Wallet
-descrizione: Come eseguire una transazione Payjoin su Samourai Wallet?
+name: Payjoin - Samourai Wallet
+description: Come eseguire una transazione Payjoin su Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 

@@ -2,14 +2,19 @@
 name: Telegram
 description: Messaggi e molto di più, su mobile e desktop
 ---
+
 ![cover](assets/cover.webp)
 
+
 ## Perché Telegram
+
 Telegram è ben più di una app di messaggistica e va oltre il concetto di social. Rispetto a molti suoi competitor ha tante caratteristiche che lo rendono uno strumento da saper usare. 
 
 Oltre a scambiare messaggi, con Telegram puoi effettuare chiamate video e vocali, editare o cancellare i messaggi sebbene già inviati, scambiare file pesanti senza limiti di spazio e tanto altro. Speriamo che questo tutorial ti possa aiutare rendendone semplice la conoscenza e, soprattutto, unirti alle numerose community di bitcoiner presenti su Telegram.
 
+
 ## Telegram mobile
+
 Nonostante Telegram sia disponibile dagli store ufficiali, il consiglio è sempre lo stesso: scaricare dal sito dello sviluppatore, una buona abitudine per chi, come te, sta facendo un percorso attento alla privacy.
 
 Con il browser del tuo telefono, vai sul sito [telegram.org](https://telegram.org). Puoi scegliere la lingua preferita, ma io ti consiglio di proseguire in inglese, quindi scegli _Telegram for Android_
@@ -34,26 +39,23 @@ Lascia installare Telegram
 
 ![image](assets/en/06.webp)
 
-
-dopodiché aprilo dal tuo telefono e scegli _Start Messaging_.
-
+Dopodiché aprilo dal tuo telefono e scegli _Start Messaging_.
 
 ![image](assets/en/07.webp)
-
 
 Come ogni buona app di messaggistica VoIP, anche il funzionamento di Telegram si basa su una linea telefonica funzionante. Per iniziare devi immettere il tuo numero di telefono: Telegram manderà un SMS di verifica con un codice OTP.
 
 ![image](assets/en/08.webp)
 
-
 Nella schermata successiva puoi ricontrollare il numero che hai comunicato. Se è corretto clicca su _Yes_.
-
 
 ![image](assets/en/09.webp)
 
 Telegram è ora pienamente funzionante su mobile, possiamo passare alle prime impostazioni di base.
 
+
 # Impostazioni di sicurezza e privacy
+
 
 ## Configurazione dello username
 
@@ -80,7 +82,6 @@ Clicca su _Set Username_ (qui _Change Username_ per il motivo appena esposto)
 
 e configura il tuo handle, poi salva cliccando sul segno ✅ in alto a destra.
 
-
 ![image](assets/en/14.webp)
 
 Nella maggior parte dei gruppi e canali Telegram, questo username è richiesto come prerequisito per l'accesso. Per gli amministratori di tali gruppi, infatti, è uno dei modi per tenere lontani i bot e lo spam.
@@ -90,6 +91,7 @@ Nella maggior parte dei gruppi e canali Telegram, questo username è richiesto c
 Come fa un impostore ad assumere l'identità di qualcun altro?
 Non può, grazie all'unicità dello username.
 **Quello che può fare è mostrare un handle "somigliante", che cambia leggermente (una lettera/numero), in modo che solo ad un occhio attento risulti evidente che si tratta di uno scammer**. Tu presta sempre la massima attenzione allo username e vedrai che gli impostori non avranno gioco facile.
+
 
 ## Privacy
 
@@ -103,7 +105,6 @@ Ora scegli _Privacy and Security_
 
 ![image](assets/en/35.webp)
 
-
 Qui troverai tutta una serie di parametri importanti da regolare in base a come vuoi utilizzare il tuo account Telegram.
 
 ![image](assets/en/36.webp)
@@ -111,11 +112,12 @@ Qui troverai tutta una serie di parametri importanti da regolare in base a come 
 Abbi cura di impostare:
 - _Phone Number_ "Nobody"
 - _Calls_ "My Contacts"
--  _Invites_ "Nobody"
+- _Invites_ "Nobody"
   
 Si tratta di accorgimenti che eviteranno di esporre il tuo numero di telefono, così da non ricevere chiamate indesiderate o essere aggiunto a tua insaputa a gruppi di dubbia provenienza. In seguito potrai aggiustare tutti gli altri parametri come meglio desideri.
 
 Ora che il tuo account Telegram è impostato e hai guadagnato un minimo di riservatezza, puoi iniziare ad usarlo.
+
 
 ## Aggiungere contatti e chat
 
@@ -131,18 +133,15 @@ Cliccando su quest'ultima, per prima cosa Telegram chiederà il permesso di acce
 
 ![image](assets/en/38.webp)
 
-
 Dopodiché i contatti appariranno nella schermata principale.
 
 ![image](assets/en/40.webp)
-
 
 Cliccando sull'icona con il pennino, in basso a destra, si attiva la schermata per aggiungere altri contatti, ma non solo.
 
 Telegram offre la possibilità di cercare **Gruppi** tematici, che ricordano molto i forum in cui diversi utenti si riuniscono per parlare di un argomento specifico, oppure i **Canali**, solitamente usati come mezzi di informazione dove solo gli amministratori possono postare e i follower fruire dei contenuti.
 
 ![image](assets/en/44.webp)
-
 
 Selezionando la foto profilo di un contatto presente nella lista, si accede ad un vasto menu per compiere azioni interessanti:
 - vedere tutti i dettagli del contatto;
@@ -193,15 +192,14 @@ Per accedere ai _Messaggi Salvati_ del tuo account, vai nel menu principale e se
 
 ![image](assets/en/29.webp)
 
-
 La chat compare in primo piano, pronta per essere utilizzata.
 
 ![image](assets/en/30.webp)
 
-
 ***
 **(1)** _Non usare il cloud di Telegram per informazioni riservate quali password, pin, mnemoniche e dati di questo genere_.
 ***
+
 
 ## Programmare i messaggi ed invio silenzioso
 
@@ -228,12 +226,9 @@ Si apre un menu a tendina dal quale devi selezionare _Log Out_.
 
 ![image](assets/en/24.webp)
 
-
 Tra le opzioni, scegli appunto _Clear Cache_.
 
-
 ![image](assets/en/25.webp)
-
 
 Il dispositivo inizia a quantificare lo spazio di archiviazione utilizzato. Una volta terminato il calcolo, comparirà il tasto _Clear Cache_.
 
@@ -242,7 +237,6 @@ Il dispositivo inizia a quantificare lo spazio di archiviazione utilizzato. Una 
 Cliccandolo ti mostrerà una schermata di conferma, su cui bisogna scegliere di nuovo _Clear Cache_ per procedere.
 
 ![image](assets/en/27.webp)
-
 
 Terminato il processo, Telegram mostra una schermata dove - sotto l'esito della pulizia - compare anche un'interessante impostazione, la possibilità di scegliere quanto spazio di cache deve essere dedicato ai media.
 Ti consiglio di non tenere uno spazio illimitato per foto e video, ma di permettere alla app di rimuovere i file pesanti una volta raggiunto questo limite.
@@ -259,7 +253,6 @@ Tutte le opzioni viste fin qui con il modello mobile, si possono sfruttare nello
 
 ![image](assets/en/15.webp)
 
-
 Nella schermata che si apre clicca per scaricare l'eseguibile adatto al tuo sistema operativo.
 
 ![image](assets/en/16.webp)
@@ -274,25 +267,19 @@ Ti verrà mostrato sullo schermo un QR Code, da inquadrare con il tuo dispositiv
 
 Apri l'app sul cellulare, vai nel menu principale (le tre barrette in alto a sinistra).
 
-
 ![image](assets/en/31.webp)
 
-
 Seleziona _Settings_
-
 
 ![image](assets/en/19.webp)
 
 e subito dopo _Devices_.
 
-
 ![image](assets/en/20.webp)
-
 
 Seleziona ora _Link Desktop Device_
 
 ![image](assets/en/32.webp)
-
 
 Si attiva la fotocamera del tuo telefono. Al primo utilizzo è probabile che il tuo Android chiederà i permessi: concedili.
 
@@ -300,9 +287,7 @@ Si attiva la fotocamera del tuo telefono. Al primo utilizzo è probabile che il 
 
 Ora inquadra il QR Code comparso prima sullo schermo del computer.
 
-
 ![image](assets/en/22.webp)
-
 
 Un avviso sul tuo telefono è la conferma che il nuovo dispositivo è stato aggiunto correttamente.
 

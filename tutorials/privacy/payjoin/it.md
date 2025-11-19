@@ -1,6 +1,6 @@
 ---
-nome: Payjoin
-descrizione: Cos'è un Payjoin su Bitcoin?
+name: Payjoin
+description: Cos'è un Payjoin su Bitcoin?
 ---
 ![Miniatura Payjoin - steganografia](assets/cover.webp)
 

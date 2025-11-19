@@ -1,10 +1,10 @@
 ---
-name: Labelling UTXO
-description: Come etichettare correttamente i tuoi UTXO
+nome: Labelling UTXO
+descrizione: Come etichettare correttamente i tuoi UTXO
 ---
 ![cover](assets/cover.webp)
 
-In questo tutorial affronteremo tutto ciò che devi sapere sulla cosiddetta "UTXO labelling" nel tuo wallet Bitcoin e sulla gestione degli stessi. Inizieremo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principali wallet Bitcoin.
+In questo tutorial affronteremo tutto ciò che devi sapere sulla cosiddetta "UTXO labelling" nel tuo wallet Bitcoin e sulla loro gestione. Inizieremo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principali wallet Bitcoin.
 
 ## Cos'è il Labelling degli UTXO?
 
@@ -22,25 +22,25 @@ Riprendendo l’esempio di prima: supponiamo di aver ricevuto un UTXO no-KYC tra
 ## Come etichettare correttamente gli UTXO?
 
 Non esiste un metodo universale per etichettare adeguatamente gli UTXO. Sta a te definire un sistema di labelling che ti aiuti a orientarti facilmente nel tuo wallet.
-Un criterio fondamentale nel labelling è la provenienza dell'UTXO. Dovresti semplicemente indicare come questo UTXO è arrivato nel tuo wallet. Proviene da un'exchange? Dal pagamento di una fattura da parte di un cliente? Da uno scambio peer-to-peer? O rappresenta il resto di un acquisto? Così, potresti specificare:
+Un criterio fondamentale nel labelling è la provenienza dell'UTXO. Dovresti semplicemente indicare come questo UTXO è arrivato nel tuo wallet. Proviene da un'exchange? Dal pagamento di una fattura da parte di un cliente? Da uno scambio peer-to-peer? Rappresenta il resto di un acquisto? Così, potresti specificare:
 
 - "Prelievo Exchange.com";
 - "Pagamento Cliente David";
 - "Acquisto P2P Charles";
 - "Resto dall'acquisto del divano".
-- 
+
 ![labelling](assets/it/1.webp)
 
 Per gestire meglio i tuoi UTXO e organizzare in modo più efficiente i fondi nel wallet, puoi aggiungere alle etichette un indicatore che ne evidenzi la funzione. Se hai UTXO destinati a usi diversi e preferisci non mescolarli, puoi includere un identificatore per distinguerli facilmente.
 
 Questi indicatori dipenderanno dai tuoi criteri, come la distinzione tra UTXO KYC (associati alla tua identità) e no-KYC (anonimi), o tra fondi professionali e personali. Riprendendo gli esempi delle etichette precedentemente menzionate:
 
-- "KYC - Prelievo Exchange.com";
-- "KYC - Pagamento Cliente David";
-- "NO KYC - Acquisto P2P Charles";
-- "NO KYC - Resto dall'acquisto del divano".
+- `KYC - Prelievo Exchange.com`;
+- `KYC - Pagamento Cliente David`;
+- `NO KYC - Acquisto P2P Charles`;
+- `NO KYC - Resto dall'acquisto del divano`.
 
-In ogni caso, tieni presente che un'etichetta valida è quella che saraiin grado di comprendere quando ne avrai bisogno. Se il wallet è principalmente destinato al tenere i fondi di risparmio, potrebbe essere che le etichette siano utili solo tra diversi anni. Assicurati dunque che siano chiare, precise e complete.
+In ogni caso, tieni presente che un'etichetta valida è quella che sarai in grado di comprendere quando ne avrai bisogno. Se il wallet è principalmente destinato al tenere i fondi di risparmio, potrebbe essere che le etichette siano utili solo tra diversi anni. Assicurati dunque che siano chiare, precise e complete.
 
 È inoltre consigliabile mantenere l'identificatore di un UTXO attraverso le transazioni. Ad esempio, durante un consolidamento di UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come "consolidamento", ma specificamente come "consolidamento no-KYC" per mantenere una traccia chiara dell'origine dell'UTXO.
 
@@ -50,41 +50,66 @@ Infine, non è necessario apporre la data su un'etichetta. La maggior parte dei 
 
 Su Specter Desktop, nella schermata principale del tuo wallet, seleziona la scheda "Addresses".
 
+![labelling](assets/notext/3.webp)
+
 Qui vedrai l’elenco di tutti i tuoi indirizzi, con gli eventuali bitcoin ad essi associati. Di default, gli indirizzi sono identificati dall’indice numerico visualizzato nella colonna "Label". Per modificare un’etichetta:
 
 Clicca sull’etichetta corrente.
 Inserisci la nuova etichetta desiderata.
 Conferma cliccando sull’icona blu.
 
+![labelling](assets/notext/4.webp)
+
 L’etichetta apparirà subito nell’elenco.
 
+![labelling](assets/notext/5.webp)
+
 Puoi anche assegnare un’etichetta in anticipo, quando condividi un indirizzo di ricezione. Per farlo, vai nella scheda "Receive" e inserisci l’etichetta nell’apposito campo prima di generare o condividere l’indirizzo.
+
+![labelling](assets/notext/6.webp)
 
 ## Tutorial: il Labelling su Electrum
 
 Su Electrum, dopo aver effettuato l’accesso, vai nella scheda "History" e clicca sulla transazione a cui vuoi assegnare un’etichetta.
 
+![labelling](assets/notext/7.webp)
+
 Si aprirà una finestra: clicca sulla casella "Description" e digita l’etichetta desiderata.
+
+![labelling](assets/notext/8.webp)
 
 Una volta inserita l’etichetta, chiudi la finestra: la modifica verrà salvata automaticamente.
 
+![labelling](assets/notext/9.webp)
+
 Troverai la tua etichetta associata alla transazione nella colonna "Description" della scheda "History".
 
+![labelling](assets/notext/10.webp)
+
 Nella scheda "Coins", dove puoi eseguire il controllo degli UTXO, l’etichetta è visualizzata nella colonna "Label".
+
+![labelling](assets/notext/11.webp)
 
 ## Tutorial: Il Labelling su Green Wallet
 
 Nell'app di Green, accedi al tuo wallet e seleziona la transazione che vuoi etichettare. Clicca ora sulla piccola icona della matita per annotare la tua etichetta.
 
+![labelling](assets/notext/12.webp)
+
 Digita la tua etichetta, poi clicca sul pulsante verde "Save".
 
+![labelling](assets/notext/13.webp)
+
 Sarai in grado di trovare la tua etichetta sia nei dettagli della transazione che nella schermata principale del tuo wallet.
+
+![labelling](assets/notext/14.webp)
 
 ## Tutorial: Il Labelling su Samourai Wallet
 
 Su Samourai, esistono diversi metodi per assegnare un’etichetta a una transazione.
-
 Il primo metodo consiste nell'aprire il tuo wallet e selezionare la transazione a cui desideri aggiungere un’etichetta. Poi premi il pulsante "Add", situato accanto alla casella "Notes".
+
+![labelling](assets/notext/15.webp)
 
 Digita la tua etichetta e conferma cliccando sul pulsante blu "Add".
 

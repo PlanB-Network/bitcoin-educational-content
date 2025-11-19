@@ -1,6 +1,6 @@
 ---
-name: Mempool
-description: Esplorate l'intero ecosistema Bitcoin.
+nome: Mempool
+descrizione: Esplorate l'intero ecosistema Bitcoin.
 ---
 
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ description: Esplorate l'intero ecosistema Bitcoin.
 Il protocollo Bitcoin è una rete pseudonima, decentralizzata e aperta alla consultazione. I membri (nodi), cioè i computer che possiedono un'istanza del software Bitcoin, hanno accesso illimitato a tutti i dati pubblicati su Bitcoin. Tuttavia, nei primi anni di vita di Bitcoin, il protocollo non era così ampiamente accessibile come lo è oggi.
 
 
-Nei primi tempi di Bitcoin, era necessario far funzionare un nodo Bitcoin per poter accedere agli strumenti appropriati (bitcoin-cli) per interrogare la rete da linee di comando.
+Nei primi tempi di Bitcoin, era necessario far funzionare un nodo Bitcoin per poter accedere agli strumenti appropriati (bitcoin-cli) per interrogare la rete da terminale.
 
 
 
@@ -18,7 +18,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Sono stati quindi lanciati dei progetti per espandere la comunità Bitcoin, rendendola più accessibile a tutti coloro che non possiedono un nodo e/o non hanno le competenze tecniche necessarie.
+Per qusto, sono stati avviati dei progetti per espandere la comunità Bitcoin, rendendola più accessibile a tutti coloro che non possiedono un nodo e/o non hanno le competenze tecniche necessarie.
 
 
 
@@ -26,48 +26,48 @@ In questa esercitazione esamineremo il progetto **Mempool.space**, le sue caratt
 
 
 
-## Che cos'è il Mempool.space?
+## Che cos'è Mempool.space?
 
 
 
-**Mempool.space** è un explorer open-source che fornisce informazioni utili sulle transazioni, sulle tariffe delle transazioni, sui blocchi e sui minatori delle varie reti del protocollo Bitcoin. Lanciato nel 2020, migliora notevolmente l'esperienza dell'utente grazie a una grafica rappresentativa, ad animazioni fluide e a interfacce non complesse.
+**Mempool.space** è un explorer open-source che fornisce informazioni utili sulle transazioni, sulle tariffe delle transazioni, sui blocchi e sui miner delle varie reti del protocollo Bitcoin. Lanciato nel 2020, migliora notevolmente l'esperienza dell'utente grazie ad una grafica rappresentativa, ad animazioni fluide ed interfacce semplici.
 
 
 
-Per comprendere il progetto, un Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. Un Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, il che spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
+Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. La Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
 
 
 
-L'impatto principale della piattaforma nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin senza doverne eseguire uno. Mempool.space è un repository per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
+L'impatto principale della piattaforma Mempool.space nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin, senza doverne eseguire uno. Mempool.space è un archivio per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
 
 
 
-L'uso sempre più diffuso nell'ecosistema e il fatto che Mempool.space sia open source hanno permesso di integrarlo in un numero sempre maggiore di sistemi di hosting personali. Ora è possibile avere una propria istanza di Mempool.space direttamente sul proprio nodo personale. Vedere il nostro tutorial sulla configurazione di Mempool.space sul vostro nodo Umbrel.
+Essendo open source, Mempool.space ha visto una crescente diffusione nell'ecosistema, facilitando la sua integrazione in un numero sempre maggiore di sistemi di hosting personali. Ora è possibile avere una propria istanza di Mempool.space direttamente sul proprio nodo personale. Guarda il nostro tutorial su come configurare Mempool.space sul tuo nodo Umbrel.
 
 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-## Le basi dello spazio Mempool
+## I fondamenti di Mempool.space
 
 
 
-Come già accennato, [Mempool.space](https://Mempool.space) è un esploratore di protocolli Bitcoin che consente di monitorare le transazioni e la loro propagazione sulla rete Bitcoin scelta in tempo reale, da un Interface grafico.
+Come già accennato, [Mempool.space](https://Mempool.space) è un explorer di protocolli Bitcoin che consente di monitorare, da un'interfaccia grafica, le transazioni e la loro propagazione sulla rete Bitcoin in tempo reale.
 
 
 
-Lo spazio Mempool.supporta molte reti di protocollo Bitcoin.
+Mempool.space supporta molte reti del protocollo Bitcoin.
 
 
-Nella barra dei menu si trovano le seguenti reti:
+Nella barra dei menù si trovano le seguenti reti:
 
 
 
 
-- **Mainnet**: La rete Bitcoin principale dove avvengono le transazioni Bitcoin reali.
-- **Signet**: Una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale.
-- **Testnet 3**: Una rete di test e sviluppo priva di rischi sul protocollo Bitcoin.
-- **Testnet 4**: La nuova versione di Testnet 3 apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
+- **Mainnet**: la rete Bitcoin principale dove avvengono le transazioni Bitcoin reali;
+- **Signet**: una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale;
+- **Testnet 3**: una rete di test e sviluppo priva di rischi sul protocollo Bitcoin;
+- **Testnet 4**: la nuova versione di Testnet 3, apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
 
 
 
@@ -75,10 +75,10 @@ Nella barra dei menu si trovano le seguenti reti:
 
 
 
-Sulla home page, a sinistra in Green, vedrete i possibili blocchi futuri (gruppi di transazioni) pronti per essere convalidati e integrati (minati) nella rete Bitcoin. In media, un blocco viene estratto ogni dieci minuti: conservate questa informazione, perché vi tornerà utile più avanti nel nostro sviluppo.
+Sulla home page, a sinistra in verde, vedrai i possibili futuri blocchi (gruppi di transazioni) pronti per essere convalidati e integrati (minati) nella rete Bitcoin. In media, un blocco viene minato ogni dieci minuti: conservate questa informazione, perché vi tornerà utile più avanti.
 
 
-In viola, sul lato destro, troverete i blocchi recenti estratti su Bitcoin, con il numero dell'ultimo blocco estratto che rappresenta l'altezza attuale della rete.
+In viola, sul lato destro, troverete i recenti blocchi minati su Bitcoin, con il numero dell'ultimo blocco minato che rappresenta l'altezza attuale della rete.
 
 
 
@@ -86,14 +86,14 @@ In viola, sul lato destro, troverete i blocchi recenti estratti su Bitcoin, con 
 
 
 
-La sezione **Transaction Fees** è una stima delle commissioni di transazione. Più alte sono le commissioni assegnate alla transazione, più è probabile che la transazione venga aggiunta al blocco successivo pronto per essere estratto.
+La sezione **Transaction Fees** è una stima delle commissioni di transazione. Più alte sono le commissioni assegnate alla transazione, più è probabile che la transazione venga aggiunta al blocco successivo pronto per essere minato.
 
 
-Le commissioni di transazione rappresentano il costo che un Miner richiede all'utente per inserire la sua transazione in un blocco candidato per il Mining. È definita da un rapporto sat/vB (Satoshi/Virtual Bytes) che rappresenta il numero di satoshis pagati per lo spazio che la transazione occuperà nel blocco candidato.
+Le commissioni di transazione rappresentano il costo che un miner richiede all'utente per inserire la sua transazione in un blocco candidato per il mining. La commissione è definita da un rapporto sat/vB (Satoshi/Virtual Bytes) che rappresenta il numero di satoshi pagati per lo spazio che la transazione occuperà nel blocco candidato.
 
 
 
-⚠️ IMPORTANTE: in caso di saturazione del Mempool, i minatori danno priorità alle transazioni che offrono il miglior rapporto Satoshi/vByte. Più pesante (grande) è la transazione, più satoshi saranno necessari per essere inclusi rapidamente.
+⚠️ IMPORTANTE: in caso di saturazione della Mempool, i miner danno priorità alle transazioni che offrono il miglior rapporto Satoshi/vByte. Più pesante (grande) è la transazione, più satoshi saranno necessari per essere inclusi rapidamente.
 
 
 
@@ -109,7 +109,7 @@ La sezione **Mempool Goggles** consente di visualizzare lo spazio occupato da un
 
 
 
-Un blocco viene estratto ogni dieci minuti circa a causa della difficoltà del Proof of Work che i minatori devono fornire per aggiungere il loro blocco candidato alla catena di blocchi estratti. Questa difficoltà varia ogni **2016 blocchi**, equivalente a circa **2 settimane**. È possibile vedere l'evoluzione di questa difficoltà qui.
+Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof Of Work che i miner devono fornire per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi**, equivalente a circa **2 settimane**. È possibile vedere l'evoluzione di questa difficoltà qui.
 
 
 
@@ -117,7 +117,7 @@ Un blocco viene estratto ogni dieci minuti circa a causa della difficoltà del P
 
 
 
-L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi**, equivalente a circa 4 anni** di dimezzamento) e dalle commissioni di transazione.
+L'aggiunta di un nuovo blocco alla catena principale dà diritto al miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi, **equivalente a circa 4 anni** ) e dalle commissioni delle transazioni.
 
 
 
@@ -125,12 +125,11 @@ L'aggiunta di un nuovo blocco alla catena principale dà diritto al Miner del bl
 
 
 
-## Accedere ai dettagli della transazione
+## Accedi ai dettagli delle tue transazioni
 
 
 
-Nella barra di ricerca di Mempool.space, è possibile inserire il proprio Bitcoin Address o il proprio transaction ID per saperne di più sulla propria storia.
-
+Nella barra di ricerca di Mempool.space, è possibile inserire il proprio indirizzo Bitcoin o il proprio ID della transazione per ottenere ulteriori informazioni sulla tua cronologia.
 
 
 ![search](assets/fr/07.webp)
@@ -142,9 +141,9 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-- **Stato**: Confermato quando viene aggiunto a un blocco, non confermato quando è in attesa in un Mempool.
-- **Spese di transazione**.
-- **Tempo stimato di arrivo (ETA)**: Il tempo approssimativo necessario affinché la transazione venga aggiunta a un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
+- **stato**: confermato quando viene aggiunto a un blocco, non confermato quando è in attesa nella Mempool;
+- **spese di transazione**;
+- **Estimated Time of Arrival, ETA (tempo stimato di arrivo)**: il tempo approssimativo necessario affinché la transazione venga aggiunta ad un blocco. Il calcolo si basa sulla proporzione tra queste commissioni.
 
 
 
@@ -152,11 +151,11 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-La sezione **Flusso** mostra un grafico dei componenti della transazione.
+La sezione **Flow** mostra un grafico dei componenti della transazione.
 
 
 
-Gli input (UTXO precedenti), utilizzati per la transazione, e gli output che danno ai destinatari il diritto di utilizzare i bitcoin di ciascun output presentando la firma richiesta per la loro spesa.
+Gli input (UTXO precedenti) utilizzati nella tua transazione, insieme agli output, conferiscono ai destinatari il diritto di utilizzare i bitcoin contenuti in ciascun output, presentando la firma necessaria per poterli spendere.
 
 
 
@@ -164,7 +163,7 @@ Gli input (UTXO precedenti), utilizzati per la transazione, e gli output che dan
 
 
 
-Per maggiori dettagli sugli indirizzi utilizzati, consultare la sezione **Ingressi e uscite**.
+Per maggiori dettagli sugli indirizzi utilizzati, consultare la sezione **Inputs & Outputs**.
 
 
 
@@ -182,7 +181,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Nell'ecosistema Bitcoin, l'aspetto della convalida delle transazioni da parte dei minatori è intrinsecamente legato alle commissioni associate alla transazione. I minatori danno priorità alle transazioni con un rapporto di commissioni più elevato (satoshis/vByte), il che potrebbe influire sulla validità della transazione se non si pagano commissioni ragionevoli accettate dai minatori. La transazione rimarrebbe bloccata in Mempool in attesa di un blocco che accetti il suo rapporto di commissioni.
+Nell'ecosistema Bitcoin, l'aspetto della convalida delle transazioni da parte dei miner è strettamente legato alle commissioni associate. I miner  tendono a prioritizzare le transazioni con un rapporto di commissioni più elevato (satoshis/vByte), il che può influire sulla validità della transazione se non si pagano commissioni ragionevoli accettate da loro. La transazione potrebbe rimaner bloccata nella Mempool in attesa di un blocco che accetti il suo rapporto di commissioni.
 
 
 
@@ -192,11 +191,11 @@ Fortunatamente, sulla rete Bitcoin sono disponibili due metodi per accelerare la
 
 
 
-- **RBF** - Sostituzione per tassa: Un metodo che consente di spendere le stesse voci della transazione a tariffa ridotta, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente e inserita in un blocco, invalidando la transazione a tariffa ridotta.
+- **RBF** - Replacement By Fee: un metodo che consente di spendere gli stessi elementi della transazione con basse commissioni, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente ed inserita in un blocco, invalidando la transazione iniziale con commissioni più basse.
 
 
 
-È possibile effettuare un'azione di sostituzione delle commissioni con i portafogli che accettano questo meccanismo. Ad esempio, si veda il nostro articolo sul portafoglio Blue Wallet.
+È possibile effettuare Replace By Fee (RBF) con i wallet che integrano questo meccanismo. Ad esempio, leggi il nostro articolo Blue Wallet.
 
 
 
@@ -204,7 +203,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- **CPFP** - Child pay for parent: Un approccio ispirato al RBF, ma dal lato del destinatario. Quando la transazione di cui si è destinatari viene bloccata in un Mempool, si ha la possibilità di spendere gli output (UTXO) di questa transazione, nonostante non sia ancora stata confermata, assegnando più commissioni a questa nuova transazione in modo che le commissioni medie - della transazione di cui si è destinatari e della transazione avviata - incoraggino i minatori a includere entrambe le transazioni in un blocco.
+- **CPFP** - Child Pay For Parent: un approccio ispirato a RBF, ma applicato dal punto di vista del destinatario. Quando una transazione che ci coinvolge viene bloccata nella Mempool, abbiamo l'opportunità di utilizzare gli output (UTXO) di questa transazione, anche se non è ancora stata confermata. Per farlo, si crea una nuova transazione con commissioni più elevate, affinchè la media delle commissioni risulti superiore per entrambe le transazioni, incentivando i miner ad includere le due transazioni in un blocco.
 
 
 
@@ -212,42 +211,40 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Se tutti questi termini vi sembrano un po' troppo tecnici, vi consiglio di [consultare il nostro glossario](https://planb.academy/resources/glossary), che contiene le definizioni di tutti i termini tecnici relativi al Bitcoin e al suo ecosistema.
+Se tutti questi termini vi sembrano un po' troppo tecnici, vi consiglio di [consultare il nostro glossario](https://planb.academy/resources/glossary), che contiene le definizioni di tutti i termini tecnici relativi a Bitcoin ed al suo ecosistema.
 
 
 
-Oltre a questi metodi, Mempool.space, grazie alle sue connessioni con oltre l'80% dei minatori presenti sulla rete Bitcoin, consente anche di accelerare qualsiasi transazione **non confermata**, anche quelle che non attivano il RBF, pagando un corrispettivo ai minatori del Exchange per inserire la transazione a basso costo nel blocco successivo pronto per essere estratto.
+Oltre a questi metodi, Mempool.space, grazie alle sue connessioni con oltre l'80% dei miner presenti sulla rete Bitcoin, consente di accelerare qualsiasi transazione **non confermata**, anche quelle che non attivano RBF, pagando un corrispettivo ai miner in cambio puoi avere la tua transazione minata nel blocco successivo.
 
 
-
-Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**, quindi procedere al pagamento della controparte ai minatori.
+Nella pagina dei dettagli della transazione, fare clic sul pulsante **Accelera**, quindi procedere al pagamento della controparte ai miner.
 
 
 
 ![accelerate-section](assets/fr/11.webp)
 
 
-## Minori
+## Miner
 
 
-
-Un Miner si riferisce a una persona che gestisce una miniera, ossia un computer impegnato nel processo Mining, che consiste nel partecipare al Proof-of-Work. Il Miner raggruppa le transazioni in sospeso nel suo Mempool per formare un blocco candidato. Cerca quindi un Hash valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando i vari nonces. Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e intasca la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin ex-nihilo) e dalla commissione di transazione.
+Per miner ci riferiamo ad una persona che gestisce computer impegnati nel processo di mining; un processo che implica la partecipazione alla Proof-Of-Work. Il miner, raggruppa le transazioni in sospeso nella sua Mempool per formare un blocco candidato. Cerca un Hash (funzione matematica che prende un input di dimensione variabile e produce un output di dimensione fissa) valido, inferiore o uguale all'obiettivo, per l'intestazione di questo blocco modificando il nonce (valore modificabile dal miner per trovare un hash crittografico che sia inferiore o uguale al target di difficoltà). Se trova un Hash valido, trasmette il blocco alla rete Bitcoin e riceve la ricompensa pecuniaria associata, composta dalla sovvenzione del blocco (creazione di nuovi bitcoin) e dalla commissione di transazione.
 
 
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-i minatori sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (il Proof-of-Work). Il primo Miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
+I miner sono come "validatori" che verificano e raggruppano le transazioni in blocchi. Per aggiungere un nuovo blocco alla rete Bitcoin, devono risolvere un complesso puzzle matematico (la Proof-Of-Work). Il primo miner che risolve il puzzle vince una ricompensa Bitcoin (sovvenzione del blocco + commissioni per le transazioni incluse nel blocco).
 
 
 
-La difficoltà di questo Proof of Work viene monitorata, consentendo di visualizzare l'evoluzione della potenza di calcolo richiesta ai minatori. Nelle sezioni seguenti troverete :
+La difficoltà della Proof Of Work viene monitorata, consentendo di visualizzare l'evoluzione della potenza di calcolo richiesta ai miner. Nelle sezioni seguenti troverete:
 
 
 
 
 
-- Una stima delle ricompense totali raccolte dai minatori durante l'ultimo aggiustamento della difficoltà, nonché una stima del prossimo Halving della concessione dei blocchi, che si verifica ogni 210.000 blocchi (circa 04 anni).
+- una stima delle ricompense totali raccolte dai miner durante l'ultimo aggiustamento della difficoltà, insieme ad una stima della data del prossimo Halving, che si verifica ogni 210.000 blocchi (circa 4 anni).
 
 
 
@@ -255,10 +252,10 @@ La difficoltà di questo Proof of Work viene monitorata, consentendo di visualiz
 
 
 
-Questa difficoltà viene modificata ogni 2016 blocchi (circa due settimane). È inversamente proporzionale al tempo medio impiegato dai minatori per Miner ogni 2016 blocchi.
+Questa difficoltà viene modificata ogni 2016 blocchi (circa due settimane). È inversamente proporzionale al tempo medio impiegato dai miner per minare ogni 2016 blocchi.
 
 
-Quando il tempo medio impiegato dai minatori è inferiore a 10 minuti, la difficoltà aumenta, dimostrando che per i minatori era più facile convalidare i blocchi Miner. Al contrario, quando il tempo medio impiegato è superiore a 10 minuti, la difficoltà diminuisce.
+Quando il tempo medio impiegato dai miner è inferiore a 10 minuti, la difficoltà aumenta, al contrario, quando il tempo medio impiegato è superiore a 10 minuti, la difficoltà diminuisce.
 
 
 
@@ -268,7 +265,7 @@ Quando il tempo medio impiegato dai minatori è inferiore a 10 minuti, la diffic
 
 
 
-- Gruppi di minatori: Data la difficoltà, un gruppo di minatori collabora per aiutare a trovare il Proof of Work sul Bitcoin, in quello che chiamiamo un **pool**. Quando un blocco viene estratto dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun Miner, ovvero al contributo in termini di potenza di calcolo nella ricerca del Proof-of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
+- Gruppi di miner: data la difficoltà, gruppi di miner collaborano per aiutare a risolvere la Proof Of Work, questi gruppi si chiamano **pool**. Quando un blocco viene minato dal gruppo, la ricompensa ottenuta viene distribuita in base alla percentuale di successo nella ricerca della soluzione parziale di ciascun miner, ovvero al contributo in termini di potenza di calcolo nella ricerca della Proof-Of-Work, oppure in base al metodo di remunerazione concordato dalla collaborazione.
 
 
 
@@ -282,7 +279,7 @@ Quando il tempo medio impiegato dai minatori è inferiore a 10 minuti, la diffic
 
 
 
-Mempool non si limita a fornire informazioni sull'infrastruttura di rete di Bitcoin (catena principale). Integra anche strumenti di visualizzazione ed esplorazione per l'overlay Lightning di Bitcoin.
+Mempool.space non si limita a fornire informazioni sull'infrastruttura di rete di Bitcoin (main chain), integra anche strumenti di visualizzazione ed esplorazione per la rete Lightning di Bitcoin.
 
 
 
@@ -294,13 +291,13 @@ Nella sezione **Lightning** è possibile visualizzare tutte le connessioni esist
 
 
 
-Questo Interface fornisce informazioni su :
+Questa interfaccia fornisce informazioni su:
 
 
 
 
 
-- Statistiche Lightning Network.
+- statistiche Lightning Network.
 
 
 
@@ -309,13 +306,13 @@ Questo Interface fornisce informazioni su :
 
 
 
-⚠️ **IMPORTANTE**: La capacità di un canale di pagamento indica l'importo massimo che un nodo può inviare a un altro nodo durante una transazione Lightning.
+⚠️ **IMPORTANTE**: la capacità di un canale di pagamento indica l'importo massimo che un nodo può inviare ad un altro nodo durante una transazione Lightning.
 
 
 
 
 
-- I nodi lightning sono assegnati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento.
+- I nodi Lightning sono configurati in base al provider di servizi Internet (servizio di hosting) e, facoltativamente, in base alla capacità del canale di pagamento.
 
 
 
@@ -336,20 +333,20 @@ Troverete anche una classifica di questi nodi in base alla capacità dei loro ca
 
 
 
-## Più grafica
+## Diversi grafici
 
 
 
-Mempool.space è la piattaforma ideale per godere dell'interazione con le reti del protocollo Bitcoin. I grafici non solo forniscono dati visivi che aiutano a decidere quando effettuare le transazioni, ma anche parametri precisi che consentono di visualizzare, in tempo reale, la forza e la salute della rete Bitcoin e delle infrastrutture Lightning associate.
+Mempool.space è la piattaforma ideale per esplorare le interazioni del protocollo Bitcoin. I grafici forniscono dati visivi che aiutano a decidere quando effettuare le transazioni ed anche parametri precisi che consentono di visualizzare, in tempo reale, la robustezza e la salute della rete Bitcoin e delle infrastrutture Lightning associate.
 
 
 
-Nella sezione **Grafica** si possono visualizzare i dati essenziali della rete Bitcoin:
+Nella sezione **Graphics** si possono visualizzare i dati essenziali della rete Bitcoin:
 
 
 
 
-- Evoluzione delle dimensioni del Mempool: È possibile osservare la fluttuazione delle dimensioni del Mempool, che può indicare periodi di alta o bassa attività sulla rete.
+- evoluzione delle dimensioni della Mempool: è possibile osservare la fluttuazione delle dimensioni della Mempool, che indica periodi di alta o bassa attività sulla rete;
 
 
 
@@ -360,7 +357,7 @@ Nella sezione **Grafica** si possono visualizzare i dati essenziali della rete B
 
 
 
-- L'evoluzione delle transazioni e delle commissioni di transazione sulla rete scelta: Tracciando le variazioni delle transazioni al secondo, è possibile anticipare i periodi di congestione o di scarsa attività e ottimizzare le commissioni di transazione. Questo grafico fornisce una prospettiva sulla capacità della rete di gestire il volume delle transazioni.
+- l'evoluzione delle transazioni e delle commissioni di transazione sulla rete selezionata: tracciando le variazioni delle transazioni al secondo, è possibile anticipare i periodi di congestione o di scarsa attività e ottimizzare le commissioni per la tua transazione. Questo grafico ti fornisce una prospettiva sulla capacità della rete di gestire il volume delle transazioni.
 
 
 
@@ -368,7 +365,7 @@ Nella sezione **Grafica** si possono visualizzare i dati essenziali della rete B
 
 
 
-Ora che siete arrivati alla fine del vostro viaggio su Mempool.space, diventate il vostro esploratore personale e seguite le vostre transazioni in tempo reale. Di seguito trovate il nostro articolo sull'esploratore della **Piscina pubblica** di Bitcoin.
+Ora che siete arrivati alla fine del vostro viaggio su Mempool.space, diventate il vostro esploratore personale e seguite le vostre transazioni in tempo reale. Di seguito trovi il nostro articolo sul **Public Pool** explorer di Bitcoin.
 
 
 

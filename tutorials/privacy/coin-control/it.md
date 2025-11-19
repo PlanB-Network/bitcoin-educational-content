@@ -1,6 +1,6 @@
 ---
-name: Coin Control
-description: Scopri Coin Control, uno strumento fondamentale per proteggere la tua privacy su Bitcoin
+nome: Coin Control
+descrizione: Scopri Coin Control, uno strumento fondamentale per proteggere la tua privacy su Bitcoin
 ---
 ![cover](assets/cover.webp)
 
@@ -10,13 +10,13 @@ description: Scopri Coin Control, uno strumento fondamentale per proteggere la t
 
 La solidità del protocollo Bitcoin è garantita da concetti cardine semplici. Tra questi, spicca la trasparenza: tutte le transazioni Bitcoin sono pubbliche e facilmente verificabili da chiunque. Sebbene questa caratteristica sia una pietra miliare del protocollo, perché previene frodi e garantisce la genuinità dei fondi, può rappresentare anche una sfida per la confidenzialità. **Ti sei domandato se tanta trasparenza può inficiare la tua privacy?**
 
-Dovresti farlo. Se da una parte accumulare satoshi non-kyc è piuttosto semplice, la tua privacy è maggiormente a rischio proprio nella fase si spesa.
+Dovresti farlo. Se da una parte accumulare satoshi non-kyc è piuttosto semplice, la tua privacy è maggiormente a rischio proprio nella fase di spesa.
 
 ### Cosa succede quando spendi un UTXO
 
-Spendere Bitcoin non è semplicemente il trasferimento di valore a qualcun altro. 
+Spendere Bitcoin non è semplicemente trasferire valore a qualcun altro. 
 
-Consumando uno dei tuoi UTXO, devi infatti soddisfare le condizioni imposte per la trasparenza del protocollo, perché hai l'obbligo di dimostrare che sei proprietario di quei fondi. Ti fai pertanto carico di :
+Consumando uno dei tuoi UTXO, devi soddisfare le condizioni imposte per la trasparenza del protocollo, hai lìobbligo di dimostrare che sei proprietario di quegli UTXO. Ti fai pertanto carico di:
 - esporre la tua chiave pubblica;
 - produrre una firma digitale.
 
@@ -32,7 +32,7 @@ Con Bitcoin ciò che accumuli e in seguito spenderai, sono piccole o grandi unit
 
 I software wallet sono sviluppati per fare questa scelta in maniera automatica, utilizzando coins selezionate in maniera "casuale", adottando alcuni algoritmi previsti dal protocollo. L'unico criterio che questi algoritmi soddisfano, è quello di coprire l'importo necessario alla spesa. 
 
-Possono mischiare tra loro UTXO di diversa età, oppure privilegiare la spesa del più recente o più "anziano", a seconda dell'algoritmo scelto dagli sviluppatori. I migliori software wallet, prevedono anche di lasciare all'utente una scelta importante.
+I wallet possono mischiare tra loro UTXO di diversa età, oppure privilegiare la spesa del più recente o più "anziano", a seconda dell'algoritmo scelto dagli sviluppatori. I migliori software wallet, prevedono anche di lasciare all'utente una scelta importante.
 
 Il `Coin Control`manuale, che puoi trovare anche denominato `Coin Selection`, è una funzione caratteristica di alcuni software wallet, che ti permette di **selezionare manualmente gli UTXO da spendere quando costruisci la tua transazione**.
 
@@ -109,7 +109,7 @@ Dopo l'introduzione tecnica dei `perché`, vediamo come mettere in pratica il co
 
 Se usi Sparrow, apri il tuo wallet e seleziona _UTXOs_ dal menu a sinistra. Ti comparirà la lista dei tutti gli UTXO associati al tuo wallet.
 
-Clicca semplicemente con il mouse su uno di loro e poi scegli _Send Selected_. Sparrow ti mostra anche il totale disponibile per la spesa dopo la selezione, proprio accanto al comando. Graficamente Sparrow ti mostra l'UTXO selezionato evidenziandolo in blu.
+Clicca con il mouse su uno di loro e poi scegli _Send Selected_. Sparrow ti mostra anche il totale disponibile per la spesa dopo la selezione, proprio accanto al comando. Graficamente Sparrow ti mostra l'UTXO selezionato evidenziandolo in blu.
 
 ![img](assets/en/07.webp)
 

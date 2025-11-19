@@ -1,6 +1,6 @@
 ---
-nome: Mempool
-descrizione: Esplorate l'intero ecosistema Bitcoin.
+name: Mempool
+description: Esplorate l'intero ecosistema Bitcoin.
 ---
 
 ![cover](assets/cover.webp)

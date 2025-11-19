@@ -1,15 +1,14 @@
 question: Dlaczego warto kupować bitcoiny bez KYC?
 answer: Aby zapewnić prywatność użytkownika.
 wrong_answers:
-  - Aby zapewnić rejestrację wszystkich użytkowników Bitcoin.
-  - Aby kupić po niskiej cenie.
-  - Aby sprzedać po niskiej cenie.
+  - Aby zapewnić rejestrację wszystkich użytkowników Bitcoina.
+  - Aby kupować po niskiej cenie.
+  - Aby sprzedawać po niskiej cenie.
 explanation: |
   Kupowanie bitcoinów bez KYC oznacza nabywanie bitcoinów bez
-  przechodzenia przez standardowe procedury weryfikacji
-  których wymaga wiele giełd i platform
-  wymaga. Jednym z głównych powodów, dla których osoby fizyczne
-  jest zachowanie prywatności, zapewniając, że ich
+  przechodzenia przez standardowe procedury weryfikacji,
+  których wymaga wiele giełd i platform. Jednym z głównych powodów, dla których osoby fizyczne powinny kupować bitcoiny bez KYC,
+  jest zachowanie prywatności i zapewnienie, że ich
   dane osobowe i działalność finansowa pozostają
   nieujawnione.
 reviewed: true

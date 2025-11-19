@@ -41,8 +41,6 @@ OpenTimestamps fournit ce service gratuitement grâce à une méthode très effi
 
 Une fois cette transaction incluse dans un bloc, quiconque possédant le fichier initial et le fichier `.ots` qui lui est associé peut vérifier l'authenticité de l'horodatage. Dans la seconde partie de ce tutoriel, nous verrons comment vérifier votre certificat de test ₿-CERT ou tout diplôme de fin de cours avec un terminal et avec une interface graphique via le site web d'OpenTimestamps.
 
-# Comment vérifier un certificat ou un diplôme de Plan ₿ Academy
-
 ## Étape 1 : Téléchargez votre certificat ou diplôme
 
 Connectez-vous à votre tableau de bord sur [Plan ₿ Acadmy](https://planb.academy/fr/certifications/certificates).

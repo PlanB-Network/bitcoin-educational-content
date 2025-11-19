@@ -71,8 +71,8 @@ Nella prossima schermata, seleziona il "pennino" in alto a destra, per entrare n
 
 ![image](assets/en/12.webp)
 
-Ti compariranno tutti i dettagli sensibili del tuo account, tra cui il numero di telefono e due campi vuoti: _Bio_  e  _Username_.
-**Cliccando su ognuno, puoi compilarli con le tue scelte**.
+Ti compariranno tutti i dettagli sensibili del tuo account, tra cui il numero di telefono e due campi vuoti: _Bio_ e _Username_.
+**Cliccando su ognuno di essi, puoi compilarli con le tue scelte**.
 Configurando lo _Username_, Telegram ti avverte se l'handle è disponibile oppure no.
 (Anche in questo caso, lo screenshot è preso da un telefono con lo username già configurato).
 
@@ -80,13 +80,13 @@ Clicca su _Set Username_ (qui _Change Username_ per il motivo appena esposto)
 
 ![image](assets/en/13.webp)
 
-e configura il tuo handle, poi salva cliccando sul segno ✅ in alto a destra.
+E configura il tuo handle, poi salva cliccando sul segno ✅ in alto a destra.
 
 ![image](assets/en/14.webp)
 
 Nella maggior parte dei gruppi e canali Telegram, questo username è richiesto come prerequisito per l'accesso. Per gli amministratori di tali gruppi, infatti, è uno dei modi per tenere lontani i bot e lo spam.
 
-⚠️ Devi sempre controllare l'handle di chi ti contatta in privato e non dare mai informazioni riservate come password o mnemonic phrase a nessuno, nemmeno se si spaccia per un supporto ufficiale o un aiuto (magari richiesto da te). Blocca gli utenti che ti contattano senza il tuo permesso, perché sicuramente lo fanno a scopo fraudolento.
+⚠️ Devi sempre controllare l'handle di chi ti contatta in privato e non dare mai informazioni riservate come password o mnemonic phrase a nessuno, nemmeno se si spaccia per un supporto ufficiale o un aiuto (magari richiesto da te). Blocca gli utenti che ti contattano senza il tuo permesso, perché sicuramente lo fanno a scopo fraudolento. ⚠️
 
 Come fa un impostore ad assumere l'identità di qualcun altro?
 Non può, grazie all'unicità dello username.
@@ -161,7 +161,7 @@ Si può accedere ad un menu molto avanzato, cliccando sui 3 pallini in alto a de
 
 Di default tutti, dai singoli utenti ai canali tematici, sono identificati dall'handle. Quando si ricerca qualcuno o qualcosa, è sufficiente mettere la chiocciolina `@` seguita da un nome.
 
-⚠️Attenzione: **evita di unirti a gruppi e canali senza verificarne l'autenticità**. Per trovare il canale/gruppo Telegram ufficiale di un'azienda o tematica che desideri seguire, fatti aiutare dalla sezione _Contatti_ dei siti ufficiali o da fonti altamente affidabili.
+⚠️Attenzione: **evita di unirti a gruppi e canali senza verificarne l'autenticità**. Per trovare il canale/gruppo Telegram ufficiale di un'azienda o tematica che desideri seguire, fatti aiutare dalla sezione _Contatti_ dei siti ufficiali o da fonti altamente affidabili. ⚠️
 
 ### Funzioni avanzate per i messaggi
 
@@ -197,7 +197,7 @@ La chat compare in primo piano, pronta per essere utilizzata.
 ![image](assets/en/30.webp)
 
 ***
-**(1)** _Non usare il cloud di Telegram per informazioni riservate quali password, pin, mnemoniche e dati di questo genere_.
+_**(1)** Non usare il cloud di Telegram per informazioni riservate quali password, pin, mnemoniche e dati di questo genere_.
 ***
 
 

@@ -14,7 +14,7 @@ objectives:
 # A journey through the history of coinage
 
 
-This captivating course will take you on an exploration of the fascinating evolution of money from the earliest civilizations to our current monetary system. We'll cross the ages, from Neolithic to modern times, discovering how money has shaped and been shaped by the great human civilizations. From Mesopotamian proto-money to cryptocurrencies, Lydian coins, the Renaissance florin, and the advent of central banking - this course offers a comprehensive perspective on one of the fundamental pillars of our societies.
+This captivating course explores the fascinating evolution of money, from the earliest civilizations to our current monetary system. We'll traverse the ages, from Neolithic to modern times, discovering how money has shaped—and been shaped by—the great human civilizations. From Mesopotamian proto-money and Lydian coins, to the Renaissance florin, the advent of central banking, and modern cryptocurrencies—this course offers a comprehensive perspective on one of the fundamental pillars of society.
 
 
 
@@ -31,43 +31,43 @@ This captivating course will take you on an exploration of the fascinating evolu
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
-Welcome to this course on the history of money. As the title suggests, we're going to explore the historical evolution of coins together. From the Neolithic era to the present day, we'll look at the major empires and civilizations of the past.
+Welcome to this course on the history of money. As the title suggests, we will explore the historical evolution of currencies from the Neolithic era to the present day, by examining the major empires and civilizations of the past.
 
 
-However, this course is not limited to a simple chronology of dates or historical events. Rather, our real aim is to provide an in-depth understanding of the fundamental concepts involved in the emergence of money, or rather, currencies.
+However, this course is not limited to a simple chronology of dates or historical events. Rather, our primary aim is to provide an in-depth understanding of the fundamental concepts involved in the emergence of money and monetary systems.
 
 
 ### Fundamental concepts to explore
 
 
-So we're talking about emergence: the emergence of currencies themselves, of monetary systems, of banks, of paper money, of central banks, and finally, the emergence of the current "fiat" monetary system.
+We will examine the emergence of currencies, monetary systems, banks, paper money, central banks, and finally, the current "fiat" monetary system.
 
 
-We begin our journey into proto-currencies with the emergence of debt money and units of account in Mesopotamia, as well as other systems such as dowry and blood money in primitive societies. We'll also see how real monetary systems already existed in ancient Egypt, well before the Middle Kingdom.
+We begin our journey with proto-currencies,  examining the emergence of debt money and units of account in Mesopotamia, as well as other systems like dowry and blood money in primitive societies. We'll also see how sophisticated monetary systems already existed in ancient Egypt, well before the Middle Kingdom.
 
 
-We then move on to the appearance of the first coins in Lydia, a key moment often regarded as the true beginning of money according to economics textbooks. We'll examine how these coins were able to spread thanks to the Persians, Alexander the Great, then Rome, before finally imposing themselves, dominating and collapsing.
+We then move on to the appearance of the first coins in Lydia, a key moment often regarded as the true beginning of money in economics textbooks. We'll examine how these coins spread through the empires of the Persians, Alexander the Great, and Rome, before eventually achieving dominance and then collapsing.
 
 
-From there, armed with everything we've learned, we'll take the time we need to reflect together on the very definition of money, going beyond preconceived ideas such as "money is always a debt" or "money is always a commodity". In reality, money is both a good and a social convention. In particular, we will discuss the concept of the money premium and attempt to unify the various theories explaining the emergence of money.
+From there, we will take the time to reflect on the very definition of money, moving beyond preconceived notions such as "money is always a debt" or "money is always a commodity". In reality, money is both a good and a social convention. We will discuss the concept of the money premium and attempt to unify the various theories that explain the emergence of money.
 
 
 ### Key periods and monetary innovations
 
 
-We then turn to a troubled period, marked by a certain instability in monetary terms, which nevertheless saw the emergence of such striking innovations as the English penny, used to bribe Danish invaders, and Charlemagne's pound, the memory of which still persists today on some modern banknotes.
+We then turn to a turbulent period marked by monetary instability, which nevertheless saw striking innovations like the English penny—used to bribe Danish invaders—and Charlemagne's pound, the legacy of which still persists today.
 
 
-We'll also look at how the Crusades saw the emergence of the first remote money transfer systems. Then it's time to look at the impact of the Florin, the currency that accompanied the Renaissance, and the arrival of precious metals from the Americas, which had a profound effect on European prices.
+We'll also explore how the Crusades spurred the development of the first remote money transfer systems. Next, we'll look at the impact of the Florin, the currency that fueled the Renaissance, and the influx of precious metals from the Americas, which had a profound effect on European prices.
 
 
-We'll look in detail at the advent of paper money and central banking, drawing parallels with the history of financial crises and their often violent repercussions.
+We'll examine in detail the advent of paper money and central banking, drawing parallels with the history of financial crises and their often violent repercussions.
 
 
-Finally, we'll draw a parallel with our contemporary monetary system, exploring its consequences, and tracing the history of finance to better understand how we arrived at today's welfare state.
+Finally, we'll connect these historical threads to our contemporary monetary system, exploring its consequences and tracing the history of finance to better understand the origins of today's welfare state.
 
 
-And, as a bonus, we'll also look at the many fascinating etymological links related to money, which continue to affect our daily lives in different languages.
+As a bonus, we'll also uncover the many fascinating etymological links related to money that continue to influence our daily lives and languages.
 
 
 ### Course structure
@@ -76,10 +76,12 @@ And, as a bonus, we'll also look at the many fascinating etymological links rela
 This course is divided into three major parts.
 
 
-Part I looks at the emergence of money, Part II at the renaissance of money and its downfall, and Part III shows how state institutions or the state gradually took control of money, leading to the current fiat system.
+- **Part I** looks at the emergence of money.
+- **Part II** covers the renaissance of money and its downfall.
+- **Part III** shows how state institutions gradually took control of money, leading to the current fiat system.
 
 
-Thank you and enjoy!
+Thank you, and enjoy the course!
 
 
 

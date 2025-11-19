@@ -1,6 +1,6 @@
 ---
-nome: Coin Control
-descrizione: Scopri Coin Control, uno strumento fondamentale per proteggere la tua privacy su Bitcoin
+name: Coin Control
+description: Scopri Coin Control, uno strumento fondamentale per proteggere la tua privacy su Bitcoin
 ---
 ![cover](assets/cover.webp)
 

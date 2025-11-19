@@ -11,7 +11,7 @@ Ce tutoriel fournit des instructions étape par étape pour configurer, sur votr
 Si vous n'avez pas compris la partie ci-dessus, ne vous inquiétez pas, ce tutoriel est fait pour vous !
 
 ---
-## Comment faire fonctionner localement le système de gestion de la plateforme Plan₿
+## Comment faire fonctionner localement le système de gestion de la plateforme Plan ₿ Academy
 
 Ce tutoriel fournit des étapes détaillées pour configurer la plateforme, gérer les clés factices et personnaliser les dépôts. Suivez les étapes ci-dessous pour éviter les problèmes courants et configurer correctement votre environnement local.
 

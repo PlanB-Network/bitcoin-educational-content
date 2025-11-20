@@ -6,4 +6,4 @@ wrong_answers:
   - Może ubiegać się o zwrot tylko połowy dostępnych środków
 explanation: |
   W przypadku oszustwa Bob może użyć klucza odwołania, aby odzyskać wszystkie środki z kanału, tym samym karząc Alicję za jej próbę oszustwa.
-reviewed: false
+reviewed: true

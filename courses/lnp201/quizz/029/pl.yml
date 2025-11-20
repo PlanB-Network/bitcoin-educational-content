@@ -6,4 +6,4 @@ wrong_answers:
   - Gdy opłaty transakcyjne są zbyt wysokie
 explanation: |
   Wymuszone zamknięcie jest stosowane w ostateczności, gdy jedna ze stron, na przykład z powodu problemu technicznego, nie odpowiada już na wiadomości drugiej strony.
-reviewed: false
+reviewed: true

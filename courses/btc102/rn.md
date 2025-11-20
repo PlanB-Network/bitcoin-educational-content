@@ -1317,16 +1317,16 @@ Ariko ikibazo nyamukuru kiguma ari iki:
 Kugeza ubu, ukuri kumwe kuragaragara: Bitcoin iguma ari yo mahera yonyene vy’ukuri yegerejwe, adashobora gucengera, ashigikiwe n’urubuga rw’isi yose be n’ugukomeza kwemerwa. Udakunze altcoins, Bitcoin ntishigikirwa n’amashirahamwe ahurikiye hamwe canke ngo iyoborwe n’abahinguzi bakeyi n’abashoramari ba mbere. Ni wo mugambi wonyene waronse uburemere bw’amasaha ibihumbi n’ibihumbi y’ubushakashatsi, iterambere, n’ugutunganya ataco bimaze.
 
 
-| Feature               | Bitcoin                  | Altcoins (99.9% of them)       |
+| Akaranga               | Bitcoin                  | Altcoins (ibice 99.9% vy'azo)       |
 | ---------------------|--------------------------|--------------------------------|
-| **Liquidity**         | High                     | Low                            |
-| **Adoption (Real-World)** | Global and growing       | Very limited                   |
-| **Team**              | Decentralized and robust | Centralized and opaque         |
-| **Reputation**        | Strong and globally recognized        | Varies, often questionable     |
-| **Infrastructure**    | Stable and secure        | Unstable and vulnerable        |
-| **Decentralization**  | Yes                      | Rarely                         |
-| **Scam Risk**             | No                       | Very likely                    |
-| **Real utility?**     | Yes                      | Debatable                      |
+| **Ayabona**         | Kurugero rwo hejuru                     | kurugero rwo hasi                           |
+| **Gukoreshwa (Vya nyavyo)** | ikoreshwa kw'isi yose kandi biguma bitera imbere       | Zikoreshwa hake cane                  |
+| **Umurwi**              | Ntabugenduzi kandi Birakomeye | Biragenzurwa kandi Ntibisigurwa neza          |
+| **Ishusho**        | Nzinga kandi Birazwi kw'isi yose        | Birahindagurika kandi birateye amakenga     |
+| **Ibikoresho**    | Bitekanye kandi Bikingiwe       | Bidatekanye kandi vyoroshe kugira imgorane       |
+| **Bitagira ubucungerezi**  | Ego                      | Gakegake                         |
+| **Ikibazo c'ububeshi**             | Oya                       | Birashoboka                    |
+| **Akamaro kaboneka**     | Ego                      | Debatable                      |
 
 
 **Urabe maso ku vyiyumviro bizimiza nka:**
@@ -1354,13 +1354,13 @@ Inyuma y’iterambere rya ICO ryo mu 2017, inzego zatanguye kwerekana ko zikunda
 Abanyabwenge b’ubuhinga na bo nyene baraje muri iryo siganwa. Facebook (ubu yitwa Meta) yatanguje umugambi wayo wo gukora amafaranga y’ubuhinga bwa none, Libra, afise intumbero yo guhingura amafaranga y’ubuhinga bwa none ashigikiwe n’igiseke c’amahera y’ubuhinga bwa none. Ariko uwo mugambi warahuye n’ukurwanywa vyihuse n’abajejwe ivy’amategeko maze amaherezo urahebwa.
 
 
-| Feature                    | Bitcoin | Altcoins | Facebook-Coin | FedCoin |
+| Akaranga                    | Bitcoin | Altcoins | Facebook-Coin | FedCoin |
 |---------------------------|---------|----------|---------------|---------|
-| **Public**                | Yes     | Varies   | No            | No      |
-| **Open**                  | Yes     | Varies   | No            | No      |
-| **Borderless**            | Yes     | Varies   | No            | No      |
-| **Neutral**               | Yes     | Varies   | No            | No      |
-| **Censorship-resistant**  | Yes     | Varies   | No            | No      |
+| **Abantu bose barabishikira**                | Ego     | Birahindagurika   | Oya            | Oya      |
+| **Iruguruye**                  | Ego     | Birahindagurika   | Oya            | Oya      |
+| **Nta karimbi**            | Ego     | Birahindagurika   | Oya            | Oya      |
+| **Ntigira aho yegamiye**               | Ego     | Birahindagurika   | Oya            | Oya      |
+| **Irarinda ubugenzuzi**  | Ego     | Birahindagurika   | Oya            | Oya      |
 
 Naho nyene izo nzira zitangazwa n’ubushizi bw’amanga, ntizihangana na Bitcoin; bigana ururimi rwaco mu gihe banka ingingo ngenderwako nyamukuru zaco. Biba vyubatswe kugira ngo umuntu yubahiriza amategeko, si umwidegemvyo. Bigenewe kwagura ubugenzuzi, ntibirinda ubuzima bwite. Bashinga imizi ubugenzuzi aho kubutanga.
 
@@ -3272,12 +3272,12 @@ Abantu uhisemwo ntibakwiye kwigera bashobora gushika ku mfunguruzo zawe z’iban
 Ku mpapuro zizoba umugambi wawe w’iragi rya Bitcoin, nushireho urutonde rw’abashobora gutora, usuzume urugero rw’ukwizigira kwabo, ubumenyi bafise ku bijanye na Bitcoin, n’ingene wobamenyesha. Nk'akarorero:
 
 
-| Person               | Trust Level     | Bitcoin Knowledge   | Contact Methods         | Notes                                                                                                                   |
+| Umuntu               | Urugero rw'ubwizigirwa     | Ubumenyi bwa Bitcoin   | Ubuhinga bwo kuvugana         | Inyandiko                                                                                                                  |
 |----------------------|-----------------|----------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------|
-| My brother Bob       | Very high       | Low                  | Phone & email            | Bob doesn't know Bitcoin well, but he's 100% reliable. He can ensure the process goes smoothly.                        |
-| My cousin Nathan     | High            | Medium               | Phone & Instagram        | Has some Bitcoin knowledge and can guide my heirs. Aware of the plan. #1 to talk to in case of need.                   |
-| Ricco (Bitcoiner friend) | Medium      | Very high            | Twitter, email & photo   | Very technically skilled, but should never have access to the funds. To be contacted for technical support.            |
-| Bitcoin YouTuber     | Low             | High                 | YouTube channel          | Good information source for learning, but cannot intervene directly.                                                   |
+| Murumuna wanje Bob        | Urugero rwo hejuru       | Urugero rwo hasi                 | Terefone & email            |  Bob ntazi Bitcoin neza, ariko n'umwizigirwa 100%. Ashobora kwemeza ko ibikorwa bigenda bikurikizwa neza.                        |
+| Muvyaranje Nathan     | urugero rwo hejuru           | urugero rugereranye               | Terefone & Instagram        | Afise ubumenyi bw’ibanze ku Bitcoin kandi azoshobora kuyobora ba samurarwa banje. Azi umugambi. N°1 wokuvugana na we mu gihe bikenewe.                    |
+| Ricco (Umugenzi wanje azi ivya Bitcoin) | urugero rugereranye      | Urugero rwo hejuru            | Twitter, email & amafoto   | Arakomeye cane mu bumenyi bw’ikoranabuhanga, ariko ntashobora guhabwa amafaranga. Vugana nawe gusa aragufasha mu bijanye n'ubuhinga.            |
+| Uwuzi ivya Bitcoin akorera kuri YouTube     | urugero rwo hasi            | urugero rwo hejuru                | ishene ya YouTube          | Isoko y’amakuru yo kwiga, ariko ntashobora kwivanga ubwonyene.                                                   |
 
 Nimba udafise uwo mu muryango wizigirwa canke afise ubushobozi, urashobora kandi kwiyumvira gukoresha umuntu w’umwuga, nk’umuvoka yizeye ivy’iragi rya Bitcoin, canke igikorwa kidasanzwe co gutegura ivy’itongo. Urufunguruzo ni uko abazungu bawe bashobora kuronka imfashanyo y’ubuhinga yizigirwa mu gihe bagumana umutekano n’ibanga ry’amahera yawe.
 
@@ -3304,11 +3304,11 @@ Rimbura ibibanza vyose ufise bitcoins canke amafaranga y’ubuhinga bwa none aja
 Koresha imbonerahamwe kugira ngo utunganye uru rutonde. Iciyumviro si co kubika iyo nyandiko kuri Internet ahubwo ni ukuyibika ahantu hatagira uwuyibika, vyiza ni ukuyibika ku mpapuro. Nk'akarorero:
 
 
-| General | Storage type | Assets held | Localization | Mnemonic backup | Password (PIN, passphrase...) | Notes |
+| Muri rusangi | Ubwoko bw'ububiko | Ubwoko bw’ikorwa bafise | Akarere | Kubika ijambo rya Mnemonic | Ijambo kabanga (PIN, ijambo kabanga...) | Inyandiko |
 | --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Bitfinex | BTC & Euros | Accessible online | None (custodial platform) | | Bitwarden & 2FA password manager with Authy app on my phone | I bought my BTC here. Funds must be withdrawn after purchase |
-| Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
-| Green Wallet | BTC | On my Iphone 15 | Copy of the seed in my safe at home | PIN code stored on the Bitwarden password manager. | The application is in hidden mode. | The application is in hidden mode |
+| Bitfinex | BTC & amayero |  | ntabihari (urubuga rwigenga) | | Bitwarden & kwimenyekanisha ukoresheje ivyemezo bibiri ubucungerezi bw'ijambobanga kuri terefone yawe | Ngura BTC zanje ngaha. Amafaranga ategerezwa kubikurwa inyuma yo kugura |
+| Ububiko(ingodo) ngendanwa | Jade Plus | BTC | Umutekano wawe n'uw'ahuba | kopi iri kwa marume wanje Bob no mu bubiko bwa banki ya BNP Paribas. | ijambo banga ryanje ribitsa mama. PIN nayo ibitse kuri Bitwarden umugenduzi w'ijambo banga. | nkoresha ingodo zibiri zitandukanye: Ingodo isanzwe mnemonic gusa n’irindi jambo banga |
+| Green Wallet | BTC | kuri Iphone 15 | kopi yiyo ya nyayo ibitse mu mutekano muhira iwanje | PIN ibitse kuri Bitwarden umugenduzi w'ijambo banga. | porogarama yanje ibitse mu buryo bunyegeje. | porogarama yanje ibitse mu buryo bunyegeje |
 
 Muri iki gihe, woshobora kwumva ushaka guca uhindura ingene amahera yawe utanga, ugatuma umutekano wawe urushiriza kuba mwiza, canke mbere ugagura canke ugurisha amahera menshi y’ibiceri. Ntimugire ico mukora! Intumbero aha si ugugira ico ukoze ahubwo ni ugushinga ishusho y’ivyo urimwo ubu. Ushobora kwama utera imbere mu mugambi wawe mu nyuma, ariko ubu, guma wibanda ku kurangiza neza urutonde rw’ibintu vyose uko bishoboka kwose.
 

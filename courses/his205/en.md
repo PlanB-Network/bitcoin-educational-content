@@ -182,22 +182,19 @@ This section is an extract from the course *Ancient Mesopotamia, Life in the Cra
 ### The paradoxes of adopting agriculture
 
 
-Primitive agriculture appeared around 10,500 years ago in the Near East, around northwestern Syria and southern Turkey. Today, modern hunter-gatherer groups are in no hurry to adopt agriculture, and the same was probably true during the Neolithic period.
+Primitive agriculture emerged around 10,500 years ago in the Near East, specifically in what is now northwestern Syria and southern Turkey. Today, modern hunter-gatherer groups are in no hurry to adopt agriculture, and the same was likely true during the Neolithic period.
 
 
-**The first villages were clearly built before the domestication of plants and animals.** People didn't settle because agriculture allowed them to; on the contrary, they settled first and only much later, about 3,000 years later, did they start farming.
+**The first villages were clearly built before the domestication of plants and animals.** People did not settle down because agriculture allowed them to; on the contrary, they settled first and only much later—about 3,000 years later—did they start farming.
 
 
-Hunting and gathering simply worked very well, so they didn't need to plant seeds to produce their food. Today, hunter-gatherers have much more free time than the first farmers, who used very rudimentary technologies.
+Hunting and gathering was simply a highly effective strategy, so there was no need to plant seeds to produce food. In fact, contemporary hunter-gatherer societies have more leisure time than the first Neolithic farmers, who worked harder to produce food using rudimentary cultivation technologies.
 
 
-So, what we're saying here is that modern primitive hunter-gatherer peoples have more free time than we understand from the first farmers of the Neolithic period, who had, after all, fairly rudimentary technologies for cultivation. These people worked harder to produce food than our modern primitive tribes, who live by hunting and gathering.
+Skeletal studies also show that these first farmers were smaller and less robust than the hunter-gatherers who preceded them. The farmers' diet was more restricted, consisting of far more bread and significantly less meat. Their oral health also suffered; the use of stone tools for grinding flour introduced rock splinters into their food, leading to poorer teeth.
 
 
-Bone studies also show that the first farmers were smaller and less robust than the hunter-gatherers who preceded them. Farmers' diets were more restricted than those of hunter-gatherers. They ate much more bread, but much less meat, and also had poorer teeth due to the rock chips used in flour production. When they made flour with rocks, it made splinters.
-
-
-Those who follow the "keto" diet will agree: eating a lot of bread is probably not as good as eating meat.
+In essence, the shift to agriculture, while allowing for larger populations, came at a significant cost to individual health and quality of life.
 
 
 ### Theories on the adoption of agriculture

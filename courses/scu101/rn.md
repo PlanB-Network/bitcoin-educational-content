@@ -335,7 +335,7 @@ Kugira ngo wikingire neza, ningombwa ko utahura ingene abakwinjirira bagerageza 
 Nk’itegeko rusangi, imigera(nyabwonko) iza kubera ko wemereye inyabwonko yawe ko iyitumira. Ibi birashobora kugaragara mu kuvoma porogarame ziteye amakenga, dosiye ya torrent izayamaze gufata umugera, canke gusa mu gufyonda kuri iryo huza (link) riri muri imeyiri y’ububeshi.
 
 
-### Ububeshi buciye mudutego (Phishing), ukuba maso kuma emeyiri y'ububeshi
+### Ububeshi buciye mudutego (Phishing), ukuba maso kuma imeyiri y'ububeshi
 
 
 Itwararike! imeyiri nizo ziza ubwambere mugutegwa. Dore inama zimwe zimwe:

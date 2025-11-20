@@ -405,7 +405,7 @@ Qui sotto potete ammirare la mia copia di una tavoletta con scrittura cuneiforme
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](/assets/fr/1-1-3_1_Tablette_small.webp)
 
 
 
@@ -416,7 +416,7 @@ Ho anche una tavoletta sumera autentica con una piccola scrittura cuneiforme al 
 I segni con piccole cifre servivano come firme in un'epoca in cui la maggior parte delle persone non era in grado di scrivere, poiché solo gli abili scribi avevano questa capacità.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](/assets/fr/1-1-3_2_Tablette_big.webp)
 
 
 
@@ -426,7 +426,7 @@ In basso, si può vedere il cilindro di cui sopra: una pietra incisa con forme s
 Gli scribi dell'epoca utilizzavano quindi uno stilo a forma di cuneo per stampare segni su tavolette bagnate.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](/assets/fr/1-1-3_3_cylindre.webp)
 
 
 
@@ -1010,7 +1010,7 @@ In Cina, le monete non avevano necessariamente bisogno di essere ufficialmente c
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](/assets/fr/1-2-3_chine.webp)
 
 
 Quella qui sopra è una moneta cinese del Medioevo. Si tratta di una moneta fusa con un foro quadrato al centro. Questo foro veniva utilizzato per infilare una corda, che permetteva di unire le monete per creare braccialetti o collane. Tuttavia, non si trattava di monete da indossare, ma di monete utilizzate principalmente per la contabilità. Potevano essere infilate insieme per formare unità di conto sotto forma di grandi corde, con i pezzi incastrati tra loro. Non c'erano necessariamente segni specifici, a volte si trattava semplicemente di cerchi di bronzo.
@@ -1221,7 +1221,7 @@ Trovo interessante ricordare che in Egitto si continuò a pesare le monete molto
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](/assets/fr/1-3-0_indes.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Poiché non possiamo separare la comparsa delle monete dalla Lidia e dai Persian
 Qui sotto potete vedere una delle prime monete lidioidiane, raffigurante un leone con la sua preda di fronte. Si può notare un timbro o un foro sul retro, che secondo alcuni serviva a testare la purezza del metallo e ad assicurarsi che non fosse solo uno strato superficiale. Sebbene si tratti di uno dei primi esempi, è importante notare che questo pezzo è una copia. Tutti i miei pezzi in oro ed electrum sono repliche o ricreazioni moderne, progettate per evitare che io spenda tutti i miei risparmi in questa collezione.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](/assets/fr/1-3-1_1_lydia.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Quando conquistarono la Lidia nel 546 a.C., i Persiani achemenidi adottarono imm
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](/assets/fr/1-3-1_2_Siglos.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Dopo una sezione sulla nascita delle monete, ho voluto introdurre una brevissima
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](/assets/fr/1-3-1_2_Siglos.webp)
 
 
 In seguito, come vedremo in una sezione successiva, i Greci perfezionarono questa tecnologia creando monete rotonde che venivano martellate su entrambi i lati. Prendevano un pezzo liscio e piatto di metallo prezioso, incidevano il disegno desiderato su un lato e poi lo martellavano a mano per creare la moneta finita.
@@ -1413,7 +1413,7 @@ In seguito, come vedremo in una sezione successiva, i Greci perfezionarono quest
 La tecnologia di coniazione a mano delle monete individuali ha probabilmente svolto un ruolo nel controllo dell'inflazione in quel periodo, anche se le monete venivano spesso diluite per aumentare la produzione. Ciò fu particolarmente evidente durante il periodo romano e, in misura minore, durante alcune guerre del periodo greco. Sebbene la coniazione di monete una alla volta limitasse la capacità dell'autorità di produrre in massa, essa contribuì efficacemente al controllo dell'inflazione, nonostante le significative svalutazioni che si verificarono. In questo modo, l'evoluzione passò da una massa di metallo punzonata a una moneta rotonda e martellata.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](/assets/fr/1-3-2_1_drachm.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Qui di seguito, potete ammirare un suggestivo esempio delle pietre monumentali d
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](/assets/fr/Pierre_de_Yap.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Il premio monetario si basa semplicemente sulla fiducia che qualcuno scambierà 
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](/assets/fr/prime_monetaire.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Qui sotto potete vedere un tweet di Stephanie Kelton, che è una specie di donna
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](/assets/fr/no_debt_crisis.webp)
 
 
 
@@ -2534,7 +2534,7 @@ E ho la fortuna di avere una copia di una dracma greca di quel periodo con il fa
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](/assets/fr/3_1_tetradrachm.webp)
 
 
 
@@ -2704,7 +2704,7 @@ L'incontro decisivo con i Greci dell'Italia meridionale introdusse veramente i R
 In effetti, molte monete romane del periodo della Repubblica raffigurano miti di fondazione. La mia la potete vedere qui sotto: è una superba moneta autentica del re Tatius. Illustra il mito del rapimento delle donne da parte dei Sabini. Tatius era il re di questa regione e il mito di fondazione racconta di come i Romani rapirono le donne ai Sabini, una popolazione che viveva nelle vicinanze. In seguito, il re Tatius divenne co-re con Romolo, uno dei fondatori di Roma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](/assets/fr/3_2_tatius.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Qui possiamo rivisitare un concetto che abbiamo già discusso in precedenza, ovv
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](/assets/fr/3_2_Carthage.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Dopo l'assassinio di Cesare nel 44 a.C., Ottaviano (Augusto) prese il controllo 
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](/assets/fr/3_3_aureus.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](/assets/fr/3_3_denier.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](/assets/fr/3_3_sesterce.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](/assets/fr/3_3_dernier-sesterce.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Questa parte mi permette di introdurre l'ultimo pezzo di questa sezione: l'anton
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](/assets/fr/3_3_antoninien.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](/assets/fr/3_3_Denier-Antoninien.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Fu proprio Aureliano a inventare questa forma di svalutazione, molto più veloce
 Per illustrare visivamente questa estrema svalutazione, ho trovato alcune affascinanti statistiche sul prezzo del grano in Egitto dal 40 a.C. al III secolo, per un periodo di oltre 300 anni. Qui sotto potete vedere una tetradracma greca della mia collezione. All'epoca, nell'Egitto occupato dai Romani nel III secolo, l'equivalente era una tetradracma egiziana. La denominazione di dracme era ancora in uso e corrispondeva a un denario.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](/assets/fr/3_3_egypt-tetradrachm.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](/assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Come primo artefatto relativo a questo periodo, vi mostrerò una riproduzione di
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](/assets/fr/3_5_penny.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Per creare un collegamento con i Templari, qui sotto potete osservare una moneta
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](/assets/fr/3_5_Denier-france.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Qui sotto potete vedere una riproduzione di un Fiorino: un Fiorino d'oro realizz
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](/assets/fr/4_Florin.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Il ritorno alla moneta d'oro fu determinato da un contesto specifico: il crollo 
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](/assets/fr/4_Byzantine.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](/assets/fr/4_Hongrie.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Ciò significava che non dovevamo portarci dietro monete di metallo prezioso.
 Ci riferiamo alla tecnica di battitura a pendolo menzionata in precedenza nel corso. Questo metodo consentiva di produrre monete più uniformi rispetto alla battitura a martello e, cosa importante, permetteva di realizzare iscrizioni sul bordo della moneta, come ho dimostrato in precedenza. Quello qui sotto è un tallero europeo del 1793, che mostra chiaramente una scritta sul bordo.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](/assets/fr/4_thaler.webp)
 
 
 
@@ -3414,7 +3414,7 @@ In risposta alla domanda europea di oro e argento, "la motivazione costante dell
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](/assets/fr/5_1_Real_Portugais.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Con la conquista del Nuovo Mondo, la **Spagna** divenne l'attore dominante. Il s
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](/assets/fr/5_1_Dollar_Espagnol.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Il real spagnolo, noto anche come "pezzo da otto", deve il suo soprannome al fat
 L'aspetto particolarmente interessante è che all'epoca il dollaro spagnolo fungeva da valuta di riserva internazionale. Le autorità spagnole emettevano anche una propria moneta locale, il maravedi, e regolavano regolarmente l'offerta di moneta attraverso richiami. Ad esempio, una moneta di rame o di bronzo del valore iniziale di un maravedi poteva essere richiamata e punzonata con "2", poi con "4" e così via, fino ad arrivare a "8" Nella foto ad alta risoluzione si vede chiaramente l'"8" impresso sulla moneta. Questo metodo espandeva di fatto l'offerta di moneta... il che portava inevitabilmente all'inflazione.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](/assets/fr/5_1_maravedi.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Dopo l'apogeo iberico, i **Paesi Bassi** emersero come nuova potenza commerciale
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](/assets/fr/5_1_gulden.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](/assets/fr/5_1_VOC.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Leggi più restrittive cercarono di imporre l'assignat, ma senza successo. Il go
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](/assets/fr/5_1_assignat.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Poiché questa cartamoneta sostituì tutte le monete in metallo prezioso di qual
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](/assets/fr/5_1_cloche.webp)
 
 
 
@@ -3562,10 +3562,10 @@ La sovrana era una moneta monetaria - una moneta d'oro del valore originario di 
 Prima della famosa sovrana c'era la ghinea, che funzionava secondo lo stesso principio. La Guinea prendeva il nome dai metalli preziosi che conteneva, provenienti dalla regione della Guinea.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](/assets/fr/5_2_sovereign.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](/assets/fr/5_1_Guinea.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Ad Anversa si tenevano fiere mercantili in cui i commercianti si riunivano spess
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](/assets/fr/5_2_Billet_a_ordre.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Poi arrivò il panico del 1776. Tutti si precipitarono sulla piramide monetaria.
 Siamo passati dal fiorino all'istituzione della Banca d'Inghilterra. Naturalmente nel frattempo ci sono state la Prima e la Seconda guerra mondiale, ma prima, nel 1796, si sono verificati sviluppi anche dall'altra parte dell'Atlantico. Nel 1776 l'America era ancora una colonia britannica e le colonie utilizzavano questa moneta cartacea. Qui sotto una banconota da due scellini del Connecticut del 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](/assets/fr/two_shilling.webp)
 
 
 Prima di dichiarare guerra all'Inghilterra e di emettere una propria moneta, le colonie utilizzarono questa cartamoneta, insieme al dollaro spagnolo, per le transazioni in contanti. In effetti, il termine "dollaro" è rimasto per indicare il dollaro americano.
@@ -3767,7 +3767,7 @@ Prima di dichiarare guerra all'Inghilterra e di emettere una propria moneta, le 
 Se non sbaglio, nel 1792 approvarono una legge che consentiva loro di coniare moneta. A titolo di esempio, quello qui sotto è un dollaro americano dell'era moderna.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](/assets/fr/silver_dollar.webp)
 
 
 Ovviamente non ha un valore nominale di un solo dollaro, ma di circa 30 o 40 dollari, in quanto rappresenta un'oncia d'argento. Il suo valore fluttua in base al prezzo dell'argento, che in genere lo colloca almeno a 30 o 40 dollari USA. Oggi, naturalmente, un dollaro di carta conserva solo il suo valore nominale di un dollaro, ma all'epoca il dollaro statunitense era radicato in questo valore d'argento.
@@ -3777,7 +3777,7 @@ Parliamo ora della Guerra Civile in America. I Confederati stampavano denaro, ch
 
 
 
-![](./assets/fr/confederate.webp)
+![image](/assets/fr/confederate.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Anche gli avversari del Nord avevano dei dollari. In alto si possono vedere i do
 
 
 
-![](./assets/fr/greenback.webp)
+![image](/assets/fr/greenback.webp)
 
 
 
@@ -3800,7 +3800,7 @@ All'indomani della Prima Guerra Mondiale, l'ultima serie di banconote stampate i
 
 
 
-![](./assets/fr/1928.webp)
+![image](/assets/fr/1928.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Qui sotto potete vedere un certificato d'oro del 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](/assets/fr/Gold_certificate.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Dopo l'emissione dell'Ordine Esecutivo 6102, sequestrarono tutto l'oro e scambia
 
 
 
-![](./assets/fr/1934.webp)
+![image](/assets/fr/1934.webp)
 
 
 Il concetto di corso legale emerge qui, sostituendo la frase "redimibile in oro" Le due banconote possono sembrare identiche, con solo poche parole che cambiano, ma la truffa sta nel fatto che il dollaro fu svalutato durante questo periodo; passò da un'oncia d'oro valutata a 20,67 dollari a 35 dollari per oncia nel 1934. Si trattava di una svalutazione di circa il 40%!
@@ -3903,7 +3903,7 @@ Con questo sistema, Law collegò la cartamoneta alle azioni della sua società. 
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](/assets/fr/paper_illustration.webp)
 
 
 

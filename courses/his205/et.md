@@ -405,7 +405,7 @@ Siin allpool saate imetleda minu koopiat kiilkirjakujulisest tahvlist. Usun, et 
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](/assets/fr/1-1-3_1_Tablette_small.webp)
 
 
 
@@ -416,7 +416,7 @@ Mul on ka üks minu arvates ehtne sumeri tahvel, mille keskel on väike kiilkirj
 Väikeste numbritega märgid olid allkirjadeks ajal, mil enamik inimesi ei osanud kirjutada, sest seda oskasid vaid vilunud kirjatundjad.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](/assets/fr/1-1-3_2_Tablette_big.webp)
 
 
 
@@ -426,7 +426,7 @@ Allpool näete eespool mainitud silindrit: kivi, millele on graveeritud erikujun
 Tolleaegsed kirjatundjad kasutasid seetõttu märjadele tahvlitele märkide trükkimiseks kiilukujulisi pliiatseid.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](/assets/fr/1-1-3_3_cylindre.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Hiinas ei pidanud mündid tingimata olema ametlikult märgistatud või garanteer
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](/assets/fr/1-2-3_chine.webp)
 
 
 Ülaltoodud on Hiina münt keskajast. See on valatud münt, mille keskel on ruudukujuline auk. Seda auku kasutati köie ühendamiseks, mis võimaldas münte käevõrude või kaelakeede loomiseks kokku köita. Need ei olnud siiski eelkõige kandmiseks, vaid neid kasutati peamiselt raamatupidamislikel eesmärkidel. Neid võis kokku köita, et moodustada arvepidamisüksusi suurte nööride kujul, mille tükid olid omavahel ühendatud. Neil ei olnud tingimata mingeid spetsiifilisi märke, mõnikord olid need lihtsalt pronksist ringid.
@@ -1221,7 +1221,7 @@ Minu arvates on siinkohal huvitav mainida, et Egiptuses jätkati müntide kaalum
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](/assets/fr/1-3-0_indes.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Kuna me ei saa lahutada müntide ilmumist Lüüdiast ja pärslastest, siis liigu
 Allpool näete ühte varaseimat Lydia münti, millel on kujutatud lõvi koos saagiga ees. Võib-olla märkate tagaküljel templit või auku, mida mõned usuvad, et seda kasutati metalli puhtuse kontrollimiseks ja tagamaks, et tegemist ei ole lihtsalt pinnakihiga. Kuigi tegemist on ühe varaseima näidisega, on oluline märkida, et tegemist on koopiaga. Kõik minu kuld- ja elektrumitükid on koopiad või moodsad taasesitamised, mille eesmärk on vältida seda, et ma kulutaksin kogu oma säästud sellele kollektsioonile.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](/assets/fr/1-3-1_1_lydia.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Kui nad 546. aastal eKr Lüüdia vallutasid, võtsid ahemeniidide pärslased sel
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](/assets/fr/1-3-1_2_Siglos.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Pärast müntide tekkimist käsitlevat lõiku tahtsin esitada väga lühikese l�
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](/assets/fr/1-3-1_2_Siglos.webp)
 
 
 Hiljem, nagu me järgmises peatükis vaatleme, täiustasid kreeklased seda tehnoloogiat, luues ümmargusi münte, mis olid mõlemalt poolt vasaraga löödud. Nad võtsid sileda, tasase väärismetallitüki, graveerisid soovitud kujunduse ühele küljele ja seejärel vasardasid selle käsitsi, et luua valmis münt.
@@ -1413,7 +1413,7 @@ Hiljem, nagu me järgmises peatükis vaatleme, täiustasid kreeklased seda tehno
 Üksikute müntide käsitsi vermimise tehnoloogia mängis tõenäoliselt rolli inflatsiooni kontrollimisel sel ajal, kuigi münte lahjendati sageli tootmise suurendamiseks. See oli eriti ilmne Rooma ajal ja vähemal määral ka teatud sõdade ajal Kreeka ajal. Kuigi müntide vermimine ükshaaval piiras ametiasutuste suutlikkust massitootmiseks, aitas see tõhusalt kaasa inflatsiooni kontrollimisele, hoolimata märkimisväärsetest devalveerimistest, mis esinesid. Seega arenes areng metallist tembeldatud metallitükist ümmarguse, vasaraga löödud mündi suunas.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](/assets/fr/1-3-2_1_drachm.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Allpool saate imetleda silmatorkavat näidet monumentaalsetest kividest Yapi saa
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](/assets/fr/Pierre_de_Yap.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Rahaline preemia põhineb lihtsalt usaldusel, et keegi vahetab selle raha hiljem
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](/assets/fr/prime_monetaire.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Allpool näete Stephanie Keltoni säutsu, kes on selle liikumise omamoodi plakat
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](/assets/fr/no_debt_crisis.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Ja mul on õnne, et mul on sellest ajast pärit Kreeka drahmi koopia, mille taga
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](/assets/fr/3_1_tetradrachm.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Otsustav kohtumine Lõuna-Itaalia kreeklastega tõeliselt tutvustas roomlastele 
 Tegelikult kujutavad paljud Rooma münte vabariigi ajastust asutamismüüte. Minu omaga saate tutvuda siin allpool: see on suurepärane, tõeline mündi kuningas Tatiuse münt. See illustreerib müüti naiste röövimisest sabiinlastelt. Tatius oli selle piirkonna kuningas ja asutamismüüt räägib sellest, kuidas roomlased röövisid naisi sabiinlastelt, kes elasid lähedal asuva rahva seas. Hiljem sai kuningas Tatiusest koos Romulusega, kes oli üks Rooma asutajatest, kaaskuningas.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](/assets/fr/3_2_tatius.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Siinkohal võime me taas pöörduda tagasi kontseptsiooni juurde, mida oleme var
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](/assets/fr/3_2_Carthage.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Pärast Caesari mõrva 44. aastal eKr võttis Octavianus (Augustus) Rooma üle k
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](/assets/fr/3_3_aureus.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](/assets/fr/3_3_denier.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](/assets/fr/3_3_sesterce.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](/assets/fr/3_3_dernier-sesterce.webp)
 
 
 
@@ -2920,11 +2920,11 @@ See osa võimaldab mul tutvustada selle osa viimast tükki: antoninianus. Selle 
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](/assets/fr/3_3_antoninien.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](/assets/fr/3_3_Denier-Antoninien.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Tegelikult oli Aurelianus see, kes leiutas selle devalveerimise vormi, mis on pa
 Selle äärmusliku devalveerimise visuaalseks illustreerimiseks leidsin mõned huvitavad statistilised andmed teravilja hinna kohta Egiptuses alates 40. aastast eKr kuni 3. sajandini, mis hõlmab üle 300 aasta. Allpool näete Kreeka tetradrahmi minu kollektsioonist. Sel ajal, 3. sajandil Rooma okupatsiooni all olnud Egiptuses oli samaväärne Egiptuse tetradrahm. Drahmade nimiväärtus oli endiselt kasutusel ja see vastas denaarile.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](/assets/fr/3_3_egypt-tetradrachm.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](/assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Esimese selle perioodiga seotud esemena näitan teile ühe tolleaegse inglise pe
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](/assets/fr/3_5_penny.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Et luua seos templirüütlitega, näete siin alljärgnevalt ühe Prantsuse keska
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](/assets/fr/3_5_Denier-france.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Allpool näete ühe Florini reproduktsiooni: tinakullast Florin, mille on valmis
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](/assets/fr/4_Florin.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Tagasipöördumine kuldmüntide juurde oli tingitud konkreetsest kontekstist: B�
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](/assets/fr/4_Byzantine.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](/assets/fr/4_Hongrie.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Sel perioodil sai Euroopa tänu Marco Polo 13. sajandi reisile teada paberraha o
 Me viitame kursuse alguses mainitud pendlilöögitehnikale. See meetod võimaldas toota ühtlasemaid münte kui vasaraga löömine ja, mis on oluline, võimaldas ka müntide serva ümbritsevaid kandeid, nagu ma eelnevalt näitasin. Allpool on kujutatud Euroopa taler aastast 1793, mille serval on selgelt näha kiri.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](/assets/fr/4_thaler.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Vastuseks Euroopa nõudlusele kulla ja hõbeda järele "oli suurte avastuste pid
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](/assets/fr/5_1_Real_Portugais.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Uue Maailma vallutamisega muutus **Hispaania** domineerivaks mängijaks. Selle m
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](/assets/fr/5_1_Dollar_Espagnol.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Hispaania real, mida tuntakse ka kui "kaheksandikku", sai oma hüüdnime seetõt
 Eriti huvitav on see, et Hispaania dollar oli tol ajal rahvusvaheline reservvaluuta. Hispaania ametiasutused andsid välja ka oma kohalikku valuutat, maravedi, ja kohandasid rahapakkumist regulaarselt tagasivõtmise teel. Näiteks võis algselt ühe maravedi väärtusega vask- või pronksmünt meenutada ja templiga "2", hiljem "4" ja nii edasi, kuni võib-olla "8" Kõrgresolutsiooniga fotol on selgelt näha mündile tembeldatud "8". See meetod laiendas tõhusalt rahapakkumist... mis paratamatult tõi kaasa inflatsiooni.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](/assets/fr/5_1_maravedi.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Pärast Pürenee poolsaare apokalüüsimaailma tekkis 17. sajandil **Hollandiast
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](/assets/fr/5_1_gulden.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](/assets/fr/5_1_VOC.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Rangemaid seadusi püüti kehtestada assignat, kuid edutult. Valitsus püüdis s
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](/assets/fr/5_1_assignat.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Kuna see paberraha asendas kõik kvaliteetsed väärismetallist mündid, järgid
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](/assets/fr/5_1_cloche.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Suverään oli rahaline münt - kuldmünt, mille väärtus oli algselt üks nael
 Kuulsale suveräänile eelnes Guinea, mis toimis samal põhimõttel. Guinea sai oma nime väärismetallide järgi, mis olid pärit Guinea piirkonnast.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](/assets/fr/5_2_sovereign.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](/assets/fr/5_1_Guinea.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerpenis toimusid kaupmeeste messid, kus kaupmehed sageli kogunesid võlgade 
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](/assets/fr/5_2_Billet_a_ordre.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Siis tuli 1776. aasta paanika. Kõik tormasid ülespoole rahapüramiidi. See tä
 Me läksime floriinilt üle Inglismaa Panga asutamisele. Loomulikult olid vahepeal esimene ja teine maailmasõda, kuid varem, 1796. aastal, toimusid arengud ka teisel pool Atlandi ookeani. Aastal 1776 oli Ameerika veel Briti koloonia ja kolooniad kasutasid seda paberraha. Allpool on kujutatud Connecticuti kahesillingiline rahatäht aastast 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](/assets/fr/two_shilling.webp)
 
 
 Enne sõja väljakuulutamist Inglismaale ja lõpuks omaenda valuuta väljaandmist kasutasid kolooniad seda paberraha koos Hispaania dollariga sularahatehingute tegemiseks. Tegelikult jäi mõiste "dollar" tähistama Ameerika dollarit.
@@ -3767,7 +3767,7 @@ Enne sõja väljakuulutamist Inglismaale ja lõpuks omaenda valuuta väljaandmis
 Kui ma ei eksi, võtsid nad 1792. aastal vastu seaduse, mis lubas neil raha vermida. Näitena on allpool toodud üks tänapäeva ajastu Ameerika dollar.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](/assets/fr/silver_dollar.webp)
 
 
 Ilmselt ei ole selle nimiväärtus vaid üks dollar; see on väärt umbes 30 või 40 dollarit, sest see esindab untsi hõbedat. Selle väärtus kõigub vastavalt hõbeda hinnale, tavaliselt on see vähemalt 30 või 40 USA dollarit. Tänapäeval säilitab paberdollar muidugi ainult oma nimiväärtuse, mis on üks dollar, kuid tol ajal oli USA dollaril see hõbeda väärtus.
@@ -3777,7 +3777,7 @@ Räägime nüüd Ameerika kodusõjast. Konföderaalid trükkisid raha, mis oli h
 
 
 
-![](./assets/fr/confederate.webp)
+![image](/assets/fr/confederate.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Nende põhjapoolsetel vastastel olid ka dollarid. Just ülalpool võis näha kon
 
 
 
-![](./assets/fr/greenback.webp)
+![image](/assets/fr/greenback.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Esimese maailmasõja järel trükitud pangatähtede viimases seerias oli alati m
 
 
 
-![](./assets/fr/1928.webp)
+![image](/assets/fr/1928.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Allpool näete kuldset sertifikaati aastast 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](/assets/fr/Gold_certificate.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Pärast korralduse 6102 väljaandmist konfiskeerisid nad kogu kulla ja vahetasid
 
 
 
-![](./assets/fr/1934.webp)
+![image](/assets/fr/1934.webp)
 
 
 Siinkohal tekib mõiste "seaduslik maksevahend", mis asendab väljendi "lunastatav kullas" Need kaks arvet võivad näida identsed, ainult mõned sõnad on muutunud, kuid pettus seisneb selles, et dollar devalveeriti sel perioodil; selle väärtus langes 20,67 dollarilt untsi kulla eest 35 dollarini untsi eest 1934. aastal. See tähendas umbes 40%-lise devalveerimise!
@@ -3903,7 +3903,7 @@ Selle süsteemiga sidus Law paberraha oma ettevõtte aktsiatega. Mida rohkem pan
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](/assets/fr/paper_illustration.webp)
 
 
 

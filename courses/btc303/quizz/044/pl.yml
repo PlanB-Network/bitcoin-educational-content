@@ -1,0 +1,8 @@
+question: Jaki był konkretny problem z miękkim fork BIP66, który Shaolinfry przytoczył jako dowód przeciwko miękkim widełkom aktywowanym przez górników?
+answer: 95% hashrate zasygnalizowało gotowość, ale około połowa nie zweryfikowała zaktualizowanych zasad i wydobyła nieprawidłowy blok
+wrong_answers:
+  - Górnicy odmówili zasygnalizowania wsparcia pomimo ogromnego zapotrzebowania użytkowników, co spowodowało, że aktualizacja utknęła na czas nieokreślony
+  - Niewielki odsetek górników zawetował aktualizację dla całej sieci pomimo większościowego poparcia ze strony użytkowników
+  - Aktualizacja spowodowała trwały podział łańcucha, ponieważ górnicy i użytkownicy nie zgadzali się co do szczegółów implementacji
+explanation: |
+  Incydent BIP66 ujawnił krytyczną wadę soft forków aktywowanych przez górników: sygnalizowanie gotowości nie gwarantuje faktycznej walidacji. Pomimo tego, że 95% górników wskazało, że są gotowi na aktualizację, około połowa z nich nie zweryfikowała prawidłowo nowych zasad i omyłkowo dokonała wydobycia na nieprawidłowym bloku. Pokazało to, że sygnalizacja mocy hashowania może być myląca i nie zapewnia prawidłowej implementacji, co było jednym z kluczowych argumentów Shaolinfry za zaproponowaniem User Activated Soft Forks jako bardziej niezawodnego mechanizmu aktualizacji.

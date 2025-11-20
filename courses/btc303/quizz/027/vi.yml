@@ -1,0 +1,8 @@
+question: Theo chương này, điều gì sẽ xảy ra khi bạn bất cẩn với các hoạt động bảo mật Bitcoin của mình?
+answer: Nó cũng có thể làm giảm quyền riêng tư của những người dùng Bitcoin khác
+wrong_answers:
+  - Nó chỉ ảnh hưởng đến các giao dịch của riêng bạn và không ảnh hưởng đến người khác
+  - Nó làm cho toàn bộ mạng Bitcoin an toàn hơn cho mọi người
+  - Nó giúp cải thiện tính ẩn danh tổng thể của hệ thống Bitcoin
+explanation: |
+  Quyền riêng tư Bitcoin được kết nối chặt chẽ giữa những người dùng. Khi một người thực hiện các biện pháp bảo mật không nghiêm ngặt, điều đó có thể ảnh hưởng tiêu cực đến quyền riêng tư của những người dùng khác mà họ giao dịch cùng. Điều này xảy ra bởi vì các mô hình giao dịch, phân cụm địa chỉ và các kỹ thuật phân tích blockchain khác có thể tiết lộ thông tin về nhiều bên liên quan trong giao dịch. Chương này nhấn mạnh rằng các biện pháp bảo mật bạn thực hiện không chỉ bảo vệ bản thân mà còn giúp bảo vệ cộng đồng Bitcoin nói chung, biến quyền riêng tư thành trách nhiệm chung chứ không chỉ là mối quan tâm cá nhân.

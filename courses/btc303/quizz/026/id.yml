@@ -1,0 +1,8 @@
+question: Apa yang dimaksud dengan privasi blockchain secara khusus dalam konteks Bitcoin?
+answer: Informasi yang Anda ungkapkan dengan bertransaksi di blockchain
+wrong_answers:
+  - Enkripsi kunci pribadi yang tersimpan dalam wallet Anda
+  - Perlindungan koneksi internet Anda saat menggunakan Bitcoin
+  - Anonimitas yang disediakan dengan menggunakan beberapa alamat wallet
+explanation: |
+  Privasi Blockchain secara khusus merujuk pada informasi yang Anda ungkapkan dengan bertransaksi di blockchain, yang berlaku untuk semua transaksi yang Anda kirim dan terima. Ini berbeda dengan enkripsi wallet (yang melindungi kunci yang tersimpan), keamanan koneksi internet (yang merupakan privasi off-chain), atau kesalahpahaman bahwa beberapa alamat memberikan anonimitas. Kebocoran privasi on-chain terjadi melalui penggunaan ulang alamat dan pengelompokan, di mana transaksi dapat dihubungkan bersama untuk mengungkapkan pola aktivitas keuangan pengguna.

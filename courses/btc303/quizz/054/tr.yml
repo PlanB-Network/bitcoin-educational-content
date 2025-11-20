@@ -1,0 +1,8 @@
+question: Bitcoin'ın geliştirme sürecinin hangi temel özelliği onu savaş zamanı sabotaj kılavuzlarında açıklanan sızma taktiklerine karşı özellikle savunmasız kılmaktadır?
+answer: Bitcoin gelişimi, kapı bekçileri olmadan herkesin katılımına açıktır
+wrong_answers:
+  - Bitcoin'nin geliştirilmesi küçük bir güvenilir çekirdek bakımcı grubuna dayanır
+  - Bitcoin gelişimi, büyük değişiklikler için resmi hükümet onayı gerektirir
+  - Bitcoin geliştirmesi, harici katkıları sınırlayan kapalı kaynak kodu kullanır
+explanation: |
+  Bitcoin'in açık geliştirme süreci, ademi merkeziyetçilik ve şeffaflık açısından en güçlü yönlerinden biri olmakla birlikte, aynı zamanda düşmanca sızmalara karşı savunmasızlık yaratmaktadır. Herkes tartışmalara katılabildiğinden, değişiklik önerebildiğinden ve izin ya da kimlik bilgilerine ihtiyaç duymadan inceleme sürecine dahil olabildiğinden, özel saldırganlar bu açıklığı istismar edebilir. Alakasız konular hakkında bitmek bilmeyen endişelerle ilerlemeyi durdurabilir, kesin ifadeler üzerinde pazarlık yapabilir, yerleşmiş tartışmaları tekrarlayabilir veya yanlış direniş izlenimleri yaratmak için birden fazla sahte kimlik kullanarak 'sosyal Sybil saldırıları' düzenleyebilirler. Bu açıklık, kötü aktörleri filtreleyebilecek kapı bekçilerine veya onay süreçlerine sahip kapalı kalkınma modelleriyle keskin bir tezat oluşturmaktadır.

@@ -1,0 +1,8 @@
+question: Milline on avatud lähtekoodi määratluse kohaselt peamine nõue seoses tasudega, kui avatud lähtekoodiga tarkvara levitatakse edasi koondtarkvara levitamise raames?
+answer: Litsentsi eest ei nõuta litsentsitasu ega muud tasu
+wrong_answers:
+  - Arenduskulude katmiseks tuleb nõuda mõistlikku reprodutseerimiskulu
+  - Litsentsitasu on lubatud, kuid ei tohi ületada 5% turustamishinnast
+  - Haldustasu võib nõuda, kuid ainult kaubanduslikul eesmärgil toimuva edasijagamise eest
+explanation: |
+  Avatud lähtekoodi definitsioonis on sõnaselgelt sätestatud punktis "Vaba levitamine", et "litsents ei tohi nõuda litsentsitasu või muud tasu sellise müügi eest" See tähendab, et avatud lähtekoodiga tarkvara peab olema vabalt levitatav ilma kohustuslike tasude või litsentsitasudeta. Teised variandid viitavad ekslikult sellele, et mitmesugused tasud on lubatud, mis rikub avatud lähtekoodiga tarkvara määratlevat vaba levitamise põhimõtet.

@@ -1,0 +1,8 @@
+question: Según el marco de divulgación responsable analizado, ¿cuál es la razón principal por la que los desarrolladores evitan parchear inmediatamente vulnerabilidades no críticas en Bitcoin Core?
+answer: Para evitar que el propio parche revele la naturaleza de la vulnerabilidad antes de que se produzca un despliegue generalizado
+wrong_answers:
+  - Para dar tiempo suficiente a que los desarrolladores de altcoins apliquen primero sus propias correcciones independientes
+  - Para poder realizar pruebas exhaustivas en distintos grupos de mining antes de publicar cualquier actualización de seguridad
+  - Para mantener la compatibilidad con versiones anteriores del nodo que no pueden gestionar los parches de emergencia
+explanation: |
+  La respuesta correcta pone de relieve una paradoja crucial en la aplicación de parches de seguridad: la propia corrección puede exponer la vulnerabilidad. El capítulo subraya que los desarrolladores deben disimular cuidadosamente los parches porque publicarlos inmediatamente podría revelar la vulnerabilidad a los atacantes antes de que la mayoría de los nodos estén protegidos. Las respuestas erróneas, aunque plausibles, tergiversan las prioridades: la notificación de altcoin se produce después del despliegue de la red Bitcoin, las pruebas del grupo mining no son la principal preocupación para los problemas no críticos, y la compatibilidad con versiones anteriores no determina el calendario de los parches de seguridad.

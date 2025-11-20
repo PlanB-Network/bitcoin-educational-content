@@ -1,0 +1,8 @@
+question: Lý do chính khiến Bitcoin sử dụng địa chỉ lấy từ khóa công khai làm bí danh thay vì tên người dùng mang tính mô tả là gì?
+answer: Để cho phép tạo địa chỉ ngoại tuyến an toàn mà không cần đăng ký blockchain
+wrong_answers:
+  - Để thực hiện các giao dịch hoàn toàn ẩn danh và không thể theo dõi trên blockchain
+  - Để giảm sức mạnh tính toán cần thiết cho việc xác minh giao dịch
+  - Cho phép sử dụng lại không giới hạn cùng một bút danh trên nhiều giao dịch
+explanation: |
+  Bitcoin sử dụng địa chỉ được lấy từ khóa công khai làm bí danh vì hệ thống này cho phép người dùng tạo địa chỉ mới ngoại tuyến một cách an toàn mà không cần phải đăng ký chúng trên blockchain trước. Việc sử dụng tên người dùng mang tính mô tả sẽ yêu cầu công bố liên kết giữa tên người dùng và khóa công khai trên blockchain, điều này sẽ tốn phí, làm phình blockchain và giảm tính bảo mật. Ngoài ra, tên người dùng sẽ khuyến khích việc tái sử dụng (làm giảm quyền riêng tư) và tạo ra rủi ro mạo danh. Hệ thống dựa trên địa chỉ loại bỏ những vấn đề này trong khi vẫn duy trì tính bảo mật mật mã cần thiết để Bitcoin hoạt động bình thường.

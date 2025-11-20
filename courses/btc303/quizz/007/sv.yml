@@ -1,0 +1,8 @@
+question: Vad hänvisar full node decentralisering till i Bitcoin?
+answer: Validering av block utförs vid kanten av nätverket av användare, inte av betrodda myndigheter
+wrong_answers:
+  - Transaktionshanteringen fördelas på flera mining-pooler i stället för på en enda enhet
+  - Bitcoin-protokollets regler bestäms av en distribuerad grupp av kärnutvecklare
+  - Privata nycklar lagras på flera enheter i stället för på en enda wallet
+explanation: |
+  Full node-decentralisering innebär att valideringen av block (de data som miners producerar) sker i utkanten av nätverket av enskilda användare som driver sina egna noder, snarare än att förlita sig på ett fåtal betrodda myndigheter för att verifiera transaktioner. Detta skiljer sig från decentralisering av miners, som handlar om beställning och bearbetning av transaktioner. De andra alternativen blandar ihop full node-decentralisering med mining-distribution, styrningsstrukturer eller säkerhetspraxis, men inget av dem fångar kärnkonceptet med distribuerad blockvalidering av nätverksdeltagare.

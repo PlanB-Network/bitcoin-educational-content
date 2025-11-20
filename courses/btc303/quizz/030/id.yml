@@ -1,0 +1,8 @@
+question: Menurut pandangan Satoshi Nakamoto, apa dampak dari bitcoin yang hilang terhadap sisa koin yang beredar?
+answer: Mereka membuat koin orang lain bernilai sedikit lebih tinggi sebagai sumbangan untuk semua orang
+wrong_answers:
+  - Mereka mengurangi keamanan jaringan dengan mengurangi nilai total yang tersedia untuk hadiah mining
+  - Mereka menciptakan tekanan deflasi yang mengacaukan sistem moneter dari waktu ke waktu
+  - Mereka harus diganti melalui mining tambahan untuk mempertahankan tingkat pasokan yang diinginkan
+explanation: |
+  Satoshi Nakamoto menjelaskan bahwa koin yang hilang berfungsi sebagai donasi untuk semua pemegang bitcoin lainnya dengan membuat koin mereka lebih berharga karena berkurangnya pasokan efektif. Ini adalah efek deflasi positif, bukan kekuatan destabilisasi. Koin yang hilang tidak mempengaruhi reward mining karena berasal dari koin yang baru dicetak dan biaya transaksi, bukan dari suplai yang ada. Protokol Bitcoin tidak menggantikan koin yang hilang - koin tersebut tetap berada di luar sirkulasi secara permanen, yang sebenarnya menguntungkan para pemegang koin yang tersisa melalui peningkatan kelangkaan.

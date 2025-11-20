@@ -1,0 +1,8 @@
+question: ¿Qué distingue los supuestos de seguridad de Bitcoin de los de los sistemas tradicionales de seguridad física, como los edificios?
+answer: Bitcoin debe abordar todos los puntos débiles conocidos porque los adversarios en línea son anónimos y explotarán cualquier vulnerabilidad
+wrong_answers:
+  - Bitcoin se basa en pruebas matemáticas, mientras que los edificios dependen de barreras físicas y de la aplicación de la ley
+  - "La seguridad de Bitcoin se basa en incentivos económicos, mientras que los edificios recurren a la disuasión mediante medidas de seguridad visibles"
+  - Bitcoin utiliza firmas criptográficas para la protección, mientras que los edificios se basan en sistemas de control de acceso y vigilancia
+explanation: |
+  La distinción clave es que los sistemas en línea como Bitcoin se enfrentan a adversarios anónimos que inevitablemente explotarán cualquier punto débil conocido, a diferencia de los sistemas físicos, en los que podemos aceptar cierto riesgo porque los autores pueden ser identificados y procesados. Como ha señalado Andrew Poelstra, en Internet no podemos permitirnos el lujo de la disuasión policial: si es posible dañar el sistema de forma adversa, los actores anónimos lo harán. Esto obliga a Bitcoin a abordar todas las vulnerabilidades en lugar de aceptar riesgos calculados.

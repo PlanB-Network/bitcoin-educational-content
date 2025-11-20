@@ -1,0 +1,8 @@
+question: Según la presentación de Matt Corallo, ¿cuál es la relación entre sistemas fiables y no fiables en la arquitectura de Bitcoin?
+answer: Se pueden construir sistemas de confianza sobre un sistema sin confianza, pero no sistemas sin confianza sobre sistemas de confianza
+wrong_answers:
+  - Se pueden construir sistemas fiables sobre sistemas fiables, pero no sistemas fiables sobre sistemas fiables
+  - Tanto los sistemas fiables como los no fiables pueden superponerse sin limitaciones arquitectónicas
+  - Trustless y los sistemas de confianza deben funcionar de forma independiente y no pueden superponerse
+explanation: |
+  La idea clave de Matt Corallo es que la capa base sin confianza de Bitcoin permite flexibilidad en el diseño del sistema. Una base sin confianza como el protocolo de Bitcoin permite a los desarrolladores crear servicios de confianza (como los monederos custodiados) en capas superiores preservando las garantías de seguridad subyacentes. Sin embargo, lo contrario es imposible: no se pueden crear sistemas verdaderamente fiables si la propia base requiere confianza, ya que cualquier propiedad fiable se vería socavada por las vulnerabilidades de la capa base fiable.

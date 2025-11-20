@@ -1,9 +1,9 @@
 question: Jaka jest jedna z wad złota jako formy pieniądza?
-answer: Nie jest on łatwo podzielny.
+answer: Nie jest łatwo podzielne.
 wrong_answers:
   - Nie zachowuje swojej wartości w przestrzeni.
   - Z czasem ulega erozji.
-  - Jest łatwy w produkcji.
+  - Jest łatwe w produkcji.
 explanation: |
   Jedną z głównych wad złota jako formy pieniądza jest
   jest trudność w dzieleniu go na małe jednostki, gdy zachodzi taka potrzeba

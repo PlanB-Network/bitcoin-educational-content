@@ -1,0 +1,8 @@
+question: Quel est le principal problème qui a rendu la mise à niveau Segwit différente des précédentes mises à niveau Bitcoin ?
+answer: Les mineurs n'ont pas signalé leur soutien malgré l'appui massif des utilisateurs, ce qui a bloqué le processus d'activation
+wrong_answers:
+  - La mise à niveau a nécessité une fork dure au lieu de la méthode habituelle de mise en œuvre de la fork souple
+  - Des bogues techniques dans le code Segwit ont empêché un déploiement sûr jusqu'à ce qu'ils soient résolus
+  - Les nœuds économiques ont rejeté la mise à niveau en raison des inquiétudes liées à l'augmentation des frais de transaction
+explanation: |
+  La mise à niveau de Segwit était unique parce qu'elle était confrontée à un problème de coordination : les utilisateurs de Bitcoin étaient massivement favorables à la mise à niveau, mais les mineurs refusaient de la soutenir. Cela a créé une situation d'impasse où la mise à niveau ne pouvait pas être activée par le mécanisme normal de soft fork activé par les mineurs. Les mises à niveau précédentes s'étaient déroulées sans problème car elles bénéficiaient du soutien des utilisateurs et des mineurs. Cette situation a conduit à la proposition de fourche Soft activée par l'utilisateur (UASF) en tant que mécanisme d'activation alternatif ne reposant pas sur la signalisation des mineurs, soulignant la tension entre les différentes parties prenantes de l'écosystème Bitcoin.

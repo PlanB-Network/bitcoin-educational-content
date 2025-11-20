@@ -1,0 +1,8 @@
+question: Šta razlikuje Bitcoin-ove sigurnosne pretpostavke od onih tradicionalnih fizičkih sigurnosnih sistema kao što su zgrade?
+answer: Bitcoin mora rešiti sve poznate slabosti jer su protivnici na mreži anonimni i iskoristiće svaku ranjivost
+wrong_answers:
+  - Bitcoin se oslanja na matematičke dokaze dok zgrade zavise od fizičkih barijera i sprovođenja zakona
+  - "Bezbednost Bitcoin zasniva se na ekonomskim podsticajima dok zgrade koriste odvraćanje kroz vidljive mere bezbednosti"
+  - Bitcoin koristi kriptografske potpise za zaštitu dok se zgrade oslanjaju na sisteme kontrole pristupa i nadzora
+explanation: |
+  Ključna razlika je u tome što se onlajn sistemi poput Bitcoin suočavaju sa anonimnim protivnicima koji će neizbežno iskoristiti svaku poznatu slabost, za razliku od fizičkih sistema gde možemo prihvatiti određeni rizik jer se počinioci mogu identifikovati i procesuirati. Kao što je Andrew Poelstra primetio, onlajn nemamo luksuz odvraćanja putem sprovođenja zakona - ako je moguće naštetiti sistemu na neprijateljski način, anonimni akteri će to učiniti. Ovo primorava Bitcoin da se pozabavi svim ranjivostima umesto da prihvati proračunate rizike.

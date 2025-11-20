@@ -1,0 +1,23 @@
+id: 9c06b2af-2018-41a0-a242-567366e5a53e
+start_date: 2025-11-15 14:00:00
+end_date: 2025-11-15 14:00:00
+timezone: America/New_York
+address_city_country: Durham, North Carolina, USA
+address_line_2: 201 W Main St, Durham, NC 27701,
+name: bitcoin++ goes local
+type: workshop
+description: |
+  "Bitcoin stands amongst the great decentralized protocols. Money is
+  global, but decentralization means that bitcoin is also local. In our local
+  edition series, bitcoin++ aims to bring the global conference series local as
+  well, highlighting local bitcoin developer talent wherever it finds itself. In
+  this edition of btc++ we are bringing the party to Durham, North Carolina,
+  home of many great hackers, miners, and protocol devs."
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/durham
+tags:
+  - education
+  - technical-analysis
+  - software

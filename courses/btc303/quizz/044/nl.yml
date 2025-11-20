@@ -1,0 +1,8 @@
+question: Wat was het specifieke probleem met de BIP66 soft fork dat Shaolinfry aanhaalde als bewijs tegen door mijnwerkers geactiveerde soft vorken?
+answer: 95% van hashrate signaleerde gereedheid, maar ongeveer de helft valideerde de opgewaardeerde regels niet en minde op een ongeldig blok
+wrong_answers:
+  - Mijnwerkers weigerden ondersteuning te geven ondanks de overweldigende vraag van gebruikers, waardoor de upgrade voor onbepaalde tijd werd uitgesteld
+  - Een klein percentage miners sprak zijn veto uit over de upgrade voor het hele netwerk, ondanks de steun van de meerderheid van de gebruikers
+  - De upgrade veroorzaakte een permanente kettingsplitsing omdat miners en gebruikers het oneens waren over de implementatiedetails
+explanation: |
+  Het BIP66 incident onthulde een kritieke fout in door mijnwerkers geactiveerde soft forks: aangeven dat ze er klaar voor zijn garandeert geen daadwerkelijke validatie. Ondanks dat 95% van de miners aangaf klaar te zijn voor de upgrade, valideerde ongeveer de helft de nieuwe regels niet goed en minden ze per ongeluk op een ongeldig blok. Dit toonde aan dat hashkrachtsignalering misleidend kan zijn en geen juiste implementatie garandeert, wat één van Shaolinfry's belangrijkste argumenten was om User Activated Soft Forks voor te stellen als een betrouwbaarder upgrade mechanisme.

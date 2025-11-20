@@ -1,0 +1,8 @@
+question: ¿Qué cambio fundamental se produce en la estructura de costes de seguridad de Bitcoin cuando la subvención en bloque se aproxima a cero?
+answer: Los costes de seguridad pasan de ser pagados por los tenedores a través de la inflación monetaria a ser pagados por los gastadores a través de las comisiones de transacción
+wrong_answers:
+  - Los costes de seguridad pasan de ser pagados por los mineros a través de la inversión en hardware a ser pagados por los nodos a través del consumo de electricidad
+  - Los costes de seguridad pasan de ser pagados por las bolsas a través de las comisiones de negociación a ser pagados por los proveedores de wallet a través de las comisiones de servicio
+  - Los costes de seguridad pasan de ser pagados por los desarrolladores a través del mantenimiento del código a ser pagados por los usuarios a través de la participación en la red
+explanation: |
+  El capítulo explica claramente que, en la actualidad, los titulares pagan la seguridad de Bitcoin a través de la inflación monetaria (creación de nuevas monedas mediante la subvención de bloques), pero en el futuro, cuando la subvención de bloques se aproxime a cero, los gastadores pagarán la seguridad a través de las comisiones por transacción. Esto representa un cambio económico fundamental en cuanto a quién soporta el coste de mantener la seguridad de la red, pasando de un modelo en el que la creación de nuevas monedas financia mining a otro en el que las comisiones por transacción deben proporcionar un incentivo suficiente para que los mineros aseguren la red.

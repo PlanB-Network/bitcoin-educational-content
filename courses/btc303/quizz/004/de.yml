@@ -1,0 +1,8 @@
+question: Welche Lösung schlägt Satoshi Nakamoto laut dem Bitcoin Whitepaper vor, um das double-spending Problem zu lösen?
+answer: Ein verteilter Peer-to-Peer-Zeitstempel-Server mit rechnerischem Nachweis der chronologischen Transaktionsreihenfolge
+wrong_answers:
+  - Ein zentraler Server mit Schwellenwertsignaturen von mehreren vertrauenswürdigen Stellen
+  - Ein Verbund von festen Servern, bei dem jede Transaktion von der Mehrheit genehmigt werden muss
+  - Ein Blindsignatursystem mit zentraler vertrauenswürdiger Partei zur Vermeidung von Doppelspenden
+explanation: |
+  Satoshi Nakamoto schlug ausdrücklich vor, einen "verteilten Peer-to-Peer-Zeitstempelserver zu verwenden, um generate einen rechnerischen Beweis für die chronologische Reihenfolge der Transaktionen zu erbringen", wie es im Bitcoin-Whitepaper heißt. Das Schlüsselwort ist "verteilt", was bedeutet, dass es keinen zentralen Kontrollpunkt gibt. Die falschen Antworten stehen für frühere gescheiterte Versuche mit digitalem Geld, die sich auf zentralisierte oder halbzentralisierte Ansätze stützten, was sie anfällig für Zensur und Misserfolg machte - genau die Probleme, die Bitcoin durch echte Dezentralisierung lösen sollte.

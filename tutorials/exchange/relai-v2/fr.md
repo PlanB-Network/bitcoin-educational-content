@@ -6,7 +6,7 @@ description: Un tutoriel simple sur l'utilisation de Relai pour votre voyage en 
 
 ## Introduction à Relai
 
-Relai est une application mobile simple et intuitive conçue pour aider les particuliers et les entreprises à investir dans le bitcoin sans effort. Que vous soyez novice en matière de bitcoins ou investisseur expérimenté, l'interface conviviale de Relai et ses fonctions simplifiées facilitent la mise en place et le maintien d'un plan d'épargne en bitcoins. Contrairement aux plateformes traditionnelles, Relai ne nécessite pas de connaissances approfondies du bitcoin ou de systèmes financiers complexes - il suffit de télécharger l'application et de commencer à épargner.
+Relai est une application mobile simple et intuitive conçue pour aider les particuliers et les entreprises à investir dans le bitcoin sans effort. Que vous soyez novice en matière de bitcoins ou investisseur expérimenté, l'interface conviviale de Relai et ses fonctions simplifiées facilitent la mise en place et le maintien d'un plan d'épargne en bitcoins. Contrairement aux plateformes traditionnelles, Relai ne nécessite pas de connaissances approfondies du bitcoin ou de systèmes financiers complexes — il suffit de télécharger l'application et de commencer à épargner.
 
 Relai se distingue par sa simplicité, son accessibilité et l'accent mis sur l'épargne à long terme des bitcoins. Que vous souhaitiez mettre en place un plan d'épargne récurrent ou effectuer des achats ponctuels, Relai vous couvre. Voyons comment vous pouvez commencer à utiliser cet outil fantastique.
 
@@ -24,7 +24,7 @@ Relai se distingue par sa simplicité, son accessibilité et l'accent mis sur l'
 
 - **KYC obligatoire:** Relai exige désormais une vérification de la connaissance du client (KYC). Préparez une pièce d'identité valide et un justificatif de domicile.
 - **Processus de vérification :** Téléchargez vos documents, prenez un selfie pour confirmer votre identité et attendez l'approbation (généralement dans les 24 heures).
-- **Pourquoi KYC?** Il garantit la conformité avec les réglementations financières et renforce la sécurité pour tous les utilisateurs.
+- **Pourquoi le KYC?** Il garantit la conformité avec les réglementations financières et renforce la sécurité pour tous les utilisateurs.
 
 ### Étape 3 : Sécuriser votre portefeuille
 
@@ -132,7 +132,7 @@ Relai affichera les frais de réseau applicables.
 ---
 ## Comptes d'entreprise Relai
 
-Relai soutient également les entreprises qui souhaitent investir dans le bitcoin. Parmi les fonctionnalités, citons
+Relai soutient également les entreprises qui souhaitent investir dans le bitcoin. Parmi les fonctionnalités, citons:
 
 
 - **Plans d'épargne personnalisés:** Plans sur mesure pour répondre aux besoins de l'entreprise.
@@ -157,10 +157,10 @@ Commencez à partager votre code dès aujourd'hui et développez votre pile Bitc
 ---
 ## Questions fréquemment posées
 
-### Combien coûte Relai ?
+### Combien facture Relai ?
 
 
-- Relai facture des frais compétitifs de 1% par transaction, ou 0,9% si vous utilisez un code de parrainage comme `REL361712`. Les frais sont affichés de manière transparente avant que vous ne confirmiez un achat.
+- Relai facture des frais compétitifs de 1 % par transaction, ou 0,9 % si vous utilisez un code de parrainage comme `REL361712`. Les frais sont affichés de manière transparente avant que vous ne confirmiez un achat.
 - **Zéro frais :** Les transactions jusqu'à 100 € ou 100 CHF sont totalement exemptes de frais.
 
 ### Puis-je suspendre mon plan d'épargne ?
@@ -178,7 +178,7 @@ Oui, Relai est une plateforme sécurisée et non privative de liberté qui donne
 ---
 ## Conclusion
 
-Relai est un outil puissant mais simple pour tous ceux qui souhaitent se lancer dans l'aventure du bitcoin. De la création de plans d'épargne automatisés au retrait de vos fonds en toute transparence, l'application rend l'investissement en bitcoins accessible et sans stress. Alors, pourquoi attendre ?
+Relai est un outil puissant, mais simple pour tous ceux qui souhaitent se lancer dans l'aventure du bitcoin. De la création de plans d'épargne automatisés au retrait de vos fonds en toute transparence, l'application rend l'investissement en bitcoins accessible et sans stress. Alors, pourquoi attendre ?
 
 Téléchargez Relai dès aujourd'hui et commencez à construire votre avenir financier en bitcoins ! 🚀
 

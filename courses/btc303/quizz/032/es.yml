@@ -1,0 +1,8 @@
+question: ¿Qué mecanismo garantiza el cumplimiento del límite de suministro de Bitcoin sin necesidad de confiar en ninguna autoridad central?
+answer: Nodos completos ejecutando código de verificación que rechaza automáticamente bloques con transacciones coinbase no válidas
+wrong_answers:
+  - Un algoritmo de consenso distribuido que requiere la aprobación de la mayoría para cualquier cambio en el suministro
+  - proof-of-work criptográfico que impide matemáticamente la creación de monedas en exceso
+  - Validadores de red que votan la validez de las transacciones mediante un proceso democrático
+explanation: |
+  El límite de suministro de Bitcoin se hace cumplir a través de nodos completos que ejecutan un código de verificación para cotejar la transacción coinbase de cada bloque con las reglas de consenso. Incluso si algunos nodos se vuelven maliciosos y aceptan bloques no válidos con recompensas excesivas, los nodos honestos simplemente los ignorarán y continuarán con la cadena válida. Esto crea un sistema sin confianza en el que no es necesario confiar en ningún individuo o autoridad - sólo es necesario ejecutar código que verifique que se siguen las reglas, haciendo que la red sea colectivamente segura contra los intentos de inflación de la oferta.

@@ -1,0 +1,8 @@
+question: Protokol tasarımına göre Bitcoin'ı güvene dayalı olmayan bir şekilde kullanmak için ne gereklidir?
+answer: Tüm blokları ve işlemleri kendiniz doğrulamak için tam doğrulamalı bir Bitcoin düğümü çalıştırmak
+wrong_answers:
+  - Güçlü güvenlik önlemlerine ve sigortaya sahip saygın bir kripto para borsası kullanmak
+  - İşlem bilgilerini çapraz doğrulamak için birden fazla güvenilir üçüncü taraf hizmetine güvenmek
+  - Dijital imzalı resmi kaynaklardan doğrulanmış wallet yazılımının yüklenmesi
+explanation: |
+  Bitcoin'ü güvenle kullanmak için, tüm blokların mutabakat kurallarına uyduğunu bağımsız olarak doğrulayan, coin çıkarma programını kontrol eden ve çift harcamaları önleyen tam doğrulamalı bir Bitcoin düğümü çalıştırmalısınız. Bu, doğrulamayı başkalarına yaptırmamanızı sağlayarak güvenilmezlik özelliğini korur. Borsaları veya üçüncü taraf hizmetlerini kullanmak, blok zinciri durumu hakkında size doğruyu söylemeleri için başkalarına güvenmek anlamına gelir. Doğrulanmış yazılım güvenlik için önemli olsa da, Bitcoin sisteminde gerçek bir güvenilirlik elde etmek için kendi doğrulama düğümünüze olan ihtiyacı ortadan kaldırmaz.

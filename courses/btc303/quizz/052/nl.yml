@@ -1,0 +1,8 @@
+question: Volgens Eric Voskuil's axioma van weerstand, welke fundamentele aanname moet geaccepteerd worden voor Bitcoin om zinvol te zijn als systeem?
+answer: Dat het mogelijk is voor een systeem om de controle van de staat te weerstaan
+wrong_answers:
+  - Dat de meerderheid van de netwerkkracht altijd eerlijk zal blijven
+  - Dat cryptografische algoritmen nooit gebroken zullen worden door kwantumcomputers
+  - Dat gebruikers decentralisatie altijd belangrijker vinden dan gemak
+explanation: |
+  Het axioma van weerstand veronderstelt dat systemen zich kunnen verzetten tegen staatscontrole, wat fundamenteel is voor het doel van Bitcoin als geld zonder toestemming. Zonder deze aanname stort de hele premisse van Bitcoin in, omdat het onvermijdelijk gecontroleerd zou worden door staten. De andere opties zijn weliswaar relevant voor de veiligheid van Bitcoin, maar maken geen deel uit van Voskuil's axioma van weerstand, dat specifiek ingaat op de filosofische basis dat weerstand tegen staatscontrole mogelijk is.

@@ -1,0 +1,8 @@
+question: Hva er hovedhensikten med å la erfarne utviklere gjennomgå en sårbarhetsoppdatering uten å bli informert om den spesifikke sårbarheten?
+answer: For å teste om oppdateringen skjuler sårbarheten tilstrekkelig for potensielle angripere
+wrong_answers:
+  - "For å sikre at oppdateringen ikke introduserer nye feil i kodebasen"
+  - For å verifisere at oppdateringen følger riktige kodingsstandarder og konvensjoner
+  - For å bekrefte at oppdateringen gir tilstrekkelige ytelsesforbedringer
+explanation: |
+  I henhold til ansvarlig offentliggjøringspraksis tester utviklere om en oppdatering er godt nok skjult ved å gi den til erfarne utviklere som ikke har blitt informert om sårbarheten, og ber dem om å identifisere hva den fikser. Hvis disse ekspertene ikke kan oppdage sårbarheten selv om de vet at en oppdatering retter den, er den sannsynligvis godt skjult for potensielle angripere. Dette er avgjørende fordi oppdateringer i seg selv kan avsløre sårbarheter og potensielt muliggjøre ondsinnet utnyttelse. Selv om de andre alternativene er viktige aspekter ved kodegjennomgang, er de ikke det primære formålet med denne spesifikke praksisen i sårbarhetshåndtering.

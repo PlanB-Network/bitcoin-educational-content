@@ -1,0 +1,8 @@
+question: När gruvarbetare ansluter till mining-pooler med större bandbredd och anslutning för att undvika inaktuella block under perioder med ökade blockstorlekar, vad är den primära negativa konsekvensen för Bitcoin-nätverket?
+answer: Det minskar mining-decentraliseringen eftersom mindre gruvarbetare pressas mot större pooler med överlägsen infrastruktur
+wrong_answers:
+  - Det ökar beräkningssvårigheterna för mining-operationer vilket gör blocken svårare att lösa
+  - Det skapar ytterligare transaktionsavgifter som måste betalas för att upprätthålla nätverksanslutningen
+  - Det minskar nätverkets totala hashfrekvens eftersom gruvarbetare spenderar resurser på konnektivitet istället för mining
+explanation: |
+  I kapitlet förklaras att när blockstorleken ökar ökar spridningstiderna, vilket leder till fler inaktuella block. För att undvika att förlora blockbelöningar från inaktuella block söker sig miners till pooler med bättre bandbredd och anslutning. Detta driver miners mot större, välanslutna pooler, vilket minskar mining-decentraliseringen. De andra alternativen är felaktiga: svårighetsgraden justeras automatiskt oavsett poolanslutning, anslutningskostnader skapar inte ytterligare transaktionsavgifter och miners minskar inte hashhastigheten när de går med i bättre anslutna pooler.

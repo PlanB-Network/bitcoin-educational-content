@@ -1,0 +1,8 @@
+question: Jaký je hlavní problém, který činí publikování záplat zranitelností pro Bitcoin obzvláště složitým ve srovnání s tradičními centralizovanými softwarovými systémy?
+answer: Samotný kód záplaty může odhalit zranitelnost potenciálním útočníkům, kteří analyzují změny
+wrong_answers:
+  - Decentralizovaná povaha znamená, že neexistuje žádný centrální orgán, který by koordinoval načasování nasazení záplat
+  - "Mechanismus konsensu Bitcoin vyžaduje většinový souhlas předtím, než mohou být implementovány jakékoli bezpečnostní záplaty."
+  - Povaha open-source znamená, že všechny zranitelnosti musí být zveřejněny předtím, než jsou vyvinuty záplaty
+explanation: |
+  V textu se výslovně zdůrazňuje, že vývojáři musí být při publikování záplat velmi opatrní, protože "samotná záplata může zranitelnost prozradit" To vytváří jedinečný problém, kdy řešení může neúmyslně odhalit problém. Čtvrtá odrážka popisuje, jak vývojáři Bitcoin testují, zda byla záplata "dostatečně dobře zamaskována", tím, že ji zkušení vývojáři přezkoumají, aniž by znali konkrétní zranitelnost. Pokud tito odborníci nedokážou z opravy identifikovat zranitelnost, je považována za bezpečnou k nasazení. Ostatní možnosti jsou nesprávné: existuje koordinace prostřednictvím správců jádra Bitcoin, u záplat není vyžadován konsenzus a zranitelnosti jsou při zodpovědném zveřejnění neveřejné.

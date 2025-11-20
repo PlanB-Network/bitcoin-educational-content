@@ -1,0 +1,8 @@
+question: Hva er den viktigste grunnen til at ytelsesfeil i Bitcoin potensielt kan brukes som våpen for å skape nettverkspartisjoner, ifølge sikkerhetseksperter?
+answer: Ytelsesbugs kan brukes strategisk for å skille spesifikke utvinnere og børser fra resten av nettverket, noe som muliggjør angrep med dobbeltforbruk
+wrong_answers:
+  - Ytelsesfeilene påvirker først og fremst bekreftelsestidene for transaksjoner, noe som gjør nettverket upålitelig for forhandlere og brukere
+  - Ytelsesfeil bruker for mye dataressurser, noe som tvinger noder til å stenge ned og reduserer desentraliseringen av nettverket
+  - Ytelsesfeil skaper minnelekkasjer som til slutt krasjer noder, noe som fører til midlertidig ustabilitet i nettverket og redusert hashrate
+explanation: |
+  Gregory Maxwell advarte spesielt om at ytelsesfeil, når de brukes av eksperter, kan brukes til å dele opp nettverket strategisk - for eksempel ved å skille "miner A og exchange B" inn i én partisjon, mens alle andre går inn i en annen, noe som skaper forutsetninger for angrep med dobbeltforbruk. Dette viser hvorfor tilsynelatende mindre problemer bør behandles som potensielt alvorlige, ettersom de kan brukes som våpen på sofistikerte måter som ikke er umiddelbart åpenbare.

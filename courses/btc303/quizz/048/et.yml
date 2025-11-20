@@ -1,0 +1,8 @@
+question: Miks on praktiliselt võimatu formaalselt tõestada Bitcoin turvalisust, kuigi see praktikas tõhusalt toimib?
+answer: Süsteemi keerukus ja ebamäärane olemus muudavad formaalsed turvatõendid teostamatuks, erinevalt lihtsamatest protokollidest, millel on selged eeldused
+wrong_answers:
+  - Bitcoin arendajad väldivad tahtlikult formaalseid tõendeid, et säilitada paindlikkus ja võimaldada protokolli edasisi muudatusi
+  - Diskreetse logaritmi probleem ja krüptograafilised eeldused on praeguste matemaatiliste tõestusmeetodite jaoks liiga arenenud
+  - Formaalsed turvatõendid paljastaksid vastastele haavatavused, seega hoiavad need tuumarendajad salajas
+explanation: |
+  Nagu Jameson Lopp selgitab, ehitati Bitcoin ilma ametlikult määratletud spetsifikatsiooni või turvamudelita, mis tuleneb selle loomupärasest keerukusest ja udususest. Erinevalt lihtsamatest süsteemidest, nagu näiteks allkirjastamisprotokollid, millel on selged turvaprognoosid, hõlmab Bitcoin mitmeid omavahel seotud komponente, sealhulgas krüptograafiat, majandusteooriat, mänguteooriat ja inimeste käitumist. Selline keerukus muudab võimatuks formaalsete matemaatiliste turvatõendite koostamise, kuigi süsteem demonstreerib praktilist turvalisust tegeliku toimimise kaudu.

@@ -1049,11 +1049,10 @@ Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la t
 
 
 ## La définition de Saifedean Ammous 
-<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
-:::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
 
-![](assets/12.webp)
-![](assets/13.webp)
+<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
+
+:::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
 
 #### Qu'est ce que la monnaie ? 
 

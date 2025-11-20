@@ -1,0 +1,8 @@
+question: Zgodnie z rozdziałem, co odróżnia miękki fork od twardego fork w zmianach zasad konsensusu Bitcoin?
+answer: Miękki fork jest w pełni kompatybilny (zarówno do przodu, jak i wstecz), podczas gdy twardy fork jest kompatybilny tylko wstecz
+wrong_answers:
+  - Miękki fork wymaga aktywacji sygnału górnika, podczas gdy twardy fork wykorzystuje aktywację dnia flagi
+  - Miękki fork zmienia istniejące kody operacyjne, podczas gdy twardy fork dodaje tylko nowe kody operacyjne, takie jak OP_NOP1-OP_NOP10
+  - Miękki fork może być zaimplementowany potajemnie w commitach, podczas gdy twardy fork wymaga publicznego ogłoszenia
+explanation: |
+  Rozdział ten jasno definiuje typy kompatybilności: kompatybilność do przodu pozwala staremu oprogramowaniu przetwarzać nowe dane poprzez ignorowanie nieznanych części, podczas gdy kompatybilność wsteczna pozwala nowemu oprogramowaniu przetwarzać stare dane. Miękki fork zachowuje oba typy kompatybilności, co czyni go w pełni kompatybilnym. Twardy fork zachowuje tylko kompatybilność wsteczną, co oznacza, że nowe oprogramowanie może przetwarzać stare dane, ale stare oprogramowanie nie może przetwarzać nowych danych z uaktualnionego systemu. To rozróżnienie jest kluczowe dla zrozumienia mechanizmów aktualizacji Bitcoin i dlaczego miękkie forki są preferowane do utrzymania harmonii sieci.

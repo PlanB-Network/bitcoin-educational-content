@@ -1,0 +1,8 @@
+question: Was ist der Hauptunterschied zwischen "Offenlegung" und "Veröffentlichung" im Zusammenhang mit dem Umgang mit Bitcoin-Sicherheitslücken?
+answer: Offenlegung bedeutet, dass der Anbieter privat informiert wird, während Veröffentlichung bedeutet, dass die Schwachstelle potenziellen Angreifern öffentlich bekannt gemacht wird
+wrong_answers:
+  - Die Offenlegung gilt für kritische Schwachstellen, während die Veröffentlichung für nicht kritische Schwachstellen gilt, die schwerer auszunutzen sind
+  - Die Offenlegung beinhaltet die Benachrichtigung der Bitcoin Core-Entwickler, während die Veröffentlichung die Information der Altcoin- und anderer Implementierungsteams beinhaltet
+  - Die Offenlegung erfordert sofortiges Handeln und Patches, während die Veröffentlichung schrittweise Korrekturen durch den normalen Entwicklungsfluss ermöglicht
+explanation: |
+  Gregory Maxwell wies in der Diskussion auf der Mailingliste auf diesen entscheidenden Unterschied hin. Offenlegung bezieht sich auf den verantwortungsvollen Akt, die Softwareentwickler (den Hersteller) privat über eine Schwachstelle zu informieren, damit sie an einer Lösung arbeiten können. Veröffentlichung hingegen bedeutet, dass die Informationen über die Schwachstelle öffentlich zugänglich gemacht werden, wodurch potenzielle Angreifer über die Schwachstelle informiert werden. Diese Unterscheidung ist von entscheidender Bedeutung, denn während die Offenlegung zum Schutz des Systems beiträgt, kann eine verfrühte Veröffentlichung Schaden anrichten, indem sie böswilligen Akteuren die Möglichkeit gibt, die Schwachstelle auszunutzen, bevor angemessene Schutzmaßnahmen ergriffen wurden.

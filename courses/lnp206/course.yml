@@ -1,0 +1,40 @@
+id: a1b2c3d4-5e6f-7g8h-9i0j-k1l2m3n4o5p6
+published_at: 2025-10-19
+
+topic: protocol
+subtopic: lightning network
+
+type: practice
+level: intermediate
+hours: 4
+
+teaching_format: professor_led
+professors_id:
+  - 5c092790-b8a6-11f0-88f4-db509106a163
+
+format: inperson # online, inperson, hybrid
+address_city_country: Lugano, Switzerland
+start_date: 2025-12-06
+end_date: 2025-12-06
+
+requires_payment: true
+inperson_price_dollars: 0
+payment_expiration_date: 2025-12-07
+available_seats: 30
+paid_description: |
+  Learn to build Lightning Network applications using the Breeze Nodeless SDK. This hands-on workshop
+  combines theoretical knowledge with practical implementation, guiding you through building a complete
+  Bitcoin Lightning application. Perfect for developers looking to integrate Lightning payments without
+  running a node.
+
+is_gdpr_compliance: true
+custom_tc_disclaimer: I accept that some information such as Username, Display Name and Email may be shared with the course instructor for course delivery purposes.
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0

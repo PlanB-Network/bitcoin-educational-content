@@ -1,0 +1,8 @@
+question: Was bedeutet nach der Definition von Pieter Wuille "vertrauenslos" im Zusammenhang mit verteilten Systemen?
+answer: Ein System, das keine vertrauenswürdigen Parteien benötigt, um korrekt zu funktionieren
+wrong_answers:
+  - Ein System, bei dem die Benutzer keinem der Teilnehmer oder Prüfer vertrauen können
+  - Ein System, das alle Formen des Vertrauens ausschaltet, einschließlich Software und Hardware
+  - Ein System, in dem Transaktionen von niemandem rückgängig gemacht oder angefochten werden können
+explanation: |
+  Trustless bezieht sich speziell auf eine technische Eigenschaft, bei der ein verteiltes System korrekt funktionieren kann, ohne dass irgendwelche vertrauenswürdigen Parteien erforderlich sind. Dies ist etwas anderes als die Abschaffung jeglichen Vertrauens (man vertraut immer noch seiner Software/Hardware) oder die Verhinderung von Rückbuchungen (Bitcoin-Transaktionen können durch Umschreiben der Kette rückgängig gemacht werden). Der Begriff bedeutet auch nicht, dass die Benutzer den Teilnehmern nicht vertrauen können - vielmehr hängt die Korrektheit des Systems nicht davon ab, dass man ihnen vertraut.

@@ -1,0 +1,8 @@
+question: Selon la licence MIT sous laquelle Bitcoin Core est distribué, quelle est la restriction concernant la distribution de travaux dérivés ?
+answer: Les travaux dérivés doivent être distribués selon les mêmes conditions que la licence du logiciel original
+wrong_answers:
+  - Les œuvres dérivées ne peuvent être vendues commercialement et doivent toujours être distribuées gratuitement
+  - Les travaux dérivés nécessitent une autorisation écrite explicite des développeurs du Bitcoin Core avant d'être distribués
+  - Les œuvres dérivées doivent inclure la marque originale Bitcoin Core et ne peuvent pas être renommées ou changer de marque
+explanation: |
+  La licence MIT exige que les travaux dérivés soient distribués selon les mêmes conditions de licence que le logiciel original, ce qui permet de préserver le caractère open source. Elle n'interdit pas la vente commerciale (mauvaise réponse 1), n'exige pas l'autorisation des développeurs (mauvaise réponse 2) et n'impose pas de conserver la marque d'origine (mauvaise réponse 3). La licence stipule expressément que les modifications et les travaux dérivés doivent être autorisés selon les mêmes conditions, ce qui préserve le modèle de développement sans autorisation qui permet des innovations telles que le Lightning Network et les sidechains.

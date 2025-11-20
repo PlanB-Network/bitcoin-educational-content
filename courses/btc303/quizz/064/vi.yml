@@ -1,0 +1,8 @@
+question: Theo sự đánh đổi giữa thông lượng và tính phi tập trung được Gregory Maxwell thảo luận, điều gì sẽ xảy ra khi mức sử dụng tài nguyên của blockchain Bitcoin trở nên quá lớn so với công nghệ hiện có?
+answer: Bitcoin mất đi lợi thế cạnh tranh so với các hệ thống cũ vì việc xác thực trở nên quá tốn kém, khiến nhiều người dùng phải trả giá và buộc phải quay trở lại hệ thống.
+wrong_answers:
+  - Bitcoin trở nên an toàn hơn vì chỉ những người dùng tận tâm nhất với phần cứng mạnh mẽ mới có thể tham gia xác thực, tạo ra một mạng lưới mạnh mẽ hơn
+  - Bitcoin tự động điều chỉnh thuật toán độ khó của nó để giảm yêu cầu về tài nguyên và duy trì cùng mức độ phân quyền trên tất cả những người tham gia
+  - Bitcoin chia thành nhiều chuỗi song song để phân bổ tải tính toán trong khi vẫn duy trì các đảm bảo bảo mật giống nhau cho tất cả người dùng
+explanation: |
+  Maxwell đã xác định một sự đánh đổi cơ bản khi nhu cầu tài nguyên quá mức đẩy người dùng đến các bên thứ ba đáng tin cậy thay vì xác thực độc lập. Khi chi phí xác thực trở nên quá cao, người dùng không đủ khả năng vận hành full node và phải dựa vào người khác, làm suy yếu bản chất không tin cậy của Bitcoin. Những câu trả lời sai lại gợi ý sai về các kết quả có lợi (tăng cường bảo mật, tự động điều chỉnh hoặc duy trì bảo đảm) trong khi việc sử dụng tài nguyên cao thực sự buộc phải tập trung hóa và phụ thuộc vào sự tin cậy.

@@ -1,0 +1,8 @@
+question: Prema definiciji koja je data za Bitcoin skaliranje, koji pristup NE bi kvalifikovao kao legitimno skaliranje?
+answer: Povećanje propusnosti transakcija zahtevajući od korisnika da veruju centralizovanim procesorima plaćanja za većinu transakcija
+wrong_answers:
+  - Korišćenje efikasnijih šema kodiranja za smanjenje broja bajtova ulaza transakcija
+  - Implementacija slojevite arhitekture rešenja koja grade protokole na vrhu Bitcoin
+  - Poboljšanje performansi verifikacije potpisa za bržu obradu blokova
+explanation: |
+  Poglavlje eksplicitno definiše Bitcoin skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez kompromitovanja njegove otpornosti na cenzuru.' Tačan odgovor krši ovu definiciju jer zahtevati od korisnika da veruju centralizovanim procesorima plaćanja direktno kompromituje otpornost Bitcoin na cenzuru - osnovnu vrednosnu ponudu. Pogrešni odgovori svi predstavljaju legitimne pristupe skaliranju pomenute u poglavlju: efikasno kodiranje smanjuje upotrebu resursa, slojevita rešenja omogućavaju dodatni kapacitet uz očuvanje svojstava osnovnog sloja, a poboljšana verifikacija potpisa poboljšava performanse bez kompromisa centralizacije.

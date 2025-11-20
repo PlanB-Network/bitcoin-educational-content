@@ -1,0 +1,8 @@
+question: Wat gebeurt er als gebruikers hun Bitcoin transactieverificatie uitbesteden aan derden in plaats van hun eigen volledige nodes te draaien?
+answer: De decentralisatie van Bitcoin wordt zwakker naarmate minder mensen de netwerkregels onafhankelijk handhaven
+wrong_answers:
+  - Bitcoin transacties worden sneller en efficiënter voor alle netwerkdeelnemers
+  - Het Bitcoin netwerk creëert automatisch meer mining knooppunten om de verloren validatie te compenseren
+  - Diensten van derden krijgen de mogelijkheid om nieuwe bitcoins te creëren buiten het normale uitgifteschema om
+explanation: |
+  Wanneer gebruikers niet hun eigen volledige nodes beheren, besteden ze hun macht om de regels van Bitcoin af te dwingen uit aan anderen. Dit verzwakt de decentralisatie van Bitcoin, omdat minder onafhankelijke partijen transacties en blokken valideren. Zoals David Harding uitlegt, creëert dit een situatie waarin een klein aantal miners en serviceproviders mogelijk de regels van Bitcoin kunnen veranderen voor niet-validerende gebruikers, terwijl deze gebruikers niet in staat zijn om transacties te doen met mensen die volledige validatieknooppunten draaien die deze regelwijzigingen afwijzen.

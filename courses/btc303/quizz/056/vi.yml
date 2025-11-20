@@ -1,0 +1,8 @@
+question: Theo Giấy phép MIT mà Bitcoin Core được phân phối, có những hạn chế nào liên quan đến việc phân phối các tác phẩm phái sinh?
+answer: Các tác phẩm phái sinh phải được phân phối theo các điều khoản giống như giấy phép của phần mềm gốc
+wrong_answers:
+  - Các tác phẩm phái sinh không thể được bán thương mại và phải luôn được phân phối miễn phí
+  - Các tác phẩm phái sinh cần có sự cho phép rõ ràng bằng văn bản từ các nhà phát triển Bitcoin Core trước khi phân phối
+  - Các tác phẩm phái sinh phải bao gồm thương hiệu Bitcoin Core gốc và không thể đổi tên hoặc đổi thương hiệu
+explanation: |
+  Giấy phép MIT yêu cầu các tác phẩm phái sinh phải được phân phối theo cùng các điều khoản cấp phép với phần mềm gốc, đảm bảo tính chất nguồn mở được bảo toàn. Điều này không cấm bán thương mại (câu trả lời sai 1), không yêu cầu sự cho phép của nhà phát triển (câu trả lời sai 2) và không bắt buộc phải giữ nguyên thương hiệu gốc (câu trả lời sai 3). Giấy phép nêu rõ rằng các sửa đổi và tác phẩm phái sinh phải được cho phép theo cùng các điều khoản, duy trì mô hình phát triển không cần xin phép, vốn cho phép đổi mới như Lightning Network và sidechain.

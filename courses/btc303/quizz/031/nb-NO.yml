@@ -1,0 +1,8 @@
+question: Hvilket fundamentalt skifte skjer i Bitcoins sikkerhetskostnadsstruktur når blokktilskuddet nærmer seg null?
+answer: Sikkerhetskostnadene går fra å bli betalt av eierne gjennom pengeinflasjon til å bli betalt av forbrukerne gjennom transaksjonsgebyrer
+wrong_answers:
+  - Sikkerhetskostnadene går fra å bli betalt av utvinnerne gjennom investeringer i maskinvare til å bli betalt av nodene gjennom strømforbruk
+  - Sikkerhetskostnadene skifter fra å bli betalt av børsene gjennom handelsavgifter til å bli betalt av wallet-leverandørene gjennom serviceavgifter
+  - Sikkerhetskostnadene flyttes fra å bli betalt av utviklerne gjennom vedlikehold av koden til å bli betalt av brukerne gjennom nettverksdeltakelse
+explanation: |
+  Kapittelet forklarer tydelig at i dag betaler innehaverne for Bitcoins sikkerhet gjennom monetær inflasjon (nye mynter skapes via blokksubsidier), men i fremtiden, når blokksubsidiene nærmer seg null, vil forbrukerne betale for sikkerheten gjennom transaksjonsgebyrer. Dette representerer et grunnleggende økonomisk skifte i hvem som bærer kostnadene ved å opprettholde nettverkssikkerheten, og går fra en modell der opprettelsen av nye mynter finansierer mining, til en modell der transaksjonsgebyrer må gi utvinnerne tilstrekkelig insentiv til å sikre nettverket.

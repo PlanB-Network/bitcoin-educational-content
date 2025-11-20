@@ -1,0 +1,8 @@
+question: Je, Bitcoin ilitatua tatizo gani ambalo sarafu za awali za kidijitali zilishindwa kushughulikia?
+answer: Tatizo la double-spending kwa mtindo wa ugatuzi
+wrong_answers:
+  - Tatizo la usimbaji fiche katika mitandao ya rika-kwa-rika
+  - Tatizo la uhifadhi wa miamala ya kidijitali
+  - Tatizo la kasi katika malipo ya mtandaoni
+explanation: |
+  Mafanikio ya Bitcoin yalikuwa kutatua tatizo la double-spending bila kuhitaji mamlaka kuu. Tatizo la double-spending ni changamoto ya kuzuia mtu kutumia sarafu moja ya kidijitali mara mbili. Sarafu za awali za kidijitali hazikufaulu kwa sababu zilitegemea seva kuu au mamlaka zinazoaminika, hivyo kuzifanya ziwe hatarini kwa udhibiti na kushindwa mara moja. Bitcoin ilisuluhisha hili kupitia seva yake ya muhuri ya wakati iliyosambazwa kati-kwa-rika kwa kutumia proof-of-work, na kuruhusu mtandao kukubali kuagiza muamala bila udhibiti wowote mkuu.

@@ -1,0 +1,8 @@
+question: Ifølge Matt Corallos presentasjon, hva er forholdet mellom tillitsløse og betrodde systemer i Bitcoins arkitektur?
+answer: Du kan bygge pålitelige systemer på toppen av et tillitsløst system, men ikke tillitsløse systemer på toppen av pålitelige systemer
+wrong_answers:
+  - Du kan bygge tillitsløse systemer på toppen av pålitelige systemer, men ikke pålitelige systemer på toppen av tillitsløse systemer
+  - Både tillitsløse og betrodde systemer kan bygges oppå hverandre uten noen arkitektoniske begrensninger
+  - Trustless og betrodde systemer må fungere uavhengig av hverandre og kan ikke legges oppå hverandre
+explanation: |
+  Matt Corallos hovedinnsikt er at Bitcoins tillitsløse basislag muliggjør fleksibilitet i systemdesign. Et tillitsløst fundament som Bitcoins protokoll gjør det mulig for utviklere å skape pålitelige tjenester (som for eksempel depotlommebøker) på høyere lag, samtidig som de underliggende sikkerhetsgarantiene bevares. Det motsatte er imidlertid umulig - du kan ikke lage virkelig tillitsløse systemer hvis selve fundamentet krever tillit, ettersom eventuelle tillitsløse egenskaper vil bli undergravd av sårbarhetene i det betrodde basislaget.

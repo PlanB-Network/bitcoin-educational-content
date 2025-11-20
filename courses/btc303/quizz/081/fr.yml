@@ -1,0 +1,8 @@
+question: Quelle est la principale raison pour laquelle les bogues de performance dans Bitcoin peuvent potentiellement être utilisés pour créer des partitions de réseau selon les experts en sécurité ?
+answer: Des bugs de performance peuvent être stratégiquement déployés pour séparer des mineurs et des échanges spécifiques du reste du réseau, ce qui permet des attaques de type "double dépense"
+wrong_answers:
+  - Les bogues de performance affectent principalement les délais de confirmation des transactions, ce qui rend le réseau peu fiable pour les commerçants et les utilisateurs
+  - Les bogues de performance consomment des ressources informatiques excessives, ce qui oblige les nœuds à s'arrêter et réduit la décentralisation du réseau
+  - Les bogues de performance créent des fuites de mémoire qui finissent par faire planter les nœuds, ce qui entraîne une instabilité temporaire du réseau et une réduction du taux de hachage
+explanation: |
+  Gregory Maxwell a spécifiquement averti que les bogues de performance, lorsqu'ils sont déployés de manière experte, peuvent être utilisés pour partitionner le réseau de manière stratégique - par exemple, en séparant le "mineur A et l'échange B" dans une partition tandis que tous les autres vont dans une autre, créant ainsi les conditions d'une attaque par double dépense. Cela montre pourquoi des problèmes apparemment mineurs doivent être considérés comme potentiellement graves, car ils peuvent être utilisés de manière sophistiquée et non immédiatement évidente.

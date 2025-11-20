@@ -6,7 +6,7 @@ description: Comment acheter des biens et des services en BTC avec Bitrefill ?
 
 Bien que le bitcoin soit aujourd'hui principalement considéré comme un moyen d'épargne, il n'en demeure pas moins une monnaie, dont l'utilité réside dans sa capacité à circuler de main en main. Si les commerçants autour de chez vous acceptent le bitcoin comme moyen de paiement, vous avez la possibilité de les dépenser directement chez eux. Malheureusement, cette pratique n'est pas encore très répandue, et la plupart des commerçants n'acceptent pas encore le BTC de manière native.
 
-La meilleure solution reste évidemment d'orange pill les commerçants locaux pour qu'ils acceptent le bitcoin, en leur expliquant les avantages de ce système. Vous pouvez d'ailleurs utiliser comme support les tutoriels disponibles dans [la section "*commerçants*"](https://planb.academy/tutorials/merchant) de notre site. Cette stratégie peut être efficace avec les petits commerçants indépendants, mais elle s'avère plus complexe pour les grandes enseignes nationales, car les interlocuteurs sur place ne sont généralement pas ceux qui prennent les décisions relatives aux moyens de paiement.
+La meilleure solution reste évidemment d'orange piller les commerçants locaux pour qu'ils acceptent le bitcoin, en leur expliquant les avantages de ce système. Vous pouvez d'ailleurs utiliser comme support les tutoriels disponibles dans [la section "*commerçants*"](https://planb.academy/tutorials/merchant) de notre site. Cette stratégie peut être efficace avec les petits commerçants indépendants, mais elle s'avère plus complexe pour les grandes enseignes nationales, car les interlocuteurs sur place ne sont généralement pas ceux qui prennent les décisions relatives aux moyens de paiement.
 
 En attendant une adoption plus massive de la part de ces enseignes, vous pouvez y dépenser vos bitcoins en utilisant un moyen de paiement intermédiaire : les cartes-cadeaux. Et c'est justement ce que propose de vous fournir Bitrefill.
 
@@ -16,7 +16,7 @@ Bitrefill est une plateforme qui vous permet d'acheter des cartes-cadeaux en bit
 
 Bitrefill propose un choix très vaste allant de la vente au détail à la restauration rapide, en passant par les plateformes de streaming, les jeux en ligne, les sites e-commerce ou encore les recharges téléphoniques.
 ![BITREFILL](assets/notext/01.webp)
-Bitrefill est très simple à utiliser. Pour ouvrir un compte, il faut juste fournir une adresse email. Vous n'avez donc pas besoin de donner votre identité. Ensuite, il suffit de sélectionner le type de carte-cadeaux, de choisir son montant, puis d'effectuer le paiement en bitcoins. Une fois le paiement confirmé (presque instantanément avec Lightning), le code de la carte-cadeau vous est donné. Ce dernier peut être utilisé soit physiquement en magasin, soit en ligne sur le site web de l'enseigne.
+Bitrefill est très simple à utiliser. Pour ouvrir un compte, il faut juste fournir une adresse email. Vous n'avez donc pas besoin de donner votre identité. Ensuite, il suffit de sélectionner le type de carte-cadeau, de choisir son montant, puis d'effectuer le paiement en bitcoins. Une fois le paiement confirmé (presque instantanément avec Lightning), le code de la carte-cadeau vous est donné. Ce dernier peut être utilisé soit physiquement en magasin, soit en ligne sur le site web de l'enseigne.
 
 ## Comment créer un compte Bitrefill ?
 
@@ -66,7 +66,7 @@ Je vous conseille ensuite de prendre le temps de consulter l'espace commentaires
 ![BITREFILL](assets/notext/17.webp)
 Dans cette section, vous trouverez souvent de petits conseils d'autres utilisateurs.
 ![BITREFILL](assets/notext/18.webp)
-Dans les parties "*Description*" et "*How to redeem*" vous trouverez des précisions supplémentaires sur la carte-cadeaux.
+Dans les parties "*Description*" et "*How to redeem*", vous trouverez des précisions supplémentaires sur la carte-cadeau.
 ![BITREFILL](assets/notext/19.webp)
 Si vous souhaitez l'acheter, cliquez sur la case indiquant le montant afin de sélectionner la valeur de votre carte-cadeau.
 ![BITREFILL](assets/notext/20.webp)
@@ -85,7 +85,7 @@ Pour accéder à son code, cliquez sur le bouton "*Click to unseal*".
 ![BITREFILL](assets/notext/26.webp)
 Il vous suffit alors de copier le code et de l'utiliser sur le site web de l'enseigne ou de le présenter en caisse dans un magasin physique.
 ![BITREFILL](assets/notext/27.webp)
-Vous pouvez retrouver toutes vos carte-cadeaux en cliquant sur votre profil en haut à droite, puis sur le menu "*My Products*".
+Vous pouvez retrouver toutes vos cartes-cadeaux en cliquant sur votre profil en haut à droite, puis sur le menu "*My Products*".
 ![BITREFILL](assets/notext/28.webp)
 Je vous recommande aussi de télécharger l'application Bitrefill, disponible sur le [Google Play Store](https://play.google.com/store/apps/details?id=com.bitrefill.app) et l'[App Store](https://apps.apple.com/in/app/bitrefill/id1378102623), pour pouvoir acheter et utiliser des cartes-cadeaux au quotidien dans les magasins physiques.
 

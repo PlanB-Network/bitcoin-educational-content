@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru yo gutuma abahinguzi b’ibintu bazi utuntu n’utundi basubiramwo igice c’ubugoyagoye batamenyeshejwe ivy’ubugoyagoye bwihariye?
+answer: Kugira ngo ugerageze nimba iyo patch ihisha neza ubugoyagoye ku bashobora kuyitera
+wrong_answers:
+  - "Kugira ngo umenye neza ko igipande kitazana ibikoko bishasha mu rutonde rw'amakode"
+  - Kugira ngo ugenzure ko igipande gikurikiza ingingo ngenderwako n'amasezerano akwiriye
+  - Kugira ngo wemeze ko igipande gitanga ivyiza bihagije
+explanation: |
+  Dushingiye ku migenzo yo gutangaza amakuru mu buryo bubereye, abahinguzi baragerageza nimba igipande cari carahishijwe neza bihagije mu kugiha abahinguzi bazi utuntu n’utundi batamenyeshejwe ivyerekeye ubugoyagoye, bakabasaba kumenya ico gikosora. Nimba abo bahinga badashobora kubona ubugoyagoye mbere no kumenya ko igipande gikosora, birashoboka ko bwihishijwe neza ku bashobora kubutera. Ivyo birahambaye cane kubera ko ama patch ubwayo ashobora kwerekana aho umuntu ashobora guhungabana, bikaba bishobora gutuma umuntu ashobora gukoresha nabi. Ayandi mahitamwo, naho ari imice ihambaye y’isubiramwo ry’amategeko, si yo ntumbero nyamukuru y’iyi ngeso yihariye mu gucunga ubugoyagoye.

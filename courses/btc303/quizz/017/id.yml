@@ -1,0 +1,8 @@
+question: Apa kelemahan utama dari sistem keuangan tepercaya yang ingin dipecahkan oleh desain tanpa kepercayaan Bitcoin?
+answer: Ketidakmampuan untuk melakukan transaksi yang sepenuhnya tidak dapat dibatalkan karena persyaratan mediasi sengketa
+wrong_answers:
+  - Konsumsi energi yang tinggi yang diperlukan untuk memproses pembayaran elektronik melalui bank
+  - Terbatasnya jumlah transaksi yang dapat diproses per detik oleh lembaga keuangan
+  - Persyaratan bagi pelanggan untuk memberikan dokumen identifikasi pribadi yang berlebihan
+explanation: |
+  Menurut Satoshi Nakamoto dalam whitepaper Bitcoin, sistem keuangan tradisional memiliki kelemahan mendasar, yaitu transaksi yang sepenuhnya tidak dapat dibatalkan tidak mungkin dilakukan karena lembaga keuangan harus memediasi sengketa. Hal ini menciptakan serangkaian masalah: peningkatan biaya transaksi karena mediasi, penghapusan transaksi kasual kecil, dan penyebaran persyaratan kepercayaan di seluruh sistem. Opsi-opsi lain, meskipun berpotensi relevan dengan sistem keuangan, bukanlah masalah inti yang secara khusus ditangani oleh desain tanpa kepercayaan Bitcoin. Inovasi Bitcoin memungkinkan penyelesaian akhir tanpa memerlukan pihak ketiga yang tepercaya untuk membalikkan transaksi.

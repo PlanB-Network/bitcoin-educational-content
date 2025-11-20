@@ -1,0 +1,8 @@
+question: O que acontece quando os utilizadores subcontratam a verificação das suas transacções Bitcoin a terceiros, em vez de executarem os seus próprios nós completos?
+answer: A descentralização do Bitcoin enfraquece à medida que menos pessoas aplicam as regras da rede de forma independente
+wrong_answers:
+  - As transacções Bitcoin tornam-se mais rápidas e mais eficientes para todos os participantes na rede
+  - A rede Bitcoin cria automaticamente mais nós mining para compensar a validação perdida
+  - Os serviços de terceiros ganham a capacidade de criar novos bitcoins para além do calendário normal de emissão
+explanation: |
+  Quando os utilizadores não gerem os seus próprios nós completos, eles transferem o seu poder de fazer cumprir as regras do Bitcoin para outros. Isto enfraquece a descentralização do Bitcoin porque há menos partes independentes a validar transacções e blocos. Como explica David Harding, isto cria uma situação em que um pequeno número de mineiros e fornecedores de serviços poderia potencialmente alterar as regras do Bitcoin para utilizadores não verificadores, enquanto esses utilizadores seriam incapazes de transacionar com pessoas que gerem nós de validação completos que rejeitam essas alterações de regras.

@@ -1,0 +1,8 @@
+question: De acordo com o quadro de divulgação responsável, qual é a principal razão estratégica para fornecer correcções de vulnerabilidades aos criadores de altcoins apenas depois de as correcções serem amplamente implementadas na rede Bitcoin?
+answer: Para evitar que os atacantes explorem a mesma vulnerabilidade no Bitcoin enquanto as altcoins estão a ser corrigidas
+wrong_answers:
+  - "Para manter a vantagem competitiva do Bitcoin em relação às implementações alternativas de criptomoeda"
+  - Para garantir que os criadores de altcoins têm tempo suficiente para compreender e aplicar corretamente as correcções
+  - Para evitar problemas de responsabilidade legal que poderiam surgir da divulgação prematura a projectos de terceiros
+explanation: |
+  A estratégia de calendarização reflecte uma abordagem de segurança em primeiro lugar, em que a rede do Bitcoin deve ser protegida antes de ajudar os outros. Se as altcoins fossem notificadas em simultâneo, os atacantes poderiam estudar as implementações das altcoins ou explorá-las para compreender a vulnerabilidade e, em seguida, atacar potencialmente os nós do Bitcoin que ainda não tivessem sido actualizados. A abordagem sequencial garante a proteção generalizada do Bitcoin antes de expandir a ajuda a outras redes, minimizando a janela de exploração da vulnerabilidade em todo o ecossistema.

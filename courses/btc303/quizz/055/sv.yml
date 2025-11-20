@@ -1,0 +1,8 @@
+question: Vad är den främsta anledningen till att Bitcoin Core's GitHub-arkiv anses vara speciellt jämfört med de tusentals andra kopiorna av samma arkiv över hela världen?
+answer: Den fungerar som en socialt erkänd samlingspunkt för Bitcoin-utveckling, inte på grund av någon teknisk överlägsenhet
+wrong_answers:
+  - Den innehåller kryptografiska nycklar som autentiserar officiella Bitcoin Core-utgåvor och uppdateringar
+  - Den har exklusiva tekniska funktioner och behörigheter som andra lagringskopior inte kan återskapa
+  - Den är juridiskt skyddad av MIT-licensen som den enda auktoritativa källan till Bitcoin-koden
+explanation: |
+  Som Jameson Lopp förklarar är Bitcoin Core's GitHub-arkiv tekniskt identiskt med tusentals andra kopior över hela världen, men har blivit den socialt accepterade samlingspunkten för utvecklingssamordning. Den har inga speciella tekniska funktioner, kryptografiska autentiseringsmekanismer eller juridiska skydd som gör den överlägsen. MIT-licensen säkerställer faktiskt att vem som helst fritt kan kopiera och distribuera koden vidare. Om detta arkiv försvann skulle gemenskapen helt enkelt etablera en ny samlingspunkt någon annanstans, vilket skulle visa att dess betydelse är en social konvention snarare än en teknisk nödvändighet.

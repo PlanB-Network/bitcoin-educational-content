@@ -1,0 +1,8 @@
+question: Vastavalt Simple Sabotage Field Manuali taktikale, kuidas võiks vastane kõige tõhusamalt häirida Bitcoin avatud arendusprotsessi?
+answer: Sissetungimisega aruteludesse, et takistada arengut lõputute murede kaudu ebaoluliste küsimuste üle ja lahendatud arutelude taaselustamisega
+wrong_answers:
+  - "Bitcoin Core'i arendajate personaalarvutite ja serverite vastu suunatud hajutatud teenusetõkestusrünnakuid käivitades"
+  - Altkäemaksu andmisega mining poolidele, et need lükkaksid tagasi tarkvara uuendused ja säilitaksid protokolli vanemaid versioone määramata ajaks
+  - Luues konkureerivaid krüptovaluutasid, mis pakuvad paremaid funktsioone, et tõmmata arendajad Bitcoin projektidest eemale
+explanation: |
+  Lihtsas sabotaažikäsiraamatus kirjeldati infiltratsioonitaktikaid organisatsioonide sisemiselt häirimiseks, sealhulgas edusammude peatamine ebaoluliste probleemide ja väljakujunenud arutelude ümberjutustamise kaudu. Kuna Bitcoin arendamine on avatud kõigile, kujutavad need sotsiaalse inseneri taktikad endast reaalset ohtu. Teised võimalused kujutavad endast pigem väliseid rünnakuid kui käsiraamatus kirjeldatud sisemisi sabotaažimeetodeid, mis keskenduvad Bitcoin arendusprotsessi avatud, koostööl põhineva olemuse ärakasutamisele.

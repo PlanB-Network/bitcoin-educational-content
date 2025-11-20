@@ -156,7 +156,7 @@ Cette double fonctionnalité rend Zeus particulièrement attractif pour les déb
 
 Autre avantage majeur de Zeus : la disponibilité multiplateforme (iOS et Android), alors que BitBanana reste exclusivement Android. Zeus intègre également l'infrastructure LSP Olympus pour faciliter la réception de paiements Lightning via des canaux "just-in-time", un système de Point of Sale pour les commerçants, et des fonctionnalités de swap intégrées pour gérer la liquidité.
 
-BitBanana conserve toutefois des atouts spécifiques : builds reproductibles vérifiés par WalletScrutiny (garantissant que le code source correspond au binaire distribué), support natif de LndHub et Nostr Wallet Connect, et une approche pédagogique avec des explications contextuelles pour chaque fonctionnalité. L'application reste particulièrement adaptée aux utilisateurs souhaitant contrôler exclusivement un nœud à distance sans fonctionnalités custodiales.
+BitBanana conserve toutefois des atouts spécifiques : une interface plus simple et épurée, une meilleure expérience utilisateur (UX) grâce à son focus exclusif sur le contrôle à distance, et une approche pédagogique avec des explications contextuelles. Zeus offre davantage de fonctionnalités mais au prix d'une interface plus complexe. L'application reste particulièrement adaptée aux utilisateurs souhaitant contrôler exclusivement un nœud à distance sans fonctionnalités custodiales.
 
 Pour découvrir Zeus en détail, vous pouvez consulter les tutoriels suivants : 
 

@@ -1,6 +1,6 @@
 ---
 name: BitBanana
-description: Gestionnaire mobile pour votre nœud Lightning Bitcoin
+description: Gestionnaire mobile pour votre nœud Lightning
 ---
 
 ![cover](assets/cover.webp)

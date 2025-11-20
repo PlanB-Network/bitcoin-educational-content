@@ -1305,27 +1305,17 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 
 ### Nostr
 
+Nostr, singkatan dari "_Notes and Other Stuff Transmitted by Relays_", adalah protokol terbuka dan terdesentralisasi yang dirancang untuk memungkinkan pesan dipublikasikan dan dipertukarkan di Internet tanpa bergantung pada platform terpusat. Setiap pengguna memiliki sepasang kunci kriptografi: kunci publik (`npub`), yang berfungsi sebagai pengidentifikasi, dan kunci privat (`nsec`), yang digunakan untuk menandatangani pesan dan menjamin keasliannya.
 
+Pesan dikirim melalui jaringan relai independen. Arsitektur terdistribusi ini membuat Nostr tahan terhadap penyensoran: tidak ada server tunggal yang mengontrol akses atau distribusi, dan pengguna dapat terhubung ke relai sebanyak yang mereka inginkan.
 
-Nostr, singkatan dari "*Notes and Other Stuff Transmitted by Relays*", adalah protokol terbuka dan terdesentralisasi yang dirancang untuk memungkinkan pesan dipublikasikan dan dipertukarkan di Internet tanpa bergantung pada platform terpusat. Setiap pengguna memiliki sepasang kunci kriptografi: kunci publik (`npub`), yang berfungsi sebagai pengenal, dan kunci privat (`nsec`), yang digunakan untuk menandatangani pesan dan menjamin keasliannya.
+Protokol ini sangat populer di kalangan komunitas Bitcoin karena, seperti Bitcoin, Nostr membahas masalah kedaulatan digital dan kontrol data. Penciptanya, Fiatjaf, adalah pengembang yang sudah diakui dalam ekosistem karena banyak kontribusinya.
 
+Dengan Umbrel Anda, Anda dapat mengoptimalkan penggunaan Nostr Anda. Dengan memasang aplikasi ***Nostr Relay***, Anda dapat meng-host relai pribadi Anda sendiri langsung di mesin Anda, memastikan bahwa semua postingan dan interaksi Anda di Nostr disimpan secara lokal dan tidak dapat hilang melalui penghapusan oleh relai publik.
 
+Client Nostr ***noStrudel*** atau ***Snort*** juga tersedia di Umbrel. Berkat aplikasi ini, Anda dapat mempublikasikan, membaca, mencari profil, dan berinteraksi dengan ekosistem Nostr langsung dari Interface web di Umbrel Anda.
 
-Pesan dikirim melalui jaringan relai independen. Arsitektur terdistribusi ini membuat Nostr tahan terhadap penyensoran: tidak ada satu server pun yang mengontrol akses atau distribusi, dan pengguna dapat terhubung ke sebanyak mungkin relai yang mereka inginkan.
-
-
-
-Protokol ini sangat populer di dalam komunitas Bitcoin karena, seperti halnya Bitcoin, Nostr membahas masalah kedaulatan digital dan kontrol data. Penciptanya, Fiatjaf, adalah seorang pengembang yang telah dikenal dalam ekosistem karena kontribusinya yang banyak.
-
-
-
-Dengan Umbrel, Anda dapat mengoptimalkan penggunaan Nostr. Dengan menginstal aplikasi ***Nostr Relay***, Anda dapat meng-host relai pribadi Anda langsung di mesin Anda, memastikan bahwa semua postingan dan interaksi Anda di Nostr disimpan secara lokal dan tidak dapat hilang melalui penghapusan oleh relai publik.
-
-
-
-Klien Nostr ***noStrudel*** atau ***Snort*** juga tersedia di Umbrel. Berkat aplikasi-aplikasi ini, Anda dapat mempublikasikan, membaca, mencari profil, dan berinteraksi dengan ekosistem Nostr secara langsung dari web Interface di Umbrel Anda.
-
-
+Terakhir, ada aplikasi **_Nostr Wallet Connect_** di Umbrel, yang memungkinkan pembayaran Lightning secara native di dalam Nostr. Secara khusus, Anda dapat menautkan Node Lightning Anda di masa mendatang ke klien Nostr Anda untuk mengirim pembayaran mikro, yang disebut "zaps", untuk memberi hadiah konten atau berinteraksi dengan cara yang dimonetisasi, tanpa melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui channel Anda.
 
 Akhirnya, ada aplikasi ***Nostr Wallet Connect*** di Umbrel, yang memungkinkan pembayaran Lightning asli di dalam Nostr. Secara konkret, Anda dapat menghubungkan node Lightning Anda di masa depan ke klien Nostr Anda untuk mengirimkan mikro-pembayaran, disebut "*zaps*", guna memberi penghargaan pada konten atau berinteraksi secara termonetisasi tanpa melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui saluran Anda.
 

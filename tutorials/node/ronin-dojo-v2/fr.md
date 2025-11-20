@@ -28,15 +28,15 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 - Comment utiliser son nœud RoninDojo v2 ?
 
 ## Qu'est-ce que RoninDojo ?
-Dojo est initialement une implémentation de nœud complet Bitcoin, fondée sur Bitcoin Core, et développée par les équipes de Samourai Wallet. Cette solution peut être installée sur n'importe quel équipement. Contrairement à d'autres implémentations de Core, Dojo a été spécifiquement optimisé pour s'intégrer à l'environnement de l'application Android Samourai Wallet. Quant à RoninDojo, il s'agit d'un utilitaire conçu pour faciliter l'installation et la gestion d'un Dojo, ainsi que de divers autres outils complémentaires. En somme, RoninDojo enrichit l'implémentation de base de Dojo en y intégrant une multitude d'outils supplémentaires, tout en simplifiant son installation et sa gestion.
+Dojo est initialement une implémentation de nœud complet Bitcoin, fondée sur Bitcoin Core, et développée par les équipes de Samourai Wallet. Cette solution peut être installée sur n'importe quel équipement. Contrairement à d'autres implémentations de Core, Dojo a été spécifiquement optimisé pour s'intégrer à l'environnement de l'application Android Samourai Wallet. RoninDojo par contre, est un utilitaire conçu pour faciliter l'installation et la gestion d'un Dojo, ainsi que de divers autres outils complémentaires. En somme, RoninDojo enrichit l'implémentation de base de Dojo en y intégrant une multitude d'outils supplémentaires, tout en simplifiant son installation et sa gestion.
 
 Ronin proposent [également une solution de node-in-box, dénommé le « *Tanto* »](https://ronindojo.io/en/products), un dispositif avec RoninDojo déjà installé sur un système assemblé par leur équipe. Le Tanto est une option payante, qui peut être intéressante pour ceux qui préfèrent éviter les complications techniques. Mais le code source de RoninDojo étant ouvert, il est aussi possible de le déployer sur son propre matériel. Cette alternative, plus économique, nécessite néanmoins quelques manipulations supplémentaires, que nous allons aborder dans ce tutoriel.
 
-RoninDojo est un Dojo, il permet donc d'intégrer facilement Whirlpool CLI à votre nœud Bitcoin afin de disposer de la meilleure expérience possible de coinjoin. Avec Whirlpool CLI, il devient possible de procéder au remixage de vos bitcoins de manière continue, 24 heures sur 24, 7 jours sur 7, sans nécessiter que votre ordinateur personnel reste allumé.
+RoninDojo n’est pas un Dojo en lui-même, il permet l'intégration facilement de Whirlpool CLI (ce qui simplifie énormément l’intégration facile de l'interface de ligne de commande Whirlpool (Whirlpool CLI)) à votre nœud Bitcoin afin de disposer de la meilleure expérience possible de coinjoin. Avec Whirlpool CLI, il devient possible de procéder au remixage de vos bitcoins de manière continue, 24 heures sur 24, 7 jours sur 7, sans nécessiter que votre ordinateur personnel reste allumé.
 
-Au-delà de Whirlpool CLI, RoninDojo embarque une panoplie d'outils venant renforcer les fonctionnalités de votre Dojo. Parmi ceux-ci, le calculateur Boltzmann analyse le niveau de confidentialité de vos transactions, le serveur Electrum permet la connexion de vos portefeuilles Bitcoin à votre nœud, et le serveur Mempool vous permet de voir vos transactions en local, sans faire fuiter des informations.
+Au-delà de l'intégration de Whirlpool CLI, RoninDojo embarque une panoplie d'outils venant renforcer les fonctionnalités de votre Dojo. Parmi ceux-ci, le calculateur Boltzmann analyse le niveau de confidentialité de vos transactions, le serveur Electrum permet la connexion de vos portefeuilles Bitcoin à votre nœud, et le serveur Mempool vous permet de voir vos transactions en local, sans faire fuiter des informations.
 
-En comparaison avec d'autres solutions de nœuds comme Umbrel, RoninDojo est clairement axé sur les solutions on-chain et les outils de confidentialité. Contrairement à Umbrel, RoninDojo ne supporte pas la mise en place d'un nœud Lightning ni l'intégration d'applications serveur plus généralistes. Bien que RoninDojo propose un nombre moins important d'outils polyvalents que Umbrel, il dispose de toutes les fonctionnalités essentielles pour gérer son activité on-chain.
+En comparaison avec d'autres solutions de nœuds comme Umbrel, RoninDojo est clairement axé sur les solutions on-chain et les outils de confidentialité. Contrairement à Umbrel, RoninDojo ne supporte pas la mise en place d'un nœud Lightning ni l'intégration d'applications serveur plus généralistes. Bien que RoninDojo propose moins d’outils polyvalents qu’Umbrel, il dispose de toutes les fonctionnalités essentielles pour gérer son activité on-chain.
 
 Si vous n'avez pas besoin de fonctionnalités généralistes ou liées au Lightning Network comme proposées par Umbrel, et que vous recherchez un nœud simple, stable, avec des outils essentiels tels que Whirlpool ou Mempool, RoninDojo pourrait être la solution idéale. Tandis qu'Umbrel tend à devenir un mini-serveur multitâche orienté vers le Lightning Network et la polyvalence, RoninDojo, en accord avec la philosophie de Samourai Wallet, se concentre sur les outils fondamentaux pour la confidentialité de l'utilisateur.
 
@@ -76,9 +76,9 @@ Fixez également le ventilateur sur le Raspberry Pi.
 
 ![montage3](assets/notext/5.webp)
 
-Connectez les différents éléments en prêtant attention à utiliser les bonnes broches, en vous référant à la notice de votre boîtier. Les fabricants de boîtiers proposent souvent des tutoriels vidéo pour vous aider dans l'assemblage. Dans mon cas, je dispose d'une carte d'extension additionnelle équipée d'un bouton on/off. Cette dernière n'est pas indispensable pour faire un nœud Bitcoin. Je l'utilise principalement pour avoir un bouton de mise sous tension.
+Connectez les différents éléments en prêtant attention à utiliser les bonnes broches, en vous référant à la notice de votre boîtier. Les fabricants de boîtiers proposent souvent des tutoriels vidéo pour vous aider dans l'assemblage. Dans mon cas, je dispose d'une carte d'extension additionnelle équipée d'un bouton on/off. Cette dernière n'est pas indispensable pour faire tourner un nœud Bitcoin. Mais je l'utilise principalement pour avoir un bouton de mise sous tension.
 
-Si comme moi, vous avez une carte d'extension équipée d'un bouton marche/arrêt, n'oubliez pas d'installer le petit jumper « *Auto Power On* ». Cela permettra un démarrage automatique de votre nœud dès qu'il sera sous tension. Cette fonctionnalité s'avère particulièrement pratique en cas de coupure de courant, car elle permet à votre nœud de redémarrer de lui-même, sans intervention manuelle de votre part.
+Si comme moi, vous avez une carte d'extension équipée d'un bouton on/off, n'oubliez pas d'installer le petit jumper « *Auto Power On* ». Cela permettra un démarrage automatique de votre nœud dès qu'il sera sous tension. Cette fonctionnalité s'avère particulièrement pratique en cas de coupure de courant, car elle permet à votre nœud de redémarrer de lui-même, sans intervention manuelle de votre part.
 
 ![montage4](assets/notext/6.webp)
 
@@ -86,13 +86,13 @@ Avant d'insérer l'ensemble du matériel dans le boîtier, il est important de v
 
 ![montage5](assets/notext/7.webp)
 
-Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ultérieure nécessitera l'ajout de la carte micro SD dans le port adapté sur le Raspberry Pi. Si votre boîtier est équipé d'une ouverture permettant d'insérer la carte SD sans avoir à l'ouvrir (comme c'est le cas pour le mien illustré sur la photo), vous pouvez procéder à la fermeture du boîtier dès à présent. En revanche, si votre boîtier ne dispose pas d'un accès direct au port micro SD, il vous faudra attendre d'avoir préparé la carte micro SD pour l'insérer avant de finaliser l'assemblage.
+Enfin, installez votre Raspberry Pi dans son boîtier. Notez toutefois qu’une étape ultérieure vous demandera d’insérer la carte micro SD dans le port adapté sur le Raspberry Pi. Si votre boîtier est équipé d'une ouverture permettant d'insérer la carte SD sans avoir à l'ouvrir (comme c'est le cas pour le mien, illustré sur la photo), vous pouvez procéder à la fermeture du boîtier dès à présent. En revanche, si votre boîtier ne dispose pas d'un accès direct au port micro SD, il vous faudra attendre d'avoir préparé la carte micro SD pour l'insérer avant de finaliser l'assemblage.
 
 ![montage6](assets/notext/8.webp)
 
 ## Comment installer RoninDojo v2 sur un Raspberry Pi 4 ?
 
-### Étape 1 : Préparer la micro SD bootable
+### Étape 1 : Préparer la carte micro SD bootable
 Après avoir assemblé votre matériel, l'étape suivante consiste à installer RoninDojo. Pour cela, nous allons préparer une carte micro SD bootable à partir de votre ordinateur, en y gravant l'image disque adéquat.
 
 Il vous faudra utiliser le logiciel _**Raspberry Pi Imager**_, conçu pour faciliter le téléchargement, la configuration et l'écriture de systèmes d'exploitation sur une carte micro SD pour une utilisation avec un Raspberry Pi. Commencez par installer ce logiciel sur votre PC personnel :
@@ -128,7 +128,7 @@ Une nouvelle fenêtre apparaîtra. Sélectionnez `MODIFIER RÉGLAGES` :
 
 ![modifier réglages](assets/notext/15.webp)
 
-Dans cette fenêtre, accédez à l'onglet `GÉNÉRAL` et procédez aux réglages suivants (qui sont très importants pour que cela fonctionne) :
+Dans cette fenêtre, accédez à l'onglet `GÉNÉRAL` et effectuez les réglages suivants (qui sont indispensables pour le bon fonctionnement du système) :
 - Activez l'option et attribuez `RoninDojo` comme nom d'hôte ;
 - Activez `Définir nom d'utilisateur et mot de passe`, saisissez `pi` comme nom d'utilisateur, choisissez un mot de passe et notez ces informations, car elles seront nécessaires ultérieurement. Ces identifiants sont temporaires et seront supprimés par la suite ;
 - Désactivez `Configurer le Wi-Fi` ;
@@ -165,7 +165,7 @@ Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer 
 ![écriture micro SD terminée](assets/notext/23.webp)
 
 ### Étape 2 : Terminer le montage du nœud
-Vous pouvez maintenant insérer la carte micro SD dans le port adapté de votre Raspberry Pi. 
+Vous pouvez maintenant insérer la carte micro SD dans le port approprié de votre Raspberry Pi. 
 
 ![micro SD](assets/notext/24.webp)
 
@@ -310,16 +310,16 @@ Par exemple, sur Sparrow Wallet, il suffit d'aller dans l'onglet :
 ![Sparrow](assets/notext/34.webp)
 
 ### Connecter ses logiciels de portefeuilles à Samourai Dojo
-En alternative à l'utilisation d'Electrs, Dojo vous permet de connecter votre portefeuille logiciel compatible directement à votre nœud RoninDojo. Des portefeuilles comme Samourai Wallet et Sentinel offrent cette fonctionnalité.
+En alternative à l'utilisation d'Electrs (Serveur Electrum privé), Dojo vous permet de connecter votre portefeuille logiciel compatible directement à votre nœud RoninDojo. Des portefeuilles comme Samourai Wallet et Sentinel offrent cette fonctionnalité.
 
-Pour établir la connexion, il vous suffira de scanner le QR code de votre Dojo. Pour accéder à ce QR code via RoninUI, naviguez vers :
+Pour établir la connexion, il vous suffira de scanner le code QR de votre Dojo. Pour accéder à ce code QR via RoninUI, naviguez vers :
 `Pairing > Samourai Dojo > Pair now`
 ![Samourai Dojo](assets/notext/35.webp)
-Pour associer votre portefeuille Samourai Wallet à votre Dojo, scannez simplement ce QR code lors de l'installation de l'application :
+Pour associer votre portefeuille Samourai Wallet à votre Dojo, scannez simplement ce code QR lors de l'installation de l'application :
 
 ![Samourai Wallet connexion](assets/notext/36.webp)
 
-Si vous aviez déjà un portefeuille Samourai Wallet avant de configurer votre Ronin Dojo, il est nécessaire de sauvegarder votre portefeuille, de désinstaller puis de réinstaller l'application Samourai Wallet, avant de restaurer votre portefeuille. Lors du lancement de l'application réinstallée, vous aurez l'option de vous connecter à un nouveau Dojo. **Attention, cette démarche comporte des risques de perte de vos bitcoins si elle n'est pas correctement exécutée !** Assurez-vous d'avoir le backup de votre portefeuille Samourai dans vos fichiers ainsi que de vérifier la validité de votre passphrase via `Settings > Troubleshoot > Passphrase`. Il est également important de disposer d'une sauvegarde lisible de votre phrase de récupération et de votre passphrase. Pour plus de précision dans cette opération, il est recommandé de suivre ce tutoriel détaillé : [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Si vous aviez déjà un portefeuille Samourai Wallet avant de configurer votre Ronin Dojo, il est nécessaire de sauvegarder votre portefeuille, de le désinstaller puis de réinstaller l'application Samourai Wallet, avant de restaurer votre portefeuille. Lors du lancement de l'application réinstallée, vous aurez l'option de vous connecter à un nouveau Dojo. **Attention, cette démarche comporte des risques de perte de vos bitcoins si elle n'est pas correctement exécutée !** Assurez-vous d'avoir le backup de votre portefeuille Samourai dans vos fichiers ainsi que de vérifier la validité de votre passphrase via `Settings > Troubleshoot > Passphrase`. Il est également important de disposer d'une sauvegarde lisible de votre phrase de récupération et de votre passphrase. Pour plus de précision dans cette opération, il est recommandé de suivre ce tutoriel détaillé : [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 ### Utiliser son propre explorateur de blocs Mempool.space
 Un explorateur de blocs transforme les informations brutes de la blockchain Bitcoin en un format structuré et facilement lisible. Avec des outils comme *Mempool.space*, il est possible d'analyser des transactions, de rechercher des adresses spécifiques, ou encore de consulter en temps réel les taux de frais moyens des mempools du réseau.
@@ -469,7 +469,7 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ bits}$$
 
-**La cinquième information** délivrée par le Calculateur Boltzmann est le tableau des probabilités de correspondance entre les entrées et les sorties. Ce tableau indique, à travers le `score de Boltzmann`, la probabilité qu'une entrée spécifique soit reliée à une sortie donnée. En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités mettrait en lumière les chances de lien entre chaque entrée et sortie, ce qui offre une mesure quantitative de l'ambiguïté ou de la prévisibilité des associations dans la transaction :
+**Le cinquième indicateur** délivré par le Calculateur Boltzmann est le tableau des probabilités de correspondance entre les entrées et les sorties. Ce tableau indique, à travers le `score de Boltzmann`, la probabilité qu'une entrée spécifique soit reliée à une sortie donnée. En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités mettrait en lumière les chances de lien entre chaque entrée et sortie, ce qui offre une mesure quantitative de l'ambiguïté ou de la prévisibilité des associations dans la transaction :
 
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
 |---------|----------|----------|----------|----------|----------|
@@ -488,7 +488,7 @@ On voit bien ici que chaque entrée présente une chance égale d'être associé
 
 Ici, on constate que la probabilité pour chaque output d'être issu de l'input 0 est de 100%. Une probabilité plus faible traduit ainsi une plus grande confidentialité, en diluant les liens directs entre les entrées et les sorties.
 
-**La sixième information** fournie est le nombre de liens déterministes, complété par le ratio de ces liens. Cet indicateur révèle combien de connexions entre les entrées et les sorties dans la transaction analysée sont incontestables, avec une probabilité de 100%. Le ratio, lui, offre une perspective sur le poids de ces liens déterministes au sein de l'ensemble des liens de la transaction.
+**Le sixième indicateur** fourni est le nombre de liens déterministes, complété par le ratio de ces liens. Cet indicateur révèle combien de connexions entre les entrées et les sorties dans la transaction analysée sont incontestables, avec une probabilité de 100%. Le ratio, lui, offre une perspective sur le poids de ces liens déterministes au sein de l'ensemble des liens de la transaction.
 
 Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien déterministe, et affiche par conséquent un indicateur et un ratio de 0%. À l'opposé, dans notre seconde transaction examinée (avec un input et deux outputs), l'indicateur s'établit à 2 et le ratio atteint 100%. Ainsi, un indicateur nul signale une excellente confidentialité grâce à l'absence de liaisons directes et incontestables entre entrées et sorties.
 
@@ -533,7 +533,7 @@ Assurez-vous que toutes les transactions soient correctement répertoriées. Il 
 
 Au-delà de cet outil, l'onglet `Maintenance` de RoninUI regorge d'autres fonctionnalités utiles :
 - *Transaction Tool* : Permet d'examiner les détails d'une transaction donnée ;
-- *Address Tool* : Permet de confirmer le suivi d'une adresse donnée par votre Dojo ;
+- *Address Tool* : Permet de vérifier si une adresse donnée est suivie par votre Dojo. ;
 - *Rescan Blocks* : Force votre nœud à effectuer un nouveau scan d'une plage de blocs spécifiée.
 
 L'onglet `Push Tx` est une autre fonctionnalité intéressante de RoninUI, qui permet la diffusion d'une transaction signée sur le réseau Bitcoin. La transaction doit être saisie sous forme hexadécimale.

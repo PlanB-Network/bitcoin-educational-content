@@ -254,7 +254,7 @@ Après avoir relu la question, assurez-vous de changer le statut `reviewed` de `
 ![REVIEW](assets/en/13.webp)
 
 
-Si la ligne de statut `reviewed: true` est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
+Si la ligne de statut `reviewed:true` est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
 
 
 ## Relecture du glossaire

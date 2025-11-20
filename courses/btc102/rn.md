@@ -767,16 +767,16 @@ Abashoramari bafata ivyiyumviro vy’igihe giciye hagati canke kirekire, bagura 
 Hodlers bari muri ryo kubera umukino muremure cane; rimwe na rimwe imyaka cumi canke irenga. Babika Bitcoin yabo ata nkomanzi kandi bagategerezwa gusa, bavyurwa n’ukwemera gukomeye ko Bitcoin ishobora gukora igihe kirekire. Ntibababazwa n’uguhinduka kw’ibiciro ku musi ku musi canke amasoko y’idubu. Ivyiyumviro vyabo ni vyoroshe: kwirundanira, gukingira, no kwicara bishikamye.
 
 
-|          | Trading | Investment | Holding |
+|          | Kudandaza | Gushiramwo imitahe | Kibika ku gihe kirekire |
 | ---------------------- | ----------- | -------------- | --------------- |
-| Leverage | Yes  | No | No |
-| Timeframe | Short-term | Medium-term | Very long-term |
-| Asset Type | Contracts | Actual BTC | Actual BTC |
-| Risk Level | Very high | High | High |
-| Difficulty | Very Hard | Hard | Hard |
-| learning curve | Long learning curve | Long learning curve | Long learning curve |
-| Potential Loss | UnLimited | Limited | Limited |
-| Best For | A few experienced users | Most People | Long-term Believers |
+| Gukoresha amafaranga waguranye kugire ushore umutahe  | Ego  | Oya | Oya |
+| Igihe | Igihe gito | Igihe kigereranye | Igihe kirekire cane |
+| Ubwoko bw’ikorwa | amasezerano | BTC | BTC |
+| Urugero rw'ingorane | Hejuru cane | Hejuru | Hejuru |
+| Ingorane | Bigoye cane | Bigoye | Bigoye |
+| Umurongo wo kwiga | Muremure | Muremure | Muremure |
+| Ivyo ushobora gutakaza | Vyinshi cane | Bigereranye | Bigereranye |
+| Bikwiriye | Bamwebamwe | benshi cane | Bamwebamwe |
 
 ### Komeza kwiga
 

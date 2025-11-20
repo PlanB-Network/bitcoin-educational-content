@@ -1,4 +1,4 @@
-question: Je, ni wasifu upi unapendelea upataji wa zisizo za KYC na matumizi ya pochi salama sana?
+question: Je, ni wasifu upi unapendelea upataji wa zisizo za KYC na matumizi ya wallets salama sana?
 answer: Mbishi
 wrong_answers:
   - Mshikaji
@@ -6,4 +6,4 @@ wrong_answers:
   - Mtumiaji anayetumika
 explanation: |
   Mkanganyiko huo unatanguliza ufaragha na usalama, kwa kutumia njia zilizo salama sana za kupata na kuhifadhi.
-reviewed: false
+reviewed: true

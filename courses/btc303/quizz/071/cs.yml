@@ -5,4 +5,4 @@ wrong_answers:
   - Architektura peer-to-peer by způsobila, že by systém byl zranitelný vůči síťovým útokům
   - Mechanismus konsensu by spotřeboval příliš mnoho výpočetní energie na to, aby byl praktický
 explanation: |
-  Hned první věta první e-mailové odpovědi na oznámení Satoshi o bílé knize Bitcoin výslovně uvádí: "nezdá se, že by se škálovala na požadovanou velikost To ukazuje, že obavy ohledně škálování existovaly již od prvních veřejných diskusí o Bitcoin, dokonce ještě před spuštěním sítě. Ostatní možnosti, ačkoli potenciálně oprávněné obavy pro kryptoměnový systém, nebyly hlavním tématem této první reakce, která okamžitě označila škálovatelnost za hlavní problém návrhu Satoshi.
+  Hned první věta první e-mailové odpovědi na oznámení Satoshi o bílé knize Bitcoin výslovně uvádí: nezdá se, že by se škálovala na požadovanou velikost To ukazuje, že obavy ohledně škálování existovaly již od prvních veřejných diskusí o Bitcoin, dokonce ještě před spuštěním sítě. Ostatní možnosti, ačkoli potenciálně oprávněné obavy pro kryptoměnový systém, nebyly hlavním tématem této první reakce, která okamžitě označila škálovatelnost za hlavní problém návrhu Satoshi.

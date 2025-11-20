@@ -1,8 +1,8 @@
 question: Quelle est la principale conséquence lorsque les demandes d'extraction de Bitcoin Core prennent beaucoup de temps avant d'être fusionnées dans le référentiel par les mainteneurs ?
 answer: Il indique un manque de réviseurs disponibles pour évaluer les modifications du code proposées
 wrong_answers:
-  - "Cela démontre que les responsables ralentissent délibérément le processus de développement de la Bitcoin
-  - "Elle montre que les changements proposés sont fondamentalement incompatibles avec les règles de consensus de la Bitcoin
-  - "Il révèle que la plateforme GitHub a des limites techniques pour gérer la base de code de Bitcoin
+  - Cela démontre que les responsables ralentissent délibérément le processus de développement de la Bitcoin
+  - Elle montre que les changements proposés sont fondamentalement incompatibles avec les règles de consensus de la Bitcoin
+  - Il révèle que la plateforme GitHub a des limites techniques pour gérer la base de code de Bitcoin
 explanation: |
   Selon le contenu du chapitre, les pull requests prennent beaucoup de temps à être fusionnées, principalement en raison d'un manque de révision, qui découle d'un nombre insuffisant de réviseurs plutôt que de l'obstruction du mainteneur ou de problèmes techniques. Le processus de révision est crucial pour la sécurité de Bitcoin, car il garantit la qualité du code et empêche les changements malveillants. Ce goulet d'étranglement existe parce que la révision d'un code cryptographique complexe requiert de l'expertise et du temps, ce qui fait des réviseurs qualifiés une ressource rare dans le processus de développement.

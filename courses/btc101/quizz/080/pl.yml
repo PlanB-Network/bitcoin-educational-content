@@ -5,7 +5,7 @@ wrong_answers:
   - Portfel, który nie wymaga podpisów do przeprowadzenia transakcji.
   - Portfel, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
 explanation: |
-Portfel wielopodpisowy jest rodzajem portfela, który wymaga
+  Portfel wielopodpisowy jest rodzajem portfela, który wymaga
   wielu podpisów do wykonania transakcji. Dodaje to
   dodatkową warstwę bezpieczeństwa, ponieważ oznacza, że pojedyncza osoba
   nie może wykonać transakcji bez zgody innych osób.

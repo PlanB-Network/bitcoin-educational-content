@@ -1,5 +1,5 @@
 question: Czym jest trylemat łańcucha bloków?
-answer: Protokół oparty na łańcuchu bloków może spełnić tylko dwa z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
+answer: Protokół oparty na łańcuchu bloków może spełnić tylko dwa z następujących kryteriów, decentralizacja, bezpieczeństwo i skalowalność.
 wrong_answers:
   - Protokół oparty na łańcuchu bloków może spełnić tylko jedno z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
   - Protokół oparty na łańcuchu bloków może spełnić wszystkie z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.

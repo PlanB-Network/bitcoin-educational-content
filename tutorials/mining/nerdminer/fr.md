@@ -25,7 +25,7 @@ Vous pouvez également acheter un kit NerdMiner déjà pré-assemblé chez plusi
 - [DécouvreBitcoin](https://shop.decouvrebitcoin.com/products/nerd-miner?_pos=1&_psq=nerd&_ss=e&_v=1.0)
 - [BitMaker](https://bitronics.store/shop/)
 
-Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le rebooter pour changer de réseau wifi. Ces étapes sont faites pour des utilisateurs Windows, si vous utilisez un OS linux veuillez effecturer les [étapes préliminaires](#etapes-preliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
+Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le redémarrer pour changer de réseau wifi. Ces étapes sont destinées pour des utilisateurs Windows, si vous utilisez un système d'exploitation Linux, veuillez effecturer les [étapes préliminaires](#etapes-preliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
 
 # Installation du logiciel NerdMiner_v2
 
@@ -35,9 +35,9 @@ L'installation du logiciel est grandemment simplifier grâce à l'utilisation du
 
 Tout d'abord, il faut vous rendre sur le [flasher NM2 en ligne](https://bitmaker-hub.github.io/diyflasher/).
 
-Puis sélectionnez le firmware correspondant à votre ESP-32. La plupart du temps c'est celui par défaut : le T-Display S3. Puis cliquer sur "Flash".
+Sélectionnez ensuite le firmware correspondant à votre ESP-32. La plupart du temps c'est celui par défaut : le T-Display S3. Cliquez maintenant sur "Flash".
 
-> ⚠️ Il est important que vous utilisiez le navigateur Chrome - celui-ci autorisant par défaut, l'utilisation de flasher et l'accès à vos port USB.
+> ⚠️ Il est important que vous utilisiez le navigateur Chrome car il permet, par défaut, l'utilisation de flasher et l'accès à vos port USB.
 
 ![](assets/webflasher.webp)
 
@@ -61,7 +61,7 @@ Puis sélectionnez "Configure WiFi".
 Vous allez pouvoir maintenant paramétrer votre Nerdminer.
 Tout d'abord commencez par vous connectez à votre réseau WiFi, en sélectionnant votre nom de réseau et en y ajoutant le mot de passe associé.
 
-Ensuite vous pouvez choisir la pool de minage à laquelle vous souhaitez participer. En effet, il est commun dans l'industrie du minage de bitcoin de mutualiser la puissance de calcul pour augmenter ses chances de trouver un bloc en échange de partager la récompense au prorata du hashrate fourni.
+Ensuite vous pouvez choisir la pool de minage à laquelle vous souhaitez participer. En effet, il est courant dans l'industrie du minage de bitcoin de mettre en commun la puissance de calcul pour augmenter ses chances de trouver un bloc en échange d'un partage de la récompense proportionnel à la puissance de hashrate fournie par chaque participant.
 Pour les NerdMiner, vous pouvez choisir de vous connectez à l'une de ces pools :
 
 | Pool URL          | Port  | URL                        | Status                                        |
@@ -89,9 +89,9 @@ Le logiciel NerdMinerv2 comprends 3 écrans différents, que vous pouvez accèse
 
 ![](assets/NM2-screens.webp)
 
-Si vous souhaitez rebooter votre NerdMiner, pour changez de réseau WiFi par exemple, il faut appuyez pendant 5 secondes le bouton du haut.
+Si vous souhaitez redémarrer votre NerdMiner, pour changez de réseau WiFi par exemple, il faut appuyez pendant 5 secondes le bouton du haut.
 
-Si vous appuyer une fois sur le bouton en bas, cela éteint votre NerdMiner. Cliquer deux fois permet d'inverser l'orientation de l'écran.
+Appuyer une fois sur le bouton du bas éteindra votre NerdMiner. Cliquer deux fois permet d'inverser l'orientation de l'écran.
 
 ### Étapes préliminaires pour utilisateurs linux
 
@@ -104,13 +104,13 @@ Voici les étapes pour que Chrome puisse détecter votre port sérial sur un lin
 - Entrez la commande suivante pour lister tous les ports :
   - ` dmesg | grep tty`
   - ou `ls /dev/tty*`
-- Pour être certain du port vous pouvez procéder par élimination en recommençant la commande sans que l'ESP-32 soit branché
+- Pour être certain du port vous pouvez procéder par élimination en relançant la commande sans que l'ESP-32 soit branché
 
 2. Changer la permission du port associé :
 
-- Par défaut, l'accès aux ports série peut nécessiter des permissions root, on va donc les rendre disponibles en ajoutant votre utilisateur au groupe `dialout`
+- Par défaut, l'accès aux ports série peut nécessiter des droits d'administrateur, nous les rendrons donc disponibles en ajoutant votre utilisateur au groupe `dialout`
   - `sudo usermod -a -G dialout YOUR_USERNAME`, remplacer `YOUR_USERNAME` par votre nom d'utilisateur.
-  - puis déconnectez-vous puis reconnectez-vous sous cet utilisateur, ou redémarrez le système pour vous assurer que les modifications de groupe prennent effet.
+  - Ensuite déconnectez-vous puis reconnectez-vous sous cet utilisateur, ou redémarrez le système pour vous assurer que les modifications de groupe prennent effet.
 
 Maintenant que vous ESP-32 est reconnu par votre système vous pouvez retourner à la [première étape](#etape-1-preparation-du-webflasher) pour l'installation du logiciel.
 

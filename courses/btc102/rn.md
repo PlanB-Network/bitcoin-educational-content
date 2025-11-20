@@ -1044,9 +1044,6 @@ Inyuma y’iyi ntangamarara ya Bitcoin (ishobora kuba yatwaye iminota irenga 5!)
 :::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
-:::id ya videwo=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f::
-
-
 Ni kubera iki Bitcoin ihambaye cane? Ico ni co kibazo nyamukuru c’iri shure. Yaba bifitaniye isano n’inyigisho zawe canke ingamba zawe zo gushiramwo amahera, ata gutahura neza akamaro ka Bitcoin, hariho ingorane yo gukevya uva ku mugambi wawe. Intumbero ni ukwama wibuka ingingo ngenderwako z’ishimikiro zo muri Bitcoin kugira ngo ingamba zawe zigume zihuye n’ivyo wemera.
 
 
@@ -1262,9 +1259,6 @@ Ubu ko twamaze gutohoza insobanuro ikomeye y’ubuhinga bwa Satoshi Nakamoto, ig
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 :::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
-
-
-:::id ya videwo=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d::
 
 
 Kuva yatanguzwa mu 2009 n’umuremyi w’izina ry’uruyeri Satoshi Nakamoto, Bitcoin yaratumye habaho ugutera imbere kw’inganda nshasha rwose; ubu rero zifise agaciro k’amamiliyaridi amajana y’amadolari. Naho amateka yayo ari make cane, ivyo bidukikije vyarateye imbere cane, bikaba vyarateye imbere cane mu myaka cumi iheze. Buri musi, abakinnyi bashasha (kuva ku bashoramari b’inzego n’amashirahamwe y’ubuhinga bwa none) basuka umutungo n’ubutunzi bwinshi kugira ngo bashobore gushiramwo ivyo bashaka muri uwo muce uriko urakura cane.
@@ -3464,9 +3458,6 @@ Turashimira cane [Pamela Morgan](https://x.com/pamelawjd) ku bikorwa vyiwe no ku
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 :::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
-
-
-:::id ya videwo=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Nimba warashitse aha, ubu uri mu bagize abantu bakeyi bamurikiwe! Abantu bake cane ni bo bashika kure gutyo na Bitcoin, kandi urashobora kwirata ingene washitse kure. Kumbure warakurikiye inyigisho zose zitangwa muri iri shure: Shiraho Hardware Wallet yawe ya mbere, Ushizeho ijambo ryawe ryo gusubirana, Ushizeho umugambi wo gupima amadolari (DCA), Uronse Bitcoin ufise canke udafise KYC, Mbere uteguye iragi ryawe rya Bitcoin. Intambwe yose wateye ni ugusimbuka uja ku busegaba nyakuri bw’ivy’amahera.

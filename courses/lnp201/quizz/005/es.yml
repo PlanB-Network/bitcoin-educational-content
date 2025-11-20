@@ -6,4 +6,4 @@ wrong_answers:
   - Crear scripts de bloqueo para proteger Bitcoin
 explanation: |
   La clave privada se utiliza para firmar transacciones para satisfacer un script y desbloquear el Bitcoin.
-reviewed: true
+  reviewed: true

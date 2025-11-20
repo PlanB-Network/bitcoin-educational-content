@@ -6,4 +6,4 @@ wrong_answers:
   - Se utiliza solo para enviar fondos a direcciones públicas.
 explanation: |
   Una dirección multifirma 2/2 requiere las firmas de ambas partes involucradas para que los fondos puedan ser gastados, lo cual se utiliza para la seguridad de los canales de Lightning.
-  reviewed: true
+reviewed: true

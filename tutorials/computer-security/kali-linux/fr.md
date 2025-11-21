@@ -1,11 +1,7 @@
 ---
-name: "Kali linux"
-description: "Installer Kali Linux sur VirtualBox, en clé USB bootable, ou en dual boot, étape par étape."
-author: Bened45
+name: Kali
+description: Installer Kali Linux sur VirtualBox, en clé USB bootable, ou en dual boot, étape par étape.
 ---
-
-
-# Kali Linux
 
 ![cover-kali](assets/cover.webp)
 

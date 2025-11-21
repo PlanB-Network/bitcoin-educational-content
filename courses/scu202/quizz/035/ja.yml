@@ -1,0 +1,9 @@
+question: Linuxマシン上で、システムのセキュリティを分析し、推奨事項を含む詳細なレポートを作成できるツールはどれか？
+answer: リニス
+wrong_answers:
+  - ギンプ
+  - ユーエフ
+  - シナプス
+explanation: |
+  Lynis は Linux 用の包括的なセキュリティ監査ツールで、システムの脆弱性や設定ミスをスキャンする。
+reviewed: false

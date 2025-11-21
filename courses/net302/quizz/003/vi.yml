@@ -1,0 +1,9 @@
+question: Trong cấu trúc mạng dạng bus, lợi thế chính là gì?
+answer: Chi phí lắp đặt thấp
+wrong_answers:
+  - Độ dự phòng cao
+  - Độ trễ thấp
+  - Tính khả dụng cao
+explanation: |
+  Xe buýt dựa vào một phương tiện vật lý duy nhất, giúp giảm chi phí lắp đặt nhưng cũng tạo ra một điểm lỗi duy nhất.
+reviewed: false

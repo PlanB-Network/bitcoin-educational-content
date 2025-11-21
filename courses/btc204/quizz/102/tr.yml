@@ -1,0 +1,10 @@
+question: Boltzmann skoru Bitcoin işlemleri bağlamında neyi temsil eder?
+answer: Bir girdinin belirli bir çıktı ile bağlantılı olduğu koşullu olasılık.
+wrong_answers:
+  - Transfer edilen toplam bitcoin miktarı.
+  - Bir işlemdeki girdi sayısı.
+  - Her bir girdi veya çıktı ile ilgili entropi.
+explanation: |
+  Boltzmann skoru, belirli bir girdinin belirli bir çıktı ile bağlantılı olduğu koşullu olasılığı gösterir. Bu nedenle, bir işlemdeki bir girdi ile bir çıktı arasındaki bir ilişkinin gerçekleşmesi koşullu olasılığının nicel bir ölçüsüdür ve bir dizi yorumda bu olayın olumlu gerçekleşme sayısının toplam olası gerçekleşme sayısına oranı üzerine kurulmuştur.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Organisasi mana yang mengawasi tata kelola teknis protokol Internet?
+answer: Dewan Arsitektur Internet
+wrong_answers:
+  - Komunitas Internet
+  - Konsorsium World Wide Web
+  - Institut Teknik Elektro dan Elektronika
+explanation: |
+  Internet Architecture Board (IAB) mengawasi tata kelola teknis dan mengoordinasikan evolusi protokol Internet.
+reviewed: false

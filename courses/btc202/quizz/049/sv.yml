@@ -1,0 +1,9 @@
+question: Vad är standardvärdet för dbcache-parametern i Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Som standard allokerar Bitcoin core 450 MiB (472 MB) till cacheminnet.
+reviewed: true

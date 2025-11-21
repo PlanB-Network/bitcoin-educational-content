@@ -1,0 +1,9 @@
+question: Vem är Saint-Augustin?
+answer: En av kyrkans fäder.
+wrong_answers:
+  - En av upplysningstidens filosofer.
+  - En astronom.
+  - En uppfinnare.
+explanation: |
+  Sankt Augustinus (354-430) är en av kyrkans fäder. Han var filosof och teolog och hade ett djupgående inflytande på det västerländska kristna tänkandet med verk som "Bekännelserna" och "Guds stad".
+reviewed: false

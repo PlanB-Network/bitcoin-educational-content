@@ -1,0 +1,9 @@
+question: Která organizace spravuje počáteční přidělování bloků IPv6 Address po celém světě?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA stojí na vrcholu hierarchie přidělování a deleguje bloky IPv6 pěti regionálním internetovým registrům (RIR).
+reviewed: false

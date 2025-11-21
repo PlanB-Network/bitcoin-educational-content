@@ -1,0 +1,9 @@
+question: När formulerades enligt Jacques Le Goff begreppet berättigat intresse för första gången?
+answer: På 1200-talet.
+wrong_answers:
+  - På 1000-talet...
+  - På 1100-talet.
+  - På 1300-talet...
+explanation: |
+  Jacques Le Goff placerar den första teoretiseringen av legitimt intresse på 1200-talet, där denna idé uppstod i samband med teologiska och ekonomiska reflektioner kring användningen av pengar och handelsbruk.
+reviewed: true

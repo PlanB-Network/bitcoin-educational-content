@@ -1,0 +1,8 @@
+question: Vad blev resultatet av blockkriget 2017?
+answer: Användare och noder avvisade den föreslagna ändringen att öka blockstorleken och aktiverade en uppdatering kallad SegWit.
+wrong_answers:
+  - Användare och noder accepterade den föreslagna ändringen att öka blockstorleken och aktiverade en uppdatering kallad SegWit.
+  - Användare och noder avvisade den föreslagna ändringen att öka blockstorleken och aktiverade inte några uppdateringar.
+  - Användare och noder accepterade den föreslagna ändringen att öka blockstorleken och aktiverade inte några uppdateringar.
+explanation: >-
+reviewed: true

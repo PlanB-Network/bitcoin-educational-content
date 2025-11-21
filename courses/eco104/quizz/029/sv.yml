@@ -1,0 +1,12 @@
+question: Vad är en av anledningarna till att Bitcoin förbrukar energi genom Mining?
+answer: Att tillhandahålla en kraftfull försvarsmekanism mot centralisering
+wrong_answers:
+  - Att göra Bitcoin dyrare att använda
+  - Att minska dess värde genom att öka energikostnaderna
+  - Att avskräcka nya användare från att ansluta sig till nätverket
+explanation: |
+  En av anledningarna till att Bitcoin förbrukar energi genom Mining är att
+  att tillhandahålla en kraftfull försvarsmekanism mot centralisering och
+  otillbörlig manipulation. Det distribuerade nätverket av miners hjälper till att förhindra
+  centraliserade enheter från att samarbeta med nätverket eller manipulera reglerna till sin fördel.
+reviewed: true

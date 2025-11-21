@@ -1,0 +1,9 @@
+question: Trình quản lý gói được Debian và Ubuntu sử dụng là gì?
+answer: APT
+wrong_answers:
+  - vòng quay mỗi phút
+  - Pacman
+  - Zypper
+explanation: |
+  Debian và Ubuntu sử dụng trình quản lý gói APT, dựa trên định dạng .deb, để quản lý việc cài đặt và cập nhật phần mềm.
+reviewed: false

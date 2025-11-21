@@ -1,0 +1,9 @@
+question: Koji alat komandne linije se preporučuje za Linux za uklanjanje svih metapodataka iz slike ili PDF fajla?
+answer: exiftool
+wrong_answers:
+  - beležnica
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool je moćan alat za prikazivanje i uklanjanje metapodataka iz širokog spektra fajlova (slike, PDF-ovi, audio, itd.).
+reviewed: false

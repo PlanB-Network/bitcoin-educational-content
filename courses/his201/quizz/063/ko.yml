@@ -1,0 +1,9 @@
+question: 2010년 7월에 Bitcoin 포럼의 첫 번째 비영어권 하위 포럼은 어떤 언어로 진행되었나요?
+answer: 러시아어
+wrong_answers:
+  - 프랑스어
+  - 독일어
+  - 이탈리아어
+explanation: |
+  7월 28일 마르티 말미에 의해 [개설](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241)되었습니다. 그 후 몇 달 동안 다른 언어가 추가되었습니다.
+reviewed: true

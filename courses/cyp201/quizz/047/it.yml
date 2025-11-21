@@ -1,9 +1,9 @@
-question: Qual è la dimensione in bit di un segmento binario utilizzato per creare ogni parola mnemonica?
+question: Qual è la dimensione in bit di un segmento binario utilizzato per creare ogni parola della mnemonica?
 answer: 11 bit
 wrong_answers:
   - 8 bit
   - 16 bit
   - 10 bit
 explanation: |
-  Ogni segmento di 11 bit corrisponde a una parola dalla lista standardizzata di 2048 parole in BIP39.
+  Ogni segmento di 11 bit corrisponde, nello standard BIP39, a una parola dalla lista di 2048.
 reviewed: false

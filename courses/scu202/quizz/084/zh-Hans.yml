@@ -1,0 +1,9 @@
+question: 在匿名性方面，Signal 的主要缺陷是什么？
+answer: 需要使用电话号码
+wrong_answers:
+  - 它不是开放源代码
+  - 它将信息存储在中央服务器上
+  - 它不会加密交换的文件
+explanation: |
+  Signal 需要电话号码才能注册，这就带来了潜在的可追踪性，尽管该协议确保了强大的加密功能。
+reviewed: false

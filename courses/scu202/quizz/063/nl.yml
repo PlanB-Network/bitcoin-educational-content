@@ -1,0 +1,9 @@
+question: Welke tekstbrowser, zonder Interface afbeeldingen of JavaScript ondersteuning, is de oudste die nog wordt onderhouden?
+answer: Lynx
+wrong_answers:
+  - Mullvad Browser
+  - Polypaan
+  - Vivaldi
+explanation: |
+  Lynx, dat in 1992 verscheen, werkt in tekstmodus, ondersteunt geen JavaScript en wordt nog steeds voor zeer specifieke doeleinden gebruikt.
+reviewed: false

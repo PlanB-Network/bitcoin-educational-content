@@ -1,10 +1,10 @@
-question: Jaka była stopa inflacji w Niemczech w październiku 1923 roku?
-answer: 29.50%.
+question: Jaki mechanizm zapewnia dodawanie nowego bloku do łańcucha bloków co dziesięć minut?
+answer: Regulacja trudności.
 wrong_answers:
-  - 200.9%.
-  - 50.51%.
-  - 25.98%.
+  - Regulacja prędkości.
+  - Regulacja czasu.
+  - Regulacja blokady.
 explanation: |
-  Miesiącem o najwyższej stopie inflacji w Niemczech był
-  Październik 1923 r., osiągając najwyższy poziom 29,50%.
+  Mechanizmem zapewniającym dodawanie nowego bloku do łańcucha bloków co dziesięć minut jest regulacja trudności.
+  Regulacja ta odbywa się co 2016 bloków, czyli co około dwa tygodnie.
 reviewed: true

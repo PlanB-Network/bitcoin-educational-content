@@ -1,0 +1,9 @@
+question: Hangi Android bileşeni tamamen açık kaynak kodludur ve topluluk tarafından denetlenebilir?
+answer: AOSP
+wrong_answers:
+  - Google Mobil Hizmetleri
+  - Play Store
+  - IOSP
+explanation: |
+  Yalnızca Android'in AOSP tabanı ücretsizdir. Yaygın olarak kullanılan Google Mobil Hizmetleri tescilli ve denetlenemez.
+reviewed: false

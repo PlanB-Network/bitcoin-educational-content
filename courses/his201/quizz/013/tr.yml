@@ -1,0 +1,9 @@
+question: Hangi araştırmacılar Satoshi Nakamoto tarafından Bitcoin white paper'da sertifikalı zaman damgası üzerine yaptıkları çalışmalar için alıntılanmıştır?
+answer: Stuart Haber ve Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak ve Marshall Pease
+  - Cynthia Dwork ve Moni Naor
+  - Ronald Rivest ve Adi Shamir
+explanation: |
+  Beyaz Kitap, Haber ve Stornetta'nın 1990'lardaki üç makalesine atıfta bulunmuştur. Haber ve Stornetta, 1992'den itibaren New York Times'da yayınlanan [ilk zaman damgalı Blockchain] (https: //www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain)'yi yaratmalarıyla bilinmektedir.
+reviewed: true

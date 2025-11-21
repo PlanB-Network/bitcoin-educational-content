@@ -5,5 +5,5 @@ wrong_answers:
   - I bit del messaggio vengono riorganizzati
   - I valori iniziali delle variabili rimangono invariati
 explanation: |
-  Ogni round modifica le variabili di stato utilizzando parole, costanti e operazioni logiche per diffondere l'informazione.
+  Ogni round modifica le variabili di stato utilizzando parole, costanti e operazioni logiche, al fine di riordinare l'informazione iniziale in maniera casuale.
 reviewed: false

@@ -1,0 +1,26 @@
+id: db154f4a-c59d-4afa-a0fb-bfd8715e2720
+name: Mozilla
+
+links:
+  website: https://www.mozillafoundation.org/
+  twitter: https://x.com/mozilla
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

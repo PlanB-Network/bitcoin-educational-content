@@ -1,0 +1,9 @@
+question: Vilken roll har nyckeln i symmetriska krypterings- och dekrypteringsprocesser?
+answer: Det används för att kryptera och dekryptera meddelandet
+wrong_answers:
+  - Den används endast för att dekryptera meddelandet
+  - Den används för att skapa en verifieringskod för meddelandeintegritet
+  - Den delas offentligt för att generate andra nycklar
+explanation: |
+  I symmetriska krypteringsscheman används samma privata nyckel både för att kryptera meddelandet när det skickas och för att dekryptera det när det tas emot.
+reviewed: false

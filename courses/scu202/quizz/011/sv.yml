@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan rörelsen för fri programvara och öppen källkod?
+answer: Prioritering av frihet eller teknisk effektivitet
+wrong_answers:
+  - Användning av C- eller assembler-språk
+  - Utveckling av mobila applikationer för inbyggda datorer eller PC
+  - Det internationella samfundets närvaro eller frånvaro
+explanation: |
+  Fri programvara handlar om användarfrihet; öppen källkod handlar om öppenhet och teknisk effektivitet.
+reviewed: false

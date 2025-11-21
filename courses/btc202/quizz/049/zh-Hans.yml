@@ -1,0 +1,9 @@
+question: Bitcoin core 中 dbcache 参数的默认值是多少？
+answer: 450 兆字节
+wrong_answers:
+  - 128 兆字节
+  - 1 GiB
+  - 4 GB
+explanation: |
+  默认情况下，Bitcoin core 会为缓存分配 450 MiB（472 MB）。
+reviewed: true

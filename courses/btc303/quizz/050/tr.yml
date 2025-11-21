@@ -1,0 +1,8 @@
+question: Ne tür bir saldırı tek bir varlığın birden fazla düğümü kontrol ederek birden fazla varlık gibi görünmesini içerir ve Bitcoin'ın mutabakat mekanizmasına karşı neden etkili değildir?
+answer: Sybil saldırısı; etkisizdir çünkü Bitcoin, düğümleri saymak yerine mutabakat için proof-of-work hesaplama gücünü kullanır
+wrong_answers:
+  - "Eclipse saldırısı; etkisiz çünkü Bitcoin tüm düğüm iletişimlerini gelişmiş kriptografik protokoller kullanarak şifreliyor"
+  - "Hizmet reddi saldırısı; Bitcoin trafiği ağdaki sağlıklı düğümler arasında otomatik olarak yeniden dağıttığı için etkisizdir"
+  - "Sosyal mühendislik saldırısı; etkisiz çünkü Bitcoin geliştiricileri manipülasyonu önlemek için resmi doğrulama yöntemleri kullanıyor"
+explanation: |
+  Sybil saldırısı, bir varlığın birden fazla düğümü kontrol ederek birçok ayrı varlık gibi görünmesi durumunda ortaya çıkar. Ancak bu saldırı Bitcoin'ye karşı etkisizdir çünkü ağ, düğümlerin sayılmasına veya ağ katılımcıları arasında demokratik oylamaya dayanmaz. Bunun yerine Bitcoin, ağ kararlarını düğüm sayısının değil hesaplama gücünün (hashpower) belirlediği proof-of-work mutabakatını kullanır. Bu, bir saldırganın ilgili hesaplama kaynakları olmadan çok sayıda düğüm çalıştırarak etki kazanmasını imkansız hale getirir.

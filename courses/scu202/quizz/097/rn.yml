@@ -1,0 +1,9 @@
+question: Ni iyihe serivisi isubirira ISP DNS kugira ngo ikingire ibanga ry’ivyo usaba ku rubuga?
+answer: Kane9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 ni umukozi wa DNS wa bose yibanda ku buzima bwite, acungera ivyicaro bibi kandi nta nkuru z’amazina azigama.
+reviewed: false

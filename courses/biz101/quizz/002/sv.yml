@@ -1,0 +1,9 @@
+question: Hur förbättrades valutanätverket i och med övergången från mynt till papperspengar?
+answer: Pengar blev mer lättrörliga och skalbara, vilket underlättade långdistanshandel och komplexa finansiella system.
+wrong_answers:
+  - Det eliminerade behovet av någon underliggande tillgång eller trust.
+  - Det stoppade omedelbart inflationen och stabiliserade ekonomin.
+  - Det gjorde det möjligt för regeringar att helt undvika att hantera pengarna Supply.
+explanation: |
+  Papperspengar var lättare och enklare att tillverka och transportera än mynt av ädelmetall. Denna portabilitet och standardisering förenklade transaktioner och gjorde det möjligt för ekonomier att växa bortom lokala regioner.
+reviewed: false

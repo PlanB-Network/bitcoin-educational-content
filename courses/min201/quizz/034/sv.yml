@@ -1,0 +1,13 @@
+question: Vad är målet för Bitcoin-communityn när det gäller nätverkshantering?
+answer: Att stärka distributionen, censurmotståndet och nätverkets anti-fragilitet.
+wrong_answers:
+  - Att höja priset på Bitcoin.
+  - För att göra transaktioner snabbare.
+  - För att öka svårighetsgraden för Mining.
+explanation: |
+  Bitcoin-communityn strävar ständigt efter att stärka
+  distribution, censurmotstånd och anti-fragiliteten
+  av nätverket. Detta är i linje med Bitcoin: s grundläggande
+  uppdrag att vara ett censurresistent värde Exchange
+  nätverk.
+reviewed: true

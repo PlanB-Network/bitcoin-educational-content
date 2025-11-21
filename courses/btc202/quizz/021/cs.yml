@@ -1,0 +1,9 @@
+question: Jaký faktor určuje vliv uzlu na pravidla konsensu?
+answer: Jeho ekonomická váha
+wrong_answers:
+  - Počet odchozích spojení
+  - Seniorita v síti
+  - Nic, protože každý uzel má jeden hlas
+explanation: |
+  Vliv na pravidla konsensu závisí na ekonomické aktivitě podporované uzlem, nikoli na jeho počtu.
+reviewed: true

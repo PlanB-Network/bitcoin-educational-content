@@ -1,5 +1,5 @@
 ---
-name: अचंभा
+name: Phoenix
 description: फीनिक्स Wallet को स्थापित करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)
@@ -87,7 +87,7 @@ description: फीनिक्स Wallet को स्थापित करन
 अपने Mnemonic वाक्यांश को सहेजने और प्रबंधित करने के उचित तरीके के बारे में अधिक जानकारी के लिए, मैं इस अन्य ट्यूटोरियल का अनुसरण करने की अत्यधिक अनुशंसा करता हूं, खासकर यदि आप शुरुआती हैं:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Interface के शीर्ष पर प्रदर्शित संदेश "*अपना Wallet सहेजें...*" पर क्लिक करें।
 
@@ -170,7 +170,7 @@ Interface के शीर्ष पर प्रदर्शित संदे
 ![Image](assets/fr/18.webp)
 
 
-Bitcoin प्राप्त करने वाले Address को दिखाने के लिए QR कोड को दाईं ओर स्वाइप करें। इसे वह राशि भेजें जो आप फीनिक्स के साथ जमा करना चाहते हैं।
+QR कोड को बाईं ओर खींचें ताकि एक Bitcoin प्राप्त करने वाला पता दिखाई दे। Phoenix में जमा करने के लिए इच्छित राशि उस पते पर भेजें।
 
 
 ![Image](assets/fr/19.webp)
@@ -260,9 +260,9 @@ Lightning Network के माध्यम से Sats प्राप्त �
 चीजों को एक कदम आगे ले जाने के लिए, एल्बी हब पर इस ट्यूटोरियल को देखें, जो आपके स्वयं के लाइटनिंग नोड को लॉन्च करने के लिए एक और अभिनव और उपयोग में आसान समाधान है:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-और Lightning Network के तकनीकी संचालन के बारे में अधिक जानने के लिए, आप Plan ₿ Network पर फैनिस मिचलाकिस का उत्कृष्ट निःशुल्क प्रशिक्षण पा सकते हैं:
+और Lightning Network के तकनीकी संचालन के बारे में अधिक जानने के लिए, आप Plan ₿ Academy पर फैनिस मिचलाकिस का उत्कृष्ट निःशुल्क प्रशिक्षण पा सकते हैं:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,5 @@
+---
+term: RELAIS
+---
+
+En el contexto de Proof-of-Work en la red Bitcoin, significa una herramienta cuya función principal es retransmitir los nuevos bloques válidos que se han encontrado. A veces se distingue entre el papel del Miner, que interviene en todo el proceso de Proof-of-Work, desde la construcción del bloque candidato hasta la difusión del bloque validado, y el papel del chopper, que se limita a participar en el hashing de un bloque sin intervenir en su selección o difusión. El papel del relé, por su parte, consiste en distribuir los nuevos bloques encontrados por un chopper. En el caso de los pools Mining, este papel de relé lo desempeña el propio pool. Esta función confiere al pool un gran poder sobre los choppers individuales. El término "relayer" también puede referirse a la persona o entidad que opera un relé.

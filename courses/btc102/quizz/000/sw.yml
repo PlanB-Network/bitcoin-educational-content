@@ -1,0 +1,9 @@
+question: Ni sifa gani za kawaida za mpango wa Ponzi katika mfumo wa ikolojia wa crypto?
+answer: Marejesho yaliyohakikishwa, uondoaji mgumu, na rufaa
+wrong_answers:
+  - Mapato ya chini, uondoaji mgumu, na uwazi kamili
+  - Marejesho yaliyohakikishwa, uondoaji mgumu, na hakuna mfumo wa rufaa
+  - Marejesho yaliyohakikishwa, uondoaji rahisi, na hakuna mfumo wa rufaa
+explanation: |
+  Tabia hizi zinaweza kuonyesha mpango wa piramidi. Ikiwa utaziangalia katika mradi, kuwa mwangalifu sana.
+reviewed: false

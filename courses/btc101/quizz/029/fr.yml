@@ -1,9 +1,13 @@
-question: Pourquoi l'or n'est-il pas un matériel portable ?
-answer: Parce qu'il est dense et lourd, ce qui le rend encombrant à transporter en grandes quantités.
+question: Que signifie le terme fiduciaire dans le contexte des monnaies ?
+answer: Il se réfère aux monnaies qui ont de la valeur uniquement en raison de la confiance dans l'institution centrale qui les régule.
 wrong_answers:
-  - Parce qu'il est trop précieux pour être déplacé.
-  - Parce qu'il ne peut pas être facilement façonné en formes plus petites.
-  - Parce qu'il est liquide à température ambiante.
+  - Il se réfère aux monnaies qui sont soutenues par l'or et sont émises par de petites banques commerciales.
+  - Il se réfère aux monnaies qui ont de la valeur uniquement pour les transactions fiduciaires.
+  - Il se réfère aux monnaies qui sont uniquement utilisées au sein d'une institution spécifique.
 explanation: |
-  L'or est dense et lourd, ce qui signifie que transporter de grandes quantités peut être physiquement difficile. Ce poids le rend moins pratique pour le transport par rapport à des matériaux plus légers.
+  Les monnaies fiduciaires ne sont pas soutenues par une
+  marchandise physique comme l'or ou l'argent. Leur valeur
+  est dérivée de la confiance que les
+  gens ont dans les institutions qui les émettent et les
+  régulent.
 reviewed: true

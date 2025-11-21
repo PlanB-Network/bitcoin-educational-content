@@ -1,0 +1,9 @@
+question: Ni kubera iki ubuhinga bwo gushiramwo amakuru yemejwe bushobora guhangana n’ibitero vy’amajambo yatoranijwe?
+answer: Kubera ko uguhindura kwose kw'inyandiko y'ibanga n'umuterabwoba gutuma iyo tag idakora
+wrong_answers:
+  - Kuko ikoresha ubuhinga bumwe bwo gupfuka .
+  - Kubera ko uguhindura kwose kw’inyandiko y’ibanga n’umuterabwoba gutuma urufunguzo rudakora .
+  - Kuko ipfuka ubutumwa gusa ata n'ikimenyetso .
+explanation: |
+  Igishushanyo c’ugushiramwo amakuru yemewe gikoreshwa kugira ngo kimenye ihinduka ry’inyandiko y’ibanga, ivyo bikaba bituma iyo nkuru idakora iyo umuntu agerageje kuyihindura kandi bikaba bituma umuntu adashobora guterwa n’inyandiko y’ibanga yatowe.
+reviewed: false

@@ -1,0 +1,11 @@
+question: 1826'dan önce Arjantin'in para birimi neydi?
+answer: İspanyol doları.
+wrong_answers:
+  - Arjantin pesosu.
+  - Ulusal para birimi peso.
+  - Gerçek peso.
+explanation: |
+  Arjantin 1826'dan önce İspanyol dolarını kullanıyordu. Bağımsızlığından sonra
+  1816'da İspanyol realine dayalı kendi para birimini yürürlüğe koymuş ve bunun sonucunda
+  benzer bir para biriminin oluşturulması.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the state of an entry in the ip neigh cache when the IP/MAC mapping is valid and recent?
+answer: REACHABLE
+wrong_answers:
+  - CONNECTED
+  - VALID
+  - STALE
+explanation: |
+  The REACHABLE state means that the IP/MAC mapping is known and functional in the neighborhood cache.
+reviewed: false

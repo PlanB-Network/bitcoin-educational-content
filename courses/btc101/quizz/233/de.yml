@@ -1,12 +1,13 @@
-question: Was ist der Hauptzweck des Lightning-Netzwerks?
-answer: Mikrotransaktionen zu erleichtern.
+question: Was ist einer der potenziellen Vorteile des Lightning-Netzwerks für Inhaltsproduzenten?
+answer: Sie wären motiviert, qualitativ hochwertige Inhalte zu erstellen, um die Aufmerksamkeit der Nutzer zu behalten.
 wrong_answers:
-  - Den Wert von Bitcoin zu erhöhen.
-  - Das Bitcoin-Protokoll zu ersetzen.
-  - Eine neue Kryptowährung zu erschaffen.
-explanation: >-
-  Das Lightning-Netzwerk ist eine Second-Layer-Lösung für das Bitcoin-Protokoll,
-  die darauf abzielt, Mikrotransaktionen zu erleichtern, also Transaktionen von sehr geringem Wert,
-  die andernfalls aufgrund hoher Gebühren und langer Bestätigungszeiten
-  auf der Bitcoin-Blockchain unpraktisch wären.
+  - Sie könnten mehr für ihre Inhalte verlangen.
+  - Sie könnten ein breiteres Publikum erreichen.
+  - Sie könnten Inhalte schneller produzieren, um die Aufmerksamkeit der Nutzer zu behalten.
+explanation: |
+  Mit dem Lightning-Netzwerk würden Inhaltsproduzenten
+  motiviert, qualitativ hochwertige Inhalte zu erstellen, um
+  die Aufmerksamkeit der Nutzer zu behalten. Die Nutzer wiederum
+  würden nur für die Inhalte bezahlen, die sie konsumieren, wodurch
+  Vorauszahlungen für Abonnements entfallen würden.
 reviewed: true

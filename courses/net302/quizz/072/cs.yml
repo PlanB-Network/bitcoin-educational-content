@@ -1,0 +1,9 @@
+question: Jaký typ bloku IPv6 umožňuje společnosti zachovat prefix i při změně poskytovatele internetových služeb?
+answer: PI (nezávislý poskytovatel)
+wrong_answers:
+  - PA (agregovatelný poskytovatel)
+  - LIR (místní internetový registr)
+  - IP (vyměnitelný poskytovatel)
+explanation: |
+  Blok PI (Provider Independent) přiděluje organizaci přímo RIR, nezávisle na poskytovateli internetových služeb.
+reviewed: false

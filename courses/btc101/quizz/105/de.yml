@@ -1,11 +1,15 @@
-question: Warum ist Datenschutz im Kontext von Bitcoin wichtig?
-answer: Um das Risiko zu minimieren, dass Ihre Gelder zurückverfolgt werden.
+question: Warum sollten Sie Bitcoins ohne KYC kaufen?
+answer: Um Ihre Privatsphäre zu gewährleisten.
 wrong_answers:
-  - Um den Wert Ihrer Bitcoins zu verringern.
-  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden.
-  - Um Steuern auf Ihre Bitcoins zu zahlen.
+  - Um die Registrierung aller Bitcoin-Nutzer sicherzustellen.
+  - Um zu einem niedrigen Preis zu kaufen.
+  - Um zu einem niedrigen Preis zu verkaufen.
 explanation: |
-  Datenschutz ist im Kontext von Bitcoin wichtig, um
-  das Risiko zu minimieren, dass Ihre Gelder zurückverfolgt werden können, was
-  Ihre Überwachung erleichtern kann.
+  Bitcoins ohne KYC zu kaufen bedeutet, Bitcoins zu erwerben, ohne
+  die standardmäßigen Know Your Customer
+  Verifizierungsverfahren zu durchlaufen, die viele Börsen und Plattformen
+  verlangen. Ein Hauptgrund, warum Einzelpersonen diesen
+  Weg wählen könnten, ist, ihre Privatsphäre zu bewahren, indem sichergestellt wird, dass ihre
+  persönlichen Details und finanziellen Aktivitäten
+  nicht offengelegt werden.
 reviewed: true

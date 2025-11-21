@@ -1,0 +1,9 @@
+question: Quale browser open source, sviluppato da un'organizzazione no-profit, è il principale esponente del motore Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Coraggioso
+  - Safari
+  - Cromo
+explanation: |
+  Mozilla Firefox, sviluppato dalla Mozilla Foundation, è il principale browser basato su Gecko, famoso per il suo Commitment alla privacy.
+reviewed: false

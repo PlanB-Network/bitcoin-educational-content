@@ -1,0 +1,9 @@
+question: Millist käsurea tööriista soovitatakse Linuxi jaoks, et eemaldada kõik metaandmed pildi või PDF-faili failist?
+answer: exiftool
+wrong_answers:
+  - märkmik
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool on võimas tööriist metaandmete kuvamiseks ja eemaldamiseks mitmesugustest failidest (pildid, PDF-d, audio jne).
+reviewed: false

@@ -1,0 +1,8 @@
+question: منحنی پذیرش Bitcoin مشابه چیست؟
+answer: یک منحنی S.
+wrong_answers:
+  - یک منحنی U.
+  - یک منحنی V.
+  - یک منحنی W.
+explanation: >-
+reviewed: true

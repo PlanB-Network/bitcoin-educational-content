@@ -1,0 +1,9 @@
+question: MTU değeri bir ağda neyi temsil eder?
+answer: Parçalanma olmadan iletilebilecek maksimum çerçeve boyutu
+wrong_answers:
+  - Parçalama olmadan bir yönlendiricinin maksimum depolama kapasitesi
+  - Parçalanma olmadan bir ağdaki maksimum ana bilgisayar sayısı
+  - Parçalanma olmadan minimum IP başlık uzunluğu
+explanation: |
+  MTU (Maksimum İletim Birimi), bir segment üzerinde parçalanma gerektirmeden iletilebilecek maksimum çerçeve boyutunu tanımlar.
+reviewed: false

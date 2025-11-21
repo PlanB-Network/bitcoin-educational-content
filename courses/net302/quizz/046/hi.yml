@@ -1,0 +1,9 @@
+question: ईथरनेट नेटवर्क पर IP Address को MAC Address के साथ जोड़ने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?
+answer: एआरपी
+wrong_answers:
+  - फाड़ना
+  - डीएनएस
+  - ओएसपीएफ
+explanation: |
+  Address रिज़ॉल्यूशन प्रोटोकॉल (ARP) स्थानीय नेटवर्क पर IP पतों को MAC पतों से मैप करता है।
+reviewed: false

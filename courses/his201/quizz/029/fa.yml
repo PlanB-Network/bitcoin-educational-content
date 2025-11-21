@@ -1,0 +1,9 @@
+question: جان گیل‌مور، یکی از اعضای بنیان‌گذار سایفرپانک‌ها، در ژانویه ۲۰۰۹ چه انتقادی به اختراع Satoshi ناکاموتو وارد کرد؟
+answer: Bitcoin سیاره را آلوده می‌کند
+wrong_answers:
+  - Bitcoin تسهیل‌کننده فرار مالیاتی است.
+  - Bitcoin در برابر حملات Sybil آسیب‌پذیر است.
+  - Bitcoin تورمی‌زدا است
+explanation: |
+  او [از Bitcoin انتقاد کرد](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) که برق مصرف می‌کند و دی‌اکسید کربن (یک گاز گلخانه‌ای) تولید می‌کند.
+reviewed: false

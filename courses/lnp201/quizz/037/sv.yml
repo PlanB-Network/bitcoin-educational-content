@@ -1,0 +1,9 @@
+question: Vad händer om en betalning via HTLC inte genomförs inom utsatt tid?
+answer: Betalningen avbryts och pengarna går tillbaka till avsändaren.
+wrong_answers:
+  - Betalningen behålls av den sista förmedlande noden
+  - Pengarna fördelas till alla noder på vägen
+  - Medlen är permanent spärrade
+explanation: |
+  Om en HTLC löper ut utan att hemligheten avslöjas avbryts betalningen och pengarna återgår till avsändaren, vilket förhindrar att någon mellanliggande nod kan behålla pengarna.
+reviewed: false

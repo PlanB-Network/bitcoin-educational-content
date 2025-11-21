@@ -1,0 +1,8 @@
+question: Jaký je hlavní technický rozdíl mezi úložištěm Bitcoin Core na GitHubu a tisíci dalších kopií téhož úložiště distribuovaných po celém světě?
+answer: Neexistuje žádný technický rozdíl; slouží jako sociální ohnisko rozvoje
+wrong_answers:
+  - Repozitář GitHub obsahuje kryptografické podpisy, které jej ověřují jako oficiální verzi
+  - Úložiště GitHub má speciální práva k revizím, která zabraňují neoprávněným úpravám kódové základny
+  - Úložiště GitHub udržuje hlavní klíč, který ověřuje platnost všech ostatních kopií úložiště po celém světě
+explanation: |
+  Podle analýzy Jamesona Loppa citované v kapitole je repozitář Bitcoin Core na GitHubu technicky totožný se všemi ostatními kopiemi. Jeho význam je čistě sociální - stal se ústředním bodem koordinace vývoje. Úložiště slouží spíše jako záležitost pohodlí než jako technická autorita, a pokud by zmizelo, přirozeně by vznikl nový ohniskový bod. To dokládá decentralizovanou povahu Bitcoin, kdy žádné úložiště nemá technickou převahu nad ostatními.

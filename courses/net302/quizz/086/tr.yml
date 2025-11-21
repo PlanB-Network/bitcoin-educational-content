@@ -1,0 +1,9 @@
+question: Bir Linux sistemindeki aktif TCP ve UDP bağlantılarını analiz etmek için hangi komut önerilir?
+answer: ss
+wrong_answers:
+  - arp
+  - ip bağlantısı
+  - eğerup
+explanation: |
+  Ss komutu, tüm etkin ağ bağlantılarını hızlı bir şekilde görüntülemek için netstat'ın yerini alır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uburyo bumwe ubuhe bwo kwirinda ubuhendanyi bwo kuri Internet?
+answer: Suzuma akaranga k’urubuga uriko urarondera, canecane mu kugenzura extension n’izina ry’urubuga.
+wrong_answers:
+  - Koresha imihora ya Wi-Fi ya bose.
+  - Koresha imbuga zidakoresha umurongo wa HTTPS.
+  - Koresha imbuga zidafise urufunguzo rwerekanwa.
+explanation: |
+  Kugenzura akaranga k’urubuga uriko urarondera ni ikintu gihambaye cane kugira ngo wirinde ubuhendanyi bwo kuri Internet. Ivyo ushobora kubigira mu kugenzura extension n’izina ry’urubuga.
+reviewed: true

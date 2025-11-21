@@ -1,0 +1,9 @@
+question: Bir akış şifresinde anahtar dizisi ve mesajı birleştirmek için tipik olarak hangi işlem kullanılır?
+answer: XOR
+wrong_answers:
+  - Çarpma İşlemi
+  - Modüler vites değiştirme
+  - Her harfin yer değiştirmesi
+explanation: |
+  Bir akış şifresinde, XOR işlemi genellikle anahtar dizisini mesajla birleştirmek için kullanılır çünkü basit ve tersine çevrilebilirdir.
+reviewed: false

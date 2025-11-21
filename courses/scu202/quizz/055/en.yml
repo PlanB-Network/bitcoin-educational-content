@@ -1,0 +1,9 @@
+question: Which rendering engine is the most widespread today, and powers the majority of modern browsers?
+answer: Blink
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, developed from a WebKit Fork by Google, is today the dominant rendering engine, powering Chrome, Edge, Opera, Brave, Vivaldi and more.
+reviewed: false

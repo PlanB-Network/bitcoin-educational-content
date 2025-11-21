@@ -1,0 +1,9 @@
+question: Welche Organisation vergibt Versionsnummern für IP-Protokolle?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Die Internet Assigned Numbers Authority (IANA) verwaltet die Versionsnummern des IP-Protokolls Assignment und die Zuweisung von Protokollbereichen.
+reviewed: false

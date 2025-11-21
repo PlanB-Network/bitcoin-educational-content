@@ -6,4 +6,4 @@ wrong_answers:
   - Custodial Wallet
 explanation: |
   Un wallet watch-only utilise uniquement les clés publiques pour afficher les soldes et transactions, sans risque d'exposition des clés privées.
-reviewed: false
+reviewed: true 

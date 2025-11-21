@@ -1,0 +1,9 @@
+question: Wat is een voordeel van Lightning Network betalingen voor winkeliers in het verkooppunt?
+answer: Lightning-betalingen worden bijna onmiddellijk vereffend en vereisen niet meerdere tussenpersonen, waardoor kosten en vertragingen bij de vereffening worden beperkt.
+wrong_answers:
+  - Lightning-betalingen hebben weken nodig om bevestigd te worden en vereisen veel papierwerk.
+  - Lightning-betalingen vinden alleen plaats als ze zijn goedgekeurd door de autoriteit van een centrale bank.
+  - Lightning-betalingen kunnen na de verkoop naar believen worden teruggedraaid door de koper.
+explanation: |
+  De Lightning Network maakt transacties sneller en goedkoper door off-chain vereffening mogelijk te maken. Handelaren kunnen vrijwel direct geld ontvangen, met minimale kosten en zonder afhankelijk te zijn van traditionele betalingstussenpersonen.
+reviewed: false

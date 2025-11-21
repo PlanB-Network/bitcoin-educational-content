@@ -1,0 +1,13 @@
+---
+term: ZUIA VITA
+---
+
+Inarejelea kipindi cha mjadala mkali na migogoro ndani ya jumuiya ya Bitcoin kati ya 2015 na 2017. Mgogoro huu ulizingatia ikiwa ukubwa wa block, ambao ulikuwa umepunguzwa hadi megabyte 1 tangu 2010 na Satoshi Nakamoto, inapaswa kuongezwa ili kuruhusu Bitcoin kuchakata miamala zaidi kwa kila block, na hivyo kuboresha ukubwa.
+
+
+Wafuasi wa kuongeza ukubwa wa vitalu (inayojulikana kama "*vizuizi vikubwa*"), wakiongozwa na wasanidi wa mapema kama vile Jeff Garzik, Gavin Andresen, na Mike Hearn, watu mashuhuri katika mfumo wa ikolojia kama vile Roger Ver, pamoja na sehemu kubwa ya kampuni kuu za Mining, walisema kwamba ongezeko hili lilikuwa muhimu ili kupunguza ada za ununuzi na kuongeza uwezo wa Bitcoin'. Waliamini kuwa mabadiliko haya yanaweza kufanywa bila kuathiri usalama wa mfumo. Kwa upande mwingine, wapinzani wa ongezeko la ukubwa wa vitalu (inayojulikana kama "*vizuizi vidogo *"), hasa watengenezaji wa Bitcoin Core (Pieter Wuille, Peter Todd, Gregory Maxwell, Wladimir van der Laan, Luke Dashjr...) na sehemu ya jumuiya ya kiufundi, walidai kuwa marekebisho haya yataweka mfumo mkuu wa uendeshaji kutokana na kuongezeka kwa nodi. Waliangazia masuluhisho ya uwezekano wa pili wa Layer, kama vile Lightning Network, ambayo inaweza kusaidia idadi kubwa ya shughuli bila kuhitaji kubadilisha itifaki ya msingi.
+
+
+Mjadala kuhusu mbinu ya kuongeza kasi ya Bitcoin umekuwa ukiendelea tangu angalau 2010, kwa jaribio la kwanza la kuongeza ukubwa wa kizuizi mnamo Oktoba ya mwaka huo kupitia [kiraka kilichopendekezwa na Jeff Garzik](https://bitcointalk.org/index.php?topic=1347.0). Hata hivyo, ilikuwa wakati wa Vita vya Blocksize kati ya 2015 na 2017 kwamba migogoro ilikuwa kali zaidi, na majaribio kadhaa ya uma (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, SegWit, SegWit2X, na Bitcoin Cash), mikakati ya propaganda na ushawishi, pamoja na mashambulizi ya kibinafsi. Kuachwa kwa Hard Fork SegWit2X mnamo Novemba 8, 2017, kufuatia upinzani mkubwa kutoka kwa jumuiya ("NO2X"), mara nyingi huonekana kama tukio la kuashiria mwisho wa Vita vya Blocksize, wakati casus belli wakati mwingine huchukuliwa kuwa sasisho 0.11A ya Bitcoin XT mteja, ambayo 1 inaweza kutekelezwa tarehe 2011, BIP. ilisema kuwa Vita vya Blocksize viliisha mnamo Agosti 24, 2017, tarehe ambayo Soft Fork SegWit ilianzishwa kufuatia kampeni ya kupendelea "UASF".
+
+Kwa Kiingereza, kwa ujumla tunarejelea "Vita ya Kuzuia" kama nomino sahihi. Baadhi wanaweza kutafsiri neno hili mara kwa mara kama "vita vya kuzuia" au "block size war."

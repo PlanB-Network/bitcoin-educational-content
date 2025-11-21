@@ -1,0 +1,9 @@
+question: 如果 Wallet 依賴於第三方節點，會有什麼風險？
+answer: 監視與審查的風險
+wrong_answers:
+  - 自動 Double-spending 的風險
+  - 遺失私人密碼匙的風險
+  - 遺失風險與監控
+explanation: |
+  第三方節點可以分析或阻止您的交易，甚至將您的資料與您的身份聯繫起來。
+reviewed: true

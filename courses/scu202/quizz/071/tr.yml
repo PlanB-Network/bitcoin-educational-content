@@ -1,0 +1,9 @@
+question: Neden çoğu Android cihaz Google Mobil Hizmetleri önceden yüklenmiş olarak geliyor?
+answer: Üreticiler Google ile bir lisans sözleşmesi imzalamalıdır
+wrong_answers:
+  - Avrupa mevzuatının gerektirdiği hizmetler
+  - GMS kaynak kodu ücretsizdir
+  - GMS tüm Linux cihazlarında zorunludur
+explanation: |
+  Üreticiler, amiral gemisi uygulamalarından (Play Store, Haritalar, vb.) faydalanmak için GMS'yi entegre etmelidir, bu da Google ile sıkı lisans anlaşmaları imzalamak anlamına gelir.
+reviewed: false

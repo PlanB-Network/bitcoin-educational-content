@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto yazılarında açıkça hangi özel para sistemine atıfta bulunmuştur?
+answer: Özgürlük Rezervi
+wrong_answers:
+  - e-altın
+  - Özgürlük Doları
+  - e-Bullion
+explanation: |
+  Bu para birimi, e-gold ve Liberty Dollar'ın aksine, Bitcoin sırasında hala aktifti. Satoshi ayrıca 2002 yılında oluşturulan dijital bir altın para birimi olan Pecunix'ten de [bahsetmiştir](https: //bitcointalk.org/index.php?topic=87.msg807#msg807).
+reviewed: true

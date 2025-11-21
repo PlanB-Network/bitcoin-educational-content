@@ -1,0 +1,9 @@
+question: Vilka är de typiska egenskaperna hos ett Ponzi-system i kryptoekosystemet?
+answer: Garanterad avkastning, svåra uttag och remitteringar
+wrong_answers:
+  - Låg avkastning, svåra uttag och full transparens
+  - Garanterad avkastning, svåra uttag och inget värvningssystem
+  - Garanterad avkastning, enkla uttag och inget värvningssystem
+explanation: |
+  Dessa egenskaper kan tyda på ett pyramidspel. Om du observerar dem i ett projekt ska du vara mycket försiktig.
+reviewed: false

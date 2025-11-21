@@ -1,0 +1,9 @@
+question: 當一個名稱同時具有兩種類型的 Address 時，哪一種演算法或文件可規範 IPv4 與 IPv6 之間的選擇？
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 定義當 IPv4 或 IPv6 Address 都可用於同一主機名稱時，用來決定使用 IPv4 或 IPv6 Address 的演算法。
+reviewed: false

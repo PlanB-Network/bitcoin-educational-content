@@ -1,0 +1,9 @@
+question: Vilken webbläsare med öppen källkod, som utvecklats av en ideell organisation, är den ledande representanten för Gecko-motorn?
+answer: Mozilla Firefox
+wrong_answers:
+  - Modig
+  - Safari
+  - Krom
+explanation: |
+  Mozilla Firefox, utvecklad av Mozilla Foundation, är den ledande Gecko-baserade webbläsaren, känd för sin Commitment till integritet.
+reviewed: false

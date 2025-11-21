@@ -1,0 +1,9 @@
+question: کدام یک از نرم‌افزارهای زیر یک راه‌حل حسابداری Bitcoin نیست؟
+answer: Sparrow
+wrong_answers:
+  - کوین‌ترکر
+  - کوینلی
+  - زن‌لجر
+explanation: |
+  Sparrow یک راه‌حل حسابداری Bitcoin نیست، در حالی که دیگران هستند (این یک نرم‌افزار Bitcoin Wallet است).
+reviewed: false

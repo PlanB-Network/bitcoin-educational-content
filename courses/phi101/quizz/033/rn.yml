@@ -1,0 +1,9 @@
+question: Nk’uko umunyabwenge w’Umuroma yitwa Sénèque abivuga, agahimbare kagizwe n’iki?
+answer: Ivy'ingeso nziza .
+wrong_answers:
+  - Ubutunzi
+  - Umunezero
+  - Ivyo vyose biri hejuru
+explanation: |
+  Ku bwa Sénèque, umunezero nyakuri uri mu gukurikiza ingeso nziza, ivyo bikaba bituma umuntu abaho ahuza n’ubwenge kandi akaronka amahoro yo mu mutima aramba, ataco yigeze akora ku munezero canke ku butunzi.
+reviewed: true

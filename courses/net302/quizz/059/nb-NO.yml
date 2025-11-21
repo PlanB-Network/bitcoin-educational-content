@@ -1,0 +1,9 @@
+question: Hvilken kommando kan brukes til å legge til en statisk IP Address til en Interface på Linux?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Kommandoen "ip addr add" er den moderne metoden for å tilordne en statisk IP Address til et nettverk Interface på Linux.
+reviewed: false

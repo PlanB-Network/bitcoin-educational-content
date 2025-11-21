@@ -1,0 +1,9 @@
+question: Qual è il vantaggio di un computer portatile dedicato rispetto a un mini-PC?
+answer: La batteria funge da inverter
+wrong_answers:
+  - È più silenzioso
+  - Dura più a lungo
+  - Consuma meno energia
+explanation: |
+  La batteria di un computer portatile funge da gruppo di continuità naturale, evitando arresti improvvisi in caso di interruzione dell'alimentazione.
+reviewed: true

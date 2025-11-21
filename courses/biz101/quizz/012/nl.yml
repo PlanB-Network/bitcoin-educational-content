@@ -1,0 +1,9 @@
+question: Waarom kan de Lightning Network worden vergeleken met "e-mail voor betalingen"?
+answer: Omdat het naadloos, globaal en zonder toestemming Exchange mogelijk maakt, net zo eenvoudig als het versturen van een bericht.
+wrong_answers:
+  - Omdat het betalingen verstuurt via traditionele e-mailproviders.
+  - Omdat het alleen werkt als bijlage bij gewone e-mailberichten.
+  - Omdat het gebruikersbalansen opslaat in de body van een e-mail.
+explanation: |
+  Net zoals e-mail een revolutie teweegbracht in communicatie door tussenpersonen te verwijderen en iedereen in staat te stellen wereldwijd berichten te versturen, vereenvoudigt en versnelt de Lightning Network transacties, waardoor waardeoverdracht net zo wrijvingsloos en toegankelijk wordt als e-mail.
+reviewed: false

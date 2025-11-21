@@ -1,0 +1,9 @@
+question: Hva må du ofte gjøre etter at du har installert en kritisk OS-oppdatering for å bruke oppdateringene fullt ut?
+answer: Start datamaskinen på nytt
+wrong_answers:
+  - Tilbakestill passord
+  - Koble fra Wi-Fi-nettverket
+  - Slett midlertidige filer
+explanation: |
+  Noen oppdateringer av operativsystemet, for eksempel oppdateringer av kjernen eller kritiske biblioteker, trer først i kraft etter en omstart av maskinen.
+reviewed: false

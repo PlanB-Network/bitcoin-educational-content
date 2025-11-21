@@ -1,0 +1,9 @@
+question: Vem etablerade den första Exchange-tjänsten mellan Bitcoin och dollarn i oktober 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Denna tjänst var rudimentär: utbyten förhandlades fram via e-post och betalningar gjordes via PayPal. Priset för Exchange baserades på Newlibertystandards egna kostnader för Mining.
+reviewed: true

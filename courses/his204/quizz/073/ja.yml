@@ -1,0 +1,8 @@
+question: ヴォルテールは『L'Homme aux quarante écus』で何に取り組んでいるのか？
+answer: フィジオクラートの租税理論
+wrong_answers:
+  - フィジオクラートの貨幣理論
+  - フィジオクラートの政治理論
+  - フィジオクラートの価値論
+explanation: |
+  ヴォルテールは、フィジオクラートの提案した土地への単一課税を嘲笑する哲学的物語「L'Homme aux quarante écus」で、フィジオクラートの課税理論を批判している。

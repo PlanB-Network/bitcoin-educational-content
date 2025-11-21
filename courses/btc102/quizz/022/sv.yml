@@ -1,0 +1,9 @@
+question: Vilken inverkan har expansiv penningpolitik på fiat-valutan?
+answer: De späder ut värdet av besparingar
+wrong_answers:
+  - De ökar köpkraften
+  - De stabiliserar räntorna
+  - De garanterar ekonomisk tillväxt
+explanation: |
+  Massivt pengatryckande leder till en depreciering av köpkraften, vilket gradvis urholkar spararens köpkraft.
+reviewed: false

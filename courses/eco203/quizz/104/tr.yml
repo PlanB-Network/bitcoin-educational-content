@@ -1,0 +1,9 @@
+question: Bastiat'nın güvenlik ve adaletin ötesinde devlet müdahalesine yönelik eleştirileri nelerdir?
+answer: Ayrıcalıkları teşvik eder ve sivil topluma zarar verir
+wrong_answers:
+  - Ekonomik kaynakların daha iyi dağıtılmasını sağlar
+  - Toplumsal barışı tesis eder ve çatışmaları sınırlar
+  - Zenginliğin adil bir şekilde dağılımını garanti eder
+explanation: |
+  Bastiat, aşırı devlet müdahalesinin ayrıcalıklar yarattığına ve özel girişimleri sınırlandırarak sivil topluma zarar verdiğine inanmaktadır.
+reviewed: false

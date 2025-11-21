@@ -1,0 +1,9 @@
+question: Quale comando visualizza il contenuto dettagliato di una cartella, compresi i file nascosti?
+answer: ls -lah
+wrong_answers:
+  - mostra cartella
+  - elenco-file -dettagliato
+  - viewdir -a
+explanation: |
+  "ls -lah" visualizza i file e le cartelle in dettaglio, compresi i file nascosti (che iniziano con un punto).
+reviewed: false

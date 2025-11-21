@@ -1,0 +1,9 @@
+question: CBC ve OFB yöntemlerinde rastgele bir Nonce kullanmanın önemi nedir?
+answer: Aynı veriler için bile her şifreleme oturumunun benzersiz olmasını sağlar.
+wrong_answers:
+  - Şifreleme işlemi boyunca anahtar uzunluğunu azaltır.
+  - Şifrelemeyi daha hızlı hale getirir.
+  - Algoritmanın kodunu insanlar için daha güzel hale getirir.
+explanation: |
+  CBC ve OFB yöntemleri her oturum için rastgele bir Nonce kullanarak her şifrelemenin benzersiz olmasını sağlar ve bu da aynı verilerden yararlanan saldırıları önler.
+reviewed: false

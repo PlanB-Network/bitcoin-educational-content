@@ -1,0 +1,9 @@
+question: 建議使用哪一種開放原始碼應用程式來掃描具有協同資料庫的食品？
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - 營養分數
+  - 食品顧問
+explanation: |
+  OpenFoodFacts 是一個免費、社群式的專案，資料透明，而 Yuka 則是以不透明、非開放原始碼的模式為基礎。
+reviewed: false

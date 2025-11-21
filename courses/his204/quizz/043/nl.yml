@@ -1,0 +1,8 @@
+question: Voor welk boek zat Mirabeau in de gevangenis?
+answer: De theorie van belastingheffing
+wrong_answers:
+  - L'Ami des Hommes
+  - Essay over de aard van de handel in het algemeen
+  - De sociale Contract
+explanation: |
+  Mirabeau werd gevangen gezet voor "La Théorie de l'Impôt", een werk waarin hij het Franse belastingsysteem bekritiseerde.

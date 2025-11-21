@@ -1,8 +1,11 @@
-question: Phương pháp tiêu chuẩn để khôi phục ví của bạn là gì?
-answer: Nhập cụm từ ghi nhớ của bạn vào bất kỳ phần mềm ví nào.
+question: Mục đích của ví Bitcoin là gì?
+answer: Để lưu trữ khóa riêng nhằm thực hiện giao dịch bitcoin.
 wrong_answers:
-  - Lưu cụm từ ghi nhớ của bạn trong một tệp số.
-  - Viết cụm từ ghi nhớ của bạn lên bảng trắng.
-  - Chia sẻ cụm từ ghi nhớ của bạn với một người bạn đáng tin cậy.
-explanation:
-  Phương pháp tiêu chuẩn để sao lưu khóa riêng trong một ví Bitcoin là bằng cách nhập cụm từ ghi nhớ của bạn vào bất kỳ phần mềm ví nào. Điều này cho phép bạn khôi phục ví của mình.
+  - Sử dụng tài nguyên thiết bị để đào bitcoin.
+  - Mua bitcoin thông qua khóa công khai.
+  - Lưu trữ bitcoin trên thiết bị.
+explanation: |
+  Ví Bitcoin là một loại phần mềm được sử dụng để
+  lưu trữ các khóa riêng cho phép bạn thực hiện giao dịch
+  bitcoin của mình.
+reviewed: true

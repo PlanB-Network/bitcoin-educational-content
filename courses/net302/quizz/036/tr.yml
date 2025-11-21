@@ -1,0 +1,9 @@
+question: IPv6'ya geçiş neden gerekli hale geldi?
+answer: IPv4 Address tükenmesi
+wrong_answers:
+  - IPv4 üzerinde NAT protokolünün başarısız olması
+  - Alt ağ maskesi uyumsuzluğu
+  - DHCP desteğinin sonu
+explanation: |
+  IPv4 adreslerinin tükenmesi, çok daha büyük bir Address alanı sağlayan IPv6'ya geçişe neden oldu.
+reviewed: false

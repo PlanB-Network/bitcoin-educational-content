@@ -1,10 +1,12 @@
-question: Koliko je iznosila inflacija u Nemačkoj u oktobru 1923?
-answer: 29.50%.
+question: Koji je mehanizam koji osigurava da se novi blok dodaje u Blockchain svakih deset minuta?
+answer: Podešavanje težine.
 wrong_answers:
-  - 200.9%.
-  - 50.51%.
-  - 25.98%.
+  - Podešavanje brzine.
+  - Podešavanje vremena.
+  - Podešavanje bloka.
 explanation: |
-  Mesec sa najvišom stopom inflacije u Nemačkoj bio je
-  oktobar 1923, dostigavši vrhunac od 29,50%.
+  Mehanizam koji osigurava da se novi blok doda na
+  Blockchain svakih deset minuta je prilagođavanje težine.
+  Ovo prilagođavanje se dešava svakih 2016 blokova, ili otprilike
+  svake dve nedelje.
 reviewed: true

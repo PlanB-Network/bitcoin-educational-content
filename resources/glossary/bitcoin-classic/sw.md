@@ -1,0 +1,5 @@
+---
+term: Bitcoin CLASSIC
+---
+
+Pendekezo la itifaki ya Fork iliyozinduliwa mnamo Januari 2016 kufuatia kuachwa kwa Bitcoin XT. Ililenga kuongeza kikomo cha ukubwa wa block kutoka MB 1 hadi MB 2 kwa kutumia BIP109, mbinu iliyochukuliwa kuwa ya wastani ikilinganishwa na Bitcoin XT, ambayo ilipendekeza ongezeko kubwa zaidi (8 MB + mara mbili kila baada ya miaka miwili). Mpango huu uliongozwa na watengenezaji Gavin Andresen na Jeff Garzik, na uliungwa mkono na makampuni makubwa katika mfumo wa ikolojia kama Coinbase. Bitcoin Classic iliibuka katika muktadha wa kuongezeka kwa Vita vya Blocksize na iliainishwa kati ya kambi kubwa ya wazuiaji. Ingawa Bitcoin Classic ilivutia umakini na usaidizi kutoka kwa wachezaji wengi wa sekta, utaratibu wake wa kuwezesha, ambao ulihitaji usaidizi wa 75% kutoka kwa wachimbaji, ulikuwa na utata na hatimaye ulichangia kushindwa kwake.

@@ -1,0 +1,9 @@
+question: 具有象征意义的 Linux 吉祥物叫什么名字？
+answer: 礼服
+wrong_answers:
+  - 杜克大学
+  - 野兽
+  - daemon
+explanation: |
+  自 1996 年以来，Linux 内核的官方吉祥物一直是 Tux，由 Larry Ewing 创造。
+reviewed: false

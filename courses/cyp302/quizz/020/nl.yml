@@ -1,0 +1,9 @@
+question: Waar staat de modulo-operatie voor in de wiskunde?
+answer: De rest van een divisie
+wrong_answers:
+  - Het quotiënt van een deling
+  - Twee keer het startnummer
+  - Het getal dat deelt zonder rest
+explanation: |
+  De modulo-bewerking houdt in dat de rest van een deling wordt bepaald, bijvoorbeeld 25 mod 4 is gelijk aan 1 omdat de rest van de deling 1 is.
+reviewed: false

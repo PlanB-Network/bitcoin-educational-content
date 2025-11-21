@@ -1,0 +1,9 @@
+question: 엄브렐 홈과 엄브렐OS의 차이점은 무엇인가요?
+answer: Umbrel Home은 사전 설치형 미니 서버, umbrelOS는 직접 설치형 미니 서버입니다
+wrong_answers:
+  - 엄브렐 홈은 무료, 엄브렐OS는 유료입니다
+  - 엄브렐 홈은 Bitcoin을 지원하지 않으며, 엄브렐OS는 지원합니다
+  - 엄브렐 홈은 오픈 소스, 엄브렐OS는 독점 제품입니다
+explanation: |
+  엄브렐 홈은 엄브렐OS가 이미 설치된 상태로 턴키 판매되며, 엄브렐OS는 자체 하드웨어에 직접 설치할 수 있습니다.
+reviewed: true

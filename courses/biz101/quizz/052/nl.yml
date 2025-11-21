@@ -1,0 +1,9 @@
+question: Welk detail is NIET expliciet gedocumenteerd in een typisch Bitcoin transactie csv bestand zoals beschreven in de cursus?
+answer: Het gebruikte scripttype
+wrong_answers:
+  - De transactiedatum
+  - De equivalente fiatwaarde
+  - De Bitcoin adressen
+explanation: |
+  Een typisch Bitcoin transactie csv bestand vermeldt meestal datum, bedrag, fiat equivalent en Bitcoin adressen, maar niet het gebruikte scripttype.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mitä ovat Cantillon-vaikutukset?
+answer: Rahan määrän lisääminen maassa vaikuttaa tulonjakoon
+wrong_answers:
+  - Rahan määrän lisääminen vaikuttaa ihmisten käyttäytymiseen
+  - Rahan määrän kasvattaminen vaikuttaa julkisen velan määrään
+  - Rahan määrän lisäämisellä ei ole merkittävää vaikutusta
+explanation: |
+  Cantillonin vaikutukset kuvaavat sitä, miten rahan määrän kasvu Supply vaikuttaa eri tavoin hintoihin ja tuloihin talouden eri sektoreilla. Uuden rahan lisäys ei leviä tasaisesti, mikä aiheuttaa vääristymiä ja epätasa-arvoa.

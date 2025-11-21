@@ -1,0 +1,8 @@
+question: 為什麼根據 Abbé de Saint-Pierre 的說法，Exchange 永遠且必然是正和遊戲？
+answer: 如果兩個人自由選擇加入 Contract，那是因為他們各自看到這樣做的好處
+wrong_answers:
+  - 貨物轉手越頻繁，國家就越富有
+  - 進行貿易的國家永遠比自給自足的國家富裕
+  - 因為神的旨意
+explanation: |
+  Abbé de Saint-Pierre 和其他自由主義思想家一樣，相信自願 Exchange 是互惠互利的。如果兩個人同意Exchange，那是因為他們都覺得自己有所得，否則他們不會這麼做。

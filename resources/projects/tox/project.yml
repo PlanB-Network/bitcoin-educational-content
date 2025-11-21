@@ -1,0 +1,25 @@
+id: f77762d1-831a-4a95-8808-1143102fc6c3
+name: Tox
+
+links:
+  website: https://tox.chat/
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - privacy
+  - personal-security
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-13
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

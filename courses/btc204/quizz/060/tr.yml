@@ -1,0 +1,10 @@
+question: Bir etikette hangi bilgiler belirtilmelidir?
+answer: Bir UTXO'ın kökeni.
+wrong_answers:
+  - Bir UTXO'in oluşturulma tarihi.
+  - Bir UTXO boyutunda.
+  - Bir UTXO'ün oluşturulmasıyla ilişkili ücret miktarı.
+explanation: |
+  Etiketleme, bir UTXO'ün kaynağını hatırlamaya yardımcı olan iyi bir uygulamadır.
+  
+reviewed: false

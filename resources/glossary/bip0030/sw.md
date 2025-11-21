@@ -1,0 +1,5 @@
+---
+term: BIP0030
+---
+
+Pendekezo la uboreshaji linalohusisha Soft Fork lilitekelezwa mnamo Machi 15, 2012, ili kutatua tatizo la vitambulishi vinavyorudiwa vya muamala. Kabla ya BIP30, iliwezekana kitaalamu kuwa na miamala miwili tofauti na kitambulisho sawa cha muamala (txid) katika Blockchain. Hii ilitokea mara mbili kwa miamala ya coinbase: ile iliyo kwenye block 91,880 ina txid sawa na coinbase ya block 91,722, na ile iliyo kwenye block 91,842 ina txid sawa na coinbase ya block 91,812. BIP30 ilitatua hitilafu hii kwa kuweka sheria mpya rahisi: hakuna muamala mpya unaoweza kuwa na txid sawa na shughuli iliyorekodiwa hapo awali isipokuwa muamala wa awali ulikuwa umetumika kabisa (yaani, matokeo yake yote yalikuwa yametumika). Soft Fork hii iliamilishwa kwa kutumia mbinu ya siku ya bendera. Kwa hivyo, ni moja ya UASF za kwanza.

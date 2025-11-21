@@ -1,0 +1,9 @@
+question: Mit welchem Befehl kann man Software aus den offiziellen Ubuntu-Repositories installieren?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum installieren
+  - sudo snap create
+  - installations-Software
+explanation: |
+  Der Befehl "sudo apt install" installiert ein Softwarepaket über den APT-Paketmanager, die native Methode unter Ubuntu.
+reviewed: false

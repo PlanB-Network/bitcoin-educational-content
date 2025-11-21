@@ -1,0 +1,13 @@
+question: Cold Wallet ni iki?
+answer: Wallet iri mu gikoresho c’umubiri kibika imfunguruzo zawe kandi kidahuye na internet.
+wrong_answers:
+  - Wallet ariyo Cold ku mubiri yo gukorako.
+  - Wallet idakundwa n’abakoresha Bitcoin.
+  - Wallet igenewe kubika amafaranga makeyi y’ama bitcoins.
+explanation: |
+  Cold Wallet ni ijambo rikoreshwa mu kudondora Bitcoin Wallet.
+  iyo ibitswe ku gikoresho kitahuye n’ivyo .
+  interineti. Ivyo bituma idashobora gushikirwa n’iterabwoba ryo kuri Internet,
+  ariko kandi bisigura ko Wallet idashobora gushikwako cane ku 2019.
+  ibikorwa vy’umusi ku musi.
+reviewed: true

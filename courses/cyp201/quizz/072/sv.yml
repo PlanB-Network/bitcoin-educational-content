@@ -1,0 +1,9 @@
+question: Vad betyder apostrofen (') eller h:et i en avledningssökväg?
+answer: En härdad härledning
+wrong_answers:
+  - En normal härledning
+  - En extern härledning
+  - En icke-standardiserad härledning
+explanation: |
+  En apostrof anger att härledningen är hård, vilket innebär att en privat nyckel från föräldern krävs för generate för den underordnade nyckeln.
+reviewed: false

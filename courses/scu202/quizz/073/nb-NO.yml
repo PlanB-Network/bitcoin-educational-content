@@ -1,0 +1,9 @@
+question: Hvilken Android-komponent er fortsatt helt åpen kildekode og kan revideres av fellesskapet?
+answer: AOSP
+wrong_answers:
+  - Googles mobiltjenester
+  - Play-butikken
+  - IOSP
+explanation: |
+  Bare Androids AOSP-base er gratis. De mye brukte Google Mobile Services er proprietære og kan ikke revideres.
+reviewed: false

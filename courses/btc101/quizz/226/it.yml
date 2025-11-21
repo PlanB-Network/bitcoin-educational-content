@@ -1,10 +1,12 @@
-question: Che tipo di rete crea Lightning Network?
-answer: Una rete di canali di pagamento.
+question: Qual è lo scopo principale di Lightning Network?
+answer: Facilitare i micro-pagamenti.
 wrong_answers:
-  - Una rete di nodi di mining.
-  - Una rete di nodi blockchain.
-  - Una rete di scambi di criptovalute.
+  - Aumentare il valore di Bitcoin.
+  - Sostituire il protocollo Bitcoin.
+  - Creare una nuova criptovaluta.
 explanation: >-
-  Lightning Network funziona come una rete di canali di pagamento, consentendo
-  transazioni istantanee con commissioni basse per il mittente.
+  Lightning Network è una soluzione di secondo livello al protocollo Bitcoin
+  che mira a facilitare i micro-pagamenti, ovvero transazioni di valore molto basso
+  che altrimenti sarebbero impraticabili a causa delle alte commissioni e dei lunghi tempi di conferma
+  sulla blockchain di Bitcoin.
 reviewed: vero

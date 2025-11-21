@@ -1,11 +1,9 @@
-question: Apa status Bitcoin di beberapa negara?
-answer: Dilarang dan dikriminalisasi
+question: Apa itu trilema blockchain?
+answer: Sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek; desentralisasi, keamanan, dan skalabilitas.
 wrong_answers:
-  - Sepenuhnya diadopsi
-  - Sebagian diadopsi
-  - Tidak diatur
-explanation: >-
-  Teks tersebut menyebutkan bahwa beberapa negara telah melarang dan mengkriminalisasi
-  penggunaan Bitcoin, menambah kompleksitas adopsi Bitcoin berdasarkan budaya,
-  era, dan negara-negara.
+  - Sebuah protokol berbasis blockchain hanya dapat memenuhi satu dari desentralisasi, keamanan, dan skalabilitas.
+  - Sebuah protokol berbasis blockchain dapat memenuhi semua aspek desentralisasi, keamanan, dan skalabilitas.
+  - Sebuah protokol berbasis blockchain tidak dapat memenuhi aspek desentralisasi, keamanan, dan skalabilitas sama sekali.
+explanation: |
+  Trilema blockchain merujuk pada tantangan bahwa sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek: desentralisasi, keamanan, dan skalabilitas.
 reviewed: false

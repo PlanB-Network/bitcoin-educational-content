@@ -1,11 +1,11 @@
-question: Je, ni sifa gani kuu mbili za Bitcoin?
-answer: Bitcoin ni itifaki ya kompyuta na kitengo cha fedha.
+question: Inamaanisha nini kwa Bitcoin kuwa sarafu ya upande wowote?
+answer: Haidhibitiwi na chombo au taasisi yoyote.
 wrong_answers:
-  - Bitcoin ni sarafu halisi na Wallet ya kidijitali.
-  - Bitcoin ni aina ya hisa na aina ya bondi.
-  - Bitcoin ni sarafu ya serikali kuu na iliyogatuliwa.
+  - Inadhibitiwa na chombo au taasisi moja.
+  - Inadhibitiwa na serikali.
+  - Inatumika tu kwa shughuli kubwa.
 explanation: |
-  Bitcoin ni itifaki ya kompyuta inayotumia teknolojia
-  kama kriptografia na Blockchain, na pia pesa
-  kitengo ambacho kinatumika kwa shughuli.
+  Bitcoin ni sarafu ya upande wowote, kumaanisha kuwa haidhibitiwi
+  na chombo au taasisi yoyote, kwa hivyo kila mtumiaji anayo sawa
+  haki. Hiki ni kipengele muhimu cha ugatuaji wake wa madaraka.
 reviewed: true

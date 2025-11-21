@@ -1,0 +1,20 @@
+id: 1f93ae87-6117-481b-9b48-3998d668a2c9
+start_date: 2025-06-18 08:00:00
+end_date: 2025-06-18 16:00:00
+timezone: Europe/Prague
+address_city_country: Prague, Czech Republic
+name: Dev/Hack/Day BTC Prague 2025
+type: workshop
+description: Dev/Hack/Day is a dedicated one-day, in-person-only conference
+  happening right before BTC Prague 2025—designed for Bitcoin devs, hackers,
+  tech enthusiasts, and curious minds who want to dive deep into breakthrough
+  ideas and cutting-edge technology.
+language:
+  - en
+links:
+  website: https://btcprague.com/dev-hack-day/
+project_id: 0726adb9-4d45-4e5c-af2c-0a26db29d9b3
+tags:
+  - development
+  - software
+  - proof-of-work

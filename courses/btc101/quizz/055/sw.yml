@@ -1,10 +1,12 @@
-question: Kiwango cha mfumuko wa bei nchini Ujerumani mnamo Oktoba 1923 kilikuwa kipi?
-answer: 29.50%.
+question: Ni utaratibu gani unaohakikisha kizuizi kipya kinaongezwa kwa Blockchain kila baada ya dakika kumi?
+answer: Urekebishaji wa ugumu.
 wrong_answers:
-  - 200.9%.
-  - 50.51%.
-  - 25.98%.
+  - Marekebisho ya kasi.
+  - Marekebisho ya wakati.
+  - Marekebisho ya kuzuia.
 explanation: |
-  Mwezi uliokuwa na kiwango cha juu zaidi cha mfumuko wa bei nchini Ujerumani ulikuwa
-  Oktoba 1923, kilele cha 29.50%.
+  Utaratibu unaohakikisha kizuizi kipya kinaongezwa kwa
+  Blockchain kila dakika kumi ni marekebisho ya ugumu.
+  Marekebisho haya hufanyika kila vitalu vya 2016, au karibu
+  wiki mbili.
 reviewed: true

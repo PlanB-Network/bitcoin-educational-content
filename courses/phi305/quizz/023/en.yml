@@ -1,0 +1,9 @@
+question: What is determinism?
+answer: A conception of the world in which there is neither contingency nor chance.
+wrong_answers:
+  - A worldview determined by God.
+  - A form of atheism.
+  - A superstition.
+explanation: |
+  Determinism is a worldview in which there is neither contingency nor chance. Every event is the necessary consequence of prior causes, according to immutable natural laws.
+reviewed: false

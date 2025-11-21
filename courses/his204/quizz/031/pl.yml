@@ -1,0 +1,8 @@
+question: Które narody Vincent de Gournay proponuje jako modele?
+answer: Anglia i Holandia
+wrong_answers:
+  - Holandia i Szwajcaria
+  - Szkocja i Anglia
+  - Hiszpania i Portugalia
+explanation: |
+  Gournay podziwiał systemy gospodarcze Anglii i Holandii, które były bardziej liberalne i przyjazne dla handlu niż systemy francuskie.

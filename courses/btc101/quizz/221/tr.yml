@@ -1,0 +1,8 @@
+question: Lightning Network üzerindeki işlemler için ücretler son derece düşüktür, genellikle ...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

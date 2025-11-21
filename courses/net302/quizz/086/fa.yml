@@ -1,0 +1,9 @@
+question: کدام دستور برای تجزیه و تحلیل اتصالات فعال TCP و UDP در یک سیستم لینوکس توصیه می‌شود؟
+answer: اس اس
+wrong_answers:
+  - آرپ
+  - ip link
+  - ifup
+explanation: |
+  دستور ss جایگزین netstat می‌شود تا به سرعت تمامی اتصالات شبکه فعال را نمایش دهد.
+reviewed: false

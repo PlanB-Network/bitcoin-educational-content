@@ -1,0 +1,9 @@
+question: Hur säkerställer RGB konfidentialitet i hanteringen av digitala tillgångar?
+answer: Genom att endast registrera kryptografiska åtaganden på Blockchain
+wrong_answers:
+  - Genom att kryptera alla end-to-end-transaktioner på Blockchain
+  - Genom att dölja användarnas identiteter via decentraliserade mixers
+  - Använda endast tillfälliga Bitcoin-adresser för varje överföring
+explanation: |
+  Genom att endast lagra On-Chain-kryptografiska bevis håller RGB känslig Contract- och överföringsinformation konfidentiell.
+reviewed: false

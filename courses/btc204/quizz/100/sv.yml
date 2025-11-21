@@ -1,0 +1,10 @@
+question: Vad innebär entropi i samband med en kedjeanalys av Bitcoin?
+answer: Analytikernas brist på kunskap om transaktionens exakta konfiguration.
+wrong_answers:
+  - Den hastighet med vilken information om en transaktion sprids över nätverket.
+  - Den kryptografiska säkerhetsnivån för de digitala signaturer som används i transaktionen.
+  - Storleken på den grupp av identiska UTXO:er i vilken ett mynt är gömt.
+explanation: |
+  Entropi används för att mäta analytikernas brist på kunskap om den exakta konfigurationen av transaktionen. Med andra ord, ju högre entropi, desto svårare blir det för analytikerna att identifiera flödena av bitcoins mellan in- och utgångar.
+  
+reviewed: false

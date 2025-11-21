@@ -1,0 +1,9 @@
+question: Que termo se refere aos três primeiros bytes de um MAC Address?
+answer: OUI (Identificador Único Organizacional)
+wrong_answers:
+  - SID (Identificador de sessão)
+  - LUI (Local Unique Identifier)
+  - PAN (Número Address físico)
+explanation: |
+  O OUI é atribuído pelo IEEE e identifica o fabricante da placa de rede num MAC Address.
+reviewed: false

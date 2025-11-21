@@ -1,0 +1,9 @@
+question: Ni suluhisho gani linalopendekezwa kwa kufanya malipo ya gharama ya chini ya Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Akaunti ya benki
+  - RGB Layer
+explanation: |
+  Umeme huwezesha miamala ya haraka na ya bei nafuu kwa ununuzi wa kila siku. Ni zana bora kwa mtumiaji anayefanya kazi.
+reviewed: false

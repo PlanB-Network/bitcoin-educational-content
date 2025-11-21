@@ -1,9 +1,0 @@
-question: Koje su neki od novčanika koje bi paranoični Bitcoiner mogao koristiti?
-answer: Samourai Wallet za Hot Wallet, Coldcard i/ili seed Signer za Cold Wallet
-wrong_answers:
-  - Coinbase Wallet za Hot Wallet, Ledger za Cold Wallet
-  - Binance Wallet za Hot Wallet, Trezor za Cold Wallet
-  - PayPal za Hot Wallet, Bankovni račun za Cold Wallet
-explanation: |
-  Poglavlje pominje Samourai Wallet za Hot Wallet i Coldcard i/ili seed Signer za Cold Wallet kao novčanike koje bi paranoični Bitcoiner mogao koristiti.
-reviewed: false

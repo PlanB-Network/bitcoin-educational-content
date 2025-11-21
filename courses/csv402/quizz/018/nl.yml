@@ -1,0 +1,9 @@
+question: Welke operaties bepalen de evolutie van een Smart contract in RGB?
+answer: State Transition, Genesis en State Extension
+wrong_answers:
+  - Seal Creatie, Contract Waarneming en Eindvalidatie
+  - UTXO Overdracht, Proefopwekking en Hash Commitment
+  - Overgangsbundels, afdichtingen voor eenmalig gebruik en Valency aanmaak
+explanation: |
+  Deze operaties creëren of wijzigen de toestand van de Contract, terwijl ze de geldigheid ervan garanderen via Bitcoin ankers.
+reviewed: false

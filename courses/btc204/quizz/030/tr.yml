@@ -1,0 +1,9 @@
+question: Dahili işlem sezgisellerinin amacı nedir?
+answer: Exchange'ı tanımlamak için.
+wrong_answers:
+  - Hileli işlemleri gerçek zamanlı olarak tespit etmek.
+  - İşlem modellerini belirlemek için.
+  - Aynı varlığa ait bir kümeyi tanımlamak için.
+explanation: |
+  Dahili sezgisel yöntemler, kullanıcıyı sonraki işlemlerde gözlemlemek amacıyla Exchange'i tanımlamamızı sağlar.
+reviewed: false

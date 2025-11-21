@@ -1,0 +1,9 @@
+question: Açık bir iletişim ortamında kriptografi neden çok önemlidir?
+answer: İletişim kanalı ele geçirilse bile verileri güvence altına alır.
+wrong_answers:
+  - İletişimi tüm ağlar için görünmez hale getirir.
+  - Yerel ağlara yapılan saldırıları önler.
+  - Fiziksel kabloların yerini güvenli iletişim alır.
+explanation: |
+  Kanalların izlenebildiği açık bir iletişim ortamında kriptografi, potansiyel saldırıların varlığında bile değiş tokuş edilen verileri koruyarak güvenliği sağlar.
+reviewed: false

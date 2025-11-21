@@ -1,0 +1,8 @@
+question: Wat is de grootste zorg met betrekking tot de milieukosten van Bitcoin Mining?
+answer: Het energieverbruik.
+wrong_answers:
+  - De productie van ASIC's.
+  - Het recyclen van ASIC's.
+  - De kosten van elektriciteit.
+explanation: >-
+reviewed: true

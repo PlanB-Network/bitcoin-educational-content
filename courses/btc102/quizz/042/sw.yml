@@ -1,0 +1,9 @@
+question: Je, ni ubora gani wa kisaikolojia ni muhimu kwa mtu mwenye hodler?
+answer: Ustahimilivu wa kihisia
+wrong_answers:
+  - Msukumo wa kihisia
+  - Uchokozi wa kihisia
+  - Uvumi wa kihisia
+explanation: |
+  Ustahimilivu wa kihisia huruhusu mtu kuvumilia mabadiliko ya soko bila kuogopa.
+reviewed: false

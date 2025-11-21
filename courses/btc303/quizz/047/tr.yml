@@ -1,0 +1,8 @@
+question: Basit Sabotaj Saha El Kitabı taktiklerine göre, bir düşman Bitcoin'ın açık geliştirme sürecini en etkili şekilde nasıl bozabilir?
+answer: Tartışmalara sızarak, ilgisiz konular hakkında bitmek bilmeyen endişeler ve yerleşmiş tartışmaları yeniden gündeme getirerek ilerlemeyi durdurmak
+wrong_answers:
+  - "Bitcoin Core geliştiricilerinin kişisel bilgisayarlarına ve sunucularına karşı dağıtılmış hizmet reddi saldırıları başlatarak"
+  - Yazılım güncellemelerini reddetmeleri ve protokolün eski sürümlerini süresiz olarak muhafaza etmeleri için mining havuzlarına rüşvet vererek
+  - Geliştiricileri Bitcoin projelerinden uzaklaştırmak için daha iyi özellikler sunan rakip kripto para birimleri oluşturarak
+explanation: |
+  Basit Sabotaj Saha El Kitabı, ilgisiz endişelerle ilerlemeyi durdurmak ve yerleşmiş tartışmaları tekrarlamak da dahil olmak üzere, organizasyonları içeriden bozmak için sızma taktiklerini özetledi. Bitcoin geliştirme herkese açık olduğu için bu sosyal mühendislik taktikleri gerçek bir tehdit oluşturmaktadır. Diğer seçenekler, kılavuzda açıklanan dahili sabotaj yöntemlerinden ziyade, Bitcoin'ün geliştirme sürecinin açık ve işbirliğine dayalı doğasından yararlanmaya odaklanan harici saldırıları temsil etmektedir.

@@ -1,0 +1,9 @@
+question: Ni nini kinapaswa kuepukwa kabisa ili kuhakikisha usalama wa bitcoins zako?
+answer: Kuweka bitcoins zako kwenye jukwaa la Exchange
+wrong_answers:
+  - Kwa kutumia chanzo-wazi Hardware Wallet
+  - Kutumia Hot Wallet kwa shughuli za kila siku
+  - Njia anuwai za kuhifadhi
+explanation: |
+  Kanuni "Sio funguo zako, si bitcoins zako" inaonyesha umuhimu wa kushikilia funguo zako za kibinafsi. Kwenye jukwaa la Exchange, bitcoins zako zinakabiliwa na hatari zisizo za lazima.
+reviewed: false

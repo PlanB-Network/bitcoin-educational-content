@@ -1,0 +1,9 @@
+question: 什麼類型的 DNS 記錄用來對應網域名稱與 IPv6 Address？
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  類型 AAAA (quad-A) 用於對應網域名稱與 IPv6 Address，而類型 A 則保留給 IPv4。
+reviewed: false

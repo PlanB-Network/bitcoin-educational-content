@@ -1,0 +1,9 @@
+question: Vilka åtgärder definierar utvecklingen av en Smart contract i RGB?
+answer: State Transition, Genesis och State Extension
+wrong_answers:
+  - Skapande av Seal, observation av Contract och slutlig validering
+  - UTXO Överföring, generering av bevis och Hash Commitment
+  - Övergångspaket, förseglingar för engångsbruk och skapande av Valency
+explanation: |
+  Dessa operationer skapar eller ändrar tillståndet för Contract, samtidigt som de garanterar dess giltighet via Bitcoin-förankringar.
+reviewed: false

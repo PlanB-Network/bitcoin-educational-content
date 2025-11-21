@@ -1,0 +1,8 @@
+question: Dans sa brochure sur les assignats, comment se présente Dupont de Nemours ?
+answer: Comme un Ami du Peuple
+wrong_answers:
+  - Comme un Ami du Roi
+  - Comme un Ami des Libertés
+  - Comme un Ami des Bourgeois
+explanation: |
+  Dupont de Nemours se présentait comme un "Ami du Peuple", soulignant ainsi son souci du bien-être de la population.

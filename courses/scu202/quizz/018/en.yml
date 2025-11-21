@@ -1,0 +1,9 @@
+question: What is the package manager used by Debian and Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian and Ubuntu use the APT package manager, based on the .deb format, to manage software installation and updating.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat moet de belangrijkste zorg zijn als je Bitcoin bezit?
+answer: De veiligheid van je geld.
+wrong_answers:
+  - De waarde van Bitcoin in dollars.
+  - De legaliteit van het bezitten van bitcoins.
+  - De toestemming om je geld uit te geven.
+explanation: |
+  Als je bitcoins bezit, is de belangrijkste zorg de veiligheid
+  van je fondsen. Dit komt omdat Bitcoin, net als elke andere vorm van
+  valuta, gestolen of verloren kan worden als het niet goed beveiligd is.
+reviewed: true

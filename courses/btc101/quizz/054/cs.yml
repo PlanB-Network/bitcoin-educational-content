@@ -1,9 +1,11 @@
-question: Jaká je druhá fáze fenoménu hyperinflace?
-answer: Kolaps měny & růst cen.
+question: Jak se jmenuje událost, kdy je odměna za těžbu snížena na polovinu?
+answer: Halving
 wrong_answers:
-  - Ztráta důvěry.
-  - Zlý kruh tisku peněz.
-  - Vznik nové měny.
+  - Zdvojnásobení
+  - Čtvrtění
+  - Ztrojnásobení
 explanation: |
-  Druhá fáze hyperinflace je kolaps měny & růst cen, hned po fázi Ztráty důvěry.
+  Událost, kdy je odměna za těžbu snížena na polovinu, se nazývá
+  halving. Tato událost dává křivce měnového vydávání
+  schodovitý tvar.
 reviewed: true

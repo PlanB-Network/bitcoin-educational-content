@@ -1,0 +1,9 @@
+question: Hangi olay Google'ı Android'i dokunmaya duyarlı bir Interface'a doğru yeniden yönlendirmeye zorladı?
+answer: İlk iPhone'un piyasaya sürülmesi
+wrong_answers:
+  - Microsoft'un Nokia'yı devralması
+  - CyanogenMod'un oluşturulması
+  - Play Store'un açılışı
+explanation: |
+  IPhone'un 2007'de piyasaya çıkması, Google'ı Android'i dokunmatik ekranla uyumlu hale getirmek için yeniden düşünmeye zorladı ve fiziksel klavyeli bir cihaz fikrinden vazgeçti.
+reviewed: false

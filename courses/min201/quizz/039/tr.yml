@@ -1,0 +1,14 @@
+question: Mining'ın ağ için potansiyel dezavantajı nedir?
+answer: Yeterli finansal teşvik olmadan madencilerin ağı desteklemeye devam etmesi zor olabilir
+wrong_answers:
+  - Bitcoin'in fiyatında bir düşüşe yol açabilir
+  - Ağın Hashrate'sinde bir artışa yol açabilir
+  - Ağdaki aktif düğüm sayısında azalmaya yol açabilir
+explanation: |
+  Ağ için Mining asil bir girişimdir
+  güvenliğine ve ademi merkeziyetçiliğine katkıda bulunur
+  Bitcoin ağı. Ancak, yeterli mali kaynak olmadan
+  teşvik, madenciler için devam etmek zor olabilir
+  ağı destekliyorsa, özellikle de yüksek hızda çalışıyorlarsa
+  kayıp.
+reviewed: true

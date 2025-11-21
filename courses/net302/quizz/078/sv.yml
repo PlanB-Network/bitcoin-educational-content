@@ -1,0 +1,9 @@
+question: I vilken DNS-zon placeras PTR-poster för omvänd IPv6-resolution?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Zonen ip6.arpa är särskilt avsedd för omvänd upplösning av IPv6-adresser, medan in-addr.arpa används för IPv4.
+reviewed: false

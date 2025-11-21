@@ -1,0 +1,8 @@
+question: Lightning Network neye izin veriyor?
+answer: Anında, düşük maliyetli Bitcoin işlemleri.
+wrong_answers:
+  - Anlık, yüksek maliyetli Bitcoin işlemleri.
+  - Gecikmeli, düşük maliyetli Bitcoin işlemleri.
+  - Gecikmeli, yüksek maliyetli Bitcoin işlemleri.
+explanation: >-
+reviewed: true

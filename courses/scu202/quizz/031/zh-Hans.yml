@@ -1,0 +1,9 @@
+question: 在沙箱或虚拟机中运行应用程序的主要优势是什么？
+answer: 限制妥协的影响
+wrong_answers:
+  - 加快程序执行
+  - 减少内存消耗
+  - 提高网络连接速度
+explanation: |
+  沙箱和虚拟化主要用于隔离应用程序或系统，使其免受潜在攻击。
+reviewed: false

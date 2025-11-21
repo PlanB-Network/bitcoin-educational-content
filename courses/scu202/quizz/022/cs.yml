@@ -1,0 +1,9 @@
+question: Která distribuce používá ve výchozím nastavení prostředí Cinnamon?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon byl vyvinut týmem Linux Mint s cílem nabídnout moderní, klasický Interface, blízký systému Windows.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 모든 DNS 영역 파일에서 어떤 레코드가 필수인가요?
+answer: SOA(권한 시작)
+wrong_answers:
+  - PTR(포인터)
+  - AAAA(IPv6 Address)
+  - SRV(서비스 로케이터)
+explanation: |
+  SOA 레코드는 영역 권한을 정의하며 모든 DNS 영역 파일에 필요합니다.
+reviewed: false

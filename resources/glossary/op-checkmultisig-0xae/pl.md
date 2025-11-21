@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+---
+
+Sprawdza wiele podpisów względem wielu kluczy publicznych. Jako dane wejściowe przyjmuje serię `N` kluczy publicznych i `M` podpisów, gdzie `M` może być mniejsze lub równe `N`. `OP_CHECKMULTISIG` sprawdza, czy co najmniej `M` podpisów pasuje do `M` z `N` kluczy publicznych. Zauważ, że z powodu historycznego błędu off-by-one, dodatkowy element jest usuwany ze stosu przez `OP_CHECKMULTISIG`. Element ten nazywany jest "*pozornym elementem*". Aby uniknąć błędu w `scriptSig`, `OP_0`, który jest bezużytecznym elementem, jest dołączany w celu usunięcia i ominięcia błędu. Od BIP147 (wprowadzonego w SegWit w 2017 roku), bezużytecznym elementem zużywanym z powodu błędu musi być `OP_0`, aby skrypt był poprawny, ponieważ był to wektor podatności. Ten kod operacyjny został usunięty w Tapscript.

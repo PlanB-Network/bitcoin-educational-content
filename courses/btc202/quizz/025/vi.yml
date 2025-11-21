@@ -1,0 +1,9 @@
+question: Khi nào nút thắt pruned lại là vấn đề đối với Wallet?
+answer: Khi khôi phục Wallet cũ
+wrong_answers:
+  - Khi tạo một tiếp tân mới Address
+  - Khi gửi một giao dịch gần đây
+  - Khi chọn số tiền lệ phí
+explanation: |
+  Nút pruned không lưu giữ các khối cũ, điều này có thể ngăn chặn việc quét các giao dịch trước đó trong quá trình khôi phục.
+reviewed: true

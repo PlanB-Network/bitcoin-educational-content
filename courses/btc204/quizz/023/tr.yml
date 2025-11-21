@@ -1,0 +1,9 @@
+question: Girdi olarak 6 UTXO ve çıktı olarak yalnızca bir UTXO içeren bir işlem gözlemlersek, nasıl bir yorum yapabiliriz?
+answer: Girişlerdeki tüm UTXO'lar aynı kullanıcıya aitti ve bu kullanıcı hala çıkıştaki UTXO'e sahipti.
+wrong_answers:
+  - Girdilerdeki UTXO'lar tek bir işlem için işbirliği yapan farklı kullanıcılardan gelmiştir.
+  - Girişlerdeki tüm UTXO'lar aynı kullanıcıya aitti ve çıkıştaki artık başka bir kullanıcıya ait.
+  - Girişlerdeki UTXO'lar 2 farklı kullanıcıdan geldi ve çıkıştaki hala bu 2 kullanıcıya ait.
+explanation: |
+  Muhtemelen bir konsolidasyon söz konusudur. Dolayısıyla girdilerin ve çıktıların ortak bir Ownership'si var.
+reviewed: false

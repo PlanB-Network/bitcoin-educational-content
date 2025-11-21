@@ -1,0 +1,9 @@
+question: Aturan keamanan siber mana yang merekomendasikan untuk membatasi hak setiap pengguna atau perangkat lunak pada apa yang benar-benar diperlukan?
+answer: Prinsip keistimewaan yang paling sedikit
+wrong_answers:
+  - Otentikasi ganda
+  - Kebijakan kata sandi yang kuat
+  - Pencadangan reguler
+explanation: |
+  Prinsip hak istimewa yang paling sedikit berarti hanya memberikan hak yang diperlukan untuk setiap tugas, sehingga mengurangi risiko kompromi.
+reviewed: false

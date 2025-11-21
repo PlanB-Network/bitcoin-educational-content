@@ -1,0 +1,10 @@
+question: 코인 스왑에 사용되는 스마트 컨트랙트의 두 가지 주요 변형은 무엇인가요?
+answer: HTLC 및 PTLC
+wrong_answers:
+  - 다중 서명 및 단일 서명
+  - 스마트 컨트랙트 및 디앱
+  - SegWit 및 Taproot
+explanation: |
+  코인스왑을 실행하려면 HTLC(Hash 시간 고정 콘트랙트) 또는 PTLC(포인트 시간 고정 콘트랙트)를 사용할 수 있습니다.
+  
+reviewed: true

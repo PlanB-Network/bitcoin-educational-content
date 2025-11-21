@@ -1,0 +1,8 @@
+question: Welche Art von Steuern befürwortete Vauban in seinen Schriften?
+answer: Proportionalsteuer jeder muss den gleichen Prozentsatz seines Einkommens an den Staat abführen
+wrong_answers:
+  - Progressive Besteuerung - der Steuersatz für die Reichen muss höher sein als der für die Armen
+  - Die Pauschalsteuer: Unabhängig von Ihrem Einkommen zahlen Sie jedes Jahr den gleichen Betrag an den Staat
+  - Regressive Besteuerung: Die Steuersätze für die Armen müssen höher sein als die für die Reichen
+explanation: |
+  Vauban befürwortete eine proportionale Steuer, den "königlichen Zehnten", die darin bestand, ein Zehntel (10 %) des Einkommens aller Franzosen, unabhängig von ihrem sozialen Status, zu erheben. Er war der Ansicht, dass diese Steuer gerechter und effizienter sei als das bestehende Steuersystem.

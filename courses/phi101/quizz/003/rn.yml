@@ -1,0 +1,9 @@
+question: Ni isano irihe riri hagati y’umwidegemvyo n’inshingano?
+answer: Inshingano ikomoka ku mwidegemvyo w'amahitamwo y'umuntu ku giti ciwe .
+wrong_answers:
+  - Umwidegemvyo ugabanywa n'inshingano z'abandi .
+  - Umwidegemvyo n'inshingano ni ivyiyumviro bibiri vyigenga .
+  - Inshingano ni intambamyi ku mwidegemvyo .
+explanation: |
+  Isano hagati y’umwidegemvyo n’inshingano ni ry’imbere mu mutima, kuko umwidegemvyo wo guhitamwo na wo nyene usobanura inshingano ku ngaruka z’ayo mahitamwo, gutyo bikaba bigaragaza ko igikorwa cose c’umwidegemvyo kijana n’inshingano yo mu vy’inyifato runtu.
+reviewed: true

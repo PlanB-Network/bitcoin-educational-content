@@ -1,0 +1,9 @@
+question: Uygulama Layer'da (TCP/IP) değiş tokuş edilen veri biriminin adı nedir?
+answer: Mesaj
+wrong_answers:
+  - Çerçeve
+  - Segment
+  - Datagram
+explanation: |
+  TCP/IP modelinde, Uygulama Layer'de değiş tokuş edilen veriler mesaj (veya bağlama bağlı olarak akış) olarak adlandırılır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tại sao nên viết thư thừa kế bằng mực trên giấy?
+answer: Để tránh những rủi ro liên quan đến các tài liệu kỹ thuật số bị xâm phạm
+wrong_answers:
+  - Để giảm chi phí in ấn
+  - Để có được chữ ký được công nhận hợp pháp
+  - Để tăng giá trị pháp lý của văn bản
+explanation: |
+  Một lá thư viết tay ít bị tấn công mạng hơn và đảm bảo tính bảo mật của hướng dẫn.
+reviewed: false

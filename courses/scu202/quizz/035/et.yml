@@ -1,0 +1,9 @@
+question: Milline tööriist saab Linuxi masina puhul analüüsida süsteemi turvalisust ja generate üksikasjalikku aruannet koos soovitustega?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Sünaptiline
+explanation: |
+  Lynis on põhjalik Linuxi turvaauditi tööriist, mis otsib süsteemist haavatavusi ja väärkonfiguratsioone.
+reviewed: false

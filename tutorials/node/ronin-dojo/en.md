@@ -10,7 +10,7 @@ _We are closely following the developments of this case as well as developments 
 _This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
 
 _This tutorial is dedicated to the installation of RoninDojo v1. To take advantage of the latest improvements and features, I strongly recommend consulting our tutorial dedicated to the direct installation of RoninDojo v2 on your Raspberry Pi:_
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -536,7 +536,7 @@ However, if we take the example of a transaction with one input and two outputs,
 
 In this example, we can see that the probability of each output coming from input 0 is 100%.
 
-The lower this probability, the higher the level of confidentiality.
+The lower this probability, the higher the level of privacy.
 
 6. The sixth piece of information that is calculated is the number of deterministic links. The ratio of deterministic links will also be provided. This indicator highlights the number of links between inputs and outputs of the given transaction that have a probability of 100%, meaning they are undeniable.
 
@@ -546,7 +546,7 @@ For example, a Coinjoin Whirlpool transaction has no deterministic links between
 
 However, for the second transaction studied (1 input and 2 outputs), the indicator is 2 and the ratio is 100%.
 
-Therefore, if this indicator is zero, it indicates good confidentiality.
+Therefore, if this indicator is zero, it indicates good privacy.
 
 Now that we have studied the indicators, let's see how to calculate them using this software. From RoninCLI, go to the menu:
 **Samourai Toolkit > Boltzmann Calculator**

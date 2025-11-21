@@ -1,0 +1,9 @@
+question: Consignment در RGB چه چیزی دارد؟
+answer: داده‌های سمت مشتری مورد نیاز برای اعتبارسنجی یک انتقال
+wrong_answers:
+  - یک نسخه کامل از Bitcoin Blockchain
+  - فهرستی از تعهدات عمومی Bitcoin
+  - کلیدهای عمومی شرکت‌کنندگان State Transition
+explanation: |
+  Consignment شامل اطلاعات RGB است که به گیرنده امکان می‌دهد تا State Transition را بر اساس قوانین Contract اعتبارسنجی کند.
+reviewed: false

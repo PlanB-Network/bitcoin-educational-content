@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru rw’ubuhinga bwo gukoresha?
+answer: Umuhuza hagati y'ibikoresho, abakoresha n'ibikorwa
+wrong_answers:
+  - Igikoresho co kurwanya umugera
+  - Porogaramu y'ibishushanyo
+  - Serveri y'ubutumwa buca buza
+explanation: |
+  Ubuhinga bwo gukoresha bukora nk’ubuhinga bwa none Layer bufasha porogarama n’uwubukoresha gushika ku bikoresho no kubigenzura.
+reviewed: false

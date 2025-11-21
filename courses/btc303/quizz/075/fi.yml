@@ -1,0 +1,8 @@
+question: Gregory Maxwellin haavoittuvuuksien vakavuuden arviointia koskevan näkemyksen mukaan mitä lähestymistapaa kehittäjien tulisi käyttää arvioidessaan havaittujen tietoturvaongelmien mahdollisia vaikutuksia?
+answer: Käsittele haavoittuvuuksia vakavampina kuin mitä tällä hetkellä tiedetään ja oleta, että ne ovat helposti hyödynnettävissä, vaikka niiden hyödyntäminen vaikuttaisi vaikealta
+wrong_answers:
+  - Keskity vain välittömiin havaittaviin vaikutuksiin ja luokittele haavoittuvuudet niiden nykyisten tunnettujen hyödyntämismenetelmien perusteella
+  - Asettaa haavoittuvuudet tärkeysjärjestykseen niiden teknisen monimutkaisuuden perusteella ja lykätä sellaisten ongelmien korjauksia, joiden hyödyntäminen vaikuttaa teoreettisesti vaikealta
+  - Arvioidaan kukin haavoittuvuus erikseen ottamatta huomioon sitä, miten useat pienet ongelmat voivat yhdessä aiheuttaa suuria turvallisuusriskejä
+explanation: |
+  Maxwell katsoo, että kehittäjien tulisi suhtautua haavoittuvuuksiin vakavampina kuin miltä ne näyttävät, koska vaikeasti hyödynnettävät ongelmat voivat muuttua triviaaleiksi oikealla tekniikalla, ja näennäisesti vähäiset ongelmat voivat kehittyä vakaviksi uhkiksi. Hän korostaa, että yksinkertaisia suorituskykyongelmia voidaan käyttää aseena verkon jakamiseksi ja double-spending-hyökkäysten mahdollistamiseksi. Tämä konservatiivinen lähestymistapa tunnustaa, että kehittäjät eivät ehkä aluksi ymmärrä haavoittuvuuden kaikkia hyödyntämismahdollisuuksia, joten on järkevää olettaa pahin mahdollinen skenaario sen sijaan, että uhka aliarvioidaan.

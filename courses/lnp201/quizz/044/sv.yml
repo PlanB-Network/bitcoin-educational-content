@@ -1,0 +1,9 @@
+question: Vad gör en sändande nod när en betalningsväg misslyckas på grund av otillräcklig likviditet?
+answer: Den försöker med en annan väg tills den hittar en fungerande väg
+wrong_answers:
+  - Den skickar automatiskt en begäran om återbetalning till mottagaren
+  - Den stänger kanalen och skapar en ny direktkanal
+  - Den ber de mellanliggande noderna att öka sin likviditet
+explanation: |
+  När en väg misslyckas försöker den sändande noden med andra alternativa vägar tills en fungerande väg hittas eller alla alternativ har uttömts.
+reviewed: false

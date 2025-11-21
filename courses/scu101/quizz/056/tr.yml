@@ -1,0 +1,10 @@
+question: Siber güvenlikte pratik deneyim neden önemlidir?
+answer: Teorik bilgilerinizi gerçek dünya koşullarında uygulamanızı sağlar
+wrong_answers:
+  - Tüm siber güvenlik işleri için bir gerekliliktir
+  - Akademik bilgiden daha önemlidir
+  - Siber güvenlik hakkında bilgi edinmenin tek yoludur
+explanation: |
+  Bu bölüm, uygulamalı eğitimin önemini vurgulamaktadır. çünkü bu
+  teorik bilgilerinizi gerçek durumlarda uygulamanıza olanak tanır.
+reviewed: true

@@ -1,0 +1,9 @@
+question: XOR işleminin değişmeli özelliği nedir?
+answer: İşlenenlerin sırası işlemin sonucunu etkilemez
+wrong_answers:
+  - XOR yalnızca çift sayılarla çalışır
+  - XOR aynı uzunlukta işlenenler gerektirir
+  - İşlenenlerdeki bitlerin konumu işlemin sonucunu etkilemez
+explanation: |
+  XOR değişmeli bir işlemdir, yani a XOR b, b XOR a'ya eşittir.
+reviewed: false

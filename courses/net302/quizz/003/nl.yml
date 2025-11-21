@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste voordeel van een bustopologie?
+answer: Lage installatiekosten
+wrong_answers:
+  - Hoge redundantie
+  - Lage latentie
+  - Hoge beschikbaarheid
+explanation: |
+  De bus vertrouwt op een enkel fysiek medium, wat de installatiekosten verlaagt maar ook een enkel storingspunt introduceert.
+reviewed: false

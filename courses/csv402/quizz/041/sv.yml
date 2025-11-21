@@ -1,0 +1,9 @@
+question: Vilka Elements behövs för att skapa en Lightning-kanal som bär RGB-tillgångar?
+answer: Finansiering i bitcoins och finansiering i RGB-tillgångar
+wrong_answers:
+  - Endast Bitcoin-finansiering till att börja med
+  - Endast RGB-finansiering till att börja med
+  - Ingen finansiering krävs
+explanation: |
+  Kanalen kräver både Bitcoin-finansiering på en 2/2 Multisig, samt RGB-tillgångsfinansiering för att fördela tillgångar på samma kanal.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kölelikten kaçınmak için Hayek tarafından önerilen çözüm nedir?
+answer: Tiranlığa karşı siper olarak özel mülkiyeti ve piyasanın kendiliğinden oluşan düzenini savunun.
+wrong_answers:
+  - Yoksullara yardım etmek için vergilerin artırılmasını savunuyor.
+  - Feodal tipte bir ekonomik sisteme geri dönülmesi çağrısında bulunuyor.
+  - Halkı yol kuralları konusunda eğitin.
+explanation: |
+  Hayek, bireysel özgürlüğün özel mülkiyetin korunması ve piyasanın kendi kendini düzenlemesine izin verilmesi yoluyla korunacağına, böylece otoriter sürüklenmenin ve gücün merkezileşmesinin önleneceğine inanmaktadır.
+reviewed: true

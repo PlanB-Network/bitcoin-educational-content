@@ -1,10 +1,9 @@
-question: Wie hoch war die Inflationsrate in Deutschland im Oktober 1923?
-answer: 29.50%
+question: Was ist der Mechanismus, der sicherstellt, dass alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird?
+answer: Schwierigkeitsanpassung.
 wrong_answers:
-  - 200.9%
-  - 50.51%
-  - 25.98%
+  - Geschwindigkeitsanpassung.
+  - Zeitanpassung.
+  - Blockanpassung.
 explanation: |
-  Der Monat mit der höchsten Inflationsrate in Deutschland war
-  Oktober 1923, mit einem Höchststand von 29.50%.
+  Der Mechanismus, der sicherstellt, dass alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird, ist die Schwierigkeitsanpassung. Diese Anpassung findet alle 2016 Blöcke statt, was ungefähr zwei Wochen entspricht.
 reviewed: true

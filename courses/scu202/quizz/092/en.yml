@@ -1,0 +1,9 @@
+question: Which device acts as the boundary between the Internet and your private home network?
+answer: Modem-router
+wrong_answers:
+  - Ethernet switch
+  - NAS server
+  - USB hub
+explanation: |
+  The modem router connects the ISP network to your local network and manages the allocation of local IP addresses.
+reviewed: false

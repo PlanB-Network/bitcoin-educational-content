@@ -1,0 +1,9 @@
+question: Wat beperkt het bedrag van een indirecte betaling op de Lightning Network?
+answer: De kleinste beschikbare liquiditeit in een kanaal van het gekozen pad
+wrong_answers:
+  - Het aantal betrokken tussenknooppunten
+  - De totale capaciteit van de Lightning Network
+  - De routeringskosten die door elk knooppunt zijn ingesteld
+explanation: |
+  Het maximale bedrag dat een indirecte betaling kan overmaken hangt af van de laagste liquiditeit die beschikbaar is in de gebruikte kanalen, aangezien elk kanaal de fondsen aan elke kant moet aanpassen.
+reviewed: false

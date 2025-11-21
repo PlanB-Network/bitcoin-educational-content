@@ -1,0 +1,9 @@
+question: Kursta anlatıldığı gibi tipik bir Bitcoin işlem csv dosyasında hangi ayrıntı açıkça belgelenmez?
+answer: Kullanılan komut dosyası türü
+wrong_answers:
+  - İşlem tarihi
+  - Eşdeğer fiat değeri
+  - Bitcoin adresleri aşağıdakileri içermektedir
+explanation: |
+  Tipik Bitcoin işlem csv dosyası genellikle tarih, miktar, fiat eşdeğeri ve Bitcoin adreslerini belirtir, ancak kullanılan komut dosyası türünü belirtmez.
+reviewed: false

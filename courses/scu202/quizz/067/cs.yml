@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel VPN při surfování ve veřejné síti Wi-Fi?
+answer: Šifrování přenosů mezi zařízením a serverem VPN
+wrong_answers:
+  - Anonymizace internetového připojení
+  - Automatická instalace aktualizací
+  - generate silná hesla
+explanation: |
+  VPN šifruje veškerý síťový provoz a chrání vaše data před odposlechem v nezabezpečených sítích, jako je například veřejná Wi-Fi.
+reviewed: false

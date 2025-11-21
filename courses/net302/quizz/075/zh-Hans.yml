@@ -1,0 +1,9 @@
+question: 什么类型的 DNS 记录用于查找与 IPv6 Address 相关的名称？
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR（指针记录）可实现反向解析，即把 IPv6 Address 链接到域名。
+reviewed: false

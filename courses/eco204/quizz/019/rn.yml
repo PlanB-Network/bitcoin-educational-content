@@ -1,0 +1,11 @@
+question: Ni ibihe bingahe vy’ugutera imbere cane vyanditswe mu meza ya Hanke-Krus?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Imeza ya Hanke-Krus ivuga ibice 56 vy’ugutera imbere cane kw’ibiciro. Ariko,
+  ntivuga ibice vyose, nk’ico cabereye muri Venezuela mu 2016, kikazana
+  bose hamwe ni 57.
+reviewed: false

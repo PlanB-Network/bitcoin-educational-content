@@ -1,0 +1,9 @@
+question: Którego polecenia można użyć do dodania statycznego adresu IP Address do Interface w systemie Linux?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [maska] dev [Interface]
+explanation: |
+  Polecenie "ip addr add" jest nowoczesną metodą przypisywania statycznego adresu IP Address do sieci Interface w systemie Linux.
+reviewed: false

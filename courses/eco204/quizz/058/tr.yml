@@ -1,0 +1,12 @@
+question: 16'ncı yüzyılda Antwerp Stock Exchange'da tanıtılan senetlerin benzersiz özelliği neydi?
+answer: İsimlerini ve vade tarihlerini taşıyorlardı
+wrong_answers:
+  - Altından yapılmışlardı
+  - Amsterdam Bankası tarafından çıkarıldılar
+  - Florine çevrilebilirlerdi
+explanation: |
+  Antwerp Stock Exchange, isim taşıyan senetleri piyasaya sürdü
+  ve vade tarihleri. Bu da Exchange'in son teslim tarihinden önce teslim edilmesini zorlaştırıyordu. Ancak,
+  gW-1 bu senetlerin vadelerinden önce iskonto edilmesi uygulamasını başlatmıştır
+  tarihi, onları daha Liquid yapmak ve paranın zaman değeri kavramını tanıtmak.
+reviewed: false

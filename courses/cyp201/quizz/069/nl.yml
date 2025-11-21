@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van de chain code bij het afleiden van kindsleutels?
+answer: Een extra bron van entropie introduceren
+wrong_answers:
+  - Identificeer de hiërarchische diepte
+  - Sla de indexen van de kindsleutels op
+  - Zorg voor compatibiliteit met het Bitcoin protocol
+explanation: |
+  De chain code wordt gebruikt om een extra en unieke bron van entropie te introduceren voor elke afgeleide sleutel.
+reviewed: false

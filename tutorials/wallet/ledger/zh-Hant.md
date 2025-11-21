@@ -1,11 +1,14 @@
 ---
-name: Ledger 奈米 S
+name: Ledger Nano S
 
 description: 如何設定您的 Ledger Nano S 裝置
 ---
 
 ![image](assets/cover.webp)
 
+*Ledger 宣布自 2025 年 6 月 25 日起，經典 Nano S 停止軟體支援：此設備將不再收到安全更新，也不再支援新功能，這使得使用者暴露於潛在漏洞和未來不相容的風險。不過，資金仍可透過助記詞取得，但強烈建議您遷移至較新的型號，以確保您的比特幣安全和長期可存取性。請注意，此處指的是**舊版 Nano S**，而不是仍有支援的**Nano S Plus**。*
+
+___
 
 Cold 實體 Wallet - €60 - 初學者 - 保證 2,000 至 50,000 歐元
 
@@ -320,4 +323,4 @@ https://armantheparman.com/ledgersparrow/
 若要進一步探討這個主題，並加強您在 Ledger Nano 上使用 BIP39 passphrase 的 Wallet 的安全性，我邀請您查看這份全面的教學：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

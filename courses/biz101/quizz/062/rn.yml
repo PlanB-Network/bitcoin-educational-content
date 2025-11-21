@@ -1,0 +1,9 @@
+question: Ni uwuhe muti uwundi wo gusubiza Swiss Bitcoin Pay kugira ngo wemere amahera ya Bitcoin ku bijanye n’ivy’ingenzi ni 100% y’ububiko?
+answer: Gufungura urudodo
+wrong_answers:
+  - Serveri ya BTCPay
+  - Guhindura PoS
+  - Fenikisi Wallet.
+explanation: |
+  Open Node irangwa n’umuti w’ububiko bushitse, utandukanye n’akameremere k’ivy’ubuhinga bwa Swiss Bitcoin Pay.
+reviewed: false

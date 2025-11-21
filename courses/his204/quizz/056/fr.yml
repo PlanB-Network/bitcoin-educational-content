@@ -1,0 +1,8 @@
+question: Pour les Physiocrates, quelle est la différence entre la production et le gain ?
+answer: L’industriel et le négociant peuvent gagner, mais il n’y a que l’agriculteur qui produit, car la production est une création de matière utile
+wrong_answers:
+  - L’industriel et le négociant peuvent ne pas dégager de profits. Seule l’agriculture rapporte nécessairement des bénéfices.
+  - L’agriculteur peut gagner, mais il n’y a que l’industriel et le négociant qui produisent, car produire c’est rendre un service
+  - La production et le gain sont la même chose
+explanation: |
+  Les Physiocrates considéraient que seule l'agriculture était productive, car elle créait de la matière nouvelle. L'industrie et le commerce étaient considérés comme des activités stériles, car elles ne faisaient que transformer ou déplacer des richesses existantes.

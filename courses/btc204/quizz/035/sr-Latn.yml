@@ -1,9 +1,9 @@
-question: Ko je otkrio heuristiku ponovne upotrebe Address?
+question: Ko je otkrio heuristiku ponovne upotrebe adrese?
 answer: Satoshi Nakamoto
 wrong_answers:
   - Vitalik Buterin
   - Hal Finney
   - Gavin Andresen
 explanation: |
-  Prva osoba koja je diskutovala o ovom konceptu bio je Satoshi Nakamoto u delu 10 Bitcoin Bele knjige.
+  Prva osoba koja je diskutovala o ovom konceptu bio je Satoshi Nakamoto u delu 10 Bitcoin Bele knjige (eng. White Paper).
 reviewed: false

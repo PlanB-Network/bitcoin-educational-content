@@ -1,0 +1,9 @@
+question: 具有標誌性的 Linux 吉祥物叫什麼名字？
+answer: 禮服
+wrong_answers:
+  - 公爵
+  - 野獸
+  - daemon
+explanation: |
+  Tux 自 1996 年起就是官方的 Linux 核心吉祥物，由 Larry Ewing 創造。
+reviewed: false

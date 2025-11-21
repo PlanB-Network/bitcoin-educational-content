@@ -1,0 +1,8 @@
+question: Milline on Satoshi Nakamoto vaatenurgast lähtudes kadunud bitcoinide mõju ülejäänud ringluses olevatele müntidele?
+answer: Nad muudavad kõigi teiste müntide väärtuse veidi suuremaks kui annetus kõigile
+wrong_answers:
+  - Nad vähendavad võrgu turvalisust, vähendades mining preemiate jaoks kättesaadavat koguväärtust
+  - Nad tekitavad deflatsioonisurve, mis aja jooksul destabiliseerib rahasüsteemi
+  - Need tuleb asendada täiendava mining abil, et säilitada kavandatud tarnetase
+explanation: |
+  Satoshi Nakamoto selgitas, et kaotatud mündid toimivad annetusena kõigile teistele bitcoini omanikele, muutes nende mündid väärtuslikumaks, kuna nende tegelik pakkumine on vähenenud. See on positiivne deflatsiooniefekt, mitte destabiliseeriv jõud. Kaotatud mündid ei mõjuta mining preemiaid, kuna need tulevad äsja vermitud müntidest ja tehingutasudest, mitte olemasolevast pakkumisest. Bitcoin protokoll ei asenda kaotatud münte - need jäävad püsivalt ringlusest välja, mis tegelikult toob allesjäänud omanikele kasu, kuna nende arvete vähesus suureneb.

@@ -1,0 +1,8 @@
+question: Theo khuôn khổ công bố có trách nhiệm, lý do chiến lược chính để cung cấp bản vá lỗ hổng cho các nhà phát triển altcoin chỉ sau khi bản sửa lỗi được triển khai rộng rãi trong mạng Bitcoin là gì?
+answer: Để ngăn chặn kẻ tấn công khai thác cùng một lỗ hổng trên Bitcoin trong khi các altcoin đang được vá
+wrong_answers:
+  - "Để duy trì lợi thế cạnh tranh của Bitcoin so với các ứng dụng tiền điện tử thay thế"
+  - Để đảm bảo các nhà phát triển altcoin có đủ thời gian để hiểu và triển khai đúng các bản sửa lỗi
+  - Để tránh các vấn đề trách nhiệm pháp lý có thể phát sinh do tiết lộ sớm cho các dự án của bên thứ ba
+explanation: |
+  Chiến lược thời gian phản ánh phương pháp tiếp cận ưu tiên bảo mật, trong đó mạng lưới Bitcoin phải được bảo vệ trước khi hỗ trợ các mạng khác. Nếu các altcoin được thông báo đồng thời, kẻ tấn công có thể nghiên cứu các triển khai altcoin hoặc khai thác chúng để hiểu lỗ hổng, sau đó có khả năng tấn công các nút Bitcoin chưa được nâng cấp. Phương pháp tiếp cận tuần tự đảm bảo khả năng bảo vệ rộng rãi của Bitcoin trước khi mở rộng hỗ trợ sang các mạng khác, giảm thiểu thời gian khai thác lỗ hổng trên toàn hệ sinh thái.

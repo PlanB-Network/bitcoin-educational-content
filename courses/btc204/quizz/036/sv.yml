@@ -1,0 +1,9 @@
+question: Varför kan mindre vanligt förekommande skrifter vara lättare att identifiera än skrifter som används ofta?
+answer: Eftersom gruppen av transaktioner med samma script-typ är mindre.
+wrong_answers:
+  - Eftersom de kräver fler valideringar av gruvarbetare.
+  - Eftersom de använder svagare krypteringsalgoritmer.
+  - Eftersom de oftare avvisas av Bitcoin-nätverksnoderna.
+explanation: |
+  Om den totala gruppen av transaktioner med samma typ av skript som vi gömmer oss i är liten, är vi lättare att identifiera än i en mycket stor grupp av transaktioner.
+reviewed: false

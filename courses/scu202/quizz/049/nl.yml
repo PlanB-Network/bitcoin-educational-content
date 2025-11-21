@@ -1,0 +1,9 @@
+question: Wat is de aanbevolen back-upregel om de veerkracht van uw gegevens te garanderen in het geval van een ramp?
+answer: Zorg voor 3 kopieën, op 2 verschillende media, waarvan 1 off-site
+wrong_answers:
+  - 10 kopieën, op 5 verschillende media, waaronder 3 off-site
+  - 2 kopieën, op 2 verschillende media, waarvan 2 off-site
+  - 4 kopieën, op 4 verschillende media, waarvan 2 off-site
+explanation: |
+  De 3-2-1 regel houdt in dat je drie kopieën van je gegevens bewaart, op ten minste twee verschillende media, waaronder een extern exemplaar, om gegevensverlies, diefstal of corruptie te voorkomen.
+reviewed: false

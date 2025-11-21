@@ -1,0 +1,9 @@
+question: Ni kifaa gani kinachofanya kazi kama mpaka kati ya Mtandao na mtandao wako wa nyumbani wa kibinafsi?
+answer: Modem-router
+wrong_answers:
+  - Kubadilisha Ethernet
+  - Server ya NAS
+  - Kitovu cha USB
+explanation: |
+  Router ya modemu huunganisha mtandao wa ISP kwenye mtandao wako wa karibu na kudhibiti ugawaji wa Address za ndani za IP.
+reviewed: true

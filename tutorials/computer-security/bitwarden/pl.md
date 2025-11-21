@@ -24,7 +24,7 @@ Menedżer haseł generuje i bezpiecznie przechowuje silne hasła, umożliwiając
 
 W tym poradniku dowiemy się, jak skonfigurować i używać menedżera haseł w celu zwiększenia bezpieczeństwa online. Przedstawię ci Bitwarden, a w kolejnym poradniku przyjrzymy się innemu rozwiązaniu o nazwie KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Ostrzeżenie: Menedżer haseł jest świetny do przechowywania haseł, ale **nigdy nie należy przechowywać w nim frazy Mnemonic Bitcoin Wallet!** Pamiętaj, że fraza Mnemonic powinna być zapisana wyłącznie w formacie fizycznym, takim jak kawałek papieru lub metalu.
 
@@ -117,9 +117,9 @@ Przede wszystkim zdecydowanie zalecam skonfigurowanie uwierzytelniania dwuskład
 Jeśli nie masz pewności, jak skonfigurować i korzystać z tych urządzeń 2FA, polecam skorzystanie z tych 2 innych samouczków:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Aby to zrobić, przejdź do zakładki "*Security*" w menu "*Settings*".
 
@@ -177,7 +177,7 @@ W otwartym formularzu zacznij od określenia charakteru elementu, który ma zost
 
 ![BITWARDEN](assets/notext/26.webp)
 
-W polu "*Name*" wprowadź opisową nazwę swoich poświadczeń. Ułatwi to wyszukiwanie i porządkowanie haseł, zwłaszcza w przypadku ich dużej liczby. Na przykład, jeśli chcesz zapisać swoje dane uwierzytelniające dla witryny PlanB Network, możesz nazwać ten element w sposób, który sprawi, że będzie on natychmiast rozpoznawalny podczas przyszłych wyszukiwań.
+W polu "*Name*" wprowadź opisową nazwę swoich poświadczeń. Ułatwi to wyszukiwanie i porządkowanie haseł, zwłaszcza w przypadku ich dużej liczby. Na przykład, jeśli chcesz zapisać swoje dane uwierzytelniające dla witryny Plan ₿ Academy, możesz nazwać ten element w sposób, który sprawi, że będzie on natychmiast rozpoznawalny podczas przyszłych wyszukiwań.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Folder pojawi się teraz w menedżerze.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Możesz przypisać folder do identyfikatora podczas jego tworzenia, tak jak zrobiliśmy to wcześniej, lub modyfikując istniejący identyfikator. Na przykład, klikając na identyfikator PlanB Network, mogę sklasyfikować go w folderze "*Bitcoin*".
+Możesz przypisać folder do identyfikatora podczas jego tworzenia, tak jak zrobiliśmy to wcześniej, lub modyfikując istniejący identyfikator. Na przykład, klikając na identyfikator Plan ₿ Academy, mogę sklasyfikować go w folderze "*Bitcoin*".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -304,7 +304,7 @@ Jesteś teraz połączony ze swoim menedżerem Bitwarden za pośrednictwem rozsz
 ![BITWARDEN](assets/notext/51.webp)
 
 
-Na przykład, jeśli wrócę do witryny PlanB Network i spróbuję zalogować się na swoje konto, można zauważyć, że rozszerzenie Bitwarden zintegrowane z przeglądarką rozpoznaje pola logowania i automatycznie proponuje mi wybranie identyfikatora, który wcześniej zapisałem.
+Na przykład, jeśli wrócę do witryny Plan ₿ Academy i spróbuję zalogować się na swoje konto, można zauważyć, że rozszerzenie Bitwarden zintegrowane z przeglądarką rozpoznaje pola logowania i automatycznie proponuje mi wybranie identyfikatora, który wcześniej zapisałem.
 
 
 ![BITWARDEN](assets/notext/52.webp)
@@ -313,7 +313,7 @@ Jeśli wybiorę ten identyfikator, Bitwarden wypełni za mnie pola logowania. Ta
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Rozszerzenie zostało również zaprojektowane do wykrywania tworzenia nowych kont. Przykładowo, podczas tworzenia nowego konta w PlanB Network, Bitwarden automatycznie sugeruje zapisanie nowego identyfikatora.
+Rozszerzenie zostało również zaprojektowane do wykrywania tworzenia nowych kont. Przykładowo, podczas tworzenia nowego konta w Plan ₿ Academy, Bitwarden automatycznie sugeruje zapisanie nowego identyfikatora.
 
 ![BITWARDEN](assets/notext/54.webp)
 

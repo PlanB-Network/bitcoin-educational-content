@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus vaba tarkvara liikumise ja avatud lähtekoodiga tarkvara vahel?
+answer: Vabaduse või tehnilise tõhususe eelistamine
+wrong_answers:
+  - C- või assembleri keele kasutamine
+  - Native või PC mobiilirakenduste arendamine
+  - Rahvusvahelise kogukonna kohalolek või puudumine
+explanation: |
+  Vaba tarkvara tähendab kasutajate vabadust; avatud lähtekoodiga tarkvara tähendab läbipaistvust ja tehnilist tõhusust.
+reviewed: false

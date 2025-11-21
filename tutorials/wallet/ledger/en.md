@@ -6,6 +6,10 @@ description: How to set up your Ledger Nano S device
 
 ![image](assets/cover.webp)
 
+*Ledger has announced the end of software support for the classic Nano S as of June 25, 2025: this device will no longer receive security updates or be compatible with new features, exposing its users to potential vulnerabilities and future incompatibility. However, funds remain accessible via the recovery phrase, but it is strongly recommended to migrate to a newer model to ensure the security and long-term accessibility of your bitcoins. Please note, this concerns the **old Nano S**, not the **Nano S Plus**, which will continue to be supported.*
+
+___
+
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000
 
 Ledger is the French solution for securing bitcoins in a simple way.
@@ -213,6 +217,6 @@ https://armantheparman.com/ledgersparrow/
 
 To explore this topic further and strengthen the security of your wallet on a Ledger Nano with a BIP39 passphrase, I invite you to check out this comprehensive tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

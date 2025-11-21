@@ -1,0 +1,9 @@
+question: Quel est le rôle principal d’un environnement de bureau sous Linux ?
+answer: Fournir l’interface graphique
+wrong_answers:
+  - Gérer le démarrage du système
+  - Compiler le noyau Linux
+  - Protéger contre les virus
+explanation: |
+  L’environnement de bureau regroupe les éléments visuels et interactifs (fenêtres, menus, icônes, panneaux...) pour permettre à l’utilisateur d’interagir graphiquement avec le système.
+reviewed: false

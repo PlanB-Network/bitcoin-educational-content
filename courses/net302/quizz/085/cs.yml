@@ -1,0 +1,9 @@
+question: Který příkaz lze použít k ověření, přes kterou bránu Interface a bránu bude směrován paket na adresu 8.8.8.8?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> zobrazí přesnou cestu, kterou by paket dosáhl určitého cíle.
+reviewed: false

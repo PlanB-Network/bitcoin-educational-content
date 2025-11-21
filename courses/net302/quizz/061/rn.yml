@@ -1,0 +1,9 @@
+question: Address muri IPv6 ni iki?
+answer: Address yahawe uturongo twinshi
+wrong_answers:
+  - Address yihariye gutangaza amakuru menshi kw'isi yose
+  - Address ihinduka uko usubiye gutangura
+  - Address yabikiwe inyandiko z'ubuhinga
+explanation: |
+  Anycast Address igenewe ibikoresho vyinshi, kandi routing irungika iyo paquet kuri iyo iri hafi cane.
+reviewed: false

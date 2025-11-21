@@ -1,0 +1,9 @@
+question: Które z tych środowisk graficznych jest szczególnie zalecane dla starszych lub mniej wydajnych komputerów?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Cynamon
+  - KDE Plasma
+explanation: |
+  LXQt, podobnie jak Xfce, zużywa niewiele zasobów i został zaprojektowany do wydajnego działania na sprzęcie o niskiej wydajności.
+reviewed: false

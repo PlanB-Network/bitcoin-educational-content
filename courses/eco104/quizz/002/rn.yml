@@ -1,0 +1,11 @@
+question: Ni isano irihe ry’akahise riri hagati y’amahera n’ibintu nk’inzahabu?
+answer: Inzahabu irake kandi yemerwa cane nk'ububiko bw'agaciro
+wrong_answers:
+  - Inzahabu ituma amahera asa n'akwegera cane
+  - Inzahabu iragabanywa bitagoranye
+  - Inzahabu ni iyidasanzwe
+explanation: |
+  Kubera ubukene bw’inzahabu kw’isi yose mu kamere be n’ishoramari rikomeye rikenewe 
+  kugira ngo bacukure, batunganye no kubika, inzahabu yaguma igurishwa ku giciro co hejuru y’
+  ubundi bwoko bw’amahera.
+reviewed: true

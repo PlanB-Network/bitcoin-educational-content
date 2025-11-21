@@ -1,0 +1,8 @@
+question: Ni igiki kimwe coshobora guterwa n’iterambere ry’ubuhinga bwa none?
+answer: Ubuhinga bwa AI buzotuma akazi karenga 80% k’ubu kazimangana.
+wrong_answers:
+  - Ivyuma vya AI bizosambura mudasobwa zose.
+  - Ubuhinga bwa AI buzotuma ubwenge bw’umuntu bugabanuka.
+  - Ubuhinga bwa AI buzotuma ubutunzi bw’isi yose busenyuka.
+explanation: >-
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: UTANGAMANO WA NYUMA
+---
+
+Inarejelea uwezo wa sasisho la sheria za itifaki ili kudumisha upatanifu na matoleo ya awali. Hii inamaanisha kuwa mabadiliko yameundwa kwa njia ambayo nodi za zamani (nodi zinazoendesha matoleo kabla ya mabadiliko ya sheria) bado zinaweza kuingiliana na mtandao na kufuata mlolongo na kazi nyingi zilizokusanywa. Kwa hivyo, ni muhimu kwamba nodi za zamani zisikatae vizuizi vipya au shughuli mpya. Utangamano wa nyuma hupunguza kwa kiasi kikubwa uwezekano kwamba sasisho litagawanya mtandao, na hivyo kuepuka mgawanyiko wa nodi katika vikundi vidogo kwenye minyororo tofauti. Ili kuhakikisha upatanifu na matoleo ya awali ya itifaki, sasisho lazima lifanye sheria zilizopo kuwa kali zaidi au kuanzisha mpya. Kanuni hii inafafanua "Soft Fork". Kinyume chake, ikiwa sasisho litalegeza sheria zilizopo au kuondoa baadhi, basi halitaoanishwa nyuma. Hii itakuwa "Hard Fork".

@@ -1,0 +1,8 @@
+question: Bitcoin 프로토콜의 고유한 특징은 무엇인가요?
+answer: 24시간 연중무휴로 글로벌 규모로 운영됩니다.
+wrong_answers:
+  - 업무 시간 중에만 운영됩니다.
+  - 중앙 기관에서 관리합니다.
+  - 쉽게 해킹당할 수 있습니다.
+explanation: >-
+reviewed: true

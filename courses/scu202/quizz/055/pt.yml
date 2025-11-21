@@ -1,0 +1,9 @@
+question: Qual é o motor de renderização mais difundido atualmente e que alimenta a maioria dos browsers modernos?
+answer: Piscar os olhos
+wrong_answers:
+  - Osga
+  - Tridente
+  - WebKit
+explanation: |
+  O Blink, desenvolvido a partir de um WebKit Fork pela Google, é atualmente o motor de renderização dominante, alimentando o Chrome, o Edge, o Opera, o Brave, o Vivaldi e outros.
+reviewed: false

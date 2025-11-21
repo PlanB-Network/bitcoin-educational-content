@@ -1,0 +1,9 @@
+question: Normal bir alt anahtar ile sertleştirilmiş bir alt anahtar arasındaki fark nedir?
+answer: Sertleştirilmiş bir alt anahtar, türetilmesi için ana özel anahtarı gerektirir.
+wrong_answers:
+  - Normal bir alt anahtar açık anahtarlardan türetilemez.
+  - Sertleştirilmiş bir alt anahtar tek bir dizin kullanır.
+  - Normal bir alt anahtar, sertleştirilmiş bir alt anahtardan daha güvenlidir.
+explanation: |
+  Normal bir alt anahtar, üst özel anahtarı gerektiren sertleştirilmiş bir alt anahtarın aksine, üst açık anahtardan türetilebilir.
+reviewed: false

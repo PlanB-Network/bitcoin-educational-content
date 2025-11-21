@@ -1,0 +1,9 @@
+question: چه مکانیزمی یک MAC Address را به یک شناسه ۶۴ بیتی برای تولید یک IPv6 Address تبدیل می‌کند؟
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  مکانیزم EUI-64 یک MAC 48 بیتی Address را به یک شناسه 64 بیتی تبدیل می‌کند که در پیکربندی خودکار IPv6 استفاده می‌شود.
+reviewed: false

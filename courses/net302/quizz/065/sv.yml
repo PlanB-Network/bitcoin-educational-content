@@ -1,0 +1,9 @@
+question: Vilket protokoll tilldelar dynamiskt livstider till automatiskt distribuerade IPv6-adresser?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 hanterar uttryckligen livstider genom lease, medan NDP meddelar dem i sina routerkonfigurationsmeddelanden.
+reviewed: false

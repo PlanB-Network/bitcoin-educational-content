@@ -1,6 +1,6 @@
 ---
 name: 貢獻 - Git 教學 (進階)
-description: 為進階使用者提供 Plan ₿ Network 與 Git 的教學指南
+description: 為進階使用者提供 Plan ₿ Academy 與 Git 的教學指南
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: 為進階使用者提供 Plan ₿ Network 與 Git 的教學指南
 在按照本教學添加新教學之前，您需要完成幾個初步步驟。如果您還沒有完成，請先看一下這個入門教學，然後再回到這裡：
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 您已經擁有 ：
 
 
 
 - 為您的教學選擇一個主題；
-- 透過 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 聯絡 Plan ₿ Network 團隊；
+- 透過 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 聯絡 Plan ₿ Academy 團隊；
 - 選擇您的貢獻工具。
 
 
-在這篇給有經驗的 Git 用戶的教學中，我們將簡要總結提供新的 Plan ₿ Network 教學的關鍵步驟和基本方針。如果您不熟悉 Git 和 GitHub，我建議您參考另外 2 個更詳細的教學，它們會一步一步地教您：
+在這篇給有經驗的 Git 用戶的教學中，我們將簡要總結提供新的 Plan ₿ Academy 教學的關鍵步驟和基本方針。如果您不熟悉 Git 和 GitHub，我建議您參考另外 2 個更詳細的教學，它們會一步一步地教您：
 
 
 
 - 中級 (GitHub 桌面) ：
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - 初學者 (web Interface) ：
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 建議工具
 
@@ -80,7 +80,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 
 
-- 您必須擁有 [GitHub 上的 Plan ₿ Network 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 的 Fork。
+- 您必須擁有 [GitHub 上的 Plan ₿ Academy 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 的 Fork。
 - 將 Fork 的主分支 (`dev`)與原始碼套件庫同步。
 - 更新您的本機複製檔。
 
@@ -209,23 +209,23 @@ reward:
 
 
 
-- id** ：UUID (_Universally Unique Identifier_)，用來唯一識別教學。您可以使用 [線上工具](https://www.uuidgenerator.net/version4) generate 它。唯一的要求是這個 UUID 是隨機的，以避免與平台上的其他 UUID 衝突；
+- **id** ：UUID (_Universally Unique Identifier_)，用來唯一識別教學。您可以使用 [線上工具](https://www.uuidgenerator.net/version4) generate 它。唯一的要求是這個 UUID 是隨機的，以避免與平台上的其他 UUID 衝突；
 
 
 
-- project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Network 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
+- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
 
 
 
-- 標籤** ：從 Plan ₿ Network 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
+- **標籤**：從 [Plan ₿ Academy 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
 
 
 
-- 類別** ：根據 Plan ₿ Network 網站結構，與教學內容對應的子類別（例如，對於錢包：`桌面`、`硬體`、`行動`、`備份`）；
+- **類別**：根據 Plan ₿ Academy 網站結構，與教學內容對應的子類別（例如，對於錢包：`桌面`、`硬體`、`行動`、`備份`）；
 
 
 
-- 等級** ：教學的難度等級，可從下列項目中選擇：
+- **等級**：教學的難度等級，可從下列項目中選擇：
     - 初學者
     - 中級
     - `進階`
@@ -233,26 +233,26 @@ reward:
 
 
 
-- professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
+- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
 
 
 
-- original_language** ：教學的原始語言 (例如 `fr`、`en` 等)；
+- **original_language**：教學的原始語言 (例如 `fr`、`en` 等)；
 
 
 
 - 校對** ：有關校對過程的資訊。完成第一部分，因為校對自己的教程算作第一次驗證：
-    - language** ：校對的語言代碼 (例如 `fr`、`en` 等)。
-    - last_contribution_date** ：當天的日期。
-    - 迫切性** ：1
-    - contributor_names** ：您的 GitHub ID。
-    - 獎勵** ：0
+- **language**：校對的語言代碼 (例如 `fr`、`en` 等)。
+- **last_contribution_date**：當天的日期。
+- **迫切性**：1
+- **contributor_names** ：您的 GitHub ID。
+- **獎勵**：0
 
 
 有關教師 ID 的詳細資訊，請參閱相應的教學：
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -374,15 +374,15 @@ print("Hello, Bitcoin!")
 
 
 
-- 插圖和圖表** ：
+- **插圖和圖表**：
     - 所有影像必須為 WebP 格式。如有需要，請使用此免費工具進行轉換：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - 以 2 或 3 位數命名視覺效果 (例如 `001.webp`、`002.webp`)。
     - 對於行動或 Hardware Wallet 教學，請使用模型。
     - 僅使用自行製作或免版稅的視覺效果。
     - 確保它們是相關且高品質的。
-- 圖形章程** ：
-    - 字型：[Rubik](https://fonts.google.com/specimen/Rubik).
-    - 顏色 Plan ₿ Network ：
+- **圖形章程**：
+    - 字型：[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
+    - 顏色 Plan ₿ Academy ：
         - 橙色: `#FF5C00`
         - 黑色: `#000000`
         - 白色：`#FFFFFF

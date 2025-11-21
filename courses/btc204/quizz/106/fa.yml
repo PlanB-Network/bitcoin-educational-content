@@ -1,0 +1,9 @@
+question: در یک تراکنش PayJoin چند شرکت‌کننده در ورودی‌ها وجود دارد؟
+answer: ۲
+wrong_answers:
+  - ۱
+  - ۳
+  - ۰
+explanation: |
+  2 شرکت‌کننده وجود دارد: پرداخت‌کننده و دریافت‌کننده پرداخت.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Muhtasari wa *Utafiti na uundaji wa teknolojia ya Mawasiliano ya Kina katika Uropa, Ujumbe wa Tathmini ya Uadilifu wa Primitives Digest 160*. Ni kitendakazi cha kriptografia Hash ambacho hutengeneza muhtasari wa biti-160 kutoka kwa ingizo la kiholela. Inatumika katika Bitcoin kubadilisha ufunguo wa umma kuwa Address inayopokea kwa viwango vya Urithi na SegWit v0 (kwa SegWit v1, ufunguo wa umma haujaharakishwa). Mchakato kwanza unahusisha kutumia `SHA256` Hash chaguo za kukokotoa kwenye ufunguo wa umma, ikifuatiwa na matumizi ya `RIPEMD160` kwenye matokeo. Mchanganyiko huu wa vitendaji viwili tofauti vya Hash hujulikana kama `HASH160` katika muktadha wa Bitcoin. `RIPEMD160` pia inatumika katika pochi za kubainisha na za daraja kukokotoa alama za vidole muhimu. Hasa, `HASH160` hutumika kukokotoa alama ya kidole ya ufunguo mzazi, kisha kujumuishwa katika metadata ya ufunguo uliopanuliwa (xpub, xprv...).

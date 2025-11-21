@@ -1,0 +1,13 @@
+question: Ni igiki gishobora gutera ingorane amafaranga y’amabanki nkuru (CBDCs)?
+answer: Bishobora kubuza abantu umwidegemvyo wo mu vy’amahera no kworohereza abantu gukoresha nabi abategetsi b’agahomerabunwa.
+wrong_answers:
+  - Bishobora gutuma amahera Supply agabanuka.
+  - Bishobora gutuma agaciro ka Bitcoin kagabanuka.
+  - Bishobora gutuma agaciro k’inzahabu kagabanuka.
+explanation: |
+  Amafaranga y'ubuhinga bwa none ya banki nkuru (CBDCs) yoshobora
+  guhagarika umwidegemvyo w'abantu ku giti cabo mu vy'amahera no kworohereza
+  guhohotera abategetsi b’agahomerabunwa. Ivyo ni kubera ko botanga .
+  ubutunzi butegekanijwe cane, bufise banki nkuru
+  kugira mbere n’ububasha bwinshi ku mahera Supply.
+reviewed: true

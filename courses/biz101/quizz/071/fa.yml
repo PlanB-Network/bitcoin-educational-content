@@ -1,0 +1,9 @@
+question: نقش یک LSP در پرداخت‌های Enterprise Bitcoin چیست؟
+answer: مدیریت تراکنش‌های با حجم بالا در لایتنینگ
+wrong_answers:
+  - کلیدهای خصوصی Lightning Wallet را ذخیره کنید
+  - چاپ فاکتورهای Lightning
+  - بازپرداخت‌ها را به صورت دستی در Lightning پردازش کنید
+explanation: |
+  LSPها عملیات پیچیده و با حجم بالا را در لایتنینگ مدیریت می‌کنند.
+reviewed: false

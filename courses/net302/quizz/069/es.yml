@@ -1,0 +1,9 @@
+question: ¿Cuál es el tamaño típico del prefijo de red utilizado en un Address IPv6 en una red local?
+answer: 64 bits
+wrong_answers:
+  - 32 bits
+  - 48 bits
+  - 8 bits
+explanation: |
+  Los primeros 64 bits de un Address IPv6 suelen reservarse para el prefijo de subred.
+reviewed: false

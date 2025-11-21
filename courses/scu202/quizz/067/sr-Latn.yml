@@ -1,0 +1,9 @@
+question: Koja je glavna svrha VPN-a kada surfujete javnom Wi-Fi mrežom?
+answer: Šifrujte saobraćaj između uređaja i VPN servera
+wrong_answers:
+  - Anonimizujte svoju internet vezu
+  - Automatski instaliraj ažuriranja
+  - generate jaki passwordi
+explanation: |
+  VPN šifrira sav mrežni saobraćaj, štiteći vaše podatke od presretanja na nesigurnim mrežama kao što je javni Wi-Fi.
+reviewed: false

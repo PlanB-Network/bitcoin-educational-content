@@ -1,0 +1,9 @@
+question: Girişinde 1 UTXO ve çıkışında 43 UTXO olan bir işlem gözlemlersek, hangi örüntüyü tanıyabiliriz?
+answer: Toplu harcama
+wrong_answers:
+  - Bir konsolidasyon
+  - Basitleştirilmiş bir ödeme
+  - İşbirliğine dayalı bir işlem
+explanation: |
+  Bu modelin yorumu, toplu bir harcama ile karşı karşıya olduğumuzdur. Bu yapı, Exchange platformları gibi kuruluşların harcamalarını tek bir işlemde gruplandırarak ücretlerden tasarruf etmelerini sağlar.
+reviewed: false

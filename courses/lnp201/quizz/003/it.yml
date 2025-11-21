@@ -1,9 +1,9 @@
 question: Qual è la regola principale riguardo ai fondi che un partecipante può inviare in un canale di pagamento?
-answer: Possono inviare solo i fondi dal proprio lato del canale.
+answer: Può inviare solo i fondi presenti dal proprio lato del canale.
 wrong_answers:
-  - Possono inviare fino alla metà della capacità totale del canale.
-  - Possono inviare qualsiasi importo, purché ci sia un accordo precedente.
-  - Possono prendere in prestito fondi dal lato dell'altro partecipante se necessario.
+  - Può inviare fino alla metà della capacità totale del canale.
+  - Può inviare qualsiasi importo, purché ci sia un accordo precedente.
+  - Può prendere in prestito fondi dal lato dell'altro partecipante se necessario.
 explanation: |
-  Ogni partecipante è limitato dalla quantità di satoshi che possiede nel canale per le proprie transazioni, garantendo che i fondi siano sempre coperti.
-reviewed: false
+ Per le proprie transazioni, ogni partecipante è limitato dalla quantità di satoshi che possiede nel canale, garantendo che i fondi siano sempre coperti.
+reviewed: true

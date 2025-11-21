@@ -1,0 +1,9 @@
+question: Salsa20 algoritmasını 128 bit anahtarla ve 256 bit anahtarla kullanmak arasındaki fark nedir?
+answer: Anahtar uzunluğu algoritmadaki tur sayısını etkiler.
+wrong_answers:
+  - Anahtar uzunluğu şifreleme türünü değiştirir.
+  - Akış şifrelemesi için 128 bit anahtar ve blok şifrelemesi için 256 bit anahtar kullanılır.
+  - Anahtar uzunluğunun Salsa20'de hiçbir etkisi yoktur.
+explanation: |
+  Simetrik şifreleme şeması Salsa20'de anahtar uzunluğu (128 veya 256 bit), algoritmanın özünü değiştirmeden algoritmadaki tur sayısını etkiler.
+reviewed: false

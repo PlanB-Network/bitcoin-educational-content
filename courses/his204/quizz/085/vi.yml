@@ -1,0 +1,8 @@
+question: Ai đã thốt ra câu nói "Tôi thấy rằng chỉ có ông Turgot và tôi yêu mến nhân dân"? ?
+answer: Louis XVI
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Louis XVI đã thốt ra câu nói này để nhấn mạnh sự ủng hộ của ông đối với Turgot và các cải cách của ông.

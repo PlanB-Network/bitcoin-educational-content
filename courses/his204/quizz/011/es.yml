@@ -1,0 +1,8 @@
+question: ¿Qué tiene en común Boisguilbert con Vauban?
+answer: Por haber descrito extensamente la miseria de la población rural y haber propuesto un impuesto proporcional para todos
+wrong_answers:
+  - Por haber descrito extensamente la miseria de la población rural, y por haber iniciado su carrera de escritor
+  - Por haber propuesto un impuesto proporcional para todos y haber sido Ministro de Hacienda
+  - Haber sido Ministro de Hacienda y haber empezado una carrera literaria
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, al igual que Vauban, era un agudo observador de la miseria campesina y propuso una reforma fiscal basada en un impuesto proporcional. Sin embargo, a diferencia de Colbert, ni Boisguilbert ni Vauban fueron ministros de Hacienda.

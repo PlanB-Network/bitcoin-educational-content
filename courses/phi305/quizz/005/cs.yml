@@ -1,0 +1,9 @@
+question: Který vědec věří, že matematika je jazykem vesmíru?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Koperník.
+explanation: |
+  Galileo je známý svým tvrzením, že "kniha přírody je psána matematickým jazykem". Tato vize měla hluboký vliv na moderní vědu a racionalistickou filozofii, včetně Spinozovy.
+reviewed: false

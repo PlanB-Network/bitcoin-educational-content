@@ -1,0 +1,9 @@
+question: Hur viktigt är det att använda en slumpmässig Nonce i CBC- och OFB-metoderna?
+answer: Det säkerställer att varje krypteringssession är unik, även för identiska data.
+wrong_answers:
+  - Det minskar nyckellängden under hela krypteringsprocessen.
+  - Det gör krypteringen snabbare.
+  - Det gör algoritmens kod vackrare för människor.
+explanation: |
+  Genom att använda en slumpmässig Nonce för varje session säkerställer CBC- och OFB-metoderna att varje kryptering är unik, vilket förhindrar attacker som utnyttjar identiska data.
+reviewed: false

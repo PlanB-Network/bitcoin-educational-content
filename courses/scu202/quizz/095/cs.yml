@@ -1,0 +1,9 @@
+question: Jaký je nejlepší způsob vzdáleného přístupu k domácí síti?
+answer: Používání osobní sítě VPN
+wrong_answers:
+  - Otevření veřejného portu SSH
+  - Aktivace cloudu směrovače
+  - Použití WPS
+explanation: |
+  VPN vytvoří šifrovaný tunel pro přístup k místní síti, aniž by byl kritický port vystaven internetu.
+reviewed: false

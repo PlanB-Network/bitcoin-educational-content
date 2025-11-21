@@ -1,5 +1,5 @@
 ---
-name: Cụm từ BIP39
+name: BIP-39 Passphrase
 description: Hiểu cách hoạt động của một cụm từ bí mật
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ Cuối cùng, sử dụng cụm từ bí mật là thú vị khi người ta mu�
 ## Làm thế nào để chọn một cụm từ bí mật tốt?
 Để cụm từ bí mật có hiệu quả, nó phải đủ dài và ngẫu nhiên. Giống như với một mật khẩu mạnh, tôi khuyên bạn nên chọn một cụm từ bí mật càng dài và ngẫu nhiên càng tốt, với sự đa dạng của các chữ cái, số và biểu tượng để làm cho bất kỳ cuộc tấn công bằng cách dùng lực brút không thể xảy ra.
 
+Theo [một nghiên cứu được thực hiện bởi Trezor vào năm 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), một kẻ tấn công có quyền truy cập vào seed của bạn và sử dụng GPU cao cấp thuê từ AWS (NVIDIA Tesla V100) có thể thử gần 620 triệu cụm mật khẩu chỉ với 1 đô la. Ước tính sơ bộ, với năng lực vào năm 2019, việc phá vỡ một cụm mật khẩu gồm 12 chữ cái thường ngẫu nhiên sẽ tốn trung bình **77 triệu đô la**.
+
+Tuy nhiên, tôi không khuyến khích bạn giới hạn ở 12 ký tự. Thay vào đó, hãy tuân theo các tiêu chuẩn hiện tại cho mật khẩu mạnh: vào năm 2025, nên sử dụng ít nhất 13 ký tự ngẫu nhiên bao gồm số, chữ thường, chữ hoa và ký hiệu; hoặc 14 ký tự nếu bạn chỉ sử dụng chữ thường và chữ hoa. Tất nhiên, tôi khuyên bạn nên đặt mục tiêu cao hơn, ví dụ như sử dụng một cụm mật khẩu dài 20 ký tự có ký hiệu, để đón đầu các xu hướng trong tương lai và tính đến các rủi ro do con người gây ra mà các nghiên cứu này không đề cập đến.
+
 Cũng quan trọng là phải lưu trữ cụm từ bí mật này một cách đúng đắn, cũng như cụm từ ghi nhớ. **Mất nó có nghĩa là mất quyền truy cập vào bitcoin của bạn**. Tôi khuyên bạn không nên chỉ nhớ nó trong đầu, vì điều này tăng rủi ro mất mát một cách không hợp lý. Lý tưởng nhất là viết nó ra trên một phương tiện vật lý (giấy hoặc kim loại) riêng biệt từ cụm từ ghi nhớ. Bản sao lưu này rõ ràng phải được lưu trữ ở một vị trí khác nơi bạn giữ cụm từ ghi nhớ để ngăn chặn cả hai bị xâm phạm cùng một lúc.
 
 ## Hướng dẫn
 
 Để thiết lập một cụm từ bí mật trên thiết bị Ledger (Stax, Flex, hoặc Nano), bạn có thể tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Trên COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Trên Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Trên Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Trên thiết bị Trezor (Safe 3, Safe 5 hoặc Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+Trên SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Trên SeedSigner với Seedkeeper:
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

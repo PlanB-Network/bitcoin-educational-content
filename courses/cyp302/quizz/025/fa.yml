@@ -1,0 +1,9 @@
+question: نتیجه عملیات 0110 XOR 1101 چیست؟
+answer: ۱۰۱۱
+wrong_answers:
+  - ۰۱۱۱
+  - ۰۰۰۰
+  - ۱۱۰۱
+explanation: |
+  با اعمال XOR بیت به بیت: 0 XOR 1 = 1، 1 XOR 1 = 0، 1 XOR 0 = 1، 0 XOR 1 = 1، بنابراین نتیجه 1011 است.
+reviewed: false

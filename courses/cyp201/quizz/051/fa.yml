@@ -1,0 +1,9 @@
+question: تفاوت اصلی بین یک passphrase و یک کد PIN برای یک Bitcoin Wallet چیست؟
+answer: passphrase مشتق‌سازی کلید را تغییر می‌دهد، نه کد PIN را.
+wrong_answers:
+  - کد PIN به عبارت Mnemonic مرتبط است
+  - کد PIN برای رمزگذاری تراکنش‌ها استفاده می‌شود اما نه passphrase
+  - کد PIN آدرس‌های Bitcoin تولید می‌کند
+explanation: |
+  برخلاف کد PIN، passphrase به طور مستقیم در فرآیند استخراج کلید دخیل است و کلیدهای Wallet را تغییر می‌دهد.
+reviewed: false

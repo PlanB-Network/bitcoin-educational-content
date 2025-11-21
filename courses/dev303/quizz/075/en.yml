@@ -1,0 +1,8 @@
+question: What is the primary advantage of using map() and map_err() methods on Result types compared to traditional try-catch error handling patterns?
+answer: They allow functional-style chaining of operations while keeping error handling close to the operations that can fail
+wrong_answers:
+  - They automatically convert all error types to string messages for easier debugging and user display
+  - They eliminate the need for the question mark operator by providing built-in error propagation mechanisms
+  - They prevent panic conditions by wrapping all potentially failing operations in safe Result containers
+explanation: |
+  The map() and map_err() methods enable functional-style error handling where you can chain operations and transform values or errors right at the point where they occur. This keeps error handling logic close to the operations that can fail, unlike try-catch blocks where error handling is separated from the actual operations. The other options are incorrect: map methods don't convert errors to strings (that's anyhow's role), they work alongside the question mark operator rather than replacing it, and they don't prevent panics but rather provide structured error handling for Results.

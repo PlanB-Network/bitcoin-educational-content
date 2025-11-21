@@ -1,0 +1,9 @@
+question: Czyje motto brzmi "myśl samodzielnie"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  myśleć samodzielnie" (sapere aude) to motto Immanuela Kanta i hasło przewodnie Oświecenia. Chodzi o to, by mieć odwagę korzystać z własnego zrozumienia bez nadzoru innych.
+reviewed: false

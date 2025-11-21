@@ -1,0 +1,9 @@
+question: Vad är kanalens kapacitet i en betalningskanal?
+answer: Den totala summan av medel som de två deltagarna kan Exchange
+wrong_answers:
+  - Den tidsgräns under vilken kanalen kan förbli öppen
+  - Det högsta belopp som en deltagare kan skicka i en enda transaktion
+  - Antalet transaktioner som en kanal kan hantera per dag
+explanation: |
+  Kanalens kapacitet motsvarar de två deltagarnas totala medel och förblir fast för att bestämma de möjliga utbytena.
+reviewed: false

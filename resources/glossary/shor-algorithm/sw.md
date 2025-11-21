@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORITHM)
+---
+
+Algorithm ya Quantum iliyovumbuliwa mwaka wa 1994 na Peter Shor ambayo inaruhusu kujumuisha nambari kamili katika bidhaa ya nambari kuu katika wakati wa polynomia. Kwa kupunguza idadi ya shughuli zinazohitajika ili kuongeza nambari kamili, Shor inaweza kufanya algoriti za usimbaji fiche zilizoanzishwa kwenye tatizo hili la hisabati kuwa lisilowezekana, kama vile RSA. Shor inaweza kurekebishwa kidogo ili kuchukua hatua kwa karibu algorithms zote zinazotumia muundo wa kikundi. Tayari ina lahaja bora kwenye kriptografia ya curve elliptic (ECDSA, Schnorr...). Kwa hivyo, Shor na lahaja zake za karibu zinafaa kwenye algoriti za kriptografia zisizolinganishwa. Kwa sasa, bado hatuna kompyuta ya quantum ambayo ina nguvu za kutosha na thabiti ili kutekeleza kwa ufanisi algoriti ya Shor.

@@ -1,0 +1,9 @@
+question: Hva presenterer Satoshi Nakamotos hvitbok?
+answer: Et desentralisert middel for Exchange på Internett.
+wrong_answers:
+  - En ny liberal politikk.
+  - En sentralisert Exchange-protokoll.
+  - Et politisk program.
+explanation: |
+  Satoshi White Paper Nakamoto presenterer Bitcoin som et desentralisert medium av Exchange på Internett. Det foreslår et elektronisk peer-to-peer-betalingssystem uten sentral autoritet.
+reviewed: false

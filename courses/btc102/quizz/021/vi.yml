@@ -1,0 +1,9 @@
+question: Ý nghĩa chính trị quan trọng của Bitcoin là gì?
+answer: Giảm sự kiểm soát của nhà nước đối với tiền tệ
+wrong_answers:
+  - Tăng cường tập trung ngân hàng
+  - Thúc đẩy lạm phát
+  - Tăng cường các quy định tài chính
+explanation: |
+  Bitcoin là một giải pháp thay thế làm suy yếu quyền lực của các tổ chức nhà nước đối với tiền tệ thông qua việc phát hành tiền và kiểm duyệt giao dịch.
+reviewed: false

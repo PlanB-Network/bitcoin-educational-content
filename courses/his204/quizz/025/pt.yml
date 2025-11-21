@@ -1,0 +1,8 @@
+question: Porque é que, segundo o Abade de Saint-Pierre, o Exchange é sempre e necessariamente um jogo de soma positiva?
+answer: Se dois homens escolhem livremente entrar num Contract, é porque cada um deles vê uma vantagem em fazê-lo
+wrong_answers:
+  - Quanto mais frequentemente os bens mudam de mãos, mais rica se torna a nação
+  - Uma nação que negoceia é sempre mais rica do que uma que vive em autarquia
+  - Porque Deus o quer
+explanation: |
+  O Abade de Saint-Pierre, tal como outros pensadores liberais, acreditava que o Exchange voluntário é mutuamente benéfico. Se duas pessoas concordam em fazer um Exchange, é porque ambas sentem que ganham alguma coisa, caso contrário não o fariam.

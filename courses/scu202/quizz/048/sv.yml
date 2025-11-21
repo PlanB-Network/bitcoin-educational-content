@@ -1,0 +1,9 @@
+question: Varför är kryptering av hela hårddisken eller USB-nyckeln avgörande för säkerheten för dina data?
+answer: Det förhindrar obehörig åtkomst till filer
+wrong_answers:
+  - Snabbare läsning och skrivning av filer
+  - Skyddar mot hårdvarufel
+  - Det gör det lättare att dela diskar
+explanation: |
+  Fullständig kryptering gör data helt oanvändbara utan nyckeln eller lösenordet, även om en angripare fysiskt har disken i sin besittning.
+reviewed: false

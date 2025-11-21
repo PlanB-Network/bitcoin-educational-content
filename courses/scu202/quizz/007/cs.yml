@@ -1,0 +1,9 @@
+question: Který systém vyniká svým komunitním modelem s otevřeným zdrojovým kódem?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux je svobodný a vyvíjený celosvětovou komunitou, což zaručuje transparentnost, bezpečnost a flexibilitu pro uživatele.
+reviewed: false

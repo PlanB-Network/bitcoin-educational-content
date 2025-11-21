@@ -1,0 +1,9 @@
+question: David Chaum'un dijital para birimi konseptini hayata geçirdiği şirketinin adı neydi?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash A.Ş.
+  - First Virtual Holdings Inc.
+explanation: |
+  1990 yılında kurulan DigiCash B.V.'nin merkezi Amsterdam, Hollanda'daydı ve David Chaum'un icadı olan eCash'in patentlerini elinde bulunduruyordu.
+reviewed: true

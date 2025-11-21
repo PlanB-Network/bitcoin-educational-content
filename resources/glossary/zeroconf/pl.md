@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+---
+
+Ryzykowna praktyka polegająca na traktowaniu transakcji Bitcoin jako ostatecznej i kontynuowaniu wykonywania powiązanej czynności w zamian (takiej jak sprzedaż towaru lub usługi), zanim transakcja zostanie faktycznie uwzględniona w bloku na Blockchain. Niepotwierdzone transakcje lub zeroconf są podatne na ataki podwójnego wydatkowania, ponieważ nie są jeszcze nieodwołalnie zarejestrowane w Ledger. Zeroconf można rozważyć w bardzo szczególnych kontekstach, w których szybkość jest priorytetem, na przykład w przypadku małych transakcji handlowych lub transakcji między znajomymi. W takich sytuacjach ryzyko podwójnych wydatków jest często uważane za akceptowalne w porównaniu z korzyściami płynącymi z szybkiej transakcji. Niemniej jednak, w przypadku znaczących transakcji, zwłaszcza gdy nadawca jest nieznany, ważne jest, aby poczekać na kilka potwierdzeń, zanim transakcja zostanie uznana za niezmienną. Ogólnie przyjętym standardem jest oczekiwanie na 6 potwierdzeń, co oznacza, że 5 dodatkowych bloków musi zostać wydobytych po tym zawierającym transakcję, aby uznać ją za ostateczną.

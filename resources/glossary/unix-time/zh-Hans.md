@@ -1,5 +1,5 @@
 ---
-term: UNIX 时间
+term: UNIX TIME (UNIX 时间)
 
 ---
 Unix 时间或 Unix 时间戳表示自 1970 年 1 月 1 日世界协调时（UTC）午夜（Unix Epoch）起经过的秒数。该系统用于 Unix 操作系统及其衍生系统，以通用和标准化的方式标记时间。它使时钟同步和基于时间的事件管理不受时区限制。
@@ -10,4 +10,4 @@ Unix 时间或 Unix 时间戳表示自 1970 年 1 月 1 日世界协调时（UTC
 MTP < Valid Timestamp < (NAT + 2h)
 ```
 
-Unix Time 还可用于建立基于实时而非块数的时间锁。
+Unix Time 还可用于建立基于实时而非区块号的时间锁。

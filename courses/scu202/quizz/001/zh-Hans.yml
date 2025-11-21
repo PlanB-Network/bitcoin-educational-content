@@ -1,0 +1,9 @@
+question: 在上网时，哪些做法对限制数据泄露至关重要？
+answer: 定期删除 cookie
+wrong_answers:
+  - 保留所有 cookie
+  - 禁用浏览器私人模式
+  - 使用过时的浏览器
+explanation: |
+  删除或限制 cookie 可减少广告跟踪，保护网页浏览过程中的隐私。
+reviewed: false

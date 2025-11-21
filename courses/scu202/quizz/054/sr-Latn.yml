@@ -1,0 +1,9 @@
+question: Koje informacije se obično mogu naći u EXIF metapodacima fotografije?
+answer: Datum, vreme, GPS pozicija, model uređaja, autor
+wrong_answers:
+  - Izvorni kod firmvera kamere
+  - Fotografova Wi-Fi lozinka
+  - Najnoviji rezultati antivirusa
+explanation: |
+  EXIF metapodaci fotografije često sadrže detaljne kontekstualne informacije o snimku i kameri.
+reviewed: false

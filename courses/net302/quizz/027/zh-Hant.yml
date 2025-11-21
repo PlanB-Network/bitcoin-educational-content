@@ -1,0 +1,9 @@
+question: 在 Application Layer (TCP/IP) 交換的資料單位名稱是什麼？
+answer: 訊息
+wrong_answers:
+  - 框架
+  - 區段
+  - 資料傳送
+explanation: |
+  在 TCP/IP 模型中，在應用程式 Layer 交換的資料稱為訊息（或串流，視上下文而定）。
+reviewed: false

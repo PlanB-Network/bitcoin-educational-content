@@ -1,0 +1,9 @@
+question: Ortak Girdi Ownership Sezgiselliği (CIOH) ne anlama gelir?
+answer: Bir işlem birden fazla girdi içerdiğinde, bunların hepsi muhtemelen tek bir tüzel kişiden gelmektedir.
+wrong_answers:
+  - Bir işlem birden fazla girdi içerdiğinde, bunların hepsi muhtemelen farklı kuruluşlardan gelir.
+  - Bir işlem birden fazla çıktı içeriyorsa, bunların hepsi muhtemelen tek bir tüzel kişiye gidiyordur.
+  - Bir işlem birden fazla çıktı içerdiğinde, bunların hepsi muhtemelen farklı kuruluşlara gidecektir.
+explanation: |
+  CIOH, bir işlem birden fazla girdi içerdiğinde, bu girdilerin muhtemelen hepsinin tek bir varlıktan kaynaklandığını öne süren bir sezgiseldir. Sonuç olarak, Ownership ortaktır.
+reviewed: false

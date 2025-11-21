@@ -1,0 +1,11 @@
+question: Wat is de potentiële impact van een verbod op Mining in een regio?
+answer: Het kan leiden tot een aanzienlijke daling van de Hashrate en prijs van Bitcoin
+wrong_answers:
+  - Het kan leiden tot een stijging van de prijs van Bitcoin
+  - Het kan leiden tot een toename van de Hashrate van het netwerk
+  - Het kan leiden tot een toename van het aantal actieve knooppunten in het netwerk
+explanation: |
+  Een verbod op Mining in een regio, zoals wat er in China is gebeurd,
+  kan leiden tot een aanzienlijke daling van Hashrate en de prijs van
+  Bitcoin. Deze kunnen zich echter snel herstellen.
+reviewed: true

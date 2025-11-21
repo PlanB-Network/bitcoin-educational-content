@@ -1,9 +1,10 @@
-question: Apa salah satu solusi alternatif yang direkomendasikan untuk menyimpan frasa mnemonik Anda selain menggunakan kertas?
-answer: Mengukirnya pada sebuah pelat logam
+question: Mengapa privasi penting dalam konteks Bitcoin?
+answer: Untuk meminimalkan risiko pelacakan dana Anda
 wrong_answers:
-  - Menyimpannya dalam sebuah file digital
-  - Menuliskannya pada papan tulis
-  - Menyimpannya sebagai kontak di telepon Anda
+  - Untuk menurunkan nilai bitcoin Anda
+  - Untuk mencegah bitcoin Anda dicuri
+  - Untuk membayar pajak atas bitcoin Anda
 explanation: |
-  Salah satu solusi alternatif untuk menyimpan frasa mnemonik Anda selain menggunakan kertas adalah dengan mengukirnya pada sebuah pelat logam. Ini dapat menyediakan solusi yang lebih tahan lama dan awet.
-reviewed: true
+  Privasi penting dalam konteks Bitcoin untuk meminimalkan risiko
+  pelacakan dana Anda yang dapat menyebabkan pengawasan.
+reviewed: benar

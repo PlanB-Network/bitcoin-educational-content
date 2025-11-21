@@ -1,0 +1,9 @@
+question: الهام اصلی Satoshi ناکاموتو در طراحی اولیه Bitcoin چه بود؟
+answer: eCash (دیوید چام)
+wrong_answers:
+  - b-money (وی دای)
+  - بیت گلد (نیک سابو)
+  - RPOW (هال فینی)
+explanation: |
+  علیرغم شباهت‌های زیادشان، مدل‌های b-money، bit gold و RPOW الهام‌بخش اصلی Satoshi نبودند، زیرا او به سادگی تا قبل از آگوست 2008 از آن‌ها آگاه نبود.
+reviewed: false

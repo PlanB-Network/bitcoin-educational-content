@@ -1,0 +1,12 @@
+question: Bitcoin ağında Proof of Stake'in potansiyel tehdidi nedir?
+answer: Halihazırda büyük miktarda para birimini elinde bulunduranlar, mevcut güç eşitsizliklerini yansıtacak şekilde orantısız bir güce sahiptir.
+wrong_answers:
+  - Bu, büyük miktarda para birimine sahip doğrulayıcılar için önemli bir engel teşkil edecektir.
+  - Küçük ölçekli katılıma izin vermemektedir.
+  - Somut kaynaklar gerektirmez.
+explanation: |
+  Bir Proof of Stake ağında, halihazırda büyük bir hisseye sahip olanlar
+  para biriminin miktarı orantısız bir güce sahiptir. Bu
+  dinamiği potansiyel olarak merkezileşmeyi ve
+  gücün birkaç kişinin elinde toplanması.
+reviewed: true

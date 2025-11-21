@@ -1,0 +1,9 @@
+question: Proč je šifrování celého disku nebo klíče USB klíčové pro zabezpečení vašich dat?
+answer: Zabraňuje neoprávněnému přístupu k souborům
+wrong_answers:
+  - Zrychluje čtení a zápis souborů
+  - Chrání před selháním hardwaru
+  - Usnadňuje sdílení disku
+explanation: |
+  Úplné šifrování způsobí, že data jsou bez klíče nebo hesla zcela nepoužitelná, a to i v případě, že se útočník fyzicky zmocní disku.
+reviewed: false

@@ -1,0 +1,9 @@
+question: In welke fase van de AES-versleuteling worden Galoisvelden gebruikt?
+answer: In byte-substitutie en de functie MixColumns
+wrong_answers:
+  - Bij het genereren van de privésleutel
+  - Bij het verdelen van de tekst in 128-bits blokken
+  - In elke fase van de XOR-bewerking
+explanation: |
+  Galoisvelden worden gebruikt in bytesubstitutie om de vermenigvuldigende inverse te berekenen en in de bewerking MixColumns om vermenigvuldigingen modulo een irreducibele polynoom uit te voeren.
+reviewed: false

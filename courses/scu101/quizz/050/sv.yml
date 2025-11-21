@@ -1,0 +1,11 @@
+question: Vad är fördelen med engångslösenord (HOTP och TOTP) jämfört med SMS för 2FA?
+answer: De kräver kryptografisk beräkning och lagras lokalt i stället för i minnet.
+wrong_answers:
+  - De kräver kryptografiska beräkningar och lagras i minnet i stället för lokalt.
+  - De kräver inga kryptografiska beräkningar och lagras lokalt och i minnet.
+  - De är lättare att komma ihåg och går snabbare att skriva in.
+explanation: |
+  Engångslösenord (HOTP och TOTP) är säkrare än SMS
+  eftersom de kräver kryptografisk beräkning och lagras
+  lagras lokalt i stället för i minnet.
+reviewed: true

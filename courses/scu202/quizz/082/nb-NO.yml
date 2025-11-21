@@ -1,0 +1,9 @@
+question: Hvilken applikasjon har en radikalt desentralisert arkitektur uten en sentral server for ruting av meldinger?
+answer: Keet
+wrong_answers:
+  - Telegram
+  - Signal
+  - Threema
+explanation: |
+  Keet er basert på en peer-to-peer-modell der all kommunikasjon går direkte mellom brukerne, uten en sentral server, noe som garanterer høy robusthet og konfidensialitet.
+reviewed: false

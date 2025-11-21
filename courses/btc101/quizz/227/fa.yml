@@ -1,0 +1,8 @@
+question: یکی از کاربردهای بالقوه Lightning Network در زندگی روزمره چیست؟
+answer: صورتحساب فوری در تجارت.
+wrong_answers:
+  - Mining بیت‌کوین‌های جدید.
+  - ایجاد ارزهای دیجیتال جدید.
+  - افزایش ارزش Bitcoin.
+explanation: >-
+reviewed: true

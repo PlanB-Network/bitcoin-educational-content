@@ -1,0 +1,9 @@
+question: IPv4'teki 127.0.0.1'e eşdeğer olan IPv6 geri döngü Address nedir?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address, dahili makine testi için kullanılan geri döngü Address'dir.
+reviewed: false

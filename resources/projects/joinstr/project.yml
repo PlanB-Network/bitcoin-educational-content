@@ -1,0 +1,29 @@
+id: 64436b78-1ebc-4627-8725-498946139310
+
+name: Joinstr
+
+links:
+  website: https://joinstr.xyz/
+  github: https://gitlab.com/invincible-privacy/joinstr
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - privacy
+  - personal-security
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -8,11 +8,11 @@ description: Identity protected with aliases
 In the digital world, it has become standard practice to have an account for every platform one wishes to access.
 Each of these services requires a login, usually associated with the _username_ and _password_ pair. Often, the username is the user's personal email.
 
-When using one's personal email address for every login, it's easy to imagine the first consequence: loss of confidentiality, which becomes major if the address is composed of _name.surname@serviceemail.com_.
+When using one's personal email address for every login, it's easy to imagine the first consequence: loss of privacy, which becomes major if the address is composed of _name.surname@serviceemail.com_.
 
 Open-source tools developers have created a series of application suites, born precisely to make users gain back a bit of privacy: they will still log in, but using an alias instead of the tool that reveals their private identity.
 
-The simplest among those I have personally tried and am still testing is [Simple Login](https://simplelogin.io/).
+The simplest one, among those I have personally tried and am still testing, is precisely [Simple Login](https://simplelogin.io/).
 
 ## Alias
 

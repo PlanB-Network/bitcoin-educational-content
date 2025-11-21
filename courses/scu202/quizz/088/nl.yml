@@ -1,0 +1,9 @@
+question: Met welke open-source wachtwoordmanager kun je je wachtwoorden lokaal opslaan zonder dat je een cloud nodig hebt?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google-wachtwoordbeheer
+explanation: |
+  KeePassDX werkt op basis van versleutelde lokale bestanden, zonder de noodzaak van een cloud of abonnement op een gecentraliseerde service.
+reviewed: false

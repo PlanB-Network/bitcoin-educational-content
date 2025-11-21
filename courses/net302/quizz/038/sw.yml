@@ -1,0 +1,9 @@
+question: Ni safu gani ya kawaida ya CIDR inayowakilisha saizi ya block ya IPv4 iliyotolewa na IANA kwa RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA inagawanya nafasi ya IPv4 katika vizuizi vya ukubwa /8, kila moja ikiwa na anwani 2^24.
+reviewed: false

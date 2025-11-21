@@ -1,0 +1,10 @@
+question: Vad är syftet med etiketter i Silent Payments?
+answer: Att använda flera olika statiska adresser utan att orimligt öka arbetsbelastningen för skanning.
+wrong_answers:
+  - För att kryptera Silent Payments-transaktioner för att dölja den verkliga mottagaren av transaktionen.
+  - Att använda flera olika statiska adresser som inte kan länkas av en extern observatör.
+  - Att placera en synlig etikett på Blockchain för att identifiera Tysta betalningar på samma sätt som en betalningsreferens.
+explanation: |
+  Etiketter används för att generate flera statiska adresser från den huvudsakliga statiska Address, vilket underlättar Wallet-organisationen. En extern observatör kan dock enkelt upprätta en länk mellan dessa märkta statiska adresser, eftersom den publika nyckeln för skanning är densamma för alla.
+  
+reviewed: false

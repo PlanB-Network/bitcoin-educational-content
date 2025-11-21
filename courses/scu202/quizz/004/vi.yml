@@ -1,0 +1,9 @@
+question: Loại tấn công máy tính nào sử dụng tin nhắn gian lận để trích xuất thông tin?
+answer: Lừa đảo
+wrong_answers:
+  - Phần mềm tống tiền
+  - Tấn công từ chối dịch vụ (DDoS)
+  - Tiêm SQL
+explanation: |
+  Lừa đảo sử dụng email hoặc tin nhắn lừa đảo để dụ mọi người tiết lộ thông tin bí mật hoặc cài đặt phần mềm độc hại.
+reviewed: false

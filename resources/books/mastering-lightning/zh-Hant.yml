@@ -1,0 +1,6 @@
+title: 「掌握閃電」
+publication_year: 2020
+cover: cover_en.webp
+original: true
+description: |
+  Andreas M. Antonopoulos 和 René Pickhardt 所著的「Mastering Lightning」是一本關於 Lightning Network 的中級書籍，Lightning Network 是 Bitcoin 的 Layer 2 擴充解決方案。本書涵蓋 Lightning Network 如何運作的技術細節，以及它對 Bitcoin 的擴充能力和隱私性的潛在影響。作者提供了如何設置 Lightning 節點和使用 Lightning 錢包的逐步說明，他們還討論了該技術的社會和經濟影響。總體而言，對於任何有興趣瞭解 Lightning Network 及其在 Bitcoin 未來角色的人而言，這本書都是一份寶貴的資源。

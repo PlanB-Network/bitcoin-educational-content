@@ -1,0 +1,8 @@
+question: De acordo com o whitepaper Bitcoin, que solução propõe Satoshi Nakamoto para resolver o problema double-spending?
+answer: Um servidor de carimbo de data/hora distribuído peer-to-peer que utiliza prova computacional da ordem cronológica das transacções
+wrong_answers:
+  - Um servidor centralizado com assinaturas de limiar de várias autoridades de confiança
+  - Uma federação de servidores fixos em que a maioria deve aprovar cada transação
+  - Um sistema de assinatura cega com uma parte central de confiança para prevenção de gastos duplos
+explanation: |
+  Satoshi Nakamoto propôs especificamente a utilização de um "servidor de carimbo de data/hora distribuído peer-to-peer para a prova computacional da ordem cronológica das transacções", tal como referido no documento Bitcoin. A palavra-chave é "distribuído", o que significa que não existe um ponto central de controlo. As respostas erradas representam tentativas anteriores falhadas de dinheiro digital que se baseavam em abordagens centralizadas ou semi-centralizadas, o que as tornava vulneráveis à censura e ao fracasso - exatamente os problemas que o Bitcoin foi concebido para resolver através de uma verdadeira descentralização.

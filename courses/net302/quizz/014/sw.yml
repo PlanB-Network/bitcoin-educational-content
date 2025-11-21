@@ -1,0 +1,9 @@
+question: Je, madhumuni makuu ya IPv5 (Itifaki ya Mtiririko, ST) ni yapi?
+answer: Kuhakikisha ubora wa huduma kwa mtiririko fulani
+wrong_answers:
+  - Kuongeza uwezo wa kushughulikia IP
+  - Inatoa utangamano wa nyuma na IPv6
+  - Kupunguza ukubwa wa pakiti za mtandao za TCP/IP
+explanation: |
+  IPv5 (ST) iliundwa ili kutoa ubora wa huduma (QoS) kwa mitiririko ya medianuwai, kama vile VoIP, kwa kuhakikisha kipimo data na kipaumbele.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bastiat neden vatandaşları ekonomik ahlakla aydınlatmanın gerekli olduğuna inanıyor?
+answer: Sahtekârların ve sahte ekonomik doktrinlerin etkisini azaltmak
+wrong_answers:
+  - Hayırseverlik ve fedakarlığı öğretmek
+  - Vergi sistemini daha adil hale getirmek için
+  - Ekonomi yoluyla yoksulluğu ortadan kaldırmak
+explanation: |
+  Bastiat ekonomik ahlakta, halkı gerçek ekonomik sonuçlar konusunda aydınlatarak manipülasyonu ve yanlış doktrinlerin etkisini azaltmanın bir yolunu görür.
+reviewed: false

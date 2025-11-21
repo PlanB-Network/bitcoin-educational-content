@@ -1,9 +1,9 @@
-question: Khóa học này gợi ý điều gì về tương lai của Bitcoin?
-answer: Nó sẽ không biến mất.
+question: Lightning Network tạo ra loại mạng lưới nào?
+answer: Một mạng lưới của các kênh thanh toán.
 wrong_answers:
-  - Nó sẽ bị thay thế bởi một công nghệ tốt hơn.
-  - Nó sẽ bị cấm trên toàn thế giới.
-  - Nó sẽ mất giá trị.
-explanation: |
-  Văn bản của khóa học gợi ý rằng Bitcoin sẽ không biến mất. Ngược lại, cuộc cách mạng mới chỉ bắt đầu.
+  - Một mạng lưới của các nút đào.
+  - Một mạng lưới của các nút blockchain.
+  - Một mạng lưới của các sàn giao dịch tiền mã hóa.
+explanation: >-
+  Lightning Network hoạt động như một mạng lưới của các kênh thanh toán, cho phép thực hiện các giao dịch tức thì với phí thấp cho người gửi.
 reviewed: true

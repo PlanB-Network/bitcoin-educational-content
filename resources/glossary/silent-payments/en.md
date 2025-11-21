@@ -28,14 +28,14 @@ $$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
 With:
 * $B_{\text{scan}}$: Bob's scan public key (static address);
 * $B_{\text{spend}}$: Bob's spend public key (static address);
-* $A$: The sum of the public keys in input (tweak);
+**$A$**: The sum of the public keys in input (tweak);
 * $a$: The private key of the tweak, that is, the sum of all key pairs used in the `scriptPubKey` of the UTXOs consumed as inputs in Alice's transaction;
 * $\text{outpoint}_L$: The smallest UTXO (lexicographically) used as an input in Alice's transaction;
-* $\text{ ‖ }$: Concatenation (the operation of joining operands end-to-end);
+**‖**: Concatenation (the operation of joining operands end-to-end);
 * $G$: The generator point of the elliptical curve `secp256k1`;
 * $\text{hash}$: The SHA256 hash function tagged with `BIP0352/SharedSecret`;
 * $P_0$: The first public key / unique address for payment to Bob;
-* $0$: An integer used to generate multiple unique payment addresses.
+**$0$**: An integer used to generate multiple unique payment addresses.
 
 Bob scans the blockchain to find his Silent Payment in this way:
 
@@ -53,4 +53,3 @@ With:
 * $n$: the order of the elliptical curve `secp256k1`.
 
 In addition to this basic version, labels can also be used to generate several different static addresses from the same basic static address, with the aim of separating multiple uses without unreasonably multiplying the work required during scanning.
-

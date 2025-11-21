@@ -5,7 +5,7 @@ description: 在 Raspberry Pi 上安裝 RoninDojo v2 Bitcoin 節點
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-***警告:**在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，RoninDojo 的某些功能（例如 Whirlpool）已不再運作。不過，這些工具有可能在未來幾週內以不同方式恢復或重新啟動。此外，由於 RoninDojo 的程式碼託管在 Samourai 的 GitLab 上，而 GitLab 也被查封，因此目前無法從遠端下載程式碼。RoninDojo 團隊可能正在努力重新發布程式碼。
+**警告:** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，RoninDojo 的某些功能（例如 Whirlpool）已不再運作。不過，這些工具有可能在未來幾週內以不同方式恢復或重新啟動。此外，由於 RoninDojo 的程式碼託管在 Samourai 的 GitLab 上，而 GitLab 也被查封，因此目前無法從遠端下載程式碼。RoninDojo 團隊可能正在努力重新發布程式碼。
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
@@ -20,7 +20,7 @@ description: 在 Raspberry Pi 上安裝 RoninDojo v2 Bitcoin 節點
 
 在之前的教學中，我們已經介紹了安裝和使用 RoninDojo v1 的步驟。然而，在過去的一年中，RoninDojo 團隊推出了他們的實作版本 2，這標誌著該軟體架構的一個重要轉折點。事實上，他們捨棄了 Linux Manjaro 發行版，改用 Debian。因此，他們不再提供在 Raspberry Pi 上自動安裝的預先設定映像檔。但仍有一種手動安裝的方法。我就是用這個方法來安裝我自己的節點，從那時起，RoninDojo v2 在我的 Raspberry Pi 4 上運作得非常好。因此，我現在提供一個新的教學，說明如何在 Raspberry Pi 上手動安裝 RoninDojo v2。
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## 目錄：
 
@@ -333,7 +333,7 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 ![lets start](assets/notext/25.webp)
 
 
-在此階段，RoninUI 向您提供您的 `root` 密碼。必須妥善保管。您可以選擇在紙張上進行實體備份，或將其保存在 [密碼管理器](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)。
+在此階段，RoninUI 向您提供您的 `root` 密碼。必須妥善保管。您可以選擇在紙張上進行實體備份，或將其保存在 [密碼管理器](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)。
 
 
 ![root password](assets/notext/26.webp)
@@ -391,7 +391,7 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 **如果您使用本教學從舊版 RoninDojo v1 節點**遷移到新版，同時保留相同的 SSD，您的節點應該會自動偵測並重複使用磁碟上的現有資料，讓您不必再次執行 IBD。在這種情況下，您只需等待節點重新同步最新的區塊。
 
 
-### 步驟 8：「veth* 修正」
+### 步驟 8：「veth 修正」
 
 如果您在 Raspberry Pi 上使用 RoninDojo v2 時遇到 bug，即在順利安裝之後，您的節點突然無法透過 SSH 連線，但在簡單重新啟動之後又恢復正常，那麼您需要遵循此步驟 8。這個常見的 bug 可以使用社群開發的解決方案："_veth fix_"輕鬆修復。這個小修正可以永久解決突然斷線的問題。以下是應用方法。
 
@@ -409,7 +409,7 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 系統會提示您輸入使用者密碼。輸入後按 `enter` 鍵確認。然後，您將存取 RoninCLI Interface。使用鍵盤的箭頭瀏覽到 `Exit RoninDojo` 選項，然後按下`enter`以選取。
 
 
-此時，您已進入節點的終端機，出現類似以下的指令提示：`ronindojo@RoninDojo:~$`。若要套用 veth* 修正，請鍵入下列指令，然後按 `enter`：
+此時，您已進入節點的終端機，出現類似以下的指令提示：`ronindojo@RoninDojo:~$`。若要套用 **veth** 修正，請鍵入下列指令，然後按 `enter`：
 
 `sudo nano /etc/dhcpcd.conf``
 
@@ -532,7 +532,7 @@ Block explorer 將來自 Bitcoin Blockchain 的原始資訊轉換成結構化、
 若要深入瞭解 CoinJoin 及其在 Bitcoin 上的使用，我也邀請您參閱這篇文章：了解並在 Bitcoin 上使用 CoinJoin，我在這篇文章中詳細介紹了有關這項技術的所有知識。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### 使用 Whirlpool 統計工具 (WST)
 
@@ -543,7 +543,7 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 為了加深您對這些指數計算機制的瞭解，我建議您閱讀這篇文章：REMIX - Whirlpool，詳細說明這些指數的運作。
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -625,7 +625,7 @@ https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4
 WST 接著會顯示回溯分數 (_Backward-looking metrics_)，接著會顯示前瞻分數 (_Forward-looking metrics_)。除了暫停評分之外，WST 也會顯示您的交易相對於其暫停評分在交易池中的擴散率。
 
 
-**請注意，硬幣的前瞻性分數應從初始組合的 txid 開始計算，而不是從最近的組合開始計算。反之，UTXO 的回溯分數則是從上一個週期的 txid 開始計算。
+**請注意，硬幣的前瞻性分數應從初始組合的 txid 開始計算，而不是從最近的組合開始計算。反之，UTXO 的回溯分數則是從上一個週期的 txid 開始計算。**
 
 
 ### 使用波爾茲曼計算機
@@ -643,7 +643,7 @@ Boltzmann 計算器是分析 Bitcoin 交易的工具，提供測量其熵水平�
 資料來源：KYCP
 
 
-***計算的第二個指標**是交易的熵，用`Entropy`來指定。當一筆交易有許多可能的組合時，參考它的熵通常更有意义。其定義為可能組合數的二進位對數。以下是使用的公式：
+**計算的第二個指標**是交易的熵，用`Entropy`來指定。當一筆交易有許多可能的組合時，參考它的熵通常更有意义。其定義為可能組合數的二進位對數。以下是使用的公式：
 
 
 - $E$：交易的熵；
@@ -746,7 +746,7 @@ $$ED = 1.054 \text{ bits}$$
 舉例來說，Whirlpool 型 CoinJoin 交易沒有任何確定性連結，因此顯示的指標和比率都是 0%。另一方面，在我們檢視的第二筆交易（有一個輸入和兩個輸出）中，指標設定為 2，比率達到 100%。因此，由於輸入和輸出之間沒有直接且無可爭議的連結，因此指標為零表示保密性極佳。
 
 
-**如何在 RoninDojo 上存取 Boltzmann 計算機？
+**如何在 RoninDojo 上存取 Boltzmann 計算機？**
 
 若要存取 *Boltzmann Calculator* 工具，請前往 RoninCLI。為此，請在個人電腦上開啟終端機，並使用下列指令與您的節點建立 SSH 連線：`SSH ronindojo@[IP]``
 
@@ -807,9 +807,9 @@ $$ED = 1.054 \text{ bits}$$
 除了這個工具之外，RoninUI 的「維護」標籤還包含許多其他有用的功能：
 
 
-- 交易工具*：可檢查指定交易的詳細資料；
-- Address 工具*：允許確認您的道場追蹤指定的 Address；
-- 重新掃描區塊*：強制您的節點對指定的區塊範圍執行新的掃描。
+- 交易工具：可檢查指定交易的詳細資料；
+- Address 工具：允許確認您的道場追蹤指定的 Address；
+- 重新掃描區塊：強制您的節點對指定的區塊範圍執行新的掃描。
 
 
 Push Tx" 選項卡是 RoninUI 另一項有趣的功能，可在 Bitcoin 網路上廣播已簽署的交易。交易必須以十六進位形式輸入。

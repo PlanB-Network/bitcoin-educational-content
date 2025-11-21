@@ -1,0 +1,9 @@
+question: Jakou velikost bloku IPv6 obecně přiděluje IANA jednotlivým regionálním internetovým registrům (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Od roku 2006 dostává každý RIR obvykle blok /12 IPv6, což poskytuje velmi velkou rezervu pro regionální přidělování.
+reviewed: false

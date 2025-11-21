@@ -1,0 +1,9 @@
+question: Quel navigateur open source, développé par une organisation à but non lucratif, est le principal représentant du moteur Gecko ?
+answer: Mozilla Firefox
+wrong_answers:
+  - Brave
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, développé par la Mozilla Foundation, est le navigateur majeur reposant sur Gecko, reconnu pour ses engagements en faveur de la vie privée.
+reviewed: false

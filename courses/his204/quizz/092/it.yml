@@ -1,0 +1,8 @@
+question: Su quale argomento Condorcet non ha scritto?
+answer: Le banche
+wrong_answers:
+  - Libertà di commercio dei cereali
+  - Le faccende domestiche
+  - Schiavitù
+explanation: |
+  Condorcet scrisse della libertà di commercio del grano, della corvée e della schiavitù, ma non delle banche.

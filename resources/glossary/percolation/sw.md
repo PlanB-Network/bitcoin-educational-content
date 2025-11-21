@@ -1,0 +1,5 @@
+---
+term: PERCOLATION
+---
+
+Inarejelea muundo unaosaidia kuelewa uenezaji wa taarifa (shughuli na vizuizi) kwenye mtandao wa nodi za Bitcoin. Nadharia ya upenyezaji asilia ni kielelezo cha hisabati na kimwili ambacho husoma mienendo na uchujaji wa vimiminika kupitia nyenzo za vinyweleo. Inachambua jinsi, zaidi ya kizingiti fulani, mtandao uliounganishwa unaruhusu maji kupita mfululizo kupitia nyenzo. Hii inaweza kutumika kwa mitandao ya kompyuta ili kuona jinsi maelezo yanavyoenea kwa kuzingatia nodi kama tovuti zinazoweza kuwa amilifu au zisizotumika. Katika Bitcoin, nodes hivyo hucheza nafasi ya pores katika nadharia ya percolation. Kila nodi inayofanya kazi hupokea na kusambaza habari kwa nodi zingine, ambazo zitaendelea kusambaza au kuizuia. Kuenea kwa aina fulani za shughuli zinaweza kuchambuliwa kwa mujibu wa vizingiti vya percolation, ambapo asilimia fulani ya nodes hai ni muhimu kufikia Miner ambaye atajumuisha katika block. Nadharia hii inatoa mfumo wa kutathmini jinsi mabadiliko katika mtandao, kama vile urekebishaji wa sheria za viwango na baadhi ya nodi, huathiri utaratibu wa uenezaji wa shughuli kufikia Miner.

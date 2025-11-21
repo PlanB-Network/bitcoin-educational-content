@@ -1,0 +1,9 @@
+question: Batı felsefesi ve tarih yazımında güce ilişkin baskın görüş nedir?
+answer: Güç, baskıya yol açan yozlaştırıcı bir güçtür
+wrong_answers:
+  - Güç, insanlığın ilerlemesi ve refahı için gereklidir
+  - Güç, iyilik ya da kötülük için kullanılabilen tarafsız bir araçtır
+  - Yukarıdakilerin hepsi
+explanation: |
+  Batı felsefesi ve tarih yazımında güç genellikle yozlaştırıcı bir güç olarak görülür, baskı ve istismara yol açması muhtemeldir, otorite yoğunlaşmasının tehlikelerini ve bireysel özgürlük üzerindeki olumsuz etkilerini vurgular.
+reviewed: true

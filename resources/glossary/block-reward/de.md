@@ -6,4 +6,4 @@ Die Summe der Bitcoins, die ein Miner erhält, wenn er einen gültigen Block auf
 
 Die Blockbelohnung wird im Rahmen einer bestimmten Transaktion namens "coinbase" verteilt. Die daraus entnommenen Bitcoins werden automatisch für einen Zeitraum von 100 Blöcken gesperrt. Dies wird als Laufzeit bezeichnet.
 
-> ► *Die englische Übersetzung lautet "Block Reward"
+> ► *Die englische Übersetzung lautet "Block Reward"*

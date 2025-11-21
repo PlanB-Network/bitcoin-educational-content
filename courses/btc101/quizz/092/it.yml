@@ -1,13 +1,12 @@
-question: Qual è l'uso consigliato di un wallet multisig?
-answer: Conservare grandi quantità di bitcoin per uso aziendale.
+question: Cosa si dovrebbe fare una volta scritte le parole della frase mnemonica?
+answer: Fare una seconda copia e conservarla in un luogo separato.
 wrong_answers:
-  - Conservare piccole quantità di bitcoin per uso personale.
-  - Conservare quantità medie di bitcoin per uso no-profit.
-  - Utilizzarlo per le spese quotidiane ad uso individuale.
+  - Condividerla con un amico di fiducia.
+  - Inviarla a sé stessi via email.
+  - Conservarla nel proprio telefono.
 explanation: |
-  Si raccomanda l'uso di un wallet multisig per conservare grandi quantità
-  di bitcoin e per l'uso aziendale, perché richiede multiple
-  firme per autorizzare una transazione. Questo processo aggiunge un
-  ulteriore livello di sicurezza, poiché una singola persona non può
-  disporre dei fondi senza l'approvazione degli altri partecipanti.
-reviewed: true
+  Una volta scritte le parole della frase mnemonica, si
+  raccomanda di fare una seconda copia e di conservarla in un
+  luogo separato rispetto alla prima. Questo fornisce una copia di sicurezza
+  in caso di perdita o incidente con la prima copia.
+reviewed: vero

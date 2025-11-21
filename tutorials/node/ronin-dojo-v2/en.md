@@ -4,7 +4,7 @@ description: Installing your RoninDojo v2 Bitcoin node on a Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, certain features of RoninDojo, such as Whirlpool, are no longer operational. However, it is possible that these tools could be reinstated or relaunched differently in the coming weeks. Additionally, since the RoninDojo code was hosted on Samourai's GitLab, which was also seized, it is currently not possible to download the code remotely. The RoninDojo teams are likely working on republishing the code.*
+**WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, certain features of RoninDojo, such as Whirlpool, are no longer operational. However, it is possible that these tools could be reinstated or relaunched differently in the coming weeks. Additionally, since the RoninDojo code was hosted on Samourai's GitLab, which was also seized, it is currently not possible to download the code remotely. The RoninDojo teams are likely working on republishing the code.*
 
 _We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
 
@@ -15,7 +15,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 > Use Bitcoin with privacy.
 
 In a previous tutorial, we had already explained the procedure for installing and using RoninDojo v1. However, over the last year, the RoninDojo teams have launched version 2 of their implementation, which marked a significant turning point in the software's architecture. Indeed, they moved away from the Linux Manjaro distribution in favor of Debian. Consequently, they no longer offer a pre-configured image for automatic installation on Raspberry Pi. But there is still a method for proceeding with a manual installation. This is what I used for my own node, and since then, RoninDojo v2 has been working wonderfully on my Raspberry Pi 4. I am therefore offering a new tutorial on how to manually install RoninDojo v2 on a Raspberry Pi.
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Table of Contents:
 - What is RoninDojo?
@@ -215,7 +215,7 @@ Once on the RoninUI homepage, you will be prompted to start the setup. To do thi
 
 ![lets start](assets/notext/25.webp)
 
-At this stage, RoninUI presents you with your `root` password. It is essential to keep it safe. You can opt for a physical backup, on paper, or save it in a [password manager](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+At this stage, RoninUI presents you with your `root` password. It is essential to keep it safe. You can opt for a physical backup, on paper, or save it in a [password manager](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -251,7 +251,7 @@ Congratulations! Your RoninDojo v2 node is now configured and ready to use. It w
 
 **If you are migrating from an old RoninDojo v1 node** to this new version with this tutorial while keeping the same SSD, your node should automatically detect and reuse the existing data on the disk, sparing you the necessity of performing the IBD again. In this case, you will just need to wait for your node to resynchronize with the latest blocks.
 
-### Step 8: "veth* fix"
+### Step 8: "veth fix"
 If you encounter a bug with your RoninDojo v2 on Raspberry Pi, where after a hassle-free installation, your node suddenly becomes unreachable via SSH but recovers after a simple restart, then you need to follow this step 8. This common bug can be easily fixed with a solution developed by the community: the "_veth fix_". This minor correction permanently remedies the abrupt disconnections. Here's how to apply it.
 
 Open a new terminal on your personal computer and establish an SSH connection with your node using the following command: 
@@ -262,7 +262,7 @@ If, for example, your node's IP address is `192.168.1.40`, the appropriate comma
 
 You will be prompted to enter the user password. Enter it and press `enter` to validate. You will then access the RoninCLI interface. Use your keyboard's arrows to navigate to the `Exit RoninDojo` option and press `enter` to select it.
 
-At this point, you are on your node's terminal, with a command prompt similar to: `ronindojo@RoninDojo:~ $`. To apply the veth* fix, type the following command and press `enter`: 
+At this point, you are on your node's terminal, with a command prompt similar to: `ronindojo@RoninDojo:~ $`. To apply the **veth** fix, type the following command and press `enter`:
 `sudo nano /etc/dhcpcd.conf`
 
 Confirm your password again and press `enter`.
@@ -334,7 +334,7 @@ A detailed tutorial is in preparation to guide you step by step through the proc
 
 For a deeper understanding of coinjoin and its use on Bitcoin, I also invite you to consult this other article: Understanding and using coinjoin on Bitcoin, where I detail everything you need to know about this technique.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Using Whirlpool Stat Tool (WST)
 
@@ -342,7 +342,7 @@ After performing coinjoins with Whirlpool, it's useful to precisely evaluate the
 
 To deepen your understanding of the calculation mechanisms of these anonsets, I recommend reading the article: REMIX - WHIRLPOOL, which details the functioning of these indices.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -373,7 +373,7 @@ The following command prompt will be displayed:
 If you wish to exit this interface and return to the RoninCLI menu, simply enter:
 `quit`
 
-First, it's necessary to configure the proxy to use Tor, to ensure confidentiality when extracting data from OXT. Enter the command:
+First, it's necessary to configure the proxy to use Tor, to ensure privacy when extracting data from OXT. Enter the command:
 `socks5 127.0.0.1:9050`
 
 Subsequently, proceed to download the pool information containing your transaction:
@@ -459,17 +459,17 @@ $$ED = 1.054 \text{ bits}$$
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
 
-Here, it is clear that each input has an equal chance of being associated with any output, which reinforces the ambiguity and confidentiality of the transaction. However, in the case of a simple transaction with a single input and two outputs, the situation is different:
+Here, it is clear that each input has an equal chance of being associated with any output, which reinforces the ambiguity and privacy of the transaction. However, in the case of a simple transaction with a single input and two outputs, the situation is different:
 
 | %       | Output 0 | Output 1 |
 |---------|----------|----------|
 | Input 0 | 100%     | 100%     |
 
-Here, we see that the probability for each output to come from input 0 is 100%. A lower probability thus translates to greater confidentiality, by diluting the direct links between inputs and outputs.
+Here, we see that the probability for each output to come from input 0 is 100%. A lower probability thus translates to greater privacy, by diluting the direct links between inputs and outputs.
 
 **The sixth piece of information** provided is the number of deterministic links, complemented by the ratio of these links. This indicator reveals how many connections between the inputs and outputs in the analyzed transaction are indisputable, with a 100% probability. The ratio, in turn, offers a perspective on the weight of these deterministic links within the total links of the transaction.
 
-For example, a Whirlpool-type coinjoin transaction presents no deterministic links, and therefore displays an indicator and ratio of 0%. On the other hand, in our second examined transaction (with one input and two outputs), the indicator is set at 2 and the ratio reaches 100%. Thus, a null indicator signals excellent confidentiality thanks to the absence of direct and indisputable links between inputs and outputs.
+For example, a Whirlpool-type coinjoin transaction presents no deterministic links, and therefore displays an indicator and ratio of 0%. On the other hand, in our second examined transaction (with one input and two outputs), the indicator is set at 2 and the ratio reaches 100%. Thus, a null indicator signals excellent privacy thanks to the absence of direct and indisputable links between inputs and outputs.
 
 **How to access the Boltzmann Calculator on RoninDojo?**
 To access the *Boltzmann Calculator* tool, go to RoninCLI. To do this, open a terminal on your personal computer and establish an SSH connection with your node using the following command: `SSH ronindojo@[IP]`
@@ -528,3 +528,4 @@ There you have it! Thank you for following this tutorial to the end. If you enjo
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

@@ -1,0 +1,9 @@
+question: Mikä on MAC Address:n tärkein tehtävä paikallisverkossa?
+answer: Verkon yksilöllinen tunnistaminen Interface
+wrong_answers:
+  - Käännä verkkotunnus IP-nimeksi Address
+  - IP Address:n dynaaminen määrittäminen isännälle
+  - Määritä internet-yhteytesi nopeus
+explanation: |
+  MAC Address toimii kunkin verkon Interface:n yksilöllisenä laitteistotunnisteena, jonka avulla laitteet voidaan fyysisesti erottaa toisistaan paikallisverkossa.
+reviewed: false

@@ -1,12 +1,12 @@
-question: Qual è lo scopo delle commissioni nelle transazioni Bitcoin?
-answer: Sono un incentivo per i miner a includere la transazione nel blocco successivo.
+question: Cos'è un hash valido nel contesto del mining di blocchi nella rete Bitcoin?
+answer: Un'impronta digitale unica associata al blocco, composta da 256 caratteri.
 wrong_answers:
-  - Sono una tassa imposta dal governo.
-  - Sono una commissione addebitata dalla rete Bitcoin per l'utilizzo dei suoi servizi.
-  - Sono una commissione addebitata dal fornitore del wallet.
+  - Un codice unico utilizzato per accedere al blocco.
+  - Una password unica richiesta per minare il blocco.
+  - Un identificativo unico per il miner che ha trovato il blocco.
 explanation: |
-  Nelle transazioni Bitcoin, le commissioni fungono da
-  incentivo per i miner a includere la transazione nel prossimo
-  blocco. Le commissioni creano un mercato libero per l'inclusione
-  delle transazioni nei blocchi.
+  Nel contesto del mining di blocchi nella rete Bitcoin, un
+  hash valido è un'impronta digitale unica associata al
+  blocco, composta da 256 caratteri. La validità di questo
+  hash dipende dalla difficoltà della rete Bitcoin.
 reviewed: true

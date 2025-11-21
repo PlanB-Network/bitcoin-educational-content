@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru IPv4 Address ifise mu rubuga rwa mudasobwa?
+answer: Mu buryo budasanzwe kumenya urusobe Interface.
+wrong_answers:
+  - Kumenya igikoresho cose kiri ku rubuga
+  - Gutanga aderesi za MAC ku rubuga
+  - Amazina ya generate
+explanation: |
+  IPv4 Address ihabwa buri rubuga Interface rw’igikoresho, bikaba bishoboza kuboneka no gushikwako kuri urwo rubuga.
+reviewed: false

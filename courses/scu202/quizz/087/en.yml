@@ -1,0 +1,9 @@
+question: Which open source VPN application allows anonymous account creation without email and accepts bitcoin payments?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN stands out for its totally anonymous account creation, with no email or password required, and accepts payment in Bitcoin or cash.
+reviewed: false

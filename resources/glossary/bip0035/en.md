@@ -2,4 +2,6 @@
 term: BIP0035
 ---
 
-Proposal allowing a Bitcoin node to open up information about its mempool, meaning the transactions waiting for confirmation. Thanks to this, other participants can receive real-time data on unconfirmed transactions by sending a specific message to a node. Before the adoption of BIP35, nodes could only access information about already confirmed transactions. This improvement offers SPV wallets the ability to receive information on unconfirmed transactions, allows a miner to avoid missing transactions with high fees during a restart, and facilitates the analysis of mempool information by external services.
+Proposal that allows a Bitcoin node to share information about its mempool, the pool of transactions waiting for confirmation.
+This feature enables other participants to receive real-time data on unconfirmed transactions by sending a specific request to the node. Before BIP35, nodes could only provide information on transactions that had already been confirmed.
+This improvement benefits SPV wallets by giving them access to unconfirmed transaction data, helps miners avoid missing high-fee transactions after a restart, and facilitates mempool analysis by external services.

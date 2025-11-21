@@ -1,0 +1,8 @@
+question: I samband med valideringsfri mining, vilken är den primära säkerhetsrisken som gruvarbetare står inför när de skjuter upp fullständig blockvalidering för att undvika inaktuella block?
+answer: De riskerar att bygga på en ogiltig blockkedja tillfälligt och slösa bort beräkningskraft på en kedja som så småningom kommer att avvisas
+wrong_answers:
+  - De riskerar att få sina egna block avvisade av nätverket på grund av ofullständig validering av tidigare transaktioner
+  - De riskerar att förlora sina mining-belöningar permanent eftersom valideringsfri mining anses vara ett protokollbrott
+  - De riskerar att skapa double-spend-attacker eftersom de inte kan verifiera att inkommande transaktioner är legitima
+explanation: |
+  När gruvarbetare använder sig av valideringsfri mining kontrollerar de endast proof-of-work i blockhuvudet och startar omedelbart mining ovanpå det samtidigt som de laddar ner och validerar hela blocket parallellt. Den kritiska risken är att de kanske bygger på ett ogiltigt block, vilket innebär att deras beräkningsansträngning slösas bort på en blockkedjegren som kommer att avvisas när det ogiltiga blocket upptäcks. Detta undergräver nätverkssäkerheten eftersom en del av mining-kraften inte bidrar till den starkaste giltiga kedjan, vilket är Bitcoin:s grundläggande säkerhetsmekanism.

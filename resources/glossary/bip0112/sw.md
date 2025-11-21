@@ -1,0 +1,5 @@
+---
+term: BIP0112
+---
+
+Inatanguliza msimbo wa opcode `OP_CHECKSEQUENCEVERIFY` (CSV) katika lugha ya Hati ya Bitcoin. Operesheni hii inaruhusu uundaji wa shughuli ambazo uhalali wake unakuwa mzuri tu baada ya kucheleweshwa fulani kuhusiana na shughuli ya awali, iliyofafanuliwa ama kwa idadi ya vitalu au kwa muda wa muda. `OP_CHECKSEQUENCEVERIFY` inalinganisha thamani iliyo juu ya rafu na thamani ya sehemu ya `nSequence` ya ingizo. Ikiwa ni kubwa zaidi na masharti mengine yote yametimizwa, hati ni halali. Kwa hivyo, `OP_CHECKSEQUENCEVERIFY` huzuia thamani zinazowezekana za uga wa `nSequence` ya ingizo inayoitumia, na sehemu hii ya `nSequence` yenyewe huzuia wakati shughuli inayojumuisha ingizo hili inaweza kujumuishwa kwenye kizuizi. BIP112 ilianzishwa kupitia Soft Fork mnamo Julai 4, 2016, pamoja na BIP68 na BIP113, iliyoamilishwa kwa mara ya kwanza kwa kutumia mbinu ya BIP9.

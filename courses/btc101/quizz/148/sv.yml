@@ -1,0 +1,8 @@
+question: Vad är Coinbase Transaction?
+answer: Den första transaktionen i det block som innehåller Miner:s belöning.
+wrong_answers:
+  - En transaktion som utförts på Exchange Coinbase.
+  - Den andra transaktionen i det block som innehåller de högsta avgifterna.
+  - En transaktion som utförs av Miner efter att han mottagit belöningen.
+explanation: >-
+reviewed: true

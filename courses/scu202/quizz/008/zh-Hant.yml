@@ -1,0 +1,9 @@
+question: macOS 生態系統的主要缺點是什麼？
+answer: 禁閉和依賴 Apple
+wrong_answers:
+  - 軟體開放度過高
+  - 圖形優化較弱
+  - 缺乏更新
+explanation: |
+  MacOS 與 Apple 硬體緊密整合，導致對品牌專屬生態系統的依賴與鎖定。
+reviewed: false

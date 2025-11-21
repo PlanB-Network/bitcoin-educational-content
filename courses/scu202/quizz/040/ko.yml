@@ -1,0 +1,9 @@
+question: 모든 시스템에서 사용할 수 있는 무료 도구 중 파일의 서명과 공개 키와의 대응을 확인하는 데 사용할 수 있는 도구는 무엇인가요?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  디지털 서명 확인 및 공개 키 관리를 위한 참조 도구는 GnuPG(gpg)입니다.
+reviewed: false

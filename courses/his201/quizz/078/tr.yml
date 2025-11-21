@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto ayrıldıktan sonra web sitesinin (forum ve wiki dahil) kontrolünü kime devretti?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Bunu yönetecek zamanı yoktu ve görevi hızla devretti. Site ve forum Theymos ve Cøbra tarafından devralındı.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Какой инструмент командной строки захватывает сетевой трафик для анализа в режиме реального времени?
+answer: tcpdump
+wrong_answers:
+  - копать
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump перехватывает и регистрирует для анализа пакеты, циркулирующие в сети Interface.
+reviewed: false

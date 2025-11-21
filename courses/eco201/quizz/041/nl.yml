@@ -1,0 +1,12 @@
+question: Wat is de rol van de banksector in het veroorzaken van een recessie volgens de Oostenrijkse theorie van de conjunctuurcyclus?
+answer: De banksector veroorzaakt een recessie wanneer hij besluit zijn risico te verminderen en daardoor de kredietstroom vermindert.
+wrong_answers:
+  - De banksector veroorzaakt een recessie wanneer hij besluit zijn risico te verhogen en dus de kredietstroom verhoogt.
+  - De banksector veroorzaakt een recessie wanneer hij besluit zijn risico te handhaven en dus de kredietstroom op gang houdt.
+  - Volgens de Oostenrijkse theorie van de conjunctuurcyclus speelt de banksector geen rol in het veroorzaken van een recessie.
+explanation: |
+  Volgens de Oostenrijkse theorie van de conjunctuurcyclus brengt de banksector
+  een recessie wanneer hij besluit zijn risico te verminderen en daarom de kredietstroom vermindert
+  de kredietstroom vermindert. Dit leidt tot veel faillissementen, kredietkrapte, een afname
+  in beschikbare koopkracht en financiële ineenstortingen.
+reviewed: true

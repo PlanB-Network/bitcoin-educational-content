@@ -1,9 +1,9 @@
-question: Tại sao Bitcoin không được chấp nhận rộng rãi trong thương mại ngày nay?
-answer: Bởi vì nó không được người dùng chấp nhận rộng rãi.
+question: Lợi ích chính của vàng khi được sử dụng làm tiền tệ là gì?
+answer: Nó cực kỳ bền bỉ.
 wrong_answers:
-  - Bởi vì nó không thể vận chuyển.
-  - Bởi vì nó không thể chia nhỏ thành các đơn vị nhỏ.
-  - Bởi vì nó không có tính thanh khoản.
+  - Nó dễ dàng chia nhỏ hoặc vận chuyển qua khoảng cách xa.
+  - Nó dễ dàng được xác minh.
+  - Nó không bị quản lý bởi chính phủ.
 explanation: |
-  Mặc dù có những đặc tính như nguồn cung cấp hạn chế nghiêm ngặt, Bitcoin vẫn không được chấp nhận rộng rãi trong thương mại ngày nay, do thiếu sự chấp nhận từ phía người dùng, vì vậy các nhà bán lẻ không được khuyến khích chấp nhận nó.
+  Mặc dù vàng không dễ dàng chia nhỏ hoặc vận chuyển qua khoảng cách xa, nhưng vàng là một vật liệu rất bền bỉ, điều này làm cho nó trở thành một phương tiện lưu trữ giá trị tốt. Đồng tiền vàng đã được sử dụng làm tiền tệ trong quá khứ, nhưng chúng sẽ không phục vụ cùng một mục đích trong kỷ nguyên số ngày nay.
 reviewed: true

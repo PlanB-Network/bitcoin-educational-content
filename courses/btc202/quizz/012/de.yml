@@ -1,0 +1,9 @@
+question: Welche Phase gehört zu den Aufgaben eines Minderjährigen?
+answer: Aufbau eines Kandidatenblocks aus Mempool
+wrong_answers:
+  - Validierung des gesamten Blockchain von Mempool aus
+  - Bitcoin-Adressen für Benutzer erstellen
+  - Private Schlüssel für Geldbörsen speichern
+explanation: |
+  Ein Miner wählt Transaktionen von Mempool aus und erstellt einen Kandidatenblock, den er versucht, durch Proof of Work zu validieren.
+reviewed: true

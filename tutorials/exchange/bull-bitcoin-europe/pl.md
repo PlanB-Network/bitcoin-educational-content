@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Europa
+name: Bull Bitcoin
 description: Kupuj i sprzedawaj bitcoiny na Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
@@ -7,12 +7,9 @@ description: Kupuj i sprzedawaj bitcoiny na Bull Bitcoin
 
 Bull Bitcoin to platforma Exchange oparta wyłącznie na Bitcoin, założona w 2013 r. w Kanadzie przez Francisa Pouliota, ikonę ekosystemu Bitcoin. Filozofią Bull Bitcoin jest oferowanie użytkownikom narzędzi do suwerenności finansowej i emancypacji. Platforma Exchange jest bezobsługowa, co oznacza, że użytkownik zawsze zachowuje suwerenność nad swoimi Bitcoinami.
 
+Początkowo dostępna tylko w Kanadzie, platforma jest teraz dostępna w Europie i wielu innych krajach, z całkowicie nowym zoptymalizowanym interfejsem. Ta nowa wersja Bull Bitcoin pozwala na łatwe i szybkie kupowanie oraz sprzedawanie bitcoinów dzięki wykorzystaniu Lightning i natychmiastowych przelewów SEPA. Integruje również płatność rachunków w bitcoinach. W przyszłości platforma będzie również integrować opcje DCA, automatyczne zakupy i zlecenia z limitem.
 
-Początkowo dostępna tylko w Kanadzie, platforma jest teraz dostępna w Europie, z zupełnie nowym, zoptymalizowanym Interface. Ta nowa wersja Bull Bitcoin jest obecnie dostępna tylko w Europie. Umożliwia ona szybkie i łatwe kupowanie i sprzedawanie bitcoinów dzięki wykorzystaniu Lightning i natychmiastowych przelewów SEPA. Ostatecznie platforma będzie również zawierać opcje DCA, automatycznych zakupów, zleceń z limitem i płatności rachunków w bitcoinach.
-
-
-Bull Bitcoin zapewnia przejrzyste usługi bez ukrytych opłat. Podobnie jak wszystkie inne platformy Exchange w Europie, korzystanie z Bull Bitcoin wymaga KYC (procedury identyfikacji klienta).
-
+Bull Bitcoin zobowiązuje się do świadczenia przejrzystej usługi bez ukrytych opłat. Należy zauważyć, że jak większość giełd, korzystanie z Bull Bitcoin wymaga przeprowadzenia procedury KYC (poznaj swojego klienta).
 
 ## Zarejestruj się na Bull Bitcoin
 
@@ -71,7 +68,7 @@ Zeskanuj kod QR za pomocą aplikacji uwierzytelniającej, wprowadź 6-cyfrowy ko
 Jeśli nie jesteś zaznajomiony z używaniem aplikacji uwierzytelniających do 2FA, polecam zapoznać się z tym samouczkiem na temat aplikacji Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Wprowadź hasło, aby potwierdzić.
 
@@ -184,9 +181,9 @@ Wprowadź kwotę, którą chcesz kupić. Musisz również wybrać sposób wypła
 Jeśli nie jesteś zaznajomiony z korzystaniem z portfeli Bitcoin, Lightning lub Liquid, sugeruję, abyś wziął udział w naszym dedykowanym szkoleniu:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.network/tutorials/Wallet).
+Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.academy/tutorials/wallet).
 
 
 Następnie potwierdź zakup, klikając przycisk "*Potwierdź zakup*".
@@ -289,10 +286,18 @@ Aby śledzić wszystkie swoje transakcje, możesz sprawdzić historię w menu "*
 ![BULL](assets/fr/36.webp)
 
 
+## Rozpocznij automatyczny cykliczny zakup (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Utwórz zlecenie z limitem ceny
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Teraz już wiesz, jak łatwo kupować i sprzedawać Bitcoin za pomocą Bull Bitcoin. Jeśli uważasz ten poradnik za przydatny, będę bardzo wdzięczny, jeśli umieścisz poniżej kciuk Green. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!
 
 
 Polecam również zapoznać się z tym obszernym samouczkiem, aby dowiedzieć się, jak zarządzać frazą Mnemonic we właściwy sposób:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

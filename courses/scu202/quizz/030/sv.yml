@@ -1,0 +1,9 @@
+question: Vilket open source-verktyg kan kryptera en disk helt och hållet under Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) är standardlösningen på Linux för fullständig diskkryptering under installationen.
+reviewed: false

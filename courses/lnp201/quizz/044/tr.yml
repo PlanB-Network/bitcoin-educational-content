@@ -1,0 +1,9 @@
+question: Bir ödeme rotası yetersiz likidite nedeniyle başarısız olduğunda bir gönderen düğüm ne yapar?
+answer: İşlevsel bir rota bulana kadar başka bir rota dener
+wrong_answers:
+  - Alıcıya otomatik olarak bir iade talebi gönderir
+  - Kanalı kapatır ve yeni bir doğrudan kanal oluşturur
+  - Aracı düğümlerden likiditelerini artırmalarını ister
+explanation: |
+  Bir rota başarısız olduğunda, gönderen düğüm işlevsel bir yol bulunana veya tüm seçenekler tükenene kadar diğer alternatif rotaları dener.
+reviewed: false

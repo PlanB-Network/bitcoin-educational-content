@@ -1,0 +1,9 @@
+question: 哪個 Sparrow wallet 伺服器選項對應 RPC 連線？
+answer: Bitcoin core
+wrong_answers:
+  - 公共伺服器
+  - 私人電子幣
+  - 遠端 API
+explanation: |
+  在 Sparrow 中，Bitcoin core 選項對應於透過 RPC 直接連線到節點。
+reviewed: true

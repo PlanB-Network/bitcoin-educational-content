@@ -1,0 +1,9 @@
+question: Que comando mostra o caminho percorrido pelos pacotes para chegar a um destino IP?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute apresenta cada router intermédio entre o remetente e o destino, utilizando o TTL.
+reviewed: false

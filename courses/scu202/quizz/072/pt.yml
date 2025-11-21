@@ -1,0 +1,9 @@
+question: Como é que instalo uma ROM alternativa num smartphone Android?
+answer: Desbloquear o carregador de arranque
+wrong_answers:
+  - Criar uma conta Apple
+  - Instalar um cartão SIM especial
+  - Ativar o modo de programador no iOS
+explanation: |
+  Desbloquear o bootloader é essencial para gravar uma nova imagem de sistema num smartphone Android.
+reviewed: false

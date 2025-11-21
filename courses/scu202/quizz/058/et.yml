@@ -1,0 +1,9 @@
+question: Millist renderdusmootorit kasutas Internet Explorer alates 4. versioonist ja domineeris 2000. aastate alguses turul?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Vilkumine
+explanation: |
+  Microsofti poolt välja töötatud Trident võeti kasutusele koos Internet Explorer 4.0ga 1997. aastal ja domineeris Internet Explorer'i virtuaalse monopoli ajal veebis.
+reviewed: false

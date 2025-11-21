@@ -1,0 +1,12 @@
+question: Mnemonic cümlenizin kelimeleri yazıldıktan sonra ne yapmalısınız?
+answer: İkinci bir kopya alın ve ayrı bir yerde saklayın.
+wrong_answers:
+  - Güvendiğiniz bir arkadaşınızla paylaşın.
+  - Kendinize e-posta ile gönderin.
+  - Telefonunuzda saklayın.
+explanation: |
+  Mnemonic cümlenizin kelimeleri yazıldıktan sonra
+  ikinci bir kopyasının çıkarılması ve bir
+  ilkinden ayrı bir konum. Bu, bir yedekleme sağlar
+  i̇lk nüshanın kaybolması veya kaza geçirmesi durumunda.
+reviewed: true

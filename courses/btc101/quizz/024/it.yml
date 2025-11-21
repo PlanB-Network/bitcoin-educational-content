@@ -1,13 +1,13 @@
-question: Qual è il principale svantaggio delle valute fiat?
-answer: Il loro valore è costantemente eroso dall'inflazione monetaria.
+question: Quale dei seguenti non è un vantaggio di Bitcoin come valuta?
+answer: Viene utilizzato per pagare le tasse.
 wrong_answers:
-  - Non sono facilmente trasportabili.
-  - Il loro valore è costantemente apprezzato dall'inflazione monetaria.
-  - Non sono divisibili.
+  - È divisibile.
+  - È trasportabile.
+  - È permissionless.
 explanation: |
-  Il principale svantaggio delle valute fiat, come il
-  dollaro e l'euro, è che il loro valore è costantemente
-  eroso dall'inflazione monetaria. Questo è dovuto alla
-  svalutazione causata dalle entità che le controllano (re,
-  banca centrale, imperatore, dittatore).
+  Bitcoin, grazie alle sue proprietà come la divisibilità,
+  verificabilità, l'aspetto permissionless e la trasportabilità,
+  è un'eccellente riserva di valore. Come valuta neutrale
+  di internet, inoltre, rappresenta un buon mezzo di scambio
+  che non conosce confini.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni iyihe porogarama y’inkomoko yuguruye iremezwa mu gupima ibifungurwa bifise urutonde rw’amakuru rw’ubufatanye?
+answer: GufunguraIvyokurya
+wrong_answers:
+  - Yuka
+  - Amanota y'ingaburo
+  - Umujanama w'ivyo kurya
+explanation: |
+  OpenFoodFacts ni umugambi w’ubuntu, ushingiye ku kibano, ugaragara ku makuru yawo, mu gihe Yuka ishingiye ku citegererezo c’inkomoko idatomoye, idafunguye.
+reviewed: false

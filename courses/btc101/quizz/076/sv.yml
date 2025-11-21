@@ -1,0 +1,12 @@
+question: Vilken analogi används i den här kursen för att förklara hur du kan ta emot bitcoins utan att avsändaren kan stjäla dina pengar?
+answer: En brevlåda.
+wrong_answers:
+  - Ett bankkonto.
+  - Ett kassaskåp.
+  - Ett hus.
+explanation: |
+  Analogin som används för att förklara hur du kan ta emot Bitcoins
+  utan att låta avsändaren stjäla dina pengar är en
+  brevlåda. Människor sätter in pengar i den, men du är den enda
+  den som kan öppna den.
+reviewed: true

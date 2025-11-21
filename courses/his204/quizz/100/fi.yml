@@ -1,0 +1,8 @@
+question: Mikä pankkilaitos on perimmäinen seuraus vuonna 1789 tehdyistä valinnoista, joita Dupont de Nemours vastusti?
+answer: Banque de France
+wrong_answers:
+  - Säästöpankki
+  - Crédit Agricole
+  - Euroopan keskuspankki
+explanation: |
+  Banque de France on seurausta vuonna 1789 tehdyistä valinnoista, joita Dupont de Nemours arvosteli siitä, että ne johtivat rahoitusvallan liialliseen keskittämiseen ja valtion liialliseen puuttumiseen talouteen.

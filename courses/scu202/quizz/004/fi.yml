@@ -1,0 +1,9 @@
+question: Millaisessa tietokonehyökkäyksessä käytetään vilpillisiä viestejä tietojen saamiseksi?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - SQL-injektio
+explanation: |
+  Phishingissä käytetään harhaanjohtavia sähköposteja tai viestejä, joilla houkutellaan ihmisiä luovuttamaan luottamuksellisia tietoja tai asentamaan haittaohjelmia.
+reviewed: false

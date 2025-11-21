@@ -1,0 +1,10 @@
+question: Hoe kunnen we de gevolgen van COIH minimaliseren bij het consolideren van UTXO's?
+answer: Door alleen UTXO's van dezelfde bron te consolideren.
+wrong_answers:
+  - Door UTXO's naar adressen van derden te sturen.
+  - Door UTXO's willekeurig te selecteren om herkenbare patronen te vermijden.
+  - Door UTXO's te consolideren tijdens perioden van lage activiteit.
+explanation: |
+  Als je je bitcoins moet consolideren, consolideer dan eerst UTXO's van dezelfde bron.
+  
+reviewed: false

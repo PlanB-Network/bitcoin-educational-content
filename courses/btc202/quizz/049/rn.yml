@@ -1,0 +1,9 @@
+question: Ni agaciro akahe k'umurongo wa dbcache muri Bitcoin core?
+answer: Mib 450
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Ku mburabuzi, Bitcoin core itanga 450 MiB (472 MB) ku bubiko.
+reviewed: true

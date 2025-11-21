@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč se IPv5 nikdy široce nerozšířil?
+answer: Zůstala experimentální
+wrong_answers:
+  - Jeho nasazení bylo příliš nákladné
+  - Nebyl kompatibilní s protokolem IPv6
+  - Měl závažné bezpečnostní chyby
+explanation: |
+  Protokol IPv5 byl implementován pouze experimentálně. Nikdy nebyl standardizován ani široce přijat a nakonec byl opuštěn ve prospěch IPv6.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪所大學的作業系統促進了 TCP/IP 通訊協定在學術界的普及？
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - 太陽能
+  - Minix
+explanation: |
+  BSD Unix 由 Berkeley University 開發，是最早整合 TCP/IP 通訊協定的系統之一，並協助其在學術界廣泛傳播。
+reviewed: false

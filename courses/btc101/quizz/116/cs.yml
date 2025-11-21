@@ -1,10 +1,9 @@
-question: Jaká byla první zaznamenaná transakce Bitcoinu?
-answer: Transakce 10 BTC mezi Satoshi Nakamoto a Hal Finney.
+question: Jaké je číslo bloku první Bitcoinové transakce?
+answer: Blok 170.
 wrong_answers:
-  - Transakce 10 000 BTC za 2 pizzy.
-  - Transakce 1 BTC mezi Satoshi Nakamoto a Hal Finney.
-  - Transakce 10 000 BTC mezi Laszlo Hanyecz a Hal Finney.
+  - Blok 1.
+  - Blok 17.
+  - Blok 1700.
 explanation: |
-  První zaznamenaná transakce Bitcoinu byla transakce
-  10 BTC mezi Satoshi Nakamoto a Hal Finney.
+  První Bitcoinová transakce, která byla transakcí 10 BTC mezi Satoshi Nakamotem a Hal Finneym, je zaznamenána v bloku 170.
 reviewed: true

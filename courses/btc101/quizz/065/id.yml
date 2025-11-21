@@ -1,9 +1,11 @@
-question: Prinsip ekonomi apa yang sejalan dengan Bitcoin?
-answer: Prinsip ekonomi Austria
+question: Apa tiga fungsi utama dari dompet Bitcoin?
+answer: Menerima bitcoin, Mengirim bitcoin, mengamankannya dari upaya peretasan dan pencurian
 wrong_answers:
-  - Prinsip ekonomi Keynesian
-  - Prinsip ekonomi Marxisme
-  - Prinsip ekonomi Neoklasik
+  - Menyimpan bitcoin, memungkinkan pengiriman bitcoin, mengamankannya dari upaya peretasan dan pencurian
+  - Memungkinkan penerimaan bitcoin, menyimpan bitcoin, mengamankannya dari upaya peretasan dan pencurian
+  - Memungkinkan penerimaan bitcoin, memungkinkan pengiriman bitcoin, menjual bitcoin
 explanation: |
-  Bitcoin sejalan dengan prinsip ekonomi Austria. Kuantitasnya yang terbatas dan ketiadaan entitas pusat melindunginya dari risiko inflasi yang melekat pada mata uang tradisional.
+  Dompet Bitcoin digunakan untuk berinteraksi dengan jaringan Bitcoin. Tiga
+  fungsi utamanya adalah untuk memungkinkan penerimaan bitcoin, memungkinkan pengiriman bitcoin, dan mengamankan
+  mereka dari upaya peretasan dan pencurian.
 reviewed: true

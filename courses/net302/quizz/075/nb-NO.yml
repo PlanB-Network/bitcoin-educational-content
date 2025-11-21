@@ -1,0 +1,9 @@
+question: Hvilken type DNS-oppføring brukes til å finne navnet som er knyttet til en IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) muliggjør omvendt oppløsning, noe som betyr at den kobler en IPv6 Address til et domenenavn.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Geleneksel ödeme sistemlerinin temel işlevi nedir?
+answer: İki taraf arasında fon transferini sağlamak için
+wrong_answers:
+  - Merkezi bir otorite tarafından düzenlenen tek bir küresel para birimi oluşturmak
+  - Uluslararası ticareti kolaylaştırmak için
+  - Fon transferlerini yalnızca yüz yüze nakit alışverişi ile sınırlandırmak için
+explanation: |
+  Geleneksel ödeme sistemleri, hem yerel hem de uluslararası bağlamlarda ödeyenler ve alacaklılar arasında fon transferi için mekanizmalar ve altyapı sağlar.
+reviewed: false

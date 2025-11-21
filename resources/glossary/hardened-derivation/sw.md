@@ -1,0 +1,5 @@
+---
+term: DERIVATION NGUMU
+---
+
+Mchakato wa kutengeneza funguo za watoto katika pochi za HD. Unyambulishaji mgumu hutumia ufunguo wa kibinafsi wa mzazi kama ingizo la chaguo za kukokotoa za `HMAC-SHA512`, hivyo kufanya kuwa vigumu kupata funguo za umma za generate kutoka kwa ufunguo wa umma wa mzazi na msimbo wa mnyororo wa mzazi. Mchakato unahusisha kuambatanisha ufunguo wa faragha wa mzazi na faharasa kubwa kuliko au sawa na $2^{31}$, ikifuatiwa na utumiaji wa `HMAC-SHA512` pamoja na msimbo mkuu wa mnyororo. Matokeo yake yamegawanywa katika sehemu mbili: biti 256 za kwanza huongezwa kwa ufunguo wa faragha wa mzazi ili kupata ufunguo wa faragha wa mtoto, wakati biti 256 zilizobaki huunda msimbo wa mnyororo wa mtoto. Mbinu hii inahakikisha kwamba hata kama ufunguo uliopanuliwa wa umma umeathiriwa, haiwezi kutumika kupata funguo za umma za watoto. Katika utokaji wa kawaida, utokaji mgumu hutumiwa katika viwango vyote vya utokaji hadi kina cha akaunti. Katika nukuu za njia ya unyambulishaji, unyambulishaji mgumu unatambulishwa na neno la apostrofi `'` au mara chache zaidi kwa `h`.

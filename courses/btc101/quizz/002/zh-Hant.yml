@@ -1,0 +1,11 @@
+question: Bitcoin 的兩個主要特徵是什麼？
+answer: Bitcoin 既是一種電腦通訊協定，也是一種貨幣單位。
+wrong_answers:
+  - Bitcoin 既是實體貨幣，也是數位 Wallet。
+  - Bitcoin 既是一種股票，也是一種債券。
+  - Bitcoin 既是一種集中式貨幣，也是一種分散式貨幣。
+explanation: |
+  Bitcoin 既是一種使用密碼技術和 Blockchain 等技術的電腦協定，也是一種貨幣協定。
+  和 Blockchain 等技術，同時也是一種用於交易的貨幣單位。
+  交易使用的貨幣單位。
+reviewed: true

@@ -1,0 +1,10 @@
+question: Wat beïnvloedt het gewicht van een Bitcoin transactie?
+answer: Het aantal ingangen en uitgangen.
+wrong_answers:
+  - De grootte van de Blockchain.
+  - De hoeveelheid inputs en outputs.
+  - De leeftijd van de gebruikte UTXO's.
+explanation: |
+  Hoe meer in- en uitgangen een Bitcoin transactie heeft, hoe zwaarder deze zal zijn in vB.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: 什么机制允许通过 NAT 从外部访问内部服务？
+answer: 端口转发
+wrong_answers:
+  - 数据包碎片
+  - RIP 路由
+  - NAT 压缩
+explanation: |
+  端口转发允许通过 NAT 网关将外部连接转发到特定的内部主机。
+reviewed: false

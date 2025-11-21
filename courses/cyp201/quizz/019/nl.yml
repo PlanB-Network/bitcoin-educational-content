@@ -1,0 +1,9 @@
+question: Welke wiskundige bewerking ligt aan de basis van de veiligheid van cryptografie met elliptische kromme?
+answer: Discrete logaritme probleem
+wrong_answers:
+  - Vermenigvuldiging van priemgetallen
+  - Berekening van kwadratische residuen
+  - Discrete kubus probleem
+explanation: |
+  De veiligheid van cryptografie met elliptische krommen is gebaseerd op de moeilijkheid om het discrete logaritmeprobleem op deze krommen op te lossen.
+reviewed: false

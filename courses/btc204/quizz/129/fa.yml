@@ -1,0 +1,9 @@
+question: دو نوع اصلی قراردادهای هوشمند که در کوین‌سوآپ‌ها استفاده می‌شوند کدامند؟
+answer: HTLC و PTLC
+wrong_answers:
+  - چند امضایی و تک امضایی
+  - قراردادهای هوشمند و DApps
+  - SegWit و Taproot
+explanation: |
+  برای اجرای یک coinswap، می‌توان از HTLCs (قراردادهای قفل زمانی Hash) یا PTLCs (قراردادهای قفل زمانی نقطه‌ای) استفاده کرد.
+reviewed: false

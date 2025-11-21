@@ -1,0 +1,9 @@
+question: از چه روشی در RGB برای تعریف یک Single-Use Seal استفاده می‌شود؟
+answer: یک نقطه خاص
+wrong_answers:
+  - یک کلید عمومی خاص
+  - یک Bitcoin خاص Address
+  - ترکیبی از چندین UTXO
+explanation: |
+  RGB یک Single-Use Seal را به عنوان یک نقطه خاص تعریف می‌کند، که سپس می‌تواند با صرف این نقطه (txid + شماره خروجی) بسته شود.
+reviewed: false

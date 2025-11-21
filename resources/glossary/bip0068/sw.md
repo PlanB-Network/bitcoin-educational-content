@@ -1,0 +1,5 @@
+---
+term: BIP0068
+---
+
+Imeanzisha uwezo wa kutumia muda wa kufunga wa jamaa kupitia sehemu ya `nSequence`. Hii inaruhusu muamala kubainisha ucheleweshaji wa jamaa kabla ya kujumuishwa kwenye kizuizi. Ucheleweshaji huu unaweza kufafanuliwa kulingana na idadi ya vizuizi, au kama sekunde 512 (yaani, wakati halisi). Kumbuka kuwa tafsiri hii mpya ya uga wa `nSequence` ni halali ikiwa tu sehemu ya `nVersion` ni kubwa kuliko au sawa na `2`. Ufafanuzi huu wa uga wa `nSequence` hutokea katika kiwango cha kanuni za maafikiano za Bitcoin. Muda wa wastani huweka ucheleweshaji kuanzia kukubalika kwa shughuli ya awali, huku muda kamili unabainisha muda mahususi kabla ambapo shughuli hiyo haiwezi kujumuishwa kwenye kizuizi. BIP68 ilianzishwa kupitia Soft Fork mnamo Julai 4, 2016, pamoja na BIP112 na BIP113, iliyoamilishwa kwa mara ya kwanza kwa kutumia mbinu ya BIP9.

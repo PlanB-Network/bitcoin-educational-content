@@ -1,0 +1,9 @@
+question: Which open source translation application works with different engines and doesn't collect your translated texts?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou acts as a Interface for several engines, without tracking or collecting personal data, unlike proprietary services.
+reviewed: false

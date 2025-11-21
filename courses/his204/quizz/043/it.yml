@@ -1,0 +1,8 @@
+question: Per quale libro fu imprigionato Mirabeau?
+answer: Teoria della tassazione
+wrong_answers:
+  - L'Ami des Hommes
+  - Saggio sulla natura del commercio in generale
+  - Il Contract sociale
+explanation: |
+  Mirabeau fu imprigionato per "La Théorie de l'Impôt", un'opera in cui criticava il sistema fiscale francese.

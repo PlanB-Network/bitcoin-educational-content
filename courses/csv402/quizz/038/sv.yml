@@ -1,0 +1,9 @@
+question: I YAML-filen som används för att utfärda en tillgång, vilket fält definierar det totala antalet utfärdade tokens?
+answer: utfärdatFörsörjning
+wrong_answers:
+  - tillgångsägare
+  - spec
+  - belopp
+explanation: |
+  Fältet "issuedSupply" i YAML-filen definierar den totala mängden tokens som utfärdats för Contract.
+reviewed: false

@@ -1,0 +1,13 @@
+---
+term: RAT BLOKOVA
+---
+
+Odnosi se na period intenzivne debate i sukoba unutar Bitcoin zajednice između 2015. i 2017. godine. Ovaj sukob je bio usredsređen na to da li bi veličina bloka, koja je bila ograničena na 1 megabajt od 2010. godine od strane Satoshi Nakamoto, trebalo da bude povećana kako bi Bitcoin mogao da obradi više transakcija po bloku, čime bi se poboljšala skalabilnost.
+
+
+Pristalice povećanja veličine bloka (poznati kao "*big blockers*"), predvođeni ranim programerima kao što su Jeff Garzik, Gavin Andresen i Mike Hearn, uticajnim figurama u ekosistemu poput Rogera Vera, kao i značajnim delom glavnih Mining kompanija, tvrdili su da je ovo povećanje neophodno za smanjenje naknada za transakcije i poboljšanje skalabilnosti Bitcoin. Verovali su da se ova promena može izvršiti bez ugrožavanja sigurnosti sistema. S druge strane, protivnici povećanja veličine bloka (poznati kao "*small blockers*"), uglavnom Bitcoin Core programeri (Pieter Wuille, Peter Todd, Gregory Maxwell, Wladimir van der Laan, Luke Dashjr...) i deo tehničke zajednice, tvrdili su da bi ova modifikacija centralizovala sistem zbog povećanog operativnog opterećenja na čvorovima. Isticali su rešenja za skalabilnost druge Layer, kao što je Lightning Network, koja bi podržala veliki obim transakcija bez potrebe za izmenom osnovnog protokola.
+
+
+Rasprava o pristupu skalabilnosti Bitcoin traje još od najmanje 2010. godine, kada je prvi pokušaj povećanja veličine bloka napravljen u oktobru te godine kroz [zakrpu koju je predložio Jeff Garzik](https://bitcointalk.org/index.php?topic=1347.0). Međutim, tokom perioda Rata za veličinu bloka između 2015. i 2017. sukobi su bili najžešći, sa nekoliko pokušaja forkova (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, SegWit, SegWit2X i Bitcoin Cash), strategijama propagande i uticaja, kao i ličnim napadima. Napuštanje Hard Fork SegWit2X 8. novembra 2017. godine, nakon masovnog protivljenja zajednice ("NO2X"), često se smatra događajem koji označava kraj Rata za veličinu bloka, dok se casus belli ponekad smatra ažuriranjem 0.11A klijenta Bitcoin XT, koji je implementirao BIP101 15. avgusta 2015. Takođe se može tvrditi da je Rat za veličinu bloka završen 24. avgusta 2017. godine, datumom kada je Soft Fork SegWit aktiviran nakon kampanje u korist "UASF".
+
+U engleskom jeziku, obično se referišemo na "Blocksize War" kao na vlastitu imenicu. Neki povremeno mogu prevesti ovaj termin kao "block war" ili "block size war."

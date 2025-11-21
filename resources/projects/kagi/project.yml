@@ -1,0 +1,26 @@
+id: d80e6018-cbe9-4b9f-9002-7b82388b04ef
+name: Kagi
+
+links:
+  website: https://kagi.com/
+  twitter: https://x.com/KagiHQ
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

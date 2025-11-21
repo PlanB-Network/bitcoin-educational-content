@@ -2,4 +2,4 @@
 term: OP_0NOTEQUAL (0X92)
 
 ---
-Memeriksa apakah item teratas pada tumpukan tidak sama dengan nol. Jika item tersebut selain nol, maka akan mendorong `1` (true) ke dalam stack, jika tidak, maka akan mendorong `0` (false).
+Memeriksa apakah item teratas pada tumpukan tidak sama dengan nol. Jika item tersebut tidak sama dengan nol, maka nilai `1` (true) akan didorong ke dalam _stack_, jika tidak, maka nilai `0` (_false_) akan didorong.

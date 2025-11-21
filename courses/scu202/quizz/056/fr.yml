@@ -1,0 +1,9 @@
+question: Quel moteur de rendu a été créé à partir d’un fork de KHTML pour équiper Safari ?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Blink
+explanation: |
+  WebKit est un fork de KHTML, choisi par Apple pour équiper Safari à partir de 2003, puis adopté ensuite par de nombreux navigateurs.
+reviewed: false

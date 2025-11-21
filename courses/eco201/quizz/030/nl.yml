@@ -1,0 +1,18 @@
+question: Wat is de implicatie van de sequentiële aard van menselijke actie op productieactiviteiten?
+answer: Elke productieomweg, d.w.z. elke verlenging van de productiestructuur, moet vooraf worden opgeslagen.
+wrong_answers:
+  - De opeenvolging van menselijke acties heeft geen gevolgen voor productieactiviteiten.
+  - De sequentiële aard van menselijk handelen impliceert dat productieactiviteiten in een specifieke volgorde moeten worden uitgevoerd.
+  - De sequentiële aard van menselijk handelen impliceert dat productieactiviteiten gelijktijdig moeten worden uitgevoerd.
+explanation: |
+  Door de opeenvolgende aard van menselijk handelen, moeten individuen
+  moeten individuen intertemporele keuzes maken-beslissingen die een evenwicht vinden tussen
+  tussen onmiddellijke behoeften en toekomstige doelen. Deze keuzes beïnvloeden
+  de volgorde van acties die men kan ondernemen, omdat korte-termijn
+  kortetermijnbeslissingen ondergeschikt zijn aan langetermijndoelen. In termen van
+  productie betekent dit dat elke omweg in het productieproces
+  proces, d.w.z. verlenging van de productiestructuur,
+  vooraf gespaard moet worden. Er moeten nu middelen opzij worden gezet om
+  het individu te ondersteunen gedurende de tijd die nodig is voor het
+  langere, productievere weg.
+reviewed: true

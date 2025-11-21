@@ -1,0 +1,9 @@
+question: Vilken typ av företag är mest benägna att tycka att en enkel csv-fil är tillräcklig för bokföring?
+answer: Små företag
+wrong_answers:
+  - Stora multinationella företag
+  - Större finansiella institutioner
+  - Högfrekventa handelsplattformar
+explanation: |
+  De flesta småföretag drar nytta av den enkelhet och tillräckliga detaljrikedom som en csv-export ger.
+reviewed: false

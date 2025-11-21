@@ -1,0 +1,5 @@
+---
+term: GNPA
+---
+
+Abreviatura de "Pseudo-random number generator" (gerador de números pseudo-aleatórios). Os GNPAs são uma classe de algoritmos usados para gerar sequências de números aproximadamente aleatórios, partindo de um estado inicial chamado seed (seed). Em criptografia, o GNPA é usado para generate chaves, vetores de inicialização e outros Elements que requerem aleatoriedade. Um bom GNPA deve ter propriedades como uniformidade de saída, imprevisibilidade e resistência a ataques preditivos. Ao contrário dos verdadeiros geradores de números aleatórios, os GNPAs são determinísticos e reproduzíveis. No Bitcoin, os GNPAs podem ser usados em software de gestão de carteiras ou carteiras de hardware, para generate a frase de recuperação que sustenta carteiras determinísticas e hierárquicas.

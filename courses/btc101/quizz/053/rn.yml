@@ -1,0 +1,11 @@
+question: Ni igiki gikoreshwa mu kugenzura amafaranga akoreshwa ku rubuga rwa Bitcoin?
+answer: Mining.
+wrong_answers:
+  - Kwimba
+  - Kwimbura
+  - Uburimyi
+explanation: |
+  Uburyo bugenzura amafaranga akoreshwa kuri Bitcoin.
+  urubuga rwitwa Mining. Abacukuzi b'amabuye y'agaciro bakora ubuhinga bwo gukingira amakuru
+  igikorwa kandi bagahembwa n’ugusohora ama bitcoins mashasha.
+reviewed: true

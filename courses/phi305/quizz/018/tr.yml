@@ -1,0 +1,9 @@
+question: TTP ne hakkında?
+answer: Din ve devleti birbirinden ayırmayı amaçlar.
+wrong_answers:
+  - Bir teokrasi kurun.
+  - Anarşiyi savunmak.
+  - Devrim çağrısı.
+explanation: |
+  Teolojik-Politik İnceleme'nin temel amacı din ve devleti birbirinden ayırmaktır. Bu eserde Spinoza, devletin felsefe yapma özgürlüğünü garanti altına alması ve dinin siyasi işlere karışmaması gerektiği fikrini savunur.
+reviewed: false

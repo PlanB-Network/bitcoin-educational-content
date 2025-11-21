@@ -1,0 +1,9 @@
+question: Welcher Eintrag ist in jeder DNS-Zonendatei obligatorisch?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (Zeiger)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  Der SOA-Eintrag definiert die Zonenautorität und ist in jeder DNS-Zonendatei erforderlich.
+reviewed: false

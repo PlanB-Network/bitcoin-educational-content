@@ -1,0 +1,9 @@
+question: Welk medium wordt aanbevolen voor het veilig back-uppen van je Mnemonic zin?
+answer: Metalen back-up met verzegelde ondoorzichtige envelop
+wrong_answers:
+  - Versleutelde opslag op USB-stick
+  - Papieren back-up met transparante hoes
+  - Back-up op een veilige cloud
+explanation: |
+  Een rampbestendige metalen back-up biedt langdurige bescherming tegen schade en onbevoegde toegang. Met de verzegelde ondoorzichtige envelop kun je controleren of iemand toegang heeft gehad tot de Mnemonic-zin.
+reviewed: false

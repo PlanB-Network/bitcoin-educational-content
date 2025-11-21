@@ -1,0 +1,9 @@
+question: Vilken är den primära rollen för en Bitcoin Address i en transaktion?
+answer: Lås UTXO i skriptetPubKey
+wrong_answers:
+  - Lås upp UTXO:erna i skriptetSig
+  - Signalera att transaktionen är avslutad
+  - Identifiera bekräftelseblocket
+explanation: |
+  En Bitcoin Address är inbäddad i scriptPubKey för att låsa UTXO:erna. Den fastställer de nödvändiga villkoren för att låsa upp fonderna.
+reviewed: false

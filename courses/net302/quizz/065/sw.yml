@@ -1,0 +1,9 @@
+question: Ni itifaki gani hupeana muda wa maisha kwa anwani za IPv6 zinazosambazwa kiotomatiki?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 inadhibiti maisha yote kwa njia ya ukodishaji, huku NDP inayatangaza katika ujumbe wake wa usanidi wa kipanga njia.
+reviewed: false

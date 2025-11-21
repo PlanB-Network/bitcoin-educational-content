@@ -1,0 +1,9 @@
+question: بیت‌کوین‌ها کجا ذخیره می‌شوند؟
+answer: در Bitcoin Blockchain.
+wrong_answers:
+  - در Bitcoin Wallet.
+  - روی دستگاهی که Wallet نصب شده است.
+  - در خزانه فدرال رزرو.
+explanation: |
+  اگرچه کلیدهای خصوصی شما در Wallet ذخیره می‌شوند، بیت‌کوین‌ها در واقع در Bitcoin Blockchain ذخیره می‌شوند، که همان Ledger عمومی توزیع‌شده در شبکه همتا به همتای Bitcoin است.
+reviewed: true

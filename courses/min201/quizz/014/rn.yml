@@ -1,0 +1,11 @@
+question: Ni ikihe kibazo gishobora guterwa n’ugushira hamwe Mining muri Bitcoin?
+answer: Gushira hamwe Mining muri Bitcoin birashobora gutuma habaho ugucengera amafaranga no gutuma urubuga rushobora guterwa, harimwo n’igitero ca 51%, aho umukinyi canke umugwi ugenzura ububasha burenga 50% bw’urubuga rwo gukora hashing, bikaba bituma bashobora kugenzura no gukoresha urubuga.
+wrong_answers:
+  - Gushiramwo Mining muri Bitcoin birashobora gutuma agaciro ka Bitcoin kagabanuka, bigatuma urubuga rushobora gushikirwa n’ugutera imbere kw’ibiciro.
+  - Gushiramwo Mining muri Bitcoin birashobora gutuma Block reward igabanuka maze bigatuma urubuga rushobora guhagarara.
+  - Gushiramwo Mining muri Bitcoin birashobora gutuma umuvuduko w’ugucuruza ugabanuka kandi bigatuma urubuga rushobora gushikirwa n’uguhagarara.
+explanation: |
+  Ikigabane kirasigura ko Mining ihuriwe hamwe muri Bitcoin.
+  birashobora gutuma habaho ugucengera amafaranga no gutuma
+  urubuga rushobora guterwa n’ibitero, harimwo n’igitero ca 51%.
+reviewed: true

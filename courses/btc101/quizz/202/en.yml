@@ -1,10 +1,11 @@
-question: What is one of the ways to acquire bitcoins without KYC?
-answer: Bitcoin ATMs.
+question: What is the adoption curve of Bitcoin similar to?
+answer: An S-curve.
 wrong_answers:
-  - Broker platforms.
-  - DCA platforms.
-  - Bank transfers.
-explanation: |
-  The course text mentions that there are several ways to
-  acquire Bitcoins without KYC, one of which is Bitcoin ATMs.
+  - A U-curve.
+  - A V-curve.
+  - A W-curve.
+explanation: >-
+  The adoption of Bitcoin, like any new technology, follows an S-curve.
+  This is a common pattern for the adoption of new technologies, where adoption starts
+  slowly, then accelerates before slowing down as saturation is reached.
 reviewed: true

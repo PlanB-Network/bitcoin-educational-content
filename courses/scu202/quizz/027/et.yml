@@ -1,0 +1,9 @@
+question: Milline Ubuntu graafiline tööriist lihtsustab tulemüürireeglite haldamist?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Sünaptiline
+explanation: |
+  GUFW on UFW tulemüüri graafiline Interface, mis võimaldab teil aktiveerida, deaktiveerida ja konfigureerida reegleid ilma terminali kaudu minemata.
+reviewed: false

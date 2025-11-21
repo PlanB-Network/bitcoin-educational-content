@@ -1,0 +1,9 @@
+question: Vad är RGBlib i RGB:s ekosystem?
+answer: Ett bibliotek för att skapa applikationer som hanterar RGB-tillgångar
+wrong_answers:
+  - En Android Wallet som är avsedd för RGB-tillgångshantering
+  - En alternativ klient för RGB-protokollet
+  - En webbplats för att visa RGB NFT:er
+explanation: |
+  RGBlib erbjuder en förenklad Interface för utvecklare, vilket gör det möjligt för dem att hantera emission, överföring och validering av RGB-tillgångar utan att behöva behärska alla tekniska detaljer.
+reviewed: false

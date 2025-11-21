@@ -1,10 +1,11 @@
-question: Mis on üks potentsiaalne ärivõimalus, mis tuleneb Lightning Network'ist?
-answer: Uued majandusmudelid, kus tarbijad maksavad sisu eest vastavalt sellele, mida nad tarbivad
+question: Mis on üks peamisi muresid pangandussüsteemi pärast?
+answer: Pangandusmängu reeglid ei ole läbipaistvad ega arusaadavad kõigile.
 wrong_answers:
-  - Uued krüptovaluutad
-  - Uued plokiahela tehnoloogiad
-  - Uued makseviisid
+  - Pangandussüsteem on liiga lihtne mõista.
+  - Pangandussüsteem on liiga läbipaistev.
+  - Pangandussüsteem on liiga detsentraliseeritud.
 explanation: >-
-  Lightning Network avab Bitcoin'i kasutajatele hulgaliselt põnevaid kasutusjuhte. Sellest tulenevad majandusmudelid ja ärivõimalused on arvukad
-  ja mitmekesised, sealhulgas uued majandusmudelid, kus tarbijad maksavad sisu eest vastavalt sellele, mida nad tarbivad.
+  Tekstis mainitakse, et küsimus selle kohta, kes peaks pangandussüsteemi
+  kontrollima, on oluline, kuna pangandusmängu reeglid ei ole läbipaistvad ega
+  arusaadavad kõigile.
 reviewed: false

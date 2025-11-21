@@ -1,9 +1,11 @@
-question: Hva er den generelle trenden for Bitcoin på grunn av dens begrensede mengde og halveringsprosessen?
-answer: En generell oppadgående trend.
+question: Hva anses Bitcoin som i forhold til fiatvalutaer?
+answer: En parallell økonomi
 wrong_answers:
-  - En generell nedadgående trend.
-  - Ingen trend i det hele tatt.
-  - En trend som svinger vilt uten noe gjenkjennelig mønster.
+  - En erstatningsøkonomi
+  - En sekundær økonomi
+  - En tertiær økonomi
 explanation: >-
-  Bitcoin, på grunn av sin begrensede mengde på 21 millioner bitcoins og sin halveringsprosess (halvering av pengekreasjonen hvert 4. år i gjennomsnitt), følger en generell oppadgående trend.
+  Bitcoin anses som en parallell økonomi til fiatvalutaer, noe som betyr at den
+  opererer ved siden av tradisjonelle økonomier og kan brukes for transaksjoner direkte,
+  uten behov for å gå gjennom en utvekslingsplattform.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Cơ chế chính của mô hình Ponzi là gì?
+answer: Các nhà đầu tư ban đầu được trả tiền bằng tiền của những người mới
+wrong_answers:
+  - Lợi nhuận đến từ sản phẩm thực tế trên thị trường
+  - Các nhà đầu tư nhận được cổ tức từ các công ty
+  - Lợi nhuận được tạo ra bởi các hợp đồng thông minh trên Blockchain
+explanation: |
+  Trong mô hình Ponzi, không có sản phẩm thực sự nào được tạo ra và khoản thanh toán chỉ dựa vào sự xuất hiện của những người tham gia mới.
+reviewed: false

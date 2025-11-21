@@ -1,0 +1,9 @@
+question: Mikä on ensimmäinen asia, joka sinun pitäisi tehdä turvataksesi pääsyn henkilökohtaiseen tietokoneeseesi?
+answer: Aseta vahva istunnon salasana
+wrong_answers:
+  - Virustorjuntaohjelman asentaminen
+  - UFW-palomuurin määrittäminen
+  - Ota levyn salaus käyttöön
+explanation: |
+  Istuntosalasana on ensimmäinen turvaeste, jolla estetään koneen luvaton käyttö ennen muita lisätoimenpiteitä.
+reviewed: false

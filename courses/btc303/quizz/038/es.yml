@@ -1,0 +1,8 @@
+question: Según el capítulo, ¿qué distingue a un fork blando de un fork duro en los cambios de reglas de consenso de Bitcoin?
+answer: Una fork blanda es totalmente compatible (tanto hacia delante como hacia atrás), mientras que una fork dura sólo lo es hacia atrás
+wrong_answers:
+  - Una fork suave requiere la activación de la señalización minera, mientras que una fork dura utiliza la activación del día de la bandera
+  - Una fork suave cambia los opcodes existentes mientras que una fork dura sólo añade nuevos opcodes como OP_NOP1-OP_NOP10
+  - Una fork suave puede aplicarse en secreto en los commits, mientras que una fork dura requiere un anuncio público
+explanation: |
+  El capítulo define claramente los tipos de compatibilidad: la compatibilidad hacia delante permite al software antiguo procesar datos nuevos ignorando las partes desconocidas, mientras que la compatibilidad hacia atrás permite al software nuevo procesar datos antiguos. Una fork blanda mantiene ambos tipos de compatibilidad, por lo que es totalmente compatible. Una fork dura sólo mantiene la compatibilidad hacia atrás, lo que significa que el software nuevo puede procesar datos antiguos, pero el antiguo no puede procesar datos nuevos del sistema actualizado. Esta distinción es crucial para entender los mecanismos de actualización de Bitcoin y por qué se prefieren las bifurcaciones suaves para mantener la armonía de la red.

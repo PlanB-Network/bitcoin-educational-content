@@ -1,0 +1,18 @@
+question: Vad innebär den sekventiella karaktären av mänskligt handlande för produktionsaktiviteterna?
+answer: Varje produktionsomväg, dvs. varje förlängning av produktionsstrukturen, kräver förhandssparande.
+wrong_answers:
+  - Att mänskligt handlande sker sekventiellt har ingen inverkan på produktionsverksamheten.
+  - Den sekventiella karaktären hos mänskligt handlande innebär att produktionsaktiviteter måste utföras i en viss ordning.
+  - Den sekventiella karaktären hos mänskligt handlande innebär att produktionsaktiviteter måste utföras samtidigt.
+explanation: |
+  På grund av den sekventiella karaktären hos mänsklig handling måste individer
+  måste individer göra intertemporala val - beslut som balanserar
+  mellan omedelbara behov och framtida mål. Dessa val påverkar
+  påverkar den sekvens av åtgärder man kan vidta, eftersom kortsiktiga
+  kortsiktiga beslut är underordnade långsiktiga mål. I termer av
+  produktion innebär detta att varje omväg i produktionsprocessen
+  produktionsprocessen, dvs. en förlängning av produktionsstrukturen
+  kräver föregående besparing. Resurser måste avsättas redan nu för att
+  för att försörja individen under den tid som behövs för den
+  längre och mer produktiva vägen.
+reviewed: true

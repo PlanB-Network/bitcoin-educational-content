@@ -1,0 +1,18 @@
+id: 2dbe4f31-1c11-4d18-a9d1-4691193744c2
+start_date: 2025-04-24 08:00:00
+end_date: 2025-04-27 17:00:00
+timezone: Africa/Douala
+address_city_country: Douala, Cameroon
+name: Conference Bitcoin Afrique 2025
+type: conference
+description: The largest Bitcoin conference in French speaking Africa
+language: 
+  - fr
+  - en
+links:
+  website: https://afriquebitcoin.org/en
+project_id: 9f567776-dcad-46da-93e9-06c595565bff
+tags: 
+  - adoption
+  - market-trends
+  - future-outlook

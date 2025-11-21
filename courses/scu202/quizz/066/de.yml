@@ -1,0 +1,9 @@
+question: Welche lokalen Daten ermöglichen es Werbetreibenden, Ihre Surfgewohnheiten über mehrere Websites hinweg zu verfolgen?
+answer: Cookies von Dritten
+wrong_answers:
+  - JavaScript-Code
+  - Lokale Geschichte
+  - Das SSL-Zertifikat
+explanation: |
+  Cookies von Drittanbietern, die von externen Werbeagenturen platziert werden, werden verwendet, um die Nutzeraktivitäten auf verschiedenen Websites zu verfolgen und ein Werbeprofil zu erstellen.
+reviewed: false

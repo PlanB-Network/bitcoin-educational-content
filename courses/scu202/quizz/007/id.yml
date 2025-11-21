@@ -1,0 +1,9 @@
+question: Sistem mana yang menonjol karena model sumber terbuka dan berbasis komunitasnya?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux gratis dan dikembangkan oleh komunitas di seluruh dunia, menjamin transparansi, keamanan, dan fleksibilitas bagi pengguna.
+reviewed: false

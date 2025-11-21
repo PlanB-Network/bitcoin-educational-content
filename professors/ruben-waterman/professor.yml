@@ -1,0 +1,25 @@
+id: d2333a51-25ec-4fb1-8635-3864f875feb6
+
+## Professor characteristics
+
+name: Ruben Waterman
+
+# contributor_id (*)
+# Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
+# contributor_id:
+
+links:
+  twitter: https://x.com/GetBittr
+  website: https://getbittr.com
+  nostr: primal.net/p/nprofile1qqszwk3fha20mytuy0q7ts4tfja9slz53zgq2e8ktwzmf477je9vp4g9c9mkf
+
+tags:
+  - user-friendly
+  - self-sovereignty
+  - privacy
+  - finance
+
+tips:
+  lightning_address: hodlcat@walletofsatoshi.com
+
+company: Bittr AG

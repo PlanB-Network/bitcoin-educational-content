@@ -1,0 +1,11 @@
+question: Temmuz 1946'da Macaristan'da enflasyon oranı ne kadardı?
+answer: 41,900,000,000,000,000%
+wrong_answers:
+  - 207%
+  - 50%
+  - 100%
+explanation: |
+  Macaristan'da enflasyonun en yüksek olduğu ay Temmuz oldu
+  1946, rekor fiyat enflasyonu ile
+  41,900,000,000,000,000%.
+reviewed: true

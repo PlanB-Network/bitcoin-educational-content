@@ -1,0 +1,9 @@
+question: Qual è il ruolo fondamentale di una rete nell'IT?
+answer: Dati di abilitazione Exchange
+wrong_answers:
+  - Aumento della memoria del computer
+  - Creare copie di backup
+  - Abilitare il Exchange delle apparecchiature informatiche
+explanation: |
+  Una rete collega più dispositivi per consentire la circolazione e il Exchange delle informazioni.
+reviewed: false

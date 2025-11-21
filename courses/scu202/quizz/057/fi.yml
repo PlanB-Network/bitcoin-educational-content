@@ -1,0 +1,9 @@
+question: Mikä selain esitteli JavaScriptin vuonna 1995?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator integroi Brendan Eichin vuonna 1995 kehittämän JavaScript-kielen, joka mahdollistaa dynaamisen vuorovaikutteisuuden verkkosivuille.
+reviewed: false

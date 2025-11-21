@@ -1,0 +1,9 @@
+question: Hvorfor er kryptering av hele disken eller USB-nøkkelen avgjørende for datasikkerheten?
+answer: Det forhindrer uautorisert tilgang til filer
+wrong_answers:
+  - Raskere lesing og skriving av filer
+  - Beskytter mot maskinvarefeil
+  - Det gjør diskdeling enklere
+explanation: |
+  Full kryptering gjør dataene helt ubrukelige uten nøkkelen eller passordet, selv om en angriper fysisk har disken i sin besittelse.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Kako se adrese koriste za zaključavanje UTXO-a?
-answer: Oni su integrisani u ScriptPubKey
+answer: One su integrisane u ScriptPubKey
 wrong_answers:
-  - Oni su integrisani u ScriptSig
-  - Oni su integrisani u coinbase.
-  - Oni nigde nisu integrisani.
+  - One su integrisane u ScriptSig
+  - One su integrisane u coinbase.
+  - One nigde nisu integrisane.
 explanation: |
-  Kada se izvrši plaćanje, transakcija kreira novi UTXO kao izlaz iz UTXO-a koji su potrošeni kao ulazi. Na ovom izlazu se postavlja skripta koja definiše kako se ovaj UTXO može kasnije potrošiti. Ova skripta je poznata kao ScriptPubKey. Prijemni Address je integrisan u ovu skriptu.
+  Kada se izvrši plaćanje, transakcija kreira novi UTXO kao izlaz iz UTXO-a koji su potrošeni kao ulazi. Na ovom izlazu se postavlja skripta koja definiše kako se ovaj UTXO može kasnije potrošiti. Ova skripta je poznata kao ScriptPubKey. Prijemna adresa je integrisan u ovu skriptu.
 reviewed: false

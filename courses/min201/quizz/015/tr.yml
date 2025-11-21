@@ -1,0 +1,12 @@
+question: Bitcoin Mining'in çalışma prensibi nedir?
+answer: Bitcoin Mining, her on dakikada bir blok (ve dolayısıyla Bitcoin ödülü) kazanma şansının bireysel olarak küçük bir Miner için son derece düşük olduğu bir piyango prensibine göre çalışır.
+wrong_answers:
+  - Bitcoin Mining, karmaşık bir matematik problemini çözen ilk Miner'nin Bitcoin ödülünü aldığı ilk gelene ilk hizmet prensibine göre çalışır.
+  - Bitcoin Mining, en yüksek teklifi veren Miner'un Bitcoin ödülünü aldığı bir teklif prensibine göre çalışır.
+  - Bitcoin Mining, her Miner'ün bir blok çıkarmak ve Bitcoin ödülünü almak için bir sıra aldığı bir rotasyon prensibine göre çalışır.
+explanation: |
+  Bu bölümde Bitcoin Mining'in bir piyango üzerinde çalıştığı açıklanmaktadır
+  prensibine göre, bir blok kazanma şansı (ve
+  dolayısıyla Bitcoin ödülü) her on dakikada bir
+  bireysel küçük bir Miner için son derece düşüktür.
+reviewed: true

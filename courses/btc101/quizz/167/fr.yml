@@ -1,13 +1,10 @@
-question: Quel est le principal problème du système financier actuel en relation avec l'environnement ?
-answer: Il encourage la surconsommation et l'endettement.
+question: Quels sont les coûts typiques pour un mineur ?
+answer: Consommation d'électricité et achat de matériel.
 wrong_answers:
-  - Il favorise l'utilisation des combustibles fossiles.
-  - Il n'investit pas dans l'énergie renouvelable.
-  - Il ne régule pas la production de biens.
-explanation: |
-  Le système financier actuel est critiqué pour encourager
-  la surconsommation et l'endettement, ce qui pose de sérieux
-  problèmes environnementaux. Ceci est dû à l'accès facile au
-  crédit, à l'émission monétaire par les banques, et à l'utilisation
-  du système de réserve fractionnaire.
-reviewed: true
+  - Achat de matériel uniquement.
+  - Frais de transaction.
+  - Consommation d'électricité et frais de transaction.
+explanation: >-
+  Miner du Bitcoin nécessite une puissance de calcul substantielle, ce qui, à son tour, consomme de l'électricité.
+  De plus, les mineurs doivent investir dans du matériel spécialisé pour miner efficacement.
+reviewed: false

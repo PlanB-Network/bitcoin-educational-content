@@ -1,0 +1,9 @@
+question: Welke rol speelt het tijdslot in de werking van HTLC's?
+answer: Het geeft een tijdsbestek om de betaling te voltooien voor annulering
+wrong_answers:
+  - Het verhoogt de capaciteit van het gebruikte kanaal
+  - Het voegt een Layer van privacy toe aan de transactie
+  - Het past extra kosten toe voor elk tussenliggend knooppunt
+explanation: |
+  Het tijdslot legt een tijdsbestek op om een HTLC te voltooien, waardoor geld kan worden teruggevorderd als de transactie niet slaagt, door de betaling na deze periode te annuleren.
+reviewed: false

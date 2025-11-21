@@ -1,0 +1,8 @@
+question: 1776. aastal ilmus teos "Le commerce et le gouvernement considérés relativement l'un avec l'autre". Milline teine raamat ilmus samal aastal?
+answer: Adam Smithi "Rahvaste rikkus" (The Wealth of Nations)
+wrong_answers:
+  - Jean-Baptiste Say traktaat poliitilisest ökonoomiast
+  - Turgot' mõtisklused jõukuse kujunemise ja jaotumise kohta
+  - Sotsiaalne Contract
+explanation: |
+  adam Smithi teos "Rahvaste rikkus" avaldati 1776. aastal, mis oli majandusmõtlemise jaoks pöördeline aasta.

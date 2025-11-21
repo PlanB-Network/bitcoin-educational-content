@@ -1,0 +1,8 @@
+question: Mikä on Turgot'n argumentti teoksessa Valeurs et monnaie?
+answer: Asioiden arvo riippuu ihmisten subjektiivisesta arvostuksesta
+wrong_answers:
+  - Asioiden arvo riippuu niiden luontaisista ominaisuuksista
+  - Voimme mitata asioiden arvoa vain rahalla
+  - Arvo määräytyy työn perusteella
+explanation: |
+  Turgot puolustaa subjektiivista arvoteoriaa, jonka mukaan hyödykkeen arvo riippuu sen yksilölle tuottamasta hyödystä ja hänen henkilökohtaisesta arvostuksestaan.

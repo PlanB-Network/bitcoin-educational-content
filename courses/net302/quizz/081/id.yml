@@ -1,0 +1,9 @@
+question: Alat bantu baris perintah mana yang menangkap lalu lintas jaringan untuk analisis waktu nyata?
+answer: tcpdump
+wrong_answers:
+  - menggali
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump menangkap dan mencatat paket-paket yang beredar di jaringan Interface untuk dianalisis.
+reviewed: false

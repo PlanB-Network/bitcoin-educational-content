@@ -1,14 +1,14 @@
 ---
-name: ブル・ビットコイン・ヨーロッパ
+name: Bull Bitcoin
 description: Bull Bitcoinでビットコインを売買する
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoinは、ビットコインエコシステムの象徴的人物であるFrancis Pouliotによって2013年にカナダで設立されたビットコイン専用の交換プラットフォームである。Bull Bitcoinの哲学は、金融主権と解放のためのツールをユーザーに提供することである。この交換プラットフォームは非拘束型であるため、ビットコインの主権は常にユーザーにある。
 
-当初カナダでのみ利用可能であったこのプラットフォームは、最適化された全く新しいインターフェイスとともに、ヨーロッパでも利用可能となった。このBull Bitcoinの新バージョンは、現在ヨーロッパでのみ利用可能です。ライトニングとインスタントSEPA送金の使用により、迅速かつ簡単にビットコインを売買することができます。最終的には、このプラットフォームには、DCA、自動購入、指値注文、ビットコインでの請求書支払いのオプションも含まれる予定です。
+当初はカナダでのみ利用可能だったこのプラットフォームは、現在、ヨーロッパや他の多くの国で、全く新しい最適化されたインターフェースとともに利用可能です。この新しいBull Bitcoinのバージョンでは、Lightningと即時SEPA送金を利用して、ビットコインの購入と販売を簡単かつ迅速に行うことができます。また、ビットコインでの請求書支払いも統合されています。将来的には、DCAオプション、自動購入、指値注文なども統合される予定です。
 
-Bull Bitcoinは、隠れた手数料のない透明なサービスを提供することをポイントとしています。ヨーロッパの他の取引所プラットフォームと同様に、Bull Bitcoinを使用するにはKYC（顧客識別手続き）が必要です。
+Bull Bitcoinは、隠れた手数料のない透明なサービスを提供することに尽力しています。ほとんどの取引所と同様に、Bull Bitcoinの利用にはKYC（顧客確認）手続きの完了が必要です。
 
 ## ブル・ビットコインに登録する
 
@@ -34,7 +34,7 @@ Bull Bitcoinのウェブサイトでこのコードを入力し、「*Continue*�
 
 ![BULL](assets/fr/05.webp)
 
-セキュリティ設定*」タブに移動し、「*アクセス設定*」を選択します。
+セキュリティ設定」タブに移動し、「**アクセス設定**」を選択します。
 
 ![BULL](assets/fr/06.webp)
 
@@ -48,7 +48,7 @@ Bull Bitcoinのウェブサイトでこのコードを入力し、「*Continue*�
 
 2FAに認証アプリケーションを使うことに慣れていない方は、Authyアプリケーションのチュートリアルをご覧になることをお勧めします：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 パスワードを入力して確認します。
 
@@ -62,7 +62,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ![BULL](assets/fr/11.webp)
 
-新しいバックアップリカバリーコードを生成する*」を選択し、これらのコードを安全な場所に保管してください。
+新しいバックアップリカバリーコードを生成する」を選択し、これらのコードを安全な場所に保管してください。
 
 ![BULL](assets/fr/12.webp)
 
@@ -72,7 +72,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ## KYC
 
-規制されたプラットフォームであるBull Bitcoinの全機能にアクセスするには、本人確認（KYC）を行う必要があります。検証を続ける*」をクリックしてください。
+規制されたプラットフォームであるBull Bitcoinの全機能にアクセスするには、本人確認（KYC）を行う必要があります。「検証を続ける」をクリックしてください。
 
 ![BULL](assets/fr/14.webp)
 
@@ -97,7 +97,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 Bullでビットコインの売買を始める前に、このプラットフォームがあなたのsatsを保存しないことを理解することが重要です。つまり、ビットコインを購入するには、すぐに資金をセルフカストディのウォレットに送金する必要があります。同様に、売却するには、ビットコインをセルフ・カストディ・ウォレットからBullに送る必要がある。その後、受け取り次第、不換紙幣に変換される。プラットフォーム上に直接ビットコインを保管することはできない。ただし、ユーロで残高を維持することはできる。
 
-まずは、Bullにユーロを入金し、最初の衛星を購入しましょう。入金*」をクリックしてください。
+まずは、Bullにユーロを入金し、最初の衛星を購入しましょう。「入金」をクリックしてください。
 
 ![BULL](assets/fr/17.webp)
 
@@ -125,9 +125,9 @@ SEPA転送*」を選択する。
 
 ビットコイン、ライトニング、リキッドウォレットの使用に慣れていない場合は、専用のトレーニングコースを受講することをお勧めします：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-また、[最高のビットコインウォレットに関する詳細なチュートリアル](https://planb.network/tutorials/wallet)を探索することもできます。
+また、[最高のビットコインウォレットに関する詳細なチュートリアル](https://planb.academy/tutorials/wallet)を探索することもできます。
 
 その後、"*Confirm Buy*"をクリックして購入を確定してください。
 
@@ -158,7 +158,7 @@ LNURLは最もシンプルな方法です。PhoenixなどのほとんどのLight
 
 ![BULL](assets/fr/27.webp)
 
-ユーロを受け取る口座を選択してください。プラットフォーム上の口座または外部の銀行口座を選択できます。Continue*"をクリックしてください。
+ユーロを受け取る口座を選択してください。プラットフォーム上の口座または外部の銀行口座を選択できます。**Continue**をクリックしてください。
 
 ![BULL](assets/fr/28.webp)
 
@@ -196,8 +196,16 @@ LNURLは最もシンプルな方法です。PhoenixなどのほとんどのLight
 
 ![BULL](assets/fr/36.webp)
 
+## 自動定期購入を開始する (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## 指値注文を作成する
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 これでBull Bitcoinでビットコインを簡単に売買する方法がわかりました。このチュートリアルが役に立ったと思ったら、下に緑の親指をつけていただけると大変ありがたいです。この記事をソーシャルネットワークでシェアしてください。ありがとうございました！
 
 ニモニックフレーズを正しく管理する方法については、この包括的なチュートリアルをチェックすることもお勧めする：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

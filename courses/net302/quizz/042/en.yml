@@ -1,0 +1,9 @@
+question: What element of a domain name represents the Top Level Domain (TLD)?
+answer: The rightmost element
+wrong_answers:
+  - The leftmost element
+  - The second level after the host
+  - The main host name
+explanation: |
+  The TLD is always the rightmost element of the FQDN, such as .com, .org or .fr.
+reviewed: false

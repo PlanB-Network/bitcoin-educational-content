@@ -1,0 +1,8 @@
+question: À quoi la confidentialité de la blockchain fait-elle spécifiquement référence dans le contexte de Bitcoin ?
+answer: Les informations que vous divulguez en effectuant des transactions sur la blockchain
+wrong_answers:
+  - Le cryptage des clés privées stockées dans votre wallet
+  - La protection de votre connexion internet lors de l'utilisation de Bitcoin
+  - L'anonymat offert par l'utilisation de plusieurs adresses wallet
+explanation: |
+  La confidentialité Blockchain se réfère spécifiquement aux informations que vous divulguez en effectuant des transactions sur la blockchain, qui s'appliquent à toutes les transactions que vous envoyez et recevez. Cela diffère du cryptage wallet (qui protège les clés stockées), de la sécurité des connexions internet (qui relève de la confidentialité off-chain) ou de l'idée fausse selon laquelle les adresses multiples garantissent l'anonymat. Les fuites de confidentialité sur la chaîne sont dues à la réutilisation d'adresses et au regroupement de transactions, qui peuvent être reliées entre elles pour révéler des schémas sur les activités financières des utilisateurs.

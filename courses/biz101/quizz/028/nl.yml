@@ -1,0 +1,9 @@
+question: Waarom zou een bedrijf ervoor kiezen om Bitcoin betalingen van klanten te accepteren?
+answer: Een groeiende gebruikersbasis aanboren, mogelijk lagere transactiekosten en een waardevol bezit in de schatkist.
+wrong_answers:
+  - Om te garanderen dat alle klanten meer betalen dan de vermelde prijs.
+  - Om ervoor te zorgen dat er nooit belastingen of wettelijke vereisten van toepassing zijn.
+  - Het afrekenproces langzamer en ingewikkelder maken.
+explanation: |
+  Het accepteren van Bitcoin kan een nieuwe groep kopers aantrekken, de kosten voor het verwerken van betalingen verlagen en een 'store of value' opbouwen. Het kan ook het wereldwijde bereik vergroten, aangezien Bitcoin grenzeloos is en de klok rond werkt.
+reviewed: false

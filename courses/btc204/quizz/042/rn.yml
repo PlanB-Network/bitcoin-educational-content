@@ -1,0 +1,9 @@
+question: Muri ivyo bibazo, ni ikihe kitajanye n’uguhindura amahera P2P?
+answer: Icoba ari ingorane zo gusohoka kw’amakuru.
+wrong_answers:
+  - Icoshobora gutera ingorane ku mutekano w’umuntu ku giti ciwe.
+  - Icoba ari ikibazo c’ubusuma.
+  - Ivyago vyo mu vy’amategeko.
+explanation: |
+  Ivy’uguhindura amafaranga P2P birafise ingorane nyinshi, ariko ntibisaba gukora KYC. Nta ngorane rero yo gusohoka kw’amakuru.
+reviewed: false

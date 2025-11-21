@@ -1,0 +1,5 @@
+---
+term: KANALI FABRIKE
+---
+
+Napredni mehanizam trenutno u razvoju na Lightning-u, koji omogućava kreiranje i upravljanje višestrukim kanalima plaćanja iz jednog UTXO. Fabrike kanala koriste `n-of-n` Multisig adrese tako da grupa korisnika može kolektivno držati jedan UTXO. Odatle mogu otvarati i zatvarati kanale plaćanja među sobom bez dodatnih On-Chain transakcija, osim kada žele povući svoja sredstva iz fabrike. Ova metoda bi mogla značajno smanjiti troškove i prostor zauzet na Bitcoin za Lightning transakcije. U praksi, to znači da se operacije koje bi inače zahtevale On-Chain transakcije za svako otvaranje ili zatvaranje kanala mogu obaviti off-chain, sa sigurnošću zagarantovanom mogućnošću objavljivanja neobjavljenih transakcija ako je potrebno. Koristeći reči Davida A. Hardinga, fabrike kanala se mogu opisati kao Lightning kanali korišćeni za generate druge Lightning kanale.

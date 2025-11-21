@@ -1,0 +1,9 @@
+question: Pourquoi est-il recommandé de supprimer les logiciels inutilisés ou obsolètes de son ordinateur ?
+answer: Pour réduire la surface d’attaque
+wrong_answers:
+  - Pour accélérer la connexion Internet
+  - Pour améliorer les vecteurs protecteurs
+  - Pour augmenter l’autonomie de la batterie
+explanation: |
+  Moins il y a de logiciels installés, moins il y a de failles potentielles exploitables par des attaquants.
+reviewed: false

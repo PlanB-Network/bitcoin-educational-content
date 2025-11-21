@@ -1,0 +1,11 @@
+question: Vad är kostnaden för att driva en Bitcoin-nod på en Raspberry Pi 4 i form av elförbrukning per år (från och med 2023)?
+answer: Lite mindre än 10 euro per år.
+wrong_answers:
+  - Lite mer än 50 euro per år.
+  - Lite mindre än 100 euro per år.
+  - Cirka 200 euro per år.
+explanation: |
+  Att köra en Bitcoin-nod på en Raspberry Pi 4 kostar lite
+  mindre än 10 € per år i form av elförbrukning från och med
+  från och med 2023.
+reviewed: true

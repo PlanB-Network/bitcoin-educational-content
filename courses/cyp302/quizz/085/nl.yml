@@ -1,0 +1,9 @@
+question: Wat is een blokcijfer in cryptografie?
+answer: Een algoritme dat een tekenreeks met een vaste lengte transformeert in een andere tekenreeks met dezelfde lengte
+wrong_answers:
+  - Een asymmetrische versleuteling op basis van publieke en private geheime sleutels
+  - Een systeem dat gegevens van variabele lengte versleutelt via stream
+  - Een versleuteling waarvoor geen geheime sleutel nodig is
+explanation: |
+  Een blokcijfer is een algoritme dat een transformatie toepast op een bitreeks met een vaste lengte en een sleutel om een andere reeks van dezelfde lengte te produceren.
+reviewed: false

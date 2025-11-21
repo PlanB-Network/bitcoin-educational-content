@@ -1,0 +1,9 @@
+question: Vilka viktiga försiktighetsåtgärder måste vidtas regelbundet när du automatiserar dina säkerhetskopior?
+answer: Test av återställning
+wrong_answers:
+  - Byt leverantör av Internettjänster
+  - Inaktivera semesterbackuper
+  - Testning av kryptering
+explanation: |
+  Det är viktigt att regelbundet återställa en säkerhetskopia för att säkerställa att filer inte skadas eller blir otillgängliga när de behövs.
+reviewed: false

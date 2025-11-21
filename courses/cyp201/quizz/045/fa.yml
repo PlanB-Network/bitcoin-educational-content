@@ -1,0 +1,9 @@
+question: تابع Hash برای محاسبه چکسام یک عبارت Mnemonic چیست؟
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - هش۲۵۶
+explanation: |
+  مجموع کنترلی یک عبارت Mnemonic با اعمال یک SHA256 ساده Hash بر روی آنتروپی محاسبه می‌شود.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Linux dağıtımı nedir?
+answer: Linux çekirdeği etrafında oluşturulmuş eksiksiz bir işletim sistemi
+wrong_answers:
+  - Bir paket yöneticisi
+  - Bir Linux masaüstü ortamı
+  - Linux işletim sistemi için otomatik bir kurulum betiği
+explanation: |
+  Bir Linux dağıtımı, kullanıma hazır bir sistem sağlamak için çekirdeği, sistem araçlarını, yazılımı, önyükleyiciyi ve paket yönetimini entegre eder.
+reviewed: false

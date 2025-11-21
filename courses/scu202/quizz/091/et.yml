@@ -1,0 +1,9 @@
+question: Milline protokoll määrab dünaamiliselt võrguga ühendatud seadmetele kohaliku IP Address?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP määrab automaatselt IP Address igale uuele seadmele, mis on ühendatud kohalikku võrku.
+reviewed: false

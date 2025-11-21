@@ -1,0 +1,9 @@
+question: Onko Ethics julkaistu?
+answer: Postuumisti.
+wrong_answers:
+  - Kun hän oli elossa.
+  - On kokoelma lehtiartikkeleita.
+  - Kirjoittajan kirjeenvaihdon kanssa.
+explanation: |
+  Etiikka, Spinozan pääteos, julkaistiin postuumisti vuonna 1677, muutama kuukausi hänen kuolemansa jälkeen. Teos oli liian kiistanalainen, jotta sitä olisi voitu julkaista Spinozan elinaikana ilman vainon vaaraa.
+reviewed: false

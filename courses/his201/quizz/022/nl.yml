@@ -1,0 +1,9 @@
+question: Wie was de eerste persoon met wie Satoshi Nakamoto contact opnam in augustus 2008?
+answer: Adam Terug
+wrong_answers:
+  - Wei Dai
+  - Hal Finney
+  - James A. Donald
+explanation: |
+  Hij nam op 20 augustus contact met hem op en vertelde hem dat hij zijn Hashcash-paper zou citeren in het witboek. Na zijn antwoord verwees Adam Back hem door naar Wei Dai (voor zijn concept van b-geld), met wie Satoshi twee dagen later communiceerde.
+reviewed: true

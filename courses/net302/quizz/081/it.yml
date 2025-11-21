@@ -1,0 +1,9 @@
+question: Quale strumento a riga di comando cattura il traffico di rete per l'analisi in tempo reale?
+answer: tcpdump
+wrong_answers:
+  - scavare
+  - nmap
+  - ettool
+explanation: |
+  tcpdump cattura e registra i pacchetti che circolano su una interfaccia di rete per analizzarli.
+reviewed: false

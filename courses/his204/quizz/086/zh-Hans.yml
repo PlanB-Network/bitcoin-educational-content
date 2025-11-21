@@ -1,0 +1,8 @@
+question: 蒙田的诡辩被称为什么思想？
+answer: Exchange 是一场零和游戏
+wrong_answers:
+  - Exchange 是正和博弈
+  - 根据时间和地点的不同，Exchange 有时是零和游戏，有时是正和游戏
+  - Exchange 总是对弱势一方不利
+explanation: |
+  蒙田谬论认为，全球战略-4 是一种零和游戏，即一方获益，另一方受损。这种想法是错误的，因为自愿的全球战略-4 是互惠互利的。

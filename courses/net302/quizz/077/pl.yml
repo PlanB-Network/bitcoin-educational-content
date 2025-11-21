@@ -1,0 +1,9 @@
+question: Która metoda rozwiązywania wymaga odwrócenia każdej cyfry szesnastkowej adresu IPv6 Address dla strefy odwrotnej?
+answer: Odwrócona rozdzielczość
+wrong_answers:
+  - Rozdzielczość przeciwna
+  - Rozdzielczość podstawowa
+  - Rozdzielczość drugorzędna
+explanation: |
+  W przypadku odwrotnego rozpoznawania, każdy nibble pełnego adresu IPv6 Address jest odwracany i oddzielany kropkami przed dodaniem sufiksu ip6.arpa.
+reviewed: false

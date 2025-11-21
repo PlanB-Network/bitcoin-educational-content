@@ -1,0 +1,10 @@
+question: Bitcoin satın alırken ülkenizin yönetmeliklerine uymamanın olası sonuçlarından biri nedir?
+answer: Kendinizi riske atabilirsiniz.
+wrong_answers:
+  - Bitcoin'in fiyatını artırabilirsiniz.
+  - Bitcoin'nin Supply'ünü kontrol edebilirsiniz.
+  - Başkalarının Bitcoin satın almasını engelleyebilirsiniz.
+explanation: |
+  Kurs metninde yönetmeliklere uyulmamasından bahsedilmektedir
+  gW-5'i satın alırken ülkenizdeki riskleri göz önünde bulundurmanız sizi riske atabilir.
+reviewed: true

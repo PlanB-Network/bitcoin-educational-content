@@ -2,7 +2,7 @@ question: What is the potential downside of creating a cloud backup using servic
 answer: Your data is potentially on the internet and held by a trusted third party.
 wrong_answers:
   - These services are potentially not reliable for data backup.
-  - These services sometimes lose user data and it can be difficult to transfer it to another cloud provider.
+  - These services sometimes lose user data, and transferring it to another cloud provider can be difficult.
   - These services usually do not provide sufficient storage space and suffer from low connection speed.
 explanation: |
   While cloud backup services provide a convenient way to

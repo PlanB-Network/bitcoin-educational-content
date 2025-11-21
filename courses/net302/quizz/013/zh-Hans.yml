@@ -1,0 +1,9 @@
+question: 哪个组织分配 IP 协议版本号？
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - 谷歌
+explanation: |
+  互联网号码分配机构（IANA）负责管理 IP 协议版本号的 Assignment 和协议范围的分配。
+reviewed: false

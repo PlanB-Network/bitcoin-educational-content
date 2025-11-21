@@ -1,0 +1,8 @@
+question: What is the fundamental architectural advantage of the Breeze SDK's approach to Lightning node management compared to traditional self-hosted Lightning implementations?
+answer: Users maintain their own Lightning nodes on Greenlight infrastructure while retaining exclusive control of private keys that never leave their devices
+wrong_answers:
+  - Users share pooled Lightning channels managed by Breeze while maintaining individual custody of funds through multi-signature arrangements
+  - "Users run lightweight Lightning nodes locally that synchronize with Breeze's master nodes for enhanced reliability and reduced bandwidth requirements"
+  - Users delegate channel management to Lightning Service Providers while maintaining custody through hardware security modules integrated into mobile devices
+explanation: |
+  The Breeze SDK's architecture gives each user their own dedicated Lightning node running on Greenlight's cloud infrastructure, but crucially, the private keys never leave the user's device. This means Greenlight cannot perform any Lightning operations without the user's application actively signing transactions. This differs from shared channel pools, local lightweight nodes, or hardware security modules - it's a unique hybrid approach that eliminates operational complexity while preserving true self-custody principles.

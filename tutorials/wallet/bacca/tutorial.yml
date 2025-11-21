@@ -88,7 +88,64 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.53
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.3
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.64
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.64
+  - language: sw
+    last_contribution_date: '2025-11-05'
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 1.82
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.53
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.64
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.76
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.64
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.53
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.53
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.41
 tags:
   - DIY
   - personal-security
   - wallets
+  - hardware-wallet-ready

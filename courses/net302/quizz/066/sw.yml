@@ -1,0 +1,9 @@
+question: Je, ni muda gani wa maisha unaohusishwa na IPv6 Address iliyokabidhiwa kiotomatiki?
+answer: Maisha yanayopendekezwa na maisha halali
+wrong_answers:
+  - Kukodisha wakati na kushikilia wakati
+  - Muda wa kuishi na kuisha
+  - Maisha ya awali na maisha ya pili
+explanation: |
+  Muda wa maisha unaopendelewa huamua muda wa matumizi ya kawaida ya Address na maisha halali ya muda wake wote wa uhalali.
+reviewed: false

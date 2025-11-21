@@ -1,0 +1,9 @@
+question: Quel outil open source permet de chiffrer entièrement un disque sous Linux ?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) est la solution standard sur Linux pour le chiffrement complet du disque lors de l’installation.
+reviewed: false

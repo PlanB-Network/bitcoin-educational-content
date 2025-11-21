@@ -1,0 +1,10 @@
+question: UTXO'ları birleştirirken COIH'in etkilerini nasıl en aza indirebiliriz?
+answer: Yalnızca aynı kaynaktan gelen UTXO'ları birleştirerek.
+wrong_answers:
+  - UTXO'ları üçüncü taraf adreslerine göndererek.
+  - Tanınabilir kalıplardan kaçınmak için UTXO'ları rastgele seçerek.
+  - Düşük faaliyet dönemlerinde UTXO'ları konsolide ederek.
+explanation: |
+  Bitcoinlerinizi konsolide etmeniz gerekiyorsa, öncelikle aynı kaynaktan UTXO'ları konsolide etmeye öncelik verin.
+  
+reviewed: false

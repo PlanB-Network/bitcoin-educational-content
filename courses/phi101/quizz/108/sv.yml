@@ -1,0 +1,9 @@
+question: Vad är enligt Hayek kopplingen mellan socialism och nazism?
+answer: Alla de andra svaren (de förkastar individualism, prioriterar gruppens välfärd och använder tvång).
+wrong_answers:
+  - De två ideologierna är oförenliga.
+  - Socialism och nazism står mot varandra i ekonomiska frågor.
+  - Socialism och nazism har inget samband.
+explanation: |
+  Hayek hävdade att socialismen och nazismen har gemensamma drag, såsom förkastandet av individualism till förmån för kollektivet och användningen av tvång, vilket gör att de liknar varandra i sina auktoritära effekter.
+reviewed: true

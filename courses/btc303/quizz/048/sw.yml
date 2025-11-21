@@ -1,0 +1,8 @@
+question: Kwa nini haiwezekani kuthibitisha rasmi usalama wa Bitcoin licha ya kuwa inafanya kazi kwa ufanisi?
+answer: Utata wa mfumo na asili yake mbovu hufanya uthibitisho rasmi wa usalama ushindwe kutekelezeka, tofauti na itifaki rahisi zilizo na mawazo yaliyo wazi.
+wrong_answers:
+  - Wasanidi wa Bitcoin kwa makusudi huepuka uthibitisho rasmi ili kudumisha unyumbufu na kuruhusu marekebisho ya itifaki ya siku zijazo.
+  - Tatizo la kipekee la logarithm na mawazo ya kriptografia ni ya juu sana kwa mbinu za sasa za uthibitisho wa hisabati.
+  - Uthibitisho rasmi wa usalama unaweza kufichua udhaifu kwa wapinzani, kwa hivyo hudumishwa na wasanidi programu wakuu.
+explanation: |
+  Kama Jameson Lopp anavyoeleza, Bitcoin ilijengwa bila vipimo vilivyobainishwa rasmi au modeli ya usalama kwa sababu ya ugumu wake wa asili na asili ya upuuzi. Tofauti na mifumo rahisi zaidi kama vile kutia sahihi itifaki ambayo ina dhana ya usalama iliyokatwa wazi, Bitcoin inahusisha vipengele vingi vinavyoingiliana ikiwa ni pamoja na cryptography, uchumi, nadharia ya mchezo na tabia ya binadamu. Utata huu hufanya isiwezekane kuunda uthibitisho rasmi wa kihisabati wa usalama, ingawa mfumo unaonyesha usalama wa vitendo kupitia operesheni ya ulimwengu halisi.

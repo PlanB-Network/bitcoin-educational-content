@@ -1,0 +1,11 @@
+question: Varför är integritet viktigt i samband med Bitcoin?
+answer: För att minimera risken för att dina pengar spåras.
+wrong_answers:
+  - För att minska värdet på dina bitcoins.
+  - För att förhindra att dina bitcoins blir stulna.
+  - Att betala skatt på dina bitcoins.
+explanation: |
+  Sekretess är viktigt i samband med Bitcoin för att minimera
+  riskerna för att dina medel spåras, vilket kan underlätta
+  din övervakning.
+reviewed: true

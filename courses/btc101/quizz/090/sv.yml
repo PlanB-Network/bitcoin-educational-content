@@ -1,0 +1,11 @@
+question: Vad händer om en tredje part får kännedom om din privata nyckel?
+answer: Den tredje parten kan spendera dina bitcoins.
+wrong_answers:
+  - Den tredje parten kan bara se din transaktionshistorik.
+  - Den tredje parten kan ändra din privata nyckel.
+  - Den tredje parten kan komma åt dina personuppgifter.
+explanation: |
+  Om din privata nyckel avslöjas för en tredje part är de
+  är de tillhörande medlen inte längre säkra, eftersom den privata
+  eftersom den privata nyckeln ger dem tillgång till dina medel.
+reviewed: true

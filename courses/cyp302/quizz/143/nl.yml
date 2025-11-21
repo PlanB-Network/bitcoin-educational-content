@@ -1,0 +1,9 @@
+question: Wat is de geschatte tijd om een geheel getal van 2048 bits te ontbinden in factoren met alle huidige computerbronnen?
+answer: Ver voorbij de leeftijd van het universum
+wrong_answers:
+  - Een paar maanden met klassieke computers
+  - Een paar minuten met supercomputers
+  - Enkele decennia voor een Bitcoin Mining boerderij
+explanation: |
+  De complexiteit van het ontbinden in factoren van 2048-bits getallen is zodanig dat het vrijwel onmogelijk zou zijn om dit op te lossen, zelfs met gebruik van alle bestaande computerbronnen over een periode die de leeftijd van het universum overtreft.
+reviewed: false

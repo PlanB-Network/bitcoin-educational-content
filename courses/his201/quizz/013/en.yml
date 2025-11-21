@@ -5,5 +5,5 @@ wrong_answers:
   - Cynthia Dwork and Moni Naor
   - Ronald Rivest and Adi Shamir
 explanation: |
-  Three papers by Haber and Stornetta from the 90s were cited in the white paper. They are known for creating [the first timestamped blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), published in the New York Times starting in 1992.
-reviewed: false
+  The White Paper cited three papers by Haber and Stornetta from the 1990s. They are known for creating [the first timestamped blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), which was published in the New York Times starting in 1992.
+reviewed: true

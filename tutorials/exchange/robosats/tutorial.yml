@@ -43,25 +43,28 @@ proofreading:
     contributor_names:
     reward: 3.6
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 3.6
+      - SatoSats
+    reward: 1.8
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 7.09
+      - yutaro21jp
+    reward: 3.55
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 3.6
   - language: ru
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 4.76
+      - Reshetenko
+    reward: 2.38
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -87,6 +90,61 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.76
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.76
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.76
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.76
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.93
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.76
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.6
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.76
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.93
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.93
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.09
 tags:
   - guides
   - privacy

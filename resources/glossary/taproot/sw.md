@@ -1,0 +1,8 @@
+---
+term: Taproot
+---
+
+Sasisho kuu la itifaki ya Bitcoin, iliyopitishwa kupitia Soft Fork mnamo Novemba 2021. Sasisho hili linaleta maboresho makubwa katika masuala ya faragha, ufanisi na unyumbulifu kwa kutekeleza BIP340, BIP341, na BIP342. Sasisho hili liliwekwa ndani kwenye block 687,284 mnamo Juni 12, 2021, wakati 90% ya vitalu vilivyozalishwa katika kipindi kilikubaliwa, na hivyo kuonyesha utayari wa wachimbaji kuwezesha sasisho (*Jaribio la Haraka*). Uwezeshaji hatimaye ulifanyika katika block 709,632 mnamo Novemba 14, 2021, karibu miaka minne baada ya majadiliano ya awali kuhusu suala hilo kati ya Pieter Wuille, Andrew Poelstra, na Gregory Maxwell. Lilikuwa jaribio la kwanza kuu la kusasisha tangu uanzishaji tata wa SegWit mnamo 2017.
+
+
+Taproot pia ni jina la BIP341, linalotekelezwa ndani ya Soft Fork ya jina moja, ambayo inaleta muundo mpya wa hati unaoitwa P2TR. Hati ya P2TR hufunga bitcoins kwenye ufunguo wa kipekee wa umma wa Schnorr, unaoashiria kama $K$. Hata hivyo, ufunguo huu $K$ kwa hakika ni jumla ya ufunguo wa umma $P$ na ufunguo wa umma $M$, wa mwisho ukikokotolewa kutoka Merkle Root ya orodha ya `scriptPubKey`. Bitcoins zilizofungwa na hati ya P2TR zinaweza kutumika kwa njia mbili tofauti: ama kwa kuchapisha saini ya ufunguo wa umma $P$, au kwa kukidhi mojawapo ya maandiko yaliyomo kwenye Merkle Tree. Chaguo la kwanza linaitwa "*njia muhimu*" na la pili "*njia ya hati*".

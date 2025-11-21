@@ -1,0 +1,9 @@
+question: Wat is de moeilijkste eigenschap om te bereiken met een digitale valuta zoals Bitcoin?
+answer: De afwezigheid van dubbele uitgaven
+wrong_answers:
+  - Integriteit
+  - Authenticiteit
+  - Waarachtigheid
+explanation: |
+  Voor digitale munten is het complexer om de afwezigheid van dubbele uitgaven te garanderen, aangezien elk digitaal goed in wezen informatie is. In tegenstelling tot fysieke goederen splitst informatie zich niet tijdens uitwisselingen, maar verspreidt het zich door vermenigvuldiging.
+reviewed: false

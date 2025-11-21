@@ -1,0 +1,9 @@
+question: چه نوع پروتکلی باید فعال شود تا درخواست‌های DNS در مقیاس شبکه محلی رمزگذاری شوند؟
+answer: دوه
+wrong_answers:
+  - اف‌تی‌پی
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) و DoT (DNS over TLS) درخواست‌های DNS را رمزگذاری می‌کنند و از رهگیری آن‌ها جلوگیری می‌کنند.
+reviewed: false

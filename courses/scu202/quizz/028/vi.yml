@@ -1,0 +1,9 @@
+question: Có thể sử dụng lệnh nào để cài đặt phần mềm từ kho lưu trữ chính thức của Ubuntu?
+answer: sudo apt cài đặt
+wrong_answers:
+  - sudo yum cài đặt
+  - sudo snap tạo
+  - cài đặt phần mềm
+explanation: |
+  Lệnh "sudo apt install" cài đặt gói phần mềm thông qua trình quản lý gói APT, phương pháp gốc trên Ubuntu.
+reviewed: false

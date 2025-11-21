@@ -1,0 +1,8 @@
+question: Wat is een uniek kenmerk van het Bitcoin protocol?
+answer: Het is wereldwijd actief, 24 uur per dag, 7 dagen per week.
+wrong_answers:
+  - Het werkt alleen tijdens kantooruren.
+  - Het wordt gecontroleerd door een centrale autoriteit.
+  - Het kan gemakkelijk worden gehackt.
+explanation: >-
+reviewed: true

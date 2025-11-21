@@ -1,0 +1,9 @@
+question: Eğer bir N tamsayısı iki p ve q asal sayılarının çarpımı ise, N'nin mertebesi nasıl hesaplanır?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  İki p ve q asal sayılarının çarpımına eşit N için, N'nin sırası (p - 1) * (q - 1) olarak hesaplanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre yağmanın en kötü biçimi nedir?
+answer: Vergiler ve tekeller
+wrong_answers:
+  - Bir kişi tarafından diğerine karşı işlenen hırsızlık
+  - Savaş ve fetihler
+  - Her türlü yağma eşit derecede kötüdür
+explanation: |
+  Bastiat vergi ve tekelleri yağmanın en kötü biçimi olarak görür çünkü bunlar devlet tarafından meşrulaştırılır ve genellikle kamu yararı kisvesi altında bireylerin kaynaklarına ve özgürlüklerine sistematik olarak el konulmasına yol açar.
+reviewed: true

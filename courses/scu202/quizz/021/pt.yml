@@ -1,0 +1,9 @@
+question: Que componente de um ambiente de trabalho é utilizado para navegar visualmente por ficheiros e pastas?
+answer: Gestor de ficheiros
+wrong_answers:
+  - Gestor de sessão
+  - Compositor X11
+  - Gestor de pacotes
+explanation: |
+  O gestor de ficheiros (como o Nautilus, Dolphin, Thunar) permite ao utilizador gerir ficheiros e pastas através de um Interface gráfico.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Người nắm giữ hỗn hợp có thể áp dụng chiến lược mua lại nào?
+answer: Trung bình chi phí đô la
+wrong_answers:
+  - Giao dịch thuật toán
+  - Trọng tài
+  - Tin tặc
+explanation: |
+  Trung bình chi phí bằng đô la cho phép mua Bitcoin thường xuyên để làm phẳng giá mua trung bình theo thời gian. Người nắm giữ có thể kết hợp điều này với việc mua một lần thỉnh thoảng.
+reviewed: false

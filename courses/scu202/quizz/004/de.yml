@@ -1,0 +1,9 @@
+question: Welche Art von Computerangriff nutzt betrügerische Nachrichten, um Informationen zu erhalten?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - SQL-Einschleusung
+explanation: |
+  Phishing nutzt betrügerische E-Mails oder Nachrichten, um Menschen dazu zu verleiten, vertrauliche Informationen preiszugeben oder Malware zu installieren.
+reviewed: false

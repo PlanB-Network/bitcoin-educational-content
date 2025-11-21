@@ -1,0 +1,9 @@
+question: Welk commando kan worden gebruikt om alle pakketten op een Ubuntu-distributie bij te werken?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Op Ubuntu (en Debian) synchroniseert de opdracht "sudo apt update && sudo apt upgrade" de pakketlijst en installeert alle beschikbare updates.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ShR ve RotR operasyonları arasındaki temel fark nedir?
+answer: ShR sıfırlar ekleyerek bitleri kaydırır, RotR kaydırılan bitleri yeniden ekler
+wrong_answers:
+  - ShR kaydırılmış bitleri kaldırır, RotR değerlerini çarpar
+  - ShR sola kayar, RotR sağa kayar
+  - ShR mantıksal bir işlemdir, RotR aritmetiktir
+explanation: |
+  ShR sıfırlar ekleyerek bitleri sağa kaydırırken, RotR bitlerin dairesel dönüşünü gerçekleştirir.
+reviewed: false

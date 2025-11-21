@@ -10,7 +10,7 @@ Tässä oppaassa käsittelemme Kraken-yritystilin luomista, bitcoinien ostamista
 
 Jos olet kiinnostunut bitcoinin integroimisesta yritykseesi, suosittelen myös tutustumaan täydelliseen teoreettiseen koulutuskurssiimme aiheesta:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kraken-yritystilin luominen
 
@@ -59,8 +59,8 @@ Kun olet täyttänyt kaikki osiot ja lähettänyt tarvittavat asiakirjat, lähet
 Kun tilisi on vahvistettu, pääset alustalle, jossa sinulle tarjotaan kaksi käyttöliittymää:
 
 
-- Kraken**: Yksinkertaistettu käyttöliittymä, joka tarjoaa keskeiset toiminnot.
-- Kraken Pro**: Kehittynyt käyttöliittymä, jossa on lisäominaisuuksia erityisesti kaupankäyntiä varten.
+- **Kraken**: Yksinkertaistettu käyttöliittymä, joka tarjoaa keskeiset toiminnot.
+- **Kraken Pro**: Kehittynyt käyttöliittymä, jossa on lisäominaisuuksia erityisesti kaupankäyntiä varten.
 
 Jos tavoitteenasi on ainoastaan ostaa ja myydä bitcoineja, valitse yksinkertaistettu käyttöliittymä. Sinulla on aina mahdollisuus siirtyä kehittyneeseen käyttöliittymään myöhemmin, jos se on tarpeen.
 
@@ -76,9 +76,9 @@ Siirry tilisi kuvakkeeseen ja napsauta "*Turvallisuus*".
 
 ![KRAKEN](assets/fr/11.webp)
 
-Lisätietoja tämäntyyppisen laitteen käytöstä on erillisessä oppaassamme :
+Lisätietoja tämäntyyppisen laitteen käytöstä on erillisessä oppaassamme:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Toinen vaihtoehto on käyttää todennussovellusta, kuten Google Authenticator tai Authy. Nämä sovellukset luovat dynaamisen 6-numeroisen koodin, joka sinun on syötettävä joka kerta, kun kirjaudut sisään.
 
@@ -88,9 +88,9 @@ Tämän menetelmän aktivoimiseksi skannaa QR-koodi valitsemallasi sovelluksella
 
 ![KRAKEN](assets/fr/13.webp)
 
-Jos haluat lisätietoja todennussovelluksista, voit tutustua myös tähän opetusohjelmaan :
+Jos haluat lisätietoja todennussovelluksista, voit tutustua myös tähän opetusohjelmaan:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Sen alapuolella on myös pääsy lisäasetuksiin, kuten mahdollisuus asettaa useita eri 2FA-toimintoja. Kraken tarjoaa edistynyttä turvallisuuden delegointia 2FA:n avulla. Tämän ominaisuuden avulla voit luoda erilaisia 2FA-tasoja eri toiminnoille, kuten kirjautumiselle, tilauksen vahvistamiselle ja varojen nostamiselle. Tämä mahdollistaa esimerkiksi sen, että kirjanpitäjälle voidaan antaa pääsy tiettyihin toimintoihin ilman, että hän voi nostaa varoja. Tässä ovat vaihtoehdot:
 
@@ -155,12 +155,12 @@ Voit myös vaihtaa bitcoinisi muihin kryptovaluuttoihin, kuten stablecoineihin, 
 
 Valitse summa, valitse haluamasi kryptovaluutta ja vahvista tapahtuma.
 
-Näissä tapahtumissa voit valita eri tilaustyyppien välillä: *Markkinat*, *Limit* tai *Stop-Loss* :
+Näissä tapahtumissa voit valita eri tilaustyyppien välillä: *Markkinat*, *Limit* tai *Stop-Loss*:
 
 
-- Markkinat* : Mahdollistaa välittömän oston nykyiseen markkinahintaan;
-- Raja*: Toimeksianto toteutetaan vain, jos markkinahinta saavuttaa tämän summan;
-- Stop-Loss* : Myy automaattisesti, kun hinta saavuttaa tietyn kynnysarvon.
+- **Markkinat**: Mahdollistaa välittömän oston nykyiseen markkinahintaan;
+- **Raja**: Toimeksianto toteutetaan vain, jos markkinahinta saavuttaa tämän summan;
+- **Stop-Loss**: Myy automaattisesti, kun hinta saavuttaa tietyn kynnysarvon.
 
 ## 7 - Tapahtumien hallinta ja kirjanpito
 
@@ -217,6 +217,6 @@ Krakenin käyttö voi vaihdella yrityksesi tavoitteista ja rakenteesta riippuen.
 - Pidä bitcoineja alustalla tai nosta ne itsesäilytystä varten. Voit myös nostaa euroja pankkitilillesi;
 - Vie tapahtumahistoriat tarpeen mukaan.
 
-Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito :
+Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -1,0 +1,5 @@
+---
+term: BIP0009
+---
+
+Metoda aktywacji forków Soft na Bitcoin zaproponowana w 2015 roku. Wprowadza ona system, w którym górnicy sygnalizują swoje poparcie dla Soft Fork za pomocą określonego bitu w polu wersji bloków. Soft Fork zaproponowany w ramach BIP9 jest aktywowany, jeśli 95% bloków w okresie 2016 bloków (około dwóch tygodni, zbiegających się z każdą korektą trudności) zasygnalizuje swoją zgodę. Po tej blokadzie górnicy otrzymują okres karencji na przygotowanie się do aktualizacji przed jej aktywacją. Jeśli próg 95% nie zostanie osiągnięty w maksymalnym wyznaczonym czasie, Soft Fork zostanie porzucony. BIP9 pozwala na sygnalizowanie wielu forków Soft jednocześnie, ale daje znaczną władzę górnikom, ponieważ jeśli wymagany próg nie zostanie osiągnięty, Soft Fork jest po prostu porzucany. Metoda ta była początkowo stosowana dla SegWit, zanim BIP148, który sugeruje użycie UASF, wszedł do gry i wymusił blokadę poprzez BIP91.

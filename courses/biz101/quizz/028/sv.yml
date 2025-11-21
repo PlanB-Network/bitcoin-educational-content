@@ -1,0 +1,9 @@
+question: Varför kan ett företag välja att ta emot Bitcoin-betalningar från kunder?
+answer: Att få tillgång till en växande användarbas, potentiellt lägre transaktionsavgifter och ha en värdefull tillgång i sin kassa.
+wrong_answers:
+  - Att garantera att alla kunder kommer att betala mer än det angivna priset.
+  - För att säkerställa att inga skatter eller lagstadgade krav någonsin tillämpas.
+  - Att göra utcheckningsprocessen långsammare och mer komplicerad.
+explanation: |
+  Att acceptera Bitcoin kan locka en ny demografisk grupp av köpare, minska betalningshanteringsavgifterna och bygga en värdebutik. Det kan också öka den globala räckvidden, eftersom Bitcoin är gränslös och fungerar dygnet runt.
+reviewed: false

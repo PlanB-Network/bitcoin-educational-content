@@ -1,0 +1,5 @@
+---
+term: BIP0112
+---
+
+Bitcoin Komut Dosyası dilinde `OP_CHECKSEQUENCEVERIFY` (CSV) işlem kodunu tanıtır. Bu işlem, geçerliliği ancak önceki bir işleme göre blok sayısı veya zaman süresi olarak tanımlanan belirli bir gecikmeden sonra yürürlüğe giren işlemlerin oluşturulmasına izin verir. oP_CHECKSEQUENCEVERIFY` yığının tepesindeki değeri girdinin `nSequence` alanının değeriyle karşılaştırır. Değer büyükse ve diğer tüm koşullar karşılanıyorsa, kod geçerlidir. Böylece, `OP_CHECKSEQUENCEVERIFY`, kendisini harcayan girdinin `nSequence` alanı için olası değerleri kısıtlar ve bu `nSequence` alanının kendisi, bu girdiyi içeren işlemin bir bloğa ne zaman dahil edilebileceğini kısıtlar. BIP112, BIP68 ve BIP113 ile birlikte 4 Temmuz 2016 tarihinde bir Soft Fork aracılığıyla tanıtıldı ve ilk kez BIP9 yöntemi kullanılarak etkinleştirildi.

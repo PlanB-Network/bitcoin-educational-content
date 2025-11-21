@@ -1,0 +1,5 @@
+---
+term: LATENCE
+---
+
+Retraso entre la transmisión y la recepción de información. En informática, representa el tiempo que tardan los datos en viajar entre dos ordenadores. En el contexto de la Bitcoin, la latencia puede estudiarse en términos del tiempo que tardan los bloques en difundirse por la red. Una latencia elevada puede poner en desventaja a los mineros aislados, ya que siguen trabajando en bloques que ya han sido invalidados por otros nuevos hasta que reciben los nuevos bloques. Por tanto, la latencia anima de forma natural a los mineros a agruparse. También reduce la seguridad general del sistema al hacer perder tiempo buscando un Proof of Work válido. El objetivo de poner un periodo de 10 minutos entre cada bloque es una medida para reducir el impacto de la latencia en el sistema.

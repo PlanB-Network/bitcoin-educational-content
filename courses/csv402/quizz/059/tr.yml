@@ -1,0 +1,9 @@
+question: RGB Lightning Node ortamında RGB proxy sunucusunun işlevi nedir?
+answer: RGB sevkiyatlarının Exchange'inin kolaylaştırılması
+wrong_answers:
+  - Düğümlerin kanal açması için ortak anahtarlar sağlayın
+  - RGB durum geçişlerinin geçmişini tutun
+  - RGB tokenleri için yinelenen tickerlardan kaçının
+explanation: |
+  RGB proxy sunucusu, bir aracı olarak hareket ederek Lightning katılımcıları arasında RGB sevkiyatlarının iletişimini basitleştirir ve şu anda Bitcoin ve Lightning ile yaşanana yakın daha sorunsuz bir kullanıcı deneyimi sağlar.
+reviewed: false

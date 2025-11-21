@@ -1,0 +1,9 @@
+question: Als we bij een eenvoudige betalingstransactie waarnemen dat een output een rond bedrag heeft, welke waarschijnlijke interpretatie kunnen we hier dan uit trekken?
+answer: De uitvoer van de ronde is niet langer in het bezit van de invoergebruiker.
+wrong_answers:
+  - De ronde output is bedoeld voor transactiekosten.
+  - De ronde-uitgang behoort nog steeds toe aan de invoerende gebruiker.
+  - De ronde uitgang is een reserve Address.
+explanation: |
+  Bij een eenvoudig betalingspatroon (1 input en 2 outputs), als een van de outputs een rond bedrag uitgeeft, dan vertegenwoordigt het de betaling. Het verlaat dus het bezit van de invoergebruiker.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪個通訊協定主要用來識別網際網路上的每件設備？
+answer: IP
+wrong_answers:
+  - DNS
+  - 超文件傳輸協定
+  - SMTP
+explanation: |
+  網際網路通訊協定 (IP) 為每個裝置指派唯一的 Address，並使資料封包得以路由。
+reviewed: false

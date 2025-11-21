@@ -1,0 +1,9 @@
+question: Waarom is het essentieel om je systeem en software regelmatig bij te werken?
+answer: Bekende beveiligingsproblemen verhelpen
+wrong_answers:
+  - De snelheid van pc's verbeteren en zo sneller reageren op cyberaanvallen
+  - Functies voor hacken toevoegen
+  - Om de compatibiliteit van videogames met Bitcoin te optimaliseren
+explanation: |
+  Updates verhelpen vaak bekende kwetsbaarheden die door hackers worden misbruikt.
+reviewed: false

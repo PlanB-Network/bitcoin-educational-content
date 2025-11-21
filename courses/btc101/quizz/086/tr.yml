@@ -1,0 +1,14 @@
+question: Bir Wallet'i bir passphrase ile kullanırken neleri yedeklemeniz gerekir?
+answer: Hem 12 veya 24 kelimelik listeyi hem de passphrase'nizi yedeklemeniz gerekir.
+wrong_answers:
+  - Yalnızca 12 veya 24 kelimelik listeyi yedeklemeniz gerekir.
+  - Yalnızca passphrase'ünüzü yedeklemeniz gerekir.
+  - Ne 12 veya 24 kelimelik listeyi ne de passphrase'ünüzü yedeklemeniz gerekir.
+explanation: |
+  Bir Wallet'yı bir passphrase ile kullandığınızda, yedeklemeniz gerekir
+  hem 12 veya 24 kelimelik listeyi hem de passphrase'inizi,
+  çünkü kelime listesi ve passphrase'in her ikisi de
+  durumunda fonlarınıza yeniden erişim sağlamak için gerekli
+  telefonunuzun veya bilgisayarınızın kaybolması. Biri ya da diğeri olmadan,
+  fonlara erişilemez.
+reviewed: true

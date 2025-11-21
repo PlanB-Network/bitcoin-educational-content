@@ -1,0 +1,11 @@
+question: Western Union, merkez bankaları, Visa ve Mastercard gibi geleneksel para transferi hizmetleri Lightning Network'ı benimsemezlerse ne olur?
+answer: Ortadan kaybolabilirler.
+wrong_answers:
+  - Daha popüler hale gelebilirler.
+  - Daha güvenli hale gelebilirler.
+  - Daha merkezsiz hale gelebilirler.
+explanation: |
+  Western Union gibi geleneksel para transferi hizmetleri,
+  merkez bankaları, Visa ve Mastercard, eğer
+  gW-1 teknolojisini benimsememektedir.
+reviewed: true

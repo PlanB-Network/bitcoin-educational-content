@@ -1,0 +1,10 @@
+question: Ni akamaro akahe ko gukoresha ijambobanga rikomeye kugira ngo mudasobwa ikingirwe?
+answer: Kugira ngo ntihagire uwushobora kwinjira muri iyo sisitemu ata wemerewe.
+wrong_answers:
+  - Kugira ngo iyo sisitemu ikore vyihuta.
+  - Kugira ngo bongere ubushobozi bwo kubika.
+  - Kugira ngo utere imbere mu gukoresha Interface.
+explanation: |
+  Ijambobanga rikomeye ni ngirakamaro ku mutekano wa mudasobwa
+  kubuza umuntu kwinjira muri iyo sisitemu ata wemerewe.
+reviewed: true

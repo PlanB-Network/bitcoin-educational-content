@@ -1,0 +1,9 @@
+question: What's the best way to access your home network remotely?
+answer: Using a personal VPN
+wrong_answers:
+  - Open a public SSH port
+  - Activate router cloud
+  - Use WPS
+explanation: |
+  The VPN creates an encrypted tunnel to access the local network without exposing a critical port to the Internet.
+reviewed: false

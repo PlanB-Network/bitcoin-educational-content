@@ -1,0 +1,9 @@
+question: Waarom is een geauthenticeerd encryptieschema alleen onvoldoende in een communicatiesessie?
+answer: Het garandeert niet dat het bericht op het moment van de sessie door de afzender is verzonden.
+wrong_answers:
+  - De toetsen zijn te kort.
+  - Het versleutelt geen berichten die tijdens de sessie worden verzonden.
+  - De verzender kan niet worden geverifieerd op het moment van de sessie.
+explanation: |
+  Een geauthenticeerd versleutelingsschema beschermt niet tegen aanvallen zoals replay, reordering en reflectie zonder de toevoeging van indicatoren zoals identifiers en volgnummers.
+reviewed: false

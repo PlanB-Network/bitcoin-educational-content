@@ -1,0 +1,8 @@
+question: Je, ni kipengele gani mahususi cha kiufundi ambacho Satoshi ngumu ya fork iliunda bila kukusudia ambayo iliwezesha uboreshaji laini wa baadaye wa fork?
+answer: Waendeshaji Hati OP_NOP1 kupitia OP_NOP10 opcodes
+wrong_answers:
+  - Taratibu za kuwezesha BIP65 na BIP113 za kuashiria kwa wachimbaji
+  - Mfumo wa utangamano wa mbele na nyuma wa mabadiliko ya makubaliano
+  - Mtumiaji aliwezesha mfumo laini wa kuwezesha siku ya bendera ya fork (UASF).
+explanation: |
+  Kulingana na uchanganuzi wa Eric Lombrozo, Satoshi ngumu ya fork (ambayo haikuwasilishwa vizuri na kufichwa katika ahadi kuhusu mabadiliko ya faili) iliunda bila kukusudia OP_NOP1 kupitia opcodes za OP_NOP10. Misimbo hii ya 'hakuna operesheni' iliundwa ili kufanya chochote wakati inatekelezwa, lakini ilitoa vishikilia nafasi ambavyo vingeweza kutumiwa tena kwa utendakazi mpya kupitia uma laini. Hili lilithibitishwa, kwani OP_NOP2 ikawa OP_CHECKLOCKTIMEVERIFY (BIP65) na OP_NOP3 ikawa OP_CHECKSEQUENCEVERIFY (BIP112). Chaguzi nyingine si sahihi kwa sababu BIP65 na BIP113 zilikuwa masasisho yaliyotumia opcodes hizi badala ya kuziunda, mfumo wa uoanifu ni mbinu ya dhana badala ya kipengele cha kiufundi, na UASF ilipendekezwa baadaye sana wakati wa utata wa Segwit.

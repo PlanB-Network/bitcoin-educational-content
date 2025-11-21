@@ -1,0 +1,10 @@
+question: Hiperenflasyon olgusunda ortaya çıkan son aşama nedir?
+answer: Yeni bir para birimi ortaya çıkıyor.
+wrong_answers:
+  - Para birimine olan güven kaybı.
+  - Para birimi çöküşü ve fiyat artışı.
+  - Para basmanın kısır döngüsü.
+explanation: |
+  Hiperenflasyonun son aşaması, yeni bir enflasyon dalgası ortaya çıktığında gerçekleşir
+  para birimi eskisinin yerini almak üzere tanıtıldı.
+reviewed: true

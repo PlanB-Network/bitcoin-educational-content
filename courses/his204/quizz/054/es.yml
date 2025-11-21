@@ -1,0 +1,8 @@
+question: ¿Cuál de estos autores no criticó a los fisiócratas?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet simpatizaba bastante con las ideas de los fisiócratas, e incluso colaboró con ellos en ciertos proyectos.

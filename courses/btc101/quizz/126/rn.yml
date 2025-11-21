@@ -1,0 +1,8 @@
+question: Ni gute abacukuzi bemeza amafaranga bakora bakayashira mu gice?
+answer: Biciye mu nzira ya Proof of Work.
+wrong_answers:
+  - Biciye mu nzira y’Ikimenyamenya c’igiti.
+  - Biciye mu nzira y’Ikimenyamenya c’ubukuru.
+  - Biciye mu nzira y’Ikimenyamenya c’uguturika.
+explanation: >-
+reviewed: true

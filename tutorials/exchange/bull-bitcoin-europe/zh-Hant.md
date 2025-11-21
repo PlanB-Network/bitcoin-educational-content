@@ -1,17 +1,14 @@
 ---
-name: 歐洲公牛 Bitcoin
+name: Bull Bitcoin
 description: 在 Bull Bitcoin 上買賣比特幣
 ---
 ![cover](assets/cover.webp)
 
-
 Bull Bitcoin 是一個僅限於 Bitcoin 的 Exchange 平台，由 Bitcoin 生態系統的代表人物 Francis Pouliot 於 2013 年在加拿大創立。Bull Bitcoin 的理念是為使用者提供金融主權和解放的工具。Exchange 平台是非監護性的，這意味著您始終對您的比特幣擁有主權。
 
+最初僅在加拿大提供的平台，現在已在歐洲和許多其他國家推出，並配備全新優化的介面。這個新版 Bull Bitcoin 讓您可以利用 Lightning 和即時 SEPA 轉帳，輕鬆快捷地買賣比特幣。它還整合了以比特幣支付帳單的功能。未來，該平台還將進一步整合 DCA 選項、自動購買和限價單。
 
-該平台最初僅在加拿大推出，現在已在歐洲推出全新的優化版 Interface。這個新版本的 Bull Bitcoin 目前只在歐洲提供。由於使用 Lightning 和即時 SEPA 轉帳，您可以快速輕鬆地買賣比特幣。最終，該平台還將包括 DCA、自動購買、限價訂單和比特幣帳單支付等選項。
-
-
-Bull Bitcoin 以提供無隱藏收費的透明服務為宗旨。與歐洲所有其他 Exchange 平台一樣，使用 Bull Bitcoin 需要 KYC（客戶識別程序）。
+Bull Bitcoin 致力於提供透明且無隱藏費用的服務。請注意，與大多數交易所一樣，使用 Bull Bitcoin 需要完成 KYC（了解您的客戶）程序。
 
 
 ## 在公牛 Bitcoin 上註冊
@@ -71,7 +68,7 @@ Bull Bitcoin 以提供無隱藏收費的透明服務為宗旨。與歐洲所有�
 如果您不熟悉如何使用驗證應用程式來進行 2FA，我建議您看看 Authy 應用程式的教學：
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 輸入密碼確認。
 
@@ -184,9 +181,9 @@ Bull Bitcoin 是一個受監管的平台，要使用 Bull Bitcoin 的全部功�
 如果您不熟悉使用 Bitcoin、Lightning 或 Liquid 錢包，我建議您參加我們的專門訓練課程：
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-您也可以探索 [我們關於最佳 Bitcoin 錢包的詳細教學](https://planb.network/tutorials/Wallet)。
+您也可以探索 [我們關於最佳 Bitcoin 錢包的詳細教學](https://planb.academy/tutorials/wallet)。
 
 
 然後按一下「*確認購買*」確認購買。
@@ -289,10 +286,18 @@ LNURL 方法是最簡單的。大多數 Lightning 錢包中都有這種方法，
 ![BULL](assets/fr/36.webp)
 
 
+## 啟動自動定期購買 (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## 建立限價訂單
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 現在您知道如何使用 Bull Bitcoin 輕鬆買賣 Bitcoin。如果您發現本教程有用，我將非常感激，如果你把下面的Green拇指。歡迎在您的社交網絡上分享這篇文章。非常感謝
 
 
 我也建議您看看這篇綜合教學，學習如何以正確的方式管理您的 Mnemonic 詞組：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

@@ -1,0 +1,9 @@
+question: 共識規則和中繼規則有什麼不同？
+answer: 共識定義有效性，傳遞交易擴散
+wrong_answers:
+  - 共識定義費用，中繼定義地址
+  - 共識管理 Blockchain，中繼管理私人金鑰
+  - 共識選擇礦工，中繼選擇商家
+explanation: |
+  共識規則決定什麼在 Bitcoin 中是有效的，而中繼規則則管理節點間的交易。
+reviewed: true

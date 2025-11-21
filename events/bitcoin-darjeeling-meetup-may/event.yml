@@ -1,0 +1,23 @@
+id: 049291e7-56b8-417a-b51b-c4776de3daa3
+start_date: 2025-05-18 10:30:00
+end_date: 2025-05-18 12:30:00
+timezone: Asia/Kolkata
+address_city_country: Darjeeling , West Bengal, India
+name: Bitcoin Darjeeling Meetup May
+type: meetup
+description: This is Meet and Greet on Sunday, May 5, 2025. We'll discuss the
+  current bitcoin news events and current projects. Also talk about the various
+  projects going on in India. Share the current issues faced by people and some
+  solutions. There will be good number of local bitcoiners from Darjeeling
+  attending. The venue is also the best bitcoin friendly venue here.
+language:
+  - hi
+  - en
+links:
+  website: https://lu.ma/0sbihthf
+tags:
+  - adoption
+  - community
+  - proof-of-work
+contributor_names:
+  - jramos0

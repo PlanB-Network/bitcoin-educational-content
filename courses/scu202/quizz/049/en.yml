@@ -1,0 +1,9 @@
+question: What is the recommended backup rule to ensure the resilience of your data in the event of a disaster?
+answer: Have 3 copies, on 2 different media, including 1 off-site
+wrong_answers:
+  - 10 copies, on 5 different media, including 3 off-site
+  - 2 copies, on 2 different media, 2 of which off-site
+  - 4 copies, on 4 different media, including 2 off-site
+explanation: |
+  The 3-2-1 rule involves maintaining three copies of your data, on at least two different media, including one located off-site, to guard against data loss, theft or corruption.
+reviewed: false

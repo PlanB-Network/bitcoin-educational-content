@@ -1,0 +1,9 @@
+question: Varför kritiserar Bastiat konceptet med progressiv omfördelande skatt?
+answer: Eftersom det möjliggör legaliserad plundring av majoriteten på bekostnad av en minoritet
+wrong_answers:
+  - Eftersom det är ineffektivt när det gäller att generera skatteintäkter
+  - Eftersom det bara gynnar arbetarklassen
+  - Eftersom det i första hand gynnar privata företag
+explanation: |
+  Bastiat anser att den progressiva omfördelande skatten gör det möjligt för majoriteten att utnyttja en minoritet, vilket gör skatten till ett verktyg för legaliserad plundring.
+reviewed: false

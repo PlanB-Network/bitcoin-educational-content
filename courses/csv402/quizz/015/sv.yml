@@ -1,0 +1,9 @@
+question: Vilket historiskt koncept tillämpar RGB på den digitala världen?
+answer: Instrument som innehas av innehavare
+wrong_answers:
+  - Centraliserade databaser
+  - Peer-to-peer-nätverk utan validering
+  - Öppna register som är tillgängliga för alla
+explanation: |
+  RGB överför idén om innehavarinstrument till digitala.
+reviewed: false

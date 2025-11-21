@@ -1,0 +1,9 @@
+question: Ni igiki gikorwa nyamukuru c’amahera?
+answer: Kugira ngo ukore nk’umuhuza yorohereza Exchange y’agaciro .
+wrong_answers:
+  - Kubika agaciro k'imbere mu buryo bw'umubiri
+  - Kugira ngo barter isubirizwe burundu n’uguhinduranya ibicuruzwa ataco bimaze Exchange.
+  - Gushira hamwe ibikorwa vyose vy'ubutunzi biciye ku butegetsi bumwe .
+explanation: |
+  Amafaranga yorosha ubudandaji mu gukora nk’uburyo rusangi bugabanya urubuga rutoroshe rw’ibiciro vya Exchange bikenewe mu buryo bwo guhinduranya, gutyo bigatuma ubudandaji bworoha.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Enligt avvägningen mellan genomströmning och decentralisering som diskuteras av Gregory Maxwell, vad händer när Bitcoin blockchains resursanvändning blir för stor i förhållande till tillgänglig teknik?
+answer: Bitcoin förlorar konkurrensfördelar jämfört med äldre system eftersom valideringen blir för kostsam, vilket gör att många användare blir utkonkurrerade och att förtroendet för systemet måste återskapas
+wrong_answers:
+  - Bitcoin blir säkrare eftersom endast de mest hängivna användarna med kraftfull hårdvara kan delta i valideringen, vilket skapar ett starkare nätverk
+  - Bitcoin justerar automatiskt sin svårighetsalgoritm för att minska resursbehoven och bibehålla samma decentraliseringsnivå för alla deltagare
+  - Bitcoin delas upp i flera parallella kedjor för att fördela beräkningsbelastningen samtidigt som samma säkerhetsgarantier upprätthålls för alla användare
+explanation: |
+  Maxwell identifierade en grundläggande avvägning där överdrivna resurskrav driver användarna mot betrodda tredje parter snarare än oberoende validering. När valideringskostnaderna blir oöverkomliga har användarna inte råd att köra fulla noder och måste förlita sig på andra, vilket undergräver Bitcoin:s tillitslösa natur. De felaktiga svaren antyder felaktigt fördelaktiga resultat (ökad säkerhet, automatiska justeringar eller bibehållna garantier) när hög resursanvändning faktiskt tvingar fram centralisering och förtroendeberoende.

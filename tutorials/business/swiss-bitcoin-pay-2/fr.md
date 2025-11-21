@@ -10,11 +10,11 @@ Aujourd'hui, de nombreuses solutions existent pour les commerçants qui souhaite
 
 Pour ceux qui préfèrent ne pas s'embêter et recevoir des fonds en monnaie fiat directement sur leur compte bancaire, il existe des solutions custodiales comme Open Node :
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pour les commerçants prêts à mettre les mains dans le cambouis et qui veulent contrôler entièrement le processus, le logiciel BTCPay Server est une excellente option. Cependant, l'inconvénient majeur de BTCPay Server est que sa mise en place et sa gestion prennent du temps, et nécessitent une certaine expertise technique :
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Au milieu de toutes ces solutions, il y a Swiss Bitcoin Pay qui semble être un compromis très intéressant alliant facilité d'utilisation, fonctionnalités et sécurité. Cette solution convient aussi bien aux très petits commerces qu'aux plus grandes structures. Dans ce tutoriel, vous allez découvrir comment utiliser facilement Swiss Bitcoin Pay pour accepter le bitcoin dans votre commerce.
 
@@ -164,4 +164,4 @@ L'onglet "*Referral*" vous permet de gérer tout ce qui est relatif au parrainag
 ![SWISS BITCOIN PAY](assets/notext/49.webp)
 Enfin, dans l'onglet "*Settings*", vous avez la possibilité de modifier les informations que vous avez fournies lors de l'inscription, notamment les méthodes de retrait et la répartition entre bitcoin et fiat.
 ![SWISS BITCOIN PAY](assets/notext/50.webp)
-Félicitations ! Vous avez désormais mis en place un système de processeur de paiement pour accepter le bitcoin dans votre commerce. Si vous souhaitez également découvrir BTCPay Server, une solution plus avancée et plus complexe, je vous recommande de suivre notre formation complète spécifiquement consacrée à ce logiciel : [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+Félicitations ! Vous avez désormais mis en place un système de processeur de paiement pour accepter le bitcoin dans votre commerce. Si vous souhaitez également découvrir BTCPay Server, une solution plus avancée et plus complexe, je vous recommande de suivre notre formation complète spécifiquement consacrée à ce logiciel : [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

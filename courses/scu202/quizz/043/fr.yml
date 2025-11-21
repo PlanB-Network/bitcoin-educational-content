@@ -1,0 +1,9 @@
+question: Qu’apporte la vérification d’une signature PGP sur un fichier de hash ou un manifeste de logiciel ?
+answer: Elle garantit que le fichier provient bien de la source officielle
+wrong_answers:
+  - Elle garantit l’installation du logiciel sans bug
+  - Elle garantit la mise à jour automatique du programme
+  - Elle garantit que le fichier est bien intègre et n'a pas été modifié
+explanation: |
+  La signature PGP, validée à l’aide de la clé publique du développeur, permet de s’assurer que le fichier authentifié vient bien de la source d’origine.
+reviewed: false

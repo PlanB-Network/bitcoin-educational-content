@@ -1,78 +1,150 @@
 ---
-name: Breez điểm bán hàng
-
-description: Hướng dẫn bắt đầu chấp nhận bitcoin sử dụng Breez POS
+name: Breez - POS
+description: Breez giúp bạn dễ dàng thu tiền thanh toán bằng bitcoin cho doanh nghiệp của mình.
 ---
 
 ![cover](assets/cover.webp)
 
-_Văn bản này đến từ trang web tài liệu của Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
-## Breez POS là gì?
 
-**Breez** là một ứng dụng Lightning không giữ tiền (non-custodial) đầy đủ dịch vụ. Hãy giải thích rõ hơn:
+Kể từ đại dịch COVID-19, thanh toán kỹ thuật số không tiếp xúc đã trở nên phổ biến, ngay cả ở những cửa hàng nhỏ nhất. Trong thời gian này, nhiều doanh nghiệp đã khám phá ra tính thực tiễn của các giải pháp Bitcoin Cash, cho phép họ nhận thanh toán từ khắp nơi trên thế giới. Tuy nhiên, các giải pháp này đôi khi khó sử dụng hoặc không phù hợp với các doanh nghiệp nhỏ. Trong hướng dẫn này, chúng ta sẽ tìm hiểu về thiết bị đầu cuối thanh toán Breez, một giải pháp nổi bật với tính dễ sử dụng, đồng thời cho phép bạn kiểm soát hoàn toàn việc quản lý Bitcoin của mình.
 
-- **Lightning** là một mạng lưới thanh toán bitcoin giảm thời gian giao dịch từ vài phút xuống vài mili giây và phí giao dịch từ vài đô la xuống vài xu hoặc ít hơn. Lightning biến bitcoin từ vàng số thành tiền tệ số trong khi vẫn giữ nguyên tất cả lợi ích làm cho bitcoin trở nên tuyệt vời.
-- **Không giữ tiền (Non-custodial)** có nghĩa là Breez không giữ tiền của người dùng. Nhiều ứng dụng Lightning giữ tiền của người dùng. Chúng thực chất là các ngân hàng bitcoin. Với một ứng dụng không giữ tiền như Breez, tất cả người dùng đều là ngân hàng của chính họ.
-- **Đầy đủ dịch vụ** có nghĩa là Breez tự động và ngầm xử lý hầu hết các hoạt động kỹ thuật. Những việc như tạo kênh, tính thanh khoản đầu vào, và định tuyến được giữ kín. (Nhưng Breez cũng là mã nguồn mở, vì vậy những ai quan tâm đến việc kiểm tra công nghệ được chào đón!)
 
-**Breez POS** là viết tắt của chế độ điểm bán hàng. Nói cách khác, Breez hoạt động như một máy tính tiền số cho các doanh nghiệp và thương nhân muốn chấp nhận thanh toán Lightning (bên cạnh chế độ "tiêu chuẩn" của nó, giống như phiên bản số của một ví da cho bitcoin, và một trình phát podcast thế hệ mới). Bây giờ, hãy xem cách thiết lập Breez như một máy tính tiền Lightning cho doanh nghiệp của bạn.
 
-## Làm thế nào để bắt đầu với Breez?
+## Cài đặt Breez POS
 
-1. Bước đầu tiên là tải xuống ứng dụng. Nó có sẵn cho Android và iOS (cài đặt TestFlight và nhấp vào liên kết từ thiết bị của bạn).
-2. Breez có thể tự động sao lưu vào Google Drive, iCloud, hoặc bất kỳ máy chủ WebDav nào.
-   > Lưu ý rằng mỗi thiết bị chạy node Lightning riêng của mình. Bạn có thể chạy chế độ POS trên nhiều thiết bị tùy thích, nhưng số dư sẽ được giữ riêng biệt.
-3. Với ứng dụng mở, nhấp vào biểu tượng ở góc trên bên trái để tìm chế độ Điểm Bán Hàng.
 
-## Thiết lập POS
 
-1. Nhấp vào biểu tượng ở góc trên bên trái, và nhấp vào Điểm Bán Hàng > Cài Đặt POS.
+Breez POS là dịch vụ tự quản lý do Breez wallet cung cấp. Tiện ích của dịch vụ này là cho phép các thương nhân thu tiền qua Bitcoin mà vẫn duy trì giao diện đơn giản, rất giống với các ví Lightning khác. Breez POS có sẵn trên các nền tảng tải xuống [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) và [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
-### Mật khẩu Quản lý
 
-Trong Cài Đặt POS, bạn có tùy chọn tạo một mật khẩu quản lý. Mật khẩu quản lý làm cho việc gửi thanh toán ra khỏi ứng dụng Breez không thể thực hiện mà không có sự ủy quyền. Nhân viên bán hàng chỉ có thể nhận thanh toán từ thiết bị. Lưu ý rằng nếu bạn sử dụng tùy chọn này, bạn cũng có thể muốn ngăn chặn truy cập vào sao lưu của Breez, vì vậy sử dụng một tài khoản WebDav bên ngoài (ví dụ, Nextcloud) được khuyến khích cho trường hợp sử dụng này.
 
-### Danh Sách Mặt Hàng
+![download](assets/fr/01.webp)
 
-Danh sách mặt hàng là một danh mục các mặt hàng bán và giá của chúng. Có hai cách để thêm mặt hàng vào danh sách:
 
-- Để nhập từng mặt hàng một, nhấp vào Mặt Hàng gần đầu của giao diện POS chính, sau đó nhấp vào dấu "+" ở góc dưới bên phải. Tại đây bạn có thể nhập tên của một loại mặt hàng duy nhất, giá (hiển thị theo đơn vị tiền tệ tùy chọn của bạn), và SKU (một định danh nội bộ duy nhất cho loại mặt hàng đó; nó là tùy chọn).
-- Để nhập nhiều mặt hàng cùng một lúc, nhấp vào biểu tượng máy tính ở góc trên bên trái, sau đó chọn Point of Sale > Preferences > POS Settings, tiếp theo nhấp vào ba chấm ở bên phải của Items List, và sau đó chọn Import from CSV. Điều này sẽ cho phép bạn nhập một tệp CSV mà bạn đã chuẩn bị trước đó chứa tên, giá và SKU của các mặt hàng.
 
-### Hiển Thị Fiat
+![setup](assets/fr/12.webp)
 
-Breez chỉ gửi và nhận bitcoin, và đối với hầu hết các giao dịch trên Lightning, thường là với số lượng nhỏ, tổng số thường được hiển thị bằng Satoshis, còn được gọi là sats (1 BTC = 100,000,000 sats). Tuy nhiên, nhiều người bán hàng thấy rằng việc có thể thấy (và thông báo cho khách hàng) giá trị của giao dịch được hiển thị bằng tiền tệ fiat địa phương là thực tế.
 
-Trong giao diện POS chính, tiền tệ đang được hiển thị có thể thấy ở phía bên phải (mặc định là SAT). Cũng có một danh sách thả xuống của các tiền tệ khác có sẵn để hiển thị. Để thêm hoặc loại bỏ các tiền tệ khỏi danh sách thả xuống này, nhấp vào Point of Sale > Preferences > Fiat Currencies. Sau đó chỉ cần đánh dấu vào các tiền tệ bạn muốn có trong menu thả xuống và bỏ đánh dấu những tiền tệ bạn muốn loại bỏ.
 
-Giá trị được hiển thị là từ yadio, một nguồn tin cậy về dữ liệu tỷ giá hối đoái, và chúng được cập nhật gần như thời gian thực. Nhưng nhớ rằng: bất kể giá trị tiền tệ nào đang được hiển thị, việc thanh toán vẫn là bằng bitcoin.
+⚠️ Xin lưu ý rằng các ứng dụng này vẫn đang trong quá trình phát triển và có thể có một số lỗi trong quá trình sử dụng các chức năng. Chúng tôi khuyến nghị bạn nên sử dụng ở mức vừa phải.
 
-### Thanh Toán Đơn Hàng
 
-Để tạo đơn hàng, hoặc là thêm mặt hàng từ danh sách mặt hàng hoặc chỉ cần nhập một số tiền vào bàn phím. Sau đó nhấp vào Charge ở phía trên cùng của giao diện POS chính. Bạn sẽ thấy một mã QR mà khách hàng có thể quét bằng ứng dụng Lightning của họ, mà bạn có thể chia sẻ trực tiếp từ một ứng dụng khác trên thiết bị của mình, hoặc bạn có thể sao chép và dán nếu cần.
 
-Khi quét mã đó hoặc nhấp vào hóa đơn được chia sẻ/dán, khách hàng sẽ thấy hóa đơn trong ứng dụng Lightning của họ và có tùy chọn thanh toán ngay lập tức và giải quyết giao dịch.
+Với ứng dụng này, Breez cung cấp cho bạn quyền kiểm soát hoàn toàn đối với cấu hình mạng và cài đặt phí, đồng thời đảm bảo quyền tự chủ của bạn trong việc quản lý bitcoin.
 
-Một khi bạn thấy hoạt ảnh Payment approved! trong ứng dụng Breez trên thiết bị của người bán, bạn có thể nhấp vào biểu tượng máy in để tạo hóa đơn cho khách hàng. Để sử dụng máy in hóa đơn trên Android, hãy thử sử dụng trình điều khiển này. Lưu ý rằng bạn cũng có thể in các giao dịch trước đó qua màn hình Transactions.
 
-### Báo Cáo Doanh Số
 
-Để xem báo cáo hàng ngày/tuần/tháng về doanh số bán hàng của bạn (cho mục đích kế toán hoặc khác), nhấp vào biểu tượng ở góc trên bên trái, sau đó nhấp vào Transactions. Nhấp vào biểu tượng Report để hiển thị báo cáo và biểu tượng Calendar để thay đổi khoảng thời gian đã chọn.
+Bạn có thể khám phá các tùy chọn Breez wallet khác nhau bằng cách làm theo hướng dẫn bên dưới. Bước này sẽ giúp bạn hiểu rõ hơn về hệ sinh thái điểm bán hàng và áp dụng các phương pháp tối ưu để bảo mật hiệu quả số bitcoin liên quan đến seed của bạn.
 
-### Xuất Giao Dịch
 
-Để xem danh sách các khoản thanh toán đã nhận trong Breez, nhấp vào biểu tượng ở góc trên bên trái, sau đó nhấp vào Transactions. Nhấp vào ba chấm ở phía trên bên phải, sau đó chọn Export để xuất danh sách các khoản thanh toán đến dưới dạng tệp CSV. Để hạn chế danh sách trong một khoảng thời gian nhất định, nhấp vào biểu tượng lịch để thiết lập khoảng thời gian.
 
-### In Hóa Đơn
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-Để in hóa đơn bán hàng, nhấp vào biểu tượng máy in ở phía trên bên phải của hộp thoại xác nhận thanh toán. Hoặc, nhấp vào biểu tượng ở góc trên bên trái, sau đó nhấp vào Transactions. Tìm giao dịch cần in, mở nó và nhấp vào biểu tượng máy in ở phía trên bên phải.
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-> Lưu ý: sử dụng trình điều khiển này để in trên máy in nhiệt di động 58mm/80mm Bluetooth/USB.
 
-## Tôi muốn tìm hiểu thêm
+## Sử dụng Breez POS
 
-- Để biết thêm thông tin về Lightning và Breez, hãy kiểm tra [blog](https://breez.technology/blog) của chúng tôi.
-- Để biết thêm các mẹo kỹ thuật về cách tận dụng tối đa ứng dụng và thực hiện các thao tác phổ biến, hãy xem [tài liệu](https://breez.technology/documentation) của chúng tôi.
-- Nếu bạn gặp khó khăn và không tìm thấy câu trả lời trong bất kỳ tài liệu hỗ trợ nào của chúng tôi, bạn có thể tìm chúng tôi trên [Telegram](https://t.me/breez_labs) hoặc gửi cho chúng tôi một [email](mailto:support@breez.technology).
-- Nếu bạn muốn xem một số video minh họa về chế độ POS của Breez do người hâm mộ và người dùng của chúng tôi thực hiện, [đây](https://www.youtube.com/watch?v=xxxx) là một video ngắn tuyệt vời, và [đây](https://www.youtube.com/watch?v=xxxx) là một video dài hơn, chi tiết hơn.
+
+
+Trong hướng dẫn này, chúng tôi sẽ tập trung vào phần "*Điểm bán hàng*" để giúp bạn hiểu cách tích hợp phần này làm phương tiện thanh toán trong doanh nghiệp của mình.
+
+
+
+Điểm bán hàng là một phần không thể thiếu của danh mục đầu tư Breez và chủ yếu dựa vào Lightning Network để thu tiền.
+
+
+
+Trong menu "*Điểm bán hàng*", bạn có giao diện trực tiếp để thu tiền. Giao diện này được chia thành hai phần:
+
+
+
+### Ghi nợ trực tiếp
+
+
+
+Phần đầu tiên là bàn phím ghi nợ trực tiếp. Giao diện này rất tiện lợi để thu toàn bộ khoản thanh toán khi bạn biết tổng số tiền khách hàng đã mua, hoặc khi doanh nghiệp của bạn không cần danh mục sản phẩm cố định (ví dụ: dịch vụ tự do).
+
+
+
+![keyboard](assets/fr/02.webp)
+
+
+
+Để sử dụng Breez POS lần đầu tiên, bạn sẽ cần thanh toán hơn 2.500 satoshi (khoảng 3 euro theo tỷ giá hối đoái hiện tại). Số tiền này, chỉ được thanh toán trong lần rút tiền đầu tiên của bạn, thể hiện chi phí tạo kênh thanh toán để bạn có thể giao tiếp với các nút Lightning Network khác và gửi/nhận satoshi.
+
+
+
+![channel_fee](assets/fr/03.webp)
+
+
+### Danh mục sản phẩm
+
+
+
+Phần thứ hai là danh mục sản phẩm. Giao diện này lý tưởng khi bạn có danh mục sản phẩm với giá được định sẵn. Tại đây, bạn có thể cấu hình trước sản phẩm và sau đó sử dụng chúng để xuất hóa đơn generate nhằm cải thiện khả năng truy xuất nguồn gốc biên lai thu tiền.
+
+
+
+![items](assets/fr/04.webp)
+
+
+
+Bạn có thể cấu hình thủ công từng mục từ giao diện này bằng cách nhấp vào nút "**Plus**" rồi xác định tên, giá và mã định danh cho mục này.
+
+
+
+![add_items](assets/fr/05.webp)
+
+
+
+Sau đó, bạn có thể thêm nó và xác định số lượng để thu khoản thanh toán liên quan.
+
+
+
+Khi danh mục của bạn khá lớn, việc thêm từng sản phẩm có thể trở nên phức tạp. Để thực hiện việc này, trong phần **Tùy chọn > Cài đặt Điểm bán hàng**, từ menu "Danh sách mặt hàng", bạn có thể tự động nhập và xuất danh sách mặt hàng từ tệp CSV.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Trong cùng phần này, bạn có thể xác định thời hạn hiệu lực của hóa đơn Lightning. Từ giờ trở đi, đối với tất cả hóa đơn, khách hàng của bạn có `N` giây để thanh toán, nếu không bạn sẽ phải tạo lại hóa đơn Lightning mới.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Với tư cách là người quản lý, bạn có thể tăng cường bảo mật cho bitcoin của mình bằng cách thêm mật khẩu bắt buộc cho tất cả các khoản thanh toán từ wallet của bạn. Tính năng này đặc biệt hữu ích khi bạn không phải là người duy nhất quản lý cửa hàng của mình.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+Trong menu **Giao dịch**, bạn sẽ thấy danh sách tất cả các khoản thanh toán đã thu thập. Bạn cũng có thể lọc kết quả theo một khoảng thời gian cụ thể bằng cách nhấp vào nút **Lịch**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Bạn cũng có thể xem tóm tắt hàng ngày về doanh số bán hàng và tổng số tiền thu được bằng cách nhấp vào nút **Tài liệu**.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Giờ đây, bạn đã nắm rõ toàn bộ tính năng điểm bán hàng mà ứng dụng Breez cung cấp để tích hợp liền mạch Bitcoin vào doanh nghiệp của mình. Nếu bạn thấy hướng dẫn này hữu ích, chúng tôi khuyên bạn nên xem hướng dẫn về be-BOP, một nền tảng thương mại điện tử cho phép bạn nhận thanh toán bằng bitcoin và kiếm tiền từ doanh nghiệp của mình.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

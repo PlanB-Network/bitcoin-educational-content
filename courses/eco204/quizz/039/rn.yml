@@ -1,0 +1,10 @@
+question: Ni ingaruka izihe hyperinflation igira ku gaciro k’amahera?
+answer: Bituma amahera atakaza agaciro ningoga.
+wrong_answers:
+  - Bituma amahera arushiriza kugira agaciro.
+  - Nta ngaruka bigira ku gaciro k’amahera.
+  - Bituma agaciro k’amahera gahinduka mu buryo butamenyekana.
+explanation: |
+  Mu kiringo c’ugutera imbere cane, amahera aca atakaza agaciro ningoga, ivyo bikaba bituma .
+  gutegura igihe kirekire biragoye.
+reviewed: false

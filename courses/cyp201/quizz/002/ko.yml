@@ -1,0 +1,9 @@
+question: 메시지가 약간 변경될 때 Hash의 완전한 변경으로 입증되는 Hash 기능의 속성은 무엇인가요?
+answer: 눈사태 효과
+wrong_answers:
+  - 충돌 저항
+  - 두 번째 프리이미지 저항
+  - 길이
+explanation: |
+  입력값의 작은 변화는 Hash에 급격한 변화를 가져오는데, 이를 눈사태 효과라고 합니다.
+reviewed: false

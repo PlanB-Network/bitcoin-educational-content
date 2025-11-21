@@ -1,5 +1,5 @@
 question: Jaka jest rola LNURL w transakcjach Lightning?
-answer: Aby uprościć interakcję między węzłami i aplikacjami Lightning
+answer: Uproszczenie interakcji między węzłami i aplikacjami Lightning
 wrong_answers:
   - Ułatwienie tworzenia kanałów dla każdej płatności
   - Zapewnienie poufności informacji o płatnościach

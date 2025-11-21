@@ -1,9 +1,0 @@
-question: Koja je svrha dvofaktorske autentifikacije (2FA) u Bitcoin?
-answer: Da bi se poboljšala sigurnost Bitcoin transakcija.
-wrong_answers:
-  - Da se iskopaju novi Bitcoini.
-  - Da trgujete Bitcoinima.
-  - Da konvertujete Bitcoine u druge kriptovalute.
-explanation: |
-  Dvofaktorska autentifikacija (2FA) je metoda potvrđivanja identiteta korisnika korišćenjem nečega što znaju (lozinka) i drugog faktora osim nečega što imaju ili što jesu. Koristi se za poboljšanje sigurnosti Bitcoin transakcija.
-reviewed: false

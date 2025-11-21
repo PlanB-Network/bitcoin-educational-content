@@ -1,0 +1,9 @@
+question: Enligt Bastiat, vem är det som upprätthåller statens försörjning?
+answer: Det är medborgarna som upprätthåller staten
+wrong_answers:
+  - Det är medborgarna som lever av staten
+  - Det är staten som upprätthåller nationen
+  - Det är intressegrupperna som upprätthåller staten
+explanation: |
+  Bastiat hävdar att det är medborgarna som försörjer staten genom att skapa välstånd och inte tvärtom.
+reviewed: false

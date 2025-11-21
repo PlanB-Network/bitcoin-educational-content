@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med et VPN når du surfer på et offentlig Wi-Fi-nettverk?
+answer: Krypter trafikken mellom enheten og VPN-serveren
+wrong_answers:
+  - Anonymiser Internett-tilkoblingen din
+  - Installer oppdateringer automatisk
+  - generate sterke passord
+explanation: |
+  Et VPN krypterer all nettverkstrafikk og beskytter dataene dine mot avlytting på usikrede nettverk, for eksempel offentlig Wi-Fi.
+reviewed: false

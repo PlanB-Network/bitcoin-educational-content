@@ -1,10 +1,11 @@
-question: Quelle est la deuxième phase du phénomène d'hyperinflation ?
-answer: Effondrement de la monnaie & augmentation des prix.
+question: Quel est le nom de l'événement lors duquel la récompense de minage est divisée par deux ?
+answer: Halving
 wrong_answers:
-  - Perte de confiance.
-  - Le cercle vicieux de l'impression monétaire.
-  - Émergence d'une nouvelle monnaie.
+  - Doubling
+  - Quartering
+  - Tripling
 explanation: |
-  La deuxième phase de l'hyperinflation est l'effondrement de la monnaie &
-  l'augmentation des prix, juste après la phase de Perte de Confiance.
+  L'événement lors duquel la récompense de minage est divisée par deux est appelé
+  halving. Cet événement donne à la courbe d'émission monétaire une
+  forme d'escalier.
 reviewed: true

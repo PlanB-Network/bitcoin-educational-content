@@ -1,12 +1,10 @@
-question: In quali campi solleva domande Bitcoin?
-answer: Crittografia, teoria dei giochi, economia e politica monetaria, informatica, filosofia, energia, leggi e regolamentazione.
+question: Lightning Network consente di fare una cosa molto particolare. Quale?
+answer: Pagamenti Bitcoin istantanei e a basso costo.
 wrong_answers:
-  - Solo informatica ed economia
-  - Solo crittografia e teoria dei giochi
-  - Solo filosofia ed energia
-explanation: |
-  Bitcoin è un argomento multidisciplinare che solleva
-  domande relative a vari campi, inclusi
-  crittografia, teoria dei giochi, economia e politica monetaria,
-  informatica, filosofia, energia, leggi e regolamentazione.
+  - Pagamenti Bitcoin istantanei e ad alto costo.
+  - Pagamenti Bitcoin lenti e a basso costo.
+  - Pagamenti Bitcoin lenti e ad alto costo.
+explanation: >-
+  Lightning Network consente pagamenti Bitcoin istantanei e a basso costo,
+  risolvendo così il problema di scalabilità di Bitcoin.
 reviewed: vero

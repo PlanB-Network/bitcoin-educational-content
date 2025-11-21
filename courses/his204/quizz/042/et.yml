@@ -1,0 +1,8 @@
+question: Millisele autorile tugineb Mirabeau oma teoses "L'Ami des Hommes"?
+answer: François Quesnay
+wrong_answers:
+  - Vincent de Gournay
+  - Richard Cantillon
+  - Adam Smith
+explanation: |
+  Mirabeau oli inspireeritud François Quesnay ja füsiokraatia ideedest, mis rõhutasid põllumajanduse ja majandusliku vabaduse tähtsust.

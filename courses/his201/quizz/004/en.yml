@@ -5,5 +5,5 @@ wrong_answers:
   - 1995
   - 1996
 explanation: |
-  It was first implemented by the cypherpunks in February, before being trialed by DigiCash through the issuance of CyberBucks in October.
-reviewed: false
+  It was first implemented by the cypherpunks in February, and Digicash trialed it in October by issuing CyberBucks.
+reviewed: true

@@ -88,6 +88,62 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.07
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.04
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.07
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.07
+  - language: sw
+    last_contribution_date: '2025-11-05'
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 4.03
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.06
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.07
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.08
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.07
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.06
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.06
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.05
 tags:
   - hardware
   - wallets

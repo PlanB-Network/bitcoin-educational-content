@@ -1,0 +1,9 @@
+question: Constant'a göre, siyasi gücün etkisinin olmadığı alanlar nelerdir?
+answer: Yukarıda bahsedilen tüm alanlar (din, bilim, sanayi).
+wrong_answers:
+  - Din
+  - Bilim
+  - Endüstri
+explanation: |
+  Constant, bireysel özgürlüğü ve özel alana giren insan faaliyetlerinin özerkliğini korumak için siyasi iktidarın din, bilim ve sanayi gibi alanlara müdahale etmemesi gerektiğine inanmaktadır.
+reviewed: true

@@ -1,0 +1,9 @@
+question: چه کسی اولین سرویس Exchange را بین Bitcoin و دلار در اکتبر 2009 تأسیس کرد؟
+answer: نیو لیبرتی استاندارد
+wrong_answers:
+  - سریوس-م
+  - dwdollar
+  - سیگارکشیدن‌زیاد
+explanation: |
+  این خدمات ابتدایی بود: مبادلات از طریق ایمیل مذاکره می‌شدند و پرداخت‌ها از طریق PayPal انجام می‌شد. نرخ Exchange بر اساس هزینه‌های Mining خود NewLibertyStandard بود.
+reviewed: false

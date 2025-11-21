@@ -1,0 +1,8 @@
+question: Proč podle Condorceta svoboda lidi děsí?
+answer: Protože je příliš zvyklý nechat vládu zasahovat do všech záležitostí
+wrong_answers:
+  - Protože to ve Francii nikdy nebylo vyzkoušeno
+  - Protože to vyžaduje násilnou revoluci
+  - Protože je synonymem chaosu
+explanation: |
+  Condorcet se domníval, že lidé jsou zvyklí na státní zásahy a bojí se svobody, protože ji neumějí využívat.

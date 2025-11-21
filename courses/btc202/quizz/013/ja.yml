@@ -1,0 +1,9 @@
+question: Bitcoinの効率的な採掘には、現在どのような装置が使われているのだろうか？
+answer: ASIC
+wrong_answers:
+  - クラシックCPU
+  - GPU
+  - FPGA
+explanation: |
+  今日、Bitcoin MiningはASICを使って行われている。これはSHA-256アルゴリズムに特化したチップである。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hva brukes reserverte porter til i TCP/IP-modellen?
+answer: Å lytte etter forespørsler om spesifikke tjenester
+wrong_answers:
+  - Til generate automatisk datagraminnkapsling
+  - For å rute nettverksrammer fysisk
+  - Slik kontrollerer du UDP-pakkefragmentering
+explanation: |
+  Porter er logiske lyttepunkter som gjør det mulig for nettverksapplikasjoner å skille mellom ulike tjenester som kjører på samme vert.
+reviewed: false

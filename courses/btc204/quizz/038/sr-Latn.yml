@@ -1,5 +1,5 @@
 question: Koji model transakcije poništava upotrebu CIOH?
-answer: Saradnička transakcija.
+answer: Kolaborativna transakcija.
 wrong_answers:
   - Jednostavno plaćanje.
   - Konsolidacija.

@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen een primitief streamcipher en een blockcipher streamcipher?
+answer: Een primitief streamcijfer is niet opgebouwd uit een blokcijfer.
+wrong_answers:
+  - Een primitief streamcijfer vereist opvulling van berichten.
+  - Een blokcijfer-stroomcijfer gebruikt blokken van variabele grootte.
+  - Een blokcijfer-stroomcijfer kan niet worden gebruikt voor grote gegevens.
+explanation: |
+  Een primitief stroomcijfer, zoals Salsa20, is onafhankelijk van een blokcijfer ontworpen, terwijl een blokcijfer-stroomcijfer een blokcijfer als basis gebruikt, aangepast om een vercijferingsstroom te produceren.
+reviewed: false

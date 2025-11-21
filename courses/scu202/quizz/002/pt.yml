@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem de uma VPN?
+answer: Encriptar o tráfego da Internet
+wrong_answers:
+  - Acelere a sua ligação à Internet
+  - Aumentar a capacidade de armazenamento
+  - Antivírus integrado
+explanation: |
+  Uma VPN cria um túnel seguro e encripta as trocas entre o seu dispositivo e um servidor intermediário, reforçando assim a confidencialidade.
+reviewed: false

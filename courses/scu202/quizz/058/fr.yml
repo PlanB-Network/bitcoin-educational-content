@@ -1,0 +1,9 @@
+question: Quel moteur de rendu a été utilisé par Internet Explorer à partir de la version 4 et a dominé le marché au début des années 2000 ?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Blink
+explanation: |
+  Trident, développé par Microsoft, a été introduit avec Internet Explorer 4.0 en 1997 et a dominé le web pendant la période du quasi-monopole d’Internet Explorer.
+reviewed: false

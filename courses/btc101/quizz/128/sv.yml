@@ -1,0 +1,8 @@
+question: Vad är funktionen för svårighetsjusteringen i Bitcoin-nätverket?
+answer: Det säkerställer att ett block läggs till i Blockchain ungefär var tionde minut.
+wrong_answers:
+  - Det bestämmer priset på Bitcoin.
+  - Den reglerar antalet bitcoins som kan utvinnas i Blockchain.
+  - Den bestämmer storleken på ett block.
+explanation: >-
+reviewed: true

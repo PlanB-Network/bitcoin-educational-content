@@ -1,0 +1,9 @@
+question: نقش کلید عمومی در یک Bitcoin Wallet چیست؟
+answer: برای آدرس‌های generate و Bitcoin استفاده می‌شود و بنابراین پول دریافت می‌کند.
+wrong_answers:
+  - برای رمزگذاری تراکنش‌های Bitcoin استفاده می‌شود.
+  - برای دسترسی به Bitcoin Wallet استفاده می‌شود.
+  - برای پشتیبان‌گیری از Bitcoin Wallet استفاده می‌شود.
+explanation: |
+  کلید عمومی از کلید خصوصی استخراج می‌شود و برای آدرس‌های generate Bitcoin به منظور دریافت پول استفاده می‌شود.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Vad ska du göra när orden i din Mnemonic-fras är skrivna?
+answer: Gör en andra kopia och förvara den på en annan plats.
+wrong_answers:
+  - Dela den med en betrodd vän.
+  - Mejla det till dig själv.
+  - Förvara den i din telefon.
+explanation: |
+  När orden i din Mnemonic-fras är skrivna rekommenderas det att du
+  rekommenderas att du gör en andra kopia och lagrar den på en
+  separat plats från den första. Detta ger en säkerhetskopia i
+  vid förlust eller olycka med den första kopian.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji dokument služi kao tehnička referenca za TCP/IP specifikacije protokola?
+answer: RFC
+wrong_answers:
+  - Bela knjiga
+  - ISO
+  - IIP
+explanation: |
+  RFC-ovi (Request For Comments) su referentni dokumenti koji definišu specifikacije TCP/IP protokola.
+reviewed: false

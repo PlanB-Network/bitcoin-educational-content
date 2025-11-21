@@ -1,0 +1,9 @@
+question: کدام ابزار خط فرمان ترافیک شبکه را برای تحلیل در زمان واقعی ضبط می‌کند؟
+answer: tcpdump
+wrong_answers:
+  - حفاری کردن
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump بسته‌هایی را که در شبکه Interface در حال گردش هستند برای تحلیل ضبط و ثبت می‌کند.
+reviewed: false

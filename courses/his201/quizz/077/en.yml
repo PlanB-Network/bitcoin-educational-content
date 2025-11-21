@@ -5,5 +5,5 @@ wrong_answers:
   - March 7, 2011
   - September 19, 2011
 explanation: |
-  It was created by developer Jeff Garzik, and it allowed for formal discussions about changes to be made to Bitcoin.
-reviewed: false
+  It was created by developer Jeff Garzik and allowed for formal discussions about changes to Bitcoin.
+reviewed: true

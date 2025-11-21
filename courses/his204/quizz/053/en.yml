@@ -1,0 +1,8 @@
+question: What is the name of the Physiocrates' journal?
+answer: Les Ephémérides du Citoyen
+wrong_answers:
+  - Les Ephémérides du Peuple
+  - The New Citizen
+  - Le Journal des Économistes
+explanation: |
+  The Physiocrats' newspaper was "Les Éphémérides du Citoyen", a periodical in which they disseminated their ideas and economic analyses.

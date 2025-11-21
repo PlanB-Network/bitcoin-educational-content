@@ -1,10 +1,11 @@
-question: Qual è uno dei motivi per cui Bitcoin non è una bolla destinata a scomparire?
-answer: Perché è una valuta che viene effettivamente utilizzata ovunque nel mondo.
+question: Qual è un fattore da considerare quando si sceglie una soluzione per accettare Bitcoin per la propria attività?
+answer: Il volume di transazioni previsto.
 wrong_answers:
-  - Perché non viene effettivamente utilizzata da nessuna parte.
-  - Perché è controllata da un'autorità centrale.
-  - Perché è facile da contraffare.
+  - Il colore del logo.
+  - Il numero di dipendenti.
+  - La posizione della sede.
 explanation: >-
-  Bitcoin non è una bolla destinata a scomparire ma una valuta che viene effettivamente
-  utilizzata ovunque nel mondo.
+  Quando si sceglie una soluzione per accettare Bitcoin per la propria attività, diversi
+  fattori devono essere presi in considerazione, come il volume di transazioni previsto, il budget
+  allocato e il tipo di attività (online o fisica).
 reviewed: true

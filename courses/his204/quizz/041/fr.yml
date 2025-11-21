@@ -1,0 +1,8 @@
+question: Paru anonymement, l’Ami des Hommes fit une telle impression qu’on l’attribua d’abord à ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes a d'abord été attribué à Montesquieu en raison de son style et de son importance, avant que l'on ne découvre que l'auteur était en réalité le marquis de Mirabeau.

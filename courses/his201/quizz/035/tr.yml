@@ -1,0 +1,9 @@
+question: Bitcoin ile dolar arasındaki ilk Exchange ne zaman gerçekleşti?
+answer: 12 Ekim 2009
+wrong_answers:
+  - 8 Mayıs 2009
+  - 30 Aralık 2009
+  - 11 Mart 2010
+explanation: |
+  Martti NLS'ye 5.050 bitcoin transfer etmiş, NLS de Martti'nin PayPal hesabına 5,02 dolar aktarmıştır. Bu da yaklaşık 0,001 dolarlık bir birim fiyata karşılık geliyordu.
+reviewed: true

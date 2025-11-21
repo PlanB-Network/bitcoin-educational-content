@@ -1,0 +1,10 @@
+question: Vilken är den största nackdelen med coinswaps och atomic swaps när det gäller integritetsskydd?
+answer: De bryter inte historien om de utbytta mynten
+wrong_answers:
+  - De är mycket kostsamma i transaktionsavgifter
+  - De kräver Exchange av personlig information mellan parter
+  - De kan bli föremål för analys av Exchange-plattformar
+explanation: |
+  Den största nackdelen med dessa metoder är att de är mycket riskabla utan användning av en ytterligare teknik för att bryta myntets historia.
+  
+reviewed: false

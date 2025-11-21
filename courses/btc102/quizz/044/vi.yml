@@ -1,0 +1,9 @@
+question: Nguồn gốc của thuật ngữ hodler là gì?
+answer: Một lỗi chính tả của hold
+wrong_answers:
+  - Một từ viết tắt của giữ
+  - Viết tắt của Hot Wallet
+  - Sự co lại của chuỗi HODL
+explanation: |
+  Thuật ngữ "hodler" xuất phát từ lỗi đánh máy trên Bitcoin Talk, khi đó từ "hold" bị viết sai thành "HODL" để diễn tả việc nắm giữ dài hạn.
+reviewed: false

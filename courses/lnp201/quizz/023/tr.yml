@@ -1,0 +1,9 @@
+question: Alice ve Bob neden önceki Commitment işlemleri için sırlarını Exchange yapıyor?
+answer: Diğerinin eski bir işlemi yayınlaması durumunda her birinin kendini korumasına izin vermek için
+wrong_answers:
+  - Kanalın kapasitesini artırmak için
+  - Birbirlerinin fonlara erişimini engellemek için
+  - Fonları eşit olarak bölmek için
+explanation: |
+  Önceki işlemler için sırların paylaşılması, her bir katılımcının eski bir işlemi yayınlayarak hile yapma girişimi durumunda diğerini cezalandırmasına olanak tanır.
+reviewed: false

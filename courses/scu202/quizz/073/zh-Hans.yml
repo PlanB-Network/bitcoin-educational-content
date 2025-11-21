@@ -1,0 +1,9 @@
+question: 哪个 Android 组件仍完全开源并可由社区审核？
+answer: AOSP
+wrong_answers:
+  - 谷歌移动服务
+  - Play 商店
+  - iOSP
+explanation: |
+  只有安卓系统的 AOSP 基础是免费的。广泛使用的谷歌移动服务是专有的，不可审计。
+reviewed: false

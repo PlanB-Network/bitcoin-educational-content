@@ -1,0 +1,9 @@
+question: Taraflar güvenli bir oturumda mesajların doğru sıralanmasını nasıl sağlayabilir?
+answer: Her mesajda sıra numaraları kullanarak
+wrong_answers:
+  - Her mesaj için anahtar alışverişi yaparak
+  - Mesajlar arasına gecikmeler ekleyerek
+  - Mesajları farklı bir algoritma ile şifreleyerek
+explanation: |
+  Sıra numaraları mesajların doğru sırada alınmasını sağlar ve yeniden sıralanmalarını önler.
+reviewed: false

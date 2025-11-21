@@ -1,0 +1,9 @@
+question: 为什么建议删除计算机中未使用或过时的软件？
+answer: 减少攻击面
+wrong_answers:
+  - 加快互联网连接速度
+  - 改进保护性载体
+  - 延长电池寿命
+explanation: |
+  安装的软件越少，攻击者可利用的潜在漏洞就越少。
+reviewed: false

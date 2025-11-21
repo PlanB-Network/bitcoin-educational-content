@@ -1,13 +1,12 @@
-question: Jakie jest prawdopodobieństwo, że ktoś przypadkowo odgadnie listę 12 lub 24 słów w Bitcoin Wallet?
-answer: Astronomicznie niskie.
+question: Co to jest portfel wielopodpisowy?
+answer: Zestaw portfeli, który wymaga wielu podpisów do przeprowadzenia transakcji.
 wrong_answers:
-  - Wysoki.
-  - Umiarkowany.
-  - Silny.
+  - Portfel, który wymaga pojedynczego podpisu do wykonania transakcji.
+  - Portfel, który nie wymaga podpisów do przeprowadzenia transakcji.
+  - Portfel, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
 explanation: |
-  Dzięki kryptografii użytej do stworzenia Wallet, prawdopodobieństwo
-  prawdopodobieństwo, że ktoś przypadkowo odgadnie listę
-  12 lub 24 słów jest astronomicznie niskie. To jak znalezienie
-  znalezienie właściwej liczby pomiędzy 1 a $2^256$, co jest prawie
-  równoważne znalezieniu zdefiniowanego atomu we Wszechświecie.
+  Portfel wielopodpisowy jest rodzajem portfela, który wymaga
+  wielu podpisów do wykonania transakcji. Dodaje to
+  dodatkową warstwę bezpieczeństwa, ponieważ oznacza, że pojedyncza osoba
+  nie może wykonać transakcji bez zgody innych osób.
 reviewed: true

@@ -8,6 +8,6 @@ wrong_answers:
   - The number of transactions required to achieve anonymity.
 
 explanation: |
-  The prospective anonset indicates the size of the group among which the studied UTXO hides at the output of a cycle, knowing the UTXO at the input, that is, the number of indistinguishable coins present within this group.
+  The prospective anonset indicates the size of the group among which the studied UTXO is hidden at the output of a cycle, given the UTXO at the input, that is, the number of indistinguishable coins present within this set.
 
-reviewed: false
+reviewed: true

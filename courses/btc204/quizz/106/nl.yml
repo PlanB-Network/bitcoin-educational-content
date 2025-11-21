@@ -1,0 +1,10 @@
+question: Hoeveel deelnemers zijn er bij inputs in een PayJoin transactie?
+answer: 2
+wrong_answers:
+  - 1
+  - 3
+  - 0
+explanation: |
+  Er zijn 2 deelnemers: de betaler en de ontvanger van de betaling.
+  
+reviewed: false

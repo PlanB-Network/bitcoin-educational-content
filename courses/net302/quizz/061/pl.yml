@@ -1,0 +1,9 @@
+question: Czym jest anycast Address w IPv6?
+answer: Address przypisany do wielu węzłów
+wrong_answers:
+  - Address dedykowany do globalnego multiemisji
+  - Address, który zmienia się przy każdym ponownym uruchomieniu komputera
+  - Address zarezerwowany dla dokumentacji technicznej
+explanation: |
+  Anycast Address jest przypisany do wielu urządzeń, a routing dostarcza pakiet do tego, które jest topologicznie najbliżej.
+reviewed: false

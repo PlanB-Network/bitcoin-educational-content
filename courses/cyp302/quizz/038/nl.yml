@@ -1,0 +1,9 @@
+question: Welk wiskundig gebied biedt de moderne hulpmiddelen voor getaltheorie?
+answer: Abstracte algebra
+wrong_answers:
+  - Meetkunde
+  - Statistieken
+  - Complexe analyse
+explanation: |
+  Abstracte algebra, als subdiscipline van de wiskunde, biedt wiskundige structuren die de analyse en het begrip van de eigenschappen van getallen, gebruikt in de getaltheorie, mogelijk maken.
+reviewed: false

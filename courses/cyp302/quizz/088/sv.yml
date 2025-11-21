@@ -1,0 +1,9 @@
+question: Vilken är den blockkrypteringsalgoritm som används i AES-standarden?
+answer: Rijndael-chiffret
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael-chiffret antogs som symmetrisk krypteringsstandard (AES) av NIST, på grund av dess höga prestanda och säkerhet.
+reviewed: false

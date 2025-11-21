@@ -1,0 +1,9 @@
+question: Vad är en nackdel med moderna centraliserade valutasystem?
+answer: De saknar ofta transparens och granskningsbarhet i hanteringen av pengarna Supply.
+wrong_answers:
+  - De ger ett stabilt, oföränderligt värde för varje valutaenhet.
+  - De tar bort alla mellanhänder och påskyndar uppgörelser till millisekunder.
+  - De säkerställer att penningutgivningen är helt decentraliserad och inflationssäker.
+explanation: |
+  Centraliserade system kan ge ut pengar hur som helst, ofta utan transparent tillsyn. Detta kan undergräva förtroendet på grund av inflation, komplexa interbankavvecklingar och potentiell vanskötsel.
+reviewed: false

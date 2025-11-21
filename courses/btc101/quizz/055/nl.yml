@@ -1,0 +1,12 @@
+question: Wat is het mechanisme dat ervoor zorgt dat er elke tien minuten een nieuw blok wordt toegevoegd aan de Blockchain?
+answer: Moeilijkheidsaanpassing.
+wrong_answers:
+  - Snelheidsaanpassing.
+  - Tijdsaanpassing.
+  - Blokaanpassing.
+explanation: |
+  Het mechanisme dat ervoor zorgt dat er elke tien minuten een nieuw blok wordt toegevoegd aan de
+  Blockchain elke tien minuten wordt toegevoegd, is de moeilijkheidsaanpassing.
+  Deze aanpassing vindt elke 2016 blokken plaats, of ongeveer
+  twee weken.
+reviewed: true

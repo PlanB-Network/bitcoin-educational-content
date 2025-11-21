@@ -1,0 +1,11 @@
+question: Waarom is het cruciaal om het besturingssysteem en de applicaties regelmatig bij te werken?
+answer: Beschermen tegen nieuwe bedreigingen en kwetsbaarheden.
+wrong_answers:
+  - Om de machine overbodig te maken.
+  - De machine vertragen.
+  - De gebruiker Interface wijzigen.
+explanation: |
+  Regelmatige updates zijn essentieel om het systeem te beschermen tegen
+  nieuwe bedreigingen en kwetsbaarheden. Ze zijn niet bedoeld om
+  de machine verouderd of traag te maken.
+reviewed: true

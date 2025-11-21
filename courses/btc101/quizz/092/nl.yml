@@ -1,0 +1,12 @@
+question: Wat moet je doen als de woorden van je Mnemonic zin eenmaal geschreven zijn?
+answer: Maak een tweede kopie en bewaar deze op een aparte locatie.
+wrong_answers:
+  - Deel het met een vertrouwde vriend.
+  - E-mail het naar jezelf.
+  - Sla het op in je telefoon.
+explanation: |
+  Zodra de woorden van je Mnemonic zin geschreven zijn, is het
+  aanbevolen om een tweede kopie te maken en deze op een
+  aparte locatie op te slaan. Dit is een back-up
+  in geval van verlies of een ongeluk met de eerste kopie.
+reviewed: true

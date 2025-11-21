@@ -1,0 +1,9 @@
+question: Sparrow 中有哪三种服务器选项？
+answer: 公共服务器、Bitcoin core、私人电子货币
+wrong_answers:
+  - RPC Direct、VPN、Tor
+  - Full node、轻型节点、移动节点
+  - 核心 RPC、闪电、ElectrumX
+explanation: |
+  Sparrow 提供三种服务器选择：公共服务器、Bitcoin core (RPC) 和私人电子琴。
+reviewed: true

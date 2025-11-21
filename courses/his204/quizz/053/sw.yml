@@ -1,0 +1,8 @@
+question: Je! jina la jarida la Physiocrates ni nini?
+answer: Les Ephémérides du Citoyen
+wrong_answers:
+  - Les Ephémérides du Peuple
+  - Raia Mpya
+  - Le Journal des Économists
+explanation: |
+  Gazeti la The Physiocrats' lilikuwa "Les Éphémérides du Citoyen", jarida ambalo walisambaza mawazo yao na uchambuzi wa kiuchumi.

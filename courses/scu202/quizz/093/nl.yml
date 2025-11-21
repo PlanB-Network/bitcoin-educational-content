@@ -1,0 +1,9 @@
+question: Welk protocol wordt voornamelijk gebruikt om elk apparaat op het internet te identificeren?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Het Internet Protocol (IP) kent aan elk apparaat een unieke Address toe en zorgt ervoor dat gegevenspakketten gerouteerd kunnen worden.
+reviewed: false

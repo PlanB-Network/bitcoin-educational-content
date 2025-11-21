@@ -1,0 +1,9 @@
+question: Ni iyihe porotokole ikoreshwa canecane kugira ngo umuntu amenye igikoresho cose kiri kuri Internet?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Iryo tegeko ry’Internet (IP) riha igikoresho cose Address yihariye kandi rituma amapakete y’amakuru ashobora guca mu nzira.
+reviewed: false

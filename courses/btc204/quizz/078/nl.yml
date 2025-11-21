@@ -1,0 +1,10 @@
+question: Welke term beschrijft de bescherming die een CoinJoin biedt tegen de analyse van transacties van een munt in het verleden?
+answer: Retrospectieve anonimiteit.
+wrong_answers:
+  - Prospectieve anonimiteit.
+  - Weerstand tegen traceerbaarheid.
+  - Tijdelijke privacy.
+explanation: |
+  De bescherming tegen analyse vanuit het heden naar het verleden is wat de retrospectieve anonset wordt genoemd.
+  
+reviewed: false

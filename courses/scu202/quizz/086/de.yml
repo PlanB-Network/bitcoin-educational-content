@@ -1,0 +1,9 @@
+question: Welche Open-Source-Übersetzungsanwendung arbeitet mit verschiedenen Engines und sammelt Ihre übersetzten Texte nicht?
+answer: TranslateYou
+wrong_answers:
+  - Google Übersetzen
+  - DeepL
+  - Microsoft Übersetzer
+explanation: |
+  TranslateYou fungiert als Interface für mehrere Suchmaschinen, ohne im Gegensatz zu proprietären Diensten persönliche Daten zu verfolgen oder zu sammeln.
+reviewed: false

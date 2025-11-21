@@ -1,0 +1,9 @@
+question: 为什么 Miner 需要 Bitcoin 节点？
+answer: 与网络互动并分发您的区块
+wrong_answers:
+  - 至 generate 数字签名
+  - 在 Coinbase Transaction 中输入您的交货 Address
+  - 降低 Mining 的难度
+explanation: |
+  矿工使用节点与网络通信、传输区块并接收交易。
+reviewed: true

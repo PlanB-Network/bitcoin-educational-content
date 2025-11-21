@@ -1,8 +1,12 @@
-question: Jaka jest jedna z inicjatyw, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich?
-answer: BTCMap.
+question: Czym jest zakup spontaniczny?
+answer: Natychmiastowy zakup bitcoin w celu uzyskania ekspozycji.
 wrong_answers:
-  - Bitcoin Exchange.
-  - Bitcoin Mining.
-  - BTCLottery.
-explanation: >-
+  - Kupowanie bitcoina w regularnych odstępach czasu.
+  - Kupowanie bitcoina tylko wtedy, gdy cena spadnie.
+  - Kupowanie bitcoina tylko wtedy, gdy cena wzrośnie.
+explanation: |
+  Tekst kursu wyjaśnia, że zakup spontaniczny
+  służy do natychmiastowego uzyskania ekspozycji na bitcoina. Na przykład,
+  może oznaczać zakup podczas krachu lub skorzystanie z
+  bonusu.
 reviewed: true

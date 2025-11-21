@@ -1,9 +1,12 @@
-question: Was ist die Bitcoin-Blockchain?
-answer: Ein öffentliches und unveränderliches Verzeichnis aller Bitcoin-Transaktionen.
+question: Wie stellt das Bitcoin-Netzwerk sicher, dass es zu kostspielig ist, innerhalb des Bitcoin-Protokolls bösartig zu handeln?
+
+answer: Durch Protokollregeln und wirtschaftliche Anreize.
+
 wrong_answers:
-  - Ein privates und veränderliches Verzeichnis aller Bitcoin-Transaktionen.
-  - Ein öffentliches und veränderliches Verzeichnis aller Bitcoin-Transaktionen.
-  - Ein privates und unveränderliches Verzeichnis aller Bitcoin-Transaktionen.
-explanation: >-
-  Die Bitcoin-Blockchain ist ein öffentliches und unveränderliches Verzeichnis aller Bitcoin-Transaktionen. Es handelt sich um ein gemeinsames Verzeichnis für alle Bitcoin-Nutzer.
+  - Durch strenge Regulierung und Überwachung.
+  - Durch den Einsatz fortschrittlicher Sicherheitsmaßnahmen.
+  - Durch die Drohung mit rechtlichen Schritten.
+
+explanation: Das Bitcoin-Netzwerk stellt sicher, dass es zu kostspielig ist, innerhalb des Bitcoin-Protokolls bösartig zu handeln, durch Protokollregeln und wirtschaftliche Anreize. Dies eliminiert die Notwendigkeit von Vertrauen in jedem Schritt der Übertragung von Bitcoin-Besitz.
+
 reviewed: true

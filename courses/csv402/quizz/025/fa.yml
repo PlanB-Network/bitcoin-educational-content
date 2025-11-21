@@ -1,0 +1,9 @@
+question: چهار مؤلفه‌ای که یک RGB Contract را تعریف می‌کنند چیستند؟
+answer: Genesis، Schema، Interface و Interface Implementation
+wrong_answers:
+  - Genesis، Schema، Transition و Interface Implementation
+  - Genesis, Interface, انتقال و گسترش
+  - Genesis، Interface، Interface Implementation و Extension
+explanation: |
+  یک RGB Contract از چهار Elements متمایز تشکیل شده است؛ Genesis، Schema، Interface و Interface Implementation.
+reviewed: false

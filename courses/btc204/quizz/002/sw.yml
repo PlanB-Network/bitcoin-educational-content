@@ -6,4 +6,4 @@ wrong_answers:
   - Huzinakili ili kuunda UTXO mpya.
 explanation: |
   UTXO za pembejeo katika muamala hutumiwa ili kufadhili matokeo. Ni, kwa njia fulani, chanzo cha pesa.
-reviewed: false
+reviewed: true

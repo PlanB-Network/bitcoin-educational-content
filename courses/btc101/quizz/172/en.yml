@@ -1,13 +1,10 @@
-question: What is the main difference between Keynesian economics and Austrian economics regarding the monetary system?
-answer: Keynesian economics does not take into account the temporal and dynamic aspects of situations and resources.
+question: What is one of the reasons why Bitcoin experiences so many speculative bubbles?
+answer: Because of its limited supply combined with high demand.
 wrong_answers:
-  - Keynesian economics promotes over-consumption of currencies.
-  - Keynesian economics acknowledges the scarcity of situations and resources.
-  - Keynesian economics encourages inflation.
+  - Because Bitcoin is not actually used anywhere.
+  - Because Bitcoin is a bubble that will disappear.
+  - Because Bitcoin is not subject to economic cycles.
 explanation: >-
-  The main difference between the ideas of Keynesian economics and Austrian
-  economics in relation to the monetary system is that Keynesian economics does not
-  take into account the temporal and dynamic aspects of situations and resources.
-  In other words, an unlimited currency cannot effectively reflect the limited resources
-  of our planet.
+  Bitcoin experiences many speculative bubbles because it is a currency
+  that is actually used everywhere in the world.
 reviewed: true

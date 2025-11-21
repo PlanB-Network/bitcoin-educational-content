@@ -1,0 +1,9 @@
+question: چه مرحله‌ای قبل از اعمال HASH160 در تولید SegWit v0 Address انجام می‌شود؟
+answer: فشرده‌سازی کلید عمومی
+wrong_answers:
+  - افزودن چکسام
+  - تبدیل به فرمت bech32
+  - کدگذاری در base58check
+explanation: |
+  کلید عمومی باید فشرده شود تا اندازه آن قبل از عبور از تابع HASH160 Hash کاهش یابد.
+reviewed: false

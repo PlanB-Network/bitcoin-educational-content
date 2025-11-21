@@ -1,0 +1,9 @@
+question: Wat is het verschil tussen het gebruik van het Salsa20-algoritme met een 128-bits sleutel en een 256-bits sleutel?
+answer: De sleutellengte beïnvloedt het aantal rondes in het algoritme.
+wrong_answers:
+  - De sleutellengte verandert het type versleuteling.
+  - Er wordt een 128-bits sleutel gebruikt voor streamversleuteling en een 256-bits sleutel voor blokversleuteling.
+  - De sleutellengte heeft geen invloed in Salsa20.
+explanation: |
+  In het symmetrische versleutelingsschema Salsa20 beïnvloedt de sleutellengte (128 of 256 bits) het aantal rondes in het algoritme, zonder de kern van het algoritme zelf te veranderen.
+reviewed: false

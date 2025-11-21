@@ -1,0 +1,9 @@
+question: What local data enables advertisers to track your browsing habits across multiple sites?
+answer: Third-party cookies
+wrong_answers:
+  - JavaScript code
+  - Local history
+  - The SSL certificate
+explanation: |
+  Third-party cookies, placed by external advertising agencies, are used to track user activity on different sites and establish an advertising profile.
+reviewed: false

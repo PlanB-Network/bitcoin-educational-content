@@ -1,0 +1,9 @@
+question: Miksi on suositeltavaa poistaa käyttämättömät tai vanhentuneet ohjelmistot tietokoneesta?
+answer: Hyökkäyspinnan pienentäminen
+wrong_answers:
+  - Internet-yhteyden nopeuttaminen
+  - Suojavektoreiden parantaminen
+  - Akun käyttöiän pidentäminen
+explanation: |
+  Mitä vähemmän ohjelmistoja on asennettu, sitä vähemmän mahdollisia haavoittuvuuksia hyökkääjät voivat hyödyntää.
+reviewed: false

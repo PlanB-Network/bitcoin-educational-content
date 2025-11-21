@@ -1,0 +1,9 @@
+question: Vilket kriterium kan hjälpa en nod att välja en effektiv betalningsväg?
+answer: Sannolikheten för framgång baserat på kanalernas totala kapacitet
+wrong_answers:
+  - Det geografiska avståndet mellan noderna
+  - Förekomst av noder med låg avgiftsnivå
+  - Antalet betalningar som gjorts av målnoden
+explanation: |
+  Kanalernas totala kapacitet kan indikera en högre sannolikhet för framgång, eftersom det tyder på en större tillgång till likviditet för transaktioner.
+reviewed: false

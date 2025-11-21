@@ -1,0 +1,9 @@
+question: Welche Notation wird zur Angabe der Präfixgröße in einem IPv6 Address verwendet?
+answer: CIDR
+wrong_answers:
+  - Dezimale Netzmaske mit Punkten
+  - Hexadezimal getrennt durch Doppelpunkte
+  - ICANN
+explanation: |
+  Die CIDR-Notation gibt die Anzahl der festen Präfix-Bits nach einem Schrägstrich an, genau wie bei IPv4.
+reviewed: false

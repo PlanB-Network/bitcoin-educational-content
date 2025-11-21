@@ -1,0 +1,9 @@
+question: Vilken roll spelar tidslåset för driften av HTLC:er?
+answer: Det ger en tidsram för att slutföra betalningen innan annulleringen
+wrong_answers:
+  - Det ökar kapaciteten hos den kanal som används
+  - Det lägger till en Layer av integritet till transaktionen
+  - Det tillkommer ytterligare avgifter för varje mellanhandsnod
+explanation: |
+  Tidsspärren innebär en tidsram för att slutföra en HTLC, vilket gör det möjligt att återvinna medel om transaktionen inte lyckas genom att annullera betalningen efter denna period.
+reviewed: false

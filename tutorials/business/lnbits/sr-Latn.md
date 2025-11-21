@@ -614,7 +614,7 @@ Kada ste novi u izgradnji, počnite sa ovim [MakerBits prezentacijama](https://w
 - Dodavanje lightning:lnurl1234xyz će kreirati QR koji zahteva otvaranje korisničkog Wallet za ovaj Invoice pri skeniranju (poslednja instalirana lightning aplikacija na iOS-u, podešavanje na Androidu)
 - Ako flešujete esp32 putem veba, to će raditi samo sa ovim pregledačima (TL:DR Chrome, Edge & Opera).
 - Imajte na umu ovu referencu PIN-OUT za esp
-- Kada koristite FOSSoftware ili FOSGuides, molimo vas da uvek navedete autora. Svi vole da gledaju kako njihova "beba" raste, a to takođe pokreće lanac izgradnje koji je prilično sjajan za gledanje :)
+- Kada koristite FOSSoftware ili FOSGuides, molimo vas da uvek navedete autora. Svi vole da gledaju kako njihova "beba" raste, a to takođe pokreće lanac izgradnje koji je prilično sjajan za gledanje:)
 
 
 Dođite u [Makerbits Telegram Grupu](https://t.me/makerbits) ako vam treba pomoć sa projektom - tu smo za vas!

@@ -1,0 +1,9 @@
+question: Wat is de specificiteit van de drie versleutelde teksten in de doos?
+answer: Ze bevatten getallen gescheiden door komma's
+wrong_answers:
+  - Ze zijn allemaal geschreven in gewone letters
+  - Ze gebruiken onbekende symbolen
+  - Ze zijn geschreven in meerdere talen
+explanation: |
+  De drie versleutelde teksten bestaan uit reeksen getallen gescheiden door komma's, waarvoor een sleutel nodig is om ze te ontsleutelen.
+reviewed: false

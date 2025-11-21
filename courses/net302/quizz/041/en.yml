@@ -1,0 +1,9 @@
+question: Which file was historically used for local resolution before the advent of global DNS?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Before DNS became widespread, name resolution relied on the static /etc/hosts file on Unix/Linux systems.
+reviewed: false

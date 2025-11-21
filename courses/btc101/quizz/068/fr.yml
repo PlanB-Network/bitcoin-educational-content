@@ -1,11 +1,13 @@
-question: À quelle fréquence la récompense pour le minage est-elle divisée par deux ?
-answer: Tous les 210 000 blocs.
+question: Qu'est-ce que la phrase mnémonique dans un portefeuille Bitcoin ?
+answer: Une liste de 12 ou 24 mots qui vous permet d'accéder à vos bitcoins.
 wrong_answers:
-  - Tous les 120 000 blocs.
-  - Tous les 540 000 blocs.
-  - Tous les 2 100 000 blocs.
+  - Un mot de passe choisi pour accéder au portefeuille Bitcoin.
+  - Un code pour crypter les transactions Bitcoin.
+  - Une phrase de récupération secrète qui détruit le portefeuille Bitcoin en cas de besoin.
 explanation: |
-  La récompense pour le minage est programmée pour être divisée par deux tous les 210 000
-  blocs, ce qui correspond à peu près à tous les quatre ans: un événement
-  connu sous le nom de halving.
+  Depuis 2017, la clé privée peut être codée dans une simple liste
+  de 12 ou 24 mots, appelée la phrase mnémonique. Cette phrase
+  est une sauvegarde de votre portefeuille Bitcoin, donc elle vous permet
+  d'accéder à vos bitcoins en utilisant n'importe quel logiciel/application
+  de portefeuille Bitcoin.
 reviewed: true

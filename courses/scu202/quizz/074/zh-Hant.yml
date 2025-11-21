@@ -1,0 +1,9 @@
+question: 是什麼事件迫使 Google 將 Android 重新定位為觸控式 Interface？
+answer: 第一代 iPhone 發表
+wrong_answers:
+  - 微軟收購諾基亞
+  - CyanogenMod 的創建
+  - Play 商店的推出
+explanation: |
+  2007 年 iPhone 的出現，迫使 Google 重新思考 Android，使其與觸控螢幕相容，拋棄了裝置搭配實體鍵盤的想法。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mengapa enkripsi disk penuh atau kunci USB sangat penting untuk keamanan data Anda?
+answer: Mencegah akses yang tidak sah ke file
+wrong_answers:
+  - Mempercepat pembacaan dan penulisan file
+  - Melindungi dari kegagalan perangkat keras
+  - Ini membuat berbagi disk lebih mudah
+explanation: |
+  Enkripsi penuh membuat data sama sekali tidak dapat digunakan tanpa kunci atau kata sandi, bahkan jika penyerang secara fisik memiliki disk.
+reviewed: false

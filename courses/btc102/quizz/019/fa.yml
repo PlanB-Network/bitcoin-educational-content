@@ -1,0 +1,9 @@
+question: چه کسی مقاله سفید Bitcoin را منتشر کرد؟
+answer: Satoshi ناکاموتو
+wrong_answers:
+  - دیوید چام
+  - تیم می
+  - اریک هیوز
+explanation: |
+  وایت پیپر در اواخر سال ۲۰۰۸ توسط Satoshi ناکاموتو (یک نام مستعار) منتشر شد.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest główna rola DNS w architekturze Internetu?
+answer: Mapowanie nazw domen na adresy IP
+wrong_answers:
+  - Szyfrowanie komunikacji między routerami
+  - Dynamiczne przypisywanie adresów MAC do urządzeń
+  - Kontrola dostępu do serwerów internetowych
+explanation: |
+  DNS (Domain Name System) tłumaczy czytelne dla człowieka nazwy domen na numeryczne adresy IP wymagane do routingu.
+reviewed: false

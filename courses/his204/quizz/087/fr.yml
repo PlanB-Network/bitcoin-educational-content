@@ -1,0 +1,8 @@
+question: En 1776 paraît Le commerce et le gouvernement considérés relativement l’un avec l’autre. Quel autre livre est publié la même année ?
+answer: La Richesse des Nations d’Adam Smith
+wrong_answers:
+  - Le Traité d’économie politique de Jean-Baptiste Say
+  - Les Réflexions sur la formation et la distribution des richesses de Turgot
+  - Le Contrat Social
+explanation: |
+  "La Richesse des Nations" d'Adam Smith a été publié en 1776, une année charnière pour la pensée économique.

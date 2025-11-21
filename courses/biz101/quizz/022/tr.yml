@@ -1,0 +1,9 @@
+question: Bir şirketin hazinesinin bir kısmını Bitcoin'a tahsis ederken genellikle ne tavsiye edilir?
+answer: Yalnızca birkaç yıl boyunca ihtiyaç duymayacağınız fazla likiditeye yatırım yapın ve en az dört yıllık bir zaman ufkunu koruyun.
+wrong_answers:
+  - Likidite ihtiyaçlarını dikkate almadan tüm operasyonel nakdi hemen kullanın.
+  - Kısa vadeli kârları maksimize etmek için birkaç hafta içinde alım ve satım yapmayı hedefleyin.
+  - Yalnızca masrafları karşılamak için acil kısa vadeli bir krediye ihtiyacınız olduğunda yatırım yapın.
+explanation: |
+  Bitcoin'in fiyatı kısa vadede değişken olabileceğinden, hemen ihtiyacınız olmayan fonları kullanmak ve en az dört yıl elde tutmak akıllıca olacaktır. Bu yaklaşım dalgalanmayı yumuşatır ve uzun vadede değer kazanma şansını artırır.
+reviewed: false

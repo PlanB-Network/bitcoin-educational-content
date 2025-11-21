@@ -1,0 +1,9 @@
+question: Kar amacı gütmeyen bir kuruluş tarafından geliştirilen ve Gecko motorunun önde gelen temsilcisi olan açık kaynak kodlu tarayıcı hangisidir?
+answer: Mozilla Firefox
+wrong_answers:
+  - Cesur
+  - Safari
+  - Krom
+explanation: |
+  Mozilla Vakfı tarafından geliştirilen Mozilla Firefox, gizliliğe verdiği önemle tanınan Gecko tabanlı lider tarayıcıdır.
+reviewed: false

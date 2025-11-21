@@ -1,0 +1,9 @@
+question: Vilken mekanism måste aktiveras i UEFI för att förhindra exekvering av osignerad kod vid start?
+answer: Säker start
+wrong_answers:
+  - Snabb start
+  - Snabb uppstart
+  - Trusted Platform Module (TPM)
+explanation: |
+  Secure Boot säkerställer att endast autentiserad programvara kan starta systemet, vilket begränsar risken för infektion av bootkit/rootkit.
+reviewed: false

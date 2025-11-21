@@ -1,0 +1,9 @@
+question: Vilken information måste den sändande noden känna till för att utföra en onion routing-betalning?
+answer: Nätverkstopologin och den fullständiga rutten till mottagaren
+wrong_answers:
+  - Endast nästa mellanliggande nod
+  - Kapaciteten för varje kanal
+  - Den kryptografiska signaturen för varje nod på vägen
+explanation: |
+  Den sändande noden måste känna till nätverkstopologin för att kunna beräkna vägen till mottagaren och därmed välja den bästa vägen.
+reviewed: false

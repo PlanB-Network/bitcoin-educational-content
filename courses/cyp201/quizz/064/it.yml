@@ -1,9 +1,9 @@
-question: Qual è la funzione principale di una chiave estesa in un portafoglio HD?
+question: Qual è la funzione principale di una chiave estesa in un wallet HD?
 answer: Consentire la derivazione di chiavi figlie
 wrong_answers:
-  - Memorizzare le transazioni del portafoglio
+  - Memorizzare le transazioni del wallet
   - Generare direttamente gli UTXO
   - Crittografare le chiavi pubbliche
 explanation: |
-  Una chiave estesa combina una chiave (privata o pubblica) con un codice catena associato, ovvero i due elementi necessari per derivare chiavi figlie.
+  Una chiave estesa combina una chiave (privata o pubblica) con una chain code associata, ovvero i due elementi necessari per derivare chiavi figlie.
 recensito: false

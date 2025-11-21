@@ -1,0 +1,9 @@
+question: Waarom wordt het aanbevolen om regelmatig geld over te boeken van een Hot Wallet naar een Hardware Wallet?
+answer: Om het risico op hacken te verkleinen
+wrong_answers:
+  - De liquiditeit van Wallet verhogen
+  - Transactiekosten verlagen
+  - Om de privacy van UTXO te optimaliseren
+explanation: |
+  Overdracht naar een Hardware Wallet beveiligt het geld door de privésleutels offline op te slaan.
+reviewed: false

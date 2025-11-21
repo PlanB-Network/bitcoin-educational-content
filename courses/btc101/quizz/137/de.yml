@@ -1,12 +1,9 @@
-question: Wie übertragen Benutzer im Bitcoin-Netzwerk das Eigentum an ihrem Geld?
-answer: Indem sie Transaktionen mit ihren privaten Schlüsseln digital signieren.
+question: Was ist die Bandbreitenanforderung für den Betrieb eines Bitcoin-Knotens, wenn man von 1 Block mit 1MB alle 10 Minuten ausgeht?
+answer: Ungefähr 5GB pro Monat.
 wrong_answers:
-  - Indem sie ihre Bitcoins physisch übergeben.
-  - Indem sie eine E-Mail an den Empfänger senden.
-  - Indem sie ihre Bitcoin-Adresse dem Empfänger mitteilen.
-explanation: |
-  Benutzer im Bitcoin-Netzwerk übertragen das Eigentum an ihrem
-  Geld, indem sie Transaktionen mit ihren privaten
-  Schlüsseln digital signieren. Dies bestätigt, dass sie die Eigentümer der
-  Bitcoins sind, die sie übertragen möchten.
+  - Ungefähr 1GB pro Monat.
+  - Ungefähr 10GB pro Monat.
+  - Ungefähr 20GB pro Monat.
+explanation: >-
+  Wenn man von 1 Block mit 1MB alle 10 Minuten ausgeht, benötigt der Betrieb eines Bitcoin-Knotens ungefähr 5GB pro Monat an Bandbreite.
 reviewed: true

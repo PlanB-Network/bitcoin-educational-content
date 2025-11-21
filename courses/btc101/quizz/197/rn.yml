@@ -1,0 +1,11 @@
+question: Ni ikihe kimwe mu bintu ukwiye kwitwararika igihe uhitamwo urubuga rwa DCA?
+answer: Kuboneka mu gihugu cawe.
+wrong_answers:
+  - Ibara ry’ikimenyetso c’urubuga.
+  - Igitigiri c’abakoresha kuri iyo nzira.
+  - Imyaka y’ibarabara.
+explanation: |
+  Iki canditswe c’amashure kivuga ko iyo uhisemwo DCA .
+  urubuga, uguhitamwo kwiza kuzovana cane n’ivyo .
+  kuboneka mu gihugu cawe.
+reviewed: true

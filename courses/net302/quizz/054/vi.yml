@@ -1,0 +1,9 @@
+question: Hình thức NAT nào liên kết vĩnh viễn một IP riêng Address với một IP công cộng Address?
+answer: Bản dịch tĩnh
+wrong_answers:
+  - Bản dịch động
+  - PAT (Bản dịch Cổng Address)
+  - Định tuyến động
+explanation: |
+  Bản dịch tĩnh tạo ra ánh xạ cố định giữa IP Address nội bộ và IP Address công khai, hữu ích để có thể truy cập tài nguyên nội bộ từ bên ngoài.
+reviewed: false

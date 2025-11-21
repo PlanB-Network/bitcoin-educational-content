@@ -5,5 +5,5 @@ wrong_answers:
   - Ili kutoa mtandao ulioidhinishwa unaodhibitiwa na huluki moja.
   - Ili kupunguza kasi ya malipo ili kuhakikisha kuwa yanasalia kufuatiliwa na serikali.
 explanation: |
-  Lightning Network ni itifaki ya "Layer ya pili" ambayo inaruhusu washiriki kuunda njia za malipo, kufanya miamala ya off-chain, na kulipa salio la mwisho la Bitcoin Blockchain pekee. Ubunifu huu unafikia kasi ya haraka na gharama ya chini.
-reviewed: false
+  Lightning Network ni protocol ya "Layer 2" ambayo inaruhusu washiriki kuunda njia za malipo, kufanya miamala ya off-chain, na kulipa salio la mwisho la Bitcoin Blockchain pekee. Ubunifu huu unafikia kasi ya haraka na gharama ya chini.
+reviewed: true

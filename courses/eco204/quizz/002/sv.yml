@@ -1,0 +1,11 @@
+question: Vad är definitionen av inflation enligt Robert?
+answer: Inflation är en alltför stor ökning av betalningsmedel som leder till att priserna stiger och valutan deprecieras.
+wrong_answers:
+  - Inflation är en minskning av betalningsmedel som leder till att priserna stiger och valutan deprecieras.
+  - Inflation är en alltför stor ökning av betalningsmedel som leder till sänkta priser och en depreciering av valutan.
+  - Inflation är en överdriven ökning av betalningsmedel som leder till prisstegring och appreciering av valutan.
+explanation: |
+  Enligt Robert definieras inflation som en alltför stor ökning av
+  betalningsinstrument (sedlar, kapital) som orsakar en prisuppgång och en depreciering av
+  av valutan.
+reviewed: false

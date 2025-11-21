@@ -1,5 +1,5 @@
 ---
-term: op_false (0x00)
+term: OP_FALSE (0x00)
 
 ---
-与 `OP_0`相同。
+与 `OP_0` 相同。

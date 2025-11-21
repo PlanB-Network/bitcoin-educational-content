@@ -1,0 +1,12 @@
+question: Wat is het wiskundige concept dat gebaseerd is op menselijke rationaliteit en gebruikt wordt in Bitcoin?
+answer: Speltheorie.
+wrong_answers:
+  - Waarschijnlijkheidstheorie.
+  - Getaltheorie.
+  - Theorie van verzamelingen.
+explanation: |
+  Speltheorie is een wiskundig concept dat gebaseerd is op
+  menselijke rationaliteit. In Bitcoin worden protocolwijzigingen
+  afgedwongen door gebruikers, waardoor elke wijziging aan het Bitcoin
+  protocol zeer complex.
+reviewed: true

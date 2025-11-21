@@ -1,0 +1,8 @@
+question: Ancien Régime vergi sistemi neden "caydırıcı" olarak tanımlanmaktadır?
+answer: Çünkü zar zor zenginleşen bir adam ertesi yıl kendini iki kez vergilendirilmiş bulabilir
+wrong_answers:
+  - Çünkü karmaşıklığı vergi memurlarını vergi toplamaktan caydırıyordu
+  - Çünkü yumuşaklığı Fransızları yurt dışına kaçmaktan vazgeçirdi
+  - Çünkü çok basit ve tahmin edilebilirdi
+explanation: |
+  Ancien Régime döneminde vergilendirme genellikle keyfi ve öngörülemezdi. Net kuralların olmaması ve aşırı vergilendirilme olasılığı, kazançlara vergilendirme yoluyla el konulabileceği için yatırım ve zenginleşmeyi caydırıyordu.

@@ -1,0 +1,16 @@
+question: Bitcoin Mining bağlamında bir CPU ile bir ASIC arasındaki temel fark nedir?
+answer: Bir CPU, özellikle tek bir hesaplama türü için optimize edilmeksizin çok sayıda farklı hesaplama türünü gerçekleştirebilirken, bir ASIC yalnızca tek bir hesaplama türünü gerçekleştirebilir, ancak çok verimli bir şekilde
+wrong_answers:
+  - Bir CPU, bir ASIC'ten daha fazla enerji verimliliğine sahiptir
+  - Bir ASIC, bir CPU'dan daha çok yönlüdür
+  - Bir CPU yalnızca tek bir tür hesaplama yapabilirken, bir ASIC çok sayıda farklı türde hesaplama yapabilir
+explanation: |
+  ASIC'ler bir CPU çipi ile karşılaştırılabilir çiplerdir, ancak
+  sadece belirli bir türde işlem yapmak üzere geliştirilmiştir
+  mümkün olan en verimli şekilde hesaplanması. Diğerlerinde
+  başka bir deyişle, bir CPU çok sayıda işlemi gerçekleştirebilir
+  olmadan farklı hesaplama türleri
+  bir hesaplama türü için optimize edilmişken
+  bir ASIC yalnızca tek bir tür
+  hesaplama, ama çok verimli bir şekilde.
+reviewed: true

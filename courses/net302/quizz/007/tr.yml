@@ -1,0 +1,9 @@
+question: Hangi üniversite işletim sistemi TCP/IP protokollerinin akademik dünyada yayılmasını kolaylaştırdı?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  Berkeley Üniversitesi'nde geliştirilen BSD Unix, TCP/IP protokollerini entegre eden ilk sistemlerden biriydi ve bu protokollerin akademik dünyada yaygınlaşmasına yardımcı oldu.
+reviewed: false

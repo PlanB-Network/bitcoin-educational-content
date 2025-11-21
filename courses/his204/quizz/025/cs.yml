@@ -1,0 +1,8 @@
+question: Proč je podle abbého de Saint-Pierre hra Exchange vždy a nutně hrou s kladným součtem?
+answer: Pokud se dva muži svobodně rozhodnou vstoupit do svazku Contract, je to proto, že v tom každý z nich vidí výhodu
+wrong_answers:
+  - Čím častěji zboží mění majitele, tím je národ bohatší
+  - Národ, který obchoduje, je vždy bohatší než ten, který žije v autarkii
+  - Protože to chce Bůh
+explanation: |
+  Abbé de Saint-Pierre, stejně jako další liberální myslitelé, věřil, že dobrovolná Exchange je oboustranně výhodná. Pokud se dva lidé dohodnou, že něco Exchange, je to proto, že oba cítí, že tím něco získají, jinak by to nedělali.

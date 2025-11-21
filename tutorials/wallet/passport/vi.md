@@ -1,5 +1,5 @@
 ---
-name: Hộ chiếu - Nền tảng
+name: Passport Core
 description: Cấu hình và sử dụng ví phần cứng Passport ở chế độ thủ công
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Cấu hình và sử dụng ví phần cứng Passport ở chế đ
 Passport là ví phần cứng chỉ dành cho Bitcoin, được thiết kế bởi Foundation Devices, một công ty Mỹ được thành lập vào tháng 4 năm 2020 tại Boston.
 
 Passport "*Batch 2*" được giới thiệu trong hướng dẫn này là phiên bản kế nhiệm của "*Founder's Edition*". Nó nổi bật với thiết kế cao cấp, màn hình màu độ phân giải cao và bàn phím vật lý tiện dụng. Thiết bị hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng tư của ví của bạn luôn được cách ly hoàn toàn, với việc trao đổi dữ liệu thông qua thẻ MicroSD hoặc mã QR. Thiết bị được trang bị pin sạc có thể tháo rời Nokia BL-5C dung lượng 1200 mAh. Pin này không độc quyền và có thể dễ dàng thay thế vì mẫu BL-5C có sẵn rộng rãi trên thị trường.
+
+💡 **Cập nhật:** Kể từ tháng 3 năm 2025, tên của ví phần cứng này không còn là "Passport" hay "Passport V2", mà là "Passport Core".
 
 Về khả năng kết nối, Passport được trang bị cổng MicroSD, cổng USB-C để sạc và camera sau để quét mã QR.
 
@@ -20,7 +22,7 @@ Với mức giá 199 đô la, Passport được định vị là ví phần cứ
 
 Nếu bạn là người mới bắt đầu, lựa chọn dễ nhất là sử dụng Passport của bạn với ứng dụng Envoy gốc do Foundation phát triển. Để tìm hiểu cách sử dụng Envoy với Passport của bạn, hãy xem hướng dẫn khác này:
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Mở hộp Passport
 
@@ -139,7 +141,7 @@ Passport của bạn đã sẵn sàng nhận chương trình cơ sở mới thô
 
 Trước khi cài đặt trên thiết bị của bạn, chúng tôi khuyên bạn nên kiểm tra tính xác thực và toàn vẹn của phần mềm đã tải xuống. Nếu bạn cần trợ giúp về vấn đề này, hãy tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sau khi kiểm tra tệp `.bin`, hãy đặt tệp đó vào MicroSD của bạn, sau đó lắp vào Passport. Trình khám phá tệp Passport sẽ mở ra. Chọn tệp `vN.N.N-passport.bin`.
 
@@ -205,9 +207,9 @@ Nhấp vào nút xác nhận để xem cụm từ ghi nhớ của bạn.
 
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Danh mục mẫu này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
+tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Danh mục mẫu này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.
 
 Hãy sao lưu câu này lại.
 
@@ -292,7 +294,7 @@ Trước khi tiếp tục, nếu muốn, bạn có thể thêm cụm mật khẩ
 
 Trước khi cấu hình tùy chọn này trên Passport, chúng tôi khuyên bạn nên đọc bài viết này để hiểu đầy đủ về hoạt động lý thuyết của cụm mật khẩu và tránh các lỗi có thể dẫn đến mất bitcoin của bạn:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Để kích hoạt, hãy vào menu "*Thêm*" và nhấp vào "*Nhập mật khẩu*".
 
@@ -304,7 +306,7 @@ Nhập mật khẩu của bạn bằng bàn phím aA1 và đảm bảo bạn lư
 
 Xin lưu ý rằng mật khẩu BIP39 phân biệt chữ hoa và chữ thường. Nếu bạn nhập mật khẩu hơi khác so với mật khẩu được cấu hình ban đầu, Passport sẽ không báo lỗi, nhưng sẽ lấy một bộ khóa mật mã khác không phải là khóa trong ví ban đầu của bạn.
 
-Do đó, điều quan trọng là khi cấu hình, hãy ghi lại dấu vân tay khóa chính mà bạn sẽ được cấp ở bước tiếp theo. Ví dụ, với mật khẩu `Plan B Network`, dấu vân tay khóa chính của tôi là `745D526B`.
+Do đó, điều quan trọng là khi cấu hình, hãy ghi lại dấu vân tay khóa chính mà bạn sẽ được cấp ở bước tiếp theo. Ví dụ, với mật khẩu `Plan ₿ Academy`, dấu vân tay khóa chính của tôi là `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -314,7 +316,7 @@ Mỗi lần bạn mở khóa, sau khi ghi lại mật khẩu, hãy kiểm tra tr
 
 Trước khi bạn nhận được bitcoin đầu tiên trên ví của mình, **Tôi thực sự khuyên bạn nên thực hiện một bài kiểm tra khôi phục rỗng**. Ghi lại một số thông tin tham chiếu, chẳng hạn như xpub hoặc địa chỉ nhận đầu tiên của bạn, sau đó xóa ví của bạn trên Passport trong khi nó vẫn còn rỗng (`Cài đặt -> Nâng cao -> Xóa Hộ chiếu`). Sau đó, hãy thử khôi phục ví của bạn bằng cách sử dụng bản sao lưu giấy của cụm từ ghi nhớ và bất kỳ cụm mật khẩu nào. Kiểm tra xem thông tin cookie được tạo sau khi khôi phục có khớp với thông tin bạn đã ghi ban đầu không. Nếu có, bạn có thể yên tâm rằng bản sao lưu giấy của bạn là đáng tin cậy. Để tìm hiểu thêm về cách thực hiện khôi phục thử nghiệm, vui lòng tham khảo hướng dẫn khác này:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -328,7 +330,7 @@ Bắt đầu bằng cách tải xuống và cài đặt Sparrow Wallet [từ tra
 
 Hãy chắc chắn kiểm tra tính xác thực và tính toàn vẹn của phần mềm trước khi cài đặt. Nếu bạn không biết cách thực hiện, vui lòng tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sau khi mở Sparrow Wallet, hãy nhấp vào tab "*File*", sau đó nhấp vào "*New Wallet*".
 
@@ -482,4 +484,4 @@ Xin chúc mừng, giờ bạn đã biết cách cấu hình và sử dụng Pass
 
 Để biết thêm thông tin, hãy xem hướng dẫn của chúng tôi về phần mềm Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

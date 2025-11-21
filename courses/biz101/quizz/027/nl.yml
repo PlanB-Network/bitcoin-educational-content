@@ -1,0 +1,9 @@
+question: Wat is een aanbevolen praktijk met betrekking tot voogdij bij het verkrijgen van Bitcoin?
+answer: Overweeg self-custody oplossingen na de eerste aankopen, zodat het bedrijf echt controle heeft over zijn activa.
+wrong_answers:
+  - Trek onder geen enkele omstandigheid Bitcoin uit de Exchange.
+  - Vertrouw altijd op één beheerder zonder de beveiligingsmaatregelen te controleren.
+  - Alle Bitcoin opslaan op een openbare website met een eenvoudig wachtwoord
+explanation: |
+  Na het kopen van Bitcoin, zorgt het verhuizen naar een self-custody Wallet ervoor dat het bedrijf directe controle heeft over haar fondsen. Hoewel derden-bewaarders handig kunnen zijn, is self-custody in lijn met Bitcoin's principe van financiële soevereiniteit.
+reviewed: false

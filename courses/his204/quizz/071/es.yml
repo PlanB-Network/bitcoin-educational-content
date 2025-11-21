@@ -1,0 +1,8 @@
+question: ¿Qué filósofo escribió en las Ephémérides du Citoyen, la revista de los fisiócratas?
+answer: Diderot
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Diderot colaboró en las "Éphémérides du Citoyen", la revista de los fisiócratas, escribiendo artículos sobre temas económicos y sociales.

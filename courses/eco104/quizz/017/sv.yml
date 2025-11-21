@@ -1,0 +1,14 @@
+question: Vilka är de huvudsakliga typerna av stablecoins som nämns i texten?
+answer: Fiat-backade, råvarubackade och algoritmiska stablecoins.
+wrong_answers:
+  - Digitala och fysiska stablecoins
+  - Centraliserade och decentraliserade stablecoins
+  - Stablecoins som backas upp av banker och stablecoins som backas upp av privatpersoner
+explanation: |
+  I de tidigare kapitlen har vi sett tre huvudtyper av stablecoins;
+  fiat-stödda stablecoins, som backas upp av traditionella valutor
+  som den amerikanska dollarn; råvarustödda stablecoins, som backas upp av
+  råvaror som guld eller olja; och algoritmiska stablecoins, som förlitar sig
+  på en uppsättning regler eller algoritmer för att upprätthålla sitt värde. Men,
+  det noteras dock att framgångsrika algoritmiska stablecoins ännu inte har kommit ut på marknaden.
+reviewed: true

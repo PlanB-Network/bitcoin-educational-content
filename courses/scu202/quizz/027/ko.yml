@@ -1,0 +1,9 @@
+question: 방화벽 규칙을 쉽게 관리할 수 있는 Ubuntu의 어떤 그래픽 도구가 있나요?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - 노틸러스
+  - Synaptic
+explanation: |
+  GUFW는 터미널을 거치지 않고도 규칙을 활성화, 비활성화 및 구성할 수 있는 UFW 방화벽용 그래픽 Interface입니다.
+reviewed: false

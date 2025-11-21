@@ -1,0 +1,5 @@
+---
+term: BIP0030
+---
+
+Predlog za poboljšanje koji uključuje Soft Fork implementiran 15. marta 2012. godine, kako bi se rešio problem duplih identifikatora transakcija. Pre BIP30, tehnički je bilo moguće imati dve različite transakcije sa istim identifikatorom transakcije (txid) u Blockchain. Ovo se posebno dogodilo dva puta za coinbase transakcije: ona u bloku 91,880 ima isti txid kao coinbase bloka 91,722, i ona u bloku 91,842 ima isti txid kao coinbase bloka 91,812. BIP30 je rešio ovaj nedostatak uvođenjem novog jednostavnog pravila: nijedna nova transakcija ne može imati isti txid kao prethodno zabeležena transakcija osim ako originalna transakcija nije bila potpuno potrošena (tj. svi njeni izlazi su iskorišćeni). Ovaj Soft Fork je aktiviran korišćenjem metode flag day. Tako je postao jedan od prvih UASF-ova.

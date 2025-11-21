@@ -1,0 +1,9 @@
+question: Koja praksa se preporučuje pre deljenja fajla putem interneta ili e-pošte?
+answer: Očistite sve metapodatke
+wrong_answers:
+  - Šifruj sve metapodatke
+  - Autentifikuj sve metapodatke
+  - Preimenuj sve metapodatke
+explanation: |
+  Čišćenje metapodataka sprečava nenamerno otkrivanje osetljivih informacija prilikom deljenja fajlova.
+reviewed: false

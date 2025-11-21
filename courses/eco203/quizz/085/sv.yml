@@ -1,0 +1,8 @@
+question: På vilket sätt är obligatorisk solidaritet en falsk solidaritet?
+answer: Eftersom det leder till att man ger på ett icke-frivilligt sätt
+wrong_answers:
+  - Eftersom det inte alltid beslutas demokratiskt
+  - För att det kräver för mycket administration
+  - Eftersom det är svårt att tillämpa
+explanation: |
+  Enligt Bastiat kan påtvingad solidaritet inte vara moralisk eftersom den tvingar fram ett givande utan frivilligt samtycke.

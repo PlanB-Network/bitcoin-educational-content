@@ -6,4 +6,4 @@ wrong_answers:
   - Broj uplata koje je izvršio ciljni čvor
 explanation: |
   Ukupni kapacitet kanala može ukazivati na veću verovatnoću uspeha, jer sugeriše veću dostupnost likvidnosti za transakcije.
-reviewed: false
+reviewed: true

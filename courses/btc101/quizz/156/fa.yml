@@ -1,0 +1,8 @@
+question: میانگین زمان بین ایجاد دو بلاک در پروتکل Bitcoin چقدر است؟
+answer: ۱۰ دقیقه.
+wrong_answers:
+  - 5 دقیقه.
+  - ۱۵ دقیقه.
+  - ۲۰ دقیقه.
+explanation: >-
+reviewed: true

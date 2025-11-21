@@ -1,0 +1,9 @@
+question: Ni ibihe bintu biva ku ciyumviro ca Euler mu bijanye n’ubuhinga bwo gupima amakuru ataco buvuze?
+answer: Birorosha kubara ububasha .
+wrong_answers:
+  - Bituma ubutumwa bushobora gushirwa mu buryo butaziguye
+  - Ikoreshwa mu kurondera imibare y'intango
+  - Ikoreshwa mu kugenzura uburinganire bw'umubare
+explanation: |
+  Mu buhinga bwo gukingira amakuru butagira aho bugarukira, ivyiyumviro vya Euler vyorosha kubara ububasha mu migambi nka RSA, kuko bitanga uburyo bwo gukoresha ibiharuro vy'ibice.
+reviewed: false

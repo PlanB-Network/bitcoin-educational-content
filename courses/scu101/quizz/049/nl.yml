@@ -1,0 +1,9 @@
+question: Waarom wordt SMS niet beschouwd als de beste optie voor 2FA?
+answer: Deze methode is kwetsbaar voor aanvallen zoals de SIM-swapzwendel.
+wrong_answers:
+  - Het is te traag en te duur; een telefoontje is effectiever.
+  - Het levert alleen bewijs van het bezit van een telefoonnummer.
+  - Het is technisch te ingewikkeld om op te zetten.
+explanation: |
+  SMS wordt niet beschouwd als de beste optie voor 2FA omdat het een 2FA methode is die kwetsbaar is voor aanvallen, zoals de SIM swap scam. Eenmaal succesvol uitgebuit, vernietigen deze kwetsbaarheden elke bescherming die de extra Layer van 2FA authenticatie biedt.
+reviewed: true

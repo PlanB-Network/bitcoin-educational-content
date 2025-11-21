@@ -1,5 +1,5 @@
 ---
-name: フェニックス
+name: Phoenix
 description: Phoenix Walletのインストールと使用
 ---
 ![cover](assets/cover.webp)
@@ -59,7 +59,7 @@ GitHubリポジトリにあるapkファイルを使って]アプリケーショ�
 
 ニモニックフレーズの保存と管理の適切な方法については、特に初心者の方には、この他のチュートリアルをご覧になることを強くお勧めします：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 インターフェースの上部に表示されるメッセージ「*Save your wallet...*」をクリックします。
 
@@ -83,15 +83,15 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/11.webp)
 
-Display*」メニューでは、アプリケーションのテーマ、ビットコインに使用するデノミネーション、ローカルのフィアット通貨を選択することができます。
+**Display**メニューでは、アプリケーションのテーマ、ビットコインに使用するデノミネーション、ローカルのフィアット通貨を選択することができます。
 
 ![Image](assets/fr/12.webp)
 
-支払いオプション*」には、ライトニング決済に関する様々な詳細設定があります。デフォルト設定のままでも構いません。
+支払いオプション」には、ライトニング決済に関する様々な詳細設定があります。デフォルト設定のままでも構いません。
 
 ![Image](assets/fr/13.webp)
 
-チャンネル管理*」では、ライトニングチャンネル開設時に支払う手数料の上限を設定します。
+チャンネル管理」では、ライトニングチャンネル開設時に支払う手数料の上限を設定します。
 
 ![Image](assets/fr/14.webp)
 
@@ -115,7 +115,7 @@ Electrumサーバー*」メニューでは、Electrsサーバーをお持ちの�
 
 ![Image](assets/fr/18.webp)
 
-QRコードを右にスワイプすると、ビットコインの受け取りアドレスが表示されます。フェニックスに入金したい金額を送金する。
+QRコードを左にスワイプすると、ビットコインの受取アドレスが表示されます。Phoenixに入金したい金額をそのアドレスに送ってください。
 
 ![Image](assets/fr/19.webp)
 
@@ -137,7 +137,7 @@ PhoenixはLightningの請求書を作成します。これをスキャンする�
 
 ![Image](assets/fr/23.webp)
 
-Edit*」ボタンをクリックすると、請求書に支払者に表示される説明文を追加したり、支払者が送信しなければならない特定の金額を定義したりすることができます。
+**Edit**ボタンをクリックすると、請求書に支払者に表示される説明文を追加したり、支払者が送信しなければならない特定の金額を定義したりすることができます。
 
 ![Image](assets/fr/24.webp)
 
@@ -175,8 +175,8 @@ Phoenixにsatsをインストールしたら、Lightning Network経由で支払�
 
 さらに一歩進めるために、独自のLightningノードを立ち上げるためのもう一つの革新的で使いやすいソリューションであるAlby Hubのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 また、ライトニング・ネットワークの技術的な操作については、ファニス・ミハラキスによるプラン₿ネットワークに関する優れた無料トレーニングをご覧ください：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

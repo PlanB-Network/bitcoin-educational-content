@@ -1,0 +1,9 @@
+question: Vad är gränsen för statlig suveränitet enligt John Stuart Mill?
+answer: Staten kan endast ingripa när en individs handlingar skadar andra.
+wrong_answers:
+  - Staten är suverän under alla omständigheter och kan inte begränsas av någon individ eller grupp av individer.
+  - Statlig suveränitet begränsas av ekonomiska medel.
+  - Statens suveränitet begränsas av naturlagarna.
+explanation: |
+  John Stuart Mill menar att statliga ingripanden är legitima endast när en individs handlingar orsakar skada för andra, för att skydda den personliga friheten på områden som inte skadar andra.
+reviewed: true

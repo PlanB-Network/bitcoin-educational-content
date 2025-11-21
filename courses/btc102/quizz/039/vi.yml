@@ -1,0 +1,9 @@
+question: Hồ sơ người dùng nào thường xuyên tích lũy bitcoin thông qua phương pháp trung bình chi phí bằng đô la?
+answer: Người xếp chồng
+wrong_answers:
+  - Người nắm giữ
+  - Người dùng đang hoạt động
+  - Người hoang tưởng
+explanation: |
+  Người xếp chồng thường xuyên mua số lượng nhỏ để tính trung bình giá mua trong thời gian dài.
+reviewed: false

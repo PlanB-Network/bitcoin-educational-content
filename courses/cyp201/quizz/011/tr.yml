@@ -1,0 +1,9 @@
+question: Bitcoin bağlamında HMAC tarafından kullanılan Hash işlevi nedir?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC, güvenli bir 512-bit Hash üretmek için SHA512 kullanır.
+reviewed: false

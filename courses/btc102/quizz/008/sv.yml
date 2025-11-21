@@ -1,0 +1,9 @@
+question: Varför är det viktigt att regelbundet uppdatera ditt system och din programvara?
+answer: För att åtgärda kända säkerhetsbrister
+wrong_answers:
+  - För att förbättra datorns hastighet och därmed kunna reagera snabbare på cyberattacker
+  - För att lägga till hackningsfunktioner
+  - För att optimera kompatibiliteten mellan videospel och Bitcoin
+explanation: |
+  Uppdateringar åtgärdar ofta kända sårbarheter som utnyttjas av hackare.
+reviewed: false

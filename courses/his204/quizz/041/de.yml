@@ -1,0 +1,8 @@
+question: Das anonym veröffentlichte Werk L'Ami des Hommes machte einen derartigen Eindruck, dass es zunächst dem Autor ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes wurde wegen seines Stils und seiner Bedeutung zunächst Montesquieu zugeschrieben, bevor man entdeckte, dass der Autor in Wirklichkeit der Marquis de Mirabeau war.

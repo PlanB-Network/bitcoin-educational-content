@@ -1,0 +1,8 @@
+question: Ni iciyumviro ikihe citwa ubuhinga bwa Montaigne?
+answer: Exchange ni umukino w'umubare wa zero
+wrong_answers:
+  - Exchange ni umukino w'umubare mwiza
+  - Bivanye n’igihe n’ahantu, Exchange rimwe na rimwe ni umukino w’umubare zero, rimwe na rimwe ni umukino w’umubare mwiza .
+  - Exchange yama ari mbi ku ruhande rugoyagoya
+explanation: |
+  Iciyumviro ca Montaigne ni iciyumviro c’uko Exchange ari umukino w’umubare zero, ni ukuvuga ivyo umwe aronka, uwundi aratakaza. Ico ciyumviro ni ikinyoma, kuko Exchange y’ubushake irafitiye akamaro bose.

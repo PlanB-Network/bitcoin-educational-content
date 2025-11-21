@@ -1,0 +1,10 @@
+question: Vad gör Lightning Network möjligt?
+answer: Att göra transaktioner mellan individer som inte har en direkt kanalanslutning.
+wrong_answers:
+  - För att skapa direkta kanalanslutningar endast med centraliserade växlar.
+  - För att skapa kanalanslutningar som kräver flera bekräftelser för varje transaktion.
+  - För att upprätta direkta kanalanslutningar som är begränsade till stora transaktioner.
+explanation: |
+  Lightning Network gör det möjligt att göra transaktioner mellan
+  individer som inte har en direkt kanalanslutning.
+reviewed: true

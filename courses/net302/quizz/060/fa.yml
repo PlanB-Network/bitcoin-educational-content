@@ -1,0 +1,9 @@
+question: آدرس لوپ‌بک IPv6، معادل 127.0.0.1 در IPv4، آدرس `::1` است.
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address حلقه بازگشت Address است که برای تست داخلی ماشین استفاده می‌شود.
+reviewed: false

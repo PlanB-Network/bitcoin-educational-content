@@ -1,0 +1,9 @@
+question: Hoeveel procent van de tijd is het Bitcoin netwerk functioneel geweest sinds de oprichting?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  De online beschikbaarheid van Bitcoin is 99,988% sinds 2009.
+reviewed: true

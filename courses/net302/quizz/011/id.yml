@@ -1,0 +1,9 @@
+question: Apa alasan utama mengapa IPv5 tidak pernah digunakan secara luas?
+answer: Itu tetap eksperimental
+wrong_answers:
+  - Penerapannya terlalu mahal
+  - Tidak kompatibel dengan IPv6
+  - Memiliki kelemahan keamanan yang besar
+explanation: |
+  IPv5 hanya diimplementasikan secara eksperimental. IPv5 tidak pernah distandarisasi atau diadopsi secara luas, dan akhirnya ditinggalkan demi IPv6.
+reviewed: false

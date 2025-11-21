@@ -1,0 +1,9 @@
+question: چه فناوری می‌تواند در صورت وجود اختلاف برای ادغام نسخه‌های مختلف Stash استفاده شود؟
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - تکثیر مبتنی بر لاگ
+explanation: |
+  ‏CRDTها با امکان ادغام چندین نسخه از Stash بدون تعارض در سمت مشتری، از سازگاری داده‌ها اطمینان حاصل می‌کنند.
+reviewed: false

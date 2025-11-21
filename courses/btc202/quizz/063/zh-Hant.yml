@@ -1,0 +1,9 @@
+question: Umbrel 上有哪兩種 Lightning Network 實作？
+answer: LND 和 Core Lightning
+wrong_answers:
+  - 電子和支點
+  - Bitcoin core 和 Bitcoin Knots
+  - Ride The Lightning 和 ThunderHub
+explanation: |
+  Umbrel 可讓您選擇 LND 和 Core Lightning 作為 Lightning Network 的實作。
+reviewed: true

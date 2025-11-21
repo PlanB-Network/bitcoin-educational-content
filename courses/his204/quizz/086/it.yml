@@ -1,0 +1,8 @@
+question: Quale idea è stata definita il sofisma di Montaigne?
+answer: Exchange è un gioco a somma zero
+wrong_answers:
+  - Exchange è un gioco a somma positiva
+  - A seconda del tempo e del luogo, il Exchange è a volte un gioco a somma zero, a volte un gioco a somma positiva
+  - Il Exchange è sempre sfavorevole al partito più debole
+explanation: |
+  La fallacia di Montaigne è l'idea che il Exchange sia un gioco a somma zero, cioè che ciò che uno guadagna, l'altro perde. Questa idea è falsa, perché il Exchange volontario è reciprocamente vantaggioso.

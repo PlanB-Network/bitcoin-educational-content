@@ -1,0 +1,8 @@
+question: Điều gì khiến các hệ thống trực tuyến như Bitcoin khác biệt cơ bản so với các hệ thống vật lý khi nói đến các mối đe dọa đối nghịch?
+answer: Các hệ thống trực tuyến phải đối mặt với những kẻ thù ẩn danh và có thể khai thác bất kỳ điểm yếu nào mà không bị phát hiện hoặc bị bắt
+wrong_answers:
+  - Các hệ thống trực tuyến có thuật toán mã hóa phức tạp hơn, khó phân tích lỗ hổng bảo mật hơn
+  - Hệ thống vật lý có thể được bảo vệ bởi cơ quan thực thi pháp luật trong khi hệ thống trực tuyến chỉ dựa vào các bằng chứng toán học
+  - Hệ thống trực tuyến xử lý giao dịch nhanh hơn, giúp kẻ thù dễ dàng thực hiện các cuộc tấn công phối hợp
+explanation: |
+  Điểm khác biệt quan trọng được Andrew Poelstra nhấn mạnh là các hệ thống vật lý có thể dựa vào việc thực thi pháp luật và khả năng hiển thị của kẻ thù để ngăn chặn các cuộc tấn công, thậm chí chấp nhận một số rủi ro như tòa nhà bị thiêu rụi. Tuy nhiên, các hệ thống trực tuyến như Bitcoin hoạt động trong một môi trường mà kẻ thù có thể hoạt động ẩn danh, kết nối từ bất kỳ đâu và khai thác các điểm yếu mà không bị phát hiện hay bắt giữ. Sự khác biệt cơ bản này đồng nghĩa với việc tất cả các điểm yếu đã biết trong Bitcoin phải được giải quyết, vì chúng chắc chắn sẽ bị khai thác bởi những kẻ thù vô hình, những kẻ không phải chịu bất kỳ hậu quả nào trong thế giới thực.

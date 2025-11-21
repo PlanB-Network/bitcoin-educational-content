@@ -1,0 +1,9 @@
+question: Vad är storleken på en rå privat nyckel som används på Bitcoin?
+answer: 256 bitar
+wrong_answers:
+  - 128 bitar
+  - 512 bitar
+  - 1024 bitar
+explanation: |
+  En privat nyckel i Bitcoin är ett 256-bitars slumpmässigt heltal, vilket ger ett nyckelutrymme som är tillräckligt stort för att garantera säkerheten.
+reviewed: false

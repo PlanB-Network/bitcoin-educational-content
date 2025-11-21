@@ -1,12 +1,9 @@
-question: Quelles sont les entités responsables de l'émission des monnaies fiduciaires ?
-answer: Banques centrales.
+question: Quel est le résultat potentiel d'une dépréciation soudaine ou d'une perte de confiance dans une monnaie fiduciaire ?
+answer: Hyperinflation.
 wrong_answers:
-  - Banques commerciales.
-  - Gouvernements.
-  - Institutions privées.
+  - Déflation.
+  - Une économie stable.
+  - Une augmentation de la valeur de la monnaie.
 explanation: |
-  Les banques centrales sont les entités responsables de l'émission d'une
-  monnaie fiduciaire. Elles décident de la politique monétaire et
-  déterminent la quantité d'argent qui doit être mise en circulation ou
-  imprimée.
+  Une dévaluation soudaine ou une perte de confiance dans une monnaie fiduciaire peut conduire à l'hyperinflation. Il s'agit d'une situation où les prix des biens et services augmentent à un taux extrêmement élevé, menant souvent à une instabilité économique.
 reviewed: true

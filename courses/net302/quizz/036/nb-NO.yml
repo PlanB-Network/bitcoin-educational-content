@@ -1,0 +1,9 @@
+question: Hvorfor ble overgangen til IPv6 nødvendig?
+answer: IPv4 Address-utmattelse
+wrong_answers:
+  - Feil i NAT-protokollen på IPv4
+  - Inkompatibilitet med subnettmasker
+  - Slutt på DHCP-støtte
+explanation: |
+  Da IPv4-adressene var oppbrukt, gikk man over til IPv6, som gir et mye større Address-område.
+reviewed: false

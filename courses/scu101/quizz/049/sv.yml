@@ -1,0 +1,9 @@
+question: Varför anses SMS inte vara det bästa alternativet för 2FA?
+answer: Denna metod är sårbar för attacker som SIM-bytesbedrägeriet.
+wrong_answers:
+  - Det går för långsamt och är för dyrt, ett telefonsamtal är mer effektivt.
+  - Det ger endast bevis på innehav av ett telefonnummer.
+  - Det är för komplicerat att sätta upp på en teknisk nivå.
+explanation: |
+  SMS anses inte vara det bästa alternativet för 2FA eftersom det är en 2FA-metod som är sårbar för attacker, som SIM-swap-bedrägeriet. När dessa sårbarheter har utnyttjats framgångsrikt förstörs allt skydd som ges av den extra Layer för 2FA-autentisering.
+reviewed: true

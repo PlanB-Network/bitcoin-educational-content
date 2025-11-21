@@ -1,0 +1,9 @@
+question: Node yo kohereza ikora iki iyo inzira yo kwishura inaniwe kubera amahera adahagije?
+answer: Igerageza iyindi nzira gushika ibonye iyindi ikora .
+wrong_answers:
+  - Ihita yohereza ubusabe bwo gusubizwa amahera ku wayakiriye
+  - Ifunga umurongo maze irema umurongo mushasha utaziguye
+  - Isaba ama node y'ubuhuza kwongera amafaranga yabo .
+explanation: |
+  Iyo inzira inaniwe, urudodo rwohereje ruragerageza izindi nzira zindi gushika inzira ikora ibonetse, canke amahitamwo yose arangiye.
+reviewed: false

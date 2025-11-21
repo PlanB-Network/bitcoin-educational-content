@@ -1,0 +1,9 @@
+question: Apa peran utama sistem operasi?
+answer: Perantara antara perangkat keras, pengguna, dan aplikasi
+wrong_answers:
+  - Antivirus terintegrasi
+  - Perangkat lunak grafis
+  - Server pesan instan
+explanation: |
+  Sistem operasi bertindak sebagai perangkat lunak pusat Layer yang memungkinkan aplikasi dan pengguna mengakses dan mengontrol perangkat keras.
+reviewed: false

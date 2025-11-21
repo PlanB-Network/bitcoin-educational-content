@@ -1,0 +1,9 @@
+question: Ni ubuhe bwihenda bw’ubutunzi Bastiat yaneguye, buzosubira kugaragara mu kinjana ca 20?
+answer: Ko Leta ishobora kurema akazi .
+wrong_answers:
+  - Ko isoko rikeneye Leta .
+  - Ko isoko rishobora kwigenzura .
+  - Ko amashirahamwe ashobora kurema ubutunzi ata mategeko .
+explanation: |
+  Bastiat yaneguye iciyumviro c’uko Leta ishobora kurema akazi ataco ikoze ku yindi mirimo kubera ingaruka z’imisoro ikenewe kugira ngo ivyo biremwa bishobore gufashwa.
+reviewed: false

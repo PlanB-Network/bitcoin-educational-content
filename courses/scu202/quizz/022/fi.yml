@@ -1,0 +1,9 @@
+question: Mikä jakelu käyttää oletuksena Cinnamon-työpöytäympäristöä?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Linux Mint -tiimi kehitti Cinnamon-ohjelman tarjoamaan modernin, klassisen Interface:n, joka on lähellä Windowsia.
+reviewed: false

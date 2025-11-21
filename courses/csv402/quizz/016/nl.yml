@@ -1,0 +1,9 @@
+question: Wat zijn de twee belangrijkste onderdelen van een slimme Contract State in RGB?
+answer: Global State en eigen staten
+wrong_answers:
+  - Commitment en Genesis
+  - Seal Definition en State Transition
+  - Valency en Contract Rights
+explanation: |
+  De Global State bevat openbare gegevens, terwijl staten die eigendom zijn via UTXO's geassocieerd zijn met specifieke houders.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: 護照 - 基金會
+name: Passport Core
 description: 在手动模式下配置和使用 Passport Hardware Wallet
 ---
 ![cover](assets/cover.webp)
@@ -10,6 +10,7 @@ Passport 是僅限 Bitcoin 的 Hardware Wallet，由 2020 年 4 月在波士頓�
 
 本教學中介紹的 Passport "*Batch 2*「 是 」*Founder's Edition*" 的後繼機種。它以其優質的設計、高解析度彩色螢幕和符合人體工學的實體鍵盤脫穎而出。它以 "*Air-Gap*"模式運作，可確保 Wallet 的私密金鑰完全隔離，並可透過 MicroSD 卡或 QR 代碼進行通訊。本裝置配備可拆卸、可充電的諾基亞 BL-5C 電池，容量為 1200 mAh。由於 BL-5C 型號可在商店中廣泛買到，因此可輕鬆更換此非專屬電池。
 
+💡 **更新：** 自2025年3月起，此硬體錢包不再稱為「Passport」或「Passport V2」，而是「Passport Core」。
 
 連線方面，Passport 配備 MicroSD 連接埠、用於充電的 USB-C 連接埠，以及用於掃描 QR 碼的後置攝影機。
 
@@ -29,7 +30,7 @@ Passport 定價 199 美元，定位為高階 Hardware Wallet，與 Coldcard Q、
 如果您是初學者，最簡單的方法是使用由 Foundation 開發的原生 Envoy 應用程式來使用 Passport。若要瞭解如何在 Passport 上使用 Envoy，請參閱其他教學：
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## 護照開箱
 
@@ -200,7 +201,7 @@ https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf
 在您的裝置上安裝之前，我們強烈建議您檢查下載韌體的真實性和完整性。如果您在這方面需要幫助，請參閱本教程 ：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 檢查`.bin`檔案後，將它放在您的 MicroSD 上，然後將它插入 Passport。Passport 檔案總管將會開啟。選取檔案 `vN.N.N-passport.bin`。
 
@@ -298,9 +299,9 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 如需更多關於儲存和管理 Mnemonic 詞組的正確方法的資訊，我強烈建議您參考這篇教學，尤其是對於初學者而言：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**_
+當然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
 
 
 為這句話做一份實體備份。
@@ -376,7 +377,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ![Image](assets/fr/42.webp)
 
 
-裝置*」子功能表提供您自訂螢幕亮度、設定自動鎖定前的延遲、變更 PIN 碼或重新命名裝置等選項。
+裝置」子功能表提供您自訂螢幕亮度、設定自動鎖定前的延遲、變更 PIN 碼或重新命名裝置等選項。
 
 
 ![Image](assets/fr/43.webp)
@@ -427,7 +428,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在您的 Passport 上設定此選項之前，強烈建議您閱讀這篇文章，以充分瞭解 passphrase 的理論操作，並避免可能導致您遺失比特幣的錯誤：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 若要啟動它，請移至「*更多*」功能表，然後按一下「*進入 passphrase*」。
 
@@ -444,7 +445,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 請注意，BIP39 密碼對大小寫和錯字都很敏感。如果您輸入的 passphrase 與最初設定的略有不同，Passport 將不會報錯，但會衍生出另一套密碼金鑰，而這些密碼金鑰與您最初 Wallet 中的密碼金鑰不同。
 
 
-因此，在設定時，記下下一步會給您的主密鑰指紋是很重要的。例如，在我的 passphrase `Plan B Network` 中，我的主密鑰指紋是 `745D526B`。
+因此，在設定時，記下下一步會給您的主密鑰指紋是很重要的。例如，在我的 passphrase `Plan ₿ Academy` 中，我的主密鑰指紋是 `745D526B`。
 
 
 ![Image](assets/fr/52.webp)
@@ -459,7 +460,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 在您的 Wallet 上收到您的第一個 bitcoins 之前，**我強烈建議您執行一個空的恢復測試**。記下一些參考資訊，例如您的 xpub 或第一次收到的 Address，然後在 Passport 上刪除您的 Wallet，而它仍然是空的（`設置 -> 進階 -> 刪除 Passport`）。然後嘗試使用您的 Mnemonic 短語和任何 passphrase 的紙張備份還原您的 Wallet。檢查還原後生成的 cookie 資訊是否與您最初寫下的相符。如果相符，您就可以放心，您的紙本備份是可靠的。要瞭解有關如何進行測試復原的更多資訊，請參閱此其他教程 ：
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -479,7 +480,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 安裝前請務必檢查軟體的真實性和完整性。如果您不知道如何操作，請參閱本教程：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 開啟 Sparrow Wallet 後，按一下「*檔案*」標籤，然後按一下「*新增 Wallet*」。
 
@@ -709,4 +710,4 @@ Sparrow 會在您的 Wallet 中顯示第一張空白收據 Address。您可以�
 如需詳細資訊，請參閱我們的 Liana 軟體教學：
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

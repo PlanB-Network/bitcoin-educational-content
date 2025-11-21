@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil eines VPNs?
+answer: Verschlüsselung des Internetverkehrs
+wrong_answers:
+  - Beschleunigen Sie Ihre Internetverbindung
+  - Erhöhung der Speicherkapazität
+  - Integriertes Antivirusprogramm
+explanation: |
+  Ein VPN schafft einen sicheren Tunnel und verschlüsselt den Datenaustausch zwischen Ihrem Gerät und einem Vermittlungsserver, wodurch die Vertraulichkeit verstärkt wird.
+reviewed: false

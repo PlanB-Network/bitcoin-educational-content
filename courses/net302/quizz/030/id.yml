@@ -1,0 +1,9 @@
+question: Protokol mana yang secara dinamis menetapkan IP Address ke perangkat?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  Protokol DHCP secara otomatis memberikan alamat IP ke perangkat pada jaringan, sehingga menyederhanakan manajemen Address.
+reviewed: false

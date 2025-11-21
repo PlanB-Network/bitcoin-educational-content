@@ -1,0 +1,12 @@
+question: Güvene dayalı bir para biriminde ani bir değer kaybı veya güven kaybının potansiyel sonucu nedir?
+answer: Hiperenflasyon.
+wrong_answers:
+  - Deflasyon.
+  - İstikrarlı bir ekonomi.
+  - Para biriminin değerinde bir artış.
+explanation: |
+  Ani bir değer kaybı ya da güvene dayalı bir kuruluşa duyulan güvenin azalması
+  para birimi hiperenflasyona yol açabilir. Bu bir durumdur
+  mal ve hizmet fiyatlarının yüksek bir oranda arttığı
+  son derece yüksektir ve genellikle ekonomik istikrarsızlığa yol açmaktadır.
+reviewed: true

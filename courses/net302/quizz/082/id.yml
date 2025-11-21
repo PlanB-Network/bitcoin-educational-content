@@ -1,0 +1,9 @@
+question: Alat modern apa yang menggantikan arp pada distribusi Linux terbaru?
+answer: ip tetangga
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - rute
+explanation: |
+  ip neigh, dari paket iproute2, menggantikan arp untuk mengelola asosiasi IP/MAC pada Linux modern.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir kredi kartı işlemi tipik olarak basit bir nakit işleminden nasıl farklıdır?
+answer: Birden fazla aracı içerir
+wrong_answers:
+  - Hiçbir aracı müdahalesi olmadan anında gerçekleşir
+  - Sadece fiziksel Exchange para birimi gerektirir
+  - Her iki tarafın da aynı malları üretmesini zorunlu kılar
+explanation: |
+  Anında takas edilen nakit paranın aksine, kredi kartı işlemleri bankalar, kart ağları ve takas süreçlerini içeren bir dizi adımdan geçerek gecikmelere ve ekstra maliyetlere neden olur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Thiết bị nào được khuyến nghị để bảo đảm tiền tích lũy lâu dài?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Tia sét Wallet
+  - Nền tảng Exchange
+explanation: |
+  Hardware Wallet lưu trữ khóa riêng ngoại tuyến, cung cấp khả năng bảo mật nâng cao cho số lượng lớn dữ liệu trong thời gian dài.
+reviewed: false

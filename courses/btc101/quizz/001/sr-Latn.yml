@@ -1,8 +1,9 @@
-question: Kada se dogodio block size war?
-answer: U 2017.
+question: Zašto plaćamo naknade u Bitkoinu?
+answer: Da se stvori slobodno tržište za uključivanje transakcija u blokove.
 wrong_answers:
-  - U 2008.
-  - U 2010.
-  - U 2019.
-explanation: >-
+  - Da uvedemo kako da se kopa Bitkoin.
+  - Da bogati ljudi plaćaju više.
+  - Da isključe vlade iz mreže.
+explanation: |
+  Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Zapravo, blok ima veličinu od 1 MB (što je prošireno na 4 MB nakon SegWit ažuriranja), tako da je broj transakcija koje mogu biti "ubačene" u blok ograničen na nekoliko hiljada transakcija po bloku.
 reviewed: true

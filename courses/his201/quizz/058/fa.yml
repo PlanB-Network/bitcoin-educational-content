@@ -1,0 +1,9 @@
+question: نرخ Hash شبکه در نیمه دوم سال 2010 در کدام واحد اندازه‌گیری شده است؟
+answer: در GH/s
+wrong_answers:
+  - در MH/s
+  - در TH/s
+  - در PH/s
+explanation: |
+  نرخ Hash از 1.35 GH/s در 13 ژوئیه به 120 GH/s در 31 دسامبر 2010 افزایش یافت.
+reviewed: false

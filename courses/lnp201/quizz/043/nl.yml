@@ -1,0 +1,9 @@
+question: Welke informatie kan Bob opnemen in een Invoice om de routering te vergemakkelijken?
+answer: Nabijgelegen kanalen met voldoende liquiditeit of het bestaan van particuliere kanalen
+wrong_answers:
+  - De privésleutel van tussenliggende knooppunten
+  - De volledige kaart van alle kanalen van het netwerk
+  - De exacte hoeveelheid beschikbare liquiditeit voor elk kanaal
+explanation: |
+  Door nabijgelegen kanalen met liquiditeit aan te geven of privékanalen te onthullen, helpt Bob Alice om routes te kiezen met een grotere kans op succes.
+reviewed: false

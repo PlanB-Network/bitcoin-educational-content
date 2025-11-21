@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bubiri bwo gusahura Bastiat adondora?
+answer: Ugusahura bitegekanijwe n'amategeko n'ugusahura bitemewe n'amategeko .
+wrong_answers:
+  - Gusahura mu vy’inyifato runtu no mu vy’ubusambanyi .
+  - Ugusahura imbere n'ugusahura hanze .
+  - Gusahura ibintu no gusahura ibikorwa .
+explanation: |
+  Bastiat atandukanya ubusahu butegekanijwe n’amategeko, busobanurwa n’amategeko kandi akenshi bukoreshwa na Leta (nk’imisoro), n’ubusahu butemewe n’amategeko, bushika hanze y’amategeko, nk’ubusuma canke gutera.
+reviewed: true

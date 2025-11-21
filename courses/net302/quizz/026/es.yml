@@ -1,0 +1,9 @@
+question: ¿Qué unidad de datos se utiliza en Internet Layer del modelo TCP/IP?
+answer: Datagrama
+wrong_answers:
+  - Segmento
+  - Marco
+  - Mensaje
+explanation: |
+  El Layer de Internet manipula datagramas, encapsulando segmentos del Layer de Transporte.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on datagrammi IP-protokollan yhteydessä?
+answer: Itsenäinen tietolohko, joka siirretään verkon kautta
+wrong_answers:
+  - Salattu viesti, joka on tarkoitettu yhdelle laitteelle
+  - UDP:hen kapseloitu TCP-segmentti
+  - Fyysinen signaali verkkoyhteys Layer:lta
+explanation: |
+  IP-data lähetetään datagrammeina, jotka ovat itsenäisiä lohkoja, jotka sisältävät kaikki toimitukseen tarvittavat tiedot.
+reviewed: false

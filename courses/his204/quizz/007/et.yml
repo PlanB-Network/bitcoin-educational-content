@@ -1,0 +1,8 @@
+question: Miks kirjeldatakse Ancien Régime'i maksusüsteemi kui "pärssivat"?
+answer: Sest vaevalt rikastunud mees võib leida end järgmisel aastal kaks korda maksustatuna
+wrong_answers:
+  - Kuna selle keerukus takistas maksuametnikel maksude kogumist
+  - Kuna selle leebus takistas prantslasi välismaale põgenemast
+  - Sest see oli liiga lihtne ja ettearvatav
+explanation: |
+  Ancien Régime'i aegne maksustamine oli sageli meelevaldne ja ettearvamatu. Selgete eeskirjade puudumine ja võimalus saada ülemaksustatud, pärssis investeeringuid ja rikastumist, sest tulu võis maksustamise teel konfiskeerida.

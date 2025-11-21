@@ -17,4 +17,4 @@ V kontextu Bitcoinu se hashovací funkce používají k několika účelům, vč
 - `SHA512` v rámci algoritmů `HMAC` a `PBKDF2` používaných při odvozování deterministických a hierarchických peněženek;
 - `HASH160`, který popisuje postupné použití `SHA256` a `RIPEMD160`. `HASH160` se používá v procesu generování přijímacích adres (kromě P2PK a P2TR) a při výpočtu otisků nadřazených klíčů pro rozšířené klíče.
 
-> ► V angličtině se označuje jako "hash function".*
+> ► V angličtině se označuje jako "hash function".

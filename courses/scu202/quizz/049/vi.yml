@@ -1,0 +1,9 @@
+question: Quy tắc sao lưu được khuyến nghị để đảm bảo khả năng phục hồi dữ liệu của bạn trong trường hợp xảy ra thảm họa là gì?
+answer: Có 3 bản sao, trên 2 phương tiện truyền thông khác nhau, bao gồm 1 bản sao ngoài trang web
+wrong_answers:
+  - 10 bản sao, trên 5 phương tiện truyền thông khác nhau, bao gồm 3 bản sao ngoài trang web
+  - 2 bản sao, trên 2 phương tiện truyền thông khác nhau, 2 trong số đó ở ngoài trang web
+  - 4 bản sao, trên 4 phương tiện truyền thông khác nhau, bao gồm 2 bản sao ngoài trang web
+explanation: |
+  Quy tắc 3-2-1 bao gồm việc lưu giữ ba bản sao dữ liệu của bạn trên ít nhất hai phương tiện khác nhau, bao gồm một phương tiện lưu trữ ngoài, để bảo vệ dữ liệu khỏi bị mất, trộm cắp hoặc hỏng.
+reviewed: false

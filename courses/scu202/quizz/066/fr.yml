@@ -1,0 +1,9 @@
+question: Quelle donnée locale permet aux publicitaires de suivre vos habitudes de navigation sur plusieurs sites ?
+answer: Les cookies tiers
+wrong_answers:
+  - Le code JavaScript
+  - L’historique local
+  - Le certificat SSL
+explanation: |
+  Les cookies tiers, placés par des régies externes, servent à suivre l’activité de l’utilisateur sur différents sites et à établir un profil publicitaire.
+reviewed: false

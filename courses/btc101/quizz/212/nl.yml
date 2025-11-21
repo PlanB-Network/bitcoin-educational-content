@@ -1,0 +1,10 @@
+question: Wat suggereert deze cursus over de toekomst van Bitcoin?
+answer: Het zal niet verdwijnen.
+wrong_answers:
+  - Het zal worden vervangen door een betere technologie.
+  - Het zal wereldwijd verboden worden.
+  - Het zal zijn waarde verliezen.
+explanation: |
+  De cursustekst suggereert dat Bitcoin niet zal
+  verdwijnt. Integendeel, de revolutie is net begonnen.
+reviewed: true

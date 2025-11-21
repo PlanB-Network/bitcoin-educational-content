@@ -1,11 +1,9 @@
-question: Hva er frekvensen for justering av vanskelighetsgraden?
-answer: Hver 2016 blokker
+question: Hvor er bitcoins faktisk lagret?
+answer: I Bitcoin-blockchainen
 wrong_answers:
-  - Hver 1048 blokker
-  - Hver 512 blokker
-  - Hver 4032 blokker
+  - I Bitcoin-lommeboken
+  - På enheten hvor lommeboken er installert
+  - I den føderale reserven
 explanation: |
-  Justeringen av vanskelighetsgraden er en mekanisme som finner sted hver
-  2016 blokker, eller omtrent hver to uker, for å sikre at, i gjennomsnitt, en ny blokk blir lagt
-  til blokkjeden hvert tiende minutt uavhengig av den globale hashraten
-reviewed: sant
+  Selv om dine private nøkler er lagret i lommeboken din, er bitcoinsene selv faktisk lagret i Bitcoin-blockchainen, som er det offentlige distribuerte hovedboken innenfor Bitcoin peer-to-peer-nettverket.
+reviewed: true

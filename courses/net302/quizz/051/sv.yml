@@ -1,0 +1,9 @@
+question: Vilken mekanism gör det möjligt att få extern åtkomst till en intern tjänst via NAT?
+answer: Vidarebefordran av portar
+wrong_answers:
+  - Fragmentering av paket
+  - RIP-routning
+  - NAT-komprimering
+explanation: |
+  Vidarebefordran av portar gör att en extern anslutning kan vidarebefordras till en specifik intern värd via NAT-gatewayen.
+reviewed: false

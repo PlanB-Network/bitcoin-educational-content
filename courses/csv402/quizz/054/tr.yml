@@ -1,0 +1,9 @@
+question: RGB ekosisteminde RGBlib nedir?
+answer: RGB varlıklarını yöneten uygulamalar oluşturmak için bir kütüphane
+wrong_answers:
+  - RGB varlık yönetimine adanmış bir Android Wallet
+  - RGB protokolü için alternatif bir istemci
+  - RGB NFT'leri görüntülemek için bir web sitesi
+explanation: |
+  RGBlib, geliştiriciler için basitleştirilmiş bir Interface sunarak, tüm teknik ayrıntılara hakim olmak zorunda kalmadan RGB varlıklarının emisyonunu, aktarımını ve doğrulamasını yönetmelerini sağlar.
+reviewed: false

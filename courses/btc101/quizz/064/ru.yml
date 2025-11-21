@@ -1,9 +1,10 @@
-question: Какая команда используется для проверки количества биткойнов в обращении на узле Bitcoin?
-answer: bitcoin-cli gettxoutsetinfo
+question: В каком году произойдет 7-е сокращение награды за блок?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo
-  - bitcoin-cli getwalletinfo
-  - bitcoin-cli getnetworkinfo
-explanation: |
-  Команда для проверки количества биткойнов в обращении на узле Bitcoin - это bitcoin-cli gettxoutsetinfo. Эта команда обеспечивает прозрачность и возможность проверки, укрепляя доверие к системе Bitcoin.
+  - 2032
+  - 2028
+  - 2048
+explanation:
+  7-е сокращение награды за блок должно произойти в 2036 году, и ожидается, что количество биткоинов в обороте составит 20 835 937,5 btc, или 99,22% от общего предложения.
+  биткоинов в обороте.
 reviewed: true

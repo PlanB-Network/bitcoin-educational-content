@@ -1,0 +1,12 @@
+question: Wat is het doel van KYC-regelgeving?
+answer: Terrorismefinanciering, belastingontduiking en witwassen bestrijden.
+wrong_answers:
+  - Om de prijs van Bitcoin te verhogen en de gebruiker meer belasting te laten betalen.
+  - Om de Supply van Bitcoin te controleren.
+  - Om te voorkomen dat mensen Bitcoin kopen.
+explanation: |
+  De cursustekst legt uit dat de KYC-regelgeving (Know Your Customer)
+  regelgeving vereist dat gebruikers zich identificeren om
+  financiering van terrorisme, belastingontduiking en het
+  witwassen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 哪項 TCP 功能可透過調整未立即確認而傳送的片段數量來優化吞吐量？
+answer: 滑動視窗
+wrong_answers:
+  - 動態分割
+  - 封包交換
+  - 靜態路由
+explanation: |
+  滑動視窗」允許連續傳送數個區段，然後在每次確認時移動範圍，以最佳化流量。
+reviewed: false

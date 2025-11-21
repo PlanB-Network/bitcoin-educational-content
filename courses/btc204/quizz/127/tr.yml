@@ -1,0 +1,10 @@
+question: Coinwaps ve atomik swapların gizlilik açısından en büyük dezavantajı nedir?
+answer: Değiş tokuş edilen madeni paraların tarihini bozmazlar
+wrong_answers:
+  - İşlem ücretleri açısından çok maliyetlidirler
+  - Taraflar arasında kişisel bilgilerin Exchange'ını gerektirirler
+  - Exchange platformları tarafından analize tabi tutulabilirler
+explanation: |
+  Bu yöntemlerin temel dezavantajı, Coin'nin geçmişini kırmak için ek bir teknik kullanmadan çok riskli olmalarıdır.
+  
+reviewed: false

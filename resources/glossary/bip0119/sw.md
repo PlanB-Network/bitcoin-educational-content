@@ -1,0 +1,5 @@
+---
+term: BIP0119
+---
+
+Inatanguliza msimbo mpya unaoitwa `OP_CHECKTEMPLATEVERIFY` (CTV). CTV ingeruhusu kuundwa kwa maagano yasiyojirudia katika miamala, ili kuweka masharti mahususi kuhusu jinsi sarafu fulani inaweza kutumika, ikiwa ni pamoja na katika miamala ya siku zijazo. Kwa uthabiti zaidi, ingewezesha ufafanuzi wa masharti kwenye `scriptPubKey` ya matokeo ya muamala kulingana na `scriptPubKey` ya UTXO iliyotumika kama ingizo. CheckTemplateVerify imeundwa kuwa rahisi na bila hali inayobadilika. Utekelezaji wake unalenga kupanua uwezo wa uandishi wa Bitcoin ili kuwezesha programu mbalimbali kama vile udhibiti wa msongamano wa miamala, uundaji wa njia za malipo zisizoingiliana, DLC, njia za malipo... Opcode hii mpya italetwa kama mbadala wa `OP_NOP4`. Mabadiliko haya yangemaanisha Soft Fork.

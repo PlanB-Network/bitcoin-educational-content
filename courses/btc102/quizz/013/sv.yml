@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan trading och investering?
+answer: Trading är kortsiktigt och spekulativt, medan investeringar är långsiktiga och strategiska
+wrong_answers:
+  - Trading innebär fasta avgifter, investering innebär rörliga avgifter
+  - Handeln baseras på fundamental analys, investeringarna på makrotrender
+  - Trading är mindre riskfyllt än att investera
+explanation: |
+  Trading kräver ständig övervakning och tekniska färdigheter, medan investeringar bygger på en långsiktig vision.
+reviewed: false

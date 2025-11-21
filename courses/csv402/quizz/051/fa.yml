@@ -1,0 +1,9 @@
+question: Seal Definition در زمینه RGB Assignment چیست؟
+answer: ارجاع به UTXO که Ownership از یک Owned State را تعیین می‌کند
+wrong_answers:
+  - دسته‌بندی داده‌های مبادله شده بین طرفین، مشمول Client-side Validation
+  - کامپایل قراردادها در کد اجرایی off-chain
+  - شاخه DAG از تاریخچه State Transition
+explanation: |
+  "Seal Definition" یک UTXO را به بخش خاصی از Contract State متصل می‌کند و تخصیص صحیح یک حق یا دارایی را تضمین می‌کند.
+reviewed: false

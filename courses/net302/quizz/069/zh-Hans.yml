@@ -1,0 +1,9 @@
+question: 本地网络 IPv6 Address 中使用的网络前缀的典型大小是多少？
+answer: 64 位
+wrong_answers:
+  - 32 位
+  - 48 位
+  - 8 位
+explanation: |
+  IPv6 Address 的前 64 位通常留给子网前缀。
+reviewed: false

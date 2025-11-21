@@ -1,0 +1,8 @@
+question: Miksi häntä kutsuttiin Dupont de Nemoursiksi, vaikka hän oli syntyjään Pierre-Samuel Du Pont?
+answer: Erottaakseen hänet muista vuoden 1789 edustajakokouksen Duponteista
+wrong_answers:
+  - Hän on syntyperältään jalo
+  - Hän avioitui kreivitär de Nemoursin kanssa
+  - Se oli kirjoitusnimi
+explanation: |
+  "de Nemours" lisättiin Pierre-Samuel Dupontin nimeen, jotta hänet voitiin erottaa muista Duponteista, jotka kuuluivat Assemblée Constitanteen vuonna 1789.

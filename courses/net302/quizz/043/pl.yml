@@ -1,0 +1,9 @@
+question: Jakie oprogramowanie open-source jest powszechnie używane jako odniesienie dla serwerów DNS?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Kałamarnica
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) to referencyjna implementacja open-source używana przez większość serwerów DNS na całym świecie.
+reviewed: false

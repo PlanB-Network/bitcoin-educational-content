@@ -1,0 +1,9 @@
+question: Welk besturingssysteem domineert de huidige pc-markt?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows heeft een marktaandeel van 71% op pc's, dankzij de standaardinstallatie en het uitgebreide software-ecosysteem.
+reviewed: false

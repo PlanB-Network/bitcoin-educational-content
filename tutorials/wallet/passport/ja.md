@@ -1,5 +1,5 @@
 ---
-name: パスポート - ファンデーション
+name: Passport Core
 description: 手動モードでのパスポートハードウェアウォレットの設定と使用
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: 手動モードでのパスポートハードウェアウォレッ�
 Passportはビットコイン専用のハードウェアウォレットで、2020年4月にボストンで設立されたアメリカのFoundation Devices社が設計した。
 
 このチュートリアルで紹介する Passport "*Batch 2*" は、"*Founder's Edition*" の後継機です。プレミアムデザイン、高解像度のカラーディスプレイ、そしてエルゴノミクスに優れた物理キーボードが特徴です。"*Air-Gap*" モードで動作し、ウォレットの秘密鍵を完全に隔離し、MicroSD カードまたは QR コードを介してデータのやり取りが可能です。デバイスには 1200mAh の取り外し可能な充電式 Nokia BL-5C バッテリーが搭載されています。この非専用バッテリーは、市販されている BL-5C モデルを使用して簡単に交換できます。
+
+💡 **更新情報：** 2025年3月以降、このハードウェアウォレットの名称は「Passport」または「Passport V2」ではなく、「Passport Core」となりました。
 
 接続性に関しては、パスポートはMicroSDポート、充電用のUSB-Cポート、QRコードをスキャンするためのリアカメラを備えている。
 
@@ -20,7 +22,7 @@ Passportでセキュアウォレットを管理するには、いくつかのオ
 
 初心者の方は、Foundationが開発したネイティブアプリケーションEnvoyを使ってパスポートを使うのが一番簡単です。パスポートでEnvoyを使う方法については、こちらのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## パスポートの開封
 
@@ -139,13 +141,13 @@ PINコードが登録されました。
 
 お使いのデバイスにインストールする前に、ダウンロードしたファームウェアの信頼性と完全性を確認することを強くお勧めします。チュートリアルをご参照ください：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 .bin`ファイルを確認したら、MicroSDに入れ、パスポートに挿入します。パスポートのファイルエクスプローラーが開きます。vN.N.N-passport.bin`ファイルを選択します。
 
 ![Image](assets/fr/22.webp)
 
-選択*」をクリックする。
+選択」をクリックする。
 
 ![Image](assets/fr/23.webp)
 
@@ -205,9 +207,9 @@ MicroSDが挿入されている場合、ポートフォリオの暗号化され�
 
 ニモニックフレーズの保存と管理の適切な方法については、特に初心者の方には、この他のチュートリアルをご覧になることを強くお勧めします：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-もちろん、このチュートリアルで私がしているように、これらの言葉をインターネット上で共有してはいけません。このサンプル・ポートフォリオはTestnet上でのみ使用され、チュートリアルが終了した時点で削除されます**_。
+もちろん、このチュートリアルで私がしているように、これらの言葉をインターネット上で共有してはいけません。このサンプル・ポートフォリオはTestnet上でのみ使用され、チュートリアルが終了した時点で削除されます。
 
 この文章を物理的にバックアップしておく。
 
@@ -238,13 +240,13 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/38.webp)
 
-アカウント管理*」のサブメニューでは、ビットコインウォレットをウォレット管理ソフトウェア（このチュートリアルの次のステップで説明します）に接続したり、アカウントを表示したり名前を変更したりできます。
+アカウント管理」のサブメニューでは、ビットコインウォレットをウォレット管理ソフトウェア（このチュートリアルの次のステップで説明します）に接続したり、アカウントを表示したり名前を変更したりできます。
 
 ![Image](assets/fr/39.webp)
 
 ### もっと見る "メニュー
 
-More*」メニューでは、同じニーモニック・フレーズにリンクした新しいアカウントをポートフォリオに作成することができます。
+**More**」メニューでは、同じニーモニック・フレーズにリンクした新しいアカウントをポートフォリオに作成することができます。
 
 ![Image](assets/fr/40.webp)
 
@@ -262,7 +264,7 @@ Device*"サブメニューでは、画面の明るさのカスタマイズ、オ
 
 ![Image](assets/fr/43.webp)
 
-バックアップ*」サブメニューでは、暗号化されたポートフォリオのバックアップをエクスポートしたり、既存のバックアップの有効性をチェックしたり、「*バックアップコード*」を再度検索したりすることができます。
+バックアップ」サブメニューでは、暗号化されたポートフォリオのバックアップをエクスポートしたり、既存のバックアップの有効性をチェックしたり、「*バックアップコード*」を再度検索したりすることができます。
 
 ![Image](assets/fr/44.webp)
 
@@ -292,7 +294,7 @@ Advanced*」では、ニーモニックフレーズの単語を表示したり�
 
 パスポートにこのオプションを設定する前に、この記事を読んでパスフレーズの理論的な動作を完全に理解し、ビットコインの損失につながるエラーを避けることを強くお勧めします：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 この機能を有効にするには、「*More*」メニューから「*Enter Passphrase*」をクリックします。
 
@@ -304,7 +306,7 @@ aA1キーパッドを使用してパスフレーズを入力し、必ず物理�
 
 BIP39 パスフレーズは大文字と小文字を区別します。最初に設定したパスフレーズとわずかに異なるパスフレーズを入力した場合、Passportはエラーを報告しませんが、最初のウォレットにはない別の暗号鍵セットを導き出します。
 
-したがって、設定する際には、次のステップで与えられるマスターキーのフィンガープリントをどこかにメモしておくことが重要である。例えば、私のパスフレーズが `Plan B Network` の場合、マスターキーのフィンガープリントは `745D526B` です。
+したがって、設定する際には、次のステップで与えられるマスターキーのフィンガープリントをどこかにメモしておくことが重要である。例えば、私のパスフレーズが `Plan ₿ Academy` の場合、マスターキーのフィンガープリントは `745D526B` です。
 
 ![Image](assets/fr/52.webp)
 
@@ -314,7 +316,7 @@ BIP39 パスフレーズは大文字と小文字を区別します。最初に�
 
 ウォレットで最初のビットコインを受け取る前に、**空のリカバリーテスト**を行うことを強くお勧めします。xpubや最初の受け取りアドレスなど、いくつかの参照情報をメモしておき、まだ空の状態でパスポート上のウォレットを削除します（`設定 -> 詳細 -> パスポートを消去`）。その後、ニーモニックフレーズと任意のパスフレーズの紙のバックアップを使用してウォレットを復元してみてください。復元後に生成されたクッキー情報が、最初にメモしたものと一致しているか確認してください。一致していれば、紙のバックアップが信頼できるものであることが確認できます。テスト・リストアの実施方法の詳細については、こちらのチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -328,7 +330,7 @@ Sparrow Wallet [公式ウェブサイトから](https://sparrowwallet.com/)を�
 
 インストール前に必ずソフトウェアの信頼性と完全性を確認してください。その方法がわからない場合は、こちらのチュートリアルを参考にしてください：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow Walletを開いたら、"*File*"タブをクリックし、"*New Wallet*"をクリックしてください。
 
@@ -338,7 +340,7 @@ Sparrow Walletを開いたら、"*File*"タブをクリックし、"*New Wallet*
 
 ![Image](assets/fr/56.webp)
 
-Airgapped Hardware Wallet*」を選択します。
+Airgapped Hardware Wallet」を選択します。
 
 ![Image](assets/fr/57.webp)
 
@@ -366,7 +368,7 @@ QRコード*」オプションを選択します。
 
 ![Image](assets/fr/63.webp)
 
-これで、あなたのxpubとマスターキーの指紋が表示されるはずです。この指紋は、パスフレーズを入力したときにパスポートに表示されたものと一致するはずです。Apply*」ボタンをクリックしてください。
+これで、あなたのxpubとマスターキーの指紋が表示されるはずです。この指紋は、パスフレーズを入力したときにパスポートに表示されたものと一致するはずです。**Apply**」ボタンをクリックしてください。
 
 ![Image](assets/fr/64.webp)
 
@@ -482,4 +484,4 @@ Sparrow Walletで「*QRスキャン*」をクリックし、パスポートに�
 
 詳しくは、Lianaソフトウェアのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -1,0 +1,9 @@
+question: Welcher Mechanismus ermöglicht den Zugriff auf einen internen Dienst von außen über NAT?
+answer: Portweiterleitung
+wrong_answers:
+  - Fragmentierung von Paketen
+  - RIP-Routing
+  - NAT-Komprimierung
+explanation: |
+  Mit der Portweiterleitung kann eine externe Verbindung über das NAT-Gateway an einen bestimmten internen Host weitergeleitet werden.
+reviewed: false

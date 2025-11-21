@@ -1,0 +1,9 @@
+question: Apa metode penguncian layar yang paling direkomendasikan untuk smartphone?
+answer: Kata sandi alfanumerik
+wrong_answers:
+  - Diagram grafis
+  - Pengenalan wajah
+  - Tidak ada penguncian
+explanation: |
+  Kata sandi alfanumerik menawarkan ketahanan terbaik terhadap upaya akses yang tidak sah, tidak seperti skema grafis atau biometrik.
+reviewed: false

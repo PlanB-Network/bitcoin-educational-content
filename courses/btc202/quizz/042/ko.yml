@@ -1,0 +1,9 @@
+question: UmbrelOS는 어떤 라이선스로 배포되나요?
+answer: PolyForm 비상업용 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS는 개인적 사용은 허용하지만 상업적 사용은 금지하는 PolyForm 비상업적 1.0 라이선스에 따라 출시됩니다.
+reviewed: true

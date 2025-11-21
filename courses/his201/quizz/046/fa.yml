@@ -1,0 +1,9 @@
+question: کدام شماره نسخه نرم‌افزار در جولای 2010 در Slashdot به نمایش درآمد؟
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  انتشار این نسخه، که مدت‌ها توسط Satoshi و Martti آماده شده بود، نشان‌دهنده تلاشی جدید در ارتباطات بود.
+reviewed: false

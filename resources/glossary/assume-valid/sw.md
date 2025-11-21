@@ -1,0 +1,8 @@
+---
+term: DHIKIA HALALI
+---
+
+Kigezo cha usanidi katika kiteja cha wengi cha Bitcoin Core kinachoruhusu nodi ambayo imeanzishwa hivi punde (lakini bado haijatekeleza IBD) kuruka uthibitishaji wa saini za miamala yote iliyojumuishwa kwenye vizuizi kabla ya kizuizi fulani. Kizuizi hiki maarufu kinafafanuliwa na alama ya kichwa chake, ambayo ni, Hash yake. Kizuizi kilichochaguliwa kinasasishwa kwa kila toleo jipya la Bitcoin Core. Baada ya kuanzishwa kwake, ikiwa nodi imewezesha parameter hii, kwa hiyo itaangalia mnyororo wa kichwa cha kuzuia ili kupata tawi na kazi iliyokusanywa zaidi. Ikiwa nodi itatambua Hash iliyotolewa na Core katika tawi iliyochagua, itaacha uthibitishaji wa saini za vizuizi vilivyotangulia. Vinginevyo, nodi itaendelea na maingiliano ya jadi (IBD) ili kuthibitisha kila kitu peke yake.
+
+
+Lengo la Kuchukulia Halali ni kuharakisha mchakato wa ulandanishi wa awali wa nodi bila kuathiri usalama, ikizingatiwa kuwa mtandao mwingi tayari umeidhinisha miamala hii hapo awali. Maelewano pekee ya kweli kwa node ni kwamba katika tukio la wizi wa awali wa bitcoins, haitatambuliwa. Hata hivyo, bado inaweza kuhakikisha usahihi wa kiasi cha bitcoins iliyotolewa. Nodi huendeleza uthibitishaji wa saini za miamala inayofuata kwenye Kizuizi cha Chukulia Halali. Mbinu hii inatokana na dhana kwamba ikiwa shughuli imekubaliwa na mtandao kwa muda wa kutosha bila mzozo, hakuna uwezekano wa kuwa wa ulaghai.

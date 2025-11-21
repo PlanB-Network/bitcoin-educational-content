@@ -1,0 +1,10 @@
+question: Adresler UTXO'ları kilitlemek için nasıl kullanılır?
+answer: ScriptPubKey'e entegre edilmişlerdir
+wrong_answers:
+  - ScriptSig'e entegre edilmişlerdir
+  - Coinbase'e entegre edilmişlerdir.
+  - Hiçbir yere entegre değiller.
+explanation: |
+  Bir ödeme yapıldığında, işlem girdi olarak tüketilen UTXO'lardan çıktı olarak yeni bir UTXO oluşturur. Bu çıktı üzerine, bu UTXO'in daha sonra nasıl harcanabileceğini tanımlayan bir komut dosyası yerleştirilir. Bu senaryo ScriptPubKey olarak bilinir. Alıcı Address bu komut dosyasına entegre edilmiştir.
+  
+reviewed: false

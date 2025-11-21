@@ -1,5 +1,5 @@
 question: Qual è lo scopo dell'indice nella derivazione delle chiavi figlie?
-answer: Distinguere le coppie di chiavi fratello
+answer: Distinguere le coppie di chiavi sorelle
 wrong_answers:
   - Identificare la natura della chiave (pubblica o privata)
   - Specificare il livello di sicurezza della chiave

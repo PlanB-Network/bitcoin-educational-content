@@ -1,0 +1,9 @@
+question: Çoğu yargı alanında, Bitcoin ile uğraşırken vergiye tabi bir olayı ne tetikler?
+answer: Bitcoin'in satılması, takas edilmesi veya ödeme olarak kullanılması genellikle vergiye tabi bir olayı tetikler.
+wrong_answers:
+  - Bitcoin'yi herhangi bir işlem yapmadan süresiz olarak tutmak.
+  - Bitcoin Wallet veya anahtarlarınızı yedekleme.
+  - Bitcoin fiyatını çevrimiçi görüntüleyin.
+explanation: |
+  Tipik olarak, vergiye tabi bir olay, bir işletme Bitcoin'i yalnızca elinde tuttuğunda değil, elden çıkardığında veya kullandığında meydana gelir. Bitcoin'in mallar, hizmetler veya itibari para karşılığında her satışı veya Exchange kullanımı, generate vergiye tabi kazanç veya kayıplara yol açabilir.
+reviewed: false

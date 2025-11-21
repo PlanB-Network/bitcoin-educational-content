@@ -1,0 +1,9 @@
+question: Hvorfor bruke et brannmurprogram som NetGuard eller RethinkDNS på Android?
+answer: Kontroller individuelle Internett-tilkoblinger
+wrong_answers:
+  - Lagre alle data automatisk
+  - Fjern blokkeringen av alle Wi-Fi-nettverk
+  - Avinstaller eventuelle virus
+explanation: |
+  Disse applikasjonene fungerer som lokale brannmurer, slik at utgående trafikk kan blokkeres eller autoriseres fra applikasjon til applikasjon.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Według Condorceta, dlaczego wolność przeraża ludzi?
+answer: Ponieważ jest zbyt przyzwyczajony do pozwalania rządowi interweniować we wszystkich sprawach
+wrong_answers:
+  - Ponieważ nigdy nie próbowano tego we Francji
+  - Ponieważ wymaga to gwałtownej rewolucji
+  - Ponieważ jest synonimem chaosu
+explanation: |
+  Condorcet uważał, że ludzie są przyzwyczajeni do interwencji państwa i boją się wolności, ponieważ nie wiedzą, jak z niej korzystać.

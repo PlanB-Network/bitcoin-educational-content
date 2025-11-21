@@ -1,0 +1,8 @@
+question: Proof of Work (POW) چیست؟
+answer: این توافق امنیتی پروتکل Bitcoin است.
+wrong_answers:
+  - این فرآیند ایجاد بیت‌کوین‌های جدید است.
+  - این روش تأیید تراکنش‌های Bitcoin است.
+  - این الگوریتمی است که برای استخراج بیت‌کوین‌ها استفاده می‌شود.
+explanation: >-
+reviewed: true

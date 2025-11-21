@@ -1,0 +1,9 @@
+question: Hoe wordt het unieke element in een groep genoemd dat, wanneer het op een ander element wordt toegepast, het niet verandert?
+answer: Het identiteitselement
+wrong_answers:
+  - Het inverse element
+  - Het commutatieve element
+  - Het associatieve element
+explanation: |
+  Het identiteitselement van een groep is het unieke element dat, wanneer toegepast op een ander element, dit element onveranderd laat. Bijvoorbeeld, in de groep van gehele getallen onder optelling is het identiteitselement 0.
+reviewed: false

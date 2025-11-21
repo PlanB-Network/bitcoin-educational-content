@@ -1,11 +1,10 @@
-question: Apa salah satu cara Bitcoin semakin terintegrasi ke dalam pasar tradisional?
-answer: Kedatangan ETF Bitcoin yang akan datang.
+question: Apa itu BTCMap?
+answer: Sebuah platform yang mencantumkan semua pedagang yang menerima Bitcoin
 wrong_answers:
-  - Pelarangan Bitcoin.
-  - Hilangnya semua mata uang kripto.
-  - Pembuatan Bitcoin.
+  - Sebuah peta dari semua tambang Bitcoin di dunia
+  - Sebuah peta dari semua bursa Bitcoin di dunia
+  - Sebuah peta dari semua pengguna Bitcoin di dunia
 explanation: >-
-  Bitcoin terus bertahan dan berkembang lebih jauh dengan semakin terintegrasi
-  ke dalam pasar tradisional. Kedatangan ETF Bitcoin yang akan datang,
-  regulasi yang lebih jelas, dan alat perolehan atau penyimpanan yang lebih baik hanya mendorong
-  tren ini.
+  BTCMap adalah proyek sumber terbuka dan kolaboratif yang mencantumkan semua
+  pedagang yang menerima Bitcoin serta berbagai komunitas Bitcoin di
+  seluruh dunia.

@@ -1,0 +1,9 @@
+question: Wat was de naam van de eerste bewaringstoepassing die eenvoudig gebruik van Bitcoin op mobiel mogelijk maakte in april 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy haai
+explanation: |
+  Het werd [gepromoot](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) op het forum door iemand met de naam Komodo op 30 april 2010.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 哪个发行版被认为是目前仍在维护的最古老的发行版？
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware 由 Patrick Volkerding 于 1993 年创建，是目前仍在运行的最古老的 Linux 发行版。
+reviewed: false

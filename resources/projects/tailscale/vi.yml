@@ -1,0 +1,2 @@
+description: |
+  Giải pháp VPN không cần cấu hình dựa trên WireGuard, cho phép bạn tạo mạng riêng được mã hóa giữa các thiết bị của mình, bất kể chúng ở đâu, chỉ trong vài phút. Dễ triển khai và tương thích với mọi nền tảng, Tailscale cung cấp quyền truy cập zero-trust an toàn, không cần mở cổng hoặc phức tạp về mạng.

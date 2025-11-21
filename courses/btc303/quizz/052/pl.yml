@@ -1,0 +1,8 @@
+question: Zgodnie z aksjomatem oporu Erica Voskuila, jakie fundamentalne założenie musi zostać zaakceptowane, aby Bitcoin miał sens jako system?
+answer: To, że system może oprzeć się kontroli państwa
+wrong_answers:
+  - Że większość mocy sieci zawsze pozostanie uczciwa
+  - Algorytmy kryptograficzne nigdy nie zostaną złamane przez obliczenia kwantowe
+  - Użytkownicy zawsze będą przedkładać decentralizację nad wygodę
+explanation: |
+  Aksjomat oporu zakłada, że systemy mogą oprzeć się kontroli państwa, co ma fundamentalne znaczenie dla celu Bitcoin jako pieniądza bez zezwoleń. Bez tego założenia cała przesłanka Bitcoin upada, ponieważ nieuchronnie byłaby kontrolowana przez państwa. Inne opcje, choć istotne dla bezpieczeństwa Bitcoin, nie są częścią aksjomatu oporu Voskuila, który w szczególności odnosi się do filozoficznej podstawy, że opór wobec kontroli państwa jest możliwy.

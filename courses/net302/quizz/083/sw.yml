@@ -1,0 +1,9 @@
+question: Je, hali ya kuingia kwenye kashe ya ip neigh ni nini wakati ramani ya IP/MAC ni halali na ya hivi karibuni?
+answer: INAPATIKANA
+wrong_answers:
+  - IMEUNGANISHWA
+  - HALALI
+  - STALE
+explanation: |
+  Hali ya REACHABLE inamaanisha kuwa uchoraji wa ramani wa IP/MAC unajulikana na unafanya kazi katika akiba ya ujirani.
+reviewed: false

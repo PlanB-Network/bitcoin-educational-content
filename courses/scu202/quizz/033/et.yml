@@ -1,0 +1,9 @@
+question: Milline mehhanism peab olema UEFIs lubatud, et takistada allakirjutamata koodi täitmist käivitamise ajal?
+answer: Turvaline käivitamine
+wrong_answers:
+  - Kiire käivitamine
+  - Kiire käivitamine
+  - Usaldusväärne platvormimoodul (TPM)
+explanation: |
+  Secure Boot tagab, et süsteemi saab käivitada ainult autenditud tarkvara, mis piirab bootkitide/rootkitide nakatumise ohtu.
+reviewed: false

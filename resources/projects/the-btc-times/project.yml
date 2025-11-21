@@ -1,0 +1,21 @@
+id: f0feeba0-5f91-4c78-8431-1735b06b71a0
+name: THE BTC TIMES
+category: news
+
+links:
+  website: https://btctimes.com/
+  twitter: https://twitter.com/BTC
+
+tags:
+  - market-trends
+  - investment
+  - finance
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-02
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

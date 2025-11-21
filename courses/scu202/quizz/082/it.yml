@@ -1,0 +1,9 @@
+question: Quale applicazione offre un'architettura radicalmente decentralizzata, senza server centrale per l'instradamento dei messaggi?
+answer: Keet
+wrong_answers:
+  - Telegramma
+  - Segnale
+  - Threema
+explanation: |
+  Keet si basa su un modello peer-to-peer in cui tutte le comunicazioni passano direttamente tra gli utenti, senza un server centrale, garantendo un'elevata resilienza e riservatezza.
+reviewed: false

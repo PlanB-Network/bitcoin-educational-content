@@ -1,0 +1,9 @@
+question: 2025년 Bitcoin 노드에 권장되는 최소 SSD 용량은 얼마인가요?
+answer: 2 To
+wrong_answers:
+  - 512GB
+  - 10 To
+  - 256GB
+explanation: |
+  Blockchain이 700GB를 초과하고 애플리케이션이 추가되면 2TB가 합리적인 최소값이 됩니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 2010년 9월 18일 제프 가직의 통 큰 기부로 Mining 알고리즘을 공개한 포럼 회원은 누구인가요?
+answer: 푸딘팝
+wrong_answers:
+  - 넬리스키
+  - m0mchil
+  - tcatm
+explanation: |
+  그 전까지는 소프트웨어 사용에 대한 수수료로 수익을 얻었습니다. 그들은 [게시](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) 무료 라이선스 하에 소프트웨어를 공개했습니다.
+reviewed: true

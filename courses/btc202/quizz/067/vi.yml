@@ -1,0 +1,9 @@
+question: Cần có bản sao lưu nào để khôi phục nút Lightning?
+answer: seed và SCB
+wrong_answers:
+  - Tệp seed và txindex
+  - seed và IP công cộng Address
+  - seed và 2FA
+explanation: |
+  Việc khôi phục một nút Lightning yêu cầu cả seed và SCB (Sao lưu kênh tĩnh), nếu không có hai tính năng này thì không thể khôi phục được tiền kênh.
+reviewed: true

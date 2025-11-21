@@ -1,0 +1,11 @@
+question: Vilken är den största utmaningen i samband med Bitcoin Mining?
+answer: Mining-industrin är extremt konkurrensutsatt och volatil, och oförutsedda händelser kan störa Mining-verksamheten.
+wrong_answers:
+  - Den största utmaningen är att hitta en tillförlitlig elkälla.
+  - Den största utmaningen är att hitta en säker plats att förvara de utvunna bitcoins.
+  - Den största utmaningen är att hitta en köpare för de utvunna bitcoins.
+explanation: |
+  Den största utmaningen i samband med Bitcoin Mining är att
+  gW-4-branschen är extremt konkurrensutsatt och volatil,
+  och oförutsedda incidenter kan störa Mining-verksamheten.
+reviewed: true

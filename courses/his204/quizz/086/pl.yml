@@ -1,0 +1,8 @@
+question: Jaka idea została nazwana sofizmatem Montaigne'a?
+answer: Exchange to gra o sumie zerowej
+wrong_answers:
+  - Exchange jest grą o sumie dodatniej
+  - W zależności od czasu i miejsca, Exchange jest czasem grą o sumie zerowej, a czasem grą o sumie dodatniej
+  - Exchange jest zawsze niekorzystne dla słabszej strony
+explanation: |
+  Błąd Montaigne'a polega na założeniu, że Exchange jest grą o sumie zerowej, tj. co jeden zyskuje, drugi traci. Ta koncepcja jest fałszywa, ponieważ dobrowolne Exchange jest korzystne dla obu stron.

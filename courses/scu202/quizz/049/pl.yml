@@ -1,0 +1,9 @@
+question: Jaka jest zalecana reguła tworzenia kopii zapasowych, aby zapewnić odporność danych w przypadku katastrofy?
+answer: Posiadać 3 kopie na 2 różnych nośnikach, w tym 1 poza siedzibą firmy
+wrong_answers:
+  - 10 kopii na 5 różnych nośnikach, w tym 3 poza siedzibą firmy
+  - 2 kopie na 2 różnych nośnikach, w tym 2 poza siedzibą firmy
+  - 4 kopie na 4 różnych nośnikach, w tym 2 poza siedzibą firmy
+explanation: |
+  Zasada 3-2-1 polega na utrzymywaniu trzech kopii danych, na co najmniej dwóch różnych nośnikach, w tym jednym znajdującym się poza siedzibą firmy, w celu ochrony przed utratą, kradzieżą lub uszkodzeniem danych.
+reviewed: false

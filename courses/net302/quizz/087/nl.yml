@@ -1,0 +1,9 @@
+question: Welk commando toont het pad dat pakketten afleggen om een IP-bestemming te bereiken?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute toont elke tussenliggende router tussen zender en doel, met behulp van de TTL.
+reviewed: false

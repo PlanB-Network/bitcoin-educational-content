@@ -1,0 +1,12 @@
+question: Hoe dragen de verschillende stablecoins van Tether bij aan financiële vrijheid voor individuen in instabiele economieën?
+answer: Door toegang te bieden tot valuta's met stabiele Exchange-koersen
+wrong_answers:
+  - Door fysiek contant geld overbodig te maken
+  - Door hogere rentes op spaargeld te bieden
+  - Door directe wereldwijde transacties mogelijk te maken
+explanation: |
+  De verschillende stablecoins van Tether zijn gekoppeld aan stabiele activa zoals de Amerikaanse
+  dollar of goud. Door deze stabiliteit kunnen mensen in instabiele economieën
+  hun geld verplaatsen naar een valuta die niet onderhevig is aan dezelfde inflatiepercentages
+  inflatie, waardoor ze de waarde van hun spaargeld kunnen behouden.
+reviewed: true

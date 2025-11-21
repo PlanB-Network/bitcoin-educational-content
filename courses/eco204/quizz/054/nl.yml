@@ -1,0 +1,10 @@
+question: Wat is de officiële drempel voor een land om te worden beschouwd als een land met hyperinflatie?
+answer: 50% per maand
+wrong_answers:
+  - 10% per maand
+  - 25% per maand
+  - 75% per maand
+explanation: |
+  In 2007 bereikte de inflatie in Zimbabwe de grens van 50% per maand,
+  waarmee het land officieel werd aangemerkt als een land met hyperinflatie.
+reviewed: false

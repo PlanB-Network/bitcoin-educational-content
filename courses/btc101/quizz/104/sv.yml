@@ -1,0 +1,13 @@
+question: Vad står KYC för?
+answer: Känn din kund.
+wrong_answers:
+  - Behåll dina kontanter.
+  - Knappa in dina koder.
+  - Vänligen lämna in överensstämmelse.
+explanation: |
+  KYC eller Know Your Customer avser det förfarande som
+  företag använder för att verifiera sina kunders identitet.
+  Detta görs vanligtvis för att säkerställa efterlevnad av
+  och för att förhindra olagliga aktiviteter som penningtvätt eller
+  penningtvätt eller bedrägeri.
+reviewed: true

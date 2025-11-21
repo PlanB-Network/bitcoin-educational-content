@@ -1,0 +1,9 @@
+question: Apa saja batasan utama aplikasi antivirus seluler?
+answer: Mereka terbatas dalam menghadapi ancaman nyata
+wrong_answers:
+  - Mereka membuat ponsel tidak kompatibel dengan jaringan seluler
+  - Mereka menghapus aplikasi perpesanan
+  - Mereka meningkatkan masa pakai baterai
+explanation: |
+  Perangkat lunak antivirus seluler tidak menawarkan perlindungan terhadap phishing atau otorisasi yang buruk, dan hanya menawarkan keamanan terbatas terhadap ancaman utama.
+reviewed: false

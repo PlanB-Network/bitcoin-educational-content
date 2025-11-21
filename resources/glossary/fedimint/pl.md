@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+---
+
+Protokół zarządzania płatnościami i Bitcoin zaprojektowany w celu zwiększenia prywatności i zmniejszenia zależności od głównego łańcucha poprzez łączenie opieki nad funduszami. Fedimint został stworzony przez Erica Siriona w 2021 roku. Opiera się na systemie bankowym Chaumian, który zamiast być scentralizowany wokół jednego zaufanego aktora, opiera się na federacjach. Federacje te to grupy zaufanych powierników, którzy wspólnie przechowują i zarządzają bitcoinami użytkowników w swojej grupie. W ramach grupy użytkownicy mogą dokonywać płatności za pomocą biletów wydanych w Exchange za swoje depozyty Bitcoin. Ideą Fedimint jest wdrożenie tej koncepcji na poziomie lokalnych społeczności. Stanowi on zatem rodzaj ewolucji banku depozytowego opartego na Bitcoin, obejmującego system eCash Davida Chauma oraz wykorzystanie federacji zaufanych osób odpowiedzialnych za przechowywanie i emisję aktywów bazowych.

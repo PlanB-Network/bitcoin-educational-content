@@ -1,0 +1,8 @@
+question: 是什么基本原则允许开发人员在 Bitcoin 的基础上创建 Lightning Network、CoinJoin 和 OpenTimestamps 等系统而无需寻求批准？
+answer: 无权限开发使任何人都能在 Bitcoin 上构建协议和应用程序，而无需任何中央机构的授权
+wrong_answers:
+  - 开放源代码许可要求所有衍生作品自动获得批准并集成到主要的 Bitcoin 核心资源库中
+  - MIT 许可规定，所有基于 Bitcoin 的项目在部署前必须获得 Bitcoin 核心开发团队的明确许可
+  - 共识规则通过区块链验证流程自动验证和授权在 Bitcoin 基础上构建的任何新协议
+explanation: |
+  无许可开发是正确答案，因为它是允许任何人在 Bitcoin 上进行开发而无需请求许可的基本原则。错误答案的原因是：开源许可并不要求自动批准或集成到 Bitcoin 核心中；MIT 许可实际上授予了广泛的权限，无需开发者批准；共识规则验证的是交易和区块，而不是建立在 Bitcoin 基础上的更高级协议。

@@ -1,0 +1,9 @@
+question: Mitä tiedostoa käytettiin historiallisesti paikalliseen resoluutioon ennen maailmanlaajuisen DNS:n käyttöönottoa?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/verkko
+  - /etc/resolve
+explanation: |
+  Ennen DNS:n yleistymistä nimien määritys perustui Unix/Linux-järjestelmien staattiseen /etc/hosts-tiedostoon.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bubiri nyamukuru amakuru y’ivy’ubutunzi bwite ashobora gusohoka iyo ukoresheje Bitcoin?
+answer: Ku ruzitiro biciye mu gusesangura blockchain na off-chain biciye mu guhanahana amakuru
+wrong_answers:
+  - Biciye mu bikoko vya porogaramu ya wallet n'uguhungabanya amakuru y'ibidengeri vya mining
+  - Biciye mu guhanahana amakuru n'imigambi ya leta yo gucungera
+  - Biciye ku mbuga ngurukanabumenyi n'amatangazo y'ibikorwa
+explanation: |
+  Dushingiye ku birimwo mu gice, amakuru y’ibanga ashobora gusohoka mu buryo bubiri nyamukuru: on-chain na off-chain. On-chain leaks bishika biciye mu gusuzuma blockchain ya bose, aho uburyo bwo gukora, gusubira gukoresha aderesi, no gukoranya bishobora guhishura amakuru y’ivy’ubutunzi. Off-chain leaks zishika iyo abakozi b’ububisha bafata amakuru yo kuri internet canke biciye mu bundi buryo butajanye n’uruhererekane. Naho inyishu zitari zo zivuga ivyerekeye umutekano nyawo mu bidukikije vya Bitcoin, ntizigereranya ugushira mu migwi kw’ishimikiro kw’ingene ukuvuza kw’ubuzima bwite kubaho nk’uko bivugwa mu bintu.

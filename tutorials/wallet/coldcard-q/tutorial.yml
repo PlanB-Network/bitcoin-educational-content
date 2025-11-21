@@ -88,6 +88,62 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 17.92
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 25.04
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.35
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.35
+  - language: sw
+    last_contribution_date: '2025-11-05'
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 7.18
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.92
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.35
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.79
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.35
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.92
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.92
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.48
 tags:
   - guides
   - wallets

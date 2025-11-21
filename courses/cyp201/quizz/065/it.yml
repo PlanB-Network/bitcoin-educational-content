@@ -1,9 +1,9 @@
-question: Qual è la differenza tra una chiave figlio normale e una chiave figlio rinforzata?
-answer: Una chiave figlio rinforzata richiede la chiave privata del genitore per la sua derivazione.
+question: Qual è la differenza tra una chiave figlia normale e una chiave figlia hardened?
+answer: Una chiave figlia hardened richiede la chiave privata genitore per la sua derivazione.
 wrong_answers:
-  - Una chiave figlio normale non può derivare dalle chiavi pubbliche.
-  - Una chiave figlio rinforzata utilizza un indice dispari.
-  - Una chiave figlio normale è più sicura di una chiave figlio rinforzata.
+  - Una chiave figlia normale non può derivare dalle chiavi pubbliche.
+  - Una chiave figlia rinforzata utilizza un indice dispari.
+  - Una chiave figlia normale è più sicura di una chiave figlio hardened.
 explanation: |
-  Una chiave figlio normale può essere derivata dalla chiave pubblica del genitore, a differenza di una chiave figlio rinforzata che richiede la chiave privata del genitore.
+  Una chiave figlia normale può essere derivata dalla chiave pubblica genitore, a differenza di una chiave figlia hardened che richiede la chiave privata genitore.
 recensito: false

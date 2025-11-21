@@ -1,0 +1,9 @@
+question: کدام مفهوم پول الکترونیکی به‌طور صریح توسط Satoshi ناکاموتو در مقاله سفید Bitcoin ذکر شده است؟
+answer: b-money (وی دای)
+wrong_answers:
+  - بیت گلد (نیک سابو)
+  - RPOW (هال فینی)
+  - eCash (David Chaum)
+explanation: |
+  این اولین مرجع بود. این مرجع توسط Satoshi در آگوست 2008 پس از تبادلات او با وی دای اضافه شد.
+reviewed: false

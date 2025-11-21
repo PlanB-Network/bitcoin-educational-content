@@ -1,0 +1,8 @@
+question: Bitcoinlerinizi saklamak için bir saklama hizmeti kullanmanın ana riski nedir?
+answer: Güvenilir üçüncü taraf, fonlarınıza erişiminizi istediği zaman kısıtlayabilir.
+wrong_answers:
+  - Güvenilir üçüncü taraf, bitcoinlerinizin değerini istediği zaman artırabilir.
+  - Güvenilir üçüncü taraf, bitcoinlerinizin değerini istediği zaman düşürebilir.
+  - Güvenilir üçüncü taraf, bitcoinlerinizi hiçbir zaman çoğaltamaz.
+explanation: >-
+reviewed: true

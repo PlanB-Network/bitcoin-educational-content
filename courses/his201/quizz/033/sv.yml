@@ -1,0 +1,9 @@
+question: Vilken Miner från 2009 förlorade alla sina bitcoins genom att slänga sin dator på soptippen 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  Den brittiske ingenjören hade genererat 8 000 bitcoins med sin dator mellan februari och april 2009. Hans fall [offentliggjordes](https: //www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) av Guardian.
+reviewed: true

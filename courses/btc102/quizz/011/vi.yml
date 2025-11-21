@@ -1,0 +1,9 @@
+question: Tại sao việc bảo vệ cụm từ Mnemonic của bạn lại quan trọng?
+answer: Bởi vì việc mất nó sẽ dẫn đến mất bitcoin vĩnh viễn
+wrong_answers:
+  - Bởi vì Blockchain quá dài để có thể tái tạo nó
+  - Bởi vì việc mất nó sẽ dẫn đến rò rỉ dữ liệu cá nhân
+  - Bởi vì nền tảng Exchange yêu cầu rất nhiều tài liệu để tạo lại nó
+explanation: |
+  Cụm từ Mnemonic cho phép khôi phục quyền truy cập. Nếu cụm từ này bị mất và Wallet không còn có thể truy cập được trên thiết bị của nó nữa, thì bitcoin sẽ bị mất vĩnh viễn.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad är det främsta skälet till att en centralplanerad ekonomi oundvikligen kommer att drabbas av felallokering av kapital?
+answer: Det finns inga marknadspriser eller konkurser som kan avslöja och korrigera felallokeringar.
+wrong_answers:
+  - Centralplanerare är inte effektiva.
+  - Centralplanerare har inte tillräckligt med information.
+  - Centralplanerare är inte motiverade att fördela resurser på ett effektivt sätt.
+explanation: |
+  I en centralplanerad ekonomi finns det inga marknadspriser eller konkurser
+  som kan avslöja och korrigera felallokeringar. Följden blir att felen ackumuleras tills
+  slöseriet blir uppenbart genom en betydande försämring av levnadsvillkoren.
+reviewed: true

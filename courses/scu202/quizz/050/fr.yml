@@ -1,0 +1,9 @@
+question: Pourquoi les métadonnées d’un fichier numérique représentent-elles un risque pour la vie privée ?
+answer: Elles peuvent révéler des informations sensibles
+wrong_answers:
+  - Elles ralentissent l’ouverture de l'antivirus sur certains systèmes
+  - Elles empêchent le partage des fichiers via email
+  - Elles peuvent héberger un ransomware
+explanation: |
+  Les métadonnées peuvent contenir des informations confidentielles non visibles à l’ouverture du fichier, comme des coordonnées GPS, un nom d’auteur, un identifiant ou un historique de modifications, qui peuvent être exploitées à votre insu.
+reviewed: false

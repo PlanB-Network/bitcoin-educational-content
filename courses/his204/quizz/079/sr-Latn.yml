@@ -1,0 +1,8 @@
+question: U svom pismu o oznaci gvožđa, Turgot izražava ideju da je nemoguće znati bolje od tržišta. Koji austrijski ekonomista je razvio ovu ideju u 20. veku?
+answer: Friedrich Hayek
+wrong_answers:
+  - Carl Menger
+  - Murray Rothbard
+  - Ludwig von Mises
+explanation: |
+  Hayek je razvio ideju "otkrivanja cena" od strane tržišta, prema kojoj je tržište proces otkrivanja informacija, a cene su rezultat interakcije Supply i potražnje.

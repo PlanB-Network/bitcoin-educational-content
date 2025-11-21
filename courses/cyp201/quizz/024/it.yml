@@ -1,9 +1,9 @@
-question: Qual è la dimensione di una chiave privata grezza utilizzata su Bitcoin?
+question: Qual è la dimensione di una chiave privata grezza utilizzata in Bitcoin?
 answer: 256 bit
 wrong_answers:
   - 128 bit
   - 512 bit
   - 1024 bit
 explanation: |
-  Una chiave privata in Bitcoin è un intero casuale di 256 bit, garantendo uno spazio chiave abbastanza ampio da garantire la sicurezza.
+  Una chiave privata in Bitcoin è un intero casuale di 256 bit, che garantisce una lunghezza abbastanza ampia da garantire sicurezza.
 reviewed: false

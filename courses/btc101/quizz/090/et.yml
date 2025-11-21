@@ -1,9 +1,9 @@
-question: Mis on mobiilse rahakoti soovitatav kasutusviis?
-answer: Igapäevaste kulutuste jaoks
+question: Mis juhtub, kui teie privaatvõti paljastatakse kolmandale osapoolele?
+answer: Seotud vahendid ei ole enam turvalised
 wrong_answers:
-  - Pikaajaliste säästude jaoks
-  - Keskpikaks ajaks säästmiseks
-  - Suurte summade jaoks
+  - Kolmas osapool saab vaadata ainult teie tehingute ajalugu
+  - Kolmas osapool saab muuta teie privaatvõtit
+  - Kolmas osapool saab juurdepääsu teie isiklikule teabele
 explanation: |
-  Mobiilset rahakotti soovitatakse igapäevaste kulutuste jaoks, kuna sellega on tehinguid lihtne sooritada. Siiski ei soovitata seda suurte summade hoidmiseks või pikaajaliseks säästmiseks, kuna see võib olla potentsiaalselt haavatav online-ohtude suhtes.
+  Kui teie privaatvõti paljastatakse kolmandale osapoolele, ei ole seotud vahendid enam turvalised. See on seetõttu, et privaatvõti esindab juurdepääsu teie vahenditele.
 reviewed: true

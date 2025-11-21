@@ -1,0 +1,9 @@
+question: 哪位奧地利經濟學家談到計劃主義？
+answer: 哈耶克
+wrong_answers:
+  - Menger.
+  - 米塞斯。
+  - 波普爾
+explanation: |
+  Friedrich Hayek (1899-1992) 是奧地利經濟學家，他創造了「計劃主義」一詞來形容中央集权的經濟計劃。他在《通往奴役之路》中批判了這種方式。
+reviewed: false

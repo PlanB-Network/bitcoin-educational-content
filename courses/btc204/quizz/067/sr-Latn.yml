@@ -1,9 +1,9 @@
 question: Koja heuristika se može koristiti za povezivanje svih ulaza konsolidacije?
 answer: CIOH.
 wrong_answers:
-  - Address ponovna upotreba.
+  - Ponovna upotreba adrese.
   - Najveći izlaz.
-  - Zaokruži uplatu.
+  - Zaokružena uplata.
 explanation: |
-  Spoljni posmatrač može primeniti CIOH da pretpostavi da svi ulazi konsolidacije pripadaju istom entitetu.
+  Spoljni posmatrač može primeniti CIOH da pretpostavi da svi ulazi konsolidacije pripadaju jednom istom entitetu.
 reviewed: false

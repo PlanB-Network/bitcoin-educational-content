@@ -1,0 +1,9 @@
+question: هدف از Terminal Consignment در فرآیند انتقال RGB چیست؟
+answer: ارائه تاریخچه انتقالات حالت
+wrong_answers:
+  - اعتبارسنجی Genesis Contract
+  - حذف انتقالات قدیمی
+  - generate یک Schema جدید برای انتقال
+explanation: |
+  Terminal Consignment تاریخچه Contract را جمع‌آوری می‌کند تا مشروعیت دارایی منتقل شده تا به امروز را اثبات کند.
+reviewed: false

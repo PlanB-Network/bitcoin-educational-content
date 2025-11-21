@@ -1,0 +1,9 @@
+question: Hur många underhållare finns det på Bitcoin Core år 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  År 2025 finns det fem underhållare: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao och Ryan Ofsky.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket av följande svar ingår inte i de tre huvudkategorierna av heuristiker och egenskaper som används vid kedjeanalys?
+answer: Kryptografimodeller.
+wrong_answers:
+  - Transaktionsmodeller.
+  - Heuristik för interna transaktioner.
+  - Heuristik för externa transaktioner.
+explanation: |
+  De heuristiker som används vid kedjeanalys kan delas in i tre kategorier; transaktionsmönster (eller transaktionsmodeller), interna transaktionsheuristiker och externa transaktionsheuristiker.
+reviewed: false

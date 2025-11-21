@@ -1,9 +1,0 @@
-question: Koja je svrha menadžera lozinki u Bitcoin?
-answer: Da biste sigurno čuvali i upravljali lozinkama za Bitcoin transakcije.
-wrong_answers:
-  - Da se iskopaju novi Bitcoini.
-  - Da trgujete Bitcoinima.
-  - Da konvertujete Bitcoine u druge kriptovalute.
-explanation: |
-  Menadžer lozinki je softverska aplikacija koja se koristi za čuvanje i upravljanje lozinkama osobe za različite online naloge. U kontekstu Bitcoin, koristi se za sigurno čuvanje i upravljanje lozinkama za Bitcoin transakcije.
-reviewed: false

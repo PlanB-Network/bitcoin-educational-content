@@ -1,0 +1,14 @@
+question: Carl Menger'e göre ekonomik faaliyetlerin nihai amacı nedir?
+answer: Ekonomik faaliyetin nihai amacı tüketimdir.
+wrong_answers:
+  - Ekonomik faaliyetin nihai amacı üretimdir.
+  - Ekonomik faaliyetin nihai amacı tasarruftur.
+  - Ekonomik faaliyetin nihai amacı yatırımdır.
+explanation: |
+  Carl Menger'e göre, mallar yalnızca
+  ekonomik mallar (değerli) çünkü amaçlara ulaşmak için araç görevi görürler
+  bireyler tarafından seçilir ve değer verilir. Bu nedenle, Menger için,
+  ekonomik analizin başlangıç noktası tüketim mallarıdır,
+  veya nihai mallar, nihai amacı temsil ettikleri için
+  ekonomik faaliyet.
+reviewed: true

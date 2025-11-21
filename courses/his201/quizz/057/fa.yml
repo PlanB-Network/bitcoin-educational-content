@@ -1,0 +1,9 @@
+question: کدام Miner آلمانی در سال 2010 به مدت چندین ماه 20٪ از نرخ Hash شبکه Bitcoin را در اختیار داشت؟
+answer: آرت‌فورز
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  او در تابستان ۲۰۱۰ یک مزرعه Mining متشکل از کارت‌های گرافیک (به نام ArtFarm) راه‌اندازی کرد و بدین ترتیب تا پاییز برتری قابل‌توجهی نسبت به رقبای خود به دست آورد.
+reviewed: false

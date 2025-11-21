@@ -5,7 +5,5 @@ wrong_answers:
   - BitLocker for Mac, LUKS for Windows, and the built-in option for Linux.
   - LUKS for all operating systems.
 explanation: |
-  Different operating systems have different solutions for
-  data encryption. BitLocker is for Windows, LUKS is for
-  Linux, and Mac has a built-in option for data encryption.
+  Different operating systems have various solutions for data encryption. BitLocker is for Windows, LUKS is for Linux, and Mac has a built-in option for data encryption.
 reviewed: true

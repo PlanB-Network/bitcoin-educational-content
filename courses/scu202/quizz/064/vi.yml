@@ -1,0 +1,9 @@
+question: Trình duyệt dựa trên Blink nào nổi tiếng về tốc độ và khả năng tương thích, nhưng lại thu thập lượng lớn dữ liệu người dùng cho mục đích quảng cáo?
+answer: Chrome
+wrong_answers:
+  - Can đảm
+  - Firefox
+  - Trình duyệt Tor
+explanation: |
+  Mặc dù Google Chrome là một công cụ mạnh mẽ, nhưng theo mặc định, nó thu thập rất nhiều dữ liệu cá nhân mà Google sử dụng cho mục đích quảng cáo có mục tiêu.
+reviewed: false

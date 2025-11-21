@@ -1,0 +1,13 @@
+question: Multisig Wallet이란 무엇인가요?
+answer: 트랜잭션을 수행하기 위해 여러 서명이 필요한 지갑 세트입니다.
+wrong_answers:
+  - 거래를 수행하기 위해 단일 서명이 필요한 Wallet입니다.
+  - 거래를 수행하는 데 서명이 필요하지 않은 Wallet입니다.
+  - 거래를 수행하기 위해 물리적 서명이 필요한 Wallet입니다.
+explanation: |
+  Multisig Wallet은 Bitcoin Wallet의 한 유형으로, 트랜잭션을 수행하려면
+  여러 서명이 필요한 유형입니다. 이는 한 명의 서명으로
+  보안이 추가되며, 한 사람이 여러 사람의 승인 없이는
+  다른 사람의 승인 없이는 거래를 수행할 수 없음을 의미하므로
+  다른 사람.
+reviewed: true

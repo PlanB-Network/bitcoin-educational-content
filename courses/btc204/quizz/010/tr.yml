@@ -1,0 +1,9 @@
+question: Bir Coin'da, bir kişinin daha sonra harcayabilmesini sağlayan 3 temel kriter nedir?
+answer: Coin sağlam, orijinal olmalı ve iki kez harcanmamış olmalıdır.
+wrong_answers:
+  - Coin eski, nadir ve iyi durumda olmalıdır.
+  - Coin evrensel olarak kabul edilmeli, yasal olmalı ve bir bankada tutulmalıdır.
+  - Coin devlet tarafından onaylanmalı, tescil edilmeli ve dayanıklı olmalıdır.
+explanation: |
+  İster dijital ister fiziksel olsun, bir Coin'i kabul etmek isteyen her rasyonel birey, bunun değiştirilmediğinden, gerçekten gerçek bir Coin olduğundan ve düzenleyen tarafından tekrar kullanılamayacağından emin olmalıdır.
+reviewed: false

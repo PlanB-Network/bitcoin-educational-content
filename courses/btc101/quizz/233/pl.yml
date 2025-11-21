@@ -1,8 +1,10 @@
-question: Jaki jest główny cel Lightning Network?
-answer: Aby ułatwić mikrotransakcje.
+question: Jaka jest jedna z potencjalnych korzyści sieci Lightning dla twórców treści?
+answer: Będą zachęcani do tworzenia wysokiej jakości treści, aby utrzymać uwagę użytkowników.
 wrong_answers:
-  - Aby zwiększyć wartość Bitcoin.
-  - Aby zastąpić protokół Bitcoin.
-  - Aby utworzyć nową kryptowalutę.
-explanation: >-
+  - Będą mogli pobierać wyższe opłaty za swoje treści.
+  - Będą mogli dotrzeć do szerszego grona odbiorców.
+  - Będą w stanie szybciej tworzyć treści, aby utrzymać uwagę użytkowników.
+explanation: |
+  Dzięki sieci Lightning twórcy treści byliby
+  motywowani do tworzenia treści dobrej jakości, aby utrzymać uwagę użytkowników. Użytkownicy z kolei płaciliby tylko za treści, które konsumują, eliminując w ten sposób opłaty abonamentowe.
 reviewed: true

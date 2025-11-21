@@ -1,0 +1,9 @@
+question: Kakva vrsta računarskog napada koristi lažne poruke za izvlačenje informacija?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - SQL injekcija
+explanation: |
+  Phishing koristi obmanjujuće e-poruke ili poruke kako bi naveo ljude da otkriju poverljive informacije ili instaliraju malver.
+reviewed: false

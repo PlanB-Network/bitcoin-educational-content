@@ -1,0 +1,9 @@
+question: Je, ni mazoezi gani ya kurekebisha MAC Address yako kwa njia isiyo halali?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Hadaa
+  - MAC Kunusa
+  - Mac Keylogging
+explanation: |
+  Uharibifu wa MAC ni kitendo cha kubadilisha vifaa vya Address vya mtandao wa Interface, mara nyingi kwa sababu za faragha au kukwepa vikwazo.
+reviewed: false

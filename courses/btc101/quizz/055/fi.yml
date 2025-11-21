@@ -1,10 +1,10 @@
-question: Mikä oli inflaatioaste Saksassa lokakuussa 1923?
-answer: 29,50%.
+question: Mikä mekanismi varmistaa, että uusi lohko lisätään lohkoketjuun joka kymmenes minuutti?
+answer: Vaikeustason säätö.
 wrong_answers:
-  - 200,9%.
-  - 50,51%.
-  - 25,98%.
+  - Nopeuden säätö.
+  - Ajan säätö.
+  - Lohkon säätö.
 explanation: |
-  Kuukausi, jolla oli korkein inflaatioaste Saksassa, oli
-  lokakuu 1923, huipussaan 29,50%.
+  Mekanismi, joka varmistaa uuden lohkon lisäämisen lohkoketjuun joka kymmenes minuutti, on vaikeustason säätö.
+  Tämä säätö tapahtuu joka 2016 lohkon jälkeen, eli noin kahden viikon välein.
 reviewed: true

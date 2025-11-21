@@ -1,0 +1,13 @@
+question: Vad är den potentiella nackdelen med Mining i vinstsyfte?
+answer: Det kan leda till centralisering av hashkraft och kan också ha en betydande miljöpåverkan
+wrong_answers:
+  - Det kan leda till en sänkning av priset på Bitcoin
+  - Det kan leda till en minskning av nätverkets Hashrate
+  - Det kan leda till en minskning av antalet aktiva noder i nätverket
+explanation: |
+  Mining i vinstsyfte kan leda till en centralisering av hashing
+  om endast ett fåtal stora företag har råd att investera i avancerad
+  avancerad Mining-utrustning. Dessutom kan energiförbrukningen
+  energiförbrukningen för Mining för vinst kan ha en betydande
+  betydande miljöpåverkan beroende på energikälla.
+reviewed: true

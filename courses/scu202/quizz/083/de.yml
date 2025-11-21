@@ -1,0 +1,9 @@
+question: Bei welchem Messaging-Dienst können Sie sich völlig anonym registrieren, ohne Telefonnummer oder ständige Anmeldung?
+answer: SimpleX Chat
+wrong_answers:
+  - Signal
+  - Telegramm
+  - WhatsApp
+explanation: |
+  SimpleX Chat verzichtet auf die Idee einer eindeutigen Kennung: Kontakte werden über ephemere Links oder QR-Codes hinzugefügt, und es werden keine persönlichen Daten benötigt.
+reviewed: false

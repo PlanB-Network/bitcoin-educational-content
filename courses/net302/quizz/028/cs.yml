@@ -1,0 +1,9 @@
+question: Jaká je jednotka dat, která prochází protokolem Transport Layer pro protokol TCP?
+answer: Segment
+wrong_answers:
+  - Datagram
+  - Rám
+  - Stream
+explanation: |
+  V Transport Layer se u protokolu TCP datová jednotka nazývá segment, zatímco UDP používá termín paket.
+reviewed: false

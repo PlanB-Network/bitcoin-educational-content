@@ -1,0 +1,9 @@
+question: Wat is volgens Keynes het grootste probleem met de goudstandaard?
+answer: Het beperkt het vermogen van de overheid om haar uitgaven te financieren
+wrong_answers:
+  - Het bevordert inflatie
+  - Het belemmert de internationale handel
+  - Alle andere antwoorden zijn juist.
+explanation: |
+  Keynes geloofde dat de gouden standaard het vermogen van overheden beperkte om de Supply aan te passen, waardoor ze hun uitgaven niet gemakkelijk konden financieren, vooral niet tijdens economische crises.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welk gratis hulpprogramma, beschikbaar op alle systemen, kan gebruikt worden om de handtekening van een bestand en de overeenkomst met een openbare sleutel te verifiëren?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) is het referentieprogramma voor het verifiëren van digitale handtekeningen en het beheren van openbare sleutels.
+reviewed: false

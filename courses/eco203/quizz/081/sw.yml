@@ -1,0 +1,9 @@
+question: Kulingana na Bastiat, je, wajibu ni kanuni ya... ?
+answer: ukamilifu
+wrong_answers:
+  - ukamilifu
+  - kudumu
+  - mafanikio kamili
+explanation: |
+  Bastiat anaona uwajibikaji kama kanuni ya ukamilifu, kumaanisha kuwa ni chanzo cha uboreshaji na maendeleo ya kibinafsi kupitia masomo ya uzoefu.
+reviewed: false

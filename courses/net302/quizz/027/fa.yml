@@ -1,0 +1,9 @@
+question: نام واحد داده‌ای که در Application Layer (TCP/IP) مبادله می‌شود چیست؟
+answer: پیام
+wrong_answers:
+  - قاب
+  - بخش
+  - دیتاگرام
+explanation: |
+  در مدل TCP/IP، داده‌هایی که در Application Layer مبادله می‌شوند، پیام‌ها (یا جریان‌ها، بسته به زمینه) نامیده می‌شوند.
+reviewed: false

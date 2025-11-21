@@ -1,0 +1,11 @@
+question: Peru'nun 19. yüzyıldan önceki para birimi neydi?
+answer: İspanyol altını.
+wrong_answers:
+  - Peru doları.
+  - Peru gerçeği.
+  - The soldi oro.
+explanation: |
+  Peru 19. yüzyıla kadar İspanyol altını kullanmıştır. Peru doları
+  
+  1822'den 1863'e kadar kullanıldı.'
+reviewed: false

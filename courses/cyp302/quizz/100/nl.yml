@@ -1,0 +1,9 @@
+question: Wat is de rol van een Nonce in een geauthenticeerd encryptieschema?
+answer: Zorg ervoor dat elk bericht een unieke tag heeft om herhalingen te voorkomen
+wrong_answers:
+  - De afzender van het bericht identificeren
+  - Maak een tijdelijke ontcijferingssleutel
+  - Een extra Layer codering toevoegen
+explanation: |
+  In een geauthenticeerd encryptieschema wordt een Nonce gebruikt om ervoor te zorgen dat elk bericht een unieke tag heeft, waardoor de beveiliging wordt verbeterd door herhalingen te voorkomen.
+reviewed: false

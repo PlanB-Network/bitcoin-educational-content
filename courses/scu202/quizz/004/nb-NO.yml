@@ -1,0 +1,9 @@
+question: Hvilken type dataangrep bruker falske meldinger for å hente ut informasjon?
+answer: Phishing
+wrong_answers:
+  - Løsepengevirus
+  - DDoS
+  - SQL-injeksjon
+explanation: |
+  Phishing bruker villedende e-poster eller meldinger for å lokke folk til å gi fra seg konfidensiell informasjon eller installere skadelig programvare.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale protocollo utilizza il comando ping per verificare la connettività della rete?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Il comando ping utilizza il protocollo ICMP per inviare richieste di eco e misurare la latenza della rete.
+reviewed: false

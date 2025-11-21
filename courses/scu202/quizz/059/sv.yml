@@ -1,0 +1,9 @@
+question: Vem uppfann World Wide Web och utvecklade den allra första webbläsaren?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee är uppfinnaren av World Wide Web och utvecklade den första webbläsaren, WorldWideWeb (numera Nexus), 1990.
+reviewed: false

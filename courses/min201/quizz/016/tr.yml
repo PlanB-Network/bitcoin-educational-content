@@ -1,0 +1,13 @@
+question: Bitcoin madencilerinin enerji dünyasındaki rolü nedir?
+answer: Bitcoin madencileri sürekli olarak ucuz elektrik kaynakları aramaktadır, bunlar genellikle boşa harcanan veya kullanılmayan kaynaklardır. Bu atıl elektriği tüketmeye hazır esnek bir talep kaynağı olarak hareket edebilir ve böylece altyapı maliyetlerini dengelemeye yardımcı olabilirler.
+wrong_answers:
+  - Bitcoin madencileri karbon ayak izlerini azaltmak için sürekli olarak yenilenebilir enerji kaynakları aramaktadır.
+  - Bitcoin madencileri Mining operasyonlarına güç sağlamak için sürekli olarak nükleer enerji kaynakları aramaktadır, çünkü bu enerji üretmenin tek temiz ve yenilenebilir yoludur.
+  - Bitcoin madencileri Mining operasyonlarına güç sağlamak için sürekli olarak güneş enerjisi kaynakları aramaktadır.
+explanation: |
+  Bu bölümde Bitcoin madencilerinin sürekli olarak
+  ucuz elektrik kaynakları arayanlar, genellikle
+  boşa harcanmış veya kullanılmamış. Esnek bir talep olarak hareket edebilirler
+  kaynağı, bu yetim elektriği tüketmeye hazırdır, böylece
+  altyapı maliyetlerinin karşılanmasına yardımcı olur.
+reviewed: true

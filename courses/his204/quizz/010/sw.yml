@@ -1,0 +1,8 @@
+question: Kwa nini, kulingana na Vauban, ni sawa na kawaida kwa kila mtu kulipa kodi?
+answer: Kwa sababu Serikali inatoa huduma zake kwa wote, ni sawa tu kwamba kila mtu anapaswa kuchangia kuzilipia
+wrong_answers:
+  - Kwa sababu serikali inaweza kuongeza zaidi kwa kutoza watu wote ushuru mara moja
+  - Kwa sababu kila mtu wakati mwingine ni tajiri na wakati mwingine maskini katika maisha yake, ni bora kumtoza kila mtu ushuru kwa usawa
+  - Kwa sababu inasaidia kufadhili vita na kuhakikisha ukuu wa ufalme
+explanation: |
+  Vauban aliamini kwamba ushuru unapaswa kuwa wa wote, kwani raia wote walinufaika na huduma za serikali kama vile usalama, haki na miundombinu. Kwa hiyo aliona ni sawa kwamba kila mtu atoe mchango wake kulingana na uwezo wake.

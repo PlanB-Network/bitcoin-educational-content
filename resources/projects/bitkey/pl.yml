@@ -1,0 +1,2 @@
+description: |
+  Bitkey to innowacyjne rozwiązanie do przechowywania i zarządzania Bitcoin Wallet opracowane przez Block, Inc. firmę stojącą za Square i Cash App. Zaprojektowany z myślą o bezpieczeństwie i łatwości użytkowania, Bitkey opiera się na architekturze wielopodpisowej 2-de-3, łączącej klucz lokalny na urządzeniu Bitkey, klucz w aplikacji mobilnej i trzeci klucz zaszyfrowany na bezpiecznym serwerze.

@@ -1,4 +1,4 @@
-question: Cosa significa il prefisso `wpkh` in un descrittore?
+question: Cosa significa il prefisso `wpkh` in un descriptor?
 answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
   - Pay-to-PubKey

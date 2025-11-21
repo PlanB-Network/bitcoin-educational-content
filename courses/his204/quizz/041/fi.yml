@@ -1,0 +1,8 @@
+question: Nimettömänä julkaistu L'Ami des Hommes teki niin suuren vaikutuksen, että se liitettiin aluksi ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes -teosta pidettiin aluksi Montesquieun teoksena sen tyylin ja merkityksen vuoksi, ennen kuin selvisi, että tekijä oli itse asiassa markiisi de Mirabeau.

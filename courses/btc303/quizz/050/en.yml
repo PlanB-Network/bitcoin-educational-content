@@ -1,0 +1,8 @@
+question: What type of attack involves a single entity controlling multiple nodes to appear as multiple entities, and why is it not effective against Bitcoin's consensus mechanism?
+answer: Sybil attack; it's ineffective because Bitcoin uses proof-of-work computing power for consensus rather than counting nodes
+wrong_answers:
+  - "Eclipse attack; it's ineffective because Bitcoin encrypts all node communications using advanced cryptographic protocols"
+  - "Denial-of-service attack; it's ineffective because Bitcoin automatically redistributes traffic across healthy nodes in the network"
+  - "Social engineering attack; it's ineffective because Bitcoin developers use formal verification methods to prevent manipulation"
+explanation: |
+  A Sybil attack occurs when one entity controls multiple nodes to masquerade as many separate entities. However, this attack is ineffective against Bitcoin because the network doesn't rely on counting nodes or democratic voting among network participants. Instead, Bitcoin uses proof-of-work consensus where computing power (hashpower) determines network decisions, not the number of nodes. This makes it impossible for an attacker to gain influence simply by running many nodes without the corresponding computational resources.

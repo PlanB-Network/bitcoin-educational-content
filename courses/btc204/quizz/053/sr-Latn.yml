@@ -1,9 +1,9 @@
-question: Koja je svrha Oznaka u Tihim Plaćanjima?
+question: Koja je svrha oznaka u Tihim Plaćanjima?
 answer: Da biste koristili više različitih statičkih adresa bez nerazumnog povećanja opterećenja skeniranja.
 wrong_answers:
-  - Da šifrujete transakcije Silent Payments kako biste sakrili pravog primaoca transakcije.
+  - Da šifrujete Silent Payments transakcije kako biste sakrili pravog primaoca transakcije.
   - Da biste koristili više različitih statičkih adresa koje ne mogu biti povezane od strane spoljnog posmatrača.
-  - Da biste postavili vidljivu oznaku na Blockchain za identifikaciju Silent Payments na način referencije plaćanja.
+  - Da biste postavili vidljivu oznaku na Blockchain-u za identifikaciju tihih plaćanja na način sličan pozivu na broj.
 explanation: |
-  Oznake se koriste za generate više statičkih adresa iz glavnog statičkog Address, što olakšava Wallet organizaciju. Međutim, spoljni posmatrač bi lako mogao uspostaviti vezu između ovih označenih statičkih adresa, jer je javni ključ skeniranja isti za sve.
+  Oznake se koriste za generisanje više statičkih adresa iz glavne statičke adrese, što olakšava organizaciju novčanika. Međutim, spoljni posmatrač bi lako mogao uspostaviti vezu između ovih označenih statičkih adresa, jer je javni ključ skeniranja isti za sve.
 reviewed: false

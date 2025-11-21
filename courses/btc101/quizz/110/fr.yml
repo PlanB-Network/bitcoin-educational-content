@@ -1,11 +1,10 @@
-question: Qu'est-ce qu'un Blockmit dans le contexte de la sécurité Bitcoin ?
-answer: Une solution peu coûteuse pour graver votre phrase mnémonique sur un morceau d'acier.
+question: Quand Satoshi Nakamoto a-t-il disparu ?
+answer: En 2010
 wrong_answers:
-  - Un type de portefeuille Bitcoin pour signer plusieurs transactions à la fois.
-  - Une solution peu coûteuse pour miner des bitcoins à domicile.
-  - Un type de portefeuille Bitcoin qui nécessite plusieurs signatures pour dépenser les UTXOs.
+  - En 2008
+  - En 2009
+  - En 2023
 explanation: |
-  Le Blockmit est une solution peu coûteuse pour graver votre
-  phrase mnémonique sur un matériau résistant comme l'acier, sécurisant ainsi
-  vos bitcoins sur le long terme.
+  Satoshi Nakamoto a disparu en 2010, laissant sa création
+  entre les mains de la communauté.
 reviewed: true

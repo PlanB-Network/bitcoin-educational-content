@@ -1,0 +1,9 @@
+question: Wat is de totale grootte van een uitgebreide sleutel met controlesom?
+answer: 82 bytes
+wrong_answers:
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
+explanation: |
+  Een uitgebreide sleutel is 78 bytes zonder controlesom en 82 bytes met controlesom.
+reviewed: false

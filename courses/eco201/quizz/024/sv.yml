@@ -1,0 +1,11 @@
+question: Vad är lösningen på problemet med direkt Exchange vid arbetsfördelning?
+answer: Indirekt Exchange underlättas av pengar.
+wrong_answers:
+  - Direkt Exchange underlättas genom byteshandel.
+  - Indirekt Exchange underlättas genom byteshandel.
+  - Direkt Exchange underlättas av pengar.
+explanation: |
+  Pengar möjliggör indirekt Exchange, där en individ kan
+  köpa från en annan, och säljaren kan använda den monetära enheten
+  någon annanstans, vid en annan tidpunkt och med någon annan.
+reviewed: true

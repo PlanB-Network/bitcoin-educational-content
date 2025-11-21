@@ -1,0 +1,12 @@
+question: Vad är ett zombieföretag?
+answer: Ett företag som under normala marknadsförhållanden skulle vara insolvent eller nära konkurs, men som fortsätter sin verksamhet främst genom att låna till låg kostnad.
+wrong_answers:
+  - Ett företag som har varit verksamt i över 100 år.
+  - Ett företag som är verksamt inom tekniksektorn.
+  - Ett företag som har räddats av staten.
+explanation: |
+  Ett zombieföretag är ett företag som under normala marknadsförhållanden skulle vara
+  vara insolvent eller nära konkurs, men som fortsätter sin verksamhet huvudsakligen genom billig
+  upplåning. Dessa företag tjänar precis tillräckligt med pengar för att täcka sina skulder men kan inte
+  växa nämnvärt.
+reviewed: false

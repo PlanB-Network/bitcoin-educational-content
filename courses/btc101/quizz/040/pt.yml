@@ -1,12 +1,12 @@
-question: Qual é a estratégia usada pelas entidades centrais para desvalorizar uma moeda fiduciária?
-answer: Eles aumentam a massa monetária por alguns porcentos a cada ano.
+question: O que é hiperinflação?
+answer: Um aumento drástico na massa monetária.
 wrong_answers:
-  - Eles diminuem a massa monetária por alguns porcentos a cada ano.
-  - Eles mantêm sua massa monetária constante em comparação com a massa inicial.
-  - Eles fazem sua massa monetária flutuar aleatoriamente em comparação com a massa inicial.
+  - Um pequeno aumento na massa monetária.
+  - Uma diminuição drástica na massa monetária.
+  - Uma pequena diminuição na massa monetária.
 explanation: |
-  As entidades centrais frequentemente desvalorizam uma moeda aumentando sua
-  massa monetária em comparação com a inicial por alguns porcentos
-  a cada ano. Essa desvalorização silenciosa é frequentemente justificada como
-  sendo no interesse do povo.
+  A hiperinflação é um fenômeno monetário caracterizado por um
+  aumento drástico na inflação através da impressão monetária
+  pelas autoridades, o que leva a uma perda completa de
+  confiança em uma moeda.
 reviewed: true

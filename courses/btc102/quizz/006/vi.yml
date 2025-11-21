@@ -1,0 +1,9 @@
+question: Lợi ích chính của việc sử dụng trình quản lý mật khẩu là gì?
+answer: Nó lưu trữ và tạo ra mật khẩu phức tạp
+wrong_answers:
+  - Nó cung cấp gợi ý để ghi nhớ mật khẩu của bạn
+  - Nó sử dụng lại cùng một mật khẩu trên nhiều tài khoản trực tuyến khác nhau
+  - Nó thay thế nhu cầu sử dụng phần mềm diệt vi-rút
+explanation: |
+  Trình quản lý mật khẩu tạo ra các mật khẩu mạnh và lưu trữ chúng một cách an toàn, cho phép dễ dàng truy xuất mà không cần phải ghi nhớ chúng.
+reviewed: false

@@ -6,12 +6,12 @@ Transaksi Bitcoin yang dibuat dan ditandatangani, ada dalam bentuk biner. Transa
 
 
 - Versi;
-- Bendera;
-- Masukan;
-- Keluarannya;
-- Waktu penguncian;
-- Saksi.
+- _Flag_;
+- Input;
+- Output;
+- _Timelock_;
+- _Witness_.
 
-Apa yang disebut sebagai "*transaksi mentah*" mewakili data mentah yang dilewatkan melalui fungsi hash SHA256 dua kali untuk menghasilkan TXID transaksi. Data ini kemudian digunakan dalam pohon Merkle blok untuk mengintegrasikan transaksi ke dalam blockchain.
+Apa yang disebut sebagai "*transaksi mentah*" mewakili data mentah yang dilewatkan melalui fungsi _hash_ SHA256 dua kali untuk menghasilkan TXID transaksi. Data ini kemudian digunakan dalam pohon Merkle blok untuk mengintegrasikan transaksi ke dalam _blockchain_.
 
-> ► *Konsep ini juga terkadang disebut "Transaksi Berseri". Dalam bahasa Prancis, istilah-istilah ini masing-masing dapat diterjemahkan sebagai "transaction brute" dan "transaction sérialisée".*
+> ► *Konsep ini juga terkadang disebut "Transaksi Terserialisasi (Serialized Transaction)"*

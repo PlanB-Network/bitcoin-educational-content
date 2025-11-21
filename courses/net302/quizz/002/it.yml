@@ -1,0 +1,9 @@
+question: Qual è il principale punto debole di una rete ad anello?
+answer: Il guasto di un singolo dispositivo può interrompere l'intera rete
+wrong_answers:
+  - Richiede molti cavi per collegare ogni apparecchiatura
+  - È difficile estendere
+  - La sua gestione è complessa
+explanation: |
+  In una topologia ad anello, il guasto di un dispositivo interrompe il loop e impedisce la circolazione dei dati.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva var Quesnays medisinske yrke før han ble økonom?
+answer: Kirurg
+wrong_answers:
+  - Tannlege
+  - Sykepleier
+  - Farmasøyt
+explanation: |
+  François Quesnay var kirurg før han ble økonom. Han var til og med Madame de Pompadours kirurg.

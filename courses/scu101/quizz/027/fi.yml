@@ -2,7 +2,7 @@ question: Mikä on ensisijainen syy olla maksamatta hakkerille lunnaiden tai mui
 answer: Lunnaiden maksaminen ei takaa tietojesi palautumista ja voi rohkaista kyberrikollisia jatkamaan haitallisia toimintojaan.
 wrong_answers:
   - Lunnaiden maksaminen on laitonta ja voi rohkaista kyberrikollisia jatkamaan haitallisia toimintojaan.
-  - Lunnaiden maksaminen ei takaa tietojesi palautumista ja voi rohkaista hakkerit pyytämään lisää rahaa alkuperäisen maksun jälkeen.
+  - Lunastuksen maksaminen ei takaa tietojesi palauttamista, mutta se voi kannustaa hakkereita hyökkäämään muihin uhreihin.
   - Lunnaiden maksaminen voi rohkaista kyberrikollisia jatkamaan haitallisia toimintojaan, koska maksutapa on yleensä jäljittämätön.
 explanation: |
   Lunnaiden maksaminen ei takaa, että saat tietosi takaisin. Lisäksi se rohkaisee kyberrikollisia

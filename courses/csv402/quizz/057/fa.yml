@@ -1,0 +1,9 @@
+question: در RLN، کدام دستور پس از کلون کردن مخزن، باینری "RGB-lightning-node" را نصب می‌کند؟
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  دستور "cargo install --locked --debug --path ." باینری "RGB-lightning-node" را کامپایل و نصب می‌کند.
+reviewed: false

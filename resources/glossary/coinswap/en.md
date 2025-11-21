@@ -1,0 +1,13 @@
+---
+term: COINSWAP
+---
+
+Protocol for secret transfer of ownership between users. This method aims to transfer possession of bitcoins from one person to another, and vice versa, without this exchange being explicitly visible on the Blockchain. Coinwap uses smart contracts to make the transfer without the need for trust between the parties.
+
+Let's imagine a naive example (which doesn't work) with Alice and Bob. Alice holds 1 BTC secured with private key $A$, and Bob also holds 1 BTC secured with private key $B$. Theoretically, they could exchange their private keys via an external communication channel to carry out a secret transfer. However, this naive method presents a high risk in terms of trust. Nothing prevents Alice from keeping a copy of the $A$ private key after the exchange and using it later to steal the bitcoins, once the key is in Bob's hands. What's more, there is no guarantee that Alice won't receive Bob's private key $B$ and never pass on her private key $A$ in exchange. This exchange therefore relies on excessive trust between the parties, and is ineffective in ensuring a secure, secret transfer of ownership.
+
+To solve these problems and enable coinswap between parties who don't trust each other, we're going to use smart contract systems that make the exchange "atomic". These can be HTLC (*Hash Time-Locked Contracts*) or PTLC (*Point Time-Locked Contracts*). These two protocols operate in a similar way, using a time-locking system which ensures that the exchange is either successfully completed or completely cancelled, thus protecting the integrity of both parties' funds. The main difference between HTLC and PTLC is that HTLC uses hashes and preimages to secure the transaction, while PTLC uses Adaptor Signatures.
+
+In a coinswap scenario using a HTLC or PTLC between Alice and Bob, the exchange takes place in a secure manner: either it succeeds and each receives the other's BTC, or it fails and each keeps their own BTC. This makes it impossible for either party to cheat or steal the other's BTC.
+
+The use of Adaptor Signatures is particularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This reduces the costs associated with the exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for both parties to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.

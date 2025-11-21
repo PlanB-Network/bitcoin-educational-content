@@ -1,0 +1,9 @@
+question: Waarom creëert Alice een opnametransactie voordat het de stortingstransactie publiceert?
+answer: Om haar fondsen terug te krijgen in geval van een probleem met Bob
+wrong_answers:
+  - De capaciteit van het kanaal met elke transactie verhogen
+  - Om een Lightning-transactie direct na het openen uit te voeren
+  - Bob toestaan de fondsen direct uit te geven
+explanation: |
+  Alice creëert een opnametransactie om haar geld terug te krijgen als er een probleem optreedt met Bob, en verzekert zo de veiligheid van haar storting.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 什么机制可将 MAC Address 转换为 64 位标识符，以生成 IPv6 Address？
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  EUI-64 机制将 48 位 MAC Address 转换为 64 位标识符，用于 IPv6 自动配置。
+reviewed: false

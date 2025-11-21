@@ -1,0 +1,9 @@
+question: Was ist der Status eines Eintrags im ip neigh-Cache, wenn die IP/MAC-Zuordnung gültig und aktuell ist?
+answer: REACHABLE
+wrong_answers:
+  - VERBINDET
+  - VALID
+  - STALE
+explanation: |
+  Der Zustand REACHABLE bedeutet, dass die IP/MAC-Zuordnung im Nachbarschafts-Cache bekannt und funktionsfähig ist.
+reviewed: false

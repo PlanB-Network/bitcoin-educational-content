@@ -1,0 +1,8 @@
+question: ¿Quién de estos autores se inspiró especialmente en Gournay?
+answer: Turgot
+wrong_answers:
+  - Josiah Child
+  - François Quesnay
+  - Adam Smith
+explanation: |
+  Turgot estuvo muy influido por las ideas de Gournay, en particular su defensa de la libertad económica y su crítica a la intervención del Estado.

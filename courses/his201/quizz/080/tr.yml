@@ -1,0 +1,9 @@
+question: Bitcoin forumu 1 Ağustos 2011 tarihinde hangi alan adına taşınmıştır?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Forum.Bitcoin.org adresine 17 Mayıs'ta taşındıktan sonra, 1 Ağustos'tan itibaren bitcointalk.org adresine geçti. Yıllar içinde BitcoinTalk olarak bilinmeye başlandı.
+reviewed: true

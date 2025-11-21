@@ -1,0 +1,5 @@
+---
+term: BIP0148
+---
+
+Pendekezo lililoletwa Machi 2017 na msanidi programu chini ya jina bandia la Shaolin Fry. Lengo la BIP148 lilikuwa kulazimisha uanzishaji wa sasisho la SegWit kwenye itifaki ya Bitcoin, kwa kukabiliana na vilio vya ishara kwa Soft Fork hii na wachimbaji kupitia njia ya BIP9. BIP148 ilipendekeza utekelezwaji wa UASF (*Soft Fork* Iliyoamilishwa na Mtumiaji) ili kuwezesha SegWit kwa nodi mnamo Novemba 15, 2017, ikiwa wachimbaji hawakuwa wamefunga SegWit kufikia tarehe 1 Agosti 2017. Ikiwa kupitishwa kwa BIP148 Bitcoin kwa msaada wa mtandao haungetokea, basi hakuna msaada wa mtandao wa Bitcoin ungekataa. SegWit, na hivyo kutoa shinikizo kwa wachimbaji kupitisha sasisho. Ingawa BIP hii ya kihistoria hatimaye haikuamilishwa, ilichukua jukumu muhimu katika kupitishwa kwa SegWit kwa mafanikio, kwa kuwalazimisha wachimba migodi kufunga Soft Fork kupitia BIP91. Kwa muda mrefu, BIP148 ilianzisha mfano muhimu, unaoonyesha ushawishi ambao watumiaji wanaweza kutumia kupitia nodi zao kamili kwenye maamuzi ya utawala ya itifaki ya Bitcoin.

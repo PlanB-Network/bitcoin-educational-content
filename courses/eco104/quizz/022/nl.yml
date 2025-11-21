@@ -1,0 +1,11 @@
+question: Hoe kunnen stablecoins helpen om de kosten van geldovermakingen te verlagen?
+answer: Door lagere tarieven aan te bieden dan traditionele diensten
+wrong_answers:
+  - Door gratis geldtransferdiensten aan te bieden
+  - Door individuen betere Exchange tarieven te geven dan traditionele diensten
+  - Door fiatvaluta's te digitaliseren
+explanation: |
+  Stablecoins hebben, in tegenstelling tot traditionele geldtransferdiensten, aanzienlijk
+  lagere kosten omdat er geen tussenpersonen nodig zijn zoals banken of geldtransferdiensten
+  overboekingsdiensten.
+reviewed: true

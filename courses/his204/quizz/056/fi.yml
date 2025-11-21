@@ -1,0 +1,8 @@
+question: Mitä eroa on fysiokraattien mielestä tuotannon ja voiton välillä?
+answer: Teollisuudenharjoittaja ja kauppias voivat voittaa, mutta vain maanviljelijä tuottaa, koska tuotanto on hyödyllisen aineen luomista
+wrong_answers:
+  - Valmistajat ja kauppiaat eivät välttämättä tee voittoa. Ainoastaan maatalous tuo välttämättä voittoa.
+  - Maanviljelijä voi ansaita, mutta vain teollisuusyrittäjä ja kauppias tuottavat, koska tuottaminen on palvelun tarjoamista
+  - Tuotanto ja voitto ovat sama asia
+explanation: |
+  Fysiokraatit uskoivat, että vain maatalous oli tuottavaa, koska se loi uutta ainetta. Teollisuutta ja kauppaa pidettiin hedelmättömänä toimintana, koska ne vain muuttavat tai syrjäyttävät olemassa olevaa vaurautta.

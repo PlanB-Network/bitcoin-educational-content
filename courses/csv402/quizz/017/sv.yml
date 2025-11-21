@@ -1,0 +1,9 @@
+question: Vilken struktur garanterar den tidsmässiga konsistensen av övergångar i RGB?
+answer: EN DAG (Directed Acyclic Graph)
+wrong_answers:
+  - En enkel linjär kedja
+  - Ett dynamiskt peer-to-peer-nätverk
+  - Ett binärt träd för UTXO:er
+explanation: |
+  En DAG gör det möjligt att strukturera tillståndsövergångar och samtidigt tillåta parallella utvecklingar utan inkonsekvenser.
+reviewed: false

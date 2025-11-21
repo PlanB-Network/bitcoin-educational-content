@@ -1,0 +1,9 @@
+question: Vilken matematisk operation ligger till grund för säkerheten i kryptografi med elliptisk kurva?
+answer: Diskret logaritm-problem
+wrong_answers:
+  - Faktorisering av primtal
+  - Beräkning av kvadratiska residualer
+  - Diskret kubproblem
+explanation: |
+  Säkerheten i kryptografi med elliptiska kurvor baseras på svårigheten att lösa det diskreta logaritmproblemet på dessa kurvor.
+reviewed: false

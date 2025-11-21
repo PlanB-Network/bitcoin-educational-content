@@ -1,0 +1,19 @@
+id: d82080d4-32b5-487e-be59-e289d28b9e5e
+start_date: 2025-09-15 12:00:00
+end_date: 2025-09-16 22:00:00
+timezone: America/Asuncion
+address_city_country: Asuncion, Paraguay
+name: Accelerating Bitcoin Paraguay 2025
+type: conference
+description: |
+  The first Bitcoin-only conference in Paraguay is here! 
+  Join us September 29–30 at Paseo La Galería, Asunción.
+  Two days, three languages, one mission: accelerate hyperbitcoinization.
+language:
+  - en
+  - es
+links:
+  website: https://acelerandobitcoin.com/
+tags:
+  - education
+  - adoption

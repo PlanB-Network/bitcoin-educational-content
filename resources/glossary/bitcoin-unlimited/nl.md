@@ -1,0 +1,5 @@
+---
+term: Bitcoin ONBEPERKT
+---
+
+Een voorstel om het Bitcoin protocol te updaten dat opdook in de nazomer van 2016, met als doel de blokgrootte flexibel te vergroten via een Hard Fork. Deze Fork werd gesteund door de grote blockers tijdens de Blocksize War, met name door Roger Ver. Deze Fork werd gesteund door de grote blockers tijdens de Blocksize War, met name door Roger Ver. In tegenstelling tot Bitcoin Classic, stelde Bitcoin Unlimited geen bovengrens aan de blokgrootte, maar stond het gebruikers toe om hun eigen parameters te definiëren. Deze parameters waren onder andere de maximale generatiegrootte, de extra blokgrootte en de acceptatiediepte. Bitcoin Unlimited werd echter bekritiseerd vanwege de technische complexiteit en zwakke plekken in de beveiliging. Deze update werd uiteindelijk nooit aangenomen.

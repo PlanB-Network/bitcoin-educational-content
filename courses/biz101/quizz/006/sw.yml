@@ -6,4 +6,4 @@ wrong_answers:
   - Inaondoa tete zote katika bei ya Bitcoin.
 explanation: |
   Kwa kuwa na kiwango cha juu cha Supply kati ya milioni 21, uhaba wa Bitcoin ni Hard-coded, na kuifanya kuwa tofauti kimsingi na sarafu ya mfumuko wa bei ambapo Supply inaweza kuongezwa kwa hiari.
-reviewed: false
+reviewed: true

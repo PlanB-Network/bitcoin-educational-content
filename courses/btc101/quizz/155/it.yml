@@ -1,9 +1,9 @@
-question: Cos'è la transazione coinbase?
-answer: La prima transazione del blocco che include la ricompensa del miner.
+question: Qual è il ruolo dei miner nel protocollo Bitcoin?
+answer: Garantiscono la sicurezza della rete attuale e storica.
 wrong_answers:
-  - Una transazione effettuata sull'exchange Coinbase.
-  - La seconda transazione del blocco che include le commissioni più alte.
-  - Una transazione effettuata dal miner dopo aver ricevuto la ricompensa.
-explanation: >-
-  La transazione coinbase è sempre la prima transazione di un blocco. Include la ricompensa del miner per aver eseguito il lavoro di validazione.
-reviewed: vero
+  - Regolano il prezzo di Bitcoin.
+  - Controllano l'offerta di Bitcoin.
+  - Gestiscono le transazioni tra utenti.
+explanation: |
+  Nel protocollo Bitcoin, i miner garantiscono la sicurezza sia della rete attuale che di quella storica. Non regolano il prezzo di Bitcoin, non controllano la sua offerta, né gestiscono le transazioni tra utenti.
+reviewed: true

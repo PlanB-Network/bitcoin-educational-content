@@ -1,0 +1,11 @@
+question: Wat is cherry picking in de context van economie?
+answer: Cherry picking is het selectief kiezen van gegevens om relaties tussen variabelen te leggen.
+wrong_answers:
+  - Cherry picking houdt in dat alle gegevens worden genegeerd en dat er alleen wordt vertrouwd op hypotheses.
+  - Cherry picking houdt in dat alle beschikbare gegevens worden gebruikt zonder enige selectie.
+  - Cherry picking houdt in dat alleen gegevens worden gebruikt die het beleid van de overheid ondersteunen.
+explanation: |
+  In de economie is cherry picking het selectief kiezen van gegevens om relaties tussen variabelen vast te stellen
+  relaties tussen variabelen te leggen. Het wordt beschouwd als een onwetenschappelijke en oneerbiedige
+  methode.
+reviewed: true

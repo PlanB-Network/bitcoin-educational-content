@@ -1,9 +1,0 @@
-question: Koja je jedna prednost korišćenja Exchange platforme za kupovinu i prodaju bitkoina?
-answer: Omogućava redovne transakcije prema potrebama korisnika.
-wrong_answers:
-  - Omogućava anonimne transakcije.
-  - Povećava vrednost Bitcoin.
-  - Pruža platformu za Mining Bitcoin.
-explanation: |
-  Exchange platforme omogućavaju korisnicima da redovno i praktično kupuju i prodaju bitkoine, u skladu sa njihovim potrebama.
-reviewed: false

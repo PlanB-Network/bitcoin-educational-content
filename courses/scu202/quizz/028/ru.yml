@@ -1,0 +1,9 @@
+question: Какую команду можно использовать для установки программного обеспечения из официальных репозиториев Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - install-software
+explanation: |
+  Команда "sudo apt install" устанавливает пакет программного обеспечения через менеджер пакетов APT, который является родным методом в Ubuntu.
+reviewed: false

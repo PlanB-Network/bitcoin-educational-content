@@ -1,0 +1,9 @@
+question: När var den faktiska lanseringen av Bitcoin-prototypnätverket 2009?
+answer: Den 9 januari 2009 kl. 02:54:25 UTC
+wrong_answers:
+  - 3 januari 2009, kl. 18:15:05 UTC
+  - 8 januari 2009, kl. 19:27:40 UTC
+  - 12 januari 2009, kl. 03:30:25 UTC
+explanation: |
+  Detta är Timestamp av block 1 i Blockchain, som utvanns av Satoshi Nakamoto efter att ha publicerat programkoden på e-postlistan några timmar tidigare. Genesis-blocket (0) skapades mellan den 3 och 8 januari, men det fanns inget egentligt nätverk.
+reviewed: true

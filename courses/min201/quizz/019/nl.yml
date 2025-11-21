@@ -1,0 +1,12 @@
+question: Wat is de betekenis van Lightning Network in de context van Bitcoin Mining?
+answer: De Lightning Network heeft het potentieel om de transactiekosten aanzienlijk te verlagen, wat een impact heeft op het inkomen van mijnwerkers.
+wrong_answers:
+  - De Lightning Network vergroot de blokgrootte, waardoor het inkomen van mijnwerkers toeneemt.
+  - Lightning Network vermindert het energieverbruik van Bitcoin Mining.
+  - De Lightning Network verhoogt de snelheid van Bitcoin Mining.
+explanation: |
+  De Lightning Network maakt snelle en goedkope
+  transacties buiten de hoofdketen van de Bitcoin. Dit heeft
+  het potentieel om de transactiekosten aanzienlijk te verlagen,
+  wat een impact kan hebben op het inkomen van mijnwerkers.
+reviewed: true

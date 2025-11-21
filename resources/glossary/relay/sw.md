@@ -1,0 +1,5 @@
+---
+term: RELAIS
+---
+
+Katika muktadha wa Proof-of-Work kwenye mtandao wa Bitcoin, inamaanisha chombo ambacho kazi yake kuu ni kupeana vizuizi vipya vilivyopatikana. Tofauti wakati mwingine hufanywa kati ya jukumu la Miner, ambaye anahusika katika mchakato mzima wa Proof-of-Work, kutoka kwa ujenzi wa kizuizi cha mgombea hadi usambazaji wa block iliyoidhinishwa, na jukumu la chopper, ambayo ni mdogo kwa kushiriki katika hashing ya block bila kuingilia kati katika uteuzi wake au usambazaji. Jukumu la relay, kwa upande mwingine, linajumuisha kusambaza vitalu vipya vilivyopatikana na chopper. Katika kesi ya mabwawa ya Mining, jukumu hili la relay linafanywa na bwawa yenyewe. Ni jukumu hili ambalo huwapa bwawa nguvu kubwa juu ya choppers za kibinafsi. Neno "relayer" linaweza pia kurejelea mtu au huluki inayoendesha relay.

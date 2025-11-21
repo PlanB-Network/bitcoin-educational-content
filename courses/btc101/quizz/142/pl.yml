@@ -1,8 +1,10 @@
-question: Czym jest przycięty węzeł w kontekście Bitcoin?
-answer: Węzeł, który przechowuje w pamięci tylko N ostatnich bloków.
+question: Czym jest sieć Lightning?
+answer: Natychmiastową siecią płatności Bitcoin opartą na łańcuchu bloków Bitcoina.
 wrong_answers:
-  - Węzeł, który tylko zatwierdza transakcje.
-  - Węzeł, który przesyła informacje tylko do innych węzłów.
-  - Węzeł, który egzekwuje tylko zasady protokołu Bitcoin.
-explanation: >-
+  - Oddzielną siecią niezależną od łańcucha bloków Bitcoina.
+  - Siecią górników Bitcoina.
+  - Siecią giełd Bitcoina.
+explanation: |
+  Sieć Lightning to sieć płatności natychmiastowych Bitcoin,
+  która jest oparta na łańcuchu bloków Bitcoina.
 reviewed: true

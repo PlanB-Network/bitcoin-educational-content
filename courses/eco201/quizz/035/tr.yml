@@ -1,0 +1,14 @@
+question: Avusturya İş Döngüsü Teorisine göre tasarruflardaki artış nedeniyle faiz oranlarında bir düşüş olduğunda ne olur?
+answer: Tüketilen nihai malların miktarı azalacak, faiz oranları düşecek, girişimciler bu sermaye akışını yeni yatırım malları yaratmak için kullanacak ve böylece üretim yapısını uzatacaktır.
+wrong_answers:
+  - Tüketilen nihai malların miktarı artacak, faiz oranları yükselecek, girişimciler bu sermaye akışını yeni yatırım malları yaratmak için kullanacak ve böylece üretim yapısını kısaltacaktır.
+  - Tüketilen nihai malların miktarı azalacak, faiz oranları yükselecek, girişimciler bu sermaye akışını yeni yatırım malları yaratmak için kullanacak ve böylece üretim yapısını kısaltacaktır.
+  - Tüketilen nihai malların miktarı artacak, faiz oranları düşecek, girişimciler bu sermaye akışını yeni yatırım malları yaratmak için kullanacak ve böylece üretim yapısını kısaltacaktır.
+explanation: |
+  Avusturyacı İş Döngüsü Teorisi'ne göre
+  tasarruflardaki artışa bağlı olarak faiz oranlarında bir düşüş, nihai ürün miktarı
+  tasarruf, tüketimin bir kısmının ertelenmesini içerdiğinden tüketilen mallar azalacaktır
+  daha ileri bir tarihe ertelenecektir. Sonuç olarak, faiz oranları düşecektir çünkü Supply sermaye
+  artıyor. Bu da girişimcilerin bu sermaye akışını kullanarak
+  yeni yatırım malları ve böylece üretim yapısını genişletmek.
+reviewed: true

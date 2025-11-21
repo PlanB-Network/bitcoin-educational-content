@@ -1,0 +1,13 @@
+question: Vilka är de potentiella nackdelarna med digitala centralbanksvalutor (CBDC)?
+answer: De kan hindra individers ekonomiska frihet och underlätta auktoritära övergrepp.
+wrong_answers:
+  - De kan leda till en minskning av pengarna Supply.
+  - De skulle kunna leda till en minskning av värdet på Bitcoin.
+  - De kan leda till att guldets värde sjunker.
+explanation: |
+  Digitala centralbanksvalutor (CBDC) kan potentiellt
+  hindra individers ekonomiska frihet och underlätta
+  auktoritära övergrepp. Detta beror på att de skulle erbjuda en
+  mer centralt planerad ekonomi, med centralbanken som
+  har ännu mer kontroll över pengarna Supply.
+reviewed: true

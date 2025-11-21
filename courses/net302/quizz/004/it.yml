@@ -1,0 +1,9 @@
+question: Che cosa significa "topologia" in una rete di computer?
+answer: Come sono interconnessi i dispositivi
+wrong_answers:
+  - Velocità di connessione a Internet
+  - Il tipo di protocollo utilizzato per la comunicazione
+  - Alla marca dei router utilizzati in una rete
+explanation: |
+  La topologia si riferisce alla struttura fisica o logica di una rete e al modo in cui i suoi componenti sono collegati.
+reviewed: false

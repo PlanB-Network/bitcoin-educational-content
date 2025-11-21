@@ -1,4 +1,4 @@
-question: Kako se sprečava dvostruko trošenje na Bitcoin?
+question: Kako se sprečava dvostruko trošenje na Bitcoin-u?
 answer: Kroz javno emitovanje svih sistemskih transakcija.
 wrong_answers:
   - Verifikacijom identiteta korisnika pre svake transakcije.

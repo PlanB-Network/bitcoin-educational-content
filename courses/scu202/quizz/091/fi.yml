@@ -1,0 +1,9 @@
+question: Mikä protokolla määrittää dynaamisesti paikallisen IP Address:n verkkoon liitetyille laitteille?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP määrittää automaattisesti IP Address:n jokaiselle uudelle lähiverkkoon liitetylle laitteelle.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ترکیب کدام عملکردهای Hash برای کوتاه‌تر کردن اثر انگشت‌ها در Bitcoin استفاده می‌شود؟
+answer: هش160
+wrong_answers:
+  - SHA512-SHA256
+  - هش۲۵۶
+  - SHA160
+explanation: |
+  ترکیب HASH160 شامل SHA256 و RIPEMD160 برای اثر انگشت‌های 160 بیتی generate است، به ویژه برای آدرس‌های Bitcoin.
+reviewed: false

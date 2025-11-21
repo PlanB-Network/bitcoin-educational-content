@@ -1,0 +1,9 @@
+question: Vilken sighash-flagga används oftast i Bitcoin-transaktioner?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL är standardflaggan för sighash, som täcker alla in- och utgångar i en transaktion och förhindrar alla ändringar.
+reviewed: false

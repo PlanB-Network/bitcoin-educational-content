@@ -1,0 +1,9 @@
+question: Mesin rendering mana yang dibuat dari Fork KHTML untuk melengkapi Safari?
+answer: WebKit
+wrong_answers:
+  - Trisula
+  - Tokek
+  - Berkedip
+explanation: |
+  WebKit adalah Fork dari KHTML, yang dipilih oleh Apple untuk Safari dari tahun 2003 dan seterusnya, dan kemudian diadopsi oleh banyak browser.
+reviewed: false

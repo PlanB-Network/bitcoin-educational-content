@@ -1,0 +1,9 @@
+question: Quale organizzazione è stata fondata nel 1998 per promuovere il termine "open source"?
+answer: Iniziativa Open Source (OSI)
+wrong_answers:
+  - Fondazione Software Libero (FSF)
+  - Progetto Debian
+  - Fondazione Mozilla
+explanation: |
+  L'OSI è stato creato per enfatizzare l'aspetto pragmatico e tecnico dell'apertura del codice, distinto dalla filosofia del software libero.
+reviewed: false

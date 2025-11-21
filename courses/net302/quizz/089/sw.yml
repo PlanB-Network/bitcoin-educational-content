@@ -1,0 +1,9 @@
+question: Amri ya ping hutumia itifaki gani kujaribu muunganisho wa mtandao?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Amri ya ping hutumia itifaki ya ICMP kutuma maombi ya mwangwi na kupima muda wa mtandao.
+reviewed: false

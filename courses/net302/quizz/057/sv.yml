@@ -1,0 +1,9 @@
+question: Vilken parameter i ifcfg-eth0-filen anger DHCP-konfiguration?
+answer: BOOTPROTO=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  Parametern "BOOTPROTO=dhcp" anger att Interface ska få sin konfiguration via DHCP-protokollet.
+reviewed: false

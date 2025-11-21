@@ -1,0 +1,8 @@
+question: Hvilken tilnærming bør utviklere bruke når de vurderer den potensielle effekten av oppdagede sikkerhetsproblemer, ifølge Gregory Maxwells perspektiv på vurdering av sårbarheters alvorlighetsgrad?
+answer: Behandle sårbarheter som mer alvorlige enn det som er kjent i dag, og anta at de lett kan utnyttes selv om de ser ut til å være vanskelige å utnytte
+wrong_answers:
+  - Fokuser kun på den umiddelbare observerbare effekten, og kategoriser sårbarheter basert på deres nåværende kjente utnyttelsesmetoder
+  - Prioriter sårbarheter basert på deres tekniske kompleksitet, og utsett rettelser av problemer som teoretisk sett virker vanskelige å utnytte
+  - Evaluerer hver sårbarhet isolert, uten å ta hensyn til hvordan flere mindre problemer kan kombineres for å skape større sikkerhetsrisikoer
+explanation: |
+  Maxwell mener at utviklere bør behandle sårbarheter som mer alvorlige enn de ser ut til, fordi problemer som er vanskelige å utnytte, kan bli trivielle med riktig teknikk, og tilsynelatende mindre problemer kan eskalere til alvorlige trusler. Han understreker at enkle ytelsesfeil kan brukes som våpen for å partisjonere nettverket og muliggjøre double-spending-angrep. Denne konservative tilnærmingen erkjenner at utviklere i utgangspunktet kanskje ikke forstår det fulle utnyttelsespotensialet til en sårbarhet, noe som gjør det klokt å anta det verst tenkelige scenarioet i stedet for å undervurdere trusselen.

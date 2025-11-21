@@ -1,0 +1,9 @@
+question: Khối Genesis của Bitcoin được tạo ra vào năm nào?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Khối Genesis, khối đầu tiên của Blockchain, được khai thác vào tháng 1 năm 2009.
+reviewed: false

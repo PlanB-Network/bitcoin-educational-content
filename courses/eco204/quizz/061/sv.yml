@@ -1,0 +1,12 @@
+question: Vad blev konsekvensen av att Bank of England förpassade privatbankerna till en underordnad position i det monetära systemet?
+answer: En tredje Layer av valuta skapades
+wrong_answers:
+  - Bank of England gick i konkurs
+  - Värdet på guld ökade
+  - Bank of Amsterdam blev det globala ekonomiska centrumet
+explanation: |
+  När Bank of England förpassade privatbankerna till en sekundär position
+  i det monetära systemet skapades en tredje Layer-valuta. De sedlar som utfärdades
+  privata bankerna var inte längre konvertibla till guld utan till pappersvaluta från Bank of
+  bank of England, som i sin tur var konvertibel till guld.
+reviewed: false

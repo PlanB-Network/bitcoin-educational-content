@@ -1,0 +1,9 @@
+question: Hvilken notasjon brukes for å angi prefiksstørrelsen i en IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Desimal nettmaske med prikker
+  - Heksadesimalt atskilt med kolon
+  - ICANN
+explanation: |
+  CIDR-notasjonen angir antall faste prefiksbiter etter en skråstrek, akkurat som i IPv4.
+reviewed: false

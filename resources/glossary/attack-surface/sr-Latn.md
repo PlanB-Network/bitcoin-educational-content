@@ -1,0 +1,5 @@
+---
+term: NAPADNA POVRŠINA
+---
+
+Odnosi se na ukupan broj potencijalnih ulaznih tačaka koje napadač može iskoristiti da bi dobio pristup sistemu. Površina napada uključuje sve interfejse, servise, portove, protokole i druge komunikacione vektore koji bi mogli biti izloženi. Proširena površina napada povećava ranjivosti, čime sistem postaje podložniji napadima. Smanjenje površine napada je dobra sigurnosna praksa koja podrazumeva onemogućavanje nepotrebnih servisa. Na primer, u kontekstu Bitcoin, hardverski novčanici imaju mnogo manju površinu napada od softverskih novčanika. Naime, oni izoluju ključeve na uređaju koji nije povezan na Internet, imajući vrlo malo interfejsa i servisa. Nasuprot tome, softverski novčanici su instalirani na svestranim računarima, koji imaju mnogo veću površinu napada zbog brojnih funkcionalnosti i mrežnih konekcija koje podržavaju.

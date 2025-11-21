@@ -1,0 +1,9 @@
+question: Koja je uloga Nostr releja instaliranog na Umbrelu?
+answer: Hostujte svoje publikacije lokalno
+wrong_answers:
+  - Proveri Bitcoin transakcije
+  - Kreirajte Nostr kanale sa svojim kontaktima
+  - Lokalna rezervna kopija Blockchain Nostr
+explanation: |
+  Nostr relej na Umbrelu omogućava da se podaci hostuju lokalno, garantujući dostupnost i suverenitet.
+reviewed: true

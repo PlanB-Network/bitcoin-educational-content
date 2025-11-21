@@ -1,0 +1,9 @@
+question: Tổng số Supply bitcoin tối đa đang lưu hành là bao nhiêu?
+answer: 21 triệu
+wrong_answers:
+  - 10 triệu
+  - 47 triệu
+  - 150 triệu
+explanation: |
+  Bitcoin được lập trình để có Supply giới hạn khoảng 21 triệu bitcoin.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Za jaką książkę Mirabeau został uwięziony?
+answer: Teoria opodatkowania
+wrong_answers:
+  - L'Ami des Hommes
+  - Esej na temat ogólnego charakteru handlu
+  - The Social Contract
+explanation: |
+  Mirabeau został uwięziony za pracę "La Théorie de l'Impôt", w której krytykował francuski system podatkowy.

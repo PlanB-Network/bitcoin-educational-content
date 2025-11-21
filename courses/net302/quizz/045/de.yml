@@ -1,0 +1,9 @@
+question: Was ist die Praxis der künstlichen Veränderung Ihres MAC Address?
+answer: MAC-Spoofing
+wrong_answers:
+  - MAC-Phishing
+  - MAC-Sniffing
+  - Mac Keylogging
+explanation: |
+  MAC-Spoofing ist das Ändern der Hardware Address eines Netzes Interface, oft aus Gründen des Datenschutzes oder zur Umgehung von Beschränkungen.
+reviewed: false

@@ -1,10 +1,10 @@
-question: Qual é uma característica única do protocolo Bitcoin?
-answer: Opera em escala global, 24 horas por dia, 7 dias por semana.
+question: Qual é uma razão pela qual o preço do Bitcoin pode cair 10%, 20% ou até 50% em apenas alguns dias?
+answer: Fases de mercado altista e baixista.
 wrong_answers:
-  - Opera apenas durante o horário comercial.
-  - É controlado por uma autoridade central.
-  - Pode ser facilmente hackeado.
+  - O número de pessoas usando a internet.
+  - O clima.
+  - O preço do ouro.
 explanation: >-
-  O protocolo Bitcoin é único porque opera em escala global,
-  24 horas por dia, 7 dias por semana, tornando a regulação difícil para as autoridades financeiras.
+  O preço do Bitcoin é frequentemente caracterizado por uma volatilidade significativa,
+  que pode ser influenciada por variações de mercado e fases de mercado altista e baixista.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Quale famiglia di distribuzioni utilizza il gestore di pacchetti RPM?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Arco
+  - Slackware
+explanation: |
+  Il formato RPM è stato avviato da Red Hat ed è alla base di Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux e altre distribuzioni correlate.
+reviewed: false

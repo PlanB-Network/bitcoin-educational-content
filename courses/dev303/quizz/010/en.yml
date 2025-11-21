@@ -1,0 +1,8 @@
+question: What happens to a variable when ownership is moved to another variable in Rust?
+answer: The original variable becomes invalid and cannot be used anymore
+wrong_answers:
+  - The original variable becomes a read-only reference to the data
+  - Both variables share ownership and can modify the data independently
+  - The original variable is automatically converted to a mutable reference
+explanation: |
+  When ownership is moved in Rust, the original variable becomes completely invalid and cannot be accessed anymore. This is a fundamental safety feature that prevents multiple variables from managing the same heap memory, which could lead to use-after-free bugs or double-free errors. The move operation transfers complete control to the new variable, and the compiler will produce an error if you try to use the original variable after the move. This differs from copying (where both variables remain valid) and borrowing (where the original owner retains ownership).

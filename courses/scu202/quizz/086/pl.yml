@@ -1,0 +1,9 @@
+question: Która aplikacja do tłumaczenia open source współpracuje z różnymi silnikami i nie gromadzi przetłumaczonych tekstów?
+answer: TranslateYou
+wrong_answers:
+  - Tłumacz Google
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou działa jako Interface dla kilku silników, bez śledzenia lub gromadzenia danych osobowych, w przeciwieństwie do usług zastrzeżonych.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir HD Wallet için manuel olarak generate entropisi kullanmak neden risklidir?
+answer: İnsani zayıflıkları veya öngörülebilir önyargıları ortaya çıkarabilir
+wrong_answers:
+  - Geçersiz genel anahtarlarla sonuçlanır
+  - Özel anahtarların türetilmesini engeller
+  - Oluşturulan Mnemonic ifadelerinin boyutunu sınırlar
+explanation: |
+  Entropinin manuel olarak üretilmesi önyargılara veya hatalara yol açarak anahtarları saldırılara karşı daha savunmasız hale getirebilir.
+reviewed: false

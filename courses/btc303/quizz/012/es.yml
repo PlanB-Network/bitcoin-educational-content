@@ -1,0 +1,8 @@
+question: Según el capítulo, ¿cuál es la principal limitación de la que ni siquiera un full node puede protegerte?
+answer: Reescrituras en cadena que podrían duplicar sus transacciones
+wrong_answers:
+  - Software malicioso que roba tus claves privadas de la memoria
+  - "Bloques inválidos que no siguen las reglas de consenso de Bitcoin"
+  - Horarios de emisión de monedas incorrectos que infringen el protocolo
+explanation: |
+  Aunque una full node puede verificar que los bloques siguen las reglas de consenso, evitar la emisión de monedas no válidas y detectar violaciones del protocolo, no puede evitar las reescrituras de la cadena en las que los mineros reorganizan la blockchain para duplicar las transacciones. El capítulo establece específicamente que no importa lo avanzado que sea tu software, aún debes confiar en que los bloques que contienen tus monedas no serán reescritos. Esta es la razón por la que el mecanismo de defensa de Bitcoin se basa en esperar múltiples confirmaciones para reducir la probabilidad de una reescritura de la cadena a un nivel aceptable.

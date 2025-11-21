@@ -1,0 +1,9 @@
+question: Basit bir ödeme işleminde 500.000 Sats'lık bir girdi 47.500 Sats'lık bir çıktıya ve 451.000 Sats'lık bir başka çıktıya bölündüğünde, hangi UTXO muhtemelen değişir?
+answer: 451,000 Sats'den biri.
+wrong_answers:
+  - 500,000 Sats'lük olan.
+  - 47,500 Sats'ten biri.
+  - Hiçbiri.
+explanation: |
+  Basit bir ödeme modelindeki bir işlemde iki çıktı arasında yeterince büyük bir fark olduğunda, daha büyük olan çıktının muhtemelen değişim olduğu tahmin edilebilir.
+reviewed: false

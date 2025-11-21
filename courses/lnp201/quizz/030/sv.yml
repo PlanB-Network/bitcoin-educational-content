@@ -1,0 +1,9 @@
+question: Hur gör Lightning Network det möjligt att skicka pengar till en nod som inte är direktansluten?
+answer: Genom att dirigera betalningen via mellanliggande noder
+wrong_answers:
+  - Genom att använda On-Chain-transaktioner mellan varje nod
+  - Genom att automatiskt upprätta en tillfällig kanal
+  - Genom att skicka pengarna direkt med adresser med flera signaturer
+explanation: |
+  Lightning Network gör det möjligt att dirigera en betalning genom flera mellanliggande noder, utan att det krävs en direktkanal mellan avsändaren och mottagaren.
+reviewed: false

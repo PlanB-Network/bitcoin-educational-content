@@ -1,0 +1,8 @@
+question: ¿En qué países se aplicaron reformas económicas inspiradas en la fisiocracia?
+answer: Francia, Italia, Alemania
+wrong_answers:
+  - Inglaterra, Francia, Alemania
+  - Holanda, Italia, Suecia
+  - España, Portugal, Rusia
+explanation: |
+  Las reformas fisiocráticas se intentaron en Francia, Italia y Alemania, pero a menudo duraron poco debido a la oposición de los intereses establecidos.

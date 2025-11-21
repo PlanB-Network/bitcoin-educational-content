@@ -1,9 +1,13 @@
-question: Laquelle de ces options est fausse concernant la perte de l'appareil sur lequel se trouve votre portefeuille Bitcoin ?
-answer: Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en réinitialisant votre mot de passe.
+question: Qu'est-ce qu'un portefeuille chaud ?
+answer: Un portefeuille Bitcoin sur votre téléphone ou ordinateur connecté à internet.
 wrong_answers:
-  - Vous perdez tous vos Bitcoins si vous n'avez pas la phrase mnémonique.
-  - Vous pouvez vérifier avec vos clés publiques que vos bitcoins n'ont pas été dépensés.
-  - Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en utilisant la phrase mnémonique.
+  - Un portefeuille qui est physiquement chaud au toucher.
+  - Un portefeuille qui est populaire parmi les utilisateurs de Bitcoin.
+  - Un portefeuille qui est recommandé pour stocker de grandes quantités de bitcoins.
 explanation: |
-  Perdre l'appareil sur lequel se trouve votre portefeuille ne signifie pas nécessairement la perte de vos Bitcoins. Ce qui vous permet de recréer votre portefeuille et de dépenser vos bitcoins est la phrase mnémonique.
+  Un portefeuille chaud est un terme utilisé pour décrire un portefeuille Bitcoin
+  qui est stocké sur un appareil ayant accès à internet, tel qu'un
+  téléphone ou un ordinateur. De cette manière, il est facile de réaliser
+  des transactions, mais cela signifie également que le portefeuille est
+  potentiellement vulnérable aux menaces en ligne.
 reviewed: true

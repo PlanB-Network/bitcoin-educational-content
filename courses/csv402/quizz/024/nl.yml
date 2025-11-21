@@ -1,0 +1,9 @@
+question: Welk mechanisme in RGB maakt het mogelijk om meerdere overgangen te groeperen in een enkele Bitcoin transactie?
+answer: Transition Bundle
+wrong_answers:
+  - Seal aggregatie
+  - Multi-Commitment boom
+  - Staatsconsolidatie
+explanation: |
+  Een Transition Bundle is een verzameling RGB toestandsovergangen (behorend tot dezelfde Contract) die allemaal betrokken zijn bij dezelfde Bitcoin Witness Transaction.
+reviewed: false

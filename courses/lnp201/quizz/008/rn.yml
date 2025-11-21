@@ -1,0 +1,9 @@
+question: Ni gute Address y’imikono myinshi 2/2 ikora muri Bitcoin?
+answer: Bisaba amasinyatire abiri kugira ngo umuntu ashobore gufungura no gukoresha ayo mahera.
+wrong_answers:
+  - Bituma umuntu akoresha ayo mahera akoresheje urufunguruzo rumwe gusa muri izo zibiri.
+  - Iremeza amafaranga gusa mu bihe vyihariye vy’ugufunga.
+  - Ikoreshwa gusa mu kohereza amahera ku ma aderesi ya bose.
+explanation: |
+  Igitabu ca Address gifise imikono myinshi 2/2 gisaba imikono y’abafise uruhara bompi kugira ngo ayo mahera akoreshwe, ayo mahera akoreshwa mu gucungera umutekano w’imirongo ya Lightning.
+reviewed: false

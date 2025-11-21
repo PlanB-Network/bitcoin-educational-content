@@ -1,0 +1,9 @@
+question: چه مکانیزمی در RGB اجازه می‌دهد تا چندین انتقال در یک تراکنش Bitcoin گروه‌بندی شوند؟
+answer: Transition Bundle
+wrong_answers:
+  - تجمیع Seal
+  - چند گیگاوات-4 درخت
+  - تثبیت دولت
+explanation: |
+  Transition Bundle مجموعه‌ای از انتقال‌های حالت RGB (متعلق به همان Contract) است که همگی در یک Bitcoin Witness Transaction مشترک دخیل هستند.
+reviewed: false

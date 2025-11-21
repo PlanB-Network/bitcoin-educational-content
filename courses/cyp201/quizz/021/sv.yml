@@ -1,0 +1,9 @@
+question: Vad är den viktigaste egenskapen hos skalär multiplikation på elliptiska kurvor?
+answer: Enkelriktad funktion
+wrong_answers:
+  - Enkelt vändbar
+  - Baserat på faktorisering av primtal
+  - Mycket lång tid att beräkna
+explanation: |
+  Skalarmultiplikation på elliptiska kurvor är en envägsfunktion, vilket gör det omöjligt att hämta den privata nyckeln från den publika nyckeln.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ko je izumeo World Wide Web i razvio prvi web pregledač?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee je izumitelj Svetske mreže i razvio je prvi pregledač, WorldWideWeb (sada Nexus), 1990. godine.
+reviewed: false

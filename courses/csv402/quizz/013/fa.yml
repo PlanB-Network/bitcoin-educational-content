@@ -1,0 +1,9 @@
+question: عملیات اصلی یک RGB Contract چیست؟
+answer: State Transition، Genesis، و State Extension
+wrong_answers:
+  - Seal Definition، Commitment، و اعتبارسنجی
+  - ایجاد Anchor، به‌روزرسانی DAG، و امضای تراکنش
+  - بلوک Genesis، تخصیص UTXO، و اعتبارسنجی اسکریپت
+explanation: |
+  این عملیات‌ها وضعیت یک Contract را بر اساس Schema آن تغییر داده یا تکمیل می‌کنند.
+reviewed: false

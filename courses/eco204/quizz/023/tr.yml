@@ -1,0 +1,12 @@
+question: Burner-preneurs teriminin hiperenflasyon bağlamındaki önemi nedir?
+answer: Maddi varlıklara yatırım yapmak için değeri düşürülmüş para birimini borç alarak ve daha sonra borçlarını daha da değeri düşürülmüş para birimiyle geri ödeyerek başarılı olan girişimcileri ifade eder.
+wrong_answers:
+  - Değeri düşürülmüş para birimini ısınma amacıyla yakan kişileri ifade eder.
+  - Banknot üretimi ile ilgili iş kuran bireyleri ifade eder.
+  - Yasadışı olarak yabancı para ticareti yapan bireyleri ifade eder.
+explanation: |
+  Hiperenflasyon dönemlerinde para biriminin değeri hızla erir.
+  Bu durum, genellikle Burner-preneurs olarak adlandırılan girişimciler için fırsatlar yaratmaktadır
+  maddi varlıklara yatırım yapmak için devalüe edilmiş para birimini ödünç alır ve daha sonra geri öderler
+  daha da değersizleştirilmiş para birimi ile borçlar.
+reviewed: false

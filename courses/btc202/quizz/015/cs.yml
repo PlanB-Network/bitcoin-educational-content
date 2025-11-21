@@ -1,0 +1,9 @@
+question: Jaká je hlavní alternativní implementace Bitcoin core?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Hotovost
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, vyvinutý Lukášem Dashjrem, je Fork jádra, který nabízí další možnosti a konzervativnější vizi.
+reviewed: true

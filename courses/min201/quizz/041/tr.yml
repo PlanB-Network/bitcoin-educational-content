@@ -1,0 +1,13 @@
+question: Bitcoin topluluğu içinde Mining ile ilgili tartışma nedir?
+answer: Kâr arayışı ile Bitcoin ağının güvenliği ve dağıtımına katkıda bulunma arasındaki denge
+wrong_answers:
+  - Hashrate'ün artırılması ve aktif düğüm sayısının azaltılması arasındaki denge
+  - Fiyatın artırılması ve maliyetin düşürülmesi arasındaki denge
+  - İşlem sayısının artırılması ile enerji tüketiminin azaltılması arasındaki denge
+explanation: |
+  Bitcoin topluluğu içinde Mining ile ilgili tartışmalar
+  kâr arayışı ile kâr ve zarar arasındaki denge etrafında dönmektedir
+  güvenliğine ve dağıtımına katkıda bulunmak
+  Bitcoin ağı. Her iki tarafta da güçlü argümanlar var
+  tartışmanın.
+reviewed: true

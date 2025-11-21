@@ -1,0 +1,9 @@
+question: Tại sao việc cập nhật hệ thống và phần mềm thường xuyên lại quan trọng?
+answer: Để khắc phục các lỗ hổng bảo mật đã biết
+wrong_answers:
+  - Để cải thiện tốc độ PC và do đó phản ứng nhanh hơn với các cuộc tấn công mạng
+  - Để thêm tính năng hack
+  - Để tối ưu hóa khả năng tương thích của trò chơi điện tử với Bitcoin
+explanation: |
+  Các bản cập nhật thường khắc phục các lỗ hổng bảo mật thường bị tin tặc khai thác.
+reviewed: false

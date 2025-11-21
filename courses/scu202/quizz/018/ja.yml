@@ -1,0 +1,9 @@
+question: Debian と Ubuntu で使われているパッケージマネージャは何ですか?
+answer: 自動プログラムツール
+wrong_answers:
+  - 回転数
+  - パックマン
+  - ザイッパー
+explanation: |
+  DebianとUbuntuは、ソフトウェアのインストールとアップデートを管理するために、.debフォーマットに基づいたAPTパッケージマネージャを使用しています。
+reviewed: false

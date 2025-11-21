@@ -1,0 +1,9 @@
+question: انجمن Bitcoin در تاریخ 1 آگوست 2011 به کدام نام دامنه منتقل شد؟
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  پس از انتقال به forum.Bitcoin.org در ۱۷ مه، از اول اوت به URL جدید bitcointalk.org تغییر یافت. در طول سال‌ها، به نام BitcoinTalk شناخته شد.
+reviewed: false

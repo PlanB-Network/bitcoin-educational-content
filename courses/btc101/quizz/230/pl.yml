@@ -1,10 +1,8 @@
-question: Co umożliwia Lightning Network?
-answer: Transakcje między osobami, które nie mają bezpośredniego połączenia kanałowego.
+question: W jaki sposób sieć Lightning może potencjalnie zmienić istniejące modele biznesowe w branży gier wideo?
+answer: Pozwoli graczom obstawiać bardzo małe kwoty podczas grania w gry.
 wrong_answers:
-  - Tworzenie bezpośrednich połączeń kanałowych tylko ze scentralizowanymi centralami.
-  - Aby utworzyć połączenia kanałów, które wymagają wielu potwierdzeń dla dowolnej transakcji.
-  - Aby ustanowić bezpośrednie połączenia kanałowe, które są ograniczone tylko do dużych transakcji.
-explanation: |
-  Lightning Network umożliwia dokonywanie transakcji między
-  osobami, które nie mają bezpośredniego połączenia kanałowego.
+  - Pozwoli graczom na wydobywanie bitcoinów podczas grania w gry.
+  - Pozwoli twórcom gier akceptować bitcoina jako płatność za ich gry.
+  - Pozwoli graczom kupować przedmioty w grze za pomocą bitcoinów.
+explanation: >-
 reviewed: true

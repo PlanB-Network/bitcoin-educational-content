@@ -1,0 +1,11 @@
+question: Vilken är en av riskerna med att köpa Bitcoin?
+answer: Dess pris kan sjunka till 0.
+wrong_answers:
+  - Den kan lätt bli stulen.
+  - Den kan dupliceras.
+  - Den kan gå förlorad fysiskt.
+explanation: |
+  I kurslitteraturen nämns att Bitcoin är en mycket volatil
+  finansiell tillgång och att dess pris kan sjunka till 0, vilket är en av
+  av de risker som är förknippade med att köpa Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaka notacja jest używana do wskazania rozmiaru prefiksu w Address IPv6?
+answer: CIDR
+wrong_answers:
+  - Maska sieci dziesiętna z kropkami
+  - Liczba szesnastkowa oddzielona dwukropkami
+  - ICANN
+explanation: |
+  Notacja CIDR określa liczbę stałych bitów prefiksu po ukośniku, podobnie jak w IPv4.
+reviewed: false

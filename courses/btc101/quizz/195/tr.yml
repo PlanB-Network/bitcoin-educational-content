@@ -1,0 +1,10 @@
+question: KYC olmadan bitcoin edinmenin yollarından biri nedir?
+answer: Bitcoin ATM'ler.
+wrong_answers:
+  - Broker platformları.
+  - DCA platformları.
+  - Banka havaleleri.
+explanation: |
+  Kurs metninde aşağıdakileri yapmanın çeşitli yolları olduğundan bahsedilmektedir
+  kYC olmadan Bitcoin edinmek, bunlardan biri de Bitcoin ATM'leridir.
+reviewed: true

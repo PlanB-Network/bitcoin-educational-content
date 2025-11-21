@@ -1,0 +1,9 @@
+question: Welk deel van de uitvoer van HMAC-SHA512 wordt gebruikt als child chain code?
+answer: De laatste 32 bytes
+wrong_answers:
+  - De eerste 32 bytes
+  - De volledige 64 bytes
+  - De SHA256 Hash van de middelste 32 bytes
+explanation: |
+  De laatste 32 bytes van de HMAC-SHA512 uitvoer dienen als chain code voor de kindsleutel.
+reviewed: false

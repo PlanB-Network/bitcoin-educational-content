@@ -1,0 +1,9 @@
+question: Gıda ürünlerinin ortak bir veritabanı ile taranması için hangi açık kaynak uygulaması önerilir?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts ücretsiz, topluluk tabanlı ve verileri konusunda şeffaf bir projeyken, Yuka opak, açık kaynak kodlu olmayan bir modele dayanmaktadır.
+reviewed: false

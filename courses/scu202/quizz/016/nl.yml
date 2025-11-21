@@ -1,0 +1,9 @@
+question: Welke distributiefamilie gebruikt de RPM pakketbeheerder?
+answer: Rode Hoed
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  Het RPM-formaat is geïnitieerd door Red Hat en is de basis voor Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux en andere gerelateerde distributies.
+reviewed: false

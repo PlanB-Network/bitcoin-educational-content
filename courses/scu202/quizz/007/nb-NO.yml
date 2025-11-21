@@ -1,0 +1,9 @@
+question: Hvilket system skiller seg ut med sin åpen kildekode og fellesskapsbaserte modell?
+answer: GNU/Linux
+wrong_answers:
+  - Vinduer
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux er gratis og utviklet av et verdensomspennende fellesskap, noe som garanterer åpenhet, sikkerhet og fleksibilitet for brukeren.
+reviewed: false

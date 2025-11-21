@@ -1,0 +1,9 @@
+question: RGB'da taahhütler için neden Opret yerine Tapret kullanılması öneriliyor?
+answer: Görünürlüğü en aza indirmek ve sansürden kaçınmak için
+wrong_answers:
+  - İşlem maliyetlerini azaltmak için
+  - Çünkü bir OP_RETURN Lightning uyumlu değildir
+  - Taahhütlerin boyutunu en üst düzeye çıkarmak için
+explanation: |
+  Tapret, taahhütleri hemen görünür kılan ve sansüre tabi tutan OP_RETURN'nin aksine, taahhütleri gizlice entegre etmenize olanak tanır.
+reviewed: false

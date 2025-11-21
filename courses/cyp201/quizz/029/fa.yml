@@ -1,0 +1,9 @@
+question: کدام الگوریتم امضای دیجیتال در زمان راه‌اندازی Bitcoin استفاده شد؟
+answer: ECDSA
+wrong_answers:
+  - اشنور
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin در ابتدا از ECDSA، یک پروتکل امضای مبتنی بر منحنی‌های بیضوی، استفاده می‌کرد، قبل از معرفی امضاهای Schnorr در سال 2021.
+reviewed: false

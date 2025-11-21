@@ -1,0 +1,5 @@
+---
+term: NORMALE AFLEIDING
+---
+
+Het proces van het genereren van kind sleutels in HD wallets. Normale afleiding gebruikt de openbare sleutel van de ouder als invoer voor de `HMAC-SHA512` functie, waardoor de openbare sleutels van kinderen kunnen worden gegenereerd uit de openbare sleutel van de ouder en de chain code van de ouder. Het proces bestaat uit het aan elkaar rijgen van de openbare sleutel en een index kleiner dan $2^{31}$, gevolgd door de toepassing van `HMAC-SHA512` met de chain code van de ouder. Het resultaat wordt in twee delen gesplitst: de eerste 256 bits worden toegevoegd aan de privésleutel van de ouder om de privésleutel van het kind te verkrijgen, terwijl de resterende 256 bits de chain code van het kind vormen. Deze methode zorgt ervoor dat de uitgebreide publieke sleutel gebruikt kan worden om publieke kindsleutels af te leiden. Bij standaardafleiding wordt normale afleiding gebruikt op alle afleidingsniveaus vanaf de accountdiepte. In de notatie van afleidingspaden wordt een normale afleiding geïdentificeerd als er alleen de index is zonder apostrof `'`.

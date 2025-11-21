@@ -1,0 +1,9 @@
+question: Quelle commande permet d’afficher le contenu détaillé d’un dossier, y compris les fichiers cachés ?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" affiche les fichiers et dossiers avec détails et inclut les fichiers cachés (commençant par un point).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke RGB Contract Operation creëert een nieuwe toestand zonder een Seal te sluiten?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency activering
+explanation: |
+  Met de State Extension kun je een nieuwe toestand of rechten (Valencies) creëren, zonder dat de Seal onmiddellijk wordt afgesloten.
+reviewed: false

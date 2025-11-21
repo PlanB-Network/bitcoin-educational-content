@@ -1,0 +1,9 @@
+question: Özel bir dizüstü bilgisayarın mini PC'ye göre avantajı nedir?
+answer: Aküsü bir invertör görevi görür
+wrong_answers:
+  - Daha sessiz
+  - Daha uzun süre dayanır
+  - Daha az enerji tüketir
+explanation: |
+  Bir dizüstü bilgisayarın pili doğal bir UPS görevi görerek elektrik kesintisi durumunda ani durmaları önler.
+reviewed: true

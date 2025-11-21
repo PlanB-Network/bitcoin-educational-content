@@ -1,9 +1,10 @@
-question: Apa itu blockchain Bitcoin?
-answer: Sebuah buku besar publik dan tidak dapat diubah dari semua transaksi Bitcoin.
+question: Bagaimana jaringan Bitcoin memastikan bahwa bertindak dengan niat jahat dalam protokol Bitcoin terlalu mahal?
+answer: Melalui aturan protokol dan insentif ekonomi.
 wrong_answers:
-  - Sebuah buku besar pribadi dan dapat diubah dari semua transaksi Bitcoin.
-  - Sebuah buku besar publik dan dapat diubah dari semua transaksi Bitcoin.
-  - Sebuah buku besar pribadi dan tidak dapat diubah dari semua transaksi Bitcoin.
+  - Melalui regulasi ketat dan pengawasan.
+  - Melalui penggunaan langkah-langkah keamanan canggih.
+  - Melalui ancaman tindakan hukum.
 explanation: >-
-  Blockchain Bitcoin adalah sebuah buku besar publik dan tidak dapat diubah dari semua transaksi Bitcoin. Ini adalah buku besar bersama untuk semua pengguna Bitcoin.
+  Jaringan Bitcoin memastikan bahwa bertindak dengan niat jahat dalam protokol Bitcoin terlalu mahal melalui aturan protokol dan insentif ekonomi. Ini
+  menghilangkan kebutuhan akan kepercayaan pada setiap langkah transfer kepemilikan bitcoin.
 reviewed: false

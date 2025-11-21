@@ -1,0 +1,11 @@
+question: Bir bölgede Mining'ın yasaklanmasının potansiyel etkisi nedir?
+answer: Hashrate'de ve Bitcoin'nin fiyatında önemli bir düşüşe yol açabilir
+wrong_answers:
+  - Bitcoin'ün fiyatında bir artışa yol açabilir
+  - Ağın Hashrate'ünde bir artışa yol açabilir
+  - Ağdaki aktif düğüm sayısında artışa yol açabilir
+explanation: |
+  Çin'de olduğu gibi bir bölgede Mining'nin yasaklanması,
+  gW-5 ve fiyatında önemli bir düşüşe yol açabilir
+  Bitcoin. Ancak bunlar hızla iyileşebilir.
+reviewed: true

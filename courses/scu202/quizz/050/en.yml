@@ -1,0 +1,9 @@
+question: Why do digital file metadata represent a risk to privacy?
+answer: They can reveal sensitive information
+wrong_answers:
+  - They slow down antivirus opening on some systems
+  - They prevent file sharing via email
+  - They can host ransomware
+explanation: |
+  Metadata may contain confidential information that is not visible when the file is opened, such as GPS coordinates, an author's name, an identifier or a modification history, which can be exploited without your knowledge.
+reviewed: false

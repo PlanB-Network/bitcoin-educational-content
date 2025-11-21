@@ -1,0 +1,10 @@
+question: Vad är en av de främsta anledningarna till att Bitcoin skapades?
+answer: Att föreslå en förändring av det finansiella systemet.
+wrong_answers:
+  - Att föreslå avskaffande av pengar.
+  - Att föreslå skapandet av en ny form av AI-teknik.
+  - Att föreslå kontroll av världens befolkning.
+explanation: |
+  I texten nämns att Satoshi Nakamoto skapade Bitcoin år 2008
+  2008 för att föreslå en förändring av det finansiella systemet.
+reviewed: true

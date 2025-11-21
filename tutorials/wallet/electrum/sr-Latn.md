@@ -1,19 +1,19 @@
 ---
-name: Elektrum
+name: Electrum
 
-description: Potpuni vodič za Electrum, od početnika do heroja
+description: Potpun vodič za Electrum, od početnika do eksperta
 ---
 
 ![cover](assets/cover.webp)
 
 
-Pronađite ispod nekoliko izvora opisa za Electrum:
+Ispod se nalazi nekoliko izvora opisa za Electrum:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
 - [Electrum website](https://electrum.org/)
-- [Electrum dokumentacija](https://electrum.readthedocs.io/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 Evo šta Rogzy misli o ovom vodiču:

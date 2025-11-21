@@ -1,0 +1,9 @@
+question: Que intervalo IPv4 Address está reservado para testes de loopback local?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  O intervalo 127.0.0.0/8 é utilizado para o loopback local. Qualquer pedido para este intervalo permanece dentro da máquina de origem.
+reviewed: false

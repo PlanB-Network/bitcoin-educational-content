@@ -6,4 +6,4 @@ wrong_answers:
   - 140.000 satoshi
 explanation: |
   Dopo aver inviato 40.000 satoshi, il saldo di Alice nel canale è di 60.000 satoshi.
-reviewed: false
+reviewed: true

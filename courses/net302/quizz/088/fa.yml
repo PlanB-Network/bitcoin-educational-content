@@ -1,0 +1,9 @@
+question: کدام دستور لینوکس جدول مسیریابی شبکه فعال را نمایش می‌دهد؟
+answer: نمایش مسیر ip
+wrong_answers:
+  - ifconfig -a
+  - پینگ روت
+  - netstat -s
+explanation: |
+  دستور ip route show مسیرهای شناخته شده توسط کرنل و مسیرهای طی شده توسط بسته‌های IP را نمایش می‌دهد.
+reviewed: false

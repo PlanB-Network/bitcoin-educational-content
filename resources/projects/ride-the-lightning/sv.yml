@@ -1,0 +1,2 @@
+description: |
+  Webbaserad Interface med öppen källkod för enkel hantering av en eller flera Lightning-noder (LND, Core Lightning, Eclair). RTL erbjuder ett brett utbud av funktioner, inklusive kanalhantering, betalningar, säkerhetskopior och swappar, allt i en intuitiv Interface som kan distribueras på några minuter på många plattformar.

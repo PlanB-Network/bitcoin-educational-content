@@ -1,0 +1,13 @@
+question: Yaklaşık her dört yılda bir Bitcoin ağındaki Mining ödülüne ne olur?
+answer: Bir Halving'den geçer
+wrong_answers:
+  - İki katına çıkar
+  - Üçe katlar
+  - Aynı kalır
+explanation: |
+  Bitcoin ağındaki Mining ödülü bir
+  Halving her 210.000 blokta bir, yaklaşık olarak her dört
+  yıl. Bu ücretlendirme, aşağıdakiler için güçlü bir teşvik işlevi görmektedir
+  madencileri Mining sürecine katılmaya teşvik etmek
+  enerji maliyetine rağmen.
+reviewed: true

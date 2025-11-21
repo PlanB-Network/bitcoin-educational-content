@@ -1,0 +1,9 @@
+question: Bitcoin core 节点维护的默认传出连接数是多少？
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core 默认维护 10 个传出连接（8 个全中继连接和 2 个块中继连接）。
+reviewed: true

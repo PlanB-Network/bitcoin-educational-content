@@ -1,0 +1,9 @@
+question: 哪个 Bitcoin core 版本引入了 Ultraprune 型号？
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  自 0.8.0 版起，Bitcoin core 不再使用全局索引，而是通过 Ultraprune 直接维护 UTXO 数据集。
+reviewed: true

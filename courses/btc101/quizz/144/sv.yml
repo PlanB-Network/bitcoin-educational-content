@@ -1,0 +1,8 @@
+question: Vad är Proof of Work (POW)?
+answer: Det är säkerhetskonsensus för Bitcoin-protokollet.
+wrong_answers:
+  - Det är processen att skapa nya bitcoins.
+  - Det är en metod för att verifiera Bitcoin-transaktioner.
+  - Det är den algoritm som används för att bryta bitcoins.
+explanation: >-
+reviewed: true

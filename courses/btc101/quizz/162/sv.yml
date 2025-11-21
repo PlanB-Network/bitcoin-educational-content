@@ -1,0 +1,12 @@
+question: Hur belönar Bitcoin-protokollet den Miner som hittar en giltig Hash för det efterföljande blocket?
+answer: Med en belöning som definieras av konsensusregler och med avgifterna från alla transaktioner som ingår i det giltiga blocket.
+wrong_answers:
+  - Med ett fast belopp av bitcoins som inte definieras av konsensusregler.
+  - Med en procentandel av den totala Bitcoin Supply och avgifterna från alla transaktioner som ingår i de tidigare blocken.
+  - Med avgifterna från alla transaktioner som ingår i det giltiga blocket.
+explanation: |
+  Bitcoin-protokollet belönar den Miner som hittar en giltig
+  Hash för det efterföljande blocket med en belöning vars belopp
+  definieras av konsensusreglerna, tillsammans med avgifterna från
+  alla transaktioner som ingår i det giltiga blocket.
+reviewed: true

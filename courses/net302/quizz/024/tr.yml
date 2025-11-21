@@ -1,0 +1,9 @@
+question: TCP protokolünün TCP/IP modelindeki ana rolü nedir?
+answer: Güvenilir ve düzenli veri aktarımı sağlayın
+wrong_answers:
+  - Ağ iletişimlerini şifreleyin
+  - Makinelere IP adresleri atama
+  - Fiziksel düzeyde datagramları parçalama
+explanation: |
+  TCP, bütünlüğü doğrulayarak, düzeni koruyarak ve kayıp durumunda kurtarma işlemini gerçekleştirerek güvenilir veri iletimi sağlar.
+reviewed: false

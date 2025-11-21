@@ -1,0 +1,9 @@
+question: 与原始实现方式相比，"盒中节点 "的主要优势是什么？
+answer: 安装简单，集成应用管理
+wrong_answers:
+  - 更严格地核查共识规则
+  - 直接访问 Blockchain，无需存储
+  - 与 Bitcoin 以外的货币兼容
+explanation: |
+  这种 "盒中节点 "通过统一的 Interface 简化了众多辅助应用的安装和管理。
+reviewed: true

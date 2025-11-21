@@ -1,11 +1,8 @@
-question: Je, nini kinaweza kutokea kwa huduma za jadi za kuhamisha pesa kama Western Union, benki kuu, Visa, na Mastercard ikiwa hazitatumia Lightning Network?
-answer: Wangeweza kutoweka.
+question: Je, ni ipi mojawapo ya matumizi yanayowezekana ya Lightning Network katika maisha ya kila siku?
+answer: Malipo ya papo hapo katika biashara.
 wrong_answers:
-  - Wanaweza kuwa maarufu zaidi.
-  - Wanaweza kuwa salama zaidi.
-  - Wanaweza kuwa madarakani zaidi.
-explanation: |
-  Huduma za jadi za kuhamisha pesa kama vile Western Union,
-  benki kuu, Visa, na Mastercard inaweza kutoweka kama wao
-  usitumie teknolojia ya Lightning Network.
+  - Mining Bitcoins mpya.
+  - Kuunda sarafu mpya za siri.
+  - Kuongeza thamani ya Bitcoin.
+explanation: >-
 reviewed: true

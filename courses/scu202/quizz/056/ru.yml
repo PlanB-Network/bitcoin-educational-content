@@ -1,0 +1,9 @@
+question: Какой движок рендеринга был создан из Fork KHTML для оснащения Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Геккон
+  - Мигание
+explanation: |
+  WebKit - это Fork KHTML, выбранный компанией Apple для Safari в 2003 году, а затем принятый многими браузерами.
+reviewed: false

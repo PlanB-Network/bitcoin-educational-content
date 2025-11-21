@@ -1,0 +1,4 @@
+description: |
+  Samourai 是致力於隱私與安全的 Bitcoin Wallet。
+  
+  它使用先進的技術防止基於 Blockchain 的監控，並允許離線交易。非監控的 Wallet 可完全控制私人金鑰。它還提供 RoninDojo（一個高性能的自託管 Full node）和 Whirlpool（一個 Chaumian CoinJoin 的實現），旨在擾亂比特幣與其交易歷史之間的聯繫。Samourai 背後的團隊由隱私權活動家組成，致力於創造在 Bitcoin 生態系統中以隱私權和安全性為優先的軟體。

@@ -1,0 +1,8 @@
+question: ¿Qué característica fundamental distingue la definición de la escala Bitcoin del libro de las definiciones alternativas comunes utilizadas en el espacio Bitcoin?
+answer: Exige explícitamente mantener la resistencia a la censura como restricción mientras se aumenta la capacidad de uso
+wrong_answers:
+  - Se centra exclusivamente en aumentar el rendimiento de las transacciones de blockchain en lugar de mejorar la eficiencia
+  - Prioriza el desarrollo de una arquitectura por capas sobre cualquier modificación del protocolo base de la cadena de bloques
+  - Se centra más en reducir los requisitos informáticos de los nodos que en ampliar la capacidad de la red
+explanation: |
+  El libro define el escalado como "el aumento de la capacidad de uso de Bitcoin sin comprometer su resistencia a la censura", lo que incluye explícitamente la restricción de resistencia a la censura. Esto la distingue de otras definiciones que se centran únicamente en el aumento de la capacidad de transacción, la mejora de la eficiencia o los sistemas por capas sin tener en cuenta la preservación de las propiedades fundamentales de Bitcoin. El requisito de resistencia a la censura garantiza que las soluciones de escalado no socaven la propuesta de valor fundamental de Bitcoin de ser un sistema descentralizado y sin confianza que no puede ser controlado por una sola entidad.

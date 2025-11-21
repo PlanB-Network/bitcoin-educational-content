@@ -1,0 +1,9 @@
+question: Girişte tek bir UTXO ve çıkışta tek bir UTXO'dan oluşan örüntünün adı nedir?
+answer: Süpürme
+wrong_answers:
+  - Konsolidasyon
+  - CoinJoin
+  - Toplu harcama
+explanation: |
+  Bu yapının yorumu, bitcoinlerin kendi kendine transferi anlamına gelen bir süpürmenin varlığında olduğumuzdur.
+reviewed: false

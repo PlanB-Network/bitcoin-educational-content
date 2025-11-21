@@ -1,0 +1,9 @@
+question: Những biện pháp nào là cần thiết để hạn chế việc lộ dữ liệu của bạn khi lướt Internet?
+answer: Xóa cookie thường xuyên
+wrong_answers:
+  - Giữ lại tất cả cookie
+  - Tắt chế độ riêng tư của trình duyệt
+  - Sử dụng trình duyệt lỗi thời
+explanation: |
+  Xóa hoặc hạn chế cookie sẽ làm giảm việc theo dõi quảng cáo và bảo vệ quyền riêng tư trong khi duyệt web.
+reviewed: false

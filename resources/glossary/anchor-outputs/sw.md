@@ -1,0 +1,5 @@
+---
+term: MATOKEO ya Anchor
+---
+
+Pendekezo linalolenga kuboresha usimamizi wa ada za miamala ndani ya njia za Umeme. Kwa kila mabadiliko ya hali katika chaneli ya Umeme, washikadau huunda na kutia sahihi Commitment Transaction mpya inayoakisi mgawanyo mpya wa fedha ndani ya chaneli. Suala la utaratibu huu liko katika kuamua ada za muamala wakati wa kuundwa kwake. Hakika, ada za miamala kwenye mtandao wa Bitcoin zinakabiliwa na mabadiliko makubwa, kwenda juu na chini. Iwapo ada zilizowekwa kwa Commitment Transaction ya mwisho hazitoshi wakati wa kufungwa kwa njia moja moja ya chaneli, sio tu kwamba shughuli itachukua muda mwingi kuthibitisha, lakini mbinu za kufunga za muda (timelocks) pia zinaweza kuruhusu wizi wa fedha. Matokeo ya Anchor huhifadhi sehemu ndogo ya fedha katika Commitment Transaction ili kufidia ada za siku zijazo. Katika tukio la msongamano wa mtandao na ada za kupanda, matokeo ya Anchor huruhusu urekebishaji wa ada za ununuzi baada ya kuundwa kwa Commitment Transaction, na hivyo kuhakikisha kufungwa kwa haraka kwa kutosha kwa njia ya Umeme.

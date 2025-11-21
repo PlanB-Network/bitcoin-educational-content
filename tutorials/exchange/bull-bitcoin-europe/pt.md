@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europa
+name: Bull Bitcoin
 description: Comprar e vender bitcoins na Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin é uma plataforma de troca apenas de Bitcoin fundada em 2013 no Canadá por Francis Pouliot, uma figura icónica no ecossistema Bitcoin. A filosofia da Bull Bitcoin é oferecer aos utilizadores ferramentas para a soberania e emancipação financeira. A plataforma de troca não é custodial, o que significa que você sempre permanece soberano sobre seus Bitcoins.
 
-Inicialmente disponível apenas no Canadá, a plataforma está agora disponível na Europa, com uma interface totalmente nova e optimizada. Esta nova versão da Bull Bitcoin está atualmente disponível apenas na Europa. Permite-lhe comprar e vender bitcoins de forma rápida e fácil, graças à utilização do Lightning e às transferências SEPA instantâneas. Eventualmente, a plataforma também incluirá opções para DCA, compras automáticas, ordens limitadas e pagamentos de facturas em bitcoins.
+Inicialmente disponível apenas no Canadá, a plataforma está agora disponível na Europa e em muitos outros países, com uma nova interface otimizada. Esta nova versão do Bull Bitcoin permite comprar e vender bitcoins de forma simples e rápida, graças ao uso do Lightning e de transferências SEPA instantâneas. Também integra o pagamento de faturas em bitcoin. No futuro, a plataforma integrará opções de DCA, compras automáticas e ordens limite.
 
-A Bull Bitcoin faz questão de fornecer um serviço transparente, sem encargos ocultos. Como todas as outras plataformas de troca na Europa, a utilização da Bull Bitcoin requer KYC (procedimento de identificação do cliente).
+A Bull Bitcoin orgulha-se de oferecer um serviço transparente e sem taxas escondidas. Note que, tal como a maioria das plataformas de câmbio, o uso da Bull Bitcoin requer a realização de um processo KYC (Conheça o Seu Cliente).
 
 ## Registar em Bull Bitcoin
 
@@ -48,7 +48,7 @@ Digitalize o código QR com a sua aplicação de autenticação, introduza o có
 
 Se não estiver familiarizado com a utilização de aplicações de autenticação para o 2FA, recomendo que consulte este tutorial sobre a aplicação Authy:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Introduza a sua palavra-passe para confirmar.
 
@@ -125,9 +125,9 @@ Introduza o montante que pretende comprar. Também terá de escolher como preten
 
 Se não estiver familiarizado com a utilização das carteiras Bitcoin, Lightning ou Liquid, sugiro que faça o nosso curso de formação dedicado:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin] (https://planb.network/tutorials/wallet).
+Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin] (https://planb.academy/tutorials/wallet).
 
 Em seguida, confirme a sua compra clicando em "*Confirmar compra*".
 
@@ -196,8 +196,16 @@ Para acompanhar todas as suas transacções, pode consultar o histórico no menu
 
 ![BULL](assets/fr/36.webp)
 
+## Iniciar uma compra recorrente automática (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Criar uma ordem limite
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Agora você sabe como comprar e vender bitcoin facilmente com o Bull Bitcoin. Se você achou este tutorial útil, eu ficaria muito grato se você colocasse um polegar verde abaixo. Sinta-se à vontade para partilhar este artigo nas suas redes sociais. Muito obrigado!
 
 Também recomendo que consulte este outro tutorial completo para saber como gerir a sua frase mnemónica da forma correta:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

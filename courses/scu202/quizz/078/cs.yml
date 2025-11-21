@@ -1,0 +1,9 @@
+question: Jaký je nejlepší doporučený způsob uzamčení obrazovky smartphonu?
+answer: Alfanumerické heslo
+wrong_answers:
+  - Grafické schéma
+  - Rozpoznávání obličeje
+  - Žádné zamykání
+explanation: |
+  Alfanumerická hesla jsou na rozdíl od grafických schémat nebo biometrických údajů nejlépe odolná proti pokusům o neoprávněný přístup.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Bitcoin Wallet kullanarak fonları güvenli bir şekilde harcamak için kullanılan teknoloji nedir?
+answer: Eliptik eğri kriptografisi.
+wrong_answers:
+  - Simetrik kriptografi.
+  - Kuantum kriptografi.
+  - RSA kriptografisi.
+explanation: |
+  Bitcoin harcamak için Bitcoin sahibinin Eliptik Eğri kullanması gerekir
+  Bir imzayı taklit etmek için Dijital İmza Algoritması (ECDSA)
+  bir Bitcoin işleminin yayılması için.
+reviewed: true

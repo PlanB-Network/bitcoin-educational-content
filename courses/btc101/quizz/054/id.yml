@@ -1,10 +1,9 @@
-question: Apa fase kedua dari hiperinflasi?
-answer: Runtuhnya mata uang & kenaikan harga.
+question: Apa nama peristiwa ketika hadiah untuk penambangan dibagi dua?
+answer: Halving
 wrong_answers:
-  - Kehilangan Kepercayaan.
-  - Lingkaran setan pencetakan uang.
-  - Munculnya mata uang baru.
+  - Penggandaan
+  - Pembagian Empat
+  - Penggandaan Tiga
 explanation: |
-  Fase kedua dari hiperinflasi adalah runtuhnya mata uang & kenaikan harga,
-  tepat setelah Fase Kehilangan Kepercayaan.
+  Peristiwa ketika hadiah untuk penambangan dibagi dua disebut halving. Peristiwa ini memberikan kurva penerbitan moneter bentuk seperti tangga.
 reviewed: true

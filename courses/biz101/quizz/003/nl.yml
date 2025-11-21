@@ -1,0 +1,9 @@
+question: Wat is een nadeel van moderne gecentraliseerde valutasystemen?
+answer: Het ontbreekt ze vaak aan transparantie en controleerbaarheid bij het beheer van het geld Supply.
+wrong_answers:
+  - Ze bieden een stabiele, onveranderlijke waarde voor elke munteenheid.
+  - Ze verwijderen alle tussenpersonen en versnellen vereffeningen tot milliseconden.
+  - Ze zorgen ervoor dat de uitgifte van geld volledig gedecentraliseerd en inflatiebestendig is.
+explanation: |
+  Gecentraliseerde systemen kunnen naar believen geld uitgeven, vaak zonder transparant toezicht. Dit kan het vertrouwen ondermijnen door inflatie, complexe interbancaire verrekeningen en mogelijk wanbeheer.
+reviewed: false

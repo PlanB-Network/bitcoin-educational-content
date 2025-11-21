@@ -1,0 +1,9 @@
+question: Lightning Network çevrimiçi ticaretin ve dijital hizmetlerin geleceğini şekillendirmeye nasıl yardımcı oluyor?
+answer: Sürtünmesiz, anında ve izinsiz mikro işlemleri mümkün kılarak yeni iş modellerinin ve gelir akışlarının önünü açıyor.
+wrong_answers:
+  - Yeni iş modellerinin çevrimiçi ortamda ortaya çıkmasını engelleyerek.
+  - Tüccarların eskiden olduğu gibi aynı yavaş ve maliyetli ödeme raylarını kullanmalarını gerektirerek.
+  - Yüksek ücretler nedeniyle dijital ürünlerin satışını imkansız hale getirerek.
+explanation: |
+  Lightning'in küçük miktarlarda değeri anında ve düşük maliyetle gönderebilme özelliği, kullandıkça öde içeriği, akış ödemeleri ve makineden makineye işlemler gibi alanlarda inovasyonu teşvik ederek çevrimiçi hizmetlerden para kazanma şeklini dönüştürme potansiyeline sahiptir.
+reviewed: false

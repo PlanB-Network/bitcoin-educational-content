@@ -1,9 +1,9 @@
-question: Quelle est la conséquence de l'hyperinflation ?
-answer: Une diminution drastique de la valeur de la monnaie.
+question: Quel était approximativement le taux d'inflation en Allemagne en octobre 1923, au plus fort de l'hyperinflation ?
+answer: 29 500 %
 wrong_answers:
-  - Une petite diminution de la valeur de la monnaie.
-  - Une augmentation drastique de la valeur de la monnaie.
-  - Une petite augmentation de la valeur de la monnaie.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  À cause de l'hyperinflation, les individus perdent rapidement toute confiance dans la monnaie, ce qui conduit à une diminution drastique de sa valeur sur une courte période de temps.
+  Le mois ayant connu le taux d'inflation le plus élevé en Allemagne était octobre 1923, atteignant un pic de 29 500 %.
 reviewed: true

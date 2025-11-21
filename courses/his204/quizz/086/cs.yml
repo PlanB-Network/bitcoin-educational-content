@@ -1,0 +1,8 @@
+question: Jaká myšlenka byla nazvána Montaigneovým sofismem?
+answer: Exchange je hra s nulovým součtem
+wrong_answers:
+  - Exchange je hra s kladným součtem
+  - V závislosti na čase a místě je Exchange někdy hrou s nulovým součtem, jindy s kladným součtem
+  - Exchange je vždy v neprospěch slabší strany
+explanation: |
+  Montaignův omyl je myšlenka, že Exchange je hra s nulovým součtem, tj. co jeden získá, druhý ztratí. Tato myšlenka je mylná, protože dobrovolná Exchange je oboustranně výhodná.

@@ -1,0 +1,9 @@
+question: According to percolation theory, what does exceeding the critical threshold ensure?
+answer: Transaction propagation throughout the network
+wrong_answers:
+  - Immediate creation of a new block
+  - Automatic cost suppression by nodes
+  - Blocking a transaction by the network
+explanation: |
+  Once the percolation threshold is exceeded, a transaction propagates almost instantaneously throughout the Bitcoin network.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Hva er den viktigste begrensningen som selv en full node ikke kan beskytte deg mot, ifølge kapittelet?
+answer: Omskriving av kjeder som kan doble transaksjonene dine
+wrong_answers:
+  - Skadelig programvare stjeler de private nøklene dine fra minnet
+  - "Ugyldige blokker som ikke følger Bitcoins konsensusregler"
+  - Feil utstedelsesplaner for mynter i strid med protokollen
+explanation: |
+  Selv om en full node kan verifisere at blokker følger konsensusreglene, forhindre utstedelse av ugyldige mynter og oppdage brudd på protokollen, kan den ikke forhindre omskriving av kjeden, der utvinnere omorganiserer blokkjeden for å dobbeltbruke transaksjoner. I kapittelet står det spesifikt at uansett hvor avansert programvaren din er, må du fortsatt stole på at blokker som inneholder myntene dine, ikke blir omskrevet. Dette er grunnen til at Bitcoins forsvarsmekanisme baserer seg på å vente på flere bekreftelser for å redusere sannsynligheten for en omskriving av kjeden til et akseptabelt nivå.

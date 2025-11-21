@@ -16,7 +16,7 @@ Kada pravite Bitcoin transakcije, idealno je da vaš računar nema malver. Očig
 Ako čuvate svoju Bitcoin seed frazu (obično 12 ili 24 reči) van računara uz uređaj za potpisivanje (npr. Hardware Wallet – njegova glavna svrha), onda biste mogli pomisliti da nije toliko važno imati „čist“ računar – nije tačno.
 
 
-Računar zaražen malverom može očitati vaše Bitcoin adrese, izlažući vaš saldo napadaču – ne mogu uzeti Bitcoin samo znajući Address, ali mogu videti koliko imate i na osnovu toga izračunati da li ste vredna meta. Takođe mogu nekako saznati gde živite, na primer, i izvući nokte ili decu od vas kako bi vas naterali da platite otkupninu.
+Računar zaražen malverom može očitati vaše Bitcoin adrese, izlažući vaš saldo napadaču – ne mogu uzeti Bitcoin samo znajući adrese, ali mogu videti koliko imate i na osnovu toga izračunati da li ste vredna meta. Takođe mogu nekako saznati gde živite, na primer, i izvući nokte ili decu od vas kako bi vas naterali da platite otkupninu.
 
 
 ## Koje je rešenje?
@@ -31,7 +31,7 @@ Jedna prepreka na koju ljudi nailaze je instaliranje novog operativnog sistema n
 Postoji mnogo varijanti Linuxa i isprobao sam nekoliko. Moja preporuka za Bitcoinere je Linux Mint, jer je jednostavan za instalaciju, veoma brz (posebno pri pokretanju i gašenju), nije pretrpan (svaki dodatni softver je rizik), i retko mi se rušio ili ponašao čudno (u poređenju sa drugim verzijama kao što su Ubuntu i Debian).
 
 
-Neki mogu biti veoma otporni prema novom operativnom sistemu, preferirajući Windows ili Mac OS. Razumem, ali Windows i Apple operativni sistemi su zatvorenog koda, tako da moramo verovati onome što rade; mislim da to nije dobra politika, ali nije sve ili ništa. Mnogo bih više voleo da ljudi koriste namenski sveže instaliran Windows ili Mac OS računar nego dobro korišćen računar (sa ko zna kakvim malverom koji se nakupio na njemu). Jedan korak bolje je koristiti sveže instaliran Linux računar, što ću i demonstrirati.
+Neki mogu biti veoma otporni prema novom operativnom sistemu, preferirajući Windows ili Mac OS. Razumem, ali Windows i Apple operativni sistemi su zatvorenog koda, tako da moramo verovati onome što rade; mislim da to nije dobra politika, ali nije sve ili ništa. Mnogo bih više voleo da ljudi koriste namenski sveže instaliran Windows ili Mac OS računar nego dobro korišćen računar (sa ko zna kakvim malverom koji se nakupio na njemu). Još jedan korak bolje je koristiti sveže instaliran Linux računar, što ću i demonstrirati.
 
 
 Ako ste nervozni zbog korišćenja Linux-a zbog nepoznatog, to je prirodno, ali isto tako je prirodno odvojiti malo vremena za učenje. Toliko informacija je dostupno na internetu. Evo odličnog kratkog videa koji uvodi osnove komandne linije i koji toplo preporučujem.
@@ -74,7 +74,7 @@ Cena ovog gore je dobra. Specifikacije su dovoljno dobre. Ima ugrađenu kameru k
 Neki od jeftinijih imaju samo 64Gb prostora na disku; nisam testirao laptopove sa tako malim diskovima – verovatno je u redu imati 64Gb, ali možda je na granici.
 
 
-## Druge opcije – Repovi
+## Druge opcije – Tails
 
 
 Tails je operativni sistem koji se pokreće sa USB fleš diska i privremeno preuzima hardver bilo kog računara. Koristi isključivo Tor konekcije, tako da bi trebalo da budete komforni sa korišćenjem Tor-a. Nijedan podatak koji zapišete u memoriju tokom vaše sesije se ne čuva na disku (svaki put počinje iznova) osim ako ne prilagodite podešavanja i kreirate opciju trajnog skladištenja (na USB fleš disku) – koju zaključavate lozinkom.
@@ -145,19 +145,19 @@ Pređite mišem preko menija Download na vrhu, a zatim kliknite na link, „Linu
 ![image](assets/6.webp)
 
 
-Postojaće nekoliko „ukusa“ za izbor. Izaberite „Cimet“ da biste pratili ovaj vodič. Kliknite na dugme Preuzmi.
+Postojaće nekoliko „ukusa“ za izbor. Izaberite „Cimet“ da biste pratili ovaj vodič. Kliknite na dugme Download (prevod: Preuzmi).
 
 
 ![image](assets/7.webp)
 
 
-Na sledećoj stranici, možete se pomeriti nadole da vidite ogledala (Ogledala su različiti serveri koji drže kopiju fajla koji želimo). Možete verifikovati preuzimanje koristeći SHA256 i gpg (preporučeno), ali ću preskočiti objašnjavanje toga ovde jer sam već napisao vodiče o tome.
+Na sledećoj stranici, možete se pomeriti nadole da vidite Mirrors (prevod: ogledala) (Ogledala su različiti serveri koji drže kopiju fajla koji želimo). Možete verifikovati preuzimanje koristeći SHA256 i gpg (preporučeno), ali ću preskočiti objašnjavanje toga ovde jer sam već napisao vodiče o tome.
 
 
 ![image](assets/8.webp)
 
 
-Izaberite ogledalo koje vam je najbliže i kliknite na njegov link (tekst Green u koloni ogledala). Datoteka će početi sa preuzimanjem – verzija koju preuzimam je 2.1 gigabajta.
+Izaberite ogledalo koje vam je najbliže i kliknite na njegov link (zeleni tekst u koloni Mirrors). Datoteka će početi sa preuzimanjem – verzija koju preuzimam je 2.1 gigabajta.
 
 
 Jednom kada se preuzme, možete flešovati fajl na prenosivi memorijski uređaj i učiniti ga butabilnim. Da biste to uradili, najlakši način je da koristite Balena Etcher. Preuzmite i instalirajte ga ako ga nemate.
@@ -169,10 +169,10 @@ Zatim ga pokreni:
 ![image](assets/9.webp)
 
 
-Kliknite na flash iz datoteke i izaberite LinuxMint datoteku koju ste preuzeli.
+Kliknite na Flash from file (prevod: flash iz datoteke) i izaberite LinuxMint datoteku koju ste preuzeli.
 
 
-Zatim kliknite na Izaberi cilj. Uverite se da je memorijski uređaj priključen i da birate ispravan disk, inače možete uništiti sadržaj pogrešnog diska!
+Zatim kliknite na Select target (prevod: izaberi cilj). Uverite se da je memorijski uređaj priključen i da birate ispravan disk, inače možete uništiti sadržaj pogrešnog diska!
 
 
 Nakon toga, izaberite Flash! Možda ćete morati uneti svoju lozinku. Kada se završi, verovatno neće biti moguće čitati drajv na vašem Windows ili Mac računaru jer je pretvoren u Linux uređaj. Samo ga izvucite.

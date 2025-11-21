@@ -1,0 +1,26 @@
+id: 7cdd3e66-000f-4a31-85b8-e63e893a2169
+name: Tailscale
+
+links:
+  website: https://tailscale.com/
+  twitter: https://x.com/tailscale
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - personal-security
+  - network-security
+  - software
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-30
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,0 +1,10 @@
+question: 네 번째 Halving 이후 BTC 보상은 얼마인가요?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  블록 높이 840,000에서 발생하는 네 번째 Halving 이후
+  840,000 이후, Mining의 BTC 보상은 3.125 BTC입니다.
+reviewed: true

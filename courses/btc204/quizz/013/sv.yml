@@ -1,0 +1,9 @@
+question: Vad är banksystemets sekretessmodell?
+answer: Det är bara banken som har tillgång till transaktionsuppgifterna.
+wrong_answers:
+  - Transaktionerna är offentliga, men användarnas identitet är inte känd.
+  - Transaktionerna är anonyma och dolda för alla, inklusive banken.
+  - Endast myndigheter har tillgång till transaktionsuppgifterna.
+explanation: |
+  I det traditionella systemet är varje bankkonto kopplat till en identitet. Informationsflödet är dock avskuret mellan banken och den offentliga domänen.
+reviewed: false

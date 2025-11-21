@@ -1,5 +1,5 @@
 ---
-name: BIP39 パスフレーズ
+name: BIP-39 Passphrase
 description: パスフレーズの仕組みを理解する
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ HDウォレットは通常、12または24の単語からなるニーモニッ�
 ## 良いパスフレーズを選ぶ方法は？
 パスフレーズが効果的であるためには、十分に長くランダムでなければなりません。強力なパスワードと同様に、できるだけ長くランダムなパスフレーズを選択し、文字、数字、記号のバリエーションを使用して、どんなブルートフォース攻撃も不可能にすることをお勧めします。
 
+[Trezor による 2019 年の調査](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af)によると、攻撃者があなたのシードにアクセスし、AWS でレンタルしたハイエンド GPU（NVIDIA Tesla V100）を使用すると、1ドルで約6億2千万のパスフレーズをテストできる可能性があります。参考までに、2019年の計算能力では、12文字のランダムな小文字で構成されたパスフレーズを解読するのに平均**7700万ドル**かかります。
+
+ただし、12文字に制限することはお勧めしません。代わりに、強力なパスワードの現在の基準を目指してください。2025年には、数字、小文字、大文字、記号を含む少なくとも13文字のランダムな文字列を使用することを目標にしましょう。または、小文字と大文字のみを使用する場合は14文字にしてください。もちろん、将来の変化を見越し、これらの調査で考慮されていない人的リスクに備えるためにも、記号を含む20文字のパスフレーズを使用するなど、さらに長くすることをお勧めします。
+
 このパスフレーズを適切に保存することも重要です。ニーモニックフレーズと同じ方法で。**これを失うと、ビットコインへのアクセスを失うことを意味します。**頭の中だけで覚えることは、損失のリスクを不合理に高めるため、強くお勧めしません。理想的なのは、ニーモニックフレーズとは別の物理的な媒体（紙や金属）に書き留めることです。このバックアップは、ニーモニックフレーズが保管されている場所とは異なる場所に明らかに保管する必要があります。これにより、両方が同時に侵害されることを防ぎます。
 
 ## チュートリアル
 
 Ledgerデバイス（Stax、Flex、またはNano）にパスフレーズを設定する方法については、このチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 COLDCARDで:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Jade Plus で:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Passport (batch-2) で:
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Trezorデバイス（Safe 3、Safe 5、またはModel One）で：
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+SeedSigner上で:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Seedkeeperを使用したSeedSigner上で：
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

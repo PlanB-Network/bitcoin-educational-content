@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Buy and sell bitcoins on Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin is a Bitcoin-only exchange platform founded in 2013 in Canada by Francis Pouliot, an iconic figure in the Bitcoin ecosystem. Bull Bitcoin's philosophy is to offer users tools for financial sovereignty and emancipation. The exchange platform is non-custodial, which means you always remain sovereign over your Bitcoins.
 
-Initially available only in Canada, the platform is now available in Europe, with a brand-new, optimized interface. This new version of Bull Bitcoin is currently only available in Europe. It enables you to buy and sell bitcoins quickly and easily, thanks to the use of Lightning and instant SEPA transfers. Eventually, the platform will also include options for DCA, automatic purchases, limit orders and bill payments in bitcoins.
+Ban đầu chỉ có sẵn tại Canada, nền tảng này hiện đã có mặt tại Châu Âu và nhiều quốc gia khác, với giao diện mới được tối ưu hóa. Phiên bản mới của Bull Bitcoin cho phép bạn mua và bán bitcoin một cách dễ dàng và nhanh chóng nhờ sử dụng Lightning và chuyển khoản SEPA tức thì. Nó cũng tích hợp thanh toán hóa đơn bằng bitcoin. Trong tương lai, nền tảng sẽ tích hợp các tùy chọn DCA, mua tự động và lệnh giới hạn.
 
-Bull Bitcoin makes a point of providing a transparent service with no hidden charges. Like all other exchange platforms in Europe, using Bull Bitcoin requires KYC (customer identification procedure).
+Bull Bitcoin cam kết cung cấp dịch vụ minh bạch và không có phí ẩn. Lưu ý rằng, giống như hầu hết các sàn giao dịch, việc sử dụng Bull Bitcoin yêu cầu hoàn thành quy trình KYC (xác minh danh tính khách hàng).
 
 ## Register on Bull Bitcoin
 
@@ -48,7 +48,7 @@ Scan the QR code with your authentication application, enter the 6-digit code an
 
 If you're not familiar with using authentication applications for the 2FA, I recommend you take a look at this tutorial on the Authy application:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Enter your password to confirm.
 
@@ -125,9 +125,9 @@ Enter the amount you wish to purchase. You'll also need to choose how you want t
 
 If you're not familiar with using Bitcoin, Lightning or Liquid wallets, I suggest you take our dedicated training course:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-You can also explore [our detailed tutorials on the best Bitcoin wallets](https://planb.network/tutorials/wallet).
+You can also explore [our detailed tutorials on the best Bitcoin wallets](https://planb.academy/tutorials/wallet).
 
 Then confirm your purchase by clicking on "*Confirm Buy*".
 
@@ -196,8 +196,16 @@ To keep track of all your transactions, you can consult the history in the "*Lat
 
 ![BULL](assets/fr/36.webp)
 
+## Bắt đầu mua định kỳ tự động (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Tạo lệnh giới hạn
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Now you know how to buy and sell bitcoin easily with Bull Bitcoin. If you found this tutorial useful, I'd be very grateful if you put a green thumb below. Feel free to share this article on your social networks. Thank you very much!
 
 I also recommend you check out this other comprehensive tutorial to learn how to manage your mnemonic phrase the right way:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

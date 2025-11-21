@@ -1,0 +1,9 @@
+question: 자체 Bitcoin 노드를 운영하면 어떤 이점이 있나요?
+answer: 독립성
+wrong_answers:
+  - 유동성
+  - 중앙 집중화
+  - 속도
+explanation: |
+  자체 노드를 운영하면 제3자로부터 독립성을 보장하고 거래의 프라이버시를 보호할 수 있습니다.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Bitcoin depolaması için gözetim dışı cüzdanları kullanmanın temel avantajı nedir?
+answer: Artırılmış güvenlik ve gizlilik
+wrong_answers:
+  - Bitcoin'e kolay erişim
+  - Daha düşük işlem ücretleri
+  - Şifreye gerek yok
+explanation: |
+  Gözetim dışı cüzdanlar, fonlarınızın tek sorumlusunun siz olduğunuz cüzdanlardır,
+  yani özel anahtarlarınız üzerinde tam kontrole sahipsiniz. Bu yüzden,
+  velayetsiz cüzdanlar daha yüksek düzeyde güvenlik ve gizlilik sunar
+  çünkü paranızın güvenliğinden sorumlu olan tek kişi sizsiniz.
+reviewed: true

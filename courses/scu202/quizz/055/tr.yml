@@ -1,0 +1,9 @@
+question: Günümüzde en yaygın olan ve modern tarayıcıların çoğuna güç veren render motoru hangisidir?
+answer: Göz kırpma
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Google tarafından WebKit Fork'dan geliştirilen Blink, bugün Chrome, Edge, Opera, Brave, Vivaldi ve daha fazlasına güç veren baskın işleme motorudur.
+reviewed: false

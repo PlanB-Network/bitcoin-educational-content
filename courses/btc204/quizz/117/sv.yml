@@ -1,0 +1,10 @@
+question: Hur många på varandra följande transaktioner brukar en klassisk rikoschett utföra?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  Ricochetmetoden innebär vanligtvis att man gör fyra transaktioner till sig själv och en sista för att skicka pengarna till den slutliga mottagaren.
+  
+reviewed: false

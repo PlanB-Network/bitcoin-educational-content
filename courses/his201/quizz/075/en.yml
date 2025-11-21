@@ -6,4 +6,4 @@ wrong_answers:
   - Libbitcoin
 explanation: |
   He [published](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) it under the open-source license (Apache 2.0), which he attributed to Google (his employer at that time). This implementation made it possible to launch the first lightweight wallet operating on Android.
-reviewed: false
+reviewed: true

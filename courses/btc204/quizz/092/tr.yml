@@ -1,0 +1,10 @@
+question: Whirlpool CoinJoin havuzuna giremeyen UTXO'lar için kullanılan hesabın adı nedir?
+answer: Doxxic değişim hesabı.
+wrong_answers:
+  - Postmix hesabı.
+  - Premiks hesabı.
+  - Mevduat hesabı.
+explanation: |
+  Havuza katılamayan değişiklik, Wallet'deki diğer UTXO'lardan kesin bir şekilde ayrılmasını sağlamak için "doxxic değişiklik hesabında izole edilir.
+  
+reviewed: false

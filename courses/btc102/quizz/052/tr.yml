@@ -1,0 +1,9 @@
+question: Kendi Bitcoin node'unuzu (düğümünüzü) çalıştırmak ne gibi avantajlar sağlıyor?
+answer: Bağımsızlık
+wrong_answers:
+  - Likidite
+  - Merkezileştirme
+  - Hız
+explanation: |
+  Kendi node'unuzu çalıştırmak üçüncü taraflardan bağımsız olmanızı sağlar ve işlemlerinizin gizliliğini korur.
+reviewed: false

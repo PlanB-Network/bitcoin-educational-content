@@ -1,0 +1,9 @@
+question: Vad kallas konsensusproblemet inom ett distribuerat nätverk?
+answer: Problemet med bysantinska generaler
+wrong_answers:
+  - De romerska centurionernas problem
+  - Problemet med de albanska överstarna
+  - Problemet med japanska taishos
+explanation: |
+  Namnet på detta problem (som formaliserades av Lamport, Shostak och Pease 1982) valdes för att undvika att förolämpa läsaren, eftersom ingen någonsin har identifierat sig som bysantinsk.
+reviewed: true

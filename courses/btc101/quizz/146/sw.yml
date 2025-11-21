@@ -1,11 +1,8 @@
-question: Kwa nini ni muhimu kwamba nodi ya Bitcoin ibaki kuwa nafuu na kupatikana kwa watumiaji wote wanaowezekana?
-answer: Kwa sababu inawezesha ugatuaji wa mtandao.
+question: Madhumuni ya kurekebisha ugumu katika Bitcoin Mining ni nini?
+answer: Husawazisha mchezo wa kimataifa wa Mining kulingana na idadi ya washiriki.
 wrong_answers:
-  - Kwa sababu huongeza uwezo wa muamala wa mtandao.
-  - Kwa sababu inapunguza uwezo wa muamala wa mtandao.
-  - Kwa sababu inaongeza Block reward kwa wachimbaji.
-explanation: |
-  Gharama nafuu na upatikanaji wa node ya Bitcoin ni
-  muhimu kwa sababu hurahisisha ugatuaji wa madaraka
-  mtandao.
+  - Inaongeza malipo kwa Mining.
+  - Inapunguza idadi ya bitcoins katika mzunguko.
+  - Inaongeza usalama wa mtandao wa Bitcoin.
+explanation: >-
 reviewed: true

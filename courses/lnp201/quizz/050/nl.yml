@@ -1,0 +1,9 @@
+question: Waarom zou een verkoper een fictieve betaling doen in een kanaal?
+answer: Liquiditeit naar de andere kant verplaatsen
+wrong_answers:
+  - De routeringskosten verlagen
+  - De totale capaciteit van hun kanalen vergroten
+  - Fondsen vastzetten voor de lange termijn
+explanation: |
+  Door een fictieve betaling te doen, verplaatst een verkoper liquiditeit van zijn kant naar de andere kant van het kanaal, waardoor inkomende capaciteit vrijkomt om betalingen te ontvangen.
+reviewed: false

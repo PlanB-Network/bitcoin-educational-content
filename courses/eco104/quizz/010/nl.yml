@@ -1,0 +1,11 @@
+question: Wat is het doel van knooppunten in het Bitcoin netwerk?
+answer: Om de Blockchain te onderhouden en te beveiligen
+wrong_answers:
+  - Transacties verwerken
+  - Wijzigingen in de Bitcoin codebase voorstellen en implementeren
+  - Concurreren met andere mijnbouwers
+explanation: |
+  Nodes zijn essentieel voor de integriteit en veiligheid van het Bitcoin netwerk.
+  Ze dienen als de poortwachters van het systeem, die ervoor zorgen dat transacties
+  nauwkeurig en volgens de regels worden verwerkt.
+reviewed: true

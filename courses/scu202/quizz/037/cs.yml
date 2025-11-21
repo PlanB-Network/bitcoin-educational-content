@@ -1,0 +1,9 @@
+question: Která kategorie softwaru představuje jeden z nejkritičtějších vstupních bodů pro útoky na počítač?
+answer: Webový prohlížeč
+wrong_answers:
+  - Čtečka PDF
+  - Textový editor
+  - Správce souborů
+explanation: |
+  Webový prohlížeč je neustále vystaven externímu obsahu, což z něj činí hlavní vektor útoku pro kyberzločince.
+reviewed: false

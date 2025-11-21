@@ -1,0 +1,9 @@
+question: Vilken är den huvudsakliga funktionen för en seed i samband med pseudorandomkedjor?
+answer: Att fungera som utgångspunkt för att generera en längre kedja
+wrong_answers:
+  - För att definiera den fasta längden för en pseudorandomkedja
+  - För att verifiera integriteten hos en pseudorandomkedja
+  - Så här lägger du till en enhetlig fördelning för värdena i en kedja
+explanation: |
+  seed är en kortare sträng som används som startpunkt av en expansionsalgoritm för att generate en längre pseudorandomkedja.
+reviewed: false

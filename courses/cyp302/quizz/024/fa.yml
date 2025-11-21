@@ -1,0 +1,9 @@
+question: ارزش 42 mod 2 برابر است با 0.
+answer: ۰
+wrong_answers:
+  - ۱
+  - ۲
+  - ۴۲
+explanation: |
+  با تقسیم 42 بر 2، باقیمانده صفر است، بنابراین 42 mod 2 برابر با 0 است.
+reviewed: false

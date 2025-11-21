@@ -1,0 +1,8 @@
+question: What is the primary architectural trade-off that the Breeze SDK makes to achieve simplified Lightning integration while maintaining non-custodial principles?
+answer: Users sacrifice some privacy as Greenlight can observe channel states and routing information, but retain full control over private keys and fund access
+wrong_answers:
+  - Users must trust Greenlight with partial custody of funds in exchange for automated channel management and reduced operational complexity
+  - Developers lose access to advanced Lightning features like custom routing and channel policies in exchange for simplified API integration and cross-platform support
+  - Applications sacrifice real-time payment processing capabilities in exchange for better security through cloud-based validation of all Lightning transactions
+explanation: |
+  The Breeze SDK's architecture represents a carefully considered privacy-versus-usability trade-off. While Greenlight can observe channel states and routing information (reducing privacy), users maintain complete control over their private keys, which never leave their devices. This ensures funds cannot be accessed without user authorization, preserving the core non-custodial principle. The wrong answers incorrectly suggest fund custody, feature limitations, or processing delays - none of which are actual trade-offs in the SDK's design.

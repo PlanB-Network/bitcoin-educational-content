@@ -1,0 +1,9 @@
+question: 自由軟體運動與開放原始碼的主要區別是什麼？
+answer: 以自由或技術效率為優先
+wrong_answers:
+  - 使用 C 或匯編語言
+  - 原生或 PC 行動應用程式開發
+  - 國際社會的存在與否
+explanation: |
+  自由軟體是關於使用者自由；開放原始碼則是關於透明度與技術效率。
+reviewed: false

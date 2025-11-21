@@ -1,0 +1,9 @@
+question: Wat is de beperking voor het afleiden van een child public key van een parent public key?
+answer: De kindsleutel moet normaal zijn
+wrong_answers:
+  - De kindersleutel moet worden gehard
+  - De chain code moet identiek zijn aan die van de oudersleutel
+  - Het proces moet de privésleutel van de ouder bevatten
+explanation: |
+  Een openbare sleutel van een kind kan alleen worden afgeleid van een openbare sleutel van een ouder als deze normaal is, niet gehard.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Hackernews
 explanation: |
   As the successor to the cypherpunks mailing list, this email mailing list was managed by developer Perry Metzger since 1996.
-reviewed: false
+reviewed: true

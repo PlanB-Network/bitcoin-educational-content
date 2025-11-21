@@ -1,0 +1,8 @@
+question: عملکرد اصلی گره‌ها در شبکه Bitcoin چیست؟
+answer: نگهداری یک نسخه از Bitcoin Blockchain، اعتبارسنجی تراکنش‌ها، انتقال اطلاعات به سایر نودها، و اجرای قوانین پروتکل Bitcoin.
+wrong_answers:
+  - نگهداری یک نسخه از Bitcoin Blockchain، اعتبارسنجی تراکنش‌ها، انتقال اطلاعات به دولت، و تغییر قوانین پروتکل Bitcoin.
+  - فقط نگهداری یک نسخه از Bitcoin Blockchain.
+  - فقط انتقال اطلاعات به گره‌های دیگر.
+explanation: >-
+reviewed: true

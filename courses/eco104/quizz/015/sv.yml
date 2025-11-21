@@ -1,0 +1,12 @@
+question: Vad är den största fördelen med att använda icke-förvaltade plånböcker för Bitcoin-lagring?
+answer: Ökad säkerhet och integritet
+wrong_answers:
+  - Enkel åtkomst till Bitcoin
+  - Lägre transaktionsavgifter
+  - Inget behov av lösenord
+explanation: |
+  Icke-förvarade plånböcker är där du är den enda förmyndaren för dina medel,
+  vilket innebär att du har fullständig kontroll över dina privata nycklar. Därför erbjuder
+  erbjuder icke-förvarade plånböcker en högre nivå av säkerhet och integritet
+  över depåplånböcker eftersom du är den enda som är ansvarig för säkerheten för dina medel.
+reviewed: true

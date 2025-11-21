@@ -1,8 +1,9 @@
 question: Perché gli UTXO vengono spesso paragonati a banconote?
-answer: Devono essere spesi nella loro interezza
+answer: Perchè devono essere spesi nella loro interezza
 wrong_answers:
   - Possono essere utilizzati più volte fino all'esaurimento
   - Sono utilizzabili solo in certe transazioni specifiche
   - Rappresentano piccole quantità fisse di bitcoin
 explanation: |
-  Come una banconota, un UTXO deve essere speso interamente in una transazione, e qualsiasi eccesso viene restituito al mittente come resto.
+  Come una banconota, un UTXO deve essere speso interamente in una transazione e l'importo in eccesso viene restituito al mittente come resto.
+reviewed: true

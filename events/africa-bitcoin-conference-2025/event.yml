@@ -1,18 +1,16 @@
 id: 230602a1-4861-43c3-9f16-c4d910aa08a0
-start_date: 2025-12-01 08:00:00
-end_date: 2025-12-01 16:00:00
+start_date: 2025-12-03 08:00:00
+end_date: 2025-12-05 17:00:00
 timezone: Africa/Cairo
 address_city_country: Port Louis, Mauritius
 address_line_2: Caudan Arts Centre
 name: Africa Bitcoin Conference 2025
 type: conference
-description: We are Africans from various parts of the continent who believe in the
-  Bitcoin revolution and are building a movement to bolster its Adoption.
+description: Bitcoiners from around the world will gather in Port Louis from December 3 to 5 to celebrate Bitcoin adoption in Africa.
 language:
   - en
 links:
   website: https://afrobitcoin.org/
-project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768
 tags:
   - adoption
   - market-trends

@@ -1,0 +1,9 @@
+question: Was muss zu NAT hinzugefügt werden, um ein Netz richtig zu sichern?
+answer: Eine Firewall
+wrong_answers:
+  - Ein lokaler DNS-Server
+  - Ein HTTP-Proxy
+  - Ein Antivirus
+explanation: |
+  NAT allein reicht nicht aus, um bösartigen Datenverkehr zu filtern: Es muss durch Firewall-Regeln ergänzt werden, um eine feinkörnige Verkehrskontrolle zu ermöglichen.
+reviewed: false

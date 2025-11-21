@@ -1,0 +1,9 @@
+question: Wer darf ein IPv6-Paket fragmentieren?
+answer: Nur Quellhost
+wrong_answers:
+  - Nur der erste Zwischenrouter
+  - Nur Ziel-Router
+  - Alle Router
+explanation: |
+  Bei IPv6 erfolgt die Fragmentierung ausschließlich durch den Quellhost, niemals durch zwischengeschaltete Router.
+reviewed: false

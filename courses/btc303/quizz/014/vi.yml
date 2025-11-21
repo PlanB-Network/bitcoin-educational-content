@@ -1,0 +1,8 @@
+question: Satoshi Nakamoto xác định vấn đề gì với hệ thống tài chính truyền thống trong phần giới thiệu sách trắng Bitcoin?
+answer: Các tổ chức tài chính không thể tránh khỏi việc hòa giải tranh chấp, khiến các giao dịch hoàn toàn không thể đảo ngược trở nên bất khả thi
+wrong_answers:
+  - Các ngân hàng tính phí quá cao khiến mọi giao dịch điện tử đều không có lợi cho người tiêu dùng
+  - Các công ty thẻ tín dụng từ chối xử lý thanh toán cho hàng hóa kỹ thuật số và dịch vụ trực tuyến
+  - Các quy định của chính phủ ngăn cản các tổ chức tài chính hoạt động xuyên biên giới quốc tế
+explanation: |
+  Satoshi đặc biệt xác định rằng các tổ chức tài chính đóng vai trò là bên thứ ba đáng tin cậy không thể tránh khỏi việc hòa giải tranh chấp, điều này ngăn chặn các giao dịch hoàn toàn không thể đảo ngược. Điều này tạo ra những điểm yếu cố hữu trong mô hình dựa trên niềm tin, làm tăng chi phí hòa giải và buộc các đơn vị chấp nhận thanh toán phải cảnh giác với khách hàng. Các lựa chọn khác mô tả các vấn đề khác nhau không được đề cập trong phân tích của Satoshi về các hệ thống thanh toán truyền thống.

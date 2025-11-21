@@ -1,0 +1,9 @@
+question: Rousseau bireyin vatandaşa dönüşümü hakkında ne diyor?
+answer: Bizler ancak vatandaş olduktan sonra adam olmaya başlarız
+wrong_answers:
+  - Sadece Contract ile vatandaş olmaya başlıyoruz
+  - Ancak eşit olduktan sonra vatandaş oluruz
+  - Vatandaş olmak, vatandaşlıktan önce gelir
+explanation: |
+  Rousseau, bireyin yurttaş olma aşamasından geçerek tam anlamıyla insan olduğunu ileri sürmekte, böylece kişisel tatmini toplumsal bütünleşmeye bağlamaktadır.
+reviewed: false

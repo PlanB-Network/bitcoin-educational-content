@@ -1,0 +1,13 @@
+question: Ni ingaruka izihe amafaranga y’amabanki n’ay’amabanki nkuru afise ku bijanye n’ugutera imbere kw’ibiciro?
+answer: Amafaranga mashasha yaremwe aguma ku rutonde rw’amabanki yigenga atagurishijwe abakozi b’ubutunzi, ntaco azogira ku bukungu nyakuri, rero ntazotuma habaho ugutera imbere kw’ibiciro.
+wrong_answers:
+  - Amafaranga aherutse kuremwa niyaguma ku rutonde rw’amabanki yigenga, azokwama atera inflation.
+  - Ivyerekeye amafaranga y’amabanki n’ay’amabanki nkuru ntaco bihindura ku bijanye n’ugutera imbere kw’ibiciro.
+  - Iyo amahera aherutse kuremwa agurishijwe abakozi b’ubutunzi, ntazotuma habaho ugutera imbere kw’ibiciro.
+explanation: |
+  Ico kigabane kirasigura yuko isano riri hagati y’icapa ry’amahera .
+  kandi inflation ihindurwa n’ingene amahera mashasha aremwe yinjira mu bukungu.
+  Iyo ayo mahera aguma ku bitabo vy’amahera y’amabanki yigenga ataco agurizwa .
+  ku bakozi b’ubutunzi, ntibizogira ico bikoze ata guca ku ruhande ku bukungu nyakuri, rero,
+  ntibizovamwo ugutera imbere kw’ibiciro.
+reviewed: false

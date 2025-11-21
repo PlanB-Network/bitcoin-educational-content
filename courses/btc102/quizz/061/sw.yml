@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuandika barua ya urithi kwa wino kwenye karatasi?
+answer: Ili kuepuka hatari zinazohusiana na hati za dijiti zilizoathiriwa
+wrong_answers:
+  - Ili kupunguza gharama za uchapishaji
+  - Ili kupata saini inayotambulika kisheria
+  - Ili kuongeza thamani ya kisheria ya hati
+explanation: |
+  Barua iliyoandikwa kwa mkono haiathiriwi sana na mashambulizi ya mtandaoni na inahakikisha usiri wa maagizo.
+reviewed: false

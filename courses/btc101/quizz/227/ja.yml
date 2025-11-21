@@ -1,9 +1,9 @@
-question: 従来の送金サービス（Western Union、中央銀行、Visa、Mastercardなど）がLightning Networkを採用しなかった場合、どのようなことが起こり得るでしょうか？
-answer: 彼らは消滅する可能性があります。
+question: Lightning Networkの日常生活における潜在的な応用の一つは何ですか？
+answer: コマースにおける即時請求。
 wrong_answers:
-  - より人気が出る可能性があります。
-  - より安全になる可能性があります。
-  - より分散化する可能性があります。
-explanation: |
-  Western Union、中央銀行、Visa、Mastercardなどの従来の送金サービスは、Lightning Network技術を採用しない場合、消滅する可能性があります。
-reviewed: true
+  - 新しいビットコインの採掘。
+  - 新しい暗号通貨の作成。
+  - ビットコインの価値を高める。
+explanation: >-
+  Lightning Networkは、ビットコインのセキュリティと分散化を確保するために必要な制約のために以前は手が届かなかった潜在的な応用の幅広い範囲を開きます。日常生活におけるこれらの応用の中で、コマースにおける即時請求を挙げることができます。
+  レビュー済み: true

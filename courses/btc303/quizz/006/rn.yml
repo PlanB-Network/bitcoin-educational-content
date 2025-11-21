@@ -1,0 +1,8 @@
+question: Ni ikihe kintu nyamukuru catumye amagerageza y’amahera y’ubuhinga bwa none ya kera adashobora gushika imbere ya Bitcoin?
+answer: Bizigira ama server yo hagati yashobora gucengera canke guhagarara .
+wrong_answers:
+  - Bakoresheje ubuhinga butabereye bwo gucungera umutekano w'ibikorwa
+  - Bari babuze ubushobozi buhagije bwo gukoresha mudasobwa kugira ngo bashobore gukora neza amafaranga .
+  - Bananiwe gushira mu ngiro uburyo bwiza bwo kwemeza abakoresha
+explanation: |
+  Amafaranga ya kera y’ubuhinga bwa none yarananiwe kubera ko yari ashingiye ku ma server yo hagati mu gukora amafaranga no kwemeza. Nk'uko vyasiguwe mu kigabane, ukwo gushiramwo ibintu vyose hamwe kwacitse "igitsintsiri ca Achille" cabo kuko intwaro canke abandi bansi bashobora gucengera, kugenzura canke gufunga bitagoranye izo ngingo nyamukuru z'ukunanirwa. Mbere n'ukugerageza gukoresha ama server menshi mu gisata c'ubuhinga bwa none vyasigaye bishobora guhungabana kuko server yose yoshobora "kunanirwa, canke igatuma inanirwa, imwe imwe." Bitcoin yaratorera umuti ivyo mu gukuraho ubutegetsi bwose bukenewe biciye ku buryo bwayo bwa proof-of-work bushizwe ahantu hamwe.

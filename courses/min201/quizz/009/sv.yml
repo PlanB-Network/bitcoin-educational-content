@@ -1,0 +1,13 @@
+question: Vilken roll har mjukvara i Bitcoin Mining och hur bidrar den till effektivitet?
+answer: Programvara i Bitcoin Mining, som BrainsOS Plus, ersätter det ursprungliga operativsystemet i Mining-maskinen, vilket gör att samma operationer kan utföras mer effektivt. Det kan öka en maskins effektivitet med 25 %, vilket innebär att för en motsvarande mängd elektricitet kan maskinen producera ytterligare 25 % Hashrate, vilket ökar de belöningar som Miner får.
+wrong_answers:
+  - Programvara i Bitcoin Mining används för att spåra mängden Bitcoin som bryts och bidrar inte till effektiviteten.
+  - Programvaran i Bitcoin Mining ger bara en bättre internetanslutning för Mining-maskinen, den kan öka effektiviteten för en sådan maskin med 14% om ett av de senaste protokollen används.
+  - Programvaran i Bitcoin Mining används för att kyla ner Mining-maskinen och bidrar inte till effektiviteten.
+explanation: |
+  I kapitlet förklaras att programvara som BrainsOS Plus kan
+  ersätta det ursprungliga operativsystemet i en Mining-maskin,
+  vilket gör att samma operationer kan utföras mer
+  effektivt. Denna mjukvaruoptimering är en viktig del av
+  viktig del av konkurrenskraften i Bitcoin Mining.
+reviewed: true

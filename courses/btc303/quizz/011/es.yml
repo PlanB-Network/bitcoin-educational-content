@@ -1,0 +1,8 @@
+question: Según la definición de Pieter Wuille, ¿qué significa "trustless" en el contexto de los sistemas distribuidos?
+answer: Un sistema que no requiere partes de confianza para funcionar correctamente
+wrong_answers:
+  - Un sistema en el que los usuarios no pueden confiar en ninguno de los participantes o validadores
+  - Un sistema que elimina todas las formas de confianza, incluidos el software y el hardware
+  - Un sistema en el que nadie puede anular o impugnar las transacciones
+explanation: |
+  Trustless se refiere específicamente a una propiedad técnica en la que un sistema distribuido puede funcionar correctamente sin requerir ninguna parte de confianza. Esto es diferente de eliminar toda confianza (sigues confiando en tu software/hardware) o de evitar las reversiones (las transacciones Bitcoin pueden revertirse mediante la reescritura de la cadena). El término tampoco significa que los usuarios no puedan confiar en los participantes, sino que la corrección del sistema no depende de que se confíe en ellos.

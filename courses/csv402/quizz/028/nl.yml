@@ -1,0 +1,9 @@
+question: Wat is de functie van de Interface in een RGB Contract?
+answer: Contract gegevens gemakkelijk leesbaar en manipuleerbaar maken
+wrong_answers:
+  - Validatiescripts uitvoeren op de Blockchain
+  - Genesis gegevens opslaan bij de klant
+  - Strikt typesysteem voor rapporten definiëren
+explanation: |
+  Het doel van de Interface is om Contract informatie te presenteren op een manier die duidelijk is voor gebruikers en software, zonder de Business Logic aan te tasten.
+reviewed: false

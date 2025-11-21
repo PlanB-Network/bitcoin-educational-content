@@ -1,0 +1,9 @@
+question: Varför är det viktigt att spåra fiat-värdet vid tidpunkten för varje Bitcoin-transaktion?
+answer: Att säkerställa korrekt bokföring och efterlevnad av skatteregler
+wrong_answers:
+  - För att automatiskt öka Wallet-balansen
+  - För att möjliggöra marknadshandel i realtid direkt från Wallet
+  - För att minska de transaktionsavgifter som tas ut av nätverket
+explanation: |
+  Att spåra fiat-värdet hjälper företag att hantera bokföringen med fluktuerande Bitcoin-priser.
+reviewed: false

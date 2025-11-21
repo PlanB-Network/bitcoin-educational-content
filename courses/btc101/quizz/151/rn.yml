@@ -1,0 +1,8 @@
+question: Ni igiki gifise intumbero ya Proof of Work mu murongo wa Bitcoin?
+answer: Proof of Work iramenya neza ukuri kw’amakuru ata kwizigira uwundi muntu.
+wrong_answers:
+  - Proof of Work ikoreshwa mu guhingura ama bitcoins mashasha mu kwizigira uwundi muntu.
+  - Proof of Work ikoreshwa mu kugenzura amafaranga Bitcoin ikoreshwa mu kwizigira uwundi muntu.
+  - Proof of Work ikoreshwa mu guhindura umurongo wa Bitcoin ata kwizigira uwundi muntu.
+explanation: >-
+reviewed: true

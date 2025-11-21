@@ -1,0 +1,9 @@
+question: 哪种开源工具可以在 Linux 下对磁盘进行完全加密？
+answer: 卢克
+wrong_answers:
+  - 比特锁
+  - 文件保险箱
+  - 超级加密
+explanation: |
+  LUKS（Linux 统一密钥设置）是 Linux 系统在安装过程中进行全磁盘加密的标准解决方案。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è la funzione principale del MAC Address in una rete locale?
+answer: Identificare in modo univoco una interfaccia di rete
+wrong_answers:
+  - Tradurre un nome di dominio in un IP Address
+  - Assegnazione dinamica di un IP Address a un host
+  - Determinare la velocità della connessione a Internet
+explanation: |
+  Il MAC Address funge da identificatore hardware univoco per ogni interfaccia di rete, consentendo di distinguere fisicamente i dispositivi su una rete locale.
+reviewed: false

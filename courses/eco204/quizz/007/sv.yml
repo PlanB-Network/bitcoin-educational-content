@@ -1,0 +1,13 @@
+question: Vad är den grundläggande skillnaden mellan prishöjning och inflation?
+answer: Prisökningar kan vara sektorspecifika och orsakas av olika faktorer, medan inflation definieras som en allmän prisökning på en rad olika varor och tjänster.
+wrong_answers:
+  - Prisökning är en generell ökning av priserna på en rad varor och tjänster, medan inflation är sektorspecifik och orsakas av olika faktorer.
+  - Prisökning och inflation är samma sak, båda avser en allmän ökning av priserna på en rad varor och tjänster.
+  - Prisökning innebär att priserna sjunker, medan inflation innebär att priserna stiger.
+explanation: |
+  I kapitlet förklaras att en prisökning kan vara branschspecifik och
+  orsakas av olika faktorer, till exempel en minskning av OPEC:s produktion av olja eller ogynnsamma
+  väderförhållanden för vete. Inflation, å andra sidan, definieras av en allmän
+  generaliserad prisökning på en rad varor och tjänster, inte bara i en specifik sektor
+  sektor.
+reviewed: false

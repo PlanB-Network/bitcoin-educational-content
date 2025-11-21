@@ -1,0 +1,9 @@
+question: Welches Gerät bildet die Grenze zwischen dem Internet und Ihrem privaten Heimnetzwerk?
+answer: Modem-Router
+wrong_answers:
+  - Ethernet-Switch
+  - NAS-Server
+  - USB-Hub
+explanation: |
+  Der Modem-Router verbindet das Netz des Internetanbieters mit Ihrem lokalen Netz und verwaltet die Zuweisung der lokalen IP-Adressen.
+reviewed: false

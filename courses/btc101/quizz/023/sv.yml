@@ -1,0 +1,12 @@
+question: Vad är den största fördelen med fiatvalutor?
+answer: De är lätt delbara.
+wrong_answers:
+  - De styrs av ett centralt parti.
+  - De är inte lätta att transportera.
+  - De är effektiva och behåller sitt värde över tid.
+explanation: |
+  Fiatvalutor, såsom dollar och euro, är mycket
+  Liquid och lätta att transportera eftersom de nu till största delen är
+  digitala. Deras värde urholkas dock ständigt av den
+  monetär inflation.
+reviewed: true

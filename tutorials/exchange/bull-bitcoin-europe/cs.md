@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Nákup a prodej bitcoinů na Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin je výměnná platforma pouze pro bitcoiny, kterou v roce 2013 v Kanadě založil Francis Pouliot, ikonická postava bitcoinového ekosystému. Filozofií Bull Bitcoin je nabízet uživatelům nástroje pro finanční suverenitu a emancipaci. Výměnná platforma je neúvěrová, což znamená, že nad svými bitcoiny zůstáváte vždy suverénní.
 
-Původně byla tato platforma dostupná pouze v Kanadě, nyní je k dispozici i v Evropě a má zcela nové, optimalizované rozhraní. Tato nová verze Bull Bitcoin je v současné době dostupná pouze v Evropě. Umožňuje rychlý a snadný nákup a prodej bitcoinů díky využití technologie Lightning a okamžitých převodů SEPA. Časem bude platforma zahrnovat také možnosti DCA, automatických nákupů, limitních příkazů a plateb účtů v bitcoinech.
+Původně dostupná pouze v Kanadě je nyní platforma dostupná také v Evropě a v mnoha dalších zemích, s úplně novým optimalizovaným rozhraním. Tato nová verze Bull Bitcoin vám umožní snadno a rychle nakupovat a prodávat bitcoiny díky využití Lightning a okamžitých SEPA převodů. Integruje také platbu faktur v bitcoinech. V budoucnu platforma plánuje také přidání možností DCA, automatických nákupů a limitních příkazů.
 
-Společnost Bull Bitcoin se snaží poskytovat transparentní služby bez skrytých poplatků. Stejně jako všechny ostatní směnárenské platformy v Evropě vyžaduje používání Bull Bitcoin KYC (postup identifikace zákazníka).
+Bull Bitcoin si zakládá na poskytování transparentní služby bez skrytých poplatků. Upozorňujeme, že stejně jako většina směnáren, použití Bull Bitcoin vyžaduje provedení KYC (proces identifikace klienta).
 
 ## Zaregistrujte se na Bull Bitcoin
 
@@ -48,7 +48,7 @@ Naskenujte QR kód pomocí autentizační aplikace, zadejte šestimístný kód 
 
 Pokud nejste obeznámeni s používáním ověřovacích aplikací pro 2FA, doporučuji vám podívat se na tento návod na aplikaci Authy:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pro potvrzení zadejte své heslo.
 
@@ -125,9 +125,9 @@ Zadejte částku, kterou chcete zakoupit. Musíte také zvolit, jakým způsobem
 
 Pokud nejste obeznámeni s používáním peněženek Bitcoin, Lightning nebo Liquid, doporučuji vám absolvovat náš specializovaný školící kurz:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Můžete si také prohlédnout [naše podrobné návody na nejlepší bitcoinové peněženky](https://planb.network/tutorials/wallet).
+Můžete si také prohlédnout [naše podrobné návody na nejlepší bitcoinové peněženky](https://planb.academy/tutorials/wallet).
 
 Poté potvrďte nákup kliknutím na "*Potvrdit nákup*".
 
@@ -196,8 +196,16 @@ Chcete-li mít přehled o všech svých transakcích, můžete nahlédnout do hi
 
 ![BULL](assets/fr/36.webp)
 
+## Spustit automatický opakovaný nákup (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Vytvořit limitní objednávku
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nyní víte, jak snadno nakupovat a prodávat bitcoiny pomocí Bull Bitcoin. Pokud vám tento návod přišel užitečný, budu vám velmi vděčný, když mi níže dáte zelený palec. Neváhejte a sdílejte tento článek na svých sociálních sítích. Moc vám děkuji!
 
 Doporučuji vám také podívat se na tento další komplexní návod, kde se dozvíte, jak správně spravovat mnemotechnické fráze:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

@@ -1,0 +1,9 @@
+question: Welke service geeft een overzicht van verkopers die Bitcoin wereldwijd accepteren?
+answer: BTC Kaart
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin gesprek
+  - Zwitsers Bitcoin loon
+explanation: |
+  BTC Map is een speciaal platform dat handelaars die Bitcoin accepteren over de hele wereld lokaliseert.
+reviewed: false

@@ -1,0 +1,9 @@
+question: چگونه چکسام برای آدرس‌های SegWit v0 که در bech32 کدگذاری شده‌اند محاسبه می‌شود؟
+answer: استفاده از کدهای BCH
+wrong_answers:
+  - با اعمال HASH256 دو بار
+  - با افزودن یک RIPEMD160 Hash
+  - با رمزگذاری مستقیم در base64
+explanation: |
+  آدرس‌های Bech32 از کدهای BCH برای محاسبه چکسام استفاده می‌کنند.
+reviewed: false

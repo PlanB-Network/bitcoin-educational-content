@@ -1,0 +1,13 @@
+question: None iyo nzira ya TOR ni iyihe?
+answer: Urubuga rutanga ubutamenyekana mu gupfuka IP y’uwukoresha Address no kwemerera umuntu gushika ku rubuga rwa Darknet.
+wrong_answers:
+  - Igikoresho kirinda igikoresho cawe ama virusi n’ibindi bikoresho bibi.
+  - Urubuga rwo guhisha igikorwa cawe co kuri internet ku muntu aguha interineti.
+  - Ihuriro rituma ushobora guca kuri internet vyihuta.
+explanation: |
+  Urubuga rwa TOR (Igitunguru Router) ni urusobe rutanga .
+  kutamenyekana mu gupfuka IP y'ukoresha Address no kwemera
+  gushika ku rubuga rw’umwiza. Ikoreshwa n’abanyamakuru, umwidegemvyo .
+  abaharanira uburenganzira bw’abantu, n’abandi bipfuza guhunga ugucengera mu 2012.
+  ibihugu vy’ubutegetsi bw’agahomerabunwa.
+reviewed: true

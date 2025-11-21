@@ -1,0 +1,8 @@
+question: Em 1776, foi publicado Le commerce et le gouvernement considérés relativement l'un avec l'autre. Que outro livro foi publicado no mesmo ano?
+answer: A Riqueza das Nações de Adam Smith
+wrong_answers:
+  - Tratado de Economia Política de Jean-Baptiste Say
+  - Reflexões de Turgot sobre a formação e a distribuição da riqueza
+  - O Contract social
+explanation: |
+  a obra "A Riqueza das Nações" de Adam Smith foi publicada em 1776, um ano crucial para o pensamento económico.

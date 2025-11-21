@@ -5,5 +5,5 @@ wrong_answers:
   - An email verification mechanism.
   - An identity verification mechanism.
 explanation: |
-  These platforms typically use a protection mechanism where bitcoins are held until the seller confirms the payment in fiat currency. This mechanism of holding by a third party represents what is known as an escrow.
-reviewed: false
+  These platforms typically employ a protection mechanism where bitcoins are held until the seller confirms receipt of the payment in fiat currency. This mechanism of holding by a third party represents what is known as an escrow.
+reviewed: true

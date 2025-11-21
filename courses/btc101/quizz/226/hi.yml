@@ -1,8 +1,8 @@
-question: Lightning Network किस तरह का नेटवर्क बनाता है?
-answer: भुगतान चैनलों का एक नेटवर्क।
+question: Lightning Network का मुख्य उद्देश्य क्या है?
+answer: माइक्रो-ट्रांजैक्शन को आसान बनाने के लिए।
 wrong_answers:
-  - Mining नोड्स का एक नेटवर्क।
-  - Blockchain नोड्स का एक नेटवर्क।
-  - एक क्रिप्टोकरेंसी एक्सचेंजों का नेटवर्क।
+  - Bitcoin की वैल्यू बढ़ाने के लिए।
+  - Bitcoin प्रोटोकॉल को बदलने के लिए।
+  - एक नया क्रिप्टोकरेंसी बनाने के लिए।
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hur skiljer sig en kreditkortstransaktion vanligtvis från en enkel kontanttransaktion?
+answer: Det involverar flera mellanhänder
+wrong_answers:
+  - Det sker direkt utan inblandning av någon mellanhand
+  - Det kräver endast den fysiska Exchange av valuta
+  - Den föreskriver att båda parter ska producera identiska varor
+explanation: |
+  Till skillnad från kontanter, som utväxlas omedelbart, går kreditkortstransaktioner igenom en rad steg som involverar banker, kortnätverk och clearingprocesser, vilket leder till förseningar och extra kostnader.
+reviewed: false

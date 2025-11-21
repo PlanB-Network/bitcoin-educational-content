@@ -1,0 +1,9 @@
+question: Wat betekent de XOR-bewerking als deze wordt toegepast tussen twee bits?
+answer: Het geeft 1 terug als de bits verschillend zijn, anders geeft het 0 terug
+wrong_answers:
+  - Het geeft alleen 1 terug als beide bits 1 zijn
+  - Het telt de bits op en geeft de som terug
+  - Het geeft altijd 0 terug, ongeacht het resultaat
+explanation: |
+  De XOR-bewerking (of exclusieve of) produceert 1 als de twee bits verschillend zijn (0 en 1 of 1 en 0) en 0 als ze hetzelfde zijn.
+reviewed: false

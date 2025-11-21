@@ -1,0 +1,9 @@
+question: Turgot'nun ve Adam Smith'in değer teorileri arasındaki temel fark nedir?
+answer: Turgot, değerin emek tarafından belirlendiğine inanırken, Smith bunun fayda tarafından belirlendiğine inanıyordu.
+wrong_answers:
+  - Turgot serbest ticaretin en iyi ekonomi politikası olduğuna inanırken, Smith korumacılığa inanıyordu.
+  - Turgot devletin rolünün piyasayı serbest bırakmak olduğuna inanırken, Smith hükümetin ekonomiye müdahale etmesi gerektiğine inanıyordu.
+  - Turgot'nun ve Smith'in değer teorileri arasında temel bir fark yoktur.
+explanation: |
+  Turgot emeği değerin ana belirleyicisi olarak görürken, Adam Smith fayda ve talepten etkilenen ve öznel iktisadın habercisi olan bir değer kavramı ortaya atmıştır.
+reviewed: true

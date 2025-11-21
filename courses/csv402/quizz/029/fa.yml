@@ -1,0 +1,9 @@
+question: نقش اصلی Schema در یک RGB Contract چیست؟
+answer: Business Logic و ساختار داده Contract را توصیف کنید.
+wrong_answers:
+  - تعریف کیف پول‌های Interface برای RGB
+  - مدیریت کامپایل اسکریپت‌ها بر روی Blockchain
+  - اعتبارسنجی رمزنگاری On-Chain
+explanation: |
+  Schema ساختار اعلامی، انواع داده و قوانین اعتبارسنجی Contract را تعریف می‌کند و به شما امکان می‌دهد Business Logic را در سمت مشتری مدیریت کنید.
+reviewed: false

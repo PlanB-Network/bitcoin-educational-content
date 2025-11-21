@@ -1,0 +1,9 @@
+question: Welk project werd in 1983 gestart om een volledig vrij besturingssysteem te maken?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window Systeem project
+  - Open Source Initiatief
+explanation: |
+  Richard Stallman lanceerde het GNU project in 1983 om een volledig vrij besturingssysteem te ontwikkelen.
+reviewed: false

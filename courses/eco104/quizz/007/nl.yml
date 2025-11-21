@@ -1,0 +1,17 @@
+question: Wat is het effect van het drukken van meer geld op de koopkracht van een valuta?
+answer: Een verslechtering van de koopkracht van de munt
+wrong_answers:
+  - Een stijging van de koopkracht van de munt
+  - Geen invloed
+  - Meer geld = meer koopkracht
+explanation: |
+  Wanneer centrale banken besluiten om geld bij te drukken, kunnen ze niet simpelweg meer waarde creëren.
+  Om dit nieuw gedrukte geld iets waard te laten zijn, moet de waarde afkomstig zijn van de
+  houders van de vorige valuta.
+  Zie het geld Supply als een pizza, en stel je voor dat hij in vier stukken is gesneden.
+  Een verdubbeling van het geld Supply zou niet gelijk zijn aan een verdubbeling van de hoeveelheid pizza.
+  In plaats daarvan zou het gelijk zijn aan het doormidden snijden van die vier stukken om zo
+  acht stukken. We hebben geen extra pizza gekregen. We hebben alleen meer stukken,
+  die elk kleiner zijn. Als we meer geld drukken, devalueren we dus het bestaande geld
+  dat al bestaat.
+reviewed: true

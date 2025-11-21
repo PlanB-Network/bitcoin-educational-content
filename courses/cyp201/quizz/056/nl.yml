@@ -1,0 +1,8 @@
+question: Welke constante wordt gebruikt om de master private key van de seed af te leiden?
+answer: Bitcoin seed
+wrong_answers:
+  - Hoofdsleutel
+  - HD Wallet seed
+  - Blockchain Wortel
+explanation: |
+  De Bitcoin seed constante wordt gebruikt als sleutel in de HMAC-SHA512 functie om de master private key en de master chain code af te leiden.

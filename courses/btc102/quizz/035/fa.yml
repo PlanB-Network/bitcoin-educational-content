@@ -1,0 +1,9 @@
+question: چه راه‌حل ذخیره‌سازی برای یک هودلر توصیه می‌شود؟
+answer: A Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - یک سرویس نگهداری
+  - یک کاغذ Wallet
+explanation: |
+  یک هودلر، که بیت‌کوین‌ها را برای مدت طولانی نگه می‌دارد، باید از Hardware Wallet برای حداکثر کردن امنیت استفاده کند.
+reviewed: false

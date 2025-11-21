@@ -1,0 +1,9 @@
+question: Varför är skiftkryptering sårbar för brute force-attacker?
+answer: Eftersom den bara har 26 möjliga tangenter
+wrong_answers:
+  - Eftersom den använder en offentlig nyckel
+  - Eftersom den bygger på symmetrisk kryptering
+  - Eftersom den använder slumpmässiga tal
+explanation: |
+  Shift-kryptering är lätt att utsätta för brute force-attacker eftersom den bara har 26 möjliga nycklar, från 0 till 25, på grund av användningen av modulo 26 som i sin tur beror på alfabetets storlek. Du kan inte använda större giltiga nycklar, eftersom de i vilket fall som helst skulle motsvara en nyckel mellan 0 och 25. Därför räcker det med att testa var och en av dem för att hitta meddelandet.
+reviewed: false

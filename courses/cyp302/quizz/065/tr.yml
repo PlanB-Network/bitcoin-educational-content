@@ -1,0 +1,9 @@
+question: Bir simetrik şifreleme şemasının üç temel bileşeni nedir?
+answer: Bir anahtar oluşturma algoritması, bir şifreleme algoritması ve bir şifre çözme algoritması
+wrong_answers:
+  - Bir hashing algoritması, bir açık anahtar ve bir doğrulama algoritması
+  - Bir açık anahtar, bir özel anahtar ve bir şifre çözme algoritması
+  - Bir şifreleme algoritması, bir açık anahtar ve bir özel anahtar
+explanation: |
+  Bir simetrik şifreleme şeması üç Elements'dan oluşur: bir anahtar oluşturma algoritması, bir şifreleme algoritması ve bir şifre çözme algoritması. Hepsi aynı anahtarı kullanır.
+reviewed: false

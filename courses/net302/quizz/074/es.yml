@@ -1,0 +1,9 @@
+question: ¿Qué organización gestiona la asignación inicial de bloques IPv6 Address en todo el mundo?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA se sitúa en la cúspide de la jerarquía de asignación, delegando bloques IPv6 a los cinco Registros Regionales de Internet (RIR).
+reviewed: false

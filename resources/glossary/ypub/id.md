@@ -2,4 +2,4 @@
 term: YPUB
 
 ---
-Awalan kunci publik yang diperluas untuk akun Nested SegWit di Bitcoin.
+Awalan _extended public key_ untuk akun Nested SegWit di Bitcoin.

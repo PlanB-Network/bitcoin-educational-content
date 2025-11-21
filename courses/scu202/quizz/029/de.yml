@@ -1,0 +1,9 @@
+question: Welche Version von Ubuntu ist für Anfänger aufgrund ihrer Stabilität und der Dauer des Supports zu empfehlen?
+answer: LTS (Langfristige Unterstützung)
+wrong_answers:
+  - Rolling Release
+  - Erste Fassung
+  - Alpha-Freigabe
+explanation: |
+  Die LTS-Version von Ubuntu wird fünf Jahre lang gewartet und bietet eine größere Stabilität, was sie ideal für Einsteiger macht.
+reviewed: false

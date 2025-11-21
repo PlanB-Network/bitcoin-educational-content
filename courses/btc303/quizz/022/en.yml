@@ -1,0 +1,8 @@
+question: What are the two main problems of blockchain privacy that Satoshi Nakamoto identified in the Bitcoin whitepaper?
+answer: Address reuse and address clustering
+wrong_answers:
+  - Transaction fees and confirmation delays
+  - Double spending and hash collisions
+  - Network congestion and mining centralization
+explanation: |
+  In section 7 of the Bitcoin whitepaper, Satoshi Nakamoto identified address reuse and address clustering as the main blockchain privacy problems. Address reuse occurs when the same address is used multiple times, making it easy to link transactions to the same user. Address clustering refers to the ability to determine that different addresses belong to the same owner, particularly through multi-input transactions which reveal that all inputs were controlled by the same person. The other options are technical or operational challenges in Bitcoin but are not the privacy issues specifically discussed by Satoshi in the whitepaper.

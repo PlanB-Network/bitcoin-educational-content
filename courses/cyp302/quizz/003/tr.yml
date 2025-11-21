@@ -1,0 +1,9 @@
+question: İkinci Beale mesajının şifresi çözüldüğünde ne ortaya çıkıyor?
+answer: Gömülü hazinelerin listesi (altın, gümüş ve mücevherler)
+wrong_answers:
+  - Hazinenin tam olarak gömülü olduğu yer
+  - Beale'in dönüş tarihi
+  - Beale'in ve ortaklarının imzası
+explanation: |
+  Şifre çözüldükten sonra, ikinci mesaj altın, gümüş ve mücevherlerden oluşan hazinenin içeriğini açıklar.
+reviewed: false

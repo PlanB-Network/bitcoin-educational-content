@@ -1,0 +1,12 @@
+question: Vad är en av de största fördelarna med Bitcoin för personer utan bankkonto?
+answer: Bitcoin möjliggör jämlikhet i transaktioner, oavsett social status eller politisk ställning.
+wrong_answers:
+  - Bitcoin möjliggör ojämlikhet i transaktioner genom att belöna de rikaste användarna.
+  - Bitcoin gynnar bara människor med ett bankkonto och en vänsterpolitisk ståndpunkt.
+  - Bitcoin gynnar endast personer med hög social status.
+explanation: |
+  I texten nämns att det finns 2,4 miljarder människor i världen
+  världen utan bankkonto, och Bitcoin gör det möjligt att
+  jämlikhet i transaktioner, oavsett deras sociala status
+  eller politisk position.
+reviewed: true

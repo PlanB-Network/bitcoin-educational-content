@@ -1,0 +1,10 @@
+question: 제로링크 프로토콜에서 포스트 믹스 Wallet의 역할은 무엇인가요?
+answer: 믹싱 후 UTXO를 저장합니다.
+wrong_answers:
+  - 믹싱하기 전에 UTXO를 저장합니다.
+  - 변경 UTXO를 저장합니다.
+  - 통합 UTXO를 저장합니다.
+explanation: |
+  포스트 믹스 Wallet은 믹스된 코인을 위해 예약되어 있습니다.
+  
+reviewed: true

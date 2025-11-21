@@ -1,0 +1,9 @@
+question: Varför använder kemister gruppteori?
+answer: Att klassificera molekylernas former
+wrong_answers:
+  - För att analysera kemiska bindningar
+  - För att beräkna molekylmassa
+  - Förutsäga kemiska reaktioner
+explanation: |
+  Gruppteori gör det möjligt för kemister att klassificera molekylära former baserat på deras symmetrier, vilket hjälper till att förstå deras strukturella egenskaper.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken kanalstängningsmetod är den mest ekonomiska och snabba?
+answer: Stängning av kooperativ
+wrong_answers:
+  - Tvångsnedläggning
+  - Förslutning med fusk
+  - Inga är mer ekonomiska och snabba
+explanation: |
+  Kooperativ stängning är den snabbaste och mest ekonomiska metoden eftersom båda parter är överens om att stänga kanalen och justera avgifterna efter marknadsförhållandena.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Schnorr'un hangi özelliği birden fazla açık anahtarı tek bir anahtarda birleştirmeye izin verir?
+answer: Anahtar Toplama
+wrong_answers:
+  - Toplu Doğrulama
+  - İşlenebilirlik
+  - İmza Sıkıştırma
+explanation: |
+  Schnorr, birden fazla açık anahtarın tek bir anahtarda toplanmasına izin verir.
+reviewed: false

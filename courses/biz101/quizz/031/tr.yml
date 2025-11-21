@@ -1,0 +1,9 @@
+question: Bir işletme ihtiyaçlarına uygun bir Bitcoin ödeme çözümünü nasıl seçmelidir?
+answer: İşlem sıklığı, ortalama ödeme boyutu ve çevrimiçi mi yoksa yüz yüze mi olduğu gibi faktörleri göz önünde bulundurarak ve ardından bu kategoriye uygun bir çözüm seçerek.
+wrong_answers:
+  - İşlem hacmi veya karmaşıklığı ne olursa olsun her zaman en basit çözümü seçerek.
+  - İşletme büyüklüğüne bakılmaksızın yalnızca mevcut en büyük ve en pahalı çözümü kullanarak.
+  - İşletmenin özel gereksinimlerini dikkate almadan yalnızca tahminlere güvenerek.
+explanation: |
+  Farklı işletmelerin farklı ihtiyaçları vardır. İşlem hacmi, ödeme yöntemleri (çevrimiçi ve fiziksel) ve ölçeklenebilirlik gibi faktörlerin değerlendirilmesi, bir şirketin doğru Bitcoin ödeme çözümünü seçmesine yardımcı olur.
+reviewed: false

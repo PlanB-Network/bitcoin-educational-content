@@ -1,0 +1,8 @@
+question: Mis on Boisguilbertil ja Vaubanil ühist?
+answer: Selle eest, et ta on pikalt kirjeldanud maainimeste viletsust ja teinud ettepaneku kehtestada proportsionaalne maks kõigile
+wrong_answers:
+  - Selle eest, et ta kirjeldas pikalt maainimeste viletsust ja alustas oma kirjanikukarjääri
+  - Selle eest, et ta tegi ettepaneku kehtestada proportsionaalne maks kõigile ja et ta oli rahandusminister
+  - Olles olnud rahandusminister ja alustanud kirjandusliku karjääriga
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, oli sarnaselt Vaubanile terane talupoegade viletsuse vaatleja ja tegi ettepaneku maksureformi kohta, mis põhines proportsionaalsel maksul. Kuid erinevalt Colbertist ei olnud ei Boisguilbert ega Vauban rahandusministrid.

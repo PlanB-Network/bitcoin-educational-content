@@ -1,0 +1,5 @@
+---
+term: ZEICHEN BLIND
+---
+
+Der Vorgang, bei dem ein Benutzer eine Bitcoin-Transaktion unterzeichnet, ohne die genauen Einzelheiten des von ihm unterzeichneten Vorgangs überprüfen zu können. Bei Hardware-Geldbörsen ist es gefährlich, blind zu unterschreiben, da der Benutzer sich darauf verlassen muss, dass der angeschlossene Computer Informationen (Empfänger, Gebühren, Beträge usw.) anzeigt. Dies setzt ihn Schwachstellen aus, da der Computer mit dem Internet verbunden ist und eine viel größere Angriffsfläche bietet als das Unterschriftsgerät. Wenn der Computer kompromittiert ist, kann er die angezeigten Details manipulieren und eine bösartige Transaktion zur Unterzeichnung senden, ohne dass der Benutzer es merkt. Um dieses Risiko zu vermeiden, empfehlen wir die Verwendung von Hardware-Geldbörsen mit integriertem Bildschirm und die Überprüfung der darauf angezeigten Informationen vor dem Signieren von Transaktionen.

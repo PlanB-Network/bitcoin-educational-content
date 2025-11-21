@@ -32,12 +32,12 @@ Bitfinex 積極支持 Bitcoin 的發展，投資於 Lightning Network 等技術�
 有關使用和保護強大、獨特密碼的提示，請參閱本教程 ：
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 現在我們要設定 2FA 以確保帳戶安全。使用智慧型手機上的驗證應用程式，例如 Google Authenticator 或 Authy。您可以在這裡找到有關這個工具的教學 ：
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 使用您的應用程式掃描 QR 代碼，然後輸入所提供的 6 位數字。
 
@@ -77,10 +77,10 @@ Bitfinex 採用符合當前法規的驗證流程 (KYC)。在 "Basic 「模式下
 
 
 
-- Basic* 是僅顯示模式，可讓您查詢平台而不執行任何操作；
-- Basic Plus* 提供基本功能，包括現貨市場交易和特定存取款選項；
+- **Basic** 是僅顯示模式，可讓您查詢平台而不執行任何操作；
+- **Basic Plus** 提供基本功能，包括現貨市場交易和特定存取款選項；
 - 中級*鎖定進階服務，如保證金交易、貸款、P2P 和 OTC 交易，並縮短存款期限；
-- Full* 可讓您使用國際銀行轉帳及平台的所有功能。
+- **Full** 可讓您使用國際銀行轉帳及平台的所有功能。
 
 
 每個等級都需要額外的文件進行驗證。對大多數使用者而言，*Basic Plus* 或 *Intermediate* 帳戶一般已足夠。
@@ -116,10 +116,10 @@ Bitfinex 採用符合當前法規的驗證流程 (KYC)。在 "Basic 「模式下
 
 
 - 交易**：您可以下單買賣加密貨幣（包括 Bitcoin）的「*基本*」市場 ；
-- OTC**：場外交易服務 (Over-The-Counter service)：在公開買賣盤之外，直接與其他參與者進行大量交易；
+- **OTC**：場外交易服務 (Over-The-Counter service)：在公開買賣盤之外，直接與其他參與者進行大量交易；
 - 資金**：專用於貸款和保證金融資的區域；
-- 衍生產品**：衍生性金融商品（期貨等）部分，適合有經驗的交易員；
-- P2P**：允許您以點對點方式向其他使用者購買或出售加密貨幣。
+- 衍生產品：衍生性金融商品（期貨等）部分，適合有經驗的交易員；
+- **P2P**：允許您以點對點方式向其他使用者購買或出售加密貨幣。
 
 
 對於標準使用（買/賣比特幣和存/取款），您主要使用「*交易*」標籤，以及「*Wallet*」、「*存款*」和「*取款*」部分。
@@ -245,9 +245,9 @@ Bitfinex 也透過 Lightning Network 提供存款和提款選項，讓交易更�
 如果您對 Lightning Network 感興趣，我們也有完整的訓練課程，幫助您瞭解其運作方式：
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-在購買您的第一個比特幣之後，您顯然可以選擇把它們留在平台上，但我強烈建議您把它們轉移到您自己的Wallet中自我保管。如果您還不知道如何使用 Bitcoin Wallet，我邀請您探索 [Plan ₿ Network 上的 "Wallet" 部分](https://planb.network/tutorials/Wallet)。
+在購買您的第一個比特幣之後，您顯然可以選擇把它們留在平台上，但我強烈建議您把它們轉移到您自己的Wallet中自我保管。如果您還不知道如何使用 Bitcoin Wallet，我邀請您探索 [Plan ₿ Academy 上的 "Wallet" 部分](https://planb.academy/tutorials/wallet)。
 
 
 ## 6 - 在 Bitfinex 上買賣比特幣

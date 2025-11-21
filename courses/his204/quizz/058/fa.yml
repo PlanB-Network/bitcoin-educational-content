@@ -1,0 +1,8 @@
+question: بر اساس عنوان کتابی از لو ترون، آزادی تجارت چگونه توصیف شده است؟
+answer: همیشه مفید، هرگز مضر نیست
+wrong_answers:
+  - همیشه سودآور و همیشه مفید
+  - اغلباً سودآور، همیشه اخلاقی
+  - گاهی سودمند، گاهی زیان‌آور
+explanation: |
+  Le Trosne نوشت "De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur"، که در آن از تجارت آزاد به عنوان همیشه مفید و هرگز مضر برای جامعه دفاع می‌کند.

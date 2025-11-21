@@ -1,0 +1,9 @@
+question: 安裝重要的作業系統更新後，您通常需要做些什麼才能完全套用修補程式？
+answer: 重新啟動電腦
+wrong_answers:
+  - 重設密碼
+  - 中斷 Wi-Fi 網路
+  - 刪除暫存檔案
+explanation: |
+  某些作業系統更新，例如核心或關鍵函式庫的更新，只有在重新開機後才能生效。
+reviewed: false

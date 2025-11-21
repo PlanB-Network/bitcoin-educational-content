@@ -1,0 +1,8 @@
+question: Theo tiêu đề một cuốn sách của Le Trosne, tự do thương mại được mô tả như thế nào?
+answer: Luôn luôn hữu ích, không bao giờ có hại
+wrong_answers:
+  - Luôn luôn có lợi nhuận và luôn luôn hữu ích
+  - Thường có lợi nhuận, luôn có đạo đức
+  - Đôi khi có lợi, đôi khi có hại
+explanation: |
+  Le Trosne đã viết "De l'intérêt social, par rapport à la valeur, à la distribution, à l'industrie et au commerce intérieur et extérieur", trong đó ông bảo vệ thương mại tự do luôn hữu ích và không bao giờ có hại cho xã hội.

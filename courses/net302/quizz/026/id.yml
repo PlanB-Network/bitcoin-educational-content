@@ -1,0 +1,9 @@
+question: Unit data apa yang digunakan dalam Internet Layer model TCP/IP?
+answer: Datagram
+wrong_answers:
+  - Segmen
+  - Bingkai
+  - Pesan
+explanation: |
+  Internet Layer memanipulasi datagram, mengenkapsulasi segmen dari Transport Layer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van een Linux desktopomgeving?
+answer: Interface afbeeldingen leveren
+wrong_answers:
+  - Systeem opstarten beheren
+  - De Linux-kernel compileren
+  - Beschermen tegen virussen
+explanation: |
+  De desktopomgeving groepeert visuele en interactieve Elements (vensters, menu's, pictogrammen, panelen, enz.) om de gebruiker in staat te stellen grafisch te interageren met het systeem.
+reviewed: false

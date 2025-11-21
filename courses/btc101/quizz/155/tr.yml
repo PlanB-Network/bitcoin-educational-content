@@ -1,0 +1,12 @@
+question: Madencilerin Bitcoin protokolündeki rolü nedir?
+answer: Mevcut ve tarihi ağı güvence altına alırlar.
+wrong_answers:
+  - Bitcoin'in fiyatını düzenlerler.
+  - Bitcoin'nin Supply'ünü kontrol ediyorlar.
+  - Kullanıcılar arasındaki işlemleri yönetirler.
+explanation: |
+  Bitcoin protokolündeki madenciler hem mevcut hem de
+  tarihsel ağ. Fiyat düzenlemesi yapmazlar
+  Bitcoin, Supply'i kontrol edemez veya işlemleri yönetemez
+  kullanıcılar arasında.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Proof of Work, Bitcoin ağında neden önemlidir?
+answer: Gerçek dünya ile Bitcoin arasındaki fiziksel bağlantıyı temsil eder ve bitcoinlerin ve blokların üretimi ve doğrulanması için somut enerji gerektirir.
+wrong_answers:
+  - Özellikle yüksek sansürlü yerlerdeki madencilerin küçük ölçekli katılımına izin verir.
+  - Merkezileşmeye karşı korumayı garanti eder.
+  - Toplumdaki mevcut güç eşitsizliklerini yansıtmaktadır.
+explanation: |
+  Proof of Work, Bitcoin ağında çok önemlidir çünkü
+  gerçek dünya ile gerçek dünya arasındaki fiziksel bağlantıyı temsil eder
+  Bitcoin. Bitcoinlerin üretimi ve doğrulanması ve
+  bloklar somut enerji gerektirir, Bitcoin'ü sabitler
+  fiziksel gerçeklikte ağ ve tamamen önlenmesi
+  güçlü varlıklar tarafından tahakküm altına alınması.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki gituma node ya pruned itandukanye n’iya Full node?
+answer: Buhoro buhoro irakuraho amabuye ya kera .
+wrong_answers:
+  - Ntivyemeza amafaranga ya kera
+  - Ntishobora gutanga amabuye yose
+  - Nta kopi n’imwe y’aho hantu ibika ya Blockchain, ahubwo ibika UTXO gusa .
+explanation: |
+  Igikoresho ca pruned cemeza uruhererekane rwose, ariko kigumya gusa igice gishasha c’amabuye kugira ngo kigabanye ububiko bwaco.
+reviewed: true

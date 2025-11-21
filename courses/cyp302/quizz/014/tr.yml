@@ -1,0 +1,9 @@
+question: Kullanıcılar modern ortamda iletişimlerinin gizliliği konusunda nasıl bir tutum benimsemelidir?
+answer: Birinin her zaman dinlediğini varsayın
+wrong_answers:
+  - Yalnızca Wi-Fi'ye güvenin
+  - Mobil verilerin tamamen güvenli olduğuna inanmak
+  - Yalnızca kablolu bağlantıları kullanın
+explanation: |
+  Birçok iletişim kanalının dinlenmeye açık olduğu bir dünyada, üçüncü bir tarafın dinliyor olabileceğini varsaymak akıllıca olacaktır ve bu da kriptografiyi gerekli kılmaktadır.
+reviewed: false

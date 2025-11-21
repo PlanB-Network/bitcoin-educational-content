@@ -1,0 +1,9 @@
+question: مخترعان Lightning Network چه کسانی هستند؟
+answer: تدیوس دریجا و جوزف پون
+wrong_answers:
+  - آندریاس آنتونوپولوس و آدام بک
+  - پیتِر ویل و گرگوری مکسوِل
+  - Satoshi ناکاموتو و هال فینی
+explanation: |
+  تدیوس دریجا و جوزف پون در سال ۲۰۱۶ Lightning Network را برای بهبود مقیاس‌پذیری Bitcoin اختراع کردند.
+reviewed: false

@@ -59,7 +59,7 @@ Sie können ihn auf Papier schreiben oder für zusätzliche Sicherheit in Edelst
 
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Klicken Sie auf die oben auf der Oberfläche angezeigte Meldung "*Speichern Sie Ihre Brieftasche...*".
 
@@ -115,7 +115,7 @@ Klicken Sie auf die Schaltfläche "*Empfangen*".
 
 ![Image](assets/fr/18.webp)
 
-Wischen Sie den QR-Code nach rechts, um eine Bitcoin-Empfangsadresse anzuzeigen. Senden Sie ihr den Betrag, den Sie bei Phoenix einzahlen möchten.
+Ziehen Sie den QR-Code nach links, um eine Bitcoin-Empfangsadresse anzuzeigen. Senden Sie den Betrag, den Sie auf Phoenix einzahlen möchten, an diese Adresse.
 
 ![Image](assets/fr/19.webp)
 
@@ -175,8 +175,8 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Phoenix konfigurieren und ver
 
 Wenn Sie noch einen Schritt weiter gehen möchten, sehen Sie sich dieses Tutorial zu Alby Hub an, einer weiteren innovativen und benutzerfreundlichen Lösung für den Start Ihres eigenen Lightning-Knotens:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Und wenn Sie mehr über die technische Funktionsweise des Lightning Network erfahren möchten, finden Sie das ausgezeichnete kostenlose Training von Fanis Michalakis zum Plan ₿ Network :
+Und wenn Sie mehr über die technische Funktionsweise des Lightning Network erfahren möchten, finden Sie das ausgezeichnete kostenlose Training von Fanis Michalakis zum Plan ₿ Academy :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

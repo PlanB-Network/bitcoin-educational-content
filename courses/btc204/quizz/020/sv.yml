@@ -1,0 +1,9 @@
+question: När vi söker efter ett mönster, vilken del av transaktionen ska vi studera?
+answer: Dess struktur
+wrong_answers:
+  - Dess metadata
+  - Dess skript
+  - Dess signatur
+explanation: |
+  Ett transaktionsmönster är helt enkelt en modell eller en övergripande struktur av en typisk transaktion som kan hittas på Blockchain och vars troliga tolkning är känd.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è la principale limitazione di Telegram per quanto riguarda la riservatezza dei messaggi?
+answer: Solo gli scambi segreti sono crittografati end-to-end per impostazione predefinita
+wrong_answers:
+  - Impone una tassa di registrazione anonima
+  - Non garantisce l'autenticità dei file ricevuti
+  - Non è disponibile un client open source
+explanation: |
+  Per impostazione predefinita, i messaggi di Telegram sono archiviati sui server aziendali e solo le chat segrete beneficiano della crittografia end-to-end.
+reviewed: false

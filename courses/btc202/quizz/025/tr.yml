@@ -1,0 +1,9 @@
+question: Bir pruned düğümü ne zaman bir Wallet için sorun teşkil eder?
+answer: Eski bir Wallet'yi geri yüklerken
+wrong_answers:
+  - Yeni bir alım oluştururken Address
+  - Yeni bir işlem gönderirken
+  - Ücret tutarını seçerken
+explanation: |
+  Bir pruned düğümü eski blokları tutmaz, bu da geri yükleme sırasında geçmiş işlemlerin taranmasını engelleyebilir.
+reviewed: true

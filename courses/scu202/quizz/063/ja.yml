@@ -1,0 +1,9 @@
+question: InterfaceのグラフィックやJavaScriptをサポートしていないテキストブラウザで、現在も維持されている最古のものはどれか？
+answer: リンクス
+wrong_answers:
+  - Mullvadブラウザ
+  - ポリパン
+  - ヴィヴァルディ
+explanation: |
+  1992年に登場したリンクスは、テキストモードで動作し、JavaScriptをサポートしておらず、現在でも非常に特殊な目的で使用されている。
+reviewed: false

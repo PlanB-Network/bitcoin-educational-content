@@ -1,0 +1,9 @@
+question: Ifcfg-eth0 파일의 어떤 매개 변수가 DHCP 구성을 나타내나요?
+answer: 부트프로토=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ONBOOT=dhcp
+  - GATEWAY=dhcp
+explanation: |
+  "BOOTPROTO=dhcp" 파라미터는 Interface이 DHCP 프로토콜을 통해 구성을 가져와야 함을 지정합니다.
+reviewed: false

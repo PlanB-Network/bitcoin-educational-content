@@ -1,0 +1,9 @@
+question: Waarom een firewalltoepassing zoals NetGuard of RethinkDNS gebruiken op Android?
+answer: Individuele internetverbindingen beheren
+wrong_answers:
+  - Alle gegevens automatisch opslaan
+  - Deblokkeer alle Wi-Fi-netwerken
+  - Verwijder eventuele virussen
+explanation: |
+  Deze applicaties fungeren als lokale firewalls, waardoor uitgaand verkeer per applicatie kan worden geblokkeerd of geautoriseerd.
+reviewed: false

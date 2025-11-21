@@ -1,6 +1,6 @@
-question: Why won't the analyst apply COINJOIN on a Stonewall type transaction?
+question: Why won't the analyst apply COINJOIN on a Stonewall-type transaction?
 
-answer: Because there are 2 outputs of the same amounts
+answer: Because there are 2 outputs of the same amount
 
 wrong_answers:
   - Because there are only 2 inputs
@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Analyzing a Stonewall transaction from the outside does not lead to the application of COINJOIN, because the presence of two outputs of the same amount suggests a coinjoin pattern. From an external viewpoint, COINJOIN is therefore not applicable in this specific case.
 
-reviewed: false
+reviewed: true

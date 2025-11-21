@@ -1,9 +1,12 @@
-question: Miksi Bitcoinia pidetään uudenlaisena rahamuotona?
-answer: Koska se on digitaalinen raha ilman keskuselintä.
+question: Mikä strategiaa käyttävät keskuselimet fiat-valuutan arvon alentamiseen?
+answer: Ne lisäävät rahamäärää muutamalla prosentilla joka vuosi.
 wrong_answers:
-  - Koska se on digitaalinen valuutta, joka on tuettu kullalla.
-  - Koska se on valuutta, joka vaatii pankin lohkoketjun.
-  - Koska Yhdysvaltain keskuspankki sanoo niin.
+  - Ne vähentävät rahamäärää muutamalla prosentilla joka vuosi.
+  - Ne pitävät sen rahamäärän vakiona verrattuna alkuperäiseen määrään.
+  - Ne antavat sen rahamäärän vaihdella satunnaisesti verrattuna alkuperäiseen määrään.
 explanation: |
-  Bitcoinia voidaan pitää uudenlaisena rahamuotona, koska se syntyy vertaisverkosta ilman keskuselintä.
+  Keskuselimet usein alentavat valuutan arvoa lisäämällä sen
+  rahamäärää verrattuna alkuperäiseen muutamalla prosentilla
+  joka vuosi. Tämä hiljainen arvon alennus perustellaan usein
+  olevan kansan edun mukaista.
 reviewed: true

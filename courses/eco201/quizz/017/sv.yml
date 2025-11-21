@@ -1,0 +1,14 @@
+question: Enligt österrikiska ekonomer, vad är drivkraften bakom den sociala samarbetsprocessen?
+answer: Den produktiva fördel som uppstår genom arbetsfördelning.
+wrong_answers:
+  - Önskan om social interaktion och gemenskap.
+  - Behovet av skydd och säkerhet.
+  - Strävan efter rikedom och makt.
+explanation: |
+  Österrikiska ekonomer, särskilt Ludwig Von Mises, drar slutsatsen
+  att den produktiva fördelen som uppstår genom arbetsdelningen är
+  är drivkraften bakom den sociala samarbetsprocessen
+  samarbete. Detta beror på att individer alltid får det bättre
+  när de specialiserar sig på sitt arbete och engagerar sig i
+  utbyten.
+reviewed: true

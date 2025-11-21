@@ -1,10 +1,14 @@
-question: ¿Cómo se aseguran las transacciones en la Lightning Network?
-answer: A través de la criptografía y, de manera indirecta, mediante la energía consumida por los mineros en Bitcoin.
+question: ¿Cuál es el concepto de tener un interés personal en el contexto de la industria de los videojuegos?
+answer: Tener una participación financiera en el resultado de un juego.
 wrong_answers:
-  - Solo mediante el uso de claves privadas.
-  - Solo mediante el uso de claves públicas.
-  - Solo mediante el uso de ambas, claves privadas y públicas.
-explanation: >-
-  Las transacciones en la Lightning Network se aseguran mediante criptografía
-  y, de manera indirecta, a través de la energía consumida por los mineros en Bitcoin.
+  - Personalizar personajes con skins únicos que mejoran la jugabilidad.
+  - Comprar ítems dentro del juego con dinero real.
+  - Vender skins del juego por dinero real.
+explanation: |
+  El concepto de tener un interés personal es una idea que ha
+  ganado popularidad recientemente en la industria de los videojuegos. Se
+  refiere esencialmente a la idea de que los desarrolladores y
+  partes interesadas tienen una inversión personal o participación en el
+  éxito de un juego, lo que alinea sus intereses con
+  la entrega de un producto de calidad.
 reviewed: true

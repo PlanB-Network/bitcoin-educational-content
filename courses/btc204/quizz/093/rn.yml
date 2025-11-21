@@ -1,0 +1,10 @@
+question: Ni uruhara uruhe nyamukuru rw’isoko Tx0 muri Whirlpool?
+answer: Kugira ngo ba UTXO bangana.
+wrong_answers:
+  - Kugira ngo ukore umuvumba wa mbere.
+  - Kugira ngo bakuremwo ama UTXO mu kidengeri.
+  - Kugira ngo bakoreshe ama UTXO avunganye.
+explanation: |
+  Tx0 ifise intumbero yo gutegura no kuringaniza UTXOs za CoinJoin, mu kuzicapura mu bice bihuye n’ingero y’ikidengeri catowe, kugira ngo habeho ubumwe bw’ivyo bivangwa.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er skolastisk filosofi?
+answer: En kristen filosofi fra middelalderen.
+wrong_answers:
+  - En politisk bevegelse.
+  - En anarkistisk filosofi.
+  - En rasjonell filosofi.
+explanation: |
+  Den skolastiske filosofien var en kristen filosofi som dominerte de europeiske universitetene i middelalderen. Den forsøkte å harmonisere den kristne troen med aristotelisk filosofi.
+reviewed: false

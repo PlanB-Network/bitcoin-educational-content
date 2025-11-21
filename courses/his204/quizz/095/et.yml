@@ -1,0 +1,8 @@
+question: Millise ministri vastu oli Condorcet oma vabakaubanduse kaitsmisel?
+answer: Necker
+wrong_answers:
+  - Calonne
+  - Trudaine
+  - Choiseul
+explanation: |
+  Condorcet astus Neckeri vastu vabakaubanduse küsimuses, kaitstes majandusliberalismi põhimõtteid.

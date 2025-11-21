@@ -1,0 +1,9 @@
+question: Soyut cebirde cebirsel yapı nedir?
+answer: Belirli aksiyomlara bağlı bir veya daha fazla işlem içeren bir Elements kümesi
+wrong_answers:
+  - Belirli aksiyomlara bağlı kalarak sıralar halinde düzenlenmiş asal sayılar kümesi
+  - Doğrusal denklemlerin çözümü için bir dizi algoritma
+  - Belirli aksiyomlara bağlı olarak düzenlenmiş rastgele geometrik dönüşümlerden oluşan bir grup
+explanation: |
+  Cebirsel bir yapı, belirli aksiyomlara bağlı kalarak toplama veya çarpma gibi bir veya daha fazla işlem içeren tanımlanmış Elements kümesidir ve sayı teorisindeki kavramları yapılandırmak için gereklidir.
+reviewed: false

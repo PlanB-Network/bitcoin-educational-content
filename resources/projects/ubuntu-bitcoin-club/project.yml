@@ -1,0 +1,32 @@
+id: 4286e3a8-5de8-488b-ab0f-4c58ccc3baee
+
+name: Ubuntu Bitcoin Club
+
+address_line_1: Goma, République Démocratique du Congo
+address_line_2:
+address_line_3: 
+
+links:
+  website: 
+  twitter: https://x.com/UbuntuBitcoin
+  Github: 
+  youtube: 
+
+category: education
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-18
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 0
+
+tags:
+  - software
+  - guide
+  - good-practice
+
+contributor_names:
+  - Gloirew

@@ -1,0 +1,10 @@
+question: Vad är huvudsyftet med kursen?
+answer: Kursen syftar till att utforska de grundläggande begreppen inom österrikisk ekonomi.
+wrong_answers:
+  - Kursen syftar till att främja den keynesianska doktrinen.
+  - Kursen syftar till att förklara hur centralbanker fungerar.
+  - Kursen syftar till att främja centraliseringen av den monetära makten.
+explanation: |
+  I kapitlet nämns att kursen syftar till att utforska de
+  grundläggande begrepp inom österrikisk ekonomi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa bentuk pertama dari mata uang yang sering dikaitkan dengan?
+answer: Barang-barang esensial seperti biji-bijian, ternak, dan komoditas lainnya
+wrong_answers:
+  - Emas dan perak
+  - Uang kertas
+  - Aset digital
+explanation: |
+  Bentuk pertama dari mata uang sering kali dikaitkan dengan barang-barang esensial seperti biji-bijian, ternak, dan komoditas lainnya. Namun, barang-barang ini memiliki kelemahan utama, seperti kemudahan rusak, yang membuatnya sulit digunakan sebagai media tabungan jangka panjang.
+reviewed: true

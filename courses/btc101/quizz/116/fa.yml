@@ -1,0 +1,10 @@
+question: شماره بلاک اولین تراکنش Bitcoin چیست؟
+answer: بلوک ۱۷۰.
+wrong_answers:
+  - بلوک 1.
+  - بلوک ۱۷.
+  - بلوک ۱۷۰۰.
+explanation: |
+  اولین تراکنش Bitcoin، که تراکنشی از
+  10 BTC بین Satoshi ناکاموتو و هال فینی بود، در بلاک 170 ثبت شده است.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 何時 pruned 結會對 Wallet 造成問題？
+answer: 還原舊 Wallet 時
+wrong_answers:
+  - 當建立新的接收 Address
+  - 傳送最近的交易時
+  - 選擇費用金額時
+explanation: |
+  pruned 節點不會保留舊區塊，這可能會導致還原時無法掃瞄過去的交易。
+reviewed: true

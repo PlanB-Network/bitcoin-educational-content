@@ -1,0 +1,12 @@
+question: Wat is de centrale vraag die je jezelf moet stellen bij het kiezen van een Bitcoin Wallet, in termen van zelfbehoud?
+answer: Ben jij de eigenaar van het geld of laat je de controle over je geld over aan een derde partij?
+wrong_answers:
+  - Is de Wallet beveiligd met een passphrase?
+  - Kan de Wallet bitcoins ontvangen en versturen?
+  - Kan ik mijn Wallet met iemand anders delen?
+explanation: |
+  Bij het kiezen van een Bitcoin Wallet is de centrale vraag:
+  ben jij de eigenaar van het geld of laat je de controle over
+  je geld aan een derde partij? Dit komt omdat de houder van
+  de privésleutel de eigenaar is van de Bitcoins.
+reviewed: true

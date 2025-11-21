@@ -1,0 +1,9 @@
+question: Wat geeft een Commitment Transaction in een Lightning-kanaal weer?
+answer: De nieuwe verdeling van middelen tussen de twee partijen
+wrong_answers:
+  - Het totale aantal transacties
+  - Het bedrag aan vergoedingen dat voor de transactie moet worden betaald
+  - De opening van een nieuw betalingskanaal
+explanation: |
+  Een Commitment Transaction geeft de huidige verdeling van fondsen in het kanaal weer na elke Lightning-transactie, maar wordt niet gepubliceerd op de Blockchain zolang het kanaal open blijft.
+reviewed: false

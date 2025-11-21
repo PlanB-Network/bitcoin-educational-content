@@ -1,0 +1,9 @@
+question: Ni zana gani hukuruhusu kufuatilia Wallet yako bila kufichua funguo zako za faragha?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Umeme Wallet
+  - Wallet ya ulinzi
+explanation: |
+  Watch-only wallet hutumia vitufe vya umma pekee ili kuonyesha salio na miamala, bila kuhatarisha ufichuzi wa funguo za faragha.
+reviewed: false

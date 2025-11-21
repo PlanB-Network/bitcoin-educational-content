@@ -1,0 +1,9 @@
+question: 在 Bitcoin core 中激活哪个可选索引，可以通过其 txid 查找事务？
+answer: txindex
+wrong_answers:
+  - addrindex
+  - 块索引
+  - 电子索引
+explanation: |
+  txindex=1 选项用于通过唯一标识符（txid）查询事务。
+reviewed: true

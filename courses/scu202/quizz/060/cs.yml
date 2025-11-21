@@ -1,0 +1,9 @@
+question: Který prohlížeč s otevřeným zdrojovým kódem, vyvinutý neziskovou organizací, je hlavním představitelem jádra Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Brave
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, vyvinutý nadací Mozilla Foundation, je přední prohlížeč založený na technologii Gecko, který je známý svou ochranou soukromí.
+reviewed: false

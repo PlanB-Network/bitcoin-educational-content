@@ -1,0 +1,9 @@
+question: None umukate n’imikino vyatunganijwe n’abami b’abami b’Abaroma vyari bifise intumbero iyihe?
+answer: Gushimisha abantu no kubakura ku bibazo vya politike .
+wrong_answers:
+  - Guteza imbere umuco n'ubuhinga vy'Abaroma .
+  - Gutoza abasoda no gutegura abanyagihugu ku ntambara .
+  - Kugira ngo ubutunzi butere imbere no gutuma abantu baronka akazi .
+explanation: |
+  Ivyo bifungurwa n’imikino vyari bigenewe gushimisha abantu no kubakura ku ngorane za politike n’ubutunzi, ivyo bikaba vyatuma abarongozi bagumana amahoro mu kibano mu gutanga ivyo kwisamaza no gutanga ivyo kurya.
+reviewed: true

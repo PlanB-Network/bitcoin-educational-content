@@ -1,0 +1,9 @@
+question: Hva er navnet på dataenheten som utveksles på Application Layer (TCP/IP)?
+answer: Melding
+wrong_answers:
+  - Ramme
+  - Segment
+  - Datagram
+explanation: |
+  I TCP/IP-modellen kalles data som utveksles på Application Layer for meldinger (eller strømmer, avhengig av konteksten).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket påstående beskriver bäst Bitcoin:s roll som ett nätverk och en tillgång för företag?
+answer: Den kan fungera som både en värdebevarare och ett medium för Exchange i ett globalt, decentraliserat system.
+wrong_answers:
+  - Det kan endast fungera som ett lokalt presentkortssystem.
+  - Det är enbart ett spekulativt handelsverktyg utan någon verklig nytta.
+  - Den måste vara kopplad till ett enskilt lands penningpolitik för att fungera.
+explanation: |
+  Bitcoin:s globala, internetbaserade design gör att den inte bara kan fungera som en värdebevarare utan också som ett medium för Exchange, vilket ger företag snabb, tillståndslös och slutlig avveckling av transaktioner över hela världen.
+reviewed: false

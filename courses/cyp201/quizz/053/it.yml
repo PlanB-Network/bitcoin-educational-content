@@ -1,7 +1,7 @@
-question: Cosa succede se si perde la passphrase associata al proprio portafoglio HD?
-answer: Si perde l'accesso ai bitcoin collegati a quel portafoglio
+question: Cosa succede se si perde la passphrase associata al proprio wallet HD?
+answer: Si perde l'accesso ai bitcoin collegati a quel wallet
 wrong_answers:
-  - È comunque possibile accedere al portafoglio solo con la frase mnemonica
+  - È comunque possibile accedere al wallet solo con la frase mnemonica
   - È possibile reimpostare la passphrase contattando l'assistenza di Bitcoin
   - Si perdono solo le transazioni non confermate
 explanation: |

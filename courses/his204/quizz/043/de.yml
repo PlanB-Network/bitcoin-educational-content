@@ -1,0 +1,8 @@
+question: Für welches Buch wurde Mirabeau ins Gefängnis gesteckt?
+answer: Die Theorie der Besteuerung
+wrong_answers:
+  - Der Menschenfreund
+  - Aufsatz über das Wesen des Handels im Allgemeinen
+  - Das soziale Contract
+explanation: |
+  Mirabeau wurde wegen "La Théorie de l'Impôt" inhaftiert, einem Werk, in dem er das französische Steuersystem kritisierte.

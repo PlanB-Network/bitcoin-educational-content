@@ -1,0 +1,9 @@
+question: Miten asennan vaihtoehtoisen ROM-muistin Android-älypuhelimeen?
+answer: Käynnistyslataajan lukituksen avaaminen
+wrong_answers:
+  - Luo Apple-tili
+  - Erityisen SIM-kortin asentaminen
+  - Aktivoi kehittäjätila iOS:ssä
+explanation: |
+  Käynnistyslataajan lukituksen avaaminen on välttämätöntä uuden järjestelmäkuvan kirjoittamiseksi Android-älypuhelimeen.
+reviewed: false

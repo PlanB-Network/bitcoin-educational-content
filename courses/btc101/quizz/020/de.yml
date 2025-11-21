@@ -1,12 +1,12 @@
-question: Was sind die Hauptmerkmale einer effektiven Währung?
-answer: Fungibel, Teilbar, Liquide.
+question: Warum wird Bitcoin heute nicht weit verbreitet im Handel akzeptiert?
+answer: Weil es nicht weitgehend von Einzelpersonen angenommen wird.
 wrong_answers:
-  - Fungibel, Teilbar, Verderblich.
-  - Fungibel, Unteilbar, Liquide.
-  - Nicht-fungibel, Teilbar, Liquide.
+  - Weil es nicht transportierbar ist.
+  - Weil es nicht in kleine Einheiten teilbar ist.
+  - Weil es nicht liquide ist.
 explanation: |
-  Eine effektive Währung muss fungibel (austauschbar
-  ohne Wertverlust), teilbar (in kleine Teile separierbar, um
-  Transaktionen unterschiedlichen Volumens zu erleichtern) und
-  liquide (leicht in Waren oder Dienstleistungen umwandelbar) sein.
+  Trotz seiner Eigenschaften, wie der streng limitierten
+  Verfügbarkeit, wird Bitcoin heute noch nicht weit verbreitet im Handel
+  akzeptiert, aufgrund der mangelnden Annahme durch Einzelpersonen, sodass
+  Händler nicht dazu ermutigt werden, es zu akzeptieren.
 reviewed: true

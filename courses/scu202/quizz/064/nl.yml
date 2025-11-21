@@ -1,0 +1,9 @@
+question: Welke op Blink gebaseerde browser staat bekend om zijn snelheid en compatibiliteit, maar verzamelt enorme hoeveelheden gebruikersgegevens voor advertentiedoeleinden?
+answer: Chroom
+wrong_answers:
+  - Dappere
+  - Firefox
+  - Tor-browser
+explanation: |
+  Hoewel Google Chrome een krachtig hulpmiddel is, verzamelt het standaard veel persoonlijke gegevens die Google gebruikt voor gerichte advertenties.
+reviewed: false

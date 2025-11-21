@@ -1,0 +1,9 @@
+question: Která funkce TCP optimalizuje propustnost přizpůsobením počtu segmentů odeslaných bez okamžitého potvrzení?
+answer: Posuvné okno
+wrong_answers:
+  - Dynamická fragmentace
+  - Přepínání paketů
+  - Statické směrování
+explanation: |
+  "Klouzavé okno" umožňuje poslat několik segmentů za sebou a pak posouvá rozsah s každým potvrzením, aby se optimalizoval tok.
+reviewed: false

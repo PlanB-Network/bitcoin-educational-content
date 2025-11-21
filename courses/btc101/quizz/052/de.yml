@@ -1,9 +1,9 @@
-question: Welche Auswirkungen hat eine Inflation von 20% auf die Kaufkraft über 3 Jahre?
-answer: Sie verlieren 50% Ihrer Kaufkraft.
+question: Welches der folgenden ist keine Eigenschaft von Bitcoin?
+answer: Es lässt sich leicht zensieren.
 wrong_answers:
-  - Sie verlieren 100% Ihrer Kaufkraft.
-  - Sie verlieren 60% Ihrer Kaufkraft.
-  - Sie verlieren 30% Ihrer Kaufkraft.
+  - Es ist sofort transportierbar.
+  - Es hat vernachlässigbare Verifizierungskosten.
+  - Es hat eine feste Geldpolitik.
 explanation: |
-  Bei einer Inflation von 20% verlieren Sie fast die Hälfte Ihrer Kaufkraft in 3 Jahren.
+  Bitcoin besitzt alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, unzensierbar, vernachlässigbare Kosten für die Verifizierung und mit einer bereits für Jahrhunderte festgelegten Geldpolitik mit 21 Millionen Einheiten.
 reviewed: true

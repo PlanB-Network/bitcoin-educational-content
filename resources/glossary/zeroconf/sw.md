@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+---
+
+Zoezi hatari la kuchukulia muamala wa Bitcoin kama wa mwisho, na kuendelea na utekelezaji wa kitendo kinachohusishwa kama malipo (kama vile uuzaji wa bidhaa au huduma), kabla ya muamala kujumuishwa kwenye kizuizi kwenye Blockchain. Shughuli ambazo hazijathibitishwa, au zeroconf, ziko hatarini kwa mashambulizi ya kutumia mara mbili, kwa kuwa bado hazijarekodiwa katika Ledger bila kubatilishwa. Zeroconf inaweza kuzingatiwa katika miktadha mahususi, ambapo kasi ni kipaumbele, kama vile katika shughuli ndogo za kibiashara au katika kesi ya shughuli kati ya marafiki. Katika hali hizi, hatari ya matumizi mara mbili mara nyingi huchukuliwa kuwa inakubalika kwa kulinganisha na faida ya shughuli ya haraka. Hata hivyo, kwa shughuli muhimu, hasa wakati mtumaji hajulikani, ni muhimu kusubiri uthibitisho kadhaa kabla ya kuzingatia muamala kama usiobadilika. Kiwango kinachokubalika kwa ujumla ni kusubiri uthibitisho 6, ambayo ina maana kwamba vitalu 5 vya ziada lazima vichimbwe baada ya moja ikiwa ni pamoja na shughuli, ili kuzingatia kama ya mwisho.

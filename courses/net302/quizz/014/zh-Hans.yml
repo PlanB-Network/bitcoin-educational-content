@@ -1,0 +1,9 @@
+question: IPv5 （流协议，ST）的主要用途是什么？
+answer: 确保某些流量的服务质量
+wrong_answers:
+  - 扩展 IP 寻址能力
+  - 提供与 IPv6 的向后兼容性
+  - 减小 TCP/IP 网络数据包的大小
+explanation: |
+  IPv5 (ST) 的设计目的是通过保证带宽和优先级，为 VoIP 等多媒体流提供服务质量（QoS）。
+reviewed: false

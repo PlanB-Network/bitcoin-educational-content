@@ -1,0 +1,9 @@
+question: Welke open source tool kan een schijf volledig versleutelen onder Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) is de standaardoplossing op Linux voor volledige schijfversleuteling tijdens de installatie.
+reviewed: false

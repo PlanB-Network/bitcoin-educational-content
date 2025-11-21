@@ -1,0 +1,9 @@
+question: Genişletilmiş anahtara hangi bilgiler dahil değildir?
+answer: Anahtarın işlem geçmişi
+wrong_answers:
+  - Anahtarın dizin numarası
+  - Anahtar (özel veya genel)
+  - chain code
+explanation: |
+  Genişletilmiş bir anahtar, işlemlerle ilgili bilgileri değil, yalnızca alt anahtarları türetmek için gerekli bilgileri içerir.
+reviewed: false

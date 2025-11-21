@@ -1,10 +1,8 @@
-question: Šta je jedna od stvari koju treba da imate pre nego što kupite Bitcoin?
-answer: Siguran Wallet.
+question: Koji je jedan od razloga zašto bi trebalo s vremena na vreme konsolidovati svoje UTXO-ove u svojim novčanicima?
+answer: Da biste izbegli nepotrebne naknade tokom transakcija.
 wrong_answers:
-  - Fizički sef.
-  - Bankovni račun.
-  - Kreditna kartica.
-explanation: |
-  Tekst kursa pominje da pre kupovine Bitcoin,
-  treba da imate siguran Wallet gde ćete čuvati svoje ključeve.
+  - Da povećate vrednost svojih bitkoina.
+  - Da sprečite krađu vaših bitkoina.
+  - Da biste osigurali da su vaši bitkoini uvek dostupni.
+explanation: >-
 reviewed: true

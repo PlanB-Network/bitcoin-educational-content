@@ -1,0 +1,11 @@
+question: Vad är definitionen av hyperinflation enligt Bernholz?
+answer: Hyperinflation är en förlängning av hög inflation och kännetecknas av stora budgetunderskott som finansieras genom penningskapande.
+wrong_answers:
+  - Hyperinflation är en minskning av penningmängden Supply.
+  - Hyperinflation är en måttlig ökning av penningmängden Supply.
+  - Hyperinflation är en minskning av produktionen.
+explanation: |
+  I kapitlet förklaras att hyperinflation enligt Bernholz är en förlängning av
+  förlängning av hög inflation, som kännetecknas av stora budgetunderskott som finansieras genom
+  penningskapande.
+reviewed: false

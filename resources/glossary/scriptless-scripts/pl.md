@@ -1,0 +1,5 @@
+---
+term: SKRYPTY BEZ SKRYPTÓW
+---
+
+Koncepcja ta, pierwotnie opracowana przez Andrew Poelstrę, umożliwia wykonywanie inteligentnych kontraktów bez wyraźnego ujawniania logiki Contract na Bitcoin Blockchain. Jak sugeruje nazwa "skrypty bez skryptów", koncepcja ta opiera się na wykonywaniu skryptów (lub kontraktów) bez wyraźnego korzystania ze skryptów. Kontrakty te wykorzystują właściwości podpisów Schnorra, które umożliwiają użycie *Adaptor Signatures*, w szczególności do przeprowadzania *Atomic Swaps*. Warunki Contract są stosowane i wykonywane off-chain przez zaangażowane strony, które jako jedyne są świadome warunków. W przeciwieństwie do tradycyjnych inteligentnych kontraktów, *Scriptless Scripts* minimalizują swój ślad na Blockchain, zmniejszając tym samym koszty operacyjne. Kontrakty te są również bardziej dyskretne niż tradycyjne inteligentne kontrakty, które pozostawiają ślady na Blockchain. W ten sposób przypominają one zwykłe transakcje, co zwiększa ich anonimowość.

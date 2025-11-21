@@ -1,0 +1,8 @@
+question: Sobre que assunto é que Condorcet não escreveu?
+answer: Os bancos
+wrong_answers:
+  - Liberdade do comércio de cereais
+  - Tarefas
+  - Escravatura
+explanation: |
+  Condorcet escreveu sobre a liberdade de comércio de cereais, a corvéia e a escravatura, mas não escreveu sobre bancos.

@@ -1,0 +1,9 @@
+question: IPv6 Addressのビット長とは？
+answer: 128ビット
+wrong_answers:
+  - 512ビット
+  - 64ビット
+  - 256ビット
+explanation: |
+  IPv6 Addressは128ビットで、IPv4 Addressは32ビットである。
+reviewed: false

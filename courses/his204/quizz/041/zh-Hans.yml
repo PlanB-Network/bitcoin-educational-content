@@ -1,0 +1,8 @@
+question: 匿名发表的《L'Ami des Hommes》给人留下了深刻印象，因此最初被认为是《L'Ami des Hommes》的作者。
+answer: 孟德斯鸠
+wrong_answers:
+  - 伏尔泰
+  - 狄德罗
+  - 卢梭
+explanation: |
+  L'Ami des Hommes》最初因其风格和重要性而被认为是孟德斯鸠的作品，后来才发现作者其实是米拉波侯爵。

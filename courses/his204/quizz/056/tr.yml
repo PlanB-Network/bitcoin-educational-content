@@ -1,0 +1,8 @@
+question: Fizyokratlar için üretim ve kâr arasındaki fark nedir?
+answer: Sanayici ve tüccar kazanabilir, ancak sadece çiftçi üretir, çünkü üretim yararlı maddenin yaratılmasıdır
+wrong_answers:
+  - Üreticiler ve tüccarlar kar elde edemeyebilir. Sadece tarım mutlaka kâr getirir.
+  - Çiftçi kazanabilir, ancak üreten sadece sanayici ve tüccardır, çünkü üretmek bir hizmet sunmaktır
+  - Üretim ve kâr aynı şeydir
+explanation: |
+  Fizyokratlar, yeni madde yarattığı için sadece tarımın üretken olduğuna inanıyordu. Sanayi ve ticaret, sadece mevcut zenginliği dönüştürdükleri veya yerinden ettikleri için kısır faaliyetler olarak görülüyordu.

@@ -1,0 +1,9 @@
+question: کدام پرچم sighash اجازه می‌دهد تا با پوشش یک ورودی و همه خروجی‌ها، سرمایه‌گذاری جمعی انجام شود؟
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  ترکیب SIGHASH_ALL با SIGHASH_ANYONECANPAY امکان افزودن ورودی‌ها بدون تغییر خروجی‌ها را فراهم می‌کند.
+reviewed: false

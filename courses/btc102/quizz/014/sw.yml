@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuwekeza tu kile unachoweza kumudu kupoteza?
+answer: Ili kuhifadhi usalama wako wa kifedha ikiwa utapoteza
+wrong_answers:
+  - Ili kuongeza faida haraka katika soko la dubu
+  - Ili kubadilisha uwekezaji wako kwa kiasi kikubwa
+  - Kukopa ili kuwekeza zaidi
+explanation: |
+  Kuwekeza zaidi ya uwezo wako (yaani, zaidi ya uwezo wako wa kuweka akiba) hukuweka kwenye hatari nyingi za kifedha.
+reviewed: false

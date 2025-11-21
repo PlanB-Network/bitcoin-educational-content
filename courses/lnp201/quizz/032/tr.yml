@@ -1,0 +1,9 @@
+question: Yönlendirme ücretlerinin Lightning Network'daki rolü nedir?
+answer: Aracı düğümleri ödemelerin transferi için likiditelerini sağlamaya teşvik etmek
+wrong_answers:
+  - Ağ üzerindeki işlem sayısını sınırlamak için
+  - Her kanalın yeterli fona sahip olmasını sağlamak
+  - En kısa yolu otomatik olarak hesaplamak için
+explanation: |
+  Yönlendirme ücretleri, fonların ağ üzerinden aktarılmasını sağlamak için likiditelerini sunarak ödemeleri aktaran aracı düğümleri telafi etmek için kullanılır.
+reviewed: false

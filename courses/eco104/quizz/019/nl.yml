@@ -1,0 +1,12 @@
+question: Hoe bereiken stablecoins, zoals USDt, relatieve waardestabiliteit?
+answer: Ze zijn gekoppeld aan een stabiel actief of een stabiele valuta.
+wrong_answers:
+  - Ze worden gesteund door een centrale autoriteit of overheid.
+  - Ze vertrouwen op Blockchain technologie voor veilige transacties.
+  - Ze zijn onderhevig aan schommelingen vergelijkbaar met andere cryptocurrencies.
+explanation: |
+  Stablecoins behouden relatieve waardestabiliteit doordat ze gekoppeld zijn
+  aan een stabieler activum of valuta, zoals de Amerikaanse dollar of goud.
+  Deze koppeling helpt de volatiliteit te verminderen die vaak geassocieerd wordt met andere
+  digitale activa zoals Bitcoin.
+reviewed: true

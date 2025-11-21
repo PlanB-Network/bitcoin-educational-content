@@ -1,0 +1,9 @@
+question: Je, Barack Obama alielezeaje Bitcoin?
+answer: Benki ya Uswizi katika mfuko wako
+wrong_answers:
+  - Dhahabu ya digital
+  - Mali ya kubahatisha sana
+  - Sarafu iliyogatuliwa
+explanation: |
+  Barack Obama aliwahi kuitaja Bitcoin kama "benki ya Uswizi katika mfuko wako." Hakika, Bitcoin inatoa fursa sawa kwa kila mtu, bila kujali hali, na inaruhusu Confidential Transactions.
+reviewed: false

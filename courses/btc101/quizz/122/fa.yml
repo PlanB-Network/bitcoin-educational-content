@@ -1,0 +1,8 @@
+question: Bitcoin Blockchain چیست؟
+answer: یک Ledger عمومی و تغییرناپذیر از تمام تراکنش‌های Bitcoin.
+wrong_answers:
+  - یک Ledger خصوصی و قابل تغییر از تمام تراکنش‌های Bitcoin.
+  - یک Ledger عمومی و قابل تغییر از تمام تراکنش‌های Bitcoin.
+  - یک Ledger خصوصی و تغییرناپذیر از تمام تراکنش‌های Bitcoin.
+explanation: >-
+reviewed: true

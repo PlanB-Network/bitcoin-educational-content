@@ -1,0 +1,9 @@
+question: Koja organizacija je osnovana 1998. godine radi promocije termina "open source"?
+answer: Open Source Initiative (OSI)
+wrong_answers:
+  - Fondacija za slobodan softver (FSF)
+  - Debian Projekat
+  - Mozilla Fondacija
+explanation: |
+  OSI je stvoren da naglasi pragmatični, tehnički aspekt otvorenosti koda, za razliku od filozofije slobodnog softvera.
+reviewed: false

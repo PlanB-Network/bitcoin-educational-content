@@ -1,0 +1,9 @@
+question: Ni kubera iki uwugurisha yoshobora gutanga amahera y’ibinyoma mu muhora?
+answer: Kugira ngo ushire amahera ku ruhande rutari rwo
+wrong_answers:
+  - Kugabanya amafaranga y'urugendo
+  - Kugira ngo bongere ubushobozi bwose bw'imirongo yabo .
+  - Gufunga amafaranga mu gihe kirekire
+explanation: |
+  Mu gutanga amahera y’ibinyoma, uwugurisha akura amahera ku ruhande rwiwe akayajana ku rundi ruhande rw’umuhora, gutyo akabohora ubushobozi bwinjira bwo kwakira amahera.
+reviewed: false

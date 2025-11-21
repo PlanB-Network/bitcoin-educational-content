@@ -1,0 +1,8 @@
+question: Jaký je hlavní důsledek toho, že správcům trvá velmi dlouho, než jsou žádosti o stažení jádra Bitcoin začleněny do úložiště?
+answer: Ukazuje to na nedostatek recenzentů, kteří by mohli posoudit navrhované změny kódu
+wrong_answers:
+  - "Ukazuje to, že správci záměrně zpomalují proces vývoje Bitcoin."
+  - "Ukazuje, že navrhované změny jsou v zásadě neslučitelné s pravidly konsensu Bitcoin."
+  - "Ukazuje se, že platforma GitHub má technická omezení pro práci s kódovou základnou Bitcoin."
+explanation: |
+  Podle obsahu kapitoly trvá sloučení žádostí o stažení dlouho především kvůli nedostatečnému přezkoumání, které pramení spíše z nedostatku recenzentů než z obstrukcí správců nebo technických problémů. Proces přezkoumání je pro bezpečnost Bitcoin klíčový, protože zajišťuje kvalitu kódu a zabraňuje škodlivým změnám. Toto úzké místo existuje proto, že přezkoumání složitého kryptografického kódu vyžaduje odborné znalosti a čas, takže kvalifikovaní recenzenti jsou v procesu vývoje vzácným zdrojem.

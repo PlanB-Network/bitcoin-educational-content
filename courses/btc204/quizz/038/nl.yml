@@ -1,0 +1,9 @@
+question: Welk transactiemodel maakt het gebruik van CIOH ongeldig?
+answer: De gezamenlijke transactie.
+wrong_answers:
+  - Eenvoudige betaling.
+  - Consolidatie.
+  - Vegen.
+explanation: |
+  CIOH is niet van toepassing op transacties met een samenwerkingspatroon, omdat in dit specifieke geval de inputs noodzakelijkerwijs afkomstig zijn van verschillende entiteiten.
+reviewed: false

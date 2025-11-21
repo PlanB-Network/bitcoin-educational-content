@@ -1,0 +1,9 @@
+question: Hangi Alman Miner, 2010 yılında birkaç ay boyunca Bitcoin ağının Hash oranının %20'sini elinde tutmuştur?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  2010 yazında grafik kartlarından oluşan bir Mining çiftliği kurdu (ArtFarm olarak adlandırıldı) ve böylece sonbaharda rakiplerine karşı önemli bir üstünlük elde etti.
+reviewed: true

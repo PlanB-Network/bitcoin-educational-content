@@ -1,0 +1,9 @@
+question: Varför är guld inte ett bärbart material?
+answer: Eftersom det är tätt och tungt blir det besvärligt att bära i stora mängder.
+wrong_answers:
+  - För att den är för värdefull för att flyttas.
+  - Eftersom det inte enkelt kan formas till mindre former.
+  - För att det är en Liquid i rumstemperatur.
+explanation: |
+  Guld är tätt och tungt, vilket innebär att det kan vara en fysisk utmaning att bära stora mängder av det. Denna vikt gör det mindre lämpligt för transport jämfört med lättare material.
+reviewed: true

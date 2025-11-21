@@ -1,11 +1,9 @@
-question: Čemu je podobná adopční křivka Bitcoinu?
-answer: S-křivce.
+question: Jaký je status Bitcoinu v Salvadoru?
+answer: Zákonné platidlo.
 wrong_answers:
-  - U-křivce.
-  - V-křivce.
-  - W-křivce.
-explanation: >-
-  Adopce Bitcoinu, jako u jakékoli nové technologie, sleduje S-křivku.
-  Jedná se o běžný vzor pro adopci nových technologií, kde adopce začíná
-  pomalu, pak se zrychluje, než se zpomalí, jakmile je dosaženo nasycení.
+  - Kriminalizováno.
+  - Neznámé.
+  - Neregulované.
+explanation: |
+  Text kurzu uvádí, že některé země zakázaly a kriminalizovaly používání Bitcoinu, což přidává na složitosti přijetí Bitcoinu v závislosti na kulturách, érách a národech. Salvador byl však dost odvážný, aby ho přijal jako zákonné platidlo.
 reviewed: true

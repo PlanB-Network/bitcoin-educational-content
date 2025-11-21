@@ -1,0 +1,9 @@
+question: Jakiego darmowego narzędzia, dostępnego we wszystkich systemach, można użyć do weryfikacji podpisu pliku i jego zgodności z kluczem publicznym?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) jest referencyjnym narzędziem do weryfikacji podpisów cyfrowych i zarządzania kluczami publicznymi.
+reviewed: false

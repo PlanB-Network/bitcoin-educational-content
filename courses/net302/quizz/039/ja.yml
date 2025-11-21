@@ -1,0 +1,9 @@
+question: パブリックIPv4 AddressとプライベートIPv4 Addressの主な違いは何ですか？
+answer: パブリックAddressは、インターネット上でユニークでルーティング可能である。
+wrong_answers:
+  - プライベートAddressは、インターネット上でユニークでルーティング可能である。
+  - パブリックAddressは常にDHCPによって割り当てられます。
+  - プライベートAddressは常にDHCPによって割り当てられます。
+explanation: |
+  パブリックIPv4のAddressはグローバルに一意であり、インターネット上でルーティング可能であるが、プライベートAddressはローカルネットワーク内でのみ有効である。
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: 僅供哨兵監視
+name: Sentinel
 description: 什麼是 Watch-only wallet 以及如何使用？
 ---
 
@@ -8,7 +8,7 @@ description: 什麼是 Watch-only wallet 以及如何使用？
 
 ---
 
-**\*警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，Sentinel 應用程式仍可繼續運作，但**必須使用您自己的 Dojo** 才能存取 Blockchain 資訊和廣播交易。
+**警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，Sentinel 應用程式仍可繼續運作，但**必須使用您自己的 Dojo** 才能存取 Blockchain 資訊和廣播交易。
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
@@ -84,7 +84,7 @@ Sentinel 的獨特缺點在於該應用程式僅適用於 Android，且不支援
 Dojo 由 Samourai 團隊開發，是完整的 Bitcoin 節點版本，可單獨安裝，或一鍵加入節點盒中解決方案，例如 [Umbrel](https://umbrel.com/)、[RoninDojo](https://ronindojo.io/)。
 
 
-[**-> 探索如何在 Raspberry Pi 上安裝 RoninDojo v2.**](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> 探索如何在 Raspberry Pi 上安裝 RoninDojo v2.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 如果您有自己的 Dojo，您可以在此階段連接它。如此一來，您在檢查 Bitcoin 網路交易資訊時，將享有最高等級的隱私權。
@@ -176,7 +176,7 @@ Dojo 由 Samourai 團隊開發，是完整的 Bitcoin 節點版本，可單獨�
 與任何好的 Watch-only wallet 一樣，Sentinel 允許您 generate 接收地址在追蹤的 Wallet 上接收比特幣。但 Sentinel 還提供另一項進階功能：建立並廣播 Partially Signed Bitcoin Transaction (PSBT)。因此，持有私鑰的 Wallet 可以簽署此交易，一旦簽署，Sentinel 就可以在 Bitcoin 網路上廣播。讓我們看看如何做到這一切。
 
 
-***如果持有私鑰的 Wallet (例如 Hardware Wallet)沒有明確確認某個 Address 隸屬於它，那麼向這個 Address 發送比特幣就是一種高風險的做法。事實上，如果沒有這個確認，就無法保證 Address 真正屬於您的 Wallet。因此，應該謹慎使用 Watch-only wallet 的接收功能，牢記發送的資金有可能會丟失。
+**如果持有私鑰的 Wallet (例如 Hardware Wallet)沒有明確確認某個 Address 隸屬於它，那麼向這個 Address 發送比特幣就是一種高風險的做法。事實上，如果沒有這個確認，就無法保證 Address 真正屬於您的 Wallet。因此，應該謹慎使用 Watch-only wallet 的接收功能，牢記發送的資金有可能會丟失。**
 
 
 若要透過 Sentinel 接收比特幣，請選擇感興趣的收藏集，然後點選您想要轉帳的擴充公開金鑰對應的標籤。

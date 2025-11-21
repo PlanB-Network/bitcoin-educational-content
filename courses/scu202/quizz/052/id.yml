@@ -1,0 +1,9 @@
+question: Praktik apa yang disarankan sebelum berbagi file secara online atau melalui email?
+answer: Bersihkan semua metadata
+wrong_answers:
+  - Enkripsi semua metadata
+  - Autentikasi semua metadata
+  - Ubah nama semua metadata
+explanation: |
+  Pembersihan metadata mencegah pengungkapan informasi sensitif yang tidak disengaja saat berbagi file.
+reviewed: false

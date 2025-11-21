@@ -1,0 +1,9 @@
+question: Nani aliandika "Hakuna kinachotokea kwa asili ambacho kinaweza kuhusishwa na a
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Mtakatifu Augustin.
+explanation: |
+  Ilikuwa Spinoza ambaye aliandika: "Hakuna kinachotokea kwa asili ambacho kinaweza kuhusishwa na uovu uliopo ndani yake". Kishazi hiki kinaonyesha wazo kwamba asili ni kamilifu katika aina yake, na kwamba kasoro ni hukumu za kibinadamu tu.
+reviewed: false

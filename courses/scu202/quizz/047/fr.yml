@@ -1,0 +1,9 @@
+question: Quel logiciel libre et multiplateforme permet de créer un fichier-conteneur chiffré, montable comme un disque virtuel ?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt permet de créer des conteneurs chiffrés accessibles sous forme de disque virtuel, sur tous les OS principaux.
+reviewed: false

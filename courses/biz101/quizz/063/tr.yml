@@ -1,0 +1,9 @@
+question: Hangi senaryo Bitcoin ödemeleri için Essential profilinin kullanımını en iyi şekilde göstermektedir?
+answer: Ayda birkaç Bitcoin ödemesi kabul eden bir restoran
+wrong_answers:
+  - Günlük binlerce işlem gerçekleştiren çok uluslu bir şirket
+  - Faturaları için bitcoin ile ödeme kabul eden bağımsız bir serbest çalışan
+  - Yüksek frekanslı bir Bitcoin ticaret masası
+explanation: |
+  Essential profili, restoran gibi az sayıda Bitcoin işlemi olan küçük ve orta ölçekli işletmeleri hedeflemektedir.
+reviewed: false

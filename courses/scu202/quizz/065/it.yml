@@ -1,0 +1,9 @@
+question: Quale affermazione descrive meglio la modalità di navigazione privata?
+answer: Limita la registrazione di tracce locali
+wrong_answers:
+  - Rende anonima la navigazione in Internet
+  - Blocca tutti i tracker e gli script dannosi
+  - Elimina le estensioni attive
+explanation: |
+  La modalità privata impedisce semplicemente la registrazione locale della cronologia e dei cookie, ma non garantisce l'anonimato su Internet.
+reviewed: false

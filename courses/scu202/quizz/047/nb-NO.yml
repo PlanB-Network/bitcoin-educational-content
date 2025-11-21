@@ -1,0 +1,9 @@
+question: Hvilken gratis programvare på tvers av plattformer kan brukes til å opprette en kryptert containerfil som kan monteres som en virtuell disk?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  Med VeraCrypt kan du opprette krypterte containere som kan brukes som virtuelle disker på alle større operativsystemer.
+reviewed: false

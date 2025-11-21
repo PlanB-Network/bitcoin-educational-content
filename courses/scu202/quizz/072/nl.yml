@@ -1,0 +1,9 @@
+question: Hoe installeer ik een alternatieve ROM op een Android-smartphone?
+answer: De bootloader ontgrendelen
+wrong_answers:
+  - Een Apple account aanmaken
+  - Een speciale SIM-kaart installeren
+  - Ontwikkelaarsmodus activeren op iOS
+explanation: |
+  Het ontgrendelen van de bootloader is essentieel voor het schrijven van een nieuwe systeemimage naar een Android-smartphone.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket stort säkerhetsfel utsätter en dataläcka för en dominoeffekt?
+answer: Återanvända samma lösenord på flera webbplatser
+wrong_answers:
+  - Använda ett offentligt VPN
+  - Radera webbhistorik för ofta
+  - Navigera i textläge
+explanation: |
+  Genom att återanvända ett lösenord på olika webbplatser kan en angripare, i händelse av att tjänsten äventyras, komma åt andra konton med samma lösenord.
+reviewed: false

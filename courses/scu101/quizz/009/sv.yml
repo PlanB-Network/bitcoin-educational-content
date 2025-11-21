@@ -1,0 +1,13 @@
+question: Vilken är den primära funktionen för ett VPN i ett professionellt sammanhang?
+answer: Det gör det möjligt för anställda att få tillgång till företagets interna nätverk på distans och på ett säkert sätt.
+wrong_answers:
+  - Det gör det möjligt för anställda att på ett säkert sätt kringgå geografiska begränsningar.
+  - Det gör det möjligt för anställda att helt blockera online-reklam.
+  - Det gör det möjligt för anställda att använda offentliga Wi-Fi-nätverk på ett säkert sätt.
+explanation: |
+  I ett professionellt sammanhang används VPN främst för att
+  ge säker fjärråtkomst till företagets interna nätverk
+  interna nätverk. Detta uppnås genom att kryptera den data som utbyts
+  mellan den anställde och företagets nätverk, vilket gör det
+  svårt för tredje part att avlyssna.
+reviewed: true

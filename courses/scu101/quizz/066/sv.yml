@@ -1,0 +1,9 @@
+question: Vilka är fördelarna med att använda Passkeys som ett alternativ till traditionella lösenord?
+answer: De erbjuder krypterade slumpmässiga nycklar kombinerade med en lokal faktor. Nycklarna finns hos en leverantör men förblir utom räckhåll för dem.
+wrong_answers:
+  - De är lättare att komma ihåg än traditionella lösenord.
+  - De kräver inte några ytterligare autentiseringsfaktorer.
+  - De kan användas på alla webbplatser utan några uppdateringar.
+explanation: |
+  Passkeys erbjuder krypterade slumpmässiga nycklar i kombination med en lokal faktor (biometri eller PIN-kod) som en leverantör är värd för. Nycklarna förblir dock utom räckhåll för användaren. Detta tillvägagångssätt eliminerar behovet av lösenord och ger därmed en hög säkerhetsnivå utan de begränsningar som är förknippade med traditionella lösenord.
+reviewed: true

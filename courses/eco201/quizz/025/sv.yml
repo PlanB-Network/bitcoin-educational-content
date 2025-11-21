@@ -1,0 +1,14 @@
+question: Vilka är de tre dimensionerna av det dubbla sammanträffandet av vill ha problem?
+answer: Rumsliga, tidsmässiga och mellanmänskliga.
+wrong_answers:
+  - Spatial, temporal och intrapersonell.
+  - Spatial, intertemporal och interpersonell.
+  - Interspatial, temporal och interpersonell.
+explanation: |
+  Problemet med dubbel samstämmighet av önskemål avser
+  svårighet i byteshandel där båda parter måste ha något
+  något som den andra önskar vid samma tidpunkt och på samma plats.
+  Detta problem har tre dimensioner: rumslig (samma plats)
+  temporal (samma tid) och interpersonell (ömsesidig önskan om
+  varandras varor).
+reviewed: true

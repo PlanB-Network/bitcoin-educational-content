@@ -1,0 +1,9 @@
+question: Mikä on TCP:n ja UDP:n tärkein ero?
+answer: TCP on yhteyspainotteinen, UDP ei ole
+wrong_answers:
+  - TCP toimii vain paikallisverkoissa, UDP Internetissä
+  - TCP käyttää aina salausta, UDP ei koskaan
+  - TCP hallitsee IP:n pirstoutumista, UDP hoitaa pakkauksen
+explanation: |
+  TCP edellyttää yhteyden muodostamista ja seurantaa, kun taas UDP lähettää paketteja ilman edeltävää istunnon muodostamista tai ohjausta.
+reviewed: false

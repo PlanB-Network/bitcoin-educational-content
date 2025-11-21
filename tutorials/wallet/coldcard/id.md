@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Membuat, membackup, dan menggunakan kunci privat Bitcoin dengan perangkat Coldcard dan Bitcoin Core
 ---

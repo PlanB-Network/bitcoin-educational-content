@@ -1,9 +1,9 @@
-question: 2008年11月のジンバブエのインフレ率は何でしたか？
-answer: 79,600,000,000%
+question: Bitcoinノード上で流通しているビットコインの量を確認するコマンドは何ですか？
+answer: bitcoin-cli gettxoutsetinfo。
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo。
+  - bitcoin-cli getwalletinfo。
+  - bitcoin-cli getnetworkinfo。
 explanation: |
-  2008年11月、ジンバブエの通貨の月間インフレ率は79,600,000,000%に達し、ジンバブエドルの価値を0にまで激減させました。
-reviewed: true
+  Bitcoinノード上で流通しているビットコインの量を確認するコマンドはbitcoin-cli gettxoutsetinfoです。このコマンドは透明性と検証可能性を提供し、Bitcoinシステムへの信頼を強化します。
+  レビュー済み: true

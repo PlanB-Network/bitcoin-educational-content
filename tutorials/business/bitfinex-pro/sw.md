@@ -5,7 +5,7 @@ description: Kuunda na kusimamia akaunti ya kampuni kwenye Bitfinex
 ![cover](assets/cover.webp)
 
 
-Ilianzishwa mwaka 2012, Bitfinex ni mojawapo ya majukwaa ya kwanza ya Bitcoin na Altcoin Exchange. Hapo awali ililenga ubadilishanaji wa P2P Bitcoin, jukwaa lilipanua huduma zake kwa haraka ili kujumuisha biashara ya pembezoni, ufadhili wa P2P, biashara ya bidhaa zinazotoka nje, na soko la OTC ("*kaunta*") kwa ajili ya malipo ya kiasi kikubwa.
+Ilianzishwa mwaka 2012, Bitfinex ni mojawapo ya majukwaa ya kwanza ya Bitcoin na Altcoin Exchange. Hapo awali ililenga ubadilishanaji wa P2P Bitcoin, jukwaa lilipanua huduma zake kwa haraka ili kujumuisha biashara ya pembezoni, ufadhili wa P2P, biashara ya bidhaa zinazotoka nje, na soko la OTC ("*Over-The-Counter*") kwa ajili ya malipo ya kiasi kikubwa.
 
 
 Leo, Bitfinex ni jukwaa kamili, linalowezesha ununuzi rahisi wa bitcoins na matumizi ya kazi za juu za biashara (biashara ya jadi, derivatives, OTC, mikopo, nk) na zana za usimamizi wa hatari. Inapatikana katika toleo la wavuti, na kwa shughuli rahisi, programu ya rununu iliyo rahisi kutumia inapatikana pia.
@@ -17,7 +17,7 @@ Katika somo hili, tutashughulikia mchakato wa kuunda akaunti ya biashara kwenye 
 Ikiwa ungependa somo la kuunganisha Bitcoin kwenye biashara yako, ningependekeza pia ugundue kozi yetu kamili ya mafunzo ya kinadharia kuhusu mada hii:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kuunda akaunti ya Bitfinex
 
@@ -34,15 +34,15 @@ Kamilisha maelezo yanayohitajika: weka barua pepe yako ya biashara Address na nc
 ![BITFINEX](assets/fr/02.webp)
 
 
-Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya :
+Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sasa tutasanidi 2FA ili kulinda akaunti. Tumia programu ya uthibitishaji kwenye simu yako mahiri, kama vile Kithibitishaji cha Google au Authy kwa mfano. Utapata mafunzo juu ya zana hii hapa:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Changanua msimbo wa QR na programu yako na uweke tarakimu 6 zilizotolewa.
 
@@ -74,13 +74,13 @@ Akaunti yako sasa imeundwa. Bofya "*Ingia*" ili kufikia jukwaa.
 Bitfinex inatumia mchakato wa uthibitishaji (KYC) ambao unatii kanuni za sasa. Katika hali ya "Msingi", haiwezekani kuweka amana, na kuifanya iwe muhimu kupata angalau kiwango cha uthibitishaji cha "Wakati", au hata "Kamili" ikiwa ni lazima.
 
 
-Baada ya kufungua akaunti yako, dirisha ibukizi linapaswa kupendekeza kwamba uthibitishe akaunti yako. Bonyeza "*Thibitisha*".
+Baada ya kufungua akaunti yako, window ibukizi linapaswa kupendekeza kwamba uthibitishe akaunti yako. Bonyeza "*Thibitisha*".
 
 
 ![BITFINEX](assets/fr/07.webp)
 
 
-Ikiwa dirisha hili halionekani, nenda kwa wasifu wako kwenye sehemu ya juu ya kulia ya Interface, kisha ubofye kwenye "*Uthibitishaji*".
+Ikiwa window hili halionekani, nenda kwa wasifu wako kwenye sehemu ya juu ya kulia ya Interface, kisha ubofye kwenye "*Uthibitishaji*".
 
 
 ![BITFINEX](assets/fr/08.webp)
@@ -111,16 +111,16 @@ Baada ya ombi lako kukamilika na kuwasilishwa, inaweza kuchukua siku kadhaa kwa 
 ## 3 - Utangulizi wa haraka wa Bitfinex Interface
 
 
-Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Derivatives*", "*Ufadhili*", "*OTC*", "*P2P*", "*Wallet*", n.k. Bitfinex inatoa utendakazi mbalimbali, ikiwa ni pamoja na :
+Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Derivatives*", "*Ufadhili*", "*OTC*", "*P2P*", "*Wallet*", n.k. Bitfinex inatoa utendakazi mbalimbali, ikiwa ni pamoja na:
 
 
 
 
-- Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin) ;
-- OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
-- Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
-- Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
-- P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
+- **Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin);
+- **OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
+- **Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
+- **Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
+- **P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
 
 
 Kwa matumizi ya kawaida (kununua/kuuza bitcoins, amana/utoaji na usimamizi wa fedha), utatumia hasa kichupo cha "*Trading*", pamoja na sehemu za "*Wallet*", "*Amana*" na "*Toa*".
@@ -156,7 +156,7 @@ Chagua sarafu ya fiat itakayotumwa, k.m. euro. Ikiwa unatumia tu chaguo msingi z
 Fanya uhamisho kutoka kwa akaunti yako ya benki ya biashara hadi kwa akaunti ya benki iliyoonyeshwa na Bitfinex.
 
 
-Ili kutoa pesa, utaratibu ni sawa: nenda kwenye menyu ndogo ya "*Toa*".
+Ili kutoa pesa, utaratibu ni sawa: nenda kwenye menyu ndogo ya "*withdraw*".
 
 
 ![BITFINEX](assets/fr/15.webp)
@@ -192,7 +192,7 @@ Ili kuweka Bitcoin kwenye Bitfinex, fikia menyu ndogo ya "*Amana*".
 ![BITFINEX](assets/fr/19.webp)
 
 
-Bofya kwenye "* Cryptocurrency*".
+Bofya kwenye "*Cryptocurrency*".
 
 
 ![BITFINEX](assets/fr/13.webp)
@@ -204,13 +204,13 @@ Chagua "*BTC*". Address inayopokea itaonekana. Nakili Address hii na uitumie kut
 ![BITFINEX](assets/fr/20.webp)
 
 
-Ili kuondoa Bitcoin, nenda kwenye menyu ndogo ya "*Toa*".
+Ili kuondoa Bitcoin, nenda kwenye menyu ndogo ya "*withdraw*".
 
 
 ![BITFINEX](assets/fr/21.webp)
 
 
-Bofya kwenye "* Cryptocurrency*".
+Bofya kwenye "*Cryptocurrency*".
 
 
 ![BITFINEX](assets/fr/22.webp)
@@ -234,7 +234,7 @@ Bitfinex pia inatoa chaguzi za kuweka na uondoaji kupitia Lightning Network, kuw
 Ikiwa ungependa Lightning Network, pia tuna kozi kamili ya mafunzo ili kukusaidia kuelewa jinsi inavyofanya kazi:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kununua na kuuza bitcoins kwenye Bitfinex
 
@@ -349,7 +349,7 @@ Kulingana na malengo na muundo wa kampuni yako, matumizi ya Bitfinex yanaweza ku
 - Hamisha historia za miamala inavyohitajika.
 
 
-Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo kuhusu kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu :
+Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo kuhusu kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

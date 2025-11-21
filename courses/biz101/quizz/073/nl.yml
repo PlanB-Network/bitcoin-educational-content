@@ -1,0 +1,9 @@
+question: Wat maakt realtime gegevenssynchronisatie tussen Enterprise Bitcoin systemen en ERP-software mogelijk?
+answer: API's
+wrong_answers:
+  - CSV-bestanden
+  - Batch-uploads
+  - Rapporten per e-mail
+explanation: |
+  API's maken continue, realtime integratie mogelijk.
+reviewed: false

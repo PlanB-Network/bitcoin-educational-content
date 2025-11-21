@@ -1,0 +1,9 @@
+question: Bitcoin işlemlerinde en sık hangi sighash bayrağı kullanılır?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL varsayılan sighash bayrağıdır, bir işlemin tüm girdi ve çıktılarını kapsar ve herhangi bir değişikliği önler.
+reviewed: false

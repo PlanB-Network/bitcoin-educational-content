@@ -1,0 +1,12 @@
+question: Hiperenflasyon nedir?
+answer: Parasal kütlede ciddi bir artış.
+wrong_answers:
+  - Parasal kütlede küçük bir artış.
+  - Parasal kütlede ciddi bir azalma.
+  - Parasal kütlede küçük bir azalma.
+explanation: |
+  Hiperenflasyon, yüksek enflasyon ile karakterize edilen parasal bir olgudur
+  parasal baskı yoluyla enflasyonda ciddi artış
+  tamamen kaybolmasına yol açan yetkililer tarafından
+  bir para birimine duyulan güven.
+reviewed: true

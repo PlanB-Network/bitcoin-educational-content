@@ -2,4 +2,4 @@
 term: ATLC
 
 ---
-Singkatan dari "*Kontrak Timelock Jangkar*". Ini adalah pembayaran bersyarat yang digunakan dalam protokol Ark untuk menyediakan jadwal pembayaran atomik ke hub, melalui konektor yang membentuk apa yang disebut "txlock". Tujuan dari ATLC secara substansial sama dengan tujuan HTLC pada Lightning.
+Singkatan dari "*Anchor Timelock Contract*". Ini adalah pembayaran bersyarat yang digunakan dalam protokol Ark untuk menjadwal pembayaran atomik ke hub, melalui konektor yang membentuk apa yang disebut "txlock". Tujuan dari ATLC sama dengan tujuan HTLC pada _Lightning_.

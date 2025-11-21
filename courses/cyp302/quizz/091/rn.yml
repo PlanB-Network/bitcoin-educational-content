@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye hagati y’uruzitiro rw’umugezi rwa kera n’uruzitiro rw’uruzitiro rw’amabuye?
+answer: Igiharuro c’umugezi wa kera ntikibatswe n’igiharuro c’amabuye.
+wrong_answers:
+  - Igiharuro c'uruzi rwa kera gisaba gushiramwo ubutumwa.
+  - Igiharuro c'umugezi w'amabuye gikoresha amabuye y'ubunini buhinduka.
+  - Igiharuro c'uruzi rw'ibarabara ntigishobora gukoreshwa ku makuru menshi.
+explanation: |
+  Igiharuro c’umugezi wa kera, nka Salsa20, gikozwe kidashingiye ku giharuro c’amabuye, mu gihe igiharuro c’uruzi c’amabuye gikoresha igiharuro c’amabuye nk’ishimikiro ryaco, gihindurwa kugira ngo kivemwo umugezi w’ugushiramwo amakuru.
+reviewed: false

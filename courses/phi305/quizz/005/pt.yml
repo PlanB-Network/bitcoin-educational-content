@@ -1,0 +1,9 @@
+question: Que cientista acredita que a matemática é a linguagem do universo?
+answer: Galileu.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copérnico.
+explanation: |
+  Galileu é famoso pela sua afirmação de que "o livro da natureza está escrito em linguagem matemática". Esta visão teve uma profunda influência na ciência moderna e na filosofia racionalista, incluindo a de Spinoza.
+reviewed: false

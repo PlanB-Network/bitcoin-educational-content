@@ -1,0 +1,9 @@
+question: Ni gute ubucuruzi bwohitamwo umuti wo kwishura Bitcoin uhuye n’ivyo bukeneye?
+answer: Mu kwihweza ibintu nk’incuro umuntu akoresha amafaranga, ubunini bw’amahera yishura, n’uko yoba ari kuri interineti canke umuntu ku giti ciwe, hanyuma ugahitamwo umuti uhuye n’ico kiciro.
+wrong_answers:
+  - Mu kwama uhitamwo umuti woroshe kuruta iyindi yose, utitaye ku rugero rw’ibikorwa canke ukuntu bigoranye.
+  - Mu gukoresha gusa umuti munini kandi uzimvye kuruta iyindi yose uhari, ata kuraba ubunini bw’ubudandaji.
+  - Mu kwizigira gusa ibiharuro ataco wihweje mu bisabwa vyihariye vy’ubudandaji.
+explanation: |
+  Ubucuruzi butandukanye burafise ivyo bukeneye bitandukanye. Gusuzuma ibintu nk’ingero y’amahera akoreshwa, uburyo bwo kwishura (ku muhora canke ku mubiri), n’ubushobozi bwo gutera imbere bifasha ishirahamwe guhitamwo umuti mwiza wo kwishura Bitcoin. 
+reviewed: false

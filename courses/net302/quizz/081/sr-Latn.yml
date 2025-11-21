@@ -1,0 +1,9 @@
+question: Koji alat komandne linije hvata mrežni saobraćaj za analizu u realnom vremenu?
+answer: tcpdump
+wrong_answers:
+  - kopaj
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump hvata i beleži pakete koji kruže mrežom Interface radi analize.
+reviewed: false

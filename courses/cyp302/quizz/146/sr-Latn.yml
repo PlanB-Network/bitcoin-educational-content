@@ -6,4 +6,4 @@ wrong_answers:
   - a mora biti prost broj
 explanation: |
   Ceo broj a ima inverz modulo N ako i samo ako su međusobno prosti, što znači da je njihov najveći zajednički delilac 1.
-reviewed: false
+reviewed: true

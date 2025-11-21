@@ -59,7 +59,7 @@ Du kan skrive den på papir eller, for ekstra sikkerhet, gravere den på rustfri
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Klikk på meldingen som vises øverst i grensesnittet "*Save your wallet...*".
 
@@ -115,7 +115,7 @@ Klikk på knappen "*Mottak*".
 
 ![Image](assets/fr/18.webp)
 
-Sveip QR-koden til høyre for å avsløre en Bitcoin-mottakeradresse. Send den beløpet du ønsker å sette inn hos Phoenix.
+Dra QR-koden mot venstre for å vise en Bitcoin-mottaksadresse. Send beløpet du ønsker å sette inn på Phoenix til denne adressen.
 
 ![Image](assets/fr/19.webp)
 
@@ -175,8 +175,8 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Phoenix. Hvis du synes 
 
 Hvis du vil gå et skritt videre, kan du ta en titt på denne veiledningen om Alby Hub, en annen innovativ og brukervennlig løsning for å lansere din egen Lightning-node:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Og for å finne ut mer om den tekniske driften av Lightning Network, kan du finne Fanis Michalakis' utmerkede gratis opplæring på Plan ₿ Network :
+Og for å finne ut mer om den tekniske driften av Lightning Network, kan du finne Fanis Michalakis' utmerkede gratis opplæring på Plan ₿ Academy :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

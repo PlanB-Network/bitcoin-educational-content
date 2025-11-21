@@ -1,0 +1,9 @@
+question: Qual é a principal limitação do Telegram no que diz respeito à confidencialidade das mensagens?
+answer: Por defeito, apenas as trocas secretas são encriptadas de ponta a ponta
+wrong_answers:
+  - Impõe uma taxa de registo anónima
+  - Não garante a autenticidade dos ficheiros recebidos
+  - Não há cliente de código aberto disponível
+explanation: |
+  Por defeito, as mensagens do Telegram são armazenadas nos servidores da empresa, sendo que apenas os chats secretos beneficiam de encriptação de ponta a ponta.
+reviewed: false

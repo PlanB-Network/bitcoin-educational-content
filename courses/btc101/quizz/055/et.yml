@@ -1,10 +1,9 @@
-question: Mis oli Saksamaa inflatsioonimäär oktoobris 1923?
-answer: 29,50%.
+question: Mis mehhanism tagab, et uus plokk lisatakse plokiahelasse iga kümne minuti järel?
+answer: Raskusastme kohandamine
 wrong_answers:
-  - 200.9%.
-  - 50.51%.
-  - 25.98%.
+  - Kiiruse kohandamine
+  - Aja kohandamine
+  - Ploki kohandamine
 explanation: |
-  Kuu, mil Saksamaal oli kõrgeim inflatsioonimäär, oli oktoober 1923, tippudes
-  29,50% peal.
+  Mehhanism, mis tagab uue ploki lisamise plokiahelasse iga kümne minuti järel, on raskusastme kohandamine. See kohandamine toimub iga 2016 ploki järel, mis on umbes kahe nädala jooksul.
 reviewed: true

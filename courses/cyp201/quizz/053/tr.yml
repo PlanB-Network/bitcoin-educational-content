@@ -1,0 +1,9 @@
+question: HD Wallet'inizle ilişkili passphrase'ı kaybederseniz ne olur?
+answer: Bu Wallet'ye bağlı bitcoinlere erişiminizi kaybedersiniz
+wrong_answers:
+  - Wallet'e yalnızca Mnemonic ifadesiyle erişmeye devam edebilirsiniz
+  - passphrase desteğine başvurarak Bitcoin'yı sıfırlayabilirsiniz
+  - Sadece onaylanmamış işlemleri kaybedersiniz
+explanation: |
+  passphrase anahtar türetmede önemli bir bileşendir. Bu olmadan anahtarları yeniden oluşturmak ve dolayısıyla bitcoinlere erişmek imkansızdır.
+reviewed: false

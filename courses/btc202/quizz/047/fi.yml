@@ -1,0 +1,9 @@
+question: Mitä turvatoimia suositellaan vahvasti Umbrel-tilin luomisen yhteydessä?
+answer: Aktivoi 2FA
+wrong_answers:
+  - Salasanan poistaminen käytöstä
+  - PIN-koodin käyttäminen
+  - Poista kaikki yhteydet käytöstä
+explanation: |
+  2FA lisää lisäsuojaa, ja sitä suositellaan erityisesti silloin, kun käytetään Lightning-solmua tai arkaluonteista itsepalveluhostingia.
+reviewed: true

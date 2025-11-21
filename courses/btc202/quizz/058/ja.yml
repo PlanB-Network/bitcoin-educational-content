@@ -1,0 +1,9 @@
+question: あなたのノードとのTor通信の主な制限は何ですか？
+answer: 遅さ
+wrong_answers:
+  - 暗号化の欠如
+  - スパム
+  - RPCの不可能性
+explanation: |
+  Tor接続は安全だが、VPNなどの代替手段よりも遅い。
+reviewed: true

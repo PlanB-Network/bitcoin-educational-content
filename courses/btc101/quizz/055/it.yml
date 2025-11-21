@@ -1,10 +1,9 @@
-question: Quale fu il tasso di inflazione in Germania nell'ottobre 1923?
-answer: 29,50%.
+question: Qual è il meccanismo che garantisce l'aggiunta di un nuovo blocco alla blockchain ogni dieci minuti?
+answer: Aggiustamento della difficoltà.
 wrong_answers:
-  - 200,9%.
-  - 50,51%.
-  - 25,98%.
+  - Aggiustamento della velocità.
+  - Aggiustamento del tempo.
+  - Aggiustamento del blocco.
 explanation: |
-  Il mese con il tasso di inflazione più alto in Germania fu
-  ottobre 1923, raggiungendo il 29,50%.
+  Il meccanismo che garantisce l'aggiunta di un nuovo blocco alla blockchain ogni dieci minuti è l'aggiustamento della difficoltà. Questa avviene ogni 2016 blocchi, o circa ogni due settimane.
 reviewed: vero

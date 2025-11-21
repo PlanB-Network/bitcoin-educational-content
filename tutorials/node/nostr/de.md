@@ -4,9 +4,10 @@ name: NOSTR
 description: Entdecke und beginne NOSTR zu verwenden
 ---
 
-Am Ende dieses Leitfadens wirst du verstehen, was Nostr ist, du wirst ein Konto erstellt haben und in der Lage sein, es zu verwenden.
 
 ![Ein neuer Herausforderer ist angekommen](assets/1.webp)
+
+*Am Ende dieses Leitfadens werden Sie verstehen, was Nostr ist, ein Konto erstellt haben und es nutzen können.*
 
 ## Was ist Nostr?
 
@@ -34,9 +35,9 @@ Der öffentliche Schlüssel, npub, ist eine eindeutige Kennung, die allen Inhalt
 
 Clients sind Softwareprogramme, mit denen man mit Nostr interagieren kann. Die wichtigsten Clients sind:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Die Clients ermöglichen es einem Benutzer, ein neues Schlüsselpaar zu generieren (ähnlich wie das Erstellen eines Kontos) oder sich mit einem vorhandenen Schlüsselpaar zu authentifizieren.
 
@@ -46,7 +47,7 @@ Relais sind einfache Server, die du jederzeit verlassen kannst, wenn dir der von
 
 > 💡 Pro-Tipp: Bezahlte Relais sind in der Regel effektiver beim Filtern von Spam und unerwünschten Inhalten.
 
-# Leitfaden
+## Leitfaden
 
 Jetzt weißt du genug über Nostr, um loszulegen und deine erste Identität in diesem Protokoll zu erstellen.
 

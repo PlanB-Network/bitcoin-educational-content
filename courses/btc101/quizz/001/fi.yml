@@ -1,11 +1,13 @@
-question: Milloin lohkokoon sota tapahtui?
-answer: Vuonna 2017.
+question: Mikä on tämän Bitcoin-kurssin tarkoitus?
+answer: Esitellä joitakin Bitcoinin yleisiä rahataloudellisia näkökohtia, miten sitä käytetään ja sen tulevaisuutta.
 wrong_answers:
-  - Vuonna 2008.
-  - Vuonna 2010.
-  - Vuonna 2019.
-explanation: >-
-  Lohkokoon sota tapahtui vuonna 2017. Tässä konfliktissa vastakkain olivat toimijat, jotka halusivat muokata Bitcoinia kasvattamalla lohkon kokoa lisätäkseen transaktiokapasiteettia,
-  ja ne, jotka pyrkivät säilyttämään käyttäjien itsenäisyyden ja vallan pitämällä koon 1 MB, ssä.
+  - Esitellä, miten Bitcoinia louhitaan.
+  - Esitellä, miten Bitcoinia säännellään.
+  - Esitellä, miten luodaan uusi Bitcoin-protokolla.
+explanation: |
+  Tämän Bitcoin-kurssin tarkoituksena on keskustella
+  Bitcoinin yleisistä rahataloudellisista ominaisuuksista, mukaan lukien miten
+  ostaa ja myydä bitcoineja, säilyttää niitä turvallisesti digitaalisissa
+  lompakoissa ja käyttää niitä transaktioissa. Se pyrkii myös
+  tutkimaan Bitcoinin tulevaisuutta.
 reviewed: true
-

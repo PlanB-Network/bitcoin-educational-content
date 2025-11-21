@@ -1,0 +1,9 @@
+question: Bạn nên làm gì để phát hiện hành vi lừa đảo trong lĩnh vực tiền điện tử?
+answer: Xác minh danh tính người gửi
+wrong_answers:
+  - Chỉ nhấp vào các liên kết nhận được trong email
+  - Chia sẻ khóa riêng của bạn để xác nhận tính xác thực
+  - Chỉ dựa vào logo và hình ảnh trong email
+explanation: |
+  Bạn nên luôn đảm bảo rằng bạn đang tương tác với đúng người và không bao giờ sử dụng các liên kết được cung cấp trong email. Thay vào đó, hãy truy cập trực tiếp vào trang web theo cách thủ công, sử dụng dấu trang trình duyệt của bạn.
+reviewed: false

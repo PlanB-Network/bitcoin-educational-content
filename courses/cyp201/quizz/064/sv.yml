@@ -1,0 +1,9 @@
+question: Vilken är huvudfunktionen för en extended key i en HD Wallet?
+answer: För att tillåta härledning av underordnade nycklar
+wrong_answers:
+  - Lagra Wallet:s transaktioner
+  - Direkt generate UTXO:erna
+  - Kryptera de publika nycklarna
+explanation: |
+  En utökad nyckel kombinerar en nyckel (antingen privat eller publik) med en tillhörande chain code, dvs. de två Elements som krävs för att härleda underordnade nycklar.
+reviewed: false

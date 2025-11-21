@@ -1,9 +1,9 @@
-question: Quelle est la taille actuelle de la blockchain Bitcoin ?
-answer: Environ 500Go.
+question: Quelles seraient les implications pour les utilisateurs de Bitcoin si les blocs étaient 100 fois plus lourds ?
+answer: Faire fonctionner un nœud Bitcoin ne serait pas accessible à la personne moyenne, compromettant ainsi la décentralisation du protocole et l'immuabilité des transactions ainsi que des règles de consensus.
 wrong_answers:
-  - Environ 100Go.
-  - Environ 1To.
-  - Environ 2To.
+  - Faire fonctionner un nœud Bitcoin serait plus accessible à la personne moyenne, améliorant la décentralisation du protocole et l'immuabilité des transactions ainsi que des règles de consensus.
+  - La capacité de transaction du réseau diminuerait.
+  - La récompense de bloc pour les mineurs augmenterait.
 explanation: |
-  La blockchain Bitcoin est d'environ 500Go en 2023.
+  Si les blocs étaient 100 fois plus lourds, faire fonctionner un nœud Bitcoin nécessiterait un disque dur de 70TB, une bande passante de plus de 500GB/mois, et un matériel capable de valider des centaines de milliers de transactions en moins de 10 minutes. Cela rendrait l'exploitation d'un nœud Bitcoin inaccessible à la personne moyenne, compromettant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus.
 reviewed: true

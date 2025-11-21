@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye riri hagati y’inyifato runtu ya filozofiya n’inyifato runtu y’ubutunzi nk’uko Bastiat abivuga?
+answer: Umwe abwira umutima, uwundi ubwenge .
+wrong_answers:
+  - Umwe ni umuntu ku giti ciwe, uwundi ni uwo bose
+  - Umwe ni uwa kera, uwundi ni uwa none .
+  - Umwe ni uwo mu vy’idini, uwundi ni uwo mu vy’isi .
+explanation: |
+  Inyifato runtu ya filozofiya ikwegera inyiyumvo n’ingeso nziza z’umuntu ku giti ciwe, mu gihe inyifato runtu y’ubutunzi igamije kwigisha mu buryo bubereye mu kwerekana ingaruka z’ibikorwa.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vilket av följande är nödvändigt för en lyckad transaktion i ett bytessystem?
+answer: Ett dubbelt sammanträffande av önskemål
+wrong_answers:
+  - En gemensam redovisningsenhet
+  - En central bankmyndighet
+  - Ett minimikrav på saldo
+explanation: |
+  I ett byteshandelssystem sker transaktioner direkt mellan två parter som byter varor eller tjänster
+  tjänster utan användning av pengar. För en lyckad transaktion krävs en dubbel överensstämmelse av
+  önskemål, vilket innebär att båda parter måste ha något som den andra parten vill byta med.
+reviewed: true

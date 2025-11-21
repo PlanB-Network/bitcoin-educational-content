@@ -1,0 +1,9 @@
+question: Welke gebeurtenis dwong Google om Android te heroriënteren naar een aanraakgevoelige Interface?
+answer: De release van de eerste iPhone
+wrong_answers:
+  - De overname van Nokia door Microsoft
+  - De creatie van CyanogenMod
+  - De lancering van de Play Store
+explanation: |
+  De komst van de iPhone in 2007 dwong Google om Android te heroverwegen en het geschikt te maken voor aanraakschermen, waarbij het idee van een apparaat met een fysiek toetsenbord werd losgelaten.
+reviewed: false

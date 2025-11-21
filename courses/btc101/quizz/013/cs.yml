@@ -1,10 +1,9 @@
-question: Co je Cypherpunk Manifesto?
-answer: Text napsaný Ericem Hughesem, který tvrdí, že soukromí je základní právo.
+question: Jaké jsou hlavní charakteristiky efektivní měny?
+answer: Směnitelná, Dělitelná, Likvidní.
 wrong_answers:
-  - Kniha napsaná Julianem Assangem o budoucnosti technologií.
-  - Dokument, který shrnuje principy Bitcoinu.
-  - Manifest napsaný Davidem Chaumem o důležitosti digitální měny.
+  - Směnitelná, Dělitelná, Kazitelná.
+  - Směnitelná, Nedělitelná, Likvidní.
+  - Nesměnitelná, Dělitelná, Likvidní.
 explanation: |
-  Cypherpunk Manifesto byl napsán Ericem Hughesem v roce 1993
-  a tvrdí, že soukromí je základní právo.
+  Efektivní měna musí být směnitelná (vyměnitelná bez ztráty hodnoty), dělitelná (rozložitelná na malé části pro usnadnění transakcí různých objemů) a likvidní (snadno přeměnitelná na zboží nebo služby).
 reviewed: true

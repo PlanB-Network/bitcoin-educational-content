@@ -1,0 +1,8 @@
+question: Según el título de un libro de Le Trosne, ¿cómo se describe la libertad de comercio?
+answer: Siempre útil, nunca perjudicial
+wrong_answers:
+  - Siempre rentable y siempre útil
+  - A menudo rentable, siempre moral
+  - A veces rentable, a veces perjudicial
+explanation: |
+  Le Trosne escribió "De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur", en el que defiende el libre comercio como siempre útil y nunca perjudicial para la sociedad.

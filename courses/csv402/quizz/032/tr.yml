@@ -1,0 +1,9 @@
+question: Alice (gönderen), Bob'nin Invoice'ını aldıktan sonra ne yapmalıdır?
+answer: UTXO ve generate transfer Consignment terminali ile bir PSBT inşa edin
+wrong_answers:
+  - Single-Use Seal'yi içeren UTXO'unu harcayan Bitcoin işlemini imzalayın
+  - Contract ayrıntıları için Consignment'u kendi Wallet'nize aktarın
+  - Bir varlık sorunu için yeni bir Invoice yayınlayın
+explanation: |
+  Alice, varlıkla ilişkili UTXO'i harcamak için bir PSBT oluşturmalı, ardından generate, Bob'a yeni geçişi içeren bir Terminal Consignment oluşturmalıdır.
+reviewed: false

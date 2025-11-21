@@ -1,0 +1,8 @@
+question: De quel condamné célèbre Condorcet a-t-il pris la défense ?
+answer: Le chevalier de la Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Le Comte de Lally
+explanation: |
+  Condorcet a pris la défense du chevalier de la Barre, un jeune homme condamné à mort pour blasphème.

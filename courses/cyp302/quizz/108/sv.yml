@@ -1,0 +1,9 @@
+question: Varför räcker det inte med enbart ett autentiserat krypteringssystem i en kommunikationssession?
+answer: Det garanterar inte att meddelandet skickades av avsändaren vid tidpunkten för sessionen.
+wrong_answers:
+  - Den använder nycklar som är för korta.
+  - Den krypterar inte meddelanden som skickas vid tidpunkten för sessionen.
+  - Den medger inte autentisering av avsändaren vid tidpunkten för sessionen.
+explanation: |
+  Ett autentiserat krypteringssystem skyddar inte mot attacker som återspelning, omordning och reflektion utan tillägg av indikatorer som identifierare och sekvensnummer.
+reviewed: false

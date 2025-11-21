@@ -1,0 +1,12 @@
+question: Ni akamaro akahe kamwe k’ibiceri vy’ivyuma kuruta amahera y’ibicuruzwa?
+answer: Yari iramba cane
+wrong_answers:
+  - Yari ifise agaciro kanini k'imbere
+  - Yari yoroshe gutwara
+  - Ntiyari ikunda kwigana .
+explanation: |
+   Amahera y’ivyuma, canecane inzahabu n’ifeza, yari akomeye kuruta amahera y’ibicuruzwa. 
+   Ivyuma vy’agaciro ntibikunda kwonona cane uko igihe kigenda kirarenga, ivyo bikaba bituma ari vyiza cane ku
+   ububiko bw’agaciro igihe kirekire. Ukwo gukomera kwavyo na kwo nyene kwatumye bigira akamaro nk’uko .
+   umurongo wa Exchange, igice c’ikonti, n’ububiko bw’agaciro.
+reviewed: true

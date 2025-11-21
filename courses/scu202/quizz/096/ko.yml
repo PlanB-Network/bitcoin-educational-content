@@ -1,0 +1,9 @@
+question: 로컬 네트워크 규모에서 DNS 요청을 암호화하려면 어떤 유형의 프로토콜을 활성화해야 하나요?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH(DNS over HTTPS) 및 DoT(DNS over TLS)는 DNS 요청을 암호화하여 가로채지 못하도록 합니다.
+reviewed: false

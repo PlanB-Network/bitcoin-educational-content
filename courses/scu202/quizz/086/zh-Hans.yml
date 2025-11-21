@@ -1,0 +1,9 @@
+question: 哪种开放源码翻译应用程序可与不同的引擎协同工作，并且不会收集您的翻译文本？
+answer: 翻译您
+wrong_answers:
+  - 谷歌翻译
+  - DeepL
+  - 微软翻译器
+explanation: |
+  与专有服务不同，TranslateYou 充当多个引擎的 Interface，不会跟踪或收集个人数据。
+reviewed: false

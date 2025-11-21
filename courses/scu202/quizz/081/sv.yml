@@ -1,0 +1,9 @@
+question: Vad är Telegrams huvudsakliga begränsning när det gäller meddelandets konfidentialitet?
+answer: Endast hemliga utbyten är krypterade från början till slut som standard
+wrong_answers:
+  - Det införs en anonym registreringsavgift
+  - Det garanterar inte äktheten hos mottagna filer
+  - Ingen klient med öppen källkod tillgänglig
+explanation: |
+  Som standard lagras Telegram-meddelanden på företagets servrar, och det är bara hemliga chattar som omfattas av kryptering från början till slut.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara TCP dan UDP?
+answer: TCP berorientasi pada koneksi, UDP tidak
+wrong_answers:
+  - TCP hanya berfungsi pada jaringan lokal, UDP pada Internet
+  - TCP selalu menggunakan enkripsi, UDP tidak pernah
+  - TCP mengelola fragmentasi IP, UDP menangani kompresi
+explanation: |
+  TCP memerlukan koneksi untuk dibuat dan dimonitor, sedangkan UDP mengirim paket tanpa mengatur atau mengontrol sesi sebelumnya.
+reviewed: false

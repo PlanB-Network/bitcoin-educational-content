@@ -1,0 +1,9 @@
+question: Vilket kommando kan användas för att installera programvara från de officiella Ubuntu-repositorierna?
+answer: sudo apt installera
+wrong_answers:
+  - sudo yum installera
+  - sudo snap skapa
+  - installera programvara
+explanation: |
+  Kommandot "sudo apt install" installerar ett programpaket via APT-pakethanteraren, den inbyggda metoden i Ubuntu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millist mehhanismi saab kasutada UTXO komplekti hetkeülesvõtte laadimiseks, et muuta sõlme kiiresti kasutatavaks?
+answer: assumeutxo
+wrong_answers:
+  - eeldadachainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo laeb UTXO komplekti hetkeseisu, et saada sõlme kiiresti tööle, samal ajal kui ta taustal taastab kogu UTXO komplekti.
+reviewed: true

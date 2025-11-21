@@ -1,0 +1,9 @@
+question: Milline on parim soovitatav nutitelefoni ekraani lukustamise meetod?
+answer: Tähtnumbriline parool
+wrong_answers:
+  - Graafiline diagramm
+  - Näo äratundmine
+  - Lukustust ei ole
+explanation: |
+  Alfabeetilised paroolid pakuvad erinevalt graafilistest skeemidest või biomeetriast parimat vastupanu volitamata juurdepääsu katsetele.
+reviewed: false

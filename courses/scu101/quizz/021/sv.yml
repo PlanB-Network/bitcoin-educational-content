@@ -1,0 +1,9 @@
+question: Vad är det potentiella hotet med att använda crackad programvara som inte kan uppdateras?
+answer: Ett virus som anländer under den olagliga nedladdningen och en osäker användning mot nya former av angrepp.
+wrong_answers:
+  - Programvaran kommer att sluta fungera efter en viss tid.
+  - Programvaran kommer inte att ha några nya funktioner.
+  - Programvaran kommer att förbruka mer systemresurser.
+explanation: |
+  Crackad programvara som inte kan uppdateras utgör ett dubbelt potentiellt hot. Den kan föra med sig ett virus under den olagliga nedladdningen från en misstänkt webbplats och vara sårbar för nya former av angrepp.
+reviewed: true

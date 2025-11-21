@@ -1,0 +1,8 @@
+question: Milline kuningas oli Sully minister?
+answer: Henri IV
+wrong_answers:
+  - Louis XIV
+  - Louis XV
+  - Louis XIII
+explanation: |
+  Maximilien de Béthune, Duc de Sully, oli Henri IV peamine minister. Ta mängis võtmerolli kuningliku rahanduse taastamisel ja kuningriigi majanduse taastamisel pärast ususõdasid.

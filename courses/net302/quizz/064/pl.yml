@@ -1,0 +1,9 @@
+question: Jaka jest długość bitu Address protokołu IPv6?
+answer: 128-bitowy
+wrong_answers:
+  - 512 bitów
+  - 64-bitowy
+  - 256-bitowy
+explanation: |
+  Address IPv6 ma długość 128 bitów, w porównaniu do 32 bitów dla Address IPv4.
+reviewed: false

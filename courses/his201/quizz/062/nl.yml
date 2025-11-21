@@ -1,0 +1,9 @@
+question: Wat houdt het schatten van het Hash tarief van een coöperatielid via gedeeltelijke Proof of Work in?
+answer: Werkbewijzen met een lagere graad terugvinden dan de netwerkmoeilijkheid geproduceerd door de hasher
+wrong_answers:
+  - Ophalen van de afdruk van een stempel, inclusief de eerste byte van elk blok Hash geproduceerd door de hasher
+  - Elke maand de elektriciteitsrekening van de huurder ophalen
+  - Werkbewijzen terugvinden die gemaakt zijn op een netwerk met een lagere moeilijkheidsgraad, zoals BitDNS
+explanation: |
+  Deze eenvoudige methode werd voorgesteld door Ribuck, Nils Schneider en Gavin Andresen [op het forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) op 14 oktober 2010.
+reviewed: true

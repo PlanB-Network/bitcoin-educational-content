@@ -1,0 +1,26 @@
+id: 2954cb80-c36c-4f96-9449-4866b9915a05
+name: Zen Browser
+
+links:
+  website: https://zen-browser.app/
+  twitter: https://x.com/zen_browser
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

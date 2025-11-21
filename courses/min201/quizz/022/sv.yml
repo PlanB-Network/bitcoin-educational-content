@@ -1,0 +1,11 @@
+question: Vad kommer gruvarbetare att förlita sig på för ersättning efter att alla 21 miljoner bitcoins har skapats?
+answer: Gruvarbetare kommer att förlita sig enbart på transaktionsavgifter för ersättning.
+wrong_answers:
+  - Gruvarbetare kommer enbart att förlita sig på blockbelöningar för ersättning.
+  - Gruvarbetare kommer enbart att förlita sig på transaktionsbekräftelser för ersättning.
+  - Gruvarbetare kommer enbart att förlita sig på nätverksavgifter för ersättning.
+explanation: |
+  År 2140 kommer inga nya bitcoins att skapas. Vid denna tidpunkt,
+  kommer gruvarbetare att förlita sig enbart på transaktionsavgifter för
+  kompensation.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Satoshi Nakamoto ne zaman ortadan kayboldu?
+answer: 2010 yılında
+wrong_answers:
+  - 2008 yılında
+  - 2009 yılında
+  - 2023 yılında
+explanation: |
+  Satoshi Nakamoto 2010 yılında ortadan kayboldu ve eserini
+  toplumun elindedir.
+reviewed: true

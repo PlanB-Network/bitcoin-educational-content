@@ -1,0 +1,9 @@
+question: Alat grafis mana di Ubuntu yang memudahkan untuk mengelola aturan firewall?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Sinaptik
+explanation: |
+  GUFW adalah Interface grafis untuk firewall UFW, yang memungkinkan Anda untuk mengaktifkan, menonaktifkan, dan mengonfigurasi aturan tanpa melalui terminal.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Secondo il capitolo, cosa succede quando si è poco attenti alle pratiche di privacy del proprio Bitcoin?
+answer: Può ridurre la privacy anche degli altri utenti del Bitcoin
+wrong_answers:
+  - Ha effetto solo sulle proprie transazioni e non ha alcun impatto sugli altri
+  - Rende l'intera rete Bitcoin più sicura per tutti
+  - Contribuisce a migliorare l'anonimato complessivo del sistema Bitcoin
+explanation: |
+  La privacy di Bitcoin è interconnessa tra gli utenti. Quando una persona è negligente nelle sue pratiche di privacy, può avere un impatto negativo sulla privacy degli altri utenti con cui effettua transazioni. Questo accade perché i modelli di transazione, il clustering degli indirizzi e altre tecniche di analisi della blockchain possono rivelare informazioni su più parti coinvolte nelle transazioni. Il capitolo sottolinea che le misure di privacy adottate non proteggono solo se stessi, ma anche la più ampia comunità Bitcoin, rendendo la privacy una responsabilità collettiva piuttosto che una preoccupazione individuale.

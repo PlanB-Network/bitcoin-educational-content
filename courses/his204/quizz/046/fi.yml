@@ -1,0 +1,8 @@
+question: Mikä oli Quesnayn ammatti ennen taloustiedettä?
+answer: Kirurgi
+wrong_answers:
+  - Hammaslääkäri
+  - Sairaanhoitaja
+  - Apteekkari
+explanation: |
+  François Quesnay oli kirurgi ennen kuin hänestä tuli taloustieteilijä. Hän oli jopa Madame de Pompadourin kirurgi.

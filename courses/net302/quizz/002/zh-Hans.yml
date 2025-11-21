@@ -1,0 +1,9 @@
+question: 环形网络的主要弱点是什么？
+answer: 单个设备的故障会导致整个网络中断
+wrong_answers:
+  - 需要大量电缆来连接每台设备
+  - 很难扩展
+  - 其管理非常复杂
+explanation: |
+  在环形拓扑结构中，一台设备的故障会导致环路中断，数据无法流通。
+reviewed: false

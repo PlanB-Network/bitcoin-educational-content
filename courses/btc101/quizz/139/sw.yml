@@ -1,8 +1,11 @@
-question: Je, ni takriban idadi gani ya nodi zilizosambazwa kote ulimwenguni kufikia Septemba 2023?
-answer: nodi 45,000.
+question: Kwa nini ni muhimu kwamba nodi ya Bitcoin ibaki kuwa nafuu na kupatikana kwa watumiaji wote wanaowezekana?
+answer: Kwa sababu inawezesha ugatuaji wa mtandao.
 wrong_answers:
-  - Nodi 10,000.
-  - Nodi 100,000.
-  - nodi 500,000.
-explanation: >-
+  - Kwa sababu huongeza uwezo wa muamala wa mtandao.
+  - Kwa sababu inapunguza uwezo wa muamala wa mtandao.
+  - Kwa sababu inaongeza Block reward kwa wachimbaji.
+explanation: |
+  Gharama nafuu na upatikanaji wa node ya Bitcoin ni
+  muhimu kwa sababu hurahisisha ugatuaji wa madaraka
+  mtandao.
 reviewed: true

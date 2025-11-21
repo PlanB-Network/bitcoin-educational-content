@@ -1,0 +1,9 @@
+question: ¿Qué comando puede utilizarse para consultar un servidor DNS y obtener la IP Address de un dominio?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup es una herramienta de consulta DNS para resolver nombres de dominio en direcciones IP.
+reviewed: false

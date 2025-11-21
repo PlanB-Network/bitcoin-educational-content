@@ -1,0 +1,9 @@
+question: Které tvrzení nejlépe popisuje režim soukromého prohlížení?
+answer: Omezuje záznam místních stop
+wrong_answers:
+  - Umožňuje anonymní surfování na internetu
+  - Blokuje všechny škodlivé trackery a skripty
+  - Odstraní aktivní rozšíření
+explanation: |
+  Soukromý režim pouze zabraňuje místnímu zaznamenávání historie a souborů cookie, ale nezaručuje anonymitu na internetu.
+reviewed: false

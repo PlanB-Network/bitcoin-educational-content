@@ -1,0 +1,9 @@
+question: پاداش BTC پس از چهارمین Halving چقدر است؟
+answer: ۳٫۱۲۵ بیت‌کوین.
+wrong_answers:
+  - ۱.۵۶۲۵ BTC.
+  - ۶.۲۵ BTC.
+  - ۱۲.۵ BTC.
+explanation: |
+  پس از چهارمین Halving، که در ارتفاع بلاک 840,000 رخ می‌دهد، پاداش BTC برای Mining برابر با 3.125 BTC است.
+reviewed: true

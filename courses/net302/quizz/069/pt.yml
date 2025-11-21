@@ -1,0 +1,9 @@
+question: Qual é o tamanho típico do prefixo de rede utilizado num IPv6 Address numa rede local?
+answer: 64 bits
+wrong_answers:
+  - 32 bits
+  - 48 bits
+  - 8 bits
+explanation: |
+  Os primeiros 64 bits de um IPv6 Address são geralmente reservados para o prefixo da sub-rede.
+reviewed: false

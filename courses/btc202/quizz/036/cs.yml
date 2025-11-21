@@ -1,0 +1,9 @@
+question: Jaká je výhoda specializovaného notebooku oproti mini PC?
+answer: Jeho baterie funguje jako měnič
+wrong_answers:
+  - Je tišší
+  - Vydrží déle
+  - Spotřebuje méně energie
+explanation: |
+  Baterie notebooku funguje jako přirozená UPS, která zabraňuje náhlým výpadkům v případě výpadku proudu.
+reviewed: true

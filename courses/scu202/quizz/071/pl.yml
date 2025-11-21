@@ -1,0 +1,9 @@
+question: Dlaczego większość urządzeń z Androidem ma preinstalowane usługi Google Mobile Services?
+answer: Producenci muszą podpisać umowę licencyjną z Google
+wrong_answers:
+  - Usługi wymagane przez prawodawstwo europejskie
+  - Kod źródłowy GMS jest darmowy
+  - GMS jest obowiązkowy na wszystkich urządzeniach z systemem Linux
+explanation: |
+  Aby korzystać z flagowych aplikacji (Sklep Play, Mapy itp.), producenci muszą zintegrować GMS, co oznacza podpisanie ścisłych umów licencyjnych z Google.
+reviewed: false

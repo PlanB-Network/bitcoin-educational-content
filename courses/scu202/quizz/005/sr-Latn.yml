@@ -1,0 +1,9 @@
+question: Koji operativni sistem dominira današnjim tržištem PC računara?
+answer: Prozori
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows ima 71% tržišnog udela na ličnim računarima, zahvaljujući svojoj podrazumevanoj instalaciji i opsežnom softverskom ekosistemu.
+reviewed: false

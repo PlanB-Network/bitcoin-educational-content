@@ -1,0 +1,9 @@
+question: Efter incidenten med värdeöverskridandet, vilken mekanism lades till i programvaran av Satoshi för att begränsa effekterna av potentiella sårbarheter på systemet?
+answer: Varningssystemet
+wrong_answers:
+  - Transaktionernas standardkaraktär
+  - Gränsen för blockstorlek
+  - Op-koderna OP_NOP
+explanation: |
+  Detta effektiva varningssystem gjorde det möjligt för honom att använda en privat nyckel för att varna nätverksnoderna vid tekniska problem och avbryta vissa API-kommandon.
+reviewed: true

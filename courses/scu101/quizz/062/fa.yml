@@ -1,0 +1,9 @@
+question: برخی از جنبه‌های دانش شبکه که در امنیت سایبری مورد نیاز است کدامند؟
+answer: TCP/IP، VPN، فایروال
+wrong_answers:
+  - HTTP، FTP، SMTP
+  - POP3، IMAP، SSH
+  - DHCP، DNS، ARP
+explanation: |
+  فصل به TCP/IP، VPN، و فایروال به عنوان برخی از جنبه‌های دانش شبکه مورد نیاز در امنیت سایبری اشاره می‌کند.
+reviewed: true

@@ -1,0 +1,9 @@
+question: چه راه‌حل ذخیره‌سازی Cold برای کاربر پارانوئید توصیه می‌شود؟
+answer: ایر-گپ یا DIY Hardware Wallet
+wrong_answers:
+  - موبایل Hot Wallet
+  - خدمات نگهداری بر روی پلتفرم Exchange
+  - Hardware Wallet همه‌منظوره با منبع بسته
+explanation: |
+  کاربر پارانوئید ذخیره‌سازی آفلاین با راه‌حل‌های متن‌باز را ترجیح می‌دهد تا خطر افشا را به حداقل برساند.
+reviewed: false

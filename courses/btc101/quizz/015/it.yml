@@ -1,13 +1,13 @@
-question: Cos'è la Dichiarazione di Indipendenza del Cyberspazio?
-answer: Un testo che afferma che il cyberspazio è un regno distinto dalla sfera fisica e non dovrebbe essere soggetto alle stesse leggi.
+question: Perché l'oro è diventato il mezzo di scambio standard?
+answer: A causa della sua rarità, resistenza nel tempo e divisibilità.
 wrong_answers:
-  - Una dichiarazione che afferma l'indipendenza di Bitcoin dai sistemi finanziari tradizionali.
-  - Un testo che sostiene che il cyberspazio dovrebbe essere controllato dal governo.
-  - Una dichiarazione che garantisce l'indipendenza del movimento hacker da qualsiasi regolamentazione.
+  - A causa della sua abbondanza, resistenza nel tempo e indivisibilità.
+  - A causa della sua rarità, deperibilità e divisibilità.
+  - A causa della sua abbondanza, deperibilità e indivisibilità.
 explanation: |
-  La Dichiarazione di Indipendenza del Cyberspazio è stata
-  scritta da John Perry Barlow nel 1996. Questo documento afferma
-  che il cyberspazio è un regno distinto dalla sfera
-  fisica, dove i governi o le grandi aziende non possono imporre la loro
-  autorità.
+  L'oro è diventato il mezzo standard di scambio a causa della
+  sua rarità, resistenza nel tempo e divisibilità: la sua rarità ha impedito
+  la svalutazione causata dalla produzione; la resistenza
+  ha garantito che non si erodesse nel tempo, e la sua divisibilità
+  ha permesso l'uso in transazioni di diverse dimensioni.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Welk type versleuteling is shiftversleuteling?
+answer: Een monoalfabetisch substitutiecijfer
+wrong_answers:
+  - Een woordpermutatiecijfer
+  - Een polyalfabetisch substitutiecijfer
+  - Een asymmetrisch cijfer
+explanation: |
+  Verschuivingsvercijfering is een voorbeeld van een monoalfabetisch substitutiecijfer, waarbij elke letter in het bericht wordt verschoven met een vast aantal posities in het alfabet.
+reviewed: false

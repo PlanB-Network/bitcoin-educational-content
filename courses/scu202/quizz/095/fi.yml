@@ -1,0 +1,9 @@
+question: Mikä on paras tapa käyttää kotiverkkoa etänä?
+answer: Henkilökohtaisen VPN:n käyttäminen
+wrong_answers:
+  - Avaa julkinen SSH-portti
+  - Aktivoi reitittimen pilvi
+  - Käytä WPS:ää
+explanation: |
+  VPN luo salatun tunnelin, jonka kautta pääsee lähiverkkoon paljastamatta kriittistä porttia Internetiin.
+reviewed: false

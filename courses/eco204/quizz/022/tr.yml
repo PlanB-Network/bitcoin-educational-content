@@ -1,0 +1,10 @@
+question: Cagan'ın tanımına göre hiperenflasyonun temel özelliği nedir?
+answer: Son derece yüksek aylık enflasyon oranı
+wrong_answers:
+  - Son derece yüksek yıllık enflasyon oranı
+  - Son derece yüksek haftalık enflasyon oranı
+  - Son derece yüksek günlük enflasyon oranı
+explanation: |
+  Cagan'ın tanımına göre hiperenflasyon şu şekilde karakterize edilir
+  50'yi aşan aşırı yüksek aylık enflasyon oranı.
+reviewed: false

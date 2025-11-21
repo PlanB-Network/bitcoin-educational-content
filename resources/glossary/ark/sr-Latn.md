@@ -1,0 +1,5 @@
+---
+term: ARK
+---
+
+Novi protokol second-Layer predstavio je Burak u maju 2023. Kao i Lightning Network, Ark je sistem koji funkcioniše na vrhu glavnog Bitcoin Blockchain. Omogućio bi plaćanja u bitcoinima off-chain na brz, anoniman i jeftin način. U poređenju sa Lightning-om, Ark ne zahteva dolaznu likvidnost za primanje uplata, što značajno poboljšava korisničko iskustvo. Štaviše, nudi privatnost sličnu CoinJoin transakcijama, dok je Lightning relativno loš model za zaštitu privatnosti. Na kraju, Ark bi mogao biti i neinteraktivan ako se dodaju zaveti u Bitcoin. Burak često kritikuje skalabilnost Lightning-a zbog njegove zavisnosti od glavnog lanca i sugeriše da bi Ark teoretski mogao da primi celu svetsku populaciju u samostalnom čuvanju. Iako se Ark može smatrati konkurentskim protokolom za Lightning Network, dva bi zapravo mogla koegzistirati. Mogli bi čak biti i komplementarni. Međutim, važno je napomenuti da je, za sada, Ark samo koncept. Burak još nije otkrio kod za svoj izum.

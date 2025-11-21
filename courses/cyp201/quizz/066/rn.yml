@@ -1,0 +1,9 @@
+question: Ni igice ikihe c’isohoka rya HMAC-SHA512 gikoreshwa nk’umwana chain code?
+answer: Bytes 32 zanyuma
+wrong_answers:
+  - Bytes 32 zambere
+  - Bytes 64 zose
+  - SHA256 Hash y'amabayiti 32 yo hagati
+explanation: |
+  Bytes 32 za nyuma z'isohoka rya HMAC-SHA512 zikora nka chain code y'urufunguzo rw'umwana.
+reviewed: false

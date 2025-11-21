@@ -1,0 +1,9 @@
+question: 哪個發行版系列使用 RPM 套件管理程式？
+answer: 紅帽
+wrong_answers:
+  - Debian
+  - 拱門
+  - Slackware
+explanation: |
+  RPM 格式由 Red Hat 發起，是 Fedora、RHEL、CentOS、AlmaLinux、Rocky Linux 及其他相關發行版的基礎。
+reviewed: false

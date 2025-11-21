@@ -1,0 +1,9 @@
+question: Que aplicações de auto-hospedagem podem ser instaladas através da Umbrel?
+answer: Próxima nuvem
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  A Umbrel oferece uma App Store com serviços de auto-hospedagem, como o Nextcloud, para armazenar e sincronizar ficheiros.
+reviewed: true

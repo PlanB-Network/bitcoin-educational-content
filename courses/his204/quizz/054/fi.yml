@@ -1,0 +1,8 @@
+question: Kuka näistä kirjoittajista ei arvostellut fysiokraatteja?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet suhtautui melko myötämielisesti fysiokraattien ajatuksiin ja teki jopa yhteistyötä heidän kanssaan tietyissä hankkeissa.

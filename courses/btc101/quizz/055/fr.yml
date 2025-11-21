@@ -1,10 +1,12 @@
-question: Quel était le taux d'inflation en Allemagne en octobre 1923 ?
-answer: 29,50 %.
+question: Quel est le mécanisme qui garantit qu'un nouveau bloc est ajouté à la blockchain toutes les dix minutes ?
+answer: Ajustement de la difficulté.
 wrong_answers:
-  - 200,9 %.
-  - 50,51 %.
-  - 25,98 %.
+  - Ajustement de la vitesse.
+  - Ajustement du temps.
+  - Ajustement du bloc.
 explanation: |
-  Le mois ayant connu le taux d'inflation le plus élevé en Allemagne était
-  octobre 1923, atteignant un pic de 29,50 %.
+  Le mécanisme qui garantit qu'un nouveau bloc est ajouté à la
+  blockchain toutes les dix minutes est l'ajustement de la difficulté.
+  Cet ajustement a lieu tous les 2016 blocs, soit environ
+  toutes les deux semaines.
 reviewed: true

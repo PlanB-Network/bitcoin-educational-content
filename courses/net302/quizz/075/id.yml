@@ -1,0 +1,9 @@
+question: Jenis record DNS apa yang digunakan untuk menemukan nama yang terkait dengan IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) memungkinkan resolusi terbalik, yang berarti menghubungkan IPv6 Address ke nama domain.
+reviewed: false

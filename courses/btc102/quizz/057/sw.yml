@@ -1,0 +1,9 @@
+question: Ni njia gani ya kupata pesa inayoepukwa na mtumiaji mwenye hofu?
+answer: Majukwaa ya kati na KYC
+wrong_answers:
+  - P2P majukwaa ya kulinganisha
+  - ATM za Bitcoin
+  - Ununuzi wa pesa taslimu moja kwa moja kwenye mikutano
+explanation: |
+  Ili kuhifadhi kutokujulikana, mtumiaji mwenye dhana potofu huepuka mifumo inayohitaji uthibitishaji wa utambulisho.
+reviewed: false

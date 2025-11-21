@@ -1,0 +1,9 @@
+question: Vad innebär begreppet diffusion i samband med AES-kryptering?
+answer: En förändring i klartexten resulterar i en betydande förändring i chiffertexten
+wrong_answers:
+  - Chiffertexten är alltid lika lång
+  - Nyckelbytesen fördelas jämnt
+  - Känslig information krypteras i varje block av chiffertext
+explanation: |
+  Diffusion innebär att en liten förändring i klartexten resulterar i en betydande förändring i chiffertexten, vilket gör det svårt för en angripare att härleda klartexten.
+reviewed: false

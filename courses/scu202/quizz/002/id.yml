@@ -1,0 +1,9 @@
+question: Apa keuntungan utama dari VPN?
+answer: Mengenkripsi lalu lintas Internet
+wrong_answers:
+  - Mempercepat koneksi Internet Anda
+  - Meningkatkan kapasitas penyimpanan
+  - Antivirus terintegrasi
+explanation: |
+  VPN menciptakan terowongan aman dan mengenkripsi pertukaran antara perangkat Anda dan server perantara, sehingga memperkuat kerahasiaan.
+reviewed: false

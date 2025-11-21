@@ -1,0 +1,9 @@
+question: Quem inventou a World Wide Web e desenvolveu o primeiro navegador Web?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee é o inventor da World Wide Web e desenvolveu o primeiro programa de navegação, o WorldWideWeb (atualmente Nexus), em 1990.
+reviewed: false

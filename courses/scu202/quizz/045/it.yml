@@ -1,0 +1,9 @@
+question: Quale strumento di macOS consente la crittografia completa del disco di sistema?
+answer: FileVault
+wrong_answers:
+  - Utility Disco
+  - portachiavi iCloud
+  - BitLocker
+explanation: |
+  FileVault è la soluzione nativa di crittografia del disco integrata in macOS.
+reviewed: false

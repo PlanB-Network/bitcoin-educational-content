@@ -1,0 +1,9 @@
+question: Minkä NAT-tilan avulla tusinat laitteet voivat jakaa yhden julkisen IP Address:n portteja muuttamalla?
+answer: PAT
+wrong_answers:
+  - Staattinen NAT
+  - Dynaaminen NAT
+  - Staattinen reititys
+explanation: |
+  PAT, joka tunnetaan myös nimellä NAT-ylikuormitus tai IP-maskeeraus, muuttaa porttinumeroita istuntojen erottamiseksi toisistaan, jolloin monet laitteet voivat käyttää samaa julkista Address:tä.
+reviewed: false

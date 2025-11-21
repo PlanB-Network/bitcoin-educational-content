@@ -1,5 +1,5 @@
 ---
-name: Воробей Wallet
+name: Sparrow Wallet
 description: Установка, настройка и использование Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -26,7 +26,8 @@ Sparrow поддерживает кошельки с одной и нескол�
 
 Важно проверить целостность и подлинность программного обеспечения перед его установкой. Если вы не знаете, как это сделать, полное руководство вы найдете здесь:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 После установки Sparrow вы можете пропустить первые поясняющие экраны и сразу перейти к экрану управления соединениями.
 
 ![Image](assets/fr/02.webp)
@@ -68,8 +69,10 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 Чтобы настроить узел Bitcoin Core, вы можете обратиться к одному из следующих руководств, в зависимости от вашей операционной системы:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 На сайте Sparrow перейдите на вкладку "*Bitcoin Core*".
 
 ![Image](assets/fr/07.webp)
@@ -217,14 +220,16 @@ rpcpassword=my_password
 
 Для получения дополнительной информации о том, как правильно сохранять и управлять фразами Mnemonic, я настоятельно рекомендую ознакомиться с другим руководством, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Очевидно, что вы никогда не должны делиться этими словами в Интернете, как это делаю я в этом руководстве. Этот пример Wallet будет использоваться только на Testnet и будет удален в конце учебника**
 
 Вы также можете добавить passphrase BIP39, нажав на поле "*Использовать passphrase*". Предупреждение: использование passphrase может быть очень полезным, но если вы не понимаете, как он работает, это может быть очень рискованно. Поэтому я настоятельно советую вам прочитать эту небольшую теоретическую статью на эту тему:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Сохранив Mnemonic и все passphrase на физическом носителе, нажмите "*Подтвердить резервное копирование*".
 
 ![Image](assets/fr/27.webp)
@@ -259,7 +264,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 Sparrow поддерживает все эти способы связи и совместим с большинством аппаратных кошельков, представленных на рынке.
 
-В этом руководстве я использую Ledger Nano S с кабелем, но процедура аналогична работе в режиме Air-Gap. Подробности, касающиеся вашего Hardware Wallet, вы найдете в специальном руководстве по Plan ₿ Network.
+В этом руководстве я использую Ledger Nano S с кабелем, но процедура аналогична работе в режиме Air-Gap. Подробности, касающиеся вашего Hardware Wallet, вы найдете в специальном руководстве по Plan ₿ Academy.
 
 Перед началом работы убедитесь, что Wallet уже настроен на вашем Hardware Wallet. Если вы используете проводное соединение, подключите его к компьютеру с помощью кабеля.
 
@@ -321,7 +326,7 @@ Sparrow отобразит первый неиспользованный Address
 
 ![Image](assets/fr/44.webp)
 
-Для пользователей Hardware Wallet Air-Gap проверка Address зависит от модели устройства. Точные инструкции см. в специальном руководстве по Plan ₿ Network.
+Для пользователей Hardware Wallet Air-Gap проверка Address зависит от модели устройства. Точные инструкции см. в специальном руководстве по Plan ₿ Academy.
 
 Как только транзакция будет передана плательщиком, вы увидите, что она появилась на вкладке "*Транзакции*". Вы можете нажать на нее, чтобы получить более подробную информацию, например txid.
 
@@ -375,7 +380,8 @@ Sparrow отображает сводную диаграмму, показыва
 
 Важно сохранить Sighash по умолчанию. Чтобы понять, почему, посмотрите этот учебный курс, в котором я объясняю все, что вам нужно знать о Sighash:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 На следующем экране параметры зависят от типа используемого Wallet:
 
 
@@ -454,4 +460,4 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Я также рекомендую этот учебник, в котором я объясняю, как настроить Hardware Wallet COLDCARD Q с Sparrow Wallet:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

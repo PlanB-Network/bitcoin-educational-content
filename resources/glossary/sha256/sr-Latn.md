@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Akronim za "*Secure Hash Algorithm 256 bits*". To je kriptografska Hash funkcija koja proizvodi 256-bitni sažetak. Dizajnirana od strane *National Security Agency* (NSA) početkom 2000-ih, postala je savezni standard za obradu osetljivih podataka. U Bitcoin protokolu, `SHA256` funkcija je sveprisutna. Koristi se za Hash zaglavlja blokova kao deo Proof of Work. `SHA256` se takođe koristi u procesu dobijanja primajućeg Address iz javnog ključa. Dodatno se koristi za agregaciju transakcija i svedoka unutar Merkle stabala u blokovima. `SHA256` se takođe nalazi u izračunavanju otisaka ključeva, izračunavanju određenih kontrolnih zbirova, i u mnogim drugim procesima oko Bitcoin. Kada se primeni dvaput uzastopno, naziva se `HASH256`. Ova dvostruka primena je ona koja se pretežno koristi na Bitcoin. Kada se `SHA256` koristi u kombinaciji sa `RIPEMD160` funkcijom, naziva se `HASH160`. Ovo dvostruko heširanje se koristi za otiske ključeva i za heširanje javnih ključeva. `SHA256` funkcija je deo SHA 2 porodice.

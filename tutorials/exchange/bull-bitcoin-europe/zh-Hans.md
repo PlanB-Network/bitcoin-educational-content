@@ -1,14 +1,14 @@
 ---
-name: 欧洲比特币牛市
+name: Bull Bitcoin
 description: 在 Bull Bitcoin 上买卖比特币
 ---
 ![cover](assets/cover.webp)
 
 公牛比特币（Bull Bitcoin）是一个纯比特币兑换平台，由比特币生态系统的标志性人物弗朗西斯-普利奥特（Francis Pouliot）于 2013 年在加拿大创立。Bull Bitcoin 的理念是为用户提供金融主权和解放的工具。该交换平台是非托管式的，这意味着您始终对您的比特币拥有主权。
 
-该平台最初只在加拿大推出，现在已在欧洲推出，并采用了全新的优化界面。新版 Bull Bitcoin 目前仅在欧洲提供。由于使用了闪电和即时 SEPA 转账，您可以快速方便地买卖比特币。最终，该平台还将包括 DCA、自动购买、限价订单和比特币账单支付等选项。
+最初仅在加拿大提供的平台，现在在欧洲和许多其他国家推出，采用全新优化的界面。新版 Bull Bitcoin 让您可以通过 Lightning 和即时 SEPA 转账，简单快速地购买和出售比特币。它还集成了使用比特币支付账单的功能。未来，平台将进一步集成 DCA 选项、自动购买和限价单。
 
-Bull Bitcoin 始终坚持提供透明的服务，不收取任何隐藏费用。与欧洲所有其他交易所平台一样，使用 Bull Bitcoin 需要 KYC（客户身份识别程序）。
+Bull Bitcoin 致力于提供透明无隐藏费用的服务。请注意，与大多数交易所一样，使用 Bull Bitcoin 需要完成 KYC（了解您的客户）流程。
 
 ## 在 Bull Bitcoin 上注册
 
@@ -48,7 +48,7 @@ Bull Bitcoin 始终坚持提供透明的服务，不收取任何隐藏费用。�
 
 如果你不熟悉如何使用身份验证应用程序进行 2FA，我建议你看看 Authy 应用程序的教程：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 输入密码确认。
 
@@ -125,9 +125,9 @@ Bull Bitcoin 是一个受监管的平台，要使用 Bull Bitcoin 的全部功�
 
 如果您不熟悉比特币、闪电钱包或液体钱包的使用，我建议您参加我们的专门培训课程：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-您还可以浏览 [我们关于最佳比特币钱包的详细教程](https://planb.network/tutorials/wallet)。
+您还可以浏览 [我们关于最佳比特币钱包的详细教程](https://planb.academy/tutorials/wallet)。
 
 然后点击 "*确认购买*"确认购买。
 
@@ -196,8 +196,16 @@ LNURL 方法最简单。大多数 Lightning 软件包（如 Phoenix）都有这�
 
 ![BULL](assets/fr/36.webp)
 
+## 启动自动定期购买 (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## 创建限价订单
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 现在你知道如何使用 Bull Bitcoin 轻松买卖比特币了吧。如果您觉得本教程有用，请在下方写下您的绿色拇指，我将不胜感激。欢迎在您的社交网络上分享这篇文章。非常感谢
 
 我还建议你看看另一篇全面的教程，了解如何以正确的方式管理你的记忆短语：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

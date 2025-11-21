@@ -1,0 +1,9 @@
+question: Perché è consigliabile rimuovere i software inutilizzati o obsoleti dal computer?
+answer: Per ridurre la superficie di attacco
+wrong_answers:
+  - Per velocizzare la connessione a Internet
+  - Migliorare i vettori di protezione
+  - Per aumentare la durata della batteria
+explanation: |
+  Meno software è installato, meno vulnerabilità potenziali possono essere sfruttate dagli aggressori.
+reviewed: false

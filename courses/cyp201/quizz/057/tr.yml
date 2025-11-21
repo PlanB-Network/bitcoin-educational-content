@@ -1,0 +1,9 @@
+question: PBKDF2 tarafından oluşturulan seed'ın boyutu nedir?
+answer: 512 bit
+wrong_answers:
+  - 128 bit
+  - 256 bit
+  - Mnemonic cümlesinin uzunluğuna bağlı olarak değişebilir
+explanation: |
+  Mnemonic ifadesinin uzunluğu ne olursa olsun, PBKDF2 her zaman 512 bitlik bir seed üretir.
+reviewed: false

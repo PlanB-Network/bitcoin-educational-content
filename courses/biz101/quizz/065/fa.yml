@@ -1,0 +1,9 @@
+question: راه‌حل اصلی پرداخت توصیه‌شده برای کسب‌وکارهای پروفایل Essential چیست؟
+answer: سوئیس Bitcoin پرداخت
+wrong_answers:
+  - گره باز
+  - سرور BTCPay
+  - بیت‌کوینایز PoS
+explanation: |
+  ما Swiss Bitcoin Pay را به عنوان راه‌حل پیشنهادی برای یک پروفایل Essential برجسته می‌کنیم که سادگی و امنیت را متعادل می‌کند.
+reviewed: false

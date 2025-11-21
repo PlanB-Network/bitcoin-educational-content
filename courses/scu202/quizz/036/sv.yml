@@ -1,0 +1,9 @@
+question: Varför är det lämpligt att ta bort oanvänd eller föråldrad programvara från din dator?
+answer: För att minska attackytan
+wrong_answers:
+  - För att snabba upp din Internetanslutning
+  - För att förbättra skyddsvektorer
+  - För att öka batteriets livslängd
+explanation: |
+  Ju mindre programvara som installeras, desto färre potentiella sårbarheter som kan utnyttjas av angripare.
+reviewed: false

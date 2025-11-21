@@ -1,0 +1,9 @@
+question: 哪種作業系統主導今日的 PC 市場？
+answer: 視窗
+wrong_answers:
+  - MacOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows 在個人電腦上擁有 71% 的市場佔有率，這要歸功於它的預設安裝和廣泛的軟體生態系統。
+reviewed: false

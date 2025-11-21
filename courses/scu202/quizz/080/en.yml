@@ -1,0 +1,9 @@
+question: What are the most important criteria to check before choosing a messaging application?
+answer: End-to-end encryption and open source code
+wrong_answers:
+  - Strong authentication and open source code
+  - End-to-end encryption and decentralized servers
+  - Strong authentication and decentralized servers
+explanation: |
+  End-to-end encryption ensures the confidentiality of exchanges, and open source makes it possible to verify the correct implementation of this security.
+reviewed: false

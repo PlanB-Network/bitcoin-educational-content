@@ -1,0 +1,9 @@
+question: 使用 USB 闪存盘时应避免做什么？
+answer: 连接未知 USB 盘
+wrong_answers:
+  - 使用 NTFS 格式的 U 盘
+  - 为自己的 U 盘加密
+  - 使用新的 USB 闪存盘
+explanation: |
+  插入不明 USB 盘可能会让电脑感染恶意软件或窃取敏感数据。
+reviewed: false

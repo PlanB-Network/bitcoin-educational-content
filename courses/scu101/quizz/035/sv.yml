@@ -1,0 +1,9 @@
+question: Vad är syftet med phishing-försök?
+answer: För att få fram känslig information som dina inloggningsuppgifter och lösenord.
+wrong_answers:
+  - För att skicka skräppost till dig.
+  - För att sälja produkter eller tjänster till dig.
+  - För att bjuda in dig till evenemang eller webbseminarier.
+explanation: |
+  Nätfiskeförsök syftar till att få ut känslig information som dina inloggningsuppgifter och lösenord. Hackare använder olika taktiker, till exempel bedrägliga e-postmeddelanden, för att lura dig att avslöja din information.
+reviewed: true

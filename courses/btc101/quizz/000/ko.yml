@@ -1,0 +1,8 @@
+question: block size war은 언제 발생했나요?
+answer: 2017년에
+wrong_answers:
+  - 2008년에
+  - 2010년에
+  - 2019년에
+explanation: >-
+reviewed: true

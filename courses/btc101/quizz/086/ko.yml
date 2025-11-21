@@ -1,0 +1,14 @@
+question: Wallet을 passphrase과 함께 사용할 때 백업해야 하는 항목은 무엇인가요?
+answer: 12개 또는 24개 단어 목록과 passphrase를 모두 백업해야 합니다.
+wrong_answers:
+  - 12개 또는 24개의 단어 목록만 백업하면 됩니다.
+  - passphrase만 백업하면 됩니다.
+  - 12개 또는 24개의 단어 목록이나 passphrase를 백업할 필요가 없습니다.
+explanation: |
+  Wallet를 passphrase와 함께 사용하는 경우, 12단어 또는 5단어 목록과 함께
+  12개 또는 24개 단어 목록과 passphrase를 모두 백업해야 합니다,
+  왜냐하면 단어 목록과 passphrase는 둘 다
+  다음과 같은 경우 자금에 다시 액세스하는 데 필요하기 때문입니다
+  휴대폰 또는 컴퓨터 분실. 둘 중 하나라도 없으면
+  자금에 액세스할 수 없습니다.
+reviewed: true

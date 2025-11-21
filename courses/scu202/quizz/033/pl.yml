@@ -1,0 +1,9 @@
+question: Jaki mechanizm musi być włączony w UEFI, aby zapobiec wykonywaniu niepodpisanego kodu podczas uruchamiania systemu?
+answer: Bezpieczny rozruch
+wrong_answers:
+  - Szybki rozruch
+  - Szybkie uruchamianie
+  - Moduł zaufanej platformy (TPM)
+explanation: |
+  Secure Boot zapewnia, że tylko uwierzytelnione oprogramowanie może uruchomić system, ograniczając w ten sposób ryzyko infekcji bootkitem/rootkitem.
+reviewed: false

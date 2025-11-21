@@ -1,0 +1,9 @@
+question: ¿El lema de quién es "piensa por ti mismo"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  pensar por uno mismo" (sapere aude) es el lema de Immanuel Kant y la consigna de la Ilustración. Se trata de tener el valor de utilizar el propio entendimiento sin la tutela de otros.
+reviewed: false

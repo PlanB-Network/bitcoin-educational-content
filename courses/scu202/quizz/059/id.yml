@@ -1,0 +1,9 @@
+question: Siapa yang menemukan World Wide Web dan mengembangkan browser web pertama?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee adalah penemu World Wide Web dan mengembangkan peramban pertama, WorldWideWeb (sekarang Nexus), pada tahun 1990.
+reviewed: false

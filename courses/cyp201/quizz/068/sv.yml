@@ -1,0 +1,9 @@
+question: Vad är begränsningen för att härleda en underordnad publik nyckel från en överordnad publik nyckel?
+answer: Den underordnade nyckeln måste vara normal
+wrong_answers:
+  - Barnnyckeln måste vara härdad
+  - chain code måste vara identisk med den överordnade nyckeln
+  - Processen måste innehålla den överordnade privata nyckeln
+explanation: |
+  En underordnad publik nyckel kan endast härledas från en överordnad publik nyckel om den är normal, inte härdad.
+reviewed: false

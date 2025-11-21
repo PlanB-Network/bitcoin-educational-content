@@ -1,8 +1,9 @@
-question: Apa sifat adopsi Bitcoin menurut teks?
-answer: Viral
+question: Kapan Lightning Network divalidasi dan diimplementasikan?
+answer: 2017
 wrong_answers:
-  - Lambat dan stabil
-  - Cepat dan tak terkendali
-  - Sporadis dan tak terduga
+  - 2015
+  - 2016
+  - 2018
 explanation: >-
-  Teks tersebut menggambarkan adopsi Bitcoin sebagai viral, mengindikasikan bahwa penyebarannya cepat dan luas dari satu orang ke orang lain, mirip seperti virus.
+  Lightning Network divalidasi dan diimplementasikan pada tahun 2017.
+reviewed: false

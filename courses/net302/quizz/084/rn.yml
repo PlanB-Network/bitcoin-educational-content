@@ -1,0 +1,9 @@
+question: Ni irihe tegeko ry’amateka rishobora gukoreshwa mu kurondera ububiko bwa ARP kuri sisitemu nyinshi?
+answer: arp
+wrong_answers:
+  - kwimba
+  - gushaka
+  - ping
+explanation: |
+  Itegeko rya arp rigufasha kubona canke guhindura ububiko bwa ARP, bubika amakarata ya IP/MAC mu karere.
+reviewed: false

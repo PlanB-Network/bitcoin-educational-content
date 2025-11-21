@@ -1,0 +1,9 @@
+question: Tot hoeveel decimalen na de komma kan een Bitcoin gedeeld worden?
+answer: Acht
+wrong_answers:
+  - Zes
+  - Twaalf
+  - Zeven
+explanation: |
+  Een Bitcoin kan tot op de achtste decimaal worden gedeeld, waarbij één eenheid een Satoshi of sat wordt genoemd.
+reviewed: false

@@ -1,0 +1,18 @@
+question: Wat is de relatie tussen tijdvoorkeur en rentetarieven in een economie met niet-gemanipuleerde kapitaalmarkten?
+answer: Een stijging van de rentetarieven is het gevolg van een relatieve stijging van de vraag naar kapitaal ten opzichte van de Supply, wat duidt op hogere tijdsvoorkeuren. Omgekeerd is een daling van de rentetarieven het gevolg van een stijging van de besparingen, wat een stijging is van de Supply van kapitaal, wat wijst op een daling van de tijdsvoorkeuren.
+wrong_answers:
+  - Een stijging van de rente wijst op een daling van de tijdsvoorkeuren, terwijl een daling van de rente wijst op een stijging van de tijdsvoorkeuren.
+  - Tijdsvoorkeur en rentetarieven zijn omgekeerd evenredig.
+  - Tijdsvoorkeur en rentetarieven hebben geen directe relatie.
+explanation: |
+  In een economie met niet-gemanipuleerde kapitaalmarkten worden de referentie
+  rentetarieven bepaald op het snijpunt van
+  kapitaal Supply en de vraag. Daarom vertegenwoordigen deze tarieven
+  de staat van tijdsvoorkeuren voor de gehele economie. Een
+  stijging van de rente resulteert uit een relatieve
+  toename van de vraag naar kapitaal ten opzichte van Supply,
+  wat duidt op hogere tijdsvoorkeuren. Omgekeerd komt een daling
+  in rentevoeten door een toename in besparingen,
+  wat een toename is van de Supply van kapitaal, wat duidt op een
+  lagere tijdsvoorkeuren.
+reviewed: true

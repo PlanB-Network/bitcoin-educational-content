@@ -1,0 +1,9 @@
+question: Welche Schreibweise wird verwendet, um einen IPv6 Address in eine URL einzufügen?
+answer: IPv6 Address ist in eckigen Klammern eingeschlossen
+wrong_answers:
+  - IPv6 Address ist in Klammern gesetzt
+  - Der IPv6 Address wird in Anführungszeichen gesetzt
+  - Der IPv6 Address wird roh geschrieben
+explanation: |
+  Eckige Klammern werden verwendet, um den IPv6 Address vom Port in einer URL zu unterscheiden, um jegliche Mehrdeutigkeit zu vermeiden.
+reviewed: false

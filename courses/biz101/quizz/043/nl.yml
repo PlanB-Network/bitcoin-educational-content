@@ -1,0 +1,9 @@
+question: Wat kun je met Bitcoin doen zonder tussenpersonen?
+answer: Exchange waarde op het internet
+wrong_answers:
+  - Gecentraliseerde applicaties maken
+  - Bankleningen verkrijgen
+  - Persoonlijke gegevens opslaan
+explanation: |
+  Bitcoin maakt Exchange van waarde op het internet mogelijk zonder tussenpersonen via het peer-to-peer protocol.  
+reviewed: false

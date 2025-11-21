@@ -1,0 +1,9 @@
+question: Frédéric Bastiat'nın sosyalist demokrasiye yönelik eleştirisi nedir?
+answer: Bastiat sosyalist demokrasiyi artan vergilere, devlet borçlanmasına ve yağmaya yol açtığı için eleştirir.
+wrong_answers:
+  - Bastiat sosyalist demokrasiyi özgürlük ve eşitlik ilkelerine saygı göstermediği için eleştirir.
+  - Bastiat sosyalist demokrasiyi durgunluğa yol açtığı için eleştirir.
+  - Bastiat sosyalist demokrasiyi geleneksel aile ve din değerlerini tehdit ettiği için eleştirir.
+explanation: |
+  Frédéric Bastiat, sosyalist demokrasinin, bireysel mülkiyetin yasal olarak yağmalanması olarak gördüğü vergilendirme ve borçlanma yoluyla zenginliği yeniden dağıtmak için devleti kullanma eğiliminde olduğunu düşünmektedir.
+reviewed: true

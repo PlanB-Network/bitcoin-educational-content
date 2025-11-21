@@ -1,0 +1,9 @@
+question: Welk type sleutel wordt gebruikt om UTXO's op Bitcoin te vergrendelen?
+answer: Openbare sleutel
+wrong_answers:
+  - Privé sleutel
+  - seed Hash
+  - Mnemonic zin
+explanation: |
+  UTXO's worden vergrendeld met een publieke sleutel of Hash en ontgrendeld met de corresponderende private sleutel.
+reviewed: false

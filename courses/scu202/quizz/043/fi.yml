@@ -1,0 +1,9 @@
+question: Mitä hyötyä on Hash-tiedoston tai ohjelmistoluettelon PGP-allekirjoituksen tarkistamisesta?
+answer: Se takaa, että tiedosto on peräisin virallisesta lähteestä
+wrong_answers:
+  - Takaa virheettömän ohjelmiston asennuksen
+  - Se takaa automaattiset ohjelmapäivitykset
+  - Se takaa, että tiedosto on täydellinen eikä sitä ole muutettu
+explanation: |
+  PGP-allekirjoitus, joka on vahvistettu kehittäjän julkisella avaimella, varmistaa, että todennettu tiedosto on peräisin alkuperäisestä lähteestä.
+reviewed: false

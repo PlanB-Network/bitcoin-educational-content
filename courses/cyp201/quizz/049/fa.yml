@@ -1,0 +1,9 @@
+question: هدف از عبارت Mnemonic در یک Bitcoin HD Wallet چیست؟
+answer: برای استخراج قطعی همه کلیدها
+wrong_answers:
+  - برای امضای مستقیم تراکنش‌ها
+  - برای رمزگذاری آدرس‌های Bitcoin
+  - به generate یک Hash برای UTXOs
+explanation: |
+  عبارت Mnemonic امکان استخراج تمام کلیدهای خصوصی و عمومی در یک Wallet را فراهم می‌کند و بدین ترتیب پشتیبان‌گیری و بازیابی را تسهیل می‌کند.
+reviewed: false

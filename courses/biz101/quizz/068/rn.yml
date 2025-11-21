@@ -1,0 +1,9 @@
+question: Ni gute BTC Pay Server ishobora gukoreshwa mu bidukikije vy’Umwuga?
+answer: Mu nzu canke biciye ku kwakira igicu
+wrong_answers:
+  - Gusa ku bikoresho vy'ubuhinga
+  - Biciye mu bikorwa vy’uwundi muntu
+  - Nk'ikoreshwa kuri telefone ngendanwa
+explanation: |
+  Uguhinduranya gukoresha BTC Pay Server mu nzu canke mu gicu bituma ubucuruzi buhitamwo uburyo bujanye n’ivyo bukeneye.
+reviewed: false

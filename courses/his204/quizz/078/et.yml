@@ -1,0 +1,8 @@
+question: Milline on Turgot' väide teoses Valeurs et monnaie?
+answer: Asjade väärtus sõltub inimeste subjektiivsest hinnangust
+wrong_answers:
+  - Asjade väärtus sõltub nende olemuslikest omadustest
+  - Me saame asjade väärtust mõõta ainult rahaga
+  - Väärtus määratakse tööga
+explanation: |
+  Turgot kaitseb subjektiivset väärtusteooriat, mille kohaselt sõltub kauba väärtus sellest, millist kasu see üksikisikule pakub, ja tema isiklikust hinnangust.

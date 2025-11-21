@@ -1,9 +1,12 @@
-question: Qual è il ruolo dei miner nel protocollo Bitcoin?
-answer: Garantiscono la sicurezza della rete attuale e storica.
+question: Come fa il protocollo Bitcoin a premiare il miner che trova un hash valido per il blocco successivo?
+answer: Con un premio definito dalle regole di consenso, e con le commissioni di tutte le transazioni incluse nel blocco valido.
 wrong_answers:
-  - Regolano il prezzo di Bitcoin.
-  - Controllano l'offerta di Bitcoin.
-  - Gestiscono le transazioni tra utenti.
+  - Con un importo fisso di bitcoin non definito dalle regole di consenso.
+  - Con una percentuale del totale dell'offerta di Bitcoin e le commissioni di tutte le transazioni incluse nei blocchi precedenti.
+  - Con le commissioni di tutte le transazioni incluse nel blocco valido.
 explanation: |
-  Nel protocollo Bitcoin, i miner garantiscono la sicurezza sia della rete attuale che di quella storica. Non regolano il prezzo di Bitcoin, non controllano la sua offerta, né gestiscono le transazioni tra utenti.
+  Il protocollo Bitcoin premia il miner che trova un hash valido
+  per il blocco successivo con una ricompensa, il cui importo è
+  definito dalle regole di consenso, insieme alle commissioni di
+  tutte le transazioni incluse nel blocco valido.
 reviewed: true

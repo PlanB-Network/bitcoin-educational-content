@@ -76,7 +76,7 @@ objectives:
 
 為了簡化 Mining 的概念，我們可以使用一個相關的類比：拼圖。就像拼圖一樣，Mining 是一項複雜的任務，但一旦完成就很容易驗證。在 Bitcoin Mining 的情況下，礦工會努力快速解決數位謎題。第一個解出謎題的 Miner 會將他們的解決方案呈現在整個網路中，而整個網路可以輕鬆驗證其有效性。成功驗證後，Miner 就可以驗證新區塊，並將其加入 Bitcoin 時間鏈。為了表彰他們的工作，Miner 會獲得一定數量的比特幣作為獎勵。此獎勵可作為一種財務獎勵，鼓勵礦工繼續其驗證交易和保護 Bitcoin 網路的工作。
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 最初在 Bitcoin 網路中，獎勵是每十分鐘 50 比特幣，與礦工平均每十分鐘發現一個區塊平行。此獎勵每 210,000 個區塊（約每四年）進行一次 Halving。儘管 Mining 過程需要耗費能源，但這筆報酬仍是鼓勵礦工參與 Mining 過程的強大誘因。如果沒有報酬，耗電量高的 Mining 就會被放棄，影響整個 Bitcoin 網路的安全性和穩定性。
 
@@ -88,19 +88,19 @@ Mining 過程包括找到 Bitcoin 網路可以接受的有效 Hash。一旦計�
 
 一開始，CPU 佔據主導地位，礦工使用個人電腦進行 Bitcoin Mining。GPU（顯示卡）在這項任務中的優勢被發現，標誌著一個轉捩點，大幅提高了 Hashrate 並降低了能耗。隨著 FPGA（現場可編程閘門陣列）的推出，進展並未就此停止。FPGA 成為 ASIC（特定應用程式積體電路）的開發平台。
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 ASIC 是一種晶片，可與 CPU 晶片相媲美，但其開發目的是以最有效的方式僅執行一種特定類型的計算。換句話說，CPU 能夠執行多種不同類型的計算，但不會針對某種類型的計算進行特別優化，而 ASIC 只能執行一種類型的計算，但效率非常高。就 Bitcoin ASIC 而言，它們是專為計算 SHA256 演算法而設計的。
 
 如今，礦工們只使用專門用於此操作的 ASIC，這些 ASIC 經過優化，能夠以最小的能耗和最快的速度測試最大數量的組合。這些電腦無法執行 Bitcoin Mining 以外的任務，是 Bitcoin Mining 產業持續演進和日益專業化的具體證明。這種持續演進反映了 Bitcoin 的內在動態，儘管 Mining 的產能呈指數級成長，但難度調整仍能確保每十分鐘生產一個區塊。
 
-為了說明這個過程的強度，考慮一個典型的 Miner 能夠達到每秒 14 TeraHash，或每秒 14 兆次嘗試找到正確的 Hash。在 Bitcoin 網路的規模下，我們現在每秒可達到約 300 HexaHash，突顯出 Bitcoin Mining 所動員的集體力量。
+為了說明這個過程的強度，考慮一個典型的 Miner 能夠達到每秒 14 TeraHash，或每秒 14 兆次嘗試找到正確的 Hash。在 Bitcoin 網路的規模下，我們現在每秒可達到約 300 ExaHash，突顯出 Bitcoin Mining 所動員的集體力量。
 
 ### 難度調整
 
 難易度調整是 Bitcoin 網路運作中的重要機制，可確保平均每 10 分鐘挖出一個區塊。這個時間長度之所以是平均值，是因為 Mining 的過程實際上是一個概率遊戲，類似於擲骰子，希望得到一個比難易度所定義的數字更低的數字。每 2016 個區塊，網路會根據之前區塊的平均挖礦時間調整 Mining 難度。如果平均時間大於 10 分鐘，則會降低難度；反之，如果平均時間較低，則會增加難度。這種調整機制可確保新區塊的 Mining 時間長期保持不變，無論礦工數量或網路的整體運算能力如何。這就是 Bitcoin Blockchain 也稱為時間鏈的原因。
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 - 來自中國的範例：
@@ -113,7 +113,7 @@ ASIC 是一種晶片，可與 CPU 晶片相媲美，但其開發目的是以最�
 
 面對 Mining 領域技術的不斷進步，專業人士必須對自己進行戰略定位。Mining 產業必須不斷創新，最近發表的 S19 J 版本以及預期發表的 S19 XP 就是證明，S19 XP 可提供大幅提升的 Mining 功能。此外，改進不僅與機器的原始性能有關。例如，全新的 S19 XP 機型採用 Liquid 冷卻系統，這項技術改良可大幅提升能源效率。雖然創新仍是永恆不變的定律，但由於達到一定的技術創新門檻，未來的效率提升與目前觀察到的相比可能會較小。
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 總而言之，Bitcoin Mining 產業仍在不斷適應與發展，產業業者必須預見未來的效率提升將會逐漸減少，並相應調整策略。未來的技術進步儘管仍然存在，但規模可能較小，反映出該產業日漸成熟。
 
@@ -125,7 +125,7 @@ ASIC 是一種晶片，可與 CPU 晶片相媲美，但其開發目的是以最�
 
 目前，Bitcoin Mining 已經演變成一個嚴肅且可觀的產業，許多玩家現在都已公開知名，而且重要的礦工也越來越多。由於獲取新 Mining 機器的相關成本很高，這種演變使得 Mining 對於小玩家而言幾乎是無利可圖。這就產生了 Hashrate 在各個市場玩家之間的分配問題。情況很複雜，因為既要研究 Hashrate 在不同公司之間的分佈情況，又要研究 Mining 在不同 Mining 礦池之間的分佈情況。
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 Mining pool 是一群結合運算資源以增加 Mining 機會的礦工。這種合作是必要的，因為一台孤立的小型 Mining 機器要與業界巨頭競爭，使其成功機會降低到可忽略不计的程度。Mining 以抽獎原理運作，對於個別的小型 Miner 而言，每十分鐘贏得一個區塊（也就是 Bitcoin 獎勵）的機會極低。透過集合在一起，礦工可以結合他們的計算能力，更頻繁的找到區塊，然後根據每個 Miner 對池的貢獻按比例分配獎勵。
 
@@ -157,7 +157,7 @@ Mining 集中化被視為一項重大挑戰。大型廠商 (例如 Foundry) 壟�
 
 法規風險 強調的是，如果像美國這樣的國家決定管制或禁止某些 Bitcoin 交易，可能會對網路造成重大影響，尤其是當大部分的散列權力都集中在該國的時候。
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 為了對抗這種集中化，我們討論了不同的策略：
 
@@ -185,7 +185,7 @@ Attakai 計畫源自於兩位渴望積極參與 Bitcoin 網路的朋友所進行
 
 在向 Bitcoin 社群介紹了他們的專案並發現大家都很感興趣之後，Attakai 的發明者決定在 Découvre Bitcoin 平台上發佈詳細的指南，讓任何人都能複製他們的家庭-Mining 體驗。他們現在打算將這個概念延伸到家庭以外的環境。目標是展示如何將經過改裝的 Miner 轉變為可在冬季使用的安靜輔助加熱器，順利過渡到訓練的第二部分，專注於這些改裝的實際執行，並透過說明影片加以說明。然而，問題仍在於這項計畫是否能擴大規模，為目前的集中式 Mining 結構提供實際且永續的替代方案。
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 ### 這種權力下放的限制？
 
@@ -209,7 +209,7 @@ Lightning Network 可以在主 Bitcoin 鏈之外進行快速且低成本的交�
 
 隨著 Lightning Network 的預期成長，以及隨之而來的航道開放與關閉的增加，Bitcoin 區塊的空間將變得越來越有價值。Bitcoin 社群已傾向於重視保留此空間，並認識到其固有的限制。這種意識已導致有關合法使用區塊空間的討論，並關注 Blockchain 上被視為非必要交易的「垃圾郵件」問題。
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 人們對區塊空間的未來用途諸多揣測，但普遍認為它是一種稀有資源，應該明智使用。儘管有填滿它的欲望，但為了確保 Bitcoin 網路的長期可行性，必須保留它，預計未來對區塊空間的需求將會增加。就像任何自由市場一樣，Supply 和需求將調節區塊空間的使用。在 Supply 有限的情況下，利害關係人將需要就這寶貴空間的使用做出明智的選擇，以確保 Bitcoin 網路的長期效率和安全性。
 
@@ -223,7 +223,7 @@ Lightning Network 可以在主 Bitcoin 鏈之外進行快速且低成本的交�
 
 在區塊大小大戰期間，許多礦工都反對網路的某些發展，突顯出生態系統中不同參與者之間的緊張關係。如何平衡礦工、節點和使用者之間的力量，以確保 Bitcoin 的長期安全性，仍是一個問題。
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 Bitcoin 的安全困境取決於微妙的平衡。礦工在驗證和創建區塊方面扮演重要角色，而節點則透過驗證和驗證交易及區塊來維持完整性。錯誤或欺詐的區塊會被節點拒絕，從而審查 Miner 並維護網路的安全性。Bitcoin 網路的節點和使用者也擁有權力。節點擁有驗證和確認的權力，而使用者則擁有選擇使用哪個 Blockchain 的權力。這種權力的分配確保了 Bitcoin 網路的分佈和完整性。
 
@@ -235,7 +235,7 @@ Bitcoin 的安全困境取決於微妙的平衡。礦工在驗證和創建區塊
 
 Satoshi Nakamoto 優雅的博弈理論建立了一種情況，Bitcoin 網路中的每個參與者都會受到激勵，採取正確的行動來保護自己和其他參與者的利益。這創造了一種平衡，不良行為可以受到譴責，從而提高整個系統的安全性和穩定性。儘管有這種平衡，國家仍然是潛在的威脅。正如在 2022 年衝浪 Bitcoin 講演中所指出的，國家可以試圖攻擊 Mining 產業，讓 Bitcoin 網路暴露在集中化和攻擊的風險之下。以 Mining 硬體生產設施為目標的軍事攻擊等假想情境，突顯出地理與產業多元化對 Bitcoin 網路彈性的重要性。
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 Mining 硬體生產集中在中國會帶來另一種風險。中國拒絕出口 Mining 機器或累積 Hashrate 以進行潛在的 51% 攻擊，都突顯出 Mining 硬體生產多元化的必要性。為了因應這些風險，Bitcoin 社群正積極探索解決方案。英特爾等公司正考慮在美國生產 Mining 設備，為生產的分佈做出貢獻。其他計畫，例如 Block 的開放原始碼 Mining 開發套件 (MDK)，目的在於降低 Mining 硬體設計與生產的壟斷，讓 Hashrate 的分佈更為廣泛。這些討論的核心在於 Bitcoin 的基本使命：成為一個抗審查價值的 Exchange 網路。Bitcoin 社群不斷努力強化分發、抵制審查、網路抗脆弱等功能，拒絕過渡至憑證等不符合這些基本原則的提案。
 
@@ -243,7 +243,7 @@ Mining 硬體生產集中在中國會帶來另一種風險。中國拒絕出口 
 
 Proof of Work (PoW) 是不可或缺的，因為它代表現實世界與 Bitcoin 之間的實體連結。雖然比特幣是無形的，但其生產需要有形的能量，因此與物理和現實世界建立了直接的聯繫。這一聯繫確保了比特幣和區塊的生產和驗證具有真實的能量成本，從而使 Bitcoin 網絡紮根於物理現實中，並防止其被強大的實體完全支配。PoW 作為防止集中化的堡壘，可確保參與網路和驗證交易需要投資有形資源。這可以防止實體壟斷網路，否則實體可以在沒有任何重大進入障礙的情況下控制網路，從而確保在 Bitcoin 網路中更公平地分配權力和影響力。
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 ### 憑證的限制
 
@@ -263,7 +263,7 @@ Proof of Work (PoW) 是不可或缺的，因為它代表現實世界與 Bitcoin 
 
 這種情況也說明了 Bitcoin 的彈性，通常是根據其價格來評估。然而，若要更深入分析 Bitcoin 的健康狀況，就必須檢視其 Hash 比率，該比率可衡量 Bitcoin 網路中每秒的計算量。雖然 Bitcoin 的價格會浮動，但與 Mining 機器運轉所需電力相關的成本，對於瞭解市場動態仍然非常重要。將焦點放在成本而非價格上，可獲得更一致的 Bitcoin 穩定性與長期可行性觀點。一般而言，Bitcoin 的成本與其價格成正比，可讓我們更了解價格波動與未來展望。
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 ### Hash 比率和獎勵
 
@@ -295,7 +295,7 @@ Attakai 倡議突顯了貢獻網路的重要性，同時提供解決方案，讓
 
 儘管有這些選擇，Mining 仍面臨重大挑戰。加密貨幣世界中著名的格言：「不是你的鑰匙，不是你的比特幣」，在 Mining 的世界中也能找到類似的共鳴：「不是你的 Hashrate，不是你的獎賞」。失望和機器斷線的故事屢見不鮮，許多玩家承諾會有非凡的成果，但卻無法實現。電力 Supply 問題和機器故障可能會讓投資人無能為力，他們無法控制昂貴的設備。在這種情況下，在涉足 Mining 行業之前，謹慎和深入瞭解該行業至關重要。儘管存在獲利的機會，但風險也很大，要在這個複雜且往往難以預測的領域中遊刃有餘，必須採取明智且深思熟慮的方法。因此，在涉足 Bitcoin Mining 之前，進行徹底研究並仔細權衡利弊至關重要。
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 ### 維珍比特幣
 
@@ -309,7 +309,7 @@ Mining 處女比特幣的可能性，同時避免瞭解您的客戶 (KYC) 程序
 
 隨著歐洲可能禁用 Mining 的問題，有關法規的討論變得越來越重要。不斷變動的法規形勢確實會對 Bitcoin Mining 產業造成重大影響。在歐洲禁止 Mining 是可以想像的情況，尤其是考慮到中國的先例。雖然中國的 Mining 業務在禁令下仍在繼續，但歐洲也可能走上類似的道路。Hashrate 在不同地區更廣泛的分佈可以幫助加強歐洲的 Mining 社群，使他們能夠有效地反對對 Mining、其對環境的影響以及其對電網的影響的誤解和錯誤觀念。
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 面對像綠色和平組織這樣的運動，以及一些研究中經常出現的誤導性數據，最好的武器仍然是真實的資訊。必須讓大眾和決策者了解 Mining 的真實情況、複雜性和細微差別，而不是讓他們依賴刻板印象和不準確的資訊。越多人瞭解 Mining 的真實面貌，業界就越能在潛在的限制性法規面前保護自己。
 
@@ -363,11 +363,11 @@ Bitcoin 及其 Proof of Work 之所以脫穎而出，是因為它們會根據整
 
 這個問題可能會成為問題，並對網路的中立性構成重大風險。擁有 51% 以上 Hashrate 權益的行動者，如果願意的話，可以更輕鬆地審查交易。這就是為什麼 Hashrate 必須分佈在多個參與者之間，而非集中化的實體，因為集中化的實體可能更容易被政府等機構查封。
 
-**如果礦工分佈在世界各地數以千計，甚至數以百萬計的家庭中，國家就很難控制他們。
+**如果礦工分佈在世界各地數以千計，甚至數以百萬計的家庭中，國家就很難控制他們。**
 
 出廠時，Miner 不適合用作家庭加熱器，主要有兩個問題：噪音過大和缺乏調節。不過，這些問題都可以透過硬體和軟體的修改輕鬆解決，讓 Miner 更安靜，而且可以像現代電暖器一樣進行設定和自動化。
 
-**Attakaï 是一項教育計畫，教您如何以最具成本效益的方式改裝 Antminer S9。
+**Attakaï 是一項教育計畫，教您如何以最具成本效益的方式改裝 Antminer S9。**
 
 這是一個絕佳的機會，讓您在練習中學習，同時獲得免 KYC 的 Satoshis 獎勵。
 
@@ -383,47 +383,47 @@ Antminer S9 有幾種變體 (i、j)，這些變體對第一代硬體稍作修改
 
 ASIC 的價格因許多因素而異，例如 Bitcoin 的價格、網路難度、機器效率和電力成本。因此，對於購買二手機器很難做出準確的估算。在 2023 年 2 月，法國的預期價格一般在 100 歐元至 200 歐元之間，但這些價格可能會快速變化。
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 Antminer S9 由以下部分組成：
 
 
 - 3 個散列板，包含產生散列能力的晶片。
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 - 控制板包括 SD 卡插槽、乙太網路埠，以及散列板和風扇的連接器。這是 ASIC 的大腦。
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 - 3 條資料纜線，連接雜湊板與控制板。
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 - 電源 Supply，工作電壓為 220V，可以像一般家用電器一樣插上電源。
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 - 2 個 120mm 風扇。
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 - 一條 C13 公頭電纜。
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 購買二手機器時，必須檢查是否包含所有零件且功能正常。在 Exchange 的過程中，您應該要求賣家開機檢查機器是否正常運作。重要的是要確認裝置是否能正常開機，然後插上乙太網路線，在相同的區域網路中透過網路瀏覽器存取 Bitmain 登入 Interface，檢查網路連線性。您可以透過連線至網際網路路由器 Interface 並尋找已連線的裝置來找到此 IP Address。這個 Address 應該有以下格式： 192.168.x.x
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 此外，請檢查預設認證是否有效 (使用者名稱：root，密碼：root)。如果預設憑證不起作用，您需要重設機器。
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 連線後，您應該可以在儀表板上看到每個散列板的狀態。如果 Miner 連接到一個池，您應該可以看到所有散列板都在運作。需要注意的是，礦工會發出很大的噪音，這是正常現象。此外，請確定風扇正常運作。
 
@@ -447,31 +447,31 @@ Antminer S9 由以下部分組成：
 
 Antminer S9 的原始風扇噪音太大，無法將您的 Antminer 用作加熱器。解決方案是將其更換為更安靜的風扇。我們的團隊測試了 Noctua 品牌的幾個型號，並選擇了 Noctua NF-A14 iPPC-2000 PWM 作為最佳折衷方案。請務必選擇 12V 版本的風扇。此款 140mm 風扇可產生高達 1200W 的熱能，同時維持 31 dB 的理論噪音水準。要安裝這款 140mm 風扇，您需要使用 140mm 至 120mm 轉接器，您可以在 DécouvreBitcoin 商店找到。我們也會加上 140mm 保護網罩。
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 電源 Supply 風扇的噪音也相當大，需要更換。我們推薦 Noctua NF-A6x25 PWM。請注意，Noctua 風扇的接頭與原裝風扇不同，因此需要接頭轉換器來連接。兩個就夠了。同樣地，請務必選擇 12V 版本的風扇。
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 2.新增 WIFI/乙太網路橋接器
 
 與其使用乙太網路線，您可以透過 WIFI/Ethernet 橋接器來連接 Antminer。我們選擇了vonets vap11g-300，因為它可以讓您輕鬆地從網路盒子中擷取WIFI訊號，並透過乙太網路傳輸至Antminer，而無需建立子網路。如果您有電力技能，您可以直接使用 Antminer 的電源 Supply 供電，而無需添加 USB 充電器。為此，您需要一個母頭 5.5mmx2.1mm 插孔。
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 3.選購：新增智慧型插頭
 
 如果您想從智慧型手機開啟/關閉 Antminer 並監控其耗電情況，您可以加裝智慧型插頭。我們測試了與 smartlife 應用程式相容的 16A 版本 ANTELA 插頭。此智慧型插頭可讓您檢視每日及每月的耗電量，並可透過 WiFi 直接連接到您的網路路由器。
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 設備清單與連結
 
@@ -500,21 +500,21 @@ Antminer S9 的原始風扇噪音太大，無法將您的 Antminer 用作加熱�
 
 從電腦使用密碼 12345678 連接至 VONETS\_***\*** WIFI 網路。
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 使用使用者名稱「admin」和密碼「admin」登入。
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 選擇精靈。
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 選擇您要連接 Miner 的 WIFI 網路，然後按「下一步」。
 
 注意：Vonet 橋接器只能在 2.4GHz 頻率上工作。如今，路由器通常提供兩個 WIFI 網路，一個在 2.4GHz 上，另一個在 5GHz 上。
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 在「源 WIFI 熱點密碼」欄位輸入您的 WIFI 網路密碼。如果您不想使用 Vonet 橋接器擴展 WIFI 網路，請勾選「停用熱點」方塊。否則，請不要勾選。
 
@@ -536,7 +536,7 @@ Antminer S9 的原始風扇噪音太大，無法將您的 Antminer 用作加熱�
 
 開啟 Miner 2 分鐘後，請按下「Reset」按鈕 5 秒鐘，然後放開。Miner 將於 4 分鐘內恢復出廠設定，並自動重新啟動（無需關機）。
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 ## 在 Antminer S9 上安裝 BraiinsOS+
 
@@ -554,11 +554,11 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 
 3.解壓縮下載的檔案，並開啟 bos-toolbox.bat 檔案。選擇語言，片刻之後，您會看到此視窗：
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 4.Bos 工具箱可讓您輕鬆找到 Antminer 的 IP Address，並安裝 BraiinsOS+。如果您已經知道您機器的 IP Address，您可以跳到步驟 8。否則，請進入掃描索引標籤。
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 5.通常，在家用網路中，IP Address 的範圍介於 192.168.1.1 和 192.168.1.255 之間，因此請在 IP 範圍欄位中輸入「192.168.1.0/24」。如果您的網路不同，請相應變更這些位址。然後按一下「開始」。
 
@@ -566,12 +566,12 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 
 7.您應該會看到網路中所有的 Antminers 都出現在這裡，而 IP Address 是 192.168.1.37。
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 8.按一下「返回」，然後按一下「安裝」標籤，輸入先前找到的 IP Address，然後按一下「開始」。
 
 > 如果安裝不成功，可能需要執行重設再試一次 (請參閱上一節)。
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 9.片刻之後，您的 Antminer 將會重新啟動，您可以直接在瀏覽器的 Address 欄位中，以指定的 IP Address（此處為 192.168.1.37）存取 Braiins OS+ Interface。預設使用者名稱為 "root"，沒有預設密碼。
 
@@ -593,7 +593,7 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 
 ### 儀表板
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 在第一頁，您可以觀察機器的即時效能。
 
@@ -602,7 +602,7 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 - 右側為實際 Hashrate、平均晶片溫度、以 W/THs 為單位的估計效率以及耗電量。
 - 以下是風扇轉速佔最高轉速的百分比以及每分鐘的轉數。
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 - 再往下，您會發現每個雜湊板的詳細檢視。板的平均溫度及其包含的晶片，以及電壓和頻率。
@@ -612,15 +612,15 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 
 ### 組態
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 ### 系統
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 ### 快速行動
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 # Attakai - 風扇改裝
 
@@ -631,7 +631,7 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > 警告：您必須事先在 Miner 上安裝 Braiins OS+ 或任何其他可能降低機器性能的軟體。這項措施非常重要，因為為了降低噪音，我們將安裝功率較小的風扇，以減少散熱。
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### 所需材料
 
@@ -640,64 +640,64 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 - 2.5mm2 電工糖
 
 > 警告：首先，在啟動之前，請確定您已拔下 Miner 的電源插頭，以避免任何觸電的危險。
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 首先，卸下機殼側邊固定機殼的 6 顆螺絲。取下螺絲後，小心打開機殼，取下包覆元件的塑膠保護層。
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 接下來，就該移除原來的風扇，小心不要損壞其他元件。要做到這一點，請卸下固定它的螺絲，然後輕輕地剝開連接器周圍的白色膠水。請務必小心操作，以免損壞電線或接頭。
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 拆下原來的風扇後，您會發現新 Noctua 風扇的接頭與原來風扇的接頭並不一致。事實上，新風扇有三條接線，包括一條可控制風速的黃色接線。不過，這條線不會用於此特定情況。因此，若要連接新風扇，建議使用特殊的轉接器。但是，需要注意的是，這種轉接頭有時很難找到。
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 如果您沒有此轉接器，您仍可使用電工糖連接新風扇。要做到這一點，您需要剪斷新舊風扇的電纜。
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 在新的風扇上，使用切割器小心地將主外殼的輪廓切割 1 公分，但不要切割下方的電纜外殼。
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 然後，將主電纜護套向下拉，以相同的方式剪斷紅色和黑色電纜的護套。並將黃色電纜剪齊。
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 在舊風扇上，要在不損壞紅線和黑線護套的情況下剪切主護套是比較棘手的。為此，我們使用一根針，在主護套和紅黑線之間滑動。
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 一旦紅線和黑線外露，請小心剪斷護套，以免損壞電線。
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 然後，用糖連接電纜，黑線接黑線，紅線接紅線。您也可以加上電氣膠帶。
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 連接完成後，就可以將新的 Noctua 風扇連同網罩和舊的螺絲一起安裝。盒子裡的新螺絲稍後會再用。請確保以正確的方向放置。您會發現風扇的一側有一個箭頭，表示氣流的方向。重要的是將風扇定位，讓這個箭頭指向機殼內部。然後重新連接風扇。
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 > 選購：如果您有電力方面的知識，您可以直接在 12V 電源輸出上加上一個母頭 5.5mm 插孔接頭，這樣就可以直接為 Vonet Wi-Fi 橋接器供電。不過，如果您不確定自己的電力技能，最好使用 USB 接頭搭配智慧型手機型充電器，以避免任何短路或電力損壞的風險。
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 連接完成後，將塑膠蓋蓋在機殼塑料上，不要放在裡面。
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 最後，將機殼蓋子放回原位，並擰緊兩側的 6 顆螺絲，將所有東西固定到位。如此一來，您的 Power Supply 機殼就裝上新風扇了。
 
@@ -706,7 +706,7 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > 警告：請務必事先在您的 Miner 上安裝 Braiins OS+ 或任何其他可降低機器性能的軟體。這項措施至關重要，因為為了降低噪音，我們將安裝功率較低的風扇，這將減少散熱。
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### 所需材料
 
@@ -718,43 +718,43 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 > 警告：首先，在啟動之前，請務必先斷開 Miner 的電源，以避免任何觸電的危險。
 1.首先，斷開風扇的連接並擰下它們。
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 2.新 Noctua 風扇的接頭與原裝風扇不符，但不用擔心！拿出您的切割器，小心地切割小塑料片，使連接器完全適合您的 Miner。
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 3.是時候安裝 3D 部件了！
 
 使用您從風扇拆下的螺絲，將其安裝在 Miner 的兩側。將螺絲擰入，直到螺絲頭與 3D 部件平齊，並穩固就位。小心不要鎖得太緊，因為您可能會使零件變形，而且其中一個螺絲可能會碰到電容器！
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 4.現在讓我們來談談粉絲。
 
 使用包裝盒內提供的螺絲將它們固定在 3D 部件上。注意氣流方向，風扇兩側的箭頭會指示應遵循的方向。從 Ethernet 連接埠的一邊到另一邊。請參閱下圖。
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 5.最後一步：連接風扇，並使用電源 Supply 風扇盒中未使用的螺絲將網罩固定在頂部。您只有 4 顆螺絲，但對角的每個網罩有 2 顆就夠了。如果需要，您也可以在五金店尋找類似螺絲。
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 在等待能為您的新加熱器提供更時尚的外殼時，您可以用電工的紮線帶將外殼和電源 Supply 固定在一起。
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 最後，將 Vonet 橋接器連接至乙太網路埠及其電源 Supply。
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 就是這樣，恭喜您！您剛剛更換了 Miner 的整個機械部分。現在您聽到的噪音應該會小很多。
 
@@ -784,17 +784,17 @@ Antminer 在其 Mining 機器上安裝的原始軟體功能有限。因此，在
 
 要在 Braiins OS+ 中配置一個池，您需要在您選擇的池中創建一個帳戶。這裡我們以 Linecoin 為例：
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 建立帳號後，按一下連線至 Pool
 
 然後複製 Stratum Address 和您的使用者名稱：
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 現在您可以回到 Braiins OS+ Interface 輸入這些認證。至於密碼，您可以將該欄位留空。
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 ## 優化 Antminer S9 的效能
 

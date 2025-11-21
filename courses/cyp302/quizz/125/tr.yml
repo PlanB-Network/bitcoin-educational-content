@@ -1,0 +1,9 @@
+question: Diffie, Hellman ve Merkle adlı kriptograflar 1970'lerde hangi büyük sorunu çözmeye çalışmışlardır?
+answer: Anahtar dağıtımı ve yönetimi sorunları
+wrong_answers:
+  - Kuantum sonrası kriptografinin gelişimi
+  - Askeri iletişimin güvence altına alınması
+  - Simetrik şifreleme tekniklerinin geliştirilmesi
+explanation: |
+  Diffie, Hellman ve Merkle, dijital iletişime doğru geçiş yapan bir dünyada önemli zorluklar olan güvenli iletişim için anahtar dağıtımı ve yönetiminin pratik zorlukları tarafından motive edildi.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vad är ett sätt att bekräfta att du befinner dig på den webbplats du tänker besöka?
+answer: Kontrollera webbadresserna och det lilla hänglåset i Address-fältet.
+wrong_answers:
+  - Kontrollera antalet annonser på webbplatsen.
+  - Kontrollera webbplatsens hastighet.
+  - Kontrollera webbplatsens färgschema.
+explanation: |
+  Att kontrollera webbadresserna och det lilla hänglåset i Address-fältet
+  är ett sätt att bekräfta att du är på den webbplats du tänker besöka
+  att besöka. Hänglåset indikerar att webbplatsen använder
+  HTTPS-protokollet, som krypterar data för säker Exchange.
+reviewed: true

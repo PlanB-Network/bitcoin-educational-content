@@ -1,0 +1,9 @@
+question: Varför rekommenderas tvåfaktorsautentisering?
+answer: Det ger en extra Layer av säkerhet
+wrong_answers:
+  - Den förenklar åtkomsten genom att minska antalet koder
+  - Det tillåter inloggning utan lösenord
+  - Det ersätter användningen av en lösenordshanterare
+explanation: |
+  2FA kräver en tillfällig kod utöver lösenordet, vilket avsevärt stärker skyddet av ett onlinekonto.
+reviewed: false

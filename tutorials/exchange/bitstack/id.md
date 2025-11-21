@@ -6,7 +6,7 @@ description: Beli dan jual bitcoin di aplikasi Bitstack
 
 Bitstack adalah platform investasi bitcoin Prancis, yang diatur PSAN oleh AMF. Platform ini menawarkan aplikasi yang tersedia di Android dan iOS untuk memudahkan pembelian dan penjualan bitcoin.
 
-Yang membedakan Bitstack adalah sistem pembulatan otomatisnya, yang menyinkronkan rekening bank pengguna untuk mengkonversi selisih antara jumlah yang didebit selama pengeluaran harian dan euro yang lebih tinggi berikutnya, langsung ke dalam bitcoin. Metode ini memfasilitasi penerapan *Dollar Cost Averaging* (DCA), yang memungkinkan akumulasi satoshi secara bertahap dan tanpa rasa sakit. Selain fitur orisinil ini, platform ini juga menawarkan sistem DCA klasik dengan investasi otomatis, serta pembelian dan penjualan spot.
+Yang membedakan Bitstack adalah sistem pembulatan otomatisnya, yang menyinkronkan rekening bank pengguna untuk mengonversi selisih antara jumlah yang didebet saat pengeluaran harian dan euro di atasnya langsung menjadi bitcoin. Metode ini memudahkan penerapan *Dollar Cost Averaging* (DCA) dengan memungkinkan akumulasi satoshi secara bertahap dan tanpa rasa sakit. Selain fitur orisinal ini, platform juga menawarkan sistem DCA klasik dengan investasi otomatis serta pembelian dan penjualan satu kali.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Pilih kata sandi yang kuat untuk mengamankan akses ke akun Anda, lalu klik "*Lan
 
 ![Image](assets/fr/06.webp)
 
-Untuk pengelolaan kata sandi yang aman setiap hari, penggunaan pengelola kata sandi sangat dianjurkan. Pada Plan ₿ Network, Anda akan menemukan beberapa tutorial tentang solusi terbaik yang ada, seperti Bitwarden:
+Untuk pengelolaan kata sandi yang aman setiap hari, penggunaan pengelola kata sandi sangat dianjurkan. Pada Plan ₿ Academy, Anda akan menemukan beberapa tutorial tentang solusi terbaik yang ada, seperti Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Anda kemudian akan diminta untuk memverifikasi identitas Anda (KYC). Sesuai dengan peraturan Prancis, Anda akan diminta untuk memberikan informasi pribadi dan bukti identitas. Isi kotak dengan nama belakang, nama depan, dan tanggal lahir Anda.
 
@@ -110,7 +110,7 @@ Seperti yang telah disebutkan di bagian pendahuluan, Bitstack menawarkan 3 metod
 - Konfigurasi Pembelian Berulang (RPC);
 - Penggunaan pembulatan otomatis pada pengeluaran.
 
-### Membeli dengan uang tunai
+### Melakukan pembelian satu kali
 
 Untuk melakukan pembelian satu kali pada harga pasar, cukup klik "*Beli*".
 
@@ -126,7 +126,7 @@ Transaksi Anda sekarang telah dikonfirmasi.
 
 ### Menyiapkan DCA
 
-Dollar Cost Averaging* (DCA) adalah strategi investasi yang menarik untuk mengakumulasi bitcoin sekaligus mengurangi risiko yang terkait dengan volatilitasnya. Dengan membeli secara teratur dalam jumlah yang tetap, berapa pun harganya, Anda bisa meratakan biaya akuisisi dan menghindari pengambilan keputusan yang impulsif. DCA membantu mengurangi bias perilaku seperti rasa takut kehilangan peluang atau panik jika terjadi penurunan harga, dan dengan demikian memungkinkan Anda untuk mengelola tabungan bitcoin Anda dengan cara yang tenang dan disiplin.
+**Dollar Cost Averaging** (DCA) adalah strategi investasi yang menarik untuk mengakumulasi bitcoin sekaligus mengurangi risiko yang terkait dengan volatilitasnya. Dengan membeli secara teratur dalam jumlah yang tetap, berapa pun harganya, Anda bisa meratakan biaya akuisisi dan menghindari pengambilan keputusan yang impulsif. DCA membantu mengurangi bias perilaku seperti rasa takut kehilangan peluang atau panik jika terjadi penurunan harga, dan dengan demikian memungkinkan Anda untuk mengelola tabungan bitcoin Anda dengan cara yang tenang dan disiplin.
 
 Untuk mengatur pembelian berulang (DCA) di Bitstack, buka bagian "*Tabungan*" di halaman beranda dan pilih "*Berulang*". Kemudian tekan "*Lanjutkan*".
 
@@ -184,7 +184,7 @@ Tentukan prioritas transaksi. Untuk penarikan tanpa biaya, pilih prioritas "*Sta
 
 ![Image](assets/fr/32.webp)
 
-Jika Anda tidak terbiasa dengan cara kerja portofolio penyimpanan mandiri, kami menawarkan tutorial tentang sebagian besar solusi yang tersedia [di Plan ₿ Network pada bagian "*Wallet*"](https://planb.network/tutorials/wallet).
+Jika Anda tidak terbiasa dengan cara kerja portofolio penyimpanan mandiri, kami menawarkan tutorial tentang sebagian besar solusi yang tersedia [di Plan ₿ Academy pada bagian "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Menjual bitcoin
 

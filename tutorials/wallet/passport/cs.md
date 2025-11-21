@@ -1,5 +1,5 @@
 ---
-name: Passport - Nadace
+name: Passport Core
 description: Konfigurace a používání hardwarové peněženky Passport v ručním režimu
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Konfigurace a používání hardwarové peněženky Passport v ruč
 Passport je hardwarová peněženka pouze pro bitcoiny, kterou navrhla americká společnost Foundation Devices založená v dubnu 2020 v Bostonu.
 
 Passport "*Batch 2*", který představujeme v tomto tutoriálu, je nástupcem edice "*Founder's Edition*". Vyniká prémiovým designem, vysoce kvalitním barevným displejem a ergonomickou fyzickou klávesnicí. Funguje v režimu "*Air-Gap*", což zajišťuje, že soukromé klíče vaší peněženky zůstanou zcela izolované, přičemž komunikace probíhá prostřednictvím karty MicroSD nebo QR kódů. Zařízení je vybaveno vyměnitelnou dobíjecí baterií Nokia BL-5C s kapacitou 1200 mAh. Tato běžně dostupná baterie může být snadno nahrazena, protože model BL-5C lze snadno najít v obchodech.
+
+💡 **Aktualizace:** Od března 2025 se tento hardware peněženka již nejmenuje "Passport" ani "Passport V2", ale "Passport Core".
 
 Co se týče konektivity, je Passport vybaven portem MicroSD, portem USB-C pro nabíjení a zadní kamerou pro snímání QR kódů.
 
@@ -20,7 +22,7 @@ Chcete-li spravovat zabezpečenou peněženku v zařízení Passport, máte něk
 
 Pokud jste začátečník, je nejjednodušší používat Passport s nativní aplikací Envoy, kterou vyvinula společnost Foundation. Chcete-li zjistit, jak používat aplikaci Envoy s aplikací Passport, přečtěte si tento další návod :
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Vybalení pasu
 
@@ -139,7 +141,7 @@ K tomu použijte kartu MicroSD, která je součástí balení Passportu (nebo ji
 
 Před instalací do zařízení důrazně doporučujeme zkontrolovat pravost a neporušenost staženého firmwaru. Pokud s tím potřebujete pomoci, podívejte se do tohoto návodu :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po kontrole souboru `.bin` jej umístěte na kartu MicroSD a poté ji vložte do zařízení Passport. Otevře se průzkumník souborů Passport. Vyberte soubor `vN.N.N-passport.bin`.
 
@@ -205,9 +207,9 @@ Kliknutím na potvrzovací tlačítko zobrazíte svou mnemotechnickou frázi.
 
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
+samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.
 
 Vytvořte si fyzickou zálohu této věty.
 
@@ -292,7 +294,7 @@ Pokud chcete, můžete před pokračováním přidat přístupovou frázi BIP39.
 
 Před konfigurací této možnosti na vašem Passportu důrazně doporučujeme přečíst si tento článek, abyste plně porozuměli teoretickému fungování přístupové fráze a vyhnuli se chybám, které by mohly vést ke ztrátě vašich bitcoinů:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Chcete-li ji aktivovat, přejděte do nabídky "*Další*" a klikněte na "*Zadat přístupovou frázi*".
 
@@ -304,7 +306,7 @@ Zadejte svou přístupovou frázi pomocí klávesnice aA1 a nezapomeňte ji jedn
 
 Upozorňujeme, že u přístupových hesel BIP39 záleží na velikosti písmen a překlepů. Pokud zadáte přístupovou frázi mírně odlišnou od původně nakonfigurované, Passport neohlásí chybu, ale odvodí jinou sadu kryptografických klíčů, které nebudou těmi, které byly ve vaší původní peněžence.
 
-Proto je důležité si při konfiguraci někde poznamenat otisk hlavního klíče, který vám bude přidělen v dalším kroku. Například s mou přístupovou frází `Plan B Network` je otisk hlavního klíče `745D526B`.
+Proto je důležité si při konfiguraci někde poznamenat otisk hlavního klíče, který vám bude přidělen v dalším kroku. Například s mou přístupovou frází `Plan ₿ Academy` je otisk hlavního klíče `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -314,7 +316,7 @@ Při každém odemknutí po zapsání přístupové fráze zkontrolujte na této
 
 Než obdržíte své první bitcoiny do peněženky, **důrazně vám doporučuji provést test obnovy prázdných peněz**. Zaznamenejte si některé referenční informace, jako je vaše xpub nebo první přijímací adresa, a poté vymažte svou peněženku na Passportu, dokud je ještě prázdná (`Nastavení -> Pokročilé -> Vymazat Passport`). Poté se pokuste peněženku obnovit pomocí papírových záloh mnemotechnické fráze a případné přístupové fráze. Zkontrolujte, zda se informace o souboru cookie vygenerované po obnovení shodují s těmi, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Další informace o tom, jak provést zkušební obnovu, naleznete v tomto dalším návodu :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -328,7 +330,7 @@ Začněte stažením a instalací aplikace Sparrow Wallet [z oficiálních strá
 
 Před instalací nezapomeňte zkontrolovat pravost a neporušenost softwaru. Pokud nevíte, jak to udělat, přečtěte si tento návod:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po otevření aplikace Sparrow Wallet klikněte na kartu "*File*" a poté na "*New Wallet*".
 
@@ -482,4 +484,4 @@ Gratulujeme, nyní víte, jak nakonfigurovat a používat aplikaci Passport. Pok
 
 Další informace naleznete v našem návodu k softwaru Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

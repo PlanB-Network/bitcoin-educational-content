@@ -1,0 +1,9 @@
+question: Wat is het gemeenschappelijke punt dat door alle deelnemers wordt gebruikt om een publieke sleutel in Bitcoin te berekenen?
+answer: Het generatorpunt G
+wrong_answers:
+  - De SHA256 Hash
+  - Een Mnemonic zin
+  - De gecomprimeerde openbare sleutel
+explanation: |
+  Het generator punt G van de elliptische curve secp256k1 wordt gebruikt om publieke sleutels uit private sleutels te berekenen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kategori perangkat lunak mana yang merupakan salah satu titik masuk paling kritis untuk serangan pada komputer?
+answer: Browser web
+wrong_answers:
+  - Pembaca PDF
+  - Editor teks
+  - Manajer file
+explanation: |
+  Peramban web terus-menerus terpapar konten eksternal, menjadikannya vektor serangan utama bagi penjahat siber.
+reviewed: false

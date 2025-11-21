@@ -1,0 +1,9 @@
+question: Hồ sơ nào ủng hộ việc mua hàng không cần KYC và sử dụng ví có độ bảo mật cao?
+answer: Người hoang tưởng
+wrong_answers:
+  - Người nắm giữ
+  - Người xếp chồng
+  - Người dùng đang hoạt động
+explanation: |
+  Người hoang tưởng ưu tiên quyền riêng tư và bảo mật, sử dụng các phương pháp thu thập và lưu trữ có tính bảo mật cao.
+reviewed: false

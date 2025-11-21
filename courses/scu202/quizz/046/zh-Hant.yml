@@ -1,0 +1,9 @@
+question: 自動備份時，需要定期採取哪些必要的預防措施？
+answer: 測試還原
+wrong_answers:
+  - 變更您的網際網路服務供應商
+  - 停用假期備份
+  - 測試加密
+explanation: |
+  定期還原備份非常重要，可確保檔案在需要時不會損毀或無法存取。
+reviewed: false

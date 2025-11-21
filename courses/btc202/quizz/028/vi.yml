@@ -1,0 +1,9 @@
+question: Điểm khác biệt giữa nút pruned và nút Full node là gì?
+answer: Nó dần dần loại bỏ các khối cũ
+wrong_answers:
+  - Nó không xác thực các giao dịch cũ hơn
+  - Nó không thể chuyển tiếp toàn bộ khối
+  - Nó không giữ bất kỳ bản sao cục bộ nào của Blockchain, chỉ có bộ UTXO
+explanation: |
+  Nút pruned xác thực toàn bộ chuỗi nhưng chỉ giữ lại một phần khối gần đây để hạn chế dung lượng lưu trữ.
+reviewed: true

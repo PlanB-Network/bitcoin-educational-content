@@ -1,0 +1,9 @@
+question: Lightning Network के संदर्भ में "RGB State Transition" क्या दर्शाता है?
+answer: अद्यतन RGB परिसंपत्ति आवंटन को Commitment लेनदेन में एकीकृत किया गया
+wrong_answers:
+  - Multisig 2/2 ऑनचेन की एक नई स्थिति
+  - अद्यतन RGB परिसंपत्ति आवंटन को वित्तपोषण लेनदेन में एकीकृत किया गया
+  - On-Chain सत्यापन स्क्रिप्ट को HTLC द्वारा प्रतिस्थापित किया गया
+explanation: |
+  RGB State Transition, Commitment लेनदेन का उपयोग करके चैनल में RGB परिसंपत्तियों के वितरण को अद्यतन करता है।
+reviewed: false

@@ -1,0 +1,9 @@
+question: Khi nào người dùng phải cài đặt trình lập chỉ mục?
+answer: Để chạy Block explorer
+wrong_answers:
+  - Đối với khối Mining tự mình
+  - Để kích hoạt Lightning Network
+  - Để ký giao dịch
+explanation: |
+  Trình lập chỉ mục trở nên không thể thiếu đối với những mục đích sử dụng nâng cao, chẳng hạn như trình khám phá cục bộ.
+reviewed: true

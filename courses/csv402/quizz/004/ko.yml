@@ -1,0 +1,9 @@
+question: RGB은 기존 Blockchain에 비해 확장성이 어떻게 향상되나요?
+answer: 저장 및 유효성 검사를 관련 상태 전환으로만 제한하여
+wrong_answers:
+  - Bitcoin 블록의 크기를 가상으로 늘림으로써
+  - 각 Contract를 모든 UTXO에 직접 연결하여
+  - 몇 개의 중앙 서버에 Contract 데이터를 중앙 집중화하여
+explanation: |
+  RGB는 각 참가자와 관련된 데이터만 보관하여 저장 및 유효성 검사 요구 사항을 줄입니다.
+reviewed: false

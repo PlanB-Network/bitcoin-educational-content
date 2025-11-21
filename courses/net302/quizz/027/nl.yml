@@ -1,0 +1,9 @@
+question: Wat is de naam van de data-eenheid die wordt uitgewisseld op de Application Layer (TCP/IP)?
+answer: Bericht
+wrong_answers:
+  - Frame
+  - Segment
+  - Datagram
+explanation: |
+  In het TCP/IP model worden gegevens die worden uitgewisseld op de Application Layer berichten genoemd (of streams, afhankelijk van de context).
+reviewed: false

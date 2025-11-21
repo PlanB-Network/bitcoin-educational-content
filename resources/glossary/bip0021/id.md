@@ -8,4 +8,4 @@ Proposal yang ditulis oleh Nils Schneider dan Matt Corallo, berdasarkan BIP20 ya
 bitcoin:bc1qmp7emyf7un49eaz0nrxk9mdfrtn67v5y866fvs?amount=0.1&label=Pandul
 ```
 
-Standarisasi ini meningkatkan pengalaman pengguna dalam transaksi Bitcoin dengan mengizinkan untuk mengklik sebuah tautan atau memindai sebuah kode QR untuk memulai parameternya. Standar BIP21 sekarang diadopsi secara luas dalam perangkat lunak dompet Bitcoin.
+Standarisasi ini meningkatkan pengalaman pengguna dalam transaksi Bitcoin dengan mengizinkan untuk menekan sebuah tautan atau memindai sebuah kode QR untuk mengaktifkan parameternya. Standar BIP21 sekarang diadopsi secara luas dalam perangkat lunak dompet Bitcoin.

@@ -1,0 +1,5 @@
+---
+term: UNAZADNA KOMPATIBILNOST
+---
+
+Odnosi se na sposobnost ažuriranja pravila protokola da održi kompatibilnost sa prethodnim verzijama. To znači da su promene dizajnirane na takav način da stariji čvorovi (čvorovi koji koriste verzije pre promene pravila) i dalje mogu da komuniciraju sa mrežom i prate lanac sa najviše akumuliranog rada. Stoga je ključno da stariji čvorovi ne odbacuju nove blokove niti nove transakcije. Unazad kompatibilnost značajno smanjuje verovatnoću da će ažuriranje fragmentirati mrežu, čime se izbegava podela čvorova u podgrupe na različitim lancima. Da bi se osigurala kompatibilnost sa prethodnim verzijama protokola, ažuriranje mora učiniti postojeća pravila strožijim ili uvesti nova. Ovaj princip definiše "Soft Fork". Suprotno tome, ako ažuriranje olakšava postojeća pravila ili neka eliminiše, onda neće biti unazad kompatibilno. To bi bilo "Hard Fork".

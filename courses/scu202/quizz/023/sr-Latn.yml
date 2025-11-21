@@ -1,0 +1,9 @@
+question: Koji grafički alat koriste GNOME i Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Šablon
+explanation: |
+  GNOME, Xfce, Cinnamon i MATE zasnovani su na GTK, softverskoj biblioteci posvećenoj grafičkim korisničkim interfejsima pod Linuxom.
+reviewed: false

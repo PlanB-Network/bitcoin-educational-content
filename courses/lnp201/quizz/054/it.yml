@@ -1,4 +1,4 @@
-question: Quale tipo di liquidità deve gestire principalmente un venditore sulla Lightning Network per accettare pagamenti?
+question: Quale tipo di liquidità deve gestire principalmente un venditore su Lightning Network per accettare pagamenti?
 answer: Liquidità in entrata
 wrong_answers:
   - Liquidità in uscita
@@ -6,4 +6,4 @@ wrong_answers:
   - Un elevato saldo on-chain
 explanation: |
   Per ricevere pagamenti, un venditore deve avere liquidità in entrata, il che significa che i fondi devono essere disponibili sul lato opposto del canale per poter accettare pagamenti.
-reviewed: false
+reviewed: true

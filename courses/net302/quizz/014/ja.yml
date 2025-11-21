@@ -1,0 +1,9 @@
+question: IPv5（ストリームプロトコル、ST）の主な目的は何ですか？
+answer: 特定のフローに対するサービス品質の確保
+wrong_answers:
+  - IPアドレス容量の拡張
+  - IPv6との下位互換性の提供
+  - TCP/IPネットワークパケットのサイズ縮小
+explanation: |
+  IPv5（ST）は、帯域幅と優先度を保証することで、VoIPなどのマルチメディアストリームにサービス品質（QoS）を提供するために設計された。
+reviewed: false

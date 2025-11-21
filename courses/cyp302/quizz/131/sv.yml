@@ -1,0 +1,9 @@
+question: Varför används asymmetrisk kryptografi i mindre utsträckning än symmetrisk kryptografi vid stora datautbyten?
+answer: Det är mindre effektivt för en likvärdig säkerhetsnivå
+wrong_answers:
+  - Det garanterar inte att meddelanden är äkta
+  - Det krävs flera offentliga nycklar för varje Exchange
+  - Den är inte kompatibel med moderna kommunikationsprotokoll
+explanation: |
+  Asymmetrisk kryptografi är visserligen kraftfull för autentisering och initial kryptering, men kräver mer resurser, vilket gör den ineffektiv för stora dataöverföringar.
+reviewed: false

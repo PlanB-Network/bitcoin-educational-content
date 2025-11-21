@@ -1,0 +1,12 @@
+question: Ni kuki muri iki gihe kugura inzu bigoye cane kuruta mu myaka ya 1980?
+answer: Inyungu zigabanywa zituma umwenda urushiriza gukwegera abantu n'ugutera imbere kw'ibiciro
+wrong_answers:
+  - Ukwiyongera kw'ibiciro n'ibiciro vy'ubukode
+  - Ukwiyongera kw'ibiciro vy'ubuzima n'ukwiyongera kw'abantu
+  - Kubura umutungo n'inyungu zigabanutse bituma umwenda urushiriza gukwegera
+explanation: |
+  Mu gihe inflation iriko iragabanya agaciro k’ubushobozi bwo kugura bw’amahera yacu, bikaba bituma 
+  biragoye kuzigama, inyungu zigabanywa ziriko ziratuma umuntu akoresha umwenda 
+  n’ugukwegera cane. Iyo igiciro c’itunga kiri gito cane, abantu bagurana ibirenze . 
+  uburyo bwabo, bagatuma umutungo mwinshi uba mu mitungo, kandi bagatuma ibiciro biduga.
+reviewed: true

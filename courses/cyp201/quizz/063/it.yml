@@ -3,7 +3,7 @@ answer: La cronologia delle transazioni della chiave
 wrong_answers:
   - Il numero di indice della chiave
   - La chiave (privata o pubblica)
-  - Il codice catena
+  - La chain code
 explanation: |
   Una chiave estesa contiene solo le informazioni necessarie per derivare chiavi figlie, non informazioni relative alle transazioni.
 reviewed: false

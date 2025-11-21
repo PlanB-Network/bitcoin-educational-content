@@ -1,0 +1,10 @@
+question: Vilka är de 2 integritetsrisker som är förknippade med att välja mynt?
+answer: CIOH och kopplingen mellan inmatning/identitet hos mottagaren.
+wrong_answers:
+  - IP Address-spårning och korrelation av aktiviteter.
+  - Temporal spårning och Address återanvändning.
+  - Address återanvändning och kopplingen mellan inmatning/identitet av en extern observatör.
+explanation: |
+  Två risker måste beaktas vid val av mynt: möjligheten för betalningsmottagaren att koppla en del av din identitet till de UTXO:er som används som insatsvaror och möjligheten för en extern observatör att upprätta länkar mellan alla UTXO:er som används som insatsvaror (CIOH).
+  
+reviewed: false

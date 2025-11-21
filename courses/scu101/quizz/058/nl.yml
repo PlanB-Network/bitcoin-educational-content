@@ -1,0 +1,10 @@
+question: Wat zijn enkele van de tools die worden gebruikt in cyberbeveiliging?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  Het hoofdstuk noemt Wireshark, Metasploit en Nmap als enkele
+  van de tools die gebruikt worden in cyberbeveiliging.
+reviewed: true

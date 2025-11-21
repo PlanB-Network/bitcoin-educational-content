@@ -1,0 +1,8 @@
+question: Mitä kaivostoiminnan hajauttaminen tarkoittaa Bitcoin:ssa?
+answer: Dynaaminen joukko louhijoita suorittaa transaktioiden järjestämisen kollektiivisesti eikä yksi taho
+wrong_answers:
+  - Lohkojen validointi on hajautettu useille luotetuille viranomaisille yhden keskitetyn palvelimen sijasta
+  - mining-palkkiot jaetaan tasan kaikkien Bitcoin-verkon osallistujien kesken
+  - mining-laitteita valmistavat eri yritykset, jotta vältetään laitteiden monopolisoituminen
+explanation: |
+  Miner:n hajauttaminen tarkoittaa nimenomaan sitä, että transaktioiden järjestämistä ei valvo mikään yksittäinen taho tai kiinteä ryhmä, vaan pikemminkin kaivostyöläisten kollektiivi, joka voi vapaasti liittyä tai lähteä. Tämä eroaa lohkojen validoinnista (joka liittyy full node:n hajautukseen), palkkioiden jakamisesta tai laitteistojen valmistuksesta. mining-kollektiivin dynaaminen luonne - johon kuka tahansa voi osallistua ilman lupaa - tekee Bitcoin:stä sensuurin kestävän ja estää yksittäisiä osapuolia valvomasta, mitkä transaktiot sisällytetään lohkoihin.

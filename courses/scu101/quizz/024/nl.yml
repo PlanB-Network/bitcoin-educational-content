@@ -1,0 +1,9 @@
+question: Wat zijn enkele oplossingen voor gegevensversleuteling op verschillende besturingssystemen?
+answer: BitLocker voor Windows, LUKS voor Linux en de ingebouwde optie voor Mac.
+wrong_answers:
+  - BitLocker voor Linux, LUKS voor Mac en de ingebouwde optie voor Windows.
+  - BitLocker voor Mac, LUKS voor Windows en de ingebouwde optie voor Linux.
+  - LUKS voor alle besturingssystemen.
+explanation: |
+  Verschillende besturingssystemen hebben verschillende oplossingen voor gegevensversleuteling. BitLocker is voor Windows, LUKS is voor Linux en Mac heeft een ingebouwde optie voor gegevensversleuteling.
+reviewed: true

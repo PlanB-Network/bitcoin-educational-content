@@ -1,0 +1,9 @@
+question: Jaka notacja jest używana do wstawiania adresu IPv6 Address w adresie URL?
+answer: IPv6 Address jest ujęty w nawiasy kwadratowe
+wrong_answers:
+  - IPv6 Address jest ujęty w nawiasy
+  - Adres IPv6 Address jest ujęty w cudzysłów
+  - Protokół IPv6 Address jest zapisany w postaci nieprzetworzonej
+explanation: |
+  Nawiasy kwadratowe są używane do odróżnienia adresu IPv6 Address od portu w adresie URL, aby uniknąć wszelkich niejasności.
+reviewed: false

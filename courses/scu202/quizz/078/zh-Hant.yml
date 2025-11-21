@@ -1,0 +1,9 @@
+question: 智慧型手機的最佳建議螢幕鎖定方式是什麼？
+answer: 字母數字密碼
+wrong_answers:
+  - 圖形圖表
+  - 臉部辨識
+  - 無鎖定
+explanation: |
+  字母數字密碼與圖形方案或生物識別技術不同，能提供最佳的防禦未經授權的存取嘗試。
+reviewed: false

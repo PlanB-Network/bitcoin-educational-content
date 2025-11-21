@@ -1,0 +1,12 @@
+question: Vad är risken med att dela den publika nyckeln för en Bitcoin Wallet?
+answer: Förlorad integritet.
+wrong_answers:
+  - Förstör Bitcoin Wallet.
+  - Förlorar Bitcoins.
+  - Hackning av Bitcoin Wallet.
+explanation: |
+  Att dela med sig av den publika nyckeln innebär risker för integriteten, men inte
+  för säkerheten. Detta beror på att den publika nyckeln används för att
+  generate Bitcoin adresser och därmed ta emot pengar, men den
+  representerar inte Ownership av bitcoins.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Distribusi mana yang menggunakan lingkungan desktop Cinnamon secara default?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon dikembangkan oleh tim Linux Mint untuk menawarkan Interface yang modern dan klasik, mirip dengan Windows.
+reviewed: false

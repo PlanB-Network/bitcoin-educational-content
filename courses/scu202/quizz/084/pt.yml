@@ -1,0 +1,9 @@
+question: Qual é a principal falha do Signal no que diz respeito ao anonimato?
+answer: Exige a utilização de um número de telefone
+wrong_answers:
+  - Não é uma fonte aberta
+  - Armazena mensagens num servidor central
+  - Não encripta os ficheiros trocados
+explanation: |
+  O Signal requer um número de telefone para se registar, o que introduz uma potencial rastreabilidade, apesar de o protocolo garantir uma encriptação forte.
+reviewed: false

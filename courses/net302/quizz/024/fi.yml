@@ -1,0 +1,9 @@
+question: Mikä on TCP-protokollan tärkein tehtävä TCP/IP-mallissa?
+answer: Varmista luotettava ja asianmukainen tiedonsiirto
+wrong_answers:
+  - Verkkoviestinnän salaus
+  - IP-osoitteiden osoittaminen koneille
+  - Pirstoa datagrammeja fyysisellä tasolla
+explanation: |
+  TCP varmistaa luotettavan tiedonsiirron varmistamalla eheyden, ylläpitämällä järjestystä ja hoitamalla palautuksen häviötilanteissa.
+reviewed: false

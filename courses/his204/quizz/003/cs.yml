@@ -1,0 +1,8 @@
+question: Co doporučuje La politique mercantiliste?
+answer: vývoz, hromadit zlato a stříbro získané jako platidlo
+wrong_answers:
+  - dovoz, hromadění zahraničního zboží
+  - ani jeden, obchod je neplodný a zbytečný
+  - bilance mezi dovozem a vývozem
+explanation: |
+  Merkantilismus je ekonomická doktrína, která prosazuje státní zásahy na podporu národního obohacení. Hlavním cílem je hromadění drahých kovů (zlata a stříbra) prostřednictvím přebytku obchodní bilance, tj. většího vývozu než dovozu.

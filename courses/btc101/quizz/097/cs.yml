@@ -1,11 +1,12 @@
-question: Co se stane, pokud váš soukromý klíč bude odhalen třetí straně?
-answer: Třetí strana může utratit vaše bitcoiny.
+question: Co není mnemonická fráze v kontextu Bitcoinu?
+answer: Heslo k vaší Bitcoin peněžence.
 wrong_answers:
-  - Třetí strana může pouze zobrazit vaši historii transakcí.
-  - Třetí strana může změnit váš soukromý klíč.
-  - Třetí strana může přistupovat k vašim osobním informacím.
+  - Seznam 12 slov z konkrétního slovníku.
+  - Seznam 24 slov z konkrétního slovníku.
+  - Tajemství pro přístup k vašim bitcoinovým prostředkům.
 explanation: |
-  Pokud je váš soukromý klíč odhalen třetí straně, přidružené
-  finanční prostředky již nejsou v bezpečí, protože soukromý
-  klíč jim umožňuje přístup k vašim prostředkům.
+  Mnemonická fráze v kontextu Bitcoinu je seznam 12
+  nebo 24 slov, který vám umožňuje obnovit vaši peněženku
+  v jakékoli aplikaci pro Bitcoin peněženky. Každý, kdo má přístup
+  k tomuto seznamu, může také přistupovat k vašim bitcoinům.
 reviewed: true

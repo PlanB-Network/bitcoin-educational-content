@@ -1,0 +1,9 @@
+question: Bitcoin'ın genel bir yükseliş eğiliminde olması ne anlama geliyor?
+answer: Bitcoin'deki genel artış eğilimi, genel olarak Bitcoin fiyatının arttığı anlamına gelmektedir.
+wrong_answers:
+  - Bitcoin'de genel bir artış eğilimi, fiyatın herhangi bir dalgalanma olmaksızın süresiz olarak yükselmesinin garanti edildiği anlamına gelir.
+  - Bitcoin'teki genel artış eğilimi, Bitcoin'ün daha az değerli hale geldiği ve piyasa cazibesini kaybettiği anlamına gelmektedir.
+  - Bitcoin'teki genel bir yükseliş eğilimi, yalnızca küçük bir yatırımcı grubu arasında popüler olduğu ve genel piyasa üzerinde bir etkisi olmadığı anlamına gelir.
+explanation: |
+  Bitcoin'teki genel bir yükseliş eğilimi, belirli bir süre boyunca fiyatında tutarlı bir artış anlamına gelir Yükseliş eğilimi olumlu bir yörüngeye işaret ederken, fiyatın herhangi bir dalgalanma olmadan yükselmeye devam edeceğini garanti etmediğini unutmamak önemlidir.
+reviewed: true

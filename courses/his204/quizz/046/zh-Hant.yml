@@ -1,0 +1,8 @@
+question: 在經濟學之前，魁奈的醫學專業是什麼？
+answer: 外科醫師
+wrong_answers:
+  - 牙醫
+  - 護士
+  - 藥劑師
+explanation: |
+  François Quesnay 在成為經濟學家之前是一名外科醫生。他甚至是蓬巴杜夫人的外科醫生。

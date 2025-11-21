@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin Core
 explanation: |
   Le Lightning Network permet des transactions rapides et à faible coût grâce à des transactions en dehors de la blockchain Bitcoin.
-reviewed: false
+reviewed: true 

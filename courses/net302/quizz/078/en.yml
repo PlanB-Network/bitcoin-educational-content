@@ -1,0 +1,9 @@
+question: In which DNS zone are PTR records placed for IPv6 reverse resolution?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  The ip6.arpa zone is specifically dedicated to reverse resolution of IPv6 addresses, while in-addr.arpa is used for IPv4.
+reviewed: false

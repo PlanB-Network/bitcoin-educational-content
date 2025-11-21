@@ -1,0 +1,9 @@
+question: Wat betekent de notatie /<0;1>/* in een descriptor?
+answer: Naar de externe en interne keten met sequentiële afleiding
+wrong_answers:
+  - Naar een gesorteerde meerstemmige handtekening Address
+  - Naar een controlesom voor afleidingspaden
+  - Naar een verhard afleidingspad
+explanation: |
+  De notatie /<0;1>/* geeft aan dat de descriptor generate adressen kan geven voor de externe (0) en interne (1) keten, met sequentiële afleiding dankzij het jokerteken (*).
+reviewed: false

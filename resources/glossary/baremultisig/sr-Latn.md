@@ -1,0 +1,5 @@
+---
+term: BARE-Multisig
+---
+
+Standardni skript model P2MS koristi se za uspostavljanje uslova trošenja na UTXO. Omogućava zaključavanje bitcoina sa više javnih ključeva. Da bi se ovi bitcoini potrošili, mora se obezbediti potpis sa unapred definisanim brojem povezanih privatnih ključeva. Na primer, `2/3` P2MS ima `3` javna ključa sa `3` povezana tajna privatna ključa. Da bi se potrošili bitcoini zaključani ovim P2MS skriptom, mora se napraviti potpis sa najmanje `2` od `3` privatna ključa. Ovo je sistem sigurnosti sa pragom. Ovaj skript je izumio Gavin Andresen 2011. godine kada je upravo preuzeo održavanje glavnog Bitcoin klijenta. Danas, P2MS se koristi samo marginalno od strane nekih aplikacija. Velika većina modernih multisignatura koristi druge modele skripti kao što su P2SH ili P2WSH. U poređenju sa njima, P2MS je izuzetno trivijalan. Javni ključevi koje sadrži otkrivaju se prilikom primanja transakcije. Korišćenje P2MS je takođe skuplje od drugih multisignature skripti.

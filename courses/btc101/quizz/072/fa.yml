@@ -1,0 +1,9 @@
+question: چگونه می‌توانید امنیت پیش‌فرض Bitcoin Wallet خود را تقویت کنید؟
+answer: با افزودن یک passphrase به Bitcoin Wallet خود.
+wrong_answers:
+  - با افزودن یک کلید خصوصی دوم به Bitcoin Wallet خود.
+  - با اضافه کردن یک کلید عمومی دوم به Bitcoin Wallet خود.
+  - با اضافه کردن یک عبارت Mnemonic دوم به Bitcoin Wallet خود.
+explanation: |
+  اگر از امنیت پیش‌فرض Bitcoin Wallet خود راضی نیستید، همیشه می‌توانید با افزودن یک passphrase به Bitcoin Wallet خود، آن را تقویت کنید.
+reviewed: true

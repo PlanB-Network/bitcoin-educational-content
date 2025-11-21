@@ -1,0 +1,9 @@
+question: Romalı filozof Seneca'ya göre mutluluk nelerden oluşur?
+answer: Erdem pratiği
+wrong_answers:
+  - Zenginlik
+  - Zevk
+  - Yukarıdakilerin hepsi
+explanation: |
+  Seneca'ya göre gerçek mutluluk, bireyin akla uygun yaşamasını ve zevklerden ya da zenginlikten bağımsız olarak kalıcı bir iç huzura kavuşmasını sağlayan erdemin uygulanmasında yatar.
+reviewed: true

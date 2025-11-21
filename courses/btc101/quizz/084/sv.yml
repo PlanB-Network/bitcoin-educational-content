@@ -1,0 +1,13 @@
+question: Vad är den rekommenderade användningen av en offline, eller Cold, fysisk Wallet?
+answer: Förvaring av stora mängder.
+wrong_answers:
+  - Förvaring av dagliga utgifter.
+  - Förvaring av små mängder.
+  - Förvaring av kortsiktigt sparande.
+explanation: |
+  En offline, eller Cold, fysisk Wallet rekommenderas för
+  förvaring av stora belopp eftersom den är mindre sårbar för
+  online-hot än Hot-plånböcker. Den är dock inte
+  rekommenderas dock inte för dagliga utgifter eftersom den är mindre
+  tillgänglig för dagliga transaktioner.
+reviewed: true

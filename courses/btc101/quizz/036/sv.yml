@@ -1,0 +1,12 @@
+question: Hur har institutionerna historiskt sett gått tillväga när de infört fiatvalutor?
+answer: Ledarna centraliserar guldet och inför en ny valuta som motsvarar guldets värde och som sedan gradvis devalveras.
+wrong_answers:
+  - Ledarna inför en ny valuta som backas upp av guld, som sedan gradvis ökar i värde.
+  - Ledarna inför en ny valuta utan egentligt värde, som sedan gradvis ökar i värde.
+  - Ledarna inför en ny valuta som backas upp av en råvarukorg och som sedan hålls stabil i värde.
+explanation: |
+  Historiskt sett har ledare centraliserat guld och infört en ny
+  en ny valuta som motsvarar guldets värde. Denna nya
+  valutan devalveras sedan gradvis, ofta under förevändning
+  av att vara i folkets intresse.
+reviewed: true

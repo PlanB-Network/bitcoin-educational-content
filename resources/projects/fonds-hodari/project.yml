@@ -1,0 +1,32 @@
+id: 34f921b6-3cf9-4383-9239-dad7059fb9b1
+
+name: Fonds Hodari
+
+address_line_1: Goma, République Démocratique du Congo
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.fondshodari.org/fr
+  twitter: https://x.com/hodarifund0
+  Github: 
+  youtube: 
+
+category: investment
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-18
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - startups
+  - bitcoin
+  - vc fund
+
+contributor_names:
+  - Gloirew

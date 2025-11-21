@@ -1,12 +1,13 @@
-question: Quelle est l'analogie utilisée dans ce cours pour expliquer comment vous pouvez recevoir des bitcoins sans permettre à l'expéditeur de voler vos fonds ?
-answer: Une boîte aux lettres.
+question: Quel est l'usage recommandé d'un portefeuille mobile ?
+answer: Stocker les dépenses quotidiennes.
 wrong_answers:
-  - Un compte bancaire.
-  - Un coffre-fort.
-  - Une maison.
+  - Stocker les économies à long terme.
+  - Stocker les économies à moyen terme.
+  - Stocker de grandes sommes.
 explanation: |
-  L'analogie utilisée pour expliquer comment vous pouvez recevoir des Bitcoins
-  sans permettre à l'expéditeur de voler vos fonds est une
-  boîte aux lettres. Les gens déposent de l'argent dedans, mais vous êtes le seul
-  à pouvoir l'ouvrir.
+  Un portefeuille mobile est recommandé pour les dépenses quotidiennes car
+  il est facile de réaliser des transactions avec. Cependant, il
+  n'est pas recommandé pour stocker de grandes sommes ou pour
+  les économies à long terme, car il est potentiellement vulnérable aux
+  menaces en ligne.
 reviewed: true

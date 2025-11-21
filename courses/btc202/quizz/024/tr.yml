@@ -1,0 +1,9 @@
+question: Bir Wallet üçüncü taraf bir düğüme bağlıysa risk nedir?
+answer: Gözetim ve sansür riski
+wrong_answers:
+  - Otomatik Double-spending riski
+  - Özel anahtarları kaybetme riski
+  - Kayıp riski ve izleme
+explanation: |
+  Üçüncü taraf bir düğüm işlemlerinizi analiz edebilir veya engelleyebilir, hatta verilerinizi kimliğinizle ilişkilendirebilir.
+reviewed: true

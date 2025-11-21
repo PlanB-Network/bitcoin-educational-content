@@ -1,0 +1,8 @@
+question: Pourquoi, selon les disciples de Colbert, le commerce est-il une guerre perpétuelle ?
+answer: Les nations ne peuvent s’enrichir qu’aux dépens les unes des autres
+wrong_answers:
+  - Il faut des navires de guerre pour soutenir le commerce
+  - C’est dans les périodes de guerre que le commerce fleurit le plus
+  - Le commerce est une compétition constante pour les ressources
+explanation: |
+  Dans la vision mercantiliste, la richesse mondiale est considérée comme une quantité fixe. Par conséquent, l'enrichissement d'une nation se fait nécessairement au détriment des autres, d'où l'idée d'une "guerre économique" permanente.

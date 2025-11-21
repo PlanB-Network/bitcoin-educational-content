@@ -1,0 +1,9 @@
+question: Je, ni huduma gani inayoorodhesha wafanyabiashara wanaokubali Bitcoin duniani kote?
+answer: Ramani ya BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Majadiliano
+  - Uswisi Bitcoin Pay
+explanation: |
+  Ramani ya BTC ni jukwaa maalum ambalo huwapata wafanyabiashara wanaokubali Bitcoin kote ulimwenguni.
+reviewed: false

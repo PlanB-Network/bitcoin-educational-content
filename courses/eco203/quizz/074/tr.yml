@@ -1,0 +1,9 @@
+question: Friedrich Hayek'e göre merkezi planlama neden verimsizdir?
+answer: Ekonomik kararların karmaşıklığı ile başa çıkamaz
+wrong_answers:
+  - Üretilen mal miktarını azaltır
+  - Üretim maliyetlerini artırır
+  - Uluslararası ticareti teşvik eder
+explanation: |
+  Hayek, merkezi planlamanın ekonomik kararların karmaşıklığı nedeniyle başarısız olduğunu ve bunu ancak serbest piyasanın etkin bir şekilde koordine edebileceğini belirtmektedir.
+reviewed: false

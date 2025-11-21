@@ -1,0 +1,8 @@
+question: Which philosopher wrote in the Ephémérides du Citoyen, the journal of the Physiocrats?
+answer: Diderot
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Diderot contributed to the "Éphémérides du Citoyen", the journal of the Physiocrats, writing articles on economic and social topics.

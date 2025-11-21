@@ -1,0 +1,9 @@
+question: Vad är definitionen av en slumpmässig variabel i kryptografisammanhang?
+answer: En variabel som kan anta flera möjliga värden med en positiv sannolikhet
+wrong_answers:
+  - En variabel som ändrar värde i varje ögonblick
+  - En variabel vars värden är fasta och fördefinierade
+  - En variabel som alltid definieras i samband med ett specifikt fysiskt experiment
+explanation: |
+  En slumpvariabel kan anta två eller flera värden, vart och ett med en positiv sannolikhet, och den definieras ofta abstrakt i samband med kryptografi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tổ chức nào được thành lập vào năm 1998 để quảng bá thuật ngữ "nguồn mở"?
+answer: Sáng kiến nguồn mở (OSI)
+wrong_answers:
+  - Tổ chức Phần mềm Tự do (FSF)
+  - Dự án Debian
+  - Quỹ Mozilla
+explanation: |
+  OSI được tạo ra để nhấn mạnh khía cạnh thực dụng, kỹ thuật của tính mở của mã, khác biệt với triết lý phần mềm miễn phí.
+reviewed: false

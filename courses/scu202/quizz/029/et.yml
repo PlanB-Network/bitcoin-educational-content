@@ -1,0 +1,9 @@
+question: Millist Ubuntu versiooni soovitatakse algajatele stabiilsuse ja toetuse pikkuse poolest?
+answer: LTS (pikaajaline toetus)
+wrong_answers:
+  - Veereväljaanne
+  - Esimene versioon
+  - Alfa-väljaanne
+explanation: |
+  Ubuntu LTS-versiooni hooldatakse viis aastat ja see pakub suuremat stabiilsust, mistõttu on see ideaalne algajatele kasutajatele.
+reviewed: false

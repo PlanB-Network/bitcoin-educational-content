@@ -1,0 +1,9 @@
+question: RGB'de akıllı bir Contract State'ın iki ana bileşeni nedir?
+answer: Global State ve Sahip Olunan Devletler
+wrong_answers:
+  - Commitment ve Genesis
+  - Seal Definition ve State Transition
+  - Valency ve Contract Rights
+explanation: |
+  Global State kamuya açık verileri içerirken, Sahipli Devletler UTXO'lar aracılığıyla belirli sahiplerle ilişkilendirilir.
+reviewed: false

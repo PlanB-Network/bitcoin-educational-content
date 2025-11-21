@@ -1,0 +1,9 @@
+question: Ni igiki gishoboza guhuza amakuru mu gihe nyaco hagati y’imirongo ya Enterprise Bitcoin na porogarama ya ERP?
+answer: APIs
+wrong_answers:
+  - Dosiye za CSV
+  - Ugushirwako ibice
+  - Raporo za imeyili
+explanation: |
+  APIs ziremeza gukomeza, gukorana mu gihe nyaco.
+reviewed: false

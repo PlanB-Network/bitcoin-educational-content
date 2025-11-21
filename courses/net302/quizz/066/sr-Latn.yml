@@ -1,0 +1,9 @@
+question: Koja su dva veka povezana sa automatski dodeljenim IPv6 Address?
+answer: Preferirani životni vek i važeći životni vek
+wrong_answers:
+  - Vreme zakupa i vreme zadržavanja
+  - Vreme-života i isteka
+  - Početni vek trajanja i sekundarni vek trajanja
+explanation: |
+  Preferirani vek trajanja određuje period normalne upotrebe Address, a važeći vek trajanja njegov ukupni period validnosti.
+reviewed: false

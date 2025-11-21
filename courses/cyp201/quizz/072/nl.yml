@@ -1,0 +1,9 @@
+question: Wat betekent een apostrof (') of de h in een afleidingspad?
+answer: Een verharde afleiding
+wrong_answers:
+  - Een normale afleiding
+  - Een externe afleiding
+  - Een niet-standaard afleiding
+explanation: |
+  Een apostrof geeft aan dat de afleiding gehard is, waarbij een privésleutel van de ouder nodig is om generate van de kindsleutel te verkrijgen.
+reviewed: false

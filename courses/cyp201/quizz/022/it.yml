@@ -5,5 +5,5 @@ wrong_answers:
   - Attraverso la crittografia asimmetrica
   - Con l'aggiunta ripetuta di valori numerici
 explanation: |
-  La chiave pubblica si ottiene dalla moltiplicazione scalare della chiave privata con il punto generatore G sulla curva ellittica.
+  La chiave pubblica si ottiene moltiplicando scalrmente la chiave privata con il punto G di origine sulla curva ellittica.
 reviewed: false

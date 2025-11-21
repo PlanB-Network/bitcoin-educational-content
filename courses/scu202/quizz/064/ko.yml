@@ -1,0 +1,9 @@
+question: 속도와 호환성으로 유명하지만 광고 목적으로 방대한 양의 사용자 데이터를 수집하는 Blink 기반 브라우저는 무엇인가요?
+answer: Chrome
+wrong_answers:
+  - Brave
+  - Firefox
+  - 토르 브라우저
+explanation: |
+  Google 크롬은 강력한 도구이지만 기본적으로 많은 양의 개인 데이터를 수집하며, 구글은 이를 타겟 광고에 사용합니다.
+reviewed: false

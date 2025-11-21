@@ -1,0 +1,9 @@
+question: Toolkit grafis apa yang digunakan oleh GNOME dan Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Pola
+explanation: |
+  GNOME, Xfce, Cinnamon dan MATE didasarkan pada GTK, sebuah pustaka perangkat lunak yang didedikasikan untuk antarmuka pengguna grafis di Linux.
+reviewed: false

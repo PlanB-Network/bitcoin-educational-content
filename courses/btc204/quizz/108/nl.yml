@@ -1,0 +1,10 @@
+question: Welke heuristische analyse van de keten wordt gebruikt door de PayJoin transactie om als misleiding voor de analyse te dienen?
+answer: De CIOH
+wrong_answers:
+  - Address hergebruik
+  - Wallet vingerafdrukken
+  - Hergebruik van versies
+explanation: |
+  Wanneer een analist een PayJoin transactie bekijkt, wordt hem wijsgemaakt dat alle input van dezelfde persoon afkomstig is vanwege de CIOH. Deze perceptie is echter onjuist, omdat de ontvanger van de betaling ook bijdraagt aan de inputs naast de daadwerkelijke betaler. Daarom wordt de ketenanalyse omgeleid naar een interpretatie die onjuist blijkt te zijn.
+  
+reviewed: false

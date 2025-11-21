@@ -1,0 +1,9 @@
+question: Koja distribucijska porodica koristi RPM paket menadžer?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Luk
+  - Slackware
+explanation: |
+  RPM format je pokrenuo Red Hat i predstavlja osnovu za Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux i druge povezane distribucije.
+reviewed: false

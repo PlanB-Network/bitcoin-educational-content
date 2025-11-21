@@ -1,0 +1,9 @@
+question: Hangi NAT modu düzinelerce cihazın portları değiştirerek tek bir genel IP Address'ı paylaşmasına izin verir?
+answer: PAT
+wrong_answers:
+  - Statik NAT
+  - Dinamik NAT
+  - Statik yönlendirme
+explanation: |
+  NAT aşırı yüklemesi veya IP maskeleme olarak da bilinen PAT, oturumları ayırt etmek için bağlantı noktası numaralarını değiştirerek birçok cihazın aynı genel Address'i kullanmasını sağlar.
+reviewed: false

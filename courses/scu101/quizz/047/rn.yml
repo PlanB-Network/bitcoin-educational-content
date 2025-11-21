@@ -1,0 +1,12 @@
+question: None 2FA ifise intumbero iyihe?
+answer: Kugira ngo ukinge amakonti yawe yo kuri Internet kugira ngo ntihagire uwuyironka ata wemerewe.
+wrong_answers:
+  - Kugira ngo bikugorere kuronka konti yawe bwite .
+  - Gukurikirana ibikorwa vyawe kuri internet
+  - Kugira ngo wongere umuvuduko wa interineti yawe
+explanation: |
+  2FA yongerako Layer y'umutekano ku rubuga rwawe
+  amakonti. Naho umunyaruyeri yoronka ijambobanga ryawe, azo
+  ntushobora kwinjira muri konti yawe ata kabiri
+  ikintu co kugenzura.
+reviewed: true

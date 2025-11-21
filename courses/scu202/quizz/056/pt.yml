@@ -1,0 +1,9 @@
+question: Que motor de renderização foi criado a partir de um Fork do KHTML para equipar o Safari?
+answer: WebKit
+wrong_answers:
+  - Tridente
+  - Osga
+  - Piscar os olhos
+explanation: |
+  O WebKit é um Fork do KHTML, escolhido pela Apple para o Safari a partir de 2003, e subsequentemente adotado por muitos navegadores.
+reviewed: false

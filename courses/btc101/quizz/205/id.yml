@@ -1,9 +1,10 @@
-question: Apa salah satu alasan mengapa Anda harus mengkonsolidasikan UTXO Anda di dompet Anda dari waktu ke waktu?
-answer: Untuk menghindari biaya yang tidak perlu selama transaksi.
+question: Bagaimana Bitcoin digambarkan dalam teks?
+answer: Sebagai objek multidisiplin
 wrong_answers:
-  - Untuk meningkatkan nilai Bitcoin Anda.
-  - Untuk mencegah Bitcoin Anda dicuri.
-  - Untuk memastikan Bitcoin Anda selalu tersedia.
+  - Sebagai objek sederhana
+  - Sebagai objek kompleks
+  - Sebagai objek tunggal disiplin
 explanation: >-
-  Teks tersebut menyebutkan bahwa mengkonsolidasikan UTXO Anda di dompet Anda dari waktu ke waktu sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
-reviewed: false
+  Bitcoin digambarkan sebagai objek multidisiplin karena menimbulkan
+  pertanyaan yang terkait dengan berbagai bidang, termasuk kriptografi, teori permainan, ekonomi
+  dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi.

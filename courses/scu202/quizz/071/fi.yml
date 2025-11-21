@@ -1,0 +1,9 @@
+question: Miksi useimmissa Android-laitteissa on valmiiksi asennettuna Google Mobile Services?
+answer: Valmistajien on allekirjoitettava lisenssisopimus Googlen kanssa
+wrong_answers:
+  - EU:n lainsäädännön edellyttämät palvelut
+  - GMS:n lähdekoodi on ilmainen
+  - GMS on pakollinen kaikissa Linux-laitteissa
+explanation: |
+  Jotta valmistajat voisivat hyödyntää lippulaivasovelluksia (Play Store, Maps jne.), niiden on integroitava GMS, mikä edellyttää tiukkojen lisenssisopimusten allekirjoittamista Googlen kanssa.
+reviewed: false

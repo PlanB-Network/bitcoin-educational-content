@@ -1,0 +1,9 @@
+question: چگونه می‌توانم "NonInflatableAsset.RGB" Schema را به Stash محلی وارد کنم؟
+answer: طرح‌واره‌های RGB/دارایی‌های‌غیرقابل‌تورم.RGB
+wrong_answers:
+  - RGB واردات Schema/NonInflatableAssets.RGB
+  - طرح‌واره‌های کلون RGB/دارایی‌های غیرقابل‌تورم.RGB
+  - کلون RGB از Schema/NonInflatableAssets.RGB
+explanation: |
+  کامپایل شده Schema با استفاده از دستور "RGB import schemata/NonInflatableAssets.RGB" به Stash محلی وارد می‌شود.
+reviewed: false

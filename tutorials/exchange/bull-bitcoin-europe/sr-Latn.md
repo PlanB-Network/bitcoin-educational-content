@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Kupite i prodajte bitkoine na Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
@@ -7,12 +7,9 @@ description: Kupite i prodajte bitkoine na Bull Bitcoin
 
 Bull Bitcoin je Bitcoin-only Exchange platforma osnovana 2013. godine u Kanadi od strane Francisa Pouliota, ikonične figure u Bitcoin ekosistemu. Filozofija Bull Bitcoin je da korisnicima ponudi alate za finansijski suverenitet i emancipaciju. Exchange platforma je ne-kustodijalna, što znači da uvek ostajete suvereni nad svojim Bitcoinima.
 
+Prvobitno dostupna samo u Kanadi, platforma je sada dostupna u Evropi i mnogim drugim zemljama sa potpuno novim, optimizovanim interfejsom. Ova nova verzija Bull Bitcoin omogućava jednostavno i brzo kupovanje i prodavanje bitkoina korišćenjem Lightning mreže i trenutnih SEPA transfera. Takođe integriše plaćanje računa u bitkoinima. U budućnosti, platforma će uključiti opcije DCA, automatske kupovine i limitirane naloge.
 
-U početku dostupna samo u Kanadi, platforma je sada dostupna u Evropi, sa potpuno novim, optimizovanim Interface. Ova nova verzija Bull Bitcoin trenutno je dostupna samo u Evropi. Omogućava vam da brzo i lako kupujete i prodajete bitkoine, zahvaljujući upotrebi Lightning-a i trenutnim SEPA transferima. Na kraju, platforma će takođe uključivati opcije za DCA, automatske kupovine, limitirane naloge i plaćanje računa u bitkoinima.
-
-
-Bull Bitcoin naglašava pružanje transparentne usluge bez skrivenih troškova. Kao i sve druge Exchange platforme u Evropi, korišćenje Bull Bitcoin zahteva KYC (procedura identifikacije klijenata).
-
+Bull Bitcoin se ponosi pružanjem transparentne usluge bez skrivenih troškova. Imajte na umu da, kao i većina berzi, korišćenje Bull Bitcoin zahteva sprovođenje KYC (procedura identifikacije klijenata).
 
 ## Registrujte se na Bull Bitcoin
 
@@ -71,7 +68,7 @@ Skenirajte QR kod pomoću aplikacije za autentifikaciju, unesite 6-cifreni kod i
 Ako niste upoznati sa korišćenjem aplikacija za autentifikaciju za 2FA, preporučujem da pogledate ovaj vodič o aplikaciji Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Unesite svoju lozinku da potvrdite.
 
@@ -184,9 +181,9 @@ Unesite iznos koji želite da kupite. Takođe ćete morati da izaberete kako že
 Ako niste upoznati sa korišćenjem Bitcoin, Lightning ili Liquid novčanika, predlažem da pohađate naš posvećeni kurs obuke:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Možete takođe istražiti [naše detaljne tutorijale o najboljim Bitcoin novčanicima](https://planb.network/tutorials/Wallet).
+Možete takođe istražiti [naše detaljne tutorijale o najboljim Bitcoin novčanicima](https://planb.academy/tutorials/wallet).
 
 
 Zatim potvrdite kupovinu klikom na "*Confirm Buy*".
@@ -289,10 +286,18 @@ Da biste pratili sve svoje transakcije, možete se posavetovati sa istorijom u m
 ![BULL](assets/fr/36.webp)
 
 
+## Pokreni automatsku ponavljajuću kupovinu (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Kreiraj limit nalog
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Sada znate kako lako kupiti i prodati Bitcoin sa Bull Bitcoin. Ako vam je ovaj vodič bio koristan, bio bih veoma zahvalan ako stavite Green palac ispod. Slobodno podelite ovaj članak na vašim društvenim mrežama. Hvala vam puno!
 
 
 Preporučujem vam da pogledate i ovaj drugi sveobuhvatni vodič kako biste naučili kako pravilno upravljati vašom Mnemonic frazom:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

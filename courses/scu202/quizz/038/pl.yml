@@ -1,0 +1,9 @@
+question: Którego polecenia można użyć do zaktualizowania wszystkich pakietów w dystrybucji Ubuntu?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  W Ubuntu (i Debianie) polecenie "sudo apt update && sudo apt upgrade" synchronizuje listę pakietów i instaluje wszystkie dostępne aktualizacje.
+reviewed: false

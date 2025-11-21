@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+Pole `nSequence` we wpisie transakcji Bitcoin służy do wskazania, w jaki sposób ten wpis jest blokowany czasowo. Pierwotnie miało to pozwolić na dynamiczne zastępowanie transakcji w mempoolach, aby umożliwić nakładkę systemu płatności podobną do Lightning. Jednak jego użycie ewoluowało wraz z wprowadzeniem względnej blokady czasowej przez BIP68. Pole `nSequence` może teraz określać względne opóźnienie przed włączeniem transakcji do bloku. Opóźnienie to może być zdefiniowane jako liczba bloków lub jako wielokrotność 512 sekund (tj. czasu rzeczywistego). Należy zauważyć, że ta nowa interpretacja pola `nSequence` jest ważna tylko wtedy, gdy pole `nVersion` jest większe lub równe `2`. Ta interpretacja pola `nSequence` jest na poziomie reguł konsensusu Bitcoin. Ponadto, na poziomie zasad standaryzacji, pole to jest również używane do sygnalizacji RBF (Replace-by-fee). Jeśli transakcja zawiera `nSequence` niższe niż `0xfffffe`, to może zostać zastąpiona przez RBF na węzłach, które przestrzegają tej polityki.

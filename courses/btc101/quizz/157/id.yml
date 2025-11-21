@@ -1,12 +1,11 @@
-question: Apa itu Masalah Jenderal Bizantium dan bagaimana Bitcoin menyelesaikannya?
-answer: Ini adalah masalah koordinasi informasi dalam sistem di mana berbagai aktor tidak dapat dipercaya. Bitcoin menyelesaikannya melalui penggunaan blockchain berbasis Bukti Kerja dengan kesulitan yang berubah-ubah.
+question: Apa keuntungan utama Bitcoin bagi individu yang hidup di bawah tekanan finansial atau rezim diktator?
+answer: Ini menawarkan bentuk kebebasan finansial dengan menghindari sensor dan pembatasan perbankan
 wrong_answers:
-  - Ini adalah masalah verifikasi transaksi dalam jaringan terdesentralisasi. Bitcoin menyelesaikannya melalui penggunaan tanda tangan digital.
-  - Ini adalah masalah mencegah pengeluaran ganda dalam mata uang digital. Bitcoin menyelesaikannya melalui penggunaan buku besar publik.
-  - Ini adalah masalah mempertahankan konsensus dalam jaringan terdesentralisasi. Bitcoin menyelesaikannya melalui penggunaan algoritma Bukti Kepemilikan.
-explanation: |
-  Masalah Jenderal Bizantium adalah masalah klasik dalam komputasi terdistribusi,
-  yang melibatkan pencapaian konsensus dalam jaringan di mana beberapa node mungkin rusak
-  atau berbahaya. Bitcoin menyelesaikan masalah ini melalui penggunaan blockchain berbasis
-  Bukti Kerja, yang memastikan semua node setuju pada keadaan riwayat transaksi.
+  - Ini menyediakan mata uang yang stabil
+  - Ini memungkinkan transaksi anonim
+  - Ini menawarkan pengembalian investasi yang tinggi
+explanation: >-
+  Bitcoin menawarkan bentuk kebebasan finansial dengan menghindari sensor dan
+  pembatasan perbankan. Ini sangat bermanfaat bagi individu yang hidup di bawah
+  tekanan finansial atau rezim diktator.
 reviewed: false

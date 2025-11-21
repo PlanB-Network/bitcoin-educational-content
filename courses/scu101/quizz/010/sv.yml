@@ -1,0 +1,13 @@
+question: Vad är skillnaden mellan VPN för företag och VPN för privatpersoner?
+answer: VPN för företag är dyrare och mer komplicerade, medan VPN för konsumenter är mer lättillgängliga och användarvänliga.
+wrong_answers:
+  - VPN för företag är vanligtvis säkrare än VPN för privatpersoner, som alltid är dyrare.
+  - VPN för privatpersoner är alltid dyrare än VPN för företag på grund av den ekonomiska skalan som de senare har tillgång till.
+  - På grund av sin mer krävande målgrupp krypterar VPN-tjänster för företag alltid data, medan VPN-tjänster för konsumenter inte gör det.
+explanation: |
+  VPN för företag är utformade för företag och är
+  vanligtvis dyrare och mer komplexa att installera och hantera.
+  Å andra sidan är konsument-VPN:er avsedda för
+  enskilda användare och är i allmänhet mer tillgängliga och
+  användarvänliga.
+reviewed: true

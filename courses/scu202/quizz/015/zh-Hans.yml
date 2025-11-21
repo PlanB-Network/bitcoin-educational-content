@@ -1,0 +1,9 @@
+question: 滚动发布的主要优势是什么？
+answer: 使用最新软件
+wrong_answers:
+  - 与 Windows 的兼容性更强
+  - 没有 Interface 图形的环境
+  - 强制性销售支持
+explanation: |
+  滚动发布整合了持续的软件更新，确保永久访问最新版本。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline node-in-a-box lahendus on täna turuliider?
+answer: Vihmavarju
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel on kõige populaarsem node-in-a-box lahendus tänu selle lihtsale paigaldamisele ja rikkalikule App Store'ile.
+reviewed: true

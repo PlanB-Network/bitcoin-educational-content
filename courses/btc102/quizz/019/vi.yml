@@ -1,0 +1,9 @@
+question: Ai đã xuất bản Sách trắng Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim tháng năm
+  - Eric Hughes
+explanation: |
+  Sách trắng này được xuất bản vào cuối năm 2008 bởi Satoshi Nakamoto (một bút danh).
+reviewed: false

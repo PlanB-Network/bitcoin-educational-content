@@ -1,0 +1,9 @@
+question: Vilken är den sändande nodens huvudsakliga roll vid routing på Lightning Network?
+answer: Beräkna den fullständiga rutten till mottagaren
+wrong_answers:
+  - Lagra likviditetsinformationen för alla nätverkets kanaler
+  - Bestäm transaktionsavgifterna för varje mellanliggande nod
+  - Kommunicera direkt med alla mellanliggande noder
+explanation: |
+  Den sändande noden är ansvarig för att beräkna hela vägen till mottagaren, eftersom mellanliggande noder bara känner till sin närmaste granne.
+reviewed: false

@@ -1,0 +1,25 @@
+id: dd3ff4a5-8841-4a73-a35e-0b80aa83dcf0
+start_date: 2025-05-17 13:30:00
+end_date: 2025-05-17 15:30:00
+timezone: Asia/Kolkata
+address_city_country: Bengaluru, Karnataka, India
+name: "Bengaluru BITDEVS: SegWit and Taproot "
+type: workshop
+description: "​This time, we’re diving into two of Bitcoin’s most significant
+  protocol upgrades: SegWit and Taproot.\r
+
+  \r
+
+  ​Whether you’re new to the world of Bitcoin or already knee-deep in BIPs, this
+  session will walk you through why these upgrades matter, how they work under
+  the hood, and the real-world impact they’ve had on Bitcoin’s scalability,
+  privacy, and expressiveness."
+language:
+  - hi
+links:
+  website: https://lu.ma/yeywgio6
+project_id: 5cffb254-278e-4d87-a4d6-4efe5a538dde
+tags:
+  - development
+  - software
+  - deep-dive

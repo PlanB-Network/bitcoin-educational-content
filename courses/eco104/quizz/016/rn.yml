@@ -1,0 +1,14 @@
+question: Igihe ufata uburenganzira bwo kwibungabunga, ni igiki ca mbere ukwiye gukora kugira ngo ugabanye ingorane zo gutakaza?
+answer: Gusubiza inyuma Wallet yawe yo gusubirana seed ijambo
+wrong_answers:
+  - Sangira imfunguruzo zawe z'ibanga n'uwundi muntu wizigiye
+  - Iyumvire amajambo yawe yo gusubirana seed maze uyabike kuri mudasobwa yawe
+  - Guhagarika kwemeza ibintu bibiri (2FA)
+explanation: |
+  Mbere na mbere, nushire inyuma Wallet yawe igihe ufata uburenganzira bwo kwibungabunga.
+  Ivyuma vy’amasakoshi biza n’ijambo ry’ugusubirana seed, urutonde rw’amajambo 
+  birashobora gukoreshwa mu gusubiza imfunguruzo zawe z’ibanga mu gihe igikoresho cawe coba carazimiye canke coba carahononekaye.
+  Rema kopi y’umubiri, nk’icuma [isahani ya seed](https: //coincodex.com/ingingo/23147/ivyuma-vyiza-vy’amasakoshi-y’ivyuma-vy’ububiko bw’amajambo-ya seed/), y’iri jambo rya seed na 
+  ubike ahantu heza. Ni vyiza ko iri jambo ry’ugukira seed riguma ritekanye. 
+  NTUKIGEZE ubisangiza umuntu n’umwe.
+reviewed: true

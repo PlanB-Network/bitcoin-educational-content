@@ -1,0 +1,9 @@
+question: Determinizm nedir?
+answer: İçinde ne olumsallık ne de şansın bulunduğu bir dünya anlayışı.
+wrong_answers:
+  - Tanrı tarafından belirlenen bir dünya görüşü.
+  - Bir çeşit ateizm.
+  - Bir batıl inanç.
+explanation: |
+  Determinizm, ne olumsallığın ne de şansın var olduğu bir dünya görüşüdür. Her olay, değişmez doğa yasalarına göre, önceki nedenlerin zorunlu sonucudur.
+reviewed: false

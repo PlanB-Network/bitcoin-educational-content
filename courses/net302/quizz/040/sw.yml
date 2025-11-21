@@ -1,0 +1,9 @@
+question: Ni rekodi gani ni ya lazima katika kila faili ya eneo la DNS?
+answer: SOA (Mwanzo wa Mamlaka)
+wrong_answers:
+  - PTR (Kielekezi)
+  - AAAA (IPv6 Address)
+  - SRV (Kitafuta huduma)
+explanation: |
+  Rekodi ya SOA inafafanua mamlaka ya eneo na inahitajika katika kila faili ya eneo la DNS.
+reviewed: false

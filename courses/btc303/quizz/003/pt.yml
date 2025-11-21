@@ -1,0 +1,8 @@
+question: Que problema é que o Bitcoin resolveu que as moedas digitais anteriores não conseguiram resolver?
+answer: O problema double-spending de forma descentralizada
+wrong_answers:
+  - O problema da encriptação em redes peer-to-peer
+  - O problema do armazenamento das transacções digitais
+  - O problema da velocidade nos pagamentos em linha
+explanation: |
+  A inovação do Bitcoin foi a resolução do problema double-spending sem necessidade de uma autoridade central. O problema double-spending é o desafio de impedir que alguém gaste a mesma moeda digital duas vezes. As moedas digitais anteriores falharam porque dependiam de servidores centrais ou autoridades de confiança, tornando-as vulneráveis à censura e a pontos únicos de falha. O Bitcoin resolveu este problema através do seu servidor de carimbo de data/hora distribuído entre pares que utiliza o proof-of-work, permitindo que a rede chegue a acordo sobre a ordem das transacções sem qualquer controlo central.

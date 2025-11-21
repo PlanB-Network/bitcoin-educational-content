@@ -1,0 +1,10 @@
+question: Lightning Network neyi mümkün kılıyor?
+answer: Doğrudan kanal bağlantısı olmayan bireyler arasında işlem yapmak için.
+wrong_answers:
+  - Sadece merkezi borsalarla doğrudan kanal bağlantıları oluşturmak için.
+  - Herhangi bir işlem için birden fazla onay gerektiren kanal bağlantıları oluşturmak için.
+  - Yalnızca büyük işlemlerle sınırlı olan doğrudan kanal bağlantıları kurmak için.
+explanation: |
+  Lightning Network, aşağıdakiler arasında işlem yapmayı mümkün kılar
+  doğrudan kanal bağlantısı olmayan bireyler.
+reviewed: true

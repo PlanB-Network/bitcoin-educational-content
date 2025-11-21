@@ -1,0 +1,9 @@
+question: ドメイン名のどの要素がトップレベルドメイン（TLD）を表していますか？
+answer: 一番右の要素
+wrong_answers:
+  - 左端の要素
+  - ホストの次のレベル
+  - メインホスト名
+explanation: |
+  TLDは、.com、.org、.frなど、常にFQDNの一番右の要素です。
+reviewed: false

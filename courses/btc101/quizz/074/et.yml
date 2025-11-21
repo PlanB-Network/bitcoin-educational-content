@@ -1,9 +1,9 @@
-question: Kus bitcoine tegelikult hoitakse?
-answer: Bitcoin'i plokiahelas
+question: Mis on keskne küsimus isehoidmise kohta, kui valida Bitcoin'i rahakotti?
+answer: Kas olete vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla?
 wrong_answers:
-  - Bitcoin'i rahakotis
-  - Seadmes, kus rahakott on paigaldatud
-  - Föderaalreservis
+  - Kas rahakott on turvatud paroolifraasiga?
+  - Kas rahakott võimaldab bitcoine vastu võtta ja saata?
+  - Kas ma saan oma rahakotti teisele isikule jagada?
 explanation: |
-  Kuigi teie privaatvõtmed on hoitud teie rahakotis, hoitakse bitcoine tegelikult Bitcoin'i plokiahelas, mis on avalik jaotatud register Bitcoin'i võrdõiguslikus võrgustikus.
+  Bitcoin'i rahakotti valides on keskne question: Kas olete vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla? See on seetõttu, et privaatvõtme omanik on Bitcoinide omanik.
 reviewed: true

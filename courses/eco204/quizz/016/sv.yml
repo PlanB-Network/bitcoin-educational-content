@@ -1,0 +1,10 @@
+question: Vad är tröskeln för hyperinflation enligt Philip Cagans definition?
+answer: Månatlig inflation överstiger 50%
+wrong_answers:
+  - Den månatliga inflationen överstiger 40%
+  - Den månatliga inflationen överstiger 60%
+  - Månatlig inflation överstiger 70%
+explanation: |
+  Enligt Philip Cagans definition börjar hyperinflation när den månatliga inflationen
+  inflation överstiger 50 procent.
+reviewed: false

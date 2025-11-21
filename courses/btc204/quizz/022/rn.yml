@@ -1,0 +1,9 @@
+question: Izina ry’ikigereranyo rigizwe na UTXO imwe mu kwinjira n’imwe mu gusohora UTXO ni irihe?
+answer: Gukubura
+wrong_answers:
+  - Gushiramwo
+  - CoinJoin.
+  - Gukoresha amahera
+explanation: |
+  Insobanuro y’iyi mibumbe ni uko turi mu kubaho kw’ugukubura, bisobanura ukwimurira ama bitcoins.
+reviewed: false

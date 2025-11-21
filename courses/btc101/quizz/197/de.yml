@@ -1,11 +1,9 @@
-question: Was ist eines der Risiken, die mit dem Kauf von Bitcoin verbunden sind?
-answer: Sein Preis kann auf 0 fallen.
+question: Was ist einer der Punkte, die Sie berücksichtigen sollten, wenn Sie eine DCA-Plattform auswählen?
+answer: Verfügbarkeit in Ihrem Land.
 wrong_answers:
-  - Es kann leicht gestohlen werden.
-  - Es kann dupliziert werden.
-  - Es kann physisch verloren gehen.
+  - Die Farbe des Logos der Plattform.
+  - Die Anzahl der Nutzer auf der Plattform.
+  - Das Alter der Plattform.
 explanation: |
-  Der Kursinhalt erwähnt, dass Bitcoin ein hochvolatiles
-  Finanzinstrument ist und sein Preis auf 0 fallen kann, was eines
-  der Risiken beim Kauf von Bitcoin darstellt.
+  Dieser Kurstext erwähnt, dass bei der Auswahl einer DCA-Plattform die richtige Wahl stärker von ihrer Verfügbarkeit in Ihrem Land abhängt.
 reviewed: true

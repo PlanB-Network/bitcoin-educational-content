@@ -1,0 +1,9 @@
+question: Ni inyungu imwe iyihe yo gukoresha VPN mu guca kuri internet muhira?
+answer: Bituma haba umutekano mwiza ku bijanye n’uguca ku rubuga rwa interineti mu kugabanya ingorane ziterwa n’abandi bantu.
+wrong_answers:
+  - Bishobora kwongera umuvuduko wa internet yawe.
+  - Igihe cose ishobora gutuma umuntu ashobora gushika ku mbuga nyinshi.
+  - Bizigama gukoresha amakuru yo kuri telefone ngendanwa ugereranyije no kutagira uruja n’uruza rwa VPN rwashinzwe.
+explanation: |
+  Gukoresha VPN muhira birashobora kwongereza umutekano w’amakuru Exchange kuri internet. VPNs zipfuka amakuru, bikaba bigora cane abandi bantu kuyafata.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Miks on Exchange Abbé de Saint-Pierre'i sõnul alati ja tingimata positiivse summaga mäng?
+answer: Kui kaks meest otsustavad vabalt sõlmida Contract, siis sellepärast, et nad mõlemad näevad selles eeliseid
+wrong_answers:
+  - Mida sagedamini vahetavad kaubad omanikku, seda rikkamaks saab rahvas
+  - Rahvus, kes kaupleb, on alati rikkam kui see, kes elab autarkias
+  - Sest Jumal tahab seda
+explanation: |
+  Abbé de Saint-Pierre uskus sarnaselt teiste liberaalsete mõtlejatega, et vabatahtlik Exchange on vastastikku kasulik. Kui kaks inimest lepivad kokku, et nad Exchange midagi teevad, siis sellepärast, et nad mõlemad tunnevad, et nad saavad midagi, muidu nad seda ei teeks.

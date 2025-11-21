@@ -1,12 +1,9 @@
-question: ¿Cuál es el propósito de las regulaciones KYC?
-answer: Combatir el financiamiento del terrorismo, la evasión fiscal y el lavado de dinero.
+question: ¿Cuál es una de las posibles consecuencias de no seguir las regulaciones de tu país al comprar Bitcoin?
+answer: Podrías ponerte en riesgo.
 wrong_answers:
-  - Aumentar el precio de Bitcoin y hacer que el usuario pague más impuestos.
-  - Controlar la oferta de Bitcoin.
-  - Prevenir que las personas compren Bitcoin.
+  - Podrías aumentar el precio del Bitcoin.
+  - Podrías controlar el suministro de Bitcoin.
+  - Podrías impedir que otros compren Bitcoin.
 explanation: |
-  El texto del curso explica que las regulaciones Conoce a Tu Cliente (KYC)
-  requieren que los usuarios proporcionen identificación para
-  combatir el financiamiento del terrorismo, la evasión fiscal y el lavado
-  de dinero.
+  El texto del curso menciona que no seguir las regulaciones de tu país al comprar Bitcoin podría ponerte en riesgo.
 reviewed: true

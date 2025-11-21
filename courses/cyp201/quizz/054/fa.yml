@@ -1,0 +1,9 @@
+question: نقش اصلی passphrase در یک Bitcoin HD Wallet چیست؟
+answer: برای اصلاح استخراج کلید به منظور افزایش امنیت
+wrong_answers:
+  - رمزگشایی تراکنش‌های در انتظار
+  - generate UTXOهای Wallet را
+  - دسترسی Wallet را با شناسایی چهره محافظت کنید
+explanation: |
+  passphrase به عنوان یک عامل دوم امنیتی عمل می‌کند و مشتق‌سازی کلید seed را تغییر می‌دهد تا در صورت به خطر افتادن عبارت Mnemonic، از دسترسی به Wallet جلوگیری کند.
+reviewed: false

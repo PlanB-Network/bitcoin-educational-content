@@ -1,0 +1,9 @@
+question: Mikä komentorivityökalu tallentaa verkkoliikennettä reaaliaikaista analysointia varten?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump kaappaa ja kirjaa Interface-verkossa liikkuvia paketteja analysoitavaksi.
+reviewed: false

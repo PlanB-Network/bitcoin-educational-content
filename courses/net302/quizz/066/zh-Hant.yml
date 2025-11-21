@@ -1,0 +1,9 @@
+question: 與自動指派的 IPv6 Address 相關的兩個生命週期是什麼？
+answer: 優先使用期限和有效使用期限
+wrong_answers:
+  - 租用時間和保持時間
+  - 有效時間與到期日
+  - 初始壽命和二次壽命
+explanation: |
+  Preferred lifetime（優先使用期限）決定 Address 的正常使用期限，而 valid lifetime（有效使用期限）則決定其總有效期限。
+reviewed: false

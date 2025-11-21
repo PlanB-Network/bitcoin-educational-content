@@ -1,9 +1,9 @@
-question: Cosa può fare Bob se rileva un tentativo di Alice di barare durante la chiusura del canale?
+question: Cosa può fare Bob se rileva un tentativo di frode da parte di Alice durante la chiusura del canale?
 answer: Utilizzare la chiave di revoca per recuperare tutti i fondi
 wrong_answers:
-  - Annullare la transazione di impegno di Alice
+  - Annullare la commitment transaction di Alice
   - Chiudere permanentemente il canale senza possibilità di riaprirlo
   - Richiedere solo metà dei fondi disponibili
 explanation: |
-  In caso di baro, Bob può utilizzare la chiave di revoca per recuperare tutti i fondi dal canale, punendo così Alice per il suo tentativo.
-reviewed: false
+  In caso di frode, Bob può utilizzare la chiave di revoca per recuperare tutti i fondi dal canale, punendo così Alice per il suo tentativo.
+reviewed: true

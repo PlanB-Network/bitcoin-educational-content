@@ -1,0 +1,9 @@
+question: Welke rol spelen certificaatautoriteiten in het distributieproces van openbare sleutels?
+answer: Ze geven certificaten uit die de authenticiteit van openbare sleutels garanderen
+wrong_answers:
+  - Ze generate-privésleutels voor gebruikers
+  - Ze slaan openbare sleutels op voor alle gebruikers
+  - Ze zorgen voor de versleuteling van berichten tussen gebruikers
+explanation: |
+  Certificaatautoriteiten geven certificaten uit die een openbare sleutel koppelen aan de eigenaar ervan, zodat gebruikers de authenticiteit kunnen controleren van de openbare sleutels die ze gebruiken.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que ferramenta do macOS permite a encriptação total do disco do sistema?
+answer: Cofre de ficheiros
+wrong_answers:
+  - Utilitário de disco
+  - chaveiro do iCloud
+  - BitLocker
+explanation: |
+  O FileVault é a solução de encriptação de disco nativa integrada no macOS.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vilken är den största skillnaden mellan österrikiska ekonomer och keynesianska eller monetaristiska ekonomer när det gäller deras analysmetoder?
+answer: Medan österrikare resonerar utifrån grundläggande axiom tenderar keynesianska eller monetaristiska ekonomer att förlita sig på empiriska data.
+wrong_answers:
+  - Österrikiska ekonomer förlitar sig på empiriska data, medan keynesianska eller monetaristiska ekonomer resonerar utifrån grundläggande axiom.
+  - Österrikiska ekonomer och keynesianska eller monetaristiska ekonomer använder samma analysmetoder.
+  - Österrikiska ekonomer förlitar sig på regeringens politik, medan keynesianska eller monetaristiska ekonomer förlitar sig på marknadskrafterna.
+explanation: |
+  Den största skillnaden mellan österrikiska ekonomer och keynesianska eller monetaristiska
+  ekonomer när det gäller deras analysmetoder är att medan österrikare resonerar
+  från grundläggande axiom från vilka logiska avdrag kan göras, keynesianska eller
+  monetaristiska ekonomer tenderar att förlita sig på empiriska data för att fastställa allmänna ekonomiska lagar.
+reviewed: true

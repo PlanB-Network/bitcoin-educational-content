@@ -1,0 +1,28 @@
+id: 272d7b76-af05-4c79-bcce-d3b96b100be1
+name: be-BOP
+category: service
+
+links:
+  website: https://be-bop.io/
+  twitter: https://x.com/beBOPcommunity
+  Github: https://github.com/be-BOP-io-SA
+
+tags:
+  - user-friendly
+  - business
+  - adoption
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-01
+    urgency: 1
+    contributor_names:
+      - Gloirew
+    reward: 0
+  - language: fr
+    last_contribution_date: 2025-07-01
+    urgency: 1
+    contributor_names:
+      - Gloirew
+    reward: 0

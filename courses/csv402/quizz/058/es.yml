@@ -1,4 +1,4 @@
-question: ¿Qué puede hacer "curl -X POST /issueassetnia" en RLN?
+question: ¿Qué puede hacer el comando "curl -X POST /issueassetnia" en RLN?
 answer: Crear un nuevo activo RGB fungible y no inflacionista
 wrong_answers:
   - Crear un nuevo activo RGB no fungible

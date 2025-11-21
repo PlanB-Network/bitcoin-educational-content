@@ -1,0 +1,13 @@
+question: Ludwig von Mises'in Sosyalist Toplumda Ekonomik Hesaplama adlı makalesindeki temel argümanı nedir?
+answer: Ara üretim faktörlerinin fiyatları olmadan rasyonel bir ekonomik organizasyon mümkün değildir.
+wrong_answers:
+  - Sosyalizm ahlaki açıdan kapitalizmden üstündür.
+  - Kapitalizm uygulanabilir tek ekonomik sistemdir.
+  - Sosyalizm, kapitalist içgüdülerden yoksun bireyler üretebilir.
+explanation: |
+  Mises, ara malların fiyatlarını belirleyecek bir piyasa olmadan
+  üretim faktörleri, kaynakların kullanımını rasyonelleştirmek imkansız hale gelir
+  sektörler arasında. Bu da şu anlama gelir; kurum içinde mükemmel bir organizasyon olsa bile
+  ekonominin her bir firması veya alt bölümü, tüm ekonomi etkin bir şekilde uyum sağlayamaz
+  kaynak mevcudiyetindeki, üretim koşullarındaki ve tüketici tercihlerindeki değişikliklere.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 在建立新檔案之前，blkNNNN.dat 檔案的最大大小是多少？
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GB
+  - 128 GB
+explanation: |
+  blkNNNNN.dat 檔案會依序儲存區塊，並在 Bitcoin core 開啟下一個區塊之前達到約 128 MiB 的大小。
+reviewed: true

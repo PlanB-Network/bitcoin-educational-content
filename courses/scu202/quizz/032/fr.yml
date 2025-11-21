@@ -1,0 +1,9 @@
+question: Quelle règle de cybersécurité recommande de limiter les droits de chaque utilisateur ou logiciel au strict nécessaire ?
+answer: Le principe du moindre privilège
+wrong_answers:
+  - La double authentification
+  - La politique de mot de passe fort
+  - La sauvegarde régulière
+explanation: |
+  Le principe du moindre privilège consiste à accorder uniquement les droits nécessaires à chaque tâche, réduisant ainsi les risques en cas de compromission.
+reviewed: false

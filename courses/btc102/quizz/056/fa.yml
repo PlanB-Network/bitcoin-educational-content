@@ -1,0 +1,9 @@
+question: از چه روشی برای حفاظت از قابلیت ردیابی تراکنش‌های On-Chain استفاده می‌شود؟
+answer: استفاده از تکنیک‌های CoinJoin و PayJoin
+wrong_answers:
+  - استفاده مجدد از همان Address دریافت‌کننده
+  - تجمیع مکرر UTXOها
+  - واریز به Wallet حضانتی
+explanation: |
+  کوین‌جوین‌ها و پی‌جوین‌ها به بهبود حریم خصوصی فعالیت‌های On-Chain کمک می‌کنند.
+reviewed: false

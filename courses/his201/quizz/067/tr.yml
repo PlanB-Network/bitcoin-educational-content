@@ -1,0 +1,9 @@
+question: Hangi kuruluş, toplumun lobi faaliyetlerinin ardından Kasım 2010'da Bitcoin'ı kabul etmeye başlamıştır?
+answer: Elektronik Sınır Vakfı
+wrong_answers:
+  - WikiLeaks
+  - Kızıl Haç
+  - Uluslararası Af Örgütü
+explanation: |
+  Mitch Kapor, John Gilmore ve John Perry Barlow tarafından 1900 yılında kurulan bu kuruluş, internet özgürlüklerini korumayı amaçlıyordu. Bitcoin'i 9 Kasım'da kabul etmeye başladı.
+reviewed: true

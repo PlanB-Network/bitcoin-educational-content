@@ -1,0 +1,9 @@
+question: UmbrelOS को स्थापित करने से पहले कौन से चरण पूरे किए जाने चाहिए?
+answer: छवि के साथ बूट करने योग्य USB कुंजी बनाएँ
+wrong_answers:
+  - Bitcoin core स्रोत कोड संकलित करना
+  - Blockchain को फ़ॉर्मेट करना
+  - umbrel.com पर खाता बनाएँ
+explanation: |
+  स्थापना की शुरुआत Balena Etcher के माध्यम से UmbrelOS के साथ बूट करने योग्य USB कुंजी तैयार करके होती है।
+reviewed: true

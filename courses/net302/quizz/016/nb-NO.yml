@@ -1,0 +1,9 @@
+question: Hva gjør IP-protokollen hvis et datagram overskrider MTU-en til et nettverk det passerer gjennom?
+answer: Han fragmenterer den i flere biter
+wrong_answers:
+  - Den krypterer hele datagrammet før sending
+  - Den avviser den alltid og sender en feilmelding
+  - Han komprimerer den før han sender den
+explanation: |
+  Hvis datagramstørrelsen overskrider MTU-en, fragmenterer ruteren datagrammet i flere mindre pakker som passer til målnettverket.
+reviewed: false

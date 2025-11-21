@@ -1,0 +1,8 @@
+question: کدام کشور Bitcoin را به عنوان پول قانونی اعلام کرده است؟
+answer: السالوادور.
+wrong_answers:
+  - ایالات متحده.
+  - چین.
+  - هند.
+explanation: >-
+reviewed: true

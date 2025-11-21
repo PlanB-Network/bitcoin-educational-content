@@ -1,0 +1,9 @@
+question: Mikä käyttöjärjestelmä hallitsee nykyisiä PC-markkinoita?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windowsilla on 71 prosentin markkinaosuus henkilökohtaisissa tietokoneissa sen oletusasennuksen ja laajan ohjelmistoekosysteemin ansiosta.
+reviewed: false

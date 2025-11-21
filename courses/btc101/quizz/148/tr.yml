@@ -1,0 +1,8 @@
+question: Coinbase Transaction nedir?
+answer: Miner'in ödülünü içeren bloğun ilk işlemi.
+wrong_answers:
+  - Exchange Coinbase üzerinde gerçekleştirilen bir işlem.
+  - En yüksek ücretleri içeren bloğun ikinci işlemi.
+  - Ödülü aldıktan sonra Miner tarafından gerçekleştirilen bir işlem.
+explanation: >-
+reviewed: true

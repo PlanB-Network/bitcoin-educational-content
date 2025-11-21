@@ -1,0 +1,5 @@
+---
+term: HD (HIERARCHICZNO-DETERMINISTYCZNY)
+---
+
+Odnosi się do Bitcoin Wallet, który wykorzystuje unikalną informację (seed) do generate wielu par kluczy publicznych i prywatnych w sekwencyjny i powtarzalny sposób. Ta metoda zarządzania kluczami jest zdefiniowana w standardzie BIP32. Główną zaletą portfeli HD jest to, że pozwalają one użytkownikom na posiadanie wielu różnych par kluczy, w szczególności w celu uniknięcia ponownego użycia Address, przy jednoczesnej możliwości regeneracji wszystkich z nich z jednej informacji. Struktura ta jest określana jako hierarchiczna, ponieważ umożliwia tworzenie drzewiastej organizacji wielu kluczy i adresów z pojedynczego seed. Jest ona deterministyczna w tym sensie, że każdy seed zawsze generuje tę samą sekwencję kluczy w każdym Wallet, który jest zgodny z tym systemem.

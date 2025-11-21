@@ -1,0 +1,9 @@
+question: Hur stor andel av tiden har Bitcoin-nätverket varit funktionellt sedan det skapades?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  Tillgängligheten online för Bitcoin är 99,988% sedan 2009.
+reviewed: true

@@ -1,0 +1,32 @@
+id: 9273ebe2-ed3e-41b3-bd86-b50b880e3903
+
+name: Noones
+
+address_line_1: Panama City, Panama
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://noones.com/
+  twitter: https://x.com/noonesapp
+  Github: 
+  youtube: https://www.youtube.com/@NoonesGlobal
+
+category: exchange
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - bitcoin
+  - investment
+  - p2p
+
+contributor_names:
+  - Gloirew

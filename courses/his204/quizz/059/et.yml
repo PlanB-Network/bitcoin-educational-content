@@ -1,0 +1,8 @@
+question: Mida soovitas Dupont de Nemours Põhiseaduslikule Kogule esitatud seaduseelnõus keelustada?
+answer: Ründavad sõjad
+wrong_answers:
+  - Kaubandussõjad
+  - Kaitsesõjad
+  - Kõik sõjad
+explanation: |
+  Dupont de Nemours tegi kooskõlas füsiokraatlike põhimõtetega ettepaneku keelustada ründavad sõjad, kuna ta pidas neid kahjulikuks majanduslikule õitsengule ja elanikkonna heaolule.

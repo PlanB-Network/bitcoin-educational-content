@@ -4,11 +4,12 @@ name: NOSTR
 description: Odkryj i zacznij korzystać z NOSTR
 ---
 
-Pod koniec tego przewodnika zrozumiesz, czym jest Nostr, utworzysz konto i będziesz mógł z niego korzystać.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Pod koniec tego przewodnika zrozumiesz, czym jest Nostr, założysz konto i będziesz mógł go używać.*
 
 ## Czym jest Nostr?
 
@@ -51,8 +52,8 @@ Klienci to oprogramowanie umożliwiające interakcję z Nostr. Głównymi klient
 
 
 - iOS: damus
-- Android: ametyst
-- Sieć: iris.to; snort.social; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 Klienci umożliwiają użytkownikom generate utworzenie nowej pary kluczy (co jest równoznaczne z utworzeniem konta) lub uwierzytelnienie za pomocą istniejącej pary kluczy.
@@ -67,7 +68,7 @@ Przekaźniki to uproszczone serwery, które można opuścić w dowolnym momencie
 **Pro tip:** Płatne przekaźniki są generalnie bardziej skuteczne w filtrowaniu spamu i niechcianych treści.
 
 
-### Przewodnik
+## Przewodnik
 
 
 Teraz wiesz już wystarczająco dużo o Nostr, aby zacząć i stworzyć swoją pierwszą tożsamość w tym protokole.

@@ -1,0 +1,9 @@
+question: Er Immanuel Kant en filosof?
+answer: Tysk.
+wrong_answers:
+  - Engelsk.
+  - Polsk.
+  - Nederlandsk.
+explanation: |
+  Immanuel Kant (1724-1804) var en tysk filosof som regnes som en av opplysningstidens viktigste tenkere. Han utviklet en kritisk filosofi som forsøkte å forene rasjonalisme og empirisme.
+reviewed: false

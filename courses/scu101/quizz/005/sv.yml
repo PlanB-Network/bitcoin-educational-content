@@ -1,0 +1,11 @@
+question: Varför rekommenderas det att undvika webbläsaren Google Chrome?
+answer: På grund av dess spårare.
+wrong_answers:
+  - För att det inte är säkert.
+  - För att den inte är användarvänlig.
+  - Eftersom den inte stöder tillägg.
+explanation: |
+  Google Chrome-webbläsaren är känd för sina spårare, som kan
+  samla in data om din onlineaktivitet. Detta kan vara ett
+  integritetsproblem för vissa användare.
+reviewed: true

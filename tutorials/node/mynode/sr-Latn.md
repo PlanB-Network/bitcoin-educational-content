@@ -1,12 +1,12 @@
 ---
-name: Moj Čvor
+name: My Node
 description: Postavite svoj Bitcoin MyNode
 ---
 
 ![image](assets/0.webp)
 
 
-[Moj Node](https://mynodebtc.com/) je najlakši, najmoćniji način za pokretanje Bitcoin i Lightning čvora! Kombinujemo najbolji open source softver sa našim Interface, upravljanjem i podrškom kako biste mogli lako, privatno i sigurno koristiti Bitcoin i Lightning.
+[MyNode](https://mynodebtc.com/) je najlakši, najmoćniji način za pokretanje Bitcoin-a i Lightning čvora! Kombinujemo najbolji open-source softver sa našim interfejsom, upravljanjem i podrškom, kako biste mogli lako, privatno i bezbedno da koristite Bitcoin i Lightning.
 
 
 ## Tipovi Node postavki
@@ -15,10 +15,10 @@ description: Postavite svoj Bitcoin MyNode
 Postoji razne Node postavke. MyNode je odličan. Dolazi sa mnogo aplikacija, a još više ako platite za premium verziju. Inače je veoma zamorno preuzimati sve te aplikacije sami. MyNode to čini prilično jednostavnim, kao što ćete videti.
 
 
-Alternativna i slična opcija je RaspiBlitz. GUI nije tako lep, a aplikacije se dosta preklapaju sa aplikacijama koje dolaze sa MyNode, ali Raspiblitz je besplatan softver otvorenog koda (FOSS), dok MyNode nije baš. Još jedna razlika je što se MyNode pokreće u Docker kontejneru. Smatram da je Docker zastrašujuć i Hard za rešavanje problema. Ovo je problem samo ako naiđete na greške ili bagove. Programer nudi pomoć za premium korisnike, a postoji i Telegram chat grupa.
+Alternativna i slična opcija je RaspiBlitz. GUI nije tako lep, a aplikacije se dosta preklapaju sa aplikacijama koje dolaze sa MyNode, ali Raspiblitz je besplatan softver otvorenog koda (FOSS), dok MyNode nije baš. Još jedna razlika je što se MyNode pokreće u Docker kontejneru. Smatram da je Docker zastrašujuć i težak za rešavanje problema. Ovo je problem samo ako naiđete na greške ili bagove. Programer nudi pomoć za premium korisnike, a postoji i Telegram chat grupa.
 
 
-RaspiBlitz je samo više programa instaliranih na Linuxu, bez Dockera. Spoljni Hard disk se lako može priključiti na drugi Linux računar sa Bitcoin Core, i možete krenuti, ako vam zatreba.
+RaspiBlitz je samo više programa instaliranih na Linuxu, bez Dockera. Spoljni Hard disk se lako može priključiti na drugi Linux računar sa Bitcoin Core-om, i možete krenuti, ako vam zatreba.
 
 
 Još jedna opcija je da jednostavno instalirate Bitcoin Core i neku varijantu Electrum Servera (ima ih nekoliko) na operativni sistem. Imam vodiče za Linux (Raspberry Pi), Mac i Windows.
@@ -42,10 +42,10 @@ Napomena: SSD je ključan. ne koristite prenosivi eksterni Hard disk iako je jef
 - Ne treba vam monitor
 
 
-## Preuzmi MyNode sliku
+## Preuzmi MyNode image
 
 
-Idite na MyNode vebsajt Link
+Idite na MyNode vebsajt
 
 
 ![image](assets/1.webp)
@@ -54,7 +54,7 @@ Idite na MyNode vebsajt Link
 Kliknite `Download Now`
 
 
-Preuzmi verziju za Raspberry Pi 4:
+Preuzmite verziju za Raspberry Pi 4:
 
 
 ![image](assets/2.webp)
@@ -72,7 +72,7 @@ Preuzmi SHA 256 heševe
 ![image](assets/4.webp)
 
 
-Otvorite terminal na Mac ili Linux ili Command Prompt za Windows. Ukucajte:
+Otvorite terminal na Mac-u ili Linux-u ili Command Prompt za Windows. Ukucajte:
 
 
 ```bash
@@ -86,7 +86,7 @@ Računar razmišlja oko 20 sekundi. Zatim, proverite da li izlazna hash datoteka
 Flešuj SD karticu
 
 
-## Preuzmite i instalirajte Balena Etcher. Link
+## Preuzmite i instalirajte Balena Etcher
 
 
 Nisam uspeo da pronađem digitalni potpis za ovo. Ako znate kako, molim vas da mi javite i ažuriraću ovaj članak.
@@ -142,10 +142,10 @@ Konačno, povežite napajanje:
 ![image](assets/16.webp)
 
 
-## Pronađi IP Address od Pi
+## Pronađi IP adresu od Pi
 
 
-Nikada vam nije potreban monitor sa MyNode. Međutim, potreban vam je drugi računar na kućnoj mreži. Ako vaš Pi nije povezan putem eterneta, a želite da se oslonite na WiFi, pronalaženje IP adrese zahteva visoke kompjuterske veštine. Ne mogu vam pomoći, žao mi je. Potrebna vam je ethernet veza. (Problem dolazi od potrebe za pristupom monitoru i operativnom sistemu kako biste se povezali na WiFi i uneli lozinku).
+Nikada vam nije potreban monitor za korišćenje MyNode-a. Međutim, potreban vam je drugi računar na kućnoj mreži. Ako vaš Pi nije povezan putem eterneta, a želite da se oslonite na WiFi, pronalaženje IP adrese zahteva visoke kompjuterske veštine. Ne mogu vam pomoći, žao mi je. Potrebna vam je ethernet veza. (Problem dolazi od potrebe za pristupom monitoru i operativnom sistemu kako biste se povezali na WiFi i uneli lozinku).
 
 
 Proverite svoj ruter, za listu svih IP adresa svih povezanih uređaja.
@@ -157,7 +157,7 @@ Ukucao sam 192.168.0.1 u pregledač (uputstva koja su došla uz moj ruter), prij
 Pronalaženje IP-a je ključno.
 
 
-**Napomena:** možete koristiti terminal na Mac ili Linux mašini da pronađete IP Address svih uređaja povezanih putem Ethernet-a na kućnoj mreži koristeći komandu “arp -a”. Izlaz nije tako lep kao ono što će ruter prikazati, ali sve potrebne informacije su tu. Ako nije očigledno koji je Pi, koristite metodu pokušaja i greške.
+**Napomena:** možete koristiti terminal na Mac ili Linux mašini da pronađete IP adresu svih uređaja povezanih putem Ethernet-a na kućnoj mreži koristeći komandu “arp -a”. Izlaz nije tako lep kao ono što će ruter prikazati, ali sve potrebne informacije su tu. Ako nije očigledno koji je Pi, koristite metodu pokušaja i greške.
 
 
 ## SSH u Pi
@@ -174,7 +174,7 @@ ssh admin@192.168.0.18
 ```
 
 
-Koristite sopstveni IP Address. Korisničko ime za MyNode uređaj je podrazumevano „admin“. Lozinka je podrazumevano „Bolt“.
+Koristite sopstvenu IP adresu. Korisničko ime za MyNode uređaj je podrazumevano „admin“. Lozinka je podrazumevano „Bolt“.
 
 
 Ako ste ranije koristili svoj Pi i menjali micro SD karticu, dobićete ovu grešku:
@@ -213,10 +213,10 @@ Sada imate pristup terminalu na MyNode Pi, bez monitora, i možete potvrditi da 
 ## Pristup putem Web pregledača
 
 
-Otvorite pregledač. To mora biti računar na vašoj kućnoj mreži, ne možete to uraditi spolja. Postoji način, ali to je Hard. Nisam ga testirao.
+Otvorite pregledač. To mora biti računar na vašoj kućnoj mreži, ne možete to uraditi spolja. Postoji način, ali to je teško. Nisam ga testirao.
 
 
-Upišite IP Address u prozor pretraživača Address. Ovo će se dogoditi:
+Upišite IP adresu u prozor pretraživača. Ovo će se dogoditi:
 
 
 ![image](assets/20.webp)
@@ -273,4 +273,4 @@ Imajte na umu da i Electrum Server treba da se sinhronizuje, tako da čim se Bit
 Ako želite da isprobate još jedan čvor, recimo RaspiBlitz, potreban vam je dodatni SSD eksterni Hard disk i još jedna micro SD kartica za flešovanje. U suprotnom, oprema je ista, samo što ne možete istovremeno pokretati MyNode i RaspiBlitz, očigledno. Ako to želite, vreme je da kupite još jedan Raspberry Pi.
 
 
-Sada kada imate pokrenut čvor, koristite ga, nemojte ga samo pustiti da stoji i ne radi ništa za vas. Pratite moj članak (i video) o tome kako povezati vaš Electrum Desktop Wallet sa Electrum Serverom i Bitcoin Core ovde.
+Sada kada imate pokrenut čvor, koristite ga, nemojte ga samo pustiti da stoji i ne radi ništa za vas. Pratite moj članak (i video) o tome kako povezati vaš Electrum Desktop novčanik sa Electrum Serverom i Bitcoin Core-om ovde.

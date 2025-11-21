@@ -1,0 +1,9 @@
+question: Kapitalizm hangi dini bağlamda doğdu?
+answer: Hıristiyanlık bağlamında.
+wrong_answers:
+  - İslam bağlamında.
+  - Yahudilik bağlamında.
+  - Paganizm bağlamında.
+explanation: |
+  Kapitalizm, faizli krediler ve tefecilik üzerindeki dini kısıtlamalara rağmen tüccar şehirlerinin ve ekonomik uygulamaların geliştiği Avrupa'da Ortaçağ Hıristiyanlığı bağlamında ortaya çıkmıştır.
+reviewed: true

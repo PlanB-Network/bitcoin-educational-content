@@ -1,0 +1,9 @@
+question: Mu bihugu vyinshi, ni igiki gituma haba ikintu gishobora gukorwako umusoro igihe umuntu akorana na Bitcoin?
+answer: Gucuruza, gucuruza canke gukoresha Bitcoin nk’ukwishura akenshi bituma haba ikintu gishobora gukorwako umusoro.
+wrong_answers:
+  - Gufata gusa Bitcoin ubuziraherezo ata n’imwe ukora.
+  - Gusubiza inyuma Bitcoin Wallet yawe canke imfunguruzo.
+  - Kuraba igiciro ca Bitcoin kuri internet.
+explanation: |
+  Mu bisanzwe, ikintu gishobora gukorwako umusoro kiba igihe ubudandaji butanga canke bukoresha Bitcoin yayo, atari mu kuyifata gusa. Igihe cose ugurisha canke Exchange ya Bitcoin ku bicuruzwa, ibikorwa, canke amafaranga y’amahera bishobora generate inyungu canke ibihombo bishobora gukorwako umusoro.
+reviewed: false

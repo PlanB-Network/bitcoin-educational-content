@@ -1,0 +1,9 @@
+question: Je, René Descartes aliamini katika Mapenzi Huru?
+answer: Kamwe.
+wrong_answers:
+  - Kwa watu wazima tu.
+  - Ikiwa tu tungesoma falsafa.
+  - Chini ya hali fulani.
+explanation: |
+  René Descartes hakuwahi kuamini katika hiari. Alisisitiza kwamba matendo yetu yote yanaamuliwa na sababu za awali, ingawa alijaribu kuhifadhi aina fulani ya uhuru wa mapenzi.
+reviewed: false

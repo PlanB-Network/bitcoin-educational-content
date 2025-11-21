@@ -1,0 +1,9 @@
+question: 哪種文字瀏覽器沒有 Interface 圖形或 JavaScript 支援，是目前仍在維護的最古老瀏覽器？
+answer: 猞猁
+wrong_answers:
+  - Mullvad 瀏覽器
+  - 聚氨酯
+  - 維瓦爾第
+explanation: |
+  Lynx 出現於 1992 年，以文字模式運作，不支援 JavaScript，目前仍用於非常特殊的用途。
+reviewed: false

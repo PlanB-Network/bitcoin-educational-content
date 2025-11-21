@@ -1,0 +1,9 @@
+question: 哪条命令可用于查询 DNS 服务器以获取域的 IP Address？
+answer: nslookup
+wrong_answers:
+  - netstat
+  - 网络地图
+  - ss
+explanation: |
+  nslookup 是将域名解析为 IP 地址的 DNS 查询工具。
+reviewed: false

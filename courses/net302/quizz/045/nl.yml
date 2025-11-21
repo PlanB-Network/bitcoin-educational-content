@@ -1,0 +1,9 @@
+question: Wat is de praktijk van het kunstmatig wijzigen van je MAC Address?
+answer: MAC-spoofing
+wrong_answers:
+  - MAC phishing
+  - MAC-snuffelen
+  - Mac Keylogging
+explanation: |
+  MAC spoofing is het veranderen van de hardware Address van een netwerk Interface, vaak om privacyredenen of om beperkingen te omzeilen.
+reviewed: false

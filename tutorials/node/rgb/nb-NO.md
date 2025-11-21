@@ -3,7 +3,7 @@ name: RGB
 description: Introduksjon og opprettelse av eiendeler på RGB
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 ## introduksjon
 

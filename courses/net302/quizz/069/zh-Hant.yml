@@ -1,0 +1,9 @@
+question: 本機網路 IPv6 Address 中使用的網路前綴的典型大小是多少？
+answer: 64 位元
+wrong_answers:
+  - 32 位元
+  - 48 位元
+  - 8 位元
+explanation: |
+  IPv6 Address 的前 64 位元通常保留給子網路前綴。
+reviewed: false

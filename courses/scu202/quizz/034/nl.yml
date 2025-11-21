@@ -1,0 +1,9 @@
+question: Wat is het eerste dat je moet doen om de toegang tot je persoonlijke computer te beveiligen?
+answer: Stel een sterk sessiewachtwoord in
+wrong_answers:
+  - Een antivirusprogramma installeren
+  - De UFW-firewall configureren
+  - Schijfcodering inschakelen
+explanation: |
+  Het sessiewachtwoord is de eerste veiligheidsbarrière om ongeautoriseerde toegang tot je machine te voorkomen, vóór alle andere aanvullende maatregelen.
+reviewed: false

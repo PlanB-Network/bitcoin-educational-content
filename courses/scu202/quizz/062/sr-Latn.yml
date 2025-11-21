@@ -1,0 +1,9 @@
+question: Koji pregledač garantuje anonimnost preusmeravanjem saobraćaja kroz decentralizovanu, ali visoko-latentnu mrežu?
+answer: Tor Pregledač
+wrong_answers:
+  - Mullvad Browser
+  - Ris
+  - LibreWolf
+explanation: |
+  Tor Browser se oslanja na Tor mrežu kako bi anonimizovao pretraživanje, uz cenu značajnog pada performansi.
+reviewed: false

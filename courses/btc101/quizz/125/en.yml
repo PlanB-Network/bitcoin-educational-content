@@ -1,11 +1,12 @@
-question: What is the date of the last known private message of Satoshi Nakamoto via email?
-answer: April 23, 2011.
+question: What is the importance of the geographical distribution of Bitcoin nodes?
+answer: It makes it practically impossible to destroy all copies of the blockchain.
 wrong_answers:
-  - December 12, 2010.
-  - January 8, 2009.
-  - October 31, 2008.
+  - It determines the price of Bitcoin in different regions.
+  - It affects the speed of Bitcoin transactions.
+  - It determines the number of bitcoins that can be mined in a region.
 explanation: |
-  The date of the last known private message of Satoshi
-  Nakamoto via email is April 23, 2011. It was sent to the
-  developer Mike Hearn.
+  The geographical distribution of Bitcoin nodes makes it
+  practically impossible to destroy all copies of the
+  blockchain. Since nodes are spread out, it is difficult to
+  physically seize them all.
 reviewed: true

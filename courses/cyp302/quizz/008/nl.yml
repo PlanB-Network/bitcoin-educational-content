@@ -1,0 +1,9 @@
+question: Hoe wordt de tak van cryptografie genoemd die een paar openbare en privésleutels gebruikt?
+answer: Asymmetrische cryptografie
+wrong_answers:
+  - Symmetrische cryptografie
+  - Mono-algoritmische cryptografie
+  - Integratieve cryptografie
+explanation: |
+  Asymmetrische cryptografie is gebaseerd op het gebruik van een paar sleutels, publiek en privaat, waardoor versleuteling mogelijk is zonder een geheime sleutel te delen.
+reviewed: false

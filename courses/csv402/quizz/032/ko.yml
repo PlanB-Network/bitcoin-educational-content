@@ -1,0 +1,9 @@
+question: Alice(발신자)은 Bob의 Invoice을 받은 후 어떻게 해야 하나요?
+answer: UTXO 및 generate를 사용하여 PSBT를 구축하고 전송 Consignment 터미널을 구축합니다
+wrong_answers:
+  - Single-Use Seal이 포함된 UTXO를 소비하는 Bitcoin 트랜잭션에 서명합니다
+  - Contract 세부 정보를 보려면 Consignment을 자신의 Wallet로 가져옵니다
+  - 자산 발행을 위해 새 Invoice을 발행합니다
+explanation: |
+  Alice은 자산과 관련된 UTXO을 사용하려면 PSBT을 생성해야 하고, generate는 Bob로의 새로운 전환을 포함하는 Terminal Consignment를 생성해야 합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lightning Network اولین بار چه زمانی تأیید و اجرا شد؟
+answer: ۲۰۱۷
+wrong_answers:
+  - ۲۰۱۵
+  - ۲۰۱۶
+  - ۲۰۱۸
+explanation: |
+  Lightning Network اولین بار در سال 2017 تأیید و اجرا شد.
+reviewed: true

@@ -6,6 +6,10 @@ description: Kuinka otat käyttöön Ledger Nano S -laitteesi
 
 ![kuva](assets/cover.webp)
 
+*Ledger on ilmoittanut lopettavansa klassisen Nano S -laitteen ohjelmistotuen 25. kesäkuuta 2025 alkaen: laite ei enää saa tietoturvapäivityksiä eikä tue uusia ominaisuuksia, mikä altistaa käyttäjät haavoittuvuuksille ja yhteensopivuusongelmille tulevaisuudessa. Varat pysyvät kuitenkin saatavilla palautuslauseen avulla, mutta on erittäin suositeltavaa siirtyä uudempaan malliin turvallisuuden ja bitcoinien pitkäaikaisen käytettävyyden varmistamiseksi. Huomioithan, että tämä koskee **vanhaa Nano S:ää**, ei **Nano S Plus** -mallia, joka saa edelleen tukea.*
+
+___
+
 Kylmä fyysinen lompakko – 60€ – Aloittelija – Turvaa 2 000€ - 50 000€
 
 Ledger on ranskalainen ratkaisu bitcoinien turvaamiseen yksinkertaisella tavalla.
@@ -208,6 +212,6 @@ https://armantheparman.com/ledgersparrow/
 
 Syventääksesi tätä aihetta ja vahvistaaksesi lompakkosi turvallisuutta Ledger Nano -laitteessa BIP39 passphrase:lla, suosittelen tutustumaan tähän kattavaan oppaaseen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

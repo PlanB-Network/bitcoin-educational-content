@@ -1,11 +1,9 @@
-question: Kuidas võib Lightning Network muuta olemasolevaid ärimudeleid videomängude tööstuses?
-answer: See võimaldab mängijatel mängides panustada väga väikeseid rahasummasid
+question: Mis on üks viis Lightning Network'i ise järele proovida?
+answer: Proovides podcasti rakendust Fountain
 wrong_answers:
-  - See võimaldab mängijatel mängides kaevandada Bitcoini
-  - See võimaldab mänguarendajatel aktsepteerida Bitcoini oma mängude eest maksmisel
-  - See võimaldab mängijatel osta mängusiseseid esemeid Bitcoiniga
+  - Kaevandades Bitcoini
+  - Ostes Bitcoini
+  - Luues uue krüptoraha
 explanation: >-
-  Lightning Network võimaldab mängijatel panustada mängides väga väikeseid rahasummasid,
-  näiteks mõned satoshid. See võimaldab luua panuse, mis stimuleerib konkurentsi, samal ajal oluliselt suurendades
-  bottide kasutuselevõtu kulu.
+  Üks viis Lightning Network'i ise järele proovida on proovida podcasti rakendust Fountain, mis võimaldab sul saada mõned satsid preemiaks oma lemmikpodcaste kuulates. 
 reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken är enligt Marx den främsta begränsningen av de mänskliga rättigheterna?
+answer: De skyddar endast en formell och abstrakt frihet.
+wrong_answers:
+  - De är naturliga rättigheter.
+  - Det är valfria rättigheter.
+  - De förhindrar revolution.
+explanation: |
+  Marx kritiserar de mänskliga rättigheterna genom att kalla dem formella eftersom de garanterar en abstrakt individuell frihet utan att faktiskt förändra de materiella villkoren för exploatering i det kapitalistiska samhället.
+reviewed: true

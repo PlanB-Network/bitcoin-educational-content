@@ -1,0 +1,8 @@
+question: Sadece Bay Turgot ve benim halkı sevdiğimizi görebiliyorum cümlesini kim söylemiştir? ?
+answer: Louis XVI
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Louis, Turgot'ya ve reformlarına verdiği desteğin altını çizerek bu cümleyi sarf etmiştir.

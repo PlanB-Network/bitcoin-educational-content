@@ -1,0 +1,8 @@
+question: Varför är det enligt Vauban rätt och naturligt att alla betalar skatt?
+answer: Eftersom staten erbjuder sina tjänster till alla är det inte mer än rätt att alla bidrar till att betala för dem
+wrong_answers:
+  - Eftersom staten kan få in mer pengar genom att beskatta hela befolkningen på en gång
+  - Eftersom alla människor ibland är rika och ibland fattiga under livets gång är det bättre att beskatta alla på ett enhetligt sätt
+  - Eftersom det hjälper till att finansiera krig och säkerställa rikets storhet
+explanation: |
+  Vauban ansåg att beskattningen borde vara allmän, eftersom alla medborgare drog nytta av statliga tjänster som säkerhet, rättvisa och infrastruktur. Han ansåg därför att det var rättvist att alla skulle bidra till finansieringen utifrån sina egna förutsättningar.

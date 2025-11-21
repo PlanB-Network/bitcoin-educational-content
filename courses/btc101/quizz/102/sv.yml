@@ -1,0 +1,11 @@
+question: Vilken betydelse har det individuella ansvaret i Bitcoin?
+answer: Det är viktigt eftersom det är du som ansvarar för säkerhetskopiorna.
+wrong_answers:
+  - Det är viktigt eftersom du måste bryta bitcoins.
+  - Det är viktigt att köpa bitcoins.
+  - Det är avgörande eftersom du är ansvarig för Wallet-temat.
+explanation: |
+  I Bitcoin går ekonomisk suveränitet hand i hand med
+  individuellt ansvar, eftersom du måste självförvara
+  dina medel genom att följa rekommenderade säkerhetskopieringsförfaranden.
+reviewed: true

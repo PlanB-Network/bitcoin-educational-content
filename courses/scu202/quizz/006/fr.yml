@@ -1,0 +1,9 @@
+question: Quelle est la fonction principale du noyau dans un système d’exploitation ?
+answer: Gérer l’accès au matériel
+wrong_answers:
+  - Afficher les publicités
+  - Gérer les comptes utilisateurs
+  - Installer les applications automatiquement
+explanation: |
+  Le noyau orchestre l’accès au matériel, l’exécution simultanée des processus et la sécurité, tout en masquant la complexité des circuits à l’utilisateur.
+reviewed: false

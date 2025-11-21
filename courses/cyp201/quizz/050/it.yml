@@ -1,7 +1,7 @@
 question: Qual è una buona pratica per proteggere una passphrase?
 answer: Conservarla su un supporto fisico separato dalla frase mnemonica
 wrong_answers:
-  - Memorizzarla solamente a memoria senza annotarla
+  - Ricordarla solamente a memoria senza annotarla
   - Conservarla sullo stesso supporto fisico della frase mnemonica
   - Registrarla su un supporto digitale come Google Drive
 explanation: |

@@ -1,0 +1,9 @@
+question: Milline brauser pakub reklaami- ja jälgimisblokeerimist, sõrmejälgede kaitset ja põhineb Chromiumil?
+answer: Brave
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave pakub vaikimisi reklaamide blokeerimist, jälgimisseadmeid ja täiustatud sõrmejälgede kaitset, mis kõik põhinevad Chromiumil.
+reviewed: false

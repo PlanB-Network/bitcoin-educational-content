@@ -1,12 +1,12 @@
-question: In quale anno avverrà il settimo halving?
-answer: 2036
+question: Quale di queste opzioni è falsa riguardo la perdita del dispositivo su cui è installato il wallet Bitcoin?
+answer: Si può ricreare il wallet e spendere bitcoin reimpostando la password.
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Si perdono tutti i bitcoin senza la frase mnemonica.
+  - Si può verificare con le chiavi pubbliche che i bitcoin non siano stati spesi.
+  - Si può ricreare il wallet e spendere bitcoin utilizzando la frase mnemonica.
 explanation: |
-  Il settimo halving dovrebbe avvenire nel 2036, e il numero stimato
-  di bitcoin in circolazione sarà di 20.835.937,5,
-  che corrisponderà approssimativamente al 99,22% dell'offerta
-  totale.
-reviewed: vero
+  Perdere il dispositivo su cui è installato il wallet non
+  significa necessariamente la perdita dei Bitcoin. Ciò che 
+  permette di ricreare il wallet e spendere i fondi è la
+  frase mnemonica.
+reviewed: true

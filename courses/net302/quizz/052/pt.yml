@@ -1,0 +1,9 @@
+question: Que informações fundamentais deve um gateway NAT registar para cada fluxo de rede?
+answer: O mapeamento entre o IP interno e o IP público
+wrong_answers:
+  - Tipo de cabo de rede utilizado
+  - O mapeamento entre o IP Address e o servidor DNS
+  - Tipo de protocolo de rede utilizado
+explanation: |
+  O NAT depende de uma tabela de tradução para manter a correspondência que controla o mapeamento entre endereços internos e públicos para garantir que os pacotes são encaminhados corretamente.
+reviewed: false

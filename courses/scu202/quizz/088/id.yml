@@ -1,0 +1,9 @@
+question: Pengelola kata sandi sumber terbuka mana yang memungkinkan Anda menyimpan kredensial Anda secara lokal tanpa memerlukan awan?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Pengelola Kata Sandi Google
+explanation: |
+  KeePassDX bekerja berdasarkan pada berkas lokal terenkripsi, tanpa memerlukan awan atau berlangganan layanan terpusat.
+reviewed: false

@@ -1,0 +1,26 @@
+id: 14c9bd72-c325-4c3d-b550-797be91dc410
+start_date: 2025-08-23 08:00:00
+end_date: 2025-08-23 16:00:00
+timezone: Europe/London
+address_city_country: Glasgow, Scotland
+name: Scottish Bitcoin Conference 2025
+type: conference
+description: "The Scottish Bitcoin Conference 2025 will be taking place on the
+  23rd of August at Glasgow University.\r
+
+  There will be a variety of talks across all aspects of bitcoin and activities
+  running throughout the day.\r
+
+  Everyone is welcome, especially if you are new to bitcoin and just want to
+  learn more.\r
+
+  We start at 9am when we will be doing a BitcoinWalk from the Duke of
+  Wellington Statue to Glasgow University."
+language:
+  - en
+links:
+  website: https://www.glasgowbitcoin.co.uk/
+tags:
+  - education
+  - market-trends
+  - finance

@@ -1,0 +1,9 @@
+question: Quale topologia collega tutte le apparecchiature a un unico punto centrale?
+answer: Stella
+wrong_answers:
+  - Anello
+  - Autobus
+  - Maglia
+explanation: |
+  In una topologia a stella, ogni dispositivo è collegato a un dispositivo centrale, facilitando la gestione e la manutenzione.
+reviewed: false

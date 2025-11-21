@@ -1,0 +1,9 @@
+question: Was ist die typische Größe des in einem IPv6 Address in einem lokalen Netz verwendeten Netzpräfixes?
+answer: 64-Bit
+wrong_answers:
+  - 32-Bit
+  - 48 Bits
+  - 8 Bits
+explanation: |
+  Die ersten 64 Bits eines IPv6 Address sind im Allgemeinen für das Subnetzpräfix reserviert.
+reviewed: false

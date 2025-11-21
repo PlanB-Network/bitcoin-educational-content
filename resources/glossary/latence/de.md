@@ -1,0 +1,5 @@
+---
+term: LATENCE
+---
+
+Verzögerung zwischen der Übertragung und dem Empfang von Informationen. In der Datenverarbeitung stellt sie die Zeit dar, die Daten für die Übertragung zwischen zwei Computern benötigen. Im Zusammenhang mit Bitcoin kann die Latenz in Bezug auf die Zeit untersucht werden, die benötigt wird, um Blöcke über das Netzwerk zu übertragen. Eine hohe Latenzzeit kann für isolierte Schürfer von Nachteil sein, da sie weiter an Blöcken arbeiten, die bereits durch neue Blöcke ungültig gemacht wurden, bis sie die neuen Blöcke erhalten. Die Latenzzeit ermutigt die Schürfer daher natürlich, sich zusammenzuschließen. Sie verringert auch die Gesamtsicherheit des Systems, da Zeit mit der Suche nach einem gültigen Proof of Work verschwendet wird. Das Ziel, zwischen den einzelnen Blöcken einen Zeitraum von 10 Minuten einzuhalten, ist eine Maßnahme zur Verringerung der Auswirkungen der Latenz auf das System.

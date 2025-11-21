@@ -1,0 +1,9 @@
+question: Ni igiki gihambaye cashizweho n’abahinga mu vy’ubutunzi bo muri iki gihe nk’uko Bastiat abivuga?
+answer: Bashaka gusubizaho ubushobozi bw'umuntu bwo gukora .
+wrong_answers:
+  - Bashaka gutunganya Leta .
+  - Bashaka guhuza uburinganire bw'ubudandaji .
+  - Bashaka gutunganya isoko .
+explanation: |
+  Abahinga mu vy’ubutunzi bo muri iki gihe barondera gusubizaho ubushobozi umuntu afise bwo gukora no guteza imbere umwidegemvyo mu vy’ubutunzi.
+reviewed: false

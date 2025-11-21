@@ -1,0 +1,5 @@
+---
+term: FPPS (PEŁNE WYNAGRODZENIE ZA AKCJĘ)
+---
+
+Metoda obliczania rekompensat dla górników w ramach puli Mining. Jest to ewolucja metody PPS (*Pay Per Share*). Wynagradza górników nie tylko za każdą przesłaną ważną akcję, ale także obejmuje część nagród blokowych. Wynagrodzenie jest obliczane na podstawie średniej z poprzednich transakcji i Hashrate puli. W ten sposób górnicy otrzymują nagrodę za przesłane udziały, niezależnie od tego, czy blok zostanie znaleziony, czy nie, ale ta metoda rekompensuje również oczekiwaną wartość. Oferuje ona stabilną i przewidywalną rekompensatę dla górników, ponieważ eliminuje wariancję związaną z prawdopodobieństwem znalezienia bloku, jednocześnie narażając ich na wahania opłat rynkowych. Jest to jednak bardziej ryzykowne dla operatorów puli, ponieważ muszą oni płacić górnikom nawet wtedy, gdy żaden blok nie zostanie znaleziony, absorbując w ten sposób ryzyko wariancji.

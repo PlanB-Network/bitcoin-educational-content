@@ -1,0 +1,9 @@
+question: Perangkat lunak gratis lintas platform apa yang dapat digunakan untuk membuat file kontainer terenkripsi yang dapat dipasang seperti disk virtual?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt memungkinkan Anda membuat container terenkripsi yang dapat diakses sebagai disk virtual pada semua OS utama.
+reviewed: false

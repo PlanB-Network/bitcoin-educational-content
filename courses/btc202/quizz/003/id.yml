@@ -1,0 +1,9 @@
+question: Menurut Eric Voskuil dalam buku Cryptoeconomics, apa yang mendasari keamanan Bitcoin?
+answer: Pada individu
+wrong_answers:
+  - Pada Blockchain
+  - Tentang daya Hash
+  - Tentang kriptografi
+explanation: |
+  Eric Voskuil menjelaskan bahwa keamanan Bitcoin sangat bergantung pada orang-orang yang mengambil risiko untuk memelihara sistem.
+reviewed: true

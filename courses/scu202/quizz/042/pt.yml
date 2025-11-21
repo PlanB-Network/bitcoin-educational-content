@@ -1,0 +1,9 @@
+question: Por que razão se deve verificar sempre a integridade e a autenticidade do software descarregado da Internet?
+answer: Para evitar a instalação de malware
+wrong_answers:
+  - Para melhorar o desempenho do sistema
+  - Para poupar largura de banda
+  - Para acelerar a instalação
+explanation: |
+  A verificação da integridade e da autenticidade ajuda a evitar a instalação de software corrompido, infetado ou não legítimo.
+reviewed: false

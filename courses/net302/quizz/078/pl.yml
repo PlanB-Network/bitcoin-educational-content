@@ -1,0 +1,9 @@
+question: W której strefie DNS umieszczane są rekordy PTR dla odwrotnego rozpoznawania IPv6?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  Strefa ip6.arpa jest specjalnie dedykowana do odwrotnego rozwiązywania adresów IPv6, podczas gdy in-addr.arpa jest używana dla IPv4.
+reviewed: false

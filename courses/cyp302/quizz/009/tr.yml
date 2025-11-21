@@ -1,0 +1,9 @@
+question: Modern bir kriptografik şemanın güvenlik kanıtında hangi adım yer almaz?
+answer: Bir Interface kullanıcısı ayarlama
+wrong_answers:
+  - Güvenlik tanımlarının belirtilmesi
+  - Matematiksel karmaşıklık varsayımları
+  - Güvenliğin matematiksel gösterimi
+explanation: |
+  Modern kriptografideki güvenlik kanıtı, kriptografik güvenlikle ilgili olmayan kullanıcı Interface gibi hususları hariç tutarak hedeflere ve matematiksel varsayımlara odaklanır.
+reviewed: false

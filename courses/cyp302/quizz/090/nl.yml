@@ -1,0 +1,9 @@
+question: Waarom is het moeilijk om een blokmodusversleuteling te construeren vanuit een streamcipher?
+answer: Omdat stream ciphers continu gegevens verwerken
+wrong_answers:
+  - Omdat streamcijfers geen privésleutels gebruiken
+  - Omdat blokmodi langere sleutels vereisen
+  - Omdat streamcijfers altijd langzamer zijn
+explanation: |
+  Streamcijfers zijn ontworpen om gegevens continu te versleutelen (bit voor bit of byte voor byte), wat hun gebruik in blokmodus bemoeilijkt, omdat verwerking in blokken van vaste grootte vereist is.
+reviewed: false

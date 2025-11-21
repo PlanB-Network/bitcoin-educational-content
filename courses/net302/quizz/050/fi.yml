@@ -1,0 +1,9 @@
+question: Mitä NAT:iin on lisättävä, jotta verkko voidaan suojata asianmukaisesti?
+answer: Palomuuri
+wrong_answers:
+  - Paikallinen DNS-palvelin
+  - HTTP-välityspalvelin
+  - Virustorjuntaohjelma
+explanation: |
+  Pelkkä NAT ei riitä suodattamaan haitallista liikennettä: sitä on täydennettävä palomuurisäännöillä, jotta liikennettä voidaan valvoa hienojakoisesti.
+reviewed: false

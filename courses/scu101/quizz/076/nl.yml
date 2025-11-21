@@ -1,0 +1,9 @@
+question: Waarom wordt het aanbevolen om willekeurig gegenereerde wachtwoorden te gebruiken?
+answer: Om brute-force aanvallen te weerstaan.
+wrong_answers:
+  - Om ze gemakkelijker te onthouden.
+  - Om hun complexiteit te verminderen.
+  - Sybil-aanvallen weerstaan.
+explanation: |
+  Willekeur maakt wachtwoorden moeilijker te raden met vallen en opstaan, waardoor ze beter beveiligd zijn tegen brute-force aanvallen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa giao dịch và đầu tư là gì?
+answer: Giao dịch là ngắn hạn và đầu cơ, đầu tư là dài hạn và chiến lược
+wrong_answers:
+  - Giao dịch liên quan đến phí cố định, đầu tư liên quan đến phí thay đổi
+  - Giao dịch dựa trên phân tích cơ bản, đầu tư theo xu hướng vĩ mô
+  - Giao dịch ít rủi ro hơn đầu tư
+explanation: |
+  Giao dịch đòi hỏi phải theo dõi liên tục và có kỹ năng chuyên môn, trong khi đầu tư đòi hỏi tầm nhìn dài hạn.
+reviewed: false

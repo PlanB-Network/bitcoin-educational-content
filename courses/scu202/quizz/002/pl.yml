@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta VPN?
+answer: Szyfrowanie ruchu internetowego
+wrong_answers:
+  - Przyspieszenie połączenia internetowego
+  - Zwiększenie pojemności pamięci masowej
+  - Zintegrowany program antywirusowy
+explanation: |
+  VPN tworzy bezpieczny tunel i szyfruje wymianę między urządzeniem a serwerem pośredniczącym, wzmacniając w ten sposób poufność.
+reviewed: false

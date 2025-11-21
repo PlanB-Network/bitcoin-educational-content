@@ -1,0 +1,9 @@
+question: Hayek'in sosyalizm eleştirisi nedir?
+answer: Sosyalizmin hedeflerine ulaşmak için kullandığı merkezi planlama ve özel mülkiyetin ortadan kaldırılması gibi araçları eleştirir.
+wrong_answers:
+  - Sosyalizmin adalet ve eşitlik gibi hedeflerini reddeder.
+  - Sosyalizmin çok eski bir doktrin olduğunu düşünüyor.
+  - Yukarıdakilerin hiçbiri.
+explanation: |
+  Hayek, sosyalizmi hedefleri nedeniyle değil, bireysel özgürlük ve ekonomik verimlilik açısından tehlikeli bulduğu merkezi planlama ve özel mülkiyetin kaldırılması gibi yöntemleri nedeniyle eleştirmektedir.
+reviewed: true

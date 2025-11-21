@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan naturrätt och positiv rätt enligt romerskt tänkande?
+answer: Naturrätten är universell och oföränderlig, medan positiv rätt är föränderlig och beror på mänskliga lagar.
+wrong_answers:
+  - Naturrätten är den starkes lag, medan positiv rätt är den svages lag.
+  - Naturrätten är baserad på religion, medan positiv rätt är baserad på förnuft.
+  - Naturrätten gäller endast romerska medborgare, medan positiv rätt gäller alla invånare i imperiet.
+explanation: |
+  I romerskt tänkande anses naturrätten vara universell och oföränderlig och härstamma från oföränderliga principer. Positiv rätt avser däremot en uppsättning regler som fastställts av människor och som kan förändras i enlighet med sociala och politiska sammanhang.
+reviewed: true

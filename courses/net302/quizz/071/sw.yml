@@ -1,0 +1,9 @@
+question: Ni nukuu gani inatumika kuonyesha saizi ya kiambishi awali katika IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Kinyago cha desimali chenye nukta
+  - Hexadesimoli ikitenganishwa na koloni
+  - ICANN
+explanation: |
+  Nukuu ya CIDR inabainisha idadi ya biti za kiambishi awali zisizobadilika baada ya kufyeka, kama vile IPv4.
+reviewed: false

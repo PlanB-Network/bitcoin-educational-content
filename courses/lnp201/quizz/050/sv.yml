@@ -1,0 +1,9 @@
+question: Varför kan en säljare göra en fiktiv betalning i en kanal?
+answer: Att flytta likviditeten till den motsatta sidan
+wrong_answers:
+  - För att minska routningsavgifterna
+  - Att öka den totala kapaciteten i sina kanaler
+  - För att låsa fonder på lång sikt
+explanation: |
+  Genom att göra en fiktiv betalning flyttar en säljare likviditet från sin sida till den motsatta sidan av kanalen och frigör därmed inkommande kapacitet för att ta emot betalningar.
+reviewed: false

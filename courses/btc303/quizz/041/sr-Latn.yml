@@ -1,0 +1,8 @@
+question: Koju je specifičnu tehničku karakteristiku tvrdi fork uređaj Satoshi nenamerno stvorio koja je omogućila buduće nadogradnje mekog fork?
+answer: OP_NOP1 kroz OP_NOP10 opkodovi operatora Script
+wrong_answers:
+  - Mehanizmi aktivacije BIP65 i BIP113 za signalizaciju rudara
+  - Okvir kompatibilnosti unapred i unazad za promene konsenzusa
+  - Korisnik je aktivirao soft fork (UASF) sistem aktivacije dana zastave
+explanation: |
+  Prema analizi Erica Lombroza, tvrdo fork u okviru Satoshi (koji je bio loše komuniciran i skriven u izmeni vezanoj za promene makefile-a) nenamerno je stvorio OP_NOP1 do OP_NOP10 opkodove. Ovi 'no operation' kodovi su dizajnirani da ne rade ništa kada se izvrše, ali su obezbedili mesta koja bi kasnije mogla biti preusmerena za novu funkcionalnost kroz soft forkove. Ovo se pokazalo kao pronicljivo, jer je OP_NOP2 postao OP_CHECKLOCKTIMEVERIFY (BIP65) a OP_NOP3 postao OP_CHECKSEQUENCEVERIFY (BIP112). Ostale opcije su netačne jer su BIP65 i BIP113 bili nadogradnje koje su koristile ove opkodove umesto da ih kreiraju, okvir kompatibilnosti je konceptualni pristup, a ne tehnička karakteristika, a UASF je predložen mnogo kasnije tokom kontroverze oko Segwita.

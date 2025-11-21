@@ -1,0 +1,9 @@
+question: چه ابزاری مدرن جایگزین arp در توزیع‌های اخیر لینوکس شده است؟
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - مسیر
+explanation: |
+  `ip neigh` از مجموعه iproute2 جایگزین `arp` برای مدیریت ارتباطات IP/MAC در لینوکس مدرن شده است.
+reviewed: false

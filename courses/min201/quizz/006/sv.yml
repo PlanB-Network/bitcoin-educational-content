@@ -1,0 +1,14 @@
+question: Vad är den huvudsakliga uppgiften för gruvarbetare i Bitcoin-nätverket?
+answer: För att lösa ett digitalt pussel och validera ett nytt block
+wrong_answers:
+  - För att skapa nya bitcoins
+  - För att kontrollera priset på Bitcoin
+  - För att verifiera identiteten hos Bitcoin-användare
+explanation: |
+  I samband med Bitcoin Mining strävar gruvarbetare efter att snabbt
+  lösa ett digitalt pussel. Den första Miner som löser pusslet
+  presenterar sin lösning för hela nätverket, som då enkelt kan
+  sedan enkelt kan verifiera dess giltighet. Denna framgångsrika
+  verifieringen gör att Miner kan validera ett nytt block och
+  lägga till det i Bitcoin:s tidskedja.
+reviewed: true

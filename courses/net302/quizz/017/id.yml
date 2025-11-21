@@ -1,0 +1,9 @@
+question: Apa yang diwakili oleh nilai MTU dalam jaringan?
+answer: Ukuran bingkai maksimum yang dapat ditransmisikan tanpa fragmentasi
+wrong_answers:
+  - Kapasitas penyimpanan maksimum router tanpa fragmentasi
+  - Jumlah maksimum host pada jaringan tanpa fragmentasi
+  - Panjang header IP minimum tanpa fragmentasi
+explanation: |
+  MTU (Maximum Transmission Unit) mendefinisikan ukuran maksimum frame yang dapat ditransmisikan pada suatu segmen tanpa memerlukan fragmentasi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millist tehnoloogiat kasutab Umbrel oma rakenduste isoleerimiseks ja haldamiseks?
+answer: Dockeri konteinerid
+wrong_answers:
+  - VirtualBoxi virtuaalsed masinad
+  - Bash skriptid
+  - Kubernetes klastrid
+explanation: |
+  Iga rakendus Umbrelis töötab Dockeri konteineris, mis võimaldab sõltumatut haldamist ja isoleerimist.
+reviewed: true

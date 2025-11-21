@@ -1,11 +1,12 @@
-question: Keitä ovat kybersissit?
-answer: Ihmisryhmä, joka alkoi syvällisesti kyseenalaistaa yksityisyyden ja vapauden roolia digitaalisella aikakaudella.
+question: Mitkä ovat rahan kolme perinteistä toimintoa?
+answer: Arvon säilyttäjä, Vaihdon väline, Tilin yksikkö.
 wrong_answers:
-  - Hakkeriryhmä, joka varasti tietoja hallituksilta.
-  - Ihmisryhmä, joka keksi Bitcoinin ja muut kryptovaluutat.
-  - Ihmisryhmä, joka vastusti teknologian käyttöä.
+  - Arvon säilyttäjä, Vaihdon väline, Tuotannon väline.
+  - Arvon säilyttäjä, Tuotannon väline, Tilin yksikkö.
+  - Vaihdon väline, Tuotannon väline, Tilin yksikkö.
 explanation: |
-  Kybersissit ovat yksilöiden ryhmä, joka uskoi
-  että kryptografia voisi toimia työkaluna suojata
-  yksilön oikeuksia hallitusten ja suurten yritysten sekaantumista vastaan.
+  Aristoteleen mukaan rahalla on kolme toimintoa: se on
+  arvon säilyttäjä, vaihdon väline ja tilin yksikkö. Nykyään
+  vaihdon välineen toimintoa pidetään laajalti pääasiallisena,
+  ennen kahta muuta.
 reviewed: true

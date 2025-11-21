@@ -1,0 +1,9 @@
+question: چرا مهاجرت به IPv6 ضروری شد؟
+answer: اتمام IPv4 Address
+wrong_answers:
+  - شکست پروتکل NAT در IPv4
+  - ناسازگاری ماسک زیرشبکه
+  - پایان پشتیبانی DHCP
+explanation: |
+  خستگی آدرس‌های IPv4 باعث انتقال به IPv6 شد، که فضای Address بسیار بزرگ‌تری را فراهم می‌کند.
+reviewed: false

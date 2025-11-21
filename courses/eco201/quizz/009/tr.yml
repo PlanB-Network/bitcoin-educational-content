@@ -1,0 +1,14 @@
+question: Bir merkez bankasının son çare mercii olarak rolü nedir?
+answer: Merkez bankası, tüm finansal sistemi felce uğratabilecek bir domino etkisini önlemek için krizler sırasında sıkıntılı bankalara borç vermektedir.
+wrong_answers:
+  - Merkez bankası, kendi kârını artırmak için krizler sırasında zor durumdaki bankalara borç vermektedir.
+  - Merkez bankası, krizler sırasında zor durumdaki bankalara faaliyetlerini devralmaları için borç vermektedir.
+  - Merkez bankası, krizler sırasında ulusal borcu artırmak için sorunlu bankalara borç verir.
+explanation: |
+  Son çare mercii olarak merkez bankası kavramı
+  i̇ngiltere'de 19. yüzyılda ortaya çıkmıştır
+  finansal istikrarı tehdit eden tekrarlanan banka batışları. Tarafından
+  zor durumdaki bankalara kredi vererek, merkez bankası
+  banka iflaslarının domino etkisine yol açabilecek bir
+  durgunluk veya depresyon.
+reviewed: true

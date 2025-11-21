@@ -1,9 +1,9 @@
-question: ¿Cuándo fue validada e implementada por primera vez la Lightning Network?
-answer: 2017
+question: ¿Cuál es el tamaño del bloque en el protocolo de Bitcoin?
+answer: 4MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  La Lightning Network fue validada e implementada por primera vez en 2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+  El tamaño del bloque en el protocolo de Bitcoin es de 4MB.
 reviewed: true

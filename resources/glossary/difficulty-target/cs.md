@@ -10,4 +10,4 @@ Tento cíl se upravuje každých 2016 bloků (přibližně každé dva týdny) b
 
 ![](../../dictionnaire/assets/34.webp)
 
-> ► Cílová obtížnost se někdy nazývá také "faktor obtížnosti" V záhlaví bloků se může označovat termínem "nBits".*
+> ► Cílová obtížnost se někdy nazývá také "faktor obtížnosti". V záhlaví bloků se může označovat termínem "nBits".

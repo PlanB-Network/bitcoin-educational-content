@@ -1,9 +1,11 @@
-question: ¿En qué año se predice que cesará la creación de bitcoins?
-answer: 2140
+question: ¿Qué es la clave privada en un monedero de Bitcoin?
+answer: Una clave secreta que te permite firmar tus transacciones.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Debido al mecanismo de halving, se puede predecir matemáticamente que la creación de bitcoins cesará en 2140, cuando el número total de bitcoins alcance su límite de 21 millones.
+  - Una clave pública utilizada para generar direcciones de Bitcoin.
+  - Una lista secreta de palabras para destruir un monedero en caso de necesidad.
+  - Una clave secreta para cifrar transacciones de Bitcoin.
+explanation: >-
+  Al inicializar un monedero de Bitcoin, se genera una lista secreta de palabras, llamada semilla mnemotécnica. 
+  Esta lista de recuperación es muy importante porque representa la propiedad
+  de los Bitcoins y por lo tanto el derecho a enviarlos.
 reviewed: true

@@ -1,0 +1,15 @@
+question: Vilket av följande är inte en nyckelfunktion i mikrotransaktioner på Lightning Network?
+answer: Långa betalningstider.
+wrong_answers:
+  - Låga avgifter.
+  - Snabba betalningar.
+  - Skalbarhet.
+explanation: |
+  Med Lightning Network:s mikrotransaktioner kan användarna
+  ha låga transaktionsavgifter, vilket gör det ekonomiskt att skicka
+  mycket små mängder Bitcoin. De kan också ha omedelbara
+  betalningar, vilket möjliggör transaktioner i realtid. Slutligen kan de
+  skalbarhet, vilket gör det möjligt att hantera ett stort antal
+  antal transaktioner samtidigt. Således är det felaktiga
+  svar är långa betalningstider.
+reviewed: true

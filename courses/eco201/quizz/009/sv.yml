@@ -1,0 +1,14 @@
+question: Vilken roll har en centralbank som långivare i sista hand?
+answer: Centralbanken lånar ut pengar till krisdrabbade banker under kriser för att förhindra en dominoeffekt som skulle kunna lamslå hela det finansiella systemet.
+wrong_answers:
+  - Centralbanken lånar ut pengar till krisdrabbade banker under kriser för att öka sina egna vinster.
+  - Centralbanken lånar ut pengar till krisdrabbade banker under kriser för att ta över deras verksamhet.
+  - Centralbanken lånar ut pengar till krisdrabbade banker under kriser för att öka statsskulden.
+explanation: |
+  Konceptet med en centralbank som en långivare i sista hand
+  uppstod på 1800-talet i England som ett svar på
+  upprepade uttagsanstormningar som hotade den finansiella stabiliteten. Genom att
+  genom att låna ut till banker i nöd kan centralbanken förhindra
+  en dominoeffekt av bankkonkurser som skulle kunna leda till en
+  recession eller depression.
+reviewed: true

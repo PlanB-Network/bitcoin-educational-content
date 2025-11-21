@@ -23,13 +23,13 @@ With presentations by industry experts, the course covers topics such as Liquid 
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
-Welcome to the Liquid Bootcamp, a comprehensive training designed to equip you with the knowledge and skills to effectively leverage the Liquid Network and the Elements project. This course provides a deep dive into Liquid's unique features, such as Confidential Transactions, asset issuance, and its federated network structure, while also covering the foundational concepts of Elements, the software that powers Liquid.
+Welcome to the Liquid Bootcamp, a comprehensive training designed to equip you with the knowledge and skills to effectively leverage the Liquid Network and the Elements project. This course offers a comprehensive exploration of Liquid's distinctive features, including Confidential Transactions, asset issuance, and its federated network architecture, while also introducing the foundational concepts of Elements, the software that powers Liquid.
 
-Throughout the bootcamp, you will explore practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breeze SDK, and the Blockstream AMP project.
+Throughout the boot camp, you will explore the practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breeze SDK, and the Blockstream AMP project.
 
-This bootcamp was originally conducted as an in-person event, following a structured schedule (as shown in the image) designed for live sessions. However, for this course adaptation, the content has been reorganized to better suit an online format and facilitate comprehension for students. The new order ensures a logical progression from foundational concepts to more technical and advanced topics, maximizing the learning experience.
+This bootcamp was originally conducted as an in-person event, following a structured schedule (as shown in the image) designed for live sessions. However, for this course adaptation, the content has been reorganized to better suit an online format and facilitate student comprehension. The new order ensures a logical progression from foundational concepts to more advanced and technical topics, thereby maximizing the learning experience.
 
-This journey is structured to accommodate participants with varying levels of expertise, offering a blend of theoretical knowledge and hands-on experience. By the end of this bootcamp, you will have a solid understanding of Liquid's architecture, its integration with Bitcoin, and how to use its innovative features to build and optimize financial solutions.
+This journey is structured to accommodate participants with varying levels of expertise, offering a blend of theoretical knowledge and hands-on experience. By the end of this boot camp, you will have a solid understanding of Liquid's architecture, its integration with Bitcoin, and how to utilize its innovative features to build and optimize financial solutions.
 
 Dive into the world of the Liquid sidechain and unleash its full potential right now!
 # Fundamentals
@@ -41,7 +41,7 @@ Dive into the world of the Liquid sidechain and unleash its full potential right
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
 :::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
-Pablo introduces the Liquid Network's architecture, emphasizing its role as a federated sidechain to Bitcoin. Key features such as Confidential Transactions, the federation model, and its function as a sandbox for innovation are covered. Participants will gain insight into how Liquid complements Bitcoin by offering faster and more private transactions.
+Pablo introduces the Liquid Network's architecture, emphasizing its role as a federated sidechain to the Bitcoin network. Key features, including Confidential Transactions, the federation model, and its role as a sandbox for innovation, are covered. Participants will gain insight into how Liquid complements Bitcoin by offering faster and more private transactions.
 
 ## Fundamentals of Elements
 
@@ -76,7 +76,7 @@ Chase highlights Liquid's ecosystem and its applications in capital markets. He 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
 :::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
-Nardo provides an overview of Blockstream AMP, a platform for managing digital assets on Liquid. He explores AMP's architecture, its ability to control asset transfers, and its practical applications for developers. Challenges and future improvements for AMP are also highlighted.
+Nardo provides an overview of Blockstream AMP, a platform for managing digital assets on the Liquid network. He explores AMP's architecture, its ability to control asset transfers, and its practical applications for developers. Challenges and future improvements for AMP are also highlighted.
 
 # Technical
 

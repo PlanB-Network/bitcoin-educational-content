@@ -1,0 +1,9 @@
+question: Wat gebeurt er als een aanvaller een versleuteld bericht onderschept in een goed symmetrisch versleutelingsschema?
+answer: Ze mogen niets belangrijks leren over het oorspronkelijke bericht
+wrong_answers:
+  - Ze kunnen het bericht altijd ontsleutelen zonder de sleutel
+  - Ze moeten het kunnen ontsleutelen met een openbare sleutel
+  - Ze moeten de inhoud van het bericht kunnen raden
+explanation: |
+  In een goed ontworpen symmetrisch versleutelingsschema zou een aanvaller die een versleuteld bericht onderschept niet in staat moeten zijn om relevante informatie over de inhoud van het bericht af te leiden zonder de ontcijferingssleutel.
+reviewed: false

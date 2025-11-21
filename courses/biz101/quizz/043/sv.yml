@@ -1,0 +1,9 @@
+question: Vad gör Bitcoin att du kan göra utan mellanhänder?
+answer: Exchange-värde på Internet
+wrong_answers:
+  - Skapa centraliserade applikationer
+  - Erhålla banklån
+  - Lagra personuppgifter
+explanation: |
+  Bitcoin möjliggör Exchange av värde på Internet utan mellanhänder genom sitt peer-to-peer-protokoll.  
+reviewed: false

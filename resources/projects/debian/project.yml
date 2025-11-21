@@ -1,0 +1,26 @@
+id: 546548af-8e2f-4878-a4fb-1080bc048b81
+name: Debian
+
+links:
+  website: https://www.debian.org/
+  twitter: https://x.com/debian
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-13
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

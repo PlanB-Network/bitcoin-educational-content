@@ -1,12 +1,12 @@
 ---
-name: COLDCARD Q - Avanzato
+name: COLDCARD Q - Esperto
 description: Utilizzo delle opzioni avanzate di COLDCARD Q
 ---
 ![cover](assets/cover.webp)
 
 In una precedente esercitazione abbiamo trattato la configurazione iniziale della COLDCARD Q e le sue funzioni di base per i principianti. Se avete appena ricevuto la vostra COLDCARD Q e non l'avete ancora configurata, vi consiglio di iniziare con questa esercitazione prima di continuare qui:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Questo nuovo tutorial è dedicato alle opzioni avanzate di COLDCARD Q, pensate per gli utenti più esperti e paranoici. Infatti, le COLDCARD si distinguono dagli altri portafogli hardware per le numerose funzioni di sicurezza avanzate. Naturalmente, non è necessario utilizzare tutte queste opzioni. Basta scegliere quelle che si adattano alla vostra strategia di sicurezza.
 
@@ -20,7 +20,7 @@ Prima di iniziare, assicuratevi di avere accesso a un backup fisico della vostra
 
 Se non sapete cos'è una passphrase BIP39 o se non vi è del tutto chiaro il suo funzionamento, vi consiglio vivamente di dare prima un'occhiata a questo tutorial, che copre le basi teoriche necessarie per comprendere i rischi associati all'uso di una passphrase:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Tenete presente che una volta impostata la passphrase sul vostro portafoglio, il mnemonico da solo non sarà sufficiente per riottenere l'accesso ai vostri bitcoin. Avrete bisogno sia del mnemonico che della passphrase. Inoltre, dovrete inserire la passphrase ogni volta che sbloccherete la vostra COLDCARD Q. Questo aumenta la sicurezza rendendo insufficiente l'accesso fisico alla COLDCARD e la conoscenza del PIN senza la passphrase.
 
@@ -28,7 +28,7 @@ Sulle COLDCARD sono disponibili due opzioni per la gestione della passphrase:
 
 1. **Immissione classica:** La passphrase viene immessa manualmente ogni volta che si utilizza il portafoglio hardware, proprio come si fa con altri portafogli hardware. COLDCARD Q semplifica questo compito grazie alla sua tastiera completa.
 
-2. **È possibile scegliere di criptare la passphrase e memorizzarla su una scheda microSD. In questo caso, sarà necessario inserire la microSD nella COLDCARD Q ogni volta che la si utilizza. Si noti che questa microSD funzionerà solo sulla COLDCARD Q e non è un backup. È quindi molto importante conservare una copia della passphrase su un supporto fisico, come carta o metallo.
+2. **È possibile scegliere di criptare la passphrase e memorizzarla su una scheda microSD. In questo caso, sarà necessario inserire la microSD nella COLDCARD Q ogni volta che la si utilizza. Si noti che questa microSD funzionerà solo sulla COLDCARD Q e non è un backup. È quindi molto importante conservare una copia della passphrase su un supporto fisico, come carta o metallo.**
 
 Per impostare la passphrase del BIP39, accedere al menu "*Passphrase*".
 
@@ -68,7 +68,7 @@ Confermate che l'impronta digitale visualizzata corrisponda a quella del vostro 
 
 Tenete presente che l'uso di una passphrase significa che dovrete importare un nuovo set di chiavi derivate dalla combinazione di frase mnemonica e passphrase nel vostro software di gestione dei portafogli (come Sparrow Wallet). Per farlo, seguite il passo "*Configurare un nuovo portafoglio su Sparrow*" in quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Opzioni di sblocco
 
@@ -76,7 +76,7 @@ Le COLDCARD offrono inoltre una serie di opzioni per il processo di sblocco del 
 
 ### PIN truccati
 
-Il Trick PIN è un codice PIN secondario diverso da quello definito durante la configurazione iniziale del dispositivo. Questo codice viene utilizzato per attivare azioni specifiche preconfigurate non appena viene inserito all'accensione della COLDCARD. È possibile configurare diversi Trick PIN, ciascuno collegato a un'azione diversa. Queste funzioni consentono di adattare la COLDCARD alla propria strategia di sicurezza personale. Sono particolarmente utili in caso di costrizione fisica, come ad esempio durante una rapina (comunemente chiamata nella comunità Bitcoin "attacco con chiave da 5 dollari*").
+Il Trick PIN è un codice PIN secondario diverso da quello definito durante la configurazione iniziale del dispositivo. Questo codice viene utilizzato per attivare azioni specifiche preconfigurate non appena viene inserito all'accensione della COLDCARD. È possibile configurare diversi Trick PIN, ciascuno collegato a un'azione diversa. Queste funzioni consentono di adattare la COLDCARD alla propria strategia di sicurezza personale. Sono particolarmente utili in caso di costrizione fisica, come ad esempio durante una rapina (comunemente chiamata nella comunità Bitcoin "attacco con chiave da 5 dollari").
 
 Per attivare un Trick PIN e associarlo a un'azione, accedere al menu `Impostazioni > Impostazioni di accesso > Trick PIN`.
 
@@ -112,9 +112,9 @@ Scegliere quindi l'azione da eseguire automaticamente ogni volta che si inserisc
 ![CCQ](assets/fr/16.webp)
 
 
-- "*Conto alla rovescia del login*": Questo menu raggruppa le azioni con un conto alla rovescia prima della loro esecuzione. **Attenzione, alcune di esse possono distruggere il dispositivo o causare la perdita di bitcoin. Ecco le sottoazioni disponibili:
+- "*Conto alla rovescia del login*": Questo menu raggruppa le azioni con un conto alla rovescia prima della loro esecuzione. **Attenzione, alcune di esse possono distruggere il dispositivo o causare la perdita di bitcoin.** Ecco le sottoazioni disponibili:
  - "Cancella e conto alla rovescia": Cancella il seme dalla memoria della COLDCARD, quindi avvia un conto alla rovescia di un'ora. Senza salvare la mnemonica o la passphrase, i bitcoin andranno persi. Questa opzione è progettata per ingannare un aggressore e fargli credere che il dispositivo si sbloccherà al termine del conto alla rovescia, mentre in realtà verrà ripristinato alle impostazioni di fabbrica.
- - "Conto alla rovescia e mattone*": Avvia un conto alla rovescia di un'ora, al termine del quale la COLDCARD distrugge i suoi due chip di sicurezza, rendendola definitivamente inutilizzabile. Senza backup, i bitcoin andranno persi. Questa azione è progettata per ingannare un aggressore, che pensa di essere in attesa di uno sblocco, mentre in realtà il dispositivo si autodistruggerà.
+- "Conto alla rovescia e mattone": Avvia un conto alla rovescia di un'ora, al termine del quale la COLDCARD distrugge i suoi due chip di sicurezza, rendendola definitivamente inutilizzabile. Senza backup, i bitcoin andranno persi. Questa azione è progettata per ingannare un aggressore, che pensa di essere in attesa di uno sblocco, mentre in realtà il dispositivo si autodistruggerà.
  - "*Solo conto alla rovescia* : Attiva un semplice conto alla rovescia di un'ora, al termine del quale la COLDCARD si riavvia senza ulteriori azioni. Il seme non viene cancellato e il dispositivo rimane intatto. Attenzione a non confondere questa azione con l'opzione "*Conto alla rovescia per l'accesso*", discussa nelle sezioni seguenti, che aggiunge un conto alla rovescia al PIN principale e dà accesso al portafoglio reale.
 
 ![CCQ](assets/fr/17.webp)
@@ -202,7 +202,7 @@ D'ora in poi, a ogni accensione del dispositivo, verrà visualizzata una calcola
 
 ![CCQ](assets/fr/34.webp)
 
-Ad esempio, è possibile calcolare l'hash SHA256 di "*Plan B Network*".
+Ad esempio, è possibile calcolare l'hash SHA256 di "*Plan ₿ Academy*".
 
 ![CCQ](assets/fr/35.webp)
 
@@ -247,4 +247,4 @@ Se avete trovato utile questo tutorial, vi sarei molto grato se lasciaste un pol
 
 Vi consiglio anche quest'altro tutorial, in cui si parla dell'uso di un concorrente diretto di CCQ, Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

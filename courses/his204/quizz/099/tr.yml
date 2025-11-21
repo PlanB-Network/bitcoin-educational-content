@@ -1,0 +1,8 @@
+question: Kasım 1789 tarihli Caisse d'Escompte Yasasına yönelik eleştirisi neydi?
+answer: Serbest rekabet kurallarına uyması gereken bir tekel kuruluşudur
+wrong_answers:
+  - Saldırgan savaşların finansmanını teşvik edecek bir kurum oluşturuyor
+  - Tahsisatların verilmesini sekteye uğratır
+  - Zenginleri kayırıyor
+explanation: |
+  Dupont de Nemours, Caisse d'Escompte'a verilen tekeli eleştirerek bunun serbest rekabeti engellediğine ve ekonomiye zarar verdiğine inanıyordu.

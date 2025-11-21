@@ -1,0 +1,10 @@
+question: Vilken åtgärd kan vidtas för att dölja anslutningar när du inte använder din egen Bitcoin-nod?
+answer: Användning av Tor.
+wrong_answers:
+  - Användning av en brandvägg.
+  - Användning av en krypterad Wallet.
+  - Användning av en dubbel Wallet.
+explanation: |
+  För att begränsa risken att bli observerad är en mellanlösning att använda Wallet-programvara som gör att du kan dölja dina anslutningar via Tor.
+  
+reviewed: false

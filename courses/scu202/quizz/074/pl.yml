@@ -1,0 +1,9 @@
+question: Jakie wydarzenie zmusiło Google do zmiany orientacji Androida na dotykowy Interface?
+answer: Premiera pierwszego iPhone'a
+wrong_answers:
+  - Przejęcie Nokii przez Microsoft
+  - Stworzenie CyanogenMod
+  - Uruchomienie Sklepu Play
+explanation: |
+  Pojawienie się iPhone'a w 2007 roku zmusiło Google do ponownego przemyślenia Androida, aby uczynić go kompatybilnym z ekranem dotykowym, porzucając pomysł urządzenia z fizyczną klawiaturą.
+reviewed: false

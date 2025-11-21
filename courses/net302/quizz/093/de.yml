@@ -1,0 +1,9 @@
+question: Welches Tool zeigt detaillierte DNS-Meldungen an, einschließlich der Datensätze und des Auflösungsprozesses?
+answer: dig
+wrong_answers:
+  - gastgeber
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) liefert detaillierte Informationen über die DNS-Auflösung, einschließlich der Eintragstypen.
+reviewed: false

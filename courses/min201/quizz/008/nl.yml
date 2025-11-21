@@ -1,0 +1,13 @@
+question: Wat is het belangrijkste voordeel van ASIC's in de context van Bitcoin Mining?
+answer: Ze kunnen één specifiek type berekening zeer efficiënt uitvoeren
+wrong_answers:
+  - Ze kunnen een groot aantal verschillende soorten berekeningen uitvoeren
+  - Ze verbruiken minder elektriciteit dan CPU's
+  - Ze zijn goedkoper dan CPU's
+explanation: |
+  ASIC's zijn chips, vergelijkbaar met een CPU-chip, maar ze
+  zijn ontwikkeld om slechts één specifiek type
+  berekening zo efficiënt mogelijk uit te voeren. In het geval van
+  gW-2 ASIC's zijn ontworpen voor de berekening van
+  het SHA256 algoritme.
+reviewed: true

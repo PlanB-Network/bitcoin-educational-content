@@ -1,0 +1,14 @@
+question: None ingorane y’abajenerali b’Abanyabizantine ni iyihe?
+answer: Ni ingorane yo guhuza amakuru mu buryo aho abakinnyi batandukanye badashobora kwizigirwa.
+wrong_answers:
+  - Ni ingorane yo kugenzura ibikorwa vy’ubudandaji mu rubuga rwegerejwe.
+  - Ni ingorane yo kubuza gukoresha amahera kabiri mu mafaranga y’ubuhinga bwa none.
+  - Ni ingorane yo kuguma mu kwumvikana mu nzira y’ubuhinga buhurikiye hamwe.
+explanation: |
+  Ikibazo c’abajenerali b’Abanyabizantine ni ikibazo ca kera co mu 1914.
+  ubuhinga bwo gukoresha ubuhinga bwa none, bujanye no gushika ku kwumvikana
+  mu rubuga aho zimwe mu nzira zishobora kuba zifise amakosa canke
+  n’ububisha. Bitcoin itorera umuti ico kibazo biciye mu gukoresha a .
+  Blockchain ishingiye kuri Proof of Work, ivyo bikaba bituma vyose .
+  nodes bemeranya ku bijanye n'ingene amateka y'ibikorwa vy'ubudandaji ameze.
+reviewed: true

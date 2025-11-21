@@ -1,0 +1,9 @@
+question: Bir MAC Address'ı IPv6 Address oluşturmak için 64 bitlik bir tanımlayıcıya dönüştüren mekanizma nedir?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  EUI-64 mekanizması, 48 bitlik MAC Address'i IPv6 otomatik yapılandırmasında kullanılan 64 bitlik bir tanımlayıcıya dönüştürür.
+reviewed: false

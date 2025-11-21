@@ -1,0 +1,5 @@
+---
+term: ŚCIEŻKA POWROTU DO ZDROWIA
+---
+
+W oprogramowaniu Wallet wykorzystującym Miniscript, takim jak na przykład Liana, ścieżki odzyskiwania odnoszą się do zestawów kluczy, które stają się operacyjne dopiero po określonym okresie bezczynności w skrypcie blokującym bitcoiny (timelock). Ścieżki odzyskiwania są użyteczne dopiero po wygaśnięciu blokad czasowych, oferując w ten sposób metodę odzyskiwania środków, gdy główna ścieżka nie jest dostępna. Rozważmy przykład skryptu, który zawiera 2 różne klucze: klucz A, który upoważnia do natychmiastowego wydawania bitcoinów, oraz klucz B, który umożliwia ich wydawanie po opóźnieniu określonym przez blokadę czasową wynoszącą 52 560 bloków. W tym przykładzie klucz A pochodzi ze ścieżki podstawowej, podczas gdy klucz B pochodzi ze ścieżki odzyskiwania.

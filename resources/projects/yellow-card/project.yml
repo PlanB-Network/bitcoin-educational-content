@@ -1,0 +1,23 @@
+id: c11c05c8-45e5-11f0-80f5-0b9d934698e3
+
+name: Yellow Card
+
+address_line_1: Birmingham, USA
+address_line_2:
+address_line_3: 
+
+original_language:
+  - en
+
+links:
+  website: https://yellowcard.io/fr/
+  twitter: https://x.com/yellowcard_app
+  Github:
+  youtube: https://www.youtube.com/@YellowCardFinancial
+  nostr:
+
+tags:
+  - bitcoin
+  - investment
+
+category: exchange

@@ -1,0 +1,13 @@
+question: Amerika Birleşik Devletleri'nin 1933-1934 yıllarında doların değerini düşürmek için kullandığı strateji neydi?
+answer: Hükümet yurttaşların altınlarına el koymuş, ardından altının değerini hazinenin yararına olacak ve başlangıçta altınlarını banknotlarla değiştirenlerin aleyhine olacak şekilde yeniden değerlendirerek oyunun kurallarını değiştirmiştir.
+wrong_answers:
+  - Hükümet altın miktarını arttırdı, ardından hazinenin yararına olacak ve başlangıçta altınlarını banknotlarla değiştirenlerin aleyhine olacak şekilde altının değerini düşürerek oyunun kurallarını değiştirdi.
+  - Hükümet vatandaşların altınlarına el koymuş, daha sonra hazinenin yararına ve altınlarını banknotlarla değiştirenlerin aleyhine olacak şekilde altının değerini düşürerek oyunun kurallarını değiştirmiştir.
+  - Hükümet altın miktarını artırdı, ardından hazinenin yararına ve başlangıçta altınlarını banknotlarla değiştirenlerin aleyhine olacak şekilde altının değerini yeniden değerlendirerek oyunun kurallarını değiştirdi.
+explanation: |
+  1933 yılında ABD hükümeti vatandaşların altınlarına el koydu. Sonra 1934'te
+  altın fiyatını ons başına 20.67 $ yerine 35 $ olarak yeniden değerlemiştir. Esasen
+  hükümet insanların sahip olduğu doların değerini düşürdü. Halktan altın satın alarak
+  1933'te ons başına 20,67 dolar olan altın fiyatını 1934'te yeniden değerlendiren hükümet
+  vatandaşlarının tasarruflarını değersizleştirirken önemli bir kâr elde etmiştir
+reviewed: false

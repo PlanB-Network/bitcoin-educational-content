@@ -6,6 +6,10 @@ description: Jak nastavit vaše zařízení Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*Ledger oznámil ukončení softwarové podpory pro klasický Nano S od 25. června 2025: toto zařízení již nebude dostávat bezpečnostní aktualizace ani nebude kompatibilní s novými funkcemi, což jeho uživatele vystavuje riziku zranitelností a budoucí nekompatibility. Prostředky však zůstávají přístupné díky mnemotechnické frázi, ale důrazně se doporučuje přejít na novější model, aby byla zajištěna bezpečnost a dlouhodobý přístup k vašim bitcoinům. Pozor, jedná se o **starý Nano S**, nikoliv o **Nano S Plus**, který nadále podporu dostává.*
+
+___
+
 Fyzická peněženka pro chladné uchování – 60 € – Začátečník – Pro zabezpečení od 2 000 € do 50 000 €
 
 Ledger je francouzské řešení pro jednoduché zabezpečení bitcoinů.
@@ -206,6 +210,6 @@ https://armantheparman.com/ledgersparrow/
 
 Pro hlubší pochopení tohoto tématu a posílení bezpečnosti vaší peněženky na Ledger Nano s BIP39 passphrase vás zvu k přečtení tohoto kompletního tutoriálu:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

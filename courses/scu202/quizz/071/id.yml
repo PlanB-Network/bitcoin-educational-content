@@ -1,0 +1,9 @@
+question: Mengapa sebagian besar perangkat Android dilengkapi dengan Layanan Seluler Google yang sudah diinstal sebelumnya?
+answer: Produsen harus menandatangani perjanjian lisensi dengan Google
+wrong_answers:
+  - Layanan yang diwajibkan oleh undang-undang Eropa
+  - Kode sumber RUPS gratis
+  - RUPS wajib ada di semua perangkat Linux
+explanation: |
+  Untuk mendapatkan manfaat dari aplikasi unggulan (Play Store, Maps, dll.), produsen harus mengintegrasikan GMS, yang berarti menandatangani perjanjian lisensi yang ketat dengan Google.
+reviewed: false

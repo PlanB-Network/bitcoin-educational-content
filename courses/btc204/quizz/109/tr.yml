@@ -1,0 +1,10 @@
+question: Bir ödeme için PayJoin kullanmak neden genellikle karmaşıktır?
+answer: Alıcının inşaat sürecinde aktif işbirliğini gerektirir
+wrong_answers:
+  - Her işlem için sabit tutarlar gerektirir
+  - Her iki tarafı da aynı tür yazılımı kullanmaya zorlar
+  - Ödeyenin, ödemenin değerinden daha büyük en az 2 UTXO'ya sahip olmasını gerektirir
+explanation: |
+  PayJoin'i kullanmanın zorluğu, satıcının katılımına bağlı olmasında yatmaktadır. Bir müşteri olarak, satıcı desteklemiyorsa PayJoin kullanmak imkansızdır.
+  
+reviewed: false

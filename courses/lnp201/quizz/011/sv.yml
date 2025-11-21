@@ -1,0 +1,9 @@
+question: Varför skapar Alice en uttagstransaktion innan insättningstransaktionen publiceras?
+answer: För att få tillbaka sina medel i händelse av ett problem med Bob
+wrong_answers:
+  - Att öka kanalens kapacitet med varje transaktion
+  - För att utföra en blixttransaktion direkt efter öppning
+  - Att tillåta Bob att spendera medlen direkt
+explanation: |
+  Alice skapar en uttagstransaktion för att hämta ut sina medel om ett problem uppstår med Bob, vilket garanterar säkerheten för hennes insättning.
+reviewed: false

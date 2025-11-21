@@ -1,0 +1,9 @@
+question: Protokol mana yang secara dinamis menetapkan IP lokal Address ke perangkat yang tersambung ke jaringan?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP secara otomatis menetapkan IP Address untuk setiap perangkat baru yang tersambung ke jaringan lokal.
+reviewed: false

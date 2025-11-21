@@ -1,0 +1,9 @@
+question: What type of protocol should be activated to encrypt DNS requests on a local network scale?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) and DoT (DNS over TLS) encrypt DNS requests, preventing them from being intercepted.
+reviewed: false

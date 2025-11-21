@@ -1,0 +1,9 @@
+question: Jaki jest cel prymitywów usług w modelu TCP/IP?
+answer: Zarządzanie wymianą między warstwami
+wrong_answers:
+  - Automatyczne szyfrowanie wiadomości sieciowych
+  - Dystrybucja adresów IP do zdalnych hostów
+  - Sprawdź całkowitą długość pakietów IP
+explanation: |
+  Prymitywy usług definiują komunikację Interface między różnymi warstwami, umożliwiając ustanowienie, utrzymanie lub zakończenie wymiany sieciowej.
+reviewed: false

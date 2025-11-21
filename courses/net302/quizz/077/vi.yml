@@ -1,0 +1,9 @@
+question: Phương pháp giải quyết nào yêu cầu đảo ngược từng chữ số thập lục phân của IPv6 Address cho vùng đảo ngược?
+answer: Độ phân giải ngược
+wrong_answers:
+  - Độ phân giải ngược lại
+  - Nghị quyết chính
+  - Độ phân giải thứ cấp
+explanation: |
+  Để giải quyết vấn đề ngược lại, mỗi nibble của IPv6 Address đầy đủ được đảo ngược và phân tách bằng dấu chấm trước khi được thêm hậu tố ip6.arpa.
+reviewed: false

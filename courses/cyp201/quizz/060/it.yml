@@ -2,8 +2,8 @@ question: Che tipo di chiave è associata al prefisso zpub?
 answer: Una chiave pubblica estesa per SegWit V0 sulla Mainnet
 wrong_answers:
   - Una chiave privata estesa per SegWit V1 sulla Mainnet
-  - Una chiave pubblica estesa per Legacy sul Testnet
-  - Una chiave pubblica estesa per SegWit V2 sul Testnet
+  - Una chiave pubblica estesa per Legacy sulla Testnet
+  - Una chiave pubblica estesa per SegWit V2 sulla Testnet
 explanation: |
   Il prefisso zpub indica una chiave pubblica estesa per script SegWit V0 sulla Mainnet.
 recensito: false

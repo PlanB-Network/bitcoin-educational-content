@@ -1,0 +1,8 @@
+question: Miks kutsuti teda Dupont de Nemours'iks, kuigi ta sündis Pierre-Samuel Du Pont'ina?
+answer: Et eristada teda teistest 1789. aasta assamblee Dupontidest
+wrong_answers:
+  - Ta on päritolult üllas
+  - Ta abiellus krahvinna de Nemours'iga
+  - See oli kirjanikunimi
+explanation: |
+  "de Nemours" lisati Pierre-Samuel Dupont'i nimele, et eristada teda teistest Dupont'idest, kes kuulusid 1789. aastal Assemblée Constitante'ile.

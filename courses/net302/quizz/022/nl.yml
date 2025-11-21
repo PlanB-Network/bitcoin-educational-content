@@ -1,0 +1,9 @@
+question: Wat is het doel van de "ACK" vlag in een TCP segment?
+answer: Ontvangst van segmenten bevestigen
+wrong_answers:
+  - Verbinding sluiten
+  - De uitgewisselde gegevensstroom coderen
+  - De gebruikte servicepoort identificeren
+explanation: |
+  Als deze is ingesteld, bevestigt de ACK-vlag dat een segment met succes is ontvangen en specificeert deze het volgende verwachte volgnummer.
+reviewed: false

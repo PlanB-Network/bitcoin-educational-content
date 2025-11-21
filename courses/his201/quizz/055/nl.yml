@@ -1,0 +1,9 @@
+question: Welk mechanisme werd er na het value overflow incident door Satoshi aan de software toegevoegd om de impact van potentiële kwetsbaarheden op het systeem te beperken?
+answer: Het waarschuwingssysteem
+wrong_answers:
+  - De standaard aard van transacties
+  - De limiet voor blokgrootte
+  - De OP_NOP op-codes
+explanation: |
+  Dit effectieve waarschuwingssysteem stelde hem in staat om een privésleutel te gebruiken om de netwerkknooppunten te waarschuwen in geval van een technisch probleem en om sommige API-commando's op te schorten.
+reviewed: true

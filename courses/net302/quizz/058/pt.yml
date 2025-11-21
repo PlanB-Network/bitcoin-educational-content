@@ -1,0 +1,9 @@
+question: Qual arquivo de configuração define uma rede estática Interface em um sistema do tipo RHEL?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  No RHEL, CentOS e sistemas semelhantes, cada Interface tem o seu próprio ficheiro ifcfg-* localizado em /etc/sysconfig/network-scripts/.
+reviewed: false

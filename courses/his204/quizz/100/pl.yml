@@ -1,0 +1,8 @@
+question: Która instytucja bankowa jest ostateczną konsekwencją wyborów dokonanych w 1789 r., przeciwko którym wystąpił Dupont de Nemours?
+answer: Banque de France
+wrong_answers:
+  - Kasa oszczędności
+  - Crédit Agricole
+  - Europejski Bank Centralny
+explanation: |
+  Banque de France jest konsekwencją wyborów dokonanych w 1789 r., które Dupont de Nemours skrytykował jako prowadzące do nadmiernej centralizacji władzy finansowej i nadmiernej interwencji państwa w gospodarkę.

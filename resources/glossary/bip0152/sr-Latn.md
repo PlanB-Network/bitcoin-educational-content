@@ -1,0 +1,5 @@
+---
+term: BIP0152
+---
+
+Predlog za "Compact Block Relay" usmeren na smanjenje potrebne širine pojasa za prenos blokova preko Bitcoin mreže. Usvojen u novembru 2016. u verziji 0.13.0 Bitcoin Core, ovaj protokol omogućava komunikaciju informacija o blokovima na kompaktan način, zasnovan na pretpostavci da čvorovi već imaju veliki deo transakcija nedavnog bloka u svom Mempool. Umesto prenosa svake transakcije u celosti, što bi dovelo do dupliranja, BIP152 predlaže slanje samo kratkih identifikatora za transakcije koje su već poznate vršnjacima, uz nekoliko odabranih transakcija (posebno Coinbase Transaction i onih za koje je verovatno da ih čvor ne zna). Čvor zatim može zatražiti bilo koje nedostajuće transakcije od svojih vršnjaka. Compact Block Relay tako smanjuje količinu podataka razmenjenih tokom propagacije blokova, što smanjuje skokove u širini pojasa i poboljšava ukupnu efikasnost mreže.

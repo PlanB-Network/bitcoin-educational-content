@@ -1,0 +1,9 @@
+question: Je, barua ya urithi ya Bitcoin ina jukumu gani katika mpango wa mali isiyohamishika?
+answer: Kuwaongoza warithi katika kupata fedha hizo
+wrong_answers:
+  - Kutumika kama Contract kwa kuhamisha bitcoins kwa warithi
+  - Kuamua usambazaji wa ushuru wa mali
+  - Ili kuongeza ada za uhamisho kati ya pochi
+explanation: |
+  Barua ya urithi hutoa maelekezo ya wazi na sahihi ili wapendwa waweze kurejesha bitcoins.
+reviewed: false

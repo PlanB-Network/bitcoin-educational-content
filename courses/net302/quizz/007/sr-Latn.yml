@@ -1,0 +1,9 @@
+question: Koji univerzitetski operativni sistem je omogućio širenje TCP/IP protokola u akademskom svetu?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, razvijen na Univerzitetu Berkeley, bio je jedan od prvih sistema koji je integrisao TCP/IP protokole i pomogao u njihovom širokom širenju u akademskom svetu.
+reviewed: false

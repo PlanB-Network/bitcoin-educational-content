@@ -1,11 +1,9 @@
-question: Mis on külm rahakott?
-answer: Füüsiline rahakott, kus sinu võtmed on salvestatud seadmesse, mis ei ole ühendatud internetiga
+question: Mida on vaja varundada, kui kasutate rahakotti koos paroolilausega?
+answer: Teil on vaja varundada nii 12 või 24 sõna loend kui ka teie paroolilause.
 wrong_answers:
-  - Rahakott, mis on füüsiliselt külm puudutada
-  - Rahakott, mis ei ole populaarne Bitcoin'i kasutajate seas
-  - Rahakott, mida soovitatakse väikeste koguste bitcoinide hoidmiseks
+  - Teil on vaja varundada ainult 12 või 24 sõna loend.
+  - Teil on vaja varundada ainult teie paroolilause.
+  - Teil ei ole vaja varundada ei 12 või 24 sõna loendi ega teie paroolilauset.
 explanation: |
-  Külm rahakott on termin, mida kasutatakse Bitcoin'i rahakoti kirjeldamiseks, mis on salvestatud
-  seadmesse, mis ei ole ühendatud internetiga. See teeb selle vähem haavatavaks
-  online-ohtudele, kuid see tähendab ka, et rahakott on igapäevasteks tehinguteks vähem kättesaadav.
+  Kui kasutate rahakotti koos paroolilausega, peate varundama nii 12 või 24 sõna loendi kui ka teie paroolilause. See on seetõttu, et nii sõnade loend kui ka paroolilause on vajalikud juhuks, kui kaotate oma telefoni või arvuti, et taastada juurdepääs oma vahenditele. Ilma ühe või teiseta ei ole vahendid kättesaadavad.
 reviewed: true

@@ -614,7 +614,7 @@ Jeśli dopiero zaczynasz budować, zacznij od tego [Prezentacje MakerBits](https
 - Dodanie lightning:lnurl1234xyz utworzy QR, który zażąda otwarcia Wallet użytkownika dla tego Invoice podczas skanowania (ostatnio zainstalowana aplikacja lightning na iOS, ustawienie w Androidzie)
 - Jeśli flashujesz esp32 przez Internet, będzie działać tylko z tymi przeglądarkami (TL: DR Chrome, Edge i Opera).
 - Zwróć uwagę na to odniesienie PIN-OUT dla esp
-- Kiedy używasz FOSSoftware lub FOSGuides pls zawsze linkuj autora. Każdy uwielbia patrzeć, jak jego dziecko rośnie, a także inicjuje łańcuch budowania, który jest niesamowity do oglądania :)
+- Kiedy używasz FOSSoftware lub FOSGuides pls zawsze linkuj autora. Każdy uwielbia patrzeć, jak jego dziecko rośnie, a także inicjuje łańcuch budowania, który jest niesamowity do oglądania:)
 
 
 Przyjdź do grupy [Makerbits Telegram Group](https://t.me/makerbits), jeśli potrzebujesz pomocy z projektem - mamy Cię!

@@ -1,0 +1,5 @@
+---
+term: BLOK KANDIDATA
+---
+
+Kandidat blok je blok koji je u procesu kreiranja od strane Miner koji učestvuje u Bitcoin sistemu kroz Mining proces. Kandidat blok je privremena struktura podataka koja sadrži transakcije koje čekaju potvrdu, ali još uvek nema validan Proof-of-Work da bi bio dodat u Blockchain. Miner bira transakcije koje će uključiti u kandidat blok na osnovu različitih faktora, kao što su povezane naknade za transakcije i ograničenja veličine bloka. Kada su transakcije odabrane, Miner generiše zaglavlje bloka, koje uključuje verziju, sažetak transakcija (Merkle Root), Timestamp, Hash prethodnog bloka, ciljnu težinu i Nonce. Miner zatim pokušava da pronađe Hash svog zaglavlja koji ispunjava trenutni cilj težine. Da bi to uradio, Miner menja Nonce prisutan u zaglavlju. Miner takođe može menjati druge informacije prisutne u njihovom kandidat bloku. Ovo je Proof-of-Work mehanizam. Ako Miner uspe da pronađe validan Hash, kandidat blok postaje validan blok i emituje se mreži da bi bio dodat u Blockchain.

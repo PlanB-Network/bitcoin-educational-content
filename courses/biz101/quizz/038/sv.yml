@@ -1,0 +1,9 @@
+question: Varför är det viktigt med noggrann bokföring när man hanterar Bitcoin i ett företags bokföring?
+answer: Eftersom varje Bitcoin-transaktion kan skapa en skattepliktig händelse, och korrekta register behövs för att beräkna vinster, förluster och skatteskulder.
+wrong_answers:
+  - Eftersom Blockchain automatiskt lämnar in skatter på företagets vägnar.
+  - Eftersom inga redovisningsstandarder överhuvudtaget gäller för Bitcoin-transaktioner.
+  - Eftersom det är omöjligt att spåra Bitcoin-transaktioner när de väl har registrerats.
+explanation: |
+  Varje köp, försäljning eller betalning som görs i Bitcoin kan ha skattekonsekvenser. Genom att föra detaljerade register över kostnadsbasen, försäljningspriset och tidpunkten säkerställs korrekt och kompatibel skatterapportering.
+reviewed: false

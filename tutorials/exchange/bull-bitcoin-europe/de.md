@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europa
+name: Bull Bitcoin
 description: Kaufen und verkaufen Sie Bitcoins auf Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin ist eine reine Bitcoin-Austauschplattform, die 2013 in Kanada von Francis Pouliot, einer Ikone des Bitcoin-Ökosystems, gegründet wurde. Die Philosophie von Bull Bitcoin ist es, den Nutzern Werkzeuge für finanzielle Souveränität und Emanzipation anzubieten. Die Tauschplattform ist nicht verpfändet, was bedeutet, dass Sie immer die Hoheit über Ihre Bitcoins behalten.
 
-Ursprünglich nur in Kanada verfügbar, ist die Plattform nun auch in Europa mit einer brandneuen, optimierten Schnittstelle verfügbar. Diese neue Version von Bull Bitcoin ist derzeit nur in Europa verfügbar. Sie ermöglicht es Ihnen, Bitcoins schnell und einfach zu kaufen und zu verkaufen, dank der Verwendung von Lightning und sofortigen SEPA-Überweisungen. Letztendlich wird die Plattform auch Optionen für DCA, automatische Käufe, Limit-Orders und Rechnungszahlungen in Bitcoins enthalten.
+Ursprünglich nur in Kanada verfügbar, ist die Plattform nun in Europa und vielen weiteren Ländern mit einer völlig neuen, optimierten Benutzeroberfläche verfügbar. Diese neue Version von Bull Bitcoin ermöglicht es Ihnen, Bitcoins einfach und schnell zu kaufen und zu verkaufen, dank der Nutzung von Lightning und sofortigen SEPA-Überweisungen. Sie integriert auch die Bezahlung von Rechnungen in Bitcoins. Zukünftig wird die Plattform auch DCA-Optionen, automatische Käufe und Limit-Orders integrieren.
 
-Bull Bitcoin legt großen Wert auf einen transparenten Service ohne versteckte Gebühren. Wie alle anderen Börsenplattformen in Europa erfordert auch die Nutzung von Bull Bitcoin ein KYC-Verfahren (Kundenidentifikationsverfahren).
+Bull Bitcoin legt großen Wert darauf, einen transparenten Service ohne versteckte Gebühren anzubieten. Beachten Sie, dass wie bei den meisten Börsen die Nutzung von Bull Bitcoin die Durchführung eines KYC (Know Your Customer) erfordert.
 
 ## Registrierung bei Bull Bitcoin
 
@@ -48,7 +48,7 @@ Scannen Sie den QR-Code mit Ihrer Authentifizierungsanwendung, geben Sie den 6-s
 
 Wenn Sie mit der Verwendung von Authentifizierungsanwendungen für die 2FA nicht vertraut sind, empfehle ich Ihnen, einen Blick auf dieses Tutorial zur Authy-Anwendung zu werfen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Geben Sie zur Bestätigung Ihr Passwort ein.
 
@@ -125,9 +125,9 @@ Geben Sie den Betrag ein, den Sie kaufen möchten. Sie müssen auch wählen, wie
 
 Wenn Sie mit der Verwendung von Bitcoin-, Lightning- oder Liquid-Wallets nicht vertraut sind, empfehle ich Ihnen, unseren speziellen Schulungskurs zu besuchen:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Sie können auch [unsere ausführlichen Anleitungen zu den besten Bitcoin-Wallets](https://planb.network/tutorials/wallet) erkunden.
+Sie können auch [unsere ausführlichen Anleitungen zu den besten Bitcoin-Wallets](https://planb.academy/tutorials/wallet) erkunden.
 
 Bestätigen Sie dann Ihren Kauf, indem Sie auf "*Kauf bestätigen*" klicken.
 
@@ -196,8 +196,16 @@ Um den Überblick über alle Ihre Transaktionen zu behalten, können Sie die His
 
 ![BULL](assets/fr/36.webp)
 
+## Einen automatischen wiederkehrenden Kauf starten (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Eine Limit-Order erstellen
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Jetzt wissen Sie, wie Sie mit Bull Bitcoin ganz einfach Bitcoin kaufen und verkaufen können. Wenn Sie dieses Tutorial nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Sie unten einen grünen Daumen setzen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!
 
 Ich empfehle Ihnen auch dieses andere umfassende Tutorial, um zu lernen, wie Sie Ihre mnemonische Phrase richtig verwalten:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

@@ -6,4 +6,4 @@ wrong_answers:
   - Um die Größe der generierten Hashes zu erhöhen
 explanation: |
   Die Vorverarbeitung passt die Nachrichtenlänge an, indem sie Füllbits und eine binäre Darstellung ihrer Länge hinzufügt.
-reviewed: false
+reviewed: true

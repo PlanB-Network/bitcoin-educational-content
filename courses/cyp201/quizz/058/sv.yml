@@ -1,0 +1,9 @@
+question: Vilken funktion används för att härleda seed från Mnemonic-fras?
+answer: PBKDF2 med HMAC-SHA512
+wrong_answers:
+  - SHA256 ensam
+  - Dubbel SHA256
+  - AES-256
+explanation: |
+  seed genereras med hjälp av PBKDF2-funktionen med HMAC-SHA512 och 2048 iterationer, från Mnemonic-frasen och passphrase.
+reviewed: false

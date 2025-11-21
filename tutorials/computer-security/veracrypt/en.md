@@ -13,9 +13,9 @@ To prevent these problems, I advise you to maintain multiple backups of your fil
 
 In other words, it's advisable to store your files in 3 different locations, using media of different nature, such as your computer, an external hard drive, a USB stick, or an online storage service. And finally, having an offsite copy means that you should have a backup stored outside of your home or business. This last point helps to avoid the total loss of your files in case of local disasters such as fires or floods. An external copy, distant from your home or business, ensures that your data will survive independent of local risks.
 
-To easily implement this 3-2-1 backup strategy, you can opt for an online storage solution, by automatically or periodically syncing the files from your computer with those in your cloud. Among these online backup solutions, there are obviously those from big digital companies you know: Google Drive, Microsoft OneDrive, or Apple iCloud. However, these are not the best solutions for protecting your privacy. In a previous tutorial, I introduced you to an alternative that encrypts your documents for better confidentiality: Proton Drive.
+To easily implement this 3-2-1 backup strategy, you can opt for an online storage solution, by automatically or periodically syncing the files from your computer with those in your cloud. Among these online backup solutions, there are obviously those from big digital companies you know: Google Drive, Microsoft OneDrive, or Apple iCloud. However, these are not the best solutions for protecting your privacy. In a previous tutorial, I introduced you to an alternative that encrypts your documents for better privacy: Proton Drive.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 By adopting this strategy of local and cloud backup, you already benefit from two different types of media for your data, one of which is offsite. To complete the 3-2-1 strategy, you simply need to add an additional copy. What I advise you to do is simply to periodically export your data present locally and on your cloud to a physical medium, like a USB stick or an external hard drive. In this way, even if the servers of your online storage solution are destroyed and your computer breaks down simultaneously, you still have this third copy on an external medium so as not to lose your data.
 ![VeraCrypt](assets/notext/01.webp)
@@ -86,7 +86,7 @@ I also advise you to save your password in a password manager. This makes it eas
 
 For more information on managing passwords, I advise you to discover this other complete tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Enter your password in the 2 designated fields, then click on "*Next*". ![VeraCrypt](assets/notext/25.webp)
 VeraCrypt will then ask you if you plan to store files larger than 4 GiB in the encrypted volume. This question allows the software to select the most suitable file system. Generally, the FAT system is used because it is compatible with the majority of operating systems, but it imposes a maximum file size limit of 4 GiB. If you need to manage larger files, you can opt for the exFAT system.

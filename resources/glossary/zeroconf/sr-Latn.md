@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+---
+
+Rizična praksa tretiranja Bitcoin transakcije kao konačne i nastavak sa izvršenjem povezanog akta zauzvrat (kao što je prodaja robe ili usluge), pre nego što je transakcija zapravo uključena u blok na Blockchain. Nepotvrđene transakcije, ili zeroconf, su podložne napadima dvostrukog trošenja, jer još uvek nisu neopozivo zabeležene u Ledger. Zeroconf se može razmatrati u vrlo specifičnim kontekstima, gde je brzina prioritet, kao što je slučaj sa malim komercijalnim transakcijama ili u slučaju transakcije između poznanika. U ovim situacijama, rizik od dvostrukog trošenja se često smatra prihvatljivim u poređenju sa koristima brze transakcije. Ipak, za značajne transakcije, posebno kada je pošiljalac nepoznat, ključno je čekati nekoliko potvrda pre nego što se transakcija smatra nepromenljivom. Opšteprihvaćeni standard je čekanje na 6 potvrda, što znači da 5 dodatnih blokova mora biti iskopano nakon onog koji uključuje transakciju, da bi se smatrala konačnom.

@@ -1,0 +1,9 @@
+question: Hangi yöntem harcadığınız bitcoinlere rağmen tasarruflarınızı korumanızı sağlar?
+answer: Harca ve Yerine Koy
+wrong_answers:
+  - HODLing ve Replace
+  - Harcama ve HODLing
+  - Alış Veriş ve Harcama
+explanation: |
+  Harca ve Yerine Koy yöntemi, bitcoinleri harcamayı ve ardından elinizdekileri korumak için aynı miktarda yeniden satın almayı içerir.
+reviewed: false

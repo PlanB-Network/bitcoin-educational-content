@@ -1,0 +1,9 @@
+question: 哪个版本的 Ubuntu 更稳定、支持时间更长？
+answer: LTS（长期支持）
+wrong_answers:
+  - 滚动发布
+  - 第一版
+  - 阿尔法版本
+explanation: |
+  LTS 版本的 Ubuntu 维护期为五年，具有更高的稳定性，非常适合新手用户使用。
+reviewed: false

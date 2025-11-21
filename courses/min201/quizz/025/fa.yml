@@ -1,0 +1,9 @@
+question: پایه Layer شبکه Bitcoin اغلب به چه نامی شناخته می‌شود؟
+answer: تسویه Layer
+wrong_answers:
+  - تراکنش Layer
+  - امنیت Layer
+  - اجماع Layer
+explanation: |
+  پایه Layer از شبکه Bitcoin، که شبکه Lightning برای باز و بسته کردن کانال‌های پرداخت به آن متکی است، اغلب به عنوان Layer تسویه حساب شناخته می‌شود.
+reviewed: true

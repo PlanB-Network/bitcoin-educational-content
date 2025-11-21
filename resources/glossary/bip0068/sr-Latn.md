@@ -1,0 +1,5 @@
+---
+term: BIP0068
+---
+
+Uvedena je mogućnost korišćenja relativnih vremena zaključavanja putem polja `nSequence`. Ovo omogućava transakciji da specificira relativno kašnjenje pre nego što može biti uključena u blok. Ovo kašnjenje može biti definisano u smislu broja blokova, ili kao višekratnik od 512 sekundi (tj. realno vreme). Napomena da je ova nova interpretacija polja `nSequence` važeća samo ako je polje `nVersion` veće ili jednako `2`. Ova interpretacija polja `nSequence` se dešava na nivou konsenzus pravila Bitcoin. Relativno vremensko zaključavanje postavlja kašnjenje počevši od prihvatanja prethodne transakcije, dok apsolutno vremensko zaključavanje specificira tačan trenutak pre kojeg transakcija ne može biti uključena u blok. BIP68 je uveden putem Soft Fork 4. jula 2016, zajedno sa BIP112 i BIP113, aktiviran prvi put korišćenjem BIP9 metode.

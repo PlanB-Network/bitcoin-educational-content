@@ -1,0 +1,9 @@
+question: Millist tüüpi DNS-kirjet kasutatakse domeeninime kaardistamiseks IPv6 Address-ga?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Tüüpi AAAA (quad-A) kasutatakse domeeninime seostamiseks IPv6 Address-ga, samas kui tüüp A on reserveeritud IPv4 jaoks.
+reviewed: false

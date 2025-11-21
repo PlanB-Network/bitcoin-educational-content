@@ -1,0 +1,9 @@
+question: Vilken användarprofil samlar regelbundet bitcoins genom Dollar-Cost Averaging?
+answer: Staplaren
+wrong_answers:
+  - Hodler
+  - Den aktiva användaren
+  - Den paranoida
+explanation: |
+  Staplaren köper regelbundet små mängder för att jämna ut inköpspriset på lång sikt.
+reviewed: false

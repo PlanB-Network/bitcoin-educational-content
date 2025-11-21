@@ -1,0 +1,9 @@
+question: Jakie są najważniejsze kryteria, które należy sprawdzić przed wyborem aplikacji do obsługi wiadomości?
+answer: Kompleksowe szyfrowanie i otwarty kod źródłowy
+wrong_answers:
+  - Silne uwierzytelnianie i otwarty kod źródłowy
+  - Kompleksowe szyfrowanie i zdecentralizowane serwery
+  - Silne uwierzytelnianie i zdecentralizowane serwery
+explanation: |
+  Szyfrowanie end-to-end zapewnia poufność wymiany, a otwarte oprogramowanie umożliwia weryfikację poprawności implementacji tego zabezpieczenia.
+reviewed: false

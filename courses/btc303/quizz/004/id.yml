@@ -1,0 +1,8 @@
+question: Menurut whitepaper Bitcoin, solusi apa yang diusulkan oleh Satoshi Nakamoto untuk menyelesaikan masalah double-spending?
+answer: Server stempel waktu terdistribusi peer-to-peer yang menggunakan bukti komputasi dari urutan transaksi kronologis
+wrong_answers:
+  - Server terpusat dengan tanda tangan ambang batas dari beberapa otoritas tepercaya
+  - Federasi server tetap di mana mayoritas harus menyetujui setiap transaksi
+  - Sistem tanda tangan buta dengan pihak tepercaya di pusat untuk pencegahan pembelanjaan ganda
+explanation: |
+  Satoshi Nakamoto secara khusus mengusulkan penggunaan 'server stempel waktu terdistribusi peer-to-peer untuk bukti komputasi generate dari urutan kronologis transaksi' seperti yang dinyatakan dalam whitepaper Bitcoin. Kata kuncinya adalah 'terdistribusi', yang berarti tidak ada titik pusat kendali. Jawaban yang salah mewakili upaya gagal sebelumnya pada uang digital yang mengandalkan pendekatan terpusat atau semi-pusat, yang membuatnya rentan terhadap sensor dan kegagalan - persis masalah yang dirancang untuk dipecahkan oleh Bitcoin melalui desentralisasi yang sebenarnya.

@@ -1,0 +1,9 @@
+question: Điều đầu tiên bạn nên làm để bảo mật quyền truy cập vào máy tính cá nhân của mình là gì?
+answer: Đặt mật khẩu phiên mạnh
+wrong_answers:
+  - Cài đặt phần mềm diệt vi-rút
+  - Cấu hình tường lửa UFW
+  - Bật mã hóa đĩa
+explanation: |
+  Mật khẩu phiên là rào cản bảo mật đầu tiên để ngăn chặn truy cập trái phép vào máy của bạn, trước bất kỳ biện pháp bổ sung nào khác.
+reviewed: false

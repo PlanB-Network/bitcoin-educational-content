@@ -1,0 +1,9 @@
+question: Ni uwuhe mucungerezi w’ijambobanga ry’inkomoko yuguruye akurekurira kubika amakuru yawe y’ibanga ataco ukeneye igicu?
+answer: Gukomeza guca DX
+wrong_answers:
+  - Unyuma
+  - Urugendo rwa Nord
+  - Umuyobozi w'ijambobanga rya Google
+explanation: |
+  KeePassDX ikora ishingiye ku madosiye yo mu karere yashizwemwo amakuru, ata nkenerwa y’igicu canke kwiyandikisha ku gikorwa gihuriweko.
+reviewed: false

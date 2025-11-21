@@ -1,0 +1,9 @@
+question: ARPANET 計畫的幕後推手是哪個美國機構？
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) 發起了 ARPANET，為 TCP/IP 通訊協定的發展奠定了基礎。1972 年，該機構更名為 DARPA（國防先進研究計劃局）。
+reviewed: false

@@ -1,0 +1,9 @@
+question: کدام ویژگی راه‌حل Swiss Bitcoin Pay را به‌ویژه برای کسب‌وکارهای کوچک در پروفایل Essential مناسب می‌سازد؟
+answer: یک اپلیکیشن PoS کاربرپسند
+wrong_answers:
+  - ویژگی‌های پیشرفته تجارت چند ارزی
+  - مدیریت چند امضایی Wallet
+  - ادغام کامل تحلیل‌های Blockchain
+explanation: |
+  پرداخت Swiss Bitcoin با یک PoS Interface ساده طراحی شده است که عملیات روزمره را ساده می‌کند.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken är den bästa rekommenderade metoden för skärmlåsning för en smartphone?
+answer: Alfanumeriskt lösenord
+wrong_answers:
+  - Grafiskt diagram
+  - Ansiktsigenkänning
+  - Ingen låsning
+explanation: |
+  Alfanumeriska lösenord ger det bästa motståndet mot obehöriga åtkomstförsök, till skillnad från grafiska system eller biometri.
+reviewed: false

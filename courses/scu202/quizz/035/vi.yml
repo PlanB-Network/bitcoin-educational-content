@@ -1,0 +1,9 @@
+question: Trên máy Linux, công cụ nào có thể phân tích bảo mật hệ thống và đưa ra báo cáo chi tiết kèm theo khuyến nghị?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - khớp thần kinh
+explanation: |
+  Lynis là công cụ kiểm tra bảo mật toàn diện dành cho Linux, quét hệ thống để tìm lỗ hổng và cấu hình sai.
+reviewed: false

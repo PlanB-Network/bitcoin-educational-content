@@ -1,0 +1,8 @@
+question: O jakém tématu Condorcet nepsal?
+answer: Banky
+wrong_answers:
+  - Svoboda obchodu s obilím
+  - Úkoly
+  - Otroctví
+explanation: |
+  Condorcet psal o svobodě obchodu s obilím, corvée a otroctví, ale nepsal o bankách.

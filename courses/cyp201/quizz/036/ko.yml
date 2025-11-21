@@ -1,0 +1,9 @@
+question: HD Wallet은 JBOK Wallet과 비교하여 어떤 기능을 사용할 수 있나요?
+answer: generate 단일 seed의 모든 개인 키
+wrong_answers:
+  - 디지털 서명의 보안 강화
+  - 여러 트랜잭션에 동일한 Address 재사용
+  - 공개 키 사용을 완전히 피하세요
+explanation: |
+  HD 지갑은 모든 개인 키를 고유한 seed에서 파생하여 백업을 간소화하고 개인정보 보호를 간접적으로 개선합니다.
+reviewed: false

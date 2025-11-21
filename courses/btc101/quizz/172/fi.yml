@@ -1,13 +1,10 @@
-question: Mikä on pääasiallinen ero keynesiläisen taloustieteen ja itävaltalaisen taloustieteen välillä rahajärjestelmän suhteen?
-answer: Keynesiläinen taloustiede ei ota huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia.
+question: Mikä on yksi syy siihen, miksi Bitcoin kokee niin monta spekulatiivista kuplaa?
+answer: Koska Bitcoin on valuutta, jota käytetään kaikkialla maailmassa.
 wrong_answers:
-  - Keynesiläinen taloustiede edistää valuuttojen ylikulutusta.
-  - Keynesiläinen taloustiede tunnustaa tilanteiden ja resurssien niukkuuden.
-  - Keynesiläinen taloustiede kannustaa inflaatioon.
+  - Koska Bitcoinia ei itse asiassa käytetä missään.
+  - Koska Bitcoin on kupla, joka katoaa.
+  - Koska Bitcoin ei ole taloudellisten syklien alainen.
 explanation: >-
-  Pääasiallinen ero keynesiläisen taloustieteen ja itävaltalaisen taloustieteen
-  ideoissa rahajärjestelmän suhteen on, että keynesiläinen taloustiede ei
-  ota huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia.
-  Toisin sanoen, rajaton valuutta ei voi tehokkaasti heijastaa planeettamme rajallisia
-  resursseja.
+  Bitcoin kokee monta spekulatiivista kuplaa, koska se on valuutta,
+  jota todellisuudessa käytetään kaikkialla maailmassa.
 reviewed: true

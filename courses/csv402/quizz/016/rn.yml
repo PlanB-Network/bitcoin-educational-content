@@ -1,0 +1,9 @@
+question: Ni ibihe bintu bibiri nyamukuru vy’ubwenge Contract State muri RGB?
+answer: Global State n'Ibihugu vy'Igihugu
+wrong_answers:
+  - Commitment na Genesis.
+  - Seal Definition na State Transition.
+  - Valency na Contract Rights.
+explanation: |
+  Global State irimwo amakuru ya bose, mu gihe Leta zifise uburenganzira zifitaniye isano n’abafise uburenganzira bwihariye biciye ku ma UTXO.
+reviewed: false

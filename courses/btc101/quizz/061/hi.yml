@@ -1,0 +1,10 @@
+question: Mining का इनाम कितनी बार आधा होता है?
+answer: हर 2,10,000 ब्लॉक्स पर।
+wrong_answers:
+  - हर 1,20,000 ब्लॉक्स पर।
+  - हर 5,40,000 ब्लॉक्स पर।
+  - हर 21,00,000 ब्लॉक्स पर।
+explanation: |
+  Mining का इनाम हर 210,000 पर आधा होने के लिए प्रोग्राम किया गया है।
+  blocks, which is approximately every four years: an event
+reviewed: true

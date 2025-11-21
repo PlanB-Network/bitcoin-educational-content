@@ -1,0 +1,9 @@
+question: 広告やトラッカーのブロック、フィンガープリント保護を提供し、Chromiumをベースにしているブラウザは？
+answer: 勇敢
+wrong_answers:
+  - ファイアフォックス
+  - トーア
+  - クローム
+explanation: |
+  Braveは広告ブロック、トラッカー、高度なフィンガープリント保護をデフォルトで備えており、すべてChromiumをベースにしている。
+reviewed: false

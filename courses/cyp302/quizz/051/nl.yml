@@ -1,0 +1,9 @@
+question: Wat betekent de term champ premier of corps premier?
+answer: Een veld met een priemgetal van Elements
+wrong_answers:
+  - Een veld met alleen priemgetallen
+  - Een veld uitsluitend gedefinieerd door de optelling van priemgetallen
+  - Een veld dat willekeurige vectoren gebruikt
+explanation: |
+  Een priemveld bevat een aantal Elements dat gelijk is aan een priemgetal, waardoor het een fundamenteel veld is voor cryptografische bewerkingen.
+reviewed: false

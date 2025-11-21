@@ -1,0 +1,13 @@
+question: Ni ingaruka izihe zo kwongerekana kw’amahera Supply ku bijanye n’ugutera imbere n’ugutera imbere kw’ibiciro mu buryo bw’amahera adahinduka Supply?
+answer: Ukwongerekana kw’amahera Supply gukuraho ugutakaza agaciro gushobora guterwa n’ukwiyongera kw’ibikorwa.
+wrong_answers:
+  - Ukwongerekana kw’amahera Supply bituma haba ugutakaza agaciro.
+  - Ukwongerekana kw’amahera Supply ntaco bihindura ku gutera imbere kw’ibiciro canke ku gutera imbere kw’ibiciro.
+  - Ukwongerekana kw’amahera Supply bituma umusaruro ugabanuka.
+explanation: |
+  Ikigabane kirasigura yuko mu bijanye n’amahera adahinduka Supply, iyongerekana .
+  mu guhingura bikwiye gutuma haba ugutakaza agaciro, ni ukuvuga ukugabanuka kw’ibiciro,
+  nk’uko hoba hariho ibintu vyinshi n’ibikorwa vyinshi. Ariko rero, mu gihe c’ubu fiat .
+  uburyo bw’amahera, iyongerekana ry’amahera Supply rikuraho ugutakaza agaciro kw’amahera
+  bitewe n’ukwiyongera kw’ibikorwa.
+reviewed: false

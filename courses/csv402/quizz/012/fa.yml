@@ -1,0 +1,9 @@
+question: Assignment در پروتکل RGB چیست؟
+answer: خروجی که ویژگی‌ها را در وضعیت یک Contract تغییر، به‌روزرسانی یا ایجاد می‌کند
+wrong_answers:
+  - یک Commitment رمزنگاری منحصر به فرد ذخیره شده در یک تراکنش Bitcoin
+  - یک تراکنش Bitcoin که قبل از اعتبارسنجی نهایی به‌طور جزئی امضا شده است.
+  - به‌روزرسانی عمومی Global State
+explanation: |
+  یک Assignment ترکیبی از یک Seal Definition و یک Owned State است که بخشی تخصیص‌یافته از ایالت را نشان می‌دهد.
+reviewed: false

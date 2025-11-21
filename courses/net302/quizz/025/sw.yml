@@ -1,0 +1,9 @@
+question: Ni bandari gani zilizohifadhiwa zinazotumiwa katika mfano wa TCP/IP?
+answer: Kusikiliza maombi juu ya huduma maalum
+wrong_answers:
+  - Kwa generate usimbaji datagram moja kwa moja
+  - Ili kuelekeza fremu za mtandao kihalisi
+  - Ili kudhibiti mgawanyiko wa pakiti za UDP
+explanation: |
+  Bandari ni sehemu za kusikiliza za kimantiki zinazoruhusu programu za mtandao kutofautisha huduma mbalimbali zinazoendeshwa kwa seva pangishi moja.
+reviewed: false

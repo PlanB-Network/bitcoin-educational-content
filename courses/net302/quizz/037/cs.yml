@@ -1,0 +1,9 @@
+question: K čemu slouží speciální zápis IPv4 0.0.0.0?
+answer: Určení všech rozhraní nebo nepřiřazeného rozhraní Address
+wrong_answers:
+  - Odeslání zprávy do všech sítí
+  - Testování místního připojení zařízení
+  - Označení chyby adresování nebo připojení v místním směrovači
+explanation: |
+  Zápis 0.0.0.0 se používá lokálně pro vyjádření nepřítomnosti přiřazeného Address nebo pro naslouchání na všech rozhraních.
+reviewed: false

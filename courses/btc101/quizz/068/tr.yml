@@ -1,0 +1,13 @@
+question: Bitcoin Wallet'deki Mnemonic ifadesi nedir?
+answer: Bitcoinlerinize erişmenizi sağlayan 12 veya 24 kelimelik bir liste.
+wrong_answers:
+  - Bitcoin Wallet'e erişmek için seçilen bir şifre.
+  - Bitcoin işlemlerini şifrelemek için bir kod.
+  - İhtiyaç halinde Bitcoin Wallet'yi yok eden gizli bir kurtarma ifadesi.
+explanation: |
+  2017'den bu yana, özel anahtar basit bir listede kodlanabilir
+  gW-8 cümlesi olarak adlandırılan 12 veya 24 kelimeden oluşan bir cümle. Bu ifade
+  gW-9 Wallet'unuzun bir yedeğidir, bu nedenle
+  herhangi bir Bitcoin Wallet kullanarak bitcoinlerinize erişin
+  yazılım/uygulama.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Hvilke felt reiser Bitcoin spørsmål i?
-answer: Kryptografi, spillteori, økonomi og pengepolitikk, informatikk, filosofi, energi, lover og regulering
+question: Hva muliggjør Lightning Network?
+answer: Øyeblikkelige, kostnadsbesparende Bitcoin-transaksjoner.
 wrong_answers:
-  - Kun informatikk og økonomi
-  - Kun kryptografi og spillteori
-  - Kun filosofi og energi
+  - Øyeblikkelige, høykostnads Bitcoin-transaksjoner.
+  - Forsinkede, kostnadsbesparende Bitcoin-transaksjoner.
+  - Forsinkede, høykostnads Bitcoin-transaksjoner.
 explanation: >-
-  Bitcoin er et tverrfaglig objekt som reiser spørsmål relatert til
-  ulike felt, inkludert kryptografi, spillteori, økonomi og pengepolitikk,
-  informatikk, filosofi, energi, lover og regulering.
+  Lightning Network muliggjør øyeblikkelige, kostnadsbesparende Bitcoin-transaksjoner,
+  og løser dermed skalerbarhetsproblemet til Bitcoin.

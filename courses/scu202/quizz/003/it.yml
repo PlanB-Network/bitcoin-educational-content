@@ -1,0 +1,9 @@
+question: Cosa bisogna evitare di fare con le unità flash USB?
+answer: Collegamento di chiavette USB sconosciute
+wrong_answers:
+  - Utilizzate chiavette USB formattate in NTFS
+  - Crittografate le vostre chiavette USB
+  - Utilizzare nuove unità flash USB
+explanation: |
+  L'inserimento di una chiavetta USB sconosciuta può infettare il computer con malware o rubare dati sensibili.
+reviewed: false

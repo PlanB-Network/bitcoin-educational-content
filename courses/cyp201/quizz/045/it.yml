@@ -5,5 +5,5 @@ wrong_answers:
   - SHA512
   - HASH256
 explanation: |
-  Il checksum di una frase mnemonica viene calcolato applicando un semplice hash SHA256 sull'entropia.
+  Il checksum di una frase mnemonica viene calcolato applicando all'entropia un semplice hash SHA256.
 reviewed: false

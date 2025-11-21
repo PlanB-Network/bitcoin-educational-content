@@ -2,8 +2,8 @@ question: Koju međumeru možete preduzeti da sakrijete veze kada ne koristite s
 answer: Korišćenje Tor-a.
 wrong_answers:
   - Korišćenje vatrozida.
-  - Korišćenje enkriptovanog Wallet.
-  - Korišćenje duplog Wallet.
+  - Korišćenje enkriptovanog novčanika.
+  - Korišćenje duplog novčanika.
 explanation: |
-  Da biste ograničili rizik od posmatranja, jedna od srednjih rešenja je korišćenje Wallet softvera koji vam omogućava da sakrijete svoje konekcije putem Tor-a.
+  Da biste ograničili rizik od posmatranja, jedna od srednjih rešenja je korišćenje novčanik softvera koji vam omogućava da sakrijete svoje konekcije putem Tor-a.
 reviewed: false

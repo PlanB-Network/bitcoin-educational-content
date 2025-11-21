@@ -1,0 +1,9 @@
+question: Vilken är den lösning som Tocqueville föreslår för att undvika farorna med utjämning?
+answer: Utveckla civilsamhället och den lokala demokratin.
+wrong_answers:
+  - Stärka statens centrala makt.
+  - Minska ekonomisk och social ojämlikhet.
+  - Alla de andra svaren är korrekta.
+explanation: |
+  Tocqueville föreslår att man stärker föreningslivet och den lokala demokratin för att motverka utjämningens likriktande effekter, eftersom detta uppmuntrar till aktivt deltagande från medborgarnas sida och bevarar mångfalden i de lokala initiativen.
+reviewed: true

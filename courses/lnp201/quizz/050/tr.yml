@@ -1,0 +1,9 @@
+question: Bir satıcı neden bir kanalda hayali bir ödeme yapabilir?
+answer: Likiditeyi karşı tarafa taşımak için
+wrong_answers:
+  - Yönlendirme ücretlerini azaltmak için
+  - Kanallarının toplam kapasitesini artırmak için
+  - Fonları uzun vadede kilitlemek için
+explanation: |
+  Bir satıcı hayali bir ödeme yaparak likiditeyi kendi tarafından kanalın karşı tarafına taşır ve böylece ödeme almak için gelen kapasiteyi serbest bırakır.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - RGB
 explanation: |
   Le Lightning Network est une solution de seconde couche pour permettre des transacitons à règlement rapide et réduire le coût des transactions en BTC.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,9 @@
+question: Porque é que é aconselhável remover software não utilizado ou obsoleto do seu computador?
+answer: Para reduzir a superfície de ataque
+wrong_answers:
+  - Para acelerar a sua ligação à Internet
+  - Para melhorar os vectores de proteção
+  - Para aumentar a duração da bateria
+explanation: |
+  Quanto menos software for instalado, menor será o número de potenciais vulnerabilidades que podem ser exploradas pelos atacantes.
+reviewed: false

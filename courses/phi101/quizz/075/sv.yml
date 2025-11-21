@@ -1,0 +1,9 @@
+question: Vad är titeln på Adam Smiths bok?
+answer: An Inquiry into the Nature and Causes of the Wealth of Nations.
+wrong_answers:
+  - An Inquiry into the Nature and Spirit of the Wealth of Nations.
+  - An Inquiry into the Nature and Origins of the Wealth of Nations.
+  - En undersökning av orsakerna till och uppkomsten av nationernas välstånd.
+explanation: |
+  Den fullständiga titeln på Adam Smiths bok, An Inquiry into the Nature and Causes of the Wealth of Nations, understryker hans analys av de faktorer som bidrar till ekonomiskt välstånd genom att undersöka mekanismerna för produktion och distribution av välstånd.
+reviewed: true

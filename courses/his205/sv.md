@@ -405,7 +405,7 @@ Här nedan kan du beundra min kopia av en tavla med kilskrift. För att skriva p
 
 
 
-![image](/assets/sv/001.webp)
+![image](assets/sv/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Jag har också vad jag tror är en äkta sumerisk tavla med en liten kilskrift i
 Märkena med små siffror fungerade som signaturer under en tid då de flesta människor inte kunde skriva, eftersom endast skickliga skrivare hade den förmågan.
 
 
-![image](/assets/sv/002.webp)
+![image](assets/sv/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Nedan ser du cylindern som nämndes ovan: en sten graverad med specifika former.
 Dåtidens skrivare använde därför den kilformade pennan för att skriva ut tecken på våta tabletter.
 
 
-![image](/assets/sv/003.webp)
+![image](assets/sv/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ I Kina behövde mynten inte nödvändigtvis vara officiellt märkta eller garant
 
 
 
-![image](/assets/sv/004.webp)
+![image](assets/sv/004.webp)
 
 
 Den ovan är ett kinesiskt mynt från medeltiden. Det är ett gjutet mynt med ett fyrkantigt hål i mitten. Detta hål användes för att trä ett rep genom, vilket gjorde att mynten kunde träs ihop till armband eller halsband. Dessa mynt var dock inte i första hand avsedda att bäras, utan de användes främst för bokföringsändamål. De kunde träs ihop till bokföringsenheter i form av stora strängar, där bitarna var sammankopplade med varandra. Det var inte nödvändigtvis några specifika märken, ibland var det helt enkelt bronscirklar.
@@ -1221,7 +1221,7 @@ Jag tycker att det är intressant att nämna här att man i Egypten fortsatte at
 
 
 
-![image](/assets/sv/005.webp)
+![image](assets/sv/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Eftersom vi inte kan skilja på mynt från Lydien och perserna går vi vidare ti
 Nedan kan du se ett av de tidigaste lydiska mynten, med ett lejon med sitt byte framför. Du kanske lägger märke till en stämpel eller ett hål på baksidan, som vissa tror användes för att testa metallens renhet och säkerställa att det inte bara var ett ytskikt. Även om det här är ett av de tidigaste exemplaren är det viktigt att notera att det här är en kopia. Alla mina guld- och elektrumföremål är repliker eller moderna återskapningar, utformade för att hindra mig från att spendera alla mina besparingar på den här samlingen.
 
 
-![image](/assets/sv/006.webp)
+![image](assets/sv/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ När de akemenidiska perserna erövrade Lydien år 546 f.Kr. tog de omedelbart t
 
 
 
-![image](/assets/sv/007.webp)
+![image](assets/sv/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Efter ett avsnitt om myntens uppkomst ville jag introducera ett mycket kort avsn
 
 
 
-![image](/assets/sv/008.webp)
+![image](assets/sv/008.webp)
 
 
 Senare, som vi kommer att utforska i ett senare avsnitt, förfinade grekerna denna teknik genom att skapa runda mynt som hamrades på båda sidor. De tog en slät, platt bit ädelmetall, graverade den önskade designen på ena sidan och hamrade den sedan för hand för att skapa det färdiga myntet.
@@ -1413,7 +1413,7 @@ Senare, som vi kommer att utforska i ett senare avsnitt, förfinade grekerna den
 Tekniken att handmynta mynt individuellt spelade sannolikt en roll för att kontrollera inflationen under den tiden, även om mynten ofta späddes ut för att öka produktionen. Detta var särskilt tydligt under den romerska perioden och, i mindre utsträckning, under vissa krig under den grekiska perioden. Även om myntning av ett mynt i taget begränsade myndighetens kapacitet för massproduktion bidrog det effektivt till inflationskontrollen, trots de betydande devalveringar som förekom. Utvecklingen gick alltså från en metallklump som stansades till ett runt, hamrat mynt.
 
 
-![image](/assets/sv/009.webp)
+![image](assets/sv/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Här nedan kan du beundra ett slående exempel på de monumentala stenarna på �
 
 
 
-![image](/assets/sv/010.webp)
+![image](assets/sv/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Den monetära premien baseras helt enkelt på förtroendet för att någon senar
 
 
 
-![image](/assets/sv/011.webp)
+![image](assets/sv/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Här nedan kan du se en tweet från Stephanie Kelton, som är en slags affischkv
 
 
 
-![image](/assets/sv/012.webp)
+![image](assets/sv/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Och jag har turen att ha en kopia av en grekisk drachma från den perioden med d
 
 
 
-![image](/assets/sv/013.webp)
+![image](assets/sv/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ I och med det avgörande mötet med grekerna i södra Italien började romarna v
 Faktum är att många romerska mynt från republikens tid avbildar grundningsmyter. Du kan se mitt här nedan: det är ett fantastiskt, äkta mynt från kung Tatius. Det illustrerar myten om bortförandet av kvinnor från sabinerna. Tatius var kung i den här regionen, och grundläggningsmyten berättar om hur romarna rövade bort kvinnor från sabinerna, en befolkning som bodde i närheten. Därefter blev kung Tatius samkung med Romulus, en av Roms grundare.
 
 
-![image](/assets/sv/014.webp)
+![image](assets/sv/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Här kan vi återkomma till ett koncept som vi tidigare har diskuterat, nämlige
 
 
 
-![image](/assets/sv/015.webp)
+![image](assets/sv/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Efter mordet på Caesar år 44 f.Kr. tog Octavianus (Augustus) över Rom och gru
 
 
 
-![image](/assets/sv/016.webp)
+![image](assets/sv/016.webp)
 
 
 
-![image](/assets/sv/017.webp)
+![image](assets/sv/017.webp)
 
 
 
-![image](/assets/sv/018.webp)
+![image](assets/sv/018.webp)
 
 
 
-![image](/assets/sv/019.webp)
+![image](assets/sv/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Denna del gör det möjligt för mig att presentera det sista myntet i detta avs
 
 
 
-![image](/assets/sv/020.webp)
+![image](assets/sv/020.webp)
 
 
 
-![image](/assets/sv/021.webp)
+![image](assets/sv/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Det var egentligen Aurelianus som uppfann denna form av devalvering, som är myc
 För att visuellt illustrera denna extrema devalvering har jag hittat lite fascinerande statistik över priset på spannmål i Egypten från 40 f.Kr. till 300-talet, vilket spänner över 300 år. Nedan kan du se en grekisk tetradrachma från min samling. På den tiden, i Egypten under romersk ockupation på 300-talet, var motsvarigheten en egyptisk tetradrachma. Valören drachmer användes fortfarande och motsvarade en denar.
 
 
-![image](/assets/sv/022.webp)
+![image](assets/sv/022.webp)
 
 
 
-![image](/assets/sv/023.webp)
+![image](assets/sv/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Som en första artefakt med anknytning till den här perioden ska jag visa er en
 
 
 
-![image](/assets/sv/024.webp)
+![image](assets/sv/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ För att göra kopplingen till tempelriddarna kan du här nedan se ett franskt m
 
 
 
-![image](/assets/sv/025.webp)
+![image](assets/sv/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Här nedan kan du se en reproduktion av en Florin: en guld-Florin tillverkad av 
 
 
 
-![image](/assets/sv/026.webp)
+![image](assets/sv/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Denna återgång till guldmyntning drevs av ett specifikt sammanhang: den bysant
 
 
 
-![image](/assets/sv/027.webp)
+![image](assets/sv/027.webp)
 
 
 
-![image](/assets/sv/028.webp)
+![image](assets/sv/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Det var också under den här perioden som Europa fick kännedom om att det fann
 Vi syftar på den pendelslagteknik som nämndes tidigare i kursen. Denna metod gjorde det möjligt att producera mer enhetliga mynt jämfört med hammarslagning och, vilket är viktigt, möjliggjorde inskriptioner runt kanten av myntet, vilket jag tidigare har visat. Nedanstående är en europeisk daler från 1793, som tydligt visar skrift på kanten.
 
 
-![image](/assets/sv/029.webp)
+![image](assets/sv/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Som svar på Europas efterfrågan på guld och silver var "den ständiga drivkra
 
 
 
-![image](/assets/sv/030.webp)
+![image](assets/sv/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ I och med erövringen av den nya världen blev **Spanien** den dominerande aktö
 
 
 
-![image](/assets/sv/031.webp)
+![image](assets/sv/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Den spanska realen, även känd som "åttondelsmyntet", fick sitt smeknamn efter
 Det som är särskilt intressant är att den spanska dollarn fungerade som internationell reservvaluta vid den tiden. De spanska myndigheterna gav också ut sin egen lokala valuta, maravedi, och justerade regelbundet penningmängden genom återkallelser. Till exempel kunde ett koppar- eller bronsmynt som ursprungligen var värt en maravedi återkallas och stämplas med "2", senare med "4" och så vidare, för att eventuellt nå "8" På det högupplösta fotot kan man tydligt se "8" stämplat på myntet. Den här metoden ledde till en effektiv ökning av penningmängden, vilket oundvikligen ledde till inflation.
 
 
-![image](/assets/sv/032.webp)
+![image](assets/sv/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Efter den iberiska storhetstiden växte **Nederländerna** fram som en ny handel
 
 
 
-![image](/assets/sv/033.webp)
+![image](assets/sv/033.webp)
 
 
-![image](/assets/sv/034.webp)
+![image](assets/sv/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Mer restriktiva lagar försökte införa assignat, men utan framgång. Regeringe
 
 
 
-![image](/assets/sv/035.webp)
+![image](assets/sv/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ När dessa papperspengar ersatte alla ädelmetallmynt av hög kvalitet, i linje 
 
 
 
-![image](/assets/sv/036.webp)
+![image](assets/sv/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Sovereign var ett penningmynt - ett guldmynt som ursprungligen var värt ett pun
 Före den berömda sovereignmynten fanns guinea-mynten, som fungerade enligt samma princip. Guinean fick sitt namn efter de ädelmetaller som den innehöll och som kom från regionen Guinea.
 
 
-![image](/assets/sv/037.webp)
+![image](assets/sv/037.webp)
 
 
-![image](/assets/sv/038.webp)
+![image](assets/sv/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ I Antwerpen hölls handelsmässor där handlare ofta samlades för att reglera s
 
 
 
-![image](/assets/sv/039.webp)
+![image](assets/sv/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Sedan kom paniken 1776. Alla rusade upp i penningpyramiden. Vad detta innebär �
 Vi övergick från florinen till inrättandet av Bank of England. Naturligtvis pågick första och andra världskriget under tiden, men tidigare, 1796, skedde också en utveckling på andra sidan Atlanten. År 1776 var Amerika fortfarande en brittisk koloni, och kolonierna använde denna pappersvaluta. Nedan visas en Connecticut-sedel på två shilling från 1776.
 
 
-![image](/assets/sv/040.webp)
+![image](assets/sv/040.webp)
 
 
 Innan kolonierna förklarade krig mot England och så småningom utfärdade sin egen valuta, använde de denna pappersvaluta tillsammans med den spanska dollarn för kontanttransaktioner. Faktum är att termen "dollar" kvarstod för att ange den amerikanska dollarn.
@@ -3767,7 +3767,7 @@ Innan kolonierna förklarade krig mot England och så småningom utfärdade sin 
 Om jag inte misstar mig antog de 1792 en lag som gjorde det möjligt för dem att mynta pengar. Som ett exempel är den nedan en amerikansk dollar från modern tid.
 
 
-![image](/assets/sv/041.webp)
+![image](assets/sv/041.webp)
 
 
 Det är uppenbart att den inte har ett nominellt värde på bara en dollar; den är värd omkring 30 eller 40 dollar, eftersom den representerar ett uns silver. Dess värde fluktuerar baserat på silverpriset, vilket vanligtvis placerar det på minst 30 eller 40 US-dollar. Idag har en pappersdollar naturligtvis bara sitt nominella värde på en dollar, men på den tiden var den amerikanska dollarn rotad i detta silvervärde.
@@ -3777,7 +3777,7 @@ Låt oss nu tala om inbördeskriget i Amerika. Konfederationen tryckte pengar, s
 
 
 
-![image](/assets/sv/042.webp)
+![image](assets/sv/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Deras motståndare i norr hade också dollar. Strax ovanför kan du se konfedera
 
 
 
-![image](/assets/sv/043.webp)
+![image](assets/sv/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Efter första världskriget innehöll den sista serien av tryckta sedlar alltid 
 
 
 
-![image](/assets/sv/044.webp)
+![image](assets/sv/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Här nedan kan du se ett guldcertifikat från 1928.
 
 
 
-![image](/assets/sv/045.webp)
+![image](assets/sv/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Efter utfärdandet av Executive Order 6102 beslagtog de allt guld och växlade 2
 
 
 
-![image](/assets/sv/046.webp)
+![image](assets/sv/046.webp)
 
 
 Begreppet lagligt betalningsmedel dyker upp här och ersätter frasen "inlösbar i guld" De två sedlarna kan se identiska ut, med bara några få ord som ändras, men bluffen ligger i det faktum att dollarn devalverades under denna period; den minskade från att ett uns guld värderades till 20,67 dollar till 35 dollar per uns 1934. Det motsvarade en devalvering på cirka 40%!
@@ -3903,7 +3903,7 @@ Med detta system kopplade Law papperspengar till sitt företags aktier. Ju fler 
 
 
 
-![image](/assets/sv/047.webp)
+![image](assets/sv/047.webp)
 
 
 

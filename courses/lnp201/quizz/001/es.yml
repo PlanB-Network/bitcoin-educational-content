@@ -6,4 +6,4 @@ wrong_answers:
   - El número de transacciones que un canal puede soportar por día
 explanation: |
   La capacidad del canal corresponde a los fondos totales de los dos participantes y permanece fija para determinar los posibles intercambios.
-  reviewed: true
+reviewed: true

@@ -17,7 +17,7 @@ objectives:
 
 
 
-Probablemente estés familiarizado con el adagio "Ni tus llaves, ni tus monedas", que anima a la autocustodia de tus bitcoins. Poseer tus propias claves es, en efecto, un primer paso esencial, pero no es suficiente. Para lograr una verdadera soberanía monetaria, también necesitas instalar y utilizar tu propio nodo Bitcoin. Este curso está diseñado para guiarte a través de este paso fundamental en tu viaje por Bitcoin
+Probablemente estés familiarizado con el adagio "Not your keys, not your Bitcoin", que anima a la autocustodia de tus bitcoins. Poseer tus propias claves es, en efecto, un primer paso esencial, pero no es suficiente. Para lograr una verdadera soberanía monetaria, también necesitas instalar y utilizar tu propio nodo Bitcoin. Este curso está diseñado para guiarte a través de este paso fundamental en tu viaje por Bitcoin
 
 
 
@@ -133,19 +133,18 @@ Entonces, ¿estás listo para encender tu primer nodo Bitcoin? ¡Ponga rumbo a l
 
 
 
-Tal y como la describe su creador, Satoshi Nakamoto, Bitcoin se presenta como un sistema de dinero electrónico entre iguales. Esta simple frase, que es el título del Libro Blanco, encierra muchas pistas sobre la naturaleza de Bitcoin:
+Tal y como lo describe su creador, Satoshi Nakamoto, Bitcoin se presenta como un sistema de dinero electrónico peer-to-peer. Esta simple frase, que es el título del Libro Blanco, encierra muchas pistas sobre la naturaleza de Bitcoin:
 
 
 
 
-- En primer lugar, Satoshi describe Bitcoin como un "sistema", es decir, un conjunto coherente de componentes de hardware y software que interactúan para prestar un servicio específico o realizar una función concreta;
-- A continuación, explica que este sistema permite utilizar dinero electrónico, es decir, una forma de moneda intangible;
-- Por último, señala que este sistema no depende de ninguna entidad central: es "peer-to-peer", es decir, que son los propios usuarios quienes hacen funcionar el sistema.
+- En primer lugar, Satoshi describe Bitcoin como un “sistema”, es decir, un conjunto coherente de componentes de hardware y software que interactúan para prestar un servicio específico o realizar una función concreta.
+- A continuación, explica que este sistema permite utilizar dinero electrónico, es decir, una forma de moneda intangible.
+- Por último, señala que este sistema no depende de ninguna entidad central: es peer-to-peer, es decir, que son los propios usuarios quienes hacen funcionar el sistema.
 
 
 
-Dado que Bitcoin es un sistema, debe ejecutarse necesariamente en ordenadores. Y, debido a su naturaleza peer-to-peer, son los propios usuarios quienes asumen la responsabilidad de hacer funcionar estas máquinas. Lo que llamamos "nodo Bitcoin" es precisamente el ordenador en el que se ejecuta el software que implementa el protocolo Bitcoin (como Bitcoin core, pero volveremos sobre ello más adelante). Esto es lo que permite a Bitcoin funcionar sin una autoridad central: la validación se lleva a cabo de forma distribuida, por miles de máquinas independientes pertenecientes a miles de usuarios.
-
+Dado que Bitcoin es un sistema, debe ejecutarse necesariamente en ordenadores. Y, debido a su naturaleza peer-to-peer, son los propios usuarios quienes asumen la responsabilidad de hacer funcionar estas máquinas. Lo que llamamos “nodo Bitcoin” es precisamente el ordenador en el que se ejecuta el software que implementa el protocolo Bitcoin (como Bitcoin Core, pero volveremos sobre ello más adelante). Esto es lo que permite a Bitcoin funcionar sin una autoridad central: la validación se lleva a cabo de forma distribuida, por miles de máquinas independientes pertenecientes a miles de usuarios.
 
 
 ![Image](assets/fr/047.webp)
@@ -156,7 +155,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Son precisamente estos usuarios los que garantizan la seguridad de Bitcoin. Como explica Eric Voskuil en su libro *Cryptoeconomics*, la seguridad de Bitcoin no depende ni de Blockchain, ni de la potencia de hashing, ni de la validación, ni de la descentralización, ni de la criptografía, ni del código abierto, ni de la teoría de juegos. La seguridad de Bitcoin depende principalmente de los individuos que están dispuestos a exponerse a un riesgo personal. La descentralización permite repartir este riesgo entre un gran número de individuos, y sólo su capacidad de resistencia garantiza la solidez del sistema.
+Son precisamente estos usuarios los que garantizan la seguridad de Bitcoin. Como explica Eric Voskuil en su libro Cryptoeconomics, la seguridad de Bitcoin no depende ni de la blockchain, ni de la potencia de hashing, ni de la validación, ni de la descentralización, ni de la criptografía, ni del código abierto, ni de la teoría de juegos. La seguridad de Bitcoin depende principalmente de los individuos que están dispuestos a exponerse a un riesgo personal. La descentralización permite repartir este riesgo entre un gran número de individuos, y solo su capacidad de resistencia garantiza la solidez del sistema.
 
 
 
@@ -173,12 +172,12 @@ Así, podemos distinguir y nombrar varios conceptos para aclarar las cosas para 
 
 
 
-- Bitcoin moneda: unidad de cuenta utilizada para las transacciones dentro de este sistema;
-- La red Bitcoin: el conjunto de todos los nodos conectados;
-- Nodos Bitcoin: máquinas que ejecutan una implementación de Bitcoin;
-- Bitcoin implementaciones: software que traduce el protocolo en instrucciones ejecutables;
-- Protocolo Bitcoin: conjunto de normas que rigen el funcionamiento del sistema;
-- El sistema Bitcoin: la combinación coherente de todos estos Elements.
+- Bitcoin moneda: unidad de cuenta utilizada para las transacciones dentro de este sistema.
+- La red Bitcoin: el conjunto de todos los nodos conectados.
+- Nodos Bitcoin: máquinas que ejecutan una implementación de Bitcoin.
+- Implementaciones Bitcoin: software que traduce el protocolo en instrucciones ejecutables.
+- Protocolo Bitcoin: conjunto de normas que rigen el funcionamiento del sistema.
+- El sistema Bitcoin: la combinación coherente de todos estos Elementos.
 
 
 
@@ -190,7 +189,7 @@ Los nodos de Bitcoin forman juntos lo que se conoce como la red Bitcoin. Permite
 
 
 
-Desde el principio, Bitcoin se diseñó para que cada usuario pudiera gestionar un nodo personal. Este caso sigue siendo válido con el software Bitcoin core actual, que combina las funciones de Wallet y nodo. Pero hoy en día, esta función suele estar disociada: muchos monederos modernos de Bitcoin son sólo monederos que se conectan a nodos externos (propiedad de la misma persona o no).
+Desde el principio, Bitcoin se diseñó para que cada usuario pudiera gestionar un nodo personal. Este caso sigue siendo válido con el software Bitcoin Core actual, que combina las funciones de wallet y nodo. Pero hoy en día, esta función suele estar disociada: muchos monederos modernos de Bitcoin son solo monederos que se conectan a nodos externos (propiedad de la misma persona o no).
 
 
 
@@ -198,7 +197,7 @@ Desde el principio, Bitcoin se diseñó para que cada usuario pudiera gestionar 
 
 
 
-La primera tarea de un nodo es mantener una copia local de la Blockchain. Para evitar Double-spending en Bitcoin sin implicar a una autoridad central, cada usuario debe comprobar que no existe ninguna transacción en el sistema. La única forma de estar seguro de ello es conocer todas las transacciones realizadas en Bitcoin. Por este motivo, todas las transacciones llevan una marca de tiempo y se agrupan en bloques, y cada nodo almacena toda la Blockchain.
+La primera tarea de un nodo es mantener una copia local de la blockchain. Para evitar el double-spending en Bitcoin sin implicar a una autoridad central, cada usuario debe comprobar que no existe ninguna transacción duplicada en el sistema. La única forma de estar seguro de ello es conocer todas las transacciones realizadas en Bitcoin. Por este motivo, todas las transacciones llevan una marca de tiempo y se agrupan en bloques, y cada nodo almacena toda la blockchain.
 
 
 
@@ -208,7 +207,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain es, por tanto, un registro en evolución: cada vez que un Miner publica un nuevo bloque, el nodo comprueba su validez antes de añadirlo a su propia copia local de la cadena. A fecha de hoy (julio de 2025), el Blockchain completo supera los 675 GB, y este tamaño sigue creciendo, ya que se añade un nuevo bloque cada 10 minutos por término medio.
+La blockchain es, por tanto, un registro en evolución: cada vez que un miner publica un nuevo bloque, el nodo comprueba su validez antes de añadirlo a su propia copia local de la cadena. A fecha de hoy (julio de 2025), la blockchain completa supera los 675 GB, y este tamaño sigue creciendo, ya que se añade un nuevo bloque cada 10 minutos por término medio.
 
 
 
@@ -216,7 +215,7 @@ Blockchain es, por tanto, un registro en evolución: cada vez que un Miner publi
 
 
 
-El nodo también mantiene un registro local de todos los UTXOs existentes en un momento dado, conocido como **Conjunto UTXO**. Esta base de datos contiene todos los fragmentos no gastados de Bitcoin. Volveremos sobre este tema en detalle en la parte final del curso.
+El nodo también mantiene un registro local de todos los UTXO existentes en un momento dado, conocido como **conjunto UTXO**. Esta base de datos contiene todos los fragmentos no gastados de bitcoin. Volveremos sobre este tema en detalle en la parte final del curso.
 
 
 
@@ -224,14 +223,14 @@ El nodo también mantiene un registro local de todos los UTXOs existentes en un 
 
 
 
-La segunda función de un nodo es garantizar la verificación y propagación de las transacciones. Cuando una nueva transacción llega al nodo (ya sea a través del software Wallet o de otro nodo), éste comprobará que cumple una serie de reglas (reglas de consenso y reglas de retransmisión). Por ejemplo:
+La segunda función de un nodo es garantizar la verificación y propagación de las transacciones. Cuando una nueva transacción llega al nodo (ya sea a través del software wallet o de otro nodo), este comprobará que cumple una serie de reglas (reglas de consenso y reglas de retransmisión). Por ejemplo:
 
 
 
 
 - los bitcoins gastados deben existir en su conjunto UTXO (la base de datos de salidas no gastadas);
-- la firma debe ser válida y deben cumplirse todas las condiciones de gasto (escritura válida);
-- la cantidad total de productos no debe superar la cantidad total de insumos, lo que significa que los costes no pueden ser negativos.
+- la firma debe ser válida y deben cumplirse todas las condiciones de gasto (script válido);
+- la cantidad total de salidas no debe superar la cantidad total de entradas, lo que significa que los costes no pueden ser negativos.
 
 
 
@@ -239,15 +238,14 @@ La segunda función de un nodo es garantizar la verificación y propagación de 
 
 
 
-Una vez validada, la transacción se almacena en la Mempool del nodo, un espacio de memoria temporal reservado para transacciones no confirmadas, y luego se retransmite a los demás pares de la red a los que está conectado. Este mecanismo de distribución y validación continúa de nodo a nodo. De este modo, la transacción se propaga a través de la red Bitcoin, y cada nodo la almacena en Mempool hasta que es incluida en un bloque válido por un Miner, que actúa entonces sobre su primera confirmación.
-
+Una vez validada, la transacción se almacena en la mempool del nodo, un espacio de memoria temporal reservado para transacciones no confirmadas, y luego se retransmite a los demás pares de la red a los que está conectado. Este mecanismo de distribución y validación continúa de nodo a nodo. De este modo, la transacción se propaga a través de la red Bitcoin, y cada nodo la almacena en la mempool hasta que es incluida en un bloque válido por un miner, que actúa entonces sobre su primera confirmación.
 
 
 ### Comprobar y distribuir bloques
 
 
 
-La tercera función del nodo consiste en gestionar los bloques minados. Cuando una Miner descubre un nuevo bloque con una Proof of Work válida, lo difunde por la red. Los nodos lo reciben, comprueban que cumple todas las normas del protocolo y lo integran en su propia copia local de la Blockchain si es válido. Al igual que ocurre con las transacciones, los bloques recién validados se retransmiten a todos los pares conectados al nodo. Este proceso continúa hasta que todos los nodos de la red Bitcoin conocen el nuevo bloque.
+La tercera función del nodo consiste en gestionar los bloques minados. Cuando un miner descubre un nuevo bloque con una proof of work válida, lo difunde por la red. Los nodos lo reciben, comprueban que cumple todas las normas del protocolo y lo integran en su propia copia local de la blockchain si es válido. Al igual que ocurre con las transacciones, los bloques recién validados se retransmiten a todos los pares conectados al nodo. Este proceso continúa hasta que todos los nodos de la red Bitcoin conocen el nuevo bloque.
 
 
 
@@ -255,14 +253,14 @@ La tercera función del nodo consiste en gestionar los bloques minados. Cuando u
 
 
 
-## ¿Cuál es la diferencia entre un arco y una Wallet?
+## ¿Cuál es la diferencia entre un nodo y una Wallet?
 
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
 
 
-Es esencial distinguir entre dos tipos distintos de software cuando se utiliza Bitcoin: el nodo y Wallet.
+Es esencial distinguir entre dos tipos distintos de software cuando se utiliza Bitcoin: el nodo y la wallet.
 
 
 
@@ -277,11 +275,11 @@ Un nodo Bitcoin, como ya se ha dicho, es un programa informático que participa 
 
 
 
-Una Bitcoin Wallet, por otro lado, es una pieza de software diseñada para almacenar y gestionar tus claves privadas. Estas claves te permiten gastar tus bitcoins satisfaciendo los scripts de bloqueo (normalmente mediante una firma). Un Wallet puede conectarse a un nodo (ya sea local o remoto) para consultar el estado del Blockchain y difundir las transacciones que construye, pero no es, como tal, un participante en la red.
+Una wallet de Bitcoin, por otro lado, es un software diseñado para almacenar y gestionar tus claves privadas. Estas claves te permiten gastar tus bitcoins satisfaciendo los scripts de bloqueo (normalmente mediante una firma). Una wallet puede conectarse a un nodo (ya sea local o remoto) para consultar el estado de la Blockchain y difundir las transacciones que construye, pero no es, como tal, un participante de la red.
 
 
 
-En algunos casos, estas dos funciones coexisten dentro del mismo software, como es el caso de Bitcoin core, que sirve tanto de Full node como de Wallet. Sin embargo, muchos programas populares de Wallet (Sparrow, BlueWallet, etc.) requieren una conexión a un nodo externo (ya sea propio o de terceros) para emitir transacciones y determinar el saldo de Wallet.
+En algunos casos, estas dos funciones coexisten dentro del mismo software, como es el caso de Bitcoin Core, que sirve tanto de full node como de wallet. Sin embargo, muchos programas populares de wallet (Sparrow, BlueWallet, etc.) requieren una conexión a un nodo externo (ya sea propio o de terceros) para emitir transacciones y determinar el saldo de la wallet.
 
 
 
@@ -296,15 +294,15 @@ En algunos casos, estas dos funciones coexisten dentro del mismo software, como 
 
 
 
-Las nociones de nodo y de Miner se confunden a menudo. Sin embargo, estos dos Elements desempeñan funciones radicalmente distintas dentro del sistema.
+Las nociones de nodo y miner se confunden a menudo. Sin embargo, estos dos elementos desempeñan funciones radicalmente distintas dentro del sistema.
 
 
 
-Inicialmente, cuando Bitcoin fue lanzada por Satoshi Nakamoto en 2009, se esperaba que cada usuario participara en la red como un todo. Así, el software original de Bitcoin combinaba varias funciones a la vez: actuaba como Wallet, un nodo, y también como Miner, capaz de generar nuevos bloques. En aquella época, la dificultad de Mining era muy baja. Todo lo que había que hacer era ejecutar el software Bitcoin en el ordenador para encontrar bloques y recibir bitcoins como recompensa.
+Inicialmente, cuando Bitcoin fue lanzado por Satoshi Nakamoto en 2009, se esperaba que cada usuario participara en la red como un todo. Así, el software original de Bitcoin combinaba varias funciones a la vez: actuaba como wallet, como nodo y también como miner, capaz de generar nuevos bloques. En aquella época, la dificultad de minado era muy baja. Todo lo que había que hacer era ejecutar el software Bitcoin en el ordenador para encontrar bloques y recibir bitcoins como recompensa.
 
 
 
-Sin embargo, con la popularización gradual de la Bitcoin y el aumento del número de mineros, el panorama competitivo de la Mining ha experimentado un cambio radical. Hoy en día, Mining se ha convertido en una actividad extremadamente competitiva, dominada por actores industriales equipados con infraestructuras especializadas. La potencia necesaria para minar un nuevo bloque es ahora tan grande que es prácticamente imposible que un usuario individual lo consiga utilizando únicamente un ordenador convencional. Como consecuencia, Mining se realiza ahora principalmente con máquinas especializadas llamadas ASIC (*Application-Specific Integrated Circuits*). Estos chips están optimizados exclusivamente para ejecutar el doble SHA-256, el algoritmo utilizado para Mining en Bitcoin.
+Sin embargo, con la popularización gradual de Bitcoin y el aumento del número de mineros, el panorama competitivo del mining ha experimentado un cambio radical. Hoy en día, el mining se ha convertido en una actividad extremadamente competitiva, dominada por actores industriales equipados con infraestructuras especializadas. La potencia necesaria para minar un nuevo bloque es ahora tan grande que es prácticamente imposible que un usuario individual lo consiga utilizando únicamente un ordenador convencional. Como consecuencia, el mining se realiza ahora principalmente con máquinas especializadas llamadas ASICs (**Application-Specific Integrated Circuits**). Estos chips están optimizados exclusivamente para ejecutar doble SHA-256, el algoritmo utilizado para minar en Bitcoin.
 
 
 
@@ -312,7 +310,7 @@ Sin embargo, con la popularización gradual de la Bitcoin y el aumento del núme
 
 
 
-Ante esta evolución, las funciones del nodo Bitcoin y del Miner se han diferenciado claramente. Como ya se ha indicado, la función de un nodo de Bitcoin es puramente informativa y de validación. La función de Miner es diferente:
+Ante esta evolución, las funciones del nodo Bitcoin y del miner se han diferenciado claramente. Como ya se ha indicado, la función de un nodo Bitcoin es puramente informativa y de validación. La función del miner es diferente:
 
 
 
@@ -328,15 +326,14 @@ Un Miner necesita un nodo Bitcoin para interactuar con la red.
 
 
 
-El papel de la Miner también se diferencia a veces del de la picadora. Una picadora es una máquina cuya tarea consiste en Hash plantillas de bloques suministradas por el servidor de un pool, buscando hashes que satisfagan el objetivo de dificultad definido para las acciones, y no el de Bitcoin. El resto del proceso de Mining, que incluye la construcción real de bloques, la selección de transacciones o la búsqueda de Proof-of-Work según la dificultad propia de Bitcoin, así como la distribución, es realizado directamente por los pools.
-
+El papel del miner también se diferencia a veces del del chopper. Un mincer es una máquina cuya tarea consiste en aplicar hash a plantillas de bloques suministradas por el servidor de un pool, buscando hashes que satisfagan el objetivo de dificultad definido para las shares, y no el de Bitcoin. El resto del proceso de mining, que incluye la construcción real de bloques, la selección de transacciones o la búsqueda de proof-of-work según la dificultad propia de Bitcoin, así como la distribución, es realizado directamente por los pools.
 
 
 ![Image](assets/fr/054.webp)
 
 
 
-Por último, existe una importante diferencia en términos de incentivo económico entre la Miner y el nodo. Dirigir un nodo de Bitcoin no proporciona ningún beneficio monetario directo. En cambio, participar en Mining reporta recompensas (subvenciones y comisiones por transacción) por cada bloque encontrado.
+Por último, existe una diferencia importante en términos de incentivos económicos entre el miner y el nodo. Ejecutar un nodo Bitcoin no proporciona ningún beneficio monetario directo. En cambio, participar en mining sí otorga recompensas (subsidio y comisiones por transacción) por cada bloque encontrado.
 
 
 
@@ -351,11 +348,11 @@ En la Parte 2, exploraremos con más detalle los beneficios prácticos y persona
 
 
 
-El protocolo Bitcoin no es software: es un conjunto de reglas tácitas compartidas entre los usuarios de la red. Define las condiciones de validez de las transacciones, los mecanismos de creación de dinero, el formato de los bloques, las condiciones de Proof-of-Work y muchas otras especificaciones. Para interactuar con este protocolo, los usuarios deben ejecutar un software que implemente estas reglas: esto se conoce como una **implementación** de Bitcoin.
+El protocolo Bitcoin no es software: es un conjunto de reglas tácitas compartidas entre los usuarios de la red. Define las condiciones de validez de las transacciones, los mecanismos de creación de dinero, el formato de los bloques, las condiciones de proof-of-work y muchas otras especificaciones. Para interactuar con este protocolo, los usuarios deben ejecutar un software que implemente estas reglas: esto se conoce como una **implementación** de Bitcoin.
 
 
 
-Una implementación es, por tanto, software de nodo: un programa capaz de interactuar con otras máquinas de la red Bitcoin, descargar, verificar, almacenar y propagar bloques y transacciones, y aplicar localmente reglas de consenso y retransmisión. Cada implementación es una interpretación concreta del protocolo, escrita en un lenguaje de programación determinado, con su propia arquitectura, rendimiento y ergonomía. Cada implementación tendrá también su propia organización de desarrollo, con su propia división de responsabilidades.
+Una implementación es, por tanto, software de nodo: un programa capaz de interactuar con otras máquinas de la red Bitcoin, descargar, verificar, almacenar y propagar bloques y transacciones, y aplicar localmente las reglas de consenso y retransmisión. Cada implementación es una interpretación concreta del protocolo, escrita en un lenguaje de programación determinado, con su propia arquitectura, rendimiento y ergonomía. Cada implementación tendrá también su propia organización de desarrollo, con su propia división de responsabilidades.
 
 
 
@@ -371,15 +368,15 @@ Entre estas implementaciones, una domina con diferencia: **Bitcoin core**.
 
 
 
-Bitcoin core es el software de referencia para el protocolo Bitcoin. Se deriva del código original escrito por Satoshi Nakamoto en 2008-2009, y es una continuación directa del mismo. Inicialmente conocido como "*Bitcoin*", luego "*Bitcoin QT*" (debido a la adición de un Interface gráfico a través de la biblioteca Qt), fue rebautizado como "*Bitcoin core*" en 2014 para diferenciar claramente el software de la red. Desde la versión 0.5, se distribuye con dos componentes: `Bitcoin-qt` (el Interface gráfico) y `bitcoind` (el Interface de línea de comandos).
+Bitcoin core es el software de referencia para el protocolo Bitcoin. Se deriva del código original escrito por Satoshi Nakamoto en 2008-2009, y es una continuación directa del mismo. Inicialmente conocido como "*Bitcoin*", luego "*Bitcoin QT*" (debido a la adición de una Interfaz gráfica a través de la biblioteca Qt), fue rebautizado como "*Bitcoin core*" en 2014 para diferenciar claramente el software de la red. Desde la versión 0.5, se distribuye con dos componentes: `Bitcoin-qt` (la interfaz gráfica) y `bitcoind` (la interfaz de línea de comandos).
 
 
 
-En teoría, Bitcoin core no representa el protocolo Bitcoin, sino que es una implementación entre muchas otras. Sin embargo, se distingue por su adopción masiva, su antigüedad, la solidez de su código y el rigor de su proceso de desarrollo. Por consiguiente, en la práctica, las normas aplicadas por Bitcoin core son de facto las del protocolo Bitcoin: usuarios, desarrolladores, mineros y servicios ecosistémicos se refieren a él casi exclusivamente.
+En teoría, Bitcoin Core no representa el protocolo Bitcoin, sino que es una implementación entre muchas otras. Sin embargo, se distingue por su adopción masiva, su antigüedad, la solidez de su código y el rigor de su proceso de desarrollo. Por consiguiente, en la práctica, las normas aplicadas por Bitcoin Core son de facto las del protocolo Bitcoin: usuarios, desarrolladores, mineros y servicios del ecosistema se refieren a él casi exclusivamente.
 
 
 
-### Distribución actual de las implantaciones
+### Distribución actual de las implementaciones
 
 
 
@@ -389,7 +386,7 @@ Según [datos recogidos en agosto de 2025 por Luke Dashjr](https://luke.dashjr.o
 
 
 - Bitcoin core**: 87.3% de los nodos
-- Bitcoin Knots**: 12.5
+- Bitcoin Knots**: 12.5%
 - Otras implementaciones acumuladas**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
@@ -402,7 +399,7 @@ En otras palabras, aproximadamente 9 de cada 10 nodos públicos utilizan Bitcoin
 
 
 
-**Nota:** No obstante, estas cifras siguen siendo estimaciones, ya que se basan principalmente en los *nodos que escuchan*, es decir, los nodos que aceptan conexiones entrantes (con el puerto 8333 abierto). Los nodos que no escuchan* son mucho más complejos de contabilizar, ya que es imposible conectarse a ellos directamente: hay que esperar a que la iniciativa venga de ellos, en forma de conexión saliente. El sitio de Luke Dashjr afirma que también intenta contabilizar estos *nodos que no escuchan*, pero sigue siendo imposible obtener datos perfectamente precisos sobre ellos, y la actualización de estas estadísticas va inevitablemente por detrás de la realidad.
+**Nota:** No obstante, estas cifras siguen siendo estimaciones, ya que se basan principalmente en los nodos que escuchan, es decir, los nodos que aceptan conexiones entrantes (con el puerto 8333 abierto). Los nodos que no escuchan son mucho más complejos de contabilizar, ya que es imposible conectarse a ellos directamente: hay que esperar a que la iniciativa venga de ellos, en forma de conexión saliente. El sitio de Luke Dashjr afirma que también intenta contabilizar estos nodos que no escuchan, pero sigue siendo imposible obtener datos perfectamente precisos sobre ellos, y la actualización de estas estadísticas va inevitablemente por detrás de la realidad.
 
 
 
@@ -415,8 +412,8 @@ Bitcoin Core es un software escrito en C++. También es un proyecto de código a
 
 
 
-- Los colaboradores** presentan propuestas en forma de _pull requests_ (PR). En principio, cualquiera puede proponer un cambio, pero debe probarse, documentarse y pasar por un proceso de revisión por pares.
-- Los **maintainers** tienen derecho a aprobar y fusionar los PR. Son los que garantizan la coherencia y la estabilidad del proyecto. En julio de 2025, son cinco: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao y Ryan Ofsky.
+- **Los colaboradores** presentan propuestas en forma de pull requests (PR). En principio, cualquiera puede proponer un cambio, pero debe estar probado, documentado y pasar por un proceso de revisión por pares
+- Los **maintainers** tienen derecho a aprobar y fusionar los PR. Son quienes garantizan la coherencia y la estabilidad del proyecto. En julio de 2025, son cinco: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao y Ryan Ofsky.
 - No ha habido **mantenedor principal** desde febrero de 2023. Esta función fue desempeñada inicialmente por Satoshi Nakamoto en el lanzamiento de Bitcoin, luego por Gavin Andresen tras la marcha de Nakamoto a principios de 2011 y, por último, por Wladimir J. Van Der Laan desde 2014 hasta 2023.
 
 
@@ -429,11 +426,11 @@ El desarrollo de Bitcoin core sigue una lógica meritocrática: se anima a los n
 
 
 
-### Otras implantaciones de Bitcoin
+### Otras implementaciones de Bitcoin
 
 
 
-Aunque marginales en términos de adopción, existen otros clientes. El principal es Bitcoin Knots, desarrollado por Luke Dashjr, un Fork de Bitcoin core que incorpora opciones adicionales y un enfoque más conservador del desarrollo. Entre ellas, restricciones más estrictas en los formatos de transacción.
+Aunque marginales en términos de adopción, existen otros clientes. El principal es Bitcoin Knots, desarrollado por Luke Dashjr, un fork de Bitcoin Core que incorpora opciones adicionales y un enfoque más conservador del desarrollo. Entre ellas, restricciones más estrictas en los formatos de transacción.
 
 
 
@@ -452,7 +449,7 @@ También podemos mencionar:
 
 
 
-Estos proyectos contribuyen a la diversidad del ecosistema, pero su adopción sigue siendo muy limitada, lo que dificulta que Bitcoin core evolucione de forma independiente.
+Estos proyectos contribuyen a la diversidad del ecosistema, pero su adopción sigue siendo muy limitada, lo que dificulta que Bitcoin Core evolucione de forma independiente.
 
 
 
@@ -460,11 +457,11 @@ Estos proyectos contribuyen a la diversidad del ecosistema, pero su adopción si
 
 
 
-Podría pensarse que los desarrolladores de Bitcoin core tienen control directo sobre Bitcoin, pero no es así. No pueden imponer un cambio en el protocolo. Su papel es proponer código. Corresponde a cada usuario, a través de su nodo, decidir si utiliza o no este código.
+Podría pensarse que los desarrolladores de Bitcoin Core tienen control directo sobre Bitcoin, pero no es así. No pueden imponer un cambio en el protocolo. Su papel es proponer código. Corresponde a cada usuario, a través de su nodo, decidir si utiliza o no este código.
 
 
 
-Esto significa que si un cambio en Bitcoin core no obtiene consenso, puede ser ignorado por los nodos, ya sea no actualizando Bitcoin core o simplemente cambiando la implementación. Por el contrario, si una característica deseada por los usuarios se bloquea en el proceso de desarrollo de Core, siempre es posible cambiar a otra implementación o Fork el proyecto.
+Esto significa que si un cambio en Bitcoin Core no obtiene consenso, puede ser ignorado por los nodos, ya sea no actualizando Bitcoin Core o simplemente cambiando la implementación. Por el contrario, si una característica deseada por los usuarios se bloquea en el proceso de desarrollo de Core, siempre es posible cambiar a otra implementación o forkear el proyecto.
 
 
 
@@ -488,7 +485,7 @@ Como veremos más adelante, son los nodos, en función de su peso económico (es
 
 
 
-Existe la creencia generalizada de que operar un nodo de Bitcoin es un acto puramente altruista, sin ningún beneficio personal, únicamente al servicio de la descentralización de la red. Algunos consideran que es una forma de deber de los bitcoiners apoyar el sistema y mostrar su gratitud a Bitcoin.
+Existe la creencia generalizada de que operar un nodo de Bitcoin es un acto puramente altruista, sin beneficio personal, al servicio exclusivo de la descentralización de la red. Algunos lo consideran un deber de los bitcoiners para apoyar el sistema y mostrar gratitud hacia Bitcoin.
 
 
 
@@ -512,7 +509,7 @@ De hecho, como se señaló en un capítulo anterior, los monederos no se comunic
 
 
 
-Al utilizar tu propio nodo, transmites tus transacciones directamente a la red, evitando intermediarios. Siempre que asegures tu nodo adecuadamente (de lo que hablaremos más adelante) o cumplas ciertas normas, ninguna información queda expuesta: ni tu IP Address ni los detalles de tus transacciones pasan por una entidad que no controlas. Éste es un requisito básico para preservar tu confidencialidad en Bitcoin.
+Al utilizar tu propio nodo, transmites tus transacciones directamente a la red, evitando intermediarios. Siempre que asegures tu nodo adecuadamente (de lo que hablaremos más adelante) o cumplas ciertas normas, ninguna información queda expuesta: ni tu IP Address ni los detalles de tus transacciones pasan por una entidad que no controlas. Este es un requisito básico para preservar tu confidencialidad en Bitcoin.
 
 
 
@@ -522,11 +519,11 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Por las mismas razones mencionadas anteriormente, el software Wallet basado en un nodo de terceros es vulnerable al riesgo de censura: el operador del nodo remoto puede negarse a retransmitir determinadas transacciones por diversas razones. Puede considerarlas sospechosas o contrarias a su política. La transacción también puede bloquearse si no cumple las normas de retransmisión del nodo. Por último, el operador puede apuntar específicamente a su IP Address para bloquear la retransmisión de sus transacciones.
+Por las mismas razones mencionadas anteriormente, el software wallet basado en un nodo de terceros es vulnerable al riesgo de censura: el operador del nodo remoto puede negarse a retransmitir determinadas transacciones por diversas razones. Puede considerarlas sospechosas o contrarias a su política. La transacción también puede bloquearse si no cumple las normas de retransmisión del nodo. Por último, el operador puede apuntar específicamente a tu dirección IP para bloquear la retransmisión de tus transacciones.
 
 
 
-Por el contrario, al utilizar su propio nodo, usted garantiza la propagación de sus transacciones dentro de la red de pares. Esto significa que conservas el control total sobre la distribución de tus transacciones, sin depender de ningún intermediario. Siempre que la transacción cumpla las normas de consenso y retransmisión de los nodos conectados al suyo, se difundirá en la red y después, siempre que se incluyan suficientes comisiones, será integrada en un bloque por un Miner. Tener tu propio nodo garantiza una confirmación neutral y sin permisos de tus transacciones.
+Por el contrario, al utilizar tu propio nodo, garantizas la propagación de tus transacciones dentro de la red de pares. Esto significa que conservas el control total sobre la distribución de tus transacciones, sin depender de ningún intermediario. Siempre que la transacción cumpla las normas de consenso y retransmisión de los nodos conectados al tuyo, se difundirá en la red y después, siempre que incluyas suficientes comisiones, será integrada en un bloque por un minero. Tener tu propio nodo garantiza una confirmación neutral y sin permisos de tus transacciones.
 
 
 
@@ -534,15 +531,14 @@ Por el contrario, al utilizar su propio nodo, usted garantiza la propagación de
 
 
 
-Sin un nodo personal, sigues dependiendo de un tercero para acceder a la información, como tu saldo de Address, el estado de confirmación de las transacciones y la validez de los bloques. Esto implica una confianza implícita en la exactitud e integridad del nodo externo.
-
+Sin un nodo personal, sigues dependiendo de un tercero para acceder a la información, como tu saldo de dirección, el estado de confirmación de las transacciones y la validez de los bloques. Esto implica una confianza implícita en la exactitud e integridad del nodo externo.
 
 
 ![Image](assets/fr/060.webp)
 
 
 
-Utilizar una Full node significa que usted mismo puede comprobar todas las reglas del protocolo, para cada transacción y cada bloque. Como resultado, el saldo que muestra su Wallet no son datos recibidos de un servidor remoto, sino un resultado calculado localmente a partir de una copia completa de la Blockchain, validada bloque a bloque. Este enfoque da pleno sentido a la máxima de los bitcoiners:
+Utilizar un full node significa que tú mismo puedes comprobar todas las reglas del protocolo, para cada transacción y cada bloque. Como resultado, el saldo que muestra tu wallet no son datos recibidos de un servidor remoto, sino un resultado calculado localmente a partir de una copia completa de la blockchain, validada bloque a bloque. Este enfoque da pleno sentido a la máxima de los bitcoiners:
 
 
 
@@ -552,19 +548,19 @@ Utilizar una Full node significa que usted mismo puede comprobar todas las regla
 
 
 
-Cada nodo que se une a la red refuerza la redundancia y resistencia de Bitcoin. Facilita la difusión de información y permite que nuevos pares se conecten entre sí. Sin los nodos, el sistema sería sencillamente inoperante.
+Cada nodo que se une a la red refuerza la redundancia y la resistencia de Bitcoin. Facilita la difusión de información y permite que nuevos pares se conecten entre sí. Sin los nodos, el sistema sería sencillamente inoperante.
 
 
 
-Como hemos visto, la seguridad de Bitcoin no se basa en la descentralización, Mining o la criptografía: como cualquier sistema, depende de los individuos. Más concretamente, depende de la capacidad de los operadores de los nodos para resistir la coacción.
+Como hemos visto, la seguridad de Bitcoin no se basa en la descentralización, la minería o la criptografía: como cualquier sistema, depende de los individuos. Más concretamente, depende de la capacidad de los operadores de nodos para resistir la coacción.
 
 
 
-Lo que distingue a los sistemas descentralizados como Bitcoin es la distribución del riesgo entre todos los implicados en su funcionamiento. Dirigir tu propio nodo de Bitcoin significa aceptar una parte de este riesgo garantizando la seguridad de tu instancia; al hacerlo, también aligeras la carga de riesgo para otros operadores de nodos.
+Lo que distingue a los sistemas descentralizados como Bitcoin es la distribución del riesgo entre todos los implicados en su funcionamiento. Ejecutar tu propio nodo de Bitcoin significa aceptar una parte de ese riesgo garantizando la seguridad de tu instancia; al hacerlo, también aligeras la carga de riesgo para otros operadores de nodos.
 
 
 
-Por tanto, no se trata de un beneficio personal directo: dirigir un nodo te hace en parte responsable de la seguridad de la red. Es, sobre todo, un beneficio colectivo, porque tu participación contribuye a repartir el riesgo. A su vez, aumentas tu propia capacidad para utilizar Bitcoin de forma fiable.
+Por tanto, no se trata de un beneficio personal directo: ejecutar un nodo te hace en parte responsable de la seguridad de la red. Es, sobre todo, un beneficio colectivo, porque tu participación contribuye a repartir el riesgo. A su vez, aumentas tu propia capacidad para utilizar Bitcoin de forma fiable.
 
 
 
@@ -572,7 +568,7 @@ Por tanto, no se trata de un beneficio personal directo: dirigir un nodo te hace
 
 
 
-Instalar una Full node no es una operación trivial. Implica instalar el software, comprender el funcionamiento básico, supervisar la sincronización, examinar los registros en caso de problemas e incluso utilizar el terminal. Esto le llevará necesariamente a profundizar en el conocimiento del protocolo. Se trata de una ventaja indirecta, pero no insignificante.
+Instalar un full node no es una operación trivial. Implica instalar el software, comprender el funcionamiento básico, supervisar la sincronización, examinar los registros en caso de problemas e incluso utilizar el terminal. Esto le llevará necesariamente a profundizar en el conocimiento del protocolo. Se trata de una ventaja indirecta, pero no insignificante.
 
 
 
@@ -590,7 +586,7 @@ Un aspecto importante, a menudo mal entendido, es que el funcionamiento de un no
 
 
 
-- El consenso manda**:
+- Reglas de consenso**:
 
 
 
@@ -598,7 +594,7 @@ Estas son las reglas fundamentales del protocolo Bitcoin, que garantizan la inte
 
 
 
-Cambiar estas reglas equivale a cambiar el protocolo y, por tanto, la moneda (Hard Fork). Sin embargo, incluso sin intentar modificarlas, el simple hecho de aplicar estrictamente las normas existentes confiere cierto poder: si un bloque infringe las normas, el nodo lo rechaza inmediatamente.
+Cambiar estas reglas equivale a cambiar el protocolo y, por tanto, la moneda (hard fork). Sin embargo, incluso sin intentar modificarlas, el simple hecho de aplicar estrictamente las normas existentes confiere cierto poder: si un bloque infringe las normas, el nodo lo rechaza inmediatamente.
 
 
 
@@ -608,15 +604,15 @@ Cambiar estas reglas equivale a cambiar el protocolo y, por tanto, la moneda (Ha
 
 
 
-Se trata de reglas específicas de cada nodo de la Bitcoin, que se añaden a las reglas de consenso para definir la estructura de las transacciones no confirmadas aceptadas en la Mempool y retransmitidas a los pares. Cada nodo configura y aplica estas reglas localmente, lo que explica por qué pueden diferir de un nodo a otro. Sólo se aplican a las transacciones no confirmadas: una transacción considerada "no estándar" por un nodo sólo se aceptará si ya aparece en un bloque válido. La modificación de estas normas no excluye al nodo del sistema Bitcoin.
+Se trata de reglas específicas de cada nodo de Bitcoin, que se añaden a las reglas de consenso para definir la estructura de las transacciones no confirmadas aceptadas en la mempool y retransmitidas a los pares. Cada nodo configura y aplica estas reglas localmente, lo que explica por qué pueden diferir de un nodo a otro. Solo se aplican a las transacciones no confirmadas: una transacción considerada "no estándar" por un nodo solo se aceptará si ya aparece en un bloque válido. La modificación de estas normas no excluye al nodo del sistema Bitcoin.
 
 
 
-Por ejemplo, una transacción sin comisiones es, según las reglas de consenso, perfectamente válida, pero será rechazada por defecto según la política de retransmisión de Bitcoin core, porque el parámetro `minRelayTxFee` está fijado en `0.00001` (en BTC/kB). Sin embargo, es posible, en tu propio nodo, bajar este umbral para retransmitir transacciones con comisiones más bajas, o, a la inversa, aumentar el límite, por ejemplo, a 2 Sats/vB, para evitar retransmitir transacciones con comisiones bajas.
+Por ejemplo, una transacción sin comisiones es, según las reglas de consenso, perfectamente válida, pero será rechazada por defecto según la política de retransmisión de Bitcoin Core, porque el parámetro `minRelayTxFee` está fijado en `0.00001` (en BTC/kB). Sin embargo, es posible, en tu propio nodo, bajar este umbral para retransmitir transacciones con comisiones más bajas, o, a la inversa, aumentar el límite, por ejemplo, a 2 Sats/vB, para evitar retransmitir transacciones con comisiones bajas.
 
 
 
-Dar vueltas a tu propio nodo significa afirmar: "Valido lo que decido validar, según las reglas que yo mismo he adoptado "*. Te conviertes así en un actor de la gobernanza del sistema, capaz de rechazar una evolución que te parece inaceptable, o de aprobar una actualización según tus propios criterios.
+Ejecutar tu propio nodo significa afirmar: “Valido lo que decido validar, según las reglas que yo mismo he adoptado”. Te conviertes así en un actor de la gobernanza del sistema, capaz de rechazar una evolución que te parece inaceptable o de aprobar una actualización según tus propios criterios.
 
 
 
@@ -660,11 +656,11 @@ Por tanto, añadir unos pocos nodos más sólo tendrá un impacto marginal si la
 
 
 
-Cuando se trata de la influencia de tu nodo en las reglas de consenso, su peso económico es, sobre todo, lo que será decisivo. Se trata de un concepto crucial: el valor de cualquier moneda está directamente relacionado con su capacidad para facilitar Exchange. De hecho, si un objeto no es aceptado por nadie en Exchange a cambio de bienes o servicios, teóricamente no tiene ninguna utilidad monetaria. Por ejemplo, si ningún comerciante acepta guijarros como medio de pago, no tienen utilidad como dinero. Por supuesto, la utilidad sigue siendo una noción subjetiva a escala individual, pero en un territorio dado, cuanto mayor es el número de comerciantes que aceptan un objeto como medio de Exchange, más probable es que este objeto tenga una utilidad monetaria para las personas que viven en este territorio.
+Cuando se trata de la influencia de tu nodo sobre las reglas de consenso, su peso económico es, ante todo, lo que será decisivo. Este es un concepto crucial: el valor de cualquier moneda está directamente relacionado con su capacidad para facilitar el intercambio. De hecho, si un objeto no es aceptado por nadie como medio de intercambio a cambio de bienes o servicios, teóricamente no tiene ninguna utilidad monetaria. Por ejemplo, si ningún comerciante acepta guijarros como medio de pago, estos no tienen utilidad como dinero. Por supuesto, la utilidad sigue siendo una noción subjetiva a escala individual, pero en un territorio dado, cuanto mayor sea el número de comerciantes que aceptan un objeto como medio de intercambio, más probable es que dicho objeto tenga utilidad monetaria para las personas que viven en ese territorio.
 
 
 
-Tomemos el ejemplo de un pueblo en el que muchos comerciantes aceptan oro en Exchange a cambio de mercancías: lo más probable es que el oro tenga una utilidad monetaria para los habitantes del pueblo. Esto indica que la utilidad de una moneda depende directamente de la decisión de los comerciantes de aceptarla o rechazarla.
+Tomemos el ejemplo de un pueblo en el que muchos comerciantes aceptan oro como medio de intercambio a cambio de mercancías: lo más probable es que el oro tenga utilidad monetaria para los habitantes del pueblo. Esto indica que la utilidad de una moneda depende directamente de la decisión de los comerciantes de aceptarla o rechazarla.
 
 
 
@@ -676,15 +672,15 @@ Este concepto es crucial para entender la dinámica de poder en juego en el sist
 
 
 
-Pongamos un ejemplo: supongamos que Bitcoin sufre un Hard Fork. Entonces habría 2 formas distintas de moneda: BTC-1 (la versión original, sin cambios) y BTC-2 (la nueva moneda con reglas de consenso diferentes). Si todos los comerciantes que aceptaban BTC-1 siguen haciéndolo, pero rechazan BTC-2, esta última tendrá, en teoría, una utilidad monetaria muy limitada. Como usuario, no tendría ningún interés en conservar y utilizar BTC-2, sabiendo que ningún comerciante lo querría en Exchange para bienes o servicios. Por el contrario, si el 50% de los comerciantes decide aceptar exclusivamente BTC-2 y el 50% restante sólo acepta BTC-1, entonces la utilidad del BTC-1, en teoría, se habrá reducido a la mitad. Utilizo el término "en teoría" porque la utilidad sigue siendo subjetiva a nivel individual y depende de multitud de factores (como el territorio y los hábitos de consumo) que son difíciles de comprender caso por caso.
+Pongamos un ejemplo: supongamos que Bitcoin sufre un hard fork. Entonces habría dos formas distintas de moneda: BTC-1 (la versión original, sin cambios) y BTC-2 (la nueva moneda con reglas de consenso diferentes). Si todos los comerciantes que aceptaban BTC-1 siguen haciéndolo, pero rechazan BTC-2, esta última tendrá, en teoría, una utilidad monetaria muy limitada. Como usuario, no tendría ningún interés en conservar y utilizar BTC-2 sabiendo que ningún comerciante lo aceptaría como medio de intercambio para bienes o servicios. Por el contrario, si el 50% de los comerciantes decide aceptar exclusivamente BTC-2 y el 50% restante acepta únicamente BTC-1, entonces la utilidad de BTC-1, en teoría, se habrá reducido a la mitad. Utilizo el término “en teoría” porque la utilidad sigue siendo subjetiva a nivel individual y depende de multitud de factores (como el territorio y los hábitos de consumo) que son difíciles de comprender caso por caso.
 
 
 
-En Bitcoin, el papel de "comerciante", entendido como cualquier entidad con un cierto peso económico, incluye por supuesto a los comercios (tiendas físicas, sitios de venta online, proveedores de servicios, etc.), pero también a las plataformas de Exchange, ya que aceptan Bitcoin en Exchange por otras monedas, y a los mineros, ya que aceptan Bitcoin vía comisiones en Exchange por el servicio de incluir una transacción en un bloque.
+En Bitcoin, el papel de “comerciante”, entendido como cualquier entidad con un cierto peso económico, incluye por supuesto a los comercios (tiendas físicas, sitios de venta online, proveedores de servicios, etc.), pero también a las plataformas de intercambio (exchange), ya que aceptan Bitcoin a cambio de otras monedas, y a los mineros, ya que aceptan Bitcoin vía comisiones a cambio del servicio de incluir una transacción en un bloque.
 
 
 
-En lo que respecta a las reglas de consenso, su nodo le permite orientar su actividad económica hacia una u otra moneda. Por ejemplo, si tienes 10 nodos completos en casa, pero ninguna actividad económica significativa, tu influencia durante una Fork será casi nula. Por el contrario, un solo nodo utilizado para gestionar una cadena de 200 tiendas que aceptan Bitcoin confiere un peso económico significativo.
+En lo que respecta a las reglas de consenso, tu nodo te permite orientar tu actividad económica hacia una u otra moneda. Por ejemplo, si tienes 10 nodos completos en casa, pero ninguna actividad económica significativa, tu influencia durante un fork será casi nula. Por el contrario, un solo nodo utilizado para gestionar una cadena de 200 tiendas que aceptan Bitcoin confiere un peso económico significativo.
 
 
 
@@ -702,7 +698,7 @@ Así que lo importante no es el número de nodos, sino la importancia de la acti
 
 
 
-Un nodo Bitcoin es, por tanto, una máquina que ejecuta una implementación del protocolo Bitcoin. Detrás de esta definición común de nodos, existen varias configuraciones posibles, no todas ellas ofrecen el mismo nivel de autonomía, consumo de recursos y utilidad para la red. En este capítulo, intentaremos comprender estas diferencias para ayudarte a elegir una arquitectura de nodos que se adapte a tu uso y a tus limitaciones de hardware.
+Un nodo Bitcoin es, por tanto, una máquina que ejecuta una implementación del protocolo Bitcoin. Detrás de esta definición común de nodos existen varias configuraciones posibles, no todas ellas ofrecen el mismo nivel de autonomía, consumo de recursos y utilidad para la red. En este capítulo intentaremos comprender estas diferencias para ayudarte a elegir una arquitectura de nodos que se adapte a tu uso y a tus limitaciones de hardware.
 
 
 
@@ -710,7 +706,7 @@ Un nodo Bitcoin es, por tanto, una máquina que ejecuta una implementación del 
 
 
 
-Una Full node es simplemente un nodo Bitcoin que descarga toda la Blockchain del bloque Genesis, valida cada bloque independientemente, y almacena la historia de toda esa Blockchain localmente. Esta es la forma "normal" de un nodo Bitcoin, tal y como lo imaginó Satoshi Nakamoto.
+Un full node es simplemente un nodo Bitcoin que descarga toda la blockchain desde el bloque Génesis, valida cada bloque de manera independiente y almacena la historia completa de esa blockchain localmente. Esta es la forma “normal” de un nodo Bitcoin, tal y como lo imaginó Satoshi Nakamoto.
 
 
 
@@ -718,15 +714,15 @@ Una Full node es simplemente un nodo Bitcoin que descarga toda la Blockchain del
 
 
 
-El Full node no necesita confiar en nadie porque valida y conoce toda la información del sistema. Es el tipo de nodo que le ofrece más garantías: sabe, sin depender de terceros, si un pago es válido, si un bloque es válido, si una reorganización es legítima, etc.
+El full node no necesita confiar en nadie porque valida y conoce toda la información del sistema. Es el tipo de nodo que ofrece más garantías: sabe, sin depender de terceros, si un pago es válido, si un bloque es válido, si una reorganización es legítima, etc.
 
 
 
-En la práctica, una Full node requiere recursos no triviales, incluidos varios cientos de gigabytes para archivos de bloques, un procesador capaz de validar scripts, RAM para la Mempool y cachés, y un ancho de banda estable. La primera sincronización (*IBD*) lee y verifica el historial completo: es intensiva, pero sólo ocurre una vez. Una Full node participa activamente en la red, retransmitiendo bloques y transacciones, y puede aceptar conexiones entrantes para ayudar a otros pares.
+En la práctica, un full node requiere recursos no triviales, incluidos varios cientos de gigabytes para los archivos de bloques, un procesador capaz de validar scripts, RAM para la mempool y cachés, y un ancho de banda estable. La primera sincronización (IBD) lee y verifica el historial completo: es intensiva, pero sólo ocurre una vez. Un full node participa activamente en la red, retransmitiendo bloques y transacciones, y puede aceptar conexiones entrantes para ayudar a otros pares.
 
 
 
-En función de sus necesidades, puede añadir un indexador a su Full node. Bitcoin core ofrece la indexación de transacciones como una función opcional (desactivada por defecto), que puede ser útil para fines específicos. Sin embargo, no incluye un indexador Address, que suele ser la función más solicitada por los usuarios particulares. Para remediarlo, puede instalar software dedicado en su nodo, como Electrs o Fulcrum, para acelerar las consultas de verificación de saldos Address de los UTXO asociados. Volveremos sobre el papel del indexador con más detalle en otro capítulo.
+En función de sus necesidades, puede añadir un indexador a su full node. Bitcoin Core ofrece la indexación de transacciones como una función opcional (desactivada por defecto), que puede ser útil para fines específicos. Sin embargo, no incluye un indexador de direcciones (address indexer), que suele ser la función más solicitada por los usuarios particulares. Para remediarlo, puede instalar software dedicado en su nodo, como Electrs o Fulcrum, para acelerar las consultas de verificación de saldos de direcciones (address balances) a partir de los UTXO asociados. Volveremos sobre el papel del indexador con más detalle en otro capítulo.
 
 
 
@@ -734,7 +730,7 @@ En función de sus necesidades, puede añadir un indexador a su Full node. Bitco
 
 
 
-El nodo pruned valida todo como Full node, desde el bloque Genesis hasta la cabeza de la cadena con más trabajo, pero **sólo conserva la parte más reciente de los archivos de bloques**. Una vez comprobados los bloques antiguos, los borra gradualmente para mantenerse por debajo de un límite de espacio que puedes establecer. Esta configuración es ideal si tiene limitaciones de espacio en disco: conserva la independencia de la validación de bloques, sin almacenar el archivo histórico completo de Blockchain. Esta opción es especialmente útil si simplemente desea instalar Bitcoin core en su ordenador personal, sin utilizar una máquina dedicada.
+El nodo pruned valida todo como un full node, desde el bloque Génesis hasta la cabeza de la cadena con más trabajo, pero sólo conserva la parte más reciente de los archivos de bloques. Una vez comprobados los bloques antiguos, los borra gradualmente para mantenerse por debajo de un límite de espacio que puedes establecer. Esta configuración es ideal si tienes limitaciones de espacio en disco: conservas la independencia de la validación de bloques sin almacenar el archivo histórico completo de la blockchain. Esta opción es especialmente útil si simplemente deseas instalar Bitcoin Core en tu ordenador personal, sin utilizar una máquina dedicada.
 
 
 
@@ -742,15 +738,15 @@ El nodo pruned valida todo como Full node, desde el bloque Genesis hasta la cabe
 
 
 
-Las implicaciones técnicas de esta opción son bastante sencillas: el nodo pruned es perfectamente capaz de difundir sus transacciones, participar en la retransmisión, verificar bloques y transacciones, y seguir la cadena. Por otro lado, no puede servir como fuente de datos históricos más allá de sus límites para otras aplicaciones (por ejemplo, exploradores completos, indexadores, monederos). Por tanto, las funciones que requieran el archivo (o un índice global) no estarán disponibles.
+Las implicaciones técnicas de esta opción son bastante sencillas: el nodo pruned es perfectamente capaz de difundir tus transacciones, participar en la retransmisión, verificar bloques y transacciones, y seguir la cadena. Por otro lado, no puede servir como fuente de datos históricos más allá de sus límites para otras aplicaciones (por ejemplo, exploradores completos, indexadores, monederos). Por tanto, las funciones que requieran el archivo (o un índice global) no estarán disponibles.
 
 
 
-En términos prácticos, puede utilizar un nodo pruned para conectar un software de gestión Wallet como Sparrow wallet. Sin embargo, no podrá escanear transacciones en su Wallet que sean anteriores al límite de poda. Por ejemplo, si tiene una transacción registrada en el bloque 901 458, pero su nodo sólo conserva los bloques del 905 402 en adelante (porque los más antiguos han sido pruned), no podrá escanear esta transacción. En cambio, si ya la había escaneado cuando su nodo aún tenía esta altura de bloque, su software de gestión Wallet almacenará la información y mostrará correctamente el saldo de los UTXO correspondientes.
+En términos prácticos, puedes utilizar un nodo pruned para conectar un software de gestión de wallet como Sparrow Wallet. Sin embargo, no podrás escanear transacciones en tu wallet que sean anteriores al límite de poda. Por ejemplo, si tienes una transacción registrada en el bloque 901 458, pero tu nodo sólo conserva los bloques desde el 905 402 en adelante (porque los más antiguos han sido podados), no podrás escanear esta transacción. En cambio, si ya la habías escaneado cuando tu nodo aún tenía esa altura de bloque, tu software de gestión de wallet almacenará la información y mostrará correctamente el saldo de los UTXO correspondientes.
 
 
 
-En resumen, el seguimiento de Wallet funciona sin problemas en un nodo pruned si crea una nueva Wallet mientras su software ya está conectado a ese nodo. Por otro lado, puede encontrar dificultades si restaura una Wallet antigua, ya que las transacciones pasadas que ya no conserve el nodo obviamente no se podrán recuperar.
+En resumen, el seguimiento de una wallet funciona sin problemas en un nodo pruned si creas una nueva wallet mientras tu software ya está conectado a ese nodo. Por otro lado, puedes encontrar dificultades si restauras una wallet antigua, ya que las transacciones pasadas que el nodo ya no conserve obviamente no podrán recuperarse.
 
 
 
@@ -758,7 +754,7 @@ En resumen, el seguimiento de Wallet funciona sin problemas en un nodo pruned si
 
 
 
-Un nodo SPV (*Simplified Payment Verification*), o nodo ligero, conserva sólo las cabeceras de los bloques, no los detalles de las transacciones, y depende de otros nodos completos para obtener pruebas de que una transacción está en un bloque (pruebas Merkle a través de árboles) del que tiene la cabecera. El concepto de verificación simplificada de pagos no es nuevo, ya que fue propuesto por el propio Satoshi Nakamoto en la parte 8 del Libro Blanco.
+Un nodo SPV (**Simplified Payment Verification**), o nodo ligero, conserva sólo las cabeceras de los bloques, no los detalles de las transacciones, y depende de otros nodos completos para obtener pruebas de que una transacción está en un bloque (pruebas Merkle mediante árboles) del que tiene la cabecera. El concepto de verificación simplificada de pagos no es nuevo, ya que fue propuesto por el propio Satoshi Nakamoto en la parte 8 del Libro Blanco.
 
 
 
@@ -770,11 +766,11 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Obviamente, este tipo de nodo es mucho más ligero en términos de almacenamiento y uso de CPU que un nodo Full node o incluso pruned. El nodo SPV es, por tanto, muy adecuado para dispositivos más pequeños y conexiones intermitentes. De hecho, a menudo se integra directamente en Wallet, especialmente en software móvil como Blockstream App.
+Este tipo de nodo es obviamente mucho más ligero en términos de almacenamiento y uso de CPU que un full node o incluso un pruned. El nodo SPV es, por tanto, muy adecuado para dispositivos más pequeños y conexiones intermitentes. De hecho, a menudo se integra directamente en la wallet, especialmente en software móvil como Blockstream App.
 
 
 
-La contrapartida es la confianza y la confidencialidad: un cliente SPV no comprueba los scripts ni las políticas de validación por sí mismo; asume que la cadena con más trabajo es válida, y depende de uno o varios nodos completos para obtener respuestas. Por tanto, utilizar este tipo de nodo es una opción mejor que conectarse a un nodo de terceros; sin embargo, sigue siendo menos ventajoso que tener un nodo Full node o incluso pruned.
+La contrapartida es la confianza y la confidencialidad: un cliente SPV no comprueba los scripts ni las políticas de validación por sí mismo; asume que la cadena con más trabajo es válida y depende de uno o varios nodos completos para obtener respuestas. Por tanto, utilizar este tipo de nodo es una opción mejor que conectarse a un nodo de terceros; sin embargo, sigue siendo menos ventajoso que tener un full node o incluso un pruned.
 
 
 
@@ -792,7 +788,7 @@ La contrapartida es la confianza y la confidencialidad: un cliente SPV no compru
 
 
 
-Para un usuario novato que sólo disponga de una Wallet en una aplicación móvil, utilizar un nodo SPV es sin duda la mejor manera de empezar. La instalación es rápida, requiere pocos recursos y la experiencia es sencilla y fluida. Esto significa que usted mismo puede verificar cierta información y, por lo tanto, depender menos de nodos de terceros, siendo al mismo tiempo más independiente a la hora de emitir transacciones.
+Para un usuario novato que sólo disponga de una wallet en una aplicación móvil, utilizar un nodo SPV es sin duda la mejor manera de empezar. La instalación es rápida, requiere pocos recursos y la experiencia es sencilla y fluida. Esto significa que tú mismo puedes verificar cierta información y, por lo tanto, depender menos de nodos de terceros, siendo al mismo tiempo más independiente a la hora de emitir transacciones.
 
 
 
@@ -802,7 +798,7 @@ Para un usuario novato que sólo disponga de una Wallet en una aplicación móvi
 
 
 
-Un usuario intermedio con un PC puede instalar un nodo pruned para beneficiarse de casi todas las ventajas de un Full node, sin sobrecargar su máquina a diario: validación completa, uso moderado del disco y mantenimiento sencillo. Es una solución ideal para conectar sus monederos de sobremesa y seguir siendo independiente en la distribución de sus transacciones, sin invertir en una máquina dedicada ni sobrecargar su espacio en disco.
+Un usuario intermedio con un PC puede instalar un nodo pruned para beneficiarse de casi todas las ventajas de un full node, sin sobrecargar su máquina a diario: validación completa, uso moderado del disco y mantenimiento sencillo. Es una solución ideal para conectar tus monederos de sobremesa y seguir siendo independiente en la distribución de tus transacciones, sin invertir en una máquina dedicada ni sobrecargar tu espacio en disco.
 
 
 
@@ -812,11 +808,12 @@ Un usuario intermedio con un PC puede instalar un nodo pruned para beneficiarse 
 
 
 
-Una Full node sigue siendo la mejor solución si quieres ser totalmente independiente en el uso de la Bitcoin y no limitarte más adelante a usos avanzados como un indexador, un nodo Lightning o incluso una Block explorer. ¡Eso es exactamente lo que vamos a explorar en este curso!
+Un full node sigue siendo la mejor solución si quieres ser totalmente independiente en el uso de Bitcoin y no limitarte más adelante a usos avanzados como un indexador, un nodo Lightning o incluso un block explorer. ¡Eso es exactamente lo que vamos a explorar en este curso!
 
 
 
-## Soluciones de software
+
+## Resumen de coluciones de software
 
 
 <chapterId>0d48b89a-e8b5-441e-a707-537a035fc15e</chapterId>
@@ -832,24 +829,23 @@ Desde el punto de vista del software, hay dos formas principales de hacer funcio
 - o utilizar una distribución llave en mano (a menudo denominada "_node-in-a-box_") que integra una implementación de Bitcoin del mismo modo, pero que también incluye un sistema de administración de Interface, un almacén de aplicaciones y herramientas listas para usar (Lightning, navegadores, servidores de índices, incluso aplicaciones de autoalojamiento externas a Bitcoin...).
 
 
-
-Ambos enfoques conducen al mismo objetivo: tener tu propio nodo, pero difieren en términos de instalación y uso de Interface, mantenimiento, capacidad de ampliación y coste. Eso es lo que exploraremos en este capítulo.
-
-
-
-### Implementaciones de nodos Bitcoin en bruto
+Ambos enfoques conducen al mismo objetivo: tener tu propio nodo, pero difieren en términos de instalación y uso de interfaz, mantenimiento, capacidad de ampliación y coste. Eso es lo que exploraremos en este capítulo.
 
 
 
-Instalar una implementación raw significa utilizar directamente el software de una implementación de protocolo Bitcoin (como Core), sin ningún software adicional Layer. Usted mismo gestiona la configuración, las actualizaciones y los servicios asociados (indexación, API, Lightning, copias de seguridad, etc.), en función de sus necesidades.
+### Implementaciones de Nodos Bitcoin Puras (Raw)
 
 
 
-Es el enfoque más soberano y flexible: sabes exactamente qué se está ejecutando, dónde están los datos y cómo funciona todo. Por otro lado, se vuelve más complejo en cuanto quieres ir más allá del simple funcionamiento de un nodo Bitcoin. Si tu objetivo es simplemente tener un nodo, la complejidad es comparable a la de un nodo en una caja, o incluso menor, ya que se trata simplemente de instalar software.
+Instalar una implementación raw significa utilizar directamente el software de una implementación de protocolo Bitcoin (como Core), sin ninguna capa de software adicional. Usted mismo gestiona la configuración, las actualizaciones y los servicios asociados (indexación, API, Lightning, copias de seguridad, etc.), en función de sus necesidades.
 
 
 
-#### Bitcoin Core (cliente ultramayoritario)
+Es el enfoque más soberano y flexible: sabes exactamente qué se está ejecutando, dónde están los datos y cómo funciona todo. Por otro lado, se vuelve más complejo en cuanto quieres ir más allá del simple funcionamiento de un nodo Bitcoin. Si tu objetivo es simplemente tener un nodo, la complejidad es comparable a la de un node-in-a-box, o incluso menor, ya que se trata simplemente de instalar software.
+
+
+
+#### Bitcoin Core (Cliente Ultramayoritario)
 
 
 
@@ -857,11 +853,11 @@ Es el enfoque más soberano y flexible: sabes exactamente qué se está ejecutan
 
 
 
-**Beneficios:** Máxima estabilidad, comportamiento predecible, experiencia bruta, fácil de instalar y configurar.
+**Beneficios:** Máxima estabilidad, comportamiento predecible, experiencia raw, fácil de instalar y configurar.
 
 
 
-**Desventajas:** Debes construir manualmente el resto de la pila para crear un entorno de aplicación completo, en lugar de sólo un nodo Bitcoin.
+**Desventajas:** Debes construir manualmente el resto del stack para crear un entorno de aplicación completo, en lugar de solo un nodo Bitcoin.
 
 
 
@@ -877,18 +873,18 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-Hay 2 posibles razones para elegir Nudos en lugar de Núcleo:
+Hay dos posibles razones para elegir Knots en lugar de Core:
 
 
 
 
 - Técnicas**: Diferentes opciones de Core, sobre todo en cuanto a la gestión de relés, determinando qué transacciones son aceptadas y difundidas por su nodo.
-- Política**: Algunas personas prefieren utilizar clientes alternativos como Knots por razones no técnicas, en particular para apoyar una alternativa a Core y reducir así su monopolio. Si alguna vez Core se viera comprometido, sería útil no sólo disponer de clientes alternativos sólidos y bien mantenidos, sino también saber cómo utilizarlos eficazmente. Otros utilizan Nudos con fines de protesta, porque han perdido la confianza en los desarrolladores de Core o desaprueban la mayor parte de la gestión del cliente.
+- Política**: Algunas personas prefieren utilizar clientes alternativos como Knots por razones no técnicas, en particular para apoyar una alternativa a Core y reducir así su monopolio. Si alguna vez Core se viera comprometido, sería útil no solo disponer de clientes alternativos sólidos y bien mantenidos, sino también saber cómo utilizarlos eficazmente. Otros utilizan Knots con fines de protesta, porque han perdido la confianza en los desarrolladores de Core o desaprueban la mayor parte de la gestión del cliente.
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Personalmente, le recomiendo que elija Core, principalmente para beneficiarse de los parches de seguridad más rápidamente. En efecto, algunas vulnerabilidades descubiertas en Knots se corrigen con retraso. De forma más general, el proceso de desarrollo de Core está sólidamente estructurado y cuenta con el apoyo de un gran número de colaboradores, mientras que Knots es mantenido por una sola persona y cuenta con una comunidad mucho más reducida. Por otra parte, las reglas de retransmisión tienden a perder su utilidad hoy en día, sobre todo cuando sólo las aplica una pequeña fracción de la red (según la teoría de la percolación).
+Personalmente, le recomiendo que elija Core, principalmente para beneficiarse de los parches de seguridad más rápidamente. En efecto, algunas vulnerabilidades descubiertas en Knots se corrigen con retraso. De forma más general, el proceso de desarrollo de Core está sólidamente estructurado y cuenta con el apoyo de un gran número de colaboradores, mientras que Knots es mantenido por una sola persona y cuenta con una comunidad mucho más reducida. Por otra parte, las reglas de retransmisión tienden a perder su utilidad hoy en día, sobre todo cuando solo las aplica una pequeña fracción de la red (según la teoría de la percolación).
 
 
 
@@ -896,7 +892,7 @@ Personalmente, le recomiendo que elija Core, principalmente para beneficiarse de
 
 
 
-El _node-in-a-box_ combina Bitcoin core (o Knots) con un sistema operativo preconfigurado, una Interface Web y una App Store de servicios de autoalojamiento (Lightning, exploradores, servidor Electrum, Mempool, servidor BTCPay, Nextcloud, etc.). En un solo clic, puede instalar, actualizar e interconectar estos diferentes módulos.
+El _node-in-a-box_ combina Bitcoin Core (o Knots) con un sistema operativo preconfigurado, una Interface Web y una App Store de servicios de autoalojamiento (Lightning, exploradores, servidor Electrum, Mempool, BTCPay Server, Nextcloud, etc.). En un solo click, puede instalar, actualizar e interconectar estos diferentes módulos.
 
 
 
@@ -904,7 +900,7 @@ Es una solución mucho más sencilla para arrancar y gestionar numerosas aplicac
 
 
 
-Así pues, un nodo en una caja es extremadamente fácil de usar siempre que todo funcione correctamente, pero en caso de error, hay que estar preparado para realizar largas búsquedas, esperar ayuda y ensuciarse las manos.
+Así pues, un node-in-a-box es extremadamente fácil de usar siempre que todo funcione correctamente, pero en caso de bug, hay que estar preparado para realizar largas búsquedas, esperar ayuda y ensuciarse las manos.
 
 
 
@@ -913,9 +909,9 @@ La mayoría de estas soluciones están disponibles en dos formatos:
 
 
 
-- Máquina premontada: un ordenador completo con el sistema operativo ya instalado. Estas máquinas de pago por uso sólo necesitan enchufarse a la red eléctrica y conectarse a Internet para ser operativas. Si su presupuesto se lo permite, esta opción tiene la ventaja de ser muy sencilla de configurar, ofrecer a menudo un soporte prioritario y contribuir a la financiación del desarrollo, ya que el modelo de negocio de estas empresas se basa generalmente en la venta de hardware.
+- Máquina preensamblada: un ordenador completo con el sistema operativo ya instalado. Estas máquinas de pago por uso solo necesitan enchufarse a la red eléctrica y conectarse a Internet para ser operativas. Si su presupuesto se lo permite, esta opción tiene la ventaja de ser muy sencilla de configurar, ofrecer a menudo un soporte prioritario y contribuir a la financiación del desarrollo, ya que el modelo de negocio de estas empresas se basa generalmente en la venta de hardware.
 - DIY: instala el SO de la distribución en tu propia máquina (PC antiguo, NUC, Raspberry Pi, servidor doméstico...). Esta es la solución más económica, ya que puedes reciclar una máquina vieja o elegir el hardware que se ajuste exactamente a tus necesidades y presupuesto. También es la opción más flexible y la más satisfactoria de configurar. Este es el enfoque que exploraremos en la parte práctica del curso.
-
+  
 
 
 He aquí un resumen de las principales soluciones "node-in-a-box" disponibles (en 2025):
@@ -926,7 +922,7 @@ He aquí un resumen de las principales soluciones "node-in-a-box" disponibles (e
 
 
 
-[Hoy en día, Umbrel es el líder en soluciones node-in-a-box (https://umbrel.com/). Su éxito se debe en gran medida a la sencillez de su instalación (cuando se lanzó en una simple Raspberry Pi), a su elegante e intuitivo Interface, y a un ecosistema de aplicaciones que ha crecido rápidamente y ahora es amplísimo.
+[Hoy en día, Umbrel es el líder en soluciones node-in-a-box (https://umbrel.com/). Su éxito se debe en gran medida a la sencillez de su instalación (cuando se lanzó en una simple Raspberry Pi), a su elegante e intuitiva interfaz, y a un ecosistema de aplicaciones que ha crecido rápidamente y ahora es amplísimo.
 
 
 
@@ -960,21 +956,21 @@ Por el lado de Bitcoin, StartOS permite instalar una Full node, un nodo Lightnin
 
 
 
-La principal diferencia con Umbrel radica en la Interface. Umbrel apuesta por una UX muy pulida, mientras que Start9 ofrece un Interface más tosco y funcional. El ecosistema de aplicaciones de Start9 es menos rico que el de Umbrel, pero lo compensa con varias ventajas técnicas: el acceso a la configuración avanzada de las aplicaciones está simplificado, mientras que Umbrel se vuelve rápidamente restrictivo si la opción deseada no la proporciona el Interface. Start9 también destaca en la gestión de copias de seguridad: aparte de la eficaz solución de Umbrel para LND, no existe ningún mecanismo unificado, a diferencia de Start9. Además, ofrece herramientas de supervisión más accesibles y una conexión remota cifrada (`https`), mientras que el acceso local a Umbrel se realiza mediante `http`.
+La principal diferencia con Umbrel radica en la interfaz. Umbrel apuesta por una UX muy pulida, mientras que Start9 ofrece una interfaz más tosca y funcional. El ecosistema de aplicaciones de Start9 es menos rico que el de Umbrel, pero lo compensa con varias ventajas técnicas: el acceso a la configuración avanzada de las aplicaciones está simplificado, mientras que Umbrel se vuelve rápidamente restrictivo si la opción deseada no la proporciona la interfaz. Start9 también destaca en la gestión de copias de seguridad: aparte de la eficaz solución de Umbrel para LND, no existe ningún mecanismo unificado, a diferencia de Start9. Además, ofrece herramientas de supervisión más accesibles y una conexión remota cifrada (`https`), mientras que el acceso local a Umbrel se realiza mediante `http`.
 
 
 
-En resumen, si usted simplemente necesita las aplicaciones esenciales para Bitcoin, sin ningún interés particular en el muy rico ecosistema de Umbrel, y el usuario de Interface no es una prioridad, entonces Start9 es una mejor opción. De lo contrario, Umbrel es la mejor opción.
+En resumen, si usted simplemente necesita las aplicaciones esenciales para Bitcoin, sin ningún interés particular en el muy rico ecosistema de Umbrel, y la interfaz de usuario no es una prioridad, entonces Start9 es una mejor opción. De lo contrario, Umbrel es la mejor opción.
 
 
 
 https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-### MiNodo
+### MyNode
 
 
 
-[MyNode es una distribución centrada exclusivamente en Bitcoin y Lightning](https://mynodebtc.com/), que ofrece una Interface web, un mercado de aplicaciones y actualizaciones con un solo clic. Puedes comprar hardware listo para usar (*Modelo Dos* disponible a 549 dólares) o instalar MyNode gratuitamente en tu propia máquina. El proyecto también ofrece una versión *Premium* del software (94 $), que incluye soporte prioritario y funciones avanzadas.
+[MyNode es una distribución centrada exclusivamente en Bitcoin y Lightning](https://mynodebtc.com/), que ofrece una interfaz web, un mercado de aplicaciones y actualizaciones con un solo clic. Puedes comprar hardware listo para usar (*Modelo Dos* disponible a 549 dólares) o instalar MyNode gratuitamente en tu propia máquina. El proyecto también ofrece una versión *Premium* del software (94 $), que incluye soporte prioritario y funciones avanzadas.
 
 
 
@@ -992,7 +988,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz es un proyecto 100% de código abierto](https://docs.raspiblitz.org/) (licencia MIT) para montar un nodo Bitcoin y un nodo Lightning en una Raspberry Pi. Simplemente descarga la imagen, arranca y sigue el asistente para tener un nodo en una caja funcionando en tu Raspberry Pi. También hay disponibles kits premontados de terceros, normalmente entre 300 y 400 dólares, dependiendo del hardware. RaspiBlitz también ofrece una gama de aplicaciones adicionales, fáciles de instalar.
+[RaspiBlitz es un proyecto 100% de código abierto](https://docs.raspiblitz.org/) (licencia MIT) para montar un nodo Bitcoin y un nodo Lightning en una Raspberry Pi. Simplemente descarga la imagen, arranca y sigue el asistente para tener un node-in-a-box funcionando en tu Raspberry Pi. También hay disponibles kits preensamblados de terceros, normalmente entre $300 y $400, dependiendo del hardware. RaspiBlitz también ofrece una gama de aplicaciones adicionales, fáciles de instalar.
 
 
 
@@ -1010,7 +1006,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo es un node-in-a-box](https://wiki.ronindojo.io/en/home) centrado en la privacidad que automatiza el despliegue de Samurai Dojo y Whirlpool, con un Interface dedicado y plugins diseñados específicamente para el ecosistema Samurai.
+[RoninDojo es un node-in-a-box](https://wiki.ronindojo.io/en/home) centrado en la privacidad que automatiza el despliegue de Samurai Dojo y Whirlpool, con una interfaz dedicada y plugins diseñados específicamente para el ecosistema Samurai.
 
 
 

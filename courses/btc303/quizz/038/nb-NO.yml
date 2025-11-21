@@ -1,0 +1,8 @@
+question: Hva skiller en myk fork fra en hard fork i Bitcoin-konsensusregelendringer, ifølge kapittelet?
+answer: En myk fork er fullt kompatibel (både fremover- og bakoverkompatibel), mens en hard fork bare er bakoverkompatibel
+wrong_answers:
+  - En myk fork krever aktivering av miner-signalering, mens en hard fork bruker flaggdagsaktivering
+  - En myk fork endrer eksisterende opkoder, mens en hard fork bare legger til nye opkoder som OP_NOP1-OP_NOP10
+  - En myk fork kan implementeres i hemmelighet i commits, mens en hard fork krever offentlig kunngjøring
+explanation: |
+  Kapitlet definerer klart hvilke typer kompatibilitet som finnes: Fremoverkompatibilitet gjør det mulig for gammel programvare å behandle nye data ved å ignorere ukjente deler, mens bakoverkompatibilitet gjør det mulig for ny programvare å behandle gamle data. En myk fork opprettholder begge typer kompatibilitet, noe som gjør den fullt kompatibel. En hard fork opprettholder bare bakoverkompatibilitet, noe som betyr at ny programvare kan behandle gamle data, men gammel programvare kan ikke behandle nye data fra det oppgraderte systemet. Dette skillet er avgjørende for å forstå Bitcoin-oppgraderingsmekanismene og hvorfor myke gafler er å foretrekke for å opprettholde nettverksharmoni.

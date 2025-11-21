@@ -1,35 +1,18 @@
 ---
 name: Spinoza na Bitcoin.
 goal: Tora amasano ya filozofiya ari hagati y’iciyumviro ca Spinoza na Bitcoin nk’ibikoresho vy’umwidegemvyo mu binjana n’ibindi.
-objectives: 
-
-
-  - Gutahura ubuhinga bwa Spinoza bukora be n’ukuntu yarondera umwidegemvyo.
-  - Gutohoza ivyiyumviro vy’aba Spinoziste vy’ugushinga intahe n’ukwihenda kw’abantu.
-  - Gusuzuma ibihuye n’ihinduka ry’ivyiyumviro rya Spinoza n’ihinduka ry’ubuhinga rya Bitcoin.
-
-
-
+objectives:
+- Gusobanukirwa filozofiya nziguye ya Spinoza n'ishakisha rye ry'ubwigenge.
+- Gushakisha ibitekerezo bya Spinoza ku determinisme n'ibihimbano vy'abantu.
+- Gusesengura ibisa hagati y'impinduramatwara z'ibitekerezo bya Spinoza n'impinduramatwara y'ikoranabuhanga rya Bitcoin.
+- Gukoresha inyigisho z'amarangamutima kugira ngo tumenye no kurwanya guhemukira muri sisitemu za politiki.
 ---
+# Igihe Spinoza yahuriye na Satoshi
 
-# Itohoza ry’ubuhinga bwa filozofiya ry’umwidegemvyo biciye kuri Spinoza na Bitcoin.
+Menya uko ibitekerezo by'impinduramatwara by'umufilozofe wo mu kinyejana cya 17 Baruch de Spinoza ku bijanye n'ubwigenge, ubwenge, n'ububasha byerekanaga impinduramatwara ya Bitcoin itari iy'ibanze. Iri somo ryerekana ibihushanye bidasanzwe: byombi bihakana kwizera mu mpumyi n'ubuyobozi bw'ibanze, byombi bikoresha ubusobanuro bw'imibare kugira ngo birekure. Spinoza yarekuye ibitekerezo mu idini ry'imigenzo, Bitcoin irekura amafaranga mu kugenzurwa na leta.
 
-
-
-Iryo shure riratohoza isano rikomeye riri hagati ya filozofiya y’ihinduka ya Baruch de Spinoza (1632-1677) na Bitcoin, ibikoresho bibiri vy’umwidegemvyo bitandukanijwe n’ibinyejana ariko bihurijwe hamwe n’ugushaka kumwe: kwidegemvya kw’umuntu mu buja.
-
-
-
-Tuzobona ingene Spinoza, se w’ubuhinga bwa filozofiya y’umuco bushingiye ku vyiyumviro, yashizeho inyifato runtu ikora kugira ngo adukure mu bihimbano bidufunga - uburenganzira bwo kwihitiramwo, uburenganzira bwo gusozera n’ukwemera ibitari vyo mu vy’idini. Uburyo bwiwe bwo gupima n’inyigisho yiwe y’ingaruka zitwereka ingene twotahura ikibanza cacu mw’isi no kuyobora ubuzima bwacu ku vyo twongera ububasha bwo gukora.
-
-
-
-Iryo koraniro rero rirashira ahabona ibihuye bishimishije hagati y’iyi mpinduka y’ivyiyumviro ya Copernic na Bitcoin: uburyo bubiri budasaba ukwizera kw’impumyi canke ubukuru buhambaye, ahubwo busaba gusa gukoresha ubwenge. Nk’uko nyene ubuspinozi bwabohoye ivyiyumviro ku nyigisho z’idini, Bitcoin irabohora amahera ku butegetsi bwa Leta, itanga uburyo bushasha bw’umwidegemvyo w’ubutunzi bushingiye ku biharuro no ku buhinga bwo gukingira amakuru.
-
-
-
+Iga ibikoresho bifatika biva muri etike ya Spinoza kugira ngo wumve urufatiro rw'akafilozofe rwa bitcoin kandi wongere ubushobozi bwawe bwo gukora. Witeguye gushakisha ibikoresho bibiri mu mateka bikomeye byo kurekura abantu?
 +++
-
 # Imenyekanisha
 
 

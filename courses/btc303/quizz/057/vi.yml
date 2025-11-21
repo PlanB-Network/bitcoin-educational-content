@@ -1,0 +1,8 @@
+question: Nguyên tắc cơ bản nào cho phép các nhà phát triển tạo ra các hệ thống như Lightning Network, CoinJoin và OpenTimestamps trên Bitcoin mà không cần xin phép?
+answer: Phát triển không cần cấp phép cho phép bất kỳ ai xây dựng các giao thức và ứng dụng trên Bitcoin mà không cần sự cho phép từ bất kỳ cơ quan trung ương nào
+wrong_answers:
+  - Cấp phép nguồn mở yêu cầu tất cả các tác phẩm phái sinh phải được tự động phê duyệt và tích hợp vào kho lưu trữ Bitcoin Core chính
+  - Giấy phép MIT yêu cầu tất cả các dự án dựa trên Bitcoin phải nhận được sự cho phép rõ ràng từ nhóm phát triển Bitcoin Core trước khi triển khai
+  - Các quy tắc đồng thuận tự động xác thực và cho phép bất kỳ giao thức mới nào được xây dựng trên Bitcoin thông qua quy trình xác minh blockchain
+explanation: |
+  Phát triển không cần cấp phép là câu trả lời đúng vì đó là nguyên tắc nền tảng cho phép bất kỳ ai xây dựng trên Bitcoin mà không cần xin phép. Các câu trả lời sai là không chính xác vì: cấp phép nguồn mở không yêu cầu phê duyệt tự động hoặc tích hợp vào Bitcoin Core; Giấy phép MIT thực sự cấp các quyền rộng mà không cần phê duyệt từ nhà phát triển; và các quy tắc đồng thuận xác thực các giao dịch và khối, chứ không phải các giao thức cấp cao hơn được xây dựng trên Bitcoin.

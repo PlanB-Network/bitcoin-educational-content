@@ -1,0 +1,8 @@
+question: Vad innebär det när Bitcoin beskrivs som ett pseudonymt system snarare än ett anonymt system?
+answer: Användare kan spåras mellan sina pseudonymer, men deras verkliga identiteter avslöjas inte direkt
+wrong_answers:
+  - Användarna kan inte spåras alls och deras transaktioner är helt dolda för insyn
+  - Användare måste registrera sina riktiga namn men kan använda falska adresser för transaktioner
+  - Användarna är helt anonyma och det går inte att koppla ihop några transaktioner
+explanation: |
+  Bitcoin:s pseudonyma natur innebär att även om användarna arbetar under pseudonymer (adresser som härrör från offentliga nycklar) kan deras transaktioner fortfarande spåras och länkas mellan dessa pseudonymer på blockkedjan. Detta skiljer sig från sann anonymitet, där transaktioner inte skulle lämna några spårbara anslutningar alls. I Bitcoin kan du följa pengaflödet mellan adresser, men den verkliga identiteten bakom dessa adresser avslöjas inte direkt om inte någon frivilligt avslöjar den eller gör misstag som läcker deras privata information.

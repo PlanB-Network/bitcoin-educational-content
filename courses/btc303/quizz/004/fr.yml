@@ -1,0 +1,8 @@
+question: Selon le livre blanc Bitcoin, quelle solution Satoshi Nakamoto propose-t-il pour résoudre le problème double-spending ?
+answer: Un serveur d'horodatage distribué peer-to-peer utilisant une preuve informatique de l'ordre chronologique des transactions
+wrong_answers:
+  - Un serveur centralisé avec des signatures de seuil provenant de plusieurs autorités de confiance
+  - Une fédération de serveurs fixes où chaque transaction doit être approuvée par la majorité
+  - Un système de signature aveugle avec une partie centrale de confiance pour la prévention de la double dépense
+explanation: |
+  Satoshi Nakamoto a spécifiquement proposé d'utiliser un "serveur d'horodatage distribué de pair à pair pour generate apporter une preuve informatique de l'ordre chronologique des transactions", comme indiqué dans le livre blanc Bitcoin. Le mot clé est "distribué", ce qui signifie qu'il n'y a pas de point de contrôle central. Les mauvaises réponses représentent des tentatives antérieures infructueuses de monnaie numérique qui reposaient sur des approches centralisées ou semi-centralisées, ce qui les rendait vulnérables à la censure et à l'échec - exactement les problèmes que la Bitcoin a été conçue pour résoudre grâce à une véritable décentralisation.

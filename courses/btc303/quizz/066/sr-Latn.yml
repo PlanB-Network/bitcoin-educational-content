@@ -1,0 +1,8 @@
+question: U kontekstu validationless mining, koji je primarni sigurnosni rizik s kojim se rudari suočavaju kada odlože potpunu validaciju blokova kako bi izbegli zastarele blokove?
+answer: Oni rizikuju da privremeno grade na nevažećem blockchainu, trošeći računalnu snagu na lanac koji će na kraju biti odbačen.
+wrong_answers:
+  - Rizikuju da njihovi sopstveni blokovi budu odbijeni od strane mreže zbog nepotpune validacije prethodnih transakcija.
+  - Rizikuju da trajno izgube svoje mining nagrade jer se mining bez validacije smatra kršenjem protokola.
+  - Rizikuju stvaranje napada dvostrukog trošenja jer ne mogu verifikovati da su dolazne transakcije legitimne.
+explanation: |
+  Kada rudari praktikuju mining bez validacije, proveravaju samo proof-of-work u zaglavlju bloka i odmah započinju mining na njemu dok paralelno preuzimaju i validiraju ceo blok. Kritični rizik je da bi mogli graditi na nevažećem bloku, što znači da je njihov računski napor uzaludan na grani blokčejna koja će biti odbačena kada se otkrije nevažeći blok. Ovo podriva bezbednost mreže jer deo mining snage ne doprinosi najjačem važećem lancu, što je osnovni mehanizam bezbednosti Bitcoin.

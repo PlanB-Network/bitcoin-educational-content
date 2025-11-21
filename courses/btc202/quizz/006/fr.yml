@@ -6,4 +6,4 @@ wrong_answers:
   - Parce qu’il ne valide ni les soldes ni les adresses
 explanation: |
   Un portefeuille ne valide pas directement les blocs et les transactions, il se contente de gérer les clés et dépend des nœuds pour le reste.
-reviewed: false
+reviewed: true 

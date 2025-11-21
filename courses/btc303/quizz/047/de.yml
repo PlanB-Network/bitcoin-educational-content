@@ -1,0 +1,8 @@
+question: Wie könnte ein Gegner nach den Taktiken des Simple Sabotage Field Manual den offenen Entwicklungsprozess von Bitcoin am effektivsten stören?
+answer: Indem sie sich in Diskussionen einmischen, um den Fortschritt durch endlose Sorgen über irrelevante Themen und das Wiederaufwärmen abgeschlossener Debatten zu blockieren
+wrong_answers:
+  - "Durch verteilte Denial-of-Service-Angriffe auf die PCs und Server der Bitcoin Core-Entwickler"
+  - Durch Bestechung von mining-Pools, damit sie Software-Updates ablehnen und ältere Versionen des Protokolls auf unbestimmte Zeit beibehalten
+  - Durch die Schaffung konkurrierender Kryptowährungen, die bessere Funktionen bieten, um Entwickler von Bitcoin-Projekten abzuziehen
+explanation: |
+  Das Simple Sabotage Field Manual beschreibt Infiltrationstaktiken, um Organisationen von innen heraus zu stören, einschließlich des Abwürgens von Fortschritten durch irrelevante Bedenken und das Wiederaufwärmen von abgeschlossenen Diskussionen. Da die Bitcoin-Entwicklung für jedermann zugänglich ist, stellen diese Social-Engineering-Taktiken eine echte Bedrohung dar. Bei den anderen Optionen handelt es sich eher um externe Angriffe als um die im Handbuch beschriebenen internen Sabotagemethoden, die sich auf die Ausnutzung des offenen, gemeinschaftlichen Charakters des Entwicklungsprozesses von Bitcoin konzentrieren.

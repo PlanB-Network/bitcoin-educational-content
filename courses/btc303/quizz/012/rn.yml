@@ -1,0 +1,8 @@
+question: Dushingiye ku kigabane, ni ikihe kintu nyamukuru mbere na full node idashobora kugukingira?
+answer: Uruhererekane rusubira kwandika rushobora gukoresha kabiri amafaranga yawe
+wrong_answers:
+  - Porogaramu mbi yiba imfunguruzo zawe z'ibanga mu bubiko
+  - "Imibumbe idafise akamaro idakurikiza amategeko y'ubumwe ya Bitcoin"
+  - Urutonde rwo gutanga ibiceri rutari rwo rurenga ku masezerano
+explanation: |
+  Naho full node ishobora kugenzura ko amabuye akurikiza amategeko y’uguhurizako, ikabuza gutanga ibiceri bitagira akamaro, kandi ikamenya ukurenga ku mategeko, ntishobora kubuza kwandika uruzitiro aho abacukuzi basubira gutunganya uruzitiro kugira ngo bakoreshe amafaranga kabiri. Ico gice kivuga vyihariye ko naho porogarama yawe yoba iteye imbere gute, utegerezwa kwizigira ko amabuye arimwo ibiceri vyawe atazosubira kwandikwa. Ni co gituma uburyo bwo kwikingira bwa Bitcoin bwishingikiriza ku kurindira ivyemezo vyinshi kugira ngo bugabanye ubushobozi bwo gusubira kwandika uruzitiro ku rugero rwemewe.

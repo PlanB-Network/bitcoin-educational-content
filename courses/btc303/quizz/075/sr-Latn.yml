@@ -1,0 +1,8 @@
+question: Prema perspektivi Gregorija Maksvella o proceni ozbiljnosti ranjivosti, koji pristup bi programeri trebalo da preduzmu prilikom procene potencijalnog uticaja otkrivenih bezbednosnih problema?
+answer: Tretirajte ranjivosti kao ozbiljnije nego što su trenutno poznate i pretpostavite da bi mogle biti lako iskoristive čak i ako se čine teškim za iskoristiti.
+wrong_answers:
+  - Fokusirajte se samo na neposredni uočljivi uticaj i kategorizujte ranjivosti na osnovu njihovih trenutno poznatih metoda eksploatacije.
+  - Prioritizujte ranjivosti na osnovu njihove tehničke složenosti i odložite popravke za probleme koji se čine teoretski teškim za eksploataciju.
+  - Proceni svaku ranjivost izolovano, bez razmatranja kako bi više manjih problema moglo da se kombinuje i stvori veće bezbednosne rizike.
+explanation: |
+  Maxwell tvrdi da programeri treba da tretiraju ranjivosti kao ozbiljnije nego što se čine, jer teško iskoristivi problemi mogu postati trivijalni uz pravu tehniku, a naizgled manji problemi mogu eskalirati u ozbiljne pretnje. On naglašava da se jednostavne greške u performansama mogu iskoristiti za particionisanje mreže i omogućavanje double-spending napada. Ovaj konzervativni pristup priznaje da programeri možda u početku ne razumeju puni potencijal eksploatacije ranjivosti, što čini razumnim pretpostaviti najgori mogući scenario umesto da se pretnja potceni.

@@ -286,6 +286,14 @@ Aby śledzić wszystkie swoje transakcje, możesz sprawdzić historię w menu "*
 ![BULL](assets/fr/36.webp)
 
 
+## Rozpocznij automatyczny cykliczny zakup (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Utwórz zlecenie z limitem ceny
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Teraz już wiesz, jak łatwo kupować i sprzedawać Bitcoin za pomocą Bull Bitcoin. Jeśli uważasz ten poradnik za przydatny, będę bardzo wdzięczny, jeśli umieścisz poniżej kciuk Green. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!
 
 

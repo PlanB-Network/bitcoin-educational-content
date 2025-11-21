@@ -1,0 +1,8 @@
+question: Mikä on hajauttamisen ensisijainen tarkoitus Bitcoin:ssa?
+answer: Sensuurin vastustaminen
+wrong_answers:
+  - Tapahtumien käsittelynopeuden lisääminen
+  - Energiankulutuskustannusten vähentäminen
+  - Käyttöliittymän yksinkertaistaminen
+explanation: |
+  Bitcoin:n hajauttamisella pyritään ensisijaisesti saavuttamaan sensuurinsietokyky, mikä tarkoittaa, että mikään yksittäinen taho ei voi valvoa, estää tai manipuloida transaktioita. Tämä todetaan nimenomaisesti tekstissä: "Hajauttaminen on keino saavuttaa sensuurin vastustaminen." Muut vaihtoehdot ovat virheellisiä, koska hajauttaminen tekee Bitcoin:stä itse asiassa hitaamman ja energiaintensiivisemmän kuin keskitetyistä järjestelmistä, ja se tekee järjestelmästä monimutkaisemman eikä yksinkertaisemman. Sensuurinsietokyky on se, mikä erottaa Bitcoin:n perinteisistä rahajärjestelmistä ja estää hallituksia tai muita viranomaisia sulkemasta sitä tai valvomasta, kuka sitä voi käyttää.

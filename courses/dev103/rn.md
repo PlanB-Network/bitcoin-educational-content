@@ -198,7 +198,7 @@ Porogaramu akenshi zikora ibikorwa ku makuru.
 Ibihinduka ni nk'amasandugu afise amazina dukoresha mu kubika amakuru. Bituma dushobora gufatanya amakuru n’izina kanaka, kugira ngo dushobore kuyaronka mu nyuma dukoresheje iryo zina.
 
 
-### `reka` amatangazo
+### reka amatangazo
 
 
 Kugira ngo tumenyeshe umuhinduzi muri JavaScript, dushobora gukoresha ijambo ry'ingenzi `let`.
@@ -362,7 +362,7 @@ Bob
 Nk'uko mubibona, `score` na `player` vyose vyahinduwe.
 
 
-### `const` amatangazo
+### const amatangazo
 
 
 Ariko kenshi, ntidushaka ko igihinduka gihinduka kimaze kuremwa. Ku bw'ivyo, dukoresha `const`.
@@ -882,7 +882,7 @@ undefined
 Ivyo ni ibiki??
 
 
-### 'bitasobanuwe`
+### 'bitasobanuwe
 
 
 Agaciro kadasanzwe `undefined` bisigura “nta gaciro kashizweho”.
@@ -925,7 +925,7 @@ undefined
 ```
 
 
-### `ubusa` n'ingene wobifata
+### ubusa n'ingene wobifata
 
 
 `null` nayo ni agaciro kadasanzwe. Bisigura ngo “nta kintu kiri hano, kandi ivyo nabikoze n’ibigirankana.”
@@ -1082,7 +1082,7 @@ Ivyo bisigura ko dushobora gukoresha amabuye kugira ngo dutandukanye ibice vya k
 Gutunganya kode yacu mu bice bituma kandi dushobora gutunganya ibikorwa vya porogaramu, n'inyubako z'ubugenzuzi nk'iyi 'niba`
 
 
-### 'niba`, 'ahandi`
+### 'niba, 'ahandi
 
 
 Rimwe na rimwe dushaka gukoresha code **gusa iyo** ikintu ari ukuri. Ivyo ni vyo ijambo `if` rigenewe.
@@ -1197,7 +1197,7 @@ Kuko twakoresheje umukoresha `!` kugira ngo duhindure umuhinduzi `umuntu akuze`.
 Dukoresheje amabuye, ubuhinga bwo gutahura ibintu n’ubuhinga bwo kugereranya, turashobora gutunganya ibikorwa vya porogarama, mu gusobanura ibihinduka bitegerezwa kuba `ukuri` (canke `ikinyoma`) kugira ngo ikintu kibeho.
 
 
-### `mugihe`, `akaruhuko`, `gukomeza`
+### mugihe, akaruhuko, gukomeza
 
 
 Uruzitiro rwa `while` rusubiramwo kode *igihe cose* ivyangombwa ari ukuri.
@@ -1289,7 +1289,7 @@ Ibi bicapura:
 Kuko igihe umubare wari `3`, `continue` vyatumye porogarama isimbuka umurongo ucapura umubare.
 
 
-### `kubera ... wa ...`
+### kubera ... wa ...
 
 
 Niba ufise urutonde, kandi ushaka gukora ikintu ku kintu cose kiri muri rwo, ushobora gukoresha `ku ... wa ... {...}`.
@@ -1319,7 +1319,7 @@ Igipande kizoshirwa mu ngiro rimwe ku kintu cose c'urutonde.
 `imbuto` aha ni umuhinduzi mushasha ufata agaciro k'ikintu cose kiri mu rutonde, kugira ngo ukoresheko imbere mu gice.
 
 
-### `ku ... muri ...`
+### ku ... muri ...
 
 
 Ushobora gukoresha `ku ... muri` kugira ngo uzunguruke imfunguruzo (urutonde) rw'urutonde:
@@ -1649,7 +1649,7 @@ Hello Lina and Marco!
 ```
 
 
-### `kugaruka` (igisohoka kiva ku bikorwa)
+### kugaruka (igisohoka kiva ku bikorwa)
 
 
 Imikorere ishobora kandi **kugarura** agaciro. Ivyo bisigura ko bohereza agaciro aho hose igikorwa cahamagawe.
@@ -1756,7 +1756,7 @@ JavaScript akenshi yitwa ururimi rushingiye ku bintu.
 Ivyo bisigura ko bigufasha gutunganya kode yawe mu gushiramwo agaciro n'ibikorwa hamwe mu **ibintu**.
 
 
-### `Ikintu` ni iki ?
+### Ikintu ni iki ?
 
 
 Ikintu gishobora kubamwo amakuru n'ibikorwa bikora kuri ayo makuru. Iyo igikorwa gishizwe mu kintu tuvuga ko ari `uburyo`.
@@ -2259,7 +2259,7 @@ JavaScript iragufasha guhindura ibintu mu mwidegemvyo, ariko iyo ukoresheje amas
 
 
 
-### Iragi rifise `raguka` na `super()`
+### Iragi rifise raguka na super()
 
 
 Rimwe na rimwe ushaka gukora ikigo *hafi* kimwe n’ikindi kigo, ariko gifise ibintu bikeyi vy’inyongera.
@@ -2381,7 +2381,7 @@ Rero kugira ngo tuvuge mu ncamake .
 Ivyo birafasha iyo ufise ibintu vyinshi bisa (nk’imiduga, amakamyo, n’amapikipiki) kandi ushaka ko basangira kode ariko bakaguma bitwararika mu buryo bwabo.
 
 
-### `akarorero ka`
+### akarorero ka
 
 
 Ijambo ry'ingenzi `instanceof` risuzuma nimba ikintu caremwe kivuye mu mugwi kanaka.
@@ -2446,7 +2446,7 @@ Uko wandika porogarama zikomeye cane za JavaScript, uzohura n'**amakosa**. Ivyo 
 Iyo tutafashe neza ayo makosa, porogarama yacu yoshobora gusenyuka canke igakora mu buryo butamenyekana. JavaScript itanga ibikoresho vyo kumenya no gucungera ayo makosa kugira ngo dushobore kuyafata neza.
 
 
-### Ikosa risanzwe: gushika ku gaciro kuri `utasobanuwe`
+### Ikosa risanzwe: gushika ku gaciro kuri utasobanuwe
 
 
 Ehe ikintu gisanzwe gitera ikosa:
@@ -2469,7 +2469,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 Ivyo ni JavaScript ikubwira iti: “Hey, wagerageje kuronka umutungo wa `izina` mu kintu `kitasobanuwe`, kandi ivyo nta co bimaze.” Kandi nk’uko ushobora kubibona, iyo ikosa nk’iryo ribaye, porogarama irahagarika gukora kiretse wanditse kode yo kuyifata no kuyikoresha.
 
 
-### `gutera ikosa
+### gutera ikosa
 
 
 Rimwe na rimwe ushaka gukoresha amaboko **gutera ikosa** muri kode yawe. Muri ivyo, ukoresha ijambo ry'ingenzi `gutera`.
@@ -2507,7 +2507,7 @@ console.log(divide(10, 0))  // Error!
 Ihamagara rya kabiri ritera ikosa kuko kugabanya na zero ntivyemewe muri aka karorero.
 
 
-### Gufata amakosa na `gerageza...fata`
+### Gufata amakosa na gerageza...fata
 
 
 Niba udashaka ko porogarama yawe ihungabana iyo habaye ikosa, urashobora gufata ikosa ukoresheje `try...catch` block. Ivyo birafasha iyo ushaka ko porogarama yawe **ikomeza** naho hari ikintu conanirwa.
@@ -2560,7 +2560,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### 'Iherezo` ububiko
+### 'Iherezo ububiko
 
 
 Ushobora kandi kwongerako `iherezo` ububiko. Iyi ni kode **yama ikora**, haba hariho ikosa canke atarivyo.
@@ -2596,7 +2596,7 @@ This will run no matter what.
 Iki gice kirerekana imitego imwe imwe isanzwe muri JavaScript, n’ingene woyirinda.
 
 
-### `var` na Assignment ata n'itangazo
+### var na Assignment ata n'itangazo
 
 
 Mu kode ya kera ya JavaScript, ibihinduka vyamenyeshwa kenshi hakoreshejwe ijambo ry'ingenzi `var`. Udakunze `let` na `const`, ivyo mwamaze kwiga, `var` yoshobora kwigenza mu buryo butera urujijo.
@@ -2657,7 +2657,7 @@ Muri izo ngero, JavaScript iragerageza gutekereza ku co washaka kuvuga. Rimwe na
 Kumenya uburyo bwo kwandika bwa JavaScript bugoyagoya ni ikintu gihambaye. Iyo ibintu bitanguye gukora bitangaje, bishobora kuba bivuye ku guhatirwa kw’ubwoko butategerezwa.
 
 
-### `"koresha bikomeye"`
+### "koresha bikomeye"
 
 
 Ushobora gukoresha uburyo bukomeye cane buhindura amakosa amwe amwe acereje mu makosa nyayo, kandi bukaguhagarika gukoresha bimwe mu bintu biteye akaga cane vyo mu rurimi.
@@ -2925,7 +2925,7 @@ sayHello()        // Hello, friend!
 Agaciro mburabuzi `"umugenzi"` gakoreshwa iyo ataco kinyuze.
 
 
-### Gukwirakwiza ibigenderwako (`...`)
+### Gukwirakwiza ibigenderwako (...)
 
 
 Bimeze gute nimba igikorwa cawe gifata umubare w’imvo zihinduka?
@@ -3037,7 +3037,7 @@ greetBob() // Hi, Bob
 Ubwo bwoko bw'akarorero burakomeye cane, kuko bugufasha gusiga "imyobo" mu bikorwa vyawe ushobora kwuzuza mu nyuma n'inyifato ukeneye.
 
 
-### `ikarita()`, `akayunguruzo()`, `kugabanya()`
+### ikarita(), akayunguruzo(), kugabanya()
 
 
 JavaScript iraguha uburyo ngirakamaro bushizwemwo bwo gukoresha n'amabara.
@@ -3156,7 +3156,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Ivy’abantu ku giti cabo birafasha igihe ushaka gukingira amahinduka y’impanuka.
 
 
-### `ibidahinduka` imiterere
+### ibidahinduka imiterere
 
 
 Rimwe na rimwe, ushaka ko umutungo uba uw'umugwi ubwawo, atari uw'ikintu cose urema uvuye muri uwo mugwi. Ivyo nivyo `static` igenewe. Igikoresho `static` kiri mu kigo kandi ibintu vyose vyo muri ico kigo bizokwerekeza kuri co.
@@ -3181,7 +3181,7 @@ console.log(User.counter) //  prints 2
 Ivyo ni ngirakamaro ku kubika amakuru asangiye n'uburyo bujanye n'umugwi wose w'ibintu, atari kimwe gusa.
 
 
-### `kuronka` na `gushinga`
+### kuronka na gushinga
 
 
 Mu JavaScript, `get` na `set` biguha uburenganzira bwo gukora ibiranga *bisa* n'ibihinduka bisanzwe, ariko mu vy'ukuri bikoresha kode idasanzwe mu nyuma.
@@ -3428,7 +3428,7 @@ Nk'uko ushobora kubibona, umutungo w'intango `izina` urazigama muri ubu buryo. I
 JavaScript iduha ibintu vy’ingirakamaro vyubatswemwo bidufasha gukora ibintu nk’ugukosora n’ibikorwa vy’imibare.
 
 
-### Ubundi buryo bwo `guhoza`
+### Ubundi buryo bwo guhoza
 
 
 Waramaze kubona `console.log`, icapa agaciro ku mugaragaro.
@@ -3515,7 +3515,7 @@ timer: 2.379ms
 Ni ngirakamaro ku bipimo bimwe bimwe vyoroshe vy’ibikorwa.
 
 
-### Ikintu `Imibare`
+### Ikintu Imibare
 
 
 JavaScript iguha ikintu `Imibare` gifise uburyo ngirakamaro bwo gukora imibare.
@@ -3694,7 +3694,7 @@ myMap.clear()
 Ikarata ni nziza cane mu gucunga amakoraniro manini y'agaciro, kuko gushika ku gaciro ku ikarita nini bitanga kenshi ubushobozi bwiza kurusha ku kintu kinini.
 
 
-### 'Gushiraho`
+### 'Gushiraho
 
 
 `Itsinda` ni ihuriro ry'agaciro gusa (nta mfunguruzo), aho agaciro kose gategerezwa kuba **kadasanzwe**. Ivyo bisigura:
@@ -3777,7 +3777,7 @@ Ibintu vyinshi muri JavaScript ushobora gucako (nk'imirongo, imirongo, amakarata
 **Iterator** ni ikintu kidasanzwe muri JavaScript kigufasha guca mu rutonde rw'ibintu **kimwe ku kindi**.
 
 
-### `Ikintu` abasubiramwo
+### Ikintu abasubiramwo
 
 
 Udakunze imirongo canke ikarita, ibintu bisanzwe **ntibisubirwamwo** na `ku...vya`. Niwagerageza ibi:
@@ -3899,7 +3899,7 @@ Naho ibintu bidashobora gusubirwamwo, ubu buryo buraguha uburenganzira bwo kuron
 Ariko none abasubiramwo bakora gute?
 
 
-### `Ikimenyetso.iterateri`
+### Ikimenyetso.iterateri
 
 
 Ibanga ry'inyuma y'ibisubirwamwo vyose ni **ikimenyetso** kidasanzwe citwa `Symbol.iterator`.
@@ -3931,7 +3931,7 @@ Ihamagara ryose kuri `.next()` riguha agaciro gakurikira. Iyo birangiye, biragar
 ```
 
 
-### `ibikurikira()`
+### ibikurikira()
 
 
 Uburyo `.next()` bukoreshwa kugira ngo ubone ikintu gikurikira mu rutonde.
@@ -4112,7 +4112,7 @@ Gushika ubu, kode yacu yari **synchronous**: ikora umurongo umwe ku wundi, mu bu
 Muri iki gice turaza kuzana iciyumviro gishasha: **uguhuza**. Bituma dushobora gukoresha urutonde rw’ibintu bigenda. Ivyo ni ngirakamaro iyo ukorana n'ibintu nk'ibihe, inyungu y'ukoresha, canke gusoma amadosiye kuri disiki. JavaScript itanga ibikoresho bitandukanye vyo gukora ibikorwa bihuye.
 
 
-### `gushingaIgihe`
+### gushingaIgihe
 
 
 Igikorwa `setTimeout` kigufasha **gukoresha igikorwa hanyuma**, inyuma y'igihe kanaka.
@@ -4260,7 +4260,7 @@ Imbere muri yo, turayiha igikorwa gifise ibipimo bibiri:
 Mu karorero kari hejuru, turabitorera umuti ubwo nyene n'ubutumwa `"Vyarakoze!"`.
 
 
-### `.hanyuma()`
+### .hanyuma()
 
 
 Kugira ngo ukore ikintu **inyuma** y'aho umuhango ushikiriye, dukoresha `.then()`:
@@ -4314,7 +4314,7 @@ Done waiting!
 ```
 
 
-### `kwanka()`
+### kwanka()
 
 
 Reka dushireho umuhango **uzonanirwa**:
@@ -4419,7 +4419,7 @@ Failure: Not a positive number
 ```
 
 
-### Gufatanya ibikorwa hakoreshejwe `Isezerano`s
+### Gufatanya ibikorwa hakoreshejwe Isezeranos
 
 
 
@@ -4558,7 +4558,7 @@ Reka tugendere mu vyo ivyo bikora:
 Buri `.then()` irindiriye intambwe imbere y'uko irangira. Turashobora rero kwubaka **uruhererekane rw’ibikorwa** ataco dutera. Ivyo bituma kode ishobora gusomwa neza kandi igakosorwa neza.
 
 
-## Guhuza n'`async`/`kurindira`
+## Guhuza n'async/kurindira
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4569,7 +4569,7 @@ Twarabonye ingene iminyororo ya `Promise` idufasha kwirinda umuriro w’iteka, a
 Aho niho `async` na `await` bishika, bituma twandika kode idahuye **isa n’iyihuye**, ivyo bikaba bituma vyoroha gutahura.
 
 
-### `Async` ni iki?
+### Async ni iki?
 
 
 Iyo wanditse ijambo ry’ingenzi `async` imbere y’igikorwa, JavaScript ihita izingira agaciro k’igikorwa mu Isezerano.
@@ -4613,7 +4613,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Canke ushobora gukoresha `kurindira`...
 
 
-### `Kurindira` ni iki?
+### Kurindira ni iki?
 
 
 Ijambo ry’ingenzi `rindira` ribwira JavaScript riti: “rindira gushika iri Sezerano rirangiye, hanyuma umpe igisubizo.”
@@ -4645,7 +4645,7 @@ Ubu rero turashobora gukoresha igisubizo nk’aho coba ari agaciro gasanzwe.
 Reka dukore ikintu c’ingirakamaro gatoyi ubu.
 
 
-### Kwigana ugucerezwa na `kurindira`
+### Kwigana ugucerezwa na kurindira
 
 
 Tuzokora igikorwa coroshe co kurindira gifata umubare w’amamilisegonda nk’imvo maze kigatorera umuti inyuma y’ayo mamilisegonda menshi, ata kindi dukora:
@@ -4888,7 +4888,7 @@ Ivyiyumviro bitari vyo ni ngirakamaro iyo:
 Nk'akarorero, niwaba ushaka gushiramwo ubutumwa buva kuri server y'ubutumwa bumwe bumwe, canke gukuraho dosiye nini mu bice, async iterators ziguha uburyo bwo kwandika `for` loop ikorana n'amakuru atevye.
 
 
-### `Ikimenyetso.Iterateri`
+### Ikimenyetso.Iterateri
 
 
 Turashobora kandi gukoresha async iterations mu mashure y'abantu.
@@ -5294,7 +5294,7 @@ NodeJS iratwemerera, mu bindi, kwubaka CLIs (Imirongo y’Itegeko).
 Ku bw'ivyo dukeneye uburyo bwo kwakira umurongo w'amabwirizwa, ivyo muri Node bikorwa hakoreshejwe ikintu `process` cubatswemwo.
 
 
-### `uburyo`
+### uburyo
 
 
 NodeJS itanga ikintu kidasanzwe citwa `process` giserukira porogarama iriko irakora.
@@ -5314,7 +5314,7 @@ console.log(process.platform)
 Ibi bicapura urubuga rwo gukoresha, nka `win32`, `linux`, canke `darwin` (Mac).
 
 
-### `uburyo.argv`
+### uburyo.argv
 
 
 Iyo ukoresheje porogarama ya NodeJS uhereye ku nzira, ushobora gutanga amajambo y’inyongera (imvo) inyuma y’izina ry’inyandiko. Ivyo bibikwa muri `igikorwa.argv`.
@@ -5500,7 +5500,7 @@ Ntubwirizwa gushiramwo izo modules zishizwemwo, ziza na NodeJS. Bikora "ububiko 
 Ibigabane bikurikira bizokwereka ingero ngirakamaro z’ingene zikoreshwa.
 
 
-## Igikoresho ca `fs`
+## Igikoresho ca fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5888,7 +5888,7 @@ package.json
 ```
 
 
-### `ububiko.json`
+### ububiko.json
 
 
 Dosiye `package.json` ni dosiye JSON ibika amakuru y'umugambi wawe.
@@ -5967,7 +5967,7 @@ NPM yakoze iki ?
 `Ipaki-ugufunga.json` ni iki?
 
 
-### `ububiko-bufunga.json`
+### ububiko-bufunga.json
 
 
 Iyi dosiye ihita iremwa na NPM.
@@ -6030,7 +6030,7 @@ NodeJS ikoreshwa kenshi nk'ururimi rw'inyuma: ushobora guhindura inyandiko yawe 
 Mu gice ca thi turaza kubabwira ibintu bimwe bimwe vy’ishimikiro vyo gukorana n’abandi bizokuronsa uburenganzira bwo kubikora.
 
 
-### `kuzana()`
+### kuzana()
 
 
 Niba ushaka ko porogarama yawe ikura amakuru ku rubuga canke kuri API, ukeneye gukora **HTTP request**.
@@ -6148,7 +6148,7 @@ JSON.parse("not json") // ❌ Error!
 Rero urabe neza ko urudodo rwateguwe neza.
 
 
-### `http` umukozi
+### http umukozi
 
 
 NodeJS iragufasha gukora urubuga ata kindi ushizemwo.

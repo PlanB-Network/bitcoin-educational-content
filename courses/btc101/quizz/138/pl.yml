@@ -2,10 +2,10 @@ question: O co chodziło w wojnie blokowej w 2017 roku?
 answer: Konflikt dotyczący tego, czy zwiększyć rozmiar bloku, aby zwiększyć pojemność transakcji.
 wrong_answers:
   - Konflikt dotyczący tego, czy zmniejszyć rozmiar bloku, aby zmniejszyć przepustowość transakcji.
-  - Konflikt dotyczący tego, czy zwiększyć Block reward, aby zachęcić górników.
-  - Konflikt dotyczący tego, czy obniżyć Block reward, aby zniechęcić górników.
+  - Konflikt dotyczący tego, czy zwiększyć nagrody za wydobywanie bloków, aby zachęcić górników.
+  - Konflikt dotyczący tego, czy obniżyć nagrody za wydobywanie bloków, aby zniechęcić górników.
 explanation: |
   Wojna blokowa w 2017 r. była konfliktem o to, czy należy
-  zmodyfikować Bitcoin poprzez zwiększenie rozmiaru bloku w celu zwiększenia
-  pojemność transakcyjną.
+  zmodyfikować Bitcoina poprzez zwiększenie rozmiaru bloku w celu zwiększenia
+  pojemności transakcyjnej.
 reviewed: true

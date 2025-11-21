@@ -238,7 +238,6 @@ Anasema kuwa mifumo mingi, ama ya asili au ya bandia, inaweza na kufanya kazi bi
 
 ![](assets/en/002.webp)
 
-*Shule za samaki hazina viongozi*
 
 
 Haijalishi unafikiria nini kuhusu Bitcoin, asili yake ya ugatuzi hufanya iwe vigumu kudhibiti. Bitcoin ipo, na hakuna unachoweza kufanya kuihusu. Ni jambo la kuchunguzwa na sio kujadiliwa.
@@ -332,7 +331,7 @@ Kiini cha mazungumzo hayo ni kwamba huwezi kujenga mifumo ya Trustless juu ya mf
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Msingi wa Trustless Layer unaruhusu exchange mbalimbali katika viwango vya juu
@@ -496,7 +495,6 @@ Karatasi hiyo inatoa muhtasari wa shida kuu za faragha ya Blockchain, ambayo ni 
 ![](assets/en/005.webp)
 
 
-Uvujaji wa kawaida wa faragha kwenye Blockchain
 
 
 Chris Belcher [aliandika kwa kina](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) kuhusu aina tofauti za uvujaji wa faragha unaoweza kutokea kwenye Bitcoin Blockchain. Tunapendekeza usome angalau vifungu vichache vya kwanza chini ya "Blockchain mashambulizi dhidi ya faragha."
@@ -595,7 +593,7 @@ Pia alitaja mfano huu, miongoni mwa mengine, kwenye [Ukurasa wa Faragha](https:/
 Kumbuka jinsi ufaragha bora unavyoweza kupatikana kwa kujenga mifumo juu ya Bitcoin, kama ilivyo kwa Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Tabaka zilizo juu ya Bitcoin zinaweza kuongeza faragha
@@ -694,7 +692,7 @@ Ni nini hufanyika wakati ruzuku ya block inakaribia sifuri? Ili kuweka mambo rah
 Leo, ni wamiliki ambao hulipa usalama (kupitia mfumuko wa bei wa fedha). Kesho itakuwa zamu ya watumiaji kubeba mzigo huu kwa namna fulani, kama inavyoonyeshwa hapa chini.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Kadiri muda unavyosonga, gharama za usalama zitabadilika kutoka kwa wamiliki hadi watumiaji
@@ -1065,7 +1063,6 @@ Ya hapo juu ni mifano ya vitisho vya kweli ambavyo vinahitaji kutunzwa.
 ![](assets/en/009.webp)
 
 
-Dondoo kutoka kwa Mwongozo wa Uga Rahisi wa Hujuma
 
 
 Ili kuelewa vyema mawazo ya adui, inaweza kusaidia kupata muhtasari wa jinsi wanavyofanya kazi. Chombo cha serikali ya Marekani kilichoitwa Ofisi ya Huduma za Kimkakati, kilichofanya kazi wakati wa Vita vya Pili vya Dunia na kilikuwa na miongoni mwa madhumuni yake ya kufanya ujasusi, kufanya hujuma na kueneza propaganda, kilitoa [mwongozo](https://www.gutenberg.org/ebooks/26184) kwa wafanyakazi wao kuhusu jinsi ya kuhujumu adui ipasavyo. Kichwa chake kilikuwa "Mwongozo Rahisi wa Uga wa Hujuma" na kilikuwa na vidokezo thabiti vya kupenyeza adui ili kufanya maisha yao kuwa Hard. Vidokezo vinaanzia kuchoma ghala hadi kusababisha uchakavu wa kuchimba visima ili kupunguza adui
@@ -1624,7 +1621,6 @@ protocol ya safu huanza na watu wawili au zaidi kukubaliana juu ya shughuli ya k
 
 ![](assets/en/017.webp)
 
-Itifaki ya kawaida ya Layer 2 juu ya Bitcoin, Layer 1.
 
 
 Jinsi muamala huu wa kuanza unavyoundwa hutofautiana kati ya itifaki, lakini mada ya kawaida ni kwamba washiriki huunda muamala wa kuanza ambao haujatiwa saini na idadi ya miamala ya adhabu iliyotiwa saini awali, ambayo hutumia matokeo ya muamala wa kuanza kwa njia mbalimbali. Baadaye, shughuli ya kuanza itatiwa saini kikamilifu na kuchapishwa kwa Blockchain, na miamala ya adhabu inaweza kusainiwa kikamilifu na kuchapishwa ili kuadhibu mhusika. Hii inawapa motisha washiriki kutimiza ahadi zao ili itifaki ifanye kazi kwa njia ya Trustless.

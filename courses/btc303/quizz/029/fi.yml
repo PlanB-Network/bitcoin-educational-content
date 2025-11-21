@@ -1,0 +1,8 @@
+question: Mikä on Pieter Wuillen laskelmien mukaan suurin teoreettinen määrä Bitcoin:ta, joka on koskaan olemassa, kun kaikki kolikot on louhittu?
+answer: 20,999,999.9769 BTC
+wrong_answers:
+  - 21,000,000.0000 BTC täsmälleen
+  - 20,999,817.3131 BTC
+  - 20,500,000.0000 BTC noin
+explanation: |
+  Pieter Wuille laski, että teoreettinen maksimitarjonta on 20 999 999,9769 BTC, mikä on hieman vähemmän kuin yleisesti mainittu 21 miljoonaa. Tämä johtuu Bitcoin:n koodin erityisestä puolittamisaikataulusta ja pyöristämisestä. Luku 21 miljoonaa on pyöristetty likiarvo. Luku 20 999 817,3131 edustaa todellista kiertävää tarjontaa sen jälkeen, kun kadonneet kolikot ja mining:n virheet on otettu huomioon tiettyyn lohkoon asti, ei teoreettista maksimimäärää.

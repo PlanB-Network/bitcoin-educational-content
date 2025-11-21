@@ -9,8 +9,6 @@ Débuter avec Bitcoin semble être un grand défi pour des personnes septiques s
 
 Dans ce tutoriel nous allons à la découverte de Blue Wallet, un portefeuille Bitcoin simple mais tellement efficace qui vous permet de gérer vos bitcoins personnellement mais aussi de créer des coopératives de gestion basées sur le [multisig](https://planb.academy/resources/glossary/multisig) (pas d'inquiétudes, nous y reviendrons).
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
-
 ## Débuter avec Blue Wallet
 
 Blue Wallet est un portefeuille Bitcoin open Source et d'auto détention qui vous permet de prendre le contrôle de vos bitcoins. Il est disponible en application mobile sur les plateformes Android et iOS. Dans ce tutoriel nous nous baserons sur la version Android, toutefois, tous les processus qui seront développés sont également valables sur iOS.

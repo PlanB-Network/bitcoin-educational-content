@@ -1,0 +1,8 @@
+question: Quelle est la principale raison pour laquelle l'offre réelle de Bitcoin en circulation sera nettement inférieure au maximum théorique d'environ 21 millions de BTC ?
+answer: La perte de clés privées, le vol de wallet et l'envoi de pièces à de mauvaises adresses retirent définitivement les bitcoins de la circulation
+wrong_answers:
+  - Les ajustements de difficulté Mining réduisent automatiquement l'offre totale pour maintenir la rareté dans le temps
+  - Les frais de transaction sont brûlés pendant le traitement, ce qui diminue progressivement l'offre de bitcoins disponibles
+  - Le protocole Bitcoin bloque automatiquement les pièces qui n'ont pas bougé pendant de longues périodes afin de prévenir l'inflation
+explanation: |
+  Le chapitre explique que si le maximum théorique est d'environ 20 999 817 BTC, l'offre utilisable réelle est beaucoup plus faible en raison des erreurs humaines et des pertes. Les clés privées perdues rendent les bitcoins définitivement inaccessibles, les portefeuilles sont volés ou oubliés, et les pièces sont parfois envoyées à des adresses non valides. Ces facteurs entraînent une réduction permanente de l'offre qui profite aux détenteurs restants, comme l'a fait remarquer Satoshi : les pièces perdues augmentent la valeur des pièces des autres.

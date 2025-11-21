@@ -196,6 +196,14 @@ Untuk melacak semua transaksi Anda, Anda dapat melihat riwayat di menu "*Transak
 
 ![BULL](assets/fr/36.webp)
 
+## Mulai pembelian berulang otomatis (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Buat pesanan limit
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Sekarang Anda sudah tahu cara membeli dan menjual bitcoin dengan mudah menggunakan Bull Bitcoin. Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya untuk mempelajari cara mengelola frasa mnemonik dengan cara yang benar:

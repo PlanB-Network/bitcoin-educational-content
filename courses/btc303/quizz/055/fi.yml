@@ -1,0 +1,8 @@
+question: Mikä on tärkein syy siihen, miksi Bitcoin Coren GitHub-arkistoa pidetään erityisenä verrattuna tuhansiin muihin saman arkiston kopioihin maailmanlaajuisesti?
+answer: Se toimii yhteiskunnallisesti tunnustettuna Bitcoin-kehityksen keskipisteenä, ei teknisen paremmuuden vuoksi
+wrong_answers:
+  - Se sisältää salausavaimia, joilla todennetaan viralliset Bitcoin Core -julkaisut ja -päivitykset
+  - Sillä on yksinoikeudella teknisiä ominaisuuksia ja oikeuksia, joita muut arkistokopiot eivät voi kopioida
+  - Se on laillisesti suojattu MIT-lisenssillä ainoana Bitcoin-koodin auktoriteettilähteenä
+explanation: |
+  Kuten Jameson Lopp selittää, Bitcoin Coren GitHub-tietovarasto on teknisesti identtinen tuhansien muiden kopioiden kanssa maailmanlaajuisesti, mutta siitä on tullut sosiaalisesti hyväksytty kehitystyön koordinoinnin keskipiste. Sillä ei ole erityisiä teknisiä ominaisuuksia, salausmekanismeja tai oikeudellista suojaa, jotka tekisivät siitä ylivertaisen. MIT-lisenssi itse asiassa varmistaa, että kuka tahansa voi kopioida ja jakaa koodia vapaasti. Jos tämä arkisto katoaisi, yhteisö vain perustaisi uuden keskipisteen muualle, mikä osoittaa, että sen merkitys on puhtaasti sosiaalinen konventio eikä tekninen välttämättömyys.

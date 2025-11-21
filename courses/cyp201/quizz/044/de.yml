@@ -6,4 +6,4 @@ wrong_answers:
   - Eine Technik zur Datenkompression
 explanation: |
   In der Kryptographie quantifiziert Entropie das Niveau der Unsicherheit oder des Chaos in einer zufälligen Quelle, was für die Erzeugung sicherer Schlüssel wesentlich ist.
-reviewed: false
+reviewed: true

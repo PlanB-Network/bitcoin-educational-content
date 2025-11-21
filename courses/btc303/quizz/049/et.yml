@@ -1,0 +1,8 @@
+question: Mis on vastandliku mõtlemise lähenemisviisi kohaselt peamine põhjus, miks tuleb Bitcoin kõik teadaolevad nõrkused kõrvaldada, selle asemel, et aktsepteerida teatavat riski?
+answer: Bitcoin tegutseb pseudonüümses veebikeskkonnas, kus vastased saavad kasutada nõrkusi, ilma et neid tabataks või vastutusele võetaks
+wrong_answers:
+  - "Bitcoin formaalne turvamudel nõuab matemaatilist tõestust, et kõik võimalikud ründevektorid on kõrvaldatud"
+  - Bitcoin hajutatud olemus tähendab, et isegi väikesed nõrkused võivad põhjustada kogu süsteemi hõlmavaid rikkeid kõigis sõlmpunktides
+  - "Bitcoin fikseeritud tarne muudab edukatest rünnakutest tulenevate kahjude katmise majanduslikult teostamatuks, erinevalt traditsioonilistest finantssüsteemidest"
+explanation: |
+  Õige vastus peegeldab Andrew Poelstra peamist arusaama online-süsteemide ja füüsiliste süsteemide vahel. Erinevalt hoonetest, kus me aktsepteerime teatud riski ja toetume õiguskaitseorganitele, tegutseb Bitcoin pseudonüümses keskkonnas, kus ründajad saavad tegutseda ilma nähtavuse ja tagajärgedeta. See põhimõtteline erinevus tähendab, et iga teadaolevat nõrkust kasutatakse paratamatult ära, mistõttu on kõikehõlmav turvalisus pigem oluline kui vabatahtlik riskijuhtimine.

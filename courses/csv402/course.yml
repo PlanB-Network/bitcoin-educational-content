@@ -22,12 +22,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 132.62
+    reward: 132.66
   - language: en
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -40,119 +40,119 @@ proofreading:
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 66.31
+    reward: 66.33
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 132.62
+    reward: 132.66
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 66.31
+    reward: 66.33
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 265.15
+    reward: 265.22
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 132.62
+    reward: 132.66
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 265.15
+    reward: 265.22
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 220.97
+    reward: 221.03
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 220.97
+    reward: 221.03
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 309.32
+    reward: 309.4
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 88.4
+    reward: 88.42
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 220.97
+    reward: 221.03
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 132.62
+    reward: 132.66
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 176.85
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 220.97
+    reward: 221.03
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 176.8
+    reward: 221.03
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 265.15
+    reward: 265.22
 tags:
   - protocols
   - complex-DIY

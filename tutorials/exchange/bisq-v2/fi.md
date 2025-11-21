@@ -23,7 +23,7 @@ Bisq 2 on uusi versio suositusta hajautetusta Bisq-pörssistä, joka julkaistiin
 - Tuki useille salkkutyypeille
 - Roolijärjestelmä, jossa on pakollinen talletus BSQ:ssa
 
-Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkellä ainoa saatavilla oleva protokolla. Bisq Easy on suunniteltu erityisesti uusille Bitcoin-käyttäjille. Tämän protokollan avulla käyttäjät voivat ostaa ja myydä Bitcoineja fiat-valuuttoja vastaan hajautetulla vertaisverkkopalvelualustalla. Transaktiot on rajoitettu 600 USD:n vasta-arvoon (minimi 6 USD), ja vaihdon turvallisuus perustuu BTC-myyjien maineeseen. Bisq Easyllä ei ole kaupankäyntimaksuja eikä vakuustalletusvaatimuksia. Bisq Easy korvaa Bisq 1:n alle 600 USD:n (tai vastaavan summan) käteisvaihtojen osalta.
+Tämä opas keskittyy yksinomaan "Bisq Easyyn", ainoaan tällä hetkellä saatavilla olevaan protokollaan. Bisq Easy on suunniteltu erityisesti uusille Bitcoin-käyttäjille. Tämä protokolla mahdollistaa bitcoinien ostamisen ja myymisen fiat-valuuttoja vastaan hajautetulla vertaisverkkoalustalla. Tapahtumat on rajoitettu 600 USD:n arvoon (vähintään 6 USD), ja kaupankäynnin turvallisuus perustuu BTC-myyjien maineeseen. Bisq Easy ei sisällä kaupankäyntimaksuja eikä vaadi vakuusmaksua. On odotettavissa, että Bisq Easy korvaa Bisq 1:n alle 600 USD (tai vastaavan) fiat-kaupoissa.
 
 **Pääominaisuudet:**
 
@@ -62,7 +62,7 @@ Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkel
 - Tarjouksen tekijä määrittelee vaihdon ehdot
 - Kun kauppiaat ovat sopineet ehdoista (maksutapa ja hinta), vaihto alkaa
 - Myyjä lähettää pankkitietonsa ostajalle, ja ostaja lähettää Bitcoin-osoitteensa myyjälle
-- Ostaja suorittaa maksun käteisellä ja ilmoittaa siitä myyjälle
+- Ostaja suorittaa maksun fiat-valuutassa ja ilmoittaa myyjälle
 - Kun maksu on vastaanotettu, myyjä lähettää bitcoinit ostajan osoitteeseen
 - Vaihto on valmis, kun ostaja vastaanottaa bitcoinit
 

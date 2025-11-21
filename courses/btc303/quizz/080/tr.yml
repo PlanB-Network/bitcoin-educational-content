@@ -1,0 +1,8 @@
+question: Bitcoin için güvenlik açığı yamalarının yayınlanmasını geleneksel merkezi yazılım sistemlerine kıyasla özellikle karmaşık hale getiren temel zorluk nedir?
+answer: Yama kodunun kendisi, değişiklikleri analiz eden potansiyel saldırganlara güvenlik açığını ortaya çıkarabilir
+wrong_answers:
+  - Merkezi olmayan yapı, yama dağıtım zamanlamasını koordine edecek merkezi bir otorite olmadığı anlamına gelir
+  - "Bitcoin'in mutabakat mekanizması, herhangi bir güvenlik yamasının uygulanabilmesi için çoğunluğun onayını gerektirir"
+  - Açık kaynak niteliği, yamalar geliştirilmeden önce tüm güvenlik açıklarının kamuya açıklanması gerektiği anlamına gelir
+explanation: |
+  Metin, geliştiricilerin yamaları yayınlarken son derece dikkatli olmaları gerektiğini özellikle vurgulamaktadır çünkü 'yamanın kendisi güvenlik açığını ele verebilir' Bu, çözümün yanlışlıkla sorunu ortaya çıkarabileceği benzersiz bir zorluk yaratmaktadır. Dördüncü madde, Bitcoin geliştiricilerinin bir yamanın 'yeterince iyi gizlenip gizlenmediğini', deneyimli geliştiricilere belirli bir güvenlik açığını bilmeden inceleterek nasıl test ettiklerini açıklamaktadır. Bu uzmanlar yamadaki güvenlik açığını tespit edemezlerse, yamanın dağıtılmasının güvenli olduğu kabul edilir. Diğer seçenekler yanlıştır: Bitcoin Core bakımcıları aracılığıyla koordinasyon vardır, yamalar için fikir birliği gerekmez ve sorumlu ifşa sırasında güvenlik açıkları gizli tutulur.

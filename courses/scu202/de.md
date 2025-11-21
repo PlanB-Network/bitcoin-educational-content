@@ -1,14 +1,14 @@
 ---
-name: Verbesserung Ihrer persönlichen digitalen Sicherheit
+name: Verbesserung deiner persönlichen digitalen Sicherheit
 goal: Einrichtung einer sicheren, stabilen und effizienten persönlichen digitalen Umgebung.
 objectives: 
 
 
   - Verstehen, wie moderne Betriebssysteme funktionieren und eine fundierte Wahl treffen
-  - Erlangung technischer Autonomie in Linux
+  - Erlangung technischer Autonomie in Linux 
   - Implementierung der besten Sicherheitspraktiken auf einem Personal Computer
   - Verbesserung der Sicherheit beim Surfen im Internet und bei der mobilen Nutzung durch Open-Source-Tools und geeignete Einstellungen
-  - Implementierung der notwendigen Schutzmaßnahmen in einem Heimnetzwerk
+  - Implementierung der notwendigen Schutzmassnahmen in einem Heimnetzwerk
 
 
 ---
@@ -17,19 +17,15 @@ objectives:
 
 
 
-In einer Welt, in der digitale Geräte allgegenwärtig sind, aber nur selten beherrscht werden, ist es eine Notwendigkeit, zu lernen, wie man seine eigene IT-Umgebung sichert. Egal, ob es sich um Ihren Computer, Ihren Browser, Ihr Telefon oder Ihr Heimnetzwerk handelt, jedes dieser Elements kann ein potenzielles Einfallstor für Ihre Privatsphäre sein. Dieser Kurs hilft Ihnen, die Kontrolle über Ihre digitalen Geräte wiederzuerlangen.
+Wir leben in einer Welt, in der digitale Geräte allgegenwärtig sind, aber nur selten beherrscht werden. Deshalb ist es eine Notwendigkeit, zu lernen, wie man seine eigene IT-Umgebung sichert. Egal, ob es sich um deinen Computer, deinen Browser, dein Telefon oder dein Heimnetzwerk handelt, jedes dieser Elements kann ein potenzielles Einfallstor für deine Privatsphäre sein. Dieser Kurs hilft dir, die Kontrolle über deine digitalen Geräte wiederzuerlangen.
 
 
+Es geht nicht nur darum, Best Practices zu kennen: Es geht darum, zu verstehen, was du verwendest, wie du es verwendest und was das für deine Sicherheit bedeutet. Dieser SCU202-Kurs bietet eine ausführliche Einführung in die technischen Grundlagen von Betriebssystemen, führt dich in die praktische Nutzung von Linux ein und leitet dich bei der Einrichtung einer stabilen, funktionalen und widerstandsfähigen Arbeitsumgebung an.
 
-Es geht nicht nur darum, Best Practices zu kennen: Es geht darum, zu verstehen, was Sie verwenden, wie Sie es verwenden und was das für Ihre Sicherheit bedeutet. Dieser SCU202-Kurs bietet eine ausführliche Einführung in die technischen Grundlagen von Betriebssystemen, führt Sie in die praktische Nutzung von Linux ein und leitet Sie bei der Einrichtung einer stabilen, funktionalen und widerstandsfähigen Arbeitsumgebung an.
-
-
-
-In den Modulen des Kurses erfahren Sie, wie Sie die Integrität der von Ihnen installierten Software überprüfen, Ihre Daten effektiv verschlüsseln, Ihren Browser und Ihr Telefon mit einem Minimum an Datenverlusten nutzen und die Sicherheit Ihres Heimnetzwerks verbessern können.
+In den Modulen des Kurses erfährst du, wie du die Integrität der von dir installierten Software überprüfst, deine Daten effektiv verschlüsselst, deinen Browser und dein Telefon mit einem Minimum an Datenverlusten nutzt und die Sicherheit deines Heimnetzwerks verbessern kannst.
 
 
-
-Dieser Kurs richtet sich an fortgeschrittene Nutzer, die ihre digitalen Werkzeuge besser beherrschen wollen. Er basiert auf einem praktischen Ansatz, der sich auf Autonomie und Souveränität konzentriert, um sicherere und bewusstere tägliche IT-Gewohnheiten zu entwickeln, nach dem Motto "*Don't Trust, Verify*".
+Dieser Kurs richtet sich an fortgeschrittene Nutzer, die ihre digitalen Werkzeuge besser beherrschen wollen. Er basiert auf einem praktischen Ansatz, der sich auf Autonomie und Souveränität konzentriert, um sicherere und bewusstere tägliche IT-Gewohnheiten zu entwickeln, nach dem Motto "Don't Trust, Verify".
 
 
 
@@ -49,44 +45,30 @@ Dieser Kurs richtet sich an fortgeschrittene Nutzer, die ihre digitalen Werkzeug
 
 
 
-Willkommen zum Kurs SCU202, der Fortsetzung des Kurses SCU101, der Sie in Ihrer Beherrschung der IT-Sicherheit weiterbringt, indem er den Schwerpunkt auf die individuelle Souveränität, den Schutz der Privatsphäre und die sichere Verwaltung Ihrer persönlichen Daten legt. Hier finden Sie einen Überblick darüber, was Sie im Kurs SCU202 entdecken werden.
-
-
+Willkommen zum Kurs SCU202, der Fortsetzung des Kurses SCU101. Er hilft dir, deine Fähigkeiten in der IT-Sicherheit zu vertiefen und unterstützt dich dabei, mehr Kontrolle über deine digitale Sicherheit zu gewinnen. Dabei stehen deine individuelle Souveränität, der Schutz der Privatsphäre und die sichere Verwaltung deiner persönlichen Daten im Mittelpunkt. Hier erhältst du einen Überblick darüber, was dich im Kurs SCU202 erwartet.
 
 ### Teil 1 - Einführung
 
 
 
-Der Kurs beginnt mit einer kurzen Wiederholung der in SCU101 behandelten Konzepte, um sicherzustellen, dass Sie über die grundlegenden Prinzipien auf dem Laufenden sind, die notwendig sind, um die folgenden Themen richtig anzugehen.
-
-
+Der Kurs beginnt mit einer kurzen Wiederholung der in SCU101 behandelten Konzepte, um sicherzustellen, dass du über die grundlegenden Prinzipien auf dem Laufenden bist, die notwendig sind, um die folgenden Themen richtig anzugehen.
 
 ### Teil 2 - Vom Klick zum Terminal: Linux beherrschen
 
 
+In diesem Teil wird das GNU/Linux-System vorgestellt, eine Säule der digitalen Souveränität. Du wirst die Unterschiede zwischen Linux, Windows und macOS erforschen, die faszinierende Geschichte von Linux und freier Software entdecken und verstehen, warum Linux oft ein Synonym für Sicherheit und Freiheit ist.
 
-In diesem Teil wird das GNU/Linux-System vorgestellt, eine Säule der digitalen Souveränität. Sie werden die Unterschiede zwischen Linux, Windows und macOS erforschen, die faszinierende Geschichte von Linux und freier Software entdecken und verstehen, warum Linux oft ein Synonym für Sicherheit und Freiheit ist.
-
-
-
-Als Nächstes lernen Sie, wie Sie die Linux-Distribution auswählen, die am besten zu Ihren Bedürfnissen und Ihrer Desktop-Umgebung passt. Schließlich werden Sie Ihre ersten Schritte mit Ubuntu anhand einer detaillierten Installations- und Konfigurationsanleitung machen.
-
-
+Als Nächstes lernst du, wie du die Linux-Distribution auswählst, die am besten zu deinen Bedürfnissen und deiner Desktop-Umgebung passt. Schliesslich wirst du deine ersten Schritte mit Ubuntu anhand einer detaillierten Installations- und Konfigurationsanleitung machen.
 
 ![Image](assets/fr/064.webp)
 
 
 
-### Teil 3 - Sichern Ihres Computers
+### Teil 3 - Sichern deines Computers
 
+In diesem Abschnitt erfährst du, wie du die Sicherheit deines Computers erhöhen kannst. Wir gehen auf Methoden ein, mit denen du deinen Zugang wirksam schützt und deine Anwendungsfälle in der Nutzung trennen kannst. Du wirst verstehen, wie wichtig regelmässige System- und Software-Updates sind, um potenzielle Schwachstellen zu minimieren.
 
-In diesem Abschnitt erfahren Sie, wie Sie die Sicherheit Ihres Computers erhöhen können. Wir gehen auf Methoden ein, mit denen Sie Ihren Zugang wirksam schützen und Ihre Nutzung trennen können. Sie werden verstehen, wie wichtig regelmäßige System- und Software-Updates sind, um potenzielle Schwachstellen zu minimieren.
-
-
-
-Außerdem lernen Sie, wie Sie die Integrität und Authentizität heruntergeladener Software überprüfen, um Infektionen oder Kompromisse zu vermeiden, und wie Sie Ihre persönlichen Daten und Backups durch Verschlüsselung effektiv schützen. Schließlich erfahren Sie, warum und wie Sie die Metadaten Ihrer Dateien bereinigen, um Ihre Privatsphäre online zu schützen.
-
-
+Ausserdem lernst du, wie du die Integrität und Authentizität heruntergeladener Software überprüfst, um Infektionen oder Kompromisse zu vermeiden, und wie du deine persönlichen Daten und Backups durch Verschlüsselung effektiv schützt. Schliesslich erfährst du, warum und wie du die Metadaten deiner Dateien bereinigst, um deine Privatsphäre online zu schützen.
 
 ![Image](assets/fr/235.webp)
 
@@ -100,7 +82,7 @@ Heutzutage sind Webbrowser in unserem täglichen digitalen Leben allgegenwärtig
 
 
 
-Anschließend erhalten Sie einen Überblick über die heutigen Rendering-Engines und Browser, ihre Vor- und Nachteile sowie konkrete Best Practices, um Ihr Surfen so sicher wie möglich zu machen.
+Anschliessend erhältst du einen Überblick über die heutigen Rendering-Engines und Browser, ihre Vor- und Nachteile sowie konkrete Best Practices, um dein Surfen so sicher wie möglich zu machen.
 
 
 
@@ -108,31 +90,23 @@ Anschließend erhalten Sie einen Überblick über die heutigen Rendering-Engines
 
 
 
-### Teil 5 - Die Kontrolle über Ihr Telefon zurückgewinnen
+### Teil 5 - Die Kontrolle über dein Handy zurückgewinnen
 
+Heutzutage sind unsere Smartphones eine Erweiterung unseres privaten und beruflichen Lebens, weshalb es so wichtig ist, ihre Sicherheit zu kontrollieren. Wir beschäftigen uns ausführlich mit den verschiedenen mobilen Betriebssystemen, ihren Vorteilen und Einschränkungen und entdecken gleichzeitig Open-Source-Alternativen, mit denen du die volle Kontrolle über dein Gerät zurückgewinnen kannst.
 
-
-Heutzutage sind unsere Smartphones eine Erweiterung unseres privaten und beruflichen Lebens, weshalb es so wichtig ist, ihre Sicherheit zu kontrollieren. Wir werden uns ausführlich mit den verschiedenen mobilen Betriebssystemen, ihren Vorteilen und Einschränkungen befassen und gleichzeitig Open-Source-Alternativen entdecken, mit denen Sie die volle Kontrolle über Ihr Gerät zurückgewinnen können.
-
-
-
-Dann lernen Sie die besten Praktiken für die tägliche Sicherheit kennen, von Updates bis zur Trennung Ihrer persönlichen und beruflichen Daten. Schließlich entdecken Sie sichere Kommunikationstools und alternative Open-Source-Anwendungen, mit denen Sie die Privatsphäre und Sicherheit Ihres Telefons verbessern können.
-
+Dann lernst du die besten Praktiken für die tägliche Sicherheit kennen – von Updates bis hin zur Trennung deiner persönlichen und beruflichen Daten. Schliesslich entdeckst du sichere Kommunikationstools und alternative Open-Source-Anwendungen, mit denen du die Privatsphäre und Sicherheit deines Telefons verbessern kannst.
 
 
 ![Image](assets/fr/142.webp)
 
 
 
-### Teil 6 - Absicherung Ihres lokalen Netzwerks
+### Teil 6 - Absicherung deines lokalen Netzwerks
 
 
+Dein Heimnetzwerk ist ein wichtiger kritischer Punkt, wenn es um die Sicherheit geht. Wir werfen zunächst einen Blick darauf, wie ein lokales Netzwerk funktioniert, und gehen dann zu den praktischen Schritten über, um es effektiv zu sichern.
 
-Ihr Heimnetzwerk ist ein wichtiger kritischer Punkt, wenn es um die Sicherheit geht. Wir werfen zunächst einen Blick darauf, wie ein lokales Netzwerk funktioniert, und gehen dann zu den praktischen Schritten über, um es effektiv zu sichern.
-
-
-
-Sie lernen, wie Sie einen sicheren Router auswählen und konfigurieren, Ihr Netzwerk segmentieren, Ihr Wi-Fi-Netzwerk stärken und Überwachungstools einsetzen, um Anomalien schnell zu erkennen.
+Du lernst, wie du einen sicheren Router auswählst und konfigurierst, dein Netzwerk segmentierst, dein Wi-Fi-Netzwerk stärkst und Überwachungstools einsetzt, um Anomalien schnell zu erkennen.
 
 
 
@@ -143,8 +117,7 @@ Sie lernen, wie Sie einen sicheren Router auswählen und konfigurieren, Ihr Netz
 ### Teil 7 - Letzter Abschnitt
 
 
-
-Zum Abschluss des Kurses können Sie die Abschlussprüfung ablegen, um Ihr Zertifikat zu erhalten und zu überprüfen, ob Sie die besprochenen Themen verstanden haben.
+Zum Abschluss des Kurses kannst du die Abschlussprüfung ablegen, um dein Zertifikat zu erhalten und zu überprüfen, ob du die besprochenen Themen verstanden hast.
 
 
 
@@ -152,11 +125,12 @@ Zum Abschluss des Kurses können Sie die Abschlussprüfung ablegen, um Ihr Zerti
 
 
 
-Sind Sie bereit, die volle Kontrolle über Ihre IT-Sicherheit zu übernehmen, Ihre individuelle Souveränität zu stärken und Ihre Online-Privatsphäre zu gewährleisten? Los geht's!
+Bist du bereit, die volle Kontrolle über deine IT-Sicherheit zu übernehmen, deine individuelle Souveränität zu stärken und deine Online-Privatsphäre zu gewährleisten? Los geht’s!
 
 
 
-*N.B.: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen*
+*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte das [das Glossar] (https://planb.academy/resources/glossary) für Definitionen.
+
 
 
 
@@ -171,7 +145,7 @@ Bevor ich mit dem Kurs SCU202 beginne, möchte ich in diesem Kapitel kurz die gr
 
 
 
-Wenn Sie noch Anfänger sind und noch nicht SCU101 besucht haben, empfehle ich Ihnen dringend, mit diesem ersten Kurs zu beginnen, bevor Sie zu diesem Kurs übergehen. Die in SCU101 behandelten Grundlagen werden hier nicht wiederholt. Ich werde daher weder auf grundlegende Sicherheitspraktiken noch auf die Verwendung von VPNs, Passwortmanagern oder Zwei-Faktor-Authentifizierung eingehen. Dennoch ist es wichtig, all diese Konzepte zu beherrschen, bevor man zu den fortgeschritteneren Anwendungen übergeht, die wir in den folgenden Kapiteln behandeln werden.
+Wenn du noch Anfänger bist und SCU101 noch nicht besucht hast, empfehle ich dir dringend, mit dem SCU101-Kurs zu beginnen, bevor du zu diesem hier übergehst. Die in SCU101 behandelten Grundlagen werden hier nicht wiederholt. Ich werde daher weder auf grundlegende Sicherheitspraktiken noch auf die Verwendung von VPNs, Passwortmanagern oder Zwei-Faktor-Authentifizierung eingehen. Dennoch ist es wichtig, all diese Konzepte zu beherrschen, bevor man zu den fortgeschritteneren Anwendungen übergeht, die wir in den folgenden Kapiteln behandeln werden.
 
 
 
@@ -185,15 +159,11 @@ https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 
-Das Surfen im Internet ist oft der Haupteinstiegspunkt für Bedrohungen der Cybersicherheit. In SCU101 haben wir gesehen, dass es wichtig ist, wachsam zu bleiben, besonders wenn es um Downloads geht. Laden Sie nur Dateien aus zuverlässigen Quellen herunter und bevorzugen Sie Open-Source-Software, die oft von größerer Transparenz und Kontrolle durch die Gemeinschaft profitiert.
+Das Surfen im Internet ist oft der Haupteinstiegspunkt für Bedrohungen der Cybersicherheit. In SCU101 haben wir gesehen, dass es wichtig ist, wachsam zu bleiben, besonders wenn es um Downloads geht. Lade nur Dateien aus zuverlässigen Quellen herunter und bevorzuge Open-Source-Software, die oft von grösserer Transparenz und Kontrolle durch die Gemeinschaft profitiert.
 
+Eine weitere gute Praxis, die im Kurs behandelt wurde, sind Cookies – diese kleinen Dateien, die auf deinem Computer gespeichert werden, wenn du Websites besuchst. Du solltest sie regelmässig löschen oder einschränken, um deine Privatsphäre zu schützen.
 
-
-Eine weitere gute Praxis, die in dem Kurs behandelt wurde, sind Cookies, diese kleinen Dateien, die auf Ihrem Computer gespeichert werden, wenn Sie Websites besuchen. Sie sollten sie regelmäßig löschen oder einschränken, um Ihre Privatsphäre zu schützen.
-
-
-
-Generell erfordert sicheres Surfen ein gewisses Maß an Vorsicht: Klicken Sie nicht auf unbekannte Links, meiden Sie verdächtige Websites und verwenden Sie einen sicheren, aktuellen Browser.
+Generell erfordert sicheres Surfen ein gewisses Mass an Vorsicht: Klicke nicht auf unbekannte Links, meide verdächtige Websites und verwende einen sicheren, aktuellen Browser.
 
 
 
@@ -201,15 +171,13 @@ Generell erfordert sicheres Surfen ein gewisses Maß an Vorsicht: Klicken Sie ni
 
 
 
-### VPNs verstehen und Ihre Internetverbindung sichern
+### VPNs verstehen und deine Internetverbindung sichern
 
 
 
-SCU101 hat Ihnen das Konzept eines VPN (Virtual Private Network) vorgestellt. In der Praxis verschlüsselt ein VPN Ihren Internetverkehr, indem es einen sicheren Tunnel zwischen Ihrem Gerät und einem entfernten Server herstellt. Aber nicht alle VPNs sind gleich: Bevorzugen Sie transparente, zuverlässige Anbieter, die eine anonyme Anmeldung ermöglichen, wie Mullvad, ProtonVPN oder IVPN. Diese VPNs garantieren Ihnen optimale Privatsphäre, ohne Ihre persönlichen Daten unnötig zu sammeln.
+SCU101 hat dir das Konzept eines VPN (Virtual Private Network) vorgestellt. In der Praxis verschlüsselt ein VPN deinen Internetverkehr, indem es einen sicheren Tunnel zwischen deinem Gerät und einem entfernten Server herstellt. Aber nicht alle VPNs sind gleich: Bevorzuge transparente, zuverlässige Anbieter, die eine anonyme Anmeldung ermöglichen, wie Mullvad, ProtonVPN oder IVPN. Diese VPNs garantieren dir optimale Privatsphäre, ohne deine persönlichen Daten unnötig zu sammeln.
 
-
-
-Außerdem haben wir gesehen, dass die Verbindung in öffentlichen Wi-Fi-Netzwerken besonders gefährdet ist. Aus diesem Grund ist die Verwendung eines VPN unerlässlich. Wenn Sie keins verwenden können, verbinden Sie sich nur mit HTTPS-Websites, um Ihren Datenaustausch zu schützen.
+Ausserdem haben wir gesehen, dass die Verbindung in öffentlichen Wi-Fi-Netzwerken besonders riskant ist. Aus diesem Grund ist die Verwendung eines VPN unerlässlich. Wenn du keines verwenden kannst, verbinde dich nur mit HTTPS-Websites, um deinen Datenaustausch zu schützen.
 
 
 
@@ -217,11 +185,11 @@ Außerdem haben wir gesehen, dass die Verbindung in öffentlichen Wi-Fi-Netzwerk
 
 
 
-### Sorgfältiger Umgang mit Ihrem Computer
+### Sorgfältiger Umgang mit deinem Computer
 
 
 
-Sicherheit bedeutet auch, dass Sie Ihr Betriebssystem (OS) kennen. Sie haben die drei wichtigsten Betriebssysteme kennengelernt: Windows, macOS und Linux, jedes mit seinen eigenen Sicherheitsfunktionen. Insbesondere unter Windows ist ein aktuelles Antivirenprogramm unerlässlich, um Malware zu erkennen und zu blockieren.
+Sicherheit bedeutet auch, dass du dein Betriebssystem (OS) kennst. Du hast die drei wichtigsten Betriebssysteme kennengelernt: Windows, macOS und Linux – jedes mit seinen eigenen Sicherheitsfunktionen. Besonders unter Windows ist ein aktuelles Antivirenprogramm unerlässlich, um Malware zu erkennen und zu blockieren.
 
 
 
@@ -229,7 +197,7 @@ Sicherheit bedeutet auch, dass Sie Ihr Betriebssystem (OS) kennen. Sie haben die
 
 
 
-SCU101 warnt außerdem davor, unbekannte USB-Laufwerke an den Computer anzuschließen, da sie Malware enthalten können, die das System infizieren könnte.
+SCU101 warnt ausserdem davor, unbekannte USB-Laufwerke an den Computer anzuschliessen, da sie Malware enthalten können, die das System infizieren könnte.
 
 
 
@@ -237,15 +205,12 @@ SCU101 warnt außerdem davor, unbekannte USB-Laufwerke an den Computer anzuschli
 
 
 
-Ein wesentlicher Bestandteil der SCU101-Schulung war das Verständnis von Cyberangriffen. Viren tauchen nicht einfach von selbst auf: Sie erfordern in der Regel ein unbeabsichtigtes Eingreifen Ihrerseits, z. B. das Herunterladen einer infizierten Datei oder das Öffnen eines betrügerischen Links in einer E-Mail.
+Ein wesentlicher Bestandteil der SCU101-Schulung war, dass du Cyberangriffe verstehst. Viren tauchen nicht einfach von selbst auf: Sie erfordern meistens, dass du unbeabsichtigt etwas tust, zum Beispiel indem du eine infizierte Datei herunterlädst oder einen betrügerischen Link in einer E-Mail öffnest.
 
 
+Einer der häufigsten Angriffe ist das Phishing, bei dem betrügerische Nachrichten verschickt werden, um dich dazu zu bringen, sensible Daten preiszugeben. Wenn du mit solchen Angriffen konfrontiert wirst, überprüfe systematisch den Absender und vermeide es, auf Links zu klicken oder Anhänge von unbekannten oder verdächtigen Quellen zu öffnen.
 
-Einer der häufigsten Angriffe ist das Phishing, bei dem betrügerische Nachrichten verschickt werden, um Sie dazu zu bringen, sensible Daten preiszugeben. Wenn Sie mit solchen Angriffen konfrontiert werden, überprüfen Sie systematisch den Absender und vermeiden Sie es, auf Links zu klicken oder Anhänge von unbekannten oder verdächtigen Quellen zu öffnen.
-
-
-
-Eine weitere große Bedrohung ist Ransomware, die Ihre Daten verschlüsselt und ein Lösegeld verlangt. Um dem zu begegnen, ist eine regelmäßige Sicherung Ihrer Daten unerlässlich.
+Eine weitere grosse Bedrohung ist Ransomware, die deine Daten verschlüsselt und ein Lösegeld verlangt. Um dem zu begegnen, ist eine regelmässige Sicherung deiner Daten unerlässlich.
 
 
 
@@ -253,16 +218,12 @@ Eine weitere große Bedrohung ist Ransomware, die Ihre Daten verschlüsselt und 
 
 
 
-### Sichern Sie Ihre Postfächer wirksam
+### Sichere deine Postfächer wirksam
 
 
+SCU101 hob besonders hervor, wie wichtig es ist, deine E-Mails, das Tor zu all deinen anderen Online-Konten, zu sichern. Eine kompromittierte Mailbox ermöglicht es Hackern, die Passwörter fast aller deiner Konten über die üblichen E-Mail-Wiederherstellungsverfahren zurückzusetzen.
 
-SCU101 hob besonders hervor, wie wichtig es ist, Ihre E-Mail, das Tor zu all Ihren anderen Online-Konten, zu sichern. Eine kompromittierte Mailbox ermöglicht es den Hackern, die Passwörter fast aller Ihrer Konten über die üblichen E-Mail-Wiederherstellungsverfahren zurückzusetzen.
-
-
-
-Sie haben also gesehen, wie wichtig es ist, sichere, dedizierte E-Mail-Adressen einzurichten. Es ist ratsam, eine spezielle E-Mail Address für die Wiederherstellung des Kontos zu reservieren, die von Ihrer Haupt-Address getrennt ist.
-
+Du hast also gesehen, wie wichtig es ist, sichere, dedizierte E-Mail-Adressen einzurichten. Es ist ratsam, eine spezielle E-Mail-Adresse für die Kontowiederherstellung zu reservieren, die von deiner Hauptadresse getrennt ist.
 
 
 ![Image](assets/fr/272.webp)
@@ -273,11 +234,9 @@ Sie haben also gesehen, wie wichtig es ist, sichere, dedizierte E-Mail-Adressen 
 
 
 
-Die digitale Sicherheit hängt stark von der Qualität Ihrer Passwörter ab. SCU101 erklärt, warum die Verwendung eines Passwortmanagers unerlässlich ist: Mit diesen Tools können Sie komplexe, eindeutige und zufällige Passwörter für jeden von Ihnen genutzten Dienst speichern.
+Die digitale Sicherheit hängt stark von der Qualität deiner Passwörter ab. SCU101 erklärt, warum die Verwendung eines Passwortmanagers unerlässlich ist: Mit diesen Tools kannst du komplexe, eindeutige und zufällige Passwörter für jeden von dir genutzten Dienst speichern.
 
-
-
-Passwort-Manager vereinfachen die Aufgabe für Sie, da Sie sich nur ein Master-Passwort für alle anderen merken müssen.
+Passwortmanager vereinfachen dir die Aufgabe, da du dir nur ein Master-Passwort merken musst.
 
 
 
@@ -289,19 +248,15 @@ Passwort-Manager vereinfachen die Aufgabe für Sie, da Sie sich nur ein Master-P
 
 
 
-Schließlich wurden Sie in SCU101 in die Zwei-Faktor-Authentifizierung (2FA) eingeführt. Das Prinzip besteht darin, die Authentifizierung in zwei separaten Schritten durchzuführen: Ihr normales Passwort und ein zweiter Faktor, wie ein temporärer Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird, oder ein Hardware-Schlüssel wie YubiKey.
+Schliesslich wurdest du in SCU101 in die Zwei-Faktor-Authentifizierung (2FA) eingeführt. Das Prinzip besteht darin, die Authentifizierung in zwei separaten Schritten durchzuführen: dein normales Passwort und ein zweiter Faktor – zum Beispiel ein temporärer Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird, oder ein Hardware-Schlüssel wie YubiKey.
 
-
-
-2FA schützt Ihre Konten wesentlich besser: Selbst wenn Ihr Passwort kompromittiert wird, bleibt der Zugang ohne den zweiten Faktor unmöglich. Beachten Sie, dass per SMS oder E-Mail gesendete Codes weniger sicher sind, da sie abgefangen oder umgeleitet werden können.
-
-
+2FA schützt deine Konten wesentlich besser: Selbst wenn dein Passwort kompromittiert wird, bleibt der Zugang ohne den zweiten Faktor unmöglich. Beachte, dass per SMS oder E-Mail gesendete Codes weniger sicher sind, da sie abgefangen oder umgeleitet werden können.
 
 ___
 
 
 
-Diese Erinnerung an die Grundlagen wird als Basis für unseren Kurs SCU202 dienen, in dem wir die Beherrschung von Cybersicherheitstechniken vertiefen werden, um Ihre individuelle Souveränität, Ihre Privatsphäre und Ihre persönlichen Daten insgesamt besser zu schützen.
+Diese Erinnerung an die Grundlagen wird als Basis für unseren Kurs SCU202 dienen, in dem wir die Beherrschung von Cybersicherheitstechniken vertiefen werden, um deine individuelle Souveränität, deine Privatsphäre und deine persönlichen Daten insgesamt besser zu schützen.
 
 
 
@@ -312,18 +267,16 @@ Diese Erinnerung an die Grundlagen wird als Basis für unseren Kurs SCU202 diene
 
 
 
-## Linux, Windows, macOS: Was ist das Richtige für Sie?
+## Linux, Windows, macOS: Was ist das Richtige für dich?
 
 
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
 
 
 
-Beginnen wir diesen SCU202-Kurs mit den Grundlagen: dem Betriebssystem (OS) Ihres Computers. Es entscheidet nicht nur über die Wahl der Hardware, sondern auch über die Sicherheit, die Benutzerfreundlichkeit und die Möglichkeit, den Computer individuell anzupassen.
+Beginnen wir diesen SCU202-Kurs mit den Grundlagen: dem Betriebssystem (OS) deines Computers. Es entscheidet nicht nur über die Wahl der Hardware, sondern auch über die Sicherheit, die Benutzerfreundlichkeit und die Möglichkeit, deinen Computer individuell anzupassen.
 
-
-
-Bevor in den nächsten Kapiteln auf die technischen Details von Linux eingegangen wird, ist es wichtig, die wichtigsten Unterschiede zwischen den drei gängigsten Systemen zu verstehen: Windows, macOS und GNU/Linux. In diesem Kapitel werden wir jede Lösung untersuchen, ihre Stärken und Grenzen herausarbeiten und dann eine fundierte Wahl treffen, die Ihren Bedürfnissen entspricht.
+Bevor wir in den nächsten Kapiteln auf die technischen Details von Linux eingehen, ist es wichtig, die wichtigsten Unterschiede zwischen den drei gängigsten Systemen zu verstehen: Windows, macOS und GNU/Linux. In diesem Kapitel wirst du jede Lösung kennenlernen, ihre Stärken und Grenzen herausarbeiten und dann eine fundierte Wahl treffen, die deinen Bedürfnissen entspricht.
 
 
 
@@ -331,13 +284,9 @@ Bevor in den nächsten Kapiteln auf die technischen Details von Linux eingegange
 
 
 
-Ein Betriebssystem ist eine Reihe zentraler Programme, die als Vermittler zwischen dem Benutzer, den Anwendungen (die ebenfalls Software sind) und der Hardware, d. h. dem Computer, fungieren. Es ist die grundlegende Software Layer, die die Nutzung der Hardwareressourcen eines Computers (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.) ermöglicht.
+Ein Betriebssystem ist eine Reihe zentraler Programme, die als Vermittler zwischen dir, den Anwendungen (die ebenfalls Software sind) und der Hardware, also deinem Computer, fungieren. Es ist die grundlegende Software-Schicht, die die Nutzung der Hardwareressourcen eines Computers (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.) ermöglicht.
 
-
-
-Konkret empfängt, verarbeitet und beantwortet das Betriebssystem die Anfragen Ihrer Software und nutzt die Ressourcen des Computers so effizient wie möglich. Es verwaltet die gleichzeitige Ausführung mehrerer Programme, steuert die Komponenten des PCs, verwaltet Verbindungen, ermöglicht die Dateiverwaltung und gewährleistet die Datensicherheit durch Autorisierungs- und Authentifizierungsmechanismen.
-
-
+Konkret empfängt, verarbeitet und beantwortet das Betriebssystem die Anfragen deiner Software und nutzt die Ressourcen des Computers so effizient wie möglich. Es verwaltet die gleichzeitige Ausführung mehrerer Programme, steuert die Komponenten des PCs, verwaltet Verbindungen, ermöglicht die Dateiverwaltung und gewährleistet die Datensicherheit durch Autorisierungs- und Authentifizierungsmechanismen.
 
 ![Image](assets/fr/001.webp)
 
@@ -347,7 +296,7 @@ Ohne ein Betriebssystem müsste jedes Softwareprogramm seinen eigenen Weg zur Ko
 
 
 
-Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-NAA I/O, kam erst 1956 auf den Markt.  Es führte die Stapelverarbeitung ein, die die Aufgabenverwaltung automatisierte. In den 1960er Jahren kamen mit CTSS (1961) und Multics (1969) die Multiprogrammierung und das Time-Sharing auf, die es mehreren Benutzern ermöglichten, gleichzeitig mit demselben System zu arbeiten. In den 1970er Jahren revolutionierte die Erfindung von Unix die Computertechnik durch seine Portabilität, die Verwaltung von Multitasking und seine Einfachheit.
+Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-NAA I/O, kam 1956 auf den Markt. Es führte die Stapelverarbeitung ein, die die Aufgabenverwaltung automatisierte. In den 1960er Jahren kamen mit CTSS (1961) und Multics (1969) die Multiprogrammierung und das Time-Sharing auf, die es mehreren Benutzern ermöglichten, gleichzeitig mit demselben System zu arbeiten. In den 1970er Jahren revolutionierte die Erfindung von Unix die Computertechnik durch seine Portabilität, die Verwaltung von Multitasking und seine Einfachheit.
 
 
 
@@ -359,7 +308,7 @@ Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-
 
 
 
-Heute wird der Markt für Betriebssysteme von drei großen Familien beherrscht: **Windows, MacOS und GNU/Linux**.
+Heute wird der Markt für Betriebssysteme von drei grossen Familien beherrscht: **Windows, MacOS und GNU/Linux**.
 
 
 
@@ -369,7 +318,7 @@ Aktuellen Statistiken zufolge ist Windows mit einem Marktanteil von rund 71 % im
 
 
 
-- Seit den 1990er Jahren ist Windows standardmäßig auf den meisten verkauften Computern installiert und hat in der Öffentlichkeit einen enormen Bekanntheitsgrad erreicht. Microsoft hat schnell eine große Anzahl von OEM-Verträgen (Verträge, mit denen PC-Hersteller Windows vorinstallieren) abgeschlossen und damit eine Trägheit geschaffen, die nur schwer zu bremsen ist.
+- Seit den 1990er Jahren ist Windows standardmässig auf den meisten verkauften Computern installiert und hat in der Öffentlichkeit einen enormen Bekanntheitsgrad erreicht. Microsoft hat schnell eine grosse Anzahl von OEM-Verträgen (Verträge, mit denen PC-Hersteller Windows vorinstallieren) abgeschlossen und damit eine Trägheit geschaffen, aus der nur schwer zu entkommen ist.
 
 
 
@@ -387,7 +336,7 @@ Aktuellen Statistiken zufolge ist Windows mit einem Marktanteil von rund 71 % im
 
 
 
-- Schließlich wird diese Dominanz auch durch das wahrgenommene Image der konkurrierenden Systeme verstärkt: Linux wird oft als zu technisch für die breite Öffentlichkeit angesehen (und bleibt der Mehrheit unbekannt), während macOS, das ausschließlich mit Apple-Produkten verbunden ist, oft als teuer wahrgenommen wird.
+- Schliesslich wird diese Dominanz auch durch das wahrgenommene Image der konkurrierenden Systeme verstärkt: Linux wird oft als zu technisch für die breite Öffentlichkeit angesehen (und bleibt der Mehrheit unbekannt), während macOS, das ausschliesslich mit Apple-Produkten verbunden ist, oft als teuer wahrgenommen wird.
 
 
 
@@ -407,7 +356,7 @@ Linux ist auf Personalcomputern nach wie vor in der Minderheit (ca. 4 %), domini
 
 
 
-Linux wird auch in großem Umfang in eingebettete Geräte wie Router, vernetzte Fernsehgeräte, Smartphones (Android basiert auf einem Linux-Kernel) und sogar in die Automobilindustrie integriert. Windows ist nach wie vor stark in Unternehmen vertreten, während macOS von Fachleuten in bestimmten Bereichen bevorzugt wird.
+Linux wird auch in grossem Umfang in eingebettete Geräte wie Router, vernetzte Fernsehgeräte, Smartphones (Android basiert auf einem Linux-Kernel) und sogar in die Automobilindustrie integriert. Windows ist nach wie vor stark in Unternehmen vertreten, während macOS von Fachleuten in bestimmten Bereichen bevorzugt wird.
 
 
 
@@ -436,11 +385,11 @@ Eine der Hauptstärken von Windows ist das reichhaltige Software-Ökosystem: Fas
 
 
 
-Diese Zugänglichkeit hat jedoch ihren Preis. Windows ist ein proprietäres, zentralisiertes System, dessen Quellcode nicht öffentlich zugänglich ist. Eine unabhängige Überprüfung ist nicht möglich, was klare Einschränkungen in Bezug auf Transparenz und Sicherheit mit sich bringt. Darüber hinaus ist die Datenerfassung (Telemetrie) in Windows weit verbreitet und oft standardmäßig aktiviert, ohne dass eine echte informierte Zustimmung oder Kontrollmöglichkeit besteht.
+Diese Zugänglichkeit hat jedoch ihren Preis. Windows ist ein proprietäres, zentralisiertes System, dessen Quellcode nicht öffentlich zugänglich ist. Eine unabhängige Überprüfung ist nicht möglich, was klare Einschränkungen in Bezug auf Transparenz und Sicherheit mit sich bringt. Darüber hinaus ist die Datenerfassung (Telemetrie) in Windows weit verbreitet und oft standardmässig aktiviert, ohne dass eine echte informierte Zustimmung oder Kontrollmöglichkeit besteht.
 
 
 
-Im Hinblick auf die Sicherheit ist Windows ein bevorzugtes Ziel für Malware. Seine Popularität und bestimmte strukturelle Fehler in der Vergangenheit erklären diese Situation teilweise. In den letzten Jahren wurden zwar Anstrengungen unternommen (insbesondere mit Windows Defender und der Benutzerkontensteuerung), doch insgesamt ist Windows nach wie vor eher auf Benutzerfreundlichkeit als auf Widerstandsfähigkeit und Benutzerkontrolle ausgelegt.
+Im Hinblick auf die Sicherheit ist Windows ein bevorzugtes Ziel für Malware. Seine Popularität und bestimmte strukturelle Fehler in der Vergangenheit erklären diese Situation teilweise. In den letzten Jahren wurden zwar Anstrengungen unternommen (insbesondere mit Windows Defender und der Benutzerkontensteuerung). Doch insgesamt ist Windows nach wie vor eher auf Benutzerfreundlichkeit als auf Widerstandsfähigkeit und Benutzerkontrolle ausgelegt.
 
 
 
@@ -448,7 +397,7 @@ Im Hinblick auf die Sicherheit ist Windows ein bevorzugtes Ziel für Malware. Se
 
 
 
-Meiner Meinung nach nimmt Windows eine unangefochtene Mittelposition ein: Es kann sicher sein, aber weniger als Linux und macOS; es erlaubt ein gewisses Maß an Kontrolle, aber viel weniger als Linux; es ist weder so leistungsfähig wie macOS, noch so einfach wie Chrome OS oder einige einsteigerfreundliche Linux-Systeme. Es ist in allen Aspekten durchschnittlich, ohne in irgendeinem Bereich wirklich schlecht zu sein (außer bei der Privatsphäre, standardmäßig).
+Meiner Meinung nach nimmt Windows eine unangefochtene Mittelposition ein: Es kann sicher sein, aber weniger sicher als Linux und macOS; es erlaubt ein gewisses Mass an Kontrolle, aber viel weniger als Linux; es ist weder so leistungsfähig wie macOS, noch so einfach wie Chrome OS oder einige einsteigerfreundliche Linux-Systeme. Es ist in allen Aspekten durchschnittlich, ohne in irgendeinem Bereich wirklich schlecht zu sein (ausser standardmässig bei der Privatsphäre).
 
 
 
@@ -456,7 +405,7 @@ Meiner Meinung nach nimmt Windows eine unangefochtene Mittelposition ein: Es kan
 
 
 
-Wenn es um digitale Souveränität und technische Beherrschung geht, zeigt Windows schnell seine Grenzen auf. Sein Modell basiert auf einer unausgewogenen Beziehung zwischen dem Benutzer und dem Herausgeber, die letzterem zugute kommt. Für diejenigen, die ihren Computer wirklich verstehen, personalisieren und sichern wollen, ist es kein besonders geeignetes Betriebssystem, weshalb wir in SCU202 nicht weiter auf Windows eingehen werden.
+Wenn es um digitale Souveränität und technische Beherrschung geht, zeigt Windows schnell seine Grenzen auf. Sein Modell basiert auf einer unausgewogenen Beziehung zwischen dem Benutzer und dem Herausgeber, die letzterem zugute kommt. Für diejenigen, die ihren Computer wirklich verstehen, personalisieren und sichern wollen, ist es kein besonders geeignetes Betriebssystem. Deshalb gehen wir in SCU202 nicht weiter auf Windows ein.
 
 
 
@@ -472,7 +421,7 @@ macOS ist das von Apple für seine Mac-Computer entwickelte Betriebssystem, das 
 
 
 
-Diese solide Grundlage sorgt standardmäßig für gute Stabilität, effiziente Ressourcenverwaltung und eine relativ sichere Architektur. Hinzu kommt eine besonders ausgefeilte grafische Interface, die für ein reibungsloses Benutzererlebnis sorgt.
+Diese solide Grundlage sorgt standardmässig für gute Stabilität, effiziente Ressourcenverwaltung und eine relativ sichere Architektur. Hinzu kommt eine besonders ausgefeilte grafische Interface, die für ein reibungsloses Benutzererlebnis sorgt.
 
 
 
@@ -480,11 +429,11 @@ Diese solide Grundlage sorgt standardmäßig für gute Stabilität, effiziente R
 
 
 
-Eine der größten Stärken von macOS liegt in der vertikalen Integration von Hardware und Software. Apple kontrolliert die gesamte Kette, vom Prozessordesign bis hin zu den kleinsten Details von Interface. Das Ergebnis ist ein im Allgemeinen zuverlässiges System mit wenigen Hardwarefehlern, das auf Leistung optimiert ist.
+Eine der grössten Stärken von macOS liegt in der vertikalen Integration von Hardware und Software. Apple kontrolliert die gesamte Kette, vom Prozessordesign bis hin zu den kleinsten Details von Interface. Das Ergebnis ist ein im Allgemeinen zuverlässiges System mit wenigen Hardwarefehlern, das auf Leistung optimiert ist.
 
 
 
-Diese Integration hat jedoch den Nachteil, dass sie zunehmend an das Apple-Ökosystem gebunden ist. macOS ist ein teilweise proprietäres System (mit größtenteils geschlossenem Quellcode), das nur auf von Apple hergestellten Festplatten läuft. Die Nutzer haben wenig Kontrolle über Updates, erweiterte Systemkonfigurationsoptionen oder die Auswahl von Hardwarekomponenten. Die Hardware lässt sich nur schwer ändern oder reparieren und ist oft softwaregesperrt.
+Diese Integration hat jedoch den Nachteil, dass sie zunehmend an das Apple-Ökosystem gebunden ist. macOS ist ein teilweise proprietäres System (mit grösstenteils geschlossenem Quellcode), das nur auf von Apple hergestellten Festplatten läuft. Die Nutzer haben wenig Kontrolle über Updates, erweiterte Systemkonfigurationsoptionen oder die Auswahl von Hardwarekomponenten. Die Hardware lässt sich nur schwer ändern oder reparieren und ist oft softwaregesperrt.
 
 
 
@@ -496,7 +445,7 @@ In Bezug auf den Datenschutz ist macOS zwar weniger aufdringlich als Windows, ab
 
 
 
-macOS mag für Nutzer geeignet sein, die die Leistung, die Stabilität und den Komfort eines gut integrierten Systems schätzen, ohne sich mit den technischen Details auseinandersetzen zu müssen. Andererseits ist es, wenn es um digitale Souveränität und Kontrolle über Ihre IT-Umgebung geht, zu geschlossen, zu abhängig von einem einzigen Unternehmen und nicht förderlich für fein abgestimmte Anpassungen. Aus diesem Grund werden wir in diesem SCU202-Kurs nicht weiter darauf eingehen.
+macOS mag für Nutzer geeignet sein, die die Leistung, die Stabilität und den Komfort eines gut integrierten Systems schätzen, ohne sich mit den technischen Details auseinandersetzen zu müssen. Andererseits ist es, wenn es um digitale Souveränität und Kontrolle über deine IT-Umgebung geht, zu geschlossen, zu abhängig von einem einzigen Unternehmen und nicht förderlich für fein abgestimmte Anpassungen. Aus diesem Grund werden wir in diesem SCU202-Kurs nicht weiter darauf eingehen.
 
 
 
@@ -516,26 +465,24 @@ Die wichtigsten Vorteile von Linux sind seine Robustheit, Stabilität und sein h
 
 
 
-Allerdings stellt Linux für Anfänger auch eine gewisse Komplexität dar. Die große Anzahl der verfügbaren Linux-Distributionen kann für Uneingeweihte verwirrend sein. Ebenso kann die anfängliche Handhabung des Systems, auch wenn sie durch einige Distributionen vereinfacht wird, einige Vorkenntnisse erfordern, um es richtig zu beherrschen, insbesondere im Hinblick auf die regelmäßige Verwendung des Terminals (Kommandozeile). Und genau darum geht es in diesem ersten Teil des SCU202-Kurses!
+Allerdings stellt Linux für Anfänger auch eine gewisse Komplexität dar. Die grosse Anzahl der verfügbaren Linux-Distributionen kann für Uneingeweihte verwirrend sein. Ebenso kann die anfängliche Handhabung des Systems einige Vorkenntnisse erfordern, um es richtig zu beherrschen, auch wenn sie durch einige Distributionen vereinfacht wird. Dies gilt insbesondere im Hinblick auf die regelmässige Verwendung des Terminals (Kommandozeile). Und genau darum geht es in diesem ersten Teil des SCU202-Kurses!
 
 
 
-### Welches Betriebssystem sollten Sie wählen?
+### Welches Betriebssystem solltest du wählen?
 
 
 
-Ihre Wahl wird in erster Linie von Ihren Bedürfnissen und Erwartungen abhängen:
+Deine Wahl wird in erster Linie von deinen Bedürfnissen und Erwartungen abhängen:
 
 
 
 
-- Wenn Sie auf der Suche nach Einfachheit, umfassender Hardware- und Softwarekompatibilität (insbesondere für Videospiele) sowie allgemeiner Nutzung sind, kann Windows eine gute Wahl sein. Sie müssen sich jedoch der Einschränkungen in Bezug auf Leistung, Sicherheit und Datenschutz bewusst sein;
-- Wenn Sie eine optimale Integration zwischen Ihrer Hardware und Ihrem System, ein ausgefeiltes und benutzerfreundliches Interface und eine relativ gute Sicherheit suchen, ohne dass eine fortgeschrittene Konfiguration erforderlich ist, und wenn Sie das Apple-Ökosystem bereits besitzen oder übernehmen möchten, ist macOS eine natürliche Wahl;
-- Wenn Sie vor allem auf Sicherheit, Stabilität und Leistung Wert legen und außerdem eine umfassende Kontrolle über Ihre digitale Umgebung wünschen und bereit sind, Zeit in das Erlernen der Bedienung Ihres Betriebssystems zu investieren, ist Linux eine ausgezeichnete Wahl, insbesondere in einem Kontext, in dem technische Autonomie und digitale Souveränität Priorität haben.
+- Wenn du auf der Suche nach Einfachheit, umfassender Hardware- und Softwarekompatibilität (insbesondere für Videospiele) sowie allgemeiner Nutzung bist, kann Windows eine gute Wahl sein. Du solltest dir jedoch der Einschränkungen in Bezug auf Leistung, Sicherheit und Datenschutz bewusst sein;
+- Wenn du eine optimale Integration zwischen deiner Hardware und deinem System, ein ausgefeiltes und benutzerfreundliches Interface und eine relativ gute Sicherheit suchst, ohne dass eine fortgeschrittene Konfiguration erforderlich ist, und wenn du bereits im Apple-Ökosystem bist oder einsteigen möchtest, ist macOS eine natürliche Wahl;
+- Wenn du vor allem auf Sicherheit, Stabilität und Leistung Wert legst und ausserdem eine umfassende Kontrolle über deine digitale Umgebung wünschst und bereit bist, Zeit in das Erlernen der Bedienung deines Betriebssystems zu investieren, ist Linux eine ausgezeichnete Wahl – insbesondere in einem Kontext, in dem technische Autonomie und digitale Souveränität Priorität haben.
 
-
-
-In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich näher mit Linux befassen, gerade weil es diese bessere Kontrolle über Ihre persönliche digitale Umgebung ermöglicht.
+In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich näher mit Linux beschäftigen, gerade weil es dir diese bessere Kontrolle über deine persönliche digitale Umgebung ermöglicht.
 
 
 
@@ -546,7 +493,7 @@ In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich
 
 
 
-Bevor wir uns mit den GNU/Linux-Distributionen und dem Platz, den dieses System in der heutigen Computerwelt einnimmt, beschäftigen, ist es wichtig, seine Ursprünge zurückzuverfolgen, um zu verstehen, wofür es steht. In diesem Kapitel werfen wir einen Blick zurück auf die historischen, philosophischen und technischen Wurzeln von GNU/Linux, auf das Erbe von Unix, das Genesis des GNU-Projekts, die Entwicklung des Linux-Kernels und die Entstehung der Bewegung für freie Software.
+Bevor wir uns mit den GNU/Linux-Distributionen und dem Platz, den dieses System in der heutigen Computerwelt einnimmt, beschäftigen, ist es wichtig, seine Ursprünge zurückzuverfolgen, um zu verstehen, wofür es steht. In diesem Kapitel werfen wir einen Blick zurück auf die historischen, philosophischen und technischen Wurzeln von GNU/Linux, auf das Erbe von Unix, der Ursprung des GNU-Projekts, die Entwicklung des Linux-Kernels und die Entstehung der Bewegung für freie Software.
 
 
 
@@ -566,17 +513,17 @@ Dieser Ansatz spiegelt sich in dem von Doug McIlroy formulierten Gründungsprinz
 
 
 
-> Tun Sie eine Sache und tun Sie sie gut.
+> Tue eine Sache und tue sie gut.
 
 Unix kann als Weiterentwicklung und Reaktion auf das Multics-Betriebssystem gesehen werden, dessen Architektur es übernommen hat. Multics war ein 1964 initiiertes Projekt, das aus der Zusammenarbeit zwischen dem MIT, General Electric und AT&T Bell Laboratories hervorging. Ken Thompson und Dennis Ritchie (die Schöpfer von UNIX) verfolgten das Multics-Projekt bis 1969, als sich ihr Unternehmen aus der Entwicklung zurückzog.
 
 
 
-An diesem Punkt entstand Unix, das zunächst "*UNICS*" für "*UNiplexed Information and Computing Service*" genannt wurde, in direktem Gegensatz zu "*MULTiplexed Information and Computing Service*", dem Akronym für Multics. Dieser neue Ansatz steht für Einfachheit, Modularität und Effizienz, im Gegensatz zur übermäßigen Komplexität von Multics.
+An diesem Punkt entstand Unix, das zunächst "*UNICS*" für "*UNiplexed Information and Computing Service*" genannt wurde, in direktem Gegensatz zu "*MULTiplexed Information and Computing Service*", dem Akronym für Multics. Dieser neue Ansatz steht für Einfachheit, Modularität und Effizienz, im Gegensatz zur übermässigen Komplexität von Multics.
 
 
 
-Ab den 1970er Jahren entwickelte sich Unix in einem Forschungskontext, bevor es ab 1975 nicht zuletzt aufgrund der AT&T auferlegten kartellrechtlichen Beschränkungen in den Universitäten weit verbreitet wurde. Dies begünstigte seine Einführung in vielen Labors, wie z. B. in Berkeley, wo der BSD-Zweig (*Berkeley Software Distribution*) entstand. Gleichzeitig begann AT&T in den 1980er Jahren mit der Vermarktung von Unix, was zu einer Vielzahl inkompatibler proprietärer Versionen führte (System V, Xenix, SunOS, AIX, Solaris, HP-UX usw.).
+Ab den 1970er Jahren entwickelte sich Unix in einem Forschungskontext, bevor es ab 1975 nicht zuletzt aufgrund der AT&T auferlegten kartellrechtlichen Beschränkungen in den Universitäten weit verbreitet wurde. Dies begünstigte seine Einführung in vielen Labors, wie z.B. in Berkeley, wo der BSD-Zweig (*Berkeley Software Distribution*) entstand. Gleichzeitig begann AT&T in den 1980er Jahren mit der Vermarktung von Unix, was zu einer Vielzahl inkompatibler proprietärer Versionen führte (System V, Xenix, SunOS, AIX, Solaris, HP-UX usw.).
 
 
 
@@ -596,7 +543,7 @@ Die zunehmende Fragmentierung zwischen diesen Zweigen (BSD auf der akademischen 
 
 
 
-Das GNU-Projekt (ein rekursives Akronym für "*GNU's Not Unix*") wurde offiziell von Richard Stallman am 27. September 1983 in speziellen Newsgroups angekündigt. Zu dieser Zeit arbeitete Stallman noch am Artificial Intelligence Laboratory des MIT. Am 5. Januar 1984 trat er freiwillig von seiner Stelle zurück, um sicherzustellen, dass der Code, den er schreiben wollte, nicht von seinem Arbeitgeber beansprucht werden konnte. Daraufhin begann er mit der Entwicklung von GNU, mit dem Ziel, ein völlig freies Betriebssystem zu schaffen, d.h. eines, das die vier Grundfreiheiten respektiert: freie Ausführung, freies Studium, freie Modifikation und freie Weiterverbreitung.
+Das GNU-Projekt (ein rekursives Akronym für "*GNU's Not Unix*") wurde offiziell von Richard Stallman am 27. September 1983 in speziellen Newsgroups angekündigt. Zu dieser Zeit arbeitete Stallman noch am Artificial Intelligence Laboratory des MIT. Am 5. Januar 1984 trat er freiwillig von seiner Stelle zurück. Er wollte damit sicherstellen, dass der Code, den er schreiben wollte, nicht von seinem Arbeitgeber beansprucht werden konnte. Daraufhin begann er mit der Entwicklung von GNU, mit dem Ziel, ein völlig freies Betriebssystem zu schaffen, d.h. eines, das die vier Grundfreiheiten respektiert: freie Ausführung, freies Studium, freie Modifikation und freie Weiterverbreitung.
 
 
 
@@ -642,7 +589,7 @@ Einige externe Bausteine sind ebenfalls integriert, wie z.B. das X Window System
 
 
 
-Der größte Teil von GNU wurde von Freiwilligen entwickelt, einige in ihrer Freizeit, andere auf Ad-hoc-Basis von Unternehmen, Universitäten oder Verbänden finanziert. Ende der 1980er Jahre begann die FSF, Entwickler einzustellen, um die Arbeit zu beschleunigen. Einige Unternehmen, wie Cygnus Solutions (später Teil von Red Hat), spielten eine aktive Rolle bei der Wartung und Vermarktung von GNU Free Software.
+Der grösste Teil von GNU wurde von Freiwilligen entwickelt, einige in ihrer Freizeit, andere auf Ad-hoc-Basis von Unternehmen, Universitäten oder Verbänden finanziert. Ende der 1980er Jahre begann die FSF, Entwickler einzustellen, um die Arbeit zu beschleunigen. Einige Unternehmen, wie Cygnus Solutions (später Teil von Red Hat), spielten eine aktive Rolle bei der Wartung und Vermarktung von GNU Free Software.
 
 
 
@@ -662,7 +609,7 @@ Die Geschichte des Linux-Kernels beginnt 1991 mit Linus Torvalds, damals Informa
 
 
 
-Dieser Kernel, der zunächst den Namen Freax trug und später in Linux umbenannt wurde (eine Kurzform von "Linus" und "Unix"), erregte bald die Aufmerksamkeit anderer passionierter Entwickler. Spontan bildete sich eine internationale Gemeinschaft, die zu dem frei zugänglichen Quellcode beitrug. Im Gegensatz zu GNU ist Linux zunächst nur ein Kernel: die Softwarekomponente, die für die Verwaltung der Hardwareressourcen des Computers zuständig ist. In Kombination mit den bereits vom GNU-Projekt entwickelten Werkzeugen und Anwendungen ergibt dieser Kernel schließlich ein völlig freies und funktionales Betriebssystem. Diese Kombination wird als "GNU/Linux" bezeichnet, um die Synergie zwischen den beiden Projekten zu betonen. Im allgemeinen Sprachgebrauch wird dieses Betriebssystem jedoch einfach als "Linux" bezeichnet.
+Dieser Kernel, der zunächst den Namen Freax trug und später in Linux umbenannt wurde (eine Kurzform von "Linus" und "Unix"), erregte bald die Aufmerksamkeit anderer passionierter Entwickler. Spontan bildete sich eine internationale Gemeinschaft, die zu dem frei zugänglichen Quellcode beitrug. Im Gegensatz zu GNU ist Linux zunächst nur ein Kernel: die Softwarekomponente, die für die Verwaltung der Hardwareressourcen des Computers zuständig ist. In Kombination mit den bereits vom GNU-Projekt entwickelten Werkzeugen und Anwendungen ergibt dieser Kernel schliesslich ein völlig freies und funktionales Betriebssystem. Diese Kombination wird als "GNU/Linux" bezeichnet, um die Synergie zwischen den beiden Projekten zu betonen. Im allgemeinen Sprachgebrauch wird dieses Betriebssystem jedoch einfach als "Linux" bezeichnet.
 
 
 
@@ -694,7 +641,7 @@ Richard Stallman kritisiert offen die Verwendung des Begriffs "Open Source", da 
 
 
 
-**Quelle:** Nathaniel Welch
+*Quelle: Nathaniel Welch
 
 
 
@@ -702,7 +649,7 @@ Der Unterschied zwischen den beiden Begriffen liegt also in der zugrundeliegende
 
 
 
-Trotz ihrer philosophischen Unterschiede teilen diese beiden Strömungen gemeinsame Werte wie Transparenz, Überprüfbarkeit des Quellcodes, Herstellerunabhängigkeit und die Fähigkeit der Endnutzer, ihre Softwaretools zu verstehen, zu ändern und zu verbessern. Auch heute noch geben diese Unterschiede regelmäßig Anlass zu Diskussionen und Überlegungen innerhalb der technischen Gemeinschaften, insbesondere der Bitcoin.
+Trotz ihrer philosophischen Unterschiede teilen diese beiden Strömungen gemeinsame Werte wie Transparenz, Überprüfbarkeit des Quellcodes, Herstellerunabhängigkeit und die Fähigkeit der Endnutzer, ihre Softwaretools zu verstehen, zu ändern und zu verbessern. Auch heute noch geben diese Unterschiede regelmässig Anlass zu Diskussionen und Überlegungen innerhalb der technischen Gemeinschaften, insbesondere unter den Bitcoinern.
 
 
 
@@ -722,11 +669,11 @@ Wie wir im vorigen Kapitel gesehen haben, geht das Erbe von Linux heute weit üb
 
 
 
-GNU/Linux ist viel mehr als nur ein Betriebssystem: Es ist eine Philosophie, ein technologischer, kultureller und sozialer Ansatz, der auf Offenheit, Zusammenarbeit und digitaler Freiheit beruht. Diese Werte haben nach wie vor einen großen Einfluss auf die Art und Weise, wie wir heute Technologien konzipieren, verwenden und gemeinsam nutzen.
+GNU/Linux ist viel mehr als nur ein Betriebssystem: Es ist eine Philosophie, ein technologischer, kultureller und sozialer Ansatz, der auf Offenheit, Zusammenarbeit und digitaler Freiheit beruht. Diese Werte haben nach wie vor einen grossen Einfluss auf die Art und Weise, wie wir heute Technologien konzipieren, verwenden und gemeinsam nutzen.
 
 
 
-Vor dem Hintergrund dieses technischen Erbes ist es nun möglich, konkret zu untersuchen, wie sich diese Prinzipien im heutigen Ökosystem der Personal Computer materialisieren. Zu diesem Zweck werden wir die riesige Landschaft der Linux- (oder GNU/Linux-) Distributionen erkunden, um ihre Entwicklung und Anwendungsfälle zu verstehen und Ihnen bei der Auswahl der für Ihre Bedürfnisse am besten geeigneten Distribution zu helfen.
+Vor dem Hintergrund dieses technischen Erbes ist es nun möglich, konkret zu untersuchen, wie sich diese Prinzipien im heutigen Ökosystem der Personal Computer materialisieren. Zu diesem Zweck werden wir die riesige Landschaft der Linux- (oder GNU/Linux-) Distributionen erkunden, um ihre Entwicklung und Anwendungsfälle zu verstehen und dir bei der Auswahl der für deine Bedürfnisse am besten geeigneten Distribution zu helfen.
 
 
 
@@ -737,7 +684,7 @@ Vor dem Hintergrund dieses technischen Erbes ist es nun möglich, konkret zu unt
 
 
 
-Eine Linux-Distribution (oft mit "*distro*" abgekürzt) ist ein komplettes Betriebssystem, das aus dem Linux-Kernel (und oft mit Elements von GNU) sowie einem kohärenten Satz von Software, Bibliotheken, Initialisierungsskripten und Verwaltungswerkzeugen besteht, um eine gebrauchsfertige Umgebung zu bilden. Eine Linux-Distribution ist daher nicht auf den Kernel beschränkt, sondern stellt eine umfassende Integration der Softwarekomponenten dar, die zum Betrieb und zur Nutzung eines Computers (oder eines anderen Computergeräts) erforderlich sind.
+Eine Linux-Distribution (oft mit "*distro*" abgekürzt) ist ein komplettes Betriebssystem, das aus dem Linux-Kernel (und oft mit Elementen von GNU) sowie einem kohärenten Satz von Software, Bibliotheken, Initialisierungsskripten und Verwaltungswerkzeugen besteht, um eine gebrauchsfertige Umgebung zu bilden. Eine Linux-Distribution ist daher nicht auf den Kernel beschränkt, sondern stellt eine umfassende Integration der Softwarekomponenten dar, die zum Betrieb und zur Nutzung eines Computers (oder eines anderen Computergeräts) erforderlich sind.
 
 
 
@@ -746,13 +693,13 @@ Jede Linux-Distribution enthält :
 
 
 
-- der **Linux-Kernel**, der mit der Hardware kommuniziert und die Systemressourcen verwaltet (CPU, Speicher, Festplatten usw.)
-- einen **Bootloader**, wie z. B. *GRUB*, um das System zu starten
+- den **Linux-Kernel**, der mit der Hardware kommuniziert und die Systemressourcen verwaltet (CPU, Speicher, Festplatten usw.)
+- einen **Bootloader**, wie z.B. *GRUB*, um das System zu starten
 - ein **Initialisierungssystem**, mit dem Dienste beim Booten gestartet werden können: *systemd*, *OpenRC*, *SysV init* oder *runit*, je nach den philosophischen Entscheidungen der Distribution
-- ein **Paketverwaltungssystem**, mit dem Sie Software installieren, aktualisieren und entfernen können. Die gängigsten sind *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) oder *APK* (Alpine)
+- ein **Paketverwaltungssystem**, mit dem du Software installieren, aktualisieren und entfernen kannst. Die gängigsten sind *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) oder *APK* (Alpine)
 - online **Software-Repositories**, die geprüfte Versionen verfügbarer Anwendungen zentral speichern
 - einen **Satz von Systemwerkzeugen** (Shell, Editoren, Compiler, Netzwerkschnittstellen usw.) und häufig eine vorkonfigurierte Desktop-Umgebung (*GNOME*, *KDE Plasma*, *XFCE* usw.)
-- konfigurationsskripte, Dokumentation und, in einigen Fällen, Unterstützungsdienste
+- Konfigurationsskripte, Dokumentation und, in einigen Fällen, Unterstützungsdienste
 
 
 
@@ -764,15 +711,15 @@ Diese Zusammenstellungsarbeit ist spezifisch für jede Distribution, die ihre Ko
 
 
 
-→ **Anmerkung:** Eine *Rolling-Release*-Distribution integriert die neuesten Softwareversionen, sobald sie verfügbar sind, was zu einem ständig aktuellen, aber möglicherweise weniger stabilen System führt. Umgekehrt sendet eine *stable* Distribution Softwareversionen, wenn eine Hauptversion veröffentlicht wird, was eine größere Zuverlässigkeit auf Kosten der Neuheit garantiert.
+→ **Anmerkung:** Eine *Rolling-Release*-Distribution integriert die neuesten Softwareversionen, sobald sie verfügbar sind, was zu einem ständig aktuellen, aber möglicherweise weniger stabilen System führt. Umgekehrt sendet eine *stable* Distribution Softwareversionen, wenn eine Hauptversion veröffentlicht wird, was eine grössere Zuverlässigkeit auf Kosten der Neuheit garantiert.
 
 
 
-Die Existenz von Distributionen ermöglicht es den Benutzern, von einem gebrauchsfertigen Linux-System zu profitieren, ohne jede Softwarekomponente manuell neu erstellen zu müssen. Dies ist ein enormer Gewinn an Zeit, Konsistenz und Sicherheit. Was die Architektur betrifft, so nutzen die Distributionen die Vorteile der Hardware-Abstraktion Layer, die der Linux-Kernel bietet. Diese Layer ermöglicht es dem Betriebssystem, mit einer breiten Palette unterschiedlicher Hardware kompatibel zu sein, ohne dass die Software an jede einzelne Komponente angepasst werden muss. Diese Modularität macht es auch einfach, Systemkomponenten zu ändern oder zu ersetzen, ohne das gesamte System neu aufbauen zu müssen.
+Die Existenz von Distributionen ermöglicht es den Benutzern, von einem gebrauchsfertigen Linux-System zu profitieren, ohne jede Softwarekomponente manuell neu erstellen zu müssen. Dies ist ein enormer Gewinn an Zeit, Konsistenz und Sicherheit. Was die Architektur betrifft, so nutzen die Distributionen die Vorteile der Hardware-Abstraktions-Schicht, die der Linux-Kernel bietet. Diese Schicht ermöglicht es dem Betriebssystem, mit einer breiten Palette unterschiedlicher Hardware kompatibel zu sein, ohne dass die Software an jede einzelne Komponente angepasst werden muss. Diese Modularität macht es auch einfach, Systemkomponenten zu ändern oder zu ersetzen, ohne das gesamte System neu aufbauen zu müssen.
 
 
 
-Das Verständnis der Unterschiede zwischen den Linux-Distributionen ist daher ein wichtiger Schritt bei der Auswahl der richtigen Distribution für Ihre Bedürfnisse, Fähigkeiten und Anforderungen. Damit werden wir uns in diesem Kapitel befassen.
+Das Verständnis der Unterschiede zwischen den Linux-Distributionen ist daher ein wichtiger Schritt bei der Auswahl der richtigen Distribution für deine Bedürfnisse, Fähigkeiten und Anforderungen. Damit werden wir uns in diesem Kapitel befassen.
 
 
 
@@ -780,11 +727,11 @@ Das Verständnis der Unterschiede zwischen den Linux-Distributionen ist daher ei
 
 
 
-Die ersten Linux-Distributionen erschienen unmittelbar nach der Veröffentlichung des Linux-Kernels durch Linus Torvalds im September 1991. Damals war Linux nur ein Kernel: Um ein komplettes System zu erhalten, mussten die Benutzer die verschiedenen benötigten Komponenten (oft aus dem GNU-Projekt) manuell zusammenstellen, was ein hohes Maß an technischem Know-how erforderte. Die Installation des Systems bedeutet, den Kernel selbst zu kompilieren, Partitionen zu konfigurieren, Tools auszuwählen, Software-Abhängigkeiten zu verwalten... Kurz gesagt, ein komplexer Prozess, der nur für Eingeweihte geeignet ist.
+Die ersten Linux-Distributionen erschienen unmittelbar nach der Veröffentlichung des Linux-Kernels durch Linus Torvalds im September 1991. Damals war Linux nur ein Kernel: Um ein komplettes System zu erhalten, mussten die Benutzer die verschiedenen benötigten Komponenten (oft aus dem GNU-Projekt) manuell zusammenstellen, was ein hohes Mass an technischem Know-how erforderte. Die Installation des Systems bedeutet, den Kernel selbst zu kompilieren, Partitionen zu konfigurieren, Tools auszuwählen, Software-Abhängigkeiten zu verwalten... Kurz gesagt, ein komplexer Prozess, der nur für Eingeweihte geeignet ist.
 
 
 
-Um Linux zugänglicher zu machen, entstehen rasch mehrere Projekte mit der Idee, aus dem Linux-Kernel und einem kohärenten Satz von Software-Tools ein einsatzbereites System zusammenzustellen.
+Um Linux zugänglicher zu machen, entstanden rasch mehrere Projekte mit der Idee, aus dem Linux-Kernel und einem kohärenten Satz von Software-Tools ein einsatzbereites System zusammenzustellen.
 
 
 
@@ -794,7 +741,7 @@ Diese frühen Bemühungen waren die Geburtsstunde der Linux-Distributionen:
 
 
 
-- Februar 1992: MCC-Interims-Linux
+- Februar 1992: MCC-Interims-Linux**
 
 
 
@@ -804,7 +751,7 @@ MCC Interim Linux wurde an der Universität Manchester entwickelt und gilt als d
 
 
 
-- Mai 1992: Softlanding Linux System (SLS)
+- Mai 1992: Softlanding Linux System (SLS)**
 
 
 
@@ -816,7 +763,7 @@ Die SLS-Distribution ist die erste, die eine umfassendere Installation mit einem
 
 
 
-In seinen Anfängen war SLS ein großer Erfolg, doch schon bald äußerten Nutzer Kritik an seiner Instabilität und bestimmten Wartungsentscheidungen. Dies veranlasste mehrere Entwickler, parallele Projekte zu starten, um SLS entweder zu verbessern oder zu ersetzen. So begann der große Baum der Linux-Distributionen und ihre Aufteilung in Familien.
+In seinen Anfängen war SLS ein grosser Erfolg, doch schon bald äusserten Nutzer Kritik an seiner Instabilität und bestimmten Wartungsentscheidungen. Dies veranlasste mehrere Entwickler, parallele Projekte zu starten, um SLS entweder zu verbessern oder zu ersetzen. So begann der grosse Baum der Linux-Distributionen und ihre Aufteilung in Familien.
 
 
 
@@ -826,11 +773,11 @@ SLS existiert nicht mehr. Seine letzte bekannte Version stammt von Ende 1994.
 
 
 
-- Juli 1993: **Slackware**
+- Juli 1993: Slackware**
 
 
 
-Patrick Volkerding rief Slackware eher zufällig ins Leben, indem er im Rahmen eines Schulprojekts an der Minnesota State University Fehler in SLS beseitigte und verbesserte. Durch zahlreiche Änderungen und Optimierungen wurde seine modifizierte Version von SLS schließlich zu einer wirklich unabhängigen Linux-Distribution, die die von den Einschränkungen von SLS enttäuschte Öffentlichkeit ansprechen sollte. Nachdem er die Zustimmung seiner Universität erhalten hatte, veröffentlichte er am 17. Juli 1993 die erste Version seiner Distribution unter dem Namen Slackware.
+Patrick Volkerding rief Slackware eher zufällig ins Leben, indem er im Rahmen eines Schulprojekts an der Minnesota State University Fehler in SLS beseitigte und verbesserte. Durch zahlreiche Änderungen und Optimierungen wurde seine modifizierte Version von SLS schliesslich zu einer wirklich unabhängigen Linux-Distribution. Sie sollte die von den Einschränkungen von SLS enttäuschte Öffentlichkeit ansprechen. Nachdem er die Zustimmung seiner Universität erhalten hatte, veröffentlichte er am 17. Juli 1993 die erste Version seiner Distribution unter dem Namen Slackware.
 
 
 
@@ -838,21 +785,21 @@ Patrick Volkerding rief Slackware eher zufällig ins Leben, indem er im Rahmen e
 
 
 
-Slackware wurde in den 1990er Jahren schnell zur am weitesten verbreiteten Linux-Distribution. Seine einfache Architektur, die Shell-Skripte zur Konfiguration, die Beachtung der Unix-Standards und der Mangel an Abstraktion machten es zu einem Maßstab für fortgeschrittene Benutzer, die ein minimalistisches, transparentes System suchten.
+Slackware wurde in den 1990er Jahren schnell zur am weitesten verbreiteten Linux-Distribution. Seine einfache Architektur, die Shell-Skripte zur Konfiguration, die Beachtung der Unix-Standards und der Mangel an Abstraktion machten es zu einem Massstab für fortgeschrittene Benutzer, die ein minimalistisches, transparentes System suchten.
 
 
 
-Slackware wird auch heute noch gepflegt und ist damit die älteste noch im Einsatz befindliche Linux-Distribution. Sie ist auch der Ursprung zahlreicher abgeleiteter Distributionen und bildet die erste große Familie von Linux-Distributionen: Slackware.
+Slackware wird auch heute noch gepflegt und ist damit die älteste noch im Einsatz befindliche Linux-Distribution. Sie ist auch der Ursprung zahlreicher abgeleiteter Distributionen und bildet die erste grosse Familie von Linux-Distributionen: Slackware.
 
 
 
 
 
-- August 1993: **Debian**
+- August 1993: Debian**
 
 
 
-Etwa zur gleichen Zeit brachte Ian Murdock die Debian-Distribution auf den Markt, die sich stark von den damaligen Praktiken unterschied, vor allem von denen, die von Distributionen wie SLS verkörpert wurden, die oft von einer einzigen Person betreut wurden. Murdock konzipierte Debian als ein strukturiertes Gemeinschaftsprojekt, das im Geiste der freien Software und des GNU-Projekts offen entwickelt wurde. Im Gegensatz zu vielen anderen Linux-Distributionen ist Debian eine nicht-kommerzielle Distribution.
+Etwa zur gleichen Zeit brachte Ian Murdock die Debian-Distribution auf den Markt, die sich stark von den damaligen Praktiken unterschied. Vor allem von denen, die von Distributionen wie SLS verkörpert wurden, die oft von einer einzigen Person betreut wurden. Murdock konzipierte Debian als ein strukturiertes Gemeinschaftsprojekt, das im Geiste der freien Software und des GNU-Projekts offen entwickelt wurde. Im Gegensatz zu vielen anderen Linux-Distributionen ist Debian eine nicht-kommerzielle Distribution.
 
 
 
@@ -864,7 +811,7 @@ Etwa zur gleichen Zeit brachte Ian Murdock die Debian-Distribution auf den Markt
 
 
 
-Aus technischer Sicht zeichnete sich Debian von Anfang an durch die Qualität seines Paketsystems, die Nachvollziehbarkeit von Aktualisierungen und vor allem durch die Einführung eines leistungsfähigen Paketmanagers *dpkg* aus, der 1998 schnell durch *APT* ergänzt wurde und eine automatisierte und zuverlässige Verwaltung von Software-Abhängigkeiten ermöglicht.
+Aus technischer Sicht zeichnete sich Debian von Anfang an durch die Qualität seines Paketsystems, die Nachvollziehbarkeit von Aktualisierungen und vor allem durch die Einführung eines leistungsfähigen Paketmanagers *dpkg* aus. Letzterer wurde 1998 durch *APT* ergänzt und ermöglichte eine automatisierte und zuverlässige Verwaltung von Software-Abhängigkeiten.
 
 
 
@@ -876,7 +823,7 @@ Aus technischer Sicht zeichnete sich Debian von Anfang an durch die Qualität se
 
 
 
-Schon früh formalisierte das Projekt seine ethischen Verpflichtungen mit der Veröffentlichung der *Debian Social Contract* und der Debian Free Software Guidelines (DFSG), um eine klare Charta für Codefreiheit und Transparenz zu schaffen. Eine Zeit lang von der Free Software Foundation unterstützt, wurde Debian dann 1997 durch die Gründung der gemeinnützigen Organisation Software in the Public Interest (SPI) rechtlich unabhängig.
+Schon früh formalisierte das Projekt seine ethischen Verpflichtungen mit der Veröffentlichung der *Debian Social Contract* und der Debian Free Software Guidelines (DFSG), um eine klare Charta für Codefreiheit und Transparenz zu schaffen. Eine Zeit lang von der Free Software Foundation unterstützt, wurde Debian dann 1997 durch die Gründung der gemeinnützigen Organisation 'Software in the Public Interest' (SPI) rechtlich unabhängig.
 
 
 
@@ -886,15 +833,15 @@ Debian wurde so zu einer der technischen und ideologischen Säulen der GNU/Linux
 
 
 
-- 1994: **Red Hat Linux**
+- 1994: Red Hat Linux**
 
 
 
-Marc Ewing veröffentlichte die erste Version von Red Hat Linux im Jahr 1994. Dies war die Geburtsstunde einer Distribution, die eine zentrale Rolle bei der Professionalisierung von Linux spielen sollte. Fasziniert vom Unix-Universum schuf Ewing eine strukturierte, leicht zugängliche Version von Linux, die ein wichtiges Werkzeug enthielt: den *Red Hat Package Manager* (RPM), der das Format von Softwarepaketen standardisierte und ihre Installation, Aktualisierung und Entfernung erleichterte, insbesondere in professionellen Umgebungen. Dieses Format sollte sich zu einem weit verbreiteten Standard entwickeln.
+Marc Ewing veröffentlichte die erste Version von Red Hat Linux im Jahr 1994. Dies war die Geburtsstunde einer Distribution, die eine zentrale Rolle bei der Professionalisierung von Linux spielen sollte. Fasziniert vom Unix-Universum schuf Ewing eine strukturierte, leicht zugängliche Version von Linux, die ein wichtiges Werkzeug enthielt: den *Red Hat Package Manager* (RPM). Dieser standardisierte das Format von Softwarepaketen und erleichterte ihre Installation, Aktualisierung und Entfernung, insbesondere in professionellen Umgebungen. Dieses Format sollte sich zu einem weit verbreiteten Standard entwickeln.
 
 
 
-1995 kaufte Bob Young, Gründer der auf Linux-Softwarezubehör spezialisierten AAC Corporation, das Unternehmen von Marc Ewing auf. Aus der Fusion der beiden Unternehmen ging Red Hat Software hervor. Gemeinsam entwickelten sie ein originelles Geschäftsmodell: den Vertrieb von Open-Source-Software in Verbindung mit Support- und Zertifizierungsdiensten für Unternehmen. Dieses Geschäftsmodell wurde zum Maßstab und findet sich in vielen Projekten des Bitcoin-Ökosystems wieder.
+1995 kaufte Bob Young, Gründer der auf Linux-Softwarezubehör spezialisierten AAC Corporation, das Unternehmen von Marc Ewing auf. Aus der Fusion der beiden Unternehmen ging Red Hat Software hervor. Gemeinsam entwickelten sie ein originelles Geschäftsmodell: den Vertrieb von Open-Source-Software in Verbindung mit Support- und Zertifizierungsdiensten für Unternehmen. Dieses Geschäftsmodell wurde zum Massstab und findet sich in vielen Projekten des Bitcoin-Ökosystems wieder.
 
 
 
@@ -910,7 +857,7 @@ Im Jahr 2003 nahm Red Hat eine strategische Aufteilung vor: Der Community-Zweig 
 
 
 
-Diese bahnbrechenden Distributionen begründeten die heutigen großen Linux-Familien, von denen jede ihren eigenen technischen und philosophischen Ansatz entwickelt hat.
+Diese bahnbrechenden Distributionen begründeten die heutigen grossen Linux-Familien, von denen jede ihren eigenen technischen und philosophischen Ansatz entwickelt hat.
 
 
 
@@ -942,7 +889,7 @@ Auf diese Familie werden wir uns im Folgenden konzentrieren, da sie einige der b
 
 
 
-Diese Familie basiert auf dem RPM-Format (*Red Hat Package Manager*) und umfasst daher Fedora, die innovative Community-Distribution, die als technische Grundlage für Red Hat Enterprise Linux (RHEL) dient, eine kommerzielle Distribution für Unternehmen, die für ihre langfristige Stabilität bekannt ist.
+Diese Familie basiert auf dem RPM-Format (*Red Hat Package Manager*). Sie umfasst daher Fedora, die innovative Community-Distribution, die als technische Grundlage für Red Hat Enterprise Linux (RHEL) dient. Letzteres ist eine kommerzielle Distribution für Unternehmen, die für ihre langfristige Stabilität bekannt ist.
 
 
 
@@ -950,7 +897,7 @@ Diese Familie basiert auf dem RPM-Format (*Red Hat Package Manager*) und umfasst
 
 
 
-Mehrere große Distributionen leiten sich direkt von RHEL ab, mit dem Ziel, kostenlose und kompatible Alternativen anzubieten, ohne die Kosten für kommerziellen Support. Unter ihnen nahm CentOS lange Zeit einen wichtigen Platz als Community-Klon von RHEL ein, bis Red Hat es 2020 in CentOS Stream umbenannte, eine Zwischenversion zwischen Fedora und RHEL. Diese Entscheidung führte zur Schaffung neuer Forks wie AlmaLinux und Rocky Linux.
+Mehrere grosse Distributionen leiten sich direkt von RHEL ab, mit dem Ziel, kostenlose und kompatible Alternativen anzubieten, ohne die Kosten für kommerziellen Support. Unter ihnen nahm CentOS lange Zeit einen wichtigen Platz als Community-Klon von RHEL ein, bis Red Hat es 2020 in CentOS Stream umbenannte, eine Zwischenversion zwischen Fedora und RHEL. Diese Entscheidung führte zur Schaffung neuer Forks wie AlmaLinux und Rocky Linux.
 
 
 
@@ -970,7 +917,7 @@ Die Arch-Linux-Familie zeichnet sich durch eine Philosophie aus, die sich radika
 
 
 
-Dieser Ansatz basiert auf einem *Rolling-Release*-Modell, bei dem Pakete kontinuierlich aktualisiert werden, ohne dass das System bei jeder größeren Veröffentlichung neu installiert werden muss. Der Pacman-Paketmanager ist schnell und leichtgewichtig, was die Installation und Aktualisierung von Software vereinfacht, und das AUR (*Arch User Repository*), ein Community-Repository, bietet Zugang zu einer großen Anzahl inoffizieller und Entwicklungspakete.
+Dieser Ansatz basiert auf einem *Rolling-Release*-Modell, bei dem Pakete kontinuierlich aktualisiert werden, ohne dass das System bei jeder grösseren Veröffentlichung neu installiert werden muss. Der Pacman-Paketmanager ist schnell und leichtgewichtig, was die Installation und Aktualisierung von Software vereinfacht. Das AUR (*Arch User Repository*), ein Community-Repository, bietet Zugang zu einer grossen Anzahl inoffizieller und Entwicklungspakete.
 
 Arch Linux richtet sich vor allem an fortgeschrittene Benutzer, die eine vollständige Kontrolle über ihre Umgebung wünschen und dabei eine gewisse Komplexität bei der Installation und Wartung in Kauf nehmen. Diese technische Anforderung hat zur Entstehung mehrerer abgeleiteter Distributionen geführt, die darauf abzielen, seine Nutzung zu demokratisieren.
 
@@ -988,11 +935,11 @@ Am bekanntesten ist Manjaro, das die technische Basis von Arch beibehält, aber 
 
 
 
-Slackware bleibt den historischen Unix-Prinzipien treu, wobei der Schwerpunkt auf Einfachheit, Transparenz und Stabilität liegt. Im Gegensatz zu modernen Distributionen, die die Softwareverwaltung automatisieren, verlässt sich Slackware auf ein `.tgz`-Paketsystem ohne automatische Auflösung von Abhängigkeiten, was eine gute Kenntnis der Umgebung und der Softwarekomponenten erfordert.
+Slackware bleibt den historischen Unix-Prinzipien treu, wobei der Schwerpunkt auf Einfachheit, Transparenz und Stabilität liegt. Modernere Distributionen automatisieren die Softwareverwaltung. Im Gegensatz dazu verlässt sich Slackware auf ein `.tgz`-Paketsystem ohne automatische Auflösung von Abhängigkeiten, was eine gute Kenntnis der Umgebung und der Softwarekomponenten erfordert.
 
 
 
-Dieser minimalistische Ansatz, kombiniert mit hoher Stabilität, macht Slackware zu einer Distribution, die von erfahrenen Benutzern oder Unix-Puristen bevorzugt wird, insbesondere in Kontexten, in denen Vorhersagbarkeit und Kontrolle wichtig sind (Server, eingebettete Systeme, unternehmenskritische Umgebungen usw.).
+Dieser minimalistische Ansatz, kombiniert mit hoher Stabilität, macht Slackware zu einer Distribution, die von erfahrenen Benutzern oder Unix-Puristen bevorzugt wird. Dies insbesondere in Kontexten, in denen Vorhersagbarkeit und Kontrolle wichtig sind (Server, eingebettete Systeme, unternehmenskritische Umgebungen usw.).
 
 
 
@@ -1012,7 +959,7 @@ Trotz einer kleineren Gemeinschaft als Debian oder Red Hat bleibt die Slackware-
 
 
 
-Gentoo ist ein Ableger des 1999 gegründeten Enoch Linux-Projekts und wurde von Daniel Robbins mit dem Ziel entwickelt, eine hochgradig anpassbare Distribution ohne vorkompilierte Binärdateien zu entwickeln, die für die Hardware des Benutzers optimiert ist. Umbenannt in Gentoo (nach dem Papua-Pinguin, einem der schnellsten Pinguine), basiert die Distribution auf der Kompilierung von Paketen aus dem Quellcode, was dank der Verwendung von *Portage*, einem von BSD-Ports inspirierten Paketverwaltungssystem, sehr fein abgestimmte Optimierungen ermöglicht. Gentoo richtet sich an erfahrene Benutzer, die Leistung, Kontrolle und Leichtigkeit suchen, allerdings um den Preis längerer Installations- und Wartungszeiten.
+Gentoo ist ein Ableger des 1999 gegründeten Enoch Linux-Projekts und wurde von Daniel Robbins mit dem Ziel entwickelt, eine hochgradig anpassbare Distribution ohne vorkompilierte Binärdateien zu entwickeln, die für die Hardware des Benutzers optimiert ist. Umbenannt in Gentoo (nach dem Papua-Pinguin, einem der schnellsten Pinguine), basiert die Distribution auf der Kompilierung von Paketen aus dem Quellcode. Dies ermöglicht dank der Verwendung von *Portage*, einem von BSD-Ports inspirierten Paketverwaltungssystem, sehr fein abgestimmte Optimierungen. Gentoo richtet sich an erfahrene Benutzer, die Leistung, Kontrolle und Leichtigkeit suchen, allerdings um den Preis längerer Installations- und Wartungszeiten.
 
 
 
@@ -1024,7 +971,7 @@ Es wurden mehrere Derivate entwickelt, um seine Verwendung zu erweitern: Funtoo,
 
 
 
-ChromeOS schließlich, das Betriebssystem, das Google für seine Chromebooks entwickelt hat, war ursprünglich von Gentoo abgeleitet, obwohl es sich inzwischen stark davon entfernt hat.
+ChromeOS schliesslich, das Betriebssystem, das Google für seine Chromebooks entwickelt hat, war ursprünglich von Gentoo abgeleitet. Mittlerweile hat es sich stark davon entfernt.
 
 
 
@@ -1032,7 +979,7 @@ ChromeOS schließlich, das Betriebssystem, das Google für seine Chromebooks ent
 
 
 
-Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zweige zu visualisieren, empfehle ich Ihnen dieses ausgezeichnete und sehr umfassende Diagramm auf Wikimedia: [*Zeitleiste der Linux-Distributionen*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
+Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zweige zu visualisieren, empfehle ich dir dieses ausgezeichnete und sehr umfassende Diagramm auf Wikimedia: [*Zeitleiste der Linux-Distributionen*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
 
 
 
@@ -1040,7 +987,7 @@ Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zwei
 
 
 
-Die Wahl einer Linux-Distribution hängt von Ihren spezifischen Bedürfnissen, Ihrem technischen Niveau und Ihrem Verwendungszweck ab. Hier finden Sie eine praktische Auswahl der am weitesten verbreiteten oder spezialisierten Distributionen mit ihren wichtigsten Vor- und Nachteilen.
+Die Wahl einer Linux-Distribution hängt von deinen spezifischen Bedürfnissen, deinem technischen Niveau und deinem Verwendungszweck ab. Hier findest du eine praktische Auswahl der am weitesten verbreiteten oder spezialisierten Distributionen mit ihren wichtigsten Vor- und Nachteilen.
 
 
 
@@ -1050,11 +997,11 @@ Die Wahl einer Linux-Distribution hängt von Ihren spezifischen Bedürfnissen, I
 
 
 
-- **Ubuntu**:
+- Ubuntu:
 
 
 
-Das von Canonical entwickelte und 2004 eingeführte Ubuntu ist eine der weltweit beliebtesten Distributionen. Sie basiert auf Debian und bietet einen regelmäßigen Veröffentlichungszyklus mit stabilen LTS-Versionen (*Long Term Support*), die fünf Jahre lang gepflegt werden. Ubuntu zeichnet sich durch seine hervorragende Hardwarekompatibilität, eine große Community und eine umfangreiche Dokumentation aus, was es zu einer sehr sicheren Wahl für Anfänger macht. In der Tat werden wir Ubuntu für den Rest des SCU202-Schulungskurses verwenden, da es einen soliden Einstieg in die Welt von GNU/Linux darstellt. Ubuntu integriert standardmäßig die GNOME-Desktop-Umgebung, mit ein paar spezifischen Anpassungen.
+Das von Canonical entwickelte und 2004 eingeführte Ubuntu ist eine der weltweit beliebtesten Distributionen. Sie basiert auf Debian und bietet einen regelmässigen Veröffentlichungszyklus mit stabilen LTS-Versionen (*Long Term Support*), die fünf Jahre lang gepflegt werden. Ubuntu zeichnet sich durch seine hervorragende Hardwarekompatibilität, eine grosse Community und eine umfangreiche Dokumentation aus, was es zu einer sehr sicheren Wahl für Anfänger macht. In der Tat werden wir Ubuntu für den Rest des SCU202-Schulungskurses verwenden, da es einen soliden Einstieg in die Welt von GNU/Linux darstellt. Ubuntu integriert standardmässig die GNOME-Desktop-Umgebung, mit ein paar spezifischen Anpassungen.
 
 
 
@@ -1066,17 +1013,17 @@ https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- **Linux Mint**:
+- Linux Mint:
 
 
 
-Linux Mint wurde 2006 eingeführt und ist eine von Ubuntu abgeleitete Distribution, die eine intuitivere Alternative bieten soll, die der Ergonomie von Windows näher kommt. Sie bietet mehrere Desktop-Umgebungen, darunter Cinnamon, eine Fork von GNOME, die speziell vom Mint-Team entwickelt wurde und eine klare, klassische und sofort vertraute Interface bietet.
+Linux Mint wurde 2006 eingeführt und ist eine von Ubuntu abgeleitete Distribution, die eine intuitivere Alternative bieten soll. Sie soll der Ergonomie von Windows näher kommen. Sie bietet mehrere Desktop-Umgebungen, darunter Cinnamon, eine Fork von GNOME, die speziell vom Mint-Team entwickelt wurde und eine klare, klassische und sofort vertraute Benutzeroberfläche bietet.
 
 
 
 https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-Mint zeichnet sich durch seine Einfachheit, das standardmäßige Vorhandensein von Multimedia-Codecs und ein gut durchdachtes Update-Tool aus. Andererseits stützt es sich stark auf die Infrastruktur von Ubuntu, was es von den technischen Entscheidungen von Ubuntu abhängig macht (insbesondere auf Kernel- und Repository-Ebene). Mint eignet sich besonders gut für technisch nicht versierte Benutzer oder für diejenigen, die ein sofort einsatzbereites System wünschen, das nicht allzu viel Lernaufwand erfordert.
+Mint zeichnet sich durch seine Einfachheit, das standardmässige Vorhandensein von Multimedia-Codecs und ein gut durchdachtes Update-Tool aus. Andererseits stützt es sich stark auf die Infrastruktur von Ubuntu, was es von den technischen Entscheidungen von Ubuntu abhängig macht (insbesondere auf Kernel- und Repository-Ebene). Mint eignet sich besonders gut für technisch nicht versierte Benutzer oder für diejenigen, die ein sofort einsatzbereites System wünschen, das nicht allzu viel Lernaufwand erfordert.
 
 
 
@@ -1086,7 +1033,7 @@ Mint zeichnet sich durch seine Einfachheit, das standardmäßige Vorhandensein v
 
 
 
-- **Zorin OS**:
+- Zorin OS:
 
 
 
@@ -1094,7 +1041,7 @@ Zorin OS wurde 2008 von einem irischen Team entwickelt und richtet sich ausdrüc
 
 
 
-Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, und mit der "Lite"-Version können Sie das System auch auf älteren Rechnern einsetzen. Einige Editionen, wie z. B. "Pro", sind nicht kostenlos (etwa 50 €), aber die kostenlose Version ist immer noch voll funktionsfähig. Zorin OS ist eine gute Wahl für alle, die eine visuell vertraute, gut integrierte Umgebung ohne manuelle Konfiguration suchen.
+Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, und mit der "Lite"-Version kannst du das System auch auf älteren Rechnern einsetzen. Einige Editionen, wie z.B. "Pro", sind nicht kostenlos (etwa 50 €), aber die kostenlose Version ist immer noch voll funktionsfähig. Zorin OS ist eine gute Wahl für alle, die eine visuell vertraute, gut integrierte Umgebung ohne manuelle Konfiguration suchen.
 
 
 
@@ -1104,9 +1051,9 @@ Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, un
 
 
 
-- **elementares OS**:
+- Elementary OS:
 
-Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz von Interface konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten von Interface und seine absichtlich festgelegte Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
+Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz der Benutzeroberfläche konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten der Benutzeroberfläche und seiner absichtlich festgelegten Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
 
 https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
@@ -1118,11 +1065,11 @@ https://planb.academy/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- **Pop!OS**:
+- Pop!OS:
 
 
 
-Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfalls auf Ubuntu. Es richtet sich sowohl an Desktop-Benutzer als auch an Entwickler, mit einem modifizierten Interface GNOME (und neuerdings einer hauseigenen Umgebung namens COSMIC). Pop!OS integriert standardmäßig Optimierungen für NVIDIA-GPUs und bietet einen Mosaik-Fensterverwaltungsmodus. Das System ist einfach zu bedienen, bietet aber auch fortgeschrittene, sofort einsetzbare Funktionalitäten. Es richtet sich an fortgeschrittene Benutzer, Studenten oder Profis, die ein effizientes System wünschen, ohne ihre Umgebung von Hand konfigurieren zu müssen.
+Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfalls auf Ubuntu. Es richtet sich sowohl an Desktop-Benutzer als auch an Entwickler, mit einer modifizierten GNOME Benutzeroberfläche (und neuerdings einer hauseigenen Umgebung namens COSMIC). Pop!OS integriert standardmässig Optimierungen für NVIDIA-GPUs und bietet einen Mosaik-Fensterverwaltungsmodus. Das System ist einfach zu bedienen, bietet aber auch fortgeschrittene, sofort einsetzbare Funktionalitäten. Es richtet sich an fortgeschrittene Benutzer, Studenten oder Profis, die ein effizientes System wünschen, ohne ihre Umgebung von Hand konfigurieren zu müssen.
 
 
 
@@ -1140,11 +1087,11 @@ Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfa
 
 
 
-- **Fedora** (Workstation oder KDE Plasma):
+- Fedora (Workstation oder KDE Plasma):
 
 
 
-Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten Technologien orientiert (Wayland, PipeWire, Flatpak...). Sie verwendet das RPM-Format und den Paketmanager `dnf`. Ihr schneller Veröffentlichungszyklus bedeutet, dass Ihr System immer auf dem neuesten Stand ist, aber Sie müssen mit den regelmäßigen Updates Schritt halten. Es ist eine ideale Distribution für Entwickler oder technische Benutzer, die ein modernes System suchen.
+Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten Technologien orientiert (Wayland, PipeWire, Flatpak...). Sie verwendet das RPM-Format und den Paketmanager `dnf`. Der schnelle Veröffentlichungszyklus bedeutet, dass dein System immer auf dem neuesten Stand ist, aber du musst mit den regelmässigen Updates Schritt halten. Es ist eine ideale Distribution für Entwickler oder technische Benutzer, die ein modernes System suchen.
 
 
 
@@ -1154,11 +1101,11 @@ Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten
 https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- **openSUSE** (Tumbleweed oder Leap):
+- openSUSE (Tumbleweed oder Leap):
 
 
 
-openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Sie verfügt über das YaST-Tool für die Systemkonfiguration und ermöglicht eine vielseitige Nutzung mit verschiedenen grafischen Umgebungen. Es erfordert ein wenig mehr Erfahrung, ist aber für den täglichen Gebrauch robust.
+openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Es verfügt über das YaST-Tool für die Systemkonfiguration und ermöglicht eine vielseitige Nutzung mit verschiedenen grafischen Umgebungen. Es erfordert ein wenig mehr Erfahrung, ist aber für den täglichen Gebrauch robust.
 
 
 
@@ -1168,11 +1115,11 @@ openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Sie verf
 
 
 
-- **Debian**:
+- Debian:
 
 
 
-Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, aber ältere Software) und *Testing* (aktueller, aber etwas weniger bewährt). Es verwendet `apt` und ist bekannt für seine Strenge, freie Philosophie und hohe Kompatibilität. Debian ist eine gute Wahl für Benutzer, die nach Stabilität suchen, Systemadministratoren...
+Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, aber ältere Software) und *Testing* (aktueller, aber etwas weniger bewährt). Es verwendet `apt` und ist bekannt für seine Strenge, seine freie Philosophie und seine hohe Kompatibilität. Debian ist eine gute Wahl für Benutzer, die nach Stabilität suchen, z.B. Systemadministratoren.
 
 
 
@@ -1182,7 +1129,7 @@ Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, abe
 https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- **Manjaro**:
+- Manjaro:
 
 
 
@@ -1196,11 +1143,11 @@ Manjaro basiert auf Arch und macht Arch Linux zugänglich. Diese Distribution bi
 
 
 
-- **Arch Linux**:
+- Arch Linux:
 
 
 
-Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die ohne Interface oder überflüssige Software ausgeliefert wird. Sie erfordert eine manuelle Installation, bietet aber volle Kontrolle und eine ausgezeichnete Dokumentation (Arch Wiki). Diese Distribution wird für fortgeschrittene Benutzer empfohlen, die alles beherrschen wollen.
+Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die ohne Benutzeroberfläche oder überflüssige Software ausgeliefert wird. Sie erfordert eine manuelle Installation, bietet aber volle Kontrolle und eine ausgezeichnete Dokumentation (Arch Wiki). Diese Distribution wird für fortgeschrittene Benutzer empfohlen, die alles kontrollieren wollen.
 
 
 
@@ -1210,9 +1157,9 @@ Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die 
 
 https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
-#### Spezialisierter Vertrieb
+#### Spezialisierte Distribution
 
-- **Kali Linux**:
+- Kali Linux:
 
 Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstests und Sicherheitsprüfungen entwickelt wurde. Sie enthält Hunderte von Pentest-Tools. Diese Distribution ist nicht wirklich als Hauptsystem für den täglichen Gebrauch geeignet.
 
@@ -1224,7 +1171,7 @@ Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstes
 
 
 
-- **Parrot OS**:
+- Parrot OS:
 
 
 
@@ -1238,17 +1185,17 @@ Parrot OS ist ebenfalls von Debian abgeleitet. Es bietet eine Umgebung für Pent
 
 
 
-- **Schwänze**:
+- Tails:
 
 
 
-Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im Vordergrund steht. Alles läuft über das Tor-Netzwerk, und nichts wird zwischen den Benutzersitzungen gespeichert. Es ist eine ideale Distribution für sensible, einmalige Anwendungen (Journalismus, Aktivismus, seed Bitcoin Erzeugung...).
+Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im Vordergrund steht. Alles läuft über das Tor-Netzwerk, und nichts wird zwischen den Benutzersitzungen gespeichert. Es ist eine ideale Distribution für sensible, einmalige Anwendungsfälle (Journalismus, Aktivismus, Erzeugung von Bitcoin Seeds...).
 
 
 
 https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ **Hinweis:** Eine Live-Distribution ist ein Linux-Betriebssystem, das direkt von einem USB-Stick oder einer CD verwendet werden kann, ohne dass eine Installation auf der Hard-Platte erforderlich ist.
+→ **Hinweis:** Eine Live-Distribution ist ein Linux-Betriebssystem, das direkt von einem USB-Stick oder einer CD verwendet werden kann, ohne dass eine Installation auf der Festplatte erforderlich ist.
 
 
 
@@ -1258,7 +1205,7 @@ https://planb.academy/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- **Qubes OS**:
+- Qubes OS:
 
 
 
@@ -1272,7 +1219,7 @@ Qubes OS basiert auf Fedora und verwendet das Xen-Virtualisierungssystem, um die
 
 
 
-- **BlackArch**:
+- BlackArch:
 
 
 
@@ -1286,11 +1233,11 @@ BlackArch ist eine pentest-orientierte Erweiterung für Arch Linux (wie Kali auf
 
 
 
-- **PureOS**:
+- PureOS:
 
 
 
-PureOS ist eine von Debian abgeleitete Distribution, die von Purism entwickelt wurde und völlig frei ist (FSF-Zulassung). Sie konzentriert sich auf den Schutz der Privatsphäre, mit ausschließlich freier Software und einer völligen Abwesenheit von proprietärem Ballast.
+PureOS ist eine von Debian abgeleitete Distribution, die von Purism entwickelt wurde und völlig frei ist (FSF-Zulassung). Sie konzentriert sich auf den Schutz der Privatsphäre, mit ausschliesslich freier Software und einer völligen Abwesenheit von proprietärem Ballast.
 
 
 
@@ -1302,7 +1249,7 @@ PureOS ist eine von Debian abgeleitete Distribution, die von Purism entwickelt w
 
 https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- **Raspberry Pi OS**:
+- Raspberry Pi OS:
 
 Raspberry Pi OS (früher Raspbian) ist eine für Raspberry Pi-Mikrocomputer optimierte Distribution. Sie basiert auf Debian, wobei die Pakete für die ARM-Architektur neu kompiliert wurden. Es kann für Bildungsprojekte, elektronische Tests oder kleine persönliche Server verwendet werden.
 
@@ -1314,7 +1261,7 @@ Raspberry Pi OS (früher Raspbian) ist eine für Raspberry Pi-Mikrocomputer opti
 
 
 
-- **Whonix**:
+- Whonix:
 
 
 
@@ -1328,23 +1275,23 @@ Whonix kombiniert Debian mit dem Tor-Netzwerk in einer Zwei-VM-Architektur (Gate
 
 https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
-Dieses Panorama gibt Ihnen einen Überblick über das aktuelle Ökosystem der Linux-Distributionen und ermöglicht es Ihnen, die für Ihr technisches Profil und Ihre Ziele am besten geeignete Distribution auszuwählen.
+Dieses Panorama gibt dir einen Überblick über das aktuelle Ökosystem der Linux-Distributionen und ermöglicht es dir, die für dein technisches Profil und deine Ziele am besten geeignete Distribution auszuwählen.
 
-Im nächsten Kapitel von SCU202 werden wir einen genaueren Blick auf die praktische Linux-Umgebung werfen, beginnend mit den grafischen Umgebungen, die die Grundlage für Ihre täglichen Interaktionen mit dem System bilden.
+Im nächsten Kapitel von SCU202 werden wir einen genaueren Blick auf die praktische Linux-Umgebung werfen, beginnend mit den grafischen Umgebungen, die die Grundlage für deine täglichen Interaktionen mit dem System bilden.
 
 ## Linux-Desktop-Umgebungen
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-In einem GNU/Linux-System spielt die Desktop-Umgebung eine der wichtigsten Rollen in Ihrem Benutzererlebnis. Sie ist die grafische Layer, die die Interaktion mit dem System auf der Grundlage vertrauter visueller Darstellungen ermöglicht: Fenster, Menüs, Symbole, Bedienfelder und vorinstallierte Anwendungen.
+In einem GNU/Linux-System spielt die Desktop-Umgebung eine der wichtigsten Rollen in deinem Benutzererlebnis. Sie ist die grafische Schicht. Sie ermöglicht die Interaktion mit dem System auf der Grundlage vertrauter visueller Darstellungen: Fenster, Menüs, Symbole, Bedienfelder und vorinstallierte Anwendungen.
 
 In diesem Kapitel werde ich den Aufbau und die Rolle einer Desktop-Umgebung, ihre typischen Komponenten, die wichtigsten verfügbaren Familien, Auswahlkriterien und ihre Integration in die beliebtesten Linux-Distributionen untersuchen.
 
 ### Was ist eine Büroumgebung?
 
-Eine Desktop-Umgebung (oder "*DE*" für *Desktop Environment*) bezieht sich auf den Satz von Programmen, die die vollständige grafische Interface eines Betriebssystems bilden. Unter Windows und macOS wird standardmäßig eine einzige Desktop-Umgebung angeboten, die in das System integriert ist und nicht vollständig verändert werden kann (es gibt nur bestimmte Shells, um den Interface teilweise zu verändern). Linux-Systeme hingegen sind weitaus modularer und behandeln die Desktop-Umgebung als unabhängige Komponente, die frei ersetzt werden kann.
+Eine Desktop-Umgebung (oder "*DE*" für *Desktop Environment*) bezieht sich auf einen Satz von Programmen. Diese bilden die vollständige grafische Interface eines Betriebssystems. Unter Windows und macOS wird standardmässig eine einzige Desktop-Umgebung angeboten, die in das System integriert ist und nicht vollständig verändert werden kann (es gibt nur bestimmte Shells, um das Benutzer-Interface teilweise zu verändern). Linux-Systeme hingegen sind weitaus modularer und behandeln die Desktop-Umgebung als unabhängige Komponente, die frei ersetzt werden kann.
 
-Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Kernel (der die Interaktion mit der Hardware verwaltet), dem Anzeigeserver (der über den Kernel als Vermittler zwischen Anwendungen, Grafiktreibern und Hardware fungiert) und schließlich der Desktop-Umgebung selbst, die sich auf diese Infrastruktur stützt, um dem Benutzer eine kohärente grafische Interface zu liefern. Diese Unterscheidung kann manchmal weniger klar sein, da viele Linux-Distributionen mit einer vorinstallierten Desktop-Umgebung geliefert werden, die manchmal ihren eigenen Wayland-Compositor enthält, der dann als Display-Server fungiert.
+Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Kernel (der die Interaktion mit der Hardware verwaltet), dem Anzeigeserver (der über den Kernel als Vermittler zwischen Anwendungen, Grafiktreibern und Hardware fungiert) und schliesslich der Desktop-Umgebung selbst. Sie stützt sich auf diese Infrastruktur, um dem Benutzer eine kohärente grafische Oberfläche zu bieten. Diese Unterscheidung kann manchmal weniger klar sein, da viele Linux-Distributionen mit einer vorinstallierten Desktop-Umgebung geliefert werden. Sie enhält manchmal den eigenen Wayland-Compositor, der dann als Display-Server fungiert.
 
 
 
@@ -1356,25 +1303,25 @@ Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Ke
 
 
 
-Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung, sondern ein kohärenter Satz von Softwarekomponenten, die eine vollständige grafische Interface für die Interaktion mit dem Betriebssystem bieten. Diese Komponenten basieren auf mehreren Softwareschichten, die wie folgt strukturiert sind:
+Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung. Es handelt sich vielmehr um einen kohärenten Satz von Softwarekomponenten, die eine vollständige grafische Benutzeroberfläche für die Interaktion mit dem Betriebssystem bieten. Diese Komponenten basieren auf mehreren Softwareschichten, die wie folgt strukturiert sind:
 
 
 
 
 
-- Ein **Fenstermanager**: zeichnet Fensterränder, verwaltet deren Platzierung, Größenänderung und Übergangseffekte... Zum Beispiel: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Ein Fenstermanager**: zeichnet Fensterränder, verwaltet deren Platzierung, Grössenänderung und Übergangseffekte... Zum Beispiel: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- **Ein Dateimanager**: Ermöglicht es Ihnen, durch den Verzeichnisbaum zu navigieren und Dateien visuell zu kopieren, zu verschieben oder zu löschen. Beispiele: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Ein Dateimanager**: Ermöglicht es dir, durch den Verzeichnisbaum zu navigieren und Dateien visuell zu kopieren, zu verschieben oder zu löschen. Beispiele: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- **Ein Konfigurationszentrum**: Dies ist eine Reihe von Tools, die es dem Benutzer ermöglichen, Systemparameter zu ändern, ohne die Kommandozeile zu benutzen: Aussehen, Hintergrundbild, Benutzerverwaltung, Netzwerk, Peripheriegeräte...
+- **Ein Konfigurationszentrum**: Dieses beinhaltet eine Reihe von Tools, die es dem Benutzer ermöglichen, Systemparameter zu ändern, ohne die Kommandozeile zu benutzen: Aussehen, Hintergrundbild, Benutzerverwaltung, Netzwerk, Peripheriegeräte...
 
 
 
@@ -1410,11 +1357,11 @@ Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung, 
 
 
 
-- **Ein Display-Server**: Dies ist die Software, die die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen abwickelt. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung, aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z. B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
+- **Ein Display-Server**: Diese Software wickelt die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen ab. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung. Aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z.B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
 
 
 
-Alle diese Elements basieren auf einem grafischen Toolkit, d. h. einer Softwarebibliothek, die die grundlegenden Komponenten für die Erstellung grafischer Oberflächen bereitstellt: Schaltflächen, Menüs, Textfelder usw. Die beiden wichtigsten Linux-Toolkits sind:
+Alle diese Elements basieren auf einem grafischen Toolkit, d.h. einer Softwarebibliothek. Diese stellt die grundlegenden Komponenten für die Erstellung grafischer Oberflächen bereit: Schaltflächen, Menüs, Textfelder usw. Die beiden wichtigsten Linux-Toolkits sind:
 
 
 
@@ -1440,7 +1387,7 @@ Alle diese Elements basieren auf einem grafischen Toolkit, d. h. einer Softwareb
 
 
 
-GNOME ("*GNU Network Object Model Environment*") wurde 1997 eingeführt und 1999 erstmals veröffentlicht. Es basiert auf der GTK-Bibliothek und zielt darauf ab, die Reibung zwischen dem Benutzer und Interface durch eine sehr einfache Organisation zu minimieren. Seit GNOME 3 hat sein Kern, die GNOME-Shell, die traditionelle Metapher des mit Symbolen bedeckten Desktops aufgegeben: Anstatt mit mehreren gleichzeitig sichtbaren Arbeitsbereichen zu jonglieren, wechseln die Benutzer zu einem einzigen Aktivitätsselektor, in dem sie Fenster, virtuelle Desktops und Anwendungsstarter verwalten.
+GNOME ("*GNU Network Object Model Environment*") wurde 1997 eingeführt und 1999 erstmals veröffentlicht. Es basiert auf der GTK-Bibliothek und zielt darauf ab, dem Benutzer das Arbeiten mit der grafischen Benutzer-Oberfläche durch eine sehr einfache Organisation zu vereinfachen. Seit GNOME 3 hat sein Kern, die GNOME-Shell, die traditionelle Metapher des mit Symbolen bedeckten Desktops aufgegeben: Anstatt mit mehreren gleichzeitig sichtbaren Arbeitsbereichen zu jonglieren, wechseln die Benutzer zu einem einzigen Aktivitätsselektor, in dem sie Fenster, virtuelle Desktops und Anwendungsstarter verwalten.
 
 
 
@@ -1448,7 +1395,7 @@ GNOME ("*GNU Network Object Model Environment*") wurde 1997 eingeführt und 1999
 
 
 
-Technisch gesehen kombiniert der Mutter-Compositor die Fensterverwaltung und den Wayland-Stack und bleibt dabei dank XWayland X11-kompatibel. Standardmäßig bietet die Umgebung Nautilus zum Durchsuchen von Dateien, GNOME Terminal für die Kommandozeile und ein zentrales Einstellungsfeld. Die Anpassungsmöglichkeiten von GNOME sind von Natur aus begrenzt.
+Technisch gesehen kombiniert der Mutter-Compositor die Fensterverwaltung und den Wayland-Stack und bleibt dabei dank XWayland X11-kompatibel. Standardmässig bietet die Umgebung Nautilus zum Durchsuchen von Dateien, GNOME Terminal für die Kommandozeile und ein zentrales Einstellungsfeld. Die Anpassungsmöglichkeiten von GNOME sind von Natur aus begrenzt.
 
 
 
@@ -1464,7 +1411,7 @@ Das KDE-Projekt wurde 1996 ins Leben gerufen und die erste Version der Desktop-U
 
 
 
-KDE Plasma basiert auf Qt 6, einem plattformübergreifenden C++-Framework, und auf KDE Frameworks, einer modularen Sammlung von Bibliotheken, die die Entwicklung von integrierten Anwendungen erleichtern. Sein Fenstermanager KWin fungiert auch als kompletter Wayland-Compositor: Er handhabt visuelle Effekte (Unschärfe, Transparenz, Übergänge), Bildschirmaufteilung mit GPU-Beschleunigung und Multi-Touch-Gesten über libinput.
+KDE Plasma basiert auf Qt 6, einem plattformübergreifenden C++-Framework, und auf KDE Frameworks, einer modularen Sammlung von Bibliotheken. Sie erleichtern die Entwicklung von integrierten Anwendungen. Sein Fenstermanager KWin fungiert auch als kompletter Wayland-Compositor: Er handhabt visuelle Effekte (Unschärfe, Transparenz, Übergänge), Bildschirmaufteilung mit GPU-Beschleunigung und Multi-Touch-Gesten über libinput.
 
 
 
@@ -1472,7 +1419,7 @@ KDE Plasma basiert auf Qt 6, einem plattformübergreifenden C++-Framework, und a
 
 
 
-Einer der herausragenden Punkte von KDE Plasma ist sein einheitliches Konfigurationszentrum, das einen grafischen Interface für praktisch alle Einstellungen bereitstellt: Verhalten des virtuellen Desktops, globale Verknüpfungen, flüssige Animationen, Energieverwaltung, Netzwerkkonfiguration, Aussehen der Fensterränder... Es müssen keine Textkonfigurationsdateien manuell bearbeitet werden, wodurch die Desktop-Umgebung leicht angepasst werden kann.
+Einer der herausragenden Punkte von KDE Plasma ist sein einheitliches Konfigurationszentrum, das eine grafische Benutzeroberfläche für praktisch alle Einstellungen bereitstellt: Verhalten des virtuellen Desktops, globale Verknüpfungen, flüssige Animationen, Energieverwaltung, Netzwerkkonfiguration, Aussehen der Fensterränder... Es müssen keine Textkonfigurationsdateien manuell bearbeitet werden, wodurch die Desktop-Umgebung leicht angepasst werden kann.
 
 
 
@@ -1484,11 +1431,11 @@ KDE Plasma wird in vielen Distributionen verwendet, darunter Kubuntu, openSUSE T
 
 
 
-Xfce ist eine freie, quelloffene Desktop-Umgebung, die 1996 von Olivier Fourdan entwickelt wurde. Ihr ursprüngliches Ziel, das auch heute noch gültig ist, war es, eine einfache, leichte und schnelle Alternative zu schwereren Desktop-Umgebungen wie GNOME oder KDE zu bieten. Technisch basiert Xfce auf dem GTK-Toolkit, was es in gewisser Hinsicht näher an GNOME heranbringt, aber auch in seiner Philosophie unterscheidet.
+Xfce ist eine freie, quelloffene Desktop-Umgebung, die 1996 von Olivier Fourdan entwickelt wurde. Ihr ursprüngliches Ziel ist auch heute noch gültig. So soll es eine einfache, leichte und schnelle Alternative zu schwereren Desktop-Umgebungen wie GNOME oder KDE bieten. Technisch basiert Xfce auf dem GTK-Toolkit, was es in gewisser Hinsicht näher an GNOME heranbringt, aber auch in seiner Philosophie unterscheidet.
 
 
 
-Xfce verfolgt einen traditionellen grafischen Interface-Ansatz, der einen symbolgesteuerten Desktop, ein Anwendungsmenü, eine Taskleiste und konfigurierbare Bedienfelder umfasst. Das gesamte Paket ist so konzipiert, dass es ressourceneffizient ist, sowohl in Bezug auf den Arbeitsspeicher als auch auf die Prozessorleistung. Das macht es zu einer idealen Lösung für ältere, weniger leistungsfähige Computer oder einfach für Benutzer, die ein flüssiges, stabiles und reaktionsschnelles System suchen.
+Xfce verfolgt einen traditionellen grafischen Ansatz für die Benutzeroberfläche. Es umfasst einen symbolgesteuerten Desktop, ein Anwendungsmenü, eine Taskleiste und konfigurierbare Bedienfelder. Das gesamte Paket ist so konzipiert, dass es ressourceneffizient ist, sowohl in Bezug auf den Arbeitsspeicher als auch auf die Prozessorleistung. Das macht es zu einer idealen Lösung für ältere, weniger leistungsfähige Computer oder einfach für Benutzer, die ein flüssiges, stabiles und reaktionsschnelles System suchen.
 
 
 
@@ -1512,7 +1459,7 @@ LXQt ist das Ergebnis des 2013 erfolgten Zusammenschlusses von zwei separaten Pr
 
 
 
-#### Zimt
+#### Cinnamon
 
 
 
@@ -1544,7 +1491,7 @@ Technisch gesehen basiert MATE auf den GTK 3-Bibliotheken (nachdem es lange Zeit
 
 
 
-Der Interface basiert auf der traditionellen Desktop-Logik: ein oder zwei Panels (Menü, Schnellstartbereiche, Uhr, Benachrichtigungsbereiche), ein Desktop mit Symbolen und eine schwebende Fensterorganisation.
+Die Oberfläche basiert auf der traditionellen Desktop-Logik: ein oder zwei Panels (Menü, Schnellstartbereiche, Uhr, Benachrichtigungsbereiche), ein Desktop mit Symbolen und eine schwebende Fensterorganisation.
 
 
 
@@ -1556,7 +1503,7 @@ Der Interface basiert auf der traditionellen Desktop-Logik: ein oder zwei Panels
 
 
 
-Die Wahl Ihrer GNU/Linux-Desktop-Umgebung ist keine triviale Angelegenheit: Sie bestimmt das Benutzererlebnis, die Systemleistung und die Softwarekompatibilität. Jede DE basiert auf technischen Entscheidungen (Bibliotheken, Architektur, Fenstermanager...), die das Aussehen, das Verhalten, die Leistung und sogar die Hardwareanforderungen beeinflussen. Hier sind die wichtigsten Kriterien, die bei einer fundierten Auswahl zu berücksichtigen sind.
+Die Wahl deiner GNU/Linux-Desktop-Umgebung ist keine triviale Angelegenheit: Sie bestimmt das Benutzererlebnis, die Systemleistung und die Softwarekompatibilität. Jede DE basiert auf technischen Entscheidungen (Bibliotheken, Architektur, Fenstermanager...), die das Aussehen, das Verhalten, die Leistung und sogar die Hardwareanforderungen beeinflussen. Hier sind die wichtigsten Kriterien, die bei einer fundierten Auswahl zu berücksichtigen sind.
 
 
 
@@ -1569,7 +1516,7 @@ Jede Desktop-Umgebung hat einen anderen Ressourcenverbrauch. Dieser wird in Form
 
 
 
-- Auf älteren oder weniger leistungsfähigen Rechnern (Single-Core-CPU, weniger als 2 GB RAM...) empfehle ich sehr leichtgewichtige Umgebungen wie LXQt, LXDE oder Xfce. Sie bieten einen vollständigen grafischen Interface, aber ohne visuelle Effekte oder schwere Abhängigkeiten;
+- Auf älteren oder weniger leistungsfähigen Rechnern (Single-Core-CPU, weniger als 2 GB RAM...) empfehle ich sehr leichtgewichtige Umgebungen wie LXQt, LXDE oder Xfce. Sie bieten eine vollständige grafischen Benutzeroberfläche, aber ohne visuelle Effekte oder starke Abhängigkeiten;
 - Zwischenumgebungen wie MATE oder Cinnamon erfordern etwas aktuellere Hardware (4 bis 6 GB RAM empfohlen), sind aber immer noch akzeptabel;
 - Moderne, reichhaltige Umgebungen wie GNOME oder KDE Plasma sind sehr vollständig, benötigen aber mehr Ressourcen, insbesondere wenn grafische Effekte aktiviert sind. Sie sind für neuere Rechner geeignet.
 
@@ -1579,13 +1526,13 @@ Jede Desktop-Umgebung hat einen anderen Ressourcenverbrauch. Dieser wird in Form
 
 
 
-Jedes DE bietet eine eigene Interface-Philosophie:
+Jedes DE bietet eine eigene Oberflächen-Philosophie:
 
 
 
 
-- GNOME bevorzugt die Einfachheit der Benutzung, mit einem optimierten Interface, ohne klassischen Desktop oder Icons, und einem produktivitätsorientierten Arbeitsablauf, der für Anfänger verwirrend sein kann
-- KDE Plasma ist extrem anpassbar, bis ins kleinste Detail. Es verfügt über ein modernes Aussehen, Animationen und eine Standard-Interface, die näher an Windows ist
+- GNOME bevorzugt die Einfachheit der Nutzung, mit einer optimierten Benutzerschnittstelle, ohne klassischen Desktop oder Icons, und einem produktivitätsorientierten Arbeitsablauf, der für Anfänger verwirrend sein kann
+- KDE Plasma ist extrem anpassbar, bis ins kleinste Detail. Es verfügt über ein modernes Aussehen, Animationen und eine Standard-Oberfläche, die näher an Windows ist
 - Cinnamon und MATE bieten ein klassisches Erlebnis: Menü unten links, Taskleiste, Desktop-Symbole. Cinnamon ist visuell moderner, MATE heller
 - Xfce und LXQt zielen auf Einfachheit und Leistung ab, mit einer zurückhaltenden, aber konfigurierbaren Ästhetik
 
@@ -1595,7 +1542,7 @@ Jedes DE bietet eine eigene Interface-Philosophie:
 
 
 
-Auch die Hauptverwendung des Computers wird Ihre Wahl beeinflussen:
+Auch die Hauptverwendung des Computers wird deine Wahl beeinflussen:
 
 
 
@@ -1610,11 +1557,11 @@ Auch die Hauptverwendung des Computers wird Ihre Wahl beeinflussen:
 
 
 
-Jede GNU/Linux-Distribution bevorzugt eine Standard-Desktop-Umgebung, die oft besser integriert, besser getestet, mit speziellen Tools ausgestattet und standardmäßig installiert ist. Es ist immer möglich, eine andere Desktop-Umgebung zu installieren, aber das kann zu Software-Duplizierung, Konfigurationskonflikten oder einer weniger konsistenten Benutzererfahrung führen. Ihre Wahl der Desktop-Umgebung kann daher von der Ihrer Linux-Distribution beeinflusst werden, oder umgekehrt kann Ihre Vorliebe für eine bestimmte Desktop-Umgebung Ihre Wahl der Distribution bestimmen.
+Jede GNU/Linux-Distribution bevorzugt eine Standard-Desktop-Umgebung, die oft besser integriert, besser getestet, mit speziellen Tools ausgestattet und standardmässig installiert ist. Es ist immer möglich, eine andere Desktop-Umgebung zu installieren, aber das kann zu Software-Duplizierung, Konfigurationskonflikten oder einer weniger konsistenten Benutzererfahrung führen. Deine Wahl der Desktop-Umgebung kann daher von der deiner Linux-Distribution beeinflusst werden, oder umgekehrt kann deine Vorliebe für eine bestimmte Desktop-Umgebung deine Wahl der Distribution bestimmen.
 
 
 
-Bitte beachten Sie, dass einige Distributionen, egal ob sie vom Projektteam oder von externen Mitwirkenden gepflegt werden, eine andere Desktop-Umgebung als die Standardumgebung enthalten (z.B. Kubuntu, Lubuntu, Xubuntu...).
+Bitte beachte, dass einige Distributionen, egal ob sie vom Projektteam oder von externen Mitwirkenden gepflegt werden, eine andere Desktop-Umgebung als die Standardumgebung enthalten (z.B. Kubuntu, Lubuntu, Xubuntu...).
 
 
 
@@ -1696,13 +1643,13 @@ Hier sind die Desktop-Umgebungen der wichtigsten Distributionen:
 
 
 
-- openSUSE → wählen Sie bei der Installation zwischen KDE Plasma (am meisten integrierte Ausgabe), GNOME, Xfce, MATE usw.
+- openSUSE → wähle bei der Installation zwischen KDE Plasma (am meisten integrierte Ausgabe), GNOME, Xfce, MATE usw.
 
 
 
 
 
-- Arch Linux → bietet keine Standardumgebung, daher müssen Sie eine Umgebung Ihrer Wahl installieren
+- Arch Linux → bietet keine Standardumgebung, daher musst du eine Umgebung deiner Wahl installieren
 
 
 
@@ -1720,7 +1667,7 @@ Hier sind die Desktop-Umgebungen der wichtigsten Distributionen:
 
 
 
-- Schwänze → GNOME
+- Tails → GNOME
 
 
 
@@ -1748,26 +1695,26 @@ Hier sind die Desktop-Umgebungen der wichtigsten Distributionen:
 
 
 
-Zusammenfassend lässt sich sagen, dass es nicht die eine beste Desktop-Umgebung gibt, sondern nur diejenige, die am besten zu Ihrer Ausrüstung, Ihren Anwendungen und Vorlieben passt. Es ist sogar üblich, mehrere DEs zu testen, bevor man diejenige findet, die den richtigen Kompromiss zwischen Ästhetik, Ergonomie und Leistung bietet.
+Zusammenfassend lässt sich sagen, dass es nicht die eine beste Desktop-Umgebung gibt, sondern nur diejenige, die am besten zu deiner Ausrüstung, deinen Anwendungen und Vorlieben passt. Es ist sogar üblich, mehrere DEs zu testen, bevor man diejenige findet, die den richtigen Kompromiss zwischen Ästhetik, Ergonomie und Leistung bietet.
 
 
 
-Dieses Kapitel hat Ihnen ein besseres Verständnis dafür vermittelt, was eine Desktop-Umgebung ist, ihre wichtigsten Komponenten, die Unterschiede zwischen den wichtigsten verfügbaren Lösungen und die wichtigen Kriterien für Ihre Wahl. Im nächsten Kapitel werden Sie Ihre ersten Schritte mit Ubuntu, einer vielseitigen Distribution für die Allgemeinheit, machen können.
+Dieses Kapitel hat dir ein besseres Verständnis dafür vermittelt, was eine Desktop-Umgebung ist, ihre wichtigsten Komponenten, die Unterschiede zwischen den wichtigsten verfügbaren Lösungen und die wichtigen Kriterien für deine Wahl. Im nächsten Kapitel wirst du deine ersten Schritte mit Ubuntu, einer vielseitigen Distribution für die Allgemeinheit, machen können.
 
 
 
-## Erste Schritte mit Ubuntu: Alles, was Sie wissen müssen
+## Erste Schritte mit Ubuntu: Alles, was du wissen musst
 
 
 <chapterId>7cea476d-f759-4c7e-8ca5-8b35bc79c682</chapterId>
 
 
 
-Heute ist Ubuntu einer der zugänglichsten Zugänge zu GNU/Linux: eine ausgefeilte GNOME-Umgebung, umfangreiche Repositories, reaktionsschnelle Sicherheitsupdates und eine große Community. Deshalb habe ich mich entschieden, diese Distribution vorzustellen.
+Heute ist Ubuntu einer der zugänglichsten Wege zu GNU/Linux: eine ausgefeilte GNOME-Umgebung, umfangreiche Repositories, reaktionsschnelle Sicherheitsupdates und eine grosse Community. Deshalb habe ich mich entschieden, diese Distribution vorzustellen.
 
 
 
-Um die Installation Ihres Desktops zu meistern, müssen Sie jedoch die grundlegenden Mechanismen des Systems verstehen: Paketverwaltung, Befehlszeile, grundlegende Sicherheitsvorkehrungen und alltägliche Best Practices. In diesem Kapitel führe ich Sie Schritt für Schritt von der anfänglichen Konfiguration bis zur Installation von Produktivitäts- und Entwicklungstools, um sicherzustellen, dass Sie einen vollständigen, sicheren und effizienten Desktop haben.
+Um die Installation deines Desktops zu meistern, musst du jedoch die grundlegenden Mechanismen des Systems verstehen: Paketverwaltung, Befehlszeile, grundlegende Sicherheitsvorkehrungen und alltägliche Best Practices. In diesem Kapitel führe ich dich Schritt für Schritt von der anfänglichen Konfiguration bis zur Installation von Produktivitäts- und Entwicklungstools, um sicherzustellen, dass du einen vollständigen, sicheren und effizienten Desktop hast.
 
 
 
@@ -1775,17 +1722,18 @@ Um die Installation Ihres Desktops zu meistern, müssen Sie jedoch die grundlege
 
 
 
-Bevor Sie Ubuntu verwenden können, müssen Sie es auf Ihrem Rechner installieren. Dieser Schritt mag entmutigend erscheinen, wenn Sie ihn noch nie gemacht haben, aber heutzutage ist er sehr einfach zu bewerkstelligen.
+Bevor du Ubuntu verwenden kannst, musst du es auf deinem Rechner installieren. Dieser Schritt mag entmutigend erscheinen, wenn du ihn noch nie gemacht hast. Aber heutzutage ist er sehr einfach zu bewerkstelligen.
 
 
 
-Je nach dem Zustand Ihres aktuellen Computers sind mehrere Szenarien möglich:
+Je nach dem Zustand deines aktuellen Computers sind mehrere Szenarien möglich:
 
 
 
 
-- Wenn Sie einen Computer mit vorinstalliertem Windows haben, können Sie entweder Ubuntu neben Windows installieren (*"dual boot "*) oder Ihr aktuelles System komplett ersetzen. Wenn Sie sich für *dual boot* entscheiden, können Sie auswählen, welches Betriebssystem bei jedem Startvorgang gestartet werden soll. Dies ist die Lösung der Wahl, wenn Sie Ubuntu einfach nur testen und gleichzeitig Zugriff auf Windows haben möchten
-- Wenn Sie einen neuen Rechner ohne Betriebssystem haben, können Sie Ubuntu direkt als Hauptsystem installieren
+- Wenn du einen Computer mit vorinstalliertem Windows hast, kannst du entweder Ubuntu neben Windows installieren ("dual boot") oder dein aktuelles System komplett ersetzen. Wenn du dich für dual boot entscheidest, kannst du auswählen, welches Betriebssystem bei jedem Startvorgang gestartet werden soll. Dies ist die Lösung der Wahl, wenn du Ubuntu einfach nur testen und gleichzeitig Zugriff auf Windows haben möchtest.
+- Wenn du einen neuen Rechner ohne Betriebssystem hast, kannst du Ubuntu direkt als Hauptsystem installieren.
+
 
 
 
@@ -1797,7 +1745,7 @@ In allen Fällen folgt der Installationsprozess denselben technischen Prinzipien
 
 
 
-Die Ubuntu-Installationsdatei wird in Form eines ISO-Images geliefert, einer Datei, die alles enthält, was Sie zum Booten und Installieren des Systems benötigen. Um es zu erhalten, [besuchen Sie die offizielle Website](https://ubuntu.com/download/desktop).
+Die Ubuntu-Installationsdatei wird in Form eines ISO-Images geliefert, einer Datei, die alles enthält, was du zum Booten und Installieren des Systems benötigst. Um es zu erhalten, [besuche die offizielle Website](https://ubuntu.com/download/desktop).
 
 
 
@@ -1805,7 +1753,7 @@ Die Ubuntu-Installationsdatei wird in Form eines ISO-Images geliefert, einer Dat
 
 
 
-Es gibt 2 Versionen von Ubuntu Desktop:
+Es gibt zwei Versionen von Ubuntu Desktop:
 
 
 
@@ -1815,11 +1763,11 @@ Es gibt 2 Versionen von Ubuntu Desktop:
 
 
 
-Der Hauptunterschied zwischen einer LTS-Version und einer Nicht-LTS-Version von Ubuntu ist die Dauer des Supports und der Stabilität. Eine LTS-Version wird für 5 Jahre unterstützt. Umgekehrt wird eine Nicht-LTS-Version nur 9 Monate lang unterstützt, sodass Sie Ihr System regelmäßig aktualisieren müssen. Andererseits enthält die neueste Nicht-LTS-Version alle neuen Funktionen. Ich empfehle die LTS-Version, wenn Sie gerade erst anfangen, da sie stabiler ist und weniger große Updates erfordert. Sie können sich aber auch für die neueste Nicht-LTS-Version entscheiden, wenn Sie das möchten: Das hat keine Auswirkungen auf den Rest des Programms.
+Der Hauptunterschied zwischen einer LTS-Version und einer Nicht-LTS-Version von Ubuntu ist die Dauer des Supports und der Stabilität. Eine LTS-Version wird für fünf Jahre unterstützt. Umgekehrt wird eine Nicht-LTS-Version nur neun Monate lang unterstützt, sodass du dein System regelmässig aktualisieren musst. Andererseits enthält die neueste Nicht-LTS-Version alle neuen Funktionen. Ich empfehle die LTS-Version, wenn du gerade erst anfängst, da sie stabiler ist und weniger grosse Updates erfordert. Du kannst dich aber auch für die neueste Nicht-LTS-Version entscheiden, wenn du das möchtest: Das hat keine Auswirkungen auf den Rest des Programms.
 
 
 
-Klicken Sie einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image herunterzuladen.
+Klicke einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image herunterzuladen.
 
 
 
@@ -1827,12 +1775,10 @@ Klicken Sie einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image 
 
 
 
-Um Ubuntu auf Ihrem Computer zu installieren, müssen Sie das ISO-Image von einem USB-Stick bootfähig machen. Dieser Schlüssel wird als Installationsmedium dienen.
+Um Ubuntu auf deinem Computer zu installieren, musst du das ISO-Image von einem USB-Stick bootfähig machen. Dieser Stick wird als Installationsmedium dienen.
 
 
-
-Stecken Sie ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt wird gelöscht) und verwenden Sie dann ein Tool wie [BalenaEtcher] (https://www.balena.io/etcher), um aus dem ISO-Image ein bootfähiges Medium zu erstellen. Wählen Sie einfach die ISO-Datei und den USB-Stick aus und klicken Sie auf "*Flash*".
-
+Stecke ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt wird gelöscht) und verwende dann ein Tool wie [BalenaEtcher] (https://www.balena.io/etcher), um aus dem ISO-Image ein bootfähiges Medium zu erstellen. Wähle einfach die ISO-Datei und den USB-Stick aus und klicke auf "Flash".
 
 
 ![Image](assets/fr/061.webp)
@@ -1843,11 +1789,10 @@ Stecken Sie ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt
 
 
 
-Sie müssen Ihren Computer jetzt nicht von der Hard-Diskette, sondern vom USB-Stick booten. Starten Sie Ihren Computer neu und rufen Sie das Boot-Menü oder BIOS/UEFI auf. Dies geschieht in der Regel durch Drücken einer Taste direkt nach dem Booten Ihres Computers (oft `F2`, `F10`, `F12`, `DEL`, `ESC`). Prüfen Sie, wie Sie dieses Menü auf Ihrem Computer aufrufen können.
+Du musst deinen Computer jetzt nicht von der Festplatte, sondern vom USB-Stick booten. Starte deinen Computer neu und rufe das Boot-Menü oder BIOS/UEFI auf. Dies geschieht in der Regel durch Drücken einer Taste direkt nach dem Booten deines Computers (oft F2, F10, F12, DEL, ESC). Prüfe, wie du dieses Menü auf deinem Computer aufrufen kannst.
 
 
-
-Wählen Sie im Boot-Menü den USB-Stick aus (er kann unter dem Namen des Stickherstellers oder als "USB" erscheinen). Wählen Sie dann "*Ubuntu ausprobieren oder installieren*". Der Computer bootet dann im "Live"-Modus von Ubuntu: So können Sie das System testen, ohne etwas zu verändern, oder direkt das Installationsprogramm starten.
+Wähle im Boot-Menü den USB-Stick aus (er kann unter dem Namen des Stickherstellers oder als "USB" erscheinen). Wähle dann "Ubuntu ausprobieren oder installieren". Dein Computer bootet dann im "Live"-Modus von Ubuntu: So kannst du das System testen, ohne etwas zu verändern, oder direkt das Installationsprogramm starten.
 
 
 
@@ -1860,43 +1805,39 @@ Das Installationsprogramm wird dies vorschlagen:
 
 
 
-- wählen Sie Ihre Sprache und Zeitzone
-- verbindung zu einem Wi-Fi-Netzwerk
-- wählen Sie die Art der Installation (Standard oder erweitert), je nachdem, ob Sie ein minimales System oder eines mit vielen vorinstallierten Anwendungen wünschen
-- ob Software von Drittanbietern (Grafiktreiber, Codecs usw.) installiert werden soll oder nicht
+- wähle deine Sprache und Zeitzone
+- verbinde dich mit einem WLAN-Netzwerk
+- wähle die Art der Installation (Standard oder erweitert), je nachdem, ob du ein minimales System oder eines mit vielen vorinstallierten Anwendungen wünschst
+- entscheide, ob Software von Drittanbietern (Grafiktreiber, Codecs usw.) installiert werden soll oder nicht
+
+#### Wähle eine Installationsart
 
 
-
-#### Wählen Sie eine Installationsart
-
-
-
-Sobald Sie Ubuntu gestartet haben, führt Sie der Installationsassistent Schritt für Schritt. Folgen Sie jedem Schritt und wählen Sie die Optionen, die Ihnen am besten gefallen. Der wichtigste Schritt betrifft die Art der Installation. Je nach Ihrer Situation gibt es drei Möglichkeiten:
+Sobald du Ubuntu gestartet hast, führt dich der Installationsassistent Schritt für Schritt durch den Prozess. Folge jedem Schritt und wähle die Optionen, die dir am besten gefallen. Der wichtigste Schritt betrifft die Art der Installation. Je nach deiner Situation gibt es drei Möglichkeiten:
 
 
 
 
 
-- Installation neben Windows (*dual boot*)
+- Installation neben Windows (*dual boot*)**
 
 
 
-Wenn auf Ihrem Computer bereits Windows installiert ist, erkennt Ubuntu diese Installation automatisch und schlägt ein Dual-Boot-Setup für die beiden Betriebssysteme vor:
+Wenn auf deinem Computer bereits Windows installiert ist, erkennt Ubuntu diese Installation automatisch und schlägt ein Dual-Boot-Setup für die beiden Betriebssysteme vor:
 
 
 
 
 - Das Installationsprogramm verkleinert die Windows-Partition, um Speicherplatz freizugeben
 - Ubuntu wird in diesem freien Bereich mit eigenen Partitionen installiert
-- Es wird ein Bootmanager (GRUB) installiert, mit dem Sie bei jedem Start des Computers zwischen Windows und Ubuntu wählen können
+- Es wird ein Bootmanager (GRUB) installiert, mit dem du bei jedem Start des Computers zwischen Windows und Ubuntu wählen kannst
 
 
 
-Wählen Sie diese Option, wenn Sie Windows für bestimmte Softwareanwendungen (z. B. Videospiele) beibehalten möchten, während Sie Linux entdecken.
+Wähle diese Option, wenn du Windows für bestimmte Softwareanwendungen (z.B. Videospiele) beibehalten möchtest, während du Linux entdeckst.
 
 
-
-Um dies richtig zu tun, empfehle ich Ihnen, zunächst eine nicht zugewiesene Partition auf der Festplatte Ihrer Wahl in Windows zu erstellen und diese Partition dann bei der Installation von Ubuntu manuell auszuwählen. Öffnen Sie dazu in Windows den Datenträger-Manager, klicken Sie mit der rechten Maustaste auf den betreffenden Datenträger und wählen Sie "*Volumen verkleinern*". Geben Sie dann die Größe an, die Sie für Ubuntu reservieren möchten (ich empfehle ein Minimum von 80 GB für eine komfortable Nutzung).
+Um dies richtig zu machen, empfehle ich dir, zunächst eine nicht zugewiesene Partition auf der Festplatte deiner Wahl in Windows zu erstellen und diese Partition dann bei der Installation von Ubuntu manuell auszuwählen. Öffne dazu in Windows die Datenträgerverwaltung, klicke mit der rechten Maustaste auf den betreffenden Datenträger und wähle "*Volume verkleinern*". Gib dann die Grösse an, die du für Ubuntu reservieren möchtest (ich empfehle ein Minimum von 80 GB für eine komfortable Nutzung).
 
 
 
@@ -1906,18 +1847,17 @@ Um dies richtig zu tun, empfehle ich Ihnen, zunächst eine nicht zugewiesene Par
 
 
 
-Wenn Sie nur Ubuntu verwenden möchten, können Sie die Festplatte komplett löschen:
+Wenn du nur Ubuntu verwenden möchtest, kannst du die Festplatte komplett löschen:
 
 
 
 
-- Diese Option löscht alle vorhandenen Daten, einschließlich Windows
+- Diese Option löscht alle vorhandenen Daten, einschliesslich Windows
 - Ubuntu wird dann das einzige System sein, das auf dem Rechner installiert ist
 
 
 
-Wählen Sie diese Option nur, wenn Sie zu 100% auf GNU/Linux umsteigen wollen. Denken Sie daran, Ihre Windows-Daten zu sichern, bevor Sie sie vollständig löschen.
-
+Wähle diese Option nur, wenn du zu 100% auf GNU/Linux umsteigen willst. Denke daran, deine Windows-Daten zu sichern, bevor du sie vollständig löschst.
 
 
 
@@ -1926,25 +1866,23 @@ Wählen Sie diese Option nur, wenn Sie zu 100% auf GNU/Linux umsteigen wollen. D
 
 
 
-Wenn Ihr Rechner überhaupt kein System enthält oder wenn Sie die Festplatte vorher gelöscht haben, verläuft die Installation wie im vorherigen Fall. Ubuntu installiert sich selbst als Hauptsystem und konfiguriert automatisch die erforderlichen Partitionen.
+Wenn dein Rechner überhaupt kein System enthält oder wenn du die Festplatte vorher gelöscht hast, verläuft die Installation wie im vorherigen Fall. Ubuntu installiert sich selbst als Hauptsystem und konfiguriert automatisch die erforderlichen Partitionen.
 
 
-
-Sie werden dann aufgefordert, ein Benutzerkonto einzurichten (Name, Passwort, Rechnername). Wählen Sie ein sicheres Kennwort: Es ermöglicht Ihnen, sich am System anzumelden, Software zu installieren oder wichtige Einstellungen zu ändern
-
+Du wirst dann aufgefordert, ein Benutzerkonto einzurichten (Name, Passwort, Rechnername). Wähle ein sicheres Passwort: Es ermöglicht dir, dich am System anzumelden, Software zu installieren oder wichtige Einstellungen zu ändern
 
 
-Weitere Informationen über das Ubuntu-Installationsprogramm finden Sie auch in dieser Anleitung:
+Weitere Informationen über das Ubuntu-Installationsprogramm findest du auch in dieser Anleitung:
 
 
 
 https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
-Sobald die Installation abgeschlossen ist, entfernen Sie den USB-Stick, wenn Sie dazu aufgefordert werden, und starten Sie neu. Ubuntu ist nun auf Ihrem Rechner installiert und einsatzbereit.
+Sobald die Installation abgeschlossen ist, entferne den USB-Stick, wenn du dazu aufgefordert wirst, und starte neu. Ubuntu ist nun auf deinem Rechner installiert und einsatzbereit.
 
 
 
-Herzlichen Glückwunsch, Sie haben jetzt ein vollständiges GNU/Linux-System!
+Herzlichen Glückwunsch, du hast jetzt ein vollständiges GNU/Linux-System!
 
 
 
@@ -1956,7 +1894,7 @@ Herzlichen Glückwunsch, Sie haben jetzt ein vollständiges GNU/Linux-System!
 
 
 
-Sobald der Installationsassistent beendet ist, melden Sie sich mit dem neuen Benutzer an und öffnen ein Terminal:
+Sobald der Installationsassistent beendet ist, melde dich mit dem neuen Benutzer an und öffne ein Terminal:
 
 
 
@@ -1974,7 +1912,7 @@ Ctrl+Alt+T
 
 
 
-ISO-Images enthalten eingefrorene Pakete mehrere Wochen vor der Freigabe, daher sollten Sie immer zuerst die Indizes synchronisieren und Patches anwenden:
+ISO-Images enthalten eingefrorene Pakete mehrere Wochen vor der Freigabe, daher solltest du immer zuerst die Indizes synchronisieren und Patches anwenden:
 
 
 
@@ -1989,7 +1927,7 @@ Der erste Befehl aktualisiert die lokale Liste der Pakete, lädt neue Versionen 
 
 
 
-→ Der Befehl `sudo` führt eine Aktion mit Administratorrechten aus und fragt zur Bestätigung nach Ihrem Passwort.
+→ Der Befehl `sudo` führt eine Aktion mit Administratorrechten aus und fragt zur Bestätigung nach deinem Passwort.
 
 
 
@@ -1997,7 +1935,7 @@ Der erste Befehl aktualisiert die lokale Liste der Pakete, lädt neue Versionen 
 
 
 
-Anschließend können Sie Ihren Computer neu starten:
+Anschliessend kannst du deinen Computer neu starten:
 
 
 
@@ -2015,13 +1953,13 @@ Unter Ubuntu wird Software über ein System von offiziellen Repositories install
 
 
 
-Jedes Repository ist in Abschnitte unterteilt. Standardmäßig aktiviert Ubuntu vier Hauptbereiche:
+Jedes Repository ist in Abschnitte unterteilt. Standardmässig aktiviert Ubuntu vier Hauptbereiche:
 
 
 
 
 - **main**: Freie Software, die offiziell von Canonical gepflegt wird. Beispiele: Firefox, LibreOffice, bash
-- **eingeschränkt**: unfreie Software, die für das ordnungsgemäße Funktionieren der Hardware unerlässlich ist. Beispiele: NVIDIA-Treiber, Wi-Fi-Firmware, proprietäre Codecs
+- **eingeschränkt**: unfreie Software, die für das ordnungsgemässe Funktionieren der Hardware unerlässlich ist. Beispiele: NVIDIA-Treiber, Wi-Fi-Firmware, proprietäre Codecs
 - **universum**: Freie Software, die von der Gemeinschaft gepflegt wird. Beispiele: GIMP, Inkscape, Audacity
 - **multiverse**: Die Software unterliegt rechtlichen Einschränkungen (Patente, unfreie Lizenzen). Die Verfügbarkeit kann je nach Land variieren. Beispiele: bestimmte Audio-/Video-Codecs, Steam
 
@@ -2035,13 +1973,11 @@ Jede Komponente kann dann in mehrere Kanäle oder Zweige aufgeteilt werden: `Rel
 
 
 
-Der grafische Interface macht die Benutzung von Ubuntu intuitiv, aber für bestimmte Verwaltungsaufgaben bleibt das Terminal das effizienteste und leistungsfähigste Werkzeug. Unter Ubuntu ist die Standard-Shell **Bash** (*Bourne Again SHell*), eine freie Shell aus der Unix-Tradition.
+Die grafische Benutzeroberfläche macht die Benutzung von Ubuntu intuitiv, aber für bestimmte Verwaltungsaufgaben bleibt das Terminal das effizienteste und leistungsfähigste Werkzeug. Unter Ubuntu ist die Standard-Shell **Bash** (*Bourne Again SHell*), eine freie Shell aus der Unix-Tradition.
 
 
 
-Mit dem Terminal können Sie Dateien direkt manipulieren, das System präzise konfigurieren, Pakete verwalten, Aufgaben automatisieren oder Probleme diagnostizieren. Hier finden Sie eine Auswahl der wichtigsten Befehle, die Sie für den Einstieg benötigen.
-
-
+Mit dem Terminal kannst du Dateien direkt manipulieren, das System präzise konfigurieren, Pakete verwalten, Aufgaben automatisieren oder Probleme diagnostizieren. Hier findest du eine Auswahl der wichtigsten Befehle, die du für den Einstieg benötigst.
 
 
 
@@ -2055,7 +1991,7 @@ pwd
 
 
 
-Dieser Befehl zeigt den absoluten Pfad des Verzeichnisses an, in dem Sie sich gerade befinden. Sehr nützlich, wenn Sie Ihre Position im Verzeichnisbaum im Auge behalten wollen.
+Dieser Befehl zeigt den absoluten Pfad des Verzeichnisses an, in dem du dich gerade befindest. Sehr nützlich, wenn du deine Position im Verzeichnisbaum im Auge behalten willst.
 
 
 
@@ -2080,9 +2016,9 @@ Dieser Befehl listet die Dateien und Verzeichnisse im aktuellen Verzeichnis in e
 
 
 
-- `-l`: "*langer*" Modus, der Berechtigungen, Größe, Benutzer, Datum... anzeigt
+- `-l`: "*langer*" Modus, der Berechtigungen, Grösse, Benutzer, Datum... anzeigt
 - `-a`: zeigt auch versteckte Dateien an (die mit einem Punkt beginnen).
-- `-h`: "*menschlich-lesbar*", zeigt Größen in lesbarem Format an (KB, MB...).
+- `-h`: "*menschlich-lesbar*", zeigt Grössen in lesbarem Format an (KB, MB...).
 
 
 
@@ -2100,7 +2036,7 @@ lsblk
 
 
 
-Zeigt die Baumstruktur der an Ihr System angeschlossenen Festplatten und Partitionen an. Dies ist sehr nützlich, um z. B. ein USB-Laufwerk zu identifizieren.
+Zeigt die Baumstruktur der an dein System angeschlossenen Festplatten und Partitionen an. Dies ist sehr nützlich, um z.B. ein USB-Laufwerk zu identifizieren.
 
 
 
@@ -2116,8 +2052,8 @@ cd /path/to/directory
 
 
 
-cd" steht für "*Verzeichnis wechseln*". Damit können Sie sich im Dateibaum bewegen. Mit dem Befehl `cd Music` befinden Sie sich zum Beispiel im Verzeichnis `/Music`.
-
+"cd" steht für "*Verzeichnis wechseln*". Damit kannst du dich im Dateibaum bewegen. Mit dem Befehl `cd Music` befinden du dich zum Beispiel im Verzeichnis `/Music`.
+Damit kannst du dich im Dateibaum bewegen. Mit dem Befehl `cd Music` befindest du dich zum Beispiel im Verzeichnis `/Music`.
 
 
 ![Image](assets/fr/067.webp)
@@ -2137,7 +2073,7 @@ cd" steht für "*Verzeichnis wechseln*". Damit können Sie sich im Dateibaum bew
 
 
 
-Um ein neues Verzeichnis innerhalb des aktuellen Verzeichnisses zu erstellen, verwenden Sie den Befehl:
+Um ein neues Verzeichnis innerhalb des aktuellen Verzeichnisses zu erstellen, verwende den Befehl:
 
 
 
@@ -2147,7 +2083,7 @@ mkdir name
 
 
 
-Ändern Sie einfach "name" in den Namen Ihres neuen Verzeichnisses.
+Ändere einfach "name" in den Namen deines neuen Verzeichnisses.
 
 
 
@@ -2157,11 +2093,11 @@ mkdir name
 
 
 
-- Kopieren Sie eine Datei:
+- Kopiere eine Datei:
 
 
 
-Um eine Datei zu kopieren, verwenden Sie den Befehl `cp`, gefolgt von dem Dateinamen (Sie müssen sich in dem Verzeichnis befinden, in dem sich die Datei befindet), dann den Pfad zum Zielverzeichnis.
+Um eine Datei zu kopieren, verwende den Befehl `cp`, gefolgt von dem Dateinamen (Du musst dich in dem Verzeichnis befinden, in dem sich die Datei befindet), dann den Pfad zum Zielverzeichnis.
 
 
 
@@ -2187,7 +2123,7 @@ mv file.txt /new/directory/
 
 
 
-Mit dem Befehl `mv` können Sie eine Datei oder ein Verzeichnis verschieben oder umbenennen. Wenn Sie hinter dem Dateinamen einen Pfad zu einem anderen Verzeichnis angeben, wird die Datei verschoben. Wenn Sie einen neuen Namen im selben Verzeichnis angeben, wird die Datei umbenannt.
+Mit dem Befehl `mv` kannst du eine Datei oder ein Verzeichnis verschieben oder umbenennen. Wenn du hinter dem Dateinamen einen Pfad zu einem anderen Verzeichnis angibst, wird die Datei verschoben. Wenn du einen neuen Namen im selben Verzeichnis angibst, wird die Datei umbenannt.
 
 
 
@@ -2222,7 +2158,7 @@ Warnung: Dieser Befehl verschiebt keine Dateien in einen Papierkorb.
 
 
 
-Um Fehler mit diesem Befehl zu vermeiden, empfehle ich, standardmäßig eine Sicherheitsabfrage einzufügen. Führen Sie ihn einfach in Ihrem Terminal aus:
+Um Fehler mit diesem Befehl zu vermeiden, empfehle ich, standardmässig eine Sicherheitsabfrage einzufügen. Führe ihn einfach in deinem Terminal aus:
 
 
 
@@ -2233,7 +2169,7 @@ source ~/.bashrc
 
 
 
-Vor jeder Löschung werden Sie um eine Bestätigung gebeten.
+Vor jeder Löschung wirst du um eine Bestätigung gebeten.
 
 
 
@@ -2243,7 +2179,7 @@ Vor jeder Löschung werden Sie um eine Bestätigung gebeten.
 
 
 
-Um das Terminal zu löschen und mit einem leeren Bildschirm zu beginnen, geben Sie ein:
+Um das Terminal zu löschen und mit einem leeren Bildschirm zu beginnen, gib ein:
 
 
 
@@ -2255,7 +2191,7 @@ clear
 
 
 
-- Führen Sie einen Befehl als Administrator aus:
+- Führe einen Befehl als Administrator aus:
 
 
 
@@ -2265,11 +2201,11 @@ sudo command
 
 
 
-Mit dem Schlüsselwort "sudo" (*superuser do*) können Sie einen Befehl vorübergehend mit den Rechten eines *root* (Systemadministrators) ausführen. Sie werden nach Ihrem Passwort gefragt, um diese Aktion zu bestätigen. Seien Sie vorsichtig: Verwenden Sie niemals `sudo`, ohne zu wissen, was der Befehl bewirkt.
+Mit dem Schlüsselwort "sudo" (*superuser do*) kannst du einen Befehl vorübergehend mit den Rechten eines *root* (Systemadministrators) ausführen. Du wirst nach deinem Passwort gefragt, um diese Aktion zu bestätigen. Sei vorsichtig: Verwende niemals `sudo`, ohne zu wissen, was der Befehl bewirkt.
 
 
 
-Tipp: Um zu einer Root-Shell (Administrator-Sitzung) zu wechseln, geben Sie ein:
+Tipp: Um zu einer Root-Shell (Administrator-Sitzung) zu wechseln, gib ein:
 
 
 
@@ -2279,7 +2215,7 @@ sudo -i
 
 
 
-Dies öffnet ein vollständiges Terminal mit Root-Rechten. Verwenden Sie diese Funktion mit Vorsicht und niemals über längere Zeiträume.
+Dies öffnet ein vollständiges Terminal mit Root-Rechten. Verwende diese Funktion mit Vorsicht und niemals über längere Zeiträume.
 
 
 
@@ -2295,7 +2231,7 @@ man command_name
 
 
 
-Der Befehl `man` (*manual*) öffnet die vollständige Dokumentation eines Befehls. Navigieren Sie mit den Pfeiltasten und verlassen Sie den Befehl mit `q`.
+Der Befehl `man` (*manual*) öffnet die vollständige Dokumentation eines Befehls. Navigiere mit den Pfeiltasten und verlass den Befehl mit `q`.
 
 
 
@@ -2309,7 +2245,7 @@ man cp
 
 
 
-Eine schnelle Zusammenfassung finden Sie hier:
+Eine schnelle Zusammenfassung findest du hier:
 
 
 
@@ -2318,12 +2254,10 @@ cp --help
 ```
 
 
-
-Diese anfänglichen Befehle sind alles, was Sie brauchen, um die meisten grundlegenden Operationen in Ihrem Terminal durchzuführen. Mit etwas Übung gewinnen Sie an Selbstständigkeit und Geschwindigkeit.
-
+Diese anfänglichen Befehle sind alles, was du brauchst, um die meisten grundlegenden Operationen in deinem Terminal durchzuführen. Mit etwas Übung gewinnst du an Selbstständigkeit und Geschwindigkeit.
 
 
-In den folgenden Abschnitten sehen wir uns genauer an, wie man das Terminal zur Verwaltung des Systems, der Pakete und der Sicherheitstools verwendet.
+In den folgenden Abschnitten schauen wir uns genauer an, wie du das Terminal zur Verwaltung des Systems, der Pakete und der Sicherheitstools verwendest.
 
 
 
@@ -2331,7 +2265,7 @@ In den folgenden Abschnitten sehen wir uns genauer an, wie man das Terminal zur 
 
 
 
-Auf einem GNU/Linux-System wie Ubuntu werden die Installation, Aktualisierung und Entfernung von Software durch Paketverwaltungssysteme zentralisiert. Im Gegensatz zu Windows, wo Sie "exe"- oder "msi"-Dateien herunterladen, verwendet Ubuntu Werkzeuge wie APT, Snap oder Flatpak, um diese Vorgänge zu automatisieren und die Konsistenz des Systems zu gewährleisten.
+Auf einem GNU/Linux-System wie Ubuntu werden die Installation, Aktualisierung und Entfernung von Software durch Paketverwaltungssysteme zentralisiert. Im Gegensatz zu Windows, wo du "exe"- oder "msi"-Dateien herunterlädst, verwendet Ubuntu Werkzeuge wie APT, Snap oder Flatpak, um diese Vorgänge zu automatisieren und die Konsistenz des Systems zu gewährleisten.
 
 
 
@@ -2343,7 +2277,7 @@ APT (*Advanced Package Tool*) ist der wichtigste Paketmanager von Ubuntu. Er ver
 
 
 
-So suchen Sie in den Repositories nach einem verfügbaren Paket (Sie müssen natürlich "gimp" durch den Namen der gewünschten Software ersetzen):
+So suchst du in den Repositories nach einem verfügbaren Paket (Du müssen natürlich "gimp" durch den Namen der gewünschten Software ersetzen):
 
 
 
@@ -2371,7 +2305,7 @@ sudo apt install gimp
 
 
 
-Sobald die Installation abgeschlossen ist, finden Sie die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links auf dem Interface befindet.
+Sobald die Installation abgeschlossen ist, findest du die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links auf dem Interface befindet.
 
 
 
@@ -2379,7 +2313,7 @@ Sobald die Installation abgeschlossen ist, finden Sie die ausführbare Datei im 
 
 
 
-Noch einfacher: Sie können auch den Namen der Software direkt in das Terminal eingeben (in diesem Fall "gimp"), um sie zu öffnen.
+Noch einfacher: Du kannst auch den Namen der Software direkt in das Terminal eingeben (in diesem Fall "gimp"), um sie zu öffnen.
 
 
 
@@ -2387,7 +2321,7 @@ Noch einfacher: Sie können auch den Namen der Software direkt in das Terminal e
 
 
 
-Um Software zu entfernen, können Sie den folgenden Befehl verwenden (ersetzen Sie "gimp" durch den Namen der Software, die Sie deinstallieren möchten):
+Um Software zu entfernen, kannst du den folgenden Befehl verwenden (ersetze "gimp" durch den Namen der Software, die du deinstallieren möchtest):
 
 
 
@@ -2397,7 +2331,7 @@ sudo apt remove gimp
 
 
 
-Sie können auch `--purge` zu Ihrem Befehl hinzufügen, um die mit der Software verbundenen Konfigurationsdateien zu löschen:
+Du kannst auch `--purge` zu deinem Befehl hinzufügen, um die mit der Software verbundenen Konfigurationsdateien zu löschen:
 
 
 
@@ -2411,7 +2345,7 @@ sudo apt remove --purge gimp
 
 
 
-Um die Datenbank der verfügbaren Pakete zu aktualisieren (`update`) und die neuesten Versionen zu installieren (`upgrade`), können Sie die folgenden beiden Befehle ausführen:
+Um die Datenbank der verfügbaren Pakete zu aktualisieren (`update`) und die neuesten Versionen zu installieren (`upgrade`), kannst du die folgenden beiden Befehle ausführen:
 
 
 
@@ -2442,7 +2376,7 @@ Dies ermöglicht es, Software unabhängig vom System auf dem neuesten Stand zu h
 
 
 
-So suchen Sie nach einem Snap-Paket im Snap Store (hier für Spotify-Software):
+So suchst du nach einem Snap-Paket im Snap Store (hier für Spotify-Software):
 
 
 
@@ -2456,7 +2390,7 @@ snap find spotify
 
 
 
-So installieren Sie das Paket:
+So installierst du das Paket:
 
 
 
@@ -2466,7 +2400,7 @@ sudo snap install spotify
 
 
 
-Nach Abschluss der Installation finden Sie die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links im Interface befindet. Oder, noch einfacher: Sie können den Namen der Software direkt in das Terminal eingeben (in diesem Fall "spotify"), um sie zu öffnen.
+Nach Abschluss der Installation findest du die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links auf der Oberfläche befindet. Oder, noch einfacher: Du kannst den Namen der Software direkt in das Terminal eingeben (in diesem Fall "spotify"), um sie zu öffnen.
 
 
 
@@ -2484,7 +2418,7 @@ sudo snap refresh
 
 
 
-So löschen Sie eine Anwendung:
+So löschst du eine Anwendung:
 
 
 
@@ -2520,7 +2454,7 @@ sudo apt install flatpak gnome-software-plugin-flatpak
 
 
 
-So fügen Sie das Haupt-Community-Repository (Flathub) hinzu:
+So fügst du das Haupt-Community-Repository (Flathub) hinzu:
 
 
 
@@ -2530,7 +2464,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 
 
-Um eine Anwendung über Flatpak zu installieren, verwenden Sie den folgenden Befehl (in diesem Beispiel, um die VLC-Software zu installieren):
+Um eine Anwendung über Flatpak zu installieren, verwende den folgenden Befehl (in diesem Beispiel, um die VLC-Software zu installieren):
 
 
 
@@ -2558,17 +2492,17 @@ Kurz und bündig:
 
 
 
-Ubuntu enthält eine Anwendung namens *App Center*, die als grafischer Interface zum einfachen Suchen, Installieren und Deinstallieren von Anwendungen dient, ohne die Befehlszeilen zu verwenden, wie wir gerade gesehen haben. Technisch gesehen fungiert das App Center als Overlay für den Paketmanager. Es kann daher:
+Ubuntu enthält eine Anwendung namens *App Center*, die als grafische Oberfläche zum einfachen Suchen, Installieren und Deinstallieren von Anwendungen dient, ohne die Befehlszeilen zu verwenden, wie wir gerade gesehen haben. Technisch gesehen fungiert das App Center als Overlay für den Paketmanager. Es kann daher:
 
 
 
 
 - .deb-Pakete mit APT installieren
-- Installieren Sie Snap-Pakete aus dem Snap Store
+- Installiere Snap-Pakete aus dem Snap Store
 
 
 
-Der App Center Store ist also kein eigenständiges Installationssystem, sondern ein Interface, das verschiedene Softwarequellen zusammenführt und vereinheitlicht, mit einer Suchmaschine, beschreibenden Informationen und einsteigerfreundlichen Installationsschaltflächen.
+Der App Center Store ist also kein eigenständiges Installationssystem, sondern eine Interface, das verschiedene Softwarequellen zusammenführt und vereinheitlicht, mit einer Suchmaschine, beschreibenden Informationen und einsteigerfreundlichen Installationsschaltflächen.
 
 
 
@@ -2580,7 +2514,7 @@ Der App Center Store ist also kein eigenständiges Installationssystem, sondern 
 
 
 
-Um die Stabilität und Sicherheit Ihres Systems zu gewährleisten, wendet Ubuntu automatisch kritische Updates über einen Dienst namens `unattended-upgrades` an. Dieser Dienst läuft im Hintergrund und installiert die von der Distribution veröffentlichten Sicherheitspatches, ohne dass Sie eingreifen müssen.
+Um die Stabilität und Sicherheit deines Systems zu gewährleisten, wendet Ubuntu automatisch kritische Updates über einen Dienst namens `unattended-upgrades` an. Dieser Dienst läuft im Hintergrund und installiert die von der Distribution veröffentlichten Sicherheitspatches, ohne dass du eingreifen musst.
 
 
 
@@ -2598,7 +2532,7 @@ sudo systemctl status unattended-upgrades
 
 
 
-Sie sollten eine Ausgabe sehen, die anzeigt, dass der Dienst "aktiv (läuft)" ist.
+Du solltest eine Ausgabe sehen, die anzeigt, dass der Dienst "aktiv (läuft)" ist.
 
 
 
@@ -2606,7 +2540,7 @@ Sie sollten eine Ausgabe sehen, die anzeigt, dass der Dienst "aktiv (läuft)" is
 
 
 
-Sollte dies nicht der Fall sein, können Sie sie manuell aktivieren:
+Sollte dies nicht der Fall sein, kannst du sie manuell aktivieren:
 
 
 
@@ -2616,11 +2550,11 @@ sudo systemctl enable --now unattended-upgrades
 
 
 
-Dieser Dienst schützt Ihr System vor neu entdeckten Sicherheitslücken, ohne dass Sie jeden Tag manuell nach Updates suchen müssen. Er ist besonders nützlich für Arbeitsstationen, die nicht genau überwacht werden, wie z. B. PCs, da er einen Grundstock an Sicherheitsupdates garantiert.
+Dieser Dienst schützt dein System vor neu entdeckten Sicherheitslücken, ohne dass du jeden Tag manuell nach Updates suchen musst. Er ist besonders nützlich für Arbeitsstationen, die nicht genau überwacht werden, wie z.B. PCs, da er einen Grundstock an Sicherheitsupdates garantiert.
 
 
 
-→ **Bitte beachten Sie:** `unattended-upgrades` ist auf Sicherheitspakete aus dem `security`-Repository beschränkt. Es wendet daher keine Standard-Software-Updates an, die Sie manuell durchführen müssen.
+→ **Bitte beachte:** `unattended-upgrades` ist auf Sicherheitspakete aus dem `security`-Repository beschränkt. Es wendet daher keine Standard-Software-Updates an. Diese musst du manuell durchführen.
 
 
 
@@ -2628,7 +2562,7 @@ Dieser Dienst schützt Ihr System vor neu entdeckten Sicherheitslücken, ohne da
 
 
 
-Auch wenn kritische Patches automatisch installiert werden, ist es wichtig, regelmäßig ein vollständiges manuelles Update durchzuführen, um von den neuesten Versionen von Software und Komponenten zu profitieren, die nicht von "unattended-upgrades" abgedeckt werden. Führen Sie dazu den Befehl aus:
+Auch wenn kritische Patches automatisch installiert werden, ist es wichtig, regelmässig ein vollständiges manuelles Update durchzuführen. So kannst du von den neuesten Versionen von Software und Komponenten zu profitieren, die nicht von "unattended-upgrades" abgedeckt werden. Führe dazu den Befehl aus:
 
 
 
@@ -2649,7 +2583,7 @@ sudo apt update && sudo apt full-upgrade
 
 
 
-Nach der Aktualisierung können Sie unnötige Dateien mit bereinigen:
+Nach der Aktualisierung kannst du unnötige Dateien mit bereinigen:
 
 
 
@@ -2663,8 +2597,7 @@ Mit diesem Befehl werden veraltete Pakete und zugehörige Konfigurationsdateien 
 
 
 
-Wenn Sie Software über Snap- oder Flatpak-Paketmanager installiert haben, können Sie diese beiden Befehle auch zur Aktualisierung verwenden:
-
+Wenn du Software über Snap- oder Flatpak-Paketmanager installiert hast, kannst du diese beiden Befehle auch zur Aktualisierung verwenden:
 
 
 ```bash
@@ -2678,7 +2611,7 @@ flatpak update
 
 
 
-Einige wichtige Aktualisierungen, z. B. für den Linux-Kernel oder libc (die von den meisten Programmen verwendete Standard-C-Sprachbibliothek), werden erst nach einem Neustart Ihres Computers wirksam. Um herauszufinden, ob ein Neustart ratsam ist, installieren Sie das Werkzeug `needrestart`:
+Einige wichtige Aktualisierungen, z.B. für den Linux-Kernel oder libc (die von den meisten Programmen verwendete Standard-C-Sprachbibliothek), werden erst nach einem Neustart deines Computers wirksam. Um herauszufinden, ob ein Neustart ratsam ist, installiere das Werkzeug `needrestart`:
 
 
 
@@ -2688,7 +2621,7 @@ sudo apt install needrestart
 
 
 
-Dann laufen Sie:
+Dann führe folgendes aus:
 
 
 
@@ -2698,7 +2631,7 @@ sudo needrestart
 
 
 
-Dieses Programm analysiert alle Dienste oder Prozesse, auf denen noch ältere Versionen von Bibliotheken oder Kerneln laufen, und teilt Ihnen mit, ob ein Neustart erforderlich ist, um die Aktualisierungen anzuwenden.
+Dieses Programm analysiert alle Dienste oder Prozesse, auf denen noch ältere Versionen von Bibliotheken oder Kerneln laufen, und teilt dir mit, ob ein Neustart erforderlich ist, um die Aktualisierungen anzuwenden.
 
 
 
@@ -2706,7 +2639,7 @@ Dieses Programm analysiert alle Dienste oder Prozesse, auf denen noch ältere Ve
 
 
 
-Ihr System und Ihre Software auf dem neuesten Stand zu halten, ist ein wesentlicher Reflex, wenn es um die Sicherheit Ihres Computers geht. Ein aktuelles Linux-System ist eine Garantie für Stabilität, Sicherheit und Leistung.
+Dein System und deine Software auf dem neuesten Stand zu halten, ist ein wesentlicher Punkt, wenn es um die Sicherheit deines Computers geht. Ein aktuelles Linux-System ist eine Garantie für Stabilität, Sicherheit und Leistung.
 
 
 
@@ -2714,11 +2647,11 @@ Ihr System und Ihre Software auf dem neuesten Stand zu halten, ist ein wesentlic
 
 
 
-Eine Firewall ist ein Sicherheitswerkzeug, das die ein- und ausgehenden Netzwerkverbindungen eines Computers kontrolliert. Unter Ubuntu verwenden Sie es, um den Datenverkehr zu filtern und nur legitime Kommunikationen zuzulassen und potenziell bösartige zu blockieren. Dies verhindert zum Beispiel unerwünschte Eindringlinge von außen, um Ihre Daten und Ihr System weiter zu schützen.
+Eine Firewall ist ein Sicherheitswerkzeug, das die ein- und ausgehenden Netzwerkverbindungen eines Computers kontrolliert. Unter Ubuntu verwendest du es, um den Datenverkehr zu filtern und nur legitime Kommunikationen zuzulassen und potenziell bösartige zu blockieren. Dies verhindert zum Beispiel unerwünschte Eindringlinge von aussen, um deine Daten und dein System weiter zu schützen.
 
 
 
-Sobald Sie Ubuntu installiert haben, ist die Absicherung der Netzwerkkommunikation Ihres Rechners ein wichtiger Schritt. Ubuntu enthält eine Standard-Firewall: UFW (*Uncomplicated Firewall*). Sie ermöglicht es Ihnen, ein- und ausgehende Verbindungen mit fein abgestufter Kontrolle zu verwalten, ohne dass Sie manuell komplexe Regeln schreiben müssen.
+Sobald du Ubuntu installiert hast, ist die Absicherung der Netzwerkkommunikation deines Rechners ein wichtiger Schritt. Ubuntu enthält eine Standard-Firewall: UFW (*Uncomplicated Firewall*). Sie ermöglicht es dir, ein- und ausgehende Verbindungen mit fein abgestufter Kontrolle zu verwalten, ohne dass du manuell komplexe Regeln schreiben musst.
 
 
 
@@ -2726,7 +2659,7 @@ Sobald Sie Ubuntu installiert haben, ist die Absicherung der Netzwerkkommunikati
 
 
 
-Standardmäßig ist UFW installiert, aber nicht aktiv. So aktivieren Sie es:
+Standardmässig ist UFW installiert, aber nicht aktiv. So aktivierst du es:
 
 
 
@@ -2740,7 +2673,7 @@ sudo ufw enable
 
 
 
-Nach der Aktivierung können Sie den Status und die aktuellen Regeln mit überprüfen:
+Nach der Aktivierung kannst du den Status und die aktuellen Regeln mit überprüfen:
 
 
 
@@ -2754,7 +2687,7 @@ sudo ufw status verbose
 
 
 
-Die UFW verfolgt standardmäßig die Strategie, unaufgefordert eingehende Verbindungen abzulehnen, aber ausgehenden Datenverkehr zuzulassen, was einen guten Kompromiss zwischen Sicherheit und Funktionalität für einen Allzweck-PC darstellt.
+Die UFW verfolgt standardmässig die Strategie, unaufgefordert eingehende Verbindungen abzulehnen, aber ausgehenden Datenverkehr zuzulassen, was einen guten Kompromiss zwischen Sicherheit und Funktionalität für einen Allzweck-PC darstellt.
 
 
 
@@ -2762,8 +2695,7 @@ Die UFW verfolgt standardmäßig die Strategie, unaufgefordert eingehende Verbin
 
 
 
-Wenn Sie einen Dienst aus der Ferne zugänglich machen müssen (z. B. einen SSH-Server), müssen Sie ihn ausdrücklich autorisieren:
-
+Wenn du einen Dienst aus der Ferne zugänglich machen musst (z.B. einen SSH-Server), musst du ihn ausdrücklich autorisieren:
 
 
 ```bash
@@ -2776,11 +2708,11 @@ sudo ufw allow 22/tcp comment 'SSH'
 
 - 22" ist der Standardanschluss für den SSH-Dienst
 - tcp" ist das verwendete Protokoll
-- Mit der Option "Kommentar" können Sie eine lesbare Anmerkung hinzufügen, um die Interpretation der Regeln später zu erleichtern
+- Mit der Option "Kommentar" kannst du eine lesbare Anmerkung hinzufügen, um die Interpretation der Regeln später zu erleichtern
 
 
 
-Sie können die Regel mit überprüfen:
+Du kannst die Regel so überprüfen:
 
 
 
@@ -2794,7 +2726,7 @@ sudo ufw status numbered
 
 
 
-#### Definieren Sie Regeln nach IP-Bereich (lokale Verwendung)
+#### Definiere Regeln nach IP-Bereich (lokale Verwendung)
 
 
 
@@ -2808,15 +2740,15 @@ sudo ufw allow from 192.168.1.0/24 to any port 6881 proto tcp
 
 
 
-Dies erlaubt TCP-Verbindungen an Port 6881 nur aus dem Subnetz 192.168.1.0/24 (typischerweise Ihr Wi-Fi-Heimnetzwerk).
+Dies erlaubt TCP-Verbindungen an Port 6881 nur aus dem Subnetz 192.168.1.0/24 (typischerweise dein Wi-Fi-Heimnetzwerk).
 
 
 
-#### Grafischer Interface: GUFW
+#### Grafisches Interface: GUFW
 
 
 
-Wenn Sie sich mit dem Terminal nicht so gut auskennen, gibt es ein grafisches Interface namens GUFW, das die Verwaltung von Firewall-Regeln mit Schaltflächen, Dropdown-Listen und Dialogfeldern erleichtert. Zum Installieren:
+Wenn du dich mit dem Terminal nicht so gut auskennst, gibt es ein grafisches Interface namens GUFW, das die Verwaltung von Firewall-Regeln mit Schaltflächen, Dropdown-Listen und Dialogfeldern erleichtert. Zum Installieren:
 
 
 
@@ -2826,7 +2758,7 @@ sudo apt install gufw
 
 
 
-Nach der Installation starten Sie es über das Anwendungsmenü. Sie können die Firewall aktivieren, Dienste zulassen oder blockieren und gefilterte Verbindungen in Echtzeit anzeigen.
+Nach der Installation startest du es über das Anwendungsmenü. Du kannst die Firewall aktivieren, Dienste zulassen oder blockieren und gefilterte Verbindungen in Echtzeit anzeigen.
 
 
 
@@ -2834,7 +2766,7 @@ Nach der Installation starten Sie es über das Anwendungsmenü. Sie können die 
 
 
 
-→ **Gute Praktiken:** Auch wenn Sie keine Netzwerkdienste nach außen freigeben, ist eine Firewall dennoch nützlich, um bestimmte Arten von Scans oder Zugriffen zu blockieren. Denken Sie auch daran, unnötige Dienste zu deaktivieren und Ihre Netzwerksoftware immer auf dem neuesten Stand zu halten. Diese Absicherung des lokalen Netzwerks ist eine erste Verteidigungslinie im Rahmen einer umfassenderen Sicherheitsstrategie, auf die wir später im Kurs noch zurückkommen werden.
+→ **Gute Praktiken:** Auch wenn du keine Netzwerkdienste nach aussen freigibst, ist eine Firewall dennoch nützlich, um bestimmte Arten von Scans oder Zugriffen zu blockieren. Denke auch daran, unnötige Dienste zu deaktivieren und deine Netzwerksoftware immer auf dem neuesten Stand zu halten. Diese Absicherung des lokalen Netzwerks ist eine erste Verteidigungslinie im Rahmen einer umfassenderen Sicherheitsstrategie, auf die wir später im Kurs noch zurückkommen werden.
 
 
 
@@ -2846,16 +2778,16 @@ Unter Ubuntu wird die Netzwerkverwaltung von *NetworkManager* übernommen, einem
 
 
 
-#### Verwaltung über grafische Interface
+#### Verwaltung über das grafische Interface
 
 
 
-Für die meisten Benutzer ist das in GNOME integrierte grafische Interface (Systemeinstellungen → Netzwerk/Wi-Fi) mehr als ausreichend. Es erlaubt Ihnen zu:
+Für die meisten Benutzer ist das in GNOME integrierte grafische Interface (Systemeinstellungen → Netzwerk/Wi-Fi) mehr als ausreichend. Es erlaubt dir folgendes:
 
 
 
 
-- Verbinden Sie sich mit einem verfügbaren Wi-Fi-Netzwerk
+- Dich mit einem verfügbaren Wi-Fi-Netzwerk zu verbinden
 - Verwalten von kabelgebundenen Verbindungen, Proxys oder VPNs
 - Anzeigen des aktuellen Status der einzelnen Netzwerke Interface
 
@@ -2873,13 +2805,13 @@ Dieser intuitive Verwaltungsmodus deckt die meisten klassischen Anforderungen an
 
 
 
-Für die Fehlersuche oder den Fernzugriff können Sie mit dem Befehl `nmcli` den *NetworkManager* über die Befehlszeile bearbeiten.
+Für die Fehlersuche oder den Fernzugriff kannst du mit dem Befehl `nmcli` den *NetworkManager* über die Befehlszeile bearbeiten.
 
 
 
 
 
-- So zeigen Sie erkannte Netzwerkschnittstellen an:
+- So zeigst du erkannte Netzwerkschnittstellen an:
 
 
 
@@ -2891,7 +2823,7 @@ nmcli device status
 
 
 
-- So scannen Sie nahe gelegene Wi-Fi-Netzwerke
+- So scannst du nahe gelegene Wi-Fi-Netzwerke
 
 
 
@@ -2903,7 +2835,7 @@ nmcli device wifi list
 
 
 
-- So stellen Sie eine Verbindung zu einem Wi-Fi-Netzwerk her
+- So stellst du eine Verbindung zu einem Wi-Fi-Netzwerk her
 
 
 
@@ -2917,7 +2849,7 @@ nmcli device wifi connect "wifi_name" password "password"
 
 
 
-Sobald Ihr Basissystem einsatzbereit ist, besteht der nächste Schritt darin, die benötigte Software zu installieren. Ubuntu bietet mehrere Installationsmethoden an (APT, Snap, Flatpak), die wir oben ausführlich beschrieben haben. Hier verwenden wir, wann immer möglich, APT, um die native Integration mit dem System zu erhalten.
+Sobald dein Basissystem einsatzbereit ist, besteht der nächste Schritt darin, die benötigte Software zu installieren. Ubuntu bietet mehrere Installationsmethoden an (APT, Snap, Flatpak), die wir oben ausführlich beschrieben haben. Hier verwenden wir, wann immer möglich, APT, um die native Integration mit dem System zu erhalten.
 
 
 
@@ -2925,11 +2857,11 @@ Sobald Ihr Basissystem einsatzbereit ist, besteht der nächste Schritt darin, di
 
 
 
-Ubuntu enthält standardmäßig die Snap-Version von Firefox. Dieses Format bietet eine bessere Isolierung (was im Hinblick auf die Sicherheit gut ist), führt aber zu langsameren Startzeiten, höherem Ressourcenverbrauch und einigen Einschränkungen bei der Systemintegration (Dateiverwaltung, Themen...).
+Ubuntu enthält standardmässig die Snap-Version von Firefox. Dieses Format bietet eine bessere Isolierung (was im Hinblick auf die Sicherheit gut ist), führt aber zu langsameren Startzeiten, höherem Ressourcenverbrauch und einigen Einschränkungen bei der Systemintegration (Dateiverwaltung, Themen...).
 
 
 
-Wenn Sie die native `.deb`-Version bevorzugen, können Sie sie aus dem offiziellen Mozilla-PPA installieren:
+Wenn du die native `.deb`-Version bevorzugst, kannst du sie aus dem offiziellen Mozilla-PPA installieren:
 
 
 
@@ -2959,7 +2891,7 @@ Dies friert die aktuell installierte `.deb`-Version ein. Sie wird weiterhin aktu
 
 
 
-Wir werden uns in einem späteren Kapitel näher mit Browsern befassen, um Ihnen bei der Auswahl des für Ihre Bedürfnisse am besten geeigneten Browsers zu helfen und ihn optimal zu konfigurieren.
+Wir werden uns in einem späteren Kapitel näher mit Browsern befassen, um dir bei der Auswahl des für deine Bedürfnisse am besten geeigneten Browsers zu helfen und ihn optimal zu konfigurieren.
 
 
 
@@ -2977,7 +2909,6 @@ sudo apt install thunderbird
 
 
 
-https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Office-Paket
 
 
@@ -2992,7 +2923,7 @@ sudo apt install libreoffice
 
 
 
-Wenn Sie eine gezieltere Installation wünschen:
+Wenn du eine gezieltere Installation wünschst:
 
 
 
@@ -3028,7 +2959,7 @@ sudo apt install vlc
 
 
 
-Ubuntu stellt bestimmte proprietäre Codecs (MP3, H.264...) aus rechtlichen Gründen standardmäßig nicht zur Verfügung. Das folgende Paket fügt diese wesentlichen Elements:
+Ubuntu stellt bestimmte proprietäre Codecs (MP3, H.264...) aus rechtlichen Gründen standardmässig nicht zur Verfügung. Das folgende Paket fügt diese wesentlichen Elemente hinzu:
 
 
 
@@ -3056,7 +2987,7 @@ GIMP ist ein fortschrittliches Fotobearbeitungsprogramm, vergleichbar mit Adobe 
 
 
 
-Für die Videobearbeitung können Sie Kdenlive installieren, das umfassend und intuitiv ist und sich für Anfänger und Fortgeschrittene gleichermaßen eignet:
+Für die Videobearbeitung kannst du Kdenlive installieren, das umfassend und intuitiv ist und sich für Anfänger und Fortgeschrittene gleichermassen eignet:
 
 
 
@@ -3090,7 +3021,7 @@ sudo apt install obs-studio
 
 
 
-Wenn Sie ein Entwickler sind, können Sie mit diesem Befehl eine grundlegende C/C++-Entwicklungsumgebung, Git und andere Dienstprogramme installieren:
+Wenn du ein Entwickler bist, kannst du mit diesem Befehl eine grundlegende C/C++-Entwicklungsumgebung, Git und andere Dienstprogramme installieren:
 
 
 
@@ -3100,7 +3031,7 @@ sudo apt install build-essential git curl
 
 
 
-So installieren Sie VSCode
+So installierst du VSCode
 
 
 
@@ -3110,7 +3041,7 @@ sudo snap install code --classic
 
 
 
-Zusätzlich zu diesen wenigen grundlegenden Tools empfehle ich Ihnen die Installation wesentlicher, auf Ihren Anwendungsfall abgestimmter Sicherheitstools, insbesondere einen Passwortmanager und ein VPN:
+Zusätzlich zu diesen wenigen grundlegenden Tools empfehle ich dir die Installation wesentlicher, auf deinen Anwendungsfall abgestimmter Sicherheitstools, insbesondere einen Passwortmanager und ein VPN:
 
 
 
@@ -3122,19 +3053,17 @@ https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Zum Abschluss dieses Kapitels finden Sie hier einige bewährte Praktiken, die Sie täglich anwenden sollten:
+Zum Abschluss dieses Kapitels findest du hier einige bewährte Praktiken, die du täglich anwenden solltest:
 
 
 
 
 
-- Verwenden Sie den Befehl `sudo` nur, wenn es unbedingt notwendig ist. Dieser Befehl erhöht vorübergehend Ihre Rechte, um eine Aktion als Administrator durchzuführen. Ein `sudo`-Fehler (z.B. ein `rm -rf`) kann das gesamte System betreffen. Sie sollten es auch vermeiden, für längere Sitzungen in den Root-Modus (`sudo -i`) zu wechseln, es sei denn, dies ist ausnahmsweise notwendig;
+- Verwende den Befehl `sudo` nur, wenn es unbedingt notwendig ist. Dieser Befehl erhöht vorübergehend deine Rechte, um eine Aktion als Administrator durchzuführen. Ein `sudo`-Fehler (z.B. ein `rm -rf`) kann das gesamte System betreffen. Du solltest es auch vermeiden, für längere Sitzungen in den Root-Modus (`sudo -i`) zu wechseln, es sei denn, dies ist ausnahmsweise notwendig;
 
 
 
-
-
-- Obwohl Ubuntu bestimmte Sicherheitspatches automatisch über den Dienst `unattended-upgrades` aufspielt, deckt dies nicht alle Software ab. Sie sollten regelmäßig eine vollständige manuelle Aktualisierung durchführen:
+- Obwohl Ubuntu bestimmte Sicherheitspatches automatisch über den Dienst `unattended-upgrades` aufspielt, deckt dies nicht alle Software ab. Du solltest regelmässig eine vollständige manuelle Aktualisierung durchführen:
 
 
 
@@ -3144,18 +3073,16 @@ sudo apt update && sudo apt upgrade
 
 
 
-Mit diesem Kapitel über die Grundlagen von Ubuntu verfügen Sie nun über eine funktionale, konsistente und alltagstaugliche Linux-Umgebung. Sie wissen, wie Sie Software installieren, Ihr Netzwerk konfigurieren, Ihr System auf dem neuesten Stand halten und über das Kommandozeilenterminal intervenieren können.
+Mit diesem Kapitel über die Grundlagen von Ubuntu verfügst du nun über eine funktionale, konsistente und alltagstaugliche Linux-Umgebung. Du weisst, wie du Software installieren, dein Netzwerk konfigurieren, dein System auf dem neuesten Stand halten und über das Kommandozeilenterminal intervenieren kannst.
 
 
-
-Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kurses zuversichtlich anzugehen. Im nächsten Abschnitt werden wir die Sicherheitsmechanismen Ihres Arbeitsplatzes genauer unter die Lupe nehmen und die ersten konkreten Maßnahmen zur Stärkung seiner Widerstandsfähigkeit umsetzen.
-
-
+Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kurses zuversichtlich anzugehen. Im nächsten Abschnitt werden wir die Sicherheitsmechanismen deines Arbeitsplatzes genauer unter die Lupe nehmen und die ersten konkreten Massnahmen zur Stärkung seiner Widerstandsfähigkeit umsetzen.
 
 
 
 
-# Sichern Sie Ihren Computer
+
+# Sichere deinen Computer
 
 
 <partId>7fda3e41-ff0e-4fa0-8bd5-350d9ad5bbec</partId>
@@ -3169,15 +3096,14 @@ Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kur
 
 
 
-Die Sicherheit Ihres Computers beginnt mit zwei wichtigen Konzepten der Cybersicherheit: Authentifizierung und Partitionierung. Diese beiden Konzepte bilden die Grundlage für den wirksamen Schutz Ihres Computers, die Wahrung Ihrer Privatsphäre und die Gewährleistung Ihrer digitalen Souveränität. In diesem Kapitel werden wir uns eingehend damit beschäftigen, wie Sie diese Aspekte auf Ihrem Computer verwalten können.
+Die Sicherheit deines Computers beginnt mit zwei wichtigen Konzepten der Cybersicherheit: Authentifizierung und Partitionierung. Diese beiden Konzepte bilden die Grundlage für den wirksamen Schutz deines Computers, die Wahrung deiner Privatsphäre und die Gewährleistung deiner digitalen Souveränität. In diesem Kapitel werden wir uns eingehend damit beschäftigen, wie du diese Aspekte auf deinem Computer verwalten kannst.
+
+
+### Schütze den Zugang zu deinem Computer
 
 
 
-### Schützen Sie den Zugang zu Ihrem Computer
-
-
-
-Der Schutz des physischen und softwaremäßigen Zugangs zu Ihrem Computer ist die Grundlage für dessen Sicherheit. Ein ungesicherter Rechner kann leicht zu einem Einstiegspunkt für einen Angreifer werden oder sensible Daten nach außen dringen lassen, auch ohne Internetverbindung. Unabhängig davon, ob Sie Windows, macOS oder Linux verwenden, gibt es einige grundlegende Maßnahmen, die Sie ergreifen müssen, um das Risiko eines unbefugten Zugriffs zu begrenzen.
+Der Schutz des physischen und softwaremässigen Zugangs zu deinem Computer ist die Grundlage für dessen Sicherheit. Ein ungesicherter Rechner kann leicht zu einem Einstiegspunkt für einen Angreifer werden oder sensible Daten nach aussen dringen lassen, auch ohne Internetverbindung. Unabhängig davon, ob du Windows, macOS oder Linux verwendest, gibt es einige grundlegende Massnahmen, die du ergreifen musst, um das Risiko eines unbefugten Zugriffs zu begrenzen.
 
 
 
@@ -3185,7 +3111,7 @@ Der Schutz des physischen und softwaremäßigen Zugangs zu Ihrem Computer ist di
 
 
 
-Das Sitzungskennwort (dasjenige, nach dem Sie beim Start oder beim Aufwachen aus dem Ruhezustand gefragt werden) ist die erste Barriere gegen Einbruchsversuche. Es verhindert, dass ein Dritter auf Ihre Daten zugreift oder Ihr System manipuliert, wenn Ihr Rechner gestohlen oder unbeaufsichtigt gelassen wird.
+Das Sitzungskennwort (dasjenige, nach dem du beim Start oder beim Aufwachen aus dem Ruhezustand gefragt wirst) ist die erste Barriere gegen Einbruchsversuche. Es verhindert, dass ein Dritter auf deine Daten zugreift oder dein System manipuliert, wenn dein Rechner gestohlen oder unbeaufsichtigt gelassen wird.
 
 
 
@@ -3194,9 +3120,9 @@ Dieses Passwort muss sicher sein:
 
 
 
-- Er muss lang genug sein. Gegenwärtig (Juni 2025) empfehle ich ein Minimum von 20 Zeichen;
-- Er muss Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten;
-- Sie sollte so zufällig wie möglich sein und keine Verbindungen zu Elements aus Ihrem direkten oder indirekten Umfeld enthalten, wie z. B. einen Namen, ein Datum oder einen Ort.
+- Es muss lang genug sein. Gegenwärtig (Juni 2025) empfehle ich ein Minimum von 20 Zeichen;
+- Es muss Gross- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten;
+- Es sollte so zufällig wie möglich sein und keine Verbindungen zu Elementen aus deinem direkten oder indirekten Umfeld enthalten, wie z.B. einen Namen, ein Datum oder einen Ort.
 
 
 
@@ -3216,46 +3142,44 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Ändern Sie dieses Kennwort regelmäßig - alle 3 bis 6 Monate -, vor allem, wenn Ihr Computer in gemeinsam genutzten oder mobilen Umgebungen verwendet wird.
-
+Ändere dieses Kennwort regelmässig - alle 3 bis 6 Monate -, vor allem, wenn dein Computer in gemeinsam genutzten oder mobilen Umgebungen verwendet wird.
 
 
 #### Absicherung des BIOS/UEFI-Zugriffs
 
 
 
-Die Sicherheit Ihres Computers beginnt nicht erst mit dem Start des Betriebssystems, sondern schon von Anfang an. Bevor Windows, Linux oder macOS überhaupt läuft, übernimmt ein in die Hauptplatine integriertes Programm, das je nach Generation Ihres Rechners BIOS oder UEFI genannt wird, die Kontrolle über den Rechner, um die Hardware zu initialisieren und den Boot-Prozess zu starten.
-
+Die Sicherheit deines Computers beginnt nicht erst mit dem Start des Betriebssystems, sondern schon von Anfang an. Bevor Windows, Linux oder macOS überhaupt läuft, übernimmt ein in die Hauptplatine integriertes Programm, das je nach Generation deines Rechners BIOS oder UEFI genannt wird, die Kontrolle über den Rechner, um die Hardware zu initialisieren und den Boot-Prozess zu starten.
 
 
 BIOS (*Basic Input/Output System*) ist der Vorgänger von UEFI (*Unified Extensible Firmware Interface*). Heute ist UEFI der Standard auf allen modernen Computern.
 
 
 
-Standardmäßig ist der Zugriff auf diese Einstellungen ungeschützt. Ein Angreifer mit physischem Zugang zu Ihrem Rechner (in einem gemeinsam genutzten Raum, im Falle eines Diebstahls oder sogar vorübergehend ohne Ihr Wissen) könnte in Interface UEFI eindringen und kritische Einstellungen ändern. Das könnte er zum Beispiel:
+Standardmässig ist der Zugriff auf diese Einstellungen ungeschützt. Ein Angreifer mit physischem Zugang zu deinem Rechner (in einem gemeinsam genutzten Raum, im Falle eines Diebstahls oder sogar vorübergehend ohne dein Wissen) könnte ins UEFI eindringen und kritische Einstellungen ändern. Folgendes könnte er zum Beispiel anstellen:
 
 
 
 
 - Ändern der Bootreihenfolge, um den Start eines externen Systems von einem USB-Stick zu erzwingen
-- Deaktivieren Sie Sicherheitsmechanismen wie Secure Boot
-- Installation von Malware in der Firmware Ihres Computers...
+- Deaktivieren der Sicherheitsmechanismen wie Secure Boot
+- Installation von Malware in der Firmware des Computers...
 
 
 
-Um sich vor diesen Offline-Angriffen zu schützen, ist es wichtig, den Zugriff auf das BIOS/UEFI mit einem Passwort zu sperren. Dieses Kennwort ist von Ihrem Betriebssystemkennwort getrennt und verhindert den unbefugten Zugriff auf BIOS/UEFI.
+Um sich vor diesen Offline-Angriffen zu schützen, ist es wichtig, den Zugriff auf das BIOS/UEFI mit einem Passwort zu sperren. Dieses Kennwort ist von deinem Betriebssystemkennwort getrennt und verhindert den unbefugten Zugriff auf das BIOS/UEFI.
 
 
 
-Um es zu aktivieren, hängt es von Ihrem Motherboard-Modell ab, aber im Allgemeinen benötigen Sie es:
+Wie du es aktivierst, hängt von deinem Motherboard-Modell ab. Aber im Allgemeinen funktioniert es so:
 
 
 
 
-- Starten Sie Ihren Computer neu
-- Drücken Sie unmittelbar nach dem Einschalten schnell die BIOS/UEFI-Zugangstaste für Ihr Gerät (`Entf`, `F2`, `F10`, `Esc`...)
-- Suchen Sie in der angezeigten Interface die Optionen für das Sicherheits- oder Administratorkennwort
-- Legen Sie ein langes, eindeutiges und zufälliges Passwort fest und speichern Sie es
+- Starte deinen Computer neu
+- Drücke unmittelbar nach dem Einschalten schnell die BIOS/UEFI-Zugangstaste für dein Gerät (`Entf`, `F2`, `F10`, `Esc`...)
+- Suche im angezeigten Interface die Optionen für das Sicherheits- oder Administratorkennwort
+- Lege ein langes, eindeutiges und zufälliges Passwort fest und speichere es
 - Änderungen speichern und Computer neu starten
 
 
@@ -3264,15 +3188,14 @@ Um es zu aktivieren, hängt es von Ihrem Motherboard-Modell ab, aber im Allgemei
 
 
 
-**Warnung:** Wenn Sie dieses Passwort verlieren, werden Sie gesperrt und müssen die Hauptplatine zurücksetzen. Bewahren Sie dieses Passwort daher in einem Passwort-Manager oder an einem sicheren Ort auf.
+**Warnung:** Wenn du dieses Passwort verlierst, wirst du gesperrt und musst die Hauptplatine zurücksetzen. Bewahre dieses Passwort daher in einem Passwort-Manager oder an einem sicheren Ort auf.
+
+
+Aktiviere ausserdem die Funktion "Secure Boot", falls sie verfügbar und noch nicht aktiviert ist. Dieser Mechanismus verhindert, dass unsignierter oder veränderter Code beim Booten ausgeführt wird. Er wurde entwickelt, um Bootkits und Rootkits zu blockieren, Arten von Malware, die den Computer beim Booten infizieren, noch bevor das Betriebssystem startet.
 
 
 
-Aktivieren Sie außerdem die Funktion "Secure Boot", falls sie verfügbar und noch nicht aktiviert ist. Dieser Mechanismus verhindert, dass unsignierter oder veränderter Code beim Booten ausgeführt wird. Er wurde entwickelt, um Bootkits und Rootkits zu blockieren, Arten von Malware, die den Computer beim Booten infizieren, noch bevor das Betriebssystem startet.
-
-
-
-Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Maßnahme zum Schutz Ihres Rechners vor fortgeschrittenen Angriffen. Es ist eines der wenigen Bollwerke gegen physisches Eindringen oder Manipulationen vor dem System.
+Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Massnahme zum Schutz deines Rechners vor fortgeschrittenen Angriffen. Es ist eines der wenigen Bollwerke gegen physisches Eindringen oder Manipulationen vor dem System.
 
 
 
@@ -3280,33 +3203,29 @@ Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Ma
 
 
 
-Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu Ihrem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne Ihr Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit zugänglich ist oder einfach nur für andere Personen zugänglich ist.
+Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu deinem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne dein Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit oder einfach nur für andere Personen zugänglich ist.
 
 
 
-Eines der häufigsten (aber unterschätzten) Risiken besteht darin, einen Computer an öffentlichen Orten wie Bibliotheken, Konferenzen, öffentlichen Plätzen und Hotellobbys auch nur für ein paar Minuten unbeaufsichtigt zu lassen. Dies ist nicht nur ein Diebstahlrisiko: In Sekundenschnelle kann eine böswillige Person einen bösartigen USB-Stick anschließen, Spyware installieren, Boot-Parameter ändern, um ein externes Booten zu erzwingen, oder Anmeldedaten durch Einschleusen eines Hardware-Keyloggers abfangen.
+Eines der häufigsten (aber unterschätzten) Risiken besteht darin, einen Computer an öffentlichen Orten wie Bibliotheken, Konferenzen, öffentlichen Plätzen und Hotellobbys auch nur für ein paar Minuten unbeaufsichtigt zu lassen. Dies ist nicht nur ein Diebstahlrisiko: In Sekundenschnelle kann eine böswillige Person einen bösartigen USB-Stick anschliessen, Spyware installieren, Boot-Parameter ändern, um ein externes Booten zu erzwingen, oder Anmeldedaten durch Einschleusen eines Hardware-Keyloggers abfangen.
 
 
 
-Aus demselben Grund rate ich davon ab, externes Zubehör oder Peripheriegeräte zu verwenden, die Sie nicht kontrollieren. Vermeiden Sie das Einstecken von USB-Sticks, externen Hard-Laufwerken, Ladegeräten oder Dongles in Ihren Computer, wenn die Herkunft dieser Objekte nicht bekannt ist (neu oder im Besitz einer vertrauenswürdigen Person). Einige scheinbar harmlose Zubehörteile können Schaltkreise enthalten, die bösartige Befehle ausführen können, sobald sie eingesteckt sind. Umgekehrt sollten Sie Ihr eigenes Zubehör nicht ausleihen oder unbeaufsichtigt an zugänglichen Orten liegen lassen: Es könnte gegen kompromittierte Versionen ausgetauscht werden.
+Aus demselben Grund rate ich davon ab, externes Zubehör oder Peripheriegeräte zu verwenden, die du nicht kontrollierst. Vermeide das Einstecken von USB-Sticks, externen Festplatten, Ladegeräten oder Dongles in deinen Computer, wenn die Herkunft dieser Objekte nicht bekannt ist (neu oder im Besitz einer vertrauenswürdigen Person). Einige scheinbar harmlose Zubehörteile können Schaltkreise enthalten, die bösartige Befehle ausführen können, sobald sie eingesteckt sind. Umgekehrt solltest du dein eigenes Zubehör nicht ausleihen oder unbeaufsichtigt an zugänglichen Orten liegen lassen: Es könnte gegen kompromittierte Versionen ausgetauscht werden.
 
 
-
-Um das Risiko eines physischen Diebstahls zu begrenzen, können Sie einen Desktop-PC mit einem physischen Schließsystem ausstatten. Die meisten professionellen PCs verfügen über einen Kensington-Sicherheitsanschluss, mit dem ein Stahlseil an einem festen Möbelstück befestigt werden kann. Auch für Laptops gibt es Varianten. Diese Vorrichtungen bieten natürlich keinen absoluten Schutz vor Diebstahl, aber sie reichen aus, um opportunistische Angriffe abzuschrecken.
-
+Um das Risiko eines physischen Diebstahls zu begrenzen, kannst du einen Desktop-PC mit einem physischen Schliesssystem ausstatten. Die meisten professionellen PCs verfügen über einen Kensington-Sicherheitsanschluss, mit dem ein Stahlseil an einem festen Möbelstück befestigt werden kann. Auch für Laptops gibt es Varianten. Diese Vorrichtungen bieten natürlich keinen absoluten Schutz vor Diebstahl, aber sie reichen aus, um opportunistische Angriffe abzuschrecken.
 
 
 ![Image](assets/fr/202.webp)
 
 
 
-Außerdem sollten Sie Ihren Rechner immer ausschalten, wenn Sie sich nicht in der Nähe aufhalten, insbesondere in einer ungesicherten Umgebung. Im Gegensatz zum einfachen Standby verhindert ein vollständiges Herunterfahren, dass das Betriebssystem geladen wird, und schützt vor bestimmten Angriffen auf den Arbeitsspeicher. Außerdem wird dadurch die BIOS/UEFI-Sicherheit aktiviert.
+Ausserdem solltest du deinen Rechner immer ausschalten, wenn du dich nicht in der Nähe aufhältst, insbesondere in einer ungesicherten Umgebung. Im Gegensatz zum einfachen Standby verhindert ein vollständiges Herunterfahren, dass das Betriebssystem geladen wird, und schützt vor bestimmten Angriffen auf den Arbeitsspeicher. Ausserdem wird dadurch die BIOS/UEFI-Sicherheit aktiviert.
 
 
 
-Eine der wichtigsten Maßnahmen, die Sie ergreifen können, um sich vor Diebstahl zu schützen, ist die Aktivierung der vollständigen Festplattenverschlüsselung. Dadurch werden Ihre Daten geschützt, indem sie ohne Kennwort unzugänglich gemacht werden, selbst wenn die Festplatte entnommen und in einen anderen Rechner gesteckt wird. Auf einigen Systemen ist diese Verschlüsselung standardmäßig aktiviert:
-
-
+Eine der wichtigsten Massnahmen gegen Diebstahl ist die Aktivierung der vollständigen Festplattenverschlüsselung. Dadurch werden deine Daten geschützt, indem sie ohne Kennwort unzugänglich gemacht werden, selbst wenn die Festplatte entnommen und in einen anderen Rechner gesteckt wird. Auf einigen Systemen ist diese Verschlüsselung standardmässig aktiviert:
 
 
 - macOS verwendet FileVault
@@ -3316,7 +3235,7 @@ Eine der wichtigsten Maßnahmen, die Sie ergreifen können, um sich vor Diebstah
 
 https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-In jedem Fall muss das Entschlüsselungskennwort sicher sein, sich vom Systemkennwort unterscheiden und in einem sicheren Kennwortmanager gespeichert sein. Wenn Sie eine externe Festplatte oder einen USB-Stick mit sensiblen Daten verwenden, sollten Sie diese mit Tools wie VeraCrypt einzeln verschlüsseln.
+In jedem Fall muss das Entschlüsselungskennwort sicher sein, sich vom Systemkennwort unterscheiden und in einem sicheren Kennwortmanager gespeichert sein. Wenn du eine externe Festplatte oder einen USB-Stick mit sensiblen Daten verwendest, solltest du diese mit Tools wie VeraCrypt einzeln verschlüsseln.
 
 
 
@@ -3326,15 +3245,15 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-Das Prinzip der geringsten Privilegien ist eine grundlegende Regel der Cybersicherheit, nach der jede Einheit (ein menschlicher Benutzer, ein Softwareprogramm, ein Systemprozess usw.) nur über die Rechte verfügen sollte, die zur Erfüllung ihrer Aufgaben unbedingt erforderlich sind. Mit anderen Worten: Erteilen Sie nie mehr Berechtigungen als nötig, da jede zusätzliche Berechtigung die Angriffsfläche des Systems vergrößert.
+Das Prinzip der geringsten Privilegien ist eine grundlegende Regel der Cybersicherheit, nach der jede Einheit (ein menschlicher Benutzer, ein Softwareprogramm, ein Systemprozess usw.) nur über die Rechte verfügen sollte, die zur Erfüllung ihrer Aufgaben unbedingt erforderlich sind. Mit anderen Worten: Erteile nie mehr Berechtigungen als nötig, da jede zusätzliche Berechtigung die Angriffsfläche des Systems vergrössert.
 
 
 
-Konkret bedeutet dies für Ihren Computer, dass Ihr Hauptbenutzerkonto keine Administratorrechte für alltägliche Aktivitäten haben darf: Surfen im Internet, Abrufen von E-Mails, Büroarbeit usw. Wenn nämlich eine Schadsoftware von einem Konto mit erhöhten Rechten ausgeführt wird, kann sie Systemdateien verändern, dauerhafte Dienste installieren oder Sicherheitsvorkehrungen deaktivieren. Wird sie dagegen in einer eingeschränkten Umgebung ausgeführt, kann sie nur begrenzt Schaden anrichten.
+Konkret bedeutet dies für deinen Computer, dass dein Hauptbenutzerkonto keine Administratorrechte für alltägliche Aktivitäten haben darf: Surfen im Internet, Abrufen von E-Mails, Büroarbeit usw. Wenn nämlich eine Schadsoftware von einem Konto mit erhöhten Rechten ausgeführt wird, kann sie Systemdateien verändern, dauerhafte Dienste installieren oder Sicherheitsvorkehrungen deaktivieren. Wird sie dagegen in einer eingeschränkten Umgebung ausgeführt, kann sie nur begrenzt Schaden anrichten.
 
 
 
-Unter Windows haben die meisten Benutzer standardmäßig ein Administratorkonto, auch wenn dies eine schlechte Praxis ist. Ich empfehle Ihnen, ein Standard-Benutzerkonto für den täglichen Gebrauch zu erstellen und das Administratorkonto für Vorgänge zu verwenden, die es wirklich benötigen. Wenn Sie versuchen, eine Aufgabe auszuführen, für die erhöhte Rechte erforderlich sind, wird Windows Sie einfach auffordern, das Administratorkennwort einzugeben, anstatt einfach auf die Schaltfläche "*JA*" zu klicken.
+Unter Windows haben die meisten Benutzer standardmässig ein Administratorkonto, auch wenn dies eine schlechte Praxis ist. Ich empfehle dir, ein Standard-Benutzerkonto für den täglichen Gebrauch zu erstellen und das Administratorkonto für Vorgänge zu verwenden, die es wirklich benötigen. Wenn du versuchst, eine Aufgabe auszuführen, für die erhöhte Rechte erforderlich sind, wird Windows dich einfach auffordern, das Administratorkennwort einzugeben, anstatt einfach auf die Schaltfläche "*JA*" zu klicken.
 
 
 
@@ -3342,7 +3261,7 @@ Unter Windows haben die meisten Benutzer standardmäßig ein Administratorkonto,
 
 
 
-Unter Linux ist dieses Prinzip der geringsten Rechte besser anwendbar. Standardmäßig haben Sie ein Benutzerkonto mit eingeschränkten Rechten, und Sie können Ihre Privilegien vorübergehend mit dem Befehl `sudo` erhöhen. Es ist auch möglich, `sudo` so zu konfigurieren, dass je nach Benutzer nur bestimmte Befehle erlaubt sind (über `/etc/sudoers`).
+Unter Linux ist dieses Prinzip der geringsten Rechte besser anwendbar. Standardmässig hast du ein Benutzerkonto mit eingeschränkten Rechten, und du kannst deine Privilegien vorübergehend mit dem Befehl `sudo` erhöhen. Es ist auch möglich, `sudo` so zu konfigurieren, dass je nach Benutzer nur bestimmte Befehle erlaubt sind (über `/etc/sudoers`).
 
 
 
@@ -3350,11 +3269,11 @@ Unter Linux ist dieses Prinzip der geringsten Rechte besser anwendbar. Standardm
 
 
 
-Unter macOS hat der erste erstellte Account zwar oft administrative Rechte, aber das System verwendet einen ähnlichen Mechanismus wie `sudo`: Sie müssen Ihre Aktionen mit einem Passwort bestätigen, wenn Sie kritische Operationen durchführen wollen. Nichtsdestotrotz ist es durchaus möglich, ein normales Benutzerkonto zu erstellen und das Administratorkonto für die gelegentliche Nutzung zu reservieren, was ich empfehle, wenn der Computer von mehreren Personen genutzt wird.
+Unter macOS hat der erste erstellte Account zwar oft administrative Rechte, aber das System verwendet einen ähnlichen Mechanismus wie `sudo`: Du musst deine Aktionen mit einem Passwort bestätigen, wenn du kritische Operationen durchführen willst. Nichtsdestotrotz ist es durchaus möglich, ein normales Benutzerkonto zu erstellen und das Administratorkonto für die gelegentliche Nutzung zu reservieren. Ich empfehle dieses Vorgehen, wenn der Computer von mehreren Personen genutzt wird.
 
 
 
-Diese Kompartimentierung ist nicht auf menschliche Benutzer beschränkt. Viele Anwendungen erfordern bei der Installation erhöhte Rechte und werden auch dann noch mit diesen Rechten ausgeführt, wenn sie nicht mehr benötigt werden. Ich empfehle Ihnen daher, wo immer möglich, Anwendungen zu bevorzugen, die im Benutzermodus ausgeführt werden, Software zu deinstallieren, die Sie nicht mehr benötigen, und bei Anfragen zur Erhöhung der Berechtigungen wachsam zu sein.
+Diese Kompartimentierung ist nicht auf menschliche Benutzer beschränkt. Viele Anwendungen erfordern bei der Installation erhöhte Rechte und werden auch dann noch mit diesen Rechten ausgeführt, wenn sie nicht mehr benötigt werden. Ich empfehle dir daher, wo immer möglich, Anwendungen zu bevorzugen, die im Benutzermodus ausgeführt werden. Zudem solltest du Software deinstallieren, die du nicht mehr benötigst und bei Anfragen zur Erhöhung der Berechtigungen wachsam sein.
 
 
 
@@ -3362,7 +3281,7 @@ Diese Kompartimentierung ist nicht auf menschliche Benutzer beschränkt. Viele A
 
 
 
-Neben der Trennung von Administratorkonten und Standardkonten besteht eine weitere bewährte Praxis darin, mehrere verschiedene Benutzersitzungen auf demselben Computer einzurichten, um die Nutzung entsprechend ihrer Art aufzuteilen. Dieser Ansatz beruht auf einer einfachen Logik: Indem Sie Ihre Aktivitäten in verschiedene Umgebungen aufteilen, reduzieren Sie die Angriffsfläche jeder Umgebung und begrenzen die Folgen eines Sicherheitsvorfalls.
+Neben der Trennung von Administratorkonten und Standardkonten besteht eine weitere bewährte Praxis darin, mehrere verschiedene Benutzersitzungen auf demselben Computer einzurichten, um die Nutzung entsprechend ihrer Art aufzuteilen. Dieser Ansatz beruht auf einer einfachen Logik: Indem du deine Aktivitäten in verschiedene Umgebungen aufteilst, reduzierst du die Angriffsfläche jeder Umgebung und begrenzst die Folgen eines Sicherheitsvorfalls.
 
 
 
@@ -3370,19 +3289,18 @@ Alle modernen Betriebssysteme erlauben die Einrichtung mehrerer Benutzerkonten a
 
 
 
-Sie könnten Ihre Sitzungen zum Beispiel wie folgt strukturieren:
+Du könntest deine Sitzungen zum Beispiel wie folgt strukturieren:
 
 
 
 
-- Ein Konto für Ihre berufliche Tätigkeit, auf dem Sie nur die Software installieren, die Sie unbedingt benötigen (Office-Suiten, Tools für die Zusammenarbeit, professionelles Messaging...). Diese Sitzung darf nicht zum freien Surfen im Internet oder zum Testen von Software verwendet werden;
+- Ein Konto für deine berufliche Tätigkeit, auf dem du nur die Software installierst, die du unbedingt benötigst (Office-Suiten, Tools für die Zusammenarbeit, professionelles Messaging...). Diese Sitzung darf nicht zum freien Surfen im Internet oder zum Testen von Software verwendet werden;
 - Ein Konto für den persönlichen Gebrauch, das für das tägliche Surfen im Internet, soziale Netzwerke, Streaming oder die Installation von Verbraucheranwendungen verwendet wird. Dies ist in der Regel die Sitzung, die am meisten für Browserangriffe oder verdächtige Downloads anfällig ist;
-- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z. B. die Abfrage von Bankkonten, die Verwaltung Ihrer Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Maß an Sicherheit erfordert. Dieses Konto sollte ausschließlich für diese Aufgaben verwendet werden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
-- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschließlich für die gelegentliche Nutzung z. B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
+- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z.B. die Abfrage von Bankkonten, die Verwaltung deiner Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Mass an Sicherheit erfordert. Dieses Konto solltest du ausschliesslich für diese Aufgaben verwenden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
+- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschliesslich für die gelegentliche Nutzung z.B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
 
 
-
-Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (außer im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z. B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass Ihre Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäß isolierten Sitzung aufbewahrt werden.
+Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (ausser im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z.B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass deine Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäss isolierten Sitzung aufbewahrt werden.
 
 
 
@@ -3394,11 +3312,11 @@ Unter Linux kann diese Trennung durch Mechanismen wie AppArmor oder SELinux vers
 
 
 
-Es ist wichtig, darauf hinzuweisen, dass Multisession weder die Verwendung eines Nicht-Administrator-Kontos noch die Anwendung des Prinzips der geringsten Privilegien ersetzt. Sie ergänzt diese durch ein Layer der logischen Isolierung, das einfach einzurichten und besonders effektiv für den gemischten Einsatz in Familie und Beruf ist.
+Es ist wichtig, darauf hinzuweisen, dass Multisession weder die Verwendung eines Nicht-Administrator-Kontos noch die Anwendung des Prinzips der geringsten Privilegien ersetzt. Sie ergänzt diese durch eine Schicht der logischen Isolierung, die einfach einzurichten und besonders effektiv für den gemischten Einsatz in Familie und Beruf ist.
 
 
 
-Ein anderer, radikalerer, aber besonders wirksamer Ansatz besteht darin, für jeden Zweck einen eigenen Computer zu verwenden, z. B. einen Laptop, der ausschließlich für die berufliche Tätigkeit bestimmt ist, einen anderen für den privaten Gebrauch und einen dritten, einfachen und gut gesicherten Computer für sensible Tätigkeiten.
+Ein anderer, radikalerer, aber besonders wirksamer Ansatz besteht darin, für jeden Zweck einen eigenen Computer zu verwenden, z.B. einen Laptop, der ausschliesslich für die berufliche Tätigkeit bestimmt ist, einen anderen für den privaten Gebrauch und einen dritten, einfachen und gut gesicherten Computer für sensible Tätigkeiten.
 
 
 
@@ -3406,7 +3324,7 @@ Ein anderer, radikalerer, aber besonders wirksamer Ansatz besteht darin, für je
 
 
 
-Mit virtuellen Maschinen (oder "VMs") können Sie völlig isolierte Umgebungen auf Ihrem Computer schaffen. Eine VM simuliert einen unabhängigen Computer mit eigenem Betriebssystem, Anwendungen und Einstellungen, funktioniert aber in Wirklichkeit wie ein Programm, das auf Ihrem Hauptrechner läuft.
+Mit virtuellen Maschinen (oder "VMs") kannst du völlig isolierte Umgebungen auf deinem Computer schaffen. Eine VM simuliert einen unabhängigen Computer mit eigenem Betriebssystem, Anwendungen und Einstellungen, funktioniert aber in Wirklichkeit wie ein Programm, das auf deinem Hauptrechner läuft.
 
 
 
@@ -3419,16 +3337,15 @@ Diese Technologie basiert auf einem Hypervisor, einem Softwareprogramm, das die 
 
 https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
-In Bezug auf die IT-Sicherheit ist einer der großen Vorteile virtueller Maschinen ihre Fähigkeit zur Abschottung. Eine virtuelle Maschine teilt ihre Dateien, Prozesse oder ihren Netzwerkzugang nicht mit dem Host-System, es sei denn, Sie konfigurieren diesen Austausch ausdrücklich. Wenn also eine virtuelle Maschine mit Malware infiziert wird oder Sie darin sensible Software testen, bleiben die Auswirkungen auf diese virtuelle Maschine beschränkt: Ihr Hauptsystem bleibt intakt, sofern die Isolierungsparameter eingehalten werden (keine gemeinsam genutzten Verzeichnisse, keine USB-Geräte, die an die virtuelle Maschine weitergegeben werden ...).
+In Bezug auf die IT-Sicherheit ist einer der grossen Vorteile virtueller Maschinen ihre Fähigkeit zur Abschottung. Eine virtuelle Maschine teilt ihre Dateien, Prozesse oder ihren Netzwerkzugang nicht mit dem Host-System. Es sei denn, du konfigurierst diesen Austausch ausdrücklich. Wenn also eine virtuelle Maschine mit Malware infiziert wird oder du darin sensible Software testest, bleiben die Auswirkungen auf diese virtuelle Maschine beschränkt: Dein Hauptsystem bleibt intakt, sofern die Isolierungsparameter eingehalten werden (keine gemeinsam genutzten Verzeichnisse, keine USB-Geräte, die an die virtuelle Maschine weitergegeben werden ...).
 
 
 
-Mit einer VM können Sie verdächtige Software testen: Wenn Sie ein Programm von einer unzuverlässigen Quelle oder einer zweifelhaften Website herunterladen, können Sie es zunächst in einer VM ausführen, um sein Verhalten in aller Sicherheit zu beobachten. Dies kann auch nützlich sein, wenn Sie auf riskanten Websites surfen: Sie können eine VM für die Konsultation sensibler oder unbekannter Webinhalte verwenden, was die Wahrscheinlichkeit von Angriffen durch bösartige Skripte oder die Ausnutzung von Schwachstellen im Browser verringert. Kurz gesagt: Mit einer VM können Sie eine bestimmte Anwendung leicht vom Rest Ihres Systems isolieren.
+Mit einer VM kannst du verdächtige Software testen: Wenn du ein Programm von einer unzuverlässigen Quelle oder einer zweifelhaften Website herunterlädst, kannst du es zunächst in einer VM ausführen, um sein Verhalten in aller Sicherheit zu beobachten. Dies kann auch nützlich sein, wenn du auf riskanten Websites surfst: Du kannst eine VM für die Konsultation sensibler oder unbekannter Webinhalte verwenden, was die Wahrscheinlichkeit von Angriffen durch bösartige Skripte oder die Ausnutzung von Schwachstellen im Browser verringert. Kurz gesagt: Mit einer VM kannst du eine bestimmte Anwendung leicht vom Rest deines Systems isolieren.
 
 
 
-Schließlich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit von ihrer korrekten Konfiguration abhängt. Einige Hypervisoren erlauben standardmäßig den Austausch von Dateien zwischen dem Host und der VM oder den Zugriff auf USB-Peripheriegeräte. Diese Funktionen sollten deaktiviert werden, um die Isolierung zu maximieren.
-
+Schliesslich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit von ihrer korrekten Konfiguration abhängt. Einige Hypervisoren erlauben standardmässig den Austausch von Dateien zwischen dem Host und der VM oder den Zugriff auf USB-Peripheriegeräte. Diese Funktionen sollten deaktiviert werden, um die Isolierung zu maximieren.
 
 
 ### Sandboxing
@@ -3439,11 +3356,11 @@ Sandboxing ist eine Methode der Computersicherheit, bei der eine Anwendung oder 
 
 
 
-Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräte... Eine Sandbox-Anwendung kann z. B. eine temporäre Datei lesen, aber niemals auf Ihr persönliches Verzeichnis oder Dateisystem zugreifen.
+Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräten... Eine Sandbox-Anwendung kann z.B. eine temporäre Datei lesen, aber niemals auf dein persönliches Verzeichnis oder Dateisystem zugreifen.
 
 
 
-Hier sind einige konkrete Lösungen für Sandboxing, abhängig von Ihrem Betriebssystem:
+Hier sind einige konkrete Lösungen für Sandboxing, abhängig von deinem Betriebssystem:
 
 
 
@@ -3462,8 +3379,8 @@ Hier sind einige konkrete Lösungen für Sandboxing, abhängig von Ihrem Betrieb
 
 
 
-- Firejail: ein leistungsstarkes, leichtgewichtiges Tool, das Anwendungen mithilfe vordefinierter Profile isoliert. Es funktioniert gut mit einer Vielzahl von Anwendungen, einschließlich Firefox, VLC und Telegram;
-- Flatpak: Wie wir bereits gesehen haben, handelt es sich hierbei nicht um eine Sandboxing-Software an sich, sondern um einen Software-Paketmanager, der Sandboxing integriert: Jede über Flatpak installierte Anwendung ist standardmäßig vom Host-System isoliert und verfügt über eine feinkörnige Kontrolle der Berechtigungen (Zugriff auf Mikrofon, Kamera, Netzwerk usw.).
+- Firejail: ein leistungsstarkes, leichtgewichtiges Tool, das Anwendungen mithilfe vordefinierter Profile isoliert. Es funktioniert gut mit einer Vielzahl von Anwendungen, einschliesslich Firefox, VLC und Telegram;
+- Flatpak: Wie wir bereits gesehen haben, handelt es sich hierbei nicht um eine Sandboxing-Software an sich, sondern um einen Software-Paketmanager, der Sandboxing integriert: Jede über Flatpak installierte Anwendung ist standardmässig vom Host-System isoliert und verfügt über eine feinkörnige Kontrolle der Berechtigungen (Zugriff auf Mikrofon, Kamera, Netzwerk usw.).
 
 
 
@@ -3472,15 +3389,15 @@ Hier sind einige konkrete Lösungen für Sandboxing, abhängig von Ihrem Betrieb
 
 
 
-- Unter macOS ist Sandboxing eine native Funktion, die in den Kernel integriert ist, aber nur aktiviert wird, wenn sie vom Softwareentwickler angegeben wird. Programme aus dem App Store werden automatisch mit einer Sandbox versehen, aber Programme, die aus dem Web (oder von der Befehlszeile) installiert werden, sind standardmäßig nicht mit einer Sandbox versehen.
+- Unter macOS ist Sandboxing eine native Funktion, die in den Kernel integriert ist, aber nur aktiviert wird, wenn sie vom Softwareentwickler angegeben wird. Programme aus dem App Store werden automatisch mit einer Sandbox versehen, aber Programme, die aus dem Web (oder von der Befehlszeile) installiert werden, sind standardmässig nicht mit einer Sandbox versehen.
 
 
 
-Schließlich bietet Sandboxing zwar einen effektiven Layer-Schutz, aber es ist wichtig zu verstehen, dass es kein vollständiger Ersatz für eine VM oder ein gut partitioniertes System ist.
+Schliesslich bietet Sandboxing zwar einen effektiven Layer-Schutz, aber es ist wichtig zu verstehen, dass es kein vollständiger Ersatz für eine VM oder ein gut partitioniertes System ist.
 
 
 
-Nachdem wir nun die Sicherheit Ihres Computers durch Authentifizierung und Abschottung behandelt haben, werden wir uns im nächsten Kapitel mit guten Wartungspraktiken befassen, um seine Sicherheit weiter zu erhöhen.
+Nachdem wir nun die Sicherheit deines Computers durch Authentifizierung und Abschottung behandelt haben, werden wir uns im nächsten Kapitel mit guten Wartungspraktiken befassen, um die Sicherheit weiter zu erhöhen.
 
 
 
@@ -3491,11 +3408,11 @@ Nachdem wir nun die Sicherheit Ihres Computers durch Authentifizierung und Absch
 
 
 
-Viele Menschen denken, dass die Installation einer Antiviren-Software oder die Wahl des richtigen Passworts ausreicht, um ihren Computer zu schützen. Aber es geht bei der Computersicherheit um viel mehr als nur um eine einmalige Konfiguration. Die Realität ist viel komplexer: Die meisten Cyberangriffe nutzen Schwachstellen in veralteten Systemen und Software aus. Mit anderen Worten: Zur Computersicherheit gehört auch die regelmäßige Wartung Ihres Rechners.
+Viele Menschen denken, dass die Installation einer Antiviren-Software oder die Wahl des richtigen Passworts ausreicht, um ihren Computer zu schützen. Aber es geht bei der Computersicherheit um viel mehr als nur um eine einmalige Konfiguration. Die Realität ist viel komplexer: Die meisten Cyberangriffe nutzen Schwachstellen in veralteten Systemen und Software aus. Mit anderen Worten: Zur Computersicherheit gehört auch die regelmässige Wartung deines Rechners.
 
 
 
-In diesem Kapitel erkläre ich Ihnen Schritt für Schritt, wie Sie Ihren Computer effektiv warten und das Risiko einer Gefährdung minimieren können.
+In diesem Kapitel erkläre ich dir Schritt für Schritt, wie du deinen Computer effektiv warten und das Risiko einer Gefährdung minimieren kannst.
 
 
 
@@ -3503,31 +3420,31 @@ In diesem Kapitel erkläre ich Ihnen Schritt für Schritt, wie Sie Ihren Compute
 
 
 
-Wie wir zu Beginn dieses Kurses gesehen haben, verwaltet das Betriebssystem die Hardware (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.), führt Programme aus, organisiert Dateien und verwaltet Netzwerkverbindungen. Es ist also eine wichtige Komponente Ihres Computers.
+Wie wir zu Beginn dieses Kurses gesehen haben, verwaltet das Betriebssystem die Hardware (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.), führt Programme aus, organisiert Dateien und verwaltet Netzwerkverbindungen. Es ist also eine wichtige Komponente deines Computers.
 
 
 
-#### Warum sollten Sie Ihr Betriebssystem aktualisieren?
+#### Warum solltest du dein Betriebssystem aktualisieren?
 
 
 
-Aufgrund ihrer Komplexität ist keine Betriebssystemversion völlig frei von Sicherheitslücken. Wir sprechen hier von zig Millionen Codezeilen. Diese Sicherheitslücken können von Angreifern ausgenutzt werden, um bösartigen Code auszuführen, unbefugte Rechte zu erlangen oder das gesamte System zu kompromittieren. Einige dieser Schwachstellen werden von Cybersecurity-Forschern verantwortungsbewusst entdeckt, während andere bereits aktiv ausgenutzt werden, ohne dass die Allgemeinheit davon weiß: Diese sind als Zero-Day-Schwachstellen bekannt.
+Aufgrund ihrer Komplexität ist keine Betriebssystemversion völlig frei von Sicherheitslücken. Wir sprechen hier von zig Millionen Codezeilen. Diese Sicherheitslücken können von Angreifern ausgenutzt werden, um bösartigen Code auszuführen, unbefugte Rechte zu erlangen oder das gesamte System zu kompromittieren. Einige dieser Schwachstellen werden von verantwortungsbewussten Cybersecurity-Forschern entdeckt, während andere bereits aktiv ausgenutzt werden, ohne dass die Allgemeinheit davon weiss: Diese sind als Zero-Day-Schwachstellen bekannt.
 
 
 
-Die Hersteller von Betriebssystemen veröffentlichen regelmäßig Sicherheitsupdates, um diese Schwachstellen zu beheben. Die Nichtinstallation dieser Patches ist gleichbedeutend damit, dass Sie Angriffen bewusst Tür und Tor öffnen, selbst wenn Sie glauben, dass Ihre Nutzung bescheiden oder Ihre Daten wertlos sind.
+Die Hersteller von Betriebssystemen veröffentlichen regelmässig Sicherheitsupdates, um diese Schwachstellen zu beheben. Die Nichtinstallation dieser Patches ist gleichbedeutend damit, dass du Angriffen Tür und Tor öffnest, selbst wenn du glaubst, dass deine Verhalten harmlos oder deine Daten wertlos sind.
 
 
 
-Es geht nicht nur darum, sichtbare Fehler zu beheben, sondern auch darum, die Angriffsvektoren Ihres Systems zu bekämpfen. Je weniger Vektoren es gibt, desto weniger Hebel haben Angreifer, um Ihren Rechner zu kompromittieren.
+Es geht nicht nur darum, sichtbare Fehler zu beheben, sondern auch darum, die Angriffsvektoren deines Systems zu bekämpfen. Je weniger Vektoren es gibt, desto weniger Hebel haben Angreifer, um deinen Rechner zu kompromittieren.
 
 
 
-Insbesondere empfehle ich Ihnen, automatische Updates zu aktivieren. Diese Funktion ist von Haus aus auf allen modernen Systemen verfügbar. Windows Update z. B. übernimmt dies standardmäßig auf Windows 10 und 11. Unter macOS sind die Sicherheitsupdates in das Systemaktualisierungssystem integriert. Unter Linux können Sie je nach Distribution mit Tools wie `unattended-upgrades` (Debian/Ubuntu) oder `dnf-automatic` (Fedora) Aktualisierungen planen.
+Insbesondere empfehle ich dir, automatische Updates zu aktivieren. Diese Funktion ist von Haus aus auf allen modernen Systemen verfügbar. Windows Update z.B. übernimmt dies standardmässig auf Windows 10 und 11. Unter macOS sind die Sicherheitsupdates in das Systemaktualisierungssystem integriert. Unter Linux kannst du je nach Distribution mit Tools wie `unattended-upgrades` (Debian/Ubuntu) oder `dnf-automatic` (Fedora) Aktualisierungen planen.
 
 
 
-Schließlich sollten Sie bedenken, dass bestimmte kritische Updates in vielen Fällen erst nach einem Neustart wirksam werden. Daher ist es wichtig, dass Sie Ihren Computer regelmäßig neu starten, insbesondere nach einer Systemaktualisierung. Die Aktualisierung Ihres Betriebssystems dauert oft nur ein paar Minuten, ist aber eines der wirksamsten Bollwerke gegen viele Angriffe.
+Schliesslich solltest du bedenken, dass bestimmte kritische Updates in vielen Fällen erst nach einem Neustart wirksam werden. Daher ist es wichtig, dass du deinen Computer regelmässig neu startest, insbesondere nach einer Systemaktualisierung. Die Aktualisierung deines Betriebssystems dauert oft nur ein paar Minuten, ist aber eines der wirksamsten Bollwerke gegen viele Angriffe.
 
 
 
@@ -3535,13 +3452,13 @@ Schließlich sollten Sie bedenken, dass bestimmte kritische Updates in vielen F�
 
 
 
-Auch wenn automatische Updates auf Ihrem System aktiviert sind, ist es wichtig, in regelmäßigen Abständen manuell zu überprüfen, ob noch Updates ausstehen. Schauen wir uns an, wie Sie dies je nach System tun können:
+Auch wenn automatische Updates auf deinem System aktiviert sind, ist es wichtig, in regelmässigen Abständen manuell zu überprüfen, ob noch Updates ausstehen. Schauen wir uns an, wie du dies je nach System tun kannst:
 
 
 
 
 
-- Betriebssystem Windows
+- *Betriebssystem Windows*
 
 
 
@@ -3549,7 +3466,7 @@ Windows verfügt über einen zentralisierten Update-Manager namens "Windows Upda
 
 
 
-So überprüfen Sie den Status von Aktualisierungen manuell:
+So überprüfst du den Status von Aktualisierungen manuell:
 
 
 
@@ -3559,17 +3476,17 @@ Settings → Windows Update → Check for updates
 
 
 
-Vergessen Sie nicht, im gleichen Menü nach optionalen Updates zu suchen.
+Vergiss nicht, im gleichen Menü nach optionalen Updates zu suchen.
 
 
 
 
 
-- **Linux**-Betriebssystem
+- *Linux*-Betriebssystem
 
 
 
-Linux-Distributionen basieren auf einem System von Paketen, die von der Community und den Betreuern Ihrer Distribution gepflegt werden. Aktualisierungen werden über den Paketmanager eingespielt.
+Linux-Distributionen basieren auf einem System von Paketen, die von der Community und den Betreuern deiner Distribution gepflegt werden. Aktualisierungen werden über den Paketmanager eingespielt.
 
 
 
@@ -3587,7 +3504,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-Wenn Sie es vorziehen, einen grafischen Interface zu verwenden, gibt es unter Ubuntu das Tool *Software Updater*, mit dem Sie Aktualisierungen einfach verwalten können, ohne das Terminal zu benutzen.
+Wenn du es vorziehst, ein grafisches Interface zu verwenden, gibt es unter Ubuntu das Tool *Software Updater*. Damit kannst du Aktualisierungen einfach verwalten, ohne das Terminal zu benutzen.
 
 
 
@@ -3618,11 +3535,11 @@ sudo pacman -Syu
 
 
 
-- Betriebssystem MacOS
+- Betriebssystem *MacOS*
 
 
 
-Apple zentralisiert seine Systemaktualisierungen in den Einstellungen des Interface. So prüfen Sie die Verfügbarkeit:
+Apple zentralisiert seine Systemaktualisierungen in den Einstellungen des Interface. So prüfst du die Verfügbarkeit:
 
 
 
@@ -3644,39 +3561,39 @@ macOS lädt automatisch Sicherheits-, System- und Programm-Updates über die Opt
 
 
 
-Die Sicherheit Ihres Computers hängt nicht nur von Ihrem Betriebssystem ab. Jede Software, die Sie installieren, stellt eine potenzielle Eintrittspforte für Angriffe dar. Sobald ein Programm eine unkorrigierte Sicherheitslücke aufweist, kann diese ausgenutzt werden, um Ihr System zu gefährden oder Ihre Daten zu stehlen.
+Die Sicherheit deines Computers hängt nicht nur von deinem Betriebssystem ab. Jede Software, die du installierst, stellt eine potenzielle Eintrittspforte für Angriffe dar. Sobald ein Programm eine unkorrigierte Sicherheitslücke aufweist, kann diese ausgenutzt werden, um dein System zu gefährden oder deine Daten zu stehlen.
 
 
 
-Manche Software ist sensibler als andere, weil sie direkt mit der Außenwelt interagiert oder potenziell gefährliche Dateien manipuliert. Zu der kritischsten Software gehören :
-
-
-
-
-
-- **Webbrowser**: Sie stehen an vorderster Front der Angriffe, da sie ungeprüfte Inhalte in Echtzeit verarbeiten und eine besonders große Angriffsfläche bieten. Darüber hinaus spielen sie eine zentrale Rolle beim Schutz Ihrer persönlichen Daten. Und vor allem ersetzen sie in der Regel viele früher lokal genutzte Softwareanwendungen (E-Mail-Clients, Office-Suiten, Mediaplayer...). Aber darauf werden wir im nächsten Abschnitt des SCU202-Kurses zurückkommen;
+Manche Software ist sensibler als andere, weil sie direkt mit der Aussenwelt interagiert oder potenziell gefährliche Dateien manipuliert. Zu der kritischsten Software gehören :
 
 
 
 
 
-- **E-Mail-Clients**: Sie erhalten Anhänge oder Links aus externen Quellen, die unkontrollierbar und daher riskant sind;
+- *Webbrowser*: Sie stehen an vorderster Front der Angriffe, da sie ungeprüfte Inhalte in Echtzeit verarbeiten und eine besonders grosse Angriffsfläche bieten. Darüber hinaus spielen sie eine zentrale Rolle beim Schutz deiner persönlichen Daten. Und vor allem ersetzen sie in der Regel viele früher lokal genutzte Softwareanwendungen (E-Mail-Clients, Office-Suiten, Mediaplayer...). Aber darauf werden wir im nächsten Abschnitt des SCU202-Kurses zurückkommen;
 
 
 
 
 
-- **Kommunikationstools** (TeamViewer, Zoom, Signal, Teams...): Aufgrund ihrer interaktiven Natur sind sie Ziele für Spionageangriffe oder Fernsteuerungsversuche. Genauso wie E-Mail-Clients können Kommunikations-Tools als Vektoren für Phishing-Versuche oder die Verbreitung bösartiger Anhänge genutzt werden;
+- *E-Mail-Clients*: Du erhältst Anhänge oder Links aus externen Quellen, die unkontrollierbar und daher riskant sind;
 
 
 
 
 
-- **Antiviren-, Firewall- und andere Erkennungslösungen**: Diese Tools genießen in der Regel erhöhte Privilegien, da sie Ihre Dateien, Prozesse und Netzwerkverbindungen ständig überprüfen. Eine veraltete Signaturenbasis, eine schlechte Konfiguration oder eine Schwachstelle in der Software selbst kann es Malware ermöglichen, unerkannt zu bleiben oder sogar erhöhte Privilegien zu erlangen.
+- *Kommunikationstools* (TeamViewer, Zoom, Signal, Teams...): Aufgrund ihrer interaktiven Natur sind sie Ziele für Spionageangriffe oder Fernsteuerungsversuche. Genauso wie E-Mail-Clients können Kommunikations-Tools als Vektoren für Phishing-Versuche oder die Verbreitung bösartiger Anhänge genutzt werden;
 
 
 
-Diese Risiken entstehen natürlich nicht nur durch schlechte Wartung, aber es ist wichtig, dass Sie der Aktualisierung dieser sensiblen Softwareprogramme besondere Aufmerksamkeit schenken. Ich vereinfache hier, aber natürlich muss auch all Ihre andere Software regelmäßig aktualisiert werden. Schauen wir uns einmal an, wie Sie das je nach Betriebssystem tun können.
+
+
+- *Antiviren-, Firewall- und andere Erkennungslösungen*: Diese Tools geniessen in der Regel erhöhte Privilegien, da sie deine Dateien, Prozesse und Netzwerkverbindungen ständig überprüfen. Eine veraltete Signaturenbasis, eine schlechte Konfiguration oder eine Schwachstelle in der Software selbst kann es Malware ermöglichen, unerkannt zu bleiben oder sogar erhöhte Privilegien zu erlangen.
+
+
+
+Diese Risiken entstehen natürlich nicht nur durch schlechte Wartung, aber es ist wichtig, dass du der Aktualisierung dieser sensiblen Softwareprogramme besondere Aufmerksamkeit schenkst. Ich vereinfache hier, aber natürlich muss auch all deine andere Software regelmässig aktualisiert werden. Schauen wir uns einmal an, wie du das je nach Betriebssystem tun kannst.
 
 
 
@@ -3684,7 +3601,7 @@ Diese Risiken entstehen natürlich nicht nur durch schlechte Wartung, aber es is
 
 
 
-Unter Windows 11 ist das Dienstprogramm *Winget* in das System integriert. Damit können Sie die meisten der auf Ihrem Computer installierten Programme direkt über das Terminal auflisten und aktualisieren. Führen Sie einfach Windows PowerShell aus:
+Unter Windows 11 ist das Dienstprogramm *Winget* in das System integriert. Damit kannst du die meisten der auf deinem Computer installierten Programme direkt über das Terminal auflisten und aktualisieren. Führe einfach Windows PowerShell aus:
 
 
 
@@ -3694,7 +3611,7 @@ winget upgrade --all
 
 
 
-Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen Ihrer Software und aktualisiert diese automatisch.
+Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen deiner Software und aktualisiert diese automatisch.
 
 
 
@@ -3702,7 +3619,7 @@ Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen Ih
 
 
 
-Leider funktioniert dieser Befehl nicht bei jeder Software. Deshalb empfehle ich Ihnen, eine Liste all Ihrer Software zu führen und regelmäßig manuell nach Updates zu suchen, insbesondere bei sensiblen Anwendungen. Für die kritischste Software, wie z. B. Ihr Antivirusprogramm oder Ihren Webbrowser, empfehle ich Ihnen, diese Prüfung täglich durchzuführen.
+Leider funktioniert dieser Befehl nicht bei jeder Software. Deshalb empfehle ich dir, eine Liste all deiner Software zu führen und regelmässig manuell nach Updates zu suchen, insbesondere bei sensiblen Anwendungen. Für die kritischste Software, wie z.B. dein Antivirusprogramm oder dein Webbrowser, empfehle ich dir eine tägliche Prüfung.
 
 
 
@@ -3714,7 +3631,7 @@ Die Stärke der Linux-Distributionen liegt in ihrer zentralen Softwareverwaltung
 
 
 
-Um ein globales Update Ihrer Software durchzuführen, führen Sie einfach wie bei der Betriebssystemaktualisierung einen Befehl aus:
+Um ein globales Update deiner Software durchzuführen, führe einfach wie bei der Betriebssystemaktualisierung einen Befehl aus:
 
 
 
@@ -3728,7 +3645,7 @@ Dieser grundlegende Befehl aktualisiert die Liste der verfügbaren Pakete (`apt 
 
 
 
-Für eine umfassendere Aktualisierung können Sie auch diesen Befehl verwenden:
+Für eine umfassendere Aktualisierung kannst du auch diesen Befehl verwenden:
 
 
 
@@ -3743,7 +3660,7 @@ sudo apt update \
 
 
 
-- sudo apt full-upgrade" aktualisiert alle installierten Pakete, einschließlich derjenigen, bei denen Abhängigkeiten hinzugefügt oder entfernt werden müssen. y" erlaubt es Ihnen, automatisch mit "ja" auf jede Bestätigung zu antworten, nach der der Paketmanager Sie fragt;
+- sudo apt full-upgrade" aktualisiert alle installierten Pakete, einschliesslich derjenigen, bei denen Abhängigkeiten hinzugefügt oder entfernt werden müssen. y" erlaubt es dir, automatisch mit "ja" auf jede Bestätigung zu antworten, nach der der Paketmanager dich fragt;
 - sudo apt autoremove -y`: Entfernt unnötige Abhängigkeiten ;
 - sudo apt autoclean`: bereinigt den Cache von veralteten Paketen.
 
@@ -3753,7 +3670,7 @@ sudo apt update \
 
 
 
-Wenn Sie Software haben, die als Flatpak- oder Snap-Pakete vertrieben wird, werden einige automatisch aktualisiert, aber Sie können sie alle manuell mit dem Befehl aktualisieren:
+Wenn du Software hast, die als Flatpak- oder Snap-Pakete vertrieben wird, werden einige automatisch aktualisiert, aber du kannst sie alle manuell mit folgendem Befehl aktualisieren:
 
 
 
@@ -3777,11 +3694,11 @@ Apple menu → App Store → Update All
 
 
 
-Sie können die automatische Aktualisierung von Anwendungen auch in den Einstellungen des App Stores aktivieren.
+Du kannst die automatische Aktualisierung von Anwendungen auch in den Einstellungen des App Stores aktivieren.
 
 
 
-Allerdings stammen nicht alle auf Ihrem Mac installierten Programme aus dem App Store. Andere Programme müssen Sie manuell aktualisieren. Wie bei Windows-Nutzern empfehle ich Ihnen daher, eine Liste all Ihrer Software zu führen und regelmäßig nach neuen Versionen zu suchen, insbesondere bei sensiblen Programmen wie Ihrem Webbrowser.
+Allerdings stammen nicht alle auf deinem Mac installierten Programme aus dem App Store. Andere Programme musst du manuell aktualisieren. Wie bei Windows-Nutzern empfehle ich dir daher, eine Liste all deiner Software zu führen und regelmässig nach neuen Versionen zu suchen, insbesondere bei sensiblen Programmen wie deinem Webbrowser.
 
 
 
@@ -3789,11 +3706,11 @@ Allerdings stammen nicht alle auf Ihrem Mac installierten Programme aus dem App 
 
 
 
-Aus Sicht der IT-Sicherheit gilt: Je weniger Software Sie installiert haben, desto weniger potenzielle Einfallstore haben Sie für Angreifer. Jede auf Ihrem System installierte Anwendung kann Sicherheitslücken enthalten, selbst wenn Sie sie nie benutzen. Dies wird als Angriffsfläche bezeichnet: Je größer sie ist, desto größer ist das Risiko. Eine einfache, aber wirksame Präventivmaßnahme ist es, diese Angriffsfläche zu verringern, indem man unnötige Software entfernt.
+Aus Sicht der IT-Sicherheit gilt: Je weniger Software du installiert hast, desto weniger potenzielle Einfallstore hast du für Angreifer. Jede auf deinem System installierte Anwendung kann Sicherheitslücken enthalten, selbst wenn du sie nie benutzt. Dies wird als Angriffsfläche bezeichnet: Je grösser sie ist, desto grösser ist das Risiko. Eine einfache, aber wirksame Präventivmassnahme ist es, diese Angriffsfläche zu verringern, indem man unnötige Software entfernt.
 
 
 
-Einige vorinstallierte Anwendungen oder Programme, die nur zur einmaligen Verwendung installiert werden, können monatelang auf Ihrem Computer verbleiben, ohne dass sie benutzt werden, während sie weiterhin Updates erhalten oder mit Ihrem System interagieren. Schlimmer noch: Wenn diese Programme nicht mehr gewartet werden, können sie Sicherheitslücken enthalten.
+Einige vorinstallierte Anwendungen oder Programme, die nur zur einmaligen Verwendung installiert werden, können monatelang auf deinem Computer verbleiben, ohne dass du sie benutzt, während sie weiterhin Updates erhalten oder mit deinem System interagieren. Schlimmer noch: Wenn diese Programme nicht mehr gewartet werden, können sie Sicherheitslücken enthalten.
 
 
 
@@ -3801,7 +3718,7 @@ Einige vorinstallierte Anwendungen oder Programme, die nur zur einmaligen Verwen
 
 
 
-So rufen Sie die Liste der installierten Anwendungen auf:
+So rufst du die Liste der installierten Anwendungen auf:
 
 
 
@@ -3811,15 +3728,14 @@ Settings → Apps → Installed apps
 
 
 
-Gehen Sie die Liste der Software durch und entfernen Sie alles, was Sie nicht mehr verwenden oder von dem Sie nicht wissen, wozu es dient (ggf. nach einer kurzen Internetrecherche). Seien Sie vorsichtig mit Systemsoftware, aber zögern Sie nicht, vorinstallierte Spiele, zweifelhafte Wartungsprogramme oder Marketinganwendungen zu deinstallieren.
-
+Gehe die Liste der Software durch und entferne alles, was du nicht mehr verwendest oder von dem du nicht weisst, wozu es dient (ggf. nach einer kurzen Internetrecherche). Sei vorsichtig mit Systemsoftware, aber zögere nicht, vorinstallierte Spiele, zweifelhafte Wartungsprogramme oder Marketinganwendungen zu deinstallieren.
 
 
 #### Unter Linux (Debian/Ubuntu)
 
 
 
-Öffnen Sie ein Terminal und führen Sie den folgenden Befehl aus, um ein Softwareprogramm zu löschen:
+Öffne ein Terminal und führe den folgenden Befehl aus, um ein Softwareprogramm zu löschen:
 
 
 
@@ -3833,7 +3749,7 @@ sudo apt remove name_of_the_software
 
 
 
-Führen Sie dann diesen Befehl aus, um alle nicht mehr benötigten Abhängigkeiten automatisch zu entfernen:
+Führe dann diesen Befehl aus, um alle nicht mehr benötigten Abhängigkeiten automatisch zu entfernen:
 
 
 
@@ -3847,7 +3763,7 @@ sudo apt autoremove
 
 
 
-Unter macOS gibt es 2 Hauptmethoden: über *Launchpad* oder über *Finder*. Wenn die Anwendung aus dem App Store heruntergeladen wurde, öffnen Sie *Launchpad* (aus dem Dock oder dem Verzeichnis `/Applications`), suchen Sie die Anwendung und halten Sie dann die Optionstaste gedrückt oder klicken Sie lange, bis die Symbole zu wackeln beginnen. Klicken Sie dann auf das Kreuz neben der Anwendung und bestätigen Sie die Löschung.
+Unter macOS gibt es 2 Hauptmethoden: über *Launchpad* oder über *Finder*. Wenn die Anwendung aus dem App Store heruntergeladen wurde, öffne *Launchpad* (aus dem Dock oder dem Verzeichnis `/Applications`), suche die Anwendung und halte dann die Optionstaste gedrückt oder klicke lange, bis die Symbole zu wackeln beginnen. Klicke dann auf das Kreuz neben der Anwendung und bestätige die Löschung.
 
 
 
@@ -3855,20 +3771,19 @@ Unter macOS gibt es 2 Hauptmethoden: über *Launchpad* oder über *Finder*. Wenn
 
 
 
-Wenn die Schaltfläche "Löschen" nicht angezeigt wird, wurde die Anwendung nicht aus dem App Store installiert. Verwenden Sie in diesem Fall *Finder*. Schließen Sie zuerst die Anwendung, falls sie noch läuft. Öffnen Sie *Finder*, gehen Sie in das Verzeichnis `/Applications`, wählen Sie die Anwendung aus, die Sie löschen möchten, und verschieben Sie sie in den Papierkorb. Leeren Sie schließlich den Papierkorb, um die Deinstallation abzuschließen.
+Wenn die Schaltfläche "Löschen" nicht angezeigt wird, wurde die Anwendung nicht aus dem App Store installiert. Verwende in diesem Fall *Finder*. Schliesse zuerst die Anwendung, falls sie noch läuft. Öffne *Finder*, gehe in das Verzeichnis `/Applications`, wähle die Anwendung aus, die du löschen möchtest, und verschiebe sie in den Papierkorb. Leere schliesslich den Papierkorb, um die Deinstallation abzuschliessen.
 
 
 
-#### Vergessen Sie nicht die Browser-Erweiterungen
+#### Vergiss nicht die Browser-Erweiterungen
 
 
 
-Die Erweiterungen und Add-ons Ihres Browsers werden oft übersehen, aber auch sie stellen einen häufigen Angriffsvektor dar. Eine bösartige oder veraltete Erweiterung kann Ihre Browsing-Daten abfangen, Code einschleusen oder Sie diskret ausspionieren.
+Die Erweiterungen und Add-ons deines Browsers werden oft übersehen, aber auch sie stellen einen häufigen Angriffsvektor dar. Eine bösartige oder veraltete Erweiterung kann deine Browsing-Daten abfangen, Code einschleusen oder dich diskret ausspionieren.
 
 
 
-Gehen Sie zu den Einstellungen Ihres Browsers und deaktivieren oder löschen Sie alle Erweiterungen, die Sie nicht verwenden oder von denen Sie nichts wissen. Behalten Sie nur diejenigen, die unbedingt notwendig sind, aus vertrauenswürdigen Quellen stammen und noch gepflegt werden.
-
+Gehe zu den Einstellungen deines Browsers und deaktiviere oder lösche alle Erweiterungen, die du nicht verwendest oder von denen du nichts weisst. Behalte nur diejenigen, die unbedingt notwendig sind, aus vertrauenswürdigen Quellen stammen und noch gepflegt werden.
 
 
 ### Systemüberwachung und Auditing
@@ -3879,7 +3794,7 @@ Zur Cybersicherheit gehört auch die Überwachung der Systemaktivität. Dieser p
 
 
 
-Wenn Sie eine Überwachungsroutine (selbst eine einfache) einrichten, können Sie das Vorhandensein von Malware, schlafenden Trojanern oder Spyware in einem frühen Stadium erkennen. Eine solche Überwachung kann mit speziellen Tools durchgeführt werden.
+Wenn du eine Überwachungsroutine (selbst eine einfache) einrichtest, kannst du das Vorhandensein von Malware, schlafenden Trojanern oder Spyware in einem frühen Stadium erkennen. Eine solche Überwachung kann mit speziellen Tools durchgeführt werden.
 
 
 
@@ -3893,7 +3808,7 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- **Microsoft Defender**: Unter Windows ist ein gutes Virenschutzprogramm eine Grundvoraussetzung. Viele Jahre lang galt der Microsoft Defender (ehemals Windows Defender), das integrierte Antivirenprogramm des Systems, als unzuverlässig, und es wurden stattdessen Lösungen von Drittanbietern empfohlen. Aber diese Software hat sich im Laufe der Zeit erheblich verbessert und ist meiner Meinung nach jetzt ausreichend, um einen grundlegenden Schutz für den persönlichen Gebrauch zu bieten. Dennoch sollte man die Rolle der Antiviren-Software nicht überbewerten: Es sind vor allem Ihre eigenen digitalen Praktiken, die Ihre Sicherheit gewährleisten. Einer der Vorteile von Defender ist seine native Integration in Windows. Zusätzlich zum Echtzeitschutz bietet er umfassende Scans, die Sie wöchentlich planen oder in regelmäßigen Abständen manuell ausführen können.
+- *Microsoft Defender*: Unter Windows ist ein gutes Virenschutzprogramm eine Grundvoraussetzung. Viele Jahre lang galt der Microsoft Defender (ehemals Windows Defender), das integrierte Antivirenprogramm des Systems, als unzuverlässig, und es wurden stattdessen Lösungen von Drittanbietern empfohlen. Aber diese Software hat sich im Laufe der Zeit erheblich verbessert und ist meiner Meinung nach jetzt ausreichend, um einen grundlegenden Schutz für den persönlichen Gebrauch zu bieten. Dennoch sollte man die Rolle der Antiviren-Software nicht überbewerten: Es sind vor allem deine eigenen digitalen Praktiken, die deine Sicherheit gewährleisten. Einer der Vorteile von Defender ist seine native Integration in Windows. Zusätzlich zum Echtzeitschutz bietet er umfassende Scans, die du wöchentlich planst oder in regelmässigen Abständen manuell ausführen kannst.
 
 
 
@@ -3903,12 +3818,12 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- **Sysinternals Suite**: Hierbei handelt es sich um eine wesentlich fortschrittlichere Reihe von Tools, die von Microsoft zur Diagnose, Überwachung und Fehlerbehebung von Windows angeboten werden. Hier sind die wichtigsten Tools dieser Suite:
-- **Process Monitor**: Ermöglicht es Ihnen, aktive Prozesse, Dateizugriffe, Register usw. in Echtzeit zu beobachten;
-- **Autoruns**: zeigt alle beim Start gestarteten Programme an und hilft Ihnen, hartnäckige Malware oder Anwendungen, die nicht ausgeführt werden sollten, schnell zu erkennen;
-- **Process Explorer**: überwacht Prozesse und erkennt verdächtiges Verhalten;
-- **TCPView**: Visualisierung aktiver Netzwerkverbindungen (Erkennung von anormalen Verbindungen) ;
-- **Sigcheck**: prüft digitale Signaturen von Dateien auf bösartigen Code.
+- *Sysinternals Suite*: Hierbei handelt es sich um eine wesentlich fortschrittlichere Reihe von Tools, die von Microsoft zur Diagnose, Überwachung und Fehlerbehebung von Windows angeboten werden. Hier sind die wichtigsten Tools dieser Suite:
+    - *Process Monitor*: Ermöglicht es dir, aktive Prozesse, Dateizugriffe, Register usw. in Echtzeit zu beobachten;
+    - *Autoruns*: zeigt alle beim Start gestarteten Programme an und hilft dir, hartnäckige Malware oder Anwendungen, die nicht ausgeführt werden sollten, schnell zu erkennen;
+    - *Process Explorer*: überwacht Prozesse und erkennt verdächtiges Verhalten;
+    - *TCPView*: Visualisierung aktiver Netzwerkverbindungen (Erkennung von anormalen Verbindungen) ;
+    - *Sigcheck*: prüft digitale Signaturen von Dateien auf bösartigen Code.
 
 
 
@@ -3918,7 +3833,7 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- **GlassWire**: ein Tool zur Netzwerküberwachung. Es verfolgt ein- und ausgehende Verbindungen in Echtzeit und warnt Sie bei ungewöhnlichen Aktivitäten.
+- *GlassWire*: ein Tool zur Netzwerküberwachung. Es verfolgt ein- und ausgehende Verbindungen in Echtzeit und warnt dich bei ungewöhnlichen Aktivitäten.
 
 
 
@@ -3930,13 +3845,13 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wird, sind die Risiken geringer. Dennoch gibt es einige fortschrittliche Tools zur Überwachung Ihres Systems:
+Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wird, sind die Risiken geringer. Dennoch gibt es einige fortschrittliche Tools zur Überwachung deines Systems:
 
 
 
 
 
-- **Fail2ban**: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z. B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend gebannt;
+- *Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z.B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP-Adresse über `iptables` vorübergehend blockiert;
 
 
 
@@ -3946,7 +3861,7 @@ Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wir
 
 
 
-- **Lynis**: ein umfassendes Sicherheits-Audit-Tool, das Ihr System auf Fehlkonfigurationen, bekannte Schwachstellen oder Abweichungen von bewährten Verfahren untersucht. Es erstellt einen leicht verständlichen Bericht mit einer Sicherheitsbewertung und Empfehlungen.
+- *Lynis*: ein umfassendes Sicherheits-Audit-Tool, das dein System auf Fehlkonfigurationen, bekannte Schwachstellen oder Abweichungen von bewährten Verfahren untersucht. Es erstellt einen leicht verständlichen Bericht mit einer Sicherheitsbewertung und Empfehlungen.
 
 
 
@@ -3959,13 +3874,13 @@ https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b
 
 
 
-macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anwendungssignaturen und der relativ geschlossenen Architektur. Für den persönlichen Gebrauch bietet ein aktueller Rechner mit Standardeinstellungen bereits eine angemessene Sicherheit. Um Ihre Systemüberwachung einen Schritt weiter zu bringen, empfehle ich :
+macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anwendungssignaturen und der relativ geschlossenen Architektur. Für den persönlichen Gebrauch bietet ein aktueller Rechner mit Standardeinstellungen bereits eine angemessene Sicherheit. Um deine Systemüberwachung einen Schritt weiter zu bringen, empfehle ich :
 
 
 
 
 
-- **KnockKnock**: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit können Sie bösartige Persistenz auf Ihrem System schnell identifizieren.
+- *KnockKnock*: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit kannst du bösartige Persistenz auf deinem System schnell identifizieren.
 
 
 
@@ -3973,15 +3888,15 @@ macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anw
 
 
 
-### Fazit: Sicherheit ist eine Frage der Regelmäßigkeit
+### Fazit: Sicherheit ist eine Frage der Regelmässigkeit
 
 
 
-Optimale Computersicherheit wird nicht durch die einmalige Installation bestimmter Tools erreicht, sondern durch regelmäßige, rigorose und methodische Wartung. Das Betriebssystem auf dem neuesten Stand zu halten, kritische Software zu aktualisieren, unnötige Software zu löschen und das System aktiv zu überwachen, sind die Eckpfeiler einer guten Wartung. Ganz allgemein gelten diese bewährten Praktiken für alle Ihre digitalen Werkzeuge: verbundene Objekte, Server, Smartphones...
+Optimale Computersicherheit wird nicht durch die einmalige Installation bestimmter Tools erreicht, sondern durch regelmässige, rigorose und methodische Wartung. Das Betriebssystem auf dem neuesten Stand zu halten, kritische Software zu aktualisieren, unnötige Software zu löschen und das System aktiv zu überwachen, sind die Eckpfeiler einer guten Wartung. Ganz allgemein gelten diese bewährten Praktiken für alle deine digitalen Werkzeuge: verbundene Objekte, Server, Smartphones...
 
 
 
-Im nächsten Kapitel werden wir uns ansehen, wie Sie die Installation von Malware in der Praxis vermeiden können, indem Sie lernen, wie Sie die Integrität und Authentizität der Dateien, die Sie auf Ihren Computer herunterladen, überprüfen können.
+Im nächsten Kapitel zeigen wir dir, wie du die Installation von Malware in der Praxis vermeiden kannst, indem du lernst, die Integrität und Authentizität der Dateien, die du auf deinen Computer herunterlädst, zu überprüfen.
 
 
 
@@ -3993,7 +3908,7 @@ Im nächsten Kapitel werden wir uns ansehen, wie Sie die Installation von Malwar
 
 
 
-Die Installation von Software auf Ihrem Computer mag wie ein trivialer Vorgang erscheinen, in Wirklichkeit stellt sie jedoch ein sehr ernstes potenzielles Risiko für Ihre Computersicherheit dar. Heruntergeladene Software kann nämlich von Angreifern verändert oder infiziert werden, die diese Gelegenheit nutzen, um Viren, Trojaner und andere Arten von Malware in Ihr System einzuschleusen.
+Die Installation von Software auf deinem Computer mag wie ein trivialer Vorgang erscheinen. In Wirklichkeit stellt sie jedoch ein sehr ernstes potenzielles Risiko für deine Computersicherheit dar. Heruntergeladene Software kann nämlich von Angreifern verändert oder infiziert werden, die diese Gelegenheit nutzen, um Viren, Trojaner und andere Arten von Malware in dein System einzuschleusen.
 
 
 
@@ -4009,7 +3924,8 @@ In diesem Kapitel sehen wir uns an, wie man die Integrität und Authentizität e
 
 
 
-Wenn Sie Software aus dem Internet herunterladen, vertrauen Sie stillschweigend darauf, dass die Datei auf Ihrem Computer läuft. Aber dieses Vertrauen sollte niemals blind sein. Deshalb ist es wichtig, zwei grundlegende Konzepte zu verstehen: Dateiintegrität und Authentizität.
+Wenn du Software aus dem Internet herunterlädst, vertraust du stillschweigend darauf, dass die Datei auf deinem Computer läuft. Aber dieses Vertrauen sollte niemals blind sein. Deshalb ist es wichtig, zwei grundlegende Konzepte zu verstehen: Dateiintegrität und Authentizität.
+
 
 
 
@@ -4021,7 +3937,7 @@ Die Integrität einer Datei garantiert, dass sie zwischen dem Zeitpunkt der Ver�
 
 
 
-Diese Änderungen sind mit bloßem Auge nicht zu erkennen: Die heruntergeladene Datei kann ganz normal geöffnet und ausgeführt werden, während sie gleichzeitig bösartige Funktionen ausführt. Daher ist es wichtig, ihre Integrität mit kryptografischen Fingerabdrücken zu überprüfen (Hash).
+Diese Änderungen sind mit blossem Auge nicht zu erkennen: Die heruntergeladene Datei kann ganz normal geöffnet und ausgeführt werden, während sie gleichzeitig bösartige Funktionen ausführt. Daher ist es wichtig, ihre Integrität mit kryptografischen Fingerabdrücken zu überprüfen (Hash).
 
 
 
@@ -4029,15 +3945,13 @@ Diese Änderungen sind mit bloßem Auge nicht zu erkennen: Die heruntergeladene 
 
 
 
-Eine Datei kann intakt (unverändert) sein, aber von einer böswilligen Organisation veröffentlicht worden sein, die sich die Identität des rechtmäßigen Entwicklers angeeignet hat. Die Authentizität zielt daher darauf ab, zu bestätigen, dass die Datei wirklich von der offiziellen Quelle stammt und nicht von einem Betrüger, einer nicht verifizierten Mirror-Site oder einem Hacker, der den Distributionsserver manipuliert hat.
+Eine Datei kann intakt (unverändert) sein, aber von einer böswilligen Organisation veröffentlicht worden sein, die sich die Identität des rechtmässigen Entwicklers angeeignet hat. Die Authentizität zielt daher darauf ab, zu bestätigen, dass die Datei wirklich von der offiziellen Quelle stammt und nicht von einem Betrüger, einer nicht verifizierten Mirror-Site oder einem Hacker, der den Distributionsserver manipuliert hat.
 
 
 
-Diese Überprüfung der Herkunft wird durch die digitale Signatur ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn Sie diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfen, können Sie sicher sein, dass die Datei tatsächlich von dieser Person stammt.
+Diese Überprüfung der Herkunft wird durch die digitale Signatur ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn du diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfst, kannst du sicher sein, dass die Datei tatsächlich von dieser Person stammt.
 
-
-
-Indem Sie sowohl die Authentizität (d. h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d. h., dass sie seit ihrer Veröffentlichung durch den rechtmäßigen Entwickler nicht verändert wurde) überprüfen, können Sie sicher sein, dass Sie die richtige Software installieren.
+Indem du sowohl die Authentizität (d.h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d.h., dass sie seit ihrer Veröffentlichung durch den rechtmässigen Entwickler nicht verändert wurde) überprüfst, kannst du sicher sein, dass du die richtige Software installierst.
 
 
 
@@ -4045,23 +3959,23 @@ Indem Sie sowohl die Authentizität (d. h., dass die Installationsdatei aus der 
 
 
 
-Dazu werden wir 2 kryptografische Werkzeuge verwenden. Das erste ist Hashing. Ein Hash ist eine kurze Zeichenfolge, die deterministisch und unvorhersehbar aus dem Inhalt einer Datei berechnet wird, wobei ein Hash-Algorithmus wie SHA-256 verwendet wird. Zwei absolut identische Dateien haben genau die gleiche Hash, aber die kleinste Änderung an der Datei führt dazu, dass sich die Hash vollständig ändert.
+Dazu werden wir zwei kryptografische Werkzeuge verwenden. Das erste ist Hashing. Ein Hash ist eine kurze Zeichenfolge, die deterministisch und unvorhersehbar aus dem Inhalt einer Datei berechnet wird, wobei ein Hash-Algorithmus wie SHA-256 verwendet wird. Zwei absolut identische Dateien haben genau die gleiche Hash, aber die kleinste Änderung an der Datei führt dazu, dass sich der Hash vollständig ändert.
 
 
 
-Der rechtmäßige Entwickler veröffentlicht normalerweise die Hash der Originaldatei auf seiner offiziellen Website. Sie berechnen vor Ort den Hash der heruntergeladenen Installationsdatei, um die beiden zu vergleichen. Wenn die beiden Fingerabdrücke übereinstimmen, können Sie sicher sein, dass die heruntergeladene Datei echt ist und nicht verfälscht wurde.
+Der rechtmässige Entwickler veröffentlicht normalerweise den Hash der Originaldatei auf seiner offiziellen Website. Sie berechnen vor Ort den Hash der heruntergeladenen Installationsdatei, um die beiden zu vergleichen. Wenn die beiden Fingerabdrücke übereinstimmen, kannst du sicher sein, dass die heruntergeladene Datei echt ist und nicht verfälscht wurde.
 
 
 
-Das zweite Werkzeug ist die digitale Signatur. Damit wird die Authentizität der Installationssoftware überprüft. Der Entwickler signiert die Datei mit Hash mit seinem privaten Schlüssel, und Sie können diese Signatur mit dem entsprechenden öffentlichen Schlüssel überprüfen. Dies beweist, dass die Datei von der richtigen Person veröffentlicht wurde.
+Das zweite Werkzeug ist die digitale Signatur. Damit wird die Authentizität der Installationssoftware überprüft. Der Entwickler signiert die Datei mit Hash mit seinem privaten Schlüssel, und du kannst diese Signatur mit dem entsprechenden öffentlichen Schlüssel überprüfen. Dies beweist, dass die Datei von der richtigen Person veröffentlicht wurde.
 
 
 
-Dieses System stützt sich auf asymmetrische Kryptographie und Tools wie GnuPG (Befehlszeile) oder Kleopatra (Interface grafisch für Windows). Diese Tools müssen ordnungsgemäß konfiguriert werden, und der öffentliche Schlüssel des Entwicklers muss über einen sicheren Kanal verifiziert werden (offizielle Website, Fingerabdruck auf Twitter...). Werfen wir einen Blick auf die praktischen Aspekte.
+Dieses System stützt sich auf asymmetrische Kryptographie und Tools wie GnuPG (Befehlszeile) oder Kleopatra (Interface grafisch für Windows). Diese Tools müssen ordnungsgemäss konfiguriert werden, und der öffentliche Schlüssel des Entwicklers muss über einen sicheren Kanal verifiziert werden (offizielle Website, Fingerabdruck auf Twitter...). Werfen wir einen Blick auf die praktischen Aspekte.
 
 
 
-Um mehr über kryptografische Hash-Funktionen und digitale Signaturen zu erfahren, lade ich Sie ein, den kostenlosen Kurs CYP 201 zu besuchen, der auf Plan ₿ Academy angeboten wird:
+Um mehr über kryptografische Hash-Funktionen und digitale Signaturen zu erfahren, lade ich dich ein, den kostenlosen Kurs CYP 201 zu besuchen, der auf Plan ₿ Academy angeboten wird:
 
 
 
@@ -4075,7 +3989,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-Wenn Sie Linux verwenden, ist GPG auf den meisten Distributionen vorinstalliert. Falls nicht, können Sie es mit dem folgenden Befehl installieren:
+Wenn du Linux verwendest, ist GPG auf den meisten Distributionen vorinstalliert. Falls nicht, kannst du es mit dem folgenden Befehl installieren:
 
 
 
@@ -4089,7 +4003,7 @@ sudo apt install gnupg
 
 
 
-Wenn Sie unter macOS den Homebrew-Paketmanager noch nicht installiert haben, können Sie dies mit den folgenden Befehlen nachholen:
+Wenn du unter macOS den Homebrew‑Paketmanager noch nicht installiert hast, kannst du dies mit den folgenden Befehlen nachholen:
 
 
 
@@ -4103,7 +4017,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 
 
-Installieren Sie dann GPG mit diesem Befehl:
+Installiere dann GPG mit diesem Befehl:
 
 
 
@@ -4113,7 +4027,7 @@ brew install gnupg
 
 
 
-Für Windows können Sie, wenn Sie kein GPG haben, [Gpg4win](https://www.gpg4win.org/) installieren.
+Für Windows kannst du, wenn du kein GPG hast, [Gpg4win](https://www.gpg4win.org/) installieren.
 
 
 
@@ -4125,11 +4039,11 @@ Für Windows können Sie, wenn Sie kein GPG haben, [Gpg4win](https://www.gpg4win
 
 
 
-Für die ersten Schritte benötigen Sie mehrere Dokumente zu der Software, die Sie installieren möchten. In diesem Beispiel werden wir *Sparrow wallet*, einen Bitcoin-Portfoliomanager, überprüfen. Das Verfahren ist bei jeder anderen Software ähnlich: Sie müssen nur die richtigen Dateien für die Überprüfung finden.
+Für die ersten Schritte benötigst du mehrere Dokumente zu der Software, die du installieren möchtest. In diesem Beispiel werden wir *Sparrow wallet*, einen Bitcoin-Portfoliomanager, überprüfen. Das Verfahren ist bei jeder anderen Software ähnlich: Du musst nur die richtigen Dateien für die Überprüfung finden.
 
 
 
-Besuchen Sie die offizielle Website von [Sparrow wallet im Abschnitt "_Download_"](https://sparrowwallet.com/download/). Wenn Sie ein anderes Programm ausprobieren möchten, besuchen Sie bitte die Website des betreffenden Programms.
+Besuche die offizielle Website von [Sparrow wallet im Abschnitt "_Download_"](https://sparrowwallet.com/download/). Wenn du ein anderes Programm ausprobieren möchtest, besuche bitte die Website des betreffenden Programms.
 
 
 
@@ -4137,7 +4051,7 @@ Besuchen Sie die offizielle Website von [Sparrow wallet im Abschnitt "_Download_
 
 
 
-Sie können auch [zum GitHub-Repository des Projekts] gehen (https://github.com/sparrowwallet/Sparrow/releases).
+Du kannst auch [zum GitHub-Repository des Projekts] gehen (https://github.com/sparrowwallet/Sparrow/releases).
 
 
 
@@ -4145,7 +4059,7 @@ Sie können auch [zum GitHub-Repository des Projekts] gehen (https://github.com/
 
 
 
-Laden Sie das Software-Installationsprogramm für Ihr Betriebssystem herunter.
+Lade das Software-Installationsprogramm für dein Betriebssystem herunter.
 
 
 
@@ -4153,7 +4067,7 @@ Laden Sie das Software-Installationsprogramm für Ihr Betriebssystem herunter.
 
 
 
-Sie benötigen auch die Hash der Datei, die oft "_SHA256SUMS_" oder "_MANIFEST_" genannt wird.
+Du benötigst auch die Hash der Datei, die oft "_SHA256SUMS_" oder "_MANIFEST_" genannt wird.
 
 
 
@@ -4161,7 +4075,7 @@ Sie benötigen auch die Hash der Datei, die oft "_SHA256SUMS_" oder "_MANIFEST_"
 
 
 
-Laden Sie auch die PGP-Signatur der Datei herunter. Dies ist das `.asc` Dokument.
+Lade auch die PGP-Signatur der Datei herunter. Dies ist das `.asc` Dokument.
 
 
 
@@ -4169,15 +4083,13 @@ Laden Sie auch die PGP-Signatur der Datei herunter. Dies ist das `.asc` Dokument
 
 
 
-Achten Sie darauf, dass alle diese Dateien im selben Verzeichnis abgelegt werden, um die folgenden Schritte zu erleichtern.
+Achte darauf, dass alle diese Dateien im selben Verzeichnis abgelegt werden, um die folgenden Schritte zu erleichtern.
 
 
 
-Schließlich benötigen Sie den öffentlichen Schlüssel des Entwicklers, um die PGP-Signatur zu überprüfen. Dieser Schlüssel ist in der Regel auf der offiziellen Website der Software, im GitHub-Repository des Projekts, manchmal in den sozialen Netzwerken des Entwicklers oder auf speziellen Plattformen wie Keybase verfügbar.
+Schliesslich brauchst du den öffentlichen Schlüssel des Entwicklers, um die PGP‑Signatur zu überprüfen. Dieser Schlüssel ist in der Regel auf der offiziellen Website der Software, im GitHub‑Repository des Projekts, manchmal in den sozialen Netzwerken des Entwicklers oder auf speziellen Plattformen wie Keybase verfügbar.
 
-
-
-Im Fall von *Sparrow wallet* finden Sie den öffentlichen Schlüssel des Entwicklers [Craig Raw auf Keybase] (https://keybase.io/craigraw). Um ihn direkt aus dem Terminal herunterzuladen, führen Sie den folgenden Befehl aus:
+Im Fall von *Sparrow wallet* findest du den öffentlichen Schlüssel des Entwicklers [Craig Raw auf Keybase] (https://keybase.io/craigraw). Um ihn direkt aus dem Terminal herunterzuladen, führst du den folgenden Befehl aus:
 
 
 
@@ -4195,16 +4107,14 @@ curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 
 
 
-Um sicherzugehen, dass Sie den echten öffentlichen Schlüssel des Entwicklers verwenden und nicht einen, der von einem Angreifer usurpiert wurde, empfehle ich Ihnen, die Quellen zu überprüfen: Überprüfen Sie, ob der Fingerabdruck des Schlüssels auf Keybase, auf der offiziellen Website des Projekts und in allen sozialen Netzwerken oder Kommunikationskanälen des Entwicklers übereinstimmt.
-
+Um sicherzugehen, dass du den echten öffentlichen Schlüssel des Entwicklers verwendest und nicht einen, der von einem Angreifer usurpiert wurde, empfehle ich dir, die Quellen zu überprüfen: Überprüfe, ob der Fingerabdruck des Schlüssels auf Keybase, auf der offiziellen Website des Projekts und in allen sozialen Netzwerken oder Kommunikationskanälen des Entwicklers übereinstimmt.
 
 
 #### Überprüfung der Unterschrift
 
 
 
-Der Prozess der Signaturprüfung ist unter Windows, macOS und Linux identisch. Sie sollten den öffentlichen Schlüssel bereits im vorherigen Schritt importiert haben. Wenn Sie dies noch nicht getan haben, können Sie ihn mit dem folgenden Befehl importieren:
-
+Der Prozess der Signaturprüfung ist unter Windows, macOS und Linux identisch. Du solltest den öffentlichen Schlüssel bereits im vorherigen Schritt importiert haben. Wenn du das noch nicht getan hast, kannst du ihn mit dem folgenden Befehl importieren:
 
 
 ```bash
@@ -4213,7 +4123,7 @@ gpg --import [key_path]
 
 
 
-Ersetzen Sie `[key_path]` durch den Speicherort der öffentlichen Schlüsseldatei des Entwicklers.
+Ersetze `[key_path]` durch den Speicherort der öffentlichen Schlüsseldatei des Entwicklers.
 
 
 
@@ -4221,7 +4131,7 @@ Ersetzen Sie `[key_path]` durch den Speicherort der öffentlichen Schlüsseldate
 
 
 
-Überprüfen Sie die Signatur mit dem folgenden Befehl:
+Überprüfe die Signatur mit dem folgenden Befehl:
 
 
 
@@ -4231,7 +4141,7 @@ gpg --verify [file.asc]
 
 
 
-Ersetzen Sie `[file.asc]` durch den Pfad der Signaturdatei. Im Fall der Sparrow heißt diese Datei "_sparrow-2.0.0-manifest.txt.asc_" für Version 2.0.0.
+Ersetze `[file.asc]` durch den Pfad der Signaturdatei. Im Fall der Sparrow heisst diese Datei "_sparrow-2.0.0-manifest.txt.asc_" für Version 2.0.0.
 
 
 
@@ -4243,7 +4153,7 @@ Ersetzen Sie `[file.asc]` durch den Pfad der Signaturdatei. Im Fall der Sparrow 
 
 
 
-Wenn die Signatur gültig ist, wird sie von GPG ausdrücklich bestätigt. Sie können dann mit dem nächsten Schritt fortfahren, da diese Überprüfung die Authentizität der Datei bestätigt.
+Wenn die Signatur gültig ist, wird sie von GPG ausdrücklich bestätigt. Du kannst dann mit dem nächsten Schritt fortfahren, da diese Überprüfung die Authentizität der Datei bestätigt.
 
 
 
@@ -4259,11 +4169,11 @@ Wenn die Signatur gültig ist, wird sie von GPG ausdrücklich bestätigt. Sie k�
 
 
 
-Nachdem die Authentizität der Datei mit den Hashes bestätigt wurde, ist es nun an der Zeit, die Integrität der Installer-Datei anhand dieser authentifizierten Datei zu überprüfen. Das Ziel besteht darin, die Hash Ihres Installationsprogramms mit der in der Datei `.asc` angegebenen zu vergleichen. Wenn die beiden übereinstimmen, ist sichergestellt, dass der Softwarecode in keiner Weise verändert wurde.
+Nachdem die Authentizität der Datei mit den Hashes bestätigt wurde, ist es nun an der Zeit, die Integrität der Installer-Datei anhand dieser authentifizierten Datei zu überprüfen. Das Ziel besteht darin, die Hash deines Installationsprogramms mit der in der Datei `.asc` angegebenen zu vergleichen. Wenn die beiden übereinstimmen, ist sichergestellt, dass der Softwarecode in keiner Weise verändert wurde.
 
 
 
-Öffnen Sie unter Windows ein Terminal und führen Sie den folgenden Befehl aus:
+Öffne unter Windows ein Terminal und führe den folgenden Befehl aus:
 
 
 
@@ -4273,7 +4183,7 @@ CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
 
 
 
-Ersetzen Sie `[file_path]` durch den Installationsort.
+Ersetze `[file_path]` durch den Installationsort.
 
 
 
@@ -4281,7 +4191,7 @@ Ersetzen Sie `[file_path]` durch den Installationsort.
 
 
 
-Das Terminal sendet das Hash mit der heruntergeladenen Software zurück.
+Das Terminal sendet den Hash mit der heruntergeladenen Software zurück.
 
 
 
@@ -4289,7 +4199,7 @@ Das Terminal sendet das Hash mit der heruntergeladenen Software zurück.
 
 
 
-Vergleichen Sie dann das Ergebnis mit dem entsprechenden Wert in der Datei "_sparrow-2.0.0-manifest.txt_".
+Vergleiche dann das Ergebnis mit dem entsprechenden Wert in der Datei "_sparrow-2.0.0-manifest.txt_".
 
 
 
@@ -4305,7 +4215,7 @@ Unter macOS und Linux ist der Hash-Verifizierungsprozess automatisiert, so dass 
 
 
 
-Führen Sie einfach diesen Befehl unter macOS aus:
+Führe einfach diesen Befehl unter macOS aus:
 
 
 
@@ -4315,7 +4225,7 @@ shasum --check [file_name] --ignore-missing
 
 
 
-Ersetzen Sie `[Dateiname]` durch den Namen der authentifizierten Datei, die die Hashes enthält. Zum Beispiel für Sparrow wallet Version 2.0.0:
+Ersetze `[Dateiname]` durch den Namen der authentifizierten Datei, die die Hashes enthält. Zum Beispiel für Sparrow wallet Version 2.0.0:
 
 
 
@@ -4325,7 +4235,7 @@ shasum --check sparrow-2.0.0-manifest.txt --ignore-missing
 
 
 
-Wenn die Hashes übereinstimmen, sollte die Ausgabe lauten:
+Wenn die Hashes übereinstimmen, sollte die Ausgabe folgendermassen lauten:
 
 
 
@@ -4345,7 +4255,7 @@ sha256sum --check [file_name] --ignore-missing
 
 
 
-Und wenn die Hashes übereinstimmen, sollten Sie erhalten:
+Und wenn die Hashes übereinstimmen, solltest du folgendes erhalten:
 
 
 
@@ -4359,8 +4269,7 @@ sparrow_2.0.0-1_amd64.deb: OK
 
 
 
-Sie können nun sicher sein, dass die Software, die Sie heruntergeladen haben, sowohl echt als auch ehrlich ist. Sie können sie jetzt auf Ihrem Computer installieren.
-
+Du kannst nun sicher sein, dass die Software, die du heruntergeladen hast, sowohl echt als auch ehrlich ist. Du kannst sie jetzt auf deinem Computer installieren.
 
 
 ![Image](assets/fr/237.webp)
@@ -4371,7 +4280,7 @@ Die Überprüfung der Integrität und Authentizität ist ein recht einfaches Ver
 
 
 
-Im nächsten Kapitel werden wir uns näher mit der Datenverwaltung befassen. Wir werden uns ansehen, wie Sie sich vor zwei großen Risiken schützen können: Datenverlust und Datendiebstahl.
+Im nächsten Kapitel werden wir uns näher mit der Datenverwaltung befassen. Wir werden uns ansehen, wie du dich vor zwei grossen Risiken schützen kannst: Datenverlust und Datendiebstahl.
 
 
 
@@ -4383,25 +4292,21 @@ Im nächsten Kapitel werden wir uns näher mit der Datenverwaltung befassen. Wir
 
 
 
-Der Schutz Ihrer persönlichen Daten ist ein wichtiger Bestandteil der Gewährleistung Ihrer digitalen Souveränität, Privatsphäre und Sicherheit. Die Risiken für Ihre Daten sind vielfältig: Hackerangriffe, Verlust von Hardware oder sogar physische Beschlagnahmung. Durch die Umsetzung wirksamer Sicherungs- und Verschlüsselungsstrategien können Sie die meisten dieser potenziellen Gefahren vermeiden.
+Der Schutz deiner persönlichen Daten ist ein wichtiger Bestandteil der Gewährleistung deiner digitalen Souveränität, Privatsphäre und Sicherheit. Die Risiken für deine Daten sind vielfältig: Hackerangriffe, Verlust von Hardware oder sogar physische Beschlagnahmung. Durch die Umsetzung wirksamer Sicherungs‑ und Verschlüsselungsstrategien kannst du die meisten dieser potenziellen Gefahren vermeiden.
+
+In diesem Kapitel gehst du im Detail darauf ein, wie du deine Daten sichern und verschlüsseln sowie sensible Informationen in deinen Dokumenten bereinigen kannst.
 
 
 
-In diesem Kapitel gehen wir im Detail darauf ein, wie Sie Ihre Daten sichern und verschlüsseln sowie sensible Informationen in Ihren Dokumenten bereinigen können.
+### Sichere deine Daten
 
 
 
-### Sichern Sie Ihre Daten
+#### Warum solltest du deine Daten sichern?
 
 
 
-#### Warum sollten Sie Ihre Daten sichern?
-
-
-
-Die regelmäßige Sicherung Ihrer persönlichen oder geschäftlichen Daten ist eine absolut notwendige Sicherheitsmaßnahme, die oft vernachlässigt wird, bis es zu spät ist. Entgegen der landläufigen Meinung ist das Sichern von Daten keine optionale oder auf Unternehmen beschränkte Aufgabe: Es betrifft jeden Computernutzer. Ganz gleich, ob es sich um Arbeitsunterlagen, Familienfotos, persönliche Dokumente oder andere sensible Inhalte handelt, diese Daten können aus den unterschiedlichsten Gründen plötzlich verschwinden:
-
-
+Die regelmässige Sicherung deiner persönlichen oder geschäftlichen Daten ist eine absolut notwendige Sicherheitsmassnahme, die oft vernachlässigt wird, bis es zu spät ist. Entgegen der landläufigen Meinung ist das Sichern von Daten keine optionale oder auf Unternehmen beschränkte Aufgabe: es betrifft jeden Computernutzer. Ganz gleich, ob es sich um Arbeitsunterlagen, Familienfotos, persönliche Dokumente oder andere sensible Inhalte handelt, diese Daten können aus den unterschiedlichsten Gründen plötzlich verschwinden:
 
 
 
@@ -4411,7 +4316,7 @@ Die regelmäßige Sicherung Ihrer persönlichen oder geschäftlichen Daten ist e
 
 
 
-- Computerangriff: Einige Schadprogramme, insbesondere Ransomware, verschlüsseln Ihre Dateien lokal und verlangen ein Lösegeld in Exchange für den Entschlüsselungsschlüssel. Ohne ein unabhängiges Backup sind Sie ihnen hilflos ausgeliefert.
+- Computerangriff: Einige Schadprogramme, insbesondere Ransomware, verschlüsseln deine Dateien lokal und verlangen ein Lösegeld im Tausch für den Entschlüsselungsschlüssel. Ohne ein unabhängiges Backup bist du ihnen hilflos ausgeliefert.
 
 
 
@@ -4423,11 +4328,11 @@ Die regelmäßige Sicherung Ihrer persönlichen oder geschäftlichen Daten ist e
 
 
 
-- Physische Katastrophen: Feuer, Wasserschäden, Diebstahl oder sogar ein Stromausfall können Ihre Geräte im Handumdrehen unbrauchbar machen.
+- Physische Katastrophen: Feuer, Wasserschäden, Diebstahl oder sogar ein Stromausfall können deine Geräte im Handumdrehen unbrauchbar machen.
 
 
 
-Deshalb brauchen Sie eine rigorose, geplante und belastbare Sicherungsstrategie.
+Deshalb brauchst du eine rigorose, geplante und belastbare Sicherungsstrategie.
 
 
 
@@ -4435,47 +4340,47 @@ Deshalb brauchen Sie eine rigorose, geplante und belastbare Sicherungsstrategie.
 
 
 
-Die "3-2-1"-Regel ist ein anerkannter Standard in der IT-Sicherheit. Sie basiert auf einfachen, aber äußerst wirksamen Prinzipien, die Fehler- und Störungstoleranz garantieren. Und so funktioniert sie:
+Die "3-2-1"-Regel ist ein anerkannter Standard in der IT-Sicherheit. Sie basiert auf einfachen, aber äusserst wirksamen Prinzipien, die Fehler- und Störungstoleranz garantieren. Und so funktioniert sie:
 
 
 
 
 
-- 3 Kopien Ihrer Daten: Dazu gehören das Original (die Dateien auf Ihrem Computer) und zwei zusätzliche Sicherungskopien.
+- 3 Kopien deiner Daten: Dazu gehören das Original (die Dateien auf deinem Computer) und zwei zusätzliche Sicherungskopien.
 
 
 
 
 
-- 2 verschiedene Speichermedien: Ziel ist es, zu vermeiden, dass ein Hardware-Problem alle Ihre Medien auf einmal betrifft. Zum Beispiel ein externes Hard-Laufwerk + eine Cloud; oder ein NAS + Ihr Computer.
+- 2 verschiedene Speichermedien: Ziel ist es, zu vermeiden, dass ein Hardware-Problem alle deine Medien auf einmal betrifft. Zum Beispiel ein externes Laufwerk + eine Ablage in der Cloud; oder ein NAS + dein Computer.
 
 
 
 
 
-- 1 Off-Site-Kopie: Diese Kopie muss sich an einem anderen Ort als Ihrem Hauptwohnsitz befinden (bei einem Verwandten, auf einem entfernten Server, in einer sicheren Cloud...). Sie schützt Sie vor lokalen Ereignissen wie Feuer oder Einbruch.
+- 1 Off-Site-Kopie: Diese Kopie muss sich an einem anderen Ort als deinem Hauptwohnsitz befinden (bei einem Verwandten, auf einem entfernten Server, in einer sicheren Cloud...). Sie schützt dich vor lokalen Ereignissen wie Feuer oder Einbruch.
 
 
 
-Nehmen wir das Beispiel eines Standardbenutzers, Alice, der seine persönlichen Daten schützen möchte.
+Nehmen wir das Beispiel eines Standardbenutzers, Alice. Sie möchte ihre persönlichen Daten schützen.
 
 
 
-Alice bewahrt eine Version ihrer Dateien auf ihrem Laptop auf, wo sie sie täglich benutzt. Um zumindest zwei getrennte Medien zu haben, kopiert sie regelmäßig (z. B. jeden Montag) alle ihre Daten auf einen USB-Stick, den sie zu Hause aufbewahrt. Um sich gegen den Diebstahl ihrer Dateien im Falle eines physischen Verlusts oder Diebstahls zu schützen, verschlüsselt Alice diesen USB-Stick mit einer geeigneten Software (wir werden später in diesem Kapitel sehen, wie man das macht).
+Alice bewahrt eine Version ihrer Dateien auf ihrem Laptop auf, wo sie sie täglich benutzt. Um zumindest zwei getrennte Medien zu haben, kopiert sie regelmässig (z.B. jeden Montag) alle ihre Daten auf einen USB-Stick, den sie zu Hause aufbewahrt. Um sich gegen den Diebstahl ihrer Dateien im Falle eines physischen Verlusts oder Diebstahls zu schützen, verschlüsselt Alice diesen USB-Stick mit einer geeigneten Software (wir werden später in diesem Kapitel sehen, wie man das macht).
 
 
 
-Mit dieser Konfiguration ist Alice bereits gegen viele gängige Bedrohungen geschützt. Ein Risiko bleibt jedoch: Im Falle eines Brandes oder Einbruchs in ihrer Wohnung könnten ihre beiden lokalen Kopien (der Computer und der USB-Stick) gleichzeitig verschwinden. Um dieses Risiko zu mindern, beschließt sie, einen Cloud-Speicherdienst zu nutzen, mit dem sie auch ihre Dateien regelmäßig synchronisiert.
+Mit dieser Konfiguration ist Alice bereits gegen viele gängige Bedrohungen geschützt. Ein Risiko bleibt jedoch: Im Falle eines Brandes oder Einbruchs in ihrer Wohnung könnten ihre beiden lokalen Kopien (der Computer und der USB-Stick) gleichzeitig verschwinden. Um dieses Risiko zu mindern, beschliesst sie, einen Cloud-Speicherdienst zu nutzen, mit dem sie auch ihre Dateien regelmässig synchronisiert.
 
 
 
 https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Alice befolgt somit die 3-2-1-Regel: Es gibt drei Kopien seiner Dateien (Computer, USB-Stick, Cloud), die auf mindestens zwei verschiedenen Medien (interne Festplatte, USB-Stick, Remote-Server) gespeichert sind, und mindestens eine Kopie außerhalb des Standorts (Cloud-Server).
+Alice befolgt somit die 3-2-1-Regel: Es gibt drei Kopien der Dateien (Computer, USB-Stick, Cloud), die auf mindestens zwei verschiedenen Medien (interne Festplatte, USB-Stick, Remote-Server) gespeichert sind, und mindestens eine Kopie ausserhalb des Standorts (Cloud-Server).
 
 
 
-Diese Strategie garantiert eine hervorragende Ausfallsicherheit: Wenn ihr Computer abstürzt, kann sie ihre Dateien vom USB-Stick oder aus der Cloud wiederherstellen; wenn der Cloud-Speicheranbieter einen größeren Ausfall erleidet, hat sie ihre Dateien immer noch lokal zur Verfügung; und selbst im Falle eines Einbruchs, bei dem ihr Laptop und ihr USB-Stick gestohlen werden, kann sie ihre Daten über den Cloud-Dienst wiederherstellen.
+Diese Strategie garantiert eine hervorragende Ausfallsicherheit: Wenn ihr Computer abstürzt, kann sie ihre Dateien vom USB-Stick oder aus der Cloud wiederherstellen; wenn der Cloud-Speicheranbieter einen grösseren Ausfall erleidet, hat sie ihre Dateien immer noch lokal zur Verfügung; und selbst im Falle eines Einbruchs, bei dem ihr Laptop und ihr USB-Stick gestohlen werden, kann sie ihre Daten über den Cloud-Dienst wiederherstellen.
 
 
 
@@ -4487,15 +4392,15 @@ Diese Strategie garantiert eine hervorragende Ausfallsicherheit: Wenn ihr Comput
 
 
 
-Eine der besten Methoden zur Gewährleistung einer guten Backup-Hygiene ist die Automatisierung. Konfigurieren Sie Ihre Tools so, dass Backups automatisch nach einem Zeitplan (jede Nacht, jede Woche...) ausgeführt werden. Dadurch werden Versäumnisse vermieden und die Kontinuität auch bei vorübergehender Abwesenheit Ihrerseits gewährleistet.
+Eine der besten Methoden zur Gewährleistung einer guten Backup-Hygiene ist die Automatisierung. Konfiguriere deine Tools so, dass Backups automatisch nach einem Zeitplan (jede Nacht, jede Woche...) ausgeführt werden. Dadurch werden Versäumnisse vermieden und die Kontinuität auch bei vorübergehender Abwesenheit deinerseits gewährleistet.
 
 
 
-In der Praxis gibt es mehrere Möglichkeiten, Ihre Backups zu automatisieren. Sie können z. B. ein Python-Skript erstellen, das automatisch ausgeführt wird, um Ihre Daten auf ein externes Medium zu kopieren. Das ist eine einfache, anpassbare Lösung.
+In der Praxis gibt es mehrere Möglichkeiten, deine Backups zu automatisieren. Du kannst z.B. ein Python-Skript erstellen, das automatisch ausgeführt wird, um deine Daten auf ein externes Medium zu kopieren. Das ist eine einfache, anpassbare Lösung.
 
 
 
-Wenn Sie ein NAS haben, können Sie mit Tools wie *Syncthing* oder *Rclone* Sicherungen innerhalb Ihres lokalen Netzwerks automatisieren, ohne das Internet zu nutzen.
+Wenn du ein NAS hast, kannst du mit Tools wie *Syncthing* oder *Rclone* Sicherungen innerhalb deines lokalen Netzwerks automatisieren, ohne das Internet zu nutzen.
 
 
 
@@ -4503,20 +4408,17 @@ Wenn Sie ein NAS haben, können Sie mit Tools wie *Syncthing* oder *Rclone* Sich
 
 
 
-Um Backups in einem Cloud-Dienst zu automatisieren, können Sie die vom Anbieter selbst bereitgestellte Integrationssoftware verwenden. Ein Beispiel ist *Proton Drive*, das einen Synchronisierungs-Client bietet, um Ihre lokalen Dateien automatisch in die Cloud zu kopieren. Sie können sich auch für eine flexiblere Software wie *Duplicati* entscheiden, mit der Sie verschlüsselte Backups zu zahlreichen Remote-Diensten (Dropbox, Google Drive, Proton Drive, FTP, WebDAV...) planen können.
-
-
+Um Backups in einem Cloud‑Dienst zu automatisieren, kannst du die vom Anbieter selbst bereitgestellte Integrationssoftware verwenden. Ein Beispiel ist *Proton Drive*, das einen Synchronisierungs‑Client bietet, um deine lokalen Dateien automatisch in die Cloud zu kopieren. Du kannst dich auch für eine flexiblere Software wie *Duplicati* entscheiden, mit der du verschlüsselte Backups zu zahlreichen Remote‑Diensten (Dropbox, Google Drive, Proton Drive, FTP, WebDAV…) planen kannst.
 
 ![Image](assets/fr/254.webp)
 
 
 
-Denken Sie auch daran, Ihre Backups regelmäßig zu testen, d. h. zu prüfen, ob Sie sie wiederherstellen können. Ein Backup ist nutzlos, wenn es beschädigt, unvollständig oder unlesbar ist.
+Denke auch daran, deine Backups regelmässig zu testen, d.h. zu prüfen, ob du sie wiederherstellen kannst. Ein Backup ist nutzlos, wenn es beschädigt, unvollständig oder unlesbar ist.
 
 
 
-Es ist nicht nur wichtig, die Ausfallsicherheit Ihrer Daten zu gewährleisten, sondern auch den Zugriff auf sie zu schützen. Tatsächlich stehen Belastbarkeit und Sicherheit oft in einem Spannungsverhältnis: Je mehr Kopien Sie von Ihren Dateien anfertigen, desto mehr vergrößern Sie deren Angriffsfläche und damit das Risiko, dass ein Angreifer Zugriff auf sie erhält. Aus diesem Grund ist die Verschlüsselung Ihrer Daten ein wichtiger Schritt. Schauen wir uns an, wie man das in die Praxis umsetzt.
-
+Es ist nicht nur wichtig, die Ausfallsicherheit deiner Daten zu gewährleisten, sondern auch den Zugriff auf sie zu schützen. Tatsächlich stehen Belastbarkeit und Sicherheit oft in einem Spannungsverhältnis: Je mehr Kopien du von deinen Dateien anfertigst, desto mehr vergrösserst du deren Angriffsfläche und damit das Risiko, dass ein Angreifer Zugriff auf sie erhält. Aus diesem Grund ist die Verschlüsselung deiner Daten ein wichtiger Schritt. Schauen wir uns an, wie du das in die Praxis umsetzt.
 
 
 ### Vollständige Verschlüsselung von externen Festplatten und Medien
@@ -4531,42 +4433,40 @@ Eine der Säulen der Sicherheit von Personalcomputern ist die Verschlüsselung d
 
 
 
-Wenn ein Speichermedium nicht verschlüsselt ist, schließen Sie es einfach an einen beliebigen Computer an, um sofortigen Zugriff auf seinen Inhalt zu erhalten. Es gibt keine Barrieren zum Schutz der Dateien. Das heißt, wenn Ihr Laptop gestohlen wird oder Sie einen einfachen USB-Stick verlieren, kann jemand mit böswilligen Absichten auf Ihre persönlichen Dokumente zugreifen.
+Wenn ein Speichermedium nicht verschlüsselt ist, schliesst du es einfach an einen beliebigen Computer an, um sofortigen Zugriff auf seinen Inhalt zu erhalten. Es gibt keine Barrieren zum Schutz der Dateien. Das heisst, wenn dein Laptop gestohlen wird oder du einen einfachen USB‑Stick verlierst, kann jemand mit böswilligen Absichten auf deine persönlichen Dokumente zugreifen.
 
 
 
-Abgesehen von den Datenschutzproblemen, die auf dem Spiel stehen, können Ihre Dateien auch ein echtes Sicherheitsrisiko darstellen. Nehmen wir ein konkretes Beispiel: Wenn Ihre Backups eine Kopie Ihrer Identitätsdokumente enthalten, könnte ein Angreifer diese ausnutzen, um sich als Sie auszugeben, Bank- oder Kryptokonten in Ihrem Namen zu eröffnen oder sogar Bankkredite in Ihrem Namen aufzunehmen. Diese Art von Informationsleck kann schwerwiegende Folgen haben, sowohl persönlich als auch beruflich.
+Abgesehen von den Datenschutzproblemen, die auf dem Spiel stehen, können deine Dateien auch ein echtes Sicherheitsrisiko darstellen. Nehmen wir ein konkretes Beispiel: Wenn deine Backups eine Kopie deiner Identitätsdokumente enthalten, könnte ein Angreifer diese ausnutzen, um sich als deine Person auszugeben, Bank‑ oder Kryptokonten in deinem Namen zu eröffnen oder sogar Bankkredite in deinem Namen aufzunehmen. Diese Art von Informationsleck kann schwerwiegende Folgen haben, sowohl persönlich als auch beruflich.
 
 
 
 Die vollständige Verschlüsselung ist wie ein Schloss: Solange das Passwort nicht bekannt ist, bleiben die Daten unbrauchbar. Selbst ein Angreifer, der mit speziellen Datenwiederherstellungsprogrammen ausgestattet ist, kann ohne den Schlüssel nichts extrahieren.
 
 
-
-#### Welche technischen Lösungen bietet Ihr System?
-
+#### Welche technischen Lösungen bietet dein System?
 
 
 
 
-- Linux (Debian)
+
+- *Linux (Debian)*
 
 
 
-Unter Linux ist die Standardlösung LUKS (*Linux Unified Key Setup*). LUKS ist ein verschlüsseltes Volume-Management-System, das in die meisten Distributionen integriert ist. Bei der Erstinstallation des Systems werden Sie in der Regel aufgefordert, die gesamte Festplatte des Computers zu verschlüsseln. Ich empfehle Ihnen natürlich dringend, diese Option zu aktivieren. Sobald die Verschlüsselung aktiviert ist, fragt das System bei jedem Start nach dem Passwort, sogar bevor das Betriebssystem geladen wird. Dadurch wird sichergestellt, dass der physische Zugriff auf die Festplatte die Sicherheit nicht umgehen kann.
+Unter Linux ist die Standardlösung LUKS (*Linux Unified Key Setup*). LUKS ist ein verschlüsseltes Volume-Management-System, das in die meisten Distributionen integriert ist. Bei der Erstinstallation des Systems wirst du in der Regel aufgefordert, die gesamte Festplatte des Computers zu verschlüsseln. Ich empfehle dir natürlich dringend, diese Option zu aktivieren. Sobald die Verschlüsselung aktiviert ist, fragt das System bei jedem Start nach dem Passwort, sogar bevor das Betriebssystem geladen wird. Dadurch wird sichergestellt, dass der physische Zugriff auf die Festplatte die Sicherheit nicht umgehen kann.
 
 
 https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Wenn Sie eine externe Festplatte oder einen USB-Stick verschlüsseln möchten, können Sie dies auch über die Befehlszeile oder über das grafische Interface tun. Der Datenträger muss formatiert werden, so dass alle vorhandenen Daten verloren gehen, wenn sie nicht vorher gesichert werden.
-
+Wenn du eine externe Festplatte oder einen USB‑Stick verschlüsseln möchtest, kannst du das auch über die Befehlszeile oder über das grafische Interface tun. Der Datenträger muss formatiert werden, so dass alle vorhandenen Daten verloren gehen, wenn du sie nicht vorher sicherst.
 
 
 **Über Terminal**
 
 
 
-Stellen Sie sicher, dass Sie das Paket *cryptsetup* installiert haben:
+Stelle sicher, dass du das Paket *cryptsetup* installiert hast:
 
 
 
@@ -4577,7 +4477,7 @@ sudo apt install cryptsetup
 
 
 
-Beginnen Sie damit, Ihren USB-Stick mit dem folgenden Befehl zu identifizieren:
+Beginne damit, deinen USB-Stick mit dem folgenden Befehl zu identifizieren:
 
 
 
@@ -4587,11 +4487,11 @@ lsblk
 
 
 
-Sie sollten ein Gerät wie `/dev/sdb` mit einer zugehörigen Partition sehen, zum Beispiel `/dev/sdb1`. Achten Sie darauf, die richtige Festplatte auszuwählen, da diese gelöscht wird!
+Du solltest ein Gerät wie `/dev/sdb` mit einer zugehörigen Partition sehen, zum Beispiel `/dev/sdb1`. Achte darauf, die richtige Festplatte auszuwählen, da diese gelöscht wird!
 
 
 
-Um den Schlüssel zu verschlüsseln, führen Sie den folgenden Befehl aus, um die Verschlüsselung zu initialisieren:
+Um den Schlüssel zu verschlüsseln, führe den folgenden Befehl aus, um die Verschlüsselung zu initialisieren:
 
 
 
@@ -4601,7 +4501,7 @@ sudo cryptsetup luksFormat /dev/sdb
 
 
 
-Geben Sie "YES" in Großbuchstaben ein, um den Vorgang zu bestätigen, und wählen und bestätigen Sie dann ein starkes passphrase. Mit diesem Passwort können Sie auf Ihre Daten zugreifen: Denken Sie daran, eine Sicherungskopie zu erstellen, da sonst der Zugriff auf die Daten des Schlüssels dauerhaft verloren geht.
+Gib "YES" in Grossbuchstaben ein, um den Vorgang zu bestätigen, und wähle und bestätige dann eine starke Passphrase. Damit kannst du auf deine Daten zugreifen: Denke daran, eine Sicherungskopie zu erstellen, da sonst der Zugriff auf die Daten des Schlüssels dauerhaft verloren geht.
 
 
 
@@ -4609,7 +4509,7 @@ Geben Sie "YES" in Großbuchstaben ein, um den Vorgang zu bestätigen, und wähl
 
 
 
-Entriegeln und öffnen Sie den Datenträger:
+Entriegle und öffne den Datenträger:
 
 
 
@@ -4619,7 +4519,7 @@ sudo cryptsetup open /dev/sdb encrypted_usb
 
 
 
-Sie müssen Ihr passphrase eingeben, um das Volume zu entsperren. verschlüsselte_USB" ist der Name des entschlüsselten Datenträgers.
+Du musst deine Passphrase eingeben, um das Volume zu entsperren. `encrypted_usb` ist der Name des entschlüsselten Datenträgers.
 
 
 
@@ -4627,7 +4527,7 @@ Sie müssen Ihr passphrase eingeben, um das Volume zu entsperren. verschlüsselt
 
 
 
-Formatieren Sie dann die entschlüsselte Partition. Für ein natives Linux-Format:
+Formatiere dann die entschlüsselte Partition. Für ein natives Linux-Format:
 
 
 
@@ -4637,7 +4537,7 @@ sudo mkfs.ext4 /dev/mapper/encrypted_usb
 
 
 
-Oder, wenn Sie Kompatibilität mit Windows wünschen:
+Oder, wenn du Kompatibilität mit Windows wünschst:
 
 
 
@@ -4651,7 +4551,7 @@ sudo mkfs.vfat /dev/mapper/encrypted_usb
 
 
 
-Montieren Sie den Schlüssel zum Gebrauch:
+Mounte den Schlüssel für die Nutzung:
 
 
 
@@ -4662,7 +4562,7 @@ sudo mount /dev/mapper/encrypted_usb /mnt/usb
 
 
 
-Sie können nun über das Verzeichnis `/mnt/usb` auf Ihren Schlüssel zugreifen und Dateien wie auf jedem anderen Volume lesen und schreiben.
+Du kannst nun über das Verzeichnis `/mnt/usb` auf deinen Schlüssel zugreifen und Dateien wie auf jedem anderen Volume lesen und schreiben.
 
 
 
@@ -4677,11 +4577,11 @@ sudo cryptsetup close encrypted_usb
 
 
 
-Sie können Ihren USB-Stick dann sicher entfernen.
+Du kannst deinen USB-Stick dann sicher entfernen.
 
 
 
-Für die künftige Verwendung Ihres USB-Flash-Laufwerks:
+Für die künftige Verwendung deines USB-Flash-Laufwerks:
 
 
 
@@ -4699,16 +4599,15 @@ sudo cryptsetup close encrypted_usb
 
 
 
-Wenn Sie möchten, können Sie diese Sequenz auch mit Python- oder Bash-Skripten automatisieren.
+Wenn du möchtest, kannst du diese Sequenz auch mit Python‑ oder Bash‑Skripten automatisieren.
 
 
 
-
-**Von GNOME-Disketten:**
-
+**Via GNOME-Disks:**
 
 
-Die andere Lösung ist die Verwendung der GNOME-Disks-Software mit ihrem grafischen Interface, was oft einfacher ist als die Verwendung des Terminals. Normalerweise ist dieses Dienstprogramm auf Ubuntu bereits vorinstalliert. Sollte dies nicht der Fall sein, können Sie es manuell mit dem folgenden Befehl installieren:
+
+Die andere Lösung ist die Verwendung der GNOME-Disks-Software mit ihrem grafischen Interface, was oft einfacher ist als die Verwendung des Terminals. Normalerweise ist dieses Dienstprogramm auf Ubuntu bereits vorinstalliert. Sollte dies nicht der Fall sein, kannst du es manuell mit dem folgenden Befehl installieren:
 
 
 
@@ -4719,11 +4618,11 @@ sudo apt install -y gnome-disk-utility
 
 
 
-Um die Software zu öffnen, gehen Sie in das Anwendungsmenü von Ubuntu und suchen Sie nach "*Disks*". Normalerweise befindet es sich standardmäßig im Verzeichnis "*Utilities*".
+Um die Software zu öffnen, gehst du in das Anwendungsmenü von Ubuntu und suchst nach "*Disks*". Normalerweise befindet es sich standardmässig im Verzeichnis "*Utilities*".
 
 
 
-Suchen Sie in der linken Spalte Ihren USB-Stick. Wenn bereits eine Partition vorhanden ist, wählen Sie sie aus; wenn nicht, erstellen Sie eine neue: Klicken Sie auf die Schaltfläche "+" unterhalb der Liste der Partitionen.
+Suche in der linken Spalte deinen USB-Stick. Wenn bereits eine Partition vorhanden ist, wähle sie aus; wenn nicht, erstelle eine neue: Klicke auf die Schaltfläche "+" unterhalb der Liste der Partitionen.
 
 
 
@@ -4731,7 +4630,7 @@ Suchen Sie in der linken Spalte Ihren USB-Stick. Wenn bereits eine Partition vor
 
 
 
-Wählen Sie dann die Partition aus, die verschlüsselt werden soll. Klicken Sie auf das Zahnrad-Symbol und wählen Sie "Partition formatieren...".
+Wähle dann die Partition aus, die verschlüsselt werden soll. Klicke auf das Zahnrad-Symbol und wähle "Partition formatieren...".
 
 
 
@@ -4744,9 +4643,9 @@ In der:
 
 
 
-- Geben Sie unter "Volume name" einen Namen ein (z. B. `usb`);
-- Wählen Sie das Format "Internal disk for use with Linux systems only (Ext4)";
-- Aktivieren Sie das Kontrollkästchen "Passwortgeschütztes Volume (LUKS)".
+- Gib unter "Volume name" einen Namen ein (z.B. `usb`);
+- Wähle das Format "Internal disk for use with Linux systems only (Ext4)";
+- Aktiviere das Kontrollkästchen "Passwortgeschütztes Volume (LUKS)".
 
 
 
@@ -4754,7 +4653,7 @@ In der:
 
 
 
-Geben Sie einen robusten passphrase ein und bestätigen Sie ihn.
+Gib eine robuste Passphrase ein und bestätige sie.
 
 
 
@@ -4762,7 +4661,7 @@ Geben Sie einen robusten passphrase ein und bestätigen Sie ihn.
 
 
 
-Bestätigen Sie und warten Sie, bis die Partition vollständig formatiert ist (alle Daten werden gelöscht).
+Bestätige und warte, bis die Partition vollständig formatiert ist (alle Daten werden gelöscht).
 
 
 
@@ -4770,7 +4669,7 @@ Bestätigen Sie und warten Sie, bis die Partition vollständig formatiert ist (a
 
 
 
-Sobald der Vorgang abgeschlossen ist, erscheint die Partition mit einem kleinen Vorhängeschloss. Wählen Sie sie aus und klicken Sie dann auf das Vorhängeschloss, um sie zu entsperren.
+Sobald der Vorgang abgeschlossen ist, erscheint die Partition mit einem kleinen Vorhängeschloss. Wähle sie aus und klicke dann auf das Vorhängeschloss, um sie zu entsperren.
 
 
 
@@ -4778,7 +4677,7 @@ Sobald der Vorgang abgeschlossen ist, erscheint die Partition mit einem kleinen 
 
 
 
-Geben Sie das Passwort ein und klicken Sie auf "Freischalten".
+Gib das Passwort ein und klicke auf "Freischalten".
 
 
 
@@ -4786,7 +4685,7 @@ Geben Sie das Passwort ein und klicken Sie auf "Freischalten".
 
 
 
-Das Volume wird automatisch gemountet und ist von Ihrem Dateimanager aus zugänglich, normalerweise im Verzeichnis `/media/username/usb`.
+Das Volume wird automatisch gemountet und ist von deinem Dateimanager aus zugänglich, normalerweise im Verzeichnis `/media/username/usb`.
 
 
 
@@ -4794,11 +4693,11 @@ Das Volume wird automatisch gemountet und ist von Ihrem Dateimanager aus zugäng
 
 
 
-Um den USB-Stick auszuhängen und die Verschlüsselung wieder zu aktivieren, klicken Sie in GNOME Disks erneut auf das Vorhängeschloss-Symbol.
+Um den USB-Stick auszuhängen und die Verschlüsselung wieder zu aktivieren, klicke in GNOME Disks erneut auf das Vorhängeschloss-Symbol.
 
 
 
-Klicken Sie abschließend auf die pfeilförmige Schaltfläche in der oberen rechten Ecke, um den Schlüssel sauber von Ihrem PC abzuziehen. Wenn Sie sich das nächste Mal anmelden, sollte Ubuntu Ihren verschlüsselten Schlüssel automatisch erkennen und Sie nach dem Passwort fragen, ohne dass Sie GNOME Disks öffnen müssen.
+Klicke abschliessend auf die pfeilförmige Schaltfläche in der oberen rechten Ecke, um den Schlüssel sauber von deinem PC abzuziehen. Wenn du dich das nächste Mal anmeldest, sollte Ubuntu deinen verschlüsselten Schlüssel automatisch erkennen und dich nach dem Passwort fragen, ohne dass du GNOME Disks öffnen musst.
 
 
 
@@ -4808,11 +4707,11 @@ Klicken Sie abschließend auf die pfeilförmige Schaltfläche in der oberen rech
 
 
 
-- **Fenster:**
+- **Windows:**
 
 
 
-Unter Windows gibt es eine native Lösung, mit der Sie Ihre Festplatte verschlüsseln können. Sie ist leicht zu aktivieren: Gehen Sie einfach zu den Einstellungen "*Datenschutz und Sicherheit*" und aktivieren Sie das Kästchen "*Geräteverschlüsselung*" im gleichnamigen Untermenü. Die Wiederherstellungsschlüssel werden dann automatisch in Ihrem zugehörigen Microsoft-Konto gespeichert.
+Unter Windows gibt es eine native Lösung, mit der du deine Festplatte verschlüsseln kannst. Sie ist leicht zu aktivieren: Gehe einfach zu den Einstellungen "*Datenschutz und Sicherheit*" und aktiviere das Kästchen "*Geräteverschlüsselung*" im gleichnamigen Untermenü. Die Wiederherstellungsschlüssel werden dann automatisch in deinem zugehörigen Microsoft-Konto gespeichert.
 
 
 
@@ -4820,7 +4719,7 @@ Unter Windows gibt es eine native Lösung, mit der Sie Ihre Festplatte verschlü
 
 
 
-Wenn Sie ein lokales Konto verwenden oder Ihr Rechner diese Funktion nicht von Haus aus unterstützt, können Sie *BitLocker* (die proprietäre Verschlüsselungssoftware von Microsoft) manuell einrichten. Es gibt aber auch Open-Source-Alternativen wie *VeraCrypt*.
+Wenn du ein lokales Konto verwendest oder dein Rechner diese Funktion nicht von Haus aus unterstützt, kannst du *BitLocker* (die proprietäre Verschlüsselungssoftware von Microsoft) manuell einrichten. Es gibt aber auch Open-Source-Alternativen wie *VeraCrypt*.
 
 
 
@@ -4828,7 +4727,7 @@ Wenn Sie ein lokales Konto verwenden oder Ihr Rechner diese Funktion nicht von H
 
 
 
-Wenn Sie mehr über diese Lösung erfahren möchten, lesen Sie bitte dieses vollständige Tutorial:
+Wenn du mehr über diese Lösung erfahren möchtest, lies bitte dieses vollständige Tutorial:
 
 
 
@@ -4837,11 +4736,11 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-- macOS :**
+- **macOS :**
 
 
 
-Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, einer nativen Funktion, die über die Sicherheitseinstellungen zugänglich ist. Wenn Ihr Mac mit einem Apple Silicon Chip (M1, M2...) oder einem T2-Chip ausgestattet ist, ist die Hardware-Verschlüsselung bereits dauerhaft aktiviert. Durch die Aktivierung von FileVault wird jedoch ein zusätzliches Layer an Sicherheit hinzugefügt, indem das gesamte Systemvolume verschlüsselt wird.
+Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, einer nativen Funktion, die über die Sicherheitseinstellungen zugänglich ist. Wenn dein Mac mit einem Apple Silicon Chip (M1, M2...) oder einem T2-Chip ausgestattet ist, ist die Hardware-Verschlüsselung bereits dauerhaft aktiviert. Durch die Aktivierung von FileVault wird jedoch eine zusätzliche Sicherheits-Schicht hinzugefügt, indem das gesamte Systemvolume verschlüsselt wird.
 
 
 
@@ -4849,33 +4748,33 @@ Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, e
 
 
 
-Nach der Aktivierung von FileVault müssen Sie eine Wiederherstellungsmethode für den Fall wählen, dass Sie Ihr Passwort verlieren: Entweder verwenden Sie Ihr *iCloud*-Konto oder generate einen eindeutigen Sicherungsschlüssel. Dieser Schlüssel muss an einem sicheren Ort aufbewahrt werden, da sein Verlust Ihre Daten dauerhaft unzugänglich machen würde.
+Nach der Aktivierung von FileVault musst du eine Wiederherstellungsmethode für den Fall wählen, dass du dein Passwort verlierst: Entweder verwendest du dein *iCloud*-Konto oder generierst einen eindeutigen Sicherungsschlüssel. Dieser Schlüssel muss an einem sicheren Ort aufbewahrt werden, da sein Verlust deine Daten dauerhaft unzugänglich machen würde.
 
-Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Sie müssen den Datenträger vollständig neu formatieren:
+Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Du musst den Datenträger vollständig neu formatieren:
 
-- Wählen Sie das Gerät aus und klicken Sie auf "*Löschen*"
-- Wählen Sie das Schema "GUID Partitionstabelle"
-- Wählen Sie dann ein verschlüsseltes Dateisystemformat (*APFS* oder *Mac OS extended*)
-- Wählen Sie ein sicheres Passwort
-- Klicken Sie auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
+- Wähle das Gerät aus und klicke auf "*Löschen*"
+- Wähle das Schema "GUID* Partitionstabelle"
+- Wähle dann ein verschlüsseltes Dateisystemformat (*APFS* oder *Mac OS extended*)
+- Wähle ein sicheres Passwort
+- Klicke auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
 
 Sobald die Verschlüsselung aktiviert ist, kann das externe Laufwerk nur noch durch Eingabe dieses Kennworts eingebunden werden. Das System entschlüsselt es dann im Handumdrehen.
 
-#### Einige Empfehlungen für Ihre verschlüsselten Backups
+#### Einige Empfehlungen für deine verschlüsselten Backups
 
-Bevor Sie einen Datenträger verschlüsseln, müssen Sie alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
+Bevor du einen Datenträger verschlüsselst, musst du alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
 
-Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen Ihren Daten und einem böswilligen Dritten ist. Außerdem müssen Sie eine Sicherungskopie erstellen, zum Beispiel in einem Passwort-Manager, denn anders als bei Online-Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn Sie Ihr Passwort vergessen, sind die Daten für immer verloren.
+Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen deinen Daten und einem böswilligen Dritten ist. Ausserdem musst du eine Sicherungskopie erstellen, zum Beispiel in einem Passwort‑Manager, denn anders als bei Online‑Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn du dein Passwort vergisst, sind die Daten für immer verloren.
 
 ### Selektive Dateiverschlüsselung
 
-In manchen Fällen ist es weder notwendig noch praktisch, eine gesamte Hard-Festplatte oder ein externes Medium zu verschlüsseln. In solchen Fällen können Sie sich für eine selektive Verschlüsselung entscheiden, bei der nur bestimmte Dateien oder Verzeichnisse mit sensiblen Daten gesichert werden.
+In manchen Fällen ist es weder notwendig noch praktisch, eine gesamte Festplatte oder ein externes Medium zu verschlüsseln. In solchen Fällen kannst du dich für eine selektive Verschlüsselung entscheiden, bei der nur bestimmte Dateien oder Verzeichnisse mit sensiblen Daten gesichert werden.
 
-Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendung von GPG. Dieses Tool basiert auf asymmetrischer Kryptographie: Sie haben ein Schlüsselpaar, einen öffentlichen, den Sie frei an Ihre Korrespondenten verteilen können, und einen privaten, der streng geheim bleiben muss. Die Dateien werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt, können aber nur mit seinem privaten Schlüssel entschlüsselt werden.
+Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendung von GPG. Dieses Tool basiert auf asymmetrischer Kryptographie: du hast ein Schlüsselpaar, einen öffentlichen Schlüssel, den du frei an deine Korrespondenten verteilen kannst, und einen privaten, der streng geheim bleiben muss. Die Dateien werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt, können aber nur mit seinem privaten Schlüssel entschlüsselt werden.
 
-Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur Ihnen bekanntes Passwort geschützt.
+Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur dir bekanntes Passwort geschützt.
 
-Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open-Source-Software können Sie einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud-Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschließlich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
+Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open‑Source‑Software kannst du einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud‑Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschliesslich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
 
 https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
@@ -4887,15 +4786,15 @@ https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
-Schließlich ist es auch möglich, VeraCrypt im Containermodus zu verwenden, der eine Datei erzeugt, die als verschlüsseltes Archiv fungiert und wie ein Datenträger eingehängt werden kann.
+Schliesslich ist es auch möglich, VeraCrypt im Containermodus zu verwenden, der eine Datei erzeugt, die als verschlüsseltes Archiv fungiert und wie ein Datenträger eingehängt werden kann.
 
-Nachdem Sie nun gelernt haben, wie Sie Ihre persönlichen Daten vor Verlust und Diebstahl schützen können, befasst sich das nächste Kapitel mit einem weiteren wichtigen Aspekt: wie Sie verhindern können, dass Ihre persönlichen Dateien durch ihre Metadaten zu Angriffsvektoren werden.
+Nachdem du nun gelernt hast, wie du deine persönlichen Daten vor Verlust und Diebstahl schützen kannst, befasst sich das nächste Kapitel mit einem weiteren wichtigen Aspekt: wie du verhindern kannst, dass deine persönlichen Dateien durch ihre Metadaten zu Angriffsvektoren werden.
 
 ## Bereinigung von Metadaten
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-Jedes Mal, wenn Sie eine digitale Datei erstellen, sei es ein Foto, ein Office-Dokument, eine Audio- oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn Sie die Datei öffnen, aber sie sind vorhanden und können äußerst sensible Daten enthalten.
+Jedes Mal, wenn du eine digitale Datei erstellst, sei es ein Foto, ein Office‑Dokument, eine Audio‑ oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn du die Datei öffnest, aber sie sind vorhanden und können äusserst sensible Daten enthalten.
 
 ### Warum sind Metadaten ein Risiko?
 
@@ -4903,28 +4802,28 @@ Metadaten sind Daten, die an eine Datei angehängt sind und deren Aufgabe es ist
 
 Diese Metadaten mögen harmlos erscheinen, aber sie können von böswilligen Akteuren genutzt werden, um den Autor einer Datei zu identifizieren, eine Person physisch zu lokalisieren, Ereignisse oder Gewohnheiten zu rekonstruieren oder sogar Softwarefehler auf der Grundlage der verwendeten Softwareversion auszunutzen.
 
-Nehmen wir ein konkretes Beispiel: Sie stellen ein vermeintlich anonymes Foto in ein Forum. Wenn Sie die EXIF-Metadaten nicht entfernt haben, kann ein einziger Klick die genauen GPS-Koordinaten Ihres Wohnorts, das Modell Ihres Telefons und das genaue Aufnahmedatum des Fotos verraten. Ebenso kann ein anonym verschicktes PDF-Dokument in seinen Eigenschaften Ihren vollen Namen enthalten.
+Nehmen wir ein konkretes Beispiel: du stellst ein vermeintlich anonymes Foto in ein Forum. Wenn du die EXIF‑Metadaten nicht entfernt hast, kann ein einziger Klick die genauen GPS‑Koordinaten deines Wohnorts, das Modell deines Telefons und das genaue Aufnahmedatum des Fotos verraten. Ebenso kann ein anonym verschicktes PDF‑Dokument in seinen Eigenschaften deinen vollen Namen enthalten.
 
-Aus diesem Grund entfernen einige Medienveröffentlichungs- und Kommunikationsplattformen automatisch Metadaten aus Ihren Fotos. Dazu gehören X (Twitter), Instagram, Signal und Session. Andere Plattformen hingegen entfernen die Metadaten überhaupt nicht: Dies ist bei den meisten Online-Foren, vielen E-Mail-Clients oder sogar bei der direkten Veröffentlichung auf einer Website der Fall.
+Aus diesem Grund entfernen einige Medienveröffentlichungs‑ und Kommunikationsplattformen automatisch Metadaten aus deinen Fotos. Dazu gehören X (Twitter), Instagram, Signal und Session. Andere Plattformen hingegen entfernen die Metadaten überhaupt nicht: Dies ist bei den meisten Online‑Foren, vielen E‑Mail‑Clients oder sogar bei der direkten Veröffentlichung auf einer Website der Fall.
 
-Das ist ein wichtiger Reflex: Sobald eine Datei Ihre Privatsphäre verlässt, müssen Sie daran denken, ihre Metadaten zu bereinigen, um zu vermeiden, dass persönliche oder sensible Informationen ohne Ihr Wissen weitergegeben werden. Schauen wir uns einmal an, wie Sie das je nach Betriebssystem tun können.
+Das ist ein wichtiger Reflex: Sobald eine Datei deine Privatsphäre verlässt, musst du daran denken, ihre Metadaten zu bereinigen. Damit vermeidest du, dass persönliche oder sensible Informationen ohne dein Wissen weitergegeben werden. Schauen wir uns einmal an, wie du das je nach Betriebssystem tun kannst.
 
 ### Unter Linux (Debian)
 
 #### Verwendung von ExifTool
 
-Das vollständigste und zuverlässigste Mittel zur Verwaltung und Löschung von Metadaten ist das von Phil Harvey entwickelte ExifTool. Es ist mit einer großen Anzahl von Dateiformaten kompatibel (JPG, PNG, PDF, MP3, DOCX...) und ermöglicht sowohl die Anzeige als auch das Löschen von Metadaten.
+Das vollständigste und zuverlässigste Mittel zur Verwaltung und Löschung von Metadaten ist das von Phil Harvey entwickelte ExifTool. Es ist mit einer grossen Anzahl von Dateiformaten kompatibel (JPG, PNG, PDF, MP3, DOCX...) und ermöglicht sowohl die Anzeige als auch das Löschen von Metadaten.
 
 - Schritt 1: ExifTool installieren
 
-Um es auf einer Debian-Distribution (Ubuntu) zu installieren, öffnen Sie ein Terminal und geben Sie den Befehl ein:
+Um es auf einer Debian-Distribution (Ubuntu) zu installieren, öffne ein Terminal und gib folgenden Befehl ein:
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
 
-Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile aus verwenden können.
+Dieses Paket installiert `exiftool`, das du dann direkt von der Kommandozeile aus verwenden kannst.
 
 
 
@@ -4934,27 +4833,27 @@ Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile a
 
 
 
-- Schritt 2: **Anzeige der Datei-Metadaten** (auf Französisch)
+- Schritt 2: Anzeige der Datei-Metadaten (auf Französisch)
 
 
 
-Um alle in einer Datei enthaltenen Metadaten anzuzeigen, verwenden Sie den folgenden Befehl:
+Um alle in einer Datei enthaltenen Metadaten anzuzeigen, verwende den folgenden Befehl:
 
 
 
 ```bash
-exiftool name.webp
+exiftool name.jpg
 ```
 
 
 
-Ersetzen Sie "Name.webp" durch den richtigen Namen Ihrer Datei. Stellen Sie außerdem sicher, dass Sie sich in dem Verzeichnis befinden, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
+Ersetze "Name.jpg" durch den richtigen Namen deiner Datei. Stelle ausserdem sicher, dass du dich in dem Verzeichnis befindest, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.webp
+exiftool Satoshi-Nakamoto-Lugano.jpeg
 ```
 
 
@@ -4976,22 +4875,22 @@ Daraufhin wird eine lange Liste von Attributen angezeigt, die unter anderem Folg
 
 
 
-So erhalten Sie einen vollständigen Überblick über das, was Sie veröffentlichen oder übermitteln wollen.
+So erhältst du einen vollständigen Überblick über das, was du veröffentlichen oder übermitteln willst.
 
 
 
 
 
-- Schritt 3: Löschen Sie die Metadaten
+- Schritt 3: Lösche die Metadaten
 
 
 
-Um alle unnötigen Metadaten aus einer Datei zu löschen, verwenden Sie den Befehl:
+Um alle unnötigen Metadaten aus einer Datei zu löschen, verwende folgenden Befehl:
 
 
 
 ```bash
-exiftool -all= name.webp
+exiftool -all= name.jpg
 ```
 
 
@@ -5008,12 +4907,12 @@ Dieser Befehl erstellt automatisch eine Kopie der Originaldatei, wobei die Metad
 
 
 
-Wenn Sie das Original nicht behalten wollen, können Sie es mit dem Befehl löschen:
+Wenn du das Original nicht behalten willst, kannst du es mit folgendem Befehl löschen:
 
 
 
 ```bash
-exiftool -all= -overwrite_original name.webp
+exiftool -all= -overwrite_original name.jpg
 ```
 
 
@@ -5032,17 +4931,17 @@ Wenn wir uns die Metadaten unserer Datei noch einmal ansehen, können wir festst
 
 
 
-Wenn Sie mehrere Dateien im selben Verzeichnis zu verarbeiten haben, können Sie einen allgemeinen Befehl wie z. B. verwenden:
+Wenn du mehrere Dateien im selben Verzeichnis zu verarbeiten hast, kannst du einen allgemeinen Befehl wie z.B. folgenden verwenden:
 
 
 
 ```bash
-exiftool -all= *.webp
+exiftool -all= *.jpeg
 ```
 
 
 
-Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Sie können die Erweiterung an Ihre Bedürfnisse anpassen (`*.webp`, `*.pdf`...).
+Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Du kannst die Erweiterung an deine Bedürfnisse anpassen (`*.png`, `*.pdf`...).
 
 
 
@@ -5054,7 +4953,7 @@ Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Sie kön
 
 
 
-Als Alternative zu ExifTool können Sie MAT2 (*Metadata Anonymization Toolkit v2*) verwenden.
+Als Alternative zu ExifTool kannst du MAT2 (*Metadata Anonymization Toolkit v2*) verwenden.
 
 
 
@@ -5074,7 +4973,7 @@ sudo apt install mat2
 
 
 
-Nach der Installation können Sie es von der Kommandozeile aus wie folgt verwenden:
+Nach der Installation kannst du es von der Kommandozeile aus wie folgt verwenden:
 
 
 
@@ -5088,7 +4987,7 @@ mat2 fichier.pdf
 
 
 
-Standardmäßig ändert MAT2 die ursprüngliche Datei nicht: es wird eine bereinigte Version im gleichen Verzeichnis mit dem Suffix `-clean` erstellt.
+Standardmässig ändert MAT2 die ursprüngliche Datei nicht: es wird eine bereinigte Version im gleichen Verzeichnis mit dem Suffix `-clean` erstellt.
 
 
 
@@ -5096,7 +4995,7 @@ Standardmäßig ändert MAT2 die ursprüngliche Datei nicht: es wird eine berein
 
 
 
-Um ein ganzes Verzeichnis zu säubern, z. B. das Verzeichnis `/Downloads`:
+Um ein ganzes Verzeichnis zu säubern, z.B. das Verzeichnis `/Downloads`:
 
 
 
@@ -5110,11 +5009,11 @@ mat2 ~/Downloads/*
 
 
 
-Unter Windows und macOS gibt es mehrere Methoden zum Entfernen von Metadaten aus Ihren Dokumenten. Meiner Meinung nach ist es am einfachsten, die Open-Source-Software [ExifCleaner] (https://exifcleaner.com/) zu verwenden. Dieses leichtgewichtige Tool verfügt über eine grafische Interface und kann die meisten Dateiformate durch einfaches Ziehen und Ablegen verarbeiten. Wenn Sie eine oder mehrere Dateien auf den Interface ziehen, entfernt die Software automatisch unnötige Metadaten und ersetzt die Originaldateien im selben Verzeichnis. ExifCleaner ist für Windows, macOS und Linux verfügbar.
+Unter Windows und macOS gibt es mehrere Methoden zum Entfernen von Metadaten aus deinen Dokumenten. Meiner Meinung nach ist es am einfachsten, die Open-Source-Software [ExifCleaner] (https://exifcleaner.com/) zu verwenden. Dieses leichtgewichtige Tool verfügt über ein grafisches Interface und kann die meisten Dateiformate durch einfaches Ziehen und Ablegen verarbeiten. Wenn du eine oder mehrere Dateien auf das Interface ziehst, entfernt die Software automatisch unnötige Metadaten und ersetzt die Originaldateien im selben Verzeichnis. ExifCleaner ist für Windows, macOS und Linux verfügbar.
 
 
 
-Die Bedienung ist denkbar einfach: Starten Sie die Software, und ziehen Sie eine oder mehrere Dateien per Drag & Drop in das Fenster.
+Die Bedienung ist denkbar einfach: Starte die Software, und ziehe eine oder mehrere Dateien per Drag & Drop in das Fenster.
 
 
 
@@ -5122,7 +5021,7 @@ Die Bedienung ist denkbar einfach: Starten Sie die Software, und ziehen Sie eine
 
 
 
-Warten Sie ein paar Augenblicke, während das Tool die Metadaten bereinigt. Sobald der Vorgang abgeschlossen ist, wird eine Zusammenfassung angezeigt, die die ursprüngliche und die endgültige Anzahl der Metadaten enthält. Alle überflüssigen Informationen sind dann entfernt worden.
+Warte ein paar Augenblicke, während das Tool die Metadaten bereinigt. Sobald der Vorgang abgeschlossen ist, wird eine Zusammenfassung angezeigt, die die ursprüngliche und die endgültige Anzahl der Metadaten enthält. Alle überflüssigen Informationen sind dann entfernt worden.
 
 
 
@@ -5130,11 +5029,11 @@ Warten Sie ein paar Augenblicke, während das Tool die Metadaten bereinigt. Soba
 
 
 
-Die Bereinigung der Metadaten der von Ihnen freigegebenen Dateien ist daher eine gute Praxis, wenn es um IT-Sicherheit geht. Dank der einfachen Werkzeuge, die in diesem Kapitel vorgestellt werden, ist dies eine Gewohnheit, die Sie täglich leicht umsetzen können.
+Die Bereinigung der Metadaten der von dir freigegebenen Dateien ist daher eine gute Gewohnheit, wenn es um IT-Sicherheit geht. Dank der einfachen Werkzeuge, die in diesem Kapitel vorgestellt werden, ist dies etwas, das du täglich leicht umsetzen kannst.
 
 
 
-Wir sind am Ende dieses Abschnitts über die Sicherheit Ihres Computers angelangt. Im nächsten Abschnitt werden wir einen detaillierten Blick auf eines der wichtigsten Programme auf Ihrem Computer werfen: den Webbrowser. Er allein zentralisiert einen großen Teil Ihrer digitalen Aktivitäten und ist damit ein Hauptziel in Bezug auf Sicherheit und Datenschutz.
+Wir sind am Ende dieses Abschnitts über die Sicherheit deines Computers angelangt. Im nächsten Abschnitt werden wir einen detaillierten Blick auf eines der wichtigsten Programme auf deinem Computer werfen: den Webbrowser. Er allein zentralisiert einen grossen Teil deiner digitalen Aktivitäten und ist damit ein Hauptziel in Bezug auf Sicherheit und Datenschutz.
 
 
 
@@ -5146,14 +5045,14 @@ Wir sind am Ende dieses Abschnitts über die Sicherheit Ihres Computers angelang
 
 
 
-## Eine kurze Geschichte der Navigatoren
+## Eine kurze Geschichte der Browser
 
 
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
 
 
-Der Webbrowser ist die Software, mit der Sie auf Websites und Inhalte im *World Wide Web* zugreifen können. Seine Aufgabe ist es, die zur Erstellung von Webseiten verwendeten Sprachen, insbesondere HTML, CSS und JavaScript, zu interpretieren, um den Inhalt der Website lesbar und interaktiv darzustellen. Er fungiert als Interface zwischen dem Benutzer und den Webservern, sendet Anfragen und empfängt Antworten über das HTTP- oder HTTPS-Protokoll.
+Der Webbrowser ist die Software, mit der du auf Websites und Inhalte im *World Wide Web* zugreifen kannst. Seine Aufgabe ist es, die zur Erstellung von Webseiten verwendeten Sprachen, insbesondere HTML, CSS und JavaScript, zu interpretieren, um den Inhalt der Website lesbar und interaktiv darzustellen. Er fungiert als Interface zwischen dem Benutzer und den Webservern, sendet Anfragen und empfängt Antworten über das HTTP- oder HTTPS-Protokoll.
 
 
 
@@ -5169,11 +5068,11 @@ Doch diese zentrale Rolle hat er nicht immer innegehabt. Die Geschichte der Brow
 
 
 
-### Die Geburt und die ersten Seefahrer
+### Der Anfang und die ersten Browser
 
 
 
-Die Geschichte der Webbrowser beginnt mit der Geburt des *World Wide Web*, das 1989-1990 von Tim Berners-Lee erfunden wurde. Es handelt sich um ein System für den Zugriff auf Seiten mit Texten, Bildern, Videos oder Links über das Internet mit Hilfe eines Webbrowsers. Um dieses neue System zugänglich zu machen, entwickelte er im Herbst 1990 den allerersten Browser namens "WorldWideWeb", der den Grundstein für das Surfen legte, wie wir es heute kennen. Er ermöglicht sowohl das Betrachten als auch das Erstellen von Webseiten, einschließlich eines integrierten HTML-Editors. Um eine Verwechslung zwischen dem Browser und dem Web selbst zu vermeiden, wurde der Name später in "Nexus" geändert.
+Die Geschichte der Webbrowser beginnt mit der Geburt des *World Wide Web*, das 1989-1990 von Tim Berners-Lee erfunden wurde. Es handelt sich um ein System für den Zugriff auf Seiten mit Texten, Bildern, Videos oder Links über das Internet mit Hilfe eines Webbrowsers. Um dieses neue System zugänglich zu machen, entwickelte er im Herbst 1990 den allerersten Browser namens "WorldWideWeb", der den Grundstein für das Surfen legte, wie wir es heute kennen. Er ermöglichte sowohl das Betrachten als auch das Erstellen von Webseiten, einschliesslich eines integrierten HTML-Editors. Um eine Verwechslung zwischen dem Browser und dem Web selbst zu vermeiden, wurde der Name später in "Nexus" geändert.
 
 
 
@@ -5181,7 +5080,7 @@ Die Geschichte der Webbrowser beginnt mit der Geburt des *World Wide Web*, das 1
 
 
 
-Im Jahr 1992 erschienen mehrere andere experimentelle Browser. Einer der bemerkenswertesten war Erwise, entwickelt von vier finnischen Studenten für das Unix-basierte X Window System. Es war der erste Browser, der einen grafischen Interface für diese Art von Umgebung enthielt. Trotz seiner technischen Vorzüge litt er unter einem Mangel an finanziellen Mitteln und wurde nach seiner ersten Version nicht weiter gepflegt. Andere Projekte, wie ViolaWWW, entstanden ebenfalls in dieser Zeit.
+Im Jahr 1992 erschienen mehrere andere experimentelle Browser. Einer der bemerkenswertesten war Erwise, entwickelt von vier finnischen Studenten für das Unix-basierte X Window System. Es war der erste Browser, der ein grafisches Interface für diese Art von Umgebung enthielt. Trotz seiner technischen Vorzüge litt er unter einem Mangel an finanziellen Mitteln und wurde nach seiner ersten Version nicht weiter gepflegt. Andere Projekte, wie ViolaWWW, entstanden ebenfalls in dieser Zeit.
 
 
 
@@ -5193,7 +5092,7 @@ Im Jahr 1992 erschienen mehrere andere experimentelle Browser. Einer der bemerke
 
 
 
-Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine Phase des schnellen Wachstums ein. Dieser Browser wurde von Marc Andreessen und Eric Bina am NCSA (*National Center for Supercomputing Applications*) in den USA entwickelt. Mosaic ist der erste Mainstream-Browser, der Text und Bilder nahtlos in einem einzigen Fenster kombiniert. Er kann Bilder direkt in Webseiten anzeigen (GIF- und XBM-Formate), was einen ergonomischen Durchbruch im Vergleich zu Textbrowsern wie Lynx darstellt. Mosaic führte auch die Unterstützung von Formularen ein und ebnete damit den Weg für echte Interaktivität zwischen Benutzer und Webserver. Mosaic wurde schnell auf verschiedene Betriebssysteme (Windows, Mac, Unix) portiert und war somit leicht zu verbreiten. Innerhalb eines Jahres wurde es zum Standardwerkzeug für die Erkundung des Webs.
+Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine Phase des schnellen Wachstums ein. Dieser Browser wurde von Marc Andreessen und Eric Bina am NCSA (*National Center for Supercomputing Applications*) in den USA entwickelt. Mosaic war der erste Mainstream-Browser, der Text und Bilder nahtlos in einem einzigen Fenster kombinierte. Er konnte Bilder direkt in Webseiten anzeigen (GIF- und XBM-Formate), was einen ergonomischen Durchbruch im Vergleich zu Textbrowsern wie Lynx darstellte. Mosaic führte auch die Unterstützung von Formularen ein und ebnete damit den Weg für echte Interaktivität zwischen Benutzer und Webserver. Mosaic wurde schnell auf verschiedene Betriebssysteme (Windows, Mac, Unix) portiert und war somit leicht zu verbreiten. Innerhalb eines Jahres wurde er zum Standardwerkzeug für die Erkundung des Webs.
 
 
 
@@ -5201,7 +5100,7 @@ Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine 
 
 
 
-1994 verließ Marc Andreessen das NCSA und gründete zusammen mit Jim Clark Netscape Communications. Ein großer Teil des Teams, das an Mosaic gearbeitet hatte, schloss sich ihm an. Kurz darauf bringt das Unternehmen den Netscape Navigator auf den Markt, einen Browser, der auf den Grundlagen von Mosaic basiert, aber eine bessere Leistung und technische Verbesserungen aufweist. 1995 führte Netscape die von Brendan Eich entwickelte JavaScript-Sprache ein, die es ermöglichte, Webseiten dynamisch zu gestalten, d. h. auf Benutzeraktionen zu reagieren, ohne die Seite neu zu laden.
+1994 verliess Marc Andreessen das NCSA und gründete zusammen mit Jim Clark Netscape Communications. Ein grosser Teil des Teams, das an Mosaic gearbeitet hatte, schloss sich ihm an. Kurz darauf brachte das Unternehmen den Netscape Navigator auf den Markt, einen Browser, der auf den Grundlagen von Mosaic basierte, aber eine bessere Leistung und technische Verbesserungen aufwies. 1995 führte Netscape die von Brendan Eich entwickelte JavaScript-Sprache ein, die es ermöglichte, Webseiten dynamisch zu gestalten, d.h. auf Benutzeraktionen zu reagieren, ohne die Seite neu zu laden.
 
 
 
@@ -5217,11 +5116,11 @@ Dank seiner Benutzerfreundlichkeit, seiner plattformübergreifenden Kompatibilit
 
 
 
-Der kometenhafte Erfolg des Netscape Navigator Mitte der 90er Jahre ging auch Microsoft nicht entgangen, das schnell die strategische Bedeutung des Webbrowsers für die Zukunft der Computertechnik erkannte. Im August 1995, wenige Tage nach der Veröffentlichung von Windows 95, brachte Microsoft die erste Version des Internet Explorer auf den Markt, die zunächst auf einer kommerziellen Lizenz des Spyglass Mosaic-Quellcodes basierte (eine andere kommerzielle Version von Mosaic als die am NCSA entwickelte).
+Der kometenhafte Erfolg des Netscape Navigator Mitte der 90er Jahre war auch Microsoft nicht entgangen, das schnell die strategische Bedeutung des Webbrowsers für die Zukunft der Computertechnik erkannte. Im August 1995, wenige Tage nach der Veröffentlichung von Windows 95, brachte Microsoft die erste Version des Internet Explorer auf den Markt, die zunächst auf einer kommerziellen Lizenz des Spyglass Mosaic-Quellcodes basierte (eine andere kommerzielle Version von Mosaic als die am NCSA entwickelte).
 
 
 
-Die erste Version des Internet Explorer war noch rudimentär, aber Microsoft begann eine aggressive Entwicklungspolitik. 1996 begann Microsoft mit dem Internet Explorer 3.0, seinen Browser direkt in das Windows-Betriebssystem zu integrieren, so dass die Benutzer keinen Browser eines Drittanbieters mehr herunterladen mussten. Diese Integration wurde 1997 mit dem Internet Explorer 4.0 verstärkt, der eine neue proprietäre Rendering-Engine namens Trident einführte. Diese Engine verbessert die Geschwindigkeit der Seitendarstellung beträchtlich und ist tief in den Windows Interface integriert.
+Die erste Version des Internet Explorer war noch rudimentär, aber Microsoft begann eine aggressive Entwicklungspolitik. 1996 begann Microsoft mit dem Internet Explorer 3.0, seinen Browser direkt in das Windows-Betriebssystem zu integrieren, so dass die Benutzer keinen Browser eines Drittanbieters mehr herunterladen mussten. Diese Integration wurde 1997 mit dem Internet Explorer 4.0 verstärkt, der eine neue proprietäre Rendering-Engine namens Trident einführte. Diese Engine verbessert die Geschwindigkeit der Seitendarstellung beträchtlich und war tief in das Windows Interface integriert.
 
 
 
@@ -5234,7 +5133,7 @@ Microsofts Strategie stützt sich auf mehrere technische und kommerzielle Hebel:
 
 
 
-- native Integration des Internet Explorers in Windows (standardmäßig vorinstalliert und zu diesem Zeitpunkt deinstallierbar);
+- native Integration des Internet Explorers in Windows (standardmässig vorinstalliert und zu diesem Zeitpunkt deinstallierbar);
 - ein kostenloser Browser, im Gegensatz zu Netscape, der bis dahin kommerziell blieb;
 - kontrolle der APIs und des Betriebssystems, um ihren eigenen Browser in der Windows-Umgebung zu bevorzugen.
 
@@ -5248,7 +5147,7 @@ Angesichts dieser Konkurrenz verlor Netscape schnell an Boden. In weniger als dr
 
 
 
-Dieses virtuelle Monopol führte zu einer erheblichen Verlangsamung der Innovation. Da es keinen ernsthaften Konkurrenten mehr gab, ließ Microsoft die Entwicklung des Internet Explorer stagnieren. Zwischen dem IE6 (der 2001 zusammen mit Windows XP veröffentlicht wurde) und seiner Nachfolgeversion IE7 (2006) wurde trotz Sicherheitslücken, CSS-Inkompatibilitäten und Nichteinhaltung der W3C-Standards keine neue Version veröffentlicht. Diese technologische Trägheit bremste die Modernisierung des Webs für mehrere Jahre und zwang die Entwickler, speziell für die Fehler oder das unregelmäßige Verhalten von Trident zu programmieren.
+Dieses virtuelle Monopol führte zu einer erheblichen Verlangsamung der Innovation. Da es keinen ernsthaften Konkurrenten mehr gab, liess Microsoft die Entwicklung des Internet Explorer stagnieren. Zwischen dem IE6 (der 2001 zusammen mit Windows XP veröffentlicht wurde) und seiner Nachfolgeversion IE7 (2006) wurde trotz Sicherheitslücken, CSS-Inkompatibilitäten und Nichteinhaltung der W3C-Standards keine neue Version veröffentlicht. Diese technologische Trägheit bremste die Modernisierung des Webs für mehrere Jahre und zwang die Entwickler, speziell für die Fehler oder das unregelmässige Verhalten von Trident zu programmieren.
 
 
 
@@ -5268,7 +5167,7 @@ Nach mehreren Jahren der Stagnation aufgrund des virtuellen Monopols des Interne
 
 
 
-Im Jahr 2002 brachte das Mozilla-Projekt, das aus der Freigabe des Netscape-Quellcodes hervorging, einen neuen Browser auf den Markt: Phoenix, der bald in Firebird umbenannt wurde, und schließlich Firefox im Jahr 2004, um Namenskonflikte zu vermeiden. Firefox basiert auf einer völlig neuen Rendering-Engine namens Gecko, die schnell, erweiterbar und vor allem den vom W3C (*World Wide Web Consortium*) definierten Webstandards treu sein soll. Im Gegensatz zu Trident unterstützt Gecko moderne Technologien wie CSS 2.1, DOM und SVG (*Skalierbare Vektorgrafik*) sowie eine verbesserte Sicherheitsverwaltung.
+Im Jahr 2002 brachte das Mozilla-Projekt, das aus der Freigabe des Netscape-Quellcodes hervorging, einen neuen Browser auf den Markt: Phoenix, der bald in Firebird umbenannt wurde, und schliesslich Firefox im Jahr 2004, um Namenskonflikte zu vermeiden. Firefox basiert auf einer völlig neuen Rendering-Engine namens Gecko, die schnell, erweiterbar und vor allem den vom W3C (*World Wide Web Consortium*) definierten Webstandards treu sein soll. Im Gegensatz zu Trident unterstützt Gecko moderne Technologien wie CSS 2.1, DOM und SVG (*Skalierbare Vektorgrafik*) sowie eine verbesserte Sicherheitsverwaltung.
 
 
 
@@ -5282,8 +5181,8 @@ Firefox führte auch mehrere Innovationen ein, die das Surfen im Internet nachha
 
 
 - ein modulares Erweiterungssystem, das es den Nutzern ermöglicht, auf einfache Weise neue Funktionen hinzuzufügen, ohne den Kern des Browsers zu verändern;
-- tabbed Browsing, das bei der breiten Öffentlichkeit beliebt ist, obwohl es bereits in älteren Browsern wie Opera vorhanden ist;
-- datenschutz-Tools wie Pop-up-Blocker, ein integrierter Passwort-Manager und Feinabstimmungsoptionen für Cookies und JavaScript.
+- tabbed Browsing, das bei der breiten Öffentlichkeit beliebt ist, obwohl es bereits in älteren Browsern wie Opera vorhanden war;
+- Datenschutz-Tools wie Pop-up-Blocker, ein integrierter Passwort-Manager und Feinabstimmungsoptionen für Cookies und JavaScript.
 
 
 
@@ -5299,7 +5198,7 @@ In der Zwischenzeit entwickelte Apple seinen eigenen nativen Browser für macOS.
 
 
 
-Safari wurde ab Mac OS X Panther (10.3) zum Standardbrowser auf allen Macs und ersetzte nach und nach den Internet Explorer für Mac, den Microsoft 2005 aufgab. WebKit wird später auch in vielen anderen Browsern verwendet werden.
+Safari wurde ab Mac OS X Panther (10.3) zum Standardbrowser auf allen Macs und ersetzte nach und nach den Internet Explorer für Mac, den Microsoft 2005 aufgab. WebKit würde später auch in vielen anderen Browsern verwendet werden.
 
 
 
@@ -5329,11 +5228,11 @@ Chrome basierte ursprünglich auf zwei technischen Säulen:
 
 
 
-Der eigentliche Durchbruch von Chrome liegt jedoch in seiner Multiprozess-Architektur. Jede Registerkarte wird in einem isolierten Prozess ausgeführt, wobei eine Sandbox-Technik verwendet wird, die verhindert, dass eine bösartige Seite den gesamten Browser kompromittiert. Diese Isolierung verbessert auch die Stabilität: Wenn eine Registerkarte abstürzt, bleiben die anderen funktionsfähig. Hinzu kommt ein minimalistischer, inhaltsorientierter Interface ohne Menüleiste, eine kombinierte Address- und Suchleiste (*Omnibox*) und stille Hintergrundaktualisierungen.
+Der eigentliche Durchbruch von Chrome liegt jedoch in seiner Multiprozess-Architektur. Jede Registerkarte wird in einem isolierten Prozess ausgeführt, wobei eine Sandbox-Technik verwendet wird, die verhindert, dass eine bösartige Seite den gesamten Browser kompromittiert. Diese Isolierung verbessert auch die Stabilität: Wenn eine Registerkarte abstürzt, bleiben die anderen funktionsfähig. Hinzu kommt ein minimalistisches, inhaltsorientiertes Interface ohne Menüleiste, eine kombinierte Adress- und Suchleiste (*Omnibox*) und stille Hintergrundaktualisierungen.
 
 
 
-Unterstützt durch die Marke Google und eine äußerst wirksame Marketingkampagne gewann Chrome schnell Marktanteile. Seine Geschwindigkeit und Benutzerfreundlichkeit überzeugten die Nutzer. Im Jahr 2012 übertraf Chrome zum ersten Mal den Internet Explorer beim weltweiten Marktanteil.
+Unterstützt durch die Marke Google und eine äusserst wirksame Marketingkampagne gewann Chrome schnell Marktanteile. Seine Geschwindigkeit und Benutzerfreundlichkeit überzeugten die Nutzer. Im Jahr 2012 übertraf Chrome zum ersten Mal den Internet Explorer beim weltweiten Marktanteil.
 
 
 
@@ -5341,11 +5240,11 @@ Unterstützt durch die Marke Google und eine äußerst wirksame Marketingkampagn
 
 
 
-Im Jahr 2013 kündigte Google eine wichtige strategische Änderung an: Es würde Fork WebKit, um eine neue unabhängige Rendering-Engine zu schaffen, genannt Blink. Dies Fork wird mit technischen und organisatorischen Unterschieden zu Apple erklärt, vor allem in Bezug auf die Architektur der Engine und die Integration experimenteller Funktionen. Blink wurde ab Version 28 die exklusive Engine für Chrome und wurde später von vielen anderen Browsern übernommen: Opera (das Presto im Jahr 2013 aufgegeben hat), Vivaldi, Brave, Microsoft Edge (seit 2020) und andere.
+Im Jahr 2013 kündigte Google eine wichtige strategische Änderung an: Es würde WebKit forken, um eine neue unabhängige Rendering-Engine zu schaffen, genannt Blink. Diese Fork wird mit technischen und organisatorischen Unterschieden zu Apple begründet, vor allem in Bezug auf die Architektur der Engine und die Integration experimenteller Funktionen. Blink wurde ab Version 28 die exklusive Engine für Chrome und wurde später von vielen anderen Browsern übernommen: Opera (das Presto im Jahr 2013 aufgegeben hatte), Vivaldi, Brave, Microsoft Edge (seit 2020) und andere.
 
 
 
-Laut StatCounter-Daten hält Google Chrome im Jahr 2025 rund 66 % des weltweiten Marktes für alle Geräte (Computer, Smartphones, Tablets). Mit großem Abstand folgen Safari (hauptsächlich auf iOS/macOS), Microsoft Edge und Firefox, dessen Marktanteil weiter sinkt. Die Dominanz von Chrome hat sich auch auf das mobile Ökosystem ausgeweitet, und zwar über Android WebView (eine Systemkomponente, die von Tausenden von Anwendungen genutzt wird), die ebenfalls auf Blink basiert.
+Laut StatCounter-Daten hält Google Chrome im Jahr 2025 rund 66 % des weltweiten Marktes für alle Geräte (Computer, Smartphones, Tablets). Mit grossem Abstand folgen Safari (hauptsächlich auf iOS/macOS), Microsoft Edge und Firefox, dessen Marktanteil weiter sinkt. Die Dominanz von Chrome hat sich auch auf das mobile Ökosystem ausgeweitet, und zwar über Android WebView (eine Systemkomponente, die von Tausenden von Anwendungen genutzt wird), die ebenfalls auf Blink basiert.
 
 
 
@@ -5357,11 +5256,11 @@ Chrome hat die Leistungs-, Sicherheits- und Ergonomiestandards moderner Browser 
 
 
 
-Die Rendering Engine ist die Kernkomponente eines Webbrowsers. Ihre Hauptaufgabe besteht darin, die von einem Server empfangenen Dateien (HTML, CSS, JavaScript, Bilder, Schriftarten ...) in generate eine interaktive grafische Interface zu interpretieren. Die Rendering-Engine ist wie ein Dolmetscher zwischen den Websprachen und Ihrem Bildschirm, der Codezeilen in eine visuell kohärente, interaktive und funktionale Seite übersetzt.
+Die Rendering Engine ist die Kernkomponente eines Webbrowsers. Ihre Hauptaufgabe besteht darin, die von einem Server empfangenen Dateien (HTML, CSS, JavaScript, Bilder, Schriftarten ...) in einem interaktiven grafischen Interface zu interpretieren. Die Rendering-Engine ist wie ein Dolmetscher zwischen den Websprachen und deinem Bildschirm, der Codezeilen in eine visuell kohärente, interaktive und funktionale Seite übersetzt.
 
 
 
-Konkret: Wenn Sie eine URL in die Address-Leiste eingeben:
+Konkret: Wenn du eine URL in die Adress-Leiste eingibst:
 
 
 
@@ -5379,15 +5278,15 @@ Dieser gesamte Prozess muss schnell und flüssig ablaufen, um dem Benutzer auch 
 
 
 
-Im Folgenden finden Sie einen historischen Überblick über die wichtigsten Rendering-Engines, die die Entwicklung des Internets geprägt haben:
+Im Folgenden findest du einen historischen Überblick über die wichtigsten Rendering-Engines, die die Entwicklung des Internets geprägt haben:
 
 
 
-#### Dreizack (1997 - 2015)
+#### Trident (1997 - 2015)
 
 
 
-Die von Microsoft für den Internet Explorer 4 entwickelte Trident-Engine dominierte das Web in den frühen 2000er Jahren und stand im Mittelpunkt der Browser-Kriege. Obwohl er in seinen Anfängen innovativ war, geriet er schnell ins Hintertreffen, was die Einhaltung der W3C-Standards betraf, was dazu führte, dass viele Websites ausschließlich für den Internet Explorer optimiert wurden.
+Die von Microsoft für den Internet Explorer 4 entwickelte Trident-Engine dominierte das Web in den frühen 2000er Jahren und stand im Mittelpunkt der Browser-Kriege. Obwohl er in seinen Anfängen innovativ war, geriet er schnell ins Hintertreffen, was die Einhaltung der W3C-Standards betraf. Das führte dazu, dass viele Websites ausschliesslich für den Internet Explorer optimiert wurden.
 
 
 
@@ -5415,7 +5314,7 @@ Gecko war die Quelle für viele Innovationen. Allerdings macht seine komplexe un
 
 
 
-Was den Marktanteil angeht, liegt Gecko jetzt weit hinter Blink, da Firefox der einzige große Browser ist, der es verwendet. Er wird auch von weniger bekannten und weniger genutzten Browsern verwendet, die Firefox-Forks sind: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Das macht Gecko angesichts der Dominanz von Blink zu einem Garanten für Vielfalt im Web.
+Was den Marktanteil angeht, liegt Gecko jetzt weit hinter Blink, da Firefox der einzige grosse Browser ist, der es verwendet. Er wird auch von weniger bekannten und weniger genutzten Browsern verwendet, die Firefox-Forks sind: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Das macht Gecko angesichts der Dominanz von Blink zu einem Garanten für Vielfalt im Web.
 
 
 
@@ -5457,7 +5356,7 @@ WebKit zeichnet sich durch seine Geschwindigkeit und seinen geringen Platzbedarf
 
 
 
-#### Blinzeln (2013)
+#### Blink (2013)
 
 
 
@@ -5485,7 +5384,7 @@ EdgeHTML, der Nachfolger von Trident, wurde von Microsoft entwickelt, um Edge zu
 
 
 
-Die Entwicklung der Rendering-Engines spiegelt die Geschichte des Webs wider: Spannungen zwischen Innovation und Standardisierung, die Vorherrschaft der großen Akteure, Versuche mit ethischeren oder technischen Alternativen. Heute basieren fast alle Browser auf Blink, mit den bemerkenswerten Ausnahmen von Firefox (Gecko) und Safari (WebKit).
+Die Entwicklung der Rendering-Engines spiegelt die Geschichte des Webs wider: Spannungen zwischen Innovation und Standardisierung, die Vorherrschaft der grossen Akteure, Versuche mit ethischeren oder technischen Alternativen. Heute basieren fast alle Browser auf Blink, mit den bemerkenswerten Ausnahmen von Firefox (Gecko) und Safari (WebKit).
 
 
 
@@ -5497,11 +5396,11 @@ Seit der Entwicklung von Blink im Jahr 2013 und seiner breiten Einführung in al
 
 
 
-Diese Situation bringt einige Vorteile mit sich: Blink ist leistungsfähig und wird von großen Entwicklungsteams (Google, aber auch Microsoft und anderen) unterstützt, und es entwickelt sich schnell weiter. Blink trägt auch zu einer gewissen De-facto-Standardisierung bei: Webentwickler können auf eine einzige Plattform abzielen, um fast alle Nutzer zu erreichen. Aber diese Konzentration hat auch ernsthafte strukturelle Nachteile.
+Diese Situation bringt einige Vorteile mit sich: Blink ist leistungsfähig und wird von grossen Entwicklungsteams (Google, aber auch Microsoft und anderen) unterstützt, und es entwickelt sich schnell weiter. Blink trägt auch zu einer gewissen De-facto-Standardisierung bei: Webentwickler können auf eine einzige Plattform abzielen, um fast alle Nutzer zu erreichen. Aber diese Konzentration hat auch ernsthafte strukturelle Nachteile.
 
 
 
-Einerseits werden dadurch alternative Engines an den Rand gedrängt, vor allem Gecko, das fast ausschließlich von Firefox verwendet wird. Im Jahr 2025 wird der Marktanteil von Firefox weniger als 6 % betragen, was seine Möglichkeiten, sich in Diskussionen über die Entwicklung von Webstandards (W3C, WHATWG) Gehör zu verschaffen, erheblich einschränkt. Gecko wird von Mozilla verwaltet, einer gemeinnützigen Stiftung mit weitaus weniger Ressourcen als Google. Die Engine bleibt in bestimmten technischen Aspekten wettbewerbsfähig (insbesondere beim Schutz der Privatsphäre), leidet aber unter einem Rückstand bei der Implementierung bestimmter moderner APIs. Und dieses Phänomen ist Teil eines Teufelskreises: Gecko ist weniger effizient, was zu einem Rückgang der Nutzerzahlen führt, was wiederum die Entwickler ermutigt, ihre Websites weniger für Gecko zu optimieren, so dass Gecko weniger effizient ist... und so weiter.
+Einerseits werden dadurch alternative Engines an den Rand gedrängt, vor allem Gecko, das fast ausschliesslich von Firefox verwendet wird. Im Jahr 2025 wird der Marktanteil von Firefox weniger als 6 % betragen, was seine Möglichkeiten, sich in Diskussionen über die Entwicklung von Webstandards (W3C, WHATWG) Gehör zu verschaffen, erheblich einschränkt. Gecko wird von Mozilla verwaltet, einer gemeinnützigen Stiftung mit weitaus weniger Ressourcen als Google. Die Engine bleibt in bestimmten technischen Aspekten wettbewerbsfähig (insbesondere beim Schutz der Privatsphäre), leidet aber unter einem Rückstand bei der Implementierung bestimmter moderner APIs. Und dieses Phänomen ist Teil eines Teufelskreises: Gecko ist weniger effizient, was zu einem Rückgang der Nutzerzahlen führt, was wiederum die Entwickler ermutigt, ihre Websites weniger für Gecko zu optimieren, so dass Gecko weniger effizient ist... und so weiter.
 
 
 
@@ -5517,7 +5416,7 @@ Darüber hinaus birgt die zunehmende Abhängigkeit von einer einzigen Engine sys
 
 
 
-Heute spielt Mozilla weiterhin eine wichtige Rolle bei der Verteidigung eines offenen Webs, das die Privatsphäre respektiert und frei zugänglich ist. Firefox ist nach wie vor einer der wenigen großen Browser, die nicht auf Chromium basieren, und bietet unabhängige Innovationen. Sein Überleben hängt jedoch von seiner Fähigkeit ab, eine ausreichende Nutzerbasis und eine nachhaltige Finanzierung aufrechtzuerhalten.
+Heute spielt Mozilla weiterhin eine wichtige Rolle bei der Verteidigung eines offenen Webs, das die Privatsphäre respektiert und frei zugänglich ist. Firefox ist nach wie vor einer der wenigen grossen Browser, die nicht auf Chromium basieren, und bietet unabhängige Innovationen. Sein Überleben hängt jedoch von seiner Fähigkeit ab, eine ausreichende Nutzerbasis und eine nachhaltige Finanzierung aufrechtzuerhalten.
 
 
 
@@ -5525,11 +5424,11 @@ Die Vorherrschaft von Blink ist also nicht nur eine technische Angelegenheit: Es
 
 
 
-Innerhalb von dreißig Jahren hat sich der Webbrowser von einem einfachen Anzeigetool zu einer komplexen Softwareplattform entwickelt, die in das Herzstück unserer täglichen Computererfahrung integriert ist. Das Verständnis dieser historischen Entwicklung verdeutlicht die strategische Bedeutung des Browsers für die heutigen Fragen der Sicherheit und digitalen Souveränität.
+Innerhalb von dreissig Jahren hat sich der Webbrowser von einem einfachen Anzeigetool zu einer komplexen Softwareplattform entwickelt, die in das Herzstück unserer täglichen Computererfahrung integriert ist. Das Verständnis dieser historischen Entwicklung verdeutlicht die strategische Bedeutung des Browsers für die heutigen Fragen der Sicherheit und digitalen Souveränität.
 
 
 
-Im nächsten Kapitel geben wir Ihnen einen Überblick über die derzeit verfügbaren Browser, von den traditionellen bis hin zu den futuristischen, und vergleichen ihre Vor- und Nachteile, damit Sie eine fundierte Wahl treffen können.
+Im nächsten Kapitel geben wir dir einen Überblick über die derzeit verfügbaren Browser, von den traditionellen bis hin zu den futuristischen, und vergleichen ihre Vor- und Nachteile, damit du eine fundierte Wahl treffen kannst.
 
 
 
@@ -5544,7 +5443,7 @@ Nachdem wir uns mit der Geschichte und der Entwicklung von Browsern befasst habe
 
 
 
-Ziel dieses Kapitels ist es, Ihnen bei der Auswahl des Browsers zu helfen, der Ihren Bedürfnissen am besten entspricht. Ich habe sie nach Rendering Engine geordnet, aber die Reihenfolge spiegelt keine Rangfolge wider.
+Ziel dieses Kapitels ist es, dir bei der Auswahl des Browsers zu helfen, der deinen Bedürfnissen am besten entspricht. Ich habe sie nach Rendering Engine geordnet, aber die Reihenfolge spiegelt keine Rangfolge wider.
 
 
 
@@ -5564,11 +5463,11 @@ Ziel dieses Kapitels ist es, Ihnen bei der Auswahl des Browsers zu helfen, der I
 
 
 
-Aus Sicht der Sicherheit und des Datenschutzes gibt Chrome jedoch Anlass zu großen Bedenken. Standardmäßig sammelt der Browser eine große Menge an Daten über seine Nutzer (Browsing, Suchvorgänge, Verlauf...), die hauptsächlich für Werbezwecke von Google verwendet werden. Die Möglichkeit, Cookies und Tracker zu isolieren, ist standardmäßig begrenzt, und die vollständige Deaktivierung des Trackings bleibt kompliziert. Auch wenn Chrome technisch sicher ist (wirksame Sandbox, schnelle Updates...), bleibt es unter der Kontrolle eines großen Akteurs, dessen kommerzielle Interessen natürlich nicht mit einer echten digitalen Souveränität vereinbar sind.
+Aus Sicht der Sicherheit und des Datenschutzes gibt Chrome jedoch Anlass zu grossen Bedenken. Standardmässig sammelt der Browser eine grosse Menge an Daten über seine Nutzer (Browsing, Suchvorgänge, Verlauf...), die hauptsächlich für Werbezwecke von Google verwendet werden. Die Möglichkeit, Cookies und Tracker zu isolieren, ist standardmässig begrenzt, und die vollständige Deaktivierung des Trackings bleibt kompliziert. Auch wenn Chrome technisch sicher ist (wirksame Sandbox, schnelle Updates...), bleibt es unter der Kontrolle eines grossen Akteurs, dessen kommerzielle Interessen natürlich nicht mit einer echten digitalen Souveränität vereinbar sind.
 
 
 
-Zu bedenken ist auch, dass Chrome aufgrund dieser Geschwindigkeit und Komplexität eine große Menge an Systemressourcen, insbesondere RAM, verbraucht.
+Zu bedenken ist auch, dass Chrome aufgrund dieser Geschwindigkeit und Komplexität eine grosse Menge an Systemressourcen, insbesondere RAM, verbraucht.
 
 
 
@@ -5576,7 +5475,7 @@ Google Chrome basiert auf dem Chromium-Projekt, das Open Source ist. Allerdings 
 
 
 
-Ich würde also nicht empfehlen, Google Chrome zu verwenden, weder privat noch beruflich (es sei denn, Ihr Unternehmen hängt von der Google-Suite ab). In der Tat gibt es einige ausgezeichnete Alternativen zu den Google-Diensten, sowohl lokal als auch in der Cloud. Ich lade Sie insbesondere ein, die von Proton angebotenen Dienste zu entdecken:
+Ich würde also nicht empfehlen, Google Chrome zu verwenden, weder privat noch beruflich (es sei denn, dein Unternehmen hängt von der Google-Suite ab). In der Tat gibt es einige ausgezeichnete Alternativen zu den Google-Diensten, sowohl lokal als auch in der Cloud. Ich lade dich insbesondere ein, die von Proton angebotenen Dienste zu entdecken:
 
 
 
@@ -5584,11 +5483,11 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Mutig
+#### Brave
 
 
 
-[Brave](https://brave.com/) basiert auf Blink (wie Chrome), unterscheidet sich aber grundlegend in seinem datenschutzorientierten Ansatz. Standardmäßig blockiert Brave Werbung und Tracker, integriert *HTTPS Everywhere* und bietet fortschrittlichen Schutz vor Fingerabdrücken und Skripten Dritter. Das Geschäftsmodell von Brave basiert zum Teil auf integrierter datenschutzfreundlicher Werbung, die jedoch optional ist und leicht deaktiviert werden kann.
+[Brave](https://brave.com/) basiert auf Blink (wie Chrome), unterscheidet sich aber grundlegend in seinem datenschutzorientierten Ansatz. Standardmässig blockiert Brave Werbung und Tracker, integriert *HTTPS Everywhere* und bietet fortschrittlichen Schutz vor Fingerabdrücken und Skripten Dritter. Das Geschäftsmodell von Brave basiert zum Teil auf integrierter datenschutzfreundlicher Werbung, die jedoch optional ist und leicht deaktiviert werden kann.
 
 
 
@@ -5600,11 +5499,11 @@ Brave basiert auf Chromium und sein gesamter Code ist auf GitHub verfügbar. Nur
 
 
 
-Brave ist eine leistungsstarke Alternative zu Chrome, die Geschwindigkeit, verbesserte Sicherheit, standardmäßig verbesserten Datenschutz und ein intuitives Interface kombiniert. Allerdings würde ich es nicht unbedingt empfehlen, einfach weil es auf Chromium basiert.
+Brave ist eine leistungsstarke Alternative zu Chrome, die Geschwindigkeit, verbesserte Sicherheit, standardmässig verbesserten Datenschutz und ein intuitives Interface kombiniert. Allerdings würde ich es nicht unbedingt empfehlen, einfach weil es auf Chromium basiert.
 
 
 
-Obwohl viele Browser (einschließlich Brave) auf Chromium basieren und einen datenschutzfreundlichen Ansatz propagieren, ergab eine Untersuchung aus dem Jahr 2024, dass standardmäßig eine API integriert ist, die Google den Zugriff auf sensible Informationen über die Hardware des Nutzers (CPU, GPU, RAM) sowie seine Aktivitäten bei Google-Diensten ermöglicht. Diese API, die als nicht deaktivierbare Erweiterung in Chrome integriert ist, war auch in mehreren abgeleiteten Browsern wie Edge, Opera und sogar Brave vorhanden.
+Obwohl viele Browser (einschliesslich Brave) auf Chromium basieren und einen datenschutzfreundlichen Ansatz propagieren, ergab eine Untersuchung aus dem Jahr 2024, dass standardmässig eine API integriert ist, die Google den Zugriff auf sensible Informationen über die Hardware des Nutzers (CPU, GPU, RAM) sowie seine Aktivitäten bei Google-Diensten ermöglicht. Diese API, die als nicht deaktivierbare Erweiterung in Chrome integriert ist, war auch in mehreren abgeleiteten Browsern wie Edge, Opera und sogar Brave vorhanden.
 
 
 
@@ -5612,29 +5511,29 @@ Obwohl Brave diese API inzwischen deaktiviert hat, zeigt dieser Fall deutlich di
 
 
 
-→ "***Fingerprinting***" im Zusammenhang mit dem Surfen im Internet bezieht sich auf eine Reihe von Techniken, die das Sammeln und Analysieren spezifischer und manchmal einzigartiger Informationen über Ihre Surfumgebung beinhalten, um Sie auf verschiedenen Websites zu erkennen und zu verfolgen, ohne auf explizite Identifikatoren wie Cookies zurückzugreifen. Diese Informationen können Folgendes umfassen:
+→ "***Fingerprinting***" im Zusammenhang mit dem Surfen im Internet bezieht sich auf eine Reihe von Techniken, die das Sammeln und Analysieren spezifischer und manchmal einzigartiger Informationen über deine Surfumgebung beinhalten, um dich auf verschiedenen Websites zu erkennen und zu verfolgen, ohne auf explizite Identifikatoren wie Cookies zurückzugreifen. Diese Informationen können Folgendes umfassen:
 
 
 
 
-- Ihr IP Address,
-- Ihr Internetdienstanbieter,
-- Ihre Geolocation,
-- Ihr Browser und seine Eigenschaften,
-- Ihr Betriebssystem,
-- Ihre Software-Version,
+- deine IP-Adresse,
+- dein Internetdienstanbieter,
+- deine Geolocation,
+- dein Browser und seine Eigenschaften,
+- dein Betriebssystem,
+- deine Software-Version,
 - Installierte Schriftarten,
-- Ihre Bildschirmauflösung und -größe,
+- deine Bildschirmauflösung und -grösse,
 - Farbtiefe,
-- Ihre Zeitzone und Sprache,
+- deine Zeitzone und Sprache,
 - HTML5-Leinwand,
 - Grafische Rendering-Analyse,
-- Ihre Browser-Erweiterungen,
+- deine Browser-Erweiterungen,
 - usw...
 
 
 
-Um zu überprüfen, ob Ihr Browser-Fingerabdruck Sie einzigartig macht oder ob Sie mit der Masse verschmelzen, können Sie die folgende Website nutzen: https://amiunique.org/
+Um zu überprüfen, ob dein Browser-Fingerabdruck dich einzigartig macht oder ob du mit der Masse verschmilzt, kannst du die folgende Website nutzen: https://amiunique.org/
 
 
 
@@ -5654,15 +5553,15 @@ Was die Sicherheit betrifft, so bietet Vivaldi mehrere Funktionen zum Blockieren
 
 
 
-#### Oper
+#### Opera
 
 
 
-[Opera] (https://www.opera.com/) ist ein langjähriger Browser, den es bereits seit 1995 gibt. Er verwendet jetzt Blink, nachdem er seine proprietäre Engine (*Presto*) aufgegeben hat. Er hat einen modernen Interface und einige innovative Funktionen.
+[Opera] (https://www.opera.com/) ist ein langjähriger Browser, den es bereits seit 1995 gibt. Er verwendet jetzt Blink, nachdem er seine proprietäre Engine (*Presto*) aufgegeben hat. Er hat ein modernes Interface und einige innovative Funktionen.
 
 
 
-In Bezug auf den Datenschutz ist Opera jedoch höchst umstritten: Seit 2016 ist es im Besitz eines chinesischen Unternehmens, was Fragen über die mögliche Nutzung von Nutzerdaten aufwirft. Opera enthält ein integriertes VPN (Proxy und kein echtes VPN), aber die Datenschutzrichtlinie ist unklar, was die Protokollverwaltung angeht. Opera ist außerdem ein proprietärer Browser. Er wird daher nicht empfohlen, vor allem, wenn die Privatsphäre eine Priorität ist.
+In Bezug auf den Datenschutz ist Opera jedoch höchst umstritten: Seit 2016 ist es im Besitz eines chinesischen Unternehmens, was Fragen über die mögliche Nutzung von Nutzerdaten aufwirft. Opera enthält ein integriertes VPN (Proxy und kein echtes VPN), aber die Datenschutzrichtlinie ist unklar, was die Protokollverwaltung angeht. Opera ist ausserdem ein proprietärer Browser. Er wird daher nicht empfohlen, vor allem, wenn die Privatsphäre eine Priorität ist.
 
 
 
@@ -5680,11 +5579,11 @@ Zu den auf Blink basierenden Browsern gehören auch eine Reihe von eher marginal
 
 
 
-- **Bogen**:
+- **Arc** :
 
 
 
-Der von The Browser Company entwickelte [Arc](https://arc.net/) bietet einen radikal anderen Ansatz für den Benutzer Interface. Er ersetzt die traditionellen Registerkarten durch ein System von "*Spaces*", eine einheitliche Seitenleiste und integriert kreative Tools wie kommentierbare Captures und einen einfachen Site-Editor. Der Schwerpunkt liegt auf der Benutzerfreundlichkeit, der visuellen Anpassung und der flüssigen Nutzung, so dass dieses Tool von einigen Fachleuten bevorzugt wird.
+Der von The Browser Company entwickelte [Arc](https://arc.net/) bietet einen radikal anderen Ansatz für das Benutzer-Interface. Er ersetzt die traditionellen Registerkarten durch ein System von "*Spaces*", eine einheitliche Seitenleiste und integriert kreative Tools wie kommentierbare Captures und einen einfachen Site-Editor. Der Schwerpunkt liegt auf der Benutzerfreundlichkeit, der visuellen Anpassung und der flüssigen Nutzung, so dass dieses Tool von einigen Fachleuten bevorzugt wird.
 
 
 
@@ -5698,11 +5597,11 @@ Aus technischer Sicht basiert Arc auf Chromium, bleibt aber eine proprietäre So
 
 
 
-- **Polypan** :
+- **Polypane** :
 
 
 
-[Polypane] (https://polypane.app/) richtet sich speziell an Front-End-Entwickler und UX-Designer. Seine Hauptfunktion besteht darin, mehrere Instanzen derselben Website gleichzeitig auf verschiedenen Bildschirmauflösungen anzuzeigen, um das *reaktionsfähige* Verhalten eines Interface in Echtzeit zu testen. Außerdem bietet es Zugänglichkeitstools, HTML/CSS-Validatoren, Farbenblindheitssimulatoren und Leistungsmetriken.
+[Polypane] (https://polypane.app/) richtet sich speziell an Front-End-Entwickler und UX-Designer. Seine Hauptfunktion besteht darin, mehrere Instanzen derselben Website gleichzeitig auf verschiedenen Bildschirmauflösungen anzuzeigen, um das *reaktionsfähige* Verhalten eines Interface in Echtzeit zu testen. Ausserdem bietet es Zugänglichkeitstools, HTML/CSS-Validatoren, Farbenblindheitssimulatoren und Leistungsmetriken.
 
 
 
@@ -5726,7 +5625,7 @@ Polypane ist ein proprietärer, kostenpflichtiger, auf Chromium basierender Brow
 
 
 
-Mozilla ist eine gemeinnützige Organisation, was ihr eine relative Unabhängigkeit von rein kommerziellen Interessen verleiht, auch wenn sie finanziell stark von Partnerschaften mit Google abhängig bleibt. Letzteres finanziert die Mozilla Foundation größtenteils, offiziell, damit seine Suchmaschine die Standardeinstellung in Firefox bleibt und somit seinen Marktanteil aufrechterhält. Inoffiziell ermöglicht diese Strategie Google, eine Form des kontrollierten Wettbewerbs aufrechtzuerhalten: Durch die Unterstützung von Mozilla behält Google einen minimalen Konkurrenten, was den Vorwurf des Missbrauchs einer marktbeherrschenden Stellung entschärft und das Risiko regulatorischer Sanktionen begrenzt.
+Mozilla ist eine gemeinnützige Organisation, was ihr eine relative Unabhängigkeit von rein kommerziellen Interessen verleiht, auch wenn sie finanziell stark von Partnerschaften mit Google abhängig bleibt. Letzteres finanziert die Mozilla Foundation grösstenteils, offiziell, damit seine Suchmaschine die Standardeinstellung in Firefox bleibt und somit seinen Marktanteil aufrechterhält. Inoffiziell ermöglicht diese Strategie Google, eine Form des kontrollierten Wettbewerbs aufrechtzuerhalten: Durch die Unterstützung von Mozilla behält Google einen minimalen Konkurrenten, was den Vorwurf des Missbrauchs einer marktbeherrschenden Stellung entschärft und das Risiko regulatorischer Sanktionen begrenzt.
 
 
 
@@ -5738,11 +5637,10 @@ Firefox ist ein quelloffener Browser, der unter der MPL (*Mozilla Public License
 
 
 
-Firefox ist nach wie vor ein Maßstab für Sicherheit und Datenschutz, auch wenn er in bestimmten Leistungsbereichen etwas hinter den Blink-basierten Browsern zurückbleibt. Er kann ein sehr guter Browser sein, solange er richtig konfiguriert ist.
+Firefox ist nach wie vor ein Massstab für Sicherheit und Datenschutz, auch wenn er in bestimmten Leistungsbereichen etwas hinter den Blink-basierten Browsern zurückbleibt. Er kann ein sehr guter Browser sein, solange er richtig konfiguriert ist.
 
 
 
-https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-Browser
 
 
@@ -5753,7 +5651,7 @@ https://planb.academy/tutorials/computer-security/communication/firefox-11814cec
 
 https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-Der Nachteil ist eine erhebliche Leistungseinbuße (hohe Latenz) und eine eingeschränkte Kompatibilität mit bestimmten Websites. Tor Browser ist ideal für sensible Aktivitäten (Journalismus, Aktivismus...), aber weniger geeignet für den normalen Alltagsgebrauch.
+Der Nachteil ist eine erhebliche Leistungseinbusse (hohe Latenz) und eine eingeschränkte Kompatibilität mit bestimmten Websites. Tor Browser ist ideal für sensible Aktivitäten (Journalismus, Aktivismus...), aber weniger geeignet für den normalen Alltagsgebrauch.
 
 
 
@@ -5763,15 +5661,15 @@ Der Nachteil ist eine erhebliche Leistungseinbuße (hohe Latenz) und eine einges
 
 #### Mullvad-Browser
 
-[Mullvad Browser] (https://mullvad.net/en/browser) ist das Ergebnis der Zusammenarbeit zwischen der Tor Foundation und Mullvad VPN. Er basiert auf dem Tor-Browser, der wiederum von Firefox ESR abgeleitet ist. Mullvad Browser wurde entwickelt, um die Privatsphäre der Benutzer zu maximieren. Standardmäßig enthält er einen erweiterten Schutz gegen Fingerabdrücke, Tracker und Skripte von Dritten.
+[Mullvad Browser] (https://mullvad.net/en/browser) ist das Ergebnis der Zusammenarbeit zwischen der Tor Foundation und Mullvad VPN. Er basiert auf dem Tor-Browser, der wiederum von Firefox ESR abgeleitet ist. Mullvad Browser wurde entwickelt, um die Privatsphäre der Benutzer zu maximieren. Standardmässig enthält er einen erweiterten Schutz gegen Fingerabdrücke, Tracker und Skripte von Dritten.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
-Er verfügt über die meisten der Sicherheits- und Datenschutzfunktionen, die der Tor-Browser bietet, mit einem Unterschied: Er leitet den Datenverkehr nicht über das Tor-Netzwerk um. Um IP Address-Lecks zu vermeiden, können Sie ihn in Kombination mit einem VPN (idealerweise Mullvad VPN) verwenden.
+Er verfügt über die meisten der Sicherheits- und Datenschutzfunktionen, die der Tor-Browser bietet, mit einem Unterschied: Er leitet den Datenverkehr nicht über das Tor-Netzwerk um. Um IP Adress-Lecks zu vermeiden, kannst du ihn in Kombination mit einem VPN (idealerweise Mullvad VPN) verwenden.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Mullvad Browser ist eine ausgezeichnete Lösung, wenn Sie sich um Ihre Privatsphäre sorgen, egal ob Sie Anfänger oder fortgeschrittener Nutzer sind.
+Mullvad Browser ist eine ausgezeichnete Lösung, wenn du dich um deine Privatsphäre sorgst, egal ob du Anfänger oder fortgeschrittener Nutzer bist.
 
 
 
@@ -5779,15 +5677,15 @@ Mullvad Browser ist eine ausgezeichnete Lösung, wenn Sie sich um Ihre Privatsph
 
 
 
-#### Librewolf
+#### m
 
 
 
-[LibreWolf] (https://librewolf.net/) ist ein auf Firefox basierender Browser, der ein noch höheres Maß an Privatsphäre bieten soll. Er entfernt alle Funktionen, die die Privatsphäre gefährden könnten, wie z. B. die Telemetrie, die Integration der Mozilla-Dienste und den Pocket-Dienst.
+[LibreWolf] (https://librewolf.net/) ist ein auf Firefox basierender Browser, der ein noch höheres Mass an Privatsphäre bieten soll. Er entfernt alle Funktionen, die die Privatsphäre gefährden könnten, wie z.B. die Telemetrie, die Integration der Mozilla-Dienste und den Pocket-Dienst.
 
 
 
-Standardmäßig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von Firefox (z. B. den strengen Tracking-Schutzmodus) und deaktiviert die DRM-Unterstützung. Das Projekt ist vollständig quelloffen und gemeinschaftsbasiert und ist nicht auf die Finanzierung durch private Unternehmen angewiesen. Ich empfehle es, wenn Sie einen "abgehärteten" Firefox suchen, mit maximaler Kontrolle über Ihre Daten.
+Standardmässig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von Firefox (z.B. den strengen Tracking-Schutzmodus) und deaktiviert die DRM-Unterstützung. Das Projekt ist vollständig quelloffen und gemeinschaftsbasiert und ist nicht auf die Finanzierung durch private Unternehmen angewiesen. Ich empfehle es, wenn du einen "abgehärteten" Firefox suchst, mit maximaler Kontrolle über deine Daten.
 
 
 
@@ -5801,7 +5699,7 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 
 [Zen Browser] (https://zen-browser.app/) ist ein freier und quelloffener Browser, der auf Firefox (Gecko-Engine) basiert und 2024 auf den Markt kam. Sein Ziel ist es, ein modernes, elegantes, hochgradig anpassbares und vor allem datenschutzfreundliches Browsing-Erlebnis zu bieten, ohne von Chromium abhängig zu sein.
 
-Zen zeichnet sich durch seine radikale Herangehensweise an Interface und seine Benutzerfreundlichkeit aus, die weitgehend vom Arc-Browser inspiriert ist, sich aber durch seinen Open-Source-Charakter und die Gecko-Engine von ihm emanzipiert. Er umfasst :
+Zen zeichnet sich durch seine radikale Herangehensweise an das Interface und seine Benutzerfreundlichkeit aus, die weitgehend vom Arc-Browser inspiriert ist, sich aber durch seinen Open-Source-Charakter und die Gecko-Engine von ihm emanzipiert. Er umfasst :
 
 - Ein minimalistisches, modulares Interface, mit einer vertikalen Seitenleiste für Registerkarten, einer geteilten Ansicht und einem *Arbeitsbereich*-System zur Gruppierung von Registerkarten nach Projekten;
 - Ein System von anpassbaren Interface-Vorlagen (*Zen Mods*), mit denen das Aussehen des Browsers tiefgreifend verändert werden kann;
@@ -5809,11 +5707,11 @@ Zen zeichnet sich durch seine radikale Herangehensweise an Interface und seine B
 
 Zen unterstützt auch Firefox-Erweiterungen sowie die Synchronisierung über ein Mozilla-Konto.
 
-Aus Sicht der Sicherheit und des Datenschutzes bietet Zen eine native Blockierung von Trackern Dritter. Der Browser sammelt selbst keine Daten und erlaubt auch die Deaktivierung der Mozilla-Telemetrie. Außerdem lehnt er veraltete oder nicht konforme SSL-Zertifikate automatisch ab.
+Aus Sicht der Sicherheit und des Datenschutzes bietet Zen eine native Blockierung von Trackern Dritter. Der Browser sammelt selbst keine Daten und erlaubt auch die Deaktivierung der Mozilla-Telemetrie. Ausserdem lehnt er veraltete oder nicht konforme SSL-Zertifikate automatisch ab.
 
-Zen Browser ist eine interessante Alternative, wenn Sie eine Gecko-Browsing-Umgebung suchen, die kostenlos, innovativ und übersichtlich ist und Ihre Privatsphäre respektiert.
+Zen Browser ist eine interessante Alternative, wenn du eine Gecko-Browsing-Umgebung suchst, die kostenlos, innovativ und übersichtlich ist und deine Privatsphäre respektiert.
 
-https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-basierte Browser
 
@@ -5835,7 +5733,7 @@ Wir konzentrieren uns hier auf Desktop-Browser, aber es ist wichtig zu wissen, d
 
 
 
-Eine interessante Alternative zu Safari ist [Orion] (https://kagi.com/orion/), ein moderner Browser, der ausschließlich für das Apple-Ökosystem entwickelt wurde und ebenfalls auf WebKit basiert. Sein Ziel ist es, eine schnelle, leichtgewichtige und die Privatsphäre respektierende Alternative zu bieten, ohne Kompromisse bei den erweiterten Funktionen einzugehen.
+Eine interessante Alternative zu Safari ist [Orion] (https://kagi.com/orion/), ein moderner Browser, der ausschliesslich für das Apple-Ökosystem entwickelt wurde und ebenfalls auf WebKit basiert. Sein Ziel ist es, eine schnelle, leichtgewichtige und die Privatsphäre respektierende Alternative zu bieten, ohne Kompromisse bei den erweiterten Funktionen einzugehen.
 
 
 
@@ -5844,27 +5742,26 @@ Orion unterscheidet sich von Safari in mehreren technischen Aspekten:
 
 
 
-- Es verfolgt eine strikte Null-Telemetrie-Politik: Standardmäßig werden keine Daten gesammelt oder übertragen, auch nicht bei der Erstinstallation;
-- Es enthält einen standardmäßig aktivierten Werbe- und Tracker-Blocker, dessen Wirksamkeit in den meisten Fällen mit *uBlock Origin* vergleichbar ist;
+- Es verfolgt eine strikte Null-Telemetrie-Politik: Standardmässig werden keine Daten gesammelt oder übertragen, auch nicht bei der Erstinstallation;
+- Es enthält einen standardmässig aktivierten Werbe- und Tracker-Blocker, dessen Wirksamkeit in den meisten Fällen mit *uBlock Origin* vergleichbar ist;
 - Es unterstützt die Installation und Verwendung von Chrome- und Firefox-Erweiterungen nativ unter macOS;
 - Nützliche Tools sind der *Focus*-Modus (Interface-freie Navigation), der Energiesparmodus und die vertikale Registerkartenverwaltung.
 
 
 
-Orion wird vollständig vom Kagi-Team (bekannt für seine werbefreie Suchmaschine) entwickelt. Seine Entwicklung wird ausschließlich von seinen Nutzern über das *Orion+*-Abonnement finanziert, das Zugang zu einer Reihe von Vorteilen bietet.
+Orion wird vollständig vom Kagi-Team (bekannt für seine werbefreie Suchmaschine) entwickelt. Seine Entwicklung wird ausschliesslich von seinen Nutzern über das *Orion+*-Abonnement finanziert, das Zugang zu einer Reihe von Vorteilen bietet.
 
 
 
-https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Browser ohne Rendering-Engines
 
 
 
-Schließlich möchte ich diesen Überblick mit einer viel weniger bekannten und sehr marginalen Alternative beenden: Textmodus-Browser, von denen der bekannteste [Lynx Browser] (https://lynx.invisible-island.net/) ist.
+Schliesslich möchte ich diesen Überblick mit einer viel weniger bekannten und sehr marginalen Alternative beenden: Textmodus-Browser, von denen der bekannteste [Lynx Browser] (https://lynx.invisible-island.net/) ist.
 
 
 
-Lynx ist der älteste Webbrowser, der noch gepflegt wird (1992). Er arbeitet ausschließlich im Textmodus und wird direkt in einem Terminal verwendet, ohne grafisches Interface. Technisch gesehen unterstützt Lynx kein JavaScript, kein CSS und keine Bilder, so dass kein aktiver Code in Webseiten ausgeführt werden kann. Es interpretiert nur rohen HTML-Code, den es als strukturierten Text wiedergibt.
+Lynx ist der älteste Webbrowser, der noch gepflegt wird (1992). Er arbeitet ausschliesslich im Textmodus und wird direkt in einem Terminal verwendet, ohne grafisches Interface. Technisch gesehen unterstützt Lynx kein JavaScript, kein CSS und keine Bilder, so dass kein aktiver Code in Webseiten ausgeführt werden kann. Es interpretiert nur rohen HTML-Code, den es als strukturierten Text wiedergibt.
 
 
 
@@ -5876,11 +5773,11 @@ Dieser radikal minimalistische Ansatz macht ihn zu einem der sichersten Browser:
 
 
 
-Dieses Modell hat natürlich große Einschränkungen: das völlige Fehlen einer grafischen Darstellung, die Unmöglichkeit, die meisten modernen Websites zu nutzen (von denen viele auf JavaScript angewiesen sind) und eine strenge Ergonomie, die für erfahrene Benutzer gedacht ist.
+Dieses Modell hat natürlich grosse Einschränkungen: das völlige Fehlen einer grafischen Darstellung, die Unmöglichkeit, die meisten modernen Websites zu nutzen (von denen viele auf JavaScript angewiesen sind) und eine strenge Ergonomie, die für erfahrene Benutzer gedacht ist.
 
 
 
-Luchs kann in bestimmten, sehr spezifischen Kontexten immer noch interessant sein:
+Lynx kann in bestimmten, sehr spezifischen Kontexten immer noch interessant sein:
 
 
 
@@ -5897,7 +5794,7 @@ Luchs kann in bestimmten, sehr spezifischen Kontexten immer noch interessant sei
 
 
 
-Für Nutzer, die standardmäßig Wert auf Sicherheit und Datenschutz legen, ohne zahlreiche Einstellungen manuell ändern zu müssen, und die einen Allzweckbrowser für den täglichen Gebrauch suchen, sind LibreWolf und Mullvad Browser meiner Meinung nach die beste Wahl. Wenn es Ihnen nichts ausmacht, eine Chromium-Basis zu verwenden (trotz der damit verbundenen Risiken und einer ganz anderen Philosophie), können Sie auch Brave in Betracht ziehen. Wie Sie sehen können, bevorzuge ich die Gecko-Rendering-Engine aus vielen Gründen, auch wenn sie derzeit in Bezug auf die Leistung hinter Blink zurückbleibt.
+Für Nutzer, die standardmässig Wert auf Sicherheit und Datenschutz legen, ohne zahlreiche Einstellungen manuell ändern zu müssen, und die einen Allzweckbrowser für den täglichen Gebrauch suchen, sind LibreWolf und Mullvad Browser meiner Meinung nach die beste Wahl. Wenn es dir nichts ausmacht, eine Chromium-Basis zu verwenden (trotz der damit verbundenen Risiken und einer ganz anderen Philosophie), kannst du auch Brave in Betracht ziehen. Wie du sehen kannst, bevorzuge ich die Gecko-Rendering-Engine aus vielen Gründen, auch wenn sie derzeit in Bezug auf die Leistung hinter Blink zurückbleibt.
 
 
 
@@ -5905,7 +5802,7 @@ Firefox ist auch eine sehr gute Wahl als Allzweck-Browser, solange er richtig ko
 
 
 
-Für ein noch höheres Maß an Anonymität, auf Kosten einer geringeren Leistung, bleibt der Tor Browser die beste Lösung.
+Für ein noch höheres Mass an Anonymität, auf Kosten einer geringeren Leistung, bleibt der Tor Browser die beste Lösung.
 
 
 
@@ -5913,11 +5810,11 @@ Chrome kann trotz seiner Beliebtheit nicht als Teil eines Konzepts für digitale
 
 
 
-Die Wahl Ihres Browsers spielt heute eine wichtige Rolle für Ihre Online-Sicherheit und Ihre Privatsphäre. Nehmen Sie sich also die Zeit, um den Browser zu finden, der Ihrem Risikoprofil und Ihren Prioritäten am besten entspricht.
+Die Wahl deines Browsers spielt heute eine wichtige Rolle für deine Online-Sicherheit und deine Privatsphäre. Nimm dir also die Zeit, um den Browser zu finden, der deinem Risikoprofil und deinen Prioritäten am besten entspricht.
 
 
 
-Hier ist eine kurze Zusammenfassung, die Ihnen bei der Wahl helfen soll (bedenken Sie jedoch, dass sich dieser Vergleich im Laufe der Zeit, seit SCU202 geschrieben wurde, weiterentwickelt haben kann, und dass die Bewertung des Interface und seiner Funktionen in erster Linie eine Frage der persönlichen Einschätzung ist):
+Hier ist eine kurze Zusammenfassung, die dir bei der Wahl helfen soll (bedenke jedoch, dass sich dieser Vergleich im Laufe der Zeit, seit SCU202 geschrieben wurde, weiterentwickelt haben kann, und dass die Bewertung des Interface und seiner Funktionen in erster Linie eine Frage der persönlichen Einschätzung ist):
 
 
 
@@ -5938,7 +5835,7 @@ Hier ist eine kurze Zusammenfassung, die Ihnen bei der Wahl helfen soll (bedenke
 | Orion           | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟢                      |
 | Zen Browser     | 🟢              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
 
-Im nächsten Kapitel befassen wir uns mit den besten Praktiken für ein sicheres Surfen im Internet, bei dem die Gefährdung Ihrer Privatsphäre möglichst gering ist.
+Im nächsten Kapitel befassen wir uns mit den besten Praktiken für ein sicheres Surfen im Internet, bei dem die Gefährdung deiner Privatsphäre möglichst gering ist.
 
 
 
@@ -5953,19 +5850,19 @@ Im vorangegangenen Kapitel haben wir die wichtigsten derzeit verfügbaren Browse
 
 
 
-Doch selbst der sicherste Browser reicht nicht aus: Die Art und Weise, wie Sie ihn verwenden, ist entscheidend für den Schutz Ihrer digitalen Sicherheit. In diesem Kapitel werfen wir einen detaillierten Blick auf die wichtigsten Best Practices zur Minimierung der Risiken, die mit der täglichen Internetnutzung verbunden sind.
+Doch selbst der sicherste Browser reicht nicht aus: Die Art und Weise, wie du ihn verwendest, ist entscheidend für den Schutz deiner digitalen Sicherheit. In diesem Kapitel werfen wir einen detaillierten Blick auf die wichtigsten Best Practices zur Minimierung der Risiken, die mit der täglichen Internetnutzung verbunden sind.
 
 
 
-### Halten Sie Ihren Browser auf dem neuesten Stand
+### Halte deinen Browser auf dem neuesten Stand
 
 
 
-Der Webbrowser ist eine der am meisten beanspruchten Softwarekomponenten in einem Computersystem. Im Gegensatz zu den meisten anderen Programmen verarbeitet er dynamische Inhalte aus dem Internet in Echtzeit, was grundsätzlich unzuverlässig ist. Wenn eine Website geladen wird, führt der Browser Remote-Code aus, der über die Rendering Engine direkt mit Ihrem System interagiert.
+Der Webbrowser ist eine der am meisten beanspruchten Softwarekomponenten in einem Computersystem. Im Gegensatz zu den meisten anderen Programmen verarbeitet er dynamische Inhalte aus dem Internet in Echtzeit, was grundsätzlich unzuverlässig ist. Wenn eine Website geladen wird, führt der Browser Remote-Code aus, der über die Rendering Engine direkt mit deinem System interagiert.
 
 
 
-Diese technische Komplexität in Verbindung mit einer massiven Angriffsfläche macht den Browser zu einem vorrangigen Ziel für Angreifer. Kritische Schwachstellen in Rendering-Engines (wie Blink oder Gecko), Bildanalysebibliotheken oder Speichermanagern können so genannte "Zero-Click"-Angriffe (einfach eine mit Fallen versehene Website besuchen und schon ist der Rechner kompromittiert) oder "Zero-Day"-Angriffe (dem Hersteller unbekannte Schwachstelle) ermöglichen.
+Diese technische Komplexität in Verbindung mit einer massiven Angriffsfläche macht den Browser zu einem vorrangigen Ziel für Angreifer. Kritische Schwachstellen in Rendering-Engines (wie Blink oder Gecko), Bildanalysebibliotheken oder Speichermanager können so genannte "Zero-Click"-Angriffe (einfach eine mit Fallen versehene Website besuchen und schon ist der Rechner kompromittiert) oder "Zero-Day"-Angriffe (dem Hersteller unbekannte Schwachstelle) ermöglichen.
 
 
 
@@ -5977,13 +5874,13 @@ Um diese Risiken zu verringern, veröffentlichen die Browserhersteller sehr häu
 
 
 
-Es ist daher zwingend erforderlich:
+Folgendes ist daher zwingend erforderlich:
 
 
 
 
-- aktivieren Sie automatische Updates für Ihren Browser und überprüfen Sie regelmäßig manuell, ob Updates verfügbar sind;
-- oder, wenn Sie eine manuell gepackte Version verwenden (z. B. über `apt`, `flatpak` oder `snap` unter Linux), aktualisieren Sie das gesamte System regelmäßig über Ihren Paketmanager.
+- aktiviere automatische Updates für deinen Browser und überprüfe regelmässig manuell, ob Updates verfügbar sind;
+- oder, wenn du eine manuell gepackte Version verwendest (z.B. über `apt`, `flatpak` oder `snap` unter Linux), aktualisiere das gesamte System regelmässig über deinen Paketmanager.
 
 
 
@@ -5992,8 +5889,8 @@ Um die Version manuell zu prüfen und eine Aktualisierung auszulösen:
 
 
 
-- in Firefox: menü > Einstellungen > Firefox Updates";
-- kommandozeile unter Linux (`apt`-Pakete):
+- in Firefox: Menü > Einstellungen > Firefox Updates";
+- Kommandozeile unter Linux (`apt`-Pakete):
 
 
 
@@ -6003,11 +5900,11 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-Die Aktualisierung Ihres Browsers, Ihrer Software und Ihres Betriebssystems ist einer der ersten konkreten Schritte, die Sie im Bereich der Cybersicherheit unternehmen können.
+Die Aktualisierung deines Browsers, deiner Software und deines Betriebssystems ist einer der ersten konkreten Schritte, die du im Bereich der Cybersicherheit unternehmen kannst.
 
 
 
-### Verwenden Sie sichere, eindeutige Passwörter
+### Verwende sichere, eindeutige Passwörter
 
 
 
@@ -6019,11 +5916,11 @@ Der erste Grundsatz bei Passwörtern ist, sie nicht wiederzuverwenden. Jedes Onl
 
 
 
-Wenn Sie beispielsweise dasselbe Kennwort für eine Videospielplattform und für Ihr E-Mail-Konto verwenden und dieses Kennwort über eine mit der Spieleplattform verknüpfte Phishing-Website kompromittiert wird, könnte der Angreifer dann problemlos auf Ihr E-Mail-Konto zugreifen und die Kontrolle über alle Ihre anderen Online-Konten übernehmen.
+Wenn du beispielsweise dasselbe Kennwort für eine Videospielplattform und für dein E-Mail-Konto verwendest und dieses Kennwort über eine mit der Spieleplattform verknüpfte Phishing-Website kompromittiert wird, könnte der Angreifer dann problemlos auf dein E-Mail-Konto zugreifen und die Kontrolle über alle deine anderen Online-Konten übernehmen.
 
 
 
-Der zweite wichtige Grundsatz ist ein sicheres Passwort. Ein Passwort gilt als sicher, wenn es schwer zu knacken ist, d.h. durch Ausprobieren gefunden werden kann. Das bedeutet, dass Ihre Passwörter so zufällig wie möglich sein sollten, lang und eine Vielzahl von Zeichen enthalten sollten (Klein- und Großbuchstaben, Zahlen und Symbole).
+Der zweite wichtige Grundsatz ist ein sicheres Passwort. Ein Passwort gilt als sicher, wenn es schwer zu knacken ist, d.h. durch Ausprobieren gefunden werden kann. Das bedeutet, dass deine Passwörter so zufällig wie möglich sein sollten, lang und eine Vielzahl von Zeichen enthalten sollten (Klein- und Grossbuchstaben, Zahlen und Symbole).
 
 
 
@@ -6031,7 +5928,7 @@ Die Anwendung dieser beiden Grundsätze der Passwortsicherheit (Einzigartigkeit 
 
 
 
-Ein Passwort-Manager generiert und speichert sichere Passwörter, mit denen Sie auf alle Ihre Online-Konten zugreifen können, ohne sie sich einzeln merken zu müssen. Sie müssen sich nur ein einziges Passwort merken, das Master-Passwort, mit dem Sie Zugriff auf alle im Manager gespeicherten Passwörter haben. Die Verwendung eines Passwortmanagers stärkt Ihre Online-Sicherheit, da er die Wiederverwendung von Passwörtern verhindert und systematisch Zufallspasswörter generiert.
+Ein Passwort-Manager generiert und speichert sichere Passwörter, mit denen du auf alle deine Online-Konten zugreifen kannst, ohne sie sich einzeln merken zu müssen. Du musst dir nur ein einziges Passwort merken, das Master-Passwort, mit dem du Zugriff auf alle im Manager gespeicherten Passwörter hast. Die Verwendung eines Passwortmanagers stärkt deine Online-Sicherheit, da er die Wiederverwendung von Passwörtern verhindert und systematisch Zufallspasswörter generiert.
 
 
 
@@ -6039,11 +5936,11 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Die Verwendung eines Passwortmanagers hat eine Reihe von Vorteilen: Er vereinfacht Ihr tägliches Leben, da Sie sich nicht mehr eine Vielzahl von Passwörtern merken müssen, und minimiert die größte Schwachstelle bei der Authentifizierung: den Benutzer selbst.
+Die Verwendung eines Passwortmanagers hat eine Reihe von Vorteilen: Er vereinfacht dein tägliches Leben, da du dir nicht mehr eine Vielzahl von Passwörtern merken musst, und minimiert die grösste Schwachstelle bei der Authentifizierung: den Benutzer selbst.
 
 
 
-Bei der Authentifizierung muss die Verwendung eines Passwortmanagers durch eine Zwei-Faktor-Authentifizierungslösung (2FA) ergänzt werden, die für alle Konten verwendet werden muss, die sie unterstützen. Idealerweise sollten Sie eine spezielle Anwendung oder noch besser ein physisches Gerät wie ein Yubikey verwenden.
+Bei der Authentifizierung muss die Verwendung eines Passwortmanagers durch eine Zwei-Faktor-Authentifizierungslösung (2FA) ergänzt werden, die für alle Konten verwendet werden muss, die sie unterstützen. Idealerweise solltest du eine spezielle Anwendung oder noch besser ein physisches Gerät wie ein Yubikey verwenden.
 
 
 
@@ -6059,11 +5956,11 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 
 
 
-Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwerkverkehr zwischen Ihrem Gerät und einem Zwischenserver verschlüsselt. Dieser Server fungiert als Gateway und leitet alle Ihre Verbindungen zum Internet um. Dadurch sieht Ihr Internetanbieter nur den verschlüsselten Datenverkehr, der für das VPN bestimmt ist, und die von Ihnen besuchten Websites sehen nur die IP Address des VPN-Servers, nicht Ihre.
+Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwerkverkehr zwischen deinem Gerät und einem Zwischenserver verschlüsselt. Dieser Server fungiert als Gateway und leitet alle deine Verbindungen zum Internet um. Dadurch sieht dein Internetanbieter nur den verschlüsselten Datenverkehr, der für das VPN bestimmt ist, und die von dir besuchten Websites sehen nur die IP-Adresse des VPN-Servers, nicht deine.
 
 
 
-Die Verwendung eines VPN hat mehrere Vorteile. Es schützt Ihr Surfen in unsicheren Netzwerken (z. B. öffentliches WLAN in Flughäfen oder Hotels), indem es Dritte daran hindert, Ihre Daten abzufangen. Es verbirgt auch Ihre echte IP Address, was nützlich sein kann, um eine grundlegende Verfolgung zu vermeiden oder eine Verbindung aus einem anderen Land zu simulieren. Nicht zuletzt ist ein VPN ein Werkzeug zur Umgehung der Zensur. In Umgebungen, in denen der Zugang zu bestimmten Inhalten auf ISP-Ebene blockiert ist, können Sie durch Umleitung Ihres Datenverkehrs zu einem VPN-Server in einem ungefilterten Land wieder freien Zugang erhalten.
+Die Verwendung eines VPN hat mehrere Vorteile. Es schützt dein Surfen in unsicheren Netzwerken (z.B. öffentliches WLAN in Flughäfen oder Hotels), indem es Dritte daran hindert, deine Daten abzufangen. Es verbirgt auch deine echte IP Adresse, was nützlich sein kann, um eine grundlegende Verfolgung zu vermeiden oder eine Verbindung aus einem anderen Land zu simulieren. Nicht zuletzt ist ein VPN ein Werkzeug zur Umgehung der Zensur. In Umgebungen, in denen der Zugang zu bestimmten Inhalten auf ISP-Ebene blockiert ist, kannst du durch Umleitung deines Datenverkehrs zu einem VPN-Server in einem ungefilterten Land wieder freien Zugang erhalten.
 
 
 
@@ -6071,15 +5968,15 @@ Die Verwendung eines VPN hat mehrere Vorteile. Es schützt Ihr Surfen in unsiche
 
 
 
-Andererseits bietet ein VPN entgegen der landläufigen Meinung keine Anonymität. Der VPN-Anbieter kennt Ihre echte IP Address, kann Ihre Verbindungen aufzeichnen und wird zu einer vertrauenswürdigen dritten Partei. Sie übertragen Ihre gesamten Online-Aktivitäten an ihn. Wenn der Anbieter böswillig ist, verbindlichen rechtlichen Verpflichtungen unterliegt oder technisch nachlässig ist, können Ihre Daten offengelegt werden.
+Andererseits bietet ein VPN entgegen der landläufigen Meinung keine Anonymität. Der VPN-Anbieter kennt deine echte IP-Adresse, kann deine Verbindungen aufzeichnen und wird zu einer vertrauenswürdigen dritten Partei. Du überträgst deine gesamten Online-Aktivitäten an ihn. Wenn der Anbieter böswillig ist, verbindlichen rechtlichen Verpflichtungen unterliegt oder technisch nachlässig ist, können deine Daten offengelegt werden.
 
 
 
-Darüber hinaus bietet ein VPN keinen Schutz vor Malware, JavaScript-Tracking oder Cookies von Drittanbietern. Wenn Sie in Ihrem Google- oder Facebook-Konto eingeloggt sind, verhindert ein VPN nicht, dass diese Plattformen Sie genau identifizieren können. VPNs filtern auch keine Inhalte und können nicht verhindern, dass Sie über eine Sicherheitslücke im Browser von einer mit Fallen versehenen Seite angegriffen werden.
+Darüber hinaus bietet ein VPN keinen Schutz vor Malware, JavaScript-Tracking oder Cookies von Drittanbietern. Wenn du in deinem Google- oder Facebook-Konto eingeloggt bist, verhindert ein VPN nicht, dass diese Plattformen dich genau identifizieren können. VPNs filtern auch keine Inhalte und können nicht verhindern, dass du über eine Sicherheitslücke im Browser von einer mit Fallen versehenen Seite angegriffen wirst.
 
 
 
-Außerdem sollten VPN-Tools nicht mit dem Tor-Netzwerk verwechselt werden, das ein dezentrales Netzwerk aus verschlüsselten Relais ist und eine viel stärkere Anonymität garantiert. Tor ist zwar langsamer, aber viel robuster gegen globale Überwachung als ein VPN.
+Ausserdem sollten VPN-Tools nicht mit dem Tor-Netzwerk verwechselt werden, das ein dezentrales Netzwerk aus verschlüsselten Relais ist und eine viel stärkere Anonymität garantiert. Tor ist zwar langsamer, aber viel robuster gegen globale Überwachung als ein VPN.
 
 
 
@@ -6097,46 +5994,46 @@ Hochkarätige VPNs sollten vermieden werden. Trotz ihres aggressiven Marketings 
 
 
 
-### Regelmäßig Verlauf und Cookies löschen
+### Regelmässig Verlauf und Cookies löschen
 
 
 
-Jede Website, die Sie besuchen, speichert lokal auf Ihrem Computer Sitzungsdaten, von denen es zwei Hauptarten gibt: den Browserverlauf und Cookies.
+Jede Website, die du besuchst, speichert lokal auf deinem Computer Sitzungsdaten, von denen es zwei Hauptarten gibt: den Browserverlauf und Cookies.
 
 
 
-Der Verlauf ist eine einfache lokale Datenbank, in der alle besuchten Seiten mit Datum, Titel und manchmal auch der Uhrzeit des Besuchs aufgeführt sind. Das macht es einfach, eine zuvor geöffnete Seite zu finden. Andererseits werden dadurch alle Ihre Online-Suchen für jeden sichtbar, der Zugriff auf Ihre Sitzung hat (einschließlich bösartiger Software oder neugieriger Verwandter).
+Der Verlauf ist eine einfache lokale Datenbank, in der alle besuchten Seiten mit Datum, Titel und manchmal auch der Uhrzeit des Besuchs aufgeführt sind. Das macht es einfach, eine zuvor geöffnete Seite zu finden. Andererseits werden dadurch alle deine Online-Suchen für jeden sichtbar, der Zugriff auf deine Sitzung hat (einschliesslich bösartiger Software oder neugieriger Verwandter).
 
 
 
-Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an Ihre Sitzung zu erinnern (z. B. um mit einer Website verbunden zu bleiben), Ihre Präferenzen zu speichern oder Ihr Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d. h. für das ordnungsgemäße Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie Ihre Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
+Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an deine Sitzung zu erinnern (z.B. um mit einer Website verbunden zu bleiben), deine Präferenzen zu speichern oder dein Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d.h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie deine Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
 
 
 
-Die regelmäßige Bereinigung dieser lokalen Daten ist eine einfache, aber wirksame Methode, um das Tracking einzuschränken und Ihre Privatsphäre zu schützen. Die meisten Browser bieten Optionen für:
-
-
-
-
-- entweder Sie löschen diese Daten manuell (in den Einstellungen);
-- entweder für eine automatische Löschung bei jedem Schließen des Browsers oder für einen bestimmten Zeitraum (ich empfehle diese Option);
-- entweder um temporäre Sitzungen über einen privaten Browsing-Modus zu starten (mehr dazu im nächsten Abschnitt).
-
-
-
-In Firefox zum Beispiel können Sie die automatische Löschung über Einstellungen > Datenschutz und Sicherheit konfigurieren.
-
-
-
-Denken Sie jedoch daran, dass das einfache Löschen von Cookies nicht ausreicht, um Ihre Privatsphäre zu schützen: Es gibt andere, fortschrittlichere Verfolgungstechniken wie das Fingerprinting (ein eindeutiger Fingerabdruck Ihres Browsers, Ihrer Hardware, Ihrer IP-Adresse, Ihrer Nutzung usw.), die zusätzliche Maßnahmen erfordern, um sie zu umgehen:
+Die regelmässige Bereinigung dieser lokalen Daten ist eine einfache, aber wirksame Methode, um das Tracking einzuschränken und deine Privatsphäre zu schützen. Die meisten Browser bieten folgende Optionen:
 
 
 
 
-- Verwenden Sie einen Browser, der von Haus aus gegen Fingerabdrücke geschützt ist: Tor-Browser und Mullvad-Browser sind dafür am besten geeignet, ansonsten sind LibreWolf, Brave oder Firefox mit manueller Härtung weitere gute Optionen;
-- Begrenzen oder blockieren Sie JavaScript wann immer möglich;
-- Vermeiden Sie nicht unbedingt notwendige Erweiterungen;
-- Im Allgemeinen sollten Sie ein gewöhnliches, einheitliches Profil annehmen, um sich besser zu integrieren und die Möglichkeiten der Identifizierung zu begrenzen.
+- entweder du löschst diese Daten manuell (in den Einstellungen);
+- oder du aktivierst das automatische Löschung bei jedem Schliessen des Browsers oder für einen bestimmten Zeitraum (ich empfehle diese Option);
+- oder du startest temporäre Sitzungen über einen privaten Browsing-Modus (mehr dazu im nächsten Abschnitt).
+
+
+
+In Firefox zum Beispiel kannst du die automatische Löschung über Einstellungen > Datenschutz und Sicherheit konfigurieren.
+
+
+
+Denke jedoch daran, dass das einfache Löschen von Cookies nicht ausreicht, um deine Privatsphäre zu schützen: Es gibt andere, fortschrittlichere Verfolgungstechniken wie das Fingerprinting (ein eindeutiger Fingerabdruck deines Browsers, deiner Hardware, deiner IP-Adresse, deiner Nutzung usw.), die zusätzliche Massnahmen erfordern, um sie zu umgehen:
+
+
+
+
+- Verwende einen Browser, der von Haus aus gegen Fingerabdrücke geschützt ist: Tor-Browser und Mullvad-Browser sind dafür am besten geeignet, ansonsten sind LibreWolf, Brave oder Firefox mit manueller Härtung weitere gute Optionen;
+- Begrenze oder blockiere JavaScript wann immer möglich;
+- Vermeide nicht unbedingt notwendige Erweiterungen;
+- Im Allgemeinen solltest du ein gewöhnliches, einheitliches Profil annehmen, um sich besser zu integrieren und die Möglichkeiten der Identifizierung zu begrenzen.
 
 
 
@@ -6144,27 +6041,27 @@ Denken Sie jedoch daran, dass das einfache Löschen von Cookies nicht ausreicht,
 
 
 
-Der Modus für privates Surfen, der in allen modernen Browsern (Firefox, Chrome, Brave, Safari...) verfügbar ist, wird oft missverstanden. Er ist weder ein Anonymisierungswerkzeug noch ein Schutz gegen Online-Tracking. Dieser Modus beschränkt lediglich die Aufzeichnung von lokalen Daten auf Ihrem Computer während der aktiven Sitzung.
+Der Modus für privates Surfen, der in allen modernen Browsern (Firefox, Chrome, Brave, Safari...) verfügbar ist, wird oft missverstanden. Er ist weder ein Anonymisierungswerkzeug noch ein Schutz gegen Online-Tracking. Dieser Modus beschränkt lediglich die Aufzeichnung von lokalen Daten auf deinem Computer während der aktiven Sitzung.
 
 
 
-Konkret: Wenn Sie ein Fenster im privaten Browser öffnen:
+Konkret: Wenn du ein Fenster im privaten Browser öffnest:
 
 
 
 
-- der Browserverlauf wird nicht lokal auf Ihrem Gerät gespeichert;
+- der Browserverlauf wird nicht lokal auf deinem Gerät gespeichert;
 - die während der Sitzung erstellten Cookies werden automatisch gelöscht, wenn das Fenster geschlossen wird;
-- formulardaten (ausgefüllte Felder, Passwörter) werden nicht gespeichert;
-- temporäre Dateien, die mit Webseiten verknüpft sind, werden nach dem Schließen gelöscht.
+- Formulardaten (ausgefüllte Felder, Passwörter) werden nicht gespeichert;
+- temporäre Dateien, die mit Webseiten verknüpft sind, werden nach dem Schliessen gelöscht.
 
 
 
-Dieser Modus verbirgt jedoch nicht Ihre Online-Aktivitäten: Die von Ihnen besuchten Websites sehen immer noch Ihre öffentliche IP Address, können immer noch Fingerprinting-Techniken ausnutzen, und Ihr ISP oder jeder in Ihrem lokalen Netzwerk kann immer noch die von Ihnen besuchten Websites sehen.
+Dieser Modus verbirgt jedoch nicht deine Online-Aktivitäten: Die von dir besuchten Websites sehen immer noch deine öffentliche IP-Adresse, können immer noch Fingerprinting-Techniken ausnutzen, und dein ISP oder jeder in deinem lokalen Netzwerk kann immer noch die von dir besuchten Websites sehen.
 
 
 
-Daher ist es wichtig, privates Surfen nicht mit Anonymität zu verwechseln. Um Ihre Online-Privatsphäre besser zu schützen, müssen Sie je nach Bedrohungsgrad ergänzende Tools wie Tor oder ein gutes VPN verwenden.
+Daher ist es wichtig, privates Surfen nicht mit Anonymität zu verwechseln. Um deine Online-Privatsphäre besser zu schützen, musst du je nach Bedrohungsgrad ergänzende Tools wie Tor oder ein gutes VPN verwenden.
 
 
 
@@ -6190,99 +6087,98 @@ Um diese Angriffe beim Surfen im Internet zu vermeiden, ist es wichtig, bestimmt
 
 
 
-- **Analysieren Sie die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z. B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfen Sie, ob der Address genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
+- **Analysiere die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z.B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfe, ob die Adresse genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
 
 
 
 
 
-- **Vermeiden Sie verkürzte Links**: Dienste wie `bit.ly` oder `t.co` können den endgültigen Address verschleiern. Wenn Sie einen verkürzten Link erhalten, seien Sie misstrauisch oder verwenden Sie einen URL-Erweiterungsdienst, um das Ziel zu überprüfen.
+- **Vermeide verkürzte Links**: Dienste wie `bit.ly` oder `t.co` können die endgültige Adresse verschleiern. Wenn du einen verkürzten Link erhältst, sei misstrauisch oder verwende einen URL-Erweiterungsdienst, um das Ziel zu überprüfen.
 
 
 
 
 
-- **Hüten Sie sich vor alarmistischen Nachrichten**: Phishing-Versuche nutzen oft starke Emotionen aus (Dringlichkeit, Bedrohung, Belohnung, Neugier...). Eine E-Mail, in der behauptet wird, dass Ihr Konto demnächst gesperrt wird oder dass ein Paket nicht zugestellt werden kann, ist natürlich verdächtig.
+- **Hüte dich vor alarmistischen Nachrichten**: Phishing-Versuche nutzen oft starke Emotionen aus (Dringlichkeit, Bedrohung, Belohnung, Neugier...). Eine E-Mail, in der behauptet wird, dass dein Konto demnächst gesperrt wird oder dass ein Paket nicht zugestellt werden kann, ist natürlich verdächtig.
 
 
 
 
 
-- **Übermitteln Sie niemals sensible Informationen über einen empfangenen Link**: Ein seriöses Institut wird Sie niemals über eine einfache E-Mail oder SMS nach einem Passwort, einem Authentifizierungscode oder einer eingescannten Kopie Ihres Ausweises fragen.
+- **Übermittle niemals sensible Informationen über einen empfangenen Link**: Ein seriöses Institut wird dich niemals über eine einfache E-Mail oder SMS nach einem Passwort, einem Authentifizierungscode oder einer eingescannten Kopie deines Ausweises fragen.
 
 
 
-Und hier sind ein paar Präventivmaßnahmen, die Sie direkt in Ihrem Browser implementieren können, um das Risiko von Phishing zu minimieren:
-
-
-
-
-
-- **Zugriff auf wichtige Websites über Ihre Lesezeichen**:
-
-
-
-Speichern Sie bei wichtigen Diensten (Bank, Finanzamt, E-Mail usw.) und generell bei allen Websites, die Sie regelmäßig nutzen, die offizielle URL in Ihren Lesezeichen und verwenden Sie niemals eine Suchmaschine oder einen externen Link, um dorthin zu gelangen.
-
-
-
-Haben Sie eine E-Mail vom Finanzamt erhalten, die einen Link enthält? Klicken Sie ihn nicht an. Gehen Sie stattdessen direkt zu Ihrem persönlichen Bereich und verwenden Sie die URL, die Sie in Ihren Lesezeichen gespeichert haben. Heutzutage bieten alle modernen Browser eine Lesezeichenleiste mit der Möglichkeit, Ihre Links in Ordnern zu ordnen. Nehmen Sie sich die Zeit, dies einmal zu tun und die URL und das SSL/TLS-Zertifikat sorgfältig zu prüfen, und Sie werden sicherer surfen können.
+Und hier sind ein paar Präventivmassnahmen, die du direkt in deinem Browser implementieren kannst, um das Risiko von Phishing zu minimieren:
 
 
 
 
 
-- **Respektieren Sie gute Authentifizierungspraktiken**:
+- **Zugriff auf wichtige Websites über deine Lesezeichen**:
 
 
 
-Außerdem ist es wichtig, gute Authentifizierungspraktiken zu befolgen, um die möglichen Auswirkungen eines Phishing-Angriffs zu begrenzen. Die beiden wichtigsten Regeln sind die Verwendung eindeutiger Passwörter für jeden Dienst und die Aktivierung von 2FA.
+Speichere bei wichtigen Diensten (Bank, Finanzamt, E-Mail usw.) und generell bei allen Websites, die du regelmässig nutzt, die offizielle URL in deinen Lesezeichen und verwende niemals eine Suchmaschine oder einen externen Link, um dorthin zu gelangen.
 
 
 
-Nehmen wir ein Beispiel: Wenn es einem Angreifer gelingt, das Passwort für Ihr Steam-Konto zu erlangen, Sie aber für jedes Ihrer Konten ein anderes Passwort verwenden, kann er nicht auf sensiblere Dienste wie Ihre E-Mails oder Bankgeschäfte zugreifen. Und wenn Sie die Zwei-Faktor-Authentifizierung (2FA) aktiviert haben, kann sich der Angreifer auch mit dem Passwort nicht anmelden, da er keinen Zugang zu Ihrer TOTP-Anwendung (wie Authy, Google Authenticator...) hat.
-
-
-
-Zusätzlich zu diesen Maßnahmen kann die Verwendung eines guten Passwortmanagers als Browsererweiterung Sie auch vor gefälschten Websites schützen. Die meisten dieser Erweiterungen erkennen eine verdächtige URL und weigern sich, Ihre Anmeldedaten automatisch auszufüllen, oder weisen Sie sogar darauf hin, damit Sie nicht versehentlich Ihre Zugangsdaten preisgeben.
+Hast du eine E-Mail vom Finanzamt erhalten, die einen Link enthält? Klicke ihn nicht an. Gehe stattdessen direkt zu deinem persönlichen Bereich und verwende die URL, die du in deinen Lesezeichen gespeichert hast. Heutzutage bieten alle modernen Browser eine Lesezeichenleiste mit der Möglichkeit, deine Links in Ordnern zu ordnen. Nimm dir die Zeit, dies einmal zu tun und die URL und das SSL/TLS-Zertifikat sorgfältig zu prüfen, und du wirst sicherer surfen können.
 
 
 
 
 
-- Überprüfen Sie **SSL/TLS-Zertifikate**:
+- **Respektiere gute Authentifizierungspraktiken** :
 
 
 
-Das Vorhängeschloss-Symbol in der Address-Leiste zeigt eine verschlüsselte Verbindung an, garantiert aber nicht die Legitimität der Website. Klicken Sie darauf, um das Zertifikat zu prüfen (Organisation, Domäne, Zertifizierungsstelle). Dies kann hilfreich sein, wenn Sie Zweifel an der URL einer Website haben.
+Ausserdem ist es wichtig, gute Authentifizierungspraktiken zu befolgen, um die möglichen Auswirkungen eines Phishing-Angriffs zu begrenzen. Die beiden wichtigsten Regeln sind die Verwendung eindeutiger Passwörter für jeden Dienst und die Aktivierung von 2FA.
 
 
 
-Phishing funktioniert nur, wenn Sie zu schnell klicken. Machen Sie es sich zur Gewohnheit, jeden Link, den Sie erhalten, systematisch zu überprüfen, selbst wenn es sich um eine Ihnen bekannte Website handelt. Wenn Sie sich die Zeit nehmen, URLs sorgfältig zu prüfen und zu verifizieren, selbst wenn sie Ihnen bekannt sind, ist dies eine der besten Abwehrmaßnahmen gegen diese Art von Angriffen.
+Nehmen wir ein Beispiel: Wenn es einem Angreifer gelingt, das Passwort für dein Steam-Konto zu erlangen, du aber für jedes deiner Konten ein anderes Passwort verwendest, kann er nicht auf sensiblere Dienste wie deine E-Mails oder Bankgeschäfte zugreifen. Und wenn du die Zwei-Faktor-Authentifizierung (2FA) aktiviert hast, kann sich der Angreifer auch mit dem Passwort nicht anmelden, da er keinen Zugang zu deiner TOTP-Anwendung (wie Authy, Google Authenticator...) hat.
 
+
+
+Zusätzlich zu diesen Massnahmen kann die Verwendung eines guten Passwortmanagers als Browsererweiterung dich auch vor gefälschten Websites schützen. Die meisten dieser Erweiterungen erkennen eine verdächtige URL und weigern sich, deine Anmeldedaten automatisch auszufüllen, oder weisen dich sogar darauf hin, damit du nicht versehentlich deine Zugangsdaten preisgibst.
+
+
+
+
+
+- **Überprüfe SSL/TLS-Zertifikate**:
+
+
+
+Das Vorhängeschloss-Symbol in der Adress-Leiste zeigt eine verschlüsselte Verbindung an, garantiert aber nicht die Legitimität der Website. Klicke darauf, um das Zertifikat zu prüfen (Organisation, Domäne, Zertifizierungsstelle). Dies kann hilfreich sein, wenn du Zweifel an der URL einer Website hast.
+
+
+
+Phishing funktioniert nur, wenn du zu schnell klickst. Mach dir zur Gewohnheit, jeden Link, den du erhältst, systematisch zu überprüfen, selbst wenn es sich um eine dir bekannte Website handelt. Wenn du dir die Zeit nimmst, URLs sorgfältig zu prüfen und zu verifizieren, selbst wenn sie dir bekannt sind, ist dies eine der besten Abwehrmassnahmen gegen diese Art von Angriffen.
 
 
 ### Installierte Erweiterungen prüfen
 
 
 
-Browser-Erweiterungen sind Module, die zusätzliche Funktionen bieten (Werbeblocker, Übersetzung, Notizen, Passwortmanager, Bitcoin-Geldbörsen usw.). Sie werden direkt in der Browserumgebung ausgeführt und können auf alle oder einen Teil der von Ihnen besuchten Seiten zugreifen. Das macht sie leistungsfähig, aber auch potenziell gefährlich.
+Browser-Erweiterungen sind Module, die zusätzliche Funktionen bieten (Werbeblocker, Übersetzung, Notizen, Passwortmanager, Bitcoin-Geldbörsen usw.). Sie werden direkt in der Browserumgebung ausgeführt und können auf alle oder einen Teil der von dir besuchten Seiten zugreifen. Das macht sie leistungsfähig, aber auch potenziell gefährlich.
 
 
 
-Eine bösartige oder kompromittierte Erweiterung kann Ihre persönlichen Daten abfangen, den Inhalt lesen, Code in Webseiten einfügen oder sogar JavaScript im Hintergrund ausführen. Einige Erweiterungen behalten permanenten Zugriff auf offene Registerkarten oder den Browserverlauf, weit über das hinaus, was für ihren Betrieb notwendig ist.
+Eine bösartige oder kompromittierte Erweiterung kann deine persönlichen Daten abfangen, den Inhalt lesen, Code in Webseiten einfügen oder sogar JavaScript im Hintergrund ausführen. Einige Erweiterungen behalten permanenten Zugriff auf offene Registerkarten oder den Browserverlauf, weit über das hinaus, was für ihren Betrieb notwendig ist.
 
 
 
-Um diese Risiken zu begrenzen, installieren Sie nur Erweiterungen aus offiziellen Quellen (Mozilla Add-ons), überprüfen Sie immer die angeforderten Berechtigungen und beschränken Sie ihre Anzahl auf ein striktes Minimum. Löschen Sie Erweiterungen, die Sie nicht mehr verwenden, und hüten Sie sich vor Klonen.
+Um diese Risiken zu begrenzen, installiere nur Erweiterungen aus offiziellen Quellen (Mozilla Add-ons), überprüfe immer die angeforderten Berechtigungen und beschränke ihre Anzahl auf ein striktes Minimum. Lösche Erweiterungen, die du nicht mehr verwendest, und hüte dich vor Klonen.
 
 
 
-Die regelmäßige Überprüfung Ihrer Erweiterungen ist ein wichtiger Bestandteil der Sicherheit Ihres Browsers.
+Die regelmässige Überprüfung deiner Erweiterungen ist ein wichtiger Bestandteil der Sicherheit deines Browsers.
 
 
 
-### Trennen Sie Ihre Webanwendungen
+### Trenne deine Webanwendungen
 
 
 
@@ -6290,25 +6186,26 @@ Die Aufteilung der Aktivitäten ist eine wichtige Praxis, um die Reichweite eine
 
 
 
-Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z. B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) Ihre gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
+Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z.B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) deine gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
 
 
 
 
 
-- Verwenden Sie mehrere verschiedene Browser: zum Beispiel Firefox für den privaten Gebrauch, Tor oder Mullvad für sensible Aktivitäten und Chromium für professionelle Aufgaben. Jeder Browser verwendet eine eigene Speicherinstanz, die Cookies, Sitzungen und Erweiterungen vollständig isoliert. So können Sie die Browsereinstellungen auf Ihre spezifischen Anwendungsfälle abstimmen.
+- **Verwende mehrere verschiedene Browser**: zum Beispiel Firefox für den privaten Gebrauch, Tor oder Mullvad für sensible Aktivitäten und Chromium für professionelle Aufgaben. Jeder Browser verwendet eine eigene Speicherinstanz, die Cookies, Sitzungen und Erweiterungen vollständig isoliert. So kannst du die Browsereinstellungen auf deine spezifischen Anwendungsfälle abstimmen.
 
 
 
 
 
-- **Erstellen Sie mehrere Profile in einem einzigen Browser**: Einige Browser ermöglichen es Ihnen, unabhängige Profile zu erstellen, jedes mit seinem eigenen Verlauf, seinen Sitzungen, Erweiterungen und Einstellungen. Dies ist eine etwas weniger restriktive Lösung als die Verwendung mehrerer separater Browser, aber immer noch weniger effektiv.
+- **Erstelle mehrere Profile in einem einzigen Browser**: Einige Browser ermöglichen es dir, unabhängige Profile zu erstellen, jedes mit seinem eigenen Verlauf, seinen Sitzungen, Erweiterungen und Einstellungen. Dies ist eine etwas weniger restriktive Lösung als die Verwendung mehrerer separater Browser, aber immer noch weniger effektiv.
 
 
 
 
 
-- **Verwenden Sie integrierte Container**: Firefox bietet die [Multi-Account Containers]-Erweiterung (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mit der Sie separate Registerkarten öffnen können, jede mit eigenem Login und eigenen Cookies. Sie können auch bestimmte Websites automatisch einem bestimmten Container zuweisen, um sie bei jedem Öffnen getrennt zu halten.
+- **Verwende integrierte Container**: Firefox bietet die [Multi-Account Containers]-Erweiterung (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mit der du separate Registerkarten öffnen kannst, jede mit eigenem Login und eigenen Cookies. 
+Du kannst auch bestimmte Websites automatisch einem bestimmten Container zuweisen, um sie bei jedem Öffnen getrennt zu halten.
 
 
 
@@ -6318,7 +6215,7 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-- **Verwenden Sie eine isolierte Systemumgebung**: Bei besonders sensiblen Anwendungen können Sie Ihren Browser auch innerhalb einer virtuellen Maschine oder eines Docker-Containers ausführen, um ihn vollständig von Ihrer Hauptumgebung zu trennen.
+- **Verwende eine isolierte Systemumgebung**: Bei besonders sensiblen Anwendungen kannst du deinen Browser auch innerhalb einer virtuellen Maschine oder eines Docker-Containers ausführen, um ihn vollständig von deiner Hauptumgebung zu trennen.
 
 
 
@@ -6326,22 +6223,18 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-Moderne Browser ermöglichen es Websites, den Zugriff auf sensible Ressourcen auf Ihrem Gerät anzufordern, z. B. auf die Kamera, das Mikrofon, die Geolokalisierung oder Systembenachrichtigungen. Diese Funktionen sind für bestimmte Anwendungen (Videokonferenzen, interaktive Karten usw.) nützlich, aber sie öffnen auch die Tür für Missbrauch, wenn sie schlecht kontrolliert werden.
+Moderne Browser ermöglichen es Websites, den Zugriff auf sensible Ressourcen auf deinem Gerät anzufordern, z.B. auf die Kamera, das Mikrofon, die Geolokalisierung oder Systembenachrichtigungen. Diese Funktionen sind für bestimmte Anwendungen (Videokonferenzen, interaktive Karten usw.) nützlich, aber sie öffnen auch die Tür für Missbrauch, wenn sie schlecht kontrolliert werden.
 
 
 
-Wenn eine Website Sie um Zugang zu einer dieser Ressourcen bittet, zeigt der Browser ein Pop-up-Fenster an, das Sie akzeptieren müssen. Wenn Sie jedoch einmal zustimmen, ohne sich dessen bewusst zu sein, kann diese Erlaubnis für alle Ihre zukünftigen Besuche auf dieser Website dauerhaft aktiv bleiben. Das bedeutet zum Beispiel, dass eine Website Ihr Mikrofon oder Ihre Kamera erneut aktivieren könnte, ohne Sie zu fragen, wenn Sie dieses Recht nicht manuell widerrufen haben.
-
-
-
-Für zusätzliche Sicherheit:
+Wenn eine Website dich um Zugang zu einer dieser Ressourcen bittet, zeigt der Browser ein Pop‑up‑Fenster an, das du akzeptieren musst. Wenn du jedoch einmal zustimmst, ohne dich dessen bewusst zu sein, kann diese Erlaubnis für alle deine zukünftigen Besuche auf dieser Website dauerhaft aktiv bleiben. Das bedeutet zum Beispiel, dass eine Website dein Mikrofon oder deine Kamera erneut aktivieren könnte, ohne dich zu fragen, wenn du dieses Recht nicht manuell widerrufen hast. Für zusätzliche Sicherheit:
 
 
 
 
-- Erteilen Sie Berechtigungen nur, wenn sie für eine rechtmäßige Funktion unbedingt erforderlich sind;
-- Bevorzugen Sie die Option "einmalig zulassen", falls verfügbar;
-- Manuelles Entziehen von Berechtigungen, die über die Browser-Einstellungen regelmäßig erteilt werden.
+- Erteile Berechtigungen nur, wenn sie für eine rechtmässige Funktion unbedingt erforderlich sind;
+- Bevorzuge die Option "einmalig zulassen", falls verfügbar;
+- Manuelles Entziehen von Berechtigungen, die über die Browser-Einstellungen regelmässig erteilt werden.
 
 
 
@@ -6353,22 +6246,22 @@ Für zusätzliche Sicherheit:
 
 
 
-Wann immer Sie persönliche, vertrauliche oder finanzielle Informationen an eine Website übermitteln, sei es ein Passwort, eine Kreditkartennummer oder ein einfaches Anmeldeformular, sollten Sie sicherstellen, dass die Verbindung zwischen Ihrem Browser und der Website verschlüsselt ist.
+Wann immer du persönliche, vertrauliche oder finanzielle Informationen an eine Website übermitteln, sei es ein Passwort, eine Kreditkartennummer oder ein einfaches Anmeldeformular, solltest sicherstellen, dass die Verbindung zwischen deinem Browser und der Website verschlüsselt ist.
 
 
 
-Genau das ist die Aufgabe von HTTPS (*HyperText Transfer Protocol Secure*). Dieses Protokoll basiert auf der TLS-Verschlüsselung (*Transport Layer Security*), die eine :
+Genau das ist die Aufgabe von HTTPS (*HyperText Transfer Protocol Secure*). Dieses Protokoll basiert auf der TLS-Verschlüsselung (*Transport Layer Security*). Sie bewirkt folgendes:
 
 
 
 
-- verschlüsselung der ausgetauschten Daten (niemand kann sie während der Übertragung lesen oder verändern);
-- die Authentizität des Remote-Servers über ein digitales Zertifikat zu überprüfen;
-- man-in-the-Middle-Angriffe (MITM) zu verhindern, die in öffentlichen oder kompromittierten Netzen häufig vorkommen.
+- Verschlüsselung der ausgetauschten Daten (niemand kann sie während der Übertragung lesen oder verändern);
+- überprüft die Authentizität des Remote-Servers über ein digitales Zertifikat;
+- Verhindert man-in-the-Middle-Angriffe (MITM), die in öffentlichen oder kompromittierten Netzen häufig vorkommen.
 
 
 
-Konkret wird eine HTTPS-fähige Website durch ein geschlossenes Vorhängeschloss in der Address-Leiste Ihres Browsers angezeigt, normalerweise oben links im Interface. Wenn Sie auf dieses Vorhängeschloss klicken, werden Informationen über das TLS-Zertifikat der Website angezeigt (Zertifizierungsstelle, Gültigkeitsdatum usw.). Der Address der Website beginnt außerdem systematisch mit "https://".
+Konkret wird eine HTTPS-fähige Website durch ein geschlossenes Vorhängeschloss in der Adress-Leiste deines Browsers angezeigt, normalerweise oben links im Interface. Wenn du auf dieses Vorhängeschloss klickst, werden Informationen über das TLS-Zertifikat der Website angezeigt (Zertifizierungsstelle, Gültigkeitsdatum usw.). Die Adresse der Website beginnt ausserdem systematisch mit "https://".
 
 
 
@@ -6376,15 +6269,15 @@ Konkret wird eine HTTPS-fähige Website durch ein geschlossenes Vorhängeschloss
 
 
 
-Verwendet die Website dagegen weiterhin HTTP (ohne das "S"), ist die Verbindung unverschlüsselt. Alle eingegebenen Informationen können dann von einem böswilligen Akteur abgefangen werden, der sich zwischen Ihnen und der Website befindet: Netzbetreiber, Zugangsanbieter, ein mit Fallen versehener Wi-Fi-Hotspot, lokale Malware usw.
+Verwendet die Website dagegen weiterhin HTTP (ohne das "S"), ist die Verbindung unverschlüsselt. Alle eingegebenen Informationen können dann von einem böswilligen Akteur abgefangen werden, der sich zwischen dir und der Website befindet: Netzbetreiber, Zugangsanbieter, ein mit Fallen versehener Wi-Fi-Hotspot, lokale Malware usw.
 
 
 
-Theoretisch sollten Sie diese Informationen immer manuell überprüfen, bevor Sie Daten auf einer Website eingeben. In der Praxis kennzeichnen die meisten modernen Browser HTTP-Websites automatisch als unsicher. Sie können in den Sicherheitseinstellungen Ihres Browsers auch eine Option aktivieren, um die Verwendung des HTTPS-Protokolls zu erzwingen, so dass Sie Websites blockieren können, die es nicht unterstützen.
+Theoretisch solltest du diese Informationen immer manuell überprüfen, bevor du Daten auf einer Website eingibst. In der Praxis kennzeichnen die meisten modernen Browser HTTP-Websites automatisch als unsicher. Du kannst in den Sicherheitseinstellungen deines Browsers auch eine Option aktivieren, um die Verwendung des HTTPS-Protokolls zu erzwingen, so dass du Websites blockieren kannst, die es nicht unterstützen.
 
 
 
-In der Tat sind heute nur noch sehr wenige Websites ausschließlich über HTTP zugänglich. Dieses Protokoll wird weitgehend zugunsten von HTTPS aufgegeben, nicht nur aus offensichtlichen Sicherheitsgründen, sondern auch, weil es von Suchmaschinen bestraft und von modernen Browsern als potenziell gefährlich eingestuft wird, was bei Besuchern kein Vertrauen erweckt.
+In der Tat sind heute nur noch sehr wenige Websites ausschliesslich über HTTP zugänglich. Dieses Protokoll wird weitgehend zugunsten von HTTPS aufgegeben, nicht nur aus offensichtlichen Sicherheitsgründen, sondern auch, weil es von Suchmaschinen bestraft und von modernen Browsern als potenziell gefährlich eingestuft wird, was bei Besuchern kein Vertrauen erweckt.
 
 
 
@@ -6392,7 +6285,7 @@ In der Tat sind heute nur noch sehr wenige Websites ausschließlich über HTTP z
 
 
 
-Wie wir bereits gesehen haben, ist es wichtig, zwischen zwei Elements zu unterscheiden, die oft verwechselt werden: dem Browser, der eine auf Ihrem Computer installierte Anwendung (wie Firefox oder Brave) ist und zur Anzeige von Webseiten verwendet wird, und der Suchmaschine, die ein Online-Dienst (wie Google) ist, an den Sie Anfragen senden, um Ergebnisse zu erhalten. Diese beiden Elements sind unabhängig voneinander, obwohl die Browser oft standardmäßig eine bestimmte Suchmaschine integrieren.
+Wie wir bereits gesehen haben, ist es wichtig, zwischen zwei Elementen zu unterscheiden, die oft verwechselt werden: dem Browser, der eine auf deinem Computer installierte Anwendung (wie Firefox oder Brave) ist und zur Anzeige von Webseiten verwendet wird, und der Suchmaschine, die ein Online-Dienst (wie Google) ist, an den du Anfragen sendest, um Ergebnisse zu erhalten. Diese beiden Elemente sind unabhängig voneinander, obwohl die Browser oft standardmässig eine bestimmte Suchmaschine integrieren.
 
 
 
@@ -6400,23 +6293,23 @@ Wie wir bereits gesehen haben, ist es wichtig, zwischen zwei Elements zu untersc
 
 
 
-Die von Ihnen verwendete Suchmaschine hat einen direkten Einfluss auf Ihre Privatsphäre. In der Tat kann jede Suche, die Sie durchführen, :
+Die von dir verwendete Suchmaschine hat einen direkten Einfluss auf deine Privatsphäre. In der Tat hat jede Suche, die du durchführst, folgende Resultate:
 
 
 
 
-- die mit Ihrer IP Address verbunden ist, wenn Sie nicht Tor oder ein VPN verwenden;
-- in Verbindung mit Ihrem Login und Passwort, wenn Sie mit einem Konto verbunden sind;
-- gespeichert und ausgewertet, um ein Verhaltensprofil zu erstellen;
-- für gezielte Werbung oder den Weiterverkauf an Dritte verwendet werden.
+- Sie wird mit deiner IP-Adresse verbunden, wenn du nicht Tor oder ein VPN verwendest;
+- Wird in Verbindung mit deinem Login und Passwort gesetzt, wenn du mit einem Konto verbunden bist;
+- Wird gespeichert und ausgewertet, um ein Verhaltensprofil zu erstellen;
+- Wird für gezielte Werbung oder den Weiterverkauf an Dritte verwendet.
 
 
 
-Eine Suchmaschine wie Google liefert also schnelle, relevante Ergebnisse (obwohl [einige Studien darauf hindeuten](https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/), dass Google immer weniger effektiv ist), aber auf Kosten einer systematischen Überwachung Ihrer Suchanfragen. Bing (Microsoft) und Yahoo verfolgen ein ähnliches Modell der Erfassung Ihrer Online-Aktivitäten, um ihre Werbenetzwerke zu füttern.
+Eine Suchmaschine wie Google liefert also schnelle, relevante Ergebnisse (obwohl [einige Studien darauf hindeuten](https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/), dass Google immer weniger effektiv ist), aber auf Kosten einer systematischen Überwachung deiner Suchanfragen. Bing (Microsoft) und Yahoo verfolgen ein ähnliches Modell der Erfassung deiner Online-Aktivitäten, um ihre Werbenetzwerke zu füttern.
 
 
 
-Um dieses Tracking einzuschränken, empfehlen wir Ihnen, datenschutzfreundliche Suchmaschinen zu wählen, die keine persönlichen Kennungen oder Ihren Suchverlauf speichern:
+Um dieses Tracking einzuschränken, empfehlen wir dir, datenschutzfreundliche Suchmaschinen zu wählen, die keine persönlichen Kennungen oder deinen Suchverlauf speichern:
 
 
 
@@ -6433,11 +6326,11 @@ Um dieses Tracking einzuschränken, empfehlen wir Ihnen, datenschutzfreundliche 
 
 
 
-In den meisten Browsern können Sie die Standardsuchmaschine in den Einstellungen manuell konfigurieren. So können Sie Google vermeiden, ohne Ihren Browser zu ändern.
+In den meisten Browsern kannst du die Standardsuchmaschine in den Einstellungen manuell konfigurieren. So kannst du Google vermeiden, ohne deinen Browser zu ändern.
 
 
 
-Die in diesem Kapitel vorgestellten bewährten Praktiken bilden die Grundlage für ein sicheres und souveränes Surfen. Wenn Sie sie regelmäßig anwenden, werden Sie Ihre Anfälligkeit für Bedrohungen deutlich verringern.
+Die in diesem Kapitel vorgestellten bewährten Praktiken bilden die Grundlage für ein sicheres und souveränes Surfen. Wenn du sie regelmässig anwendest, wirst du deine Anfälligkeit für Bedrohungen deutlich verringern.
 
 
 
@@ -6448,7 +6341,7 @@ Nachdem wir uns nun mit der Verwendung von Browsern und Computern beschäftigt h
 
 
 
-# Die Kontrolle über Ihr Telefon zurückgewinnen
+# Die Kontrolle über dein Telefon zurückgewinnen
 
 
 <partId>5f0ef9ad-5701-4620-89bf-eb6937adccac</partId>
@@ -6460,7 +6353,7 @@ Nachdem wir uns nun mit der Verwendung von Browsern und Computern beschäftigt h
 <chapterId>020329e9-a2cb-464b-bb4c-ee4f0e5346c6</chapterId>
 
 
-Bisher haben wir uns hauptsächlich auf die Sicherung und Nutzung Ihres Computers konzentriert. Für die meisten Menschen ist das Smartphone jedoch heute das meistgenutzte digitale Gerät im Alltag.
+Bisher haben wir uns hauptsächlich auf die Sicherung und Nutzung deines Computers konzentriert. Für die meisten Menschen ist das Smartphone jedoch heute das meistgenutzte digitale Gerät im Alltag.
 
 
 Im Gegensatz zu Computern arbeiten Mobiltelefone im Allgemeinen mit geschlossenen Systemen, die von ihren Herstellern streng kontrolliert werden. Daher schlage ich in diesem Abschnitt vor, dass wir die besonderen Herausforderungen im Zusammenhang mit mobilen Betriebssystemen untersuchen.
@@ -6475,10 +6368,10 @@ Im Gegensatz zu Computern arbeiten Mobiltelefone im Allgemeinen mit geschlossene
 Android dominiert heute den weltweiten Smartphone-Markt mit rund 72 % der im Umlauf befindlichen Geräte. Seine Entwicklung begann 2003 mit der Gründung von Android Inc. durch Andy Rubin, Rich Miner, Nick Sears und Chris White. Ihr ursprüngliches Ziel war die Entwicklung eines Betriebssystems für Digitalkameras.
 
 
-Nach mehreren Absagen von Investoren beschloss Android Inc., sein Projekt auf die Entwicklung eines mobilen Betriebssystems umzustellen. Zur Erinnerung: In den Jahren 2003 und 2004 boomte der Handymarkt, der weitgehend von Herstellern wie Nokia, Motorola, Sony Ericsson und Samsung beherrscht wurde. Bei den meisten Geräten handelte es sich um "Naturtelefone", die mit einer physischen Tastatur, einem kleinen Farbbildschirm und manchmal einer einfachen Kamera ausgestattet waren. Smartphones gab es bereits, aber sie richteten sich hauptsächlich an Profis und wurden von Marken wie BlackBerry angeboten.
+Nach mehreren Absagen von Investoren beschloss Android Inc., sein Projekt auf die Entwicklung eines mobilen Betriebssystems umzustellen. Zur Erinnerung: In den Jahren 2003 und 2004 boomte der Handymarkt, der weitgehend von Herstellern wie Nokia, Motorola, Sony Ericsson und Samsung beherrscht wurde. Bei den meisten Geräten handelte es sich um "nature phones", die mit einer physischen Tastatur, einem kleinen Farbbildschirm und manchmal einer einfachen Kamera ausgestattet waren. Smartphones gab es bereits, aber sie richteten sich hauptsächlich an Profis und wurden von Marken wie BlackBerry angeboten.
 
 
-Google kaufte Android Inc. im Jahr 2005 für rund 50 Millionen Dollar. Zwischen 2005 und 2007 entwickelte das Unternehmen sein Betriebssystem intern, ohne eine öffentliche Version zu erstellen. Während dieser Zeit gab es Gerüchte, dass Google ein mobiles Gerät vorbereitete, das möglicherweise vom BlackBerry inspiriert war, der damals schnell an Popularität gewann.
+Google kaufte Android Inc. im Jahr 2005 für rund 50 Millionen Dollar. Zwischen 2005 und 2007 entwickelte das Unternehmen sein Betriebssystem intern, ohne eine öffentliche Version zu erstellen. Während dieser Zeit gab es Gerüchte, dass Google ein mobiles Gerät vorbereitete, das möglicherweise vom BlackBerry inspiriert war, das damals schnell an Popularität gewann.
 
 
 Doch im Januar 2007 gab es ein Ereignis, das einen wichtigen Wendepunkt in der Geschichte des Smartphones markierte: Steve Jobs stellte das iPhone der ersten Generation vor. Der allgemeine Glaube, dass eine physische Tastatur unverzichtbar sei, wurde erschüttert. Mit dem iPhone wurde ein Gerät vorgestellt, das vollständig auf Berührung ausgelegt war und die Erwartungen des Marktes im Alleingang neu definierte.
@@ -6511,13 +6404,13 @@ Android erlebte einen rasanten Aufstieg: Bereits im Juli 2011 überholte es iOS 
 Das Android-Projekt basiert auf einer strukturellen Dualität. Einerseits stellt das AOSP (*Android open-source Project*) die Open-Source-Basis des Systems dar: Es umfasst den Linux-Kernel, den Systemsoftware-Stack, eine minimale Interface-Grafik und eine Reihe von APIs. Diese Basis wird unter der Apache-2.0-Lizenz veröffentlicht und bleibt für alle zugänglich. Die Umgebung, die von der Mehrheit der Android-Nutzer tatsächlich verwendet wird, basiert dagegen fast vollständig auf proprietären, von Google entwickelten Komponenten: *Google Mobile Services* (GMS).
 
 
-Diese Komponenten sind nicht quelloffen, d. h. sie können weder frei von der Gemeinschaft überprüft noch leicht ersetzt werden. Um sie legal auf ihren Geräten vorinstallieren zu können, müssen die Hersteller Lizenzvereinbarungen mit Google unterzeichnen und sich strengen technischen und kommerziellen Anforderungen unterwerfen. Zu diesen Anforderungen gehören:
+Diese Komponenten sind nicht quelloffen, d.h. sie können weder frei von der Gemeinschaft überprüft noch leicht ersetzt werden. Um sie legal auf ihren Geräten vorinstallieren zu können, müssen die Hersteller Lizenzvereinbarungen mit Google unterzeichnen und sich strengen technischen und kommerziellen Anforderungen unterwerfen. Zu diesen Anforderungen gehören:
 
 
 
 - obligatorische Integration mehrerer Google-Anwendungen als deinstallierbare Systemanwendungen
 - visuelle Hervorhebung bestimmter Anwendungen (Google-Suche, Play Store, Gemini usw.) auf dem Startbildschirm
-- ausschließliche Nutzung von Google APIs für wichtige Funktionen wie Synchronisierung, Push-Benachrichtigungen und Geolokalisierung
+- ausschliessliche Nutzung von Google APIs für wichtige Funktionen wie Synchronisierung, Push-Benachrichtigungen und Geolokalisierung
 
 
 ![Image](assets/fr/132.webp)
@@ -6550,20 +6443,20 @@ iOS basierte ursprünglich auf dem vom Mac verwendeten Betriebssystem: OS X. Es 
 
 - vollständiges Sandboxing von Anwendungen, wodurch verhindert wird, dass eine Anwendung auf die Daten oder Prozesse einer anderen Anwendung zugreift
 - obligatorische Signatur des Anwendungscodes, die die Integrität der Binärdateien und deren Herkunft garantiert (nur App Store)
-- hardware-Datenverschlüsselung direkt auf dem Chip über den *Secure Enclave*, einen vom übrigen System isolierten kryptografischen Koprozessor
+- Hardware-Datenverschlüsselung direkt auf dem Chip über den *Secure Enclave*, einen vom übrigen System isolierten kryptografischen Co-prozessor
 - schnelle Sicherheitsaktualisierungen, die direkt von Apple auf allen Geräten bereitgestellt werden, ohne zwischengeschaltete Stellen
 
 
 Diese geschlossene Architektur ermöglicht es Apple, ein flüssiges und sicheres Nutzererlebnis zu gewährleisten. Die zentrale Entwicklung erleichtert auch die Optimierung von Hardware und Software, wobei es im Gegensatz zu Android kaum Unterschiede zwischen den Modellen gibt. iOS gilt daher als eines der sichersten Systeme gegen Computerangriffe.
 
 
-#### Nachteile der Schließung von iOS
+#### Nachteile der Schliessung von iOS
 
 
 Diese Sicherheit beruht jedoch auf einer strengen Abriegelung des Endnutzers, der praktisch keine technische Kontrolle über sein Gerät hat. Es ist nicht möglich, Anwendungen anders als über den App Store zu installieren, es sei denn durch einen *Jailbreak*, einen komplexen, riskanten und oft instabilen Vorgang, der die Garantie aufhebt und die Systemsicherheit gefährdet. Dieser Grundsatz liegt auch dem Geschäftsmodell von Apple zugrunde, das eine Provision für Transaktionen mit Anwendungen von Drittanbietern verlangt.
 
 
-Auch die Anpassungsmöglichkeiten sind sehr begrenzt. Es ist nicht möglich, das Systemverhalten tiefgreifend zu verändern, die Laufzeitumgebung frei zu ändern oder direkt auf Systemdateien zuzugreifen. In der Praxis bleibt das Smartphone also auch nach dem Kauf Eigentum von Apple, da Sie nicht die volle Kontrolle darüber haben.
+Auch die Anpassungsmöglichkeiten sind sehr begrenzt. Es ist nicht möglich, das Systemverhalten tiefgreifend zu verändern, die Laufzeitumgebung frei zu ändern oder direkt auf Systemdateien zuzugreifen. In der Praxis bleibt das Smartphone also auch nach dem Kauf Eigentum von Apple, da du nicht die volle Kontrolle darüber hast.
 
 
 ![Image](assets/fr/134.webp)
@@ -6573,24 +6466,24 @@ Darüber hinaus setzt die obligatorische Integration von iCloud in die meisten D
 
 
 
-- einige Elements (z. B. Verbindungs-Metadaten, Siri-Anfragen oder Fehlerprotokolle) laufen noch über Apple-Server
-- mechanismen zur Verhaltensanalyse für kontextbezogene Vorschläge, App Store-Updates oder Nachrichtenfilterung verwenden nicht überprüfbare proprietäre Modelle
-- die Nutzung von Diensten wie iCloud implizites Vertrauen in die Infrastruktur von Apple voraussetzt, ohne dass man kontrollieren kann, wo und wie lange die Daten gespeichert werden
+- einige Elemente (z.B. Verbindungs-Metadaten, Siri-Anfragen oder Fehlerprotokolle) laufen noch über Apple-Server
+- Mechanismen zur Verhaltensanalyse für kontextbezogene Vorschläge, App Store-Updates oder Nachrichtenfilterung verwenden nicht überprüfbare proprietäre Modelle
+- die Nutzung von Diensten wie iCloud setzt implizites Vertrauen in die Infrastruktur von Apple voraus, ohne dass man kontrollieren kann, wo und wie lange die Daten gespeichert werden
 
 
-Was schließlich die digitale Souveränität betrifft, so stellt iOS eine geschlossene Umgebung dar: Keine externe Behörde (weder der Nutzer noch eine unabhängige Organisation) kann den Betrieb überprüfen oder verändern. Die Nutzer sind daher gezwungen, Apple auf allen Ebenen zu vertrauen: Hardware, Software, Netzwerk...
+Was schliesslich die digitale Souveränität betrifft, so stellt iOS eine geschlossene Umgebung dar: Keine externe Behörde (weder der Nutzer noch eine unabhängige Organisation) kann den Betrieb überprüfen oder verändern. Die Nutzer sind daher gezwungen, Apple auf allen Ebenen zu vertrauen: Hardware, Software, Netzwerk...
 
 
 ### open-Source-Alternativen mit Android
 
 
-Wie wir gerade gesehen haben, basiert das Standard-Android-Ökosystem, das von Google dominiert wird, auf einer Open-Source-Version des Systems (AOSP) mit proprietären Komponenten (GMS). Mehrere Open-Source-Projekte nutzen die Vorteile von AOSP, um alternative Betriebssysteme anzubieten, die die Privatsphäre besser respektieren, keine aufdringlichen Overlays enthalten und eine bessere Kontrolle durch den Benutzer ermöglichen. Diese Alternativen werden als Ersatz für das ursprüngliche System in Form von angepassten ROMs installiert. Sie ermöglichen es Ihnen, die Kontrolle über die Software zurückzugewinnen, erfordern aber auch eine minimale Hardwarekontrolle, da sie nur mit wenigen Geräten kompatibel sind.
+Wie wir gerade gesehen haben, basiert das Standard-Android-Ökosystem, das von Google dominiert wird, auf einer Open-Source-Version des Systems (AOSP) mit proprietären Komponenten (GMS). Mehrere Open-Source-Projekte nutzen die Vorteile von AOSP, um alternative Betriebssysteme anzubieten, die die Privatsphäre besser respektieren, keine aufdringlichen Overlays enthalten und eine bessere Kontrolle durch den Benutzer ermöglichen. Diese Alternativen werden als Ersatz für das ursprüngliche System in Form von angepassten ROMs installiert. Sie ermöglichen es dir, die Kontrolle über die Software zurückzugewinnen, erfordern aber auch eine minimale Hardwarekontrolle, da sie nur mit wenigen Geräten kompatibel sind.
 
 
 #### Hardwareanforderungen und Warnhinweise
 
 
-Vor der Installation ist es wichtig, die Kompatibilität Ihres Smartphones mit dem gewählten ROM zu überprüfen. Die meisten dieser Projekte unterstützen eine begrenzte Liste von Modellen. Die meiste Zeit, müssen Sie die Google Pixel Telefone verwenden, wegen ihrer entsperrbaren Bootloader Unterstützung und öffentliche Treiber.
+Vor der Installation ist es wichtig, die Kompatibilität deines Smartphones mit dem gewählten ROM zu überprüfen. Die meisten dieser Projekte unterstützen eine begrenzte Liste von Modellen. Die meiste Zeit, musst du die Google Pixel Telefone verwenden, wegen ihrer entsperrbaren Bootloader Unterstützung und öffentliche Treiber.
 
 
 Für die Installation muss der Bootloader entriegelt werden, ein Vorgang, der das Schreiben eines neuen Systemabbilds ermöglicht, bei dem jedoch der Inhalt des ursprünglichen Geräts vollständig gelöscht wird. Zusätzliche Dienste, wie F-Droid oder Aurora Store für Apps, müssen ebenfalls manuell installiert werden.
@@ -6605,22 +6498,22 @@ Einige Hersteller verbieten oder erschweren diesen Vorgang oder deaktivieren sog
 #### GrapheneOS
 
 
-[GrapheneOS](https://grapheneos.org/) ist ein erweitertes AOSP-ROM, das ein höheres Maß an Sicherheit als Standard-Android bietet. Es wird von einem unabhängigen Team entwickelt und von Experten geprüft. Graphene implementiert fortschrittliche Sicherheitsmechanismen, darunter:
+[GrapheneOS](https://grapheneos.org/) ist ein erweitertes AOSP-ROM, das ein höheres Mass an Sicherheit als Standard-Android bietet. Es wird von einem unabhängigen Team entwickelt und von Experten geprüft. Graphene implementiert fortschrittliche Sicherheitsmechanismen, darunter:
 
 
 
-- drastische Verringerung der Angriffsfläche: standardmäßige Deaktivierung vieler Funktionen (NFC, Bluetooth usw.), Sperrung von USB-Anschlüssen, wenn das Gerät inaktiv ist, erweiterte Kontrolle der Pogo-Pins usw.
+- drastische Verringerung der Angriffsfläche: standardmässige Deaktivierung vieler Funktionen (NFC, Bluetooth usw.), Sperrung von USB-Anschlüssen, wenn das Gerät inaktiv ist, erweiterte Kontrolle der Pogo-Pins usw.
 - eine stärkere Android-Sandbox
 - erweiterter Speicherschutz
 - granulare Rechtekontrolle
-- hardware-Verschlüsselung unabhängig von Google
+- Hardware-Verschlüsselung unabhängig von Google
 - usw.
 
 
 ![Image](assets/fr/136.webp)
 
 
-GrapheneOS integriert keine proprietären Komponenten. Es steht Ihnen frei, Google-Dienste hinzuzufügen oder nicht, aber diese sind streng isoliert (in speziellen Profilen in einer Sandbox). Dies macht das System extrem widerstandsfähig gegen lokale Angriffe und die Ausnutzung von Systemschwachstellen.
+GrapheneOS integriert keine proprietären Komponenten. Es steht dir frei, Google-Dienste hinzuzufügen oder nicht, aber diese sind streng isoliert (in speziellen Profilen in einer Sandbox). Dies macht das System extrem widerstandsfähig gegen lokale Angriffe und die Ausnutzung von Systemschwachstellen.
 
 
 Graphene ist nur mit aktuellen Google Pixeln (Pixel 6, 7, 8 und 9) kompatibel.
@@ -6643,13 +6536,13 @@ CalyxOS bietet auch vorinstallierte Anwendungen (Signal, F-Droid, Aurora Store, 
 #### LineageOS
 
 
-[LineageOS] (https://lineageos.org/), Nachfolger von CyanogenMod, ist die am weitesten kompatible alternative ROM. Es unterstützt mehrere hundert Modelle, dank einer großen Gemeinschaft von Mitwirkenden. Basierend auf AOSP, betont es die Anpassung, Einfachheit und Freiheit der Nutzung.
+[LineageOS] (https://lineageos.org/), Nachfolger von CyanogenMod, ist die am weitesten kompatible alternative ROM. Es unterstützt mehrere hundert Modelle, dank einer grossen Gemeinschaft von Mitwirkenden. Basierend auf AOSP, betont es die Anpassung, Einfachheit und Freiheit der Nutzung.
 
 
-LineageOS bietet Ihnen ein Android-System ohne Hersteller-Overlays, ohne Bloatware, mit vollständiger Rechteverwaltung, einfachen Updates und einem optimierten Interface. Sie können Google-Dienste hinzufügen oder sich für eine 100 % kostenlose Nutzung entscheiden.
+LineageOS bietet dir ein Android-System ohne Hersteller-Overlays, ohne Bloatware, mit vollständiger Rechteverwaltung, einfachen Updates und einem optimierten Interface. Du kannst Google-Dienste hinzufügen oder dich für eine 100 % kostenlose Nutzung entscheiden.
 
 
-Im Hinblick auf die Sicherheit integriert LineageOS jedoch nicht bestimmte Hardware-Schutzmaßnahmen oder Speicherverstärkungen, die in GrapheneOS und CalyxOS zu finden sind. Das Update-System hängt auch von der Community ab, was zu Verzögerungen bei den Sicherheits-Patches führen kann.
+Im Hinblick auf die Sicherheit integriert LineageOS jedoch nicht bestimmte Hardware-Schutzmassnahmen oder Speicherverstärkungen, die in GrapheneOS und CalyxOS zu finden sind. Das Update-System hängt auch von der Community ab, was zu Verzögerungen bei den Sicherheits-Patches führen kann.
 
 
 ![Image](assets/fr/138.webp)
@@ -6658,22 +6551,22 @@ Im Hinblick auf die Sicherheit integriert LineageOS jedoch nicht bestimmte Hardw
 ### Welches Smartphone-Betriebssystem für welchen Zweck?
 
 
-Bei der Wahl Ihres Smartphone-Betriebssystems müssen Sie sich der Kompromisse zwischen Sicherheit, Datenschutz, Benutzerfreundlichkeit und Anwendungskompatibilität bewusst sein. Jede Lösung verfügt über spezifische technische Merkmale, die sich direkt auf Ihre alltäglichen Erfahrungen, Ihre Kontrollmöglichkeiten und Ihre Anfälligkeit für kommerzielle Überwachung oder Schwachstellen auswirken werden.
+Bei der Wahl deines Smartphone-Betriebssystems musst du dich der Kompromisse zwischen Sicherheit, Datenschutz, Benutzerfreundlichkeit und Anwendungskompatibilität bewusst sein. Jede Lösung verfügt über spezifische technische Merkmale, die sich direkt auf deine alltäglichen Erfahrungen, deine Kontrollmöglichkeiten und deine Anfälligkeit für kommerzielle Überwachung oder Schwachstellen auswirken werden.
 
 
-Standard-Android (mit GMS) ist heute die am weitesten verbreitete Lösung. Es bietet volle Kompatibilität mit allen Android-Anwendungen, Benutzerfreundlichkeit und sofortigen Zugriff auf beliebte Dienste (Play Store, Maps, Gmail...). Diese Benutzerfreundlichkeit beruht jedoch auf einer starken Integration der Google-eigenen Dienste mit einer systematischen Datenerfassung: GPS-Position, Browserverlauf, Anruf-Metadaten, Werbepräferenzen... Es ist also eine schlechte Wahl, wenn Sie sich Sorgen um Ihre digitale Souveränität oder Ihre Privatsphäre machen.
+Standard-Android (mit GMS) ist heute die am weitesten verbreitete Lösung. Es bietet volle Kompatibilität mit allen Android-Anwendungen, Benutzerfreundlichkeit und sofortigen Zugriff auf beliebte Dienste (Play Store, Maps, Gmail...). Diese Benutzerfreundlichkeit beruht jedoch auf einer starken Integration der Google-eigenen Dienste mit einer systematischen Datenerfassung: GPS-Position, Browserverlauf, Anruf-Metadaten, Werbepräferenzen... Es ist also eine schlechte Wahl, wenn du dir Sorgen um deine digitale Souveränität oder deine Privatsphäre machst.
 
 
-Das iOS-System von Apple zeichnet sich durch ein hohes Maß an Sicherheit aus. Diese Sicherheit geht jedoch mit einer extremen Abschottung der Umgebung einher: Der Benutzer kann keine Anwendungen außerhalb des App Store installieren (außer in Ausnahmefällen), kann das Systemverhalten nicht ändern und ist bei der Verwaltung von Hardware, Cloud-Speicher und Synchronisierung vollständig von Apple abhängig. Es handelt sich um eine effiziente und robuste Umgebung, die jedoch jede Form der Personalisierung oder Unabhängigkeit opfert.
+Das iOS‑System von Apple zeichnet sich durch ein hohes Mass an Sicherheit aus. Diese Sicherheit geht jedoch mit einer extremen Abschottung der Umgebung einher: Du kannst keine Anwendungen ausserhalb des App Store installieren (ausser in Ausnahmefällen), kannst das Systemverhalten nicht ändern und bist bei der Verwaltung von Hardware, Cloud‑Speicher und Synchronisierung vollständig von Apple abhängig. Es handelt sich um eine effiziente und robuste Umgebung, die jedoch jede Form der Personalisierung oder Unabhängigkeit opfert.
 
 
-GrapheneOS ist auf die anspruchsvollsten Profile in Bezug auf Sicherheit und Vertraulichkeit ausgerichtet. Sein Sicherheitsniveau bringt jedoch einige Einschränkungen mit sich: wenige kompatible Geräte (nur aktuelle Google Pixel-Modelle), keine automatische Integration von Anwendungsdiensten von Drittanbietern und die Notwendigkeit, alternative Tools für Updates, den Store oder Benachrichtigungen manuell zu konfigurieren. Wenn Datenschutz und Sicherheit Ihre Prioritäten sind, ist dies eindeutig die beste Wahl.
+GrapheneOS ist auf die anspruchsvollsten Profile in Bezug auf Sicherheit und Vertraulichkeit ausgerichtet. Sein Sicherheitsniveau bringt jedoch einige Einschränkungen mit sich: wenige kompatible Geräte (nur aktuelle Google‑Pixel‑Modelle), keine automatische Integration von Anwendungsdiensten von Drittanbietern und die Notwendigkeit, alternative Tools für Updates, den Store oder Benachrichtigungen manuell zu konfigurieren. Wenn Datenschutz und Sicherheit deine Prioritäten sind, ist dies eindeutig die beste Wahl.
 
 
-CalyxOS bietet ein interessantes Gleichgewicht. Die Benutzererfahrung bleibt nahe am Standard-Android, aber ohne die direkte Aufsicht von Google. Es unterstützt eine angemessene Anzahl von Modellen (insbesondere das Google Pixel) und kann ohne fortgeschrittene technische Kenntnisse installiert werden. Für Nutzer, die ein hohes Maß an Sicherheit wünschen, ohne die Softwarekompatibilität zu opfern, ist CalyxOS eine praktische, ausgewogene Lösung.
+CalyxOS bietet ein interessantes Gleichgewicht. Die Benutzererfahrung bleibt nahe am Standard-Android, aber ohne die direkte Aufsicht von Google. Es unterstützt eine angemessene Anzahl von Modellen (insbesondere das Google Pixel) und kann ohne fortgeschrittene technische Kenntnisse installiert werden. Für Nutzer, die ein hohes Mass an Sicherheit wünschen, ohne die Softwarekompatibilität zu opfern, ist CalyxOS eine praktische, ausgewogene Lösung.
 
 
-Schließlich ist LineageOS eine AOSP-Distribution für Benutzer, die Flexibilität und Kontrolle wünschen. Es ist mit einer großen Anzahl von Geräten, auch älteren, kompatibel, ermöglicht eine vollständige Anpassung des Systems und bietet eine leichte Alternative zu OEM-Overlays. Es integriert jedoch nicht von Haus aus die fortschrittlichen Sicherheitsverbesserungen von GrapheneOS oder CalyxOS und profitiert nicht immer von regelmäßigen Updates für alle Modelle. LineageOS erfordert daher ein gewisses Maß an Benutzerdisziplin, um auf Dauer sicher zu bleiben.
+Schliesslich ist LineageOS eine AOSP-Distribution für Benutzer, die Flexibilität und Kontrolle wünschen. Es ist mit einer grossen Anzahl von Geräten, auch älteren, kompatibel, ermöglicht eine vollständige Anpassung des Systems und bietet eine leichte Alternative zu OEM-Overlays. Es integriert jedoch nicht von Haus aus die fortschrittlichen Sicherheitsverbesserungen von GrapheneOS oder CalyxOS und profitiert nicht immer von regelmässigen Updates für alle Modelle. LineageOS erfordert daher ein gewisses Mass an Benutzerdisziplin, um auf Dauer sicher zu bleiben.
 
 
 | System | Security | Privacy | Compatibility | Customization |
@@ -6684,19 +6577,19 @@ Schließlich ist LineageOS eine AOSP-Distribution für Benutzer, die Flexibilit�
 | CalyxOS    | 🟡       | 🟢              | 🟡            | 🟡               |
 | LineageOS  | 🟡       | 🟡              | 🟢            | 🟢               |
 
-Unabhängig davon, für welches mobile Betriebssystem Sie sich entscheiden, werden wir uns im nächsten Kapitel mit den besten Praktiken befassen, die Sie anwenden können, um Ihr Telefon effektiv zu schützen und eine gesunde digitale Umgebung zu erhalten.
+Unabhängig davon, für welches mobile Betriebssystem du dich entscheidest, werden wir uns im nächsten Kapitel mit den besten Praktiken befassen, die du anwenden kannst, um dein Telefon effektiv zu schützen und eine gesunde digitale Umgebung zu erhalten.
 
 
-## Sichern Sie Ihr Smartphone für den täglichen Gebrauch
+## Sichere dein Smartphone für den täglichen Gebrauch
 
 
 <chapterId>37b9499e-32cf-42c3-8715-15c6884d2ec7</chapterId>
 
 
-Im vorangegangenen Kapitel haben wir die Probleme im Zusammenhang mit Smartphone-Betriebssystemen analysiert und verschiedene Alternativen untersucht, um mehr Kontrolle über Ihr Telefon zu erhalten. Die Wahl eines guten Betriebssystems reicht jedoch nicht aus: Um echte Sicherheit und Vertraulichkeit zu gewährleisten, ist es wichtig, dass Sie bei der täglichen Nutzung einige gute Praktiken anwenden.
+Im vorangegangenen Kapitel haben wir die Probleme im Zusammenhang mit Smartphone-Betriebssystemen analysiert und verschiedene Alternativen untersucht, um mehr Kontrolle über dein Telefon zu erhalten. Die Wahl eines guten Betriebssystems reicht jedoch nicht aus: Um echte Sicherheit und Vertraulichkeit zu gewährleisten, ist es wichtig, dass du bei der täglichen Nutzung einige gute Praktiken anwendest.
 
 
-In diesem Kapitel gehen wir Schritt für Schritt auf einige grundlegende Empfehlungen ein, die unabhängig von Ihrem Smartphone-Betriebssystem gelten.
+In diesem Kapitel gehen wir Schritt für Schritt auf einige grundlegende Empfehlungen ein, die unabhängig von deinem Smartphone-Betriebssystem gelten.
 
 
 ### Aktualisierungen
@@ -6705,19 +6598,19 @@ In diesem Kapitel gehen wir Schritt für Schritt auf einige grundlegende Empfehl
 Ich wiederhole mich an dieser Stelle, aber jedes von den Entwicklern veröffentlichte Update enthält potenziell wichtige Sicherheits-Patches. Hinzu kommt, dass Smartphones aufgrund ihrer riesigen Angriffsfläche zahlreichen Risiken ausgesetzt sind: Über mobile Netzwerke, Anwendungen von Drittanbietern, drahtlose Kommunikation (Wi-Fi, Bluetooth, NFC usw.).
 
 
-Die Nichtanwendung dieser Aktualisierungen bedeutet, dass bekannte Schwachstellen, die in Datenbanken wie CVE (*Common Vulnerabilities and Exposures*) öffentlich dokumentiert sind, absichtlich offen gelassen werden. Diese Schwachstellen werden manchmal automatisch durch online verfügbare Tools ausgenutzt, ohne dass dafür fortgeschrittene Kenntnisse erforderlich sind. Dies macht ein veraltetes Telefon zu einem idealen Ziel, auch für groß angelegte automatisierte Angriffe.
+Die Nichtanwendung dieser Aktualisierungen bedeutet, dass bekannte Schwachstellen, die in Datenbanken wie CVE (*Common Vulnerabilities and Exposures*) öffentlich dokumentiert sind, absichtlich offen gelassen werden. Diese Schwachstellen werden manchmal automatisch durch online verfügbare Tools ausgenutzt, ohne dass dafür fortgeschrittene Kenntnisse erforderlich sind. Dies macht ein veraltetes Telefon zu einem idealen Ziel, auch für gross angelegte automatisierte Angriffe.
 
 
 ![Image](assets/fr/139.webp)
 
 
-Es ist daher wichtig, in den Systemeinstellungen automatische Updates zu aktivieren und jede Woche manuell zu prüfen, ob Ihr Gerät über die neuesten Sicherheitspatches verfügt. Unter Android geschieht dies in der Regel unter "Einstellungen > Sicherheit > Systemaktualisierung" und unter iOS unter "Einstellungen > Allgemein > Softwareaktualisierung".
+Es ist daher wichtig, in den Systemeinstellungen automatische Updates zu aktivieren und jede Woche manuell zu prüfen, ob dein Gerät über die neuesten Sicherheitspatches verfügt. Unter Android geschieht dies in der Regel unter "Einstellungen > Sicherheit > Systemaktualisierung" und unter iOS unter "Einstellungen > Allgemein > Softwareaktualisierung".
 
 
 #### Unterstützung aktualisieren
 
 
-Nicht alle Smartphones sind gleich, was die Softwareunterstützung angeht. Viele Einsteiger- und Mittelklassegeräte erhalten bereits nach zwei oder drei Jahren keine wichtigen Updates mehr, wodurch Sie immer größeren Risiken ausgesetzt sind.
+Nicht alle Smartphones sind gleich, was die Softwareunterstützung angeht. Viele Einsteiger- und Mittelklassegeräte erhalten bereits nach zwei oder drei Jahren keine wichtigen Updates mehr, wodurch du immer grösseren Risiken ausgesetzt bist.
 
 
 Einige Marken haben jedoch eine sehr gute Softwareunterstützung, insbesondere Google (7 Jahre), Fairphone (5 bis 7 Jahre), Samsung (5 bis 7 Jahre) und Apple (5 bis 7 Jahre). Dieses Kriterium ist beim Kauf eines neuen Telefons sehr wichtig: Ein langlebiges Gerät ist in erster Linie ein gepflegtes Gerät.
@@ -6726,13 +6619,13 @@ Einige Marken haben jedoch eine sehr gute Softwareunterstützung, insbesondere G
 #### Zuverlässige Anwendungsspeicher verwenden
 
 
-Mobile Anwendungen stellen eine große Risikoquelle dar: Die meisten modernen Android-Malware-Programme werden über sie eingeschleust. Die Installation einer Anwendung über eine "apk"-Datei, die von einer unbekannten Website oder einem nicht zertifizierten Store stammt, bedeutet, dass man das Risiko eingeht, ein Programm zu installieren, das absichtlich bösartig ist oder so verändert wurde, dass es Spionage- oder Datendiebstahlsfunktionen enthält.
+Mobile Anwendungen stellen eine grosse Risikoquelle dar: Die meisten modernen Android-Malware-Programme werden über sie eingeschleust. Die Installation einer Anwendung über eine "apk"-Datei, die von einer unbekannten Website oder einem nicht zertifizierten Store stammt, bedeutet, dass man das Risiko eingeht, ein Programm zu installieren, das absichtlich bösartig ist oder so verändert wurde, dass es Spionage- oder Datendiebstahlsfunktionen enthält.
 
 
-Selbst in offiziellen Stores wie dem Google Play Store oder dem Apple App Store müssen Sie wachsam bleiben. Trotz Filtermechanismen schaffen es bösartige Anwendungen regelmäßig, sich einzuschleichen. Zum Beispiel werden im Play Store manchmal "Sparrow wallet"-Anwendungen angezeigt, obwohl diese Software nur für PCs existiert: Hierbei handelt es sich zweifelsohne um eine betrügerische Anwendung.
+Selbst in offiziellen Stores wie dem Google Play Store oder dem Apple App Store musst du wachsam bleiben. Trotz Filtermechanismen schaffen es bösartige Anwendungen regelmässig, sich einzuschleichen. Zum Beispiel werden im Play Store manchmal "Sparrow wallet"-Anwendungen angezeigt, obwohl diese Software nur für PCs existiert: Hierbei handelt es sich zweifelsohne um eine betrügerische Anwendung.
 
 
-Vor der Installation sollten Sie sich die Zeit nehmen, einige Dinge zu überprüfen: erforderliche Berechtigungen, Anzahl der Downloads, Gesamtbewertung, Datum der letzten Aktualisierung und Nutzerbewertungen.
+Vor der Installation solltest du dir die Zeit nehmen, einige Dinge zu überprüfen: erforderliche Berechtigungen, Anzahl der Downloads, Gesamtbewertung, Datum der letzten Aktualisierung und Nutzerbewertungen.
 
 
 Unter Android bieten alternative Open-Source-Stores wie [F-Droid](https://f-droid.org/) eine ethischere und oft sicherere Lösung: Jede Anwendung wird aus freien Quellen kompiliert und manuell geprüft. Für notwendige proprietäre Anwendungen ermöglichen Tools wie [Aurora Store](https://auroraoss.com/) den Zugriff auf den Play Store ohne ein Google-Konto, wodurch die Datenerfassung eingeschränkt wird.
@@ -6741,46 +6634,46 @@ Unter Android bieten alternative Open-Source-Stores wie [F-Droid](https://f-droi
 ![Image](assets/fr/140.webp)
 
 
-Neben dem Betriebssystem müssen auch die auf Ihrem Smartphone installierten Anwendungen auf dem neuesten Stand gehalten werden. Sie können über die Einstellungen Ihres App-Stores automatische Updates aktivieren und sich angewöhnen, mindestens einmal pro Woche eine manuelle Überprüfung durchzuführen.
+Neben dem Betriebssystem müssen auch die auf deinem Smartphone installierten Anwendungen auf dem neuesten Stand gehalten werden. Du kannst über die Einstellungen deines App-Stores automatische Updates aktivieren und dir angewöhnen, mindestens einmal pro Woche eine manuelle Überprüfung durchzuführen.
 
 
-Wenn Sie unter Android Anwendungen über "apk"-Dateien installieren, müssen Sie Updates manuell verwalten. Diese Anwendungen, die außerhalb der offiziellen Kanäle installiert werden, haben nämlich keinen automatischen Aktualisierungsmechanismus. Sie müssen also regelmäßig die von den Entwicklern auf GitHub oder auf ihrer offiziellen Website veröffentlichten Versionen überprüfen.
+Wenn du unter Android Anwendungen über "apk"-Dateien installierst, musst du Updates manuell verwalten. Diese Anwendungen, die ausserhalb der offiziellen Kanäle installiert werden, haben nämlich keinen automatischen Aktualisierungsmechanismus. Du musst also regelmässig die von den Entwicklern auf GitHub oder auf ihrer offiziellen Website veröffentlichten Versionen überprüfen.
 
 
 ### Verwalten von Anwendungsberechtigungen
 
 
-Auf einem Smartphone kann jede Anwendung direkten Zugriff auf sensible Ressourcen anfordern: Mikrofon, Kamera, genaue geografische Position, Address-Buch, Dateien, SMS, Bewegungssensoren, usw. Ein solcher Zugriff ist nicht trivial: Wenn die Erlaubnis erteilt wird, kann die Anwendung sie im Hintergrund kontinuierlich oder ad hoc nutzen, manchmal ohne sichtbare Benachrichtigung. Deshalb ist es wichtig, das Prinzip der geringsten Privilegien anzuwenden: jeder Anwendung sollten nur die Berechtigungen erteilt werden, die für ihren minimalen Betrieb unbedingt erforderlich sind.
+Auf einem Smartphone kann jede Anwendung direkten Zugriff auf sensible Ressourcen anfordern: Mikrofon, Kamera, genaue geografische Position, Adress-Buch, Dateien, SMS, Bewegungssensoren, usw. Ein solcher Zugriff ist nicht trivial: Wenn die Erlaubnis erteilt wird, kann die Anwendung sie im Hintergrund kontinuierlich oder ad hoc nutzen, manchmal ohne sichtbare Benachrichtigung. Deshalb ist es wichtig, das Prinzip der geringsten Privilegien anzuwenden: jeder Anwendung sollten nur die Berechtigungen erteilt werden, die für ihren minimalen Betrieb unbedingt erforderlich sind.
 
 
 ![Image](assets/fr/141.webp)
 
 
-Eine Taschenlampenanwendung benötigt beispielsweise keinen Zugriff auf Ihre Kontakte oder Geolocation. Eine Wetteranwendung kann mit manueller Lokalisierung arbeiten, ohne GPS-Zugriff. Ein PDF-Reader muss weder das Mikrofon noch SMS verwenden. Verweigern Sie im Zweifelsfall immer die Standardeinstellung und bewerten Sie dann neu, wenn die Anwendung nicht richtig funktioniert. Auf einigen Systemen ist es auch möglich, Berechtigungen nur vorübergehend zu erteilen: entweder für eine einmalige Nutzung oder nur, wenn die Anwendung läuft. Dadurch wird verhindert, dass eine Anwendung im Hintergrund bestimmte Berechtigungen ohne Ihr Wissen ausnutzt.
+Eine Taschenlampenanwendung benötigt beispielsweise keinen Zugriff auf deine Kontakte oder Geolocation. Eine Wetteranwendung kann mit manueller Lokalisierung arbeiten, ohne GPS-Zugriff. Ein PDF-Reader muss weder das Mikrofon noch SMS verwenden. Verweigere im Zweifelsfall immer die Standardeinstellung und bewerte dann neu, wenn die Anwendung nicht richtig funktioniert. Auf einigen Systemen ist es auch möglich, Berechtigungen nur vorübergehend zu erteilen: entweder für eine einmalige Nutzung oder nur, wenn die Anwendung läuft. Dadurch wird verhindert, dass eine Anwendung im Hintergrund bestimmte Berechtigungen ohne dein Wissen ausnutzt.
 
 
-Android und iOS bieten jetzt eine granulare Berechtigungssteuerung. Sie können sie nach Anwendung oder nach Berechtigungstyp verwalten. Nehmen Sie sich die Zeit, z. B. einmal im Monat, die aktiven Berechtigungen in den Einstellungen Ihres Telefons zu überprüfen.
+Android und iOS bieten jetzt eine granulare Berechtigungssteuerung. Du kannst sie nach Anwendung oder nach Berechtigungstyp verwalten. Nimm dir die Zeit, z.B. einmal im Monat, die aktiven Berechtigungen in den Einstellungen deines Telefons zu überprüfen.
 
 
-Einige Systeme ermöglichen es Ihnen auch, die einer Anwendung erteilten Berechtigungen nach einer bestimmten Zeit der Nichtbenutzung automatisch zu entziehen. Dadurch werden die Risiken begrenzt, wenn Sie vergessen, eine Anwendung zu deinstallieren.
+Einige Systeme ermöglichen es dir auch, die einer Anwendung erteilten Berechtigungen nach einer bestimmten Zeit der Nichtbenutzung automatisch zu entziehen. Dadurch werden die Risiken begrenzt, wenn du vergisst, eine Anwendung zu deinstallieren.
 
 
 ### Bildschirm sperren
 
 
-Die physische Sicherheit eines Smartphones beginnt mit seinem Sperrbildschirm. Dies ist die erste Barriere zwischen einem potenziellen Angreifer und dem Zugriff auf Ihre persönlichen Daten. Das zuverlässigste Mittel ist immer noch der PIN-Code oder ein komplexes Passwort.
+Die physische Sicherheit eines Smartphones beginnt mit seinem Sperrbildschirm. Dies ist die erste Barriere zwischen einem potenziellen Angreifer und dem Zugriff auf deine persönlichen Daten. Das zuverlässigste Mittel ist immer noch der PIN-Code oder ein komplexes Passwort.
 
 
-Andererseits wird von Entsperrungsmethoden wie grafischen Schemata dringend abgeraten. Solche Schemata hinterlassen sichtbare Spuren auf dem Bildschirm, sind für einen Dritten, der Ihre Gesten beobachtet, leicht zu merken und sind selten komplex genug.
+Andererseits wird von Entsperrungsmethoden wie grafischen Schemata dringend abgeraten. Solche Schemata hinterlassen sichtbare Spuren auf dem Bildschirm, sind für einen Dritten, der deine Gesten beobachtet, leicht zu merken und sind selten komplex genug.
 
 
-Biometrische Systeme (Gesichtserkennung oder Fingerabdrücke) bieten offensichtliche Vorteile, sind aber mit Vorsicht zu genießen. Im Falle von physischem Zwang (Diebstahl, polizeilicher Druck usw.) kann der Fingerabdruck oder das Gesicht ohne Ihre aktive Zustimmung verwendet werden. In einigen Ländern genießt die Verwendung biometrischer Daten nicht den gleichen rechtlichen Schutz wie die Geheimhaltung eines Passworts.
+Biometrische Systeme (Gesichtserkennung oder Fingerabdrücke) bieten offensichtliche Vorteile, sind aber mit Vorsicht zu geniessen. Im Falle von physischem Zwang (Diebstahl, polizeilicher Druck usw.) kann der Fingerabdruck oder das Gesicht ohne deine aktive Zustimmung verwendet werden. In einigen Ländern geniesst die Verwendung biometrischer Daten nicht den gleichen rechtlichen Schutz wie die Geheimhaltung eines Passworts.
 
 
-Andererseits können biometrische Systeme durch Techniken wie die visuelle Wiedergabe des Gesichts oder die Wiederherstellung latenter Fingerabdrücke auf einer Oberfläche umgangen werden (oder könnten dies in Zukunft tun). Ihre Zuverlässigkeit hängt auch stark von der Sicherheitsstufe Ihres Geräts ab: So ist beispielsweise die Gesichtserkennung Face ID von Apple weitaus strenger als die einiger Einsteiger-Smartphones.
+Andererseits können biometrische Systeme durch Techniken wie die visuelle Wiedergabe des Gesichts oder die Wiederherstellung latenter Fingerabdrücke auf einer Oberfläche umgangen werden (oder könnten dies in Zukunft tun). Ihre Zuverlässigkeit hängt auch stark von der Sicherheitsstufe deines Geräts ab: So ist beispielsweise die Gesichtserkennung Face ID von Apple weitaus strenger als die einiger Einsteiger-Smartphones.
 
 
-Im Folgenden finden Sie eine Rangliste der besten und schlechtesten Smartphone-Schließsysteme:
+Im Folgenden findest du eine Rangliste der besten und schlechtesten Smartphone-Schliesssysteme:
 
 
 
@@ -6794,19 +6687,19 @@ Im Folgenden finden Sie eine Rangliste der besten und schlechtesten Smartphone-S
 ![Image](assets/fr/142.webp)
 
 
-Bei sensiblen Geräten ist die beste Lösung ein Passwort in Kombination mit einer biometrischen Deaktivierung, bei der nur eine manuelle Entsperrung möglich ist. Dies mag restriktiv erscheinen, ist aber der beste Weg, um Schutz zu gewährleisten. Für einen PIN-Code oder ein alphanumerisches Passwort gilt: je länger und zufälliger, desto besser. Außerdem muss es resistent gegen Brute-Force-Angriffe sein.
+Bei sensiblen Geräten ist die beste Lösung ein Passwort in Kombination mit einer biometrischen Deaktivierung, bei der nur eine manuelle Entsperrung möglich ist. Dies mag restriktiv erscheinen, ist aber der beste Weg, um Schutz zu gewährleisten. Für einen PIN-Code oder ein alphanumerisches Passwort gilt: je länger und zufälliger, desto besser. Ausserdem muss es resistent gegen Brute-Force-Angriffe sein.
 
 
 ### Verwendung und Aufteilung der Daten
 
 
-Wie wir in den vorangegangenen Kapiteln gesehen haben, ist die Kompartimentierung eine wichtige Praxis zur Begrenzung der Risiken im Falle einer Kompromittierung eines Teils des Systems. Indem Sie getrennte Umgebungen für Ihre verschiedenen Aktivitäten schaffen, verhindern Sie, dass ein Angriff oder ein Datenleck in einem Bereich Ihr gesamtes Gerät infiziert. Unter Android kann diese Strategie durch eine Reihe von integrierten Mechanismen umgesetzt werden.
+Wie wir in den vorangegangenen Kapiteln gesehen haben, ist die Kompartimentierung eine wichtige Praxis zur Begrenzung der Risiken im Falle einer Kompromittierung eines Teils des Systems. Indem du getrennte Umgebungen für deine verschiedenen Aktivitäten schaffst, verhinderst du, dass ein Angriff oder ein Datenleck in einem Bereich dein gesamtes Gerät infiziert. Unter Android kann diese Strategie durch eine Reihe von integrierten Mechanismen umgesetzt werden.
 
 
-#### Verwenden Sie ein separates berufliches Profil
+#### Verwende ein separates berufliches Profil
 
 
-Das *Arbeitsprofil* ist eine native Funktion von Android (seit Android 5.0), mit der Sie eine separate Softwarepartition innerhalb desselben Smartphones erstellen können. In der Praxis funktioniert dieses Profil wie ein isolierter Container: Anwendungen, Konten und Daten, die in diesem Bereich gespeichert sind, können nicht mit denen im persönlichen Profil interagieren. Diese Trennung verhindert Datenverluste zwischen den beiden Bereichen und schränkt die Zugriffsrechte für Anwendungen ein. Diese Funktion wird oft intern in Unternehmen verwaltet, aber es gibt auch Möglichkeiten, sie persönlich zur Isolierung von Anwendungen zu nutzen.
+Das *Arbeitsprofil* ist eine native Funktion von Android (seit Android 5.0), mit der du eine separate Softwarepartition innerhalb desselben Smartphones erstellen kannst. In der Praxis funktioniert dieses Profil wie ein isolierter Container: Anwendungen, Konten und Daten, die in diesem Bereich gespeichert sind, können nicht mit denen im persönlichen Profil interagieren. Diese Trennung verhindert Datenverluste zwischen den beiden Bereichen und schränkt die Zugriffsrechte für Anwendungen ein. Diese Funktion wird oft intern in Unternehmen verwaltet, aber es gibt auch Möglichkeiten, sie persönlich zur Isolierung von Anwendungen zu nutzen.
 
 
 ![Image](assets/fr/143.webp)
@@ -6827,19 +6720,19 @@ Um die Trennung der Nutzungen noch weiter voranzutreiben, kann man sich für die
 Wenn ein Smartphone kompromittiert wird, bleiben die anderen intakt. Diese physische Partitionierung hat auch den Vorteil, dass sie die Verwaltung des Zugriffs und der Berechtigungen auf jedem Gerät vereinfacht und die Gesamtbelastung durch potenzielle Bedrohungen verringert.
 
 
-### Kontrollieren Sie Ihre Datenflüsse
+### Kontrolliere deine Datenflüsse
 
 
-Ihr Smartphone steht in ständiger Kommunikation mit der Außenwelt, sei es über Wi-Fi, Bluetooth, NFC, GPS oder mobile Netzwerke. Jeder dieser Kanäle stellt eine potenzielle Angriffsfläche dar. Zu verstehen, wie sie funktionieren, und sie zu sichern, ist daher wichtig, um Risiken zu begrenzen.
+Dein Smartphone steht in ständiger Kommunikation mit der Aussenwelt, sei es über Wi-Fi, Bluetooth, NFC, GPS oder mobile Netzwerke. Jeder dieser Kanäle stellt eine potenzielle Angriffsfläche dar. Zu verstehen, wie sie funktionieren, und sie zu sichern, ist daher wichtig, um Risiken zu begrenzen.
 
 
 #### Öffentliches Wi-Fi
 
 
-Öffentliche Wi-Fi-Netzwerke, z. B. in Cafés, Hotels oder öffentlichen Verkehrsmitteln, sind selten sicher. Selbst wenn sie ein Kennwort erfordern, wird es oft von vielen Benutzern gemeinsam genutzt, und die angewandte Verschlüsselung kann manchmal leicht umgangen werden. Ein Angreifer, der mit demselben Netzwerk verbunden ist, kann Ihre Datenpakete abfangen, Anmeldedaten abfangen oder über Man-in-the-Middle-Angriffe bösartige Inhalte einspeisen.
+Öffentliche Wi-Fi-Netzwerke, z.B. in Cafés, Hotels oder öffentlichen Verkehrsmitteln, sind selten sicher. Selbst wenn sie ein Kennwort erfordern, wird es oft von vielen Benutzern gemeinsam genutzt, und die angewandte Verschlüsselung kann manchmal leicht umgangen werden. Ein Angreifer, der mit demselben Netzwerk verbunden ist, kann deine Datenpakete abfangen, Anmeldedaten abfangen oder über Man-in-the-Middle-Angriffe bösartige Inhalte einspeisen.
 
 
-Um sich zu schützen, vermeiden Sie einfach die Nutzung dieser öffentlichen Netze oder verwenden Sie ein VPN, das einen verschlüsselten Tunnel zwischen Ihrem Gerät und einem entfernten Server herstellt. Dieser Tunnel kapselt Ihre Daten ein und macht es extrem schwierig, sie abzufangen oder zu verändern.
+Um sich zu schützen, vermeide einfach die Nutzung dieser öffentlichen Netze oder verwende ein VPN, das einen verschlüsselten Tunnel zwischen deinem Gerät und einem entfernten Server herstellt. Dieser Tunnel kapselt deine Daten ein und macht es extrem schwierig, sie abzufangen oder zu verändern.
 
 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -6848,47 +6741,47 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
-Was Ihr heimisches Wi-Fi-Netzwerk betrifft, so werden wir darüber im letzten Teil des SCU 202-Kurses sprechen.
+Was dein heimisches Wi-Fi-Netzwerk betrifft, so werden wir darüber im letzten Teil des SCU 202-Kurses sprechen.
 
 
 
 #### Bluetooth, NFC und GPS
 
 
-Bluetooth (drahtloses Protokoll für Kurzstreckenkommunikation), NFC (Nahfeldkommunikation) und GPS (Satellitenortung) sind bei vielen Smartphones standardmäßig aktiviert. Diese Technologien können als Einfallstor für lokale Angriffe genutzt werden: Remote-Code-Ausführung, unbefugter Zugriff, Standortverfolgung, im Falle von Bluetooth sogar Abfangen der Kommunikation (z. B. BlueBorne-Schwachstellen).
+Bluetooth (drahtloses Protokoll für Kurzstreckenkommunikation), NFC (Nahfeldkommunikation) und GPS (Satellitenortung) sind bei vielen Smartphones standardmässig aktiviert. Diese Technologien können als Einfallstor für lokale Angriffe genutzt werden: Remote-Code-Ausführung, unbefugter Zugriff, Standortverfolgung, im Falle von Bluetooth sogar Abfangen der Kommunikation (z.B. BlueBorne-Schwachstellen).
 
 
-Um diese Risiken zu begrenzen, sollten Sie diese Funktionen immer deaktivieren, wenn Sie sie nicht verwenden. Dadurch wird die Angriffsfläche drastisch reduziert und jeder Versuch eines Missbrauchs verhindert.
+Um diese Risiken zu begrenzen, solltest du diese Funktionen immer deaktivieren, wenn du sie nicht verwendest. Dadurch wird die Angriffsfläche drastisch reduziert und jeder Versuch eines Missbrauchs verhindert.
 
 
 #### Mobile Netze
 
 
-Smartphones stehen in ständiger Kommunikation mit den Basisstationen der Telefonanbieter. Diese Kommunikation kann von bestimmten *IMSI-Catchern* gekapert werden, die Basisstationen simulieren, um Ihre mobilen Daten abzufangen. Diese Angriffe ermöglichen es einem Dritten, Ihr Gerät zu identifizieren, Ihre Bewegungen zu verfolgen und in einigen Fällen Anrufe und Nachrichten abzufangen.
+Smartphones stehen in ständiger Kommunikation mit den Basisstationen der Telefonanbieter. Diese Kommunikation kann von bestimmten *IMSI-Catchern* gekapert werden, die Basisstationen simulieren, um deine mobilen Daten abzufangen. Diese Angriffe ermöglichen es einem Dritten, dein Gerät zu identifizieren, deine Bewegungen zu verfolgen und in einigen Fällen Anrufe und Nachrichten abzufangen.
 
 
 ![Image](assets/fr/145.webp)
 
 
-Einige Anwendungen, wie z. B. SnoopSnitch auf Android, können verdächtiges Verhalten beim Austausch mit dem Netz erkennen. Diese Tools analysieren die Metadaten der mobilen Kommunikation und können Sie auf Änderungen in der Funkkonfiguration oder abnormales Verhalten hinweisen, wodurch Sie wachsamer gegenüber Abhörversuchen werden.
+Einige Anwendungen, wie z.B. SnoopSnitch auf Android, können verdächtiges Verhalten beim Austausch mit dem Netz erkennen. Diese Tools analysieren die Metadaten der mobilen Kommunikation und können dich auf Änderungen in der Funkkonfiguration oder abnormales Verhalten hinweisen, wodurch du wachsamer gegenüber Abhörversuchen wirst.
 
 
-Der beste Weg, um Ihre Kommunikation zu sichern, ist die Verwendung von sicheren Messaging-Anwendungen, sei es für Anrufe oder Nachrichten. Diese Anwendungen nutzen das Mobilfunknetz nicht und sorgen dafür, dass der Datenaustausch ordnungsgemäß verschlüsselt wird. Wir werden dieses Thema im nächsten Kapitel ausführlicher behandeln.
+Der beste Weg, um deine Kommunikation zu sichern, ist die Verwendung von sicheren Messaging-Anwendungen, sei es für Anrufe oder Nachrichten. Diese Anwendungen nutzen das Mobilfunknetz nicht und sorgen dafür, dass der Datenaustausch ordnungsgemäss verschlüsselt wird. Wir werden dieses Thema im nächsten Kapitel ausführlicher behandeln.
 
 
-### Sichern Sie Ihr mobiles Gerät
+### Sichere dein mobiles Gerät
 
 
 #### Mobiles Antivirus
 
 
-Die Nützlichkeit von Antiviren-Software für Smartphones wird oft überschätzt, was vor allem auf aggressive Marketingkampagnen zurückzuführen ist. Echte Bedrohungen für Mobiltelefone, insbesondere für Android, sind in der Regel mit der Installation von bösartigen Anwendungen aus inoffiziellen Quellen verbunden. Auf einem Gerät, das regelmäßig aktualisiert wird, sorgfältig konfiguriert ist (insbesondere in Bezug auf die Berechtigungen) und nur offizielle oder überprüfte Quellen verwendet, ist das Infektionsrisiko sehr gering.
+Die Nützlichkeit von Antiviren-Software für Smartphones wird oft überschätzt, was vor allem auf aggressive Marketingkampagnen zurückzuführen ist. Echte Bedrohungen für Mobiltelefone, insbesondere für Android, sind in der Regel mit der Installation von bösartigen Anwendungen aus inoffiziellen Quellen verbunden. Auf einem Gerät, das regelmässig aktualisiert wird, sorgfältig konfiguriert ist (insbesondere in Bezug auf die Berechtigungen) und nur offizielle oder überprüfte Quellen verwendet, ist das Infektionsrisiko sehr gering.
 
 
-Außerdem sind Android-Geräte bereits standardmäßig mit Google Play Protect ausgestattet, das als Antivirenprogramm fungiert. Antiviren-Anwendungen von Drittanbietern verwenden denselben Interface-Scanner, was nur zusätzliche Redundanz bedeutet. In der Praxis bietet die mobile Antivirenlösung also nur einen geringen Mehrwert, egal ob auf Android oder iOS.
+Ausserdem sind Android-Geräte bereits standardmässig mit Google Play Protect ausgestattet, das als Antivirenprogramm fungiert. Antiviren-Anwendungen von Drittanbietern verwenden denselben Interface-Scanner, was nur zusätzliche Redundanz bedeutet. In der Praxis bietet die mobile Antivirenlösung also nur einen geringen Mehrwert, egal ob auf Android oder iOS.
 
 
-Darüber hinaus können diese Anwendungen bei den Nutzern ein falsches Sicherheitsgefühl hervorrufen und sie glauben lassen, dass sie vollständig vor Bedrohungen geschützt sind, während sie in Wirklichkeit nur einen reaktiven Schutz bieten. Sie bieten weder Schutz vor Phishing noch vor übermäßigen Berechtigungen für Anwendungen, obwohl die meisten Bedrohungen für Smartphones von genau diesen Vektoren ausgehen.
+Darüber hinaus können diese Anwendungen bei den Nutzern ein falsches Sicherheitsgefühl hervorrufen und sie glauben lassen, dass sie vollständig vor Bedrohungen geschützt sind, während sie in Wirklichkeit nur einen reaktiven Schutz bieten. Sie bieten weder Schutz vor Phishing noch vor übermässigen Berechtigungen für Anwendungen, obwohl die meisten Bedrohungen für Smartphones von genau diesen Vektoren ausgehen.
 
 
 Ihr tatsächlicher Nutzen ist daher sehr begrenzt, und diese Anwendungen sind manchmal kostspielig und verbrauchen unnötig Batteriestrom und Ressourcen. Es ist besser, sie nicht zu verwenden und einfach die in diesem Kapitel vorgestellten bewährten Verfahren anzuwenden.
@@ -6897,13 +6790,13 @@ Ihr tatsächlicher Nutzen ist daher sehr begrenzt, und diese Anwendungen sind ma
 ### Ausgehende Verbindungen prüfen
 
 
-Es gibt auch Smartphone-Firewall-Apps, wie NetGuard oder RethinkDNS, die als lokale Firewall direkt auf Ihrem Gerät fungieren. Sie nutzen die VPN-API von Android, um den gesamten ausgehenden Datenverkehr abzufangen, ohne Root-Zugriff zu benötigen.
+Es gibt auch Smartphone-Firewall-Apps, wie NetGuard oder RethinkDNS, die als lokale Firewall direkt auf deinem Gerät fungieren. Sie nutzen die VPN-API von Android, um den gesamten ausgehenden Datenverkehr abzufangen, ohne Root-Zugriff zu benötigen.
 
 
-In der Praxis bedeutet dies, dass Sie den Internetzugang für bestimmte Anwendungen individuell sperren können und damit das Risiko einer unerwünschten Datenerfassung oder unerlaubten Kommunikation erheblich reduzieren.
+In der Praxis bedeutet dies, dass du den Internetzugang für bestimmte Anwendungen individuell sperren kannst und damit das Risiko einer unerwünschten Datenerfassung oder unerlaubten Kommunikation erheblich reduzierst.
 
 
-Mit NetGuard können Sie zum Beispiel den Internetzugang für jede einzelne Anwendung verwalten, sowohl für Wi-Fi als auch für mobile Daten. RethinkDNS bietet auch erweiterte Funktionen wie DNS-Filterung, Werbeblockierung und DNS-Abfrageprüfung, um potenzielle Lecks zu erkennen.
+Mit NetGuard kannst du zum Beispiel den Internetzugang für jede einzelne Anwendung verwalten, sowohl für Wi-Fi als auch für mobile Daten. RethinkDNS bietet auch erweiterte Funktionen wie DNS-Filterung, Werbeblockierung und DNS-Abfrageprüfung, um potenzielle Lecks zu erkennen.
 
 
 ![Image](assets/fr/146.webp)
@@ -6912,39 +6805,39 @@ Mit NetGuard können Sie zum Beispiel den Internetzugang für jede einzelne Anwe
 ### Sichere Sicherung und Verwaltung im Falle eines Verlusts
 
 
-#### Verschlüsseln Sie Ihre Backups
+#### Verschlüssele deine Backups
 
 
-Die regelmäßige Sicherung Ihrer Smartphone-Daten ist für Ihre Sicherheit sehr wichtig. Diese Sicherung muss jedoch verschlüsselt werden, damit niemand auf Ihre sensiblen Daten zugreifen kann, der Ihre Sicherungsmedien in die Hände bekommt. Dies gilt gleichermaßen für Fotos, Dokumente und Anwendungsdaten.
+Die regelmässige Sicherung deiner Smartphone-Daten ist für deine Sicherheit sehr wichtig. Diese Sicherung muss jedoch verschlüsselt werden, damit niemand auf deine sensiblen Daten zugreifen kann, der deine Sicherungsmedien in die Hände bekommt. Dies gilt gleichermassen für Fotos, Dokumente und Anwendungsdaten.
 
 
-Um dies zu erreichen, sollten Sie verschlüsselte lokale Lösungen verwenden, wie eine externe Festplatte oder einen verschlüsselten USB-Stick (z. B. mit Veracrypt). Andernfalls können Sie mit selbst gehosteten Cloud-Lösungen wie *Syncthing* oder *Nextcloud* Ihre Daten auf einem persönlichen Server sichern und dabei die volle Kontrolle über Zugriff und Vertraulichkeit behalten. Im Gegensatz zu kommerziellen Cloud-Diensten (Google Drive, iCloud...) schränken diese Lösungen die Preisgabe Ihrer Daten an Dritte erheblich ein.
+Um dies zu erreichen, solltest du verschlüsselte lokale Lösungen verwenden, wie eine externe Festplatte oder einen verschlüsselten USB-Stick (z.B. mit Veracrypt). Andernfalls kannst du mit selbst gehosteten Cloud-Lösungen wie *Syncthing* oder *Nextcloud* deine Daten auf einem persönlichen Server sichern und dabei die volle Kontrolle über Zugriff und Vertraulichkeit behalten. Im Gegensatz zu kommerziellen Cloud-Diensten (Google Drive, iCloud...) schränken diese Lösungen die Preisgabe deiner Daten an Dritte erheblich ein.
 
 
 https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-#### Fernwischen
+#### Remote wiping
 
 
-Ein verlorenes oder gestohlenes Smartphone kann für einen Angreifer zu einer ergiebigen Informationsquelle werden: Persönliche Daten, Browser-Historien, verbundene Konten usw. Daher kann es sinnvoll sein, systemeigene Funktionen zum Auffinden, Sperren und Fernlöschen Ihres Geräts zu konfigurieren.
+Ein verlorenes oder gestohlenes Smartphone kann für einen Angreifer zu einer ergiebigen Informationsquelle werden: Persönliche Daten, Browser-Historien, verbundene Konten usw. Daher kann es sinnvoll sein, systemeigene Funktionen zum Auffinden, Sperren und Fernlöschen deines Geräts zu konfigurieren.
 
 
-Unter Android können Sie *Mein Gerät finden* über die Google-Einstellungen verwenden. Unter iOS spielt *Mein iPhone finden* die gleiche Rolle und ist über iCloud zugänglich. Mit diesen Tools können Sie den Zugriff sofort sperren, das Gerät anrufen, um es zu orten, oder als letzten Ausweg die Daten komplett aus der Ferne löschen. Es gibt auch ähnliche Dienste, die von den Software-Overlays der Hersteller verwaltet werden, wie z. B. *SmartThings Find* von Samsung.
+Unter Android kannst du *Mein Gerät finden* über die Google-Einstellungen verwenden. Unter iOS spielt *Mein iPhone finden* die gleiche Rolle und ist über iCloud zugänglich. Mit diesen Tools kannst du den Zugriff sofort sperren, das Gerät anrufen, um es zu orten, oder als letzten Ausweg die Daten komplett aus der Ferne löschen. Es gibt auch ähnliche Dienste, die von den Software-Overlays der Hersteller verwaltet werden, wie z.B. *SmartThings Find* von Samsung.
 
 
 ![Image](assets/fr/147.webp)
 
 
-Diese Funktionen sind jedoch mit erheblichen Kompromissen verbunden: Sie zentralisieren Ihre sensiblen Daten (Geolokalisierung, Anmeldungen, Fernzugriff usw.) auf den Servern eines privaten Unternehmens und erfordern, dass Sie Ihren Standort aktiviert lassen.
+Diese Funktionen sind jedoch mit erheblichen Kompromissen verbunden: Sie zentralisieren deine sensiblen Daten (Geolokalisierung, Anmeldungen, Fernzugriff usw.) auf den Servern eines privaten Unternehmens und erfordern, dass du ihren Standort aktiviert lässt.
 
 
-Wenn Sie sich dennoch dafür entscheiden, diese Funktionen zu implementieren, testen Sie sie im Voraus, um sicherzustellen, dass sie an dem Tag, an dem Sie sie tatsächlich benötigen, ordnungsgemäß funktionieren.
+Wenn du dich dennoch dafür entscheidest, diese Funktionen zu implementieren, teste sie im Voraus, um sicherzustellen, dass sie an dem Tag, an dem du sie tatsächlich benötigst, ordnungsgemäss funktionieren.
 
 
-Wenn Sie es vorziehen, diese Fernsteuerungsdienste nicht zu nutzen, empfehle ich Ihnen, die Daten Ihres Telefons regelmäßig zu sichern, um zu verhindern, dass Ihre Informationen bei Verlust oder Diebstahl Ihres Geräts verloren gehen. Um das Risiko zu begrenzen, dass ein Angreifer Zugang zu Ihren Daten erhält, sollten Sie ein sicheres Kennwort für Ihre Telefonsperre und Ihre SIM-Karte festlegen.
+Wenn du es vorziehst, diese Fernsteuerungsdienste nicht zu nutzen, empfehle ich dir, die Daten deines Telefons regelmässig zu sichern, um zu verhindern, dass deine Informationen bei Verlust oder Diebstahl deines Geräts verloren gehen. Um das Risiko zu begrenzen, dass ein Angreifer Zugang zu deinen Daten erhält, solltest du ein sicheres Kennwort für deine Telefonsperre und deine SIM-Karte festlegen.
 
 
-Wir sind am Ende dieses Kapitels über die besten Praktiken für Ihr Smartphone angelangt. Im nächsten Kapitel zeige ich Ihnen die besten Lösungen für eine sichere und vertrauliche Kommunikation über Ihr Gerät, sei es für Anrufe, den Austausch von Nachrichten oder die Verwaltung Ihrer Newsgroups.
+Wir sind am Ende dieses Kapitels über die besten Praktiken für dein Smartphone angelangt. Im nächsten Kapitel zeige ich dir die besten Lösungen für eine sichere und vertrauliche Kommunikation über dein Gerät, sei es für Anrufe, den Austausch von Nachrichten oder die Verwaltung deiner Newsgroups.
 
 
 ## Kommunizieren, ohne belauscht zu werden
@@ -6962,12 +6855,12 @@ In diesem Kapitel werden wir versuchen, die technischen und praktischen Probleme
 ### Warum schützen SMS-Nachrichten nicht den Datenaustausch?
 
 
-SMS (*Short Message Service*) war in der Vergangenheit für den Austausch von Texten sehr beliebt, basiert aber auf einem veralteten Protokoll aus den späten 1980er Jahren. Dieses Protokoll, das in die GSM-Normen (*Global System for Mobile communications*) integriert ist, bietet keinen Mechanismus zur End-to-End-Verschlüsselung. In der Praxis wird jede gesendete SMS im Klartext über die Netze der Mobilfunkbetreiber übertragen (manchmal nur im Interface-Funk verschlüsselt, aber niemals Ende-zu-Ende). Dies bedeutet, dass der Inhalt der Nachricht auf mehreren Ebenen abgefangen werden kann:
+SMS (*Short Message Service*) war in der Vergangenheit für den Austausch von Texten sehr beliebt, basiert aber auf einem veralteten Protokoll aus den späten 1980er Jahren. Dieses Protokoll, das in die GSM-Normen (*Global System for Mobile communications*) integriert ist, bietet keinen Mechanismus zur Ende-zu-Ende-Verschlüsselung. In der Praxis wird jede gesendete SMS im Klartext über die Netze der Mobilfunkbetreiber übertragen (manchmal nur im Interface-Funk verschlüsselt, aber niemals Ende-zu-Ende). Dies bedeutet, dass der Inhalt der Nachricht auf mehreren Ebenen abgefangen werden kann:
 
 
 
 - durch den Betreiber
-- durch einen böswilligen Akteur, der den Mobilfunkverkehr abfängt (z. B. über IMSI-Catcher)
+- durch einen böswilligen Akteur, der den Mobilfunkverkehr abfängt (z.B. über IMSI-Catcher)
 - oder von staatlichen Stellen mit legalem oder illegalem Zugang zu Netzinfrastrukturen
 
 
@@ -6977,7 +6870,7 @@ Die Tatsache, dass SMS-Nachrichten auf den zentralen Servern der Betreiber gespe
 Diese Beschränkungen gelten auch für MMS (*Multimedia Messaging Service*), das auf denselben technischen Grundlagen beruht und zusätzlich Multimedia-Inhalte (Fotos, Videos) enthält.
 
 
-In den letzten Jahren haben einige Betreiber und Hersteller RCS (*Rich Communication Services*) eingeführt, eine technische Weiterentwicklung von SMS. RCS ermöglicht den Versand angereicherter Nachrichten (Bilder, Videos, Empfangsbestätigungen usw.) und integriert eine Transitverschlüsselung (TLS), die jedoch weiterhin von den Servern der Betreiber abhängig ist und nicht in allen Fällen eine Ende-zu-Ende-Verschlüsselung garantiert. Darüber hinaus schränkt die Fragmentierung der Implementierung zwischen Betreibern und Herstellern (z. B. zwischen Android und iOS) die Akzeptanz und die tatsächliche Zuverlässigkeit ein.
+In den letzten Jahren haben einige Betreiber und Hersteller RCS (*Rich Communication Services*) eingeführt, eine technische Weiterentwicklung von SMS. RCS ermöglicht den Versand angereicherter Nachrichten (Bilder, Videos, Empfangsbestätigungen usw.) und integriert eine Transitverschlüsselung (TLS), die jedoch weiterhin von den Servern der Betreiber abhängig ist und nicht in allen Fällen eine Ende-zu-Ende-Verschlüsselung garantiert. Darüber hinaus schränkt die Fragmentierung der Implementierung zwischen Betreibern und Herstellern (z.B. zwischen Android und iOS) die Akzeptanz und die tatsächliche Zuverlässigkeit ein.
 
 
 Seit 2021 hat Google Messages das Signal-Protokoll übernommen, um eine Ende-zu-Ende-Verschlüsselung zu gewährleisten, aber diese Funktion ist nur verfügbar, wenn beide Parteien Google Messages verwenden.
@@ -6986,19 +6879,19 @@ Seit 2021 hat Google Messages das Signal-Protokoll übernommen, um eine Ende-zu-
 Im März 2025 veröffentlichte die GSM Association das *Universal Profile 3.0* (UP 3.0), das endlich einen Interoperabilitätsstandard für die Ende-zu-Ende-Verschlüsselung (E2EE) in RCS festlegt. Wenn ein Exchange über einen UP 3.0-konformen RCS-Client erfolgt, wird der Inhalt sowohl für den Betreiber als auch für einen IMSI-Catcher unlesbar. Google und Apple haben ihre Absicht angekündigt, diese Technologie zu unterstützen (es bleibt abzuwarten, ob dies interoperabel sein wird). Ist jedoch eines der Geräte nicht RCS UP 3.0-kompatibel oder besteht keine IP-Konnektivität, wird die Kommunikation automatisch auf herkömmliche, unverschlüsselte SMS umgestellt, was das Abfangen trivial macht.
 
 
-Auf der Apple-Seite bietet iMessage (eingeführt 2011) eine native Ende-zu-Ende-Verschlüsselung zwischen Apple-Nutzern, aber dieses Protokoll bleibt geschlossen und auf das iOS/macOS-Ökosystem beschränkt. Beim Austausch von Nachrichten mit Nutzern außerhalb dieses Ökosystems kehrt die Nachricht zum klassischen Protokoll zurück, wodurch jegliche Vertraulichkeit verloren geht. Die Verschlüsselung kann auch gebrochen werden, wenn Sie oder Ihr Gegenüber Ihre Nachrichten in iCloud ohne die Option *Erweiterter Datenschutz* speichern.
+Auf der Apple-Seite bietet iMessage (eingeführt 2011) eine native Ende-zu-Ende-Verschlüsselung zwischen Apple-Nutzern, aber dieses Protokoll bleibt geschlossen und auf das iOS/macOS-Ökosystem beschränkt. Beim Austausch von Nachrichten mit Nutzern ausserhalb dieses Ökosystems kehrt die Nachricht zum klassischen Protokoll zurück, wodurch jegliche Vertraulichkeit verloren geht. Die Verschlüsselung kann auch gebrochen werden, wenn du oder dein Gegenüber deine Nachrichten in iCloud ohne die Option *Erweiterter Datenschutz* speichern.
 
 
-Kurz gesagt, weder herkömmliche SMS, noch MMS oder sogar Standard-RCS können als zuverlässige, universelle Lösungen zur Wahrung der Vertraulichkeit des Austauschs angesehen werden. Nur die Verwendung von Google Messages, iMessage oder des künftigen RCS UP 3.0-Protokolls kann eine zufriedenstellende Vertraulichkeit gewährleisten, vorausgesetzt, beide Parteien verwenden das gleiche Verschlüsselungsprotokoll. Und genau hier liegt der größte Fallstrick von SMS im weitesten Sinne: Diese Messaging-Anwendung, die auf den meisten Telefonen vorinstalliert ist, vereint völlig unterschiedliche Protokolle, und wenn die andere Partei nur das SMS-Protokoll unterstützt, wird Ihre Nachricht im Klartext übertragen, ohne dass Sie es unbedingt merken. Deshalb rate ich dringend davon ab, herkömmliche Nachrichten zu verwenden, solange kein universeller und robuster Standard für die Ende-zu-Ende-Verschlüsselung etabliert ist, denn Sie sind viel zu sehr von der Wahl des Protokolls Ihres Gegenübers abhängig, um Ihre eigene Sicherheit zu gewährleisten.
+Kurz gesagt, weder herkömmliche SMS, noch MMS oder sogar Standard-RCS können als zuverlässige, universelle Lösungen zur Wahrung der Vertraulichkeit des Austauschs angesehen werden. Nur die Verwendung von Google Messages, iMessage oder des künftigen RCS UP 3.0-Protokolls kann eine zufriedenstellende Vertraulichkeit gewährleisten, vorausgesetzt, beide Parteien verwenden das gleiche Verschlüsselungsprotokoll. Und genau hier liegt der grösste Fallstrick von SMS im weitesten Sinne: Diese Messaging-Anwendung, die auf den meisten Telefonen vorinstalliert ist, vereint völlig unterschiedliche Protokolle, und wenn die andere Partei nur das SMS-Protokoll unterstützt, wird deine Nachricht im Klartext übertragen, ohne dass du es unbedingt merkst. Deshalb rate ich dringend davon ab, herkömmliche Nachrichten zu verwenden, solange kein universeller und robuster Standard für die Ende-zu-Ende-Verschlüsselung etabliert ist, denn du bist viel zu sehr von der Wahl des Protokolls deines Gegenübers abhängig, um deine eigene Sicherheit zu gewährleisten.
 
 
-Anstelle von SMS würde ich Ihnen raten, spezielle Messaging-Anwendungen zu verwenden, die eine robuste, transparente Ende-zu-Ende-Verschlüsselung nutzen und eine wirklich sichere und private Kommunikation ermöglichen.
+Anstelle von SMS würde ich dir raten, spezielle Messaging-Anwendungen zu verwenden, die eine robuste, transparente Ende-zu-Ende-Verschlüsselung nutzen und eine wirklich sichere und private Kommunikation ermöglichen.
 
 
 ### Sicheres Messaging: Welche Lösungen gibt es?
 
 
-Angesichts der Einschränkungen von SMS sind eine Reihe moderner Anwendungen entstanden, von denen einige über eine Ende-zu-Ende-Verschlüsselung verfügen. Im Folgenden finden Sie einen vergleichenden Überblick über die wichtigsten heute verfügbaren Anwendungen, der Ihnen helfen soll, die Anwendungen zu finden, die Ihren Anforderungen an Sicherheit und Vertraulichkeit am besten entsprechen.
+Angesichts der Einschränkungen von SMS sind eine Reihe moderner Anwendungen entstanden, von denen einige über eine Ende-zu-Ende-Verschlüsselung verfügen. Im Folgenden findest du einen vergleichenden Überblick über die wichtigsten heute verfügbaren Anwendungen, der dir helfen soll, die Anwendungen zu finden, die deinen Anforderungen an Sicherheit und Vertraulichkeit am besten entsprechen.
 
 
 #### Signal
@@ -7013,7 +6906,7 @@ Signal ist eine Instant-Messaging-Anwendung, die von Anfang an auf maximale Vert
 Technisch gesehen wird jede Konversation innerhalb von Signal durch einen asymmetrischen und flüchtigen Verschlüsselungsmechanismus geschützt: Die Sitzungsschlüssel werden dynamisch ausgehandelt und nach der Verwendung zerstört, wodurch das Risiko einer Kompromittierung begrenzt wird. Die Transparenz der Anwendung, deren Code sowohl auf der Client- als auch auf der Serverseite vollständig quelloffen ist, bedeutet, dass jeder Sicherheitsexperte oder Forscher ihre Integrität und die Einhaltung der angegebenen kryptografischen Standards überprüfen kann.
 
 
-Signal hat jedoch einen Schwachpunkt, wenn es um die Anonymität geht: Die Anwendung erfordert eine gültige Telefonnummer für die Benutzerregistrierung und -identifizierung. Obwohl diese Nummer für Ihre Kontakte nicht systematisch sichtbar ist (sie kann unter einem Pseudonym versteckt werden), führt diese Anforderung zu einer Abhängigkeit von der Telefoninfrastruktur und damit zu einer potenziellen Rückverfolgbarkeitslücke.
+Signal hat jedoch einen Schwachpunkt, wenn es um die Anonymität geht: Die Anwendung erfordert eine gültige Telefonnummer für die Benutzerregistrierung und -identifizierung. Obwohl diese Nummer für deine Kontakte nicht systematisch sichtbar ist (sie kann unter einem Pseudonym versteckt werden), führt diese Anforderung zu einer Abhängigkeit von der Telefoninfrastruktur und damit zu einer potenziellen Rückverfolgbarkeitslücke.
 
 
 Kurz gesagt, Signal ist eine sehr gute Messaging-Lösung, aber leider erfordert sie eine Verbindung über eine Telefonnummer.
@@ -7024,25 +6917,25 @@ https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-
 #### WhatsApp
 
 
-WhatsApp, das zu Meta (ehemals Facebook) gehört, verwendet ebenfalls das *Signalprotokoll* für die Ende-zu-Ende-Verschlüsselung. Theoretisch sind Ihre WhatsApp-Unterhaltungen also wirksam gegen Abhören geschützt. In Bezug auf die tatsächliche Vertraulichkeit ist dies jedoch nicht unbedingt das Beste: Die Anwendung sammelt eine riesige Menge an Metadaten (Nummern, Häufigkeit des Austauschs, ungefährer Standort, Kontakte...), die von Meta zu Werbe- oder Analysezwecken kommerziell genutzt werden können.
+WhatsApp, das zu Meta (ehemals Facebook) gehört, verwendet ebenfalls das *Signalprotokoll* für die Ende-zu-Ende-Verschlüsselung. Theoretisch sind deine WhatsApp-Unterhaltungen also wirksam gegen Abhören geschützt. In Bezug auf die tatsächliche Vertraulichkeit ist WhatsApp jedoch nicht unbedingt das Beste: Die Anwendung sammelt eine riesige Menge an Metadaten (Nummern, Häufigkeit des Austauschs, ungefährer Standort, Kontakte...), die von Meta zu Werbe- oder Analysezwecken kommerziell genutzt werden können.
 
 
-Außerdem kann die von WathsApp angewandte Verschlüsselung nicht überprüft werden, da der Quellcode urheberrechtlich geschützt ist. Deshalb empfehle ich nicht, WhatsApp in einem Kontext zu verwenden, in dem die Vertraulichkeit und Sicherheit Ihres Austauschs wichtig sind.
+Ausserdem kann die von WhatsApp angewandte Verschlüsselung nicht überprüft werden, da der Quellcode urheberrechtlich geschützt ist. Deshalb empfehle ich nicht, WhatsApp in einem Kontext zu verwenden, in dem die Vertraulichkeit und Sicherheit deines Nachrichten-Austauschs wichtig sind.
 
 
-#### Telegramm
+#### Telegram
 
 
-Telegram ist dank seiner Ergonomie und seiner Funktionen (öffentliche Kanäle, Bots, große Gruppen...) ein sehr beliebter Messaging-Dienst. Allerdings ist seine Sicherheit standardmäßig sehr viel eingeschränkter: Nur "geheime Austausche" profitieren von einer Ende-zu-Ende-Verschlüsselung. Alle anderen Unterhaltungen (der Großteil des täglichen Austauschs der Nutzer) werden unverschlüsselt auf den Servern von Telegram gespeichert.
+Telegram ist dank seiner Ergonomie und seiner Funktionen (öffentliche Kanäle, Bots, grosse Gruppen...) ein sehr beliebter Messaging-Dienst. Allerdings ist seine Sicherheit standardmässig sehr viel eingeschränkter: Nur "geheime Nachrichten" profitieren von einer Ende-zu-Ende-Verschlüsselung. Alle anderen Unterhaltungen (der Grossteil des täglichen Austauschs der Nutzer) werden unverschlüsselt auf den Servern von Telegram gespeichert.
 
 
 ![Image](assets/fr/149.webp)
 
 
-Telegram kann daher technisch auf den Inhalt der meisten Unterhaltungen zugreifen, die nicht ausdrücklich geschützt sind. Auch wenn das Unternehmen eine feste Haltung gegenüber Regierungsbehörden einnimmt, ist Telegram keine optimale Lösung für vertrauliche oder sensible Gespräche, es sei denn, Sie nutzen ausdrücklich die "geheimen Gespräche", die im Alltag weit weniger praktisch sind.
+Telegram kann daher technisch auf den Inhalt der meisten Unterhaltungen zugreifen, die nicht ausdrücklich geschützt sind. Auch wenn das Unternehmen eine feste Haltung gegenüber Regierungsbehörden einnimmt, ist Telegram keine optimale Lösung für vertrauliche oder sensible Gespräche. Es sei denn, du nutzt ausdrücklich die "geheimen Nachrichten", die im Alltag weit weniger praktisch sind.
 
 
-https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7053,16 +6946,16 @@ Threema, das 2012 in der Schweiz eingeführt wurde, unterscheidet sich von den m
 ![Image](assets/fr/150.webp)
 
 
-Technisch gesehen bietet Threema eine Ende-zu-Ende-Verschlüsselung für die gesamte Kommunikation: Nachrichten, Anrufe, Dateien, Gruppen und andere Funktionen. Seit 2020 ist der Quellcode für mobile Anwendungen Open Source, was eine unabhängige Überprüfung ermöglicht. Die Serverinfrastruktur hingegen bleibt proprietär, obwohl sie sich ausschließlich in der Schweiz befindet, einem Land, dessen Gesetzgebung den Schutz personenbezogener Daten begünstigt.
+Technisch gesehen bietet Threema eine Ende-zu-Ende-Verschlüsselung für die gesamte Kommunikation: Nachrichten, Anrufe, Dateien, Gruppen und andere Funktionen. Seit 2020 ist der Quellcode für mobile Anwendungen Open Source, was eine unabhängige Überprüfung ermöglicht. Die Serverinfrastruktur hingegen bleibt proprietär, obwohl sie sich ausschliesslich in der Schweiz befindet, einem Land, dessen Gesetzgebung den Schutz personenbezogener Daten begünstigt.
 
 
-Die Anwendung ist mit Android und iOS kompatibel und bietet auch einen sicheren Interface-Web- sowie einen nativen Client für Windows, Linux und macOS. Die erste Aktivierung erfordert jedoch ein Smartphone.
+Die Anwendung ist mit Android und iOS kompatibel und bietet auch ein sicheres Web-Interface sowie einen nativen Client für Windows, Linux und macOS. Die erste Aktivierung erfordert jedoch ein Smartphone.
 
 
 Ein weiterer wichtiger Aspekt von Threema ist sein Geschäftsmodell: Die Anwendung ist nicht kostenlos, sondern muss gekauft werden (etwa 5,99 €). Diese Entscheidung vermeidet die Abhängigkeit von einem Modell, das auf Datenerfassung oder Werbung basiert. Um die Anonymität beim Kauf zu wahren, können Aktivierungsschlüssel in Bitcoins oder Bargeld direkt im Threema Shop für Android erworben werden.
 
 
-Ich halte diese Nachrichtenübermittlungslösung für ausgezeichnet, aber ihr größter Nachteil ist, dass der Quellcode für ihre Server proprietär bleibt.
+Ich halte diese Nachrichtenübermittlungslösung für ausgezeichnet, aber ihr grösster Nachteil ist, dass der Quellcode für ihre Server proprietär bleibt.
 
 
 https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
@@ -7070,7 +6963,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 #### SimpleX Chat
 
 
-SimpleX Chat, das 2021 auf den Markt kommt, verzichtet vollständig auf eine Benutzer-ID: keine Telefonnummer, kein öffentliches Pseudonym, kein sichtbarer öffentlicher Schlüssel. Jeder Nutzer wird ausschließlich durch Links oder flüchtige QR-Codes identifiziert. Diese Architektur macht eine Korrelation zwischen den Nutzern praktisch unmöglich und garantiert ein hohes Maß an Vertraulichkeit.
+SimpleX Chat, das 2021 auf den Markt kommt, verzichtet vollständig auf eine Benutzer-ID: keine Telefonnummer, kein öffentliches Pseudonym, kein sichtbarer öffentlicher Schlüssel. Jeder Nutzer wird ausschliesslich durch Links oder flüchtige QR-Codes identifiziert. Diese Architektur macht eine Korrelation zwischen den Nutzern praktisch unmöglich und garantiert ein hohes Mass an Vertraulichkeit.
 
 
 ![Image](assets/fr/151.webp)
@@ -7079,10 +6972,10 @@ SimpleX Chat, das 2021 auf den Markt kommt, verzichtet vollständig auf eine Ben
 Technisch gesehen werden die Nachrichten von Ende zu Ende verschlüsselt und durchlaufen Relay-Server. Diese Relay-Server haben keine Kenntnis von Absender, Empfänger oder deren Schlüssel. Sobald eine Nachricht übertragen wurde, wird sie auf dem Server sofort gelöscht. SimpleX verwendet eine unverbundene, dezentrale Architektur: Die Server teilen sich kein globales Verzeichnis, und jeder Benutzer kann sein eigenes Relais installieren. Dies steht im Gegensatz zu Lösungen wie Matrix, wo föderierte Server den Austausch von Nachrichten verfolgen.
 
 
-Das Protokoll ist vollständig quelloffen: Clients, Server und Protokolle sind öffentlich zugänglich und werden überprüft. SimpleX ist auf Android, iOS, Linux, Windows und macOS verfügbar und verfügt über einen verschlüsselten, portablen lokalen Speicher, sodass Profile ohne zentralen Server übertragen werden können. Jeder Nutzer kann auch mehrere isolierte Profile verwalten, jedes mit eigenen Einstellungen, Nickname und Foto. Diese Flexibilität ermöglicht es, Privatleben, Berufsleben und Pseudonymität klar zu trennen.
+Das Protokoll ist vollständig quelloffen: Clients, Server und Protokolle sind öffentlich zugänglich und werden überprüft. SimpleX ist auf Android, iOS, Linux, Windows und macOS verfügbar und verfügt über einen verschlüsselten, portablen lokalen Speicher, so dass Profile ohne zentralen Server übertragen werden können. Jeder Nutzer kann auch mehrere isolierte Profile verwalten, jedes mit eigenen Einstellungen, Nickname und Foto. Diese Flexibilität ermöglicht es, Privatleben, Berufsleben und Pseudonymität klar zu trennen.
 
 
-Kontakte werden über temporäre Links oder statische Adressen (dauerhafte, aber widerrufbare Identifikatoren) hinzugefügt. Sie können auch zwischen dem ephemeren Exchange oder einem klassischeren Modus mit fein abgestuften Kontrollen für Sichtbarkeit und Berechtigungen wählen (z. B. können Sie Ihren echten Namen hinter einem zufälligen, eindeutigen Pseudonym für jeden Kontakt verstecken).
+Kontakte werden über temporäre Links oder statische Adressen (dauerhafte, aber widerrufbare Identifikatoren) hinzugefügt. Du kannst auch zwischen dem flüchtigen Austausch oder einem klassischeren Modus mit fein abgestuften Kontrollen für Sichtbarkeit und Berechtigungen wählen (z.B. kannst du deinen echten Namen hinter einem zufälligen, eindeutigen Pseudonym für jeden Kontakt verstecken).
 
 
 In Bezug auf Sicherheit und Vertraulichkeit geht SimpleX weiter als die meisten bestehenden Nachrichtensysteme, indem es die Metadaten auf ein Minimum beschränkt und jede Abhängigkeit von einem zentralen Verzeichnis oder einer eindeutigen Kennung beseitigt. Diese Architektur bringt jedoch eine Reihe von Kompromissen in Bezug auf die Benutzerfreundlichkeit mit sich: manchmal weniger intuitive Ergonomie, die Notwendigkeit einer leichten Einarbeitung und die Abhängigkeit von der Verfügbarkeit von Relay-Servern.
@@ -7090,7 +6983,7 @@ In Bezug auf Sicherheit und Vertraulichkeit geht SimpleX weiter als die meisten 
 
 https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Sitzung
+#### Session
 
 
 Session, das 2020 von der Oxen Privacy Tech Foundation auf den Markt gebracht wurde, ist eine Messaging-App, die angesichts der Überwachung mehr Privatsphäre und Widerstandsfähigkeit bieten soll. Session erfordert keine persönlichen Informationen bei der Registrierung: keine Telefonnummer, keine E-Mail, nur ein Paar lokal generierter kryptografischer Schlüssel. Dies ermöglicht eine anonyme Authentifizierung.
@@ -7102,7 +6995,7 @@ Session, das 2020 von der Oxen Privacy Tech Foundation auf den Markt gebracht wu
 Technisch gesehen, implementiert Session eine Ende-zu-Ende-Verschlüsselung für Nachrichten, Dateien, Audio und Anrufe sowie für Gruppen (bis zu 100 Mitglieder). Die Nachrichten werden über ein dezentralisiertes Netzwerk geleitet, das auf Node-Servern basiert, die von der Zwiebelarchitektur von Tor inspiriert sind. Dieser Mechanismus bietet fortschrittlichen Schutz vor Netzwerküberwachung, auch durch Internetanbieter und staatliche Akteure.
 
 
-Der Session-Client und -Server sind Open-Source. Die Software ist für Android, iOS, Windows, macOS und Linux verfügbar, mit einer Option zur Synchronisierung zwischen Geräten über die Mnemonic-Phrase, ähnlich der in Bitcoin-Wallets verwendeten. Diese Phrase gibt dem Nutzer die exklusive Kontrolle über seine Daten, erlegt ihm aber auch eine große Verantwortung in Bezug auf die Datensicherung auf.
+Der Session-Client und -Server sind Open-Source. Die Software ist für Android, iOS, Windows, macOS und Linux verfügbar, mit einer Option zur Synchronisierung zwischen Geräten über die Mnemonic-Phrase, ähnlich der in Bitcoin-Wallets verwendeten. Diese Phrase gibt dem Nutzer die exklusive Kontrolle über seine Daten, erlegt ihm aber auch eine grosse Verantwortung in Bezug auf die Datensicherung auf.
 
 
 https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
@@ -7110,13 +7003,13 @@ https://planb.academy/tutorials/computer-security/communication/session-b0e3193c
 #### Keet
 
 
-Keet, das 2022 von Holepunch (einem von Tether und Bitfinex unterstützten Unternehmen) eingeführt wurde, zeichnet sich durch seinen radikal dezentralen Ansatz aus: Die gesamte Kommunikation (Nachrichten, Audio- und Videoanrufe, Dateiübertragungen usw.) findet direkt zwischen den Nutzern statt, ohne einen zentralen Server zu durchlaufen. Diese P2P-Architektur macht Zwischenhändler überflüssig und erhöht die Vertraulichkeit und Widerstandsfähigkeit des Systems erheblich.
+Keet, das 2022 von Holepunch (einem von Tether und Bitfinex unterstützten Unternehmen) eingeführt wurde, zeichnet sich durch seinen radikal dezentralen Ansatz aus: Die gesamte Kommunikation (Nachrichten, Audio- und Videoanrufe, Dateiübertragungen usw.) findet direkt zwischen den Nutzern statt, ohne über einen zentralen Server zu laufen. Diese P2P-Architektur macht Zwischenhändler überflüssig und erhöht die Vertraulichkeit und Widerstandsfähigkeit des Systems erheblich.
 
 
 ![Image](assets/fr/153.webp)
 
 
-Keet verschlüsselt die gesamte Kommunikation von Anfang bis Ende. Die Registrierung ist völlig anonym: Es ist keine Telefonnummer, keine E-Mail Address und keine Kennung erforderlich. Dies gewährleistet eine erhöhte Vertraulichkeit von dem Moment an, in dem der Dienst aktiviert wird. Die Videoanrufe sind von höchster Qualität und die Dateiübertragungen sind von unbegrenzter Größe, so dass der Dienst sowohl für die berufliche als auch für die private Nutzung geeignet ist.
+Keet verschlüsselt die gesamte Kommunikation von Anfang bis Ende. Die Registrierung ist völlig anonym: Es ist keine Telefonnummer, keine E-Mail Adresse und keine Kennung erforderlich. Dies gewährleistet eine erhöhte Vertraulichkeit von dem Moment an, in dem der Dienst aktiviert wird. Die Videoanrufe sind von höchster Qualität und die Dateiübertragungen sind von unbegrenzter Grösse, so dass der Dienst sowohl für die berufliche als auch für die private Nutzung geeignet ist.
 
 
 Andererseits wurden zwar einige Komponenten (Kryptografie und Netzwerke) als Open Source auf GitHub veröffentlicht, doch war der Interface-Client von Keet zum Zeitpunkt der Erstellung von SCU-202 (Mai 2025) nicht vollständig offen. Holepunch hat jedoch seine Absicht angekündigt, den gesamten Code in Zukunft zu veröffentlichen.
@@ -7145,21 +7038,21 @@ Die Serverinfrastruktur bleibt jedoch proprietär und zentralisiert und wird bei
 Das Sicherheitsmodell von Olvid basiert auf einem wichtigen Prinzip: Das völlige Fehlen einer vertrauenswürdigen dritten Partei bei der Einrichtung digitaler Identitäten. Im Gegensatz zu den meisten verschlüsselten Messaging-Systemen, die sich auf ein zentralisiertes Verzeichnis zur Verwaltung von Benutzeridentitäten stützen, ist Olvid nicht auf eine zentralisierte Infrastruktur angewiesen, um die Integrität der Kommunikation zu gewährleisten. Diese Architektur eliminiert die mit der Kompromittierung von Verzeichnissen verbundenen Risiken.
 
 
-Olvid verwendet zwar einen zentralen Server für die Nachrichtenverteilung, aber seine Rolle ist rein logistischer Natur: Er kümmert sich um die asynchrone Übertragung der verschlüsselten Nachrichten. Dieser Server ist in keiner Phase des Verschlüsselungsprozesses beteiligt und kennt weder die tatsächliche Identität der Benutzer noch den Inhalt oder die Metadaten der Nachrichten (mit Ausnahme des öffentlichen Schlüssels des Empfängers, der für die Weiterleitung benötigt wird). Er kann daher standardmäßig als feindlich betrachtet werden, ohne die allgemeine Sicherheit zu beeinträchtigen. Selbst wenn es kompromittiert wäre, würde es keinen Zugriff auf den Inhalt der Kommunikation erlauben. Olvid geht daher von einer zentralisierten Nachrichtenverteilung aus (aus Gründen der Effizienz und der Dienstqualität), wobei die Sicherheit unabhängig von dieser Infrastruktur gewährleistet wird.
+Olvid verwendet zwar einen zentralen Server für die Nachrichtenverteilung, aber seine Rolle ist rein logistischer Natur: Er kümmert sich um die asynchrone Übertragung der verschlüsselten Nachrichten. Dieser Server ist in keiner Phase des Verschlüsselungsprozesses beteiligt und kennt weder die tatsächliche Identität der Benutzer noch den Inhalt oder die Metadaten der Nachrichten (mit Ausnahme des öffentlichen Schlüssels des Empfängers, der für die Weiterleitung benötigt wird). Er kann daher standardmässig als feindlich betrachtet werden, ohne die allgemeine Sicherheit zu beeinträchtigen. Selbst wenn es kompromittiert wäre, würde es keinen Zugriff auf den Inhalt der Kommunikation erlauben. Olvid geht daher von einer zentralisierten Nachrichtenverteilung aus (aus Gründen der Effizienz und der Dienstqualität), wobei die Sicherheit unabhängig von dieser Infrastruktur gewährleistet wird.
 
 
 Olvid bietet zwei Versionen an:
 
 
 
-- Eine kostenlose Version, die alle Funktionen außer Audio- und Videoanrufe (nur Empfang) und Synchronisierung mehrerer Geräte bietet
+- Eine kostenlose Version, die alle Funktionen ausser Audio- und Videoanrufe (nur Empfang) und Synchronisierung mehrerer Geräte bietet
 - Eine kostenpflichtige Version für 4,99 € pro Monat schaltet alle Funktionen frei
 
 
 Die Anwendung ist von der ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*) zertifiziert.
 
 
-Olvid ist kompatibel mit Android, iOS, Windows, macOS und Linux. Seine Ergonomie bleibt einfach und zugänglich. Die Anwendung bietet auch ein verschlüsseltes Backup-System für Schlüssel und Kontakte, so dass Sie ein Konto auf einem neuen Gerät wiederherstellen können.
+Olvid ist kompatibel mit Android, iOS, Windows, macOS und Linux. Seine Ergonomie bleibt einfach und zugänglich. Die Anwendung bietet auch ein verschlüsseltes Backup-System für Schlüssel und Kontakte, so dass du ein Konto auf einem neuen Gerät wiederherstellen kannst.
 
 
 https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
@@ -7167,30 +7060,30 @@ https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-6
 ### Zu vermeidende Messaging-Anwendungen
 
 
-Beliebte Messaging-Anwendungen wie WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat und LINE werden täglich in großem Umfang genutzt. Aus technischer Sicht entsprechen diese Plattformen jedoch nicht den modernen Sicherheitsstandards, die für die private Kommunikation geeignet sind.
+Beliebte Messaging-Anwendungen wie WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat und LINE werden täglich in grossem Umfang genutzt. Aus technischer Sicht entsprechen diese Plattformen jedoch nicht den modernen Sicherheitsstandards, die für die private Kommunikation geeignet sind.
 
 
-Bei der Auswahl eines Nachrichtendienstes sind im Allgemeinen zwei grundlegende Kriterien zu beachten: Bietet er eine Ende-zu-Ende-Verschlüsselung, und ist sein Code quelloffen? Dann gibt es noch andere Merkmale, die von Interesse sein können, wie z. B. die anonyme Registrierung oder die Verwendung einer dezentralen Netzwerkarchitektur, aber diese ersten beiden Elements sind die Grundlagen. Die Verschlüsselung garantiert die Vertraulichkeit Ihres Austauschs, während die Offenlegung des Quellcodes es Ihnen ermöglicht, zu überprüfen, ob die Verschlüsselung sicher implementiert wurde.
+Bei der Auswahl eines Nachrichtendienstes sind im Allgemeinen zwei grundlegende Kriterien zu beachten: Bietet er eine Ende-zu-Ende-Verschlüsselung, und ist sein Code quelloffen? Dann gibt es noch andere Merkmale, die von Interesse sein können, wie z.B. die anonyme Registrierung oder die Verwendung einer dezentralen Netzwerkarchitektur, aber diese ersten beiden Elements sind die Grundlagen. Die Verschlüsselung garantiert die Vertraulichkeit deines Austauschs, während die Offenlegung des Quellcodes es dir ermöglicht, zu überprüfen, ob die Verschlüsselung sicher implementiert wurde.
 
 
-Die Inanspruchnahme von Diensten, die diese beiden Voraussetzungen nicht erfüllen, ist gleichbedeutend damit, den Schutz Ihrer Börsen vollständig an kommerzielle Akteure zu delegieren, deren wirtschaftliche Interessen häufig von ihrer Ausbeutung abhängen.
+Die Inanspruchnahme von Diensten, die diese beiden Voraussetzungen nicht erfüllen, ist gleichbedeutend damit, den Schutz deines Nachrichtenaustauschs vollständig an kommerzielle Akteure zu delegieren, deren wirtschaftliche Interessen häufig von ihrer Ausbeutung abhängen.
 
 
-Im Folgenden finden Sie eine zusammenfassende Tabelle der wichtigsten bestehenden Messaging-Anwendungen und ihrer Funktionen, wie sie zum Zeitpunkt der Erstellung dieses Berichts (Mai 2025) vorlagen:
+Im Folgenden findest du eine zusammenfassende Tabelle der wichtigsten bestehenden Messaging-Anwendungen und ihrer Funktionen, wie sie zum Zeitpunkt der Erstellung dieses Berichts (Mai 2025) vorlagen:
 
 
-| Application          | E2EE 1:1       | E2EE groups   | Anonymous registration | Client open-source license | Server open-source license | Decentralized server | Creation year |
+| Applikation          | E2EE 1:1       | E2EE Gruppen   | Anonyme Registrierung | Client Open-source Lizenz | Server Open-source Lizenz | Dezentralisierte Server | Erstellungsjahr |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (optional) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optional) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2014              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (föderiert)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via E-Mail)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (föderiert)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
 | Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directory)   | 2019              |
@@ -7202,10 +7095,10 @@ Im Folgenden finden Sie eine zusammenfassende Tabelle der wichtigsten bestehende
 *E2EE = Ende-zu-Ende-Verschlüsselung*
 
 
-Die Sicherheit Ihrer elektronischen Kommunikation hängt in erster Linie von der Wahl der richtigen Anwendung und der Anwendung bewährter Verfahren ab. Das Verständnis der zugrundeliegenden Sicherheitsmechanismen, das Erkennen der Schwachstellen herkömmlicher Lösungen und die Wahl zuverlässiger Alternativen sind die wesentlichen Grundlagen für eine Kommunikation, die nicht abgehört werden kann.
+Die Sicherheit deiner elektronischen Kommunikation hängt in erster Linie von der Wahl der richtigen Anwendung und der Anwendung bewährter Verfahren ab. Das Verständnis der zugrundeliegenden Sicherheitsmechanismen, das Erkennen der Schwachstellen herkömmlicher Lösungen und die Wahl zuverlässiger Alternativen sind die wesentlichen Grundlagen für eine Kommunikation, die nicht abgehört werden kann.
 
 
-Bisher haben wir uns damit beschäftigt, wie Sie Ihr Smartphone sichern und eine zuverlässige Messaging-App auswählen können. Im nächsten Kapitel schlage ich vor, diese Studie auf alle wichtigen Familien mobiler Anwendungen auszuweiten, um datenschutzfreundliche Alternativen zu Ihren Lieblingsanwendungen zu finden. Welche Open-Source-Anwendungen stehen Ihnen zur Verfügung, ganz gleich, ob es sich um E-Mail, Dateispeicherung, Mapping, Video- oder Musikstreaming handelt?
+Bisher haben wir uns damit beschäftigt, wie du dein Smartphone sichern und eine zuverlässige Messaging-App auswählen können. Im nächsten Kapitel schlage ich vor, diese Studie auf alle wichtigen Familien mobiler Anwendungen auszuweiten, um datenschutzfreundliche Alternativen zu deinen Lieblingsanwendungen zu finden. Welche Open-Source-Anwendungen stehen dir zur Verfügung, ganz gleich, ob es sich um E-Mail, Dateispeicherung, Mapping, Video- oder Musikstreaming handelt?
 
 
 ## open-Source-Anwendungen: die besten Alternativen
@@ -7214,7 +7107,7 @@ Bisher haben wir uns damit beschäftigt, wie Sie Ihr Smartphone sichern und eine
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
 
 
-Abgesehen von Instant-Messaging-Anwendungen ist es wichtig, daran zu denken, dass andere Anwendungen auf Ihrem Smartphone Ihre Daten für kommerzielle Zwecke nutzen können. Glücklicherweise gibt es Open-Source-Alternativen, die Ihre Privatsphäre respektieren. Diese möchte ich Ihnen in diesem Kapitel vorstellen.
+Abgesehen von Instant-Messaging-Anwendungen ist es wichtig, daran zu denken, dass andere Anwendungen auf deinem Smartphone deine Daten für kommerzielle Zwecke nutzen können. Glücklicherweise gibt es Open-Source-Alternativen, die deine Privatsphäre respektieren. Diese möchte ich dir in diesem Kapitel vorstellen.
 
 
 Ich werde hier nicht noch einmal auf die Alternativen zu Browsern und Instant Messengern eingehen, da wir sie bereits in früheren Kapiteln ausführlich behandelt haben.
@@ -7223,7 +7116,7 @@ Ich werde hier nicht noch einmal auf die Alternativen zu Browsern und Instant Me
 ### Kunden-E-Mails
 
 
-E-Mail ist nach wie vor ein unverzichtbares Kommunikationsmittel, aber die beliebtesten Anwendungen wie Gmail oder Outlook werfen eine Reihe von Datenschutzproblemen auf. Diese Dienste analysieren häufig Ihre Nachrichten, speichern Metadaten und beteiligen sich an der Erstellung von Werbeprofilen.
+E-Mail ist nach wie vor ein unverzichtbares Kommunikationsmittel, aber die beliebtesten Anwendungen wie Gmail oder Outlook werfen eine Reihe von Datenschutzproblemen auf. Diese Dienste analysieren häufig deine Nachrichten, speichern Metadaten und beteiligen sich an der Erstellung von Werbeprofilen.
 
 
 **Alternativen**:
@@ -7233,7 +7126,7 @@ E-Mail ist nach wie vor ein unverzichtbares Kommunikationsmittel, aber die belie
 - [FairEmail](https://email.faircode.eu/)
 
 
-FairEmail ist eine umfassende, sicherheitsorientierte Android-Anwendung. Sie unterstützt alle IMAP/SMTP-Anbieter, ermöglicht die Nachrichtenverschlüsselung über OpenPGP, blockiert entfernte Bilder (die als Tracker verwendet werden) und verwendet keine Dienste von Drittanbietern. Es gibt Ihnen eine fein abgestufte Kontrolle über Verbindungen, Benachrichtigungen und das Synchronisationsverhalten.
+FairEmail ist eine umfassende, sicherheitsorientierte Android-Anwendung. Sie unterstützt alle IMAP/SMTP-Anbieter, ermöglicht die Nachrichtenverschlüsselung über OpenPGP, blockiert entfernte Bilder (die als Tracker verwendet werden) und verwendet keine Dienste von Drittanbietern. Es gibt dir eine fein abgestufte Kontrolle über Verbindungen, Benachrichtigungen und das Synchronisationsverhalten.
 
 
 ![Image](assets/fr/155.webp)
@@ -7253,18 +7146,17 @@ K-9 Mail ist ein Open-Source-Android-Mail-Client, der kürzlich in das Thunderbi
 - [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
-Thunderbird Mobile ist die mobile Version des beliebten Open-Source-E-Mail-Clients, der von der Mozilla Foundation entwickelt wurde. Getreu der Philosophie des Projekts legt die Anwendung Wert auf Vertraulichkeit, Transparenz des Codes und das Fehlen aufdringlicher Telemetrie. Thunderbird Mobile basiert auf der Anwendung K-9 Mail, deren offizieller Nachfolger für Android es ist. Es bietet eine erweiterte Verwaltung von IMAP- und POP-Konten, E-Mail-Verschlüsselung (über OpenPGP) und einen einfachen, effizienten Interface.
+Thunderbird Mobile ist die mobile Version des beliebten Open-Source-E-Mail-Clients, der von der Mozilla Foundation entwickelt wurde. Getreu der Philosophie des Projekts legt die Anwendung Wert auf Vertraulichkeit, Transparenz des Codes und das Fehlen aufdringlicher Telemetrie. Thunderbird Mobile basiert auf der Anwendung K-9 Mail, deren offizieller Nachfolger für Android es ist. Es bietet eine erweiterte Verwaltung von IMAP- und POP-Konten, E-Mail-Verschlüsselung (über OpenPGP) und ein einfaches, effizientes Interface.
 
 
 ![Image](assets/fr/157.webp)
 
 
 
-https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
-Tuta (ehemals "*Tutanota*") bietet eine vollständige Lösung für verschlüsselte End-to-End-E-Mails, aber der mobile Client unterstützt nur Tuta-Konten. Er funktioniert nicht mit anderen Anbietern. Interface ist modern und übersichtlich, und die Registrierung erfordert keine persönlichen Daten.
+Tuta (ehemals "*Tutanota*") bietet eine vollständige Lösung für verschlüsselte End-to-End-E-Mails, aber der mobile Client unterstützt nur Tuta-Konten. Er funktioniert nicht mit anderen Anbietern. Das Interface ist modern und übersichtlich, und die Registrierung erfordert keine persönlichen Daten.
 
 
 ![Image](assets/fr/158.webp)
@@ -7280,13 +7172,13 @@ Proton Mail ist ein sicherer Messaging-Dienst mit Sitz in der Schweiz, der eine 
 ![Image](assets/fr/159.webp)
 
 
-Ein E-Mail-System besteht aus 2 verschiedenen Komponenten: Dem E-Mail-Anbieter (z. B. Gmail, Tuta oder Proton Mail), der den Empfang, den Versand und die Speicherung von Nachrichten über Server abwickelt, und dem E-Mail-Client, der die Anwendung ist, mit der Sie Ihre E-Mails anzeigen und schreiben können (z. B. Gmail die Anwendung, Outlook, K-9 Mail oder Thunderbird). Der Client kann sich über Standardprotokolle wie IMAP oder SMTP mit verschiedenen Anbietern verbinden.
+Ein E-Mail-System besteht aus zwei verschiedenen Komponenten: Dem E-Mail-Anbieter (z.B. Gmail, Tuta oder Proton Mail), der den Empfang, den Versand und die Speicherung von Nachrichten über Server abwickelt, und dem E-Mail-Client, der die Anwendung ist, mit der du deine E-Mails anzeigen und schreiben kannst (z.B. Gmail die Anwendung, Outlook, K-9 Mail oder Thunderbird). Der Client kann sich über Standardprotokolle wie IMAP oder SMTP mit verschiedenen Anbietern verbinden.
 
 
 Es ist daher möglich, einen datenschutzfreundlichen Open-Source-Client zu verwenden und gleichzeitig ein Konto bei einem herkömmlichen Anbieter zu unterhalten. Einige Anwendungen wie Gmail, Proton Mail oder Tuta bieten E-Mail-Clients an, die auch als Messaging-Anbieter fungieren und somit eine Komplettlösung bieten, die sowohl das Lesen als auch das Senden und Empfangen von Interface-E-Mails integriert.
 
 
-Hier sind ein paar Vorschläge, wenn Sie Ihren E-Mail-Anbieter auswählen:
+Hier sind ein paar Vorschläge, wenn du deinen E-Mail-Anbieter auswählst:
 
 
 
@@ -7300,20 +7192,20 @@ Hier sind ein paar Vorschläge, wenn Sie Ihren E-Mail-Anbieter auswählen:
 ### Kartographie und Navigation
 
 
-Die meisten klassischen Kartenanwendungen wie Google Maps, Waze oder Citymapper sammeln eine Vielzahl persönlicher Daten. Sie zeichnen Ihre Bewegungen, Suchen und Gewohnheiten auf und nutzen sie für kommerzielle Zwecke.
+Die meisten klassischen Kartenanwendungen wie Google Maps, Waze oder Citymapper sammeln eine Vielzahl persönlicher Daten. Sie zeichnen deine Bewegungen, Suchen und Gewohnheiten auf und nutzen sie für kommerzielle Zwecke.
 
 
 **Alternativen**:
 
 
 
-- [Organische Karten] (https://organicmaps.app/)
+- [Organic Maps] (https://organicmaps.app/)
 
 
-Organic Maps ist eine kostenlose Offline-Navigationsanwendung. Sie basiert auf Daten von [OpenStreetMap](https://www.openstreetmap.org), einer offenen, gemeinschaftlichen Datenbank. Sie laden die Karten der Regionen herunter, für die Sie sich interessieren, und navigieren dann ohne Netz.
+Organic Maps ist eine kostenlose Offline-Navigationsanwendung. Sie basiert auf Daten von [OpenStreetMap](https://www.openstreetmap.org), einer offenen, gemeinschaftlichen Datenbank. Du lädtst die Karten der Regionen herunter, für die du dich interessierst, und navigierst dann ohne Netz.
 
 
-Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich besonders für Fahrten zu Fuß, mit dem Fahrrad oder dem Auto, wobei Interface einfach, schnell und ablenkungsfrei ist.
+Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich besonders für Fahrten zu Fuss, mit dem Fahrrad oder dem Auto, wobei das Interface einfach, schnell und ablenkungsfrei ist.
 
 
 ![Image](assets/fr/160.webp)
@@ -7323,13 +7215,13 @@ Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich be
 - [OsmAnd](https://osmand.net/)
 
 
-OsmAnd (*OpenStreetMap Automated Navigation Directions*) ist eine weitere umfassende Open-Source-Kartenanwendung. Sie bietet Offline-GPS-Navigation, detaillierte Karten (einschließlich Wanderwege, Radwege und Landformen) und umfangreiche Anpassungsmöglichkeiten.
+OsmAnd (*OpenStreetMap Automated Navigation Directions*) ist eine weitere umfassende Open-Source-Kartenanwendung. Sie bietet Offline-GPS-Navigation, detaillierte Karten (einschliesslich Wanderwege, Radwege und Landformen) und umfangreiche Anpassungsmöglichkeiten.
 
 
-Sie können verschiedene Ebenen aktivieren (Fußgängerzonen, öffentliche Verkehrsmittel usw.), Geschwindigkeitswarnungen definieren oder spezielle Karten, z. B. für Wanderungen oder Seerouten, integrieren.
+Du kannst verschiedene Ebenen aktivieren (Fussgängerzonen, öffentliche Verkehrsmittel usw.), Geschwindigkeitswarnungen definieren oder spezielle Karten, z.B. für Wanderungen oder Seerouten, integrieren.
 
 
-Die kostenlose Version ist bereits sehr umfangreich, und mit der kostenpflichtigen Version können Sie noch mehr Funktionen freischalten und das Projekt unterstützen.
+Die kostenlose Version ist bereits sehr umfangreich, und mit der kostenpflichtigen Version kannst du noch mehr Funktionen freischalten und das Projekt unterstützen.
 
 
 ![Image](assets/fr/161.webp)
@@ -7348,10 +7240,10 @@ Klassische Office-Tools wie Google Docs oder Microsoft Office sind zwar sehr pra
 - [Collabora Office](https://www.collaboraoffice.com/)
 
 
-Collabora Office ist eine mobile Version von LibreOffice, die für Android- und iOS-Smartphones und -Tablets entwickelt wurde. Damit können Sie Office-Dokumente erstellen, bearbeiten und teilen, ohne Ihr Gerät oder Ihre persönliche Cloud zu verlassen.
+Collabora Office ist eine mobile Version von LibreOffice, die für Android- und iOS-Smartphones und -Tablets entwickelt wurde. Damit kannst du Office-Dokumente erstellen, bearbeiten und teilen, ohne dein Gerät oder deine persönliche Cloud zu verlassen.
 
 
-Die Anwendung unterstützt die kollaborative Bearbeitung, wenn sie mit einer Nextcloud-Instanz mit der Erweiterung Collabora Online verbunden ist. Dies ermöglicht es, eine Google Docs ähnliche Erfahrung zu reproduzieren, indem Sie Ihre Dateien selbst hosten.
+Die Anwendung unterstützt die kollaborative Bearbeitung, wenn sie mit einer Nextcloud-Instanz mit der Erweiterung Collabora Online verbunden ist. Dies ermöglicht es, eine Google Docs ähnliche Erfahrung zu reproduzieren, indem du deine Dateien selbst hostest.
 
 
 ![Image](assets/fr/162.webp)
@@ -7361,7 +7253,7 @@ Die Anwendung unterstützt die kollaborative Bearbeitung, wenn sie mit einer Nex
 - [ONLYOFFICE](https://www.onlyoffice.com/)
 
 
-ONLYOFFICE ist eine Open-Source-Office-Suite. Mit ihr können Sie Word-, Excel- und PowerPoint-Dokumente direkt auf Ihrem Handy öffnen und bearbeiten, auch lokal. Sie können es auch mit verschiedenen Cloud-Diensten wie Nextcloud zur automatischen Synchronisierung verbinden.
+ONLYOFFICE ist eine Open-Source-Office-Suite. Mit ihr kannst du Word-, Excel- und PowerPoint-Dokumente direkt auf deinem Handy öffnen und bearbeiten, auch lokal. Du kannst sie auch mit verschiedenen Cloud-Diensten wie Nextcloud zur automatischen Synchronisierung verbinden.
 
 
 ![Image](assets/fr/163.webp)
@@ -7370,7 +7262,7 @@ ONLYOFFICE ist eine Open-Source-Office-Suite. Mit ihr können Sie Word-, Excel- 
 ### Dateimanager und Cloud
 
 
-Dienste wie Google Drive oder Dropbox speichern Ihre Dateien auf entfernten Servern, die privaten Unternehmen gehören. Ihre Daten können dann gescannt und für Werbe- oder Statistikzwecke verwendet werden. Außerdem benötigen Sie eine Internetverbindung und ein Drittanbieterkonto, um darauf zuzugreifen.
+Dienste wie Google Drive oder Dropbox speichern deine Dateien auf entfernten Servern, die privaten Unternehmen gehören. Deine Daten können dann gescannt und für Werbe- oder Statistikzwecke verwendet werden. Ausserdem benötigst du eine Internetverbindung und ein Drittanbieterkonto, um darauf zuzugreifen.
 
 
 **Alternativen**:
@@ -7380,20 +7272,20 @@ Dienste wie Google Drive oder Dropbox speichern Ihre Dateien auf entfernten Serv
 - [Nextcloud](https://nextcloud.com/)
 
 
-Nextcloud ist eine persönliche Open-Source-Cloud-Lösung, die Sie selbst hosten oder über einen vertrauenswürdigen Anbieter nutzen können. Damit können Sie Ihre Dateien von Ihrem Smartphone aus synchronisieren, freigeben und bearbeiten, während Sie die volle Kontrolle über deren Speicherung behalten.
+Nextcloud ist eine persönliche Open-Source-Cloud-Lösung, die du selbst hosten oder über einen vertrauenswürdigen Anbieter nutzen kannst. Damit kannst du deine Dateien von deinem Smartphone aus synchronisieren, freigeben und bearbeiten, während du die volle Kontrolle über deren Speicherung behältst.
 
 
-Auf Android können Sie die offizielle Nextcloud Mobile App installieren, um von überall auf Ihre persönliche Cloud zuzugreifen. Sie können auch Funktionen wie Fotoverwaltung, Office, Kalender und Messaging hinzufügen.
+Auf Android kannst du die offizielle Nextcloud Mobile App installieren, um von überall auf deine persönliche Cloud zuzugreifen. Du kannst auch Funktionen wie Fotoverwaltung, Office, Kalender und Messaging hinzufügen.
 
 
 ![Image](assets/fr/164.webp)
 
 
 
-- [Materialdateien](https://github.com/zhanghai/MaterialFiles)
+- [MaterialFiles](https://github.com/zhanghai/MaterialFiles)
 
 
-Material Files ist ein Open-Source-Dateimanager, der leicht und übersichtlich ist. Mit ihm können Sie Dateien lokal auf Ihrem Android-Gerät durchsuchen, verschieben, kopieren oder löschen.
+Material Files ist ein Open-Source-Dateimanager, der leicht und übersichtlich ist. Mit ihm kannst du Dateien lokal auf deinem Android-Gerät durchsuchen, verschieben, kopieren oder löschen.
 
 
 Die Anwendung enthält keine Werbung oder Tracker und erfordert keine missbräuchlichen Berechtigungen. Sie ist eine interessante Alternative zum von Google bereitgestellten Datei-Explorer, der oft in andere proprietäre Cloud-Dienste integriert ist.
@@ -7405,7 +7297,7 @@ Die Anwendung enthält keine Werbung oder Tracker und erfordert keine missbräuc
 ### Kalender / Tagebuch
 
 
-Viele Menschen nutzen Anwendungen wie Google Kalender oder Outlook Kalender, um ihre Termine zu verwalten. Diese Dienste sind jedoch mit zentralisierten Online-Konten verbunden, die Daten über Ihre Gewohnheiten, Treffpunkte und Interaktionen sammeln.
+Viele Menschen nutzen Anwendungen wie Google Kalender oder Outlook Kalender, um ihre Termine zu verwalten. Diese Dienste sind jedoch mit zentralisierten Online-Konten verbunden, die Daten über deine Gewohnheiten, Treffpunkte und Interaktionen sammeln.
 
 
 **Alternativen**:
@@ -7422,10 +7314,10 @@ Etar ist ein einfacher, effizienter und vollständig quelloffener Kalender. Er k
 
 
 
-- [Einfacher Kalender](https://simplemobiletools.com/simplecalendar/)
+- [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
 
 
-Diese Anwendung ist Teil der "*Simple Mobile Tools*"-Suite. Sie erfordert weder ein Konto noch einen Netzzugang und ist daher ideal für die vollständige Offline-Nutzung. Sie können Ereignisse hinzufügen, Erinnerungen einstellen und Ansichten nach Tag, Woche oder Monat organisieren. Wie der Rest der Suite ist Simple Calendar werbefrei, trackerfrei und 100% Open-Source.
+Diese Anwendung ist Teil der "*Simple Mobile Tools*"-Suite. Sie erfordert weder ein Konto noch einen Netzzugang und ist daher ideal für die vollständige Offline-Nutzung. Du kannst Ereignisse hinzufügen, Erinnerungen einstellen und Ansichten nach Tag, Woche oder Monat organisieren. Wie der Rest der Suite ist Simple Calendar werbefrei, trackerfrei und 100% Open-Source.
 
 
 ![Image](assets/fr/167.webp)
@@ -7435,17 +7327,17 @@ Diese Anwendung ist Teil der "*Simple Mobile Tools*"-Suite. Sie erfordert weder 
 - [Tuta-Kalender](https://tuta.com/calendar)
 
 
-Tuta Calendar, entwickelt von dem Team hinter Tuta Mail, ist ein vollständig verschlüsselter Kalender, der Ihre Termine vertraulich behandelt. Er funktioniert auf Android, iOS und über einen Web-Client. Sogar die Titel, Beschreibungen und Metadaten Ihrer Veranstaltungen sind verschlüsselt, so dass kein Dritter, einschließlich Tuta, auf Ihre Daten zugreifen kann.
+Tuta Calendar, entwickelt von dem Team hinter Tuta Mail, ist ein vollständig verschlüsselter Kalender, der deine Termine vertraulich behandelt. Er funktioniert auf Android, iOS und über einen Web-Client. Sogar die Titel, Beschreibungen und Metadaten deiner Veranstaltungen sind verschlüsselt, so dass kein Dritter, einschliesslich Tuta, auf deine Daten zugreifen kann.
 
 
 ![Image](assets/fr/168.webp)
 
 
 
-- [Protonen-Kalender](https://proton.me/calendar)
+- [Proton-Kalender](https://proton.me/calendar)
 
 
-Proton Calendar bietet auch eine native Ende-zu-Ende-Verschlüsselung für Ihre Ereignisse und deren Metadaten. Er ist mobil (Android, iOS) und über einen Web-Client zugänglich, mit einem klaren und intuitiven Interface. Der Dienst ermöglicht die Erstellung mehrerer Kalender, den Import/Export von Ereignissen und Freigabeoptionen. Der Web-Client ist Open-Source, aber die mobilen Anwendungen sind noch nicht vollständig Open-Source.
+Proton Calendar bietet auch eine native Ende-zu-Ende-Verschlüsselung für deine Ereignisse und deren Metadaten. Er ist mobil (Android, iOS) und über einen Web-Client zugänglich, mit einem klaren und intuitiven Interface. Der Dienst ermöglicht die Erstellung mehrerer Kalender, den Import/Export von Ereignissen und Freigabeoptionen. Der Web-Client ist Open-Source, aber die mobilen Anwendungen sind noch nicht vollständig Open-Source.
 
 
 ![Image](assets/fr/169.webp)
@@ -7454,7 +7346,7 @@ Proton Calendar bietet auch eine native Ende-zu-Ende-Verschlüsselung für Ihre 
 ### Notizen machen
 
 
-Anwendungen wie Evernote, Google Keep oder OneNote werden verwendet, um Ideen festzuhalten, Aufgaben zu organisieren oder Listen zu speichern. Allerdings sind sie alle auf proprietäre Online-Dienste angewiesen, die Ihre Daten auf ihren Servern zentralisieren und Ihre Inhalte oft für kommerzielle Zwecke analysieren.
+Anwendungen wie Evernote, Google Keep oder OneNote werden verwendet, um Ideen festzuhalten, Aufgaben zu organisieren oder Listen zu speichern. Allerdings sind sie alle auf proprietäre Online-Dienste angewiesen, die deine Daten auf ihren Servern zentralisieren und deine Inhalte oft für kommerzielle Zwecke analysieren.
 
 
 **Alternativen**:
@@ -7464,7 +7356,7 @@ Anwendungen wie Evernote, Google Keep oder OneNote werden verwendet, um Ideen fe
 - [Quillpad](https://quillpad.github.io/)
 
 
-Quillpad ist eine leichtgewichtige Anwendung, die speziell für die Erstellung von Markdown-Notizen entwickelt wurde. Mit ihr können Sie Ihre Notizen optional verschlüsseln, Ihre Inhalte durch Tags und Farben organisieren und Erinnerungen hinzufügen. Alles funktioniert ohne ein Konto oder eine Verbindung, und die Daten bleiben auf Ihrem Gerät gespeichert. Sie können auch verschlüsselt auf pCloud gespeichert werden.
+Quillpad ist eine leichtgewichtige Anwendung, die speziell für die Erstellung von Markdown-Notizen entwickelt wurde. Mit ihr kannst du deine Notizen optional verschlüsseln, deine Inhalte durch Tags und Farben organisieren und Erinnerungen hinzufügen. Alles funktioniert ohne ein Konto oder eine Verbindung, und die Daten bleiben auf deinem Gerät gespeichert. Sie können auch verschlüsselt auf pCloud gespeichert werden.
 
 
 ![Image](assets/fr/170.webp)
@@ -7474,10 +7366,10 @@ Quillpad ist eine leichtgewichtige Anwendung, die speziell für die Erstellung v
 - [Joplin](https://joplinapp.org/)
 
 
-Joplin ist eine umfassendere Lösung, die die Synchronisierung von verschlüsselten Notizen über kompatible Dienste wie Nextcloud, Dropbox oder WebDAV bietet. Sie können einfache oder strukturierte Notizen (in Markdown) verwalten, Ihre Dokumente klassifizieren und sogar Dateianhänge importieren.
+Joplin ist eine umfassendere Lösung, die die Synchronisierung von verschlüsselten Notizen über kompatible Dienste wie Nextcloud, Dropbox oder WebDAV bietet. Du kannst einfache oder strukturierte Notizen (in Markdown) verwalten, deine Dokumente klassifizieren und sogar Dateianhänge importieren.
 
 
-Der Interface ist etwas komplexer als der von QuillNote, aber immer noch perfekt für den mobilen Einsatz geeignet und sowohl für den privaten als auch für den beruflichen Gebrauch geeignet.
+Das Interface ist etwas komplexer als der von QuillNote, aber immer noch perfekt für den mobilen Einsatz geeignet und sowohl für den privaten als auch für den beruflichen Gebrauch geeignet.
 
 
 ![Image](assets/fr/171.webp)
@@ -7486,7 +7378,7 @@ Der Interface ist etwas komplexer als der von QuillNote, aber immer noch perfekt
 ### Passwort-Manager
 
 
-Viele Nutzer lassen ihre Passwörter in ihrem Browser über Lösungen wie Google Password Manager speichern. Diese Art der zentralen Verwaltung ist zwar praktisch, bietet aber keine nutzergesteuerte Ende-zu-Ende-Verschlüsselung und setzt Ihre Anmeldedaten einem Risiko aus, sollte Ihr Google-Konto kompromittiert werden. Für eine sicherere und souveräne Verwaltung Ihrer Passwörter gibt es mehrere Open-Source-Alternativen.
+Viele Nutzer lassen ihre Passwörter in ihrem Browser über Lösungen wie Google Passwort Manager speichern. Diese Art der zentralen Verwaltung ist zwar praktisch, bietet aber keine nutzergesteuerte Ende-zu-Ende-Verschlüsselung und setzt deine Anmeldedaten einem Risiko aus, sollte dein Google-Konto kompromittiert werden. Für eine sicherere und souveräne Verwaltung deiner Passwörter gibt es mehrere Open-Source-Alternativen.
 
 
 **Alternativen**:
@@ -7496,10 +7388,10 @@ Viele Nutzer lassen ihre Passwörter in ihrem Browser über Lösungen wie Google
 - [Bitwarden](https://bitwarden.com/)
 
 
-Bitwarden ist einer der umfassendsten Open-Source-Passwortmanager auf dem Markt. Er verschlüsselt alle Ihre Anmeldeinformationen lokal, ermöglicht Ihnen generate starke Passwörter und bietet verschlüsselte Synchronisierung zwischen Geräten.
+Bitwarden ist einer der umfassendsten Open-Source-Passwortmanager auf dem Markt. Er verschlüsselt alle deine Anmeldeinformationen lokal, ermöglicht das Generieren starker Passwörter und bietet verschlüsselte Synchronisierung zwischen Geräten.
 
 
-Sie können die Server von Bitwarden nutzen oder es selbst hosten, wenn Sie die volle Kontrolle haben möchten. Sein Interface Mobile ist klar und flüssig, mit nahtloser Integration in das Android- oder iOS-System.
+Du kannst die Server von Bitwarden nutzen oder es selbst hosten, wenn du die volle Kontrolle haben möchtest. Sein Interface auf dem Mobile ist klar und flüssig, mit nahtloser Integration in das Android- oder iOS-System.
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -7532,10 +7424,10 @@ Proton Pass wurde vom Proton-Team (u.a. bekannt für Proton Mail und Proton Driv
 ### VPN
 
 
-VPNs (*Virtuelles Privates Netzwerk*) ermöglichen es Ihnen, Ihren Internetverkehr zu verschlüsseln und ihn über einen entfernten Vermittlungsserver zu leiten. Dies maskiert Ihre IP Address, sichert Ihre Verbindungen in öffentlichen Netzen (Flughafen-Wi-Fi, Cafés...) und schützt Sie vor bestimmten Formen der Überwachung.
+VPNs (*Virtuelles Privates Netzwerk*) ermöglichen es dir, deinen Internetverkehr zu verschlüsseln und ihn über einen entfernten Vermittlungsserver zu leiten. Dies maskiert deine IP-Adresse, sichert deine Verbindungen in öffentlichen Netzen (Flughafen-Wi-Fi, Cafés...) und schützt dich vor bestimmten Formen der Überwachung.
 
 
-Allerdings sind nicht alle VPNs gleich. Beliebte Dienste wie NordVPN oder ExpressVPN funktionieren gut, aber ihr Ansatz bleibt kommerziell, mit einem Modell, das auf der Nachverfolgung der Nutzer zur Marketingoptimierung basiert. Außerdem müssen sie ein Konto anlegen und sammeln oft mehr Daten, als sie zugeben.
+Allerdings sind nicht alle VPNs gleich. Beliebte Dienste wie NordVPN oder ExpressVPN funktionieren gut, aber ihr Ansatz bleibt kommerziell, mit einem Modell, das auf der Nachverfolgung der Nutzer zur Marketingoptimierung basiert. Ausserdem musst du ein Konto anlegen und sie sammeln oft mehr Daten, als sie zugeben.
 
 
 **Alternativen**:
@@ -7545,7 +7437,7 @@ Allerdings sind nicht alle VPNs gleich. Beliebte Dienste wie NordVPN oder Expres
 - [Mullvad VPN](https://mullvad.net/)
 
 
-Mullvad ist einer der besten VPNs in Bezug auf den Schutz der Privatsphäre. Es erfordert keine E-Mail oder Passwort: Ihr Konto ist mit einer einfachen Zufallszahl verknüpft. Die Zahlung kann in Bitcoins oder Bargeld erfolgen. Der mobile Client ist quelloffen, einfach zu bedienen und leistungsstark. Mullvad speichert keine Protokolle, verfolgt seine Nutzer nicht und veröffentlicht regelmäßig unabhängige Sicherheitsprüfungen.
+Mullvad ist einer der besten VPNs in Bezug auf den Schutz der Privatsphäre. Er erfordert kein E-Mail oder Passwort: Dein Konto ist mit einer einfachen Zufallszahl verknüpft. Die Zahlung kann in Bitcoins oder Bargeld erfolgen. Der mobile Client ist quelloffen, einfach zu bedienen und leistungsstark. Mullvad speichert keine Protokolle, verfolgt seine Nutzer nicht und veröffentlicht regelmässig unabhängige Sicherheitsprüfungen.
 
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
@@ -7554,7 +7446,7 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 - [IVPN](https://www.ivpn.net/)
 
 
-IVPN ist eine weitere hervorragende, auf den Datenschutz ausgerichtete Alternative. Es bietet ein einfaches und effizientes mobiles Interface, keine Log-Erfassung und ermöglicht eine anonyme Registrierung. Sie können auch in Bitcoins bezahlen. Die Anwendung verfügt über eine Firewall, die jeglichen Nicht-VPN-Verkehr blockiert, was auf einem Smartphone sehr nützlich sein kann. Die Clients sind Open-Source.
+IVPN ist eine weitere hervorragende, auf Datenschutz ausgerichtete Alternative. Er bietet ein einfaches und effizientes mobiles Interface, keine Log-Erfassung und ermöglicht eine anonyme Registrierung. Du kannst auch in Bitcoins bezahlen. Die Anwendung verfügt über eine Firewall, die jeglichen Nicht-VPN-Verkehr blockiert, was auf einem Smartphone sehr nützlich sein kann. Die Clients sind Open-Source.
 
 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -7563,7 +7455,7 @@ https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 - [Proton VPN](https://protonvpn.com/)
 
 
-Dieses VPN wurde vom Proton-Team entwickelt und bietet einen kostenlosen, werbefreien Plan. Proton VPN ist in der Schweiz ansässig, unterliegt strengen Datenschutzgesetzen und veröffentlicht regelmäßige Audits. Seine Clients sind außerdem quelloffen.
+Dieses VPN wurde vom Proton-Team entwickelt und bietet ein kostenloses, werbefreies Abo. Proton VPN ist in der Schweiz ansässig, unterliegt strengen Datenschutzgesetzen und veröffentlicht regelmässige Audits. Seine Clients sind ausserdem quelloffen.
 
 
 ![Image](assets/fr/174.webp)
@@ -7572,7 +7464,7 @@ Dieses VPN wurde vom Proton-Team entwickelt und bietet einen kostenlosen, werbef
 ### 2FA-Authentifizierung
 
 
-Die Zwei-Faktoren-Authentifizierung (2FA) ist ein zusätzliches Layer der Sicherheit zu Ihrem Passwort. Sie stützt sich oft auf einen einmaligen Code, der alle 30 Sekunden von einer Authentifizierungsanwendung generiert wird. Dieser Code basiert auf einem Geheimnis, das zwischen Ihrem Gerät und dem Online-Dienst gemäß dem TOTP-Protokoll (*Time-based One-Time Password*) ausgetauscht wird. Die bekannteste Anwendung ist Google Authenticator, aber sie ist nicht quelloffen und macht Sie vom Google-Ökosystem abhängig.
+Die Zwei-Faktoren-Authentifizierung (2FA) ist eine zusätzliche  Sicherheitsschicht zusätzlich zu deinem Passwort. Sie stützt sich oft auf einen einmaligen Code, der alle 30 Sekunden von einer Authentifizierungsanwendung generiert wird. Dieser Code basiert auf einem Geheimnis, das zwischen deinem Gerät und dem Online-Dienst gemäss dem TOTP-Protokoll (*Time-based One-Time Password*) ausgetauscht wird. Die bekannteste Anwendung ist Google Authenticator, aber sie ist nicht quelloffen und macht dich vom Google-Ökosystem abhängig.
 
 
 **Alternativen**:
@@ -7582,7 +7474,7 @@ Die Zwei-Faktoren-Authentifizierung (2FA) ist ein zusätzliches Layer der Sicher
 - [Aegis Authenticator](https://getaegis.app/)
 
 
-Aegis ist eine umfassende Open-Source-Anwendung. Sie verschlüsselt Ihre 2FA-Datenbank mit einem Passwort, bietet exportierbare Backups (ebenfalls verschlüsselt) und lässt Sie Ihre Konten nach Verzeichnissen sortieren. Das Interface ist übersichtlich, modern und lässt sich leicht auf einem neuen Gerät wiederherstellen, solange Sie die Sicherungsdatei und das zugehörige Passwort haben.
+Aegis ist eine umfassende Open-Source-Anwendung. Sie verschlüsselt deine 2FA-Datenbank mit einem Passwort, bietet exportierbare Backups (ebenfalls verschlüsselt) und lässt dich deine Konten nach Verzeichnissen sortieren. Das Interface ist übersichtlich, modern und lässt sich leicht auf einem neuen Gerät wiederherstellen, solange du die Sicherungsdatei und das zugehörige Passwort hast.
 
 
 ![Image](assets/fr/175.webp)
@@ -7592,10 +7484,9 @@ Aegis ist eine umfassende Open-Source-Anwendung. Sie verschlüsselt Ihre 2FA-Dat
 - [Ente Auth](https://ente.io/auth/)
 
 
-Ente Auth ist eine moderne, quelloffene, plattformübergreifende Lösung mit verschlüsselten End-to-End-Backups. Sie ermöglicht es Ihnen, Ihre 2FA-Codes sicher auf dem Handy, dem Desktop und im Web zu synchronisieren. Sie können es auch offline verwenden, ohne Cloud-Backup oder Kontoerstellung.
+Ente Auth ist eine moderne, quelloffene, plattformübergreifende Lösung mit verschlüsselten Ende-zu-Ende-Backups. Sie ermöglicht es dir, deine 2FA-Codes sicher auf dem Handy, dem Desktop und im Web zu synchronisieren. Du kannst sie auch offline verwenden, ohne Cloud-Backup oder Kontoerstellung.
 
 
-https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth bietet viele zusätzliche Funktionen: Organisation nach Tags, benutzerdefinierte Icons für jeden Dienst, Notizen, Favoriten, integrierte Suche, sichere gemeinsame Nutzung von Teamcodes.
 
 
@@ -7611,8 +7502,7 @@ Authy bietet 2FA-Synchronisierung über mehrere Geräte hinweg, was praktisch se
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
-Wenn Sie mehr über Passwortmanager, 2FA-Authentifizierung und VPNs erfahren möchten, empfehle ich Ihnen, die entsprechenden Kapitel im SCU-101-Kurs zu lesen:
+Wenn du mehr über Passwortmanager, 2FA-Authentifizierung und VPNs erfahren möchtest, empfehle ich dir, die entsprechenden Kapitel im SCU-101-Kurs zu lesen:
 
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -7620,14 +7510,14 @@ https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 ### Wetter
 
 
-Klassische Wetteranwendungen wie AccuWeather oder Météo France sammeln oft persönliche Daten, einschließlich Ihres genauen Standorts, Ihrer Nutzungsgewohnheiten und manchmal sogar Gerätekennungen, für kommerzielle oder Werbezwecke. Diese Dienste stützen sich außerdem auf zentralisierte, proprietäre APIs, wodurch Sie nur begrenzt kontrollieren können, welche Daten angezeigt oder übertragen werden.
+Klassische Wetteranwendungen wie AccuWeather oder Météo France sammeln oft persönliche Daten, einschliesslich deines genauen Standorts, deiner Nutzungsgewohnheiten und manchmal sogar Gerätekennungen, für kommerzielle oder Werbezwecke. Diese Dienste stützen sich ausserdem auf zentralisierte, proprietäre APIs, wodurch du nur begrenzt kontrollieren kannst, welche Daten angezeigt oder übertragen werden.
 
 
 **Alternativen**:
 
 
 
-- [Geometrisches Wetter](https://github.com/WangDaYeeeeee/GeometricWeather)
+- [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
 
 
 Geometric Weather bietet detaillierte Vorhersagen und anpassbare Widgets, alles ohne Werbung oder aufdringliche Datenerfassung. Der Code ist Open-Source. Die Anwendung unterstützt mehrere Wetteranbieter.
@@ -7640,7 +7530,7 @@ Geometric Weather bietet detaillierte Vorhersagen und anpassbare Widgets, alles 
 - [Prognoza](https://github.com/davidtakac/prognoza)
 
 
-Prognoza ist eine minimalistische Anwendung, die direkt auf den Punkt kommt: Die Anzeige des aktuellen Wetters und der Vorhersagen. Es bietet mehrere Widgets. Prognoza ist werbefrei, trackerfrei und erfordert keine unnötigen Berechtigungen.
+Prognoza ist eine minimalistische Anwendung, die direkt auf den Punkt kommt: Die Anzeige des aktuellen Wetters und der Vorhersagen. Sie bietet mehrere Widgets. Prognoza ist werbefrei, trackerfrei und erfordert keine unnötigen Berechtigungen.
 
 
 ![Image](assets/fr/178.webp)
@@ -7656,7 +7546,7 @@ Einfache Wetteranwendung, basierend auf OpenWeatherMap, Open-Source, konfigurier
 ![Image](assets/fr/179.webp)
 
 
-Im Allgemeinen ist es bei Wetteranwendungen besser, die Orte, die Sie interessieren, manuell zu konfigurieren, als die automatische Geolokalisierung zu aktivieren.
+Im Allgemeinen ist es bei Wetteranwendungen besser, die Orte, die dich interessieren, manuell zu konfigurieren, als die automatische Geolokalisierung zu aktivieren.
 
 
 ### Streaming von Audio/Video
@@ -7672,7 +7562,7 @@ Beliebte Plattformen wie Spotify oder YouTube bieten ein nahtloses Nutzererlebni
 - [LibreTube](https://libretube.dev/)
 
 
-LibreTube ist eine Android-Anwendung, mit der Sie YouTube-Videos ansehen können, ohne dass Google Sie verfolgt. Alle Anfragen werden über einen Piped-Proxyserver umgeleitet, der den Zugang zu Videos anonymisiert. Der Interface ist modern, schnell und werbefrei. Die Anwendung erfordert kein Google-Konto und ermöglicht es Ihnen, anonym Kanäle zu abonnieren oder lokale Wiedergabelisten zu erstellen.
+LibreTube ist eine Android-Anwendung, mit der du YouTube-Videos ansehen kannst, ohne dass Google dich verfolgt. Alle Anfragen werden über einen Piped-Proxyserver umgeleitet, der den Zugang zu Videos anonymisiert. Der Interface ist modern, schnell und werbefrei. Die Anwendung erfordert kein Google-Konto und ermöglicht es dir, anonym Kanäle zu abonnieren oder lokale Wiedergabelisten zu erstellen.
 
 
 ![Image](assets/fr/180.webp)
@@ -7682,14 +7572,14 @@ LibreTube ist eine Android-Anwendung, mit der Sie YouTube-Videos ansehen können
 - [NewPipe](https://newpipe.net/)
 
 
-NewPipe ist ein weiterer alternativer YouTube-Client. Er ist leichtgewichtig, werbefrei, trackerfrei und vollständig quelloffen. Mit ihm können Sie Videos von YouTube (und anderen Plattformen wie SoundCloud oder PeerTube) im Hintergrund ansehen, herunterladen oder anhören. Eine Verbindung zu Google ist nicht erforderlich. NewPipe arbeitet völlig unabhängig von der offiziellen YouTube-Anwendung und benötigt keinen Google-Dienst, um zu funktionieren.
+NewPipe ist ein weiterer alternativer YouTube-Client. Er ist leichtgewichtig, werbefrei, trackerfrei und vollständig quelloffen. Mit ihm kannst du Videos von YouTube (und anderen Plattformen wie SoundCloud oder PeerTube) im Hintergrund ansehen, herunterladen oder anhören. Eine Verbindung zu Google ist nicht erforderlich. NewPipe arbeitet völlig unabhängig von der offiziellen YouTube-Anwendung und benötigt keinen Google-Dienst, um zu funktionieren.
 
 
 
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 
-Der beliebte VLC Media Player ist auch für Android verfügbar. Er unterstützt eine breite Palette von Audio- und Videoformaten und ermöglicht die Wiedergabe von Dateien lokal oder über ein Netzwerk, und zwar ohne Werbung oder Datenerfassung. Er ist eine hervorragende Lösung, um Ihre eigene Multimedia-Bibliothek lokal zu verwalten, ohne Verbindung zu einem Drittanbieterdienst.
+Der beliebte VLC Media Player ist auch für Android verfügbar. Er unterstützt eine breite Palette von Audio- und Videoformaten und ermöglicht die Wiedergabe von Dateien lokal oder über ein Netzwerk, und zwar ohne Werbung oder Datenerfassung. Er ist eine hervorragende Lösung, um deine eigene Multimedia-Bibliothek lokal zu verwalten, ohne Verbindung zu einem Drittanbieterdienst.
 
 
 ![Image](assets/fr/181.webp)
@@ -7705,7 +7595,7 @@ Funkwhale ist eine dezentrale Plattform zum Teilen und Hören von Musik mit komp
 ### Tastatur
 
 
-Virtuelle Tastaturen wie Gboard von Google oder SwiftKey von Microsoft sind auf Smartphones allgegenwärtig. Sie bergen jedoch große Risiken für den Datenschutz: Jedes getippte Zeichen kann theoretisch aufgezeichnet, analysiert oder an entfernte Server übertragen werden. Auch wenn diese Unternehmen behaupten, die Daten zu anonymisieren, ist eine Erfassung dennoch möglich.
+Virtuelle Tastaturen wie Gboard von Google oder SwiftKey von Microsoft sind auf Smartphones allgegenwärtig. Sie bergen jedoch grosse Risiken für den Datenschutz: Jedes getippte Zeichen kann theoretisch aufgezeichnet, analysiert oder an entfernte Server übertragen werden. Auch wenn diese Unternehmen behaupten, die Daten zu anonymisieren, ist eine Erfassung dennoch möglich.
 
 
 **Alternativen**:
@@ -7770,29 +7660,29 @@ F-Droid ist ein reiner Open-Source-Anwendungskatalog. Die gesamte verfügbare So
 - [Aurora Store](https://auroraoss.com/)
 
 
-Mit Aurora Store können Sie anonym auf den Google Play Store-Katalog zugreifen, ohne ein Google-Konto zu besitzen. Es handelt sich um einen kostenlosen Client, der direkt mit den Google-Servern interagiert, während Ihre Identität über ein generisches Konto verschleiert wird. Dies ist eine wertvolle Lösung, um bestimmte notwendige proprietäre Anwendungen weiterhin zu nutzen: Anwendungen zu nutzen und gleichzeitig die Google Play-Telemetrie zu vermeiden.
+Mit Aurora Store kannst du anonym auf den Google Play Store-Katalog zugreifen, ohne ein Google-Konto zu besitzen. Es handelt sich um einen kostenlosen Client, der direkt mit den Google-Servern interagiert, während deine Identität über ein generisches Konto verschleiert wird. Dies ist eine wertvolle Lösung, um bestimmte notwendige proprietäre Anwendungen weiterhin zu nutzen: Anwendungen zu nutzen und gleichzeitig die Google Play-Telemetrie zu vermeiden.
 
 
 ### Nachrichten
 
 
-Die Anwendung Google News ist zwar praktisch und personalisiert, stützt sich aber auf eine systematische Analyse Ihrer Interessen, Ihres Surfverhaltens und Ihrer Lesegewohnheiten, um ihre Empfehlungen zu verfeinern. Dies beinhaltet eine umfangreiche Sammlung personenbezogener Daten, die häufig für Werbezwecke verwendet werden.
+Die Anwendung Google News ist zwar praktisch und personalisiert, stützt sich aber auf eine systematische Analyse deiner Interessen, deines Surfverhaltens und deiner Lesegewohnheiten, um ihre Empfehlungen zu verfeinern. Dies beinhaltet eine umfangreiche Sammlung personenbezogener Daten, die häufig für Werbezwecke verwendet werden.
 
 
 **Alternativen**:
 
 
 
-- [Nachrichten] (https://github.com/bubelov/news)
+- [News] (https://github.com/bubelov/news)
 
 
-Die Anwendung *News*, die von Bubelov entwickelt wurde, bietet einen radikal anderen Ansatz. Es handelt sich um einen minimalistischen RSS-Reader, der Nachrichten ohne Tracker, Werbung oder undurchsichtige Empfehlungsalgorithmen konsultieren kann. Sie können Ihre Quellen (Presse, Blogs, Podcasts, unabhängige Medien usw.) manuell auswählen und so ein neutrales, privates Leseerlebnis garantieren. Das Design ist übersichtlich, die Feeds werden automatisch aktualisiert, und es werden keine Daten an Dritte weitergegeben.
+Die Anwendung *News*, die von Bubelov entwickelt wurde, bietet einen radikal anderen Ansatz. Es handelt sich um einen minimalistischen RSS-Reader, der Nachrichten ohne Tracker, Werbung oder undurchsichtige Empfehlungsalgorithmen konsultieren kann. Du kannst deine Quellen (Presse, Blogs, Podcasts, unabhängige Medien usw.) manuell auswählen und so ein neutrales, privates Leseerlebnis garantieren. Das Design ist übersichtlich, die Feeds werden automatisch aktualisiert, und es werden keine Daten an Dritte weitergegeben.
 
 
-### Kontakt
+### Contacts
 
 
-Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, Ihre Address-Bücher permanent mit den Google-Servern. Das bedeutet, dass alle Informationen Ihrer Kontakte (Namen, Nummern, E-Mails, manchmal Postadressen oder Fotos) online gespeichert und mit Ihrem Konto verknüpft werden. Diese Zentralisierung erleichtert die Datensicherung und -synchronisierung, wirft aber auch erhebliche Datenschutzprobleme auf.
+Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, deine Adress-Bücher permanent mit den Google-Servern. Das bedeutet, dass alle Informationen deiner Kontakte (Namen, Nummern, E-Mails, manchmal Postadressen oder Fotos) online gespeichert und mit deinem Konto verknüpft werden. Diese Zentralisierung erleichtert die Datensicherung und -synchronisierung, wirft aber auch erhebliche Datenschutzprobleme auf.
 
 
 **Alternativen**:
@@ -7802,23 +7692,23 @@ Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, Ihre 
 - [Connect You](https://github.com/you-apps/ConnectYou)
 
 
-Connect You ist eine leichtgewichtige, übersichtliche Open-Source-Alternative, die für diejenigen entwickelt wurde, die ihre Kontakte lokal verwalten möchten, ohne Datenerfassung oder erzwungene Synchronisierung mit einer Drittanbieter-Cloud. Es bietet ein intuitives Interface, macht es einfach, Ihre Einträge zu sortieren, zu suchen und zu bearbeiten, und kann mit CalDAV-Diensten integriert werden, wenn Sie einen selbst gehosteten Kontaktserver verwenden (z. B. über Nextcloud).
+Connect You ist eine leichtgewichtige, übersichtliche Open-Source-Alternative, die für diejenigen entwickelt wurde, die ihre Kontakte lokal verwalten möchten, ohne Datenerfassung oder erzwungene Synchronisierung mit einer Drittanbieter-Cloud. Es bietet ein intuitives Interface, macht es einfach, deine Einträge zu sortieren, zu suchen und zu bearbeiten, und kann mit CalDAV-Diensten integriert werden, wenn du einen selbst gehosteten Kontaktserver verwendest (z.B. über Nextcloud).
 
 
 ### Fotoverwaltung
 
 
-Google Fotos ist großartig, um Bilder automatisch in der Cloud zu speichern, sie zu organisieren oder per Gesichtserkennung zu finden. Hinter dieser Einfachheit verbirgt sich jedoch die systematische Verarbeitung Ihrer Daten: Jedes Bild wird analysiert, indiziert und mit Ihren anderen Google-Daten abgeglichen. Ihre Fotos können so zu einer zusätzlichen Informationsquelle werden, die für kommerzielle Zwecke genutzt wird.
+Google Fotos ist grossartig, um Bilder automatisch in der Cloud zu speichern, sie zu organisieren oder per Gesichtserkennung zu finden. Hinter dieser Einfachheit verbirgt sich jedoch die systematische Verarbeitung deiner Daten: Jedes Bild wird analysiert, indiziert und mit deinen anderen Google-Daten abgeglichen. Deine Fotos können so zu einer zusätzlichen Informationsquelle werden, die für kommerzielle Zwecke genutzt wird.
 
 
 **Alternativen**:
 
 
 
-- [Einfache Galerie](https://github.com/SimpleMobileTools/Simple-Gallery)
+- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Simple Gallery ist eine minimalistische Open-Source-Anwendung, die vollständig offline funktioniert. Sie ist Teil der *Simple Mobile Tools* Suite. Mit ihr können Sie Ihre Bilder verwalten, sortieren, ansehen und bearbeiten, ohne dass Daten Ihr Gerät verlassen. Außerdem bietet sie Retusche, Passwortschutz und einen Papierkorb zur Wiederherstellung gelöschter Objekte. Keine Nachverfolgung, keine Zwangssynchronisation: Ihre Fotos bleiben bei Ihnen.
+Simple Gallery ist eine minimalistische Open-Source-Anwendung, die vollständig offline funktioniert. Sie ist Teil der *Simple Mobile Tools* Suite. Mit ihr kannst du deine Bilder verwalten, sortieren, ansehen und bearbeiten, ohne dass Daten dein Gerät verlassen. Ausserdem bietet sie Retusche, Passwortschutz und einen Papierkorb zur Wiederherstellung gelöschter Objekte. Keine Nachverfolgung, keine Zwangssynchronisation: deine Fotos bleiben bei dir.
 
 
 
@@ -7835,7 +7725,7 @@ Aves ist eine Alternative mit einem moderneren Interface. Es bietet eine reibung
 - [Ente Photos](https://ente.io/)
 
 
-Ente Photos ist ein Open-Source-Dienst (Clients + Server) für die automatische Sicherung von Fotos mit End-to-End-Verschlüsselung. Ihre Bilder werden auf dem Gerät verschlüsselt, bevor sie gesendet werden, so dass nicht einmal die Ente-Server darauf zugreifen können. Ente bietet auch eine selbst gehostete Version für fortgeschrittene Nutzer.
+Ente Photos ist ein Open-Source-Dienst (Clients + Server) für die automatische Sicherung von Fotos mit End-to-End-Verschlüsselung. Deine Bilder werden auf dem Gerät verschlüsselt, bevor sie gesendet werden, so dass nicht einmal die Ente-Server darauf zugreifen können. Ente bietet auch eine selbst gehostete Version für fortgeschrittene Nutzer.
 
 
 ![Image](assets/fr/186.webp)
@@ -7845,7 +7735,7 @@ Ente Photos ist ein Open-Source-Dienst (Clients + Server) für die automatische 
 - [Stingle Photos](https://stingle.org/)
 
 
-Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mit einem verschlüsselten Backup-Service. Wie bei Ente werden die Fotos durch eine Ende-zu-Ende-Verschlüsselung geschützt. Sie können den Cloud-Service nutzen (1 GB kostenlos) oder den Stingle-Server selbst hosten, um die volle Kontrolle zu haben. Interface ist einfach, ohne Werbung oder Tracker.
+Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mit einem verschlüsselten Backup-Service. Wie bei Ente werden die Fotos durch eine Ende-zu-Ende-Verschlüsselung geschützt. Du kannst den Cloud-Service nutzen (1 GB kostenlos) oder den Stingle-Server selbst hosten, um die volle Kontrolle zu haben. Interface ist einfach, ohne Werbung oder Tracker.
 
 
 ![Image](assets/fr/187.webp)
@@ -7857,27 +7747,27 @@ Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mi
 **Alternativen**:
 
 
-Der Adobe Acrobat Reader, der häufig zum Lesen oder Kommentieren von PDF-Dokumenten verwendet wird, verfügt über eine Reihe von Online-Funktionen, die Ihre Daten offenlegen können: Aktive Telemetrie, Cloud-Synchronisierung und die Sammlung von Informationen über Ihre Dateien oder Lesegewohnheiten.
+Der Adobe Acrobat Reader, der häufig zum Lesen oder Kommentieren von PDF-Dokumenten verwendet wird, verfügt über eine Reihe von Online-Funktionen, die deine Daten offenlegen können: Aktive Telemetrie, Cloud-Synchronisierung und die Sammlung von Informationen über deine Dateien oder Lesegewohnheiten.
 
 
 
 - [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
 
-MuPDF Viewer ist ein ultraleichter, schneller und vollständig quelloffener PDF-Reader. Er verbraucht nur sehr wenige Ressourcen. Obwohl er keine fortgeschrittenen Funktionen wie Anmerkungen oder Unterschriften bietet, erledigt er seine Aufgabe perfekt: Er zeigt Ihre Dokumente an, ohne sie auszuspionieren.
+MuPDF Viewer ist ein ultraleichter, schneller und vollständig quelloffener PDF-Reader. Er verbraucht nur sehr wenige Ressourcen. Obwohl er keine fortgeschrittenen Funktionen wie Anmerkungen oder Unterschriften bietet, erledigt er seine Aufgabe perfekt: Er zeigt deine Dokumente an, ohne sie auszuspionieren.
 
 
 
 - [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
 
-MJ PDF Reader ist eine einfache Open-Source-Anwendung, mit der Sie PDF-Dateien ohne Werbung oder Verbindung zu einem Online-Konto lesen können.
+MJ PDF Reader ist eine einfache Open-Source-Anwendung, mit der du PDF-Dateien ohne Werbung oder Verbindung zu einem Online-Konto lesen kannst.
 
 
 ### Telefon
 
 
-Die Telefonanwendung von Google, die standardmäßig auf vielen Android-Smartphones installiert ist, arbeitet effizient, sammelt aber eine beträchtliche Menge an Nutzungsdaten.
+Die Telefonanwendung von Google, die standardmässig auf vielen Android-Smartphones installiert ist, arbeitet effizient, sammelt aber eine beträchtliche Menge an Nutzungsdaten.
 
 
 **Alternativen**:
@@ -7887,7 +7777,7 @@ Die Telefonanwendung von Google, die standardmäßig auf vielen Android-Smartpho
 - [Koler](https://github.com/Chooloo/koler)
 
 
-Koler ist eine Open-Source-Telefonieanwendung, die schön, einfach zu bedienen und datenschutzfreundlich ist. Es bietet eine flüssige und intuitive Interface für die Verwaltung Ihrer Anrufe, ohne Tracker oder persönliche Datenanalyse. Allerdings enthält sie derzeit keine erweiterte Anruffilterung oder Integration mit Diensten von Drittanbietern.
+Koler ist eine Open-Source-Telefonieanwendung, die schön, einfach zu bedienen und datenschutzfreundlich ist. Es bietet eine flüssige und intuitive Interface für die Verwaltung deiner Anrufe, ohne Tracker oder persönliche Datenanalyse. Allerdings enthält sie derzeit keine erweiterte Anruffilterung oder Integration mit Diensten von Drittanbietern.
 
 
 ![Image](assets/fr/188.webp)
@@ -7896,7 +7786,7 @@ Koler ist eine Open-Source-Telefonieanwendung, die schön, einfach zu bedienen u
 ### Übersetzung
 
 
-Google Translate ist das Maß aller Dinge bei der automatischen Übersetzung, aber bei seiner Verwendung werden systematisch alle Ihre Anfragen an Google gesendet, mit eingebauter Nachverfolgung und möglicher Sammlung sensibler Daten (übersetzte Texte, Verlauf usw.).
+Google Translate ist das Mass aller Dinge bei der automatischen Übersetzung, aber bei seiner Verwendung werden systematisch alle deine Anfragen an Google gesendet, mit eingebauter Nachverfolgung und möglicher Sammlung sensibler Daten (übersetzte Texte, Verlauf usw.).
 
 
 **Alternativen**:
@@ -7906,7 +7796,7 @@ Google Translate ist das Maß aller Dinge bei der automatischen Übersetzung, ab
 - [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
-TranslateYou ist eine Open-Source-Übersetzungsanwendung, die die Privatsphäre ihrer Nutzer respektiert. Es funktioniert wie ein Interface für verschiedene Übersetzungsmaschinen (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.) und lässt Sie einen Dienst wählen, der Ihre Daten nicht ausnutzt.
+TranslateYou ist eine Open-Source-Übersetzungsanwendung, die die Privatsphäre ihrer Nutzer respektiert. Es funktioniert wie ein Interface für verschiedene Übersetzungsmaschinen (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.) und lässt dich einen Dienst wählen, der deine Daten nicht ausnutzt.
 
 
 Keine Werbung, keine Tracker und ein einfach zu bedienendes Interface machen TranslateYou zu einer praktischen Alternative zu Google Translate.
@@ -7931,13 +7821,13 @@ Yuka wird häufig zum Scannen von Lebensmitteln und Kosmetika und zur Bewertung 
 OpenFoodFacts ist eine viel transparentere und datenschutzfreundlichere Alternative. Dieses gemeinschaftliche Open-Source-Projekt bietet eine globale Datenbank, die durch Nutzerbeiträge gespeist wird. Nährwertangaben, Inhaltsstoffe und Etiketten können transparent und ohne missbräuchliche Datenerfassung abgerufen werden.
 
 
-Mit der mobilen Anwendung können Sie Barcodes scannen, sofort auf Produktdatenblätter zugreifen und selbst zur Datenbank beitragen. Die Nutzung ist völlig kostenlos, ohne Werbung oder Tracker.
+Mit der mobilen Anwendung kannst du Barcodes scannen, sofort auf Produktdatenblätter zugreifen und selbst zur Datenbank beitragen. Die Nutzung ist völlig kostenlos, ohne Werbung oder Tracker.
 
 
 ### Teilen in der Nähe
 
 
-Mit Funktionen wie Quick Share (Android) oder AirDrop (iOS/macOS) können Sie Dateien zwischen Geräten in der Nähe über Bluetooth und direktes Wi-Fi senden, ohne eine Internetverbindung zu benötigen. Sie sind praktisch, beruhen aber auf geschlossenen Systemen, die manchmal mit Google-, Samsung- oder Apple-Konten verbunden sind.
+Mit Funktionen wie Quick Share (Android) oder AirDrop (iOS/macOS) kannst du Dateien zwischen Geräten in der Nähe über Bluetooth und direktes Wi-Fi senden, ohne eine Internetverbindung zu benötigen. Sie sind praktisch, beruhen aber auf geschlossenen Systemen, die manchmal mit Google-, Samsung- oder Apple-Konten verbunden sind.
 
 
 Quick Share ist jetzt der Standard auf Android. Diese Software, die ursprünglich von Samsung entwickelt wurde, wurde 2024 mit Nearby Share von Google vereinigt, was zu einer einzigen Anwendung für die Dateifreigabe auf Android führte.
@@ -7950,7 +7840,7 @@ Quick Share ist jetzt der Standard auf Android. Diese Software, die ursprünglic
 - [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
 
-Snapdrop ist eine kostenlose, quelloffene Alternative, die keine Installation erfordert. Mit Snapdrop können Sie Dateien zwischen Geräten austauschen, die mit demselben lokalen Netzwerk verbunden sind, und zwar einfach über einen Webbrowser. Die Übertragung erfolgt direkt (Peer-to-Peer) und die Daten werden nicht über einen Remote-Server übertragen.
+Snapdrop ist eine kostenlose, quelloffene Alternative, die keine Installation erfordert. Mit Snapdrop kannst du Dateien zwischen Geräten austauschen, die mit demselben lokalen Netzwerk verbunden sind, und zwar einfach über einen Webbrowser. Die Übertragung erfolgt direkt (Peer-to-Peer) und die Daten werden nicht über einen Remote-Server übertragen.
 
 
 Eine interessante Alternative ist [PairDrop](https://github.com/schlagmichdoch/pairdrop) (ein Fork von Snapdrop), das ein paar zusätzliche Funktionen bietet.
@@ -7967,7 +7857,7 @@ Warpinator, entwickelt von Linux Mint, erleichtert die Übertragung von Dateien 
 - [LocalSend](https://localsend.org/)
 
 
-LocalSend ist eine weitere kostenlose Alternative mit vollem Funktionsumfang und einem ordentlichen Interface. Diese vollständig quelloffene Anwendung ermöglicht dezentrale, verschlüsselte End-to-End-Dateiübertragungen zwischen Geräten, die mit demselben lokalen Netzwerk verbunden sind. Es werden keine Zwischenserver verwendet, wodurch sichergestellt wird, dass Ihre Daten Ihr Heimnetzwerk nie verlassen.
+LocalSend ist eine weitere kostenlose Alternative mit vollem Funktionsumfang und einem ordentlichen Interface. Diese vollständig quelloffene Anwendung ermöglicht dezentrale, verschlüsselte End-to-End-Dateiübertragungen zwischen Geräten, die mit demselben lokalen Netzwerk verbunden sind. Es werden keine Zwischenserver verwendet, wodurch sichergestellt wird, dass deine Daten dein Heimnetzwerk nie verlassen.
 
 
 ![Image](assets/fr/190.webp)
@@ -7976,7 +7866,7 @@ LocalSend ist eine weitere kostenlose Alternative mit vollem Funktionsumfang und
 ### Bücher
 
 
-Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen zum Datenschutz auf. Diese Plattform ist im Besitz von Amazon, das viele Daten über Ihre Lektüre, Vorlieben, Bewertungen und Rezensionen sammelt. Darüber hinaus stützt sich Interface in hohem Maße auf die Verfolgung von Nutzern und Verhaltensanalysen für kommerzielle Zwecke.
+Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen zum Datenschutz auf. Diese Plattform ist im Besitz von Amazon, das viele Daten über deine Lektüre, Vorlieben, Bewertungen und Rezensionen sammelt. Darüber hinaus stützt sich Interface in hohem Masse auf die Verfolgung von Nutzern und Verhaltensanalysen für kommerzielle Zwecke.
 
 
 **Alternativen**:
@@ -7986,7 +7876,7 @@ Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen z
 - [Openreads] (https://github.com/mateusz-bak/openreads)
 
 
-Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfolgung. Mit dieser Anwendung können Sie eine persönliche digitale Bibliothek erstellen, Ihren Lesefortschritt verfolgen, Bücher bewerten und kommentieren und auf Empfehlungen zugreifen, die auf Ihren eigenen Kriterien basieren, ohne dass eine zentrale Analyse oder Nachverfolgung stattfindet. Alle Daten verbleiben auf Ihrem Gerät oder werden über selbst gehostete Dienste synchronisiert.
+Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfolgung. Mit dieser Anwendung kannst du eine persönliche digitale Bibliothek erstellen, deinen Lesefortschritt verfolgen, Bücher bewerten und kommentieren und auf Empfehlungen zugreifen, die auf deinen eigenen Kriterien basieren, ohne dass eine zentrale Analyse oder Nachverfolgung stattfindet. Alle Daten verbleiben auf deinem Gerät oder werden über selbst gehostete Dienste synchronisiert.
 
 
 ### Uhr, Alarme und Timer
@@ -7999,41 +7889,40 @@ Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfol
 - [Chrono](https://github.com/vicolo-dev/chrono)
 
 
-Chrono ist auf F-Droid verfügbar und vollständig quelloffen. Es bietet ein modernes, übersichtliches Interface ohne Werbung oder Datensammlung. Es lässt Sie anpassbare Alarme erstellen: Wiederholung nach bestimmten Tagen oder Datumsbereichen, Wahl des Tons, progressive Intensität, Vibration oder sogar Aufgaben, die ausgeführt werden müssen, um den Alarm zu deaktivieren (Lösen einer Berechnung, Lesen eines Textes, etc.).
+Chrono ist auf F-Droid verfügbar und vollständig quelloffen. Es bietet ein modernes, übersichtliches Interface ohne Werbung oder Datensammlung. Es lässt dich anpassbare Alarme erstellen: Wiederholung nach bestimmten Tagen oder Datumsbereichen, Wahl des Tons, progressive Intensität, Vibration oder sogar Aufgaben, die ausgeführt werden müssen, um den Alarm zu deaktivieren (Lösen einer Berechnung, Lesen eines Textes, etc.).
 
 
-Die Anwendung enthält auch einen Timer und eine Stoppuhr mit Rundenaufzeichnung, Statistiken, Zeitvergleichen und Verwaltung mehrerer Timer. Sie können mehrere Zeitzonen konfigurieren, das Thema anpassen (Farben, Stile, Animationen) und sogar Ihre Alarme und Timer mit Etiketten organisieren.
-
-
-Um das Thema zu vertiefen, empfehle ich Ihnen, die Website [*Awesome Privacy*](https://awesome-privacy.xyz/) zu besuchen, die die besten datenschutzfreundlichen Alternativen zu den Programmen auflistet, die Sie täglich verwenden.
-___
-
-
-⚠️ ***Vorsicht**: Obwohl die in diesem Kapitel vorgestellten Alternativen meist quelloffen und datenschutzorientiert sind, sind sie nicht ohne Einschränkungen oder Risiken. Einige werden möglicherweise nicht mehr gewartet, haben ungepatchte Schwachstellen, sind proprietär oder können sogar Malware sein. Einige können auch in Ihrem Land illegal sein. Ich habe dieses Kapitel im Juni 2025 geschrieben, aber die Situation für diese Anwendungen kann sich seither geändert haben.*
-
-
-Außerdem habe ich den Code der genannten Tools nicht persönlich geprüft, und meine Empfehlungen sollten keinesfalls als absolute Garantien angesehen werden. Es ist daher wichtig, dass jeder vor der Nutzung dieser Anwendungen eigene Nachforschungen anstellt.
+Die Anwendung enthält auch einen Timer und eine Stoppuhr mit Rundenaufzeichnung, Statistiken, Zeitvergleichen und Verwaltung mehrerer Timer. Du kannst mehrere Zeitzonen konfigurieren, das Thema anpassen (Farben, Stile, Animationen) und sogar deine Alarme und Timer mit Etiketten organisieren.
 
 
 ___
 
 
-# Sicherung Ihres lokalen Netzwerks
+⚠️ ***Vorsicht**: Obwohl die in diesem Kapitel vorgestellten Alternativen meist quelloffen und datenschutzorientiert sind, sind sie nicht ohne Einschränkungen oder Risiken. Einige werden möglicherweise nicht mehr gewartet, haben ungepatchte Schwachstellen, sind proprietär oder können sogar Malware sein. Einige können auch in deinem Land illegal sein. Ich habe dieses Kapitel im Juni 2025 geschrieben, aber die Situation für diese Anwendungen kann sich seither geändert haben.*
+
+
+Ausserdem habe ich den Code der genannten Tools nicht persönlich geprüft, und meine Empfehlungen sollten keinesfalls als absolute Garantien angesehen werden. Es ist daher wichtig, dass jeder vor der Nutzung dieser Anwendungen eigene Nachforschungen anstellt.
+
+
+___
+
+
+# Sicherung deines lokalen Netzwerks
 
 
 <partId>23e49e48-34c9-435c-a36f-1c86b0254275</partId>
 
 
-## Ihr Heimnetzwerk besser verstehen
+## Dein Heimnetzwerk besser verstehen
 
 
 <chapterId>8a7577e0-4a27-4331-a6d9-7a4c838fa720</chapterId>
 
 
-Digitale Sicherheit beginnt oft mit einer guten Beherrschung des Heimnetzwerks. Ihr Heimnetzwerk ist der erste Eintrittspunkt des Internets in Ihr persönliches Umfeld, und es ist das Internet, das die größte Bedrohung für Ihre Sicherheit und Ihre Privatsphäre darstellt.
+Digitale Sicherheit beginnt oft mit einer guten Beherrschung des Heimnetzwerks. Dein Heimnetzwerk ist der erste Eintrittspunkt des Internets in dein persönliches Umfeld, und es ist das Internet, das die grösste Bedrohung für deine Sicherheit und deine Privatsphäre darstellt.
 
 
-Für Ihre digitale Souveränität ist es wichtig zu verstehen, wie Ihr lokales Netzwerk funktioniert, wie Ihre Daten fließen und welche Geräte für die Verwaltung dieser Datenströme zuständig sind.
+Für deine digitale Souveränität ist es wichtig zu verstehen, wie dein lokales Netzwerk funktioniert, wie deine Daten fliessen und welche Geräte für die Verwaltung dieser Datenströme zuständig sind.
 
 
 In diesem Kapitel werden wir schrittweise die grundlegenden Konzepte der Heimvernetzung erkunden, von einer Erklärung, was das Internet ist, bis hin zu konkreten Details wie der Zuweisung lokaler IP-Adressen und der Rolle des Routers. Ziel ist es, die theoretischen Grundlagen zu wiederholen, die für das richtige Verständnis des folgenden Kapitels, das sich mit praktischeren Aspekten befasst, unerlässlich sind.
@@ -8051,7 +7940,7 @@ Die Geschichte des Internets reicht bis in die späten 1960er Jahre zurück und 
 ![Image](assets/fr/191.webp)
 
 
-Ziel war es auch, ein widerstandsfähiges Netz zu entwickeln, das auch dann noch funktioniert, wenn ein Teil seiner Knotenpunkte zerstört wird (eine Notwendigkeit inmitten des Cold-Krieges). Das ARPANET ermöglichte 1969 die erste Kommunikation zwischen entfernten Computern.
+Ziel war es auch, ein widerstandsfähiges Netz zu entwickeln, das auch dann noch funktioniert, wenn ein Teil seiner Knotenpunkte zerstört wird (eine Notwendigkeit inmitten des kalten Krieges). Das ARPANET ermöglichte 1969 die erste Kommunikation zwischen voneinander entfernten Computern.
 
 
 ![Image](assets/fr/192.webp)
@@ -8063,7 +7952,7 @@ Im Laufe der Jahrzehnte wurde das Projekt erweitert, insbesondere durch die Stan
 #### Was ist das Internet?
 
 
-Das Internet, das wörtlich übersetzt "zusammenhängendes Netz" bedeutet, ist eine globale Infrastruktur, die es Milliarden von Geräten ermöglicht, miteinander zu kommunizieren. Es handelt sich dabei weder um einen einzelnen Dienst noch um einen bestimmten Ort, sondern um eine Ansammlung öffentlicher und privater Computernetzwerke, die in planetarischem Maßstab miteinander verbunden sind. Jeder Akteur (Privatperson, Unternehmen, Behörde usw.) kann sein eigenes Netz mit dem Rest der Welt verbinden, sofern er sich an bestimmte standardisierte technische Protokolle hält, die es den Geräten ermöglichen, sich gegenseitig zu verstehen.
+Das Internet, das wörtlich übersetzt "zusammenhängendes Netz" bedeutet, ist eine globale Infrastruktur, die es Milliarden von Geräten ermöglicht, miteinander zu kommunizieren. Es handelt sich dabei weder um einen einzelnen Dienst noch um einen bestimmten Ort, sondern um eine Ansammlung öffentlicher und privater Computernetzwerke, die in planetarischem Massstab miteinander verbunden sind. Jeder Akteur (Privatperson, Unternehmen, Behörde usw.) kann sein eigenes Netz mit dem Rest der Welt verbinden. Vorausgesetzt, er hält sich an bestimmte standardisierte technische Protokolle, die es den Geräten ermöglichen, sich gegenseitig zu verstehen.
 
 
 Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
@@ -8080,42 +7969,42 @@ Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
 Diese beiden Protokolle arbeiten zusammen, um sicherzustellen, dass die von einem Punkt zum anderen gesendeten Nachrichten vollständig und in der richtigen Reihenfolge ankommen.
 
 
-Konkret: Wenn Sie eine Website besuchen, zum Beispiel durch Eingabe eines Address in Ihren Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss Ihr Computer oder Smartphone die lesbare Address (z. B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP Address umwandeln. Sobald die IP Address des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
+Konkret: Wenn du eine Website besuchst, zum Beispiel durch Eingabe einer Adresse in deinen Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss dein Computer oder Smartphone die lesbare Adresse (z.B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP-Adresse umwandeln. Sobald die IP-Adresse des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
 
 
-Diese Daten durchlaufen dann einen komplexen Weg. Zunächst durchlaufen sie Ihren Heimrouter und Ihr Modem, bevor sie die Infrastruktur Ihres Internetanbieters erreichen. Von dort aus durchqueren sie möglicherweise mehrere Zwischennetze (manchmal transozeanische Kabel, Transit-Router, Internet-Exchange-Punkte usw.), bevor sie ihr Ziel erreichen: Der Server der Website, die Sie besuchen möchten. Dieser wiederum sendet die Daten (den Inhalt der Website) in die andere Richtung.
+Diese Daten durchlaufen dann einen komplexen Weg. Zunächst durchlaufen sie deinen Heimrouter und dein Modem, bevor sie die Infrastruktur deines Internetanbieters erreichen. Von dort aus durchqueren sie möglicherweise mehrere Zwischennetze (manchmal transozeanische Kabel, Transit-Router, Internet-Exchange-Punkte usw.), bevor sie ihr Ziel erreichen: Der Server der Website, die du besuchen möchtest. Dieser wiederum sendet die Daten (den Inhalt der Website) in die andere Richtung.
 
 
 ![Image](assets/fr/193.webp)
 
 
-Das Internet ist also ein riesiges dezentralisiertes Netz, das auf gemeinsamen Regeln beruht und in dem jedes Gerät mit jedem anderen kommunizieren kann, egal wo auf der Welt es sich befindet. Diese Offenheit ermöglicht zwar den digitalen Austausch, aber sie erfordert auch eine wachsame Haltung: Jede Online-Aktion durchläuft Infrastrukturen, über die Sie keine Kontrolle haben, und die Vertraulichkeit Ihres Austauschs hängt davon ab, wie Sie diese Werkzeuge konfigurieren und nutzen.
+Das Internet ist also ein riesiges dezentralisiertes Netz, das auf gemeinsamen Regeln beruht und in dem jedes Gerät mit jedem anderen kommunizieren kann, egal wo auf der Welt es sich befindet. Diese Offenheit ermöglicht zwar den digitalen Austausch, aber sie erfordert auch eine wachsame Haltung: Jede Online-Aktion durchläuft Infrastrukturen, über die du keine Kontrolle hast, und die Vertraulichkeit deines Austauschs hängt davon ab, wie du diese Werkzeuge konfigurierst und nutzt.
 
 
 ### Die Rolle des Modems und des Routers
 
 
-In den meisten modernen Haushalten wird der Internetzugang über ein zentrales Gerät bereitgestellt, das als Modem und Router fungiert. Der Name dieses Geräts variiert von Land zu Land (in Frankreich heißt es "Internet Box"). Dieses multifunktionale Gerät, das vom Internetanbieter zur Verfügung gestellt wird, verbindet Sie mit dem restlichen Internetnetz.
+In den meisten modernen Haushalten wird der Internetzugang über ein zentrales Gerät bereitgestellt, das als Modem und Router fungiert. Der Name dieses Geräts variiert von Land zu Land (in Frankreich heisst es "Internet Box"). Dieses multifunktionale Gerät, das vom Internetanbieter zur Verfügung gestellt wird, verbindet dich mit dem restlichen Internetnetz.
 
 
-→ *ISP = Internet Service Provider*
+→ *ISP* = Internet Service Provider
 
 
-Dieses Gerät vereint 2 Hauptfunktionen:
+Dieses Gerät vereint zwei Hauptfunktionen:
 
 
 
-- Die **Modemrolle**
+- **Die Rolle des Modems**
 
 
-Das Modem (kurz für "*Modulator-Demodulator*") ist die Komponente, die das Netz Ihres Internetanbieters mit Ihrem Haus verbindet. Es wandelt die empfangenen elektrischen oder optischen Signale (über Glasfaser, Koaxialkabel, ADSL oder das Mobilfunknetz) in digitale Signale um, die von Ihren Geräten verstanden werden können. Umgekehrt wandelt er die Daten Ihrer Geräte in ein Format um, das über die Infrastruktur des Betreibers übertragen werden kann. Dieser Schritt ist unerlässlich, wenn Ihr Heimnetz mit dem Internet kommunizieren soll.
+Das Modem (kurz für "*Modulator-Demodulator*") ist die Komponente, die das Netz deines Internetanbieters mit deinem Haus verbindet. Es wandelt die empfangenen elektrischen oder optischen Signale (über Glasfaser, Koaxialkabel, ADSL oder das Mobilfunknetz) in digitale Signale um, die von deinen Geräten verstanden werden können. Umgekehrt wandelt er die Daten deiner Geräte in ein Format um, das über die Infrastruktur des Betreibers übertragen werden kann. Dieser Schritt ist unerlässlich, wenn dein Heimnetz mit dem Internet kommunizieren soll.
 
 
 
 - **Die Rolle des Routers**
 
 
-Der Router ist das Herzstück Ihres lokalen Netzwerks. Er verteilt die Internetverbindung an alle Ihre Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP Address zu (die sich von Ihrer im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert Ihr lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP Address, um alle Ihre Geräte zu repräsentieren. Nur der Router weiß, welches lokale Gerät welche Anfrage initiiert hat.
+Der Router ist das Herzstück deines lokalen Netzwerks. Er verteilt die Internetverbindung an alle deine Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP-Adresse zu (die sich von deiner im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert dein lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP-Adresse, um alle deine Geräte zu repräsentieren. Nur der Router weiss, welches lokale Gerät welche Anfrage initiiert hat.
 
 
 In einigen Ländern werden diese beiden Funktionen manchmal auf zwei separate Geräte aufgeteilt: Ein Modem und ein Router.
@@ -8124,71 +8013,71 @@ In einigen Ländern werden diese beiden Funktionen manchmal auf zwei separate Ge
 In der Praxis umfasst ein moderner Modem-Router oft weitere ergänzende Funktionen: Einen Wi-Fi-Zugangspunkt, einen Ethernet-Switch, einen Verwaltungs-Interface und manchmal sogar einen Dateiserver und andere Funktionen.
 
 
-Das Verständnis der Rolle des Router-Modems ist ein Schlüsselfaktor für die Sicherung Ihres lokalen Netzes. Dieses Gerät bildet gewissermaßen die Grenze zwischen der Außenwelt (dem Internet) und Ihrer privaten digitalen Umgebung. Eine falsche Konfiguration, schwache Passwörter oder veraltete Firmware können dieses Gateway in ein klaffendes Loch verwandeln. Umgekehrt wird ein gut konfigurierter Modem-Router zu einem Bollwerk gegen Eindringlinge.
+Das Verständnis der Rolle des Router-Modems ist ein Schlüsselfaktor für die Sicherung deines lokalen Netzes. Dieses Gerät bildet gewissermassen die Grenze zwischen der Aussenwelt (dem Internet) und deiner privaten digitalen Umgebung. Eine falsche Konfiguration, schwache Passwörter oder veraltete Firmware können dieses Gateway in ein klaffendes Loch verwandeln. Umgekehrt wird ein gut konfigurierter Modem-Router zu einem Bollwerk gegen Eindringlinge.
 
 
-Im nächsten Kapitel erfahren Sie, wie Sie diese Konfiguration optimieren, häufige Schwachstellen identifizieren und die Kontrolle über das Gerät zurückgewinnen können.
+Im nächsten Kapitel erfährst du, wie du diese Konfiguration optimierst, häufige Schwachstellen identifizierst und die Kontrolle über das Gerät zurückgewinnen kannst.
 
 
 ### Das lokale Netzwerk (LAN)
 
 
-Das lokale Netzwerk, oder "LAN" (*Local Area Network*), bezieht sich auf alle digitalen Verbindungen innerhalb Ihres Hauses. Es umfasst alle Geräte, die mit Ihrem Router verbunden sind: Computer, Smartphones, Tablets, Drucker usw.
+Das lokale Netzwerk, oder "LAN" (*Local Area Network*), bezieht sich auf alle digitalen Verbindungen innerhalb deines Hauses. Es umfasst alle Geräte, die mit deinem Router verbunden sind: Computer, Smartphones, Tablets, Drucker usw.
 
 
-Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lokale Netz ein privater, teilweise isolierter Raum, der es Geräten ermöglicht, miteinander zu kommunizieren, ohne dass ihr Austausch Ihr Haus verlässt. Wenn Sie z. B. eine Datei von Ihrem Computer an einen über Wi-Fi angeschlossenen Drucker senden oder eine angeschlossene Glühbirne über Ihr Telefon steuern, findet diese Kommunikation ausschließlich lokal statt, ohne dass sie über einen entfernten Server läuft.
+Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lokale Netz ein privater, teilweise isolierter Raum, der es Geräten ermöglicht, miteinander zu kommunizieren, ohne dass ihr Austausch dein Haus verlässt. Wenn du z.B. eine Datei von deinem Computer an einen über Wi-Fi angeschlossenen Drucker senden oder eine angeschlossene Glühbirne über dein Telefon steuerst, findet diese Kommunikation ausschliesslich lokal statt, ohne dass sie über einen entfernten Server läuft.
 
 
 ![Image](assets/fr/194.webp)
 
 
-Dies basiert auf einer Reihe von Standardtechnologien und -protokollen, von denen das IP-Protokoll das wichtigste ist. Jedem Gerät in Ihrem lokalen Netz wird eine lokale IP Address zugewiesen (in der Regel im Format "192.168.x.x"), die zur eindeutigen Identifizierung innerhalb des Netzes dient. Dieser Address ist vom Internet aus nicht sichtbar. Nur Ihre öffentliche IP Address, die von allen Geräten über das Modem gemeinsam genutzt wird, ist außerhalb Ihres Hauses sichtbar.
+Dies basiert auf einer Reihe von Standardtechnologien und -protokollen, von denen das IP-Protokoll das wichtigste ist. Jedem Gerät in deinem lokalen Netz wird eine lokale IP-Adresse zugewiesen (in der Regel im Format "192.168.x.x"), die zur eindeutigen Identifizierung innerhalb des Netzes dient. Dieser Adresse ist vom Internet aus nicht sichtbar. Nur deine öffentliche IP-Adresse, die von allen Geräten über das Modem gemeinsam genutzt wird, ist ausserhalb deines Hauses sichtbar.
 
 
-Diese scheinbare Isolierung sollte Ihnen jedoch kein falsches Gefühl der Sicherheit vermitteln. Ein schlecht konfiguriertes lokales Netzwerk kann zu einem Einfallstor für Angriffe werden, insbesondere in den folgenden Fällen:
+Diese scheinbare Isolierung sollte dir jedoch kein falsches Gefühl der Sicherheit vermitteln. Ein schlecht konfiguriertes lokales Netzwerk kann zu einem Einfallstor für Angriffe werden, insbesondere in den folgenden Fällen:
 
 
 
 - Wenn offene Dienste (wie Dateifreigaben oder Verwaltungsschnittstellen) über das Internet zugänglich sind
 - Wenn Wi-Fi nicht sicher ist (schwaches Passwort oder veraltetes Verschlüsselungssystem)
-- Wenn bestimmte verbundene Objekte im Klartext mit der Außenwelt kommunizieren oder Ports offen lassen
+- Wenn bestimmte verbundene Objekte im Klartext mit der Aussenwelt kommunizieren oder Ports offen lassen
 
 
-Daher ist es wichtig, die internen Abläufe in Ihrem Netzwerk zu verstehen und zu kontrollieren, welche Geräte miteinander und mit der Außenwelt interagieren können.
+Daher ist es wichtig, die internen Abläufe in deinem Netzwerk zu verstehen und zu kontrollieren, welche Geräte miteinander und mit der Aussenwelt interagieren können.
 
 
 ### Wi-Fi
 
 
-Wi-Fi (kurz für "*Wireless Fidelity*") ist eine drahtlose Kommunikationstechnologie, mit der Sie Ihre Geräte kabellos an Ihr lokales Netzwerk anschließen können. Diese Technologie basiert auf der Übertragung von Daten über Funkwellen, in der Regel in den Frequenzbändern 2,4 GHz und 5 GHz (oder sogar 6 GHz für Wi-Fi 6E und Wi-Fi 7 Netzwerke).
+Wi-Fi (kurz für "*Wireless Fidelity*") ist eine drahtlose Kommunikationstechnologie, mit der du deine Geräte kabellos an dein lokales Netzwerk anschliessen kannst. Diese Technologie basiert auf der Übertragung von Daten über Funkwellen, in der Regel in den Frequenzbändern 2,4 GHz und 5 GHz (oder sogar 6 GHz für Wi-Fi 6E und Wi-Fi 7 Netzwerke).
 
 
-Diese Benutzerfreundlichkeit birgt jedoch auch Risiken in sich. Im Gegensatz zu kabelgebundenen Verbindungen (z. B. Ethernet) durchdringen Wi-Fi-Signale Wände und können aus Dutzenden von Metern Entfernung empfangen werden. Das bedeutet, dass Personen außerhalb Ihres Hauses (auf der Straße, in einem benachbarten Gebäude, sogar von einem in der Nähe geparkten Fahrzeug aus) versuchen können, Ihr Netzwerk zu erkennen und eine Verbindung herzustellen, wenn es nicht ordnungsgemäß gesichert ist.
+Diese Benutzerfreundlichkeit birgt jedoch auch Risiken in sich. Im Gegensatz zu kabelgebundenen Verbindungen (z.B. Ethernet) durchdringen Wi-Fi-Signale Wände und können aus Dutzenden von Metern Entfernung empfangen werden. Das bedeutet, dass Personen ausserhalb deines Hauses (auf der Strasse, in einem benachbarten Gebäude, sogar von einem in der Nähe geparkten Fahrzeug aus) versuchen können, dein Netzwerk zu erkennen und eine Verbindung herzustellen, wenn es nicht ordnungsgemäss gesichert ist.
 
 
 ![Image](assets/fr/195.webp)
 
 
-Ein Angreifer mit Zugang zu Ihrem Wi-Fi-Netzwerk könnte dann:
+Ein Angreifer mit Zugang zu deinem Wi-Fi-Netzwerk könnte dann:
 
 
 
-- Abfangen unverschlüsselter Daten, die über das Netz laufen (z. B. DNS-Anfragen oder HTTP-Verkehr)
-- Zugriff auf Ihre Dateien oder Geräte, wenn diese unzureichend geschützt sind
-- Einschleusen bösartiger Inhalte in Ihren Browser
-- Ihre Internetverbindung ohne Ihr Wissen zu nutzen oder sogar Online-Angriffe von Ihrer öffentlichen IP Address aus durchzuführen
+- Unverschlüsselter Daten abfangen, die über das Netz laufen (z.B. DNS-Anfragen oder HTTP-Verkehr)
+- Auf deine Dateien oder Geräte zugreifen, wenn diese unzureichend geschützt sind
+- Bösartige Inhalte in deinen Browser einschleusen 
+- Deine Internetverbindung ohne dein Wissen nutzen oder sogar Online-Angriffe von deiner öffentlichen IP-Adresse aus durchführen
 
 
-Um sich vor diesen Bedrohungen zu schützen, müssen Sie Ihr Wi-Fi-Netzwerk absichern. In den nächsten Kapiteln werden wir uns ansehen, wie Sie dies tun können.
+Um sich vor diesen Bedrohungen zu schützen, musst du dein Wi-Fi-Netzwerk absichern. In den nächsten Kapiteln werden wir uns ansehen, wie du dies tun kannst.
 
 
 ### Lokale IP-Adressen
 
 
-Wenn Sie ein Gerät an Ihr Heimnetzwerk anschließen, erhält es eine lokale IP Address. Diese Address besteht aus vier durch Punkte getrennten Zahlen (z. B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in Ihrem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Address weiß Ihr Router, an welches Gerät er Daten senden muss (z. B. eine Webseite oder ein Video, das Sie angefordert haben).
+Wenn du ein Gerät an dein Heimnetzwerk anschliesst, erhält es eine lokale IP-Adresse. Diese Adresse besteht aus vier durch Punkte getrennten Zahlen (z.B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in deinem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Adresse weiss dein Router, an welches Gerät er Daten senden muss (z.B. eine Webseite oder ein Video, das du angefordert hast).
 
 
-Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht sichtbar sind. Sie gehören zu reservierten Bereichen, die durch internationale Normen definiert sind und im öffentlichen Netz nicht verwendet werden können. Die drei häufigsten lokalen IP-Address-Bereiche sind:
+Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht sichtbar sind. Sie gehören zu reservierten Bereichen, die durch internationale Normen definiert sind und im öffentlichen Netz nicht verwendet werden können. Die drei häufigsten lokalen IP-Adress-Bereiche sind:
 
 
 
@@ -8197,109 +8086,99 @@ Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht 
 - 172.16.0.0" bis "172.31.255.255"
 
 
-Ein und dasselbe Gerät kann also zu Hause eine IP Address wie "192.168.1.42" haben, während ein anderer Benutzer in einem anderen Land ein anderes Gerät mit derselben IP Address in seinem eigenen lokalen Netz hat, ohne dass es jemals zu einem Konflikt kommt, weil diese Adressen das Heimnetz nicht verlassen. Es ist der Router, der die Verbindung zwischen Ihrem Heimnetzwerk und dem öffentlichen Internet herstellt und diese Adressen über einen Mechanismus namens "NAT" (*Network Address Translation*) übersetzt.
+Ein und dasselbe Gerät kann also zu Hause eine IP-Adresse wie "192.168.1.42" haben, während ein anderer Benutzer in einem anderen Land ein anderes Gerät mit derselben IP-Adresse in seinem eigenen lokalen Netz hat, ohne dass es jemals zu einem Konflikt kommt, weil diese Adressen das Heimnetz nicht verlassen. Es ist der Router, der die Verbindung zwischen deinem Heimnetzwerk und dem öffentlichen Internet herstellt und diese Adressen über einen Mechanismus namens "NAT" (*Network Address Translation*) übersetzt.
 
 
-Lokale IP-Adressen werden im Allgemeinen dynamisch über DHCP (*Dynamic Host Configuration Protocol*) zugewiesen. Wenn Sie ein neues Gerät an das Netzwerk anschließen, sendet es eine DHCP-Anforderung für ein Address, und der Router weist ihm ein verfügbares freies Address innerhalb des festgelegten Bereichs zu. Dieses Address kann sich im Laufe der Zeit ändern.
+Lokale IP-Adressen werden im Allgemeinen dynamisch über DHCP (*Dynamic Host Configuration Protocol*) zugewiesen. Wenn du ein neues Gerät an das Netzwerk anschliesst, sendet es eine DHCP-Anforderung für eine Adresse, und der Router weist ihm eine verfügbare freie Adresse innerhalb des festgelegten Bereichs zu. Diese Adresse kann sich im Laufe der Zeit ändern.
 
 
-Es ist jedoch möglich, feste IP-Adressen für bestimmte Geräte zu konfigurieren. Das bedeutet, dass ein bestimmter Address dauerhaft für ein bestimmtes Gerät reserviert wird. Dies ist in einer Reihe von Fällen nützlich, zum Beispiel:
+Es ist jedoch möglich, feste IP-Adressen für bestimmte Geräte zu konfigurieren. Das bedeutet, dass eine bestimmte Adresse dauerhaft für ein bestimmtes Gerät reserviert wird. Dies ist in einer Reihe von Fällen nützlich, zum Beispiel:
 
 
 
 - Für einfachen Zugriff auf einen persönlichen Server oder NAS von einem anderen Gerät aus
-- Ferndrucken auf einem Netzwerkdrucker, ohne nach dessen Address suchen zu müssen
-- So erstellen Sie Regeln für die Filterung oder Portweiterleitung in Ihrem Router
+- Ferndrucken auf einem Netzwerkdrucker, ohne nach dessen Adresse suchen zu müssen
+- So erstellst du Regeln für die Filterung oder Portweiterleitung in deinem Router
 
 
 ### Netzwerkanschlüsse
 
 
-Um zu verstehen, wie ein lokales Netz funktioniert, müssen Sie wissen, dass jeder IP-Address (ob lokal oder öffentlich) mit einer Reihe von numerischen Ports verbunden ist, die von "0" bis "65535" nummeriert sind. Diese Ports sind nicht physisch: Es handelt sich um virtuelle Ein- und Ausgangspunkte, die es Anwendungen und Diensten ermöglichen, über das Netzwerk zu kommunizieren.
+Um zu verstehen, wie ein lokales Netz funktioniert, musst du wissen, dass jede IP-Adresse (ob lokal oder öffentlich) mit einer Reihe von numerischen Ports verbunden ist, die von "0" bis "65535" nummeriert sind. Diese Ports sind nicht physisch: Es handelt sich um virtuelle Ein- und Ausgangspunkte, die es Anwendungen und Diensten ermöglichen, über das Netzwerk zu kommunizieren.
 
 
-Jedes Mal, wenn ein Gerät über das Internet oder ein lokales Netz kommuniziert, tut es dies durch die Kombination einer IP Address und einer Portnummer. Dadurch kann nicht nur festgestellt werden, an welches Gerät Daten zu senden sind, sondern auch, welche spezifische Anwendung oder welcher Dienst auf diesem Gerät läuft. Zum Beispiel:
+Jedes Mal, wenn ein Gerät über das Internet oder ein lokales Netz kommuniziert, tut es dies durch die Kombination einer IP-Adresse und einer Portnummer. Dadurch kann nicht nur festgestellt werden, an welches Gerät Daten zu senden sind, sondern auch, welche spezifische Anwendung oder welcher Dienst auf diesem Gerät läuft. Zum Beispiel:
 
 
 
 - Port "80" wird für den Zugriff auf HTTP-Webseiten verwendet
 - Port "443" wird für den Zugriff auf HTTPS-Webseiten verwendet (verschlüsselte Verbindung)
-- Port `22` wird für SSH-Verbindungen verwendet
-- Die Ports `25`, `465` und `587` werden für den Versand von E-Mails (SMTP) verwendet
+- Port "22" wird für SSH-Verbindungen verwendet
+- Die Ports "25", "465" und "587" werden für den Versand von E-Mails (SMTP) verwendet
 - Port "110" wird zum Abrufen von E-Mails über das POP3-Protokoll verwendet
-- Port `143` wird zum Abrufen von E-Mails über das IMAP-Protokoll verwendet
+- Port "143" wird zum Abrufen von E-Mails über das IMAP-Protokoll verwendet
 - Port "21" wird für Dateiübertragungen über das FTP-Protokoll verwendet
-- Port `53` wird für DNS-Anfragen verwendet...
+- Port "53" wird für DNS-Anfragen verwendet...
 
 
-Diese Ports werden auch in Systemen wie Bitcoin oder Tor verwendet, wo bestimmte Ports standardmäßig für die Peer-to-Peer-Kommunikation oder die Weiterleitung des Datenverkehrs verwendet werden:
+Diese Ports werden auch in Systemen wie Bitcoin oder Tor verwendet, wo bestimmte Ports standardmässig für die Peer-to-Peer-Kommunikation oder die Weiterleitung des Datenverkehrs verwendet werden:
 
 
 
-- Port `8333` wird für P2P Verbindungen auf Bitcoin Mainnet verwendet
-- Der Port "18333" wird für P2P-Verbindungen auf Bitcoin und Testnet verwendet
-- Port `8332` wird für den Interface RPC eines Bitcoin Knotens verwendet
-- Port `9050` wird vom SOCKS5-Proxy von Tor benutzt
-- Port `9150` wird vom Tor-Browser verwendet
+- Port "8333" wird für P2P Verbindungen auf dem Bitcoin Mainnet verwendet
+- Der Port "18333" wird für P2P-Verbindungen auf Bitcoin und dem Testnet verwendet
+- Port "8332" wird für das RPC-Interface eines Bitcoin Knotens verwendet
+- Port "9050" wird vom SOCKS5-Proxy von Tor benutzt
+- Port "9150" wird vom Tor-Browser verwendet
 
 
-Mit anderen Worten, ein Port ist wie eine spezielle Tür. Wenn Sie eine Website besuchen, öffnet Ihr Computer einen Quellport und sendet eine Anfrage an die IP-Adresse Address der Gegenstelle, wobei er bei einer verschlüsselten Verbindung den Port "443" ansteuert. Der entfernte Server sendet dann die Antwort über denselben Kanal zurück. Bei einem Router ist dieser Begriff des Ports wichtig: Er muss wissen, an welches Gerät und welchen lokalen Port er eingehende Datenpakete umleiten soll.
+Mit anderen Worten, ein Port ist wie eine spezielle Tür. Wenn du eine Website besuchst, öffnet dein Computer einen Quellport und sendet eine Anfrage an die IP-Adresse der Gegenstelle, wobei er bei einer verschlüsselten Verbindung den Port "443" ansteuert. Der entfernte Server sendet dann die Antwort über denselben Kanal zurück. Bei einem Router ist dieser Begriff des Ports wichtig: Er muss wissen, an welches Gerät und welchen lokalen Port er eingehende Datenpakete umleiten soll.
 
 
 Diese Möglichkeit, Ports zu öffnen, birgt jedoch auch ein Sicherheitsrisiko. Ein unnötig offen gelassener Port kann von Netzwerk-Scan-Tools entdeckt und von Angreifern ausgenutzt werden, wenn er mit einem anfälligen oder falsch konfigurierten Dienst verbunden ist. Es ist, als würde man eine Tür offen lassen. Aber dazu später mehr.
 
 
-Das Verständnis der grundlegenden Funktionsweise Ihres Heimnetzwerks ist daher sehr wichtig. Wenn Sie die Grundlagen Ihres Modems, WLANs, Routers, der lokalen IP-Adressen und Ports gut kennen, können Sie potenzielle Risiken erkennen und entsprechend handeln, um Ihre digitale Sicherheit zu stärken.
+Das Verständnis der grundlegenden Funktionsweise deines Heimnetzwerks ist daher sehr wichtig. Wenn du die Grundlagen deines Modems, WLANs, Routers, der lokalen IP-Adressen und Ports gut kennst, kannst du potenzielle Risiken erkennen und entsprechend handeln, um deine digitale Sicherheit zu stärken.
 
 
-In diesem Kapitel haben wir die wichtigsten Konzepte für Heimnetzwerke behandelt. Im nächsten Kapitel werden wir uns ansehen, wie Sie Ihre lokale Internet-Infrastruktur in der Praxis absichern und wie Sie Ihr WLAN richtig konfigurieren, um Ihre Sicherheit zu optimieren.
+In diesem Kapitel haben wir die wichtigsten Konzepte für Heimnetzwerke behandelt. Im nächsten Kapitel werden wir uns ansehen, wie du deine lokale Internet-Infrastruktur in der Praxis absicherst und wie du dein WLAN richtig konfigurierst, um deine Sicherheit zu optimieren.
 
 
-## Sichern Sie Ihr Heimnetzwerk in nur wenigen Schritten
+## Sichere dein Heimnetzwerk in nur wenigen Schritten
 
 
 <chapterId>d5577b2e-5247-4d10-8685-4906391e2cc1</chapterId>
 
 
-Wie wir im vorigen Kapitel festgestellt haben, ist die Sicherung Ihres Heimnetzwerks sehr wichtig, um Ihre Privatsphäre und Ihre persönlichen Daten zu schützen und Ihre digitale Souveränität zu gewährleisten.
+Wie wir im vorigen Kapitel festgestellt haben, ist die Sicherung deines Heimnetzwerks sehr wichtig, um deine Privatsphäre und deine persönlichen Daten zu schützen und deine digitale Souveränität zu gewährleisten.
 
 
-Nach einem Überblick über die theoretischen Grundlagen führt Sie dieses Kapitel durch klare, praktische und effektive Schritte zur Verbesserung der Sicherheit Ihres lokalen Netzwerks.
+Nach einem Überblick über die theoretischen Grundlagen führt dich dieses Kapitel durch klare, praktische und effektive Schritte zur Verbesserung der Sicherheit deines lokalen Netzwerks.
 
 
-*Bitte beachten Sie: Die hier bereitgestellten Informationen sind allgemeiner Art, da sich Plan ₿ Academy an ein internationales Publikum richtet. Abhängig von Ihren lokalen Gegebenheiten und Ihrem ISP werden bestimmte bewährte Verfahren hier möglicherweise nicht erwähnt oder gelten in anderer Weise*
+*Bitte beachte*: Die hier bereitgestellten Informationen sind allgemeiner Art, da sich Plan ₿ Academy an ein internationales Publikum richtet. Abhängig von deinen lokalen Gegebenheiten und deinem ISP werden bestimmte bewährte Verfahren hier möglicherweise nicht erwähnt oder gelten in anderer Weise.
 
 
-### Auswahl und Sicherung Ihrer Netzwerkausrüstung
+### Auswahl und Sicherung deiner Netzwerkausrüstung
 
 
-Die Sicherheit Ihres Heimnetzes beginnt mit der richtigen Wahl der Hardware: dem Router oder in manchen Fällen einem Modem-Router. Dieses Gerät stellt die Verbindung zwischen Ihrem lokalen Netz und dem Internet her. Es spielt daher eine zentrale Rolle beim Schutz Ihrer Daten.
+Die Sicherheit deines Heimnetzes beginnt mit der richtigen Wahl der Hardware: dem Router oder in manchen Fällen einem Modem-Router. Dieses Gerät stellt die Verbindung zwischen deinem lokalen Netz und dem Internet her. Es spielt daher eine zentrale Rolle beim Schutz deiner Daten.
 
 
 Es ist wichtig, moderne Geräte zu wählen, die vom Hersteller gewartet werden und den neuesten Sicherheitsstandards entsprechen. Heute (Juni 2025) wird empfohlen, sich für ein Gerät zu entscheiden, das mit dem Verschlüsselungsprotokoll WPA3 (*Wi-Fi Protected Access 3*) kompatibel ist, das die Nachfolge von WPA2 antritt und mehrere seiner Schwächen behebt. Insbesondere verbessert WPA3 die Widerstandsfähigkeit gegen Brute-Force-Angriffe auf Wi-Fi-Passwörter und führt eine bessere Isolierung zwischen Netzwerk-Clients ein.
 
 
-Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet Ihnen bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für Ihr gesamtes Netz dar, selbst wenn Sie sie richtig konfigurieren. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmäßigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
+Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet dir bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für dein gesamtes Netz dar, selbst wenn du sie richtig konfigurierst. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmässigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
 
 
-**Achtung**: Als Faustregel gilt, dass die von Internetanbietern bereitgestellten Router möglicherweise keine wesentliche Aktualisierungsfunktion sowie keine Personalisierungsmöglichkeiten bieten. In einigen Fällen können Internetanbieter auch uneingeschränkten Zugriff auf das interne Netzwerk des Endnutzers haben.
-
-Aktualisieren Sie daher systematisch die Firmware Ihres Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen müssen Sie sie manuell über das Interface-Verwaltungstool Ihres Routers überprüfen. Wie bei Ihrem Telefon, Computer, Betriebssystem und Ihrer Software ist es wichtig, dass Sie Ihren Router regelmäßig aktualisieren. Sie können dies zu einem Teil Ihrer wöchentlichen Routine machen - zum Beispiel jeden Sonntag - indem Sie eine Liste aller Elemente erstellen, die Sie überprüfen und auf dem neuesten Stand halten müssen.
+Aktualisiere daher systematisch die Firmware deines Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen musst du sie manuell über das Interface-Verwaltungstool deines Routers überprüfen. Wie bei deinem Telefon, Computer, Betriebssystem und deiner Software ist es wichtig, dass du deinen Router regelmässig aktualisierst. Du kannst dies zu einem Teil deiner wöchentlichen Routine machen – zum Beispiel jeden Sonntag – indem du eine Liste aller Elemente erstellst, die du überprüfst und auf dem neuesten Stand hältst.
 
 
-Alternativ können Sie Auto-Updates aktivieren oder zumindest das automatische Scannen nach neuen Firmware-Updates, wenn Sie lieber manuell vorgehen möchten. Obwohl die Auto-Update-Funktion weiterhin ein Sicherheitsrisiko darstellen kann, wird das Versäumnis, die Firmware des Routers regelmäßig zu aktualisieren, Ihr lokales Netzwerk öffentlich bekannten Schwachstellen aussetzen.
+Wenn dein Router nicht mehr gewartet wird, aber von der Hardware her noch einwandfrei funktioniert, kannst du eine alternative Open-Source-Firmware installieren, z. B.:
 
-**Beispiel**: Beim Kauf Ihres eigenen Routers kann es eine gute Idee sein, nach etablierten Firmen in der Branche zu suchen, die seit langem Router auf dem Markt anbieten. Beispielsweise genießen Fritz!Box-Router einen langjährigen Ruf als Plug-and-Play-Geräte, die sich sowohl für den Einsatz im Familienumfeld als auch in kleinen Unternehmen eignen. Ihre Richtlinie für Software-Updates erstreckt sich typischerweise über mehrere Jahre.
-
-Wenn Ihr Router nicht mehr gepflegt wird, aber aus Hardware-Sicht noch einwandfrei funktioniert, könnten Sie in der Lage sein, eine alternative Open-Source-Firmware zu installieren, wie zum Beispiel:
-
-
-
-- OpenWrt, eine auf Router spezialisierte Linux-Distribution, die große Flexibilität und regelmäßige Updates bietet
+- OpenWrt, eine auf Router spezialisierte Linux-Distribution, die grosse Flexibilität und regelmässige Updates bietet
 - pfSense und OPNsense, zwei FreeBSD-basierte (Unix-ähnliche) Systeme für x86-Firewalls und Router
 
-
-**Hinweis**: Einige ISPs liefern ihren Kunden Großhandelsrouter eines einzigen Herstellers, der gleichzeitig viele verschiedene ISPs weltweit beliefert. Möglicherweise stellen Sie fest, dass zum Installieren einer alternativen Firmware auf dem Router bereits jemand anders herausgefunden hat, wie es geht, selbst wenn er auf der anderen Seite der Welt ist.
 
 ![Image](assets/fr/196.webp)
 
@@ -8316,8 +8195,8 @@ Diese Systeme ermöglichen eine feinere Kontrolle der Firewall-Regeln, der ausge
 
 
 
-- Wählen Sie einen aktuellen Router
-- Halten Sie Ihr System auf dem neuesten Stand
+- Wähle einen aktuellen Router
+- Halte dein System auf dem neuesten Stand
 - Gegebenenfalls alternative Firmware in Betracht ziehen
 
 
@@ -8327,61 +8206,61 @@ Diese Systeme ermöglichen eine feinere Kontrolle der Firewall-Regeln, der ausge
 Einer der häufigsten (und gefährlichsten) Fehler ist die Beibehaltung der vom Routerhersteller vorgegebenen Standard-Anmeldedaten oder die Verwendung eines schwachen Passworts.
 
 
-In der Vergangenheit waren die Standard-Anmeldedaten für Router äußerst unsicher und oft für alle Benutzer identisch, wie z. B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein Ihres Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
+In der Vergangenheit waren die Standard-Anmeldedaten für Router äusserst unsicher und oft für alle Benutzer identisch, wie z.B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein deines Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
 
 
-Heutzutage weisen die meisten Hersteller jedem Router ein eindeutiges, robustes Passwort zu. Aber auch in diesem Fall empfehle ich, die Standard-Anmeldedaten zu ändern. Dies verringert die Supply-Kettenrisiken und verhindert, dass das ursprüngliche Kennwort (das manchmal auf dem Etikett des Routers aufgedruckt ist) Ihre Sicherheit gefährdet.
+Heutzutage weisen die meisten Hersteller jedem Router ein eindeutiges, robustes Passwort zu. Aber auch in diesem Fall empfehle ich, die Standard-Anmeldedaten zu ändern. Dies verringert die Supply-Chain-Risiken und verhindert, dass das ursprüngliche Kennwort (das manchmal auf dem Etikett des Routers aufgedruckt ist) deine Sicherheit gefährdet.
 
 
-Ändern Sie daher unbedingt sofort nach der Installation Ihres Routers Ihre Kennungen:
+Ändere daher unbedingt sofort nach der Installation deines Routers deine Kennungen:
 
 
 
-- Den Benutzernamen (falls vorhanden) der Verwaltung Interface
+- Den Benutzernamen (falls vorhanden) für den Zugang auf die Benutzeroberfläche
 - Und vor allem das Administrationspasswort, das den Zugang zur gesamten Netzwerkkonfiguration schützt, sowie das Wi-Fi-Passwort
 
 
-Dieses Passwort muss lang (40 Zeichen), komplex (Zahlen, Kleinbuchstaben, Großbuchstaben und Symbole), einzigartig (nicht wiederverwendbar) und zufällig sein. Ich empfehle natürlich die Verwendung eines Passwortmanagers, um diese Anmeldedaten sicher zu speichern (generate).
+Dieses Passwort muss lang (40 Zeichen), komplex (Zahlen, Kleinbuchstaben, Grossbuchstaben und Symbole), einzigartig (nicht wiederverwendbar) und zufällig sein. Ich empfehle natürlich die Verwendung eines Passwortmanagers, um diese Anmeldedaten sicher zu speichern (generate).
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Achtung: Verwechseln Sie nicht das Administrationspasswort des Routers (das den Zugriff auf die Konfiguration schützt) mit dem Wi-Fi-Passwort (das Ihnen die Verbindung zum drahtlosen Netzwerk ermöglicht). Es handelt sich um zwei verschiedene Elements, die beide geändert werden müssen.
+Achtung: Verwechsle nicht das Administrationspasswort des Routers (das den Zugriff auf die Konfiguration schützt) mit dem Wi-Fi-Passwort (das dir die Verbindung zum drahtlosen Netzwerk ermöglicht). Es handelt sich um zwei verschiedene Elements, die beide geändert werden müssen.
 
 
-Schließlich verfügen einige moderne Router über zwei Verwaltungsschnittstellen: Ein lokales Interface-Web (zugänglich über ein Address wie "192.168.1.1") und ein Cloud-Interface (ermöglicht die Fernverwaltung über das Internet). Wenn letzteres standardmäßig aktiviert ist, empfehle ich Ihnen, es zu deaktivieren, wenn Sie es nicht verwenden, oder seine Sicherheit mit einem starken Passwort und möglicherweise einer Zwei-Faktor-Authentifizierung (2FA) zu verstärken, falls verfügbar.
+Schliesslich verfügen einige moderne Router über zwei Verwaltungsschnittstellen: Ein lokales Web-Interface (zugänglich über eine Adresse wie "192.168.1.1") und ein Cloud-Interface (ermöglicht die Fernverwaltung über das Internet). Wenn letzteres standardmässig aktiviert ist, empfehle ich dir, es zu deaktivieren, wenn du es nicht verwendest. Oder du verstärkst seine Sicherheit mit einem starken Passwort und möglicherweise einer Zwei-Faktor-Authentifizierung (2FA), falls verfügbar.
 
 
 ### Sichere Router-Konfiguration
 
 
-Der Router ist das Herzstück Ihres Heimnetzwerks. Seine Konfiguration spielt eine wichtige Rolle für die Sicherheit aller angeschlossenen Geräte. Leider können viele der standardmäßig auf diesen Geräten aktivierten Funktionen Ihr Netzwerk ungewollt externen Angriffen aussetzen. Deshalb ist es wichtig, eine vollständige Überprüfung der aktivierten Optionen vorzunehmen und diejenigen zu deaktivieren, die für Ihre Zwecke nicht unbedingt erforderlich sind.
+Der Router ist das Herzstück deines Heimnetzwerks. Seine Konfiguration spielt eine wichtige Rolle für die Sicherheit aller angeschlossenen Geräte. Leider können viele der standardmässig auf diesen Geräten aktivierten Funktionen dein Netzwerk ungewollt externen Angriffen aussetzen. Deshalb ist es wichtig, eine vollständige Überprüfung der aktivierten Optionen vorzunehmen und diejenigen zu deaktivieren, die für deine Zwecke nicht unbedingt erforderlich sind.
 
 
 Einige Funktionen sollten vermieden oder systematisch deaktiviert werden:
 
 
 
-- UPnP (**Universal Plug and Play**):
+- **UPnP (*Universal Plug and Play*)**:
 
 
-Diese Funktion ermöglicht es den Geräten in Ihrem Netzwerk, den Router aufzufordern, automatisch Ports zu öffnen. Dies erleichtert zwar bestimmte Nutzungen (Online-Spiele, angeschlossene Kameras usw.), öffnet aber auch die Tür für bösartige Anwendungen, die die Netzwerkkonfiguration ohne Ihre Zustimmung ändern können. UPnP ist eine der Hauptursachen für die unbeabsichtigte Offenlegung interner Dienste gegenüber der Außenwelt.
-
-
-
-- WPS (*Wi-Fi Protected Setup*):
-
-
-Dieses System, das ursprünglich entwickelt wurde, um die Verbindung von Geräten mit Wi-Fi ohne Eingabe eines Passworts zu vereinfachen, basiert auf einem PIN-Code, der oft schwach ist und leicht mit roher Gewalt angegriffen werden kann. Ich rate Ihnen, es zu deaktivieren.
+Diese Funktion ermöglicht es den Geräten in deinem Netzwerk, den Router aufzufordern, automatisch Ports zu öffnen. Dies erleichtert zwar bestimmte Nutzungen (Online-Spiele, angeschlossene Kameras usw.), öffnet aber auch die Tür für bösartige Anwendungen, die die Netzwerkkonfiguration ohne deine Zustimmung ändern können. UPnP ist eine der Hauptursachen für die unbeabsichtigte Offenlegung interner Dienste gegenüber der Aussenwelt.
 
 
 
-- Fernzugriff (**Remote Management**):
+- **WPS (*Wi-Fi Protected Setup*)**:
 
 
-Einige Router ermöglichen es Ihnen, von außen über das Internet eine Verbindung zu ihrer Verwaltung Interface herzustellen. Diese Funktion vergrößert die Angriffsfläche Ihres Routers unangemessen. Deaktivieren Sie diese Funktion vollständig, es sei denn, Sie haben einen speziellen Bedarf an Fernverwaltung. Selbst dann sollten Sie immer ein VPN verwenden.
+Dieses System wurde ursprünglich entwickelt, um die Verbindung von Geräten mit Wi-Fi ohne Eingabe eines Passworts zu vereinfachen. Es basiert auf einem PIN-Code, der oft schwach ist und leicht mit roher Gewalt angegriffen werden kann. Ich rate dir, es zu deaktivieren.
+
+
+
+- **Fernzugriff (*Remote Management*)**:
+
+
+Einige Router ermöglichen es dir, von aussen über das Internet eine Verbindung zu ihrer grafischen Benutzeroberfläche herzustellen. Diese Funktion vergrössert die Angriffsfläche deines Routers unangemessen. Deaktiviere diese Funktion vollständig. Es sei denn, du hast einen speziellen Bedarf an Fernverwaltung. Selbst dann solltest du immer ein VPN verwenden.
 
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -8390,35 +8269,35 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 - **Veraltete oder unsichere Protokolle**:
 
 
-Deaktivieren Sie alle Verwaltungsdienste, die Klartextprotokolle wie Telnet, FTP, unverschlüsseltes HTTP oder SMBv1 verwenden. Diese Protokolle gewährleisten weder die Vertraulichkeit noch die Integrität der ausgetauschten Daten und sind häufig das Ziel von Malware. Wenn Sie einen lokalen oder Fernzugriff benötigen, verwenden Sie nur Verbindungen über HTTPS (verschlüsseltes Interface), SSH oder SFTP, je nach Bedarf.
+Deaktiviere alle Verwaltungsdienste, die Klartextprotokolle wie Telnet, FTP, unverschlüsseltes HTTP oder SMBv1 verwenden. Diese Protokolle gewährleisten weder die Vertraulichkeit noch die Integrität der ausgetauschten Daten und sind häufig das Ziel von Malware. Wenn du einen lokalen oder Fernzugriff benötigst, verwende nur Verbindungen über HTTPS (verschlüsseltes Interface), SSH oder SFTP, je nach Bedarf.
 
 
 
-- Ping WAN / ICMP:
+- **Ping WAN / ICMP**:
 
 
-Einige Router reagieren standardmäßig auf ICMP-Anfragen, die von außen gesendet werden (Befehl "ping"). Dadurch kann ein Angreifer überprüfen, ob Ihr Netz aktiv und erreichbar ist. Wenn Sie dies nicht benötigen, deaktivieren Sie diese Antwort in der Firewall des Routers.
+Einige Router reagieren standardmässig auf ICMP-Anfragen, die von aussen gesendet werden (Befehl "ping"). Dadurch kann ein Angreifer überprüfen, ob dein Netz aktiv und erreichbar ist. Wenn du dies nicht benötigst, deaktiviere diese Antwort in der Firewall des Routers.
 
 
-Denken Sie schließlich daran, den Zugriff auf die Interface-Verwaltung des Routers nur auf vertrauenswürdige Geräte zu beschränken und den Zugriff auf bestimmte IP-Adressen zu begrenzen, wenn der Interface dies zulässt. Einige Firmwares, wie z. B. OpenWrt, bieten eine sehr genaue Kontrolle über diese Parameter.
+Denke schliesslich daran, den Zugriff auf die grafische Benutzeroberfläche des Routers nur auf vertrauenswürdige Geräte zu beschränken und den Zugriff auf bestimmte IP-Adressen zu begrenzen, wenn das Interface dies zulässt. Einige Firmwares, wie z.B. OpenWrt, bieten eine sehr genaue Kontrolle über diese Parameter.
 
 
 ### Verstärkung der Sicherheit von Wi-Fi-Netzwerken
 
 
-Das Wi-Fi-Netzwerk ist oft der bevorzugte Einstiegspunkt für Eindringlinge in die häusliche Umgebung. Für das bloße Auge unsichtbar, aber von außerhalb Ihres Hauses zugänglich, ist es ein leichtes Ziel für jeden in Reichweite.
+Das Wi-Fi-Netzwerk ist oft der bevorzugte Einstiegspunkt für Eindringlinge in die häusliche Umgebung. Für das blosse Auge unsichtbar, aber von ausserhalb deines Hauses zugänglich, ist es ein leichtes Ziel für jeden in Reichweite.
 
 
-Der erste wichtige Schritt ist die Wahl des richtigen Verschlüsselungsprotokolls. Aktivieren Sie immer "*WPA3-Personal*", den neuesten und sichersten Standard. Er schützt nicht nur die ausgetauschten Daten, sondern verhindert auch bestimmte bekannte Angriffe.
+Der erste wichtige Schritt ist die Wahl des richtigen Verschlüsselungsprotokolls. Aktiviere immer "*WPA3-Personal*", den neuesten und sichersten Standard. Er schützt nicht nur die ausgetauschten Daten, sondern verhindert auch bestimmte bekannte Angriffe.
 
 
-Der Name Ihres Wi-Fi-Netzwerks, "SSID" (*Service Set Identifier*) genannt, sollte neutral bleiben. Vermeiden Sie es, Ihren Namen, Address oder die Marke Ihres Routers anzugeben. Ein Name wie `MaisonDupont_WiFi6` gibt einem potenziellen Angreifer bereits zu viele Informationen. Bevorzugen Sie einen allgemeinen Namen, der keine besondere Bedeutung hat. Dies schränkt die für passives Tracking oder Social Targeting verfügbaren Informationen ein.
+Der Name deines Wi-Fi-Netzwerks, "SSID" (*Service Set Identifier*) genannt, sollte neutral bleiben. Vermeide es, deinen Namen, Adresse oder die Marke deines Routers anzugeben. Ein Name wie `MaisonDupont_WiFi6` gibt einem potenziellen Angreifer bereits zu viele Informationen. Bevorzuge einen allgemeinen Namen, der keine besondere Bedeutung hat. Dies schränkt die für passives Tracking oder Social Targeting verfügbaren Informationen ein.
 
 
-Eine weitere bewährte Methode besteht darin, ein von Ihrem Hauptnetz getrenntes Gastnetzwerk einzurichten. Dieses parallele Netzwerk, das häufig von modernen Routern angeboten wird, ermöglicht es Ihnen, Ihren Gästen eine Internetverbindung zur Verfügung zu stellen, ohne dass sie Zugang zu Ihren anderen Geräten (Computer, Drucker, NAS usw.) haben. Das bedeutet auch, dass Sie ihnen nicht das Passwort für Ihr Hauptnetzwerk mitteilen müssen. Um noch weiter zu gehen, aktivieren Sie die Client-Isolierung in diesem Gastnetzwerk: Dadurch wird auch verhindert, dass Besucher miteinander kommunizieren, was die Risiken im Zusammenhang mit kompromittierten Geräten weiter verringert.
+Eine weitere bewährte Methode besteht darin, ein von deinem Hauptnetz getrenntes Gastnetzwerk einzurichten. Dieses parallele Netzwerk, das häufig von modernen Routern angeboten wird, ermöglicht es dir, deinen Gästen eine Internetverbindung zur Verfügung zu stellen, ohne dass sie Zugang zu deinen anderen Geräten (Computer, Drucker, NAS usw.) haben. Das bedeutet auch, dass du ihnen nicht das Passwort für dein Hauptnetzwerk mitteilen musst. Um noch weiter zu gehen, aktiviere die Client-Isolierung in diesem Gastnetzwerk: Dadurch wird auch verhindert, dass Besucher miteinander kommunizieren, was die Risiken im Zusammenhang mit kompromittierten Geräten weiter verringert.
 
 
-Schließlich sollten Sie die Sendeleistung Ihres Wi-Fi-Zugangspunkts anpassen. Standardmäßig senden viele Router ein sehr starkes Signal aus, das manchmal weit über Ihre Wände hinaus zu erkennen ist. Dies vergrößert den Bereich, in dem Sie sich aufhalten. Reduzieren Sie in den erweiterten Einstellungen Ihres Routers die Sendeleistung auf das für die Abdeckung Ihres Hauses erforderliche Minimum. Wenn Ihr Router dies zulässt, können Sie auch eine automatische Wi-Fi-Abschaltung konfigurieren, wenn er nicht benutzt wird.
+Schliesslich solltest du die Sendeleistung deines Wi-Fi-Zugangspunkts anpassen. Standardmässig senden viele Router ein sehr starkes Signal aus, das manchmal weit über deine Wände hinaus zu erkennen ist. Dies vergrössert den Bereich, in dem du dich aufhältst. Reduziere in den erweiterten Einstellungen deines Routers die Sendeleistung auf das für die Abdeckung deines Hauses erforderliche Minimum. Wenn dein Router dies zulässt, kannst du auch eine automatische Wi-Fi-Abschaltung konfigurieren, wenn er nicht benutzt wird.
 
 
 ### Segmentierung des Netzes
@@ -8427,37 +8306,37 @@ Schließlich sollten Sie die Sendeleistung Ihres Wi-Fi-Zugangspunkts anpassen. S
 Eine der wirksamsten Strategien zur Erhöhung der Sicherheit eines Heimnetzwerks ist die Segmentierung. Dabei wird das lokale Netz in mehrere unabhängige Teilnetze, so genannte "VLANs" (*Virtual Local Area Networks*), unterteilt. Diese VLANs ermöglichen es, verschiedene Geräte- oder Nutzungstypen zu isolieren, auch wenn sie dieselbe physische Hardware verwenden (Router, Verkabelung, Wi-Fi-Terminal usw.).
 
 
-Jedes VLAN funktioniert wie ein kleines, autonomes Netz mit eigenen Kommunikationsregeln. Der Austausch zwischen VLANs wird standardmäßig blockiert oder streng kontrolliert. Dadurch wird beispielsweise verhindert, dass ein kompromittierter angeschlossener Fernseher Ihren PC oder Ihr NAS erreicht. Dieser Ansatz basiert auf 2 der grundlegenden Prinzipien der Cybersicherheit, die wir bereits in früheren Kapiteln untersucht haben: Kompartimentierung und geringste Rechte.
+Jedes VLAN funktioniert wie ein kleines, autonomes Netz mit eigenen Kommunikationsregeln. Der Austausch zwischen VLANs wird standardmässig blockiert oder streng kontrolliert. Dadurch wird beispielsweise verhindert, dass ein kompromittierter angeschlossener Fernseher deinen PC oder dein NAS erreicht. Dieser Ansatz basiert auf zwei der grundlegenden Prinzipien der Cybersicherheit, die wir bereits in früheren Kapiteln untersucht haben: 'Compartmentalization' and 'least privilege'.
 
 
 ![Image](assets/fr/197.webp)
 
 
-Konkret gibt es einige Beispiele für die Segmentierung, die Sie vornehmen könnten:
+Konkret gibt es einige Beispiele für die Segmentierung, die du vornehmen kannst:
 
 
 
-- Ein persönliches VLAN: Für Ihre vertrauenswürdigen Geräte wie Computer, Smartphones oder persönliche Server. Dies ist das Hauptsegment, in dem Ihre sensiblen Daten zirkulieren.
+- Ein persönliches VLAN: Für deine vertrauenswürdigen Geräte wie Computer, Smartphones oder persönliche Server. Dies ist das Hauptsegment, in dem deine sensiblen Daten zirkulieren.
 
 
 
-- Ein IoT-VLAN: Für verbundene Objekte (Glühbirnen, Lautsprecher, Kameras, Smart-TVs usw.). Diese Geräte sind oft unsicher, weniger aktuell und ein häufiges Ziel für Angriffe. Durch die Isolierung dieser Geräte wird das Risiko, dass ein Angreifer sie als Einstiegspunkt in Ihr Netzwerk nutzt, erheblich verringert.
+- Ein IoT-VLAN: Für verbundene Objekte (Glühbirnen, Lautsprecher, Kameras, Smart-TVs usw.). Diese Geräte sind oft unsicher, weniger aktuell und ein häufiges Ziel für Angriffe. Durch die Isolierung dieser Geräte wird das Risiko, dass ein Angreifer sie als Einstiegspunkt in dein Netzwerk nutzt, erheblich verringert.
 
 
 
-- Ein Gast-VLAN: Reserviert für Ihre Freunde oder Familie, wenn diese bei Ihnen zu Gast sind. Es ermöglicht den Zugang zum Internet, aber keinen Zugriff auf Ihre privaten Geräte.
+- Ein Gast-VLAN: Reserviert für deine Freunde oder Familie, wenn diese bei dir zu Gast sind. Es ermöglicht den Zugang zum Internet, aber keinen Zugriff auf deine privaten Geräte.
 
 
-Schließlich bietet dieser Ansatz auch Vorteile in Bezug auf Leistung und Verwaltung: Sie können bestimmten Arten von Datenverkehr Vorrang einräumen, je nach VLAN spezifische Sicherheitsregeln anwenden (Firewall, Ratenbegrenzung, DNS-Filterung usw.) und anormales Netzwerkverhalten besser überwachen. Eine Praxis, die ich sehr empfehle.
+Schliesslich bietet dieser Ansatz auch Vorteile in Bezug auf Leistung und Verwaltung: Sie können bestimmten Arten von Datenverkehr Vorrang einräumen, je nach VLAN spezifische Sicherheitsregeln anwenden (Firewall, Ratenbegrenzung, DNS-Filterung usw.) und anormales Netzwerkverhalten besser überwachen. Eine Praxis, die ich sehr empfehle.
 
 
 ### Erweiterte DNS-Verwaltung
 
 
-DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z. B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in Ihrem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um den Address des Servers zu erhalten, den es kontaktieren soll. Standardmäßig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an Ihren Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von Ihnen besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
+DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z.B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in deinem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um die Adresse des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an deinen Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von dir besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
 
 
-Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, können Sie die Kontrolle über die DNS-Auflösung in Ihrem Heimnetzwerk übernehmen. Beginnen Sie damit, die standardmäßig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z. B. :
+Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, kannst du die Kontrolle über die DNS-Auflösung in deinem Heimnetzwerk übernehmen. Beginne damit, die standardmässig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z.B. :
 
 
 
@@ -8479,15 +8358,15 @@ Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte
 ![Image](assets/fr/199.webp)
 
 
-Aktivieren Sie als nächstes ein Protokoll zur Verschlüsselung von DNS-Anfragen, um zu verhindern, dass DNS-Anfragen abgefangen oder überwacht werden. Hierfür gibt es 2 Hauptprotokolle:
+Aktiviere als nächstes ein Protokoll zur Verschlüsselung von DNS-Anfragen, um zu verhindern, dass DNS-Anfragen abgefangen oder überwacht werden. Hierfür gibt es zwei Hauptprotokolle:
 
 
 
-- DoH (**DNS über HTTPS**): Verkapselt DNS-Anfragen in das HTTPS-Protokoll, so dass sie nicht von herkömmlichem verschlüsseltem Webverkehr zu unterscheiden sind
+- **DoH (*DNS über HTTPS*)**: Verkapselt DNS-Anfragen in das HTTPS-Protokoll, so dass sie nicht von herkömmlichem verschlüsseltem Webverkehr zu unterscheiden sind
 
 
 
-- **DoT (*DNS über TLS*)**: Erzeugt einen speziellen verschlüsselten Kanal zwischen Ihrem Gerät und dem DNS-Server
+- **DoT (*DNS über TLS*)**: Erzeugt einen speziellen verschlüsselten Kanal zwischen deinem Gerät und dem DNS-Server
 
 
 
@@ -8498,31 +8377,30 @@ In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen E
 
 
 
-- Auf Anwendungsebene: Einige Softwareanwendungen, wie z. B. der Firefox-Browser, ermöglichen die direkte Konfiguration von DNS-Verschlüsselungsprotokollen, wie z. B. DoH. Diese Lösung schützt jedoch nur Anfragen, die über die Anwendung erfolgen, und nicht den Rest Ihres Computers.
+- Auf Anwendungsebene: Einige Softwareanwendungen, wie z.B. der Firefox-Browser, ermöglichen die direkte Konfiguration von DNS-Verschlüsselungsprotokollen, wie z.B. DoH. Diese Lösung schützt jedoch nur Anfragen, die über die Anwendung erfolgen, und nicht den Rest deines Computers.
 
 
 ![Image](assets/fr/198.webp)
 
 
 
-https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Auf der Ebene des Betriebssystems: Einige Betriebssysteme bieten von Haus aus eine verschlüsselte DNS-Unterstützung (DoT oder DoH), mit der alle DNS-Anfragen, die den Netzwerkstapel des Systems passieren, gesichert werden. Dadurch wird jedoch nicht der gesamte Computer oder das Telefon gesichert: Anwendungen können diese Einstellung umgehen, wenn sie für die Verwendung eines anderen DNS-Auflösers oder -Protokolls konfiguriert sind.
 
 
 
-- Auf Netzwerkebene: Die DNS-Verschlüsselung kann über die Router-Konfiguration auf das gesamte lokale Netz angewendet werden. Auch hier gilt, dass ein für DoH/DoT konfigurierter Router nur den Verkehr sieht, der tatsächlich an ihn gesendet wird. Ein Browser, der so konfiguriert ist, dass er einen entfernten Resolver direkt kontaktiert, entzieht sich also dieser Kontrolle. Um diese Schlupflöcher zu schließen, müssen Sie Port 53 im Klartext blockieren und nicht autorisierte DoH/DoT-Ziele über die Firewall des Routers einschränken.
+- Auf Netzwerkebene: Die DNS-Verschlüsselung kann über die Router-Konfiguration auf das gesamte lokale Netz angewendet werden. Auch hier gilt, dass ein für DoH/DoT konfigurierter Router nur den Verkehr sieht, der tatsächlich an ihn gesendet wird. Ein Browser, der so konfiguriert ist, dass er einen entfernten Resolver direkt kontaktiert, entzieht sich also dieser Kontrolle. Um diese Schlupflöcher zu schliessen, musst du Port 53 im Klartext blockieren und nicht autorisierte DoH/DoT-Ziele über die Firewall des Routers einschränken.
 
 
-Auch die vom Internetanbieter bereitgestellten Modem-Router unterstützen diese Funktionen nicht immer. Für den Fall, dass der Router diese Funktionen nicht unterstützt, gibt es mehrere Alternativen. Sie können auf jedem Gerät einen manuell verschlüsselten DNS-Client installieren, hinter dem Router des Internetanbieters einen persönlichen Router hinzufügen (der DNS-Verschlüsselung beherrscht) oder einen lokalen DNS-Server (z. B. auf einem Raspberry Pi) einrichten, der DNS-Anfragen verschlüsselt und an einen sicheren Resolver weiterleitet.
+Auch die vom Internetanbieter bereitgestellten Modem-Router unterstützen diese Funktionen nicht immer. Für den Fall, dass der Router diese Funktionen nicht unterstützt, gibt es mehrere Alternativen. Du kannst auf jedem Gerät einen manuell verschlüsselten DNS-Client installieren, hinter dem Router des Internetanbieters einen persönlichen Router hinzufügen (der DNS-Verschlüsselung beherrscht) oder einen lokalen DNS-Server (z.B. auf einem Raspberry Pi) einrichten, der DNS-Anfragen verschlüsselt und an einen sicheren Resolver weiterleitet.
 
 
 
-Um noch einen Schritt weiter zu gehen, können Sie auch eine lokale DNS-Filterlösung wie Pi-hole oder AdGuard Home einrichten.
+Um noch einen Schritt weiter zu gehen, kannst du auch eine lokale DNS-Filterlösung wie Pi-hole oder AdGuard Home einrichten.
 
 
 https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und blockieren Anfragen an Domänen, die bekanntermaßen Werbung, Browser-Tracker, Phishing- oder bösartige Websites hosten. Mit diesen Tools können Sie auch Ihre eigenen Blockierlisten erstellen oder die Filterung an die angeschlossenen Geräte anpassen.
+Diese Tools funktionieren wie ein kleiner DNS-Server in deinem Netzwerk und blockieren Anfragen an Domänen, die bekanntermassen Werbung, Browser-Tracker, Phishing- oder bösartige Websites hosten. Mit diesen Tools kannst du auch deine eigenen Blockierlisten erstellen oder die Filterung an die angeschlossenen Geräte anpassen.
 
 
 ![Image](assets/fr/200.webp)
@@ -8530,11 +8408,11 @@ Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und block
 
 ### Sicherer Fernzugriff über VPN
 
-In manchen Fällen ist es nützlich, auch von unterwegs auf Ihr Heimnetzwerk zugreifen zu können: Sie können Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder Ihr Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
+In manchen Fällen ist es nützlich, auch von unterwegs auf dein Heimnetzwerk zugreifen zu können: Du kannst Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder dein Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
 
-Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z. B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
+Der erste Tipp ist, niemals direkt einen Port auf deinem Router zu öffnen, um auf ein Gerät zuzugreifen (z.B. über RDP, SSH oder FTP), da dies den Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
 
-Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d. h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
+Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d.h. eines verschlüsselten Tunnels zwischen deinem entfernten Gerät (Computer, Smartphone usw.) und deinem lokalen Netzwerk. Sobald du mit dem VPN verbunden bist, kannst du auf deine Ressourcen zu Hause zugreifen, als wärst du physisch vor Ort, und zwar auf sichere Weise.
 
 Die beiden wichtigsten Lösungen für Privatkunden sind:
 
@@ -8543,47 +8421,47 @@ Die beiden wichtigsten Lösungen für Privatkunden sind:
 
 https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
-Hier finden Sie eine vollständige Anleitung zu Tailscale, einer einfach zu konfigurierenden VPN-Lösung, die WireGuard verwendet:
+Hier findest du eine vollständige Anleitung zu Tailscale, einer einfach zu konfigurierenden VPN-Lösung, die WireGuard verwendet:
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z. B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
+Du kannst dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z.B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Du kannst es auch als Client direkt auf einem beliebigen Gerät installieren.
 
-Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP Address vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
+Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Du kannst auch einen klassischen VPN-Client auf deinen Geräten verwenden, um deinen gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn du nicht zu Hause bist (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt dein Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann deine Verbindungen ins Internet weiterleitet. Dies verbirgt deine echte IP-Adresse vor dem Internetanbieter, schützt deine Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-Schließlich ist es auch möglich, ein VPN direkt auf Ihrem Router einzurichten, so dass Sie alle Geräte in Ihrem Haus schützen können, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
+Schliesslich ist es auch möglich, ein VPN direkt auf deinem Router einzurichten, so dass du alle Geräte in deinem Haus schützen kannst, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
 
 ### Überwachung und Aufdeckung
 
-Sobald Ihr Netzwerk richtig konfiguriert und segmentiert ist, ist es wichtig, über die passive Sicherheit hinauszugehen. Durch die aktive Überwachung Ihres lokalen Netzes können Sie abnormales Verhalten, unbefugte Verbindungen oder Anzeichen eines Eindringens erkennen. Ziel ist es, Probleme frühzeitig zu erkennen, bevor sie Schaden anrichten.
+Sobald dein Netzwerk richtig konfiguriert und segmentiert ist, ist es wichtig, über die passive Sicherheit hinauszugehen. Durch die aktive Überwachung deines lokalen Netzes kannst du abnormales Verhalten, unbefugte Verbindungen oder Anzeichen eines Eindringens erkennen. Ziel ist es, Probleme frühzeitig zu erkennen, bevor sie Schaden anrichten.
 
-Der erste Schritt besteht darin, die Sicherheitsprotokolle zu zentralisieren. Jedes an das Netz angeschlossene Gerät erzeugt Protokolle mit Informationen über Verbindungen, Fehler oder verdächtige Aktivitäten. Anstatt diese Protokolle einzeln einzusehen, empfehle ich, sie an einen Server zu senden, der sie gruppieren, sortieren und analysieren kann. Lösungen wie Graylog oder Elastic Stack (ELK) ermöglichen es Ihnen, diese Protokolle in einem grafischen Interface zusammenzufassen, in dem Sie nach bestimmten Ereignissen suchen, Warnmeldungen erstellen oder die Netzwerkaktivität visualisieren können.
+Der erste Schritt besteht darin, die Sicherheitsprotokolle zu zentralisieren. Jedes an das Netz angeschlossene Gerät erzeugt Protokolle mit Informationen über Verbindungen, Fehler oder verdächtige Aktivitäten. Anstatt diese Protokolle einzeln einzusehen, empfehle ich, sie an einen Server zu senden, der sie gruppieren, sortieren und analysieren kann. Lösungen wie Graylog oder Elastic Stack (ELK) ermöglichen es dir, diese Protokolle in einem grafischen Interface zusammenzufassen, in dem du nach bestimmten Ereignissen suchst, Warnmeldungen erstellen oder die Netzwerkaktivität visualisieren können.
 
 https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
-Führen Sie als nächstes regelmäßige aktive Scans Ihres lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhalten Sie einen Überblick über alle Geräte in Ihrem Netzwerk und die von ihnen geöffneten Ports. Wenn Sie ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdecken, könnte dies ein Anzeichen für einen Angriff sein.
+Führe als nächstes regelmässige aktive Scans deines lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhältst du einen Überblick über alle Geräte in deinem Netzwerk und die von ihnen geöffneten Ports. Wenn du ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdeckst, könnte dies ein Anzeichen für einen Angriff sein.
 
 https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
-Um noch weiter zu gehen, können Sie ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
+Um noch weiter zu gehen, kannst du ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
 
-Schließlich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine große Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat können Sie die ein- und ausgehenden Datenströme pro Gerät anzeigen.
+Schliesslich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine grosse Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat kannst du die ein- und ausgehenden Datenströme pro Gerät anzeigen.
 
 https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sicherung und Ausfallsicherheit
 
-Selbst bei einem perfekt gesicherten Netzwerk können Hardwareausfälle, Konfigurationsfehler oder unvorhergesehene Ereignisse (Stromausfall, Überspannung, Hard-Festplattenausfall usw.) zu Datenverlusten oder Unterbrechungen Ihrer Dienste führen. Um die Kontinuität Ihrer digitalen Umgebung zu gewährleisten und zu vermeiden, dass Sie im Falle eines Problems wieder bei Null anfangen müssen, ist es wichtig, eine Backup- und Resilienzstrategie zu implementieren.
+Selbst bei einem perfekt gesicherten Netzwerk können Hardwareausfälle, Konfigurationsfehler oder unvorhergesehene Ereignisse (Stromausfall, Überspannung, Hard-Festplattenausfall usw.) zu Datenverlusten oder Unterbrechungen deiner Dienste führen. Um die Kontinuität deiner digitalen Umgebung zu gewährleisten und zu vermeiden, dass du im Falle eines Problems wieder bei Null anfangen musst, ist es wichtig, eine Backup- und Resilienzstrategie zu implementieren.
 
-Beginnen Sie damit, die Konfiguration Ihrer Netzwerkausrüstung, insbesondere des Routers, regelmäßig zu sichern. Diese Konfigurationsdateien können oft über die Verwaltung Interface exportiert werden. Wenn Sie eine Kopie aufbewahren, können Sie im Falle eines Geräte-Resets oder eines Austauschs schnell ein funktionierendes System wiederherstellen. Ich empfehle außerdem, diese Sicherungskopie zu verschlüsseln.
+Beginne damit, die Konfiguration deiner Netzwerkausrüstung, insbesondere des Routers, regelmässig zu sichern. Diese Konfigurationsdateien können oft über das Verwaltungsinterface exportiert werden. Wenn du eine Kopie aufbewahrst, kannst du im Falle eines Geräte-Resets oder eines Austauschs schnell ein funktionierendes System wiederherstellen. Ich empfehle ausserdem, diese Sicherungskopie zu verschlüsseln.
 
-Und schließlich sollten Sie in eine USV investieren, um die Widerstandsfähigkeit Ihres Netzwerks bei einem Stromausfall zu verbessern. Dieses Gerät stellt bei einem Stromausfall für einige Minuten eine Notstromversorgung bereit und ermöglicht es Ihnen, das Internet weiter zu nutzen oder sicherzustellen, dass kritische Geräte (NAS, Router, Wi-Fi-Zugangspunkt usw.) sauber heruntergefahren werden. Einige Modelle können auch einen automatischen Abschaltbefehl an angeschlossene Geräte senden, wenn sie feststellen, dass die Batterie schwach ist.
+Und schliesslich solltest du in eine USV investieren, um die Widerstandsfähigkeit deines Netzwerks bei einem Stromausfall zu verbessern. Dieses Gerät stellt bei einem Stromausfall für einige Minuten eine Notstromversorgung bereit und ermöglicht es dir, das Internet weiter zu nutzen oder sicherzustellen, dass kritische Geräte (NAS, Router, Wi-Fi-Zugangspunkt usw.) sauber heruntergefahren werden. Einige Modelle können auch einen automatischen Abschaltbefehl an angeschlossene Geräte senden, wenn sie feststellen, dass die Batterie schwach ist.
 
-Wenn Sie diese wenigen Schritte befolgen, bauen Sie eine stabile, sichere Netzwerkumgebung auf, die Ihre Privatsphäre respektiert.
+Wenn du diese wenigen Schritte befolgst, baust du eine stabile, sichere Netzwerkumgebung auf, die deine Privatsphäre respektiert.
 
 # Letzter Teil
 
@@ -8606,4 +8484,3 @@ Wenn Sie diese wenigen Schritte befolgen, bauen Sie eine stabile, sichere Netzwe
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-

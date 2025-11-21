@@ -6,4 +6,4 @@ wrong_answers:
   - 7
 explanation: |
   Le protocole IPv4 correspond à la valeur 4 dans le champ "Version" de l’en-tête IP.
-reviewed: false
+reviewed: true 

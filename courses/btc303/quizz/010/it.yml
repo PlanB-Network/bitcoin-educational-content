@@ -1,0 +1,8 @@
+question: Cosa è necessario per utilizzare Bitcoin in modo non fiduciario secondo il progetto del protocollo?
+answer: Esecuzione di un nodo Bitcoin completamente validante per verificare personalmente tutti i blocchi e le transazioni
+wrong_answers:
+  - Usare uno scambio di criptovalute affidabile con forti misure di sicurezza e assicurazione
+  - Affidarsi a più servizi di terze parti affidabili per la verifica incrociata delle informazioni sulle transazioni
+  - Installazione di software wallet verificato da fonti ufficiali con firma digitale
+explanation: |
+  Per utilizzare Bitcoin in modo affidabile, è necessario gestire un nodo Bitcoin completamente validante che verifichi in modo indipendente che tutti i blocchi seguano le regole del consenso, controlli il programma di emissione delle monete e prevenga i doppi pagamenti. In questo modo si evita di esternalizzare la verifica ad altri, mantenendo la proprietà trustless. Utilizzare scambi o servizi di terze parti significa affidarsi ad altri per sapere la verità sullo stato della blockchain. Sebbene il software verificato sia importante per la sicurezza, non elimina la necessità di avere un proprio nodo di convalida per ottenere la vera assenza di fiducia nel sistema Bitcoin.

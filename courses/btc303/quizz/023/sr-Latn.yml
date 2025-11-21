@@ -1,0 +1,8 @@
+question: Šta znači kada se Bitcoin opisuje kao pseudonimni sistem, a ne kao anonimni sistem?
+answer: Korisnici se mogu pratiti između svojih pseudonima, ali njihov pravi identitet nije direktno otkriven.
+wrong_answers:
+  - Korisnici se uopšte ne mogu pratiti i njihove transakcije su potpuno skrivene od pogleda
+  - Korisnici moraju registrovati svoja prava imena, ali mogu koristiti lažne adrese za transakcije.
+  - Korisnici su potpuno anonimni bez mogućnosti povezivanja bilo kakvih transakcija zajedno
+explanation: |
+  Pseudonimna priroda Bitcoin znači da, iako korisnici rade pod pseudonimima (adresama izvedenim iz javnih ključeva), njihove transakcije se i dalje mogu pratiti i povezivati između ovih pseudonima na blockchainu. Ovo se razlikuje od prave anonimnosti, gde transakcije ne bi ostavljale nikakve tragove koji se mogu pratiti. U Bitcoin, možete pratiti tok sredstava između adresa, ali stvarni identitet iza tih adresa nije direktno otkriven osim ako ga neko dobrovoljno ne otkrije ili ne napravi greške koje otkrivaju njihove privatne informacije.

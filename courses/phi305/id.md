@@ -1,35 +1,18 @@
 ---
 name: Spinoza dan Bitcoin
 goal: Temukan hubungan filosofis antara pemikiran Spinoza dan Bitcoin sebagai alat kebebasan selama berabad-abad.
-objectives: 
-
-
-  - Memahami filosofi praktis Spinoza dan pencariannya akan kebebasan.
-  - Menjelajahi konsep determinisme dan ilusi manusia ala Spinoza.
-  - Menganalisis kesejajaran antara revolusi ide Spinoza dan revolusi teknologi Bitcoin.
-
-
-
+objectives:
+- Memahami filosofi praktis Spinoza dan pencariannya akan kebebasan.
+- Menjelajahi konsep-konsep Spinozis tentang determinisme dan ilusi manusia.
+- Menganalisis kesamaan antara revolusi ide Spinoza dan revolusi teknologi Bitcoin.
+- Menerapkan teori afek untuk mengenali dan melawan manipulasi dalam sistem politik.
 ---
+# Ketika Spinoza Bertemu Satoshi
 
-# Eksplorasi filosofis kebebasan melalui Spinoza dan Bitcoin
+Temukan bagaimana ide-ide radikal filsuf abad ke-17 Baruch de Spinoza tentang kebebasan, akal, dan kekuasaan mengantisipasi revolusi desentralisasi Bitcoin. Kursus ini mengungkapkan kesamaan yang mencolok: keduanya menolak iman buta dan otoritas pusat, keduanya menggunakan ketegasan matematis untuk membebaskan. Spinoza membebaskan pikiran dari dogma agama, Bitcoin membebaskan uang dari kontrol negara.
 
-
-
-Kursus ini mengeksplorasi hubungan mendalam antara filosofi revolusioner Baruch de Spinoza (1632-1677) dan Bitcoin, dua alat kebebasan yang terpisah selama berabad-abad namun disatukan oleh pencarian yang sama: emansipasi manusia dari perbudakan.
-
-
-
-Kita akan menemukan bagaimana Spinoza, bapak filsafat Pencerahan yang rasional, mengembangkan etika praktis untuk membebaskan kita dari ilusi yang memenjarakan kita - kehendak bebas, finalisme, dan takhayul teologis. Metode geometris dan teori pengaruhnya menunjukkan kepada kita bagaimana memahami tempat kita di dunia dan mengarahkan keberadaan kita pada apa yang meningkatkan kekuatan kita untuk bertindak.
-
-
-
-Kursus ini kemudian menarik kesejajaran yang menarik antara revolusi ide Copernicus dan Bitcoin: dua sistem yang tidak membutuhkan kepercayaan buta atau otoritas pusat, tetapi hanya menggunakan nalar. Seperti halnya Spinozisme yang membebaskan pemikiran dari dogma agama, Bitcoin membebaskan uang dari kontrol negara, menawarkan bentuk baru kebebasan ekonomi yang berakar pada matematika dan kriptografi.
-
-
-
+Pelajari alat-alat praktis dari etika Spinoza untuk memahami fondasi filosofis bitcoin dan meningkatkan agensi Anda. Siap untuk menjelajahi dua instrumen emansipasi manusia terbesar dalam sejarah?
 +++
-
 # Pendahuluan
 
 

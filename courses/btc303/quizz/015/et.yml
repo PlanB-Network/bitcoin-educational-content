@@ -1,0 +1,8 @@
+question: Mis juhtub, kui kasutajad annavad oma Bitcoin tehingu kontrollimise kolmandatele osapooltele, selle asemel, et käivitada oma täielikud sõlmed?
+answer: Bitcoin detsentraliseerimine nõrgeneb, kuna vähem inimesi rakendab võrgu reegleid iseseisvalt
+wrong_answers:
+  - Bitcoin tehingud muutuvad kiiremaks ja tõhusamaks kõigi võrgus osalejate jaoks
+  - Bitcoin võrk loob automaatselt rohkem mining sõlmi, et kompenseerida kaotatud valideerimist
+  - Kolmandate osapoolte teenused saavad võimaluse luua uusi bitcoine väljaspool tavapärast emissioonikava
+explanation: |
+  Kui kasutajad ei juhi oma täielikku sõlme, annavad nad Bitcoin reeglite jõustamise volitused teistele üle. See nõrgestab Bitcoin detsentraliseeritust, sest vähem sõltumatuid osapooli kinnitab tehinguid ja plokke. Nagu David Harding selgitab, tekitab see olukorra, kus väike arv kaevandajaid ja teenusepakkujaid võib potentsiaalselt muuta Bitcoin reegleid mittevajavate kasutajate jaoks, samas kui need kasutajad ei saa teha tehinguid inimestega, kes kasutavad täielikke valideerimissõlmi ja lükkavad need reeglite muudatused tagasi.

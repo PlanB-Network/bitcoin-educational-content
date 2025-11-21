@@ -1,13 +1,11 @@
-question: Jakie jest prawdopodobieństwo, że ktoś przypadkowo odgadnie listę 12 lub 24 słów w Bitcoin Wallet?
+question: Jakie jest prawdopodobieństwo, że ktoś przypadkowo odgadnie listę 12 lub 24 słów w portfelu Bitcoina?
 answer: Astronomicznie niskie.
 wrong_answers:
-  - Wysoki.
-  - Umiarkowany.
-  - Silny.
+  - Wysokie.
+  - Umiarkowane.
+  - Silne.
 explanation: |
-  Dzięki kryptografii użytej do stworzenia Wallet, prawdopodobieństwo
-  prawdopodobieństwo, że ktoś przypadkowo odgadnie listę
-  12 lub 24 słów jest astronomicznie niskie. To jak znalezienie
-  znalezienie właściwej liczby pomiędzy 1 a $2^256$, co jest prawie
-  równoważne znalezieniu zdefiniowanego atomu we Wszechświecie.
+  Dzięki kryptografii użytej do stworzenia portfela, prawdopodobieństwo, że ktoś przypadkowo odgadnie listę
+  12 lub 24 słów jest astronomicznie niskie. To jak znalezienie właściwej liczby pomiędzy 1 a $2^256$, co jest prawie
+  równoważne z prawdopodobieństwem znalezienia jednego konkretnego atomu we wszechświecie.
 reviewed: true

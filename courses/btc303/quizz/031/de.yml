@@ -1,0 +1,8 @@
+question: Welche grundlegende Veränderung tritt in der Struktur der Sicherheitskosten von Bitcoin ein, wenn die Blocksubvention gegen Null geht?
+answer: Die Sicherheitskosten werden nicht mehr von den Inhabern durch die Geldinflation bezahlt, sondern von den Ausgebern durch Transaktionsgebühren
+wrong_answers:
+  - Die Sicherheitskosten werden nicht mehr von den Minern durch Hardware-Investitionen, sondern von den Nodes durch den Stromverbrauch getragen
+  - Die Sicherheitskosten werden nicht mehr von den Börsen über die Handelsgebühren bezahlt, sondern von den wallet-Anbietern über die Dienstleistungsgebühren
+  - Die Sicherheitskosten werden nicht mehr von den Entwicklern durch die Wartung des Codes getragen, sondern von den Nutzern durch die Teilnahme am Netz
+explanation: |
+  Das Kapitel erklärt deutlich, dass heute die Inhaber für die Sicherheit von Bitcoin durch monetäre Inflation bezahlen (neue Münzen werden durch Blocksubventionierung geschaffen), aber in der Zukunft, wenn die Blocksubventionierung gegen Null geht, werden die Ausgeber für die Sicherheit durch Transaktionsgebühren bezahlen. Dies stellt einen grundlegenden wirtschaftlichen Wandel in Bezug darauf dar, wer die Kosten für die Aufrechterhaltung der Netzwerksicherheit trägt, und führt von einem Modell, bei dem die Schaffung neuer Münzen mining finanziert, zu einem Modell, bei dem die Transaktionsgebühren einen ausreichenden Anreiz für die Miner bieten müssen, das Netzwerk zu sichern.

@@ -15,7 +15,6 @@ Bitcoin के साथ शुरुआत करना उन लोगों 
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

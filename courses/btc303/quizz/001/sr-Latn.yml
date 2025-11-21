@@ -1,0 +1,8 @@
+question: Koja je primarna svrha decentralizacije u Bitcoin?
+answer: Da bi se postigao otpor prema cenzuri
+wrong_answers:
+  - Da bi se povećala brzina obrade transakcija
+  - Da bi se smanjili troškovi potrošnje energije
+  - Da pojednostavi korisnički interfejs
+explanation: |
+  Decentralizacija u Bitcoin prvenstveno služi za postizanje otpornosti na cenzuru, što znači da nijedan entitet ne može kontrolisati, blokirati ili manipulisati transakcijama. Ovo je eksplicitno navedeno u tekstu: 'Decentralizacija je sredstvo za postizanje otpornosti na cenzuru.' Ostale opcije su netačne jer decentralizacija zapravo čini Bitcoin sporijim i energetski intenzivnijim od centralizovanih sistema, i čini sistem složenijim, a ne jednostavnijim. Otpornost na cenzuru je ono što odvaja Bitcoin od tradicionalnih monetarnih sistema i sprečava vlade ili druge vlasti da ga ugase ili kontrolišu ko može da ga koristi.

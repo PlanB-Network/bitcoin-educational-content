@@ -2083,29 +2083,31 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 यह *scriptPubKey* में ही है कि प्राप्त करने वाले पते मिलते हैं। हालाँकि, उनका उपयोग अपनाए गए स्क्रिप्ट मानक के आधार पर अलग-अलग होता है। यहाँ *scriptPubKey* में निहित जानकारी का एक सारांश तालिका है, जो इस्तेमाल किए गए मानक के अनुसार है, साथ ही *scriptPubKey* को अनलॉक करने के लिए *scriptSig* में अपेक्षित जानकारी भी दी गई है।
 
-| स्टैंडर्ड           | *स्क्रिप्टपबकी*                                           | *स्क्रिप्टसिग*                  | *जीडब्ल्यू-503 स्क्रिप्ट* | *विटनेस*                                 |
 
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<हस्ताक्षर>`                   |                     |                                          |
 
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
 
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<डेटा पुश> <Redeem स्क्रिप्ट>` | मनमाना डेटा       |                                          |
 
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
 
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<डेटा पुशेस> <विटनेस स्क्रिप्ट>`         |
 
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<Redeem स्क्रिप्ट>`               | `0 <pubKeyHash>`    | `<सिग्नेचर> <पब्लिक की>`               |
 
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<Redeem स्क्रिप्ट>`               | `0 <scriptHash>`    | `<डेटा पुशेस> <विटनेस स्क्रिप्ट>`         |
 
-| P2TR (कुंजी पथ)    | `1 <सार्वजनिक कुंजी>`                                            |                                 |                     | `<हस्ताक्षर>`                            |
 
-| P2TR (स्क्रिप्ट पथ) | `1 <पब्लिक की>`                                            |                                 |                     | `<डाटा पुशेस> <स्क्रिप्ट> <कंट्रोल ब्लॉक>` |
 
-*स्रोत: जीडब्ल्यू-514 कोर पीआर रिव्यू क्लब, 7 जुलाई, 2021 - ग्लोरिया झाओ*
+
+| मानक             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | मनमाना डेटा | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_स्रोत: बिटकॉइन कोर PR समीक्षा क्लब, 7 जुलाई 2021 – ग्लोरिया झाओ_
 
 स्क्रिप्ट में इस्तेमाल होने वाले ऑपकोड्स का मकसद जानकारी को हैंडल करना होता है, और जरूरत पड़ने पर उसकी तुलना या टेस्ट करना होता है। चलिए एक P2PKH स्क्रिप्ट का उदाहरण लेते हैं, जो कुछ इस तरह है:
 

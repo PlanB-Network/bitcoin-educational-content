@@ -1,0 +1,8 @@
+question: Jaký je hlavní důvod, že zvětšování velikosti bloků vede k vyšší pravděpodobnosti výskytu zastaralých bloků v Bitcoin mining?
+answer: Šíření a ověřování větších bloků v síti trvá déle, což vytváří delší okna, ve kterých těžaři pracují na zastaralých tipech blockchainu
+wrong_answers:
+  - Těžba větších bloků vyžaduje větší výpočetní výkon, takže těžaři tráví delší dobu hledáním platných řešení proof-of-work
+  - "Zvětšená velikost bloků snižuje účinnost mechanismu nastavení obtížnosti, což vede k nepředvídatelným časovým intervalům bloků."
+  - Větší bloky vytvářejí více konfliktů mezi konkurenčními bloky, takže je obtížnější určit, který blok má být přijat
+explanation: |
+  Správná odpověď identifikuje hlavní mechanismus, který stojí za zastaralými bloky. Pokud jsou bloky větší, vyžadují větší šířku pásma pro přenos mezi uzly a více času na ověření. Během této prodloužené doby šíření může více těžařů najít konkurenční bloky ve stejné výšce, protože ještě neobdrželi nejnovější blok. Tím vzniká stav závodu, kdy může být nakonec přijat pouze jeden blok, čímž se ostatní stávají neaktuálními. Špatné odpovědi zaměňují tento problém propagace s obtížností mining, mechanismy konsensu nebo konflikty transakcí, což jsou problémy oddělené od problému s časováním, který způsobuje zastaralé bloky.

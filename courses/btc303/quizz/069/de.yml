@@ -1,0 +1,8 @@
+question: Welches Szenario stellt nach der Definition des Buches eine legitime Bitcoin-Skalierung unter Wahrung der Zensurresistenz dar?
+answer: Implementierung platzsparenderer Algorithmen zur Überprüfung von Unterschriften, die die Größe der Transaktionsdaten verringern
+wrong_answers:
+  - Ermutigung der Nutzer, Transaktionen zu zentralen Börsen zu verlagern, um das on-chain-Volumen zu reduzieren
+  - Einführung einer automatischen Transaktionsfilterung, um bestimmten Arten von Wirtschaftstätigkeiten Vorrang einzuräumen
+  - Schaffung von staatlich zugelassenen Validierungsknoten, die Transaktionen effizienter verarbeiten können
+explanation: |
+  Das Buch definiert Bitcoin-Skalierung als "Erhöhung der Nutzungskapazität von Bitcoin ohne Beeinträchtigung seiner Zensurresistenz" Die platzsparende Signaturüberprüfung passt direkt zu dieser Definition, da sie dafür sorgt, dass Transaktionen weniger Bytes benötigen, während die Dezentralisierung erhalten bleibt. Die falschen Antworten gefährden alle die Zensurresistenz: Zentralisierte Börsen führen vertrauenswürdige Dritte ein, Transaktionsfilterung schafft Zensurmechanismen und staatlich zugelassene Knotenpunkte zentralisieren die Validierungsautorität. Echte Skalierung bewahrt die Kerneigenschaften von Bitcoin und verbessert gleichzeitig die Effizienz.

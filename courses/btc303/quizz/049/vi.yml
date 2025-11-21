@@ -1,0 +1,8 @@
+question: Theo cách tiếp cận tư duy đối nghịch, lý do chính khiến mọi điểm yếu đã biết trong Bitcoin phải được giải quyết thay vì chấp nhận một số mức độ rủi ro là gì?
+answer: Bitcoin hoạt động trong một môi trường trực tuyến ẩn danh, nơi kẻ thù có thể khai thác điểm yếu mà không bị phát hiện hoặc bị truy cứu trách nhiệm
+wrong_answers:
+  - "Mô hình bảo mật chính thức của Bitcoin yêu cầu bằng chứng toán học chứng minh rằng tất cả các hướng tấn công tiềm ẩn đã bị loại bỏ"
+  - Bản chất phân tán của Bitcoin có nghĩa là ngay cả những điểm yếu nhỏ cũng có thể dẫn đến lỗi toàn hệ thống trên tất cả các nút
+  - "Nguồn cung cố định của Bitcoin khiến việc hấp thụ tổn thất từ các cuộc tấn công thành công trở nên bất khả thi về mặt kinh tế, không giống như các hệ thống tài chính truyền thống"
+explanation: |
+  Câu trả lời đúng phản ánh quan điểm sâu sắc của Andrew Poelstra về hệ thống trực tuyến so với hệ thống vật lý. Không giống như các tòa nhà, nơi chúng ta chấp nhận một số rủi ro và dựa vào cơ quan thực thi pháp luật, Bitcoin hoạt động trong một môi trường ẩn danh, nơi kẻ tấn công có thể hành động mà không bị phát hiện hay chịu bất kỳ hậu quả nào. Sự khác biệt cơ bản này đồng nghĩa với việc mọi điểm yếu đã biết chắc chắn sẽ bị khai thác, khiến việc bảo mật toàn diện trở nên thiết yếu hơn là quản lý rủi ro tùy chọn.

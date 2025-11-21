@@ -1,0 +1,8 @@
+question: Kada rudari povežu mining bazene sa većim protokom i povezanošću kako bi izbegli zastarele blokove tokom perioda povećanih veličina blokova, koja je primarna negativna posledica za Bitcoin mrežu?
+answer: Smanjuje decentralizaciju mining jer su manji rudari potisnuti ka većim bazenima sa superiornom infrastrukturom.
+wrong_answers:
+  - Povećava računarsku složenost mining operacija čineći blokove težim za rešavanje
+  - Stvara dodatne naknade za transakcije koje moraju biti plaćene za održavanje povezanosti mreže
+  - Smanjuje ukupnu hash stopu mreže jer rudari troše resurse na povezivanje umesto na mining
+explanation: |
+  Poglavlje objašnjava da kada se veličine blokova povećavaju, vremena propagacije se povećavaju, što dovodi do više zastarelih blokova. Da bi izbegli gubitak nagrada za blokove zbog zastarelih blokova, rudari traže bazene sa boljom propusnošću i povezanošću. Ovo gura rudare ka većim, dobro povezanim bazenima, smanjujući mining decentralizaciju. Ostale opcije su netačne: težina se automatski prilagođava bez obzira na povezanost bazena, troškovi povezivanja ne stvaraju dodatne naknade za transakcije, i rudari ne smanjuju stopu heširanja kada se pridružuju bolje povezanim bazenima.

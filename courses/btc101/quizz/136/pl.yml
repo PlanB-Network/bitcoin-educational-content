@@ -5,7 +5,6 @@ wrong_answers:
   - Węzeł zostanie ukarany przez sieć Bitcoin.
   - Węzeł zostanie nagrodzony przez sieć Bitcoin.
 explanation: |
-  Jeśli użytkownik węzła zdecydował się przestrzegać innych zasad, które
-  które unieważniają bieżące zasady konsensusu, wówczas ten węzeł
+  Jeśli użytkownik węzła decyduje się przestrzegać innych zasad, które unieważniają bieżące zasady konsensusu, wówczas ten węzeł
   nie będzie już częścią sieci Bitcoin.
 reviewed: true

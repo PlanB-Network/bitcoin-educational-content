@@ -6,4 +6,4 @@ wrong_answers:
   - Il est validé seulement par les portefeuilles
 explanation: |
   Les nœuds rejettent systématiquement un bloc qui ne respecte pas les règles de consensus.
-reviewed: false
+reviewed: true 

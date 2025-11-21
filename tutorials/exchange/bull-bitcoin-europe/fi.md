@@ -196,6 +196,14 @@ Jos haluat seurata kaikkia tapahtumia, voit tarkastella historiaa valikossa "*Uu
 
 ![BULL](assets/fr/36.webp)
 
+## Käynnistä automaattinen toistuva osto (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Luo limiittitoimeksianto
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nyt tiedät, miten ostaa ja myydä Bitcoin helposti Bull Bitcoin. Jos löysit tämän opetusohjelman hyödylliseksi, olisin hyvin kiitollinen, jos laittaisit vihreän peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!
 
 Suosittelen myös tutustumaan tähän muuhun kattavaan opetusohjelmaan, jotta opit, miten muistilauseen hallintaa hallitaan oikealla tavalla:

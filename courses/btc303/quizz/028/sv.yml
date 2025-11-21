@@ -1,0 +1,8 @@
+question: Vad är det primära problemet med avgiftssnipning när Bitcoin:s blockbidrag närmar sig noll?
+answer: Gruvarbetare kan tycka att det är mer lönsamt att skriva om tidigare block med höga avgifter snarare än mining nya block
+wrong_answers:
+  - Transaktionsavgifterna blir för dyra för att vanliga användare ska ha råd med Bitcoin-transaktioner
+  - Det totala utbudet av Bitcoin kommer att överstiga 21 miljoner på grund av ökade mining-incitament
+  - Miners kommer att sluta mining helt och hållet eftersom transaktionsavgifter inte kan täcka elkostnaderna
+explanation: |
+  Fee sniping inträffar när miners försöker re-mine tidigare block som innehöll transaktioner med höga avgifter istället för att ärligt förlänga kedjan. Detta blir ekonomiskt rationellt när avgifterna i ett tidigare block avsevärt överstiger avgifterna i den aktuella mempoolen. Även om sannolikheten för framgång är lägre än ärlig mining, kan den potentiella belöningen vara mycket högre. Detta beteende är särskilt oroande eftersom det kan skapa en kaskadeffekt där fler gruvarbetare ägnar sig åt oärliga metoder, vilket i slutändan hotar Bitcoin:s säkerhetsmodell när blocksubventionerna minskar.

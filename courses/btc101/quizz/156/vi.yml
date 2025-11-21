@@ -1,4 +1,4 @@
-question: Thời gian trung bình giữa việc tạo ra hai khối trong giao thức Bitcoin là bao lâu?
+question: Thời gian trung bình để tạo ra hai khối trong giao thức Bitcoin là bao lâu?
 answer: 10 phút.
 wrong_answers:
   - 5 phút.

@@ -15,7 +15,6 @@ Tässä opetusohjelmassa tutustumme Blue Wallet:een, yksinkertaiseen mutta eritt
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 

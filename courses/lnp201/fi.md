@@ -1,12 +1,12 @@
 ---
-name: Teoreettinen johdatus Lightning-verkkoon
+name: Lightning-verkon teoria
 goal: Tutustu Lightning-verkkoon teknisestä näkökulmasta
 objectives:
-  - Ymmärrä verkon kanavien toiminta.
-  - Tutustu termeihin HTLC, LNURL ja UTXO.
-  - Omaksu likviditeetin hallinta ja LNN:n maksut.
-  - Tunnista Lightning-verkko verkostona.
-  - Ymmärrä Lightning-verkon teoreettiset käyttötarkoitukset.
+- Ymmärrä verkon kanavien toiminta.
+- Tutustu termeihin HTLC, LNURL ja UTXO.
+- Omaksu likviditeetin hallinta ja LNN:n maksut.
+- Tunnista Lightning-verkko verkostona.
+- Ymmärrä Lightning-verkon teoreettiset käyttötarkoitukset.
 ---
 
 # Matka Bitcoinin toiseen kerrokseen

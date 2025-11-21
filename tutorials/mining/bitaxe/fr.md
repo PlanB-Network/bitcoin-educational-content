@@ -25,7 +25,7 @@ Dans ce tutoriel, nous utiliserons un BitAxe Ultra 204 équipé d'une puce BM136
 
 ![signup](assets/2.webp)
 
-Généralement, l'alimentation est vendue avec. Si ce n'est pas le cas, vous devrez acheter une alimentation avec un câble jack de 5 V et au moins 4A.
+Généralement, le bloc d'alimentation est fourni avec l'appareil. Si ce n'est pas le cas, vous devrez acheter un bloc d'alimentation avec un câble jack de 5 V et une intensité minimale de 4 A.
 
 ![signup](assets/1.webp)
 

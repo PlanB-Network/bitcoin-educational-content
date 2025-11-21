@@ -7,109 +7,69 @@ description: Esplorate l'intero ecosistema Bitcoin.
 
 
 
-Il protocollo Bitcoin è una rete pseudonima, decentralizzata e aperta alla consultazione. I membri (nodi), cioè i computer che possiedono un'istanza del software Bitcoin, hanno accesso illimitato a tutti i dati pubblicati su Bitcoin. Tuttavia, nei primi anni di vita di Bitcoin, il protocollo non era così ampiamente accessibile come lo è oggi.
+Il protocollo Bitcoin è una rete pseudonima, decentralizzata e aperta alla consultazione. I membri (nodi), cioè i computer che possiedono un'istanza del software Bitcoin, hanno accesso illimitato a tutti i dati pubblicati su Bitcoin. Tuttavia, nei primi anni di vita, il protocollo non era così ampiamente accessibile come lo è oggi.
 
 
-Nei primi tempi di Bitcoin, era necessario far funzionare un nodo Bitcoin per poter accedere agli strumenti appropriati (bitcoin-cli) per interrogare la rete da terminale.
-
-
+Nei primi tempi, era necessario istallare un nodo Bitcoin per poter accedere agli strumenti appropriati (bitcoin-cli) per interrogare la rete da terminale.
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Per qusto, sono stati avviati dei progetti per espandere la comunità Bitcoin, rendendola più accessibile a tutti coloro che non possiedono un nodo e/o non hanno le competenze tecniche necessarie.
+Per questo motivo, sono stati avviati dei progetti per espandere la community Bitcoin, rendendola più accessibile a tutti coloro che non possiedono un nodo e/o non hanno le competenze tecniche necessarie.
 
 
 
-In questa esercitazione esamineremo il progetto **Mempool.space**, le sue caratteristiche e l'impatto che ha avuto sull'ecosistema Bitcoin.
+In questo tutorial, esamineremo il progetto **Mempool.space**, le sue caratteristiche, e l'impatto che ha avuto sull'ecosistema Bitcoin.
 
 
 
 ## Che cos'è Mempool.space?
 
+**Mempool.space** è un explorer open-source che fornisce informazioni utili sulle transazioni, sulle commissioni delle transazioni, sui blocchi e sui miner delle varie reti del protocollo Bitcoin. Lanciato nel 2020, migliora notevolmente l'esperienza dell'utente grazie ad una grafica pulita, ad animazioni fluide ed interfacce semplici.
 
+Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. La Mempool è come una "sala d'attesa" dove le transazioni attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa: ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
 
-**Mempool.space** è un explorer open-source che fornisce informazioni utili sulle transazioni, sulle tariffe delle transazioni, sui blocchi e sui miner delle varie reti del protocollo Bitcoin. Lanciato nel 2020, migliora notevolmente l'esperienza dell'utente grazie ad una grafica rappresentativa, ad animazioni fluide ed interfacce semplici.
+L'impatto principale della piattaforma Mempool.space sull'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti sulla rete, senza doverne utilizzare uno. Mempool.space è un archivio per la visualizzazione e la ricerca delle reti che seguono il protocollo Bitcoin.
 
-
-
-Per comprendere il progetto, la Mempool (pool di memoria) è uno spazio virtuale in cui vengono memorizzate tutte le transazioni in attesa di conferma sulla rete Bitcoin. La Mempool è come una "sala d'attesa" dove le transazioni Bitcoin attendono di essere confermate. Ogni computer della rete (nodo) ha la propria sala d'attesa, ciò spiega perché non tutte le transazioni sono visibili a tutti nello stesso momento.
-
-
-
-L'impatto principale della piattaforma Mempool.space nell'ecosistema Bitcoin è che consente di accedere alle varie informazioni presenti nelle aree di memoria della maggior parte dei nodi presenti su Bitcoin, senza doverne eseguire uno. Mempool.space è un archivio per la visualizzazione e la ricerca di reti di protocollo Bitcoin.
-
-
-
-Essendo open source, Mempool.space ha visto una crescente diffusione nell'ecosistema, facilitando la sua integrazione in un numero sempre maggiore di sistemi di hosting personali. Ora è possibile avere una propria istanza di Mempool.space direttamente sul proprio nodo personale. Guarda il nostro tutorial su come configurare Mempool.space sul tuo nodo Umbrel.
-
-
+Essendo open source, Mempool.space ha visto una crescente diffusione nell'ecosistema, facilitando la sua integrazione in un numero sempre maggiore di sistemi personali di hosting. Ora è possibile avere una propria istanza di Mempool.space direttamente sul proprio nodo personale. Puoi guardare il nostro tutorial su come configurare Mempool.space sul tuo nodo Umbrel.
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## I fondamenti di Mempool.space
 
-
-
-Come già accennato, [Mempool.space](https://Mempool.space) è un explorer di protocolli Bitcoin che consente di monitorare, da un'interfaccia grafica, le transazioni e la loro propagazione sulla rete Bitcoin in tempo reale.
-
-
+Come già accennato, [Mempool.space](https://Mempool.space) è un explorer che consente di monitorare, da un'interfaccia grafica, le transazioni e la loro propagazione sulla rete Bitcoin in tempo reale.
 
 Mempool.space supporta molte reti del protocollo Bitcoin.
 
-
 Nella barra dei menù si trovano le seguenti reti:
 
-
-
-
-- **Mainnet**: la rete Bitcoin principale dove avvengono le transazioni Bitcoin reali;
+- **Mainnet**: la rete Bitcoin principale dove avvengono le transazioni con Bitcoin veri e propri;
 - **Signet**: una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale;
 - **Testnet 3**: una rete di test e sviluppo priva di rischi sul protocollo Bitcoin;
-- **Testnet 4**: la nuova versione di Testnet 3, apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
-
-
+- **Testnet 4**: la nuova versione di Testnet 3, che apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
 
 ![reseaux](assets/fr/01.webp)
 
+Sulla home page, in verde a sinistra, vedrai i possibili futuri blocchi (gruppi di transazioni) pronti per essere convalidati e integrati (minati) nella rete Bitcoin. In media, un blocco viene minato ogni dieci minuti: tieni questa informazione a mente, perché ti tornerà utile più avanti.
 
-
-Sulla home page, a sinistra in verde, vedrai i possibili futuri blocchi (gruppi di transazioni) pronti per essere convalidati e integrati (minati) nella rete Bitcoin. In media, un blocco viene minato ogni dieci minuti: conservate questa informazione, perché vi tornerà utile più avanti.
-
-
-In viola, sul lato destro, troverete i recenti blocchi minati su Bitcoin, con il numero dell'ultimo blocco minato che rappresenta l'altezza attuale della rete.
-
-
+In viola, sul lato destro, troverai i blocchi più recenti minati su Bitcoin, con il numero dell'ultimo blocco minato che rappresenta l'altezza (block height) attuale della rete.
 
 ![blocs](assets/fr/02.webp)
 
-
-
 La sezione **Transaction Fees** è una stima delle commissioni di transazione. Più alte sono le commissioni assegnate alla transazione, più è probabile che la transazione venga aggiunta al blocco successivo pronto per essere minato.
 
+Le commissioni di transazione rappresentano il costo che un miner richiede all'utente per inserire la sua transazione in un blocco candidato per il mining. La commissione è definita dal rapporto sat/vB (Satoshi/Virtual Bytes), che rappresenta il numero di satoshi pagati per lo spazio che la transazione occuperà nel blocco candidato.
 
-Le commissioni di transazione rappresentano il costo che un miner richiede all'utente per inserire la sua transazione in un blocco candidato per il mining. La commissione è definita da un rapporto sat/vB (Satoshi/Virtual Bytes) che rappresenta il numero di satoshi pagati per lo spazio che la transazione occuperà nel blocco candidato.
-
-
-
-⚠️ IMPORTANTE: in caso di saturazione della Mempool, i miner danno priorità alle transazioni che offrono il miglior rapporto Satoshi/vByte. Più pesante (grande) è la transazione, più satoshi saranno necessari per essere inclusi rapidamente.
-
-
+⚠️ IMPORTANTE: in caso di saturazione della Mempool, i miner danno priorità alle transazioni che offrono il miglior rapporto Satoshi/vByte. Più pesante (grande) è la transazione, più satoshi saranno necessari fare in modo che venga inserita rapidamente.
 
 ![fees-visualizer](assets/fr/03.webp)
 
-
-
 La sezione **Mempool Goggles** consente di visualizzare lo spazio occupato da una transazione.
-
-
 
 ![mempool](assets/fr/04.webp)
 
-
-
-Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof Of Work che i miner devono fornire per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi**, equivalente a circa **2 settimane**. È possibile vedere l'evoluzione di questa difficoltà qui.
+Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof Of Work (POW): i miner devono fornire una POW per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi** (circa ogni **2 settimane**). È possibile vedere l'evoluzione di questa difficoltà nell'immagine qui sotto.
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Tan pronto como se crea la dirección de multifirma 2/2
 explanation: |
   El canal se considera abierto una vez que la transacción de depósito ha sido incluida en un bloque de Bitcoin y ha alcanzado un cierto número de confirmaciones.
-  reviewed: true
+reviewed: true

@@ -319,11 +319,105 @@ Votre nœud Lightning est désormais prêt à ouvrir ses premiers canaux pour ef
 
 ## Sauvegarder son nœud Lightning
 
+Avant d’envoyer vos premiers sats sur votre nœud, il est important de comprendre comment fonctionne sa sauvegarde et quels sont les risques associés. Contrairement à un simple portefeuille Bitcoin onchain, la sauvegarde d’un nœud Lightning est assez complexe : une mauvaise stratégie peut mener à la perte définitive de vos fonds. Dans ce chapitre, nous allons voir ce qu’il faut réellement sauvegarder, puis comment Umbrel gère ce processus avec LND.
 
+Dans cette formation, nous utilisons l'implémentation LND (*Lightning Network Daemon*). Bien que les principes soient similaires sur les autres implémentations, les fichiers et procédures de récupération dont je vais parler sont spécifiques à LND.
 
+### Que faut-il sauvegarder sur un nœud Lightning ?
 
+Sur un nœud Lightning, il ne suffit pas de sauvegarder la seed et d’espérer que tout reviendra à la normale. Plusieurs éléments jouent des rôles différents, et il est donc important de bien les distinguer.
 
+#### La seed (*aezeed*)
 
+Lorsque vous initialisez LND, vous recevez une seed de 24 mots. Il s’agit d’un format spécifique à LND appelé *aezeed*. Ce n’est pas une seed BIP39 classique, même si elle lui ressemble beaucoup. À partir de cette seed, LND dérive les clés privées de votre portefeuille onchain associé au noeud Lightning, c’est-à-dire les adresses dans lesquelles vous pouvez recevoir ou vers lesquelles vous pouvez rapatrier des bitcoins suite à des fermetures de canaux.
+
+019
+
+Cette seed permet donc de recréer le portefeuille onchain associé à votre nœud et de retrouver les fonds qui ont déjà été rapatriés onchain (par exemple après une fermeture de canal). En revanche, la seed seule ne suffit pas à restaurer vos canaux Lightning encore ouverts, car elle ne contient pas les informations nécessaires sur l'état de vos canaux.
+
+#### La base de données de canaux (`channel.db`)
+
+LND conserve l’état détaillé de vos canaux dans une base de données nommée `channel.db`. Cette base contient notamment :
+* la liste de vos canaux ouverts ;
+* vos pairs et leurs identifiants ;
+* les dernières transactions d’engagement pour chaque canal (les états successifs qui définissent qui possède quoi dans le canal et permettent de récupérer les fonds onchain en cas de problème) ;
+* les informations nécessaires pour punir un pair qui tenterait de diffuser un ancien état.
+
+Le problème de cette base de données, c'est qu'elle change en permanence : chaque paiement, chaque routage, chaque ouverture ou fermeture de canal modifie son contenu. C’est pour cela qu’une sauvegarde classique (par exemple une copie périodique de votre `channel.db`) est dangereuse. Si vous restaurez une version trop ancienne de `channel.db` et que vous remontez le nœud avec cet état obsolète, vos pairs peuvent considérer que vous êtes en train de diffuser un ancien état de canal. Dans ce cas, le protocole prévoit une pénalité : votre pair peut récupérer l’intégralité des fonds du canal, comme si vous aviez tenté de tricher.
+
+En pratique, `channel.db` n’est donc pas un support de sauvegarde à proprement parler. C’est l’état vivant de votre nœud. La seule situation où il est raisonnable de s’en servir pour restaurer votre nœud, c’est lorsque vous récupérez cette base directement depuis une machine qui vient de tomber en panne (par exemple un disque encore lisible). Dans ce cas, vous récupérez l’état le plus récent et vous pouvez redémarrer LND sur une autre machine en vous appuyant sur cette base, en ayant la certitude que cet état est bien le plus à jour possible puisque l’ancienne machine ne fonctionne plus. Une autre situation où cette méthode peut servir de sauvegarde pertinente est celle d’une configuration à deux disques durs, avec une copie dynamique et permanente de l’un vers l’autre. Toutefois, ce type de mise en place est plus complexe à réaliser.
+
+Mais faire des copies périodiques de `channel.db` et les stocker comme des backups à restaurer plus tard est une très mauvaise idée : le jour où vous les utilisez, vous prenez le risque de vous pénaliser vous-même et de perdre tous vos sats.
+
+#### Le Static Channel Backup (SCB)
+
+Pour rendre la récupération possible en cas de catastrophe, LND a introduit le mécanisme de *Static Channel Backup* (SCB). Il s’agit d’un fichier spécial, souvent nommé `channel.backup`, qui contient des informations statiques sur vos canaux : quels sont vos pairs, comment les contacter et quels sont vos canaux.
+
+Ce fichier ne contient pas l’état détaillé du canal ni l’historique des mises à jour. Il ne permet pas de rouvrir les canaux dans l’état exact où ils étaient, ni de continuer à opérer ce nœud Lightning. Son rôle est plutôt de servir de point d’ancrage pour demander à vos pairs de vous aider à fermer proprement tous vos canaux, et donc recevoir vos sats onchain, sur des clés que vous pouvez récupérer grâce à la seed. Ainsi, contrairement au fichier `channel.db`, qui est modifié à chaque paiement ou routage, le fichier SCB n’est mis à jour que lors de l’ouverture ou de la fermeture d’un canal.
+
+Lors d’une récupération via SCB, le processus est le suivant :
+- Vous restaurez votre seed (*aezeed*), ce qui recrée votre portefeuille onchain associé au nœud Lightning ;
+- Vous fournissez à LND votre SCB le plus récent ;
+- LND utilise le SCB pour retrouver la liste de vos pairs et les canaux que vous aviez avec eux ;
+- Il contacte chaque pair, lui indique que vous avez subi une perte de données et lui demande de force-close votre canal avec lui, afin que vous puissiez récupérer votre part onchain.
+
+L’idée est donc que vos pairs, en constatant que vous déclarez une perte de données, vont diffuser leur dernière transaction d’engagement et fermer le canal de force. Une fois ces transactions confirmées, vos fonds réapparaissent dans votre portefeuille onchain (lié à la seed).
+
+Ce mécanisme de récupération n’est toutefois pas parfait. D’abord, il ne permet pas à proprement parler de restaurer votre nœud Lightning, puisque tous les canaux seront fermés. Il faudra donc ensuite refaire un nouveau Lightning de zéro. Ensuite, il ne garantit pas de récupérer 100 % des fonds, même s’il augmente considérablement les chances de retrouver vos soldes onchain en cas de problème. En effet, ce protocole de récupération dépend de la coopération et de la disponibilité de vos pairs : si l’un d’eux est hors ligne, a perdu ses propres données ou refuse de coopérer, vos fonds peuvent rester bloqués, voire être définitivement perdus. C’est pourquoi il est important de ne pas conserver sur votre nœud Lightning, en temps normal, des canaux ouverts avec des pairs injoignables sur une longue durée. Si vous subissez une perte de données à ce moment-là et que le pair demeure injoignable, la récupération via le SCB sera impossible, et vos fonds resteront perdus tant que ce pair ne reviendra pas en ligne (peut-être pour toujours).
+
+Pour résumer une bonne stratégie de sauvegarde Lightning sur LND repose sur trois piliers :
+* votre seed (*aezeed*), pour la couche onchain ;
+* Une sauvegarde automatique fiable du SCB ;
+* Une bonne gestion des canaux en choisissant des pairs fiables et en fermant ceux qui sont injoignables.
+
+### Comment Umbrel gère la sauvegarde de votre nœud LND ?
+
+Umbrel propose une mécanique de sauvegarde simplifiée pour le nœud LND, basée précisément sur le SCB. L’idée est de vous éviter de manipuler vous-même ce fichier et d'en faire une sauvegarde, et d'automatiser au maximum le processus.
+
+Lors de la création de votre nœud sur Umbrel, vous recevez une seed qui joue un double rôle :
+* elle permet de dériver votre portefeuille Bitcoin onchain associé à votre nœud Lightning ;
+* elle sert à dériver un identifiant de sauvegarde et une clé de chiffrement utilisés pour les backups distants du SCB.
+
+Grâce à ce mécanisme, Umbrel réalise automatiquement une sauvegarde chiffrée de votre SCB et la stocke sur ses serveurs via Tor. Le SCB est stocké chiffré, grâce à une clé dérivée de votre seed. Ainsi, en cas de perte de données, il vous suffit de recréer un nœud Bitcoin et Lightning sur Umbrel, sur la même machine ou une autre, puis de saisir votre seed. Vous pourrez alors récupérer le dernier état de votre SCB depuis les serveurs d’Umbrel, le déchiffrer et lancer la procédure de récupération de vos fonds.
+
+Ces sauvegardes sont chiffrées localement par votre nœud avant d’être envoyées, ce qui garantit la confidentialité de vos données : Umbrel ne peut pas lire le contenu du SCB. La transmission s’effectue via Tor, ce qui évite de faire fuiter votre adresse IP. De plus, votre Umbrel ajoute du bruit au trafic (padding aléatoire et faux backups envoyés à intervalles irréguliers) afin d’empêcher le serveur de déduire précisément quand vous ouvrez ou fermez un canal.
+
+Le principal avantage de cette méthode est qu’elle simplifie considérablement la sauvegarde de votre nœud Lightning : vous n’avez qu’à sauvegarder votre seed une seule fois lors de l’initialisation du nœud. Cela comporte certes des risques, puisqu’il s’agit uniquement d’un backup SCB, mais pour des montants raisonnables, c’est un compromis acceptable.
+
+### Les bonnes pratiques pour limiter les risques de perte
+
+Même avec la sauvegarde Umbrel, quelques bonnes pratiques simples permettent de réduire fortement le risque de perdre des sats :
+
+- Surveiller la disponibilité de vos pairs :
+
+Si un canal important est fréquemment associé à un pair injoignable ou instable, il est plus prudent de le fermer proprement tant que votre nœud fonctionne encore. Une fermeture coopérative, réalisée alors que tout le monde est en ligne, élimine une source potentielle de problème en cas de récupération par SCB.
+
+- Éviter de concentrer trop de liquidité sur des pairs inconnus :
+
+Plus un pair a avec vous un canal de grande capacité, plus il est important qu’il soit fiable. Privilégiez des nœuds sérieux, bien connectés et actifs, afin qu’une éventuelle récupération future via le SCB puisse se dérouler correctement.
+
+- Compléter Umbrel par des sauvegardes locales :
+
+En plus de la sauvegarde automatique d'Umbrel, vous pouvez également conserver une copie chiffrée de votre fichier SCB (`channel.backup`) sur un support externe et mettre cette sauvegarde à jour de manière périodique. L’idéal est de la renouveler à chaque ouverture ou fermeture de canal. Cela vous donne une solution de secours si, pour une raison quelconque, le service de sauvegarde automatique d’Umbrel devenait indisponible.
+
+- Gérer sa seed de la bonne manière
+
+Votre seed Umbrel permet non seulement de restaurer votre portefeuille onchain, mais aussi de dériver la clé de chiffrement des sauvegardes. Un attaquant qui y aurait accès pourrait donc lancer une récupération et transférer vos fonds vers son propre portefeuille, sans même avoir accès physiquement à votre nœud. Aussi, si vous devez restaurer votre nœud mais que vous n’avez plus votre seed, vous ne pourrez rien récupérer : tous vos sats seront perdus. Il est donc très important de sauvegarder cette seed avec le plus grand soin, uniquement sur un support physique (papier ou métal), et de la conserver dans un lieu sécurisé. Pour plus d'informations sur la gestion d’une seed, je vous invite à consulter ce tutoriel :
+
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+### Comment sauvegarder son nœud Lightning sur Umbrel ?
+
+Maintenant que vous avez compris le fonctionnement théorique, passons à la pratique. Depuis votre application `Lightning Node` (qui correspond en réalité à LND), cliquez en haut à droite sur les trois petits points.
+
+022
+
+Trois éléments nous intéressent ici pour la sauvegarde :
+- Vérifiez que l’option `Automatic backups` est bien activée. C’est elle qui permet d’envoyer automatiquement votre SCB chiffré aux serveurs d’Umbrel.
+- Vous pouvez ensuite choisir si l’envoi doit s’effectuer via Tor ou en clearnet grâce à l’option `Backup over Tor`. Comme expliqué dans les sections précédentes, je vous recommande vivement d’utiliser Tor pour préserver votre confidentialité.
+- Enfin, vous disposez d’un bouton `Download channel backup file`, qui vous permet de télécharger sur votre ordinateur un fichier `channel.backup`, c’est-à-dire un instantané chiffré de votre SCB. Cela vous donne la possibilité de réaliser ponctuellement des sauvegardes locales supplémentaires, en complément de celles automatiquement envoyées aux serveurs d’Umbrel.
+
+Vous savez désormais comment protéger les sats de votre nœud Lightning face aux pertes de données. Dans le prochain chapitre, nous verrons comment sécuriser votre nœud contre les tentatives de triche.
 
 ## Watchtower : rôle et mise en place
 

@@ -1928,6 +1928,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_出典：2021年7月7日の Bitcoin Core PR レビュークラブ – Gloria Zhao_
+
 スクリプトで使用されるオペコードは情報を操作し、必要に応じて比較やテストを行うよう設計されています。P2PKHスクリプトの例を見てみましょう。以下の通りです：
 
 ```text

@@ -2764,6 +2764,8 @@ Het is precies in de *scriptPubKey* dat de ontvangende adressen te vinden zijn. 
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Bron: Bitcoin Core PR review club van 7 juli 2021 – Gloria Zhao_
+
 De opcodes die in een script worden gebruikt, zijn ontworpen om informatie te manipuleren en, indien nodig, te vergelijken of te testen. Laten we het voorbeeld nemen van een P2PKH script, dat er als volgt uitziet:
 
 

@@ -1896,6 +1896,8 @@ Juuri *scriptPubKey*:ssa löytyvät vastaanotto-osoitteet. Kuitenkin niiden käy
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Lähde: Bitcoin Core PR -arviointiklubi 7. heinäkuuta 2021 – Gloria Zhao_
+
 Skriptissä käytetyt operaatiokoodit on suunniteltu tiedon käsittelyyn ja tarvittaessa sen vertailuun tai testaamiseen. Otetaan esimerkiksi P2PKH-skripti, joka on seuraava:
 
 ```text

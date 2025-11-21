@@ -1994,6 +1994,8 @@ Quando un utente riceve bitcoin, il mittente crea un UTXO e lo blocca con uno _s
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Fonte: Bitcoin Core PR review club del 7 luglio 2021 – Gloria Zhao_
+
 Gli opcode utilizzati in uno script sono progettati per manipolare le informazioni e, se necessario, per confrontarle o testarle. Prendiamo l'esempio di uno script P2PKH, che è il seguente:
 
 ```text

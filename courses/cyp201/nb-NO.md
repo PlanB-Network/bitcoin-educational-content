@@ -1888,6 +1888,8 @@ Det er nettopp i *scriptPubKey* at mottaksadressene finnes. Imidlertid varierer 
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Kilde: Bitcoin Core PR review club 7. juli 2021 – Gloria Zhao_
+
 Opcodes brukt i et skript er designet for å manipulere informasjon, og om nødvendig, sammenligne eller teste den. La oss ta eksempelet med et P2PKH-skript, som er som følger:
 
 ```text

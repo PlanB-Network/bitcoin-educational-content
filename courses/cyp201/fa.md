@@ -2764,6 +2764,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_منبع: باشگاه بررسی Bitcoin Core PR در ۷ ژوئیهٔ ۲۰۲۱ – گلوریا ژائو_
+
 کدهای عملیاتی استفاده‌شده در یک اسکریپت برای دستکاری اطلاعات طراحی شده‌اند و در صورت لزوم، برای مقایسه یا آزمایش آن‌ها به کار می‌روند. بیایید مثال یک اسکریپت P2PKH را بررسی کنیم که به صورت زیر است:
 
 

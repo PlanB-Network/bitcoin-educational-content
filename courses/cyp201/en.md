@@ -1993,6 +1993,8 @@ It is precisely in the *scriptPubKey* that the receiving addresses are found. Ho
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Source: Bitcoin Core PR review club of July 7, 2021 – Gloria Zhao_
+
 The opcodes used in a script are designed to manipulate information, and, if necessary, to compare or test it. Let's take the example of a P2PKH script, which is as follows:
 
 ```text

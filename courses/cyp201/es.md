@@ -1964,6 +1964,8 @@ Es precisamente en el _scriptPubKey_ donde se encuentran las direcciones de rece
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Fuente: Bitcoin Core PR review club del 7 de julio de 2021 – Gloria Zhao_
+
 Los opcodes utilizados en un script están diseñados para manipular información y, si es necesario, para compararla o probarla. Tomemos el ejemplo de un script P2PKH, que es como sigue:
 
 ```text

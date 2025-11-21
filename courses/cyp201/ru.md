@@ -1942,6 +1942,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Источник: клуб рецензирования Bitcoin Core PR от 7 июля 2021 года – Глория Чжао_
+
 Опкоды, используемые в скрипте, предназначены для манипулирования информацией и, при необходимости, для её сравнения или проверки. Рассмотрим на примере скрипта P2PKH, который выглядит следующим образом:
 
 ```text

@@ -2107,6 +2107,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_स्रोत: बिटकॉइन कोर PR समीक्षा क्लब, 7 जुलाई 2021 – ग्लोरिया झाओ_
+
 स्क्रिप्ट में इस्तेमाल होने वाले ऑपकोड्स का मकसद जानकारी को हैंडल करना होता है, और जरूरत पड़ने पर उसकी तुलना या टेस्ट करना होता है। चलिए एक P2PKH स्क्रिप्ट का उदाहरण लेते हैं, जो कुछ इस तरह है:
 
 ```text

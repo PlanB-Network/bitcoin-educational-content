@@ -2764,6 +2764,8 @@ Alıcı adresleri tam olarak *scriptPubKey* içinde bulunur. Ancak, bunların ku
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Kaynak: 7 Temmuz 2021 Bitcoin Core PR inceleme kulübü – Gloria Zhao_
+
 Bir betikte kullanılan işlem kodları, bilgiyi işlemek ve gerekirse karşılaştırmak veya test etmek için tasarlanmıştır. Aşağıdaki gibi bir P2PKH betiği örneğini ele alalım:
 
 

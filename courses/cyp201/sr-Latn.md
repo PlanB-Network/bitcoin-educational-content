@@ -2763,6 +2763,8 @@ Upravo u *scriptPubKey* se nalaze adrese primaoca. Međutim, njihova upotreba va
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Izvor: Bitcoin Core PR review club od 7. jula 2021 – Gloria Zhao_
+
 Opkodovi korišćeni u skripti su dizajnirani da manipulišu informacijama i, ako je potrebno, da ih uporede ili testiraju. Uzmimo primer P2PKH skripte, koja je sledeća:
 
 

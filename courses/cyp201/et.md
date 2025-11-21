@@ -1917,6 +1917,8 @@ Täpselt _scriptPubKey_-s leitakse vastuvõtvad aadressid. Siiski, nende kasutam
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Allikas: Bitcoin Core PR review klubi 7. juuli 2021 – Gloria Zhao_
+
 Skriptis kasutatavad operaatorid on mõeldud teabe manipuleerimiseks ja vajadusel selle võrdlemiseks või testimiseks. Võtame näiteks P2PKH skripti, mis on järgmine:
 
 ```text

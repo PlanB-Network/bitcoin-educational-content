@@ -2764,6 +2764,8 @@ Ni muri *scriptPubKey* nyene amaderesi y'abakira aboneka. Ariko rero, ukuntu bik
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Inkomoko: Bitcoin Core PR review club ryo ku wa 7 Mukakaro 2021 – Gloria Zhao_
+
 Ama opcode akoreshwa mu nyandiko agenewe gukoresha amakuru, kandi, iyo bikenewe, kuyagereranya canke kuyagerageza. Reka dufate akarorero k’inyandiko ya P2PKH, ariyo ikurikira:
 
 

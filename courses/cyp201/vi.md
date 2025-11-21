@@ -1931,6 +1931,8 @@ Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nh�
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Nguồn: Câu lạc bộ đánh giá Bitcoin Core PR ngày 7 tháng 7 năm 2021 – Gloria Zhao_
+
 Các opcode được sử dụng trong một script được thiết kế để thao tác thông tin, và nếu cần, để so sánh hoặc kiểm tra nó. Hãy lấy ví dụ về một script P2PKH, được viết như sau:
 
 ```text

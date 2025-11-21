@@ -1860,6 +1860,8 @@ Je právě v *scriptPubKey*, kde se nacházejí přijímací adresy. Nicméně j
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Zdroj: Bitcoin Core PR review club ze dne 7. července 2021 – Gloria Zhao_
+
 Opcodes použité ve skriptu jsou navrženy k manipulaci s informacemi a v případě potřeby k jejich porovnání nebo testování. Vezměme si příklad skriptu P2PKH, který vypadá takto:
 
 ```text

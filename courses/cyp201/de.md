@@ -1977,6 +1977,8 @@ Genau im *scriptPubKey* befinden sich die Empfangsadressen. Ihre Verwendung vari
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Quelle: Bitcoin Core PR Review Club vom 7. Juli 2021 – Gloria Zhao_
+
 Die in einem Skript verwendeten Opcodes sind dazu ausgelegt, Informationen zu manipulieren und, falls notwendig, diese zu vergleichen oder zu testen. Nehmen wir das Beispiel eines P2PKH-Skripts, das wie folgt lautet:
 
 ```text

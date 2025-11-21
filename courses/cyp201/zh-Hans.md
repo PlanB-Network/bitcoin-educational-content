@@ -1915,6 +1915,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_来源：2021年7月7日 Bitcoin Core PR 审查俱乐部 – Gloria Zhao_
+
 脚本中使用的操作码旨在操纵信息，并在必要时进行比较或测试。以P2PKH脚本为例，其格式如下：
 
 ```text

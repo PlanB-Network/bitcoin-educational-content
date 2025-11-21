@@ -2764,6 +2764,8 @@ Det är just i *scriptPubKey* som mottagaradresserna finns. Användningen av des
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Källa: Bitcoin Core PR review club den 7 juli 2021 – Gloria Zhao_
+
 De opkoder som används i ett skript är utformade för att manipulera information och, vid behov, jämföra eller testa den. Låt oss ta ett exempel på ett P2PKH-skript, som ser ut enligt följande:
 
 

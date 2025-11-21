@@ -2764,6 +2764,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_출처: 2021년 7월 7일 Bitcoin Core PR 검토 클럽 – Gloria Zhao_
+
 스크립트에서 사용되는 옵코드는 정보를 조작하고 필요한 경우 비교하거나 테스트하기 위해 설계되었습니다. 다음과 같은 P2PKH 스크립트를 예로 들어 보겠습니다:
 
 

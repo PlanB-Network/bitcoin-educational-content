@@ -2026,6 +2026,8 @@ Ni katika *scriptPubKey* ambapo anwani za kupokea zinapatikana. Walakini, matumi
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Chanzo: Klabu ya Bitcoin Core PR review ya tarehe 7 Julai 2021 – Gloria Zhao_
+
 Opcodes zinazotumiwa katika hati zimeundwa ili kudhibiti habari, na, ikiwa ni lazima, kulinganisha au kuipima. Wacha tuchukue mfano wa hati ya P2PKH, ambayo ni kama ifuatavyo.
 
 ```text

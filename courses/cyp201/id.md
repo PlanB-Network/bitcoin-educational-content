@@ -1897,6 +1897,8 @@ Tepatnya dalam *scriptPubKey* tempat alamat penerima ditemukan. Namun, penggunaa
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Sumber: Bitcoin Core PR review club tanggal 7 Juli 2021 – Gloria Zhao_
+
 Opcodes yang digunakan dalam skrip dirancang untuk memanipulasi informasi, dan, jika perlu, untuk membandingkan atau mengujinya. Mari kita ambil contoh skrip P2PKH, yang adalah sebagai berikut:
 
 ```text

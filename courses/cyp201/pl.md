@@ -2764,6 +2764,8 @@ To właśnie w *scriptPubKey* znajdują się adresy odbiorcze. Ich wykorzystanie
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
 | P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
 
+_Źródło: Bitcoin Core PR review club z 7 lipca 2021 – Gloria Zhao_
+
 Kody operacyjne używane w skrypcie są przeznaczone do manipulowania informacjami oraz, w razie potrzeby, do ich porównywania lub testowania. Weźmy przykład skryptu P2PKH, który wygląda następująco:
 
 

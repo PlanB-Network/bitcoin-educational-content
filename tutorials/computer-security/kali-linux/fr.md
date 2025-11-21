@@ -7,12 +7,6 @@ description: Installer Kali Linux sur VirtualBox, en clé USB bootable, ou en du
 
 ## Introduction
 
-### Qu'est-ce qu'un système d'exploitation ?
-
-Un **système d’exploitation (OS)** est le logiciel principal qui permet à votre ordinateur de fonctionner.
-Il gère le matériel, exécute les programmes et offre une interface pour que vous puissiez interagir avec votre machine.
-Exemples : Windows, macOS, Linux.
-
 ### Pourquoi Kali Linux ?
 
 **Kali Linux** est une distribution Linux spécialisée dans la sécurité informatique.

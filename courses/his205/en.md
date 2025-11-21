@@ -219,7 +219,7 @@ Another theory is that the villages themselves created the problem solved by dom
 ### The Paleolithic-Neolithic transition
 
 
-The Neolithic period marks a fundamental break in human history, in stark contrast to the Paleolithic societies that preceded it. In the Paleolithic, European populations were extremely dispersed: just 7,000 people inhabited the entire continent 20,000 years ago, organized into small nomadic groups of 20 to 50 individuals who followed the great migratory herds over vast distances.
+The Neolithic period marks a fundamental break in human history, contrasting sharply with the Paleolithic societies that preceded it. In the Paleolithic, European populations were extremely dispersed: just 7,000 people inhabited the entire continent 20,000 years ago, organized into small nomadic groups of 20 to 50 individuals who followed migratory herds over vast distances.
 
 
 Global warming at the end of the Ice Age radically transformed this social organization. The emergence of forests replaced migratory fauna with more sedentary forest fauna, enabling human groups to become semi-sedentary. This transformation was accompanied by a spectacular demographic boom: from an estimated European population of between 10,000 and 50,000 at the end of the Paleolithic, the Middle and Final Neolithic saw a rise to between 1 and 5 million inhabitants.
@@ -228,13 +228,13 @@ Global warming at the end of the Ice Age radically transformed this social organ
 ### The Invention of Work and Property
 
 
-This gradual sedentarization led to profound social transformations. **Neolithic agriculture gave rise to the modern notion of work**: attachment to a specific territory meant taking care of one's property, storing the fruits of one's labor and planning future harvests. This new relationship with time - deferring present use for future benefit - revolutionized social organization.
+This gradual sedentarization led to profound social transformations. **Neolithic agriculture gave rise to the modern concept of work**: attachment to a specific territory meant tending to one's property, storing the fruits of one's labor and planning for future harvests. This new relationship with time—deferring present use for future benefit—revolutionized social organization.
 
 
-Pottery is a perfect illustration of this evolution: initially developed to store cereals and seeds, it bears witness to this new ability to project needs over time. Some prehistorians even consider that the Neolithic would not have been possible without these storage systems.
+Pottery perfectly illustrates this evolution: initially developed to store cereals and seeds, is evidence of this new ability to anticipate future needs. Some prehistorians even argue that the Neolithic would not have been possible without these storage systems.
 
 
-**Private property emerged as the central institution** of these new societies. While individual property already existed in the Paleolithic (personal hunting spears), in the Neolithic it took on an unprecedented territorial dimension. This land appropriation generated the first archaeologically documented inter-human conflicts, necessitating the emergence of a territorial security function.
+**Private property emerged as the central institution** of these new societies. While individual property had already existed in the Paleolithic (such as personal hunting spears), it took on an unprecedented territorial dimension in the Neolithic. This land appropriation led to the first archaeologically documented human conflicts, necessitating the emergence of a function dedicated to territorial security function.
 
 
 ### Specialization and Division of Labor

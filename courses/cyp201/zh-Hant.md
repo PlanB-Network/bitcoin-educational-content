@@ -2038,29 +2038,17 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 接收位址正是在 *scriptPubKey* 中找到的。然而，它們的使用依所採用的腳本標準而有所不同。以下是 *scriptPubKey* 中包含的資訊摘要表，依據所使用的標準，以及 *scriptSig* 中預期用來解鎖 *scriptPubKey* 的資訊。
 
-| Standard | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness* | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness*
 
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 
-| P2PK | `<pubkey> OP_CHECKSIG` | `<signature>` | | | | | | | | | P2PK
 
-P2PKH | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>` | | | | | |
 
-| P2SH | `OP_HASH160 <scriptHash> OP_EQUAL` | `<data pushes> <Redeem script>` | 任意數據 | | P2SH
 
-| P2WPKH | `0 <pubKeyHash>` | | | `<signature> <public key>` |
 
-| P2WSH | `0 <witnessScriptHash>` | | | `<data pushes> <witness script>` |
 
-| P2SH-P2WPKH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <pubKeyHash>` | `<signature> <public key>` | P2SH-P2WPKH
 
-| P2SH-P2WSH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <scriptHash>` | `<data pushes> <witness script>` |
 
-| P2TR (金鑰路徑) | `1 <公開金鑰>` | | `<簽章>` |
 
-| P2TR (腳本路徑) | `1 <公開金鑰> ` | | `<資料推送> <指令碼> <控制區塊> ` |
 
-*來源：Bitcoin 核心公關審查俱樂部，2021 年 7 月 7 日 - Gloria Zhao*
 
 腳本中使用的操作碼是用來操作資訊的，必要時還可對資訊進行比較或測試。讓我們以 P2PKH 腳本為例，其內容如下：
 

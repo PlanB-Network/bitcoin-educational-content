@@ -1,7 +1,7 @@
 question: Selon le cadre de divulgation responsable, quelle est la principale raison stratégique de fournir des correctifs de vulnérabilité aux développeurs d'altcoins seulement après que les correctifs ont été largement déployés dans le réseau Bitcoin ?
 answer: Pour éviter que les attaquants n'exploitent la même vulnérabilité sur Bitcoin pendant que les altcoins sont corrigés
 wrong_answers:
-  - "Maintenir l'avantage concurrentiel du Bitcoin par rapport à d'autres implémentations de crypto-monnaies
+  - Maintenir l'avantage concurrentiel du Bitcoin par rapport à d'autres implémentations de crypto-monnaies
   - Pour s'assurer que les développeurs d'altcoins disposent de suffisamment de temps pour comprendre et mettre en œuvre correctement les correctifs
   - Éviter les problèmes de responsabilité juridique qui pourraient résulter d'une divulgation prématurée à des projets tiers
 explanation: |

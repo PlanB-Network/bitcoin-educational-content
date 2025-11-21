@@ -278,7 +278,6 @@ L'autrice sottolinea che molti sistemi, naturali o artificiali, possono funziona
 
 ![](assets/en/002.webp)
 
-*I banchi di pesce non hanno leader*
 
 
 Indipendentemente da ciò che si pensa del Bitcoin, la sua natura decentralizzata lo rende difficile da controllare. Il Bitcoin esiste e non si può fare nulla al riguardo. È qualcosa che va studiato, non discusso.
@@ -372,7 +371,7 @@ L'essenza del discorso è che non si possono costruire sistemi Trustless sopra u
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Una base Trustless Layer consente vari compromessi su livelli più alti
@@ -536,7 +535,6 @@ L'articolo riassume i principali problemi di privacy del Blockchain, ovvero il r
 ![](assets/en/005.webp)
 
 
-Tipiche perdite di privacy sul Blockchain
 
 
 Chris Belcher [ha scritto in modo molto dettagliato](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) sui diversi tipi di falle nella privacy che possono verificarsi sul Bitcoin Blockchain. Si consiglia di leggere almeno le prime sottosezioni di "Attacchi alla privacy del Blockchain"
@@ -632,7 +630,7 @@ Ha anche menzionato questo esempio, tra gli altri, nella [pagina sulla privacy](
 Si noti come sia possibile ottenere una migliore privacy costruendo sistemi in cima a Bitcoin, come nel caso di Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Gli strati sopra il Bitcoin possono aumentare la privacy
@@ -731,7 +729,7 @@ Cosa succede quando il sussidio di blocco si avvicina a zero? Per semplificare l
 Oggi sono i detentori a pagare per la sicurezza (tramite l'inflazione monetaria). Domani toccherà agli spendaccioni assumersi in qualche modo questo onere, come illustrato di seguito.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Con il passare del tempo, l'onere dei costi della sicurezza si sposterà dai detentori agli spenditori
@@ -1102,7 +1100,6 @@ Questi sono esempi di minacce reali di cui è necessario occuparsi.
 ![](assets/en/009.webp)
 
 
-Estratto dal Manuale da campo per il sabotaggio semplice
 
 
 Per capire meglio la mente dell'avversario, può essere utile dare un'occhiata a come opera. Un ente governativo statunitense chiamato Office of Strategic Services, che operava durante la Seconda Guerra Mondiale e aveva tra i suoi scopi quello di condurre spionaggio, eseguire sabotaggi e diffondere propaganda, produsse un [manuale](https://www.gutenberg.org/ebooks/26184) per il proprio personale su come sabotare correttamente il nemico. Il titolo era "Simple Sabotage Field Manual" (Manuale di Sabotaggio Semplice) e conteneva consigli concreti su come infiltrarsi nel nemico per rendergli la vita Hard. I consigli spaziano dall'incendio di magazzini all'usura delle esercitazioni per diminuire il livello di sicurezza del nemico
@@ -1662,7 +1659,6 @@ Un protocollo a strati inizia con l'accordo di due o più persone su una transaz
 
 ![](assets/en/017.webp)
 
-Un tipico protocollo Layer 2 in cima a Bitcoin, Layer 1.
 
 
 Il modo in cui viene creata la transazione di avvio varia da un protocollo all'altro, ma un tema comune è che i partecipanti creano una transazione di avvio non firmata e una serie di transazioni di punizione pre-firmate, che spendono l'output della transazione di avvio in vari modi. Successivamente, la transazione iniziale è completamente firmata e pubblicata sul Blockchain, mentre le transazioni di punizione possono essere completamente firmate e pubblicate per punire una parte che si comporta male. Questo incentiva i partecipanti a mantenere le loro promesse, in modo che il protocollo possa funzionare in modo Trustless .

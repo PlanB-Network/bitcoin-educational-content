@@ -1917,19 +1917,21 @@ Khi một người dùng nhận được bitcoin, người gửi tạo ra một 
 
 Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nhận. Tuy nhiên, việc sử dụng của chúng thay đổi tùy thuộc vào tiêu chuẩn script được áp dụng. Dưới đây là bảng tóm tắt thông tin chứa trong *scriptPubKey* theo tiêu chuẩn được sử dụng, cũng như thông tin được mong đợi trong *scriptSig* để mở khóa *scriptPubKey*.
 
-| Tiêu Chuẩn         | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Dữ liệu tùy ý       |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Nguồn: Bitcoin Core PR review club, Ngày 7 tháng 7 năm 2021 - Gloria Zhao*
+
+| Tiêu chuẩn             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dữ liệu tùy ý | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Nguồn: Câu lạc bộ đánh giá Bitcoin Core PR ngày 7 tháng 7 năm 2021 – Gloria Zhao_
 
 Các opcode được sử dụng trong một script được thiết kế để thao tác thông tin, và nếu cần, để so sánh hoặc kiểm tra nó. Hãy lấy ví dụ về một script P2PKH, được viết như sau:
 

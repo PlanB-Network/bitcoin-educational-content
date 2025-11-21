@@ -1,12 +1,11 @@
 question: Jaka jest jedna z metod długoterminowego zabezpieczenia bitcoinów?
-answer: Grawerowanie frazy Mnemonic na odpornym materiale, takim jak stal.
+answer: Wygrawerowanie frazy mnemonicznej w odpornym materiale, takim jak stal.
 wrong_answers:
-  - Przechowywanie ich w Hot Wallet.
-  - Utrzymanie ich na platformie Exchange.
-  - Dzielenie się frazą Mnemonic ze współpracownikiem.
+  - Przechowywanie frazy mnemonicznej w gorącym portfelu.
+  - Utrzymanie frazy mnemonicznej na platformie wymiany.
+  - Podzielenie się frazą mnemoniczną ze współpracownikiem.
 explanation: |
-  Grawerowanie frazy Mnemonic na odpornym materiale, takim jak stal
-  stal tworzy fizyczną kopię zapasową kluczy, która jest
-  odporna zarówno na wodę, jak i ogień, zabezpieczając w ten sposób
+  Wygrawerowanie frazy mnemonicznej w odpornym materiale, takim jak stal, tworzy fizyczną kopię zapasową kluczy, która jest
+  odporna zarówno na wodę, jak i ogień, i zabezpiecza w ten sposób
   bitcoiny w dłuższej perspektywie.
 reviewed: true

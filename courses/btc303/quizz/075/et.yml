@@ -1,4 +1,4 @@
-question: Gregory Maxwelli seisukoht haavatavuse tõsiduse hindamise kohta: millist lähenemisviisi peaksid arendajad kasutama, kui nad hindavad avastatud turvaprobleemide võimalikku mõju?
+question: Gregory Maxwelli seisukoht haavatavuse tõsiduse hindamise kohta, millist lähenemisviisi peaksid arendajad kasutama, kui nad hindavad avastatud turvaprobleemide võimalikku mõju?
 answer: Käsitleda haavatavusi tõsisematena kui praegu teadaolevad ja eeldada, et neid võib kergesti ära kasutada, isegi kui need tunduvad raskesti kasutatavatena
 wrong_answers:
   - Keskenduda ainult koheselt märgatavale mõjule ja liigitada haavatavused nende praeguste teadaolevate kasutamismeetodite alusel

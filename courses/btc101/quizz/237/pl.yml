@@ -1,8 +1,8 @@
-question: Jaki jest jeden ze sposobów na przetestowanie Lightning Network dla siebie?
+question: Jaki jest jeden ze sposobów na zapoznanie się z siecią Lightning?
 answer: Wypróbuj aplikację do podcastów o nazwie Fountain.
 wrong_answers:
-  - Przez Mining Bitcoin przy użyciu komputera osobistego.
-  - Kupując Bitcoin od banku.
-  - Tworząc nową kryptowalutę.
+  - Przez wydobywanie bitcoinów przy użyciu komputera osobistego.
+  - Przez kupienie bitcoinów od banku.
+  - Przez stworzenie nowej kryptowaluty.
 explanation: >-
 reviewed: true

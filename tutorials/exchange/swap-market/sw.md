@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Kipengele    | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Asili         | Huduma ya kipekee    | Muunganisha wa watoa huduma wengi    |
+| Watoa huduma  | Boltz pekee          | Boltz, ZEUS, Eldamar, Middle Way     |
+| Ushindani     | Ada zilizowekwa      | Ushindani huria                      |
+| Kiolesura     | boltz.exchange       | swapmarket.github.io (inaweza kujihostisha) |
+| Usalama       | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 **Faida za SwapMarket**: Ushindani wa bei, utofauti wa matukio ya nyuma, ulinganisho wa wakati halisi.
 

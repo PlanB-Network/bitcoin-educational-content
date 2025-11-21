@@ -1,7 +1,7 @@
 question: Bitcoinの仮名システムでは、何が仮名になるのですか？
 answer: 公開鍵に由来するアドレス
 wrong_answers:
-  - "watchme1984 "のような説明的なユーザー名"
+  - watchme1984 のような説明的なユーザー名
   - ウォレットに保管された秘密鍵
   - ブロックチェーン上の取引ID
 explanation: |

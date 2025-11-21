@@ -1,0 +1,21 @@
+id: ee049230-ecae-4276-a249-48ae03deb2e8
+start_date: 2025-12-15 01:00:00
+end_date: 2025-12-17 09:00:00
+timezone: Asia/Taipei
+address_city_country: Taipei, Taiwan
+address_line_2: POPOP
+name: bitcoin++ is standing sovereign
+type: workshop
+description: |
+  "Bitcoin is an important tool at the forefront of freedom to
+  transact peer to peer. Join us in Taiwan this coming December 15th to 17th for
+  a deep dive into the forefront of sovereignty and peer to peer exchange, both
+  on-chain and off."
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/taipei
+tags:
+  - decentralization
+  - DIY-IT
+  - education

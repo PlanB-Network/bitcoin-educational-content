@@ -6,4 +6,4 @@ wrong_answers:
   - Enviar fondos a todos los nodos en la ruta simultáneamente
 explanation: |
   El enrutamiento onion significa que cada nodo intermedio solo conoce al nodo anterior y al siguiente, preservando así la confidencialidad del destinatario final.
-  reviewed: true
+reviewed: true

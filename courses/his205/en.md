@@ -240,30 +240,30 @@ Pottery perfectly illustrates this evolution: initially developed to store cerea
 ### Specialization and Division of Labor
 
 
-Agriculture made it possible to feed larger populations, while freeing some individuals from other productive activities. This emerging specialization - farmers, potters, craftsmen, guards - laid the foundations for the division of labor and social hierarchies.
+Agriculture made it possible to feed larger populations while freeing some individuals from the direct necessity of food production to pursue other productive activities. This emerging specialization - farmers, potters, craftsmen, guards - laid the foundations for the division of labor and social hierarchies.
 
 
-Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. Funerary objects - ornaments, specialized tools, pottery - indicate the emergence of a notion of wealth and social prestige.
+Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The precense of funerary objects—ornaments, specialized tools, pottery—serves as material evidence for the emergence of a notion of wealth and social prestige.
 
 
 ### The emergence of distance exchanges
 
 
-Archaeological analysis reveals surprising exchange networks for the time. Materials such as obsidian, green rock (dolerite, jadeite), shells, and bitumen were found hundreds of kilometers from their extraction sites. Polished green rock axes, essential for deforestation and the construction of early villages, circulated throughout Neolithic Europe.
+Archaeological analysis reveals extensive exchange networks for the time. Materials such as obsidian, green rock (dolerite, jadeite), shells, and bitumen were found hundreds of kilometers from their extraction sites. Polished green rock axes, essential for deforestation and the construction of early villages, circulated throughout Neolithic Europe.
 
 
 These exchanges concern both raw materials and finished objects, revealing an appreciation of artisanal specialization. The value attributed integrates both the rarity of the material and the technical skill required to transform it.
 
 
-The organization of exchanges varies according to the scale considered. **Within communities**, anthropologists favor the hypothesis of an economy of gift and counter-gift, with informal credit systems based on interpersonal trust. In these restricted groups, the "Dunbar number" (150 people maximum to maintain direct relationships of trust) enables deferred exchanges without any market mechanism.
+The organization of exchanges varies according to the scale considered. **Within communities**, anthropologists favor the hypothesis of an economy of gift and counter-gift, with informal credit systems based on interpersonal trust. In these restricted groups, the "Dunbar number" (150 people maximum to maintain direct relationships of trust) defines a scale within which deferred exchanges without any market mechanism.
 
 
 There are several types of barter:
 
 
-- The **direct barter**: immediate exchange of good for good
-- The **extended barter**: exchanging goods for services or promises
-- The **deferred barter**: interpersonal debt with subsequent repayment
+- **Direct barter**: The immediate exchange of goods.
+- **Extended barter**: The exchange of goods for services or promises.
+- **Deferred barter**: An exhcange based on a promise of future repayment, creating interpersonal debt.
 
 
 **Between different communities**, the absence of bonds of personal trust favored the emergence of more formalized exchanges. Certain goods gradually acquired a special status through their ability to be demanded by foreign groups, prefiguring the first forms of proto-currency.
@@ -288,10 +288,10 @@ The Neolithic thus laid the foundations of the modern economy: specialization of
 ### Irrigation and the birth of great cities
 
 
-In this chapter, we'll discuss how the first great cities of this part of history came to be, and we'll obviously discuss the reasons behind the emergence of writing in Mesopotamia.
+The emergence of the first great cities and the invention of writing in Mesopotamia were direct consequences of large-scale agricultural development.
 
 
-Around 6,000 years ago, in the fertile valleys of Egypt and Mesopotamia, human communities began to harness rivers by developing irrigation. This mastery of water allowed for abundant cultivation, favoring the emergence of great cities such as the famous city of Uruk, located in today's southern Iraq.
+Around 6,000 years ago, in the fertile valleys of Egypt and Mesopotamia, human communities began to harness rivers by developing irrigation. This mastery of water allowed for abundant cultivation, which enabled the emergence of great cities such as the famous city of Uruk, located in today's southern Iraq.
 
 
 Around 3500 BC, Uruk became the world's largest city, reaching its peak around 2800 BC, with a population of up to 80,000. At this time, two major innovations profoundly marked Sumerian civilization: the emergence of a structured government capable of administering a true state, and the revolutionary invention of writing.
@@ -306,28 +306,28 @@ Writing was born in this city around 3000 BC, motivated primarily by economic ne
 The system developed was called "cuneiform", from the Latin "cuneus" meaning "wedge", in reference to the use of a wedge-shaped stylus to print signs on moist clay tablets.
 
 
-Here below, you can admire my copy of a tablet with cuneiform writing. In order to write on these tablets, I believe they used a kind of stylus made from reeds, to trace the wet clay and create the shapes, the cuneiform writing.
+Below is a replica of a tablet featuring cuneiform writing. To create these inscriptions, scribes used a reed stylus to press wedge-shaped marks into wet clay.
 
 
 ![](./assets/fr/1-1-3_1_Tablette_small.webp)
 
 
-I also have what I believe to be a genuine Sumerian tablet with a small cuneiform script in the center. On this tablet, there are signatures made by rolling a cylinder, which I'll show you afterwards.
+This tablet appears to be a genuine Sumerian artifact, featuring a small cuneiform inscription in the center. The surrounding marks are impressions made by rolling a cylinder seal, an object which will be examined next.
 
 
-The marks with small figures served as signatures during a time when most people couldn't write, as only skilled scribes had that ability.
+These impressions with small figures served as signatures during a period when literacy was restricted to a skilled class of scribes.
 
 ![](./assets/fr/1-1-3_2_Tablette_big.webp)
 
 
-Below, you can see the cylinder mentioned above: a stone engraved with specific shapes. People used to roll this signature cylinder, known as a cylinder seal in English, to sign letters. It was a way to explicit the names of the authors, or to indicate that they were composed in their name.
+Picturedd below is the cylinder seal mentioned above: a small stone cylinder engraved with specific shapes. It was rolled across wet clay to imprint a signature, thereby identifying the author of a document or indicating the authority under which it was composed.
 
-Scribes of the time therefore used there wedge-shaped stylus to print signs on wet tablets.
+Scribes of the period used their wedge-shaped stylus to impress signs onto wet tablets.
 
 ![](./assets/fr/1-1-3_3_cylindre.webp)
 
 
-Cuneiform characters did not represent a language, but a writing system for recording spoken languages. In English, we'd say "writing is a  written language", and then we'd say that "cuneiform is a script, not a language". So, in French, we'd say that cuneiform is not a language, but a way of codifying a language.
+It is important to distinguish between a language and a writing system. Cuneiform is a script—a method for visually representing a spoken language—not a language itself.
 
 ### The evolution and the uses of writing
 

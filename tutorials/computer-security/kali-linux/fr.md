@@ -127,11 +127,14 @@ Sélectionnez votre zone géographique pour configurer l'heure système.
 ##### Type de partitionnement
 
 Le programme d’installation analyse ensuite vos disques et affiche plusieurs options selon votre configuration.
+
 Dans ce guide, nous partons d’un **disque vierge**, ce qui fait apparaître **quatre choix possibles**.
 Nous allons sélectionner **Guidé - utiliser tout le disque**, car nous effectuons ici une installation unique de Kali Linux (mono-amorçage). Cela signifie qu’aucun autre système d’exploitation ne sera conservé, et que le disque peut être entièrement effacé.
 
 Si votre disque contient déjà des données, une option supplémentaire **Guidé – utiliser le plus grand espace libre contigu** peut s’afficher.
+
 Cette alternative permet d’installer Kali Linux sans supprimer les données existantes, pratique pour un double démarrage (dual boot) avec un autre système.
+
 Dans notre cas, le disque est vide, donc cette option n’apparaît pas.
 
 ![Choix du partitionnement](assets/fr/17.webp)
@@ -141,6 +144,7 @@ Sélectionnez le disque à partitionner.
 ![capture](assets/fr/18.webp)
 
 Selon vos besoins, vous pouvez choisir de conserver tous vos fichiers dans une seule partition (comportement par défaut) ou d'avoir des partitions séparées pour un ou plusieurs répertoires de premier niveau.
+
 Si vous n'êtes pas sûr de ce que vous voulez, prenez l'option **Tous les fichiers dans une seule partition**.
 
 ![capture](assets/fr/19.webp)
@@ -160,6 +164,7 @@ Veuillez utiliser un mot de passe fort, sinon un avertissement concernant une ph
 ##### Informations sur les proxys
 
 Kali Linux utilise des dépôts pour distribuer les applications. Vous devrez saisir les informations de proxy nécessaires si votre environnement en utilise.
+
 Si vous n’êtes **pas certain** d’utiliser un proxy, **laissez vide**. Saisir de fausses informations empêchera la connexion aux dépôts.
 
 ![capture](assets/fr/22.webp)
@@ -167,7 +172,9 @@ Si vous n’êtes **pas certain** d’utiliser un proxy, **laissez vide**. Saisi
 ##### Métapaquets
 
 Si l'accès réseau n'a pas été configuré, vous devrez **poursuivre la configuration** lorsque vous y serez invité.
+
 Si vous utilisez l'image **Live**, l'étape suivante ne s'affichera pas.
+
 Vous pouvez ensuite sélectionner les [métapaquets](https://www.kali.org/docs/general-use/metapackages/) que vous souhaitez installer. Les options par défaut installeront un système Kali Linux standard ; vous n'aurez donc rien à modifier.
 
 ![capture](assets/fr/23.webp)
@@ -218,8 +225,8 @@ Il n'est pas conseillé d'utiliser le compte **root** pour le travail au quotidi
 Dans votre terminal, tapez ces commandes :
 
 ```bash
-sudo adduser votrenom
-sudo usermod -aG sudo votrenom
+sudo adduser yourname
+sudo usermod -aG sudo yourname
 ```
 
 Déconnectez-vous puis reconnectez-vous avec le nouvel utilisateur.

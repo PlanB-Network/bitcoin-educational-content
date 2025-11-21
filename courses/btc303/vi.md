@@ -332,7 +332,7 @@ Bản chất của bài nói chuyện đó là bạn không thể xây dựng c�
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless cơ sở Layer cho phép nhiều sự đánh đổi khác nhau ở các cấp độ cao hơn
@@ -592,7 +592,7 @@ Trong [bài phát biểu](https://btctranscripts.com/breaking-Bitcoin/2019/break
 Lưu ý cách bảo mật tốt hơn có thể đạt được bằng cách xây dựng các hệ thống trên Bitcoin, như trường hợp của Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Các lớp trên cùng của Bitcoin có thể tăng thêm sự riêng tư
@@ -691,7 +691,7 @@ Block reward bao gồm trợ cấp khối cộng với phí giao dịch. Block r
 Ngày nay, người nắm giữ là người trả tiền cho sự an toàn (thông qua lạm phát tiền tệ). Ngày mai, đến lượt người chi tiêu phải gánh vác gánh nặng này, như minh họa bên dưới.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Theo thời gian, gánh nặng chi phí an ninh sẽ chuyển từ người nắm giữ sang người chi tiêu

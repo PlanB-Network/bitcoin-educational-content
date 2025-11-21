@@ -372,7 +372,7 @@ De essentie van dat gesprek is dat je geen Trustless systemen kunt bouwen boveno
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Een Trustless basis Layer maakt verschillende afwegingen op hogere niveaus mogelijk
@@ -632,7 +632,7 @@ Hij noemde dit voorbeeld ook, onder andere, op de [Privacy pagina](https://en.Bi
 Merk op hoe betere privacy bereikt kan worden door systemen bovenop Bitcoin te bouwen, zoals het geval is bij Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Lagen bovenop Bitcoin kunnen privacy toevoegen
@@ -731,7 +731,7 @@ Wat gebeurt er als de bloksubsidie bijna nul is? Laten we, om het eenvoudig te h
 Vandaag zijn het de houders die betalen voor de veiligheid (via monetaire inflatie). Morgen is het de beurt aan de spenders om deze last op de een of andere manier te dragen, zoals hieronder wordt geïllustreerd.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Naarmate de tijd verstrijkt, zal het dragen van de beveiligingskosten verschuiven van houders naar spenders

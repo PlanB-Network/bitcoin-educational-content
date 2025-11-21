@@ -372,7 +372,7 @@ A essência dessa conversa é que não se pode construir sistemas Trustless em c
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Uma base Trustless Layer permite várias soluções de compromisso a níveis mais elevados
@@ -632,7 +632,7 @@ Também mencionou este exemplo, entre outros, na [Privacy page](https://en.Bitco
 Note-se que é possível obter uma melhor privacidade construindo sistemas sobre o Bitcoin, como é o caso do Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 As camadas sobrepostas ao Bitcoin podem aumentar a privacidade
@@ -731,7 +731,7 @@ O que acontece quando o subsídio por categoria se aproxima de zero? Para simpli
 Atualmente, são os detentores que pagam pela segurança (através da inflação monetária). Amanhã, será a vez de os gastadores suportarem, de alguma forma, este ónus, como ilustrado abaixo.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Com o passar do tempo, a responsabilidade pelos custos de segurança passará dos detentores para os utilizadores

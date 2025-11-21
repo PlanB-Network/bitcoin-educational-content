@@ -372,7 +372,7 @@ Podstatou této přednášky je, že nad důvěryhodným systémem nelze vybudov
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Základna Trustless Layer umožňuje různé kompromisy na vyšších úrovních
@@ -632,7 +632,7 @@ Tento příklad uvedl mimo jiné také na stránce [Privacy page](https://en.Bit
 Všimněte si, že lepšího soukromí lze dosáhnout vybudováním systémů nad systémem Bitcoin, jako je tomu v případě systému Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Vrstvy nad Bitcoin mohou zvýšit soukromí
@@ -731,7 +731,7 @@ Co se stane, když se bloková dotace blíží nule? Pro zjednodušení předpok
 Dnes jsou to držitelé, kdo platí za bezpečnost (prostřednictvím měnové inflace). Zítra budou na řadě ti, kdo utrácejí, aby toto břemeno nějakým způsobem převzali, jak je znázorněno níže.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Postupem času se náklady na zabezpečení přesunou z držitelů na plátce

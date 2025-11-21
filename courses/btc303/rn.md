@@ -372,7 +372,7 @@ Ishingiro ry’iyo nsiguro ni uko udashobora kwubaka ubuhinga bwa Trustless heju
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Igikoresho ca Trustless Layer kiremesha gucuruza ibintu bitandukanye ku rwego rwo hejuru .
@@ -632,7 +632,7 @@ Yaravuze kandi ako karorero, mu bindi, kuri [Urupapuro rw’Ibanga](https://ru.B
 Raba ingene ubuzima bwite bushobora gushikwako mu kwubaka ubuhinga hejuru ya Bitcoin, nk’uko biri kuri Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Ivyumba biri hejuru ya Bitcoin birashobora kwongera ubuzima bwite
@@ -731,7 +731,7 @@ None bigenda gute iyo infashanyo y’amabuye yegereye zero? Kugira ngo ibintu bi
 Ubu, abafise ni bo bariha umutekano (biciye mu gutera imbere kw’amahera). Ejo ni ho abakoresha amahera bazokwikorera mu buryo bumwe canke ubundi uwo muzigo, nk’uko vyerekanwa aha hepfo.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Uko igihe kigenda kirarenga, ukwikorera amafaranga y’umutekano bizova ku bafise bije ku bakoresha .

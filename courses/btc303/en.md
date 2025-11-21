@@ -257,7 +257,7 @@ Bitcoin's trustlessness is absolutely imperative from a system perspective. In 2
 The essence of that talk is that you can't build trustless systems on top of a trusted system, but you can build trusted systems - for example, a custodial wallet - on top of a trustless system.
 
 
-![width=50%](assets/trust.webp)
+
 
 A trustless base layer allows for various trade-offs on higher levels
 
@@ -439,7 +439,7 @@ He also mentioned this example, among others, on the [Privacy page](https://en.b
 
 Note how better privacy can be achieved by building systems on top of Bitcoin, as is the case with Lightning Network:
 
-![image](assets/privacy.webp)
+
 
 Layers on top of Bitcoin can add privacy
 
@@ -510,7 +510,7 @@ What happens when the block subsidy approaches zero? To keep things simple, let'
 
 Today, it is holders who pay for security (via monetary inflation). Tomorrow it will be the spenders' turn to somehow shoulder this burden, as illustrated below.
 
-![image](assets/finitesupply.webp)
+
 
 As time goes by, the bearing of security costs will shift from holders to spenders
 

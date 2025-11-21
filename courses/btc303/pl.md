@@ -372,7 +372,7 @@ Istotą tego wykładu jest to, że nie można budować systemów Trustless na za
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Podstawa Trustless Layer pozwala na różne kompromisy na wyższych poziomach
@@ -632,7 +632,7 @@ Wspomniał również o tym przykładzie, między innymi, na [stronie prywatnośc
 Zwróć uwagę, jak lepszą prywatność można osiągnąć, budując systemy na Bitcoin, tak jak ma to miejsce w przypadku Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Warstwy na wierzchu Bitcoin mogą zwiększyć prywatność
@@ -731,7 +731,7 @@ Co się dzieje, gdy subsydium blokowe zbliża się do zera? Aby zachować prosto
 Dziś to posiadacze płacą za bezpieczeństwo (poprzez inflację monetarną). Jutro przyjdzie kolej na wydawców, którzy w jakiś sposób wezmą na siebie ten ciężar, jak pokazano poniżej.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 W miarę upływu czasu ponoszenie kosztów bezpieczeństwa przesunie się z posiadaczy na wydawców

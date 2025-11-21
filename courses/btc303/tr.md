@@ -372,7 +372,7 @@ Bu konuşmanın özü, güvenilir bir sistemin üzerine Trustless sistemleri kur
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Bir Trustless tabanı Layer, daha yüksek seviyelerde çeşitli ödünleşimlere izin verir
@@ -632,7 +632,7 @@ Bu örnekten, diğerlerinin yanı sıra, Bitcoin vikisindeki [Gizlilik sayfasın
 Lightning Network'te olduğu gibi Bitcoin'in üzerine sistemler inşa ederek daha iyi gizlilik elde edilebileceğine dikkat edin:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin'nın üstündeki katmanlar gizlilik sağlayabilir
@@ -731,7 +731,7 @@ Blok sübvansiyon sıfıra yaklaştığında ne olur? İşleri basit tutmak içi
 Bugün güvenliğin bedelini (parasal enflasyon yoluyla) elinde tutanlar ödemektedir. Yarın ise aşağıda gösterildiği gibi bu yükü bir şekilde omuzlama sırası harcama yapanlara gelecektir.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Zaman geçtikçe, güvenlik maliyetlerinin yükü ellerinde tutanlardan harcayanlara geçecektir

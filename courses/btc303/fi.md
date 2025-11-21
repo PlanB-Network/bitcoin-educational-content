@@ -372,7 +372,7 @@ Puheenvuoron ydin on se, että Trustless-järjestelmiä ei voi rakentaa luotetta
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless-perus Layer mahdollistaa erilaisia kompromisseja korkeammilla tasoilla
@@ -632,7 +632,7 @@ Hän mainitsi tämän esimerkin myös Bitcoin-wikin [Privacy page](https://en.Bi
 Huomaa, että parempi yksityisyys voidaan saavuttaa rakentamalla järjestelmiä Bitcoin:n päälle, kuten Lightning Network:n tapauksessa:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin:n päällä olevat kerrokset voivat lisätä yksityisyyttä
@@ -731,7 +731,7 @@ Mitä tapahtuu, kun lohkotuki lähestyy nollaa? Yksinkertaisuuden vuoksi oleteta
 Nykyään arvopaperin haltijat maksavat arvopapereista (rahan inflaation kautta). Huomenna on tuhlaajien vuoro jotenkin kantaa tämä taakka, kuten alla on esitetty.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Ajan myötä turvakustannusten kantaminen siirtyy haltijoilta kulujen maksajille

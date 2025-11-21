@@ -372,7 +372,7 @@ Essensen i foredraget er at du ikke kan bygge Trustless-systemer på toppen av e
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 En Trustless-base Layer gir mulighet for ulike avveininger på høyere nivåer
@@ -632,7 +632,7 @@ Han nevnte også dette eksemplet, blant andre, på [Privacy page](https://en.Bit
 Legg merke til hvordan bedre personvern kan oppnås ved å bygge systemer på toppen av Bitcoin, slik tilfellet er med Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Lag på toppen av Bitcoin kan gi økt personvern
@@ -731,7 +731,7 @@ Hva skjer når blokktilskuddet nærmer seg null? For å gjøre det enkelt, la os
 I dag er det eierne som betaler for sikkerheten (via pengeinflasjonen). I morgen er det de som bruker penger, som illustrert nedenfor, som på en eller annen måte må bære denne byrden.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Etter hvert som tiden går, vil sikkerhetskostnadene flyttes fra eierne til de som bruker pengene

@@ -372,7 +372,7 @@ Die Quintessenz dieses Vortrags ist, dass man keine Trustless-Systeme auf einem 
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Ein Trustless Basis Layer ermöglicht verschiedene Kompromisse auf höheren Ebenen
@@ -632,7 +632,7 @@ Er erwähnte dieses Beispiel unter anderem auch auf der [Datenschutzseite](https
 Es ist zu beachten, dass ein besserer Schutz der Privatsphäre erreicht werden kann, wenn Systeme auf Bitcoin aufgesetzt werden, wie es bei Lightning Network der Fall ist:
 
 
-![image](assets/privacy.webp)
+
 
 
 Schichten über dem Bitcoin können die Privatsphäre verbessern
@@ -731,7 +731,7 @@ Was passiert, wenn die Blocksubvention gegen Null geht? Der Einfachheit halber g
 Heute sind es die Inhaber, die für die Sicherheit zahlen (über die Geldinflation). Morgen werden die Geldausgeber an der Reihe sein, diese Last irgendwie zu schultern, wie unten dargestellt.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Im Laufe der Zeit wird sich die Last der Sicherheitskosten von den Besitzern zu den Ausgebern verlagern

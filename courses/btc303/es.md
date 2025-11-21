@@ -372,7 +372,7 @@ La esencia de esa charla es que no puedes construir sistemas Trustless sobre un 
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Una Trustless de base Layer permite diversas compensaciones en niveles superiores
@@ -632,7 +632,7 @@ También mencionó este ejemplo, entre otros, en la [Página de privacidad](http
 Obsérvese cómo se puede conseguir una mayor privacidad construyendo sistemas sobre Bitcoin, como es el caso de Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Las capas sobre la Bitcoin pueden añadir privacidad
@@ -731,7 +731,7 @@ Una Block reward se compone de la subvención por bloque más las comisiones por
 Hoy son los tenedores quienes pagan por la seguridad (vía inflación monetaria). Mañana les tocará a los derrochadores asumir de algún modo esta carga, como se ilustra a continuación.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 A medida que pase el tiempo, los costes de seguridad pasarán de los poseedores a los gastadores

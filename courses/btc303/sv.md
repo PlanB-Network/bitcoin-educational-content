@@ -372,7 +372,7 @@ Kärnan i det samtalet är att man inte kan bygga Trustless-system ovanpå ett b
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 En Trustless-bas Layer möjliggör olika avvägningar på högre nivåer
@@ -632,7 +632,7 @@ Han nämnde också detta exempel, bland andra, på [Privacy page](https://en.Bit
 Observera hur bättre integritet kan uppnås genom att bygga system ovanpå Bitcoin, vilket är fallet med Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Skikt ovanpå Bitcoin kan öka integriteten
@@ -731,7 +731,7 @@ Vad händer när blockbidraget närmar sig noll? För enkelhetens skull antar vi
 Idag är det innehavarna som betalar för säkerheten (via den monetära inflationen). I morgon är det spenderarnas tur att på något sätt axla denna börda, vilket illustreras nedan.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Med tiden kommer bärandet av säkerhetskostnaderna att flyttas från innehavarna till utgivarna

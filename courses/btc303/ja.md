@@ -372,7 +372,7 @@ Bitcoinのトラストレスはシステムの観点から絶対に必要だ。2
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 TrustlessベースのLayerは、より高いレベルでの様々なトレードオフを可能にする。
@@ -632,7 +632,7 @@ Breaking Bitcoinカンファレンスの[講演](https://btctranscripts.com/brea
 Lightning Networkの場合と同様に、Bitcoinの上にシステムを構築することで、より優れたプライバシーが達成できることに注目してほしい：
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoinの上にレイヤーを重ねることで、プライバシーを高めることができる
@@ -731,7 +731,7 @@ Block rewardはブロック補助金と取引手数料で構成される。Block
 今日、安全保障のために（通貨インフレによって）負担しているのは保有者である。明日は、消費者がこの負担をどうにかして肩代わりする番だ。
 
 
-![image](assets/finitesupply.webp)
+
 
 
 時が経てば経つほど、セキュリティコストの負担は保有者から支出者に移っていくだろう

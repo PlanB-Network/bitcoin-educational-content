@@ -365,7 +365,7 @@ L'essentiel de cet exposé est qu'il n'est pas possible de construire des systè
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Une couche de base qui est Trustless permet de faire des compromis à des niveaux plus élevés
@@ -617,7 +617,7 @@ Il a également mentionné cet exemple, parmi d'autres, sur la [page Vie privée
 Notez qu'il est possible d'améliorer la protection de la vie privée en construisant des systèmes au-dessus de Bitcoin, comme c'est le cas avec Lightning Network :
 
 
-![image](assets/privacy.webp)
+
 
 
 La superposition de couches de Bitcoin peut renforcer la protection de la vie privée
@@ -716,7 +716,7 @@ Que se passe-t-il lorsque la bloc subsidy globale s'approche de zéro ? Pour sim
 Aujourd'hui, ce sont les détenteurs qui paient pour la sécurité (via l'inflation monétaire). Demain, ce sera au tour des dépensiers d'assumer en quelque sorte ce fardeau, comme illustré ci-dessous.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Au fil du temps, la prise en charge des coûts de sécurité se déplacera des détenteurs vers les dépensiers

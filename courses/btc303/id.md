@@ -372,7 +372,7 @@ Inti dari pembicaraan tersebut adalah bahwa Anda tidak dapat membangun sistem Tr
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Basis Trustless Layer memungkinkan berbagai pertukaran pada tingkat yang lebih tinggi
@@ -632,7 +632,7 @@ Dia juga menyebutkan contoh ini, antara lain, pada [Halaman privasi](https://en.
 Perhatikan bagaimana privasi yang lebih baik dapat dicapai dengan membangun sistem di atas Bitcoin, seperti halnya dengan Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Lapisan di atas Bitcoin dapat menambah privasi
@@ -731,7 +731,7 @@ Apa yang terjadi ketika subsidi blok mendekati nol? Untuk mempermudah, mari kita
 Saat ini, para pemegang sahamlah yang membayar keamanan (melalui inflasi moneter). Besok giliran para pembelanja yang harus menanggung beban ini, seperti yang diilustrasikan di bawah ini.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Seiring berjalannya waktu, beban biaya keamanan akan bergeser dari pemegang saham menjadi pembelanja

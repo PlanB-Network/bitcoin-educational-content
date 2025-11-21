@@ -332,7 +332,7 @@ Suština tog razgovora je da ne možete izgraditi Trustless sisteme na vrhu pouz
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Osnova Trustless Layer omogućava razne kompromise na višim nivoima
@@ -592,7 +592,7 @@ Takođe je pomenuo ovaj primer, između ostalih, na [stranici o privatnosti](htt
 Imajte na umu kako se bolja privatnost može postići izgradnjom sistema na vrhu Bitcoin, kao što je slučaj sa Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Slojevi na vrhu Bitcoin mogu dodati privatnost
@@ -691,7 +691,7 @@ Block reward se sastoji od blok subvencije plus naknada za transakcije. Block re
 Danas, vlasnici snose troškove za sigurnost (putem monetarne inflacije). Sutra će doći red na potrošače da na neki način preuzmu ovaj teret, kao što je prikazano ispod.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Kako vreme prolazi, teret troškova bezbednosti će se prebaciti sa vlasnika na potrošače.

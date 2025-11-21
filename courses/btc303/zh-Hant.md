@@ -372,7 +372,7 @@ David Harding 撰寫了 [Bitcoin.org 網站上的一篇文章](https://Bitcoin.o
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 A Trustless 基座 Layer 允許在更高層次上進行各種取捨
@@ -632,7 +632,7 @@ Chris Belcher 在 Breaking Bitcoin 會議的 [演講](https://btctranscripts.com
 請注意在 Bitcoin 的基礎上建立系統，可以達到更好的隱私性，就像 Lightning Network 的情況一樣：
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin 上的層次可增加隱私性
@@ -731,7 +731,7 @@ Block reward 由區塊補貼加上交易費用組成。Block reward 需要支付
 今天，是持有者（透過貨幣通膨）為安全付費。明天就輪到花費者以某種方式來承擔這個負擔了，如下圖所示。
 
 
-![image](assets/finitesupply.webp)
+
 
 
 隨著時間的推移，安全成本的承擔將會從持有者轉移至支出者。

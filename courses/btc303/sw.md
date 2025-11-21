@@ -332,7 +332,7 @@ Kiini cha mazungumzo hayo ni kwamba huwezi kujenga mifumo ya Trustless juu ya mf
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Msingi wa Trustless Layer unaruhusu exchange mbalimbali katika viwango vya juu
@@ -595,7 +595,7 @@ Pia alitaja mfano huu, miongoni mwa mengine, kwenye [Ukurasa wa Faragha](https:/
 Kumbuka jinsi ufaragha bora unavyoweza kupatikana kwa kujenga mifumo juu ya Bitcoin, kama ilivyo kwa Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Tabaka zilizo juu ya Bitcoin zinaweza kuongeza faragha
@@ -694,7 +694,7 @@ Ni nini hufanyika wakati ruzuku ya block inakaribia sifuri? Ili kuweka mambo rah
 Leo, ni wamiliki ambao hulipa usalama (kupitia mfumuko wa bei wa fedha). Kesho itakuwa zamu ya watumiaji kubeba mzigo huu kwa namna fulani, kama inavyoonyeshwa hapa chini.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Kadiri muda unavyosonga, gharama za usalama zitabadilika kutoka kwa wamiliki hadi watumiaji

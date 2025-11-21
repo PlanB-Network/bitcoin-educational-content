@@ -372,7 +372,7 @@ Selle jutu sisuks on see, et Trustless süsteemi ei saa ehitada usaldusväärse 
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless baas Layer võimaldab erinevaid kompromisse kõrgematel tasanditel
@@ -632,7 +632,7 @@ Ta mainis seda näidet teiste hulgas ka Bitcoin wiki [Privacy page](https://en.B
 Pange tähele, kuidas paremat privaatsust on võimalik saavutada, kui ehitada süsteemid Bitcoin peale, nagu see on Lightning Network puhul:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin peal olevad kihid võivad lisada privaatsust
@@ -731,7 +731,7 @@ Mis juhtub, kui blokeeritud toetus läheneb nullile? Et asi oleks lihtne, oletam
 Täna on omanikud need, kes maksavad turvalisuse eest (raha inflatsiooni kaudu). Homme on kulutajate kord seda koormat kuidagi kanda, nagu allpool näidatud.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Aja möödudes nihkub julgestuskulude kandmine valdajatelt kulutajatele

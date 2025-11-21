@@ -372,7 +372,7 @@ L'essenza del discorso è che non si possono costruire sistemi Trustless sopra u
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Una base Trustless Layer consente vari compromessi su livelli più alti
@@ -632,7 +632,7 @@ Ha anche menzionato questo esempio, tra gli altri, nella [pagina sulla privacy](
 Si noti come sia possibile ottenere una migliore privacy costruendo sistemi in cima a Bitcoin, come nel caso di Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Gli strati sopra il Bitcoin possono aumentare la privacy
@@ -731,7 +731,7 @@ Cosa succede quando il sussidio di blocco si avvicina a zero? Per semplificare l
 Oggi sono i detentori a pagare per la sicurezza (tramite l'inflazione monetaria). Domani toccherà agli spendaccioni assumersi in qualche modo questo onere, come illustrato di seguito.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Con il passare del tempo, l'onere dei costi della sicurezza si sposterà dai detentori agli spenditori

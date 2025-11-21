@@ -372,7 +372,7 @@ Trustless 是什么意思？Pieter Wuille 在 [Stack Exchange](https://Bitcoin.s
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless 基础 Layer 允许在更高水平上进行各种权衡
@@ -632,7 +632,7 @@ Bitcoin 的隐私保护功能并不完美。私下交易需要大量的工作。
 请注意，与 Lightning Network 一样，在 Bitcoin 的基础上构建系统可以实现更好的隐私保护：
 
 
-![image](assets/privacy.webp)
+
 
 
 在 Bitcoin 上加层可增加私密性
@@ -731,7 +731,7 @@ Block reward 由区块补贴和交易费组成。Block reward 需要支付 Bitco
 今天，是持有者为安全买单（通过货币通胀）。明天，就轮到花钱者以某种方式承担这一负担了，如下图所示。
 
 
-![image](assets/finitesupply.webp)
+
 
 
 随着时间的推移，安全成本的承担者将从持有者转为支出者

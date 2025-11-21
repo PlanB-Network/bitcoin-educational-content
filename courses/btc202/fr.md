@@ -189,9 +189,9 @@ Parmi ces implémentations, une domine très largement : **Bitcoin Core**.
 
 ### Une implémentation historique devenue référence
 
-Bitcoin Core est le logiciel de référence du protocole Bitcoin. Il est issu du code original écrit par Satoshi Nakamoto en 2008-2009, et en constitue la continuité directe. Initialement connu sous le nom de "*Bitcoin*", puis "*Bitcoin QT*" (en raison de l’ajout d’une interface graphique via la bibliothèque Qt), il a été rebaptisé "*Bitcoin Core*" en 2014 pour bien différencier le logiciel du réseau. Depuis la version 0.5, il est distribué avec deux composants : `bitcoin-qt` (l’interface graphique) et `bitcoind` (l'interface en ligne de commande).
+Bitcoin Core est le logiciel de référence du protocole Bitcoin. Il est issu du code original écrit par Satoshi Nakamoto en 2008-2009 dont il constitue la continuité directe. Initialement connu sous le nom de "*Bitcoin*", puis "*Bitcoin QT*" (en raison de l’ajout d’une interface graphique via la bibliothèque Qt), il a été rebaptisé "*Bitcoin Core*" en 2014 pour bien différencier le logiciel du réseau. Depuis la version 0.5, il est distribué avec deux composants : `bitcoin-qt` (l’interface graphique) et `bitcoind` (l'interface en ligne de commande).
 
-Bitcoin Core ne représente théoriquement pas le protocole Bitcoin, mais seulement une implémentation parmi d’autres. Il se distingue toutefois par son adoption massive, son ancienneté, la robustesse de son code, et la rigueur de son processus de développement. En conséquence, dans la pratique, les règles appliquées par Bitcoin Core sont de facto celles du protocole Bitcoin : les utilisateurs, développeurs, mineurs et services de l’écosystème s’y réfèrent presque exclusivement.
+Bitcoin Core ne représente théoriquement pas le protocole Bitcoin, mais seulement une implémentation parmi d’autres. Il se distingue toutefois par son adoption massive, son ancienneté, la robustesse de son code et la rigueur de son processus de développement. En conséquence, dans la pratique, les règles appliquées par Bitcoin Core sont de facto celles du protocole Bitcoin : les utilisateurs, développeurs, mineurs et services de l’écosystème s’y réfèrent presque exclusivement.
 
 ### Répartition actuelle des implémentations
 
@@ -208,14 +208,14 @@ Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le res
 
 ### Fonctionnement interne de Bitcoin Core
 
-Bitcoin Core est un logiciel écrit en C++. C'est également un projet open source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
+Bitcoin Core est un logiciel écrit en C++. C'est également un projet open source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin) et le développement suit un modèle rigoureux :
 - Les **contributeurs** soumettent des propositions sous forme de _pull requests_ (PR). En principe, n'importe qui peut proposer une modification, mais celle-ci doit être testée, documentée et passer par un processus de relecture par les pairs ;
 - Les **mainteneurs** ont le droit d’approuver et de fusionner les PR. Ce sont eux qui garantissent la cohérence et la stabilité du projet. En juillet 2025, ils sont cinq : Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao et Ryan Ofsky ;
 - Il n’existe plus de **mainteneur principal** depuis février 2023. Ce rôle avait été tenu naturellement par Satoshi Nakamoto au lancement de Bitcoin, puis par Gavin Andresen suite au départ de Nakamoto début 2011, et enfin par Wladimir J. Van Der Laan de 2014 à 2023.
 
 ![Image](assets/fr/057.webp)
 
-Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique, et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
+Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
 
 ### Les autres implémentations de Bitcoin
 

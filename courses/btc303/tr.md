@@ -278,7 +278,6 @@ Doğal ya da yapay pek çok sistemin liderler olmadan da çalışabildiğine ve 
 
 ![](assets/en/002.webp)
 
-*Balık sürülerinin liderleri yoktur*
 
 
 Bitcoin hakkında ne düşünürseniz düşünün, merkezi olmayan yapısı kontrol edilmesini zorlaştırıyor. Bitcoin var ve bu konuda yapabileceğiniz hiçbir şey yok. Bu üzerinde çalışılması gereken bir şey, tartışılması değil.
@@ -372,7 +371,7 @@ Bu konuşmanın özü, güvenilir bir sistemin üzerine Trustless sistemleri kur
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Bir Trustless tabanı Layer, daha yüksek seviyelerde çeşitli ödünleşimlere izin verir
@@ -536,7 +535,6 @@ Bu makale, Blockchain gizliliğinin ana sorunlarını, yani Address yeniden kull
 ![](assets/en/005.webp)
 
 
-Blockchain'daki tipik gizlilik sızıntıları
 
 
 Chris Belcher, Bitcoin Blockchain'de meydana gelebilecek farklı gizlilik sızıntıları hakkında [çok ayrıntılı olarak yazdı] (https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy). En azından "Blockchain gizlilik saldırıları" başlığı altındaki ilk birkaç alt bölümü okumanızı tavsiye ederiz
@@ -632,7 +630,7 @@ Bu örnekten, diğerlerinin yanı sıra, Bitcoin vikisindeki [Gizlilik sayfasın
 Lightning Network'te olduğu gibi Bitcoin'in üzerine sistemler inşa ederek daha iyi gizlilik elde edilebileceğine dikkat edin:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin'nın üstündeki katmanlar gizlilik sağlayabilir
@@ -731,7 +729,7 @@ Blok sübvansiyon sıfıra yaklaştığında ne olur? İşleri basit tutmak içi
 Bugün güvenliğin bedelini (parasal enflasyon yoluyla) elinde tutanlar ödemektedir. Yarın ise aşağıda gösterildiği gibi bu yükü bir şekilde omuzlama sırası harcama yapanlara gelecektir.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Zaman geçtikçe, güvenlik maliyetlerinin yükü ellerinde tutanlardan harcayanlara geçecektir
@@ -1102,7 +1100,6 @@ Yukarıdakiler, ilgilenilmesi gereken gerçek tehditlere örnektir.
 ![](assets/en/009.webp)
 
 
-Basit Sabotaj Saha El Kitabından Alıntı
 
 
 Düşmanın zihnini daha iyi anlamak için, nasıl çalıştıklarına dair bir fikir edinmek faydalı olabilir. İkinci Dünya Savaşı sırasında faaliyet gösteren ve amaçları arasında casusluk yapmak, sabotaj gerçekleştirmek ve propaganda yaymak olan Office of Strategic Services adlı bir ABD hükümet kuruluşu, personeline düşmana nasıl sabotaj yapılacağı konusunda bir [el kitabı] (https://www.gutenberg.org/ebooks/26184) hazırladı. Başlığı "Basit Sabotaj Saha El Kitabı" idi ve düşmanın içine sızarak hayatlarını Hard yapmak için somut ipuçları içeriyordu. İpuçları depoları yakmaktan, düşmanın gücünü azaltmak için tatbikatlarda yıpranmaya neden olmaya kadar uzanıyordu
@@ -1662,7 +1659,6 @@ Katmanlı bir protokol, aşağıdaki şekilde gösterildiği gibi, iki veya daha
 
 ![](assets/en/017.webp)
 
-Bitcoin, Layer 1'in üzerinde tipik bir Layer 2 protokolü.
 
 
 Bu başlangıç işleminin nasıl oluşturulduğu protokoller arasında farklılık gösterir, ancak ortak bir tema, katılımcıların imzasız bir başlangıç işlemi ve başlangıç işleminin çıktısını çeşitli şekillerde harcayan önceden imzalanmış bir dizi ceza işlemi oluşturmasıdır. Daha sonra, başlangıç işlemi tamamen imzalanır ve Blockchain'te yayınlanır ve ceza işlemleri tamamen imzalanabilir ve yanlış davranan bir tarafı cezalandırmak için yayınlanabilir. Bu, katılımcıları sözlerini tutmaya teşvik eder, böylece protokol bir Trustless şekilde çalışabilir.

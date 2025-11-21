@@ -191,7 +191,6 @@ The way Bitcoin works through decentralization resembles the extraordinary colle
 She points out that many systems, either natural or artificial, can and do work without leaders, and they are powerful and resilient. Each individual only interacts with their immediate surroundings, but together they form something tremendous.
 
 ![](assets/en/002.webp)
-*Fish schools have no leaders*
 
 No matter what you think about Bitcoin, its decentralized nature makes it difficult to control. Bitcoin exists, and there's nothing you can do about it. It's something to be studied, not debated.
 
@@ -257,7 +256,7 @@ Bitcoin's trustlessness is absolutely imperative from a system perspective. In 2
 The essence of that talk is that you can't build trustless systems on top of a trusted system, but you can build trusted systems - for example, a custodial wallet - on top of a trustless system.
 
 
-![width=50%](assets/trust.webp)
+
 
 A trustless base layer allows for various trade-offs on higher levels
 
@@ -373,8 +372,6 @@ The paper summarizes the main problems of blockchain privacy, namely address reu
 
 ![](assets/en/005.webp)
 
-Typical privacy leaks on the blockchain
-
 Chris Belcher [wrote in great detail](https://en.bitcoin.it/Privacy#Blockchain_attacks_on_privacy) about the different kinds of privacy leaks that can happen on the Bitcoin blockchain. We recommend you read at least the first few subsections under "Blockchain attacks on privacy."
 
 The takeaway is that privacy in Bitcoin isn't perfect. It requires a significant amount of work to transact privately. Most people aren't prepared to go that far for privacy. There seems to be a clear trade-off between privacy and usability.
@@ -439,7 +436,7 @@ He also mentioned this example, among others, on the [Privacy page](https://en.b
 
 Note how better privacy can be achieved by building systems on top of Bitcoin, as is the case with Lightning Network:
 
-![image](assets/privacy.webp)
+
 
 Layers on top of Bitcoin can add privacy
 
@@ -510,7 +507,7 @@ What happens when the block subsidy approaches zero? To keep things simple, let'
 
 Today, it is holders who pay for security (via monetary inflation). Tomorrow it will be the spenders' turn to somehow shoulder this burden, as illustrated below.
 
-![image](assets/finitesupply.webp)
+
 
 As time goes by, the bearing of security costs will shift from holders to spenders
 
@@ -772,8 +769,6 @@ The above are examples of real threats that need to be taken care of.
 ### Simple Sabotage Field
 
 ![](assets/en/009.webp)
-
-Excerpt from the Simple Sabotage Field Manual
 
 To better understand the adversary's mind, it might be helpful to get a glimpse into how they operate. A US government body named Office of Strategic Services, which operated during World War II and had among its purposes to conduct espionage, perform sabotage and spread propaganda, produced a [manual](https://www.gutenberg.org/ebooks/26184) for their personnel on how to properly sabotage the enemy. Its title was "Simple Sabotage Field Manual" and contained concrete tips on infiltrating the enemy to make their lives hard. The tips range from burning down warehouses to causing wear to drills in order to decrease the enemy's
 efficiency.
@@ -1114,7 +1109,7 @@ The improvements that have been achieved through inward scaling are impressive, 
 
 ![](assets/en/012.webp)
 
-Initial block download performance of various versions of Bitcoin Core. On the Y-axis is the block height synced and on the X-axis is the time it took to sync to that height
+In the graph above, you can see the initial block download performance of various versions of Bitcoin Core. On the Y-axis is the block height synced and on the X-axis is the time it took to sync to that height
 
 The different lines represent different versions of Bitcoin Core. The leftmost line is the latest, i.e. version 0.22, which was released in September 2021 and took 396 minutes to fully sync. The rightmost one is version 0.8 from November 2013, which took 3452 minutes. All of this - roughly 10x - improvement is due to inward scaling.
 
@@ -1124,7 +1119,7 @@ A good example of computational improvement can be found in the [libsecp256k1](h
 
 ![](assets/en/013.webp)
 
-Performance of signature verification over time, with significant pull requests marked on the timeline
+In the graph above, you can see the performance of signature verification over time, with significant pull requests marked on the timeline.
 
 The graph shows the trend for two different 64-bit CPU types, namely ARM and x86. The difference in performance is due to the more specialized instructions available on x86 compared to the ARM architecture, which has fewer and more generic instructions. However, the general trend is the same for both architectures. Note that the Y-axis is logarithmic, which makes the improvements look less impressive than they actually are.
 
@@ -1132,8 +1127,6 @@ There are also several good examples of space-saving improvements that contribut
 [Medium blog post](https://murchandamus.medium.com/2-of-3-multisig-inputs-using-pay-to-taproot-d5faf2312ba3) about Taproot's contribution to saving space, user Murch compares how much block space a 2-of-3 threshold signature would require, using Taproot in various ways as well as not using it at all. 
 
 ![](assets/en/014.webp)
-
-Space savings for different spending types, Taproot and legacy versions.
 
 A 2-of-3 multisig using native Segwit would require a total of 104.5+43 vB = 147.5 vB, whereas the most space-conservative use of Taproot would require only 57.5+43 vB = 100.5 vB in the standard use case. At worst and in rare cases, like when a standard signer is not available for some reason, Taproot would use 107.5+43 vB = 150.5 vB. You don't have to understand all the details, but this should give you an idea of how developers think about saving space - every little byte counts.
 
@@ -1163,7 +1156,6 @@ The most impactful approach to scaling is probably layering. The general idea be
 A layered protocol begins with two or more people agreeing on a start transaction that's put on the blockchain, as illustrated in the below figure.
 
 ![](assets/en/017.webp)
-A typical layer 2 protocol on top of Bitcoin, layer 1.
 
 How this start transaction is created varies between protocols, but a common theme is that the participants create an unsigned start transaction and a number of pre-signed punishment transactions, that spend the output of the start transaction in various ways. Subsequently, the start transaction is fully signed and published to the blockchain, and the punishment transactions can be fully signed and published to punish a misbehaving party. This incentivizes the participants to keep their promises so that the protocol can work in a trustless way.
 
@@ -1454,7 +1446,7 @@ The email further lays out the details about how the issue got discovered and mo
 
 ![](assets/en/019.webp)
 
-Timeline of events surrounding BIP66. Items in black have been explained above.
+Here above, you can check the timeline of the events surrounding BIP66. Items in black have been explained above.
 
 ##### Before discovery
 

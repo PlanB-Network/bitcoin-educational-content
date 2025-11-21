@@ -278,7 +278,6 @@ Hon påpekar att många system, både naturliga och artificiella, kan fungera ut
 
 ![](assets/en/002.webp)
 
-*Fiskstim har inga ledare*
 
 
 Oavsett vad du tycker om Bitcoin gör dess decentraliserade natur det svårt att kontrollera. Bitcoin existerar, och det finns inget du kan göra åt det. Det är något som ska studeras, inte debatteras.
@@ -372,7 +371,7 @@ Kärnan i det samtalet är att man inte kan bygga Trustless-system ovanpå ett b
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 En Trustless-bas Layer möjliggör olika avvägningar på högre nivåer
@@ -536,7 +535,6 @@ I rapporten sammanfattas de huvudsakliga problemen med Blockchain-sekretess, nä
 ![](assets/en/005.webp)
 
 
-Typiska sekretessläckor på Blockchain
 
 
 Chris Belcher [skrev mycket detaljerat](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) om de olika typerna av integritetsläckor som kan hända på Bitcoin Blockchain. Vi rekommenderar att du läser åtminstone de första underavsnitten under "Blockchain attacker på integritet."
@@ -632,7 +630,7 @@ Han nämnde också detta exempel, bland andra, på [Privacy page](https://en.Bit
 Observera hur bättre integritet kan uppnås genom att bygga system ovanpå Bitcoin, vilket är fallet med Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Skikt ovanpå Bitcoin kan öka integriteten
@@ -731,7 +729,7 @@ Vad händer när blockbidraget närmar sig noll? För enkelhetens skull antar vi
 Idag är det innehavarna som betalar för säkerheten (via den monetära inflationen). I morgon är det spenderarnas tur att på något sätt axla denna börda, vilket illustreras nedan.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Med tiden kommer bärandet av säkerhetskostnaderna att flyttas från innehavarna till utgivarna
@@ -1102,7 +1100,6 @@ Ovanstående är exempel på verkliga hot som måste tas om hand.
 ![](assets/en/009.webp)
 
 
-Utdrag ur fältmanualen för enkelt sabotage
 
 
 För att bättre förstå hur motståndaren tänker kan det vara bra att få en inblick i hur de arbetar. Ett amerikanskt statligt organ vid namn Office of Strategic Services, som verkade under andra världskriget och bland annat hade till uppgift att bedriva spionage, utföra sabotage och sprida propaganda, tog fram en [manual](https://www.gutenberg.org/ebooks/26184) för sin personal om hur man på rätt sätt saboterar fienden. Titeln var "Simple Sabotage Field Manual" och innehöll konkreta tips om hur man infiltrerar fienden för att göra deras liv Hard. Tipsen sträcker sig från att bränna ner lager till att orsaka slitage på övningar för att minska fiendens
@@ -1662,7 +1659,6 @@ Ett skiktat protokoll börjar med att två eller flera personer kommer överens 
 
 ![](assets/en/017.webp)
 
-Ett typiskt Layer 2-protokoll ovanpå Bitcoin, Layer 1.
 
 
 Hur denna starttransaktion skapas varierar mellan olika protokoll, men ett vanligt tema är att deltagarna skapar en osignerad starttransaktion och ett antal för-signerade bestraffningstransaktioner, som på olika sätt använder starttransaktionens output. Därefter signeras starttransaktionen fullständigt och publiceras till Blockchain, och bestraffningstransaktionerna kan signeras fullständigt och publiceras för att bestraffa en part som missköter sig. Detta ger deltagarna incitament att hålla sina löften så att protokollet kan fungera på ett Trustless sätt.

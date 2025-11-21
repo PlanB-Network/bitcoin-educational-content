@@ -1,6 +1,5 @@
 ---
 name: JoinMarket
-
 description: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitcoin tramite linea di comando
 ---
 
@@ -8,22 +7,22 @@ description: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitc
 
 ---
 
-Se avete trovato questa pagina cercando online “JoinTmarket” avete tutta la mia sincera stima. Siete capitati, però, in una guida che tratta un argomento completamente differente, ma estremamente interessante! 🚬🍁
+Se hai trovato questa pagina cercando online “JoinTmarket”, hai tutta la mia sincera stima. Questa, però, è una guida che tratta un argomento completamente differente, ma estremamente interessante! 🚬🍁
 
 L’obiettivo di questo tutorial é quello di illustrare il funzionamento teorico e pratico di JoinMarket, attraverso la linea di comando. 🐢 💚
 
-## Definizione Teorica JoinMarket
+## Definizione Teorica di JoinMarket
 
 Possiamo definire JoinMarket come uno strumento, oppure un wallet, che permette di effettuare CoinJoin con altri utenti in maniera totalmente trustless e senza alcun coordinatore centrale.
 
-Essendo tutta la parte teorica di questo tool estremamente ampia, ho deciso di affrontarla in una puntata specifica del mio podcast. Per coloro che possono comprendere l'italiano, consiglio vivamente di proseguire nella lettura dopo aver ascoltato l’episodio, così da assimilare al meglio i concetti di base per utilizzare in maniera corretta questo programma.
+Essendo tutta la parte teorica di questo tool estremamente ampia, ho deciso di affrontarla in una puntata specifica del mio podcast. Per chi parla l'italiano, consiglio vivamente di proseguire nella lettura dopo aver ascoltato l’episodio, così da assimilare al meglio i concetti di base per utilizzare in maniera corretta questo programma.
 
-Potete recuperare la puntata a questi link diretti:
+Puoi recuperare la puntata a questi link:
 - [Spotify](https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
-- [Anchor](https://anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (qua potrete ascoltarla direttamente da browser).
-- [Antenna pod](https://antennapod.org/) é un podcast manager gratuito e opensource che non richiede registrazione. Per trovare la puntata scaricate l’app, aggiungete manualmente il mio podcast incollando [questo link](https://anchor.fm/s/bd5d5b20/podcast/rss) nella sezione _feed rss_, cercate poi la puntata dedicata a JoinMarket.
+- [Anchor](https://anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (qua puoi ascoltarla direttamente da browser).
+- [Antenna pod](https://antennapod.org/) é un podcast manager gratuito e opensource che non richiede la creazione di un account. Per trovare la puntata scaricate l’app, aggiungi manualmente il mio podcast incollando [questo link](https://anchor.fm/s/bd5d5b20/podcast/rss) nella sezione _feed rss_, e cerca poi la puntata dedicata a JoinMarket.
 
 ## Installazione
 
@@ -45,7 +44,8 @@ Prima di tutto spostiamoci nella cartella `joinmarket/scripts` e lanciamo il com
 ```bash
 python wallet-tool.py generate
 ```
-A questo punto dovremmo ottenere un errore, ma così facendo il software ci genererà un file di settings pre-impostato. Potremo andare a modificare il file di configurazione da terminale con:
+
+A questo punto il terminale mostrerà un scritta di errore, ma, così facendo, il software creerà un file di settings pre-impostato. Potremo andare a modificare il file di configurazione da terminale con:
 
 ```bash
 nano joinmarket.cfg
@@ -57,10 +57,10 @@ oppure:
 vim joinmarket.cfg
 ```
 
-una volta aperto noteremo numerose righe con varie impostazioni e relativa spiegazione in inglese. Nello specifico analizzeremo qua sotto le variabili piú interessanti:
+Una volta aperto, potremo notare numerose righe con varie impostazioni e relativa spiegazione in inglese. Nello specifico, analizzeremo qua sotto le variabili piú interessanti:
 
-- `merge_algorithm` in caso facessimo da maker, questo campo regola con quanta aggressivitá il software consoliderá gli output non spesi. Nel caso in cui avessimo molti UTXO da consolidare, potrebbe aver senso passare da _gradual_ a _greedy_
-- `tx_fees` regola le commissioni che un taker deve pagare per le transazioni. È molto utile modificare questa impostazione se si utilizza frequentemente il tumbler (di cui parleremo più avanti). Se desideriamo impostare un limite massimo di satoshi da pagare, è fondamentale configurare correttamente questo campo. In caso contrario, potremmo ritrovarci a spendere più del necessario per i coinjoin. Settando valori in migliaia (come per esempio 2000) questo equivarrá a 2 sats/vByte, 3500 a 3.5 sats/vByte e cosi via. Mi sento di consigliare un numero che va da 1500 a 6000 in base alle necessitá.
+- `merge_algorithm` in caso facessimo da maker (fornitore di liquidità), questo campo regola con quanta aggressivitá il software consoliderá gli output non spesi. Nel caso in cui avessimo molti UTXO da consolidare, potrebbe aver senso passare da _gradual_ a _greedy_
+- `tx_fees` regola le commissioni che un taker (chi usa la liquidità) deve pagare per le transazioni. È molto utile modificare questa impostazione se si utilizza frequentemente il tumbler (di cui parleremo più avanti). Se desideriamo impostare un limite massimo di satoshi da pagare, è fondamentale configurare correttamente questo campo. In caso contrario, potremmo ritrovarci a spendere più del necessario per i coinjoin. Settando valori in migliaia (come per esempio 2000), questo valore equivarrá a 2 sats/vByte, 3500 equivarrà a 3.5 sats/vByte, e cosi via. Mi sento di consigliare un numero che va da 1500 a 6000 in base alle necessitá.
 - `max_cj_fee_abs`  consente di specificare l'importo massimo che siamo disposti a pagare in modo assoluto ai maker scelti durante il coinjoin.  Di default questo campo per i maker é 200 sats, una buona opzione potrebbe essere un numero variabile da 200 a 1000 sats per ogni controparte, a seconda di quanto desiderate spendere e del livello di anonimato che cercate per i vostri coinjoin.
 - `max_cj_fee_rel` ha la stessa funzione di 'max_cj_fee_abs', ma specifica le commissioni relative che siamo disposti a pagare ad ogni controparte. Essendo un valore percentuale, è importante non impostare valori alti per evitare costi elevati nei coinjoin con grossi importi. Il valore di default per i maker é _0.00002_, consiglio un valore simile o leggermente superiore.
 - `minimum_makers` é il campo che specifica con quante altre controparti facciamo coinjoin, di default joinMarket sceglie sempre da 4 a 9 controparti, volendo, per una maggiore privacy, possiamo alzare questo valore a 5 o 6 (renderá però le transazioni piú costose).

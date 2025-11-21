@@ -278,7 +278,6 @@ Bitcoin通过去中心化发挥作用的方式类似于自然界中许多物种�
 
 ![](assets/en/002.webp)
 
-*鱼群没有首领*
 
 
 无论你对 Bitcoin 有什么看法，它的分散性都使其难以控制。Bitcoin 已经存在，你对此无能为力。我们应该研究它，而不是争论它。
@@ -536,7 +535,6 @@ Satoshi 中本聪在其[Bitcoin 白皮书](https://Bitcoin.org/Bitcoin.pdf) 第 
 ![](assets/en/005.webp)
 
 
-Blockchain 上典型的隐私泄露现象
 
 
 克里斯-贝尔彻[写得非常详细](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy)，介绍了在 Bitcoin Blockchain 上可能发生的各种隐私泄露。我们建议您至少阅读 "Blockchain 对隐私的攻击 "下的前几个小节。
@@ -1102,7 +1100,6 @@ Wallet 窃取和拒绝服务攻击：
 ![](assets/en/009.webp)
 
 
-摘自《简单破坏战地手册
 
 
 为了更好地了解对手的想法，了解一下他们的运作方式可能会有所帮助。二战期间，一个名为 "战略服务办公室"（Office of Strategic Services）的美国政府机构以开展间谍活动、破坏活动和宣传活动为宗旨，为其工作人员编写了一本[手册](https://www.gutenberg.org/ebooks/26184)，教他们如何正确地破坏敌人。手册的标题是 "简单破坏战地手册"，其中包含了潜入敌人内部使其陷入困境的具体诀窍。这些诀窍包括烧毁仓库、造成演习磨损以减少敌人的
@@ -1662,7 +1659,6 @@ libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 库就是一个很好�
 
 ![](assets/en/017.webp)
 
-在 Bitcoin 和 Layer 1 基础上的典型 Layer 2 协议。
 
 
 不同协议创建启动事务的方式各不相同，但一个共同的主题是，参与者创建一个未签名的启动事务和若干个预先签名的惩罚事务，以各种方式使用启动事务的输出。随后，启动交易被完全签署并发布到 Blockchain，惩罚交易也可以被完全签署并发布，以惩罚行为不端的一方。这样可以激励参与者信守承诺，使协议以 Trustless 的方式运行。

@@ -270,7 +270,6 @@ Elle souligne que de nombreux systèmes, qu'ils soient naturels ou artificiels, 
 
 ![](assets/en/002.webp)
 
-*Les bancs de poissons n'ont pas de leader*
 
 
 Quelle que soit votre opinion sur le Bitcoin, sa nature décentralisée le rend difficile à contrôler. Le Bitcoin existe, et vous ne pouvez rien y faire. C'est un sujet à étudier, pas à débattre.
@@ -527,7 +526,6 @@ Le document résume les principaux problèmes de confidentialité sur la Blockch
 ![](assets/en/005.webp)
 
 
-Fuites de données typiques sur la Blockchain
 
 
 Chris Belcher [a écrit en détail](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) sur les différents types de fuites de la vie privée qui peuvent se produire sur la Blockchain. Nous vous recommandons de lire au moins les premiers paragraphes de la rubrique "Blockchain attacks on privacy"
@@ -1075,7 +1073,6 @@ Les exemples ci-dessus sont des menaces réelles auxquelles il faut faire face.
 ![](assets/en/009.webp)
 
 
-Extrait du Simple Sabotage Field Manual (Manuel de terrain du sabotage simple)
 
 
 Pour mieux comprendre l'esprit de l'adversaire, il peut être utile d'avoir un aperçu de son mode de fonctionnement. Un organisme gouvernemental américain appelé Office of Strategic Services, qui opérait pendant la Seconde Guerre mondiale et dont l'un des objectifs était de mener des activités d'espionnage, de sabotage et de propagande, a publié un [manuel](https://www.gutenberg.org/ebooks/26184) à l'intention de son personnel sur la manière de saboter correctement l'ennemi. Intitulé "Simple Sabotage Field Manual", il contient des conseils concrets pour infiltrer l'ennemi et lui rendre la vie impossible. Les astuces vont de l'incendie d'entrepôts à l'usure des forets, dans le but de réduire l'efficacité de l'ennemi.
@@ -1616,7 +1613,6 @@ Un protocole à plusieurs niveaux commence par l'accord de deux personnes ou plu
 
 ![](assets/en/017.webp)
 
-Un protocole de couche 2 typique au-dessus de Bitcoin, couche 1.
 
 
 La manière dont cette transaction de démarrage est créée varie d'un protocole à l'autre, mais un thème commun est que les participants créent une transaction de démarrage non signée et un certain nombre de transactions de punition pré-signées, qui dépensent la sortie de la transaction de démarrage de diverses manières. Par la suite, la transaction de départ est entièrement signée et publiée sur la Blockchain, et les transactions de punition peuvent être entièrement signées et publiées pour punir une partie qui s'est mal comportée. Cela incite les participants à tenir leurs promesses afin que le protocole puisse fonctionner de manière Trustless.

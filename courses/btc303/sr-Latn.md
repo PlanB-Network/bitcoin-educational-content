@@ -238,7 +238,6 @@ Ona ističe da mnogi sistemi, bilo prirodni ili veštački, mogu i funkcionišu 
 
 ![](assets/en/002.webp)
 
-*Riblje škole nemaju vođe*
 
 
 Bez obzira šta mislite o Bitcoin, njegova decentralizovana priroda otežava kontrolu. Bitcoin postoji, i ništa ne možete učiniti povodom toga. To je nešto što treba proučavati, a ne raspravljati.
@@ -496,7 +495,6 @@ Rad opisuje glavne probleme privatnosti Blockchain, naime ponovnu upotrebu Addre
 ![](assets/en/005.webp)
 
 
-Tipična curenja privatnosti na Blockchain
 
 
 Chris Belcher [pisao je u velikim detaljima](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o različitim vrstama curenja privatnosti koja se mogu dogoditi na Bitcoin Blockchain. Preporučujemo da pročitate barem prvih nekoliko pododeljaka pod "Napadi Blockchain na privatnost."
@@ -1062,7 +1060,6 @@ Gore navedeni su primeri stvarnih pretnji koje treba rešiti.
 ![](assets/en/009.webp)
 
 
-Izvod iz Priručnika za Jednostavnu Sabotažu
 
 
 Da biste bolje razumeli um protivnika, moglo bi biti korisno da zavirite u način na koji oni deluju. Američka vladina organizacija pod nazivom Office of Strategic Services, koja je delovala tokom Drugog svetskog rata i imala među svojim ciljevima sprovođenje špijunaže, izvođenje sabotaža i širenje propagande, proizvela je [priručnik](https://www.gutenberg.org/ebooks/26184) za svoje osoblje o tome kako pravilno sabotirati neprijatelja. Njegov naslov je bio "Simple Sabotage Field Manual" i sadržao je konkretne savete o infiltriranju neprijatelja kako bi im se život učinio Hard. Saveti se kreću od spaljivanja skladišta do izazivanja habanja bušilica kako bi se smanjila sposobnost neprijatelja.
@@ -1622,7 +1619,6 @@ Slojeviti protokol počinje sa dvoje ili više ljudi koji se dogovaraju o počet
 
 ![](assets/en/017.webp)
 
-Tipičan Layer 2 protokol na vrhu Bitcoin, Layer 1.
 
 
 Kako se ova početna transakcija kreira varira između protokola, ali zajednička tema je da učesnici kreiraju nepotpisanu početnu transakciju i broj unapred potpisanih kaznenih transakcija, koje troše izlaz početne transakcije na različite načine. Nakon toga, početna transakcija je u potpunosti potpisana i objavljena na Blockchain, a kaznene transakcije mogu biti u potpunosti potpisane i objavljene kako bi se kaznila strana koja se ne ponaša ispravno. Ovo motiviše učesnike da održe svoja obećanja kako bi protokol mogao raditi na Trustless način.

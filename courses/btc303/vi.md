@@ -238,7 +238,6 @@ Bà chỉ ra rằng nhiều hệ thống, dù là tự nhiên hay nhân tạo, c
 
 ![](assets/en/002.webp)
 
-*Đàn cá không có thủ lĩnh*
 
 
 Bất kể bạn nghĩ gì về Bitcoin, bản chất phi tập trung của nó khiến nó khó kiểm soát. Bitcoin tồn tại và bạn không thể làm gì về nó. Đó là thứ cần được nghiên cứu, không phải để tranh luận.
@@ -496,7 +495,6 @@ Bài báo tóm tắt các vấn đề chính của quyền riêng tư Blockchain
 ![](assets/en/005.webp)
 
 
-Rò rỉ quyền riêng tư điển hình trên Blockchain
 
 
 Chris Belcher [đã viết rất chi tiết](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) về các loại rò rỉ quyền riêng tư khác nhau có thể xảy ra trên Bitcoin Blockchain. Chúng tôi khuyên bạn nên đọc ít nhất một vài tiểu mục đầu tiên trong phần "Các cuộc tấn công vào quyền riêng tư của Blockchain".
@@ -1062,7 +1060,6 @@ Trên đây là những ví dụ về các mối đe dọa thực sự cần đ�
 ![](assets/en/009.webp)
 
 
-Trích đoạn từ Sổ tay thực địa phá hoại đơn giản
 
 
 Để hiểu rõ hơn về tâm trí của kẻ thù, có thể hữu ích khi xem qua cách chúng hoạt động. Một cơ quan chính phủ Hoa Kỳ có tên là Văn phòng Dịch vụ Chiến lược, hoạt động trong Thế chiến II và có một trong những mục đích là tiến hành hoạt động gián điệp, thực hiện phá hoại và phát tán tuyên truyền, đã biên soạn một [sổ tay](https://www.gutenberg.org/ebooks/26184) cho nhân viên của mình về cách phá hoại kẻ thù một cách đúng đắn. Tựa đề của nó là "Sổ tay thực địa phá hoại đơn giản" và chứa các mẹo cụ thể về cách xâm nhập vào kẻ thù để khiến mạng sống của chúng trở nên Hard. Các mẹo bao gồm từ việc đốt cháy nhà kho đến làm mòn máy khoan để giảm
@@ -1622,7 +1619,6 @@ Giao thức nhiều lớp bắt đầu bằng việc có hai hoặc nhiều ngư
 
 ![](assets/en/017.webp)
 
-Giao thức Layer 2 tiêu biểu trên Bitcoin, Layer 1.
 
 
 Cách thức tạo ra giao dịch khởi đầu này khác nhau giữa các giao thức, nhưng một chủ đề chung là những người tham gia tạo ra một giao dịch khởi đầu chưa ký và một số giao dịch trừng phạt đã ký trước, sử dụng đầu ra của giao dịch khởi đầu theo nhiều cách khác nhau. Sau đó, giao dịch khởi đầu được ký đầy đủ và công bố lên Blockchain, và các giao dịch trừng phạt có thể được ký đầy đủ và công bố để trừng phạt một bên có hành vi sai trái. Điều này khuyến khích những người tham gia giữ lời hứa của họ để giao thức có thể hoạt động theo cách của Trustless.

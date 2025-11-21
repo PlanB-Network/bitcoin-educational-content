@@ -1156,7 +1156,6 @@ The most impactful approach to scaling is probably layering. The general idea be
 A layered protocol begins with two or more people agreeing on a start transaction that's put on the blockchain, as illustrated in the below figure.
 
 ![](assets/en/017.webp)
-A typical layer 2 protocol on top of Bitcoin, layer 1.
 
 How this start transaction is created varies between protocols, but a common theme is that the participants create an unsigned start transaction and a number of pre-signed punishment transactions, that spend the output of the start transaction in various ways. Subsequently, the start transaction is fully signed and published to the blockchain, and the punishment transactions can be fully signed and published to punish a misbehaving party. This incentivizes the participants to keep their promises so that the protocol can work in a trustless way.
 

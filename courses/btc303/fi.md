@@ -278,7 +278,6 @@ Hän huomauttaa, että monet järjestelmät, niin luonnolliset kuin keinotekoise
 
 ![](assets/en/002.webp)
 
-*Kalakannoilla ei ole johtajia*
 
 
 Oli Bitcoin:stä mitä mieltä tahansa, sen hajautettu luonne vaikeuttaa sen hallintaa. Bitcoin on olemassa, eikä sille voi tehdä mitään. Sitä pitää tutkia, ei keskustella siitä.
@@ -536,7 +535,6 @@ Asiakirjassa esitetään yhteenveto Blockchain yksityisyyden suojan tärkeimmist
 ![](assets/en/005.webp)
 
 
-Tyypillisiä Blockchain:n yksityisyysvuotoja
 
 
 Chris Belcher [kirjoitti hyvin yksityiskohtaisesti](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) erilaisista yksityisyydensuojan vuodoista, joita voi tapahtua Bitcoin Blockchain:ssa. Suosittelemme, että luet ainakin ensimmäiset alaluvut kohdasta "Blockchain:n hyökkäykset yksityisyyttä vastaan"
@@ -1102,7 +1100,6 @@ Edellä mainitut ovat esimerkkejä todellisista uhkista, joista on huolehdittava
 ![](assets/en/009.webp)
 
 
-Ote Yksinkertaisen sabotaasin kenttäoppaasta
 
 
 Vastustajan mielen ymmärtämiseksi paremmin voisi olla hyödyllistä saada käsitys siitä, miten hän toimii. Toisen maailmansodan aikana toiminut Yhdysvaltain hallituksen elin nimeltä Office of Strategic Services, jonka tehtäviin kuului muun muassa vakoilu, sabotaasi ja propagandan levittäminen, laati henkilöstölleen [käsikirjan](https://www.gutenberg.org/ebooks/26184) siitä, miten vihollisen sabotointia harjoitetaan asianmukaisesti. Sen nimi oli "Simple Sabotage Field Manual" (Yksinkertainen sabotaasikäsikirja), ja se sisälsi konkreettisia vinkkejä vihollisen soluttautumiseen, jotta sen elämästä tulisi Hard. Vinkit vaihtelivat varastojen polttamisesta harjoitusten kulumisen aiheuttamiseen vihollisen vähentämiseksi
@@ -1662,7 +1659,6 @@ Kerrosprotokolla alkaa siitä, että kaksi tai useampi henkilö sopii Blockchain
 
 ![](assets/en/017.webp)
 
-Tyypillinen Layer 2 -protokolla Bitcoin:n ja Layer 1:n päälle.
 
 
 Alkutapahtuman luontitapa vaihtelee eri protokollien välillä, mutta yhteistä on, että osallistujat luovat allekirjoittamattoman alkutapahtuman ja joukon esisignoituja rangaistustapahtumia, jotka käyttävät alkutapahtuman tuotoksen eri tavoin. Tämän jälkeen aloitustapahtuma allekirjoitetaan ja julkaistaan Blockchain:lle, ja rangaistustapahtumat voidaan allekirjoittaa ja julkaista väärin käyttäytyvän osapuolen rankaisemiseksi. Tämä kannustaa osallistujia pitämään lupauksensa, jotta protokolla voi toimia Trustless tavalla.

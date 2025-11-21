@@ -278,7 +278,6 @@ Bitcoin 透過分散化的方式運作，類似於自然界中許多物種的非
 
 ![](assets/en/002.webp)
 
-*魚群沒有領袖*
 
 
 無論您對 Bitcoin 有什麼看法，它的分散性使它難以控制。Bitcoin 已經存在，你對它無能為力。這是需要研究的東西，而不是辯論。
@@ -536,7 +535,6 @@ Satoshi 中本在他的 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 第
 ![](assets/en/005.webp)
 
 
-Blockchain 上典型的隱私泄漏問題
 
 
 Chris Belcher [寫得非常詳細](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) 關於 Bitcoin Blockchain 上可能發生的各種隱私洩漏。我們建議您至少閱讀 「Blockchain 攻擊隱私」 下的前幾個小節。
@@ -1102,7 +1100,6 @@ Wallet 竊取和拒絕服務攻擊：
 ![](assets/en/009.webp)
 
 
-摘錄自《簡單破壞實戰手冊
 
 
 為了更好地瞭解對手的想法，瞭解一下他們的運作方式可能會有所幫助。在第二次世界大戰期間，一個名為戰略服務辦公室（Office of Strategic Services）的美國政府機構，以進行間諜活動、破壞行動和傳播宣傳為目標，為他們的人員製作了一本[手冊](https://www.gutenberg.org/ebooks/26184)，教導他們如何正確地破壞敵人。它的標題是 「簡易破壞現場手冊」，包含了滲透敵人使其生活在 Hard 中的具體訣竅。這些訣竅的範圍從燒毀倉庫到造成操練的磨損，以減少敵人的
@@ -1662,7 +1659,6 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 
 ![](assets/en/017.webp)
 
-典型的 Layer 2 協定在 Bitcoin、Layer 1 之上。
 
 
 啟動交易的建立方式因不同的通訊協定而異，但有一個共同的主題，就是參與者會建立一個未簽署的啟動交易和一些預先簽署的懲罰交易，這些懲罰交易會以各種方式使用啟動交易的輸出。之後，開始交易會被完全簽署並發佈到 Blockchain，而懲罰交易也可以被完全簽署並發佈以懲罰行為不當的一方。這會激勵參與者信守承諾，讓協定能以 Trustless 的方式運作。

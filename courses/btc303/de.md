@@ -278,7 +278,6 @@ Sie weist darauf hin, dass viele natürliche oder künstliche Systeme ohne Führ
 
 ![](assets/en/002.webp)
 
-*Fischschwärme haben keine Anführer*
 
 
 Was auch immer Sie über Bitcoin denken, seine dezentrale Natur macht es schwer zu kontrollieren. Bitcoin existiert, und Sie können nichts dagegen tun. Es ist etwas, das man studieren sollte, nicht debattieren.
@@ -536,7 +535,6 @@ Das Papier fasst die Hauptprobleme des Blockchain-Datenschutzes zusammen, nämli
 ![](assets/en/005.webp)
 
 
-Typische Lecks in der Privatsphäre beim Blockchain
 
 
 Chris Belcher [schrieb sehr detailliert](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) über die verschiedenen Arten von Lecks in der Privatsphäre, die auf dem Bitcoin Blockchain auftreten können. Wir empfehlen Ihnen, zumindest die ersten paar Unterabschnitte unter "Blockchain-Angriffe auf die Privatsphäre" zu lesen
@@ -1102,7 +1100,6 @@ Dies sind Beispiele für reale Bedrohungen, die es zu bekämpfen gilt.
 ![](assets/en/009.webp)
 
 
-Auszug aus dem Simple Sabotage Field Manual
 
 
 Um die Denkweise des Gegners besser zu verstehen, könnte es hilfreich sein, einen Einblick in seine Arbeitsweise zu bekommen. Eine US-Regierungsbehörde namens Office of Strategic Services, die während des Zweiten Weltkriegs tätig war und unter anderem Spionage, Sabotage und Propaganda betreiben sollte, erstellte ein [Handbuch](https://www.gutenberg.org/ebooks/26184) für ihr Personal, in dem beschrieben wurde, wie man den Feind richtig sabotiert. Es trug den Titel "Simple Sabotage Field Manual" und enthielt konkrete Tipps, wie man den Feind infiltriert, um ihm das Leben schwer zu machen (Hard). Die Tipps reichten vom Niederbrennen von Lagerhallen bis hin zur Abnutzung von Bohrern, um den Feind zu schwächen
@@ -1662,7 +1659,6 @@ Ein mehrstufiges Protokoll beginnt damit, dass sich zwei oder mehr Personen auf 
 
 ![](assets/en/017.webp)
 
-Ein typisches Layer 2-Protokoll auf der Grundlage von Bitcoin, Layer 1.
 
 
 Die Art und Weise, wie diese Starttransaktion erstellt wird, ist bei den verschiedenen Protokollen unterschiedlich, aber ein gemeinsames Thema ist, dass die Teilnehmer eine unsignierte Starttransaktion und eine Reihe von vorsignierten Bestrafungstransaktionen erstellen, die die Ausgabe der Starttransaktion auf verschiedene Weise verwenden. Anschließend wird die Starttransaktion vollständig signiert und im Blockchain veröffentlicht, und die Bestrafungstransaktionen können vollständig signiert und veröffentlicht werden, um eine sich falsch verhaltende Partei zu bestrafen. Dies schafft Anreize für die Teilnehmer, ihre Versprechen einzuhalten, so dass das Protokoll auf eine Trustless Weise funktionieren kann.

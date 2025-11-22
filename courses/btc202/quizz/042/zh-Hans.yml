@@ -1,7 +1,7 @@
 question: umbrelOS 是根据什么许可证发布的？
-answer: PolyForm 非商业版 1.0
+answer: PolyForm Noncommercial 1.0
 wrong_answers:
-  - 麻省理工学院
+  - MIT
   - GPLv3
   - Apache 2.0
 explanation: |

@@ -335,17 +335,17 @@ It is important to distinguish between a language and a writing system. Cuneifor
 During its first centuries of existence, this script remained limited, serving essentially as a mnemonic system for recording quantities, lists of agricultural goods, and equipment. Only gradually did it become capable of **phonetically rendering names** and complete sentences.
 
 
-Initially, names couldn't be expressed in cuneiform script because it primarily represented objects and elements of reality, such as an ox or wheat, depicted as small images. Over time, these images evolved into a more developed form of script, allowing for the representation of names and complex concepts.
+Initially, names could not be expressed because the script was pictographic,  representing objects like an ox or wheat. Over time, these pictograms evolved into a more developed form of script, allowing for the representation of names and complex concepts.
 
-If the person's name was Laura, for example, we could have taken a word, an acronym that sounded like "water" and a second one like "ras", and form the name Laura with it. That's how the first form of written language developed.
+This was achieved through the rebus principle: a sign for an object (e.g., a drawing of water) could be used for its phonetic value to write a word that sounded similar (e.g., a name), allowing scribes to construct words phonetically.
 
-For the record, to represent acronyms originally, if you wanted to draw the head of an ox, you could see the shape of the ox's head. Little by little, the drawings were simplified to represent nothing more than a sort of line. Scholars believe that this happened because people held the wet clay tablet in one hand, so it was easier to redraw the initials by turning them. It's also thought to be due to the way the scribes held the tablets.
+Concurrently, the pictograms themselves were stylized. The drawing an ox's head, for instance, was progressively simplified into a series of abstract wedge-shaped marks. Scholars believe that this abstraction was a practical adaptation to the medium; holding a wet clay tablet in one hand and writing with a stylus made angular, incised marks more efficient to produce than curved drawings.
 
-You can still see the connection with, say, wheat or the ox's head in cuneiform acronyms, and they're always leaning to one side.
+Even in their abstract form, the pictographic origins of many signs remain discernible, and they are characteristically inclined due to the writing technique.
 
 Throughout its three millennia of use, cuneiform writing primarily served to maintain economic and administrative records. However, the inhabitants of Mesopotamia soon developed a deep-seated desire to preserve everything that deserved to stand the test of time in a written form. Thus, stories, legends and songs, hitherto transmitted orally by itinerant musicians, were immortalized in writing, often copied by scribes in training. They copied texts that already existed, mainly legends or texts that held a certain cultural value.
 
-An important example is the **Gilgamesh Epic**, possibly a **historical king of the Sumerian city-state of Uruk** around 2900-2350 BC.
+An important example is the **Gilgamesh Epic**, which tells the story of a **historical king of the Sumerian city-state of Uruk** who likely reigned around 2900-2350 BC.
 
 This form of writing, which was both an economic management tool and a cultural vector, lasted until the 1st century AD, before disappearing for good, leaving behind a precious testimony to the civilization that saw its birth.
 

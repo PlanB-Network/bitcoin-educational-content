@@ -612,7 +612,7 @@ Por ejemplo, una transacción sin comisiones es, según las reglas de consenso, 
 
 
 
-Ejecutar tu propio nodo significa afirmar: “Valido lo que decido validar, según las reglas que yo mismo he adoptado”. Te conviertes así en un actor de la gobernanza del sistema, capaz de rechazar una evolución que te parece inaceptable o de aprobar una actualización según tus propios criterios.
+Ejecutar tu propio nodo significa afirmar: "Valido lo que decido validar, según las reglas que yo mismo he adoptado"*. Te conviertes así en un actor de la gobernanza del sistema, capaz de rechazar una evolución que te parece inaceptable o de aprobar una actualización según tus propios criterios.
 
 
 
@@ -652,7 +652,7 @@ Por tanto, añadir unos pocos nodos más sólo tendrá un impacto marginal si la
 
 
 
-#### Para las normas de consenso
+#### Para las reglas de consenso
 
 
 
@@ -1052,7 +1052,7 @@ Una vez exploradas las distintas soluciones de software, es hora de elegir la m�
 
 
 
-Ahora que ya hemos explorado todas las posibilidades del software, centrémonos en el hardware necesario para tu nodo. Te daré algunos consejos concretos para seleccionar tus componentes, junto con configuraciones adaptadas a diferentes presupuestos. Por supuesto, ésta es mi opinión personal: sin duda existen otras alternativas relevantes además de las aquí presentadas. Además, no volveré sobre las máquinas premontadas que ofrecen los proyectos de nodos en caja, que ya hemos tratado en el capítulo anterior. Aquí nos centraremos exclusivamente en las soluciones de bricolaje.
+Ahora que ya hemos explorado todas las posibilidades del software, centrémonos en el hardware necesario para tu nodo. Te daré algunos consejos concretos para seleccionar tus componentes, junto con configuraciones adaptadas a diferentes presupuestos. Por supuesto, esta es mi opinión personal y mi experiencia: sin duda existen otras alternativas relevantes además de las aquí presentadas. Además, no volveré sobre las máquinas pre-ensambladas que ofrecen los proyectos node-in-a-box, que ya hemos tratado en el capítulo anterior. Aquí nos centraremos exclusivamente en las soluciones DIY.
 
 
 
@@ -1060,7 +1060,7 @@ Ahora que ya hemos explorado todas las posibilidades del software, centrémonos 
 
 
 
-En los últimos años, los bitcoiners han sido cada vez más conscientes de un error común, sobre todo con la popularización de los node-in-a-box a principios de la década de 2020: un nodo Bitcoin debe funcionar necesariamente en una máquina dedicada exclusivamente a este fin. Pero esto no es cierto. No se necesita necesariamente un ordenador dedicado para ejecutar un nodo Bitcoin: Bitcoin core es perfectamente capaz de funcionar en su PC de todos los días. Si dispone de suficiente espacio en disco para Blockchain o activa la poda, puede validar la cadena, conectar su Wallet e incluso cerrar el programa cuando termine de utilizarlo. La ventaja de este enfoque es considerable: inversión inicial cero y complejidad mínima.
+En los últimos años, los bitcoiners han sido cada vez más conscientes de un error común, sobre todo con la popularización de los node-in-a-box a principios de la década de 2020: un nodo Bitcoin debe funcionar necesariamente en una máquina dedicada exclusivamente a este fin. Pero esto no es cierto. No se necesita necesariamente un ordenador dedicado para ejecutar un nodo Bitcoin: Bitcoin core es perfectamente capaz de funcionar en su PC de todos los días. Si dispone de suficiente espacio en disco para Blockchain o activa el pruner, puede validar la cadena, conectar su wallet e incluso cerrar el programa cuando termine de utilizarlo. La ventaja de este enfoque es considerable: inversión inicial cero y complejidad mínima.
 
 
 
@@ -1080,7 +1080,7 @@ Dicho esto, utilizar una máquina dedicada suele ser más cómodo. Puede funcion
 
 
 
-Es la solución más económica. La mayoría de nosotros tenemos un viejo PC reuniendo Dust en casa, o con amigos y familiares: ¡esta es la oportunidad perfecta para volver a ponerlo en servicio! Para adaptarlo para su uso como nodo Bitcoin, basta con añadir un SSD de 2 TB y, en función de sus necesidades, sustituir o añadir barras de RAM para aumentar la memoria RAM. Espere pagar entre 100 y 200 euros por una máquina completamente funcional.
+Es la solución más económica. La mayoría de nosotros tenemos un viejo PC reuniendo polvo en casa, o con amigos y familiares: ¡esta es la oportunidad perfecta para volver a ponerlo en servicio! Para adaptarlo para su uso como nodo Bitcoin, basta con añadir un SSD de 2 TB y, en función de sus necesidades, sustituir o añadir barras de RAM para aumentar la memoria RAM. Espere pagar entre 100 y 200 euros por una máquina completamente funcional.
 
 
 
@@ -1108,7 +1108,7 @@ También es posible encontrar PC y portátiles usados de hace unos años, con co
 
 
 
-**Nota:** las máquinas de flotas corporativas, como el *ThinkCentre Tiny*, a menudo sólo están equipadas con un puerto *DisplayPort* (DP) para la pantalla, sin salida HDMI. Así que no olvides traer un adaptador o un cable DP a HDMI si lo necesitas.
+**Nota:** las máquinas de flotas corporativas, como el *ThinkCentre Tiny*, a menudo solo están equipadas con un puerto *DisplayPort* (DP) para la pantalla, sin salida HDMI. Así que no olvides traer un adaptador o un cable DP a HDMI si lo necesitas.
 
 
 
@@ -1140,7 +1140,7 @@ Personalmente, prefiero los *Lenovo ThinkCentre Tiny*, muy extendidos en el merc
 
 
 
-**Destacables:** tamaño reducido, consumo moderado, bajo nivel de ruido, escalabilidad (según el modelo) y fiabilidad.
+**Puntos fuertes:** tamaño reducido, consumo moderado, bajo nivel de ruido, escalabilidad (según el modelo) y fiabilidad.
 
 
 
@@ -1160,7 +1160,7 @@ Es una excelente alternativa económica al mini-PC: hoy en día, se pueden encon
 
 
 
-**Destacables:** Solución todo en uno, la batería actúa como SAI (sin apagones), instalación simplificada gracias a una pantalla y un teclado integrados, una tarjeta Wi-Fi integrada y una amplia oferta de mercados de segunda mano y nuevos (lo que a menudo significa que puede negociar los precios).
+**Puntos fuertes:** Solución todo en uno, la batería actúa como SAI (sin apagones), instalación simplificada gracias a una pantalla y un teclado integrados, una tarjeta Wi-Fi integrada y una amplia oferta de mercados de segunda mano y nuevos (lo que a menudo significa que puede negociar los precios).
 
 
 
@@ -1168,7 +1168,7 @@ Es una excelente alternativa económica al mini-PC: hoy en día, se pueden encon
 
 
 
-Si optas por esta solución, te recomiendo que vigiles de cerca el estado de la batería para prevenir cualquier peligro. Esté atento a la aparición de calor excesivo, olores extraños, inestabilidad o una carcasa deformada. En caso de alarma, apague y desenchufe el ordenador inmediatamente y, a continuación, deseche la batería en un centro de reciclaje especializado.
+Si optas por esta solución, te recomiendo que vigiles de cerca el estado de la batería para prevenir cualquier peligro. Permanece atento a la aparición de calor excesivo, olores extraños, inestabilidad o una carcasa deformada. En caso de alarma, apague y desenchufe el ordenador inmediatamente y, a continuación, deseche la batería en un centro de reciclaje especializado.
 
 
 
@@ -1197,9 +1197,9 @@ La Raspberry Pi tiene una serie de desventajas:
 
 
 
-- procesadores demasiado delgados, con una arquitectura ARM que a veces es incompatible con cierto software o requiere más manipulación;
+- procesadores demasiado escasos, con una arquitectura ARM que a veces es incompatible con cierto software o requiere más esfuerzo;
 - RAM soldada, imposible de actualizar, con configuraciones limitadas (a menudo un máximo de 8 GB);
-- cajas externas para SSD conectadas por cable, fuentes frecuentes de fallos, que requieren la compra de una tarjeta específica para un SSD estable;
+- cajas externas para SSD conectadas por cable, fuentes frecuentes de errores, que requieren la compra de una tarjeta específica para un SSD estable;
 - tendencia a calentarse rápidamente y dificultad para garantizar un enfriamiento correcto;
 - necesidad de adquirir hardware adicional (carcasa, ventilador, tarjeta SSD, etc.);
 - conectividad muy limitada.
@@ -1218,11 +1218,11 @@ Históricamente, la gran ventaja de los SBC como el Raspberry Pi era su precio: 
 
 
 
-Técnicamente, es posible ejecutar un nodo Bitcoin en un HDD. El problema es que todo se ralentizará considerablemente, especialmente el IBD, que se hará extremadamente largo debido al uso intensivo que Bitcoin core hace del disco como caché (especialmente para el conjunto UTXO). Por eso desaconsejo encarecidamente el uso de un HDD: crea un verdadero cuello de botella, limita gravemente la evolución futura (por ejemplo, para un nodo Lightning), y puede incluso provocar un desajuste de sincronización con la cabeza Blockchain. Además, el estrés constante sobre el disco mecánico aumenta el riesgo de desgaste prematuro.
+Técnicamente, es posible ejecutar un nodo Bitcoin en un HDD. El problema es que todo se ralentizará considerablemente, especialmente el IBD, que se hará extremadamente largo debido al uso intensivo que Bitcoin Core hace del disco como caché (especialmente para el conjunto UTXO). Por eso desaconsejo encarecidamente el uso de un HDD: crea un verdadero cuello de botella, limita gravemente la evolución futura (por ejemplo, para un nodo Lightning), y puede incluso provocar un desajuste de sincronización con la cabeza de la Blockchain. Además, el estrés constante sobre el disco mecánico aumenta el riesgo de desgaste prematuro.
 
 
 
-Las unidades SSD cambian radicalmente su experiencia de usuario: todo se vuelve más rápido y fluido, con una fiabilidad mucho mayor. Por tanto, el uso de una unidad SSD es (casi) obligatorio para tu nodo, y no te arrepentirás, sobre todo porque los modelos de alta capacidad son ahora relativamente asequibles.
+Las unidades SSD cambian radicalmente tu experiencia de usuario: todo se vuelve más rápido y fluido, con una fiabilidad mucho mayor. Por tanto, el uso de una unidad SSD es (casi) obligatorio para tu nodo, y no te arrepentirás, sobre todo porque los modelos de gran capacidad son ahora relativamente asequibles.
 
 
 
@@ -1230,7 +1230,7 @@ Las unidades SSD cambian radicalmente su experiencia de usuario: todo se vuelve 
 
 
 
-En términos de capacidad, los 2 TB se están estableciendo gradualmente como el nuevo mínimo razonable. En el verano de 2025, Blockchain ya se acerca a los 700 GB, y si añades Umbrel, un indexador Address y unas cuantas aplicaciones, un SSD de 1 TB se saturará rápidamente. Con 2 TB, tienes un cómodo margen para los próximos años (en una estimación amplia, entre 5 y 15 años). También puedes optar por 4 TB si piensas utilizar muchas aplicaciones en Umbrel, almacenar archivos de gran tamaño en autoalojamiento o si quieres anticipar en gran medida tus necesidades de espacio en disco.
+En términos de capacidad, los 2 TB se están estableciendo gradualmente como el nuevo mínimo razonable. En el verano de 2025, la Blockchain ya se acerca a los 700 GB, y si añades Umbrel, un indexador de direcciones y unas cuantas aplicaciones, un SSD de 1 TB se saturará rápidamente. Con 2 TB, tienes un cómodo margen para los próximos años (en una estimación amplia, entre 5 y 15 años). También puedes optar por 4 TB si piensas utilizar muchas aplicaciones en Umbrel, almacenar archivos de gran tamaño en autoalojamiento o si quieres anticipar en gran medida tus necesidades de espacio en disco.
 
 
 
@@ -1246,11 +1246,11 @@ En cuanto al formato, esto dependerá de los puertos disponibles en tu máquina;
 
 
 
-Para Bitcoin core solo (sin superposición de Umbrel), las recomendaciones del desarrollador indican un mínimo de 256 MB de RAM con la configuración ajustada al mínimo, 512 MB con la configuración predeterminada y 1 GB para un uso normal.
+Para Bitcoin Core solo (sin superposición de Umbrel), las recomendaciones del desarrollador indican un mínimo de 256 MB de RAM con la configuración ajustada al mínimo, 512 MB con la configuración predeterminada y 1 GB para un uso normal.
 
 
 
-Por otro lado, si utilizas un sistema node-in-a-box como Umbrel o Start9, los requisitos de RAM son significativamente mayores. Los desarrolladores de Umbrel recomiendan un mínimo de 4 GB de RAM. Esto puede ser suficiente para ejecutar sólo Core, pero pronto estarás limitado. Por lo tanto, recomiendan 8 GB, que también considero el mínimo para una configuración básica en torno a Bitcoin (Core, LND, indexador y unas pocas aplicaciones). En mi experiencia, con Umbrel y algunos servicios adicionales, 8 GB siguen siendo un poco justos. Para estar realmente cómodo y tener algo de margen, recomendaría 16 GB de RAM.
+Por otro lado, si utilizas un sistema node-in-a-box como Umbrel o Start9, los requisitos de RAM son significativamente mayores. Los desarrolladores de Umbrel recomiendan un mínimo de 4 GB de RAM. Esto puede ser suficiente para ejecutar solo Core, pero pronto estarás limitado. Por lo tanto, recomiendan 8 GB, que también considero el mínimo para una configuración básica en torno a Bitcoin (Core, LND, indexador y unas pocas aplicaciones). En mi experiencia, con Umbrel y algunos servicios adicionales, 8 GB siguen siendo un poco justos. Para estar realmente cómodo y tener algo de margen, recomendaría 16 GB de RAM.
 
 
 
@@ -1258,7 +1258,7 @@ Por otro lado, si utilizas un sistema node-in-a-box como Umbrel o Start9, los re
 
 
 
-Para un nodo Umbrel, el requisito mínimo es un procesador dual-core de 64 bits de Intel o AMD. Si quieres utilizar algunas aplicaciones además de Bitcoin core, un procesador de cuatro núcleos (o superior) marcará una verdadera diferencia en términos de fluidez. Por ejemplo, los procesadores i5/i7 de 6ª a 10ª generación son excelentes opciones en el mercado de segunda mano.
+Para un nodo Umbrel, el requisito mínimo es un procesador de doble núcleo de 64 bits de Intel o AMD. Si quieres utilizar algunas aplicaciones además de Bitcoin Core, un procesador de cuatro núcleos (o superior) marcará una verdadera diferencia en términos de fluidez. Por ejemplo, los procesadores i5/i7 de 6ª a 10ª generación son excelentes opciones en el mercado de segunda mano.
 
 
 
@@ -1274,7 +1274,7 @@ A continuación, propongo tres configuraciones concretas, adaptadas a distintos 
 
 
 
-En primer lugar, necesita una unidad SSD lo bastante grande para alojar la Blockchain, pero que deje margen de maniobra. Las SSD tienen una vida útil limitada en cuanto a ciclos de escritura y volumen total de datos escritos. Sin embargo, un nodo Bitcoin supone una carga importante para el disco al escribir. Por eso no recomiendo los modelos básicos; en su lugar, sugiero una SSD NVMe, que ofrece un rendimiento significativamente mejor.
+En primer lugar, necesitas una unidad SSD lo bastante grande para alojar la Blockchain, pero que deje margen de maniobra. Los SSD tienen una vida útil limitada en cuanto a ciclos de escritura y volumen total de datos escritos. Sin embargo, un nodo Bitcoin supone una carga importante para el disco al escribir. Por eso no recomiendo los modelos básicos; en su lugar, sugiero un SSD NVMe, que ofrece un rendimiento significativamente mejor.
 
 
 
@@ -1290,7 +1290,7 @@ Como ejemplo, para los propósitos de este curso, he elegido el siguiente modelo
 
 
 
-Evidentemente, si tu presupuesto es muy limitado (menos de 200 euros), te aconsejo que no inviertas en una máquina dedicada, sino que instales Bitcoin core directamente en tu PC de uso cotidiano (en modo pruned si te falta espacio en disco).
+Evidentemente, si tu presupuesto es muy limitado (menos de 200 euros), te aconsejo que no inviertas en una máquina dedicada, sino que instales Bitcoin Core directamente en tu PC de uso cotidiano (en modo pruned si te falta espacio en disco).
 
 
 
@@ -1342,7 +1342,7 @@ Se trata de una configuración extremadamente cómoda, incluso excesiva si el ob
 
 
 
-Dependiendo del uso que le vaya a dar, puede optar por una unidad SSD de 2 TB, como en las otras configuraciones, o directamente por una unidad SSD de 4 TB a 260 euros si también desea almacenar archivos personales y ampliar sus usos de autoalojamiento. Con un SSD de 2 TB, el coste total de la configuración es de 660 €, mientras que con un SSD de 4 TB, alcanza los 800 €.
+Dependiendo del uso que le vayas a dar, puedes optar por una unidad SSD de 2 TB, como en las otras configuraciones, o directamente por una unidad SSD de 4 TB a 260 euros si también deseas almacenar archivos personales y ampliar tus usos de autoalojamiento. Con un SSD de 2 TB, el coste total de la configuración es de 660 €, mientras que con un SSD de 4 TB alcanza los 800 €.
 
 
 
@@ -1352,8 +1352,8 @@ Dependiendo del uso que le vaya a dar, puede optar por una unidad SSD de 2 TB, c
 
 
 
-- Si quieres comprar material de segunda mano y pagar en bitcoins, ¡acércate a un encuentro cerca de ti! Charlando con otros participantes, seguro que encuentras equipos adecuados a buen precio, al tiempo que contribuyes a mantener viva la economía circular en torno a la Bitcoin. También es una oportunidad para beneficiarse de los buenos consejos de la comunidad.
-
+- Si quieres comprar material de segunda mano y pagar en bitcoins, ¡acércate a un encuentro cerca de ti! Charlando con otros participantes, seguro que encuentras equipos adecuados a buen precio, al tiempo que contribuyes a mantener viva la economía circular en torno a Bitcoin. También es una oportunidad para beneficiarte de los buenos consejos de la comunidad.
+  
 
 
 
@@ -1364,13 +1364,13 @@ Dependiendo del uso que le vaya a dar, puede optar por una unidad SSD de 2 TB, c
 
 
 
-- Algunos entornos, como Umbrel, permiten entonces utilizar Wi-Fi, pero el rendimiento será generalmente inferior (especialmente si desea utilizar su nodo Lightning de forma remota, ya que esto puede repercutir). Si eliges Wi-Fi, asegúrate de que tu máquina tiene una tarjeta integrada o añade un dongle compatible.
+- Algunos entornos, como Umbrel, permiten entonces utilizar Wi-Fi, pero el rendimiento será generalmente inferior (especialmente si deseas utilizar tu nodo Lightning de forma remota, ya que esto puede repercutir). Si eliges Wi-Fi, asegúrate de que tu máquina tiene una tarjeta integrada o añade un dongle compatible.
 
 
 
 
 
-- Utilice siempre el Supply original del fabricante para su máquina. Esto es crucial para evitar daños en su equipo y prevenir el riesgo de provocar un incendio.
+- Utiliza siempre el supply original del fabricante para tu máquina. Esto es crucial para evitar daños en tu equipo y prevenir el riesgo de provocar un incendio.
 
 
 
@@ -1382,7 +1382,7 @@ Dependiendo del uso que le vaya a dar, puede optar por una unidad SSD de 2 TB, c
 
 
 
-- En función del valor de sus equipos y de su situación geográfica, también puede ser conveniente instalar un sistema pararrayos, ya sea directamente en el cuadro eléctrico o en la regleta utilizada.
+- En función del valor de tus equipos y de tu situación geográfica, también puede ser conveniente instalar un sistema pararrayos, ya sea directamente en el cuadro eléctrico o en la regleta utilizada.
 
 
 
@@ -1473,7 +1473,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-- Nodo Bitcoin simple**: este es el uso fundacional en el que Umbrel se ha basado desde el principio. Puedes ejecutar Bitcoin core (o Knots), conectar tus monederos directamente a tu nodo, exponer un servidor de Electrum, alojar tu Mempool Block explorer para ver el Blockchain, y estimar cargos... Son estos usos en los que nos centraremos en este curso.
+- Nodo Bitcoin simple**: este es el uso fundacional en el que Umbrel se ha basado desde el principio. Puedes ejecutar Bitcoin Core (or Knots), conectar tus monederos directamente a tu nodo, exponer un servidor Electrum, alojar tu explorador Mempool para ver la cadena de bloques y estimar tarifas... Son estos usos en los que nos centraremos en este curso.
 
 
 
@@ -1483,7 +1483,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-- Lightning Network**: Umbrel también te permite desplegar LND o Core Lightning, dos implementaciones de Lightning Network, para gestionar tu propio nodo Lightning. Podrá abrir canales, gestionar su liquidez, realizar pagos, automatizar el balanceo, ofrecer servicios, conectar una Wallet remota o aprovechar la gestión avanzada de Interface gracias a las numerosas aplicaciones disponibles. Veremos este caso de uso específico en nuestro próximo curso LNP 202.
+- Lightning Network**: Umbrel también te permite desplegar LND o Core Lightning, dos implementaciones de Lightning Network, para gestionar tu propio nodo Lightning. Podrás abrir canales, gestionar tu liquidez, realizar pagos, automatizar el balanceo, ofrecer servicios, conectar una wallet remota o aprovechar la gestión avanzada de la interfaz gracias a las numerosas aplicaciones disponibles. Veremos este caso de uso específico en nuestro próximo curso LNP 202.
 
 
 
@@ -1497,7 +1497,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-Al desplegar aplicaciones en contenedores, puede dar a Umbrel la forma que desee: empiece con un simple nodo Bitcoin y unas cuantas aplicaciones vinculadas a su ecosistema, luego instale un nodo Lightning junto a su nodo Bitcoin y enriquezca gradualmente su instancia con las aplicaciones autoalojadas que necesite.
+Al desplegar aplicaciones en contenedores, puedes dar a Umbrel la forma que desees: empieza con un simple nodo Bitcoin y unas cuantas aplicaciones vinculadas a su ecosistema, luego instala un nodo Lightning junto a tu nodo Bitcoin y enriquece gradualmente tu instancia con las aplicaciones autoalojadas que necesites.
 
 
 
@@ -1505,7 +1505,7 @@ Al desplegar aplicaciones en contenedores, puede dar a Umbrel la forma que desee
 
 
 
-Una de las principales ventajas de Umbrel frente a sus competidores es su amplia y activa comunidad de usuarios. Puedes contactar con ellos principalmente a través de [su Discord](https://discord.gg/efNtFzqtdx) y [su foro en línea](https://community.umbrel.com/). Aquí no sólo encontrarás consejos prácticos, sino sobre todo soluciones para resolver problemas o corregir errores. Es un buen lugar para empezar, progresar y, finalmente, ayudar a otros usuarios, para que no te quedes solo con tu Coin.
+Una de las principales ventajas de Umbrel frente a sus competidores es su amplia y activa comunidad de usuarios. Puedes contactar con ellos principalmente a través de [su Discord](https://discord.gg/efNtFzqtdx) y [su foro en línea](https://community.umbrel.com/). Aquí no solo encontrarás consejos prácticos, sino sobre todo soluciones para resolver problemas o corregir errores. Es un buen lugar para empezar, progresar y, finalmente, ayudar a otros usuarios, para que no te quedes solo con tu nodo.
 
 
 
@@ -1538,7 +1538,7 @@ Sin embargo, cada aplicación de la Tienda conserva su propia licencia, a menudo
 
 
 
-## Instalación de un Full node con paraguas
+## Instalación de un Full node con Umbrel
 
 
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
@@ -1557,13 +1557,13 @@ Aquí utilizaremos la imagen UmbrelOS x86 (más concretamente, la versión x86_6
 
 
 
-Si has optado por una Raspberry Pi 5 (una opción que no recomiendo, como se menciona en la sección anterior), la instalación es ligeramente diferente. A continuación, puede seguir este tutorial dedicado y volver a mi curso una vez en la web Interface `http://umbrel.local`:
+SSi has optado por una Raspberry Pi 5 (una opción que no recomiendo, como se menciona en la sección anterior), la instalación es ligeramente diferente. A continuación, puedes seguir este tutorial dedicado y volver a mi curso una vez en la interfaz web `http://umbrel.local`:
 
 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Como mencioné en la sección anterior, elegí ejecutar este tutorial en un pequeño PC reacondicionado que encontré a buen precio: un *Lenovo ThinkCentre M900 Tiny* equipado con un procesador Intel Core i7 y 16 GB de RAM. Se trata de una configuración muy cómoda para ejecutar Umbrel, especialmente para un nodo Bitcoin. Sin embargo, he elegido esta configuración porque quiero instalar un nodo Lightning y otras aplicaciones más exigentes más adelante. También he añadido un SSD de 2 TB a mi ThinkCentre para conservar el Blockchain completo y seguir teniendo un margen cómodo. Con esta configuración, el coste total es de 270 euros, incluidos todos los gastos.
+Como mencioné en la sección anterior, elegí ejecutar este tutorial en un pequeño PC reacondicionado que encontré a buen precio: un Lenovo ThinkCentre M900 Tiny equipado con un procesador Intel Core i7 y 16 GB de RAM. Se trata de una configuración muy cómoda para ejecutar Umbrel, especialmente para un nodo Bitcoin. Sin embargo, he elegido esta configuración porque quiero instalar un nodo Lightning y otras aplicaciones más exigentes más adelante. También he añadido un SSD de 2 TB a mi ThinkCentre para conservar la Blockchain completa y seguir teniendo un margen cómodo. Con esta configuración, el coste total es de 270 euros, incluidos todos los gastos.
 
 
 
@@ -1575,7 +1575,7 @@ Me gusta especialmente la gama ThinkCentre Tiny de Lenovo, ya que son máquinas 
 
 
 
-Si, como yo, has optado por un PC sin monitor, **necesitarás conectar un monitor y un teclado** sólo mientras dure la instalación. Después, podrás acceder a él a distancia desde otro ordenador de la misma red (o mediante otros métodos que veremos en capítulos posteriores). También necesitarás un cable Ethernet RJ45 para conectar tu máquina a la red local, y una memoria USB de al menos 4 GB para almacenar la imagen de instalación.
+Si, como yo, has optado por un PC sin monitor, **necesitarás conectar un monitor y un teclado** solo mientras dure la instalación. Después, podrás acceder a él a distancia desde otro ordenador de la misma red (o mediante otros métodos que veremos en capítulos posteriores). También necesitarás un cable Ethernet RJ45 para conectar tu máquina a la red local, y una memoria USB de al menos 4 GB para almacenar la imagen de instalación.
 
 
 
@@ -1597,7 +1597,7 @@ Para recapitular, estos son los requisitos de equipamiento:
 
 
 
-Dependiendo del hardware que hayas elegido, el primer paso es ensamblar los distintos componentes de tu ordenador. Por ejemplo, en mi caso, el SSD original tenía una capacidad de sólo 256 GB, así que lo reciclaré para darle otro uso y lo sustituiré por un SSD de 2 TB. Si también quieres sustituir los módulos de RAM, ahora es el momento de hacerlo.
+Dependiendo del hardware que hayas elegido, el primer paso es ensamblar los distintos componentes de tu ordenador. Por ejemplo, en mi caso, el SSD original tenía una capacidad de solo 256 GB, así que lo reciclaré para darle otro uso y lo sustituiré por un SSD de 2 TB. Si también quieres sustituir los módulos de RAM, ahora es el momento de hacerlo.
 
 
 
@@ -1673,15 +1673,15 @@ Una vez completada la operación, tendrás una llave USB de arranque que contien
 
 
 
-Ahora que tu memoria USB de arranque que contiene UmbrelOS está lista, puedes arrancar tu ordenador en ella para iniciar la instalación del sistema. Desconecte la llave USB de su ordenador principal e insértela en el dispositivo en el que desea instalar Umbrel y su nodo Bitcoin.
+Ahora que tu memoria USB de arranque que contiene UmbrelOS está lista, puedes arrancar tu ordenador desde ella para iniciar la instalación del sistema. Desconecta la llave USB de tu ordenador principal e insértala en el dispositivo en el que deseas instalar Umbrel y tu nodo Bitcoin.
 
 
 
-Como se explica al principio de este capítulo, para completar la instalación necesitarás un dispositivo de visualización y un dispositivo de entrada. Conecta una pantalla a través de HDMI (u otro puerto, dependiendo de tu PC) y conecta un teclado a través de USB a tu máquina. Estos dispositivos sólo son necesarios para la instalación; no los necesitarás después, ya que podrás acceder a Umbrel de forma remota desde otro ordenador. Conecta estos dos dispositivos a tu PC.
+Como se explica al principio de este capítulo, para completar la instalación necesitarás un dispositivo de visualización y un dispositivo de entrada. Conecta una pantalla mediante HDMI (u otro puerto, según tu PC) y conecta un teclado por USB a tu máquina. Estos dispositivos solo son necesarios para la instalación; no los necesitarás después, ya que podrás acceder a Umbrel de forma remota desde otro ordenador. Conecta estos dos dispositivos a tu PC.
 
 
 
-**Consejo:** Si no tienes una pantalla periférica en casa, puedes utilizar tu televisor. Con su entrada HDMI (u otra), puede utilizarse como pantalla temporal mientras instalas el sistema operativo.
+**Consejo:** Si no tienes una pantalla periférica en casa, puedes usar tu televisor. Con su entrada HDMI (u otra), puede utilizarse como pantalla temporal mientras instalas el sistema operativo.
 
 
 
@@ -1705,11 +1705,11 @@ Si el dispositivo arranca en otro sistema o muestra un mensaje de error, probabl
 
 
 
-Una vez que el dispositivo ha arrancado desde la memoria USB, será recibido por la instalación de UmbrelOS Interface. Este paso consiste en instalar el sistema directamente en el disco interno de la Hard.
+Una vez que el dispositivo ha arrancado desde la memoria USB, serás recibido por la instalación de UmbrelOS Interface. Este paso consiste en instalar el sistema directamente en el disco interno de tu máquina.
 
 
 
-La pantalla que aparece enumera todos los dispositivos de almacenamiento interno detectados por el ordenador. Cada disco va acompañado de un número, un nombre y una capacidad de almacenamiento. Localice el disco en el que desea instalar Umbrel. **Advertencia: todos los archivos de este disco se borrarán permanentemente
+La pantalla que aparece enumera todos los dispositivos de almacenamiento interno detectados por el ordenador. Cada disco va acompañado de un número, un nombre y una capacidad de almacenamiento. Localiza el disco en el que deseas instalar Umbrel. **Advertencia: todos los archivos de este disco se borrarán permanentemente.
 
 
 
@@ -1717,7 +1717,7 @@ La pantalla que aparece enumera todos los dispositivos de almacenamiento interno
 
 
 
-Una vez que haya identificado el disco correcto (normalmente el de mayor capacidad, para alojar la Blockchain), anote el número que tiene asignado. Por ejemplo, si el disco que ha elegido aparece bajo el número `2`, simplemente introduzca `2` y pulse la tecla `Enter` del teclado.
+Una vez que hayas identificado el disco correcto (normalmente el de mayor capacidad, para alojar la Blockchain), anota el número que tiene asignado. Por ejemplo, si el disco que has elegido aparece bajo el número `2`, simplemente introduce `2` y pulsa la tecla `Enter` del teclado.
 
 
 
@@ -1725,7 +1725,7 @@ Una vez que haya identificado el disco correcto (normalmente el de mayor capacid
 
 
 
-El programa formateará el disco seleccionado, instalará UmbrelOS y configurará automáticamente el sistema. Esto puede tardar unos minutos. Deje que el proceso se ejecute sin interrupción.
+El programa formateará el disco seleccionado, instalará UmbrelOS y configurará automáticamente el sistema. Esto puede tardar unos minutos. Deja que el proceso se ejecute sin interrupción.
 
 
 
@@ -1733,7 +1733,7 @@ El programa formateará el disco seleccionado, instalará UmbrelOS y configurar�
 
 
 
-Una vez finalizada la instalación, se le pedirá que apague el dispositivo. Pulsa cualquier tecla para apagar el ordenador.
+Una vez finalizada la instalación, se te pedirá que apagues el dispositivo. Pulsa cualquier tecla para apagar el ordenador.
 
 
 
@@ -1741,7 +1741,7 @@ Una vez finalizada la instalación, se le pedirá que apague el dispositivo. Pul
 
 
 
-Ya puedes retirar la llave USB, el teclado y la pantalla, que ya no son necesarios para tu Umbrel. Todo lo que queda de tu nodo es la Supply de alimentación y el cable Ethernet RJ45.
+Ya puedes retirar la llave USB, el teclado y la pantalla, que ya no son necesarios para tu Umbrel. Todo lo que queda de tu nodo es la fuente de alimentación y el cable Ethernet RJ45.
 
 
 
@@ -1755,13 +1755,12 @@ Antes de reiniciar el dispositivo, compruebe los dos puntos siguientes:
 
 
 
-- La llave USB está desconectada**: si permanece conectada, el sistema puede reiniciarse en ella en lugar de en el disco interno;
+- La llave USB está desconectada**: si permanece conectada, el sistema puede reiniciarse en ella en lugar de en el disco interno.
 - El cable Ethernet está enchufado**: el aparato debe estar conectado al router para funcionar.
 
 
 
-Pulse el botón de encendido. El sistema arranca automáticamente desde el disco interno donde UmbrelOS fue instalado. El primer arranque puede tardar aproximadamente **5 minutos**. Durante este tiempo, Umbrel inicializa sus servicios y Interface.
-
+Pulsa el botón de encendido. El sistema arrancará automáticamente desde el disco interno donde UmbrelOS fue instalado. El primer arranque puede tardar aproximadamente **5 minutos**. Durante este tiempo, Umbrel inicializa sus servicios y su interfaz.
 
 
 Desde otro ordenador (tu PC de siempre) conectado a la **misma red local**, abre un navegador web (Firefox, Chrome...) y ve a:
@@ -1804,13 +1803,13 @@ Para identificar su IP Address de Umbrel, existen varios métodos, desde el más
 
 
 
-- Acceda a la administración de su router Interface y busque la IP Address del dispositivo Umbrel en la red local.
+- Accede a la interfaz de administración de tu router y busca la dirección IP del dispositivo Umbrel en la red local.
 
 
 
 
 
-- Utiliza un software de exploración de redes como Angry IP Scanner para detectar los dispositivos conectados y localizar la IP Address de tu Umbrel.
+- Utiliza un software de exploración de redes como Angry IP Scanner para detectar los dispositivos conectados y localizar la dirección IP de tu Umbrel.
 
 
 
@@ -1852,11 +1851,11 @@ Para empezar a configurar tu Umbrel, haz clic en el botón "*Iniciar*".
 
 
 
-Elige un seudónimo o introduce tu nombre, luego establece una contraseña fuerte. Ten cuidado: esta contraseña es la única barrera que protege el acceso a tu Umbrel desde tu red (y por lo tanto, potencialmente, a tus bitcoins si ejecutas un nodo Lightning en Umbrel). También protege el acceso remoto a través de Tor o VPN, si estos servicios están habilitados.
+Elige un seudónimo o introduce tu nombre, luego establece una contraseña fuerte. Ten cuidado: esta contraseña es la única barrera que protege el acceso a tu Umbrel desde tu red (y, por lo tanto, potencialmente, a tus bitcoins si ejecutas un nodo Lightning en Umbrel). También protege el acceso remoto a través de Tor o VPN si estos servicios están habilitados.
 
 
 
-Elija una contraseña segura y asegúrese de guardar al menos una copia de seguridad (se recomienda utilizar un gestor de contraseñas).
+Elige una contraseña segura y asegúrate de guardar al menos una copia de seguridad (se recomienda utilizar un gestor de contraseñas).
 
 
 
@@ -1880,11 +1879,11 @@ La configuración de Umbrel ya está completa.
 
 
 
-#### Descubrimiento de Interface
+#### Descubrimiento de la interfaz
 
 
 
-El Interface de Umbrel es bastante intuitivo:
+La interfaz de Umbrel es bastante intuitivo:
 
 
 
@@ -1921,9 +1920,9 @@ El Interface de Umbrel es bastante intuitivo:
 
 
 - El menú "*Configuración*" te permite modificar la configuración de tu Umbrel y acceder a su información, entre otras cosas:
-    - Actualice, reinicie o detenga su máquina;
-    - Consulte el espacio de almacenamiento disponible, el uso de RAM y la temperatura del procesador;
-    - Cambia el fondo de pantalla;
+    - Actualice, reinicie o detenga su máquina.
+    - Consulte el espacio de almacenamiento disponible, el uso de RAM y la temperatura del procesador.
+    - Cambia el fondo de pantalla.
     - Gestione el acceso remoto mediante Tor, active Wi-Fi o 2FA.
 
 
@@ -1936,13 +1935,13 @@ El Interface de Umbrel es bastante intuitivo:
 
 
 
-En primer lugar, recomiendo encarecidamente activar la autenticación de dos factores (2FA). Esto añade un Layer extra de seguridad a tu contraseña. Es casi indispensable si planeas utilizar tu Umbrel para almacenar archivos personales, ejecutar un nodo Lightning o realizar cualquier otra actividad sensible.
+En primer lugar, recomiendo encarecidamente activar la autenticación de dos factores (2FA). Esto añade una capa extra de seguridad a tu contraseña. Es casi indispensable si planeas utilizar tu Umbrel para almacenar archivos personales, ejecutar un nodo Lightning o realizar cualquier otra actividad sensible.
 
 
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Para ello, haga clic en la casilla correspondiente de la configuración.
+Para ello, haz clic en la casilla correspondiente en la configuración.
 
 
 
@@ -1962,11 +1961,11 @@ A partir de ahora, cada nueva conexión a tu Umbrel requerirá tanto la contrase
 
 
 
-En cuanto al acceso remoto vía Tor, si no lo necesitas, te recomiendo dejar esta opción desactivada para limitar la superficie de ataque de tu Umbrel. Por defecto, sólo se puede acceder a tu nodo desde una máquina conectada a la misma red local. No obstante, habilitar el acceso vía Tor te permitirá gestionar tu Umbrel en movilidad.
+En cuanto al acceso remoto vía Tor, si no lo necesitas, te recomiendo dejar esta opción desactivada para limitar la superficie de ataque de tu Umbrel. Por defecto, solo se puede acceder a tu nodo desde una máquina conectada a la misma red local. No obstante, habilitar el acceso vía Tor te permitirá gestionar tu Umbrel en movilidad.
 
 
 
-Si habilita esta característica, teóricamente es posible que cualquier máquina en el mundo intente conectarse a su nodo, siempre que conozca la Address de Tor. Sin embargo, su contraseña y 2FA le seguirán protegiendo.
+Si habilitas esta característica, teóricamente es posible que cualquier máquina en el mundo intente conectarse a tu nodo, siempre que conozca la dirección de Tor. Sin embargo, tu contraseña y 2FA seguirán protegiéndote.
 
 
 
@@ -1974,7 +1973,7 @@ Si activa esta opción, asegúrese de tener activada la autenticación de dos fa
 
 
 
-Simplemente introduce este Tor Address en tu navegador Tor para acceder al Interface de Umbrel desde cualquier red.
+Simplemente introduce este Tor Address en tu navegador Tor para acceder a la interaz de Umbrel desde cualquier red.
 
 
 
@@ -2006,7 +2005,7 @@ A continuación, haz clic en el botón "*Instalar*".
 
 
 
-Una vez completada la instalación, su nodo Bitcoin lanzará su IBD (*Descarga Inicial de Bloques*): descargará y validará todas las transacciones y bloques desde que Bitcoin fue creado en 2009.
+Una vez completada la instalación, tu nodo Bitcoin lanzará su IBD (Descarga Inicial de Bloques): descargará y validará todas las transacciones y bloques desde que Bitcoin fue creado en 2009.
 
 
 
@@ -2014,11 +2013,11 @@ Una vez completada la instalación, su nodo Bitcoin lanzará su IBD (*Descarga I
 
 
 
-Esta etapa es especialmente lenta, ya que su duración depende de varios factores, como la cantidad de RAM asignada a la caché del nodo, la velocidad del disco, la velocidad de conexión a Internet y la potencia del procesador. El rango de duraciones es por tanto muy amplio, dependiendo de la configuración. Con un PC de alto rendimiento (SSD NVMe, +32 GB de RAM, procesador potente y buena conexión a Internet), el IBD puede completarse en unas diez horas. En cambio, un procesador antiguo, poca RAM o, peor aún, un disco mecánico Hard (totalmente desaconsejado) pueden alargar esta operación hasta varias semanas.
+Esta etapa es especialmente lenta, ya que su duración depende de varios factores, como la cantidad de RAM asignada a la caché del nodo, la velocidad del disco, la velocidad de conexión a Internet y la potencia del procesador. El rango de duraciones es, por tanto, muy amplio dependiendo de la configuración. Con un PC de alto rendimiento (SSD NVMe, +32 GB de RAM, procesador potente y buena conexión a Internet), el IBD puede completarse en unas diez horas. En cambio, un procesador antiguo, poca RAM o, peor aún, un disco duro mecánico (totalmente desaconsejado) pueden alargar esta operación hasta varias semanas.
 
 
 
-Con un PC de configuración normal (un procesador decente, de 8 a 16 GB de RAM y una unidad SSD), da para unos 2 a 7 días.
+Con un PC de configuración normal (un procesador decente, 8 a 16 GB de RAM y una unidad SSD), toma entre 2 y 7 días.
 
 
 
@@ -2034,7 +2033,7 @@ Por defecto, el valor del parámetro `dbcache` en Bitcoin core está fijado en 4
 
 
 
-Tenga cuidado de no asignar un valor demasiado grande para su máquina. Si la RAM disponible para UmbrelOS se agota, tu nodo puede pararse bruscamente, interrumpiendo el IBD y obligándote a reiniciarlo manualmente, con la consiguiente pérdida de tiempo considerable.
+Ten cuidado de no asignar un valor demasiado grande para tu máquina. Si la RAM disponible para UmbrelOS se agota, tu nodo puede detenerse bruscamente, interrumpiendo el IBD y obligándote a reiniciarlo manualmente, con la consiguiente pérdida considerable de tiempo.
 
 
 
@@ -2050,7 +2049,7 @@ Una vez completado el IBD de tu nodo (100% de sincronización), ya tienes un nod
 
 
 
-En la siguiente parte, exploraremos el uso práctico de tu nuevo nodo: cómo conectar tu Wallet a él y qué aplicaciones deberías instalar para convertirte en un Bitcoiner soberano.
+En la siguiente parte, exploraremos el uso práctico de tu nuevo nodo: cómo conectar tu wallet a él y qué aplicaciones deberías instalar para convertirte en un Bitcoiner soberano.
 
 
 

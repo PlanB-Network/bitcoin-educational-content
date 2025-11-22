@@ -360,15 +360,15 @@ This form of writing, which was both an economic management tool and a cultural 
 
 In ancient Mesopotamia, economic organization was based on highly sophisticated mechanisms that existed long before the invention of metal coins. From the outset, formal and informal credit systems were already an essential form of money, enabling local populations to carry out many complex economic transactions.
 
-It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages, and even marriage agreements. Writing these tablets required the expertise of specialized scribes, a task costly in time and effort, **but justified when financial interests were at stake.** People didn't write love letters to each other back then, they didn't use a scribe to write about their anxieties. They hired a scribe to write documents, whether there was a connection or an economic reason.
+It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages, and even marriage agreements. Writing these tablets required the expertise of specialized scribes, a task costly in time and effort, **a cost justified only when significant financial or legal interests were at stake.** Consequently, personal correspondence—such as love letters or writings about anxieties—was rare, as scribes were almost exclusively retained for creating documents of economic or legal importance.
 
 
 It's also worth mentioning that some of these tablets circulated as bearer bonds, changing hands freely.
 
 
-For example, there was a form of clay ball with small stones inside.
+One example, is the type of clay ball which enclosed small counter-stones.
 
-On the outside of the clay ball, a number was written and signed, representing a number of units. Inside, there were these rocks and someone who wanted to verify, to really validate that this instrument really did represent X number of units.
+The surface was inscribed with a seal and a number representing the quantity of goods held within. To verify the contents, the ball could be broken open, validating that the internal count matched the external record.
 
 
 Another example, a tablet found southwest of present-day Baghdad, stipulates that a debtor undertakes to repay a creditor 330 measures of grain on harvest day. Even more fascinating, another tablet clearly states that a debt of four measures of barley must be repaid directly to the bearer of the tablet, thus **introducing the notion of payment to the bearer, a particularly innovative concept for the time**.
@@ -380,13 +380,13 @@ From 2000 BC onwards, there was a law requiring all commercial transactions, eve
 In the private sphere too, certain families and individuals engaged in economic activities complex enough to require rigorous management. The house of an Anunitum priest named Ur-Utu was discovered in the north-Babylonian town of Sippar-Amnanu, containing nearly 2,000 tablets. These documents included private loan contracts, deeds of sale and leases, as well as letters, religious and academic texts, testifying to the diversity and importance of private archives at the time.
 
 
-It's notable that the letters written by scribes were almost exclusively concerned with financial interests: complaints about insufficient allowances, pending dowry payments or other urgent material requests. In those days, personal writings such as love letters did not exist, and even mentions of illness were rare.
+Notably, the few surviving letters written by scribes are almost exclusively concerned with financial interests: complaints about insufficient allowances, pending dowry payments, or other urgent material requests. Personal writings, such as love letters, were virtually nonexistent, and even mentions of illness were rare.
 
 
 A poignant example of such a letter illustrates this economic reality: a correspondent expresses his distress after being left without money or provisions when his partner left, while a severe famine struck Assur. He describes his urgent need to buy grain, and asks that the cash equivalent of his textiles be sent to him quickly to ensure his daily sustenance.
 
 
-This letter, addressed to her partner, seems to indicate that he had gone off to trade elsewhere, leaving her penniless. She reminds him that she must have access to measures of money in order to buy grain and pay her temple taxes. This is perhaps the closest we can come to an argument written in a letter of the time. Letters were almost always related to economic transactions, and this very letter relates to a precarious economic situation.
+This letter, addressed to her partner, indicates the correspondent was left without resources. The writer reminds recipient of their need for funds to purchase grain and pay temple taxes, demonstrating how even personal correspondence was framed by economic necessity and precariousness.
 
 
 Thus, the Mesopotamian documents that have come down to us mainly reflect economic exchanges, since they were drawn up exclusively for transfers of goods with a recognized value: money, grain, various goods, real estate, payment of temple taxes. These archives reveal not only the efficiency and administrative precision of this ancient civilization, but also its ability to manage complex economic exchanges over a very long period.

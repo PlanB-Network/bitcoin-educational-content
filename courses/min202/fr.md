@@ -165,7 +165,7 @@ On verra même que dans certains cas, miner à la maison peut présenter un cert
 
 # Pourquoi  et comment miner soit-même ?
 
-## 2.1 Pourquoi miner en Pool
+## 2.1 Pourquoi miner en Pool (supprimer tout les ##)
 
 ### Qu'est ce qu'une pool de mining ?
 
@@ -236,13 +236,12 @@ C’est une excellente manière de **comprendre Bitcoin techniquement**, notamme
 
 ### Pour la loterie 
 
-Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto**. La récompense actuelle est de 3,125 BTC + frais, mais comme on le verra plus tard, même avec une machine peut puissante et accessible financièrement, qui tourne en permanance dans notre salon , les chances de gagner sont tout de même supérieures à celles d'une loterie traditionelle.
+Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto**. La récompense actuelle est de 3,125 BTC + frais, mais comme on le verra plus tard, même avec une machine peu puissante et accessible financièrement, qui tourne en permanance dans notre salon , les chances de gagner sont tout de même supérieures à celles d'une loterie traditionelle.
 
 Probabilité faible, mais gain énorme — surtout quand on fait tourner la machine pour le plaisir et non pour le profit.
 Par exemple si 1 millions de Bitaxes (petites machines de mining) dont on estime qu'aujourd'hui déjà des centaines de milliers sont en service) minaient en solo, cela représenterait au jour ou ce paragraphe est écrit, environ 1 Eh/s soit 1/1000 du hashrate total. De quoi miner un bloc par semaine. Un ticket de loto par semaine gagné par un individu quelque part dans le monde, de quoi changer une vie.
 
-
-En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originalelle de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement interessé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisaiton de ce type de comportement pourrait aider de manière substancielles au retour d'une partie significative du hashrate entre les mains des particuliers.
+En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originelle de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement interessé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisaiton de ce type de comportement pourrait aider de manière substancielles au retour d'une partie significative du hashrate entre les mains des particuliers.
 
 | Feature          | Solomining                                                                         | Pool Mining                                                                        |
 | ---------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -282,7 +281,7 @@ Vous pouvez par exemple vous procurer le votre si vous êtes en europe chez [Bit
 
 ### NerdQAxe++
 
-Le projet Bitaxe a très rapidement ait des émules et de nombreuses évolutions de celui-ci on vu le jour.
+Le projet Bitaxe a très rapidement fait des émules et de nombreuses évolutions de celui-ci on vu le jour.
 Les QAxe sont une sous famille de Bitaxe qui présentent sur un seule carte PCB non pas une puce ASIC mais 4 d'où le "Q".
 
 ![Image](assets/fr/012.webp)
@@ -298,7 +297,33 @@ Mais le firmware (le logiciel qui tourne sur l'appareil) utilisé est fondalemen
 
 ![Image](assets/fr/014.webp)
 
-### Avalon Nano 3S
+https://www.youtube.com/watch?v=QXonFfguymw
+
+Cet appareil proposé par la société Braiins est un "Home Miner" vendu sans équivoque comme un ticket de loterie. Le but est placer la machine dans votre pièce à vivre, de profiter de son silence remarcable et de l'oublier. Il ne s'agit pas vraiment d'obtenir une quelconque rentabilité, mais de tenter sa chance en essayant d'être le prochain mineur qui fournira la preuve de travail nécessaire pour miner un bloc.  Braiins la société qui le fabrique est une référence dans l'écosystème bitcoin, connue pour fournir des solutions de mining en pool depuis 2010 et toujours en activité aujourd'hui et que l'on présentera plus tard dans notre panorama des pool de mining.
+
+![Image](assets/fr/015.webp)
+
+En synthèse cet appareil au design soigné vous permettra de déployer un hasrate de 1 Th/s pour 35/40 W de consommation électrique, le tout avec un bruit réduit de 40 dB.  Le design est soigné, le grand écran permettant d'afficher les informations importantes concernant l'appareil mais aussi le réseau Bitcoin  et même plus.
+
+![Image](assets/fr/016.webp)
+
+![Image](assets/fr/017.webp)
+
+### La Gamma Avalon Home de Cannan
+
+![Image](assets/fr/018.webp)
+
+Canaan est une entreprise Singapourienne et un des 3 plus grands constructeurs de machines de minages et de puces ASIC au monde, au côté de l'indétronable Bitmain et de MicroBT.
+Ils développent une gamme de produits s'adressant aux particuliers qui voudraient miner à la maison tout en utilisant l'énergie dissipée par l'équipement pour chauffer son logement, plutôt que d'évacuer cette chaleur comme le font habituellement les mineurs professionnels.
+
+Le défit est donc de faire entrer dans les foyers des machines suffisament puissantes pour chauffer une potentiellement une pièce entière, tout en garantissant un niveau de bruit minimal des ventilateurs pour ne par perturber la vie quotidienne de l'utilisateur. La gamme de produits "Avalon Home" de Canaan que nous présenterons ci-après relève ce défit avec brio. 
+
+#### Avalon Nano 3S
+
+L'Avalon Nano 3S est l'équipement le moins puissant de cette gamme de produits, présenté comme un chauffage d'appoint. Il vous sera utile posé sur un bureau pour vous réchauffer les doigts en hiver dans votre pièce mal isolée et non chauffée. Mais en aucun cas suffisant pour chauffer ne serait-ce qu'une petit pièce.
+
+Cette petite boite délivre  un impressionnant 6Th/s de Hashrate pour seulement 140W de consommation.
+
 
 
 ### Avalon Mini 3

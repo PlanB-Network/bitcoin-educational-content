@@ -411,7 +411,7 @@ This specialization can be explained by the considerable cost of tablet writing.
 The cuneiform tablets reveal a financial system of remarkable complexity for its time. The Mesopotamians had developed a complete arsenal of modern financial instruments: **private loans with interest, deeds of sale, rental contracts, mortgages, and even marriage contracts with financial clauses**. This sophistication testifies to a developed market economy, far removed from the simplistic image of primitive bartering that is often associated with these ancient civilizations.
 
 
-Some tablets functioned as genuine bearer securities, circulating freely from hand to hand without requiring identification of the original holder. This innovation enabled a remarkable fluidity of exchange, prefiguring modern financial systems. Furthermore, specific legislation even required all commercial transactions to be formalized in writing, thus institutionalizing the use of writing in the economic sphere.
+Some tablets functioned as genuine bearer securities, circulating freely from hand to hand without requiring identification of the original holder. This innovation enabled a remarkable fluidity of exchange, prefiguring modern financial systems. Specific legislation mandating that all commercial transactions be formalized in writing  further institutionalizied the use of writing as a cornerstone of the economic sphere.
 
 
 ### The Monopoly of Knowledge and Economic Control
@@ -435,7 +435,7 @@ Analysis of the tablets reveals a more nuanced economic reality than their ubiqu
 This duality can be explained by the social stratification of the time. **The cuneiform tablet system was reserved for a restricted elite**: clergy, prosperous merchants, and administrators capable of reading, writing and interpreting these complex documents. To use a bearer tablet effectively, one not only had to know how to decipher it, but also had to be able to verify its authenticity and understand its legal implications.
 
 
-**The mass of the population, excluded from this elitist system, developed its own exchange mechanisms**. Ordinary people used more accessible systems such as standardized measures of grain, weights of money, and other easily quantifiable goods that anyone could evaluate without specialized skills.
+**The mass of the population, excluded from this elitist system, developed its own exchange mechanisms**. Ordinary people used more accessible systems such as standardized measures of grain, weighed silver, and other easily quantifiable goods that anyone could evaluate without specialized skills.
 
 
 This popular economy, while less documented in official archives, was probably more dynamic and flexible than the tablet system. It enabled rapid daily exchanges without recourse to scribes, meeting the immediate needs of craftsmen, farmers and small traders.
@@ -470,48 +470,32 @@ This seminal period also reveals the power issues inherent in any monetary innov
 
 :::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
-In this section entitled "The great civilizations of the Bronze Age", we'll start with an extract from the book *A History of Money: From Ancient Times to Present Day* by Glyn Davies, which I think is an excellent introduction to this section on the great civilizations of antiquity.
+The section on the great civilizations of the Bronze Age begins with an extract from Glyn Davies' *A History of Money: From Ancient Times to Present Day*, which provides a useful introduction to the topic.
 
 
 > Toynbee identifies some twenty-one different "civilizations", but since fifteen of these derived directly or indirectly from earlier examples, he reduces the number of independently developed civilizations to six: Sumerian, Egyptian, Minoan, Chinese, Mayan and Andean. Of these, only the Incas of the Andes managed to achieve a high degree of civilization without using money, although paradoxically they had an abundance of the materials generally considered best for use as money - gold and silver.
 
-The Incas had no monetary system, but they did have an abundance of precious metals. Quite a paradox. Let's continue with the quote:
+This presents a paradox: the Incas achieved a complex society without money, despite having abundant precious metals. Davies continues:
 
 
 > The more stratified a society, and the more meticulously efficient its planning system, the less necessary the use of money is for its population. This may explain why the Spanish conquistadors discovered that the Mexicans, whose government was relatively more liberal, regularly used gold powder (kept in transparent tubes) and cocoa beans (kept for large payments in bags of 24,000 units) as currency, while conversely, the Incas, organized according to a much more rigid hierarchy, had no currency at all: an exception confirmed by a strict rule. The origin of money in China was totally independent of other civilizations; however, the relative proximity of the Sumerian, Egyptian and Minoan civilizations raises doubts as to the extent of their respective ignorance of monetary practices, especially in view of the extensive trade established as far back as the earliest times.
 
 
-In China, coins were developed with a completely different approach to Western traditions. It was fiat money from the start. They were cast coins.
-
-And here, Mr. Davies mentions trade. There were indeed exchanges between the Chinese and other populations at certain times, but the medium of exchange for foreign trade was rather silk. As we'll see later, gold was also used in China's frontier regions, where the Chinese population was smaller. And not even for international trade; for that, it was silk.
+As Davies notes, the origin of money in China was independent. While cast coins developed there, early Chinese monetary practice differed significantly from the West. Silk was a primary medium for foreign trade, and the fundamental principles of its monetary system were distinct. These points will be explored further in the section on China.
 
 
-So, I imagine that perhaps for the format of the coins, they may have been influenced by other civilizations of the same era that developed this technology.
-
-But clearly, the essence of money was completely different in China than in the West. We'll come back to this at length in the subsequent section on China.
+Among the key Sumerian cities was Uruk, an influential center known for its large population and advanced culture, including the development of writing and urban planning. Its legendary ruler, Gilgamesh, a likely historical king from circa 2900 BC, is the subject of the famed *Epic of Gilgamesh*.
 
 
-Concerning these famous Sumerian cities, I have a few notes here. We can mention Uruk, which was a very early and influential city, famous for its considerable size and advanced culture, notably with the development of writing and urban planning.
+Another significant figure was Sargon of Akkad (reigned 2334–2279 BC), the founder of the Akkadian Empire, which was another civilization that emerged in Mesopotamia. He is credited with establishing an early postal service for clay tablets, which were often encased in clay envelopes marked with a seal for confidentiality before being opened.
 
 
-And I also wanted to mention the famous Gilgamesh epic. Gilgamesh was probably a historical king of the Sumerian city of Uruk around 2900 BC. He was probably the king of this Sumerian city-state.
+Babylon later became the capital of the Babylonian Empire, renowned for its monumental ziggurat and palaces, as well as the highly advanced legal of Hammurabi.
 
 
-We can also speak of Sargon of Akkad, who reigned from 2334 to 2279 BC.
+Finally, two key Assyrian cities are Ashur, the orignal capital and religious center, and Nineveh, the later the capital. Nineveh was known for its military might, extensive libraries, and vast palaces. It is also a likely candidate for the  location of the legendary Hanging Gardens, a wonder often attributed to Babylon.
 
-He was the first ruler of the Akkadian Empire, which is another civilization that emerged in Mesopotamia. And I mention Sargon because he was the first to establish a postal service for these famous tablets here, which I've already introduced to you.
-
-
-Imagine that there really were even clay envelopes. The tablets could be wrapped in clay envelopes with the person's signature on the outside to ensure confidentiality. So people would break open the envelope to retrieve the tablet. We owe this postal system to Sargon of Akkad.
-
-
-Then there's Babylon, the great city that became the capital of the Babylonian Empire. Another civilization, renowned for its imposing Ziggurat and palaces, and the famous Code of Hammurabi, best known for its highly advanced legal code.
-
-
-And two cities to conclude this section. We have Ashur, which was the capital of the Assyrian Empire, an important religious center. And we have Nineveh, which was later the capital of the Assyrian Empire. They moved their capital there and it's known for its powerful army, vast palaces and libraries. And it's also one of the possible locations of the legendary Hanging Gardens of Babylon. We often hear of this famous wonder of the ancient world.
-
-But there's no trace of these famous hanging gardens in Babylon. In Nineveh, on the other hand, there is archaeological evidence of gardens on several storeys. It's possible that Greek historians such as Herodotus confused Nineveh with Babylon. When they visited cities in Mesopotamia, perhaps they referred to it as Babylon. Traces of famous hanging gardens have been found in Nineveh, and scholars may wonder whether Nineveh is the famous place where these gardens were located, referred to as the Babylonian Hanging Gardens.
-
+Archaeological evidence of multi-tiered gardens has been found at Nineveh, leading some scholars to propose that ancient Greek historians, such as Herodotus, may have confused the two cities.
 
 
 ## Economic organization in Mesopotamia

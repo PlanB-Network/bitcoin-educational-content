@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks Bitcoin kasutab kirjeldavate kasutajanimede asemel pseudonüümidena avalikest võtmetest tuletatud aadresse?
+answer: Võimaldamaks turvalist offline-aadressi loomist ilma plokiahela registreerimist nõudmata
+wrong_answers:
+  - Tehingute täielikuks anonüümseks ja jälgimatuks muutmiseks plokiahelas
+  - Vähendada tehingu kontrollimiseks vajalikku arvutusvõimsust
+  - Et võimaldada sama pseudonüümi piiramatut korduvkasutamist mitme tehingu puhul
+explanation: |
+  Bitcoin kasutab pseudonüümidena avalikest võtmetest tuletatud aadresse, sest see süsteem võimaldab kasutajatel luua uusi aadresse turvaliselt võrguühenduseta, ilma et nad peaksid neid kõigepealt plokiahelas registreerima. Kirjeldavate kasutajanimede kasutamine nõuaks kasutajanime ja avaliku võtme vahelise seose teatamist plokiahelas, mis maksaks tasusid, paisutaks plokiahelat ja vähendaks turvalisust. Lisaks soodustaksid kasutajanimed korduvkasutust (vähendades privaatsust) ja tekitaksid isikustamise riski. Aadressipõhine süsteem kõrvaldab need probleemid, säilitades samal ajal Bitcoin nõuetekohaseks toimimiseks vajaliku krüptoturbe.

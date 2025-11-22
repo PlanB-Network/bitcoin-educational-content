@@ -1,0 +1,8 @@
+question: Mida on vaja Bitcoin kasutamiseks usalduseta viisil vastavalt protokolli ülesehitusele?
+answer: Täielikult valideeriva Bitcoin sõlme käivitamine, et kontrollida kõiki plokke ja tehinguid ise
+wrong_answers:
+  - Tugevate turvameetmete ja kindlustusega usaldusväärse krüptovaluutavahetusportaali kasutamine
+  - Tuginemine mitmetele usaldusväärsetele kolmandate osapoolte teenustele tehinguandmete ristkontrollimiseks
+  - wallet tarkvara paigaldamine ametlikest allikatest koos digitaalallkirjaga, mis on kontrollitud
+explanation: |
+  Bitcoin usaldusväärseks kasutamiseks peate käivitama täielikult valideeriva Bitcoin sõlme, mis kontrollib sõltumatult, kas kõik plokid järgivad konsensuseeskirju, kontrollib mündi väljaandmise ajakava ja takistab topeltkulutusi. See tagab, et te ei anna kontrollimist teistele üle, säilitades seega usaldamatuse omaduse. Vahetuste või kolmandate isikute teenuste kasutamine tähendab, et usaldate teisi, et nad teile tõde plokiahela seisu kohta räägivad. Kuigi verifitseeritud tarkvara on turvalisuse seisukohalt oluline, ei välista see vajadust omaenda valideerimissõlme järele, et saavutada Bitcoin süsteemis tõeline usaldamatus.

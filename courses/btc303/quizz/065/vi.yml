@@ -1,0 +1,8 @@
+question: Lý do chính khiến việc tăng kích thước khối dẫn đến khả năng xuất hiện các khối cũ cao hơn trong Bitcoin mining là gì?
+answer: Các khối lớn hơn mất nhiều thời gian hơn để lan truyền và xác thực trên toàn mạng, tạo ra các cửa sổ dài hơn nơi thợ đào làm việc trên các mẹo blockchain lỗi thời
+wrong_answers:
+  - Các khối lớn hơn đòi hỏi nhiều sức mạnh tính toán hơn để khai thác, khiến thợ đào mất nhiều thời gian hơn để tìm ra các giải pháp proof-of-work hợp lệ
+  - "Kích thước khối tăng làm giảm hiệu quả của cơ chế điều chỉnh độ khó, dẫn đến khoảng thời gian khối không thể đoán trước"
+  - Các khối lớn hơn tạo ra nhiều xung đột giao dịch hơn giữa các khối cạnh tranh, khiến việc xác định khối nào nên được chấp nhận trở nên khó khăn hơn
+explanation: |
+  Câu trả lời đúng xác định cơ chế cốt lõi đằng sau các khối cũ. Khi các khối lớn hơn, chúng cần nhiều băng thông hơn để truyền giữa các nút và nhiều thời gian hơn để xác thực. Trong giai đoạn lan truyền kéo dài này, nhiều thợ đào có thể tìm thấy các khối cạnh tranh ở cùng độ cao vì họ chưa nhận được khối mới nhất. Điều này tạo ra tình trạng chạy đua, trong đó cuối cùng chỉ có một khối được chấp nhận, khiến các khối còn lại trở nên cũ. Các câu trả lời sai nhầm lẫn vấn đề lan truyền này với độ khó của mining, cơ chế đồng thuận hoặc xung đột giao dịch, vốn là những vấn đề riêng biệt với vấn đề thời gian gây ra các khối cũ.

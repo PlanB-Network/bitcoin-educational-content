@@ -1,0 +1,8 @@
+question: Je, ugatuaji wa wachimbaji madini unarejelea nini hasa katika Bitcoin?
+answer: Upangaji wa miamala unafanywa kwa pamoja na kikundi chenye nguvu cha wachimbaji badala ya chombo kimoja.
+wrong_answers:
+  - Uthibitishaji wa vitalu husambazwa katika mamlaka nyingi zinazoaminika badala ya seva moja kuu
+  - Zawadi za mining zinasambazwa kwa usawa miongoni mwa washiriki wote katika mtandao wa Bitcoin
+  - Vifaa vya mining vinatengenezwa na makampuni mbalimbali ili kuzuia monopolization wa vifaa
+explanation: |
+  Ugatuaji wa Miner unamaanisha mahsusi kwamba uagizaji wa miamala haudhibitiwi na huluki moja au kikundi maalum, bali na kikundi cha wachimbaji madini ambao wanaweza kujiunga au kuondoka kwa hiari. Hii ni tofauti na uthibitishaji wa kuzuia (unaohusiana na ugatuaji wa full node), usambazaji wa zawadi, au utengenezaji wa maunzi. Asili ya mabadiliko ya mining - ambapo mtu yeyote anaweza kushiriki bila ruhusa - ndiyo inayofanya Bitcoin kustahimili udhibiti na kuzuia mhusika yeyote kudhibiti ni miamala ipi inayojumuishwa kwenye vizuizi.

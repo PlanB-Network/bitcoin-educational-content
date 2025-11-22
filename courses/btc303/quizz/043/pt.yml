@@ -1,0 +1,8 @@
+question: O que é que o conceito de harmonia Bitcoin, tal como descrito através da analogia de David Harding, enfatiza principalmente sobre o funcionamento da rede?
+answer: Milhares de nós completos verificam independentemente as transacções para obter um acordo harmonioso sem exigir confiança entre os operadores
+wrong_answers:
+  - Os agrupamentos Mining devem coordenar os seus esforços para cantar a mesma canção e produzir blocos em harmonia sincronizada
+  - Os criadores do Bitcoin têm de chegar a um consenso unânime antes de implementarem quaisquer alterações ou actualizações do protocolo
+  - Todos os utilizadores do Bitcoin devem concordar com a validade da transação através de um processo de votação democrático para manter a estabilidade da rede
+explanation: |
+  A analogia da harmonia de David Harding enfatiza que a força do Bitcoin vem de milhares de nós completos independentes, cada um trabalhando separadamente para verificar as transacções, criando um acordo harmonioso sobre o estado do livro-razão sem que nenhum operador de nó precise de confiar nos outros. Isto é comparado a um coro em que cada membro canta independentemente, mas produz uma bela harmonia em conjunto. As respostas erradas interpretam mal este conceito, sugerindo requisitos de coordenação entre mineiros, programadores ou utilizadores, o que contradiz o princípio fundamental da verificação independente que torna a Bitcoin descentralizada e sem confiança.

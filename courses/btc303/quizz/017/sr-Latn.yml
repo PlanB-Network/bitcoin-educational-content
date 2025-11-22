@@ -1,0 +1,8 @@
+question: Koji je glavni nedostatak pouzdanih finansijskih sistema koji Bitcoin-ov dizajn bez poverenja ima za cilj da reši?
+answer: Nemogućnost obavljanja potpuno nepovratnih transakcija zbog zahteva za posredovanjem u sporovima
+wrong_answers:
+  - Visoka potrošnja energije potrebna za obradu elektronskih plaćanja putem banaka
+  - Ograničen broj transakcija koje finansijske institucije mogu obraditi po sekundi
+  - Zahtev da kupci dostave prekomerne lične identifikacione dokumente
+explanation: |
+  Prema Satoshi Nakamotu u Bitcoin whitepaper-u, tradicionalni finansijski sistemi pate od osnovne slabosti jer potpuno nepovratne transakcije nisu moguće zato što finansijske institucije moraju posredovati u sporovima. Ovo stvara niz problema: povećani troškovi transakcija zbog posredovanja, eliminacija malih povremenih transakcija i širenje zahteva za poverenjem kroz ceo sistem. Druge opcije, iako potencijalno relevantne za finansijske sisteme, nisu osnovni problem koji Bitcoin-ov dizajn bez poverenja specifično rešava. Inovacija Bitcoin omogućava konačno poravnanje bez potrebe za pouzdanim trećim licem koje bi poništilo transakcije.

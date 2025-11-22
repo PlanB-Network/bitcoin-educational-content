@@ -1,0 +1,8 @@
+question: Vilken mekanism säkerställer att Bitcoin:s leveransgräns upprätthålls utan att kräva förtroende för någon central myndighet?
+answer: Fullständiga noder som kör verifieringskod som automatiskt avvisar block med ogiltiga coinbase-transaktioner
+wrong_answers:
+  - En distribuerad konsensusalgoritm som kräver majoritetsgodkännande för alla leveransändringar
+  - Kryptografisk proof-of-work som matematiskt förhindrar skapandet av överflödiga mynt
+  - Nätverksvalidatorer som röstar om transaktionens giltighet genom en demokratisk process
+explanation: |
+  Bitcoin:s leveransgräns upprätthålls genom fullständiga noder som kör verifieringskod för att kontrollera varje blocks coinbase-transaktion mot konsensusreglerna. Även om vissa noder blir illvilliga och accepterar ogiltiga block med överdrivna belöningar, kommer ärliga noder helt enkelt att ignorera dem och fortsätta med den giltiga kedjan. Detta skapar ett tillitslöst system där du inte behöver lita på någon individ eller myndighet - du behöver bara köra kod som verifierar att reglerna följs, vilket gör nätverket kollektivt säkert mot försök till utbudsinflation.

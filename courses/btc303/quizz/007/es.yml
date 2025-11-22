@@ -1,0 +1,8 @@
+question: ¿A qué se refiere la descentralización de full node en Bitcoin?
+answer: Los usuarios, y no las autoridades de confianza, validan los bloques en el extremo de la red
+wrong_answers:
+  - El procesamiento de las transacciones se distribuye entre varios pools mining en lugar de entre una única entidad
+  - Las normas del protocolo Bitcoin son decididas por un grupo distribuido de desarrolladores del núcleo
+  - Las claves privadas se almacenan en varios dispositivos en lugar de en un único wallet
+explanation: |
+  La descentralización Full node significa que la validación de los bloques (los datos que producen los mineros) se realiza en el extremo de la red por usuarios individuales que gestionan sus propios nodos, en lugar de depender de unas pocas autoridades de confianza para verificar las transacciones. Esto es distinto de la descentralización de los mineros, que se ocupa de ordenar y procesar las transacciones. Las otras opciones confunden la descentralización de full node con la distribución de mining, las estructuras de gobierno o las prácticas de seguridad, pero ninguna capta el concepto central de validación de bloques distribuida por los participantes de la red.

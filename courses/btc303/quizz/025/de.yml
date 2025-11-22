@@ -1,0 +1,8 @@
+question: Was sind die zwei Hauptwege, auf denen private Finanzinformationen bei der Verwendung von Bitcoin durchsickern können?
+answer: On-Chain durch Blockchain-Analyse und off-chain durch abgefangene Kommunikation
+wrong_answers:
+  - Durch wallet-Softwarefehler und mining-Pool-Datenverletzungen
+  - Über Börsenhacks und staatliche Überwachungsprogramme
+  - Durch Beiträge in den sozialen Medien und öffentliche Ankündigungen von Transaktionen
+explanation: |
+  Nach dem Inhalt des Kapitels können private Daten vor allem auf zwei Arten durchsickern: on-chain und off-chain. On-Chain-Lecks entstehen durch die Analyse der öffentlichen Blockchain, wo Transaktionsmuster, Adresswiederverwendung und Clustering Finanzinformationen offenlegen können. Off-Chain-Lecks entstehen, wenn böswillige Akteure die Internetkommunikation abfangen oder durch andere Mittel außerhalb der Blockchain. Während die falschen Antworten reale Sicherheitsprobleme im Bitcoin-Ökosystem erwähnen, repräsentieren sie nicht die grundlegende Kategorisierung der Art und Weise, wie Lecks in der Privatsphäre entstehen, wie sie im Material beschrieben wird.

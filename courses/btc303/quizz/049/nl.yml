@@ -1,0 +1,8 @@
+question: Wat is volgens de adversarial thinking benadering de belangrijkste reden waarom alle bekende zwakheden in Bitcoin aangepakt moeten worden in plaats van een bepaald risiconiveau te accepteren?
+answer: Bitcoin opereert in een pseudonieme online omgeving waar tegenstanders zwakheden kunnen uitbuiten zonder gepakt of verantwoordelijk gehouden te worden
+wrong_answers:
+  - "Het formele beveiligingsmodel van Bitcoin vereist wiskundig bewijs dat alle potentiële aanvalsvectoren zijn geëlimineerd."
+  - De gedistribueerde aard van Bitcoin betekent dat zelfs kleine zwakheden kunnen leiden tot systeembrede storingen op alle knooppunten
+  - "Bitcoin's vaste voorraad maakt het economisch onhaalbaar om verliezen van succesvolle aanvallen te absorberen, in tegenstelling tot traditionele financiële systemen."
+explanation: |
+  Het juiste antwoord geeft Andrew Poelstra's belangrijkste inzicht weer over online systemen versus fysieke systemen. In tegenstelling tot gebouwen waar we enig risico accepteren en vertrouwen op wetshandhaving, opereert Bitcoin in een pseudonieme omgeving waar aanvallers kunnen handelen zonder zichtbaarheid of gevolgen. Dit fundamentele verschil betekent dat elke bekende zwakke plek onvermijdelijk zal worden uitgebuit, waardoor uitgebreide beveiliging essentieel wordt in plaats van optioneel risicomanagement.

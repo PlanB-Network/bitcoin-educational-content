@@ -1,0 +1,8 @@
+question: Co považuje Gregory Maxwell za větší riziko pro Bitcoin než 51% útoky?
+answer: Lidé nechápou nebo nechrání decentralizační vlastnosti Bitcoin
+wrong_answers:
+  - Těžaři soustřeďují příliš mnoho výpočetního výkonu na jednom místě
+  - Vládní nařízení bránící operacím Bitcoin mining
+  - "Technické chyby v kryptografických algoritmech Bitcoin"
+explanation: |
+  Podle příspěvku Gregoryho Maxwella na Redditu, který je citován v kapitole, sice teoreticky existuje riziko 51% útoků, ale mnohem větší riziko spočívá v tom, že uživatelé Bitcoin nepochopí, nebudou se zajímat a nebudou chránit vlastnosti decentralizace, díky nimž je Bitcoin cennější než centralizované alternativy. Právě decentralizace totiž zajišťuje odolnost systému Bitcoin vůči cenzuře - jeho klíčový odlišující prvek od tradičních peněžních systémů. Pokud lidé nebudou tyto vlastnosti aktivně chránit, může se Bitcoin postupně centralizovat, až bude cenzura možná, což zničí většinu jeho hodnotové nabídky. Ostatní možnosti jsou sice potenciálními problémy, ale nejsou tím, co Maxwell konkrétně označil za větší hrozbu pro dlouhodobý úspěch Bitcoin.

@@ -1,0 +1,8 @@
+question: Nhược điểm chính của hệ thống tài chính đáng tin cậy mà thiết kế không cần sự tin cậy của Bitcoin muốn giải quyết là gì?
+answer: Không có khả năng thực hiện các giao dịch hoàn toàn không thể đảo ngược do yêu cầu hòa giải tranh chấp
+wrong_answers:
+  - Tiêu thụ năng lượng cao cần thiết để xử lý thanh toán điện tử thông qua ngân hàng
+  - Số lượng giao dịch giới hạn có thể được xử lý mỗi giây bởi các tổ chức tài chính
+  - Yêu cầu khách hàng cung cấp quá nhiều giấy tờ tùy thân
+explanation: |
+  Theo Satoshi Nakamoto trong sách trắng Bitcoin, các hệ thống tài chính truyền thống gặp phải điểm yếu cơ bản là không thể thực hiện các giao dịch hoàn toàn không thể đảo ngược do các tổ chức tài chính phải đứng ra hòa giải tranh chấp. Điều này tạo ra một loạt vấn đề: chi phí giao dịch tăng do phải hòa giải, loại bỏ các giao dịch nhỏ lẻ, và việc lan truyền các yêu cầu về lòng tin trên toàn hệ thống. Các lựa chọn khác, mặc dù có thể liên quan đến hệ thống tài chính, nhưng không phải là vấn đề cốt lõi mà thiết kế không cần lòng tin của Bitcoin giải quyết cụ thể. Sự đổi mới của Bitcoin là cho phép thanh toán cuối cùng mà không cần bên thứ ba đáng tin cậy để đảo ngược giao dịch.

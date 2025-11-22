@@ -1,0 +1,8 @@
+question: Enligt Eric Voskuils motståndsaxiom, vilket grundläggande antagande måste accepteras för att Bitcoin ska vara meningsfullt som ett system?
+answer: Att det är möjligt för ett system att motstå statlig kontroll
+wrong_answers:
+  - Att majoriteten av nätverkets makthavare alltid kommer att förbli ärliga
+  - Att kryptografiska algoritmer aldrig kommer att kunna brytas av kvantdatorer
+  - Att användare alltid kommer att prioritera decentralisering framför bekvämlighet
+explanation: |
+  Motståndsaxiomet förutsätter att system kan motstå statlig kontroll, vilket är grundläggande för Bitcoin:s syfte som tillståndslösa pengar. Utan detta antagande kollapsar hela Bitcoin:s premiss eftersom den oundvikligen skulle kontrolleras av stater. De andra alternativen, även om de är relevanta för Bitcoin:s säkerhet, är inte en del av Voskuils motståndsaxiom, som specifikt behandlar den filosofiska grunden att motstånd mot statlig kontroll är möjligt.

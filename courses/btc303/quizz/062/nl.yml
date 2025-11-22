@@ -1,0 +1,8 @@
+question: Wat is volgens de open source definitie de vereiste relatie tussen afgeleide werken en hun licentievoorwaarden in vergelijking met de originele software?
+answer: Afgeleide werken moeten gedistribueerd mogen worden onder dezelfde voorwaarden als de licentie van de originele software
+wrong_answers:
+  - Afgeleide werken moeten gedistribueerd worden onder restrictievere licentievoorwaarden dan de originele software
+  - Afgeleide werken moeten worden uitgebracht onder een compleet andere licentie die niet compatibel is met het origineel
+  - Afgeleide werken kunnen alleen worden verspreid onder eigendomslicenties waarvoor royalty's moeten worden betaald
+explanation: |
+  De definitie van open bron stelt expliciet dat "de licentie wijzigingen en afgeleide werken moet toestaan, en moet toestaan dat ze gedistribueerd worden onder dezelfde voorwaarden als de licentie van de originele software" Dit zorgt ervoor dat afgeleide werken dezelfde vrijheden behouden als het origineel, en voorkomt dat iemand open broncode neemt en er eigendom van maakt. De andere opties schenden dit fundamentele principe door ofwel de vrijheid te beperken of de compatibiliteit van de licenties te veranderen.

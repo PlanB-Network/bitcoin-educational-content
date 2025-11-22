@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste uitdaging die het publiceren van kwetsbaarheidpatches voor Bitcoin bijzonder complex maakt in vergelijking met traditionele gecentraliseerde softwaresystemen?
+answer: De patchcode zelf kan de kwetsbaarheid onthullen aan potentiële aanvallers die de wijzigingen analyseren
+wrong_answers:
+  - De gedecentraliseerde aard betekent dat er geen centrale autoriteit is om de timing voor het uitrollen van patches te coördineren
+  - "Bitcoin's consensusmechanisme vereist goedkeuring van een meerderheid voordat beveiligingspatches kunnen worden geïmplementeerd"
+  - De open-source aard betekent dat alle kwetsbaarheden openbaar moeten worden gemaakt voordat er patches worden ontwikkeld
+explanation: |
+  De tekst benadrukt specifiek dat ontwikkelaars extreem voorzichtig moeten zijn met het publiceren van patches omdat "de patch zelf de kwetsbaarheid zou kunnen weggeven" Dit creëert een unieke uitdaging waarbij de oplossing onbedoeld het probleem kan blootleggen. De vierde bullet beschrijft hoe Bitcoin ontwikkelaars testen of een patch 'goed genoeg verhuld is' door ervaren ontwikkelaars de patch te laten beoordelen zonder de specifieke kwetsbaarheid te kennen. Als deze experts de kwetsbaarheid niet uit de patch kunnen halen, wordt deze veilig geacht om te implementeren. De andere opties zijn onjuist: er is coördinatie door Bitcoin kernbeheerders, consensus is niet vereist voor patches en kwetsbaarheden worden privé gehouden tijdens verantwoorde openbaarmaking.

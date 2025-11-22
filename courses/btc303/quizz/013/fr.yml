@@ -1,0 +1,8 @@
+question: D'après la présentation de Matt Corallo, quelle est la relation entre les systèmes de confiance et les systèmes sans confiance dans l'architecture du Bitcoin ?
+answer: Il est possible de construire des systèmes de confiance au-dessus d'un système sans confiance, mais pas des systèmes sans confiance au-dessus de systèmes de confiance
+wrong_answers:
+  - Il est possible de construire des systèmes sans confiance au-dessus de systèmes de confiance, mais pas des systèmes de confiance au-dessus de systèmes sans confiance
+  - Les systèmes de confiance et sans confiance peuvent être construits l'un sur l'autre sans aucune limitation architecturale
+  - Les systèmes Trustless et les systèmes de confiance doivent fonctionner de manière indépendante et ne peuvent pas être superposés
+explanation: |
+  L'idée maîtresse de Matt Corallo est que la couche de base sans confiance du Bitcoin permet une certaine souplesse dans la conception des systèmes. Une base sans confiance comme le protocole Bitcoin permet aux développeurs de créer des services de confiance (comme les portefeuilles de garde) sur des couches plus élevées tout en préservant les garanties de sécurité sous-jacentes. Toutefois, l'inverse est impossible : il est impossible de créer des systèmes véritablement sans confiance si la base elle-même nécessite la confiance, car toute propriété sans confiance serait compromise par les vulnérabilités de la couche de base de confiance.

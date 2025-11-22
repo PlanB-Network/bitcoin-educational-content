@@ -1,0 +1,8 @@
+question: Vastavalt Gregory Maxwelli poolt käsitletud kompromissile läbilaskevõime ja detsentraliseerimise vahel, mis juhtub siis, kui Bitcoin plokiahela ressursikasutus muutub liiga suureks võrreldes olemasoleva tehnoloogiaga?
+answer: Bitcoin kaotab konkurentsieeliseid võrreldes vanade süsteemidega, sest valideerimine muutub liiga kulukaks, mistõttu paljud kasutajad jäävad kõrvale ja usaldus süsteemi vastu on sunnitud tagasi pöörduma
+wrong_answers:
+  - Bitcoin muutub turvalisemaks, sest valideerimises saavad osaleda ainult kõige pühendunumad ja võimsama riistvaraga kasutajad, mis loob tugevama võrgu
+  - Bitcoin kohandab automaatselt oma raskusastme algoritmi, et vähendada ressursivajadust ja säilitada sama detsentraliseerituse tase kõigi osalejate jaoks
+  - Bitcoin jaguneb mitmeks paralleelseks ahelaks, et jaotada arvutuskoormust, säilitades samal ajal kõigile kasutajatele samad julgeolekutagatised
+explanation: |
+  Maxwell tuvastas põhimõttelise kompromissi, mille puhul liigsed ressursinõuded suruvad kasutajaid pigem usaldusväärsete kolmandate osapoolte kui sõltumatu valideerimise poole. Kui valideerimiskulud muutuvad ülemääraseks, ei saa kasutajad endale lubada täielikke sõlmpunkte ja peavad toetuma teistele, mis õõnestab Bitcoin usaldusteta olemust. Valed vastused viitavad ebaõigesti kasulikele tulemustele (suurem turvalisus, automaatsed kohandused või säilitatud garantiid), kui suur ressursikasutus sunnib tegelikult tsentraliseerimist ja usaldussõltuvust.

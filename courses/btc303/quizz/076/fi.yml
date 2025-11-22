@@ -1,0 +1,8 @@
+question: Mikä on vastuullisen julkistamiskäytännön mukaan tärkein eettinen ongelma, jonka tietoturvatutkijat kohtaavat, kun he löytävät haavoittuvuuksia Bitcoin:n kaltaisissa hajautetuissa järjestelmissä?
+answer: Tasapainottaminen sen kanssa, että vastuullisille osapuolille on tiedotettava ja samalla vältettävä paljastamista mahdollisille pahansuoville toimijoille, jotka voisivat käyttää haavoittuvuutta hyväkseen
+wrong_answers:
+  - Päätetään, hyödynnetäänkö haavoittuvuuden löytymisestä bug bounty -ohjelmien avulla vai lahjoitetaanko tieto vapaasti yhteisölle
+  - Valitaan, raportoidaanko ensin viranomaisille vai raportoidaanko suoraan ohjelmistokehitystiimille, jotta vältetään lainsäädännölliset hankaluudet
+  - Haavoittuvuuksien löytämisestä maksettavan asianmukaisen taloudellisen korvauksen määrittäminen ennen kuin suostutaan luovuttamaan tiedot kehittäjille
+explanation: |
+  Vastuullisen tiedonvälityksen keskeinen eettinen haaste on herkkä tasapaino avoimuuden ja turvallisuuden välillä. Tutkijoiden on varmistettava, että haavoittuvuuksiin puututaan tarjoamatta tahattomasti tietä pahansuovalle hyväksikäytölle. Tämä edellyttää huolellista koordinointia kehittäjien kanssa, oikea-aikaista julkistamista ja laajempien ekosysteemivaikutusten huomioon ottamista. Muissa vaihtoehdoissa keskitytään taloudellisiin tai sääntelyyn liittyviin huolenaiheisiin, jotka voivat olla merkityksellisiä, mutta eivät ole ensisijainen eettinen ongelma, jota vastuullisessa julkistamiskäytännössä hahmotellaan.

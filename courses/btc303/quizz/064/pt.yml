@@ -1,0 +1,8 @@
+question: De acordo com o compromisso entre rendimento e descentralização discutido por Gregory Maxwell, o que acontece quando a utilização de recursos da cadeia de blocos Bitcoin se torna demasiado grande em relação à tecnologia disponível?
+answer: O Bitcoin perde vantagens competitivas em comparação com os sistemas antigos porque a validação se torna demasiado dispendiosa, afastando muitos utilizadores e forçando a confiança de volta ao sistema
+wrong_answers:
+  - O Bitcoin torna-se mais seguro porque apenas os utilizadores mais dedicados com hardware potente podem participar na validação, criando uma rede mais forte
+  - O Bitcoin ajusta automaticamente o seu algoritmo de dificuldade para reduzir os requisitos de recursos e manter o mesmo nível de descentralização em todos os participantes
+  - O Bitcoin divide-se em várias cadeias paralelas para distribuir a carga computacional, mantendo as mesmas garantias de segurança para todos os utilizadores
+explanation: |
+  Maxwell identificou um compromisso fundamental em que os requisitos de recursos excessivos empurram os utilizadores para terceiros de confiança em vez de validação independente. Quando os custos de validação se tornam proibitivos, os utilizadores não podem ter recursos para executar nós completos e têm de confiar em terceiros, minando a natureza sem confiança do Bitcoin. As respostas erradas sugerem incorretamente resultados benéficos (maior segurança, ajustes automáticos ou garantias mantidas) quando a utilização de recursos elevados força a centralização e as dependências de confiança.

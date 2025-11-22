@@ -1,8 +1,8 @@
-question: Czym jest szwajcarskie wynagrodzenie Bitcoin?
-answer: Rozwiązanie dla sprzedawców amatorów do akceptowania Bitcoin.
+question: Czym jest Swiss Bitcoin Pay?
+answer: Rozwiązanie dla sprzedawców amatorów do akceptowania bitcoina.
 wrong_answers:
-  - Szwajcarski bank akceptujący Bitcoin.
-  - Bitcoin Exchange ze Szwajcarii.
-  - Firma Mining, która działa w Szwajcarii.
+  - Szwajcarski bank akceptujący bitcoina.
+  - Giełda bitcoina ze Szwajcarii.
+  - Firma wydobywcza, która działa w Szwajcarii.
 explanation: >-
 reviewed: true

@@ -1,0 +1,8 @@
+question: Mida tähendab kaevurite detsentraliseerimine Bitcoins konkreetselt?
+answer: Tehingute tellimist teostab ühiselt dünaamiline kaevurite kogum, mitte üks üksus
+wrong_answers:
+  - Plokkide valideerimine on jaotatud mitme usaldusväärse asutuse vahel, mitte ühe keskserveri vahel
+  - mining preemiad jaotatakse võrdselt kõigi Bitcoin võrgustiku osalejate vahel
+  - mining riistvara toodavad erinevad ettevõtted, et vältida seadmete monopoolset kasutamist
+explanation: |
+  Miner detsentraliseerimine tähendab konkreetselt seda, et tehingu tellimist ei kontrolli ükski üksus või kindel grupp, vaid pigem kaevurite kollektiiv, kes võivad vabalt liituda või lahkuda. See erineb plokkide valideerimisest (mis on seotud full node detsentraliseerimisega), tasu jaotamisest või riistvara tootmisest. mining kollektiivi dünaamiline olemus - kus igaüks võib osaleda ilma loata - on see, mis teeb Bitcoin tsensuurikindlaks ja takistab ühelgi osapoolel kontrollida, milliseid tehinguid plokkidesse lisatakse.

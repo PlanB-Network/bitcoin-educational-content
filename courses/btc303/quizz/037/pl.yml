@@ -1,0 +1,8 @@
+question: Jaka była główna kwestia, która sprawiła, że aktualizacja Segwit różniła się od poprzednich aktualizacji Bitcoin?
+answer: Górnicy nie zasygnalizowali wsparcia pomimo ogromnego wsparcia ze strony użytkowników, co opóźniło proces aktywacji
+wrong_answers:
+  - Aktualizacja wymagała twardego fork zamiast zwykłej metody implementacji miękkiego fork
+  - Błędy techniczne w kodzie Segwit uniemożliwiały bezpieczne wdrożenie do czasu ich usunięcia
+  - Węzły ekonomiczne odrzuciły aktualizację z powodu obaw o zwiększone opłaty transakcyjne
+explanation: |
+  Aktualizacja Segwit była wyjątkowa, ponieważ napotkała problem z koordynacją, w którym istniało przytłaczające wsparcie wśród użytkowników Bitcoin, ale górnicy odmówili zasygnalizowania wsparcia dla aktualizacji. Stworzyło to sytuację patową, w której aktualizacja nie mogła zostać aktywowana za pomocą normalnego mechanizmu miękkiego fork aktywowanego przez górników. Poprzednie aktualizacje były stosunkowo bezbolesne, ponieważ miały wsparcie zarówno użytkowników, jak i górników. Sytuacja ta doprowadziła do zaproponowania User Activated Soft Forks (UASF) jako alternatywnego mechanizmu aktywacji, który nie polegał na sygnalizacji górniczej, podkreślając napięcie między różnymi interesariuszami w ekosystemie Bitcoin.

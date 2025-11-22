@@ -1,0 +1,8 @@
+question: Mida tähendab see, kui Bitcoin on kirjeldatud pigem pseudonüümse kui anonüümse süsteemina?
+answer: Kasutajad on jälgitavad oma pseudonüümide vahel, kuid nende tegelik identiteet ei ole otseselt avalikustatud
+wrong_answers:
+  - Kasutajad ei ole üldse jälgitavad ja nende tehingud on täielikult varjatud
+  - Kasutajad peavad registreerima oma tegelikud nimed, kuid võivad tehingute tegemiseks kasutada võltsaadresse
+  - Kasutajad on täiesti anonüümsed, ilma et oleks võimalik mingeid tehinguid omavahel siduda
+explanation: |
+  Bitcoin pseudonüümne olemus tähendab, et kuigi kasutajad tegutsevad pseudonüümide (avalike võtmete alusel saadud aadressid) all, saab nende tehinguid siiski jälgida ja nende pseudonüümide vahel plokiahelas seostada. See erineb tõelisest anonüümsusest, kus tehingud ei jätaks üldse jälgitavaid ühendusi. Bitcoin puhul saab jälgida aadresside vahelist rahavoogu, kuid nende aadresside taga olev tegelik identiteet ei tule otseselt esile, välja arvatud juhul, kui keegi seda vabatahtlikult avaldab või teeb vigu, mis lekitavad tema privaatseid andmeid.

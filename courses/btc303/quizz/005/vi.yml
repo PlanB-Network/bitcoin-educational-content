@@ -1,0 +1,8 @@
+question: Trong Bitcoin, khái niệm phi tập trung của thợ đào cụ thể đề cập đến điều gì?
+answer: Việc sắp xếp các giao dịch được thực hiện tập thể bởi một nhóm thợ đào năng động chứ không phải một thực thể duy nhất
+wrong_answers:
+  - Việc xác thực các khối được phân phối trên nhiều cơ quan đáng tin cậy thay vì một máy chủ trung tâm
+  - Phần thưởng mining được phân bổ đều cho tất cả những người tham gia vào mạng lưới Bitcoin
+  - Phần cứng mining được sản xuất bởi nhiều công ty khác nhau để ngăn chặn tình trạng độc quyền thiết bị
+explanation: |
+  Cụ thể, tính phi tập trung của Miner có nghĩa là thứ tự giao dịch không bị kiểm soát bởi bất kỳ thực thể hay nhóm cố định nào, mà bởi một tập thể thợ đào có thể tự do tham gia hoặc rời đi. Điều này khác với việc xác thực khối (liên quan đến tính phi tập trung của full node), phân phối phần thưởng hoặc sản xuất phần cứng. Tính chất năng động của tập thể mining - nơi bất kỳ ai cũng có thể tham gia mà không cần xin phép - chính là yếu tố giúp Bitcoin chống lại kiểm duyệt và ngăn chặn bất kỳ bên nào kiểm soát giao dịch nào được đưa vào khối.

@@ -1,0 +1,8 @@
+question: Quel type d'attaque implique qu'une entité unique contrôle plusieurs nœuds pour se faire passer pour plusieurs entités, et pourquoi n'est-elle pas efficace contre le mécanisme de consensus du Bitcoin ?
+answer: Attaque Sybil ; elle est inefficace parce que Bitcoin utilise la puissance de calcul de proof-of-work pour le consensus plutôt que pour le comptage des nœuds
+wrong_answers:
+  - Attaque Eclipse ; elle est inefficace car Bitcoin crypte toutes les communications des nœuds à l'aide de protocoles cryptographiques avancés
+  - Attaque par déni de service ; elle est inefficace car Bitcoin redistribue automatiquement le trafic sur les nœuds sains du réseau
+  - Attaque d'ingénierie sociale ; elle est inefficace car les développeurs de Bitcoin utilisent des méthodes de vérification formelle pour empêcher toute manipulation
+explanation: |
+  Une attaque Sybil se produit lorsqu'une entité contrôle plusieurs nœuds pour se faire passer pour plusieurs entités distinctes. Cependant, cette attaque est inefficace contre le Bitcoin car le réseau ne repose pas sur le comptage des nœuds ou le vote démocratique entre les participants au réseau. Au contraire, le Bitcoin utilise le consensus proof-of-work dans lequel la puissance de calcul (hashpower) détermine les décisions du réseau, et non le nombre de nœuds. Il est donc impossible pour un attaquant d'exercer une influence simplement en faisant fonctionner de nombreux nœuds sans les ressources informatiques correspondantes.

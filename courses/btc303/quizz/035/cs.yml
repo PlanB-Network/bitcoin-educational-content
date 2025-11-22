@@ -1,0 +1,8 @@
+question: Jaký je matematický vzorec pravděpodobnosti, že nepoctivý těžař s x procenty hash rate úspěšně provede fee sniping tak, že re-mining předchozí blok plus nový blok?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  Správný vzorec je (x/(1-x))^2, protože fee sniping vyžaduje, aby těžař úspěšně vytěžil dva po sobě jdoucí bloky a nahradil tak předchozí blok a prodloužil řetězec. Pravděpodobnost mining jednoho bloku proti poctivým těžařům je x/(1-x), a protože je třeba vytěžit dva bloky po sobě, je tato pravděpodobnost čtvercová. Ostatní vzorce jsou matematicky věrohodné, ale představují různé pravděpodobnostní scénáře, které neodpovídají specifickým požadavkům fee snipingu, kdy nepoctivý těžař musí překonat poctivou síť dvakrát po sobě.

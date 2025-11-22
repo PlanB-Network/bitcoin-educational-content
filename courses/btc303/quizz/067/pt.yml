@@ -1,0 +1,8 @@
+question: De acordo com a definição fornecida para o escalonamento Bitcoin, que abordagem NÃO se qualificaria como escalonamento legítimo?
+answer: Aumento da taxa de transferência de transacções, exigindo que os utilizadores confiem em processadores de pagamento centralizados para a maioria das transacções
+wrong_answers:
+  - Fazer com que as entradas de transação utilizem menos bytes através de esquemas de codificação mais eficientes
+  - Implementação de soluções de arquitetura em camadas que criam protocolos sobre o Bitcoin
+  - Melhorar o desempenho da verificação de assinaturas para processar blocos mais rapidamente
+explanation: |
+  O capítulo define explicitamente o escalonamento do Bitcoin como 'aumentar a capacidade de uso do Bitcoin sem comprometer sua resistência à censura' A resposta correta viola essa definição porque exigir que os usuários confiem em processadores de pagamento centralizados compromete diretamente a resistência à censura do Bitcoin - uma proposta de valor central. Todas as respostas erradas representam abordagens legítimas de escalonamento mencionadas no capítulo: a codificação eficiente reduz o uso de recursos, as soluções em camadas permitem capacidade adicional enquanto preservam as propriedades da camada de base e a verificação de assinatura aprimorada melhora o desempenho sem compensações de centralização.

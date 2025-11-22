@@ -1,0 +1,8 @@
+question: De acordo com o capítulo, o que distingue um fork suave de um fork duro nas alterações de regras de consenso do Bitcoin?
+answer: Um fork suave é totalmente compatível (tanto para a frente como para trás), enquanto um fork rígido é apenas compatível para trás
+wrong_answers:
+  - Um fork suave requer a ativação do sinal de mineiro, enquanto um fork duro utiliza a ativação do dia da bandeira
+  - Um fork suave altera os códigos de operação existentes, enquanto um fork rígido apenas acrescenta novos códigos de operação, como OP_NOP1-OP_NOP10
+  - Um fork suave pode ser implementado secretamente em commits, enquanto que um fork duro requer um anúncio público
+explanation: |
+  O capítulo define claramente os tipos de compatibilidade: a compatibilidade com o futuro permite que o software antigo processe novos dados ignorando partes desconhecidas, enquanto a compatibilidade com o passado permite que o software novo processe dados antigos. Um fork suave mantém ambos os tipos de compatibilidade, tornando-o totalmente compatível. Um fork rígido mantém apenas a compatibilidade com versões anteriores, o que significa que o novo software pode processar dados antigos, mas o software antigo não pode processar novos dados do sistema atualizado. Esta distinção é crucial para compreender os mecanismos de atualização do Bitcoin e a razão pela qual os soft forks são preferidos para manter a harmonia da rede.

@@ -1,0 +1,8 @@
+question: Gregory Maxwell tarafından tartışılan verim ve merkeziyetsizlik arasındaki değiş tokuşa göre, Bitcoin blok zincirinin kaynak kullanımı mevcut teknolojiye göre çok büyük hale geldiğinde ne olur?
+answer: Bitcoin eski sistemlere kıyasla rekabet avantajlarını kaybeder, çünkü doğrulama çok maliyetli hale gelir, birçok kullanıcıyı dışarıda bırakır ve güvenin sisteme geri dönmesini zorlar
+wrong_answers:
+  - Bitcoin daha güvenli hale gelir çünkü yalnızca güçlü donanıma sahip en özel kullanıcılar doğrulamaya katılabilir ve daha güçlü bir ağ oluşturur
+  - Bitcoin, kaynak gereksinimlerini azaltmak ve tüm katılımcılar arasında aynı ademi merkeziyetçilik seviyesini korumak için zorluk algoritmasını otomatik olarak ayarlar
+  - Bitcoin, tüm kullanıcılar için aynı güvenlik garantilerini korurken hesaplama yükünü dağıtmak için birden fazla paralel zincire ayrılır
+explanation: |
+  Maxwell, aşırı kaynak gereksinimlerinin kullanıcıları bağımsız doğrulama yerine güvenilir üçüncü taraflara ittiği temel bir değiş tokuş tespit etmiştir. Doğrulama maliyetleri engelleyici hale geldiğinde, kullanıcılar tam düğümleri çalıştırmayı göze alamaz ve başkalarına güvenmek zorunda kalır, bu da Bitcoin'in güvenilmez doğasını zayıflatır. Yanlış cevaplar, yüksek kaynak kullanımı aslında merkezileşmeyi ve güven bağımlılıklarını zorladığında faydalı sonuçları (artan güvenlik, otomatik ayarlamalar veya sürdürülen garantiler) yanlış bir şekilde önermektedir.

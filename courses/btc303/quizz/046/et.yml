@@ -1,0 +1,8 @@
+question: Mille poolest erinevad Bitcoin-sugused veebisüsteemid põhimõtteliselt füüsilistest süsteemidest, kui tegemist on vastase ohuga?
+answer: Veebisüsteemid seisavad silmitsi pseudonüümsete ja anonüümsete vastastega, kes saavad ära kasutada kõiki nõrkusi, ilma et neid oleks näha või tabatud
+wrong_answers:
+  - Online-süsteemidel on keerukamad krüptograafilised algoritmid, mida on raskem analüüsida turvaaukude suhtes
+  - Füüsilisi süsteeme saavad kaitsta õiguskaitseorganid, samas kui võrgusüsteemid tuginevad ainult matemaatilistele tõenditele
+  - Online-süsteemid töötlevad tehinguid kiiremini, mis muudab vastaste jaoks koordineeritud rünnakute käivitamise lihtsamaks
+explanation: |
+  Andrew Poelstra rõhutas, et füüsilised süsteemid võivad rünnakute ärahoidmiseks tugineda õiguskaitsele ja vastaste nähtavusele, võttes isegi mõningaid riske, nagu hoonete mahapõletamine. Kuid veebipõhised süsteemid, nagu Bitcoin, tegutsevad keskkonnas, kus vastased saavad tegutseda pseudonüümselt või anonüümselt, luua ühenduse ükskõik kust ja kasutada ära nõrkusi, ilma et neid tuvastataks või tabataks. See põhimõtteline erinevus tähendab, et kõik Bitcoin teadaolevad nõrgad kohad tuleb kõrvaldada, sest neid kasutavad paratamatult ära nähtamatud vastased, kes ei puutu kokku reaalsete tagajärgedega.

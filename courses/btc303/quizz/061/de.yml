@@ -1,0 +1,8 @@
+question: Welches ist die grundlegende Anforderung, die es den Nutzern ermöglicht, zu überprüfen, ob Bitcoin-Software gemäß den erörterten Open-Source-Grundsätzen "wie angekündigt" funktioniert?
+answer: Die Nutzer müssen uneingeschränkten Zugang zum Quellcode der Software haben, die sie überprüfen wollen
+wrong_answers:
+  - Benutzer müssen die Erlaubnis der Bitcoin Core-Maintainer einholen, bevor sie auf die Verifikationswerkzeuge zugreifen können
+  - Für den Zugang zu den kompilierten Verifikations-Binärdateien aus offiziellen Quellen müssen die Nutzer eine angemessene Gebühr entrichten
+  - Benutzer müssen sich auf kryptografische Signaturen von vertrauenswürdigen Entwicklern verlassen, um das Softwareverhalten zu validieren
+explanation: |
+  In diesem Kapitel wird ausdrücklich darauf hingewiesen, dass die Nutzer uneingeschränkten Zugang zum Quellcode haben müssen, um überprüfen zu können, ob Bitcoin-Software "wie angekündigt funktioniert". Dies steht in direktem Zusammenhang mit dem Grundsatz "Don't Trust, Verify" und der in der Open-Source-Definition enthaltenen Forderung nach Verfügbarkeit des Quellcodes. Die falschen Antworten widersprechen den Kernprinzipien von Open Source: Die Forderung nach einer Erlaubnis verstößt gegen das Prinzip des freien Zugangs, die Zahlung von Gebühren widerspricht dem Gebot der kostenlosen Weitergabe, und das ausschließliche Vertrauen auf Signaturen untergräbt die Möglichkeit der Überprüfung durch Inspektion, die Open Source bietet.

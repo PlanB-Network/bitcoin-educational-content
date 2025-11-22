@@ -1,0 +1,8 @@
+question: Qual será o ano aproximado em que o subsídio por categoria do Bitcoin chega a zero, de acordo com o PIF42?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  De acordo com o capítulo, o BIP42 corrigiu um bug de inflação a muito longo prazo e garante que o subsídio de bloco chegará a zero por volta do ano 2140. É nesta altura que o Bitcoin fará a transição de um sistema de recompensa baseado em subsídios para um sistema puramente baseado em taxas, alterando fundamentalmente a forma como os custos de segurança da rede são cobertos, passando dos detentores a pagar através da inflação para os utilizadores a pagar através de taxas de transação.

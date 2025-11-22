@@ -1,0 +1,8 @@
+question: Menurut definisi buku ini, skenario mana yang mewakili penskalaan Bitcoin yang sah sekaligus mempertahankan ketahanan sensor?
+answer: Menerapkan algoritme verifikasi tanda tangan yang lebih hemat tempat yang mengurangi ukuran input transaksi
+wrong_answers:
+  - Mendorong pengguna untuk melakukan migrasi transaksi ke bursa terpusat untuk mengurangi volume on-chain
+  - Menerapkan penyaringan transaksi otomatis untuk memprioritaskan jenis aktivitas ekonomi tertentu
+  - Menciptakan simpul validasi yang disetujui pemerintah yang dapat memproses transaksi dengan lebih efisien
+explanation: |
+  Buku ini mendefinisikan penskalaan Bitcoin sebagai 'meningkatkan kapasitas penggunaan Bitcoin tanpa mengorbankan ketahanan terhadap sensor' Verifikasi tanda tangan yang hemat ruang secara langsung sesuai dengan definisi ini dengan membuat transaksi menggunakan lebih sedikit byte dengan tetap mempertahankan desentralisasi. Jawaban yang salah akan mengorbankan ketahanan sensor: bursa terpusat memperkenalkan pihak ketiga yang terpercaya, penyaringan transaksi menciptakan mekanisme sensor, dan node yang disetujui pemerintah memusatkan otoritas validasi. Penskalaan yang benar mempertahankan sifat inti Bitcoin sambil meningkatkan efisiensi.

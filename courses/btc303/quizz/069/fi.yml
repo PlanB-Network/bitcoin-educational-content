@@ -1,0 +1,8 @@
+question: Mikä skenaario edustaa kirjan määritelmän mukaan laillista Bitcoin-skaalausta, mutta säilyttää samalla sensuurin vastustuskyvyn?
+answer: Tilatehokkaampien allekirjoitusten todentamisalgoritmien toteuttaminen, jotka pienentävät tapahtumien syöttökokoja
+wrong_answers:
+  - Kannustetaan käyttäjiä siirtämään liiketoimet keskitettyihin pörsseihin on-chain:n määrän vähentämiseksi
+  - Automaattisen liiketoimien suodatuksen käyttöönotto tietynlaisen taloudellisen toiminnan priorisoimiseksi
+  - Luodaan hallituksen hyväksymiä validointisolmuja, jotka voivat käsitellä tapahtumia tehokkaammin
+explanation: |
+  Kirjassa määritellään Bitcoin:n skaalaus seuraavasti: "Bitcoin:n käyttökapasiteetin lisääminen ilman, että sen sensuurinsietokyky kärsii" Tilatehokas allekirjoituksen todentaminen sopii suoraan tähän määritelmään, sillä se saa transaktiot käyttämään vähemmän tavuja säilyttäen samalla hajautuksen. Väärät vastaukset vaarantavat kaikki sensuurin kestävyyden: keskitetyt vaihdot tuovat luotettavia kolmansia osapuolia, transaktioiden suodatus luo sensuurimekanismeja ja hallituksen hyväksymät solmut keskittävät validointivaltuudet. Todellinen skaalautuminen säilyttää Bitcoin:n keskeiset ominaisuudet ja parantaa samalla tehokkuutta.

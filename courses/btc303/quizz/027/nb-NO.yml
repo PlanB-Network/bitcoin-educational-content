@@ -1,0 +1,8 @@
+question: Hva skjer når du slurver med din egen Bitcoin personvernpraksis, ifølge kapittelet?
+answer: Det kan også redusere personvernet til andre Bitcoin-brukere
+wrong_answers:
+  - Det påvirker bare dine egne transaksjoner og har ingen innvirkning på andre
+  - Det gjør hele Bitcoin-nettverket sikrere for alle
+  - Det bidrar til å forbedre den generelle anonymiteten i Bitcoin-systemet
+explanation: |
+  Bitcoin-personvernet er sammenkoblet mellom brukerne. Når én person slurver med personvernet, kan det ha negativ innvirkning på personvernet til andre brukere de handler med. Dette skjer fordi transaksjonsmønstre, adresseklynging og andre blokkjedeanalyseteknikker kan avsløre informasjon om flere parter som er involvert i transaksjoner. Kapittelet understreker at personverntiltak ikke bare beskytter deg selv - de bidrar også til å beskytte det bredere Bitcoin-fellesskapet, noe som gjør personvernet til et kollektivt ansvar i stedet for bare et individuelt anliggende.

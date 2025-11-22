@@ -1,0 +1,8 @@
+question: Koja su dva glavna problema privatnosti blockchaina koja je Satoshi Nakamoto identifikovao u Bitcoin whitepaperu?
+answer: Address ponovna upotreba i grupisanje adresa
+wrong_answers:
+  - Naknade za transakcije i kašnjenja u potvrdi
+  - Dvostruko trošenje i sudari heševa
+  - Zagušenje mreže i centralizacija mining
+explanation: |
+  U odeljku 7 Bitcoin bele knjige, Satoshi Nakamoto je identifikovao ponovnu upotrebu adresa i grupisanje adresa kao glavne probleme privatnosti na blockchainu. Address ponovna upotreba se dešava kada se ista adresa koristi više puta, što olakšava povezivanje transakcija sa istim korisnikom. Address grupisanje se odnosi na mogućnost utvrđivanja da različite adrese pripadaju istom vlasniku, posebno kroz transakcije sa više ulaza koje otkrivaju da su svi ulazi kontrolisani od strane iste osobe. Ostale opcije su tehnički ili operativni izazovi u Bitcoin, ali nisu problemi privatnosti koje je Satoshi posebno razmatrao u beležnici.

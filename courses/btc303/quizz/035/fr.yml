@@ -1,0 +1,8 @@
+question: Quelle est la formule mathématique de probabilité pour qu'un mineur malhonnête ayant un taux de hachage de x pour cent exécute avec succès le "fee sniping" en re-mining le bloc précédent plus un nouveau bloc ?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  La formule correcte est (x/(1-x))^2 car le fee sniping nécessite qu'un mineur réussisse à miner deux blocs consécutifs pour remplacer le bloc précédent et étendre la chaîne. La probabilité de mining un bloc contre des mineurs honnêtes est x/(1-x), et comme deux blocs doivent être minés consécutivement, cette probabilité est élevée au carré. Les autres formules sont mathématiquement plausibles mais représentent différents scénarios de probabilité qui ne correspondent pas aux exigences spécifiques du fee sniping, où le mineur malhonnête doit vaincre le réseau honnête deux fois de suite.

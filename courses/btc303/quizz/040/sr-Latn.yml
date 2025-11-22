@@ -1,0 +1,8 @@
+question: Prema diskusiji u poglavlju o kompatibilnosti Bitcoin, kakvu vrstu kompatibilnosti pruža softverski fork?
+answer: I napredna i unazadna kompatibilnost, čineći ga potpuno kompatibilnim
+wrong_answers:
+  - Samo unazadna kompatibilnost, omogućavajući novom softveru da obrađuje stare podatke
+  - Samo unapredna kompatibilnost, omogućavajući starom softveru da obrađuje nove podatke
+  - Ni unapred ni unazad kompatibilnost, zahtevajući potpune sistemske ažuriranja
+explanation: |
+  Poglavlje jasno navodi da se 'Promena pravila konsenzusa Bitcoin smatra mekim fork ako je potpuno kompatibilna.' Definiše potpuno kompatibilno kao i unapred i unazad kompatibilno. Unapred kompatibilnost znači da stari softver može obraditi podatke iz novijih verzija ignorišući delove koje ne razume, dok unazad kompatibilnost znači da novi softver može obraditi stare podatke. Ova dvostruka kompatibilnost je ono što čini meke viljuške preferiranim mehanizmom nadogradnje za Bitcoin, jer ne narušavaju postojeće sisteme dok omogućavaju novu funkcionalnost.

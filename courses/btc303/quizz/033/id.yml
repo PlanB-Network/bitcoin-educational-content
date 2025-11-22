@@ -1,0 +1,8 @@
+question: Berapa perkiraan tahun ketika subsidi blok Bitcoin mencapai nol menurut BIP42?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Menurut bab ini, BIP42 memperbaiki bug inflasi jangka panjang dan memastikan subsidi blok akan mencapai nol sekitar tahun 2140. Ini adalah saat Bitcoin akan bertransisi dari sistem reward berbasis subsidi menjadi sistem berbasis biaya, yang secara fundamental mengubah bagaimana biaya keamanan jaringan ditanggung dari pemegang yang membayar melalui inflasi menjadi pembelanja yang membayar melalui biaya transaksi.

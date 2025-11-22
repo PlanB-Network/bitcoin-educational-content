@@ -1,0 +1,8 @@
+question: Milline põhiline omadus eristab raamatus esitatud Bitcoin skaalamise määratlust Bitcoin valdkonnas kasutatavatest tavapärastest alternatiivsetest määratlustest?
+answer: See nõuab selgesõnaliselt tsensuurikindluse kui piirangu säilitamist, suurendades samal ajal kasutusvõimsust
+wrong_answers:
+  - See keskendub eranditult plokiahela tehingute läbilaskevõime suurendamisele, mitte tõhususe parandamisele
+  - See seab esikohale mitmekihilise arhitektuuri arendamise põhiplokkprotokolli mis tahes muudatuste ees
+  - See rõhutab pigem sõlmpunktide arvutusnõuete vähendamist kui võrgu võimsuse suurendamist
+explanation: |
+  Raamatus defineeritakse skaleerimist kui "Bitcoin kasutusvõimsuse suurendamist ilma tsensuurikindluse kahjustamata", mis hõlmab selgesõnaliselt tsensuurikindluse piirangut. See eristab seda teistest määratlustest, mis keskenduvad üksnes tehinguvõimsuse suurendamisele, tõhususe parandamisele või mitmekihilistele süsteemidele, arvestamata Bitcoin põhiomaduste säilitamist. Tsensuurikindluse nõue tagab, et skaleerimislahendused ei õõnestaks Bitcoin põhilist väärtuspakkumist, milleks on usalduseta, detsentraliseeritud süsteem, mida ei saa kontrollida ükski üksus.

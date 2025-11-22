@@ -1,0 +1,8 @@
+question: Ni tofauti gani kuu kati ya kutokujulikana na kujulikana katika muktadha wa shughuli za Bitcoin?
+answer: Katika mifumo isiyojulikana kama Bitcoin, malipo yanaweza kufuatiliwa kati ya majina bandia, wakati katika mifumo isiyojulikana hakuna ufuatiliaji unaopatikana.
+wrong_answers:
+  - Mifumo isiyojulikana hutumia majina halisi ilhali mifumo isiyojulikana hutumia majina bandia kwa shughuli zote
+  - Mifumo isiyojulikana inahitaji funguo za umma ilhali mifumo isiyojulikana hutumia funguo za kibinafsi pekee kwa utambulisho
+  - "Mifumo isiyojulikana huficha kiasi cha muamala ilhali mifumo isiyojulikana huficha tu utambulisho wa mtumaji"
+explanation: |
+  Bitcoin ni jina la uwongo, sio jina, kwa sababu shughuli zote kati ya anwani (jina bandia) zinaweza kufuatiliwa kwenye blockchain. Katika mfumo usiojulikana kabisa, hakutakuwa na athari ya mahali pesa ilitoka au inakoenda, ambayo inaweza kupatikana kwa njia ya uthibitisho wa maarifa sufu. Hata hivyo, uwazi wa Bitcoin unaruhusu mtu yeyote kufuata mtiririko wa bitcoins kati ya anwani tofauti, na kuifanya kuwa jina la uwongo badala ya kutokujulikana. Majina bandia katika Bitcoin ni anwani zinazotokana na funguo za umma, si majina ya watumiaji kiholela au vitambulisho halisi.

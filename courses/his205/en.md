@@ -507,10 +507,10 @@ Archaeological evidence of multi-tiered gardens has been found at Nineveh, leadi
 ### Pre-capitalist economic structures and slavery
 
 
-Welcome to this section on economic organization in Mesopotamia. The pre-capitalist economy went through three main stages: primitive, slave and feudal.
+The pre-capitalist economy went through three main stages: primitive, slave and feudal.
 
 
-Feudal, of course, is much later, obviously in the Middle Ages, and we have already passed the primitive stage that we described earlier with the Paleolithic. Now, in Mesopotamia, when we talk about economic organization, we're talking about slavery.
+The feudal stage belongs to a much later period (the Middle Ages), and the primitive stage was discussed in the context of the the Paleolithic. In Mesopotamia, the dominant economic organization was a form of slavery.
 
 
 However, in Mesopotamia, the bulk of work was carried out by a dependent class similar to slaves, who were not legally the property of their masters but were deprived of the fruits of their labor through physical or ideological coercion.
@@ -528,7 +528,7 @@ The loans taken out by farmers were not intended for productive investment - wit
 Allow me to draw a parallel with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented towards of profit through trade and crafts.
 
 
-So what we're trying to say here is that I'm drawing a parallel with the fact that people used financial lending tools not necessarily to improve their means of production, and later in Rome, profits were not necessarily reinvested, but rather used to increase the prestige of the people who could benefit from these profits. We're still a long way from the capitalist spirit that emerged later in the Middle Ages, when jobs could be created to improve the means of production, and surpluses were taken and created in the pursuit of profit. So we can see that economic organization had not yet reached the third stage of the economic evolutions listed above.
+This illustrates a key pre-capitalist principle: financial tools were used for subsistence, and profits were directed toward social prestige rather than productive reinvestment. This stands in contrast to the later capitalist spirit, where surpluses are pursued and reinvested to generate further profit. The Mesopotamian economy, therefore, had not yet reached the final, profit-oriented stage of economic evolution.
 
 
 ### The emergence of credit systems and units of account

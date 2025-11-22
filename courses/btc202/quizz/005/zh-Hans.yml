@@ -1,7 +1,7 @@
 question: 以下哪个软件兼具全节点和钱包功能？
 answer: Bitcoin Core
 wrong_answers:
-  - Sparrow wallet
+  - Sparrow Wallet
   - Ashigaru
   - Wallet of Satoshi
 explanation: |

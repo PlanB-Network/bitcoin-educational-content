@@ -173,7 +173,7 @@ So, this historical overview provides perspective on the emergence of certain te
 ### The transition to agriculture and sedentarization
 
 
-This chapter explores the transition from hunting and gathering to agriculture, crafts, trade, and a sedentary lifestyle. Understanding this shift is crucial for grasping how the first cities developed, which ultimately led to the emergence of monetary systems in intiquity.
+This chapter explores the transition from hunting and gathering to agriculture, crafts, trade, and a sedentary lifestyle. Understanding this shift is crucial for grasping how the first cities developed, which ultimately led to the emergence of monetary systems in antiquity.
 
 
 This section is an extract from the course *Ancient Mesopotamia, Life in the Cradle of Civilization*, available on The Great Courses website and taught by Professor Amanda Podany of California State Polytechnic University, Pomona.
@@ -263,7 +263,7 @@ There are several types of barter:
 
 - **Direct barter**: The immediate exchange of goods.
 - **Extended barter**: The exchange of goods for services or promises.
-- **Deferred barter**: An exhcange based on a promise of future repayment, creating interpersonal debt.
+- **Deferred barter**: An exchange based on a promise of future repayment, creating interpersonal debt.
 
 
 **Between different communities**, the absence of bonds of personal trust favored the emergence of more formalized exchanges. Certain goods gradually acquired a special status through their ability to be demanded by foreign groups, prefiguring the first forms of proto-currency.
@@ -320,7 +320,7 @@ These impressions with small figures served as signatures during a period when l
 ![](./assets/fr/1-1-3_2_Tablette_big.webp)
 
 
-Picturedd below is the cylinder seal mentioned above: a small stone cylinder engraved with specific shapes. It was rolled across wet clay to imprint a signature, thereby identifying the author of a document or indicating the authority under which it was composed.
+Pictured below is the cylinder seal mentioned above: a small stone cylinder engraved with specific shapes. It was rolled across wet clay to imprint a signature, thereby identifying the author of a document or indicating the authority under which it was composed.
 
 Scribes of the period used their wedge-shaped stylus to impress signs onto wet tablets.
 
@@ -339,7 +339,7 @@ Initially, names could not be expressed because the script was pictographic,  re
 
 This was achieved through the rebus principle: a sign for an object (e.g., a drawing of water) could be used for its phonetic value to write a word that sounded similar (e.g., a name), allowing scribes to construct words phonetically.
 
-Concurrently, the pictograms themselves were stylized. The drawing an ox's head, for instance, was progressively simplified into a series of abstract wedge-shaped marks. Scholars believe that this abstraction was a practical adaptation to the medium; holding a wet clay tablet in one hand and writing with a stylus made angular, incised marks more efficient to produce than curved drawings.
+Concurrently, the pictograms themselves were stylized. The drawing of an ox's head, for instance, was progressively simplified into a series of abstract wedge-shaped marks. Scholars believe that this abstraction was a practical adaptation to the medium; holding a wet clay tablet in one hand and writing with a stylus made angular, incised marks more efficient to produce than curved drawings.
 
 Even in their abstract form, the pictographic origins of many signs remain discernible, and they are characteristically inclined due to the writing technique.
 
@@ -366,7 +366,7 @@ It was precisely to meet administrative and economic needs that cuneiform writin
 It's also worth mentioning that some of these tablets circulated as bearer bonds, changing hands freely.
 
 
-One example, is the type of clay ball which enclosed small counter-stones.
+One example is the type of clay ball which enclosed small counter-stones.
 
 The surface was inscribed with a seal and a number representing the quantity of goods held within. To verify the contents, the ball could be broken open, validating that the internal count matched the external record.
 
@@ -386,7 +386,7 @@ Notably, the few surviving letters written by scribes are almost exclusively con
 A poignant example of such a letter illustrates this economic reality: a correspondent expresses his distress after being left without money or provisions when his partner left, while a severe famine struck Assur. He describes his urgent need to buy grain, and asks that the cash equivalent of his textiles be sent to him quickly to ensure his daily sustenance.
 
 
-This letter, addressed to her partner, indicates the correspondent was left without resources. The writer reminds recipient of their need for funds to purchase grain and pay temple taxes, demonstrating how even personal correspondence was framed by economic necessity and precariousness.
+This letter, addressed to her partner, indicates the correspondent was left without resources. The writer reminds the recipient of their need for funds to purchase grain and pay temple taxes, demonstrating how even personal correspondence was framed by economic necessity and precariousness.
 
 
 Thus, the Mesopotamian documents that have come down to us mainly reflect economic exchanges, since they were drawn up exclusively for transfers of goods with a recognized value: money, grain, various goods, real estate, payment of temple taxes. These archives reveal not only the efficiency and administrative precision of this ancient civilization, but also its ability to manage complex economic exchanges over a very long period.
@@ -411,7 +411,7 @@ This specialization can be explained by the considerable cost of tablet writing.
 The cuneiform tablets reveal a financial system of remarkable complexity for its time. The Mesopotamians had developed a complete arsenal of modern financial instruments: **private loans with interest, deeds of sale, rental contracts, mortgages, and even marriage contracts with financial clauses**. This sophistication testifies to a developed market economy, far removed from the simplistic image of primitive bartering that is often associated with these ancient civilizations.
 
 
-Some tablets functioned as genuine bearer securities, circulating freely from hand to hand without requiring identification of the original holder. This innovation enabled a remarkable fluidity of exchange, prefiguring modern financial systems. Specific legislation mandating that all commercial transactions be formalized in writing  further institutionalizied the use of writing as a cornerstone of the economic sphere.
+Some tablets functioned as genuine bearer securities, circulating freely from hand to hand without requiring identification of the original holder. This innovation enabled a remarkable fluidity of exchange, prefiguring modern financial systems. Specific legislation mandating that all commercial transactions be formalized in writing  further institutionalized the use of writing as a cornerstone of the economic sphere.
 
 
 ### The Monopoly of Knowledge and Economic Control
@@ -490,10 +490,10 @@ Among the key Sumerian cities was Uruk, an influential center known for its larg
 Another significant figure was Sargon of Akkad (reigned 2334–2279 BC), the founder of the Akkadian Empire, which was another civilization that emerged in Mesopotamia. He is credited with establishing an early postal service for clay tablets, which were often encased in clay envelopes marked with a seal for confidentiality before being opened.
 
 
-Babylon later became the capital of the Babylonian Empire, renowned for its monumental ziggurat and palaces, as well as the highly advanced legal of Hammurabi.
+Babylon later became the capital of the Babylonian Empire, renowned for its monumental ziggurat and palaces, as well as the highly advanced legal code of Hammurabi.
 
 
-Finally, two key Assyrian cities are Ashur, the orignal capital and religious center, and Nineveh, the later the capital. Nineveh was known for its military might, extensive libraries, and vast palaces. It is also a likely candidate for the  location of the legendary Hanging Gardens, a wonder often attributed to Babylon.
+Finally, two key Assyrian cities are Ashur, the original capital and religious center, and Nineveh, the later capital. Nineveh was known for its military might, extensive libraries, and vast palaces. It is also a likely candidate for a location of the legendary Hanging Gardens, a wonder often attributed to Babylon.
 
 Archaeological evidence of multi-tiered gardens has been found at Nineveh, leading some scholars to propose that ancient Greek historians, such as Herodotus, may have confused the two cities.
 
@@ -525,7 +525,7 @@ Large landholdings dominated the economy. Landowners exploited their land direct
 The loans taken out by farmers were not intended for productive investment - with the exception of shipping companies - but rather to ensure their survival until the next harvest. This situation frequently led to chronic indebtedness of the farmers.
 
 
-Allow me to draw a parallel with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented towards of profit through trade and crafts.
+Allow me to draw a parallel with a more recent period during antiquity (Rome), where citizens lived off the agricultural rents produced by peasants and unfree labor, as well as the spoils of war. **These revenues were distributed among the citizens, not to generate more profits, but to enhance their social status.** Trade and crafts were generally left to groups outside the social elite. All this contrasts with the medieval economies oriented towards profit through trade and crafts.
 
 
 This illustrates a key pre-capitalist principle: financial tools were used for subsistence, and profits were directed toward social prestige rather than productive reinvestment. This stands in contrast to the later capitalist spirit, where surpluses are pursued and reinvested to generate further profit. The Mesopotamian economy, therefore, had not yet reached the final, profit-oriented stage of economic evolution.

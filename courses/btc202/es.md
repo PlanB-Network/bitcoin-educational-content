@@ -2950,7 +2950,7 @@ Además, varios ficheros auxiliares (peers, estimaciones de tarifas, listas de e
 
 
 
-Por defecto, Bitcoin Core guarda sus datos en un directorio de trabajo específico. En GNU/Linux, suele estar en `~/.Bitcoin/`, en Windows en `%APPDATA%\Bitcoin/`, y en macOS en `~/Library/Application Support/Bitcoin/`. Si está utilizando una solución empaquetada (por ejemplo, dentro de una distribución de nodos), este directorio puede estar montado en otro lugar, pero su estructura sigue siendo la misma. Las subcarpetas y archivos importantes que se describen a continuación siguen estando aquí.
+Por defecto, Bitcoin Core guarda sus datos en un directorio de trabajo específico. En GNU/Linux, suele estar en `~/.Bitcoin/`, en Windows en `%APPDATA%\Bitcoin/`, y en macOS en `~/Library/Application Support/Bitcoin/`. Si se utiliza una solución empaquetada (por ejemplo, dentro de una distribución de nodos), este directorio puede estar montado en otro lugar, pero su estructura sigue siendo la misma. Las subcarpetas y archivos importantes descritos a continuación siguen estando aquí.
 
 
 
@@ -3024,7 +3024,7 @@ Algunos índices son opcionales y están desactivados por defecto, ya que aument
 
 
 
-### Juego UTXO (estado de la cadena)
+### Conjunto UTXO (estado de la cadena)
 
 
 
@@ -3036,7 +3036,7 @@ El modelo UTXO (*Salida de transacción no gastada*) es la representación conta
 
 
 
-La totalidad de todas estas piezas en un momento dado T constituye el conjunto UTXO: una gran lista de todas las piezas ahora disponibles. Es este estado el que el nodo consulta para decidir si una transacción gasta unidades legítimas no utilizadas ya en una transacción anterior (para evitar Double-spending).
+La totalidad de todas estas piezas en un momento dado T constituye el conjunto UTXO: una gran lista de todas las piezas ahora disponibles. Es este estado el que el nodo consulta para decidir si una transacción gasta unidades legítimas no utilizadas ya en una transacción anterior (para evitar el Double-spending).
 
 
 
@@ -3052,7 +3052,7 @@ El conjunto UTXO se almacena en la carpeta `chainstate/` como una base de datos 
 
 
 
-El nodo mantiene una caché de memoria sobre LevelDB para absorber las operaciones frecuentes de lectura y escritura. El parámetro `dbcache` puede utilizarse para modificar el tamaño de esta caché: cuanto mayor sea, más accesos a memoria se beneficiarán el IBD y la validación actual, a costa de un mayor consumo de RAM. Cuando un Miner encuentra un nuevo bloque, el nodo borra del conjunto UTXO las salidas gastadas (o consumidas) por las transacciones incluidas en el bloque y añade las salidas recién creadas.
+El nodo mantiene una caché de memoria sobre LevelDB para absorber las operaciones frecuentes de lectura y escritura. El parámetro `dbcache` puede utilizarse para modificar el tamaño de esta caché: cuanto mayor sea, más accesos a memoria se beneficiarán el IBD y la validación actual, a costa de un mayor consumo de RAM. Cuando un minero encuentra un nuevo bloque, el nodo borra del conjunto UTXO las salidas gastadas (o consumidas) por las transacciones incluidas en el bloque y añade las salidas recién creadas.
 
 
 
@@ -3068,7 +3068,7 @@ Obsérvese que el conjunto UTXO suele estar en el centro de las preocupaciones s
 
 
 
-El crecimiento del conjunto UTXO también se debe a la estructura de las transacciones de pago simples en Bitcoin. En efecto, cuando se realiza un pago, se consume un único UTXO como entrada y se crean 2 nuevos UTXO como salida (uno para el pago y otro para el Exchange). Por último, una heurística de análisis de cadenas, denominada CIOH (*Common Input Ownership Heuristic*), proporciona un incentivo adicional para evitar la consolidación de Coin.
+El crecimiento del conjunto UTXO también se debe a la estructura de las transacciones de pago simples en Bitcoin. En efecto, cuando se realiza un pago, se consume un único UTXO como entrada y se crean 2 nuevos UTXO como salida (uno para el pago y otro para el Exchange). Por último, una heurística de análisis de cadenas, denominada CIOH (*Common Input Ownership Heuristic*), proporciona un incentivo adicional para evitar la consolidación de monedas.
 
 
 
@@ -3089,11 +3089,11 @@ La Mempool es el conjunto local de transacciones válidas que se han recibido pe
 
 - el tamaño asignado a la Mempool mediante el parámetro `maxmempool`: un nodo con una Mempool más grande podrá contener más transacciones que un nodo con una Mempool más pequeña (a menos que esta última quede vacía);
 - las reglas del mempool: constituyen un subconjunto de las reglas de retransmisión del nodo y definen las características que una transacción no confirmada debe cumplir para ser aceptada en el mempool;
-- percolación de transacciones: debido a diversos factores, una transacción determinada puede haberse distribuido a una parte de la red, pero no haber llegado aún a otra.
+- la percolación de transacciones: debido a diversos factores, una transacción determinada puede haberse distribuido a una parte de la red, pero no haber llegado aún a otra.
 
 
 
-Es importante señalar que los mempools de los nodos no tienen valor de consenso. La Bitcoin funciona perfectamente aunque cada nodo tenga una Mempool diferente. En última instancia, los bloques autorizados son siempre los que se añaden a la Blockchain. Por ejemplo, aunque un nodo rechace inicialmente una determinada transacción en su Mempool (válida según las reglas de consenso), estará obligado a aceptarla si finalmente se incluye en un bloque con una Proof of Work válida. Si no lo hiciera y rechazara este bloque, aunque cumpliera las reglas de consenso, desencadenaría una Hard Fork, es decir, la creación de una nueva Bitcoin independiente en la que estaría solo.
+Es importante señalar que las mempools de los nodos no tienen valor de consenso. Bitcoin funciona perfectamente aunque cada nodo tenga una Mempool diferente. En última instancia, los bloques autorizados son siempre los que se añaden a la Blockchain. Por ejemplo, aunque un nodo rechace inicialmente una determinada transacción en su Mempool (válida según las reglas de consenso), estará obligado a aceptarla si finalmente se incluye en un bloque con una Proof of Work válida. Si no lo hiciera y rechazara este bloque, aunque cumpliera las reglas de consenso, desencadenaría una Hard Fork, es decir, la creación de un nuevo Bitcoin independiente en el que estaría solo.
 
 
 
@@ -3101,11 +3101,11 @@ Es importante señalar que los mempools de los nodos no tienen valor de consenso
 
 
 
-Cuando se recibe una transacción, Core aplica una serie de comprobaciones con respecto a las reglas de consenso (sintaxis, guiones válidos, no doble gasto, etc.) y las reglas Mempool, que son una política local (RBF, umbrales mínimos de cobro, límite de datos en `OP_RETURN`, etc.). Si la transacción cumple estas normas, se almacena en memoria.
+Cuando se recibe una transacción, Core aplica una serie de comprobaciones con respecto a las reglas de consenso (sintaxis, scripts válidos, no doble gasto, etc.) y las reglas Mempool, que son una política local (RBF, umbrales mínimos de cobro, límite de datos en `OP_RETURN`, etc.). Si la transacción cumple estas normas, se almacena en memoria.
 
 
 
-El tamaño de la Mempool está limitado por el parámetro `maxmempool` en el archivo `Bitcoin.conf` (más sobre esto en el próximo capítulo). Por defecto, el límite es de 300 MB. Cuando está lleno, el nodo aumenta dinámicamente su umbral de carga mínima y expulsa primero las transacciones menos rentables (es decir, retiene las transacciones que deberían minarse primero). Las transacciones demasiado antiguas también pueden caducar tras un retardo configurado.
+El tamaño de la Mempool está limitado por el parámetro `maxmempool` en el archivo `Bitcoin.conf` (más sobre esto en el próximo capítulo). Por defecto, el límite es de 300 MB. Cuando está llena, el nodo aumenta dinámicamente su umbral de tarifa mínima y expulsa primero las transacciones menos rentables (es decir, retiene las transacciones que deberían minarse primero). Las transacciones demasiado antiguas también pueden caducar tras un retardo configurado.
 
 
 
@@ -3126,7 +3126,7 @@ Varios otros ficheros al mismo nivel que `blocks/`, `chainstate/`, y `indexes/` 
 
 
 
-- `peers.dat` mantiene un libro de Address IP de peers potenciales, alimentado por el descubrimiento inicial de DNS, intercambios de red y adiciones manuales. Cuando el nodo arranca, puede recurrir a este archivo para establecer conexiones salientes.
+- `peers.dat` mantiene un libro de dirección IP de peers potenciales, alimentado por el descubrimiento inicial de DNS, intercambios de red y adiciones manuales. Cuando el nodo arranca, puede recurrir a este archivo para establecer conexiones salientes.
 - Cuando el nodo se apaga, `anchors.dat` guarda las direcciones de los pares salientes, para que puedas intentar contactar con ellos rápidamente la próxima vez que arranques.
 - `banlist.json` contiene prohibiciones locales decididas por el operador o por el nodo (comportamiento inválido repetido), para evitar que el nodo se vuelva a conectar o acepte conexiones de estos pares específicos.
 - el archivo `fee_estimates.dat` almacena estadísticas de horizonte temporal sobre las confirmaciones observadas, utilizadas por el estimador de tasas para proponer tasas coherentes con los objetivos de demora elegidos al crear una transacción.
@@ -3135,15 +3135,15 @@ Varios otros ficheros al mismo nivel que `blocks/`, `chainstate/`, y `indexes/` 
 - `debug.log` es el registro de texto de diagnóstico, que puede utilizarse para comprender la actividad del nodo en caso de fallo.
 - `bitcoind.pid` registra el identificador del proceso durante la ejecución, lo que permite que otras aplicaciones o scripts identifiquen fácilmente a Bitcoind (*Bitcoin Daemon*) e interactúen con él si es necesario. Se crea al iniciar el nodo y se elimina al detenerlo;
 - `ip_asn.map` es una tabla de mapeo IP → ASN (sistema autónomo) utilizada para bucketing y diversificación de pares (opción `-asmap`).
-- `onion_v3_private_key` almacena la clave privada del servicio Tor v3 cuando la opción `-listenonion` está habilitada, para mantener una Address cebolla estable entre reinicios.
+- `onion_v3_private_key` almacena la clave privada del servicio Tor v3 cuando la opción `-listenonion` está habilitada, para mantener una dirección cebolla estable entre reinicios.
 - `i2p_private_key` almacena la clave privada de I2P cuando se utiliza `-i2psam=`, para realizar conexiones salientes y posiblemente entrantes en I2P.
-- `.cookie` contiene un RPC efímero de autenticación token (creado al arrancar, borrado al apagar) cuando se utiliza la autenticación cookie. Se puede utilizar, por ejemplo, para conectar el software Wallet.
+- `.cookie` contiene un RPC efímero de autenticación de token (creado al arrancar, borrado al apagar) cuando se utiliza la autenticación cookie. Se puede utilizar, por ejemplo, para conectar el software Wallet.
 - .lock` es el bloqueo del directorio de datos, que impide que varias instancias escriban simultáneamente en el mismo datadir.
 - `guisettings.ini.bak` es el guardado automático de la configuración GUI (*Bitcoin Qt*) cuando se utiliza la opción `-resetguisettings`.
 
 
 
-Como vimos en las primeras partes de este curso BTC 202, Bitcoin core es a la vez un software de nodo Bitcoin y Wallet. Sin embargo, no es necesariamente la solución que recomendaría para gestionar sus carteras, ya que su Interface sigue siendo básico y sus funcionalidades son limitadas en comparación con software moderno como Sparrow o Liana. Core también incluye archivos para gestionar sus monederos:
+Como vimos en las primeras partes de este curso BTC 202, Bitcoin core es a la vez un software de nodo Bitcoin y Wallet. Sin embargo, no es necesariamente la solución que recomendaría para gestionar sus carteras, ya que su interfaz sigue siendo básico y sus funcionalidades son limitadas en comparación con software moderno como Sparrow o Liana. Core también incluye archivos para gestionar sus monederos:
 
 
 
@@ -3275,9 +3275,9 @@ Como se ha explicado anteriormente, las reglas de consenso obviamente no son con
 
 
 
-- Parámetros puramente locales. Sólo afectan a tu nodo: tamaño de la caché (`dbcache`), modo pruned (`prune`), índices opcionales... Influyen en el rendimiento de tu máquina, pero no en el de la red.
-- Políticas de retransmisión y Mempool. Éstas deciden lo que tu nodo acepta, retiene y retransmite antes de la confirmación: umbral mínimo de tarifa (`minrelaytxfee`), tamaño y tiempo de retención de Mempool (`maxmempool`, `mempoolexpiry`), sustitución de transacciones (RBF)... Estas reglas no forman parte del consenso, por lo que dos nodos diferentes pueden tener políticas distintas y seguir siendo totalmente compatibles. Por otra parte, estos parámetros influirán en la red Bitcoin (como se explicó en la primera parte, en particular con la teoría de la percolación).
-- Conectividad de red. Estas opciones determinan cómo su nodo encuentra pares, escucha, atraviesa un NAT, utiliza Tor o un proxy, o limita su ancho de banda. Dan forma a su topología, pero no alteran la retransmisión de transacciones.
+- Parámetros puramente locales. Solo afectan a tu nodo: tamaño de la caché (`dbcache`), modo pruned (`prune`), índices opcionales... Influyen en el rendimiento de tu máquina, pero no en el de la red.
+- Políticas de retransmisión y Mempool. Estas deciden lo que tu nodo acepta, retiene y retransmite antes de la confirmación: umbral mínimo de tarifa (`minrelaytxfee`), tamaño y tiempo de retención de Mempool (`maxmempool`, `mempoolexpiry`), sustitución de transacciones (RBF)... Estas reglas no forman parte del consenso, por lo que dos nodos diferentes pueden tener políticas distintas y seguir siendo totalmente compatibles. Por otra parte, estos parámetros influirán en la red Bitcoin (como se explicó en la primera parte, en particular con la teoría de la percolación).
+- Conectividad de red. Estas opciones determinan cómo tu nodo encuentra pares, escucha, atraviesa un NAT, utiliza Tor o un proxy, o limita su ancho de banda. Dan forma a tu topología, pero no alteran la retransmisión de transacciones.
 
 
 
@@ -3312,15 +3312,15 @@ En primer lugar, es importante distinguir claramente entre los 2 tipos de conexi
 
 
 
-Estos dos tipos de conexión son perfectamente capaces de intercambiar los mismos datos en ambas direcciones; no se trata de limitar la dirección del flujo, sino sólo de una diferencia en el iniciador de la conexión. Desde el punto de vista de nuestro nodo, las conexiones salientes suelen considerarse más seguras, ya que nosotros las iniciamos y elegimos con precisión a qué nodo conectarnos, lo que hace poco probable que la conexión sea maliciosa. Por defecto, Bitcoin core mantiene 10 conexiones salientes (8 "*full-relay*" + 2 "*block-relay-only*").
+Estos dos tipos de conexión son perfectamente capaces de intercambiar los mismos datos en ambas direcciones; no se trata de limitar la dirección del flujo, sino sólo de una diferencia en el iniciador de la conexión. Desde el punto de vista de nuestro nodo, las conexiones salientes suelen considerarse más seguras, ya que nosotros las iniciamos y elegimos con precisión a qué nodo conectarnos, lo que hace poco probable que la conexión sea maliciosa. Por defecto, Bitcoin Core mantiene 10 conexiones salientes (8 "*full-relay*" + 2 "*block-relay-only*").
 
 
 
-Una Full node añade más valor a la red aceptando conexiones entrantes. El parámetro `listen=1` habilita la escucha en el puerto por defecto 8333 de la red en cuestión, permitiendo recibir estas conexiones entrantes en la clearnet. Para que esto funcione, este puerto también debe estar abierto en tu router. Si no lo está, su nodo seguirá funcionando sólo con conexiones salientes, lo que no tendrá ningún impacto en su uso personal de Bitcoin. La decisión de permitir o no las conexiones entrantes es tuya; no hay una "mejor opción"
+Una Full node añade más valor a la red aceptando conexiones entrantes. El parámetro `listen=1` habilita la escucha en el puerto por defecto 8333 de la red en cuestión, permitiendo recibir estas conexiones entrantes en la clearnet. Para que esto funcione, este puerto también debe estar abierto en tu router. Si no lo está, tu nodo seguirá funcionando sólo con conexiones salientes, lo que no tendrá ningún impacto en tu uso personal de Bitcoin. La decisión de permitir o no las conexiones entrantes es tuya; no hay una “mejor opción”.
 
 
 
-Si prefiere no abrir un puerto en su router, pero aún así aceptar conexiones entrantes, puede activar el parámetro `listenonion=1`. Esto conseguirá el mismo resultado, pero sólo a través de la red Tor en lugar de clearnet.
+Si prefieres no abrir un puerto en tu router, pero aun así aceptar conexiones entrantes, puedes activar el parámetro `listenonion=1`. Esto conseguirá el mismo resultado, pero solo a través de la red Tor en lugar de clearnet.
 
 
 
@@ -3330,23 +3330,23 @@ A nivel de red, también tenemos:
 
 
 - `addnode`: añade un par amigo con el que contactar además del descubrimiento habitual (puede especificarse varias veces).
-- `connect`: restringe estrictamente las conexiones a la dirección proporcionada (puede especificarse varias veces). Core no se conectará a ningún otro nodo;
-- `seednode`: se utiliza sólo para rellenar el libro-Address cuando se conecta a un nodo y luego se desconecta.
+- `connect`: restringe estrictamente las conexiones a la dirección proporcionada (puede especificarse varias veces). Core no se conectará a ningún otro nodo.
+- `seednode`: se utiliza solo para rellenar el libro de direcciones cuando se conecta a un nodo y luego se desconecta.
 - `maxconnections`: define el límite global de conexiones entrantes + salientes. Por defecto, este parámetro se establece en 125, lo que significa que tu nodo nunca aceptará más de 125 conexiones.
-- `maxuploadtarget` : limita la carga para restringir el ancho de banda en una ventana móvil de 24 horas. Este límite no sacrifica la propagación de elementos recientes esenciales;
+- `maxuploadtarget` : limita la carga para restringir el ancho de banda en una ventana móvil de 24 horas. Este límite no sacrifica la propagación de elementos recientes esenciales.
 - `onlynet`: limita las conexiones salientes sólo a las redes seleccionadas (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Por ejemplo, si quiere que su nodo se conecte a la red Bitcoin sólo a través de Tor, puede habilitar el parámetro `onlynet=onion` y deshabilitar las conexiones entrantes (o sólo permitir conexiones a través de Tor también).
-- `dnsseed`: permite o no permite que _DNS seeds_ solicite peers cuando el pool local de Address es bajo (por defecto: `1`, a menos que `-connect` o `-maxconnections=0`).
+- `dnsseed`: permite o no permite que _DNS seeds_ solicite peers cuando el pool local de la dirección es bajo (por defecto: `1`, a menos que `-connect` o `-maxconnections=0`).
 - `forcednsseed`: obliga a solicitar _DNS seeds_ al inicio, incluso si ya tiene direcciones en stock (por defecto: `0`).
-- `fixedseeds`: Permitir el uso de *nodos seed* (lista Address codificada) si las _semillas DNS_ fallan o están deshabilitadas (por defecto: `1`).
+- `fixedseeds`: Permitir el uso de *nodos seed* (lista de dirección codificada) si las _semillas DNS_ fallan o están deshabilitadas (por defecto: `1`).
 - `dns`: Autoriza las resoluciones DNS en general (por ejemplo, para `-addnode`/`-seednode`/`-connect`).
 
 
 
-Por defecto, tu nodo se comunica a través de clearnet, Tor e I2P. Esto significa que los pares con los que se conecta en clearnet pueden ver tu IP pública Address, y es probable que tu ISP pueda detectar que estás ejecutando un nodo Bitcoin (aunque P2P Transport V2 hace que sea más difícil para un ISP espiar). Esto no es necesariamente un problema, pero si quieres evitar cualquier filtración de esta información, puedes conectar tu nodo exclusivamente a través de la red Tor.
+Por defecto, tu nodo se comunica a través de clearnet, Tor e I2P. Esto significa que los pares con los que se conecta en clearnet pueden ver tu dirección IP pública, y es probable que tu ISP pueda detectar que estás ejecutando un nodo Bitcoin (aunque P2P Transport V2 hace que sea más difícil para un ISP espiar). Esto no es necesariamente un problema, pero si quieres evitar cualquier filtración de esta información, puedes conectar tu nodo exclusivamente a través de la red Tor.
 
 
 
-Para estar completamente habilitado para Tor, necesita forzar a Bitcoin core a usar sólo esta red y crear un servicio oculto para las conexiones entrantes (si quiere habilitarlas). En el `Bitcoin.conf`, necesita añadir esta configuración:
+Para estar completamente habilitado para Tor, necesita forzar a Bitcoin core a usar solo esta red y crear un servicio oculto para las conexiones entrantes (si quiere habilitarlas). En el `Bitcoin.conf`, necesita añadir esta configuración:
 
 
 
@@ -3363,7 +3363,7 @@ Para estar completamente habilitado para Tor, necesita forzar a Bitcoin core a u
 
 
 
-Todas tus conexiones P2P van a través de Tor. Su nodo recibe una Address `.onion` para las conexiones entrantes, por lo que no es necesario abrir puertos en el router. Su ISP sólo ve el tráfico Tor, y sus pares desconocen su IP pública real Address.
+Todas tus conexiones P2P van a través de Tor. Su nodo recibe una dirección `.onion` para las conexiones entrantes, por lo que no es necesario abrir puertos en el router. Tu ISP sólo ve tráfico Tor, y tus pares desconocen tu IP pública real.
 
 
 
@@ -3371,7 +3371,7 @@ Para evitar la resolución DNS, puedes añadir `dnsseed=0` y `dns=0` a tu config
 
 
 
-Obviamente, si eres un principiante, te aconsejo que dejes todas estas configuraciones de red por el momento. La configuración por defecto suele ser suficiente.
+Obviamente, si eres principiante, te aconsejo que dejes todas estas configuraciones de red por el momento. La configuración por defecto suele ser suficiente.
 
 
 
@@ -3383,13 +3383,13 @@ Obviamente, si eres un principiante, te aconsejo que dejes todas estas configura
 
 
 
-Estos son los parámetros básicos que puede modificar en su `Bitcoin.conf` relativos a la gestión de su Mempool y la retransmisión de transacciones no confirmadas:
+Estos son los parámetros básicos que puede modificar en tu `Bitcoin.conf` relativos a la gestión de su Mempool y la retransmisión de transacciones no confirmadas:
 
 
 
 
 
-- `maxmempool=<n>`: Limita el tamaño máximo de la Mempool local a `<n>` megabytes (por defecto: `300`). Cuando se alcanza el límite, su nodo aumenta dinámicamente su umbral de tarifa efectiva y prioriza las transacciones menos rentables (basándose en la tasa de tarifa, no en el valor absoluto) para mantenerse por debajo del límite. Puede dejar esta configuración por defecto. Aumentarlo puede ser útil si está Mining solo, o si quiere tener una visión más precisa de la congestión Mempool y mejorar la estimación de tasas. Por el contrario, reducirlo ahorrará RAM y, en menor medida, otros recursos del sistema.
+- `maxmempool=<n>`: Limita el tamaño máximo de la Mempool local a `<n>` megabytes (por defecto: `300`). Cuando se alcanza el límite, tu nodo aumenta dinámicamente su umbral de tarifa efectiva y prioriza las transacciones menos rentables (basándose en la tasa de tarifa, no en el valor absoluto) para mantenerse por debajo del límite. Puede dejar esta configuración por defecto. Aumentarlo puede ser útil si se mina en solitario, o si quieres tener una visión más precisa de la congestión de la Mempool y mejorar la estimación de tarifas. Por el contrario, reducirlo ahorrará RAM y, en menor medida, otros recursos del sistema.
 
 
 
@@ -3429,7 +3429,7 @@ Estos son los parámetros básicos que puede modificar en su `Bitcoin.conf` rela
 
 
 
-Como recordatorio, RBF es un mecanismo transaccional que permite al remitente sustituir una transacción por otra que tenga tasas más altas para acelerar la confirmación. Si una transacción con una comisión demasiado baja permanece bloqueada, el remitente puede utilizar *Replace-by-fee* para aumentar la comisión y dar prioridad a su transacción de sustitución en los mempools y con los mineros.
+Como recordatorio, RBF es un mecanismo transaccional que permite al remitente sustituir una transacción por otra que tenga tasas más altas para acelerar la confirmación. Si una transacción con una comisión demasiado baja permanece bloqueada, el remitente puede utilizar *Replace-by-fee* para aumentar la comisión y dar prioridad a su transacción de sustitución en los Mempools y con los mineros.
 
 
 
@@ -3443,7 +3443,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- `datacarrier=1` : Permite el retransmisión y (si se mina a través del nodo) la inclusión de transacciones que contienen datos no financieros mediante una salida `OP_RETURN` (por defecto: `1`). Desactivar este parámetro reduce ligeramente la superficie de spam de datos no financieros a costa de una menor compatibilidad con ciertos usos. En todos los casos, deberá aceptar los `OP_RETURN` minados.
+- `datacarrier=1` : Permite la retransmisión y (si se mina a través del nodo) la inclusión de transacciones que contienen datos no financieros mediante una salida `OP_RETURN` (por defecto: `1`). Desactivar este parámetro reduce ligeramente la superficie de spam de datos no financieros a costa de una menor compatibilidad con ciertos usos. En todos los casos, deberá aceptar los `OP_RETURN` minados.
 
 
 
@@ -3473,13 +3473,13 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- `whitelistforcerelay=1`: Asigna el permiso "*forcerelay*" a los peers de la lista blanca con permisos por defecto (por defecto: `0`). El nodo retransmite sus transacciones incluso si ya están presentes en Mempool, saltándose así los mecanismos anti-redundancia.
+- `whitelistforcerelay=1`: Asigna el permiso "*forcerelay*" a los peers de la lista blanca con permisos por defecto (por defecto: `0`). El nodo retransmite sus transacciones incluso si ya están presentes en la Mempool, saltándose así los mecanismos anti-redundancia.
 
 
 
 
 
-- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Vincula un intervalo Interface o Address y asigna permisos detallados a los pares correspondientes: `relay`, `forcerelay`, `Mempool` (solicitud de contenido Mempool), `noban`, `download`, `addr`, `bloomfilter`. Esto puede ser útil para conceder un tratamiento privilegiado a pares de confianza (como pasarelas, LAN y servicios internos).
+- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Vincula un intervalo de interfaz o dirección y asigna permisos detallados a los pares correspondientes: `relay`, `forcerelay`, `Mempool` (solicitud de contenido Mempool), `noban`, `download`, `addr`, `bloomfilter`. Esto puede ser útil para conceder un tratamiento privilegiado a pares de confianza (como pasarelas, LAN y servicios internos).
 
 
 
@@ -3501,7 +3501,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-Como recordatorio, todas estas reglas de retransmisión no tienen ningún impacto en la validez de las transacciones incluidas en un bloque válido. Sirven para ajustar su contribución al relevo, proteger sus recursos y hacer que su nodo sea predecible en entornos con restricciones, pero nunca le permiten rechazar bloques que respeten las reglas de consenso.
+Como recordatorio, todas estas reglas de retransmisión no tienen ningún impacto en la validez de las transacciones incluidas en un bloque válido. Sirven para ajustar tu contribución al relé, proteger tus recursos y hacer que tu nodo sea predecible en entornos con restricciones, pero nunca te permiten rechazar bloques que respeten las reglas de consenso.
 
 
 
@@ -3516,7 +3516,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 - `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Define el formato de las direcciones generadas por la billetera para la recepción.
-
+  
 
 
 
@@ -3533,7 +3533,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- `walletdir=<dir>`: Directorio que contiene los monederos (por defecto: `<datadir>/wallets` si existe, en caso contrario `<datadir>`). Esto puede ser útil si desea almacenar los monederos en un volumen dedicado o encriptado.
+- `walletdir=<dir>`: Directorio que contiene las wallets (por defecto: `<datadir>/wallets` si existe, en caso contrario `<datadir>`). Esto puede ser útil si desea almacenar las wallets en un volumen dedicado o encriptado.
 
 
 
@@ -3557,7 +3557,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- `paytxfee=<amt>`: Tasa de comisión fija (BTC/kvB) aplicada a las transacciones Wallet. Evitar en general: utilizar estimación adaptativa mediante `txconfirmtarget`.
+- `paytxfee=<amt>`: Tasa de comisión fija (BTC/kvB) aplicada a las transacciones de la Wallet. Evitar en general: utilizar estimación adaptativa mediante `txconfirmtarget`.
 
 
 
@@ -3569,19 +3569,19 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- `mintxfee=<amt>`: Umbral mínimo (BTC/kvB) para que Wallet cree transacciones (por defecto: `0.00001`). Wallet se negará a crear una transacción por debajo de este umbral.
+- `mintxfee=<amt>`: Umbral mínimo (BTC/kvB) para que la wallet cree transacciones (por defecto: `0.00001`). Wallet se negará a crear una transacción por debajo de este umbral.
 
 
 
 
 
-- `maxtxfee=<amt>`: Límite absoluto de las comisiones totales de una transacción Wallet (por defecto: `0,10` BTC). Protege contra comisiones anormalmente altas que destruirían bitcoins innecesariamente.
+- `maxtxfee=<amt>`: Límite absoluto de las comisiones totales de una transacción de la wallet (por defecto: `0,10` BTC). Protege contra comisiones anormalmente altas que destruirían bitcoins innecesariamente.
 
 
 
 
 
-- `avoidpartialspends=1`: Selecciona UTXOs por grupos Address para evitar gastos parciales.
+- `avoidpartialspends=1`: Selecciona UTXOs por grupos de direcciones para evitar gastos parciales.
 
 
 
@@ -3593,13 +3593,13 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- `consolidatefeerate=<amt>`: Tasa máxima (BTC/kvB) a partir de la cual Wallet evita añadir más insumos de los necesarios para consolidar. Esto permite consolidaciones oportunistas a precios bajos y reduce los costes cuando éstos son elevados.
+- `consolidatefeerate=<amt>`: Tasa máxima (BTC/kvB) a partir de la cual Wallet evita añadir más insumos de los necesarios para consolidar. Esto permite consolidaciones oportunistas a precios bajos y reduce los costes cuando estos son elevados.
 
 
 
 
 
-- `maxapsfee=<n>`: Presupuesto de gastos adicionales (BTC, valor absoluto) que Wallet acepta pagar para activar la opción "*evitar gastos parciales*".
+- `maxapsfee=<n>`: Presupuesto de gastos adicionales (BTC, valor absoluto) que la Wallet acepta pagar para activar la opción "*evitar gastos parciales*".
 
 
 
@@ -3617,7 +3617,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- `disablewallet=1`: Inicia Bitcoin core sin el subsistema Wallet y desactiva los RPCs asociados. Reduce la superficie de ataque y la huella si el nodo solo se utiliza para validación/liberación.
+- `disablewallet=1`: Inicia Bitcoin Core sin el subsistema Wallet y desactiva los RPCs asociados. Reduce la superficie de ataque y la huella si el nodo solo se utiliza para validación/liberación.
 
 
 
@@ -3735,7 +3735,7 @@ Finalmente, el archivo `Bitcoin.conf` también te permite configurar los paráme
 
 
 
-- `rpcbind=<dirección>[:puerto]`: Servidor RPC escuchando Address/puerto. Por defecto, la escucha se realiza sólo localmente (`127.0.0.1` y `::1`). Este parámetro se ignora si `rpcallowip` no está también definido. Utilícelo para restringir explícitamente Interface.
+- `rpcbind=<dirección>[:puerto]`: Servidor RPC escuchando dirección/puerto. Por defecto, la escucha se realiza sólo localmente (`127.0.0.1` y `::1`). Este parámetro se ignora si `rpcallowip` no está también definido. Utilícelo para restringir explícitamente la interfaz.
 
 
 
@@ -3795,7 +3795,7 @@ Finalmente, el archivo `Bitcoin.conf` también te permite configurar los paráme
 
 
 
-- `conf=<archivo>`: Especifica, sólo en la línea de comandos, un archivo de configuración de sólo lectura. Útil para congelar un perfil de ejecución (inmutable) en el lado de operaciones.
+- `conf=<archivo>`: Especifica, solo en la línea de comandos, un archivo de configuración de solo lectura. Útil para congelar un perfil de ejecución (inmutable) en el lado de operaciones.
 
 
 
@@ -3881,7 +3881,7 @@ Ahora hemos terminado de listar la mayoría de los parámetros de configuración
 
 
 
-Hemos llegado a la conclusión de este curso BTC 202, que te habrá permitido no sólo comprender los fundamentos del funcionamiento de los nodos y cómo interactúan dentro del sistema, sino también crear el tuyo propio. Ahora eres un Bitcoiner soberano, con tu propio Wallet de autocustodia, transmitiendo tus transacciones a través de tu propio nodo. ¡Enhorabuena!
+Hemos llegado a la conclusión de este curso BTC 202, que le habrá permitido no solo comprender los fundamentos del funcionamiento de los nodos y cómo interactúan dentro del sistema, sino también crear el suyo propio. Ahora es un Bitcoiner soberano, con su propio wallet de autocustodia, transmitiendo sus transacciones a través de su propio nodo. ¡Enhorabuena!
 
 
 
@@ -3893,7 +3893,7 @@ Ahora tienes varias opciones abiertas. El siguiente paso lógico es crear su pro
 
 
 
-Mientras tanto, le invito a descubrir la formación BTC 204, que le permitirá comprender y dominar los principios de protección de la intimidad en su uso de Bitcoin:
+Mientras tanto, le invito a descubrir la formación BTC 204, que le permitirá comprender y dominar los principios de protección de la intimidad en su uso de Bitcoin.
 
 
 

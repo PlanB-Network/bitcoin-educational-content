@@ -624,57 +624,55 @@ The notion of the shât(y) was eventually abandoned, perhaps due to the risk of 
 In the Middle Kingdom, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was over this long period that forms of scriptural money developed, where payments could be recorded in writing or settled by actual transfer of goods.
 
 
-In the New Kingdom, the monetary system became more complex, integrating different commodity currencies valued in metals (gold, silver, copper), standardized fabrics, cereals and oil. Fabrics were referred to as "cloth measures". **Prices for everyday goods were often expressed in grain or copper, while precious objects were valued in gold or silver. Silver, which was rarer in Egypt than gold, became particularly prized.** Silver was overvalued compared to gold, which was more abundant in Egypt.
+In the New Kingdom, the monetary system became more complex, integrating various commodity currencies valued in metals (gold, silver, copper), standardized fabrics, cereals and oil. **Prices for everyday goods were often expressed in grain or copper, while precious objects were valued in gold or silver. Silver, rarer in Egypt than gold, became particularly prized and was consequently overvalued relative to it.** Fabrics, a royal monopoly often granted to temples, were referred to as "cloth measures," confirming the economic importance of these institutions.
 
 
-By the Late Period (first millennium BC), silver had become the common metal of exchange throughout the Near East. It circulated in the form of ingots, metal coins or rings, which were weighed and marked in temples, guaranteeing their weight and purity, although they were not minted in the effigy of a sovereign. That came later, and will be the subject of a subsequent section on the Lydians.
+By the Late Period (first millennium BC), silver had become the common metal of exchange throughout the Near East. It circulated in the form of ingots, metal coins or rings, which were weighed and marked in temples to guarantee their weight and purity. Although not minted in the effigy of a sovereign, this system provided a reliable means of exchange.
 
 
-It should also be noted that the ancient Egyptians had a term, "hedj", for money, and it was used generically to designate any means of payment serving as consideration in a transaction, whether for metal, grain, cloth or various goods (wood, animals, services, etc.). Documented examples show that the Egyptians could settle a transaction by combining various products whose total value was expressed in copper units ("deben").
+The ancient Egyptians also had a generic term for money, "hedj," which designated any means of payment—metal, grain, cloth, or other goods—serving as consideration in a transaction. Documented examples show that transactions could be settled by combining various products, with their total value expressed in copper units ("deben").
 
 
-**Temples played a central role in the Egyptian economy: they collected and hoarded considerable treasures of precious metals (gold and silver) intended to honor the gods but also to serve as a monetary reserve that could be reintroduced into the economic circuit as needed**. We'll see examples of other civilizations accumulating valuable reserves in temples, such as statues, to be melted down in the event of war, currency shortage or crisis. This is a recurrent theme throughout history.
+**Temples played a central role in the Egyptian economy: they collected and hoarded considerable treasures of precious metals (gold and silver) intended to honor the gods but also to serve as a monetary reserve that could be reintroduced into the economic circuit as needed**. This practice of accumulating valuable reserves in temples, such as statues to be melted down in the event of war or crisis, is a recurrent theme throughout history.
 
 
-It's also worth mentioning that the cultivation of linen was a royal monopoly granted to the temples, and the manufacture of precious fabrics confirmed their economic importance.
+The cultivation of linen was a royal monopoly often granted to the temples, and the manufacture of these precious fabrics further confirmed their economic importance.
 
 
-The ancient Egyptians made a clear distinction between the ideological aspect of precious metals, linked to divinity (gold representing the flesh of the gods, silver their bones), and their practical function as currency serving as a reference for all other forms of payment.
-
-Thus, although ancient Egypt did not develop a minted currency comparable to modern monetary systems until the late period, it did possess a sophisticated monetary system, based on the combined use of scriptural money, precise units of account, commodity money and precious metals valued by weight.
+The ancient Egyptians made a clear distinction between the ideological aspect of precious metals, linked to divinity (gold representing the flesh of the gods, silver their bones), and their practical function a store of value and a standard for other forms of payment.
 
 
-The coins themselves were weighed, giving rise to two different concepts: **"coinage" and "money"**. I used two terms in English. First, "coinage" refers to coins, a concept that comes later, and we also have this concept of money. We can already define a certain notion of "money" by the units of account I've just expressed in terms of money, but which were not yet coins, so "coinage" comes a little later with the Lydians.
+Thus, although ancient Egypt did not develop a minted currency until the Late Period, it possessed a sophisticated monetary system based on the combined use of scriptural money, precise units of account, commodity money, and precious metals valued by weight.
 
 
-And so, coins are not a prerequisite for money, **so much so that we can admit the existence of money as early as the 3rd millennium,** in any case and without any doubt during the 2nd millennium and particularly under the reign of Hammurabi.
+A distinction must be drawn between the concepts of **"money"** and **"coinage."** "Coinage" refers to minted coins, a concept that appeared later with the Lydians. "Money," however, is a broader concept encompassing units of account and stores of value. By this definition, a sophisticated notion of money existed long before the first coins.
 
 
-What's important to remember here, and this is what the author mentions in the book "The Origins of Money", is that there is no doubt that the concept of money already existed at the time, in these monetary systems, and it's a mistake to link the birth of money as a concept to the appearance of coins.
+Coins are therefore not a prerequisite for money; indeed, **a functional monetary system can be dated to at least the 3rd millennium BCE**, and certainly without doubt during the 2nd millennium BCE, particularly under the reign of Hammurabi in Mesopotamia.
 
 
-Finally, Polanyi's concepts of reciprocity and redistribution, often applied to ancient Egypt, need to be nuanced: while they exist, they do not form an exclusive framework. Pharaonic Egypt had developed a complex economy that fully integrated sophisticated commercial exchanges, distinct from religious and ritual practices, demonstrating a real autonomy of the economic domain from the ideological.
+It is a mistake to link the birth of money as a concept to the appearance of coins. As outlined in works like "The Origins of Money," the concept of money clearly existed in these ancient monetary systems.
 
 
-This peculiarity is linked to the notion that precious metals were associated with a certain divinity, yet were still capable of distinction.
+Finally, Polanyi's concepts of reciprocity and redistribution, often applied to ancient Egypt, require nuance. While these forces were present, they did not form an exclusive framework. Pharaonic Egypt had developed a complex economy that integrated sophisticated commercial exchanges distinct from religious and ritual practices, demonstrating a degree of economic autonomy from the ideological sphere.
 
 
-I bring this up because Polanyi referred to the use of these precious metals as a primarily religious or divine notion. However, we are proposing that they were also integrated into the economic system, and that the Egyptians were already able to make such distinctions.
+This is evident in the dual nature of precious metals: while associated with divinity, they were also clearly distinguished and utilized as economic assets. This challenges a purely Polanyian interpretation that views their use as primarily religious or embedded in social relations.
 
 
-To conclude, I'd like to quote from the book "The Origins of Money", which lists the purpose of this invention, minted money. There are several points, but I'd just like to emphasize point 5:
+To conclude, the invention of minted coinage served several purposes. As discussed in "The Origins of Money," under point 5:
 
 
-*develop the possibility of economic play through the use of methods such as devaluations and successive revaluations to reduce or increase imports and exports at lower cost*
+*develop the possibility of economic policy through the use of methods such as devaluations and successive revaluations to reduce or increase imports and exports at lower cost*
 
 
-So, even in those archaic times, the author proposes that coins had already been invented or emerged under state control and were already being manipulated in terms of their quantity of precious metals and weight to manage the economy. Allow me to give you a little scoop regarding a subsequent section. **Even in the earliest forms of coinage, which were made of electrum, an alloy of gold and silver, we know from analyzing the content of precious metals in these coins that the first issuers, for example, Croesus, had less gold than in natural electrum.**
+This suggests that from its earliest days, coinage was a tool of the state. **Even the earliest coins, made of electrum (an alloy of gold and silver), shows evidence of this. Analysis of electrum coins from the first issuers, such as Croesus in Lydia, reveals that their gold content was often lower than that found in natural electrum deposits.**
 
 
-This means they already knew how to separate gold and silver, and issued coins containing less gold.
+This indicates that the issuers already knew how to part gold and silver and were producing debased coins. 
 
 
-The author suggests that from the earliest days of coinage, beyond simply certifying weight and facilitating trade, the power to mint money was already being abused to increase the quantity issued, possibly as a form of economic planning.
+From its inception, the power to mint was used not only to certify weight and facilitate trade but also to increase the quantity of currency issued, a form of early economic planning.
 
 
 ## Sign currency and economic and monetary organization in ancient China

@@ -57,7 +57,7 @@ In short, the COLDCARD Q offers an improved user experience over the MK4, and ma
 
 The COLDCARD Q is available for sale [on the official Coinkite website](https://store.coinkite.com/store/coldcard). It can also be purchased from a retailer.
 
-## Preparing the tutorial
+## Unboxing the Cold Card Q
 
 Once you've received your COLDCARD, the first step is to inspect the packaging to make sure it hasn't been opened. If the packaging is damaged, this may indicate that the hardware wallet has been compromised and may not be genuine.
 
@@ -344,7 +344,7 @@ On Sparrow Wallet, click on the "*Receive*" tab.
 
 ![CCQ](assets/fr/053.webp)
 
-Before using the address proposed by Sparrow Wallet, check it on your COLDCARD screen. This practice allows you to confirm that the address displayed on Sparrow is not fraudulent, and that the hardware wallet does indeed hold the private key needed to subsequently spend the bitcoins secured with this address. This helps you to avoid several types of attack.
+Before using the address proposed by Sparrow Wallet, check it on your COLDCARD screen. This practice allows you to confirm that the address displayed on Sparrow is not fraudulent, and that the hardware wallet does indeed hold the private key needed to subsequently spend the bitcoins secured with this address. This helps you to avoid several types of attacks.
 
 To perform this check, click on the "*Address Explorer*" menu on the COLDCARD.
 

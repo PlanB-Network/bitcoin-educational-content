@@ -164,10 +164,10 @@ En même temps, **l'économie autrichienne** a jeté les bases des principes mon
 
 **Définitions :**
 
-
 - Préférence temporelle : Valorisation des biens présents par rapport aux biens futurs.
 - Épargne : Conservation de la valeur pour une utilisation future.
-- 
+
+
 ### Bitcoin au Salvador
 
 
@@ -228,63 +228,60 @@ Au cours de la deuxième conférence intitulée "Comment fonctionne Bitcoin", no
 Les origines de Bitcoin sont basées sur plusieurs innovations clés, à commencer par **Hashcash** de **Adam Back**, un système de preuve de travail (*Proof-of-Work*) conçu pour empêcher les spams et les attaques par déni de service en demandant aux expéditeurs d'effectuer des tâches de calcul. Ce concept de preuve de travail est devenu la pierre angulaire de la sécurité de Bitcoin.
 
 
-Bitcoin s'appuie sur des **signatures numériques** utilisant la **cryptographie à courbe elliptique** pour sécuriser et vérifier les transactions. L'**algorithme de signature numérique à courbe elliptique (ECDSA)** garantit que seul le propriétaire légitime de Bitcoin peut autoriser des transactions sans révéler ses clés privées.
+Bitcoin s'appuie sur des **signatures numériques** utilisant la **cryptographie à courbe elliptique** pour sécuriser et vérifier les transactions. L'**algorithme de signature numérique à courbe elliptique (ECDSA)** garantit que seul le propriétaire légitime du bitcoin peut autoriser des transactions sans révéler ses clés privées.
 
 
-**Satoshi Nakamoto**, le créateur pseudonyme de Bitcoin, a développé ces idées en passant du modèle PoW à un **Blockchain** décentralisé. Cela a permis à un réseau distribué de nœuds de valider et d'enregistrer les transactions sans autorité centrale, marquant une évolution significative par rapport aux tentatives précédentes de monnaie numérique.
+**Satoshi Nakamoto**, le créateur pseudonyme de Bitcoin, a développé ces idées en passant du modèle de preuve de travail à une **Blockchain** décentralisée. Cela a permis à un réseau distribué de nœuds de valider et d'enregistrer les transactions sans autorité centrale, marquant une évolution significative par rapport aux tentatives précédentes de monnaie numérique.
 
 
-> **Définitions:**
->
+**Définitions :**
 
-> - preuve de travail (PoW) : système dans lequel les participants doivent résoudre des énigmes informatiques pour valider les transactions et sécuriser le réseau.
-> - cryptographie à courbe elliptique : une méthode cryptographique qui permet d'obtenir des signatures numériques sûres et efficaces.
+- Preuve de travail (PoW) : système dans lequel les participants doivent résoudre des énigmes informatiques pour valider les transactions et sécuriser le réseau.
+- Cryptographie à courbe elliptique : une méthode cryptographique qui permet d'obtenir des signatures numériques sûres et efficaces.
 
-### Mécanisme Blockchain et validation des transactions
-
-
-Les transactions Bitcoin sont validées et ajoutées aux blocs par les **miners**, qui s'affrontent pour résoudre une énigme cryptographique à l'aide de l'algorithme Proof-of-Work. Il s'agit de trouver une Hash avec un nombre spécifique de zéros en tête en ajustant une valeur **Nonce** jusqu'à ce que la Hash correcte soit découverte.
+### Mécanisme de la blockchain et validation des transactions
 
 
-Chaque **bloc** du Blockchain se compose d'un **en-tête** (avec des données comme celles du Hash du bloc précédent) et d'une liste de transactions. Le premier bloc, connu sous le nom de **bloc Genesis**, est unique car il n'a pas de prédécesseur.
+Les transactions Bitcoin sont validées et ajoutées aux blocs par les **miners**, qui s'affrontent pour résoudre une énigme cryptographique à l'aide de l'algorithme de preuve de travail. Il s'agit de trouver un hash avec un nombre spécifique de zéros en tête en ajustant une valeur **Nonce** jusqu'à ce que le hash correct soit découvert.
+
+
+Chaque **bloc** de la blockchain se compose d'un **en-tête** (contenant des données telles que le hash du bloc précédent) et d'une liste de transactions. Le premier bloc, connu sous le nom de **bloc Genesis**, est unique car il n'a pas de prédécesseur.
 
 
 ![Image](assets/en/004.webp)
 
 
-Avant d'être incluses dans un bloc, les transactions résident dans la **Mempool**, où elles attendent d'être validées. Une fois validées, ces transactions sont ajoutées au nouveau bloc miné, puis à la Blockchain.
+Avant d'être incluses dans un bloc, les transactions résident dans la **Mempool**, où elles attendent d'être validées. Une fois validées, ces transactions sont ajoutées au nouveau bloc miné, puis à la blockchain.
 
 
-> **Définitions:**
->
+**Définitions :**
 
-> - le processus consistant à résoudre des énigmes cryptographiques pour ajouter de nouveaux blocs au Blockchain.
-> - une valeur utilisée pour trouver la bonne Hash pendant la Mining.
-> - le pool de mémoire est une zone d'attente pour les transactions non confirmées avant qu'elles ne soient ajoutées à un bloc.
+- Minage : Le processus consistant à résoudre des énigmes cryptographiques pour ajouter de nouveaux blocs à la blockchain.
+- Nonce : Une valeur utilisée pour trouver le bon hash pendant le minage.
+- Mempool : Une zone d'attente pour les transactions non confirmées avant qu'elles ne soient ajoutées à un bloc.
 
-### Évolutivité, respect de la vie privée et développement en Bitcoin
-
-
-Le Bitcoin est confronté à des défis liés à l'évolutivité et à la protection de la vie privée. La capacité de transaction limitée du Blockchain rend difficile la gestion de volumes de transactions élevés. Des solutions comme le **Lightning Network** Address relèvent ces défis en permettant des transactions off-chain par le biais de canaux de paiement, ce qui accroît la rapidité et la confidentialité.
+### Évolutivité, confidentialité et développement sur Bitcoin
 
 
-L'utilisation d'un **Full node** est essentielle pour garantir la décentralisation et la sécurité, mais les **nœuds de vérification simplifiée des paiements (SPV)** permettent une participation plus légère au prix d'une certaine sécurité.
+Le Bitcoin est confronté à des défis liés à l'évolutivité et à la confidentialité. La capacité de transaction limitée de la blockchain rend difficile le traitement de volumes de transactions élevés. Des solutions comme le **Lightning Network** relèvent ces défis en permettant des transactions off-chain par le biais de canaux de paiement, ce qui accroît la rapidité et la confidentialité.
 
 
-Le développement du Bitcoin a évolué pour améliorer les performances et la sécurité. Les principales améliorations comprennent **Segregated Witness (SegWit)**, qui traite la malléabilité des transactions et augmente la taille effective des blocs, et **Taproot**, qui améliore la confidentialité et permet des contrats plus complexes en utilisant **Merkleized Abstract Syntax Trees (MAST)**.
+L'utilisation d'un **noeud complet (*Full node*)** est essentielle pour garantir la décentralisation et la sécurité, mais les **nœuds SPV (*Simplefied Payment Verification*)** permettent une participation plus légère au prix d'une certaine sécurité.
 
 
-> **Définitions:**
->
-
-> - une mise à jour de Bitcoin qui sépare les données de signature des données de transaction, améliorant ainsi l'efficacité.
-> - taproot:_Une mise à jour qui améliore la confidentialité et l'évolutivité de Bitcoin en permettant la mise en place de contrats intelligents plus complexes.
-> - réseau éclair : une deuxième solution Layer pour des transactions Bitcoin plus rapides et moins chères par le biais de canaux de paiement.
-
-#### Conclusion
+Le développement de Bitcoin a évolué pour améliorer les performances et la sécurité. Les principales améliorations comprennent **Segregated Witness (SegWit)**, qui traite la malléabilité des transactions et augmente la taille effective des blocs, et **Taproot**, qui améliore la confidentialité et permet des contrats plus complexes en utilisant **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-La structure et l'évolution permanente du Bitcoin témoignent de l'innovation et de l'adaptabilité de sa technologie. De **Hashcash** à un Blockchain décentralisé, et de **SegWit** à **Taproot**, le Bitcoin continue à relever les défis liés à l'évolutivité, à la protection de la vie privée et à la sécurité. Les efforts continus de la communauté garantissent que le Bitcoin reste résilient et décentralisé tout en évoluant pour répondre aux exigences de l'avenir.
+**Définitions :**
+
+- SegWit : Une mise à jour de Bitcoin qui sépare les données de signature des données de transaction, améliorant ainsi l'efficacité.
+- Taproot: Une mise à jour qui améliore la confidentialité et l'évolutivité de Bitcoin en permettant la mise en place de contrats intelligents plus complexes.
+- Lightning Network : Une seconde couche pour des transactions Bitcoin plus rapides et moins chères par le biais de canaux de paiement.
+
+### Conclusion
+
+
+La structure et l'évolution permanente de Bitcoin témoignent de l'innovation et de l'adaptabilité de sa technologie. De **Hashcash** à une blockchain décentralisée, et de **SegWit** à **Taproot**, le Bitcoin continue à relever les défis liés à l'évolutivité, à la protection de la vie privée et à la sécurité. Les efforts continus de la communauté garantissent que le Bitcoin reste résilient et décentralisé tout en évoluant pour répondre aux exigences de l'avenir.
 
 
 ## Démystifier Bitcoin
@@ -298,31 +295,29 @@ La structure et l'évolution permanente du Bitcoin témoignent de l'innovation e
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-Dans cette conférence, nous démystifions les mythes courants entourant le **Bitcoin**, les **blockchains** et les **cryptocurrencies**. Nous allons examiner 99 idées fausses sur la consommation d'énergie du Bitcoin, l'utilisation criminelle et le "FUD" (peur, incertitude, doute) répandu à propos de cette technologie.
+Dans cette conférence, nous démystifions les mythes courants entourant le **Bitcoin**, les **blockchains** et les **cryptomonnaies**. Nous allons aborder les idées reçues sur la consommation d'énergie de Bitcoin, l'utilisation criminelle et le "FUD" (peur, incertitude, doute) qui entoure cette technologie.
 
 
 ### Bitcoin vs. Blockchain
 
 
-On croit souvent à tort que le **Bitcoin** et le **Blockchain** sont identiques. Alors que le Bitcoin est une monnaie numérique, le **Blockchain** est la technologie qui l'alimente. Les blockchains fournissent un enregistrement vérifié des transactions, mais elles s'accompagnent de compromis tels que des vitesses plus lentes et des coûts plus élevés, ce qui permet à des solutions telles que le **Lightning Network** Address.
+On croit souvent à tort que le **Bitcoin** et la **blockchain** sont identiques. Alors que le Bitcoin est une monnaie numérique, la **blockchain** est la technologie qui l'alimente. Les blockchains fournissent un enregistrement vérifié des transactions, mais elles s'accompagnent de compromis tels que des vitesses plus lentes et des coûts plus élevés, que des solutions telles que le **Lightning Network** contribuent à résoudre.
 
 
-> **Définitions:**
->
+**Définitions :**
 
-> - la technologie sous-jacente utilisée pour enregistrer les transactions dans une Ledger décentralisée et immuable.
-> - réseau éclair : une deuxième solution Layer qui améliore l'efficacité des transactions Bitcoin en permettant les transactions off-chain.
+- Blockchain : La technologie sous-jacente utilisée pour enregistrer les transactions dans un registre décentralisé et immuable.
+- Lightning Network : Une seconde couche qui améliore l'efficacité des transactions Bitcoin en permettant les transactions off-chain.
 
 ### Bitcoin vs. Crypto
 
 
-Une autre distinction clé est que **Bitcoin** a été créé dans le seul but de fournir une forme de monnaie décentralisée et résistante à la censure, libre de tout contrôle de la part d'une entreprise ou d'un gouvernement. En revanche, les crypto-monnaies **shitcoins** sont souvent conçues avec un contrôle centralisé, et existent principalement pour enrichir les entreprises qui en sont à l'origine par le biais de pratiques prédatrices, de schémas de pompage et de revente, ou d'escroqueries pures et simples. Ces jetons ne servent généralement à rien d'autre qu'à permettre à leurs créateurs de réaliser un profit rapide aux dépens d'investisseurs mal informés. Bitcoin, en revanche, est la seule monnaie numérique véritablement décentralisée ayant fait ses preuves en matière de sécurité et de résilience.
+Une autre distinction clé est que **Bitcoin** a été créé dans le seul but de fournir une forme de monnaie décentralisée et résistante à la censure, libre de tout contrôle de la part d'une entreprise ou d'un gouvernement. En revanche, les cryptomonnaies **shitcoins** sont souvent conçues avec un contrôle centralisé, et existent principalement pour enrichir les entreprises qui en sont à l'origine par le biais de pratiques prédatrices, des stratagèmes de *Pump & Dump*, ou d'escroqueries pures et simples. Ces jetons ne servent généralement à rien d'autre qu'à permettre à leurs créateurs de réaliser un profit rapide aux dépens d'investisseurs mal informés. Bitcoin, en revanche, est la seule monnaie numérique véritablement décentralisée ayant fait ses preuves en matière de sécurité et de résilience.
 
 
-> **Définitions:**
->
+**Définitions :**
 
-> - les Shitcoins sont des crypto-monnaies de faible valeur ou de qualité douteuse qui n'ont pas d'utilité réelle. Elles sont souvent hautement spéculatives et sont parfois créées à des fins frauduleuses ou sans but précis, en profitant de l'essor du marché des crypto-monnaies.
+- Shitcoins : Les shitcoins sont des cryptomonnaies de faible valeur ou de qualité douteuse qui n'ont pas d'utilité réelle. Elles sont souvent hautement spéculatives et sont parfois créées à des fins frauduleuses ou sans but précis, en profitant de l'essor du marché des cryptomonnaies.
 
 ![Image](assets/en/005.webp)
 
@@ -330,44 +325,42 @@ Une autre distinction clé est que **Bitcoin** a été créé dans le seul but d
 ### Consommation d'énergie et impact sur l'environnement
 
 
-L'une des critiques les plus courantes à l'encontre du Bitcoin est sa **consommation d'énergie**. Si Bitcoin Mining consomme effectivement de l'énergie, elle représente moins de 1 % de la consommation mondiale d'électricité et moins de 3 % de l'énergie perdue. En outre, le **Bitcoin Mining** exploite souvent des sources d'énergie inutilisées ou renouvelables, ce qui le rend plus écologique qu'on ne le dit souvent.
+L'une des critiques les plus courantes à l'encontre de Bitcoin est sa **consommation d'énergie**. Bien que le minage de Bitcoin consomme de l'énergie, il représente moins de 1 % de la consommation mondiale d'électricité et moins de 3 % de l'énergie perdue. En outre, le **minage de Bitcoin** exploite souvent des sources d'énergie inutilisées ou renouvelables, ce qui le rend plus écologique qu'on ne le dit souvent.
 
 
-> **Définitions:**
->
+**Définitions :**
 
-> - le processus de validation des transactions et de sécurisation du réseau par la résolution d'énigmes cryptographiques, qui nécessite une puissance de calcul.
+- Minage de Bitcoin : Le processus de validation des transactions et de sécurisation du réseau par la résolution d'énigmes cryptographiques, qui nécessite de la puissance de calcul.
 
-### Idées fausses sur l'usage du droit pénal
-
-
-La Bitcoin est souvent critiquée pour son utilisation dans le cadre d'activités criminelles. Cependant, l'analyse de la Blockchain montre que seul un faible pourcentage des transactions de la Bitcoin est lié à la criminalité. En réalité, les systèmes financiers traditionnels sont beaucoup plus utilisés à des fins criminelles que la Bitcoin.
+### Idées reçues sur l'utilisation à des fins criminelles
 
 
-### Vie privée et fongibilité
+Le Bitcoin est souvent critiqué pour son utilisation dans le cadre d'activités criminelles. Cependant, l'analyse de la blockchain montre que seul un faible pourcentage des transactions Bitcoin est lié à la criminalité. En réalité, les systèmes financiers traditionnels sont beaucoup plus utilisés à des fins criminelles que Bitcoin.
 
 
-**La confidentialité** et la fongibilité** sont des caractéristiques essentielles de Bitcoin. La confidentialité protège les utilisateurs dans les régimes oppressifs, et la fongibilité garantit que chaque Bitcoin est égal, quelle que soit son histoire. Cela fait du Bitcoin une forme de monnaie fiable et équitable.
+### Confidentialité et fongibilité
 
 
-> **Définitions:**
->
-
-> - la fongibilité est la propriété de la monnaie dont chaque unité est interchangeable avec une autre, assurant ainsi une valeur égale.
-
-### Gérer la confusion et la dynamique du marché
+**La confidentialité** et la **fongibilité** sont des caractéristiques essentielles de Bitcoin. La confidentialité protège les utilisateurs dans les régimes oppressifs, et la fongibilité garantit que chaque Bitcoin est égal, quelle que soit son histoire. Cela fait du Bitcoin une forme de monnaie fiable et équitable.
 
 
-Les rumeurs entourant le Bitcoin exagèrent souvent les inquiétudes concernant son impact sur l'environnement, son utilisation criminelle et sa sécurité. Malgré les fluctuations du marché, la technologie décentralisée et saine du Bitcoin constitue une base solide pour la stabilité à long terme et la liberté financière, en particulier dans des environnements restrictifs comme le Venezuela.
+**Définitions :**
+
+- Fongibilité : Propriété de la monnaie dont chaque unité est interchangeable avec une autre, assurant ainsi une valeur égale.
+
+### Gérer le FUD et la dynamique du marché
 
 
-#### Conclusion
+Les rumeurs entourant le Bitcoin exagèrent souvent les inquiétudes concernant son impact sur l'environnement, son utilisation criminelle et sa sécurité. Malgré les fluctuations du marché, la technologie décentralisée et saine de Bitcoin constitue une base solide pour la stabilité à long terme et la liberté financière, en particulier dans des environnements restrictifs comme le Venezuela.
 
 
-Comprendre les réalités de la consommation d'énergie du Bitcoin, ses caractéristiques de confidentialité et son rôle dans la prévention du crime permet de dissiper les mythes qui l'entourent. En mettant fin à la confusion, nous pouvons apprécier le potentiel du Bitcoin en tant que forme révolutionnaire de monnaie saine qui favorise la protection de la vie privée, la sécurité et la décentralisation.
+### Conclusion
 
 
-## Exécution du Bitcoin
+Comprendre les réalités de la consommation d'énergie de Bitcoin, ses caractéristiques de confidentialité et son rôle dans la prévention de la criminalité permet de dissiper les mythes qui l'entourent. En dépassant le FUD , nous pouvons apprécier le potentiel de Bitcoin en tant que forme révolutionnaire de monnaie saine qui favorise la confidentialité, la sécurité et la décentralisation.
+
+
+## Exécution de Bitcoin
 
 
 <chapterId>5f638ec9-a6c1-5716-b27f-d837ab896eb1</chapterId>
@@ -380,7 +373,7 @@ Comprendre les réalités de la consommation d'énergie du Bitcoin, ses caracté
 
 :::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
-Dans le premier cours du 4ème module, nous avons exploré l'architecture de Bitcoin et l'installation d'un nœud Bitcoin core.
+Dans la première conférence du 4ème module, nous avons exploré l'architecture de Bitcoin et l'installation d'un nœud Bitcoin core.
 
 
 ### Exécution d'un nœud Bitcoin
@@ -396,28 +389,28 @@ Bienvenue à nouveau ! Dans la session précédente, nous avons abordé les conc
 Dans cette session, Alekos nous guidera à travers le processus de configuration d'un nœud Bitcoin à l'aide d'une machine virtuelle. Ce tutoriel pratique est conçu pour vous familiariser avec les étapes de la configuration de votre nœud pour participer au réseau Bitcoin.
 
 
-La gestion d'un nœud Bitcoin implique la validation des transactions et des blocs, l'application des règles de consensus et le soutien de la décentralisation du réseau. La mise en place d'un nœud vous assure une connexion directe au réseau Bitcoin, ce qui vous permet de contribuer à sa sécurité et à son intégrité.
+La gestion d'un nœud Bitcoin consiste à valider les transactions et les blocs, l'application des règles de consensus et soutenir la décentralisation du réseau. La mise en place d'un nœud vous assure une connexion directe au réseau Bitcoin, ce qui vous permet de contribuer à sa sécurité et à son intégrité.
 
 
-Dans cette conférence, vous trouverez un guide pour installer et faire fonctionner votre propre Bitcoin core, apprendre à tailler le Blockchain pour gagner de la place, et commencer à expérimenter avec le logiciel. Alekos vous guidera pas à pas dans ce processus passionnant.
+Dans cette conférence, vous trouverez un guide pour installer et faire fonctionner votre propre Bitcoin core, apprendre à élaguer la blockchain pour gagner de l'espace, et commencer à expérimenter avec le logiciel. Alekos vous guidera pas à pas dans ce processus passionnant.
 
 
-### Ce que vous pouvez faire avec le Bitcoin core et ses avantages
+### Ce que vous pouvez faire avec Bitcoin Core et ses avantages
 
 
-En exécutant le Bitcoin core, vous obtenez la possibilité de :
+En exécutant Bitcoin Core, vous obtenez la possibilité de :
 
 
 
-- Validez vos propres transactions et blocs** : S'assurer que les règles du réseau Bitcoin sont respectées sans dépendre de tiers.
-- Renforcer le réseau** : En participant au réseau, vous contribuez à sa décentralisation, ce qui rend Bitcoin plus résistant aux attaques.
-- Élaguer la Blockchain** : Réduire les besoins de stockage en ne conservant que les transactions les plus récentes, ce qui est idéal si vous disposez d'un espace disque limité.
-- Utilisez les fonctions avancées de Wallet** : Gérez votre Bitcoin en toute confidentialité et sécurité, utilisez les clés privées generate hors ligne et signez vos transactions en toute sécurité.
-- Interagissez directement avec le réseau Bitcoin** : En utilisant le Bitcoin core, vous pouvez vous connecter directement au réseau sans intermédiaire, ce qui vous permet d'obtenir les données les plus précises.
-- Bénéficiez d'une plus grande confidentialité** : En tant qu'opérateur Full node, vous n'avez pas à faire confiance à des services externes, ce qui protège la confidentialité de vos transactions contre la surveillance extérieure.
+- **Valider vos propres transactions et blocs** : S'assurer que les règles du réseau Bitcoin sont respectées sans dépendre de tiers.
+- **Renforcer le réseau** : En participant au réseau, vous contribuez à sa décentralisation, ce qui rend Bitcoin plus résistant aux attaques.
+- **Élaguer la blockchain** : Réduire les besoins de stockage en ne conservant que les transactions les plus récentes, ce qui est idéal si vous disposez d'un espace disque limité.
+- **Utiliser les fonctions avancées du portefeuille** : Gérez votre Bitcoin en toute confidentialité et sécurité, générez des clés privées hors ligne et signez vos transactions en toute sécurité.
+- **Interagir directement avec le réseau Bitcoin** : En utilisant Bitcoin core, vous pouvez vous connecter directement au réseau sans intermédiaire, ce qui vous permet d'obtenir les données les plus précises.
+- **Bénéficier d'une plus grande confidentialité** : En tant qu'opérateur d'un noeud complet, vous n'avez pas à faire confiance à des services externes, ce qui protège la confidentialité de vos transactions contre la surveillance extérieure.
 
 
-Les avantages liés à l'exploitation d'un nœud Bitcoin sont considérables pour tout bitcoiner dévoué. Non seulement vous contribuez à sécuriser le réseau et à renforcer sa décentralisation, mais vous améliorez également votre vie privée, vous garantissez l'intégrité de vos propres transactions et vous jouez un rôle proactif dans l'écosystème Bitcoin. La gestion d'un nœud est une étape clé dans l'atteinte de la souveraineté financière et dans l'adhésion totale à la nature décentralisée de Bitcoin.
+Les avantages liés à l'exploitation d'un nœud Bitcoin sont considérables pour tout bitcoiner engagé. Non seulement vous contribuez à sécuriser le réseau et à renforcer sa décentralisation, mais vous améliorez également votre vie privée, vous garantissez l'intégrité de vos propres transactions et vous jouez un rôle proactif dans l'écosystème Bitcoin. La gestion d'un nœud est une étape clé dans l'atteinte de la souveraineté financière et dans l'adhésion totale à la nature décentralisée de Bitcoin.
 
 
 ### Commandes fondamentales
@@ -426,8 +419,7 @@ Les avantages liés à l'exploitation d'un nœud Bitcoin sont considérables pou
 Il s'agit de quelques-unes des commandes de base pour la configuration de votre nœud :
 
 
-
-- Vérifier l'état du Bitcoin daemon** :
+- **Vérifier l'état de Bitcoin daemon** :
 
 
 ```bash
@@ -435,8 +427,7 @@ sudo systemctl status bitcoind
 ```
 
 
-
-- Démarrer le Bitcoin daemon:** :
+- **Démarrer Bitcoin daemon** :
 
 
 ```bash
@@ -444,8 +435,7 @@ systemctl start bitcoind
 ```
 
 
-
-- Arrêter la Bitcoin daemon:** :
+- **Arrêter Bitcoin daemon** :
 
 
 ```bash
@@ -453,8 +443,7 @@ sudo systemctl stop bitcoind
 ```
 
 
-
-  - Obtenir des informations détaillées** :
+- **Obtenir des informations détaillées** :
 
 
 ```bash
@@ -462,8 +451,7 @@ bitcoin-cli getblockchaininfo
 ```
 
 
-
-- L'élagage du Blockchain permet d'économiser de l'espace disque en ne conservant que les blocs les plus récents:** :
+- **L'élagage de la blockchain permet d'économiser de l'espace disque en ne conservant que les blocs les plus récents** :
 
 
 ```bash
@@ -471,8 +459,7 @@ prune=550
 ```
 
 
-
-- Activer le serveur Bitcoin core et configurer les paramètres RPC:** :
+- **Activer le serveur Bitcoin Core et configurer les paramètres RPC** :
 
 
 ```bash
@@ -482,8 +469,7 @@ rpcpassword=yourpassword
 ```
 
 
-
-- Vérifier l'état du Bitcoin daemon** :
+- **Vérifier l'état de Bitcoin daemon** :
 
 
 ```bash
@@ -491,33 +477,32 @@ sudo systemctl status bitcoind
 ```
 
 
-
-- Vérifiez le solde de votre Bitcoin Wallet:** :
+- **Vérifier le solde de votre portefeuille Bitcoin** :
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-### Installation de la foudre C
+### Installation de C-Lightning
 
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
-#### 1. **Bitcoin core recap**
+### 1. Récapitulatif de Bitcoin Core
 
 
-Commençons par un bref récapitulatif des étapes de l'installation de Bitcoin core sur une VM en nuage, car cela sera crucial pour notre installation ultérieure de C-Lightning.
+Commençons par un bref récapitulatif des étapes d'installation de Bitcoin Core sur une machine virtuelle cloud (VM), car cela sera crucial pour l'installation ultérieure de C-Lightning.
 
 
-**Réinstallation de Bitcoin core sur une VM en nuage**
+**Réinstallation de Bitcoin Core sur une machine virtuelle cloud**
 
 Pour commencer, vous devez réinstaller Bitcoin core sur votre machine virtuelle. Pour cette session, nous allons sauter la vérification des binaires pour gagner du temps, mais rappelez-vous que dans un environnement de production, la vérification des binaires est une étape critique pour assurer la sécurité.
 
 
 **Télécharger et vérifier les hachages de fichiers**
 
-Tout d'abord, téléchargez la dernière version de Bitcoin core et vérifiez les hachages des fichiers pour vous assurer qu'il n'y a pas eu d'altération.
+Tout d'abord, téléchargez la dernière version de Bitcoin Core et vérifiez les hachages des fichiers pour vous assurer qu'il n'y a pas eu d'altération.
 
 
 ```sh
@@ -538,7 +523,7 @@ sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-22.0/bin/*
 ```
 
 
-**Créer un fichier de service systemd:**
+**Créer un fichier de service systemd :**
 
 
 ```sh
@@ -546,7 +531,7 @@ sudo nano /etc/systemd/system/bitcoind.service
 ```
 
 
-**Ajouter la configuration suivante:**
+**Ajouter la configuration suivante :**
 
 
 ```ini
@@ -567,9 +552,9 @@ WantedBy=multi-user.target
 ```
 
 
-**Créer et configurer l'utilisateur et les répertoires de Bitcoin**
+**Créer et configurer l'utilisateur et les répertoires Bitcoin**
 
-Créez un utilisateur dédié et configurez les répertoires pour Bitcoin core.
+Créez un utilisateur dédié et configurez les répertoires pour Bitcoin Core.
 
 
 ```sh
@@ -579,7 +564,7 @@ sudo chown bitcoin:bitcoin /var/lib/bitcoind
 ```
 
 
-**Utiliser un minimum d'espace disque en élaguant les Blockchain**
+**Utiliser un minimum d'espace disque en élaguant la blockchain**
 
 Pour économiser de l'espace disque, activez l'élagage dans le fichier de configuration.
 
@@ -597,30 +582,30 @@ prune=550
 ```
 
 
-Avec ces étapes, vous devriez avoir Bitcoin core opérationnel avec une utilisation minimale du disque, prêt à interagir avec C-Lightning.
+Avec ces étapes, vous devriez avoir Bitcoin Core opérationnel avec une utilisation minimale du disque, prêt à interagir avec C-Lightning.
 
 
-#### 2. **Vue d'ensemble et installation de C-Lightning
+### 2. Vue d'ensemble et installation de C-Lightning
 
 
-**Vue d'ensemble de la foudre
+**Vue d'ensemble de C-Lightning**
 
 
-C-Lightning, également connu sous le nom de Core-Lightning, est un protocole Layer 2 qui facilite des transactions plus rapides et moins chères en utilisant les canaux off-chain. Il se distingue par son architecture modulaire et conviviale pour les développeurs, qui permet une personnalisation poussée grâce à des plugins.
+C-Lightning, également connu sous le nom de Core-Lightning, est un protocole de seconde couche qui facilite des transactions plus rapides et moins coûteuses en utilisant les canaux off-chain. Il se distingue par son architecture modulaire et conviviale pour les développeurs, qui permet une personnalisation poussée grâce à des plugins.
 
 
 **Importance de la modularité et de l'extensibilité avec des plugins**
 
-La conception modulaire de C-Lightning vous permet d'ajouter ou de supprimer des fonctionnalités en fonction des besoins, ce qui vous permet d'adapter le système à des cas d'utilisation spécifiques. Voici quelques exemples de cas d'utilisation
+La conception modulaire de C-Lightning vous permet d'ajouter ou de supprimer des fonctionnalités en fonction des besoins, ce qui vous permet d'adapter le système à des cas d'utilisation spécifiques. Voici quelques exemples de cas d'utilisation :
 
 
 
-- Traitement des paiements** : Des plugins personnalisés peuvent gérer des conditions de paiement spécifiques.
-- Frais d'acheminement** : Ajustez les frais d'acheminement de manière dynamique en fonction des conditions du réseau.
-- Automatisation** : Automatisez les tâches telles que la gestion des canaux et l'approvisionnement en liquidités.
+- **Traitement des paiements** : Des plugins personnalisés peuvent gérer des conditions de paiement spécifiques.
+- **Frais de routage** : Ajustez les frais de routage de manière dynamique en fonction des conditions du réseau.
+- **Automatisation** : Automatisez les tâches telles que la gestion des canaux et l'approvisionnement en liquidités.
 
 
-### Installation de la foudre
+### Installation de C-Lightning
 
 
 Passons maintenant à l'installation de C-Lightning.
@@ -628,7 +613,7 @@ Passons maintenant à l'installation de C-Lightning.
 
 **Utiliser la dernière version stable**
 
-Pour cet exposé, nous utiliserons la dernière version stable, par exemple 22.11.1.
+Pour cette session, nous utiliserons la dernière version stable, par exemple la 22.11.1.
 
 
 ```sh
@@ -651,7 +636,7 @@ gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
 
 **Installer les dépendances et compiler à partir du code source**
 
-Installez les dépendances nécessaires et compilez C-Lightning à partir des sources.
+Installez les dépendances nécessaires et compilez C-Lightning à partir du code source.
 
 
 ```sh
@@ -668,7 +653,7 @@ sudo make install
 
 **Configurer le service systemd pour un démarrage automatique**
 
-Créer un fichier de service systemd pour C-Lightning :
+Créez un fichier de service systemd pour C-Lightning :
 
 
 ```sh
@@ -696,12 +681,12 @@ WantedBy=multi-user.target
 ```
 
 
-#### 3. **Configuration et mise en place**
+### 3. Configuration et mise en place
 
 
 **Créer les répertoires et les fichiers de configuration nécessaires**
 
-Créer les répertoires et les fichiers de configuration nécessaires à C-Lightning.
+Créez les répertoires et les fichiers de configuration nécessaires à C-Lightning :
 
 
 ```sh
@@ -721,9 +706,9 @@ plugin=/usr/local/libexec/c-lightning/plugins
 ```
 
 
-**Configurer C-Lightning pour se connecter avec Bitcoin core sur Testnet**
+**Configurer C-Lightning pour se connecter avec Bitcoin Core sur le Testnet**
 
-Assurez-vous que C-Lightning peut se connecter à Bitcoin core en ajoutant les lignes suivantes :
+Assurez-vous que C-Lightning peut se connecter à Bitcoin Core en ajoutant les lignes suivantes :
 
 
 ```ini
@@ -735,7 +720,7 @@ bitcoin-rpcpassword=<rpcpassword>
 
 **Assurer la compatibilité et la synchronisation**
 
-Démarrez les services et assurez-vous qu'ils sont compatibles et synchronisés.
+Démarrez les services et assurez-vous qu'ils sont compatibles et synchronisés :
 
 
 ```sh
@@ -746,9 +731,9 @@ sudo systemctl enable lightningd
 ```
 
 
-**Address chemins d'accès aux fichiers et permissions, en particulier pour l'intégration de Tor**
+**Configurer les chemins d'accès aux fichiers et les autorisations, en particulier pour l'intégration de Tor**
 
-Configurez les chemins d'accès aux fichiers et les autorisations pour garantir un fonctionnement fluide, en particulier si vous utilisez Tor pour la protection de la vie privée.
+Configurez les chemins d'accès aux fichiers et les autorisations pour garantir un fonctionnement fluide, en particulier si vous utilisez Tor pour votre confidentialité :
 
 
 ```sh
@@ -765,9 +750,7 @@ proxy=127.0.0.1:9050
 ```
 
 
-**Sauvegarde du secret du HSM pour la récupération des fonds**
-
-Sauvegarder le secret du HSM pour la récupération des fonds.
+**Sauvegarder le secret HSM pour la récupération des fonds** :
 
 
 ```sh
@@ -777,7 +760,7 @@ sudo cp /var/lib/lightning/hsm_secret /path/to/secure/location
 
 **Tester les connexions et valider l'état opérationnel du nœud**
 
-Enfin, validez l'état opérationnel de votre nœud en testant les connexions et en vous assurant que tout fonctionne comme prévu.
+Enfin, validez l'état opérationnel de votre nœud en testant les connexions et en vous assurant que tout fonctionne comme prévu :
 
 
 ```sh
@@ -785,33 +768,33 @@ lightning-cli getinfo
 ```
 
 
-En suivant ces étapes, vous disposerez d'une installation C-Lightning entièrement fonctionnelle, connectée à votre nœud Bitcoin core, prête pour les transactions Testnet.
+En suivant ces étapes, vous disposerez d'une installation C-Lightning entièrement fonctionnelle, connectée à votre nœud Bitcoin Core, prête pour les transactions Testnet.
 
 
-#### Conclusion et questions
+### Conclusion et questions
 
 
-En conclusion, nous avons couvert aujourd'hui les étapes essentielles de la réinstallation de Bitcoin core, suivies d'une présentation détaillée de l'installation et de la configuration de C-Lightning. Si vous avez des questions, n'hésitez pas à les poser maintenant ou à les préparer pour une clarification lors de notre prochaine session. N'oubliez pas que l'expérience pratique est cruciale, alors utilisez la configuration Testnet que nous avons discutée pour obtenir plus d'informations.
+En conclusion, nous avons couvert les étapes essentielles de la réinstallation de Bitcoin Core, ainsi qu'une présentation détaillée de l'installation et de la configuration de C-Lightning. Si vous avez des questions, n'hésitez pas à les poser maintenant ou à les préparer pour une clarification lors de notre prochaine session. N'oubliez pas que l'expérience pratique est cruciale, alors utilisez la configuration Testnet dont nous avons parlé pour approfondir vos connaissances.
 
 
-### Sécurité et dispositifs matériels
+### Sécurité et appareils matériels
 
 
 :::video id=8b4baf24-1350-46b8-a87b-18678ed219ed:::
 
-### Spectre et dispositif Ledger
+### Specter et appareils Ledger
 
 
 #### Introduction
 
 
-Bienvenue à notre cours sur la sécurité et la configuration des appareils pour la Bitcoin. Aujourd'hui, il s'agit de comprendre l'utilisation des outils de sécurité, en particulier le Specter desktop Wallet et le Ledger Hardware Wallet, et de savoir comment les configurer efficacement pour améliorer la sécurité de la Bitcoin.
+Bienvenue dans notre cours sur la sécurité et la configuration des appareils pour Bitcoin. Aujourd'hui, il s'agit de comprendre l'utilisation des outils de sécurité, en particulier le portefeuille Specter desktop et le portefeuille matériel Ledger, et de savoir comment les configurer efficacement pour améliorer la sécurité sur Bitcoin.
 
 
-**Outils : Specter desktop Wallet et émulateur Ledger**
+**Outils : Portefeuille Specter desktop et émulateur Ledger**
 
 
-Specter est un logiciel de bureau Wallet conçu pour faciliter la création et la gestion de portefeuilles Bitcoin, en particulier ceux qui utilisent des dispositifs matériels. Pour notre démonstration, nous utiliserons un émulateur Ledger, qui imite les fonctionnalités d'un Ledger Hardware Wallet.
+Specter est un logiciel pour ordinateur conçu pour faciliter la création et la gestion de portefeuilles Bitcoin, en particulier ceux qui utilisent des appareils matériels. Pour notre démonstration, nous utiliserons un émulateur Ledger, qui imite les fonctionnalités d'un portefeuille matériel Ledger.
 
 
 **Différence entre le dispositif Ledger et la controverse de l'entreprise**

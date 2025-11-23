@@ -797,16 +797,16 @@ Bienvenue dans notre cours sur la sécurité et la configuration des appareils p
 Specter est un logiciel pour ordinateur conçu pour faciliter la création et la gestion de portefeuilles Bitcoin, en particulier ceux qui utilisent des appareils matériels. Pour notre démonstration, nous utiliserons un émulateur Ledger, qui imite les fonctionnalités d'un portefeuille matériel Ledger.
 
 
-**Différence entre le dispositif Ledger et la controverse de l'entreprise**
+**Différence entre l'appareil Ledger et la controverse de l'entreprise**
 
 
-Le dispositif Ledger, un Hardware Wallet populaire, est réputé pour sa sécurité robuste. Toutefois, l'entreprise qui le fabrique a fait l'objet d'un examen minutieux en raison de diverses controverses concernant la confidentialité des données des utilisateurs. Il est essentiel de comprendre la distinction entre la sécurité de l'appareil physique et les pratiques de l'entreprise pour pouvoir l'utiliser en toute connaissance de cause.
+Le dispositif Ledger, un portefeuille matériel populaire, est réputé pour sa sécurité robuste. Toutefois, l'entreprise qui le fabrique a été critiquée en raison de diverses controverses concernant la confidentialité des données des utilisateurs. Il est essentiel de comprendre la distinction entre la sécurité de l'appareil physique et les pratiques de l'entreprise pour pouvoir l'utiliser en toute connaissance de cause.
 
 
-**Modèles de sécurité : importance des portefeuilles multi-sig et de la diversité du matériel informatique**
+**Modèles de sécurité : importance des portefeuilles multi-signatures et de la diversité du matériel**
 
 
-Un aspect essentiel de la sécurité du Bitcoin est l'utilisation de portefeuilles à signatures multiples (multi-sig). Les portefeuilles multi-sig nécessitent plusieurs clés privées pour autoriser une transaction, ce qui renforce considérablement la sécurité. En outre, l'utilisation de différents types de portefeuilles matériels diversifie les risques et renforce le modèle de sécurité.
+Un aspect essentiel de la sécurité sur Bitcoin est l'utilisation de portefeuilles à signatures multiples (*multi-sig*). Les portefeuilles multi-signatures nécessitent plusieurs clés privées pour autoriser une transaction, ce qui renforce considérablement la sécurité. En outre, l'utilisation de différents types de portefeuilles matériels diversifie les risques et renforce le modèle de sécurité.
 
 
 ### Mise en place et configuration
@@ -815,85 +815,85 @@ Un aspect essentiel de la sécurité du Bitcoin est l'utilisation de portefeuill
 **Téléchargement et installation de Specter**
 
 
-La première étape de notre processus d'installation consiste à télécharger Specter depuis son dépôt officiel. Il est essentiel de vérifier l'intégrité du téléchargement afin d'éviter les logiciels compromis. Une fois téléchargé, installez Specter sur votre bureau et lancez l'application.
+La première étape de notre processus d'installation consiste à télécharger Specter depuis son dépôt officiel. Il est essentiel de vérifier l'intégrité du téléchargement afin d'éviter les logiciels compromis. Une fois téléchargé, installez Specter sur votre ordinateur et lancez l'application.
 
 
-**Configurer Specter pour se connecter aux serveurs Bitcoin core ou Electrum**
+**Configurer Specter pour se connecter aux serveurs Bitcoin Core ou Electrum**
 
 
-Pour configurer Specter, vous devez le connecter à un serveur Bitcoin core ou Electrum. Ces serveurs fournissent les données Blockchain nécessaires aux opérations Wallet. La configuration consiste à définir le serveur Address dans les paramètres de Specter et à assurer une connexion stable.
+Pour configurer Specter, vous devez le connecter à un serveur Bitcoin Core ou Electrum. Ces serveurs fournissent les données de la blockchain nécessaires au fonctionnement du portefeuille. La configuration consiste à renseigner l'adresse du serveur dans les paramètres de Specter et à s'assurer que la connexion est stable.
 
 
 **Explication des chemins de dérivation et de la récupération des clés publiques**
 
 
-La compréhension des chemins de dérivation est essentielle pour la gestion du Wallet. Les chemins de dérivation définissent comment les clés sont générées à partir d'une clé principale. Dans Specter, vous pouvez récupérer les clés publiques en connectant votre Hardware Wallet (ou émulateur) et en naviguant dans le Wallet Interface. Veillez à documenter ces chemins d'accès pour pouvoir vous y référer ultérieurement.
+La compréhension des chemins de dérivation est essentielle pour la gestion du portefeuille. Les chemins de dérivation définissent comment les clés sont générées à partir d'une clé maîtresse. Dans Specter, vous pouvez récupérer les clés publiques en connectant votre portefeuille matériel (ou émulateur) et en naviguant dans l'interface du portefeuille. Veillez à noter ces chemins d'accès pour pouvoir vous y référer ultérieurement.
 
 
 **Démonstration pratique : Utilisation de l'émulateur Ledger**
 
 
-Nous allons maintenant utiliser un émulateur Ledger pour récupérer les clés. Cela implique de connecter l'émulateur à Specter, de naviguer jusqu'à la section de gestion des clés et de sélectionner les clés appropriées pour la création de Wallet.
+Nous allons maintenant utiliser un émulateur Ledger pour récupérer les clés. Cela implique de connecter l'émulateur à Specter, de naviguer jusqu'à la section de gestion des clés et de sélectionner les clés appropriées pour la création du portefeuille.
 
 
-**Création et gestion de portefeuilles dans Specter**
+**Création et gestion des portefeuilles dans Specter**
 
 
-La création d'une Wallet dans Specter est simple. Accédez à la Interface de création de Wallet, entrez les détails nécessaires et incluez les clés publiques que vous avez récupérées. Une fois créée, vous pouvez gérer la Wallet, surveiller les transactions et garantir des pratiques de sécurité solides.
+La création d'un portefeuille dans Specter est simple. Accédez à l'interface de création de portefeuille, saisissez les détails nécessaires et incluez les clés publiques que vous avez récupérées. Une fois créé, vous pouvez gérer le portefeuille, surveiller les transactions et garantir des pratiques de sécurité robustes.
 
 
-**Réception et suivi des transactions
+**Réception et suivi des transactions**
 
 
-Après l'installation du Wallet, la réception de transactions est aussi simple que de partager votre Wallet Address. Specter assure une surveillance en temps réel des transactions entrantes, ce qui vous permet d'être toujours au courant de l'état de votre Wallet.
+Après l'installation du portefeuille, la réception de transactions est aussi simple que de partager votre adresse de portefeuille. Specter assure un suivi en temps réel des transactions entrantes, ce qui vous permet d'être toujours au courant de l'état de votre portefeuille.
 
 
 ### Configurations avancées
 
 
-**Configuration du Specter daemon** à distance
+**Configuration de Specter daemon à distance**
 
 
 Pour les utilisateurs avancés, la mise en place d'un Specter daemon à distance peut améliorer l'accessibilité et la sécurité. Il s'agit de configurer un serveur distant pour qu'il exécute le backend de Specter, ce qui permet un accès sécurisé à partir de différents appareils.
 
 
-**Activation de Tor pour la protection de la vie privée**
+**Activation de Tor pour la protection de la confidentialité**
 
 
-Pour renforcer la protection de la vie privée, il est fortement recommandé de configurer Specter pour qu'il utilise Tor. Tor anonymise votre trafic réseau, protégeant ainsi votre IP Address d'une éventuelle surveillance. Ceci est particulièrement important pour les utilisateurs soucieux de leur vie privée et de leur sécurité.
+Pour renforcer la confidentialité, il est fortement recommandé de configurer Specter pour qu'il utilise Tor. Tor anonymise votre trafic réseau, protégeant ainsi votre adresse IP d'une éventuelle surveillance. Ceci est particulièrement important pour les utilisateurs soucieux de leur vie privée et de leur sécurité.
 
 
-**Connexion aux nœuds distants en toute sécurité**
+**Connexion sécurisée aux nœuds distants**
 
 
-Lorsque vous vous connectez à des nœuds distants, veillez à ce que la connexion soit sécurisée. Cela implique l'utilisation de certificats SSL/TLS et la vérification de l'authenticité du nœud. Les connexions sécurisées empêchent les attaques de l'homme du milieu et garantissent l'intégrité des données.
+Lorsque vous vous connectez à des nœuds distants, veillez à ce que la connexion soit sécurisée. Cela implique l'utilisation de certificats SSL/TLS et la vérification de l'authenticité du nœud. Les connexions sécurisées empêchent les attaques de type *man-in-the-middle*h et garantissent l'intégrité des données.
 
 
 **Les problèmes de débogage : techniques pratiques**
 
 
-Il est inévitable de rencontrer des problèmes. Le débogage pratique consiste à vérifier les autorisations des utilisateurs, à contrôler l'accès au répertoire de données et à consulter les journaux pour y déceler les erreurs. Par exemple, il faut s'assurer que Specter dispose des autorisations nécessaires pour accéder au répertoire de données Bitcoin core afin d'éviter les interruptions de fonctionnement.
+Il est inévitable de rencontrer des problèmes. Le débogage pratique consiste à vérifier les autorisations des utilisateurs, à contrôler l'accès au répertoire de données et à consulter les journaux pour y déceler les erreurs. Par exemple, il faut s'assurer que Specter dispose des autorisations nécessaires pour accéder au répertoire de données de Bitcoin Core afin d'éviter toute interruption de fonctionnement.
 
 
 **Exemple de problème : accès au répertoire de données**
 
 
-Un problème courant est l'accès incorrect au répertoire de données. Vérifiez que le chemin d'accès à votre répertoire de données Bitcoin core est correctement défini dans la configuration de Specter. Cela garantit que Specter a accès aux données Blockchain nécessaires aux opérations Wallet.
+Un problème courant est un accès incorrect au répertoire de données. Vérifiez que le chemin d'accès à votre répertoire de données de Bitcoin Core est correctement défini dans la configuration de Specter. Cela garantit que Specter a accès aux données de la blockchain nécessaires au fonctionnement du portefeuille.
 
 
-**Prochaines étapes et intégration
+**Prochaines étapes et intégration**
 
 
-En conclusion, les prochaines étapes consistent à intégrer Specter au Lightning Network. Cela permet d'envoyer des fonds de Specter à un nœud Lightning, facilitant ainsi des transactions plus rapides et moins chères. Les prochaines leçons couvriront cette intégration en détail, améliorant ainsi vos capacités de transaction Bitcoin.
+En conclusion, les prochaines étapes consistent à intégrer Specter au Lightning Network. Cela permet d'envoyer des fonds de Specter à un nœud Lightning, facilitant ainsi des transactions plus rapides et moins coûteuses. Les prochaines leçons couvriront cette intégration en détail, améliorant ainsi vos capacités de transaction Bitcoin.
 
 
-**Variabilité du temps de blocage**
+**Variabilité du temps de bloc**
 
 
-Il est essentiel de comprendre la variabilité de la durée des blocs. Les blocs Bitcoin peuvent être extraits à des intervalles variables, ce qui affecte les délais de confirmation des transactions. Cette variabilité doit être prise en compte dans toutes les configurations et opérations Wallet.
+Il est essentiel de comprendre la variabilité de la durée des blocs. Les blocs Bitcoin peuvent être minés à des intervalles variables, ce qui affecte les délais de confirmation des transactions. Cette variabilité doit être prise en compte dans toutes les configurations et opérations.
 
 
-**Ressources pédagogiques
+**Ressources pédagogiques**
 
 
 Pour un apprentissage complémentaire, vous pouvez consulter des ressources telles que "Mastering the Lightning Network" et les tutoriels de Rusty Russell. Ces documents fournissent des connaissances approfondies sur les nœuds Lightning et les configurations Bitcoin avancées.
@@ -905,19 +905,19 @@ Pour un apprentissage complémentaire, vous pouvez consulter des ressources tell
 L'installation de nœuds, que ce soit localement ou à distance, bénéficie de l'utilisation de Tor pour une sécurité renforcée. L'utilisation de votre propre nœud garantit la validation des transactions personnelles, améliorant ainsi la sécurité et la confidentialité.
 
 
-**Philosophie : autosuffisance dans l'apprentissage**
+**Philosophie : autonomie dans l'apprentissage**
 
 
-Adoptez une philosophie d'autosuffisance. Les compétences pratiques et l'auto-apprentissage sont primordiaux et dépassent souvent les avantages de l'éducation formelle. Participez à des exercices pratiques pour approfondir votre compréhension de la sécurité Bitcoin.
+Adoptez une philosophie d'autonomie. Les compétences pratiques et l'auto-apprentissage sont primordiaux et dépassent souvent les avantages de l'éducation formelle. Participez à des exercices pratiques pour approfondir votre compréhension de la sécurité sur Bitcoin.
 
 
-**Considérations sur la protection de la vie privée
+**Considérations sur la confidentialité**
 
 
-Préservez votre vie privée en évitant les services qui suivent ou enregistrent les transactions. L'anonymat est essentiel pour la sécurité des opérations Bitcoin, et un choix judicieux des services permet de protéger votre identité et l'historique de vos transactions.
+Préservez votre vie privée en évitant les services qui suivent ou enregistrent les transactions. L'anonymat est essentiel pour des opérations Bitcoin sécurisées, et une sélection rigoureuse des services permet de protéger votre identité et l'historique de vos transactions.
 
 
-Ceci conclut notre exposé sur la sécurité et la configuration des dispositifs pour Bitcoin utilisant Specter et Ledger. N'hésitez pas à poser des questions ou à demander des éclaircissements sur les points abordés.
+Ceci conclut notre cours sur la sécurité et la configuration des appareils pour Bitcoin avec Specter et Ledger. N'hésitez pas à poser des questions ou à demander des éclaircissements sur les points abordés.
 
 
 ## Amélioration de Bitcoin
@@ -926,108 +926,107 @@ Ceci conclut notre exposé sur la sécurité et la configuration des dispositifs
 <chapterId>4fdd032f-2b05-5f24-a094-297d64f939de</chapterId>
 
 
-### Problèmes en suspens dans l'écosystème Bitcoin
+### Problèmes ouverts dans l'écosystème Bitcoin
 
 
 :::video id=6d771eca-3f53-493d-8937-db6ddb2cf172:::
 
-Depuis plus d'une décennie, Bitcoin s'est avéré être une innovation transformatrice dans le monde financier, fonctionnant avec succès à l'échelle mondiale et ouvrant de nouvelles possibilités dans l'économie numérique. Cependant, elle reste confrontée à des défis qui nécessitent des solutions créatives et collaboratives. L'évolution continue de Bitcoin offre une opportunité unique à ceux qui souhaitent façonner l'avenir de la finance décentralisée.
+Depuis plus d'une décennie, Bitcoin s'est avéré être une innovation transformatrice dans le monde financier, fonctionnant avec succès à l'échelle mondiale et ouvrant de nouvelles possibilités dans l'économie numérique. Cependant, il reste confronté à des défis qui nécessitent des solutions créatives et collaboratives. L'évolution continue de Bitcoin offre une opportunité unique à ceux qui souhaitent façonner l'avenir de la finance décentralisée.
 
 
 ![Image](assets/en/006.webp)
 
 
-#### Problèmes en suspens concernant la facilité d'utilisation du Bitcoin
+#### Problèmes concernant la facilité d'utilisation de Bitcoin
 
 
-Malgré plus de dix ans d'existence, Bitcoin est toujours confronté à d'importants problèmes de convivialité. Les outils et les interfaces mis à la disposition des utilisateurs n'ont souvent pas la maturité et la convivialité que l'on trouve dans les systèmes financiers plus traditionnels. Cela est particulièrement évident dans des régions telles que le Salvador, où l'adoption de Bitcoin a été approuvée par le gouvernement. Le principal problème ici est le besoin de meilleures abstractions qui peuvent simplifier l'expérience de l'utilisateur, rendant Bitcoin accessible même aux personnes ayant des connaissances techniques minimales.
+Malgré plus de dix ans d'existence, Bitcoin est toujours confronté à d'importants problèmes d'utilisabilité. Les outils et les interfaces mis à la disposition des utilisateurs n'ont souvent pas la maturité et la convivialité que l'on trouve dans les systèmes financiers plus traditionnels. Cela se remarque particulièrement dans des régions telles que le Salvador, où l'adoption de Bitcoin a été soutenue par le gouvernement. Le principal problème ici est le besoin de meilleures abstractions qui peuvent simplifier l'expérience de l'utilisateur, rendant Bitcoin accessible même aux personnes ayant des connaissances techniques minimales.
 
 
-#### Problèmes d'évolutivité en suspens
+#### Problèmes d'évolutivité
 
 
-L'évolutivité a été un problème persistant dans le développement de Bitcoin. La capacité du réseau à gérer un volume élevé de transactions reste limitée, ce qui se traduit souvent par des frais On-Chain élevés qui peuvent exclure certains utilisateurs de la participation. Si des solutions telles que le Lightning Network offrent un certain soulagement en permettant les transactions off-chain, elles ne Address résolvent pas totalement les problèmes d'évolutivité. Le besoin de solutions plus complètes, capables de gérer des volumes de transactions croissants sans compromettre l'intégrité du réseau, est évident.
+L'évolutivité est un problème récurrent dans le développement de Bitcoin. La capacité du réseau à gérer un volume élevé de transactions reste limitée, ce qui se traduit souvent par des frais on-chain élevés qui peuvent exclure certains utilisateurs. Si des solutions telles que le Lightning Network offrent un certain soulagement en permettant les transactions off-chain, elles ne résolvent pas totalement les problèmes d'évolutivité. Le besoin de solutions plus complètes, capables de gérer des volumes de transactions croissants sans compromettre l'intégrité du réseau, est évident.
 
 
-#### Problèmes ouverts en matière de sécurité
+#### Problèmes en matière de sécurité
 
 
-La sécurisation des actifs Bitcoin est une tâche complexe, semée d'embûches. Les portefeuilles Hot, qui sont souvent utilisés pour les transactions quotidiennes, présentent des risques de sécurité importants, en particulier pour ceux qui exploitent des nœuds de foudre. En outre, la planification de l'héritage des actifs Bitcoin reste un processus alambiqué et souvent peu sûr. La complexité de ces mesures de sécurité peut dissuader les utilisateurs potentiels et compliquer l'adoption à grande échelle.
+La sécurisation de ses bitcoins est une tâche complexe, semée d'embûches. Les portefeuilles chauds, qui sont souvent utilisés pour les transactions quotidiennes, présentent des risques de sécurité importants, en particulier pour ceux qui exploitent des nœuds Lightning. En outre, la planification de la transmission de ses bitcoins reste un processus complexe et souvent peu sûr. La complexité de ces mesures de sécurité peut dissuader les utilisateurs potentiels et compliquer l'adoption à grande échelle.
 
 
-#### Problèmes ouverts en matière de protection de la vie privée
+#### Problèmes en matière de confidentialité
+
+La confidentialité est une autre question essentielle au sein de l'écosystème Bitcoin. Bien qu'elle soit essentielle pour la sécurité, le cadre actuel de Bitcoin offre des fonctionnalités de confidentialité limitées. Les transactions on-chain sont facilement traçables, ce qui expose les utilisateursà des risques pour leur anonymat. Bien que la Lightning Network ait le potentiel de renforcer la protection de la vie privée, elle nécessite encore des améliorations substantielles. L'équilibre entre la transparence et la confidentialité est délicat et exige des solutions innovantes pour garantir la sécurité et la vie privée des utilisateurs.
 
 
-La protection de la vie privée est une autre question essentielle au sein de l'écosystème Bitcoin. Alors que la protection de la vie privée est essentielle pour la sécurité, le cadre actuel de Bitcoin offre des fonctions de protection de la vie privée limitées. Les transactions de la On-Chain sont facilement traçables, ce qui compromet l'anonymat de l'utilisateur. Bien que la Lightning Network ait le potentiel de renforcer la protection de la vie privée, elle nécessite encore des améliorations substantielles. L'équilibre entre la transparence et la protection de la vie privée est délicat et exige des solutions innovantes pour garantir la sécurité et la protection de la vie privée des utilisateurs.
+#### Problèmes en matière de flexibilité
 
 
-#### Problèmes ouverts en matière de flexibilité
+La flexibilité du protocole Bitcoin est nécessaire pour améliorer la confidentialité, la sécurité et l'évolutivité. Cependant, une trop grande flexibilité peut devenir une vulnérabilité, pouvant servir de vecteur d'attaque et menacer la décentralisation du réseau. Il est essentiel de trouver un juste équilibre pour maintenir l'intégrité et la résilience du protocole Bitcoin.
 
 
-La flexibilité du protocole Bitcoin est nécessaire pour améliorer la protection de la vie privée, la sécurité et l'évolutivité. Cependant, une trop grande flexibilité peut devenir une vulnérabilité, pouvant servir de vecteur d'attaque et menacer la décentralisation du réseau. Il est essentiel de trouver un juste équilibre pour maintenir l'intégrité et la résilience du protocole Bitcoin.
+### Compromis dans l'amélioration de Bitcoin
 
 
-### Compromis dans l'amélioration du Bitcoin
-
-
-#### Facilité d'utilisation contre sécurité et respect de la vie privée
+#### Facilité d'utilisation vs. sécurité et confidentialité
 
 
 ![Image](assets/en/007.webp)
 
 
-Les efforts visant à améliorer la convivialité de la Bitcoin se font souvent au détriment de la sécurité et de la protection de la vie privée. Par exemple, les portefeuilles de garde conviviaux, tels que la Wallet de la Satoshi, fournissent une Interface accessible, mais compromettent considérablement la sécurité et la confidentialité. Les systèmes simplifiés peuvent améliorer la convivialité, mais peuvent entraîner des problèmes tels que la réutilisation de la Address, qui porte atteinte à la vie privée. Par conséquent, toute amélioration de la convivialité doit être soigneusement évaluée par rapport aux compromis potentiels en matière de sécurité et de respect de la vie privée.
+Les efforts visant à améliorer l'utilisation de Bitcoin se font souvent au détriment de la sécurité et de la confidentialité. Par exemple, les portefeuilles de garde, tels que **Wallet of Satoshi**, fournissent une interface accessible, mais compromettent considérablement la sécurité et la confidentialité. Les systèmes simplifiés peuvent améliorer la convivialité, mais peuvent entraîner des problèmes tels que la réutilisation d'adresses, qui porte atteinte à la confidentialité. Par conséquent, toute amélioration de la convivialité doit être soigneusement évaluée par rapport aux compromis potentiels en matière de sécurité et de respect de la vie privée.
 
 
-#### Compromis entre évolutivité et respect de la vie privée
+#### Compromis entre évolutivité et confidentialité
 
 
-L'évolutivité et la protection de la vie privée sont souvent en contradiction dans le réseau Bitcoin. Les améliorations qui améliorent l'évolutivité, telles que des UTXO plus importants ou une réduction de l'obscurcissement cryptographique, diminuent généralement la protection de la vie privée. À l'inverse, les techniques axées sur la protection de la vie privée, telles que les signatures en anneau de Monero, renforcent l'anonymat des utilisateurs mais ont un impact négatif sur l'évolutivité. En outre, l'introduction de contrats avec état, comme dans le cas d'Ethereum, offre une flexibilité accrue au prix d'une réduction de la sécurité et de l'évolutivité. Équilibrer ces compromis est un défi complexe qui nécessite une réflexion méticuleuse.
+L'évolutivité et la confidentialité sont souvent en contradiction dans le réseau Bitcoin. Les améliorations qui renforcent l'évolutivité, telles que des UTXOs plus importants ou une réduction de l'obfuscation cryptographique, diminuent généralement la protection de la vie privée. À l'inverse, les techniques axées sur la confidentialité, telles que les *rings signatures* de Monero, renforcent l'anonymat des utilisateurs mais ont un impact négatif sur l'évolutivité. En outre, l'introduction de contrats avec état (*stateful contracts*), comme dans le cas d'Ethereum, offre une flexibilité accrue au prix d'une réduction de la sécurité et de l'évolutivité. Trouver le juste équilibre entre ces compromis est un défi complexe qui nécessite une réflexion méticuleuse.
 
 
-### Techniques de protection de la vie privée
+### Techniques de confidentialité
 
 
-Les différentes approches de la protection de la vie privée dans Bitcoin s'accompagnent de leurs propres compromis. La confidentialité par obscurcissement, qui consiste à ajouter des informations supplémentaires pour masquer les données pertinentes, peut améliorer la confidentialité mais peut compliquer le réseau. Monero et Zcash en sont des exemples. D'autre part, la confidentialité par omission, qui vise à réduire les informations On-Chain, comme le montre la Lightning Network, peut améliorer à la fois la confidentialité et l'évolutivité. Chaque méthode a ses avantages et ses inconvénients, ce qui nécessite une approche nuancée de l'amélioration de la confidentialité.
+Les différentes approches visant à améliorer la confidentialité dans Bitcoin s'accompagnent de leurs propres compromis. La confidentialité par obfuscation, qui consiste à ajouter des informations supplémentaires pour masquer les données pertinentes, peut améliorer la confidentialité mais peut compliquer le réseau. Monero et Zcash en sont des exemples. D'autre part, la confidentialité par omission, qui vise à réduire les informations sur la chaîne, comme le montre le Lightning Network, peut améliorer à la fois la confidentialité et l'évolutivité. Chaque méthode a ses avantages et ses inconvénients, ce qui nécessite une approche nuancée de l'amélioration de la confidentialité.
 
 
 ### Changements et défis du consensus
 
 
-La modification du mécanisme de consensus de Bitcoin est une entreprise rare et difficile en raison de la nature décentralisée du réseau. Des propositions telles que ChISA (cross-input signature aggregation) et covenants visent à introduire des règles de transaction plus complexes, mais leur mise en œuvre est semée d'embûches. Les changements consensuels nécessitent un large accord au sein de la communauté, et la coordination nécessaire peut conduire à une frustration importante et à l'épuisement si les changements proposés ne sont pas acceptés. Cela souligne la nécessité d'efforts prudents et collaboratifs dans l'élaboration des protocoles.
+La modification du mécanisme de consensus de Bitcoin est une entreprise rare et difficile en raison de la nature décentralisée du réseau. Des propositions telles que ChISA (*cross-input signature aggregation*) et les covenants visent à introduire des règles de transaction plus complexes, mais leur mise en œuvre est semée d'obstacles. Les changements de consensus nécessitent un large accord au sein de la communauté, et la coordination nécessaire peut conduire à une frustration importante et à l'épuisement si les changements proposés ne sont pas acceptés. Cela souligne la nécessité d'efforts prudents et collaboratifs dans le développement du protocole.
 
 
-### Innovations et normes dans le développement du Bitcoin
+### Innovations et normes dans le développement de Bitcoin
 
 
-L'adhésion à des pratiques normalisées dans le développement Bitcoin Wallet est cruciale pour garantir la facilité d'utilisation et la sécurité. À l'heure actuelle, de nombreux portefeuilles ne respectent pas les normes établies, ce qui entraîne une fragmentation et des vulnérabilités potentielles. La normalisation peut améliorer considérablement l'expérience de l'utilisateur et la sécurité globale des transactions Bitcoin.
+L'adhésion à des pratiques standadiséss dans le développement des portefeuilles Bitcoin est cruciale pour garantir la facilité d'utilisation et la sécurité. À l'heure actuelle, de nombreux portefeuilles ne respectent pas les normes établies, ce qui entraîne une fragmentation et des vulnérabilités potentielles. La standardisation peut améliorer considérablement l'expérience de l'utilisateur et la sécurité globale des transactions Bitcoin.
 
 
-Les phrases de sauvegarde traditionnelles de 12 mots, bien qu'efficaces pour l'utilisation de base de la Bitcoin, ne sont pas adaptées aux protocoles off-chain comme la Lightning Network. Les futures normes de sauvegarde doivent évoluer pour améliorer la sécurité et la convivialité de ces fonctions avancées, afin que les utilisateurs puissent gérer leurs actifs en toute sécurité à travers les différentes couches de l'écosystème Bitcoin.
+Les phrases de sauvegarde traditionnelles de 12 mots, bien qu'efficaces pour l'utilisation de base de la Bitcoin, ne sont pas adaptées aux protocoles off-chain comme le Lightning Network. Les futures standards de sauvegarde doivent évoluer pour améliorer la sécurité et la convivialité de ces fonctions avancées, afin que les utilisateurs puissent gérer leurs actifs en toute sécurité à travers les différentes couches de l'écosystème Bitcoin.
 
 
-La simplification du processus de paiement grâce à des protocoles unifiés est essentielle pour améliorer l'expérience de l'utilisateur. Les protocoles existants tels que BIP70, BIP78 et Payneem offrent diverses solutions, mais il est possible d'innover davantage. Un protocole de paiement plus rationalisé et plus convivial peut faciliter une adoption plus large et une plus grande facilité d'utilisation.
+La simplification du processus de paiement grâce à des protocoles unifiés est essentielle pour améliorer l'expérience de l'utilisateur. Les protocoles existants tels que BIP70, BIP78 et Payneem offrent diverses solutions, mais il est possible d'innover davantage. Un protocole de paiement plus simple et plus convivial peut faciliter une adoption plus large et rendre l'utilisation plus intuitive.
 
 
-Le développement de meilleurs outils et matériels est essentiel pour améliorer la convivialité et la sécurité de Bitcoin. Les innovations telles que les portefeuilles matériels (Ledger et Trezor, par exemple) offrent des solutions de sécurité robustes, mais doivent continuer à évoluer pour Address faire face aux nouvelles menaces. Des outils améliorés peuvent rendre le Bitcoin plus accessible et plus sûr pour un public plus large.
+Le développement de meilleurs outils et matériels est essentiel pour améliorer la convivialité et la sécurité de Bitcoin. Les innovations telles que les portefeuilles matériels (Ledger et Trezor, par exemple) offrent des solutions de sécurité robustes, mais doivent continuer à évoluer pour faire face aux nouvelles menaces. Des outils améliorés peuvent rendre Bitcoin plus accessible et plus sûr pour un public plus large.
 
 
-Il est essentiel d'atténuer les risques associés à la distribution des Hardware Wallet et de garantir leur intégrité. Les attaques de la chaîne Supply constituent des menaces importantes pour la sécurité de ces dispositifs. La mise en œuvre de mesures de sécurité rigoureuses et la garantie de la transparence des processus de production et de distribution peuvent contribuer à atténuer ces risques.
+Il est essentiel d'atténuer les risques associés à la distribution des portefeuilles matériels et de garantir leur intégrité. Les attaques visant la chaîne d'approvisionnement constituent des menaces importantes pour la sécurité de ces dispositifs. La mise en œuvre de mesures de sécurité rigoureuses et la garantie de la transparence des processus de production et de distribution peuvent contribuer à réduire ces risques.
 
 
-Simplifier les interactions des utilisateurs avec le Bitcoin et le Lightning Network tout en maintenant la sécurité et l'efficacité est un objectif clé. De meilleures abstractions UX peuvent rendre le Bitcoin plus accessible aux utilisateurs non techniques, favorisant une adoption plus large sans compromettre la sécurité.
+Simplifier les interactions des utilisateurs avec Bitcoin et le Lightning Network tout en maintenant la sécurité et l'efficacité est un objectif clé. De meilleures abstractions de l'expérience utilisateur (UX) peuvent rendre Bitcoin plus accessible aux utilisateurs non techniques, favorisant une adoption plus large sans compromettre la sécurité.
 
 
-La création de matériel pédagogique visant à améliorer la convivialité, la sécurité et la confidentialité de Bitcoin a un impact considérable. En informant les utilisateurs sur les meilleures pratiques et les principes sous-jacents de Bitcoin, on leur permet de prendre des décisions éclairées et d'améliorer leur expérience globale du réseau.
+La création de supports pédagogiques visant à améliorer l'utilisabilité, la sécurité et la confidentialité de Bitcoin a un impact considérable. En informant les utilisateurs sur les meilleures pratiques et les principes sous-jacents de Bitcoin, on leur permet de prendre des décisions éclairées et d'améliorer leur expérience globale avec le réseau.
 
 
 ![Image](assets/en/008.webp)
 
 
-**Layer 1 et Layer 2 changements**
+**Changement des couches 1 et 2**
 
 
-Les innovations au niveau de la base Layer (Layer 1) sont difficiles mais essentielles pour l'évolution à long terme de la Bitcoin. Les solutions Layer 2, comme la Lightning Network, permettent des changements plus expérimentaux et sont plus flexibles en ce qui concerne l'évolutivité et la protection de la vie privée. Les deux couches jouent un rôle crucial dans le développement continu de Bitcoin.
+Les innovations au niveau de la première couche (Layer 1) sont difficiles mais essentielles pour l'évolution à long terme de Bitcoin. Les solutions de seconde couche (Layer 2), comme le Lightning Network, permettent des changements plus expérimentaux et sont plus flexibles en ce qui concerne l'évolutivité et la confidentialité. Les deux couches jouent un rôle crucial dans le développement continu de Bitcoin.
 
 
 **Coordination du consensus**
@@ -1039,10 +1038,10 @@ Les modifications apportées au protocole de Bitcoin nécessitent une coordinati
 **Défis d'évolutivité**
 
 
-L'obtention d'un consensus mondial et la gestion de couches secondaires complexes, telles que la Lightning Network, posent des problèmes d'évolutivité. Ces problèmes doivent être résolus pour que la Bitcoin puisse absorber des volumes de transactions croissants tout en conservant ses principes fondamentaux de sécurité et de décentralisation.
+L'obtention d'un consensus mondial et la gestion de couches secondaires complexes, telles que le Lightning Network, posent des problèmes d'évolutivité. Ces problèmes doivent être résolus pour que Bitcoin puisse absorber des volumes de transactions croissants tout en conservant ses principes fondamentaux de sécurité et de décentralisation.
 
 
-En conclusion, il est essentiel pour l'évolution de l'écosystème Bitcoin de s'attaquer en permanence à ces problèmes ouverts et d'innover au sein de cet écosystème. L'équilibre entre la facilité d'utilisation, la sécurité, la protection de la vie privée et l'évolutivité nécessite une réflexion approfondie et des efforts de collaboration. En contribuant à ces développements, les participants peuvent aider à façonner l'avenir de Bitcoin et son rôle dans le paysage financier mondial.
+En conclusion, il est essentiel pour l'évolution de l'écosystème Bitcoin de s'attaquer en permanence à ces problèmes ouverts et d'innover au sein de cet écosystème. L'équilibre entre la facilité d'utilisation, la sécurité, la confidentialité et l'évolutivité nécessite une réflexion approfondie et des efforts de collaboration. En contribuant à ces développements, les participants peuvent aider à façonner l'avenir de Bitcoin et son rôle dans le paysage financier mondial.
 
 
 # Bitcoin Principes fondamentaux

@@ -681,43 +681,43 @@ From its inception, the power to mint was used not only to certify weight and fa
 
 :::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
 
-In this section, entitled "Sign money and the economic and monetary organization of ancient China", we'll see that ancient Chinese money has distinct characteristics from Western traditions. Chinese currency was already a "sign currency" from the outset. The information in this section is based on notes I took after reading the book "Aux origines de la monnaie".
+In this section, we will examine how ancient Chinese monetary traditions differ from Western ones, focusing on the concept of "sign currency." The information presented is based on the book "Aux origines de la monnaie."
 
 
 ### The concept of sign currency and its distinctive features
 
 
-According to the author, sign money is the equivalent of today's fiat currency. It's a currency that doesn't have a value linked to its metal content. From the outset, it was a kind of agreement, a social consensus on the value of these coins.
+According to the author, sign currency is the historical equivalent of today's fiat currency: a medium of exchange whose value is not derived from its intrinsic material content but from a social consensus.
 
 
-Ancient Chinese coinage has characteristics that differ from Western traditions. It was mainly metallic, but cast rather than minted, and did not bear the effigy of a sovereign. Surprisingly, the Chinese state did not have a monopoly on monetary issuance. This apparent liberalism can be explained by the absence of any economic need to monopolize monetary issuance, thanks to abundant tax resources levied on a large taxable population.
+Ancient Chinese coinage differs from Western traditions. It was primarily metallic, but cast rather than minted, and did not bear the effigy of a sovereign. Notably, the Chinese state did not hold a monopoly on monetary issuance. This can be explained by the absence of an economic need to do so, given the state's abundant tax revenue from a large taxable population.
 
 
-Chinese currency is also characterized by its fiduciary aspect. From the very beginning, bronze imitations of cowries (sea shells) were used as currency, with no direct relation to the intrinsic value of the metal used. If we go back very far in history, the Chinese used seashells as currency. Eventually, when shells became too scarce, they made replicas in copper, and these copies had the same value as the real thing.
+Chinese currency is also characterized by its fiduciary nature. Initially, bronze imitations of cowries (sea shells) were used as currency, with their value exceeding the intrinsic value of the metal. When shells became scarce, these bronze replicas retained the value of the original item. 
 
 
-Chinese currency was therefore not based on the value of the material or the relative rarity of the original item (e.g. shellfish), but on collective confidence in its use as a medium of exchange - in other words, a monetary sign.
+Therefore, Chinese currency was not based on the material's value or the rarity of the original item (e.g., the seeshell), but on collective confidence in its function as a medium of exchange—a monetary sign.
 
 
 ### From cowrie shells to metallic imitations
 
 
-The cowrie was widely used as a primitive monetary unit. Ancient inscriptions show that, as early as the Shang and Zhou dynasties (the first dynasties of the first and second millennia BC), cowrie shells were used not only to reward military deeds, but also to **remunerate work, measure value and buy land**.
+The cowrie was widely used as an early form of currency. As early as the Shang and Zhou dynasties (the first dynasties of the first and second millennia BC), cowrie shells were used not only to reward military deeds, but also to **pay for labor, serve as a unit of account, and purchase land**.
 
 
-What's important to remember here is that it wasn't just any tool used by society for restricted purposes. It was employed for military rewards, payment for work, and measurement of value. We find traces of this in the writings of archaeologists. While we don't know if it was used to buy bread on a daily basis, we do have evidence that it could have been used for the types of transactions mentioned above.
+Archaeological evidence confirms these uses, though it is unclear if cowries were used for everyday transactions like buying food.
 
 
-Over time, the scarcity of real cowrie shells led to the production of imitations in bronze, bone, mother-of-pearl or stone, particularly for use in funerary contexts to avoid immobilizing real values in tombs. This change of medium is also linked to the idea of the prince's control over money, a control that is all the easier if the prince makes the money.
+Over time, the scarcity of genuine cowrie shells led to the production of imitations in bronze, bone, mother-of-pearl or stone, often for funerary purposes to preserve real wealth. This shift in medium is also linked to the state's control over the monetary supply, as creating currency is a direct assertion of authority.
 
 
-What we need to understand here is that, by moving beyond the limitation of  natural scarcity of seashells, if the prince can create the currency himself, it gives him greater control over the management of the economy.
+By overcoming the natural scarcity of seeshells, the ability to produce currency granted the state significant influence over economic management.
 
 
-Unlike Mesopotamia, where coins were linked to the weight of precious metal, Chinese coinage terminology derives directly from the initial shapes of the objects used as currency: cowries (bei), knives (dao), spades (bu), and round coins (quan or qian). Thus, we can see that the origin of words related to money in China referred to these objects. In contrast, in the West, we have a number of monetary terms that come from concepts quite different from these, more related to the physical characteristics and weight of monetary objects. These etymological differences clearly demonstrate the schism between the Western and Chinese visions of money.
+Unlike Mesopotamia, where currency was tied to the weight of precious metal, Chinese coinage terminology derives directly from the initial shapes of the objects used as currency: cowries (bei), knives (dao), spades (bu), and round coins (quan or qian). This etymological divergence highlights a fundamental difference in the conceptual foundations of money in China versus the West.
 
 
-In China, monetary value was totally fiduciary, based on a social convention between the State, producers, and merchants.
+In China, monetary value was largely fiduciary, based on a social convention among the State, producers, and merchants.
 
 
 ### Economic regulation and monetary philosophy

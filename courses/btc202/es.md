@@ -138,7 +138,7 @@ Tal y como lo describe su creador, Satoshi Nakamoto, Bitcoin se presenta como un
 
 
 
-- En primer lugar, Satoshi describe Bitcoin como un “sistema”, es decir, un conjunto coherente de componentes de hardware y software que interactúan para prestar un servicio específico o realizar una función concreta.
+- En primer lugar, Satoshi describe Bitcoin como un "sistema", es decir, un conjunto coherente de componentes de hardware y software que interactúan para prestar un servicio específico o realizar una función concreta.
 - A continuación, explica que este sistema permite utilizar dinero electrónico, es decir, una forma de moneda intangible.
 - Por último, señala que este sistema no depende de ninguna entidad central: es peer-to-peer, es decir, que son los propios usuarios quienes hacen funcionar el sistema.
 
@@ -207,7 +207,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-La blockchain es, por tanto, un registro en evolución: cada vez que un miner publica un nuevo bloque, el nodo comprueba su validez antes de añadirlo a su propia copia local de la cadena. A fecha de hoy (julio de 2025), la blockchain completa supera los 675 GB, y este tamaño sigue creciendo, ya que se añade un nuevo bloque cada 10 minutos por término medio.
+La blockchain es, por tanto, un registro en evolución: cada vez que un minero publica un nuevo bloque, el nodo comprueba su validez antes de añadirlo a su propia copia local de la cadena. A fecha de hoy (julio de 2025), la blockchain completa supera los 675 GB, y este tamaño sigue creciendo, ya que se añade un nuevo bloque cada 10 minutos por término medio.
 
 
 
@@ -245,7 +245,7 @@ Una vez validada, la transacción se almacena en la mempool del nodo, un espacio
 
 
 
-La tercera función del nodo consiste en gestionar los bloques minados. Cuando un miner descubre un nuevo bloque con una proof of work válida, lo difunde por la red. Los nodos lo reciben, comprueban que cumple todas las normas del protocolo y lo integran en su propia copia local de la blockchain si es válido. Al igual que ocurre con las transacciones, los bloques recién validados se retransmiten a todos los pares conectados al nodo. Este proceso continúa hasta que todos los nodos de la red Bitcoin conocen el nuevo bloque.
+La tercera función del nodo consiste en gestionar los bloques minados. Cuando un minero descubre un nuevo bloque con una proof of work válida, lo difunde por la red. Los nodos lo reciben, comprueban que cumple todas las normas del protocolo y lo integran en su propia copia local de la blockchain si es válido. Al igual que ocurre con las transacciones, los bloques recién validados se retransmiten a todos los pares conectados al nodo. Este proceso continúa hasta que todos los nodos de la red Bitcoin conocen el nuevo bloque.
 
 
 
@@ -298,11 +298,11 @@ Las nociones de nodo y miner se confunden a menudo. Sin embargo, estos dos eleme
 
 
 
-Inicialmente, cuando Bitcoin fue lanzado por Satoshi Nakamoto en 2009, se esperaba que cada usuario participara en la red como un todo. Así, el software original de Bitcoin combinaba varias funciones a la vez: actuaba como wallet, como nodo y también como miner, capaz de generar nuevos bloques. En aquella época, la dificultad de minado era muy baja. Todo lo que había que hacer era ejecutar el software Bitcoin en el ordenador para encontrar bloques y recibir bitcoins como recompensa.
+Inicialmente, cuando Bitcoin fue lanzado por Satoshi Nakamoto en 2009, se esperaba que cada usuario participara en la red como un todo. Así, el software original de Bitcoin combinaba varias funciones a la vez: actuaba como wallet, como nodo y también como minero, capaz de generar nuevos bloques. En aquella época, la dificultad de minado era muy baja. Todo lo que había que hacer era ejecutar el software Bitcoin en el ordenador para encontrar bloques y recibir bitcoins como recompensa.
 
 
 
-Sin embargo, con la popularización gradual de Bitcoin y el aumento del número de mineros, el panorama competitivo del mining ha experimentado un cambio radical. Hoy en día, el mining se ha convertido en una actividad extremadamente competitiva, dominada por actores industriales equipados con infraestructuras especializadas. La potencia necesaria para minar un nuevo bloque es ahora tan grande que es prácticamente imposible que un usuario individual lo consiga utilizando únicamente un ordenador convencional. Como consecuencia, el mining se realiza ahora principalmente con máquinas especializadas llamadas ASICs (**Application-Specific Integrated Circuits**). Estos chips están optimizados exclusivamente para ejecutar doble SHA-256, el algoritmo utilizado para minar en Bitcoin.
+Sin embargo, con la popularización gradual de Bitcoin y el aumento del número de mineros, el panorama competitivo de la minería ha experimentado un cambio radical. Hoy en día, la minería se ha convertido en una actividad extremadamente competitiva, dominada por actores industriales equipados con infraestructuras especializadas. La potencia necesaria para minar un nuevo bloque es ahora tan grande que es prácticamente imposible que un usuario individual lo consiga utilizando únicamente un ordenador convencional. Como consecuencia, la minería se realiza ahora principalmente con máquinas especializadas llamadas ASICs (**Application-Specific Integrated Circuits**). Estos chips están optimizados exclusivamente para ejecutar doble SHA-256, el algoritmo utilizado para minar en Bitcoin.
 
 
 
@@ -310,7 +310,7 @@ Sin embargo, con la popularización gradual de Bitcoin y el aumento del número 
 
 
 
-Ante esta evolución, las funciones del nodo Bitcoin y del miner se han diferenciado claramente. Como ya se ha indicado, la función de un nodo Bitcoin es puramente informativa y de validación. La función del miner es diferente:
+Ante esta evolución, las funciones del nodo Bitcoin y del minero se han diferenciado claramente. Como ya se ha indicado, la función de un nodo Bitcoin es puramente informativa y de validación. La función del minero es diferente:
 
 
 
@@ -333,7 +333,7 @@ El papel del miner también se diferencia a veces del del chopper. Un mincer es 
 
 
 
-Por último, existe una diferencia importante en términos de incentivos económicos entre el miner y el nodo. Ejecutar un nodo Bitcoin no proporciona ningún beneficio monetario directo. En cambio, participar en mining sí otorga recompensas (subsidio y comisiones por transacción) por cada bloque encontrado.
+Por último, existe una diferencia importante en términos de incentivos económicos entre el miner y el nodo. Ejecutar un nodo Bitcoin no proporciona ningún beneficio monetario directo. En cambio, participar en la minería sí otorga recompensas (subsidio y comisiones por transacción) por cada bloque encontrado.
 
 
 
@@ -368,7 +368,7 @@ Entre estas implementaciones, una domina con diferencia: **Bitcoin core**.
 
 
 
-Bitcoin core es el software de referencia para el protocolo Bitcoin. Se deriva del código original escrito por Satoshi Nakamoto en 2008-2009, y es una continuación directa del mismo. Inicialmente conocido como "*Bitcoin*", luego "*Bitcoin QT*" (debido a la adición de una Interfaz gráfica a través de la biblioteca Qt), fue rebautizado como "*Bitcoin core*" en 2014 para diferenciar claramente el software de la red. Desde la versión 0.5, se distribuye con dos componentes: `Bitcoin-qt` (la interfaz gráfica) y `bitcoind` (la interfaz de línea de comandos).
+Bitcoin core es el software de referencia para el protocolo Bitcoin. Se deriva del código original escrito por Satoshi Nakamoto en 2008-2009, y es una continuación directa del mismo. Inicialmente conocido como "*Bitcoin*", luego "*Bitcoin QT*" (debido a la adición de una interfaz gráfica a través de la biblioteca Qt), fue rebautizado como "*Bitcoin core*" en 2014 para diferenciar claramente el software de la red. Desde la versión 0.5, se distribuye con dos componentes: `Bitcoin-qt` (la interfaz gráfica) y `bitcoind` (la interfaz de línea de comandos).
 
 
 
@@ -706,7 +706,7 @@ Un nodo Bitcoin es, por tanto, una máquina que ejecuta una implementación del 
 
 
 
-Un full node es simplemente un nodo Bitcoin que descarga toda la blockchain desde el bloque Génesis, valida cada bloque de manera independiente y almacena la historia completa de esa blockchain localmente. Esta es la forma “normal” de un nodo Bitcoin, tal y como lo imaginó Satoshi Nakamoto.
+Un full node es simplemente un nodo Bitcoin que descarga toda la blockchain desde el bloque Génesis, valida cada bloque de manera independiente y almacena la historia completa de esa blockchain localmente. Esta es la forma "normal" de un nodo Bitcoin, tal y como lo imaginó Satoshi Nakamoto.
 
 
 
@@ -813,7 +813,7 @@ Un full node sigue siendo la mejor solución si quieres ser totalmente independi
 
 
 
-## Resumen de coluciones de software
+## Resumen de soluciones de software
 
 
 <chapterId>0d48b89a-e8b5-441e-a707-537a035fc15e</chapterId>
@@ -833,7 +833,7 @@ Ambos enfoques conducen al mismo objetivo: tener tu propio nodo, pero difieren e
 
 
 
-### Implementaciones de Nodos Bitcoin Puras (Raw)
+### Implementaciones de nodos Bitcoin sin procesar
 
 
 
@@ -853,7 +853,7 @@ Es el enfoque más soberano y flexible: sabes exactamente qué se está ejecutan
 
 
 
-**Beneficios:** Máxima estabilidad, comportamiento predecible, experiencia raw, fácil de instalar y configurar.
+**Ventajas:** Máxima estabilidad, comportamiento predecible, experiencia raw, fácil de instalar y configurar.
 
 
 
@@ -892,7 +892,7 @@ Personalmente, le recomiendo que elija Core, principalmente para beneficiarse de
 
 
 
-El _node-in-a-box_ combina Bitcoin Core (o Knots) con un sistema operativo preconfigurado, una Interface Web y una App Store de servicios de autoalojamiento (Lightning, exploradores, servidor Electrum, Mempool, BTCPay Server, Nextcloud, etc.). En un solo click, puede instalar, actualizar e interconectar estos diferentes módulos.
+El _node-in-a-box_ combina Bitcoin Core (o Knots) con un sistema operativo preconfigurado, una Interface Web y una App Store de servicios de autoalojamiento (Lightning, exploradores, servidor Electrum, Mempool, BTCPay Server, Nextcloud, etc.). En un solo clic, puede instalar, actualizar e interconectar estos diferentes módulos.
 
 
 
@@ -900,7 +900,7 @@ Es una solución mucho más sencilla para arrancar y gestionar numerosas aplicac
 
 
 
-Así pues, un node-in-a-box es extremadamente fácil de usar siempre que todo funcione correctamente, pero en caso de bug, hay que estar preparado para realizar largas búsquedas, esperar ayuda y ensuciarse las manos.
+Así pues, un node-in-a-box es extremadamente fácil de usar siempre que todo funcione correctamente, pero en caso de error, hay que estar preparado para realizar largas búsquedas, esperar ayuda y ensuciarse las manos.
 
 
 
@@ -1144,7 +1144,7 @@ Personalmente, prefiero los *Lenovo ThinkCentre Tiny*, muy extendidos en el merc
 
 
 
-**Debilidades:** ligeramente más caro que un SBC tipo Raspberry Pi, sin pantalla integrada (acceso remoto o mediante monitor externo), sin batería (apagado repentino en caso de corte de corriente).
+**Puntos débiles:** ligeramente más caro que un SBC tipo Raspberry Pi, sin pantalla integrada (acceso remoto o mediante monitor externo), sin batería (apagado repentino en caso de corte de corriente).
 
 
 
@@ -1370,7 +1370,7 @@ Dependiendo del uso que le vayas a dar, puedes optar por una unidad SSD de 2 TB,
 
 
 
-- Utiliza siempre el supply original del fabricante para tu máquina. Esto es crucial para evitar daños en tu equipo y prevenir el riesgo de provocar un incendio.
+- Utiliza siempre el suministro original del fabricante para tu máquina. Esto es crucial para evitar daños en tu equipo y prevenir el riesgo de provocar un incendio.
 
 
 
@@ -1473,7 +1473,7 @@ Umbrel puede seguir siendo muy minimalista y centrarse únicamente en Bitcoin, o
 
 
 
-- Nodo Bitcoin simple**: este es el uso fundacional en el que Umbrel se ha basado desde el principio. Puedes ejecutar Bitcoin Core (or Knots), conectar tus monederos directamente a tu nodo, exponer un servidor Electrum, alojar tu explorador Mempool para ver la cadena de bloques y estimar tarifas... Son estos usos en los que nos centraremos en este curso.
+- Nodo Bitcoin simple**: este es el uso fundacional en el que Umbrel se ha basado desde el principio. Puedes ejecutar Bitcoin Core (o Knots), conectar tus monederos directamente a tu nodo, exponer un servidor Electrum, alojar tu explorador Mempool para ver la cadena de bloques y estimar tarifas... Son estos usos en los que nos centraremos en este curso.
 
 
 
@@ -1973,7 +1973,7 @@ Si activa esta opción, asegúrese de tener activada la autenticación de dos fa
 
 
 
-Simplemente introduce este Tor Address en tu navegador Tor para acceder a la interaz de Umbrel desde cualquier red.
+Simplemente introduce esta dirección TOR en tu navegador Tor para acceder a la interaz de Umbrel desde cualquier red.
 
 
 
@@ -2093,7 +2093,7 @@ En un nodo Bitcoin, como Bitcoin core, los datos Blockchain se almacenan en su f
 
 
 
-Un indexador es un programa informático especializado que analiza esta masa de datos en bruto (Blockchain, Mempool, UTXO set) y extrae claves, como identificadores de transacciones, direcciones y alturas de bloque. A partir de estas claves, construye su índice, asociando cada clave a la ubicación exacta de la información en el almacenamiento del nodo.
+Un indexador es un programa informático especializado que analiza esta masa de datos en bruto (Blockchain, Mempool, UTXO) y extrae claves, como identificadores de transacciones, direcciones y alturas de bloque. A partir de estas claves, construye su índice, asociando cada clave a la ubicación exacta de la información en el almacenamiento del nodo.
 
 
 
@@ -2137,7 +2137,7 @@ Contrariamente a la creencia popular, Bitcoin Core no ofrece indexación basada 
 
 
 
-- La mayoría de los casos de uso ya pueden cubrirse de otras formas. Por ejemplo, para estimar el saldo de una address, puede utilizar el comando `scantxoutset`, que consulta directamente el conjunto UTXO sin necesidad de un índice completo.
+- La mayoría de los casos de uso ya pueden cubrirse de otras formas. Por ejemplo, para estimar el saldo de una dirección, puede utilizar el comando `scantxoutset`, que consulta directamente el conjunto UTXO sin necesidad de un índice completo.
 
 
 
@@ -2435,6 +2435,7 @@ Es más, tu proveedor de servicios de Internet (ISP) puede saber que estás vien
 
 
 
+
 Por eso siempre es mejor utilizar tu propio block explorer local. De esta forma, no se filtrará ningún dato relacionado con tu actividad de búsqueda, ya que todas las consultas se procesan directamente en una máquina que tú controlas, sin pasar por Internet. Además, un explorador local se basa en datos de tu propio nodo Bitcoin, que tú mismo has validado según tus reglas, y en los que puedes confiar.
 
 
@@ -2702,7 +2703,7 @@ Las actualizaciones de los nodos son importantes por tres razones principales: e
 
 
 
-- Para actualizar aplicaciones: ve a la App Store. Si alguna de tus aplicaciones requiere actualización, aparecerá un botón con una burbuja roja en la esquina superior derecha de la Interface. Simplemente haz clic en él y, a continuación, actualiza cada aplicación.
+- Para actualizar aplicaciones: ve a la App Store. Si alguna de tus aplicaciones requiere actualización, aparecerá un botón con una burbuja roja en la esquina superior derecha de la interfaz. Simplemente haz clic en él y, a continuación, actualiza cada aplicación.
 
 
 
@@ -3316,7 +3317,7 @@ Estos dos tipos de conexión son perfectamente capaces de intercambiar los mismo
 
 
 
-Una Full node añade más valor a la red aceptando conexiones entrantes. El parámetro `listen=1` habilita la escucha en el puerto por defecto 8333 de la red en cuestión, permitiendo recibir estas conexiones entrantes en la clearnet. Para que esto funcione, este puerto también debe estar abierto en tu router. Si no lo está, tu nodo seguirá funcionando sólo con conexiones salientes, lo que no tendrá ningún impacto en tu uso personal de Bitcoin. La decisión de permitir o no las conexiones entrantes es tuya; no hay una “mejor opción”.
+Una Full node añade más valor a la red aceptando conexiones entrantes. El parámetro `listen=1` habilita la escucha en el puerto por defecto 8333 de la red en cuestión, permitiendo recibir estas conexiones entrantes en la clearnet. Para que esto funcione, este puerto también debe estar abierto en tu router. Si no lo está, tu nodo seguirá funcionando sólo con conexiones salientes, lo que no tendrá ningún impacto en tu uso personal de Bitcoin. La decisión de permitir o no las conexiones entrantes es tuya; no hay una "mejor opción".
 
 
 
@@ -3429,7 +3430,7 @@ Estos son los parámetros básicos que puede modificar en tu `Bitcoin.conf` rela
 
 
 
-Como recordatorio, RBF es un mecanismo transaccional que permite al remitente sustituir una transacción por otra que tenga tasas más altas para acelerar la confirmación. Si una transacción con una comisión demasiado baja permanece bloqueada, el remitente puede utilizar *Replace-by-fee* para aumentar la comisión y dar prioridad a su transacción de sustitución en los Mempools y con los mineros.
+Como recordatorio, RBF es un mecanismo transaccional que permite al remitente sustituir una transacción por otra que tenga tasas más altas para acelerar la confirmación. Si una transacción con una comisión demasiado baja permanece bloqueada, el remitente puede utilizar *Replace-by-fee* para aumentar la comisión y dar prioridad a su transacción de sustitución en las Mempools y con los mineros.
 
 
 

@@ -1025,7 +1025,7 @@ This manipulation, observable from the earliest Lydian coins, suggests that mone
 ### From punched blobs to minted coins
 
 
-After a section about the emergence of coins, I wanted to introduce a very short section on the evolution of coin manufacturing. As we have seen, it all began with blobs of electrum, proceeding with gold and silver, where both sides were marked with a punch, either with the king's face, or a hole in the back to check purity.
+Following the emergence of coins, manufacturing evolved. As we have seen, it all began with blobs of electrum, proceeding with gold and silver, where both sides were marked with a punch, either with the king's face, or a hole in the back to check purity.
 
 
 ![](./assets/fr/1-3-1_2_Siglos.webp)
@@ -1043,9 +1043,9 @@ In the Middle Ages, there was also a trend of spreading coins out, making them w
 
 ### Pendulum striking
 
-The last technology to arrive at the end of the Middle Ages, at the beginning of the modern era, was the notion of pendulum striking. It was a kind of screw that was tightened to strike the coins, thus generating coins with this new form of striking. What was speaicl about this development was the ability to engrave a pattern on the surface of the coin to address the issue of clipping. Clipping involved removing a portion of the coin to reclaim precious silver, which could then be used to mint other coins or simply retained as a resource.
+A major technological development at the end of the Middle Ages was the introduction of the screw press, often referred to as pendulum striking. It was a kind of screw that was tightened to strike the coins, thus generating coins with this new form of striking. What was special about this development was the ability to engrave a pattern on the surface of the coin to address the issue of clipping. Clipping involved removing a portion of the coin to reclaim precious silver, which could then be used to mint other coins or simply retained as a resource.
 
-So this notion of pendulum striking helped with the clipping phenomenon. And it's interesting to note that this technology actually came from France. In England, for example, they hired French engineers to come and show them how to make these machines. What's funny, I think, is that there were supporters of hammer minting who were against it and who delayed the application of this technology. In any good technology, there are always people who are against it, who want to keep the old technology. I thought it was pretty crazy to realize that even a technology that seems really superior - you can make more parts, they're harder to copy - there were still people who were attached to the famous hammer method. There was a shift between producing parts that were made with this famous pendulum striking and then returning to hammer striking. And finally, of course, it was pendulum striking that finally took hold and gave us these beautiful modern pieces where you can find either little lines, little ridges around to avoid clipping, probably related to the word clipping, ridges, and you can still see today either ridges or text or drawings that are inscribed on the edge of the piece.
+This technology helped mitigate clipping. It originated in France, and English mints later hired French engineers to implement the machines. Despite its advantages—higher production volume and enhanced security against counterfeiting—the screw press faced resistance from proponents of traditional hammer minting, which delayed its widespread adoption. Eventually, this new technology prevailed, leading to coins with edge designs, such as reeding or inscriptions, specifically implemented to prevent clipping. These features remain a standard security measure on modern coinage.
 
 
 # Different theories on the emergence of money
@@ -1060,7 +1060,7 @@ So this notion of pendulum striking helped with the clipping phenomenon. And it'
 
 :::video id=523c873f-501b-4954-b79f-7e74c0f685a5:::
 
-Welcome to this segment dedicated to the different theories on the emergence of money and its various definitions. Here's a short extract from the book *Aux origines de la monnaie* which, I think, sums up the two main theories we'll be looking at in this section.
+This segment examines the different theories on the emergence of money and its various definitions. The following extract from the book *Aux origines de la monnaie* summarizes the two main theories under examination:
 
 
 > This brief preamble serves no other purpose than to highlight the context of the survey. On the conceptual level, the debate is open between the supporters of K. Polanyi's thesis and those of M. Weber. For the former, gift and redistribution play a central role, with market exchange playing only a marginal role, mainly in international exchanges. For the others, on the contrary, the market is at the heart of the current historical process.
@@ -1071,7 +1071,7 @@ For example, in Mesopotamia, one theory of emergence suggests that the temple, a
 As for bartering, some theories suggest that it was mainly used in international exchanges, i.e., with people we simply didn't trust.
 
 
-So that's what we're going to do in this section. We're going to conduct a sort of survey to present the different theories on the emergence of money and the different definitions of what money is. We'll be presenting and criticizing the theses of both classical economists and anthropologists. I'll even be lucky enough to have Ulrich Fromy with me, who will present an Austrian economist's perspective on these various subjects.
+This section will survey the different theories on the emergence of money and its definitions, presenting and critiquing the theses of classical economists and anthropologists. An Austrian economist's perspective on these subjects will also be presented.
 
 
 ## The emergence of money for classical economists

@@ -931,10 +931,10 @@ However, the anthropological argument that coins were not used for everyday trad
 The real origin of coins seems to be linked to the direct action of states. There are two main hypotheses on this subject: the first, idealistic, draws a parallel between the Greek term 'nomisma' (money) and 'nomos' (law), suggesting that money was linked to the codification of laws, reinforcing the authority and political organization of cities. The second, more realistic hypothesis, widely accepted today, is that money was first and foremost a means for states to exercise economic and social control. By officially guaranteeing the weight and value of the precious metals they contained, states were able to manipulate the circulation and value of these coins, creating confidence and liquidity premiums specific to domestic currencies.
 
 
-It's really interesting to know that we have evidence of this. For example, in electrum coins, you should know that natural electrum is normally around 70% gold and 30% silver. In the first coins we found and analyzed, specifically the early Lydian coins, the gold content seems to be more around 50 to 55% instead of 70. This suggests that even back then, coin issuers were trying to reduce the share of the more precious metal, probably to produce more coins and make them appear to be worth the same as an unmarked blob of natural electrum. And here, it has to be said that it was really from the time of this famous Croesus, as in *rich as Croesus*, that this was possible because it was from his time that we had the technology to separate gold and silver.
+Evidence for this practice exists. For instance, in electrum coins, natural electrum is normally around 70% gold and 30% silver. In the first coins, specifically the early Lydian coins, the gold content is approximately 50 to 55% instead of 70. This suggests that even back then, coin issuers were trying to reduce the share of the more precious metal, probably to produce more coins and make them appear to be worth the same as an unmarked blob of natural electrum. This practice became systematic under King Croesus—as in "rich as Croesus"—as it was during his reign that the technology to separate gold and silver was developed.
 
 
-Lydian coinage underwent a major evolution during the reign of the famous king Croesus (561-546 BC), renowned for his legendary wealth. At this time, the Lydians perfected metallurgy to separate gold and silver from electrum, thus introducing the first bimetallic coins, i.e., separate gold and silver coins.
+Lydian coinage underwent a major evolution during the reign of the famous king Croesus (561-546 BC), renowned for his legendary wealth. During his reign, the Lydians perfected metallurgy to separate gold and silver from electrum, thus introducing the first bimetallic coins, i.e., separate gold and silver coins.
 
 
 ### Persian expansion and Greek adoption
@@ -946,7 +946,7 @@ When they conquered Lydia in 546 BC, the Achaemenid Persians immediately adopted
 ![](./assets/fr/1-3-1_2_Siglos.webp)
 
 
-Above, you can admire a genuine Persian sigloi (or siglos). The small design features a king, although the hole has been slightly worn away. The siglos is a silver coin, in contrast to the daric, which was made of gold. The Persians could distinguish these two metals, and they moved away from electrum coins. So, they implemented bimetallism, using both gold and silver while maintaining the same concept of coins made from precious metals, often with a hole at the back, presumably for checking the metal content.
+The image above shows a Persian sigloi (or siglos). The design features a king, although the figure has been slightly worn away. The siglos is a silver coin, in contrast to the daric, which was made of gold. The Persians could distinguish these two metals, and they moved away from electrum coins. They implemented bimetallism, using both gold and silver while maintaining the same concept of coins made from precious metals, often with a hole at the back, for checking the metal content.
 
 The rapid adoption of coins by the Greeks seems to have been stimulated by their close contacts with the Lydians, particularly through the Greek colonies in Asia Minor. The first Greeks to mint coins were probably the inhabitants of Aegina in the mid-sixth century BC, who introduced the drachma, whose weight varied from region to region, and whose name literally means "handful of grain" or "handful of arrows".
 
@@ -956,7 +956,7 @@ The success of Greek coinage was as much due to its convenience for important tr
 Finally, the rapid expansion of coinage bears witness to a profound transformation of ancient societies, where the codification of monetary values went hand in hand with state organization. This evolution laid the economic and political foundations for the rise of Greek democracies, particularly in Athens, where money played a crucial role in the functioning of the democratic city.
 
 
-A key point to remember from this section is that we're talking specifically about **coins**, not money in general. The central aspect that emerges clearly is that of **trust in the issuing authority**, directly linked to the technical characteristics of coins (weight, purity, face value). It is precisely this trust that enables the state or the issuing authority to exert a degree of control or even manipulate the value and circulation of these coins from the outset.
+This section addresses **coins** specifically, not money in general. The central aspect that emerges clearly is that of **trust in the issuing authority**, directly linked to the technical characteristics of coins (weight, purity, face value). It is precisely this trust that enables the state or the issuing authority to exert a degree of control or even manipulate the value and circulation of these coins from the outset.
 
 
 
@@ -985,7 +985,7 @@ In contrast, the anthropological and institutional view holds that money really 
 Despite this theoretical tension, even Austrian economists recognize certain benefits of state intervention in money. Standardization by minting solves a number of practical trade problems.
 
 
-Without a certification authority, economic players face constant risks: counterfeit coins, filing fraud and weight manipulation. These practices create friction in the economy, as some coins are accepted while others are rejected. In theory, the official stamp guarantees weight and quality, making trade more fluid.
+Without a certification authority, economic players face constant risks: counterfeit coins, clipping fraud and weight manipulation. These practices create friction in the economy, as some coins are accepted while others are rejected. In theory, the official stamp guarantees weight and quality, making trade more fluid.
 
 
 This guarantee has an observable price on the market: a minted gold coin is worth more than its raw gold equivalent. This premium reflects the value of certification - merchants no longer need to verify the metal's authenticity themselves through chemical or resonance tests. State intervention, paradoxically, eliminates friction and facilitates trade by creating institutionalized trust.

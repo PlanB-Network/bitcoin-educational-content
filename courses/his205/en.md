@@ -735,29 +735,29 @@ The philosopher Mo Di (5th-4th century BC) had already analyzed this relationshi
 So here, instead of saying that the gold coin would have some kind of basic value as such, such as use value or intrinsic value, he points out that the value of the monetary sign came rather from the state of the economy.
 
 
-In China, coins did not necessarily need to be officially marked or guaranteed. Its acceptance depended solely on collective trust, which explains why bronze or copper coins without specific inscriptions were able to circulate freely for a long time.
+In China, coins did not necessarily need to be officially marked or guaranteed. Their acceptance depended solely on collective trust, which explains why bronze or copper coins without specific inscriptions were able to circulate freely for a long time.
 
 
 ![](./assets/fr/1-2-3_chine.webp)
 
-The one above is a Chinese coin from the Middle Ages. It is a cast coin featuring a square hole in the center. This hole was used to thread a rope through, allowing the coins to be strung together to create bracelets or necklaces. However, these were not primarily for wearing; they were mainly used for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
+The one on the image above is a Chinese coin from the Middle Ages. It is a cast coin featuring a square hole in the center. This hole was used to thread a rope through, allowing the coins to be strung together to create bracelets or necklaces. However, these were not primarily for wearing; they were mainly used for accounting purposes. They could be strung together to form units of account in the form of large strings, with the pieces interlocked. There weren't necessarily any specific marks, sometimes they were simply bronze circles.
 
-The state's monetary monopoly, belatedly established by Wudi of the Han Dinasty in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
+The state's monetary monopoly, belatedly established by Wudi of the Han Dynasty in 113 BC, was often challenged, allowing various private or local players to issue their own currencies, provided they enjoyed sufficient social trust.
 
-**The low intrinsic value of Chinese currencies prevented hoarding, guaranteeing their smooth circulation**.Precious metals were seldom used as circulating currency to prevent hoarding. Gold, being too expensive, was typically set aside rather than spent. Instead, **only silk represented a real high-value currency in Chinese international trade**. The Chinese traded using silk, not gold.
+**The low intrinsic value of Chinese currencies prevented hoarding, guaranteeing their smooth circulation**. Precious metals were seldom used as circulating currency to prevent hoarding. Gold, being too expensive, was typically set aside rather than spent. Instead, **silk was the primary high-value currency in Chinese international trade**. 
 
 During economic or monetary crises, particularly when the price of copper was rising, innovative solutions were adopted: thus, as early as the 2nd century AD, coins in circulation were cut to create smaller units, enabling fluid circulation to be maintained at lower cost. Other eras, such as that of Wang Mang (early 1st century AD), experimented with highly fiduciary currencies, where face values were far higher than their actual metal content, thus prefiguring banknotes. They took a coin and stamped values like 50, 100, or 200 on it to indicate larger amounts, such as 200 coins. This practice likely contributed to significant inflation.
 
-As mentioned above, this system was based on a social convention between the State, producers, and merchants, but also on authoritarian and severe rules for those who didn't play the game, notably in relation to the choice of pieces (whether beautiful or not) or the length of fabrics (not in line with the standard).
+As mentioned above, this system was based on a social convention between the State, producers, and merchants, but also on authoritarian and severe rules for those who did not play the game, notably in relation to the choice of pieces (whether beautiful or not) or the length of fabrics (not in line with the standard).
 
 
-In my humble opinion, it's not a very solid system. It relied mainly on strict rules requiring officials and traders to accept damaged coins, under threat of sanctions.
+This system was not inherently stable. It relied mainly on strict rules requiring officials and traders to accept damaged coins, under threat of sanctions.
 
 
 ### Chinese monetary innovations and their economic impact
 
 
-China was also a pioneer in the issuance of early forms of paper money, initially adopted in response to a shortage of metal in the 9th century AD. Despite their initial advantages, these paper currencies regularly led to inflationary spirals when issued in excess, as witnessed in the Song or Ming periods, when excessive issuance led to serious currency crises, illustrated by Marco Polo in the 13th century, who even noted that the falsification of such paper money was punishable by death. I can't help but point out a form of violence here.
+China was also a pioneer in the issuance of early forms of paper money, initially adopted in response to a shortage of metal in the 9th century AD. Despite their initial advantages, these paper currencies regularly led to inflationary spirals when issued in excess, as witnessed in the Song or Ming periods, when excessive issuance led to serious currency crises, illustrated by Marco Polo in the 13th century, who even noted that the falsification of such paper money was punishable by death. This highlights the coercive enforcement underlying the system.
 
 
 Thus, the Chinese experience is characterized by a profoundly fiduciary conception of money, remarkable flexibility of the monetary system, and early use of paper currencies, based on trust between economic players rather than on the intrinsic value of the media used.
@@ -827,7 +827,7 @@ To discourage the use of  money, Sparta employed **heavy, impractical metal bars
 ### The Limits of the Anti-Monetary Model
 
 
-The Spartan organization illustrates the constraints of **Dunbar's number** applied to the societal scale. **By rejecting money as a neutral medium of exchange, Sparta condemned itself to limiting its civic society to a limited number of citizens capable of maintaining relations of direct trust**. The homoioi (Spartan citizens) represented just 1% of the total population, surrounded by thousands of hilotes (slaves).
+The Spartan organization illustrates the constraints of **Dunbar's number** applied to the societal scale. **By rejecting money as a neutral medium of exchange, Sparta condemned itself to limiting its civic society to a limited number of citizens capable of maintaining relations of direct trust**. The homoioi (Spartan citizens) represented just 1% of the total population, surrounded by thousands of helots (slaves).
 
 
 This organization, initially a source of exceptional military cohesion, proved to be structurally fragile. **The Battle of Leuctres (371 BC) demonstrated the limits of this system**: the loss of life irreparably shattered the Spartan social fabric, leading to the collapse of their civilizational model.

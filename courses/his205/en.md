@@ -609,22 +609,19 @@ By the 5th and 4th millennia BC, Egypt was already experiencing intense commerci
 With the emergence of the first Egyptian chiefdoms around 3650-3400 BC, the site of Maadi, south of present-day Cairo, became a major center for copper technology and long-distance trade, notably with Mesopotamia via the Syrian coast.
 
 
-Although large-scale trade was mainly based on barter, a primitive form of money ("paleo-currency"), made up of prestige items such as semi-precious stones and fossil shells, probably existed. Gold probably already played an important role in these exchanges. The first explicit mention of a coin in Egyptian documents in the middle of the 3rd millennium BC reflects a long development linked to commercial practices.
+Although this large-scale trade was mainly based on barter, a primitive form of money ("paleo-currency"), made up of prestige items such as semi-precious stones and fossil shells, likely existed. Gold probably already played an important role in these exchanges. The first explicit mention of a currency in Egyptian documents in the middle of the 3rd millennium BC reflects a long maturation linked to commercial practices.
 
 
-In archaic society (here we're not necessarily talking about Egypt, but archaic societies in general), payments were frequent, not to buy directly, but to pay dowries, religious rituals, and other social obligations. These transactions required precise pricing and valuation. Many primitive societies had privileged, monetiform (i.e. countable) objects, in terms of which this value was estimated. If you're paying a dowry, of course, you have to note down some quantity of an object to be exchanged to pay the dowry. This value is essentially that of people.
+In archaic societies, payments were frequent, not to buy directly, but to settle social obligations like dowries and religious rituals. These transactions required precise pricing and valuation, and primitive societies had privileged, monetiform (i.e., countable) objects to estimate this value. In the case of a dowry, a specific quantity of such an object would be noted for exchange, with the value being fundamentally tied to the individuals involved. This demonstrates that payments existed before the advent of formal monetary systems, but their value was often derived from social contexts.
 
 
-In archaic societies, before the advent of money or monetary systems, there were payments, but they were often linked to social obligations, and their value derived from the value of individuals, as in the payment of dowries or blood money.
+Returning to Egypt, during the ancient empire, the "shât(y)" originallyreferred to a specific weight of metal (approximately 7.6 grams of gold or silver). It very quickly transitioned from a physical object to an abstract accounting function used to express value. We can recognize in it a unit of account, though it was not a stamped coin but rather a standardized measure of metal by weight. This represents a crucial step toward the abstract concept of money. 
 
 
-Returning to Egypt, during the ancient empire, the "shât(y)", originally a concrete monetary unit (a small gold or silver coin weighing around 7.6 grams), very quickly passed from its real function as a hard currency to an **accounting function** that gave rise to the notion of value. We can recognize in it a kind of unit of account to express value, which originally was a kind of coin, but we can't really call it a coin because it's not stamped, it's just a measure of metal. We're getting closer to the notion of a unit of account.
+The notion of the shât(y) was eventually abandoned, perhaps due to the risk of fraud, which may explain why the Egyptians were slow to adopt stamped coins, preferring to weigh metal long after their neighbors had begun minting them.
 
 
-This notion of shât(y) was eventually abandoned, perhaps because of the risk of fraud. We'll see later that the Egyptians were slow to adopt stamped coins and even continued to weigh them, even after they had been adopted by their neighbors.
-
-
-In the Middle Ages, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was during this period that a form of scriptural money appeared, where payments could be recorded in writing, or by actual transfer.
+In the Middle Kingdom, silver was rarely used for day-to-day transactions, which were mainly carried out with grain measures and bread quantities. It was over this long period that forms of scriptural money developed, where payments could be recorded in writing or settled by actual transfer of goods.
 
 
 In the New Kingdom, the monetary system became more complex, integrating different commodity currencies valued in metals (gold, silver, copper), standardized fabrics, cereals and oil. Fabrics were referred to as "cloth measures". **Prices for everyday goods were often expressed in grain or copper, while precious objects were valued in gold or silver. Silver, which was rarer in Egypt than gold, became particularly prized.** Silver was overvalued compared to gold, which was more abundant in Egypt.

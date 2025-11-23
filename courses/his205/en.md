@@ -868,21 +868,18 @@ Analysis of these historical models reveals that money, beyond its exchange func
 
 :::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
 
-We've now come to the crux of the matter: the appearance of coins. I'm stressing the word 'coin' here because we've seen in previous sections that money or monetary systems were very much present in the civilizations that preceded the Lydian peoples, the Greeks, and the Persians. It's pretty clear, I think, from what we've just seen. Therefore, this section is dedicated to the emergence of coins proper and is entitled: *The emergence of coins*.
+We have now arrived at the central topic: the appearance of coins. The term 'coin' is stressed because previous sections established that monetary systems existed in civilizations preceding the Lydians, Greeks, and Persians. This section, therefore, is dedicated to the emergence of coins proper.
 
 
 ### Lydian and Ionian origins of coins
 
 
-To kick off this section, I'd like to offer you an extract from Glyn Davies' book, A History of Money, right here.
-
-
-*Excerpt from A History of Money: From Ancient Times to the Present Day by Glyn Davies:*
+To begin, consider this excerpt from Glyn Davies' book, *A History of Money: From Ancient Times to the Present Day*:
 
 
 > From its birthplace in Lydia and Ionia the knowledge and use of coins spread rapidly east into the Persian empire and west through the rest of the Ionian and Aegean islands to mainland Greece, and then to its western colonies, especially Sicily. It also spread northward to Macedonia, Thrace and the Black Sea, but it was only partially, reluctantly and belatedly accepted in Egypt.
 
-I find it interesting to mention here that in Egypt, they continued to weigh coins long after the advent of minted coin technology. I think that's important to note. The quote continues:
+It is notable that in Egypt, coins continued to be weighed long after the advent of minted coinage. The quote continues:
 
 
 > Similarly, mainland Italy also was at first rather slow in accepting the Greek financial innovations, in contrast to the speed with which they were adopted by Sicily.
@@ -899,7 +896,7 @@ I find it interesting to mention here that in Egypt, they continued to weigh coi
 ![](./assets/fr/1-3-0_indes.webp)
 
 
-To illustrate this period in a visual form, here above is a coin from a region in India, the Bactria region, which is a close to the west of the Indian peninsula, near to Afghanistan. In this area, there were coins that were probably inspired by Greek coins featuring one of their royal personalities.
+To illustrate this period, the image above shows a coin from the Bactrian region, located near the western edge of the Indian peninsula and modern-day Afghanistan. Coins from this area were likely inspired by Greek prototypes and feature local royal figures.
 
 
 
@@ -912,22 +909,20 @@ To illustrate this period in a visual form, here above is a coin from a region i
 ### The first Lydian electrum coins
 
 
-Since we can't separate the appearance of coins from Lydia and the Persians, let's move on to that part of the world to the east of Greece, which today forms Turkey. The first coins to appear in the West date back to approximately the middle of the 7th century BC, in the regions of Lydia and Ionia, located in present-day Turkey. It was around 650 to 600 BC that this fundamental innovation saw the light of day, with notable archaeological discoveries such as the first coins found in the temple of Artemis at Ephesus, dated around 600 BC. These primitive coins were made of electrum, a natural alloy of gold and silver with amber reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
+The appearance of coins is inseparable from Lydia and Persia. This region, located to the east of Greece in what is now Turkey, saw the first coins appear in the West around the middle of the 7th century BC. This fundamental innovation emerged between 650 and 600 BC, with notable archaeological discoveries such as the coins found in the Temple of Artemis at Ephesus, dated to circa 600 BC. These primitive coins were made of electrum, a natural alloy of gold and silver with amber-like reflections, and were often crude in appearance, simply marked with punches or rudimentary motifs.
 
-Below, you can see one of the earliest Lydian coins, featuring a lion with its prey in front. You might notice a stamp or hole at the back, which some believe was used to test the metal's purity and ensure it wasn't just a surface layer. While this is one of the earliest examples, it's important to note that this piece is a copy. All my gold and electrum pieces are replicas or modern recreations, designed to prevent me from spending all my savings on this collection.
+Below is one of the earliest Lydian coins, featuring a lion with its prey. One might notice a punch mark on the reverse, which some believe was an assay test to verify the metal's purity. While this is an early example, this piece is a replica. Authentic electrum and gold pieces are often represented by reproductions in collections.
 
 ![](./assets/fr/1-3-1_1_lydia.webp)
 
 
-But I also have a real Persian piece that we're about to see. This is what these early pieces looked like. It's like a kind of blob (or lump, in English) of metal that was stamped at the time.
+This is what these early pieces looked like: a stamped blob (or lump, in English) of metal.
 
 
-Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, it seems that the first Lydian, Achaemenid and Greek coins were not initially used for small-scale commerce. Indeed, the monetary units were far too large for everyday use. What's more, their circulation was limited to regions close to where they were produced.
+Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, the first Lydian, Achaemenid, and Greek coins were likely not initially used for small-scale commerce. The monetary units were often too large for everyday transactions, and their circulation was initially limited to regions near their production.
 
 
-Here, I find it important to mention that, although I've read in several works of an anthropological nature, the coins, as I've already shown - whether the electrum ones or this Persian coin to which I'll return in a very short while - were too big to buy bread, say, every day. I've seen estimates that would make us think it was the equivalent of a day's work for a peasant or a soldier, so it would be too big. It's like trying to pay a day's wages for your meal, your breakfast, or your lunch. Except that I've seen in other works that smaller units of these blobs have been found, so smaller coins, which may make us think that maybe there was a possible use for everyday purchases.
-
-So here, the anthropological "proof" that it wasn't used for everyday trade, because the denomination or unit was too big, isn't very solid in my opinion because we've found examples of coins that are smaller, that could have been adapted to everyday purchases.
+However, the anthropological argument that coins were not used for everyday trade due to their large denomination is not definitive. While some coins may have represented the equivalent of a day's wage, archaeologists have also found smaller denominations. This suggests that a potential use for everyday purchases cannot be dismissed.
 
 
 ### The role of the State in money creation

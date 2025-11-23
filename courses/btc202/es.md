@@ -1557,7 +1557,7 @@ Aquí utilizaremos la imagen UmbrelOS x86 (más concretamente, la versión x86_6
 
 
 
-SSi has optado por una Raspberry Pi 5 (una opción que no recomiendo, como se menciona en la sección anterior), la instalación es ligeramente diferente. A continuación, puedes seguir este tutorial dedicado y volver a mi curso una vez en la interfaz web `http://umbrel.local`:
+Si has optado por una Raspberry Pi 5 (una opción que no recomiendo, como se menciona en la sección anterior), la instalación es ligeramente diferente. A continuación, puedes seguir este tutorial dedicado y volver a mi curso una vez en la interfaz web `http://umbrel.local`:
 
 
 
@@ -2069,7 +2069,7 @@ En la siguiente parte, exploraremos el uso práctico de tu nuevo nodo: cómo con
 
 
 
-Si ya ha explorado los nodos Bitcoin antes de realizar este curso, es posible que se haya encontrado con el término "indexador". Se trata de herramientas como Electrs o Fulcrum, que pueden añadirse a un nodo Bitcoin core. Pero, ¿cuál es exactamente su función? ¿Cómo funcionan en la práctica? ¿Debería instalar uno en su nuevo nodo Bitcoin? Eso es lo que vamos a explorar en este capítulo.
+Si ya ha explorado los nodos Bitcoin antes de realizar este curso, es posible que se haya encontrado con el término "indexador". Se trata de herramientas como Electrs o Fulcrum, que pueden añadirse a un nodo Bitcoin Core. Pero, ¿cuál es exactamente su función? ¿Cómo funcionan en la práctica? ¿Debería instalar uno en su nuevo nodo Bitcoin? Eso es lo que vamos a explorar en este capítulo.
 
 
 
@@ -2085,7 +2085,7 @@ En términos sencillos, es el mismo principio que el índice de un libro: si bus
 
 
 
-En un nodo Bitcoin, como Bitcoin core, los datos Blockchain se almacenan en su forma cruda y cronológica. Cada bloque contiene transacciones, que a su vez contienen entradas y salidas, sin ninguna clasificación particular por Address, identificador o Wallet. Esta organización lineal está optimizada para la validación de bloques, pero es inadecuada para búsquedas específicas. Por ejemplo, si quisiéramos encontrar todas las transacciones vinculadas a un Address concreto en un nodo no indexado, tendríamos que revisar manualmente todo el Blockchain, bloque por bloque y transacción por transacción. Aquí es precisamente donde entra en juego el indexador de su nodo Bitcoin.
+En un nodo Bitcoin, como Bitcoin core, los datos Blockchain se almacenan en su forma cruda y cronológica. Cada bloque contiene transacciones, que a su vez contienen entradas y salidas, sin ninguna clasificación particular por dirección, identificador o Wallet. Esta organización lineal está optimizada para la validación de bloques, pero es inadecuada para búsquedas específicas. Por ejemplo, si quisiéramos encontrar todas las transacciones vinculadas a una dirección concreta en un nodo no indexado, tendríamos que revisar manualmente toda la Blockchain, bloque por bloque y transacción por transacción. Aquí es precisamente donde entra en juego el indexador de su nodo Bitcoin.
 
 
 
@@ -2093,7 +2093,7 @@ En un nodo Bitcoin, como Bitcoin core, los datos Blockchain se almacenan en su f
 
 
 
-Un indexador es un programa informático especializado que analiza esta masa de datos en bruto (conjunto Blockchain, Mempool, UTXO) y extrae claves, como identificadores de transacciones, direcciones y alturas de bloque. A partir de estas claves, construye su índice, asociando cada clave a la ubicación exacta de la información en el almacenamiento del nodo.
+Un indexador es un programa informático especializado que analiza esta masa de datos en bruto (Blockchain, Mempool, UTXO set) y extrae claves, como identificadores de transacciones, direcciones y alturas de bloque. A partir de estas claves, construye su índice, asociando cada clave a la ubicación exacta de la información en el almacenamiento del nodo.
 
 
 
@@ -2101,19 +2101,19 @@ Un indexador es un programa informático especializado que analiza esta masa de 
 
 
 
-La indexación le permite buscar información en su nodo de forma rápida, precisa y eficaz. Por ejemplo, cuando conectas una Wallet como Sparrow a tu nodo, éste puede mostrar el saldo de una Address casi al instante. En concreto, consulta al indexador con una petición como: "_¿Qué UTXOs están asociados a este script-Hash?_" El indexador responde casi de inmediato, sin tener que releer todo el Blockchain, puesto que estos datos ya figuran en su base de datos.
+La indexación le permite buscar información en su nodo de forma rápida, precisa y eficaz. Por ejemplo, cuando conectas una wallet como Sparrow a tu nodo, este puede mostrar el saldo de una dirección casi al instante. En concreto, consulta al indexador con una petición como: "_¿Qué UTXOs están asociados a este script-Hash?_" El indexador responde casi de inmediato, sin tener que releer todo el Blockchain, puesto que estos datos ya figuran en su base de datos.
 
 
 
-### ¿Tiene Bitcoin core un indexador?
+### ¿Tiene Bitcoin Core un indexador?
 
 
 
-Sin necesidad de software adicional, Bitcoin core no ofrece, estrictamente hablando, un indexador Address completo comparable a los que se encuentran en software como Electrs o Fulcrum. No obstante, incorpora varios mecanismos internos de indización, así como opciones opcionales para ampliar sus capacidades de consulta. Para entender bien la situación, hay que dar un rodeo por la historia del proyecto.
+Sin necesidad de software adicional, Bitcoin Core no ofrece, estrictamente hablando, un indexador de direcciones completo comparable a los que se encuentran en software como Electrs o Fulcrum. No obstante, incorpora varios mecanismos internos de indización, así como opciones opcionales para ampliar sus capacidades de consulta. Para entender bien la situación, hay que dar un rodeo por la historia del proyecto.
 
 
 
-Hasta la versión 0.8.0 de Bitcoin core, la validación de transacciones se basaba en un índice global de transacciones, conocido como `txindex`. Este índice referenciaba todas las transacciones de Blockchain y sus salidas. Cuando un nodo recibía una nueva transacción, consultaba este índice para verificar que las salidas consumidas (en entradas) existían realmente y no se habían gastado ya. por tanto, `txindex` era indispensable para la validación de transacciones en aquella época.
+Hasta la versión 0.8.0 de Bitcoin core, la validación de transacciones se basaba en un índice global de transacciones, conocido como `txindex`. Este índice referenciaba todas las transacciones de la Blockchain y sus salidas. Cuando un nodo recibía una nueva transacción, consultaba este índice para verificar que las salidas consumidas (en entradas) existían realmente y no se habían gastado ya. Por tanto, `txindex` era indispensable para la validación de transacciones en aquella época.
 
 
 
@@ -2121,49 +2121,49 @@ Sin embargo, este enfoque tenía sus limitaciones: era lento, costoso en términ
 
 
 
-Este método es mucho más rápido y almacena sólo el estado actual del registro, haciendo innecesario el indexador `txindex`. Sin embargo, en lugar de eliminar el código `txindex`, los desarrolladores han optado por mantener esta funcionalidad detrás de un simple parámetro (`txindex=1`). Activando esta opción en tu nodo, podrás consultar cualquier transacción desde su `txid`.
+Este método es mucho más rápido y almacena solo el estado actual del registro, haciendo innecesario el indexador `txindex`. Sin embargo, en lugar de eliminar el código `txindex`, los desarrolladores han optado por mantener esta funcionalidad detrás de un simple parámetro (`txindex=1`). Activando esta opción en tu nodo, podrás consultar cualquier transacción desde su `txid`.
 
 
 
-Contrariamente a la creencia popular, Bitcoin core no ofrece indexación basada en Address como Electrs o Fulcrum. Hay varias razones para esta elección:
-
-
-
-
-
-- El papel de Bitcoin core no es convertirse en un Block explorer completo, ni proporcionar una API adaptada a cada uso. Integrar un índice basado en Address implicaría un mantenimiento a largo plazo Commitment que va más allá del alcance inicial del software.
+Contrariamente a la creencia popular, Bitcoin Core no ofrece indexación basada en direcciones como Electrs o Fulcrum. Hay varias razones para esta elección:
 
 
 
 
 
-- La mayoría de los casos de uso ya pueden cubrirse de otras formas. Por ejemplo, para estimar el saldo de una Address, puede utilizar el comando `scantxoutset`, que consulta directamente el conjunto UTXO sin necesidad de un índice completo.
+- El papel de Bitcoin Core no es convertirse en un block explorer completo, ni proporcionar una API adaptada a cada uso. Integrar un índice basado en dirrecciones implicaría un compromiso de mantenimiento a largo plazo que va más allá del alcance inicial del software.
 
 
 
 
 
-- Cada programa de software tiene requisitos específicos en cuanto al formato o tipo de datos que deben indexarse (Address, script Hash, etiqueta propietaria, etc.). Es más flexible y lógico dejar que estos programas construyan sus propios índices personalizados que fijar una solución genérica en Bitcoin core.
+- La mayoría de los casos de uso ya pueden cubrirse de otras formas. Por ejemplo, para estimar el saldo de una address, puede utilizar el comando `scantxoutset`, que consulta directamente el conjunto UTXO sin necesidad de un índice completo.
 
 
 
-Bitcoin core tiene un indexador de transacciones opcional (`txindex`), un vestigio de su funcionamiento histórico, pero no proporciona un índice Address, ni un Interface directo para búsquedas complejas. En algunos casos, por tanto, puede ser útil añadir un indexador externo.
+
+
+- Cada programa de software tiene requisitos específicos en cuanto al formato o tipo de datos que deben indexarse (address, script-hash, etiqueta propietaria, etc.). Es más flexible y lógico dejar que estos programas construyan sus propios índices personalizados que fijar una solución genérica en Bitcoin Core.
 
 
 
-### ¿Debería añadir un indexador Address a su nodo?
+Bitcoin core tiene un indexador de transacciones opcional (`txindex`), un vestigio de su funcionamiento histórico, pero no proporciona un índice de direcciones, ni una interfaz directa para búsquedas complejas. En algunos casos, por tanto, puede ser útil añadir un indexador externo.
 
 
 
-Añadir un indexador Address, como Electrs o Fulcrum, no es obligatorio; depende de sus necesidades específicas.
+### ¿Debería añadir un indexador de direcciones a su nodo?
 
 
 
-Si simplemente desea conectar un Wallet, como Sparrow, a su nodo para ver los saldos y las transacciones de difusión, esto es totalmente posible directamente a través de Interface RPC de Bitcoin core, ya sea localmente o de forma remota a través de Tor.
+Añadir un indexador de direcciones, como Electrs o Fulcrum, no es obligatorio; depende de sus necesidades específicas.
 
 
 
-Por otra parte, para utilizar un software más avanzado, como el funcionamiento de un Mempool.Localmente, la instalación de un indexador Address se hace indispensable para el espacio Block explorer.
+Si simplemente desea conectar una wallet, como Sparrow, a su nodo para ver los balances y difundir transacciones, esto es totalmente posible directamente a través de la interfaz RPC de Bitcoin Core, ya sea localmente o de forma remota a través de Tor.
+
+
+
+Por otra parte, para utilizar un software más avanzado, como el funcionamiento de un Mempool localmente, la instalación de un indexador de direcciones se hace indispensable para el espacio block explorer.
 
 
 
@@ -2175,7 +2175,7 @@ El indexador requiere cierto tiempo de sincronización (menos que el IBD) y ocup
 
 
 
-Para construir este tipo de índice Address y hacerlo accesible se utilizan habitualmente dos programas informáticos: **Electrs** y **Fulcrum**. Estas herramientas indexan el Blockchain según el script-Hash (direcciones) y proponen a continuación un Interface normalizado (el protocolo Electrum), al que se conectan numerosos monederos, como Electrum Wallet, Sparrow o Phoenix.
+Para construir este tipo de índice de direcciones y hacerlo accesible, se utilizan habitualmente dos programas informáticos: **Electrs** y **Fulcrum**. Estas herramientas indexan la blockchain según el script-hash (direcciones) y proponen a continuación una interfaz normalizada (el protocolo Electrum), a la que se conectan numerosos monederos, como Electrum Wallet, Sparrow o Phoenix.
 
 
 
@@ -2183,7 +2183,7 @@ Para construir este tipo de índice Address y hacerlo accesible se utilizan habi
 
 
 
-En pocas palabras, Electrs es bastante compacto: indexa Blockchain más rápido y ocupa menos espacio en disco, pero su rendimiento en las consultas es ligeramente inferior al de Fulcrum. En cambio, Fulcrum consume más espacio en disco y tarda más en indexar, pero ofrece un rendimiento superior en las consultas.
+En pocas palabras, Electrs es bastante compacto: indexa la blockchain más rápido y ocupa menos espacio en disco, pero su rendimiento en las consultas es ligeramente inferior al de Fulcrum. En cambio, Fulcrum consume más espacio en disco y tarda más en indexar, pero ofrece un rendimiento superior en las consultas.
 
 
 
@@ -2196,13 +2196,13 @@ En concreto, en agosto de 2025, Electrs necesitará aproximadamente 56 GB de alm
 
 
 
-- Si su espacio en disco es muy limitado, tendrá que conformarse con Bitcoin core sin un indexador externo Address.
-- Si desea utilizar un indexador, pero sigue teniendo limitaciones de capacidad, opte por Electrs.
+- Si tu espacio en disco es muy limitado, tendrás que conformarte con Bitcoin Core sin un indexador de direcciones externo.
+- Si deseas utilizar un indexador, pero sigues teniendo limitaciones de capacidad, opta por Electrs.
 - Si dispones de una buena cantidad de espacio en disco, Fulcrum puede ser justo lo que estás buscando.
 
 
 
-Para el resto de este curso BTC 202, utilizaré Electrs, pero puedes seguirlo fácilmente con Fulcrum: el procedimiento de instalación es idéntico, al igual que la conexión de Interface a Wallet, ya que ambos exponen un servidor Electrum.
+Para el resto de este curso BTC 202, utilizaré Electrs, pero puedes seguirlo fácilmente con Fulcrum: el procedimiento de instalación es idéntico, al igual que la conexión de la interfaz a la wallet, ya que ambos exponen un servidor Electrum.
 
 
 
@@ -2210,7 +2210,7 @@ Para el resto de este curso BTC 202, utilizaré Electrs, pero puedes seguirlo f�
 
 
 
-Para instalar Electrs (o Fulcrum) en su Umbrel, el procedimiento es sencillo: vaya a la App Store, busque la aplicación correspondiente (situada en la pestaña Bitcoin) y pulse el botón "*Install*".
+Para instalar Electrs (o Fulcrum) en tu Umbrel, el procedimiento es sencillo: ve a la App Store, busca la aplicación correspondiente (situada en la pestaña Bitcoin) y pulsa el botón "*Install*".
 
 
 
@@ -2226,7 +2226,7 @@ Una vez finalizada la instalación, Electrs procederá a una fase de sincronizac
 
 
 
-Una vez finalizada la sincronización, puede conectar su software Wallet a su servidor Electrum, que está alojado en Umbrel.
+Una vez finalizada la sincronización, puedes conectar tu software Wallet a tu servidor Electrum, que está alojado en Umbrel.
 
 
 
@@ -2237,7 +2237,7 @@ Una vez finalizada la sincronización, puede conectar su software Wallet a su se
 
 
 
-Ahora que tienes un nodo Bitcoin completo, ¡es hora de darle un buen uso! En el próximo capítulo, exploraremos otros usos potenciales para su instancia de Umbrel. Sin embargo, empecemos por lo básico: conectar su software Wallet para utilizar la información de su propio Blockchain y distribuir transacciones a través de su propio nodo.
+Ahora que tienes un nodo Bitcoin completo, ¡es hora de darle un buen uso! En el próximo capítulo, exploraremos otros usos potenciales para tu instancia de Umbrel. Sin embargo, empecemos por lo básico: conectar tu software Wallet para utilizar la información de tu propia blockchain y distribuir transacciones a través de tu propio nodo.
 
 
 
@@ -2251,15 +2251,15 @@ Como ya se ha mencionado, existen dos interfaces de conexión principales:
 
 
 
-En este tutorial, nos concentraremos en conectarnos a tu nodo a través de Tor, ya que es una solución simple y segura para principiantes. Le recomiendo encarecidamente que no exponga el puerto RPC de su nodo en claro, ya que una mala configuración representa un riesgo significativo para la seguridad y confidencialidad de sus datos. La principal desventaja de las comunicaciones vía Tor es su lentitud. En el próximo capítulo, exploraremos una alternativa rápida y segura a Tor para el acceso remoto a su nodo: VPN.
+En este tutorial, nos concentraremos en conectarnos a tu nodo a través de Tor, ya que es una solución simple y segura para principiantes. Te recomiendo encarecidamente que no expongas el puerto RPC de tu nodo en claro, ya que una mala configuración representa un riesgo significativo para la seguridad y la confidencialidad de tus datos. La principal desventaja de las comunicaciones vía Tor es su lentitud. En el próximo capítulo, exploraremos una alternativa rápida y segura a Tor para el acceso remoto a tu nodo: VPN.
 
 
 
-Utilizaremos Sparrow como ejemplo en este capítulo, pero el procedimiento es el mismo para todos los demás programas de gestión de Wallet que acepten conexiones a servidores Electrum. Simplemente localice el ajuste correspondiente en los parámetros de su aplicación (normalmente en "*Servidor*", "*Red*", "*Nodo*"...).
+Utilizaremos Sparrow como ejemplo en este capítulo, pero el procedimiento es el mismo para todos los demás programas de gestión de Wallet que acepten conexiones a servidores Electrum. Simplemente localiza el ajuste correspondiente en los parámetros de tu aplicación (normalmente en "*Servidor*", "*Red*", "*Nodo*"...).
 
 
 
-En Sparrow, abra la pestaña "*Archivo*" y vaya al menú "Configuración".
+En Sparrow, abra la pestaña "*Archivo*" y ve al menú "Configuración".
 
 
 
@@ -2267,7 +2267,7 @@ En Sparrow, abra la pestaña "*Archivo*" y vaya al menú "Configuración".
 
 
 
-A continuación, haga clic en "*Servidor*" para acceder a los parámetros de conexión.
+A continuación, haz clic en "*Servidor*" para acceder a los parámetros de conexión.
 
 
 
@@ -2275,22 +2275,21 @@ A continuación, haga clic en "*Servidor*" para acceder a los parámetros de con
 
 
 
-A continuación, descubrirá tres opciones para vincular su software a un nodo Bitcoin:
+A continuación, descubrirás tres opciones para vincular tu software a un nodo Bitcoin:
 
 
 
 
-- Servidor Público* (amarillo): por defecto, si no posees un nodo Bitcoin, esta opción te conecta a un nodo público que no poseas (normalmente el de una empresa). Esta opción no es relevante aquí, ya que tienes tu propio nodo en Umbrel.
-- Bitcoin core* (Green): esta opción corresponde a la conexión a través de Interface RPC, es decir, directamente a Bitcoin core.
-- Electrum privado* (azul): esta opción le permite conectarse a través del servidor Electrum Interface de su indexador (Electrs o Fulcrum).
-
+- Servidor Público* (amarillo): por defecto, si no posees un nodo Bitcoin, esta opción te conecta a un nodo público que no posees (normalmente el de una empresa). Esta opción no es relevante aquí, ya que tienes tu propio nodo en Umbrel.
+- Bitcoin core* (Green): esta opción corresponde a la conexión a través de la interfaz RPC, es decir, directamente a Bitcoin Core.
+- Electrum privado* (azul): esta opción te permite conectarte a través del servidor Electrum de tu indexador de direcciones (Electrs o Fulcrum).
 
 
 ### Conexión a Bitcoin core RPC
 
 
 
-Si su nodo Umbrel no tiene un indexador, esta es la opción que debe seleccionar. En Sparrow, haga clic en "*Bitcoin core*".
+Si tu nodo Umbrel no tiene un indexador de direcciones, esta es la opción que debes seleccionar. En Sparrow, haz clic en "*Bitcoin Core*".
 
 
 
@@ -2298,7 +2297,7 @@ Si su nodo Umbrel no tiene un indexador, esta es la opción que debe seleccionar
 
 
 
-A continuación, deberá introducir varios datos para establecer la conexión con su nodo. Se puede acceder a todos estos datos desde la aplicación "*Bitcoin Node*" de Umbrel pulsando el botón "*Connect*" en la esquina superior derecha del Interface.
+A continuación, deberá introducir varios datos para establecer la conexión con su nodo. Se puede acceder a todos estos datos desde la aplicación "*Bitcoin Node*" de Umbrel pulsando el botón "*Connect*" en la esquina superior derecha de la interfaz.
 
 
 
@@ -2306,7 +2305,7 @@ A continuación, deberá introducir varios datos para establecer la conexión co
 
 
 
-La pestaña "*Detalles RPC*" muestra toda la información necesaria para la conexión. Elija conectarse a través de Tor Address (en `.onion`).
+La pestaña "*Detalles RPC*" muestra toda la información necesaria para la conexión. Elige conectarte a través de la dirección Tor (en `.onion`).
 
 
 
@@ -2314,7 +2313,7 @@ La pestaña "*Detalles RPC*" muestra toda la información necesaria para la cone
 
 
 
-Introduzca estos datos en los campos correspondientes de la Sparrow wallet y, a continuación, pulse el botón "*Probar conexión*".
+Introduce estos datos en los campos correspondientes de la wallet Sparrow y, a continuación, pulsa el botón "*Probar conexión*".
 
 
 
@@ -2322,7 +2321,7 @@ Introduzca estos datos en los campos correspondientes de la Sparrow wallet y, a 
 
 
 
-Si la conexión se realiza correctamente, aparecerá una marca Green y un mensaje de confirmación.
+Si la conexión se realiza correctamente, aparecerá una marca verde y un mensaje de confirmación.
 
 
 
@@ -2330,7 +2329,7 @@ Si la conexión se realiza correctamente, aparecerá una marca Green y un mensaj
 
 
 
-La marca en la parte inferior derecha de la Interface Sparrow wallet será ahora Green (lo que indica una conexión directa con Bitcoin core).
+La marca en la parte inferior derecha de la interfaz de la Wallet Sparrow será ahora verde (lo que indica una conexión directa con Bitcoin Core).
 
 
 
@@ -2342,7 +2341,7 @@ La marca en la parte inferior derecha de la Interface Sparrow wallet será ahora
 
 
 
-Si su nodo tiene un indexador, es mejor conectarse a él que utilizar Bitcoin core directamente, ya que sus consultas se procesarán más rápidamente.
+Si tu nodo tiene un indexador de direcciones, es mejor conectarte a él que utilizar Bitcoin Core directamente, ya que tus consultas se procesarán más rápido.
 
 
 
@@ -2354,11 +2353,11 @@ En Sparrow, ve a la pestaña "*Private Electrum*".
 
 
 
-A continuación, deberá introducir varios datos para establecer la conexión con su indexador. Encontrarás estos datos en la aplicación "*Electrs*" (o, en su caso, "*Fulcrum*") de Umbrel.
+A continuación, deberá introducir varios datos para establecer la conexión con tu indexador de direcciones. Encontrarás estos datos en la aplicación "*Electrs*" (o, en su caso, "*Fulcrum*") de Umbrel.
 
 
 
-Seleccione la pestaña "*Tor*" para obtener la conexión `.onion` Address. Si desea conectar un software Wallet móvil, también puede escanear el código QR directamente.
+Seleccione la pestaña "*Tor*" para obtener la direccion de conexión `.onion`. Si deseas conectar un software Wallet móvil, también puede escanear el código QR directamente.
 
 
 
@@ -2366,7 +2365,7 @@ Seleccione la pestaña "*Tor*" para obtener la conexión `.onion` Address. Si de
 
 
 
-Sólo tiene que introducir el Tor Address de su servidor Electrum en el campo "*URL*" y hacer clic en el botón "*Test Connection*".
+Solo tienes que introducir la dirección Tor de tu servidor Electrum en el campo "*URL*" y hacer clic en el botón "*Test Connection*".
 
 
 
@@ -2382,15 +2381,15 @@ Si la conexión se realiza correctamente, aparecerá una marca de verificación 
 
 
 
-La marca en la esquina inferior derecha de la Interface Sparrow wallet se volverá azul (el color asociado a la conexión con un servidor Electrum).
+La marca en la esquina inferior derecha de la interfaz de la Wallet Sparrow se volverá azul (el color asociado a la conexión con un servidor Electrum).
 
 
 
-**Nota:** Para que la conexión funcione, su indexador debe estar sincronizado al 100%. Si este no es el caso, espere hasta que el proceso de indexación se haya completado.
+**Nota:** Para que la conexión funcione, tu indexador de direcciones debe estar sincronizado al 100%. Si este no es el caso, espera hasta que el proceso de indexación se haya completado.
 
 
 
-¡Ahora ya sabe cómo conectar su Wallet a su nodo Bitcoin! En el próximo capítulo, le presentaré varias aplicaciones adicionales disponibles en Umbrel que me gustan especialmente, y que le permitirán mejorar el uso diario de Bitcoin a través de su nodo.
+¡Ahora ya sabes cómo conectar tu Wallet a tu nodo Bitcoin! En el próximo capítulo, te presentaré varias aplicaciones adicionales disponibles en Umbrel que me gustan especialmente y que te permitirán mejorar el uso diario de Bitcoin a través de tu nodo.
 
 
 
@@ -2406,11 +2405,11 @@ Umbrel ofrece una extensa tienda de aplicaciones. Como verás, hay muchas herram
 
 
 
-En este curso BTC 202, nos centraremos exclusivamente en las aplicaciones relacionadas con Bitcoin. No obstante, no dude en explorar el resto del catálogo en busca de herramientas que puedan serle de utilidad.
+En este curso BTC 202, nos centraremos exclusivamente en las aplicaciones relacionadas con Bitcoin. No obstante, no dudes en explorar el resto del catálogo en busca de herramientas que puedan serte de utilidad.
 
 
 
-Por supuesto, sería imposible enumerar aquí todas las aplicaciones de Bitcoin. En este capítulo, me gustaría presentarle las herramientas esenciales que facilitarán y enriquecerán su uso diario de Bitcoin.
+Por supuesto, sería imposible enumerar aquí todas las aplicaciones de Bitcoin. En este capítulo, me gustaría presentarte las herramientas esenciales que facilitarán y enriquecerán tu uso diario de Bitcoin.
 
 
 
@@ -2418,25 +2417,26 @@ Por supuesto, sería imposible enumerar aquí todas las aplicaciones de Bitcoin.
 
 
 
-En el uso diario de Bitcoin, si hay una herramienta verdaderamente indispensable, ésa es Block explorer. Accesible en línea o instalada localmente, transforma los datos brutos de Blockchain en un formato estructurado, claro y fácil de leer. También cuenta con un motor de búsqueda que permite a los usuarios localizar rápidamente un bloque, transacción o Address concretos.
+En el uso diario de Bitcoin, si hay una herramienta verdaderamente indispensable, ésa es el block explorer. Accesible en línea o instalado localmente, transforma los datos brutos de la blockchain en un formato estructurado, claro y fácil de leer. También cuenta con un motor de búsqueda que permite a los usuarios localizar rápidamente un bloque, transacción o dirección concretos.
 
 
 
-En concreto, el explorador le permite estimar las comisiones necesarias para que su transacción se incluya en un bloque, luego seguir su evolución: averiguar si es probable que se incluya en un futuro próximo, en función del mercado de comisiones, y, por último, confirmar que efectivamente se ha incluido en un bloque. También ofrece la posibilidad de analizar sus transacciones anteriores y consultar su historial. En resumen, es la navaja suiza del bitcoiner.
+En concreto, el explorador te permite estimar las comisiones necesarias para que tu transacción se incluya en un bloque, luego seguir su evolución: averiguar si es probable que se incluya en un futuro próximo, en función del mercado de comisiones, y, por último, confirmar que efectivamente se ha incluido en un bloque. También ofrece la posibilidad de analizar tus transacciones anteriores y consultar su historial. En resumen, es la navaja suiza del bitcoiner.
 
 
 
-Como ya se ha mencionado, un explorador puede estar alojado en línea en un sitio web o ejecutarse localmente en tu máquina. Una gran desventaja de los servicios online es que pueden comprometer tu privacidad. Sin VPN o Tor, el servidor que aloja el explorador puede vincular tu IP Address a las transacciones que estás viendo, lo que puede proporcionar un punto de entrada ideal para el análisis en cadena.
+Como ya se ha mencionado, un explorador puede estar alojado en línea en un sitio web o ejecutarse localmente en tu máquina. Una gran desventaja de los servicios en línea es que pueden comprometer tu privacidad. Sin VPN o Tor, el servidor que aloja el explorador puede vincular tu dirección IP a las transacciones que estás viendo, lo que puede proporcionar un punto de entrada ideal para el análisis en cadena.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Es más, su proveedor de servicios de Internet (ISP) puede saber que usted está viendo una transacción concreta a través del sitio Block explorer. Esto también plantea una cuestión de confianza: debe confiar en que el servicio en línea le proporcione información exacta sobre sus transacciones, sin poder comprobar usted mismo su veracidad.
+Es más, tu proveedor de servicios de Internet (ISP) puede saber que estás viendo una transacción concreta a través del sitio del block explorer. Esto también plantea una cuestión de confianza: debes confiar en que el servicio en línea te proporcione información exacta sobre tus transacciones, sin poder comprobar tú mismo su veracidad.
 
 
 
-Por eso siempre es mejor utilizar tu propio Block explorer local. De esta forma, no se filtrará ningún dato relacionado con su actividad de búsqueda, ya que todas las consultas se procesan directamente en una máquina que usted controla, sin pasar por Internet. Es más, un explorador local se basa en datos de tu propio nodo Bitcoin, que tú mismo has validado, según tus propias reglas, y en los que puedes confiar.
+Por eso siempre es mejor utilizar tu propio block explorer local. De esta forma, no se filtrará ningún dato relacionado con tu actividad de búsqueda, ya que todas las consultas se procesan directamente en una máquina que tú controlas, sin pasar por Internet. Además, un explorador local se basa en datos de tu propio nodo Bitcoin, que tú mismo has validado según tus reglas, y en los que puedes confiar.
+
 
 
 
@@ -2445,17 +2445,17 @@ Umbrel ofrece varios exploradores de bloques:
 
 
 
-- Mempool.Espacio
+- Mempool.Space
 - Bitfeed
-- Explorador BTC RPC
+- BTC RPC Explorer
 
 
 
-A mí me gusta especialmente Mempool.Space, que he instalado en mi nodo. Atención: para utilizar la mayoría de los exploradores de bloques en Umbrel, se necesita un indexador Address. Por lo tanto, necesitas la aplicación Bitcoin Node (o Bitcoin Knots), que tiene un Blockchain sincronizado al 100%, así como un indexador como Electrs o Fulcrum, que también está sincronizado al 100%.
+A mí me gusta especialmente Mempool.Space, que he instalado en mi nodo. Atención: para utilizar la mayoría de los exploradores de bloques en Umbrel, se necesita un indexador de direcciones. Por lo tanto, necesitas la aplicación Bitcoin Node (o Bitcoin Knots), que tiene la blockchain sincronizada al 100%, así como un indexador como Electrs o Fulcrum, que también está sincronizado al 100%.
 
 
 
-Una vez instalada la aplicación, sólo tienes que abrirla para acceder a tu propio explorador.
+Una vez instalada la aplicación, solo tienes que abrirla para acceder a tu propio explorador.
 
 
 
@@ -2463,17 +2463,17 @@ Una vez instalada la aplicación, sólo tienes que abrirla para acceder a tu pro
 
 
 
-Para saber más sobre el uso del explorador Mempool.Space, le recomiendo este completo tutorial:
+Para saber más sobre el uso del explorador Mempool.Space, te recomiendo este completo tutorial:
 
 
 
 https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-### Nodo Rayo
+### Nodo Lightning
 
 
 
-Ahora que dispone de su propio nodo Bitcoin, también puede configurar su propio nodo Lightning para realizar transacciones off-chain, sin depender de una infraestructura de terceros.
+Ahora que dispones de tu propio nodo Bitcoin, también puedes configurar tu propio nodo Lightning para realizar transacciones off-chain, sin depender de una infraestructura de terceros.
 
 
 
@@ -2482,14 +2482,14 @@ Umbrel ofrece una serie de aplicaciones para ayudarte a poner en marcha tu nodo 
 
 
 
-- LND, a través de la aplicación *Lightning Node*;
+- LND, a través de la aplicación *Lightning Node*.
 - Core Lightning.
 
 
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-A continuación, puede administrar su nodo desde el Interface principal o, para una funcionalidad aún mayor y opciones avanzadas, instalar *Ride The Lightning* o *ThunderHub*. Estas herramientas le proporcionarán un sistema de gestión de Interface basado en web mucho más completo para su nodo.
+A continuación, puedes administrar tu nodo desde la interfaz principal o, para una funcionalidad aún mayor y opciones avanzadas, instalar *Ride The Lightning* o *ThunderHub*. Estas herramientas te proporcionarán un sistema de gestión basado en web mucho más completo para tu nodo.
 
 
 
@@ -2509,7 +2509,7 @@ Por último, te recomiendo la aplicación *Lightning Network+*, que te permite e
 
 
 
-Gracias a Umbrel, la gestión de un nodo personal Lightning se ha simplificado mucho, pero sigue siendo relativamente compleja. Por este motivo, profundizaremos en este tema en un próximo curso dedicado íntegramente a este uso.
+Gracias a Umbrel, la gestión de un nodo Lightning personal se ha simplificado mucho, pero sigue siendo relativamente compleja. Por este motivo, profundizaremos en este tema en un próximo curso dedicado íntegramente a este uso.
 
 
 
@@ -2517,11 +2517,11 @@ Gracias a Umbrel, la gestión de un nodo personal Lightning se ha simplificado m
 
 
 
-Otra aplicación que me gusta especialmente de Umbrel es Tailscale. Es una aplicación VPN diseñada para simplificar la creación de redes seguras entre múltiples dispositivos, estén donde estén en el mundo. A diferencia de las VPN tradicionales, que dependen de servidores centralizados, Tailscale utiliza el protocolo WireGuard para establecer conexiones cifradas de extremo a extremo entre tus distintas máquinas. Esto significa que puedes desplegar una VPN operativa en sólo unos minutos, sin necesidad de complicadas configuraciones de red.
+Otra aplicación que me gusta especialmente de Umbrel es Tailscale. Es una aplicación VPN diseñada para simplificar la creación de redes seguras entre múltiples dispositivos, estén donde estén en el mundo. A diferencia de las VPN tradicionales, que dependen de servidores centralizados, Tailscale utiliza el protocolo WireGuard para establecer conexiones cifradas de extremo a extremo entre tus distintas máquinas. Esto significa que puedes desplegar una VPN operativa en solo unos minutos, sin necesidad de complicadas configuraciones de red.
 
 
 
-En Umbrel, la instalación de Tailscale conecta tu nodo Bitcoin a tu propia red privada virtual. Una vez configurado, tu nodo obtiene una IP Tailscale Address privada, accesible solo desde otros dispositivos conectados a la misma red Tailscale (como ordenadores, smartphones y tablets). Esta conexión está cifrada de extremo a extremo y no pasa por una red pública desprotegida, lo que mejora significativamente la seguridad en comparación con una conexión no cifrada.
+En Umbrel, la instalación de Tailscale conecta tu nodo Bitcoin a tu propia red privada virtual. Una vez configurado, tu nodo obtiene una dirección IP privada de Tailscale, accesible solo desde otros dispositivos conectados a la misma red Tailscale (como ordenadores, smartphones y tablets). Esta conexión está cifrada de extremo a extremo y no pasa por una red pública desprotegida, lo que mejora significativamente la seguridad en comparación con una conexión no cifrada.
 
 
 
@@ -2535,13 +2535,13 @@ En concreto, Tailscale te ofrece varias ventajas a la hora de utilizar tu Umbrel
 
 
 
-- Puede administrar el Interface Umbrel o acceder a las aplicaciones vinculadas a su nodo (como Mempool, Ride The Lightning, ThunderHub...) desde cualquier lugar, como si estuviera en la misma red local, sin exponer puertos en Internet y sin pasar por Tor, que es muy lento;
+- Puedes administrar la interfaz de Umbrel o acceder a las aplicaciones vinculadas a tu nodo (como Mempool, Ride The Lightning, ThunderHub...) desde cualquier lugar, como si estuvieras en la misma red local, sin exponer puertos en Internet y sin pasar por Tor, que es muy lento.
 
 
 
 
 
-- Puede conectarse a su servidor Electrum (Electrs o Fulcrum) o directamente a Bitcoin core a través de su VPN, evitando Tor. Esto proporciona una conexión segura, comparable al uso de Tor, pero con una velocidad mucho mayor y una latencia reducida. En resumen, conserva las ventajas de privacidad y seguridad de Tor mientras disfruta de la velocidad de una conexión Clearnet. Para un On-Chain Wallet, esta ganancia puede parecer marginal, pero si está pensando en montar su propio nodo Lightning más adelante, la diferencia es considerable. De hecho, realizar pagos a través de tu nodo en movimiento en Tor es extremadamente lento debido a los numerosos intercambios necesarios, mientras que con Tailscale, funciona perfectamente.
+- Puedes conectarte a tu servidor Electrum (Electrs o Fulcrum) o directamente a Bitcoin Core a través de tu VPN, evitando Tor. Esto proporciona una conexión segura, comparable al uso de Tor, pero con una velocidad mucho mayor y una latencia reducida. En resumen, conservas las ventajas de privacidad y seguridad de Tor mientras disfrutas de la velocidad de una conexión Clearnet. Para una wallet on-chain, esta ganancia puede parecer marginal, pero si estás pensando en montar tu propio nodo Lightning más adelante, la diferencia es considerable. De hecho, realizar pagos a través de tu nodo en movimiento usando Tor es extremadamente lento debido a los numerosos intercambios necesarios, mientras que con Tailscale funciona perfectamente.
 
 
 
@@ -2551,7 +2551,7 @@ En concreto, Tailscale te ofrece varias ventajas a la hora de utilizar tu Umbrel
 
 
 
-Tailscale on Umbrel es, por tanto, una solución muy interesante si quieres acceder a tu nodo desde cualquier parte del mundo de una forma segura, de alto rendimiento y fácil de configurar, sin sacrificar la privacidad o la seguridad.
+Tailscale en Umbrel es, por tanto, una solución muy interesante si quieres acceder a tu nodo desde cualquier parte del mundo de una forma segura, de alto rendimiento y fácil de configurar, sin sacrificar privacidad ni seguridad.
 
 
 
@@ -2573,7 +2573,7 @@ Los mensajes se transmiten a través de una red de repetidores independientes. E
 
 
 
-Este protocolo es muy popular dentro de la comunidad Bitcoin porque, al igual que Bitcoin, Nostr aborda cuestiones de soberanía digital y control de datos. Su creador, Fiatjaf, es un desarrollador ya reconocido en el ecosistema por sus numerosas contribuciones.
+Este protocolo es muy popular dentro de la comunidad Bitcoin porque, al igual que Bitcoin, Nostr aborda cuestiones de soberanía digital y control de datos. Su creador, Fiatjaf, es un desarrollador reconocido en el ecosistema por sus numerosas contribuciones.
 
 
 
@@ -2581,7 +2581,7 @@ Con tu Umbrel, puedes optimizar el uso de Nostr. Instalando la aplicación ***No
 
 
 
-Los clientes de Nostr ***noStrudel*** o ***Snort*** también están disponibles en Umbrel. Gracias a estas aplicaciones, puedes publicar, leer, buscar perfiles e interactuar con el ecosistema Nostr directamente desde la web Interface en tu Umbrel.
+Los clientes de Nostr ***noStrudel*** o ***Snort*** también están disponibles en Umbrel. Gracias a estas aplicaciones, puedes publicar, leer, buscar perfiles e interactuar con el ecosistema Nostr directamente desde la interfaz web en tu Umbrel.
 
 
 
@@ -2662,23 +2662,23 @@ Para empezar esta sección final, y antes de pasar a la teoría más avanzada, m
 
 
 
-Un nodo fiable empieza por un hardware estable. Asegúrese de que la máquina que aloja su nodo está correctamente ventilada, sin Dust, e instalada en un entorno seco, lejos de cualquier fuente de calor y humedad. Evite apretujarlo en un espacio reducido y opte por un lugar bien ventilado.
+Un nodo fiable empieza por un hardware estable. Asegúrate de que la máquina que aloja tu nodo esté correctamente ventilada, sin polvo, e instalada en un entorno seco, lejos de cualquier fuente de calor y humedad. Evita apretujarlo en un espacio reducido y opta por un lugar bien ventilado.
 
 
 
-En Raspberry Pi y mini-PCs, el Dust acaba obstruyendo los disipadores, elevando la temperatura y provocando el throttling (limitación voluntaria del uso de recursos), lo que a su vez se traduce en una caída de la eficiencia de tu nodo. Por eso recomiendo limpiar la entrada de aire y el ventilador periódicamente, idealmente cada pocos meses.
+En Raspberry Pi y mini-PCs, el polvo acaba obstruyendo los disipadores, elevando la temperatura y provocando throttling (limitación voluntaria del uso de recursos), lo que a su vez se traduce en una caída de la eficiencia de tu nodo. Por eso recomiendo limpiar la entrada de aire y el ventilador periódicamente, idealmente cada pocos meses.
 
 
 
-Asegúrese de utilizar una Supply de alta calidad, ya que un voltaje inestable puede dañar el sistema e incluso suponer un riesgo de incendio. Lo ideal es utilizar la Supply original suministrada por el fabricante de su máquina. Tenga cuidado también con el sobrecalentamiento debido al efecto Joule en las regletas: respete siempre la potencia máxima admisible y no conecte nunca varias regletas en cascada.
+Asegúrate de utilizar una fuente de alimentación de alta calidad, ya que un voltaje inestable puede dañar el sistema e incluso suponer un riesgo de incendio. Lo ideal es utilizar la fuente original suministrada por el fabricante de tu máquina. Ten cuidado también con el sobrecalentamiento debido al efecto Joule en las regletas: respeta siempre la potencia máxima admisible y no conectes nunca varias regletas en cascada.
 
 
 
-También recomiendo invertir en un SAI. Esto protege tu nodo de apagones repentinos, permite que Umbrel se apague limpiamente en caso de apagón y garantiza la continuidad del funcionamiento durante microcortes o fallos de corta duración.
+También recomiendo invertir en un SAI. Esto protege tu nodo de apagones repentinos, permite que Umbrel se apague limpiamente en caso de corte eléctrico y garantiza la continuidad del funcionamiento durante microcortes o fallos de corta duración.
 
 
 
-En cuanto al almacenamiento, vigila el progreso: si el disco se acerca a la saturación, considera la posibilidad de liberar espacio (desinstala las aplicaciones que no utilices, ajusta la configuración del indexador) o migra a un SSD más grande. La desventaja de un nodo Bitcoin completo es que sus requisitos de almacenamiento aumentan continuamente, ya que se genera un nuevo bloque cada 10 minutos y los bloques antiguos no se pueden eliminar (a menos que el nodo sea pruned). Por lo tanto, te aconsejo que preveas una capacidad suficientemente grande cuando compres tu hardware (2 TB como mínimo).
+En cuanto al almacenamiento, vigila el progreso: si el disco se acerca a la saturación, considera liberar espacio (desinstala las aplicaciones que no utilices, ajusta la configuración del indexador de direcciones) o migra a un SSD más grande. La desventaja de un nodo Bitcoin completo es que sus requisitos de almacenamiento aumentan continuamente, ya que se genera un nuevo bloque cada 10 minutos y los bloques antiguos no se pueden eliminar (a menos que el nodo esté pruned). Por lo tanto, te aconsejo que preveas una capacidad suficientemente grande cuando compres tu hardware (2 TB como mínimo).
 
 
 
@@ -2702,11 +2702,11 @@ Las actualizaciones de los nodos son importantes por tres razones principales: e
 
 
 
-- Para actualizar aplicaciones: Vaya a la App Store. Si alguna de tus aplicaciones requiere actualización, aparecerá un botón con una burbuja roja en la esquina superior derecha de Interface. Simplemente haga clic en él y, a continuación, actualice cada aplicación.
+- Para actualizar aplicaciones: ve a la App Store. Si alguna de tus aplicaciones requiere actualización, aparecerá un botón con una burbuja roja en la esquina superior derecha de la Interface. Simplemente haz clic en él y, a continuación, actualiza cada aplicación.
 
 
 
-Realice esta operación regularmente para mantener su sistema operativo y aplicaciones actualizados.
+Realiza esta operación regularmente para mantener tu sistema operativo y aplicaciones actualizados.
 
 
 
@@ -2714,15 +2714,15 @@ Realice esta operación regularmente para mantener su sistema operativo y aplica
 
 
 
-Si sólo utilizas tu nodo Bitcoin para validar y distribuir tus transacciones, pero tus monederos se gestionan fuera de Umbrel (por ejemplo, con un Hardware Wallet y un Sparrow wallet), no hay nada que respaldar directamente en Umbrel. En este caso, la copia de seguridad esencial sigue siendo la de la frase de recuperación y Descriptor de tu Wallet externa, y esto se aplica tanto si utilizas tu propio nodo como si no. Así que nada cambia respecto a tu configuración anterior.
+Si solo utilizas tu nodo Bitcoin para validar y distribuir tus transacciones, pero tus wallets se gestionan fuera de Umbrel (por ejemplo, con un hardware wallet y Sparrow wallet), no hay nada que respaldar directamente en Umbrel. En este caso, la copia de seguridad esencial sigue siendo la de la frase de recuperación y el descriptor de tu wallet externa, y esto se aplica tanto si utilizas tu propio nodo como si no. Así que nada cambia respecto a tu configuración anterior.
 
 
 
-Por otro lado, dependiendo de las aplicaciones adicionales que utilices en Umbrel, puede que sea necesario realizar más copias de seguridad. Esto es especialmente cierto si utilizas un nodo Lightning en Umbrel. En este caso, es absolutamente esencial hacer una copia de seguridad de la seed suministrada cuando instaló su nodo Lightning. Además de la seed, necesita una ***Static Channel Backup (SCB)*** actualizada para poder restaurar su nodo Lightning en caso de problema. El SCB le permite recuperar sus fondos cerrando canales a la fuerza. Si falta la seed o la SCB, es imposible restaurar un nodo Lightning.
+Por otro lado, dependiendo de las aplicaciones adicionales que utilices en Umbrel, puede que sea necesario realizar más copias de seguridad. Esto es especialmente cierto si utilizas un nodo Lightning en Umbrel. En este caso, es absolutamente esencial hacer una copia de seguridad de la seed suministrada cuando instalaste tu nodo Lightning. Además de la seed, necesitas una ***Static Channel Backup (SCB)*** actualizada para poder restaurar tu nodo Lightning en caso de problema. El SCB te permite recuperar tus fondos cerrando canales a la fuerza. Si falta la seed o la SCB, es imposible restaurar un nodo Lightning.
 
 
 
-Umbrel también ofrece la opción de realizar copias de seguridad automáticas y dinámicas de este SCB en sus servidores, a través de Tor, para garantizar que siempre haya disponible un archivo actualizado. En este caso, sólo se necesita la seed para restaurar el nodo.
+Umbrel también ofrece la opción de realizar copias de seguridad automáticas y dinámicas de este SCB en sus servidores, a través de Tor, para garantizar que siempre haya disponible un archivo actualizado. En este caso, solo se necesita la seed para restaurar el nodo.
 
 
 
@@ -2738,7 +2738,7 @@ En términos de seguridad, utiliza una contraseña larga, única y aleatoria par
 
 
 
-Nunca expongas el salpicadero a Internet sin utilizar una pasarela segura (como una VPN, Tor o sólo acceso local). Limita el número de aplicaciones que instalas y elimina regularmente las que ya no necesites para reducir la superficie de ataque.
+Nunca expongas el panel de control a Internet sin utilizar una pasarela segura (como una VPN, Tor o acceso local únicamente). Limita el número de aplicaciones que instalas y elimina regularmente las que ya no necesites para reducir la superficie de ataque.
 
 
 
@@ -2752,7 +2752,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-En caso de que se produzca un error en tu Umbrel, primero generate un paquete de diagnóstico a través de la sección de solución de problemas de UmbrelOS o de la aplicación en cuestión y, a continuación, reinicia limpiamente la aplicación. Si es necesario, intente también un reinicio completo del sistema.
+En caso de que se produzca un error en tu Umbrel, primero genera un paquete de diagnóstico a través de la sección de solución de problemas de UmbrelOS o de la aplicación en cuestión y, a continuación, reinicia limpiamente la aplicación. Si es necesario, intenta también un reinicio completo del sistema.
 
 
 
@@ -2760,7 +2760,7 @@ Si el problema persiste, te recomiendo que [te unas a la comunidad de usuarios d
 
 
 
-Estas áreas le permitirán no sólo seguir los anuncios y actualizaciones de seguridad, sino también hacer preguntas y, en última instancia, ayudar a otros usuarios. A menudo es en estos intercambios donde se descubren las mejores prácticas.
+Estas áreas te permitirán no solo seguir los anuncios y actualizaciones de seguridad, sino también hacer preguntas y, en última instancia, ayudar a otros usuarios. A menudo es en estos intercambios donde se descubren las mejores prácticas.
 
 
 
@@ -2769,18 +2769,18 @@ Con estos sencillos hábitos, tu nodo Umbrel se mantendrá estable, seguro y út
 
 
 
-## Comprender la EII y el proceso de descubrimiento de pares
+## Comprender la IBD y el proceso de descubrimiento de pares
 
 
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>
 
 
 
-Su nodo Bitcoin arranca sin ningún conocimiento previo del historial de transacciones. Inicialmente, es sólo un ordenador que ejecuta software (Bitcoin core o similar). Para convertirse en un nodo Bitcoin totalmente sincronizado y operativo, debe reconstruir localmente el estado de la Ledger comprobando todos los bloques publicados desde el bloque Genesis (bloque 0, publicado por Satoshi Nakamoto el 3 de enero de 2009). Este paso se denomina **IBD (_Descarga Inicial de Bloques_)**.
+Su nodo Bitcoin arranca sin ningún conocimiento previo del historial de transacciones. Inicialmente, es sólo un ordenador que ejecuta software (Bitcoin Core o similar). Para convertirse en un nodo Bitcoin totalmente sincronizado y operativo, debe reconstruir localmente el estado del libro mayor comprobando todos los bloques publicados desde el bloque Génesis (bloque 0, publicado por Satoshi Nakamoto el 3 de enero de 2009). Este paso se denomina **IBD (_Descarga Inicial de Bloques_)**.
 
 
 
-El IBD consiste en descargar y verificar cada bloque y transacción individualmente, aplicando las reglas de consenso, para construir su propia versión del Blockchain. El objetivo no es simplemente recuperar una copia de datos no verificados, sino llegar a la misma conclusión de forma completamente independiente, como la mayoría honesta de la red.
+El IBD consiste en descargar y verificar cada bloque y transacción individualmente, aplicando las reglas de consenso, para construir su propia versión de la blockchain. El objetivo no es simplemente recuperar una copia de datos no verificados, sino llegar a la misma conclusión de forma completamente independiente, como la mayoría honesta de la red.
 
 
 
@@ -2788,11 +2788,11 @@ El IBD consiste en descargar y verificar cada bloque y transacción individualme
 
 
 
-### Hitos de la EII
+### Hitos de la IBD
 
 
 
-La sincronización comienza con el paso _**headers-first**_. Su nodo solicita la secuencia de cabeceras de bloque a varios pares y, para cada una de ellas, verifica las reglas Proof of Work, de ajuste de dificultad, de sintaxis, así como Timestamp y de número de versión. En resumen, se asegura de que cada cabecera recibida cumple las reglas de consenso.
+La sincronización comienza con el paso _**headers-first**_. Su nodo solicita la secuencia de cabeceras de bloque a varios pares y, para cada una de ellas, verifica las reglas de Proof of Work, de ajuste de dificultad, de sintaxis, así como timestamp y de número de versión. En resumen, se asegura de que cada cabecera recibida cumple las reglas de consenso.
 
 
 
@@ -2800,7 +2800,7 @@ La sincronización comienza con el paso _**headers-first**_. Su nodo solicita la
 
 
 
-Como recordatorio, un bloque Bitcoin consta de una cabecera de 80 bytes y una lista de transacciones. La huella digital del bloque se obtiene aplicando un doble SHA-256 Hash a esta cabecera, que contiene 6 campos:
+Como recordatorio, un bloque Bitcoin consta de una cabecera de 80 bytes y una lista de transacciones. La huella digital del bloque se obtiene aplicando un doble hash SHA-256 a esta cabecera, que contiene 6 campos:
 
 
 
@@ -2818,7 +2818,7 @@ Como recordatorio, un bloque Bitcoin consta de una cabecera de 80 bytes y una li
 
 
 
-Las transacciones se consignan en una Merkle Tree. Se trata de una estructura que resume un gran conjunto de datos (en este caso, todas las transacciones del bloque) agregando sus hashes progresivamente de dos en dos hasta llegar a una única "raíz", demostrando así que un elemento pertenece al conjunto (y detectando cualquier modificación). De este modo, cualquier modificación de una transacción modifica también la raíz del Merkle Tree y, por tanto, la huella digital de la cabecera del bloque. SegWit ha introducido una Commitment adicional separada para las cookies (firmas), colocada en la coinbase.
+Las transacciones se consignan en un Merkle tree. Se trata de una estructura que resume un gran conjunto de datos (en este caso, todas las transacciones del bloque) agregando sus hashes progresivamente de dos en dos hasta llegar a una única "raíz", demostrando así que un elemento pertenece al conjunto (y detectando cualquier modificación). De este modo, cualquier modificación de una transacción modifica también la raíz del Merkle tree y, por tanto, la huella digital de la cabecera del bloque. SegWit ha introducido un commitment adicional separado para las firmas, colocado en la coinbase.
 
 
 
@@ -2826,11 +2826,11 @@ Las transacciones se consignan en una Merkle Tree. Se trata de una estructura qu
 
 
 
-Este paso _**primero las cabeceras**_ permite al nodo identificar la rama con más trabajo (independientemente de su número de bloques), que es la rama en la que se sincronizan los nodos Bitcoin. Una vez identificada esta rama, el nodo descarga el contenido de los bloques en paralelo desde varias conexiones y, a continuación, valida cada transacción: formato, validez de los guiones (excepto `assumevalid=1`), importes y ausencia de doble gasto. Con cada comprobación correcta, el estado actual de las monedas no gastadas (conjunto UTXO) se actualiza en la base de datos `chainstate/`: las salidas gastadas se eliminan, mientras que las nuevas salidas válidas se añaden.
+Este paso _**primero las cabeceras**_ permite al nodo identificar la rama con más trabajo (independientemente de su número de bloques), que es la rama en la que se sincronizan los nodos Bitcoin. Una vez identificada esta rama, el nodo descarga el contenido de los bloques en paralelo desde varias conexiones y, a continuación, valida cada transacción: formato, validez de los scripts (excepto `assumevalid=1`), importes y ausencia de doble gasto. Con cada comprobación correcta, el estado actual de las monedas no gastadas (conjunto UTXO) se actualiza en la base de datos `chainstate/`: las salidas gastadas se eliminan, mientras que las nuevas salidas válidas se añaden.
 
 
 
-Mempool, por su parte, sólo entra en juego cuando se acerca a la punta de la cadena: mientras el nodo permanezca retrasado, no tiene transacciones pendientes que almacenar.
+Mempool, por su parte, solo entra en juego al acercarse a la punta de la cadena: mientras el nodo permanezca retrasado, no tiene transacciones pendientes que almacenar.
 
 
 
@@ -2838,19 +2838,19 @@ Una vez completado el IBD, el nodo entra en su fase normal: valida los nuevos bl
 
 
 
-### SuponerVálido
+### AssumeValid
 
 
 
-Bitcoin core incorpora un mecanismo diseñado para reducir el tiempo necesario antes de que un nodo sea plenamente operativo, conservando al mismo tiempo la esencia del principio de verificación autónoma: AssumeValid.
+Bitcoin Core incorpora un mecanismo diseñado para reducir el tiempo necesario antes de que un nodo sea plenamente operativo, conservando al mismo tiempo la esencia del principio de verificación autónoma: AssumeValid.
 
 
 
-El parámetro `assumevalid` se basa en un bloque de referencia anterior, cuyo Hash está integrado en cada versión del software. Durante el IBD, si el nodo descubre que este bloque se encuentra efectivamente en la rama con más trabajo, puede ignorar la verificación de secuencias de comandos para todas las transacciones anteriores a este punto.
+El parámetro `assumevalid` se basa en un bloque de referencia anterior, cuyo hash está integrado en cada versión del software. Durante el IBD, si el nodo descubre que este bloque se encuentra efectivamente en la rama con más trabajo, puede ignorar la verificación de scripts para todas las transacciones anteriores a este punto.
 
 
 
-Todas las demás normas (estructura de bloques, Proof of Work, límites de tamaño, importes de transacción, UTXOs, etc.) siguen estando totalmente verificadas. Sólo se ignora el cálculo de las escrituras anteriores a este bloque de referencia. El aumento de rendimiento es significativo en el IBD, ya que la verificación de firmas representa una parte importante de la carga de la CPU. Más allá de este bloque de referencia, la verificación vuelve a su estado normal.
+Todas las demás normas (estructura de bloques, Proof of Work, límites de tamaño, importes de transacción, UTXOs, etc.) siguen estando totalmente verificadas. Solo se omite el cálculo de scripts anteriores a este bloque de referencia. La mejora de rendimiento es significativa en el IBD, ya que la verificación de firmas representa una parte importante de la carga de CPU. Más allá de este bloque de referencia, la verificación vuelve a su estado normal.
 
 
 
@@ -2858,15 +2858,15 @@ Puede forzar la validación completa de todos los scripts desactivando este meca
 
 
 
-### SupongamosUTXO
+### AssumeUTXO
 
 
 
-`assumeutxo` es otro parámetro existente, pero a diferencia de `assumevalid`, no está activado por defecto. Este mecanismo permite al software cargar una instantánea del conjunto UTXO, junto con sus metadatos, y considerarlo provisionalmente como estado de referencia, tras comprobar que las cabeceras conducen efectivamente al Blockchain con más trabajo.
+`assumeutxo` es otro parámetro existente, pero a diferencia de `assumevalid`, no está activado por defecto. Este mecanismo permite al software cargar una instantánea del conjunto UTXO, junto con sus metadatos, y considerarlo provisionalmente como estado de referencia, tras comprobar que las cabeceras conducen efectivamente a la Blockchain con más trabajo.
 
 
 
-De este modo, el nodo se vuelve rápidamente operativo para los usos comunes (RPC, conexión de monederos, etc.), al tiempo que lanza la reconstrucción completa y verificada de su propio conjunto UTXO en segundo plano. Una vez finalizada esta etapa, la instantánea inicial se sustituye por el estado reconstruido localmente. Este enfoque separa la provisión rápida de nodos de la verificación completa, sin comprometer esta última.
+De este modo, el nodo se vuelve rápidamente operativo para los usos comunes (RPC, conexión de wallets, etc.), al tiempo que lanza la reconstrucción completa y verificada de su propio conjunto UTXO en segundo plano. Una vez finalizada esta etapa, la instantánea inicial se sustituye por el estado reconstruido localmente. Este enfoque separa la provisión rápida del nodo de la verificación completa, sin comprometer esta última.
 
 
 
@@ -2874,7 +2874,7 @@ De este modo, el nodo se vuelve rápidamente operativo para los usos comunes (RP
 
 
 
-Cuando un nodo arranca por primera vez, aún no conoce a ningún peer. Sin embargo, debe encontrar otros nodos Bitcoin en Internet para solicitar cabeceras y, a continuación, bloques, con el fin de completar su IBD. Para iniciar estas conexiones, Bitcoin core sigue una lógica prioritaria.
+Cuando un nodo arranca por primera vez, aún no conoce a ningún peer. Sin embargo, debe encontrar otros nodos Bitcoin en Internet para solicitar cabeceras y, a continuación, bloques, con el fin de completar su IBD. Para iniciar estas conexiones, Bitcoin Core sigue una lógica prioritaria.
 
 
 
@@ -2882,7 +2882,7 @@ Cuando un nodo arranca por primera vez, aún no conoce a ningún peer. Sin embar
 
 
 
-Cuando el nodo se reinicia después de haber sido utilizado, Core primero intenta reconectarse a los peers salientes registrados antes del apagado, información almacenada en el fichero `anchors.dat`. Después, consulta su libro IP Address **`peers.dat`**, que almacena la lista de peers encontrados previamente, para reconectarse a ellos. Se trata simplemente de un fichero local, actualizado y conservado por Core. Por otra parte, para un nuevo nodo que acaba de ser lanzado, estos 2 archivos están vacíos, ya que nunca se ha comunicado con otros nodos Bitcoin.
+Cuando el nodo se reinicia después de haber sido utilizado, Core primero intenta reconectarse a los peers salientes registrados antes del apagado, información almacenada en el fichero `anchors.dat`. Después, consulta su libro de direcciones IP **`peers.dat`**, que almacena la lista de peers encontrados previamente, para reconectarse a ellos. Se trata simplemente de un fichero local, actualizado y conservado por Core. Por otra parte, para un nuevo nodo que acaba de ser lanzado, estos dos archivos están vacíos, ya que nunca se ha comunicado con otros nodos Bitcoin.
 
 
 
@@ -2903,7 +2903,7 @@ En este caso, el software consulta _**Semillas DNS**_. Se trata de [servidores m
 
 
 
-En la gran mayoría de los casos, el paso *Semillas DNS* es suficiente para establecer las primeras conexiones con otros nodos. Si, excepcionalmente, estos servidores no responden en 60 segundos, el nodo cambia a otro método: el código de Bitcoin core incluye [una lista estática de más de 1.000 direcciones](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) de _nodos semilla_ que se actualiza periódicamente. Si fallan los dos primeros métodos de obtención de direcciones IP, esta última solución establece una conexión inicial, a partir de la cual el nodo puede solicitar nuevas direcciones IP.
+En la gran mayoría de los casos, el paso de *Semillas DNS* es suficiente para establecer las primeras conexiones con otros nodos. Si, excepcionalmente, estos servidores no responden en 60 segundos, el nodo cambia a otro método: el código de Bitcoin core incluye [una lista estática de más de 1.000 direcciones](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) de _nodos semilla_ que se actualiza periódicamente. Si fallan los dos primeros métodos de obtención de direcciones IP, esta última solución establece una conexión inicial, a partir de la cual el nodo puede solicitar nuevas direcciones IP.
 
 
 
@@ -2911,15 +2911,15 @@ En la gran mayoría de los casos, el paso *Semillas DNS* es suficiente para esta
 
 
 
-Como último recurso, puedes utilizar manualmente Supply direcciones IP a través del archivo `peers.dat` para forzar conexiones específicas.
+Como último recurso, puedes suministrar manualmente direcciones IP a través del archivo `peers.dat` para forzar conexiones específicas.
 
 
 
-Una vez arrancado, el gestor interno de Address diversifica las fuentes (redes autónomas distintas, clearnet y Tor, así como distintas zonas geográficas) para reducir el riesgo de aislamiento topológico. El nodo establece estas conexiones salientes (conexiones que selecciona él mismo y que, por tanto, son más seguras).
+Una vez arrancado, el gestor interno de direcciones diversifica las fuentes (redes autónomas distintas, clearnet y Tor, así como distintas zonas geográficas) para reducir el riesgo de aislamiento topológico. El nodo establece estas conexiones salientes (conexiones que selecciona él mismo y que, por tanto, son más seguras).
 
 
 
-Si tu nodo está escuchando en un puerto abierto (por defecto, 8333), acepta conexiones entrantes. Éstas refuerzan la resistencia general de la red proporcionando un punto de contacto para nuevos nodos, sin aportar ningún beneficio particular a su propio IBD. Si su nodo funciona con Tor, la lógica sigue siendo la misma, pero las direcciones utilizadas son servicios `.onion`.
+Si tu nodo está escuchando en un puerto abierto (por defecto, 8333), acepta conexiones entrantes. Éstas refuerzan la resiliencia general de la red proporcionando un punto de contacto para nuevos nodos, sin aportar ningún beneficio particular a tu propio IBD. Si tu nodo funciona con Tor, la lógica sigue siendo la misma, pero las direcciones utilizadas son servicios `.onion`.
 
 
 
@@ -2931,18 +2931,18 @@ Si tu nodo está escuchando en un puerto abierto (por defecto, 8333), acepta con
 
 
 
-Cuando el nodo ha completado su sincronización inicial, almacena localmente varios conjuntos de datos complementarios, lo que le permite validar bloques y transacciones, servir a los pares de la red y reiniciarse rápidamente manteniendo su estado. 3 ladrillos principales son esenciales en un nodo:
+Cuando el nodo ha completado su sincronización inicial, almacena localmente varios conjuntos de datos complementarios que le permiten validar bloques y transacciones, servir a los pares de la red y reiniciarse rápidamente manteniendo su estado. Tres componentes principales son esenciales en un nodo:
 
 
 
 
-- los **bloques** de la cadena de bloques almacenados en el disco,
+- los **bloques** de la blockchain almacenados en el disco,
 - el **conjunto UTXO** mantenido en una base de datos clave-valor,
 - y el **Mempool** se almacena en RAM y se serializa periódicamente.
 
 
 
-Además, varios ficheros auxiliares (pares, estimaciones de honorarios, listas de exclusión, carteras, etc.) completan el cuadro. Descubramos la función de todos estos ficheros.
+Además, varios ficheros auxiliares (peers, estimaciones de tarifas, listas de exclusión, wallets, etc.) completan el cuadro. Descubramos la función de todos estos ficheros.
 
 
 
@@ -2950,7 +2950,7 @@ Además, varios ficheros auxiliares (pares, estimaciones de honorarios, listas d
 
 
 
-Por defecto, Bitcoin core guarda sus datos en un directorio de trabajo específico. En GNU/Linux, suele estar en `~/.Bitcoin/`, en Windows en `%APPDATA%\Bitcoin/`, y en macOS en `~/Library/Application Support/Bitcoin/`. Si está utilizando una solución empaquetada (por ejemplo, dentro de una distribución de nodos), este directorio puede estar montado en otro lugar, pero su estructura sigue siendo la misma. Las subcarpetas y archivos importantes que se describen a continuación siguen estando aquí.
+Por defecto, Bitcoin Core guarda sus datos en un directorio de trabajo específico. En GNU/Linux, suele estar en `~/.Bitcoin/`, en Windows en `%APPDATA%\Bitcoin/`, y en macOS en `~/Library/Application Support/Bitcoin/`. Si está utilizando una solución empaquetada (por ejemplo, dentro de una distribución de nodos), este directorio puede estar montado en otro lugar, pero su estructura sigue siendo la misma. Las subcarpetas y archivos importantes que se describen a continuación siguen estando aquí.
 
 
 
@@ -2962,11 +2962,11 @@ Por defecto, Bitcoin core guarda sus datos en un directorio de trabajo específi
 
 
 
-Blockchain es, por tanto, una colección de bloques. Una Full node almacena estos bloques como archivos planos secuenciales y mantiene un índice paralelo para una rápida recuperación. Cuando es necesario (reorganización, reexploración de Wallet, servicio de pares), estos datos se releen tal cual.
+La blockchain es, por tanto, una colección de bloques. Un nodo completo almacena estos bloques como archivos planos secuenciales y mantiene un índice paralelo para una recuperación rápida. Cuando es necesario (reorganización, rescan de wallet, servicio a peers), estos datos se leen nuevamente tal cual.
 
 
 
-**Nota:** Una reorganización, o resincronización, es un fenómeno en el que la Blockchain sufre una modificación de su estructura debido a la existencia de bloques competidores a la misma altura. Esto ocurre cuando una parte del Blockchain es sustituida por otra cadena con una mayor cantidad de trabajo acumulado. Estas resincronizaciones son una parte natural del funcionamiento de Bitcoin, donde distintos mineros pueden encontrar nuevos bloques casi simultáneamente, dividiendo así la red Bitcoin en dos. En tales casos, la red puede dividirse temporalmente en cadenas competidoras. Con el tiempo, a medida que una de estas cadenas acumula más trabajo, las otras cadenas son abandonadas por los nodos, y sus bloques pasan a conocerse como "bloques obsoletos" o "bloques huérfanos" Este proceso de sustitución de una cadena por otra se denomina resincronización.
+**Nota:** Una reorganización, o resincronización, es un fenómeno en el que la Blockchain sufre una modificación de su estructura debido a la existencia de bloques competidores a la misma altura. Esto ocurre cuando una parte de la Blockchain es sustituida por otra cadena con una mayor cantidad de trabajo acumulado. Estas resincronizaciones son una parte natural del funcionamiento de Bitcoin, donde distintos mineros pueden encontrar nuevos bloques casi simultáneamente, dividiendo así la red Bitcoin en dos. En tales casos, la red puede dividirse temporalmente en cadenas competidoras. Con el tiempo, a medida que una de estas cadenas acumula más trabajo, las otras cadenas son abandonadas por los nodos, y sus bloques pasan a conocerse como "bloques obsoletos" o "bloques huérfanos" Este proceso de sustitución de una cadena por otra se denomina resincronización.
 
 
 
@@ -2982,15 +2982,15 @@ Los bloques recibidos y validados se escriben en contenedores secuenciales llama
 
 
 
-En el modo pruned, el nodo retiene sólo una ventana reciente de estos archivos para limitar la huella de disco. Elimina los contenedores `blk*.dat` más antiguos en cuanto se alcanza el objetivo de espacio configurado, conservando al mismo tiempo el historial suficiente para seguir siendo coherente con la cadena más conocida. El índice y el conjunto UTXO permanecen normales, lo que permite validar las siguientes transacciones y bloques.
+En modo pruned, el nodo retiene solo una ventana reciente de estos archivos para limitar el uso de disco. Borra los contenedores `blk*.dat` más antiguos al alcanzar el límite configurado, conservando suficiente historial para mantenerse coherente con la cadena más larga. El índice y el conjunto UTXO permanecen intactos, permitiendo validar transacciones y bloques posteriores.
 
 
 
-#### Ficheros Rev*.dat (datos de cancelación)
+#### Archivos Rev*.dat (datos de reversión)
 
 
 
-Para poder retroceder en el tiempo durante una reorganización, Core guarda, en paralelo con cada archivo `blk`, un archivo `revNNNNN.dat` en `blocks/`. Este archivo contiene la información necesaria para deshacer el efecto de un bloque en el conjunto de UTXO: para cada salida consumida por el bloque, se almacena el estado anterior de la UTXO correspondiente (cantidad, guión, altura...). En caso de que se aborte un bloque, el nodo puede reconstituir rápidamente el estado anterior sin tener que volver a escanear toda la cadena.
+Para poder retroceder en el tiempo durante una reorganización, Core guarda, en paralelo con cada archivo `blk`, un archivo `revNNNNN.dat` en `blocks/`. Este archivo contiene la información necesaria para deshacer el efecto de un bloque en el conjunto de UTXO: para cada salida consumida por el bloque, se almacena el estado anterior de la UTXO correspondiente (cantidad, guión, altura...). En caso de que se revertirse un bloque, el nodo puede reconstituir rápidamente el estado anterior sin tener que volver a escanear toda la cadena.
 
 
 
@@ -2998,7 +2998,7 @@ Para poder retroceder en el tiempo durante una reorganización, Core guarda, en 
 
 
 
-#### Índice de bloques (bloques/índice)
+#### Índice de bloques (blocks/index)
 
 
 
@@ -3010,7 +3010,7 @@ Buscar un bloque directamente en los archivos planos llevaría demasiado tiempo.
 
 
 
-#### Índices opcionales (índices/)
+#### Índices opcionales (indexes/)
 
 
 

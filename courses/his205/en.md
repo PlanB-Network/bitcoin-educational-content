@@ -1093,21 +1093,21 @@ According to classical economic theories, in particular that championed by Adam 
 ### Criticism of classical theory
 
 
-Here is my critique of this theory. With everything we've seen in the previous section, I think we can already say that this notion that **coins** are an evolution of barter is wrong simply because the minted coin definitely emerges from authority, since it's minted by authority. There are several reasons for this, not least the authorities' desire to control the economy, to take control of money.
+A critique of this theory can be formulated. This notion that **coins** are an evolution of barter is problematic because the minted coin definitely emerges from authority, since it's minted by authority. There are several reasons for this, not least the authorities' desire to control the economy, to take control of money.
 
 
 On the other hand, if we're talking about money as a concept, not necessarily coins, then it's less clear-cut because, with the first coins, the Lydian staters, we've found silver blobs that weren't marked. It remains to be seen whether they were in circulation. If they were circulating, this means that people may have originally identified this asset as a potential currency that could be widely demanded and easily exchanged. And maybe it was only afterwards that the authorities noticed this situation and took control of it by putting a stamp on it to certify it.
 
 
-There are a lot of advantages to doing this - no need to check it, weigh it, all that. Obviously, we'll talk about that. But in my opinion, coins are clearly a tool that have been used by states from the outset. However, in terms of the emergence of money as such, we don't know whether it really came from an authority that imposed it or whether it emerged through trade or commercial exchanges. I'll have a very interesting discussion on this subject with my colleague Ulrich later in this section.
+There are a lot of advantages to doing this - no need to check it, weigh it, all that. Obviously, we'll talk about that. Coins are clearly a tool that have been used by states from the outset. However, in terms of the emergence of money as such, we don't know whether it really came from an authority that imposed it or whether it emerged through trade or commercial exchanges. This subject will be explored further in this section.
 
 
-We already know that the first precious metal coins were not used to facilitate daily exchanges because their value was far too high. We also know that they were mainly used for military payments. This is a good argument for the thesis that money didn't necessarily emerge from the market. The units of account, the denominations of the first coins, were probably too large for, say, buying bread or doing daily shopping. It could, for example, be the equivalent of a day's wages. Not necessarily that people were paid wages in those days, but that's to give you an idea of the scale. So these coins probably had too much purchasing power to be used in small-scale trade. On the other hand, there's nothing to say that these coins wouldn't have been used to make larger exchanges, such as merchant exchanges. We know that they were mainly used for military payments. This is one of the most popular theories to explain the appearance of the first coins. Remember, we're talking about coins here, not necessarily about money in general. So, the first coins had their first role, and that was to pay for military payments, for mercenaries.
+We already know that the first precious metal coins were not used to facilitate daily exchanges because their value was far too high. We also know that they were mainly used for military payments. This is a good argument for the thesis that money didn't necessarily emerge from the market. The units of account, the denominations of the first coins, were probably too large for, say, buying bread or doing daily shopping. It could, for example, be the equivalent of a day's wages. This provides a sense of the scale. So these coins probably had too much purchasing power to be used in small-scale trade. On the other hand, there's nothing to say that these coins wouldn't have been used to make larger exchanges, such as merchant exchanges. We know that they were mainly used for military payments. This is one of the most popular theories to explain the appearance of the first coins. Remember, we're talking about coins here, not necessarily about money in general. So, the first coins had their first role, and that was to pay for military payments, for mercenaries.
 
 Alexander the Great, for example, made great use of it, as we'll see later.
 
 
-We've also seen that as early as ancient China, cowrie shells were used for economic exchange (**remunerating labor, measuring value and purchasing land)**. What's more, in Mesopotamia and Egypt, functional monetary systems already existed and were used for trade, wage payments and tax payments. What I'm suggesting here is that it's definitely wrong to think that coins in the Western conception emerge from the need to make exchanges more fluid.
+We've also seen that as early as ancient China, cowrie shells were used for economic exchange (**remunerating labor, measuring value and purchasing land)**. What's more, in Mesopotamia and Egypt, functional monetary systems already existed and were used for trade, wage payments and tax payments. This suggests it is incorrect to think that coins in the Western conception emerge from the need to make exchanges more fluid.
 
 
 Since coins are issued by an authority, we can perhaps assume that, from the outset, they have been linked to the issuing authorities. That makes sense. On the other hand, we don't necessarily know how the forms of money or the forms of monetary systems, the proto-coins, that preceded them emerged. On the one hand, we're going to suggest that it was the temples that identified these monetary units and, afterwards, people used them. And, on the other hand, we'll tell you, no, it was the merchants who needed a means of exchange, a way of trading with the outside world, and it was they who identified, for example, silver metal, to be used because it was in demand from the outside world. The point is, we don't really know. That's why we have the two opposing theories. We don't have perfect proof to explain whether money emerges naturally from the need to trade, for example by merchants, or whether it emanates from authority.
@@ -1116,7 +1116,7 @@ Since coins are issued by an authority, we can perhaps assume that, from the out
 ### Distinguishing between coins and primitive money
 
 
-In conclusion, I think we can say that coins necessarily emanate from authority, since they were stamped by said authority. On the other hand, I don't think we can say that it's wrong to suggest that money (that which preceded coins) couldn't have emerged to facilitate exchange. I think that in all the examples we have seen above, examples in this sense abound.
+In conclusion, coins necessarily emanate from authority, since they were stamped by said authority. On the other hand, it is plausible that money (that which preceded coins) emerged to facilitate exchange. Historical examples, such as those cited above, support this view.
 
 
 
@@ -1129,22 +1129,22 @@ In conclusion, I think we can say that coins necessarily emanate from authority,
 ### David Graeber's review
 
 
-We've just covered the emergence of money according to classical economists. Now we're going to tackle a concept known as the barter myth.
+The emergence of money according to classical economists has been covered. A concept known as the barter myth will now be examined.
 
 
 One criticism of this classic theory of the emergence of money is the lack of historical evidence to support its ideas.
 
 
-The critique known as the "barter myth", formulated by anthropologist David Graeber, among others, challenges the classic idea that money emerged naturally from barter. According to this critique, there is no historical or anthropological evidence to show that societies systematically used barter before the advent of money. In fact, ancient societies would have operated on the basis of credit, debt, social obligations and ceremonial exchanges. The "barter myth" is therefore a theoretical construct designed to justify the classical economic vision, with no real empirical basis.
+The critique known as the "barter myth", formulated by anthropologist David Graeber, among others, challenges the classic idea that money emerged naturally from barter. According to this critique, there is no historical or anthropological evidence to show that societies systematically used barter before the advent of money. In fact, ancient societies operated on the basis of credit, debt, social obligations and ceremonial exchanges. The "barter myth" is therefore a theoretical construct designed to justify the classical economic vision, with no real empirical basis.
 
 
-It should be noted, however, that this theory does not deny that bartering existed, for example, for exchanges between different tribes. It simply denies that bartering was a widely practiced activity within these so-called primitive groups, and that money would be a logical evolution of these practices. It denies the fact that bartering was widely used within a tribe, and that money eventually emanated to fluidify exchanges and resolve the difficulties that existed with bartering. Instead, according to this theory, these groups practiced a form of informal credit or gift for gift.
+It should be noted, however, that this theory does not deny that bartering existed, for example, for exchanges between different tribes. It simply denies that bartering was a widely practiced activity within these so-called primitive groups, and that money would be a logical evolution of these practices. It denies that bartering was widely used within a tribe, and that money eventually emanated to fluidify exchanges and resolve the difficulties that existed with bartering. Instead, according to this theory, these groups practiced a form of informal credit or gift for gift.
 
 
 ### Primitive societies vs. great civilizations
 
 
-**Here are some clarifications regarding the great civilizations of ancient antiquity.** I think this theory definitely applies to primitive (stateless) groups of the past and even today (e.g., the tribes studied by explorers in the 18th and 19th centuries). Clearly, they didn't use barter, but rather the forms of exchange I mentioned earlier, for reasons we've already mentioned (weak division of labor, subsistence farming). However, I don't think this theory applies to the great civilizations of the past, such as Mesopotamia and ancient Egypt.
+**The application of this theory requires clarifications regarding the great civilizations of ancient antiquity.** The theory of the barter myth applies to primitive (stateless) groups of the past and even today (e.g., the tribes studied by explorers in the 18th and 19th centuries). They did not use barter, but rather the forms of exchange mentioned earlier, for reasons already mentioned (weak division of labor, subsistence farming). However, this theory may not apply to the great civilizations of the past, such as Mesopotamia and ancient Egypt.
 
 
 Here are two excerpts from *Aux origines de la monnaie* on this subject:
@@ -1155,7 +1155,7 @@ Here are two excerpts from *Aux origines de la monnaie* on this subject:
 
 > Breads, i.e., processed cereals, were therefore units of account which, like the shât (y) of the Old Kingdom, also enabled the opening of credits in diversified goods. This simple example shows that the economy of Pharaonic Egypt was not confined to a system of redistribution. It was highly complex, involving a multitude of exchanges.
 
-So, as we saw earlier in the section on Egypt and even Mesopotamia and China, we can see that even these ancient, but not primitive, civilizations, due to the presence of a state, in my opinion, used monetary systems. I think this was amply demonstrated in the first section of this course. And so, this notion of give-and-take, of deferred credit, does not apply to these great civilizations. The precise reasons for the emergence of money therefore remain a mystery. We don't know whether it emanated from the need of merchants to trade with the outside world, or whether it was imposed by the temple in these ancient periods.
+As was seen earlier in the section on Egypt and even Mesopotamia and China, these ancient, but not primitive, civilizations, due to the presence of a state, used monetary systems. This was amply demonstrated in the first section of this course. Therefore, this notion of give-and-take, of deferred credit, does not apply to these great civilizations. The precise reasons for the emergence of money in these state-level societies remain a subject of scholarly debate, but evidence points toward state administration and large-scale trade as key factors.
 
 
 
@@ -1169,13 +1169,13 @@ So, as we saw earlier in the section on Egypt and even Mesopotamia and China, we
 ### Money as an IOU
 
 
-In this section, we cover the theory of debt money.
+In this section, the theory of debt money is covered.
 
 
-The theory of **debt money**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This concept introduces the notion of the quantification of exchanges and transfer. Thus, money would be above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
+The theory of **debt money**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This concept introduces the notion of the quantification of exchanges and transfer. Thus, money is above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
 
 
-An even more advanced form of this theory is that all money is a debt. So someone who possesses money would have a claim on society in general, a claim on all those who accept that money. And since money, **in their vision, must be accepted in a compulsory way**, otherwise it's not money, because if you can refuse this money, their system doesn't work. In a given group that has identified a currency, all those who possess it, it's as if they have a debt to all the other members of that society who accept that currency, and those who accept the currency have a form of debt to the person who possesses that monetary unit. This is essentially their theory.
+An even more advanced form of this theory is that all money is a debt. Someone who possesses money has a claim on society in general—a claim on all those who accept that money. And since money, **in this vision, must be accepted in a compulsory way**, otherwise it is not money, because if this money can be refused, the system does not work. In a given group that has identified a currency, all those who possess it are as if they have a credit to all the other members of that society who accept that currency, and those who accept the currency have a form of debt to the person who possesses that monetary unit. This is essentially their theory.
 
 
 ### Criticism of the compulsory system

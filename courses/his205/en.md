@@ -534,7 +534,7 @@ This illustrates a key pre-capitalist principle: financial tools were used for s
 ### The emergence of credit systems and units of account
 
 
-**Karl Polanyi distinguishes three forms of economic exchange: reciprocity between symmetrical groups,** that would be in primitive tribes where we don't really need money because we give each other informal credit and exchange and redistribute. **Redistribution centralized around temples and palaces,** this form of exchange is compatible with Mesopotamia, where temples were at the center of economic organization and could at one time give back, distribute wealth in the form of rations. It was only later that the notion of wages was introduced. So, until now, we have the primitive form (1), centralized redistribution (2) in temples and palaces, and then we can finally give way to market exchanges (3). Although the market as we understand it today did not fully exist, the presence of market exchanges in Mesopotamia is indisputable, attested by the existence of specific terms in Akkadian and by the presence of archaeological evidence of prices, profits, losses, fluctuations and situations of scarcity.
+**Karl Polanyi distinguishes three forms of economic exchange: reciprocity between symmetrical groups,** prevalent in primitive societies where informal credit and gift-giving suffice. **Redistribution centralized around temples and palaces,** compatible with Mesopotamia, where temples and palaces centralized economic activity and redistributed wealth, often in the form of rations. This preceded the development of wage labor. **The third form is market exchange.** Although a modern market did not fully exist, the presence of market exchanges in Mesopotamia is indisputable, attested by the existence of specific terms in Akkadian and by archaeological evidence of prices, profits, losses, fluctuations, and scarcity.
 
 
 Mesopotamian households independently managed all stages of agricultural production, from sowing to final processing into bread and beer. Women also produced the textiles needed by their dependents. For goods not produced locally, households turned to specialized merchants.
@@ -543,7 +543,7 @@ Mesopotamian households independently managed all stages of agricultural product
 Family ties were particularly important in trade. During the Paleo-Assyrian period (c. 1910-1830 BC), merchants from the city of Ashur established a trading colony at Kanesh in Anatolia, importing tin and textiles in exchange for gold and silver. Trade was based on family businesses closely linked by marriage and commercial partnerships. Kanesh was just one link in a vast international trade network.
 
 
-In these exchanges, there were metals, and they were precious metals and not necessarily, for example, copper, which was really useful at the time, and we think that these metals were exchanged for notions of store of value. So we couldn't necessarily speak of barter, where two goods are exchanged for their usefulness, but rather a notion of payment with a certain awareness of hoarding precious metals for their use as a store of value and not to use them as a commodity, for example, the use of bronze to make armor.
+Precious metals, unlike utilitarian metals like copper, were often exchanged with an awareness of their function as a store of value. This represents a shift from pure barter, where goods are exchanged for their immediate utility, to a form of payment where value is hoarded for future use, rather than being consumed as a commodity (e.g., bronze for armor).
 
 
 Tributes and taxes were mainly paid in kind (barley or weighed silver). Temples and palaces were the main economic, administrative, political and religious centers, and also performed the first banking functions through the secure deposit of goods, first grain, then other agricultural products and finally precious metals. In this way, the first credit and loan operations were developed, long before the appearance of coins.
@@ -552,29 +552,27 @@ Tributes and taxes were mainly paid in kind (barley or weighed silver). Temples 
 The Mesopotamian economy mainly used barley and silver as standards of value. Silver was weighed in standardized units, such as the sìqlum (shekel) of around 8.33 grams. As early as the ancient Babylonian period (under Hammurabi), silver was used as a common means of payment, with an early notion of nominal value ("nūbum") as opposed to real weight ("šuqulum"), **anticipating the modern concept of fiat currency**.
 
 
-But it wasn't yet fiat money in the strict sense of the word. There was no notion of a stamp with a figure of authority, but there was a notion of a nominal unit of account, as opposed to the notion of weighed metal. There was a distinction in the language for these two concepts, and I think it's important to mention it.
+This was not yet fiat money in the strict sense, as it lacked the stamp of state authority. However, the linguistic distinction between a nominal unit of account and weighed metal represents a crucial conceptual development.
 
 
-The transition to a wage labor market was a difficult one. It required two major conceptual innovations: the separation of the person's work from the final product, and the introduction of "working time" as a measurable unit. To have this notion of wage and salaried employee, we first had to go through these two innovations. **In the IIIᵉ millennium, work was initially remunerated by fixed rations, before gradually evolving towards a wage system at the beginning of the IIᵉ millennium.**
+The transition to a wage labor market was a difficult one. It required two major conceptual innovations: the separation of the person's work from the final product, and the introduction of "working time" as a measurable unit. These innovations were prerequisites for the concepts of wages and salaried employment. **In the IIIᵉ millennium, work was initially remunerated by fixed rations, before gradually evolving towards a wage system at the beginning of the IIᵉ millennium.**
 
 
-Finally, from the 26th century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** A little like the example of Kanesh, where silver metal was received for hoarding.
+Finally, from the 26th century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** This practice is exemplified by the trade at Kanesh, where silver was specifically received as a store of value.
 
 
-From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, we note that in assignment contracts, the verb sa, refers to the payment of the price. This notion, called "sa", appears in contracts and refers to the payment of a price, not the measurement of a particular commodity. "Sa" simply refers to a payment or a price. It's an anthropologist who notes this and mentions that it's really a breakthrough; we see a kind of dichotomy between the before and after of this introduction of the verb "sa" in contracts.
+From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, a significant linguistic development occurred in assignment contracts. The verb "sa" began to refer specifically to the payment of a price, rather than the measurement of a commodity. Anthropologists note this as a key breakthrough, marking a clear conceptual shift in the understanding of payment and value.
 
 
 We can't ignore the empirical data present in Near Eastern archives attesting to the existence of **some market mechanisms**, incorporating **notions of profit** and **loss**, **price fluctuations** and situations of **scarcity**. But the fundamental difficulty lies in determining the relative importance of market-based exchange within the ancient Mesopotamian economy as a whole.
 
 
-I think the experts in this field have seen traces of these market concepts, but they're not really able to tell us how much of the economy of the time was based on this more modern market concept or other mechanisms.
+While evidence confirms the existence of these market concepts, experts debate their relative importance. It is unclear whether market mechanisms were the primary driver of pricing and trade or if other economic systems were more dominant.
 
 We know it existed, but we don't know if it was the main way, say, of determining prices or trading.
 
 
-This concludes this section on economic organization in Mesopotamia.
-
-In the next sections, we'll do the same for Egypt and China.
+This concludes the section on economic organization in Mesopotamia. The following sections will apply a similar analysis to the economies of Egypt and China.
 
 
 
@@ -587,19 +585,19 @@ In the next sections, we'll do the same for Egypt and China.
 ### Historical background and Egyptian periods
 
 
-This section is dedicated to the economic and monetary organization of ancient Egypt. To give you just a little background, here's a list and brief description of the periods in question.
+This section outlines the economic and monetary organization of ancient Egypt within its historical context. The primary periods are as follows:
 
 
 
-- **Old Kingdom (c. 2575 - c. 2130 BC)**. A period marked by the construction of the great pyramids, notably those of Giza. This was the golden age of the centralized Egyptian monarchy.
-- **Middle Kingdom (c. 1938 - c. 1630 BC)**. Political and cultural renaissance after a period of instability.
-- **New Kingdom (c. 1539 - 1075 BC)**. A period of territorial expansion, military power, and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
-- **1323 BC. - Death of Tutankhamun**. The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
-- **Ramses II - Reigned 1279-1213 BC**. One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
-- **1275 BC - Sea Peoples**. Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
-- **Battle of Xoïs - 1178 BC**. Conflict between the Egyptian army and invaders, probably linked to the Sea Peoples. One of many battles at the end of the New Kingdom.
-- **The Late Period** is the period of ancient Egyptian history from around 664 to 332 BC.
-- **Cleopatra VII (69 - 30 BC)**. Last queen of Egypt, famous for her intelligence, charisma and alliances with Julius Caesar and Marc Antony, and probably also for her nose. Her reign marked the end of Pharaonic Egypt before its annexation by Rome.
+- **Old Kingdom (c. 2575 - c. 2130 BC)**: A period marked by the construction of the great pyramids, notably those of Giza. This was the golden age of the centralized Egyptian monarchy.
+- **Middle Kingdom (c. 1938 - c. 1630 BC)**: Political and cultural renaissance after a period of instability.
+- **New Kingdom (c. 1539 - 1075 BC)**: A period of territorial expansion, military power, and international trade. It includes the reigns of famous pharaohs such as Tutankhamen and Ramses II.
+- **1323 BC. - Death of Tutankhamun**: The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
+- **Ramses II - Reigned 1279-1213 BC**: One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
+- **1275 BC - Sea Peoples**: Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
+- **Battle of Xoïs - 1178 BC**: Conflict between the Egyptian army and invaders, probably linked to the Sea Peol:s. One of many battles at the end of the New Kingdom.
+- **Late Period (664 – 332 BC)**: The final period of native Egyptian rule before conquest by foreign powers.
+- **Cleopatra VII (69 - 30 BC)**: Last queen of Egypt, famous for her intelligence, charisma and alliances with Julius Caesar and Marc Antony, and probably also for her nose. Her reign marked the end of Pharaonic Egypt before its annexation by Rome.
 
 
 By the 5th and 4th millennia BC, Egypt was already experiencing intense commercial activity on a large scale, linking Nubia, Palestine, Libya and the Red Sea regions through maritime, river and land trade (notably by donkey caravans).

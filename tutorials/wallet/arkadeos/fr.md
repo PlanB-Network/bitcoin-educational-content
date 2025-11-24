@@ -1,5 +1,5 @@
 ---
-name: Arkadeos
+name: ArkadeOS
 description: Guide complet sur le portefeuille Arkade et le protocole Ark
 ---
 

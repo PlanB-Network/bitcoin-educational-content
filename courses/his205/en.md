@@ -1397,25 +1397,25 @@ The authority governing the register varies. For commodity money like gold, natu
 ### The monetary premium concept
 
 
-In this section dedicated to the various proposals for unifying the different theories on the emergence of money, I have just proposed Lyn Alden's theory, the register theory. I have my own proposal for the unification of the two monetary theories. It's the monetary premium, the concept of monetary premium. So, the value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
+As a proposal for unifying monetary theories, consider the concept of the the monetary premium. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
 
 
-What I'm trying to demonstrate here is quite simply that whether it's fiat, i.e., banknotes with no use value, whether it's gold coins or any metal, a piece of gold nugget or an ingot, **it's often the monetary premium that makes up most of its value**. If we take a piece of gold, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. Note that the demand for jewelry often comes from its monetary value. People keep jewelry as a kind of store of value, so I include this a little in the monetary premium because it's often a rather monetary demand to play a role in money.
+ For any monetary asset, including fiat banknotes with no use value or a gold ingot, **it's often the monetary premium that makes up most of its value**. If we take a piece of gold, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. However, much of the demand for jewelry is itself driven by gold's monetary properties, as people use it as a store of value. Therefore, a significant portion of jewelry demand can also be considered part of the monetary premium.
 
 
-So you could say that around 10% of gold demand is for industry. In the value of gold, we would have a small part, let's say 10%, which would be explained by this industrial demand, this demand for the use of gold, where gold is consumed. The rest is clearly demand for its monetary use as a store of value.
+Approximately 10% of gold's demand stems from industrial use, In the value of gold, where it is consumed. This constitutes its use value. The vast majority of its remaining value is derived from its monetary use, primarily as a store of value.
 
 
 ### Authority bonus and fiat
 
 
-And if you compare a piece of gold to a gold coin, there's another layer. The gold coin is stamped by an authority, and the gold contained in the piece also enjoys a demand for use, a demand to be consumed in industry. It also enjoys a monetary premium as a store of value. What's more, there's an overlay that I call the authority premium, where there will often be a price, a greater purchasing power for the coin than the piece of gold, since the coin is simpler to use. It makes exchanges more fluid, as there's no need to weigh it. The authority normally guarantees its purity. And if you compare it to a piece of gold, a stamped gold coin is generally worth more than a simple piece of gold. And that's normal, too, because it takes resources to stamp it.
+Comparing a piece of gold to a gold coin reveals an additional layer of value. The gold coin is stamped by an authority, and the gold contained in the piece also enjoys a demand for use, a demand to be consumed in industry. It also enjoys a monetary premium as a store of value. This added value is an "authority premium". A stamped coin often has greater purchasing power than an equivalent piece of gold because its standardization simplifies exchange—it eliminates the need to weigh and assay the metal for every transaction. The authority's guarantee of purity and weight adds utility, and the cost of production is reflected in its higher price.
 
 
-It's the same principle for fiat, paper money. Paper money doesn't really have any use value, except perhaps to heat a house, and that happened during the Weimar Republic. So there's no real demand for its use value. On the other hand, there's only a premium for authority, in my opinion.
+It's the same principle for fiat, paper money. Paper money doesn't really have any use value, except perhaps to heat a house, and that happened during the Weimar Republic. So there's no real demand for its use value. On the other hand, there's only a premium for authority.
 
 
-It's a form of monetary premium, an overlay on the monetary premium. But its monetary premium comes from the fact that it's legal tender, and then the authorities force you to buy it to pay your taxes. So, necessarily, fiat currency has a form of monetary demand arising from the fact that it's taxed and you have to at least acquire it to pay your taxes. And as a result, it remains a generally accepted means of payment. So people want to acquire it to meet their needs.
+Fiat currency's value is derived almost entirely from this authority premium. Its monetary premium stems from its status as legal tender, which creates a baseline demand because the authority mandates its use for tax payments. This monetary demand ensures its continued acceptance as a medium of payment, compelling people to acquire it to meet their fiscal obligations.
 
 
 ### Unification through monetary demand

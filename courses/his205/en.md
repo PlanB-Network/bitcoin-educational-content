@@ -1452,25 +1452,19 @@ The monetary premium is simply based on the confidence that someone will exchang
 ### Semantics of monetary terms
 
 
-In this section on the various monetary theories and especially on the definitions of money, I'd like to make a brief aside on the subject of semantics. I'd like to dig a little deeper into the definitions of several words relating to money, and compare them with their English equivalents. For example, money, currency, compared to monnaie, argent and devise. So, it goes like this.
+A semantic analysis of monetary terms reveals important distinctions, particularly when comparing English and French. The words "money," "currency," "monnaie," "argent," and "devise" have nuanced meanings that are often conflated.
 
 
 A little semantics:
 
 
-When we say "**money**" (de la monnaie), most people will think we're referring to the small change we receive in return for a transaction. And if we say "**currency**" (la monnaie), people will probably think we're referring to the currency of a state. Canada's currency is the Canadian dollar. That's right.
+The English term "**money**" is a broad concept, while "**currency**" refers to a specific national unit of exchange. In French, the distinctions are different. When one says "monnaie," it typically refers to small change or coins received in a transaction. However, "la monnaie" can also refer to a state's official currency, such as the Canadian dollar.
 
 
-But what about money (de l'argent)? A thief will never say "Give me all your change!" (the thief might well be disappointed to receive mere coins of almost no value).
+The French word "argent" illustrates a different scope. A thief demanding "Donne-moi tout ton argent" ("Give me **all your money**") is not asking for coins. In a street robbery, "argent" refers specifically to **banknotes**. 
 
 
-No, the thief will shout: "Give me **all your money**". And if the thief is standing in front of you on the street, he's necessarily referring to **the banknotes** in your pocket.
-
-
-On the other hand, if the thief tries to defraud you in a more sophisticated way, trying to steal your assets by emptying all your bank accounts, we'd say that **he'll take all your money**. Here the word "money" refers to **the individual's wealth**.
-
-
-So there are two definitions for the word money: cash (banknotes) and wealth.
+In a more sophisticated financial crime, stealing  all of a victim's "argent" means taking their **entire wealth** from their bank accounts. Thus, "argent" can mean both physical cash and abstract wealth.
 
 
 ### Currency vs monnaie vs devise

@@ -878,7 +878,7 @@ Hay dos posibles razones para elegir Knots en lugar de Core:
 
 
 
-- Técnicas**: Diferentes opciones de Core, sobre todo en cuanto a la gestión de relés, determinando qué transacciones son aceptadas y difundidas por su nodo.
+- Técnicas**: Diferentes opciones de Core, sobre todo en cuanto a la gestión de relevos, determinando qué transacciones son aceptadas y difundidas por su nodo.
 - Política**: Algunas personas prefieren utilizar clientes alternativos como Knots por razones no técnicas, en particular para apoyar una alternativa a Core y reducir así su monopolio. Si alguna vez Core se viera comprometido, sería útil no solo disponer de clientes alternativos sólidos y bien mantenidos, sino también saber cómo utilizarlos eficazmente. Otros utilizan Knots con fines de protesta, porque han perdido la confianza en los desarrolladores de Core o desaprueban la mayor parte de la gestión del cliente.
 
 
@@ -2578,7 +2578,7 @@ Este protocolo es muy popular dentro de la comunidad Bitcoin porque, al igual qu
 
 
 
-Con tu Umbrel, puedes optimizar el uso de Nostr. Instalando la aplicación ***Nostr Relay***, puedes alojar tu propio relé privado directamente en tu máquina, asegurándote de que todas tus publicaciones e interacciones en Nostr se guardan localmente y no pueden perderse por el borrado de los relés públicos.
+Con tu Umbrel, puedes optimizar el uso de Nostr. Instalando la aplicación ***Nostr Relay***, puedes alojar tu propio relevo privado directamente en tu máquina, asegurándote de que todas tus publicaciones e interacciones en Nostr se guardan localmente y no pueden perderse por el borrado de los relevos públicos.
 
 
 
@@ -3456,7 +3456,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- `bytespersigop=<n>`: Parámetro que convierte las transacciones de firma en bytes equivalentes para la evaluación del límite de relés (por defecto: `20`). Esto influirá en la aceptación de transacciones ricas en `sigops` según las reglas de la política local.
+- `bytespersigop=<n>`: Parámetro que convierte las transacciones de firma en bytes equivalentes para la evaluación del límite de relevos (por defecto: `20`). Esto influirá en la aceptación de transacciones ricas en `sigops` según las reglas de la política local.
 
 
 
@@ -3468,7 +3468,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- `whitelistrelay=1`: Concede automáticamente permiso de retransmisión a los pares entrantes de la lista blanca (por defecto: `1`). Estos pares tienen sus transacciones aceptadas por el relé, incluso si su nodo no está en modo de retransmisión general.
+- `whitelistrelay=1`: Concede automáticamente permiso de retransmisión a los pares entrantes de la lista blanca (por defecto: `1`). Estos pares tienen sus transacciones aceptadas por el relevo, incluso si su nodo no está en modo de retransmisión general.
 
 
 
@@ -3502,7 +3502,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-Como recordatorio, todas estas reglas de retransmisión no tienen ningún impacto en la validez de las transacciones incluidas en un bloque válido. Sirven para ajustar tu contribución al relé, proteger tus recursos y hacer que tu nodo sea predecible en entornos con restricciones, pero nunca te permiten rechazar bloques que respeten las reglas de consenso.
+Como recordatorio, todas estas reglas de retransmisión no tienen ningún impacto en la validez de las transacciones incluidas en un bloque válido. Sirven para ajustar tu contribución al relevo, proteger tus recursos y hacer que tu nodo sea predecible en entornos con restricciones, pero nunca te permiten rechazar bloques que respeten las reglas de consenso.
 
 
 

@@ -1187,10 +1187,10 @@ An even more advanced form of this theory is that all money is a debt. Someone w
 Let me make one small criticism of this theory. I accept that money is a kind of social consensus. It is a trust that a group places in a monetary "sign", whatever it may be. So I subscribe to the concept of mutual trust, which we'll take up again later with the concept of the monetary premium. Where it gets complicated is when the proponents of this theory add a notion of obligation and insist on the notion of debt. For them, when someone possesses a monetary token, they hold a claim on the community as a whole, and the community would therefore owe the holder a debt. There would also be an obligation to settle, with group members obliged to accept the token; otherwise, in their view, the system wouldn't work. I think the system described above in ancient China represents this theory well.
 
 
-For my part, I can easily imagine a system where money is a social consensus where the chosen token is generally accepted as a means of payment, with no formal obligation. I can see a system like that working if people accept it of their own free will. It can work. On the other hand, it often comes with obligations, legal tender, and violence, which we'll see later in a section. But theoretically, I don't have the impression that this system can quite work. I think Bitcoin is an example. Bitcoin has value because it has a monetary premium, because there's demand for it to be put to monetary use, i.e., reserves of value, perhaps also means of exchange or protection against the fiat system. No one is obliged to accept it, and the more it is accepted as a means of payment, the more it can be used as a means of exchange. We can already use it as a store of value without any problem. There's no doubt about that. What I mean to say is that Bitcoin seems to me to be an example, a kind of currency that is a form of social consensus where we think we'll be able to get our money back if we buy some later, we acquire it to be able to exchange it later, to preserve our purchasing power.
+For my part, I can easily imagine a system where money is a social consensus where the chosen token is generally accepted as a means of payment, with no formal obligation. I can see a system like that working if people accept it of their own free will. It can work. On the other hand, it often comes with obligations, legal tender, and violence, which we'll see later in a section. But theoretically, I don't have the impression that this system can quite work. I think Bitcoin is an example. Bitcoin has value because it has a monetary premium, because there's demand for it to be put to monetary use, i.e., a store of value, perhaps also a medium of exchange or protection against the fiat system. No one is obliged to accept it, and the more it is accepted as a means of payment, the more it can be used as a means of exchange. We can already use it as a store of value without any problem. There's no doubt about that. What I mean to say is that Bitcoin seems to me to be an example, a kind of currency that is a form of social consensus where we think we'll be able to get our money back if we buy some later, we acquire it to be able to exchange it later, to preserve our purchasing power.
 
 
-This less restrictive view of the theory helps to explain how two distinct societies can trade with a monetary token such as gold, without creating a claim or debt between said societies. To force acceptance in society, I find, doesn't work in trade between two tribes, because the other tribe is not subject to authority. Tribe B is not subject to tribe A's authority. But yet, it accepts the same monetary token let's say, gold. Now, people might say to me "Yes, but that's because company B has also decided that gold is their currency", so it works. Yes indeed, it works, but there's no debt creation at that point. It's a final transaction. So, when company A exchanges a good for gold at company B, there is no creation of debt, the transaction is completed. And clearly, the person in company B has not acquired this gold coin or nugget in order to be paid later by people in company A. He accepts it to be exchanged for gold. He accepts it to be exchanged later, probably within his own tribe. So, in this example, there is no creation of debt, there is no latent claim, it's simply a direct exchange, a direct payment. Proponents of debt currency will tell us that this is barter. And I disagree, because barter is the exchange of a direct good. Direct barter is the exchange of one good for another good, for use. Goods are exchanged to be used, whereas in our case, gold is clearly used as a currency because it's not going to be used to do anything else; it's going to be used later as a means of payment. So, in my opinion, it doesn't fall into the barter category.
+This less restrictive view of the theory helps to explain how two distinct societies can trade with a monetary token such as gold, without creating a claim or debt between said societies. To force acceptance in society, I find, doesn't work in trade between two tribes, because the other tribe is not subject to authority. Tribe B is not subject to tribe A's authority. But yet, it accepts the same monetary token—let's say, gold. Now, people might say to me, "Yes, but that's because tribe B has also decided that gold is their currency", so it works. Yes indeed, it works, but there's no debt creation at that point. It's a final transaction. So, when tribe A exchanges a good for gold at tribe B, there is no creation of debt; the transaction is completed. And clearly, the person in tribe B has not acquired this gold coin or nugget in order to be paid later by people in tribe A. He accepts it to be exchanged for gold. He accepts it to be exchanged later, probably within his own tribe. So, in this example, there is no creation of debt, there is no latent claim, it's simply a direct exchange, a direct payment. Proponents of debt currency will tell us that this is barter. And I disagree, because barter is the exchange of a direct good. Direct barter is the exchange of one good for another good, for use. Goods are exchanged to be used, whereas in our case, gold is clearly used as a currency because it's not going to be used to do anything else; it's going to be used later as a means of payment. So, in my opinion, it doesn't fall into the barter category.
 
 
 Owning a monetary token is not a "claim" on the community, but rather a hope that the token will be accepted at a later date at a comparable value.
@@ -1202,10 +1202,10 @@ Owning a monetary token is not a "claim" on the community, but rather a hope tha
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
-For the Austrian school of economics, initiated by Carl Menger, money emerges naturally from a barter economy faced with the problem of the double coincidence of wants. In this vision, individuals spontaneously converge on intermediate goods that facilitate exchange - not directly consumed goods, but commodities recognized for their capacity to be widely demanded.
+For the Austrian school of economics, initiated by Carl Menger, money emerges naturally from a barter economy faced with the problem of the double coincidence of wants. In this vision, individuals spontaneously converge on intermediate goods that facilitate exchange—goods not intended for direct consumption but commodities recognized for their capacity to be widely demanded.
 
 
-These monetary goods must possess qualities identified since Aristotle: they must serve as a store of value, a means of exchange and a unit of account. Economic agents gradually identify, accumulate and save them, thus initiating their emergence as money. This process is entirely spontaneous - money represents a natural market response to the problem of coordinating exchanges, without the conscious intervention of an authority.
+These monetary goods must possess qualities identified since Aristotle: they must serve as a store of value, a means of exchange, and a unit of account. Economic agents gradually identify, accumulate and save them, thus initiating their emergence as money. This process is entirely spontaneous—money represents a natural market response to the problem of coordinating exchanges, without the conscious intervention of an authority.
 
 
 ### The "barter myth" debate
@@ -1214,28 +1214,28 @@ These monetary goods must possess qualities identified since Aristotle: they mus
 Anthropologists such as David Graeber dispute this view, invoking the "barter myth". Their argument: no complex civilization based solely on direct barter has ever been documented. Rather, the primitive societies studied used systems of informal credit and reciprocity. Graeber asserts that debt preceded barter, citing thousands of Mesopotamian tablets documenting credit relationships.
 
 
-However, this criticism is based on a restrictive definition of barter. As Menger pointed out back in 1892, barter goes beyond the simple direct exchange of goods for goods. It also encompasses deferred transfers, services for wages, and exchanges with temporality - what Menger called "unilateral transfers between individuals". This extended form of barter can coexist with credit systems in restricted circles of trust.
+However, this criticism is based on a restrictive definition of barter. As Menger pointed out back in 1892, barter goes beyond the simple direct exchange of goods for goods. It also encompasses deferred transfers, services for wages, and exchanges with temporality—what Menger called "unilateral transfers between individuals". This extended form of barter can coexist with credit systems in restricted circles of trust.
 
 
-The absence of proof is not proof of absence, and Austrian economists recognize that no complex society can develop sustainably on the basis of direct barter alone - hence the necessary emergence of money.
+The absence of proof is not proof of absence, and Austrian economists recognize that no complex society can develop sustainably on the basis of direct barter alone—hence the necessary emergence of money.
 
 
 ### The Mesopotamian case: merchants versus temples
 
 
-The debate is crystallizing around the origin of the Mesopotamian silver shekel. There are two opposing interpretations. The institutional view holds that the temples - true economic and spiritual centers - imposed silver as a currency to structure the economy. The cuneiform tablets, concentrated among the clergy and merchant elites, bear witness to this centralized control.
+The debate is crystallizing around the origin of the Mesopotamian silver shekel. There are two opposing interpretations. The institutional view holds that the temples—true economic and spiritual centers—imposed silver as a currency to structure the economy. The cuneiform tablets, concentrated among the clergy and merchant elites, bear witness to this centralized control.
 
 
-The Austrian interpretation suggests the opposite: it was the merchants who adopted money for long-distance trade. Faced with the challenge of trading with strangers beyond Mesopotamia's borders - from Anatolia to the Persian Gulf - they needed something universally recognizable, durable and transportable. Silver was a natural choice because of its intrinsic qualities. The temples simply confirmed a practice already established by commercial usage.
+The Austrian interpretation suggests the opposite: it was the merchants who adopted money for long-distance trade. Faced with the challenge of trading with strangers beyond Mesopotamia's borders—from Anatolia to the Persian Gulf—they needed something universally recognizable, durable, and transportable. Silver was a natural choice because of its intrinsic qualities. The temples simply confirmed a practice already established by commercial usage.
 
 
-This thesis is based on documented exchanges between Kanesh in Anatolia and Assur, where merchants exchanged textiles for silver metal - not for its material utility, but as a store of value. These transactions went beyond mere barter, revealing the existence of a genuine commodity currency.
+This thesis is based on documented exchanges between Kanesh in Anatolia and Assur, where merchants exchanged textiles for silver metal—not for its material utility, but as a store of value. These transactions went beyond mere barter, revealing the existence of a genuine commodity currency.
 
 
 ### The modern example of prison camps
 
 
-Economist Richard Radford, a prisoner in Germany during the Second World War, documented a fascinating case of spontaneous monetary emergence. In the camps, cigarettes naturally became the unit of exchange - divisible, standardized, widely accepted. Even non-smokers adopted them, recognizing their universal exchange value.
+Economist Richard Radford, a prisoner in Germany during the Second World War, documented a fascinating case of spontaneous monetary emergence. In the camps, cigarettes naturally became the unit of exchange—divisible, standardized, widely accepted. Even non-smokers adopted them, recognizing their universal exchange value.
 
 
 This microcosm illustrates the Austrian principle: faced with the problem of coordinating exchanges, individuals spontaneously converge on the most "saleable" good. No authority imposed cigarette money; it emerged from the daily practice of prisoners seeking to optimize their exchanges.
@@ -1244,7 +1244,7 @@ This microcosm illustrates the Austrian principle: faced with the problem of coo
 ### The convergence of individual preferences
 
 
-Essentially, money represents the convergence of individual preferences towards an accepted common good. Mesopotamian merchants, like Radford's prisoners, identified the good that minimized the uncertainty of future exchanges. This selection does not await the authorization or imposition of a central authority - it emerges from the practical rationality of economic actors faced with the challenges of exchange.
+Essentially, money represents the convergence of individual preferences towards an accepted common good. Mesopotamian merchants, like Radford's prisoners, identified the good that minimized the uncertainty of future exchanges. This selection does not await the authorization or imposition of a central authority—it emerges from the practical rationality of economic actors faced with the challenges of exchange.
 
 
 The debate between spontaneous emergence and conscious institution remains open, as historical evidence is fragmentary. But the Austrian analysis offers a coherent explanation: money was born out of the practical needs of commerce, with authorities merely institutionalizing practices already established by market usage.
@@ -1262,25 +1262,25 @@ The debate between spontaneous emergence and conscious institution remains open,
 In this section, we explore the anthropological view of the emergence of money, a rich perspective that profoundly challenges classical economic theories.
 
 
-Contrary to the traditional theory that money emerged naturally from barter to facilitate economic exchange, anthropological research shows that the emergence of money is largely rooted in non-economic causes. It stems from social mechanisms such as tribute payments, compensation for murder (the famous Wergeld) and dowries (bride-money), but also from ceremonial, religious, political and symbolic practices, far more than from simple market necessities.
+Contrary to the traditional theory that money emerged naturally from barter to facilitate economic exchange, anthropological research shows that the emergence of money is largely rooted in non-economic causes. It stems from social mechanisms such as tribute payments, compensation for murder (the famous Wergeld) and dowries (bride-money), but also from ceremonial, religious, political, and symbolic practices, far more than from simple market necessities.
 
 
 In primitive societies, money was rarely used for the day-to-day exchange of material goods, contrary to the classical definition of money as a "medium of exchange". In fact, these societies made massive use of credit, with deferred payments embedded in vast networks of social and personal relationships. These ubiquitous credit systems logically and historically preceded the appearance of money.
 
 
-That's what sums up their vision. We discuss this with Ulrich in our chat in the previous video. I'll let you enjoy Ulrich's comments on the subject, which challenge this approach a little. And so, in the anthropological vision, we often have this notion of money coming from an authority or a social concept that precedes market needs.
+Thus, in the anthropological vision, we often have this notion of money coming from an authority or a social concept that precedes market needs.
 
 
 ### The example of the Yap stones
 
 
-Here below, you can admire a striking example of the monumental stones on the island of Yap. Some of these stones, despite their immobility or even physical disappearance, continued to function fully as money thanks to a collective agreement, underlining the essentially social and symbolic dimension of money.
+The monumental stones of the island of Yap present a striking example. Some of these stones, despite their immobility or even physical disappearance, continued to function fully as money thanks to a collective agreement, underlining the essentially social and symbolic dimension of money.
 
 
 ![](./assets/fr/Pierre_de_Yap.webp)
 
 
-This is a really interesting analysis of the Yap stones. Saifedean Ammous also mentions this example in his book "The Bitcoin Standard". According to him, the Yap Island system most closely resembles Bitcoin, a kind of central record that everyone can consult, that is public, maintaining accounts and managing ownership of things. This anthropological perspective illustrates that all of this represents an agreement or social consensus within society, which is fundamentally accurate. And I find this mention of the lost stones very interesting. They would go hundreds of kilometers out to sea in small rafts and bring the stones back. Sometimes the stone fell to the bottom of the sea, but this stone would still be used in the monetary system. A person could say "Yes, we dropped the stone in such a place; it's mine, so we can exchange it". There wasn't necessarily a need for physical possession to facilitate exchange, as the stones were so large that they often stayed in one place. Instead, the focus was on changing hands with these stones in a transactional manner, allowing ownership to shift without the stones actually moving. It was a form of "proof of consensus", highlighting an interesting anthropological perspective on money.
+The analysis of the Yap stones is noteworthy. As Saifedean Ammous observes in "The Bitcoin Standard", the system resembles a public ledger, maintaining a collective record of ownership. This illustrates that money can function as a social consensus, independent of physical possession. The famous case of stones lost at sea, which continued to be exchanged based solely on communal acknowledgment of their existence and ownership, demonstrates this principle. The transfer of ownership was a purely mental transaction, a "proof of consensus" that highlights the symbolic nature of money.
 
 
 ### Protocurrencies and social obligations
@@ -1289,16 +1289,16 @@ This is a really interesting analysis of the Yap stones. Saifedean Ammous also m
 Ethnographers all over the world have observed societies using "proto-currencies" or "primitive currencies", such as shells, cloth, livestock, salt, and stones, which fulfilled the functions usually attributed to money, such as a means of payment and a store of value, without however regularly acting as intermediaries in the exchange of everyday goods.
 
 
-So, here we're describing monetary systems that weren't necessarily used for day-to-day exchanges.
+These are monetary systems that were not necessarily used for day-to-day exchanges.
 
 
-And I'd like to remind you that these were all currencies before the advent of coins, and I don't know how much of a misnomer it is to say currency. I prefer to say currency. I can mention that in the literature, we often speak of proto-currencies to refer to money before coins. But as we saw in the first section, **I believe that there were monetary systems long before the appearance of coins**.
+These currencies predate the advent of coins, and while the term "proto-currency" is common in literature, it is more accurate to recognize them as **fully functional monetary systems that existed long before coinage.**
 
 
 These primitive currencies were mainly used to manage fundamental social obligations linked to individuals, such as marriage, conflict compensation (Wergeld), or gifts between chiefs. In the Persian Empire, for example, the first coins were specifically created as a means of military payment rather than a means of exchange.
 
 
-Primitive money therefore has one essential characteristic: it is a means of payment, but very rarely a means of direct exchange of material goods. What we mean here is that it was a means of payment for certain social obligations, for tribes, for exchanges between chiefs, the famous wergeld, blood money. Before the advent of justice systems, if someone committed a murder, there was reparation for the family who suffered from the murder of their loved one. There was a price to pay for this, it was called blood money and it's a form of payment. There was also the dowry, which is also a form of payment. In these early uses of money as a form of payment, it was more related to human and social obligations than to payments for everyday purchases. According to this theory, these more common day-to-day exchanges were more related to credit, deferred credit, gift for gift, and the redistribution of rations. There was another form of social organization to manage these exchanges. It's also important to remember that, in a society where everyone is self-sufficient, does their own farming, there's no specialization, and there's very little need for a monetary system for day-to-day exchanges. And that's why the first forms of money were what we've just described, the dowry, blood money, simply because these were the first exchanges where we needed a means of payment, long before we needed to trade, to exchange bread for money on a daily basis, because in primitive societies, it didn't work like that. Everyone provided for their own needs, and there was no specialization yet. I think I've covered this at length in all the previous lectures in this course.
+Primitive money therefore has one essential characteristic: it is a means of payment, but very rarely a means of direct exchange of material goods. This means it served as a means of payment for specific social obligations, such as wergeld (conflict compensation) or dowries. In societies lacking formal justice systems, payments like "blood money" were reparations for murder, while dowries structured marriage alliances. These monetary functions were tied to social obligations, not commercial transactions. Common, day-to-day exchanges were managed through credit, gift economies, and social redistribution. The limited specialization in these self-sufficient societies created little need for a monetary medium for daily trade. The need for a means of payment arose first for these critical social functions, long before it was needed for commercial exchange.
 
 
 In these societies, with no advanced division of labor, direct exchanges remained limited, taking place mainly within personal relationships of friendship or alliance. The absence of sufficient specialization did not necessitate money in the modern sense.
@@ -1307,13 +1307,13 @@ In these societies, with no advanced division of labor, direct exchanges remaine
 Anthropologists such as Quiggin and Einzig insist on the pre-eminence of credit: **the primitive economic life is caught in a gigantic network of credits and personal debts, where money intervenes especially when payments must be immediate and compensations cannot be easily deferred.**
 
 
-So, people exchange stuff, can make deferred credit, but in some cases, you can't defer payment, so currency or proto-currencies can be useful at this point to have an immediate finality to the exchange.
+Thus, while many exchanges could be managed through deferred credit, currency or proto-currencies became essential when immediate payment was required, providing finality to transactions that could not be postponed.
 
 
 ### The innovation of anonymity
 
 
-This analysis leads to a deeper reflection: rather than opposing money to barter, it is more relevant to understand its emergence as an evolution from the complex systems of credit and debt. Money introduces a fundamental innovation: **anonymity**. And that's where I find this anthropological theory of the emergence of money interesting. If you're a small group of people and you give each other deferred credit, you obviously know each other. I think that for this system to work, people have to know each other, obviously. And a payment made with money allows anonymity. It allows you to make a payment without people even knowing your name, without people even knowing who you are. They can make an exchange for immediate and final settlement. And that's precisely what money enables.
+This analysis leads to a deeper reflection: rather than opposing money to barter, it is more relevant to understand its emergence as an evolution from the complex systems of credit and debt. Money introduces a fundamental innovation: **anonymity**. This is a key insight of the anthropological theory. In small groups, deferred credit systems rely on personal relationships and mutual knowledge; participants must know one another for the system to function. A monetary payment, by contrast, enables anonymity. It allows for an immediate and final settlement without the parties' identities being known, which is precisely what money facilitates.
 
 
 Unlike credit, which is always nominative, money enables anonymous, generalized and immediately liberatory transactions. **This unique liberatory power of money is its decisive superiority.**
@@ -1322,7 +1322,7 @@ Unlike credit, which is always nominative, money enables anonymous, generalized 
 Thus, far from being a modest tool to facilitate economic exchange, money is a major social innovation, closely linked to the evolution of human institutions and practices, from personal credit **to a generalized, anonymous payment system**. This anthropological evolution shows that money, far more than a simple means of exchange, represents a powerful social institution, profoundly shaping human societies, to the point of becoming, in our modern societies, the very purpose of economic activity.
 
 
-Here, we realize that in the end, in our modern societies, the very purpose of economic exchange is to possess money, whereas back in the day, this was not the case at all. The very purpose of economic exchange was to possess goods or commodities for consumption. And today, by introducing the innovation of money, the purpose of economic exchange is to accumulate this money, since it enables us to exchange it for the good, as is generally accepted. We can exchange it for the good we need when we need it.
+This leads to a fundamental shift in the purpose of economic exchange. Historically, the goal was to acquire goods or commodities for direct consumption. In modern societies, however, the purpose of exchange is often the accumulation of money itself. Money's general acceptability allows it to be accumulated and later exchanged for any needed good or service, making it the ultimate object of economic activity.
 
 
 ## Register unification
@@ -1334,7 +1334,7 @@ Here, we realize that in the end, in our modern societies, the very purpose of e
 ### Accounting register theory
 
 
-We're now going to explore together various proposals for the unification of these two monetary theories, i.e., the theory of the emergence of money through debt-money and the monetary theory of the emergence of commodity-money. We're going to talk about Lynn Alden's unification proposal in her famous book "For Broken Money", the title of whose translation produced by Consensus will probably be called "Rupture monétaire".
+This section explores proposals for unifying two monetary theories: the emergence of money as debt (credit theory) and the emergence of money as a commodity (Mengerian theory). We will examine the unification proposal presented by Lyn Alden in her book, "Broken Money".
 
 
 *Excerpt from Broken Money by Lyn Alden:*
@@ -1342,7 +1342,7 @@ We're now going to explore together various proposals for the unification of the
 
 > Fundamentally, money is an accounting register. Commodity money is a register governed by nature. Bank money is a ledger governed by nation-states. Open-source money is a ledger governed by its users.
 
-Here, Lyn refers to Bitcoin.
+Here, Alden refers to Bitcoin.
 
 
 ### The stock-flow ratio and scarcity
@@ -1350,13 +1350,13 @@ Here, Lyn refers to Bitcoin.
 
 > Some rare chemical elements, such as rhodium, are rarer than gold, but have low stock-flow ratios because they are consumed by industry as quickly as they are mined. A rhodium coin or ingot can be purchased as a specialized collectible or store of value, but is not suitable as a socially accepted currency, and so does not emerge naturally as money.
 
-Saifedean talks about this at length in his book "The Bitcoin Standard". For those unfamiliar with the stock-to-flow ratio, it's simply when you compare the existing stock, the reserves that exist in the market, compared to the new stock coming in, the influx of new stock. It's often rather counter-intuitive, because you might think that something you have in large quantities isn't scarce, but in fact it isn't. It's more a question of the capacity you have to supply it. Rather, it's the capacity we have to have new stock that, according to this model, gives us the information as to whether this object is rare or not. It's not because we don't have something in stock that it's rare, it's just maybe that we don't have it. So, if we take gold, we have a lot of gold stocks because it's used as a store of value, and the inflow of new stocks is something like 1% to 3% per year of new gold stocks coming in through gold mining. Whereas, what she's saying here, if we're talking about rhodium, it's rarer than gold, but we don't have any stock because it's consumed as it goes along. So it doesn't take a lot of new supply to double the existing stock. Whereas with gold, it would take at least 50 years to renew, to double the stock. Unlike most goods that are consumed, where it's fairly easy, and doesn't take many years of production to double the existing stock, since it's consumed as it goes along.
+Saifedean Ammous discusses this concept in "The Bitcoin Standard". The stock-to-flow ratio compares the existing stock of a commodity to its annual production (flow). This metric can be counter-intuitive; scarcity is less about total quantity and more about the difficulty of significantly increasing the existing stock. A high stock-to-flow ratio indicates that new production is minimal compared to existing reserves, making the commodity scarce. For example, gold has a large accumulated stock because it is hoarded as a store of value, while its annual production (flow) from mining is only about 1-3% of that stock. In contrast, rhodium may be rarer than gold in terms of total annual production, but it is consumed by industry at a similar rate. This means its stock remains low, and a small increase in new supply could double the existing stock. With gold, at its current rate of production, it would take over 50 years to double the existing stock. This is unlike most consumable commodities, where the existing stock is small and can be doubled quickly by increased production.
 
 
 *"Gold has maintained a stock-to-flow ratio of between 25x and 100x throughout modern history, usually around 50x or more, briefly never falling below 16x, even during the Gold Rush of the mid-19th century. "*
 
 
-So, 25 would mean 25 years to double the stock, and 100 would mean 100 years to double the stock. Saifedean says in his book that even if we doubled gold production, from say 1.5% to 3%, it wouldn't necessarily have a big effect on its price.
+A ratio of 25x implies it would take 25 years to double the stock at the current flow rate; a 100x ratio implies 100 years. As Ammous notes, even a doubling of gold's annual production would not significantly impact its price because the increase would still be small relative to the massive existing stock.
 
 
 *"Silver generally has a stock-flow ratio of 10x or more, which is still relatively high.*
@@ -1479,7 +1479,7 @@ So there are two definitions for the word money: cash (banknotes) and wealth.
 A currency (devise) is necessarily the currency of another country, otherwise we just say money (monnaie). If you're French, you'd say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe" (The pound sterling is the currency of the United Kingdom and the euro is the currency of Europe).
 
 
-Often, people who haven't delved into these semantic problems, in translating these terms, will often be inclined to speak of currency (devise) when it's written currency, but no, currency is money (monnaie) when it's your country's currency, and it's devise when we're talking about other currencies. And so, the problem here that I often see is that in English, there are two words: there's "money", which is a concept, and there's "currency", which is really the unit of a country that is used to make exchanges. So we can just talk about the concept of money; it's easy - it's the concept of the word *money*; it's money in general. And *currency* is very simple to equate with the currency of a country. Whereas in French, unfortunately, people will often say yes, "mais ce n'est pas une monnaie" when talking about bitcoin because it's not the currency of a country, but often, I think they're referring to the terms currency instead. This is wrong on the one hand, because since El Salvador, bitcoin has been the currency of a state. The fact remains that people will often say: *but no, it's not the currency of a state, it can't be money*. But in fact, if we refer to the broader concept of *money*, bitcoin fits into this definition perfectly, in my opinion. It's just that in French, we don't have two words to separate these two concepts. We could say that the word argent refers to currency, but unfortunately, that's not its precise definition. *Argent* (money) refers to wealth or banknotes. You can't really make an equivalence with the word *money*. *Money* is really the concept of currency (monnaie).
+Often, people who haven't delved into these semantic problems, in translating these terms, will often be inclined to speak of currency (devise) when it's written currency, but no, currency is money (monnaie) when it's your country's currency, and it's devise when we're talking about other currencies. And so, the problem here that I often see is that in English, there are two words: there's "money", which is a concept, and there's "currency", which is really the unit of a country that is used to make exchanges. So we can just talk about the concept of money; it's easy—it's the concept of the word *money*; it's money in general. And *currency* is very simple to equate with the currency of a country. Whereas in French, unfortunately, people will often say yes, "mais ce n'est pas une monnaie" when talking about bitcoin because it's not the currency of a country, but often, I think they're referring to the terms currency instead. This is wrong on the one hand, because since El Salvador, bitcoin has been the currency of a state. The fact remains that people will often say: *but no, it's not the currency of a state, it can't be money*. But in fact, if we refer to the broader concept of *money*, bitcoin fits into this definition perfectly, in my opinion. It's just that in French, we don't have two words to separate these two concepts. We could say that the word argent refers to currency, but unfortunately, that's not its precise definition. *Argent* (money) refers to wealth or banknotes. You can't really make an equivalence with the word *money*. *Money* is really the concept of currency (monnaie).
 
 
 
@@ -1582,7 +1582,7 @@ Here is a summary of the monetary theory known as **"debt money"**, according to
 According to this theory, developed in particular by Alfred Mitchell-Innes and further developed by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
 
 
-Thus, all money circulates as a debt owed by one person or institution to another, backed by the trust and social or state authority guaranteeing its validity. So, according to them, when we possess - as I've already mentioned - when we possess money, we have a claim on society, and society owes us a debt. Money is therefore never neutral or autonomous, but always an underlying debt: holding money essentially means owning a claim on society or an economic community.
+Thus, all money circulates as a debt owed by one person or institution to another, backed by the trust and social or state authority guaranteeing its validity. So, according to them, when we possess—as I've already mentioned—when we possess money, we have a claim on society, and society owes us a debt. Money is therefore never neutral or autonomous, but always an underlying debt: holding money essentially means owning a claim on society or an economic community.
 
 
 This reasoning contradicts the classic idea of money as a simple "intermediate commodity", and instead emphasizes the central role of social and political relations in the creation and management of money.

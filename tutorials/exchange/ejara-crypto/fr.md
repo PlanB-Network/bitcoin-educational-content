@@ -1,6 +1,6 @@
 ---
 name: Ejara Crypto
-description: Stockez, achetez et vendez des bitcoins à partir de 1000 frs CFA en Afrique francophone et dans la diaspora
+description: Stockez, achetez et vendez des bitcoins à partir de 1000 frs CFA en Afrique francophone
 ---
 
 ![cover](assets/cover.webp)
@@ -15,17 +15,15 @@ Conçu en particulier pour l'Afrique francophone et sa diaspora, Ejara permet d'
 
 ## Débuter avec Ejara Crypto
 
-Rendez-vous sur store d'applications et téléchargez **Ejara Crypto** :
-
- - [Pour Android](https://play.google.com/store/apps/details?id=com.ejara.ejarav2) ;
-
+Rendez-vous sur votre store d'applications et téléchargez **Ejara Crypto** :
+- [Pour Android](https://play.google.com/store/apps/details?id=com.ejara.ejarav2) ;
 - [Pour Apple](https://apps.apple.com/fr/app/ejara-crypto/id1541127587) .
 
 ![download](assets/fr/03.webp)
 
-**Note** : Comme mentionné précédemment, Ejara Crypto est une application mobile qui est plus ou moins spécifique à l'investissement dans le Bitcoin. Il est tout à fait possible de tomber sur l'application "Ejara" dans votre store d'applications. 
+**Note** : Comme mentionné précédemment, Ejara Crypto est une application mobile qui est plus ou moins spécifique à l'investissement dans le Bitcoin. Il est tout à fait possible de tomber sur l'application "Ejara" dans votre store d'applications.
 En effet, cette dernière aussi est une application mobile appartenant à la même entreprise. Cependant, elle est uniquement dédiée à l'épargne.
-Cette application ne vous sera donc d'aucune utilité si vous prévoyez investir dans le Bitcoin.
+Cette application ne vous sera donc d'aucune utilité si vous prévoyez d'investir dans le Bitcoin.
 
 ![secondapp](assets/fr/04.webp)
 
@@ -39,17 +37,17 @@ Sur la nouvelle interface qui s'affiche, choisissez l'indicatif de votre pays en
 
 ![screen](assets/fr/06.webp)
 
-À ce stade, il vous faudra suivre quelques étapes pour configurer quelques paramètres préliminaires afin de créer votre compte Ejara Crypto. Faute de quoi, vous ne pourrez accéder à l'interface principale de l'application.
+À ce stade, il vous faudra suivre quelques étapes pour configurer quelques paramètres préliminaires afin de créer votre compte Ejara Crypto. Faute de quoi, vous ne pourrez pas accéder à l'interface principale de l'application.
 
-1. Définissez votre nom d'utilisateur et ajoutez une adresse e-mail.
+1 - Définissez votre nom d'utilisateur et ajoutez une adresse e-mail.
 
 ![screen](assets/fr/07.webp)
 
-2. Renseignez vos données personnelles (nom, prénom, pays de naissance…)
+2 - Renseignez vos données personnelles (nom, prénom, pays de naissance…)
 
 ![screen](assets/fr/08.webp)
 
-3. Sécurisez votre compte en créant un code PIN.
+3 - Sécurisez votre compte en créant un code PIN.
 
 ![screen](assets/fr/09.webp)
 
@@ -96,13 +94,13 @@ Cliquez sur le bouton de l'interface **Compte**, puis sur **Profil**. Dans ce me
 ![screen](assets/fr/17.webp)
 
 Aussi, nous vous suggérons d'activer dans les **Paramètres du PIN**, les boutons **Exiger le PIN**, **Nécessité d'ouvrir l'application** et **Demande de retrait** afin de renforcer encore un peu plus la sécurité de votre application. 
-En effet, grâce à ces activations, votre code PIN sera requis pour toute tentative d'ouverture de votre application et pour toute demande retrait d'actifs numériques ou d'argent. Cela empêche automatiquement toute personne tierce d'utiliser votre application à votre insu.
+En effet, grâce à ces activations, votre code PIN sera requis pour toute tentative d'ouverture de votre application et pour toute demande de retrait d'actifs numériques ou d'argent. Cela empêche automatiquement toute personne tierce d'utiliser votre application à votre insu.
 
 ![screen](assets/fr/18.webp)
 
 **Niveau 2**
 
-Ce niveau de configuration est très indispensable.
+Ce niveau de configuration est très important.
 
 D'abord, **sauvegardez vos clés**. Nous procéderons dans notre tutoriel à une sauvegarde manuelle. Il est très important de les sauvegarder soigneusement et de les stocker dans un endroit sécurisé.
 
@@ -120,7 +118,7 @@ Ensuite, faites le **KYC**. Il faut noter qu'il y a quatre niveaux de KYC sur Ej
 
 ![screen](assets/fr/23.webp)
 
-Enfin, choisissez votre **méthode de paiement**. Ne vous inquiétez point si ce bouton ne marche pas. Vous avez la possibilité de configurer vos méthodes de paiement d'une autre manière. Nous l'aborderons un peu plus loin dans la section **Achat de bitcoins** sur Ejara Crypto dans notre tutoriel.
+Enfin, choisissez votre **méthode de paiement**. Ne vous inquiétez pas si ce bouton ne marche pas. Vous avez la possibilité de configurer vos méthodes de paiement d'une autre manière. Nous l'aborderons un peu plus loin dans la section **Achat de bitcoins** sur Ejara Crypto dans notre tutoriel.
 
 ![screen](assets/fr/24.webp)
 
@@ -128,7 +126,7 @@ Par ailleurs, vous pouvez aussi changer votre avatar.
 
 ## Réception et envoi de bitcoins on-chain
 
-1. Pour recevoir du bitcoin sur Ejara Crypto, accédez à l'interface **Portefeuille** et appuyez sur le bouton **Recevoir**.
+1 - Pour recevoir du bitcoin sur Ejara Crypto, accédez à l'interface **Portefeuille** et appuyez sur le bouton **Recevoir**.
 
 ![screen](assets/fr/25.webp)
 
@@ -140,7 +138,7 @@ Partagez votre code QR ou votre adresse avec votre expéditeur et recevez vos bi
 
 ![screen](assets/fr/27.webp)
 
-2. Pour envoyer des bitcoins depuis votre application, rendez-vous sur l'interface **Portefeuille** et tapez sur le bouton **Envoyer**.
+2 - Pour envoyer des bitcoins depuis votre application, rendez-vous sur l'interface **Portefeuille** et tapez sur le bouton **Envoyer**.
 
 ![screen](assets/fr/28.webp)
 
@@ -152,15 +150,15 @@ Ensuite, définissez si vous voulez envoyer des bitcoins à **un utilisateur d'E
 
 ![screen](assets/fr/30.webp)
 
-Lorsque le récepteur est un utilisateur d'Ejara, l'étape suivante consiste à saisir le montant de la transaction, le nom d'utilisateur du récepteur et puis la vitesse de la transaction en ajustant les frais de réseau.
+Lorsque le destinataire est un utilisateur d'Ejara, l'étape suivante consiste à saisir le montant de la transaction, le nom d'utilisateur du destinataire, puis la vitesse de la transaction en ajustant les frais de réseau.
 
 ![screen](assets/fr/31.webp)
 
-Tandis qu'en cas d'envoi de bitcoins à un utilisateur externe, vous devez définir le montant à envoyer, l'adresse du récepteur, par la suite la vitesse de la transaction en ajustant les frais de réseau.
+Tandis qu'en cas d'envoi de bitcoins à un utilisateur externe, vous devez définir le montant à envoyer, l'adresse du récepteur, puis la vitesse de la transaction en ajustant les frais de réseau.
 
 ![screen](assets/fr/32.webp)
 
-Dans les deux cas, vous avez aussi la possibilité de scanner directement le code QR de votre récepteur depuis votre application.
+Dans les deux cas, vous avez aussi la possibilité de scanner directement le code QR de votre destinataire depuis votre application.
 
 ![screen](assets/fr/33.webp)
 
@@ -187,7 +185,7 @@ Faites scanner votre facture ou partagez votre facture avec votre expéditeur po
 
 ![screen](assets/fr/38.webp)
 
-Relativement à l'envoi de satoshis depuis l'application, cliquez sur **Envoyer** depuis l'interface **Portefeuille**, et choisissez l'actif **Lightning Network**. 
+Concernant l'envoi de satoshis depuis l'application, cliquez sur **Envoyer** depuis l'interface **Portefeuille**, et choisissez l'actif **Lightning Network**.
 
 ![screen](assets/fr/39.webp)
 
@@ -228,7 +226,8 @@ Appuyez sur **Changer** pour définir le portefeuille à partir duquel vos bitco
 
 ![screen](assets/fr/46.webp)
 
-Cliquez sur **Ajouter une méthode** pour sélectionner votre mode de paiement. Dans notre cas, nous choisirons le paiement mobile. Il est mentionné que les frais de service relativement à l'option choisie peuvent atteindre 2 % du montant d'achat. 
+Cliquez sur **Ajouter une méthode** pour sélectionner votre mode de paiement. Dans notre cas, nous choisirons le paiement mobile. Il est mentionné que les frais de service relatifs à l'option choisie peuvent atteindre 2 % du montant d'achat.
+
 ![screen](assets/fr/47.webp)
 
 ![screen](assets/fr/48.webp)
@@ -268,15 +267,16 @@ En effet, ces frais de service sont composés des frais de prestataires tiers, n
 
 Après l'achat de vos premiers bitcoins on-chain ou d'un montant conséquent de satoshis, vous avez évidemment la possibilité de les laisser dans le portefeuille intégré à l'application. Cependant, je vous recommande fortement de les transférer vers votre propre portefeuille en self-custody.
 
-Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Academy]([https://planb.academy/tutorials/wallet](https://planb.academy/tutorials/wallet)).
+Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## Vente de bitcoins
 
 **Processus de vente en version vidéo**
 
-![vidéo](https://youtu.be/3iCCsMu6oLk?si=2nxj02tRhZerjPu5)
+![vidéo](https://youtu.be/3iCCsMu6oLk)
 
 Pour vendre des bitcoins avec l'application Ejara Crypto, rendez-vous sur l'interface **Portefeuille**, cliquez sur le bouton **Vendre**.
+
  ![screen](assets/fr/58.webp)
 
 Choisissez l'actif (bitcoin on-chain ou satoshi) à vendre.
@@ -315,7 +315,7 @@ Le dépôt de ce montant sur votre compte vous est également notifié par votre
 
 ![screen](assets/fr/69.webp)
 
-**Note** : Actuellement, sur Ejara Crypto, les opérations d'achat et de vente nécessitent entre 1 heure et 4 heures de temps.
+**Note** : Actuellement, sur Ejara Crypto, les opérations d'achat et de vente nécessitent entre 1 et 4 heures.
 
 Comme évoqué au début de ce tutoriel, Ejara Crypto offre divers produits. Leur produit principal, la possibilité d'épargner via l'application mobile, est basé sur un système d'épargne spécifique aux populations africaines : la tontine. 
 Étant donné que l'objectif est de digitaliser l'épargne et de faciliter l'investissement dans les actifs numériques, l'équipe d'Ejara Crypto est disponible pour vous apporter des conseils et vous assister dans les difficultés que vous rencontrez. 
@@ -324,7 +324,7 @@ Vous pouvez envoyer une requête directement dans l'application ou contacter leu
 
 ![screen](assets/fr/70.webp)
 
-Vous avez désormais la prise en main de l'application Ejara Crypto pour recevoir, envoyer et pour acheter ou vendre des bitcoins à partir de 1 000 FCFA.
+Vous avez désormais la prise en main de l'application Ejara Crypto pour recevoir, envoyer, acheter ou vendre des bitcoins à partir de 1 000 FCFA.
 
 Découvrez également notre tutoriel sur Flash, une plateforme d'échange développée par [BlockSolut](https://bitcoinflash.xyz/) pour acheter des bitcoins à partir de 100 francs CFA grâce à la puissance de Lightning dans quelques pays d'Afrique de l'Ouest.
 

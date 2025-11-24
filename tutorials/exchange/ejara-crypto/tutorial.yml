@@ -1,13 +1,14 @@
 id: 823faa99-f496-4501-b7f8-9735b3b236d4
 
-category: exchange
+category: centralized
 
 project_id: 73dcae97-0105-49e5-9516-6a7ff1866ad8
 
 tags:
-  - bitcoin
   - investment
   - finance
+
+licence: CC-BY-SA-V4
 
 level: beginner
 

@@ -1,0 +1,8 @@
+question: Jaký je hlavní rozdíl mezi anonymitou a pseudonymitou v kontextu transakcí Bitcoin?
+answer: V pseudonymních systémech, jako je Bitcoin, lze platby mezi pseudonymy sledovat, zatímco v anonymních systémech žádná stopa neexistuje
+wrong_answers:
+  - Pseudonymní systémy používají skutečná jména, zatímco anonymní systémy používají pro všechny transakce falešná jména
+  - Anonymní systémy vyžadují veřejné klíče, zatímco pseudonymní systémy používají k identifikaci pouze soukromé klíče
+  - "Pseudonymní systémy skrývají výši transakcí, zatímco anonymní systémy skrývají pouze identitu odesílatele."
+explanation: |
+  Bitcoin je pseudonymní, nikoli anonymní, protože všechny transakce mezi adresami (pseudonymy) jsou v blockchainu dohledatelné. Ve skutečně anonymním systému by nebylo možné vystopovat, odkud peníze pocházejí a kam směřují, čehož by teoreticky bylo možné dosáhnout pomocí důkazů nulové znalosti. Transparentnost Bitcoin však umožňuje komukoli sledovat tok bitcoinů mezi různými adresami, takže je spíše pseudonymní než anonymní. Pseudonymy v Bitcoin jsou adresy odvozené z veřejných klíčů, nikoli libovolná uživatelská jména nebo skutečné identity.

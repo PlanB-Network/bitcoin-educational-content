@@ -3,7 +3,7 @@ answer: Ponieważ ułatwia to decentralizację sieci.
 wrong_answers:
   - Ponieważ zwiększa to pojemność transakcyjną sieci.
   - Ponieważ zmniejsza to pojemność transakcyjną sieci.
-  - Ponieważ zwiększa Block reward dla górników.
+  - Ponieważ zwiększa nagrody za wydobywanie bloków dla górników.
 explanation: |
   Przystępny koszt i dostępność węzła Bitcoin jest
   ważny, ponieważ ułatwia decentralizację sieci

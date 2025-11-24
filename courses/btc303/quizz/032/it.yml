@@ -1,0 +1,8 @@
+question: Quale meccanismo garantisce l'applicazione del limite di fornitura di Bitcoin senza richiedere la fiducia in un'autorità centrale?
+answer: Nodi completi che eseguono il codice di verifica che rifiuta automaticamente i blocchi con transazioni coinbase non valide
+wrong_answers:
+  - Un algoritmo di consenso distribuito che richiede l'approvazione della maggioranza per qualsiasi modifica della fornitura
+  - proof-of-work crittografico che impedisce matematicamente la creazione di monete in eccesso
+  - Validatori di rete che votano sulla validità delle transazioni attraverso un processo democratico
+explanation: |
+  Il limite di fornitura di Bitcoin viene applicato attraverso nodi completi che eseguono un codice di verifica per controllare ogni transazione coinbase del blocco rispetto alle regole del consenso. Anche se alcuni nodi diventano maligni e accettano blocchi non validi con ricompense eccessive, i nodi onesti semplicemente li ignorano e continuano con la catena valida. In questo modo si crea un sistema privo di fiducia, in cui non è necessario fidarsi di alcun individuo o autorità, ma è sufficiente eseguire il codice che verifica il rispetto delle regole, rendendo la rete collettivamente sicura contro i tentativi di inflazione dell'offerta.

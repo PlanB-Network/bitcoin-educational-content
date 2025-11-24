@@ -1,0 +1,8 @@
+question: Která klíčová vlastnost vývojového procesu Bitcoin jej činí obzvláště zranitelným vůči infiltračním taktikám popsaným ve válečných sabotážních příručkách?
+answer: Vývoj Bitcoin je otevřený pro každého, kdo se chce zapojit bez strážců
+wrong_answers:
+  - Vývoj Bitcoin se opírá o malou skupinu důvěryhodných správců jádra
+  - Vývoj Bitcoin vyžaduje pro zásadní změny formální schválení vládou
+  - Vývoj Bitcoin využívá uzavřený zdrojový kód, který omezuje externí příspěvky
+explanation: |
+  Otevřený vývojový proces Bitcoin je sice jednou z jeho největších předností pro decentralizaci a transparentnost, ale zároveň vytváří zranitelnost vůči infiltraci protivníkem. Vzhledem k tomu, že se kdokoli může účastnit diskusí, navrhovat změny a zapojit se do procesu revize, aniž by potřeboval povolení nebo pověření, mohou specializovaní útočníci této otevřenosti zneužít. Mohou zdržovat pokrok nekonečnými obavami o nepodstatné záležitosti, handrkovat se o přesné formulace, opakovat již vyřešené diskuse nebo nasadit "sociální útoky Sybil" s využitím mnoha falešných identit, aby vytvořili falešný dojem odporu. Tato otevřenost ostře kontrastuje s uzavřenými vývojovými modely, které mají strážce nebo schvalovací procesy, které by mohly odfiltrovat špatné subjekty.

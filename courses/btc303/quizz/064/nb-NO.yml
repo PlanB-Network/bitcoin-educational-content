@@ -1,0 +1,8 @@
+question: Hva skjer når Bitcoin-blokkjedens ressursbruk blir for stor i forhold til tilgjengelig teknologi, ifølge Gregory Maxwells avveining mellom gjennomstrømning og desentralisering?
+answer: Bitcoin mister konkurransefortrinn sammenlignet med eldre systemer fordi validering blir for kostbart, noe som utkonkurrerer mange brukere og tvinger tilliten tilbake til systemet
+wrong_answers:
+  - Bitcoin blir sikrere fordi bare de mest dedikerte brukerne med kraftig maskinvare kan delta i valideringen, noe som skaper et sterkere nettverk
+  - Bitcoin justerer automatisk vanskelighetsalgoritmen for å redusere ressursbehovet og opprettholde samme desentraliseringsnivå på tvers av alle deltakerne
+  - Bitcoin deles opp i flere parallelle kjeder for å fordele beregningsbelastningen og samtidig opprettholde de samme sikkerhetsgarantiene for alle brukere
+explanation: |
+  Maxwell identifiserte en grunnleggende avveining der overdrevne ressurskrav presser brukerne mot pålitelige tredjeparter i stedet for uavhengig validering. Når valideringskostnadene blir uoverkommelige, har ikke brukerne råd til å kjøre fulle noder og må stole på andre, noe som undergraver Bitcoins tillitsløse natur. De gale svarene antyder feilaktig fordelaktige resultater (økt sikkerhet, automatiske justeringer eller opprettholdte garantier) når høy ressursbruk faktisk tvinger frem sentralisering og tillitsavhengighet.

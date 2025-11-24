@@ -1,0 +1,8 @@
+question: Koja je primarna posledica kada Bitcoin Core pull zahtevi traju veoma dugo pre nego što ih održavaoci spoje u repozitorijum?
+answer: To ukazuje na nedostatak dostupnih recenzenata za evaluaciju predloženih promena koda.
+wrong_answers:
+  - "To pokazuje da održavaoci namerno usporavaju proces razvoja Bitcoin"
+  - "To pokazuje da su predložene promene suštinski nekompatibilne sa Bitcoin pravilima konsenzusa"
+  - "Ovo otkriva da GitHub platforma ima tehnička ograničenja za rukovanje kodnom bazom Bitcoin"
+explanation: |
+  Prema sadržaju poglavlja, pull zahtevi dugo traju da budu spojeni prvenstveno zbog nedostatka pregleda, što proizilazi iz nedovoljnog broja recenzenata, a ne zbog opstrukcije održavaoca ili tehničkih problema. Proces pregleda je ključan za bezbednost Bitcoin, jer osigurava kvalitet koda i sprečava zlonamerne izmene. Ovo usko grlo postoji zato što pregled složenog kriptografskog koda zahteva stručnost i vreme, čineći kvalifikovane recenzente oskudnim resursom u procesu razvoja.

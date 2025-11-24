@@ -1,13 +1,11 @@
-question: Jakie jest zalecane użycie Cold w trybie offline i Wallet w trybie fizycznym?
-answer: Przechowywanie dużych ilości.
+question: Jakie jest zalecane użycie fizycznego portfela w trybie offline (zimnego portfela)?
+answer: Przechowywanie dużych ilości pieniędzy.
 wrong_answers:
-  - Przechowywanie codziennych wydatków.
-  - Przechowywanie małych ilości.
+  - Przechowywanie kwot na codzienne wydatki.
+  - Przechowywanie małych ilości pieniędzy.
   - Przechowywanie krótkoterminowych oszczędności.
 explanation: |
-  Do przechowywania dużych ilości zalecany jest fizyczny Wallet offline lub Cold
-  przechowywania dużych kwot, ponieważ jest mniej podatny na
-  zagrożenia online niż portfele Hot. Nie jest on jednak
-  do codziennych wydatków, ponieważ jest mniej
-  mniej dostępny dla codziennych transakcji.
+  Do przechowywania dużych ilości pieniędzy zalecany jest fizyczny portfel offline lub tzw. zimny portfel, ponieważ jest mniej podatny na
+  zagrożenia online niż portfele gorące. Nie jest on jednak praktyczny do używania
+  do codziennych wydatków, ponieważ jest mniej wygodny do wykonywania codziennych transakcji.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Koji je primarni razlog da povećanje veličine blokova dovodi do veće verovatnoće zastarelih blokova u Bitcoin mining?
+answer: Veći blokovi zahtevaju više vremena za propagaciju i validaciju kroz mrežu, stvarajući duže periode u kojima rudari rade na zastarelim krajevima blokčejna.
+wrong_answers:
+  - Veći blokovi zahtevaju više računarske snage za rudarenje, što uzrokuje da rudari provode više vremena tražeći validna proof-of-work rešenja.
+  - "Povećane veličine blokova smanjuju efikasnost mehanizma za prilagođavanje težine, što dovodi do nepredvidivih intervala vremena blokiranja"
+  - Veći blokovi stvaraju više sukoba transakcija između blokova koji se takmiče, što otežava određivanje koji blok treba prihvatiti.
+explanation: |
+  Tačan odgovor identifikuje osnovni mehanizam iza zastarelih blokova. Kada su blokovi veći, zahtevaju više propusnog opsega za prenos između čvorova i više vremena za validaciju. Tokom ovog produženog perioda propagacije, više rudara može pronaći konkurentske blokove na istoj visini jer još nisu primili najnoviji blok. Ovo stvara uslov trke gde samo jedan blok može biti prihvaćen, čineći ostale zastarelim. Pogrešni odgovori mešaju ovaj problem propagacije sa mining težinom, mehanizmima konsenzusa ili sukobima transakcija, što su odvojeni problemi od vremenskog problema koji uzrokuje zastarele blokove.

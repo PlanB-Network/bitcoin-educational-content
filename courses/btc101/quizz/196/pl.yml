@@ -1,11 +1,10 @@
-question: Co należy zrobić po zakupie Bitcoin na platformie Exchange?
-answer: Wypłacaj bitcoiny i wysyłaj je do swojego Wallet.
+question: Co należy zrobić po zakupie bitcoinów na platformie wymiany?
+answer: Wypłacić bitcoiny i wysłać je do swojego portfela.
 wrong_answers:
-  - Pozostaw bitcoiny na platformie.
-  - Natychmiastowa sprzedaż bitcoinów.
-  - Przenieś bitcoiny na inną platformę Exchange.
+  - Pozostawić bitcoiny na platformie.
+  - Natychmiast sprzedać bitcoiny.
+  - Przenieść bitcoiny na inną platformę wymiany.
 explanation: |
-  Tekst kursu informuje, że po zakupie Bitcoin należy natychmiast
-  należy natychmiast wycofać UTXO z platform Exchange
+  Tekst kursu informuje, że po zakupie bitcoinów należy natychmiast wycofać UTXO z platformy wymiany,
   aby zminimalizować ryzyko hakowania i blokowania funduszy.
 reviewed: true

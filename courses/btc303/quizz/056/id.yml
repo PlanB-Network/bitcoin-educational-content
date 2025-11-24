@@ -1,0 +1,8 @@
+question: Menurut Lisensi MIT di mana Bitcoin Core didistribusikan, batasan apa yang ada terkait distribusi karya turunan?
+answer: Karya turunan harus didistribusikan di bawah ketentuan yang sama dengan lisensi perangkat lunak aslinya
+wrong_answers:
+  - Karya turunan tidak dapat dijual secara komersial dan harus selalu didistribusikan secara gratis
+  - Karya turunan memerlukan izin tertulis secara eksplisit dari pengembang Bitcoin Core sebelum didistribusikan
+  - Karya turunan harus menyertakan merek asli Bitcoin Core dan tidak dapat diubah namanya atau diganti mereknya
+explanation: |
+  Lisensi MIT mengharuskan karya turunan didistribusikan di bawah persyaratan lisensi yang sama dengan perangkat lunak aslinya, memastikan sifat open source tetap terjaga. Lisensi ini tidak melarang penjualan komersial (jawaban salah 1), tidak membutuhkan izin dari pengembang (jawaban salah 2), dan tidak mewajibkan untuk mempertahankan merek asli (jawaban salah 3). Lisensi ini secara khusus menyatakan bahwa modifikasi dan karya turunan harus diizinkan di bawah persyaratan yang sama, mempertahankan model pengembangan tanpa izin yang memungkinkan inovasi seperti Lightning Network dan sidechain.

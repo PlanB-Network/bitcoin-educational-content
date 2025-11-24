@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Khía cạnh     | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Tính chất     | Dịch vụ độc đáo      | Bộ tổng hợp đa nhà cung cấp          |
+| Nhà cung cấp  | Chỉ Boltz            | Boltz, ZEUS, Eldamar, Middle Way     |
+| Cạnh tranh    | Phí cố định          | Cạnh tranh tự do                     |
+| Giao diện     | boltz.exchange       | swapmarket.github.io (tự lưu trữ)     |
+| Bảo mật       | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 **Lợi ích của SwapMarket**: Cạnh tranh về giá, đa dạng hóa các phiên bản phụ trợ, so sánh theo thời gian thực.
 

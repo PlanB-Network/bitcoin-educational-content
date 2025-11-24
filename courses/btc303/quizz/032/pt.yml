@@ -1,0 +1,8 @@
+question: Que mecanismo garante que o limite de fornecimento do Bitcoin é aplicado sem exigir confiança em qualquer autoridade central?
+answer: Nós completos executando código de verificação que rejeita automaticamente blocos com transações inválidas da coinbase
+wrong_answers:
+  - Um algoritmo de consenso distribuído que requer aprovação maioritária para quaisquer alterações de fornecimento
+  - proof-of-work criptográfico que impede matematicamente a criação de moedas em excesso
+  - Validadores de rede que votam na validade da transação através de um processo democrático
+explanation: |
+  O limite de fornecimento do Bitcoin é aplicado através de nós completos que executam o código de verificação para verificar a transação de cada bloco da coinbase em relação às regras de consenso. Mesmo que alguns nós se tornem maliciosos e aceitem blocos inválidos com recompensas excessivas, os nós honestos simplesmente os ignorarão e continuarão com a cadeia válida. Isto cria um sistema sem confiança onde não é necessário confiar em qualquer indivíduo ou autoridade - apenas é necessário executar o código que verifica se as regras estão a ser seguidas, tornando a rede coletivamente segura contra tentativas de inflação da oferta.

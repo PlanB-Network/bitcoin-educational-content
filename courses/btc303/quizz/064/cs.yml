@@ -1,0 +1,8 @@
+question: Podle kompromisu mezi propustností a decentralizací, o kterém hovořil Gregory Maxwell, co se stane, když se spotřeba zdrojů blockchainu Bitcoin stane příliš velkou vzhledem k dostupné technologii?
+answer: Bitcoin ztrácí konkurenční výhodu oproti starším systémům, protože validace se stává příliš nákladnou, což vyřazuje mnoho uživatelů a nutí je vrátit se k důvěře v systém
+wrong_answers:
+  - Bitcoin se stává bezpečnější, protože se ověřování mohou účastnit pouze ti nejoddanější uživatelé s výkonným hardwarem, čímž vzniká silnější síť
+  - Bitcoin automaticky upravuje svůj algoritmus obtížnosti tak, aby snížil nároky na zdroje a zachoval stejnou úroveň decentralizace u všech účastníků
+  - Bitcoin se rozdělí do více paralelních řetězců, aby se rozložila výpočetní zátěž při zachování stejných bezpečnostních záruk pro všechny uživatele
+explanation: |
+  Maxwell identifikoval zásadní kompromis, kdy nadměrné požadavky na zdroje tlačí uživatele k důvěryhodným třetím stranám namísto nezávislého ověřování. Když se náklady na validaci stanou neúnosnými, uživatelé si nemohou dovolit provozovat plné uzly a musí se spoléhat na jiné, což podkopává nedůvěryhodnou povahu Bitcoin. Špatné odpovědi nesprávně naznačují příznivé výsledky (zvýšená bezpečnost, automatické úpravy nebo zachované záruky), když vysoké využití zdrojů ve skutečnosti nutí k centralizaci a závislosti na důvěře.

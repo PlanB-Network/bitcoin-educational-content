@@ -278,7 +278,6 @@ Poukazuje na to, že mnoho systémů, ať už přírodních, nebo umělých, mů
 
 ![](assets/en/002.webp)
 
-*Rybí hejna nemají vůdce*
 
 
 Ať už si o Bitcoin myslíte cokoli, jeho decentralizovaná povaha ztěžuje jeho kontrolu. Bitcoin existuje a vy s tím nemůžete nic dělat. Je to něco, co je třeba studovat, ne o tom diskutovat.
@@ -372,7 +371,7 @@ Podstatou této přednášky je, že nad důvěryhodným systémem nelze vybudov
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Základna Trustless Layer umožňuje různé kompromisy na vyšších úrovních
@@ -536,7 +535,6 @@ Satoshi Nakamoto se zamýšlí nad soukromím On-Chain v části 7 své [Bitcoin
 ![](assets/en/005.webp)
 
 
-Typické úniky soukromí u modelu Blockchain
 
 
 Chris Belcher [napsal velmi podrobně](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o různých druzích úniků soukromí, ke kterým může dojít na Bitcoin Blockchain. Doporučujeme vám přečíst si alespoň několik prvních podkapitol v části "Útoky na soukromí Blockchain"
@@ -632,7 +630,7 @@ Tento příklad uvedl mimo jiné také na stránce [Privacy page](https://en.Bit
 Všimněte si, že lepšího soukromí lze dosáhnout vybudováním systémů nad systémem Bitcoin, jako je tomu v případě systému Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Vrstvy nad Bitcoin mohou zvýšit soukromí
@@ -731,7 +729,7 @@ Co se stane, když se bloková dotace blíží nule? Pro zjednodušení předpok
 Dnes jsou to držitelé, kdo platí za bezpečnost (prostřednictvím měnové inflace). Zítra budou na řadě ti, kdo utrácejí, aby toto břemeno nějakým způsobem převzali, jak je znázorněno níže.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Postupem času se náklady na zabezpečení přesunou z držitelů na plátce
@@ -1102,7 +1100,6 @@ Výše uvedené jsou příklady skutečných hrozeb, o které je třeba se posta
 ![](assets/en/009.webp)
 
 
-Výňatek z polní příručky Jednoduchá sabotáž
 
 
 Pro lepší pochopení myšlení protivníka by mohlo být užitečné nahlédnout do jeho fungování. Americký vládní orgán s názvem Office of Strategic Services, který působil během druhé světové války a mezi jeho cíle patřilo provádění špionáže, sabotáží a šíření propagandy, vypracoval pro své zaměstnance [manuál](https://www.gutenberg.org/ebooks/26184), jak správně sabotovat nepřítele. Její název zněl "Jednoduchá polní příručka sabotáže" a obsahovala konkrétní tipy, jak se infiltrovat k nepříteli, aby mu ztrpčili život Hard. Tipy sahaly od vypalování skladů až po způsobení opotřebení vrtáků s cílem snížit nepřátelské
@@ -1662,7 +1659,6 @@ Vrstevnatý protokol začíná dohodou dvou nebo více osob na počáteční tra
 
 ![](assets/en/017.webp)
 
-Typický protokol Layer 2 nad protokolem Bitcoin, Layer 1.
 
 
 Způsob vytvoření této počáteční transakce se u jednotlivých protokolů liší, ale společným tématem je, že účastníci vytvoří nepodepsanou počáteční transakci a řadu předem podepsaných trestných transakcí, které různým způsobem využívají výstup počáteční transakce. Následně je startovací transakce plně podepsána a zveřejněna na Blockchain a transakce trestu mohou být plně podepsány a zveřejněny za účelem potrestání nesprávně se chovající strany. Tím jsou účastníci motivováni k dodržování svých slibů, takže protokol může fungovat způsobem Trustless.

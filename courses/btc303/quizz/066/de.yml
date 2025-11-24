@@ -1,0 +1,8 @@
+question: Was ist im Zusammenhang mit dem validierungsfreien mining das primäre Sicherheitsrisiko, dem Miner ausgesetzt sind, wenn sie die vollständige Blockvalidierung aufschieben, um veraltete Blöcke zu vermeiden?
+answer: Sie riskieren, vorübergehend auf einer ungültigen Blockchain aufzubauen und Rechenleistung für eine Kette zu verschwenden, die schließlich abgelehnt werden wird
+wrong_answers:
+  - Sie riskieren, dass ihre eigenen Blöcke vom Netz zurückgewiesen werden, weil frühere Transaktionen nicht vollständig validiert wurden
+  - Sie riskieren, ihre mining-Belohnungen dauerhaft zu verlieren, da die Entwertung von mining als Verstoß gegen das Protokoll angesehen wird
+  - Sie riskieren Angriffe mit doppelten Ausgaben, da sie nicht überprüfen können, ob die eingehenden Transaktionen rechtmäßig sind
+explanation: |
+  Wenn Miner ohne Validierung mining verwenden, prüfen sie nur die proof-of-work im Blockkopf und beginnen sofort mit mining, während sie den gesamten Block parallel herunterladen und validieren. Das kritische Risiko besteht darin, dass sie auf einem ungültigen Block aufbauen könnten, was bedeutet, dass ihr Rechenaufwand auf einen Blockchain-Zweig verschwendet wird, der zurückgewiesen wird, sobald der ungültige Block entdeckt wird. Dies untergräbt die Netzwerksicherheit, da ein Teil der mining-Leistung nicht zur stärksten gültigen Kette beiträgt, die der grundlegende Sicherheitsmechanismus von Bitcoin ist.

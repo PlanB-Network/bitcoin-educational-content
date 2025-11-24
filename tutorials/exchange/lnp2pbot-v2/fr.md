@@ -11,7 +11,7 @@ Les échanges de pair-à-pair (P2P) sans KYC sont essentiels pour préserver la 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-L'achat et la vente de bitcoin de pair-à-pair (P2P) est l'une des méthodes les plus privées pour acquérir ou céder des bitcoins. LNP2PBot est un bot Telegram open source qui facilite les échanges P2P sur le réseau Lightning, permettant des transactions rapides, à faible coût et sans KYC.
+L'achat et la vente de bitcoin de pair-à-pair (P2P) sont l'une des méthodes les plus privées pour acquérir ou céder des bitcoins. LNP2PBot est un bot Telegram open source qui facilite les échanges P2P sur le réseau Lightning, permettant des transactions rapides, à faible coût et sans KYC.
 
 ### Pourquoi utiliser Lnp2pbot ?
 
@@ -21,7 +21,7 @@ L'achat et la vente de bitcoin de pair-à-pair (P2P) est l'une des méthodes les
 - Interface simple via Telegram, une application de messagerie populaire et accessible partout dans le monde
 - Système de réputation intégré
 - Escrow automatique pour sécuriser les échanges
-- Support multidevises
+- Support multidevise
 - Communauté active et grandissante
 
 ### Prérequis
@@ -32,7 +32,7 @@ Pour utiliser Lnp2pbot, vous aurez besoin :
 2. L'application Telegram installée (https://telegram.org/)
 3. Un compte Telegram avec un nom d'utilisateur défini
 
-## Installation et Configuration
+## Installation et configuration
 
 ### 1. Configurer votre portefeuille Lightning
 
@@ -47,7 +47,7 @@ Commencez par installer un portefeuille Lightning compatible. Voici nos recomman
   - Parfaitement compatible avec Lnp2pbot
   - Disponible sur iOS et Android
 
-Ci-dessous le lien vers le tutoriel pour ce wallet : 
+Ci-dessous le lien vers le tutoriel pour ce portefeuille : 
 
 https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -58,28 +58,28 @@ https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
   - Excellent pour les transactions quotidiennes
   - Disponible sur iOS et Android
   
-Ci-dessous le lien vers le tutoriel pour ce wallet : 
+Ci-dessous le lien vers le tutoriel pour ce portefeuille : 
 
 https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - **[Blixt](https://blixtwallet.github.io)** : 
-  - Plus technique mais très complet
+  - Plus technique, mais très complet
   - Options de configuration avancées
   - Parfait pour les utilisateurs expérimentés
   - Open source
   - Disponible sur Android
 
-Ci-dessous le lien vers le tutoriel pour ce wallet : 
+Ci-dessous le lien vers le tutoriel pour ce portefeuile : 
 
 https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Notes importantes sur d'autres portefeuilles**
 
-⚠️ **Important** : Avant de vendre des sats, assurez-vous que votre portefeuille supporte les factures "hold" (factures en attente), qui sont utilisées par le bot comme système d'escrow.
+⚠️ **Important** : Avant de vendre des sats, assurez-vous que votre portefeuille supporte les factures "hold" (factures en attente), qui sont utilisés par le bot comme système d'escrow.
 
 - **Wallet of Satoshi** : Fonctionne bien pour recevoir des sats, mais peut avoir des délais de mise à jour du solde en cas d'annulation d'une vente.
   
-- **Muun** : Non recommandé car les paiements peuvent échouer en raison des limites de frais de routage du bot (maximum 0.2%).
+- **Muun** : Non recommandé, car les paiements peuvent échouer en raison des limites de frais de routage du bot (maximum 0.2%).
   
 - **Aqua** : Fonctionne pour recevoir des sats, mais peut avoir des délais importants (jusqu'à 48h) pour la mise à jour du solde en cas d'annulation d'une vente.
 
@@ -100,7 +100,7 @@ https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 - Rejoignez le canal principal : [@p2plightning](https://t.me/p2plightning)
 - Support : [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)
 
-## Acheter et Vendre des Bitcoins
+## Acheter et vendre des Bitcoins
 
 Il existe deux méthodes principales pour échanger des bitcoins sur Lnp2pbot :
 1. Parcourir et répondre aux offres existantes dans le marketplace
@@ -110,7 +110,7 @@ Dans ce guide, nous allons voir en détail comment :
 - Acheter des bitcoins à partir d'une offre existante
 - Vendre des bitcoins en créant votre propre offre
 
-### Comment Acheter des Bitcoins
+### Comment acheter des Bitcoins
 
 **1. Trouver et sélectionner une offre**
 
@@ -122,7 +122,7 @@ Parcourez les offres dans [@p2plightning](https://t.me/p2plightning) et cliquez 
 ![Validation de l'offre](assets/fr/02.webp)
 1. Retournez sur le chat du bot
 2. Confirmez votre choix de l'offre
-3. Indiquez le montant en devise fiat que vous souhaitez acheter
+3. Indiquez le montant que vous souhaitez acheter en devise fiat
 4. Le bot vous demandera de fournir une facture Lightning (invoice) correspondant au montant en satoshis
 
 **3. Mise en relation avec le vendeur**
@@ -140,7 +140,7 @@ Cliquez sur le pseudo du vendeur pour ouvrir un canal de discussion privé où v
 ![Confirmation du paiement](assets/fr/05.webp)
 Après avoir effectué le paiement fiat, utilisez la commande `/fiatsent` dans le chat du bot. Une fois la transaction terminée, vous pourrez noter le vendeur et la transaction sera clôturée.
 
-### Comment Vendre des Bitcoins
+### Comment vendre des Bitcoins
 
 **1. Créer une offre de vente**
 
@@ -178,7 +178,7 @@ Une fois l'ordre créé, vous verrez une confirmation avec la possibilité d'ann
 ![Confirmation de la fin de l'ordre](assets/fr/10.webp)
 - Confirmez la transaction avec `/release` et terminez l'ordre. Vous aurez la possibilité de noter l'acheteur.
 
-## Bonnes Pratiques et Sécurité
+## Bonnes pratiques et sécurité
 
 ### Conseils de sécurité
 
@@ -207,6 +207,7 @@ Une fois l'ordre créé, vous verrez une confirmation avec la possibilité d'ann
 Lnp2pbot présente plusieurs avantages et inconvénients par rapport à d'autres solutions d'échange P2P comme Peach, Bisq, HodlHodl, et Robosat :
 
 ### Avantages de Lnp2pbot
+
 - **Pas de KYC requis** : Contrairement à certaines plateformes, Lnp2pbot ne nécessite pas de vérification d'identité, préservant ainsi la confidentialité des utilisateurs.
 - **Transactions rapides** : Grâce au réseau Lightning, les transactions sont presque instantanées.
 - **Faibles frais** : Les coûts de transaction sont réduits par rapport aux échanges traditionnels.
@@ -214,12 +215,13 @@ Lnp2pbot présente plusieurs avantages et inconvénients par rapport à d'autres
 - **Simplicité d'utilisation** : L'interface de Lnp2pbot est intuitive, ce qui facilite son utilisation même pour les utilisateurs moins expérimentés.
 
 ### Inconvénients de Lnp2pbot
+
 - **Dépendance à Telegram** : L'utilisation de Lnp2pbot nécessite un compte Telegram, ce qui peut ne pas convenir à tous les utilisateurs.
 - **Moins de liquidité** : Comparé à des plateformes plus établies comme Bisq, la liquidité peut être plus limitée.
 
 En comparaison, des solutions comme Bisq offrent une plus grande liquidité et une interface de bureau, mais peuvent impliquer des frais plus élevés et des temps de transaction plus longs. HodlHodl et Robosat, quant à eux, offrent également des échanges sans KYC mais avec des structures de frais et des interfaces différentes.
 
-## Ressources Utiles
+## Ressources utiles
 
 - Site officiel : https://lnp2pbot.com/
 - Documentation : https://lnp2pbot.com/learn/

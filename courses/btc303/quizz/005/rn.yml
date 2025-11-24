@@ -1,0 +1,8 @@
+question: None ugusenyura ubucukuzi bw’amabuye y’agaciro vyerekeye iki cane cane muri Bitcoin?
+answer: Urutonde rw'ibikorwa rukorwa hamwe n'umugwi w'abacukuzi b'amabuye y'agaciro aho gukorwa n'ikigo kimwe .
+wrong_answers:
+  - Kwemeza amabuye bikwiragizwa mu nzego nyinshi zizewe aho gukwiragizwa kuri server imwe nkuru
+  - Ivyo bihembo vya mining bigabanywa ku rugero rungana ku bantu bose bari mu mugwi wa Bitcoin .
+  - Ivyo bikoresho vya mining bikoreshwa n'amashirahamwe atandukanye kugira ngo ntihagire uwukoresha ibikoresho bimwe bimwe .
+explanation: |
+  Miner decentralization bisigura cane cane ko gutegeka ibikorwa bitagenzurwa n’ishirahamwe rimwe canke umugwi udahinduka, ahubwo bigenzurwa n’umugwi w’abacukuzi bashobora kwinjira canke kuvayo mu mwidegemvyo. Ivyo bitandukanye n’ugushingira intahe amabuye (bifitaniye isano n’ugusenyura full node), gutanga impembo, canke gukora ibikoresho. Uko umugwi wa mining ukora - aho umuntu wese ashobora kugira uruhara ata ruhusha - ni co gituma Bitcoin idashobora gucengera kandi kikabuza umuhari uwo ari wo wose kugenzura amafaranga yinjira mu bice.

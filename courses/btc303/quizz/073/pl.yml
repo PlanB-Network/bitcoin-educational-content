@@ -1,0 +1,8 @@
+question: Zgodnie z praktykami Bitcoin Core dotyczącymi odpowiedzialnego ujawniania informacji, kiedy szczegóły dotyczące podatności powinny zostać ujawnione publicznie po wdrożeniu poprawki?
+answer: Po wdrożeniu poprawek przez ponad 80% węzłów Bitcoin
+wrong_answers:
+  - Natychmiast po wydaniu poprawki, aby zapobiec fałszywym założeniom dotyczącym bezpieczeństwa
+  - Po tym, jak wszystkie główne altcoiny zostały powiadomione i zaktualizowały swoje implementacje
+  - Po standardowym 90-dniowym okresie embarga, niezależnie od statusu wdrożenia
+explanation: |
+  Bitcoin Core opiera się na harmonogramie ujawnień opartym na wdrożeniu, a nie na ustalonym okresie. Próg 80% zapewnia, że zdecydowana większość sieci jest chroniona, zanim atakujący dowiedzą się o luce w zabezpieczeniach z publicznego ujawnienia. Takie podejście przedkłada bezpieczeństwo sieci nad arbitralne ramy czasowe, ponieważ przedwczesne ujawnienie mogłoby narazić pozostałe 20% węzłów na ukierunkowane ataki. Pozostałe opcje reprezentują powszechne praktyki w tradycyjnym bezpieczeństwie oprogramowania, ale nie uwzględniają zdecentralizowanego charakteru Bitcoin, w którym użytkownicy muszą dobrowolnie aktualizować swoje węzły.

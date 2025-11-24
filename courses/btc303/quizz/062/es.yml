@@ -1,0 +1,8 @@
+question: Según la definición de código abierto, ¿cuál es la relación necesaria entre las obras derivadas y sus condiciones de licencia en comparación con el software original?
+answer: Las obras derivadas deben poder distribuirse con las mismas condiciones que la licencia del software original
+wrong_answers:
+  - Las obras derivadas deben distribuirse bajo condiciones de licencia más restrictivas que el software original
+  - Las obras derivadas deben publicarse bajo una licencia completamente diferente e incompatible con la original
+  - Las obras derivadas sólo pueden distribuirse bajo licencias que exijan el pago de derechos de autor
+explanation: |
+  La definición de código abierto establece explícitamente que "la licencia debe permitir modificaciones y trabajos derivados, y debe permitir que se distribuyan bajo los mismos términos que la licencia del software original" Esto garantiza que las obras derivadas mantengan las mismas libertades que el original, impidiendo que alguien tome el código fuente abierto y lo convierta en privativo. Las otras opciones violan este principio fundamental, ya sea restringiendo la libertad o cambiando la compatibilidad de las licencias.

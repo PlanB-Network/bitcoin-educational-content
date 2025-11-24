@@ -1,0 +1,8 @@
+question: Quel principe fondamental permet aux développeurs de créer des systèmes tels que Lightning Network, CoinJoin et OpenTimestamps au-dessus de Bitcoin sans demander d'autorisation ?
+answer: Le développement sans permission permet à quiconque de créer des protocoles et des applications sur le Bitcoin sans avoir à demander l'autorisation d'une autorité centrale
+wrong_answers:
+  - Les licences open source exigent que tous les travaux dérivés soient automatiquement approuvés et intégrés dans le dépôt principal Bitcoin Core
+  - La licence MIT stipule que tous les projets basés sur la Bitcoin doivent recevoir l'autorisation explicite de l'équipe de développement de la Bitcoin Core avant d'être déployés
+  - Les règles de consensus valident et autorisent automatiquement tout nouveau protocole construit sur la base du Bitcoin par le biais du processus de vérification de la blockchain
+explanation: |
+  Le développement sans permission est la bonne réponse car c'est le principe fondamental qui permet à quiconque de construire sur le Bitcoin sans demander de permission. Les mauvaises réponses sont incorrectes parce que : les licences open source ne requièrent pas d'approbation automatique ou d'intégration dans le Bitcoin Core ; la licence MIT accorde en fait de larges permissions sans exiger l'approbation des développeurs ; et les règles de consensus valident les transactions et les blocs, et non les protocoles de plus haut niveau construits au-dessus du Bitcoin.

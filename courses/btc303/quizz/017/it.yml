@@ -1,0 +1,8 @@
+question: Qual è il principale svantaggio dei sistemi finanziari affidabili che il progetto trustless di Bitcoin intende risolvere?
+answer: L'impossibilità di effettuare transazioni completamente non reversibili a causa dei requisiti di mediazione delle controversie
+wrong_answers:
+  - L'elevato consumo di energia richiesto per l'elaborazione dei pagamenti elettronici attraverso le banche
+  - Il numero limitato di transazioni che possono essere elaborate al secondo dagli istituti finanziari
+  - L'obbligo per i clienti di fornire un numero eccessivo di documenti di identificazione personale
+explanation: |
+  Secondo Satoshi Nakamoto nel whitepaper Bitcoin, i sistemi finanziari tradizionali soffrono di una debolezza fondamentale: le transazioni completamente non reversibili non sono possibili perché le istituzioni finanziarie devono mediare le controversie. Questo crea una cascata di problemi: aumento dei costi di transazione dovuti alla mediazione, eliminazione delle piccole transazioni occasionali e diffusione dei requisiti di fiducia in tutto il sistema. Le altre opzioni, pur essendo potenzialmente rilevanti per i sistemi finanziari, non rappresentano il problema principale che il progetto trustless del Bitcoin affronta in modo specifico. L'innovazione del Bitcoin consiste nel consentire il regolamento finale senza richiedere l'intervento di una terza parte fidata per annullare le transazioni.

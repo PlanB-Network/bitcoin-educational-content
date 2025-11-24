@@ -1,0 +1,8 @@
+question: Wat is volgens het besproken responsible disclosure raamwerk de belangrijkste reden voor ontwikkelaars om niet-kritieke kwetsbaarheden in Bitcoin Core niet onmiddellijk te patchen?
+answer: Om te voorkomen dat de patch zelf de aard van de kwetsbaarheid onthult voordat hij op grote schaal wordt gebruikt
+wrong_answers:
+  - Om altcoin-ontwikkelaars voldoende tijd te geven om eerst hun eigen onafhankelijke fixes te implementeren
+  - Om uitgebreide tests over verschillende mining pools mogelijk te maken voordat beveiligingsupdates worden uitgebracht
+  - Om achterwaartse compatibiliteit te behouden met oudere node-versies die geen noodpatches kunnen verwerken
+explanation: |
+  Het juiste antwoord benadrukt een cruciale paradox in beveiligingspatches: de fix zelf kan de kwetsbaarheid blootleggen. Het hoofdstuk benadrukt dat ontwikkelaars patches zorgvuldig moeten verbergen omdat het onmiddellijk publiceren ervan de kwetsbaarheid kan onthullen aan aanvallers voordat de meeste knooppunten beschermd zijn. De foute antwoorden zijn plausibel, maar geven een verkeerd beeld van de prioriteiten: kennisgeving van altcoins gebeurt na Bitcoin netwerkimplementatie, mining pooltests zijn niet de primaire zorg voor niet-kritieke problemen en achterwaartse compatibiliteit bepaalt niet de timing van beveiligingspatches.

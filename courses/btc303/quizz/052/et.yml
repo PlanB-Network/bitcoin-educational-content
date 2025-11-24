@@ -1,0 +1,8 @@
+question: Milline põhieeldus peab Eric Voskuili vastupanu aksioomi kohaselt olema vastuvõetav, et Bitcoin oleks süsteemina mõistlik?
+answer: Et süsteemil on võimalik riigi kontrollile vastu seista
+wrong_answers:
+  - Et suurem osa võrgu hashpower jääb alati ausaks
+  - Et krüptograafilisi algoritme ei saa kunagi murda kvantarvutite abil
+  - Et kasutajad eelistavad alati detsentraliseerimist mugavusele
+explanation: |
+  Vastupidavuse aksioom eeldab, et süsteemid suudavad vastu seista riiklikule kontrollile, mis on Bitcoin kui lubadeta raha eesmärgi aluseks. Ilma selle eelduseta kukub kogu Bitcoin eeldus kokku, sest seda kontrolliksid paratamatult riigid. Teised võimalused on küll olulised Bitcoin turvalisuse seisukohast, kuid ei ole osa Voskuili vastupanu aksioomist, mis käsitleb konkreetselt filosoofilist alust, et vastupanu riiklikule kontrollile on võimalik.

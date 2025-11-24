@@ -1,0 +1,8 @@
+question: Menurut bab ini, apa yang membedakan soft fork dengan hard fork dalam perubahan aturan konsensus Bitcoin?
+answer: fork lunak sepenuhnya kompatibel (kompatibel ke depan dan ke belakang) sementara fork keras hanya kompatibel ke belakang
+wrong_answers:
+  - fork lunak membutuhkan aktivasi sinyal penambang sementara fork keras menggunakan aktivasi hari bendera
+  - fork lunak mengubah opcode yang ada sementara fork keras hanya menambahkan opcode baru seperti OP_NOP1-OP_NOP10
+  - fork lunak dapat diimplementasikan secara diam-diam dalam komitmen, sementara fork keras membutuhkan pengumuman publik
+explanation: |
+  Bab ini secara jelas mendefinisikan jenis kompatibilitas: kompatibilitas maju memungkinkan perangkat lunak lama untuk memproses data baru dengan mengabaikan bagian yang tidak diketahui, sedangkan kompatibilitas mundur memungkinkan perangkat lunak baru untuk memproses data lama. fork lunak mempertahankan kedua jenis kompatibilitas, membuatnya sepenuhnya kompatibel. fork keras hanya mempertahankan kompatibilitas ke belakang, yang berarti perangkat lunak baru dapat memproses data lama tetapi perangkat lunak lama tidak dapat memproses data baru dari sistem yang diupgrade. Perbedaan ini sangat penting untuk memahami mekanisme peningkatan Bitcoin dan mengapa soft fork lebih disukai untuk menjaga keselarasan jaringan.

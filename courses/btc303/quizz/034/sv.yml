@@ -1,0 +1,8 @@
+question: Vad är det främsta skälet till att det faktiska cirkulerande utbudet av Bitcoin kommer att vara betydligt lägre än det teoretiska maximumet på cirka 21 miljoner BTC?
+answer: Förlorade privata nycklar, wallet-stöld och mynt som skickas till fel adresser tar permanent bort bitcoins från cirkulationen
+wrong_answers:
+  - Mining-svårighetsjusteringar minskar automatiskt den totala tillgången för att upprätthålla knapphet över tid
+  - Transaktionsavgifter bränns under bearbetningen, vilket gradvis minskar den tillgängliga bitcointillgången
+  - "Bitcoin-protokollet låser automatiskt mynt som inte har rört sig under längre perioder för att förhindra inflation"
+explanation: |
+  Kapitlet förklarar att även om det teoretiska maximumet är cirka 20 999 817 BTC, är den faktiska användbara tillgången mycket lägre på grund av mänskliga fel och förluster. Förlorade privata nycklar gör bitcoins permanent otillgängliga, plånböcker blir stulna eller glömda och mynt skickas ibland till ogiltiga adresser. Dessa faktorer skapar en permanent utbudsminskning som gynnar kvarvarande innehavare, eftersom Satoshi noterade att förlorade mynt gör alla andras mynt mer värda.

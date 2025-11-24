@@ -1,0 +1,8 @@
+question: Wachimbaji madini wanapounganisha kwenye madimbwi ya mining yenye kipimo data kikubwa zaidi na muunganisho ili kuepuka vizuizi vilivyochakaa wakati wa kuongezeka kwa ukubwa wa vitalu, ni nini matokeo hasi ya msingi kwa mtandao wa Bitcoin?
+answer: Inapunguza ugatuzi wa mining kwani wachimbaji wadogo wanasukumwa kuelekea kwenye madimbwi makubwa yenye miundombinu bora.
+wrong_answers:
+  - Huongeza ugumu wa kukokotoa wa utendakazi wa mining kufanya vizuizi kuwa vigumu kusuluhisha
+  - Huunda ada za ziada za ununuzi ambazo lazima zilipwe ili kudumisha muunganisho wa mtandao
+  - Hupunguza jumla ya kiwango cha hashi cha mtandao kwani wachimbaji wanatumia rasilimali kwenye muunganisho badala ya mining
+explanation: |
+  Sura hiyo inaeleza kuwa ukubwa wa vitalu unapoongezeka, nyakati za uenezi huongezeka, na hivyo kusababisha vizuizi zaidi vya stale. Ili kuepuka kupoteza zawadi za block kutoka kwa vitalu vilivyochakaa, wachimbaji hutafuta madimbwi yenye kipimo data na muunganisho bora. Hii inasukuma wachimbaji kuelekea madimbwi makubwa, yaliyounganishwa vyema, na hivyo kupunguza ugatuaji wa mining. Chaguo zingine si sahihi: ugumu hujirekebisha kiotomatiki bila kujali muunganisho wa bwawa, gharama za muunganisho hazileti ada za ziada za ununuzi, na wachimbaji hawapunguzi kasi ya hash wanapojiunga na vikundi vilivyounganishwa vyema.

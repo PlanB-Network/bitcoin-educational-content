@@ -1,0 +1,8 @@
+question: En el contexto de mining sin validación, ¿cuál es el principal riesgo de seguridad al que se enfrentan los mineros cuando posponen la validación completa de los bloques para evitar bloques obsoletos?
+answer: Se arriesgan a construir sobre una cadena de bloques inválida temporalmente, malgastando potencia de cálculo en una cadena que acabará siendo rechazada
+wrong_answers:
+  - Se arriesgan a que sus propios bloques sean rechazados por la red debido a una validación incompleta de las transacciones anteriores
+  - Se arriesgan a perder sus recompensas de mining de forma permanente porque la no validación de mining se considera una violación del protocolo
+  - Corren el riesgo de crear ataques de doble gasto porque no pueden verificar que las transacciones entrantes sean legítimas
+explanation: |
+  Cuando los mineros practican la mining sin validación, sólo comprueban la proof-of-work en la cabecera del bloque e inmediatamente comienzan la mining sobre ella mientras descargan y validan el bloque completo en paralelo. El riesgo crítico es que podrían estar construyendo sobre un bloque no válido, lo que significa que su esfuerzo computacional se desperdicia en una rama de la cadena de bloques que será rechazada una vez que se descubra el bloque no válido. Esto socava la seguridad de la red porque una parte de la potencia de mining no está contribuyendo a la cadena válida más fuerte, que es el mecanismo de seguridad fundamental de Bitcoin.

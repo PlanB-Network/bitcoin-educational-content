@@ -1,0 +1,8 @@
+question: Dushingiye ku ruhusha rwa MIT Bitcoin Core itangazwako, ni uruhe ruzitizo ruriho ku bijanye no gutangaza ibikorwa biva kuri vyo?
+answer: Ibikorwa bivako bitegerezwa gukwiragizwa hakurikijwe amategeko amwe n'uruhusha rwa porogaramu y'umwimerere
+wrong_answers:
+  - Ibikorwa biva muri ivyo ntibishobora kugurishwa mu bucuruzi kandi bitegerezwa kwama bitangazwa ku buntu .
+  - Ibikorwa bivako bisaba uruhusha rwanditse rutomoye ruva ku bategura Bitcoin Core imbere y'uko bikwiragizwa
+  - Ibikorwa bivako bitegerezwa kuba birimwo ikimenyetso c'umwimerere ca Bitcoin Core kandi ntibishobora guhindurwa izina canke guhindurwa izina .
+explanation: |
+  Uruhusha rwa MIT rusaba ko ibikorwa biva muri iyo porogarama bikwiragizwa hakurikijwe amategeko y’uruhusha nk’aya porogarama y’intango, kugira ngo kamere y’inkomoko yuguruye izigame. Ivyo ntibibuza ugurisha mu bucuruzi (inyishu mbi 1), ntibisaba uruhusha rw’abahinguzi (inyishu mbi 2), kandi ntibisaba kugumana ikimenyetso c’umwimerere (inyishu mbi 3). Uruhusha ruvuga cane cane ko uguhindura n’ibikorwa biva kuri vyo bitegerezwa kwemererwa mu buryo bumwe, hagumye uburyo bwo guteza imbere ata ruhusha bushoboza ubuhinga bushasha nka Lightning Network n’imirongo y’inyuma.

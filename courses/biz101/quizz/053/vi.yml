@@ -1,9 +1,9 @@
-question: What key payment details must be documented for each Bitcoin transaction?
-answer: The date, amount, equivalent fiat value, and associated addresses
+question: Những thông tin thanh toán quan trọng nào phải được ghi lại cho mỗi giao dịch Bitcoin?
+answer: Ngày, số tiền, giá trị pháp định tương đương và địa chỉ liên quan
 wrong_answers:
-  - The transaction ID, network fee, and merchant's address
-  - The date, exchange rate, wallet type, and geographical location
-  - The Bitcoin block number, timestamp, and script used
+  - transaction ID, phí mạng và địa chỉ của người bán
+  - Ngày, tỷ giá hối đoái, loại wallet và vị trí địa lý
+  - Số khối Bitcoin, dấu thời gian và tập lệnh được sử dụng
 explanation: |
-  Documenting these details ensures clarity and assists accountants in differentiating incoming and outgoing flows.
-reviewed: false
+  Việc ghi lại những chi tiết này đảm bảo tính rõ ràng và hỗ trợ kế toán viên phân biệt luồng tiền vào và ra.
+reviewed: true

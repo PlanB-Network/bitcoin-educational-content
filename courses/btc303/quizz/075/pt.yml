@@ -1,0 +1,8 @@
+question: De acordo com a perspetiva de Gregory Maxwell sobre a avaliação da gravidade da vulnerabilidade, que abordagem devem os programadores adotar ao avaliarem o potencial impacto dos problemas de segurança descobertos?
+answer: Tratar as vulnerabilidades como mais graves do que se sabe atualmente e assumir que podem ser facilmente exploráveis, mesmo que pareçam difíceis de explorar
+wrong_answers:
+  - Concentrar-se apenas no impacto imediato observável e categorizar as vulnerabilidades com base nos seus actuais métodos de exploração conhecidos
+  - Dar prioridade às vulnerabilidades com base na sua complexidade técnica e adiar a correção de problemas que parecem teoricamente difíceis de explorar
+  - Avaliar cada vulnerabilidade isoladamente, sem considerar como vários problemas menores podem se combinar para criar grandes riscos de segurança
+explanation: |
+  Maxwell argumenta que os desenvolvedores devem tratar as vulnerabilidades como mais graves do que parecem, porque problemas difíceis de explorar podem se tornar triviais com a técnica certa, e problemas aparentemente menores podem se transformar em ameaças sérias. Ele enfatiza que erros simples de desempenho podem ser usados como arma para dividir a rede e permitir ataques double-spending. Esta abordagem conservadora reconhece que os programadores podem não compreender inicialmente todo o potencial de exploração de uma vulnerabilidade, tornando prudente assumir o pior cenário possível em vez de subestimar a ameaça.

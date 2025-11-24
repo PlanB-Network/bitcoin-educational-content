@@ -1,0 +1,8 @@
+question: Satoshi Nakamoton näkökulman mukaan, millainen vaikutus kadonneilla bitcoineilla on jäljellä oleviin liikkeessä oleviin kolikoihin?
+answer: Ne tekevät kaikkien muiden kolikoista hieman arvokkaampia lahjoituksena kaikille
+wrong_answers:
+  - Ne heikentävät verkon turvallisuutta pienentämällä mining:n palkkioihin käytettävissä olevaa kokonaisarvoa
+  - Ne luovat deflaatiopaineita, jotka ajan mittaan horjuttavat rahajärjestelmän vakautta
+  - Ne on korvattava ylimääräisellä mining:lla aiotun hankintatason ylläpitämiseksi
+explanation: |
+  Satoshi Nakamoto selitti, että kadonneet kolikot toimivat lahjoituksena kaikille muille bitcoinin haltijoille tekemällä heidän kolikoistaan arvokkaampia tehokkaan tarjonnan vähenemisen vuoksi. Tämä on positiivinen deflatorinen vaikutus, ei epävakautta aiheuttava voima. Kadonneet kolikot eivät vaikuta mining-palkkioihin, koska ne tulevat vastapainetuista kolikoista ja transaktiomaksuista, eivät olemassa olevasta tarjonnasta. Bitcoin:n protokolla ei korvaa kadonneita kolikoita - ne jäävät pysyvästi pois kierrosta, mikä itse asiassa hyödyttää jäljellä olevia haltijoita niukkuuden lisääntymisen vuoksi.

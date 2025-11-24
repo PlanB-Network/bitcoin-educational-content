@@ -1,8 +1,8 @@
-question: jak Bitcoin rozwiązuje problem bizantyjskich generałów?
-answer: Dzięki zastosowaniu Blockchain opartego na Proof of Work ze zmiennym poziomem trudności.
+question: jak Bitcoin rozwiązuje problem generałów bizantyjskich?
+answer: Dzięki zastosowaniu łańcucha bloków opartego na dowodzie pracy ze zmiennym poziomem trudności.
 wrong_answers:
   - Dzięki wykorzystaniu podpisów cyfrowych.
-  - Poprzez wykorzystanie publicznego Ledger.
-  - Dzięki wykorzystaniu algorytmu Proof of Stake.
+  - Poprzez wykorzystanie publicznej księgi rachunkowej.
+  - Dzięki wykorzystaniu algorytmu dowód stawki.
 explanation: >-
 reviewed: true

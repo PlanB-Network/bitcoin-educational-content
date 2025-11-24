@@ -1,0 +1,8 @@
+question: Je, ni sababu gani ya msingi ambayo Shaolinfry alipendekeza utaratibu wa Mtumiaji Ulioamilishwa wa Soft Fork (UASF) wakati wa mchakato wa kuboresha Segwit?
+answer: Wachimbaji madini hawakuwa wakitoa ishara ya kuunga mkono Segwit licha ya usaidizi mwingi wa watumiaji, na hivyo kusababisha mkwamo
+wrong_answers:
+  - Utaratibu uliopo laini wa fork ulikuwa wa polepole sana na ulihitaji kalenda ya matukio ya kuwezesha haraka
+  - Uma za Hard zilizingatiwa kuwa hatari sana na mbinu mpya laini ya fork ilihitajika kwa usalama
+  - Wasanidi wa Bitcoin Core waliomba njia mbadala ya kupunguza uwajibikaji wao katika visasisho
+explanation: |
+  Kulingana na sura hiyo, msimbo wa kuwezesha Segwit ulipotolewa mnamo Oktoba 2016, kulikuwa na usaidizi mkubwa kati ya watumiaji wa Bitcoin, lakini wachimbaji hawakuonyesha kuunga mkono uboreshaji huo, ambao ulisimamisha uanzishaji bila azimio lolote. Hili lilizua hitaji la mbinu mbadala ambayo haikutegemea kuashiria kwa wachimbaji madini, na kusababisha Shaolinfry kupendekeza UASF kama suluhu ambalo lingetumia utekelezaji wa watu wengi wa kiuchumi badala ya kuwezesha kuwezesha nishati hashi.

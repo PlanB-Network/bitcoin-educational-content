@@ -1,0 +1,8 @@
+question: Según la definición del libro, ¿qué escenario representa el escalado legítimo de Bitcoin preservando la resistencia a la censura?
+answer: Implementar algoritmos de verificación de firmas más eficientes desde el punto de vista espacial que reduzcan el tamaño de los datos de entrada de las transacciones
+wrong_answers:
+  - Animar a los usuarios a migrar las transacciones a los intercambios centralizados para reducir el volumen de on-chain
+  - Aplicación del filtrado automático de transacciones para dar prioridad a determinados tipos de actividad económica
+  - Creación de nodos de validación aprobados por el gobierno que puedan procesar las transacciones de forma más eficiente
+explanation: |
+  El libro define el escalado de Bitcoin como "el aumento de la capacidad de uso de Bitcoin sin comprometer su resistencia a la censura" La verificación de firmas eficiente desde el punto de vista espacial se ajusta directamente a esta definición al hacer que las transacciones utilicen menos bytes manteniendo la descentralización. Todas las respuestas erróneas comprometen la resistencia a la censura: los intercambios centralizados introducen terceros de confianza, el filtrado de transacciones crea mecanismos de censura y los nodos aprobados por el gobierno centralizan la autoridad de validación. El verdadero escalado conserva las propiedades fundamentales de Bitcoin al tiempo que mejora la eficiencia.

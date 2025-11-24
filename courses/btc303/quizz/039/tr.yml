@@ -1,0 +1,8 @@
+question: Shaolinfry'nin Kullanıcı Tarafından Etkinleştirilen Soft Çatalları (UASF) argümanına göre, madenci tarafından etkinleştirilen yumuşak çatalların yükseltme uygulamasına ilişkin temel sorunu nedir?
+answer: hashrate'in küçük bir yüzdesi herkes için yükseltmeleri veto ederek yükseltme ataleti yaratabilir
+wrong_answers:
+  - Madenciler, çoğunluk mutabakatı yoluyla uygulamadan sonra yumuşak fork aktivasyonlarını tersine çevirebilir
+  - Madenciler aktivasyon sinyali verdiğinde ekonomik düğümler doğrulama kuralları üzerindeki kontrolü kaybeder
+  - Soft fork değişiklikleri kalıcı hale gelir ve madenciler bunları etkinleştirdikten sonra değiştirilemez
+explanation: |
+  Shaolinfry, madenci sinyallerinin doğal bir veto sistemi yarattığını ve hashrate'in küçük bir yüzdesinin bile yükseltmelerin tüm ağ için etkinleştirilmesini engelleyebileceğini tespit etmiştir. Bu 'yükseltme ataleti', mining daha merkeziyetsiz hale geldikçe daha sorunlu hale gelir ve potansiyel olarak faydalı protokol iyileştirmelerini engeller. Diğer seçenekler yumuşak çatalların nasıl çalıştığını yanlış yansıtmaktadır - madenciler aktivasyonları tek taraflı olarak tersine çeviremez, ekonomik düğümler doğrulama yetkisini elinde tutar ve yumuşak çatallar teorik olarak sonraki yükseltmelerle değiştirilebilir.

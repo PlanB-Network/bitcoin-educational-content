@@ -1,0 +1,8 @@
+question: Qu'est-ce que Gregory Maxwell considère comme un risque plus important pour le Bitcoin que les attaques à 51% ?
+answer: Les gens ne comprennent pas ou ne protègent pas les propriétés de décentralisation de Bitcoin
+wrong_answers:
+  - Les mineurs concentrent trop de puissance de calcul en un seul endroit
+  - Réglementations gouvernementales empêchant les opérations Bitcoin mining
+  - "Vulnérabilités techniques dans les algorithmes cryptographiques du Bitcoin"
+explanation: |
+  Selon le post Reddit de Gregory Maxwell cité dans le chapitre, bien que les attaques à 51% existent en théorie, le risque le plus important est que les utilisateurs du Bitcoin ne comprennent pas, ne se soucient pas ou ne protègent pas les propriétés de décentralisation qui rendent le Bitcoin précieux par rapport aux alternatives centralisées. En effet, c'est la décentralisation qui confère au Bitcoin sa résistance à la censure - son principal facteur de différenciation par rapport aux systèmes monétaires traditionnels. Si les gens ne protègent pas activement ces propriétés, le Bitcoin pourrait progressivement se centraliser jusqu'à ce que la censure devienne possible, détruisant ainsi la majeure partie de sa proposition de valeur. Les autres options, bien que potentiellement préoccupantes, ne sont pas celles que Maxwell a spécifiquement identifiées comme la plus grande menace pour le succès à long terme du Bitcoin.

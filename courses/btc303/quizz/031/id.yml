@@ -1,0 +1,8 @@
+question: Pergeseran mendasar apa yang terjadi dalam struktur biaya keamanan Bitcoin ketika subsidi blok mendekati nol?
+answer: Biaya keamanan bergeser dari yang semula dibayar oleh pemegang melalui inflasi moneter menjadi dibayar oleh pembelanja melalui biaya transaksi
+wrong_answers:
+  - Biaya keamanan bergeser dari yang sebelumnya dibayarkan oleh penambang melalui investasi perangkat keras menjadi dibayarkan oleh node melalui konsumsi listrik
+  - Biaya keamanan bergeser dari yang sebelumnya dibayarkan oleh bursa melalui biaya perdagangan menjadi dibayarkan oleh penyedia wallet melalui biaya layanan
+  - Biaya keamanan bergeser dari yang sebelumnya dibayar oleh pengembang melalui pemeliharaan kode menjadi dibayar oleh pengguna melalui partisipasi jaringan
+explanation: |
+  Bab ini dengan jelas menjelaskan bahwa saat ini, para pemegang membayar keamanan Bitcoin melalui inflasi moneter (koin baru yang dibuat melalui subsidi blok), tetapi di masa depan ketika subsidi blok mendekati nol, para pembelanja akan membayar keamanan melalui biaya transaksi. Hal ini mewakili pergeseran ekonomi yang mendasar dalam hal siapa yang menanggung biaya untuk menjaga keamanan jaringan, berpindah dari model di mana pembuatan koin baru mendanai mining ke model di mana biaya transaksi harus memberikan insentif yang cukup bagi para penambang untuk mengamankan jaringan.

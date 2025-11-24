@@ -419,7 +419,87 @@ Trois éléments nous intéressent ici pour la sauvegarde :
 
 Vous savez désormais comment protéger les sats de votre nœud Lightning face aux pertes de données. Dans le prochain chapitre, nous verrons comment sécuriser votre nœud contre les tentatives de triche.
 
+
 ## Watchtower : rôle et mise en place
+
+Sur Lightning, chaque canal repose sur une suite d’états successifs, représentés par des transactions d’engagement non publiées. À chaque paiement ou routage Lightning, les 2 participants du canal construisent un nouveau couple de transactions d’engagement qui reflète la répartition actuelle des fonds dans le canal. Les anciennes transactions d’engagement deviennent alors obsolètes.
+
+Si l’une des parties publie un état obsolète, l’autre a le droit de la sanctionner et de récupérer l’intégralité des fonds du canal. Dans ce chapitre, nous allons voir brièvement comment fonctionne ce mécanisme, puis nous expliquerons comment mettre en place une ***watchtower*** : un système permettant de protéger votre nœud Lightning contre d’éventuelles tentatives de triche.
+
+### Comprendre le fonctionnement des watchtowers
+
+À un instant donné, chaque partie du canal possède une transaction d’engagement qui lui permettrait, si elle la publiait, de fermer le canal et de récupérer sa part des fonds. C'est ce que l'on appelle une fermeture forcée. Mais si elle tentait de publier une transaction d’engagement plus ancienne, correspondant à un état antérieur du canal où elle détenait davantage de sats, alors cette transaction serait considérée comme une tentative de triche. Dans ce cas, la contrepartie peut utiliser la clé de révocation associée à cet ancien état pour récupérer l’intégralité des fonds du canal, tandis que le tricheur est temporairement bloqué par le timelock.
+
+Ce système fait que publier un ancien état, c'est-à-dire tenter de tricher, est très risqué : si l’autre partie voit passer cette transaction dans les mempools ou sur la blockchain avant l’expiration du timelock, elle peut utiliser la clé de révocation et récupérer l’intégralité des fonds. **La sécurité de votre canal Lightning repose donc sur votre capacité à détecter une tentative de triche dans la fenêtre de temps imposée par le timelock**.
+
+#### Pourquoi les watchtowers sont nécessaires ?
+
+Le mécanisme de pénalité ne fonctionne que si la partie lésée est en mesure :
+* de surveiller chaque nouveau bloc Bitcoin pour voir si une transaction d’engagement concernant le canal a été publiée ;
+* de déterminer si cette transaction correspond au dernier état valide ou à un état révoqué ;
+* en cas d’état révoqué, de diffuser à temps la transaction de justice qui utilise la clé de révocation pour récupérer l’intégralité des fonds avant l’expiration du timelock.
+
+023
+
+Dans un scénario idéal, votre nœud Lightning est en ligne 24/7, synchronisé, et surveille la blockchain en continu. Il peut alors, à lui seul, détecter une tentative de triche et réagir. Mais en pratique, un nœud Lightning personnel peut s’éteindre, notamment en cas de coupure prolongée d’électricité ou de connexion internet.
+
+C’est précisément pendant ces périodes d’indisponibilité que le risque devient réel : si un pair malhonnête publie un ancien état pendant que votre nœud est hors ligne, et que le timelock s’écoule sans réaction de votre part, la tricherie devient effective. Vous perdez alors une partie ou la totalité de vos fonds présents dans le canal.
+
+Les watchtowers ont justement été introduites pour réduire ce risque. Une watchtower est un service externe qui, à votre place, surveille la blockchain pour détecter une éventuelle publication d’un ancien état sur l’un de vos canaux, et qui diffuse automatiquement la transaction de pénalité en votre nom si nécessaire. Ainsi, même si votre nœud Lightning reste hors ligne pendant une longue période, tant que la watchtower que vous utilisez est opérationnelle, elle pourra protéger vos fonds en surveillant toute tentative de triche et en appliquant la pénalité correspondante dès qu’elle en détecte une.
+
+#### Le fonctionnement d’une watchtower
+
+Le fonctionnement d’une watchtower est conçu pour minimiser les informations qu’elle apprend sur vos canaux, tout en lui donnant les moyens d’agir en cas de problème :
+- À chaque nouvel état de canal avec un pair, votre nœud prépare à l’avance une transaction de pénalité potentielle. Cette transaction permettrait, en cas de triche de ce pair, de récupérer l’intégralité des fonds du canal ;
+- Votre nœud chiffre ensuite cette transaction de pénalité à l’aide du TXID de la transaction d’engagement correspondante (celle qui serait utilisée en cas de triche par le tricheur). Tant qu’aucune fermeture n’a lieu, la watchtower ne peut pas déchiffrer cette transaction, car elle ne connaît pas entièrement le TXID de la transaction de triche ;
+- Votre nœud envoie à la watchtower un paquet contenant la transaction de pénalité chiffrée ainsi que la moitié du TXID de la potentielle transaction de triche.
+
+Comme le TXID transmis à la watchtower est incomplet, celle-ci ne peut pas déchiffrer la transaction de justice. En revanche, elle peut surveiller la blockchain à la recherche d’un TXID qui correspond à la partie qu’elle possède. Si elle détecte une telle transaction, elle tente alors d’utiliser le TXID complet de cette transaction pour déchiffrer votre transaction de pénalité. Si le déchiffrement réussit, elle sait qu’il s’agit d’une tentative de triche et publie immédiatement, à votre place, la transaction de justice.
+
+024
+
+La watchtower n’a donc aucune visibilité sur les détails de vos canaux : ni l’identité de vos pairs, ni les soldes, ni la structure des transactions. Elle ne voit que des paquets chiffrés. La seule information qu’elle peut déduire est le rythme de mise à jour de vos canaux, puisqu’elle reçoit un paquet à chaque nouvel état, mais sans pouvoir en connaître le contenu. En cas de triche, elle découvrira certes les informations du canal en déchiffrant la transaction de pénalité, mais au moins, vos sats seront sauvés.
+
+Ce mécanisme repose ainsi sur un compromis : vous déléguez à la watchtower la capacité de publier une transaction de pénalité pré-signée, mais cette transaction reste totalement opaque pour elle tant qu’aucune triche n’a lieu. La watchtower ne peut ni modifier les destinataires, ni détourner les fonds, puisqu’elle ne possède qu’une transaction déjà signée, dont les sorties sont figées en votre faveur. Elle ne peut pas non plus connaître les détails d’un canal lors d’une fermeture forcée légitime ou d’une fermeture coopérative, car les TXID ne correspondent pas. En revanche, la watchtower reste un tiers de confiance minimal : vous devez compter sur elle pour être en ligne et pour diffuser correctement votre transaction de justice au moment où vous en avez besoin.
+
+#### Devenir une watchtower
+
+En théorie, n’importe quel nœud Lightning peut agir comme watchtower pour d’autres nœuds (s'ils utilisent la même implémentation, par exemple LND), tout en étant lui-même protégé par d’autres nœuds jouant ce rôle pour lui. Je vous montrerai dans les sections pratiques suivantes comment configurer simplement ce mécanisme sur votre LND sous Umbrel.
+
+Une stratégie intéressante pourrait donc être de vous accorder avec des amis bitcoiners de confiance pour jouer mutuellement le rôle de watchtower. Vous surveillez leurs canaux, et ils surveillent les vôtres.
+
+### Trouver une watchtower altruiste
+
+Si vous ne connaissez personne capable de vous fournir un service de watchtower dans votre entourage il existe des watchtowers publiques dites altruistes sur lesquelles vous pouvez vous connecter. Par exemple, dans ce cours LNP 202, je vous propose de vous connecter au service de watchtower proposé conjointement par LN+ et Voltage. Il s’agit d’une watchtower pour LND.
+
+Pour s'y connecter, voici les identifiants :
+
+- Via Tor :
+
+```txt
+023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@iiu4epqzm6cydqhezueenccjlyzrqeruntlzbx47mlmdgfwgtrll66qd.onion:9911
+```
+
+- Via clearnet :
+
+```txt
+023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
+```
+
+Pour les remercier de fournir ce service gratuit de watchtower, [vous pouvez leur faire un don via Lightning](https://lightningnetwork.plus/donation). 
+
+Maintenant que nous disposons d’un service de watchtower altruiste, voyons comment le configurer concrètement sur notre nœud LND sous Umbrel.
+
+### Configurer une watchtower
+
+
+
+
+
+
+
+
+
 
 
 

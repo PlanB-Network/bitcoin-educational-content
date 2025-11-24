@@ -1421,18 +1421,18 @@ Fiat currency's value is derived almost entirely from this authority premium. It
 ### Unification through monetary demand
 
 
-And why does this proposal for a monetary premium qualify as a unification of the two theories of debt money and commodity money? Well, I don't feel that the value of a gold coin necessarily comes from its "intrinsic value". No, in fact, it's as much a notion of confidence as it is for fiat money. It's a notion of monetary demand. And it's not really because it has a small percentage of industrial use, another "utility". If we say that industrial use is 10% of its value, we could value that at $300 per ounce. If gold sells on the market for $3,000 an ounce, the difference between $300 and $3,000 is the famous monetary premium. It's this monetary demand for gold that explains it. Just because fiat has zero use value doesn't mean it's any different. For me, it's exactly the same thing. So on both sides, the theory of debt money or commodity money, I don't think that the sort of extra quality that gold would have of having a minimal use value changes anything.
+The monetary premium proposal unifies debt and commodity money theories by arguing that their value is not fundamentally different. The value of a gold coin does not  primarily derive from its "intrinsic" or use value. Rather, like fiat money, its value is predominantly a function of confidence and monetary demand. For example, if gold's industrial use is 10% of its value, accounting for $300 of its $3,000 market price, the remaining $2,700 is the monetary premium. The fact that fiat has zero use value does not change this principle; the mechanism of value attribution is the same. Therefore, the minimal use value of a commodity like gold does not alter the fundamental process of monetary valuation.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, we can propose that this use creates a demand at the origin and initiates the process that becomes money.** Whereas, at the level of debt money, it's more an imposition by an authority, so the source, the initiation of emergence, and the concepts are completely different. **But I think that at the level of value, how to explain the value of money, with the monetary premium, we can just as easily explain why fiat money has the value we attribute to it and why commodity money has the value** we attribute to it. For me, it's the same process, and it's called the money premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create a demand an initial demand that initiates the process of monetization.** With debt money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **BNevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity money possess the value** we attribute to them. The underlying process is the same: the money premium.
 
 
 #### The monetary premium
 
 
-That's it. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin.
+In summary, the value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin.
 
-The monetary premium is simply based on the confidence that someone will exchange this money later for a comparable price.
+The monetary premium is simply based on the confidence that someone will exchange this currency later for a comparable price.
 
 
 ![image](./assets/fr/prime_monetaire.webp)

@@ -209,7 +209,7 @@ L'équipe d'Arkade est également active sur Telegram via le canal @arkade_os po
 **⚠️ Arkade est actuellement en version Beta publique sur le mainnet Bitcoin**. Bien que l'application soit fonctionnelle avec de vrais bitcoins, il est important de prendre certaines précautions.
 
 ### Recommandations d'utilisation
-- **Utilisez des petits montants** : Évitez de stocker des sommes importantes sur Arkade. Privilégiez ce portefeuille pour vos dépenses courantes et gardez vos économies sur un cold wallet hardware.
+- **Utilisez de petits montants** : Évitez de stocker des sommes importantes sur Arkade. Privilégiez ce portefeuille pour vos dépenses courantes et gardez vos économies sur un cold wallet hardware.
 - **Bugs et limitations possibles** : Comme toute application en développement actif, Arkade peut présenter des bugs ou des comportements inattendus. Signalez tout problème via le support intégré.
 - **Évolution rapide** : L'application et le protocole sont en constante amélioration. Certaines fonctionnalités peuvent changer ou être ajoutées dans les prochaines versions.
 

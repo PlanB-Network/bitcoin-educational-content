@@ -37,7 +37,7 @@ Le principal inconvénient réside dans le coût du scan : le destinataire doit 
 
 Si vous souhaitez approfondir le fonctionnement technique des Silent Payments, nous vous recommandons le cours BTC204 sur la confidentialité dans Bitcoin, qui comprend un chapitre dédié aux Silent Payments :
 
-https://planb.academy/courses/privacy-on-bitcoin-65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Plateformes supportées
 

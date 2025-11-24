@@ -405,7 +405,7 @@ Hapa chini, unaweza kupendeza nakala yangu ya kompyuta kibao iliyo na maandishi 
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/sw/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Pia nina kile ninachoamini kuwa kompyuta kibao ya Kisumeri iliyo na hati ndogo y
 Alama zenye tarakimu ndogo zilitumika kama sahihi wakati ambapo watu wengi hawakuweza kuandika, kwani ni waandishi wenye ujuzi pekee waliokuwa na uwezo huo.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/sw/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Chini, unaweza kuona silinda iliyotajwa hapo juu: jiwe lililochongwa na maumbo m
 Kwa hivyo, waandishi wa wakati huo walitumia kalamu yenye umbo la kabari ili kuchapisha alama kwenye vidonge vyenye unyevunyevu.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/sw/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Huko Uchina, sarafu hazihitaji kuwekewa alama rasmi au kuhakikishiwa. Kukubalika
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/sw/004.webp)
 
 
 Hapo juu ni sarafu ya Wachina kutoka Zama za Kati. Ni sarafu ya kutupwa iliyo na shimo la mraba katikati. Shimo hili lilitumiwa kuunganisha kamba, na kuruhusu sarafu kuunganishwa ili kuunda vikuku au shanga. Hata hivyo, hizi hazikuwa hasa za kuvaa; zilitumika hasa kwa madhumuni ya uhasibu. Wanaweza kuunganishwa ili kuunda vitengo vya akaunti kwa namna ya masharti makubwa, na vipande vilivyounganishwa. Hakukuwa na alama maalum, wakati mwingine zilikuwa duru za shaba.
@@ -1221,7 +1221,7 @@ Ninaona inavutia kutaja hapa kwamba huko Misri, waliendelea kupima sarafu muda m
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/sw/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Kwa kuwa hatuwezi kutenganisha mwonekano wa sarafu kutoka kwa Lidia na Waajemi, 
 Hapo chini, unaweza kuona mojawapo ya sarafu za kwanza za Lydia, ikiwa na simba na mawindo yake mbele. Unaweza kuona muhuri au shimo nyuma, ambayo wengine wanaamini ilitumiwa kujaribu usafi wa chuma na kuhakikisha kuwa haikuwa safu ya uso tu. Ingawa hii ni moja ya mifano ya mwanzo, ni muhimu kutambua kwamba kipande hiki ni nakala. Vipande vyangu vyote vya dhahabu na elektroni ni nakala au maonyesho ya kisasa, yaliyoundwa kunizuia kutumia akiba yangu yote kwenye mkusanyiko huu.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/sw/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Walipomteka Lydia mnamo 546 KK, Waajemi wa Achaemenid walipitisha uvumbuzi huu m
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/sw/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Baada ya sehemu kuhusu kuibuka kwa sarafu, nilitaka kuanzisha sehemu fupi sana j
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/sw/008.webp)
 
 
 Baadaye, kama tutakavyochunguza katika sehemu inayofuata, Wagiriki waliboresha teknolojia hii kwa kuunda sarafu za duara ambazo zilipigwa kwa nyundo pande zote mbili. Wangechukua kipande laini na tambarare cha chuma cha thamani, na kuchora mchoro unaotaka upande mmoja, na kisha kukipiga kwa nyundo kwa mkono ili kuunda sarafu iliyomalizika.
@@ -1413,7 +1413,7 @@ Baadaye, kama tutakavyochunguza katika sehemu inayofuata, Wagiriki waliboresha t
 Teknolojia ya kutengeneza sarafu za kusaga kwa mkono mmoja mmoja huenda ilichangia katika kudhibiti mfumuko wa bei wakati huo, ingawa mara nyingi sarafu hizo zilipunguzwa ili kuongeza uzalishaji. Hili lilidhihirika haswa wakati wa enzi ya Warumi na, kwa kiwango kidogo, wakati wa vita fulani katika enzi ya Wagiriki. Ingawa uchimbaji wa sarafu moja baada ya mwingine ulipunguza uwezo wa mamlaka wa kuzalisha kwa wingi, ulichangia vilivyo katika udhibiti wa mfumuko wa bei, licha ya kushuka kwa thamani kubwa kulikotokea. Kwa hivyo, mageuzi yaliendelea kutoka kwa kipande cha chuma kilichopigwa hadi sarafu ya pande zote, iliyopigwa.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/sw/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Hapa chini, unaweza kupendeza mfano wa kuvutia wa mawe makubwa kwenye kisiwa cha
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/sw/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Malipo ya pesa yanategemea tu imani kwamba mtu atabadilisha pesa hizi baadaye kw
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/sw/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Hapa chini, unaweza kuona tweet kutoka kwa Stephanie Kelton, ambaye ni aina ya m
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/sw/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Na nina bahati ya kuwa na nakala ya drakma ya Kigiriki ya kipindi hicho na bundi
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/sw/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Mkutano wa kuamua na Wagiriki wa kusini mwa Italia uliwaletea Warumi kwa sarafu 
 Kwa kweli, sarafu nyingi za Kirumi kutoka kipindi cha Jamhuri zinaonyesha hadithi za msingi. Unaweza kuona yangu hapa chini: ni sarafu nzuri sana, halisi kutoka kwa Mfalme Tatius. Inaonyesha hadithi ya utekaji nyara wa wanawake kutoka kwa Sabines. Tatius alikuwa mfalme wa eneo hili, na hadithi ya mwanzilishi inasimulia jinsi Warumi walivyoteka nyara wanawake kutoka kwa Sabines, idadi ya watu walioishi karibu. Baadaye, Mfalme Tatius akawa mfalme mwenza na Romulus, mmoja wa waanzilishi wa Roma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/sw/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Hapa, tunaweza kurejea dhana ambayo tumejadili awali kuhusu Wagiriki kuyeyusha m
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/sw/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Baada ya kuuawa kwa Kaisari mwaka wa 44 KK, Octavian (Augustus) alichukua udhibi
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/sw/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/sw/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/sw/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/sw/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Sehemu hii inaniruhusu kutambulisha kipande cha mwisho katika sehemu hii: antoni
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/sw/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/sw/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Ilikuwa kweli Aurelian ambaye aligundua aina hii ya kushuka kwa thamani, ambayo 
 Ili kuonyesha kwa uwazi kushuka kwa thamani huku kupindukia, nimepata takwimu za kuvutia za bei ya nafaka nchini Misri kutoka 40 BC hadi karne ya 3, iliyochukua zaidi ya miaka 300. Hapo chini, unaweza kuona tetradrakma ya Kigiriki kutoka kwa mkusanyiko wangu. Wakati huo, huko Misri chini ya utawala wa Warumi katika karne ya 3, sawa na tetradrakma ya Misri. Dinari ya drakma ilikuwa ingali inatumiwa, nayo ililingana na dinari moja.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/sw/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/sw/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Kama vizalia vya kwanza vinavyohusiana na kipindi hiki, wacha nikuonyeshe nakala
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/sw/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Ili kufanya kiungo na Templars, hapa chini unaweza kuona sarafu ya Kifaransa ya 
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/sw/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Hapa chini unaweza kuona nakala ya Florin: Florin ya dhahabu iliyotengenezwa kwa
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/sw/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Kurudi huku kwa sarafu za dhahabu kulitokana na muktadha maalum: kuanguka kwa so
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/sw/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/sw/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Ilikuwa pia katika kipindi hiki ambapo Ulaya ilifahamu kuwepo kwa pesa za karata
 Tunarejelea mbinu ya kupiga pendulum iliyotajwa hapo awali katika kozi. Njia hii iliwezesha utengenezaji wa sarafu zaidi sare ikilinganishwa na kugonga kwa nyundo na, muhimu zaidi, iliruhusu maandishi kuzunguka ukingo wa sarafu, kama nilivyoonyesha hapo awali. Yule hapa chini ni thaler wa Ulaya kutoka 1793, ambayo inaonyesha wazi kuandika kwenye pindo.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/sw/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Katika kukabiliana na mahitaji ya Ulaya ya dhahabu na fedha, "motisha ya mara kw
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/sw/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Kwa ushindi wa Ulimwengu Mpya, **Hispania** ikawa mchezaji mkuu. Mfalme wake, al
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/sw/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Kihispania halisi, pia inajulikana kama "kipande cha nane", ilipata jina lake la
 Kinachovutia zaidi ni kwamba dola ya Uhispania ilitumika kama sarafu ya akiba ya kimataifa wakati huo. Mamlaka ya Uhispania pia ilitoa pesa zao za ndani, maravedi, na kurekebisha mara kwa mara ugavi wa pesa kupitia kurejesha. Kwa mfano, sarafu ya shaba au shaba ambayo mwanzoni ilikuwa na thamani ya maravedi moja inaweza kukumbukwa na kugongwa muhuri wa "2," kisha baadaye na "4," na kadhalika, ikiwezekana kufikia "8." Katika picha ya azimio la juu, unaweza kuona wazi "8" iliyopigwa kwenye sarafu. Njia hii ilipanua ugavi wa fedha kwa ufanisi... ambayo bila shaka ilisababisha mfumuko wa bei.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/sw/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Baada ya apogee ya Iberia, **Uholanzi** iliibuka kama nguvu mpya ya kibiashara k
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/sw/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/sw/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Sheria zenye vikwazo zaidi zilitaka kulazimisha mgawo huo, lakini bila mafanikio
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/sw/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Pesa hizi za karatasi zilipochukua nafasi ya sarafu zote za ubora wa madini ya t
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/sw/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Mfalme alikuwa sarafu ya pesa - sarafu ya dhahabu ambayo hapo awali ilikuwa na t
 Iliyotangulia mfalme maarufu ilikuwa Guinea, ambayo ilifanya kazi kwa kanuni hiyo hiyo. Guinea ilipewa jina la madini ya thamani iliyomo, kutoka eneo la Guinea.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/sw/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/sw/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerp iliandaa maonyesho ya wafanyabiashara ambapo wafanyabiashara walikusanyi
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/sw/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Kisha hofu ya 1776 ikaja. Kila mtu alikimbilia juu ya piramidi ya pesa. Nini maa
 Tulihama kutoka florin hadi kuanzishwa kwa Benki ya Uingereza. Kwa kweli, kulikuwa na Vita vya Kidunia vya Kwanza na vya Pili katika muda huo, lakini mapema, mnamo 1796, maendeleo pia yalikuwa yakitokea upande wa pili wa Atlantiki. Mnamo 1776, Amerika ilikuwa bado koloni ya Uingereza, na makoloni yalitumia sarafu hii ya karatasi. Ifuatayo ni bili ya Connecticut ya shilingi mbili kutoka 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/sw/040.webp)
 
 
 Kabla ya kutangaza vita dhidi ya Uingereza na hatimaye kutoa sarafu yao wenyewe, makoloni yalitumia sarafu hii ya karatasi, pamoja na dola ya Uhispania kwa shughuli za pesa. Kwa kweli, neno "dola" lilibaki kuashiria dola ya Amerika.
@@ -3767,7 +3767,7 @@ Kabla ya kutangaza vita dhidi ya Uingereza na hatimaye kutoa sarafu yao wenyewe,
 Ikiwa sijakosea, mnamo 1792 walipitisha sheria iliyowaruhusu kupata pesa. Kwa mfano, hapa chini ni dola ya Kimarekani ya zama za kisasa.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/sw/041.webp)
 
 
 Naam, ni wazi, haina thamani ya uso ya dola moja tu; ina thamani ya takriban dola 30 au 40, kwani inawakilisha wakia moja ya fedha. Thamani yake hubadilika kulingana na bei ya fedha, kwa kawaida huiweka angalau dola 30 au 40 za Marekani. Leo, bila shaka, dola ya karatasi inabakia tu thamani yake ya uso ya dola moja, lakini wakati huo, dola ya Marekani ilikuwa na mizizi katika thamani hii ya fedha.
@@ -3777,7 +3777,7 @@ Wacha tuzungumze juu ya Vita vya wenyewe kwa wenyewe huko Amerika sasa. Washirik
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/sw/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Wapinzani wao wa kaskazini pia walikuwa na dola. Hapo juu tu, unaweza kuona dola
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/sw/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Baada ya Vita vya Kwanza vya Kidunia, safu ya mwisho ya noti zilizochapishwa kil
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/sw/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Hapa chini unaweza kuona cheti cha dhahabu kutoka 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/sw/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Baada ya kutolewa kwa Agizo la Mtendaji 6102, walikamata dhahabu yote na kubadil
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/sw/046.webp)
 
 
 Wazo la zabuni halali linajitokeza hapa, na kuchukua nafasi ya kifungu "kinachoweza kukombolewa kwa dhahabu." Miswada hiyo miwili inaweza kuonekana kufanana, huku maneno machache tu yakibadilika, lakini kashfa hiyo iko katika ukweli kwamba dola ilishushwa thamani katika kipindi hiki; ilipungua kutoka wakia moja ya dhahabu kuwa yenye thamani ya $20.67 hadi $35 kwa wakia mwaka 1934. Iliwakilisha kushuka kwa thamani kwa takriban 40%!
@@ -3903,7 +3903,7 @@ Kwa mfumo huu, Sheria iliunganisha pesa za karatasi na hisa za kampuni yake. Kad
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/sw/047.webp)
 
 
 

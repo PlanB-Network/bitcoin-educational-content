@@ -405,7 +405,7 @@ Di bawah ini, Anda dapat mengagumi salinan tablet dengan tulisan paku. Untuk men
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/id/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Saya juga memiliki apa yang saya yakini sebagai tablet Sumeria asli dengan tulis
 Tanda dengan angka-angka kecil berfungsi sebagai tanda tangan pada masa ketika kebanyakan orang tidak bisa menulis, karena hanya juru tulis terampil yang memiliki kemampuan itu.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/id/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Di bawah ini, Anda dapat melihat silinder yang disebutkan di atas: batu yang diu
 Oleh karena itu, para juru tulis pada waktu itu menggunakan stylus berbentuk baji untuk mencetak tanda pada tablet basah.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/id/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Di Tiongkok, koin tidak perlu ditandai atau dijamin secara resmi. Penerimaannya 
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/id/004.webp)
 
 
 Koin di atas adalah koin Cina dari Abad Pertengahan. Koin ini adalah koin cor yang memiliki lubang persegi di tengahnya. Lubang ini digunakan untuk memasukkan tali, sehingga koin-koin tersebut dapat dirangkai menjadi gelang atau kalung. Namun, ini bukan untuk dipakai; koin-koin ini terutama digunakan untuk tujuan akuntansi. Koin-koin tersebut dapat dirangkai bersama untuk membentuk unit-unit akun dalam bentuk untaian besar, dengan potongan-potongan yang saling bertautan. Tidak selalu ada tanda khusus, terkadang hanya berupa lingkaran perunggu.
@@ -1221,7 +1221,7 @@ Menarik untuk disebutkan di sini bahwa di Mesir, mereka terus menimbang koin lam
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/id/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Karena kita tidak bisa memisahkan kemunculan koin dari Lydia dan Persia, mari ki
 Di bawah ini, Anda bisa melihat salah satu koin Lydia paling awal, yang menampilkan seekor singa dengan mangsanya di depan. Anda mungkin melihat cap atau lubang di bagian belakang, yang menurut beberapa orang digunakan untuk menguji kemurnian logam dan memastikan bahwa itu bukan hanya lapisan permukaan. Meskipun ini adalah salah satu contoh paling awal, penting untuk dicatat bahwa karya ini adalah salinan. Semua karya emas dan elektrik saya adalah replika atau kreasi modern, yang dirancang untuk mencegah saya menghabiskan semua tabungan saya untuk koleksi ini.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/id/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Ketika mereka menaklukkan Lydia pada tahun 546 SM, Persia Achaemenid segera meng
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/id/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Setelah bagian tentang kemunculan koin, saya ingin memperkenalkan bagian yang sa
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/id/008.webp)
 
 
 Kemudian, seperti yang akan kita bahas di bagian selanjutnya, orang Yunani menyempurnakan teknologi ini dengan menciptakan koin bundar yang dipalu di kedua sisinya. Mereka akan mengambil sepotong logam mulia yang halus dan rata, mengukir desain yang diinginkan di satu sisi, lalu memaluinya dengan tangan untuk membuat koin jadi.
@@ -1413,7 +1413,7 @@ Kemudian, seperti yang akan kita bahas di bagian selanjutnya, orang Yunani menye
 Teknologi pencetakan koin dengan tangan secara individual kemungkinan besar berperan dalam mengendalikan inflasi pada masa itu, meskipun koin-koin tersebut sering kali diencerkan untuk meningkatkan produksi. Hal ini terutama terlihat pada masa Romawi dan, pada tingkat yang lebih rendah, selama perang tertentu pada masa Yunani. Meskipun mencetak koin satu per satu membatasi kapasitas otoritas untuk produksi massal, hal ini secara efektif berkontribusi pada pengendalian inflasi, terlepas dari devaluasi signifikan yang terjadi. Dengan demikian, evolusi berkembang dari gumpalan logam yang dilubangi menjadi koin bulat yang dipalu.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/id/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Di bawah ini, Anda dapat mengagumi contoh mencolok dari batu-batu monumental di 
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/id/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Premi moneter hanya didasarkan pada keyakinan bahwa seseorang akan menukarkan ua
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/id/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Di bawah ini, Anda dapat melihat tweet dari Stephanie Kelton, yang merupakan sem
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/id/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Dan saya cukup beruntung untuk memiliki salinan drachma Yunani dari periode itu 
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/id/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Pertemuan yang menentukan dengan orang-orang Yunani di Italia selatan benar-bena
 Faktanya, banyak koin Romawi dari periode Republik yang menggambarkan mitos-mitos pendirinya. Anda bisa melihat milik saya di bawah ini: ini adalah koin asli yang luar biasa dari Raja Tatius. Koin ini menggambarkan mitos penculikan wanita dari suku Sabine. Tatius adalah raja di wilayah ini, dan mitos pendirinya menceritakan bagaimana bangsa Romawi menculik para wanita dari bangsa Sabin, sebuah populasi yang tinggal di dekatnya. Selanjutnya, Raja Tatius menjadi raja bersama dengan Romulus, salah satu pendiri Roma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/id/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Di sini, kita bisa melihat kembali konsep yang telah kita bahas sebelumnya menge
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/id/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Setelah pembunuhan Caesar pada tahun 44 SM, Octavianus (Augustus) mengambil alih
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/id/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/id/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/id/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/id/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Pada bagian ini, saya akan memperkenalkan bagian terakhir dari bagian ini: Anton
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/id/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/id/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Aurelian-lah yang menemukan bentuk devaluasi ini, yang jauh lebih cepat daripada
 Untuk mengilustrasikan secara visual devaluasi yang ekstrem ini, saya telah menemukan beberapa statistik menarik tentang harga biji-bijian di Mesir dari tahun 40 SM hingga abad ke-3, yang mencakup lebih dari 300 tahun. Di bawah ini, Anda bisa melihat tetradrachma Yunani dari koleksi saya. Pada saat itu, di Mesir di bawah pendudukan Romawi pada abad ke-3, padanannya adalah tetradrachma Mesir. Denominasi drachma masih digunakan, dan setara dengan satu dinar.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/id/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/id/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Sebagai artefak pertama yang terkait dengan periode ini, izinkan saya menunjukka
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/id/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Untuk membuat hubungan dengan Templar, di bawah ini Anda dapat mengamati koin ab
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/id/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Di bawah ini Anda dapat melihat reproduksi Florin: Florin emas yang terbuat dari
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/id/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Kembalinya mata uang emas ini didorong oleh konteks tertentu: runtuhnya kekaisar
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/id/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/id/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Pada periode ini pula, Eropa mulai mengetahui keberadaan uang kertas di Tiongkok
 Kami mengacu pada teknik pemukulan pendulum yang disebutkan sebelumnya dalam kursus ini. Metode ini memungkinkan produksi koin yang lebih seragam dibandingkan dengan pemukulan palu dan, yang terpenting, memungkinkan adanya tulisan di sekitar tepi koin, seperti yang telah saya tunjukkan sebelumnya. Koin di bawah ini adalah thaler Eropa dari tahun 1793, yang dengan jelas menunjukkan tulisan di pinggirannya.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/id/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Menanggapi permintaan Eropa akan emas dan perak, "motivasi konstan untuk penemua
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/id/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Dengan penaklukan Dunia Baru, **Spanyol** menjadi pemain dominan. Rajanya, yang 
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/id/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Real Spanyol, yang juga dikenal sebagai "sepotong delapan", mendapatkan julukann
 Yang sangat menarik adalah bahwa dolar Spanyol berfungsi sebagai mata uang cadangan internasional pada saat itu. Otoritas Spanyol juga menerbitkan mata uang lokal mereka sendiri, maravedi, dan secara teratur menyesuaikan jumlah uang beredar melalui penarikan. Sebagai contoh, koin tembaga atau perunggu yang awalnya bernilai satu maravedi mungkin akan ditarik kembali dan dicap dengan "2", kemudian dengan "4", dan seterusnya, sehingga berpotensi mencapai "8" Dalam foto resolusi tinggi, Anda bisa melihat dengan jelas angka "8" yang tertera pada koin. Metode ini secara efektif memperluas jumlah uang beredar... yang pasti menyebabkan inflasi.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/id/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Setelah puncak kejayaan Iberia, **Belanda** muncul sebagai kekuatan komersial ba
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/id/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/id/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Undang-undang yang lebih ketat berusaha untuk memaksakan penetapan tersebut, nam
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/id/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Ketika uang kertas ini menggantikan semua koin logam mulia berkualitas tinggi, s
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/id/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Sovereign adalah koin moneter - koin emas yang awalnya bernilai satu pound.
 Sebelum sovereign yang terkenal itu adalah guinea, yang beroperasi dengan prinsip yang sama. Guinea dinamai sesuai dengan logam mulia yang dikandungnya, yang bersumber dari wilayah Guinea.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/id/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/id/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerpen menjadi tuan rumah pameran dagang di mana para pedagang sering berkump
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/id/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Kemudian terjadilah kepanikan pada tahun 1776. Semua orang bergegas menaiki pira
 Kami beralih dari florin ke pendirian Bank of England. Tentu saja, ada Perang Dunia Pertama dan Kedua di masa transisi, tetapi sebelumnya, pada tahun 1796, perkembangan juga terjadi di sisi lain Atlantik. Pada tahun 1776, Amerika masih merupakan koloni Inggris, dan koloni-koloni tersebut menggunakan mata uang kertas ini. Di bawah ini adalah uang kertas Connecticut dua shilling dari tahun 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/id/040.webp)
 
 
 Sebelum menyatakan perang terhadap Inggris dan akhirnya menerbitkan mata uang mereka sendiri, koloni-koloni tersebut menggunakan mata uang kertas ini, di samping dolar Spanyol untuk transaksi tunai. Bahkan, istilah "dolar" tetap digunakan untuk menunjukkan dolar Amerika.
@@ -3767,7 +3767,7 @@ Sebelum menyatakan perang terhadap Inggris dan akhirnya menerbitkan mata uang me
 Jika tidak salah, pada tahun 1792 mereka mengesahkan undang-undang yang mengizinkan mereka membuat uang koin. Sebagai contoh, gambar di bawah ini adalah dolar Amerika di era modern.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/id/041.webp)
 
 
 Tentu saja, nilai nominalnya tidak hanya satu dolar; nilainya sekitar 30 atau 40 dolar, karena mewakili satu ons perak. Nilainya berfluktuasi berdasarkan harga perak, biasanya berada di kisaran 30 atau 40 dolar AS. Saat ini, tentu saja, dolar kertas hanya memiliki nilai nominal satu dolar, tetapi pada saat itu, dolar AS berakar pada nilai perak ini.
@@ -3777,7 +3777,7 @@ Mari kita bahas tentang Perang Saudara di Amerika sekarang. Pihak Konfederasi me
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/id/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Lawan mereka di utara juga memiliki dolar. Tepat di atas, Anda dapat melihat dol
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/id/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Setelah Perang Dunia Pertama, seri terakhir uang kertas yang dicetak selalu meny
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/id/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Di bawah ini Anda dapat melihat sertifikat emas dari tahun 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/id/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Setelah dikeluarkannya Perintah Eksekutif 6102, mereka menyita semua emas dan me
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/id/046.webp)
 
 
 Konsep alat pembayaran yang sah muncul di sini, menggantikan frasa "dapat ditukarkan dengan emas." Kedua uang kertas ini mungkin terlihat identik, dengan hanya beberapa kata yang berubah, tetapi penipuannya terletak pada fakta bahwa dolar didevaluasi selama periode ini; turun dari satu ons emas dihargai $20,67 menjadi $35 per ons pada tahun 1934. Ini mewakili devaluasi sekitar 40%!
@@ -3903,7 +3903,7 @@ Dengan sistem ini, Law mengaitkan uang kertas dengan saham perusahaannya. Semaki
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/id/047.webp)
 
 
 

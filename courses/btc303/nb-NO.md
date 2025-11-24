@@ -278,7 +278,6 @@ Hun påpeker at mange systemer, både naturlige og kunstige, kan fungere og fung
 
 ![](assets/en/002.webp)
 
-*Fiskestimer har ingen ledere*
 
 
 Uansett hva du mener om Bitcoin, er det vanskelig å kontrollere den desentraliserte naturen. Bitcoin eksisterer, og det er ingenting du kan gjøre med det. Det er noe som bør studeres, ikke debatteres.
@@ -372,7 +371,7 @@ Essensen i foredraget er at du ikke kan bygge Trustless-systemer på toppen av e
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 En Trustless-base Layer gir mulighet for ulike avveininger på høyere nivåer
@@ -536,7 +535,6 @@ Artikkelen oppsummerer hovedproblemene med Blockchain personvern, nemlig Address
 ![](assets/en/005.webp)
 
 
-Typiske personvernlekkasjer på Blockchain
 
 
 Chris Belcher [skrev svært detaljert](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) om de forskjellige typene personvernlekkasjer som kan skje på Bitcoin Blockchain. Vi anbefaler at du i det minste leser de første avsnittene under "Blockchain-angrep på personvernet"
@@ -632,7 +630,7 @@ Han nevnte også dette eksemplet, blant andre, på [Privacy page](https://en.Bit
 Legg merke til hvordan bedre personvern kan oppnås ved å bygge systemer på toppen av Bitcoin, slik tilfellet er med Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Lag på toppen av Bitcoin kan gi økt personvern
@@ -731,7 +729,7 @@ Hva skjer når blokktilskuddet nærmer seg null? For å gjøre det enkelt, la os
 I dag er det eierne som betaler for sikkerheten (via pengeinflasjonen). I morgen er det de som bruker penger, som illustrert nedenfor, som på en eller annen måte må bære denne byrden.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Etter hvert som tiden går, vil sikkerhetskostnadene flyttes fra eierne til de som bruker pengene
@@ -1102,7 +1100,6 @@ Ovennevnte er eksempler på reelle trusler som må tas hånd om.
 ![](assets/en/009.webp)
 
 
-Utdrag fra håndboken Simple Sabotage Field Manual
 
 
 For å bedre forstå hvordan motstanderen tenker, kan det være nyttig å få et innblikk i hvordan de opererer. Et amerikansk regjeringsorgan ved navn Office of Strategic Services, som opererte under andre verdenskrig og blant annet hadde som formål å drive spionasje, utføre sabotasje og spre propaganda, produserte en [manual](https://www.gutenberg.org/ebooks/26184) for sine ansatte om hvordan de skulle sabotere fienden på riktig måte. Tittelen var "Simple Sabotage Field Manual" og inneholdt konkrete tips om hvordan man kunne infiltrere fienden for å gjøre livet deres Hard. Tipsene spenner fra å brenne ned lagerbygninger til å forårsake slitasje på øvelser for å redusere fiendens
@@ -1662,7 +1659,6 @@ En lagdelt protokoll begynner med at to eller flere personer blir enige om en st
 
 ![](assets/en/017.webp)
 
-En typisk Layer 2-protokoll på toppen av Bitcoin, Layer 1.
 
 
 Hvordan denne starttransaksjonen opprettes, varierer fra protokoll til protokoll, men et felles tema er at deltakerne oppretter en usignert starttransaksjon og et antall forhåndssignerte straffetransaksjoner, som bruker utdataene fra starttransaksjonen på ulike måter. Deretter signeres starttransaksjonen fullt ut og publiseres til Blockchain, og straffetransaksjonene kan signeres fullt ut og publiseres for å straffe en part som oppfører seg dårlig. Dette gir deltakerne insentiver til å holde løftene sine, slik at protokollen kan fungere på en Trustless måte.

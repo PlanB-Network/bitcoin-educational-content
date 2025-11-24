@@ -405,7 +405,7 @@ objectives:
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/zh-Hans/001.webp)
 
 
 
@@ -416,7 +416,7 @@ objectives:
 在大多数人都不会写字的时代，只有熟练的抄写员才有能力书写，所以这些小数字的标记就成了签名。
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/zh-Hans/002.webp)
 
 
 
@@ -426,7 +426,7 @@ objectives:
 因此，当时的抄写员使用楔形触笔在湿石板上打印符号。
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/zh-Hans/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ objectives:
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/zh-Hans/004.webp)
 
 
 上图是一枚中世纪的中国硬币。这是一枚铸币，中间有一个方孔。这个孔是用来穿绳子的，这样就可以把钱币串起来做成手链或项链。不过，这些硬币主要不是用来佩戴的，而是用于记账。这些钱币可以串在一起，形成大串的记账单位，钱币之间环环相扣。它们不一定有特定的标记，有时只是简单的青铜圆圈。
@@ -1221,7 +1221,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/zh-Hans/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ objectives:
 下图是最早的吕底亚钱币之一，正面是一头狮子和它的猎物。您可能会注意到背面有一个印章或孔，有人认为这是用来测试金属纯度的，以确保它不只是表面层。虽然这是最早的例子之一，但必须注意的是，这件作品是仿制品。我的所有黄金和铂金作品都是复制品或现代复制品，目的是防止我把所有积蓄都花在这个收藏上。
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/zh-Hans/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/zh-Hans/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/zh-Hans/008.webp)
 
 
 后来，正如我们将在后面的章节中探讨的那样，希腊人改进了这一技术，创造出了双面锤击的圆形硬币。他们用一块光滑、平整的贵金属，在一面刻上所需的图案，然后用手锤打成硬币成品。
@@ -1413,7 +1413,7 @@ objectives:
 在那个时期，手工单独铸造钱币的技术很可能在控制通货膨胀方面发挥了作用，尽管为了提高产量，钱币经常被稀释。这种情况在罗马时期尤为明显，在希腊时期的某些战争中也有一定程度的体现。虽然一次一枚的铸币限制了当局大规模生产的能力，但它有效地促进了通货膨胀的控制，尽管出现了大幅贬值。因此，钱币从打孔的一团金属演变成了圆形的锤打钱币。
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/zh-Hans/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ objectives:
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/zh-Hans/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ objectives:
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/zh-Hans/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ objectives:
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/zh-Hans/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ objectives:
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/zh-Hans/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ objectives:
 事实上，共和国时期的许多罗马硬币都描绘了开国神话。您可以在下面看到我的硬币：这是一枚来自塔提乌斯国王的极品真币。它描绘的是萨宾人诱拐妇女的神话。塔提乌斯是这一地区的国王，开国神话讲述的是罗马人如何从居住在附近的萨宾人（Sabines）那里诱拐妇女。后来，塔提乌斯国王与罗马的创始人之一罗穆卢斯共同成为国王。
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/zh-Hans/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ objectives:
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/zh-Hans/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ objectives:
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/zh-Hans/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/zh-Hans/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/zh-Hans/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/zh-Hans/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ objectives:
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/zh-Hans/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/zh-Hans/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ objectives:
 为了直观地说明这种极端贬值，我找到了一些关于公元前 40 年到公元 3 世纪，跨越 300 多年的埃及谷物价格的精彩统计数据。下图是我收藏的一枚希腊四分金币。当时，在 3 世纪罗马占领下的埃及，等价物是埃及的四德拉克马。当时仍在使用德拉克马的面额，它相当于一个第纳尔。
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/zh-Hans/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/zh-Hans/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ objectives:
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/zh-Hans/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ objectives:
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/zh-Hans/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ objectives:
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/zh-Hans/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ objectives:
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/zh-Hans/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/zh-Hans/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ objectives:
 我们指的是课程前面提到的钟摆击打技术。与锤击法相比，这种方法能制造出更均匀的钱币，更重要的是，正如我之前演示的那样，这种方法允许在钱币边缘刻字。下图是一枚 1793 年的欧洲塔勒，边缘上清晰地显示着文字。
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/zh-Hans/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ objectives:
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/zh-Hans/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ objectives:
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/zh-Hans/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ objectives:
 特别有趣的是，西班牙元当时是国际储备货币。西班牙当局还发行了自己的当地货币马拉维迪，并通过回收定期调整货币供应量。例如，一枚最初价值 1 马拉维第的铜币或铜币可能会被回收并盖上 "2 "的印章，然后再盖上 "4 "的印章，以此类推，有可能达到 "8 "的印章。在高分辨率照片中，您可以清楚地看到硬币上印有 "8"。这种方法有效地扩大了货币供应量......这不可避免地导致了通货膨胀。
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/zh-Hans/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ objectives:
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/zh-Hans/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/zh-Hans/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ objectives:
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/zh-Hans/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ objectives:
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/zh-Hans/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ objectives:
 在著名的主权货币之前是基尼币，其运作原理与主权货币相同。基尼因含有几内亚地区的贵金属而得名。
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/zh-Hans/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/zh-Hans/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ objectives:
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/zh-Hans/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ objectives:
 我们从弗罗林过渡到英格兰银行的建立。当然，在此期间发生了第一次和第二次世界大战，但在更早的1796年，大西洋的另一端也发生了变化。1776 年，美国还是英国的殖民地，殖民地使用这种纸币。下面是一张 1776 年康涅狄格州的两先令纸币。
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/zh-Hans/040.webp)
 
 
 在向英国宣战并最终发行自己的货币之前，殖民地使用这种纸币和西班牙的美元进行现金交易。事实上，"美元 "一词一直用来表示美钞。
@@ -3767,7 +3767,7 @@ objectives:
 如果我没记错的话，1792 年他们通过了一项法律，允许他们铸造货币。举例来说，下面这张就是现代的美钞。
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/zh-Hans/041.webp)
 
 
 很明显，它的面值并不只有一美元；它的价值约为 30 或 40 美元，因为它代表了一盎司白银。它的价值随银价波动，通常至少在 30 或 40 美元左右。当然，今天的纸币只保留了一美元的面值，但在当时，美元是以这种白银价值为基础的。
@@ -3777,7 +3777,7 @@ objectives:
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/zh-Hans/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ objectives:
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/zh-Hans/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ objectives:
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/zh-Hans/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ objectives:
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/zh-Hans/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ objectives:
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/zh-Hans/046.webp)
 
 
 这里出现了法定货币的概念，取代了 "可兑换黄金 "的说法。这两张纸币看起来完全相同，只有几个字发生了变化，但其中的骗局在于美元在这一时期贬值了；美元从每盎司黄金 20.67 美元贬值到 1934 年的每盎司 35 美元。这意味着贬值了约 40%！
@@ -3903,7 +3903,7 @@ https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcc
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/zh-Hans/047.webp)
 
 
 

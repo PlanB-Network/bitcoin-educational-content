@@ -405,7 +405,7 @@ Hieronder kun je mijn kopie van een tablet met spijkerschrift bewonderen. Om op 
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/nl/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Ik heb ook een volgens mij echt Soemerisch tablet met een klein spijkerschrift i
 De tekens met kleine cijfers dienden als handtekeningen in een tijd waarin de meeste mensen niet konden schrijven, omdat alleen vaardige schriftgeleerden die vaardigheid hadden.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/nl/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Hieronder zie je de cilinder die hierboven is genoemd: een steen met specifieke 
 Schriftgeleerden uit die tijd gebruikten daarom hun wigvormige stylus om tekens op natte tabletten af te drukken.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/nl/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ In China hoefden munten niet per se officieel gemerkt of gegarandeerd te zijn. D
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/nl/004.webp)
 
 
 De munt hierboven is een Chinese munt uit de Middeleeuwen. Het is een gegoten munt met een vierkant gat in het midden. Door dit gat kon een touw worden geregen, waardoor de munten aan elkaar konden worden geregen tot armbanden of kettingen. Deze waren echter niet in de eerste plaats bedoeld om te dragen; ze werden vooral gebruikt voor boekhoudkundige doeleinden. Ze konden aan elkaar worden geregen tot rekeneenheden in de vorm van grote koorden, waarbij de stukken in elkaar pasten. Er waren niet per se specifieke tekens, soms waren het gewoon bronzen cirkels.
@@ -1221,7 +1221,7 @@ Ik vind het interessant om hier te vermelden dat ze in Egypte nog lang na de kom
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/nl/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Omdat we het verschijnen van munten uit Lydië en de Perzen niet los van elkaar 
 Hieronder zie je een van de vroegste Lydische munten, met een leeuw en zijn prooi aan de voorkant. Je ziet misschien een stempel of gat aan de achterkant, dat volgens sommigen werd gebruikt om de zuiverheid van het metaal te testen en om er zeker van te zijn dat het niet slechts een oppervlaktelaag was. Hoewel dit een van de vroegste voorbeelden is, is het belangrijk om te weten dat dit een kopie is. Al mijn gouden en electrum stukken zijn replica's of moderne reproducties, ontworpen om te voorkomen dat ik al mijn spaargeld aan deze verzameling zou uitgeven.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/nl/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Toen ze Lydië in 546 voor Christus veroverden, namen de Achaemenidische Perzen 
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/nl/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Na een hoofdstuk over het ontstaan van munten, wilde ik een heel kort hoofdstuk 
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/nl/008.webp)
 
 
 Later, zoals we in een volgend hoofdstuk zullen bespreken, verfijnden de Grieken deze technologie door ronde munten te maken die aan beide zijden werden gehamerd. Ze namen een glad, plat stuk edelmetaal, graveerden het gewenste ontwerp op de ene zijde en hamerden het dan met de hand om de afgewerkte munt te maken.
@@ -1413,7 +1413,7 @@ Later, zoals we in een volgend hoofdstuk zullen bespreken, verfijnden de Grieken
 De technologie van het met de hand slaan van munten speelde waarschijnlijk een rol bij het beheersen van de inflatie in die tijd, ook al werden de munten vaak verdund om de productie te verhogen. Dit was vooral duidelijk tijdens de Romeinse periode en, in mindere mate, tijdens bepaalde oorlogen in de Griekse periode. Hoewel het slaan van munten per keer de capaciteit van de autoriteit voor massaproductie beperkte, droeg het effectief bij aan de inflatiebeheersing, ondanks de aanzienlijke devaluaties die plaatsvonden. Zo evolueerde de munt van een klodder metaal die werd geslagen naar een ronde, gehamerde munt.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/nl/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Hieronder kun je een treffend voorbeeld bewonderen van de monumentale stenen op 
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/nl/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ De monetaire premie is simpelweg gebaseerd op het vertrouwen dat iemand dit geld
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/nl/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Hieronder zie je een tweet van Stephanie Kelton, die een soort poster vrouw is v
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/nl/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ En ik heb het geluk dat ik een exemplaar heb van een Griekse drachme uit die per
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/nl/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ De beslissende ontmoeting met de Grieken in Zuid-Italië liet de Romeinen echt k
 Op veel Romeinse munten uit de republiek zijn zelfs stichtingsmythes afgebeeld. Je kunt de mijne hieronder zien: het is een prachtige, echte munt van koning Tatius. Het illustreert de mythe van de ontvoering van vrouwen door de Sabijnen. Tatius was de koning van deze regio en de oprichtingsmythe vertelt hoe de Romeinen vrouwen ontvoerden van de Sabijnen, een volk dat in de buurt woonde. Vervolgens werd koning Tatius mede-koning van Romulus, een van de stichters van Rome.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/nl/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Hier kunnen we terugkomen op een concept dat we eerder hebben besproken over de 
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/nl/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Na de moord op Caesar in 44 voor Christus nam Octavianus (Augustus) de controle 
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/nl/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/nl/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/nl/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/nl/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Dit deel stelt me in staat om het laatste stuk in deze sectie te introduceren: d
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/nl/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/nl/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Het was echt Aurelianus die deze vorm van devaluatie uitvond, die veel sneller i
 Om deze extreme devaluatie visueel te illustreren, heb ik wat fascinerende statistieken gevonden over de prijs van graan in Egypte van 40 voor Christus tot de 3e eeuw, een periode van meer dan 300 jaar. Hieronder zie je een Griekse tetradrachme uit mijn verzameling. In Egypte onder Romeinse bezetting in de 3e eeuw was het equivalent een Egyptische tetradrachme. De denominatie van drachmen was nog in gebruik en kwam overeen met een denarius.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/nl/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/nl/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Als eerste artefact met betrekking tot deze periode laat ik je een reproductie z
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/nl/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Om de link met de Tempeliers te leggen, zie je hieronder een Franse middeleeuwse
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/nl/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Hieronder zie je een reproductie van een Florin: een gouden Florin gemaakt van t
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/nl/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Deze terugkeer naar gouden munten werd gedreven door een specifieke context: de 
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/nl/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/nl/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Het was ook in deze periode dat Europa zich bewust werd van het bestaan van papi
 We hebben het over de slingerslagtechniek die eerder in de cursus is genoemd. Deze methode maakte het mogelijk om meer uniforme munten te produceren in vergelijking met het slaan met een hamer en, wat belangrijk is, maakte het mogelijk om inscripties rond de rand van de munt aan te brengen, zoals ik eerder heb gedemonstreerd. De munt hieronder is een Europese thaler uit 1793, waarop duidelijk een opschrift op de rand te zien is.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/nl/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Als antwoord op Europa's vraag naar goud en zilver was "de constante motivatie v
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/nl/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Met de verovering van de Nieuwe Wereld werd **Spanje** de dominante speler. Zijn
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/nl/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ De Spaanse real, ook wel bekend als het "stuk van acht", kreeg zijn bijnaam omda
 Wat vooral interessant is, is dat de Spaanse dollar in die tijd diende als internationale reservemunt. De Spaanse autoriteiten gaven ook hun eigen lokale munteenheid uit, de maravedi, en pasten de geldvoorraad regelmatig aan door middel van terugroepacties. Een koperen of bronzen munt die in eerste instantie één maravedi waard was, kon bijvoorbeeld worden teruggeroepen en gestempeld met "2", later met "4", enzovoort, tot mogelijk "8" Op de hoge-resolutiefoto kun je duidelijk de "8" op de munt zien staan. Deze methode breidde de geldvoorraad effectief uit... wat onvermijdelijk leidde tot inflatie.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/nl/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Na het Iberische hoogtepunt kwam **Nederland** in de 17e eeuw op als nieuwe hand
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/nl/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/nl/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Meer restrictieve wetten probeerden het assignat op te leggen, maar zonder succe
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/nl/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Toen dit papiergeld alle hoogwaardige munten van edelmetaal verving, in overeens
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/nl/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ De soeverein was een munt - een gouden munt die oorspronkelijk één pond waard 
 Voorafgaand aan de beroemde soeverein was er de guinea, die volgens hetzelfde principe werkte. De guinea werd vernoemd naar de edelmetalen die erin zaten en die afkomstig waren uit de regio Guinee.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/nl/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/nl/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ In Antwerpen werden handelsbeurzen gehouden waar handelaren vaak bijeenkwamen om
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/nl/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Toen kwam de paniek van 1776. Iedereen stormde de geldpiramide op. Wat dit betek
 We gingen over van de florijn naar de oprichting van de Bank of England. Natuurlijk waren er in de tussentijd de Eerste en Tweede Wereldoorlog, maar eerder, in 1796, waren er ook ontwikkelingen aan de andere kant van de Atlantische Oceaan. In 1776 was Amerika nog steeds een Britse kolonie en de koloniën gebruikten deze papieren valuta. Hieronder zie je een biljet van twee shilling uit Connecticut uit 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/nl/040.webp)
 
 
 Voordat ze Engeland de oorlog verklaarden en uiteindelijk hun eigen valuta uitgaven, gebruikten de koloniën deze papieren valuta naast de Spaanse dollar voor contante transacties. De term "dollar" bleef zelfs bestaan om de Amerikaanse dollar aan te duiden.
@@ -3767,7 +3767,7 @@ Voordat ze Engeland de oorlog verklaarden en uiteindelijk hun eigen valuta uitga
 Als ik me niet vergis, namen ze in 1792 een wet aan die hen toestond geld te munten. De dollar hieronder is een voorbeeld van een Amerikaanse dollar uit de moderne tijd.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/nl/041.webp)
 
 
 Het is duidelijk dat de nominale waarde niet slechts één dollar is; de waarde ligt rond de 30 of 40 dollar, omdat het een ounce zilver vertegenwoordigt. De waarde schommelt op basis van de prijs van zilver, waardoor hij meestal minstens 30 of 40 dollar waard is. Vandaag de dag heeft een papieren dollar natuurlijk alleen de nominale waarde van één dollar, maar in die tijd was de Amerikaanse dollar geworteld in deze zilverwaarde.
@@ -3777,7 +3777,7 @@ Laten we het nu hebben over de Burgeroorlog in Amerika. De Geconfedereerden druk
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/nl/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Hun tegenstanders in het noorden hadden ook dollars. Hierboven zie je de dollars
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/nl/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ In de nasleep van de Eerste Wereldoorlog bevatte de laatste serie gedrukte bankb
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/nl/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Hieronder zie je een gouden certificaat uit 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/nl/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Na de uitvaardiging van Uitvoeringsbevel 6102 namen ze al het goud in beslag en 
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/nl/046.webp)
 
 
 Het concept van wettig betaalmiddel duikt hier op, ter vervanging van de zinsnede "inwisselbaar in goud" De twee biljetten zien er misschien identiek uit, met slechts een paar veranderde woorden, maar de zwendel zit hem in het feit dat de dollar in deze periode werd gedevalueerd; de waarde van een ounce goud daalde van $20,67 naar $35 per ounce in 1934. Dit vertegenwoordigde een devaluatie van ongeveer 40%!
@@ -3903,7 +3903,7 @@ Met dit systeem koppelde Law papiergeld aan de aandelen van zijn bedrijf. Hoe me
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/nl/047.webp)
 
 
 

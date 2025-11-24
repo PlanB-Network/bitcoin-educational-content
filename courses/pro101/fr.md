@@ -1044,13 +1044,13 @@ L'obtention d'un consensus mondial et la gestion de couches secondaires complexe
 En conclusion, il est essentiel pour l'évolution de l'écosystème Bitcoin de s'attaquer en permanence à ces problèmes ouverts et d'innover au sein de cet écosystème. L'équilibre entre la facilité d'utilisation, la sécurité, la confidentialité et l'évolutivité nécessite une réflexion approfondie et des efforts de collaboration. En contribuant à ces développements, les participants peuvent aider à façonner l'avenir de Bitcoin et son rôle dans le paysage financier mondial.
 
 
-# Bitcoin Principes fondamentaux
+# Principes fondamentaux de Bitcoin
 
 
 <partId>6c0a3691-3ce4-5309-8ad7-e16e4b63c734</partId>
 
 
-## Réflexion sur la sécurité dans la Bitcoin
+## Réflexion sur la sécurité dans Bitcoin
 
 
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
@@ -1060,19 +1060,19 @@ En conclusion, il est essentiel pour l'évolution de l'écosystème Bitcoin de s
 
 :::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
-Bienvenue à l'exposé d'aujourd'hui sur **la sécurité et la fiabilité**. Notre objectif est d'explorer la relation nuancée entre ces deux aspects fondamentaux de la conception et de l'application des systèmes dans des scénarios réels.
+Bienvenue dans le cours d'aujourd'hui sur **la sécurité et la fiabilité**. Notre objectif est d'explorer la relation nuancée entre ces deux aspects fondamentaux de la conception et de l'application des systèmes dans des scénarios réels.
 
 
 ### Introduction à la réflexion sur la sécurité
 
 
-La réflexion sur la sécurité repose sur des principes visant à protéger les systèmes contre les attaques intentionnelles. Il s'agit d'identifier les menaces potentielles et de mettre en œuvre des mesures pour les atténuer. En revanche, la fiabilité vise à garantir le bon fonctionnement des systèmes dans des conditions spécifiques, en tenant compte des défaillances probabilistes plutôt que des tentatives délibérées d'atteinte à la sécurité.
+La réflexion sur la sécurité repose sur des principes visant à protéger les systèmes contre les attaques intentionnelles. Il s'agit d'identifier les menaces potentielles et de mettre en œuvre des mesures pour les atténuer. En revanche, la fiabilité vise à garantir le bon fonctionnement des systèmes dans des conditions spécifiques, en tenant compte des défaillances probabilistes plutôt que des tentatives délibérées de compromettre la sécurité.
 
 
 #### Relation entre la sécurité et la fiabilité
 
 
-Bien que la sécurité et la fiabilité visent toutes deux à maintenir l'intégrité du système, leurs approches diffèrent considérablement. L'ingénierie de la fiabilité traite de la probabilité de défaillances du système dues à des événements aléatoires et utilise souvent des méthodes statistiques pour prédire et atténuer ces défaillances. En revanche, la sécurité doit tenir compte de la nature délibérée et intelligente des attaques, ce qui nécessite une stratégie de défense multicouche connue sous le nom de "défense en profondeur"
+Bien que la sécurité et la fiabilité visent toutes deux à maintenir l'intégrité du système, leurs approches diffèrent considérablement. L'ingénierie de la fiabilité traite de la probabilité de défaillances du système dues à des événements aléatoires et utilise souvent des méthodes statistiques pour prédire et atténuer ces défaillances. En revanche, la sécurité doit tenir compte de la nature délibérée et intelligente des attaques, ce qui nécessite une stratégie de défense multicouche connue sous le nom de "défense en profondeur" (*Defense in depth*).
 
 
 #### Sécurité ou fiabilité
@@ -1084,19 +1084,19 @@ La construction d'un pont au XVIIIe siècle est un exemple typique d'ingénierie
 ![Image](assets/en/009.webp)
 
 
-Contrairement à la fiabilité, la sécurité traite des menaces intentionnelles. Par exemple, une clé cryptographique de 256 bits offre une garantie mathématique de sécurité en raison de l'impossibilité de la forcer brutalement. Les mesures de sécurité doivent tenir compte de différents modèles de menace, de la manipulation physique aux cyber-attaques sophistiquées.
+Contrairement à la fiabilité, la sécurité traite des menaces intentionnelles. Par exemple, une clé cryptographique de 256 bits offre une garantie mathématique de sécurité en raison de l'impossibilité de la pirater par force brute. Les mesures de sécurité doivent tenir compte de différents modèles de menace, de la manipulation physique aux cyberattaques sophistiquées.
 
 
 ### Applications dans le monde réel
 
 
-Considérez le processus de création et de stockage des clés Bitcoin à l'aide de portefeuilles en papier. Bien que les portefeuilles en papier puissent être sécurisés, ils sont susceptibles d'être endommagés physiquement et falsifiés. Pour garantir l'intégrité de ces portefeuilles, il est nécessaire d'utiliser des méthodes d'inviolabilité et des protocoles de vérification robustes.
+Considérez le processus de création et de stockage des clés Bitcoin à l'aide de portefeuilles papier (*paper wallets*). Bien que les portefeuilles papier puissent être sécurisés, ils sont susceptibles d'être endommagés physiquement et falsifiés. Pour garantir l'intégrité de ces portefeuilles, il est nécessaire d'utiliser des méthodes d'inviolabilité et des protocoles de vérification robustes.
 
 
-Dans un autre scénario, imaginons un accueil à l'aéroport où le conducteur utilise un code secret pour authentifier le passager. Cette mesure de sécurité simple mais efficace empêche les imposteurs de tromper les deux parties.
+Dans un autre scénario, imaginons une prise en charge à l'aéroport où un chauffeur utilise un code secret pour authentifier le passager. Cette mesure de sécurité simple mais efficace empêche les imposteurs de tromper les deux parties.
 
 
-Au Guatemala, l'horodatage des résultats électoraux a joué un rôle essentiel pour garantir l'intégrité du processus électoral. En utilisant des méthodes cryptographiques pour les données Timestamp, les responsables électoraux ont pu fournir une preuve infalsifiable de l'authenticité des résultats, dissuadant ainsi les manipulateurs potentiels motivés par d'importantes incitations financières.
+Au Guatemala, l'horodatage des résultats électoraux a joué un rôle essentiel pour garantir l'intégrité du processus électoral. En utilisant des méthodes cryptographiques pour horodater les données, les responsables électoraux ont pu fournir une preuve infalsifiable de l'authenticité des résultats, dissuadant ainsi les manipulateurs potentiels motivés par d'importantes incitations financières.
 
 
 ![Image](assets/en/010.webp)
@@ -1105,25 +1105,25 @@ Au Guatemala, l'horodatage des résultats électoraux a joué un rôle essentiel
 ### Identifier et atténuer les menaces potentielles
 
 
-La modélisation des menaces est le processus d'identification des menaces potentielles pour la sécurité et la création de stratégies pour les atténuer. Il s'agit de comprendre l'environnement du système, d'identifier les attaquants potentiels et de développer des protocoles sécurisés sur la base d'hypothèses et d'analyses probabilistes.
+La modélisation des menaces est le processus d'identification des menaces potentielles pour la sécurité et l'élaboration de stratégies pour les atténuer. Il s'agit de comprendre l'environnement du système, d'identifier les attaquants potentiels et de développer des protocoles sécurisés sur la base d'hypothèses et d'analyses probabilistes.
 
 
 #### Création de protocoles sécurisés
 
 
-Pour protéger les élections, par exemple, une supervision impartiale ou un contrôle multipartite peuvent être mis en œuvre pour garantir la transparence et l'intégrité. Les méthodes cryptographiques, telles que l'horodatage et la vérification croisée, permettent de préserver l'authenticité des données et d'empêcher leur falsification.
+Pour garantir les élections, par exemple, une supervision impartiale ou un contrôle multipartite peuvent être mis en œuvre pour garantir la transparence et l'intégrité. Les méthodes cryptographiques, telles que l'horodatage et la vérification croisée, permettent de préserver l'authenticité des données et d'empêcher leur falsification.
 
 
 #### Vérification de la confiance
 
 
-La vérification de la confiance peut être illustrée par la vérification PGP (Pretty Good Privacy). En vérifiant les empreintes digitales et les signatures des clés PGP, les utilisateurs peuvent établir l'authenticité des identités numériques. Des pratiques similaires sont essentielles pour vérifier l'intégrité des logiciels grâce à la correspondance Hash (par exemple, SHA-256).
+La vérification de la confiance peut être illustrée par la vérification PGP (*Pretty Good Privacy*). En vérifiant les empreintes digitales et les signatures des clés PGP, les utilisateurs peuvent établir l'authenticité des identités numériques. Des pratiques similaires sont essentielles pour vérifier l'intégrité des logiciels grâce à la correspondance de hachage (par exemple, SHA-256).
 
 
-#### Établir des relations de confiance
+#### Établir des voies de confiance
 
 
-L'instauration de la confiance n'est pas instantanée ; elle nécessite de relier plusieurs voies de confiance et d'assurer la redondance. L'utilisation de HTTPS et de la transparence des certificats soutenue par Blockchain, par exemple, garantit l'authenticité des sources web, ce qui rend difficile la violation de la confiance par les attaquants.
+La confiance ne s'instaure pas instantanée ; elle nécessite de relier plusieurs voies de confiance et d'assurer une redondance. L'utilisation de HTTPS et de la transparence des certificats basée sur la blockchain, par exemple, garantit l'authenticité des sources web, ce qui rend difficile la violation de la confiance par les attaquants.
 
 
 #### Incitations à la sécurité
@@ -1141,13 +1141,13 @@ Les stratégies de sécurisation des portefeuilles Bitcoin comprennent des confi
 #### Importance de la validation
 
 
-Enfin, la validation par l'utilisateur est essentielle au maintien d'un réseau sécurisé. Le rôle de chaque utilisateur dans la validation des transactions et la vérification des composants logiciels et matériels contribue à préserver l'intégrité du réseau et à contrecarrer les menaces potentielles.
+Enfin, la validation par les utilisateurs est essentielle au maintien d'un réseau sécurisé. Le rôle de chaque utilisateur dans la validation des transactions et la vérification des composants logiciels et matériels contribue à préserver l'intégrité du réseau et à contrer les menaces potentielles.
 
 
-En conclusion, la compréhension et l'intégration des principes de sécurité et de fiabilité sont essentielles à la conception de systèmes robustes. En tirant les leçons des exemples historiques, en appliquant des stratégies concrètes et en validant continuellement la confiance, nous pouvons construire des systèmes à la fois sûrs et fiables.
+En conclusion, la compréhension et l'intégration des principes de sécurité et de fiabilité sont essentielles à la conception de systèmes robustes. En tirant les leçons des exemples historiques, en appliquant des stratégies concrètes et en validant continuellement la confiance, nous pouvons construire des systèmes à la fois sécurisés et fiables.
 
 
-## Logiciels libres et open source (FLOSS) dans la Bitcoin
+## Logiciels libres et open source (FLOSS) dans Bitcoin
 
 
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>

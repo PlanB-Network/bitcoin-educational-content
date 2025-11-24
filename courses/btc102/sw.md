@@ -176,7 +176,7 @@ Ulaghai huu kawaida huwa na:
 - Ukosefu kamili wa uwazi juu ya chanzo halisi cha mapato yaliyoahidiwa.
 
 
-Hatimaye, mipango yote ya piramidi na Ponzi inaelekea kushindwa. Udhaifu wao wa kimsingi upo katika hitaji la mara kwa mara la kuleta wawekezaji wapya kulipa faida kwa washiriki wa awali. Hitaji hili linakuwa haliwezekani kudumishwa kihisabati kwa muda kwa sababu idadi ya waajiriwa wapya wanaohitajika huongezeka kwa kasi kadri mfumo unavyokua. Mara tu hatua muhimu inapofikiwa, washiriki wanaanza kuwa na shaka, uaminifu hupotea, na piramidi nzima huanguka. Katika hatua hii, watu wa mwisho kujiunga, mara nyingi wasio na ufahamu mdogo, hupoteza uwekezaji wao wote bila njia ya kuirejesha, huku waandaaji au wawekezaji wa mapema kwa kawaida wakiwa tayari wametoa fedha zao na kuacha mfumo.
+Hatimaye, mipango yote ya piramidi na Ponzi inaelekea kushindwa. Udhaifu wao wa kimsingi upo katika hitaji la mara kwa mara la kuleta wawekezaji wapya kulipa faida kwa washiriki wa awali. Hitaji hilo linakuwa haliwezekani kudumishwa kihisabati kwa muda, kwa sababu idadi ya waajiriwa wapya wanaohitajika huongezeka kwa kasi kadri mfumo unavyokua. Mara tu hatua muhimu inapofikiwa, washiriki wanaanza kuwa na shaka, uaminifu hupotea, na piramidi nzima huanguka. Katika hatua hii, watu wa mwisho kujiunga—mara nyingi wasio na ufahamu wa kutosha—hupoteza uwekezaji wao wote bila njia ya kuurejesha, huku waandaaji au wawekezaji wa mapema kwa kawaida wakiwa tayari wametoa fedha zao na kuacha mfumo.
 
 
 Katika ulimwengu wa cryptocurrency, miradi ya Ponzi inaweza kuchukua sura nyingi—mara nyingi ikiwa imeundwa kuficha asili yake ya ulaghai nyuma ya kinyago cha kiteknolojia au kifedha. Ulaghai huu huweza kujitokeza kama matoleo mapya ya tokeni au Matoleo ya Initial Coin Offering (ICO), ambayo ni njia za kuchangisha fedha ambapo cryptocurrency mpya huuzwa kwa umma. Nyuma ya istilahi za kiufundi kama "blockchain," "mikataba mahiri," au "uwekaji alama" (tokenization), baadhi ya miradi huficha mifumo changamano ya mtindo wa piramidi. Wengine hudai kutoa faida kubwa kwa kuchanganya mali za crypto zenye mashaka na mifumo ya malipo inayotegemea kabisa ongezeko la wawekezaji wapya.
@@ -384,7 +384,7 @@ Zaidi ya hayo, thamani ya kifedha ya Bitcoin inafanya kuwa lengo la thamani ya j
 ### Kompyuta safi, iliyosasishwa
 
 
-Mojawapo ya vipengele vinavyopuuzwa sana katika usalama wa kibinafsi ni kusasisha mfumo wa uendeshaji pamoja na programu zako. Masasisho mengi hutengeneza udhaifu unaojulikana ambao unaweza kutumiwa vibaya na washambuliaji. Ingawa baadhi ya watu huepuka masasisho wakihofia matatizo ya utendakazi, hatari halisi iko katika kutumia programu zilizopitwa na wakati, ambazo wadukuzi tayari wanajua jinsi ya kuzivunja
+Mojawapo ya vipengele vinavyopuuzwa sana katika usalama wa kibinafsi ni kusasisha mfumo wa uendeshaji pamoja na programu zako. Masasisho mengi hutengeneza udhaifu unaojulikana ambao unaweza kutumiwa vibaya na washambuliaji. Ingawa baadhi ya watu huepuka masasisho wakihofia matatizo ya utendakazi, hatari halisi iko katika kutumia programu zilizopitwa na wakati, ambazo wadukuzi tayari wanajua jinsi ya kuzivunja.
 
 
 Inapendekezwa pia kutumia Tumia antivirus inayoaminika. Kwenye Windows, Windows Defender iliyojengwa ndani kwa kawaida inatosha kwa watumiaji wengi. Ikiwa unapendelea vipengele vya ziada au utulivu wa akili, kuna chaguzi za kibiashara kama Kaspersky pia. Kwenye macOS, ingawa kihistoria programu hasidi zimekuwa chache, bado ni busara kuchukua tahadhari
@@ -393,7 +393,7 @@ Inapendekezwa pia kutumia Tumia antivirus inayoaminika. Kwenye Windows, Windows 
 ![image](assets/sw/013.webp)
 
 
-Zaidi ya masasisho ya mfumo na ulinzi wa antivirus, jihadhari sana na kupakua programu kutoka kwa tovuti zenye michoro au ile inayoitwa lango la "ulimwengu" la upakuaji. Unapohitaji zana au programu, nenda moja kwa moja kwenye chanzo rasmi kila wakati;Hii inapunguza kwa kiasi kikubwa hatari ya kusakinisha programu hasidi iliyofichwa kama programu halali.
+Zaidi ya masasisho ya mfumo na ulinzi wa antivirus, jihadhari sana na kupakua programu kutoka kwa tovuti zenye michoro au ile inayoitwa lango la “ulimwengu” la upakuaji. Unapohitaji zana au programu, nenda moja kwa moja kwenye chanzo rasmi kila wakati; hii inapunguza kwa kiasi kikubwa hatari ya kusakinisha programu hasidi iliyofichwa kama programu halali.
 
 Tabia nyingine nzuri ni kuthibitisha uhalisi na uadilifu wa programu yoyote kabla ya kuisakinisha kwenye mashine yako. Iwapo huna uhakika jinsi ya kufanya hivyo, usijali tuna mafunzo maalum ya kukusaidia katika mchakato huu:
 
@@ -487,7 +487,7 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 Faragha na usalama wa mtandao zimeunganishwa kwa karibu: maelezo zaidi unayoacha yaweze kufikiwa kwa urahisi, ndivyo uwezekano wa kuwa mlengwa zaidi.
 
 
-**VPN** (*Virtual Private Network*) ni hatua rahisi lakini yenye ufanisi ya kuficha IP yako Address na kusimba trafiki yako ya mtandaoni kwa njia fiche. Ingawa haitakufanya usionekane kabisa (kwa kuwa mtoa huduma wa VPN bado anaweza kuona shughuli zako), inafanya iwe vigumu zaidi kwa mtu yeyote anayejaribu kukupeleleza au kufuatilia tabia zako za kuvinjari.
+**VPN** (*Virtual Private Network*) ni hatua rahisi lakini yenye ufanisi ya kuficha IP Address yako na kusimba trafiki yako ya mtandaoni kwa njia fiche. Ingawa haitakufanya usionekane kabisa (kwa kuwa mtoa huduma wa VPN bado anaweza kuona shughuli zako), inafanya iwe vigumu zaidi kwa mtu yeyote anayejaribu kukupeleleza au kufuatilia tabia zako za kuvinjari.
 
 Jambo kuu ni kuchagua mtoaji anayeaminika wa VPN ambaye:
 
@@ -1005,7 +1005,7 @@ Ingawa aina hii ya utawala inaweza kuwa ya polepole na wakati mwingine fujo, pia
 Bitcoin inaruhusu mtu yeyote kuangalia usahihi wa Blockchain kwa kuendesha "node" kwenye kompyuta au seva yake. Hii ina maana ya kupakua programu ya Bitcoin Core (au toleo lingine la protocol ya Bitcoin) na kuthibitisha miamala na blocks zote tangu 2009. Mara tu node yako inapowekwa na kusawazishwa, inakuwa nakala kamili ya Blockchain na kusaidia kuunga mkono mtandao.
 
 
-Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo wa kujiondoa katika kuamini wahusika wengine. Kuendesha node huhakikisha kuwa watumiaji wanaweza kushiriki katika mchakato wa makubaliano na kubaki bila kubatilishwa, kuchangia moja kwa moja kwa usalama na ugatuaji wa mtandao.
+Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo wa kujiondoa katika kuamini wahusika wengine. Kuendesha node huhakikisha kwamba watumiaji wanaweza kushiriki katika mchakato wa makubaliano na kubaki bila kubatilishwa, wakichangia moja kwa moja katika usalama na ugatuaji wa mtandao.
 
 
 ### Tumia kesi
@@ -1096,7 +1096,7 @@ Hii inatupeleka kwa swali la kimsingi, karibu la kifalsafa ambalo linagawanya wa
 ### Ulinzi dhidi ya migogoro ya sarafu
 
 
-Kwa karne nyingi, ulimwengu umekumbwa na majanga ya kifedha ambayo yamekuwa na athari mbaya kwa idadi ya watu. Mabilioni ya watu bado wanateseka kutokana na matokeo ya sera za fedha zinazosimamiwa vibaya, ambapo utumiaji mbaya wa pesa Supply na viwango vya riba huleta usawa wa kimfumo. Migogoro hii si matukio ya nasibu tu—ni matokeo ya mfumo uliojengwa juu ya uingiliaji kati na upotoshaji wa pesa na thamani za wakati.
+Kwa karne nyingi, ulimwengu umekumbwa na majanga ya kifedha ambayo yamekuwa na athari mbaya kwa idadi ya watu. Mabilioni ya watu bado wanateseka kutokana na matokeo ya sera za fedha zinazosimamiwa vibaya, ambapo utumiaji mbaya wa supply ya pesa na viwango vya riba huleta usawa wa kimfumo. Migogoro hii si matukio ya nasibu tu—ni matokeo ya mfumo uliojengwa juu ya uingiliaji kati na upotoshaji wa pesa na thamani za wakati.
 
 
 ![image](assets/sw/043.webp)
@@ -1132,7 +1132,7 @@ Kuporomoka kwa sarafu za fedha sio mabadiliko ya kihistoria; ni muundo unaojirud
 ### Jibu kwa udhibiti wa serikali na ukosefu wa haki
 
 
-Kuongezeka kwa kukosekana kwa usawa wa kiuchumi kote ulimwenguni kumekuwa msingi wa machafuko ya kijamii na kuongezeka kwa itikadi kali za kisiasa. Historia inaonyesha kwamba pengo kati ya matajiri na maskini linapozidi kuwa kubwa, mara nyingi husababisha mvutano, migogoro, na hata kuimarika kwa tawala za kimabavu. Katika uso wa hatari hizi, kulinda uhuru wako wa kifedha si anasa tu; ni hitaji kwa mtu yeyote anayetaka kuhifadhi uhuru wake na kulinda mustakabali wa familia yake.
+Kuongezeka kwa ukosefu wa usawa wa kiuchumi kote ulimwenguni kumekuwa msingi wa machafuko ya kijamii na kuongezeka kwa itikadi kali za kisiasa. Historia inaonyesha kwamba pengo kati ya matajiri na maskini linapozidi kuwa kubwa, mara nyingi husababisha mvutano, migogoro, na hata kuimarika kwa tawala za kimabavu. Katika uso wa hatari hizi, kulinda uhuru wako wa kifedha si anasa tu; ni hitaji kwa mtu yeyote anayetaka kuhifadhi uhuru wake na kulinda mustakabali wa familia yake.
 
 
 ![image](assets/sw/047.webp)

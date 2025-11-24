@@ -278,7 +278,6 @@ Avuga ko uburyo bwinshi, bwaba ubw’akameremere canke ubw’abantu, bushobora k
 
 ![](assets/en/002.webp)
 
-*Amashure y'amafi nta barongozi afise*
 
 
 Uko wovyiyumvira kwose kuri Bitcoin, ukuntu iteye ahantu hamwe bituma igorana kuyigenzura. Bitcoin irahari, kandi ntaco woyikorako. Ni ikintu co kwiga, si co guharirako.
@@ -372,7 +371,7 @@ Ishingiro ry’iyo nsiguro ni uko udashobora kwubaka ubuhinga bwa Trustless heju
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Igikoresho ca Trustless Layer kiremesha gucuruza ibintu bitandukanye ku rwego rwo hejuru .
@@ -536,7 +535,6 @@ Ico cegeranyo kiraca irya n’ino ingorane nyamukuru z’ubuzima bwite bwa Block
 ![](assets/en/005.webp)
 
 
-Ivyerekeye ubuzima bwite busanzwe kuri Blockchain
 
 
 Chris Belcher [yanditse mu buryo burambuye cane] (Ibanga#Ibitero_vy'ubuzima bwite) ku bwoko butandukanye bw'ubuzima bwite bushobora gushika kuri Bitcoin Blockchain. Turagusavye gusoma n'imiburiburi ibice bikeyi vya mbere biri munsi ya "Ibitero vya Blockchain ku buzima bwite."
@@ -632,7 +630,7 @@ Yaravuze kandi ako karorero, mu bindi, kuri [Urupapuro rw’Ibanga](https://ru.B
 Raba ingene ubuzima bwite bushobora gushikwako mu kwubaka ubuhinga hejuru ya Bitcoin, nk’uko biri kuri Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Ivyumba biri hejuru ya Bitcoin birashobora kwongera ubuzima bwite
@@ -731,7 +729,7 @@ None bigenda gute iyo infashanyo y’amabuye yegereye zero? Kugira ngo ibintu bi
 Ubu, abafise ni bo bariha umutekano (biciye mu gutera imbere kw’amahera). Ejo ni ho abakoresha amahera bazokwikorera mu buryo bumwe canke ubundi uwo muzigo, nk’uko vyerekanwa aha hepfo.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Uko igihe kigenda kirarenga, ukwikorera amafaranga y’umutekano bizova ku bafise bije ku bakoresha .
@@ -1102,7 +1100,6 @@ Ivyo bivugwa haruguru ni ingero z’ibintu vy’ukuri bishobora gutera ubwoba bi
 ![](assets/en/009.webp)
 
 
-Igice kivuye mu gitabu c'itongo ryoroshe ry'ugusambura
 
 
 Kugira ngo umuntu arushirize gutahura ivyiyumviro vy’umwansi, vyoshobora kuba vyiza abonye ingene zikora. Ishirahamwe rya Leta Zunze Ubumwe za Amerika ryitwa Office of Strategic Services, ryakora mu gihe c’Intambara ya Kabiri y’Isi Yose kandi ryari rifise mu ntumbero zaryo zo gukora ubutasi, gukora ibikorwa vy’ugusambura no gukwiragiza amakuru y’ibinyoma, ryasohoye [igitabu](https://www.gutenberg.org/ebooks/26184) c’abakozi baryo ku buryo bwo gukora ibikorwa vy’ubutasi mu buryo bubereye. Umutwe waco wari "Igitabo c'Igihugu c'Igihugu c'Igihugu c'Ivyago" kandi carimwo impanuro zitomoye zo kwinjira mu mwansi kugira ngo ubuzima bwabo bube Hard. Impanuro zitangura kuva ku guturira ububiko gushika ku gutuma imyimenyerezo ishaza kugira ngo umwansi agabanye .
@@ -1662,7 +1659,6 @@ Ivyagezwe vy'imirongo bitangura n'abantu babiri canke barenga bemeranya ku bijan
 
 ![](assets/en/017.webp)
 
-Itegeko risanzwe rya Layer 2 hejuru ya Bitcoin, Layer 1.
 
 
 Uko iyo nzira yo gutangura iremeshwa biratandukanye hagati y’amasezerano, ariko insiguro rusangi ni uko abayigize barema iyo nzira yo gutangura itashizweko umukono n’umubare w’ibikorwa vy’igihano vyashizweko umukono imbere y’igihe, bikoresha umusaruro w’iyo nzira yo gutangura mu buryo butandukanye. Hanyuma, amasezerano y’intango arashirwako umukono ku buryo bushitse kandi akamenyeshwa kuri Blockchain, kandi amasezerano y’igihano arashobora gushirwako umukono ku buryo bushitse kandi agatangazwa kugira ngo ahane uwugira inyifato mbi. Ivyo bitera intege abaje mu nama gushitsa ivyo basezeranye kugira ngo iyo porotokole ikore mu buryo bwa Trustless.

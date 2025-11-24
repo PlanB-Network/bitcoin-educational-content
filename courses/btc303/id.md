@@ -278,7 +278,6 @@ Dia menunjukkan bahwa banyak sistem, baik alami maupun buatan, dapat dan memang 
 
 ![](assets/en/002.webp)
 
-*Kelompok ikan tidak memiliki pemimpin*
 
 
 Apa pun yang Anda pikirkan tentang Bitcoin, sifatnya yang terdesentralisasi membuatnya sulit dikendalikan. Bitcoin ada, dan tidak ada yang dapat Anda lakukan tentang hal itu. Ini adalah sesuatu yang harus dipelajari, bukan diperdebatkan.
@@ -372,7 +371,7 @@ Inti dari pembicaraan tersebut adalah bahwa Anda tidak dapat membangun sistem Tr
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Basis Trustless Layer memungkinkan berbagai pertukaran pada tingkat yang lebih tinggi
@@ -536,7 +535,6 @@ Makalah ini merangkum masalah utama dari privasi Blockchain, yaitu penggunaan ul
 ![](assets/en/005.webp)
 
 
-Kebocoran privasi yang umum terjadi pada Blockchain
 
 
 Chris Belcher [menulis dengan sangat rinci](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) tentang berbagai jenis kebocoran privasi yang dapat terjadi pada Bitcoin Blockchain. Kami sarankan Anda membaca setidaknya beberapa subbagian pertama di bawah "Serangan Blockchain terhadap privasi."
@@ -632,7 +630,7 @@ Dia juga menyebutkan contoh ini, antara lain, pada [Halaman privasi](https://en.
 Perhatikan bagaimana privasi yang lebih baik dapat dicapai dengan membangun sistem di atas Bitcoin, seperti halnya dengan Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Lapisan di atas Bitcoin dapat menambah privasi
@@ -731,7 +729,7 @@ Apa yang terjadi ketika subsidi blok mendekati nol? Untuk mempermudah, mari kita
 Saat ini, para pemegang sahamlah yang membayar keamanan (melalui inflasi moneter). Besok giliran para pembelanja yang harus menanggung beban ini, seperti yang diilustrasikan di bawah ini.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Seiring berjalannya waktu, beban biaya keamanan akan bergeser dari pemegang saham menjadi pembelanja
@@ -1102,7 +1100,6 @@ Hal-hal di atas adalah contoh-contoh ancaman nyata yang perlu diwaspadai.
 ![](assets/en/009.webp)
 
 
-Kutipan dari Manual Lapangan Sabotase Sederhana
 
 
 Untuk lebih memahami pikiran musuh, mungkin akan sangat membantu jika kita melihat sekilas bagaimana mereka beroperasi. Sebuah badan pemerintah AS bernama Office of Strategic Services, yang beroperasi selama Perang Dunia II dan memiliki salah satu tujuan untuk melakukan spionase, melakukan sabotase, dan menyebarkan propaganda, membuat sebuah [manual](https://www.gutenberg.org/ebooks/26184) untuk personilnya tentang cara menyabotase musuh dengan benar. Judulnya adalah "Manual Lapangan Sabotase Sederhana" dan berisi kiat-kiat konkret untuk menyusup ke dalam tubuh musuh untuk membuat hidup mereka Hard. Kiat-kiatnya berkisar dari membakar gudang hingga menyebabkan keausan pada latihan untuk mengurangi kemampuan musuh
@@ -1662,7 +1659,6 @@ Protokol berlapis dimulai dengan dua orang atau lebih yang menyetujui transaksi 
 
 ![](assets/en/017.webp)
 
-Protokol Layer 2 yang khas di atas Bitcoin, Layer 1.
 
 
 Bagaimana transaksi awal ini dibuat bervariasi di antara protokol, tetapi tema umumnya adalah bahwa para peserta membuat transaksi awal yang belum ditandatangani dan sejumlah transaksi hukuman yang telah ditandatangani sebelumnya, yang menggunakan hasil dari transaksi awal dengan berbagai cara. Selanjutnya, transaksi awal ditandatangani sepenuhnya dan dipublikasikan ke Blockchain, dan transaksi hukuman dapat ditandatangani sepenuhnya dan dipublikasikan untuk menghukum pihak yang berperilaku buruk. Hal ini memberikan insentif kepada para peserta untuk menepati janji mereka sehingga protokol dapat bekerja dengan cara Trustless.

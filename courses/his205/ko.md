@@ -405,7 +405,7 @@ objectives:
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/ko/001.webp)
 
 
 
@@ -416,7 +416,7 @@ objectives:
 숙련된 서예가만이 글을 쓸 수 있었기 때문에 대부분의 사람들이 글을 쓸 수 없었던 시절에는 작은 숫자로 된 표시가 서명으로 사용되었습니다.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/ko/002.webp)
 
 
 
@@ -426,7 +426,7 @@ objectives:
 따라서 당시 서기관들은 쐐기 모양의 스타일러스를 사용하여 젖은 태블릿에 표지판을 인쇄했습니다.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/ko/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ objectives:
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/ko/004.webp)
 
 
 위의 동전은 중세 시대의 중국 동전입니다. 중앙에 사각형 구멍이 있는 주조 동전입니다. 이 구멍에 줄을 끼워 동전을 서로 묶어 팔찌나 목걸이로 만들 수 있었습니다. 하지만 주화는 주로 착용용이 아니라 회계용으로 주로 사용되었습니다. 동전들을 서로 연결하여 큰 줄 형태로 계좌 단위를 만들 수 있었고, 그 조각들이 서로 맞물려 있었습니다. 특별한 표시가 있는 것은 아니었고 때로는 청동 원으로만 표시하기도 했습니다.
@@ -1221,7 +1221,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/ko/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ objectives:
 아래에서 가장 초기의 리디아 주화 중 하나를 볼 수 있는데, 사자가 먹이를 앞에 두고 있는 모습이 그려져 있습니다. 뒷면에 스탬프나 구멍이 있는 것을 볼 수 있는데, 이는 금속의 순도를 테스트하고 단순한 표면층이 아닌지 확인하기 위해 사용된 것으로 추정됩니다. 가장 초기의 사례 중 하나이지만, 이 작품은 복제품이라는 점에 유의해야 합니다. 저의 모든 금과 일렉트럼 작품은 복제품이거나 현대적으로 재현한 것으로, 이 컬렉션에 모든 돈을 쓰지 않도록 설계되었습니다.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/ko/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/ko/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/ko/008.webp)
 
 
 나중에 다음 섹션에서 살펴보겠지만 그리스인들은 양면을 망치로 두드려서 둥근 동전을 만들어 이 기술을 더욱 발전시켰습니다. 그들은 매끄럽고 평평한 귀금속 조각을 가져다가 한쪽 면에 원하는 디자인을 새긴 다음 손으로 망치로 두드려 완성된 동전을 만들었습니다.
@@ -1413,7 +1413,7 @@ objectives:
 동전을 일일이 손으로 주조하는 기술은 생산량을 늘리기 위해 희석하는 경우가 많았지만, 당시 인플레이션을 억제하는 데 중요한 역할을 했을 가능성이 높습니다. 이러한 현상은 특히 로마 시대와 그리스 시대의 특정 전쟁 중에 더욱 두드러졌습니다. 한 번에 하나씩 주조하는 방식은 당국의 대량 생산 능력을 제한했지만, 상당한 평가 절하가 발생했음에도 불구하고 인플레이션 억제에 효과적으로 기여했습니다. 따라서 금속 덩어리를 두드려서 주조하는 방식에서 동그랗고 두드려서 주조하는 동전으로 발전하게 되었습니다.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/ko/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ objectives:
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/ko/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ objectives:
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/ko/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ objectives:
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/ko/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ objectives:
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/ko/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ objectives:
 실제로 공화정 시대의 많은 로마 주화에는 건국 신화가 그려져 있습니다. 아래에서 제 주화를 보실 수 있는데요, 타티우스 왕의 멋진 실제 주화입니다. 이 동전에는 사빈족의 여성 납치 신화가 그려져 있습니다. 타티우스 왕은 이 지역의 왕이었는데, 건국 신화에 따르면 로마인들이 근처에 살던 사빈족의 여성들을 납치했다는 이야기가 전해집니다. 그 후 타티우스 왕은 로마의 건국자 중 한 명인 로물루스와 공동 왕이 되었어요.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/ko/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ objectives:
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/ko/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ objectives:
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/ko/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/ko/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/ko/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/ko/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ objectives:
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/ko/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/ko/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ objectives:
 이러한 극단적인 평가 절하를 시각적으로 설명하기 위해 기원전 40년부터 3세기까지 300년 이상에 걸친 이집트의 곡물 가격에 대한 흥미로운 통계를 발견했습니다. 아래에서 제 컬렉션에 있는 그리스 테트라드라크마를 볼 수 있습니다. 당시 3세기 로마의 점령 아래 있던 이집트에서는 이에 상응하는 것이 이집트 테트라드라크마였습니다. 드라크마라는 화폐 단위는 여전히 사용 중이었으며 데나리온에 해당했습니다.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/ko/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/ko/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ objectives:
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/ko/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ objectives:
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/ko/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ objectives:
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/ko/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ objectives:
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/ko/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/ko/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ objectives:
 이 과정의 앞부분에서 언급한 진자 주조 기법을 언급하고 있습니다. 이 방법을 사용하면 망치 타격에 비해 더 균일한 주화를 생산할 수 있으며, 앞서 설명한 것처럼 주화 가장자리에 각인을 새길 수 있습니다. 아래 사진은 1793년의 유럽 탈러로, 테두리에 글씨가 선명하게 남아 있습니다.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/ko/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ objectives:
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/ko/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ objectives:
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/ko/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ objectives:
 특히 흥미로운 점은 당시 스페인 달러가 국제 준비 통화로 사용되었다는 점입니다. 스페인 당국은 또한 자국 화폐인 마라베디를 발행하고 정기적으로 리콜을 통해 화폐 공급량을 조정했습니다. 예를 들어, 처음에 1마라베디의 가치가 있는 구리 또는 청동 동전을 리콜하여 "2"로 찍고, 나중에 "4"로 찍는 식으로 "8"까지 찍을 수 있었습니다 고해상도 사진에서 동전에 찍힌 "8"을 선명하게 볼 수 있습니다. 이 방법은 통화 공급을 효과적으로 확대했고, 이는 필연적으로 인플레이션으로 이어졌습니다.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/ko/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ objectives:
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/ko/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/ko/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/ko/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/ko/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 유명한 주권 이전에는 같은 원리로 운영된 기니가 있었습니다. 기니는 기니 지역에서 공급되는 귀금속을 함유하고 있어 기니라는 이름이 붙여졌습니다.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/ko/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/ko/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/ko/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 플로린에서 영란은행 설립으로 이어졌습니다. 물론 그 사이에 제1차 세계 대전과 제2차 세계 대전이 있었지만, 그보다 앞선 1796년에는 대서양 건너편에서도 발전이 이루어지고 있었습니다. 1776년 당시 미국은 여전히 영국의 식민지였고 식민지에서는 이 종이 화폐를 사용했습니다. 아래는 1776년의 코네티컷 2실링 지폐입니다.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/ko/040.webp)
 
 
 영국에 전쟁을 선포하고 결국 자체 화폐를 발행하기 전까지 식민지에서는 이 종이 화폐를 스페인 달러와 함께 현금 거래에 사용했습니다. 사실 '달러'라는 용어는 미국 달러를 나타내는 용어로 남아있었습니다.
@@ -3767,7 +3767,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 제가 착각하지 않았다면 1792년에 화폐를 주조할 수 있는 법이 통과되었습니다. 예를 들어 아래 그림은 현대의 미국 달러입니다.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/ko/041.webp)
 
 
 물론 액면가가 1달러에 불과한 것은 아니며, 은 1온스를 나타내므로 약 30~40달러의 가치가 있습니다. 그 가치는 은 가격에 따라 변동하며, 일반적으로 최소 30달러 또는 40달러를 기준으로 합니다. 물론 오늘날 종이 달러는 액면가인 1달러만 유지하지만, 당시 미국 달러는 이 은의 가치에 뿌리를 두고 있었습니다.
@@ -3777,7 +3777,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/ko/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/ko/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/ko/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/ko/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ VOC는 자체 군대를 보유하고 자체 화폐까지 발행할 정도로 당
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/ko/046.webp)
 
 
 여기에 "금으로 상환 가능"이라는 문구를 대체하는 법정 화폐의 개념이 등장합니다 두 지폐는 단어 몇 개만 바뀌었을 뿐 동일해 보이지만, 이 기간 동안 달러 가치가 평가절하되어 1934년 온스당 20.67달러였던 금의 가치가 35달러로 하락했다는 사실에 사기가 숨겨져 있습니다. 이는 약 40%의 평가 절하를 의미합니다!
@@ -3903,7 +3903,7 @@ https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcc
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/ko/047.webp)
 
 
 

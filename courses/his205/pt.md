@@ -405,7 +405,7 @@ Aqui em baixo, podem admirar a minha cópia de uma tábua com escrita cuneiforme
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/pt/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Tenho também o que julgo ser uma tábua suméria genuína com uma pequena escri
 As marcas com pequenos algarismos serviam de assinatura numa época em que a maior parte das pessoas não sabia escrever, pois só os escribas especializados tinham essa capacidade.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/pt/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Abaixo, pode ver o cilindro mencionado acima: uma pedra gravada com formas espec
 Os escribas da época utilizavam, portanto, um estilete em forma de cunha para imprimir sinais em tábuas húmidas.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/pt/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Na China, as moedas não tinham necessariamente de ser marcadas ou garantidas of
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/pt/004.webp)
 
 
 A moeda acima é uma moeda chinesa da Idade Média. Trata-se de uma moeda fundida com um orifício quadrado no centro. Este orifício era utilizado para enfiar uma corda, permitindo que as moedas fossem amarradas umas às outras para criar pulseiras ou colares. No entanto, estas moedas não se destinavam essencialmente a ser usadas, mas sim a fins contabilísticos. Podiam ser enfiadas umas nas outras para formar unidades de conta sob a forma de grandes cordas, com as peças entrelaçadas. Não havia necessariamente marcas específicas, por vezes eram simplesmente círculos de bronze.
@@ -1221,7 +1221,7 @@ Acho interessante mencionar aqui que, no Egito, continuaram a pesar moedas muito
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/pt/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Uma vez que não podemos separar o aparecimento de moedas da Lídia e dos Persas
 Abaixo, pode ver uma das mais antigas moedas da Lídia, com um leão e a sua presa à frente. É possível notar um selo ou buraco na parte de trás, que alguns acreditam ter sido usado para testar a pureza do metal e garantir que não se tratava apenas de uma camada superficial. Embora este seja um dos exemplos mais antigos, é importante notar que esta peça é uma cópia. Todas as minhas peças de ouro e electrum são réplicas ou recriações modernas, concebidas para evitar que eu gaste todas as minhas poupanças nesta coleção.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/pt/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Quando conquistaram a Lídia, em 546 a.C., os persas aqueménidas adoptaram imed
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/pt/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Depois de uma secção sobre o aparecimento das moedas, queria introduzir uma se
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/pt/008.webp)
 
 
 Mais tarde, como veremos numa secção posterior, os gregos aperfeiçoaram esta tecnologia criando moedas redondas que eram marteladas em ambos os lados. Pegavam numa peça lisa e plana de metal precioso, gravavam o desenho pretendido numa das faces e depois martelavam-na à mão para criar a moeda acabada.
@@ -1413,7 +1413,7 @@ Mais tarde, como veremos numa secção posterior, os gregos aperfeiçoaram esta 
 A tecnologia de cunhagem manual de moedas individualmente desempenhou provavelmente um papel no controlo da inflação durante esse período, embora as moedas fossem frequentemente diluídas para aumentar a produção. Este facto foi particularmente evidente durante o período romano e, em menor grau, durante certas guerras do período grego. Embora a cunhagem de uma moeda de cada vez limitasse a capacidade de produção em massa da autoridade, contribuía efetivamente para o controlo da inflação, apesar das desvalorizações significativas que se verificavam. Assim, a evolução passou de uma mancha de metal a ser perfurada para uma moeda redonda e martelada.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/pt/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Aqui em baixo, pode admirar um exemplo notável das pedras monumentais da ilha d
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/pt/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ O prémio monetário baseia-se simplesmente na confiança de que alguém trocar�
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/pt/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Aqui em baixo, pode ver um tweet de Stephanie Kelton, que é uma espécie de mul
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/pt/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ E eu tenho a sorte de ter uma cópia de uma dracma grega desse período com a fa
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/pt/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ O encontro decisivo com os gregos do sul de Itália introduziu verdadeiramente o
 De facto, muitas moedas romanas do período da República representam mitos de fundação. Podes ver a minha aqui em baixo: é uma moeda soberba e verdadeira do rei Tácio. Ilustra o mito do rapto das mulheres pelos sabinos. Tácio era o rei desta região e o mito fundador conta como os romanos raptaram as mulheres dos sabinos, uma população que vivia nas proximidades. Posteriormente, o rei Tácio tornou-se co-rei de Rómulo, um dos fundadores de Roma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/pt/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Aqui, podemos revisitar um conceito que já discutimos anteriormente sobre os gr
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/pt/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Após o assassinato de César em 44 a.C., Octávio (Augusto) assumiu o controlo 
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/pt/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/pt/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/pt/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/pt/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Esta parte permite-me apresentar a última peça desta secção: o antoniniano. 
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/pt/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/pt/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Foi de facto Aureliano que inventou esta forma de desvalorização, muito mais r
 Para ilustrar visualmente esta desvalorização extrema, encontrei algumas estatísticas fascinantes sobre o preço dos cereais no Egito desde 40 a.C. até ao século III, ou seja, durante mais de 300 anos. Abaixo, pode ver-se uma tetradracma grega da minha coleção. Nessa altura, no Egito sob ocupação romana no século III, o equivalente era uma tetradracma egípcia. A denominação de dracmas ainda estava em uso e correspondia a um denário.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/pt/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/pt/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Como primeiro artefacto relacionado com este período, permitam-me que vos mostr
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/pt/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Para fazer a ligação com os Templários, aqui em baixo pode observar uma moeda
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/pt/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Aqui em baixo pode ver uma reprodução de um Florin: um Florin de ouro feito de
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/pt/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Este regresso à moeda de ouro foi motivado por um contexto específico: o colap
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/pt/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/pt/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Foi também durante este período que a Europa teve conhecimento da existência 
 Estamos a referir-nos à técnica de cunhagem com pêndulo mencionada anteriormente no curso. Este método permitia a produção de moedas mais uniformes em comparação com a cunhagem a martelo e, o que é mais importante, permitia inscrições à volta do bordo da moeda, como demonstrei anteriormente. A moeda abaixo é um táler europeu de 1793, que mostra claramente a escrita na orla.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/pt/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Em resposta à procura de ouro e prata por parte da Europa, "a motivação const
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/pt/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Com a conquista do Novo Mundo, **Espanha** tornou-se o ator dominante. O seu mon
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/pt/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ O real espanhol, também conhecido como "peça de oito", recebeu esta alcunha po
 O que é particularmente interessante é o facto de o dólar espanhol ser a moeda de reserva internacional na altura. As autoridades espanholas também emitiam a sua própria moeda local, o maravedi, e ajustavam regularmente a oferta de moeda através de recolhas. Por exemplo, uma moeda de cobre ou bronze que inicialmente valia um maravedi podia ser retirada e carimbada com "2", depois com "4" e assim por diante, podendo chegar a "8" Na fotografia de alta resolução, pode ver-se claramente o "8" estampado na moeda. Este método expandiu efetivamente a oferta de dinheiro... o que inevitavelmente levou à inflação.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/pt/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Após o apogeu ibérico, os **Países Baixos** emergiram como uma nova potência
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/pt/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/pt/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Leis mais restritivas tentaram impor o assignat, mas sem sucesso. O governo tent
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/pt/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Leis mais restritivas tentaram impor o assignat, mas sem sucesso. O governo tent
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/pt/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ O soberano era uma moeda monetária - uma moeda de ouro que valia originalmente 
 Antes do famoso soberano, existia o guinéu, que funcionava segundo o mesmo princípio. O nome da guiné deve-se aos metais preciosos que continha, provenientes da região da Guiné.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/pt/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/pt/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antuérpia acolhia feiras comerciais onde os comerciantes se reuniam frequenteme
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/pt/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Depois veio o pânico de 1776. Toda a gente correu para a pirâmide monetária. 
 Passámos do florim para a criação do Banco de Inglaterra. Claro que, entretanto, houve a Primeira e a Segunda Guerras Mundiais, mas antes, em 1796, também se registaram desenvolvimentos do outro lado do Atlântico. Em 1776, a América ainda era uma colónia britânica e as colónias utilizavam este papel-moeda. Abaixo encontra-se uma nota de dois xelins do Connecticut de 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/pt/040.webp)
 
 
 Antes de declararem guerra à Inglaterra e de emitirem a sua própria moeda, as colónias utilizaram este papel-moeda, juntamente com o dólar espanhol, para as transacções em numerário. De facto, o termo "dólar" continuou a designar o dólar americano.
@@ -3767,7 +3767,7 @@ Antes de declararem guerra à Inglaterra e de emitirem a sua própria moeda, as 
 Se não estou em erro, em 1792 aprovaram uma lei que lhes permitia cunhar moeda. A título de exemplo, o que se segue é um dólar americano da era moderna.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/pt/041.webp)
 
 
 Bem, obviamente, não tem um valor facial de apenas um dólar; vale cerca de 30 ou 40 dólares, uma vez que representa uma onça de prata. O seu valor flutua com base no preço da prata, situando-se normalmente pelo menos nos 30 ou 40 dólares americanos. Hoje em dia, é claro, um dólar de papel mantém apenas o seu valor facial de um dólar, mas nessa altura, o dólar americano estava enraizado neste valor de prata.
@@ -3777,7 +3777,7 @@ Falemos agora da Guerra Civil na América. Os Confederados estavam a imprimir di
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/pt/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Os seus adversários do Norte também tinham dólares. Em cima, podem ver-se os 
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/pt/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ No rescaldo da Primeira Guerra Mundial, a última série de notas impressas incl
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/pt/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Abaixo pode ver-se um certificado de ouro de 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/pt/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Após a emissão da Ordem Executiva 6102, apreenderam todo o ouro e trocaram 20,
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/pt/046.webp)
 
 
 O conceito de curso legal surge aqui, substituindo a frase "resgatável em ouro" As duas notas podem parecer idênticas, com apenas algumas palavras a mudar, mas a fraude reside no facto de o dólar ter sido desvalorizado durante este período; passou de uma onça de ouro avaliada em 20,67 dólares para 35 dólares por onça em 1934. Isto representou uma desvalorização de aproximadamente 40%!
@@ -3903,7 +3903,7 @@ Com este sistema, Law associou o papel-moeda às acções da sua empresa. Quanto
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/pt/047.webp)
 
 
 

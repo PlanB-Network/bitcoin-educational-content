@@ -278,7 +278,6 @@ Ta juhib tähelepanu sellele, et paljud süsteemid, nii looduslikud kui ka kunst
 
 ![](assets/en/002.webp)
 
-*Kalakoolidel ei ole juhte*
 
 
 Ükskõik, mida te Bitcoin-st arvate, selle detsentraliseeritud olemus muudab selle kontrollimise keeruliseks. Bitcoin on olemas ja te ei saa selle vastu midagi ette võtta. Seda tuleb uurida, mitte arutada.
@@ -372,7 +371,7 @@ Selle jutu sisuks on see, et Trustless süsteemi ei saa ehitada usaldusväärse 
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless baas Layer võimaldab erinevaid kompromisse kõrgematel tasanditel
@@ -536,7 +535,6 @@ Artiklis võetakse kokku Blockchain privaatsuse peamised probleemid, nimelt Addr
 ![](assets/en/005.webp)
 
 
-Blockchain tüüpilised privaatsuse lekked
 
 
 Chris Belcher [kirjutas väga üksikasjalikult](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) erinevatest eraelu puutumatuse leketest, mis võivad juhtuda Bitcoin Blockchain puhul. Soovitame lugeda vähemalt esimesed alapeatükid "Blockchain rünnakud privaatsusele"
@@ -632,7 +630,7 @@ Ta mainis seda näidet teiste hulgas ka Bitcoin wiki [Privacy page](https://en.B
 Pange tähele, kuidas paremat privaatsust on võimalik saavutada, kui ehitada süsteemid Bitcoin peale, nagu see on Lightning Network puhul:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin peal olevad kihid võivad lisada privaatsust
@@ -731,7 +729,7 @@ Mis juhtub, kui blokeeritud toetus läheneb nullile? Et asi oleks lihtne, oletam
 Täna on omanikud need, kes maksavad turvalisuse eest (raha inflatsiooni kaudu). Homme on kulutajate kord seda koormat kuidagi kanda, nagu allpool näidatud.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Aja möödudes nihkub julgestuskulude kandmine valdajatelt kulutajatele
@@ -1102,7 +1100,6 @@ Nagu tsitaadis ka mainitakse, ei ole Sybil-rünnak Bitcoin võrgus tõhus, sest 
 ![](assets/en/009.webp)
 
 
-Väljavõte lihtsast sabotaažikäsiraamatust
 
 
 Vastase mõtteviisi paremaks mõistmiseks võib olla kasulik saada aimu sellest, kuidas nad tegutsevad. USA valitsuse asutus nimega Office of Strategic Services, mis tegutses II maailmasõja ajal ja mille üks eesmärke oli spionaaž, sabotaaž ja propaganda levitamine, koostas oma töötajatele [käsiraamatu](https://www.gutenberg.org/ebooks/26184) selle kohta, kuidas vastast õigesti saboteerida. Selle pealkiri oli "Simple Sabotage Field Manual" ja see sisaldas konkreetseid näpunäiteid vaenlase infiltreerimiseks, et muuta nende elu Hard. Nipid ulatuvad laopõletamisest kuni harjutuste kulumise põhjustamiseni, et vähendada vaenlase
@@ -1662,7 +1659,6 @@ Mitmekihiline protokoll algab kahe või enama inimese kokkuleppimisega, mis pann
 
 ![](assets/en/017.webp)
 
-Tüüpiline Layer 2 protokoll Bitcoin, Layer 1 peal.
 
 
 See, kuidas see alustamistehing luuakse, on protokollides erinev, kuid ühine on see, et osalejad loovad allkirjastamata alustamistehingu ja mitu eelallkirjastatud karistustehingut, mis kulutavad alustamistehingu väljundit erinevalt. Seejärel allkirjastatakse alustamistehing täielikult ja avaldatakse Blockchain-le ning karistustehingud võivad olla täielikult allkirjastatud ja avaldatud, et karistada vääralt käituvat osapoolt. See motiveerib osalejaid oma lubadustest kinni pidama, nii et protokoll saaks töötada Trustless viisil.

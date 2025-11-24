@@ -1163,10 +1163,10 @@ L'utilisation de logiciels libres et open source (FLOSS) est essentielle dans l'
 ### Nature et importance des logiciels
 
 
-Le logiciel, à la base, est un ensemble de codes et de données qui indiquent aux appareils informatiques comment effectuer des tâches spécifiques. Contrairement au matériel, dont la reproduction nécessite des matériaux physiques et des processus de fabrication, les logiciels peuvent être facilement copiés et distribués à un coût pratiquement nul. Cette différence fondamentale joue un rôle essentiel dans la prolifération et le développement des logiciels.
+À la base, un logiciel est un ensemble de codes et de données qui indiquent aux appareils informatiques comment effectuer des tâches spécifiques. Contrairement au matériel, dont la reproduction nécessite des matériaux physiques et des processus de fabrication, les logiciels peuvent être facilement copiés et distribués à un coût pratiquement nul. Cette différence fondamentale joue un rôle essentiel dans la prolifération et le développement des logiciels.
 
 
-L'une des principales distinctions entre les logiciels et le matériel est le concept de source ouverte. Bien que le matériel à code source ouvert existe, il n'est pas aussi répandu en raison de la complexité de la duplication des objets physiques. En revanche, les logiciels libres prospèrent en raison de la facilité de reproduction et de distribution. Les logiciels libres permettent à quiconque de consulter, de modifier et de distribuer le code, ce qui favorise un environnement de collaboration qui accélère l'innovation et la résolution des problèmes.
+L'une des principales distinctions entre les logiciels et le matériel est le concept d'open source. Bien que le matériel open source existe, il est moins répandu en raison de la complexité de la duplication des objets physiques. En revanche, les logiciels libres prospèrent en raison de la facilité de reproduction et de distribution. Les logiciels libres permettent à quiconque de consulter, de modifier et de distribuer le code, ce qui favorise un environnement de collaboration qui accélère l'innovation et la résolution des problèmes.
 
 
 Le cadre juridique régissant les logiciels s'articule principalement autour des lois sur le droit d'auteur. Ces lois accordent au créateur du logiciel des droits exclusifs d'utilisation, de modification et de distribution de son œuvre. Toutefois, les licences de logiciels libres fournissent un mécanisme permettant de partager ces droits avec le public, sous certaines conditions. Cette structure juridique est essentielle pour comprendre la dynamique de la distribution et de la modification des logiciels.
@@ -1178,19 +1178,19 @@ En résumé, la nature du logiciel en tant que code et données facilement repro
 ### Histoire du mouvement du logiciel libre
 
 
-Le mouvement du logiciel libre trouve ses racines au début des années 1980, principalement sous l'impulsion de la vision de Richard Stallman sur la liberté des logiciels. Frustré par la nature restrictive des logiciels propriétaires, Stallman s'est donné pour mission de créer des logiciels que les utilisateurs pourraient librement utiliser, modifier et partager. Cela a conduit à la création de la Free Software Foundation (FSF) en 1985.
+Le mouvement pour les logiciels libres trouve ses racines au début des années 1980, principalement sous l'impulsion de la vision de Richard Stallman sur la liberté des logiciels. Frustré par la nature restrictive des logiciels propriétaires, Stallman s'est donné pour mission de créer des logiciels que les utilisateurs pourraient librement utiliser, modifier et partager. Cela a conduit à la création de la **Free Software Foundation** (FSF) en 1985.
 
 
-L'une des contributions importantes de Stallman a été le développement du projet GNU, visant à créer un système d'exploitation libre de type Unix. GNU, qui signifie "GNU's Not Unix" (GNU n'est pas Unix), fournit de nombreux composants essentiels à un système d'exploitation entièrement libre. Cependant, il manquait un noyau, la partie centrale du système d'exploitation.
+L'une des contributions majeures de Stallman a été le développement du projet GNU, visant à créer un système d'exploitation libre de type Unix. GNU, qui signifie "GNU's Not Unix" (GNU n'est pas Unix), fournit de nombreux composants essentiels à un système d'exploitation entièrement libre. Cependant, il manquait un noyau, la partie centrale du système d'exploitation.
 
 
-Cette lacune a été comblée par la création du noyau Linux par Linus Torvalds en 1991. Le noyau de Torvalds, combiné aux composants GNU, a donné naissance à un système d'exploitation libre entièrement fonctionnel connu sous le nom de GNU/Linux. Cette collaboration entre la philosophie Commitment de Stallman sur la liberté des logiciels et la contribution pratique de Torvalds illustre la puissance de l'approche open-source.
+Cette lacune a été comblée par la création du noyau Linux par Linus Torvalds en 1991. Le noyau de Torvalds, combiné aux composants GNU, a donné naissance à un système d'exploitation libre entièrement fonctionnel connu sous le nom de GNU/Linux. Cette collaboration entre l'engagement philosophique de Stallman pour la liberté des logiciels et la contribution pratique de Torvalds illustre la puissance de l'approche open source.
 
 
 ![Image](assets/en/011.webp)
 
 
-Le mouvement du logiciel libre a eu un impact profond sur l'industrie du logiciel, en promouvant l'idée que les logiciels devraient être libres pour que chacun puisse les utiliser, les modifier et les partager. Ses principes ont jeté les bases d'un grand nombre de projets et de communautés open-source qui prospèrent aujourd'hui.
+Le mouvement du logiciel libre a profondément influencé l'industrie du logiciel, en promouvant l'idée que les logiciels devraient être libres afin que chacun puisse les utiliser, les modifier et les partager. Ses principes ont posé les bases d'un grand nombre de projets et de communautés open source qui prospèrent aujourd'hui.
 
 
 ### Économie et financement de l'open source
@@ -1199,16 +1199,16 @@ Le mouvement du logiciel libre a eu un impact profond sur l'industrie du logicie
 Le financement et le maintien des projets de logiciels libres présentent des défis et des opportunités uniques. Contrairement aux logiciels propriétaires, qui génèrent des revenus grâce aux ventes et aux droits de licence, les projets de logiciels libres reposent souvent sur des modèles de financement alternatifs.
 
 
-Un exemple de réussite est Bitcoin core, un élément essentiel de l'infrastructure Bitcoin. Les développeurs qui travaillent sur Bitcoin core sont souvent financés par des subventions, des dons et des parrainages d'organisations qui bénéficient de la réussite du projet. Ce modèle permet aux développeurs de se concentrer sur l'amélioration du logiciel sans les contraintes d'un financement commercial traditionnel.
+Un exemple de réussite est Bitcoin Core, un élément essentiel de l'infrastructure Bitcoin. Les développeurs qui travaillent sur Bitcoin Core sont souvent financés par des subventions, des dons et des parrainages d'organisations qui bénéficient de la réussite du projet. Ce modèle permet aux développeurs de se concentrer sur l'amélioration du logiciel sans les contraintes d'un financement commercial traditionnel.
 
 
 ![Image](assets/en/012.webp)
 
 
-Le système d'exploitation Linux en est un autre exemple frappant. De nombreuses entreprises, comme IBM, Red Hat et Intel, contribuent au développement de Linux parce que leurs produits et services dépendent d'un système d'exploitation robuste et sûr. Ces entreprises apportent un soutien financier, contribuent au code et offrent des ressources pour maintenir et améliorer l'écosystème Linux.
+Le système d'exploitation Linux en est un autre exemple notable. De nombreuses entreprises, comme IBM, Red Hat et Intel, contribuent au développement de Linux parce que leurs produits et services dépendent d'un système d'exploitation robuste et sûr. Ces entreprises apportent un soutien financier, contribuent au code et offrent des ressources pour maintenir et améliorer l'écosystème Linux.
 
 
-Les licences libres, telles que MIT, GPL et AGPL, jouent également un rôle crucial dans la dynamique économique des logiciels libres. Les licences permissives comme le MIT permettent une utilisation plus souple du code, y compris la commercialisation. En revanche, les licences à gauche d'auteur comme la GPL garantissent que tout travail dérivé doit également être à source ouverte, ce qui favorise un environnement de collaboration.
+Les licences libres, telles que MIT, GPL et AGPL, jouent également un rôle crucial dans la dynamique économique des logiciels libres. Les licences permissives comme le MIT permettent une utilisation plus flexible du code, y compris la commercialisation. En revanche, les licences *copyleft* comme GPL garantissent que tout travail dérivé doit également être open source, ce qui favorise un environnement de collaboration.
 
 
 ![Image](assets/en/013.webp)
